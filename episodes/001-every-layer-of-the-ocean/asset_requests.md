@@ -330,6 +330,10 @@ Shots listed are from `shotlist.json`. Priority A = hero or recurring, B = suppo
 - **harpoon_tooth (B):** **DONE** (preview `assets/previews/001-props.png`) a diagram close-up of the cone snail's hollow, barbed radular tooth: a long, slim, pale ivory
   harpoon with a hollow channel line, backward barbs near the tip, and a pointed tip to the right. About 500 long,
   centred. **Shots:** s029
+- **thumbs_up_hand (visual-review fix):** **DONE** (preview `assets/previews/001-every-layer-of-the-ocean-thumbs-up.png`) a crude cartoon
+  thumbs-up: fist with four stacked curled fingers, thumb straight up with a pale thumbnail on top, blue sleeve cuff.
+  About 250 wide by 490 tall, centred; the top of the thumbnail is at local y=-245. Replaces the skin-coloured
+  ellipse and rect in s213. Suggested: asset at x 960, y 790, scale 1.2, with `small_car` at x 935, y 500 (the car's wheels rest on the thumbnail). **Shots:** s213
 
 ## Characters and Doug props
 

@@ -1,5 +1,5 @@
 {
- "_draft": "DIRECTOR PLACEHOLDER - graphic designer must replace (style bible 7.10, archetype B)",
+ "_note": "Archetype B depth pyramid (style bible 2.B / 7.10). Also the opening shot s001 (scene_ref).",
  "background": "#ffffff",
  "size": [
   1280,
@@ -10,224 +10,529 @@
    "type": "poly",
    "points": [
     [
-     460,
-     40
+     435.0,
+     8.0
     ],
     [
-     820,
-     40
+     845.0,
+     8.0
     ],
     [
-     895,
-     200
+     885.0,
+     148.8
     ],
     [
-     385,
-     200
+     395.0,
+     148.8
     ]
    ],
    "fill": "#3a9ad9",
-   "width": 6
-  },
-  {
-   "type": "asset",
-   "name": "portuguese_man_o_war",
-   "x": 520.0,
-   "y": 120.0,
-   "scale": 0.28
-  },
-  {
-   "type": "asset",
-   "name": "cone_snail",
-   "x": 640.0,
-   "y": 120.0,
-   "scale": 0.28
-  },
-  {
-   "type": "asset",
-   "name": "bobbit_worm",
-   "x": 760.0,
-   "y": 120.0,
-   "scale": 0.28
-  },
-  {
-   "type": "text",
-   "text": "MAN O' WAR",
-   "x": 350,
-   "y": 120.0,
-   "size": 26,
-   "bold": true,
-   "max_width": 200
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
   },
   {
    "type": "poly",
    "points": [
     [
-     310,
-     200
+     395.0,
+     148.8
     ],
     [
-     970,
-     200
+     885.0,
+     148.8
     ],
     [
-     1045,
-     360
+     925.0,
+     289.6
     ],
     [
-     235,
-     360
+     355.0,
+     289.6
     ]
    ],
    "fill": "#1b4f86",
-   "width": 6
-  },
-  {
-   "type": "asset",
-   "name": "humboldt_squid",
-   "x": 392.5,
-   "y": 280.0,
-   "scale": 0.28
-  },
-  {
-   "type": "asset",
-   "name": "giant_squid",
-   "x": 557.5,
-   "y": 280.0,
-   "scale": 0.28
-  },
-  {
-   "type": "asset",
-   "name": "barreleye_fish",
-   "x": 722.5,
-   "y": 280.0,
-   "scale": 0.28
-  },
-  {
-   "type": "asset",
-   "name": "vampire_squid",
-   "x": 887.5,
-   "y": 280.0,
-   "scale": 0.28
-  },
-  {
-   "type": "text",
-   "text": "HUMBOLDT",
-   "x": 1080,
-   "y": 280.0,
-   "size": 26,
-   "bold": true,
-   "max_width": 200
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
   },
   {
    "type": "poly",
    "points": [
     [
-     160,
-     360
+     355.0,
+     289.6
     ],
     [
-     1120,
-     360
+     925.0,
+     289.6
     ],
     [
-     1195,
-     520
+     965.0,
+     430.40000000000003
     ],
     [
-     85,
-     520
+     315.0,
+     430.40000000000003
     ]
    ],
    "fill": "#0b2447",
-   "width": 6
-  },
-  {
-   "type": "asset",
-   "name": "anglerfish",
-   "x": 400.0,
-   "y": 440.0,
-   "scale": 0.28
-  },
-  {
-   "type": "asset",
-   "name": "black_swallower",
-   "x": 880.0,
-   "y": 440.0,
-   "scale": 0.28
-  },
-  {
-   "type": "text",
-   "text": "ANGLERFISH / BLACK SWALLOWER",
-   "x": 50,
-   "y": 440.0,
-   "size": 26,
-   "bold": true,
-   "max_width": 200
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
   },
   {
    "type": "poly",
    "points": [
     [
-     10,
-     520
+     315.0,
+     430.40000000000003
     ],
     [
-     1270,
-     520
+     965.0,
+     430.40000000000003
     ],
     [
-     1345,
-     680
+     1005.0,
+     571.2
     ],
     [
-     -65,
-     680
+     275.0,
+     571.2
     ]
    ],
    "fill": "#050a1f",
-   "width": 6
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
   },
   {
-   "type": "asset",
-   "name": "zombie_worms",
-   "x": 220.0,
-   "y": 600.0,
-   "scale": 0.28
+   "type": "poly",
+   "points": [
+    [
+     275.0,
+     571.2
+    ],
+    [
+     1005.0,
+     571.2
+    ],
+    [
+     1045.0,
+     712.0
+    ],
+    [
+     235.0,
+     712.0
+    ]
+   ],
+   "fill": "#020308",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
   },
   {
-   "type": "asset",
-   "name": "hadal_snailfish",
-   "x": 640.0,
-   "y": 600.0,
-   "scale": 0.28
+   "type": "tile",
+   "x": 441.875,
+   "y": 13.0,
+   "w": 195.125,
+   "h": 130.8,
+   "fill": "#ffffff",
+   "radius": 28,
+   "frame_width": 5
   },
   {
-   "type": "asset",
-   "name": "plastic_bag",
-   "x": 1060.0,
-   "y": 600.0,
-   "scale": 0.28
+   "type": "tile",
+   "x": 447.875,
+   "y": 19.0,
+   "w": 183.125,
+   "h": 118.80000000000001,
+   "fill": "#ffe24a",
+   "radius": 22,
+   "frame_width": 6,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "portuguese_man_o_war",
+     "x": 538.9,
+     "y": 89.1,
+     "scale": 0.336
+    }
+   ]
   },
   {
    "type": "text",
-   "text": "ZOMBIE WORMS",
-   "x": 1380,
-   "y": 600.0,
-   "size": 26,
+   "text": "Man o' War",
+   "x": 213.5,
+   "y": 78.4,
+   "size": 52,
+   "font": "ComicNeue-Bold",
    "bold": true,
-   "max_width": 200
+   "color": "#000000",
+   "max_width": 367.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 643.0,
+   "y": 13.0,
+   "w": 195.125,
+   "h": 130.8,
+   "fill": "#ffffff",
+   "radius": 28,
+   "frame_width": 5
+  },
+  {
+   "type": "tile",
+   "x": 649.0,
+   "y": 19.0,
+   "w": 183.125,
+   "h": 118.80000000000001,
+   "fill": "#8be04e",
+   "radius": 22,
+   "frame_width": 6,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "bobbit_worm_strike",
+     "x": 740.2,
+     "y": 130.1,
+     "scale": 0.248
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Bobbit Worm",
+   "x": 1066.5,
+   "y": 78.4,
+   "size": 52,
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "color": "#000000",
+   "max_width": 367.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 401.875,
+   "y": 153.8,
+   "w": 235.125,
+   "h": 130.8,
+   "fill": "#ffffff",
+   "radius": 28,
+   "frame_width": 5
+  },
+  {
+   "type": "tile",
+   "x": 407.875,
+   "y": 159.8,
+   "w": 223.125,
+   "h": 118.80000000000001,
+   "fill": "#4fd6f0",
+   "radius": 22,
+   "frame_width": 6,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "giant_squid",
+     "x": 475.9,
+     "y": 215.8,
+     "scale": 0.42
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Giant Squid",
+   "x": 193.5,
+   "y": 219.2,
+   "size": 52,
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "color": "#000000",
+   "max_width": 327.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 643.0,
+   "y": 153.8,
+   "w": 235.125,
+   "h": 130.8,
+   "fill": "#ffffff",
+   "radius": 28,
+   "frame_width": 5
+  },
+  {
+   "type": "tile",
+   "x": 649.0,
+   "y": 159.8,
+   "w": 223.125,
+   "h": 118.80000000000001,
+   "fill": "#ff6ec7",
+   "radius": 22,
+   "frame_width": 6,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "barreleye_fish",
+     "x": 766.6,
+     "y": 232.1,
+     "scale": 0.38
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Barreleye",
+   "x": 1086.5,
+   "y": 219.2,
+   "size": 52,
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "color": "#000000",
+   "max_width": 327.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 375.0,
+   "y": 294.6,
+   "w": 262,
+   "h": 130.8,
+   "fill": "#ffffff",
+   "radius": 28,
+   "frame_width": 5
+  },
+  {
+   "type": "tile",
+   "x": 381.0,
+   "y": 300.6,
+   "w": 250,
+   "h": 118.80000000000001,
+   "fill": "#ffe24a",
+   "radius": 22,
+   "frame_width": 6,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "anglerfish",
+     "x": 506.9,
+     "y": 378.1,
+     "scale": 0.283
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Anglerfish",
+   "x": 173.5,
+   "y": 360.0,
+   "size": 52,
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "color": "#000000",
+   "max_width": 287.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 643.0,
+   "y": 294.6,
+   "w": 262,
+   "h": 130.8,
+   "fill": "#ffffff",
+   "radius": 28,
+   "frame_width": 5
+  },
+  {
+   "type": "tile",
+   "x": 649.0,
+   "y": 300.6,
+   "w": 250,
+   "h": 118.80000000000001,
+   "fill": "#4fd6f0",
+   "radius": 22,
+   "frame_width": 6,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "black_swallower_full",
+     "x": 774.5,
+     "y": 352.3,
+     "scale": 0.513
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Black Swallower",
+   "x": 1106.5,
+   "y": 360.0,
+   "size": 52,
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "color": "#000000",
+   "max_width": 287.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 484.0,
+   "y": 435.40000000000003,
+   "w": 312,
+   "h": 130.8,
+   "fill": "#ffffff",
+   "radius": 28,
+   "frame_width": 5
+  },
+  {
+   "type": "tile",
+   "x": 490.0,
+   "y": 441.40000000000003,
+   "w": 300,
+   "h": 118.80000000000001,
+   "fill": "#8be04e",
+   "radius": 22,
+   "frame_width": 6,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "zombie_worms",
+     "x": 636.1,
+     "y": 546.8,
+     "scale": 0.702
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Zombie Worms",
+   "x": 153.5,
+   "y": 500.8,
+   "size": 52,
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "color": "#000000",
+   "max_width": 247.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 375.0,
+   "y": 576.2,
+   "w": 262,
+   "h": 130.8,
+   "fill": "#ffffff",
+   "radius": 28,
+   "frame_width": 5
+  },
+  {
+   "type": "tile",
+   "x": 381.0,
+   "y": 582.2,
+   "w": 250,
+   "h": 118.80000000000001,
+   "fill": "#ff4a3a",
+   "radius": 22,
+   "frame_width": 6,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "plastic_bag",
+     "x": 505.2,
+     "y": 664.1,
+     "scale": 0.399
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Challenger Deep",
+   "x": 133.5,
+   "y": 641.6,
+   "size": 45,
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "color": "#000000",
+   "max_width": 207.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 643.0,
+   "y": 576.2,
+   "w": 262,
+   "h": 130.8,
+   "fill": "#ffffff",
+   "radius": 28,
+   "frame_width": 5
+  },
+  {
+   "type": "tile",
+   "x": 649.0,
+   "y": 582.2,
+   "w": 250,
+   "h": 118.80000000000001,
+   "fill": "#4f7bff",
+   "radius": 22,
+   "frame_width": 6,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "hadal_snailfish",
+     "x": 788.7,
+     "y": 636.6,
+     "scale": 0.67
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Snailfish",
+   "x": 1146.5,
+   "y": 619.6,
+   "size": 52,
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "color": "#000000",
+   "max_width": 207.0,
+   "boil": 0,
+   "wobble": 0
   },
   {
    "type": "doug",
-   "x": 1150,
-   "y": 600,
-   "scale": 0.25,
+   "x": 1120,
+   "y": 540,
+   "scale": 0.3,
    "pose": "float",
    "expression": "shock",
    "gear": [
     "mask"
    ]
+  },
+  {
+   "type": "circle",
+   "x": 1178,
+   "y": 452,
+   "r": 7,
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": 1192,
+   "y": 432,
+   "r": 5,
+   "width": 3
   }
  ]
 }

@@ -1,0 +1,366 @@
+{
+ "name": "thumbs_up_hand",
+ "description": "Crude human-tier cartoon thumbs-up: fist with curled fingers stacked on the right, thumb straight up with a pale thumbnail on top, blue sleeve cuff at the bottom. Skin #ffd8c0. Centred at (0,0); top of the thumb (the thumbnail surface) is at local y=-245, so a prop resting on it sits at asset_y - 245*scale. ~250 wide x 490 tall.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "hand",
+  "human",
+  "thumb",
+  "thumbs up",
+  "scale comparison",
+  "everyday"
+ ],
+ "auto_ink": true,
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     55
+    ],
+    [
+     60,
+     55
+    ],
+    [
+     55,
+     225
+    ],
+    [
+     -65,
+     225
+    ]
+   ],
+   "fill": "#ffd8c0",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -105,
+     -95
+    ],
+    [
+     -40,
+     -120
+    ],
+    [
+     60,
+     -115
+    ],
+    [
+     120,
+     -85
+    ],
+    [
+     125,
+     15
+    ],
+    [
+     110,
+     105
+    ],
+    [
+     40,
+     130
+    ],
+    [
+     -70,
+     125
+    ],
+    [
+     -110,
+     75
+    ],
+    [
+     -115,
+     -25
+    ]
+   ],
+   "fill": "#ffd8c0",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -100,
+     -75
+    ],
+    [
+     -70,
+     -85
+    ],
+    [
+     -75,
+     55
+    ],
+    [
+     -95,
+     85
+    ],
+    [
+     -108,
+     15
+    ]
+   ],
+   "fill": "#eab596",
+   "width": 0,
+   "color": "#eab596"
+  },
+  {
+   "type": "ellipse",
+   "x": 85,
+   "y": -70,
+   "rx": 43.75,
+   "ry": 29,
+   "fill": "#ffd8c0",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     62,
+     -57
+    ],
+    [
+     100,
+     -53
+    ]
+   ],
+   "width": 2,
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": 81,
+   "y": -15,
+   "rx": 43.75,
+   "ry": 29,
+   "fill": "#ffd8c0",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     58,
+     -2
+    ],
+    [
+     96,
+     2
+    ]
+   ],
+   "width": 2,
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": 77,
+   "y": 40,
+   "rx": 43.75,
+   "ry": 29,
+   "fill": "#ffd8c0",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     54,
+     53
+    ],
+    [
+     92,
+     57
+    ]
+   ],
+   "width": 2,
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": 73,
+   "y": 95,
+   "rx": 37.5,
+   "ry": 29,
+   "fill": "#ffd8c0",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     108
+    ],
+    [
+     88,
+     112
+    ]
+   ],
+   "width": 2,
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     45,
+     -85
+    ],
+    [
+     30,
+     5
+    ],
+    [
+     40,
+     100
+    ]
+   ],
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -75,
+     -75
+    ],
+    [
+     -78,
+     -185
+    ],
+    [
+     -70,
+     -230
+    ],
+    [
+     -40,
+     -247
+    ],
+    [
+     -5,
+     -245
+    ],
+    [
+     18,
+     -225
+    ],
+    [
+     25,
+     -175
+    ],
+    [
+     22,
+     -95
+    ],
+    [
+     10,
+     -60
+    ],
+    [
+     -40,
+     -55
+    ]
+   ],
+   "fill": "#ffd8c0",
+   "width": 5
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -68,
+     -135
+    ],
+    [
+     -45,
+     -127
+    ],
+    [
+     -20,
+     -133
+    ]
+   ],
+   "width": 3,
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -55,
+     -190
+    ],
+    [
+     -58,
+     -225
+    ],
+    [
+     -40,
+     -237
+    ],
+    [
+     -12,
+     -237
+    ],
+    [
+     5,
+     -223
+    ],
+    [
+     3,
+     -190
+    ],
+    [
+     -25,
+     -183
+    ]
+   ],
+   "fill": "#fff0ea",
+   "width": 3,
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -48,
+     -223
+    ],
+    [
+     -25,
+     -230
+    ],
+    [
+     -5,
+     -221
+    ]
+   ],
+   "width": 2,
+   "color": "#ffffff",
+   "keep_ink": true
+  },
+  {
+   "type": "rect",
+   "x": -85,
+   "y": 185,
+   "w": 160,
+   "h": 60,
+   "fill": "#3a6fd8",
+   "width": 5
+  }
+ ]
+}
