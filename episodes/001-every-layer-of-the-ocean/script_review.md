@@ -1,111 +1,122 @@
-# Script review: 001 Every Layer of the Ocean (draft 1)
+# Script review: 001 Every Layer of the Ocean (draft 2, round 2)
 
-Screener, 2026-09-29. Inputs: style bible, series bible, brief.md, script.md, facts.md.
+Screener, 2026-09-29. Inputs: style bible, series bible, brief.md, script.md (draft 2), facts.md.
 
-## VERDICT: FAIL
+## VERDICT: PASS
 
 | Check | Result |
 |---|---|
-| Facts | **3 fact errors** (Vescovo dive count, giant squid "largest eye", anglerfish "almost every light is a trap") |
-| Hook | **7/10** (item 1's twist lands at word ~171, and the limit is 145) |
-| Structure & pacing | 7/10 |
-| Voice & humour | 7/10 (one rule 14 phrase lift) |
-| TTS readiness | Pass. Two pronunciation checks are advisory. |
+| Facts | **0 errors.** All 3 round-1 errors fixed; the 4 new claim groups were verified against sources |
+| Hook | **8/10.** Item 1 name at spoken word 32, twist at word 134 (about 0:41) |
+| Structure & pacing | 8/10 |
+| Voice & humour | 8/10 |
+| TTS readiness | Pass. Pronunciation checks are listed in the script header comment |
 | Policy | Pass (0 items) |
-| Length | Pass. 3,149 spoken words, target 3,100 to 3,400, about 16:09 at 195 wpm |
+| Length | Pass. 3,231 spoken words against a target of 3,100 to 3,400, about 16:34 at 195 wpm |
 
-Script Writer rules violated (section 7): **6, 14**. Minor misses: **4** (the Challenger Deep frame is 38 words, over the 35 limit) and **8** (Challenger Deep uses Everest, which is not an everyday object; the brief asked for it, so this one is advisory).
-Rules checked and passing: 1, 2, 3, 5, 7, 9 (average 16.1 words per sentence, Flesch about 69, longest sentence 35 words), 10 (borderline, see voice), 11, 12, 13.
+Script Writer rules (section 7): no blocking violations. There is one minor miss on **rule 9**: three items have no
+sentence of 6 words or fewer (see recommendation R2). Rules 1 to 8 and 10 to 14 pass. Average sentence length is
+16.1 words, the Flesch score is about 70, and the longest sentence is 35 words. No tic word is used more than once.
+Twist markers rotate, and none repeats in adjacent items.
 
 ---
+
+## Round-1 required fixes: status
+
+| # | Fix | Status | Where |
+|---|---|---|---|
+| 1 | Vescovo dive count | **Fixed.** Now "made two solo dives to the bottom". EYOS log confirms solo dives on 28 Apr (10,928 m) and 1 May 2019 (10,927 m). facts.md cites EYOS and Triton | line 267 |
+| 2 | "Largest eye" overclaim | **Fixed.** Now "Only its cousin, the colossal squid, has eyes to rival it" and "One of the largest eyes on Earth" | lines 111, 121 |
+| 3 | "Almost every one of them is a trap" | **Fixed.** Now "And some of it is bait." facts.md explains the hedge | line 169 |
+| 4 | Item 1 twist was late (word about 171) | **Fixed.** The twist now lands at spoken word 134 (about 0:41), inside the 145-word limit | line 25 |
+| 5 | Rule 14 lift, "The most disturbing part is" | **Fixed.** Now "Now for the part nobody warns you about: the males." | line 173 |
+
+The round-1 recommendations were also addressed. The repeated "took one look" kicker is gone. The Challenger Deep
+frame is now 33 words. The Black Swallower gained a jaw mechanism. The cone snail order of events is now correct
+(insulin, then the false mouth, then the harpoon). The facts.md sources were upgraded (Rosen 2015, Uchida and
+Eriksson 2017, Reef Builders, Kohn 2016).
 
 ## Required fixes
 
-1. **Fact error: Vescovo's dives.** Line 264: "In twenty nineteen, explorer Victor Vescovo made four dives to the bottom in his submersible, the Limiting Factor."
-   The Limiting Factor reached Challenger Deep four times between 28 April and 5 May 2019. Vescovo was aboard for only **two** of those dives, both solo (28 April and 1 May). Lahey and Struwe made one dive, and Lahey and Ramsay made the other.
-   Change it to "made two solo dives to the bottom", or to "his submersible, the Limiting Factor, reached the bottom four times in about a week". Fix facts.md to match and cite the Five Deeps dive log, for example https://www.eyos-expeditions.com/blog/mariana-trench-dive-completed-multiple-new-world-records-set/ .
-
-2. **Fact error: "largest eye".** Line 110: "...and it's the largest eye in the animal kingdom." Line 120: "The largest eye on Earth took one long look at Doug..."
-   Nilsson et al. 2012, the paper facts.md cites, gives the record jointly to giant **and colossal** squid. Both have eyes of about 27 cm, and many sources credit the colossal squid.
-   Change line 110 to "and only its cousin, the colossal squid, has eyes to rival it" or "tied for the largest eyes in the animal kingdom". Change line 120 to something like "One of the largest eyes on Earth..." (this also fixes voice item 6).
-
-3. **Fact error: an unsourced overclaim.** Line 168: "Almost every one of them is a trap."
-   facts.md has no source for this. Deep-sea bioluminescence is also used for defence, camouflage and signalling, and the vampire squid two items earlier uses it to escape. Change it to "And some of it is bait." or "A lot of it is bait." Either can be sourced to the esca material.
-
-4. **Rule 6 / hook: item 1's twist is late.** "The man o' war isn't one animal." arrives at spoken word **about 171**, which is about 0:53. The limit is about 145 words (0:45).
-   Cut about 30 words before line 24. For example, delete "It has no engine and no way to steer, so wind and currents push it wherever they like, sometimes in drifting fleets of more than a thousand." (27 words) and trim "Every tentacle is packed..." to one short clause. Another option is to move the twist paragraph ahead of the tentacle paragraph.
-
-5. **Rule 14: phrase lifted from the competitor.** Line 172: "The most disturbing part is the males."
-   "The most disturbing part is" is a Paint Explainer marker quoted in style bible 3.3. That is 4 or more consecutive words from his transcripts. Use a marker of our own, such as "Here's the part nobody warns you about." or "The strangest thing down here is the males." Keep rotation (rule 13) intact: item 7 uses "But here's the catch" and item 9 uses "What nobody expected".
+None.
 
 ## Recommended, not blocking
 
-6. **Repeated kicker shape.** Line 120 ("took one long look at Doug and decided he wasn't worth the effort") and line 228 ("took one look at Doug and passed") make the same joke. Rewrite one of them.
-7. **Short items.** Black Swallower is 216 words and Vampire Squid is 235 words (including the "Midnight zone." header). Bible 3.6 asks for 240 to 290 words for items 5 to 8 and 260 to 300 for items 9 to 11. Add about 30 words of mechanism to the Black Swallower, for example how it hinges its jaws or walks the prey in with its teeth (source it).
-8. **Challenger Deep frame (rule 4).** The first paragraph is 38 words. Trim it to 35 or fewer, for example by dropping "in the western Pacific".
-9. **Joke density (rule 10, borderline).** Items 1 and 7 each carry 3 or 4 comic lines in about 75 seconds ("floating committee", "committee takes a vote", "haven't even left the surface"; "finish Doug off with some style" plus the Doug beat plus "Doug is fine"). Consider cutting one line from each.
-10. **Upgrade the sources in facts.md.** These claims are backed by Wikipedia alone or with a weak partner:
-    - Humboldt flash rate. Add Rosen et al. 2015, J Exp Biol 218:265 ("global oscillation (2–4 Hz) ... between white and red"): https://journals.biologists.com/jeb/article/218/2/265/14301/
-    - Bobbit worm maximum length. The 299 cm specimen from Seto harbour, Kushimoto, reported by Uchida (2009). Cite a primary or press report.
-    - Barry, 2009. Add https://reefbuilders.com/2009/03/31/barry-giant-sea-worm-destroys-reef-aquarium/
-    - Cone snail human deaths: Kohn 2016 counts 36 deaths, 31 of them from C. geographus. This supports "almost every".
-11. **Cone snail order of events.** Lines 42 to 44 imply harpoon first, then insulin, then the false mouth. For C. geographus, the insulin cloud and the net-engulfing false mouth come *first*, and the harpoon strikes the fish inside the mouth. The script does not state the order outright, so this is not an error. A director's shotlist that follows the text literally would show it wrong. Consider "then, once the fish is inside, the harpoon goes in."
+- **R1. Item 1 is now short.** It is 210 words, against 240 to 280 in the brief and bible 3.6. The hook timing matters more,
+  so this is acceptable. If the writer revisits the script, add about 30 words *after* the twist (line 25 onward), for
+  example a mechanism beat on how the fishing zooids reel prey up to the digesting zooids. Source it, and do not move the twist later.
+- **R2. Rule 9, short sentences.** Giant Squid, Black Swallower and Challenger Deep have no sentence of 6 words or fewer,
+  apart from the name line and the zone header. Easy splits:
+  - line 117: "The squid looks at Doug. It keeps looking."
+  - line 201: split before "The tiny fish looks at Doug", or add "It isn't."
+  - line 271: "For once, he reaches the bottom alive." is already a 7-word sentence. Cut "For once," or split it elsewhere.
+- **R3. Zombie Worms is 245 words**, a little under the 260 to 300 range for items 9 to 11. This is fine as it stands.
+- **R4. Wording.** "Its cousin, the colossal squid" is loose, because the two squids are in different families. It is acceptable for
+  the narration, so no change is required.
+- **R5. Joke density in item 1** is still two comic lines close together ("floating committee" and then "The committee
+  takes a vote"). This is borderline under rule 10, and the callback works, so it can stay.
 
 ---
 
-## 1. Facts (18 claims sample-verified)
+## 1. Facts (round 2 new or changed claims verified, plus all 18 from round 1 carried over)
 
 | # | Claim (script) | Verdict | Source checked |
 |---|---|---|---|
-| 1 | Float about 15 cm above the waterline | OK | NOAA: "up to six inches" |
-| 2 | Fleets of more than a thousand | OK | NOAA: "legions of 1,000 or more" |
-| 3 | Tentacles average 10 m, up to 30 m | OK | NOAA |
-| 4 | Colony of genetically identical clones called zooids | OK | NOAA, verbatim |
-| 5 | Stranded animals can still sting weeks later | OK | NOAA: "even weeks after having washed ashore" |
-| 6 | Humboldt flashes red and white a few times a second | OK | Rosen et al. 2015: 2 to 4 Hz |
-| 7 | Seibel, hundreds of squid, light on, they fled, "surprised at how timid" | OK | ScienceDaily 2009 |
-| 8 | More than 500 stomachs, cannibalism in about a quarter, more common in bigger squid | OK | Markaida: 533 stomachs, 26% (NWF; SciELO) |
-| 9 | Bobbit worm up to about 3 m | OK | 299 cm record specimen (Uchida, Kushimoto) |
-| 10 | Barry, Cornwall, more than 1 m, found when the display was dismantled | OK | Reef Builders 2009; Science Focus (about 1.2 m) |
-| 11 | Giant squid eye 27 cm, pupil 9 cm, spots sperm whales | OK | Nilsson 2012 |
-| 12 | Giant squid eye "the largest eye in the animal kingdom" | **ERROR** | Nilsson 2012: shared with the colossal squid (fix 2) |
-| 13 | Black swallower, 2007, Grand Cayman, 19 cm fish, 86 cm snake mackerel, gas floated it | OK | Australian Geographic; Wikipedia |
-| 14 | Osedax on a whale skeleton at 4,204 m off Brazil, the deepest record | OK | Fujiwara et al. 2019 (O. braziliensis, São Paulo Ridge). Abyss placement confirmed. |
-| 15 | Snailfish at 8,336 m, Izu-Ogasawara, juvenile, predicted limit 8,200 to 8,400 m, no swim bladder, gelatinous body | OK | NHM 2023 |
-| 16 | Plastic bag at 10,898 m; about a third of the debris macro-plastic, most of it single-use | OK | Chiba et al. 2018 via EcoWatch and Euronews (more than 33%, 89% single-use) |
-| 17 | Amphipods at 7,000 to over 10,000 m, Mariana and Kermadec, every sample contaminated, 50 times the Liaohe paddy-field crabs, PCBs made 1930s to 1970s | OK | Newcastle University press release; NPR, LiveScience and ABC 2017 |
-| 18 | Vescovo "made four dives to the bottom" | **ERROR** | Five Deeps log: 4 Challenger Deep dives in total, Vescovo on 2 (fix 1) |
-| 19 | Deep-sea light: "Almost every one of them is a trap" | **ERROR (unsourced)** | Not in facts.md; contradicted by known defensive and signalling uses (fix 3) |
+| 1 | Vescovo "made two solo dives to the bottom" in the Limiting Factor, 2019 | OK | EYOS dive log: solo dives on 28 Apr and 1 May 2019; 4 Challenger Deep dives in total |
+| 2 | Upper jaws hinged at the front of the skull, swing down to take in something bigger than its head | OK | Wikipedia (Black swallower): "articulated with the skull at the front via the suspensorium ... encompass objects larger than the swallower's head" |
+| 3 | Teeth hooked, point backwards, fold down to let prey in, lock together to keep it | OK | WHOI Ocean Twilight Zone: "Hooked, backwards-pointing teeth retract to make room for prey, and interlock to keep it inside" |
+| 4 | "One early naturalist" suspected it walks its jaws up the prey | OK | Wikipedia: Theodore Gill's speculation, framed as a suspicion in the script |
+| 5 | More than twice its length, ten times its weight | OK | WHOI ("up to twice its length and ten times its weight"; quick facts: up to 4x); Australian Geographic; the 2007 specimen was 4.5x |
+| 6 | Black swallower about 25 cm | OK | Wikipedia: maximum 25 cm |
+| 7 | Vampire squid arm tips glow with pulsing blue light | OK | MBARI: "The tips of their eight arms glow with pulsing blue bioluminescence" |
+| 8 | Glowing sticky mucus cloud used to escape | OK | Aquarium of the Pacific: "cloud of bioluminescent sticky mucus that glows for up to 10 minutes" |
+| 9 | Passive lifestyle burns so little energy it suits low-oxygen water | OK | MBARI: "passive feeding strategy requires very little energy" |
+| 10 | Vampire squid 600 to 900 m, about 30 cm | OK | MBARI |
+| 11 | C. geographus "behind almost every recorded human death from a cone snail" | OK | Kohn 2016 (Int J Clin Pharmacol Ther 54:524): 36 deaths, 31 from C. geographus; abstract says "almost all the fatalities" |
+| 12 | Giant squid: "Only its cousin, the colossal squid, has eyes to rival it" / "One of the largest eyes on Earth" | OK | Nilsson et al. 2012 (a joint record) |
+| 13 | "Some of it is bait" (anglerfish esca) | OK | NHM; Oceanbites |
+| 14 | Cone snail order: insulin cloud, then the false mouth, then the harpoon | OK | NatGeo 2015; ScienceDaily 2015 |
+| 15 to 32 | The round-1 claims (man o' war, Humboldt, bobbit worm and Barry, barreleye, Osedax 4,204 m, snailfish 8,336 m, TMAO limit, Challenger Deep 10,935 m, Trieste, Cameron, plastic bag, amphipod PCBs) | OK | Verified in round 1; the text is unchanged or tightened |
 
-The claims the writer flagged are resolved as follows. Man o' War float and zooids: confirmed by NOAA. Humboldt flash rate: confirmed by a primary paper. Bobbit worm 3 m: confirmed. Black Swallower 2007: confirmed.
-Everything else in facts.md (Challenger Deep 10,935 m from Greenaway 2021, the Trieste details, the 52-year gap, the pressure arithmetic) is sourced and internally consistent.
+Every factual sentence has a matching entry in facts.md with a URL. No unsourced numbers were found.
 
-## 2. Opening: 7/10
-- Item 1's name arrives at spoken words 32 to 35, which is inside the 35-word limit but only just. There is no greeting, channel name or subscribe ask before it. The cold open is 31 words and uses "Doug did not agree to this." Good.
-- Item 1's twist arrives at word about 171 (about 0:53), against a limit of 145 words (0:45). This fails rule 6 and is the reason the score is below 8.
+## 2. Opening: 8/10
+- The cold open is 31 words, with no greeting, channel name, "in this video" or subscribe ask. The route-and-stakes line
+  is followed by "Doug did not agree to this." "Sunlight zone." comes next, and the item 1 name arrives at word 32.
+- The twist "The man o' war isn't one animal." arrives at word 134, about 0:41, which passes rule 6.
+- The score is not higher because the name arrives right at the 35-word edge and item 1 is now short (R1).
 
-## 3. Structure & pacing: 7/10
-- The depth axis is declared and followed monotonically. Five spoken zone headers, each placed right before an item name. The vampire squid moved to twilight as the brief instructed.
-- **Title honesty holds:** there is a death in every zone. Sunlight has deaths 1 and 2, twilight 3, midnight 4 and 5, abyss 6, hadal 7. The boss survival is fine.
-- Running gags used: "did not agree" (open, echoed in the outro), the death counter, the cap floating alone (Black Swallower, Bobbit Worm), befriending the killer (Man o' War, Anglerfish), and "Doug is fine" once. All within the bible's allowance.
-- Item lengths: 248, 243, 258, 244, 260, 260, 235, 255, 216, 245, 270, and 361 for the boss (outro excluded). Black Swallower and Vampire Squid are short (fix 7).
-- The ending follows the bible: final kicker, then a 23-word outro with the death counter and one CTA. No recap, no thanks.
+## 3. Structure & pacing: 8/10
+- The script declares a depth axis and follows it monotonically: five spoken zone headers, each placed just before an item name.
+  There are no transition sentences.
+- Item lengths: 210, 251, 258, 244, 264, 260, 267, 256, 294, 245, 270, and 358 for the boss (381 including the 23-word outro).
+  Items 1 and 10 are slightly under range (R1, R3). No item runs over.
+- Title honesty holds, with a death in every zone: sunlight 1 and 2, twilight 3, midnight 4 and 5, abyss 6, hadal 7.
+- Running gags are all present and within the bible's allowance: "did not agree" appears in the open and is echoed in the outro;
+  the death counter runs from 1 to 7; the cap floats alone after the Black Swallower and is stolen by the Bobbit Worm;
+  Doug befriends the man o' war and the anglerfish; "Doug is fine" appears once.
+- The ending follows the bible: boss kicker ("we had already left a bag"), then a 23-word outro with the counter and one CTA,
+  with no recap and no thanks.
 
-## 4. Voice & humour: 7/10
-- Average sentence length 16.1 words, Flesch about 69, no sentence over 35 words. On target. The tic words are nearly absent ("actually" appears once).
-- The deadpan narrator persona is consistent and adult-coded. The best lines are "floating committee", "fit in perfectly" and "we had already left a bag".
-- The score is reduced for the rule 14 lift (fix 5), the repeated "took one look at Doug" kicker (fix 6) and slightly heavy joke clustering (fix 9).
+## 4. Voice & humour: 8/10
+- Average sentence length is 16.1 words and the Flesch score is about 70. No sentence runs over 35 words.
+- The deadpan persona is consistent and adult-coded. The rule 14 lift is gone, and no PE marker phrase of 4 or more words remains.
+  "The disturbing part is" (line 247) does not reproduce PE's 4-word run. "But that's not the disturbing part" is one of our own
+  rule 4 markers.
+- The new Black Swallower beat ("decides he's about the right size") lands and does not repeat an earlier kicker.
 
 ## 5. TTS readiness: pass
-- No digits, symbols, parentheses or abbreviations in the narration. All numbers are spelled out.
-- Advisory: preview "Man o' War", "Vampyroteuthis infernalis" and "trimethylamine oxide" in `narrate` before the full render. If Chirp mangles them, respell them phonetically in the TTS input only.
+- The narration contains no digits, symbols, parentheses or abbreviations, and all numbers are spelled out.
+  Two colons ("the males", "seven") read naturally.
+- Advisory: preview Man o' War, Vampyroteuthis infernalis, trimethylamine oxide and Tsunemi Kubodera in `narrate`.
+  The phonetic respellings are in the header comment of script.md.
 
 ## 6. Policy: pass (0 items)
-- Advertiser-friendly: all deaths are cartoon (X eyes, ghost, pancake outline, ice cube, floating cap). Decomposition is covered in one clinical sentence. The anglerfish mating fact is told as biology with no innuendo. There is no profanity.
-- Made-for-kids: the tone is adult deadpan. There is no nursery framing and no direct address to children.
-- Inauthentic content: the narrative is original, with a Doug arc through the whole descent and a distinct ending twist (the bag). It is not a templated read-out.
-- No medical or first-aid advice. The working title "How Doug Would Die in Every Layer of the Ocean" is honoured.
-- Note for the creative director: several items (Man o' War, Giant Squid, Barreleye, Vampire Squid, Anglerfish, Black Swallower, Zombie Worms, Snailfish) are common to most ocean-layer videos, probably including PE's. The order and the treatment are ours, so this is not a rule 14 violation. Keep it in mind for the Pt. 2 list.
+- Advertiser-friendly: all deaths are cartoon deaths. The descriptions of decomposition (the black swallower) and acid
+  (Osedax) are one clinical clause each. The anglerfish passage is told as biology with no innuendo. There is no profanity.
+- Made-for-kids risk: the tone is adult deadpan, with no nursery framing and no address to children.
+- Inauthentic content: this episode has an original Doug narrative arc and its own ending twist. It is not a templated list.
+- There is no medical or first-aid advice. The working title "How Doug Would Die in Every Layer of the Ocean" is honoured.
 
 ## 7. Length: pass
-3,149 spoken words, against a brief target of 3,100 to 3,400. Fixes 4 and 7 roughly cancel out.
+3,231 spoken words (target 3,100 to 3,400), about 16:34 at 195 wpm.

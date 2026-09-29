@@ -272,7 +272,7 @@ For the final stop, Doug gets a submarine, and he sinks past every layer that ha
 
 [The sub's lights switch on. Grey silt. Something pale and flat lies on the sea floor.]
 
-The worst part is that he isn't the first thing to arrive. Researchers searching a Japanese database of deep-sea dive footage found a plastic bag recorded at ten thousand eight hundred and ninety-eight meters in the Mariana Trench. About a third of the debris in that database was large pieces of plastic, and most of that plastic was single-use.
+But he isn't the first thing to arrive. Researchers searching a Japanese database of deep-sea dive footage found a plastic bag recorded at ten thousand eight hundred and ninety-eight meters in the Mariana Trench. About a third of the debris in that database was large pieces of plastic, and most of that plastic was single-use.
 
 The pollution doesn't stop at what you can see, either. In twenty seventeen, scientists pulled up small shrimp-like scavengers called amphipods from the Mariana and Kermadec trenches, from seven thousand to over ten thousand meters down. Every sample carried man-made pollutants, including industrial chemicals mostly produced between the nineteen thirties and the nineteen seventies. In the worst Mariana Trench samples, levels were fifty times higher than in crabs from rice paddies fed by one of China's most polluted rivers.
 
