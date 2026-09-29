@@ -136,3 +136,60 @@ I reviewed all 245 keyframes on the 21 contact sheets in `build/contact/`, and o
 After the fixes, re-run `python -m studio keyframes 001-every-layer-of-the-ocean --shots
 s001,s005,s009,s010,s015,s017,s023,s027,s050,s051,s060,s068,s080,s088,s089,s101,s107,s114,s144,s150,s156,s176,s182,s189,s212,s213,s240,s241,s244`
 and send the result back for Round 2.
+
+## Round 2: pre-render keyframes + thumbnail (2026-09-29)
+
+I re-checked every shot whose scene changed since Round 1 (60 shots, diffed against `1706d59`) at full resolution in
+`build/keyframes/`, plus the regenerated contact sheets, `build/thumbnail.png` (1280x720) and
+`build/thumbnail_small.png` (320x180).
+
+**VERDICT: PASS**
+
+### Round 1 fixes: all resolved
+- **1. s213:** the new `thumbs_up_hand` reads instantly as a thumbs-up. It has a fist with knuckles, a nail and a
+  blue cuff, and the car sits on the thumbnail. The phallic read is gone.
+- **2. s001:** the real thumbnail is rendered natively at 1920x1080. Every label sits inside the frame, there is no
+  cropping and no pixelation.
+- **3. s176:** the belly-up swallower now sits on the surface line at the end of the pan, with its stomach and "GAS"
+  both readable.
+- **4. s114:** the blanking rect is gone. The full barreleye now has a dashed outline around the dome and a "?".
+- **5. s060:** the scientist and Doug are outside the tank.
+- **6. s050 and s051:** in s050 Doug is on the sofa, so the sofa joke lands. In s051 he stands with a `gritted`
+  expression.
+- **7. s150:** Doug swims toward the lure at a readable size.
+- **8. s182:** Doug is alive (not a ghost) and watches the whale.
+- **9 and 10. s088 and s089:** the sub is at the Ogasawara circle and "JULY 2012" is above the map. The "~1,000 km"
+  label sits beside the circle near Tokyo, off Australia.
+- **11. s107:** "NOSTRILS" has a red arrow to the dark spots.
+- **12. s156:** "SHARED BLOOD" has an arrow to the attached male.
+- **13 to 17. s005, s009, s189, s101, s241:**
+  - s005: the title is clear of Doug.
+  - s009: the float is uncropped.
+  - s189: the bus and "SHAG CARPET" are separated.
+  - s101: a medium shot shows the squid leaving right, with Doug readable.
+  - s241: the gravestone is uncropped.
+- **18. s239 to s245:** the run is now varied. s240 is a porthole close-up with "great.", s244 is a wide shot with a
+  small sub and a depth line.
+- **19. Text overlaps:** s010, s015, s017, s023, s027, s068, s080, s144 and s212 are all clean.
+- **21. s036 and s037:** the fish and Doug are clear of the coral.
+- **Other changed shots are fine.** s038, s039, s059, s097 to s099, s113, s131, s133 to s143, s146, s147, s151, s154,
+  s159 to s161, s186, s210, s225 and s236 are on-model and legible, with no gore and no new collisions.
+
+### Thumbnail
+- **Readable at 320x180.** The depth pyramid goes from bright to near-black. All 10 labels stay legible and every
+  creature reads: man o' war, bobbit worm, giant squid, barreleye, anglerfish, black swallower, zombie worms,
+  plastic bag and snailfish.
+- **Doug is visible.** He has the red cap and a shocked face on the right. He is small, as the brief asks, but still
+  visible.
+- **It fits the title.** It complements "How Doug Would Die in Every Layer of the Ocean" without repeating any title
+  word, and it isn't misleading: every tile is a chapter subject.
+
+### Non-blocking notes (optional polish, not required to pass)
+1. **s156 (director):** the attached male is only about 60 px, and the red X over him reads as "dead" more than
+   "fused". Optionally scale him up to about 2x and drop the X. The narration covers "eyes stop working" anyway.
+2. **s197 and s198 (illustrator):** carried over from Round 1, item 20. The ice block is still a flat pale rectangle
+   and could use rounded corners, a bevel and crack lines.
+3. **Thumbnail (graphic designer):** Doug could be about 20% larger and tilted or sinking beside the pyramid to sell
+   the "Doug + threat" read at feed size. It is fine as is.
+
+Next visual gate: post-render (`build/samples/*.png`, `build/qc.json`).

@@ -241,3 +241,53 @@ Depth and size markers (dimension tags) count as annotations, not labels. These 
 
 **OVERALL VERDICT: FAIL.** The style and Doug are consistent, but the zone ramp breaks in three items and there
 are overlaps and label-count violations. Expect a PASS once fixes 1-27 land.
+
+---
+
+# Keyframe review, round 2: 001 Every Layer of the Ocean
+
+Reviewer: art director · Date: 2026-09-29 · Scope: all 245 re-rendered keyframes (contact sheets
+`build/contact/sheet_01-21.png`, rendered after commit 5044d85). I looked closely at every shot named in round 1, the
+visual-review round 1 shots, the new thumbnail (s001) and the new `thumbs_up_hand` asset.
+
+**Verdict: PASS**. All 27 required fixes from round 1 have landed, and the changes introduced no new problems.
+
+## Thumbnail / s001 (fix 1): PASS
+- The labels now sit outside the pyramid on alternating sides. All are fully inside the canvas, large, and 2 words or
+  fewer. The bottom tier is labelled ("Challenger Deep"), and the plastic bag there lands the payoff joke.
+- The tier colours step down the zone ramp (sunlight → hadal). Every creature panel uses a detailed-tier asset on a
+  saturated card, so it reads at feed size. Doug is on-model (red cap, crude tier) with a thought bubble, on white.
+- s001 renders crisp at 1080p through the round 1 `_upscale_scene()` path.
+
+## New asset: `thumbs_up_hand` (s213): APPROVED
+- It is recognisable at a glance, sits in the detailed tier (flat skin fill, a shaded palm side, finger creases, the
+  nail highlight), is on-palette, and has a bold silhouette. The car rests on the thumbnail and the composition is
+  clear on white, so the "car on your thumbnail" joke works.
+
+## Round 1 fixes verified
+- **Zone ramp (2-4):** s097-s099 and s133-s143 are twilight `#1b4f86`. The anglerfish shots (s146-s161) are midnight
+  `#0b2447`. The ramp now steps cleanly at s066, s144, s180 and s199.
+- **Overlaps and safe area (5-16):** s005, s009, s010, s017, s027, s059, s068, s080, s189 and s212 are all clear.
+  s176 ends with the fish at the surface. s241 has 7 gravestones in their zones, and the last one (y=3560) lands
+  uncut in the end frame.
+- **Label count (17-24):** s015, s131, s143, s156, s186, s210, s225 and s236 all have 2 or fewer word labels.
+- **Doug staging and variety (25-27):** Doug now sits on the sofa in s050 and stands on the sand in s051. The s150
+  Doug is normal size and alive (swim pose, open eyes), so there is no longer a false death. The reef run is broken
+  up by the s037/s038 close-ups and the white s039 "INSULIN WEAPON" card.
+- **Optional items:** all were done. s060 Doug is clear of the tank, the s088 sub is by Japan, and the s113 net has
+  a mesh.
+- **Visual-review items:** s023 and s144 are fixed.
+
+## Per-shot fixes
+None required.
+
+### Optional (not blocking)
+- **s197/s198 (illustrator):** the ice block is still a flat pale rectangle. A bevel highlight and 2-3 crack lines
+  would read more as "ice". This is carried over from the visual review and does not block.
+
+## Routing
+- Director: nothing outstanding.
+- Graphic designer: nothing outstanding.
+- Illustrator: optional ice-block polish only.
+
+**OVERALL VERDICT (round 2): PASS.** Keyframes are art-approved, and the episode can move to `art_approved`.
