@@ -229,7 +229,7 @@ def render_video(ep_dir: Path, out_name: str = "final.mp4", require_voice: bool 
     shots = sl["shots"][:limit_shots] if limit_shots else sl["shots"]
     total = sum(t["duration"] for t in timing[:len(shots)])
     out = build / out_name
-    cmd = ["ffmpeg", "-y", "-loglevel", "error",
+    cmd = ["ffmpeg", "-y", "-loglevel", "warning",
            "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{OUT_W}x{OUT_H}", "-r", str(fps), "-i", "-",
            "-i", str(build / "narration.wav")]
     music = cfg["video"].get("music")
@@ -249,12 +249,22 @@ def render_video(ep_dir: Path, out_name: str = "final.mp4", require_voice: bool 
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     try:
         for shot, tm in zip(shots, timing):
-            r = ShotRenderer(shot, tm["duration"], fps=fps, style=cfg["style"], topbar=shot.get("_topbar"))
+            # cumulative rounding: frame boundaries come from absolute times, so the total frame count equals
+            # round(total * fps) exactly and video never runs past the audio (-t) cut
+            f0 = round(tm["start"] * fps)
+            f1 = round((tm["start"] + tm["duration"]) * fps)
+            if f1 <= f0:
+                continue
+            r = ShotRenderer(shot, tm["duration"], fps=fps, style=cfg["style"], topbar=shot.get("_topbar"),
+                             n_frames=f1 - f0)
             last_id, last_bytes = None, None
             for frame in r.frames():
                 if id(frame) != last_id:
                     last_id, last_bytes = id(frame), frame.convert("RGB").tobytes()
-                proc.stdin.write(last_bytes)
+                try:
+                    proc.stdin.write(last_bytes)
+                except BrokenPipeError:
+                    raise RuntimeError("ffmpeg stopped reading frames early; see its error output above")
     finally:
         proc.stdin.close()
         proc.wait()

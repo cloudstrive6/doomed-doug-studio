@@ -112,8 +112,9 @@ class ShotRenderer:
     """Yields output frames (PIL images, 1920x1080) for one shot, caching drawings."""
 
     def __init__(self, shot: dict, duration: float, fps: int = 24, style: dict | None = None,
-                 topbar: str | None = None):
+                 topbar: str | None = None, n_frames: int | None = None):
         self.shot, self.duration, self.fps, self.topbar = shot, duration, fps, topbar
+        self.n_frames = n_frames
         self.style = style or {}
         self.scene = shot["scene"]
         self.n_variants = 1 if shot.get("boil") is False else int(self.style.get("boil_variants", 3))
@@ -130,7 +131,7 @@ class ShotRenderer:
         return self.cache[key]
 
     def frames(self):
-        n = max(1, round(self.duration * self.fps))
+        n = self.n_frames if self.n_frames is not None else max(1, round(self.duration * self.fps))
         w, h = self.scene.get("size", [OUT_W, OUT_H])
         cam = self.shot.get("camera")
         static_cam = (not cam or cam.get("move") in (None, "static")) and not (cam or {}).get("from")
