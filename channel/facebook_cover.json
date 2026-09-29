@@ -1,0 +1,14 @@
+{"size":[1640,624],"background":"#8fd3ff","elements":[
+ {"type":"bands","bands":[{"y0":380,"y1":470,"color":"#2a7fc4"},{"y0":470,"y1":540,"color":"#1b5a96"},{"y0":540,"y1":624,"color":"#0f3563"}]},
+ {"type":"line","points":[[0,380],[1640,380]],"width":6},
+ {"type":"circle","x":1510,"y":110,"r":62,"fill":"#ffe24a","width":5},
+ {"type":"text","text":"DOOMED DOUG","x":720,"y":230,"size":104,"bold":true,"color":"#e0201b","outline":"#000000","outline_width":7,"boil":0},
+ {"type":"text","text":"New week. New place. Same doomed guy.","x":760,"y":452,"size":40,"bold":true,"color":"#ffffff","outline":"#000000","outline_width":3,"boil":0},
+ {"type":"poly","points":[[1045,384],[1080,322],[1108,384]],"fill":"#6d7b8a","width":5},
+ {"type":"curve","points":[[1015,396],[1060,404],[1105,396],[1140,404]],"width":3,"color":"#ffffff"},
+ {"type":"rect","x":1160,"y":355,"w":160,"h":24,"fill":"#a0522d","width":5},
+ {"type":"doug","x":1240,"y":287,"scale":0.45,"pose":"arms_up","expression":"shock"},
+ {"type":"asset","name":"anglerfish","x":1470,"y":545,"scale":0.42,"flip":true},
+ {"type":"curve","points":[[130,624],[150,560],[210,510],[180,470],[235,430]],"width":26,"color":"#8a2d6b"},
+ {"type":"curve","points":[[130,624],[150,560],[210,510],[180,470],[235,430]],"width":16,"color":"#c2569e"}
+]}
