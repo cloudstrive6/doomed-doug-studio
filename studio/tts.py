@@ -34,6 +34,8 @@ def wav_bytes_to_pcm(data: bytes) -> bytes:
 
 def synthesize(text: str, voice: dict, cache_dir: Path) -> tuple[bytes, bool]:
     """Return (pcm16 mono 24 kHz, is_real_voice)."""
+    from .config import load_dotenv
+    load_dotenv()
     key = os.environ.get("GOOGLE_TTS_API_KEY")
     cache_dir.mkdir(parents=True, exist_ok=True)
     h = hashlib.sha1(json.dumps([text, voice], sort_keys=True).encode()).hexdigest()[:16]
