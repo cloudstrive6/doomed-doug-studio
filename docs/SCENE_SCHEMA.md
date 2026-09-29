@@ -71,7 +71,9 @@ Common keys: `color` (outline, default `#000000`), `fill`, `width` (line px, def
 
 Extra keys: `line`/`curve` take `dash: [on, off]` (dotted distance lines); `arrow` takes `bend` (px, curved red
 arrows) and draws a filled head; `asset` takes `"silhouette": true` (+ `glow` colour, `glow_r`) for the black
-silhouette-with-red-glow reveal.
+silhouette-with-red-glow reveal. `asset` also takes `ink` (outline colour override for black lines); assets whose JSON has
+`"auto_ink": true` (crude-tier humans) switch black outlines to white on dark backgrounds automatically, except
+elements marked `"keep_ink": true`.
 
 Annotation assets in the library: `question_mark`, `exclamation_mark`, `warning_triangle`, `red_x`, `thermometer`,
 `gravestone`.

@@ -12,6 +12,7 @@
   "scientist",
   "stick man"
  ],
+ "auto_ink": true,
  "elements": [
   {
    "type": "rect",
@@ -392,7 +393,8 @@
     ]
    ],
    "width": 4,
-   "color": "#000000"
+   "color": "#000000",
+   "keep_ink": true
   },
   {
    "type": "ellipse",
@@ -402,7 +404,8 @@
    "ry": 27,
    "fill": "#bfe6ff",
    "width": 6,
-   "color": "#3a6ea5"
+   "color": "#3a6ea5",
+   "keep_ink": true
   },
   {
    "type": "ellipse",
@@ -411,7 +414,8 @@
    "rx": 9,
    "ry": 13,
    "fill": "#ffffff",
-   "width": 3
+   "width": 3,
+   "keep_ink": true
   },
   {
    "type": "circle",
@@ -419,7 +423,8 @@
    "y": -222,
    "r": 5,
    "fill": "#000000",
-   "width": 1
+   "width": 1,
+   "keep_ink": true
   },
   {
    "type": "ellipse",
@@ -428,7 +433,8 @@
    "rx": 9,
    "ry": 13,
    "fill": "#ffffff",
-   "width": 3
+   "width": 3,
+   "keep_ink": true
   },
   {
    "type": "circle",
@@ -436,7 +442,8 @@
    "y": -222,
    "r": 5,
    "fill": "#000000",
-   "width": 1
+   "width": 1,
+   "keep_ink": true
   },
   {
    "type": "line",
@@ -451,7 +458,8 @@
     ]
    ],
    "width": 6,
-   "color": "#3a6ea5"
+   "color": "#3a6ea5",
+   "keep_ink": true
   },
   {
    "type": "rect",
@@ -460,7 +468,8 @@
    "w": 22,
    "h": 14,
    "fill": "#2b2b2b",
-   "width": 3
+   "width": 3,
+   "keep_ink": true
   }
  ]
 }

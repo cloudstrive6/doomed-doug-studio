@@ -11,6 +11,7 @@
   "scientist",
   "stick man"
  ],
+ "auto_ink": true,
  "elements": [
   {
    "type": "line",
@@ -86,7 +87,8 @@
     ]
    ],
    "width": 3,
-   "color": "#000000"
+   "color": "#000000",
+   "keep_ink": true
   },
   {
    "type": "line",
@@ -105,7 +107,8 @@
     ]
    ],
    "width": 3,
-   "color": "#000000"
+   "color": "#000000",
+   "keep_ink": true
   },
   {
    "type": "rect",
@@ -114,7 +117,8 @@
    "w": 26,
    "h": 22,
    "fill": null,
-   "width": 3
+   "width": 3,
+   "keep_ink": true
   },
   {
    "type": "line",
@@ -129,22 +133,23 @@
     ]
    ],
    "width": 3,
-   "color": "#2f6fd6"
+   "color": "#2f6fd6",
+   "keep_ink": true
   },
   {
    "type": "line",
    "points": [
     [
-     0,
+     28,
      -122
     ],
     [
-     21.2,
-     -63.7
+     60,
+     -68
     ],
     [
-     50.2,
-     -13.5
+     80,
+     -18
     ]
    ],
    "width": 5,
@@ -154,16 +159,16 @@
    "type": "line",
    "points": [
     [
-     0,
+     -28,
      -122
     ],
     [
-     -21.2,
-     -63.7
+     -60,
+     -68
     ],
     [
-     -50.2,
-     -13.5
+     -80,
+     -18
     ]
    ],
    "width": 5,
@@ -426,7 +431,8 @@
    "ry": 15,
    "fill": "#ffffff",
    "width": 3,
-   "boil": 0.3
+   "boil": 0.3,
+   "keep_ink": true
   },
   {
    "type": "circle",
@@ -435,7 +441,8 @@
    "r": 5,
    "fill": "#000000",
    "width": 1,
-   "boil": 0.2
+   "boil": 0.2,
+   "keep_ink": true
   },
   {
    "type": "ellipse",
@@ -445,7 +452,8 @@
    "ry": 15,
    "fill": "#ffffff",
    "width": 3,
-   "boil": 0.3
+   "boil": 0.3,
+   "keep_ink": true
   },
   {
    "type": "circle",
@@ -454,7 +462,8 @@
    "r": 5,
    "fill": "#000000",
    "width": 1,
-   "boil": 0.2
+   "boil": 0.2,
+   "keep_ink": true
   },
   {
    "type": "line",
@@ -469,7 +478,8 @@
     ]
    ],
    "width": 4,
-   "color": "#000000"
+   "color": "#000000",
+   "keep_ink": true
   },
   {
    "type": "circle",
@@ -477,7 +487,8 @@
    "y": -220,
    "r": 22,
    "fill": null,
-   "width": 4
+   "width": 4,
+   "keep_ink": true
   },
   {
    "type": "circle",
@@ -485,7 +496,8 @@
    "y": -220,
    "r": 22,
    "fill": null,
-   "width": 4
+   "width": 4,
+   "keep_ink": true
   },
   {
    "type": "line",
@@ -500,7 +512,8 @@
     ]
    ],
    "width": 4,
-   "color": "#000000"
+   "color": "#000000",
+   "keep_ink": true
   },
   {
    "type": "line",
@@ -515,7 +528,8 @@
     ]
    ],
    "width": 4,
-   "color": "#000000"
+   "color": "#000000",
+   "keep_ink": true
   }
  ]
 }

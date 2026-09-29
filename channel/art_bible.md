@@ -29,6 +29,11 @@ desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never
 ## Two-tier rendering (style bible 4.3)
 - **Doug and humans: crude** MS Paint stick men: uniform thin lines (Doug's rig: 5 at scale 1 ≈ 4–5 px), big round
   head with grey shading crescent, oval eyes, meme faces.
+  Human-tier library assets (e.g. `scientist`, `diver`) set `"auto_ink": true` so their black outlines flip to
+  white on dark backgrounds, exactly like Doug; face and costume details inside white shapes carry
+  `"keep_ink": true` so they stay black.
+- **Costumes/props worn over Doug** (e.g. `squid_costume`) are props, not design changes: they sit on top of the rig
+  at the same x/y/scale, and must leave Doug's head, face and red cap fully visible. Use upright poses only.
 - **Creatures and places: the detailed tier**: cleaner cartoon illustrations with layered fills, interior shading
   (`spray`, darker back / lighter belly), texture strokes at 2–3, outlines 3–5. The contrast is part of the joke.
 

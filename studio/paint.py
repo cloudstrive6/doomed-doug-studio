@@ -387,6 +387,27 @@ def draw_element(cv: Canvas, el, tf: Transform, seed):
         outer = Transform(el.get("x", 0), el.get("y", 0), el.get("scale", 1), el.get("rotate", 0),
                           el.get("flip", False), tf)
         inner.parent = outer
+        ink = el.get("ink")
+        if ink is None and a.get("auto_ink"):  # crude-tier humans: same white-ink rule as Doug on dark backgrounds
+            px, py = outer.apply((0, -80))
+            px, py = min(max(int(px), 0), cv.w - 1), min(max(int(py), 0), cv.h - 1)
+            r, g, b = cv.img.getpixel((px, py))[:3]
+            if 0.299 * r + 0.587 * g + 0.114 * b < 70:
+                ink = "#ffffff"
+        if ink:
+            def _ink(els):
+                out = []
+                for e in els:
+                    e = dict(e)
+                    if e.get("type") == "group":
+                        e["elements"] = _ink(e.get("elements", []))
+                    elif not e.get("keep_ink") and \
+                            e.get("type") not in ("spray", "fill", "text", "wordart", "label", "speech") and \
+                            e.get("color", "#000000").lower() == "#000000":
+                        e["color"] = ink
+                    out.append(e)
+                return out
+            a = {**a, "elements": _ink(a["elements"])}
         if el.get("silhouette"):
             # unknown/terrifying reveal: black shape with a red glow (style bible 4.2)
             gx, gy = outer.apply((0, 0))
