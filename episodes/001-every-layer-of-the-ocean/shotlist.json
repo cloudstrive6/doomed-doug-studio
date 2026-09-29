@@ -6998,7 +6998,8 @@
       "name": "coral_reef",
       "x": 1700,
       "y": 920,
-      "scale": 0.9
+      "scale": 0.9,
+      "appear": 0.4
      },
      {
       "type": "doug",
@@ -10646,7 +10647,8 @@
       "x": 960,
       "y": 720,
       "scale": 0.9,
-      "rotate": 180
+      "rotate": 180,
+      "appear": 0.4
      },
      {
       "type": "asset",
@@ -10786,6 +10788,16 @@
       "bold": true,
       "boil": 0.4,
       "appear": 0.913
+     },
+     {
+      "type": "label",
+      "text": "TSUNEMI KUBODERA",
+      "x": 700,
+      "y": 900,
+      "size": 46,
+      "bold": true,
+      "boil": 0.4,
+      "appear": 0.42
      },
      {
       "type": "asset",
@@ -11112,7 +11124,8 @@
       "x": 1150,
       "y": 1500,
       "scale": 1.1,
-      "flip": true
+      "flip": true,
+      "appear": 0.45
      },
      {
       "type": "line",
@@ -11140,7 +11153,8 @@
       "y": 1830,
       "size": 46,
       "bold": true,
-      "boil": 0.4
+      "boil": 0.4,
+      "appear": 0.75
      }
     ],
     "size": [
@@ -13642,7 +13656,8 @@
       "y": 230,
       "size": 48,
       "bold": true,
-      "boil": 0.4
+      "boil": 0.4,
+      "appear": 0.25
      },
      {
       "type": "wordart",
@@ -22910,7 +22925,8 @@
       "facing": "right",
       "gear": [
        "mask"
-      ]
+      ],
+      "appear": 0.45
      },
      {
       "type": "wordart",
@@ -22918,7 +22934,8 @@
       "x": 1300,
       "y": 3700,
       "size": 100,
-      "boil": 0
+      "boil": 0,
+      "appear": 0.7
      }
     ],
     "size": [
@@ -23863,7 +23880,8 @@
       "name": "yellow_submarine",
       "x": 960,
       "y": 4000,
-      "scale": 1.0
+      "scale": 1.0,
+      "appear": 0.5
      },
      {
       "type": "doug",
@@ -23872,7 +23890,8 @@
       "scale": 0.22,
       "pose": "stand",
       "expression": "gritted",
-      "facing": "right"
+      "facing": "right",
+      "appear": 0.5
      },
      {
       "type": "wordart",
@@ -23880,7 +23899,8 @@
       "x": 960,
       "y": 3000,
       "size": 96,
-      "boil": 0
+      "boil": 0,
+      "appear": 0.8
      }
     ],
     "size": [

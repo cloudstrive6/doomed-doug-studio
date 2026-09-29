@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-09-29T11:44:57+00:00",
       "note": "art-director + visual-screener PASS round 2; thumbnail GO"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-09-29T11:57:15+00:00",
+      "note": "narrated, pacing pass, validate OK"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

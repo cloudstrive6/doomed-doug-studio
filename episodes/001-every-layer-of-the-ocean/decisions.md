@@ -29,3 +29,7 @@
   2. The Black Swallower tile is the weakest at feed size. It reads as a beige oval. A tighter crop on the head and the swollen belly would help.
   3. Reading order: the boss (Challenger Deep) is on the left of the bottom tier, so readers see it before the snailfish. Swapping the two bottom tiles
      and labels would put the boss last, which matches the video. This is optional.
+
+## 2026-09-29: packaged
+- Rounds: script 2 (earlier), shotlist 1, asset art review 1 (PASS), keyframes 2 (art-director + visual-screener FAIL then PASS), thumbnail 1 (CD GO, screener PASS).
+- Risks: Chirp pronunciations (Man o' War, Vampyroteuthis infernalis, Osedax, Ogasawara) not auditioned, so listen in the draft. Draft render of the first 60 s not checked. Ice block s197/s198 and anglerfish male s156 are flat/small (optional polish). Thumbnail label edge margins slightly outside the 90% safe area in s001. Engine fixes: paint.py auto_ink, assemble/scene upscale (art-director). Shotlist edited directly after generation, so build/make_shotlist.py is stale.
