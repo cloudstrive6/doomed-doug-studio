@@ -9,7 +9,7 @@ Playlist keys: ocean, parasites, prehistoric, places, compilations. `animals*` =
 
 | # | Working title | Playlist | Engine (proven outlier) | Score | Status |
 |---|---|---|---|---|---|
-| 1 | I Sent Doug to Every Layer of the Ocean | ocean | Depth descent: Mr. Science "Why Deep Sea Creatures Get Creepier the Deeper You Go" 17.0M (13.0x); PE ocean layers 1.8M (4.5x, style bible) | 10 | backlog |
+| 1 | I Sent Doug to Every Layer of the Ocean | ocean | Depth descent: Mr. Science "Why Deep Sea Creatures Get Creepier the Deeper You Go" 17.0M (13.0x); PE ocean layers 1.8M (4.5x, style bible) | 10 | in-production (001-every-layer-of-the-ocean) |
 | 2 | What Dying From Every Parasite Would Feel Like | parasites | quack doc "What Dying From Every Deadly Disease Feels Like" 5.54M (103x) + Pt. 2 531K (9.9x) + genetic-disease 292K (5.4x, this week); Bacterium "Every IMPOSSIBLE Parasite That Actually Exists" 330K (38x) | 10 | backlog |
 | 3 | Surviving One Night in Every Prehistoric Ocean | prehistoric | ExtinctZoo "The Deadliest Sea Animal From Every Single Period" 2.57M (3.1x); Spinosnack prehistoric deep ocean 424K (4.0x, 2026-09-17); Mosasaurus 875K (8.2x) | 9 | backlog |
 | 4 | The Worst Places on Earth to Die | places | Simple Paint "The Worst Places To Die In Space" 1.90M (8.0x); PE "Most Guarded Places…" 2.19M (3.1x, 2026-09-08) | 9 | backlog |
