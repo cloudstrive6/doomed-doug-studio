@@ -19,7 +19,8 @@ Never paste a secret into a chat, issue or commit.
 2. APIs & Services → Library → enable **YouTube Data API v3**, **YouTube Analytics API**,
    **Cloud Text-to-Speech API**.
 3. **OAuth consent screen** (Google Auth Platform): External; app name "Doomed Doug Publisher"; support email;
-   privacy/terms URLs (public pages: e.g. publish `docs/PRIVACY.md` and `docs/TERMS.md` as a public GitHub Gist);
+   privacy policy URL `https://gist.github.com/cloudstrive6/510b659eddc5bee865448eb4c2722f9f#file-privacy-md`,
+   terms URL `https://gist.github.com/cloudstrive6/510b659eddc5bee865448eb4c2722f9f#file-terms-md` (public gist of `docs/`);
    **Publish app → In production** (in *Testing* mode the refresh token dies after 7 days).
 4. Credentials → Create credentials → **OAuth client ID** → **Desktop app** → put the ID and secret in
    `studio/.env` as `YOUTUBE_CLIENT_ID=...` and `YOUTUBE_CLIENT_SECRET=...`.
