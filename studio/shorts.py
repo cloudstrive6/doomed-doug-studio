@@ -247,7 +247,12 @@ def upload(ep: Path) -> list[dict]:
         f = ep / "build" / "shorts" / f"{s['id']}.mp4"
         if s.get("youtube_id") or not f.exists():
             continue
-        slot = next_slot(taken_slots(), long_at)
+        if s.get("schedule_at"):  # one-off override in the owner's time zone (NZ), "YYYY-MM-DD HH:MM"
+            from zoneinfo import ZoneInfo
+            nz = ZoneInfo(cfg["schedule"].get("display_timezone", "Pacific/Auckland"))
+            slot = dt.datetime.strptime(s["schedule_at"], "%Y-%m-%d %H:%M").replace(tzinfo=nz)
+        else:
+            slot = next_slot(taken_slots(), long_at)
         publish_at = slot.astimezone(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
         desc = (s.get("description") or s["title"]) + (
             f"\n\nFull video: {meta['title']}\nhttps://youtu.be/{meta['youtube_id']}\n\n#DoomedDoug #shorts")
