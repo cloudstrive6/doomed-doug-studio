@@ -193,3 +193,47 @@ I re-checked every shot whose scene changed since Round 1 (60 shots, diffed agai
    the "Doug + threat" read at feed size. It is fine as is.
 
 Next visual gate: post-render (`build/samples/*.png`, `build/qc.json`).
+
+## Round 3: post-render (2026-09-29)
+
+**VERDICT: PASS**
+
+Inputs checked: `build/final.mp4` (1920x1080, 60 fps, 1034.6 s, has audio), `build/qc.json` (no problems, 34 samples),
+all 34 `build/samples/f_*.png` (one frame every 30 s, at t = 15 s, 45 s, 75 s and so on), `build/thumbnail.png`,
+`build/thumbnail_small.png` and `metadata.json`. I also ran my own check at 2 fps over the whole video: blackdetect
+(0.5 s, pix_th 0.05) and freezedetect (12 s). Neither found anything.
+
+### Samples
+- **No black, blank, torn or glitched frames.** The chapter label box is present and spelled right in every sample,
+  from PORTUGUESE MAN O' WAR through CHALLENGER DEEP, and matches `chapters.txt`.
+- **Doug is on-model everywhere he appears.** He has the red cap and white head in f_001, f_002, f_004 to f_007,
+  f_008, f_009, f_014, f_016 to f_018, f_020, f_022, f_025 to f_028 and f_031, plus the porthole shot in f_033. He
+  reads against every background, including the near-black hadal trench. His ghost form (f_003, f_011, f_031) and
+  the death counter (f_011 "DOUG DEATHS: 3", end card "DOUG DEATHS: 7") display correctly.
+- **The pictures match the narration** at each timestamp I checked against `timing.json`:
+  - f_001 / s006: party balloon.
+  - f_009 / s070: Humboldt squid, 50 kg and 1.5 m.
+  - f_021 / s153: anglerfish lure.
+  - f_026 / s177: the 2004 map.
+  - f_029 / s206: THE WALL at 8,200 to 8,400 m.
+  - f_030 / s213: car on a thumb, for pressure.
+  - f_034 / s233: amphipod and 1930s to 1970s pollution.
+- **Sparse samples are mid-reveal, not errors.** I checked the full-resolution frames at the end of each shot:
+  - f_007 / s055: the fish halves and "CUT IN TWO" appear at 0.75. The halves are pink cartoon cross-sections with
+    no blood, so they are acceptable.
+  - f_013 / s097: the X, the sperm whale and "SPERM WHALES" appear at 0.57 and 0.86.
+  - f_024 / s171: the swallower fills up, and the mackerel gets an X.
+- **Policy is clean.** No gore, only cartoon deaths, and the tone is adult-coded with no nursery framing.
+- **Variety is good.** Across 34 samples, no run of near-identical compositions.
+
+### Thumbnail and package
+- **Readable at 320x180.** The labels and tiles are legible and the depth gradient is clear. It complements "How Doug
+  Would Die in Every Layer of the Ocean" and is not misleading, since every tile is a chapter subject.
+- **The description is ready.** It keeps `{{CHAPTERS}}`, which `studio/youtube.py` fills at upload.
+
+### Advisory (non-blocking, future episodes)
+1. **Director:** s055 holds Doug alone on an empty blue frame for about 3.7 s before the fish halves appear (appear
+   0.75). Pull reveals earlier (0.4 to 0.5) or put a placeholder subject in frame so the first second is never
+   empty. The same pattern shows at the start of s097.
+2. **Graphic designer:** Doug is still small at feed size. Next time, make him about 20% larger or overlap him with
+   the pyramid edge.

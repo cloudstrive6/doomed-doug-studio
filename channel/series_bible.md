@@ -41,4 +41,4 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 ## Episode log
 | # | Title | Published | Deaths added | Notes |
 |---|---|---|---|---|
-| 001 | How Doug Would Die in Every Layer of the Ocean (working title) | pending | 7 (total 7) | Pilot. Survived: Bobbit Worm (cap stolen), Giant Squid, Barreleye, Vampire Squid (glowing goo), Challenger Deep (found a plastic bag). Deaths by zone: sunlight 2, twilight 1, midnight 2, abyss 1, hadal 1. |
+| 001 | How Doug Would Die in Every Layer of the Ocean | pending (QC passed, awaiting scheduled upload) | 7 (total 7) | Pilot. Survived: Bobbit Worm (cap stolen), Giant Squid, Barreleye, Vampire Squid (glowing goo), Challenger Deep (found a plastic bag). Deaths by zone: sunlight 2, twilight 1, midnight 2, abyss 1, hadal 1. |
