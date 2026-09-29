@@ -66,7 +66,8 @@ def auth():
                        "token_uri": "https://oauth2.googleapis.com/token",
                        "redirect_uris": ["http://127.0.0.1:53682/"]}}, SCOPES)
     creds = flow.run_local_server(host="127.0.0.1", port=53682, prompt="consent", access_type="offline",
-                                  open_browser=True)
+                                  open_browser=os.environ.get("AUTH_NO_BROWSER") != "1",
+                                  authorization_prompt_message="AUTH_URL {url}")
     _set_env_value("YOUTUBE_REFRESH_TOKEN", creds.refresh_token)
     print("Saved YOUTUBE_REFRESH_TOKEN to studio/.env")
     if os.environ.get("SAVE_SECRETS") == "1":
