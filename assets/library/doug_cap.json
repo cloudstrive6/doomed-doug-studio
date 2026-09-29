@@ -1,0 +1,94 @@
+{
+ "name": "doug_cap",
+ "description": "Doug's red cap on its own: exactly the rig _cap() dome + right-pointing brim (#e0201b, 5px outline) at Doug scale 1, plus a dark underside rim. ~200x80, centred.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "cap",
+  "prop"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -98,
+     21.4
+    ],
+    [
+     -64.0,
+     34.4
+    ],
+    [
+     8.0,
+     34.4
+    ],
+    [
+     42,
+     21.4
+    ]
+   ],
+   "fill": "#8a0f0c",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -98,
+     21.4
+    ],
+    [
+     -89.2,
+     -13.2
+    ],
+    [
+     -53.2,
+     -36.2
+    ],
+    [
+     -6.4,
+     -36.2
+    ],
+    [
+     31.0,
+     -13.2
+    ],
+    [
+     42,
+     21.4
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     29.6,
+     12.8
+    ],
+    [
+     98.0,
+     21.4
+    ],
+    [
+     94.4,
+     35.8
+    ],
+    [
+     28.2,
+     34.4
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 5
+  }
+ ]
+}

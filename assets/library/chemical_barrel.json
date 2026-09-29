@@ -1,0 +1,201 @@
+{
+ "name": "chemical_barrel",
+ "description": "Industrial green steel drum with rolling hoops, a yellow hazard label and a toxic green drip. ~210x290, centred.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "pollution",
+  "industrial",
+  "trench"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -125
+    ],
+    [
+     100,
+     -125
+    ],
+    [
+     100,
+     125
+    ],
+    [
+     -100,
+     125
+    ]
+   ],
+   "fill": "#3f7d3a",
+   "width": 5
+  },
+  {
+   "type": "rect",
+   "x": 40,
+   "y": -120,
+   "w": 55,
+   "h": 240,
+   "fill": "#2a5626",
+   "width": 0
+  },
+  {
+   "type": "rect",
+   "x": -85,
+   "y": -120,
+   "w": 22,
+   "h": 240,
+   "fill": "#6aab5f",
+   "width": 0
+  },
+  {
+   "type": "rect",
+   "x": -104,
+   "y": -52,
+   "w": 208,
+   "h": 14,
+   "fill": "#2a5626",
+   "width": 4
+  },
+  {
+   "type": "rect",
+   "x": -104,
+   "y": 38,
+   "w": 208,
+   "h": 14,
+   "fill": "#2a5626",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -125,
+   "rx": 100,
+   "ry": 20,
+   "fill": "#2f6a2b",
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -125,
+   "rx": 80,
+   "ry": 13,
+   "fill": "#2a5626",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": 45,
+   "y": -128,
+   "r": 8,
+   "fill": "#9a9a9a",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 125,
+   "rx": 100,
+   "ry": 18,
+   "fill": null,
+   "width": 5,
+   "start": 0,
+   "end": 180
+  },
+  {
+   "type": "rect",
+   "x": -50,
+   "y": -25,
+   "w": 100,
+   "h": 60,
+   "fill": "#ffd21f",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -18
+    ],
+    [
+     28,
+     28
+    ],
+    [
+     -28,
+     28
+    ]
+   ],
+   "fill": "#ffd21f",
+   "width": 4
+  },
+  {
+   "type": "text",
+   "text": "!",
+   "x": 0,
+   "y": 13,
+   "size": 26,
+   "color": "#000000",
+   "bold": true,
+   "boil": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -115
+    ],
+    [
+     -70,
+     -115
+    ],
+    [
+     -66,
+     -80
+    ],
+    [
+     -75,
+     -68
+    ],
+    [
+     -84,
+     -80
+    ]
+   ],
+   "fill": "#9cff3a",
+   "width": 3,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -125
+    ],
+    [
+     100,
+     -125
+    ],
+    [
+     100,
+     125
+    ],
+    [
+     -100,
+     125
+    ]
+   ],
+   "fill": null,
+   "width": 5
+  }
+ ]
+}

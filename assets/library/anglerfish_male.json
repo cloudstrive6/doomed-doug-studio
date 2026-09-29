@@ -1,0 +1,334 @@
+{
+ "name": "anglerfish_male",
+ "description": "Tiny male deep-sea anglerfish: slim brown-grey fish, pointy snout with little hook teeth, big eye and a big nostril, no rod or lure. Anchor centre, ~140 long, facing right.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "midnight zone",
+  "fish",
+  "anglerfish",
+  "male",
+  "parasite"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50.0,
+     0.0
+    ],
+    [
+     -74.0,
+     -18.0
+    ],
+    [
+     -68.0,
+     0.0
+    ],
+    [
+     -74.0,
+     18.0
+    ]
+   ],
+   "width": 3,
+   "fill": "#6b6b7f"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -20.0,
+     -14.0
+    ],
+    [
+     -10.0,
+     -26.0
+    ],
+    [
+     8.0,
+     -18.0
+    ]
+   ],
+   "width": 3,
+   "fill": "#6b6b7f"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -54.0,
+     0.0
+    ],
+    [
+     -30.0,
+     -15.0
+    ],
+    [
+     10.0,
+     -20.0
+    ],
+    [
+     44.0,
+     -14.0
+    ],
+    [
+     64.0,
+     -4.0
+    ],
+    [
+     66.0,
+     2.0
+    ],
+    [
+     48.0,
+     12.0
+    ],
+    [
+     0.0,
+     17.0
+    ],
+    [
+     -34.0,
+     11.0
+    ]
+   ],
+   "width": 0,
+   "fill": "#6b6b7f",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -48.0,
+     4.0
+    ],
+    [
+     0.0,
+     8.0
+    ],
+    [
+     44.0,
+     6.0
+    ],
+    [
+     48.0,
+     12.0
+    ],
+    [
+     0.0,
+     17.0
+    ],
+    [
+     -34.0,
+     11.0
+    ]
+   ],
+   "width": 0,
+   "fill": "#8e8ea4",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40.0,
+     -6.0
+    ],
+    [
+     0.0,
+     -15.0
+    ],
+    [
+     40.0,
+     -10.0
+    ]
+   ],
+   "width": 2,
+   "color": "#9a9ab0"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -54.0,
+     0.0
+    ],
+    [
+     -30.0,
+     -15.0
+    ],
+    [
+     10.0,
+     -20.0
+    ],
+    [
+     44.0,
+     -14.0
+    ],
+    [
+     64.0,
+     -4.0
+    ],
+    [
+     66.0,
+     2.0
+    ],
+    [
+     48.0,
+     12.0
+    ],
+    [
+     0.0,
+     17.0
+    ],
+    [
+     -34.0,
+     11.0
+    ]
+   ],
+   "width": 4,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     55.0,
+     -2.0
+    ],
+    [
+     60.0,
+     5.0
+    ],
+    [
+     61.0,
+     -2.0
+    ]
+   ],
+   "width": 1,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     61.0,
+     0.0
+    ],
+    [
+     66.0,
+     7.0
+    ],
+    [
+     67.0,
+     0.0
+    ]
+   ],
+   "width": 1,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     55.0,
+     5.0
+    ],
+    [
+     60.0,
+     -2.0
+    ],
+    [
+     61.0,
+     5.0
+    ]
+   ],
+   "width": 1,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     60.0,
+     4.0
+    ],
+    [
+     65.0,
+     -3.0
+    ],
+    [
+     66.0,
+     4.0
+    ]
+   ],
+   "width": 1,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     66.0,
+     1.0
+    ],
+    [
+     46.0,
+     3.0
+    ]
+   ],
+   "width": 2
+  },
+  {
+   "type": "circle",
+   "x": 30.0,
+   "y": -7.0,
+   "r": 7.0,
+   "width": 3,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "circle",
+   "x": 32.0,
+   "y": -7.0,
+   "r": 3.0,
+   "width": 1,
+   "fill": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 47.0,
+   "y": -8.0,
+   "rx": 6.0,
+   "ry": 5.0,
+   "width": 3,
+   "fill": "#2a2a36",
+   "color": "#b0b0c4"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10.0,
+     4.0
+    ],
+    [
+     -4.0,
+     12.0
+    ],
+    [
+     6.0,
+     13.0
+    ]
+   ],
+   "width": 2,
+   "fill": "#55556a"
+  }
+ ]
+}

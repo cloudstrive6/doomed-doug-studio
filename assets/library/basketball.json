@@ -1,0 +1,115 @@
+{
+ "name": "basketball",
+ "description": "Orange basketball with black seams. ~125 across, centred.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "sport",
+  "scale comparison"
+ ],
+ "elements": [
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 62,
+   "fill": "#e8741c",
+   "width": 5
+  },
+  {
+   "type": "spray",
+   "x": 22,
+   "y": 25,
+   "r": 30,
+   "color": "#b8520c",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -25,
+   "y": -28,
+   "r": 18,
+   "color": "#ffab66",
+   "density": 0.45
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -60
+    ],
+    [
+     0,
+     60
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     0
+    ],
+    [
+     60,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     -46
+    ],
+    [
+     -22,
+     0
+    ],
+    [
+     -40,
+     46
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     40,
+     -46
+    ],
+    [
+     22,
+     0
+    ],
+    [
+     40,
+     46
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 62,
+   "fill": null,
+   "width": 5
+  }
+ ]
+}

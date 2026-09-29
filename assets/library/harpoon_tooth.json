@@ -1,0 +1,274 @@
+{
+ "name": "harpoon_tooth",
+ "description": "Diagram close-up of a cone snail's hollow barbed radular tooth: slim ivory harpoon, hollow channel, backward barbs, point to the right. ~510x90, centred.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "diagram",
+  "cone snail",
+  "venom",
+  "science"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     210,
+     -4
+    ],
+    [
+     155,
+     -46
+    ],
+    [
+     163,
+     -12
+    ]
+   ],
+   "fill": "#f3ead2",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     160,
+     -4
+    ],
+    [
+     105,
+     -46
+    ],
+    [
+     113,
+     -12
+    ]
+   ],
+   "fill": "#f3ead2",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     190,
+     4
+    ],
+    [
+     135,
+     46
+    ],
+    [
+     143,
+     12
+    ]
+   ],
+   "fill": "#f3ead2",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     140,
+     4
+    ],
+    [
+     85,
+     46
+    ],
+    [
+     93,
+     12
+    ]
+   ],
+   "fill": "#f3ead2",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -250,
+     -30
+    ],
+    [
+     -120,
+     -24
+    ],
+    [
+     60,
+     -14
+    ],
+    [
+     170,
+     -8
+    ],
+    [
+     250,
+     0
+    ],
+    [
+     170,
+     8
+    ],
+    [
+     60,
+     14
+    ],
+    [
+     -120,
+     24
+    ],
+    [
+     -250,
+     30
+    ]
+   ],
+   "fill": "#f3ead2",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -250,
+     12
+    ],
+    [
+     -120,
+     12
+    ],
+    [
+     60,
+     8
+    ],
+    [
+     170,
+     4
+    ],
+    [
+     230,
+     1
+    ],
+    [
+     170,
+     7
+    ],
+    [
+     60,
+     14
+    ],
+    [
+     -120,
+     24
+    ],
+    [
+     -250,
+     30
+    ]
+   ],
+   "fill": "#c9b98f",
+   "width": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -245,
+     -8
+    ],
+    [
+     -120,
+     -6
+    ],
+    [
+     60,
+     -3
+    ],
+    [
+     190,
+     0
+    ],
+    [
+     60,
+     3
+    ],
+    [
+     -120,
+     6
+    ],
+    [
+     -245,
+     8
+    ]
+   ],
+   "fill": "#7a5a3a",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -250,
+     -30
+    ],
+    [
+     -120,
+     -24
+    ],
+    [
+     60,
+     -14
+    ],
+    [
+     170,
+     -8
+    ],
+    [
+     250,
+     0
+    ],
+    [
+     170,
+     8
+    ],
+    [
+     60,
+     14
+    ],
+    [
+     -120,
+     24
+    ],
+    [
+     -250,
+     30
+    ]
+   ],
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": -250,
+   "y": 0,
+   "rx": 10,
+   "ry": 30,
+   "fill": "#c9b98f",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": -250,
+   "y": 0,
+   "rx": 5,
+   "ry": 9,
+   "fill": "#3a2a1a",
+   "width": 2
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "name": "rov",
+ "description": "MBARI-style ROV, facing right: yellow box frame, white float block, blue thrusters, front camera and two lights, red tether going up. ~460x420 incl. tether.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "vehicle",
+  "rov",
+  "robot",
+  "science",
+  "deep sea"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     -125
+    ],
+    [
+     -55,
+     -200
+    ],
+    [
+     -30,
+     -260
+    ],
+    [
+     -50,
+     -320
+    ]
+   ],
+   "width": 6,
+   "color": "#e0201b"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     -125
+    ],
+    [
+     -55,
+     -200
+    ],
+    [
+     -30,
+     -260
+    ],
+    [
+     -50,
+     -320
+    ]
+   ],
+   "width": 2,
+   "color": "#ff9a3a"
+  },
+  {
+   "type": "spray",
+   "x": 230,
+   "y": -45,
+   "r": 45,
+   "color": "#fff7a0",
+   "density": 0.45
+  },
+  {
+   "type": "spray",
+   "x": 230,
+   "y": 70,
+   "r": 40,
+   "color": "#fff7a0",
+   "density": 0.45
+  },
+  {
+   "type": "rect",
+   "x": -180,
+   "y": -130,
+   "w": 330,
+   "h": 65,
+   "fill": "#f4f4f4",
+   "width": 5
+  },
+  {
+   "type": "rect",
+   "x": -175,
+   "y": -85,
+   "w": 320,
+   "h": 16,
+   "fill": "#d4d8dc",
+   "width": 0
+  },
+  {
+   "type": "rect",
+   "x": -180,
+   "y": -130,
+   "w": 330,
+   "h": 65,
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "rect",
+   "x": -170,
+   "y": -65,
+   "w": 310,
+   "h": 150,
+   "fill": "#4a5058",
+   "width": 0
+  },
+  {
+   "type": "rect",
+   "x": -120,
+   "y": -40,
+   "w": 90,
+   "h": 60,
+   "fill": "#8a929a",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -30,
+   "w": 70,
+   "h": 90,
+   "fill": "#8a929a",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": -60,
+   "y": 55,
+   "rx": 45,
+   "ry": 18,
+   "fill": "#6a7078",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -180,
+   "y": -68,
+   "w": 330,
+   "h": 14,
+   "fill": "#ffc61a",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -180,
+   "y": 78,
+   "w": 330,
+   "h": 14,
+   "fill": "#ffc61a",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -180,
+   "y": -68,
+   "w": 14,
+   "h": 160,
+   "fill": "#ffc61a",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 136,
+   "y": -68,
+   "w": 14,
+   "h": 160,
+   "fill": "#ffc61a",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -30,
+   "y": -68,
+   "w": 12,
+   "h": 160,
+   "fill": "#ffc61a",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -235,
+   "y": -30,
+   "w": 55,
+   "h": 40,
+   "fill": "#2f6fd6",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": -235,
+   "y": -10,
+   "rx": 8,
+   "ry": 20,
+   "fill": "#1b3d80",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -235,
+   "y": 30,
+   "w": 55,
+   "h": 40,
+   "fill": "#2f6fd6",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": -235,
+   "y": 50,
+   "rx": 8,
+   "ry": 20,
+   "fill": "#1b3d80",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 60,
+   "y": -170,
+   "w": 44,
+   "h": 40,
+   "fill": "#2f6fd6",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": 82,
+   "y": -170,
+   "rx": 22,
+   "ry": 7,
+   "fill": "#1b3d80",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": -5,
+   "w": 55,
+   "h": 45,
+   "fill": "#2b2b3a",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": 205,
+   "y": 17,
+   "r": 18,
+   "fill": "#1b4f86",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": 207,
+   "y": 14,
+   "r": 6,
+   "fill": "#bfe6ff",
+   "width": 1
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": -62,
+   "w": 35,
+   "h": 26,
+   "fill": "#3b3b4f",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": 186,
+   "y": -49,
+   "r": 11,
+   "fill": "#fff36b",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": 62,
+   "w": 35,
+   "h": 26,
+   "fill": "#3b3b4f",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": 186,
+   "y": 75,
+   "r": 11,
+   "fill": "#fff36b",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -170,
+     95
+    ],
+    [
+     140,
+     95
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  }
+ ]
+}

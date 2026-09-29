@@ -1,0 +1,260 @@
+{
+ "name": "small_car",
+ "description": "Small red hatchback car side view, facing right. Anchor bottom-centre (wheel bottoms). ~360x180.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "vehicle",
+  "car",
+  "scale comparison",
+  "everyday"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -175,
+     -40
+    ],
+    [
+     -178,
+     -95
+    ],
+    [
+     -150,
+     -110
+    ],
+    [
+     -90,
+     -175
+    ],
+    [
+     60,
+     -178
+    ],
+    [
+     120,
+     -115
+    ],
+    [
+     170,
+     -100
+    ],
+    [
+     178,
+     -45
+    ],
+    [
+     170,
+     -38
+    ]
+   ],
+   "fill": "#d6332a",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -172,
+     -60
+    ],
+    [
+     174,
+     -62
+    ],
+    [
+     172,
+     -40
+    ],
+    [
+     -172,
+     -40
+    ]
+   ],
+   "fill": "#9e1f18",
+   "width": 0
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": -150,
+   "r": 18,
+   "color": "#ff7a70",
+   "density": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -130,
+     -112
+    ],
+    [
+     -85,
+     -162
+    ],
+    [
+     -15,
+     -163
+    ],
+    [
+     -15,
+     -112
+    ]
+   ],
+   "fill": "#bfe6ff",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -163
+    ],
+    [
+     55,
+     -163
+    ],
+    [
+     100,
+     -112
+    ],
+    [
+     0,
+     -112
+    ]
+   ],
+   "fill": "#bfe6ff",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -112
+    ],
+    [
+     -8,
+     -45
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -95
+    ],
+    [
+     50,
+     -95
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 165,
+   "y": -88,
+   "r": 9,
+   "fill": "#fff36b",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -178,
+   "y": -85,
+   "w": 12,
+   "h": 16,
+   "fill": "#ff9a3a",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -175,
+     -40
+    ],
+    [
+     -178,
+     -95
+    ],
+    [
+     -150,
+     -110
+    ],
+    [
+     -90,
+     -175
+    ],
+    [
+     60,
+     -178
+    ],
+    [
+     120,
+     -115
+    ],
+    [
+     170,
+     -100
+    ],
+    [
+     178,
+     -45
+    ],
+    [
+     170,
+     -38
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "circle",
+   "x": -110,
+   "y": -38,
+   "r": 38,
+   "fill": "#1a1a1a",
+   "width": 5
+  },
+  {
+   "type": "circle",
+   "x": -110,
+   "y": -38,
+   "r": 15,
+   "fill": "#9a9a9a",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": 110,
+   "y": -38,
+   "r": 38,
+   "fill": "#1a1a1a",
+   "width": 5
+  },
+  {
+   "type": "circle",
+   "x": 110,
+   "y": -38,
+   "r": 15,
+   "fill": "#9a9a9a",
+   "width": 3
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "name": "american_football",
+ "description": "Brown American football with white laces. ~185 long, centred.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "sport",
+  "scale comparison"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     0
+    ],
+    [
+     -60,
+     -42
+    ],
+    [
+     0,
+     -55
+    ],
+    [
+     60,
+     -42
+    ],
+    [
+     92,
+     0
+    ],
+    [
+     60,
+     42
+    ],
+    [
+     0,
+     55
+    ],
+    [
+     -60,
+     42
+    ]
+   ],
+   "fill": "#8b4a24",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 15,
+   "y": 25,
+   "r": 35,
+   "color": "#5e2f14",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -25,
+   "y": -25,
+   "r": 22,
+   "color": "#b06a3c",
+   "density": 0.4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -38,
+     -22
+    ],
+    [
+     38,
+     -22
+    ]
+   ],
+   "width": 5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -32
+    ],
+    [
+     -30,
+     -12
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -18,
+     -32
+    ],
+    [
+     -18,
+     -12
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -6,
+     -32
+    ],
+    [
+     -6,
+     -12
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     6,
+     -32
+    ],
+    [
+     6,
+     -12
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     18,
+     -32
+    ],
+    [
+     18,
+     -12
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -32
+    ],
+    [
+     30,
+     -12
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -70,
+     -26
+    ],
+    [
+     -78,
+     0
+    ],
+    [
+     -70,
+     26
+    ]
+   ],
+   "width": 5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     70,
+     -26
+    ],
+    [
+     78,
+     0
+    ],
+    [
+     70,
+     26
+    ]
+   ],
+   "width": 5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     0
+    ],
+    [
+     -60,
+     -42
+    ],
+    [
+     0,
+     -55
+    ],
+    [
+     60,
+     -42
+    ],
+    [
+     92,
+     0
+    ],
+    [
+     60,
+     42
+    ],
+    [
+     0,
+     55
+    ],
+    [
+     -60,
+     42
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "smooth": true
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "name": "school_bus",
+ "description": "Yellow school bus side view, facing right: black stripes, row of windows, door, black wheels. Anchor bottom-centre (wheel bottoms). ~650x270.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "vehicle",
+  "scale comparison",
+  "everyday"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -300,
+     -270
+    ],
+    [
+     215,
+     -270
+    ],
+    [
+     225,
+     -150
+    ],
+    [
+     295,
+     -140
+    ],
+    [
+     300,
+     -55
+    ],
+    [
+     -300,
+     -55
+    ]
+   ],
+   "fill": "#ffc61a",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -298,
+     -90
+    ],
+    [
+     298,
+     -90
+    ],
+    [
+     300,
+     -55
+    ],
+    [
+     -300,
+     -55
+    ]
+   ],
+   "fill": "#d99a00",
+   "width": 0
+  },
+  {
+   "type": "spray",
+   "x": -150,
+   "y": -250,
+   "r": 20,
+   "color": "#ffe680",
+   "density": 0.4
+  },
+  {
+   "type": "spray",
+   "x": 50,
+   "y": -250,
+   "r": 20,
+   "color": "#ffe680",
+   "density": 0.4
+  },
+  {
+   "type": "rect",
+   "x": -300,
+   "y": -150,
+   "w": 600,
+   "h": 10,
+   "fill": "#000000",
+   "width": 0
+  },
+  {
+   "type": "rect",
+   "x": -300,
+   "y": -120,
+   "w": 600,
+   "h": 8,
+   "fill": "#000000",
+   "width": 0
+  },
+  {
+   "type": "rect",
+   "x": -280,
+   "y": -245,
+   "w": 48,
+   "h": 70,
+   "fill": "#bfe6ff",
+   "width": 4
+  },
+  {
+   "type": "rect",
+   "x": -218,
+   "y": -245,
+   "w": 48,
+   "h": 70,
+   "fill": "#bfe6ff",
+   "width": 4
+  },
+  {
+   "type": "rect",
+   "x": -156,
+   "y": -245,
+   "w": 48,
+   "h": 70,
+   "fill": "#bfe6ff",
+   "width": 4
+  },
+  {
+   "type": "rect",
+   "x": -94,
+   "y": -245,
+   "w": 48,
+   "h": 70,
+   "fill": "#bfe6ff",
+   "width": 4
+  },
+  {
+   "type": "rect",
+   "x": -32,
+   "y": -245,
+   "w": 48,
+   "h": 70,
+   "fill": "#bfe6ff",
+   "width": 4
+  },
+  {
+   "type": "rect",
+   "x": 30,
+   "y": -245,
+   "w": 48,
+   "h": 70,
+   "fill": "#bfe6ff",
+   "width": 4
+  },
+  {
+   "type": "rect",
+   "x": 92,
+   "y": -245,
+   "w": 48,
+   "h": 70,
+   "fill": "#bfe6ff",
+   "width": 4
+  },
+  {
+   "type": "rect",
+   "x": 160,
+   "y": -245,
+   "w": 45,
+   "h": 185,
+   "fill": "#bfe6ff",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     182,
+     -245
+    ],
+    [
+     182,
+     -60
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 283,
+   "y": -110,
+   "r": 10,
+   "fill": "#fff36b",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -310,
+   "y": -70,
+   "w": 25,
+   "h": 18,
+   "fill": "#000000",
+   "width": 0
+  },
+  {
+   "type": "rect",
+   "x": 285,
+   "y": -70,
+   "w": 25,
+   "h": 18,
+   "fill": "#000000",
+   "width": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -300,
+     -270
+    ],
+    [
+     215,
+     -270
+    ],
+    [
+     225,
+     -150
+    ],
+    [
+     295,
+     -140
+    ],
+    [
+     300,
+     -55
+    ],
+    [
+     -300,
+     -55
+    ]
+   ],
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": -185,
+   "y": -55,
+   "rx": 58,
+   "ry": 50,
+   "fill": "#3b3b3b",
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": -185,
+   "y": -45,
+   "r": 45,
+   "fill": "#1a1a1a",
+   "width": 5
+  },
+  {
+   "type": "circle",
+   "x": -185,
+   "y": -45,
+   "r": 18,
+   "fill": "#9a9a9a",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": 180,
+   "y": -55,
+   "rx": 58,
+   "ry": 50,
+   "fill": "#3b3b3b",
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": 180,
+   "y": -45,
+   "r": 45,
+   "fill": "#1a1a1a",
+   "width": 5
+  },
+  {
+   "type": "circle",
+   "x": 180,
+   "y": -45,
+   "r": 18,
+   "fill": "#9a9a9a",
+   "width": 3
+  }
+ ]
+}
