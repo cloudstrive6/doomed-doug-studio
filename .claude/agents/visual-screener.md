@@ -23,6 +23,9 @@ View `build/samples/*.png` (frames every 30 s from final.mp4) and `build/qc.json
 frozen shots, unreadable moments. View `build/thumbnail.png` and `build/thumbnail_small.png`: readable at feed size,
 Doug + threat obvious, complements the title in `metadata.json`, not misleading.
 
+Shorts: view `build/shorts/*_preview.png` (and a few frames from `build/shorts/*.mp4` with ffmpeg): title
+readable, drawing not cut off at the sides, subtitles legible, end card arrow points down to the link.
+
 ## Report: `episodes/<id>/visual_review.md` (append a section per round)
 `VERDICT: PASS` or `VERDICT: FAIL` with numbered fixes, each naming the shot id and the exact change, routed to
 director (composition), illustrator (drawing), graphic designer (thumbnail) or art director (style).

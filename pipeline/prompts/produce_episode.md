@@ -50,6 +50,7 @@ Designer makes `thumbnail.json` (and optionally `thumbnail_b.json`); creative-di
 `thumbnail.json`); visual-screener checks the thumbnail at feed size.
 
 ## 6. Timing: editor
+Make sure `shorts.json` exists (director picks, titler titles) and `python -m studio shorts validate <id>` is OK.
 Editor runs `python -m studio narrate <id>` and the pacing pass (steps 1–3 of its instructions; NOT the final
 render: CI does that next). Then run `python -m studio validate <id>`; everything must be OK.
 → stage `packaged`. Write the episode id (e.g. `001-ocean-layers`) to the file `.current_episode`.

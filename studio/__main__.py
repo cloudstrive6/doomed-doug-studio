@@ -253,6 +253,37 @@ def cmd_queue(a):
             f.write(f"need={'true' if q['need_episode'] else 'false'}\n")
 
 
+def cmd_shorts(a):
+    from . import shorts
+    if a.action == "pending":
+        from .youtube import local
+        rows = shorts.pending_related()
+        for r in rows:
+            print(f"{r['short_title']}  | Short: {r['studio_url']}  | link to: {r['related_title']} "
+                  f"(https://youtu.be/{r['related_id']}, live {local(r['long_publish_at'])})")
+        print(f"{len(rows)} Short(s) waiting for their Related video link")
+        return
+    if a.action == "mark-related":
+        print("marked" if shorts.mark_related(a.episode) else "not found")
+        return
+    ep = episode_dir(a.episode)
+    if a.action == "validate":
+        p = shorts.validate(ep)
+        print("\n".join(p) if p else "OK")
+        sys.exit(1 if p else 0)
+    if a.action == "render":
+        for f in shorts.render(ep, a.only.split(",") if a.only else None):
+            print(f)
+    if a.action == "upload":
+        from . import notify
+        from .youtube import local
+        for s in shorts.upload(ep):
+            notify.send(f"🩳 Short scheduled: {s['title']}\nGoes public: {local(s['publish_at'])}\n"
+                        f"Set its Related video to the full episode: https://studio.youtube.com/video/{s['youtube_id']}/edit\n"
+                        f"(or ask Claude to do the pending Related-video links in Chrome)",
+                        ep / "build" / "shorts" / f"{s['id']}_preview.png")
+
+
 def cmd_actions_usage(a):
     from .actions_usage import check
     u = check(alert=a.alert)
@@ -285,6 +316,9 @@ def main():
     x = s.add_parser("branding"); x.add_argument("--keywords"); x.set_defaults(f=cmd_branding)
     x = s.add_parser("voices"); x.add_argument("--names", default="Charon,Fenrir,Orus,Puck,Iapetus,Algenib")
     x.add_argument("--text"); x.set_defaults(f=cmd_voices)
+    x = s.add_parser("shorts"); x.add_argument("action", choices=["validate", "render", "upload", "pending", "mark-related"])
+    x.add_argument("episode", nargs="?", help="episode id (or the Short's YouTube id for mark-related)")
+    x.add_argument("--only"); x.set_defaults(f=cmd_shorts)
     x = s.add_parser("queue"); x.add_argument("--github-output", action="store_true"); x.set_defaults(f=cmd_queue)
     x = s.add_parser("actions-usage"); x.add_argument("--alert", action="store_true"); x.set_defaults(f=cmd_actions_usage)
     a = p.parse_args()

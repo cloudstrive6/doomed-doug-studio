@@ -44,6 +44,11 @@ schedule:
   publish_days: ["Fri"]      # after the launch: one long video a week
   episodes_ahead: 1          # after the launch: scheduled videos to keep in the queue
 
+shorts:                      # vertical Shorts cut from each episode, pointing viewers to the long video
+  per_episode: 2
+  publish_times: ["09:00", "19:00"]   # New York time = 2:00 AM and 12:00 PM NZDT; one slot each, after the long video is live
+  playlist: "Doomed Doug Shorts"
+
 github:
   actions_warn_at: 1500      # minutes/month: warning alert
   actions_public_at: 1900    # minutes/month: automatically switch this repo to Public (free unlimited minutes)

@@ -1,0 +1,24 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s145",
+      "to": "s155",
+      "title": "Anglerfish Romance Is a Horror Movie",
+      "outro": "What happens next is even worse. The full dive is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": "A glowing lure, a mouth full of glass teeth, and a love life that makes it so much worse.",
+      "duration_s": 50.9
+    },
+    {
+      "id": "short02",
+      "from": "s085",
+      "to": "s095",
+      "title": "The Giant Squid Has Eyes Bigger Than Your Head",
+      "outro": "And it only gets deeper from here. The full dive is linked below.",
+      "end_card": "FULL DIVE: TAP BELOW",
+      "description": "The first live giant squid ever filmed in the deep, and the eyes that make it unforgettable.",
+      "duration_s": 54.7
+    }
+  ]
+}

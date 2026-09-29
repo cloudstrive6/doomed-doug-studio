@@ -38,5 +38,9 @@ Rules: follow ALL 10 Titler rules in style bible section 7 (skeletons T1–T6, o
 a scope device, no "in N Minutes", no leading counts, no ALL-CAPS words, no emojis, no "!", never reuse or
 noun-swap a Paint Explainer title). Write "Doug" into the title when a skeleton allows it (T2).
 Honest to the video. Tags: 5–10 plain search phrases (he uses none; they're cheap insurance), total < 480 chars.
+**Shorts:** also fill `title` (≤ 60 chars, a punchy claim about the clip: "The Giant Squid Has Eyes Bigger Than
+Your Head"; no "#shorts", no clickbait the clip doesn't pay off) and `description` (one sentence) for every entry
+in `episodes/<id>/shorts.json`, then `python -m studio shorts validate <id>`.
+
 Then run `python -m studio validate <id> metadata` and fix everything it reports (thumbnail.json may still be
 pending; that item is for the graphic designer).

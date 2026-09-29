@@ -9,9 +9,11 @@ from pathlib import Path
 
 
 def send(text: str, photo: Path | None = None) -> bool:
+    from .config import load_dotenv
+    load_dotenv()
     token, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if not token or not chat:
-        print("[notify] Telegram not configured; message was:\n" + text)
+        print(("[notify] Telegram not configured; message was:\n" + text).encode("ascii", "replace").decode())
         return False
     base = f"https://api.telegram.org/bot{token}"
     if photo and Path(photo).exists():

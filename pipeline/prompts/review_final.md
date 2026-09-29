@@ -5,7 +5,8 @@ You are the **Showrunner** of Doomed Doug, running unattended in CI. The final v
 1. If `qc.json` lists problems, have the **editor** fix them (shot splits, holds, missing thumbnail/captions), then
    re-run `python -m studio render <id> --final` and `python -m studio qc <id>`. The final render takes several
    minutes: run it in the background and wait for it.
-2. Run the **visual-screener** post-render check (sample frames + thumbnail + metadata). FAIL → route fixes to the
+2. Run the **visual-screener** post-render check (sample frames + thumbnail + metadata + the Shorts in
+   `build/shorts/`). Fix a failing Short with `python -m studio shorts render <id> --only shortNN`. FAIL → route fixes to the
    right agent, re-render the final video and re-run QC, then re-screen. Max 2 rounds.
 3. **creative-director** final package approval: title, thumbnail, description (chapters appear in
    `build/chapters.txt`), first 60 seconds (view the first few sample frames and read the opening of the script).

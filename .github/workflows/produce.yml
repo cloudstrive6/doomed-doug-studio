@@ -98,6 +98,7 @@ jobs:
         run: |
           python -m studio render "$EP" --final
           python -m studio thumbnail "$EP"
+          python -m studio shorts render "$EP" || echo "Shorts render failed (long video continues)"
           python -m studio qc "$EP" && echo "QC_OK=1" >> "$GITHUB_ENV" || echo "QC_OK=0" >> "$GITHUB_ENV"
 
       - name: "Stage C: final screening + approval"
@@ -131,7 +132,9 @@ jobs:
 
       - name: Upload to YouTube (scheduled, private until publish time)
         if: ${{ !inputs.skip_upload }}
-        run: python -m studio upload "$EP"
+        run: |
+          python -m studio upload "$EP"
+          python -m studio shorts upload "$EP" || python -m studio notify "Shorts upload failed for $EP (long video is fine). Log: $RUN_URL"
 
       - name: Prune and save narration cache
         if: always()
