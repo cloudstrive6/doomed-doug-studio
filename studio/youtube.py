@@ -90,6 +90,16 @@ def _set_env_value(key, value):
 # ------------------------------------------------------------------ scheduling
 
 
+def local(ts: str | dt.datetime | None) -> str:
+    """Format a UTC timestamp in the owner's display timezone (NZ), e.g. 'Wed 30 Sep 2:00 PM NZDT'."""
+    if not ts:
+        return ""
+    from zoneinfo import ZoneInfo
+    tz = ZoneInfo(load_config()["schedule"].get("display_timezone", "Pacific/Auckland"))
+    d = _parse_utc(ts) if isinstance(ts, str) else ts
+    return d.astimezone(tz).strftime("%a %d %b %I:%M %p %Z").replace(" 0", " ")
+
+
 def _parse_utc(s: str) -> dt.datetime:
     return dt.datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(dt.timezone.utc)
 
@@ -149,7 +159,7 @@ def taken_slots() -> list[str]:
 # ------------------------------------------------------------------ upload
 
 
-def upload_episode(ep_dir: Path, dry_run: bool = False) -> dict:
+def upload_episode(ep_dir: Path, dry_run: bool = False, publish_at_override: str | None = None) -> dict:
     from googleapiclient.http import MediaFileUpload
     cfg = load_config()
     meta_path = ep_dir / "metadata.json"
@@ -162,7 +172,7 @@ def upload_episode(ep_dir: Path, dry_run: bool = False) -> dict:
     chapters = ep_dir / "build" / "chapters.txt"
     ch_text = chapters.read_text(encoding="utf-8").strip() if chapters.exists() else ""
     meta["description"] = meta["description"].replace("{{CHAPTERS}}", ch_text).replace("\n\n\n", "\n\n")
-    slot = next_publish_slot(taken_slots())
+    slot = _parse_utc(publish_at_override) if publish_at_override else next_publish_slot(taken_slots())
     publish_at = slot.astimezone(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     body = {
         "snippet": {

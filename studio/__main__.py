@@ -49,7 +49,8 @@ def cmd_status(a):
         if d.is_dir():
             meta = d / "metadata.json"
             m = json.loads(meta.read_text(encoding="utf-8")) if meta.exists() else {}
-            print(f"{d.name:40} {get_stage(d):16} {m.get('publish_at', ''):22} {m.get('title', '')}")
+            from .youtube import local
+            print(f"{d.name:40} {get_stage(d):16} {local(m.get('publish_at')):24} {m.get('title', '')}")
 
 
 def cmd_stage(a):
@@ -184,16 +185,22 @@ def cmd_qc(a):
 
 def cmd_upload(a):
     from . import notify
-    from .youtube import upload_episode
+    from .youtube import local, upload_episode
     ep = episode_dir(a.episode)
     if not a.dry_run and get_stage(ep) != "qc_passed" and not a.force:
         raise SystemExit(f"episode stage is {get_stage(ep)}, expected qc_passed")
-    meta = upload_episode(ep, dry_run=a.dry_run)
+    publish_at = None
+    if a.publish_at:  # e.g. "2026-09-30 14:00" in NZ time (display_timezone)
+        import datetime as _dt
+        from zoneinfo import ZoneInfo
+        tz = ZoneInfo(load_config()["schedule"].get("display_timezone", "Pacific/Auckland"))
+        publish_at = _dt.datetime.strptime(a.publish_at, "%Y-%m-%d %H:%M").replace(tzinfo=tz).isoformat()
+    meta = upload_episode(ep, dry_run=a.dry_run, publish_at_override=publish_at)
     if a.dry_run:
         return
     set_stage(ep, "uploaded", meta.get("youtube_id", ""))
     warn = "\n".join("⚠ " + w for w in meta.get("upload_warnings", []))
-    notify.send(f"🎬 Doomed Doug: new episode scheduled\n{meta['title']}\nGoes public: {meta['publish_at']} (UTC)\n"
+    notify.send(f"🎬 Doomed Doug: new episode scheduled\n{meta['title']}\nGoes public: {local(meta['publish_at'])}\n"
                 f"Review now: https://studio.youtube.com/video/{meta['youtube_id']}/edit\n{warn}",
                 ep / "build" / "thumbnail.png")
     print(json.dumps(meta, indent=1, ensure_ascii=False))
@@ -270,7 +277,8 @@ def main():
     x.add_argument("--limit", type=int); x.set_defaults(f=cmd_render)
     x = s.add_parser("qc"); x.add_argument("episode"); x.add_argument("--every", type=float, default=30.0); x.set_defaults(f=cmd_qc)
     x = s.add_parser("upload"); x.add_argument("episode"); x.add_argument("--dry-run", action="store_true")
-    x.add_argument("--force", action="store_true"); x.set_defaults(f=cmd_upload)
+    x.add_argument("--force", action="store_true")
+    x.add_argument("--publish-at", help='override the slot, NZ time: "YYYY-MM-DD HH:MM"'); x.set_defaults(f=cmd_upload)
     x = s.add_parser("notify"); x.add_argument("text"); x.add_argument("--photo"); x.set_defaults(f=cmd_notify)
     x = s.add_parser("auth"); x.set_defaults(f=cmd_auth)
     x = s.add_parser("analytics"); x.add_argument("--days", type=int, default=28); x.set_defaults(f=cmd_analytics)

@@ -33,7 +33,8 @@ style:                       # MS Paint engine
   wobble_px: 1.2
 
 schedule:
-  timezone: "America/New_York"
+  timezone: "America/New_York"     # publish slots target US viewers (12:00 New York = 05:00 NZDT / 04:00 NZST)
+  display_timezone: "Pacific/Auckland"   # every time shown to the owner (Telegram, status, logs) is in NZ time
   publish_time: "12:00"
   review_window_days: 3      # videos are uploaded as scheduled >= this many days ahead (owner review window)
   launch:                    # binge-able back catalogue first: one video EVERY day for the first N uploads
