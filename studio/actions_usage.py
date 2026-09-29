@@ -77,24 +77,47 @@ def month_usage(token, owner, today=None):
 
 
 def check(alert: bool = False) -> dict:
+    from .config import load_config
+    gh_cfg = load_config().get("github", {})
+    warn_at, public_at = int(gh_cfg.get("actions_warn_at", 1500)), int(gh_cfg.get("actions_public_at", 1900))
     token = os.environ.get("GH_USAGE_TOKEN") or os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if not token:
         raise SystemExit("set GH_USAGE_TOKEN (or GITHUB_TOKEN)")
     owner = (os.environ.get("GITHUB_REPOSITORY") or "cloudstrive6/").split("/")[0]
     u = month_usage(token, owner)
-    used, quota = u["total_minutes"], u["quota"]
-    u["level"] = "over" if used >= quota else ("warn" if used >= 0.75 * quota else "ok")
-    if alert and u["level"] != "ok":
-        from . import notify
-        top = ", ".join(f"{r.split('/')[-1]} {m}" for r, m in sorted(u["per_repo"].items(), key=lambda x: -x[1])[:5])
-        msg = (f"⚠️ GitHub Actions minutes {u['month']}: {used} / {quota} used ({u['scope']}).\n"
-               f"Top repos: {top}\n")
-        msg += ("OVER the free private quota: switch doomed-doug-studio to Public (gh repo edit --visibility public "
-                "--accept-visibility-change-consequences) or Actions will stop until next month."
-                if u["level"] == "over" else "75% of the free private quota used: plan the switch to Public.")
-        notify.send(msg)
-        _issue(msg)
+    used = u["total_minutes"]
+    u["level"] = "switch" if used >= public_at else ("warn" if used >= warn_at else "ok")
+    if not alert or u["level"] == "ok":
+        return u
+    from . import notify
+    top = ", ".join(f"{r.split('/')[-1]} {m}" for r, m in sorted(u["per_repo"].items(), key=lambda x: -x[1])[:5])
+    msg = f"⚠️ GitHub Actions minutes {u['month']}: {used} / {u['quota']} ({u['scope']}). Top repos: {top}\n"
+    if u["level"] == "switch":
+        msg += _make_public()
+    else:
+        msg += f"The repo switches to Public automatically at {public_at} minutes."
+    notify.send(msg)
+    _issue(msg)
     return u
+
+
+def _make_public() -> str:
+    """Flip this repo to Public (needs GH_ADMIN_TOKEN: fine-grained PAT on this repo, Administration: read/write)."""
+    repo, token = os.environ.get("GITHUB_REPOSITORY"), os.environ.get("GH_ADMIN_TOKEN")
+    if not repo or not token:
+        return ("Reached the switch threshold, but GH_ADMIN_TOKEN is not set, so the repo is still private. Run: "
+                f"gh repo edit {repo or 'cloudstrive6/doomed-doug-studio'} --visibility public "
+                "--accept-visibility-change-consequences")
+    info = _get(f"{API}/repos/{repo}", token)
+    if not info.get("private"):
+        return "Repo is already Public."
+    req = urllib.request.Request(f"{API}/repos/{repo}", method="PATCH", data=json.dumps({"visibility": "public"}).encode(),
+                                 headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"})
+    try:
+        urllib.request.urlopen(req, timeout=30).read()
+        return "✅ Switched the repo to PUBLIC: Actions minutes are now free and unlimited."
+    except Exception as e:
+        return f"❌ Tried to switch the repo to Public but failed: {e}"
 
 
 def _issue(msg):

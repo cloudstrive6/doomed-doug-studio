@@ -61,7 +61,9 @@ GitHub → Actions → **Produce episode** → Run workflow with *skip_upload* t
 
 ## 5b. Actions-minutes watch (private repo quota)
 Private repos share **2,000 free Actions minutes per month per account** (public repos are free). `usage.yml` checks
-daily and alerts (Telegram + a GitHub issue → email) at 1,500 and at 2,000, the cue to switch this repo to Public:
+daily, alerts (Telegram + a GitHub issue → email) at 1,500, and **automatically switches this repo to Public at
+1,900** (needs `GH_ADMIN_TOKEN`: fine-grained PAT → Only select repositories: doomed-doug-studio → Permissions:
+*Administration: Read and write* → `gh secret set GH_ADMIN_TOKEN`). Manual equivalent:
 `gh repo edit cloudstrive6/doomed-doug-studio --visibility public --accept-visibility-change-consequences`.
 For an account-wide count (all your private repos, not just this one) create a **fine-grained PAT**: GitHub →
 Settings → Developer settings → Fine-grained tokens → Repository access *All repositories* → Permissions
@@ -77,6 +79,7 @@ Estimated Doomed Doug usage: ~60–120 min per episode + ~10 min per growth revi
 | `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET`, `YOUTUBE_REFRESH_TOKEN` | Desktop OAuth client + `python -m studio auth` |
 | `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` | @BotFather / getUpdates |
 | `GH_USAGE_TOKEN` (optional, recommended) | fine-grained PAT, all repos, Actions read-only |
+| `GH_ADMIN_TOKEN` (for the auto-switch to Public) | fine-grained PAT, only doomed-doug-studio, Administration read/write |
 
 ## How it runs
 - **Launch phase: the first 28 uploads go out daily** (every day 12:00 New York), so new viewers have a back

@@ -1,7 +1,7 @@
 name: Actions minutes watch
 
 # Private repos share 2,000 free Actions minutes/month per account. Alerts (Telegram + a GitHub issue, which
-# emails you) at 75% (1,500) and at/over 2,000, the signal to switch this repo to Public.
+# emails you) at 1,500 and automatically switches this repo to Public at 1,900 (config github.*).
 on:
   schedule:
     - cron: "30 23 * * *"        # daily
@@ -24,6 +24,7 @@ jobs:
       - name: Check minutes used this month
         env:
           GH_USAGE_TOKEN: ${{ secrets.GH_USAGE_TOKEN }}   # fine-grained PAT, all repos, Actions: read (account-wide count)
+          GH_ADMIN_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}   # fine-grained PAT, this repo only, Administration: read/write
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

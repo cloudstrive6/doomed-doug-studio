@@ -109,8 +109,8 @@ jobs:
           rm -rf episodes/*/build/tts_cache
           git add -A episodes data channel assets && (git commit -m "${EP:-episode}: produced" || true) && git push
 
-      - name: Keep the video for 14 days
-        if: always()
+      - name: "Keep the video for 14 days (private repo only; public artifacts are downloadable by anyone)"
+        if: ${{ always() && github.event.repository.private }}
         uses: actions/upload-artifact@v4
         with:
           name: episode-${{ env.EP }}

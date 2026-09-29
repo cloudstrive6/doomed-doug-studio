@@ -43,6 +43,10 @@ schedule:
   publish_days: ["Fri"]      # after the launch: one long video a week
   episodes_ahead: 1          # after the launch: scheduled videos to keep in the queue
 
+github:
+  actions_warn_at: 1500      # minutes/month: warning alert
+  actions_public_at: 1900    # minutes/month: automatically switch this repo to Public (free unlimited minutes)
+
 youtube:
   privacy_until_publish: private
   playlists:
