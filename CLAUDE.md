@@ -1,7 +1,7 @@
 # Doomed Doug studio
 
 Automated faceless YouTube channel **Doomed Doug** (@DoomedDoug): MS Paint stick-figure videos in the
-disturbing science & nature lane. Every week the narrator sends Doug (stick man, red cap) somewhere nature
+disturbing science & nature lane. Every video the narrator sends Doug (stick man, red cap) somewhere nature
 really doesn't want him. Format replicated from The Paint Explainer (structure/hooks/titles, not content).
 
 ## Map
@@ -23,7 +23,7 @@ really doesn't want him. Format replicated from The Paint Explainer (structure/h
 `status` · `new <slug>` · `stage <ep> <stage>` · `validate <ep> [shotlist|metadata]` · `keyframes <ep> [--shots s001,s002]`
 · `asset-preview <name...>` · `thumbnail <ep>` · `art <scene.json> <out.png>` · `narrate <ep>` ·
 `render <ep> [--limit N] [--final]` · `qc <ep>` · `upload <ep> [--dry-run]` · `analytics` · `notify "<text>" [--photo p]`
-· `voices` · `auth` · `branding`
+· `voices` · `auth` · `branding` · `queue` · `actions-usage`
 
 Stages: idea → scripted → script_approved → shotlisted → art_approved → packaged → built → qc_passed → uploaded.
 
@@ -35,3 +35,4 @@ Stages: idea → scripted → script_approved → shotlisted → art_approved �
 - Doug's design is locked (`studio/doug.py`); only the art director may add poses/gear.
 - Never commit or print secrets (`.env`, tokens). Uploads happen only through `python -m studio upload` after QC.
 - Uploads are scheduled `publishAt` ≥ 3 days out; the owner reviews in YouTube Studio during that window.
+- Cadence: first 28 uploads daily (launch), then weekly on Fridays (`config/channel.yaml` → `schedule`).

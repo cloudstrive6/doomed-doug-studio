@@ -93,23 +93,51 @@ def _set_env_value(key, value):
 # ------------------------------------------------------------------ scheduling
 
 
+def _parse_utc(s: str) -> dt.datetime:
+    return dt.datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(dt.timezone.utc)
+
+
+def in_launch_phase(uploaded_count: int | None = None) -> bool:
+    launch = load_config()["schedule"].get("launch") or {}
+    n = len(taken_slots()) if uploaded_count is None else uploaded_count
+    return n < int(launch.get("episodes", 0))
+
+
 def next_publish_slot(taken: list[str] | None = None) -> dt.datetime:
-    """Next configured publish day/time that is >= review_window_days away and not already used."""
+    """Next free publish slot >= review_window_days away. Launch phase (first N uploads): every launch day;
+    afterwards: the weekly publish_days."""
     from zoneinfo import ZoneInfo
     cfg = load_config()["schedule"]
     tz = ZoneInfo(cfg["timezone"])
     days = {"Mon": 0, "Tue": 1, "Wed": 2, "Thu": 3, "Fri": 4, "Sat": 5, "Sun": 6}
-    wanted = {days[d] for d in cfg["publish_days"]}
+    taken = list(taken or [])
+    launch = in_launch_phase(len(taken))
+    wanted = {days[d] for d in (cfg["launch"]["publish_days"] if launch else cfg["publish_days"])}
     hh, mm = map(int, cfg["publish_time"].split(":"))
     earliest = dt.datetime.now(tz) + dt.timedelta(days=cfg["review_window_days"])
-    taken = set(taken or [])
+    used = {_parse_utc(t) for t in taken}
     d = earliest.date()
-    for _ in range(120):
+    for _ in range(400):
         cand = dt.datetime(d.year, d.month, d.day, hh, mm, tzinfo=tz)
-        if cand.weekday() in wanted and cand >= earliest and cand.astimezone(dt.timezone.utc).isoformat() not in taken:
+        if cand.weekday() in wanted and cand >= earliest and cand.astimezone(dt.timezone.utc) not in used:
             return cand
         d += dt.timedelta(days=1)
     raise RuntimeError("no publish slot found")
+
+
+def queue_status() -> dict:
+    """How many episodes are scheduled but not yet public, and whether production should make another."""
+    from .__main__ import get_stage
+    cfg = load_config()["schedule"]
+    now = dt.datetime.now(dt.timezone.utc)
+    taken = taken_slots()
+    queued = sum(1 for t in taken if _parse_utc(t) > now)
+    in_progress = [d.name for d in sorted((ROOT / "episodes").iterdir())
+                   if d.is_dir() and (d / "status.json").exists() and get_stage(d) != "uploaded"]
+    launch = in_launch_phase(len(taken))
+    target = int(cfg["launch"]["queue_target"]) if launch else int(cfg.get("episodes_ahead", 1))
+    return {"uploaded_total": len(taken), "queued": queued, "target": target, "phase": "launch" if launch else "weekly",
+            "in_progress": in_progress, "need_episode": bool(in_progress) or queued < target}
 
 
 def taken_slots() -> list[str]:

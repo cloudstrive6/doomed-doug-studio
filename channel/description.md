@@ -2,7 +2,7 @@ Every week we send Doug, a stick man in a red cap, somewhere nature really doesn
 
 Real science. Terrible drawings. Doug did not agree to this.
 
-New video every Friday.
+A new video every day for our first four weeks, then every Friday.
 
 📩 Business & sponsorships: [YOUR BUSINESS EMAIL]
 

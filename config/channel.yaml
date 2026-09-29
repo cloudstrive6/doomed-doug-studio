@@ -34,10 +34,14 @@ style:                       # MS Paint engine
 
 schedule:
   timezone: "America/New_York"
-  publish_days: ["Fri"]      # one long video a week
   publish_time: "12:00"
-  review_window_days: 3      # videos are uploaded as scheduled >= this many days ahead
-  episodes_ahead: 1          # keep this many finished episodes in the queue
+  review_window_days: 3      # videos are uploaded as scheduled >= this many days ahead (owner review window)
+  launch:                    # binge-able back catalogue first: one video EVERY day for the first N uploads
+    episodes: 28
+    publish_days: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    queue_target: 4          # keep this many scheduled-but-unpublished videos in the queue during launch
+  publish_days: ["Fri"]      # after the launch: one long video a week
+  episodes_ahead: 1          # after the launch: scheduled videos to keep in the queue
 
 youtube:
   privacy_until_publish: private

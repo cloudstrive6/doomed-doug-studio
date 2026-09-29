@@ -2,11 +2,16 @@ name: Produce episode
 
 on:
   schedule:
-    - cron: "0 6 * * 1"          # every Monday 06:00 UTC -> scheduled for the next Friday (>= 3-day review window)
+    - cron: "0 5 * * *"          # twice daily; the queue check decides whether a new episode is needed
+    - cron: "0 17 * * *"         # (launch: 1 video/day for the first 28 uploads, then 1/week on Fridays)
   workflow_dispatch:
     inputs:
       skip_upload:
         description: "Produce + render but don't upload"
+        type: boolean
+        default: false
+      force:
+        description: "Produce even if the queue is full"
         type: boolean
         default: false
 
@@ -18,7 +23,24 @@ permissions:
   contents: write
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      need: ${{ steps.q.outputs.need }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q PyYAML tzdata
+      - id: q
+        name: Is another episode needed?
+        run: python -m studio queue --github-output
+
   produce:
+    needs: check
+    if: ${{ needs.check.outputs.need == 'true' || inputs.force }}
     runs-on: ubuntu-latest
     timeout-minutes: 340
     env:
@@ -102,4 +124,5 @@ jobs:
 
       - name: Alert on failure
         if: failure()
-        run: python -m studio notify "❌ Doomed Doug production failed (${EP:-no episode}). Log: $RUN_URL"
+        run: |
+          python -m studio notify "❌ Doomed Doug production failed (${EP:-no episode}). Log: $RUN_URL"

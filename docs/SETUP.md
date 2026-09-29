@@ -79,11 +79,16 @@ Estimated Doomed Doug usage: ~60–120 min per episode + ~10 min per growth revi
 | `GH_USAGE_TOKEN` (optional, recommended) | fine-grained PAT, all repos, Actions read-only |
 
 ## How it runs
-- **Monday 06:00 UTC** `produce.yml`: agents write → screen → draw → package; final render + QC; final screening;
-  upload **private with publishAt** = next Friday 12:00 New York (≥ 3 days out). Telegram pings you with the
-  Studio link: review it any time before Friday; to stop it, set it back to Private/unscheduled in Studio.
+- **Launch phase: the first 28 uploads go out daily** (every day 12:00 New York), so new viewers have a back
+  catalogue to binge. **Then weekly**, every Friday 12:00 New York. Change `schedule.launch` / `publish_days` in
+  `config/channel.yaml`.
+- `produce.yml` runs **twice a day** (05:00 and 17:00 UTC). A 1-minute check (`python -m studio queue`) decides
+  whether a new episode is needed (queue of scheduled-but-unpublished videos below 4 during launch, below 1 after).
+  If yes: agents write → screen → draw → package; final render + QC; final screening; upload **private with
+  publishAt** ≥ 3 days out. Telegram pings you with the Studio link: review any time before it goes public; to
+  stop one, set it back to Private/unscheduled in Studio. Two runs a day let it catch up after a failed run.
 - **Sunday 14:00 UTC** `growth.yml`: analytics + competitor pull → growth memo → re-ranked idea backlog.
-- To publish twice a week later: add a day to `schedule.publish_days` and a second cron line in `produce.yml`.
+- **Daily** `usage.yml`: Actions-minutes watch (see 5b).
 
 ## Troubleshooting
 | Symptom | Fix |

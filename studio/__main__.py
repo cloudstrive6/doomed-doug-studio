@@ -229,6 +229,17 @@ def cmd_voices(a):
         print(out / f"{name}.wav", "" if real else "(silent: no GOOGLE_TTS_API_KEY)")
 
 
+def cmd_queue(a):
+    """Prints queue status; with --github-output writes need=true/false for the workflow."""
+    import os
+    from .youtube import queue_status
+    q = queue_status()
+    print(json.dumps(q, indent=1))
+    if a.github_output and os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+            f.write(f"need={'true' if q['need_episode'] else 'false'}\n")
+
+
 def cmd_actions_usage(a):
     from .actions_usage import check
     u = check(alert=a.alert)
@@ -260,6 +271,7 @@ def main():
     x = s.add_parser("branding"); x.add_argument("--keywords"); x.set_defaults(f=cmd_branding)
     x = s.add_parser("voices"); x.add_argument("--names", default="Charon,Fenrir,Orus,Puck,Iapetus,Algenib")
     x.add_argument("--text"); x.set_defaults(f=cmd_voices)
+    x = s.add_parser("queue"); x.add_argument("--github-output", action="store_true"); x.set_defaults(f=cmd_queue)
     x = s.add_parser("actions-usage"); x.add_argument("--alert", action="store_true"); x.set_defaults(f=cmd_actions_usage)
     a = p.parse_args()
     a.f(a)

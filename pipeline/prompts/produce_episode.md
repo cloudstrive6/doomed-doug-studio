@@ -13,6 +13,8 @@ After each major step, commit your progress: `git add -A && git commit -m "<id>:
   RESUME it from its current stage. Otherwise start a new one.
 - If the newest file in `data/insights/` is older than 7 days, run the **growth-analyst** first (it pulls
   analytics itself when credentials exist).
+- If `data/ideas.md` has fewer than 5 ideas with status `backlog`, have the **growth-analyst** add at least 10
+  new proven-engine ideas before the creative director picks (the launch phase publishes one video a day).
 
 ## 1. Brief: creative-director
 Ask it to pick the next episode from `data/ideas.md` and create it: `python -m studio new <slug>` then write
