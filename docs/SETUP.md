@@ -58,6 +58,16 @@ Listen to `channel/voice_samples/*.wav` (Charon, Fenrir, Orus, Puck, Iapetus, Al
 GitHub → Actions → **Produce episode** → Run workflow with *skip_upload* ticked → download the artifact
 (`final.mp4`, thumbnail) and watch it. When happy, run again without *skip_upload* (or wait for Monday's cron).
 
+## 5b. Actions-minutes watch (private repo quota)
+Private repos share **2,000 free Actions minutes per month per account** (public repos are free). `usage.yml` checks
+daily and alerts (Telegram + a GitHub issue → email) at 1,500 and at 2,000, the cue to switch this repo to Public:
+`gh repo edit cloudstrive6/doomed-doug-studio --visibility public --accept-visibility-change-consequences`.
+For an account-wide count (all your private repos, not just this one) create a **fine-grained PAT**: GitHub →
+Settings → Developer settings → Fine-grained tokens → Repository access *All repositories* → Permissions
+*Actions: Read-only* (Metadata read is automatic) → `gh secret set GH_USAGE_TOKEN`.
+Estimated Doomed Doug usage: ~60–120 min per episode + ~10 min per growth review + ~1 min/day watch
+≈ 350–600 min/month at one episode a week.
+
 ## Secrets checklist
 | Secret | From |
 |---|---|
@@ -65,6 +75,7 @@ GitHub → Actions → **Produce episode** → Run workflow with *skip_upload* t
 | `GOOGLE_TTS_API_KEY` | Cloud API key restricted to Text-to-Speech |
 | `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET`, `YOUTUBE_REFRESH_TOKEN` | Desktop OAuth client + `python -m studio auth` |
 | `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` | @BotFather / getUpdates |
+| `GH_USAGE_TOKEN` (optional, recommended) | fine-grained PAT, all repos, Actions read-only |
 
 ## How it runs
 - **Monday 06:00 UTC** `produce.yml`: agents write → screen → draw → package; final render + QC; final screening;

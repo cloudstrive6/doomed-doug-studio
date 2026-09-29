@@ -229,6 +229,12 @@ def cmd_voices(a):
         print(out / f"{name}.wav", "" if real else "(silent: no GOOGLE_TTS_API_KEY)")
 
 
+def cmd_actions_usage(a):
+    from .actions_usage import check
+    u = check(alert=a.alert)
+    print(json.dumps(u, indent=1))
+
+
 def main():
     p = argparse.ArgumentParser(prog="studio")
     s = p.add_subparsers(dest="cmd", required=True)
@@ -254,6 +260,7 @@ def main():
     x = s.add_parser("branding"); x.add_argument("--keywords"); x.set_defaults(f=cmd_branding)
     x = s.add_parser("voices"); x.add_argument("--names", default="Charon,Fenrir,Orus,Puck,Iapetus,Algenib")
     x.add_argument("--text"); x.set_defaults(f=cmd_voices)
+    x = s.add_parser("actions-usage"); x.add_argument("--alert", action="store_true"); x.set_defaults(f=cmd_actions_usage)
     a = p.parse_args()
     a.f(a)
 

@@ -1,0 +1,30 @@
+name: Actions minutes watch
+
+# Private repos share 2,000 free Actions minutes/month per account. Alerts (Telegram + a GitHub issue, which
+# emails you) at 75% (1,500) and at/over 2,000, the signal to switch this repo to Public.
+on:
+  schedule:
+    - cron: "30 23 * * *"        # daily
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  usage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q PyYAML
+      - name: Check minutes used this month
+        env:
+          GH_USAGE_TOKEN: ${{ secrets.GH_USAGE_TOKEN }}   # fine-grained PAT, all repos, Actions: read (account-wide count)
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m studio actions-usage --alert
