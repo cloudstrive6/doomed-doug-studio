@@ -1,0 +1,233 @@
+{
+ "_draft": "DIRECTOR PLACEHOLDER - graphic designer must replace (style bible 7.10, archetype B)",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     460,
+     40
+    ],
+    [
+     820,
+     40
+    ],
+    [
+     895,
+     200
+    ],
+    [
+     385,
+     200
+    ]
+   ],
+   "fill": "#3a9ad9",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "portuguese_man_o_war",
+   "x": 520.0,
+   "y": 120.0,
+   "scale": 0.28
+  },
+  {
+   "type": "asset",
+   "name": "cone_snail",
+   "x": 640.0,
+   "y": 120.0,
+   "scale": 0.28
+  },
+  {
+   "type": "asset",
+   "name": "bobbit_worm",
+   "x": 760.0,
+   "y": 120.0,
+   "scale": 0.28
+  },
+  {
+   "type": "text",
+   "text": "MAN O' WAR",
+   "x": 350,
+   "y": 120.0,
+   "size": 26,
+   "bold": true,
+   "max_width": 200
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     310,
+     200
+    ],
+    [
+     970,
+     200
+    ],
+    [
+     1045,
+     360
+    ],
+    [
+     235,
+     360
+    ]
+   ],
+   "fill": "#1b4f86",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "humboldt_squid",
+   "x": 392.5,
+   "y": 280.0,
+   "scale": 0.28
+  },
+  {
+   "type": "asset",
+   "name": "giant_squid",
+   "x": 557.5,
+   "y": 280.0,
+   "scale": 0.28
+  },
+  {
+   "type": "asset",
+   "name": "barreleye_fish",
+   "x": 722.5,
+   "y": 280.0,
+   "scale": 0.28
+  },
+  {
+   "type": "asset",
+   "name": "vampire_squid",
+   "x": 887.5,
+   "y": 280.0,
+   "scale": 0.28
+  },
+  {
+   "type": "text",
+   "text": "HUMBOLDT",
+   "x": 1080,
+   "y": 280.0,
+   "size": 26,
+   "bold": true,
+   "max_width": 200
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     160,
+     360
+    ],
+    [
+     1120,
+     360
+    ],
+    [
+     1195,
+     520
+    ],
+    [
+     85,
+     520
+    ]
+   ],
+   "fill": "#0b2447",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "anglerfish",
+   "x": 400.0,
+   "y": 440.0,
+   "scale": 0.28
+  },
+  {
+   "type": "asset",
+   "name": "black_swallower",
+   "x": 880.0,
+   "y": 440.0,
+   "scale": 0.28
+  },
+  {
+   "type": "text",
+   "text": "ANGLERFISH / BLACK SWALLOWER",
+   "x": 50,
+   "y": 440.0,
+   "size": 26,
+   "bold": true,
+   "max_width": 200
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     520
+    ],
+    [
+     1270,
+     520
+    ],
+    [
+     1345,
+     680
+    ],
+    [
+     -65,
+     680
+    ]
+   ],
+   "fill": "#050a1f",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "zombie_worms",
+   "x": 220.0,
+   "y": 600.0,
+   "scale": 0.28
+  },
+  {
+   "type": "asset",
+   "name": "hadal_snailfish",
+   "x": 640.0,
+   "y": 600.0,
+   "scale": 0.28
+  },
+  {
+   "type": "asset",
+   "name": "plastic_bag",
+   "x": 1060.0,
+   "y": 600.0,
+   "scale": 0.28
+  },
+  {
+   "type": "text",
+   "text": "ZOMBIE WORMS",
+   "x": 1380,
+   "y": 600.0,
+   "size": 26,
+   "bold": true,
+   "max_width": 200
+  },
+  {
+   "type": "doug",
+   "x": 1150,
+   "y": 600,
+   "scale": 0.25,
+   "pose": "float",
+   "expression": "shock",
+   "gear": [
+    "mask"
+   ]
+  }
+ ]
+}
