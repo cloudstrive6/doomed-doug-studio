@@ -219,11 +219,16 @@ def upload_episode(ep_dir: Path, dry_run: bool = False, publish_at_override: str
                                   media_body=MediaFileUpload(str(srt), mimetype="application/octet-stream")).execute()
     except Exception as e:
         warnings.append(f"captions not uploaded ({e})")
-    try:
-        if meta.get("playlist"):
-            add_to_playlist(api, vid, meta["playlist"])
-    except Exception as e:
-        warnings.append(f"playlist add failed ({e})")
+    if meta.get("playlist"):
+        import time
+        for attempt in range(4):  # YouTube sometimes answers 409 SERVICE_UNAVAILABLE right after an upload
+            try:
+                add_to_playlist(api, vid, meta["playlist"])
+                break
+            except Exception as e:
+                if attempt == 3:
+                    warnings.append(f"playlist add failed ({e})")
+                time.sleep(10 * (attempt + 1))
     # Unverified API projects force uploads to stay private: detect and warn.
     got = api.videos().list(part="status", id=vid).execute()["items"][0]["status"]
     if not got.get("publishAt"):
