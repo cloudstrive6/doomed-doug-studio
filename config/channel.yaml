@@ -16,7 +16,7 @@ voice:                       # Google Cloud TTS, Chirp 3: HD
   fallback_wpm: 197          # only used for dry runs without an API key
 
 video:
-  fps: 24
+  fps: 60                    # delivered as 1080p60 (YouTube serves the higher-bitrate 1080p60 stream)
   width: 1920
   height: 1080
   gap_between_shots: 0.12    # seconds of silence after each shot's line

@@ -230,7 +230,9 @@ def render_video(ep_dir: Path, out_name: str = "final.mp4", require_voice: bool 
     else:
         cmd += ["-map", "0:v", "-map", "1:a"]
     cmd += ["-t", f"{total:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-tune", "animation",
-            "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart",
+            "-crf", "20", "-pix_fmt", "yuv420p", "-profile:v", "high", "-r", str(fps),
+            "-g", str(fps // 2), "-bf", "2",  # YouTube upload spec: closed GOP of half the frame rate, 2 B-frames
+            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart",
             str(out)]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     try:
@@ -260,6 +262,7 @@ def sample_frames(video: Path, out_dir: Path, every_s: float = 30.0) -> list[Pat
 
 
 def probe(video: Path) -> dict:
-    r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration:stream=codec_type,width,height",
+    r = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
+                        "format=duration:stream=codec_type,width,height,r_frame_rate,sample_rate",
                         "-of", "json", str(video)], capture_output=True, text=True, check=True)
     return json.loads(r.stdout)

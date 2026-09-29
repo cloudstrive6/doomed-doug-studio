@@ -145,6 +145,12 @@ def cmd_qc(a):
     if not (lo * 60 * 0.8 <= dur <= hi * 60 * 1.5):
         problems.append(f"duration {dur / 60:.1f} min outside target {lo}-{hi} min")
     kinds = {s["codec_type"] for s in info["streams"]}
+    vs = next((s for s in info["streams"] if s["codec_type"] == "video"), {})
+    want_fps = cfg["video"]["fps"]
+    num, den = (vs.get("r_frame_rate", "0/1").split("/") + ["1"])[:2]
+    got_fps = float(num) / float(den or 1)
+    if (vs.get("width"), vs.get("height")) != (1920, 1080) or abs(got_fps - want_fps) > 0.01:
+        problems.append(f"video is {vs.get('width')}x{vs.get('height')} @ {got_fps:g} fps; required 1920x1080 @ {want_fps} fps")
     if kinds != {"video", "audio"}:
         problems.append(f"streams: {kinds}")
     timing = json.loads((ep / "build" / "timing.json").read_text(encoding="utf-8"))
