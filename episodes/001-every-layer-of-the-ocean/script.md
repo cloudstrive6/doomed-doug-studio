@@ -1,5 +1,6 @@
 <!-- axis: depth -->
-<!-- Episode 001: Every Layer of the Ocean. Draft 1. Zone headers ("Twilight zone." etc.) are spoken on their own line after an item's kicker, just before the next item's heading, so every item still opens on its exact name. -->
+<!-- Episode 001: Every Layer of the Ocean. Draft 2. Zone headers ("Twilight zone." etc.) are spoken on their own line after an item's kicker, just before the next item's heading, so every item still opens on its exact name. -->
+<!-- Pronunciation checks for the editor (preview with `narrate` before the full render; respell in TTS input only if Chirp mangles them): Man o' War = "man oh war"; Vampyroteuthis infernalis = "vam-pie-roh-TOO-this in-fer-NAH-lis"; trimethylamine oxide = "try-meth-ill-AM-een OX-ide"; Osedax = "OH-seh-dax"; Ogasawara = "oh-gah-sah-WAH-rah"; Tsunemi Kubodera = "tsoo-NEH-mee koo-boh-DEH-rah"; Kermadec = "KER-muh-dek"; diablo rojo = "dee-AH-bloh ROH-hoh"; Chirp should say "o'" not "o apostrophe". -->
 
 [Open on the thumbnail pyramid, 1.5 to 4 seconds, then cut to the sea surface. Doug bobs in the water, holding a snorkel.]
 
@@ -17,9 +18,9 @@ Portuguese Man o' War.
 
 From a distance, it looks like a purple party balloon that somebody lost at the beach, and it's drifting straight toward Doug.
 
-That balloon is a gas-filled float that can sit about fifteen centimeters above the waterline. It has no engine and no way to steer, so wind and currents push it wherever they like, sometimes in drifting fleets of more than a thousand.
+That balloon is a gas-filled float that can sit about fifteen centimeters above the waterline, and it has no way to steer.
 
-Under the float hang the tentacles. On average they stretch about ten meters, and some reach thirty, which is longer than two city buses parked end to end, dangling under something the size of a sandwich bag. Every tentacle is packed with microscopic stinging capsules, and each capsule holds a coiled, barbed tube that fires venom into whatever brushes past.
+Under the float hang the tentacles. On average they stretch about ten meters, and some reach thirty, which is longer than two city buses parked end to end, dangling under something the size of a sandwich bag. Every tentacle is packed with tiny capsules that fire venom on contact.
 
 Here's where it gets strange. The man o' war isn't one animal. It's a colony of genetically identical clones called zooids, and every type of zooid has exactly one job. Some keep it afloat, some catch food, some digest it, and some handle reproduction, but none of them could survive on its own. It looks like a jellyfish, but it's closer to a floating committee.
 
@@ -29,7 +30,7 @@ Doug sees a floating purple bag, waves hello, and tries to pop it. The committee
 
 [Doug: X eyes. Ghost Doug floats up. DOUG DEATHS: 1]
 
-Doug has died, and we haven't even left the surface.
+Doug has died.
 
 A man o' war doesn't stop being a problem when it washes up, because a stranded one can still sting weeks later.
 
@@ -41,7 +42,7 @@ It's a snail that lives on shallow reefs in the tropical Indo-Pacific, it moves 
 
 The shell is seven to fifteen centimeters long, about the size of a television remote. Something that slow can't chase fish, so it uses chemistry instead. Its weapon is a hollow, modified tooth that works like a harpoon, loaded into a stretchy tube that the snail aims at a fish like a gun barrel. When it fires, the tooth goes in and the venom follows.
 
-But that's not the disturbing part. Scientists discovered that this snail also releases insulin into the water, and it isn't human insulin but a fish version, matched to the snail's favorite prey. It's part of a toxic cloud that researchers nicknamed the nirvana cabal. Fish that swim through it have their blood sugar crash, and they go limp and dazed. Then the snail spreads a stretchy false mouth over them like a cape and pulls them inside.
+But that's not the disturbing part. Scientists discovered that this snail also releases insulin into the water, and it isn't human insulin but a fish version, matched to the snail's favorite prey. It's part of a toxic cloud that researchers nicknamed the nirvana cabal. Fish that swim through it have their blood sugar crash, and they go limp and dazed. Then the snail spreads a stretchy false mouth over them like a cape, and only once the fish is inside does the harpoon go in.
 
 Very few animals on Earth are known to use insulin as a weapon, and this is one of them.
 
@@ -107,7 +108,7 @@ For centuries, the giant squid was known mostly from dead ones washing ashore an
 
 That changed in July twenty twelve, when a Japanese team led by zoologist Tsunemi Kubodera took a submersible down near the Ogasawara Islands, about a thousand kilometers south of Tokyo. They used lights that squid can't see, dangled a one-meter squid as bait, and made around a hundred dives. At about six hundred and thirty meters, a giant squid finally showed up, and they followed it down to roughly nine hundred meters. The animal was about three meters long.
 
-What makes it unsettling is the eyes. A giant squid eye has been measured at about twenty-seven centimeters across, roughly the size of a basketball. The pupil alone is about nine centimeters wide, big enough to fit the entire eye of a swordfish inside it, and it's the largest eye in the animal kingdom.
+What makes it unsettling is the eyes. A giant squid eye has been measured at about twenty-seven centimeters across, roughly the size of a basketball. The pupil alone is about nine centimeters wide, big enough to fit the entire eye of a swordfish inside it. Only its cousin, the colossal squid, has eyes to rival it.
 
 Scientists think eyes that big aren't built for hunting but for spotting sperm whales, which stir up glowing plankton as they move through the dark. Sperm whales eat giant squid, and many whales carry round sucker scars from the fights.
 
@@ -117,7 +118,7 @@ The squid looks at Doug, and it keeps looking. Then it turns and slowly leaves, 
 
 Doug has survived, and he's more upset about this than he was about dying.
 
-The largest eye on Earth took one long look at Doug and decided he wasn't worth the effort.
+One of the largest eyes on Earth studied Doug from every angle and still couldn't find a reason to care.
 
 ## Barreleye Fish
 
@@ -147,7 +148,7 @@ It lives about six hundred to nine hundred meters down, in a layer called the ox
 
 But here's the catch. The vampire squid from hell doesn't hunt. It eats marine snow, a slow drizzle of dead plankton, mucus and other scraps drifting down from above, which it collects with two long, sticky filaments and packs into little balls before eating them.
 
-When something threatens it, it doesn't bite. First it flips its webbed arms inside out to look like something else, and if that fails, it squirts out a cloud of glowing, sticky mucus and slips away while the predator is distracted.
+When something threatens it, it doesn't bite. First it flips its webbed arms inside out to look like something else, and if that fails, it squirts out a cloud of glowing, sticky mucus and slips away while the predator is distracted. The tips of its eight arms can glow with pulsing blue light, too. This whole lazy lifestyle burns so little energy that it can live comfortably where almost nothing else can breathe.
 
 [Doug squeezes his eyes shut and braces. A glowing blue blob hits him in the face.]
 
@@ -165,11 +166,11 @@ Midnight zone.
 
 Anglerfish.
 
-Below one thousand meters, sunlight is gone for good, and the only light left is made by animals. Almost every one of them is a trap.
+Below one thousand meters, sunlight is gone for good, and the only light left is made by animals. And some of it is bait.
 
 The female deep-sea anglerfish has a fishing rod growing out of her head, and at the tip is a glowing bulb called an esca. She doesn't make that glow herself, because it comes from bioluminescent bacteria living inside the bulb. She hangs still in the dark and lets the lure dangle in front of her mouth, glowing like a phone screen in a dark bedroom. Anything curious enough to swim up and check it out becomes dinner.
 
-The most disturbing part is the males. In some deep-sea species, the male is only a fraction of the female's size and has no lure of his own. In an ocean this big and this dark, finding a female is so rare that when he does, he latches onto her body and never lets go. Over time, his tissue fuses with hers and their bloodstreams connect, his eyes stop working, and he gets all his nutrition from her. He becomes a permanent attachment whose only job is to supply sperm. Scientists are still studying how their immune systems allow this, when a body would normally reject a transplanted organ.
+Now for the part nobody warns you about: the males. In some deep-sea species, the male is only a fraction of the female's size and has no lure of his own. In an ocean this big and this dark, finding a female is so rare that when he does, he latches onto her body and never lets go. Over time, his tissue fuses with hers and their bloodstreams connect, his eyes stop working, and he gets all his nutrition from her. He becomes a permanent attachment whose only job is to supply sperm. Scientists are still studying how their immune systems allow this, when a body would normally reject a transplanted organ.
 
 [Doug in total darkness. A small glowing light bobs ahead. Doug smiles and swims toward it.]
 
@@ -188,6 +189,8 @@ Black Swallower.
 It's small and dark, and at about twenty-five centimeters long it's barely longer than a banana, which makes it the fish down here you'd probably ignore.
 
 The black swallower lives deep in tropical and subtropical waters, and its whole body is built around one idea. Its jaws open wide, and its stomach stretches so far that the skin around it turns see-through. It can swallow prey more than twice its own length and ten times its own weight, which for you would be roughly like swallowing a canoe in one go.
+
+Its upper jaws are hinged at the front of the skull, so they swing down wide enough to take in something bigger than its own head. The teeth are hooked and point backwards. They fold down to let prey slide in, then lock together so nothing gets back out. One early naturalist suspected it grabs a fish by the tail and walks its jaws up the body, bite by bite, until the whole thing is coiled up inside.
 
 What nobody expected was just how far it would push that. In two thousand seven, a dead black swallower about nineteen centimeters long was found floating off Grand Cayman. Inside it was a snake mackerel eighty-six centimeters long, more than four times the length of the fish that ate it.
 
@@ -223,9 +226,9 @@ Doug has come a long way, so he lies down on the whale for a quick rest, in wate
 
 [Ice-cube Doug. X eyes. DOUG DEATHS: 6]
 
-Doug has died, and the worms look him over for a moment before going back to the whale.
+Doug has died, and the worms don't even look up from the whale.
 
-Even creatures that make a living off the dead took one look at Doug and passed.
+Zombie worms will eat a whale down to the bone, and they still left Doug on the side of the plate.
 
 [Background: true black. Trench walls rise on both sides.]
 
@@ -257,11 +260,11 @@ At the very edge of where fish can live at all, the champion is small, soft, pal
 
 Challenger Deep.
 
-This is the deepest known point on Earth, at the southern end of the Mariana Trench in the western Pacific. The most precise measurement so far puts the bottom at about ten thousand nine hundred and thirty-five meters.
+This is the deepest known point on Earth, at the southern end of the Mariana Trench. The most precise measurement so far puts the bottom at about ten thousand nine hundred and thirty-five meters.
 
 If you dropped Mount Everest in here, its peak would still be about two kilometers underwater, and the pressure at the bottom is more than a thousand times what you feel at the surface.
 
-The first people to make it down were Jacques Piccard and Don Walsh, in January nineteen sixty, aboard a bathyscaphe called Trieste. The descent took nearly five hours, and a viewing window cracked on the way, so they spent only about twenty minutes on the bottom. Nobody went back in person for fifty-two years, until filmmaker James Cameron made a solo dive in twenty twelve. In twenty nineteen, explorer Victor Vescovo made four dives to the bottom in his submersible, the Limiting Factor.
+The first people to make it down were Jacques Piccard and Don Walsh, in January nineteen sixty, aboard a bathyscaphe called Trieste. The descent took nearly five hours, and a viewing window cracked on the way, so they spent only about twenty minutes on the bottom. Nobody went back in person for fifty-two years, until filmmaker James Cameron made a solo dive in twenty twelve. In twenty nineteen, explorer Victor Vescovo made two solo dives to the bottom in his submersible, the Limiting Factor.
 
 [Doug in a tiny yellow submarine, cap visible through the porthole. He passes the man o' war, the squid, the anglerfish, the snailfish.]
 
@@ -283,4 +286,4 @@ Doug crossed eleven kilometers of things that wanted him dead, and at the very b
 
 Doug deaths this trip: seven. Tell us in the comments where Doug should go next. He still hasn't agreed to any of this.
 
-<!-- words: 3149 (spoken narration only; headings and stage directions excluded) · est. runtime 16:09 at 195 wpm · avg sentence 16.2 words · Flesch approx. 69 -->
+<!-- words: 3231 (spoken narration only; headings, comments and stage directions excluded) · est. runtime 16:34 at 195 wpm · item 1 twist at spoken word 137 -->
