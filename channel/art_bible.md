@@ -1,0 +1,44 @@
+# Doomed Doug: art bible
+
+Owned by the art director. Style: **MS Paint, crude on purpose, readable instantly.** Aliased edges, flat
+colours, bucket fills, spray-can glow, slight hand wobble, 3-drawing "boil" loop at 8 fps.
+
+## Palette
+| Use | Hex |
+|---|---|
+| Ink (outlines) | `#000000` (auto `#ffffff` for Doug on dark backgrounds) |
+| Doug's cap | `#e0201b` |
+| Sky | `#8fd3ff` |
+| Sun / glow / lures | `#ffe24a`, `#fff36b`, spray `#fff7a0` |
+| Sand / wood | `#e8c07a` / `#a0522d` |
+| Danger red / blood-free "ouch" | `#7a0d0d` (mouths), never pools of blood |
+| Labels | white box `#ffffff`, black text |
+
+### Ocean depth ramp (use these exact colours so every ocean video matches)
+| Zone | Depth | Colour |
+|---|---|---|
+| Surface / sunlight | 0–200 m | `#3a9ad9` |
+| Twilight | 200–1,000 m | `#1b4f86` |
+| Midnight | 1,000–4,000 m | `#0b2447` |
+| Abyss | 4,000–6,000 m | `#050a1f` |
+| Hadal / trenches | 6,000 m+ | `#020308` |
+
+Other environments: lava `#ff5a1f`/`#ffb000`, rock `#6b5b4b`, jungle `#2e8b3a`/`#1d5e27`, ice `#dff4ff`,
+desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never realistic).
+
+## Line weights (1920x1080)
+Doug 7 · creatures 5–6 · props 4–5 · details 2–3 · text outline 4–8.
+
+## Text
+Font: Arimo (bundled, Arial look-alike = classic MS Paint text). `label` boxes for depths, names and numbers.
+Max ~8 words on screen per shot. Title cards: big bold red `#e0201b` with black outline (like the banner).
+
+## Recurring layouts
+- **Depth meter**: tall canvas + `pan_down`, zone bands, white `label` depth markers at left.
+- **Death counter**: `label` "DOUG DEATHS: N" top-right, appears on each death shot.
+- **Stop title card**: zone/creature name as a big `label` + Doug reacting.
+- **Scale comparison**: Doug next to the creature, both at true relative size, a `label` with the size.
+
+## Never
+Realistic gore, blood pools, exposed organs, dismemberment; realistic (non-MS-Paint) art; changing Doug's design;
+cutesy nursery look (pastel baby style, "kids" framing).

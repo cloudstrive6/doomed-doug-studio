@@ -1,0 +1,58 @@
+# Doomed Doug: channel + pipeline configuration. Agents read this; code reads this.
+channel:
+  name: "Doomed Doug"
+  handle: "@DoomedDoug"
+  niche: "Disturbing science & nature (nature horror): deep sea, parasites, prehistoric oceans, deadly places, extreme environments"
+  premise: "Every video, we send Doug (a stick man in a red cap) somewhere nature really doesn't want him."
+  language: en-US
+  category_id: "28"          # Science & Technology
+  made_for_kids: false       # ALWAYS false; content is adult-coded dark humour
+  default_tags: ["doomed doug", "stick figure", "science explained", "nature", "ocean", "animation"]
+
+voice:                       # Google Cloud TTS, Chirp 3: HD
+  name: "en-US-Chirp3-HD-Charon"   # candidates: Charon, Fenrir, Orus, Puck, Iapetus (run `python -m studio voices`)
+  language: en-US
+  speaking_rate: 1.0
+  fallback_wpm: 165          # only used for dry runs without an API key
+
+video:
+  fps: 24
+  width: 1920
+  height: 1080
+  gap_between_shots: 0.12    # seconds of silence after each shot's line
+  target_minutes: [15, 20]
+  music: null                # optional path to a royalty-free bed, e.g. assets/music/bed.mp3
+  music_volume: 0.06
+
+style:                       # MS Paint engine
+  boil_variants: 3           # number of wobble drawings cycled per shot (GIF-like loop)
+  boil_fps: 8
+  boil_px: 1.6
+  wobble_px: 1.2
+
+schedule:
+  timezone: "America/New_York"
+  publish_days: ["Fri"]      # one long video a week
+  publish_time: "12:00"
+  review_window_days: 3      # videos are uploaded as scheduled >= this many days ahead
+  episodes_ahead: 1          # keep this many finished episodes in the queue
+
+youtube:
+  privacy_until_publish: private
+  playlists:
+    ocean: "Doug vs. the Ocean"
+    parasites: "Doug vs. Parasites"
+    prehistoric: "Doug vs. Prehistoric Earth"
+    places: "Doug vs. Deadly Places"
+    compilations: "Full Series & Marathons"
+
+competitors:                 # watched by the growth analyst (channel handles)
+  - "@ThePaintExplainer"
+  - "@MrScience"
+  - "@Paintify"
+  - "@Spinosnack"
+  - "@BeyondTheBlue"
+  - "@BluntlyExplained"
+  - "@CasualGeographic"
+  - "@ExtinctZoo"
+  - "@SimplePaint"

@@ -1,0 +1,105 @@
+name: Produce episode
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"          # every Monday 06:00 UTC -> scheduled for the next Friday (>= 3-day review window)
+  workflow_dispatch:
+    inputs:
+      skip_upload:
+        description: "Produce + render but don't upload"
+        type: boolean
+        default: false
+
+concurrency:
+  group: produce
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -r requirements.txt
+          npm install -g @anthropic-ai/claude-code
+          git config user.name "doomed-doug-bot"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
+
+      - name: "Stage A: agents write, draw and package the episode"
+        run: |
+          rm -f .current_episode
+          claude -p "$(cat pipeline/prompts/produce_episode.md)" \
+            --dangerously-skip-permissions --max-turns 600 --output-format stream-json --verbose \
+            > claude_stage_a.jsonl
+          test -s .current_episode || { echo "Stage A did not produce a packaged episode"; exit 1; }
+          echo "EP=$(cat .current_episode)" >> "$GITHUB_ENV"
+
+      - name: Save progress
+        if: always()
+        run: git add -A episodes data channel assets && (git commit -m "stage A progress" || true) && git push
+
+      - name: "Stage B: final render + technical QC"
+        run: |
+          python -m studio render "$EP" --final
+          python -m studio thumbnail "$EP"
+          python -m studio qc "$EP" && echo "QC_OK=1" >> "$GITHUB_ENV" || echo "QC_OK=0" >> "$GITHUB_ENV"
+
+      - name: "Stage C: final screening + approval"
+        run: |
+          claude -p "QC exit status: ${QC_OK}. $(cat pipeline/prompts/review_final.md)" \
+            --dangerously-skip-permissions --max-turns 300 --output-format stream-json --verbose \
+            > claude_stage_c.jsonl
+
+      - name: Upload to YouTube (scheduled, private until publish time)
+        if: ${{ !inputs.skip_upload }}
+        run: python -m studio upload "$EP"
+
+      - name: Save state
+        if: always()
+        run: |
+          rm -rf episodes/*/build/tts_cache
+          git add -A episodes data channel assets && (git commit -m "${EP:-episode}: produced" || true) && git push
+
+      - name: Keep the video for 14 days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: episode-${{ env.EP }}
+          path: |
+            episodes/${{ env.EP }}/build/final.mp4
+            episodes/${{ env.EP }}/build/thumbnail.png
+            episodes/${{ env.EP }}/build/captions.srt
+            claude_stage_*.jsonl
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Alert on failure
+        if: failure()
+        run: python -m studio notify "❌ Doomed Doug production failed (${EP:-no episode}). Log: $RUN_URL"

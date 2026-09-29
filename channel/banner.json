@@ -1,0 +1,201 @@
+{
+ "size": [
+  2560,
+  1440
+ ],
+ "background": "#8fd3ff",
+ "elements": [
+  {
+   "type": "bands",
+   "bands": [
+    {
+     "y0": 770,
+     "y1": 960,
+     "color": "#2a7fc4"
+    },
+    {
+     "y0": 960,
+     "y1": 1150,
+     "color": "#1b5a96"
+    },
+    {
+     "y0": 1150,
+     "y1": 1300,
+     "color": "#0f3563"
+    },
+    {
+     "y0": 1300,
+     "y1": 1440,
+     "color": "#050a1f"
+    }
+   ]
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     770
+    ],
+    [
+     2560,
+     770
+    ]
+   ],
+   "width": 7
+  },
+  {
+   "type": "circle",
+   "x": 2330,
+   "y": 250,
+   "r": 90,
+   "fill": "#ffe24a",
+   "width": 6
+  },
+  {
+   "type": "text",
+   "text": "DOOMED DOUG",
+   "x": 1110,
+   "y": 640,
+   "size": 140,
+   "bold": true,
+   "color": "#e0201b",
+   "outline": "#000000",
+   "outline_width": 8,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "New week. New place. Same doomed guy.",
+   "x": 1110,
+   "y": 858,
+   "size": 52,
+   "bold": true,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 4,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     1690,
+     775
+    ],
+    [
+     1735,
+     695
+    ],
+    [
+     1772,
+     775
+    ]
+   ],
+   "fill": "#6d7b8a",
+   "width": 6
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     1650,
+     790
+    ],
+    [
+     1705,
+     800
+    ],
+    [
+     1760,
+     790
+    ],
+    [
+     1810,
+     800
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 1820,
+   "y": 745,
+   "w": 210,
+   "h": 28,
+   "fill": "#a0522d",
+   "width": 6
+  },
+  {
+   "type": "doug",
+   "x": 1925,
+   "y": 667,
+   "scale": 0.52,
+   "pose": "arms_up",
+   "expression": "scared"
+  },
+  {
+   "type": "asset",
+   "name": "anglerfish",
+   "x": 2200,
+   "y": 1080,
+   "scale": 0.75,
+   "flip": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     150,
+     1440
+    ],
+    [
+     190,
+     1200
+    ],
+    [
+     290,
+     1050
+    ],
+    [
+     240,
+     930
+    ],
+    [
+     330,
+     860
+    ]
+   ],
+   "width": 34,
+   "color": "#8a2d6b"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     150,
+     1440
+    ],
+    [
+     190,
+     1200
+    ],
+    [
+     290,
+     1050
+    ],
+    [
+     240,
+     930
+    ],
+    [
+     330,
+     860
+    ]
+   ],
+   "width": 22,
+   "color": "#c2569e"
+  }
+ ]
+}

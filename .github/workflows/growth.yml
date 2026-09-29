@@ -1,0 +1,50 @@
+name: Weekly growth review
+
+on:
+  schedule:
+    - cron: "0 14 * * 0"         # every Sunday 14:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: growth
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  growth:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install tools
+        run: |
+          pip install -r requirements.txt
+          npm install -g @anthropic-ai/claude-code
+          git config user.name "doomed-doug-bot"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
+      - name: Pull analytics + competitor data
+        continue-on-error: true
+        run: python -m studio analytics
+      - name: Growth analyst + creative director
+        run: |
+          claude -p "$(cat pipeline/prompts/weekly_growth.md)" \
+            --dangerously-skip-permissions --max-turns 200 --output-format stream-json --verbose > claude_growth.jsonl
+      - name: Save
+        if: always()
+        run: git add -A data channel && (git commit -m "weekly growth review" || true) && git push
