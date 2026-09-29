@@ -41,6 +41,7 @@ def synthesize(text: str, voice: dict, cache_dir: Path) -> tuple[bytes, bool]:
     h = hashlib.sha1(json.dumps([text, voice], sort_keys=True).encode()).hexdigest()[:16]
     cached = cache_dir / f"{h}.pcm"
     if cached.exists():
+        os.utime(cached)  # mark as recently used (CI prunes clips unused for 21 days)
         return cached.read_bytes(), True
     if not key:
         words = max(1, len(text.split()))

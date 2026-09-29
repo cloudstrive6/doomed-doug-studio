@@ -74,6 +74,13 @@ jobs:
           git config user.name "doomed-doug-bot"
           git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
 
+      - name: Restore narration cache (saves Chirp 3 HD characters on retries)
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/tts
+          key: tts-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: tts-
+
       - name: "Stage A: agents write, draw and package the episode"
         run: |
           rm -f .current_episode
@@ -99,9 +106,42 @@ jobs:
             --dangerously-skip-permissions --max-turns 300 --output-format stream-json --verbose \
             > claude_stage_c.jsonl
 
+      - name: Why did the agents stop? (on failure)
+        if: failure()
+        run: |
+          python - <<'EOF'
+          import json, glob
+          for f in sorted(glob.glob("claude_stage_*.jsonl")):
+              last = None
+              for line in open(f, encoding="utf-8", errors="replace"):
+                  try:
+                      j = json.loads(line)
+                  except Exception:
+                      continue
+                  if j.get("type") == "result":
+                      last = j
+              if last:
+                  print(f, "| subtype:", last.get("subtype"), "| is_error:", last.get("is_error"),
+                        "| turns:", last.get("num_turns"), "| minutes:", round((last.get("duration_ms") or 0) / 60000, 1))
+                  print(str(last.get("result", ""))[:2500])
+              else:
+                  print(f, "has no result line; last 1500 chars:")
+                  print(open(f, encoding="utf-8", errors="replace").read()[-1500:])
+          EOF
+
       - name: Upload to YouTube (scheduled, private until publish time)
         if: ${{ !inputs.skip_upload }}
         run: python -m studio upload "$EP"
+
+      - name: Prune and save narration cache
+        if: always()
+        run: find .cache/tts -type f -mtime +21 -delete 2>/dev/null || true
+
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .cache/tts
+          key: tts-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Save state
         if: always()

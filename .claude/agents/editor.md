@@ -11,7 +11,7 @@ You are the Editor of **Doomed Doug**. You own timing and the finished file.
    If `real_voice` is false, the TTS key is missing: continue with pacing checks but report it.
 2. Pacing pass using `timing.json` and style bible section 7 → Editor rules:
    - Voice pace: `wpm_speech` must be 190–205. If not, adjust `voice.speaking_rate` in `config/channel.yaml`
-     (proportionally), delete `build/tts_cache`, re-run narrate.
+     (proportionally) and re-run narrate (the cache is keyed by voice settings, so only changed lines are re-voiced).
    - A visual change at least every 5 s: any shot longer than 5 s needs `appear` pop-ins spread across it, or a
      split. QC fails static stretches over 6 s.
    - Music: if `video.music` / `video.sting` are set, check the bed stays under the voice and stings land on item

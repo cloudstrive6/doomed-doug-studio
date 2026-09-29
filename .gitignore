@@ -7,3 +7,4 @@ channel/voice_samples/
 claude_*.jsonl
 .current_episode
 tests/*/build/
+.cache/

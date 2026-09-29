@@ -9,7 +9,11 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 
 from . import tts
-from .config import load_config
+from .config import ROOT, load_config
+
+# Shared narration cache (keyed by text + voice settings), persisted between CI runs with actions/cache so a
+# retried or re-rendered episode doesn't pay for Chirp 3 HD characters twice.
+TTS_CACHE = ROOT / ".cache" / "tts"
 from .scene import OUT_H, OUT_W, ShotRenderer, render_still, with_topbar
 
 
@@ -96,7 +100,7 @@ def narration(ep_dir: Path, require_voice: bool = False) -> list[dict]:
     for shot in sl["shots"]:
         text = shot.get("narration", "").strip()
         if text:
-            pcm, real = tts.synthesize(text, voice, build / "tts_cache")
+            pcm, real = tts.synthesize(text, voice, TTS_CACHE)
             real_all &= real
         else:
             pcm = b""
