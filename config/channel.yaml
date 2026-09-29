@@ -45,8 +45,9 @@ schedule:
   episodes_ahead: 1          # after the launch: scheduled videos to keep in the queue
 
 shorts:                      # vertical Shorts cut from each episode, pointing viewers to the long video
-  per_episode: 2
-  publish_times: ["09:00", "19:00"]   # New York time = 2:00 AM and 12:00 PM NZDT; one slot each, after the long video is live
+  per_episode: 3
+  publish_times: ["09:00", "19:00"]   # launch phase, New York time = 2:00 AM and 12:00 PM NZDT
+  weekly_publish_times: ["19:00"]     # after the launch: 1 Short a day (12:00 PM NZDT); launch backlog keeps it daily
   playlist: "Doomed Doug Shorts"
 
 github:

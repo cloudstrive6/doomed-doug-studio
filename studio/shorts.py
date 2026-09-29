@@ -230,7 +230,8 @@ def next_slot(taken: list[str], not_before: dt.datetime) -> dt.datetime:
     from zoneinfo import ZoneInfo
     cfg = load_config()
     tz = ZoneInfo(cfg["schedule"]["timezone"])
-    times = cfg["shorts"]["publish_times"]
+    from .youtube import in_launch_phase
+    times = cfg["shorts"]["publish_times"] if in_launch_phase() else         cfg["shorts"].get("weekly_publish_times", cfg["shorts"]["publish_times"])
     earliest = max(dt.datetime.now(tz) + dt.timedelta(days=cfg["schedule"]["review_window_days"]),
                    not_before.astimezone(tz) + dt.timedelta(hours=2))
     used = {dt.datetime.fromisoformat(x.replace("Z", "+00:00")) for x in taken}

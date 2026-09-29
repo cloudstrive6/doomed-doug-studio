@@ -41,12 +41,12 @@ watching. Visual change is retention: the picture must change on every beat.
 - Shot ids `s001`, `s002`, ... in order.
 
 ## Shorts: `episodes/<id>/shorts.json`
-Pick **2 Shorts** (config `shorts.per_episode`) from the shotlist: each a contiguous run of shots (`from`, `to`)
+Pick **3 Shorts** (config `shorts.per_episode`), from 3 different items, from the shotlist: each a contiguous run of shots (`from`, `to`)
 with 25–55 s of narration, starting on a strong first line (ideally the item name or a shocking number) and ending
 on a kicker or cliffhanger that makes the viewer want the rest. Prefer the most surprising items, not item 1.
 Format (see `studio/shorts.py`): `{"shorts": [{"id": "short01", "from": "s145", "to": "s155", "title": "",
 "outro": "What happens next is even worse. The full dive is linked below.", "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
-"description": ""}]}`. Leave `title`/`description` for the youtube-titler. Optional `hook`: one extra spoken opening
+"description": ""}, ...]}` (ids short01, short02, short03). Leave `title`/`description` for the youtube-titler. Optional `hook`: one extra spoken opening
 line (≤ 12 words) if the first shot doesn't hook on its own. Then `python -m studio shorts validate <id>`.
 
 ## Missing drawings
