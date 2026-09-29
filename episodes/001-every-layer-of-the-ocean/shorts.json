@@ -10,11 +10,14 @@
       "description": "A glowing lure, a mouth full of glass teeth, and a love life that makes it so much worse.",
       "duration_s": 50.9,
       "schedule_at": "2026-10-01 12:00",
-      "youtube_id": "zBAt91hd7wY",
+      "replaced": [
+        "zBAt91hd7wY"
+      ],
+      "youtube_id": "S_An9KcvvCo",
       "publish_at": "2026-09-30T23:00:00Z",
       "related_video": "9eiX84Ik1Sc",
       "related_set": false,
-      "uploaded_at": "2026-09-29T23:18:51+00:00"
+      "uploaded_at": "2026-09-29T23:24:49+00:00"
     },
     {
       "id": "short02",
@@ -26,11 +29,14 @@
       "description": "The first live giant squid ever filmed in the deep, and the eyes that make it unforgettable.",
       "duration_s": 54.7,
       "schedule_at": "2026-10-02 12:00",
-      "youtube_id": "Zj6QWH5KQ64",
+      "replaced": [
+        "Zj6QWH5KQ64"
+      ],
+      "youtube_id": "u85gqwGrrZo",
       "publish_at": "2026-10-01T23:00:00Z",
       "related_video": "9eiX84Ik1Sc",
       "related_set": false,
-      "uploaded_at": "2026-09-29T23:19:06+00:00"
+      "uploaded_at": "2026-09-29T23:25:02+00:00"
     }
   ]
 }

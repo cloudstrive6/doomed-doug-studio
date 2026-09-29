@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import math
 import subprocess
 from pathlib import Path
 
@@ -82,9 +83,19 @@ def _chunks(text: str, speech: float, start: float, n: int = 4):
     return out
 
 
-def _compose(scene_frame: Image.Image, title: str, subtitle: str, item: str | None) -> Image.Image:
-    top = scene_frame.getpixel((scene_frame.width // 2, 3))[:3]
-    bottom = scene_frame.getpixel((scene_frame.width // 2, scene_frame.height - 4))[:3]
+def _band_colors(frame: Image.Image) -> tuple:
+    """Colours for the areas above/below the drawing: per-channel MEDIAN of a 40 px strip at the drawing's top and
+    bottom edge. A single-pixel sample flickered whenever a thin line or a spray dot (marine snow) crossed it
+    during a pan; a median over a strip ignores those."""
+    def med(box):
+        px = list(frame.crop(box).convert("RGB").resize((96, 8), Image.NEAREST).getdata())
+        return tuple(sorted(c[i] for c in px)[len(px) // 2] for i in range(3))
+    w, h = frame.size
+    return med((0, 0, w, 40)), med((0, h - 40, w, h))
+
+
+def _compose(scene_frame: Image.Image, title: str, subtitle: str, item: str | None, bands: tuple | None = None) -> Image.Image:
+    top, bottom = bands or _band_colors(scene_frame)
     canvas = Image.new("RGB", (SW, SH), top)
     ImageDraw.Draw(canvas).rectangle((0, SCENE_Y + BAND_H // 2, SW, SH), fill=bottom)  # seamless bands
     big = scene_frame.resize((round(SW * ZOOM), BAND_H), Image.LANCZOS)
@@ -178,15 +189,24 @@ def render(ep: Path, only: list[str] | None = None) -> list[Path]:
                 subs = _chunks(text, speech, start)
                 f0, f1 = round(start * fps), round((start + dur) * fps)
                 r = ShotRenderer(shot, dur, fps=fps, style=cfg["style"], topbar=None, n_frames=f1 - f0)
-                last_key, last_bytes = None, None
+                last_key, last_bytes, last_frame, target, band = None, None, None, None, None
+                alpha = 1 - math.exp(-1 / (fps * 0.25))  # ~0.25 s smoothing of band colours during pans
                 for k, frame in enumerate(r.frames()):
                     now = start + k / fps
                     sub = next((g for a, b, g in subs if a <= now < b), "")
-                    key = (id(frame), sub)
+                    if id(frame) != last_frame:
+                        last_frame, target = id(frame), _band_colors(frame)
+                    if band is None:  # snap on a cut, ease within a shot
+                        band = [list(map(float, target[0])), list(map(float, target[1]))]
+                    else:
+                        for j in (0, 1):
+                            band[j] = [b + (t - b) * alpha for b, t in zip(band[j], target[j])]
+                    bands = tuple(tuple(int(round(v)) for v in band[j]) for j in (0, 1))
+                    key = (id(frame), sub, bands)
                     if key != last_key:
                         last_key = key
                         last_bytes = _compose(frame, s["title"], sub,
-                                              None if shot["id"].endswith("_end") else item).tobytes()
+                                              None if shot["id"].endswith("_end") else item, bands).tobytes()
                     proc.stdin.write(last_bytes)
         finally:
             proc.stdin.close()
