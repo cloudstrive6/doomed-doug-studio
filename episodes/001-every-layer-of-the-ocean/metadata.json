@@ -22,10 +22,8 @@
   ],
   "playlist": "ocean",
   "youtube_id": "9eiX84Ik1Sc",
-  "publish_at": "2026-10-03T16:00:00Z",
+  "publish_at": "2026-09-30T01:00:00Z",
   "url": "https://youtu.be/9eiX84Ik1Sc",
   "uploaded_at": "2026-09-29T21:36:12+00:00",
-  "upload_warnings": [
-    "playlist add failed (<HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 'reason': 'SERVICE_UNAVAILABLE'}]\">)"
-  ]
+  "upload_warnings": []
 }

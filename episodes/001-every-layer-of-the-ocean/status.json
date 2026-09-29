@@ -49,6 +49,16 @@
       "stage": "uploaded",
       "at": "2026-09-29T21:36:20+00:00",
       "note": "9eiX84Ik1Sc"
+    },
+    {
+      "stage": "qc_passed",
+      "at": "2026-09-29T22:48:17+00:00",
+      "note": "local 1080p60 render, QC 0 problems; owner watched and approved 2026-09-30"
+    },
+    {
+      "stage": "uploaded",
+      "at": "2026-09-29T22:48:18+00:00",
+      "note": "9eiX84Ik1Sc"
     }
   ],
   "stage": "uploaded"
