@@ -150,9 +150,22 @@ def cmd_qc(a):
     timing = json.loads((ep / "build" / "timing.json").read_text(encoding="utf-8"))
     if not timing.get("real_voice"):
         problems.append("narration is silent placeholder (no TTS key)")
-    long_holds = [s["id"] for s in timing["shots"] if s["duration"] > 14]
-    if long_holds:
-        problems.append(f"shots held > 14 s (visual goes stale): {long_holds}")
+    # style bible: a visual change at least every 5 s; fail any static stretch > 6 s
+    from .assemble import load_shotlist
+    shots = {s["id"]: s for s in load_shotlist(ep)["shots"]}
+    stale = []
+    for tm in timing["shots"]:
+        sh = shots.get(tm["id"], {})
+        if (sh.get("camera") or {}).get("move", "").startswith("pan"):
+            continue  # a pan keeps revealing new content
+        marks = sorted({0.0, 1.0} | {float(e.get("appear", 0)) for e in sh.get("scene", {}).get("elements", [])})
+        gap = max(b - a for a, b in zip(marks, marks[1:])) * tm["duration"]
+        if gap > 6.0:
+            stale.append(f"{tm['id']} ({gap:.1f}s)")
+    if stale:
+        problems.append(f"static stretches > 6 s (add a pop-in element or split the shot): {stale}")
+    if timing.get("real_voice") and not 185 <= timing.get("wpm_speech", 0) <= 215:
+        problems.append(f"narration pace {timing.get('wpm_speech')} wpm; adjust voice.speaking_rate for 190-205")
     for f in ("thumbnail.png", "captions.srt"):
         if not (ep / "build" / f).exists():
             problems.append(f"{f} missing")

@@ -9,9 +9,13 @@ You are the Editor of **Doomed Doug**. You own timing and the finished file.
 ## Steps
 1. `python -m studio narrate <id>` → `build/timing.json` (per-shot durations) and `build/narration.wav`.
    If `real_voice` is false, the TTS key is missing: continue with pacing checks but report it.
-2. Pacing pass using `timing.json` and the style bible's pacing numbers:
-   - No shot longer than the bible's max hold (hard cap 14 s): split it in `shotlist.json` (add a new shot with a
-     reaction/zoom/cut-in) and re-run narrate.
+2. Pacing pass using `timing.json` and style bible section 7 → Editor rules:
+   - Voice pace: `wpm_speech` must be 190–205. If not, adjust `voice.speaking_rate` in `config/channel.yaml`
+     (proportionally), delete `build/tts_cache`, re-run narrate.
+   - A visual change at least every 5 s: any shot longer than 5 s needs `appear` pop-ins spread across it, or a
+     split. QC fails static stretches over 6 s.
+   - Music: if `video.music` / `video.sting` are set, check the bed stays under the voice and stings land on item
+     changes.
    - Add `hold` (0.3–0.8 s) after punchlines and before reveals; tighten `pause_after` in fast list sections.
    - Total runtime within the brief's target.
 3. Draft check: `python -m studio render <id> --limit 25` → `build/draft.mp4`; sample frames with ffmpeg and look

@@ -1,26 +1,233 @@
-{"episode":"000-smoketest","shots":[
- {"id":"s001","narration":"This is Doug. Today, Doug is going to the bottom of the ocean. Doug did not agree to this.",
-  "scene":{"background":"#8fd3ff","elements":[
-    {"type":"bands","bands":[{"y0":620,"y1":1080,"color":"#2a7fc4"}]},
-    {"type":"line","points":[[0,620],[1920,620]],"width":5},
-    {"type":"rect","x":700,"y":560,"w":520,"h":60,"fill":"#a0522d"},
-    {"type":"doug","x":960,"y":410,"pose":["wave","stand"],"expression":"happy","scale":1.2},
-    {"type":"speech","x":1400,"y":180,"w":420,"h":160,"text":"wait what","tail":[1080,300],"appear":0.6}]}},
- {"id":"s002","narration":"The first two hundred meters are called the sunlight zone. It's nice here. Fish. Light. Hope.",
-  "camera":{"move":"zoom_in","x":960,"y":540,"zoom":1.25},
-  "scene":{"background":"#3a9ad9","elements":[
-    {"type":"doug","x":960,"y":600,"pose":["swim1","swim2"],"expression":"happy","gear":["scuba"]},
-    {"type":"label","text":"0 - 200 m: SUNLIGHT ZONE","x":960,"y":110,"size":64}]}},
- {"id":"s003","narration":"Then the light disappears. And so does the hope.",
-  "scene":{"size":[1920,3240],"background":"#3a9ad9","elements":[
-    {"type":"bands","bands":[{"y0":1080,"y1":2160,"color":"#1b4f86"},{"y0":2160,"y1":3240,"color":"#050a1f"}]},
-    {"type":"label","text":"200 m","x":300,"y":1100,"size":56},
-    {"type":"label","text":"1,000 m","x":300,"y":2180,"size":56},
-    {"type":"doug","x":960,"y":2800,"pose":["float"],"expression":"scared","gear":["scuba"]}]},
-  "camera":{"move":"pan_down"}},
- {"id":"s004","narration":"And that is when Doug meets his new friend.",
-  "scene":{"background":"#050a1f","elements":[
-    {"type":"doug","x":600,"y":650,"pose":["panic1","panic2"],"expression":"screaming","gear":["scuba"]},
-    {"type":"asset","name":"anglerfish","x":1350,"y":560,"scale":1.4,"flip":true,"appear":0.3}]},
-  "camera":{"move":"shake"}}
-]}
+{
+ "episode": "000-smoketest",
+ "shots": [
+  {
+   "id": "s001",
+   "narration": "This is Doug. Today, Doug is going to the bottom of the ocean. Doug did not agree to this.",
+   "scene": {
+    "background": "#8fd3ff",
+    "elements": [
+     {
+      "type": "bands",
+      "bands": [
+       {
+        "y0": 620,
+        "y1": 1080,
+        "color": "#2a7fc4"
+       }
+      ]
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        0,
+        620
+       ],
+       [
+        1920,
+        620
+       ]
+      ],
+      "width": 5
+     },
+     {
+      "type": "rect",
+      "x": 700,
+      "y": 560,
+      "w": 520,
+      "h": 60,
+      "fill": "#a0522d"
+     },
+     {
+      "type": "doug",
+      "x": 960,
+      "y": 410,
+      "pose": [
+       "wave",
+       "stand"
+      ],
+      "expression": "happy",
+      "scale": 1.2
+     },
+     {
+      "type": "speech",
+      "x": 1400,
+      "y": 180,
+      "w": 420,
+      "h": 160,
+      "text": "wait what",
+      "tail": [
+       1080,
+       300
+      ],
+      "appear": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s002",
+   "narration": "The first two hundred meters are called the sunlight zone. It's nice here. Fish. Light. Hope.",
+   "camera": {
+    "move": "zoom_in",
+    "x": 960,
+    "y": 540,
+    "zoom": 1.25
+   },
+   "scene": {
+    "background": "#3a9ad9",
+    "elements": [
+     {
+      "type": "doug",
+      "x": 960,
+      "y": 600,
+      "pose": [
+       "swim1",
+       "swim2"
+      ],
+      "expression": "happy",
+      "gear": [
+       "scuba"
+      ]
+     },
+     {
+      "type": "label",
+      "text": "0 - 200 m: SUNLIGHT ZONE",
+      "x": 960,
+      "y": 110,
+      "size": 64
+     },
+     {
+      "type": "wordart",
+      "text": "200 METERS",
+      "x": 1400,
+      "y": 300,
+      "size": 80,
+      "appear": 0.4
+     }
+    ]
+   },
+   "chapter": "Sunlight Zone"
+  },
+  {
+   "id": "s003",
+   "narration": "Then the light disappears. And so does the hope.",
+   "scene": {
+    "size": [
+     1920,
+     3240
+    ],
+    "background": "#3a9ad9",
+    "elements": [
+     {
+      "type": "bands",
+      "bands": [
+       {
+        "y0": 1080,
+        "y1": 2160,
+        "color": "#1b4f86"
+       },
+       {
+        "y0": 2160,
+        "y1": 3240,
+        "color": "#050a1f"
+       }
+      ]
+     },
+     {
+      "type": "label",
+      "text": "200 m",
+      "x": 300,
+      "y": 1100,
+      "size": 56
+     },
+     {
+      "type": "label",
+      "text": "1,000 m",
+      "x": 300,
+      "y": 2180,
+      "size": 56
+     },
+     {
+      "type": "doug",
+      "x": 960,
+      "y": 2800,
+      "pose": [
+       "float"
+      ],
+      "expression": "scared",
+      "gear": [
+       "scuba"
+      ]
+     }
+    ]
+   },
+   "camera": {
+    "move": "pan_down"
+   },
+   "chapter": "Midnight Zone"
+  },
+  {
+   "id": "s004",
+   "narration": "And that is when Doug meets his new friend.",
+   "scene": {
+    "background": "#050a1f",
+    "elements": [
+     {
+      "type": "doug",
+      "x": 600,
+      "y": 650,
+      "pose": [
+       "panic1",
+       "panic2"
+      ],
+      "expression": "screaming",
+      "gear": [
+       "scuba"
+      ]
+     },
+     {
+      "type": "asset",
+      "name": "anglerfish",
+      "x": 1350,
+      "y": 560,
+      "scale": 1.4,
+      "flip": true,
+      "appear": 0.3,
+      "silhouette": true
+     }
+    ]
+   },
+   "camera": {
+    "move": "shake"
+   }
+  },
+  {
+   "id": "s005",
+   "narration": "Doug has died. Again.",
+   "topbar": false,
+   "scene": {
+    "background": "#8fd3ff",
+    "elements": [
+     {
+      "type": "asset",
+      "name": "gravestone",
+      "x": 960,
+      "y": 620
+     },
+     {
+      "type": "doug",
+      "x": 1300,
+      "y": 450,
+      "scale": 0.6,
+      "pose": "float",
+      "expression": "dead",
+      "ghost": true,
+      "appear": 0.3
+     }
+    ]
+   }
+  }
+ ]
+}

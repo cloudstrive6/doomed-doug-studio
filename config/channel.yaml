@@ -12,17 +12,19 @@ channel:
 voice:                       # Google Cloud TTS, Chirp 3: HD
   name: "en-US-Chirp3-HD-Charon"   # candidates: Charon, Fenrir, Orus, Puck, Iapetus (run `python -m studio voices`)
   language: en-US
-  speaking_rate: 1.0
-  fallback_wpm: 165          # only used for dry runs without an API key
+  speaking_rate: 1.15        # editor calibrates so timing.json wpm_speech lands at 190-205 (style bible)
+  fallback_wpm: 197          # only used for dry runs without an API key
 
 video:
   fps: 24
   width: 1920
   height: 1080
   gap_between_shots: 0.12    # seconds of silence after each shot's line
-  target_minutes: [15, 20]
-  music: null                # optional path to a royalty-free bed, e.g. assets/music/bed.mp3
+  target_minutes: [15, 18]
+  music: null                # low bed under narration, e.g. assets/music/bed.mp3 (YouTube Audio Library / CC0 only)
   music_volume: 0.06
+  sting: null                # short swell at each item change, e.g. assets/music/sting.mp3
+  sting_volume: 0.5
 
 style:                       # MS Paint engine
   boil_variants: 3           # number of wobble drawings cycled per shot (GIF-like loop)
@@ -46,13 +48,14 @@ youtube:
     places: "Doug vs. Deadly Places"
     compilations: "Full Series & Marathons"
 
-competitors:                 # watched by the growth analyst (channel handles)
+competitors:                 # watched by the growth analyst (channel handles, verified 2026-09-29)
   - "@ThePaintExplainer"
-  - "@MrScience"
-  - "@Paintify"
+  - "@mr.scienceYT"
+  - "@Paintify7"
   - "@Spinosnack"
-  - "@BeyondTheBlue"
+  - "@OfficialBeyondTheBlue"
   - "@BluntlyExplained"
-  - "@CasualGeographic"
   - "@ExtinctZoo"
-  - "@SimplePaint"
+  - "@SimplePaintOfficial"
+  - "@quackdoc"
+  - "@Bacterium-EN"

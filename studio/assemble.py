@@ -10,11 +10,25 @@ from PIL import Image, ImageDraw
 
 from . import tts
 from .config import load_config
-from .scene import OUT_H, OUT_W, ShotRenderer, render_still
+from .scene import OUT_H, OUT_W, ShotRenderer, render_still, with_topbar
 
 
 def load_shotlist(ep_dir: Path) -> dict:
-    return json.loads((ep_dir / "shotlist.json").read_text(encoding="utf-8"))
+    """Load shotlist.json, resolve `scene_ref` (e.g. the opening thumbnail grid) and the running caption bar."""
+    sl = json.loads((ep_dir / "shotlist.json").read_text(encoding="utf-8"))
+    current = None
+    for shot in sl.get("shots", []):
+        ref = shot.get("scene_ref")
+        if ref and "scene" not in shot:
+            f = ep_dir / f"{ref}.json"
+            shot["scene"] = (json.loads(f.read_text(encoding="utf-8")) if f.exists() else
+                             {"background": "#ffffff", "elements": [{"type": "text", "text": f"({ref} pending)",
+                                                                     "x": 960, "y": 540, "size": 60}]})
+        if shot.get("chapter"):
+            current = shot["chapter"]
+        tb = shot.get("topbar", True)
+        shot["_topbar"] = None if tb is False else (tb if isinstance(tb, str) else current)
+    return sl
 
 
 # ------------------------------------------------------------------ previews
@@ -36,6 +50,7 @@ def keyframes(ep_dir: Path, only: list[str] | None = None) -> list[Path]:
             w, h = img.size
             rect = camera_rect(shot.get("camera"), w, h, 1.0)
             img = img.crop(tuple(round(v) for v in rect)).resize((OUT_W, OUT_H), Image.NEAREST)
+        img = with_topbar(img, shot.get("_topbar"))
         p = out / f"{shot['id']}.png"
         img.save(p)
         paths.append(p)
@@ -95,12 +110,41 @@ def narration(ep_dir: Path, require_voice: bool = False) -> list[dict]:
         t += dur
     if require_voice and not real_all:
         raise RuntimeError("GOOGLE_TTS_API_KEY missing: refusing to build a silent final video")
-    tts.write_wav(build / "narration.wav", b"".join(pcm_all))
+    pcm = b"".join(pcm_all)
+    sting = cfg["video"].get("sting")
+    if sting:  # short music sting on every item change (kicker -> next item name)
+        starts = [tm["start"] for sh, tm in zip(sl["shots"], timing) if sh.get("chapter")][1:]
+        pcm = mix_at(pcm, load_pcm(Path(__file__).resolve().parent.parent / sting),
+                     [max(0.0, s_ - 0.25) for s_ in starts], cfg["video"].get("sting_volume", 0.5))
+    tts.write_wav(build / "narration.wav", pcm)
+    words = sum(len(tm["text"].split()) for tm in timing)
+    speech = sum(tm["speech"] for tm in timing) or 1
     (build / "timing.json").write_text(json.dumps({"total": round(t, 3), "real_voice": real_all,
+                                                   "words": words, "wpm_speech": round(words / speech * 60, 1),
+                                                   "wpm_overall": round(words / max(t, 1) * 60, 1),
                                                    "shots": timing}, indent=1), encoding="utf-8")
     write_srt(build / "captions.srt", timing)
     write_chapters(build / "chapters.txt", sl["shots"], timing)
     return timing
+
+
+def load_pcm(path: Path) -> bytes:
+    """Decode any audio file to 24 kHz mono 16-bit PCM with ffmpeg."""
+    r = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(path), "-f", "s16le", "-ac", "1", "-ar",
+                        str(tts.SAMPLE_RATE), "-"], capture_output=True, check=True)
+    return r.stdout
+
+
+def mix_at(base: bytes, clip: bytes, times: list[float], gain: float) -> bytes:
+    import array
+    b = array.array("h", base)
+    c = array.array("h", clip)
+    for t0 in times:
+        off = int(t0 * tts.SAMPLE_RATE)
+        for i in range(min(len(c), len(b) - off)):
+            v = b[off + i] + int(c[i] * gain)
+            b[off + i] = 32767 if v > 32767 else (-32768 if v < -32768 else v)
+    return b.tobytes()
 
 
 def write_chapters(path: Path, shots: list[dict], timing: list[dict]):
@@ -187,7 +231,7 @@ def render_video(ep_dir: Path, out_name: str = "final.mp4", require_voice: bool 
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     try:
         for shot, tm in zip(shots, timing):
-            r = ShotRenderer(shot, tm["duration"], fps=fps, style=cfg["style"])
+            r = ShotRenderer(shot, tm["duration"], fps=fps, style=cfg["style"], topbar=shot.get("_topbar"))
             last_id, last_bytes = None, None
             for frame in r.frames():
                 if id(frame) != last_id:

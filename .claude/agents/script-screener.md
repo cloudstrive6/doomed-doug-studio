@@ -13,8 +13,9 @@ lose trust, or lose monetization *before* it ships. You did not write this scrip
 ## Checks (write results to `episodes/<id>/script_review.md`)
 1. **Facts**: sample-verify at least 10 claims with web search, plus every number that sounds surprising.
    Any claim without a source in facts.md, or contradicted by a reliable source = FAIL item.
-2. **Hook** (first ~30 s / ~80 words): does it follow the style bible hook structure? Is the promise clear, is
-   there a reason to stay to the end, does the first stop start within the bible's limit? Score 1–10.
+2. **Opening** (style bible 3.2 + Script Writer rules 2 and 6): item 1's name within the first 35 words, no
+   greeting/channel name/"in this video"/subscribe ask before it, item 1's twist within ~145 words. Score 1–10.
+   Also check every Script Writer rule in section 7 (1–14) and list each violated rule by number.
 3. **Structure & pacing**: escalation order (danger/weirdness rises), segment lengths within bible ranges, no
    stop longer than the bible allows, running gags present, ending per bible. Score 1–10.
 4. **Voice & humour**: sentence length and reading level per bible; jokes land; narrator persona consistent; no

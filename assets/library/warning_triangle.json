@@ -1,0 +1,4 @@
+{"name":"warning_triangle","description":"Yellow warning triangle with black '!' (annotation).","anchor":[0,0],"tags":["annotation","danger"],
+ "elements":[{"type":"poly","points":[[0,-120],[135,105],[-135,105]],"fill":"#ffd21f","width":9},
+  {"type":"rect","x":-11,"y":-55,"w":22,"h":95,"fill":"#000000","width":2},
+  {"type":"circle","x":0,"y":72,"r":13,"fill":"#000000","width":2}]}

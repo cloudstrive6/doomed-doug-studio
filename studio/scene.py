@@ -3,9 +3,38 @@ from __future__ import annotations
 
 from PIL import Image
 
-from .paint import Canvas, draw_elements
+from .paint import Canvas, draw_elements, font
 
 OUT_W, OUT_H = 1920, 1080
+_BAR_CACHE: dict = {}
+
+
+def topbar_image(text: str):
+    """Persistent top-centre caption bar with the current item name in ALL CAPS (style bible 4.2)."""
+    if text in _BAR_CACHE:
+        return _BAR_CACHE[text]
+    from PIL import ImageDraw
+    f = font(46, "ComicNeue-Bold")
+    label = text.upper()
+    probe = ImageDraw.Draw(Image.new("RGB", (1, 1)))
+    tw = int(probe.textlength(label, font=f))
+    w, h = min(tw + 70, OUT_W - 80), 68
+    bar = Image.new("RGBA", (w, h), (255, 255, 255, 255))
+    d = ImageDraw.Draw(bar)
+    d.fontmode = "1"
+    d.rectangle((0, 0, w - 1, h - 1), outline=(0, 0, 0, 255), width=3)
+    d.text((w / 2, h / 2 + 2), label, font=f, fill=(0, 0, 0, 255), anchor="mm")
+    _BAR_CACHE[text] = bar
+    return bar
+
+
+def with_topbar(img, text):
+    if not text:
+        return img
+    bar = topbar_image(text)
+    out = img.copy()
+    out.paste(bar, ((OUT_W - bar.width) // 2, 16), bar)
+    return out
 
 
 def render_still(scene: dict, variant: int = 0, t: float | None = None, seed: str = "shot",
@@ -73,8 +102,9 @@ def camera_rect(cam: dict | None, canvas_w: int, canvas_h: int, u: float):
 class ShotRenderer:
     """Yields output frames (PIL images, 1920x1080) for one shot, caching drawings."""
 
-    def __init__(self, shot: dict, duration: float, fps: int = 24, style: dict | None = None):
-        self.shot, self.duration, self.fps = shot, duration, fps
+    def __init__(self, shot: dict, duration: float, fps: int = 24, style: dict | None = None,
+                 topbar: str | None = None):
+        self.shot, self.duration, self.fps, self.topbar = shot, duration, fps, topbar
         self.style = style or {}
         self.scene = shot["scene"]
         self.n_variants = 1 if shot.get("boil") is False else int(self.style.get("boil_variants", 3))
@@ -109,5 +139,6 @@ class ShotRenderer:
                     frame = img
                 else:
                     frame = img.crop(tuple(round(v) for v in rect)).resize((OUT_W, OUT_H), Image.NEAREST)
+                frame = with_topbar(frame, self.topbar)
                 last_key, last_frame = key, frame
             yield last_frame

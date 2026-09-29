@@ -24,12 +24,13 @@ Early in the channel's life, prefer the strongest proven formulas: depth gradien
 you go"), "what it feels like to die in/from every X", "surviving one night in every X", ranking lists.
 The brief contains:
 1. Working title + the proven outlier it borrows from (channel, video, views)
-2. Journey structure: the ordered list of 12–25 "stops" (layers, creatures, places), escalating in danger,
-   each with 2–4 verified-sounding facts to research and one comedic Doug beat
-3. The hook: what the first 15 seconds promise, and the payoff at the end
+2. The declared escalation axis (depth, era, distance or severity) and the ordered list of **9–14 items** along it,
+   the most extreme last; each item with 2–4 facts to research, one everyday scale analogy idea and one Doug beat
+3. The opening (style bible 3.2): no hook section: item 1's name within the first 35 words, its twist within 45 s;
+   the thumbnail grid is the opening image
 4. Running gags to use (death counter, "Doug did not agree to this", cap survives...)
 5. Playlist key (from config `youtube.playlists`)
-6. Target length (15–20 min spoken ≈ 2,400–3,200 words)
+6. Target length (15–18 min at ~195 wpm ≈ 2,800–3,500 words)
 7. Risks: gore level (keep it cartoon; no detailed injury descriptions), kid-appeal risk (keep jokes adult-coded,
    no nursery tone), facts that need strong sources
 

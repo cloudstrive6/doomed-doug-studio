@@ -1,0 +1,6 @@
+{"name":"gravestone","description":"Cartoon gravestone reading 'DOUG' with his red cap on top (death beat). ~260x320.","anchor":[0,0],"tags":["death","doug"],
+ "elements":[{"type":"poly","smooth":true,"points":[[-110,150],[-110,-60],[-80,-130],[0,-160],[80,-130],[110,-60],[110,150]],"fill":"#9a9a9a","width":7},
+  {"type":"text","text":"RIP","x":0,"y":-60,"size":64,"bold":true},{"type":"text","text":"DOUG","x":0,"y":20,"size":50,"bold":true},
+  {"type":"rect","x":-150,"y":145,"w":300,"h":30,"fill":"#6b8f3a","width":6},
+  {"type":"poly","smooth":true,"points":[[-55,-150],[-45,-195],[0,-215],[45,-195],[55,-150]],"fill":"#e0201b","width":6},
+  {"type":"poly","points":[[40,-165],[115,-160],[112,-145],[40,-150]],"fill":"#e0201b","width":6}]}

@@ -1,0 +1,8 @@
+{"size":[1280,720],"background":"#ffffff","elements":[
+ {"type":"tile","x":40,"y":30,"w":370,"h":230,"asset":"anglerfish","asset_scale":0.45,"fill":"#1b4f86","label":"Midnight Zone"},
+ {"type":"tile","x":455,"y":30,"w":370,"h":230,"asset":"warning_triangle","asset_scale":0.6,"fill":"#3a9ad9","label":"Twilight Zone"},
+ {"type":"tile","x":870,"y":30,"w":370,"h":230,"asset":"thermometer","asset_scale":0.45,"fill":"#050a1f","label":"Hadal Zone"},
+ {"type":"tile","x":40,"y":370,"w":370,"h":230,"asset":"gravestone","asset_scale":0.55,"fill":"#8fd3ff","label":"The Surface"},
+ {"type":"tile","x":455,"y":370,"w":370,"h":230,"fill":"#3a9ad9","label":"Sunlight Zone","elements":[{"type":"doug","x":640,"y":550,"scale":0.4,"pose":"swim1","expression":"hopeful","gear":["scuba"]}]},
+ {"type":"tile","x":870,"y":370,"w":370,"h":230,"asset":"anglerfish","asset_scale":0.4,"fill":"#020308","label":"The Trench"}
+]}

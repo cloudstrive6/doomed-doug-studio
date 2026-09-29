@@ -12,6 +12,9 @@ identical in every video, costs $0, runs on any cloud machine, and looks like MS
   "shots": [
     {
       "id": "s001",                         // unique, zero-padded, in order
+      "chapter": "Sunlight Zone",           // first shot of each item: chapter + caption bar text
+      "topbar": true,                       // false hides the caption bar; a string overrides it
+      "scene_ref": "thumbnail",             // instead of "scene": reuse episodes/<id>/thumbnail.json (opening shot)
       "narration": "This is Doug.",         // the exact words spoken during this shot (<= 45 words)
       "scene": { "background": "#8fd3ff", "size": [1920, 1080], "elements": [ ... ] },
       "camera": {"move": "zoom_in", "x": 960, "y": 540, "zoom": 1.2},   // optional
@@ -25,7 +28,8 @@ identical in every video, costs $0, runs on any cloud machine, and looks like MS
 ```
 
 Shot duration = TTS length of `narration` + `pause_after` + `hold`. The picture changes when the shot changes, so
-**one shot per beat**: a new drawing roughly every 1.5–4 seconds of speech (follow the style bible's pacing numbers).
+**one shot per beat**, and within a shot use `appear` so something new arrives **at least every 5 s** (target ~3 s).
+QC fails any static stretch over 6 s.
 
 ### Camera (`camera`)
 | move | effect |
@@ -47,7 +51,7 @@ Common keys: `color` (outline, default `#000000`), `fill`, `width` (line px, def
 
 | type | keys |
 |---|---|
-| `doug` | `x`,`y` (hips), `scale` (1 = 400 px tall), `pose` (or list to loop), `expression` (or list), `gear` [`scuba`,`mask`,`tank`,`helmet`,`sweat`], `facing` `right`/`left`, `rotate` (deg; lying dead = `pose: lie, rotate: -90`), `ink` (auto-white on dark backgrounds) |
+| `doug` | `x`,`y` (hips), `scale` (1 ≈ 450 px tall), `pose` (or list to loop), `expression` (or list), `gear` [`scuba`,`mask`,`tank`,`helmet`,`sweat`], `facing` `right`/`left`, `rotate` (deg; lying dead = `pose: lie, rotate: -90`), `ink` (auto-white on dark backgrounds) |
 | `asset` | `name` (file in `assets/library/`), `x`,`y`, `scale`, `flip`, `rotate` |
 | `line` / `curve` | `points` [[x,y],...]; curve is smoothed |
 | `arrow` | `from`, `to`, `head` |
@@ -61,12 +65,26 @@ Common keys: `color` (outline, default `#000000`), `fill`, `width` (line px, def
 | `speech` | speech bubble: `x`,`y`,`w`,`h`,`text`,`tail` [x,y] |
 | `bands` | horizontal colour bands: `bands` [{`y0`,`y1`,`color`}] (sky/sea/depth layers) |
 | `group` | `elements` with its own `x`,`y`,`scale`,`rotate`,`flip` |
+| `wordart` | keyword label: `text`,`x`,`y`,`size`, yellow→green gradient + dark outline (`top`,`bottom`,`outline` colours) |
+| `tile` | thumbnail/intro grid tile: `x`,`y`,`w`,`h`, `fill`, `asset` + `asset_scale` (or `elements`), `label` (comic font, under the tile); contents are clipped to the rounded frame |
+| `image` | real photo inset: `file` in `assets/photos/` (must be listed with source + licence in `assets/photos/SOURCES.md`; public domain / CC0 / CC-BY only), `x`,`y`,`w`; 4 px black frame |
+
+Extra keys: `line`/`curve` take `dash: [on, off]` (dotted distance lines); `arrow` takes `bend` (px, curved red
+arrows) and draws a filled head; `asset` takes `"silhouette": true` (+ `glow` colour, `glow_r`) for the black
+silhouette-with-red-glow reveal.
+
+Annotation assets in the library: `question_mark`, `exclamation_mark`, `warning_triangle`, `red_x`, `thermometer`,
+`gravestone`.
+
+**Caption bar:** the renderer automatically draws the current item name (ALL CAPS, comic font, thin white strip,
+top centre) on every frame from the shot with that `chapter` until the next one.
 
 Doug poses: stand, wave, point, arms_up, panic1, panic2, shrug, think, hands_hips, walk1, walk2, run1, run2,
 swim1, swim2, float, sit, fall, cower, lie, dive. Loop pairs for GIF-like motion: `["walk1","walk2"]`,
 `["run1","run2"]`, `["swim1","swim2"]`, `["panic1","panic2"]`.
-Expressions: neutral, happy, scared, shocked, worried, dead, smug, crying, confused, angry, sleepy, determined,
-screaming, nervous_smile.
+Expressions (style bible set first): shock (open mouth + pink tongue), gritted (teeth grid), flat (unimpressed),
+hopeful, dead (X eyes), smirk, sad, angry, confused, sleepy, neutral. Old names still work as aliases.
+`"ghost": true` draws ghost Doug (grey, wavy tail) for death beats.
 
 ## Asset library (`assets/library/<name>.json`)
 

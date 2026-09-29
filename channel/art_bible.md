@@ -26,8 +26,16 @@ colours, bucket fills, spray-can glow, slight hand wobble, 3-drawing "boil" loop
 Other environments: lava `#ff5a1f`/`#ffb000`, rock `#6b5b4b`, jungle `#2e8b3a`/`#1d5e27`, ice `#dff4ff`,
 desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never realistic).
 
-## Line weights (1920x1080)
-Doug 7 · creatures 5–6 · props 4–5 · details 2–3 · text outline 4–8.
+## Two-tier rendering (style bible 4.3)
+- **Doug and humans: crude** MS Paint stick men: uniform thin lines (Doug's rig: 5 at scale 1 ≈ 4–5 px), big round
+  head with grey shading crescent, oval eyes, meme faces.
+- **Creatures and places: the detailed tier**: cleaner cartoon illustrations with layered fills, interior shading
+  (`spray`, darker back / lighter belly), texture strokes at 2–3, outlines 3–5. The contrast is part of the joke.
+
+## Screen furniture
+Caption bar (automatic) · `wordart` keyword labels (yellow→green gradient, 1–4 words, max 2 on screen) · red curved
+arrows · red ? and ! · warning triangle · red X · thermometer · dotted distance lines · silhouette + red glow for
+reveals · real photos only public-domain/licensed with a 4 px black frame.
 
 ## Text
 Font: Arimo (bundled, Arial look-alike = classic MS Paint text). `label` boxes for depths, names and numbers.

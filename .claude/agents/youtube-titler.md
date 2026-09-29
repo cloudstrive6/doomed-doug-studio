@@ -15,24 +15,28 @@ the newest `data/insights/*.md`, `data/competitors/*.json` (what's hitting now),
 ## Output: `episodes/<id>/metadata.json`
 ```json
 {
-  "title": "...",                       // <= 60 chars ideally, hard max 70
-  "alt_titles": ["...", "..."],         // 2 alternates on different formulas, for manual A/B in Studio
-  "title_formula": "depth-gradient",    // which bible formula this uses
+  "title": "...",                       // style bible Titler rules: 38-65 chars, 6-11 words, Title Case
+  "alt_titles": ["...", "...", "...", "..."],  // the other 4 of your 5 candidates (for Studio A/B tests)
+  "title_formula": "T1",                // style bible skeleton id (T1-T6)
   "thumbnail_brief": "...",             // one sentence: what the thumbnail must show so title+thumb tell one story
   "description": "...",
   "tags": ["..."],
   "playlist": "ocean"                   // key from config youtube.playlists
 }
 ```
-Description template:
-1. Line 1–2: a curiosity hook that restates the premise in new words (this shows in search). Include the main
-   search phrase naturally (e.g. "every layer of the ocean").
-2. Blank line, then `{{CHAPTERS}}` (the build step replaces it with timestamps from the script headings).
-3. Blank line, a short "Sources" list: the 5–10 best URLs from `facts.md`.
-4. Final line: `#DoomedDoug` + at most 2 more hashtags.
+Description template (style bible 7 → Editor rule 8, in this order):
+1. 1–2 lines restating the premise in new words with the main search phrase (shows in search)
+2. A comment prompt ("Where should we send Doug next?") and a one-line subscribe line
+3. `— TIMESTAMPS —` then `{{CHAPTERS}}` (the build step fills it from the item headings)
+4. `— SOURCES —` then every URL from `facts.md`
+5. `— DISCLAIMER —` one line: educational entertainment, cartoon depictions
+6. `— AI USE —` honest disclosure: narration is an AI text-to-speech voice; scripts are researched and written
+   with AI assistance and fact-checked; all drawings are original
+7. At most 3 hashtags, starting with `#DoomedDoug`
 
-Rules: title must be honest to the video, plain English, no clickbait the video doesn't pay off, no ALL CAPS
-titles (1–2 emphasized words max if the bible supports it), no emojis unless the bible shows they win.
-Tags: 10–20, search phrases a viewer would type, total < 480 chars.
+Rules: follow ALL 10 Titler rules in style bible section 7 (skeletons T1–T6, one dread adjective or death verb,
+a scope device, no "in N Minutes", no leading counts, no ALL-CAPS words, no emojis, no "!", never reuse or
+noun-swap a Paint Explainer title). Write "Doug" into the title when a skeleton allows it (T2).
+Honest to the video. Tags: 5–10 plain search phrases (he uses none; they're cheap insurance), total < 480 chars.
 Then run `python -m studio validate <id> metadata` and fix everything it reports (thumbnail.json may still be
 pending; that item is for the graphic designer).

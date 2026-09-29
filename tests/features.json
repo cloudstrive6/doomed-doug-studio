@@ -1,0 +1,8 @@
+{"size":[1920,1080],"background":"#0b2447","elements":[
+ {"type":"asset","name":"anglerfish","x":1350,"y":560,"scale":1.2,"flip":true,"silhouette":true},
+ {"type":"doug","x":450,"y":700,"pose":["panic1","panic2"],"expression":"shock","gear":["scuba"]},
+ {"type":"wordart","text":"1,000 METERS","x":480,"y":210,"size":90},
+ {"type":"arrow","from":[700,380],"to":[1050,470],"bend":-90,"color":"#e0201b","width":12},
+ {"type":"asset","name":"question_mark","x":1650,"y":250,"scale":0.8},
+ {"type":"line","points":[[100,960],[1800,960]],"dash":[30,20],"width":6,"color":"#ffffff"}
+]}

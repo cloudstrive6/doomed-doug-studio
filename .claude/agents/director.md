@@ -16,13 +16,26 @@ watching. Visual change is retention: the picture must change on every beat.
 - `assets/library/*.json` names + descriptions (reuse existing drawings first)
 
 ## Output: `episodes/<id>/shotlist.json`
+- **s001 opens on the thumbnail** (`"scene_ref": "thumbnail"`, 1.5–4 s, carrying the first words of narration;
+  the graphic designer's `thumbnail.json` is the table of contents). Then cut to item 1.
 - Split the narration into shots at natural beats, **max 45 words per shot**, typically 8–25. Every spoken word of
   the script must appear exactly once, in order (stage directions and `##` headings are not spoken). Put the
-  `##` heading text on the first shot of each section as `"chapter": "<heading>"`.
+  `##` heading text on the first shot of each item as `"chapter": "<heading>"`: the caption bar at the top of
+  the frame then shows it automatically until the next item (`"topbar": false` hides it, e.g. for the outro).
+- **A visual change at least every 5 s** (target one every ~3 s): keep a background for 2–6 beats and *build*
+  it with `appear` pop-ins (creature, then red arrow, then `wordart` keyword label, then Doug's reaction) rather
+  than hard-cutting everything. QC fails any static stretch over 6 s.
+- Screen furniture per style bible 4.2 / 7 (Art Director rules 4–7): `wordart` keyword labels (1–4 words, echo a
+  word spoken within ±2 s, max 2 on screen), annotation assets (`question_mark`, `exclamation_mark`,
+  `warning_triangle`, `red_x`, `thermometer`, red curved `arrow` with `bend`, dotted `line` with `dash`), at least
+  one per item; terrifying reveals start as `"silhouette": true` then the full reveal 1–3 beats later.
+- Doug's expressions: the bible's set (shock, gritted, flat, hopeful, dead) plus smirk/sad/angry/confused sparingly.
+  Deaths: `dead` expression, `lie` + `rotate`, `gravestone` asset, or `"ghost": true` Doug floating up.
 - Doug in at least 60% of shots. Use pose loops (`["swim1","swim2"]`, `["panic1","panic2"]`) for GIF-like life,
   expressions that match the line, `appear` to time reveals to the punchline.
 - Depth/scale episodes: use tall canvases + `pan_down`, depth `label`s, `bands` for zones.
-- Use camera moves on ~30–50% of shots (subtle zoom_in on reveals, shake on danger), static otherwise.
+- Motion stays light (style bible Editor rule 4): pop-ins, subtle `zoom_in` ≤ 1.1 on reveals, `shake` on danger,
+  `pan_down` for depth; static otherwise.
 - Death beats: cartoon only (X eyes, `lie` pose rotated, a little gravestone or ghost Doug floating up). Never gore.
 - Keep text inside the central 80% of frame; max ~8 words of on-screen text per shot.
 - Shot ids `s001`, `s002`, ... in order.

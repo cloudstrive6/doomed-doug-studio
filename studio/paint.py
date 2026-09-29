@@ -250,7 +250,55 @@ def draw_elements(cv: Canvas, elements, tf: Transform | None = None, seed="root"
         draw_element(cv, el, tf, f"{seed}/{i}")
 
 
+def dashed(pts, on, off):
+    """Split a polyline into dash segments."""
+    out, cur, draw, left = [], [pts[0]], True, on
+    for a, b in zip(pts, pts[1:]):
+        d = math.dist(a, b)
+        pos = 0.0
+        while d - pos > left:
+            pos += left
+            p = (a[0] + (b[0] - a[0]) * pos / d, a[1] + (b[1] - a[1]) * pos / d)
+            if draw:
+                cur.append(p)
+                out.append(cur)
+            cur = [p]
+            draw, left = not draw, (off if draw else on)
+        left -= d - pos
+        if draw:
+            cur.append(b)
+        else:
+            cur = [b]
+    if draw and len(cur) > 1:
+        out.append(cur)
+    return out
+
+
+def rounded_rect(x, y, w, h, r):
+    r = min(r, w / 2, h / 2)
+    pts = []
+    for cx, cy, a0 in ((x + w - r, y + r, -90), (x + w - r, y + h - r, 0), (x + r, y + h - r, 90), (x + r, y + r, 180)):
+        pts += ellipse_points(cx, cy, r, r, n=6, a0=a0, a1=a0 + 90)
+    return pts
+
+
+def _silhouette(el, cv):
+    """While drawing a silhouetted asset, everything becomes flat black (text/spray are skipped)."""
+    if not getattr(cv, "silhouette", False):
+        return el
+    if el.get("type") in ("text", "label", "spray", "wordart"):
+        return None
+    el = dict(el)
+    el["color"] = "#000000"
+    if el.get("fill") not in (None, "none"):
+        el["fill"] = "#000000"
+    return el
+
+
 def draw_element(cv: Canvas, el, tf: Transform, seed):
+    el = _silhouette(el, cv)
+    if el is None:
+        return
     t = el.get("type")
     jit = Jitter(seed, cv.variant, cv.boil * el.get("boil", 1.0), cv.wobble * el.get("wobble", 1.0))
     sc = tf.total_scale
@@ -265,16 +313,27 @@ def draw_element(cv: Canvas, el, tf: Transform, seed):
         if t == "curve" or el.get("smooth"):
             pts = catmull_rom(pts)
         pts = jit(subdivide(P(pts), 30), sc)
-        cv.stroke(pts, color, width)
+        if el.get("dash"):
+            on, off = el["dash"]
+            for seg in dashed(pts, on * sc, off * sc):
+                cv.stroke(seg, color, width)
+        else:
+            cv.stroke(pts, color, width)
     elif t == "arrow":
         (x1, y1), (x2, y2) = el["from"], el["to"]
-        shaft = jit(subdivide(P([(x1, y1), (x2, y2)]), 30), sc)
+        bend = el.get("bend", 0)  # perpendicular offset of the midpoint -> curved arrow
+        mx, my = (x1 + x2) / 2, (y1 + y2) / 2
+        L = math.dist((x1, y1), (x2, y2)) or 1
+        nx, ny = -(y2 - y1) / L, (x2 - x1) / L
+        path = catmull_rom([(x1, y1), (mx + nx * bend, my + ny * bend), (x2, y2)]) if bend else [(x1, y1), (x2, y2)]
+        shaft = jit(subdivide(P(path), 30), sc)
         cv.stroke(shaft, color, width)
-        ang = math.atan2(y2 - y1, x2 - x1)
-        hl = el.get("head", 30)
-        for da in (2.6, -2.6):
-            hx, hy = x2 + hl * math.cos(ang + da), y2 + hl * math.sin(ang + da)
-            cv.stroke(jit(P([(x2, y2), (hx, hy)]), sc), color, width)
+        px, py = path[-2] if len(path) > 1 else (x1, y1)
+        ang = math.atan2(y2 - py, x2 - px)
+        hl = el.get("head", 34)
+        head = [(x2, y2), (x2 + hl * math.cos(ang + 2.6), y2 + hl * math.sin(ang + 2.6)),
+                (x2 + hl * math.cos(ang - 2.6), y2 + hl * math.sin(ang - 2.6))]
+        cv.poly(jit(P(head), sc), color, color, max(1, width / 2))
     elif t in ("poly", "polygon"):
         pts = el["points"]
         if el.get("smooth"):
@@ -328,7 +387,72 @@ def draw_element(cv: Canvas, el, tf: Transform, seed):
         outer = Transform(el.get("x", 0), el.get("y", 0), el.get("scale", 1), el.get("rotate", 0),
                           el.get("flip", False), tf)
         inner.parent = outer
-        draw_elements(cv, a["elements"], inner, seed + ":" + el["name"])
+        if el.get("silhouette"):
+            # unknown/terrifying reveal: black shape with a red glow (style bible 4.2)
+            gx, gy = outer.apply((0, 0))
+            gr = el.get("glow_r", 260) * outer.total_scale
+            for k, (rf, dens) in enumerate(((1.0, 0.16), (0.8, 0.32), (0.6, 0.6))):  # soft radial falloff
+                cv.spray(gx, gy, gr * rf, el.get("glow", "#ff2a1a"), dens, f"{seed}:{k}")
+            cv.silhouette = True
+            try:
+                draw_elements(cv, a["elements"], inner, seed + ":" + el["name"])
+            finally:
+                cv.silhouette = False
+        else:
+            draw_elements(cv, a["elements"], inner, seed + ":" + el["name"])
+    elif t == "tile":  # thumbnail/intro grid tile: rounded black frame, content, comic label underneath
+        x, y, w, h = el["x"], el["y"], el["w"], el["h"]
+        frame = P(rounded_rect(x, y, w, h, el.get("radius", 26)))
+        cv.poly(frame, el.get("fill", "#ffffff"), "#000000", 0)
+        inner = el.get("elements") or ([{"type": "asset", "name": el["asset"], "x": x + w / 2, "y": y + h / 2,
+                                          "scale": el.get("asset_scale", 0.5), "flip": el.get("flip", False)}]
+                                       if el.get("asset") else [])
+        before = cv.img.copy()
+        draw_elements(cv, inner, tf, seed + ":tile")
+        from PIL import Image as _I, ImageDraw as _D
+        mask = _I.new("L", cv.img.size, 0)
+        _D.Draw(mask).polygon([(round(a), round(b)) for a, b in frame], fill=255)
+        cv.img.paste(_I.composite(cv.img, before, mask))  # clip tile contents to the frame
+        cv.draw = _D.Draw(cv.img)
+        cv.draw.fontmode = "1"
+        cv.stroke(frame, "#000000", el.get("frame_width", 7) * sc, closed=True)
+        if el.get("label"):
+            lx, ly = tf.apply((x + w / 2, y + h + el.get("label_size", 44) * 0.75))
+            cv.text(el["label"], lx, ly, el.get("label_size", 44) * sc, "#000000", font_name="ComicNeue-Bold")
+    elif t == "wordart":  # keyword label: yellow->green gradient fill, thin dark outline (style bible 4.2)
+        x, y = tf.apply((el["x"], el["y"]))
+        size = el.get("size", 72) * sc
+        f = font(int(size), el.get("font", "default"), True)
+        from PIL import Image as _I, ImageDraw as _D
+        tw = int(cv.draw.textlength(el["text"], font=f)) + 20
+        th = int(size * 1.4)
+        mask = _I.new("L", (tw, th), 0)
+        md = _D.Draw(mask)
+        md.fontmode = "1"
+        md.text((10, int(size * 0.1)), el["text"], font=f, fill=255)
+        top, bot = hex_rgb(el.get("top", "#fff200")), hex_rgb(el.get("bottom", "#39d353"))
+        grad = _I.new("RGB", (tw, th))
+        gd = _D.Draw(grad)
+        for yy in range(th):
+            u = yy / max(1, th - 1)
+            gd.line([(0, yy), (tw, yy)], fill=tuple(int(top[k] + (bot[k] - top[k]) * u) for k in range(3)))
+        ox, oy = int(x - tw / 2), int(y - th / 2)
+        # outline: draw text stroke first, then gradient through the mask
+        cv.draw.text((ox + 10, oy + int(size * 0.1)), el["text"], font=f, fill=hex_rgb(el.get("outline", "#1a1a1a")),
+                     stroke_width=max(2, int(size / 18)), stroke_fill=hex_rgb(el.get("outline", "#1a1a1a")))
+        cv.img.paste(grad, (ox, oy), mask)
+    elif t == "image":  # real photo inset (public domain / licensed only; see assets/photos/SOURCES.md)
+        from PIL import Image as _I
+        p = ROOT / "assets" / "photos" / el["file"]
+        im = _I.open(p).convert("RGB")
+        w = int(el.get("w", 600) * sc)
+        h = int(im.height * w / im.width)
+        im = im.resize((w, h), _I.LANCZOS)
+        x, y = tf.apply((el["x"], el["y"]))
+        x0, y0 = int(x - w / 2), int(y - h / 2)
+        cv.img.paste(im, (x0, y0))
+        bw = int(el.get("frame_width", 4) * sc)
+        cv.draw.rectangle((x0 - bw, y0 - bw, x0 + w + bw - 1, y0 + h + bw - 1), outline=(0, 0, 0), width=bw)
     elif t == "doug":
         from .doug import doug_elements
         if "ink" not in el:  # auto-contrast: white lines on dark backgrounds

@@ -9,7 +9,7 @@ from .doug import EXPRESSIONS, POSES
 from .paint import LIBRARY_DIR
 
 KNOWN = {"line", "curve", "arrow", "poly", "polygon", "ellipse", "circle", "rect", "fill", "spray", "text",
-         "label", "group", "asset", "doug", "bands", "speech"}
+         "label", "group", "asset", "doug", "bands", "speech", "tile", "wordart", "image"}
 
 
 def _walk(elements, where, problems):
@@ -28,8 +28,17 @@ def _walk(elements, where, problems):
             for x in (el.get("expression") if isinstance(el.get("expression"), list) else [el.get("expression", "neutral")]):
                 if x not in EXPRESSIONS:
                     problems.append(f"{w}: unknown expression {x!r} (valid: {', '.join(EXPRESSIONS)})")
-        if t == "group":
+        if t in ("group", "tile"):
             _walk(el.get("elements"), w + ".elements", problems)
+        if t == "tile" and el.get("asset") and not (LIBRARY_DIR / f"{el['asset']}.json").exists():
+            problems.append(f"{w}: asset '{el['asset']}' missing from assets/library")
+        if t == "image":
+            photo = LIBRARY_DIR.parent / "photos" / el.get("file", "")
+            if not photo.exists():
+                problems.append(f"{w}: photo {el.get('file')!r} missing from assets/photos")
+            src = LIBRARY_DIR.parent / "photos" / "SOURCES.md"
+            if not src.exists() or el.get("file", "?") not in src.read_text(encoding="utf-8"):
+                problems.append(f"{w}: photo {el.get('file')!r} has no licence/source line in assets/photos/SOURCES.md")
         if "appear" in el and not (0 <= float(el["appear"]) < 1):
             problems.append(f"{w}: appear must be a fraction in [0, 1)")
 
@@ -52,6 +61,10 @@ def validate_shotlist(ep_dir: Path) -> list[str]:
             problems.append(f"{sid}: duplicate id")
         ids.add(sid)
         if "scene" not in shot:
+            if shot.get("scene_ref"):
+                if not (ep_dir / f"{shot['scene_ref']}.json").exists():
+                    problems.append(f"{sid}: scene_ref {shot['scene_ref']!r} file missing")
+                continue
             problems.append(f"{sid}: no scene")
             continue
         _walk(shot["scene"].get("elements"), f"{sid}.elements", problems)
@@ -66,9 +79,14 @@ def validate_shotlist(ep_dir: Path) -> list[str]:
         share = doug_shots / len(sl["shots"])
         if share < 0.5:
             problems.append(f"Doug appears in only {share:.0%} of shots; he should be in at least half")
-    minutes = words / 160
+    minutes = words / 195
     if minutes < 12:
-        problems.append(f"script is ~{minutes:.1f} min at 160 wpm; target 15-20")
+        problems.append(f"script is ~{minutes:.1f} min at 195 wpm; target 15-18 (2,800-3,500 words)")
+    chapters = [s.get("chapter") for s in sl.get("shots", []) if s.get("chapter")]
+    if not 9 <= len(chapters) <= 14:
+        problems.append(f"{len(chapters)} chapters/items; style bible requires 9-14 (one per item, named exactly like it)")
+    if sl.get("shots") and sl["shots"][0].get("scene_ref") != "thumbnail":
+        problems.append("s001 should open on the thumbnail grid (scene_ref: thumbnail) for 1.5-4 s (style bible Editor rule 3)")
     script = ep_dir / "script.md"
     if script.exists():
         sw = len(re.sub(r"\[[^\]]*\]|#.*", "", script.read_text(encoding="utf-8")).split())

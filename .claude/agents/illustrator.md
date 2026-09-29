@@ -16,10 +16,11 @@ rendered by `studio/paint.py`. You cannot use image generators, which keeps the 
 ## For each request
 1. Write `assets/library/<name>.json` with `name`, `description`, `anchor` [0,0], `tags`, `elements`.
    Local coordinates centred on (0,0), about 300–500 units across, facing right.
-2. House style: thick black outlines (width 5–6), flat fills from the art bible palette, big white eyes with
-   black pupils, simple bold silhouette readable at 320x180 (thumbnail size), 1–3 signature features exaggerated
-   (teeth, lure, tentacles, spikes). Crude is correct; mushy detail is wrong. Use `spray` for glow/bioluminescence,
-   `smooth: true` polys for organic bodies.
+2. House style = the bible's **two-tier rendering**: Doug is crude, but creatures and places are the *detailed*
+   tier: cleaner cartoon illustrations with interior shading. Build them in layers: base body (`smooth` poly) →
+   darker back / lighter belly polys → `spray` soft shading and bioluminescence → details (fins with ray lines,
+   scales, texture strokes at width 2–3) → outline 3–5. Big readable silhouette, 1–3 signature features
+   exaggerated (teeth, lure, tentacles, spikes). Must still read at 168x94 in a thumbnail tile.
 3. Accuracy: the creature must be recognisable as the real animal (look it up if unsure: colour, body plan,
    number of limbs/tentacles). Comedy comes from the drawing being crude, not wrong.
 4. Preview: `python -m studio asset-preview <name1> <name2> --out <episode>-assets.png`, then view the PNG in
