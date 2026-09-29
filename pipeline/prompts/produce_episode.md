@@ -15,8 +15,11 @@ After each major step, commit your progress: `git add -A && git commit -m "<id>:
 (the workflow pushes at the end).
 
 ## 0. Pick up or start
-- Run `python -m studio status`. If an episode exists with stage before `packaged` (idea … art_approved),
-  RESUME it from its current stage. Otherwise start a new one.
+- Run `python -m studio status`. If an episode is at `packaged`, `built` or `qc_passed` (finished creative work
+  but not uploaded), do NOT start a new one: write its id to `.current_episode` and end your turn; the workflow
+  renders, screens and uploads it next.
+- Else, if an episode exists with stage before `packaged` (idea … art_approved), RESUME it from its current stage.
+  Otherwise start a new one.
 - If the newest file in `data/insights/` is older than 7 days, run the **growth-analyst** first (it pulls
   analytics itself when credentials exist).
 - If `data/ideas.md` has fewer than 5 ideas with status `backlog`, have the **growth-analyst** add at least 10
