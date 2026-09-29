@@ -47,7 +47,8 @@ on a kicker or cliffhanger that makes the viewer want the rest. Prefer the most 
 Format (see `studio/shorts.py`): `{"shorts": [{"id": "short01", "from": "s145", "to": "s155", "title": "",
 "outro": "What happens next is even worse. The full dive is linked below.", "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
 "description": ""}, ...]}` (ids short01, short02, short03). Leave `title`/`description` for the youtube-titler. Optional `hook`: one extra spoken opening
-line (≤ 12 words) if the first shot doesn't hook on its own. Then `python -m studio shorts validate <id>`.
+line (≤ 12 words) if the first shot doesn't hook on its own, with `hook_scene_from` = the shot whose drawing
+matches that line (it's shown static). Then `python -m studio shorts validate <id>`.
 
 ## Missing drawings
 For every creature/prop/place not in `assets/library/`, write a request in `episodes/<id>/asset_requests.md`:

@@ -157,9 +157,10 @@ def render(ep: Path, only: list[str] | None = None) -> list[Path]:
         if only and s["id"] not in only:
             continue
         segs = []  # (shot, pcm, duration, text)
-        if s.get("hook"):
-            first = _shot_slice(sl, s["from"], s["to"])[0]
-            segs.append(({**first, "id": first["id"] + "_hook"}, s["hook"]))
+        if s.get("hook"):  # optional extra opening line; `hook_scene_from` picks which shot's drawing sits under it
+            ref = s.get("hook_scene_from") or s["from"]
+            first = next(x for x in sl["shots"] if x["id"] == ref)
+            segs.append(({**first, "id": first["id"] + "_hook", "camera": None}, s["hook"]))
         for shot in _shot_slice(sl, s["from"], s["to"]):
             segs.append((shot, shot.get("narration", "")))
         end_text = s.get("end_card", "FULL VIDEO: TAP THE LINK BELOW")
