@@ -123,3 +123,121 @@ None.
 - Director: follow the squid_costume pose rule above. Otherwise, proceed to keyframes.
 
 **OVERALL VERDICT: PASS.** All 56 new assets are approved, and art can move to keyframes.
+
+---
+
+# Keyframe review: 001 Every Layer of the Ocean
+
+Reviewer: art director · Date: 2026-09-29 · Scope: all 245 keyframes (`build/keyframes/s001-s245.png`, contact
+sheets `build/contact/sheet_01-21.png`). Checked against the art bible (zone ramp, two-tier rule, death counter,
+title cards) and style bible section 7 (Art Director rules 1-9).
+
+**Verdict: FAIL**. The style is right and consistent almost everywhere. The fixes below are mostly quick
+composition moves for the director, plus the thumbnail for the graphic designer. No asset redraws are needed.
+
+## What passes
+- **Two-tier rule (7.1):** Doug, the scientist and the diver stay crude. Every creature, vehicle and set is in the
+  detailed tier. The auto white ink works on every dark zone (s066-s245), for Doug and the scientist (s206).
+- **Doug on-model (7.2):** the red cap is visible in every shot, including the ghosts, the tiny porthole Doug
+  (s230-s245) and the squid costume (s082-s083, which follow the upright-pose rule). Expressions come from the fixed set.
+- **Caption bar (7.3):** it's on every segment frame, and each bar matches its chapter name. The intro and outro
+  (s001-s003, s244-s245) correctly have no bar.
+- **Annotations (7.5):** every item has at least one arrow, X, "?", "!" or warning triangle.
+- **Reveals (7.7):** each creature title card starts as a black silhouette with a red glow (s067, s085, s124,
+  s145, s181, s207), and the full reveal follows 1-3 beats later.
+- **Gore (7.8):** none. `fish_halves` (s055) is clean, and every Doug death is cartoon: X eyes, a ghost, a gravestone,
+  or only the cap floating up in s179. The death counter runs 1-7 in the right places (s021, s043, s084, s160,
+  s179, s197, s218) and ends with a strong seven-gravestone payoff in s243.
+- **Zone ramp (7.6):** the zone title cards step down correctly: sunlight `#3a9ad9` (s004), twilight `#1b4f86`
+  (s066), midnight `#0b2447` (s144), abyss `#050a1f` (s180), hadal `#020308` (s199).
+
+## Engine fix applied (by the art director)
+- **Blurry, jagged opening shot.** The s001 opening shot uses `scene_ref: thumbnail`, which is drawn at 1280x720.
+  The engine was stretching that bitmap 1.5x with nearest-neighbour, so every line and letter came out jagged.
+  `studio/assemble.py` → `_upscale_scene()` now redraws any smaller 16:9 referenced scene at 1920x1080 inside a
+  scaled `group`, which gives crisp 1080p lines. I also added `studio/scene.py` → `fit_frame()`, used by both the
+  renderer and the keyframes. It keeps nearest-neighbour for 1:1 frames and small push-ins, and uses Lanczos only
+  for large upscales (1.25x or more). I re-rendered s001 and the contact sheets.
+
+## Required fixes
+
+### Graphic designer (thumbnail = opening shot s001)
+1. **s001 / `thumbnail.json`**: the pyramid labels are broken. "ANGLERFISH / BLACK SWALLOWER" (x=50) is cut off at
+   the left edge. "ZOMBIE WORMS" (x=1380) is off the 1280 canvas entirely. "MAN O' WAR" sits on the pyramid's edge,
+   and the labels are 26 px, which can't be read at 168x94. Rebuild it as Archetype B: labels outside the tiers on
+   alternating sides, fully inside the canvas, about 40 px or larger, and 4 words or fewer each. Label the bottom
+   (abyss/hadal) tier too. This one blocks packaging anyway.
+
+### Director: zone colours (art bible ramp, 7.6)
+2. **s097, s098, s099** (Giant Squid, 630-900 m = twilight): these use midnight `#0b2447`, while the rest of the item
+   uses `#1b4f86`. Set them to `#1b4f86`, and let the plankton spray carry "the dark".
+3. **s133-s143** (Vampire Squid, 600-900 m = twilight, as s127 itself shows): these use midnight `#0b2447`.
+   Set them to `#1b4f86`. The first midnight-coloured frame should be the s144 "MIDNIGHT ZONE" card, or the ramp
+   stops reading.
+4. **s146 (lower band), s147, s150, s151, s154, s159, s160, s161** (Anglerfish, midnight): these use an off-palette
+   near-black `#050a18`, which looks like the abyss and steals s180's step down. Set them to midnight `#0b2447`.
+   The red glow and bioluminescent sprays already carry the darkness.
+
+### Director: labels, overlaps and safe area
+5. **s005**: the red title "PORTUGUESE MAN O' WAR" sits on Doug's cap and the float's crest. Move the title up
+   to y≈170, or move Doug and the float down about 80 px.
+6. **s009**: the man o' war float is cropped by the top edge and hidden under the caption bar. Move it to about y=380
+   at scale 1.2, so the whole float sits below the bar.
+7. **s010**: the "THIRTY METERS" word art is crossed by both the purple tentacle line and the white dashed line.
+   Move the word art to x≈1150.
+8. **s017**: "FLOATING COMMITTEE" overlaps the float, and the "JELLYFISH?" label overlaps the tentacle tips.
+   Put the word art at y≈150 and the label at x≈1450, next to Doug.
+9. **s027**: "TV REMOTE" runs into the coral. Move it left to x≈1300, above the remote.
+10. **s059**: the "CORNWALL, ENGLAND" label sits on the aquarium's top frame. Raise it to y≈150, or shrink the tank
+    to scale 1.7.
+11. **s068**: "DIABLO ROJO" is written across the boat cabin. Move it to x≈1450, y≈150, or move the boat left.
+12. **s080**: "CANNIBALISM" is written over the bottom row of squid. Put it at y≈1000, below the grid, or at the
+    top next to the stomach label.
+13. **s189**: "SHAG CARPET" is written over the school bus. Move it to x≈1500, y≈420, clear of the bus.
+14. **s212**: the two white pressure arrows cut through "800x PRESSURE". Start the arrows below the text
+    (from y≈420) or move the text to y≈200.
+15. **s176** (pan_up): at the end of the pan, the black swallower is at y=1200, so it's cut off at the bottom edge
+    and never visibly reaches the surface. Doug (y=1850) is never on screen at the end either. Put the fish at the
+    surface (y≈560, floating in the top band). If you want the rise to show, place Doug and the "GAS" word art
+    where the camera actually passes.
+16. **s241** (pan_down): the last gravestone (y=3300) ends up under the caption bar, cut off at the top of the
+    final frame. Move it to y≈3550. Also, there are 5 gravestones for 7 deaths. Use 7, one per death, in the zone
+    where each happened (2 sunlight, 1 twilight, 2 midnight, 1 abyss, 1 hadal).
+
+### Director: at most 2 keyword labels on screen (7.4)
+Depth and size markers (dimension tags) count as annotations, not labels. These shots still have 3 or more word labels:
+17. **s015**: there are 5 labels (ONE JOB + FLOAT/CATCH/DIGEST/REPRODUCE). Keep "ONE JOB", and merge the four tags
+    into one label: "FLOAT · CATCH · DIGEST · BREED".
+18. **s131**: merge the crossed "VAMPIRE" and "SQUID" tags into one "VAMPIRE SQUID" label with a red X, and keep
+    "LAST SURVIVOR".
+19. **s143**: merge "GLOWING" and "STICKY" into one "GLOWING + STICKY" label, and keep "A WIN?".
+20. **s156**: drop "FUSED" (s155 already showed the latch). Keep "SHARED BLOOD" and "ALL FROM HER".
+21. **s186**: merge the three tags into one label, "NO MOUTH, STOMACH, GUT".
+22. **s210**: merge the three tags into one label, "SMALL, SOFT, PALE", and keep "TADPOLE".
+23. **s225**: drop "PICCARD + WALSH" or "TRIESTE", leaving 2 labels.
+24. **s236**: fold "2017" into the depth tag ("2017 · 7,000-10,000+ m"), or drop it.
+
+### Director: Doug staging and layout variety
+25. **s050**: Doug is in the `sit` pose floating in open water. Sit him on the sofa (x≈960, y≈500, scale 0.5).
+    That's the joke ("longer than a sofa") and the reason the sofa is there.
+    **s051**: switch the `sit` pose to `stand` on the sand (y≈560), or to `float`.
+26. **s150**: the tiny rotated, lying Doug at the bottom right (scale 0.3) reads as a dead Doug, a death before
+    the actual death in s160. Remove him, or make him a normal-size, upright, curious Doug looking at the lure.
+27. **s035-s043**: nine reef frames in a row use the same composition (snail left, coral cluster right, sand
+    strip). Break it up: make s037/s038 a `zoom_in` close-up on `cone_snail_engulf` with no coral, and s039 a
+    white-background "INSULIN WEAPON" card (an insulin-syringe-style harpoon plus the X-ed Doug from s034, or similar).
+
+### Optional (nice to have)
+- **s060**: Doug's head overlaps the aquarium's right frame. Move him about 60 px left, inside the glass.
+- **s088**: the submersible sits in the South Atlantic on the map while the red circle is at Ogasawara. Move it
+  next to Japan, or drop it.
+- **s113**: the net reads as a wastebasket (it's only vertical lines). Add cross lines for a mesh.
+
+## Routing
+- **Graphic designer:** fix 1 (thumbnail).
+- **Director:** fixes 2-27, then re-run `python -m studio keyframes 001-every-layer-of-the-ocean --shots ...`
+  for those shots and send them back for a quick recheck.
+- **Illustrator:** nothing. All assets read correctly in context.
+
+**OVERALL VERDICT: FAIL.** The style and Doug are consistent, but the zone ramp breaks in three items and there
+are overlaps and label-count violations. Expect a PASS once fixes 1-27 land.

@@ -17,6 +17,17 @@ TTS_CACHE = ROOT / ".cache" / "tts"
 from .scene import OUT_H, OUT_W, ShotRenderer, render_still, with_topbar
 
 
+def _upscale_scene(scene: dict) -> dict:
+    """A referenced 16:9 scene drawn smaller than 1080p (the 1280x720 thumbnail) is redrawn at 1920x1080 through a
+    scaled group, so the opening shot has crisp 1080p lines and text instead of a blurry/jagged bitmap upscale."""
+    w, h = scene.get("size", [OUT_W, OUT_H])
+    if w >= OUT_W or abs(w / h - OUT_W / OUT_H) > 0.01:
+        return scene
+    k = OUT_W / w
+    return {"background": scene.get("background", "#ffffff"),
+            "elements": [{"type": "group", "x": 0, "y": 0, "scale": k, "elements": scene.get("elements", [])}]}
+
+
 def load_shotlist(ep_dir: Path) -> dict:
     """Load shotlist.json, resolve `scene_ref` (e.g. the opening thumbnail grid) and the running caption bar."""
     sl = json.loads((ep_dir / "shotlist.json").read_text(encoding="utf-8"))
@@ -28,6 +39,7 @@ def load_shotlist(ep_dir: Path) -> dict:
             shot["scene"] = (json.loads(f.read_text(encoding="utf-8")) if f.exists() else
                              {"background": "#ffffff", "elements": [{"type": "text", "text": f"({ref} pending)",
                                                                      "x": 960, "y": 540, "size": 60}]})
+            shot["scene"] = _upscale_scene(shot["scene"])
         if shot.get("chapter"):
             current = shot["chapter"]
         tb = shot.get("topbar", True)
@@ -50,10 +62,10 @@ def keyframes(ep_dir: Path, only: list[str] | None = None) -> list[Path]:
             continue
         img = render_still(shot["scene"], 0, None, seed=shot["id"], style=cfg["style"])
         if img.size != (OUT_W, OUT_H):
-            from .scene import camera_rect
+            from .scene import camera_rect, fit_frame
             w, h = img.size
             rect = camera_rect(shot.get("camera"), w, h, 1.0)
-            img = img.crop(tuple(round(v) for v in rect)).resize((OUT_W, OUT_H), Image.NEAREST)
+            img = fit_frame(img, rect)
         img = with_topbar(img, shot.get("_topbar"))
         p = out / f"{shot['id']}.png"
         img.save(p)

@@ -28,6 +28,15 @@ def topbar_image(text: str):
     return bar
 
 
+def fit_frame(img, rect):
+    """Crop the camera rect and scale it to 1920x1080. Nearest-neighbour keeps flat MS Paint fills crisp for 1:1
+    and small push-ins; big upscales (e.g. the 1280x720 thumbnail used as the opening shot) use Lanczos, because
+    nearest at 1.5x gives uneven, jagged pixel doubling on every line and letter."""
+    crop = img.crop(tuple(round(v) for v in rect))
+    up = OUT_W / max(1, crop.width)
+    return crop.resize((OUT_W, OUT_H), Image.LANCZOS if up >= 1.25 else Image.NEAREST)
+
+
 def with_topbar(img, text):
     if not text:
         return img
@@ -138,7 +147,7 @@ class ShotRenderer:
                 if rect == (0, 0, OUT_W, OUT_H) and img.size == (OUT_W, OUT_H):
                     frame = img
                 else:
-                    frame = img.crop(tuple(round(v) for v in rect)).resize((OUT_W, OUT_H), Image.NEAREST)
+                    frame = fit_frame(img, rect)
                 frame = with_topbar(frame, self.topbar)
                 last_key, last_frame = key, frame
             yield last_frame
