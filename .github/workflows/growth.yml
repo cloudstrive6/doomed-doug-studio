@@ -47,4 +47,4 @@ jobs:
             --dangerously-skip-permissions --max-turns 200 --output-format stream-json --verbose > claude_growth.jsonl
       - name: Save
         if: always()
-        run: git add -A data channel && (git commit -m "weekly growth review" || true) && git push
+        run: git add -A data channel && (git commit -m "weekly growth review" || true) && git pull --rebase -X theirs && git push

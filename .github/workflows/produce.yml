@@ -85,7 +85,7 @@ jobs:
 
       - name: Save progress
         if: always()
-        run: git add -A episodes data channel assets && (git commit -m "stage A progress" || true) && git push
+        run: git add -A episodes data channel assets && (git commit -m "stage A progress" || true) && git pull --rebase -X theirs && git push
 
       - name: "Stage B: final render + technical QC"
         run: |
@@ -107,7 +107,7 @@ jobs:
         if: always()
         run: |
           rm -rf episodes/*/build/tts_cache
-          git add -A episodes data channel assets && (git commit -m "${EP:-episode}: produced" || true) && git push
+          git add -A episodes data channel assets && (git commit -m "${EP:-episode}: produced" || true) && git pull --rebase -X theirs && git push
 
       - name: "Keep the video for 14 days (private repo only; public artifacts are downloadable by anyone)"
         if: ${{ always() && github.event.repository.private }}
