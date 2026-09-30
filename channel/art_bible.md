@@ -48,7 +48,12 @@ Max ~8 words on screen per shot. Title cards: big bold red `#e0201b` with black 
 
 ## Recurring layouts
 - **Depth meter**: tall canvas + `pan_down`, zone bands, white `label` depth markers at left.
-- **Death counter**: `label` "DOUG DEATHS: N" top-right, appears on each death shot.
+- **Death counter**: `label` "DOUG DEATHS: N" top-right, appears on each death shot. Its zone (about
+  x 1300-1860, y 110-230 at 1080p) is reserved: no sun, moon, creature or other label may touch it. On death
+  shots, move the sun/moon down to about (1720, 330) or drop it.
+- **WordArt placement**: the yellow-to-green `wordart` must never sit on green ground, grass, leaves or any
+  green field (lime-on-lime disappears at phone size). Put it on sky/cream/pink/dark areas; if the only free
+  space is ground, move the label up instead.
 - **Stop title card**: zone/creature name as a big `label` + Doug reacting.
 - **Scale comparison**: Doug next to the creature, both at true relative size, a `label` with the size.
 

@@ -1,108 +1,101 @@
-# Art review: 002 Every Parasite (assets)
+# Art review: 002 Every Parasite
 
-Reviewer: art director. Scope: the 53 new library drawings in `asset_requests.md` (commit 7a9ad3b, plus the
-uncommitted `lilo`). Keyframes are **not** reviewed here yet.
-Checked against: `channel/art_bible.md`, style bible section 7 (Art Director rules 1, 7, 8), brief section 8 (gore
-watch, kid-appeal), and the anchors/sizes in the requests. Previews used: `assets/previews/002-every-parasite-*.png`,
-plus my own re-renders at scale 1-2 on white, on the actual shotlist backgrounds (`#1b2a4a`, `#4a1a28`, `#b9503a`,
-`#7a2a33`, `#3d0f18`, `#cfe9a8`, `#dfe8ee`), silhouette + red-glow tests for every SIL asset, the mosquito at scale
-0.2, and a bounding-box pass for every anchor.
+Reviewer: art director.
 
-## Verdict: FAIL (5 assets need fixes, 48 approved)
+- **Round 1 (assets)**: 53 new library drawings. 48 approved, 5 sent back (see the history at the end).
+- **Round 2 (this review)**: a re-check of the 5 fixed drawings, plus all 247 keyframes in `build/contact/sheet_01..21`
+  (commit 196c074), with full-size spot checks from `build/keyframes/`.
 
-Gore watch is clean across the whole set: nothing enters, leaves or grows inside a body; `body_outline` and
-`head_outline` have no organs or brain; `horsehair_worm` is a lone tangle; `naegleria_amoeba` has no face or teeth;
-`fungus_stalk` stands alone; the single cells and `cercaria` are pale textbook diagrams. No cute eyes or smiles on
-creatures, no pastel nursery palette. The two-tier contrast holds (crude Doug and `toddler` vs detailed creatures).
+Checked against: `channel/art_bible.md`, style bible section 7 (Art Director rules 1-9), and the brief's gore/kid-appeal
+watch.
 
-## Fixes required (route to the illustrator)
+## Verdict: FAIL (assets PASS; 6 keyframe composition fixes, all routed to the director)
 
-1. **field_cricket (A, also SIL in s050)**: the cricket giveaway is missing. The hind leg is a thin line hidden under
-   the body and the silhouette reads as a generic bug with a raised flap. Fix: draw the **big jumping hind leg** on
-   the near side: a fat, slightly striped femur angled up and back from the rear of the thorax so it rises above the
-   back line, then a thin spiny tibia folding sharply down and back to the ground (the classic inverted "V").
-   Lower the lifted wing flap so it lies flat along the back ("wings folded flat"). Re-check the SIL at scale 2.0.
-2. **cricket_costume (A)**: (a) the hind legs read as two leaves with ski poles: the fat femur blobs sit upright at
-   the shoulders and the tibias are straight black poles. Redraw each side as the same inverted-"V" jumping leg as
-   item 1 (femur angled up/back from the hip area, tibia folding down to the ground). (b) Night readability for
-   s064/s065 on `#1b2a4a`: the black tibia poles and black body outline nearly vanish. Draw the tibias in
-   `#5a4632` with lighter spine ticks, and strengthen the rim highlight (`#7a6446`-ish, 4-5 px) down the whole
-   left and right edges of the suit and along the wing cape, not just a faint streak on one side.
-3. **raccoon (A, 13 shots)**: the four legs are straight grey rectangles with black blocks, which reads as a table
-   and is below the detailed tier of the rest of the animal. Taper each leg, give the hind legs a visible heel/knee
-   bend, and make the paws small dark rounded mitts (raccoon "hands") instead of flat blocks. Keep the body, mask,
-   tail and the head-top position (about (+150,-200)) exactly as they are: the cap in s191 depends on it.
-4. **blood_flukes (A, used at scale 2.0 in s119)**: the request asks for a male **curved into a C**; the drawing
-   is a shallow arch (~120 degrees) that reads as an eyebrow or a rainbow at small sizes. Curl it to roughly a
-   200-220 degree C (ends turning inward), keep the thinner darker female lying in the groove with her ends
-   showing, and keep the two small suckers at the male's front end. Keep the fills pale; the red-brown surface dots
-   are fine but do not add more (they start to read as blotchy skin).
-5. **rat_costume (A)**: the "pink forepaws at the chest" are two plain pink ovals on the side of the belly and read
-   as spots or sores. Either give them clear paw shapes (small pink mittens with 3 toe ticks, outlined, placed at
-   the ends of short sleeve cuffs at the suit's sides around y=-40) or remove them. Optional: thicken the hood so
-   it visibly wraps both sides of the face instead of a single grey band behind the head (it currently reads a bit
-   like a headphone band).
+The episode is close. Style is consistent across all 11 chapters. Doug is on-model in every shot, and his cap is visible
+everywhere, including ghost Doug, the costumes, the lilo, the hammock and the floating cap. Each chapter keeps its own
+background family, and the value ramp darkens on the reveal/death beats. Gore watch is clean. Layout variety is good:
+maps, pens, body outlines, timelines, dish, bar charts, split day/night and scenic sets rotate, and nowhere do I see the
+same composition five times in a row. The six fixes below are all collisions or beats that don't read. None of them
+needs a new drawing.
 
-## Approved
+## Part 1: fixed assets re-check: PASS (all 5)
 
-| Asset | Tier | Notes |
+Previews used: `assets/previews/002-every-parasite-assets-fixes.png`, `-assets-fixes-checks.png` (white / night navy /
+silhouette / small-scale + cap tests), `-costumes-fixes-on-doug.png`.
+
+| Asset | Verdict | Notes |
 |---|---|---|
-| cockroach_costume | A | APPROVE. Reads upright and rotated -90; antennae behind the cap; face and cap clear. |
-| ant_costume | A | APPROVE. Gaster bulb, elbowed antennae, reads on `#2e8b3a` and `#cfe9a8`. |
-| snail_costume | A | APPROVE. Broodsac stalks from behind the cap, no eyes on tips; shell backpack reads sideways. |
-| doug_sunglasses | C | APPROVE. Sits on Doug's eyes, arm to head edge. |
-| jewel_wasp | A | APPROVE. Metallic green, red thighs, strong SIL. |
-| cockroach | A | APPROVE. Head, pronotum and antennae where requested; clean at 2.2. |
-| burrow | B | APPROVE. |
-| carpenter_ant | A | APPROVE. Legs root on the thorax, mandibles and elbowed antennae read; SIL clean at 2.0. |
-| leaf | A | APPROVE. |
-| small_plant | A | APPROVE. Top leaf flat at y about -540. |
-| rainforest_tree | B | APPROVE. |
-| fungus_stalk | B | APPROVE. Stands alone, no host. |
-| clock | B | APPROVE. |
-| horsehair_worm | A | APPROVE. Lone tangle, no face or segments. Loops rather than a true knot; acceptable. |
-| matchbox_charger | C | APPROVE. Note for director: bounding box is y -91..+190 (the plug hangs down), so the box sits about 50 above the anchor. |
-| swimming_pool | B | APPROVE. |
-| sun_lounger | B | APPROVE (confirm seat height in s064 keyframes). |
-| amber_snail | B | APPROVE. |
-| broodsac_snail | A | APPROVE. Striped swollen stalks, clean, no gore. |
-| songbird | A | APPROVE. Robin reads; SIL strong. |
-| caterpillar | C | APPROVE. No face, no smile. |
-| toxoplasma_cell | A | APPROVE. Diagram look, pointed cap end. |
-| rat | A | APPROVE. |
-| cat | A | APPROVE. Unimpressed predator, not cute; faces right. |
-| freshwater_snail | C | APPROVE. |
-| cercaria | B | APPROVE. Forked tail, diagram. |
-| body_outline | A | APPROVE. No face, no organs. |
-| head_outline | A | APPROVE. No interior; nose tip about +235. |
-| kissing_bug | A | APPROVE. Drawn top-down (dorsal) facing right rather than side view: this is the better choice because it shows the orange edge stripes; reads on `#4a1a28` at 0.45 too. |
-| trypanosome | A | APPROVE. Undulating fin, flagellum; SIL reads. |
-| bed | B | APPROVE. |
-| calendar | A | APPROVE. Centre left blank for labels. |
-| heart_icon | B | APPROVE. |
-| library_book | C | APPROVE. "DATE DUE 1987" + cobweb sells the joke. |
-| mosquito | A | APPROVE. Spotted wing, tilted abdomen. At 0.2 it is a speck (see director notes). |
-| fly_swatter | C | APPROVE. |
-| red_blood_cell | A | APPROVE. Textbook disc, not blood. |
-| hammock | B | APPROVE. |
-| house | B | APPROVE. |
-| tsetse_fly | A | APPROVE. Scissor wings, proboscis, striped abdomen. |
-| lab_mouse | C | APPROVE. |
-| podium | B | APPROVE. |
-| airplane | C | APPROVE. |
-| naegleria_amoeba | A | APPROVE. Lumpy cell, no face or teeth. |
-| jetty | B | APPROVE. |
-| usa_map | B | APPROVE. |
-| toddler | C | APPROVE. Crude tier, faces left, no cap. |
-| lilo | B | APPROVE. Commit it with the fixes (currently untracked). |
+| field_cricket | PASS | The big striped jumping femur now rises above the back line, and the spiny tibia folds down to the ground in a clear inverted V. Wings lie flat. The SIL reads as a cricket at 2.0, and so does the small version. |
+| cricket_costume | PASS | Both sides now have proper inverted-V jumping legs. The brown tibias with light spine ticks hold up on `#1b2a4a` (checked in s064/s065 at full size). The wing cape reads. Doug's cap and face stay clear. |
+| raccoon | PASS | Legs are tapered, the hind heel bend shows, and the paws are dark rounded mitts. Body, mask and tail are unchanged. The cap sits correctly on the head in s191. |
+| blood_flukes | PASS | Now a proper ~210-degree C, ends curling in, with the darker female in the groove and the suckers at the front. It reads as a C even at thumbnail size (s110, s118, s119 at 2.0). |
+| rat_costume | PASS | Pink mitten paws with toe ticks sit at sleeve cuffs. The hood now wraps both sides of the face and no longer reads as headphones. |
 
-## Notes for the director (composition, checked at keyframe review)
-- **s216/s218**: the `naegleria_amoeba` silhouette on `#3d0f18` gets a red glow that is almost invisible on that
-  background; the black blob barely separates. Use a brighter glow (e.g. `#ff3b2f` at higher density) or lift the
-  background a step for those two shots (rule 7: silhouette + red glow must read).
-- **s168/s169**: `mosquito` at 0.2-0.25 is a 70 px speck on `#b9503a`. Either go to about 0.3 or point at it with a
-  red arrow so the beat reads.
-- **s064/s065**: re-check the cricket costume on night navy after fix 2.
+## Part 2: keyframes: required fixes (route all to the director)
 
-After the illustrator's fixes, re-render `asset-preview` for the five assets and send them back to me for a quick
-re-check; the approved 48 do not need another pass.
+1. **s014, s015, s062: lime-on-lime WordArt. Decision: fix it.** "STOPS WANTING", "GROOMS" and "DRESSED AS A CRICKET"
+   sit at y=950 on the lime ground (`#b8e05a`). At full size the dark outline saves them, but in the contact sheet
+   (which is roughly phone size) they sink into the grass, and the yellow-to-green gradient is the ground colour.
+   Move each `wordart` up onto the cream sky and keep the size:
+   - s014: `x 700, y 250` (left of the EXIT door, clear of Doug's antennae).
+   - s015: `x 960, y 150`. The "A FEW MINUTES" label at (560,240) stays. Check that the two don't touch, and if they
+     do, move the label to `x 480, y 330`.
+   - s062: `x 960, y 150` (above the arrow, which starts at about (1100,110). Shorten the arrow start to (1060,150)
+     if it touches).
+   I have added this as a standing rule in the art bible: no WordArt on green ground or fields.
+2. **s066, s087, s243, s247: the death counter overlaps the moon/sun.** The "DOUG DEATHS: N" box (centred at
+   1480,165) covers half the moon/sun at about (1600-1650, 170-190), so it looks like a pasting mistake on four
+   death beats. Keep the counter where it is (it's the recurring layout) and move the celestial body:
+   - s066 moon: `(1720, 330)`, r 60.
+   - s087 sun: `(1720, 330)`, r 80. The bird silhouette is further left, so it's clear.
+   - s243 and s247 sun: `(1720, 330)`, r 70. Also move the sun in s241/s242/s244/s245/s246 to the same spot, so
+     it doesn't jump between shots of one set.
+   This is now an art bible rule too: the counter zone is reserved.
+3. **s100: the rat hides the "CAT" label.** The whole beat is "infected rats go to the cat corner", but the rat
+   (700,330, scale 0.6) now covers the CAT box, so only a "C" shows. Move the rat to `x 760, y 380` so it sits just
+   below and right of the label (as in s099), and move the heart to `x 880, y 280`. The CAT label must be fully
+   readable.
+4. **s179: the "LATRINE" label covers the raccoon's face.** The label is at (950,740), right over the raccoon's
+   head. Move it above the right half of the latrine box, to `x 1060, y 640` (clear of the head and below the
+   red arrow). Or move the raccoon left to x 700. The raccoon's mask must be visible.
+5. **s178: "MILLIONS" has nothing to count.** The egg sprays (`#fff3c4` at 0.08 and `#c9b27a` at 0.03 on
+   `#f6d9cf`) are practically invisible, so the right half of the frame is empty and the beat doesn't land.
+   Replace them with a dense scatter of the same small cream egg ellipses used in s177 (rx about 14, black 3 px
+   outline). Use about 60-80 of them in a loose cloud centred on (1300,600), r about 330, and let them pop in with
+   `appear` 0.53. Or bump the spray to a darker `#8a7550` at density 0.25 or more. The eggs have to read at a glance.
+6. **s170: empty frame.** It's only "PREVENTED AND CURED" on flat pink, and s171 is another text-only frame straight
+   after it. Give s170 a subject: Doug `hopeful` at about (560,820), scale 0.6, plus the `mosquito` at (1350,700),
+   scale 0.35, under a red X (`appear` 0.4). Keep the WordArt, moved up to y 250.
+
+## Advisories (not blocking; director's call)
+
+- **s148**: there's an unexplained brown line element from (1100,900) to (1180,700) next to dead Doug. It reads as
+  a stray stroke. Remove it, or turn it into something readable.
+- **s034**: Doug appears without the ant costume mid-chapter (s033 and s036 have it). If he is meant to be the
+  researcher here, that's fine. If not, add `ant_costume` for continuity. The plain-Doug shots in s090/s091 (Doug as
+  "people") and s101/s102 are fine as they are.
+- **s099, s100, s241**: the WordArt sits right under the caption bar (it nearly touches). It's legible, but dropping
+  it about 30 px would let it breathe.
+- **s128/s129, s244/s245**: these pairs share a composition. That's acceptable as build-up (the stat card pair and
+  the end-card pair), and I'm not asking for a change.
+
+## Resolved from round 1
+- s216/s218 amoeba glow: now a strong red halo on `#3d0f18`, so it reads.
+- s168/s169 mosquito speck: a red arrow now points at it in both shots, so it reads.
+- s064/s065 cricket costume on night navy: reads after asset fix 2.
+
+After the director applies fixes 1-6, re-render only those shots (`python -m studio keyframes 002-every-parasite
+--shots s014,s015,s062,s066,s087,s100,s170,s178,s179,s241,s242,s243,s244,s245,s246,s247`) and send them to me for a
+quick re-check. The other shots are approved.
+
+---
+
+## History: round 1 asset fixes (all now resolved)
+1. field_cricket: add the big jumping hind leg and lay the wings flat. **Fixed.**
+2. cricket_costume: add inverted-V legs, brown tibias and a rim highlight for night shots. **Fixed.**
+3. raccoon: taper the legs, add a heel bend, use mitt paws. **Fixed.**
+4. blood_flukes: curl into a 200-220 degree C. **Fixed.**
+5. rat_costume: give the forepaws a paw shape and wrap the hood. **Fixed.**
+
+The round 1 approved list (48 assets) stands unchanged. Director notes from round 1 are listed under "Resolved"
+above.
