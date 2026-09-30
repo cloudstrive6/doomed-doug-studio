@@ -88,3 +88,4 @@
 - Open item: no visual-screener report covers the thumbnail or s001 yet (`visual_review.md` says "s001 thumbnail pending"). Packaging must not
   advance until it passes. Minor polish for the designer/screener: the bottom-row labels sit close to the lower edge (the same safe-area note as 001),
   and the Horsehair Worm tile is sparse compared with the others.
+- 2026-09-30 showrunner: script 2 rounds (screener FAIL→PASS), art 3 keyframe rounds (art-director+visual-screener), thumbnail grid (2 screener rounds: margins, stalk-on-ant gore fix applied directly), shorts titled, narration 16:22. Risks: highest gore-risk topic; jewel wasp length (22 mm) unverifiable but no spoken line depends on it; build/ generator scripts are git-ignored.

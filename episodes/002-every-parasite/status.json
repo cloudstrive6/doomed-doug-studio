@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-09-30T12:30:38+00:00",
       "note": "art-director + visual-screener PASS after 3 keyframe rounds"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-09-30T12:50:28+00:00",
+      "note": "all gates passed; narration+pacing done"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
