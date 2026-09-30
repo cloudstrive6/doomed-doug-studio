@@ -285,3 +285,37 @@ Shorts show the 16:9 drawing zoomed 1.25x and centre-cropped (`studio/shorts.py`
   moving it to y 1000 below the map would be cleaner.
 
 No stage was changed.
+
+## Post-render round 2: re-rendered final.mp4 and Shorts, 2026-09-30
+
+Scope: frames extracted from `build/shorts/short02.mp4` (s027, s029), `build/shorts/short03.mp4` (s232-s235),
+`build/shorts/short01.mp4` (s049, s052) and `build/final.mp4` (s027 at 99.5 s, s232-s235 at 930-945 s), plus the 33
+new samples in `build/samples/` (21:40 render).
+
+VERDICT: PASS
+
+### Earlier fixes verified
+- **s027 (short02):** the nest (x 1600, rx 80) sits fully inside the crop, right of the arrow and under the right-hand
+  tree canopy. "HIGH UP" and the red arrow both read. It is also correct in 16:9.
+- **s029 (short02):** Doug in the ant costume at x 1560 is complete, with nothing cut off, and he is clear of the
+  carpenter ant's mandibles.
+- **s049 / s052 (short01):** the pond and the larva ring are entirely inside the frame. Doug in the cricket costume
+  keeps his antennae and legs, and he doesn't touch the worm coil.
+- **s232:** the chart is empty on the first frame and the red line is in by 0.6 s ("The statistics are grim."), in
+  both short03 and final.mp4. The line no longer arrives after the narration.
+- **s233 (short03):** Doug at x 1600 is fully inside the right edge of the crop (cap and legs intact) beside the
+  USA map. "1962-2024" and "167 CASES" arrive on cue.
+- **s235:** "FATALITY RATE" is up from the start of "That's a fatality rate". "97%" lands on "ninety-seven percent"
+  and the warning triangle on "the illness moves fast". The timing matches the narration in both the Short and the
+  main video.
+
+### Samples: pass
+- `qc.json` has no problems. All 33 samples are clean, with no black, frozen or glitched frames. Doug is on-model
+  throughout, the text is legible, deaths are cartoon only and the end card reads "DOUG DEATHS: 18".
+
+### Non-blocking (unchanged, accepted)
+- The short02 title still wraps to leave "Go" alone on the third line (youtube-titler, optional).
+- The s229 opener in short03 is still small (director, optional).
+- s116 "79 COUNTRIES" still sits on the map border. It is readable.
+
+No stage was changed.

@@ -108,3 +108,22 @@
 - **Non-blocking:** at feed size, "Amoeba" sits under the duration badge (accepted). qc.json lists 33 samples but build/samples
   holds 27. That's cosmetic, and the editor should check the sample export next episode.
 - Stage not changed and nothing uploaded, as instructed.
+
+## 2026-09-30: final package re-approval after the 21:40 render (creative director): APPROVED
+- Why re-checked: final.mp4 was rendered twice after my earlier approval (21:28 and 21:40). The working tree also has shotlist edits
+  to s027 (Doug and the ellipse moved 100 px left, which is the shorts crop fix) and s232, s233 and s235 (earlier `appear` times).
+  None of these shots is in the first 60 s, and none changes a line of narration.
+- **Title kept:** "What Dying From Every Parasite Would Feel Like". None of the alternates is clearly stronger. Alt 4 is a weaker
+  wording of the same T1 formula. Alt 1 needs you to know Doug. Alt 2 promises a proximity ladder the video only half delivers.
+  Alt 3 drops the "feel like" payoff.
+- **Thumbnail (build/thumbnail.png, 21:28):** the same approved grid. It reads at 320x180, the stalk stands apart from the ant,
+  nothing is gory, and no label repeats a title word. The frame at 0.5 s of final.mp4 is the same grid.
+- **Description and chapters:** I checked all 11 timestamps against build/timing.json and they match the heading shots
+  (for example s006 Jewel Wasp at 10.62 s and s216 Amoeba at 14:31.79). The intro is 10 s or longer. Sources, the no-medical-advice
+  disclaimer and the AI-use disclosure are present, and paid_promotion is false.
+- **First 60 s:** item 1 is named at 10.6 s and the twist lands at 40.1 s. "Doug did not agree to this" plays at 6.9 s with
+  DOUG DEATHS: 7 on screen. f_001 to f_003 and my own grabs at 7.5 s and 41 s are clean and on-model, and the humour is
+  adult-coded. The egg-to-gravestone timeline stays at diagram level. The runtime is 16:22 (982.4 s), and QC reports 0 problems.
+- The sample-count note from the earlier approval is resolved: qc.json lists 33 samples and 33 are on disk.
+- Follow-up (non-blocking): commit the shotlist edits for s027 and s232 to s235 together with the rebuilt shorts. Stage not
+  changed and nothing uploaded.
