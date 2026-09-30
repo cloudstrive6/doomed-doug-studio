@@ -44,6 +44,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 340
     env:
+      GH_TOKEN: ${{ github.token }}
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
       GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
       YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
@@ -134,6 +135,7 @@ jobs:
         if: ${{ !inputs.skip_upload }}
         run: |
           python -m studio upload "$EP"
+          python -m studio social release "$EP" || python -m studio notify "Could not attach $EP media to a GitHub release (needed for Facebook/Instagram). Log: $RUN_URL"
           python -m studio shorts upload "$EP" || python -m studio notify "Shorts upload failed for $EP (long video is fine). Log: $RUN_URL"
 
       - name: Prune and save narration cache

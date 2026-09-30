@@ -286,6 +286,21 @@ def cmd_shorts(a):
                         ep / "build" / "shorts" / f"{s['id']}_preview.png")
 
 
+def cmd_auth_meta(a):
+    from .meta import auth
+    auth()
+
+
+def cmd_social(a):
+    from . import meta
+    if a.action == "release":
+        for name, url in meta.release_assets(episode_dir(a.episode)).items():
+            print(name, url)
+    elif a.action == "publish-due":
+        for line in meta.publish_due(dry_run=a.dry_run):
+            print(line.encode("ascii", "replace").decode())
+
+
 def cmd_actions_usage(a):
     from .actions_usage import check
     u = check(alert=a.alert)
@@ -321,6 +336,9 @@ def main():
     x = s.add_parser("shorts"); x.add_argument("action", choices=["validate", "render", "upload", "pending", "mark-related"])
     x.add_argument("episode", nargs="?", help="episode id (or the Short's YouTube id for mark-related)")
     x.add_argument("--only"); x.set_defaults(f=cmd_shorts)
+    x = s.add_parser("auth-meta"); x.set_defaults(f=cmd_auth_meta)
+    x = s.add_parser("social"); x.add_argument("action", choices=["release", "publish-due"])
+    x.add_argument("episode", nargs="?"); x.add_argument("--dry-run", action="store_true"); x.set_defaults(f=cmd_social)
     x = s.add_parser("queue"); x.add_argument("--github-output", action="store_true"); x.set_defaults(f=cmd_queue)
     x = s.add_parser("actions-usage"); x.add_argument("--alert", action="store_true"); x.set_defaults(f=cmd_actions_usage)
     a = p.parse_args()

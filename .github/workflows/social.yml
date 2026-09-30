@@ -1,0 +1,41 @@
+name: Cross-post to Facebook + Instagram
+
+# Every 30 min: anything whose YouTube publish time has passed and isn't on Meta yet gets posted
+# (Shorts -> Instagram Reel + Facebook Reel; episodes -> Facebook Page video).
+on:
+  schedule:
+    - cron: "10,40 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: social
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  social:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ github.token }}
+      META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+      META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+      META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q PyYAML tzdata
+      - name: Post what's due
+        run: python -m studio social publish-due
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "doomed-doug-bot"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
+          git add -A episodes && (git commit -m "social: cross-posted" || true) && git pull --rebase -X theirs && git push

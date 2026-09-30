@@ -50,6 +50,12 @@ shorts:                      # vertical Shorts cut from each episode, pointing v
   weekly_publish_times: ["19:00"]     # after the launch: 1 Short a day (12:00 PM NZDT); launch backlog keeps it daily
   playlist: "Doomed Doug Shorts"
 
+social:                      # Facebook + Instagram cross-posting (after the YouTube publish time)
+  facebook_long: true        # full episode as a native Facebook Page video
+  facebook_reels: true       # each Short as a Facebook Reel
+  instagram_reels: true      # each Short as an Instagram Reel
+  hashtags: "#DoomedDoug #deepsea #ocean #science #animals #creepyfacts"
+
 github:
   actions_warn_at: 1500      # minutes/month: warning alert
   actions_public_at: 1900    # minutes/month: automatically switch this repo to Public (free unlimited minutes)
