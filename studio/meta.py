@@ -249,6 +249,19 @@ def publish_due(dry_run: bool = False) -> list[str]:
                     except Exception as e:
                         sm["facebook_error"] = str(e)[:300]
                         notify.send(f"⚠️ Facebook Reel failed for {s['title']}: {str(e)[:300]}")
+            from . import tiktok
+            if cfg.get("tiktok", True) and tiktok.enabled() and not sm.get("tiktok"):
+                if dry_run:
+                    print("[dry] TikTok:", s["title"])
+                else:
+                    try:
+                        tt_caption = (f"{s['title']} {s.get('description', '')}\n\n"
+                                      f"{cfg.get('tiktok_hashtags', '#DoomedDoug #science #deepsea #animals #fyp')}")
+                        sm["tiktok"] = tiktok.post_video(local_file(ep, f"{s['id']}.mp4"), tt_caption)
+                        done.append(f"TikTok: {s['title']} {sm['tiktok'].get('url') or ''}")
+                    except Exception as e:
+                        sm["tiktok_error"] = str(e)[:300]
+                        notify.send(f"⚠️ TikTok post failed for {s['title']}: {str(e)[:300]}")
             sp.write_text(json.dumps(shorts, indent=2, ensure_ascii=False), encoding="utf-8")
     if done:
         notify.send("📣 Posted to Facebook/Instagram:\n" + "\n".join(done))

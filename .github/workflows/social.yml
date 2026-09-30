@@ -1,4 +1,4 @@
-name: Cross-post to Facebook + Instagram
+name: Cross-post to Facebook, Instagram + TikTok
 
 # Every 30 min: anything whose YouTube publish time has passed and isn't on Meta yet gets posted
 # (Shorts -> Instagram Reel + Facebook Reel; episodes -> Facebook Page video).
@@ -23,6 +23,7 @@ jobs:
       META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
       META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
       META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+      POSTFORME_API_KEY: ${{ secrets.POSTFORME_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:

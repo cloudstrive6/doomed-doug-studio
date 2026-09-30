@@ -55,6 +55,9 @@ social:                      # Facebook + Instagram cross-posting (after the You
   facebook_reels: true       # each Short as a Facebook Reel
   instagram_reels: true      # each Short as an Instagram Reel
   hashtags: "#DoomedDoug #deepsea #ocean #science #animals #creepyfacts"
+  tiktok: true               # each Short to TikTok via Post for Me (project "Doomed Doug")
+  tiktok_handle: "doomeddoug"   # safety: only ever post to this account (external id or username)
+  tiktok_hashtags: "#DoomedDoug #science #deepsea #animals #fyp"
 
 github:
   actions_warn_at: 1500      # minutes/month: warning alert
