@@ -9,7 +9,37 @@ Reviewer: art director.
 Checked against: `channel/art_bible.md`, style bible section 7 (Art Director rules 1-9), and the brief's gore/kid-appeal
 watch.
 
-## Verdict: FAIL (assets PASS; 6 keyframe composition fixes, all routed to the director)
+## Round 3 (keyframe re-check, commit 29042fe): FAIL, 2 small composition fixes (director)
+
+I re-checked the 25 re-rendered shots in `build/contact/sheet_01..03`, with full-size checks of s015, s087, s099, s148,
+s170 and s179.
+
+Resolved:
+- Fix 1 (s014, s015, s062): all the WordArt now sits on the cream sky and reads at phone size. In s015, "GROOMS" and
+  "A FEW MINUTES" don't touch (there is a gap of about 15 px).
+- Fix 2 (s066, s243, s247, plus the s241-s246 set): the moon and sun are at (1720,330), clear of the counter, and the
+  sun no longer jumps between shots of the set.
+- Fix 3 (s100): "CAT" is fully readable, and the rat and heart sit below and right of it.
+- Fix 4 (s179): "LATRINE" is above the box, and the raccoon's mask is clear.
+- Fix 5 (s178): the egg cloud reads at a glance, so "MILLIONS" lands.
+- Fix 6 (s170): hopeful Doug and the mosquito under a red X give the frame a subject, and it no longer repeats s171.
+- Advisory s148: the stray stroke is gone, and the glowing trypanosome silhouette reads.
+
+Doug is on-model with his cap visible in every shot, the zone colours are unchanged, and gore watch is clean.
+
+Required fixes (route to the director):
+1. **s087: the death counter now clips the songbird's head.** The sun moved correctly, but the bird silhouette at
+   (1180,260), scale 0.9, has its head and beak under the "DOUG DEATHS: 11" box (about x 1268-1693, y 130-200). This
+   is the same collision as fix 2, and the counter zone is reserved. Move the `songbird` to `x 1200, y 380` and keep
+   its scale and glow, so the head clears the box by about 100 px and the tail stays off the top leaf. Don't move the
+   counter.
+2. **s099, s100: the WordArt now sits on the pen's top edge.** "LOST THEIR FEAR" and "DRAWN TO IT" are at y 170 and
+   their bottoms touch the pen border at y 200, so the outline merges with the 7 px line. Set both `wordart` to
+   `y 135`. That leaves about 20 px of clearance above (under the caption bar) and below (above the pen).
+
+Re-render only `--shots s087,s099,s100`. The other 22 shots in this round are approved.
+
+## Round 2 verdict: FAIL (assets PASS; 6 keyframe composition fixes, all routed to the director)
 
 The episode is close. Style is consistent across all 11 chapters. Doug is on-model in every shot, and his cap is visible
 everywhere, including ghost Doug, the costumes, the lilo, the hammock and the floating cap. Each chapter keeps its own

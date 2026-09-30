@@ -10307,8 +10307,8 @@
      {
       "type": "asset",
       "name": "songbird",
-      "x": 1180,
-      "y": 260,
+      "x": 1200,
+      "y": 380,
       "scale": 0.9,
       "silhouette": true,
       "glow_r": 120
@@ -11511,7 +11511,7 @@
       "type": "wordart",
       "text": "LOST THEIR FEAR",
       "x": 960,
-      "y": 170,
+      "y": 135,
       "size": 64,
       "boil": 0,
       "appear": 0.367
@@ -11619,7 +11619,7 @@
       "type": "wordart",
       "text": "DRAWN TO IT",
       "x": 960,
-      "y": 170,
+      "y": 135,
       "size": 70,
       "boil": 0,
       "appear": 0.7
@@ -15480,6 +15480,26 @@
       "rotate": -90
      },
      {
+      "type": "rect",
+      "x": 595,
+      "y": 668,
+      "w": 510,
+      "h": 44,
+      "color": "#000000",
+      "width": 5,
+      "fill": "#3b6fc6"
+     },
+     {
+      "type": "rect",
+      "x": 595,
+      "y": 668,
+      "w": 44,
+      "h": 44,
+      "color": "#000000",
+      "width": 5,
+      "fill": "#ffffff"
+     },
+     {
       "type": "arrow",
       "from": [
        400,
@@ -16346,6 +16366,26 @@
       "expression": "dead",
       "facing": "right",
       "rotate": -90
+     },
+     {
+      "type": "rect",
+      "x": 595,
+      "y": 668,
+      "w": 510,
+      "h": 44,
+      "color": "#000000",
+      "width": 5,
+      "fill": "#3b6fc6"
+     },
+     {
+      "type": "rect",
+      "x": 595,
+      "y": 668,
+      "w": 44,
+      "h": 44,
+      "color": "#000000",
+      "width": 5,
+      "fill": "#ffffff"
      },
      {
       "type": "asset",

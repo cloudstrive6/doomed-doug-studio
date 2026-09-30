@@ -62,3 +62,43 @@ Everything else passes: pictures match the narration, subjects read in about a s
 uncropped, and drawings are recognisable (wasp, ant, cricket, snail, cat, raccoon, mosquito and tsetse all read at
 contact-sheet size). Re-render s087 (if the polish is taken), s100, s148, s178 and s179, and send the new contact tiles
 back for a quick round 2.
+
+## Round 2: re-rendered keyframes (pre-render), 2026-09-30
+
+Scope: `build/contact/sheet_01..03` (the 25 re-rendered shots: s014, s015, s062, s064-s066, s087, s099, s100, s136,
+s148, s170, s178-s180, s190, s239-s247), with full-size checks of `build/keyframes/s066, s087, s100, s148, s178,
+s179, s180, s190`.
+
+VERDICT: FAIL (two small fixes; everything else from Round 1 is resolved)
+
+### Round 1 required fixes
+1. **s148: partly fixed.** The stray brown line is gone, and Doug now lies dead in the `bed` asset with X eyes on the
+   pillow. The trypanosome silhouette with its red glow reads as "the parasite", and the counter and wordart are
+   clean. **Still wrong:** three thin black limb lines stick out from Doug's neck across the pillow and above the
+   blanket (roughly x 590-775, y 685-705). These are the same "whisker" lines Round 1 flagged as off-model, and they
+   are visible at contact-sheet size. s136 uses the identical bed and Doug setup and shows the same lines.
+2. **s100: fixed.** The "CAT" label is fully visible, and the rat and heart sit just beside it. It reads at once.
+3. **s179: fixed.** The raccoon stands clear on the left, and "LATRINE" sits on the box, away from its face. The arrow
+   to the house door makes "close to homes" obvious.
+4. **s178: fixed.** A clear cloud of outlined eggs now fills the right half under "MILLIONS".
+
+### Round 1 polish: status
+- s066, s243, s247: fixed. The counter no longer touches the moon or sun, and "TAXI" has room.
+- s190: fixed. Doug sits on the sofa arm, and his body reads against the wall.
+- s180: fixed. The hair bar and the egg are now the same height.
+- s136: fixed. The label is clear of the window. See the limb-line note under fix 1.
+- s243-s247: accepted as a coda. The ghost Doug in s246/s247 gives enough change.
+- **s087: not fixed, and now worse.** The sun was moved, but the "DOUG DEATHS: 11" label (1480,165) still sits on the
+  bird silhouette and now covers the top-right of its head and beak.
+
+### Required fixes (Round 2)
+1. **s148 and s136 (director): hide Doug's limb lines.** Pull the blanket up to his chin. After the `doug` element, add
+   an outlined blue rect (fill about `#3b6fc6`, black outline) at x 595-1105, y 668-712, with a white fold strip at its
+   left end, so no stick lines show between the head and the blanket. Or lower Doug about 25 px (y 725) if that puts
+   the limbs under the existing blanket and the head stays on the pillow. Check the result at full size.
+2. **s087 (director): move the counter off the bird.** Move the `DOUG DEATHS: 11` label to x about 1560, y 120, clear
+   of the bird's head (bird bbox roughly x 1045-1310, y 160-350) and the sun (1720,330). Or move the songbird down and
+   left (for example 1120,300).
+
+Policy is still clean in all 25 shots: no gore, cartoon deaths only, and nothing kids-show. Doug has his red cap and
+white head and reads in every shot. Re-render s087, s136 and s148 only, then send the tiles back for a quick round 3.
