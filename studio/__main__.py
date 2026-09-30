@@ -279,7 +279,9 @@ def cmd_shorts(a):
         from .youtube import local
         for s in shorts.upload(ep):
             notify.send(f"🩳 Short scheduled: {s['title']}\nGoes public: {local(s['publish_at'])}\n"
-                        f"Set its Related video to the full episode: https://studio.youtube.com/video/{s['youtube_id']}/edit\n"
+                        f"Set its Related video to the full episode once that is public "
+                        f"({local(json.loads((ep / 'metadata.json').read_text(encoding='utf-8'))['publish_at'])}; "
+                        f"YouTube only lists public videos): https://studio.youtube.com/video/{s['youtube_id']}/edit\n"
                         f"(or ask Claude to do the pending Related-video links in Chrome)",
                         ep / "build" / "shorts" / f"{s['id']}_preview.png")
 
