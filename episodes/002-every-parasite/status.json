@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-09-30T11:56:00+00:00",
       "note": "Director: 247 shots (3,086 words, 11 chapters, Doug 79%), 3 Shorts picked (horsehair worm, zombie ant, amoeba); 53 asset requests; gore-watch items diagram-only; awaiting illustrator + thumbnail.json"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-09-30T12:30:38+00:00",
+      "note": "art-director + visual-screener PASS after 3 keyframe rounds"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

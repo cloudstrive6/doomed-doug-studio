@@ -102,3 +102,33 @@ VERDICT: FAIL (two small fixes; everything else from Round 1 is resolved)
 
 Policy is still clean in all 25 shots: no gore, cartoon deaths only, and nothing kids-show. Doug has his red cap and
 white head and reads in every shot. Re-render s087, s136 and s148 only, then send the tiles back for a quick round 3.
+
+## Round 3: re-rendered keyframes (pre-render), 2026-09-30
+
+Scope: full-size `build/keyframes/s087, s099, s100, s136, s148` (rendered 12:29, after the round 3 shotlist change).
+
+VERDICT: PASS
+
+### Round 2 required fixes
+1. **s148 and s136: fixed.** The new blue blanket strip with its white fold covers Doug up to the chin. At full size and
+   in a 3x crop of the pillow area, no stick-limb lines show between the head and the blanket in either shot. s148 reads
+   at once: dead Doug (X eyes) in bed, the glowing trypanosome silhouette, "DID NOT FORGET", and "DOUG DEATHS: 14",
+   all clear and separate. In s136 the red arrow lands on Doug's face, "BITE, EYES, MOUTH" sits clear of the window, and
+   the warning triangle is clean.
+2. **s087: fixed.** The songbird silhouette now sits lower (about x 1065-1330, y 285-470), and "DOUG DEATHS: 11"
+   (about y 130-200) is fully clear of its head, its beak and the sun. "BILLBOARD", the snail-costume Doug on the plant,
+   the bird and the ghost Doug each have their own space.
+
+### Also checked
+- **s099: pass.** Rat in the CAT corner, a red circle on CAT, the arrow from the centre, "LOST THEIR FEAR" legible, and
+  rat-costume Doug on-model.
+- **s100: pass.** "CAT" is fully visible, the heart sits just beside the rat, and "DRAWN TO IT" is legible.
+
+### Non-blocking polish (optional)
+- **s099 to s100 (director):** Doug in the rat costume drops about 70 px between these consecutive shots (y 780 to 850),
+  so he visibly jumps at the cut. Set both shots to the same y, for example 850.
+- **s136/s148 (director):** The added white fold at x 595-640 sits above and left of the bed asset's own fold (about
+  x 645-685), so the blanket edge looks stepped. This is only visible close up, so it is fine to leave.
+
+Policy is clean in all five shots: no gore, cartoon deaths only, nothing kids-show, and Doug is on-model with his red
+cap and white head. Keyframe screening is complete for this round. No stage was changed.

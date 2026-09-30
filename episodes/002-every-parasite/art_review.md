@@ -9,6 +9,32 @@ Reviewer: art director.
 Checked against: `channel/art_bible.md`, style bible section 7 (Art Director rules 1-9), and the brief's gore/kid-appeal
 watch.
 
+## Round 4 (keyframe re-check, commit 06f661c): PASS
+
+I checked s087, s099, s100, s136 and s148 at full size in `build/keyframes/`, with zoomed crops of the bird/counter
+area and the bed.
+
+- **s087: PASS.** The songbird is now at (1200,380). Its head is at about y 290 and its red glow tops out at about
+  y 270, so both clear the counter box (bottom at y 200) by 70 px or more. The tail clears the top leaf by about
+  35 px, and the sun is untouched. The counter did not move.
+- **s099: PASS.** "LOST THEIR FEAR" is at y 135. It clears the caption bar by about 20 px and the pen's top edge by
+  about 40 px, and the outline no longer merges with the border. The CAT circle, rat and arrow are unchanged.
+- **s100: PASS.** "DRAWN TO IT" has the same clearance as s099. "CAT" is fully readable, and the rat and heart
+  sit beside it.
+- **s136: PASS.** The new blanket strip covers everything from the neck to the old blanket. No stick-limb "whisker"
+  lines show, and the head, cap and sleepy eyes sit on the pillow. The label and warning triangle are clear of the
+  window.
+- **s148: PASS.** It has the same bed fix: no limb lines, X eyes on the pillow, and the cap is visible. The counter,
+  "DID NOT FORGET" and the glowing trypanosome don't collide.
+
+Advisory (not blocking): in s136/s148 the pulled-up blanket reads as a two-layer blanket with a small step, and there
+is a thin white wedge under the head. It reads as "tucked in", so no change is needed. If the `bed` asset is ever
+revised, the illustrator could bake a chin-high blanket into it.
+
+Doug is on-model with his red cap in all five shots. The zone colours match the art bible, text sits inside the safe
+area, and gore watch is clean. All keyframe fixes from rounds 2-3 are resolved, so from the art side
+**keyframes are approved for the whole episode.**
+
 ## Round 3 (keyframe re-check, commit 29042fe): FAIL, 2 small composition fixes (director)
 
 I re-checked the 25 re-rendered shots in `build/contact/sheet_01..03`, with full-size checks of s015, s087, s099, s148,
