@@ -178,3 +178,36 @@ VERDICT: FAIL (one layout fix; everything else passes)
   head (about x 640, y 95) would sell "zombie" in one glance.
 
 No stage was changed.
+
+## Thumbnail round 2: fixed `thumbnail.json` and s001, 2026-09-30
+
+Scope: I re-rendered `build/thumbnail.png`, `build/thumbnail_small.png` and `build/keyframes/s001.png` from the
+committed `thumbnail.json` (commit 8503278) and checked them against the round 1 fix and brief section 8.
+
+VERDICT: FAIL (one policy fix in the Zombie Ant Fungus tile; everything else passes)
+
+### Round 1 fix: done
+- **Margins:** the tiles are now `h: 160` on rows y 20 / 244 / 468. The first dark pixel is at y 17 (the tile frame)
+  and the last is at y 680, a 40 px bottom margin. Nothing crosses a tile frame. s001 matches at 1920x1080.
+- **Feed size (320x180):** all nine labels read, and the red boss tile still pulls the eye. Doug in the roach costume
+  is on-model. The labels share no word with the title or the alternate titles.
+
+### Required fix
+1. **Thumbnail and s001, Zombie Ant Fungus tile (graphic designer): the stalk must not grow out of the ant.** The
+   `fungus_stalk` (x 655, y 121, scale 0.37, rotate -22) now rises out of the ant's head, with a pale socket ring where
+   it goes in. That is something leaving or growing out of a body, which brief section 8 ("Never draw ... anything
+   leaving, entering or growing inside a body") rules out. It also contradicts the episode's own gore-watch decision
+   (decisions.md, shotlist: "The fungus stalk stands on the leaf, not on an ant"). The thumbnail is the most-seen image,
+   so it cannot be looser than the video. I retract my optional round 1 note that suggested this move; it was wrong.
+   - **Change:** put the stalk beside the ant, upright and larger: `x: 775.0, y: 170.0, scale: 0.5`, and remove
+     `rotate`. The anchor is bottom-centre, so the base sits on the tile floor to the right of the ant's mandibles.
+     Leave the ant unchanged.
+   - **Checked:** I test-rendered this change (`/tmp/thumb_r2.json`). The stalk stands clear of the ant with a gap of
+     about 80 px. At 320x180 it reads as a stalk with a spore capsule, not a twig, and it is bigger than before. It does
+     not touch the tile frame or the label, and nothing else moves.
+   - **After the change:** re-render the thumbnail and s001 (`keyframes --shots s001`). No other tile changes.
+
+### Non-blocking
+- The duration-badge note from round 1 still applies ("Amoeba" sits under the badge at feed size). It is acceptable.
+
+No stage was changed.

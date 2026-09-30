@@ -1,231 +1,230 @@
 {
- "_note": "Archetype A 3x3 labelled grid (style bible 2.A). Labels = chapter names, no title words. Tiny Doug in the roach costume in the Jewel Wasp tile; Brain-Eating Amoeba is the boss tile (bottom-right, red). Also the opening image.",
- "background": "#ffffff",
- "size": [
-  1280,
-  720
- ],
- "elements": [
-  {
-   "type": "tile",
-   "x": 28,
-   "y": 20,
-   "w": 400,
-   "h": 160,
-   "fill": "#8be04e",
-   "radius": 24,
-   "frame_width": 6,
-   "label": "Jewel Wasp",
-   "label_size": 42,
-   "elements": [
+  "_note": "Archetype A 3x3 labelled grid (style bible 2.A). Labels = chapter names, no title words. Tiny Doug in the roach costume in the Jewel Wasp tile; Brain-Eating Amoeba is the boss tile (bottom-right, red). Also the opening image.",
+  "background": "#ffffff",
+  "size": [
+    1280,
+    720
+  ],
+  "elements": [
     {
-     "type": "asset",
-     "name": "jewel_wasp",
-     "x": 145.3,
-     "y": 118.0,
-     "scale": 0.423
+      "type": "tile",
+      "x": 28,
+      "y": 20,
+      "w": 400,
+      "h": 160,
+      "fill": "#8be04e",
+      "radius": 24,
+      "frame_width": 6,
+      "label": "Jewel Wasp",
+      "label_size": 42,
+      "elements": [
+        {
+          "type": "asset",
+          "name": "jewel_wasp",
+          "x": 145.3,
+          "y": 118.0,
+          "scale": 0.423
+        },
+        {
+          "type": "doug",
+          "x": 344.6,
+          "y": 138.9,
+          "scale": 0.25,
+          "pose": "stand",
+          "expression": "shock",
+          "facing": "right"
+        },
+        {
+          "type": "asset",
+          "name": "cockroach_costume",
+          "x": 344.6,
+          "y": 138.9,
+          "scale": 0.25
+        }
+      ]
     },
     {
-     "type": "doug",
-     "x": 344.6,
-     "y": 138.9,
-     "scale": 0.25,
-     "pose": "stand",
-     "expression": "shock",
-     "facing": "right"
+      "type": "tile",
+      "x": 440,
+      "y": 20,
+      "w": 400,
+      "h": 160,
+      "fill": "#ffe24a",
+      "radius": 24,
+      "frame_width": 6,
+      "label": "Zombie Ant Fungus",
+      "label_size": 42,
+      "elements": [
+        {
+          "type": "asset",
+          "name": "carpenter_ant",
+          "x": 600.0,
+          "y": 137.0,
+          "scale": 0.47
+        },
+        {
+          "type": "asset",
+          "name": "fungus_stalk",
+          "x": 775.0,
+          "y": 170.0,
+          "scale": 0.5
+        }
+      ]
     },
     {
-     "type": "asset",
-     "name": "cockroach_costume",
-     "x": 344.6,
-     "y": 138.9,
-     "scale": 0.25
-    }
-   ]
-  },
-  {
-   "type": "tile",
-   "x": 440,
-   "y": 20,
-   "w": 400,
-   "h": 160,
-   "fill": "#ffe24a",
-   "radius": 24,
-   "frame_width": 6,
-   "label": "Zombie Ant Fungus",
-   "label_size": 42,
-   "elements": [
-    {
-     "type": "asset",
-     "name": "carpenter_ant",
-     "x": 600.0,
-     "y": 137.0,
-     "scale": 0.47
+      "type": "tile",
+      "x": 852,
+      "y": 20,
+      "w": 400,
+      "h": 160,
+      "fill": "#4fd6f0",
+      "radius": 24,
+      "frame_width": 6,
+      "label": "Horsehair Worm",
+      "label_size": 42,
+      "elements": [
+        {
+          "type": "asset",
+          "name": "horsehair_worm",
+          "x": 1052.0,
+          "y": 100.7,
+          "scale": 0.595
+        }
+      ]
     },
     {
-     "type": "asset",
-     "name": "fungus_stalk",
-     "x": 655.0,
-     "y": 121.0,
-     "scale": 0.37,
-     "rotate": -22
-    }
-   ]
-  },
-  {
-   "type": "tile",
-   "x": 852,
-   "y": 20,
-   "w": 400,
-   "h": 160,
-   "fill": "#4fd6f0",
-   "radius": 24,
-   "frame_width": 6,
-   "label": "Horsehair Worm",
-   "label_size": 42,
-   "elements": [
-    {
-     "type": "asset",
-     "name": "horsehair_worm",
-     "x": 1052.0,
-     "y": 100.7,
-     "scale": 0.595
-    }
-   ]
-  },
-  {
-   "type": "tile",
-   "x": 28,
-   "y": 244,
-   "w": 400,
-   "h": 160,
-   "fill": "#ff6ec7",
-   "radius": 24,
-   "frame_width": 6,
-   "label": "Broodsac",
-   "label_size": 42,
-   "elements": [
-    {
-     "type": "asset",
-     "name": "broodsac_snail",
-     "x": 213.9,
-     "y": 396.2,
-     "scale": 0.643
-    }
-   ]
-  },
-  {
-   "type": "tile",
-   "x": 440,
-   "y": 244,
-   "w": 400,
-   "h": 160,
-   "fill": "#4fd6f0",
-   "radius": 24,
-   "frame_width": 6,
-   "label": "Toxoplasma",
-   "label_size": 42,
-   "elements": [
-    {
-     "type": "asset",
-     "name": "cat",
-     "x": 560.4,
-     "y": 396.0,
-     "scale": 0.361
+      "type": "tile",
+      "x": 28,
+      "y": 244,
+      "w": 400,
+      "h": 160,
+      "fill": "#ff6ec7",
+      "radius": 24,
+      "frame_width": 6,
+      "label": "Broodsac",
+      "label_size": 42,
+      "elements": [
+        {
+          "type": "asset",
+          "name": "broodsac_snail",
+          "x": 213.9,
+          "y": 396.2,
+          "scale": 0.643
+        }
+      ]
     },
     {
-     "type": "asset",
-     "name": "rat",
-     "x": 729.6,
-     "y": 383.8,
-     "scale": 0.386,
-     "flip": true
-    }
-   ]
-  },
-  {
-   "type": "tile",
-   "x": 852,
-   "y": 244,
-   "w": 400,
-   "h": 160,
-   "fill": "#ffe24a",
-   "radius": 24,
-   "frame_width": 6,
-   "label": "Kissing Bug",
-   "label_size": 42,
-   "elements": [
+      "type": "tile",
+      "x": 440,
+      "y": 244,
+      "w": 400,
+      "h": 160,
+      "fill": "#4fd6f0",
+      "radius": 24,
+      "frame_width": 6,
+      "label": "Toxoplasma",
+      "label_size": 42,
+      "elements": [
+        {
+          "type": "asset",
+          "name": "cat",
+          "x": 560.4,
+          "y": 396.0,
+          "scale": 0.361
+        },
+        {
+          "type": "asset",
+          "name": "rat",
+          "x": 729.6,
+          "y": 383.8,
+          "scale": 0.386,
+          "flip": true
+        }
+      ]
+    },
     {
-     "type": "asset",
-     "name": "kissing_bug",
-     "x": 1026.0,
-     "y": 323.6,
-     "scale": 0.656
-    }
-   ]
-  },
-  {
-   "type": "tile",
-   "x": 28,
-   "y": 468,
-   "w": 400,
-   "h": 160,
-   "fill": "#8be04e",
-   "radius": 24,
-   "frame_width": 6,
-   "label": "Sleeping Sickness",
-   "label_size": 42,
-   "elements": [
+      "type": "tile",
+      "x": 852,
+      "y": 244,
+      "w": 400,
+      "h": 160,
+      "fill": "#ffe24a",
+      "radius": 24,
+      "frame_width": 6,
+      "label": "Kissing Bug",
+      "label_size": 42,
+      "elements": [
+        {
+          "type": "asset",
+          "name": "kissing_bug",
+          "x": 1026.0,
+          "y": 323.6,
+          "scale": 0.656
+        }
+      ]
+    },
     {
-     "type": "asset",
-     "name": "tsetse_fly",
-     "x": 222.0,
-     "y": 533.8,
-     "scale": 0.812
-    }
-   ]
-  },
-  {
-   "type": "tile",
-   "x": 440,
-   "y": 468,
-   "w": 400,
-   "h": 160,
-   "fill": "#ff6ec7",
-   "radius": 24,
-   "frame_width": 6,
-   "label": "Malaria",
-   "label_size": 42,
-   "elements": [
+      "type": "tile",
+      "x": 28,
+      "y": 468,
+      "w": 400,
+      "h": 160,
+      "fill": "#8be04e",
+      "radius": 24,
+      "frame_width": 6,
+      "label": "Sleeping Sickness",
+      "label_size": 42,
+      "elements": [
+        {
+          "type": "asset",
+          "name": "tsetse_fly",
+          "x": 222.0,
+          "y": 533.8,
+          "scale": 0.812
+        }
+      ]
+    },
     {
-     "type": "asset",
-     "name": "mosquito",
-     "x": 642.6,
-     "y": 558.9,
-     "scale": 0.571
-    }
-   ]
-  },
-  {
-   "type": "tile",
-   "x": 852,
-   "y": 468,
-   "w": 400,
-   "h": 160,
-   "fill": "#ff4a3a",
-   "radius": 24,
-   "frame_width": 6,
-   "label": "Brain-Eating Amoeba",
-   "label_size": 42,
-   "elements": [
+      "type": "tile",
+      "x": 440,
+      "y": 468,
+      "w": 400,
+      "h": 160,
+      "fill": "#ff6ec7",
+      "radius": 24,
+      "frame_width": 6,
+      "label": "Malaria",
+      "label_size": 42,
+      "elements": [
+        {
+          "type": "asset",
+          "name": "mosquito",
+          "x": 642.6,
+          "y": 558.9,
+          "scale": 0.571
+        }
+      ]
+    },
     {
-     "type": "asset",
-     "name": "naegleria_amoeba",
-     "x": 1045.2,
-     "y": 548.8,
-     "scale": 0.563
+      "type": "tile",
+      "x": 852,
+      "y": 468,
+      "w": 400,
+      "h": 160,
+      "fill": "#ff4a3a",
+      "radius": 24,
+      "frame_width": 6,
+      "label": "Brain-Eating Amoeba",
+      "label_size": 42,
+      "elements": [
+        {
+          "type": "asset",
+          "name": "naegleria_amoeba",
+          "x": 1045.2,
+          "y": 548.8,
+          "scale": 0.563
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }
