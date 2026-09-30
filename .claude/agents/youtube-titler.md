@@ -28,7 +28,8 @@ Description template (style bible 7 → Editor rule 8, in this order):
 1. 1–2 lines restating the premise in new words with the main search phrase (shows in search)
 2. A comment prompt ("Where should we send Doug next?") and a one-line subscribe line
 3. `— TIMESTAMPS —` then `{{CHAPTERS}}` (the build step fills it from the item headings)
-4. `— SOURCES —` then every URL from `facts.md`
+4. `— KEY SOURCES —` then the **5–6 most important** URLs from `facts.md` (authoritative ones: NOAA, WHOI, MBARI,
+   museums, journals; one per main claim), never the whole list: a wall of links reads as spam and buries the chapters
 5. `— DISCLAIMER —` one line: educational entertainment, cartoon depictions
 6. `— AI USE —` honest disclosure: narration is an AI text-to-speech voice; scripts are researched and written
    with AI assistance and fact-checked; all drawings are original

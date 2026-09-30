@@ -110,6 +110,9 @@ def validate_metadata(ep_dir: Path) -> list[str]:
         problems.append("description under 200 chars")
     if not (ep_dir / "thumbnail.json").exists():
         problems.append("thumbnail.json missing")
+    links = m.get("description", "").count("http")
+    if links > 8:
+        problems.append(f"description has {links} links; keep only the 5-6 key sources (full list stays in facts.md)")
     if sum(len(x) for x in m.get("tags", [])) > 480:
         problems.append("tags exceed 500 characters total")
     return problems
