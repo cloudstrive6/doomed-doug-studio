@@ -24,12 +24,20 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 ## Running gags (use 2–3 per episode, don't overdo)
 - "Doug did not agree to this." (episode opener or first danger)
 - **Doug death counter**: an on-screen label "DOUG DEATHS: N" that ticks up at each death. Cumulative across the
-  channel. Current total: **7** (after 001; update after every episode). The next episode's counter starts at 7.
+  channel. Current total: **18** (7 after 001, plus 11 in 002, script approved; update after every episode). The next episode's
+  counter starts at 18.
 - The red cap floating alone after a death.
 - Doug trying to befriend the thing that will kill him.
 - Narrator: "Doug has died. Again." / "Doug is fine." (Doug is not fine.)
 - Doug survives the boss and the narrator is quietly disappointed (established in 001).
-- The cap always survives, even when Doug does not (001: stolen by the Bobbit Worm and recovered; the only thing to float up from the Black Swallower).
+- The cap always survives, even when Doug does not (001: stolen by the Bobbit Worm and recovered; the only thing to float up from the Black Swallower; 002: floats alone in the hotel pool and the amoeba lake, briefly worn by Buddy the raccoon and taken back).
+- **The costume gag** (from 002): when a killer only targets animals, Doug is zipped into a costume of the host
+  (002: cockroach, ant, cricket, snail, rat) and plays it completely straight. The red cap always sits on top of the
+  costume. The costume comes off at the zone shift to human hosts. On death the costume goes flat (X eyes, cartoon only).
+  Played deadpan and adult-coded: no mascot voices, no cute framing. The narration states once that the animal-only
+  parasite can't infect people ("which is exactly why Doug is dressed as a cricket"). Library precedent:
+  `assets/library/squid_costume.json`.
+- Named animal "friends" who get Doug killed: **Buddy** the raccoon (002, raccoon roundworm). Reuse sparingly.
 
 ## Series / playlists (config `youtube.playlists`)
 - `ocean`: Doug vs. the Ocean (layers, trenches, creatures by depth)
@@ -42,3 +50,4 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 | # | Title | Published | Deaths added | Notes |
 |---|---|---|---|---|
 | 001 | How Doug Would Die in Every Layer of the Ocean | pending (QC passed, awaiting scheduled upload) | 7 (total 7) | Pilot. Survived: Bobbit Worm (cap stolen), Giant Squid, Barreleye, Vampire Squid (glowing goo), Challenger Deep (found a plastic bag). Deaths by zone: sunlight 2, twilight 1, midnight 2, abyss 1, hadal 1. |
+| 002 | What Dying From Every Parasite Would Feel Like (working) | in production (script approved 2026-09-30) | 11 planned (total 18) | Counter 7 to 18, one death per item, no survivals. Act 1 in costume (jewel wasp, zombie ant fungus, horsehair worm, broodsac, toxoplasma), act 2 "Human hosts." (blood flukes, kissing bug, malaria, raccoon roundworm, sleeping sickness, brain-eating amoeba). Introduced the costume gag and Buddy the raccoon. |

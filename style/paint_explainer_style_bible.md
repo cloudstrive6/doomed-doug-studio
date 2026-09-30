@@ -271,7 +271,7 @@ Kicker 8-20, Doug beat 15-30 (Doug's reaction, speech bubble, or cartoon death, 
    (35 words, first item by about 0:07.)
 
 2. **Parasites**
-   > "Every parasite in this video has done something unforgivable to a real animal. Today, each one gets to try it on
+   > "Every parasite on this list has done something unforgivable to a real animal. Today, each one gets to try it on
    > Doug. Doug did not agree to this. Jewel wasp."
 
    (30 words, first item by about 0:09.)
