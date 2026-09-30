@@ -14,7 +14,12 @@
       "stage": "script_approved",
       "at": "2026-09-30T11:33:58+00:00",
       "note": "CD GO: screener PASS draft 2; CD applied advisories A1-A5 as trims (3,086 words, ~15:50); style bible hook 2 fixed; series bible costume gag + death total 18"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-09-30T11:56:00+00:00",
+      "note": "Director: 247 shots (3,086 words, 11 chapters, Doug 79%), 3 Shorts picked (horsehair worm, zombie ant, amoeba); 53 asset requests; gore-watch items diagram-only; awaiting illustrator + thumbnail.json"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }

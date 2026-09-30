@@ -51,3 +51,17 @@
 - Stage set to `script_approved`. Next: youtube-titler (metadata, title per brief section 1) and director (shotlist) in
   parallel. Watch items for the director and art director: brief section 8 gore list (jewel wasp larva, horsehair worm exit,
   Baylisascaris, Naegleria): diagram-level only, nothing drawn entering, leaving or growing inside a body.
+
+## 2026-09-30: shotlist (director)
+- 247 shots, all 3,086 spoken words in order, 11 chapters, Doug in 79% of shots, no static stretch over ~4.8 s at 197 wpm.
+- Costume gag: Doug wears a costume asset over the rig (cockroach, ant, cricket, snail, rat) in almost every act 1 shot,
+  so he stands in for the host. "Human hosts." splits the frame cream/dark red with the rat costume on the floor.
+- Gore watch: every "inside the host" beat is a dotted path on `body_outline` / `head_outline` or on a creature drawn
+  as a silhouette. The wasp larva is an inline textbook bean in an egg-to-gravestone timeline, never on the roach. The
+  horsehair worm is only ever shown alone in water. The raccoon roundworm itself is never drawn (eggs are plain ovals).
+  The amoeba is a textbook cell. The fungus stalk stands on the leaf, not on an ant.
+- Death tolls (flukes, Chagas, malaria, raccoon review) are on plain stats frames with no Doug and no gag; each Doug death
+  comes on the line before the toll.
+- Shorts: Horsehair Worm (s046-s056, ends "There's a catch."), Zombie Ant Fungus (s026-s036), Brain-Eating Amoeba
+  (s229-s237, "The deadliest thing on this whole list is one cell", ends on rarity). Titles are left for the titler.
+- 53 new drawings requested in asset_requests.md. Layout checked with placeholder boxes; rerun keyframes once they exist.
