@@ -89,3 +89,22 @@
   advance until it passes. Minor polish for the designer/screener: the bottom-row labels sit close to the lower edge (the same safe-area note as 001),
   and the Horsehair Worm tile is sparse compared with the others.
 - 2026-09-30 showrunner: script 2 rounds (screener FAIL→PASS), art 3 keyframe rounds (art-director+visual-screener), thumbnail grid (2 screener rounds: margins, stalk-on-ant gore fix applied directly), shorts titled, narration 16:22. Risks: highest gore-risk topic; jewel wasp length (22 mm) unverifiable but no spoken line depends on it; build/ generator scripts are git-ignored.
+
+## 2026-09-30: final package approval (creative director): APPROVED
+- **Title kept:** "What Dying From Every Parasite Would Feel Like". None of the alternates is clearly stronger. This is the proven
+  T1 engine (quack doc, 5.54M), and "every" plus "feel like" sets up the payoff the video gives: 11 items, 11 cartoon deaths, one
+  sensation line each. Alt 4 is a weaker version of the same formula. Alts 1 to 3 either need you to know Doug or make a claim
+  the video doesn't fully back ("gets deadlier the closer it gets to you").
+- **Thumbnail:** the visual-screener passed it in thumbnail round 3 (visual_review.md), which closes my open item from the thumbnail
+  decision. The fungus stalk now stands beside the ant, and nothing grows out of a body. At 320x180 all nine labels read and the red
+  amoeba boss tile pulls the eye. No label repeats a title word. It matches s001 and the opening frame of final.mp4.
+- **Description and chapters:** the 11 chapters match build/chapters.txt and the script order. Intro runs 0:00 to 0:10, which meets
+  YouTube's 10 s minimum. Jewel Wasp is spoken at 10.6 s. The first line of the description repeats the title's promise and the
+  sourced 97% figure (CDC). It includes key sources, a no-medical-advice disclaimer and an AI-use disclosure. paid_promotion is false.
+- **First 60 s:** the item 1 name is at spoken word 33 (10.6 s), and the twist ("It just stops wanting to leave") lands at 40 s,
+  inside the 45 s limit. "Doug did not agree to this" runs at 6.9 s. The frames checked (s001, f_001 to f_003) are clean: the egg
+  to gravestone timeline is diagram-level, and there's no larva on the roach and no gore. The humour is adult-coded. QC has 0 problems,
+  and the runtime is 16:22.
+- **Non-blocking:** at feed size, "Amoeba" sits under the duration badge (accepted). qc.json lists 33 samples but build/samples
+  holds 27. That's cosmetic, and the editor should check the sample export next episode.
+- Stage not changed and nothing uploaded, as instructed.

@@ -211,3 +211,77 @@ VERDICT: FAIL (one policy fix in the Zombie Ant Fungus tile; everything else pas
 - The duration-badge note from round 1 still applies ("Amoeba" sits under the badge at feed size). It is acceptable.
 
 No stage was changed.
+
+## Thumbnail round 3: fungus stalk position, 2026-09-30
+
+Scope: I checked the already-rendered `build/thumbnail.png`, `build/thumbnail_small.png`, `build/keyframes/s001.png`,
+`build/samples/f_001.png`..`f_003.png`, and one frame at 0.5 s from `build/final.mp4` (the samples start at 30 s, so
+none of them show the opening image). Nothing was re-rendered and no stage was changed.
+
+VERDICT: PASS
+
+- **Round 2 fix: done.** `thumbnail.json` has `fungus_stalk` at x 775, y 170, scale 0.5, with no rotate. In the
+  thumbnail, s001 and the opening frame of final.mp4, the stalk stands upright on the tile floor at the right edge,
+  well clear of the ant. Nothing leaves, enters or grows out of a body. The ant, the tile frame and the label are
+  untouched, and the other eight tiles are unchanged from round 2.
+- **Feed size (320x180):** the stalk reads as a stalk with a spore capsule. All nine labels are legible, the red
+  Brain-Eating Amoeba tile still pulls the eye, and Doug in the roach costume is visible in the Jewel Wasp tile.
+  The thumbnail fits the title "What Dying From Every Parasite Would Feel Like" and does not mislead.
+- **Samples f_001..f_003:** no black frames or glitches. The text is legible, Doug is on-model, and the tombstone
+  gag is cartoon only.
+- **Non-blocking (unchanged):** "Amoeba" sits under the duration badge at feed size. This is acceptable.
+
+## Post-render: final.mp4, thumbnail, Shorts, 2026-09-30
+
+Scope: 33 sample frames from `build/final.mp4` (every 30 s from 0:15, 982 s total), `build/qc.json`,
+`build/thumbnail.png` and `thumbnail_small.png` against `metadata.json`, and the three Shorts (previews plus 6 frames
+each extracted from `build/shorts/short0*.mp4`).
+
+VERDICT: FAIL (the main video and thumbnail pass; three Shorts shots have Doug or a key drawing cut off at the side)
+
+### Main video: pass
+- `qc.json` reports no problems. There are no black, blank, frozen or glitched frames in the samples. Every frame
+  matches its narration, including the s109 "HUMAN HOSTS" split screen (intentional, not a broken wipe) and s212
+  "I feel totally fi", which is the scripted speech-bubble gag.
+- Doug is on-model everywhere (red cap, white head). All five costumes read. Deaths are cartoon only, with no gore.
+  The top-bar chapter labels match the description timestamps. The closing card reads "DOUG DEATHS: 18".
+
+### Thumbnail: pass
+- The round 2 fix is in: the `fungus_stalk` stands on its own at x 775 and does not touch the ant. It reads at
+  320x180. All nine labels are legible, the red Brain-Eating Amoeba boss tile pulls the eye, and Doug in the roach
+  costume is visible. It fits the title "What Dying From Every Parasite Would Feel Like" and does not mislead.
+
+### Shorts: required fixes
+Shorts show the 16:9 drawing zoomed 1.25x and centre-cropped (`studio/shorts.py`), so only **x 192..1728** of the
+1920 frame survives. Three shots put key elements outside that range:
+1. **s052 (short01, and the frame used for its preview), director:** Doug in the cricket costume at x 350 loses his
+   antennae and back legs at the left edge. **Change:** move the `doug` and the `cricket_costume` to x 470 (both
+   elements, same y and scale). This leaves a clear gap to the `horsehair_worm` coil, which starts at about x 600.
+2. **s049 (short01), director:** the water `ellipse` (x 420, rx 300) spans x 120..720, so the pond is sliced off at
+   the left edge. **Change:** set x 520 and rx 280 (x 240..800). Move the larva dot and its red ring by the same
+   +100 px. The leaf at x 1100 is unaffected.
+3. **s029 (short02), director:** Doug in the ant costume at x 1650 sits across the right crop line, and his costume
+   legs are cut off. **Change:** move the `doug` and the `ant_costume` to x 1560 and scale 0.42. Check the keyframe
+   to confirm he doesn't touch the carpenter ant's mandibles, which end at about x 1480.
+- **After the changes:** run `python -m studio keyframes 002-every-parasite --shots s029,s049,s052`, then
+  `python -m studio shorts render 002-every-parasite`. These shots look the same in 16:9, so `final.mp4` does not
+  need a full re-render for picture reasons. It is the editor's call whether to re-render it so it matches the
+  shotlist again.
+
+### Shorts: otherwise fine
+- Hook titles are legible, subtitles are legible (2 lines max, white with a black outline) and the @DoomedDoug tag
+  is readable. All three end cards (blue, WordArt, Doug pointing) have the red arrow pointing straight **down**
+  inside the safe area. End-card text: "WHAT HAPPENS NEXT? TAP BELOW", "THE WORST PART? TAP BELOW", "ALL 18 DEATHS:
+  TAP BELOW". Durations are 49.3, 56.4 and 34.6 s.
+
+### Non-blocking
+- **short02 title (youtube-titler):** "This Fungus Makes Ants Bite Down and Never Let Go" wraps to three lines and
+  leaves "Go" alone on the last line. A title of 42 characters or fewer would fit in two lines, for example "This
+  Fungus Makes Ants Bite and Never Let Go".
+- **short03 opener s229 (director):** the "whole list" line-up (wasp 0.35, cat 0.3, raccoon 0.4, mosquito 0.35,
+  Doug 0.25) is thumbnail-sized in the Short, so frame 1 of the Short is mostly empty pink. Consider starting short03
+  on the next shot, or accept it.
+- **s116 (director):** the "79 COUNTRIES" WordArt sits on the bottom border of the world map. It is readable, but
+  moving it to y 1000 below the map would be cleaner.
+
+No stage was changed.

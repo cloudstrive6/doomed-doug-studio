@@ -3427,9 +3427,9 @@
      },
      {
       "type": "doug",
-      "x": 1650,
+      "x": 1560,
       "y": 780,
-      "scale": 0.45,
+      "scale": 0.42,
       "pose": "stand",
       "expression": "gritted",
       "facing": "right",
@@ -3438,9 +3438,9 @@
      {
       "type": "asset",
       "name": "ant_costume",
-      "x": 1650,
+      "x": 1560,
       "y": 780,
-      "scale": 0.45,
+      "scale": 0.42,
       "appear": 0.117
      }
     ]
@@ -6235,9 +6235,9 @@
      },
      {
       "type": "ellipse",
-      "x": 420,
+      "x": 520,
       "y": 700,
-      "rx": 300,
+      "rx": 280,
       "ry": 120,
       "color": "#000000",
       "width": 5,
@@ -6245,7 +6245,7 @@
      },
      {
       "type": "circle",
-      "x": 420,
+      "x": 520,
       "y": 690,
       "r": 10,
       "color": "#000000",
@@ -6254,7 +6254,7 @@
      },
      {
       "type": "circle",
-      "x": 420,
+      "x": 520,
       "y": 690,
       "r": 50,
       "color": "#e0201b",
@@ -6264,7 +6264,7 @@
      {
       "type": "label",
       "text": "LARVA",
-      "x": 420,
+      "x": 520,
       "y": 520,
       "size": 44,
       "bold": true,
@@ -6573,7 +6573,7 @@
      },
      {
       "type": "doug",
-      "x": 350,
+      "x": 470,
       "y": 780,
       "scale": 0.5,
       "pose": "stand",
@@ -6583,7 +6583,7 @@
      {
       "type": "asset",
       "name": "cricket_costume",
-      "x": 350,
+      "x": 470,
       "y": 780,
       "scale": 0.5
      }
@@ -13331,7 +13331,7 @@
       "type": "wordart",
       "text": "79 COUNTRIES",
       "x": 960,
-      "y": 930,
+      "y": 1000,
       "size": 90,
       "boil": 0,
       "appear": 0.686
