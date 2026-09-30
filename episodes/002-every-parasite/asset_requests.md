@@ -55,6 +55,7 @@ I offset the costume, you don't need to).
   zipper. Must read on night navy (`#1b2a4a`) too: add a lighter rim highlight.
 - **Shots:** s005, s046, s048, s050-s058, s060, s062-s065 (s064/s065 sitting on a sun lounger).
 - **Done:** `assets/library/cricket_costume.json`, preview `assets/previews/002-every-parasite-costumes.png` (on Doug, upright + rotated -90 on the zone colours: `assets/previews/002-every-parasite-costumes-on-doug.png`).
+- **Fixed (art review item 2):** each side is now the inverted-V jumping leg (striped femur up/out from the hips to a knee at about (±168,-104), spiny `#5a4632` tibia with light ticks down to the ground at y≈+145); 5 px `#7a6446` rim highlight down both suit edges, across the shoulders and along the (slightly lighter) wing cape. Anchor = hips, unchanged; head/cap area untouched. Preview `assets/previews/002-every-parasite-assets-fixes.png`, on Doug (stand / sit on `#1b2a4a` / rotated -90 / small on navy) `assets/previews/002-every-parasite-costumes-fixes-on-doug.png`.
 
 ### snail_costume (A)
 - **What:** amber-snail costume with the parasite's eye stalks (item 4, Green-Banded Broodsac).
@@ -73,6 +74,7 @@ I offset the costume, you don't need to).
 - **Shots:** s005, s088, s089, s093-s095, s097, s099, s100, s103-s108, s109 and s111 (empty costume lying on the
   floor, rotated -90).
 - **Done:** `assets/library/rat_costume.json`, preview `assets/previews/002-every-parasite-costumes.png` (on Doug, upright + rotated -90 on the zone colours: `assets/previews/002-every-parasite-costumes-on-doug.png`).
+- **Fixed (art review item 5):** pink ovals removed; short fur sleeves with cuffs at the suit sides end in pink paw mittens with 3 toe ticks at about (±112,-26). Hood thickened into a fur ring wrapping both sides of the face and under the chin (inner radius 75 around the head, so the face stays clear; stops under the brim and behind the cap). Anchor unchanged. Preview `assets/previews/002-every-parasite-assets-fixes.png`, on Doug `assets/previews/002-every-parasite-costumes-fixes-on-doug.png`.
 
 ### doug_sunglasses (C)
 - **What:** black cartoon sunglasses for Doug at the lake (item 6 stage direction).
@@ -158,6 +160,7 @@ I offset the costume, you don't need to).
 - **Look:** glossy black-brown, round head, very long antennae, wings folded flat on the back, **big jumping hind
   legs**, two cerci at the tail. ~300 x 150. **Anchor:** centre, facing right. **Shots:** s049, s050, s053, s059.
 - **Done:** `assets/library/field_cricket.json`, preview `assets/previews/002-every-parasite-assets-a1.png`.
+- **Fixed (art review item 1):** big near-side jumping hind leg: fat herringbone-striped femur from the thorax up and back, knee well above the back line, spiny tibia folding down and back to the ground (inverted V); old leaf-like flap removed so the wings lie flat. Anchor unchanged. SIL re-checked at scale 2.0. Preview `assets/previews/002-every-parasite-assets-fixes.png`, checks (white / navy / SIL / small) `assets/previews/002-every-parasite-assets-fixes-checks.png`.
 
 ### matchbox_charger (C)
 - **What:** the scale analogy: 30 cm of phone-charger cable coiled inside a matchbox.
@@ -231,6 +234,7 @@ I offset the costume, you don't need to).
   (`#7a4a5a`) female lying inside it. Smooth, simple, two small suckers at the male's front end. ~420 x 180.
 - **Anchor:** centre. **Shots:** s110, s115, s118-s121.
 - **Done:** `assets/library/blood_flukes.json`, preview `assets/previews/002-every-parasite-assets-illustrator2.png`.
+- **Fixed (art review item 4):** male curled into a ~215 degree C opening right, tips turning inward; thinner darker female in the groove along his inner side, her ends showing past both his tips; oral + ventral suckers at the front (top) tip; fills pale, same 15 surface dots (no more added). Now ~250 x 315 (at 2.0 in s119 it spans y≈245..875). Centre anchor. Preview `assets/previews/002-every-parasite-assets-fixes.png`, checks `assets/previews/002-every-parasite-assets-fixes-checks.png`.
 
 ### freshwater_snail (C)
 - **What:** freshwater snail host (ramshorn / *Biomphalaria* type).
@@ -327,6 +331,7 @@ I offset the costume, you don't need to).
   at about (+150,-200)** (Buddy wears Doug's cap there in s191). ~420 x 260. **Anchor:** bottom-centre (feet), facing
   right. **Shots:** s173-s176, s178, s179, s181, s189-s192, s229.
 - **Done:** `assets/library/raccoon.json`, preview `assets/previews/002-every-parasite-assets-mosquito-to-toddler.png`.
+- **Fixed (art review item 3):** legs redrawn: tapered, near hind leg drawn as a haunch over the body with a forward knee and backward heel, near foreleg with shoulder/elbow; far legs darker behind; small dark rounded paw 'hands' with finger ticks. Body, mask, tail and head elements untouched (head top still about (+150,-200); cap check in the s191 layout is in the checks sheet). Preview `assets/previews/002-every-parasite-assets-fixes.png`, checks `assets/previews/002-every-parasite-assets-fixes-checks.png`.
 
 ### house (B)
 - **What:** small suburban house (raccoons live "right next to houses").
@@ -380,6 +385,14 @@ I offset the costume, you don't need to).
   about (-60,-180) at scale 1). ~260 tall. **Anchor:** bottom-centre (feet), facing **left** toward the sofa.
 - **Shots:** s018.
 - **Done:** `assets/library/toddler.json`, preview `assets/previews/002-every-parasite-assets-mosquito-to-toddler.png`.
+
+### lilo (B, late add: placed in the shotlist but never requested)
+- **What:** inflatable air mattress (lilo) floating flat on the lake, 3/4 side view (Doug's "relaxing paddle").
+- **Look:** red `#c8322b` / off-white transverse tube stripes, raised white pillow at the left (head) end, glossy
+  highlight, valve nub, dark water shadow + white ripples. ~510 wide, **top surface y=-82..-22**, waterline y~+22.
+  **Anchor:** centre. **Shots:** s126 (sitting Doug hips at local y=-60), s127 (lying Doug).
+- **Done:** `assets/library/lilo.json`, preview `assets/previews/002-every-parasite-assets-lilo.png`; checked in
+  s126/s127 keyframes.
 
 ## Reused from the library (no request)
 `scientist`, `sofa`, `phone`, `gravestone`, `doug_cap`, `world_map`, `thermometer`, `thumbs_up_hand`, `tv_remote`,
