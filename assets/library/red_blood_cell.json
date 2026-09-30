@@ -1,0 +1,100 @@
+{
+ "name": "red_blood_cell",
+ "description": "Red blood cell, diagram style: red biconcave disc in 3/4 view with a darker centre dimple, rim showing its thickness, simple highlight. ~240x170, anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "cell",
+  "blood",
+  "diagram",
+  "microscope",
+  "malaria",
+  "002"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 16,
+   "rx": 120,
+   "ry": 76,
+   "width": 5,
+   "color": "#000000",
+   "fill": "#8f1a16"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 120,
+   "ry": 76,
+   "width": 5,
+   "color": "#000000",
+   "fill": "#d9322b"
+  },
+  {
+   "type": "ellipse",
+   "x": 4,
+   "y": 6,
+   "rx": 68,
+   "ry": 38,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#a8201c"
+  },
+  {
+   "type": "spray",
+   "x": 4,
+   "y": 10,
+   "r": 30,
+   "color": "#7a1512",
+   "density": 0.35
+  },
+  {
+   "type": "ellipse",
+   "x": 4,
+   "y": 6,
+   "rx": 68,
+   "ry": 38,
+   "start": 200,
+   "end": 340,
+   "width": 4,
+   "color": "#8a1a16"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 100,
+   "ry": 60,
+   "start": 195,
+   "end": 265,
+   "width": 6,
+   "color": "#ff8a80"
+  },
+  {
+   "type": "ellipse",
+   "x": -70,
+   "y": -38,
+   "rx": 9,
+   "ry": 6,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffd0c8",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 120,
+   "ry": 76,
+   "start": 0,
+   "end": 360,
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}

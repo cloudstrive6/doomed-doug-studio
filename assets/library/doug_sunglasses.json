@@ -1,0 +1,14 @@
+{
+ "name": "doug_sunglasses",
+ "description": "Black cartoon sunglasses for Doug: two dark lenses over his eyes at (6,-220) and (38,-220) with white glints, bridge, one arm back to x=-70. Anchor = Doug's hips (standing rig).",
+ "anchor": [0, 0],
+ "tags": ["doug", "prop", "accessory"],
+ "elements": [
+  {"type": "line", "points": [[-11, -224], [-70, -230]], "width": 5},
+  {"type": "poly", "points": [[-11, -234], [23, -234], [22, -216], [14, -206], [-2, -206], [-10, -216]], "fill": "#111111", "width": 4},
+  {"type": "line", "points": [[-4, -228], [3, -228]], "width": 3, "color": "#ffffff"},
+  {"type": "poly", "points": [[21, -234], [55, -234], [54, -216], [46, -206], [30, -206], [22, -216]], "fill": "#111111", "width": 4},
+  {"type": "line", "points": [[28, -228], [35, -228]], "width": 3, "color": "#ffffff"},
+  {"type": "line", "points": [[22, -230], [22, -228]], "width": 4}
+ ]
+}

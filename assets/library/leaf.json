@@ -1,0 +1,26 @@
+{
+ "name": "leaf",
+ "description": "Big rainforest leaf from below, horizontal: mid-green edge, lighter underside, thick pale main vein, side veins, pointed tip right, short stem left. ~600x225.",
+ "anchor": [0, 0],
+ "tags": ["plant", "leaf", "jungle", "prop"],
+ "elements": [
+  {"type": "line", "points": [[-300, 6], [-236, 0]], "width": 9},
+  {"type": "line", "points": [[-300, 6], [-236, 0]], "width": 5, "color": "#6b8a2a"},
+  {"type": "poly", "points": [[-240, 0], [-190, -80], [-60, -112], [80, -100], [200, -58], [300, 0], [200, 62], [80, 104], [-60, 112], [-190, 84]], "fill": "#3f9b3a", "width": 5, "smooth": true},
+  {"type": "poly", "points": [[-200, 0], [-150, -60], [-40, -86], [80, -76], [190, -40], [270, 0], [190, 44], [80, 80], [-40, 88], [-150, 64]], "fill": "#6cc15a", "width": 0, "smooth": true},
+  {"type": "spray", "x": -120, "y": -70, "r": 40, "color": "#3f9b3a", "density": 0.2},
+  {"type": "spray", "x": 140, "y": 60, "r": 40, "color": "#3f9b3a", "density": 0.2},
+  {"type": "curve", "points": [[-150, 0], [-110, -80.0], [-60.0, -100.0]], "width": 3, "color": "#b6df8c"},
+  {"type": "curve", "points": [[-150, 0], [-110, 80.0], [-60.0, 100.0]], "width": 3, "color": "#b6df8c"},
+  {"type": "curve", "points": [[-70, 0], [-30, -72.4], [14.3, -92.4]], "width": 3, "color": "#b6df8c"},
+  {"type": "curve", "points": [[-70, 0], [-30, 72.4], [14.3, 92.4]], "width": 3, "color": "#b6df8c"},
+  {"type": "curve", "points": [[10, 0], [50, -64.8], [88.6, -84.8]], "width": 3, "color": "#b6df8c"},
+  {"type": "curve", "points": [[10, 0], [50, 64.8], [88.6, 84.8]], "width": 3, "color": "#b6df8c"},
+  {"type": "curve", "points": [[90, 0], [130, -57.1], [162.9, -77.1]], "width": 3, "color": "#b6df8c"},
+  {"type": "curve", "points": [[90, 0], [130, 57.1], [162.9, 77.1]], "width": 3, "color": "#b6df8c"},
+  {"type": "curve", "points": [[170, 0], [210, -49.5], [237.1, -69.5]], "width": 3, "color": "#b6df8c"},
+  {"type": "curve", "points": [[170, 0], [210, 49.5], [237.1, 69.5]], "width": 3, "color": "#b6df8c"},
+  {"type": "curve", "points": [[-240, 0], [0, -6], [200, -2], [292, 0]], "width": 9, "color": "#dff2b8"},
+  {"type": "curve", "points": [[-240, 0], [0, -6], [200, -2], [292, 0]], "width": 2, "color": "#8ab86a"}
+ ]
+}

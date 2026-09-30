@@ -1,0 +1,44 @@
+{
+  "name": "amber_snail",
+  "description": "Healthy amber snail (Succinea), side view facing right: elongated translucent honey-amber shell with a small spire pointing up-back, pale yellow-grey body, two short thin eye tentacles. Bottom-centre anchor (foot on ground). ~270x170.",
+  "anchor": [
+    0,
+    0
+  ],
+  "tags": [
+    "snail",
+    "parasite host",
+    "garden",
+    "leucochloridium"
+  ],
+  "elements": [
+  {"type": "poly", "points": [[-120, -2], [-110, -24], [-40, -34], [60, -38], [110, -52], [138, -48], [150, -30], [140, -12], [120, -4]], "width": 5, "color": "#000000", "fill": "#cfc7a4", "smooth": true},
+  {"type": "spray", "x": -40, "y": -16, "r": 18, "color": "#a79f7e", "density": 0.4},
+  {"type": "spray", "x": 40, "y": -18, "r": 18, "color": "#a79f7e", "density": 0.4},
+  {"type": "curve", "points": [[-110, -6], [0, -8], [120, -6]], "width": 2, "color": "#a79f7e"},
+  {"type": "line", "points": [[-80, -26], [-72, -14]], "width": 2, "color": "#a79f7e"},
+  {"type": "line", "points": [[-40, -26], [-32, -14]], "width": 2, "color": "#a79f7e"},
+  {"type": "line", "points": [[0, -26], [8, -14]], "width": 2, "color": "#a79f7e"},
+  {"type": "line", "points": [[40, -26], [48, -14]], "width": 2, "color": "#a79f7e"},
+  {"type": "line", "points": [[80, -26], [88, -14]], "width": 2, "color": "#a79f7e"},
+  {"type": "line", "points": [[146, -36], [166, -30]], "width": 9, "color": "#000000"},
+  {"type": "line", "points": [[146, -36], [166, -30]], "width": 5, "color": "#cfc7a4"},
+  {"type": "poly", "points": [[-128, -150], [-96, -152], [-40, -146], [20, -130], [70, -104], [98, -72], [96, -46], [60, -32], [0, -32], [-50, -44], [-90, -80], [-114, -118]], "width": 5, "color": "#000000", "fill": "#d9a441", "smooth": true},
+  {"type": "spray", "x": 40, "y": -62, "r": 26, "color": "#b8802a", "density": 0.4},
+  {"type": "spray", "x": -10, "y": -60, "r": 22, "color": "#c9b58a", "density": 0.4},
+  {"type": "poly", "points": [[-60, -128], [0, -122], [50, -100], [10, -104], [-40, -114]], "width": 0, "color": "#000000", "fill": "#f2cf7a", "smooth": true, "outline": false},
+  {"type": "ellipse", "x": -20, "y": -118, "rx": 12, "ry": 5, "width": 0, "color": "#000000", "fill": "#fff3c8", "outline": false},
+  {"type": "curve", "points": [[-100, -151], [-92, -130], [-104, -106]], "width": 3, "color": "#8a5a1a"},
+  {"type": "curve", "points": [[-64, -149], [-50, -110], [-72, -66]], "width": 3, "color": "#8a5a1a"},
+  {"type": "curve", "points": [[-10, -136], [0, -86], [-14, -36]], "width": 2, "color": "#c08a30"},
+  {"type": "curve", "points": [[30, -118], [40, -86], [26, -36]], "width": 2, "color": "#c08a30"},
+  {"type": "curve", "points": [[64, -102.7], [74, -86], [60, -36]], "width": 2, "color": "#c08a30"},
+  {"type": "poly", "points": [[-128, -150], [-96, -152], [-40, -146], [20, -130], [70, -104], [98, -72], [96, -46], [60, -32], [0, -32], [-50, -44], [-90, -80], [-114, -118]], "width": 5, "color": "#000000", "smooth": true},
+  {"type": "curve", "points": [[130, -46], [142, -78], [148, -96]], "width": 11, "color": "#000000"},
+  {"type": "curve", "points": [[130, -46], [142, -78], [148, -96]], "width": 5, "color": "#cfc7a4"},
+  {"type": "curve", "points": [[120, -48], [126, -80], [126, -98]], "width": 11, "color": "#000000"},
+  {"type": "curve", "points": [[120, -48], [126, -80], [126, -98]], "width": 5, "color": "#b8b08e"},
+  {"type": "ellipse", "x": 148, "y": -98, "rx": 6, "ry": 6, "width": 2, "color": "#000000", "fill": "#1a1a1a"},
+  {"type": "ellipse", "x": 126, "y": -100, "rx": 6, "ry": 6, "width": 2, "color": "#000000", "fill": "#1a1a1a"}
+  ]
+}

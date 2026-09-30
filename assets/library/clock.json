@@ -1,0 +1,26 @@
+{
+ "name": "clock",
+ "description": "Round analogue wall clock at 12 o'clock: red rim, white face, black 12/3/6/9, both hands straight up. ~220 diameter. Anchor = centre.",
+ "anchor": [0, 0],
+ "tags": ["prop", "time", "clock"],
+ "elements": [
+  {"type": "ellipse", "x": 0, "y": 0, "rx": 110, "ry": 110, "fill": "#e0201b", "width": 6},
+  {"type": "ellipse", "x": 0, "y": 0, "rx": 90, "ry": 90, "fill": "#ffffff", "width": 4},
+  {"type": "spray", "x": -30, "y": -30, "r": 50, "color": "#f2f2f2", "density": 0.2},
+  {"type": "text", "text": "12", "x": 0, "y": -64, "size": 30, "color": "#000000", "bold": true, "boil": 0},
+  {"type": "text", "text": "3", "x": 66, "y": 0, "size": 30, "color": "#000000", "bold": true, "boil": 0},
+  {"type": "text", "text": "6", "x": 0, "y": 66, "size": 30, "color": "#000000", "bold": true, "boil": 0},
+  {"type": "text", "text": "9", "x": -66, "y": 0, "size": 30, "color": "#000000", "bold": true, "boil": 0},
+  {"type": "line", "points": [[69.3, 40.0], [74.5, 43.0]], "width": 3},
+  {"type": "line", "points": [[40.0, 69.3], [43.0, 74.5]], "width": 3},
+  {"type": "line", "points": [[-40.0, 69.3], [-43.0, 74.5]], "width": 3},
+  {"type": "line", "points": [[-69.3, 40.0], [-74.5, 43.0]], "width": 3},
+  {"type": "line", "points": [[-69.3, -40.0], [-74.5, -43.0]], "width": 3},
+  {"type": "line", "points": [[-40.0, -69.3], [-43.0, -74.5]], "width": 3},
+  {"type": "line", "points": [[40.0, -69.3], [43.0, -74.5]], "width": 3},
+  {"type": "line", "points": [[69.3, -40.0], [74.5, -43.0]], "width": 3},
+  {"type": "line", "points": [[0, 0], [0, -30]], "width": 12},
+  {"type": "line", "points": [[0, 0], [0, -44]], "width": 7},
+  {"type": "ellipse", "x": 0, "y": 0, "rx": 8, "ry": 8, "fill": "#000000", "width": 2}
+ ]
+}

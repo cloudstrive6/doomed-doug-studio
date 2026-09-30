@@ -1,0 +1,13 @@
+{
+ "name": "horsehair_worm",
+ "description": "Free-living adult horsehair (Gordian) worm on its own: one long thin dark-brown worm in loose loops with one clear crossing knot, blunt ends, no face or segments. Diagram-simple (gore watch). ~420x250.",
+ "anchor": [0, 0],
+ "tags": ["worm", "parasite", "water", "diagram"],
+ "elements": [
+  {"type": "curve", "points": [[-200, 90], [-176, 20], [-120, -60], [-40, -110], [40, -96], [70, -40], [40, 16], [-20, 20], [-44, -20], [-20, -60]], "width": 12},
+  {"type": "curve", "points": [[-200, 90], [-176, 20], [-120, -60], [-40, -110], [40, -96], [70, -40], [40, 16], [-20, 20], [-44, -20], [-20, -60]], "width": 7, "color": "#5a3e26"},
+  {"type": "curve", "points": [[-44, -20], [-20, -60], [40, -70], [120, -40], [170, 20], [160, 90], [100, 120], [40, 96], [60, 50], [130, 40], [200, 80]], "width": 12},
+  {"type": "curve", "points": [[-44, -20], [-20, -60], [40, -70], [120, -40], [170, 20], [160, 90], [100, 120], [40, 96], [60, 50], [130, 40], [200, 80]], "width": 7, "color": "#5a3e26"},
+  {"type": "curve", "points": [[-160, 0], [-110, -64], [-40, -104]], "width": 2, "color": "#8a6a48"}
+ ]
+}

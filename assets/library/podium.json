@@ -1,0 +1,274 @@
+{
+ "name": "podium",
+ "description": "Wooden lectern, front view: brown panelled body with a gold seal, lighter slanted top slab, black microphone on a gooseneck. Short so Doug shows chest-up behind it. Anchor bottom-centre (floor). ~300x275.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "furniture",
+  "speech",
+  "lectern",
+  "002"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     70,
+     -222
+    ],
+    [
+     78,
+     -245
+    ],
+    [
+     60,
+     -262
+    ],
+    [
+     32,
+     -262
+    ]
+   ],
+   "width": 5,
+   "color": "#333333"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     -272
+    ],
+    [
+     36,
+     -268
+    ],
+    [
+     38,
+     -254
+    ],
+    [
+     12,
+     -252
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#2a2a2a"
+  },
+  {
+   "type": "ellipse",
+   "x": 10,
+   "y": -262,
+   "rx": 10,
+   "ry": 13,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#555555"
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -22,
+   "w": 300,
+   "h": 22,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#6a3a1a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -118,
+     -22
+    ],
+    [
+     118,
+     -22
+    ],
+    [
+     132,
+     -205
+    ],
+    [
+     -132,
+     -205
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#9a5a2e"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -96,
+     -40
+    ],
+    [
+     96,
+     -40
+    ],
+    [
+     106,
+     -185
+    ],
+    [
+     -106,
+     -185
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#8a4e26"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -70,
+     -50
+    ],
+    [
+     -64,
+     -110
+    ],
+    [
+     -68,
+     -175
+    ]
+   ],
+   "width": 2,
+   "color": "#6a3a1a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -20,
+     -50
+    ],
+    [
+     -14,
+     -110
+    ],
+    [
+     -18,
+     -175
+    ]
+   ],
+   "width": 2,
+   "color": "#6a3a1a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     30,
+     -50
+    ],
+    [
+     36,
+     -110
+    ],
+    [
+     32,
+     -175
+    ]
+   ],
+   "width": 2,
+   "color": "#6a3a1a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     75,
+     -50
+    ],
+    [
+     81,
+     -110
+    ],
+    [
+     77,
+     -175
+    ]
+   ],
+   "width": 2,
+   "color": "#6a3a1a"
+  },
+  {
+   "type": "spray",
+   "x": -80,
+   "y": -60,
+   "r": 26,
+   "color": "#6a3a1a",
+   "density": 0.25
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -128,
+   "rx": 28,
+   "ry": 28,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#e8c07a"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -128,
+   "rx": 16,
+   "ry": 16,
+   "width": 2,
+   "color": "#9a6a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -205
+    ],
+    [
+     150,
+     -205
+    ],
+    [
+     140,
+     -232
+    ],
+    [
+     -140,
+     -232
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#c47a45"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -130,
+     -222
+    ],
+    [
+     130,
+     -222
+    ]
+   ],
+   "width": 2,
+   "color": "#e8a070"
+  }
+ ]
+}

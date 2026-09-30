@@ -1,0 +1,42 @@
+{
+  "name": "sun_lounger",
+  "description": "White slatted plastic hotel sun lounger, side view: back rest raised at the left, seat surface at y=-50, short legs. Bottom-centre anchor (legs on the ground). ~390x160.",
+  "anchor": [
+    0,
+    0
+  ],
+  "tags": [
+    "prop",
+    "furniture",
+    "hotel",
+    "pool"
+  ],
+  "elements": [
+  {"type": "line", "points": [[-60, -40], [-60, -2]], "width": 16, "color": "#000000"},
+  {"type": "line", "points": [[-60, -40], [-60, -2]], "width": 10, "color": "#b0b6bb"},
+  {"type": "line", "points": [[160, -40], [160, -2]], "width": 16, "color": "#000000"},
+  {"type": "line", "points": [[160, -40], [160, -2]], "width": 10, "color": "#b0b6bb"},
+  {"type": "ellipse", "x": -60, "y": -4, "rx": 10, "ry": 6, "width": 3, "color": "#000000", "fill": "#555555"},
+  {"type": "ellipse", "x": 160, "y": -4, "rx": 10, "ry": 6, "width": 3, "color": "#000000", "fill": "#555555"},
+  {"type": "poly", "points": [[-90, -54], [192, -54], [196, -34], [-90, -32]], "width": 5, "color": "#000000", "fill": "#f6f6f4"},
+  {"type": "line", "points": [[-70, -50], [-70, -40]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[-48, -50], [-48, -40]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[-26, -50], [-26, -40]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[-4, -50], [-4, -40]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[18, -50], [18, -40]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[40, -50], [40, -40]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[62, -50], [62, -40]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[84, -50], [84, -40]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[106, -50], [106, -40]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[128, -50], [128, -40]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[150, -50], [150, -40]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[172, -50], [172, -40]], "width": 3, "color": "#c9ced3"},
+  {"type": "poly", "points": [[-92, -32], [-200, -140], [-186, -158], [-76, -54]], "width": 5, "color": "#000000", "fill": "#f6f6f4"},
+  {"type": "line", "points": [[-102.1, -56.1], [-95.1, -63.1]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[-117.3, -71.3], [-110.3, -78.3]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[-132.4, -86.4], [-125.4, -93.4]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[-147.6, -101.6], [-140.6, -108.6]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[-162.7, -116.7], [-155.7, -123.7]], "width": 3, "color": "#c9ced3"},
+  {"type": "line", "points": [[-177.9, -131.9], [-170.9, -138.9]], "width": 3, "color": "#c9ced3"}
+  ]
+}

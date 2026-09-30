@@ -1,0 +1,47 @@
+{
+  "name": "library_book",
+  "description": "Overdue library book: dusty maroon hardback standing, 3/4 view with the spine on the left carrying a white 'LIB' sticker, gold lines, a DATE DUE card sticking out of the top, dust and a cobweb. Centre anchor. ~300x390.",
+  "anchor": [
+    0,
+    0
+  ],
+  "tags": [
+    "prop",
+    "book",
+    "library",
+    "overdue"
+  ],
+  "elements": [
+  {"type": "poly", "points": [[8, -210], [98, -206], [96, -140], [6, -140]], "width": 4, "color": "#000000", "fill": "#f3e2a6"},
+  {"type": "text", "text": "DATE DUE", "x": 52, "y": -194, "size": 14, "color": "#5a4a2a", "boil": 0, "bold": true},
+  {"type": "line", "points": [[16, -180], [90, -179]], "width": 2, "color": "#b8a26a"},
+  {"type": "line", "points": [[16, -166], [90, -165]], "width": 2, "color": "#b8a26a"},
+  {"type": "line", "points": [[16, -152], [90, -151]], "width": 2, "color": "#b8a26a"},
+  {"type": "text", "text": "1987", "x": 40, "y": -173, "size": 12, "color": "#7a2ab0", "boil": 0, "bold": true},
+  {"type": "text", "text": "1994", "x": 64, "y": -159, "size": 12, "color": "#c0201b", "boil": 0, "bold": true},
+  {"type": "poly", "points": [[-100, -160], [140, -160], [148, -150], [-96, -150]], "width": 3, "color": "#000000", "fill": "#efe6cf"},
+  {"type": "poly", "points": [[-148, -146], [-100, -160], [-100, 180], [-148, 168]], "width": 5, "color": "#000000", "fill": "#4a2020"},
+  {"type": "rect", "x": -100, "y": -160, "w": 248, "h": 340, "width": 5, "color": "#000000", "fill": "#7a3434"},
+  {"type": "rect", "x": -66, "y": -110, "w": 180, "h": 70, "width": 3, "color": "#000000", "fill": "#8e4a44"},
+  {"type": "line", "points": [[-50, -86], [98, -86]], "width": 3, "color": "#c9a24a"},
+  {"type": "line", "points": [[-50, -66], [70, -66]], "width": 3, "color": "#c9a24a"},
+  {"type": "rect", "x": -80, "y": -140, "w": 208, "h": 300, "width": 2, "color": "#c9a24a"},
+  {"type": "line", "points": [[-146, -108], [-102, -120]], "width": 3, "color": "#c9a24a"},
+  {"type": "line", "points": [[-146, -84], [-102, -96]], "width": 3, "color": "#c9a24a"},
+  {"type": "line", "points": [[-146, 142], [-102, 130]], "width": 3, "color": "#c9a24a"},
+  {"type": "poly", "points": [[-144, 60], [-104, 52], [-104, 100], [-144, 108]], "width": 3, "color": "#000000", "fill": "#ffffff"},
+  {"type": "text", "text": "LIB", "x": -124, "y": 80, "size": 16, "color": "#000000", "boil": 0, "bold": true},
+  {"type": "spray", "x": 20, "y": -20, "r": 80, "color": "#b9ada0", "density": 0.2},
+  {"type": "spray", "x": 70, "y": 100, "r": 60, "color": "#b9ada0", "density": 0.2},
+  {"type": "spray", "x": -40, "y": 120, "r": 50, "color": "#b9ada0", "density": 0.2},
+  {"type": "spray", "x": -124, "y": -20, "r": 18, "color": "#b9ada0", "density": 0.2},
+  {"type": "spray", "x": 100, "y": -120, "r": 30, "color": "#b9ada0", "density": 0.2},
+  {"type": "line", "points": [[146, -158], [146, -98]], "width": 1, "color": "#e8e8e8"},
+  {"type": "line", "points": [[146, -158], [116, -106]], "width": 1, "color": "#e8e8e8"},
+  {"type": "line", "points": [[146, -158], [94, -128]], "width": 1, "color": "#e8e8e8"},
+  {"type": "line", "points": [[146, -158], [86, -158]], "width": 1, "color": "#e8e8e8"},
+  {"type": "ellipse", "x": 146, "y": -158, "rx": 22, "ry": 22, "start": 90, "end": 180, "width": 1, "color": "#e8e8e8"},
+  {"type": "ellipse", "x": 146, "y": -158, "rx": 40, "ry": 40, "start": 90, "end": 180, "width": 1, "color": "#e8e8e8"},
+  {"type": "ellipse", "x": 146, "y": -158, "rx": 56, "ry": 56, "start": 90, "end": 180, "width": 1, "color": "#e8e8e8"}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+ "name": "fungus_stalk",
+ "description": "Ophiocordyceps fruiting stalk on its own (no ant body): thin wiry tan stalk with a swollen orange-brown capsule near the top. ~40x260. Anchor = bottom-centre (base).",
+ "anchor": [0, 0],
+ "tags": ["fungus", "parasite", "jungle", "prop"],
+ "elements": [
+  {"type": "poly", "points": [[-18, 2], [-10, -10], [10, -10], [18, 2]], "fill": "#7a5230", "width": 3, "smooth": true},
+  {"type": "poly", "points": [[6.0, -0.4], [1.4, -59.9], [6.8, -119.5], [12.2, -169.7], [11.6, -220.2], [7.0, -258.3], [1.0, -257.7], [4.4, -219.8], [3.8, -170.3], [-2.8, -120.5], [-9.4, -60.1], [-6.0, 0.4]], "fill": "#a0703a", "width": 4, "smooth": true},
+  {"type": "curve", "points": [[3, -10], [-1, -60], [5, -120], [10, -168]], "width": 2, "color": "#d2a36a"},
+  {"type": "poly", "points": [[25.0, -194.9], [23.0, -184.3], [18.9, -175.5], [13.3, -169.8], [7.0, -168.1], [1.1, -170.6], [-3.7, -177.0], [-6.5, -186.3], [-7.0, -197.1], [-5.0, -207.7], [-0.9, -216.5], [4.7, -222.2], [11.0, -223.9], [16.9, -221.4], [21.7, -215.0], [24.5, -205.7]], "fill": "#b8652a", "width": 5, "smooth": true},
+  {"type": "spray", "x": 4, "y": -206, "r": 9, "color": "#e3a060", "density": 0.5},
+  {"type": "ellipse", "x": 14, "y": -212, "rx": 2, "ry": 2, "fill": "#6a3410", "width": 0},
+  {"type": "ellipse", "x": 14, "y": -198, "rx": 2, "ry": 2, "fill": "#6a3410", "width": 0},
+  {"type": "ellipse", "x": 14, "y": -184, "rx": 2, "ry": 2, "fill": "#6a3410", "width": 0}
+ ]
+}

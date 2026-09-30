@@ -1,0 +1,49 @@
+{
+  "name": "matchbox_charger",
+  "description": "Scale analogy prop: open matchbox (red/yellow label on the sleeve, striker strip) with the drawer pulled out to the right, stuffed with white phone-charger cable coils; a USB plug hangs over the front edge. Centre anchor. ~390x270.",
+  "anchor": [
+    0,
+    0
+  ],
+  "tags": [
+    "prop",
+    "scale",
+    "matchbox",
+    "cable",
+    "charger",
+    "parasite"
+  ],
+  "elements": [
+  {"type": "poly", "points": [[-190, -40], [-20, -40], [10, -80], [-160, -80]], "width": 5, "color": "#000000", "fill": "#f2d24a"},
+  {"type": "poly", "points": [[-180, -44], [-40, -44], [-14, -76], [-154, -76]], "width": 3, "color": "#000000", "fill": "#d9261c"},
+  {"type": "poly", "points": [[-130, -50], [-105, -72], [-110, -60], [-88, -68], [-114, -46], [-109, -57]], "width": 2, "color": "#000000", "fill": "#ffe24a"},
+  {"type": "text", "text": "SAFETY", "x": -62, "y": -60, "size": 18, "color": "#ffe24a", "boil": 0, "bold": true},
+  {"type": "poly", "points": [[-190, -40], [-20, -40], [-20, 20], [-190, 20]], "width": 5, "color": "#000000", "fill": "#c98b3c"},
+  {"type": "poly", "points": [[-182, -30], [-28, -30], [-28, 10], [-182, 10]], "width": 2, "color": "#000000", "fill": "#6b3f1f"},
+  {"type": "spray", "x": -105, "y": -10, "r": 38, "color": "#3a2410", "density": 0.5},
+  {"type": "spray", "x": -150, "y": -10, "r": 28, "color": "#3a2410", "density": 0.5},
+  {"type": "poly", "points": [[-20, -40], [160, -40], [190, -80], [10, -80]], "width": 4, "color": "#000000", "fill": "#8a5a2a"},
+  {"type": "poly", "points": [[160, -40], [190, -80], [190, -20], [160, 20]], "width": 4, "color": "#000000", "fill": "#b8792f"},
+  {"type": "ellipse", "x": 60, "y": -68, "rx": 46, "ry": 16, "width": 13, "color": "#000000"},
+  {"type": "ellipse", "x": 60, "y": -68, "rx": 46, "ry": 16, "width": 7, "color": "#ffffff"},
+  {"type": "ellipse", "x": 100, "y": -64, "rx": 46, "ry": 16, "width": 13, "color": "#000000"},
+  {"type": "ellipse", "x": 100, "y": -64, "rx": 46, "ry": 16, "width": 7, "color": "#ffffff"},
+  {"type": "ellipse", "x": 140, "y": -66, "rx": 46, "ry": 16, "width": 13, "color": "#000000"},
+  {"type": "ellipse", "x": 140, "y": -66, "rx": 46, "ry": 16, "width": 7, "color": "#ffffff"},
+  {"type": "ellipse", "x": 80, "y": -56, "rx": 46, "ry": 16, "width": 13, "color": "#000000"},
+  {"type": "ellipse", "x": 80, "y": -56, "rx": 46, "ry": 16, "width": 7, "color": "#ffffff"},
+  {"type": "ellipse", "x": 120, "y": -52, "rx": 46, "ry": 16, "width": 13, "color": "#000000"},
+  {"type": "ellipse", "x": 120, "y": -52, "rx": 46, "ry": 16, "width": 7, "color": "#ffffff"},
+  {"type": "ellipse", "x": 50, "y": -50, "rx": 46, "ry": 16, "width": 13, "color": "#000000"},
+  {"type": "ellipse", "x": 50, "y": -50, "rx": 46, "ry": 16, "width": 7, "color": "#ffffff"},
+  {"type": "poly", "points": [[-20, -40], [160, -40], [160, 20], [-20, 20]], "width": 5, "color": "#000000", "fill": "#d89a48"},
+  {"type": "line", "points": [[-14, -28], [154, -28]], "width": 2, "color": "#a86e2c"},
+  {"type": "curve", "points": [[110, -46], [130, -30], [138, 10], [128, 60], [140, 100], [152, 124]], "width": 13, "color": "#000000"},
+  {"type": "curve", "points": [[110, -46], [130, -30], [138, 10], [128, 60], [140, 100], [152, 124]], "width": 7, "color": "#ffffff"},
+  {"type": "poly", "points": [[136, 120], [168, 114], [176, 156], [144, 162]], "width": 4, "color": "#000000", "fill": "#f4f4f4"},
+  {"type": "poly", "points": [[146, 160], [172, 155], [176, 182], [150, 187]], "width": 4, "color": "#000000", "fill": "#b9c2c9"},
+  {"type": "rect", "x": 153, "y": 165, "w": 6, "h": 7, "width": 1, "color": "#000000", "fill": "#4a4a4a"},
+  {"type": "rect", "x": 163, "y": 163, "w": 6, "h": 7, "width": 1, "color": "#000000", "fill": "#4a4a4a"},
+  {"type": "spray", "x": 150, "y": 0, "r": 22, "color": "#9a6428", "density": 0.3}
+  ]
+}

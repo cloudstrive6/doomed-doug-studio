@@ -1,0 +1,425 @@
+{
+ "name": "naegleria_amoeba",
+ "description": "Naegleria fowleri amoeba, textbook microscope diagram: lumpy pale lilac cell with 3 rounded pseudopod lobes, darker inner cytoplasm, one nucleus with a dark central nucleolus, granules and vacuoles. No face, no teeth. ~345x270, anchor centre. Clean lumpy silhouette.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "cell",
+  "amoeba",
+  "parasite",
+  "microscope",
+  "diagram",
+  "002"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -30
+    ],
+    [
+     -160,
+     -80
+    ],
+    [
+     -120,
+     -120
+    ],
+    [
+     -60,
+     -110
+    ],
+    [
+     -20,
+     -135
+    ],
+    [
+     40,
+     -130
+    ],
+    [
+     70,
+     -95
+    ],
+    [
+     120,
+     -110
+    ],
+    [
+     175,
+     -80
+    ],
+    [
+     180,
+     -30
+    ],
+    [
+     140,
+     0
+    ],
+    [
+     165,
+     50
+    ],
+    [
+     140,
+     110
+    ],
+    [
+     80,
+     120
+    ],
+    [
+     30,
+     95
+    ],
+    [
+     -30,
+     130
+    ],
+    [
+     -100,
+     120
+    ],
+    [
+     -135,
+     80
+    ],
+    [
+     -120,
+     30
+    ]
+   ],
+   "width": 4,
+   "color": "#5a3a7a",
+   "fill": "#d9c9e6",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -30
+    ],
+    [
+     -100,
+     -80
+    ],
+    [
+     -40,
+     -85
+    ],
+    [
+     30,
+     -95
+    ],
+    [
+     100,
+     -70
+    ],
+    [
+     120,
+     -30
+    ],
+    [
+     100,
+     30
+    ],
+    [
+     110,
+     70
+    ],
+    [
+     70,
+     85
+    ],
+    [
+     0,
+     60
+    ],
+    [
+     -60,
+     90
+    ],
+    [
+     -100,
+     60
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#c8b3dc",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -20,
+   "y": 0,
+   "r": 70,
+   "color": "#b8a0d0",
+   "density": 0.08
+  },
+  {
+   "type": "ellipse",
+   "x": -80,
+   "y": 40,
+   "rx": 16,
+   "ry": 16,
+   "width": 2,
+   "color": "#8a6aa8",
+   "fill": "#ece4f4"
+  },
+  {
+   "type": "ellipse",
+   "x": 95,
+   "y": 45,
+   "rx": 12,
+   "ry": 12,
+   "width": 2,
+   "color": "#8a6aa8",
+   "fill": "#ece4f4"
+  },
+  {
+   "type": "ellipse",
+   "x": 60,
+   "y": -60,
+   "rx": 10,
+   "ry": 10,
+   "width": 2,
+   "color": "#8a6aa8",
+   "fill": "#ece4f4"
+  },
+  {
+   "type": "ellipse",
+   "x": -60,
+   "y": -60,
+   "rx": 4,
+   "ry": 4,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7a5a9a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -30,
+   "y": 70,
+   "rx": 4,
+   "ry": 4,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7a5a9a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 20,
+   "y": -70,
+   "rx": 4,
+   "ry": 4,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7a5a9a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 85,
+   "y": -30,
+   "rx": 4,
+   "ry": 4,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7a5a9a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -110,
+   "y": 5,
+   "rx": 4,
+   "ry": 4,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7a5a9a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 40,
+   "y": 60,
+   "rx": 4,
+   "ry": 4,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7a5a9a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 110,
+   "y": 5,
+   "rx": 4,
+   "ry": 4,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7a5a9a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -5,
+   "y": -40,
+   "rx": 4,
+   "ry": 4,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7a5a9a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 60,
+   "y": 20,
+   "rx": 4,
+   "ry": 4,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7a5a9a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -85,
+   "y": -20,
+   "rx": 4,
+   "ry": 4,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7a5a9a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 10,
+   "y": 5,
+   "rx": 36,
+   "ry": 34,
+   "width": 3,
+   "color": "#5a3a7a",
+   "fill": "#a888c8"
+  },
+  {
+   "type": "ellipse",
+   "x": 10,
+   "y": 5,
+   "rx": 14,
+   "ry": 13,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#2e1a48",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 6,
+   "y": 1,
+   "rx": 4,
+   "ry": 4,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#c8b0e0",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -30
+    ],
+    [
+     -160,
+     -80
+    ],
+    [
+     -120,
+     -120
+    ],
+    [
+     -60,
+     -110
+    ],
+    [
+     -20,
+     -135
+    ],
+    [
+     40,
+     -130
+    ],
+    [
+     70,
+     -95
+    ],
+    [
+     120,
+     -110
+    ],
+    [
+     175,
+     -80
+    ],
+    [
+     180,
+     -30
+    ],
+    [
+     140,
+     0
+    ],
+    [
+     165,
+     50
+    ],
+    [
+     140,
+     110
+    ],
+    [
+     80,
+     120
+    ],
+    [
+     30,
+     95
+    ],
+    [
+     -30,
+     130
+    ],
+    [
+     -100,
+     120
+    ],
+    [
+     -135,
+     80
+    ],
+    [
+     -120,
+     30
+    ]
+   ],
+   "width": 4,
+   "color": "#5a3a7a",
+   "smooth": true
+  }
+ ]
+}

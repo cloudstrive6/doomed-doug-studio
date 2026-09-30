@@ -1,0 +1,29 @@
+{
+ "name": "burrow",
+ "description": "Wasp burrow: low brown earth mound with a dark round entrance hole on the right side, pebbles and a twig. ~500x210. Anchor = bottom-centre (ground line).",
+ "anchor": [0, 0],
+ "tags": ["ground", "burrow", "place", "prop"],
+ "elements": [
+  {"type": "poly", "points": [[-250, 0], [-200, -40], [-110, -140], [-10, -200], [90, -176], [180, -100], [250, 0], [0, 6]], "fill": "#8a5a2b", "width": 5, "smooth": true},
+  {"type": "poly", "points": [[-150, -100], [-60, -170], [10, -190], [-30, -150], [-110, -90]], "fill": "#a8743e", "width": 0, "smooth": true},
+  {"type": "spray", "x": -170, "y": -30, "r": 50, "color": "#5e3c1c", "density": 0.2},
+  {"type": "spray", "x": 170, "y": -30, "r": 50, "color": "#5e3c1c", "density": 0.25},
+  {"type": "line", "points": [[-120, -60], [-112, -58]], "width": 3, "color": "#5e3c1c"},
+  {"type": "line", "points": [[-60, -110], [-52, -108]], "width": 3, "color": "#5e3c1c"},
+  {"type": "line", "points": [[20, -150], [28, -148]], "width": 3, "color": "#5e3c1c"},
+  {"type": "line", "points": [[-20, -50], [-12, -48]], "width": 3, "color": "#5e3c1c"},
+  {"type": "line", "points": [[60, -90], [68, -88]], "width": 3, "color": "#5e3c1c"},
+  {"type": "line", "points": [[-180, -20], [-172, -18]], "width": 3, "color": "#5e3c1c"},
+  {"type": "line", "points": [[0, -20], [8, -18]], "width": 3, "color": "#5e3c1c"},
+  {"type": "poly", "points": [[177.1, -75.7], [176.4, -60.3], [169.2, -45.6], [156.2, -33.3], [139.1, -25.0], [119.9, -21.6], [101.0, -23.6], [84.7, -30.7], [72.8, -42.0], [66.9, -56.3], [67.6, -71.7], [74.8, -86.4], [87.8, -98.7], [104.9, -107.0], [124.1, -110.4], [143.0, -108.4], [159.3, -101.3], [171.2, -90.0]], "fill": "#5e3c1c", "width": 5, "smooth": true},
+  {"type": "poly", "points": [[167.4, -67.3], [166.3, -54.7], [159.2, -42.9], [147.0, -33.7], [131.6, -28.5], [115.3, -28.1], [100.7, -32.6], [89.9, -41.2], [84.6, -52.7], [85.7, -65.3], [92.8, -77.1], [105.0, -86.3], [120.4, -91.5], [136.7, -91.9], [151.3, -87.4], [162.1, -78.8]], "fill": "#140a03", "width": 3, "smooth": true},
+  {"type": "ellipse", "x": -200, "y": -8, "rx": 12, "ry": 9.0, "fill": "#9a9a92", "width": 3},
+  {"type": "ellipse", "x": -176, "y": -4, "rx": 8, "ry": 6.0, "fill": "#9a9a92", "width": 3},
+  {"type": "ellipse", "x": 196, "y": -10, "rx": 11, "ry": 8.25, "fill": "#9a9a92", "width": 3},
+  {"type": "ellipse", "x": 60, "y": -6, "rx": 9, "ry": 6.75, "fill": "#9a9a92", "width": 3},
+  {"type": "ellipse", "x": -60, "y": -4, "rx": 7, "ry": 5.25, "fill": "#9a9a92", "width": 3},
+  {"type": "line", "points": [[-70, -130], [40, -170]], "width": 6, "color": "#6b4a2a"},
+  {"type": "line", "points": [[-10, -150], [-4, -186]], "width": 4, "color": "#6b4a2a"},
+  {"type": "line", "points": [[-250, 0], [250, 0]], "width": 3, "color": "#5e3c1c"}
+ ]
+}

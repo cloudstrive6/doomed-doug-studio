@@ -1,0 +1,30 @@
+{
+  "name": "calendar",
+  "description": "Tear-off page calendar: red top binding with 2 metal rings, big blank white page (centre y -40..+80 left empty for overlay labels), curled bottom-right corner, page stack behind. Centre anchor. ~264x330.",
+  "anchor": [
+    0,
+    0
+  ],
+  "tags": [
+    "prop",
+    "time",
+    "calendar",
+    "overlay"
+  ],
+  "elements": [
+  {"type": "rect", "x": -114, "y": -96, "w": 240, "h": 252, "width": 4, "color": "#000000", "fill": "#d8d8d8"},
+  {"type": "rect", "x": -118, "y": -98, "w": 240, "h": 250, "width": 4, "color": "#000000", "fill": "#ececec"},
+  {"type": "poly", "points": [[-122, -100], [122, -100], [122, 100], [72, 148], [-122, 148]], "width": 5, "color": "#000000", "fill": "#ffffff"},
+  {"type": "poly", "points": [[122, 100], [72, 148], [82, 108]], "width": 4, "color": "#000000", "fill": "#d4d4d4"},
+  {"type": "spray", "x": 92, "y": 128, "r": 16, "color": "#bdbdbd", "density": 0.4},
+  {"type": "line", "points": [[-100, -74], [100, -74]], "width": 2, "color": "#e0201b"},
+  {"type": "rect", "x": -132, "y": -150, "w": 264, "h": 56, "width": 5, "color": "#000000", "fill": "#e0201b"},
+  {"type": "line", "points": [[-120, -140], [120, -140]], "width": 2, "color": "#ff6a5e"},
+  {"type": "ellipse", "x": -62, "y": -150, "rx": 12, "ry": 8, "width": 3, "color": "#000000", "fill": "#3a3a3a"},
+  {"type": "ellipse", "x": -62, "y": -150, "rx": 12, "ry": 26, "start": 180, "end": 360, "width": 9, "color": "#000000"},
+  {"type": "ellipse", "x": -62, "y": -150, "rx": 12, "ry": 26, "start": 180, "end": 360, "width": 5, "color": "#c9d0d6"},
+  {"type": "ellipse", "x": 62, "y": -150, "rx": 12, "ry": 8, "width": 3, "color": "#000000", "fill": "#3a3a3a"},
+  {"type": "ellipse", "x": 62, "y": -150, "rx": 12, "ry": 26, "start": 180, "end": 360, "width": 9, "color": "#000000"},
+  {"type": "ellipse", "x": 62, "y": -150, "rx": 12, "ry": 26, "start": 180, "end": 360, "width": 5, "color": "#c9d0d6"}
+  ]
+}

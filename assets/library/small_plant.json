@@ -1,0 +1,26 @@
+{
+ "name": "small_plant",
+ "description": "Small seedling: thin green stem with 4 alternating leaves and a flat horizontal top leaf at y~-540, small soil mound. ~220x570. Anchor = bottom-centre (ground).",
+ "anchor": [0, 0],
+ "tags": ["plant", "jungle", "prop"],
+ "elements": [
+  {"type": "poly", "points": [[-60, 4], [-40, -16], [0, -24], [40, -16], [60, 4]], "fill": "#7a5a36", "width": 4, "smooth": true},
+  {"type": "poly", "points": [[7.0, -9.7], [12.6, -140.1], [2.2, -260.0], [11.8, -379.9], [5.4, -470.1], [9.0, -535.7], [-1.0, -536.3], [-5.4, -469.9], [0.2, -380.1], [-10.2, -260.0], [-0.6, -139.9], [-7.0, -10.3]], "fill": "#3a8a2a", "width": 4, "smooth": true},
+  {"type": "poly", "points": [[4, -130], [-46, -179.0], [-106, -180], [-56, -125.0]], "fill": "#4caf3a", "width": 4, "smooth": true},
+  {"type": "poly", "points": [[-6, -134], [-46, -179.0], [-106, -180], [-46, -153.0]], "fill": "#2e7a22", "width": 0, "smooth": true},
+  {"type": "curve", "points": [[4, -130], [-51, -153.0], [-106, -180]], "width": 3, "color": "#a6dc80"},
+  {"type": "poly", "points": [[-2, -240], [48, -289.0], [108, -290], [58, -235.0]], "fill": "#4caf3a", "width": 4, "smooth": true},
+  {"type": "poly", "points": [[8, -244], [48, -289.0], [108, -290], [48, -263.0]], "fill": "#2e7a22", "width": 0, "smooth": true},
+  {"type": "curve", "points": [[-2, -240], [53, -263.0], [108, -290]], "width": 3, "color": "#a6dc80"},
+  {"type": "poly", "points": [[2, -350], [-48, -397.0], [-108, -396], [-58, -343.0]], "fill": "#4caf3a", "width": 4, "smooth": true},
+  {"type": "poly", "points": [[-8, -354], [-48, -397.0], [-108, -396], [-48, -371.0]], "fill": "#2e7a22", "width": 0, "smooth": true},
+  {"type": "curve", "points": [[2, -350], [-53, -371.0], [-108, -396]], "width": 3, "color": "#a6dc80"},
+  {"type": "poly", "points": [[4, -450], [54, -497.0], [114, -496], [64, -443.0]], "fill": "#4caf3a", "width": 4, "smooth": true},
+  {"type": "poly", "points": [[14, -454], [54, -497.0], [114, -496], [54, -471.0]], "fill": "#2e7a22", "width": 0, "smooth": true},
+  {"type": "curve", "points": [[4, -450], [59, -471.0], [114, -496]], "width": 3, "color": "#a6dc80"},
+  {"type": "poly", "points": [[-96, -540], [-40, -562], [60, -562], [120, -542], [60, -522], [-40, -520]], "fill": "#4caf3a", "width": 5, "smooth": true},
+  {"type": "poly", "points": [[-80, -542], [-30, -558], [60, -558], [110, -543], [60, -548], [-30, -546]], "fill": "#2e7a22", "width": 0, "smooth": true},
+  {"type": "curve", "points": [[-90, -540], [0, -541], [116, -542]], "width": 3, "color": "#a6dc80"},
+  {"type": "spray", "x": 20, "y": -534, "r": 20, "color": "#7fd06a", "density": 0.3}
+ ]
+}

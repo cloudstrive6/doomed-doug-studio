@@ -1,0 +1,21 @@
+{
+  "name": "head_outline",
+  "description": "Side-profile head diagram facing right: plain grey fill, dark grey outline, small ear, nose tip at (230,20), small eye dot at (150,-40), skull top y=-262, short neck at the bottom (y=260). No brain, no interior. Centre anchor. ~440x520.",
+  "anchor": [
+    0,
+    0
+  ],
+  "tags": [
+    "diagram",
+    "human",
+    "head",
+    "medical",
+    "outline"
+  ],
+  "elements": [
+  {"type": "poly", "points": [[-20, -262], [60, -250], [130, -210], [164, -150], [176, -90], [170, -58], [182, -30], [206, -4], [230, 20], [222, 34], [188, 46], [196, 64], [188, 78], [196, 96], [186, 108], [184, 140], [178, 166], [150, 186], [96, 196], [74, 206], [66, 260], [-92, 260], [-104, 190], [-150, 124], [-196, 30], [-206, -60], [-186, -150], [-124, -226]], "width": 5, "color": "#555555", "fill": "#e0e0e0", "smooth": true},
+  {"type": "poly", "points": [[-34, -40], [-10, -52], [12, -30], [10, 20], [-6, 44], [-30, 36], [-40, 0]], "width": 4, "color": "#555555", "fill": "#d4d4d4", "smooth": true},
+  {"type": "curve", "points": [[-6, -30], [0, 0], [-10, 26]], "width": 3, "color": "#555555"},
+  {"type": "ellipse", "x": 150, "y": -40, "rx": 8, "ry": 8, "width": 0, "color": "#000000", "fill": "#333333", "outline": false}
+  ]
+}
