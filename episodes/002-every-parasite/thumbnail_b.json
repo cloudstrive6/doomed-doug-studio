@@ -1,0 +1,68 @@
+{
+ "_note": "Alt archetype C hero close-up (style bible 2.C, growth memo 2026-09-29 rec 2): the boss parasite huge, 2 words, tiny Doug for scale. No title words.",
+ "background": "#7a1410",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "circle",
+   "x": 820,
+   "y": 380,
+   "r": 330,
+   "fill": "#b3231b",
+   "width": 0
+  },
+  {
+   "type": "asset",
+   "name": "naegleria_amoeba",
+   "x": 800,
+   "y": 380,
+   "scale": 1.72
+  },
+  {
+   "type": "text",
+   "text": "ONE",
+   "x": 250,
+   "y": 230,
+   "size": 150,
+   "font": "Arimo",
+   "bold": true,
+   "color": "#ffffff",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "CELL",
+   "x": 250,
+   "y": 390,
+   "size": 150,
+   "font": "Arimo",
+   "bold": true,
+   "color": "#ffffff",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 70,
+   "y": 480,
+   "w": 360,
+   "h": 14,
+   "fill": "#ffffff",
+   "color": "#ffffff",
+   "width": 0
+  },
+  {
+   "type": "doug",
+   "x": 300,
+   "y": 640,
+   "scale": 0.3,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "right"
+  }
+ ]
+}

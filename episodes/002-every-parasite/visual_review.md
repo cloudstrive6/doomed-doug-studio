@@ -132,3 +132,49 @@ VERDICT: PASS
 
 Policy is clean in all five shots: no gore, cartoon deaths only, nothing kids-show, and Doug is on-model with his red
 cap and white head. Keyframe screening is complete for this round. No stage was changed.
+
+## Thumbnail: `thumbnail.json` (archetype A grid) and s001 opening frame, 2026-09-30
+
+Scope: I re-rendered `build/thumbnail.png` and `build/thumbnail_small.png` (320x180) with `python -m studio thumbnail`,
+and the s001 keyframe (`build/keyframes/s001.png`, which uses `scene_ref: thumbnail`) with `keyframes --shots s001`.
+I read them against the title "What Dying From Every Parasite Would Feel Like" and the `thumbnail_brief`.
+
+VERDICT: FAIL (one layout fix; everything else passes)
+
+### What passes
+- **Feed size (320x180):** all nine tiles and all nine labels are readable. The saturated fills keep neighbouring
+  tiles apart, and the red Brain-Eating Amoeba boss tile is the first thing the eye lands on. The grid reads as "every
+  parasite", so it complements the title without repeating it. The labels are the chapter names and use no title or
+  alternate-title words.
+- **Doug:** the roach-costume Doug in the Jewel Wasp tile is on-model (red cap, white head, shocked face). At feed size
+  he is only a red-cap dot, as the brief intends ("tiny Doug").
+- **Drawings:** every creature is recognisable (wasp, ant, worm, broodsac snail, cat and rat, kissing bug, tsetse fly,
+  mosquito, amoeba). There are no stray lines and nothing crosses a tile frame.
+- **Policy:** there is no gore, no human bodies and no wounds. The tone is not kids-show.
+- **Accuracy:** nothing is misleading, since all nine tiles are chapters in the video.
+- **s001:** the grid matches "Every parasite on this list can kill the animal it lives in". It renders identically at
+  1920x1080, with no top bar and no overlap.
+
+### Required fix
+1. **Thumbnail, bottom-row labels (graphic designer): lift the grid off the bottom edge.** The descenders of "Sleeping
+   Sickness" and "Brain-Eating Amoeba" end at y 704, only 15 px (2%) above the bottom edge. In s001 they are 21 px
+   from the edge. The top margin is just 8 px, so the grid looks jammed against the frame at both edges. This is the
+   creative director's note, and it is confirmed.
+   - **Change:** set every tile to `h: 160` and move the rows to `y: 20` (row 1), `244` (row 2) and `468` (row 3). The
+     row pitch stays at 224.
+   - **Inner elements:** scale each tile's inner elements by 160/172 (about 0.93) around the tile centre. That means
+     x' = tile_x + 200 + (x - tile_x - 200) * 0.93, y' = new_y + 80 + (y - old_y - 86) * 0.93, and scale * 0.93.
+   - **Checked:** I test-rendered this layout (the file is `/tmp/thumb_test.json`). The last dark pixel is at y 680, a
+     39 px margin, and the top margin is 20 px. Nothing crosses a tile frame, and all labels still read at 320x180.
+   - **After the change:** re-render the thumbnail and s001.
+
+### Non-blocking notes
+- **Duration badge:** YouTube's badge (bottom-right, about x 1125-1270, y 635-705 at 1280 scale) will still cover
+  "Amoeba" after the fix. "Brain-Eating" plus the red boss tile still carry the threat, so this is acceptable. If the
+  designer wants the full word visible, shorten the tile label to "Brain Amoeba" (the thumbnail only; the chapter name
+  can stay).
+- **Zombie Ant Fungus tile (illustrator/designer, optional):** the fungus stalk stands on its own at the right edge, so
+  at feed size it reads as a twig, not as something growing out of the ant. Moving the stalk so it rises from the ant's
+  head (about x 640, y 95) would sell "zombie" in one glance.
+
+No stage was changed.

@@ -65,3 +65,26 @@
 - Shorts: Horsehair Worm (s046-s056, ends "There's a catch."), Zombie Ant Fungus (s026-s036), Brain-Eating Amoeba
   (s229-s237, "The deadliest thing on this whole list is one cell", ends on rarity). Titles are left for the titler.
 - 53 new drawings requested in asset_requests.md. Layout checked with placeholder boxes; rerun keyframes once they exist.
+
+## 2026-09-30: thumbnail choice (creative director): A (3x3 grid) wins, GO conditional on visual-screener PASS
+- Candidates: `thumbnail.json` (archetype A, 3x3 labelled grid) and `thumbnail_b.json` (archetype C, amoeba hero + "ONE CELL"),
+  checked at 1280x720 and at feed size (`build/thumbnail*_small.png`).
+- **Winner: A, the grid.** `thumbnail.json` stays as it is, so s001 (`scene_ref: thumbnail`, "Every parasite on this list can kill
+  the animal it lives in.") still opens on the table of contents and needs no change.
+- Why A:
+  1. It shows "Every". Nine labelled chapters make the list feel complete, and "Zombie Ant Fungus", "Broodsac" and "Brain-Eating Amoeba"
+     are strong curiosity labels. At 320x180 all nine tiles and labels still read, and the red boss tile draws the eye.
+  2. B fails as horror at feed size. The PE hero outliers (style bible 2.C) work because of a detailed human in trouble. We can't draw that (no gore),
+     and a pale lavender cell on red reads as a biology diagram, a fried egg or a cute blob. "ONE CELL" doesn't say "brain" or "death" without the title,
+     and Doug at 0.3 scale is too small to show the stakes.
+  3. The opening needs the grid. If B won, s001 would need a separate grid scene, and the thumbnail would no longer match the first frame.
+  4. It keeps variety with 001, which used a pyramid (archetype B).
+- On the growth memo 2026-09-29 rec 2 (hero for T1 titles) and style bible 2 complementarity ("hero pairs with What Dying..."): I'm overriding it
+  for this episode because this hero can't be drawn with body horror, and that is the thing that makes the archetype work. The grid shares no word with the
+  title (brief check against the `thumbnail_brief` banned list passed: no label uses a title or alternate-title word).
+- Keep `thumbnail_b.json` as the challenger for YouTube Test & Compare once the channel has impressions. It needs these changes before it is tested:
+  (1) text "BRAIN EATER" or "1 CELL. 97%." style stakes with a source-backed number only, (2) Doug at scale 0.5 or more, next to or overlapping the
+  cell edge, (3) a darker or more menacing cell rim so it doesn't read as cute at 168 px wide.
+- Open item: no visual-screener report covers the thumbnail or s001 yet (`visual_review.md` says "s001 thumbnail pending"). Packaging must not
+  advance until it passes. Minor polish for the designer/screener: the bottom-row labels sit close to the lower edge (the same safe-area note as 001),
+  and the Horsehair Worm tile is sparse compared with the others.
