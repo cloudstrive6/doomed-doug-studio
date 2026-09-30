@@ -190,12 +190,14 @@ def upload_episode(ep_dir: Path, dry_run: bool = False, publish_at_override: str
             "license": "youtube",
             "containsSyntheticMedia": False,  # cartoon, not realistic -> no disclosure label required
         },
+        # always answer YouTube's "Paid promotion" question: No, unless the episode really has a sponsor
+        "paidProductPlacementDetails": {"hasPaidProductPlacement": bool(meta.get("paid_promotion", False))},
     }
     if dry_run:
         print(json.dumps(body, indent=1))
         return meta
     api = yt()
-    req = api.videos().insert(part="snippet,status", body=body,
+    req = api.videos().insert(part="snippet,status,paidProductPlacementDetails", body=body,
                               media_body=MediaFileUpload(str(video), chunksize=16 * 1024 * 1024, resumable=True))
     resp = None
     while resp is None:

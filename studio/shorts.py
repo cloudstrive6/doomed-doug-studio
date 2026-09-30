@@ -282,8 +282,9 @@ def upload(ep: Path) -> list[dict]:
                             "tags": (meta.get("tags") or [])[:10], "categoryId": cfg["channel"]["category_id"],
                             "defaultLanguage": "en", "defaultAudioLanguage": "en"},
                 "status": {"privacyStatus": "private", "publishAt": publish_at, "selfDeclaredMadeForKids": False,
-                           "embeddable": True, "license": "youtube", "containsSyntheticMedia": False}}
-        req = api.videos().insert(part="snippet,status", body=body,
+                           "embeddable": True, "license": "youtube", "containsSyntheticMedia": False},
+                "paidProductPlacementDetails": {"hasPaidProductPlacement": bool(meta.get("paid_promotion", False))}}
+        req = api.videos().insert(part="snippet,status,paidProductPlacementDetails", body=body,
                                   media_body=MediaFileUpload(str(f), chunksize=16 * 1024 * 1024, resumable=True))
         resp = None
         while resp is None:

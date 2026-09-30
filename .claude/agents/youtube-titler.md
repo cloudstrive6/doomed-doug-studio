@@ -21,7 +21,8 @@ the newest `data/insights/*.md`, `data/competitors/*.json` (what's hitting now),
   "thumbnail_brief": "...",             // one sentence: what the thumbnail must show so title+thumb tell one story
   "description": "...",
   "tags": ["..."],
-  "playlist": "ocean"                   // key from config youtube.playlists
+  "playlist": "ocean",                  // key from config youtube.playlists
+  "paid_promotion": false               // true ONLY if the script contains a sponsor segment / paid placement
 }
 ```
 Description template (style bible 7 → Editor rule 8, in this order):
