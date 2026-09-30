@@ -4014,9 +4014,9 @@
      {
       "type": "wordart",
       "text": "SYNCHRONIZED",
-      "x": 1400,
-      "y": 250,
-      "size": 80,
+      "x": 790,
+      "y": 160,
+      "size": 76,
       "boil": 0,
       "appear": 0.44
      }
@@ -4284,9 +4284,9 @@
      {
       "type": "wordart",
       "text": "CLUSTERS",
-      "x": 600,
-      "y": 280,
-      "size": 84,
+      "x": 1280,
+      "y": 400,
+      "size": 80,
       "boil": 0,
       "appear": 0.388
      },
@@ -4587,9 +4587,9 @@
      {
       "type": "wordart",
       "text": "PERFECTLY",
-      "x": 960,
-      "y": 250,
-      "size": 84,
+      "x": 620,
+      "y": 340,
+      "size": 76,
       "boil": 0,
       "appear": 0.851
      }
@@ -5384,9 +5384,9 @@
      {
       "type": "wordart",
       "text": "URGE TO CLIMB",
-      "x": 700,
-      "y": 280,
-      "size": 88,
+      "x": 780,
+      "y": 190,
+      "size": 80,
       "boil": 0,
       "appear": 0.783
      }
@@ -5561,9 +5561,9 @@
      {
       "type": "wordart",
       "text": "LUNCHTIME",
-      "x": 450,
-      "y": 280,
-      "size": 84,
+      "x": 650,
+      "y": 190,
+      "size": 72,
       "boil": 0,
       "appear": 0.582
      }
@@ -6856,7 +6856,7 @@
       "type": "asset",
       "name": "matchbox_charger",
       "x": 960,
-      "y": 560,
+      "y": 500,
       "scale": 1.4
      },
      {
@@ -8090,7 +8090,7 @@
       "text": "GREEN-BANDED BROODSAC",
       "x": 960,
       "y": 250,
-      "size": 90,
+      "size": 76,
       "color": "#e0201b",
       "outline": "#000000",
       "outline_width": 7,
@@ -8329,8 +8329,8 @@
      {
       "type": "wordart",
       "text": "CATERPILLAR",
-      "x": 1300,
-      "y": 300,
+      "x": 1150,
+      "y": 330,
       "size": 88,
       "boil": 0,
       "appear": 0.769
@@ -11511,8 +11511,8 @@
       "type": "wordart",
       "text": "LOST THEIR FEAR",
       "x": 960,
-      "y": 1000,
-      "size": 80,
+      "y": 140,
+      "size": 64,
       "boil": 0,
       "appear": 0.367
      },
@@ -11618,9 +11618,9 @@
      {
       "type": "wordart",
       "text": "DRAWN TO IT",
-      "x": 1650,
-      "y": 500,
-      "size": 80,
+      "x": 960,
+      "y": 140,
+      "size": 70,
       "boil": 0,
       "appear": 0.7
      },
@@ -12142,7 +12142,7 @@
       "type": "wordart",
       "text": "STOPPED MEANING DANGER",
       "x": 960,
-      "y": 900,
+      "y": 220,
       "size": 76,
       "boil": 0,
       "appear": 0.828
@@ -16045,8 +16045,8 @@
       "type": "wordart",
       "text": "LIBRARY FINE",
       "x": 1250,
-      "y": 220,
-      "size": 90,
+      "y": 160,
+      "size": 84,
       "boil": 0,
       "appear": 0.483
      },
@@ -17832,7 +17832,7 @@
      {
       "type": "wordart",
       "text": "MOST SEVERE",
-      "x": 1350,
+      "x": 1280,
       "y": 800,
       "size": 90,
       "boil": 0,
@@ -17951,10 +17951,26 @@
      {
       "type": "asset",
       "name": "mosquito",
-      "x": 1450,
-      "y": 420,
-      "scale": 0.25,
+      "x": 1200,
+      "y": 470,
+      "scale": 0.45,
       "appear": 0.63
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1380,
+       720
+      ],
+      "to": [
+       1270,
+       530
+      ],
+      "bend": -30,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 40,
+      "appear": 0.126
      }
     ]
    }
@@ -17996,9 +18012,25 @@
      {
       "type": "asset",
       "name": "mosquito",
-      "x": 1010,
-      "y": 590,
-      "scale": 0.2
+      "x": 1040,
+      "y": 560,
+      "scale": 0.32
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1400,
+       380
+      ],
+      "to": [
+       1110,
+       530
+      ],
+      "bend": 40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 40,
+      "appear": 0.788
      },
      {
       "type": "doug",
@@ -19479,9 +19511,9 @@
      {
       "type": "wordart",
       "text": "WRONG ANIMAL",
-      "x": 960,
-      "y": 150,
-      "size": 84,
+      "x": 560,
+      "y": 330,
+      "size": 76,
       "boil": 0,
       "appear": 0.296
      },
@@ -19603,8 +19635,8 @@
       "type": "wordart",
       "text": "RARE",
       "x": 960,
-      "y": 200,
-      "size": 110,
+      "y": 150,
+      "size": 90,
       "boil": 0,
       "appear": 0.157
      },
@@ -21522,7 +21554,7 @@
       "y": 280,
       "w": 520,
       "h": 180,
-      "text": "I feel totally fi",
+      "text": "I feel totally fine!",
       "tail": [
        1080,
        420
@@ -21946,12 +21978,30 @@
       "boil": 0.3
      },
      {
+      "type": "spray",
+      "x": 1300,
+      "y": 620,
+      "r": 330,
+      "color": "#ff3b2f",
+      "density": 0.22
+     },
+     {
+      "type": "spray",
+      "x": 1300,
+      "y": 620,
+      "r": 240,
+      "color": "#ff5a3a",
+      "density": 0.35
+     },
+     {
       "type": "asset",
       "name": "naegleria_amoeba",
       "x": 1300,
       "y": 620,
       "scale": 1.2,
-      "silhouette": true
+      "silhouette": true,
+      "glow": "#ff3b2f",
+      "glow_r": 320
      },
      {
       "type": "doug",
@@ -22061,12 +22111,30 @@
       "outline": false
      },
      {
+      "type": "spray",
+      "x": 1250,
+      "y": 520,
+      "r": 310,
+      "color": "#ff3b2f",
+      "density": 0.22
+     },
+     {
+      "type": "spray",
+      "x": 1250,
+      "y": 520,
+      "r": 225,
+      "color": "#ff5a3a",
+      "density": 0.35
+     },
+     {
       "type": "asset",
       "name": "naegleria_amoeba",
       "x": 1250,
       "y": 520,
       "scale": 1.1,
-      "silhouette": true
+      "silhouette": true,
+      "glow": "#ff3b2f",
+      "glow_r": 300
      },
      {
       "type": "asset",
@@ -25669,9 +25737,9 @@
      {
       "type": "wordart",
       "text": "CANNONBALL",
-      "x": 1400,
-      "y": 200,
-      "size": 88,
+      "x": 1200,
+      "y": 150,
+      "size": 84,
       "boil": 0,
       "appear": 0.298
      }
