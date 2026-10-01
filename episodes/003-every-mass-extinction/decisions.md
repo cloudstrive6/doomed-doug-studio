@@ -64,3 +64,24 @@
 - Next: the showrunner sets `packaged`, then the editor narrates and renders.
 
 - 2026-10-01: packaged. Script 3 rounds (sourcing/joke density), art assets 1 round, keyframes 2 rounds (new on_back death pose + sunburn gear + time_machine added), thumbnail 1 round. Risks: channel speaking_rate raised 1.1->1.145 (config/channel.yaml) to reach 190+ wpm; validate.py now strips HTML comments from the word count; audio pronunciation of era names not listened to; minor polish items left (s047 flipper, s098 crop, s210 dashes, s228/229 bar labels).
+
+## 2026-10-01: FINAL package approval after final render (creative director)
+- Gates: QC 0 problems, 997.1 s (16:37, in the 15-18 min target); visual screener round 5 PASS; `validate metadata` OK.
+- Title: keep **"How Doug Would Die in Every Mass Extinction"** (T2). None of the alternates is clearly stronger. "Creepiest
+  Extinction Triggers" and "Most Disturbing Discoveries" are the formulas we used back-to-back in earlier episodes and promise
+  findings rather than Doug. "Deadlier the Longer You Stay" is weaker for search. "How Every Mass Extinction on Earth Would Kill Doug"
+  is the same promise in more words. The video delivers the title: at least one Doug death in every Big Five section, counter 18 to 27.
+- Thumbnail: the 3x3 era-ordered grid still reads at feed size (thumbnail_small). Labels are legible, the boss tile sits bottom-right,
+  and Doug in the rubber ring is visible. No gore, nothing kid-coded. I would click it.
+- Description: the hook sentence matches the video. The comment prompt, sources (NHM, Sam Noble, Science Advances, USGS), the
+  cartoon disclaimer and the AI-use disclosure are all present. `{{CHAPTERS}}` is filled from chapters.txt at upload (youtube.py).
+  Tags are on topic, and the playlist is `prehistoric`.
+- Chapters: 12 entries. They start at 0:00, every chapter is longer than 10 s, they follow the script order, and the names match the
+  thumbnail labels.
+- First 60 s: thumbnail-grid open, then the time machine. "Killer Moss" is spoken by about word 33 and the twist ("helped start the
+  first mass extinction") lands well inside 45 s. Samples f_001-f_003 are clean: Doug is on model, the headers are readable, there
+  are no crops. The f_003 thermometer fill sits high for "-5°C". It is cosmetic and not blocking.
+- Non-blocking carry-overs (s098 crop, Shorts preview edges) are accepted.
+- Next: the showrunner moves to qc_passed and runs the scheduled upload (publishAt >= 1 day out).
+
+FINAL: APPROVED

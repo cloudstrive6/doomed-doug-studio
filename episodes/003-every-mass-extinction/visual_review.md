@@ -143,3 +143,28 @@ roughly in half at the right edge. The "Y" of the "1 DAY" label touches the fram
 
 ### Routing
 - Director: fixes 1-2. Editor: fix 3. Visual screener: a targeted Shorts re-check (round 5).
+
+## Round 5: targeted Shorts re-check after the s229/s120 fixes, plus a main-video spot check (2026-10-01)
+
+Render checked: final.mp4 and build/shorts/* from 11:27-11:28. Frames were pulled with ffmpeg: short01 at 9.6-10.6 s in 0.1 s steps, short02 at 17.5-20.5 s, and short03 at 2/12/22/31.5 s.
+
+### Round 4 fixes: both verified
+1. s229 (short01, about 10.0-10.5 s, "on a single day."): the calendar and the "1 DAY" label now sit at (1360, 870), fully inside the crop, with clear space
+   on both sides. "SINGLE DAY" (x 850) does not touch the calendar, and Doug (x 1600) is whole beside it. In final.mp4 (about 908.6 s) the same layout reads well
+   in 16:9: the calendar sits bottom-right under the bars, with no overlaps. Note: the calendar is on screen for only about 0.5 s (s229 is 1.79 s long, appear 0.73).
+   That is short but readable, and it lands exactly on "single day". Not blocking.
+2. s120 (short02, about 19-20 s, "no button to turn it off"): the panel (x 1220-1620) is fully in frame. The dial, the "MAX" label, the green button and the red X are all whole,
+   with a margin on the right edge.
+
+### Other checks
+- short01 is 45.3 s, short02 is 24.1 s and short03 is 32.8 s. In all three, the titles are readable, the subtitles are legible, the @DoomedDoug handle is present and the
+  end cards' arrows point down to the link.
+- short03: the "COAL"/"MAGMA" labels are whole, Doug is whole in the hook (Siberia map) and in s100-s103, and the end card is fine.
+- Main video: qc.json shows 0 problems, and the duration is 997.1 s. All 33 samples match round 4: no black or glitched frames, and no new crops.
+  f_033 is still the intended s246 impact flash.
+- thumbnail_small.png is unchanged from the approved design. The 3x3 grid still reads at feed size.
+
+### Non-blocking (carried over, optional)
+- s098: Doug is flush with the left crop edge. short01_preview: "A FEW HOURS" is flush right. short02_preview: the caption is caught mid-word. s111: the rubber ring touches the right edge.
+
+VERDICT: PASS
