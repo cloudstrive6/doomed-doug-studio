@@ -34,5 +34,5 @@ Stages: idea → scripted → script_approved → shotlisted → art_approved �
   drawings or exact titles.
 - Doug's design is locked (`studio/doug.py`); only the art director may add poses/gear.
 - Never commit or print secrets (`.env`, tokens). Uploads happen only through `python -m studio upload` after QC.
-- Uploads are scheduled `publishAt` ≥ 3 days out; the owner reviews in YouTube Studio during that window.
+- Uploads are scheduled `publishAt` ≥ 1 day out (`schedule.review_window_days`); the owner reviews in YouTube Studio during that window.
 - Cadence: first 28 uploads daily (launch), then weekly on Fridays (`config/channel.yaml` → `schedule`).

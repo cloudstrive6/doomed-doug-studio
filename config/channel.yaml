@@ -36,7 +36,7 @@ schedule:
   timezone: "America/New_York"     # publish slots target US viewers (12:00 New York = 05:00 NZDT / 04:00 NZST)
   display_timezone: "Pacific/Auckland"   # every time shown to the owner (Telegram, status, logs) is in NZ time
   publish_time: "12:00"
-  review_window_days: 3      # videos are uploaded as scheduled >= this many days ahead (owner review window)
+  review_window_days: 1      # videos are uploaded >= this many days before going public (owner review window); 1 = daily launch pace
   launch:                    # binge-able back catalogue first: one video EVERY day for the first N uploads
     episodes: 28
     publish_days: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
