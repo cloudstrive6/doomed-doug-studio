@@ -1,0 +1,37 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s034",
+      "to": "s040",
+      "hook": "Scientists found a 36,000-year-old frozen bison. Then they cooked it.",
+      "hook_scene_from": "s027",
+      "title": "",
+      "outro": "The next fossil was not so friendly. The full video is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s064",
+      "to": "s071",
+      "hook": "This 42,000-year-old foal still had liquid blood inside it.",
+      "hook_scene_from": "s063",
+      "title": "",
+      "outro": "The fossils only get older and creepier. The full video is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s196",
+      "to": "s207",
+      "hook": "This 506-million-year-old fossil still has its brain.",
+      "hook_scene_from": "s199",
+      "title": "",
+      "outro": "What happens next is even worse. The full video is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    }
+  ]
+}

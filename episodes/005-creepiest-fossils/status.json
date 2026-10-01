@@ -24,7 +24,12 @@
       "stage": "script_approved",
       "at": "2026-10-01T22:13:07+00:00",
       "note": "CD approved draft 3: screener PASS r3; A6 Messel hedge applied by CD"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-10-01T22:30:35+00:00",
+      "note": "211 shots, 82% Doug, every script word once; 44 new assets requested in asset_requests.md; shorts picks: Blue Babe stew, Batagaika blood, Stanleycaris brain"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }
