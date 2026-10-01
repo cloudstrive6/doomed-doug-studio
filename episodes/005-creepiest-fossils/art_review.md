@@ -2,7 +2,7 @@
 
 Reviewer: art director · Date: 2026-10-01 · Scope: the 44 new library assets in `asset_requests.md`
 
-## Verdict: FAIL (REVISE 2 of 44; 42 APPROVED, 1 fixed by the AD)
+## Verdict: PASS (round 2, 2026-10-01: all 44 approved. Round 1 was FAIL with 2 REVISE.)
 
 How I checked: I rendered each asset at scale 1 with its requested box and anchor drawn on top, on its shot background
 (night hall `#2c3350`, ocean ramp, near-black `#0b1018`). I zoomed in on every mummy and baby animal to check gore and kid appeal.
@@ -43,14 +43,14 @@ It is empty, with no hooks and no bite marks, and it reads clearly on twilight b
 | 15 | batagaika_foal_mummy | APPROVE | The muzzle pokes about 30 px past the 400 box on the right. That is harmless on the -9 degree slope. |
 | 16 | test_tube_rack | APPROVE | |
 | 17 | petri_dish | APPROVE | |
-| 18 | wolf_pup_mummy | **REVISE** | See fix 1. |
+| 18 | wolf_pup_mummy | APPROVE (round 2) | Fix 1 done: the protruding muzzle, dark nose, drawn-back lip with tiny teeth, folded ear and flat eye slit now read as a canine pup, not a cat. Calm and respectful. |
 | 19 | grey_wolf | APPROVE | |
 | 20 | salmon | APPROVE | |
 | 21 | bread_loaf | APPROVE | |
 | 22 | turtle_pair_fossil | APPROVE | Turtles sit at about (-90,0) and (+100,0), and the right one is larger. Dry museum read. |
 | 23 | messel_turtle | APPROVE | |
 | 24 | dinner_plate | APPROVE | |
-| 25 | fighting_dinosaurs_fossil | **REVISE** | See fix 2. |
+| 25 | fighting_dinosaurs_fossil | APPROVE (round 2) | Fixes 2a to 2d done. The frill fan and hooked beak face the raptor's hand. The bent kicking leg ends in a sickle claw at the throat. The raptor's head and neck are locked in, and the grain line is clipped. It reads as Velociraptor vs Protoceratops at s104 and s114 size. The red dots in the preview are only coordinate markers, not part of the asset. |
 | 26 | protoceratops | APPROVE | The beak at (+220,-170) and the frill at (+80,-240) match the request. |
 | 27 | turkey | APPROVE | |
 | 28 | house_key | APPROVE | |
@@ -99,3 +99,36 @@ It is empty, with no hooks and no bite marks, and it reads clearly on twilight b
   The ARM arrow should end at about **(1078,493)**, not (1080,560). Re-check both after fix 2 using the coordinates the illustrator reports.
 - s180: the shark's heart_icon at x=1250 sits on the tail. Move it to about **(1545,552)**, under the gills.
 - s049: the MUD arrow tip (1000,760) stops just left of the plug. (1040,740) lands on it.
+
+---
+
+# Keyframe review: 005 (all 211 shots, sheets 01-18), 2026-10-01
+
+## Verdict: FAIL (4 small composition fixes for the director; no asset faults)
+Style is consistent across all 18 sheets. Doug is on-model everywhere except the snorkel shots below, and the cap is always red.
+Zone colours hold per item: ice-age pale blue/permafrost brown, Messel grey shale, Gobi sand, Borealopelta museum/green,
+Solnhofen limestone, ichthyosaur navy, Gogo reef blue/Kimberley red, Cambrian near-black. Title cards, the
+"DOUG DEATHS" counter (36 to 46, steps correct) and the time-machine layout are consistent. Text is legible and inside the safe area,
+and the layouts vary. Nothing is gory. Both redrawn assets look right in context (s104, s105, s107, s109, s114, s115, s119, plus every wolf-pup shot).
+
+## Director's leftover list
+- **s006 / s007 small Doug**: OK, no fix required. He is fully visible and readable at 0.45. Optional: move him to x=900 so
+  the divider line does not run through his body.
+- **s015 cub cut**: FIX (see 1).
+- **s143 crab cut**: OK. The crab is fully in frame and only overlaps the slab outline. Optional: crab x -40.
+- **s151 / s181 floating snorkel and flippers**: FIX (see 2). The same bug is also in **s182**.
+- **s211 cap near edge**: OK. The ghost's cap top sits at about y=110, inside the safe area.
+
+## Required fixes (director)
+1. **s015**: the right cub at (1820,900) is cut off by the frame, and the arrow ends at (1900,600), in empty sky, not on it. Move
+   the cub to about **(1640,640)**, level with the left cub, and end the arrow at about **(1470,600)**, short of its nose. Keep Doug where he is.
+2. **s151, s181, s182 (snorkel_gear)**: the prop is drawn for the standing skeleton (or lie + rotate -90). With `walk1/2` and `swim1/2`
+   the tube floats beside or above the head and the flippers hover away from the feet, so Doug looks off-model. Drop the
+   `snorkel_gear` asset in these three shots and keep the rig's `mask` gear. That still reads as "Doug went swimming". If the
+   flippers are wanted, I will add native `snorkel` and `flippers` rig gear in `studio/doug.py` on request.
+3. **s139** (minor): the horseshoe_crab icon sits over Africa while the circle marks Bavaria. Move the icon to sit beside
+   the circle (about +60 px to the right of it, not below it).
+4. **s063 / s064** (minor variety): these are back-to-back shots of the same foal-in-mud composition. In s064, push in (scale up the foal)
+   or reframe so it is not a repeat.
+
+Optional: s060 has a stray white chevron on the slope (about (1230,780) in the frame). Remove it if it is unintended.

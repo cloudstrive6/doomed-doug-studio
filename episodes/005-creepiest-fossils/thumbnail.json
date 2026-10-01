@@ -1,0 +1,430 @@
+{
+ "_note": "Archetype A 3x3 grid in age order: ice blue frozen finds -> rock brown -> near-black Cambrian; tiny scared Doug between the fighting dinosaurs; Stanleycaris boss bottom-right with red glow. No title words in labels.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 28,
+   "y": 20,
+   "w": 400,
+   "h": 160,
+   "fill": "#d6f1ff",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Cave Lion Cub",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "spray",
+     "x": 228,
+     "y": 80,
+     "r": 160,
+     "color": "#ffffff",
+     "density": 0.15
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       28,
+       150
+      ],
+      [
+       428,
+       146
+      ],
+      [
+       428,
+       180
+      ],
+      [
+       28,
+       180
+      ]
+     ],
+     "fill": "#ffffff",
+     "color": "#000000",
+     "width": 5
+    },
+    {
+     "type": "asset",
+     "name": "cave_lion_cub_mummy",
+     "x": 228,
+     "y": 154,
+     "scale": 0.85
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 20,
+   "w": 400,
+   "h": 160,
+   "fill": "#bfe6fb",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Blue Babe",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "poly",
+     "points": [
+      [
+       440,
+       156
+      ],
+      [
+       840,
+       152
+      ],
+      [
+       840,
+       180
+      ],
+      [
+       440,
+       180
+      ]
+     ],
+     "fill": "#ffffff",
+     "color": "#000000",
+     "width": 5
+    },
+    {
+     "type": "asset",
+     "name": "blue_babe",
+     "x": 640,
+     "y": 162,
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 852,
+   "y": 20,
+   "w": 400,
+   "h": 160,
+   "fill": "#9fd2ec",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Baby Mammoth",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "poly",
+     "points": [
+      [
+       852,
+       154
+      ],
+      [
+       1252,
+       150
+      ],
+      [
+       1252,
+       180
+      ],
+      [
+       852,
+       180
+      ]
+     ],
+     "fill": "#e8f6ff",
+     "color": "#000000",
+     "width": 5
+    },
+    {
+     "type": "asset",
+     "name": "lyuba_mummy",
+     "x": 1052,
+     "y": 160,
+     "scale": 0.72
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 28,
+   "y": 244,
+   "w": 400,
+   "h": 160,
+   "fill": "#f2cf8c",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Fighting Dinosaurs",
+   "label_size": 40,
+   "elements": [
+    {
+     "type": "poly",
+     "points": [
+      [
+       28,
+       382
+      ],
+      [
+       428,
+       378
+      ],
+      [
+       428,
+       404
+      ],
+      [
+       28,
+       404
+      ]
+     ],
+     "fill": "#d9a35a",
+     "color": "#000000",
+     "width": 5
+    },
+    {
+     "type": "asset",
+     "name": "feathered_dinosaur",
+     "x": 168,
+     "y": 388,
+     "scale": 0.36
+    },
+    {
+     "type": "asset",
+     "name": "protoceratops",
+     "x": 333,
+     "y": 388,
+     "scale": 0.4,
+     "flip": true
+    },
+    {
+     "type": "doug",
+     "x": 240,
+     "y": 390,
+     "scale": 0.2,
+     "pose": "stand",
+     "expression": "scared",
+     "facing": "right"
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 244,
+   "w": 400,
+   "h": 160,
+   "fill": "#c99a5e",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Borealopelta",
+   "label_size": 46,
+   "elements": [
+    {
+     "type": "poly",
+     "points": [
+      [
+       440,
+       384
+      ],
+      [
+       840,
+       380
+      ],
+      [
+       840,
+       404
+      ],
+      [
+       440,
+       404
+      ]
+     ],
+     "fill": "#8a6238",
+     "color": "#000000",
+     "width": 5
+    },
+    {
+     "type": "asset",
+     "name": "borealopelta",
+     "x": 640,
+     "y": 392,
+     "scale": 0.52
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 852,
+   "y": 244,
+   "w": 400,
+   "h": 160,
+   "fill": "#a8794a",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Death March",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "line",
+     "points": [
+      [
+       872,
+       374
+      ],
+      [
+       942,
+       364
+      ],
+      [
+       1012,
+       372
+      ],
+      [
+       1082,
+       354
+      ]
+     ],
+     "color": "#5a3e22",
+     "width": 6,
+     "dash": [
+      6,
+      14
+     ]
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       872,
+       388
+      ],
+      [
+       942,
+       380
+      ],
+      [
+       1012,
+       386
+      ],
+      [
+       1082,
+       368
+      ]
+     ],
+     "color": "#5a3e22",
+     "width": 6,
+     "dash": [
+      6,
+      14
+     ]
+    },
+    {
+     "type": "asset",
+     "name": "horseshoe_crab",
+     "x": 1132,
+     "y": 322,
+     "scale": 0.5,
+     "rotate": 10
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 28,
+   "y": 468,
+   "w": 400,
+   "h": 160,
+   "fill": "#5e4632",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Ichthyosaur",
+   "label_size": 46,
+   "elements": [
+    {
+     "type": "spray",
+     "x": 228,
+     "y": 548,
+     "r": 160,
+     "color": "#8a6a4a",
+     "density": 0.12
+    },
+    {
+     "type": "asset",
+     "name": "ichthyosaur",
+     "x": 228,
+     "y": 550,
+     "scale": 0.54
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 468,
+   "w": 400,
+   "h": 160,
+   "fill": "#33261c",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Gogo Heart",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "spray",
+     "x": 640,
+     "y": 548,
+     "r": 150,
+     "color": "#5a4430",
+     "density": 0.12
+    },
+    {
+     "type": "asset",
+     "name": "gogo_arthrodire",
+     "x": 640,
+     "y": 548,
+     "scale": 0.8
+    },
+    {
+     "type": "asset",
+     "name": "heart_icon",
+     "x": 685,
+     "y": 580,
+     "scale": 0.2
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 852,
+   "y": 468,
+   "w": 400,
+   "h": 160,
+   "fill": "#111118",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Stanleycaris",
+   "label_size": 46,
+   "elements": [
+    {
+     "type": "spray",
+     "x": 1052,
+     "y": 548,
+     "r": 170,
+     "color": "#e02a2a",
+     "density": 0.35
+    },
+    {
+     "type": "asset",
+     "name": "stanleycaris",
+     "x": 1042,
+     "y": 554,
+     "scale": 0.66
+    }
+   ]
+  }
+ ]
+}
