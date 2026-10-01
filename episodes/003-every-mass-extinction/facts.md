@@ -97,13 +97,13 @@ https://www.nhm.ac.uk/discover/what-is-mass-extinction-and-are-we-facing-a-sixth
   continental weathering in particular would have resulted in eutrophication, planktonic algal blooming and subsequent
   widespread marine anoxia."
 - Largest animal reefs in Earth history; collapse in the Late Devonian; temperatures exceeding 32 °C at the Kellwasser
-  thermal maximum: Fernandes et al. 2022 (search title "Functional consequences of Palaeozoic reef collapse"), Scientific
-  Reports, https://pmc.ncbi.nlm.nih.gov/articles/PMC8792005/ (full text read via Europe PMC): "The largest reef systems in
+  thermal maximum: Bridge, Baird, Pandolfi, McWilliam and Zapalski 2022, "Functional consequences of Palaeozoic reef
+  collapse", Scientific Reports, https://pmc.ncbi.nlm.nih.gov/articles/PMC8792005/ (full text read via Europe PMC): "The largest reef systems in
   Earth's history occurred in the Devonian period, but collapsed during the Late Devonian Mass Extinction"; "the largest
   development of metazoan reefs in the Earth's history"; "temperatures by the end of Frasnian ... exceeded 32°C".
 - Main builders, corals and stromatoporoid sponges, hit hard: Sam Noble Museum,
   https://samnoblemuseum.ou.edu/understanding-extinction/mass-extinctions/late-devonian-extinctions/ (verified): "Reef
-  building sponges called stromatoporoids and corals suffered losses"; Fernandes et al. 2022 on reef collapse.
+  building sponges called stromatoporoids and corals suffered losses"; Bridge et al. 2022 on reef collapse.
 - About three-quarters of species: NHM (above).
 - Scale: three US quarters are about 5.25 mm thick (1.75 mm each, https://www.usmint.gov/learn/coins-and-medals/circulating-coins).
 - Doug beat: "less oxygen than the air in his lungs" is a joke built on "anoxia" (no oxygen); exhaled air still holds
@@ -238,6 +238,15 @@ https://www.nhm.ac.uk/discover/what-is-mass-extinction-and-are-we-facing-a-sixth
   end-Triassic extinction with the Central Atlantic Magmatic Province", Science 340: 941,
   https://www.science.org/doi/10.1126/science.1234204 (abstract verified).
 - About 80% of species: NHM (above).
+- "Some of the magma never reached the surface. Underground activity began about a hundred thousand years before the
+  first known eruptions. In Brazil, sheets of magma pushed into rock rich in oil and ancient remains, right as the
+  extinction began. Gas cooked out of that rock may have added to the climate change." (draft 3): Davies, Marzoli,
+  Bertrand, Youbi, Ernesto and Schaltegger 2017, "End-Triassic mass extinction started by intrusive CAMP activity",
+  Nature Communications 8: 15596, https://pmc.ncbi.nlm.nih.gov/articles/PMC5460029/ (full text read): "magmatic activity
+  was occurring ∼100 Kyr ago before the earliest known eruptions"; "sills in an organic rich sedimentary basin in Brazil
+  that intrude synchronously with the extinction suggesting that degassing of these organics contributed to the climate
+  change which drove the extinction"; the Amazonas basin holds "some of the country's largest oil reserves" and "organic
+  and volatile rich sediments". "Ancient remains" = organic matter (shales, oil source rock). Hedged as "may have".
 - "The crack ... you know it now as the Atlantic Ocean": Sam Noble (Atlantic began to form as North America separated from Africa).
 
 ### 9. Acid Seas

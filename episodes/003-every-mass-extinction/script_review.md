@@ -1,192 +1,218 @@
-# 003 Every Mass Extinction: script review (draft 1)
+# 003 Every Mass Extinction: script review (draft 2)
 
-Screener, 2026-10-01. Inputs: style bible, series bible, brief.md, script.md (draft 1), facts.md, decisions.md.
+Screener, 2026-10-01. Inputs: style bible, series bible, brief.md, script.md (draft 2), facts.md, decisions.md,
+draft 1 review.
 
 VERDICT: FAIL
 
-Short version: this is a strong draft. The hook, voice and policy all pass, and 3 of the 4 fact items the writer flagged
-check out. It fails on two sourcing items: a Deccan claim that its listed source does not support, and Greene 2012
-quotes that were never read and are probably misattributed. Three stops are over their word budget, and two items break
-the joke-density rule. All five fixes are small (section "Required fixes").
+Short version: all five draft 1 fixes and seven of the nine advisories were applied, and they were applied well. The
+facts are clean: 14 claims were re-verified this round and none is wrong. The fail is narrow. Two items, **Killer Moss**
+and **Hot Tub Ocean**, still have three joke lines in under 90 seconds. That is the same rule 10 pattern that draft 1
+was failed for in Ozone Hole and Pangaea Splits. My draft 1 review missed these two items, and I should have caught
+them then. There is also one wrong author name in facts.md. All three fixes are line edits, and no new research is
+needed.
 
 | Check | Result |
 |---|---|
-| Facts | **FAIL: 2 items** (sourcing). 32 claims checked; none is contradicted by a reliable source |
-| Opening / hook | **8/10** |
-| Structure and pacing | **7/10** |
-| Voice and humour | **7/10** |
-| TTS readiness | PASS (two advisories on pronunciation notes) |
+| Facts | **PASS: 0 script errors.** 14 claims re-verified on the web. One citation label in facts.md is wrong (Fix 3). |
+| Opening / hook | **9/10** (up from 8) |
+| Structure and pacing | **8/10** (up from 7) |
+| Voice and humour | **7/10.** Rule 10 is broken in 2 items (Fixes 1 and 2). |
+| TTS readiness | PASS |
 | Policy | PASS: 0 items |
-| Length | PASS: 3,138 spoken words (brief 3,100 to 3,400), about 16:05 at 195 wpm |
+| Length | PASS: 3,107 spoken words (brief 3,100 to 3,400), about 15:56 at 195 wpm. Only 7 words of headroom. |
 
 ---
 
-## 1. Facts
+## 0. Draft 1 fixes: were they applied?
 
-### The writer's three flags
-| Flag | Finding | Result |
+| # | Draft 1 fix | Draft 2 | Status |
+|---|---|---|---|
+| 1 | Deccan "two before and two after" | Now "four big pulses, and the biggest of them came before the impact." Science News (checked this round): "four main pulses ... with the most voluminous events occurring before the KPg boundary". | **Fixed** |
+| 2 | Greene 2012 attribution | Greene has been withdrawn as a source. The lines are re-sourced to Trudgill et al. 2025 (PMC12260068) and Hodges and Stanley 2015 (GSA Today), and I checked both word for word. Martindale is kept as supporting only. Script wording now reads "nearly disappeared". | **Fixed** |
+| 3 | Trim three stops | Killer Moss 278 (limit 280), Dead Reefs 285 (limit 290), Chicxulub 377 (limit 380). | **Fixed** |
+| 4 | Rule 10 in Ozone Hole and Pangaea Splits | Tan-line joke cut. "The narrator checked twice." cut. Ozone Hole and Pangaea Splits now have two joke lines each. | **Fixed** |
+| 5 | Re-run footer stats | Done. My recount differs slightly but nothing important changes: 195 sentences, average 15.9 words, "Here's the twist" at spoken words 127 to 128 (the footer says 126), Flesch 66.3. | **Fixed** |
+
+**Advisories:**
+- **Applied:**
+  - A1: "Some scientists think".
+  - A2: "barely set foot on land".
+  - A3: the depth of 20 km is cut.
+  - A4: "Here's the strange part: it didn't."
+  - A5: the third-person narrator line now appears once, in Ozone Hole only.
+  - A6: "most of them".
+  - A7: the three pronunciation notes were added.
+  - A8: the million-year gap is now only in the kicker.
+  - A9: the date note was added.
+- **Not applied:** none.
+
+## 1. Facts: PASS (0 script errors)
+
+### Verified on the web this round (source text read)
+| Claim (script) | Source | Result |
 |---|---|---|
-| Chicxulub crater 180 km (NOAA) against 150 km (NHM) | NOAA SOS checked word for word: "estimated to be 180 kilometers (110 miles) in diameter and 20 kilometers (12 miles) deep". NHM's page does say 150 km. About 180 km is the usual figure, and "about" covers the spread. | **OK, keep 180.** |
-| "almost two years" without photosynthesis (Senel 2023) | Abstract confirmed: "a dust-induced photosynthetic shut-down for almost 2 years post-impact". The script's "one climate model suggests" is the right framing. | **OK** |
-| Greene 2012 acidification claims | facts.md says "abstract via search": the writer never read it, and I couldn't either (ScienceDirect and ResearchGate return 403; OpenAlex and Europe PMC have no abstract). The quoted line "particularly selective against acid-sensitive organisms and temporarily eliminated coral reefs" turns up next to **Martindale et al. 2012**, *Palaeogeography, Palaeoclimatology, Palaeoecology* ("Constraining carbonate chemistry at a potential ocean acidification event ... using the presence of corals and coral reefs"), which reports "the observed coral and coral reef gap". Greene's own DOI is 10.1016/j.earscirev.2012.03.009. The *science* in the script holds up: Sam Noble and the 2025 Nature Communications paper (PMC12260068) both describe a fall in carbonate deposition and the preferential extinction of calcifiers. The *attribution* is unverified. | **FAIL (sourcing).** Fix 2. |
+| Deccan: four big pulses, the biggest before the impact | Science News, "Dueling dates..." | OK |
+| Deccan: the teams disagree on before or after; three-quarters of the lava came after (Sprain) | Science News | OK |
+| Carbonate "built up much more slowly on seafloors all over the world" | Trudgill 2025: "carbonate sedimentation rates decreased worldwide" | OK |
+| Chalky shell-builders "more likely to die out" | Trudgill 2025: "marine calcifiers preferentially became extinct"; the paper links this to acidification | OK |
+| Reefs spread across the tropical seas, then nearly disappeared | Hodges and Stanley 2015: "proliferation of Late Triassic reefs through the Tethys ... in stark contrast to their Early Jurassic reduction" | OK |
+| Reefs did not fully recover until the Middle Jurassic | Hodges and Stanley 2015, word for word | OK |
+| Largest animal-built reefs in Earth's history | PMC8792005: "the largest development of metazoan reefs in the Earth's history" | OK |
+| Surface water may have passed 32 °C by the end of the stretch | PMC8792005: "temperatures by the end of Frasnian (Kellwasser Thermal Maximum, 372.5 Ma) exceeded 32°C or even 33°C" | OK (see Fix 3 for the author name) |
+| Hot tub limit of 40 °C | CPSC 1980: "should never exceed 104 degrees Fahrenheit" | OK |
+| Oceans warmed about 11 °C and lost about three-quarters of their oxygen (model) | Smithsonian on Penn 2018: "around 11 degrees Celsius ... drop by 76 percent"; a simulation | OK, and the script says "model" |
+| Hydrogen sulfide smelled at about half a part per billion | ATSDR PHS: "0.0005 to 0.3 ... ppm" (0.0005 ppm = 0.5 ppb) | OK |
+| Teaspoon in an Olympic pool | 1.2 ml / 2,500 m³ = about 0.5 ppb | OK, the arithmetic holds |
+| Lystrosaurus: one of the few survivors, abundant in southern Pangaea, tough plants, burrowing, tolerant, skull 16 to 39 cm | Botha 2021 (PMC8570511) | OK; "a ruler" (30 cm) is inside the range |
+| Conodonts: 15,000 from South China, "eel-like", 40 °C sea, 50 to 60 °C land, dead zone of 5 million years | Leeds / ScienceDaily | OK |
 
-### Sample check (claims verified against the source text)
-| Claim (script) | Source checked | Result |
-|---|---|---|
-| About 85% lost (Ord.), three-quarters (Dev.), more than 95% (Perm.), about 80% (Tri.) | NHM mass-extinction page | OK |
-| About three-quarters (K-Pg); non-bird dinosaurs died; dinosaurs survived as birds | NHM asteroid page (75%); Lyons 2020 (76%) | OK |
-| Moss weathering, incubators for 3 months, about 5 °C plus 2 to 3 °C | ScienceDaily / Exeter release on Lenton 2012 | OK (see A1 on "leading") |
-| More than 1,200 vertebrate kinds, sea and fresh water hit equally, more than half of diversity lost, placoderms never recovered | Sallan and Coates 2010 abstract ("over 1,250 taxa", "over 50%", "equally affected", recovery "minimal") | OK |
-| Supernova at about 65 light-years | Fields 2020 abstract (proposes about 20 pc; 20 pc = 65 ly) | OK |
-| US-sized region a kilometer deep in magma | MIT News 2015, word for word | OK |
-| 15,000 conodonts, "eel-like", 40 °C sea, 50 to 60 °C land, 5-million-year dead zone | Leeds / ScienceDaily release on Sun 2012 | OK. The script also places the heat *after* the onset ("After the Great Dying began"), which matches the abstract's Early Triassic timing. |
-| Fish nearly absent, chalky algae lost, small invertebrates, tropics emptied on land | Sun 2012 abstract | OK |
-| Four CAMP pulses over about 600,000 years, timing matching the extinction, dinosaurs dominant for 136 million years | Blackburn 2013 abstract | OK |
-| 201 Ma; North America splitting from Africa; phytosaurs; all major marine invertebrate groups survived | Sam Noble end-Triassic page | OK. Source says "most suffered losses"; the script says "almost all of them came out smaller" (A6). |
-| Deccan: at least 500 km of flows, nearly 2 km thick, three-quarters after impact, within 50,000 years, India "almost directly opposite" | UC Berkeley 2019 release, word for word | OK |
-| Deccan: "four big pulses, with two before the extinction and two after" | Schoene 2019 abstract: "four high-volume eruptive periods", with maximum rates "before and after the K-Pg extinction". Science News: "most voluminous events occurring before the KPg boundary". **Neither source gives a two-before, two-after split.** | **FAIL (unsourced as worded).** Fix 1. |
-| Carbonate platform; sulfate, dust and soot; soot round the globe within a few hours; impact winter cut photosynthesis | Lyons 2020 abstract | OK |
-| Asteroid about 10 km; wider than Everest is tall | Alvarez 1980 (10 ± 4 km); NHM (10 to 15 km); Everest 8,849 m | OK |
-| Alvarez 1980: Italy, Denmark, New Zealand; up to 160 times the iridium | Alvarez abstract (30, 160 and 20 times) | OK |
+Every number re-checked: 30 million km² is about 3 times the US; 100 m is about 30 floors; three coins are 5.25 mm
+against 0.5 cm; 372 minus 359 is 13; five Empire State Buildings are about 1.9 km; 201 minus 66 is 135. All OK. Draft 1
+checks of the unchanged claims (NHM percentages, Lenton, Sallan and Coates, Fields, MIT, Burgess, Blackburn, Lyons,
+Alvarez, NOAA) still stand.
 
-Not contradicted but soft: A1 ("one leading idea"), A2 ("animals had not made it onto land yet").
+**One citation error (facts.md only, not a script error):** PMC8792005 is listed as "Fernandes et al. 2022". The
+paper's authors are **Bridge, Baird, Pandolfi, McWilliam and Zapalski** (2022). The URL and the quotes are right, but
+the label would carry into the video description. See Fix 3.
 
-## 2. Opening (hook 8/10) and rule audit
+## 2. Opening (hook 9/10) and rule audit
 
 - **Item 1's name:** "Killer Moss." is at spoken words 33 and 34 (limit 35).
-- **Twist:** "Here's the twist." is at word 129 (limit about 145).
+- **Twist:** "Here's the twist." is at words 127 and 128 (limit about 145).
 - **Before item 1:** no greeting, no channel name, no "in this video", no subscribe ask.
-- **Stakes and gag:** the stakes line and "Doug did not agree to this." are both in place.
-- **Why not higher:** item 1's first sentence is 31 words of scene-setting, so the opening loses speed right after the
-  name.
+- **Why the score went up:** item 1's first sentence was 31 words and is now split into two sentences of 12 and 14
+  words. The opening keeps its speed right after the name.
 
 **Script Writer rules violated:**
-- **Rule 10 (required, Fix 4):** both of these items have three joke lines in under 90 seconds.
-  - Ozone Hole (about 87 s): the campfire line, the tan line, and "The narrator would like it noted...".
-  - Pangaea Splits (about 74 s): the spilled drink, "Doug is fine.", and "The narrator checked twice."
-- **Rule 8 (advisory):** the Siberian Traps comparison ("a region the size of the United States") is a region, not an
-  everyday object. The brief allowed this, so it is accepted.
+- **Rule 10 (required): two items each have three joke lines in under 90 seconds.**
+  - **Killer Moss** (278 words, about 86 s):
+    1. "It's a doormat causing a blizzard."
+    2. "It is the first time he has been nice to something that could freeze a planet."
+    3. "...started by something you could wipe your feet on." (a callback joke)
+  - **Hot Tub Ocean** (275 words, about 85 s):
+    1. "For a while, the whole tropical ocean was the top setting on a hot tub, with no button to turn it off."
+    2. "...for the first few minutes he thinks this is the best trip yet."
+    3. "...and Doug stayed in the tub for the whole first afternoon."
+- **Rule 10 (accepted, advisory):** Chicxulub has three joke lines in its last 25 seconds: the wish, the cap fossil and
+  the pigeon bench. The brief asks for all three, and this is the boss and the ending, so it is accepted.
+- **Rule 4 (advisory):** the Ozone Hole Doug beat, "Doug gets a bad sunburn, and that's it. He lives.", is 10 words,
+  under the 15-word floor. My draft 1 review suggested that wording. The narrator line after it is also about Doug, so
+  together they cover the beat. Optional fix: add five or more flat words, for example what the sunburn looks like.
+  That also helps the length.
 
 **Rules met:**
-- **1:** 3,138 words.
+- **1:** 3,107 words.
 - **2:** met.
 - **3:** 11 items, and every name sentence matches its heading.
-- **4:** all beats are present.
-- **5:** the axis is stated in the header, and Chicxulub is last.
+- **5:** era axis stated in the header; Chicxulub is last.
 - **6:** met.
-- **7:** met.
-- **9:** average sentence 16.4 words, longest 33, Flesch 65.6, and every item has a sentence of 6 words or fewer.
-- **11:** met, except for fixes 1 and 2.
+- **7:** zero transition sentences.
+- **8:** every item has an analogy. The Siberian "region" comparison was accepted in draft 1.
+- **9:** average 15.9 words, longest sentence 33, Flesch 66.3, and every item has a sentence of 6 words or fewer.
+- **11:** met.
 - **12:** the outro is 20 words.
 - **13:** zero tic words, and no twist marker appears twice in a row.
 - **14:** no PE wording found.
 
-## 3. Structure and pacing (7/10)
+## 3. Structure and pacing (8/10)
 
-- **Axis:** the era order is clean. The Great Dying zone shift falls at item 5, about 39% in, as the brief asks.
-- **Death plan:** the counter runs 18 to 27 as planned. Every one of the five sections has a death, so the title
-  promise holds.
-- **Running gags:** all present. "Did not agree" appears once. The befriending beats are the moss and the Lystrosaurus.
-  The narrator is disappointed at item 4, "Doug is fine." comes at item 8, the costume callback appears once, the cap
-  survives as a fossil, and the marshmallow callback lands at item 10.
-- **Ending:** final kicker (pigeon), then the outro. No recap.
-- **Over budget (required, Fix 3):**
+- **Axis and running gags:** the era axis is clean.
+  - The death counter runs 18 to 27, with at least one death in every section, so the title promise holds.
+  - The two survivals are at items 4 and 8.
+  - All the running gags are present: did not agree, befriending (moss and Lystrosaurus), the narrator disappointed,
+    "Doug is fine.", the costume once, the marshmallow callback, the cap as a fossil.
+- **Ending:** the pigeon kicker, then the outro. No recap.
+- **Item lengths:** every item is within its budget except one.
 
-  | Item | Words | Limit |
+  | Item | Words | Budget |
   |---|---|---|
-  | Killer Moss | 298 | 240 to 280 (bible 3.6 and brief) |
-  | Dead Reefs | 295 | 230 to 270 (bible items 2 to 4); brief about 260 to 290 |
-  | Chicxulub | 383 | 330 to 380 (brief) |
+  | Killer Moss | 278 | 240 to 280 |
+  | Gondwana | 261* | 230 to 270 |
+  | Dead Reefs | 285 | 290 or fewer (brief) |
+  | Ozone | 269* | 230 to 270 |
+  | Siberian | 267 | 240 to 290 |
+  | Hot Tub | 275 | 240 to 290 |
+  | Purple | 271* | 240 to 290 |
+  | **Pangaea Splits** | **237** | bible 240 to 290; brief about 260 to 290 |
+  | Acid Seas | 277* | 260 to 300 |
+  | Deccan | 271 | 260 to 300 |
+  | Chicxulub | 377 | 330 to 380 |
 
-- **Under budget (advisory):** Acid Seas is 253 (bible 260 to 300 for items 9 to 11). Pangaea Splits is 241 (brief about
-  260 to 290). These are fine if the overall length stays in band.
+  *Section headers are excluded from these counts.
+
+- **Advisory:**
+  - **Pangaea Splits** is now 3 words under the bible floor, and it is the shortest stop by far. One more mechanism
+    sentence would fix it, for example on the buried sheets of magma or on how the timing was measured. The added
+    sentence must have a source in facts.md.
+  - **Zone shift:** "The Great Dying." now falls about 36% in. The brief asks for about 40%, and draft 1 had it at 39%.
+    The trims to items 1 and 3 moved it earlier. This is minor because the axis fixes the position, so do not trim
+    items 1 to 4 any further.
+- **Advisory, Deccan:** "The two teams even disagree about whether the biggest pulses came before or after the impact."
+  repeats the point the previous paragraph already made. It could be cut, or swapped for a new fact, if words are
+  needed elsewhere.
 
 ## 4. Voice and humour (7/10)
 
-- **Voice:** deadpan and consistent. The science is stated straight, then undercut once, per the series bible.
-- **Best lines:** "doormat causing a blizzard", "rated for kitchen fires ... rated for a subcontinent", the pigeon bench.
-- **Readability:** grade 8.5, Flesch 65.6. No competitor wording found.
-- **Why not higher:**
-  1. Joke clustering in items 4 and 8 (Fix 4).
-  2. Chicxulub's marker "And then it gets stranger, because it didn't." is a rhetorical escalation line. This is the
-     same note as 002 A5 (style bible 3.5); see A4.
-  3. The narrator twice calls himself "the narrator" in the third person. The series bible voice speaks directly to
-     the viewer; see A5.
+- **Voice:** deadpan and consistent.
+  - The third-person narrator now appears once, which fixes the tic.
+  - "Here's the strange part: it didn't." is a flat marker, as the bible asks.
+  - The best lines are still the doormat, the extinguisher rating and the pigeon bench.
+- **Readability:** grade 8.3, Flesch 66.3. No competitor wording found.
+- **Why the score is 7:** the joke clusters in Killer Moss and Hot Tub Ocean. In both items the Doug beat and the joke
+  kicker land back to back, right after a comic analogy, so for about 20 seconds the narration reads like a sketch
+  rather than a deadpan documentary. Fixing those two items gets this to 8.
 
 ## 5. TTS readiness: PASS
 
-- **Spoken lines:** no digits, symbols, abbreviations or parentheses. Numbers and years are spelled out.
-- **Pronunciation notes:** "phytosaurs", "conodonts" and "brachiopods" are missing from the header (A7).
-- **Hardest word:** "stromatoporoids". It is listed, so preview it with `narrate`.
+- **Spoken lines:** no digits, symbols, abbreviations or parentheses. "pH" appears only in a stage direction.
+- **Pronunciation notes:** all the hard names are listed. Preview "stromatoporoids", "Kellwasser" and "Chicxulub"
+  with `narrate`.
 
 ## 6. Policy: PASS, 0 items
 
-- **Gore:** none. Heat, acid and lava act on the environment and the costume, never on Doug's body. Deaths are frozen
-  poses, X eyes and the flat cap.
-- **Advice:** the hot-tub limit is a comparison, not advice to the viewer.
-- **Tone:** adult-coded. The rubber ring, costume and "good moss" are played deadpan, with no nursery framing.
-- **Climate:** no "sound familiar?" lines and no sixth extinction.
-- **Originality:** an original time-machine narrative with callbacks, not a list read-out.
-- **Title:** "Every" equals the Big Five, and Doug dies in each.
+- **Gore and advice:**
+  - No gore.
+  - The hot tub is a comparison, not advice to the viewer.
+  - The climate science is stated in the past tense, with no "sound familiar?" lines and no sixth extinction.
+  - Adult-coded tone throughout.
+  - The narrative is original.
+  - The title promise is met.
+- **Note for the director and visual screener (not a script issue):** the Hot Tub death stage direction says "Steam".
+  Draw the steam rising off the water, not off Doug. The brief says heat acts on the environment, never on his body.
 
 ## 7. Length: PASS
 
-3,138 spoken words, inside the brief's 3,100 to 3,400. The trims in Fix 3 take out about 40 words. Keep the total at
-3,100 or more, adding to Acid Seas or Pangaea Splits if needed.
+- **Count:** 3,107 spoken words, inside the brief's 3,100 to 3,400.
+- **Headroom:** only 7 words. Fixes 1 and 2 must not leave the total under 3,100. Rewording to the same length, or
+  adding to Pangaea Splits, solves this.
 
 ---
 
 ## Required fixes
 
-1. **Deccan Traps, unsourced split.** "One team found the lava came out in four big pulses, with two before the
-   extinction and two after."
-   - Either add a source quote to facts.md that states two before and two after (Schoene 2019 full text or a figure
-     caption),
-   - or reword to what the sources say, for example "One team found the lava came out in four big pulses, and the
-     largest ones began before the impact."
-2. **Acid Seas, facts.md attribution.**
-   - Read the Greene 2012 abstract (DOI 10.1016/j.earscirev.2012.03.009; the URL in facts.md is fine) and quote the
-     carbonate-shortage line word for word.
-   - Source "selective against acid-sensitive organisms" and "temporarily eliminated coral reefs" to the paper that
-     actually says it. That is probably Martindale et al. 2012, Palaeo3, "Constraining carbonate chemistry at a
-     potential ocean acidification event ...". Add its URL.
-   - If Greene does not support "a global shortage of carbonate rock", re-source the line or cut it. The Sam Noble and
-     PMC12260068 wording on reduced carbonate sedimentation is a usable fallback.
-   - The script wording may stay as is if the sources support it.
-3. **Trim three stops.**
-   - **Killer Moss:** 298 to 280 or fewer. Suggested: shorten the 31-word opening sentence. "Four hundred and
-     forty-three million years ago, animals had not made it onto land yet, so nearly all complex life lived in the sea
-     and the continents were mostly bare rock." This also speeds up the hook.
-   - **Dead Reefs:** 295 to 290 or fewer. Suggested: drop "about the thickness of three coins stacked on top of each
-     other" only if another analogy remains, or trim the "Studies of the rhythms..." sentence.
-   - **Chicxulub:** 383 to 380 or fewer.
-4. **Rule 10 joke density.**
-   - **Ozone Hole:** cut the tan-line joke, for example "Doug gets a bad sunburn, and that's it. He lives." Keep the
-     campfire line (the rule-8 analogy) and the disappointed-narrator kicker (the brief's gag).
-   - **Pangaea Splits:** cut "The narrator checked twice."
-5. **Re-run the stats** after the fixes and update the footer: word count, item 1 positions, Flesch, and max sentence
-   length.
+1. **Killer Moss, rule 10.** Turn one of the three joke lines into a flat line. Keep the doormat line, because the
+   brief asks for it, and keep the Doug beat. Recommended: make the kicker a stark fact instead of a doormat callback.
+   - Current: "The first mass extinction on Earth may have been started by something you could wipe your feet on."
+   - Change to a flat kicker of 8 to 25 words, for example "The first mass extinction on Earth may have been started
+     by a plant shorter than your thumbnail."
+   - Alternative: cut "It's a doormat causing a blizzard." and keep the callback kicker as the only doormat joke.
+2. **Hot Tub Ocean, rule 10.** Turn one of the three joke lines into a flat line. Recommended: make the Doug-beat clause
+   flat and keep the analogy and the kicker.
+   - Current: "...and for the first few minutes he thinks this is the best trip yet."
+   - Change to a plain description of the same length, for example "...and the water around him keeps getting warmer."
+   - Alternative: cut the clause "with no button to turn it off". Cutting the whole "top setting" sentence is not
+     recommended, because it would drop the total below 3,100.
+3. **facts.md, Dead Reefs.** Change "Fernandes et al. 2022" in both places to **Bridge, Baird, Pandolfi, McWilliam and
+   Zapalski 2022, "Functional consequences of Palaeozoic reef collapse", Scientific Reports** (PMC8792005). The URL and
+   the quotes stay as they are.
+4. **Re-run the footer stats** after these edits. The total must still be 3,100 or more; if it is not, add one sourced
+   mechanism sentence to Pangaea Splits (see section 3).
 
 ## Advisory (do not block)
 
-- **A1. Killer Moss, "One leading idea".** Lenton 2012 is a well-cited hypothesis, but nothing in facts.md shows it is
-  *the* leading explanation; other explanations exist, such as weathering of new mountain belts. Safer: "One idea says"
-  or "Some scientists think". The kicker's "may have been" already frames it correctly.
-- **A2. "animals had not made it onto land yet".**
-  - Sam Noble supports this wording.
-  - Some trace fossils suggest arthropods made brief trips onto land by the Ordovician.
-  - "animals had barely set foot on land" would be bullet-proof.
-- **A3. Chicxulub depth.** "twenty kilometers deep" is NOAA's figure for the original crater. It is sourced, but it
-  could mislead (the crater today is buried). Optional cut: "one hundred and eighty kilometers across".
-- **A4. Chicxulub twist marker.** Replace "And then it gets stranger, because it didn't." with a flat marker, for example
-  "Here's the strange part: it didn't." That marker is not used in item 10.
-- **A5. Third-person narrator.** "The narrator would like it noted..." works as a one-off. Using it in two items makes it
-  a new tic. Keep it in one place.
-- **A6. Acid Seas, "almost all of them came out smaller".** Sam Noble says "most suffered losses". Change "almost all"
-  to "most".
-- **A7. Pronunciation notes.** Add phytosaurs = "FY-toh-sors", conodonts = "KON-oh-donts", brachiopods =
-  "BRAY-kee-oh-pods".
-- **A8. Gondwana kicker.** It repeats the million-year second wave from two sentences earlier. Consider a kicker that
-  adds something new, or cut the earlier mention.
-- **A9. facts.md housekeeping.** Note that NHM dates the Devonian at 374 Ma and the Permian at 250 Ma. The script uses
-  372 Ma (Da Silva) and 252 Ma (Burgess), and both are sourced. Recording the difference avoids a repeat query.
+- **A1. Pangaea Splits** is at 237 words; add about 20 sourced words.
+- **A2. Ozone Hole Doug beat** is 10 words; add a few flat words.
+- **A3. Deccan** has a redundant "teams disagree" sentence.
+- **A4. Hot Tub art:** draw the steam coming off the water, not off Doug.
+- **A5. Do not trim items 1 to 4 again,** because the zone shift is already early, at about 36%.

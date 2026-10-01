@@ -13,3 +13,13 @@
 - Planned deaths: 9 (counter 18 to 27), survivals at items 4 and 8. New lore candidate: the time machine (added to the
   series bible at script approval).
 - Stage stays `idea` until the script-writer delivers draft 1.
+
+## 2026-10-01: draft 3 (script writer)
+- Applied draft 2 review fixes 1 to 4. Killer Moss kicker is now flat ("a plant with no real roots and no flowers"); the
+  doormat line stays. Hot Tub Doug beat clause is now flat ("the water around him keeps getting slowly, steadily warmer").
+  facts.md: PMC8792005 relabelled Bridge, Baird, Pandolfi, McWilliam and Zapalski 2022.
+- A1: Pangaea Splits gets one sourced mechanism paragraph on the intrusive CAMP sills (Davies et al. 2017), 237 to 290.
+- A2: Ozone Hole Doug beat now 20 words; the supernova sentence was tightened by 10 words so the item stays at 270 and the
+  zone shift does not move (A5).
+- A3: the Deccan "teams disagree" sentence is kept: cutting it would take Deccan to 256, under its 260 floor.
+- Total 3,159 spoken words.

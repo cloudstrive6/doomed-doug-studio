@@ -1,5 +1,5 @@
 <!-- axis: Era: the Big Five mass extinctions, oldest to newest. Five spoken section headers, one per extinction; the background ramp darkens across the episode. The boss is the End-Cretaceous impact: newest on the axis, the most famous, and the only one triggered in a single day. The End-Permian is the worst by species lost and the script says so plainly at the midpoint. -->
-<!-- Episode 003: Every Mass Extinction. Draft 2 (2026-10-01): screener fixes applied. Death counter starts at 18 (carried over from 001 and 002), ends at 27: nine deaths over eleven items. Survivals at item 4 (Ozone Hole) and item 8 (Pangaea Splits). -->
+<!-- Episode 003: Every Mass Extinction. Draft 3 (2026-10-01): draft 2 screener fixes applied (rule 10 in Killer Moss and Hot Tub Ocean, Pangaea Splits mechanism sentence, Ozone Hole Doug beat lengthened; Deccan "teams disagree" sentence kept because cutting it would drop Deccan to 256, under its 260 floor). Death counter starts at 18 (carried over from 001 and 002), ends at 27: nine deaths over eleven items. Survivals at item 4 (Ozone Hole) and item 8 (Pangaea Splits). -->
 <!-- Species-loss figures come from one source family, the Natural History Museum London "Big Five" summary (species, all environments), except where the script names a different measure on purpose: End-Ordovician "about eighty-five percent of marine species" (Sheehan 2001, NHM agrees), End-Permian classic figure plus Stanley 2016 recount, End-Cretaceous "about three-quarters" (NHM, Lyons et al. 2020 gives 76 percent). -->
 <!-- Section headers "End-Ordovician.", "Late Devonian.", "The Great Dying.", "End-Triassic." and "End-Cretaceous." are spoken on their own line before an item heading, so every item still opens on its exact name. -->
 <!-- Pronunciation checks for the editor (preview with `narrate`; respell in TTS input only if Chirp mangles them): Ordovician = "or-doh-VISH-un"; Gondwana = "gond-WAH-nuh"; Devonian = "deh-VOH-nee-un"; Kellwasser = "KELL-vass-er"; stromatoporoid = "stroh-mat-oh-POR-oyd"; Hangenberg = "HANG-en-berg"; Dunkleosteus = "dunk-lee-OSS-tee-us"; placoderms = "PLACK-oh-derms"; Permian = "PER-mee-un"; Lystrosaurus = "liss-troh-SOR-us"; Triassic = "try-ASS-ik"; Pangaea = "pan-JEE-uh"; ammonite = "AM-oh-nite"; Cretaceous = "kreh-TAY-shus"; Deccan = "DECK-un"; Chicxulub = "CHEEK-shoo-loob"; Yucatan = "yoo-kuh-TAN"; iridium = "ih-RID-ee-um"; phytosaurs = "FY-toh-sors"; conodonts = "KON-oh-donts"; brachiopods = "BRAY-kee-oh-pods". -->
@@ -40,7 +40,7 @@ Doug pats the moss. It is the first time he has been nice to something that coul
 
 [Snow sweeps in. Doug frozen solid mid-pat, X eyes, cap frosted white. DOUG DEATHS: 19]
 
-The first mass extinction on Earth may have been started by something you could wipe your feet on.
+The first mass extinction on Earth may have been started by a plant with no real roots and no flowers.
 
 ## Gondwana Ice
 
@@ -108,7 +108,7 @@ Thirteen million years later, at the very end of the Devonian, the next threat a
 
 In the mountains of East Greenland and high in the Bolivian Andes, scientists found fossil plant spores from this exact moment. Many of them were malformed, with strange, twisted spines on their surface. The researchers linked that damage to a jump in ultraviolet radiation, which means the ozone layer had thinned.
 
-Their own explanation was rapid warming at the end of an ice age, which could have weakened the ozone layer from the inside. There is also a more dramatic suspect, because another team proposed that one or more nearby supernovas may have done it, from about sixty-five light-years away.
+Their own explanation was rapid warming at the end of an ice age, which could have weakened the ozone layer from the inside. Another team proposed a more dramatic suspect: one or more nearby supernovas, about sixty-five light-years away.
 
 That's like a campfire in the next town burning off your eyebrows.
 
@@ -120,7 +120,7 @@ Among the victims was the family of armored fish called placoderms. Their most f
 
 [Doug on a rock, bright red with a cartoon sunburn and a peeling nose. Dunkleosteus sinks past him, X eyes.]
 
-Doug gets a bad sunburn, and that's it. He lives.
+Doug gets a bad sunburn. His arms turn bright red and his nose starts to peel, and that's it. He lives.
 
 The narrator would like it noted that the stick man in a baseball cap made it, and the fish with armor plating did not.
 
@@ -176,7 +176,7 @@ The worst part is how long it lasted. This dead zone did not fade in a few thous
 
 [Doug in the ocean in a rubber ring, a little towel folded on his head, eyes closed. Hopeful smile.]
 
-Doug floats in the ocean with a rubber ring and a little towel on his head, and for the first few minutes he thinks this is the best trip yet.
+Doug floats in the ocean with a rubber ring and a little towel on his head, and the water around him keeps getting slowly, steadily warmer.
 
 [The thermometer pops. Doug floats limp in the ring, X eyes. Steam. DOUG DEATHS: 23]
 
@@ -225,6 +225,8 @@ Splitting a supercontinent lets magma rise from below, and the result was the Ce
 That's one spilled drink reaching four tables.
 
 The eruptions came in four pulses spread over about six hundred thousand years, and they pumped carbon dioxide into the air, warmed the planet and changed the oceans. The earliest volcanism lines up with the extinction, and about eighty percent of Earth's species disappeared.
+
+Some of the magma never reached the surface. Underground activity began about a hundred thousand years before the first known eruptions. In Brazil, sheets of magma pushed into rock rich in oil and ancient remains, right as the extinction began. Gas cooked out of that rock may have added to the climate change.
 
 [Four red pulses on a timeline. Red "X" marks over crocodile-like reptiles.]
 
@@ -340,4 +342,4 @@ So every pigeon you meet descends from dinosaurs that outlived the asteroid, and
 
 Doug deaths: twenty-seven. Tell us in the comments where in time Doug should go next. The cap is already packed.
 
-<!-- words: 3107 (spoken narration only; headings, comments and stage directions excluded) · est. runtime 15:56 at 195 wpm · item 1 name at spoken words 33-34, twist ("Here's the twist") at spoken word 126 · 199 sentences, avg 15.6 words, max 33 · Flesch Reading Ease 66.3 (textstat, whole script) · outro 20 words · draft 2 item budgets: Killer Moss 278, Dead Reefs 285, Chicxulub 377 -->
+<!-- words: 3159 (spoken narration only, spoken section headers included; markdown headings, comments and stage directions excluded) · est. runtime 16:12 at 195 wpm · item 1 name at spoken words 33-34, twist ("Here's the twist") at spoken words 126-128 · "The Great Dying." at spoken word 1,132 (36%) · 200 sentences, avg 15.8 words, max 33 · Flesch Reading Ease 66.4, grade 8.2 (textstat, whole script) · outro 20 words · draft 3 item counts (section headers excluded): Killer Moss 280, Gondwana Ice 260, Dead Reefs 285, Ozone Hole 270, Siberian Traps 267, Hot Tub Ocean 271, Purple Oceans 269, Pangaea Splits 290, Acid Seas 275, Deccan Traps 271, Chicxulub 377 -->
