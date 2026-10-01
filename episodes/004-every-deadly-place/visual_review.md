@@ -85,3 +85,59 @@ s176 and s197, plus `build/thumbnail.png` and `build/thumbnail_small.png` (also 
 
 VERDICT: FAIL (fixes 1 to 9: director re-blocks s030, s062 optional, s063, s064, s067, s136 to s139, s145 to s150, s151, s154, s157,
 s162, s175, s176, s197, s224, s225, s249 to s252, s262 to s269, s278 to s282; then re-run keyframes for those shots for round 2)
+
+## Round 2: keyframe re-check, 2026-10-01
+
+Scope: every changed shot at full resolution (s011, s030, s062 to s064, s067, s101, s103, s104, s137, s141, s142,
+s145 to s151, s154, s157, s162, s171 to s173, s175, s176, s183, s195, s197, s222 to s225, s240, s244, s251, s252,
+s263, s265, s266, s268, s273 to s282), plus their unchanged neighbours (s136, s138, s249, s250, s262, s264, s267,
+s269), to re-check the variety runs.
+
+### Round 1 blocking fixes: status
+1. s063, s064: **fixed.** Doug's head, torso and both arms now show above the sand line, and the legs are cut away
+   below it. "Sunk to the waist" reads, and he's on-model.
+2. s067: **fixed.** The QUICKSAND end is down and Doug's end is up, which matches "half as dense".
+3. s224: **fixed.** The bolt's tip lands in the Venezuela circle, and "MOST LIGHTNING" now sits above the map frame.
+4. s197: **fixed.** The canyon now has visible life: a bird, a fern, two green shoots and a jackal. "Life was doing
+   fine" reads in 1 second.
+5. s176: **fixed.** Ghost Doug is in open water at the top left, clear of the crystals.
+6. s030: **fixed.** The halo is now a yellow-green glow with no red spray. The silhouette tease still works.
+7. Text over drawings: **fixed** in s151 (clears the crystal by a few px; see A4), s154, s157, s162, s175 and s225.
+8. Variety runs: **fixed.** s147 (wide shot from behind, over the peaks), s148 (face close-up with clock), s137
+   (climber close-up with hemoglobin inset), s251 (lake = 2 soccer fields), s252 (pull-back to the volcano), s263
+   (volcano inset), s266 (split with Nyos) and s268 (push-in with animals and warning sign). No run of 4 or more
+   near-identical frames is left in these sections.
+9. s278 to s282: **fixed.** The orange lava band stays behind the cap, ghost and suitcase, so continuity holds.
+
+Round 1 advisories: s062 is still unchanged, with Doug fully on the surface (fine to leave). s101 is OK: the label now
+sits over the suitcase and the arrow points at his crusted flip-flops. s131 wasn't touched. s195, s222, s240 and s244
+are fixed.
+
+Policy: no new gore. The s268 animal silhouettes are plain black shapes. The Nyos panel in s266 is a neutral
+diagram, with no joke and no figure.
+
+### Required fixes (blocking)
+1. **s266 (director): the Nyos hill spills into the left panel.** The Nyos hill poly is `smooth: true` and starts at
+   (960,760), so the smoothing makes it bulge about 75 px left of the divider line, between roughly y=840 and y=1080.
+   A dark green lobe then crosses into the mazuku panel, past the split line. Fix it in one of two ways:
+   - Set `smooth: false` on that poly.
+   - Or add a clip vertex so the shape can't cross x=960. For example, start the points at [960,1120], [960,760],
+     ..., and draw the left-panel ground poly after the Nyos hill.
+2. **s282 (director): the arrow points at nothing, which contradicts "still has room".** All 9 sticker slots are
+   full. The arrow (to [1392,796]) hits the bottom-right corner or wheel, so the final image says "no room". Show an
+   empty slot and point the arrow at it. For example:
+   - Drop the sticker scale to about 0.8 and tighten the rows so a clear brown strip shows at the bottom of the
+     case.
+   - Then add a white dashed rounded-rect "empty sticker" outline there, about 90x45, and aim the arrow at its centre.
+
+### Advisory (non-blocking)
+- A1. s279: the marshmallow is golden-toasted, but "more than the marshmallow can say" needs it worse off than the cap.
+  Make the marshmallow charred black (dark fill, or a black spray of density 0.5 or more) with a small smoke wisp.
+- A2. s150: "1/3 OF A BREATH" touches the foot of the DOUG flagpole. Shift it right about 30 px or down about 30 px.
+- A3. s263: the volcano inset floats in the sky with no frame. Put a thin black inset box (or a white-bordered
+  circle) around it so it reads as a cutaway, not a flying volcano.
+- A4. s151: the title clears the top crystal by only a few px, and the DOUG DEATHS box nearly touches it. Lift
+  the wordart about 20 px, or drop it to size 0.9.
+
+VERDICT: FAIL (required fixes 1 and 2: the director re-blocks s266 and s282, then re-runs keyframes for those 2 shots. No
+illustrator, art director or graphic designer work is needed.)

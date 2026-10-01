@@ -37,7 +37,10 @@ desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never
   for a death beat: Doug uses `pose: "on_back"` (no `rotate`) and the prop keeps `rotate: -90` at Doug's x/y
   (003: `snorkel_gear`, `ammonite_costume_flat`; shift a torso costume +30 x scale in x so it clears the cap brim).
   Anything the prop carries on Doug's back (shells, tanks) then points *down*, so keep Doug high enough that it
-  stays in frame.
+  stays in frame. **When you move Doug, move every worn prop with him** (`flip_flops`, `zapped_hair`, costumes):
+  same x/y/scale, every time (004 s104: Doug was lowered, the flip-flops stayed behind on his shins).
+- **Planted props (flags, poles, signs) touch the ground**: end the pole on the surface line, never in the air
+  beside a slope (004 s146: the summit flag floated about 80 px above the slope).
 - **Death pose (from 003)**: `pose: "on_back"`, `expression: "dead"`, never `rotate`. Body flat, head near-upright
   facing the sky, red cap on (or `gear: ["cap_off"]` for the cap knocked off beside his head). `lie` + `rotate: -90`
   is retired for new shots: it turns the cap into a red half-head and the body into a fan of whiskers. Only

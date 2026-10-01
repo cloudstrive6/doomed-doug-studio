@@ -18661,6 +18661,13 @@
       "scale": 0.9
      },
      {
+      "type": "asset",
+      "name": "flip_flops",
+      "x": 1450,
+      "y": 870,
+      "scale": 0.55
+     },
+     {
       "type": "doug",
       "x": 1450,
       "y": 870,
@@ -18797,7 +18804,7 @@
       "type": "asset",
       "name": "flip_flops",
       "x": 700,
-      "y": 770,
+      "y": 880,
       "scale": 0.6
      },
      {
@@ -25559,7 +25566,7 @@
       "points": [
        [
         1110,
-        600
+        680
        ],
        [
         1110,
@@ -26489,7 +26496,7 @@
       "points": [
        [
         1110,
-        600
+        680
        ],
        [
         1110,
@@ -26826,7 +26833,7 @@
       "points": [
        [
         1110,
-        600
+        680
        ],
        [
         1110,
@@ -26962,7 +26969,7 @@
       "type": "wordart",
       "text": "1/3 OF A BREATH",
       "x": 1450,
-      "y": 620,
+      "y": 320,
       "size": 80,
       "boil": 0,
       "appear": 0.474
@@ -27057,9 +27064,9 @@
      {
       "type": "text",
       "text": "CAVE OF CRYSTALS",
-      "x": 900,
-      "y": 250,
-      "size": 100,
+      "x": 760,
+      "y": 240,
+      "size": 90,
       "color": "#e0201b",
       "outline": "#000000",
       "outline_width": 7,
@@ -43485,6 +43492,17 @@
       "facing": "right"
      },
      {
+      "type": "rect",
+      "x": 815,
+      "y": 300,
+      "w": 290,
+      "h": 220,
+      "fill": "#2b3a55",
+      "width": 5,
+      "color": "#ffffff",
+      "appear": 0.078
+     },
+     {
       "type": "asset",
       "name": "volcano",
       "x": 960,
@@ -43961,7 +43979,7 @@
       ],
       "fill": "#1d3a24",
       "width": 5,
-      "smooth": true
+      "smooth": false
      },
      {
       "type": "ellipse",
@@ -45117,7 +45135,7 @@
      {
       "type": "doug",
       "x": 600,
-      "y": 788,
+      "y": 756,
       "scale": 0.75,
       "pose": "stand",
       "expression": "angry",
@@ -45337,7 +45355,7 @@
      {
       "type": "doug",
       "x": 600,
-      "y": 788,
+      "y": 756,
       "scale": 0.75,
       "pose": "stand",
       "expression": "angry",
@@ -45550,7 +45568,7 @@
      {
       "type": "doug",
       "x": 600,
-      "y": 788,
+      "y": 756,
       "scale": 0.75,
       "pose": "stand",
       "expression": "hopeful",
@@ -45770,7 +45788,7 @@
      {
       "type": "doug",
       "x": 600,
-      "y": 788,
+      "y": 756,
       "scale": 0.75,
       "pose": "point",
       "expression": "angry",
@@ -45992,7 +46010,7 @@
      {
       "type": "doug",
       "x": 600,
-      "y": 788,
+      "y": 756,
       "scale": 0.75,
       "pose": "point",
       "expression": "gritted",
@@ -46560,12 +46578,69 @@
       "appear": 0.474
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        497.1,
+        882.5
+       ],
+       [
+        539.7,
+        905.3
+       ],
+       [
+        518.3,
+        945.6
+       ],
+       [
+        475.7,
+        923.0
+       ]
+      ],
+      "fill": "#3a3636",
+      "width": 4,
+      "appear": 0.667
+     },
+     {
       "type": "spray",
-      "x": 552.2,
-      "y": 896.0,
-      "r": 30,
-      "color": "#000000",
-      "density": 0.5,
+      "x": 507.7,
+      "y": 914.1,
+      "r": 22,
+      "color": "#0a0a0a",
+      "density": 0.6,
+      "appear": 0.667
+     },
+     {
+      "type": "spray",
+      "x": 510,
+      "y": 925,
+      "r": 18,
+      "color": "#ff5a1f",
+      "density": 0.12,
+      "appear": 0.667
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        507.7,
+        884.075
+       ],
+       [
+        492.7,
+        844.075
+       ],
+       [
+        517.7,
+        809.075
+       ],
+       [
+        502.7,
+        774.075
+       ]
+      ],
+      "width": 5,
+      "color": "#9a9a9a",
       "appear": 0.667
      }
     ]
@@ -47228,7 +47303,7 @@
       "name": "sticker_death_valley",
       "x": 1136,
       "y": 616,
-      "scale": 0.95,
+      "scale": 0.76,
       "rotate": -8
      },
      {
@@ -47236,7 +47311,7 @@
       "name": "sticker_snake_island",
       "x": 1250,
       "y": 616,
-      "scale": 0.95,
+      "scale": 0.76,
       "rotate": 5
      },
      {
@@ -47244,56 +47319,103 @@
       "name": "sticker_morecambe_bay",
       "x": 1364,
       "y": 616,
-      "scale": 0.95,
+      "scale": 0.76,
       "rotate": -3
      },
      {
       "type": "asset",
       "name": "sticker_antarctica",
       "x": 1136,
-      "y": 678,
-      "scale": 0.95,
+      "y": 668,
+      "scale": 0.76,
       "rotate": 6
      },
      {
       "type": "asset",
       "name": "sticker_everest",
       "x": 1250,
-      "y": 678,
-      "scale": 0.95,
+      "y": 668,
+      "scale": 0.76,
       "rotate": -6
      },
      {
       "type": "asset",
       "name": "sticker_naica",
       "x": 1364,
-      "y": 678,
-      "scale": 0.95,
+      "y": 668,
+      "scale": 0.76,
       "rotate": 3
      },
      {
       "type": "asset",
       "name": "sticker_dallol",
       "x": 1136,
-      "y": 739,
-      "scale": 0.95,
+      "y": 720,
+      "scale": 0.76,
       "rotate": -4
      },
      {
       "type": "asset",
       "name": "sticker_nyos",
       "x": 1250,
-      "y": 739,
-      "scale": 0.95,
+      "y": 720,
+      "scale": 0.76,
       "rotate": 7
      },
      {
       "type": "asset",
       "name": "sticker_nyiragongo",
       "x": 1364,
-      "y": 739,
-      "scale": 0.95,
+      "y": 720,
+      "scale": 0.76,
       "rotate": -2
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1324.0,
+        758.0
+       ],
+       [
+        1404.0,
+        758.0
+       ],
+       [
+        1412.0,
+        766.0
+       ],
+       [
+        1412.0,
+        794.0
+       ],
+       [
+        1404.0,
+        802.0
+       ],
+       [
+        1324.0,
+        802.0
+       ],
+       [
+        1316.0,
+        794.0
+       ],
+       [
+        1316.0,
+        766.0
+       ],
+       [
+        1324.0,
+        758.0
+       ]
+      ],
+      "width": 4,
+      "color": "#ffffff",
+      "dash": [
+       10,
+       7
+      ]
      },
      {
       "type": "label",
@@ -47321,8 +47443,8 @@
        640
       ],
       "to": [
-       1392.5,
-       796.25
+       1364,
+       780
       ],
       "bend": 40,
       "color": "#e0201b",

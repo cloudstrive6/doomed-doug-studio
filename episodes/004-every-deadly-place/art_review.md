@@ -171,3 +171,64 @@ No asset fixes for the illustrator.
   - Wordart must not cross map frames, land, crystals or bolts.
   - The counter zone applies to every counter shot.
   - Ground texture lines must not pass behind Doug.
+
+---
+
+# Keyframe review, Round 2: 004 Every Deadly Place
+
+Reviewer: art director · 2026-10-01
+Scope: the 52 re-rendered keyframes (s011, s030, s062-s064, s067, s101, s103, s104, s137, s141, s142, s145-s151, s154,
+s157, s162, s171-s173, s175, s176, s183, s195, s197, s222-s225, s240, s244, s251, s252, s263, s265, s266, s268,
+s273-s282), checked at full resolution and in context on contact sheets 01, 03, 06, 09, 12-17 and 19-24.
+I made test renders of the two fixes below with `python -m studio art` (s104 and s150, not committed). Both work.
+
+## Verdict: FAIL (2 small blocking fixes; everything else passes)
+
+### Round 1 items: status
+| # | shot(s) | status |
+|---|---|---|
+| 1 | s063, s064 waist-deep Doug | FIXED. Torso, arms and cap are above the sand and the cross-section legs are below. On-model. |
+| 2 | s103, s104 legs on snow | FIXED. Ink is black and the whole body is on the snow. (s104 also has a new prop problem, see fix A.) |
+| 3 | s171-s173 legs on crystal | FIXED. Doug sits on the beam with his shins hidden and a white torso against the dark wall. |
+| 4 | s183 sitting legs on salt | FIXED. |
+| 5 | s141, s142, s145-s150 flat summit | FIXED. The shaded face, spray and strata now match `mount_everest`. |
+| 6 | s222 moon in counter zone | FIXED (moon at 1720,330). |
+| 7 | s273-s277 lava crust behind Doug | FIXED. The crust lines are on open lava. |
+| 8 | s224 wordart on map | FIXED. The map is smaller and the wordart sits in the margin. The bolt is now over Venezuela (screener #3). |
+| 9 | s011, s101 flip-flop arrows | FIXED. Both arrows now land on the feet. |
+| 10 | s223 yellow title | FIXED. Red `#e0201b` with a black outline, clear of the bolts. |
+| 11 | s151, s154, s162 text on crystals | FIXED (s151 is close, see note C). |
+| 12 | s225 "ISN'T CLOSE" | FIXED. It is on the shore band. |
+
+The screener's items also hold. The s067 seesaw now tips toward the quicksand. The s030 halo is now a yellow glow
+(it reads as a warning, not blood). s176 moves the ghost to clear dark water. The variety runs are broken up: s147 is a
+wide shot over the peaks, s148 is a face close-up, s137 is a blood-cell inset, s251 is a soccer-field comparison,
+s252 is a pull-back, s266 is a Nyos split and s268 is the warning sign. s278-s282 keep the lava band. s195, s240 and
+s244 have their wordart clear of the circle and the fishing line. s197 now shows the punchline (robin, plants, jackal,
+thumbs-up). s268 animals are flat black cartoon silhouettes with no injury detail, so they are not gory. The episode
+reads as one consistent style, and the zone colours are unchanged from round 1.
+
+## Blocking fixes (director)
+A. **s104: the flip-flops float on Doug's shins.** Doug was lowered to y 880, but `flip_flops` stayed at y 770.
+   Worn props share Doug's x/y/scale, so set `flip_flops` to **y 880**. Tested: they sit under his feet below the
+   suitcase.
+B. **s146, s149, s150: the "DOUG" summit flag floats.** The pole `[[1110,600],[1110,420]]` ends about 80 px above the
+   slope (the slope is at y 678 at x 1110). In all 3 shots, change the pole to **`[[1110,680],[1110,420]]`**. Also, in
+   **s150**, move the "1/3 OF A BREATH" wordart to **y 320** (it currently crosses the pole). It then sits in clear sky
+   below the counter. Tested (s150).
+
+## Non-blocking (fix if touching the shot anyway)
+C. **s151:** the bottom of the red "CAVE OF CRYSTALS" title just touches the top corner of the upper crystal (around
+   x 470). Shift it to about **x 820, y 235** if convenient. Keep it clear of the counter box.
+D. **s103:** Doug has no flip-flops here, but s101 and s104 do. To keep continuity, add `flip_flops` at
+   **x 1450, y 870, scale 0.55** (most of it will sit behind the suitcase).
+E. **s273-s277:** Doug's feet go about 30 px into the rock shelf. This is cosmetic. Doug **y 756** (from 788) would put him on it.
+
+No asset fixes for the illustrator.
+
+## Changed files
+- `channel/art_bible.md`: worn props must move with Doug (same x/y/scale), and planted poles/flags must end on the
+  ground line.
+
+After A and B are fixed and s104, s146, s149 and s150 are re-rendered, these keyframes are **PASS** without
+another full review.
