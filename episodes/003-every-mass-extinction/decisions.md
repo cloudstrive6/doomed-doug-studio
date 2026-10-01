@@ -23,3 +23,21 @@
   zone shift does not move (A5).
 - A3: the Deccan "teams disagree" sentence is kept: cutting it would take Deccan to 256, under its 260 floor.
 - Total 3,159 spoken words.
+
+## 2026-10-01: script draft 3 APPROVED (creative director)
+- Screener PASS (0 fact errors, 0 policy items, hook 9/10). Checked against the brief: era axis and five spoken headers
+  in order; "Killer Moss." at words 33-34, twist at ~127 (under 145); counter 18 to 27 with at least one death per
+  section, survivals at items 4 and 8; every gag as briefed (opener line once, moss and Lystrosaurus befriended, one
+  costume callback, extinguisher/marshmallow callback, cap fossil in the iridium layer); no sixth extinction, no
+  modern-climate commentary; deaths stay cartoon and off Doug's body; outro 20 words. Title promise met.
+- Applied directly (no words added; 3,159 to 3,158; Pangaea Splits 290 to 289):
+  - A1: "Some of the magma never reached the surface. Underground activity began" became "As in Siberia, some magma
+    stayed underground. That activity began" (deliberate flat callback instead of a rerun of the Siberian twist).
+  - A2: "rock rich in oil and ancient remains" became "rock rich in oil and organic matter" (matches Davies 2017).
+  - A4: facts.md Ozone Hole note now quotes the draft 3 supernova framing.
+- Not applied: A3 (Killer Moss kicker restates roots/flowers). It is flat on purpose, rule 10 is at its limit there,
+  and it reads fine as a button. A5 and A6 carried to the director and visual screener (Hot Tub steam off the water,
+  not Doug; sunburn as a colour fill and nose flakes only, locked design).
+- Note for the director: "the size of the United States" is used three times (Gondwana x3, Siberia, CAMP). Accepted
+  in narration; vary the on-screen visual (map overlays at different scales) so it does not look repeated.
+- Time machine adopted as series lore (series bible updated): the vehicle for the `prehistoric` playlist.

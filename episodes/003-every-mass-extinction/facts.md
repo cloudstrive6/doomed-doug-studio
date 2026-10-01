@@ -127,7 +127,7 @@ https://www.nhm.ac.uk/discover/what-is-mass-extinction-and-are-we-facing-a-sixth
   117: 21008, https://www.pnas.org/doi/10.1073/pnas.2013774117 (abstract verified: "we propose that the end-Devonian
   extinctions were triggered by supernova explosions at ~20 pc"; 20 parsecs is about 65 light-years, University of Illinois
   release via https://phys.org/news/2020-08-stars-mass-extinction-earth.html). "One or more": the paper says "supernova
-  explosions" (plural possible). Framed once as "another team proposed ... may have done it".
+  explosions" (plural possible). Framed once as "Another team proposed a more dramatic suspect" (draft 3 wording).
 - Losses the same in sea and fresh water, over 1,250 taxa, over 50% diversity loss, placoderms' minimal recovery: Sallan
   and Coates 2010, "End-Devonian extinction and a bottleneck in the early evolution of modern jawed vertebrates", PNAS,
   https://www.pnas.org/doi/10.1073/pnas.0914000107 (abstract verified): "over 1,250 taxa"; "long-term losses of over 50%

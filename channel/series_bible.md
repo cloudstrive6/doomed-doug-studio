@@ -37,6 +37,10 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
   Played deadpan and adult-coded: no mascot voices, no cute framing. The narration states once that the animal-only
   parasite can't infect people ("which is exactly why Doug is dressed as a cricket"). Library precedent:
   `assets/library/squid_costume.json`.
+- **The time machine** (from 003): a crude MS Paint phone booth, our own design (art director owns the drawing). It is
+  how Doug reaches deep time and the standard vehicle for the `prehistoric` playlist. Never explained, never
+  breaks down on purpose; Doug steps out hopeful, the door opens onto the danger. It always survives (003 ends with a
+  pigeon sitting on its roof). Do not use it outside time-travel episodes.
 - Named animal "friends" who get Doug killed: **Buddy** the raccoon (002, raccoon roundworm). Reuse sparingly.
 
 ## Series / playlists (config `youtube.playlists`)
@@ -51,3 +55,4 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 |---|---|---|---|---|
 | 001 | How Doug Would Die in Every Layer of the Ocean | pending (QC passed, awaiting scheduled upload) | 7 (total 7) | Pilot. Survived: Bobbit Worm (cap stolen), Giant Squid, Barreleye, Vampire Squid (glowing goo), Challenger Deep (found a plastic bag). Deaths by zone: sunlight 2, twilight 1, midnight 2, abyss 1, hadal 1. |
 | 002 | What Dying From Every Parasite Would Feel Like (working) | pending (QC passed 2026-09-30, awaiting scheduled upload) | 11 (total 18) | Counter 7 to 18, one death per item, no survivals. Act 1 in costume (jewel wasp, zombie ant fungus, horsehair worm, broodsac, toxoplasma), act 2 "Human hosts." (blood flukes, kissing bug, malaria, raccoon roundworm, sleeping sickness, brain-eating amoeba). Introduced the costume gag and Buddy the raccoon. |
+| 003 | How Doug Would Die in Every Mass Extinction (working) | pending (script approved 2026-10-01) | 9 planned (total 27 on QC) | Counter 18 to 27, Big Five in order. Survived: Ozone Hole (sunburn), Pangaea Splits ("Doug is fine."). Introduced the time machine. Befriended the moss and a Lystrosaurus; one costume callback (ammonite); marshmallow then fire extinguisher at the volcanic extinctions; cap ends as a fossil in the iridium layer. Do not update the death total above until 003 passes QC. |

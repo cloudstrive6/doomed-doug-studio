@@ -19,7 +19,12 @@
       "stage": "scripted",
       "at": "2026-10-01T05:33:18+00:00",
       "note": "draft 3"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-01T05:36:12+00:00",
+      "note": "CD approved draft 3 (screener PASS); applied A1/A2/A4 polish, 3,158 words; time machine adopted into series bible"
     }
   ],
-  "stage": "scripted"
+  "stage": "script_approved"
 }
