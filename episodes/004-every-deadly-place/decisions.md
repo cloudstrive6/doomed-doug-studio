@@ -48,3 +48,4 @@
   teaser in it (lanceheads, quicksand myth, Natron "stone" myth, Maracaibo lightning) is in the script. Sources, disclaimer
   and AI-use note are present, playlist is `places`, and `validate metadata` returns OK.
 - Next: editor (narrate, render, QC).
+2026-10-01: rounds: script 3, keyframes 3 (art+visual), thumbnail 1. Risks: Nyos sombre item, pronunciations unverified by ear (Chirp), Kivu gas figure hedged.
