@@ -1,0 +1,42 @@
+{
+ "date": "2026-10-01",
+ "channel": {
+  "viewCount": "0",
+  "subscriberCount": "1",
+  "hiddenSubscriberCount": false,
+  "videoCount": "2"
+ },
+ "videos": [],
+ "errors": [
+  "videoThumbnailImpressions,videoThumbnailImpressionsClickRate: <HttpError 400 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DMINE&startDate=2026-09-03&endDate=2026-10-01&metrics=videoThumbnailImpressions%2CvideoThumbnailImpressionsClickRate&dimensions=video&sort=-videoThumbnailImpressions&maxResults=25&alt=json returned \"The query is not supported. Check the documentation at https://developers.google.com/youtube/analytics/v2/available_reports for a list of supported queries.\". Details: \"[{'message': 'The query is not supported. Check the documentation at https://developers.google.com/youtube/analytics/v2/available_reports for a list of supported queries.', 'domain': 'global', 'reason': 'badRequest'}]\">"
+ ],
+ "traffic_sources": {
+  "columns": [
+   "insightTrafficSourceType",
+   "views",
+   "estimatedMinutesWatched"
+  ],
+  "rows": [
+   [
+    "YT_SEARCH",
+    1,
+    0
+   ]
+  ]
+ },
+ "countries": {
+  "columns": [
+   "country",
+   "views"
+  ],
+  "rows": []
+ },
+ "revenue": {
+  "columns": [
+   "estimatedRevenue",
+   "playbackBasedCpm",
+   "monetizedPlaybacks"
+  ],
+  "rows": []
+ }
+}

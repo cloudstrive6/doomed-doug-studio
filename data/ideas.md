@@ -1,34 +1,50 @@
 # Idea backlog (ranked by the growth analyst)
 
-Score = expected views/speed (1–10). "Engine" = the proven outlier formula it borrows (views and outlier_x from
-`data/competitors/2026-09-29.json` unless marked "style bible"). Status: backlog / in-production / published.
-Last re-rank: 2026-09-29 (memo `data/insights/2026-09-29.md`). Never delete published rows.
+Score = expected views/speed (1–10). "Engine" = the proven outlier formula it borrows. Views/outlier_x come from
+`data/competitors/2026-10-01.json` unless marked "signals" (from `python -m studio signals`, `data/signals/2026-10-01.json`)
+or "style bible". Status: backlog / in-production / published. Never delete published rows.
+Last re-rank: 2026-10-01 (memo `data/insights/2026-10-01.md`).
 
-Playlist keys: ocean, parasites, prehistoric, places, compilations. `animals*` = proposed new playlist
-("Doug vs. Animals"), creative director to decide; file under `places` until then.
+**Scoring (launch weights, <3 episodes with 7-day data):** Score = 0.35 Eng + 0.20 Interest + 0.15 Demand + 0.15 Sat + 0.15 Own, each 0–10.
+- **Eng:** 10 = ≥5M or ≥10x on ≥1M; 8 = 2–5M at ≥3x or repeated hits; 6 = ~0.5–1.5M or a small-channel ≥5x; 4 = weak (<2x) or style bible only; 2 = unproven.
+- **Interest:** best `vph_recent` of the engine video(s) (signals `vph_best` where the engine isn't watched): ≥3000 = 10, 2000+ = 8, 1000+ = 6, 500+ = 4, 200+ = 3, <200 = 1.
+- **Demand:** the `signals` demand score for the TOPIC query.
+- **Sat:** `signals` recent 100K+ copies for the FORMAT phrase: ≤3 = 10, 4–8 = 5, 9+ = 2. `?` = not queried yet (scored 5).
+- **Own:** neutral 5 for everyone until episodes reach day 7. Ep 001 hits day 7 on 2026-10-07, and ep 002 on 2026-10-11.
 
-| # | Working title | Playlist | Engine (proven outlier) | Score | Status |
-|---|---|---|---|---|---|
-| 1 | I Sent Doug to Every Layer of the Ocean | ocean | Depth descent: Mr. Science "Why Deep Sea Creatures Get Creepier the Deeper You Go" 17.0M (13.0x); PE ocean layers 1.8M (4.5x, style bible) | 10 | in-production (001-every-layer-of-the-ocean) |
-| 2 | What Dying From Every Parasite Would Feel Like | parasites | quack doc "What Dying From Every Deadly Disease Feels Like" 5.54M (103x) + Pt. 2 531K (9.9x) + genetic-disease 292K (5.4x, this week); Bacterium "Every IMPOSSIBLE Parasite That Actually Exists" 330K (38x) | 10 | in-production (002-every-parasite) |
-| 3 | Surviving One Night in Every Prehistoric Ocean | prehistoric | ExtinctZoo "The Deadliest Sea Animal From Every Single Period" 2.57M (3.1x); Spinosnack prehistoric deep ocean 424K (4.0x, 2026-09-17); Mosasaurus 875K (8.2x) | 9 | backlog |
-| 4 | The Worst Places on Earth to Die | places | Simple Paint "The Worst Places To Die In Space" 1.90M (8.0x); PE "Most Guarded Places…" 2.19M (3.1x, 2026-09-08) | 9 | backlog |
-| 5 | What Surviving Every Mass Extinction Would Be Like | prehistoric | "When Earth…" deep-time series: ExtinctZoo "When It Rained For 2,000,000 Years" 4.13M (5.0x); Mr. Science "When Antarctica Was a Jungle" 3.98M (3.0x) | 9 | backlog |
-| 6 | Why the Mariana Trench Gets Deadlier the Deeper Doug Goes | ocean | BeyondTheBlue "Nothing About The Mariana Trench Is Normal…" 2.63M (8.2x), "What Exists in the Deepest Place on Earth?" 2.41M (7.5x), "Why We Can't Truly Explore the Mariana Trench" 1.05M (3.3x, 2026-09-19) | 9 | backlog |
-| 7 | What Happens If You Fall Into Every Deadly Place on Earth | places | Death sim + search demand (volcano, quicksand, whirlpool, sinkhole); Paintify "Every Unexplored Place on Earth" 1.54M (6.0x) | 8 | backlog |
-| 8 | The Creepiest Parasites That Take Over Their Host's Brain | parasites | Bacterium "Every IMPOSSIBLE Parasite…" 330K (38x); Kurzgesagt "Most Gruesome Parasites" 13.3M (style bible) | 8 | backlog |
-| 9 | The Most Disturbing Fungi Scientists Have Ever Found | parasites | Bacterium "Every IMPOSSIBLE Fungus That Actually Exists" 382K (44x), "Every DEADLIEST Fungus That Looks Edible" 84K (9.8x), fungus Pt. 2 55K (6.4x, 2026-09-25) | 8 | backlog |
-| 10 | The Deadliest Predator From Every Period of Earth's History | prehistoric | ExtinctZoo "Earth's Deadliest Predator From Every Single Period" 2.02M (2.5x) + sea version 2.57M (3.1x) | 8 | backlog |
-| 11 | Every Ocean Predator That's Terrified of Something Bigger | ocean | BeyondTheBlue fear-chain series: "Why The Entire Ocean Is Terrified of Sperm Whales" 2.61M (8.1x), orcas vs pilot whales 1.73M (5.4x), orcas vs sperm whales 1.36M (4.2x) | 8 | backlog |
-| 12 | Every Way Nature Can Kill Doug, From Least to Most Painful | places | Simple Paint "The Most Horrifying Ways Nature Can Kill You" 928K (3.9x); PE severity-ranking structure | 8 | backlog |
-| 13 | The Deadliest Man-Eating Animals in Recorded History | animals* | Simple Paint "The Deadliest Man-Eaters to Ever Exist" 1.24M (5.3x) | 7 | backlog |
-| 14 | What Dying From Every Venom Would Feel Like | animals* | quack doc "What Dying From Every…Feels Like" formula 5.54M (103x), moved to nature | 8 | backlog |
-| 15 | The Creepiest Fossils That Still Look Alive | prehistoric | ExtinctZoo "Prehistoric Animals Preserved So Well They Look Like Roadkill" 4.22M (5.1x) | 8 | backlog |
-| 16 | The Most Disturbing Deep Sea Discoveries Scientists Can't Explain | ocean | PE "Most Disturbing Scientific Anomalies…" 4.69M (6.6x) + Pt. 1 2.72M (3.9x); Spinosnack "Why We Will NEVER Know…Prehistoric Deep Ocean" 424K (4.0x) | 7 | backlog |
-| 17 | Terrifying Animals You Should Be Glad Are Extinct | prehistoric | Ranking; BE AMAZED 29M (style bible); ExtinctZoo "Prehistoric Creatures You're Glad Are Extinct" 1.28M (1.6x) | 7 | backlog |
-| 18 | Real Animal Diseases Worse Than Any Horror Movie | parasites | Casual Geographic 10M (style bible); overlaps #2 and #8, keep as reserve | 6 | backlog |
-| 19 | What a Parasite Does to You, Day by Day | parasites | Personal-stake timeline; Kurzgesagt "Most Gruesome Parasites" 13.3M (style bible). Superseded by #2 (same topic, stronger engine); reserve as a single-subject follow-up | 6 | backlog |
-| 20 | Doug vs. the Ocean: Full Series (1 Hour) | compilations | Paintify "Every Unexplored Place on Earth (Full Series)" 1.08M (4.2x); PE cave Full Series 2.43M (style bible) | 8 | backlog (after 3–4 ocean eps) |
-| 21 | Disturbing Ocean Facts That Will Ruin Your Day | ocean | Autocomplete phrasing "facts that will ruin your day" (no competitor outlier: unproven) | 5 | backlog |
-| 22 | The Deeper Doug Digs Into Earth, the Creepier It Gets | places | Depth gradient moved underground (untested: experiment slot) | 7 | backlog |
-| 23 | The Deep Sea Iceberg Explained (1.5 h+) | compilations | Snook ocean iceberg 2.28M (style bible); quack doc icebergs 474K (8.8x), 429K (8.0x) | 7 | backlog (around upload 12–15) |
+Playlist keys: ocean, parasites, prehistoric, places, compilations. `animals*` = proposed playlist ("Doug vs. Animals").
+The creative director has not yet decided on it, so these ideas are filed under `places` until then.
+
+| # | Working title | Playlist | Engine (proven outlier) | Eng | Interest (vph) | Demand | Saturation (format) | Own | Score | Status |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2 | What Dying From Every Parasite Would Feel Like | parasites | quack doc "What Dying From Every Deadly Disease Feels Like" 5.63M (103.9x) + genetic-disease 345K (6.38x, 09-24); Simple Paint "What Dying From Every Poison Feels Like" 218K in 3.4 d; Bacterium parasites 333K (37.6x) | 10 | 8 (quack doc 2242, Simple Paint 2175) | 9 ("parasites") | 10 (1 copy) | 5 | **8.7** | published (002-every-parasite, xra1KWBfC7A, scheduled 2026-10-04 16:00Z) |
+| 5 | What Surviving Every Mass Extinction Would Be Like | prehistoric | Mr. Science "When Antarctica Was a Jungle" 4.07M (3.1x), "When Earth Had Supermountains" 2.62M in 9.6 d; Fossil "How Long You'd Last in Every Prehistoric Era" 8.98M in 51 d (signals) | 8 | 10 (Supermountains 3718, Antarctica 2241) | 10 ("mass extinction") | 10 (1) | 5 | **8.6** | backlog, **next up** |
+| 14 | What Dying From Every Venom Would Feel Like | animals* | The "What Dying From Every X Feels Like" frame: quack doc 5.63M (103.9x); Simple Paint poison 218K in 3.4 d | 10 | 8 (Simple Paint poison 2175) | 7 ("venomous animals") | 10 (0) | 5 | **8.4** | backlog (wait for ep 002 day-7 data, 10-11; Simple Paint's poison video overlaps) |
+| 15 | The Creepiest Fossils That Still Look Alive | prehistoric | ExtinctZoo "Prehistoric Animals Preserved So Well They Look Like Roadkill" 4.22M (5.1x); Fossil Fruw "6 Scary Prehistoric Animals Found Frozen in Ice" 5.43M (signals) | 9 | 6 (Fossil Fruw ~2750 lifetime) | 10 ("extinct animals") | 10 (0) | 5 | **8.1** | backlog |
+| 24 | **NEW** When Earth Was a Snowball (and Doug Was Standing on It) | prehistoric | Mr. Science "When Earth Had Supermountains" 2.62M in 9.6 d (2.0x and rising), "When Antarctica Was a Jungle" 4.07M (3.1x), "When It Rained for 2 Million Years" 2.45M | 8 | 10 (3718) | 6 ("snowball earth") | 10 ("when earth was frozen" 2) | 5 | **8.0** | backlog |
+| 27 | **NEW** The Prehistoric Animals Scientists Drew Completely Wrong | prehistoric | ExtinctZoo "The Extinct Animals That Never Were" 359K in 2.4 d (0.44x only because it's new). Its 4050 vph_recent is the highest in the dataset | 6 | 10 (4050) | 10 ("extinct animals") | 10 (1) | 5 | **7.9** | backlog |
+| 1 | I Sent Doug to Every Layer of the Ocean | ocean | Mr. Science "Why Deep Sea Creatures Get Creepier the Deeper You Go" 17.05M (13.0x); PE ocean layers 1.82M (2.57x) | 10 | 6 (BTB 1060, PE 481) | 8 ("deep sea creatures") | 5 (4, incl. BTB "How It Feels Like To Die In Every Ocean Layer", 09-28) | 5 | **7.4** | published (001-every-layer-of-the-ocean, 9eiX84Ik1Sc, 2026-09-30) |
+| 16 | The Most Disturbing Deep Sea Discoveries Scientists Can't Explain | ocean | PE "Most Disturbing Scientific Anomalies…" Pt. 2 4.71M (6.64x); Dhruv Rathee "Deep Sea Mysteries That Science Can't Explain" 15.7M in 12.5 d (signals, Hindi) | 9 | 6 (PE 673) | 8 | 5 (4) | 5 | **7.1** | backlog |
+| 25 | **NEW** Why Orcas Could Kill Doug Easily But Never Do | ocean | BeyondTheBlue "Why The Deadliest Predator in the Ocean Refuses to Kill Us" 2.22M (6.82x); OctoLab same topic 7.63M in 82 d (signals) | 9 | 4 (BTB 522) | 10 ("orca") | 5 (5) | 5 | **7.0** | backlog |
+| 3 | Surviving One Night in Every Prehistoric Ocean | prehistoric | ExtinctZoo "Deadliest Sea Animal From Every Single Period" 2.60M (3.16x); Spinosnack prehistoric deep ocean 450K (5.38x) | 8 | 4 (767, 719) | 7 ("prehistoric ocean") | 10 (3) | 5 | **6.9** | backlog |
+| 4 | The Worst Places on Earth to Die | places | Simple Paint "The Worst Places To Die In Space" 1.91M (8.06x); PE "Most Guarded Places…" 2.20M (3.1x), Pt. 2 at 7443 vph on day 0.3 | 8 | 6 (PE Pt. 2 launch) | 3 ("deadliest places on earth") | 10 (3) | 5 | **6.7** | backlog (places playlist entry point) |
+| 6 | Why the Mariana Trench Gets Deadlier the Deeper Doug Goes | ocean | BeyondTheBlue "Nothing About The Mariana Trench Is Normal…" 2.63M (8.2x); "Why We Can't Truly Explore the Mariana Trench" 1.15M (3.52x) | 8 | 8 (2680) | 8 | 2 (11) | 5 | **6.7** | backlog (overlaps ep 001's Challenger Deep finale) |
+| 26 | **NEW** The Worst Prehistoric Deaths Doug Could Possibly Have | prehistoric | ExtinctZoo "Prehistoric Human Deaths That Make Stubbing Your Toe Seem Pleasurable" 1.42M in 11 d (1.72x); PE "How You'd Die In Every Prehistoric Era" 337K (signals) | 6 | 8 (2134) | 5 ("prehistoric deaths") | 10 (2) | 5 | **6.7** | backlog (T5) |
+| 10 | The Deadliest Predator From Every Period of Earth's History | prehistoric | ExtinctZoo "Earth's Deadliest Predator From Every Single Period" 2.06M (2.5x) + sea version 2.60M (3.16x) | 8 | 4 (894) | 10 | 5 (6) | 5 | **6.6** | backlog |
+| 11 | Every Ocean Predator That's Terrified of Something Bigger | ocean | BeyondTheBlue fear chain: sperm whales 2.61M (8.1x), orcas vs pilot whales 1.73M (5.4x) | 8 | 4 (522) | 10 ("orca") | 5 (6) | 5 | **6.6** | backlog |
+| 30 | **NEW** Nothing About the Oarfish Is Normal | ocean | Mr. Science "Nothing about Oarfish Is Normal... Here's Why" 3.04M (2.32x); BTB Mariana "Nothing About…" 2.63M (8.2x) | 6 | 4 (439; signals oarfish median 813) | 8 ("oarfish") | 10 (0) | 5 | **6.4** | backlog (T6, single-creature format test) |
+| 9 | The Most Disturbing Fungi Scientists Have Ever Found | parasites | Bacterium "Every IMPOSSIBLE Fungus That Actually Exists" 390K (44x), Pt. 2 71K (8.05x, 09-25) | 6 | 3 (438) | 8 ("fungus") | 10 (1) | 5 | **6.2** | backlog |
+| 28 | **NEW** Deep Sea Creatures That Shouldn't Exist | ocean | Bluntly Explained "Every Black Hole That Shouldn't Exist…" 670K (3.72x, 09-21), clause borrowed; Curious Fing "10 Prehistoric Ocean Monsters That Should Never Have Existed" 1.52M (signals) | 6 | 6 (Bluntly 3563, lower because the topic is off) | 8 | 5 (7) | 5 | **6.0** | backlog |
+| 8 | The Creepiest Parasites That Take Over Their Host's Brain | parasites | Bacterium "Every IMPOSSIBLE Parasite…" 333K (37.6x) | 6 | 1 (99) | 9 | 10 (0) | 5 | **5.9** | backlog (overlaps ep 002) |
+| 29 | **NEW** What Doug Would Find Under Antarctica's Ice | places | Spinosnack "We Finally Know What's Hidden Under The Mediterranean Sea" 468K (5.59x); Mr. Science Antarctica jungle 4.07M | 7 | 8 (Antarctica 2241) | 5 ("under antarctica") | 2 (10) | 5 | **5.9** | backlog |
+| 17 | Terrifying Animals You Should Be Glad Are Extinct | prehistoric | ExtinctZoo "Prehistoric Creatures You're Glad Are Extinct" 1.28M (1.6x); BE AMAZED 29M (style bible) | 4 | 3 | 10 | 10 (0) | 5 | **5.8** | backlog |
+| 31 | **NEW** Every Horrifying Place in the Ocean Doug Could Sink Into | ocean | Paintify "Every Horrifying Place In The Ocean" 512K (1.97x), vph_recent 378 vs 151 lifetime (accelerating) | 5 | 3 (378) | 8 | 10 (0) | 5 | **5.8** | backlog (reserve; overlaps ep 001) |
+| 20 | Doug vs. the Ocean: Full Series (1 Hour) | compilations | Paintify "Every Unexplored Place on Earth (Full Series)" 1.10M (4.25x) | 6 | 4 (558) | 8 | 5 (?) | 5 | **5.6** | backlog (after 3–4 ocean eps) |
+| 12 | Every Way Nature Can Kill Doug, From Least to Most Painful | places | Simple Paint "The Most Horrifying Ways Nature Can Kill You" 928K (3.9x) | 6 | 3 | 3 | 10 (2) | 5 | **5.4** | backlog |
+| 23 | The Deep Sea Iceberg Explained (1.5 h+) | compilations | quack doc icebergs 474K (8.8x); Snook ocean iceberg 2.28M (style bible) | 6 | 3 | 8 | 5 (?) | 5 | **5.4** | backlog (around upload 12–15) |
+| 19 | What a Parasite Does to You, Day by Day | parasites | Kurzgesagt "Most Gruesome Parasites" 13.3M (style bible), superseded by #2 | 4 | 1 | 9 | 10 (0) | 5 | **5.2** | backlog (reserve) |
+| 13 | The Deadliest Man-Eating Animals in Recorded History | animals* | Simple Paint "The Deadliest Man-Eaters to Ever Exist" 1.24M (5.3x) | 6 | 6 (signals best 9660) | 1 | 5 (8) | 5 | **5.0** | backlog |
+| 22 | The Deeper Doug Digs Into Earth, the Creepier It Gets | places | Depth gradient (Mr. Science 17.05M) moved underground. Untested, so it sits in the experiment slot | 6 | 1 | 3 (?) | 10 (?) | 5 | **5.0** | backlog |
+| 18 | Real Animal Diseases Worse Than Any Horror Movie | parasites | Casual Geographic 10M (style bible); overlaps #2/#8 | 4 | 3 | 9 | 5 (?) | 5 | **4.9** | backlog (reserve) |
+| 7 | What Happens If You Fall Into Every Deadly Place on Earth | places | Paintify "Every Unexplored Place on Earth" 1.55M (5.97x) | 6 | 3 (214) | 7 ("what happens if you fall into") | 2 (11) | 5 | **4.8** | backlog |
+| 21 | Disturbing Ocean Facts That Will Ruin Your Day | ocean | Autocomplete phrasing only (unproven) | 2 | 1 | 8 | 5 (?) | 5 | **3.6** | backlog |
