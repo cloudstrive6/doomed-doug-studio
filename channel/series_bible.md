@@ -41,6 +41,12 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
   how Doug reaches deep time and the standard vehicle for the `prehistoric` playlist. Never explained, never
   breaks down on purpose; Doug steps out hopeful, the door opens onto the danger. It always survives (003 ends with a
   pigeon sitting on its roof). Do not use it outside time-travel episodes.
+- **Doug's suitcase** (from 004): a battered MS Paint suitcase that is the standard prop of the `places` playlist,
+  the way the time machine belongs to `prehistoric`. Doug carries it into the opener with no stickers on it. Every time he
+  dies at a place, a crude travel sticker with the place's name (for example "DEATH VALLEY") lands on it. Survivals get
+  no sticker. The episode ends on the full suitcase next to the cap, and the outro may say "The suitcase still has room."
+  It always survives and is never explained. The art director owns the drawing. It is a stickered travel variant and must
+  stay distinct from the over-packed `assets/library/suitcase.json` ("HEAVY" tag). Use it only in `places` episodes.
 - Named animal "friends" who get Doug killed: **Buddy** the raccoon (002, raccoon roundworm). Reuse sparingly.
 
 ## Series / playlists (config `youtube.playlists`)

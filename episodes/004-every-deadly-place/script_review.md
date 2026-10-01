@@ -1,181 +1,131 @@
-# Episode 004: Every Deadly Place, script review (draft 1)
+# Episode 004: Every Deadly Place, script review (draft 2, round 3: PASS)
 
-Script screener, 2026-10-01. Inputs: style bible, series bible, brief.md, script.md (draft 1), facts.md.
-Metrics were recomputed independently from script.md, counting spoken lines only.
+Script screener, 2026-10-01. Inputs: style bible, series bible, brief.md, script.md (draft 2), facts.md, and the round 1
+review. I recomputed the metrics from script.md, counting spoken lines only.
 
 | Check | Result |
 |---|---|
-| 1. Facts | **FAIL**: 3 errors and 1 unsourced claim (F1-F4), plus 1 advisory |
-| 2. Opening | **9/10**. Rules violated: **9** (Lake Nyos), **14** (PE tic phrase) |
+| 1. Facts | **PASS** (round 3): F5 is sourced. Round 2 had 1 sourcing gap (F5), and all 8 changed claims checked out |
+| 2. Opening | **9/10**. Rules violated: none |
 | 3. Structure & pacing | **8/10** |
 | 4. Voice & humour | **8/10** |
-| 5. TTS readiness | PASS (1 cosmetic note) |
-| 6. Policy | **FAIL**: 1 item (P1, Nyiragongo ruling) |
-| 7. Length | PASS: 3,169 words, about 16:15 at 195 wpm (brief 3,100-3,400) |
+| 5. TTS readiness | PASS |
+| 6. Policy | PASS (P1 resolved) |
+| 7. Length | PASS: 3,188 words, about 16:21 at 195 wpm (brief 3,100-3,400) |
 
 ---
 
-## 1. Facts
+## Round 1 fixes: all 8 applied
 
-I checked 16 claims against the web, along with every number that sounded surprising.
+| # | Fix | Status |
+|---|---|---|
+| 1 | F3 opener: "can kill anyone who stays" | Done. "Death Valley." is at words 34-35, inside the 35-word limit but with no slack, so do not add words to the opener |
+| 2 | F2: "but for now the record still stands" | Done |
+| 3 | F4: "A lake this caustic is also the main nursery of the lesser flamingo." | Done. Sourced (Smithsonian: pH 9-10.5, 75% share) |
+| 4 | F1: "between one and three minutes" plus the FAA 28,000 ft row | Done in the script and in facts.md |
+| 5 | P1: Goma 2002/2021 sentences cut, the "After two thousand two" line replaced, geology backfill | Done. Nyiragongo is now 379 words (330-380) |
+| 6 | Rule 14: "To put that in context," changed to "For scale," | Done |
+| 7 | Rule 9, Nyos: "That day, the balance broke." (5 words) and "It all came out at once." (6 words) | Done. Clinical, no joke |
+| 8 | Natron: "Doug is fine." changed to "He survives." | Done. "Doug is fine." now appears only at Maracaibo |
 
-**Confirmed:**
-- Death Valley: the 134 F record from 1913 and the 2025 BAMS dispute ("12-16 degrees cooler", which supports "closer to 120").
-- Snake Island: the 2008 first estimate (2,358 snakes) and the current range of 2,000-4,000.
-- Morecambe Bay: Bonn 2005 (about half as dense; pulling a leg free takes the force needed to lift a small car).
-- Lake Natron: pH 9-10.5, the 75% flamingo share and the Brandt quote, all from Smithsonian and NBC.
-- Cave of Crystals: the pumps stopped in October 2015, the cave reflooded, and growth can resume.
-- Dallol: more than 100 m below sea level (Gómez et al. 2019 gives 124-155 m for the Dallol area, so it holds).
-- Lake Nyos: at least 1,700 dead.
-- Lake Kivu: about two million people in the basin.
-- Lake Maracaibo: 233 flashes per square kilometre per year, 297 nights a year, and the CDC figure that almost 90% of people struck by lightning survive.
-- Nyiragongo: 120,000 left homeless in 2002, the 2021 flow stopped a few hundred metres from the city, the 1977 flows reached 60 km/h, and the mazuku sources check out.
+The advisories were applied too. A1: "preserved animals". A2: Kivu "hundreds of times". A3: the "air in these hollows" is
+about minus 94. Death Valley (280) and Dallol (288) are now inside their ranges.
 
-**Errors:**
-- **F1. Everest, time of useful consciousness (contradicted by the cited FAA table).** Script, line 197: "at the height of
-  Everest's summit, that time is somewhere between one and five minutes." The FAA table (AC 61-107) gives 3-5 min at
-  25,000 ft, **2.5-3 min at 28,000 ft** and **1-2 min at 30,000 ft**. The summit is at 29,032 ft, so it sits between the
-  28,000 and 30,000 ft rows. facts.md skipped the 28,000 ft row. **Fix:** "somewhere between one and three minutes", and
-  add the 28,000 ft row to facts.md.
-- **F2. Death Valley, "while officials review it" (unsupported).** Line 25: "...but the record stands while officials
-  review it." Researchers have asked the WMO and the NCEC to review the record, but no official review has been opened
-  or announced. facts.md only supports "it stays official unless they rule otherwise". **Fix:** "...but for now the
-  record still stands."
-- **F3. Opener, "kill anyone who stays" (false, and the script contradicts it).** Line 9: "Eleven places on Earth kill
-  anyone who stays." Doug and the flamingos stay at Natron and live. Almost 90% of lightning victims survive (item 10),
-  and people live around Lake Maracaibo. Climbers stand on Everest. This is the first line of the video and it sets the
-  title promise. **Fix:** make it true, for example "Eleven places on Earth that can kill anyone who stays." Keep the
-  word count so that "Death Valley." still lands within 35 words.
-- **F4. Natron kicker, unsourced superlative.** Line 143: "The most caustic lake in Tanzania is also the main nursery
-  of the lesser flamingo." facts.md has no source for "most caustic lake in Tanzania". The only support I could find is
-  listicles. **Fix:** source it from an institutional source or cut the superlative, for example "A lake this caustic
-  is also the main nursery of the lesser flamingo."
+## 1. Facts (changed lines)
 
-**Advisory (not blocking):**
-- A1. Line 131, "The stone animals are real, but the poses aren't." The animals are preserved or calcified, not stone,
-  so this line half-endorses the myth the item is busting. Suggest "The preserved animals are real".
-- A2. Line 299, Lake Kivu "about two thousand times as much gas". EarthDate (UT Austin) does say this, so it is sourced.
-  However, the published volumes (about 256-300 km³ CO2 plus about 60 km³ methane, against Nyos) put the ratio in the
-  hundreds, and other outlets say "300 times". "Hundreds of times as much gas" is true under every source.
-- A3. Line 169: the −98 °C figure is a snow-surface temperature, and the NWS frostbite chart uses air temperature. The
-  "more than fifty degrees colder" comparison holds either way, because the air in the hollows was about −94 °C
-  (Scambos 2018), but "air there" would be cleaner.
+**Confirmed by web search:**
+- **Nyiragongo crater about 1.2 km wide.** Oregon State Volcano World and GVP both describe a "1.2-km-wide summit crater".
+- **Lake about 230 m across; "world's largest continuously active lava lake"; "fastest-flowing lava in the world"; low
+  silica.** I fetched the NHM London 2022 article, and all four claims appear in it word for word. The script attributes
+  the superlative to the museum and hedges "fastest" with "often called". Both are correct handling.
+- **Two soccer fields end to end, roughly 230 m.** A pitch is 100-110 m long, so two pitches are 200-220 m. "Roughly" covers the gap.
+- **Kivu, "hundreds of times as much gas, even by the most cautious estimates".** Wits MISG 2018 gives about 300 km³ CO2,
+  60 km³ CH4 and "300 times" Nyos. EarthDate says 2,000 times. Every source gives at least 300, so the floor claim holds.
+- **Kivu region, about two million people.** EarthDate. Confirmed in round 1 and unchanged.
+- **Antarctic hollow air, about minus 94 °C.** The Scambos 2018 summaries (Sci.News, AGU and NSIDC context) say "air
+  temperatures at the very coldest sites... probably around minus 94". It is 51 degrees below the chart's −43 °C floor,
+  so "more than fifty degrees colder" is correct.
+- **FAA time of useful consciousness, 1-3 min at the summit's altitude.** The script now matches the 28,000 and 30,000 ft rows.
+- **Nyos, "the balance broke".** This is framing only, and it is consistent with Kling 1987's "sudden, catastrophic release".
+
+**Sourcing gap (FAIL item):**
+- **F5. Line 355: "And each time the lake has drained, it has eventually filled back up."** The claim is true.
+  The lake drained in 1977, 2002 and May 2021, and it refilled each time. A lava lake reappeared in the crater in
+  September 2021, according to the Goma Volcano Observatory via Africanews (2021-09-27) and GVP weekly reports from
+  September to October 2021. However, facts.md sources only the 1977 and 2002 refills, and "each time" also covers the 2021 drainage
+  (style bible rule 11: every claim needs a source URL). This needs no script change: add the 2021 refill source to the
+  Nyiragongo section of facts.md. Use the GVP report or Bulletin, which is preferred over news outlets. Africanews is
+  acceptable as a backup.
 
 ## 2. Opening: 9/10
-
-- "Death Valley." is spoken at words 33-34. The writer reported 31-32; both are within 35. Nothing comes before it:
-  no greeting, channel name or subscribe ask.
-- The twist marker "Here's the problem." lands at word 133, under the 145-word limit.
-- The opener is a strong stakes line plus "Doug did not agree to this." It loses one point only for F3.
-
-**Script Writer rules (section 7), checked 1 to 14:**
-- **Rule 9 violated:** Lake Nyos has no sentence of 6 words or fewer apart from the name. Its shortest is "That day,
-  it all came out at once." at 8 words.
-- **Rule 14 violated:** line 161, "To put that in context," is five consecutive words of a documented Paint Explainer
-  tic (style bible 3.4: "use this *type* of tic but write our own").
-- **Rules 1-8 and 10-13: pass.**
-  - Rule 9 metrics: average sentence 15.9 words, maximum 34, Flesch about 67.
-  - Rule 13: twist markers rotate with no repeats in a row, and "However" appears once.
-  - Rule 12: the outro is 20 words.
-- **Brief deviation:** "Doug is fine." is used at both survivals (line 141 at Natron and line 331 at Maracaibo). The
-  brief allows it "at one of them".
+- The first 35 words contain no greeting, channel name or subscribe ask. "Death Valley." is at words 34-35, and the twist
+  ("Here's the problem.") lands at word 132, inside the roughly 145-word limit.
+- **Script Writer rules 1-14: all pass.** Average sentence length is 15.8 words, the longest is 34, and Flesch is about 67.
+  Every item has a sentence of 6 words or fewer. Twist markers rotate with none repeated in a row. "However" appears
+  once and "actually" once. No PE tic phrases are left. The outro is 20 words.
 
 ## 3. Structure & pacing: 8/10
-
-- The axis is declared in the header. The section headers are in place: "Minutes." at about 37% and "Seconds." at about 72%.
-- Every item opens on its exact name, and there are no transition sentences.
-- Segment lengths are within the brief's ranges, with two trivial overruns: Death Valley 281 (limit 280) and Dallol
-  294 (limit 290). Nyos is 252, which is fine for the sombre beat.
-- The counter runs from 27 to 36 and matches the death plan. The ending matches the bible: the last kicker, then a
-  20-word outro.
-- Gags present: the death counter, "did not agree", the disappointed narrator, befriending the snake, the flamingo
-  costume, the lone cap (Morecambe, Maracaibo, the rim), one 003 callback, and the suitcase.
-- Deductions:
-  - "Doug is fine." is used twice.
-  - The survivable lightning stop sits inside "Seconds.", which muddies the axis. The brief chose this for the comic
-    release, so it is acceptable.
+- Every segment is inside the brief's ranges: Death Valley 280, Snake Island 286, Morecambe Bay 286, Natron 276,
+  Antarctic Plateau 270, Everest 279, Cave of Crystals 276, Dallol 288, Nyos 260, Maracaibo 275, Nyiragongo 379.
+  - Nyos is 30 words over the guideline of about 230. That is acceptable for the sombre beat.
+- "Minutes." comes at about 36% and "Seconds." at about 71%. The counter runs from 27 to 36, and the ending follows the bible.
+- The Nyiragongo boss now leads with the crater and lake for scale, then the lava speed, the refill and mazuku. The
+  escalation still holds without Goma.
+- One point is still deducted because the survivable lightning stop sits inside the "Seconds." band, which the brief chose.
 
 ## 4. Voice & humour: 8/10
-
-- Deadpan holds throughout. The best lines:
-  - "Doug is watching the wrong thermometer."
-  - "He is completely right. / Then the tide arrives."
-  - "The timer is optimistic."
-  - "briefly that includes him"
-  - "The extinguisher runs out first."
-- Joke density is about one per minute. Nyos is clean, with zero jokes.
-- The narrator persona is consistent, and nothing is gross for its own sake.
-- One point is lost for the rule 14 tic.
+The deadpan is intact. "He survives. We'll be honest, this was not the plan." reads as well as the old line. Nyos is
+still joke-free. Nothing in the new geology lines comes from a competitor.
 
 ## 5. TTS readiness: PASS
+The new numbers are written out ("one point two kilometers", "two hundred and thirty meters", "minus ninety-four").
+The quotation marks around "living" are gone. The "230 m" text is a stage-direction label and is not spoken.
 
-- Spoken lines contain no digits, symbols, abbreviations or parentheses. Every number is written out.
-- "NASA" reads fine. The pronunciation list for the editor is good.
-- Cosmetic: the quotation marks around "living" (line 133) are harmless for Chirp but can be dropped.
-
-## 6. Policy
-
-**Passing:**
-- Gore: no injury described, and all deaths are cartoon. The Dallol gas and the off-screen lava flash were handled well.
-- Profanity: none.
-- Kid appeal: the voice is adult-coded throughout (the smug quicksand expert, the selfie timer). No nursery framing.
-- Inauthentic content: each stop is an original mini-story with its own myth-bust or twist. It is not a list read-out.
-- Advice: none. The quicksand and lightning facts are stated as findings, not instructions.
-- Title: the working title plus the "11 of the deadliest" description line is honest.
-
-**P1. Nyiragongo: the writer's tragedy/joke question. RULING: apply the rule strictly and cut the Goma sentences.**
-
-The brief contradicts itself here. Item 11 asks for one sentence each on 2002 and 2021, while section 8 says "no jokes
-within the item that mentions them". **Section 8 wins**, because it is the risk rule and item 11 is a research list.
-Reasons:
-1. The item is the comic climax: the marshmallow, "The extinguisher runs out first", and a cap joke as the kicker.
-   Putting real displacement of a city (120,000 homeless; the 2002 eruption also killed about 250 people, which the
-   script leaves out but viewers will know) in the same 2-minute segment as a played-for-laughs death is the
-   juxtaposition that sensitive-events review and comment sections punish. A paragraph of spacing does not change
-   the segment.
-2. Goma is in an active conflict zone, and the brief limits this item to geology only.
-3. The item doesn't need those sentences. The 1977 drain at 60 km/h already shows the lava outrunning traffic, and
-   the mazuku twist carries the escalation.
-
-**Required for P1:**
-- Cut line 351 entirely. Both sentences, "In two thousand two, lava from cracks on the volcano's flank ran into Goma
-  ... In two thousand twenty-one, another flow stopped about three hundred meters from the edge of the city.", are
-  **41 words**.
-- Rewrite line 355, "After two thousand two, the lava lake came back.", so that it does not anchor on the 2002
-  eruption. Either use a sourced, non-casualty version (for example "When the lake drains, it eventually refills," from
-  the GVP eruption history) or cut it.
-- The writer's arithmetic is off: removing 41 words takes the item from 364 to **323**, which is below the brief's
-  330-380. Backfill about 15-40 words of sourced geology, such as the lava lake's size against a stadium (brief item
-  11, GVP).
-- Keep the 1977 sentence. It is geology with no casualties stated.
-- Keep "about twelve kilometers north of the city of Goma" (line 341). It is location only.
+## 6. Policy: PASS
+- P1 is resolved. Nyiragongo now names no casualties and no displacement, and Goma appears only as a location.
+- There is no gore, no profanity, no kid framing and no advice. Every stop is still an original story. The title
+  promise is honest now that the opener says "can kill".
 
 ## 7. Length: PASS
-3,169 spoken words, about 16:15 at 195 wpm. After the P1 cut and backfill, the total stays at about 3,150 or more,
-still inside 3,100-3,400.
+3,188 spoken words, about 16:21.
 
 ---
 
-VERDICT: FAIL
+## Round 3 re-screen (2026-10-01): F5 only
 
-**Required fixes:**
-1. **(F3)** Line 9: change "Eleven places on Earth kill anyone who stays." to a true statement, for example "Eleven
-   places on Earth can kill anyone who stays." "Death Valley." must stay within the first 35 words.
-2. **(F2)** Line 25: change "but the record stands while officials review it" to "but for now the record still stands".
-3. **(F4)** Line 143: source "the most caustic lake in Tanzania" from an institutional source, or reword without the
-   superlative ("A lake this caustic is also the main nursery of the lesser flamingo.").
-4. **(F1)** Line 197: change "between one and five minutes" to "between one and three minutes". Add the FAA
-   28,000 ft row (2.5-3 min) to facts.md.
-5. **(P1)** Line 351: cut both Goma sentences. Line 355: rewrite or cut "After two thousand two, the lava lake came
-   back." Backfill Nyiragongo to 330 or more with sourced geology (lake size suggested), and add the source to facts.md.
-6. **(Rule 14)** Line 161: replace "To put that in context," with our own wording (for example "For scale,").
-7. **(Rule 9)** Lake Nyos: add one sentence of 6 words or fewer, for example by splitting line 287 into "Then it all
-   came out." Keep it clinical, with no joke.
-8. **(Brief, running gags)** Line 141: drop "Doug is fine." at Natron, because it is reserved for Maracaibo. Keep
-   "We'll be honest, this was not the plan." or something similar.
+Scope: the new facts.md entry for the Nyiragongo 2021 refill, checked against script line 355. Nothing else was re-checked.
 
-**Recommended (not blocking):** A1 ("preserved animals"), A2 (Kivu "hundreds of times"), A3 ("air there"), and trim
-Death Valley and Dallol by a few words each to bring them inside their ranges.
+- **Script line 355 is unchanged:** "And each time the lake has drained, it has eventually filled back up." script.md
+  has no diff since draft 2.
+- **The primary source is verified.** I fetched the Phys.org/AFP article (26 September 2021). It quotes Celestin Kasereka
+  Mahinda, scientific director of the Goma Volcanology Observatory: the "reappearance of the lava lake in Nyiragongo's
+  crater" dates from 18 September. That covers the May 2021 drainage, so all three drainages (1977, 2002, 2021) now have
+  a sourced refill.
+- **GVP corroborates it.** The direct fetch returns 403, as the entry notes. A web search confirms that the GVP/USGS
+  weekly reports from late September 2021 relay OVG's report of lava back in the summit crater and a new lake forming.
+- Advisory, not blocking: search results place the first GVP mention in the 22-28 September 2021 weekly report. The
+  entry cites the 29 September-5 October report. Either one supports the claim, and the writer can add the earlier week
+  if they want.
 
-Once these are fixed, the script should pass. Expected scores are hook 9, structure 8, voice 8. Re-screening only
-needs the changed lines and facts.md.
+**F5: resolved.** Facts: 0 errors, 0 sourcing gaps. Policy: 0 items. Scores are hook 9, structure 8, voice 8.
+
+VERDICT: PASS
+
+---
+
+### Round 2 verdict (superseded)
+
+VERDICT (round 2): FAIL
+
+The script passes on every other count. The only blocking item is a one-line addition to facts.md, and script.md does
+not change.
+
+**Required fix (round 2):**
+1. **(F5)** facts.md, Nyiragongo: the script's line "And each time the lake has drained, it has eventually filled back
+   up." needs a source for the lava lake's return after the May 2021 drainage (September 2021). Use GVP's 2021 weekly
+   report or Bulletin, with Africanews 2021-09-27 as a backup. Alternatively, if the writer does not want to source it,
+   change the line to "And after each drainage so far, the lake has eventually filled back up." That still needs the
+   2021 source, so adding the source is the simpler route.
+
+The re-screen only needs to check that one facts.md entry. If it is sourced as described, the script passes with hook
+9, structure 8 and voice 8.

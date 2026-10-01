@@ -309,6 +309,19 @@ Source: NPS, Death Valley "Weather and Climate": https://www.nps.gov/deva/learn/
   lava for long stretches; drained in less than an hour; up to 60 km/h; "And each time the lake has drained, it has
   eventually filled back up" (refilled after 1977 by 1994, and after January 2002 per GVP above); "The summit crater is
   about one point two kilometers wide."
+- Refill after the May 2021 drainage (completes "each time the lake has drained, it has eventually filled back up":
+  1977 → refilled by 1994, January 2002 → refilled, May 2021 → refilled September 2021):
+  - Smithsonian/USGS GVP Weekly Volcanic Activity Report, Nyiragongo, 29 September-5 October 2021:
+    https://volcano.si.edu/showreport.cfm?wvar=GVP.WVAR20210929-223030 (403 to direct fetch, like the GVP link above;
+    search snippet: the scientific director of the Goma Volcano Observatory "stated that lava had returned to
+    Nyiragongo's crater on 18 September"; thermal anomalies in the crater in Sentinel images on 29 September and 4 October).
+  - AFP via Phys.org, "New lava lake lets DR Congo volcano 'breathe', experts say" (26 September 2021):
+    https://phys.org/news/2021-09-lava-lake-dr-congo-volcano.html (verified: Goma Volcanology Observatory scientific
+    director Celestin Kasereka Mahinda, "the 'reappearance of the lava lake in Nyiragongo's crater' dates from September 18").
+  - Same AFP story on Africanews (27 September 2021, backup):
+    https://www.africanews.com/2021/09/27/new-nyiragongo-lava-lake-lets-dr-congo-volcano-breathe-experts-say/
+    (406 to direct fetch; search snippet matches the phys.org text).
+  Script line 355 unchanged: "And each time the lake has drained, it has eventually filled back up."
 - Natural History Museum, London, "Outrunning the world's fastest-flowing lava and rebuilding Goma" (2022):
   https://www.nhm.ac.uk/discover/news/2022/may/outrunning-the-worlds-fastest-flowing-lava-and-rebuilding-goma.html
   (verified): "Mount Nyiragongo contains the world's largest continuously active lava lake in its crater. The slightly

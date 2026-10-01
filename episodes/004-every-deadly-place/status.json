@@ -14,7 +14,12 @@
       "stage": "scripted",
       "at": "2026-10-01T17:39:57+00:00",
       "note": "draft 2"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-01T17:44:00+00:00",
+      "note": "CD approved draft 2 (screener PASS r3: hook 9, structure 8, voice 8; 3,188 words). Suitcase prop added to series bible."
     }
   ],
-  "stage": "scripted"
+  "stage": "script_approved"
 }
