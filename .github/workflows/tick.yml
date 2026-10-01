@@ -26,5 +26,8 @@ jobs:
           if { [ "$H" = "05" ] || [ "$H" = "17" ]; } && [ "$M" -lt 30 ]; then
             gh workflow run produce.yml -R "$R" && echo "-> produce"
           fi
-          if [ "$H" = "23" ] && [ "$M" -ge 30 ]; then gh workflow run usage.yml -R "$R" && echo "-> usage"; fi
+          if [ "$H" = "23" ] && [ "$M" -ge 30 ]; then
+            gh workflow run usage.yml -R "$R" && echo "-> usage"
+            gh workflow run snapshot.yml -R "$R" && echo "-> snapshot"
+          fi
           if [ "$DOW" = "7" ] && [ "$H" = "14" ] && [ "$M" -lt 30 ]; then gh workflow run growth.yml -R "$R" && echo "-> growth"; fi

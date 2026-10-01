@@ -286,6 +286,18 @@ def cmd_shorts(a):
                         ep / "build" / "shorts" / f"{s['id']}_preview.png")
 
 
+def cmd_signals(a):
+    from .research import signals, summary_line
+    res = signals(a.queries)
+    for q, d in res.items():
+        print(summary_line(q, d).encode("ascii", "replace").decode())
+
+
+def cmd_competitors(a):
+    from .youtube import pull_competitors
+    print(pull_competitors())
+
+
 def cmd_gate(a):
     """Mechanical approval after the final screening: the AI showrunner sometimes approves in words but forgets
     to set the stage. Passes when QC has no problems, the newest visual-screener verdict is PASS and the newest
@@ -368,6 +380,8 @@ def main():
     x.add_argument("episode", nargs="?", help="episode id (or the Short's YouTube id for mark-related)")
     x.add_argument("--only"); x.set_defaults(f=cmd_shorts)
     x = s.add_parser("gate"); x.add_argument("episode"); x.set_defaults(f=cmd_gate)
+    x = s.add_parser("signals"); x.add_argument("queries", nargs="+"); x.set_defaults(f=cmd_signals)
+    x = s.add_parser("competitors"); x.set_defaults(f=cmd_competitors)
     x = s.add_parser("auth-meta"); x.set_defaults(f=cmd_auth_meta)
     x = s.add_parser("social"); x.add_argument("action", choices=["release", "publish-due"])
     x.add_argument("episode", nargs="?"); x.add_argument("--dry-run", action="store_true"); x.set_defaults(f=cmd_social)

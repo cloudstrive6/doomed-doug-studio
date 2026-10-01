@@ -330,7 +330,19 @@ def pull_competitors() -> Path:
     api = yt()
     cfg = load_config()
     today = dt.date.today()
-    res = {"date": today.isoformat(), "channels": []}
+    now = dt.datetime.now(dt.timezone.utc)
+    stamp = now.replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    res = {"date": today.isoformat(), "at": stamp, "channels": []}
+    # previous snapshot (most recent earlier file) -> per-video views at that time, for views/hour right now
+    prev = {}
+    snaps = sorted((ROOT / "data" / "competitors").glob("*.json"))
+    older = [s for s in snaps if s.stem < today.isoformat()]
+    if older:
+        pj = json.loads(older[-1].read_text(encoding="utf-8"))
+        at = pj.get("at") or (pj["date"] + "T12:00:00Z")
+        for c in pj.get("channels", []):
+            for v in c.get("videos", []):
+                prev[v["id"]] = {"views": v["views"], "at": at}
     for handle in cfg["competitors"]:
         try:
             ch = api.channels().list(part="snippet,statistics,contentDetails", forHandle=handle).execute().get("items")
@@ -352,6 +364,14 @@ def pull_competitors() -> Path:
             med = statistics.median([r["views"] for r in longs]) if longs else 0
             for r in rows:
                 r["outlier_x"] = round(r["views"] / med, 2) if med else None
+                age_h = max(1.0, (now - _parse_utc(r["published"])).total_seconds() / 3600)
+                r["age_days"] = round(age_h / 24, 1)
+                r["vph_lifetime"] = round(r["views"] / age_h, 1)  # average views/hour since upload
+                p = prev.get(r["id"])
+                if p:  # views/hour RIGHT NOW: growth since the previous snapshot
+                    dh = (now - _parse_utc(p["at"])).total_seconds() / 3600
+                    if dh >= 1:
+                        r["vph_recent"] = round((r["views"] - p["views"]) / dh, 1)
             res["channels"].append({"handle": handle, "title": ch["snippet"]["title"],
                                     "subs": ch["statistics"].get("subscriberCount"),
                                     "median_long_views_last50": med,
@@ -361,6 +381,9 @@ def pull_competitors() -> Path:
     path = ROOT / "data" / "competitors" / f"{today.isoformat()}.json"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(res, indent=1, ensure_ascii=False), encoding="utf-8")
+    for old in snaps:  # keep 60 days of daily snapshots
+        if old.stem < (today - dt.timedelta(days=60)).isoformat():
+            old.unlink()
     return path
 
 
