@@ -1,0 +1,708 @@
+{
+ "name": "salmon",
+ "description": "Salmon swimming, facing right: silver body with a pink stripe, dark blue-green spotted back, white belly, hooked kype jaw, dorsal and small adipose fin, forked tail. ~380x136, anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "creature",
+  "fish",
+  "salmon",
+  "river",
+  "food",
+  "005"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -140,
+     -2
+    ],
+    [
+     -182,
+     -46
+    ],
+    [
+     -170,
+     -4
+    ],
+    [
+     -182,
+     44
+    ]
+   ],
+   "fill": "#4f6e6a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -146,
+     0
+    ],
+    [
+     -175,
+     -30
+    ]
+   ],
+   "width": 2,
+   "color": "#2f4a46"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -146,
+     0
+    ],
+    [
+     -175,
+     -15
+    ]
+   ],
+   "width": 2,
+   "color": "#2f4a46"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -146,
+     0
+    ],
+    [
+     -175,
+     15
+    ]
+   ],
+   "width": 2,
+   "color": "#2f4a46"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -146,
+     0
+    ],
+    [
+     -175,
+     30
+    ]
+   ],
+   "width": 2,
+   "color": "#2f4a46"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     -42
+    ],
+    [
+     10,
+     -78
+    ],
+    [
+     40,
+     -72
+    ],
+    [
+     50,
+     -40
+    ]
+   ],
+   "fill": "#4f6e6a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     8,
+     -42
+    ],
+    [
+     14,
+     -72
+    ]
+   ],
+   "width": 2,
+   "color": "#2f4a46"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     -42
+    ],
+    [
+     26,
+     -72
+    ]
+   ],
+   "width": 2,
+   "color": "#2f4a46"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     32,
+     -42
+    ],
+    [
+     38,
+     -72
+    ]
+   ],
+   "width": 2,
+   "color": "#2f4a46"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -26
+    ],
+    [
+     -92,
+     -44
+    ],
+    [
+     -76,
+     -40
+    ],
+    [
+     -80,
+     -24
+    ]
+   ],
+   "fill": "#4f6e6a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -85,
+     26
+    ],
+    [
+     -90,
+     48
+    ],
+    [
+     -60,
+     46
+    ],
+    [
+     -55,
+     28
+    ]
+   ],
+   "fill": "#c9b8b4",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -20,
+     36
+    ],
+    [
+     -24,
+     58
+    ],
+    [
+     4,
+     52
+    ],
+    [
+     6,
+     36
+    ]
+   ],
+   "fill": "#c9b8b4",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -145,
+     0
+    ],
+    [
+     -100,
+     -30
+    ],
+    [
+     -20,
+     -48
+    ],
+    [
+     80,
+     -44
+    ],
+    [
+     150,
+     -26
+    ],
+    [
+     180,
+     -6
+    ],
+    [
+     175,
+     14
+    ],
+    [
+     140,
+     30
+    ],
+    [
+     60,
+     44
+    ],
+    [
+     -30,
+     44
+    ],
+    [
+     -110,
+     26
+    ]
+   ],
+   "fill": "#c8c6c4",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -140,
+     2
+    ],
+    [
+     -100,
+     -26
+    ],
+    [
+     -20,
+     -45
+    ],
+    [
+     80,
+     -42
+    ],
+    [
+     148,
+     -24
+    ],
+    [
+     110,
+     -14
+    ],
+    [
+     20,
+     -18
+    ],
+    [
+     -60,
+     -14
+    ]
+   ],
+   "fill": "#3f6e6a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -120,
+     10
+    ],
+    [
+     -60,
+     0
+    ],
+    [
+     40,
+     -2
+    ],
+    [
+     120,
+     4
+    ],
+    [
+     150,
+     14
+    ],
+    [
+     100,
+     22
+    ],
+    [
+     0,
+     22
+    ],
+    [
+     -80,
+     22
+    ]
+   ],
+   "fill": "#e48a92",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     26
+    ],
+    [
+     -30,
+     40
+    ],
+    [
+     60,
+     40
+    ],
+    [
+     130,
+     30
+    ],
+    [
+     60,
+     30
+    ],
+    [
+     -20,
+     32
+    ]
+   ],
+   "fill": "#eff0f0",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 20,
+   "y": 8,
+   "r": 40,
+   "color": "#f2b0b6",
+   "density": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": -90,
+   "y": -18,
+   "rx": 3.5,
+   "ry": 3,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -60,
+   "y": -28,
+   "rx": 3.5,
+   "ry": 3,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -30,
+   "y": -34,
+   "rx": 3.5,
+   "ry": 3,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -36,
+   "rx": 3.5,
+   "ry": 3,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 30,
+   "y": -34,
+   "rx": 3.5,
+   "ry": 3,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 60,
+   "y": -32,
+   "rx": 3.5,
+   "ry": 3,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -40,
+   "y": -18,
+   "rx": 3.5,
+   "ry": 3,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -10,
+   "y": -22,
+   "rx": 3.5,
+   "ry": 3,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 20,
+   "y": -22,
+   "rx": 3.5,
+   "ry": 3,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -115,
+   "y": -6,
+   "rx": 3.5,
+   "ry": 3,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 45,
+   "y": -20,
+   "rx": 3.5,
+   "ry": 3,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -145,
+     0
+    ],
+    [
+     -100,
+     -30
+    ],
+    [
+     -20,
+     -48
+    ],
+    [
+     80,
+     -44
+    ],
+    [
+     150,
+     -26
+    ],
+    [
+     180,
+     -6
+    ],
+    [
+     175,
+     14
+    ],
+    [
+     140,
+     30
+    ],
+    [
+     60,
+     44
+    ],
+    [
+     -30,
+     44
+    ],
+    [
+     -110,
+     26
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     110,
+     -26
+    ],
+    [
+     100,
+     0
+    ],
+    [
+     112,
+     30
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     -20
+    ],
+    [
+     190,
+     -14
+    ],
+    [
+     200,
+     4
+    ],
+    [
+     186,
+     10
+    ],
+    [
+     182,
+     0
+    ],
+    [
+     160,
+     2
+    ]
+   ],
+   "fill": "#b8b4b0",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     160,
+     10
+    ],
+    [
+     186,
+     12
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     90,
+     18
+    ],
+    [
+     60,
+     36
+    ],
+    [
+     72,
+     40
+    ],
+    [
+     100,
+     26
+    ]
+   ],
+   "fill": "#c9b8b4",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 150,
+   "y": -8,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 152,
+   "y": -8,
+   "rx": 3.5,
+   "ry": 3.5,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

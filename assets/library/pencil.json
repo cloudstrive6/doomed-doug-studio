@@ -1,0 +1,303 @@
+{
+ "name": "pencil",
+ "description": "A new yellow hexagonal pencil lying horizontally: pink eraser and silver ferrule at the left, three-facet yellow body, sharpened wood cone with a graphite tip at the right. Anchor centre, ~450x50.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "pencil",
+  "prop",
+  "stationery",
+  "scale"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -220,
+     -18
+    ],
+    [
+     -185,
+     -22
+    ],
+    [
+     -185,
+     22
+    ],
+    [
+     -220,
+     18
+    ],
+    [
+     -226,
+     0
+    ]
+   ],
+   "fill": "#f4a3b5",
+   "width": 4
+  },
+  {
+   "type": "spray",
+   "x": -210,
+   "y": -8,
+   "r": 8,
+   "color": "#ffffff",
+   "density": 0.3
+  },
+  {
+   "type": "rect",
+   "x": -185,
+   "y": -24,
+   "w": 36,
+   "h": 48,
+   "fill": "#c4c4c4",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -176,
+     -22
+    ],
+    [
+     -176,
+     22
+    ]
+   ],
+   "width": 2,
+   "color": "#8a8a8a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -167,
+     -22
+    ],
+    [
+     -167,
+     22
+    ]
+   ],
+   "width": 2,
+   "color": "#8a8a8a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -158,
+     -22
+    ],
+    [
+     -158,
+     22
+    ]
+   ],
+   "width": 2,
+   "color": "#8a8a8a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -185,
+     -6
+    ],
+    [
+     -149,
+     -6
+    ]
+   ],
+   "width": 2,
+   "color": "#e8e8e8"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -149,
+     -24
+    ],
+    [
+     165,
+     -24
+    ],
+    [
+     165,
+     -8
+    ],
+    [
+     -149,
+     -8
+    ]
+   ],
+   "fill": "#ffe24a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -149,
+     -8
+    ],
+    [
+     165,
+     -8
+    ],
+    [
+     165,
+     8
+    ],
+    [
+     -149,
+     8
+    ]
+   ],
+   "fill": "#f5c400",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -149,
+     8
+    ],
+    [
+     165,
+     8
+    ],
+    [
+     165,
+     24
+    ],
+    [
+     -149,
+     24
+    ]
+   ],
+   "fill": "#d9a400",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -149,
+     -8
+    ],
+    [
+     165,
+     -8
+    ]
+   ],
+   "width": 2,
+   "color": "#b88a00"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -149,
+     8
+    ],
+    [
+     165,
+     8
+    ]
+   ],
+   "width": 2,
+   "color": "#b88a00"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -149,
+     -24
+    ],
+    [
+     165,
+     -24
+    ],
+    [
+     165,
+     24
+    ],
+    [
+     -149,
+     24
+    ]
+   ],
+   "fill": null,
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     165,
+     -24
+    ],
+    [
+     175,
+     -14
+    ],
+    [
+     168,
+     -4
+    ],
+    [
+     178,
+     6
+    ],
+    [
+     168,
+     16
+    ],
+    [
+     165,
+     24
+    ],
+    [
+     206,
+     6
+    ],
+    [
+     206,
+     -6
+    ]
+   ],
+   "fill": "#e8c07a",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     206,
+     -6
+    ],
+    [
+     222,
+     0
+    ],
+    [
+     206,
+     6
+    ]
+   ],
+   "fill": "#333333",
+   "width": 3
+  }
+ ]
+}

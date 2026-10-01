@@ -1,0 +1,597 @@
+{
+ "name": "gogo_arthrodire",
+ "description": "Small Gogo arthrodire (Compagopiscis-like placoderm fish), facing right: bony grey-brown armoured head and chest shield with plate seams (x +16..+184), big eye in a bony ring, bony jaw blade plates slightly open, and a slimmer unarmoured dark tail body with a heterocercal fin. The heart sits under the gills at about (+40,+40). Anchor centre, ~370x150.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "fish",
+  "placoderm",
+  "arthrodire",
+  "devonian",
+  "gogo",
+  "prehistoric",
+  "sea",
+  "armour"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -140,
+     -8
+    ],
+    [
+     -182,
+     -62
+    ],
+    [
+     -172,
+     -12
+    ],
+    [
+     -180,
+     22
+    ],
+    [
+     -140,
+     8
+    ]
+   ],
+   "fill": "#3d4048",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     -40
+    ],
+    [
+     -70,
+     -66
+    ],
+    [
+     -84,
+     -64
+    ],
+    [
+     -90,
+     -32
+    ]
+   ],
+   "fill": "#3d4048",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -50
+    ],
+    [
+     -40,
+     -42
+    ],
+    [
+     -110,
+     -24
+    ],
+    [
+     -150,
+     -10
+    ],
+    [
+     -150,
+     8
+    ],
+    [
+     -110,
+     22
+    ],
+    [
+     -40,
+     40
+    ],
+    [
+     40,
+     52
+    ]
+   ],
+   "fill": "#3d4048",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     30
+    ],
+    [
+     -40,
+     22
+    ],
+    [
+     -110,
+     10
+    ],
+    [
+     -148,
+     4
+    ],
+    [
+     -110,
+     22
+    ],
+    [
+     -40,
+     40
+    ],
+    [
+     40,
+     52
+    ]
+   ],
+   "fill": "#8f939c",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -60,
+   "y": -20,
+   "r": 30,
+   "color": "#2a2c32",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     40
+    ],
+    [
+     -30,
+     70
+    ],
+    [
+     -44,
+     68
+    ],
+    [
+     -40,
+     36
+    ]
+   ],
+   "fill": "#3d4048",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     120,
+     26
+    ],
+    [
+     168,
+     22
+    ],
+    [
+     204,
+     8
+    ],
+    [
+     196,
+     30
+    ],
+    [
+     160,
+     50
+    ],
+    [
+     122,
+     50
+    ]
+   ],
+   "fill": "#5e5244",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     24,
+     -60
+    ],
+    [
+     100,
+     -76
+    ],
+    [
+     158,
+     -60
+    ],
+    [
+     184,
+     -24
+    ],
+    [
+     186,
+     4
+    ],
+    [
+     168,
+     22
+    ],
+    [
+     150,
+     50
+    ],
+    [
+     96,
+     64
+    ],
+    [
+     24,
+     58
+    ],
+    [
+     12,
+     0
+    ]
+   ],
+   "fill": "#8a7a66",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     30
+    ],
+    [
+     90,
+     40
+    ],
+    [
+     150,
+     30
+    ],
+    [
+     150,
+     52
+    ],
+    [
+     90,
+     66
+    ],
+    [
+     30,
+     60
+    ]
+   ],
+   "fill": "#a8987f",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 90,
+   "y": -50,
+   "r": 30,
+   "color": "#5e5244",
+   "density": 0.3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -70
+    ],
+    [
+     70,
+     -20
+    ],
+    [
+     60,
+     40
+    ],
+    [
+     64,
+     62
+    ]
+   ],
+   "width": 2,
+   "color": "#5e5244"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     110,
+     -72
+    ],
+    [
+     112,
+     -40
+    ]
+   ],
+   "width": 2,
+   "color": "#5e5244"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     -20
+    ],
+    [
+     130,
+     -20
+    ],
+    [
+     176,
+     -14
+    ]
+   ],
+   "width": 2,
+   "color": "#5e5244"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     64,
+     30
+    ],
+    [
+     130,
+     32
+    ],
+    [
+     168,
+     28
+    ]
+   ],
+   "width": 2,
+   "color": "#5e5244"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -10
+    ],
+    [
+     66,
+     -14
+    ]
+   ],
+   "width": 2,
+   "color": "#5e5244"
+  },
+  {
+   "type": "ellipse",
+   "x": 40,
+   "y": -40,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#5e5244",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 90,
+   "y": -50,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#5e5244",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 140,
+   "y": -50,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#5e5244",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 40,
+   "y": 40,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#5e5244",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 100,
+   "y": 50,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#5e5244",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 95,
+   "y": 10,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#5e5244",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     180,
+     20
+    ],
+    [
+     190,
+     10
+    ],
+    [
+     200,
+     14
+    ]
+   ],
+   "fill": "#e6dcc4",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     176,
+     4
+    ],
+    [
+     186,
+     12
+    ],
+    [
+     186,
+     -4
+    ]
+   ],
+   "fill": "#e6dcc4",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 132,
+   "y": -26,
+   "rx": 19,
+   "ry": 17,
+   "fill": "#a8987f",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": 133,
+   "y": -26,
+   "rx": 13,
+   "ry": 13,
+   "fill": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": 137,
+   "y": -26,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#000000",
+   "width": 1
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     24,
+     -60
+    ],
+    [
+     100,
+     -76
+    ],
+    [
+     158,
+     -60
+    ],
+    [
+     184,
+     -24
+    ],
+    [
+     186,
+     4
+    ],
+    [
+     168,
+     22
+    ],
+    [
+     150,
+     50
+    ],
+    [
+     96,
+     64
+    ],
+    [
+     24,
+     58
+    ],
+    [
+     12,
+     0
+    ]
+   ],
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     150,
+     22
+    ],
+    [
+     186,
+     18
+    ]
+   ],
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     40
+    ],
+    [
+     -10,
+     78
+    ],
+    [
+     -26,
+     72
+    ],
+    [
+     10,
+     36
+    ]
+   ],
+   "fill": "#3d4048",
+   "width": 4
+  }
+ ]
+}

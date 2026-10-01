@@ -1,0 +1,566 @@
+{
+ "name": "messel_turtle",
+ "description": "Living Messel turtle (Allaeochelys, pig-nosed-turtle type) swimming, facing right: smooth olive-brown oval shell with a darker top and pale plastron edge, fleshy pig-nose snout, big paddle front flippers, small rear flippers. ~300x140, anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "creature",
+  "turtle",
+  "reptile",
+  "messel",
+  "eocene",
+  "005"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     20
+    ],
+    [
+     -100,
+     44
+    ],
+    [
+     -110,
+     34
+    ],
+    [
+     -70,
+     14
+    ]
+   ],
+   "fill": "#544a28",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     20
+    ],
+    [
+     10,
+     60
+    ],
+    [
+     -6,
+     56
+    ],
+    [
+     14,
+     18
+    ]
+   ],
+   "fill": "#544a28",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     70,
+     -10
+    ],
+    [
+     100,
+     -26
+    ],
+    [
+     128,
+     -24
+    ],
+    [
+     150,
+     -14
+    ],
+    [
+     166,
+     -10
+    ],
+    [
+     168,
+     2
+    ],
+    [
+     150,
+     8
+    ],
+    [
+     110,
+     16
+    ],
+    [
+     74,
+     18
+    ]
+   ],
+   "fill": "#8a7c4a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     110,
+     6
+    ],
+    [
+     150,
+     6
+    ],
+    [
+     166,
+     0
+    ],
+    [
+     150,
+     10
+    ],
+    [
+     110,
+     16
+    ]
+   ],
+   "fill": "#c8b88a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 166,
+   "y": -4,
+   "rx": 6,
+   "ry": 7,
+   "fill": "#9a8a58",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 167,
+   "y": -5,
+   "rx": 1.6,
+   "ry": 1.6,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     132,
+     8
+    ],
+    [
+     150,
+     6
+    ]
+   ],
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 126,
+   "y": -12,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 128,
+   "y": -12,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     6
+    ],
+    [
+     -128,
+     10
+    ],
+    [
+     -108,
+     18
+    ]
+   ],
+   "fill": "#7a6d3e",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -114,
+     10
+    ],
+    [
+     -100,
+     -30
+    ],
+    [
+     -50,
+     -56
+    ],
+    [
+     20,
+     -58
+    ],
+    [
+     70,
+     -38
+    ],
+    [
+     90,
+     -6
+    ],
+    [
+     80,
+     20
+    ],
+    [
+     0,
+     28
+    ],
+    [
+     -80,
+     24
+    ]
+   ],
+   "fill": "#7a6d3e",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -106,
+     4
+    ],
+    [
+     -96,
+     -28
+    ],
+    [
+     -50,
+     -52
+    ],
+    [
+     20,
+     -54
+    ],
+    [
+     66,
+     -36
+    ],
+    [
+     40,
+     -30
+    ],
+    [
+     -20,
+     -32
+    ],
+    [
+     -80,
+     -18
+    ]
+   ],
+   "fill": "#544a28",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     16
+    ],
+    [
+     -40,
+     26
+    ],
+    [
+     40,
+     24
+    ],
+    [
+     80,
+     16
+    ],
+    [
+     70,
+     8
+    ],
+    [
+     0,
+     12
+    ],
+    [
+     -70,
+     10
+    ]
+   ],
+   "fill": "#c8b88a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -10,
+   "y": -30,
+   "r": 34,
+   "color": "#9a8c58",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -46
+    ],
+    [
+     -40,
+     -20
+    ],
+    [
+     -60,
+     8
+    ]
+   ],
+   "width": 2,
+   "color": "#3f3720"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -54
+    ],
+    [
+     10,
+     -22
+    ],
+    [
+     0,
+     10
+    ]
+   ],
+   "width": 2,
+   "color": "#3f3720"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     50,
+     -42
+    ],
+    [
+     52,
+     -14
+    ],
+    [
+     44,
+     12
+    ]
+   ],
+   "width": 2,
+   "color": "#3f3720"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -114,
+     10
+    ],
+    [
+     -100,
+     -30
+    ],
+    [
+     -50,
+     -56
+    ],
+    [
+     20,
+     -58
+    ],
+    [
+     70,
+     -38
+    ],
+    [
+     90,
+     -6
+    ],
+    [
+     80,
+     20
+    ],
+    [
+     0,
+     28
+    ],
+    [
+     -80,
+     24
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -100,
+     12
+    ],
+    [
+     -40,
+     18
+    ],
+    [
+     40,
+     16
+    ],
+    [
+     80,
+     12
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     14
+    ],
+    [
+     70,
+     30
+    ],
+    [
+     60,
+     64
+    ],
+    [
+     24,
+     76
+    ],
+    [
+     10,
+     60
+    ],
+    [
+     16,
+     30
+    ]
+   ],
+   "fill": "#8a7c4a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     30,
+     30
+    ],
+    [
+     24,
+     66
+    ]
+   ],
+   "width": 2,
+   "color": "#544a28"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     44,
+     32
+    ],
+    [
+     42,
+     66
+    ]
+   ],
+   "width": 2,
+   "color": "#544a28"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     16
+    ],
+    [
+     -96,
+     46
+    ],
+    [
+     -118,
+     46
+    ],
+    [
+     -104,
+     26
+    ]
+   ],
+   "fill": "#8a7c4a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}

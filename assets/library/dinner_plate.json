@@ -1,0 +1,90 @@
+{
+ "name": "dinner_plate",
+ "description": "Plain white dinner plate in a low 3/4 view with a blue rim line and a shallow centre well. 300x90, anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "kitchen",
+  "plate",
+  "food",
+  "005"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 5,
+   "rx": 148,
+   "ry": 40,
+   "fill": "#c9ced6",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -3,
+   "rx": 150,
+   "ry": 42,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -3,
+   "rx": 136,
+   "ry": 36,
+   "fill": null,
+   "width": 4,
+   "color": "#2a5bd7"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -1,
+   "rx": 100,
+   "ry": 25,
+   "fill": "#f1f3f6",
+   "width": 2,
+   "color": "#b8bec8"
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": 4,
+   "r": 30,
+   "color": "#dfe3ea",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -110,
+     -26
+    ],
+    [
+     -70,
+     -34
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -3,
+   "rx": 150,
+   "ry": 42,
+   "fill": null,
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}
