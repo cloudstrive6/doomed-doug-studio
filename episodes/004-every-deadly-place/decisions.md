@@ -34,3 +34,17 @@
   per death. The death counter moves to 36 after this episode passes QC.
 - Next: director shotlist. Titler default is T1, "What Dying in Every Deadly Place on Earth Would Be Like". The description
   must say "11 of the deadliest natural places on Earth".
+
+## 2026-10-01: package approved (creative director): GO
+- Thumbnail (Archetype A 3x3 grid): approved. Visual screener and art director both passed it. It is a clean severity read
+  (sand, then ice, then neon, then lava), Nyiragongo is the boss tile, Nyos is off, there are no bodies, and no label uses a title word.
+- I applied both optional notes myself in `thumbnail.json` and re-rendered (`python -m studio thumbnail`):
+  1. Natron Doug and his flamingo costume went from scale 0.37 at y=160 to 0.43 at y=184 (x=990). Doug's red cap and deadpan
+     face now read at 320 px. I tried 0.47 first, but it cropped the costume's flamingo head at the tile top.
+  2. The Antarctic tile gets six white icicles hanging from the top edge (`#e8f8ff`, black 4 px outline), and the snow spray
+     density goes from 0.15 to 0.30. The tile now says "lethal cold" and not "cosy cabin". I rejected `thermometer` because its red fill means heat.
+- Metadata: approved as is. The T1 title, "What Dying in Every Deadly Place on Earth Would Be Like", is delivered by the video
+  (11 places, deaths ranked hours, then minutes, then seconds). The description says "11 of the deadliest natural places", and every
+  teaser in it (lanceheads, quicksand myth, Natron "stone" myth, Maracaibo lightning) is in the script. Sources, disclaimer
+  and AI-use note are present, playlist is `places`, and `validate metadata` returns OK.
+- Next: editor (narrate, render, QC).
