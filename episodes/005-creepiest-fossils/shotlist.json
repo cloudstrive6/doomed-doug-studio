@@ -867,17 +867,17 @@
      {
       "type": "asset",
       "name": "cave_lion_cub_mummy",
-      "x": 1380,
-      "y": 520,
-      "scale": 0.5,
+      "x": 1440,
+      "y": 480,
+      "scale": 0.4,
       "appear": 0.704
      },
      {
       "type": "asset",
       "name": "cave_lion_cub_mummy",
-      "x": 1560,
-      "y": 520,
-      "scale": 0.5,
+      "x": 1620,
+      "y": 480,
+      "scale": 0.4,
       "appear": 0.815
      },
      {
@@ -3609,9 +3609,9 @@
      {
       "type": "asset",
       "name": "blue_babe",
-      "x": 1100,
-      "y": 420,
-      "scale": 0.5,
+      "x": 360,
+      "y": 550,
+      "scale": 0.45,
       "appear": 0.95
      },
      {
@@ -3682,16 +3682,6 @@
       "x": 900,
       "y": 860,
       "scale": 1.1
-     },
-     {
-      "type": "rect",
-      "x": 820,
-      "y": 500,
-      "w": 160,
-      "h": 60,
-      "fill": "#ffffff",
-      "width": 4,
-      "color": "#000000"
      },
      {
       "type": "label",
@@ -4821,8 +4811,8 @@
       "h": 130,
       "text": "well aged",
       "tail": [
-       500,
-       470
+       520,
+       620
       ],
       "size": 50,
       "appear": 0.25
@@ -5752,9 +5742,9 @@
      {
       "type": "asset",
       "name": "lyuba_mummy",
-      "x": 900,
-      "y": 420,
-      "scale": 0.4,
+      "x": 1271,
+      "y": 470,
+      "scale": 0.35,
       "appear": 0.545
      },
      {
@@ -5974,16 +5964,16 @@
       "type": "asset",
       "name": "calendar",
       "x": 1500,
-      "y": 420,
-      "scale": 0.7,
+      "y": 440,
+      "scale": 1.0,
       "appear": 0.857
      },
      {
       "type": "text",
       "text": "1 MONTH",
       "x": 1500,
-      "y": 440,
-      "size": 44,
+      "y": 470,
+      "size": 40,
       "color": "#000000",
       "bold": true,
       "boil": 0.2,
@@ -6476,8 +6466,8 @@
        720
       ],
       "to": [
-       1000,
-       760
+       1040,
+       740
       ],
       "bend": 40,
       "color": "#e0201b",
@@ -12891,15 +12881,15 @@
      {
       "type": "speech",
       "x": 760,
-      "y": 160,
-      "w": 520,
-      "h": 140,
+      "y": 210,
+      "w": 660,
+      "h": 120,
       "text": "very reasonable guess",
       "tail": [
-       740,
-       420
+       730,
+       510
       ],
-      "size": 50,
+      "size": 46,
       "appear": 0.4
      },
      {
@@ -13017,9 +13007,9 @@
      },
      {
       "type": "rect",
-      "x": 20,
+      "x": 40,
       "y": 178.0,
-      "w": 460,
+      "w": 520,
       "h": 80,
       "fill": "#1b6f66",
       "width": 5,
@@ -13028,9 +13018,9 @@
      {
       "type": "text",
       "text": "47,000,000 YEARS AGO",
-      "x": 250,
+      "x": 300,
       "y": 218.0,
-      "size": 40,
+      "size": 36,
       "color": "#fff36b",
       "bold": true,
       "boil": 0
@@ -13094,14 +13084,14 @@
      },
      {
       "type": "speech",
-      "x": 560,
-      "y": 260,
+      "x": 650,
+      "y": 340,
       "w": 240,
       "h": 110,
       "text": "sorry",
       "tail": [
-       760,
-       470
+       800,
+       500
       ],
       "size": 50,
       "appear": 0.5
@@ -13567,15 +13557,15 @@
      {
       "type": "asset",
       "name": "exclamation_mark",
-      "x": 1600,
-      "y": 500,
+      "x": 1620,
+      "y": 560,
       "scale": 0.5,
       "appear": 0.704
      },
      {
       "type": "label",
       "text": "NO ENDING",
-      "x": 960,
+      "x": 1620,
       "y": 380,
       "size": 54,
       "bold": true,
@@ -13641,8 +13631,8 @@
      {
       "type": "asset",
       "name": "fighting_dinosaurs_fossil",
-      "x": 1200,
-      "y": 300,
+      "x": 1413,
+      "y": 365,
       "scale": 0.3,
       "appear": 0.815
      },
@@ -14563,14 +14553,14 @@
      {
       "type": "arrow",
       "from": [
-       500,
-       300
+       1000,
+       915
       ],
       "to": [
-       860,
-       560
+       1145,
+       585
       ],
-      "bend": 40,
+      "bend": 30,
       "color": "#e0201b",
       "width": 9,
       "head": 40,
@@ -14579,8 +14569,8 @@
      {
       "type": "label",
       "text": "CLAW",
-      "x": 440,
-      "y": 260,
+      "x": 980,
+      "y": 965,
       "size": 54,
       "bold": true,
       "boil": 0.4,
@@ -14589,12 +14579,12 @@
      {
       "type": "arrow",
       "from": [
-       1450,
-       300
+       1440,
+       250
       ],
       "to": [
-       1080,
-       560
+       1088,
+       478
       ],
       "bend": -40,
       "color": "#e0201b",
@@ -14606,7 +14596,7 @@
       "type": "label",
       "text": "ARM",
       "x": 1500,
-      "y": 260,
+      "y": 215,
       "size": 54,
       "bold": true,
       "boil": 0.4,
@@ -16886,8 +16876,8 @@
      },
      {
       "type": "doug",
-      "x": 960,
-      "y": 330,
+      "x": 930,
+      "y": 575,
       "scale": 0.55,
       "pose": "sit",
       "expression": "smirk",
@@ -16897,9 +16887,9 @@
      {
       "type": "asset",
       "name": "thumbs_up_hand",
-      "x": 1130,
-      "y": 300,
-      "scale": 0.5,
+      "x": 1060,
+      "y": 560,
+      "scale": 0.35,
       "appear": 0.737
      },
      {
@@ -17071,8 +17061,8 @@
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 1250,
-      "y": 450,
+      "x": 1600,
+      "y": 600,
       "scale": 0.5,
       "appear": 0.1
      },
@@ -17090,8 +17080,8 @@
      },
      {
       "type": "doug",
-      "x": 1250,
-      "y": 300,
+      "x": 1600,
+      "y": 470,
       "scale": 0.35,
       "pose": "float",
       "expression": "dead",
@@ -17565,16 +17555,16 @@
      {
       "type": "asset",
       "name": "horseshoe_crab",
-      "x": 1400,
-      "y": 800,
-      "scale": 0.6,
+      "x": 1009,
+      "y": 500,
+      "scale": 0.4,
       "appear": 0.621
      },
      {
       "type": "label",
       "text": "13 CM",
-      "x": 1400,
-      "y": 920,
+      "x": 1009,
+      "y": 590,
       "size": 48,
       "bold": true,
       "boil": 0.4,
@@ -17915,8 +17905,8 @@
      {
       "type": "asset",
       "name": "red_x",
-      "x": 1300,
-      "y": 760,
+      "x": 1400,
+      "y": 740,
       "scale": 0.6,
       "appear": 0.591
      },
@@ -21501,16 +21491,16 @@
      {
       "type": "asset",
       "name": "ichthyosaur",
-      "x": 1350,
-      "y": 800,
-      "scale": 0.4,
+      "x": 1002,
+      "y": 500,
+      "scale": 0.3,
       "appear": 0.44
      },
      {
       "type": "label",
       "text": "STENOPTERYGIUS",
-      "x": 1350,
-      "y": 920,
+      "x": 1002,
+      "y": 590,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -22197,14 +22187,14 @@
      {
       "type": "arrow",
       "from": [
-       1100,
-       400
+       640,
+       300
       ],
       "to": [
-       900,
-       480
+       610,
+       545
       ],
-      "bend": -30,
+      "bend": 30,
       "color": "#e0201b",
       "width": 9,
       "head": 40,
@@ -23677,8 +23667,8 @@
      {
       "type": "asset",
       "name": "heart_icon",
-      "x": 700,
-      "y": 600,
+      "x": 648,
+      "y": 568,
       "scale": 0.2,
       "appear": 0.125
      },
@@ -23703,8 +23693,8 @@
      {
       "type": "asset",
       "name": "heart_icon",
-      "x": 1250,
-      "y": 600,
+      "x": 1545,
+      "y": 552,
       "scale": 0.2,
       "appear": 0.417
      },

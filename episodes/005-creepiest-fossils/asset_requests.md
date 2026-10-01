@@ -143,6 +143,7 @@ pit, I will add 4 px framed `image` insets.
 - **Facing** right. **Size/anchor:** 300x140, `bc`.
 - **Shots:** s072, s075-s082.
 - **Done:** `assets/library/wolf_pup_mummy.json`, preview `assets/previews/005-assets-a.png`.
+- **Revised (art review fix 1):** it now has a protruding wolf muzzle with a dark nose, the drawn-back lip and tiny teeth on the muzzle, a small ear folded back, and a flat, slightly downturned closed eye. Previews: `assets/previews/005-creepiest-fossils-revise.png` and `assets/previews/005-revise-wolf_pup_mummy-night.png`.
 
 ### grey_wolf (B)
 - **What:** an adult grey wolf standing alert, grey with a paler belly and a dark saddle.
@@ -194,6 +195,7 @@ pit, I will add 4 px framed `image` insets.
 - **Size/anchor:** 700x420, `bc`. The claw meets the throat at about (-20, -230), and the arm is in the beak at about (+80, -260).
 - **Shots:** s104-s107, s109, s114 (red arrows point to those two points), s115, s119.
 - **Done:** `assets/library/fighting_dinosaurs_fossil.json`, preview `assets/previews/005-assets-c.png`. Note: the sickle claw sits in the Protoceratops' throat at about (+135, -212), not (-20, -230); the hand in the beak is at about (+84, -262). Please aim the s114 arrow there.
+- **Revised (art review fix 2):** the Protoceratops skull now has a fan frill with a window and a hooked parrot beak that closes on the raptor's hand at **(+84, -262)**. The raptor's kicking leg is bent (thigh, knee, shin, foot) and ends in a hooked sickle claw whose tip is at **(+135, -212)**, against the Protoceratops' throat and jaw. The raptor's head and neck are lowered next to the Protoceratops' head, and the ribs hang from the spine. The top grain line is clipped to the slab. Previews: `assets/previews/005-creepiest-fossils-revise.png` and `assets/previews/005-revise-fighting_dinosaurs_fossil-night.png`.
 
 ### protoceratops (B)
 - **What:** a living Protoceratops. A stocky quadruped about the size of a sheep, sand-tan with darker bands, a big bony neck frill,
