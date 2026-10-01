@@ -2306,8 +2306,8 @@
        960
       ],
       "to": [
-       770,
-       925
+       740,
+       830
       ],
       "bend": 40,
       "color": "#e0201b",
@@ -6643,7 +6643,7 @@
       "y": 470,
       "scale": 1.1,
       "silhouette": true,
-      "glow": "#e0201b",
+      "glow": "#fff36b",
       "glow_r": 380
      },
      {
@@ -12750,9 +12750,9 @@
      {
       "type": "rect",
       "x": 0,
-      "y": 830,
+      "y": 808,
       "w": 1920,
-      "h": 250,
+      "h": 272,
       "fill": "#c9ae76",
       "width": 0,
       "outline": false
@@ -12814,9 +12814,9 @@
      {
       "type": "rect",
       "x": 0,
-      "y": 600,
+      "y": 692,
       "w": 1920,
-      "h": 480,
+      "h": 388,
       "fill": "#c9ae76",
       "width": 0,
       "outline": false
@@ -12833,8 +12833,8 @@
       "type": "line",
       "points": [
        [
-        870,
-        600
+        885,
+        692
        ],
        [
         840,
@@ -12852,8 +12852,8 @@
       "type": "line",
       "points": [
        [
-        930,
-        600
+        915,
+        692
        ],
        [
         960,
@@ -12961,9 +12961,9 @@
      {
       "type": "rect",
       "x": 0,
-      "y": 600,
+      "y": 692,
       "w": 1920,
-      "h": 480,
+      "h": 388,
       "fill": "#c9ae76",
       "width": 0,
       "outline": false
@@ -12980,8 +12980,8 @@
       "type": "line",
       "points": [
        [
-        870,
-        600
+        885,
+        692
        ],
        [
         840,
@@ -12999,8 +12999,8 @@
       "type": "line",
       "points": [
        [
-        930,
-        600
+        915,
+        692
        ],
        [
         960,
@@ -13187,19 +13187,19 @@
       "points": [
        [
         560,
-        800
-       ],
-       [
-        1360,
         700
        ],
        [
+        1360,
+        800
+       ],
+       [
         1370,
-        730
+        830
        ],
        [
         570,
-        830
+        730
        ]
       ],
       "fill": "#a0522d",
@@ -13210,15 +13210,15 @@
       "points": [
        [
         960,
-        760
+        780
        ],
        [
         900,
-        900
+        920
        ],
        [
         1020,
-        900
+        920
        ]
       ],
       "fill": "#6b5b4b",
@@ -13227,7 +13227,7 @@
      {
       "type": "doug",
       "x": 700,
-      "y": 695,
+      "y": 641,
       "scale": 0.5,
       "pose": "stand",
       "expression": "neutral",
@@ -13236,7 +13236,7 @@
      {
       "type": "rect",
       "x": 1150,
-      "y": 560,
+      "y": 625,
       "w": 180,
       "h": 160,
       "fill": "#c9ae76",
@@ -13246,7 +13246,7 @@
       "type": "label",
       "text": "QUICKSAND",
       "x": 1240,
-      "y": 500,
+      "y": 565,
       "size": 40,
       "bold": true,
       "boil": 0.4,
@@ -18353,8 +18353,8 @@
        760
       ],
       "to": [
-       760,
-       1000
+       790,
+       890
       ],
       "bend": -40,
       "color": "#e0201b",
@@ -18663,7 +18663,7 @@
      {
       "type": "doug",
       "x": 1450,
-      "y": 778,
+      "y": 870,
       "scale": 0.55,
       "pose": "stand",
       "expression": "gritted",
@@ -18673,14 +18673,14 @@
       "type": "asset",
       "name": "travel_suitcase",
       "x": 1422,
-      "y": 842,
+      "y": 934,
       "scale": 0.264
      },
      {
       "type": "asset",
       "name": "sticker_death_valley",
       "x": 1391,
-      "y": 785,
+      "y": 877,
       "scale": 0.264,
       "rotate": -8
      },
@@ -18688,7 +18688,7 @@
       "type": "asset",
       "name": "sticker_snake_island",
       "x": 1422,
-      "y": 785,
+      "y": 877,
       "scale": 0.264,
       "rotate": 5
      },
@@ -18696,7 +18696,7 @@
       "type": "asset",
       "name": "sticker_morecambe_bay",
       "x": 1455,
-      "y": 785,
+      "y": 877,
       "scale": 0.264,
       "rotate": -3
      },
@@ -18803,7 +18803,7 @@
      {
       "type": "doug",
       "x": 700,
-      "y": 770,
+      "y": 880,
       "scale": 0.6,
       "pose": "stand",
       "expression": "hopeful",
@@ -18813,14 +18813,14 @@
       "type": "asset",
       "name": "travel_suitcase",
       "x": 670,
-      "y": 840,
+      "y": 950,
       "scale": 0.288
      },
      {
       "type": "asset",
       "name": "sticker_death_valley",
       "x": 635,
-      "y": 778,
+      "y": 888,
       "scale": 0.288,
       "rotate": -8
      },
@@ -18828,7 +18828,7 @@
       "type": "asset",
       "name": "sticker_snake_island",
       "x": 670,
-      "y": 778,
+      "y": 888,
       "scale": 0.288,
       "rotate": 5
      },
@@ -18836,7 +18836,7 @@
       "type": "asset",
       "name": "sticker_morecambe_bay",
       "x": 704,
-      "y": 778,
+      "y": 888,
       "scale": 0.288,
       "rotate": -3
      },
@@ -23932,38 +23932,70 @@
     "background": "#2b5fa8",
     "elements": [
      {
+      "type": "spray",
+      "x": 600,
+      "y": 800,
+      "r": 700,
+      "color": "#7fb2e8",
+      "density": 0.04
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        -40,
+        1120
+       ],
+       [
+        -40,
+        900
+       ],
+       [
+        400,
+        820
+       ],
+       [
+        900,
+        760
+       ],
+       [
+        1960,
+        980
+       ],
+       [
+        1960,
+        1120
+       ]
+      ],
+      "fill": "#ffffff",
+      "width": 6,
+      "smooth": true
+     },
+     {
+      "type": "spray",
+      "x": 500,
+      "y": 950,
+      "r": 400,
+      "color": "#dfe8f2",
+      "density": 0.08
+     },
+     {
       "type": "asset",
-      "name": "mount_everest",
-      "x": 960,
-      "y": 1080,
-      "scale": 1.0
+      "name": "climber",
+      "x": 500,
+      "y": 620,
+      "scale": 1.15
      },
      {
       "type": "line",
       "points": [
        [
         560,
-        1040
-       ],
-       [
-        760,
-        920
-       ],
-       [
-        640,
-        800
-       ],
-       [
-        840,
-        660
-       ],
-       [
-        740,
         520
        ],
        [
-        930,
-        360
+        1130,
+        380
        ]
       ],
       "dash": [
@@ -23971,56 +24003,146 @@
        12
       ],
       "width": 5,
-      "color": "#ffe24a"
+      "color": "#000000",
+      "appear": 0.3
      },
      {
-      "type": "asset",
-      "name": "climber",
-      "x": 790,
-      "y": 690,
-      "scale": 0.25
+      "type": "line",
+      "points": [
+       [
+        560,
+        520
+       ],
+       [
+        1180,
+        860
+       ]
+      ],
+      "dash": [
+       14,
+       12
+      ],
+      "width": 5,
+      "color": "#000000",
+      "appear": 0.3
+     },
+     {
+      "type": "circle",
+      "x": 1390,
+      "y": 630,
+      "r": 290,
+      "fill": "#ffe9e4",
+      "width": 10,
+      "appear": 0.3
      },
      {
       "type": "asset",
       "name": "red_blood_cell",
-      "x": 1400,
-      "y": 900,
-      "scale": 0.3,
+      "x": 1300,
+      "y": 560,
+      "scale": 0.42,
+      "rotate": 0,
       "appear": 0.392
      },
      {
       "type": "asset",
       "name": "red_blood_cell",
-      "x": 1480,
-      "y": 700,
-      "scale": 0.4,
+      "x": 1420,
+      "y": 500,
+      "scale": 0.42,
+      "rotate": 0,
+      "appear": 0.392
+     },
+     {
+      "type": "asset",
+      "name": "red_blood_cell",
+      "x": 1380,
+      "y": 650,
+      "scale": 0.42,
+      "rotate": 0,
+      "appear": 0.392
+     },
+     {
+      "type": "asset",
+      "name": "red_blood_cell",
+      "x": 1250,
+      "y": 690,
+      "scale": 0.42,
+      "rotate": 10,
       "appear": 0.481
      },
      {
       "type": "asset",
       "name": "red_blood_cell",
-      "x": 1560,
-      "y": 500,
-      "scale": 0.5,
+      "x": 1500,
+      "y": 620,
+      "scale": 0.42,
+      "rotate": 0,
+      "appear": 0.481
+     },
+     {
+      "type": "asset",
+      "name": "red_blood_cell",
+      "x": 1460,
+      "y": 760,
+      "scale": 0.42,
+      "rotate": 0,
+      "appear": 0.481
+     },
+     {
+      "type": "asset",
+      "name": "red_blood_cell",
+      "x": 1220,
+      "y": 470,
+      "scale": 0.42,
+      "rotate": 0,
       "appear": 0.705
+     },
+     {
+      "type": "asset",
+      "name": "red_blood_cell",
+      "x": 1540,
+      "y": 470,
+      "scale": 0.42,
+      "rotate": 0,
+      "appear": 0.705
+     },
+     {
+      "type": "asset",
+      "name": "red_blood_cell",
+      "x": 1330,
+      "y": 800,
+      "scale": 0.42,
+      "rotate": 10,
+      "appear": 0.705
+     },
+     {
+      "type": "asset",
+      "name": "red_blood_cell",
+      "x": 1560,
+      "y": 730,
+      "scale": 0.42,
+      "rotate": -20,
+      "appear": 0.705
+     },
+     {
+      "type": "label",
+      "text": "HEMOGLOBIN",
+      "x": 1390,
+      "y": 970,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "appear": 0.392
      },
      {
       "type": "wordart",
       "text": "MORE AND MORE",
-      "x": 1450,
-      "y": 260,
+      "x": 1100,
+      "y": 220,
       "size": 84,
       "boil": 0,
       "appear": 0.481
-     },
-     {
-      "type": "doug",
-      "x": 300,
-      "y": 980,
-      "scale": 0.4,
-      "pose": "think",
-      "expression": "neutral",
-      "facing": "right"
      }
     ]
    }
@@ -24339,6 +24461,118 @@
       "type": "poly",
       "points": [
        [
+        960,
+        530
+       ],
+       [
+        1560,
+        1120
+       ],
+       [
+        1180,
+        1120
+       ],
+       [
+        1030,
+        760
+       ],
+       [
+        1010,
+        640
+       ]
+      ],
+      "fill": "#5e5048",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 760,
+      "y": 900,
+      "r": 220,
+      "color": "#a89a8a",
+      "density": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        700,
+        880
+       ],
+       [
+        760,
+        860
+       ],
+       [
+        820,
+        890
+       ]
+      ],
+      "width": 3,
+      "color": "#6b5b4b"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        560,
+        1010
+       ],
+       [
+        640,
+        990
+       ],
+       [
+        700,
+        1020
+       ]
+      ],
+      "width": 3,
+      "color": "#6b5b4b"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1150,
+        900
+       ],
+       [
+        1230,
+        880
+       ],
+       [
+        1290,
+        910
+       ]
+      ],
+      "width": 3,
+      "color": "#3e342c"
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        360,
+        1120
+       ],
+       [
+        960,
+        530
+       ],
+       [
+        1560,
+        1120
+       ]
+      ],
+      "fill": null,
+      "width": 6
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
         810,
         680
        ],
@@ -24453,6 +24687,118 @@
        ]
       ],
       "fill": "#8a7a6a",
+      "width": 6
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        960,
+        530
+       ],
+       [
+        1560,
+        1120
+       ],
+       [
+        1180,
+        1120
+       ],
+       [
+        1030,
+        760
+       ],
+       [
+        1010,
+        640
+       ]
+      ],
+      "fill": "#5e5048",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 760,
+      "y": 900,
+      "r": 220,
+      "color": "#a89a8a",
+      "density": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        700,
+        880
+       ],
+       [
+        760,
+        860
+       ],
+       [
+        820,
+        890
+       ]
+      ],
+      "width": 3,
+      "color": "#6b5b4b"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        560,
+        1010
+       ],
+       [
+        640,
+        990
+       ],
+       [
+        700,
+        1020
+       ]
+      ],
+      "width": 3,
+      "color": "#6b5b4b"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1150,
+        900
+       ],
+       [
+        1230,
+        880
+       ],
+       [
+        1290,
+        910
+       ]
+      ],
+      "width": 3,
+      "color": "#3e342c"
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        360,
+        1120
+       ],
+       [
+        960,
+        530
+       ],
+       [
+        1560,
+        1120
+       ]
+      ],
+      "fill": null,
       "width": 6
      },
      {
@@ -24816,6 +25162,118 @@
       "type": "poly",
       "points": [
        [
+        960,
+        530
+       ],
+       [
+        1560,
+        1120
+       ],
+       [
+        1180,
+        1120
+       ],
+       [
+        1030,
+        760
+       ],
+       [
+        1010,
+        640
+       ]
+      ],
+      "fill": "#5e5048",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 760,
+      "y": 900,
+      "r": 220,
+      "color": "#a89a8a",
+      "density": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        700,
+        880
+       ],
+       [
+        760,
+        860
+       ],
+       [
+        820,
+        890
+       ]
+      ],
+      "width": 3,
+      "color": "#6b5b4b"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        560,
+        1010
+       ],
+       [
+        640,
+        990
+       ],
+       [
+        700,
+        1020
+       ]
+      ],
+      "width": 3,
+      "color": "#6b5b4b"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1150,
+        900
+       ],
+       [
+        1230,
+        880
+       ],
+       [
+        1290,
+        910
+       ]
+      ],
+      "width": 3,
+      "color": "#3e342c"
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        360,
+        1120
+       ],
+       [
+        960,
+        530
+       ],
+       [
+        1560,
+        1120
+       ]
+      ],
+      "fill": null,
+      "width": 6
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
         810,
         680
        ],
@@ -24926,6 +25384,118 @@
        ]
       ],
       "fill": "#8a7a6a",
+      "width": 6
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        960,
+        530
+       ],
+       [
+        1560,
+        1120
+       ],
+       [
+        1180,
+        1120
+       ],
+       [
+        1030,
+        760
+       ],
+       [
+        1010,
+        640
+       ]
+      ],
+      "fill": "#5e5048",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 760,
+      "y": 900,
+      "r": 220,
+      "color": "#a89a8a",
+      "density": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        700,
+        880
+       ],
+       [
+        760,
+        860
+       ],
+       [
+        820,
+        890
+       ]
+      ],
+      "width": 3,
+      "color": "#6b5b4b"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        560,
+        1010
+       ],
+       [
+        640,
+        990
+       ],
+       [
+        700,
+        1020
+       ]
+      ],
+      "width": 3,
+      "color": "#6b5b4b"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1150,
+        900
+       ],
+       [
+        1230,
+        880
+       ],
+       [
+        1290,
+        910
+       ]
+      ],
+      "width": 3,
+      "color": "#3e342c"
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        360,
+        1120
+       ],
+       [
+        960,
+        530
+       ],
+       [
+        1560,
+        1120
+       ]
+      ],
+      "fill": null,
       "width": 6
      },
      {
@@ -25096,12 +25666,119 @@
     "background": "#2b5fa8",
     "elements": [
      {
-      "type": "rect",
-      "x": 0,
-      "y": 860,
-      "w": 1920,
-      "h": 220,
+      "type": "spray",
+      "x": 1300,
+      "y": 760,
+      "r": 700,
+      "color": "#7fb2e8",
+      "density": 0.05
+     },
+     {
+      "type": "spray",
+      "x": 1650,
+      "y": 250,
+      "r": 140,
+      "color": "#fff7a0",
+      "density": 0.1
+     },
+     {
+      "type": "circle",
+      "x": 1650,
+      "y": 250,
+      "r": 60,
+      "fill": "#ffe24a",
+      "width": 5
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        820,
+        860
+       ],
+       [
+        1060,
+        560
+       ],
+       [
+        1300,
+        860
+       ]
+      ],
+      "fill": "#7a6e64",
+      "width": 5
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        995,
+        640
+       ],
+       [
+        1060,
+        560
+       ],
+       [
+        1125,
+        640
+       ],
+       [
+        1090,
+        628
+       ],
+       [
+        1060,
+        655
+       ],
+       [
+        1030,
+        628
+       ]
+      ],
       "fill": "#ffffff",
+      "width": 4
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1150,
+        860
+       ],
+       [
+        1460,
+        430
+       ],
+       [
+        1770,
+        860
+       ]
+      ],
+      "fill": "#857868",
+      "width": 5
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1460,
+        430
+       ],
+       [
+        1770,
+        860
+       ],
+       [
+        1560,
+        860
+       ],
+       [
+        1500,
+        600
+       ]
+      ],
+      "fill": "#5e5048",
       "width": 0,
       "outline": false
      },
@@ -25109,78 +25786,269 @@
       "type": "poly",
       "points": [
        [
-        360,
-        1120
+        1150,
+        860
+       ],
+       [
+        1460,
+        430
+       ],
+       [
+        1770,
+        860
+       ]
+      ],
+      "fill": null,
+      "width": 5
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1370,
+        555
+       ],
+       [
+        1460,
+        430
+       ],
+       [
+        1550,
+        555
+       ],
+       [
+        1500,
+        538
+       ],
+       [
+        1460,
+        575
+       ],
+       [
+        1420,
+        538
+       ]
+      ],
+      "fill": "#ffffff",
+      "width": 4
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1660,
+        860
+       ],
+       [
+        1840,
+        620
+       ],
+       [
+        2000,
+        860
+       ]
+      ],
+      "fill": "#7a6e64",
+      "width": 5
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1800,
+        673
+       ],
+       [
+        1840,
+        620
+       ],
+       [
+        1880,
+        673
+       ],
+       [
+        1840,
+        690
+       ]
+      ],
+      "fill": "#ffffff",
+      "width": 4
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 840,
+      "w": 1920,
+      "h": 240,
+      "fill": "#f4f8ff",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 1200,
+      "y": 850,
+      "r": 600,
+      "color": "#ffffff",
+      "density": 0.12
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        700,
+        850
+       ],
+       [
+        820,
+        820
        ],
        [
         960,
-        530
+        845
        ],
        [
-        1560,
+        1120,
+        815
+       ],
+       [
+        1300,
+        848
+       ],
+       [
+        1500,
+        818
+       ],
+       [
+        1700,
+        846
+       ],
+       [
+        1960,
+        820
+       ]
+      ],
+      "width": 4,
+      "color": "#b9c8dc"
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        -40,
+        1120
+       ],
+       [
+        -40,
+        760
+       ],
+       [
+        180,
+        700
+       ],
+       [
+        420,
+        690
+       ],
+       [
+        620,
+        760
+       ],
+       [
+        780,
         1120
        ]
       ],
-      "fill": "#8a7a6a",
+      "fill": "#5e5048",
       "width": 6
      },
      {
       "type": "poly",
       "points": [
        [
-        810,
-        680
+        150,
+        708
        ],
        [
-        960,
-        530
+        180,
+        700
        ],
        [
-        1110,
-        680
+        420,
+        690
        ],
        [
-        1040,
-        655
+        520,
+        720
        ],
        [
-        960,
-        705
+        470,
+        740
        ],
        [
-        880,
-        655
+        400,
+        722
+       ],
+       [
+        300,
+        745
+       ],
+       [
+        220,
+        725
        ]
       ],
       "fill": "#ffffff",
-      "width": 5
-     },
-     {
-      "type": "spray",
-      "x": 400,
-      "y": 950,
-      "r": 300,
-      "color": "#ffffff",
-      "density": 0.06
-     },
-     {
-      "type": "spray",
-      "x": 1600,
-      "y": 940,
-      "r": 300,
-      "color": "#ffffff",
-      "density": 0.06
+      "width": 4
      },
      {
       "type": "line",
       "points": [
        [
-        1110,
-        600
+        90,
+        900
        ],
        [
-        1110,
-        420
+        170,
+        880
+       ],
+       [
+        230,
+        910
+       ]
+      ],
+      "width": 3,
+      "color": "#3e342c"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        380,
+        960
+       ],
+       [
+        460,
+        940
+       ],
+       [
+        520,
+        975
+       ]
+      ],
+      "width": 3,
+      "color": "#3e342c"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        480,
+        700
+       ],
+       [
+        480,
+        520
        ]
       ],
       "width": 6,
@@ -25190,16 +26058,16 @@
       "type": "poly",
       "points": [
        [
-        1110,
-        420
+        480,
+        520
        ],
        [
-        1260,
-        450
+        620,
+        548
        ],
        [
-        1110,
-        485
+        480,
+        580
        ]
       ],
       "fill": "#e0201b",
@@ -25208,89 +26076,100 @@
      {
       "type": "text",
       "text": "DOUG",
-      "x": 1165,
-      "y": 453,
-      "size": 26,
+      "x": 530,
+      "y": 550,
+      "size": 24,
       "color": "#ffffff",
       "bold": true,
       "boil": 0.2
      },
      {
-      "type": "doug",
-      "x": 960,
-      "y": 452,
-      "scale": 0.6,
-      "pose": "hands_hips",
-      "expression": "hopeful",
-      "facing": "right"
-     },
-     {
-      "type": "spray",
-      "x": 300,
-      "y": 800,
-      "r": 260,
-      "color": "#ffffff",
-      "density": 0.12,
-      "appear": 0.824
-     },
-     {
-      "type": "spray",
-      "x": 1650,
-      "y": 820,
-      "r": 280,
-      "color": "#ffffff",
-      "density": 0.12,
-      "appear": 0.824
-     },
-     {
-      "type": "wordart",
-      "text": "THE VIEW",
-      "x": 480,
-      "y": 300,
-      "size": 96,
-      "boil": 0,
-      "appear": 0.824
-     },
-     {
       "type": "asset",
       "name": "travel_suitcase",
-      "x": 720,
-      "y": 790,
+      "x": 200,
+      "y": 712,
       "scale": 0.35
      },
      {
       "type": "asset",
       "name": "sticker_death_valley",
-      "x": 678,
-      "y": 715,
+      "x": 158,
+      "y": 637,
       "scale": 0.35,
       "rotate": -8
      },
      {
       "type": "asset",
       "name": "sticker_snake_island",
-      "x": 720,
-      "y": 715,
+      "x": 200,
+      "y": 637,
       "scale": 0.35,
       "rotate": 5
      },
      {
       "type": "asset",
       "name": "sticker_morecambe_bay",
-      "x": 762,
-      "y": 715,
+      "x": 242,
+      "y": 637,
       "scale": 0.35,
       "rotate": -3
      },
      {
       "type": "asset",
       "name": "sticker_antarctica",
-      "x": 678,
-      "y": 738,
+      "x": 158,
+      "y": 660,
       "scale": 0.35,
       "rotate": 6
+     },
+     {
+      "type": "doug",
+      "x": 340,
+      "y": 600,
+      "scale": 0.6,
+      "pose": "hands_hips",
+      "expression": "hopeful",
+      "facing": "right"
+     },
+     {
+      "type": "arrow",
+      "from": [
+       700,
+       560
+      ],
+      "to": [
+       1000,
+       640
+      ],
+      "bend": -40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 40,
+      "appear": 0.5
+     },
+     {
+      "type": "wordart",
+      "text": "THE VIEW",
+      "x": 1060,
+      "y": 300,
+      "size": 96,
+      "boil": 0,
+      "appear": 0.824
      }
     ]
+   },
+   "camera": {
+    "from": [
+     1000,
+     560,
+     1.08
+    ],
+    "to": [
+     920,
+     540,
+     1.0
+    ],
+    "ease": "smooth"
    }
   },
   {
@@ -25300,207 +26179,115 @@
     "background": "#2b5fa8",
     "elements": [
      {
-      "type": "rect",
-      "x": 0,
-      "y": 860,
-      "w": 1920,
-      "h": 220,
-      "fill": "#ffffff",
-      "width": 0,
-      "outline": false
+      "type": "spray",
+      "x": 960,
+      "y": 900,
+      "r": 800,
+      "color": "#7fb2e8",
+      "density": 0.05
      },
      {
       "type": "poly",
       "points": [
        [
-        360,
+        -40,
         1120
        ],
        [
-        960,
-        530
+        -40,
+        980
        ],
        [
-        1560,
+        300,
+        900
+       ],
+       [
+        760,
+        860
+       ],
+       [
+        1200,
+        900
+       ],
+       [
+        1960,
+        1000
+       ],
+       [
+        1960,
         1120
-       ]
-      ],
-      "fill": "#8a7a6a",
-      "width": 6
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        810,
-        680
-       ],
-       [
-        960,
-        530
-       ],
-       [
-        1110,
-        680
-       ],
-       [
-        1040,
-        655
-       ],
-       [
-        960,
-        705
-       ],
-       [
-        880,
-        655
        ]
       ],
       "fill": "#ffffff",
-      "width": 5
-     },
-     {
-      "type": "spray",
-      "x": 400,
-      "y": 950,
-      "r": 300,
-      "color": "#ffffff",
-      "density": 0.06
-     },
-     {
-      "type": "spray",
-      "x": 1600,
-      "y": 940,
-      "r": 300,
-      "color": "#ffffff",
-      "density": 0.06
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1110,
-        600
-       ],
-       [
-        1110,
-        420
-       ]
-      ],
       "width": 6,
-      "color": "#6b4a2b"
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        1110,
-        420
-       ],
-       [
-        1260,
-        450
-       ],
-       [
-        1110,
-        485
-       ]
-      ],
-      "fill": "#e0201b",
-      "width": 5
-     },
-     {
-      "type": "text",
-      "text": "DOUG",
-      "x": 1165,
-      "y": 453,
-      "size": 26,
-      "color": "#ffffff",
-      "bold": true,
-      "boil": 0.2
+      "smooth": true
      },
      {
       "type": "spray",
-      "x": 300,
-      "y": 800,
-      "r": 260,
-      "color": "#ffffff",
-      "density": 0.12
-     },
-     {
-      "type": "spray",
-      "x": 1650,
-      "y": 820,
-      "r": 280,
-      "color": "#ffffff",
-      "density": 0.12
+      "x": 760,
+      "y": 1000,
+      "r": 400,
+      "color": "#dfe8f2",
+      "density": 0.08
      },
      {
       "type": "doug",
-      "x": 960,
-      "y": 452,
-      "scale": 0.6,
+      "x": 700,
+      "y": 1060,
+      "scale": 2.1,
       "pose": "hands_hips",
       "expression": "sleepy",
       "facing": "right"
      },
      {
+      "type": "spray",
+      "x": 1100,
+      "y": 420,
+      "r": 90,
+      "color": "#ffffff",
+      "density": 0.15,
+      "appear": 0.4
+     },
+     {
       "type": "asset",
       "name": "clock",
-      "x": 1500,
-      "y": 420,
-      "scale": 0.7,
+      "x": 1420,
+      "y": 540,
+      "scale": 1.3,
+      "appear": 0.6
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1250,
+       800
+      ],
+      "to": [
+       1060,
+       640
+      ],
+      "bend": -40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 40,
       "appear": 0.812
      },
      {
       "type": "wordart",
       "text": "INCREDIBLE",
-      "x": 480,
-      "y": 300,
+      "x": 1300,
+      "y": 220,
       "size": 90,
       "boil": 0,
       "appear": 0.214
-     },
-     {
-      "type": "asset",
-      "name": "travel_suitcase",
-      "x": 720,
-      "y": 790,
-      "scale": 0.35
-     },
-     {
-      "type": "asset",
-      "name": "sticker_death_valley",
-      "x": 678,
-      "y": 715,
-      "scale": 0.35,
-      "rotate": -8
-     },
-     {
-      "type": "asset",
-      "name": "sticker_snake_island",
-      "x": 720,
-      "y": 715,
-      "scale": 0.35,
-      "rotate": 5
-     },
-     {
-      "type": "asset",
-      "name": "sticker_morecambe_bay",
-      "x": 762,
-      "y": 715,
-      "scale": 0.35,
-      "rotate": -3
-     },
-     {
-      "type": "asset",
-      "name": "sticker_antarctica",
-      "x": 678,
-      "y": 738,
-      "scale": 0.35,
-      "rotate": 6
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 800,
+    "y": 560,
+    "zoom": 1.06
    }
   },
   {
@@ -25536,6 +26323,118 @@
        ]
       ],
       "fill": "#8a7a6a",
+      "width": 6
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        960,
+        530
+       ],
+       [
+        1560,
+        1120
+       ],
+       [
+        1180,
+        1120
+       ],
+       [
+        1030,
+        760
+       ],
+       [
+        1010,
+        640
+       ]
+      ],
+      "fill": "#5e5048",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 760,
+      "y": 900,
+      "r": 220,
+      "color": "#a89a8a",
+      "density": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        700,
+        880
+       ],
+       [
+        760,
+        860
+       ],
+       [
+        820,
+        890
+       ]
+      ],
+      "width": 3,
+      "color": "#6b5b4b"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        560,
+        1010
+       ],
+       [
+        640,
+        990
+       ],
+       [
+        700,
+        1020
+       ]
+      ],
+      "width": 3,
+      "color": "#6b5b4b"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1150,
+        900
+       ],
+       [
+        1230,
+        880
+       ],
+       [
+        1290,
+        910
+       ]
+      ],
+      "width": 3,
+      "color": "#3e342c"
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        360,
+        1120
+       ],
+       [
+        960,
+        530
+       ],
+       [
+        1560,
+        1120
+       ]
+      ],
+      "fill": null,
       "width": 6
      },
      {
@@ -25761,6 +26660,118 @@
        ]
       ],
       "fill": "#8a7a6a",
+      "width": 6
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        960,
+        530
+       ],
+       [
+        1560,
+        1120
+       ],
+       [
+        1180,
+        1120
+       ],
+       [
+        1030,
+        760
+       ],
+       [
+        1010,
+        640
+       ]
+      ],
+      "fill": "#5e5048",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 760,
+      "y": 900,
+      "r": 220,
+      "color": "#a89a8a",
+      "density": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        700,
+        880
+       ],
+       [
+        760,
+        860
+       ],
+       [
+        820,
+        890
+       ]
+      ],
+      "width": 3,
+      "color": "#6b5b4b"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        560,
+        1010
+       ],
+       [
+        640,
+        990
+       ],
+       [
+        700,
+        1020
+       ]
+      ],
+      "width": 3,
+      "color": "#6b5b4b"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1150,
+        900
+       ],
+       [
+        1230,
+        880
+       ],
+       [
+        1290,
+        910
+       ]
+      ],
+      "width": 3,
+      "color": "#3e342c"
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        360,
+        1120
+       ],
+       [
+        960,
+        530
+       ],
+       [
+        1560,
+        1120
+       ]
+      ],
+      "fill": null,
       "width": 6
      },
      {
@@ -26036,14 +27047,6 @@
       "rotate": 5
      },
      {
-      "type": "asset",
-      "name": "gypsum_crystal",
-      "x": 600,
-      "y": 300,
-      "scale": 0.8,
-      "rotate": 35
-     },
-     {
       "type": "spray",
       "x": 960,
       "y": 520,
@@ -26054,9 +27057,9 @@
      {
       "type": "text",
       "text": "CAVE OF CRYSTALS",
-      "x": 960,
-      "y": 330,
-      "size": 120,
+      "x": 900,
+      "y": 250,
+      "size": 100,
       "color": "#e0201b",
       "outline": "#000000",
       "outline_width": 7,
@@ -26450,9 +27453,9 @@
      {
       "type": "wordart",
       "text": "MOST BEAUTIFUL",
-      "x": 960,
-      "y": 220,
-      "size": 96,
+      "x": 1300,
+      "y": 275,
+      "size": 90,
       "boil": 0,
       "appear": 0.567
      },
@@ -26772,8 +27775,8 @@
      {
       "type": "wordart",
       "text": "SLOWLY",
-      "x": 600,
-      "y": 220,
+      "x": 1150,
+      "y": 250,
       "size": 100,
       "boil": 0,
       "appear": 0.12
@@ -27480,8 +28483,8 @@
      {
       "type": "wordart",
       "text": "REAL KILLER",
-      "x": 1150,
-      "y": 760,
+      "x": 1350,
+      "y": 920,
       "size": 100,
       "boil": 0,
       "appear": 0.802
@@ -28346,21 +29349,21 @@
       "smooth": true
      },
      {
+      "type": "doug",
+      "x": 900,
+      "y": 692,
+      "scale": 0.7,
+      "pose": "sit",
+      "expression": "hopeful",
+      "facing": "right"
+     },
+     {
       "type": "asset",
       "name": "gypsum_crystal",
       "x": 960,
       "y": 800,
       "scale": 1.3,
       "rotate": -4
-     },
-     {
-      "type": "doug",
-      "x": 900,
-      "y": 741,
-      "scale": 0.7,
-      "pose": "sit",
-      "expression": "hopeful",
-      "facing": "right"
      },
      {
       "type": "asset",
@@ -28473,21 +29476,21 @@
       "smooth": true
      },
      {
+      "type": "doug",
+      "x": 900,
+      "y": 692,
+      "scale": 0.7,
+      "pose": "sit",
+      "expression": "hopeful",
+      "facing": "right"
+     },
+     {
       "type": "asset",
       "name": "gypsum_crystal",
       "x": 960,
       "y": 800,
       "scale": 1.3,
       "rotate": -4
-     },
-     {
-      "type": "doug",
-      "x": 900,
-      "y": 741,
-      "scale": 0.7,
-      "pose": "sit",
-      "expression": "hopeful",
-      "facing": "right"
      },
      {
       "type": "asset",
@@ -28606,17 +29609,9 @@
       "smooth": true
      },
      {
-      "type": "asset",
-      "name": "gypsum_crystal",
-      "x": 960,
-      "y": 800,
-      "scale": 1.3,
-      "rotate": -4
-     },
-     {
       "type": "doug",
       "x": 900,
-      "y": 741,
+      "y": 692,
       "scale": 0.7,
       "pose": "sit",
       "expression": "gritted",
@@ -28624,6 +29619,14 @@
       "gear": [
        "sweat"
       ]
+     },
+     {
+      "type": "asset",
+      "name": "gypsum_crystal",
+      "x": 960,
+      "y": 800,
+      "scale": 1.3,
+      "rotate": -4
      },
      {
       "type": "asset",
@@ -28982,7 +29985,7 @@
      },
      {
       "type": "doug",
-      "x": 960,
+      "x": 880,
       "y": 300,
       "scale": 0.5,
       "pose": "float",
@@ -28993,9 +29996,9 @@
      {
       "type": "wordart",
       "text": "KEEP GROWING",
-      "x": 760,
-      "y": 420,
-      "size": 96,
+      "x": 1350,
+      "y": 280,
+      "size": 90,
       "boil": 0,
       "appear": 0.856
      },
@@ -29141,16 +30144,16 @@
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 700,
-      "y": 300,
+      "x": 180,
+      "y": 470,
       "scale": 0.6,
       "rotate": 20,
       "appear": 0.412
      },
      {
       "type": "doug",
-      "x": 500,
-      "y": 260,
+      "x": 260,
+      "y": 320,
       "scale": 0.45,
       "pose": "float",
       "expression": "dead",
@@ -30177,7 +31180,7 @@
      {
       "type": "doug",
       "x": 600,
-      "y": 665,
+      "y": 770,
       "scale": 0.5,
       "pose": "sit",
       "expression": "sleepy",
@@ -32391,7 +33394,7 @@
       "type": "wordart",
       "text": "NO MICROBIAL LIFE",
       "x": 1100,
-      "y": 900,
+      "y": 940,
       "size": 84,
       "boil": 0,
       "appear": 0.754
@@ -32661,30 +33664,52 @@
       "width": 5
      },
      {
-      "type": "spray",
-      "x": 400,
-      "y": 700,
-      "r": 160,
-      "color": "#6cbf5a",
-      "density": 0.08,
-      "appear": 0.685
-     },
-     {
-      "type": "spray",
-      "x": 1400,
-      "y": 700,
-      "r": 160,
-      "color": "#6cbf5a",
-      "density": 0.08,
-      "appear": 0.685
-     },
-     {
       "type": "asset",
       "name": "thumbs_up_hand",
       "x": 1500,
       "y": 320,
       "scale": 0.5,
       "appear": 0.893
+     },
+     {
+      "type": "asset",
+      "name": "small_plant",
+      "x": 380,
+      "y": 760,
+      "scale": 0.3,
+      "appear": 0.685
+     },
+     {
+      "type": "asset",
+      "name": "fern",
+      "x": 560,
+      "y": 800,
+      "scale": 0.5,
+      "appear": 0.685
+     },
+     {
+      "type": "asset",
+      "name": "small_plant",
+      "x": 1250,
+      "y": 740,
+      "scale": 0.35,
+      "appear": 0.685
+     },
+     {
+      "type": "asset",
+      "name": "jackal",
+      "x": 1450,
+      "y": 900,
+      "scale": 0.55,
+      "appear": 0.75
+     },
+     {
+      "type": "asset",
+      "name": "songbird",
+      "x": 800,
+      "y": 320,
+      "scale": 0.4,
+      "appear": 0.75
      },
      {
       "type": "label",
@@ -36354,8 +37379,8 @@
      },
      {
       "type": "circle",
-      "x": 1650,
-      "y": 200,
+      "x": 1720,
+      "y": 330,
       "r": 45,
       "fill": "#f4f1d0",
       "width": 4,
@@ -36535,9 +37560,9 @@
       "type": "text",
       "text": "LAKE MARACAIBO",
       "x": 960,
-      "y": 700,
+      "y": 760,
       "size": 120,
-      "color": "#fff36b",
+      "color": "#e0201b",
       "outline": "#000000",
       "outline_width": 7,
       "bold": true,
@@ -36647,14 +37672,14 @@
       "type": "asset",
       "name": "world_map",
       "x": 960,
-      "y": 560,
-      "scale": 1.0
+      "y": 620,
+      "scale": 0.85
      },
      {
       "type": "circle",
-      "x": 641.7777777777778,
-      "y": 516.4444444444445,
-      "r": 34,
+      "x": 689.5,
+      "y": 583.0,
+      "r": 30,
       "fill": null,
       "width": 8,
       "color": "#e0201b",
@@ -36663,8 +37688,8 @@
      {
       "type": "label",
       "text": "VENEZUELA",
-      "x": 641.7777777777778,
-      "y": 626.4444444444445,
+      "x": 689.5,
+      "y": 668.0,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -36674,32 +37699,32 @@
       "type": "poly",
       "points": [
        [
-        611.7777777777778,
-        186.44444444444446
+        703.9,
+        407.0
        ],
        [
-        659.7777777777778,
-        186.44444444444446
+        732.7,
+        407.0
        ],
        [
-        627.7777777777778,
-        274.44444444444446
+        713.5,
+        459.8
        ],
        [
-        675.7777777777778,
-        274.44444444444446
+        742.3,
+        459.8
        ],
        [
-        587.7777777777778,
-        426.44444444444446
+        689.5,
+        551.0
        ],
        [
-        615.7777777777778,
-        314.44444444444446
+        706.3,
+        483.8
        ],
        [
-        571.7777777777778,
-        314.44444444444446
+        679.9,
+        483.8
        ]
       ],
       "fill": "#fff36b",
@@ -36709,16 +37734,16 @@
      {
       "type": "wordart",
       "text": "MOST LIGHTNING",
-      "x": 1150,
-      "y": 180,
+      "x": 960,
+      "y": 200,
       "size": 84,
       "boil": 0,
       "appear": 0.513
      },
      {
       "type": "doug",
-      "x": 1700,
-      "y": 920,
+      "x": 1760,
+      "y": 880,
       "scale": 0.4,
       "pose": "point",
       "expression": "hopeful",
@@ -36947,8 +37972,8 @@
      {
       "type": "wordart",
       "text": "ISN'T CLOSE",
-      "x": 960,
-      "y": 500,
+      "x": 1400,
+      "y": 950,
       "size": 96,
       "boil": 0,
       "appear": 0.673
@@ -39156,9 +40181,9 @@
      {
       "type": "wordart",
       "text": "90% SURVIVE",
-      "x": 1450,
-      "y": 700,
-      "size": 100,
+      "x": 460,
+      "y": 690,
+      "size": 84,
       "boil": 0,
       "appear": 0.534
      },
@@ -40028,9 +41053,9 @@
      {
       "type": "wordart",
       "text": "MOSTLY ANNOYED",
-      "x": 1350,
-      "y": 640,
-      "size": 96,
+      "x": 440,
+      "y": 660,
+      "size": 72,
       "boil": 0,
       "appear": 0.535
      },
@@ -40807,18 +41832,8 @@
    "id": "s251",
    "narration": "roughly two soccer fields end to end.",
    "scene": {
-    "background": "#120806",
+    "background": "#3b2a26",
     "elements": [
-     {
-      "type": "rect",
-      "x": 0,
-      "y": 0,
-      "w": 1920,
-      "h": 1080,
-      "fill": "#3b2a26",
-      "width": 0,
-      "outline": false
-     },
      {
       "type": "spray",
       "x": 960,
@@ -40829,29 +41844,19 @@
      },
      {
       "type": "ellipse",
-      "x": 960,
+      "x": 520,
       "y": 560,
-      "rx": 640,
-      "ry": 400,
-      "fill": "#5a4a42",
-      "width": 8,
-      "color": "#000000"
-     },
-     {
-      "type": "ellipse",
-      "x": 960,
-      "y": 600,
-      "rx": 360,
-      "ry": 200,
+      "rx": 300,
+      "ry": 190,
       "fill": "#ff5a1f",
       "width": 6,
       "color": "#000000"
      },
      {
       "type": "spray",
-      "x": 960,
-      "y": 600,
-      "r": 300,
+      "x": 520,
+      "y": 560,
+      "r": 250,
       "color": "#ffb000",
       "density": 0.08
      },
@@ -40859,24 +41864,24 @@
       "type": "line",
       "points": [
        [
-        700,
-        560
+        330,
+        540
        ],
        [
-        820,
-        640
-       ],
-       [
-        900,
+        430,
         600
        ],
        [
-        1050,
-        680
+        520,
+        560
        ],
        [
-        1220,
-        620
+        640,
+        630
+       ],
+       [
+        740,
+        580
        ]
       ],
       "width": 6,
@@ -40886,65 +41891,216 @@
       "type": "line",
       "points": [
        [
-        800,
-        520
+        220,
+        800
        ],
        [
-        960,
-        560
-       ],
-       [
-        1100,
-        500
+        820,
+        800
        ]
       ],
-      "width": 6,
-      "color": "#1a0a06"
+      "dash": [
+       14,
+       12
+      ],
+      "width": 5,
+      "color": "#ffffff"
      },
      {
       "type": "label",
       "text": "230 M",
-      "x": 960,
-      "y": 860,
+      "x": 520,
+      "y": 870,
       "size": 56,
       "bold": true,
       "boil": 0.4
      },
      {
+      "type": "text",
+      "text": "=",
+      "x": 960,
+      "y": 560,
+      "size": 120,
+      "color": "#ffffff",
+      "outline": "#000000",
+      "outline_width": 6,
+      "bold": true,
+      "boil": 0.3,
+      "appear": 0.261
+     },
+     {
       "type": "rect",
-      "x": 620,
-      "y": 960,
-      "w": 340,
-      "h": 100,
+      "x": 1080,
+      "y": 470,
+      "w": 274,
+      "h": 178,
       "fill": "#4f9e57",
-      "width": 4,
+      "width": 5,
       "appear": 0.125
      },
      {
       "type": "rect",
-      "x": 960,
-      "y": 960,
-      "w": 340,
-      "h": 100,
+      "x": 1092,
+      "y": 482,
+      "w": 250,
+      "h": 154,
+      "fill": null,
+      "width": 3,
+      "color": "#ffffff",
+      "appear": 0.125
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1217.0,
+        482
+       ],
+       [
+        1217.0,
+        636
+       ]
+      ],
+      "width": 3,
+      "color": "#ffffff",
+      "appear": 0.125
+     },
+     {
+      "type": "circle",
+      "x": 1217.0,
+      "y": 559.0,
+      "r": 30,
+      "fill": null,
+      "width": 3,
+      "color": "#ffffff",
+      "appear": 0.125
+     },
+     {
+      "type": "rect",
+      "x": 1092,
+      "y": 514.0,
+      "w": 40,
+      "h": 90,
+      "fill": null,
+      "width": 3,
+      "color": "#ffffff",
+      "appear": 0.125
+     },
+     {
+      "type": "rect",
+      "x": 1302,
+      "y": 514.0,
+      "w": 40,
+      "h": 90,
+      "fill": null,
+      "width": 3,
+      "color": "#ffffff",
+      "appear": 0.125
+     },
+     {
+      "type": "rect",
+      "x": 1354,
+      "y": 470,
+      "w": 274,
+      "h": 178,
       "fill": "#4f9e57",
-      "width": 4,
+      "width": 5,
+      "appear": 0.261
+     },
+     {
+      "type": "rect",
+      "x": 1366,
+      "y": 482,
+      "w": 250,
+      "h": 154,
+      "fill": null,
+      "width": 3,
+      "color": "#ffffff",
+      "appear": 0.261
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1491.0,
+        482
+       ],
+       [
+        1491.0,
+        636
+       ]
+      ],
+      "width": 3,
+      "color": "#ffffff",
+      "appear": 0.261
+     },
+     {
+      "type": "circle",
+      "x": 1491.0,
+      "y": 559.0,
+      "r": 30,
+      "fill": null,
+      "width": 3,
+      "color": "#ffffff",
+      "appear": 0.261
+     },
+     {
+      "type": "rect",
+      "x": 1366,
+      "y": 514.0,
+      "w": 40,
+      "h": 90,
+      "fill": null,
+      "width": 3,
+      "color": "#ffffff",
+      "appear": 0.261
+     },
+     {
+      "type": "rect",
+      "x": 1576,
+      "y": 514.0,
+      "w": 40,
+      "h": 90,
+      "fill": null,
+      "width": 3,
+      "color": "#ffffff",
+      "appear": 0.261
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1080,
+        800
+       ],
+       [
+        1628,
+        800
+       ]
+      ],
+      "dash": [
+       14,
+       12
+      ],
+      "width": 5,
+      "color": "#ffffff",
       "appear": 0.261
      },
      {
       "type": "wordart",
       "text": "2 SOCCER FIELDS",
       "x": 960,
-      "y": 200,
+      "y": 220,
       "size": 84,
       "boil": 0,
       "appear": 0.261
      },
      {
       "type": "doug",
-      "x": 1650,
-      "y": 775,
-      "scale": 0.3,
-      "pose": "stand",
+      "x": 1700,
+      "y": 868,
+      "scale": 0.4,
+      "pose": "point",
       "expression": "neutral",
       "facing": "left"
      }
@@ -40958,132 +42114,122 @@
     "background": "#120806",
     "elements": [
      {
-      "type": "rect",
-      "x": 0,
-      "y": 0,
-      "w": 1920,
-      "h": 1080,
-      "fill": "#3b2a26",
-      "width": 0,
-      "outline": false
-     },
-     {
       "type": "spray",
       "x": 960,
-      "y": 540,
+      "y": 300,
       "r": 900,
-      "color": "#2a1a14",
-      "density": 0.05
+      "color": "#3a0f08",
+      "density": 0.04
      },
      {
-      "type": "ellipse",
-      "x": 960,
-      "y": 560,
-      "rx": 640,
-      "ry": 400,
-      "fill": "#5a4a42",
-      "width": 8,
-      "color": "#000000"
-     },
-     {
-      "type": "ellipse",
-      "x": 960,
-      "y": 600,
-      "rx": 360,
-      "ry": 200,
-      "fill": "#ff5a1f",
-      "width": 6,
-      "color": "#000000"
-     },
-     {
-      "type": "spray",
-      "x": 960,
-      "y": 600,
-      "r": 300,
-      "color": "#ffb000",
-      "density": 0.08
-     },
-     {
-      "type": "line",
+      "type": "poly",
       "points": [
        [
-        700,
-        560
+        -40,
+        1000
        ],
        [
-        820,
-        640
-       ],
-       [
-        900,
-        600
-       ],
-       [
-        1050,
-        680
-       ],
-       [
-        1220,
-        620
-       ]
-      ],
-      "width": 6,
-      "color": "#1a0a06"
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        800,
-        520
+        480,
+        986
        ],
        [
         960,
-        560
+        1007
        ],
        [
-        1100,
-        500
+        1440,
+        993
+       ],
+       [
+        1960,
+        1000
+       ],
+       [
+        1960,
+        1120
+       ],
+       [
+        -40,
+        1120
        ]
       ],
-      "width": 6,
-      "color": "#1a0a06"
+      "fill": "#2a1a14",
+      "width": 5,
+      "smooth": true
+     },
+     {
+      "type": "asset",
+      "name": "volcano",
+      "x": 960,
+      "y": 1000,
+      "scale": 1.6
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 478,
+      "r": 180,
+      "color": "#ffb000",
+      "density": 0.08
      },
      {
       "type": "label",
       "text": "NATURAL HISTORY MUSEUM",
       "x": 960,
-      "y": 160,
+      "y": 170,
       "size": 46,
       "bold": true,
       "boil": 0.4,
       "appear": 0.065
      },
      {
+      "type": "arrow",
+      "from": [
+       1380,
+       360
+      ],
+      "to": [
+       1080,
+       470
+      ],
+      "bend": -40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 40,
+      "appear": 0.587
+     },
+     {
       "type": "wordart",
       "text": "WORLD'S LARGEST",
-      "x": 960,
-      "y": 900,
-      "size": 96,
+      "x": 1400,
+      "y": 290,
+      "size": 84,
       "boil": 0,
       "appear": 0.587
      },
      {
       "type": "doug",
-      "x": 1650,
-      "y": 775,
-      "scale": 0.3,
+      "x": 300,
+      "y": 937,
+      "scale": 0.42,
       "pose": "stand",
       "expression": "shock",
-      "facing": "left"
+      "facing": "right"
      }
     ]
    },
    "camera": {
-    "move": "zoom_in",
-    "x": 960,
-    "y": 600,
-    "zoom": 1.08
+    "from": [
+     960,
+     500,
+     1.35
+    ],
+    "to": [
+     960,
+     540,
+     1.0
+    ],
+    "ease": "smooth"
    }
   },
   {
@@ -42375,6 +43521,12 @@
       "appear": 0.605
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 960,
+    "y": 600,
+    "zoom": 1.05
    }
   },
   {
@@ -42666,6 +43818,12 @@
       "facing": "right"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 960,
+    "y": 500,
+    "zoom": 1.06
    }
   },
   {
@@ -42676,27 +43834,28 @@
     "elements": [
      {
       "type": "rect",
-      "x": 0,
+      "x": 960,
       "y": 0,
-      "w": 1920,
+      "w": 960,
       "h": 1080,
-      "fill": "#12200f",
+      "fill": "#0d1420",
       "width": 0,
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "rainforest_tree",
-      "x": 200,
-      "y": 1000,
-      "scale": 0.9
+      "type": "spray",
+      "x": 1440,
+      "y": 250,
+      "r": 450,
+      "color": "#ffffff",
+      "density": 0.004
      },
      {
       "type": "asset",
       "name": "rainforest_tree",
-      "x": 1750,
+      "x": 780,
       "y": 1000,
-      "scale": 0.9
+      "scale": 0.5
      },
      {
       "type": "poly",
@@ -42706,27 +43865,27 @@
         760
        ],
        [
-        500,
-        780
+        200,
+        775
        ],
        [
-        760,
-        920
+        340,
+        900
        ],
        [
-        1160,
-        920
+        660,
+        900
        ],
        [
-        1420,
-        780
+        800,
+        775
        ],
        [
-        1960,
-        760
+        960,
+        765
        ],
        [
-        1960,
+        960,
         1120
        ],
        [
@@ -42739,56 +43898,127 @@
      },
      {
       "type": "rect",
-      "x": 700,
-      "y": 840,
-      "w": 520,
-      "h": 80,
+      "x": 300,
+      "y": 845,
+      "w": 400,
+      "h": 55,
       "fill": "#6fae55",
       "width": 0,
       "outline": false
      },
      {
       "type": "spray",
-      "x": 960,
+      "x": 500,
       "y": 870,
-      "r": 280,
+      "r": 200,
       "color": "#9be37a",
       "density": 0.1
      },
      {
+      "type": "label",
+      "text": "MAZUKU",
+      "x": 500,
+      "y": 600,
+      "size": 46,
+      "bold": true,
+      "boil": 0.4
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        960,
+        760
+       ],
+       [
+        1120,
+        560
+       ],
+       [
+        1300,
+        640
+       ],
+       [
+        1460,
+        580
+       ],
+       [
+        1660,
+        520
+       ],
+       [
+        1960,
+        660
+       ],
+       [
+        1960,
+        1120
+       ],
+       [
+        960,
+        1120
+       ]
+      ],
+      "fill": "#1d3a24",
+      "width": 5,
+      "smooth": true
+     },
+     {
       "type": "ellipse",
-      "x": 1500,
-      "y": 400,
-      "rx": 160,
-      "ry": 50,
+      "x": 1450,
+      "y": 760,
+      "rx": 260,
+      "ry": 60,
       "fill": "#1b2f4a",
       "width": 5,
-      "color": "#000000",
-      "appear": 0.555
+      "color": "#000000"
+     },
+     {
+      "type": "spray",
+      "x": 1450,
+      "y": 740,
+      "r": 200,
+      "color": "#9be37a",
+      "density": 0.06
      },
      {
       "type": "label",
       "text": "LAKE NYOS",
-      "x": 1500,
-      "y": 280,
-      "size": 44,
+      "x": 1450,
+      "y": 420,
+      "size": 46,
       "bold": true,
       "boil": 0.4,
-      "appear": 0.555
+      "appear": 0.4
      },
      {
       "type": "asset",
       "name": "red_x",
-      "x": 1500,
-      "y": 410,
-      "scale": 0.5,
+      "x": 1450,
+      "y": 760,
+      "scale": 0.7,
       "appear": 0.716
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        0
+       ],
+       [
+        960,
+        1080
+       ]
+      ],
+      "width": 8,
+      "color": "#000000"
      },
      {
       "type": "label",
       "text": "SAME GAS",
       "x": 960,
-      "y": 640,
+      "y": 200,
       "size": 54,
       "bold": true,
       "boil": 0.4,
@@ -42796,8 +44026,8 @@
      },
      {
       "type": "doug",
-      "x": 400,
-      "y": 730,
+      "x": 120,
+      "y": 705,
       "scale": 0.4,
       "pose": "think",
       "expression": "neutral",
@@ -42958,55 +44188,45 @@
     "background": "#12200f",
     "elements": [
      {
-      "type": "rect",
-      "x": 0,
-      "y": 0,
-      "w": 1920,
-      "h": 1080,
-      "fill": "#12200f",
-      "width": 0,
-      "outline": false
+      "type": "asset",
+      "name": "rainforest_tree",
+      "x": 160,
+      "y": 640,
+      "scale": 0.8
      },
      {
       "type": "asset",
       "name": "rainforest_tree",
-      "x": 200,
-      "y": 1000,
-      "scale": 0.9
-     },
-     {
-      "type": "asset",
-      "name": "rainforest_tree",
-      "x": 1750,
-      "y": 1000,
-      "scale": 0.9
+      "x": 1780,
+      "y": 640,
+      "scale": 0.8
      },
      {
       "type": "poly",
       "points": [
        [
         -40,
-        760
+        560
        ],
        [
-        500,
-        780
+        300,
+        580
        ],
        [
-        760,
+        560,
         920
        ],
        [
-        1160,
+        1360,
         920
        ],
        [
-        1420,
-        780
+        1620,
+        580
        ],
        [
         1960,
-        760
+        560
        ],
        [
         1960,
@@ -43018,14 +44238,28 @@
        ]
       ],
       "fill": "#2a3a1a",
-      "width": 5
+      "width": 6
      },
      {
-      "type": "rect",
-      "x": 700,
-      "y": 840,
-      "w": 520,
-      "h": 80,
+      "type": "poly",
+      "points": [
+       [
+        460,
+        790
+       ],
+       [
+        1460,
+        790
+       ],
+       [
+        1360,
+        920
+       ],
+       [
+        560,
+        920
+       ]
+      ],
       "fill": "#6fae55",
       "width": 0,
       "outline": false
@@ -43033,17 +44267,17 @@
      {
       "type": "spray",
       "x": 960,
-      "y": 870,
-      "r": 280,
+      "y": 850,
+      "r": 480,
       "color": "#9be37a",
       "density": 0.1
      },
      {
       "type": "asset",
       "name": "songbird",
-      "x": 820,
-      "y": 905,
-      "scale": 0.18,
+      "x": 720,
+      "y": 890,
+      "scale": 0.4,
       "silhouette": true,
       "glow_r": 0,
       "rotate": 170
@@ -43051,41 +44285,47 @@
      {
       "type": "asset",
       "name": "songbird",
-      "x": 1000,
-      "y": 905,
-      "scale": 0.18,
+      "x": 1180,
+      "y": 895,
+      "scale": 0.35,
       "silhouette": true,
       "glow_r": 0,
-      "rotate": 170
+      "rotate": 190
      },
      {
       "type": "asset",
-      "name": "songbird",
-      "x": 1120,
-      "y": 905,
-      "scale": 0.18,
+      "name": "jackal",
+      "x": 950,
+      "y": 830,
+      "scale": 0.4,
       "silhouette": true,
       "glow_r": 0,
-      "rotate": 170
+      "rotate": 180
      },
      {
       "type": "asset",
       "name": "warning_triangle",
       "x": 960,
-      "y": 560,
-      "scale": 0.6,
+      "y": 450,
+      "scale": 0.8,
       "appear": 0.667
      },
      {
       "type": "doug",
-      "x": 1500,
-      "y": 715,
+      "x": 1720,
+      "y": 486,
       "scale": 0.5,
-      "pose": "stand",
+      "pose": "cower",
       "expression": "gritted",
       "facing": "left"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 960,
+    "y": 760,
+    "zoom": 1.08
    }
   },
   {
@@ -43737,16 +44977,16 @@
       "type": "line",
       "points": [
        [
-        300,
-        760
+        1150,
+        960
        ],
        [
-        500,
-        800
+        1350,
+        1000
        ],
        [
-        700,
-        770
+        1550,
+        970
        ]
       ],
       "width": 6,
@@ -43957,16 +45197,16 @@
       "type": "line",
       "points": [
        [
-        300,
-        760
+        1150,
+        960
        ],
        [
-        500,
-        800
+        1350,
+        1000
        ],
        [
-        700,
-        770
+        1550,
+        970
        ]
       ],
       "width": 6,
@@ -44170,16 +45410,16 @@
       "type": "line",
       "points": [
        [
-        300,
-        760
+        1150,
+        960
        ],
        [
-        500,
-        800
+        1350,
+        1000
        ],
        [
-        700,
-        770
+        1550,
+        970
        ]
       ],
       "width": 6,
@@ -44390,16 +45630,16 @@
       "type": "line",
       "points": [
        [
-        300,
-        760
+        1150,
+        960
        ],
        [
-        500,
-        800
+        1350,
+        1000
        ],
        [
-        700,
-        770
+        1550,
+        970
        ]
       ],
       "width": 6,
@@ -44612,16 +45852,16 @@
       "type": "line",
       "points": [
        [
-        300,
-        760
+        1150,
+        960
        ],
        [
-        500,
-        800
+        1350,
+        1000
        ],
        [
-        700,
-        770
+        1550,
+        970
        ]
       ],
       "width": 6,
@@ -44821,6 +46061,43 @@
       "r": 900,
       "color": "#3a0f08",
       "density": 0.04
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 690,
+      "w": 1920,
+      "h": 150,
+      "fill": "#ff5a1f",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 760,
+      "r": 700,
+      "color": "#ffb000",
+      "density": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1450,
+        740
+       ],
+       [
+        1620,
+        760
+       ],
+       [
+        1780,
+        735
+       ]
+      ],
+      "width": 5,
+      "color": "#1a0a06"
      },
      {
       "type": "poly",
@@ -45042,6 +46319,43 @@
       "r": 900,
       "color": "#3a0f08",
       "density": 0.04
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 690,
+      "w": 1920,
+      "h": 150,
+      "fill": "#ff5a1f",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 760,
+      "r": 700,
+      "color": "#ffb000",
+      "density": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1450,
+        740
+       ],
+       [
+        1620,
+        760
+       ],
+       [
+        1780,
+        735
+       ]
+      ],
+      "width": 5,
+      "color": "#1a0a06"
      },
      {
       "type": "poly",
@@ -45274,6 +46588,43 @@
       "density": 0.04
      },
      {
+      "type": "rect",
+      "x": 0,
+      "y": 690,
+      "w": 1920,
+      "h": 150,
+      "fill": "#ff5a1f",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 760,
+      "r": 700,
+      "color": "#ffb000",
+      "density": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1450,
+        740
+       ],
+       [
+        1620,
+        760
+       ],
+       [
+        1780,
+        735
+       ]
+      ],
+      "width": 5,
+      "color": "#1a0a06"
+     },
+     {
       "type": "poly",
       "points": [
        [
@@ -45471,6 +46822,43 @@
       "r": 900,
       "color": "#3a0f08",
       "density": 0.04
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 690,
+      "w": 1920,
+      "h": 150,
+      "fill": "#ff5a1f",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 760,
+      "r": 700,
+      "color": "#ffb000",
+      "density": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1450,
+        740
+       ],
+       [
+        1620,
+        760
+       ],
+       [
+        1780,
+        735
+       ]
+      ],
+      "width": 5,
+      "color": "#1a0a06"
      },
      {
       "type": "poly",
@@ -45697,6 +47085,43 @@
       "r": 900,
       "color": "#3a0f08",
       "density": 0.04
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 690,
+      "w": 1920,
+      "h": 150,
+      "fill": "#ff5a1f",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 760,
+      "r": 700,
+      "color": "#ffb000",
+      "density": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1450,
+        740
+       ],
+       [
+        1620,
+        760
+       ],
+       [
+        1780,
+        735
+       ]
+      ],
+      "width": 5,
+      "color": "#1a0a06"
      },
      {
       "type": "poly",
