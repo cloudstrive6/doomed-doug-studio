@@ -1,0 +1,394 @@
+{
+ "name": "snorkel_gear",
+ "description": "Doug's snorkel and flippers (worn prop; use with the rig's `mask` gear): blue J-shaped snorkel tube with a yellow tip rising behind the back of the head from the mask strap, and two big blue flippers on the feet pointing forward (right). Anchor = Doug's hips at Doug scale 1. Works rotated -90 with pose lie.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "prop",
+  "gear",
+  "snorkel",
+  "flippers",
+  "beach",
+  "swim"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -22,
+     136
+    ],
+    [
+     38,
+     130
+    ],
+    [
+     108,
+     116
+    ],
+    [
+     124,
+     132
+    ],
+    [
+     114,
+     148
+    ],
+    [
+     126,
+     164
+    ],
+    [
+     108,
+     172
+    ],
+    [
+     38,
+     164
+    ],
+    [
+     -22,
+     162
+    ]
+   ],
+   "fill": "#2f5d8c",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     18,
+     140
+    ],
+    [
+     108,
+     126
+    ]
+   ],
+   "width": 3,
+   "color": "#7fb0e0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     18,
+     156
+    ],
+    [
+     108,
+     164
+    ]
+   ],
+   "width": 3,
+   "color": "#24496f"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     114,
+     148
+    ],
+    [
+     106,
+     154
+    ],
+    [
+     114,
+     162
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -46,
+     136
+    ],
+    [
+     -14,
+     132
+    ],
+    [
+     10,
+     140
+    ],
+    [
+     10,
+     160
+    ],
+    [
+     -44,
+     162
+    ],
+    [
+     -52,
+     150
+    ]
+   ],
+   "fill": "#24496f",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     42,
+     136
+    ],
+    [
+     102,
+     130
+    ],
+    [
+     172,
+     116
+    ],
+    [
+     188,
+     132
+    ],
+    [
+     178,
+     148
+    ],
+    [
+     190,
+     164
+    ],
+    [
+     172,
+     172
+    ],
+    [
+     102,
+     164
+    ],
+    [
+     42,
+     162
+    ]
+   ],
+   "fill": "#3a6ea5",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     82,
+     140
+    ],
+    [
+     172,
+     126
+    ]
+   ],
+   "width": 3,
+   "color": "#7fb0e0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     82,
+     156
+    ],
+    [
+     172,
+     164
+    ]
+   ],
+   "width": 3,
+   "color": "#24496f"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     178,
+     148
+    ],
+    [
+     170,
+     154
+    ],
+    [
+     178,
+     162
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     18,
+     136
+    ],
+    [
+     50,
+     132
+    ],
+    [
+     74,
+     140
+    ],
+    [
+     74,
+     160
+    ],
+    [
+     20,
+     162
+    ],
+    [
+     12,
+     150
+    ]
+   ],
+   "fill": "#24496f",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -58,
+     -208
+    ],
+    [
+     -74,
+     -212
+    ],
+    [
+     -84,
+     -236
+    ],
+    [
+     -80,
+     -290
+    ],
+    [
+     -72,
+     -338
+    ]
+   ],
+   "width": 18,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -58,
+     -208
+    ],
+    [
+     -74,
+     -212
+    ],
+    [
+     -84,
+     -236
+    ],
+    [
+     -80,
+     -290
+    ],
+    [
+     -72,
+     -338
+    ]
+   ],
+   "width": 11,
+   "color": "#3a6ea5"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -80,
+     -300
+    ],
+    [
+     -72,
+     -338
+    ]
+   ],
+   "width": 11,
+   "color": "#ffd21a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -80,
+     -260
+    ],
+    [
+     -77,
+     -300
+    ]
+   ],
+   "width": 3,
+   "color": "#7fb0e0"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -76,
+     -238
+    ],
+    [
+     -58,
+     -240
+    ],
+    [
+     -56,
+     -224
+    ],
+    [
+     -74,
+     -222
+    ]
+   ],
+   "fill": "#24496f",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -82,
+     -340
+    ],
+    [
+     -62,
+     -336
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  }
+ ]
+}

@@ -56,6 +56,15 @@ Max ~8 words on screen per shot. Title cards: big bold red `#e0201b` with black 
   space is ground, move the label up instead.
 - **Stop title card**: zone/creature name as a big `label` + Doug reacting.
 - **Scale comparison**: Doug next to the creature, both at true relative size, a `label` with the size.
+- **Time machine** (`time_machine`, from 003, time-travel episodes only): teal booth (`#2a9d8f`, dark `#1b6f66`),
+  cream `TIME` sign, door open to the right (to x +330), mid-grey interior (`#8d9096`, kept mid so Doug's black lines
+  read). Anchor bottom-centre on the ground; flat roof top at y=-640 (props on the roof go at ground - 640 x scale).
+  Doug inside: draw Doug after the booth at the booth's x, feet at ground-8, Doug scale = 0.75 x booth scale.
+  Keep wordart and labels off the open door (x +180..+330 x scale).
+
+## Doug gear (art director only)
+`scuba`, `mask`, `tank`, `helmet`, `sweat`, `sunburn` (003): head fill `#ff8a7a`, crescent `#e0665a` (same shape),
+arm lines `#e0201b`, three tiny white peel flakes on the front of the face. Cap, eyes, head shape and legs unchanged.
 
 ## Never
 Realistic gore, blood pools, exposed organs, dismemberment; realistic (non-MS-Paint) art; changing Doug's design;

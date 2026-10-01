@@ -1,0 +1,18 @@
+{
+ "name": "head_towel",
+ "description": "Small folded white towel with a blue stripe resting on top of Doug's cap dome (y -333..-288, x -74..+66), one corner drooping at the back. Brim and cap red stay visible. Anchor = Doug's hips (rig reference).",
+ "anchor": [0, 0],
+ "tags": ["prop", "doug", "towel", "costume"],
+ "elements": [
+  {"type": "poly", "points": [[-58, -300], [-74, -280], [-66, -262], [-52, -276], [-46, -296]], "fill": "#f2f2f2", "width": 4, "smooth": true},
+  {"type": "poly", "points": [[-62, -296], [-50, -318], [-10, -330], [40, -326], [62, -310], [58, -296], [30, -290], [-20, -289]], "fill": "#ffffff", "width": 0, "outline": false, "smooth": true},
+  {"type": "poly", "points": [[-40, -320], [-8, -329], [36, -325], [44, -315], [6, -318], [-36, -308]], "fill": "#3a6ea5", "width": 0, "outline": false, "smooth": true},
+  {"type": "poly", "points": [[-58, -300], [58, -298], [30, -290], [-20, -289]], "fill": "#d6dde3", "width": 0, "outline": false, "smooth": true},
+  {"type": "curve", "points": [[-48, -304], [0, -309], [52, -305]], "width": 2, "color": "#9aa7b2"},
+  {"type": "curve", "points": [[-62, -272], [-56, -266]], "width": 2, "color": "#3a6ea5"},
+  {"type": "poly", "points": [[-62, -296], [-50, -318], [-10, -330], [40, -326], [62, -310], [58, -296], [30, -290], [-20, -289]], "fill": null, "width": 4, "smooth": true},
+  {"type": "line", "points": [[50, -300], [54, -292]], "width": 2},
+  {"type": "line", "points": [[56, -300], [60, -292]], "width": 2},
+  {"type": "line", "points": [[62, -300], [66, -292]], "width": 2}
+ ]
+}

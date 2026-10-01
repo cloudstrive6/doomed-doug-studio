@@ -20,6 +20,9 @@ CAP = "#e0201b"      # Doug's signature red cap
 SKIN = "#ffffff"
 SHADE = "#d6d6d6"
 TONGUE = "#ff8fa3"
+BURN = "#ff8a7a"       # `sunburn` gear: head fill
+BURN_SHADE = "#e0665a" # `sunburn` gear: the shading crescent, same shape, burnt tone
+BURN_ARM = "#e0201b"   # `sunburn` gear: "his arms turn bright red"
 
 HEAD_R = 72
 NECK = (0, -150)
@@ -92,7 +95,9 @@ def doug_elements(el: dict, variant: int = 0):
     gear = el.get("gear", []) or []
     ghost = el.get("ghost", False)
     ink = el.get("ink", "#8a8a8a" if ghost else INK)
-    skin = "#eef3f7" if ghost else SKIN
+    burnt = "sunburn" in gear and not ghost
+    skin = "#eef3f7" if ghost else (BURN if burnt else SKIN)
+    shade = BURN_SHADE if burnt else SHADE
     lean = pose.get("lean", 0)
     drop = pose.get("drop", 0)
 
@@ -115,7 +120,7 @@ def doug_elements(el: dict, variant: int = 0):
         a1, a2 = pose[key]
         pts = _limb((0, 0), a1 - lean, a1 + a2 - lean, UPPER_ARM, FOREARM)
         body.append({"type": "line", "points": [(p[0] + shoulder[0], p[1] + shoulder[1]) for p in pts],
-                     "width": LINE, "color": ink})
+                     "width": LINE, "color": BURN_ARM if burnt else ink})
 
     if "tank" in gear or "scuba" in gear:
         bx, by = L((-30, -110))
@@ -127,9 +132,14 @@ def doug_elements(el: dict, variant: int = 0):
     outer = [(hx + HEAD_R * math.cos(math.radians(a)), hy + HEAD_R * math.sin(math.radians(a))) for a in range(100, 261, 10)]
     inner = [(hx + 14 + (HEAD_R - 6) * math.cos(math.radians(a)), hy + (HEAD_R - 6) * math.sin(math.radians(a)))
              for a in range(250, 109, -10)]
-    body.append({"type": "poly", "points": outer + inner, "fill": SHADE, "outline": False, "boil": 0.5})
+    body.append({"type": "poly", "points": outer + inner, "fill": shade, "outline": False, "boil": 0.5})
     body.append({"type": "circle", "x": hx, "y": hy, "r": HEAD_R, "fill": None, "width": LINE, "color": ink})
     body += _face(hx, hy, expr)
+    if burnt:  # 3 tiny white peel flakes on the front of the face (nose area), nothing else changes
+        for fx, fy, k in ((60, 20, 1.0), (65, 6, 0.8), (55, 31, 0.7)):
+            body.append({"type": "poly", "points": [(hx + fx - 6 * k, hy + fy - 2 * k), (hx + fx + 1 * k, hy + fy - 6 * k),
+                                                    (hx + fx + 6 * k, hy + fy + 1 * k), (hx + fx - 1 * k, hy + fy + 5 * k)],
+                         "fill": "#ffffff", "width": 2, "color": ink, "boil": 0.3})
     body += _cap(hx, hy)
     if "scuba" in gear or "mask" in gear:
         body.append({"type": "ellipse", "x": hx + 26, "y": hy - 8, "rx": 38, "ry": 26, "fill": None, "width": 6,
