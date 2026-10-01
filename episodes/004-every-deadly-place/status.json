@@ -24,7 +24,12 @@
       "stage": "shotlisted",
       "at": "2026-10-01T18:08:17+00:00",
       "note": "Director: 282 shots (~17.1 min est), narration matches script word for word, Doug in 92% of shots; 39 new assets requested (travel_suitcase + 9 stickers for art director); 3 Shorts (Natron, Morecambe, Maracaibo) awaiting titler; thumbnail.json pending graphic designer"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-10-01T18:50:42+00:00",
+      "note": "art-director + visual-screener PASS round 3"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

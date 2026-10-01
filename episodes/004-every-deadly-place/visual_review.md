@@ -141,3 +141,35 @@ diagram, with no joke and no figure.
 
 VERDICT: FAIL (required fixes 1 and 2: the director re-blocks s266 and s282, then re-runs keyframes for those 2 shots. No
 illustrator, art director or graphic designer work is needed.)
+
+## Round 3: keyframe re-check, 2026-10-01
+
+Scope: s266, s282 (round 2 blocking fixes), plus s279, s263, s150 and s151 (round 2 advisories). All six were viewed
+at full resolution from `build/keyframes/`.
+
+### Round 2 blocking fixes: status
+1. s266: **fixed.** The Nyos hill now stops at the divider. The left (mazuku) panel's ground line is clean from
+   x=0 to x=960, and no green lobe crosses the split. MAZUKU / SAME GAS / LAKE NYOS read as a clean side-by-side,
+   and the red X on the lake lands "no lake needed" in 1 second.
+2. s282: **fixed.** A white dashed empty-sticker outline now sits at the bottom right of the case, below
+   NYIRAGONGO. The red arrow's head lands inside it, so "STILL HAS ROOM" now matches the picture. The 9 stickers
+   are still legible at the smaller scale.
+
+### Round 2 advisories: status
+- A1. s279: **fixed.** The marshmallow on the stick is now a charred black block with a grey smoke wisp, so it's
+  clearly worse off than the intact red cap. It's small at lower left, but it's the only stick prop in frame, so the
+  eye finds it.
+- A2. s150: **fixed.** "1/3 OF A BREATH" now sits well above the DOUG pennant and touches nothing.
+- A3. s263: **fixed.** The volcano now sits in a white-bordered navy inset box and reads as a cutaway. Doug is
+  gritted in the mazuku hollow, with a red "!" beside the inset.
+- A4. s151: **fixed (tight).** The wordart now clears the DOUG DEATHS box easily. Its baseline is still only about
+  5 to 10 px above the top crystal's upper-left tip. That's legible, so it isn't blocking.
+
+### New observations (non-blocking)
+- s282: the arrow shaft clips the lower-right corner of the NYIRAGONGO sticker on its way to the slot. It still
+  reads correctly. If the director touches this shot again, start the arrow lower (around y=700) so it clears the
+  sticker.
+
+Policy: no gore. The ghost Doug in s279 and s282 is the standard cartoon death. The tone is adult and not cutesy.
+
+VERDICT: PASS

@@ -232,3 +232,38 @@ No asset fixes for the illustrator.
 
 After A and B are fixed and s104, s146, s149 and s150 are re-rendered, these keyframes are **PASS** without
 another full review.
+
+---
+
+# Keyframe review, Round 3: 004 Every Deadly Place
+
+Reviewer: art director · 2026-10-01
+Scope: the re-rendered keyframes in `build/keyframes/`: s103, s104, s146, s149, s150, s151, s263, s266, s273-s277,
+s279 and s282. I checked each one at full resolution (1920x1080).
+
+## Verdict: PASS
+
+### Round 2 items: status
+| # | shot(s) | status |
+|---|---|---|
+| A | s104 flip-flops | FIXED. The flip-flops are under Doug's feet, below the suitcase, on the snow. |
+| B | s146, s149, s150 summit flag | FIXED. The pole now ends on the slope at about (1110,680) in all 3 shots. In s150, "1/3 OF A BREATH" sits in clear sky, clear of both the pole and the counter. |
+| C | s151 title on crystal | FIXED. The red title clears the upper crystal and stays left of the counter box. |
+| D | s103 flip-flop continuity | FIXED. The flip-flops show under the suitcase, so s101 to s104 are consistent. |
+| E | s273-s277 feet in the shelf | FIXED. Doug's feet are on the rock shelf line, and the crust lines stay on open lava. |
+
+### Visual-screener round 2 items (checked for style)
+- s266: FIXED. The Nyos hill is hard-edged and stops at the divider, so nothing spills into the mazuku panel.
+- s282: FIXED. There is a white dashed empty sticker slot at the bottom right of the case, and the arrow lands in it. "Still has room" now reads.
+- s279 (A1): DONE. The marshmallow is charred black with a grey smoke wisp, so it is clearly worse off than the cap.
+- s263 (A3): DONE. The volcano is in a white-bordered inset box, so it reads as a cutaway.
+
+### Consistency
+- Doug is on-model in every shot (red cap, shaded head, oval eyes, thin limbs).
+- Doug's ink is auto-white on the Nyiragongo dark sky and black on the snow.
+- The zone colours match round 1 and 2: Antarctic navy and ice, Everest blue and rock, Naica brown and cream, and Nyiragongo black and lava orange.
+- Titles are red with a black outline, wordart uses the standard gradient on dark sky only, and all counters are inside the counter zone.
+- There is no gore. The summit deaths are cartoon X-eyes and a ghost.
+
+No illustrator or director fixes are needed. The art direction is approved. The visual-screener's re-check is still
+needed before the showrunner sets `art_approved`.
