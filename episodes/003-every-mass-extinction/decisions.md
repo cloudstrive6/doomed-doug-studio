@@ -41,3 +41,24 @@
 - Note for the director: "the size of the United States" is used three times (Gondwana x3, Siberia, CAMP). Accepted
   in narration; vary the on-screen visual (map overlays at different scales) so it does not look repeated.
 - Time machine adopted as series lore (series bible updated): the vehicle for the `prehistoric` playlist.
+
+## 2026-10-01: thumbnail + art/package GO (creative director)
+- Thumbnail (single option): **GO.** Art director PASS, visual screener PASS. It is an Archetype A 3x3 grid in era order that
+  darkens from icy blue to soot black, with the Chicxulub boss tile bottom-right and a tiny Doug in a rubber ring in Hot Tub
+  Ocean. The labels are the 9 chapter names and use no title words. It promises "one killer per tile, each one gets
+  Doug", and the video delivers that. No gore, nothing kid-coded. I would click it.
+- Tweaks applied myself (no layout change, tile geometry untouched):
+  - All 9 `label_size` 42 to 48. The screener's ~50 would need shorter tiles, which means moving every absolute
+    child coordinate. At 48 the descenders ("Traps", "Purple") still clear the next row's frames, and the labels hold up
+    better at 168x94.
+  - Gondwana Ice: the ice-cap outline is darker (#1d5f9a to #0b2f5c), so the white cap separates from the green landmass. This is
+    still the weakest tile, but it reads as ice on a continent at 320x180. Accepted.
+  - Re-rendered with `python -m studio thumbnail` and checked at full size, 320x180 and 168x94. s001 uses `scene_ref:
+    thumbnail`, so the opening shot picks up the change automatically.
+- Package: **GO.** Title "How Doug Would Die in Every Mass Extinction" (T2) is delivered: at least one Doug death in each
+  of the Big Five sections, counter 18 to 27. Description, sources, AI-use and disclaimer blocks are present, the playlist is
+  `prehistoric`, and `validate metadata` and `validate shotlist` both report OK.
+- Art: **GO** (art_approved stands). The visual screener's polish items 1-5 (s047 flipper, text over outlines, s210
+  dashes, s098 map crop, s228/s229 bar labels) are optional. The director may do them in the editor pass if time
+  allows, re-rendering only the touched shots. Not blocking.
+- Next: the showrunner sets `packaged`, then the editor narrates and renders.

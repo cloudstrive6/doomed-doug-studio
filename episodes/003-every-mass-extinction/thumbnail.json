@@ -16,7 +16,7 @@
    "radius": 24,
    "frame_width": 6,
    "label": "Killer Moss",
-   "label_size": 42,
+   "label_size": 48,
    "elements": [
     {
      "type": "asset",
@@ -37,7 +37,7 @@
    "radius": 24,
    "frame_width": 6,
    "label": "Gondwana Ice",
-   "label_size": 42,
+   "label_size": 48,
    "elements": [
     {
      "type": "asset",
@@ -88,7 +88,7 @@
       ]
      ],
      "fill": "#ffffff",
-     "color": "#1d5f9a",
+     "color": "#0b2f5c",
      "width": 5
     },
     {
@@ -133,7 +133,7 @@
    "radius": 24,
    "frame_width": 6,
    "label": "Ozone Hole",
-   "label_size": 42,
+   "label_size": 48,
    "elements": [
     {
      "type": "poly",
@@ -202,7 +202,7 @@
    "radius": 24,
    "frame_width": 6,
    "label": "Siberian Traps",
-   "label_size": 42,
+   "label_size": 48,
    "elements": [
     {
      "type": "asset",
@@ -230,7 +230,7 @@
    "radius": 24,
    "frame_width": 6,
    "label": "Hot Tub Ocean",
-   "label_size": 42,
+   "label_size": 48,
    "elements": [
     {
      "type": "asset",
@@ -647,7 +647,7 @@
    "radius": 24,
    "frame_width": 6,
    "label": "Purple Oceans",
-   "label_size": 42,
+   "label_size": 48,
    "elements": [
     {
      "type": "rect",
@@ -761,7 +761,7 @@
    "radius": 24,
    "frame_width": 6,
    "label": "Pangaea Splits",
-   "label_size": 42,
+   "label_size": 48,
    "elements": [
     {
      "type": "asset",
@@ -836,7 +836,7 @@
    "radius": 24,
    "frame_width": 6,
    "label": "Deccan Traps",
-   "label_size": 42,
+   "label_size": 48,
    "elements": [
     {
      "type": "asset",
@@ -864,7 +864,7 @@
    "radius": 24,
    "frame_width": 6,
    "label": "Chicxulub",
-   "label_size": 42,
+   "label_size": 48,
    "elements": [
     {
      "type": "poly",
