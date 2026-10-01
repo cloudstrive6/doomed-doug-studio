@@ -165,3 +165,26 @@ the lone cap and an eye stalk read well, and it no longer looks like a blank fra
 - s101: the "sorry" bubble tail ends on Doug's cap brim (860,540). End it at about (900,470), above his head.
 - s019 to s020: these use the same framing back to back. A slow `zoom_in` on Doug and the cub in s020 would keep the beat fresh.
 - s021: the mother silhouette is still a blob (round-1 visual note 8). The illustrator could silhouette the `cave_lion` asset if time allows.
+
+---
+
+# Keyframe review round 3 (final): 005, 2026-10-01
+
+Scope: s013, s019, s020, s026, s027, s030, s038, s045, s069, s100, s133, s134, s136, s142, s151, s166, s210 (each checked full size),
+plus a pass over the regenerated contact sheets 01-18.
+
+## Verdict: PASS
+
+- **s134**: approved. Doug sits on the belly between the up-turned feet in `sit_thumbs_up`, and the THUMBS UP arrow ends at the thumb.
+- **s013**: approved. THE TWIST sits in the empty top-right space, clear of Doug's arms.
+- s019, s020, s027, s030, s038, s045, s069, s133, s142, s151, s166 and s210 are on-model and on-palette. Text is legible
+  and inside the safe area. Nothing is gory.
+- On the contact sheets, style, zone colours, title cards and the DOUG DEATHS counter (36 to 46) stay consistent. Layouts vary,
+  with no runs of repeated compositions.
+
+## AD edits applied directly in shotlist.json (re-rendered and verified)
+1. **s136**: the ghost Doug's cap overlapped the bottom edge of the DOUG DEATHS: 42 box. Changed doug `y` from 300 to 345, so he now floats clear of the box and above the cap.
+2. **s100**: the scientist's legs were drawn on top of the podium. Swapped the draw order (scientist first, then podium) so he stands behind the lectern.
+3. **s026**: Doug's feet hung below the map frame, close to the bottom edge. Changed doug `y` from 979 to 940.
+
+Not blocking: s133 has two thin blue slivers on the top edge of the frame (y=0, x about 0-120 and 520-790). They can't be seen at playback size.

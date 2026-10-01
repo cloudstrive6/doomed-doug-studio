@@ -3613,7 +3613,7 @@
      {
       "type": "doug",
       "x": 1650,
-      "y": 979,
+      "y": 940,
       "scale": 0.4,
       "pose": "point",
       "expression": "hopeful",
@@ -14939,17 +14939,17 @@
      },
      {
       "type": "asset",
-      "name": "podium",
-      "x": 700,
-      "y": 860,
-      "scale": 0.9
-     },
-     {
-      "type": "asset",
       "name": "scientist",
       "x": 700,
       "y": 700,
       "scale": 0.6
+     },
+     {
+      "type": "asset",
+      "name": "podium",
+      "x": 700,
+      "y": 860,
+      "scale": 0.9
      },
      {
       "type": "speech",
@@ -19171,7 +19171,7 @@
      {
       "type": "doug",
       "x": 1420,
-      "y": 300,
+      "y": 345,
       "scale": 0.35,
       "pose": "float",
       "expression": "dead",

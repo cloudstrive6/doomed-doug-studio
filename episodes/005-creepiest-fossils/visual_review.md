@@ -139,3 +139,47 @@ VERDICT: FAIL
 
 Re-check after fixes: s134, s027, s019, s038, s069, s166, s100, s045, s136, s030 (plus any recommended items
 changed).
+
+## Round 3 (final): keyframe re-check + general pass (2026-10-01)
+
+I viewed every keyframe in `build/keyframes/` (s001-s211, rendered at 23:07, plus s026, s100 and s136 re-rendered at
+23:08). Sheets 01-08 were full contact sheets when I read them. Partway through, a `--shots` run overwrote
+`build/contact/` with a single 3-tile sheet, so I reviewed s097-s211 from my own grids of the current keyframes.
+
+### Round 2 fixes: status
+- **s134**: fixed. Doug stands on the belly between the upturned legs, the thumb stroke is visible, and the arrow
+  points at the hand.
+- **s027**: fixed. The empty rectangle is gone.
+- **s019, s038, s069, s166**: fixed. The tails are short, solid wedges that end just above Doug's head.
+- **s100**: fixed. "very reasonable guess" fits on one line, and the bubble is clear of the tag. The scientist now
+  stands behind the lectern.
+- **s045**: fixed. "1 MONTH" fits inside the calendar page.
+- **s136**: fixed. The ghost sits right of "UPSIDE DOWN" with a clear gap, under the counter.
+- **s030**: fixed. All four legs of the ox are blue.
+- **s013**: fixed. "THE TWIST" sits next to the "!", clear of Doug's arms.
+- **s142**: fixed. The X is gone.
+- **s151**: fixed. Doug walks on the floor line next to the trail.
+- **s210**: fixed. The counter plate sits above the time machine.
+- **s133**: fixed. The carcass floats in the river channel.
+- **s020**: OK. It is the clean "HER MOTHER?" beat.
+- **s026**: not changed. The Blue Babe icon still sits east of the Alaska circle, over northern Canada. It is now
+  next to the circle, so this is acceptable (see note 1).
+
+### General pass
+No blank or broken frames. Doug is on-model everywhere (red cap, white head). No gore: the deaths are ghost-and-cap
+gags, and s047's "ORGANS: INTACT" is text only. Nothing reads as a kids' show. All text I checked is legible and
+spelled correctly. The "Zh?r" boxes appear only in the contact-sheet captions (the caption font lacks the glyph).
+The rendered title cards show "ZHÙR" correctly.
+
+VERDICT: PASS
+
+### Non-blocking notes (optional polish; do not hold the render)
+1. **s026, s043 (director)**: the map icons sit beside their circles, not on them. s043's mammoth sits over
+   Scandinavia while the circle is on Yamal. Move each icon onto or right next to its circle.
+2. **s036 (director)**: the "well aged" bubble tail ends in the air between the two scientists. Aim it at the
+   speaker's head.
+3. **s197-s201 (director)**: five near-identical Stanleycaris close-ups in a row. The labels and the brain overlay
+   change, but the framing doesn't. Consider cutting to Doug, or widening the shot, on s198 or s200.
+4. **s176-s177**: still a plain ellipse body outline (carried over from rounds 1 and 2).
+5. **Pipeline (editor)**: a `--shots` keyframe run overwrites `build/contact/` with a partial sheet. Re-run full
+   `keyframes` before any later contact-sheet review.
