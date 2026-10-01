@@ -42,6 +42,15 @@ desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never
   facing the sky, red cap on (or `gear: ["cap_off"]` for the cap knocked off beside his head). `lie` + `rotate: -90`
   is retired for new shots: it turns the cap into a red half-head and the body into a fan of whiskers. Only
   001/002 still use it, and their renders are kept pixel-identical.
+- **Doug's `y` is his hip, not his feet** (from 004). Feet are at y + 152 x scale, neck at y - 150 x scale (the
+  `sit` pose drops the hip by 70 x scale). Aim flip-flop arrows at the feet, not at y + 200.
+- **Buried / sinking Doug (quicksand, mud, water; from 004 s063)**: draw Doug, then the ground `rect` starting
+  **exactly at his hip y**, then (optionally) cross-section leg lines from the hip down. Torso, arms, head and cap
+  stay above the surface. Never put the surface above the hip: a head on two legs with no torso is off-model.
+- **Auto-ink is decided at one point** (80 x scale above the hip). If Doug straddles a dark sky and a light ground
+  (snow, salt, crystal), his legs go white-on-white and vanish (004 s103, s171-s173, s183). Keep the whole body on
+  one side of the horizon (lower him so his neck is below the ground line), or sit him *behind* a light prop (draw
+  Doug before the prop, hips at its top edge) so only the torso shows against the dark.
 - **Creatures and places: the detailed tier**: cleaner cartoon illustrations with layered fills, interior shading
   (`spray`, darker back / lighter belly), texture strokes at 2–3, outlines 3–5. The contrast is part of the joke.
 
@@ -68,12 +77,18 @@ reveals · real photos only public-domain/licensed with a 4 px black frame.
 ## Text
 Font: Arimo (bundled, Arial look-alike = classic MS Paint text). `label` boxes for depths, names and numbers.
 Max ~8 words on screen per shot. Title cards: big bold red `#e0201b` with black outline (like the banner).
+One exception: a sombre item about a real mass-casualty event (004 Lake Nyos) may use a white `#ffffff` title
+with black outline. No other colours (no yellow, no green) for item title cards.
+Wordart and title text must not cross a map frame line, land masses, crystals or lightning bolts; find clear sky/sea.
 
 ## Recurring layouts
 - **Depth meter**: tall canvas + `pan_down`, zone bands, white `label` depth markers at left.
 - **Death counter**: `label` "DOUG DEATHS: N" top-right, appears on each death shot. Its zone (about
   x 1300-1860, y 110-230 at 1080p) is reserved: no sun, moon, creature or other label may touch it. On death
-  shots, move the sun/moon down to about (1720, 330) or drop it.
+  shots, move the sun/moon down to about (1720, 330) or drop it. This applies to **every** shot that shows the
+  counter, including survival beats and title cards that carry the counter over (004 s222 moon at 1650,200).
+- **Ground texture lines** (lava crust, cracks) must not pass behind Doug's shoulders or hips: they read as extra
+  arms or a skewer (004 s273-s277).
 - **WordArt placement**: the yellow-to-green `wordart` must never sit on green ground, grass, leaves or any
   green field (lime-on-lime disappears at phone size). Put it on sky/cream/pink/dark areas; if the only free
   space is ground, move the label up instead.
