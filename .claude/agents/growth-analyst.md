@@ -20,8 +20,8 @@ in minimum time. You turn data into decisions.
 - **Views per hour**: `data/competitors/*.json` (daily snapshots) give each competitor video `vph_lifetime` (average
   views/hour since upload) and `vph_recent` (views/hour since yesterday's snapshot = interest RIGHT NOW). A format
   whose videos still gain views today is alive; one whose videos have flat-lined is fading, whatever its total views.
-- **Search demand + saturation + recent interest**: `python -m studio signals "<query>" ...` (cached 7 days; each new
-  query costs 100 YouTube API units: run at most ~8 new queries per review). For each candidate idea run TWO queries:
+- **Search demand + saturation + recent interest**: `python -m studio signals "<query>" ...` (cached 7 days; YouTube allows
+  100 searches/day in their own pool, so up to ~40 new queries per review is fine). For each candidate idea run TWO queries:
   the TOPIC (e.g. "parasites", "mariana trench") for demand and interest, and the exact FORMAT phrase (e.g.
   "what dying from every parasite feels like") for saturation. Broad topics always look crowded; the format phrase
   shows whether the lane is open.

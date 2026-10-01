@@ -8,8 +8,8 @@ Per query:
   saturation  YouTube search, last 90 days: how many DIFFERENT channels already have a long video on it with
               100K+ views (format copies). Few = open lane; many = we'd arrive late.
   interest    views per hour of those recent videos (median and best): is the topic hot right now?
-Results are cached 7 days (search costs 100 YouTube API units per query; keep runs to ~8 queries) and written to
-data/signals/<date>.json.
+Results are cached 7 days and written to data/signals/<date>.json. Quota (checked 2026-10-01): YouTube search has its
+own pool of 100 search queries/day (uploads have a separate 100/day; everything else 10,000 queries/day).
 """
 from __future__ import annotations
 
