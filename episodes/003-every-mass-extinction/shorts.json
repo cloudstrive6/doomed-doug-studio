@@ -1,0 +1,37 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s228",
+      "to": "s236",
+      "hook": "Sixty-six million years ago, a ten kilometer asteroid hit Mexico.",
+      "hook_scene_from": "s226",
+      "title": "",
+      "outro": "Doug was standing right under it. The full video is linked below.",
+      "end_card": "WHAT HAPPENED TO DOUG? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s117",
+      "to": "s120",
+      "hook": "Two hundred fifty-two million years ago, the ocean became a hot tub.",
+      "hook_scene_from": "s111",
+      "title": "",
+      "outro": "Doug got in anyway. All twenty-seven Doug deaths are linked below.",
+      "end_card": "ALL 27 DEATHS: TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s100",
+      "to": "s104",
+      "hook": "The worst extinction in Earth's history started in Siberia.",
+      "hook_scene_from": "s098",
+      "title": "",
+      "outro": "And that was only the first pulse. The full video is linked below.",
+      "end_card": "THE WORST PART? TAP BELOW",
+      "description": ""
+    }
+  ]
+}

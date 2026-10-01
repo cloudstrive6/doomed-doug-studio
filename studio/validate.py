@@ -89,7 +89,8 @@ def validate_shotlist(ep_dir: Path) -> list[str]:
         problems.append("s001 should open on the thumbnail grid (scene_ref: thumbnail) for 1.5-4 s (style bible Editor rule 3)")
     script = ep_dir / "script.md"
     if script.exists():
-        sw = len(re.sub(r"\[[^\]]*\]|#.*", "", script.read_text(encoding="utf-8")).split())
+        text = re.sub(r"<!--.*?-->", "", script.read_text(encoding="utf-8"), flags=re.S)  # comments aren't spoken
+        sw = len(re.sub(r"\[[^\]]*\]|#.*", "", text).split())
         if words < sw * 0.9:
             problems.append(f"shotlist narration ({words} words) drops >10% of the approved script ({sw} words)")
     return problems
