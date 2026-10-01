@@ -51,7 +51,7 @@ Common keys: `color` (outline, default `#000000`), `fill`, `width` (line px, def
 
 | type | keys |
 |---|---|
-| `doug` | `x`,`y` (hips), `scale` (1 ≈ 450 px tall), `pose` (or list to loop), `expression` (or list), `gear` [`scuba`,`mask`,`tank`,`helmet`,`sweat`,`sunburn`], `facing` `right`/`left`, `rotate` (deg; lying dead = `pose: lie, rotate: -90`), `ink` (auto-white on dark backgrounds) |
+| `doug` | `x`,`y` (hips), `scale` (1 ≈ 450 px tall), `pose` (or list to loop), `expression` (or list), `gear` [`scuba`,`mask`,`tank`,`helmet`,`sweat`,`sunburn`], `facing` `right`/`left`, `rotate` (deg; tilts only, never for lying down, see "Doug lying down" below), `ink` (auto-white on dark backgrounds) |
 | `asset` | `name` (file in `assets/library/`), `x`,`y`, `scale`, `flip`, `rotate` |
 | `line` / `curve` | `points` [[x,y],...]; curve is smoothed |
 | `arrow` | `from`, `to`, `head` |
@@ -74,6 +74,28 @@ arrows) and draws a filled head; `asset` takes `"silhouette": true` (+ `glow` co
 silhouette-with-red-glow reveal. `asset` also takes `ink` (outline colour override for black lines); assets whose JSON has
 `"auto_ink": true` (crude-tier humans) switch black outlines to white on dark backgrounds automatically, except
 elements marked `"keep_ink": true`.
+
+### Doug lying down (death beats)
+Use `"pose": "on_back"` and **no `rotate`**. The pose is drawn horizontally: hips at `x`,`y`, head to the left
+(`facing: "left"` puts it on the right), feet out to about `x + 150 x scale`, and the head stays near-upright facing
+the sky so the red cap still reads as a cap. `lie` + `rotate: -90` is retired for new shots (it draws a half-red head
+with whiskers); 001/002 still use it and render unchanged.
+
+```json
+{"type": "doug", "x": 700, "y": 850, "scale": 0.85, "pose": "on_back", "expression": "dead", "facing": "right"}
+```
+- **Ground**: his lowest points (head bottom, flat leg, flat arm) are at `y + 70 x scale`. Set
+  `y = ground_y - 70 x scale` (scale 0.85: ground minus 60; scale 0.8: ground minus 56).
+- **Cap knocked off**: add `"gear": ["cap_off"]`. The cap lies on the ground beside his head (about
+  `x - 370 x scale`), so leave room on that side. Other gear (`mask`, `scuba`, `helmet`, `sunburn`, `sweat`) still works.
+- **Ghost**: stays the usual upright `"pose": "float", "ghost": true` above the body. Don't use `on_back` for the ghost.
+- **Worn props** drawn for the old combo (`snorkel_gear`, `ammonite_costume_flat`): keep the asset's
+  `"rotate": -90` at Doug's `x`,`y`. The `on_back` joints sit exactly where `lie` + rotate -90 put them, so the props
+  still line up. Only the Doug element changes.
+- **Costume on his back (003 s198)**: list the costume *after* Doug, keep `rotate: -90`, and shift it right by
+  `30 x scale` so the suit clears the cap brim. For example, Doug `x 860, y 834, scale 0.85, pose on_back` and
+  `ammonite_costume_flat` `x 885, y 835, scale 0.85, rotate -90`. Don't put the costume before Doug, or his limb
+  lines are drawn on top of the suit.
 
 Annotation assets in the library: `question_mark`, `exclamation_mark`, `warning_triangle`, `red_x`, `thermometer`,
 `gravestone`.

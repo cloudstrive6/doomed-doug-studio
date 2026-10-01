@@ -1,0 +1,925 @@
+{
+ "_note": "Archetype A 3x3 labelled grid, fills darken icy blue -> soot black in era order; tiny Doug in a rubber ring in Hot Tub Ocean; Chicxulub boss tile bottom-right.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 28,
+   "y": 20,
+   "w": 400,
+   "h": 160,
+   "fill": "#a8ecff",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Killer Moss",
+   "label_size": 42,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "moss_patch",
+     "x": 228,
+     "y": 140,
+     "scale": 1.25
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 20,
+   "w": 400,
+   "h": 160,
+   "fill": "#4fc3f7",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Gondwana Ice",
+   "label_size": 42,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "gondwana",
+     "x": 640,
+     "y": 102,
+     "scale": 0.27
+    },
+    {
+     "type": "poly",
+     "smooth": true,
+     "points": [
+      [
+       580,
+       115
+      ],
+      [
+       615,
+       100
+      ],
+      [
+       655,
+       108
+      ],
+      [
+       695,
+       102
+      ],
+      [
+       712,
+       130
+      ],
+      [
+       690,
+       160
+      ],
+      [
+       640,
+       168
+      ],
+      [
+       590,
+       158
+      ],
+      [
+       568,
+       138
+      ]
+     ],
+     "fill": "#ffffff",
+     "color": "#1d5f9a",
+     "width": 5
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       610,
+       128
+      ],
+      [
+       630,
+       142
+      ]
+     ],
+     "color": "#8fd0f5",
+     "width": 4
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       655,
+       120
+      ],
+      [
+       680,
+       136
+      ]
+     ],
+     "color": "#8fd0f5",
+     "width": 4
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 852,
+   "y": 20,
+   "w": 400,
+   "h": 160,
+   "fill": "#2f6cf0",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Ozone Hole",
+   "label_size": 42,
+   "elements": [
+    {
+     "type": "poly",
+     "points": [
+      [
+       852,
+       148
+      ],
+      [
+       972,
+       142
+      ],
+      [
+       987,
+       162
+      ],
+      [
+       1002,
+       140
+      ],
+      [
+       1102,
+       144
+      ],
+      [
+       1117,
+       166
+      ],
+      [
+       1134,
+       141
+      ],
+      [
+       1252,
+       146
+      ],
+      [
+       1252,
+       180
+      ],
+      [
+       852,
+       180
+      ]
+     ],
+     "fill": "#9fe0ff",
+     "color": "#000000",
+     "width": 5
+    },
+    {
+     "type": "asset",
+     "name": "angry_sun",
+     "x": 1052,
+     "y": 100,
+     "scale": 0.42
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 28,
+   "y": 244,
+   "w": 400,
+   "h": 160,
+   "fill": "#e0309a",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Siberian Traps",
+   "label_size": 42,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "volcano",
+     "x": 158,
+     "y": 412,
+     "scale": 0.3
+    },
+    {
+     "type": "asset",
+     "name": "volcano",
+     "x": 303,
+     "y": 412,
+     "scale": 0.4
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 244,
+   "w": 400,
+   "h": 160,
+   "fill": "#c41d3a",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Hot Tub Ocean",
+   "label_size": 42,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "hot_tub",
+     "x": 640,
+     "y": 454,
+     "scale": 0.55
+    },
+    {
+     "type": "doug",
+     "x": 715,
+     "y": 352,
+     "scale": 0.27,
+     "pose": "float",
+     "expression": "flat",
+     "facing": "left"
+    },
+    {
+     "type": "group",
+     "x": 640,
+     "y": 454,
+     "scale": 0.55,
+     "elements": [
+      {
+       "type": "poly",
+       "points": [
+        [
+         -290,
+         -150
+        ],
+        [
+         290,
+         -150
+        ],
+        [
+         290,
+         0
+        ],
+        [
+         -290,
+         0
+        ]
+       ],
+       "fill": "#b8743f",
+       "width": 5
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         -254,
+         -146
+        ],
+        [
+         -254,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         -218,
+         -146
+        ],
+        [
+         -218,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         -182,
+         -146
+        ],
+        [
+         -182,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         -146,
+         -146
+        ],
+        [
+         -146,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         -110,
+         -146
+        ],
+        [
+         -110,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         -74,
+         -146
+        ],
+        [
+         -74,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         -38,
+         -146
+        ],
+        [
+         -38,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         -2,
+         -146
+        ],
+        [
+         -2,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         34,
+         -146
+        ],
+        [
+         34,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         70,
+         -146
+        ],
+        [
+         70,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         106,
+         -146
+        ],
+        [
+         106,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         142,
+         -146
+        ],
+        [
+         142,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         178,
+         -146
+        ],
+        [
+         178,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         214,
+         -146
+        ],
+        [
+         214,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         250,
+         -146
+        ],
+        [
+         250,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         286,
+         -146
+        ],
+        [
+         286,
+         -4
+        ]
+       ],
+       "width": 2,
+       "color": "#7a4a22"
+      },
+      {
+       "type": "spray",
+       "x": -200,
+       "y": -40,
+       "r": 60,
+       "color": "#d39a62",
+       "density": 0.1
+      },
+      {
+       "type": "spray",
+       "x": 220,
+       "y": -50,
+       "r": 70,
+       "color": "#8a5228",
+       "density": 0.1
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -290,
+         -22
+        ],
+        [
+         290,
+         -22
+        ],
+        [
+         290,
+         0
+        ],
+        [
+         -290,
+         0
+        ]
+       ],
+       "fill": "#7a4a22",
+       "width": 4
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -290,
+         -150
+        ],
+        [
+         290,
+         -150
+        ],
+        [
+         290,
+         0
+        ],
+        [
+         -290,
+         0
+        ]
+       ],
+       "fill": null,
+       "width": 5
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -300,
+         -150
+        ],
+        [
+         300,
+         -150
+        ],
+        [
+         292,
+         -165
+        ],
+        [
+         -292,
+         -165
+        ]
+       ],
+       "fill": "#f4f6f8",
+       "color": "#000000",
+       "width": 5
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -300,
+         -150
+        ],
+        [
+         300,
+         -150
+        ],
+        [
+         292,
+         -134
+        ],
+        [
+         -292,
+         -134
+        ]
+       ],
+       "fill": "#c9d0d6",
+       "width": 4
+      }
+     ]
+    },
+    {
+     "type": "asset",
+     "name": "rubber_ring",
+     "x": 715,
+     "y": 348,
+     "scale": 0.19
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 852,
+   "y": 244,
+   "w": 400,
+   "h": 160,
+   "fill": "#5a1f8a",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Purple Oceans",
+   "label_size": 42,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 852,
+     "y": 244,
+     "w": 400,
+     "h": 38,
+     "fill": "#2f8fe0",
+     "outline": false
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       852,
+       282
+      ],
+      [
+       952,
+       274
+      ],
+      [
+       1052,
+       286
+      ],
+      [
+       1152,
+       276
+      ],
+      [
+       1252,
+       284
+      ]
+     ],
+     "color": "#000000",
+     "width": 5
+    },
+    {
+     "type": "asset",
+     "name": "rotten_egg",
+     "x": 1052,
+     "y": 354,
+     "scale": 0.42
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       1002,
+       324
+      ],
+      [
+       992,
+       309
+      ],
+      [
+       1004,
+       294
+      ]
+     ],
+     "color": "#9cff5a",
+     "width": 6
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       1052,
+       320
+      ],
+      [
+       1042,
+       304
+      ],
+      [
+       1054,
+       290
+      ]
+     ],
+     "color": "#9cff5a",
+     "width": 6
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       1102,
+       324
+      ],
+      [
+       1092,
+       309
+      ],
+      [
+       1104,
+       294
+      ]
+     ],
+     "color": "#9cff5a",
+     "width": 6
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 28,
+   "y": 468,
+   "w": 400,
+   "h": 160,
+   "fill": "#8a1420",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Pangaea Splits",
+   "label_size": 42,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "pangaea_map",
+     "x": 228,
+     "y": 548,
+     "scale": 0.2
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       243,
+       473
+      ],
+      [
+       228,
+       508
+      ],
+      [
+       250,
+       538
+      ],
+      [
+       226,
+       573
+      ],
+      [
+       246,
+       623
+      ]
+     ],
+     "color": "#ff8a1a",
+     "width": 12
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       243,
+       473
+      ],
+      [
+       228,
+       508
+      ],
+      [
+       250,
+       538
+      ],
+      [
+       226,
+       573
+      ],
+      [
+       246,
+       623
+      ]
+     ],
+     "color": "#ffe24a",
+     "width": 4
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 468,
+   "w": 400,
+   "h": 160,
+   "fill": "#3a2a2a",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Deccan Traps",
+   "label_size": 42,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "india_map",
+     "x": 590,
+     "y": 553,
+     "scale": 0.32
+    },
+    {
+     "type": "asset",
+     "name": "volcano",
+     "x": 740,
+     "y": 633,
+     "scale": 0.3
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 852,
+   "y": 468,
+   "w": 400,
+   "h": 160,
+   "fill": "#141414",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Chicxulub",
+   "label_size": 42,
+   "elements": [
+    {
+     "type": "poly",
+     "points": [
+      [
+       1022,
+       508
+      ],
+      [
+       1252,
+       448
+      ],
+      [
+       1252,
+       528
+      ],
+      [
+       1082,
+       598
+      ]
+     ],
+     "fill": "#ff7a1a",
+     "outline": false
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       1042,
+       528
+      ],
+      [
+       1252,
+       478
+      ],
+      [
+       1252,
+       508
+      ],
+      [
+       1072,
+       578
+      ]
+     ],
+     "fill": "#ffe24a",
+     "outline": false
+    },
+    {
+     "type": "asset",
+     "name": "asteroid",
+     "x": 1032,
+     "y": 553,
+     "scale": 0.42
+    }
+   ]
+  }
+ ]
+}

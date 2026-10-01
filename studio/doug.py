@@ -10,6 +10,7 @@ Scene usage:
   {"type": "doug", "x": 960, "y": 700, "scale": 1, "pose": "arms_up",
    "expression": "shock", "gear": ["scuba"], "facing": "right", "ghost": false}
 `pose` / `expression` may be lists; they cycle with the boil variant (GIF-like loop).
+Lying down / death beats: `pose: "on_back"` with no `rotate` (optional gear `cap_off`); see docs/SCENE_SCHEMA.md.
 """
 from __future__ import annotations
 
@@ -56,7 +57,23 @@ POSES = {
     "cower":    dict(arm_f=(120, 45), arm_b=(-120, -45), leg_f=(60, -30), leg_b=(-40, 30), lean=10, drop=40),
     "lie":      dict(arm_f=(10, 0), arm_b=(-10, 0), leg_f=(5, 0), leg_b=(-5, 0), lean=0),
     "dive":     dict(arm_f=(175, 5), arm_b=(-175, -5), leg_f=(3, 0), leg_b=(-3, 0), lean=0),
+    # Flat on his back, drawn natively horizontal: use WITHOUT `rotate`. See ON_BACK below and docs/SCENE_SCHEMA.md.
+    "on_back":  dict(flat=True),
 }
+
+# `on_back` skeleton. Same joint positions that `lie` + rotate -90 produces, so worn props drawn for that combo
+# (snorkel_gear, ammonite_costume_flat ... used with rotate -90 at Doug's x/y) still line up:
+# hips (0,0), shoulders (-122,0), neck (-150,0), head centre (-218,0), feet out to the right (x ~ +150).
+# The head is NOT rotated with the body: it stays near-upright (tilted HEAD_TILT, face to the sky) so the red cap
+# keeps reading as a cap. Lowest points (head bottom, flat leg, flat arm) sit on y ~ +70: put that on the ground.
+ON_BACK = {
+    "leg_b": [(0, 0), (76, 40), (152, 70)],          # far leg: flat on the ground
+    "leg_f": [(0, 0), (54, -50), (118, 0)],          # near leg: knee up, flopped
+    "arm_b": [(-122, 0), (-66, 42), (-6, 70)],       # far arm: flat on the ground along his side
+    "arm_f": [(-122, 0), (-86, -46), (-30, -18)],    # near arm: limp across the belly
+}
+HEAD_TILT = -15   # degrees; negative turns the face up toward the sky
+ON_BACK_GROUND = 70  # local y of the ground contact line for `on_back`
 
 # Style-bible expression set + aliases (older names map onto it)
 EXPRESSIONS = ["shock", "gritted", "flat", "hopeful", "smirk", "dead", "neutral", "sad", "angry",
@@ -87,6 +104,28 @@ def _pick(v, variant):
     return v
 
 
+def _turn(els, deg, origin):
+    """Rotate already-built elements (points / x,y) around origin. Ellipse radii stay axis-aligned (small parts)."""
+    out = []
+    for e in els:
+        e = dict(e)
+        if "points" in e:
+            e["points"] = [_rot(p, deg, origin) for p in e["points"]]
+        elif "x" in e and "y" in e and e.get("type") != "rect":
+            e["x"], e["y"] = _rot((e["x"], e["y"]), deg, origin)
+        out.append(e)
+    return out
+
+
+def _cap_on_ground(x, ground_y):
+    """The red cap knocked off, resting on the ground beside his head (on_back + gear `cap_off`)."""
+    els = _turn(_cap(0, 0), 12, (0, 0))
+    low = max(py for e in els for _, py in e["points"])
+    for e in els:
+        e["points"] = [(px + x, py + ground_y - low) for px, py in e["points"]]
+    return els
+
+
 def doug_elements(el: dict, variant: int = 0):
     pose_name = _pick(el.get("pose", "stand"), variant)
     expr = _pick(el.get("expression", "neutral"), variant)
@@ -105,9 +144,17 @@ def doug_elements(el: dict, variant: int = 0):
         q = _rot(p, lean)
         return (q[0], q[1] + drop)
 
+    flat = pose.get("flat", False)
     hip, shoulder, neck, head = L(HIP), L(SHOULDER), L(NECK), L(HEAD_C)
     body = []
-    if ghost:  # wavy ghost tail instead of legs
+    if flat:
+        hip, shoulder, neck, head = HIP, (-122, 0), (-150, 0), (-218, 0)
+        for key in ("leg_b", "leg_f"):
+            body.append({"type": "line", "points": ON_BACK[key], "width": LINE, "color": ink})
+        body.append({"type": "line", "points": [hip, neck], "width": LINE, "color": ink})
+        for key in ("arm_b", "arm_f"):
+            body.append({"type": "line", "points": ON_BACK[key], "width": LINE, "color": BURN_ARM if burnt else ink})
+    elif ghost:  # wavy ghost tail instead of legs
         body.append({"type": "curve", "points": [hip, (hip[0] - 25, hip[1] + 40), (hip[0] + 10, hip[1] + 80),
                                                   (hip[0] - 20, hip[1] + 120)], "width": LINE, "color": ink})
     else:
@@ -115,18 +162,23 @@ def doug_elements(el: dict, variant: int = 0):
             a1, a2 = pose[key]
             pts = _limb(HIP, a1 - lean, a1 + a2 - lean, THIGH, SHIN)
             body.append({"type": "line", "points": [(p[0], p[1] + drop) for p in pts], "width": LINE, "color": ink})
-    body.append({"type": "line", "points": [hip, neck], "width": LINE, "color": ink})
-    for key in ("arm_b", "arm_f"):
-        a1, a2 = pose[key]
-        pts = _limb((0, 0), a1 - lean, a1 + a2 - lean, UPPER_ARM, FOREARM)
-        body.append({"type": "line", "points": [(p[0] + shoulder[0], p[1] + shoulder[1]) for p in pts],
-                     "width": LINE, "color": BURN_ARM if burnt else ink})
+    if not flat:
+        body.append({"type": "line", "points": [hip, neck], "width": LINE, "color": ink})
+        for key in ("arm_b", "arm_f"):
+            a1, a2 = pose[key]
+            pts = _limb((0, 0), a1 - lean, a1 + a2 - lean, UPPER_ARM, FOREARM)
+            body.append({"type": "line", "points": [(p[0] + shoulder[0], p[1] + shoulder[1]) for p in pts],
+                         "width": LINE, "color": BURN_ARM if burnt else ink})
 
     if "tank" in gear or "scuba" in gear:
-        bx, by = L((-30, -110))
-        body.insert(0, {"type": "rect", "x": bx - 26, "y": by - 10, "w": 26, "h": 90, "fill": "#f2c21b", "width": 4})
+        if flat:  # tank under his back
+            body.insert(0, {"type": "rect", "x": -120, "y": 4, "w": 90, "h": 26, "fill": "#f2c21b", "width": 4})
+        else:
+            bx, by = L((-30, -110))
+            body.insert(0, {"type": "rect", "x": bx - 26, "y": by - 10, "w": 26, "h": 90, "fill": "#f2c21b", "width": 4})
 
     hx, hy = head
+    n_body = len(body)
     body.append({"type": "circle", "x": hx, "y": hy, "r": HEAD_R, "fill": skin, "width": 0, "outline": False})
     # grey shading crescent on the back of the head
     outer = [(hx + HEAD_R * math.cos(math.radians(a)), hy + HEAD_R * math.sin(math.radians(a))) for a in range(100, 261, 10)]
@@ -140,7 +192,9 @@ def doug_elements(el: dict, variant: int = 0):
             body.append({"type": "poly", "points": [(hx + fx - 6 * k, hy + fy - 2 * k), (hx + fx + 1 * k, hy + fy - 6 * k),
                                                     (hx + fx + 6 * k, hy + fy + 1 * k), (hx + fx - 1 * k, hy + fy + 5 * k)],
                          "fill": "#ffffff", "width": 2, "color": ink, "boil": 0.3})
-    body += _cap(hx, hy)
+    cap_off = flat and "cap_off" in gear
+    if not cap_off:
+        body += _cap(hx, hy)
     if "scuba" in gear or "mask" in gear:
         body.append({"type": "ellipse", "x": hx + 26, "y": hy - 8, "rx": 38, "ry": 26, "fill": None, "width": 6,
                      "color": "#3a6ea5"})
@@ -150,6 +204,10 @@ def doug_elements(el: dict, variant: int = 0):
     if "sweat" in gear or el.get("expression") in ("nervous_smile", "worried"):
         body.append({"type": "poly", "points": [(hx - 64, hy - 40), (hx - 74, hy - 16), (hx - 64, hy - 8),
                                                 (hx - 55, hy - 16)], "fill": "#6ec6ff", "width": 3})
+    if flat:  # tilt the whole head (face, cap, gear) so he looks up at the sky; the cap stays a cap
+        body = body[:n_body] + _turn(body[n_body:], HEAD_TILT, (hx, hy))
+        if cap_off:
+            body += _cap_on_ground(hx - HEAD_R - 80, ON_BACK_GROUND)
     return body
 
 

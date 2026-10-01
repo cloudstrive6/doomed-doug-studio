@@ -34,9 +34,14 @@ desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never
   `"keep_ink": true` so they stay black.
 - **Costumes/props worn over Doug** (e.g. `squid_costume`) are props, not design changes: they sit on top of the rig
   at the same x/y/scale, and must leave Doug's head, face and red cap fully visible. Use upright poses, except
-  for a death beat: the prop may go on a `lie` Doug rotated -90 (003: `snorkel_gear`, `ammonite_costume_flat`).
+  for a death beat: Doug uses `pose: "on_back"` (no `rotate`) and the prop keeps `rotate: -90` at Doug's x/y
+  (003: `snorkel_gear`, `ammonite_costume_flat`; shift a torso costume +30 x scale in x so it clears the cap brim).
   Anything the prop carries on Doug's back (shells, tanks) then points *down*, so keep Doug high enough that it
   stays in frame.
+- **Death pose (from 003)**: `pose: "on_back"`, `expression: "dead"`, never `rotate`. Body flat, head near-upright
+  facing the sky, red cap on (or `gear: ["cap_off"]` for the cap knocked off beside his head). `lie` + `rotate: -90`
+  is retired for new shots: it turns the cap into a red half-head and the body into a fan of whiskers. Only
+  001/002 still use it, and their renders are kept pixel-identical.
 - **Creatures and places: the detailed tier**: cleaner cartoon illustrations with layered fills, interior shading
   (`spray`, darker back / lighter belly), texture strokes at 2–3, outlines 3–5. The contrast is part of the joke.
 
@@ -51,6 +56,12 @@ reveals · real photos only public-domain/licensed with a 4 px black frame.
   asteroid 400 wide → 280, dunkleosteus 600 → 420), or the glow hides entirely behind the silhouette.
 - Bottom-anchored assets (feet on the ground) put the glow centre at the feet: half of it lands on the ground.
   Prefer a centre-anchored asset, or skip `glow` and add a `spray` at the body centre yourself.
+- Leaving out `glow` does **not** turn the glow off: every `silhouette: true` gets a default red glow
+  (`glow_r` 260) at the anchor. To use your own body-centre `spray` instead, set `"glow_r": 0` on the silhouette.
+- Spray is speckle, so a later ground `poly` does not cover it (the bucket fill skips the speckles). To keep a
+  glow off the ground, put a flat ground-colour `rect` after the spray, starting at the ground line, then re-add
+  the ground texture spray (see 003 s146).
+- A small `scale` needs a bigger `glow_r`: the visible ring is `glow_r x scale` minus the drawing's half-width.
 - Never put the colour reveal in the same shot on top of a glowing silhouette: the leftover red spray peeks out
   under the creature and reads as a blood puddle. Silhouette in one shot, colour in the next (1-3 beats later).
 

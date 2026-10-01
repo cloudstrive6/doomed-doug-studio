@@ -85,3 +85,73 @@ by about 60 px so the block's outline reads cleanly.
 - `assets/library/rotten_egg.json` (fix #23)
 - `channel/art_bible.md`: silhouette glow sizing rule. Worn props may now go on a `lie` Doug rotated -90 for death beats
   (this episode does it twice); keep back-mounted parts in frame.
+
+---
+
+# Keyframe review: 003 Every Mass Extinction
+
+Reviewer: art director · 2026-10-01
+Scope: all 249 keyframes in `build/contact/sheet_01..21.png`, plus a re-check of the 4 director fixes from the asset review.
+Cropped and zoomed: s047, s110, s130, s135, s146, s169, s196, s201. Test renders of my proposed fixes for s130, s146
+and s196 were made with `python -m studio art` (not committed).
+
+## Verdict: FAIL (keyframes)
+
+The style is consistent. Doug is on-model in 245 of 249 shots: the red cap is always there, ink auto-whitens on dark
+backgrounds, and the sunburn (s089-s091), ghost and `lie` death poses are all correct. Each item keeps its own zone
+colour all the way through (Ordovician pale blue/grey, Devonian teal, Siberian maroon/lava, hot-tub rust, purple
+oceans, Triassic yellow-green, Deccan grey, Chicxulub sky blue). Captions and the death counter (18 → 27) are legible and
+inside the safe area.
+The episode still fails, for three reasons: s146 still reads as a blood puddle, two Doug design breaks, and four runs of 5-6 near-identical compositions.
+
+## Re-check of the earlier director fixes
+| Fix | Shot | Result |
+|---|---|---|
+| D1 | s224 asteroid, s085 dunkleosteus | **Fixed.** The red glow reads clearly around both silhouettes. |
+| D1 | s201 asteroid (scale 0.4) | **Weak.** `glow_r` 280 x 0.4 = 112 px leaves only a hairline ring. See fix 9. |
+| D2 | s080 supernova | **Fixed.** |
+| D3 | s146 lystrosaurus | **Still FAIL.** See fix 1. The colour reveal was removed (good), but the red pool under the belly is still there. |
+| D4 | s198 ammonite costume death | **Fixed.** The shell is fully in frame. |
+| minor | s025 moss over the ice block edge | Unchanged. Still optional (fix 10). |
+
+## Blocking fixes (director)
+
+1. **s146: gore read, root cause found.** The puddle doesn't come from your body spray. It comes from the engine's
+   **default glow**. Every `silhouette: true` gets a red glow (`glow_r` 260) at the anchor even when `glow` is left out,
+   and lystrosaurus is anchored at the feet, so the disc lands on the ground. Re-ordering elements doesn't help either,
+   because the ground poly's bucket fill skips spray speckles. I tested this exact recipe and it is clean: a halo
+   above the ground line only, and nothing on the ground.
+   - On the `lystrosaurus` silhouette element, add `"glow_r": 0`.
+   - Keep the `#e0201b` spray, but use `x 1100, y 600, r 360, density 0.25`.
+   - Directly after that spray, before the silhouette, add
+     `{"type":"rect","x":0,"y":768,"w":1920,"h":312,"fill":"#7a6248","width":0,"outline":false}`, and then re-add the
+     ground texture `{"type":"spray","x":960,"y":940,"r":700,"color":"#5a4632","density":0.04}`.
+   (I added this engine behaviour to `channel/art_bible.md`, Silhouette glow sizing.)
+2. **s130, s131: the head towel is across Doug's mouth (off-model).** Doug was raised to y 508, but `head_towel` stayed
+   at y 630, so it now covers his face. Set Doug to **y 630** in both shots, to match s132. That puts the ring at his
+   hips (as approved) and the towel back on the cap dome. Tested.
+3. **s196, s197: the wordart covers Doug's cap** ("BLEND IN" / "VERY SERIOUSLY" at 860,250 sits on top of the cap and brim).
+   Style bible 7.2 requires the cap to be visible at all times. Move both wordarts to **x 1400, y 300** (the empty sky on the right). Tested.
+4. **s049-s054: six identical reef compositions in a row.** Only the labels change. Re-lay two of them:
+   - **s051** ("largest development of animal-built reefs"): use a globe or map with the reef belt highlighted, or a
+     scale comparison. Do not use the reef strip.
+   - **s053** ("two pulses of ocean anoxia"): use dark water with no reef, plus an O2 gauge or two pulse blocks on a line,
+     to set up s055. The reef can come back in s054 and s056.
+5. **s005-s009: five shots of booth-left / ground / water-right.** s006 is almost a duplicate of s005. Re-lay **s006**
+   ("animals had barely set foot on land") without the booth: a wide bare-rock panorama with tiny Doug and the
+   "443 MILLION YEARS AGO" label, or a split land/sea panel with all the life on the sea side.
+6. **s036-s040: five shallow-basin shots in a row.** Re-lay **s037** ("many species lived nowhere else") as a close-up
+   inside the basin water (trilobite and brachiopod large, with the "NOWHERE ELSE" label), with no cross-section.
+7. **s057-s061: five rock-column shots in a row.** Re-lay **s061** ("half a centimeter every thousand years") as a tight
+   zoom on one layer with a ruler or fingernail for scale. Do not show the full column. s062 (coins) then follows naturally.
+
+## Non-blocking (fix if touching the shot anyway)
+8. **s233:** the thermometer (1600,480) sits on the sauropod's head and neck. Move it to about **x 1780, y 400**.
+9. **s201:** raise the asteroid `glow_r` to **450**, so the ring is about 180 px at scale 0.4.
+10. **s025:** nudge `moss_patch` right by about 60 px so it clears the ice block outline (carried over).
+
+No asset fixes for the illustrator.
+
+## Changed files
+- `channel/art_bible.md`: silhouettes always get a default glow (use `glow_r: 0` to suppress it); spray isn't covered by a
+  later ground poly; small scales need a bigger `glow_r`.
