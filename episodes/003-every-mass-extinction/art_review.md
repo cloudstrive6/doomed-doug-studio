@@ -155,3 +155,51 @@ No asset fixes for the illustrator.
 ## Changed files
 - `channel/art_bible.md`: silhouettes always get a default glow (use `glow_r: 0` to suppress it); spray isn't covered by a
   later ground poly; small scales need a bigger `glow_r`.
+
+---
+
+# Keyframe review, round 2: 003 Every Mass Extinction
+
+Reviewer: art director · 2026-10-01
+Scope: all 249 re-rendered keyframes (`build/contact/sheet_01..21.png`) and the thumbnail (`build/thumbnail.png`, also s001).
+Full-size crops checked: s047, s071, s110, s130, s146, s152, s196, s198, s220. Test render for s198 made with
+`python -m studio art` (not committed).
+
+## Verdict: PASS (keyframes + thumbnail)
+
+All 7 blocking fixes from round 1 landed, and the new `on_back` death pose resolves the visual screener's
+"disembodied head" issue in all six deaths. The style is consistent and Doug is on-model in every shot. The zone colours
+hold and the death counter runs 18 → 27. Captions are legible and inside the safe area. There is no run of 5 or more
+near-identical compositions left.
+
+## Re-check of the round 1 fixes
+| Fix | Shot(s) | Result |
+|---|---|---|
+| 1 | s146 | **Fixed.** `glow_r: 0`, the body halo sits above the ground line, and the ground rect covers the spray. Nothing red is left on the ground, so there is no blood read. |
+| 2 | s130, s131 | **Fixed.** Doug is at y 630, the towel sits on the cap dome, and the ring is at his hips. |
+| 3 | s196, s197 | **Fixed.** The wordart is in the right-hand sky and the cap and brim are fully clear. |
+| 4 | s051, s053 | **Fixed.** s051 is a globe with the reef belt, and s053 is an O2 graph with two dips. The reef run is broken. |
+| 5 | s006 | **Fixed.** Bare-rock panorama, tiny Doug, life on the sea side, no booth. |
+| 6 | s037 | **Fixed.** Close-up in the basin water with a large trilobite and brachiopod. |
+| 7 | s061 | **Fixed.** Tight layer zoom with a ruler and the 0.5 CM callout, which leads into s062 (coins). |
+| 8 | s233 | **Fixed.** The thermometer is clear of the sauropod and the blue arrow shows it falling. |
+| 9 | s201 | **Fixed (differently).** The asteroid is now the coloured drawing with a small red spray, and it reads as a rock. |
+| 10 | s025 | Not changed. Still optional. |
+| VS-1 | s047, s071, s110, s152, s198, s220 | **Fixed.** `on_back` draws the body horizontal, the head is turned to camera, the cap reads as a cap, and the eyes are X. |
+
+## Thumbnail
+PASS. It is a 3x3 labelled tile grid on white with thick black rounded tiles and Comic-style Title Case labels that
+match the 9 chapters, and there is no title text (style bible 2A). The tiles are saturated and on-palette. Doug is
+on-model in the Hot Tub Ocean tile (red cap, ring) and is not the hero. Nothing is gory and it reads at feed size.
+
+## Non-blocking polish (director, only if touching the shot anyway)
+1. **s198:** with Doug now `on_back` (horizontal), the `ammonite_costume_flat` rotated -90 stands vertically beside
+   his head. Drop the `rotate` and set the costume to **x 980, y 870**. In my test the slumped costume then lies along his body
+   and the spiral shell reads clearly.
+2. **s025:** nudge `moss_patch` right by about 60 px so it clears the ice block outline (carried over a second time).
+3. **s120-s127:** 7 of these 8 shots are the same hot-tub sea strip, and only the s124 globe breaks the run. It is under the
+   5-in-a-row limit, but if s122 gets the illustrator's coccolith (visual review, optional), frame it as a close-up circle
+   rather than another strip.
+
+No asset fixes for the illustrator. Art approval is granted from my side. The showrunner runs
+`python -m studio stage 003-every-mass-extinction art_approved` once the visual screener also passes.
