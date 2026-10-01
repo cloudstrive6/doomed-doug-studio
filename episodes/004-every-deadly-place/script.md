@@ -1,12 +1,12 @@
 <!-- axis: Severity: how fast and how surely each place kills an unprotected person, slowest to fastest. Three spoken section headers ("Hours.", "Minutes.", "Seconds.") mark the bands; the bands are rough orders of magnitude and the narration says "roughly" once in the opener. Survival times are stated only where a source gives one (Naica visit limits, time of useful consciousness, the frostbite chart, the length of a lightning stroke). The background ramp goes from pale sand and daylight to ice blue, then neon, then black and lava red. The boss is Nyiragongo. -->
-<!-- Episode 004: Every Deadly Place. Draft 1 (2026-10-01, script writer). Death counter starts at 27 and ends at 36: nine deaths over eleven items. Survivals at item 4 (Lake Natron, flamingo costume) and item 10 (Lake Maracaibo, "Doug is fine."). Lake Nyos has zero jokes. -->
+<!-- Episode 004: Every Deadly Place. Draft 2 (2026-10-01, script writer), applying script_review.md draft 1 fixes F1-F4, P1, rule 14, rule 9 and the Natron gag fix, plus advisories A1-A3. Death counter starts at 27 and ends at 36: nine deaths over eleven items. Survivals at item 4 (Lake Natron, flamingo costume) and item 10 (Lake Maracaibo, "Doug is fine.", used only there). Lake Nyos has zero jokes. -->
 <!-- Section headers "Hours.", "Minutes." and "Seconds." are spoken on their own line before an item heading, so every item still opens on its exact name. -->
-<!-- Note for the creative director: the brief asks for one sentence each on Nyiragongo's 2002 and 2021 eruptions and also says no jokes in an item that mentions a real tragedy. I kept both eruption sentences factual, with no death count, and put them before the Doug beat with a full paragraph between them and the marshmallow callback. If you want the rule applied strictly, cut the two Goma sentences (about 45 words, the item stays above 330). -->
+<!-- Nyiragongo: per the screener's ruling, the item mentions no real eruption casualties or displacement (the 2002 and 2021 Goma sentences are cut). Geology only; Goma appears only as a location. -->
 <!-- Pronunciation checks for the editor (preview with `narrate`; respell in TTS input only if Chirp mangles them): Queimada Grande = "kay-MAH-dah GRAHN-jee"; lancehead = "LANCE-head"; Morecambe = "MORE-kum"; Natron = "NAY-tron"; Vostok = "VOSS-tok"; Dome Argus = "dome AR-gus"; Dome Fuji = "dome FOO-jee"; Naica = "nah-EE-kah"; Dallol = "dah-LOLL"; Danakil = "DAN-uh-kil"; Nyos = "NEE-ohs"; Kivu = "KEE-voo"; Maracaibo = "mah-rah-KYE-boh"; Nyiragongo = "neer-ah-GONG-goh"; Goma = "GOH-mah"; mazuku = "mah-ZOO-koo". -->
 
 [Open on the thumbnail grid, 1.5 to 4 seconds. Cut to Doug at the edge of a cracked white salt flat, holding a battered suitcase with no stickers on it yet. Hopeful smile. DOUG DEATHS: 27 already on screen.]
 
-Eleven places on Earth kill anyone who stays. We ranked them, roughly, by how fast. Doug has a suitcase and a ticket to all eleven.
+Eleven places on Earth can kill anyone who stays. We ranked them, roughly, by how fast. Doug has a suitcase and a ticket to all eleven.
 
 Doug did not agree to this.
 
@@ -22,7 +22,7 @@ This long, dry basin in California holds the official world record for the hotte
 
 [Thermometer graphic climbing. Label: "1913".]
 
-On July tenth, nineteen thirteen, a thermometer here read one hundred and thirty-four degrees Fahrenheit, about fifty-seven Celsius. A study in two thousand twenty-five argued that the reading was a mistake and that the real high was closer to one hundred and twenty, but the record stands while officials review it. Either way, a normal July afternoon here averages about one hundred and sixteen.
+On July tenth, nineteen thirteen, a thermometer here read one hundred and thirty-four degrees Fahrenheit, about fifty-seven Celsius. A study in two thousand twenty-five argued that the reading was a mistake and that the real high was closer to one hundred and twenty, but for now the record still stands. Either way, a normal July afternoon here averages about one hundred and sixteen.
 
 [Doug walks in from the left in flip-flops, holding one small water bottle. Speech bubble: "nice".]
 
@@ -128,19 +128,19 @@ About three quarters of the world's lesser flamingos are born here. The adults h
 
 [A real-photo style frame, grey bird posed upright on a branch. Then a red "?" next to it.]
 
-But that's not the disturbing part. The stone animals are real, but the poses aren't.
+But that's not the disturbing part. The preserved animals are real, but the poses aren't.
 
-The famous photos come from the photographer Nick Brandt and were published in two thousand thirteen. He found birds and bats that had died and washed up along the shore, already preserved by the salts in the water, and in his own words, he then placed them in "living" positions. The lake preserves bodies, but it doesn't arrange them.
+The famous photos come from the photographer Nick Brandt and were published in two thousand thirteen. He found birds and bats that had died and washed up along the shore, already preserved by the salts in the water, and in his own words, he then placed them in living positions. The lake preserves bodies, but it doesn't arrange them.
 
 [Doug, zipped into a flamingo costume, red cap on top, standing on one leg in the shallows among real flamingos.]
 
 Doug is here in a lesser flamingo costume, to blend in, and he stands on one leg like a professional. The flamingos ignore him, and the lake leaves him alone.
 
-[Doug wades out. Flip-flops dry and cracked. The narrator's counter stays at 30. No sticker.]
+[Doug wades out. Flip-flops dry and cracked. The counter stays at 30. No sticker.]
 
-Doug is fine. We'll be honest, this was not the plan.
+He survives. We'll be honest, this was not the plan.
 
-The most caustic lake in Tanzania is also the main nursery of the lesser flamingo.
+A lake this caustic is also the main nursery of the lesser flamingo.
 
 [Background shifts colder and darker: grey-blue, then deep ice blue. Big label: "MINUTES".]
 
@@ -158,7 +158,7 @@ On July twenty-first, nineteen eighty-three, Vostok Station recorded minus eight
 
 [Three thermometers side by side: kitchen, home freezer, Vostok.]
 
-To put that in context, a home freezer is set to about minus eighteen, so your kitchen is about forty degrees warmer than your freezer. Vostok was about seventy degrees colder than it.
+For scale, a home freezer is set to about minus eighteen, so your kitchen is about forty degrees warmer than your freezer. Vostok was about seventy degrees colder than it.
 
 However, Vostok was not even the coldest spot.
 
@@ -166,7 +166,7 @@ However, Vostok was not even the coldest spot.
 
 Here's the worst part. Satellites mapped the snow surface along a high ridge between two ice domes, Dome Argus and Dome Fuji, and in winter, small hollows there reached about minus ninety-eight degrees Celsius. The recipe is clear skies and extremely dry air, which let the snow's heat escape straight into space. The cold, heavy air then slides into the hollows, gets trapped and keeps cooling.
 
-The National Weather Service has a chart for how fast bare skin freezes, and it only goes down to about minus forty-three Celsius. At the coldest corner of that chart, the answer is five minutes. These hollows are more than fifty degrees colder than the bottom of the chart.
+The National Weather Service has a chart for how fast bare skin freezes, and it only goes down to about minus forty-three Celsius. At the coldest corner of that chart, the answer is five minutes. Even the air in these hollows, at around minus ninety-four, is more than fifty degrees colder than the bottom of the chart.
 
 [Doug, in the same flip-flops, squeezing a tube of sunscreen into his hand. Hopeful smile.]
 
@@ -194,7 +194,7 @@ Doug skipped all of that and was delivered straight to the top.
 
 [Aviation-style chart: altitude against minutes. Red arrow at the top band.]
 
-Here's the problem. Pilots have a number for this, called the time of useful consciousness, which is how long a person has to act sensibly once the oxygen runs short. According to the Federal Aviation Administration's table, at the height of Everest's summit, that time is somewhere between one and five minutes.
+Here's the problem. Pilots have a number for this, called the time of useful consciousness, which is how long a person has to act sensibly once the oxygen runs short. According to the Federal Aviation Administration's table, at the height of Everest's summit, that time is somewhere between one and three minutes.
 
 After that, nobody gets to decide anything.
 
@@ -244,7 +244,7 @@ The most beautiful room on Earth used to give visitors about ten minutes, and no
 
 Dallol.
 
-In the Danakil Depression of northern Ethiopia, more than a hundred meters below sea level, there's a field of pools colored neon yellow, green and orange, and it looks like another planet.
+In the Danakil Depression of northern Ethiopia, more than a hundred meters below sea level, there's a field of pools colored neon yellow, green and orange.
 
 [Bright yellow and green pools, salt chimneys, a white crust. Then a thermometer. Label: "34.5°C average".]
 
@@ -284,7 +284,7 @@ Lake Nyos is a deep crater lake in the hills of northwest Cameroon, and on Augus
 
 Deep below the surface, the water had been collecting carbon dioxide from magma under the lake, and the weight of the water above kept it dissolved, like a sealed bottle of soda.
 
-That day, it all came out at once.
+That day, the balance broke. It all came out at once.
 
 [A pale cloud spilling over the lip of the crater and running downhill.]
 
@@ -296,7 +296,7 @@ At least one thousand seven hundred people died, along with thousands of livesto
 
 The most unsettling part is that the gas kept building up again after the disaster. Since two thousand one, pipes in the lake have been lifting deep water to the surface so the gas escapes slowly, a little at a time.
 
-Lake Kivu, between Rwanda and the Democratic Republic of the Congo, holds about two thousand times as much gas, and around two million people live in the region.
+Lake Kivu, between Rwanda and the Democratic Republic of the Congo, holds hundreds of times as much gas, even by the most cautious estimates, and around two million people live in the region.
 
 [Doug stands on the shore at night, looking at the water. He lies down. The counter changes to 35 with no sound. No sticker animation, the sticker is simply there.]
 
@@ -340,19 +340,19 @@ Nyiragongo.
 
 Nyiragongo is a volcano in the Democratic Republic of the Congo, about twelve kilometers north of the city of Goma. For long stretches of time, its summit crater has held something rare: a lake of liquid lava.
 
-[A steep cone. Then the view down into the crater: a glowing red lake with a black, cracking skin.]
+[A steep cone. Then the view down into the crater: a glowing red lake with a black, cracking skin. Label: "230 m".]
 
-Most lava flows move slowly enough that people can walk away from them. Nyiragongo's lava is different. It is very low in silica, and less silica means runnier lava, so this lava flows almost like water.
+The summit crater is about one point two kilometers wide. The lake inside it has stretched about two hundred and thirty meters across, roughly two soccer fields end to end. London's Natural History Museum calls it the world's largest continuously active lava lake.
+
+Most lava flows move slowly enough that people can walk away from them. Nyiragongo's lava is different. It is very low in silica, and less silica means runnier lava, so this lava flows almost like water. It is often called the fastest-flowing lava on Earth.
 
 [Side view of the volcano. The lava lake drains through cracks on the side.]
 
 In January nineteen seventy-seven, the lava lake drained in less than an hour through cracks on the side of the mountain. Those flows moved at up to sixty kilometers an hour, faster than cars are allowed to drive through most towns.
 
-In two thousand two, lava from cracks on the volcano's flank ran into Goma and left about one hundred and twenty thousand people homeless. In two thousand twenty-one, another flow stopped about three hundred meters from the edge of the city.
-
 [A lava lake bubbling again. Label: "Still here".]
 
-After two thousand two, the lava lake came back.
+And each time the lake has drained, it has eventually filled back up.
 
 Here's the part most people never hear about: the lava isn't the only thing that kills around this volcano.
 
@@ -378,4 +378,4 @@ Doug's cap made it, slightly toasted, which is more than the marshmallow can say
 
 Doug deaths: thirty-six. Which deadly place should Doug visit next? Tell us in the comments. The suitcase still has room.
 
-<!-- words: 3169 (spoken narration only, spoken section headers included; markdown headings, comments and stage directions excluded) · est. runtime 16:15 at 195 wpm · item 1 name at spoken words 31-32 ("Death Valley." after "Hours."), twist ("Here's the problem") at spoken word 133 · "Minutes." at item 5 (about 37%), "Seconds." at item 9 (about 72%) · 199 sentences, avg 15.9 words, max 34 · Flesch Reading Ease about 66 (own syllable counter, textstat not installed) · outro 21 words · item counts (a following section header counts toward the item before it): Death Valley 281, Snake Island 286, Morecambe Bay 286, Lake Natron 279, Antarctic Plateau 265, Everest Death Zone 279, Cave of Crystals 276, Dallol 294, Lake Nyos 252, Lake Maracaibo 275, Nyiragongo 364 · opener 32 -->
+<!-- words: 3188 (spoken narration only, spoken section headers included; markdown headings, comments and stage directions excluded) · est. runtime 16:21 at 195 wpm · item 1 name at spoken words 34-35 ("Death Valley." after "Hours."), twist ("Here's the problem") at spoken word 133 · "Minutes." at about 36%, "Seconds." at about 71% · 202 sentences, avg 15.8 words, max 34 · outro 20 words · item counts (a following section header counts toward the item before it): Death Valley 280, Snake Island 286, Morecambe Bay 286, Lake Natron 276, Antarctic Plateau 270, Everest Death Zone 279, Cave of Crystals 276, Dallol 288, Lake Nyos 260, Lake Maracaibo 275, Nyiragongo 379 · opener 33 including "Hours." -->

@@ -14,8 +14,9 @@ survival times: the only stated times are the Naica visit limits, the FAA time o
 chart and the length of a lightning stroke, each sourced below.
 
 ## Opener
-- "Eleven places on Earth kill anyone who stays. We ranked them, roughly, by how fast." Framing of the episode's
-  severity axis (brief section 2). Not a factual claim.
+- "Eleven places on Earth can kill anyone who stays. We ranked them, roughly, by how fast." Framing of the episode's
+  severity axis (brief section 2). Draft 2 adds "can" (screener F3): each place is capable of killing an unprotected
+  person who stays, which is true of all eleven even though people, flamingos and climbers survive at some of them.
 
 ## Death Valley
 Source: NPS, Death Valley "Weather and Climate": https://www.nps.gov/deva/learn/nature/weather-and-climate.htm (verified)
@@ -35,7 +36,8 @@ Source: NPS, Death Valley "Weather and Climate": https://www.nps.gov/deva/learn/
   Climate Extremes Committee and WMO rule otherwise. https://weather.com/news/weather/news/2025-11-19-death-valley-world-record-1913-study
   (verified); AMS summary https://headlines.ametsoc.org/2025/11/14/global-record-in-question-could-death-valley-lose-its-claim-to-worlds-hottest-place/
   (403, search snippet). Script: "A study in two thousand twenty-five argued that the reading was a mistake and that the
-  real high was closer to one hundred and twenty, but the record stands while officials review it."
+  real high was closer to one hundred and twenty, but for now the record still stands." (Draft 2, screener F2: no
+  official review has been announced, so the script no longer claims one.)
 - Sweating cools the body; evaporation is the cooling process. NWS Amarillo, "What is the heat index?":
   https://www.weather.gov/ama/heatindex (search snippet: "When the body gets too hot, it begins to perspire or sweat to
   cool itself off... Evaporation is a cooling process."). Script: "Your body cools itself by sweating, and sweat is made of water."
@@ -116,9 +118,12 @@ Source: NPS, Death Valley "Weather and Climate": https://www.nps.gov/deva/learn/
   (verified): "I unexpectedly found the creatures — all manner of birds and bats — washed up along the shoreline of Lake
   Natron ... I took these creatures as I found them on the shoreline, and then placed them in 'living' positions".
   Published 2013 (NBC article October 2013; book "Across the Ravaged Land", 2013; Colossal
-  https://www.thisiscolossal.com/2013/10/lake-natron-nick-brandt/). Script: the poses were the photographer's, the lake
-  preserves but doesn't arrange. Africa Check fact-check on "turned to stone": https://africacheck.org/fact-checks/meta-programme-fact-checks/tanzanias-lake-natron-not-deadliest-place-animals-and-bodies
+  https://www.thisiscolossal.com/2013/10/lake-natron-nick-brandt/). Script: "The preserved animals are real, but the poses aren't" (draft 2,
+  advisory A1: the animals are preserved or calcified, not stone); the lake preserves but doesn't arrange. Africa Check fact-check on "turned to stone": https://africacheck.org/fact-checks/meta-programme-fact-checks/tanzanias-lake-natron-not-deadliest-place-animals-and-bodies
 - No dead flamingos named or shown (brief rule); the script says "birds and bats", per Brandt.
+- Kicker: "A lake this caustic is also the main nursery of the lesser flamingo." Caustic: Smithsonian above ("caustic
+  moat", pH 9-10.5); main nursery: three quarters of lesser flamingos born here (same article). Draft 2 dropped the
+  unsourced superlative "the most caustic lake in Tanzania" (screener F4).
 
 ## Antarctic Plateau
 - Vostok record: −89.2 °C on 21 July 1983, still the WMO official record for lowest surface air temperature. WMO,
@@ -143,7 +148,12 @@ Source: NPS, Death Valley "Weather and Climate": https://www.nps.gov/deva/learn/
   degrees above −18; −18 − (−89.2) = 71, "about seventy degrees colder".
 - NWS / NOAA wind chill chart: https://www.noaa.gov/jetstream/synoptic/wind-chill and https://www.weather.gov/media/unr/windchill.pdf
   (verified): air temperatures from 40 °F down to −45 °F (≈ −43 °C); frostbite bands ≤30, ≤10 and ≤5 minutes. Script:
-  chart goes down to about minus forty-three Celsius, coldest corner five minutes. −98 − (−43) = 55, "more than fifty degrees colder".
+  chart goes down to about minus forty-three Celsius, coldest corner five minutes.
+- Air temperature in the hollows (draft 2, advisory A3, since the NWS chart uses air temperature): Sci.News summary of
+  Scambos et al. 2018 https://www.sci.news/othersciences/geophysics/coldest-place-on-earth-east-antarctica-06137.html
+  (verified): "they inferred that the air temperatures at the very coldest sites ... are probably around minus 94 degrees
+  Celsius (minus 137 degrees Fahrenheit)." Script: "Even the air in these hollows, at around minus ninety-four, is more
+  than fifty degrees colder than the bottom of the chart." −94 − (−43) = 51.
 - Polar winter: the records were set in Southern Hemisphere winter at about 80° S, where the sun stays below the horizon
   for months (polar night, common knowledge). Script: "the sun has not come up in weeks."
 
@@ -169,8 +179,9 @@ Source: NPS, Death Valley "Weather and Climate": https://www.nps.gov/deva/learn/
   (verified: "Some climbers are using elevated flow rates of supplemental oxygen"). Script: "many climbers also breathe bottled oxygen."
 - Time of useful consciousness: FAA Advisory Circular 61-107B, table "Times of useful consciousness versus altitude":
   https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-107B_CHG_1.pdf (search snippet of the table):
-  25,000 ft 3-5 min; 30,000 ft 1-2 min (gradual ascent). Everest's summit is 29,032 ft, between the two rows. Script:
-  "somewhere between one and five minutes." The term's definition ("the time an individual can function effectively in
+  25,000 ft 3-5 min; 28,000 ft 2.5-3 min; 30,000 ft 1-2 min (gradual ascent). Everest's summit is 29,032 ft, between
+  the 28,000 and 30,000 ft rows, so 1-3 min. Script: "somewhere between one and three minutes." (Draft 2, screener F1;
+  draft 1 had skipped the 28,000 ft row.) The term's definition ("the time an individual can function effectively in
   an oxygen-poor environment before losing the ability to take proper corrective action") is from the same circular.
 - No bodies on the mountain and no named climbers (brief rule).
 
@@ -241,6 +252,8 @@ Source: NPS, Death Valley "Weather and Climate": https://www.nps.gov/deva/learn/
   https://www.earthdate.org/episodes/lake-kivus-explosive-secret (verified: "nearly 1,800 people and thousands of livestock").
 - Dissolved under pressure like a sealed soda bottle: standard explanation of limnic eruptions (Kling et al. 2005 below;
   analogy is framing).
+- "That day, the balance broke. It all came out at once." Framing of the sudden release (Kling et al. 1987: "sudden,
+  catastrophic release of gas"); added in draft 2 for rule 9, no new claim.
 - CO2 density about 1.5 times air: Smets et al. 2010, "Dry gas vents (mazuku) in Goma region", Journal of African Earth
   Sciences 58: 787, https://www.sciencedirect.com/science/article/abs/pii/S1464343X10000828 (search snippet: "the specific
   density of CO2 gas is approximately 1.5 times greater than that of air"). Hugs the ground and flows downhill: EarthDate
@@ -249,8 +262,15 @@ Source: NPS, Death Valley "Weather and Climate": https://www.nps.gov/deva/learn/
   https://www.pnas.org/doi/10.1073/pnas.0502274102 (search snippet of abstract): CO2 recharge after the 1980s releases;
   "Controlled degassing was initiated at Nyos (2001)". Script: gas kept building up again; pipes since 2001 lift deep water
   so the gas escapes slowly.
-- Lake Kivu: EarthDate (verified): "huge volumes of both gases—2,000 times greater than in Lake Nyos"; "The region has a
-  population of about two million". Script: about two thousand times as much gas, around two million people in the region.
+- Lake Kivu gas, draft 2 (advisory A2): published ratios to Nyos differ by source. EarthDate (verified) says "huge
+  volumes of both gases—2,000 times greater than in Lake Nyos"; Fowkes, Mason and Hutchinson, "Gas emissions from Lake
+  Kivu", University of the Witwatersrand MISG report 2018
+  https://www.wits.ac.za/media/wits-university/conferences/misgsa/documents/2018/LakeKivuReportRefereedFinal.pdf
+  (search snippet: about 300 km³ CO2 and 55-60 km³ methane, "300 times more gas than in Nyos"); other outlets say a
+  thousand times. Script uses the floor shared by every source: "holds hundreds of times as much gas, even by the most
+  cautious estimates."
+- Lake Kivu population: EarthDate (verified): "The region has a population of about two million". Script: around two
+  million people live in the region.
   (Current monitoring finds concentrations near steady state: Bärenbold et al. 2020, PLOS ONE,
   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7446963/; not stated in script.)
 - Zero jokes, no named victims, no injuries described (brief rule).
@@ -284,17 +304,25 @@ Source: NPS, Death Valley "Weather and Climate": https://www.nps.gov/deva/learn/
   1977 flows "moved at speeds up to 40 miles per hour (60 km/hr)"). Smithsonian GVP weekly/Bulletin reports
   https://volcano.si.edu/showreport.cfm?doi=10.5479%2Fsi.GVP.NSEB197703-223030 (403; search snippet: the lake "drained in
   less than one hour" on 10 January 1977; "A new long-lived episode began after the destructive eruption of January
-  2002"). Script: lake of liquid lava for long stretches; drained in less than an hour; up to 60 km/h; "After two
-  thousand two, the lava lake came back."
+  2002"). Oregon State also (verified): after the 1977 drainage, "The most recent activity at Nyiragongo began in June of
+  1994. A lava lake once again filled part of the crater", and a "1.2-km-wide summit crater". Script: lake of liquid
+  lava for long stretches; drained in less than an hour; up to 60 km/h; "And each time the lake has drained, it has
+  eventually filled back up" (refilled after 1977 by 1994, and after January 2002 per GVP above); "The summit crater is
+  about one point two kilometers wide."
+- Natural History Museum, London, "Outrunning the world's fastest-flowing lava and rebuilding Goma" (2022):
+  https://www.nhm.ac.uk/discover/news/2022/may/outrunning-the-worlds-fastest-flowing-lava-and-rebuilding-goma.html
+  (verified): "Mount Nyiragongo contains the world's largest continuously active lava lake in its crater. The slightly
+  elliptical lake expands around 230m (east to west)"; "the fastest-flowing lava in the world"; low silica makes it
+  fluid. Script: "The lake inside it has stretched about two hundred and thirty meters across ... London's Natural
+  History Museum calls it the world's largest continuously active lava lake." and "It is often called the
+  fastest-flowing lava on Earth." Two FIFA-size pitches end to end = 2 × 105 m = 210 m, "roughly" 230 m.
 - Typical urban speed limit 50 km/h in most countries (common knowledge). Script: "faster than cars are allowed to drive
   through most towns."
 - Low silica, runny lava: National Geographic, "Mount Nyiragongo just erupted—here's why it's one of Africa's most
   dangerous volcanoes": https://www.nationalgeographic.com/science/article/mount-nyiragongo-just-erupted-why-its-one-of-africas-most-dangerous-volcanoes
   (verified: "The less silica you have, the less viscous or goopy the lava is once it erupts.")
-  - 2002: lava "destroyed up to a fifth of Goma, leaving 120,000 people homeless". Script: "left about one hundred and
-    twenty thousand people homeless." No death count used.
-  - 2021: "The lava stopped less than 1,000 feet from Goma's edge" (1,000 ft ≈ 305 m). Script: "about three hundred
-    meters from the edge of the city."
+- The 2002 and 2021 Goma eruptions are no longer in the script (draft 2, screener ruling P1: no real displacement or
+  casualties in the item that carries a comic death).
 - Most lava flows are slow enough to walk away from: USGS Volcano Hazards Program, "Lava flows destroy everything in
   their path": https://www.usgs.gov/programs/VHP/lava-flows-destroy-everything-their-path ("Lava flows rarely threaten
   human life because lava usually moves slowly"). Script: "Most lava flows move slowly enough that people can walk away from them."
