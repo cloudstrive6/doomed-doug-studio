@@ -47,6 +47,10 @@ desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never
   001/002 still use it, and their renders are kept pixel-identical.
 - **Doug's `y` is his hip, not his feet** (from 004). Feet are at y + 152 x scale, neck at y - 150 x scale (the
   `sit` pose drops the hip by 70 x scale). Aim flip-flop arrows at the feet, not at y + 200.
+- **Thumbs up (from 005)**: use `pose: "thumbs_up"` (standing) or `"sit_thumbs_up"` (seated, same hip drop as `sit`).
+  The hand point is local (+112, -156) x scale, with the thumb tip about 42 x scale above it, so aim arrows there. Never paste a
+  separate hand prop next to Doug, because it reads as off-model. A seated Doug must sit *on* something: put the
+  surface at y + 70 x scale.
 - **Buried / sinking Doug (quicksand, mud, water; from 004 s063)**: draw Doug, then the ground `rect` starting
   **exactly at his hip y**, then (optionally) cross-section leg lines from the hip down. Torso, arms, head and cap
   stay above the surface. Never put the surface above the hip: a head on two legs with no torso is off-model.

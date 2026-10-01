@@ -73,3 +73,69 @@ VERDICT: FAIL
 
 Re-check after fixes: s030, s081, s134, s145, s151, s181, s182, s207, s011-s014 (plus any recommended items
 changed).
+
+## Round 2: keyframe re-check + full contact-sheet pass (2026-10-01)
+
+Scope: zoomed keyframes s011-s015, s019, s020, s030, s039, s060, s064, s081, s101, s120, s134, s139, s145, s149,
+s151, s156, s181, s182, s205, s207, and all 18 contact sheets again. Thumbnail not re-checked (unchanged; it passed
+in round 1).
+
+### Round 1 fixes: status
+- **s030**: fixed. The ox is now blue. One small leftover is listed in fix 7 below.
+- **s145**: fixed. "NO PREDATOR" now stands alone, with no X.
+- **s081**: fixed. It reads as a burrow: a tunnel, a chamber, a caving roof with falling clods, and the pup curled
+  up, clearly visible, about 370 px wide.
+- **s151, s181, s182**: fixed. The snorkel and fins are gone, Doug wears a mask only, and the swim pose is clean.
+- **s207**: fixed. The mudflow wave curls in, the lone cap and one eye stalk poke out, and the counter shows 46. It
+  no longer reads as a blank frame.
+- **s011-s014**: fixed. s013 is now a big shocked close-up of Doug on yellow, and s014 is a clear radiocarbon
+  timeline (dots at about 43k and 28k). The run of identical cross-sections is now s009-s012. Those shots differ
+  in labels and props, so this is acceptable.
+- **s205, s120, s101**: fixed. The plates fit.
+- **s019, s039, s060, s139, s149, s156**: fixed (crouch pose, moved picture, stray chevron removed, icons moved
+  next to the circles, ERRATIC clear of the prints).
+- **s134**: **not fixed.** See fix 1.
+- Still open from the recommended list: s133 (the carcass sits beside the river, not on it) and s176-s177 (a plain
+  ellipse). Both are still optional.
+
+VERDICT: FAIL
+
+### Required fixes
+1. **s134 (director + art director)**: Doug is drawn in a sitting pose but floats in mid-air, about 90 px above the
+   carcass. The "THUMBS UP" arrow points at empty sky, and his arm has no thumb (just a bent stick). Put him
+   sitting on the belly between the two upturned legs, at the same spot he occupies in s135, so his seat line
+   touches the belly. Art director: give the raised fist a visible thumb (a short vertical stroke on the hand).
+   Point the arrow at that hand.
+2. **s027 (director)**: an empty white rectangle (rect at x820, y500, 160x60) floats over Blue Babe's back. It
+   reads as a broken or missing label. Delete it, or make it a museum plaque on a post with text (for example
+   "BLUE BABE"). Optional: flip Doug to face left, toward the bison.
+3. **s019, s038, s069, s166 (director; art director if it is the engine)**: the speech-bubble tails render as thin
+   double-line slivers instead of a solid wedge. The tails are long and shallow (for example, s019 runs from the
+   bubble at 720,420 to 980,560; s166 is nearly horizontal). In s038 the tail also stops about 100 px above Doug's
+   head. Move each bubble close to Doug, directly above or beside his head, so the tail is short (under about
+   150 px), steep, and ends about 15 px from the head, like the good tails in s053, s151 and s182. If the engine
+   draws the tail's base too narrow at shallow angles, the art director should widen the tail base in `paint.py`.
+4. **s100 (director)**: "very reasonable guess" wraps to two lines, and "guess" collides with the bubble outline
+   and the tail. The bubble also touches the chapter tag. Widen the bubble to about 640 px so the text fits on one
+   line (or drop the size to about 40), and move it down so it sits clear of the tag.
+5. **s045 (director)**: "1 MONTH" is wider than the calendar page and spills past both edges. Use a smaller size
+   (about 30) or a larger calendar.
+6. **s136 (director)**: the ghost Doug's body overlaps the "N" of "UPSIDE DOWN". Move the ghost right, about
+   120 px or more (still under the counter), or shift the word left.
+7. **s030 (illustrator)**: the blue ox still has two dark-brown legs (the far-side legs kept the original bison
+   colour). It looks like a recolour miss. Tint them dark blue.
+
+### Recommended (not blocking)
+8. **s151 (director)**: the narration says Doug follows the trail "across the lagoon floor", but his feet are
+   about 95 px above the sand. Drop him onto the floor line.
+9. **s013 (director)**: Doug's right arm runs into the "T" of "THE TWIST", and the top half of the frame is empty.
+   Move the word up, next to the "!".
+10. **s142 (director)**: the red X clips the end of the "ALMOST NO OXYGEN" plate, and crossing out a "no" label is
+    the same double-negative problem as s145. Remove the X.
+11. **s026 (director)**: the Blue Babe icon sits over Scandinavia while the circle is on Alaska. Move the icon next
+    to the Alaska circle (or onto the Pacific beside it).
+12. **s210 (director)**: the big "DOUG DEATHS: 46" plate covers the top of the time machine. Nudge it up or left.
+13. **s133, s176-s177**: same as round 1 items 14 and 15.
+
+Re-check after fixes: s134, s027, s019, s038, s069, s166, s100, s045, s136, s030 (plus any recommended items
+changed).

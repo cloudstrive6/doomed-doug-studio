@@ -104,7 +104,8 @@ Annotation assets in the library: `question_mark`, `exclamation_mark`, `warning_
 top centre) on every frame from the shot with that `chapter` until the next one.
 
 Doug poses: stand, wave, point, arms_up, panic1, panic2, shrug, think, hands_hips, walk1, walk2, run1, run2,
-swim1, swim2, float, sit, fall, cower, lie, dive. Loop pairs for GIF-like motion: `["walk1","walk2"]`,
+swim1, swim2, float, sit, fall, cower, lie, dive, thumbs_up, sit_thumbs_up (front hand is a small fist with
+the thumb up, held clear of the face). Loop pairs for GIF-like motion: `["walk1","walk2"]`,
 `["run1","run2"]`, `["swim1","swim2"]`, `["panic1","panic2"]`.
 Expressions (style bible set first): shock (open mouth + pink tongue), gritted (teeth grid), flat (unimpressed),
 hopeful, dead (X eyes), smirk, sad, angry, confused, sleepy, neutral. Old names still work as aliases.

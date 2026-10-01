@@ -1647,8 +1647,8 @@
      {
       "type": "wordart",
       "text": "THE TWIST",
-      "x": 1500,
-      "y": 960,
+      "x": 1450,
+      "y": 300,
       "size": 100,
       "boil": 0,
       "appear": 0.667
@@ -2631,14 +2631,14 @@
      },
      {
       "type": "speech",
-      "x": 720,
-      "y": 420,
+      "x": 1030,
+      "y": 450,
       "w": 380,
       "h": 130,
       "text": "hi friend?",
       "tail": [
-       980,
-       560
+       992,
+       596
       ],
       "size": 50,
       "appear": 0.889
@@ -2775,6 +2775,12 @@
       "appear": 0.667
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 880,
+    "y": 700,
+    "zoom": 1.06
    }
   },
   {
@@ -3599,9 +3605,9 @@
      {
       "type": "asset",
       "name": "blue_babe",
-      "x": 1100,
-      "y": 420,
-      "scale": 0.5,
+      "x": 490,
+      "y": 330,
+      "scale": 0.4,
       "appear": 0.95
      },
      {
@@ -3674,16 +3680,6 @@
       "scale": 1.1
      },
      {
-      "type": "rect",
-      "x": 820,
-      "y": 500,
-      "w": 160,
-      "h": 60,
-      "fill": "#ffffff",
-      "width": 4,
-      "color": "#000000"
-     },
-     {
       "type": "label",
       "text": "MUSEUM OF THE NORTH",
       "x": 960,
@@ -3710,7 +3706,7 @@
       "scale": 0.55,
       "pose": "stand",
       "expression": "hopeful",
-      "facing": "right"
+      "facing": "left"
      }
     ]
    }
@@ -5539,7 +5535,7 @@
            ]
           ],
           "width": 28,
-          "color": "#33200f"
+          "color": "#1a4280"
          },
          {
           "type": "poly",
@@ -5637,7 +5633,7 @@
            ]
           ],
           "width": 28,
-          "color": "#33200f"
+          "color": "#1a4280"
          },
          {
           "type": "poly",
@@ -6975,14 +6971,14 @@
      },
      {
       "type": "speech",
-      "x": 1040,
-      "y": 330,
+      "x": 1335,
+      "y": 470,
       "w": 240,
       "h": 110,
       "text": "nice",
       "tail": [
-       1240,
-       470
+       1308,
+       576
       ],
       "size": 50,
       "appear": 0.3
@@ -7806,7 +7802,7 @@
       "text": "1 MONTH",
       "x": 1500,
       "y": 440,
-      "size": 44,
+      "size": 30,
       "color": "#000000",
       "bold": true,
       "boil": 0.2,
@@ -10636,14 +10632,14 @@
      },
      {
       "type": "speech",
-      "x": 640,
-      "y": 260,
+      "x": 935,
+      "y": 275,
       "w": 220,
       "h": 110,
       "text": "wow",
       "tail": [
-       860,
-       420
+       908,
+       378
       ],
       "size": 50,
       "appear": 0.48
@@ -14958,15 +14954,15 @@
      {
       "type": "speech",
       "x": 760,
-      "y": 160,
-      "w": 520,
-      "h": 140,
+      "y": 330,
+      "w": 640,
+      "h": 120,
       "text": "very reasonable guess",
       "tail": [
-       740,
-       420
+       712,
+       490
       ],
-      "size": 50,
+      "size": 44,
       "appear": 0.4
      },
      {
@@ -18833,13 +18829,13 @@
        ]
       ],
       "color": "#3a9ad9",
-      "width": 40
+      "width": 60
      },
      {
       "type": "asset",
       "name": "borealopelta",
-      "x": 600,
-      "y": 520,
+      "x": 560,
+      "y": 400,
       "scale": 0.35,
       "rotate": 180,
       "appear": 0.154
@@ -18953,10 +18949,10 @@
      },
      {
       "type": "doug",
-      "x": 960,
-      "y": 330,
-      "scale": 0.55,
-      "pose": "sit",
+      "x": 980,
+      "y": 495,
+      "scale": 0.7,
+      "pose": "sit_thumbs_up",
       "expression": "smirk",
       "facing": "right",
       "appear": 0.316
@@ -18973,14 +18969,14 @@
      {
       "type": "arrow",
       "from": [
-       1230,
-       360
+       1255,
+       440
       ],
       "to": [
-       1060,
-       290
+       1090,
+       425
       ],
-      "bend": -40,
+      "bend": 40,
       "color": "#e0201b",
       "width": 9,
       "head": 40,
@@ -19155,7 +19151,7 @@
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 1250,
+      "x": 1420,
       "y": 450,
       "scale": 0.5,
       "appear": 0.1
@@ -19174,7 +19170,7 @@
      },
      {
       "type": "doug",
-      "x": 1250,
+      "x": 1420,
       "y": 300,
       "scale": 0.35,
       "pose": "float",
@@ -19994,14 +19990,6 @@
       "size": 56,
       "bold": true,
       "boil": 0.4,
-      "appear": 0.591
-     },
-     {
-      "type": "asset",
-      "name": "red_x",
-      "x": 1300,
-      "y": 760,
-      "scale": 0.6,
       "appear": 0.591
      },
      {
@@ -22330,7 +22318,7 @@
      {
       "type": "doug",
       "x": 900,
-      "y": 753,
+      "y": 861,
       "scale": 0.55,
       "pose": [
        "walk1",
@@ -22345,14 +22333,14 @@
      },
      {
       "type": "speech",
-      "x": 900,
-      "y": 400,
+      "x": 930,
+      "y": 560,
       "w": 460,
       "h": 120,
       "text": "where's it going?",
       "tail": [
-       900,
-       560
+       905,
+       682
       ],
       "size": 44,
       "appear": 0.643
@@ -24341,7 +24329,7 @@
      {
       "type": "doug",
       "x": 900,
-      "y": 560,
+      "y": 680,
       "scale": 0.75,
       "pose": "wave",
       "expression": "hopeful",
@@ -24352,20 +24340,20 @@
       "type": "asset",
       "name": "squid_costume",
       "x": 900,
-      "y": 560,
+      "y": 680,
       "scale": 0.75,
       "appear": 0.286
      },
      {
       "type": "speech",
-      "x": 1300,
+      "x": 1000,
       "y": 300,
       "w": 480,
       "h": 130,
       "text": "hello fellow squid",
       "tail": [
-       1040,
-       420
+       935,
+       440
       ],
       "size": 46,
       "appear": 0.667
@@ -29492,7 +29480,7 @@
       "type": "label",
       "text": "DOUG DEATHS: 46",
       "x": 960,
-      "y": 300,
+      "y": 165,
       "size": 100,
       "bold": true,
       "boil": 0.4,

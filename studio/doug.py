@@ -53,6 +53,9 @@ POSES = {
     "swim2":    dict(arm_f=(110, -50), arm_b=(170, -20), leg_f=(-10, 20), leg_b=(10, -20), lean=70),
     "float":    dict(arm_f=(110, 20), arm_b=(-110, -20), leg_f=(25, 15), leg_b=(-25, -15), lean=0),
     "sit":      dict(arm_f=(30, 50), arm_b=(-10, 30), leg_f=(90, 0), leg_b=(80, 0), lean=0, drop=70),
+    # thumbs up: front forearm raised, small fist + thumb drawn at the hand (see _thumb). Standing and seated.
+    "thumbs_up":     dict(arm_f=(95, 25), arm_b=(-20, -10), leg_f=(12, 0), leg_b=(-12, 0), lean=0, thumb=True),
+    "sit_thumbs_up": dict(arm_f=(95, 25), arm_b=(-10, 30), leg_f=(90, 0), leg_b=(80, 0), lean=0, drop=70, thumb=True),
     "fall":     dict(arm_f=(130, -10), arm_b=(-130, 10), leg_f=(150, -30), leg_b=(-150, 20), lean=0),
     "cower":    dict(arm_f=(120, 45), arm_b=(-120, -45), leg_f=(60, -30), leg_b=(-40, 30), lean=10, drop=40),
     "lie":      dict(arm_f=(10, 0), arm_b=(-10, 0), leg_f=(5, 0), leg_b=(-5, 0), lean=0),
@@ -169,6 +172,9 @@ def doug_elements(el: dict, variant: int = 0):
             pts = _limb((0, 0), a1 - lean, a1 + a2 - lean, UPPER_ARM, FOREARM)
             body.append({"type": "line", "points": [(p[0] + shoulder[0], p[1] + shoulder[1]) for p in pts],
                          "width": LINE, "color": BURN_ARM if burnt else ink})
+            if key == "arm_f" and pose.get("thumb"):
+                hx_, hy_ = pts[-1][0] + shoulder[0], pts[-1][1] + shoulder[1]
+                body += _thumb(hx_, hy_, ink, skin)
 
     if "tank" in gear or "scuba" in gear:
         if flat:  # tank under his back
@@ -209,6 +215,12 @@ def doug_elements(el: dict, variant: int = 0):
         if cap_off:
             body += _cap_on_ground(hx - HEAD_R - 80, ON_BACK_GROUND)
     return body
+
+
+def _thumb(x, y, ink, skin):
+    """Crude MS Paint thumbs-up at the hand point (x, y): a small round fist with a stubby thumb pointing up."""
+    return [{"type": "circle", "x": x, "y": y - 4, "r": 15, "fill": skin, "width": 4, "color": ink, "boil": 0.3},
+            {"type": "line", "points": [(x - 3, y - 16), (x - 3, y - 42)], "width": 10, "color": ink, "boil": 0.3}]
 
 
 def _cap(hx, hy):

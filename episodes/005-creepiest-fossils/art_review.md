@@ -132,3 +132,36 @@ and the layouts vary. Nothing is gory. Both redrawn assets look right in context
    or reframe so it is not a repeat.
 
 Optional: s060 has a stray white chevron on the slope (about (1230,780) in the frame). Remove it if it is unintended.
+
+---
+
+# Keyframe review round 2: 005, 2026-10-01
+
+Scope: the re-rendered s013-s015, s019, s020, s030, s039, s060, s064, s081, s101, s120, s134, s139, s145, s149, s151,
+s156, s181, s182, s205, s207 (each checked full size), plus a general pass over contact sheets 01-18.
+
+## Verdict: FAIL (1 blocking fix and 1 small fix for the director; rig support added by the AD)
+
+Fixed and approved: s014 (timeline layout, which breaks the cross-section run), s015 (both cubs in frame, the arrow ends at the nose),
+s019 (kneel), s030 (blue ox), s039, s060 (chevron gone), s063 to s064 (push-in, no longer a repeat), s081 (a real burrow with a tunnel,
+a caving roof and the pup clearly visible, no longer a frying pan), s120 and s205 (the sign text fits the plate), s139 and s156 (the icon is next to the circle),
+s145 (no X), s149 (ERRATIC is clear of the prints), s151, s181 and s182 (snorkel prop dropped, so Doug is on-model with the `mask` gear), and s207 (the mudflow wave,
+the lone cap and an eye stalk read well, and it no longer looks like a blank frame). Style, zone colours, the counter and title cards are still consistent across all 18 sheets. Nothing is gory.
+
+## AD edits (done)
+- `studio/doug.py`: added the poses **`thumbs_up`** and **`sit_thumbs_up`**. They draw a small round fist with a stubby thumb, held
+  in front of the face and clear of the head and brim. Doug's core look is unchanged, and the other poses are untouched. Test render:
+  `assets/previews/005-art-review-thumbs-up.png`. The art bible (Doug section) and `docs/SCENE_SCHEMA.md` are updated.
+
+## Required fixes (director)
+1. **s134 (blocking)**: Doug floats in mid-air about 150 px above the belly-up Borealopelta, and he has no thumb, so the
+   THUMBS UP arrow points at nothing. Change the doug element to `"x": 980, "y": 495, "scale": 0.7, "pose": "sit_thumbs_up"`
+   so he sits on the cream belly between the up-turned feet. Then end the arrow at about **(1095, 395)**, next to the thumb.
+   A verified mock render is at `assets/previews/005-art-review-s134-mock.png`.
+2. **s013 (small)**: the "THE TWIST" wordart at (1500,960) runs through Doug's raised right arm. Move it to about
+   **(1450, 300)** in the empty yellow space at the top right, or lower the arm by setting Doug's `y` higher. Keep the "!".
+
+## Optional (not blocking)
+- s101: the "sorry" bubble tail ends on Doug's cap brim (860,540). End it at about (900,470), above his head.
+- s019 to s020: these use the same framing back to back. A slow `zoom_in` on Doug and the cub in s020 would keep the beat fresh.
+- s021: the mother silhouette is still a blob (round-1 visual note 8). The illustrator could silhouette the `cave_lion` asset if time allows.
