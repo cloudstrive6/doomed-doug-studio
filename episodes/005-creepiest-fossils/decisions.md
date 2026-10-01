@@ -19,3 +19,4 @@
   It delivers the title's promise (every animal drawn as if it could get up).
 - Tweak applied: Doug was ~6 px tall at feed size. Scaled 0.2 -> 0.3 (x 240 -> 246) in the fighting-dinosaurs tile and
   re-rendered. He now sits wedged between the two dinosaurs, and the red cap reads at 320 px.
+- 2026-10-01 showrunner: script 3 rounds (fact/policy fixes), art 3 rounds (44 assets, 2 redrawn; keyframe fixes), thumbnail approved after Doug scale tweak (not re-screened at feed size). Engine/config: art-director added thumbs_up/sit_thumbs_up poses; editor lowered voice.speaking_rate 1.145 -> 1.10 in config/channel.yaml (narration was 208 wpm). Risks: no real photo insets (drawn stand-ins); Blue Babe age 36k vs newer ~50k estimates; Batagaika blood is a university claim, hedged; s019 narration says kneels but Doug sits.
