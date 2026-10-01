@@ -9,3 +9,13 @@
 - I applied advisory A6 myself. Line 174 now reads "preserved together, apparently while mating", which matches the
   hedged frame. I also corrected the stale "Draft 2" label in the header comment.
 - Series bible: the death count goes up (36 to 46) and the episode log row is added at QC, which is the existing practice.
+
+## 2026-10-01: art gate, APPROVED (recorded)
+- Keyframes approved after fix rounds 1-2 (commit 2f6e051).
+
+## 2026-10-01: thumbnail gate, APPROVED (with one CD tweak)
+- Visual-screener PASS. The grid matches the brief: Archetype A 3x3 in age order, ice blue to brown to near-black, Stanleycaris
+  as the red-glow boss bottom-right, Zhùr left off, no real photos, and no label shares a word with the title or alternates.
+  It delivers the title's promise (every animal drawn as if it could get up).
+- Tweak applied: Doug was ~6 px tall at feed size. Scaled 0.2 -> 0.3 (x 240 -> 246) in the fighting-dinosaurs tile and
+  re-rendered. He now sits wedged between the two dinosaurs, and the red cap reads at 320 px.
