@@ -314,16 +314,60 @@ def pull_analytics(days: int = 28) -> Path:
     for name, kw in {
         "traffic_sources": dict(metrics="views,estimatedMinutesWatched", dimensions="insightTrafficSourceType", sort="-views"),
         "countries": dict(metrics="views", dimensions="country", sort="-views", maxResults=15),
-        "impressions": dict(metrics="videoThumbnailImpressions,videoThumbnailImpressionsClickRate", dimensions="video",
-                            sort="-videoThumbnailImpressions", maxResults=25),
         "revenue": dict(metrics="estimatedRevenue,playbackBasedCpm,monetizedPlaybacks"),
     }.items():
         rr = q(**kw)
         if rr:
             out[name] = {"columns": [c["name"] for c in rr.get("columnHeaders", [])], "rows": rr.get("rows", [])}
+    try:  # thumbnail impressions + CTR come from the Reporting API (not available in the Analytics API)
+        out["reach"] = pull_reach()
+    except Exception as e:
+        out["errors"].append(f"reach report: {e}")
     path = ROOT / "data" / "analytics" / f"{today.isoformat()}.json"
     path.write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
     return path
+
+
+def pull_reach() -> dict:
+    """Thumbnail impressions + click-through rate per video. The Analytics API doesn't expose these; the bulk
+    Reporting API does (report type channel_reach_basic_a1, one CSV per day, first files ~48 h after the job is
+    created). Downloads new daily files into data/reach/ and returns per-video totals."""
+    import csv
+    import io
+    from google.auth.transport.requests import AuthorizedSession
+    from googleapiclient.discovery import build
+    creds = credentials()
+    rep = build("youtubereporting", "v1", credentials=creds, cache_discovery=False)
+    jobs = rep.jobs().list().execute().get("jobs", [])
+    job = next((j for j in jobs if j["reportTypeId"] == "channel_reach_basic_a1"), None)
+    if not job:
+        job = rep.jobs().create(body={"reportTypeId": "channel_reach_basic_a1", "name": "doomed-doug-reach"}).execute()
+    folder = ROOT / "data" / "reach"
+    folder.mkdir(parents=True, exist_ok=True)
+    have = {p.stem for p in folder.glob("*.csv")}
+    session = AuthorizedSession(creds)
+    page = None
+    while True:
+        r = rep.jobs().reports().list(jobId=job["id"], pageToken=page).execute()
+        for report in r.get("reports", []):
+            day = report["startTime"][:10]
+            if day not in have:
+                (folder / f"{day}.csv").write_bytes(session.get(report["downloadUrl"]).content)
+                have.add(day)
+        page = r.get("nextPageToken")
+        if not page:
+            break
+    totals: dict = {}
+    for f in sorted(folder.glob("*.csv")):
+        for row in csv.DictReader(io.StringIO(f.read_text(encoding="utf-8"))):
+            v = totals.setdefault(row.get("video_id", "?"), {"impressions": 0, "clicks": 0.0})
+            imp = int(float(row.get("video_thumbnail_impressions") or 0))
+            v["impressions"] += imp
+            v["clicks"] += imp * float(row.get("video_thumbnail_impressions_ctr") or 0)
+    for v in totals.values():
+        v["ctr"] = round(v["clicks"] / v["impressions"], 4) if v["impressions"] else None
+        v["clicks"] = round(v["clicks"])
+    return {"job": job["id"], "days": len(have), "videos": totals}
 
 
 def pull_competitors() -> Path:

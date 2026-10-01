@@ -26,7 +26,8 @@ in minimum time. You turn data into decisions.
   "what dying from every parasite feels like") for saturation. Broad topics always look crowded; the format phrase
   shows whether the lane is open.
 - **Our own performance** (`data/analytics/*.json`, once episodes are 7+ days old): views at day 7, average % viewed,
-  retention at 30 s, impressions CTR, per playlist and per title formula (T1-T6). This is the strongest signal we have.
+  retention at 30 s, and thumbnail impressions + CTR (the `reach` block, from YouTube's Reporting API; daily files in
+  `data/reach/`, available ~48 h after each day), per playlist and per title formula (T1-T6). This is the strongest signal we have.
 
 ## Scoring ideas (write the components into `data/ideas.md`)
 Score (1–10) = weighted sum, each component 0–10:
