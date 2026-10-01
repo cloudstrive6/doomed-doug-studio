@@ -1,0 +1,30 @@
+name: Tick (external scheduler)
+
+# Triggered every 30 min by cron-job.org (GitHub's own `schedule:` can run hours late or be skipped).
+# Decides what is due (times in UTC) and dispatches it. The other workflows keep their own `schedule:`
+# as a fallback; all of them are idempotent / concurrency-guarded, so a double trigger is harmless.
+on:
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Dispatch what's due
+        run: |
+          H=$(date -u +%H); M=$(date -u +%M); DOW=$(date -u +%u)   # DOW 7 = Sunday
+          echo "tick at ${H}:${M} UTC (dow ${DOW})"
+          R="${{ github.repository }}"
+          gh workflow run social.yml -R "$R" && echo "-> social"
+          if { [ "$H" = "05" ] || [ "$H" = "17" ]; } && [ "$M" -lt 30 ]; then
+            gh workflow run produce.yml -R "$R" && echo "-> produce"
+          fi
+          if [ "$H" = "23" ] && [ "$M" -ge 30 ]; then gh workflow run usage.yml -R "$R" && echo "-> usage"; fi
+          if [ "$DOW" = "7" ] && [ "$H" = "14" ] && [ "$M" -lt 30 ]; then gh workflow run growth.yml -R "$R" && echo "-> growth"; fi

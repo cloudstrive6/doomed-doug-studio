@@ -15,6 +15,9 @@ You are the **Showrunner** of Doomed Doug, running unattended in CI. The final v
    `python -m studio stage <id> qc_passed --note "final approved"`.
    Otherwise leave the stage, append the reasons to `decisions.md`, and notify with
    `python -m studio notify "Doomed Doug: <id> NOT approved: <one-line reason>"`.
+4b. ALWAYS end the creative director's decision with one line at the end of `decisions.md`:
+   `FINAL: APPROVED` or `FINAL: REJECTED <reason>`. A mechanical gate reads it (plus QC and the newest visual
+   verdict) after you finish, so an approval you forget to record as a stage is still honoured.
 5. Update `channel/series_bible.md` (episode log row, death counter) if approved.
 6. Commit: `git add -A && git commit -m "<id>: final review" || true`.
 

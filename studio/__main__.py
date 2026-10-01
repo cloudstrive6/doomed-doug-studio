@@ -286,6 +286,37 @@ def cmd_shorts(a):
                         ep / "build" / "shorts" / f"{s['id']}_preview.png")
 
 
+def cmd_gate(a):
+    """Mechanical approval after the final screening: the AI showrunner sometimes approves in words but forgets
+    to set the stage. Passes when QC has no problems, the newest visual-screener verdict is PASS and the newest
+    `FINAL:` line in decisions.md isn't a rejection. Sets stage qc_passed; otherwise exits 1 (upload is skipped)."""
+    import re
+    from . import notify
+    ep = episode_dir(a.episode)
+    stage = get_stage(ep)
+    if stage in ("qc_passed", "uploaded"):
+        print(f"{ep.name}: already {stage}")
+        return
+    reasons = []
+    qc = ep / "build" / "qc.json"
+    if not qc.exists() or json.loads(qc.read_text(encoding="utf-8")).get("problems"):
+        reasons.append("technical QC missing or has problems")
+    vr = ep / "visual_review.md"
+    verdicts = re.findall(r"VERDICT[^:\n]*:\s*\**\s*(PASS|FAIL)", vr.read_text(encoding="utf-8")) if vr.exists() else []
+    if not verdicts or verdicts[-1] != "PASS":
+        reasons.append(f"latest visual-screener verdict is {verdicts[-1] if verdicts else 'missing'}")
+    dec = ep / "decisions.md"
+    finals = re.findall(r"^FINAL:\s*(APPROVED|REJECTED)", dec.read_text(encoding="utf-8"), re.M) if dec.exists() else []
+    if finals and finals[-1] == "REJECTED":
+        reasons.append("creative director's FINAL decision is REJECTED")
+    if reasons:
+        notify.send(f"✋ {ep.name} not uploaded: " + "; ".join(reasons))
+        print("\n".join(reasons))
+        sys.exit(1)
+    set_stage(ep, "qc_passed", "approval gate: QC clean, visual PASS" + (", CD APPROVED" if finals else ""))
+    print(f"{ep.name}: qc_passed")
+
+
 def cmd_auth_meta(a):
     from .meta import auth
     auth()
@@ -336,6 +367,7 @@ def main():
     x = s.add_parser("shorts"); x.add_argument("action", choices=["validate", "render", "upload", "pending", "mark-related"])
     x.add_argument("episode", nargs="?", help="episode id (or the Short's YouTube id for mark-related)")
     x.add_argument("--only"); x.set_defaults(f=cmd_shorts)
+    x = s.add_parser("gate"); x.add_argument("episode"); x.set_defaults(f=cmd_gate)
     x = s.add_parser("auth-meta"); x.set_defaults(f=cmd_auth_meta)
     x = s.add_parser("social"); x.add_argument("action", choices=["release", "publish-due"])
     x.add_argument("episode", nargs="?"); x.add_argument("--dry-run", action="store_true"); x.set_defaults(f=cmd_social)

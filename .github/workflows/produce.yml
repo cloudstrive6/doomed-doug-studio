@@ -108,28 +108,8 @@ jobs:
             --dangerously-skip-permissions --max-turns 300 --output-format stream-json --verbose \
             > claude_stage_c.jsonl
 
-      - name: Why did the agents stop? (on failure)
-        if: failure()
-        run: |
-          python - <<'EOF'
-          import json, glob
-          for f in sorted(glob.glob("claude_stage_*.jsonl")):
-              last = None
-              for line in open(f, encoding="utf-8", errors="replace"):
-                  try:
-                      j = json.loads(line)
-                  except Exception:
-                      continue
-                  if j.get("type") == "result":
-                      last = j
-              if last:
-                  print(f, "| subtype:", last.get("subtype"), "| is_error:", last.get("is_error"),
-                        "| turns:", last.get("num_turns"), "| minutes:", round((last.get("duration_ms") or 0) / 60000, 1))
-                  print(str(last.get("result", ""))[:2500])
-              else:
-                  print(f, "has no result line; last 1500 chars:")
-                  print(open(f, encoding="utf-8", errors="replace").read()[-1500:])
-          EOF
+      - name: Approval gate (mechanical check of QC + screener + creative director)
+        run: python -m studio gate "$EP"
 
       - name: Upload to YouTube (scheduled, private until publish time)
         if: ${{ !inputs.skip_upload }}
@@ -166,6 +146,29 @@ jobs:
             claude_stage_*.jsonl
           retention-days: 14
           if-no-files-found: ignore
+
+      - name: Why did the agents stop? (on failure)
+        if: failure()
+        run: |
+          python - <<'EOF'
+          import json, glob
+          for f in sorted(glob.glob("claude_stage_*.jsonl")):
+              last = None
+              for line in open(f, encoding="utf-8", errors="replace"):
+                  try:
+                      j = json.loads(line)
+                  except Exception:
+                      continue
+                  if j.get("type") == "result":
+                      last = j
+              if last:
+                  print(f, "| subtype:", last.get("subtype"), "| is_error:", last.get("is_error"),
+                        "| turns:", last.get("num_turns"), "| minutes:", round((last.get("duration_ms") or 0) / 60000, 1))
+                  print(str(last.get("result", ""))[:2500])
+              else:
+                  print(f, "has no result line; last 1500 chars:")
+                  print(open(f, encoding="utf-8", errors="replace").read()[-1500:])
+          EOF
 
       - name: Alert on failure
         if: failure()
