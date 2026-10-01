@@ -24,8 +24,8 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 ## Running gags (use 2–3 per episode, don't overdo)
 - "Doug did not agree to this." (episode opener or first danger)
 - **Doug death counter**: an on-screen label "DOUG DEATHS: N" that ticks up at each death. Cumulative across the
-  channel. Current total: **18** (7 after 001, plus 11 in 002, QC passed; update after every episode). The next episode's
-  counter starts at 18.
+  channel. Current total: **27** (7 after 001, plus 11 in 002, plus 9 in 003, QC passed; update after every episode). The next episode's
+  counter starts at 27.
 - The red cap floating alone after a death.
 - Doug trying to befriend the thing that will kill him.
 - Narrator: "Doug has died. Again." / "Doug is fine." (Doug is not fine.)
