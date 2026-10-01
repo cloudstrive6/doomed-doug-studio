@@ -201,7 +201,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 27",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -423,7 +423,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 27",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -688,7 +688,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 27",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -811,7 +811,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 27",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -1045,7 +1045,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 27",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -2348,7 +2348,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 27",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -5760,7 +5760,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 28",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -6000,7 +6000,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 28",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -6173,7 +6173,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 28",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -9801,7 +9801,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 29",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -10066,7 +10066,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 29",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -10361,7 +10361,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 29",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -10523,7 +10523,7 @@
       "type": "asset",
       "name": "heart_icon",
       "x": 1350,
-      "y": 260,
+      "y": 285,
       "scale": 0.6,
       "appear": 0.505
      },
@@ -10583,7 +10583,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 29",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -10808,7 +10808,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 29",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -13087,7 +13087,7 @@
      {
       "type": "wordart",
       "text": "CAN'T SWALLOW YOU",
-      "x": 1150,
+      "x": 1100,
       "y": 220,
       "size": 84,
       "boil": 0,
@@ -13534,7 +13534,7 @@
      {
       "type": "asset",
       "name": "small_car",
-      "x": 1400,
+      "x": 1340,
       "y": 760,
       "scale": 1.0,
       "appear": 0.918
@@ -13542,11 +13542,11 @@
      {
       "type": "arrow",
       "from": [
-       1400,
+       1340,
        560
       ],
       "to": [
-       1400,
+       1340,
        380
       ],
       "bend": 0,
@@ -13558,7 +13558,7 @@
      {
       "type": "wordart",
       "text": "SMALL CAR",
-      "x": 1400,
+      "x": 1300,
       "y": 880,
       "size": 90,
       "boil": 0,
@@ -13566,8 +13566,8 @@
      },
      {
       "type": "doug",
-      "x": 1750,
-      "y": 920,
+      "x": 1090,
+      "y": 700,
       "scale": 0.4,
       "pose": "think",
       "expression": "shock",
@@ -14070,14 +14070,14 @@
      {
       "type": "asset",
       "name": "travel_suitcase",
-      "x": 1450,
+      "x": 1400,
       "y": 600,
       "scale": 0.85
      },
      {
       "type": "asset",
       "name": "sticker_death_valley",
-      "x": 1348,
+      "x": 1298,
       "y": 418,
       "scale": 0.85,
       "rotate": -8
@@ -14085,7 +14085,7 @@
      {
       "type": "asset",
       "name": "sticker_snake_island",
-      "x": 1450,
+      "x": 1400,
       "y": 418,
       "scale": 0.85,
       "rotate": 5
@@ -14093,7 +14093,7 @@
      {
       "type": "asset",
       "name": "sticker_morecambe_bay",
-      "x": 1552,
+      "x": 1502,
       "y": 418,
       "scale": 0.85,
       "rotate": -3,
@@ -14102,7 +14102,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 30",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -14249,14 +14249,14 @@
      {
       "type": "asset",
       "name": "travel_suitcase",
-      "x": 1450,
+      "x": 1400,
       "y": 600,
       "scale": 0.85
      },
      {
       "type": "asset",
       "name": "sticker_death_valley",
-      "x": 1348,
+      "x": 1298,
       "y": 418,
       "scale": 0.85,
       "rotate": -8
@@ -14264,7 +14264,7 @@
      {
       "type": "asset",
       "name": "sticker_snake_island",
-      "x": 1450,
+      "x": 1400,
       "y": 418,
       "scale": 0.85,
       "rotate": 5
@@ -14272,7 +14272,7 @@
      {
       "type": "asset",
       "name": "sticker_morecambe_bay",
-      "x": 1552,
+      "x": 1502,
       "y": 418,
       "scale": 0.85,
       "rotate": -3
@@ -14280,7 +14280,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 30",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -14491,7 +14491,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 30",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -14692,7 +14692,7 @@
      {
       "type": "wordart",
       "text": "INTO STONE?",
-      "x": 1350,
+      "x": 1290,
       "y": 700,
       "size": 90,
       "boil": 0,
@@ -16815,7 +16815,7 @@
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1700,
+      "x": 1520,
       "y": 300,
       "scale": 0.5,
       "appear": 0.735
@@ -17190,7 +17190,7 @@
      },
      {
       "type": "doug",
-      "x": 1650,
+      "x": 1500,
       "y": 885,
       "scale": 0.5,
       "pose": "stand",
@@ -17386,7 +17386,7 @@
      },
      {
       "type": "doug",
-      "x": 1650,
+      "x": 1500,
       "y": 885,
       "scale": 0.5,
       "pose": "stand",
@@ -17607,7 +17607,7 @@
      },
      {
       "type": "doug",
-      "x": 1700,
+      "x": 1520,
       "y": 892,
       "scale": 0.45,
       "pose": "stand",
@@ -17873,14 +17873,14 @@
      {
       "type": "asset",
       "name": "lesser_flamingo",
-      "x": 330,
+      "x": 400,
       "y": 860,
       "scale": 0.7
      },
      {
       "type": "asset",
       "name": "lesser_flamingo",
-      "x": 1550,
+      "x": 1480,
       "y": 860,
       "scale": 0.7,
       "flip": true
@@ -17930,7 +17930,7 @@
      {
       "type": "wordart",
       "text": "BLEND IN",
-      "x": 960,
+      "x": 900,
       "y": 230,
       "size": 100,
       "boil": 0,
@@ -17939,7 +17939,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 30",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -18013,14 +18013,14 @@
      {
       "type": "asset",
       "name": "lesser_flamingo",
-      "x": 330,
+      "x": 400,
       "y": 860,
       "scale": 0.7
      },
      {
       "type": "asset",
       "name": "lesser_flamingo",
-      "x": 1550,
+      "x": 1480,
       "y": 860,
       "scale": 0.7,
       "flip": true
@@ -18078,7 +18078,7 @@
      {
       "type": "wordart",
       "text": "ONE LEG",
-      "x": 1400,
+      "x": 1360,
       "y": 450,
       "size": 96,
       "boil": 0,
@@ -18087,7 +18087,7 @@
      {
       "type": "label",
       "text": "PROFESSIONAL",
-      "x": 1400,
+      "x": 1360,
       "y": 330,
       "size": 48,
       "bold": true,
@@ -18097,7 +18097,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 30",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -18177,7 +18177,7 @@
      {
       "type": "asset",
       "name": "lesser_flamingo",
-      "x": 330,
+      "x": 400,
       "y": 860,
       "scale": 0.7,
       "flip": true
@@ -18185,7 +18185,7 @@
      {
       "type": "asset",
       "name": "lesser_flamingo",
-      "x": 1550,
+      "x": 1480,
       "y": 860,
       "scale": 0.7
      },
@@ -18243,7 +18243,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 30",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -18338,7 +18338,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 30",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -18710,7 +18710,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 30",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -18850,7 +18850,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 30",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -21452,19 +21452,245 @@
       "type": "rect",
       "x": 760,
       "y": 120,
+      "w": 80,
+      "h": 56,
+      "fill": "#ffffff",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 840,
+      "y": 120,
+      "w": 80,
+      "h": 56,
+      "fill": "#bfe3ff",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 920,
+      "y": 120,
+      "w": 80,
+      "h": 56,
+      "fill": "#bfe3ff",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 1000,
+      "y": 120,
+      "w": 80,
+      "h": 56,
+      "fill": "#7fb2d9",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 1080,
+      "y": 120,
+      "w": 80,
+      "h": 56,
+      "fill": "#7fb2d9",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 760,
+      "y": 176,
+      "w": 80,
+      "h": 56,
+      "fill": "#bfe3ff",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 840,
+      "y": 176,
+      "w": 80,
+      "h": 56,
+      "fill": "#bfe3ff",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 920,
+      "y": 176,
+      "w": 80,
+      "h": 56,
+      "fill": "#7fb2d9",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 1000,
+      "y": 176,
+      "w": 80,
+      "h": 56,
+      "fill": "#7fb2d9",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 1080,
+      "y": 176,
+      "w": 80,
+      "h": 56,
+      "fill": "#3a6ea5",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 760,
+      "y": 232,
+      "w": 80,
+      "h": 56,
+      "fill": "#bfe3ff",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 840,
+      "y": 232,
+      "w": 80,
+      "h": 56,
+      "fill": "#7fb2d9",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 920,
+      "y": 232,
+      "w": 80,
+      "h": 56,
+      "fill": "#7fb2d9",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 1000,
+      "y": 232,
+      "w": 80,
+      "h": 56,
+      "fill": "#3a6ea5",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 1080,
+      "y": 232,
+      "w": 80,
+      "h": 56,
+      "fill": "#3a6ea5",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 760,
+      "y": 288,
+      "w": 80,
+      "h": 56,
+      "fill": "#7fb2d9",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 840,
+      "y": 288,
+      "w": 80,
+      "h": 56,
+      "fill": "#7fb2d9",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 920,
+      "y": 288,
+      "w": 80,
+      "h": 56,
+      "fill": "#3a6ea5",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 1000,
+      "y": 288,
+      "w": 80,
+      "h": 56,
+      "fill": "#3a6ea5",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 1080,
+      "y": 288,
+      "w": 80,
+      "h": 56,
+      "fill": "#1b2f6a",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 760,
+      "y": 344,
+      "w": 80,
+      "h": 56,
+      "fill": "#7fb2d9",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 840,
+      "y": 344,
+      "w": 80,
+      "h": 56,
+      "fill": "#3a6ea5",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 920,
+      "y": 344,
+      "w": 80,
+      "h": 56,
+      "fill": "#3a6ea5",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 1000,
+      "y": 344,
+      "w": 80,
+      "h": 56,
+      "fill": "#1b2f6a",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 1080,
+      "y": 344,
+      "w": 80,
+      "h": 56,
+      "fill": "#1b2f6a",
+      "width": 2
+     },
+     {
+      "type": "rect",
+      "x": 760,
+      "y": 120,
       "w": 400,
       "h": 280,
-      "fill": "#7fb2d9",
+      "fill": null,
       "width": 5
      },
      {
-      "type": "label",
-      "text": "CHART",
-      "x": 960,
-      "y": 260,
-      "size": 44,
-      "bold": true,
-      "boil": 0.4
+      "type": "rect",
+      "x": 1080,
+      "y": 344,
+      "w": 80,
+      "h": 56,
+      "fill": null,
+      "width": 6,
+      "color": "#e0201b"
      },
      {
       "type": "line",
@@ -21744,7 +21970,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 30",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -21913,7 +22139,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 30",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -22070,7 +22296,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 31",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -22238,7 +22464,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 31",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -22361,7 +22587,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 31",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -26611,7 +26837,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 32",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -26947,7 +27173,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 32",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -27132,7 +27358,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 32",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -29846,7 +30072,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 33",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -30012,7 +30238,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 33",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -30170,7 +30396,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 33",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -30394,7 +30620,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 33",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -33971,7 +34197,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 33",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -34142,7 +34368,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 33",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -34297,7 +34523,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 34",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -34463,7 +34689,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 34",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -34613,7 +34839,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 34",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -34785,7 +35011,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 34",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -37127,7 +37353,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 34",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -37291,7 +37517,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -37414,7 +37640,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -37658,7 +37884,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -37969,7 +38195,7 @@
      },
      {
       "type": "doug",
-      "x": 960,
+      "x": 840,
       "y": 885,
       "scale": 0.5,
       "pose": "stand",
@@ -37979,7 +38205,7 @@
      {
       "type": "wordart",
       "text": "ISN'T CLOSE",
-      "x": 1400,
+      "x": 1290,
       "y": 950,
       "size": 96,
       "boil": 0,
@@ -39163,7 +39389,7 @@
      {
       "type": "asset",
       "name": "thermometer",
-      "x": 1500,
+      "x": 1420,
       "y": 600,
       "scale": 0.9,
       "appear": 0.071
@@ -39171,7 +39397,7 @@
      {
       "type": "label",
       "text": "50,000°F",
-      "x": 1500,
+      "x": 1420,
       "y": 330,
       "size": 64,
       "bold": true,
@@ -39180,7 +39406,7 @@
      },
      {
       "type": "doug",
-      "x": 330,
+      "x": 380,
       "y": 892,
       "scale": 0.45,
       "pose": "stand",
@@ -39302,7 +39528,7 @@
      {
       "type": "wordart",
       "text": "5x HOTTER",
-      "x": 1400,
+      "x": 1320,
       "y": 820,
       "size": 96,
       "boil": 0,
@@ -39310,7 +39536,7 @@
      },
      {
       "type": "doug",
-      "x": 330,
+      "x": 380,
       "y": 892,
       "scale": 0.45,
       "pose": "stand",
@@ -39432,7 +39658,7 @@
      {
       "type": "wordart",
       "text": "THOUSANDTHS OF A SECOND",
-      "x": 1100,
+      "x": 1060,
       "y": 780,
       "size": 72,
       "boil": 0,
@@ -39440,7 +39666,7 @@
      },
      {
       "type": "doug",
-      "x": 330,
+      "x": 380,
       "y": 892,
       "scale": 0.45,
       "pose": "stand",
@@ -39658,8 +39884,8 @@
      {
       "type": "label",
       "text": "ELECTRIC SKY",
-      "x": 1600,
-      "y": 640,
+      "x": 1400,
+      "y": 690,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -39668,7 +39894,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -39835,7 +40061,7 @@
      {
       "type": "wordart",
       "text": "NOTHING",
-      "x": 1450,
+      "x": 1370,
       "y": 700,
       "size": 96,
       "boil": 0,
@@ -39844,7 +40070,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -40188,8 +40414,8 @@
      {
       "type": "wordart",
       "text": "90% SURVIVE",
-      "x": 460,
-      "y": 690,
+      "x": 600,
+      "y": 660,
       "size": 84,
       "boil": 0,
       "appear": 0.534
@@ -40197,7 +40423,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -40418,7 +40644,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -40626,7 +40852,7 @@
      {
       "type": "asset",
       "name": "house",
-      "x": 1650,
+      "x": 1500,
       "y": 900,
       "scale": 0.3,
       "appear": 0.844
@@ -40634,7 +40860,7 @@
      {
       "type": "wordart",
       "text": "GO HOME",
-      "x": 1500,
+      "x": 1380,
       "y": 700,
       "size": 90,
       "boil": 0,
@@ -40643,7 +40869,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -40860,7 +41086,7 @@
      {
       "type": "asset",
       "name": "angry_sun",
-      "x": 1650,
+      "x": 1500,
       "y": 480,
       "scale": 0.3,
       "appear": 0.914
@@ -40868,7 +41094,7 @@
      {
       "type": "label",
       "text": "5x THE SUN",
-      "x": 1600,
+      "x": 1385,
       "y": 640,
       "size": 50,
       "bold": true,
@@ -40878,7 +41104,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -41060,8 +41286,8 @@
      {
       "type": "wordart",
       "text": "MOSTLY ANNOYED",
-      "x": 440,
-      "y": 660,
+      "x": 660,
+      "y": 640,
       "size": 72,
       "boil": 0,
       "appear": 0.535
@@ -41069,7 +41295,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -41242,7 +41468,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -45168,7 +45394,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -45381,7 +45607,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -45601,7 +45827,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -45823,7 +46049,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -46052,7 +46278,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 35",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -46293,7 +46519,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 36",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -46550,7 +46776,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 36",
-      "x": 1480,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,

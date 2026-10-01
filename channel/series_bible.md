@@ -24,8 +24,8 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 ## Running gags (use 2–3 per episode, don't overdo)
 - "Doug did not agree to this." (episode opener or first danger)
 - **Doug death counter**: an on-screen label "DOUG DEATHS: N" that ticks up at each death. Cumulative across the
-  channel. Current total: **27** (7 after 001, plus 11 in 002, plus 9 in 003, QC passed; update after every episode). The next episode's
-  counter starts at 27.
+  channel. Current total: **36** (7 after 001, plus 11 in 002, plus 9 in 003, plus 9 in 004, QC passed; update after every episode). The next episode's
+  counter starts at 36.
 - The red cap floating alone after a death.
 - Doug trying to befriend the thing that will kill him.
 - Narrator: "Doug has died. Again." / "Doug is fine." (Doug is not fine.)
@@ -62,3 +62,4 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 | 001 | How Doug Would Die in Every Layer of the Ocean | pending (QC passed, awaiting scheduled upload) | 7 (total 7) | Pilot. Survived: Bobbit Worm (cap stolen), Giant Squid, Barreleye, Vampire Squid (glowing goo), Challenger Deep (found a plastic bag). Deaths by zone: sunlight 2, twilight 1, midnight 2, abyss 1, hadal 1. |
 | 002 | What Dying From Every Parasite Would Feel Like (working) | pending (QC passed 2026-09-30, awaiting scheduled upload) | 11 (total 18) | Counter 7 to 18, one death per item, no survivals. Act 1 in costume (jewel wasp, zombie ant fungus, horsehair worm, broodsac, toxoplasma), act 2 "Human hosts." (blood flukes, kissing bug, malaria, raccoon roundworm, sleeping sickness, brain-eating amoeba). Introduced the costume gag and Buddy the raccoon. |
 | 003 | How Doug Would Die in Every Mass Extinction (working) | pending (QC passed 2026-10-01, awaiting scheduled upload) | 9 (total 27) | Counter 18 to 27, Big Five in order. Survived: Ozone Hole (sunburn), Pangaea Splits ("Doug is fine."). Introduced the time machine. Befriended the moss and a Lystrosaurus; one costume callback (ammonite); marshmallow then fire extinguisher at the volcanic extinctions; cap ends as a fossil in the iridium layer. |
+| 004 | What Dying in Every Deadly Place on Earth Would Be Like | pending (QC passed 2026-10-01, final package approved, awaiting scheduled upload) | 9 (total 36) | Counter 27 to 36, 11 places in severity bands "Hours." / "Minutes." / "Seconds.". Survived: Lake Natron (flamingo costume, a costume-gag callback) and Lake Maracaibo ("Doug is fine."). Introduced Doug's stickered suitcase (`places`). Lake Nyos played straight with no joke. Boss: Nyiragongo lava lake. Shorts held pending crop fixes. |

@@ -196,3 +196,78 @@ size. Checked after the creative director's tweaks: a bigger Natron Doug and ici
 - Non-blocking: none.
 
 VERDICT: PASS
+
+## Post-render, 2026-10-01
+
+Scope: `build/samples/f_001..f_034.png` (every 30 s of `final.mp4`, 1009.6 s), `build/qc.json`, `build/thumbnail.png`,
+`build/thumbnail_small.png`, `metadata.json`, `build/shorts/short01-03_preview.png`, plus 8 frames pulled from each
+of `short01-03.mp4` (1080x1920, 43.8 s, 47.3 s and 45.2 s).
+
+### Main video: clean
+- `qc.json` reports no problems. None of the 34 samples is black, blank, frozen or glitched. Every location
+  sticker is spelled correctly and uncropped. The DOUG DEATHS counter runs 30, 33, 35, 36. Doug is on-model in
+  every frame that should have him. The ghost and dead-eye deaths are cartoon only, with no gore, and the tone is
+  adult.
+- Three samples look odd at first, but each is a frame caught early in a build or mid-transition, not a defect.
+  f_009 is s071 before the arrow and car appear. f_015 is s123 with the CHART box shown before the dashed line and
+  the -94°C label. f_033 is the wipe from s268 into s269.
+- Non-blocking: s123 is a plain blue box labelled "CHART" for its first ~1.5 s, which reads like a placeholder. If
+  the director touches it again, put a tiny frostbite-grid motif inside the box (reuse s122's cells).
+
+### Thumbnail: unchanged from the round that passed, still PASS
+It matches the title and isn't misleading. Natron Doug reads at 320 px. No gore and nothing kid-coded.
+
+### Shorts: FAIL
+Titles and subtitles are legible in all three Shorts, and every end card arrow points down. The problem is the
+Shorts zoom-crop. It only keeps x 260..1660 of the 1920 frame (`studio/shorts.py`), and several shots put key
+elements outside that band.
+
+1. **short03 / s243 (director): the title's payoff label is cut off.** "5x THE SUN" (label x=1600) renders as
+   "5x THE SUN|", clipped at the right edge, and the angry_sun asset at x=1650 is mostly lost. This is the line the
+   Short's title promises. Change: move the label to x≈1350 and angry_sun to x≈1500 so both sit fully inside 300..1600.
+2. **short02 / s071 (director): the opening frame has no Doug.** Doug (think/shock, x=1750) is cropped out of the
+   Short's first frame and preview, and the SMALL CAR arrow sits on the edge. Change: move Doug inside x≤1580, for
+   example x≈1120 between the sand block and the car, clear of the car and the SMALL CAR wordart.
+3. **short01 / s094, s095, s096 (director): Doug is sliced in half.** Doug is at x=1650/1650/1700 and shows half-cut at
+   the right edge (see the "and in his own words" frames). Change: move him to x≤1550 in all three.
+4. **Same sweep, same rule (director):** check s087 (lesser_flamingo x=1700), s092 (question_mark x=1700), s060 (Doug
+   x=1650), s227/s228 (Doug x=1650), s231 ("SEA" label x=1700) and s242 (house x=1650). If a shot falls inside a
+   Short's range, its full element extents must sit inside x 300..1600. These edits are harmless to the 16:9 cut.
+   Afterwards, re-render the keyframes for the touched shots, `render --final`, `qc`, and `shorts render`, then send
+   the Shorts back for screening.
+
+VERDICT: FAIL (main video and thumbnail pass; Shorts need fixes 1-4)
+
+## Post-render round 2, 2026-10-01
+
+Scope: re-rendered `build/final.mp4` (samples `f_001..f_034`, 19:31), `build/qc.json` (no problems), `build/thumbnail.png`
+and `thumbnail_small.png`, `build/shorts/short01-03_preview.png`, and frames from `short01-03.mp4` (one every 2 s for
+each Short, plus 2 fps through s243 and full-width crops of s071, s094-s096 and the counter shots).
+
+### Main video: PASS
+- None of the 34 samples is black, blank, frozen or glitched. Every location sticker is spelled correctly and
+  uncropped. The DOUG DEATHS counter runs 30, 33, 35, 35, 36 and always sits fully in frame at its new x=1380. Doug is
+  on-model throughout, and all deaths are cartoon only with no gore.
+- Moving elements in from the edges did no harm to the 16:9 compositions. s071 now has Doug between the sand block
+  and the car with nothing colliding. The round-1 placeholder note on s123 is resolved: the box now shows the
+  frostbite grid with a red danger cell.
+
+### Thumbnail: PASS (unchanged)
+
+### Shorts: PASS
+Checking the round-1 fixes:
+1. **short03 / s243: fixed.** "5x THE SUN" (x=1385) is fully legible, the angry_sun (x=1500) is fully inside the crop,
+   and "DOUG DEATHS: 35" is uncropped.
+2. **short02 / s071: fixed.** Doug, the car, the up-arrow, "SAME FORCE" and "SMALL CAR" are all inside the frame,
+   including the preview.
+3. **short01 / s094-s096: fixed.** Doug (x=1500/1520) is whole, with clear margin from the right edge. "PLACED",
+   "LIVING POSITIONS" and the arrow all read.
+4. **Sweep: fixed.** Across all three Shorts, no element touches the left or right edge. Hook frames (thermometer,
+   clock, "5x HOTTER", "ISN'T CLOSE", flamingos) all sit inside the crop. Titles and subtitles are legible, and every
+   end-card arrow points down to the link.
+
+Non-blocking:
+- s243: angry_sun appears at 91% of the shot, so it's on screen for only about 0.5 s, and at scale 0.3 it's small. If
+  anyone touches this shot again, the director could bring it in at around 0.75 and use scale 0.45.
+
+VERDICT: PASS

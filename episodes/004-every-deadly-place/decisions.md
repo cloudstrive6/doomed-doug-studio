@@ -49,3 +49,32 @@
   and AI-use note are present, playlist is `places`, and `validate metadata` returns OK.
 - Next: editor (narrate, render, QC).
 2026-10-01: rounds: script 3, keyframes 3 (art+visual), thumbnail 1. Risks: Nyos sombre item, pronunciations unverified by ear (Chirp), Kivu gas figure hedged.
+
+## 2026-10-01: final package approval (creative director): GO
+- Title: keeping T1, "What Dying in Every Deadly Place on Earth Would Be Like". It is the proven "what it feels like to
+  die in every X" outlier formula and the video delivers it (11 places, ranked hours to minutes to seconds). None of
+  the alternates is clearly stronger. "How Every Deadly Place on Earth Would Kill Doug" spends words on a name nobody
+  searches yet. The "Deadliest... Nature Fights Back" alternate is vague, "Farther Doug Goes" implies a distance axis
+  we don't use, and "Booked Anyway" is weaker as a curiosity gap. No swap.
+- Thumbnail (`build/thumbnail.png`): final render checked. The 3x3 grid reads sand, then ice, then neon, then lava.
+  Nyiragongo is the boss tile, Natron Doug reads with his cap and deadpan face, the Antarctic icicles are in, there
+  are no bodies and Nyos is off. It matches the title and opens the video (frame at 0:01 is the grid).
+- Description and chapters: they are accurate. They say "11 of the deadliest natural places", every teaser is in
+  the script, and the sources, disclaimer and AI-use note are present. The `build/chapters.txt` list has 12 entries
+  from 0:00, all at least 10 s apart, in script order, and each one opens on the item name. Tags and playlist
+  (`places`) are fine.
+- First 60 s: the grid is up at 0:01, Doug with his blank suitcase and DOUG DEATHS: 27 is up by 0:06, "Death Valley"
+  is spoken within the first 35 words with its chapter at 0:11, and the twist ("watching the wrong thermometer", 201°F
+  ground) lands well inside 45 s with the WRONG ONE visual. The night beat keeps it moving. This would keep me watching.
+- Main video: `qc.json` is clean (1009.6 s, about 190 wpm overall), and the post-render visual screener passed the main
+  video and thumbnail.
+- Condition (Shorts only, does not block the long-form): the visual screener FAILed all three Shorts on the
+  9:16 zoom-crop (fixes 1-4 in `visual_review.md`: s243 "5x THE SUN" clipped, s071/s094-s096 Doug cropped, plus the
+  x>1600 sweep). No Short goes up until the director's fixes are re-rendered and the Shorts pass re-screening. The
+  long-form `final.mp4` must not be re-rendered over an approved build without a fresh `qc`.
+- Non-blocking: the s123 "CHART" placeholder box (about 1.5 s) gets a frostbite-grid motif if the director touches it again.
+- Lore: QC has passed, so the series bible now has the death counter at 36 and an episode log row for 004 (same as the 003 precedent).
+
+FINAL: APPROVED
+- Showrunner note: the Shorts hold above is resolved. The director fixed the safe-area shots, the final and Shorts were re-rendered, QC exits 0, and the round-2 visual screen PASSED (main video, thumbnail, all 3 Shorts).
+FINAL: APPROVED
