@@ -1,0 +1,37 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s091",
+      "to": "s101",
+      "hook": "Lake Natron supposedly turns any animal that touches it into stone.",
+      "hook_scene_from": "s080",
+      "title": "",
+      "outro": "Nine other places were less forgiving. The full trip is linked below.",
+      "end_card": "WHERE DID DOUG DIE? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s065",
+      "to": "s077",
+      "hook": "Morecambe Bay looks like England's biggest, flattest beach.",
+      "hook_scene_from": "s054",
+      "title": "",
+      "outro": "And it only gets faster from here. The full video is linked below.",
+      "end_card": "WHAT KILLS FASTER? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s234",
+      "to": "s244",
+      "hook": "Lake Maracaibo gets more lightning than anywhere else on Earth.",
+      "hook_scene_from": "s225",
+      "title": "",
+      "outro": "The next place was not so forgiving. The full video is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    }
+  ]
+}
