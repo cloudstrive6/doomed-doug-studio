@@ -1,0 +1,20 @@
+{
+ "name": "water_bottle",
+ "description": "Doug's one small clear plastic water bottle with a blue cap and a little water in the bottom. ~50x130. Anchor = grip centre (Doug's front hand). Used upside down (rotate 180) when empty.",
+ "anchor": [0, 0],
+ "tags": ["prop", "bottle", "water", "desert"],
+ "elements": [
+  {"type": "poly", "points": [[14.0, -40.0], [17.8, -39.2], [21.1, -37.1], [23.2, -33.8], [24.0, -30.0], [24.0, 52.0], [23.2, 55.8], [21.1, 59.1], [17.8, 61.2], [14.0, 62.0], [-14.0, 62.0], [-17.8, 61.2], [-21.1, 59.1], [-23.2, 55.8], [-24.0, 52.0], [-24.0, -30.0], [-23.2, -33.8], [-21.1, -37.1], [-17.8, -39.2], [-14.0, -40.0]], "fill": "#d9f0fb", "width": 0, "outline": false},
+  {"type": "poly", "points": [[-22, 18], [22, 18], [22, 52], [16, 60], [-16, 60], [-22, 52]], "fill": "#7cc3ea", "width": 0, "outline": false},
+  {"type": "line", "points": [[-22, 18], [22, 18]], "width": 2, "color": "#3a8fc4"},
+  {"type": "poly", "points": [[-24, -40], [-14, -52], [14, -52], [24, -40]], "fill": "#d9f0fb", "width": 4},
+  {"type": "rect", "x": -11, "y": -66, "w": 22, "h": 15, "fill": "#2f6fd6", "width": 4},
+  {"type": "line", "points": [[-6, -64], [-6, -53]], "width": 2, "color": "#000000"},
+  {"type": "line", "points": [[0, -64], [0, -53]], "width": 2, "color": "#000000"},
+  {"type": "line", "points": [[6, -64], [6, -53]], "width": 2, "color": "#000000"},
+  {"type": "line", "points": [[-24, -8], [24, -8]], "width": 2, "color": "#9cc7dc"},
+  {"type": "line", "points": [[-24, 2], [24, 2]], "width": 2, "color": "#9cc7dc"},
+  {"type": "line", "points": [[-14, -32], [-14, 46]], "width": 3, "color": "#ffffff"},
+  {"type": "poly", "points": [[14.0, -40.0], [17.8, -39.2], [21.1, -37.1], [23.2, -33.8], [24.0, -30.0], [24.0, 52.0], [23.2, 55.8], [21.1, 59.1], [17.8, 61.2], [14.0, 62.0], [-14.0, 62.0], [-17.8, 61.2], [-21.1, 59.1], [-23.2, 55.8], [-24.0, 52.0], [-24.0, -30.0], [-23.2, -33.8], [-21.1, -37.1], [-17.8, -39.2], [-14.0, -40.0]], "fill": null, "width": 4}
+ ]
+}

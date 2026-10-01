@@ -1,0 +1,26 @@
+{
+ "name": "stone_bird",
+ "description": "Chalky salt-preserved songbird (our own cartoon stand-in for Natron's calcified animals): small bird perched upright on its feet, entirely chalky white-grey (#d9d6cf, shading #b7b2a8) with crusty spray-dot texture, closed grey eye line (no X eyes, no gore). ~170x295. Anchor = bottom-centre at the feet.",
+ "anchor": [0, 0],
+ "tags": ["creature", "bird", "natron", "calcified", "dead", "salt"],
+ "elements": [
+  {"type": "line", "points": [[-14, -44], [-14, 0]], "width": 8, "color": "#000000"},
+  {"type": "line", "points": [[-14, -44], [-14, 0]], "width": 4, "color": "#b7b2a8"},
+  {"type": "line", "points": [[14, -44], [14, 0]], "width": 8, "color": "#000000"},
+  {"type": "line", "points": [[14, -44], [14, 0]], "width": 4, "color": "#b7b2a8"},
+  {"type": "line", "points": [[-34, 0], [-14, -2], [4, 2]], "width": 4, "color": "#000000"},
+  {"type": "line", "points": [[-4, 0], [14, -2], [32, 2]], "width": 4, "color": "#000000"},
+  {"type": "poly", "points": [[-40, -70], [-86, -16], [-70, -6], [-24, -56]], "fill": "#b7b2a8", "width": 5},
+  {"type": "poly", "points": [[-10, -40], [-56, -80], [-70, -140], [-50, -200], [0, -222], [50, -196], [66, -140], [50, -80], [20, -44]], "fill": "#d9d6cf", "width": 5, "smooth": true},
+  {"type": "poly", "points": [[-56, -80], [-70, -140], [-60, -180], [-20, -150], [-6, -80]], "fill": "#b7b2a8", "width": 0, "smooth": true, "outline": false},
+  {"type": "curve", "points": [[-56, -170], [-30, -130], [-20, -84]], "width": 3, "color": "#8f8a80"},
+  {"type": "curve", "points": [[-44, -150], [-30, -110]], "width": 2, "color": "#8f8a80"},
+  {"type": "ellipse", "x": 14, "y": -248, "rx": 46, "ry": 42, "fill": "#d9d6cf", "width": 5},
+  {"type": "poly", "points": [[56, -256], [84, -248], [56, -238]], "fill": "#b7b2a8", "width": 4},
+  {"type": "curve", "points": [[14, -256], [24, -252], [34, -256]], "width": 3, "color": "#7a766e"},
+  {"type": "spray", "x": 0, "y": -140, "r": 60, "color": "#b7b2a8", "density": 0.18},
+  {"type": "spray", "x": 10, "y": -250, "r": 34, "color": "#b7b2a8", "density": 0.18},
+  {"type": "spray", "x": 20, "y": -100, "r": 30, "color": "#ffffff", "density": 0.2},
+  {"type": "spray", "x": -30, "y": -190, "r": 24, "color": "#ffffff", "density": 0.18}
+ ]
+}

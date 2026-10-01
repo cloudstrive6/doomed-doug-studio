@@ -1,0 +1,27 @@
+{
+ "name": "sunscreen",
+ "description": "Unbranded white sunscreen squeeze tube with an orange flip cap and a yellow sun symbol. ~76x190. Anchor = centre (Doug's hand grip).",
+ "anchor": [0, 0],
+ "tags": ["prop", "sunscreen", "sun", "everyday"],
+ "elements": [
+  {"type": "poly", "points": [[-30, -60], [30, -60], [36, 70], [30, 84], [-30, 84], [-36, 70]], "fill": "#ffffff", "width": 0, "outline": false},
+  {"type": "poly", "points": [[10, -60], [30, -60], [36, 70], [30, 84], [14, 84]], "fill": "#e3e6ea", "width": 0, "outline": false},
+  {"type": "poly", "points": [[-36, 70], [36, 70], [38, 90], [-38, 90]], "fill": "#f2f2f2", "width": 4},
+  {"type": "line", "points": [[-30, 78], [30, 78]], "width": 2, "color": "#000000"},
+  {"type": "line", "points": [[-30, 84], [30, 84]], "width": 2, "color": "#000000"},
+  {"type": "spray", "x": -2, "y": 4, "r": 34, "color": "#ffe9a0", "density": 0.25},
+  {"type": "ellipse", "x": -2, "y": 4, "rx": 18, "ry": 18, "fill": "#ffd21a", "width": 3},
+  {"type": "line", "points": [[20.0, 4.0], [30.0, 4.0]], "width": 4, "color": "#f0a000"},
+  {"type": "line", "points": [[13.6, 19.6], [20.6, 26.6]], "width": 4, "color": "#f0a000"},
+  {"type": "line", "points": [[-2.0, 26.0], [-2.0, 36.0]], "width": 4, "color": "#f0a000"},
+  {"type": "line", "points": [[-17.6, 19.6], [-24.6, 26.6]], "width": 4, "color": "#f0a000"},
+  {"type": "line", "points": [[-24.0, 4.0], [-34.0, 4.0]], "width": 4, "color": "#f0a000"},
+  {"type": "line", "points": [[-17.6, -11.6], [-24.6, -18.6]], "width": 4, "color": "#f0a000"},
+  {"type": "line", "points": [[-2.0, -18.0], [-2.0, -28.0]], "width": 4, "color": "#f0a000"},
+  {"type": "line", "points": [[13.6, -11.6], [20.6, -18.6]], "width": 4, "color": "#f0a000"},
+  {"type": "poly", "points": [[-30, -60], [30, -60], [36, 70], [30, 84], [-30, 84], [-36, 70]], "fill": null, "width": 4},
+  {"type": "poly", "points": [[-22, -60], [22, -60], [20, -90], [-20, -90]], "fill": "#ff7a1a", "width": 4},
+  {"type": "poly", "points": [[-20, -90], [20, -90], [16, -98], [-16, -98]], "fill": "#e05a00", "width": 3},
+  {"type": "line", "points": [[14, -86], [14, -64]], "width": 2, "color": "#ffb07a"}
+ ]
+}

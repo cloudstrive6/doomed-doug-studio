@@ -1,0 +1,33 @@
+{
+ "name": "soda_bottle",
+ "description": "Clear green plastic soda bottle, cap on, small bubbles inside, no label or brand. ~140x360. Anchor = centre. Mid-tone greens so it reads on dark Nyos backgrounds.",
+ "anchor": [0, 0],
+ "tags": ["prop", "bottle", "soda", "co2", "everyday"],
+ "elements": [
+  {"type": "poly", "points": [[-56, 160], [-66, 140], [-66, 0], [-60, -50], [-34, -110], [-24, -150], [24, -150], [34, -110], [60, -50], [66, 0], [66, 140], [56, 160], [30, 172], [-30, 172]], "fill": "#5fb86a", "width": 0, "outline": false},
+  {"type": "poly", "points": [[-66, -10], [66, -10], [66, 140], [56, 160], [30, 172], [-30, 172], [-56, 160], [-66, 140]], "fill": "#3f9b4c", "width": 0, "outline": false},
+  {"type": "poly", "points": [[30, -110], [60, -50], [66, 0], [66, 140], [56, 160], [40, 168], [44, 0], [40, -60]], "fill": "#2f7f3c", "width": 0, "outline": false},
+  {"type": "line", "points": [[-66, -10], [66, -10]], "width": 2, "color": "#2a6e34"},
+  {"type": "line", "points": [[-66, 120], [66, 120]], "width": 2, "color": "#2a6e34"},
+  {"type": "line", "points": [[-46, -40], [-50, 130]], "width": 6, "color": "#b9ecbf"},
+  {"type": "line", "points": [[-30, -110], [-40, -70]], "width": 4, "color": "#b9ecbf"},
+  {"type": "ellipse", "x": 10, "y": 140, "rx": 6, "ry": 6, "fill": null, "width": 2, "color": "#e8fbe9"},
+  {"type": "ellipse", "x": -18, "y": 100, "rx": 5, "ry": 5, "fill": null, "width": 2, "color": "#e8fbe9"},
+  {"type": "ellipse", "x": 22, "y": 70, "rx": 7, "ry": 7, "fill": null, "width": 2, "color": "#e8fbe9"},
+  {"type": "ellipse", "x": -4, "y": 40, "rx": 4, "ry": 4, "fill": null, "width": 2, "color": "#e8fbe9"},
+  {"type": "ellipse", "x": 30, "y": 15, "rx": 5, "ry": 5, "fill": null, "width": 2, "color": "#e8fbe9"},
+  {"type": "ellipse", "x": -20, "y": 5, "rx": 6, "ry": 6, "fill": null, "width": 2, "color": "#e8fbe9"},
+  {"type": "ellipse", "x": 6, "y": -25, "rx": 4, "ry": 4, "fill": null, "width": 2, "color": "#e8fbe9"},
+  {"type": "ellipse", "x": -8, "y": -70, "rx": 3, "ry": 3, "fill": null, "width": 2, "color": "#e8fbe9"},
+  {"type": "ellipse", "x": 18, "y": 105, "rx": 3, "ry": 3, "fill": null, "width": 2, "color": "#e8fbe9"},
+  {"type": "ellipse", "x": -28, "y": 150, "rx": 4, "ry": 4, "fill": null, "width": 2, "color": "#e8fbe9"},
+  {"type": "ellipse", "x": 34, "y": -45, "rx": 3, "ry": 3, "fill": null, "width": 2, "color": "#e8fbe9"},
+  {"type": "poly", "points": [[-56, 160], [-66, 140], [-66, 0], [-60, -50], [-34, -110], [-24, -150], [24, -150], [34, -110], [60, -50], [66, 0], [66, 140], [56, 160], [30, 172], [-30, 172]], "fill": null, "width": 5},
+  {"type": "rect", "x": -28, "y": -184, "w": 56, "h": 36, "fill": "#2e7d3a", "width": 5},
+  {"type": "line", "points": [[-16, -180], [-16, -152]], "width": 2, "color": "#000000"},
+  {"type": "line", "points": [[-4, -180], [-4, -152]], "width": 2, "color": "#000000"},
+  {"type": "line", "points": [[8, -180], [8, -152]], "width": 2, "color": "#000000"},
+  {"type": "line", "points": [[20, -180], [20, -152]], "width": 2, "color": "#000000"},
+  {"type": "line", "points": [[-32, -146], [32, -146]], "width": 5, "color": "#000000"}
+ ]
+}

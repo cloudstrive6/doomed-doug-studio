@@ -1,0 +1,15 @@
+{
+ "name": "sticker_morecambe_bay",
+ "description": "Travel sticker for MORECAMBE BAY (~110x60, anchor centre): blue swallowtail pennant, white wave line, white text. Slightly peeling corner, bold caps text sized to stay legible at scale 0.5-0.6. Art-director-owned series lore (places playlist).",
+ "anchor": [0, 0],
+ "tags": ["sticker", "travel", "places", "suitcase", "morecambe bay", "sea"],
+ "elements": [
+  {"type": "poly", "points": [[-55, -30], [55, -30], [44, 0], [55, 30], [-55, 30]], "fill": "#3a7fd0", "width": 4, "color": "#123a6e"},
+  {"type": "curve", "points": [[-50, 22], [-40, 16], [-30, 22], [-20, 16], [-10, 22], [0, 16], [10, 22], [20, 16], [30, 22]], "width": 2, "color": "#bfe6fb"},
+  {"type": "text", "text": "MORECAMBE", "x": -4, "y": -9.8, "size": 13, "color": "#ffffff", "bold": true, "boil": 0},
+  {"type": "text", "text": "BAY", "x": -4, "y": 3.8, "size": 13, "color": "#ffffff", "bold": true, "boil": 0},
+  {"type": "poly", "points": [[-55, -30], [-39, -30], [-55, -16]], "fill": "#f4efe6", "width": 0, "outline": false},
+  {"type": "poly", "points": [[-39, -30], [-53, -28], [-55, -16]], "fill": "#ffffff", "width": 2, "color": "#123a6e"},
+  {"type": "poly", "points": [[-55, -30], [55, -30], [44, 0], [55, 30], [-55, 30]], "fill": null, "width": 4, "color": "#123a6e"}
+ ]
+}

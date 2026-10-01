@@ -1,0 +1,15 @@
+{
+ "name": "sticker_dallol",
+ "description": "Travel sticker for DALLOL (~110x60, anchor centre): neon yellow-green rounded rectangle with a small acid-yellow pool icon. Slightly peeling corner, bold caps text sized to stay legible at scale 0.5-0.6. Art-director-owned series lore (places playlist).",
+ "anchor": [0, 0],
+ "tags": ["sticker", "travel", "places", "suitcase", "dallol", "acid"],
+ "elements": [
+  {"type": "poly", "points": [[45.0, -30.0], [48.8, -29.2], [52.1, -27.1], [54.2, -23.8], [55.0, -20.0], [55.0, 20.0], [54.2, 23.8], [52.1, 27.1], [48.8, 29.2], [45.0, 30.0], [-45.0, 30.0], [-48.8, 29.2], [-52.1, 27.1], [-54.2, 23.8], [-55.0, 20.0], [-55.0, -20.0], [-54.2, -23.8], [-52.1, -27.1], [-48.8, -29.2], [-45.0, -30.0]], "fill": "#c8f03a", "width": 4, "color": "#3a5a0a"},
+  {"type": "ellipse", "x": 0, "y": 17, "rx": 26, "ry": 7, "fill": "#f2e600", "width": 2, "color": "#3a5a0a"},
+  {"type": "ellipse", "x": -6, "y": 15, "rx": 7, "ry": 2, "fill": "#ffffff", "width": 0, "outline": false},
+  {"type": "text", "text": "DALLOL", "x": 0, "y": -8.0, "size": 23, "color": "#1f3a06", "bold": true, "boil": 0},
+  {"type": "poly", "points": [[55, -30], [39, -30], [55, -16]], "fill": "#f4efe6", "width": 0, "outline": false},
+  {"type": "poly", "points": [[39, -30], [53, -28], [55, -16]], "fill": "#ffffff", "width": 2, "color": "#3a5a0a"},
+  {"type": "poly", "points": [[45.0, -30.0], [48.8, -29.2], [52.1, -27.1], [54.2, -23.8], [55.0, -20.0], [55.0, 20.0], [54.2, 23.8], [52.1, 27.1], [48.8, 29.2], [45.0, 30.0], [-45.0, 30.0], [-48.8, 29.2], [-52.1, 27.1], [-54.2, 23.8], [-55.0, 20.0], [-55.0, -20.0], [-54.2, -23.8], [-52.1, -27.1], [-48.8, -29.2], [-45.0, -30.0]], "fill": null, "width": 4, "color": "#3a5a0a"}
+ ]
+}

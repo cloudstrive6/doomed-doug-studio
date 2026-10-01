@@ -1,0 +1,24 @@
+{
+ "name": "flip_flops_cracked",
+ "description": "Same geometry as flip_flops but dry and cracked: faded blue-grey soles with zigzag crack lines and a chipped edge, faded yellow straps. Anchor = Doug's hips at Doug scale (worn prop).",
+ "anchor": [0, 0],
+ "tags": ["prop", "doug", "worn", "shoes", "flip-flops", "cracked"],
+ "elements": [
+  {"type": "poly", "points": [[-0.6, 146.0], [2.1, 146.5], [4.3, 148.1], [5.9, 150.3], [6.4, 153.0], [6.4, 153.0], [5.9, 155.7], [4.3, 157.9], [2.1, 159.5], [-0.6, 160.0], [-50.6, 160.0], [-53.3, 159.5], [-55.5, 157.9], [-57.1, 155.7], [-57.6, 153.0], [-57.6, 153.0], [-57.1, 150.3], [-55.5, 148.1], [-53.3, 146.5], [-50.6, 146.0]], "fill": "#9db4c8", "width": 4},
+  {"type": "poly", "points": [[-3.6, 146], [4.4, 146], [6.4, 152], [0.4, 150]], "fill": "#f3dcc0", "width": 0, "outline": false},
+  {"type": "line", "points": [[-45.6, 148], [-39.6, 154], [-33.6, 148], [-27.6, 156]], "width": 2, "color": "#3a3a3a"},
+  {"type": "line", "points": [[-19.6, 148], [-15.6, 155], [-9.6, 149]], "width": 2, "color": "#3a3a3a"},
+  {"type": "line", "points": [[-53.6, 154], [-49.6, 158]], "width": 2, "color": "#3a3a3a"},
+  {"type": "line", "points": [[-43.6, 148], [-31.6, 136], [-7.6, 148]], "width": 7, "color": "#000000"},
+  {"type": "line", "points": [[-43.6, 148], [-31.6, 136], [-7.6, 148]], "width": 4, "color": "#d9c98a"},
+  {"type": "line", "points": [[-31.6, 136], [-5.6, 146]], "width": 4, "color": "#000000"},
+  {"type": "poly", "points": [[62.6, 146.0], [65.3, 146.5], [67.5, 148.1], [69.1, 150.3], [69.6, 153.0], [69.6, 153.0], [69.1, 155.7], [67.5, 157.9], [65.3, 159.5], [62.6, 160.0], [12.6, 160.0], [9.9, 159.5], [7.7, 157.9], [6.1, 155.7], [5.6, 153.0], [5.6, 153.0], [6.1, 150.3], [7.7, 148.1], [9.9, 146.5], [12.6, 146.0]], "fill": "#9db4c8", "width": 4},
+  {"type": "poly", "points": [[59.6, 146], [67.6, 146], [69.6, 152], [63.6, 150]], "fill": "#f3dcc0", "width": 0, "outline": false},
+  {"type": "line", "points": [[17.6, 148], [23.6, 154], [29.6, 148], [35.6, 156]], "width": 2, "color": "#3a3a3a"},
+  {"type": "line", "points": [[43.6, 148], [47.6, 155], [53.6, 149]], "width": 2, "color": "#3a3a3a"},
+  {"type": "line", "points": [[9.6, 154], [13.6, 158]], "width": 2, "color": "#3a3a3a"},
+  {"type": "line", "points": [[19.6, 148], [31.6, 136], [55.6, 148]], "width": 7, "color": "#000000"},
+  {"type": "line", "points": [[19.6, 148], [31.6, 136], [55.6, 148]], "width": 4, "color": "#d9c98a"},
+  {"type": "line", "points": [[31.6, 136], [57.6, 146]], "width": 4, "color": "#000000"}
+ ]
+}

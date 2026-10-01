@@ -1,0 +1,26 @@
+{
+ "name": "gypsum_crystal",
+ "description": "One giant selenite (gypsum) crystal beam from the Cave of Crystals: long faceted milky-white prism (#f5f0d8 top, #e2dcbf side, #cfc8a8 underside), faint inner glow, white highlight streaks, slightly pointed ends, dark brown outline. 700x110. Anchor = centre; rotate freely to build the cave.",
+ "anchor": [0, 0],
+ "tags": ["place", "cave", "crystal", "naica", "mineral"],
+ "elements": [
+  {"type": "poly", "points": [[-350, -12], [-318, -50], [318, -50], [350, -12]], "fill": "#f5f0d8", "width": 0, "outline": false},
+  {"type": "poly", "points": [[-350, -12], [350, -12], [350, 18], [-350, 18]], "fill": "#e2dcbf", "width": 0, "outline": false},
+  {"type": "poly", "points": [[-350, 18], [350, 18], [322, 54], [-322, 54]], "fill": "#cfc8a8", "width": 0, "outline": false},
+  {"type": "spray", "x": -200, "y": 0, "r": 38, "color": "#fffbe8", "density": 0.3},
+  {"type": "spray", "x": -60, "y": 0, "r": 38, "color": "#fffbe8", "density": 0.3},
+  {"type": "spray", "x": 80, "y": 0, "r": 38, "color": "#fffbe8", "density": 0.3},
+  {"type": "spray", "x": 220, "y": 0, "r": 38, "color": "#fffbe8", "density": 0.3},
+  {"type": "line", "points": [[-350, -12], [350, -12]], "width": 2, "color": "#b8b090"},
+  {"type": "line", "points": [[-350, 18], [350, 18]], "width": 2, "color": "#b8b090"},
+  {"type": "line", "points": [[-260, -38], [180, -38]], "width": 4, "color": "#ffffff"},
+  {"type": "line", "points": [[-120, -26], [60, -26]], "width": 3, "color": "#ffffff"},
+  {"type": "line", "points": [[-300, 4], [-140, 4]], "width": 3, "color": "#ffffff"},
+  {"type": "line", "points": [[100, 36], [260, 36]], "width": 2, "color": "#e9e4c8"},
+  {"type": "line", "points": [[318, -50], [330, -2], [350, -12]], "width": 2, "color": "#b8b090"},
+  {"type": "line", "points": [[330, -2], [322, 54]], "width": 2, "color": "#b8b090"},
+  {"type": "line", "points": [[-318, -50], [-330, -2], [-350, -12]], "width": 2, "color": "#b8b090"},
+  {"type": "line", "points": [[-330, -2], [-322, 54]], "width": 2, "color": "#b8b090"},
+  {"type": "poly", "points": [[-350, -12], [-318, -50], [318, -50], [350, -12], [350, 18], [322, 54], [-322, 54], [-350, 18]], "fill": null, "width": 4, "color": "#3a2a14"}
+ ]
+}

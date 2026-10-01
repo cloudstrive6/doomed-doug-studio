@@ -1,0 +1,19 @@
+{
+ "name": "flamingo_nest",
+ "description": "Flamingo mud nest: low truncated cone of dried grey-brown mud with a shallow empty dip on top and a few crack lines. ~260x115. Anchor = bottom-centre.",
+ "anchor": [0, 0],
+ "tags": ["place", "flamingo", "nest", "natron", "mud"],
+ "elements": [
+  {"type": "poly", "points": [[-130, 0], [-110, -8], [110, -8], [130, 0]], "fill": "#7d6b56", "width": 4},
+  {"type": "poly", "points": [[-110, 0], [-78, -100], [-60, -108], [60, -108], [78, -100], [110, 0]], "fill": "#9a8670", "width": 0, "outline": false},
+  {"type": "poly", "points": [[30, -108], [60, -108], [78, -100], [110, 0], [50, 0]], "fill": "#7d6b56", "width": 0, "outline": false},
+  {"type": "spray", "x": -30, "y": -50, "r": 40, "color": "#b5a28a", "density": 0.15},
+  {"type": "ellipse", "x": 0, "y": -104, "rx": 64, "ry": 12, "fill": "#6b5a46", "width": 4},
+  {"type": "ellipse", "x": 0, "y": -101, "rx": 50, "ry": 6, "fill": "#5a4a38", "width": 0, "outline": false},
+  {"type": "line", "points": [[-60, -80], [-48, -60], [-62, -40]], "width": 2, "color": "#4a3a2a"},
+  {"type": "line", "points": [[20, -70], [34, -48], [24, -30], [36, -12]], "width": 2, "color": "#4a3a2a"},
+  {"type": "line", "points": [[-24, -30], [-10, -14]], "width": 2, "color": "#4a3a2a"},
+  {"type": "line", "points": [[70, -60], [80, -40]], "width": 2, "color": "#4a3a2a"},
+  {"type": "poly", "points": [[-110, 0], [-78, -100], [-60, -108], [60, -108], [78, -100], [110, 0]], "fill": null, "width": 5}
+ ]
+}

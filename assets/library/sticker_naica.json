@@ -1,0 +1,15 @@
+{
+ "name": "sticker_naica",
+ "description": "Travel sticker for NAICA (~110x60, anchor centre): pale-yellow hexagon (crystal-like) with a tiny crystal cluster icon. Slightly peeling corner, bold caps text sized to stay legible at scale 0.5-0.6. Art-director-owned series lore (places playlist).",
+ "anchor": [0, 0],
+ "tags": ["sticker", "travel", "places", "suitcase", "naica", "cave", "crystal"],
+ "elements": [
+  {"type": "poly", "points": [[-55, 0], [-38, -30], [38, -30], [55, 0], [38, 30], [-38, 30]], "fill": "#fff2a8", "width": 4, "color": "#7a6a20"},
+  {"type": "poly", "points": [[-44, 8], [-36, -18], [-30, 8]], "fill": "#ffffff", "width": 2, "color": "#7a6a20"},
+  {"type": "poly", "points": [[-36, 10], [-26, -6], [-22, 10]], "fill": "#f5f0d8", "width": 2, "color": "#7a6a20"},
+  {"type": "text", "text": "NAICA", "x": 13, "y": 0.0, "size": 20, "color": "#5a4a10", "bold": true, "boil": 0},
+  {"type": "poly", "points": [[38, 30], [22, 30], [38, 16]], "fill": "#f4efe6", "width": 0, "outline": false},
+  {"type": "poly", "points": [[22, 30], [36, 28], [38, 16]], "fill": "#ffffff", "width": 2, "color": "#7a6a20"},
+  {"type": "poly", "points": [[-55, 0], [-38, -30], [38, -30], [55, 0], [38, 30], [-38, 30]], "fill": null, "width": 4, "color": "#7a6a20"}
+ ]
+}

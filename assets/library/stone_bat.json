@@ -1,0 +1,30 @@
+{
+ "name": "stone_bat",
+ "description": "Chalky salt-preserved bat lying flat (seen from above), wings half spread with finger bones, entirely chalky white-grey with crusty spray texture, closed eye lines. No gore. ~310x155. Anchor = centre.",
+ "anchor": [0, 0],
+ "tags": ["creature", "bat", "natron", "calcified", "dead", "salt"],
+ "elements": [
+  {"type": "poly", "points": [[-20, -20], [-70, -46], [-120, -52], [-150, -36], [-138, -10], [-146, 14], [-118, 18], [-104, 40], [-76, 30], [-54, 46], [-20, 20]], "fill": "#b7b2a8", "width": 5},
+  {"type": "line", "points": [[-20, -10], [-120, -52]], "width": 3, "color": "#8f8a80"},
+  {"type": "line", "points": [[-60, -36], [-140, -10]], "width": 2, "color": "#8f8a80"},
+  {"type": "line", "points": [[-60, -36], [-118, 18]], "width": 2, "color": "#8f8a80"},
+  {"type": "line", "points": [[-60, -36], [-76, 30]], "width": 2, "color": "#8f8a80"},
+  {"type": "spray", "x": -80, "y": 0, "r": 40, "color": "#d9d6cf", "density": 0.25},
+  {"type": "poly", "points": [[20, -20], [70, -46], [120, -52], [150, -36], [138, -10], [146, 14], [118, 18], [104, 40], [76, 30], [54, 46], [20, 20]], "fill": "#b7b2a8", "width": 5},
+  {"type": "line", "points": [[20, -10], [120, -52]], "width": 3, "color": "#8f8a80"},
+  {"type": "line", "points": [[60, -36], [140, -10]], "width": 2, "color": "#8f8a80"},
+  {"type": "line", "points": [[60, -36], [118, 18]], "width": 2, "color": "#8f8a80"},
+  {"type": "line", "points": [[60, -36], [76, 30]], "width": 2, "color": "#8f8a80"},
+  {"type": "spray", "x": 80, "y": 0, "r": 40, "color": "#d9d6cf", "density": 0.25},
+  {"type": "ellipse", "x": 0, "y": 6, "rx": 30, "ry": 48, "fill": "#d9d6cf", "width": 5},
+  {"type": "ellipse", "x": 0, "y": -48, "rx": 22, "ry": 20, "fill": "#d9d6cf", "width": 5},
+  {"type": "poly", "points": [[-16, -58], [-24, -86], [-4, -64]], "fill": "#d9d6cf", "width": 4},
+  {"type": "poly", "points": [[16, -58], [24, -86], [4, -64]], "fill": "#d9d6cf", "width": 4},
+  {"type": "curve", "points": [[-12, -48], [-6, -46]], "width": 3, "color": "#7a766e"},
+  {"type": "curve", "points": [[6, -46], [12, -48]], "width": 3, "color": "#7a766e"},
+  {"type": "spray", "x": 0, "y": 10, "r": 26, "color": "#b7b2a8", "density": 0.3},
+  {"type": "spray", "x": 0, "y": -48, "r": 16, "color": "#b7b2a8", "density": 0.25},
+  {"type": "line", "points": [[-10, 52], [-16, 66]], "width": 3, "color": "#000000"},
+  {"type": "line", "points": [[10, 52], [16, 66]], "width": 3, "color": "#000000"}
+ ]
+}

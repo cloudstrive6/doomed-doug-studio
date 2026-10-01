@@ -1,0 +1,32 @@
+{
+ "name": "lemon",
+ "description": "A yellow lemon with darker dimple dots, a shaded underside and a small green leaf on a stalk. ~240x200. Anchor = centre.",
+ "anchor": [0, 0],
+ "tags": ["prop", "food", "lemon", "acid", "ph"],
+ "elements": [
+  {"type": "poly", "points": [[-104, -6], [-120, -2], [-116, 8], [-104, 8]], "fill": "#f2d21a", "width": 4},
+  {"type": "poly", "points": [[104, -6], [122, -4], [118, 8], [104, 8]], "fill": "#f2d21a", "width": 4},
+  {"type": "poly", "points": [[-110, 0], [-96, -30], [-60, -60], [0, -70], [60, -60], [96, -30], [110, 0], [96, 30], [60, 60], [0, 70], [-60, 60], [-96, 30]], "fill": "#ffe02a", "width": 0, "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-90, 30], [-40, 50], [20, 56], [70, 44], [100, 14], [96, 30], [60, 60], [0, 70], [-60, 60]], "fill": "#e8c010", "width": 0, "smooth": true, "outline": false},
+  {"type": "spray", "x": 30, "y": 30, "r": 50, "color": "#d9ad00", "density": 0.12},
+  {"type": "poly", "points": [[-60, -40], [-20, -54], [10, -56], [-20, -44], [-56, -30]], "fill": "#fff6a8", "width": 0, "smooth": true, "outline": false},
+  {"type": "ellipse", "x": -70, "y": 0, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": -40, "y": 20, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": -10, "y": -10, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 20, "y": 10, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 50, "y": -20, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 70, "y": 20, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": -30, "y": -30, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 10, "y": 40, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 40, "y": 40, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": -60, "y": 30, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 80, "y": -10, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": -10, "y": 25, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 30, "y": -40, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 60, "y": 0, "rx": 2.5, "ry": 2.5, "fill": "#c9a200", "width": 0, "outline": false},
+  {"type": "poly", "points": [[-110, 0], [-96, -30], [-60, -60], [0, -70], [60, -60], [96, -30], [110, 0], [96, 30], [60, 60], [0, 70], [-60, 60], [-96, 30]], "fill": null, "width": 5, "smooth": true},
+  {"type": "curve", "points": [[-20, -66], [-6, -76], [4, -84]], "width": 4, "color": "#5b3a1a"},
+  {"type": "poly", "points": [[4, -84], [30, -110], [70, -112], [60, -92], [26, -80]], "fill": "#4fa83a", "width": 4, "smooth": true},
+  {"type": "curve", "points": [[10, -86], [40, -98], [64, -106]], "width": 2, "color": "#2e6e22"}
+ ]
+}

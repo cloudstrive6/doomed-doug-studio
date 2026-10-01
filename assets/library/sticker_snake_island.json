@@ -1,0 +1,16 @@
+{
+ "name": "sticker_snake_island",
+ "description": "Travel sticker for SNAKE ISLAND (~110x60, anchor centre): green rounded sticker, small yellow zigzag snake at left, white text. Slightly peeling corner, bold caps text sized to stay legible at scale 0.5-0.6. Art-director-owned series lore (places playlist).",
+ "anchor": [0, 0],
+ "tags": ["sticker", "travel", "places", "suitcase", "snake island"],
+ "elements": [
+  {"type": "poly", "points": [[41.0, -30.0], [46.4, -28.9], [50.9, -25.9], [53.9, -21.4], [55.0, -16.0], [55.0, 16.0], [53.9, 21.4], [50.9, 25.9], [46.4, 28.9], [41.0, 30.0], [-41.0, 30.0], [-46.4, 28.9], [-50.9, 25.9], [-53.9, 21.4], [-55.0, 16.0], [-55.0, -16.0], [-53.9, -21.4], [-50.9, -25.9], [-46.4, -28.9], [-41.0, -30.0]], "fill": "#2e8b3a", "width": 4, "color": "#123a18"},
+  {"type": "curve", "points": [[-46, 22], [-38, 14], [-46, 4], [-38, -6], [-44, -16]], "width": 5, "color": "#ffe24a"},
+  {"type": "ellipse", "x": -44, "y": -18, "rx": 4, "ry": 4, "fill": "#ffe24a", "width": 0, "outline": false},
+  {"type": "text", "text": "SNAKE", "x": 10, "y": -10.0, "size": 19, "color": "#ffffff", "bold": true, "boil": 0},
+  {"type": "text", "text": "ISLAND", "x": 10, "y": 10.0, "size": 19, "color": "#ffffff", "bold": true, "boil": 0},
+  {"type": "poly", "points": [[55, -30], [39, -30], [55, -16]], "fill": "#f4efe6", "width": 0, "outline": false},
+  {"type": "poly", "points": [[39, -30], [53, -28], [55, -16]], "fill": "#ffffff", "width": 2, "color": "#123a18"},
+  {"type": "poly", "points": [[41.0, -30.0], [46.4, -28.9], [50.9, -25.9], [53.9, -21.4], [55.0, -16.0], [55.0, 16.0], [53.9, 21.4], [50.9, 25.9], [46.4, 28.9], [41.0, 30.0], [-41.0, 30.0], [-46.4, 28.9], [-50.9, 25.9], [-53.9, 21.4], [-55.0, 16.0], [-55.0, -16.0], [-53.9, -21.4], [-50.9, -25.9], [-46.4, -28.9], [-41.0, -30.0]], "fill": null, "width": 4, "color": "#123a18"}
+ ]
+}

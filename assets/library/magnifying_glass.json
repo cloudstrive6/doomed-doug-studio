@@ -1,0 +1,20 @@
+{
+ "name": "magnifying_glass",
+ "description": "Big magnifying glass: black handle, brass ferrule and thick brass rim, pale-blue lens with white glint. Anchor = handle end (Doug's hand); handle runs right and up, lens centre (+190,-60) r70. Bbox ~ x -13..+274, y -144..+13.",
+ "anchor": [0, 0],
+ "tags": ["prop", "magnifying glass", "science", "search"],
+ "elements": [
+  {"type": "line", "points": [[0, 0], [112, -36]], "width": 26, "color": "#000000"},
+  {"type": "line", "points": [[0, 0], [112, -36]], "width": 16, "color": "#2a2a2a"},
+  {"type": "line", "points": [[8, -8], [100, -38]], "width": 3, "color": "#6a6a6a"},
+  {"type": "line", "points": [[110, -35], [128, -41]], "width": 24, "color": "#b8862a"},
+  {"type": "ellipse", "x": 190, "y": -60, "rx": 84, "ry": 84, "fill": "#b8862a", "width": 5},
+  {"type": "ellipse", "x": 190, "y": -60, "rx": 70, "ry": 70, "fill": "#dff3ff", "width": 4},
+  {"type": "spray", "x": 200, "y": -50, "r": 50, "color": "#bfe6fb", "density": 0.25},
+  {"type": "poly", "points": [[111.1, -88.7], [116.5, -100.7], [123.8, -111.7], [132.7, -121.4], [143.0, -129.6], [154.5, -136.1], [166.8, -140.7], [179.8, -143.4], [192.9, -143.9], [206.0, -142.5], [218.7, -138.9], [213.9, -125.8], [203.4, -128.7], [192.4, -130.0], [181.5, -129.5], [170.7, -127.3], [160.4, -123.4], [150.9, -118.0], [142.3, -111.2], [134.8, -103.1], [128.8, -93.9], [124.2, -83.9]], "fill": "#e8c260", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 190, "y": -60, "rx": 84, "ry": 84, "fill": null, "width": 5},
+  {"type": "ellipse", "x": 190, "y": -60, "rx": 70, "ry": 70, "fill": null, "width": 4},
+  {"type": "ellipse", "x": 190, "y": -60, "rx": 52, "ry": 52, "start": 200, "end": 260, "width": 8, "color": "#ffffff"},
+  {"type": "ellipse", "x": 164, "y": -100, "rx": 6, "ry": 6, "fill": "#ffffff", "width": 0, "outline": false}
+ ]
+}

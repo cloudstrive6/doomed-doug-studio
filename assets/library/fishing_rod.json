@@ -1,0 +1,25 @@
+{
+ "name": "fishing_rod",
+ "description": "Long fishing rod held up into the storm: cork grip, small grey reel, pale-tan rod with dark edge (reads on night skies), grey line hanging from the tip to a red-white float at the water. Anchor = grip (Doug's sit-pose front hand). Tip (+340,-480), float (+360,-60).",
+ "anchor": [0, 0],
+ "tags": ["prop", "fishing", "rod", "lightning"],
+ "elements": [
+  {"type": "curve", "points": [[340, -480], [352, -380], [358, -220], [360, -60]], "width": 2, "color": "#a8a8a8"},
+  {"type": "ellipse", "x": 360, "y": -60, "rx": 7, "ry": 7, "fill": "#e0201b", "width": 2},
+  {"type": "line", "points": [[360, -67], [360, -53]], "width": 2, "color": "#ffffff"},
+  {"type": "line", "points": [[17.0, -24.0], [340, -480]], "width": 8, "color": "#000000"},
+  {"type": "line", "points": [[17.0, -24.0], [340, -480]], "width": 4, "color": "#d8b070"},
+  {"type": "line", "points": [[-6.8, 9.6], [68.0, -96.0]], "width": 16, "color": "#000000"},
+  {"type": "line", "points": [[-6.8, 9.6], [68.0, -96.0]], "width": 10, "color": "#c08850"},
+  {"type": "line", "points": [[8.6, -22.2], [18.6, -16.2]], "width": 2, "color": "#8a5a2a"},
+  {"type": "line", "points": [[25.6, -46.2], [35.6, -40.2]], "width": 2, "color": "#8a5a2a"},
+  {"type": "line", "points": [[42.6, -70.2], [52.6, -64.2]], "width": 2, "color": "#8a5a2a"},
+  {"type": "ellipse", "x": 95.2, "y": -134.4, "rx": 6, "ry": 6, "fill": "#2a2a2a", "width": 2},
+  {"type": "ellipse", "x": 187.0, "y": -264.0, "rx": 5, "ry": 5, "fill": null, "width": 2, "color": "#d8d8d8"},
+  {"type": "ellipse", "x": 272.0, "y": -384.0, "rx": 4, "ry": 4, "fill": null, "width": 2, "color": "#d8d8d8"},
+  {"type": "line", "points": [[81.6, -115.2], [95.6, -97.2]], "width": 4, "color": "#000000"},
+  {"type": "ellipse", "x": 103.6, "y": -85.2, "rx": 16, "ry": 16, "fill": "#8d9096", "width": 3},
+  {"type": "ellipse", "x": 103.6, "y": -85.2, "rx": 6, "ry": 6, "fill": "#3a3a3a", "width": 2},
+  {"type": "line", "points": [[103.6, -85.2], [123.6, -81.2]], "width": 3, "color": "#000000"}
+ ]
+}

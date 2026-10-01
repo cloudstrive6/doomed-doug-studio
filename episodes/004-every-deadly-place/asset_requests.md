@@ -26,6 +26,7 @@ outer outline must be clean and recognisable.
 ## Art director: series lore (`places` playlist)
 
 ### travel_suitcase (A, art director owns the drawing)
+- **Status: DONE** (illustrator, 004): `travel_suitcase`. Preview: `assets/previews/004-every-deadly-place-assets.png` **Drawn by the illustrator: needs art-director approval (AD-owned).**
 - **What:** Doug's suitcase, the standard prop of the `places` playlist (series bible, from 004). It is a battered
   MS Paint travel suitcase. It must be **clearly distinct** from the over-packed `suitcase.json`: no "HEAVY" tag,
   no escaping sock and no bulging straps.
@@ -45,6 +46,7 @@ outer outline must be clean and recognisable.
   s125-s129, s140, s146-s151, s171-s174, s177, s199-s204, s220-s221, s223, s237-s245, s273-s282.
 
 ### Travel stickers (A, art director, 9 assets, one per death)
+- **Status: DONE** (illustrator, 004): `sticker_death_valley`, `sticker_snake_island`, `sticker_morecambe_bay`, `sticker_antarctica`, `sticker_everest`, `sticker_naica`, `sticker_dallol`, `sticker_nyos`, `sticker_nyiragongo`. Preview: `assets/previews/004-every-deadly-place-assets.png` **Drawn by the illustrator: needs art-director approval (AD-owned).**
 - **What:** crude travel stickers, one per place where Doug died. Survivals (Lake Natron, Lake Maracaibo) get none.
 - **Look:** each is about 110 x 60 (x -55..+55, y -30..+30), anchor centre. Use a different flat sticker shape and
   colour per place (oval, rectangle, scalloped, pennant), a 3-4 px dark outline, a slightly peeling corner, and the
@@ -72,6 +74,7 @@ outer outline must be clean and recognisable.
 ## Worn props and Doug-adjacent (art director approves)
 
 ### flip_flops (A) and flip_flops_cracked (C)
+- **Status: DONE** (illustrator, 004): `flip_flops`, `flip_flops_cracked`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** Doug's flip-flops, worn across the Hours and Minutes bands (script: Death Valley, Natron, Antarctica).
 - **Look:** two flat soles under Doug's stand-pose feet, centred at about (±32, +150) and each about 60 x 18, with a
   thin Y strap rising to the foot point. Bright cheap colours: a blue sole and a yellow strap. `flip_flops_cracked` has
@@ -81,6 +84,7 @@ outer outline must be clean and recognisable.
 - **Shots:** flip_flops s011-s014, s022, s104, s125-s128; flip_flops_cracked s101.
 
 ### flamingo_costume (A, costume gag)
+- **Status: DONE** (illustrator, 004): `flamingo_costume`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** Doug zipped into a **lesser flamingo** costume to "blend in" (the costume gag, played straight). The red cap
   stays on top, and his head and face stay fully visible.
 - **Look:** a pink (`#f4a3b8`, deeper `#e0708f` wing patch) feathered body suit from the shoulders (y -130) to below the
@@ -92,6 +96,7 @@ outer outline must be clean and recognisable.
 - **Shots:** s098-s100.
 
 ### zapped_hair (B)
+- **Status: DONE** (illustrator, 004): `zapped_hair`. Preview: `assets/previews/004-every-deadly-place-assets.png`. Drawn for the **sit** pose (rig head centre (0,-148) = stand -218 + drop 70, checked); for a standing Doug place it at y - 70 x scale.
 - **What:** after the lightning strike, "his hair is pointing in several new directions".
 - **Look:** spiky black hair tufts poking out **under the cap brim and behind the ears** (6-8 jagged spikes around the
   head outline at y -300..-160), plus two tiny soot smudges on the cheeks. Do not cover the eyes, mouth or cap. This is
@@ -102,6 +107,7 @@ outer outline must be clean and recognisable.
 - **Shots:** s240-s244.
 
 ### cooling_suit (C)
+- **Status: DONE** (illustrator, 004): `cooling_suit`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** the ice-packed cooling suit that Naica scientists wore.
 - **Look:** a bulky pale-orange coverall with a grid of blue ice-pack pouches on the chest and sleeves, worn over the
   `scientist` asset. Leave the face and glasses visible.
@@ -113,6 +119,7 @@ outer outline must be clean and recognisable.
 ## Snake Island
 
 ### golden_lancehead (A, SIL)
+- **Status: DONE** (illustrator, 004): `golden_lancehead`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** golden lancehead pit viper (*Bothrops insularis*), endemic to Queimada Grande. It is the item's hero.
 - **Look:** a pale golden-yellow to tan body (`#d9b44a`, darker blotches `#a8862a`), coiled on a branch with the
   head raised to the right. It has a broad **arrow-shaped (lance) head**, a dark stripe behind the eye, a vertical
@@ -125,6 +132,7 @@ outer outline must be clean and recognisable.
 ## Morecambe Bay
 
 ### sands_guide (C)
+- **Status: DONE** (illustrator, 004): `sands_guide`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** a crude-tier human: the King's Guide to the Sands, who leads walkers across the bay.
 - **Look:** Doug's tier (5 px lines, round head with crescent). Give him a **green** flat cap (not red, so he can't be
   mistaken for Doug), wellies, and a tall bare branch or staff held upright.
@@ -134,6 +142,7 @@ outer outline must be clean and recognisable.
 ## Lake Natron
 
 ### lesser_flamingo (A)
+- **Status: DONE** (illustrator, 004): `lesser_flamingo`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** lesser flamingo (*Phoeniconaias minor*), adult, standing in shallow water.
 - **Look:** deep pink body with crimson wing coverts, long thin pink legs, an S-neck, and a **dark, almost black-red,
   downturned bill** (lesser flamingos have a darker bill than greater ones) with a red eye. Detailed tier.
@@ -142,6 +151,7 @@ outer outline must be clean and recognisable.
 - **Shots:** s086-s090, s098-s100, s102.
 
 ### flamingo_chick (A, the creative director's nursery kicker)
+- **Status: DONE** (illustrator, 004): `flamingo_chick`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** a lesser flamingo chick for the Natron kicker "the main nursery of the lesser flamingo" (s102). The CD
   wants this beat to land visually.
 - **Look:** a fluffy **grey-white down** chick (not pink yet) with a straight, short, dark bill (chicks' bills aren't
@@ -151,12 +161,14 @@ outer outline must be clean and recognisable.
 - **Shots:** s102.
 
 ### flamingo_nest (B)
+- **Status: DONE** (illustrator, 004): `flamingo_nest`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** a flamingo mud nest: a low truncated cone of dried mud with a shallow dip on top.
 - **Look:** grey-brown mud cone, about 220 wide x 110 tall, with a few crack lines. Empty top (no egg).
 - **Anchor:** bottom-centre.
 - **Shots:** s089-s090, s102.
 
 ### jackal (C)
+- **Status: DONE** (illustrator, 004): `jackal`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** the predator kept out by the caustic moat (s090), a black-backed jackal.
 - **Look:** a slim dog-like canid facing right, with a ginger body, a black-and-silver saddle on the back, big ears and
   a bushy tail. Standing alert at the water's edge.
@@ -164,6 +176,7 @@ outer outline must be clean and recognisable.
 - **Shots:** s090 (with a red X over it).
 
 ### stone_bird (B) and stone_bat (C)
+- **Status: DONE** (illustrator, 004): `stone_bird`, `stone_bat`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** the chalky, salt-preserved animals from Nick Brandt's photos. We never use his photos; this is our own
   cartoon stand-in.
 - **Look:**
@@ -176,6 +189,7 @@ outer outline must be clean and recognisable.
 - **Shots:** stone_bird s092-s097; stone_bat s094-s095.
 
 ### ammonia_bottle (C)
+- **Status: DONE** (illustrator, 004): `ammonia_bottle`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** a household ammonia bottle, the pH 11 comparison.
 - **Look:** a plain white plastic jug-bottle with a blue cap and a blank blue label. **No brand.** About 160 x 380.
 - **Anchor:** bottom-centre.
@@ -184,6 +198,7 @@ outer outline must be clean and recognisable.
 ## Antarctic Plateau
 
 ### research_hut (B)
+- **Status: DONE** (illustrator, 004): `research_hut`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** a small polar station hut for "Vostok Station".
 - **Look:** a low box hut on short stilts, with orange-red walls, one small square window glowing yellow, a radio mast,
   snow drifts against the walls, and snow on the roof. No flags or text.
@@ -191,12 +206,14 @@ outer outline must be clean and recognisable.
 - **Shots:** s104, s107-s110, s114, s125-s128.
 
 ### sunscreen (C)
+- **Status: DONE** (illustrator, 004): `sunscreen`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** a tube of sunscreen in Doug's front hand.
 - **Look:** a white squeeze tube with an orange flip cap and a yellow sun symbol. No brand. About 70 x 180.
 - **Anchor:** centre (where the hand grips).
 - **Shots:** s125-s128.
 
 ### satellite (B)
+- **Status: DONE** (illustrator, 004): `satellite`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** a generic Earth-observation satellite (used for the Antarctic ridge map and the NASA lightning sensor).
 - **Look:** a gold-foil box body with two blue solar panel wings and a small dish or sensor pointing down. No logos.
 - **Anchor:** centre, about 520 x 260.
@@ -205,6 +222,7 @@ outer outline must be clean and recognisable.
 ## Everest Death Zone
 
 ### climber (B)
+- **Status: DONE** (illustrator, 004): `climber`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** a crude-tier mountaineer (Doug's tier, no red cap).
 - **Look:** an orange down suit, a blue beanie, a backpack with a **yellow oxygen bottle** and a hose to a small face
   mask, and an ice axe in one hand. `"auto_ink": true`.
@@ -212,6 +230,7 @@ outer outline must be clean and recognisable.
 - **Shots:** s136-s138 (tiny at 0.25 on the route, and at 0.6 for "bottled oxygen").
 
 ### helicopter (C)
+- **Status: DONE** (illustrator, 004): `helicopter`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** the helicopter that drops Doug on the summit.
 - **Look:** a small red-and-white helicopter in side view facing right (I flip it), with the rotor as a long flat line
   and skids.
@@ -221,6 +240,7 @@ outer outline must be clean and recognisable.
 ## Cave of Crystals
 
 ### gypsum_crystal (A)
+- **Status: DONE** (illustrator, 004): `gypsum_crystal`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** one giant selenite (gypsum) crystal beam from Naica, reused many times and rotated to build the cave.
 - **Look:** a long, faceted, translucent milky-white prism (`#f5f0d8`, face shading `#e2dcbf` and `#cfc8a8`), with
   long straight facets, squared or slightly pointed ends, a faint inner glow and a few white highlight streaks.
@@ -229,6 +249,7 @@ outer outline must be clean and recognisable.
 - **Shots:** s151, s153-s162, s167-s176 (Doug sits on it at s171-s174).
 
 ### humidity_meter (C)
+- **Status: DONE** (illustrator, 004): `humidity_meter`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** a dial hygrometer.
 - **Look:** a round dial with a brass rim, a white face, a red needle pointed near the top end, and a small droplet icon
   on the face. No text other than optional 0 and 100.
@@ -236,6 +257,7 @@ outer outline must be clean and recognisable.
 - **Shots:** s161-s162.
 
 ### kitchen_timer (B)
+- **Status: DONE** (illustrator, 004): `kitchen_timer`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** Doug's ten-minute kitchen timer.
 - **Look:** a white round dial kitchen timer with a twist top and a red pointer. Optionally egg-shaped, about 220 x 220.
 - **Anchor:** centre.
@@ -244,6 +266,7 @@ outer outline must be clean and recognisable.
 ## Dallol
 
 ### magnifying_glass (B)
+- **Status: DONE** (illustrator, 004): `magnifying_glass`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** Doug's big magnifying glass.
 - **Look:** a black handle and a round lens (r about 70) with a thick brass rim and a white glint.
 - **Anchor:** **the handle end**, which is Doug's hand. The handle runs to the right and slightly up, and the lens
@@ -251,6 +274,7 @@ outer outline must be clean and recognisable.
 - **Shots:** s199-s200.
 
 ### lemon (C)
+- **Status: DONE** (illustrator, 004): `lemon`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** a lemon, the pH 2 comparison.
 - **Look:** a yellow lemon with darker dimple dots and a small green leaf. About 220 x 150.
 - **Anchor:** centre.
@@ -259,6 +283,7 @@ outer outline must be clean and recognisable.
 ## Lake Nyos (sombre item: plain, factual drawings only)
 
 ### soda_bottle (C)
+- **Status: DONE** (illustrator, 004): `soda_bottle`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** "a sealed bottle of soda" (dissolved CO2 under pressure).
 - **Look:** a clear green plastic soda bottle with the cap on and small bubbles inside. No label or brand.
   About 140 x 380.
@@ -266,6 +291,7 @@ outer outline must be clean and recognisable.
 - **Shots:** s208.
 
 ### degassing_raft (B)
+- **Status: DONE** (illustrator, 004): `degassing_raft`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** the Lake Nyos degassing pipe: a small floating raft with a vertical pipe that sends up a fountain of water.
 - **Look:** a small grey-and-orange raft platform (about 360 wide) floating at the waterline, with a thin vertical pipe
   rising to a **white water-and-gas fountain plume** about 200 tall. Only a short pipe stub shows below the waterline
@@ -276,6 +302,7 @@ outer outline must be clean and recognisable.
 ## Lake Maracaibo
 
 ### storm_cloud (A)
+- **Status: DONE** (illustrator, 004): `storm_cloud`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** a towering night thunderstorm cloud over the lake (Catatumbo lightning).
 - **Look:** a dark slate-purple cumulonimbus (`#3a3a55`, lighter tops `#5a5a7a`), lumpy with a flat-ish base and an
   inner glow spray in pale yellow where lightning lights it. I draw the bolts separately, so draw no bolts.
@@ -283,6 +310,7 @@ outer outline must be clean and recognisable.
 - **Shots:** s223, s225, s230, s232-s238, s240-s244.
 
 ### fishing_rod (B)
+- **Status: DONE** (illustrator, 004): `fishing_rod`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** Doug's long fishing rod, held up into the storm.
 - **Look:** a thin rod with a cork grip and a small reel. The rod runs up and to the right to its tip at about
   (+340,-480), and a fishing line hangs from the tip down to the water at about (+360,-60).
@@ -291,6 +319,7 @@ outer outline must be clean and recognisable.
 - **Shots:** s237-s244.
 
 ### water_bottle (C, Death Valley)
+- **Status: DONE** (illustrator, 004): `water_bottle`. Preview: `assets/previews/004-every-deadly-place-assets.png`
 - **What:** Doug's one small water bottle.
 - **Look:** a small clear plastic bottle with a blue cap and a little water inside, about 50 x 120.
 - **Anchor:** the grip centre (Doug's front hand). It is drawn upside down and empty at s022.

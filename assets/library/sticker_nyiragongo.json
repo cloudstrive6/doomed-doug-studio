@@ -1,0 +1,16 @@
+{
+ "name": "sticker_nyiragongo",
+ "description": "Travel sticker for NYIRAGONGO (~110x60, anchor centre): lava-red shield pennant with a tiny erupting volcano icon, yellow text. Slightly peeling corner, bold caps text sized to stay legible at scale 0.5-0.6. Art-director-owned series lore (places playlist).",
+ "anchor": [0, 0],
+ "tags": ["sticker", "travel", "places", "suitcase", "nyiragongo", "volcano", "lava"],
+ "elements": [
+  {"type": "poly", "points": [[-55, -30], [55, -30], [55, 6], [0, 30], [-55, 6]], "fill": "#d8361a", "width": 4, "color": "#4a0a00"},
+  {"type": "poly", "points": [[-52, 4], [-40, -14], [-32, -14], [-22, 4]], "fill": "#5a2a1a", "width": 2, "color": "#4a0a00"},
+  {"type": "poly", "points": [[-40, -14], [-36, -22], [-32, -14]], "fill": "#ffb000", "width": 0, "outline": false},
+  {"type": "text", "text": "NYIRA", "x": 10, "y": -13.5, "size": 18, "color": "#ffe24a", "bold": true, "boil": 0, "outline": "#4a0a00", "outline_width": 2},
+  {"type": "text", "text": "GONGO", "x": 10, "y": 5.5, "size": 18, "color": "#ffe24a", "bold": true, "boil": 0, "outline": "#4a0a00", "outline_width": 2},
+  {"type": "poly", "points": [[55, -30], [39, -30], [55, -16]], "fill": "#f4efe6", "width": 0, "outline": false},
+  {"type": "poly", "points": [[39, -30], [53, -28], [55, -16]], "fill": "#ffffff", "width": 2, "color": "#4a0a00"},
+  {"type": "poly", "points": [[-55, -30], [55, -30], [55, 6], [0, 30], [-55, 6]], "fill": null, "width": 4, "color": "#4a0a00"}
+ ]
+}
