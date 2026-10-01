@@ -173,3 +173,26 @@ at full resolution from `build/keyframes/`.
 Policy: no gore. The ghost Doug in s279 and s282 is the standard cartoon death. The tone is adult and not cutesy.
 
 VERDICT: PASS
+
+## Thumbnail final, 2026-10-01
+
+Scope: `build/thumbnail.png` (1280x720), `build/thumbnail_small.png` (320x180), plus a 168x94 downscale for feed
+size. Checked after the creative director's tweaks: a bigger Natron Doug and icicles on the Antarctic tile.
+
+- Natron Doug: **reads.** He's now as tall as the left flamingo, and the red cap and white head pop against the pink.
+  At 168x94 the red cap is still a clear dot of red with a white face under it, so "Doug is in this" now reads at feed
+  size, which closes the round 1 advisory. The flamingo costume is on-brief (`thumbnail.json` note) and fits the
+  locked design: cap and head unchanged. His body is cut off by the tile's lower edge, which reads as standing
+  waist-deep in the lake. That's fine.
+- Antarctic tile: **improved.** Two clusters of three icicles hang from the top corners, with frost sprays under them
+  and frost sparkle around the window. The cabin now reads as besieged by cold rather than cosy. The icicles still
+  show as white teeth at 168 px. They touch the tile border and nothing else, and they stay clear of the antenna and
+  the label.
+- Whole grid: all 9 labels are spelled correctly and uncropped. They're legible at 320 px and blur at 168 px, as
+  expected for this archetype, but the colour blocks and icons (sun, snakes, Doug, cabin, peak, crystals, cones,
+  lightning, volcano and warning sign) carry the read. The severity colour run and the Nyiragongo boss tile are
+  intact. It complements "What Dying in Every Deadly Place on Earth Would Be Like" and isn't misleading. No gore, and
+  it isn't kid-coded.
+- Non-blocking: none.
+
+VERDICT: PASS
