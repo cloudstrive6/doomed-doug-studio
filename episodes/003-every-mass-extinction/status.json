@@ -39,7 +39,22 @@
       "stage": "packaged",
       "at": "2026-10-01T06:47:20+00:00",
       "note": "script 3 rounds, art 2 rounds, thumbnail 1 round; narration done"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-01T06:55:24+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-01T07:10:22+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-01T07:24:35+00:00",
+      "note": "final render"
     }
   ],
-  "stage": "packaged"
+  "stage": "built"
 }

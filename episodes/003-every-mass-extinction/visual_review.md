@@ -61,3 +61,85 @@ These were not changed. They are fine to ship, but fix them if the director does
 - Graphic designer: optional thumbnail label size.
 - Illustrator: optional s122.
 - Next gate: art_approved. Post-render review (samples, qc.json, shorts) is due after `render --final`.
+
+## Round 3: post-render (final.mp4, thumbnail, Shorts) (2026-10-01)
+
+VERDICT: FAIL (the main video and thumbnail pass; the Shorts fail)
+
+### Main video: PASS
+- qc.json shows 0 problems, and the duration is 997.1 s. I checked all 33 samples, plus extra frames from 0-30 s and 930-997 s.
+- No black or glitched frames, and no frozen shots. Doug is on-model throughout. The death counter reads 18 at the open and 27 at the end.
+- f_033 (about 975 s) is a near-white frame. This is the intended impact flash at the start of s246 (white with yellow spray, about 2 s before
+  the strata appear), so it is not a blank-frame fault.
+- Sparse moments, non-blocking: f_009 (dead reefs, only a fish and Doug) and f_022 (Pangaea, a bare timeline line) are mid-reveal
+  states. s247 shows a near-empty grey frame with a tiny Doug for about 2.5 s before the feathered dinosaur appears at 0.48. That last one is optional polish.
+- Round 2 polish items are still open and still non-blocking.
+
+### Thumbnail: PASS
+- The 1280x720 3x3 grid is clean. All 9 labels are legible and none repeats a word from the title. Doug is in the Hot Tub tile.
+- At 320x180 every label and tile reads. The bigger labels (round 2 note) survive at feed size, and the Gondwana ice cap now has a dark outline and reads as ice.
+  It fits the title "How Doug Would Die in Every Mass Extinction" and is not misleading.
+
+### Shorts: FAIL
+Titles, subtitles, the @DoomedDoug handle and the end cards (the arrow points down to the link) are all fine in short01-03 and the previews.
+The problem is the Shorts zoom-crop. Only x 260..1660 of the 1920 frame survives (studio/shorts.py, ZOOM 1.25). Several shots in the Short
+ranges put content outside that band, so it is cut off at the sides.
+
+Required fixes (director: composition; editor: re-render). The x values below are scene coordinates in shotlist.json.
+1. s101, s102, s103 (short03): the right-hand label "COAL" shows as "COA". Move it from x 1700 to x 1560.
+2. s103 (short03): the right-hand label "MAGMA" shows as "MAGI". Move it from x 1700 to x 1560. Also move Doug from x 1680 to x 1580 (his head is at the edge).
+3. s233 (short01): the thermometer at x 1780, which carries the "cooled" beat, is lost in the Short. Move it to x 1540.
+4. Doug is half cut at the right edge. Move him from x 1700/1750 to x 1600:
+   - short01: s228, s229, s231, s232
+   - short02: s112, s114, s115, s116, s117, s118 (s116: also move exclamation_mark from 1700 to 1600)
+   - short03: s099
+   In the 16:9 video the new positions still sit on the right third, so the composition is unchanged.
+5. Then re-render the touched main-video shots plus `render --final`, and run `shorts render`. Re-check the Short frames.
+   (Alternative if the main render must stay frozen: the editor adds a per-short x-shift/zoom override in shorts.py. Moving the elements is simpler.)
+
+Non-blocking:
+- short02_preview.png caption is caught mid-word ("exact temperature t"). Grab the preview at a caption boundary if that is easy.
+- The s226/s227 and s098 world maps are deliberately oversized and cropped. Siberia and Mexico stay in frame, so this is OK.
+- Decorative ferns at x 220/1750 in s233-s234 get cut. That is fine.
+
+### Routing
+- Director: fixes 1-4. Editor: fix 5 (re-render final + shorts). After that, I re-run the post-render check on the Shorts only.
+
+## Round 4: Shorts re-check after the x fixes, plus a main-video spot check (2026-10-01)
+
+VERDICT: FAIL (2 small fixes, both in the Shorts crop. The main video and thumbnail still pass.)
+
+### Round 3 fixes: all verified in the fresh render
+- short03, s100-s103: "COAL" (now x 1560) and "MAGMA" read in full. Doug (x 1580/1600) is whole in s099-s103.
+- short01, s233: the thermometer (now x 1540) is fully in frame and carries the "cooled" beat. Doug is whole in s228, s229, s231 and s232.
+- short02, s112-s118: Doug is whole, and the "40°C" and "LAND: 50-60°C" labels are fully in frame. The s116 exclamation mark is in frame.
+- Titles, subtitles, the @DoomedDoug handle and the end cards (the arrow points down to the link) are fine in all three Shorts. Durations are 45.3 s, 24.1 s and 32.8 s.
+
+### Main video: PASS (spot check)
+- qc.json shows 0 problems, and the duration is 997.1 s. In the 33 samples, the moved elements (COAL/MAGMA, thermometer, Doug at x 1600) look natural in 16:9.
+  No new crops or overlaps, and no black or frozen frames. f_033 is still the intended s246 impact flash.
+
+### Editor's question, s229 calendar: yes, it is a real problem
+In short01 at about 10 s, on the line "...on a single day.", the calendar (x 1650, scale 0.7, about 1505-1795 in scene coordinates) is cut
+roughly in half at the right edge. The "Y" of the "1 DAY" label touches the frame edge. This is the visual payoff of the Short's thesis
+(blast day vs. thousands of years), and a half-cut drawing on that beat looks like a framing mistake. The "SINGLE DAY" wordart softens it but does not cover it.
+
+### Required fixes (director: composition; editor: re-render)
+1. s229 (short01): move the `calendar` asset and the "1 DAY" label from (1650, 450) to (1360, 870). That puts them bottom-right, right of the "SINGLE DAY" wordart
+   and left of Doug at x 1600, inside 260-1660. Keep appear 0.73. Check that "SINGLE DAY" (x 850, size 100) does not touch the calendar. If it does, move the wordart to x 760.
+2. s120 (short02): the control panel runs to x 1740, and the red-X "off" button (x 1640, r 50) has its X clipped at the right edge on "no button to turn it down".
+   Shift the whole panel group 90-120 px left:
+   - rect x 1300 to x 1220, w 440 to w 400
+   - dial circle, needle line and "MAX" label x 1420 to x 1330 (shift the needle points by -90)
+   - button circle and `red_x` x 1640 to x 1520
+3. Editor: re-render s120 and s229, then run `render --final` and `shorts render`. I will re-check short01 at about 10 s and short02 at about 19 s only.
+
+### Non-blocking
+- s098 (short03 hook): Doug at x 260 is fully visible but sits flush on the left crop edge. x 330 would give some breathing room. Optional.
+- short01_preview: the "A FEW HOURS" label is flush against the right edge but fully readable. Optional nudge left by 40 px.
+- short02_preview caption is still caught mid-word ("exact temperature t"). Optional.
+- s111 hook (short02): the rubber ring at x 1560 touches the right crop edge. Optional.
+- Round 2 polish items are unchanged and still non-blocking.
+
+### Routing
+- Director: fixes 1-2. Editor: fix 3. Visual screener: a targeted Shorts re-check (round 5).
