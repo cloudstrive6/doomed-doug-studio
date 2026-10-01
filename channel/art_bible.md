@@ -33,7 +33,10 @@ desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never
   white on dark backgrounds, exactly like Doug; face and costume details inside white shapes carry
   `"keep_ink": true` so they stay black.
 - **Costumes/props worn over Doug** (e.g. `squid_costume`) are props, not design changes: they sit on top of the rig
-  at the same x/y/scale, and must leave Doug's head, face and red cap fully visible. Use upright poses only.
+  at the same x/y/scale, and must leave Doug's head, face and red cap fully visible. Use upright poses, except
+  for a death beat: the prop may go on a `lie` Doug rotated -90 (003: `snorkel_gear`, `ammonite_costume_flat`).
+  Anything the prop carries on Doug's back (shells, tanks) then points *down*, so keep Doug high enough that it
+  stays in frame.
 - **Creatures and places: the detailed tier**: cleaner cartoon illustrations with layered fills, interior shading
   (`spray`, darker back / lighter belly), texture strokes at 2–3, outlines 3–5. The contrast is part of the joke.
 
@@ -41,6 +44,15 @@ desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never
 Caption bar (automatic) · `wordart` keyword labels (yellow→green gradient, 1–4 words, max 2 on screen) · red curved
 arrows · red ? and ! · warning triangle · red X · thermometer · dotted distance lines · silhouette + red glow for
 reveals · real photos only public-domain/licensed with a 4 px black frame.
+
+**Silhouette glow sizing.** The engine sprays the glow as a disc at the asset's *anchor* with radius
+`glow_r x scale`, drawn behind the black shape. So:
+- `glow_r` must be larger than the drawing's half-width (rule of thumb: about 0.7 x the asset's local width, e.g.
+  asteroid 400 wide → 280, dunkleosteus 600 → 420), or the glow hides entirely behind the silhouette.
+- Bottom-anchored assets (feet on the ground) put the glow centre at the feet: half of it lands on the ground.
+  Prefer a centre-anchored asset, or skip `glow` and add a `spray` at the body centre yourself.
+- Never put the colour reveal in the same shot on top of a glowing silhouette: the leftover red spray peeks out
+  under the creature and reads as a blood puddle. Silhouette in one shot, colour in the next (1-3 beats later).
 
 ## Text
 Font: Arimo (bundled, Arial look-alike = classic MS Paint text). `label` boxes for depths, names and numbers.
