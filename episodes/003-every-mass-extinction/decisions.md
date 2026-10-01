@@ -62,3 +62,5 @@
   dashes, s098 map crop, s228/s229 bar labels) are optional. The director may do them in the editor pass if time
   allows, re-rendering only the touched shots. Not blocking.
 - Next: the showrunner sets `packaged`, then the editor narrates and renders.
+
+- 2026-10-01: packaged. Script 3 rounds (sourcing/joke density), art assets 1 round, keyframes 2 rounds (new on_back death pose + sunburn gear + time_machine added), thumbnail 1 round. Risks: channel speaking_rate raised 1.1->1.145 (config/channel.yaml) to reach 190+ wpm; validate.py now strips HTML comments from the word count; audio pronunciation of era names not listened to; minor polish items left (s047 flipper, s098 crop, s210 dashes, s228/229 bar labels).
