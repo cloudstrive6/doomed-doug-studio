@@ -144,7 +144,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 36",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -327,7 +327,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 36",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -895,7 +895,7 @@
    "camera": {
     "move": "zoom_in",
     "x": 1500,
-    "y": 400,
+    "y": 580,
     "zoom": 1.08
    }
   },
@@ -3041,7 +3041,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 37",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -3177,7 +3177,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 37",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -6768,13 +6768,13 @@
      {
       "type": "asset",
       "name": "time_machine",
-      "x": 1650,
+      "x": 1400,
       "y": 860,
       "scale": 0.7
      },
      {
       "type": "rect",
-      "x": 1390,
+      "x": 1140,
       "y": 302.0,
       "w": 470,
       "h": 80,
@@ -6785,7 +6785,7 @@
      {
       "type": "text",
       "text": "36,000 YEARS AGO",
-      "x": 1625,
+      "x": 1375,
       "y": 342.0,
       "size": 40,
       "color": "#fff36b",
@@ -6794,7 +6794,7 @@
      },
      {
       "type": "rect",
-      "x": 1420,
+      "x": 1170,
       "y": 302,
       "w": 460,
       "h": 80,
@@ -6806,7 +6806,7 @@
      {
       "type": "text",
       "text": "1984",
-      "x": 1650,
+      "x": 1400,
       "y": 342,
       "size": 44,
       "color": "#fff36b",
@@ -6823,7 +6823,7 @@
      },
      {
       "type": "doug",
-      "x": 1300,
+      "x": 1215,
       "y": 769,
       "scale": 0.6,
       "pose": "stand",
@@ -6834,7 +6834,7 @@
      {
       "type": "asset",
       "name": "stew_bowl",
-      "x": 1190,
+      "x": 1110,
       "y": 690,
       "scale": 0.8,
       "appear": 0.95
@@ -6942,7 +6942,7 @@
      {
       "type": "asset",
       "name": "time_machine",
-      "x": 1650,
+      "x": 1400,
       "y": 860,
       "scale": 0.7
      },
@@ -6955,7 +6955,7 @@
      },
      {
       "type": "doug",
-      "x": 1300,
+      "x": 1215,
       "y": 769,
       "scale": 0.6,
       "pose": "stand",
@@ -6965,19 +6965,19 @@
      {
       "type": "asset",
       "name": "stew_bowl",
-      "x": 1190,
+      "x": 1110,
       "y": 690,
       "scale": 0.8
      },
      {
       "type": "speech",
-      "x": 1335,
+      "x": 1250,
       "y": 470,
       "w": 240,
       "h": 110,
       "text": "nice",
       "tail": [
-       1308,
+       1223,
        576
       ],
       "size": 50,
@@ -6986,7 +6986,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 37",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -7121,7 +7121,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 37",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -7264,7 +7264,7 @@
      },
      {
       "type": "doug",
-      "x": 1750,
+      "x": 1600,
       "y": 792,
       "scale": 0.45,
       "pose": "stand",
@@ -7590,7 +7590,7 @@
    "camera": {
     "move": "zoom_in",
     "x": 1270,
-    "y": 400,
+    "y": 580,
     "zoom": 1.08
    }
   },
@@ -8950,7 +8950,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 38",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -9973,7 +9973,7 @@
      },
      {
       "type": "doug",
-      "x": 1700,
+      "x": 1580,
       "y": 684,
       "scale": 0.5,
       "pose": "stand",
@@ -10310,7 +10310,7 @@
      {
       "type": "asset",
       "name": "scientist",
-      "x": 1600,
+      "x": 1450,
       "y": 760,
       "scale": 0.7,
       "flip": true,
@@ -10319,7 +10319,7 @@
      {
       "type": "label",
       "text": "SOUTH KOREA",
-      "x": 1600,
+      "x": 1420,
       "y": 300,
       "size": 46,
       "bold": true,
@@ -10918,7 +10918,7 @@
      {
       "type": "asset",
       "name": "batagaika_foal_mummy",
-      "x": 1600,
+      "x": 1400,
       "y": 1000,
       "scale": 0.7,
       "rotate": -8
@@ -10926,7 +10926,7 @@
      {
       "type": "label",
       "text": "42,000 YEARS",
-      "x": 1600,
+      "x": 1400,
       "y": 860,
       "size": 46,
       "bold": true,
@@ -10936,7 +10936,7 @@
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 1250,
+      "x": 1150,
       "y": 860,
       "scale": 0.5,
       "rotate": 30,
@@ -10945,7 +10945,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 39",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -11311,7 +11311,7 @@
    "camera": {
     "move": "zoom_in",
     "x": 340,
-    "y": 400,
+    "y": 580,
     "zoom": 1.08
    }
   },
@@ -13233,7 +13233,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 39",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -13372,7 +13372,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 39",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -14480,7 +14480,7 @@
    "camera": {
     "move": "zoom_in",
     "x": 1000,
-    "y": 400,
+    "y": 580,
     "zoom": 1.08
    }
   },
@@ -15283,7 +15283,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 40",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -15382,7 +15382,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 40",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -15724,7 +15724,7 @@
    "camera": {
     "move": "zoom_in",
     "x": 1400,
-    "y": 450,
+    "y": 580,
     "zoom": 1.08
    }
   },
@@ -16471,8 +16471,8 @@
        400
       ],
       "to": [
-       1260,
-       600
+       1190,
+       630
       ],
       "bend": -40,
       "color": "#e0201b",
@@ -17596,7 +17596,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 41",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -19159,7 +19159,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 42",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -19674,7 +19674,7 @@
    "camera": {
     "move": "zoom_in",
     "x": 1010,
-    "y": 400,
+    "y": 580,
     "zoom": 1.08
    }
   },
@@ -22821,7 +22821,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 43",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -23294,7 +23294,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 43",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -23586,7 +23586,7 @@
    "camera": {
     "move": "zoom_in",
     "x": 1000,
-    "y": 400,
+    "y": 580,
     "zoom": 1.08
    }
   },
@@ -24475,7 +24475,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 44",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -26082,7 +26082,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 45",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -27802,7 +27802,7 @@
      },
      {
       "type": "doug",
-      "x": 1650,
+      "x": 1400,
       "y": 824,
       "scale": 0.5,
       "pose": "stand",
@@ -27845,8 +27845,8 @@
      {
       "type": "arrow",
       "from": [
-       400,
-       200
+       540,
+       205
       ],
       "to": [
        700,
@@ -27861,7 +27861,7 @@
      {
       "type": "label",
       "text": "STALK EYES",
-      "x": 360,
+      "x": 480,
       "y": 160,
       "size": 46,
       "bold": true,
@@ -27871,7 +27871,7 @@
      {
       "type": "arrow",
       "from": [
-       1500,
+       1420,
        300
       ],
       "to": [
@@ -27887,7 +27887,7 @@
      {
       "type": "label",
       "text": "THIRD EYE",
-      "x": 1550,
+      "x": 1450,
       "y": 240,
       "size": 50,
       "bold": true,
@@ -27906,7 +27906,7 @@
      },
      {
       "type": "doug",
-      "x": 200,
+      "x": 400,
       "y": 944,
       "scale": 0.35,
       "pose": "stand",
@@ -27944,7 +27944,7 @@
      {
       "type": "asset",
       "name": "exclamation_mark",
-      "x": 1600,
+      "x": 1450,
       "y": 500,
       "scale": 0.6,
       "appear": 0.35
@@ -27994,7 +27994,7 @@
      {
       "type": "label",
       "text": "84 FOSSILS",
-      "x": 300,
+      "x": 500,
       "y": 160,
       "size": 50,
       "bold": true,
@@ -28022,7 +28022,7 @@
      {
       "type": "label",
       "text": "506 MILLION YEARS",
-      "x": 1500,
+      "x": 1380,
       "y": 160,
       "size": 46,
       "bold": true,
@@ -28031,7 +28031,7 @@
      },
      {
       "type": "doug",
-      "x": 200,
+      "x": 400,
       "y": 944,
       "scale": 0.35,
       "pose": "stand",
@@ -28104,7 +28104,7 @@
      {
       "type": "arrow",
       "from": [
-       1500,
+       1480,
        860
       ],
       "to": [
@@ -28120,7 +28120,7 @@
      {
       "type": "label",
       "text": "CLAWS",
-      "x": 1560,
+      "x": 1500,
       "y": 920,
       "size": 46,
       "bold": true,
@@ -28129,7 +28129,7 @@
      },
      {
       "type": "doug",
-      "x": 200,
+      "x": 400,
       "y": 944,
       "scale": 0.35,
       "pose": "stand",
@@ -28166,7 +28166,7 @@
      {
       "type": "asset",
       "name": "calendar",
-      "x": 1550,
+      "x": 1500,
       "y": 520,
       "scale": 1.0,
       "appear": 0.923
@@ -28174,7 +28174,7 @@
      {
       "type": "text",
       "text": "YESTERDAY",
-      "x": 1550,
+      "x": 1500,
       "y": 545,
       "size": 34,
       "color": "#000000",
@@ -28193,7 +28193,7 @@
      },
      {
       "type": "doug",
-      "x": 200,
+      "x": 400,
       "y": 944,
       "scale": 0.35,
       "pose": "stand",
@@ -28582,15 +28582,15 @@
      {
       "type": "asset",
       "name": "time_machine",
-      "x": 300,
+      "x": 470,
       "y": 900,
       "scale": 0.6
      },
      {
       "type": "rect",
-      "x": 60,
+      "x": 340,
       "y": 406.0,
-      "w": 595,
+      "w": 560,
       "h": 80,
       "fill": "#1b6f66",
       "width": 5,
@@ -28599,7 +28599,7 @@
      {
       "type": "text",
       "text": "506 MILLION YEARS AGO",
-      "x": 358,
+      "x": 620,
       "y": 446.0,
       "size": 40,
       "color": "#fff36b",
@@ -28641,8 +28641,8 @@
      {
       "type": "label",
       "text": "2 EYES",
-      "x": 800,
-      "y": 400,
+      "x": 820,
+      "y": 290,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -28984,7 +28984,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 46",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -29146,7 +29146,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 46",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -29327,7 +29327,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 46",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -29653,7 +29653,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 46",
-      "x": 1480,
+      "x": 1400,
       "y": 165,
       "size": 44,
       "bold": true,

@@ -183,3 +183,117 @@ VERDICT: PASS
 4. **s176-s177**: still a plain ellipse body outline (carried over from rounds 1 and 2).
 5. **Pipeline (editor)**: a `--shots` keyframe run overwrites `build/contact/` with a partial sheet. Re-run full
    `keyframes` before any later contact-sheet review.
+
+## Post-render review (final.mp4, thumbnail, Shorts)
+
+Checked: 34 sample frames (`build/samples`), `build/qc.json` (problems: none, 1007 s), the end frames of every
+camera-move shot pulled from `final.mp4`, `build/thumbnail.png` and `build/thumbnail_small.png`, `metadata.json`,
+the three Shorts previews, and 9+ frames from each Short.
+
+### What passes
+- No black, blank, frozen or glitched frames. Every sample matches its narration (once you allow for the 15 s
+  sample offset). Doug is on-model everywhere. No gore: the deaths are ghost-and-cap gags. Nothing reads as a
+  kids' show.
+- Thumbnail: the 3x3 labelled grid reads at feed size. Doug's red cap shows in the Fighting Dinosaurs tile. The
+  grid fits the title "The Creepiest Fossils That Still Look Alive" and isn't misleading.
+- Shorts end cards: "WHAT HAPPENS NEXT? TAP BELOW" is readable, the red arrow points down, and Doug points at
+  the arrow. Titles and subtitles are legible in all three Shorts.
+
+### Blocking problems
+1. **Map zoom crops the date label and Doug (director)**: s008, s043, s074, s106, s139 and s156 all have
+   `camera: zoom_in, zoom 1.08, y 400-450`. By the end of each shot the visible frame stops at y ~1000. The date
+   label at y 1010 shrinks to an unreadable sliver ("2017 + 2018", "2007", "JULY 2016", "AUGUST 3, 1971",
+   "150 MILLION YEARS AGO", "180 MILLION YEARS AGO"), and Doug's legs (y 979) are cut off. The keyframes are
+   static frames, so this only shows in the render. Fix: set `camera.y` to 580 in these six shots. That keeps
+   y 80-1080 in frame, with the map top still visible. Or move the date label to y 900 and Doug to y 900.
+   s096 has the same zoom; its Doug at y 979 is also cut, so apply the same `camera.y` change there.
+2. **Short03 shows a wrong number (director)**: in s199 (the hook scene and again in the body), the label
+   "84 FOSSILS" at x 300 falls outside the Shorts crop-safe zone (x 260-1660 minus half the text width). On
+   screen it reads "4 FOSSILS". Move the label to x 480 or more.
+3. **Short03, Doug cut in half (director)**: in s197, s199, s200 and s201, Doug sits at x 200, so only half of
+   him shows at the left edge of the Short. Move him to x 380 or more. Also move the s197 "STALK EYES" label
+   (x 360) to x 420 or more, and check "506 MILLION YEARS" in s199 (x 1500), which sits on the right edge.
+4. **Short03 time-machine sign cut off (director)**: in s205, the sign rect starts at x 60 and the text is
+   centred at x 358, so the Short shows "MILLION YEARS AGO" without the "506". Move the time machine and its sign
+   so the sign spans x 300-900 or so.
+
+### Non-blocking notes
+5. s113 (director): the BEAK arrow tip (1260, 600) ends in the air about 70 px in front of the beak. Move `to`
+   to about (1190, 630).
+6. Short01 s035-s039 and Short02 s071: the "DOUG DEATHS" plate and the time-machine sign sit at the right edge
+   and are partly trimmed in the Short. They are still readable, so this is optional polish.
+7. Engine (editor): the keyframe contact sheet can't catch camera-move crops. Consider rendering the final
+   camera frame of each zoom shot to the contact sheet.
+
+After the fixes: re-render shots s008, s043, s074, s096, s106, s139, s156 and Short03, then re-screen.
+
+VERDICT: FAIL
+
+## Post-render review, round 2 (final.mp4 re-render, Shorts re-render)
+
+Checked: the end frame of each fixed zoom shot taken from `build/final.mp4` (s008 28.7 s, s043 180.75 s, s074 333.75 s,
+s096 444.15 s, s106 497.7 s, s139 667.75 s, s156 740.55 s), plus s113. `build/qc.json` reports no problems
+(1007.27 s, matching timing.json). I also checked `build/shorts/short0{1,2,3}_preview.png`, a frame every 3 s from
+all three Shorts, and full-resolution crops of the edge regions.
+
+### Fixed (verified)
+- **Map zooms, s008, s043, s074, s096, s106, s139, s156**: with camera.y at 580, every end frame shows the whole
+  date plate ("2017 + 2018", "2007", "JULY 2016", "AUGUST 3, 1971", "150 MILLION YEARS AGO", "180 MILLION YEARS
+  AGO") and Doug from cap to feet. The title plates and map tops are intact.
+- **Short03**: "84 FOSSILS" reads in full in the hook and the body. Doug is whole in s197 and s199-s201.
+  "STALK EYES", "THIRD EYE" and "506 MILLION YEARS" are all inside the frame. The s205 sign reads "506 MILLION YEARS
+  AGO" in full. The title, subtitles and end card (arrow pointing down) are fine.
+
+### Blocking problems (Short01 / Short02, crop-safe zone x 260-1660 of the 1920 frame)
+Round 1 called these edge trims optional (note 6). Full-resolution frames show the text is cut, not just trimmed,
+so they now block:
+1. **s067 (director), Short02**: the "SOUTH KOREA" label (x 1600, size 46) reads "SOUTH KORE". Move the label
+   to x 1420 and the second scientist from x 1600 to x 1450.
+2. **s071 (director), Short02**: the "42,000 YEARS" label reads "42,000 YEAR", and the foal (the subject of
+   "give back one foal") is cut at the right edge. Move `batagaika_foal_mummy` and the "42,000 YEARS" label from
+   x 1600 to x 1400, and `doug_cap` from x 1250 to x 1150.
+3. **s037 and s038 (director), Short01**: the time-machine sign reads "36,000 YEARS A" (s037), and the "1984" sign
+   is also trimmed (s038). Move `time_machine` from x 1650 to x 1400, along with its sign rect and text
+   ("36,000 YEARS AGO" from x 1625 to 1375, "1984" from 1650 to 1400). Shift Doug left if he overlaps.
+4. **s040 (director), Short01**: Doug at x 1750 shows only as a red sliver at the right edge, which looks like a
+   glitch. Move him to x 1600 (scale 0.45), clear of the stew bowl at 1500, or remove him from the shot.
+5. **s063 (director), Short02 hook frame**: Doug at x 1700 touches the right edge. Move him to x 1580.
+
+### Non-blocking (carried over)
+- s113: the BEAK arrow tip still ends in the air in front of the beak. Set `to` to about (1190, 630).
+- s008 and s043: the map icons still sit off their circles (cave lion cubs over China, mammoth over Europe).
+
+After the fixes, re-render s037, s038, s040, s063, s067 and s071 in final.mp4, and re-render Short01 and Short02.
+Then re-screen.
+
+VERDICT: FAIL
+
+## Post-render review, round 3 (final re-screen: final.mp4, Short01-03, thumbnail)
+
+Checked: full-resolution frames from `build/shorts/short0{1,2,3}.mp4` (a frame every 2 s, plus targeted grabs of
+the fixed shots and every DOUG DEATHS plate), the end frames of s037, s038, s040, s063, s067, s071, s113 and s200
+from `build/final.mp4`, all 34 `build/samples/*.png`, `build/qc.json` (no problems, 1007.27 s), and
+`build/thumbnail.png` / `thumbnail_small.png`.
+
+### Fixed (verified)
+- **s037 / s038 (Short01)**: the time-machine sign reads "36,000 YEARS AGO" in full, and the "1984" sign is whole.
+  The booth is fully inside the frame.
+- **s040 (Short01)**: Doug is whole beside the bowl, with no red sliver at the edge.
+- **s063 (Short02 hook)**: Doug stands clear of the right edge.
+- **s067 (Short02)**: "SOUTH KOREA" reads in full, and both scientists are whole.
+- **s071 (Short02)**: "42,000 YEARS" reads in full, and the foal and the cap are whole.
+- **s113**: the BEAK arrow now ends on the beak.
+- **DOUG DEATHS counter**: shows the full number everywhere. "DOUG DEATHS: 37" (Short01), "DOUG DEATHS: 39" (Short02) and
+  "DOUG DEATHS: 46" (Short03) are inside the frame with a margin. They also read correctly in final.mp4.
+- Short03 regressions from round 2: none. "84 FOSSILS", "STALK EYES", "THIRD EYE", "506 MILLION YEARS AGO", "2 EYES / 3
+  EYES" and Doug are all inside the frame.
+- Titles, subtitles and end cards (arrow pointing down) are fine on all three Shorts.
+- final.mp4 samples: no black or frozen frames and no glitches. Text is readable, and there's no gore or kids-show tone.
+- Thumbnail: unchanged since approval. The 3x3 fossil grid with Doug in the Fighting Dinosaurs panel is still
+  readable at feed size.
+
+### Non-blocking (carried over, optional)
+- s008 / s043: the map icons still sit slightly off their circles.
+- Short03 "DOUG DEATHS: 46" plate sits about 40 px from the right edge. It reads, but it's tight.
+
+VERDICT: PASS
