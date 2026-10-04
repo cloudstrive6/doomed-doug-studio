@@ -1,0 +1,492 @@
+{
+ "_note": "Archetype A 3x3 grid in depth order, turquoise -> navy -> black; tiny red-capped Doug in the brine lake; tubeworm garden '9,533 m' boss bottom-right with red glow. No title or alt-title words in labels. Also the opening shot s001 (scene_ref).",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 28,
+   "y": 20,
+   "w": 400,
+   "h": 160,
+   "fill": "#5fe0ee",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Sharkcano",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 28,
+     "y": 20,
+     "w": 400,
+     "h": 40,
+     "fill": "#a8ecf6",
+     "width": 0,
+     "outline": false
+    },
+    {
+     "type": "asset",
+     "name": "kavachi_volcano",
+     "x": 313.0,
+     "y": 188,
+     "scale": 0.2
+    },
+    {
+     "type": "spray",
+     "x": 313.0,
+     "y": 78,
+     "r": 26,
+     "color": "#ff7a1a",
+     "density": 0.5
+    },
+    {
+     "type": "spray",
+     "x": 313.0,
+     "y": 46,
+     "r": 34,
+     "color": "#ffffff",
+     "density": 0.45
+    },
+    {
+     "type": "circle",
+     "x": 302.0,
+     "y": 60,
+     "r": 9,
+     "fill": "#ffffff",
+     "width": 3
+    },
+    {
+     "type": "circle",
+     "x": 328.0,
+     "y": 50,
+     "r": 7,
+     "fill": "#ffffff",
+     "width": 3
+    },
+    {
+     "type": "circle",
+     "x": 312.0,
+     "y": 34,
+     "r": 6,
+     "fill": "#ffffff",
+     "width": 3
+    },
+    {
+     "type": "asset",
+     "name": "hammerhead_shark",
+     "x": 158.0,
+     "y": 90,
+     "scale": 0.32
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 20,
+   "w": 400,
+   "h": 160,
+   "fill": "#3cc3e2",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Crop Circle",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "puffer_sand_circle",
+     "x": 680.0,
+     "y": 102,
+     "scale": 0.22
+    },
+    {
+     "type": "asset",
+     "name": "pufferfish",
+     "x": 512,
+     "y": 72,
+     "scale": 0.33
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 852,
+   "y": 20,
+   "w": 400,
+   "h": 160,
+   "fill": "#2a9fd0",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Blue Hole",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 842,
+     "y": 74,
+     "w": 158.0,
+     "h": 120,
+     "fill": "#e6cf98",
+     "color": "#000000",
+     "width": 5
+    },
+    {
+     "type": "rect",
+     "x": 1104.0,
+     "y": 74,
+     "w": 158.0,
+     "h": 120,
+     "fill": "#e6cf98",
+     "color": "#000000",
+     "width": 5
+    },
+    {
+     "type": "rect",
+     "x": 1000.0,
+     "y": 74,
+     "w": 104,
+     "h": 28,
+     "fill": "#1d74b0",
+     "width": 0,
+     "outline": false
+    },
+    {
+     "type": "rect",
+     "x": 1000.0,
+     "y": 101,
+     "w": 104,
+     "h": 28,
+     "fill": "#0b2447",
+     "width": 0,
+     "outline": false
+    },
+    {
+     "type": "rect",
+     "x": 1000.0,
+     "y": 128,
+     "w": 104,
+     "h": 28,
+     "fill": "#050a1f",
+     "width": 0,
+     "outline": false
+    },
+    {
+     "type": "rect",
+     "x": 1000.0,
+     "y": 155,
+     "w": 104,
+     "h": 28,
+     "fill": "#020308",
+     "width": 0,
+     "outline": false
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       1000.0,
+       74
+      ],
+      [
+       1000.0,
+       184
+      ]
+     ],
+     "color": "#000000",
+     "width": 5
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       1104.0,
+       74
+      ],
+      [
+       1104.0,
+       184
+      ]
+     ],
+     "color": "#000000",
+     "width": 5
+    },
+    {
+     "type": "asset",
+     "name": "question_mark",
+     "x": 1052.0,
+     "y": 138,
+     "scale": 0.4
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 28,
+   "y": 244,
+   "w": 400,
+   "h": 160,
+   "fill": "#1d74b0",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Lost City",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "spray",
+     "x": 228.0,
+     "y": 404,
+     "r": 170,
+     "color": "#7fc4ea",
+     "density": 0.1
+    },
+    {
+     "type": "asset",
+     "name": "lost_city_chimney",
+     "x": 78.0,
+     "y": 412,
+     "scale": 0.12
+    },
+    {
+     "type": "asset",
+     "name": "lost_city_chimney",
+     "x": 143.0,
+     "y": 412,
+     "scale": 0.16
+    },
+    {
+     "type": "asset",
+     "name": "lost_city_chimney",
+     "x": 208.0,
+     "y": 412,
+     "scale": 0.11
+    },
+    {
+     "type": "asset",
+     "name": "lost_city_chimney",
+     "x": 268.0,
+     "y": 412,
+     "scale": 0.175
+    },
+    {
+     "type": "asset",
+     "name": "lost_city_chimney",
+     "x": 333.0,
+     "y": 412,
+     "scale": 0.13
+    },
+    {
+     "type": "asset",
+     "name": "lost_city_chimney",
+     "x": 388.0,
+     "y": 412,
+     "scale": 0.1
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 244,
+   "w": 400,
+   "h": 160,
+   "fill": "#1b4f86",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Brine Lake",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "brine_pool",
+     "x": 640.0,
+     "y": 354,
+     "scale": 0.5
+    },
+    {
+     "type": "doug",
+     "x": 640.0,
+     "y": 348,
+     "scale": 0.34,
+     "pose": "sit",
+     "expression": "hopeful",
+     "facing": "right"
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 852,
+   "y": 244,
+   "w": 400,
+   "h": 160,
+   "fill": "#143a6c",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Iron Snail",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "spray",
+     "x": 1052.0,
+     "y": 328,
+     "r": 120,
+     "color": "#5aa8e0",
+     "density": 0.14
+    },
+    {
+     "type": "asset",
+     "name": "scaly_foot_snail",
+     "x": 1052.0,
+     "y": 328,
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 28,
+   "y": 468,
+   "w": 400,
+   "h": 160,
+   "fill": "#0b2447",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Tar Volcano",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "spray",
+     "x": 228.0,
+     "y": 598,
+     "r": 170,
+     "color": "#3d6fa8",
+     "density": 0.14
+    },
+    {
+     "type": "asset",
+     "name": "asphalt_mound",
+     "x": 228.0,
+     "y": 634,
+     "scale": 0.28
+    },
+    {
+     "type": "circle",
+     "x": 234.0,
+     "y": 508,
+     "r": 7,
+     "fill": "#cfe8ff",
+     "width": 3
+    },
+    {
+     "type": "circle",
+     "x": 220.0,
+     "y": 490,
+     "r": 5,
+     "fill": "#cfe8ff",
+     "width": 3
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 468,
+   "w": 400,
+   "h": 160,
+   "fill": "#050a1f",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Golden Orb",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "spray",
+     "x": 640.0,
+     "y": 568,
+     "r": 90,
+     "color": "#ffe27a",
+     "density": 0.12
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       530,
+       634
+      ],
+      [
+       570.0,
+       596
+      ],
+      [
+       710.0,
+       594
+      ],
+      [
+       750,
+       634
+      ]
+     ],
+     "fill": "#3a3a46",
+     "color": "#000000",
+     "width": 5
+    },
+    {
+     "type": "asset",
+     "name": "golden_orb",
+     "x": 640.0,
+     "y": 598,
+     "scale": 0.85
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 852,
+   "y": 468,
+   "w": 400,
+   "h": 160,
+   "fill": "#020308",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "9,533 m",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "spray",
+     "x": 1052.0,
+     "y": 558,
+     "r": 120,
+     "color": "#ff3a2a",
+     "density": 0.2
+    },
+    {
+     "type": "asset",
+     "name": "tubeworm_cluster",
+     "x": 1042.0,
+     "y": 632,
+     "scale": 0.47
+    },
+    {
+     "type": "asset",
+     "name": "clam",
+     "x": 1172.0,
+     "y": 624,
+     "scale": 0.45
+    },
+    {
+     "type": "asset",
+     "name": "clam",
+     "x": 927.0,
+     "y": 626,
+     "scale": 0.4,
+     "flip": true
+    }
+   ]
+  }
+ ]
+}
