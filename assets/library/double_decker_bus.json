@@ -1,0 +1,501 @@
+{
+ "name": "double_decker_bus",
+ "description": "Red London-style double-decker bus, side view facing right: two rows of windows, cream between-deck band, rear open platform with pole, black wheels. Anchor bottom-centre (wheel bottoms); 520x360.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "vehicle",
+  "scale comparison",
+  "everyday",
+  "london"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "smooth": false,
+   "points": [
+    [
+     -258,
+     -40
+    ],
+    [
+     -258,
+     -330
+    ],
+    [
+     -240,
+     -356
+    ],
+    [
+     230,
+     -356
+    ],
+    [
+     252,
+     -334
+    ],
+    [
+     258,
+     -300
+    ],
+    [
+     258,
+     -40
+    ]
+   ],
+   "fill": "#d62a1f",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -256,
+   "y": -88,
+   "w": 512,
+   "h": 46,
+   "fill": "#a81d15",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -256,
+   "y": -236,
+   "w": 512,
+   "h": 18,
+   "fill": "#f2e6c8",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -258,
+     -40
+    ],
+    [
+     -258,
+     -330
+    ],
+    [
+     -240,
+     -356
+    ],
+    [
+     230,
+     -356
+    ],
+    [
+     252,
+     -334
+    ],
+    [
+     258,
+     -300
+    ],
+    [
+     258,
+     -40
+    ]
+   ],
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "rect",
+   "x": -235,
+   "y": -322,
+   "w": 72,
+   "h": 62,
+   "fill": "#a6d8f2",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -227,
+     -270
+    ],
+    [
+     -213,
+     -314
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -147,
+   "y": -322,
+   "w": 72,
+   "h": 62,
+   "fill": "#a6d8f2",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -139,
+     -270
+    ],
+    [
+     -125,
+     -314
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -59,
+   "y": -322,
+   "w": 72,
+   "h": 62,
+   "fill": "#a6d8f2",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -51,
+     -270
+    ],
+    [
+     -37,
+     -314
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 29,
+   "y": -322,
+   "w": 72,
+   "h": 62,
+   "fill": "#a6d8f2",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     37,
+     -270
+    ],
+    [
+     51,
+     -314
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 117,
+   "y": -322,
+   "w": 72,
+   "h": 62,
+   "fill": "#a6d8f2",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     125,
+     -270
+    ],
+    [
+     139,
+     -314
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 208,
+   "y": -322,
+   "w": 38,
+   "h": 62,
+   "fill": "#a6d8f2",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     216,
+     -270
+    ],
+    [
+     230,
+     -314
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -200,
+   "w": 72,
+   "h": 64,
+   "fill": "#a6d8f2",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -142,
+     -146
+    ],
+    [
+     -128,
+     -192
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -200,
+   "w": 68,
+   "h": 64,
+   "fill": "#a6d8f2",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -54,
+     -146
+    ],
+    [
+     -40,
+     -192
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 20,
+   "y": -200,
+   "w": 68,
+   "h": 64,
+   "fill": "#a6d8f2",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     28,
+     -146
+    ],
+    [
+     42,
+     -192
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 102,
+   "y": -200,
+   "w": 68,
+   "h": 64,
+   "fill": "#a6d8f2",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     110,
+     -146
+    ],
+    [
+     124,
+     -192
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 188,
+   "y": -200,
+   "w": 58,
+   "h": 92,
+   "fill": "#a6d8f2",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     196,
+     -118
+    ],
+    [
+     210,
+     -192
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -248,
+   "y": -205,
+   "w": 82,
+   "h": 150,
+   "fill": "#3a1a17",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -210,
+     -202
+    ],
+    [
+     -210,
+     -58
+    ]
+   ],
+   "color": "#d9d9d9",
+   "width": 5
+  },
+  {
+   "type": "rect",
+   "x": -248,
+   "y": -64,
+   "w": 82,
+   "h": 10,
+   "fill": "#7a7a7a",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 170,
+   "y": -342,
+   "w": 76,
+   "h": 16,
+   "fill": "#222222",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": 246,
+   "y": -70,
+   "r": 9,
+   "fill": "#fff36b",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 238,
+   "y": -52,
+   "w": 26,
+   "h": 12,
+   "fill": "#bdbdbd",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": -160,
+   "y": -38,
+   "r": 38,
+   "fill": "#3a3a3a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -160,
+   "y": -38,
+   "rx": 44,
+   "ry": 44,
+   "start": 180,
+   "end": 360,
+   "fill": "#a81d15",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": -160,
+   "y": -38,
+   "r": 37,
+   "fill": "#222222",
+   "width": 5
+  },
+  {
+   "type": "circle",
+   "x": -160,
+   "y": -38,
+   "r": 15,
+   "fill": "#bdbdbd",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": 168,
+   "y": -38,
+   "r": 38,
+   "fill": "#3a3a3a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 168,
+   "y": -38,
+   "rx": 44,
+   "ry": 44,
+   "start": 180,
+   "end": 360,
+   "fill": "#a81d15",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": 168,
+   "y": -38,
+   "r": 37,
+   "fill": "#222222",
+   "width": 5
+  },
+  {
+   "type": "circle",
+   "x": 168,
+   "y": -38,
+   "r": 15,
+   "fill": "#bdbdbd",
+   "width": 3
+  }
+ ]
+}

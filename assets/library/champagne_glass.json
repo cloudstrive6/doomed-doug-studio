@@ -1,0 +1,286 @@
+{
+ "name": "champagne_glass",
+ "description": "Champagne flute: clear pale glass with white glints, gold champagne with tiny bubbles in the bowl, thin stem, round foot. Centre anchor (hand grip on the stem); 70x200.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "drink",
+  "glass",
+  "everyday"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -30,
+     -100
+    ],
+    [
+     30,
+     -100
+    ],
+    [
+     28,
+     -50
+    ],
+    [
+     20,
+     -8
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     -6,
+     12
+    ],
+    [
+     -20,
+     -8
+    ],
+    [
+     -28,
+     -50
+    ]
+   ],
+   "fill": "#eef7fb",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -28,
+     -72
+    ],
+    [
+     28,
+     -72
+    ],
+    [
+     27,
+     -50
+    ],
+    [
+     20,
+     -10
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     -6,
+     8
+    ],
+    [
+     -20,
+     -10
+    ],
+    [
+     -27,
+     -50
+    ]
+   ],
+   "fill": "#f3e6a0",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -27,
+     -72
+    ],
+    [
+     27,
+     -72
+    ]
+   ],
+   "color": "#d9c46a",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     8,
+     -70
+    ],
+    [
+     26,
+     -70
+    ],
+    [
+     24,
+     -45
+    ],
+    [
+     16,
+     -12
+    ],
+    [
+     6,
+     6
+    ],
+    [
+     12,
+     -30
+    ]
+   ],
+   "fill": "#e1cd78",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -8,
+   "y": -20,
+   "r": 3,
+   "fill": "#ffffff",
+   "width": 1,
+   "color": "#bfa94a"
+  },
+  {
+   "type": "circle",
+   "x": 4,
+   "y": -38,
+   "r": 2.5,
+   "fill": "#ffffff",
+   "width": 1,
+   "color": "#bfa94a"
+  },
+  {
+   "type": "circle",
+   "x": -12,
+   "y": -52,
+   "r": 3,
+   "fill": "#ffffff",
+   "width": 1,
+   "color": "#bfa94a"
+  },
+  {
+   "type": "circle",
+   "x": 10,
+   "y": -60,
+   "r": 2.5,
+   "fill": "#ffffff",
+   "width": 1,
+   "color": "#bfa94a"
+  },
+  {
+   "type": "circle",
+   "x": -2,
+   "y": -64,
+   "r": 2,
+   "fill": "#ffffff",
+   "width": 1,
+   "color": "#bfa94a"
+  },
+  {
+   "type": "circle",
+   "x": 6,
+   "y": -12,
+   "r": 2,
+   "fill": "#ffffff",
+   "width": 1,
+   "color": "#bfa94a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -21,
+     -92
+    ],
+    [
+     -20,
+     -40
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -30,
+     -100
+    ],
+    [
+     30,
+     -100
+    ],
+    [
+     28,
+     -50
+    ],
+    [
+     20,
+     -8
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     -6,
+     12
+    ],
+    [
+     -20,
+     -8
+    ],
+    [
+     -28,
+     -50
+    ]
+   ],
+   "fill": null,
+   "width": 4
+  },
+  {
+   "type": "rect",
+   "x": -4,
+   "y": 12,
+   "w": 8,
+   "h": 72,
+   "fill": "#eef7fb",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 90,
+   "rx": 34,
+   "ry": 9,
+   "fill": "#eef7fb",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     88
+    ],
+    [
+     -6,
+     86
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 2
+  }
+ ]
+}

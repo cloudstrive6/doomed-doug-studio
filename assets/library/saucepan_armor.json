@@ -1,0 +1,250 @@
+{
+ "name": "saucepan_armor",
+ "description": "Worn prop: steel-grey saucepan taped flat to Doug's chest (base facing out), handle out to the left/back, two strips of silver duct tape in an X. Anchor = Doug's hips at Doug scale 1 (same x/y/scale as Doug, list it after Doug). Pan centred on the lower torso of the `cower` pose (9,-22, r 52) so his folded arms, chin and cap stay clear. Loose on the floor: rotate 90.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "costume",
+  "worn",
+  "kitchen",
+  "armor"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -31,
+     -36
+    ],
+    [
+     -131,
+     -62
+    ],
+    [
+     -138,
+     -48
+    ],
+    [
+     -33,
+     -18
+    ]
+   ],
+   "fill": "#2e2e33",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": -122,
+   "y": -53,
+   "r": 4.5,
+   "fill": "#ffffff",
+   "width": 2
+  },
+  {
+   "type": "rect",
+   "x": -47,
+   "y": -35,
+   "w": 18,
+   "h": 16,
+   "fill": "#8e939b",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": 9,
+   "y": -22,
+   "r": 52,
+   "fill": "#8e939b",
+   "width": 5
+  },
+  {
+   "type": "circle",
+   "x": 9,
+   "y": -22,
+   "r": 43,
+   "fill": "#b8bcc4",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": 9,
+   "y": -22,
+   "r": 27,
+   "fill": null,
+   "width": 2,
+   "color": "#8e939b"
+  },
+  {
+   "type": "circle",
+   "x": 9,
+   "y": -22,
+   "r": 12,
+   "fill": null,
+   "width": 2,
+   "color": "#8e939b"
+  },
+  {
+   "type": "spray",
+   "x": -8,
+   "y": -41,
+   "r": 20,
+   "color": "#ffffff",
+   "density": 0.5
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -25,
+     -36
+    ],
+    [
+     -15,
+     -52
+    ],
+    [
+     -1,
+     -59
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 4
+  },
+  {
+   "type": "spray",
+   "x": 29,
+   "y": 0,
+   "r": 17,
+   "color": "#6f747c",
+   "density": 0.35
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -39.0,
+     -57.6
+    ],
+    [
+     49.0,
+     22.4
+    ],
+    [
+     55.5,
+     22.7
+    ],
+    [
+     53.8,
+     17.1
+    ],
+    [
+     58.8,
+     17.6
+    ],
+    [
+     57.0,
+     13.6
+    ],
+    [
+     -31.0,
+     -66.4
+    ],
+    [
+     -37.1,
+     -67.1
+    ],
+    [
+     -35.4,
+     -61.6
+    ],
+    [
+     -40.4,
+     -62.0
+    ]
+   ],
+   "fill": "#d4d7dc",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30.3,
+     -55.3
+    ],
+    [
+     45.9,
+     14.0
+    ]
+   ],
+   "color": "#f4f5f7",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     49.0,
+     -66.4
+    ],
+    [
+     -39.0,
+     13.6
+    ],
+    [
+     -39.9,
+     20.0
+    ],
+    [
+     -34.2,
+     18.9
+    ],
+    [
+     -35.1,
+     23.8
+    ],
+    [
+     -31.0,
+     22.4
+    ],
+    [
+     57.0,
+     -57.6
+    ],
+    [
+     58.3,
+     -63.6
+    ],
+    [
+     52.6,
+     -62.4
+    ],
+    [
+     53.5,
+     -67.4
+    ]
+   ],
+   "fill": "#d4d7dc",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     45.9,
+     -58.0
+    ],
+    [
+     -30.3,
+     11.3
+    ]
+   ],
+   "color": "#f4f5f7",
+   "width": 2
+  }
+ ]
+}

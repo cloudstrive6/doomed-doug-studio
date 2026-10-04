@@ -1,0 +1,20 @@
+{
+  "name": "alien_head",
+  "description": "Classic grey alien head facing the viewer: huge bulbous cranium, large black almond eyes, tiny nostrils and slit mouth, narrow pointed chin. Mainly used as a silhouette. ~220x280, anchor centre.",
+  "anchor": [0, 0],
+  "tags": ["alien", "ufo", "head", "silhouette", "conspiracy"],
+  "elements": [
+    {"type": "poly", "points": [[-18, 80], [-18, 140], [18, 140], [18, 80]], "fill": "#8a928c", "width": 5, "color": "#000000"},
+    {"type": "poly", "points": [[0, 104], [-16, 100], [-36, 84], [-56, 52], [-74, 22], [-100, -12], [-112, -56], [-104, -102], [-74, -132], [-30, -142], [30, -142], [74, -132], [104, -102], [112, -56], [100, -12], [74, 22], [56, 52], [36, 84], [16, 100]], "fill": "#a8b0aa", "width": 5, "color": "#000000", "smooth": true},
+    {"type": "poly", "points": [[112, -56], [100, -12], [74, 22], [56, 52], [36, 84], [16, 100], [0, 104], [30, 70], [60, 20], [84, -20], [90, -80], [74, -126], [104, -102]], "fill": "#8a928c", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+    {"type": "spray", "x": -50, "y": -90, "r": 40, "color": "#c8cfc9", "density": 0.3},
+    {"type": "poly", "points": [[-10, -6], [-28, -34], [-60, -54], [-90, -54], [-88, -32], [-62, 4], [-30, 22], [-12, 16]], "fill": "#0a0a0c", "width": 4, "color": "#000000", "smooth": true},
+    {"type": "curve", "points": [[-50, -36], [-70, -40]], "width": 3, "color": "#5a6a7a"},
+    {"type": "poly", "points": [[10, -6], [28, -34], [60, -54], [90, -54], [88, -32], [62, 4], [30, 22], [12, 16]], "fill": "#0a0a0c", "width": 4, "color": "#000000", "smooth": true},
+    {"type": "curve", "points": [[50, -36], [70, -40]], "width": 3, "color": "#5a6a7a"},
+    {"type": "line", "points": [[-4, 44], [-2, 48]], "width": 3, "color": "#000000"},
+    {"type": "line", "points": [[6, 44], [4, 48]], "width": 3, "color": "#000000"},
+    {"type": "line", "points": [[-9, 72], [9, 72]], "width": 3, "color": "#000000"},
+    {"type": "poly", "points": [[0, 104], [-16, 100], [-36, 84], [-56, 52], [-74, 22], [-100, -12], [-112, -56], [-104, -102], [-74, -132], [-30, -142], [30, -142], [74, -132], [104, -102], [112, -56], [100, -12], [74, 22], [56, 52], [36, 84], [16, 100]], "fill": null, "width": 5, "color": "#000000", "smooth": true}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "clam",
+  "description": "Elongated pale vesicomyid clam lying on its side, slightly open: off-white shell (#e9e4d6) with growth lines, dark gap with a sliver of red flesh between the valves (opening on the right), mid-grey shadow underneath. ~170x90, anchor bottom-centre.",
+  "anchor": [0, 0],
+  "tags": ["clam", "bivalve", "deep sea", "trench", "seep"],
+  "elements": [
+    {"type": "ellipse", "x": 2.0, "y": -5.0, "rx": 86.0, "ry": 7.0, "fill": "#6f6f6f", "width": 0, "color": "#000000", "outline": false},
+    {"type": "poly", "points": [[-80.0, -34.0], [-74.0, -16.0], [-50.0, -6.0], [-10.0, -2.0], [30.0, -4.0], [62.0, -12.0], [80.0, -24.0], [84.0, -32.0], [60.0, -31.0], [20.0, -32.0], [-30.0, -34.0]], "fill": "#d4cebd", "width": 4, "color": "#000000", "smooth": true},
+    {"type": "poly", "points": [[-80.0, -34.0], [-30.0, -34.0], [20.0, -32.0], [60.0, -31.0], [84.0, -32.0], [88.0, -52.0], [60.0, -46.0], [20.0, -41.0], [-30.0, -38.0]], "fill": "#2a201c", "width": 3, "color": "#000000"},
+    {"type": "poly", "points": [[76.0, -38.0], [40.0, -36.0], [10.0, -36.0], [40.0, -40.0], [76.0, -44.0]], "fill": "#b8362e", "width": 0, "color": "#000000", "outline": false},
+    {"type": "poly", "points": [[-80.0, -36.0], [-72.0, -58.0], [-48.0, -76.0], [-10.0, -86.0], [30.0, -86.0], [64.0, -76.0], [84.0, -62.0], [88.0, -52.0], [60.0, -46.0], [20.0, -41.0], [-30.0, -38.0], [-80.0, -36.0]], "fill": "#e9e4d6", "width": 4, "color": "#000000", "smooth": true},
+    {"type": "curve", "points": [[-74.0, -41.8], [-55.5, -50.8], [-17.3, -59.1], [14.0, -60.0], [31.5, -55.7], [39.8, -45.9]], "width": 2, "color": "#a59d88"},
+    {"type": "curve", "points": [[-74.0, -42.6], [-53.5, -55.6], [-16.1, -66.7], [18.0, -68.0], [45.5, -60.9], [56.6, -46.3]], "width": 2, "color": "#a59d88"},
+    {"type": "curve", "points": [[-74.0, -43.4], [-51.5, -60.4], [-14.9, -74.3], [22.0, -76.0], [59.5, -66.1], [73.4, -46.7]], "width": 2, "color": "#a59d88"},
+    {"type": "spray", "x": -30.0, "y": -66.0, "r": 12.0, "color": "#ffffff", "density": 0.35},
+    {"type": "spray", "x": 50.0, "y": -56.0, "r": 16.0, "color": "#bdb6a2", "density": 0.3},
+    {"type": "curve", "points": [[-60.0, -10.0], [-10.0, -6.0], [50.0, -10.0]], "width": 2, "color": "#a59d88"},
+    {"type": "circle", "x": -66.0, "y": -54.0, "r": 4.0, "fill": "#c2bba6", "width": 0, "color": "#000000", "outline": false}
+  ]
+}

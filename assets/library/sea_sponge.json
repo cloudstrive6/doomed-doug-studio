@@ -1,0 +1,297 @@
+{
+ "name": "sea_sponge",
+ "description": "Vase-shaped deep-sea glass sponge with two small side tubes; made for silhouette use (clean outline), beige fill if shown in colour. Anchor = bottom-centre. ~210x260 units.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "deep sea",
+  "sponge",
+  "seafloor",
+  "silhouette"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -30,
+     -2
+    ],
+    [
+     -62,
+     -50
+    ],
+    [
+     -92,
+     -110
+    ],
+    [
+     -110,
+     -150
+    ],
+    [
+     -80,
+     -160
+    ],
+    [
+     -70,
+     -120
+    ],
+    [
+     -42,
+     -60
+    ],
+    [
+     -22,
+     -10
+    ]
+   ],
+   "fill": "#c9a77a",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     26,
+     -4
+    ],
+    [
+     60,
+     -40
+    ],
+    [
+     86,
+     -88
+    ],
+    [
+     100,
+     -112
+    ],
+    [
+     78,
+     -122
+    ],
+    [
+     64,
+     -90
+    ],
+    [
+     36,
+     -46
+    ],
+    [
+     20,
+     -12
+    ]
+   ],
+   "fill": "#c9a77a",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -28,
+     0
+    ],
+    [
+     -34,
+     -40
+    ],
+    [
+     -48,
+     -110
+    ],
+    [
+     -62,
+     -180
+    ],
+    [
+     -72,
+     -232
+    ],
+    [
+     -78,
+     -256
+    ],
+    [
+     -40,
+     -260
+    ],
+    [
+     0,
+     -260
+    ],
+    [
+     40,
+     -260
+    ],
+    [
+     78,
+     -256
+    ],
+    [
+     72,
+     -232
+    ],
+    [
+     62,
+     -180
+    ],
+    [
+     48,
+     -110
+    ],
+    [
+     34,
+     -40
+    ],
+    [
+     28,
+     0
+    ]
+   ],
+   "fill": "#d8b98a",
+   "width": 5
+  },
+  {
+   "type": "spray",
+   "x": 30,
+   "y": -130,
+   "r": 40,
+   "color": "#a8865a",
+   "density": 0.35
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -252,
+   "rx": 72,
+   "ry": 11,
+   "fill": "#5a4630",
+   "width": 4
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -43.6,
+     -60
+    ],
+    [
+     0,
+     -52
+    ],
+    [
+     43.6,
+     -60
+    ]
+   ],
+   "color": "#a8865a",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -51.6,
+     -110
+    ],
+    [
+     0,
+     -102
+    ],
+    [
+     51.6,
+     -110
+    ]
+   ],
+   "color": "#a8865a",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -59.6,
+     -160
+    ],
+    [
+     0,
+     -152
+    ],
+    [
+     59.6,
+     -160
+    ]
+   ],
+   "color": "#a8865a",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -66.8,
+     -205
+    ],
+    [
+     0,
+     -197
+    ],
+    [
+     66.8,
+     -205
+    ]
+   ],
+   "color": "#a8865a",
+   "width": 2
+  },
+  {
+   "type": "circle",
+   "x": -20,
+   "y": -90,
+   "r": 4,
+   "fill": "#7a5e3c",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 15,
+   "y": -140,
+   "r": 4,
+   "fill": "#7a5e3c",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -30,
+   "y": -190,
+   "r": 4,
+   "fill": "#7a5e3c",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 25,
+   "y": -200,
+   "r": 4,
+   "fill": "#7a5e3c",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 5,
+   "y": -60,
+   "r": 4,
+   "fill": "#7a5e3c",
+   "outline": false
+  }
+ ]
+}
