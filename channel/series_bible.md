@@ -47,6 +47,9 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
   no sticker. The episode ends on the full suitcase next to the cap, and the outro may say "The suitcase still has room."
   It always survives and is never explained. The art director owns the drawing. It is a stickered travel variant and must
   stay distinct from the over-packed `assets/library/suitcase.json` ("HEAVY" tag). Use it only in `places` episodes.
+- **The LIVE feed** (from 006): the standard closing image for `ocean` episodes. After the boss death, cut to the
+  surface ship's monitor showing the submersible camera with a red "LIVE" tag; the cap drifts into frame and settles
+  into the scenery, then one dry kicker about the cap. The narrator watches, never intervenes. Use it only in `ocean`.
 - Named animal "friends" who get Doug killed: **Buddy** the raccoon (002, raccoon roundworm). Reuse sparingly.
 
 ## Series / playlists (config `youtube.playlists`)

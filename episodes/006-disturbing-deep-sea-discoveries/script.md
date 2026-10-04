@@ -22,7 +22,7 @@ Off the Solomon Islands in the South Pacific, there is a volcano you usually can
 
 [Depth gauge drops to "~20 M". Cross-section of a cone-shaped volcano under turquoise water, a crater at the top.]
 
-Twenty meters is about two school buses standing on end, which is how close the top of this volcano comes to anyone swimming above it.
+Twenty meters is about two school buses standing on end. That's how close the top of this volcano comes to anyone swimming above it.
 
 It's called Kavachi, and it is one of the most active underwater volcanoes in this part of the Pacific, erupting on and off since at least nineteen thirty-nine.
 
@@ -34,7 +34,7 @@ Here's the twist. The crater wasn't empty.
 
 [Silhouettes with a red glow circle inside the crater. Reveal: hammerheads, silky sharks, a flat stingray. Label: "INSIDE THE CRATER".]
 
-Scalloped hammerheads and silky sharks were swimming around inside it, along with a sixgill stingray. They were swimming inside the crater of an active volcano, and nobody knows whether they live there or slip in between eruptions.
+Scalloped hammerheads and silky sharks were swimming around inside it, along with a sixgill stingray. That's the crater of an active volcano, and nobody knows whether they live there or slip in between eruptions.
 
 The water in there gets hot and acidic, and the plumes carry sulfur and bits of volcanic rock. One of the expedition scientists said there were plenty of reasons nothing should live in there except maybe bacteria. Nobody knows how the sharks cope with any of it.
 
@@ -148,7 +148,7 @@ Doug climbs Poseidon to plant a flag on the top. Limestone is not famous for hol
 
 [The top of the chimney snaps off. Doug falls past the camera with the flag. DOUG DEATHS: 49]
 
-The Lost City has been venting for a hundred and twenty thousand years. Poseidon lasted about four seconds with Doug on it.
+A hundred and twenty thousand years of venting. Poseidon lasted about four seconds with Doug on it.
 
 ## The Bloop
 
@@ -434,4 +434,4 @@ Nine and a half kilometers down, the cap has finally found someone who wants to 
 
 Doug deaths: fifty-six. Which deep-sea discovery should Doug visit next? Tell us in the comments.
 
-<!-- words: 3182 (spoken narration only, spoken section headers included; markdown headings, comments and stage directions excluded) · est. runtime 16:19 at 195 wpm · draft 2 · item 1 name at spoken words 31-32, twist ("Here's the twist") at about spoken word 139 · "Rock bottom." at about 65% · 226 sentences, avg about 14.1 words, max 34 · outro 16 words · items: Sharkcano 261, Crop Circles 270, Blue Hole 273 incl. "Pitch black.", Lost City 251, Bloop 245, Jacuzzi 253, Champagne Vent 254, Scaly-Foot Snail 244 incl. "Rock bottom.", Asphalt Volcano 270, Golden Orb 192, Dark Oxygen 265, Deepest Ecosystem 375 incl. outro · opener 30 incl. "Sunlit." -->
+<!-- words: 3173 (spoken narration only, spoken section headers included; markdown headings, comments and stage directions excluded) · est. runtime 16:16 at 195 wpm · draft 2 + CD polish (2026-10-04) · item 1 name at spoken words 31-32, twist ("Here's the twist") at about spoken word 139 · "Rock bottom." at about 65% · 227 sentences, avg about 14.0 words, max 34 · outro 16 words · items: Sharkcano 257, Crop Circles 270, Blue Hole 273 incl. "Pitch black.", Lost City 246, Bloop 245, Jacuzzi 253, Champagne Vent 254, Scaly-Foot Snail 244 incl. "Rock bottom.", Asphalt Volcano 270, Golden Orb 192, Dark Oxygen 265, Deepest Ecosystem 375 incl. outro · opener 30 incl. "Sunlit." -->
