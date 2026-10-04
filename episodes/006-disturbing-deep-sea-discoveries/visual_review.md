@@ -149,3 +149,36 @@ blocking item (s018, s038, s112, s213, s240, s119–s132) is resolved. Once s088
 needing another full sheet review.
 
 Round 2 note (showrunner): s088 fixed by art director before the screener render (Doug now x=515, readable); screener R2-1 resolved. Both gates effectively PASS.
+
+## Thumbnail
+
+I checked `build/thumbnail.png` (1280x720) and `build/thumbnail_small.png` (320x180) against the `thumbnail_brief`
+and title in `metadata.json` ("The Most Disturbing Discoveries at Every Depth of the Ocean").
+
+**Readability at feed size (320x180):** all nine labels are legible and spelled correctly: Sharkcano, Crop Circle,
+Blue Hole, Lost City, Brine Lake, Iron Snail, Tar Volcano, Golden Orb, 9,533 m. None is cropped or overlaps a
+drawing. The turquoise-to-black progression reads at once as "going deeper", which fits the title's depth frame. No
+label uses a title or alternate-title word. The strongest tiles at small size are Sharkcano, Crop Circle, Lost City,
+Brine Lake, Golden Orb and the 9,533 m boss tile.
+
+**Accuracy / not misleading:** every tile maps to a segment in the shotlist (blue hole, scaly-foot "iron snail",
+asphalt "tar volcano", golden orb, pufferfish crop circle, brine pool, Lost City, hadal tubeworms). There are no real
+photos, no Titan or tragedy imagery and no shark attacks.
+
+**Doug:** he is on-model (red cap, white head, stick body) in the Brine Lake tile and clearly readable at full size. At
+320 px he shrinks to a red-and-white dot, but the brief asks for exactly that ("tiny"), so this is accepted.
+
+**Policy:** no gore and no realistic violence. Doug smiling in a lethal brine "hot tub" lands as deadpan adult humour,
+not nursery tone. The palette and framing are not kid-coded.
+
+**Recommended (non-blocking)**
+- **T-1. 9,533 m tile (graphic designer):** the dense red speckle around the tubeworms reads at 320 px as a red mist
+  or spray on black, a faint blood-spatter impression next to the red plumes. Thin it out, or recolour it to dim
+  grey/teal marine snow, so the red plumes stay the only red.
+- **T-2. Tar Volcano tile (graphic designer):** the dark grey dome on navy has low contrast at feed size and reads as
+  a dark hump. Lighten the dome's rim highlight, or add a small black plume or bubbles above the summit.
+- **T-3. Blue Hole tile (graphic designer):** two sand blocks with a "?" are the weakest drawing. It is acceptable,
+  but a darker, deeper gradient in the shaft would make "hole" read faster.
+
+VERDICT: PASS. The thumbnail is readable at feed size, error-free, matches the brief and title, and carries no gore
+or kid-appeal risk. T-1 to T-3 are optional polish.
