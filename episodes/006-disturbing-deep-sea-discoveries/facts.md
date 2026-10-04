@@ -26,6 +26,11 @@ these if possible.
 - **Dark oxygen:** about 4,000 m (Northwestern: "around 13,000 feet"; Wikipedia ~4,000 m). Status 2026: contested, editor's note posted 8 April 2026.
 - **Boss:** 9,533 m (Du et al. 2025, *Nature*).
 
+## Draft 2 changes (2026-10-04)
+- Round-1 screener fixes F1-F3, T1 and the rule-4 kicker applied; see the Sharkcano, Crop Circles and Lost City sections.
+- Dark Oxygen: "arguing about a sensor" joke cut; replaced by "For now, both sides want more measurements before anyone calls it settled." (sources in that section).
+- Asphalt Volcano: added "the team that found Chapopote thinks asphalt volcanoes like this one, with life like this on them, may be widespread deep in the Gulf": MacDonald et al. 2004 abstract, "Asphalt volcanism creates a habitat for chemosynthetic life that may be widespread at great depth in the Gulf of Mexico" (search snippet; URL in that section).
+
 ## Opener
 - "Scientists keep finding things in the ocean they wish they hadn't": framing.
 
@@ -47,9 +52,12 @@ these if possible.
   search snippet; National Geographic: temperature "ten degrees higher than normal", "huge drop in the surface pH levels" (verified).
 - Scientist quote paraphrased ("plenty of reasons nothing should live in there except maybe bacteria"): Brennan Phillips in
   National Geographic, "there are a number of reasons why there shouldn't be anything living in there except maybe bacteria" (verified).
-- "Nobody knows how the sharks cope with it, or where they go when it erupts": National Geographic (the puzzle is open);
-  Smithsonian Magazine, "much about shark survival mechanisms at Kavachi remains unexplained" (verified paraphrase).
-- 2022 satellite images of an eruption, "greenish cloud of superhot, acidic water": Smithsonian Magazine (Landsat 9, May 2022) (verified);
+- Draft 2 wording: "They were swimming inside the crater of an active volcano, and nobody knows whether they live there or slip in
+  between eruptions." and "Nobody knows how the sharks cope with any of it.": National Geographic describes the sharks "darting in and
+  out" between the eruption clouds, and Phillips calls whether they stay "a lingering question mark"; their range is unknown and they
+  have not been tagged (verified on NatGeo by the screener, round 1; NatGeo URL above). The draft-1 claim that they "weren't passing
+  through" was cut as unsupported. Smithsonian Magazine: "much about shark survival mechanisms at Kavachi remains unexplained".
+- 2022 satellite images of an eruption, "greenish cloud of superhot, acidic water" (script: "spreading across the surface above the crater"; draft 1's "where the sharks live" removed): Smithsonian Magazine (Landsat 9, May 2022) (verified);
   NASA Earth Observatory, https://science.nasa.gov/earth/earth-observatory/an-underwater-plume-from-kavachi-152567.
 
 ## The Underwater Crop Circles
@@ -59,7 +67,7 @@ these if possible.
 - Diameter about 2 m; depths 10-30 m at Amami-Oshima; radially aligned peaks and valleys; built by males as spawning nests:
   Kawase et al. 2022, *Scientific Data*, "3D model of the geometric nest structure", https://www.nature.com/articles/s41597-022-01466-4
   and https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9253097/ (search snippet).
-- Fish about 12 cm long; 7-9 days to build; female lays eggs in the center: Kawase, Okata & Ito 2013, *Scientific Reports* 3:2106,
+- Fish up to about 12 cm long (maximum length; Kawase 2013 gives about 10 cm typical; script says "up to about twelve centimeters"); species name not spoken (TTS), kept here and for the description; 7-9 days to build; female lays eggs in the center: Kawase, Okata & Ito 2013, *Scientific Reports* 3:2106,
   https://www.nature.com/articles/srep02106 (redirect; search snippet) and PMC copy https://pmc.ncbi.nlm.nih.gov/articles/PMC3696902.
 - Males dig valleys "at various angles" by fin movements; the structure "played an important role in female mate choice";
   it gathers fine sand particles into the nest; "males never reuse the nest, always constructing a new circular structure":
@@ -100,9 +108,15 @@ these if possible.
   about 3 m per floor x 20 = 60 m (common knowledge).
 - Not driven by volcanic heat: seawater reacts with mantle rock (olivine to serpentine), producing heat, hydrogen and methane;
   microbes consume methane and hydrogen: UW news (verified). "Turning one mineral into another" = olivine to serpentine.
-- Active at least about 120,000 years (radiocarbon dating of the oldest chimney deposits): Kelley et al. 2005, *Science* 307:1428,
-  https://www.science.org/doi/10.1126/science.1102556; Wikipedia summary (search snippet). "Well over a thousand centuries"
-  = 120,000 years (arithmetic).
+- Active for about 120,000 years: Ludwig et al. 2011, "U-Th systematics and 230Th ages of carbonate chimneys at the Lost City
+  Hydrothermal Field", *Geochimica et Cosmochimica Acta* 75(7):1869-1888, doi:10.1016/j.gca.2011.01.008,
+  https://www.researchgate.net/publication/223806107_U-Th_systematics_and_230Th_ages_of_carbonate_chimneys_at_the_Lost_City_Hydrothermal_Field
+  (search snippet: deposit ages range from 17 ± 6 years to 120 ± 13 kyr; field "may be >120 ky"). Draft 2 correction: Kelley et al.
+  2005 reported about 30,000 years and is no longer cited for this figure. The age belongs to the field's carbonate deposits, not to
+  Poseidon itself, so the kicker now reads "The Lost City has been venting for a hundred and twenty thousand years. Poseidon lasted
+  about four seconds with Doug on it." "Well over a thousand centuries" = 120,000 years (arithmetic).
+- Poseidon height: UW gives about 180 ft (about 55 m, "18 stories"); Wikipedia gives 60 m. Script keeps "about sixty meters ... as
+  tall as a twenty-story building" (screener advisory noted; within rounding of both sources).
 - Origin-of-life framing: UW news, "Kelley and colleagues speculate that early Earth life may have originated in such
   environments" (verified). Script: "Its discoverers think the first life on Earth may have started in a place a lot like this."
 

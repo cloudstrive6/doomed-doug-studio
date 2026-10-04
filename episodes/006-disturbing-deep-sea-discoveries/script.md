@@ -1,8 +1,8 @@
 <!-- axis: Depth: where each discovery sits, from about 20 m to 9,533 m. The deeper it is, the less anything should be there, and the stranger what we found. Three spoken section headers: "Sunlit." (items 1-3, turquoise), "Pitch black." (items 4-8, navy), "Rock bottom." (items 9-12, near-black; the main zone shift at about 65%). A depth gauge on the left edge drops at every item. The boss is the deepest chemosynthetic ecosystem ever found, at 9,533 m. -->
-<!-- Episode 006: Disturbing Deep Sea Discoveries. Draft 1 (2026-10-04, script writer). Death counter on screen at 46 from the first shot, ends at 56: ten deaths over twelve items. Survivals at item 2 (crop circles, "Doug is used to this.") and item 10 (golden orb, "Doug is fine.", narrator disappointed). "Doug did not agree to this." once, in the opener. Befriending the thing: hammerhead (1), scaly-foot snail (8), clam (12). The cap survives: items 1, 5, 6, 9 and the final LIVE-feed image. One callback line to 001 at the boss. No costume, suitcase, time machine, pigeon or Buddy. -->
+<!-- Episode 006: Disturbing Deep Sea Discoveries. Draft 2 (2026-10-04, script writer; round-1 fixes F1-F3, T1, rule 4 kicker, Dark Oxygen joke trim, Asphalt Volcano lengthened, Bloop gauge ~900 M). Death counter on screen at 46 from the first shot, ends at 56: ten deaths over twelve items. Survivals at item 2 (crop circles, "Doug is used to this.") and item 10 (golden orb, "Doug is fine.", narrator disappointed). "Doug did not agree to this." once, in the opener. Befriending the thing: hammerhead (1), scaly-foot snail (8), clam (12). The cap survives: items 1, 5, 6, 9 and the final LIVE-feed image. One callback line to 001 at the boss. No costume, suitcase, time machine, pigeon or Buddy. -->
 <!-- Golden orb status: IDENTIFIED. NOAA and the Smithsonian announced on 22 April 2026 that it is dead tissue from the base of the giant deep-sea anemone Relicanthus daphneae (see facts.md), so item 10 is the anticlimax twist, not an open mystery. Open questions kept honest: how the Kavachi sharks cope, Taam Ja' (no bottom found), the Upsweep (origin unresolved), dark oxygen (contested; Nature Geoscience editor's note of 8 April 2026). The species name is not spoken. -->
 <!-- Section headers "Sunlit.", "Pitch black." and "Rock bottom." are spoken on their own line before an item heading, so every item still opens on its exact name. -->
-<!-- Pronunciation checks for the editor (preview with `narrate`; respell in TTS input only if Chirp mangles them): Kavachi = "kah-VAH-chee"; Amami-Oshima = "ah-MAH-mee OH-shee-mah"; Torquigener albomaculosus = "tor-KWIJ-eh-ner al-boh-mak-yoo-LOH-sus"; Taam Ja' = "TAHM HAH"; Chetumal = "cheh-too-MAHL"; Eifuku = "AY-foo-koo"; Okinawa = "oh-kee-NAH-wah"; Kairei = "KY-ray"; Chapopote = "chah-poh-POH-teh"; Clarion-Clipperton = "KLAIR-ee-un KLIP-er-tun"; Kuril-Kamchatka = "KOO-ril kam-CHAT-kah"; Aleutian = "uh-LOO-shun"; Fendouzhe = "fun-DOH-juh"; Erik Cordes = "KOR-dez"; Sweetman as written. -->
+<!-- Pronunciation checks for the editor (preview with `narrate`; respell in TTS input only if Chirp mangles them): Kavachi = "kah-VAH-chee"; Amami-Oshima = "ah-MAH-mee OH-shee-mah"; Taam Ja' = "TAHM HAH"; Chetumal = "cheh-too-MAHL"; Eifuku = "AY-foo-koo"; Okinawa = "oh-kee-NAH-wah"; Kairei = "KY-ray"; Chapopote = "chah-poh-POH-teh"; Clarion-Clipperton = "KLAIR-ee-un KLIP-er-tun"; Kuril-Kamchatka = "KOO-ril kam-CHAT-kah"; Aleutian = "uh-LOO-shun"; Fendouzhe = "fun-DOH-juh"; Erik Cordes = "KOR-dez"; Sweetman as written. -->
 
 [Open on the thumbnail grid, 1.5 to 4 seconds. Cut to Doug in a tiny boat on bright turquoise water, snorkel gear on, red cap on top. Depth gauge on the left edge reads 0 M. DOUG DEATHS: 46 already on screen.]
 
@@ -34,11 +34,11 @@ Here's the twist. The crater wasn't empty.
 
 [Silhouettes with a red glow circle inside the crater. Reveal: hammerheads, silky sharks, a flat stingray. Label: "INSIDE THE CRATER".]
 
-Scalloped hammerheads and silky sharks were swimming around inside it, along with a sixgill stingray. They weren't passing through, either; they were living in the mouth of an active volcano.
+Scalloped hammerheads and silky sharks were swimming around inside it, along with a sixgill stingray. They were swimming inside the crater of an active volcano, and nobody knows whether they live there or slip in between eruptions.
 
-The water in there gets hot and acidic, and the plumes carry sulfur and bits of volcanic rock. One of the expedition scientists said there were plenty of reasons nothing should live in there except maybe bacteria. Nobody knows how the sharks cope with it, or where they go when it erupts.
+The water in there gets hot and acidic, and the plumes carry sulfur and bits of volcanic rock. One of the expedition scientists said there were plenty of reasons nothing should live in there except maybe bacteria. Nobody knows how the sharks cope with any of it.
 
-And it does erupt. In twenty twenty-two, satellites photographed it going off again, with a cloud of hot, acidic, discolored water spreading across the surface where the sharks live.
+And it does erupt. In twenty twenty-two, satellites photographed it going off again, with a cloud of hot, acidic, discolored water spreading across the surface above the crater.
 
 [Doug floats above the crater in snorkel gear. A hammerhead swims up. Speech bubble: "hi friend?"]
 
@@ -62,7 +62,7 @@ Each one was about two meters across, about as wide as a bed is long, with sharp
 
 It took until twenty eleven for researchers to finally catch the builder in the act.
 
-It was a male pufferfish about twelve centimeters long, roughly the length of a phone, and it was so new to science that it only got an official name in twenty fourteen: Torquigener albomaculosus.
+It was a male pufferfish up to about twelve centimeters long, roughly the length of a phone, and it was so new to science that it only got an official name in twenty fourteen.
 
 [A small spotted pufferfish next to a phone for scale. Then it swims in a circle, kicking up sand.]
 
@@ -80,7 +80,7 @@ Doug builds a circle of his own right next door. It's lopsided, and one side is 
 
 [Doug sits alone by his lopsided circle. Nobody comes. Flat-unimpressed face. DOUG DEATHS: 47]
 
-Nobody comes. Doug is used to this.
+Nobody comes. Doug is used to this by now.
 
 ## The Bottomless Blue Hole
 
@@ -138,7 +138,7 @@ Nothing down here is heated by a magma chamber. Instead, seawater soaks into roc
 
 [Arrows: seawater going down into the rock, then hydrogen and methane bubbling up. Tiny microbe doodles on the chimney.]
 
-The strange part comes from dating the oldest chimneys, which shows the Lost City has been venting for at least a hundred and twenty thousand years.
+The strange part comes from dating the oldest chimneys, which shows the Lost City has been venting for about a hundred and twenty thousand years.
 
 So the seafloor here has been making the raw ingredients of life out of plain rock, with no sunlight and no volcano, for well over a thousand centuries. Its discoverers think the first life on Earth may have started in a place a lot like this.
 
@@ -148,7 +148,7 @@ Doug climbs Poseidon to plant a flag on the top. Limestone is not famous for hol
 
 [The top of the chimney snaps off. Doug falls past the camera with the flag. DOUG DEATHS: 49]
 
-Poseidon stood for a hundred and twenty thousand years, and it lasted about four seconds with Doug on it.
+The Lost City has been venting for a hundred and twenty thousand years. Poseidon lasted about four seconds with Doug on it.
 
 ## The Bloop
 
@@ -156,7 +156,7 @@ The Bloop.
 
 In the summer of nineteen ninety-seven, United States government hydrophones in the Pacific picked up a sound so powerful it reached sensors more than five thousand kilometers apart.
 
-[Depth gauge: "~1,000 M". A map of the Pacific with listening stations as dots. A dotted line between two far-apart dots. Label: "5,000 KM".]
+[Depth gauge: "~900 M". A map of the Pacific with listening stations as dots. A dotted line between two far-apart dots. Label: "5,000 KM".]
 
 That's farther than New York is from Los Angeles.
 
@@ -310,7 +310,7 @@ Here's the part that should bother you. The tar itself is part of the menu.
 
 Tubeworms grow out of cracks in the asphalt, with clams and other shellfish settled nearby. The asphalt samples are partly digested, and researchers found signs of oil-eating bacteria living right inside them, while other microbes turn the oil into methane gas.
 
-Life down here isn't just surviving next to the tar. It's slowly eating it.
+Life down here isn't just surviving next to the tar. It's slowly eating it. And the team that found Chapopote thinks asphalt volcanoes like this one, with life like this on them, may be widespread deep in the Gulf.
 
 [Doug walks out onto the shiny black flow, whistling. Hopeful smile. Label: "FRESH ROAD".]
 
@@ -376,7 +376,7 @@ A mining company and several independent researchers published rebuttals arguing
 
 [A split screen: scientists on one side with "REAL", critics on the other with "ARTIFACT". A big red "?" in the middle.]
 
-So either the bottom of the ocean makes oxygen in the dark, or a lot of people have spent two years arguing about a sensor. Both sides want more measurements.
+For now, both sides want more measurements before anyone calls it settled.
 
 [Doug sits on the seafloor with his phone plugged into a nodule. The battery icon shows one bar. Speech bubble: "one bar".]
 
@@ -434,4 +434,4 @@ Nine and a half kilometers down, the cap has finally found someone who wants to 
 
 Doug deaths: fifty-six. Which deep-sea discovery should Doug visit next? Tell us in the comments.
 
-<!-- words: 3170 (spoken narration only, spoken section headers included; markdown headings, comments and stage directions excluded) · est. runtime 16:16 at 195 wpm · item 1 name at spoken words 31-32, twist ("Here's the twist") at spoken word 139 · "Rock bottom." at about 66% · 225 sentences, avg about 14.1 words, max 34 · Flesch about 67 (scripted estimate) · outro 16 words · items: Sharkcano 260, Crop Circles 268, Blue Hole 273 incl. "Pitch black.", Lost City 248, Bloop 245, Jacuzzi 253, Champagne Vent 254, Scaly-Foot Snail 244 incl. "Rock bottom.", Asphalt Volcano 245, Golden Orb 192, Dark Oxygen 283, Deepest Ecosystem 375 incl. outro · opener 30 incl. "Sunlit." -->
+<!-- words: 3182 (spoken narration only, spoken section headers included; markdown headings, comments and stage directions excluded) · est. runtime 16:19 at 195 wpm · draft 2 · item 1 name at spoken words 31-32, twist ("Here's the twist") at about spoken word 139 · "Rock bottom." at about 65% · 226 sentences, avg about 14.1 words, max 34 · outro 16 words · items: Sharkcano 261, Crop Circles 270, Blue Hole 273 incl. "Pitch black.", Lost City 251, Bloop 245, Jacuzzi 253, Champagne Vent 254, Scaly-Foot Snail 244 incl. "Rock bottom.", Asphalt Volcano 270, Golden Orb 192, Dark Oxygen 265, Deepest Ecosystem 375 incl. outro · opener 30 incl. "Sunlit." -->
