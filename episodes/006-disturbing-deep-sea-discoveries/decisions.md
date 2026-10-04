@@ -35,3 +35,31 @@
   `python -m studio shorts validate` OK; `validate metadata` OK.
 
 - 2026-10-04: Script 2 rounds (r1 FAIL on 2 facts), art/keyframes 2 rounds, thumbnail 1 round PASS. Risks: Taam Ja' pronunciation untested (no TTS respell support); dark oxygen disputed; 17:18 runtime.
+
+## 2026-10-04: final package gate, APPROVED
+- Screeners: visual-screener post-render round 2 PASS (all four round-1 blockers verified in the re-rendered final.mp4
+  and the three Shorts, no regressions). QC `build/qc.json`: 0 problems, 1037.8 s (17:18). Thumbnail PASS (unchanged).
+- Title: keeping "The Most Disturbing Discoveries at Every Depth of the Ocean" (T3 depth gradient, the strongest proven
+  formula, and the video delivers it exactly: 12 real discoveries in depth order, 20 m to 9,533 m). None of the alts is
+  clearly stronger. "How Every Deep Sea Discovery Would Kill Doug" relies on a character nobody knows yet, and the
+  "Scientists Found" and "Scariest Places" variants are weaker restatements. Title and grid split the work cleanly
+  (title gives the depth frame, tiles give the items, no shared words).
+- Thumbnail: 3x3 depth-ordered grid, with turquoise to black reading as "going down" at feed size. The brine-lake Doug
+  is the one human gag and the 9,533 m boss sits bottom-right. Drawn only, no gore, no real tragedy imagery. I would click.
+- Description: the first two lines sell the hook (sharks in a volcano, a lake under the sea, dark oxygen, 9,533 m).
+  It has a comment prompt, 6 primary sources (Nature, NOAA, UW), a cartoon-death disclaimer and an AI-use disclosure.
+  Not made for kids, paid_promotion false, playlist `ocean`. Chapters (build/chapters.txt): 13 entries from 0:00, all
+  named after the items, all longer than 10 s, matching the script order.
+- First 60 s: f_001 is the Solomon Islands map, f_002 the red-glow hammerhead silhouette in the crater, f_003 the
+  satellite plume ("2022"). "The Sharkcano" is spoken at about 0:10 (word 31). The twist "The crater wasn't empty." lands at
+  0:43-0:45, inside the 45 s rule, though only just. It is followed straight away by the silhouette reveal, the open
+  question (how do the sharks cope) and the 2022 eruption beat, so retention has a reason to keep going at 1:00. Doug,
+  the death counter (46) and "Doug did not agree to this." are all in the opening.
+- Non-blocking carry-overs, fix in the engine or the next episode rather than here: depth meter over the left edge of
+  map shots (visible in f_001), the meter scrolling in s068, "~9,533 M" vs "9,533 M" plate inconsistency, the Shorts
+  meter crop edge, and the preview subtitle `[:40]` cut. Dark oxygen stays framed as contested, and the Taam Ja'
+  pronunciation risk is accepted.
+- Next episode note: aim the item-1 twist at 25-35 s rather than 43 s. A twist this close to the limit is a retention
+  risk.
+
+FINAL: APPROVED

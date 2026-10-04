@@ -29,7 +29,22 @@
       "stage": "packaged",
       "at": "2026-10-04T21:59:21+00:00",
       "note": "all gates passed"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-04T22:06:33+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-04T22:24:20+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "qc_passed",
+      "at": "2026-10-04T22:31:07+00:00",
+      "note": "final approved"
     }
   ],
-  "stage": "packaged"
+  "stage": "qc_passed"
 }

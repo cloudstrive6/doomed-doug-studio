@@ -182,3 +182,96 @@ not nursery tone. The palette and framing are not kid-coded.
 
 VERDICT: PASS. The thumbnail is readable at feed size, error-free, matches the brief and title, and carries no gore
 or kid-appeal risk. T-1 to T-3 are optional polish.
+
+## Post-render review, round 1 (final.mp4, thumbnail, Shorts)
+
+What I checked: all 35 `build/samples/*.png` frames, plus `build/qc.json` (no problems, 1037.8 s). I also pulled
+extra frames from `build/final.mp4` around s014, s068, s098, s102 and s144, and checked `build/thumbnail.png` /
+`thumbnail_small.png` against `metadata.json`. For the Shorts I looked at `build/shorts/short0{1,2,3}_preview.png`,
+a frame every 2 s from each `short0N.mp4` (1080x1920), and full-resolution crops of the edges. The Shorts show the
+16:9 drawing zoomed 1.25x and centre-cropped (`studio/shorts.py`), so only about x 192-1728 of the 1920 frame
+survives. The safe zone is x 260-1660.
+
+### Main video: OK
+- I found no black, blank-by-error or frozen sample frames and no glitches. Titles and labels are spelled correctly
+  and readable. The depth meter climbs steadily (~20 M to 9,533 M). The DOUG DEATHS counter reaches 56 in the
+  outro, and the Shorts run 48, 50, 51 in order.
+- Doug is on-model everywhere (red cap, white head). His deaths are cartoon deaths: only the cap comes back, X-eyes
+  ghost, the cap preserved in the brine. There is no gore. The tone is deadpan adult, not kids-show.
+- s014: the red-glow sharks are the style bible's silhouette reveal (paint.py, style bible 4.2), and they resolve
+  into grey sharks within about 1 s. Accepted.
+
+### Thumbnail: PASS (unchanged since its approval)
+The 3x3 depth-ordered grid reads at 320x180 and fits the title. Optional notes T-1 to T-3 from the thumbnail round
+still apply.
+
+### Blocking fixes
+1. **s065 (director), Short01**: the "LIKE THE CARIBBEAN" label at x 1530 reads "LIKE THE CARIBBEAI", and the
+   Caribbean inset map panel is cut off at the right edge. This shows on the Short01 preview frame itself. Move the
+   label to about x 1350 and shift the inset panel left so its right edge is at or below x 1640. Shrink the inset if
+   it collides with the hole.
+2. **s069, s070 (Short01), s115, s116 (Short02), s138, s139 (Short03) (director)**: the "DOUG DEATHS: 48/50/51"
+   plate at x 1530 loses its right border, and the last digit touches the frame edge. The episode-005 round-3 rule
+   is that the counter must sit fully inside the frame with a margin. Move the plate to x 1380 in all six shots.
+3. **s116 (director), Short02**: Doug's ghost at x 1720 shows as a cut-off sliver at the right edge, which looks
+   like a glitch. Move him to x 1540 or less, clear of the counter plate.
+4. **s102 (director), main video and Short02 (about 6-8 s)**: for the first 2.3 s of this 4.8 s shot nothing is on
+   screen except the dark-blue background and the depth meter. The giant squid and scientist appear at 0.471 and
+   Doug at 0.706. In the Short this is a dead frame right after the hook. Set the scientist's `appear` to 0 so the
+   frame is never empty, and keep the squid silhouette reveal at 0.471. Optionally bring Doug in at 0.3.
+
+### Non-blocking (recommended)
+5. **s066 (director), Short01**: the "OPEN OCEAN" label (x 1600) and the open-ocean blue column sit right at the
+   edge, and the column is half cut. The narration is about the hole connecting to the open ocean. Move the label to
+   about x 1450 and the column to about x 1500-1600.
+6. **s099 (director), Short02 hook**: the "LOUDER" label (x 1600) and Doug (x 1680) touch the right edge. Move them
+   to about x 1480 and x 1560. s108 (Doug x 1700) and s129 (Doug + snorkel x 1680) are whole but tight; x 1580 is
+   safer.
+7. **Short03, warmth shot (the crab entering at right, about 19 s) (director)**: the crab is cut off at the right
+   edge. Move it to about x 1550.
+8. **s068 (director)**: during the "down, and down, and down" pan, the depth meter is drawn in world space, so it
+   scrolls off the bottom of the frame (sample f_009). Pin it in screen space, or leave it out of this shot.
+9. **Map shots (s006, the Bloop maps, the 2003 asphalt map, the Golden Orb map, the 9,533 m trench map)
+   (director)**: the depth meter is drawn over the left edge of the world map and covers part of it. Shift the map
+   right, or shrink it to clear x 280.
+10. **9,533 m plate (director)**: it reads "9,533 M" in the ROV shot at about 1005 s (sample f_034) but "~9,533 M" in the previous shots.
+    Pick one.
+11. **Engine (editor)**: in the Shorts the depth meter (x 190) sits on the crop edge, so its label loses its first
+    character ("0 M" for "~900 M") during zooms. Also, `shorts.py` line 222 builds the preview subtitle with
+    `[:40]`, which cuts words mid-way ("the water's t"). This only affects the preview, not the video.
+
+After the fixes, re-render s065, s069, s070, s102, s115, s116, s138 and s139 into final.mp4 (s102 is the only
+main-video change), re-render all three Shorts, and re-screen the Shorts.
+
+VERDICT: FAIL
+
+## Post-render review, round 2 (re-rendered final.mp4 and Shorts)
+
+What I checked: `build/qc.json` (no problems, 1037.8 s). I pulled frames from the new `build/final.mp4` at s065,
+s066, s069, s070, s102 (4 points across the shot), s115, s116, s138 and s139. For the Shorts I made a contact sheet
+with a frame every 2 s from each re-rendered `short0{1,2,3}.mp4` (55.2 s, 57.1 s, 48.8 s), plus full-resolution
+1080x1920 frames at every fixed shot.
+
+### Round-1 blocking fixes: all verified
+1. **s065 / Short01:** the "LIKE THE CARIBBEAN" label is complete, and the inset map sits fully inside the 9:16
+   crop with a margin (main video right edge about x 1640). Fixed.
+2. **Counter plates s069, s070 (48), s115, s116 (50), s138, s139 (51):** in all three Shorts the plate has all four
+   borders and every digit, with clear space to the edge. In the main video the plate also reads cleanly. Fixed.
+3. **s116 / Short02:** Doug's ghost is whole, at about x 945 of 1080, and clear of the counter plate. "THE MONSTER"
+   is inside the frame. Fixed.
+4. **s102:** the scientist is on screen from frame 0, Doug enters early, and the squid silhouette reveal still
+   lands. There is no empty frame in the main video or in Short02 (about 6-8 s). Fixed.
+
+### Round-1 recommendations: verified
+- s066: the "OPEN OCEAN" label and the ocean column are now inside the Short01 crop.
+- s099: "LOUDER" and Doug are whole in the Short02 hook. s108 and s129 are whole.
+- Short03 warmth shot: the crab is whole and inside the frame.
+- Items 8-11 (s068 meter scroll, meter over map edges, "~9,533 M" consistency, preview subtitle `[:40]`) are
+  unchanged and stay non-blocking.
+
+### Regressions
+None found. Titles, subtitles, the @DoomedDoug watermark and the end cards (the arrow points down) are legible in
+all three Shorts. Doug stays on-model, the deaths are cartoon only, and there is no gore. The counter runs
+48 → 50 → 51 in order.
+
+VERDICT: PASS
