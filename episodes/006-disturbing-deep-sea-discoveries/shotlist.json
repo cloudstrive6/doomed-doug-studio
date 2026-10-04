@@ -29042,19 +29042,10 @@
       "width": 4
      },
      {
-      "type": "circle",
-      "x": 1014,
-      "y": 40,
-      "r": 9.6,
-      "fill": null,
-      "color": "#ffffff",
-      "width": 4
-     },
-     {
       "type": "label",
       "text": "120,000 YEARS",
       "x": 1550,
-      "y": 230,
+      "y": 212,
       "size": 60,
       "bold": true,
       "boil": 0.4,
@@ -30181,7 +30172,7 @@
      },
      {
       "type": "doug",
-      "x": 400,
+      "x": 515,
       "y": 560,
       "scale": 0.4,
       "pose": "float",
@@ -30195,7 +30186,7 @@
      {
       "type": "asset",
       "name": "snorkel_gear",
-      "x": 400,
+      "x": 515,
       "y": 560,
       "scale": 0.4,
       "appear": 0.389,

@@ -97,3 +97,30 @@ s089-s092, s103-s105, s113-s116, s128, s133-s135, s215, s247) resolve notes 1-6 
 - s068: the first "DOWN" label sits high in the keyframe, but it belongs to the camera pan down the shaft (labels at y=1100/1700/2300). Accepted.
 
 **Verdict: PASS**
+
+## Round 2: visual-review fixes (new asset skate_egg_case + 38 changed shots)
+
+### New asset
+| # | Asset | Verdict | Notes |
+|---|---|---|---|
+| 32 | skate_egg_case | APPROVE | It reads as a mermaid's purse right away: a brown leathery pouch `#7a5c34` with bulging, shaded middle (highlight arc plus spray shadow), side seams, and four curled corner horns in double-stroke black over brown. It is detailed tier against crude Doug, on palette, and has a bold silhouette. In s213 (scale 0.75 with a `#3a4a7a` glow on abyss) it stays identifiable at thumbnail size. Preview: `assets/previews/skate_egg_case.png`. |
+
+### Keyframes checked
+All 278 keyframes are fresh. I checked the 38 changed shots at full resolution and their neighbours on contact sheets 02, 04, 06, 07, 10, 11, 14, 18, 19, 22 and 23.
+- **Visual-review blockers resolved:** s038 (clear grey alien head with the red X), s213 (egg case and vase sponge in colour with glows and "EGG CASE?"/"SPONGE?" labels), s112 (Doug clear of the meter, under the "?"), s018 (short bubble tail aimed at the mask, clear of the text). s113 and s180 tails now aim at Doug's head.
+- **Variety:** the brine run now goes s117 title, s118 map, s119-s120 pool, s121 Cordes waist-up close-up, s122 ROV, s123 pool, s124 cream lab salt-jar comparison, s125 layer cutaway, s126-s127 cross-section/bus, s128 pool, s129 tight warning-sign/gas close-up, s130 thermometers, s131 tight crab-on-rim. That is plenty of layouts. The orb run has s221 as a tight two-shot and s222 as a wide shot with the scientist. s275/s276 push in on the clam inside the monitor, so the cap-in-clam beat reads at phone size.
+- **Recommended fixes done:** s064/s065 put Doug inside the shaft, and s065 adds a Caribbean inset with an arrow. s117/s140 chapter WordArt is clear of the meter (the s140 bubbles sit behind the text). s256 has the label above the worms and the marker on the trench tip. s072/s076/s077/s078/s085/s088/s163/s217 WordArt now sits in open water or on the seabed band. s125 has the red X tied to "MIXING", and s218 has "EGG? SPONGE?" struck through.
+- Doug is on-model everywhere, with the red cap visible. Black ink on the cream lab shots (s124, s238). The zone ramp is consistent (sunlit s018/s022, twilight Lost City `#1b4f86`, navy brine, abyss orb, hadal trench). The cream lab cutaways (s124, s125, s238) follow the existing diagram convention. Nothing is gory.
+
+### Fixed by me (in `shotlist.json`, full keyframe re-render, all 24 contact sheets regenerated and verified)
+1. **s088:** Doug (and his snorkel gear) was drawn on top of the leftmost Lost City chimney, so he looked skewered on it. Moved both from x=400 to x=515, into open water between chimneys 1 and 2.
+2. **s085:** the top vent bubble (y=40) was hidden under the caption bar. Removed it. The "120,000 YEARS" label sat right on the 4th chimney's crown, so I raised it from y=230 to y=212 to clear the tip.
+
+### Non-blocking notes (director, optional)
+1. s212: the right scientist's head slightly overlaps the monitor frame. Nudge to x≈1680 if you touch the shot again.
+2. s129/s131: the tight pool close-ups run under the depth meter. The meter is a HUD overlay and its label stays legible, so this is accepted.
+3. s217: the "~2 M" label sits close under the caption bar (inside the safe area but tight). Accepted.
+
+`python -m studio validate ... shotlist` only reports the known `s001: scene_ref 'thumbnail' file missing` (the graphic designer's thumbnail is still pending). That is not an art issue.
+
+**Verdict: PASS**

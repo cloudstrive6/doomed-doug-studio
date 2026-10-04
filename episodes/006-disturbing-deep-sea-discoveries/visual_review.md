@@ -82,3 +82,68 @@ s097, s112, s113, s117, s136, s163, s180, s213, s240 and s256. s001 is the thumb
 
 VERDICT: FAIL. Fix shots s038, s213, s240, s112, s018 and the s119–s125 / s128–s132 variety run, then re-render those
 keyframes for round 2.
+
+## Round 2: keyframe re-check (2026-10-04)
+
+Scope: every Round 1 item, checked against the current `build/keyframes` (all rendered 21:37, after the last shotlist
+save, so they match commit 93b413c). I viewed these full size: s018, s038, s072, s085, s088, s112, s113, s117, s129,
+s131, s140, s180, s213, s240, s256 and s275. I checked s117–s140, s063–s065, s163, s215–s226 and s270–s278 on
+montages, plus every other shot changed in 93b413c (s022, s039, s137, s158, s212, s216, s238, s242, s269). Read-only:
+I edited nothing and re-rendered nothing.
+
+### Round 1 items
+1. **s038: FIXED.** A grey alien head with almond eyes under a red X reads as "alien" at a glance.
+2. **s213: FIXED.** The skate egg case (brown pouch with curled horns) and the vase sponge are in colour with a soft
+   glow, labelled "EGG CASE?" and "SPONGE?". Both are clearly visible on the abyss navy. The third shape is gone.
+3. **s240: FIXED.** Doug now draws in black ink on the cream background, so his whole body reads. He stands right of
+   the divider, which no longer runs through him. (s240 itself is unchanged in the shotlist, so the fix came from the
+   engine side; s214 and s238 also render correctly.)
+4. **s112: FIXED.** Doug sits at the right, under the red "?", clear of the depth meter.
+5. **s018 / s113 / s180: FIXED.** The tails are short and stop at the bubble edge. They aim at the scientist's mask
+   (s018) and at Doug's head (s113, s180). They no longer cross text or the fishing rod, and the stray tick is gone.
+6. **s119–s132 variety: FIXED.** The run is now broken by s121 (a waist-up Cordes with the 2014 calendar), s124 (the
+   SEA vs POOL salt jars), s125 (the seawater-over-brine cross-section), s126/s127 (pit sections with the bus), s129
+   (a push-in on the warning sign and gas plume) and s131 (a push-in on warmth with the crab). No run of 4 or more
+   near-identical frames is left.
+7. **s064 / s065: FIXED.** Doug is inside the shaft, and s065 has a Caribbean map inset with an arrow plus the
+   thermometer.
+8. **s117: FIXED.** The WordArt is recentred and clear of the meter. **s140: NOT FIXED.** The middle and right bubble
+   columns still run through "CHAMPAGNE" and "VENT". It is still legible (non-blocking, carried over as R2-3).
+9. **s256: FIXED.** "9,533 M" sits left of the tip, clear of the worms. The red triangle is now a flag on a stub under
+   the inverted summit, so it reads as attached.
+10. **WordArt over drawings: FIXED.** It moved into open water or onto the seabed band in s072, s076, s077, s078,
+    s085, s088, s163 and s217.
+11. **s221: FIXED.** It is now a tight two-shot of Doug and the orb, which breaks the s219–s222 run.
+12. **s275 / s276: FIXED.** They push in so the clam fills the monitor, and the red cap is visibly caught in the shell.
+13. **s125 / s218 / s222: FIXED.** The X now sits on a swirl icon labelled "MIXING". s218 has a struck-through
+    "EGG? SPONGE?", and s222 has "2 YEARS" over a struck-through "MYSTERY".
+
+Policy and Doug: no new gore or kid-appeal issues. The death counter is unchanged and in order (56 at s271–s278).
+Doug is on-model in every changed shot.
+
+### New findings
+**Blocking**
+- **R2-1. s088 (director):** Doug is placed exactly on the leftmost Lost City chimney (x≈410, y≈450–620). His white
+  stick body and arms vanish into the white carbonate, so only his head, cap and fins show. He reads as a head
+  impaled on the spire, the same "floating head" problem that made s240 blocking in Round 1. Move Doug into open
+  water clear of every chimney, for example x≈1180, y≈520 (between the centre and fourth chimneys, as in s072), or
+  x≈500 if he must stay left. Keep the scientist where he is, but nudge him about 40 px left so he no longer touches
+  the right-hand chimney.
+
+**Recommended (non-blocking)**
+- **R2-2. s112 (director / art director):** the two "upsweep" traces are pale yellow (about #fff080) on the white
+  chart panel, so they are barely visible at phone size. Recolour them to a dark ink (black, or orange #e07a00) at
+  their current width.
+- **R2-3. s140 (director):** this is Round 1 item 8, carried over. Shift the middle and right bubble columns about
+  120 px so they clear the WordArt, or start them below y≈340.
+- **R2-4. s085 (director):** the "120,000 YEARS" label sits on the tip of the fourth chimney. Raise it to y≈150, or
+  move it right of the clock, so the tip shows.
+
+### Routing summary
+- **Director:** R2-1 (blocking), R2-2, R2-3, R2-4
+- **Art director:** R2-2 (trace colour, if it is a style default)
+- **Illustrator / graphic designer:** none
+
+VERDICT: FAIL. Fix shot s088 (R2-1: move Doug off the chimney), then re-render the s088 keyframe. Every Round 1
+blocking item (s018, s038, s112, s213, s240, s119–s132) is resolved. Once s088 is fixed, this round passes without
+needing another full sheet review.
