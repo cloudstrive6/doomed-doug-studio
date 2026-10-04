@@ -14,7 +14,12 @@
       "stage": "script_approved",
       "at": "2026-10-04T20:29:18+00:00",
       "note": "CD approved draft 2 (screener round 2 PASS, 0 fact errors). CD polish: removed repeated 'swimming inside', 120,000-year echo in Lost City kicker, split line 25. 3,173 words (~16:16). LIVE-feed ending adopted as ocean-playlist standard."
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-10-04T20:59:20+00:00",
+      "note": "278 shots (~17 min est.), narration matches script word-for-word, Doug in 80% of shots, gauge on left edge every item, counter 46->56; 31 new assets requested (asset_requests.md); 3 Shorts (blue hole, Bloop, brine pool), titles pending"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }

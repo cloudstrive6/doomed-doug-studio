@@ -1,0 +1,37 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s059",
+      "to": "s070",
+      "hook": "Scientists still can't find the bottom of this blue hole.",
+      "hook_scene_from": "s050",
+      "title": "",
+      "outro": "The next discovery is even deeper. The full dive is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s101",
+      "to": "s116",
+      "hook": "In 1997, the ocean made a sound louder than a blue whale.",
+      "hook_scene_from": "s099",
+      "title": "",
+      "outro": "It only gets worse from here. The full dive is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s129",
+      "to": "s139",
+      "hook": "Scientists named this underwater lake the Jacuzzi of Despair.",
+      "hook_scene_from": "s117",
+      "title": "",
+      "outro": "What happens next is even worse. The full dive is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    }
+  ]
+}
