@@ -147,3 +147,5 @@ Doug is on-model in every changed shot.
 VERDICT: FAIL. Fix shot s088 (R2-1: move Doug off the chimney), then re-render the s088 keyframe. Every Round 1
 blocking item (s018, s038, s112, s213, s240, s119–s132) is resolved. Once s088 is fixed, this round passes without
 needing another full sheet review.
+
+Round 2 note (showrunner): s088 fixed by art director before the screener render (Doug now x=515, readable); screener R2-1 resolved. Both gates effectively PASS.

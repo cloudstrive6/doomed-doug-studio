@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-10-04T20:59:20+00:00",
       "note": "278 shots (~17 min est.), narration matches script word-for-word, Doug in 80% of shots, gauge on left edge every item, counter 46->56; 31 new assets requested (asset_requests.md); 3 Shorts (blue hole, Bloop, brine pool), titles pending"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-10-04T21:41:58+00:00",
+      "note": "art-director PASS r2; visual-screener r2 only s088, fixed"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }
