@@ -54,7 +54,12 @@
       "stage": "qc_passed",
       "at": "2026-10-04T22:41:26+00:00",
       "note": "final approved (after s139 fix)"
+    },
+    {
+      "stage": "uploaded",
+      "at": "2026-10-04T22:41:45+00:00",
+      "note": "wIjpa2amtsw"
     }
   ],
-  "stage": "qc_passed"
+  "stage": "uploaded"
 }
