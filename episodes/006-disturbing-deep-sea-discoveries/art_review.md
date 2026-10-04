@@ -71,3 +71,29 @@ never goes beyond cartoon level.
 ## Files touched
 - `assets/library/manganese_nodule.json` (inner shading and bumps pulled inside the outline)
 - `episodes/006-disturbing-deep-sea-discoveries/shotlist.json` (s149, s191, s251)
+
+## Final keyframe review (after the director's 23 shot changes)
+
+All 278 keyframes re-rendered and all 24 contact sheets checked. The director's changes (s015, s017-s019, s061, s068,
+s089-s092, s103-s105, s113-s116, s128, s133-s135, s215, s247) resolve notes 1-6 above:
+- **s017/s018** break up the crater run (plume plus thermometer close-up, then the scientist and microbes on a ledge). s015, s016 and s019 still share the crater composition, but they are no longer consecutive.
+- **s089-s092:** Poseidon is the tallest centre chimney in s079, s089 and s090, it carries the label, and it is the one that breaks in s091/s092. Continuity holds.
+- **s061, s068, s247** have the depth meter again. **s103-s116** surface beats read "0 M".
+- **s133/s134** are tight crab-on-the-rim close-ups and **s135** is a cutaway of the pool's contents. The brine run now has three layouts.
+- **s215** is a tight orb close-up and is clearly different from s209-s211.
+
+### Fixed by me in this pass (in `shotlist.json`, re-rendered and verified)
+1. **s113-s116:** the sky was `#c9d6df` (an off-palette grey) while the iceberg shots s103-s105 use the bible sky `#8fd3ff`. All four now use `#8fd3ff`.
+2. **s113:** the bobber sat on the ice edge. The line now drops into the water at (1075, 772).
+3. **s114:** Doug stood up (`hands_hips`) but the rod was still anchored at his old seated hand, so it floated free. Changed him to `point` and re-anchored the rod at his hand. The line ends in the water.
+4. **s115:** there were two caps (one on the iceberg, one on falling Doug). Removed the loose `doug_cap`. The left-behind cap appears in s116, after he is gone.
+5. **s116:** the "THE MONSTER" WordArt crossed the bubble trail. Moved the bubbles and ghost Doug to x≈1720 and the WordArt to x=1280. Text, arrow and bubbles are now all clear of each other.
+6. **s240:** auto-ink sampled the black divider line and drew Doug in white on cream (head outline and body nearly invisible). His spine also merged with the divider, so he looked impaled. Set `ink: #000000` and moved him to x=1060, off the line.
+7. **s215:** the "LEAST DRAMATIC" WordArt nearly touched the "~3,250 M" meter label. Moved it to x=830.
+
+### Checks
+- Doug is on-model in every shot. The red cap is visible everywhere, including the ghost, flat and floating poses. Nothing is gory.
+- The zone ramp is consistent from sunlit to hadal. The meter and the counter (46 to 56) run in order. Captions and labels sit inside the safe area.
+- s068: the first "DOWN" label sits high in the keyframe, but it belongs to the camera pan down the shaft (labels at y=1100/1700/2300). Accepted.
+
+**Verdict: PASS**

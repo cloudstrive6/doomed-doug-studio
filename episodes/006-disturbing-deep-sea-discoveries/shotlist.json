@@ -40233,7 +40233,7 @@
    "id": "s113",
    "narration": "Doug goes monster hunting with a fishing rod,",
    "scene": {
-    "background": "#c9d6df",
+    "background": "#8fd3ff",
     "elements": [
      {
       "type": "rect",
@@ -40241,7 +40241,7 @@
       "y": 0,
       "w": 1920,
       "h": 760,
-      "fill": "#c9d6df",
+      "fill": "#8fd3ff",
       "width": 0,
       "outline": false
      },
@@ -40464,12 +40464,12 @@
         191
        ],
        [
-        1033.0,
-        378.5
+        1060,
+        470
        ],
        [
-        1003,
-        566
+        1075,
+        772
        ]
       ],
       "color": "#555555",
@@ -40478,8 +40478,8 @@
      },
      {
       "type": "circle",
-      "x": 1003,
-      "y": 566,
+      "x": 1075,
+      "y": 772,
       "r": 12,
       "fill": "#ffffff",
       "color": "#e0201b",
@@ -40507,7 +40507,7 @@
    "id": "s114",
    "narration": "and he stands on the nearest iceberg to get a better cast.",
    "scene": {
-    "background": "#c9d6df",
+    "background": "#8fd3ff",
     "elements": [
      {
       "type": "rect",
@@ -40515,7 +40515,7 @@
       "y": 0,
       "w": 1920,
       "h": 760,
-      "fill": "#c9d6df",
+      "fill": "#8fd3ff",
       "width": 0,
       "outline": false
      },
@@ -40710,7 +40710,7 @@
       "x": 700,
       "y": 435,
       "scale": 0.6,
-      "pose": "hands_hips",
+      "pose": "point",
       "expression": "smirk",
       "facing": "right"
      },
@@ -40744,12 +40744,12 @@
       "type": "line",
       "points": [
        [
-        753,
-        491
+        772,
+        356
        ],
        [
-        983,
-        191
+        1000,
+        130
        ]
       ],
       "color": "#a0522d",
@@ -40760,12 +40760,12 @@
       "type": "curve",
       "points": [
        [
-        983,
-        191
+        1000,
+        130
        ],
        [
-        1161.5,
-        480.5
+        1170,
+        450
        ],
        [
         1260,
@@ -40793,7 +40793,7 @@
    "id": "s115",
    "narration": "Doug found the monster.",
    "scene": {
-    "background": "#c9d6df",
+    "background": "#8fd3ff",
     "elements": [
      {
       "type": "rect",
@@ -40801,7 +40801,7 @@
       "y": 0,
       "w": 1920,
       "h": 760,
-      "fill": "#c9d6df",
+      "fill": "#8fd3ff",
       "width": 0,
       "outline": false
      },
@@ -41039,13 +41039,6 @@
      },
      {
       "type": "asset",
-      "name": "doug_cap",
-      "x": 660,
-      "y": 508,
-      "scale": 0.55
-     },
-     {
-      "type": "asset",
       "name": "exclamation_mark",
       "x": 1500,
       "y": 420,
@@ -41062,7 +41055,7 @@
    "id": "s116",
    "narration": "He was standing on it.",
    "scene": {
-    "background": "#c9d6df",
+    "background": "#8fd3ff",
     "elements": [
      {
       "type": "rect",
@@ -41070,7 +41063,7 @@
       "y": 0,
       "w": 1920,
       "h": 760,
-      "fill": "#c9d6df",
+      "fill": "#8fd3ff",
       "width": 0,
       "outline": false
      },
@@ -41279,7 +41272,7 @@
      },
      {
       "type": "circle",
-      "x": 1309,
+      "x": 1729,
       "y": 960,
       "r": 16.0,
       "fill": null,
@@ -41288,7 +41281,7 @@
      },
      {
       "type": "circle",
-      "x": 1319,
+      "x": 1739,
       "y": 910,
       "r": 14.8,
       "fill": null,
@@ -41297,7 +41290,7 @@
      },
      {
       "type": "circle",
-      "x": 1303,
+      "x": 1723,
       "y": 860,
       "r": 13.6,
       "fill": null,
@@ -41306,7 +41299,7 @@
      },
      {
       "type": "circle",
-      "x": 1297,
+      "x": 1717,
       "y": 810,
       "r": 12.4,
       "fill": null,
@@ -41315,7 +41308,7 @@
      },
      {
       "type": "doug",
-      "x": 1300,
+      "x": 1720,
       "y": 470,
       "scale": 0.45,
       "pose": "float",
@@ -41327,7 +41320,7 @@
      {
       "type": "wordart",
       "text": "THE MONSTER",
-      "x": 1350,
+      "x": 1280,
       "y": 940,
       "size": 96,
       "boil": 0,
@@ -89831,7 +89824,7 @@
      {
       "type": "wordart",
       "text": "LEAST DRAMATIC",
-      "x": 780,
+      "x": 830,
       "y": 905,
       "size": 90,
       "boil": 0,
@@ -101144,13 +101137,14 @@
      },
      {
       "type": "doug",
-      "x": 960,
+      "x": 1060,
       "y": 860,
       "scale": 0.5,
       "pose": "shrug",
       "expression": "confused",
       "facing": "right",
-      "appear": 0.917
+      "appear": 0.917,
+      "ink": "#000000"
      }
     ]
    }
