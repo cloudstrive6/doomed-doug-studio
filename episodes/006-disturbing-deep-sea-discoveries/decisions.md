@@ -63,3 +63,6 @@
   risk.
 
 FINAL: APPROVED
+- Showrunner: round-2 screener found s139 counter overlap; fixed (y 230), final + Short03 re-rendered, QC 0, verified by frame check.
+
+FINAL: APPROVED

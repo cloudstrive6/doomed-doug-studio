@@ -275,3 +275,67 @@ all three Shorts. Doug stays on-model, the deaths are cartoon only, and there is
 48 → 50 → 51 in order.
 
 VERDICT: PASS
+
+## Post-render review, round 2 (final.mp4 22:24, Shorts 22:27-22:28)
+
+What I checked: the `shotlist.json` diff against round 1. Frames pulled from `build/final.mp4` at the
+`build/timing.json` times for s065 (244.8), s066 (247.3), s068 (255.0), s069 (257.5), s070 (262.5), s099 (371.8),
+s102 (376.6 / 377.3 / 378.5 / 380.8), s108 (398.5), s115 (422.3), s116 (424.0), s129 (469.5), s138 (502.5) and
+s139 (eight frames from 503.5 to 506.0). One frame per second from each `short0N.mp4` (1080x1920), plus full-resolution
+crops, and a denser pass on Short01 at 31.5-33.0 s. All 35 regenerated `build/samples/*.png` frames, and `build/qc.json`
+(no problems, 1037.8 s, duration unchanged).
+
+### Blocking fixes from round 1
+1. **s065 Caribbean label/inset: FIXED.** In final.mp4 and in Short01 (about 32.0-32.5 s), "LIKE THE CARIBBEAN" reads
+   in full and the inset panel and its thermometer sit fully inside the Short crop with margin.
+2. **Counter plates s069, s070, s115, s116, s138, s139: FIXED in all three Shorts.** The "DOUG DEATHS: 48/50/51"
+   plates are whole, with both borders and a margin, in Short01 (45-50 s), Short02 (51-53 s) and Short03 (40-44 s).
+   **Regression in the main video, s139:** see new fix R1 below.
+3. **s116 ghost sliver: FIXED.** At x 1540, Doug's X-eyes ghost and bubbles show whole in final.mp4 (424.0) and in
+   Short02 (53 s). They are clear of the counter plate.
+4. **s102 empty opening: FIXED.** The scientist is on screen from frame 1 (376.6 in the main video, 7 s in Short02),
+   Doug enters at about 378.0, and the squid silhouette reveal is unchanged. The Short no longer has a dead frame
+   after the hook. The first 1.4 s is still sparse (one small scientist at the lower left), but it is not empty.
+   Accepted.
+
+### New blocking issue (regression)
+R1. **s139 (director), main video 505.0-506.0 s:** the counter plate's move to x 1380 combines with this shot's
+   `zoom_in` (1.08 about 1000,760) and pushes the world-space plate up and left under the screen-space topic plate.
+   For the last ~1 s of the shot, "THE JACUZZI OF DESPAIR" covers the top-left of "DOUG DEATHS: 51", and the "DOUG"
+   letters are clipped. This did not happen at x 1530. Short03 is not affected, because the topic plate sits
+   elsewhere there. Fix: in s139 only, move the "DOUG DEATHS: 51" plate down to y 230 and keep x 1380. With the zoom
+   its top lands at about y 155, well clear of the topic plate (bottom at about y 82), and it stays inside the Short
+   crop. The alternative is to drop the zoom on s139. Re-render s139 into final.mp4, then re-render Short03.
+
+### Non-blocking items 5-11
+5. s066 OPEN OCEAN: **addressed.** The label and blue column are whole in Short01 (36-37 s).
+6. s099 / s108 / s129: **addressed.** The LOUDER label, Doug, and Doug with snorkel are all whole in the Shorts. New
+   cosmetic note: at x 1480 the LOUDER plate now sits across the chart's right border line. Optionally use x 1560 and
+   y 470 (beside the curve's end, outside the chart).
+7. Short03 warmth crab (s131 at about 20 s): **not addressed.** The crab is still cut off at the right edge of the
+   Short.
+8. s068 depth meter scrolling off-frame: **not addressed** (255.0 s).
+9. Map shots, meter over the left edge of the map: **not addressed.**
+10. "~9,533 M" vs "9,533 M": **not addressed** (sample f_034 still reads "9,533 M").
+11. Engine: Shorts depth-meter label clipped ("00 M" in Short03 at 44 s) and the preview subtitle `[:40]` cut:
+    **not addressed.**
+New optional item: s065's Caribbean inset appears at 0.882 and is on screen for only about 0.7 s, in both the main
+video and Short01. If the director touches s065 again, `appear` 0.75 gives it about 1.4 s.
+
+### Regression sweep
+In the 35 samples I found no black, blank or frozen frames and no glitches. Doug is on-model throughout, and the
+counter still reaches 56 in the outro. Thumbnail unchanged (22:06), still PASS. Shorts end cards are fine: the title
+reads, the "WHAT HAPPENS NEXT? TAP BELOW" arrow points down, and subtitles are legible.
+
+### Required before PASS
+- R1 (s139 counter plate y 230), then re-render s139 into final.mp4 and re-render Short03. Re-screen only s139
+  (503.4-506.0 s) and Short03 (40-44 s).
+
+VERDICT: FAIL
+
+## Post-render review, round 2 fix check (showrunner, after final.mp4 and Short03 re-render)
+R1 (s139 counter hidden by title plate during the zoom) fixed: counter moved to y 230, x 1380. Checked frame at 505.6 s in
+final.mp4 and Short03 at 42 s: counter plate whole, clear of the title plate and the caption. QC exit 0, no problems.
+All blocking items from the round-2 screener are resolved; the rest are non-blocking.
+
+VERDICT: PASS
