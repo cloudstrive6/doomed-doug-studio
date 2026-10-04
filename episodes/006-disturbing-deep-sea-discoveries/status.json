@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-10-04T21:41:58+00:00",
       "note": "art-director PASS r2; visual-screener r2 only s088, fixed"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-10-04T21:59:21+00:00",
+      "note": "all gates passed"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

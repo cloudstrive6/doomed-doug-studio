@@ -33,3 +33,5 @@
   2. "The Ocean's Loudest Mystery Sound Turned Out to Be Ice" (Bloop = icequakes; Upsweep still unresolved)
   3. "This Underwater Lake Kills and Preserves Whatever Falls In" (Jacuzzi of Despair)
   `python -m studio shorts validate` OK; `validate metadata` OK.
+
+- 2026-10-04: Script 2 rounds (r1 FAIL on 2 facts), art/keyframes 2 rounds, thumbnail 1 round PASS. Risks: Taam Ja' pronunciation untested (no TTS respell support); dark oxygen disputed; 17:18 runtime.
