@@ -264,3 +264,12 @@ Bloop "monster"), `freshwater_snail`, `crab`, `hot_tub`, `head_towel`, `doug_cap
   superstructure with **lit yellow windows**, an A-frame crane at the stern (left), a mast with a red light. Reads on a night sky.
 - **Size/anchor:** 900x360; **anchor = waterline centre**, so the hull bottom sits about 60 below the anchor.
 - **Shots:** s272 (the start of the LIVE-feed ending).
+
+## Visual review round 1 additions
+
+### skate_egg_case (A)
+- **DONE** (director, for the visual-review s213 fix; art director please approve): `assets/library/skate_egg_case.json`
+- **What:** a skate egg case ("mermaid's purse"): brown leathery rectangular pouch `#7a5c34` with a bulging middle and
+  four long curled horn tendrils, one at each corner. Seen from above, horizontal.
+- **Size/anchor:** about 320x280, `c`. Used at scale 0.75 on abyss navy with a soft `#3a4a7a` glow behind it.
+- **Shots:** s213 (the "egg case?" guess; `sea_sponge` is now shown in colour beside it).
