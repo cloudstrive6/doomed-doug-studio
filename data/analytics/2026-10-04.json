@@ -1,0 +1,407 @@
+{
+ "date": "2026-10-04",
+ "channel": {
+  "viewCount": "144",
+  "subscriberCount": "1",
+  "hiddenSubscriberCount": false,
+  "videoCount": "10"
+ },
+ "videos": [
+  {
+   "video": "S_An9KcvvCo",
+   "views": 54,
+   "estimatedMinutesWatched": 5,
+   "averageViewDuration": 16,
+   "averageViewPercentage": 32.9,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "Anglerfish Romance Is a Horror Movie",
+   "published": "2026-09-30T23:00:26Z",
+   "lifetime_views": 116,
+   "retention_curve": [
+    [
+     0.01,
+     1.062,
+     0.285
+    ],
+    [
+     0.06,
+     1,
+     0.118
+    ],
+    [
+     0.11,
+     0.75,
+     0.1
+    ],
+    [
+     0.16,
+     0.625,
+     0.099
+    ],
+    [
+     0.21,
+     0.562,
+     0.082
+    ],
+    [
+     0.26,
+     0.5,
+     0.052
+    ],
+    [
+     0.31,
+     0.375,
+     0.05
+    ],
+    [
+     0.36,
+     0.375,
+     0.05
+    ],
+    [
+     0.41,
+     0.312,
+     0.057
+    ],
+    [
+     0.46,
+     0.312,
+     0.062
+    ],
+    [
+     0.51,
+     0.25,
+     0.062
+    ],
+    [
+     0.56,
+     0.25,
+     0.062
+    ],
+    [
+     0.61,
+     0.25,
+     0.062
+    ],
+    [
+     0.66,
+     0.25,
+     0.062
+    ],
+    [
+     0.71,
+     0.188,
+     0.062
+    ],
+    [
+     0.76,
+     0.125,
+     0.062
+    ],
+    [
+     0.81,
+     0.125,
+     0.063
+    ],
+    [
+     0.86,
+     0.062,
+     0.091
+    ],
+    [
+     0.91,
+     0.062,
+     0.166
+    ],
+    [
+     0.96,
+     0.062,
+     0.213
+    ]
+   ]
+  },
+  {
+   "video": "u85gqwGrrZo",
+   "views": 14,
+   "estimatedMinutesWatched": 3,
+   "averageViewDuration": 21,
+   "averageViewPercentage": 39.49,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "The Giant Squid Has Eyes Bigger Than Your Head",
+   "published": "2026-10-01T23:00:23Z",
+   "lifetime_views": 30,
+   "retention_curve": [
+    [
+     0.01,
+     1.1,
+     0.448
+    ],
+    [
+     0.06,
+     1,
+     0.313
+    ],
+    [
+     0.11,
+     0.9,
+     0.328
+    ],
+    [
+     0.16,
+     0.8,
+     0.361
+    ],
+    [
+     0.21,
+     0.7,
+     0.397
+    ],
+    [
+     0.26,
+     0.5,
+     0.428
+    ],
+    [
+     0.31,
+     0.4,
+     0.443
+    ],
+    [
+     0.36,
+     0.4,
+     0.362
+    ],
+    [
+     0.41,
+     0.3,
+     0.189
+    ],
+    [
+     0.46,
+     0.3,
+     0.205
+    ],
+    [
+     0.51,
+     0.3,
+     0.291
+    ],
+    [
+     0.56,
+     0.3,
+     0.359
+    ],
+    [
+     0.61,
+     0.3,
+     0.316
+    ],
+    [
+     0.66,
+     0.3,
+     0.234
+    ],
+    [
+     0.71,
+     0.3,
+     0.152
+    ],
+    [
+     0.76,
+     0.3,
+     0.104
+    ],
+    [
+     0.81,
+     0.3,
+     0.088
+    ],
+    [
+     0.86,
+     0.1,
+     0.108
+    ],
+    [
+     0.91,
+     0.1,
+     0.159
+    ],
+    [
+     0.96,
+     0.1,
+     0.189
+    ]
+   ]
+  },
+  {
+   "video": "AcL4RwsVa_w",
+   "views": 1,
+   "estimatedMinutesWatched": 2,
+   "averageViewDuration": 137,
+   "averageViewPercentage": 13.8,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "How Doug Would Die in Every Mass Extinction",
+   "published": "2026-10-02T16:00:00Z",
+   "lifetime_views": 1
+  },
+  {
+   "video": "xra1KWBfC7A",
+   "views": 1,
+   "estimatedMinutesWatched": 0,
+   "averageViewDuration": 0,
+   "averageViewPercentage": 0,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "What Dying From Every Parasite Would Feel Like",
+   "published": "2026-10-01T16:00:07Z",
+   "lifetime_views": 2
+  }
+ ],
+ "errors": [],
+ "traffic_sources": {
+  "columns": [
+   "insightTrafficSourceType",
+   "views",
+   "estimatedMinutesWatched"
+  ],
+  "rows": [
+   [
+    "SHORTS",
+    41,
+    3
+   ],
+   [
+    "YT_SEARCH",
+    24,
+    3
+   ],
+   [
+    "YT_CHANNEL",
+    4,
+    4
+   ],
+   [
+    "YT_OTHER_PAGE",
+    2,
+    0
+   ]
+  ]
+ },
+ "countries": {
+  "columns": [
+   "country",
+   "views"
+  ],
+  "rows": []
+ },
+ "revenue": {
+  "columns": [
+   "estimatedRevenue",
+   "playbackBasedCpm",
+   "monetizedPlaybacks"
+  ],
+  "rows": []
+ },
+ "reach": {
+  "job": "f14b8539-5e4b-46c3-b6cf-8834b108a384",
+  "days": 33,
+  "videos": {
+   "AnQ1rVTXaHc": {
+    "impressions": 6,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "9eiX84Ik1Sc": {
+    "impressions": 94,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "1jtYu4dak1M": {
+    "impressions": 7,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "S_An9KcvvCo": {
+    "impressions": 125,
+    "clicks": 6,
+    "ctr": 0.048
+   },
+   "gLsAHjg0iEI": {
+    "impressions": 10,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "qw_depGDRzw": {
+    "impressions": 13,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "sWk_a6nsfpw": {
+    "impressions": 8,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "u85gqwGrrZo": {
+    "impressions": 68,
+    "clicks": 5,
+    "ctr": 0.0735
+   },
+   "G9prufp3wZo": {
+    "impressions": 6,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "GLu8XkxtLyw": {
+    "impressions": 6,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "J0xDu3DEv9U": {
+    "impressions": 6,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "RvEDMoP2gUk": {
+    "impressions": 7,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "VJKROOcMeaw": {
+    "impressions": 7,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "e_-1ahYxQyM": {
+    "impressions": 7,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "leqH0vEsQ-Q": {
+    "impressions": 7,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "xra1KWBfC7A": {
+    "impressions": 19,
+    "clicks": 0,
+    "ctr": 0.0
+   },
+   "AcL4RwsVa_w": {
+    "impressions": 3,
+    "clicks": 0,
+    "ctr": 0.0
+   }
+  }
+ }
+}
