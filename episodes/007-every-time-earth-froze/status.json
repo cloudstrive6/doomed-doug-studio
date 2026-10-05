@@ -19,7 +19,12 @@
       "stage": "script_approved",
       "at": "2026-10-05T05:29:27+00:00",
       "note": "CD approved draft 2 + 4 minor CD edits; ice-block closing image and monotonic FROZEN meter approved (see decisions.md)"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-10-05T05:51:05+00:00",
+      "note": "276 shots, narration matches script word-for-word (3,112 words); FROZEN globe meter monotonic next to counter (56->65), maxed with icicles at s264; ice-block 2026 ending; 30 asset requests; 3 Shorts (Missoula, Frost Fairs, First Snowball) awaiting titles"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }
