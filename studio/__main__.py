@@ -314,9 +314,23 @@ def cmd_gate(a):
     if not qc.exists() or json.loads(qc.read_text(encoding="utf-8")).get("problems"):
         reasons.append("technical QC missing or has problems")
     vr = ep / "visual_review.md"
-    verdicts = re.findall(r"VERDICT[^:\n]*:\s*\**\s*(PASS|FAIL)", vr.read_text(encoding="utf-8")) if vr.exists() else []
+    # A Shorts verdict (under a "Shorts" heading or on a "Shorts:" line) only holds back the Shorts, not the long video.
+    verdicts, shorts_verdicts, heading = [], [], ""
+    for line in (vr.read_text(encoding="utf-8").splitlines() if vr.exists() else []):
+        if line.startswith("#"):
+            heading = line
+        m = re.search(r"VERDICT[^:\n]*:\s*\**\s*(PASS|FAIL)", line)
+        if m:
+            (shorts_verdicts if "short" in (heading + line).lower() else verdicts).append(m.group(1))
     if not verdicts or verdicts[-1] != "PASS":
         reasons.append(f"latest visual-screener verdict is {verdicts[-1] if verdicts else 'missing'}")
+    hold = ep / "build" / "shorts_hold"
+    if shorts_verdicts and shorts_verdicts[-1] == "FAIL":
+        hold.parent.mkdir(parents=True, exist_ok=True)
+        hold.write_text("visual screener FAILED the Shorts\n", encoding="utf-8")
+        notify.send(f"🩳 {ep.name}: Shorts held back (visual screener FAIL); the long video is unaffected")
+    elif hold.exists():
+        hold.unlink()
     dec = ep / "decisions.md"
     finals = re.findall(r"^FINAL:\s*(APPROVED|REJECTED)", dec.read_text(encoding="utf-8"), re.M) if dec.exists() else []
     if finals and finals[-1] == "REJECTED":

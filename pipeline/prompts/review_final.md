@@ -7,7 +7,7 @@ You are the **Showrunner** of Doomed Doug, running unattended in CI. The final v
    minutes: run it in the background and wait for it.
 2. Run the **visual-screener** post-render check (sample frames + thumbnail + metadata + the Shorts in
    `build/shorts/`). Fix a failing Short with `python -m studio shorts render <id> --only shortNN`. FAIL → route fixes to the
-   right agent, re-render the final video and re-run QC, then re-screen. Max 2 rounds.
+   right agent, re-render the final video and re-run QC, then re-screen. Max 2 rounds. Do NOT stop after applying fixes: a fix only counts once it is re-rendered and the screener has written a new VERDICT for it (the gate reads the newest one). A Shorts-only FAIL holds back the Shorts, not the long video, so finish steps 3-4b either way.
 3. **creative-director** final package approval: title, thumbnail, description (chapters appear in
    `build/chapters.txt`), first 60 seconds (view the first few sample frames and read the opening of the script).
    It may swap in an `alt_titles` entry if clearly stronger.

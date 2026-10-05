@@ -263,6 +263,8 @@ def upload(ep: Path) -> list[dict]:
     if not meta.get("youtube_id"):
         raise SystemExit("upload the long video first (Shorts link to it)")
     long_at = _parse_utc(meta["publish_at"])
+    if (ep / "build" / "shorts_hold").exists():
+        raise SystemExit(f"{ep.name}: Shorts held (visual screener FAILED them); fix, re-render, re-screen, then upload")
     data = load(ep)
     api = yt()
     done, failed = [], []
