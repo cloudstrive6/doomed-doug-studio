@@ -197,3 +197,59 @@ The pattern for maps is to **shrink the map and raise it so the wordart sits in 
 
 ### Re-check plan
 After the director's pass, I re-render every shot listed above plus s057 and s245 with `python -m studio keyframes 007-every-time-earth-froze --shots ...` and review them as round 2.
+
+## Keyframes round 2
+
+Reviewer: art-director · Date: 2026-10-05
+
+**Verdict: FAIL.** 9 numbered fixes covering 11 shots remain. All of them go to the **director** (composition). None needs an illustrator change. The round 1 work is nearly all in place, and this should be the last pass.
+
+### How I checked
+- I confirmed that all 276 frames in `build/keyframes/` were rendered after the round 1 shotlist commit (none is older than `shotlist.json`).
+- I built my own review sheets of every round 1 shot plus the follow-on shots: s058, s062-s065 and s072 (map rescale), and s189, s199, s213, s250 and s256 (white-outline wordart).
+- I opened single frames where the sheet was not conclusive: s042, s064, s076, s088, s132, s179, s180, s183, s184 and s213.
+- I then skimmed all 276 shots on 4x4 sheets.
+
+### Round 1 fixes verified (PASS)
+- **A1-A2:** s036, s037, s038, s050 and s051 now ink Doug in black and he reads fully. The s238 rect no longer notches the horizon.
+- **B3-B6:** the counter zone is clear in s147, s172, s195 and s273. The s273 arrow now comes in from the left onto the cap.
+- **C7-C13:** Doug now stands on the dam in s107, s108 and s110, on the ice in s042, on the bank in s048 and on the coast in s069 and s070. He swims in the FRESH layer in s089 and at the sea surface in s214, and his feet are on the ground in s114. The s070 "MORE?" label clears his arm.
+- **D14-D24:** these all pass, namely s019, s090, s059, s062, s073, s134, s068, s127, s258, s014, s016, s044, s046, s101 and s110. In s068 the wave arcs stay inside the frame.
+- **Map rescale follow-ons:**
+  - s058, s062, s063, s065 and s072 are consistent at 0.8. The labels, the circle and the small Doug moved with the map, and Doug in s062 stands on dry land.
+  - s064 is now a 1.4x zoom with the top frame edge off-screen. I accept that as a deliberate zoom-in, and it adds variety to the run.
+- **E:** s118, s120, s125, s121, s122, s185, s223, s102, s104, s105, s106 and s150 all pass. The medal now hangs on Bretz's chest and the fishing rod clears the chapter bar.
+- **F35:** the pond run is fixed. s241 is a wide pull-back and s243 is a close-up with three labels in a row.
+- **White-outline wordart:** s189, s199, s213, s250 and s256 read cleanly on navy and dark brown. In s213 the haze ends at about y 905, above the text.
+- **Recommended items done:** s057, s147, s245, s250, s264, s013, s274 and the s038 press close-up.
+- **s142 and s183 asset notes:** the flag pole is now in Doug's hand, and the door has its own outline clear of the tree.
+- **Style overall:** Doug is on-model throughout. The counter runs from 56 to 65 with no gaps. The FROZEN meter rises monotonically to "MAXED OUT". The zone colours are consistent, and there is no gore.
+
+### Blocking fixes
+1. **s076 (round 1 fix 26 not applied):** the red arrow still runs through the "NETHERLANDS" label. The arrow bends up (`bend -30`) into the label box at y 470.
+   - **Fix:** set the label to `"y": 400`. The arrow stays as it is.
+2. **s088 (my round 1 fix 25 caused this):** with the label at x 1620, "NORTH ATLANTIC" now sits centred on the map's right frame line, which is at x 1620.
+   - **Fix:** move the label into the open Atlantic inside the frame: `"x": 1460, "y": 700, "size": 30`. That area is clear sea (x about 1320-1600, y 620-760).
+3. **s132 (missed in round 1):** the wordart "9 EIFFEL TOWERS" (700,160) straddles the top outline of the ice sheet.
+   - **Fix:** move it inside the ice body at `(700, 450)`. Lime with its dark outline reads on the white ice.
+4. **s179 (missed in round 1):** the right end of "JUNGLE" (1400,400, size 110) runs into the right `scale_tree` trunk at x about 1610.
+   - **Fix:** use `(1330, 380)`.
+5. **s180 (missed in round 1):** "MORE OXYGEN" (1460,540, size 84) crosses the right tree trunk.
+   - **Fix:** use `"size": 64` at `(1350, 440)`. That spans about x 1110-1590, clear of Doug's raised arms (x up to about 1070) and of the trunk.
+6. **s232 (missed in round 1):** Doug (500,170, scale 0.35) floats about 77 px above the ice top at y 300.
+   - **Fix:** set `"y": 247`.
+7. **s233 (missed in round 1):** Doug (1750,150, scale 0.3) floats about 104 px above the ice top at y 300.
+   - **Fix:** set `"y": 254`.
+8. **s044 and s047 (missed in round 1):** Doug (1650,860) stands on open river water. In s047 he is also drawn over the bridge pillar at x 1600-1660.
+   - **Fix:** give him the same footing as in s045. Add one ice-floe `poly` (fill `#ffffff`, color `#7aa0bc`, width 4, no `appear`) **before** the `doug` element.
+     - s044: points `[[1580,900],[1660,880],[1690,920],[1610,950]]`. This is s045's floe.
+     - s047: move Doug to `"x": 1770` and use points `[[1700,900],[1780,880],[1810,920],[1730,950]]`.
+9. **s042 (minor, but one move in the same shot):** Doug's head (300,760) overlaps the Blackfriars deck slab at y 640-690.
+   - **Fix:** set Doug to `"y": 880`. His feet are then at about 941 on the ice, below the bridge legs, and the "10 FOOTBALL PITCHES" label is clear.
+
+### Recommended (non-blocking)
+- **s261:** the right end of "FURTHER" (1250,500) almost touches Doug's cap brim, since Doug faces left. Use x 1180.
+- **s127:** the "20,000 YEARS AGO" tag sits on the map's top-left frame corner. It is a boxed label and stays legible, so leave it as is.
+
+### Re-check plan
+After the director's pass, I re-render s042, s044, s047, s076, s088, s132, s179, s180, s232 and s233 with `python -m studio keyframes 007-every-time-earth-froze --shots ...`. If they are clean, round 3 is a PASS with no full re-skim.
