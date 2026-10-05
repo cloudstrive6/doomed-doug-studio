@@ -167,3 +167,54 @@ I checked it at 1280x720, 320x180 and a 168x94 downscale.
 
 Re-screen after fixes: re-run `keyframes --shots s110,s193` (plus s109/s077/s078/s212 if the advisories are taken) and
 send me the sheet.
+
+## Round 3: round-2 fixes re-screen + thumbnail v2 (2026-10-05)
+
+Scope: s077, s078, s109, s110, s186, s193, s212, s251, s288 and s001, all viewed at full size from `build/keyframes`.
+I also checked the revised thumbnail (`build/thumbnail.png`, `build/thumbnail_small.png`) at 1280x720, 320x180 and a
+168x94 downscale. The `shotlist.json` diff against the previous commit touches only these shots.
+
+VERDICT: PASS
+
+All three round-2 required fixes have landed:
+1. s110: the speech-bubble tail is now a clean wedge that runs from the bubble down toward Doug's head. The broken
+   sliver is gone.
+2. s110: the grey `spray` static is gone. Three small white outlined feather shapes now drift above the diving
+   trevally. With "wait what" and the "?" on Doug, they read as "the tern got taken".
+3. s193: the lunge streak now ends behind the croc's tail (about x 280). Nothing pokes out of the jaws, and it reads
+   as a motion trail.
+
+All four round-2 advisories were taken:
+- s109: the red X now sits in the gap between the fish's nose and Doug, so it reads as "missed".
+- s077 and s078: the cap is now about 50 px clear of the crab's claw, and the two no longer merge.
+- s212: the route now carries 4 banners at scale 0.8 instead of 8 small ones, and they read as finish-line banners.
+  The "16 MARATHONS" label is clear of the map.
+- s193: the sand-puff density is now 0.35, so the croc's tail reads through it.
+
+The other shots:
+- s186, s251 and s288: the labels are clear of the map borders and the counter.
+  - s186: "TORRES STRAIT" and its arrow point at the strait.
+  - s251: the "WHOLE SEASON" calendar fits the line, and ghost Doug matches the counter (73).
+  - s288: PORT and STARBOARD each sit over an orca, and both orcas have the collapsed dorsal fin.
+- The death counter still matches the shots: 68 (s077–s110), 70 (s186), 71 (s193, s212), 73 (s251), 74 (s288).
+
+### Thumbnail v2 and s001 (s001 is the same image at 1920x1080): PASS
+- The darkening climb works. The bands go from bright at the base, to navy (great white) and deep red (sperm whale),
+  to the near-black apex with the orca on a flat red halo. The orca is the single strongest focal point at all three
+  sizes, which makes the threat obvious.
+- The deep-red sperm whale tile is a flat colour block with a clean grey whale on it. It does not read as blood.
+- The mantis shrimp's club is extended toward Doug, which reads as a strike at 320x180.
+- Doug in the snail costume has a visible white head and red cap. He is small at 168x94 but identifiable as a figure
+  beside the shrimp, which is enough for archetype B.
+- All 11 labels are legible at 320x180, and none touches the pyramid edges. The labels avoid every title word. The
+  image complements "How Every Step of the Ocean Food Chain Would Kill Doug" and isn't misleading.
+- There is no gore and no kids-show tone.
+
+### Advisory (not blocking)
+- **s186 (director):** the red dashed crossing line `[[1166,395],[1166,215]]` runs about 30 px above the top border of
+  the map, into the sky-blue surround. Ending it at `[1166, 250]` would keep it inside the frame.
+- **Thumbnail (graphic designer):** the green and white striped eye-stalks of Doug's snail costume cross the black
+  band border into the octopus tile. Lowering Doug about 10 px, or scaling him to 0.95x, would keep the base band
+  clean.
+
+Next: art can advance. Post-render screening (samples, qc.json, shorts) follows the final render.

@@ -207,3 +207,20 @@ Style bible 7, rules 1-9: PASS on all 70. The cap is visible on every death beat
   s186 TORRES STRAIT x 1834. If you touch these shots anyway, shift them left about 30 px.
 
 KEYFRAMES: PASS (round 2), conditional on blocking fix 1 (s251)
+
+# Keyframes round 3
+
+Reviewer: art director, 2026-10-05. Scope: blocking fix 1 (s251), spot-check of s077, s078, s109, s110, s186, s193, s212, s288,
+and the revised thumbnail (`build/thumbnail.png`) against s001.
+
+- **s251: FIXED.** WHOLE SEASON (x 1680, size 36) box right edge measures x 1840, which is inside the 64-1856 safe area. The calendar moved with it, and the ghost Doug and counter are clear.
+- **Advisory A1 (s110): done.** The grey smudge on the trevally is gone. **A2 (s193): done.** The croc's feet are on the sand line, with the sand puff under it, and the cap on the sand carries rule 2.
+  **A3: done.** Measured right edges are s212 "16 MARATHONS" x 1825, s288 STARBOARD x 1812 and s186 TORRES STRAIT x 1804.
+- **s077/s078:** the cap is on the floor, the ghost Doug is on-model with the cap visible, and PACKAGING wordart is clear of the counter and the caption. OK.
+- **s109:** the tern-suit Doug is on-model, the splash is on the waterline, and the shot differs clearly from s110 (a vertical breach versus a re-entry and speech bubble). OK.
+- **Thumbnail v2 vs s001:** same pyramid layout, tier colours, creature drawings and Doug-in-shrimp-tier gag. The orca crown reads at small size,
+  and the labels are legible. It is consistent with the opening shot.
+
+Style bible 7, rules 1-9: PASS on all checked shots. There is no gore.
+
+Keyframes round 3: PASS
