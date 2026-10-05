@@ -12,6 +12,7 @@ import datetime as dt
 import json
 import math
 import subprocess
+import time
 from pathlib import Path
 
 from PIL import Image, ImageDraw
@@ -264,7 +265,7 @@ def upload(ep: Path) -> list[dict]:
     long_at = _parse_utc(meta["publish_at"])
     data = load(ep)
     api = yt()
-    done = []
+    done, failed = [], []
     for s in data["shorts"]:
         f = ep / "build" / "shorts" / f"{s['id']}.mp4"
         if s.get("youtube_id") or not f.exists():
@@ -284,11 +285,24 @@ def upload(ep: Path) -> list[dict]:
                 "status": {"privacyStatus": "private", "publishAt": publish_at, "selfDeclaredMadeForKids": False,
                            "embeddable": True, "license": "youtube", "containsSyntheticMedia": False},
                 "paidProductPlacementDetails": {"hasPaidProductPlacement": bool(meta.get("paid_promotion", False))}}
-        req = api.videos().insert(part="snippet,status,paidProductPlacementDetails", body=body,
-                                  media_body=MediaFileUpload(str(f), chunksize=16 * 1024 * 1024, resumable=True))
-        resp = None
-        while resp is None:
-            _, resp = req.next_chunk()
+        # A broken resumable session (e.g. HTTP 409 "alreadyExists" mid-upload) leaves an empty "Pending" video in
+        # Studio and can't be resumed: start a fresh insert, and if a Short still fails, move on to the next one.
+        resp, err = None, None
+        for attempt in range(3):
+            try:
+                req = api.videos().insert(part="snippet,status,paidProductPlacementDetails", body=body,
+                                          media_body=MediaFileUpload(str(f), chunksize=16 * 1024 * 1024,
+                                                                     resumable=True))
+                while resp is None:
+                    _, resp = req.next_chunk()
+                break
+            except Exception as e:
+                err, resp = e, None
+                print(f"{s['id']}: upload attempt {attempt + 1} failed: {str(e)[:200]}")
+                time.sleep(20 * (attempt + 1))
+        if resp is None:
+            failed.append(f"{s['id']} ({str(err)[:120]})")
+            continue
         s.update(youtube_id=resp["id"], publish_at=publish_at, related_video=meta["youtube_id"], related_set=False,
                  uploaded_at=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"))
         try:
@@ -298,6 +312,10 @@ def upload(ep: Path) -> list[dict]:
         save(ep, data)
         done.append(s)
         print(f"{s['id']}: https://youtu.be/{resp['id']} goes public {local(publish_at)}")
+    if failed:
+        from . import notify
+        notify.send(f"Shorts upload failed for {ep.name}: {'; '.join(failed)}. Rerun: python -m studio shorts upload "
+                    f"{ep.name} (an empty 'Pending' video may be left in Studio; delete it there).")
     return done
 
 
