@@ -14,7 +14,12 @@
       "stage": "script_approved",
       "at": "2026-10-05T17:37:45+00:00",
       "note": "CD approved draft 3 (screener PASS, 0 fact errors). 'No predators.' approved at ~87% before Orca (avoids contradicting the sperm-whale marguerite fact). CD TTS edits at line 323 (coin-toss/zigzag); 3,045 words ~15:37."
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-10-05T18:12:14+00:00",
+      "note": "321 shots (3,045 words verified 1:1 vs script), Doug in 65%, 11 chapters, NO PREDATORS boss card (black + spotlight, hold 1.3 s, no counter/topbar), silent deep-navy shift at Sperm Whale; 62 new assets requested; engine ask: upright cap_off for the LIVE close (s313-s319); thumbnail.json pending (graphic designer); shorts: s098-s111 trevally, s128-s138 grouper, s305-s312 orca"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }
