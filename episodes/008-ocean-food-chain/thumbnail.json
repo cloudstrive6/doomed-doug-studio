@@ -1,5 +1,5 @@
 {
- "_note": "Archetype B food-chain pyramid (style bible 2.B): 6 bands, prey at the wide base -> orca alone at the apex; labels outside, alternating L/R bottom-up in chapter order; tiny Doug in the snail costume beside the mantis shrimp at the base. No title words. Also the opening shot s001 (scene_ref).",
+ "_note": "Archetype B food-chain pyramid (style bible 2.B): 6 bands, prey at the wide base -> orca alone at the apex; labels outside, alternating L/R bottom-up in chapter order. Round 1 CD fixes: apex band near-black #111111 (boss band, matches the NO PREDATORS card) with a flat unoutlined red halo ellipse (#e8231f) behind the full-colour orca; second tier darkened (great white on deep navy #1b2a6b, sperm whale on deep red #a3162a) so the climb gets darker; mantis_shrimp_strike (club swung forward, the 'hits twice' hook) with ~30 px clear to Doug; Doug in the snail costume raised to scale 0.21 (cap reads as a red dot at 168 px), still smaller than the shrimp; Giant Moray label nudged left away from the duration badge. No title words. Also the opening shot s001 (scene_ref).",
  "background": "#ffffff",
  "size": [
   1280,
@@ -26,7 +26,7 @@
      125.3
     ]
    ],
-   "fill": "#ff4a3a",
+   "fill": "#111111",
    "width": 6,
    "boil": 0,
    "wobble": 0
@@ -51,7 +51,7 @@
      242.7
     ]
    ],
-   "fill": "#ffe24a",
+   "fill": "#1b2a6b",
    "width": 6,
    "boil": 0,
    "wobble": 0
@@ -76,7 +76,7 @@
      242.7
     ]
    ],
-   "fill": "#4fd6f0",
+   "fill": "#a3162a",
    "width": 6,
    "boil": 0,
    "wobble": 0
@@ -282,6 +282,17 @@
    "wobble": 0
   },
   {
+   "type": "ellipse",
+   "x": 640,
+   "y": 77.2,
+   "rx": 150,
+   "ry": 50,
+   "fill": "#e8231f",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
    "type": "asset",
    "name": "orca",
    "x": 640,
@@ -346,7 +357,7 @@
   },
   {
    "type": "asset",
-   "name": "mantis_shrimp",
+   "name": "mantis_shrimp_strike",
    "x": 395.2,
    "y": 653.3,
    "scale": 0.38
@@ -360,9 +371,9 @@
   },
   {
    "type": "doug",
-   "x": 570,
-   "y": 675.4,
-   "scale": 0.175,
+   "x": 595,
+   "y": 678,
+   "scale": 0.21,
    "pose": "stand",
    "expression": "shock",
    "facing": "right",
@@ -371,9 +382,9 @@
   {
    "type": "asset",
    "name": "snail_costume",
-   "x": 570,
-   "y": 675.4,
-   "scale": 0.175
+   "x": 595,
+   "y": 678,
+   "scale": 0.21
   },
   {
    "type": "text",
@@ -508,7 +519,7 @@
   {
    "type": "text",
    "text": "Giant Moray",
-   "x": 1151.8,
+   "x": 1112,
    "y": 653.3,
    "size": 50,
    "font": "ComicNeue-Bold",

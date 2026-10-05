@@ -17385,7 +17385,7 @@
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 1330,
+      "x": 1380,
       "y": 890,
       "scale": 0.5
      },
@@ -17600,7 +17600,7 @@
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 1330,
+      "x": 1380,
       "y": 890,
       "scale": 0.5
      },
@@ -22603,9 +22603,9 @@
      {
       "type": "asset",
       "name": "red_x",
-      "x": 1050,
-      "y": 540,
-      "scale": 0.3,
+      "x": 1120,
+      "y": 470,
+      "scale": 0.25,
       "appear": 0.6
      },
      {
@@ -22771,25 +22771,94 @@
       "appear": 0.125
      },
      {
-      "type": "spray",
-      "x": 1350,
-      "y": 640,
-      "r": 70,
-      "color": "#222222",
-      "density": 0.25,
+      "type": "poly",
+      "points": [
+       [
+        1300,
+        610
+       ],
+       [
+        1330,
+        600
+       ],
+       [
+        1335,
+        610
+       ],
+       [
+        1305,
+        618
+       ]
+      ],
+      "fill": "#ffffff",
+      "color": "#000000",
+      "width": 3,
+      "smooth": false,
+      "appear": 0.375
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1380,
+        640
+       ],
+       [
+        1410,
+        632
+       ],
+       [
+        1412,
+        642
+       ],
+       [
+        1384,
+        648
+       ]
+      ],
+      "fill": "#ffffff",
+      "color": "#000000",
+      "width": 3,
+      "smooth": false,
+      "appear": 0.375
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1335,
+        675
+       ],
+       [
+        1362,
+        668
+       ],
+       [
+        1366,
+        678
+       ],
+       [
+        1338,
+        684
+       ]
+      ],
+      "fill": "#ffffff",
+      "color": "#000000",
+      "width": 3,
+      "smooth": false,
       "appear": 0.375
      },
      {
       "type": "speech",
-      "x": 650,
-      "y": 260,
+      "x": 780,
+      "y": 150,
       "w": 320,
       "h": 120,
       "text": "wait what",
       "size": 40,
       "tail": [
-       880,
-       300
+       900,
+       280
       ],
       "appear": 0.875
      },
@@ -34955,7 +35024,7 @@
      {
       "type": "label",
       "text": "TORRES STRAIT",
-      "x": 1660,
+      "x": 1630,
       "y": 420,
       "size": 40,
       "bold": true,
@@ -34965,7 +35034,7 @@
      {
       "type": "arrow",
       "from": [
-       1600,
+       1570,
        380
       ],
       "to": [
@@ -36038,15 +36107,15 @@
       "points": [
        [
         0,
-        760
+        770
        ],
        [
-        500,
-        700
+        150,
+        752
        ],
        [
-        800,
-        720
+        280,
+        745
        ]
       ],
       "color": "#ffffff",
@@ -36066,7 +36135,7 @@
       "y": 790,
       "r": 210,
       "color": "#e8c07a",
-      "density": 0.55
+      "density": 0.35
      },
      {
       "type": "spray",
@@ -36074,7 +36143,7 @@
       "y": 820,
       "r": 150,
       "color": "#d9ac62",
-      "density": 0.5
+      "density": 0.35
      },
      {
       "type": "asset",
@@ -38647,71 +38716,39 @@
      {
       "type": "asset",
       "name": "finish_banner",
-      "x": 808,
-      "y": 664,
-      "scale": 0.45,
+      "x": 801,
+      "y": 640,
+      "scale": 0.8,
       "appear": 0.05
      },
      {
       "type": "asset",
       "name": "finish_banner",
-      "x": 795,
-      "y": 617,
-      "scale": 0.45,
-      "appear": 0.13
+      "x": 793,
+      "y": 551,
+      "scale": 0.8,
+      "appear": 0.2
      },
      {
       "type": "asset",
       "name": "finish_banner",
-      "x": 782,
-      "y": 571,
-      "scale": 0.45,
-      "appear": 0.21
+      "x": 856,
+      "y": 478,
+      "scale": 0.8,
+      "appear": 0.35
      },
      {
       "type": "asset",
       "name": "finish_banner",
-      "x": 809,
-      "y": 533,
-      "scale": 0.45,
-      "appear": 0.29
-     },
-     {
-      "type": "asset",
-      "name": "finish_banner",
-      "x": 840,
-      "y": 496,
-      "scale": 0.45,
-      "appear": 0.37
-     },
-     {
-      "type": "asset",
-      "name": "finish_banner",
-      "x": 871,
-      "y": 459,
-      "scale": 0.45,
-      "appear": 0.45
-     },
-     {
-      "type": "asset",
-      "name": "finish_banner",
-      "x": 915,
-      "y": 444,
-      "scale": 0.45,
-      "appear": 0.53
-     },
-     {
-      "type": "asset",
-      "name": "finish_banner",
-      "x": 962,
-      "y": 435,
-      "scale": 0.45,
-      "appear": 0.61
+      "x": 939,
+      "y": 440,
+      "scale": 0.8,
+      "appear": 0.5
      },
      {
       "type": "wordart",
       "text": "16 MARATHONS",
-      "x": 1620,
+      "x": 1590,
       "y": 420,
       "size": 60,
       "boil": 0,
@@ -43542,7 +43579,7 @@
      {
       "type": "asset",
       "name": "calendar",
-      "x": 1720,
+      "x": 1680,
       "y": 390,
       "scale": 0.7,
       "appear": 0.889
@@ -43550,9 +43587,9 @@
      {
       "type": "label",
       "text": "WHOLE SEASON",
-      "x": 1720,
+      "x": 1680,
       "y": 570,
-      "size": 40,
+      "size": 36,
       "bold": true,
       "boil": 0.4,
       "appear": 0.556
@@ -47711,7 +47748,7 @@
      {
       "type": "asset",
       "name": "orca_bent_fin",
-      "x": 1690,
+      "x": 1660,
       "y": 420,
       "scale": 0.3,
       "appear": 0.7
@@ -47719,7 +47756,7 @@
      {
       "type": "label",
       "text": "PORT",
-      "x": 1690,
+      "x": 1660,
       "y": 300,
       "size": 44,
       "bold": true,
@@ -47729,7 +47766,7 @@
      {
       "type": "asset",
       "name": "orca_bent_fin",
-      "x": 1690,
+      "x": 1660,
       "y": 660,
       "scale": 0.3,
       "appear": 0.9
@@ -47737,7 +47774,7 @@
      {
       "type": "label",
       "text": "STARBOARD",
-      "x": 1690,
+      "x": 1660,
       "y": 540,
       "size": 44,
       "bold": true,
