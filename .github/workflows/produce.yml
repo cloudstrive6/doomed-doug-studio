@@ -46,6 +46,7 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      ANTHROPIC_API_KEY_BACKUP: ${{ secrets.ANTHROPIC_API_KEY }}  # only used after the subscription limit is hit
       GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
       YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
       YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
@@ -85,9 +86,7 @@ jobs:
       - name: "Stage A: agents write, draw and package the episode"
         run: |
           rm -f .current_episode
-          claude -p "$(cat pipeline/prompts/produce_episode.md)" \
-            --dangerously-skip-permissions --max-turns 600 --output-format stream-json --verbose \
-            > claude_stage_a.jsonl
+          bash pipeline/claude_run.sh claude_stage_a.jsonl 600 "$(cat pipeline/prompts/produce_episode.md)"
           test -s .current_episode || { echo "Stage A did not produce a packaged episode"; exit 1; }
           echo "EP=$(cat .current_episode)" >> "$GITHUB_ENV"
 
@@ -104,9 +103,7 @@ jobs:
 
       - name: "Stage C: final screening + approval"
         run: |
-          claude -p "QC exit status: ${QC_OK}. $(cat pipeline/prompts/review_final.md)" \
-            --dangerously-skip-permissions --max-turns 300 --output-format stream-json --verbose \
-            > claude_stage_c.jsonl
+          bash pipeline/claude_run.sh claude_stage_c.jsonl 300 "QC exit status: ${QC_OK}. $(cat pipeline/prompts/review_final.md)"
 
       - name: Approval gate (mechanical check of QC + screener + creative director)
         run: python -m studio gate "$EP"

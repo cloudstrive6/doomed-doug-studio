@@ -18,6 +18,8 @@ jobs:
     timeout-minutes: 90
     env:
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      ANTHROPIC_API_KEY_BACKUP: ${{ secrets.ANTHROPIC_API_KEY }}  # only used after the subscription limit is hit
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
       YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
       YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
       YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
@@ -43,8 +45,7 @@ jobs:
         run: python -m studio analytics
       - name: Growth analyst + creative director
         run: |
-          claude -p "$(cat pipeline/prompts/weekly_growth.md)" \
-            --dangerously-skip-permissions --max-turns 200 --output-format stream-json --verbose > claude_growth.jsonl
+          bash pipeline/claude_run.sh claude_growth.jsonl 200 "$(cat pipeline/prompts/weekly_growth.md)"
       - name: Save
         if: always()
         run: git add -A data channel && (git commit -m "weekly growth review" || true) && git pull --rebase -X theirs && git push
