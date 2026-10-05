@@ -297,3 +297,71 @@ s098, s105, s129 and s305 in final.mp4.
 Per-Short status: short01 FAIL (fixes 1-5), short02 FAIL (fixes 1 and 6), short03 FAIL (fixes 1 and 7).
 
 VERDICT: FAIL
+
+## Round 5: post re-render (final.mp4, samples 23:17-23:19, Shorts 23:14-23:15) (2026-10-05)
+
+Checked: all 33 samples; qc.json (1001.26 s, no problems); full-res spot frames from final.mp4 at s098, s103 (start
+and end), s105, s128 (mid and end), s129 and s305; thumbnail.png and thumbnail_small.png; metadata.json; all three
+Short previews, plus 14 frames per Short (0.3, 1.5, 3, 5 s, 15-85 %, end card -3 s and last frame) and full-res frames
+of s103 (short01) and s138 (short02). Every counter plate at x 1380 was checked against the chapter topbar under each
+shot's camera move.
+
+### Round-4 fixes: all resolved
+1. The counter plate is at x 1380 in all 34 Short-range shots. Every Short now shows the full "DOUG DEATHS: 68 / 69 /
+   74" for its whole runtime.
+2. s105: "HUNT THE SKY" is fully in frame in short01 and its preview, and it clears the red arrow.
+3. s102: "IN FLIGHT" sits inside the crop.
+4. s100: Doug in the tern costume is fully visible.
+5. s104: Doug in the tern costume is fully visible at the surface.
+6. s129: Doug in the shark costume is whole and readable to the right of the map.
+7. s305: all three panels are in frame, in both short03 and final.mp4. The panels show the crossed-out great white,
+   the blue whale with the orca, and the seven sperm whales in a circle, so the picture now matches "makes sperm
+   whales form a circle".
+
+### Main video: FAIL (one regression from fix 1)
+There are no black, blank, frozen or glitched frames. The counter runs 65 to 74 in order, Doug is on-model, there is
+no gore and nothing reads as a kids' show. The thumbnail is unchanged and still passes.
+
+The regression is that s103 and s128 have `zoom_in` camera moves. As the zoom plays, the newly moved plate (x 1380,
+y 165) is pulled up and left until it slides under the chapter topbar. For the last ~1 s of each shot, the topbar
+covers the "D" of "DOUG DEATHS". This was checked on frames at 328.75 s and 405.25 s.
+- s103: the camera targets (1153, 648) at zoom 1.1, and the "GIANT TREVALLY" topbar covers the plate.
+- s128: the camera targets (1100, 800) at zoom 1.08, and the "GOLIATH GROUPER" topbar covers the plate.
+
+These two shots were not overlapped in round 4, when the plate was at x 1580. No other x 1380 shot has a zoom; the
+others are static or shake (±8 px), and they all clear the topbar.
+
+1. **s103 (director):** change `camera` to `{"move": "zoom_in", "x": 960, "y": 540, "zoom": 1.1}` (a centred zoom),
+   or remove the camera move. With the centred zoom the plate ends at about y 105..150, below the topbar.
+2. **s128 (director):** same fix: `{"move": "zoom_in", "x": 960, "y": 540, "zoom": 1.08}`, or remove the camera move.
+   Do not just move the plate down; that would make it jump between s127 and s128 and between s128 and s129.
+
+Then re-run `python -m studio keyframes 008-ocean-food-chain --shots s103,s128` and re-render final.mp4. Shorts render
+without the topbar, so they are unaffected and do not need a re-render. The fixed shots do change in short01 (s103)
+and short02 (s128), but a centred zoom keeps the content inside the 192..1728 crop, so re-rendering the Shorts is
+optional.
+
+Advisory (director, not blocking):
+- The plate jumps 200 px when the main video enters and leaves the Short ranges (s097 to s098, s111 to s112, and
+  similar). You can leave it, or move the plate to x 1380 episode-wide after checking every zoom shot against the
+  topbar the same way.
+- The round-4 advisories for s188 (the rod on the tourist boat) and s178 (the 27 CROCS plate) still stand.
+
+### Shorts: PASS (all three)
+- short01: the hook frame (s102) shows "20+" and "IN FLIGHT" in full. In s103, Doug in the tern costume is near the
+  left edge but whole. The rest of the shots are clean, and in s110 the trevally takes the tern.
+- short02: the counter shows 68, then 69 after the death. The menu, the 2014 Bonita Springs map with Doug, and the
+  blacktip on the line all read clearly. In s138, the ghost Doug at x 1650 and "EATS SHARKS" are in frame.
+- short03: the s305 panels read as one row inside the crop. The rudder-theft orcas, ALIVE, the SURVIVED staircase and
+  the RIP DOUG headstone all read clearly.
+- In all three Shorts, the red hook title reads in 3 lines, the subtitles are 2 lines or fewer, @DoomedDoug shows,
+  and the end card "WHAT HAPPENS NEXT? TAP BELOW" has Doug beside a red arrow pointing straight down.
+- Note: the short01 preview catches the subtitle mid-reveal ("hunt the sk"). This is the word-timed reveal, not a
+  crop, and the video plays correctly.
+
+### Routing
+Director: fixes 1-2 (s103 and s128 camera moves), in shotlist.json. Then the editor re-renders final.mp4. The
+re-screen will check s103 and s128 at the end of each shot.
+
+VERDICT (main): FAIL
+VERDICT (shorts): PASS

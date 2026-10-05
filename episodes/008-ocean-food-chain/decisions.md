@@ -94,3 +94,19 @@ Inputs: `build/thumbnail.png` (v2) at 1280x720, my own 320x180 and 168x94 downsc
 THUMBNAIL: APPROVED (v2)
 PACKAGE: APPROVED (GO)
 - 2026-10-05 Showrunner: packaged. Script 3 rounds (round-1 fact fixes, round-2 white-shark count, PASS r3); art assets 1 round, keyframes 3 rounds (PASS), thumbnail 2 rounds (CD approved v2). Risks: pronunciations (trevally, Gansbaai, Iberian) not audibly checked; weaker 'search snippet' sources noted in facts.md; kid-appeal medium-high (animals + costumes).
+
+## 2026-10-05: final package approval (creative director), APPROVED
+Inputs: `build/thumbnail.png` (v2), `metadata.json` (title, alt_titles, description, tags, playlist), `build/chapters.txt`,
+the opening of `script.md`, `build/samples/f_001-f_002` (first ~60 s), `build/qc.json` (no problems, 16:41), visual_review.md latest round.
+- **Title:** I'm keeping "How Every Step of the Ocean Food Chain Would Kill Doug" (T2). None of the alt_titles is clearly stronger. "The Deadliest Predator at
+  Every Level..." drops Doug and the death promise, and "What Dying to Every Ocean Predator..." over-claims, because Doug survives the trevally and the orca. I'm not swapping.
+- **Thumbnail v2:** this is unchanged from my round-2 approval. The ladder darkens to a black apex with an unoutlined red halo, the mantis strike is mid-swing, and Doug's red cap
+  reads. It's clickable, it reads as nature horror rather than a classroom poster, and it doesn't repeat any title words.
+- **Description/chapters:** the hook line matches the video and the claims are hedged ("usually dressed as"). It lists 6 primary sources and includes the disclaimer and AI-use disclosure.
+  There are 11 chapters in item order, each matching a thumbnail label. The intro is 0:00-0:10, and the first chapter starts at 0:00 with every gap at 10 s or more, so YouTube will accept them.
+- **First 60 s:** the cold open is the thumbnail pyramid, and "Doug did not agree to this." comes before "Mantis Shrimp", so item 1's name falls inside the first ~30 words.
+  The twist ("It hits twice." / cavitation) lands well within 45 s. The sample frames are clean: the counter shows 65, the labels read, there's no gore, and the tone is adult-coded deadpan.
+- The pending main re-render (camera zooms on s103 and s128) doesn't touch the title, thumbnail, description or opening. Upload still waits for the visual re-screen and QC on the new final.mp4.
+
+FINAL: APPROVED
+- 2026-10-05 Showrunner (final review round 1): QC OK; visual VERDICT (main): FAIL (counter collides with chapter bar on zoom in s103/s128), VERDICT (shorts): PASS. Director fixed camera in shotlist; .rerender=final requested. CD package approved. Stage left at built; qc_passed after re-render round 2.
