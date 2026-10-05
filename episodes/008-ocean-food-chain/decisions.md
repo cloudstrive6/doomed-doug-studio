@@ -68,3 +68,28 @@ s001 uses `scene_ref: thumbnail`, so the opening image updates without a shotlis
 screener passes, I'll approve it without another round.
 
 THUMBNAIL: CHANGES REQUESTED (round 1)
+
+## 2026-10-05: thumbnail gate round 2 + final package gate (creative director), APPROVED
+Inputs: `build/thumbnail.png` (v2) at 1280x720, my own 320x180 and 168x94 downscales, zoomed crops of the apex and base bands,
+`thumbnail.json`, visual_review.md round 3 (thumbnail PASS), art_review.md round 3 (keyframes PASS, thumbnail consistent with s001),
+`metadata.json` (validate OK).
+- **Thumbnail v2 vs my round-1 requests, all landed:**
+  1. The apex band is `#111111`, with a flat, unoutlined `#e8231f` ellipse halo (rx 150 / ry 50) behind the full-colour orca. The white eye patch and belly
+     separate from black at 168 px. It reads as a spotlight or boss glow, not an annotation circle or a "no" sign (there's no ring and no slash).
+  2. The second tier is great white on `#1b2a6b` and sperm whale on `#a3162a`. Both grey animals separate from their bands at 168 px, and the red block
+     reads as a flat colour, not blood. The pyramid now visibly gets darker as it climbs, which was the one thing that kept it from looking like a classroom poster.
+  3. `mantis_shrimp_strike` is in, with the club about 30 px clear of Doug, so the "hits twice" hook is on the image.
+  4. Doug is at scale 0.21. The white head and red cap read as a figure at 320 px. (Optional item 5, the Moray label nudged away from the duration badge, was also done.)
+- Would I click? Yes. The darkening ladder plus "Orca above Great White Shark" is the curiosity gap, and with the title it reads as nature horror, not a picture book.
+- Not blocking, and I'm not asking for another round: the screener's note about the snail eye-stalks crossing into the octopus tile is invisible at feed size.
+  The designer can fix it if they touch the file again.
+- **Title** "How Every Step of the Ocean Food Chain Would Kill Doug" (T2) is accepted. 9 of the 11 steps kill him. The 2 survivals (trevally miss, orca)
+  are on-screen subversions of the promise, not a bait-and-switch, and 001 set that precedent. It doesn't use the competitor's wording.
+- **Description fix (CD, applied directly):** "dressed as each one's favourite prey" became "usually dressed as its favourite prey". The croc and the orca get no
+  costume, and the description shouldn't over-claim. The orca line ("even great white sharks flee from") is sourced (Jorgensen et al. 2019, Sci Rep, linked).
+  `validate metadata`: OK.
+- Package = title + thumbnail v2 + keyframes (art approved round 3): **GO.**
+- Series bible: the counter goes 65 to 74 and the "cap with a new owner" (orca) ending gets logged after QC, as usual.
+
+THUMBNAIL: APPROVED (v2)
+PACKAGE: APPROVED (GO)
