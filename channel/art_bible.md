@@ -58,6 +58,12 @@ desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never
   (snow, salt, crystal), his legs go white-on-white and vanish (004 s103, s171-s173, s183). Keep the whole body on
   one side of the horizon (lower him so his neck is below the ground line), or sit him *behind* a light prop (draw
   Doug before the prop, hips at its top edge) so only the torso shows against the dark.
+- **Dark backdrop prop behind Doug on light ground** (bridge, building, cliff): the auto-ink point can land on the
+  prop and turn Doug white, so his legs vanish on the snow or ice (007 s036-s051). Set `"ink": "#000000"` on the `doug`.
+- **No floating Doug**: if the shot has a ground, dam, bank or sea surface, his feet go on it (hip = surface -
+  152 x scale; swimmers sit at the water line). Doug only floats in empty diagram or space backgrounds, or as a ghost.
+- **Cover rects** that hide an earlier Doug must stop above the ground line, or they cut a notch into the horizon (007 s238).
+- **Props on humans** (medals, badges) hang on the chest (below neck y), never over the face (007 s120).
 - **Creatures and places: the detailed tier**: cleaner cartoon illustrations with layered fills, interior shading
   (`spray`, darker back / lighter belly), texture strokes at 2–3, outlines 3–5. The contrast is part of the joke.
 
@@ -87,11 +93,14 @@ Max ~8 words on screen per shot. Title cards: big bold red `#e0201b` with black 
 One exception: a sombre item about a real mass-casualty event (004 Lake Nyos) may use a white `#ffffff` title
 with black outline. No other colours (no yellow, no green) for item title cards.
 Wordart and title text must not cross a map frame line, land masses, crystals or lightning bolts; find clear sky/sea.
+On full-width maps there is no clear band below the frame: shrink the map (about 0.8-0.9) and raise it, then put the
+wordart in the freed strip, or use a short word in the side margin (007: 9 map shots failed this). Tall props (trees,
+towers, fishing rods) must stay below the chapter top bar.
 
 ## Recurring layouts
 - **Depth meter**: tall canvas + `pan_down`, zone bands, white `label` depth markers at left.
 - **Death counter**: `label` "DOUG DEATHS: N" top-right, appears on each death shot. Its zone (about
-  x 1300-1860, y 110-230 at 1080p) is reserved: no sun, moon, creature or other label may touch it. On death
+  x 1300-1860, y 110-230 at 1080p) is reserved: no sun, moon, creature, tree crown, arrow or other label may touch it. On death
   shots, move the sun/moon down to about (1720, 330) or drop it. This applies to **every** shot that shows the
   counter, including survival beats and title cards that carry the counter over (004 s222 moon at 1650,200).
 - **Ground texture lines** (lava crust, cracks) must not pass behind Doug's shoulders or hips: they read as extra
