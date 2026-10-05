@@ -12,7 +12,7 @@ channel:
 voice:                       # Google Cloud TTS, Chirp 3: HD
   name: "en-US-Chirp3-HD-Charon"   # chosen 2026-09-29: neutral, informative, deadpan (closest to the format)
   language: en-US
-  speaking_rate: 1.10         # editor calibrates so timing.json wpm_speech lands at 190-205 (style bible)
+  speaking_rate: 1.15         # editor calibrates so timing.json wpm_speech lands at 190-205 (style bible)
   fallback_wpm: 197          # only used for dry runs without an API key
 
 video:

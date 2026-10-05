@@ -49,3 +49,5 @@ SCRIPT: APPROVED
 - Still needed: the visual screener's thumbnail pass (feed-size legibility, policy) on `build/thumbnail.png` and on s001 in the keyframes.
 
 THUMBNAIL: APPROVED (A grid), pending visual-screener PASS
+
+2026-10-05 Showrunner: packaged. Rounds: script 2 (draft 1 FAIL on 4 facts + 3 style; draft 2 PASS, CD approved with small edits); art assets 1 (30 drawings approved, minor map fixes); keyframes 3 (R1 FAIL 35+22 fixes, R2 FAIL 9 fixes, R3 PASS); thumbnail: grid chosen over ice core (illegible at feed size), polished, Sturtian-tile ink fix. Editor raised speaking_rate 1.10 -> 1.15 (196.7 wpm, ~16.6 min). Risks: pronunciation of J Harlen Bretz / CN Tower / Dryas octopetala / Storegga unverified (no audio listen; no phoneme override in tts.py); music null; no draft render yet (CI final render + QC next); optional thumbnail leg-tip nit in Sturtian tile.
