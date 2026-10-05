@@ -451,3 +451,17 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 - **Projection:** lon 10 W..4 E, lat 35.5..44 N, 80 px per degree, 1120x680, `c` at lon -3 / lat 39.75:
   `x = (lon + 3) * 80`, `y = -(lat - 39.75) * 80`. Include the tip of North Africa and the Strait of Gibraltar.
 - **Shots:** s298 (at 960,560 scale 0.85).
+
+### water_splash (A) / water_splash_small (A): keyframes round 1, fix 24
+- **DONE** (illustrator): drawn in `assets/library/`. Previews: `assets/previews/008-ocean-food-chain-splash.png` (white) and
+  `assets/previews/008-ocean-food-chain-splash-context.png` (on surface blue `#3a9ad9` and on dark water `#06182b`, at several scales).
+- **What:** replaces the inline white zigzag splash, which read as an iceberg. It is a pale blue `#bfe6ff` crown of rounded fingers that
+  curl outward, each ending in a round blob, with white highlights, `#3a9ad9` inner strokes and round droplets flying off. The base is a
+  ring sitting *in* the water (dark centre, front lip).
+- **Anchor:** (0,0) = **bottom-centre on the waterline** (the ring centre). Put `y` = the waterline y.
+  - `water_splash`: 6 fingers + 7 droplets. At scale 1 it is about 480 wide (x -240..+245) and spans y -335..+26.
+    **Scale 0.5 (about 240x180) matches the old inline splash size.** Use 0.4-1.0.
+  - `water_splash_small`: 3 fingers + 4 droplets, bolder for its size. At scale 1 it is about 230 wide (x -115..+120) and spans y -160..+16.
+    Use it for distant, tiny or repeated impacts (s243) and below about 0.4x of the big one.
+- **Swap example** (old poly base 1050..1250 at y 500 in s096): `{"type":"asset","name":"water_splash","x":1150,"y":500,"scale":0.5,"appear":0.923}`.
+- Not for s193 (use a sand puff instead) or s234 (drop it), as art_review fix 24 says.

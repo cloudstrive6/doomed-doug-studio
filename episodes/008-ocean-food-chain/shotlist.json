@@ -3055,9 +3055,9 @@
      {
       "type": "rect",
       "x": 160,
-      "y": 150,
+      "y": 250,
       "w": 1600,
-      "h": 820,
+      "h": 720,
       "fill": "#cfe9f7",
       "color": "#000000",
       "width": 8
@@ -3066,7 +3066,7 @@
       "type": "label",
       "text": "SLOW MOTION",
       "x": 400,
-      "y": 220,
+      "y": 300,
       "size": 40,
       "bold": true,
       "boil": 0.4
@@ -3135,11 +3135,11 @@
       "type": "arrow",
       "from": [
        1180,
-       330
+       370
       ],
       "to": [
        1180,
-       520
+       530
       ],
       "bend": 30,
       "color": "#e0201b",
@@ -3151,7 +3151,7 @@
       "type": "label",
       "text": "LOW PRESSURE",
       "x": 1180,
-      "y": 290,
+      "y": 330,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -3353,9 +3353,9 @@
      {
       "type": "rect",
       "x": 160,
-      "y": 150,
+      "y": 250,
       "w": 1600,
-      "h": 820,
+      "h": 720,
       "fill": "#cfe9f7",
       "color": "#000000",
       "width": 8
@@ -3364,7 +3364,7 @@
       "type": "label",
       "text": "SLOW MOTION",
       "x": 400,
-      "y": 220,
+      "y": 300,
       "size": 40,
       "bold": true,
       "boil": 0.4
@@ -3601,9 +3601,9 @@
      {
       "type": "rect",
       "x": 160,
-      "y": 150,
+      "y": 250,
       "w": 1600,
-      "h": 820,
+      "h": 720,
       "fill": "#cfe9f7",
       "color": "#000000",
       "width": 8
@@ -3612,7 +3612,7 @@
       "type": "label",
       "text": "SLOW MOTION",
       "x": 400,
-      "y": 220,
+      "y": 300,
       "size": 40,
       "bold": true,
       "boil": 0.4
@@ -3912,9 +3912,9 @@
      {
       "type": "rect",
       "x": 160,
-      "y": 150,
+      "y": 250,
       "w": 1600,
-      "h": 820,
+      "h": 720,
       "fill": "#cfe9f7",
       "color": "#000000",
       "width": 8
@@ -3923,7 +3923,7 @@
       "type": "label",
       "text": "SLOW MOTION",
       "x": 400,
-      "y": 220,
+      "y": 300,
       "size": 40,
       "bold": true,
       "boil": 0.4
@@ -4028,24 +4028,24 @@
       "type": "line",
       "points": [
        [
-        1430,
+        1400,
+        500
+       ],
+       [
+        1425,
+        535
+       ],
+       [
+        1405,
+        565
+       ],
+       [
+        1435,
         600
-       ],
-       [
-        1470,
-        650
-       ],
-       [
-        1440,
-        700
-       ],
-       [
-        1480,
-        740
        ]
       ],
       "color": "#000000",
-      "width": 6,
+      "width": 5,
       "appear": 0.875
      },
      {
@@ -4237,9 +4237,9 @@
      {
       "type": "rect",
       "x": 160,
-      "y": 150,
+      "y": 250,
       "w": 1600,
-      "h": 820,
+      "h": 720,
       "fill": "#cfe9f7",
       "color": "#000000",
       "width": 8
@@ -4248,7 +4248,7 @@
       "type": "label",
       "text": "SLOW MOTION",
       "x": 400,
-      "y": 220,
+      "y": 300,
       "size": 40,
       "bold": true,
       "boil": 0.4
@@ -4271,9 +4271,9 @@
      {
       "type": "wordart",
       "text": "CAVITATION",
-      "x": 851,
-      "y": 330,
-      "size": 130,
+      "x": 1200,
+      "y": 860,
+      "size": 110,
       "boil": 0,
       "appear": 0.8
      },
@@ -10056,6 +10056,7 @@
       "y": 520,
       "scale": 1.0,
       "silhouette": true,
+      "glow": "#1d3a66",
       "appear": 0.8,
       "glow_r": 320
      },
@@ -13088,7 +13089,7 @@
       "type": "asset",
       "name": "roving_coral_grouper",
       "x": 960,
-      "y": 230,
+      "y": 270,
       "scale": 0.8,
       "rotate": 80,
       "appear": 0.692
@@ -13098,15 +13099,15 @@
       "points": [
        [
         910,
-        330
+        370
        ],
        [
         890,
-        360
+        400
        ],
        [
         910,
-        390
+        430
        ]
       ],
       "color": "#ffffff",
@@ -13118,15 +13119,15 @@
       "points": [
        [
         880,
-        320
+        360
        ],
        [
         855,
-        360
+        400
        ],
        [
         880,
-        400
+        440
        ]
       ],
       "color": "#ffffff",
@@ -13138,15 +13139,15 @@
       "points": [
        [
         1010,
-        330
+        370
        ],
        [
         1030,
-        360
+        400
        ],
        [
         1010,
-        390
+        430
        ]
       ],
       "color": "#ffffff",
@@ -13158,15 +13159,15 @@
       "points": [
        [
         1040,
-        320
-       ],
-       [
-        1065,
         360
        ],
        [
-        1040,
+        1065,
         400
+       ],
+       [
+        1040,
+        440
        ]
       ],
       "color": "#ffffff",
@@ -13176,13 +13177,11 @@
      {
       "type": "asset",
       "name": "giant_moray",
-      "x": 1700,
+      "x": 1550,
       "y": 860,
       "scale": 0.6,
-      "silhouette": true,
       "flip": true,
-      "appear": 0.846,
-      "glow_r": 0
+      "appear": 0.846
      },
      {
       "type": "label",
@@ -13439,6 +13438,13 @@
      },
      {
       "type": "asset",
+      "name": "doug_cap",
+      "x": 1090,
+      "y": 890,
+      "scale": 0.5
+     },
+     {
+      "type": "asset",
       "name": "giant_moray",
       "x": 1650,
       "y": 860,
@@ -13449,7 +13455,7 @@
       "type": "asset",
       "name": "roving_coral_grouper",
       "x": 960,
-      "y": 230,
+      "y": 270,
       "scale": 0.8,
       "rotate": 80
      },
@@ -13708,17 +13714,24 @@
      },
      {
       "type": "asset",
+      "name": "doug_cap",
+      "x": 1090,
+      "y": 890,
+      "scale": 0.5
+     },
+     {
+      "type": "asset",
       "name": "roving_coral_grouper",
       "x": 960,
-      "y": 230,
+      "y": 270,
       "scale": 0.8,
       "rotate": 80
      },
      {
       "type": "wordart",
       "text": "INFORMANT",
-      "x": 983,
-      "y": 260,
+      "x": 1450,
+      "y": 480,
       "size": 100,
       "boil": 0,
       "appear": 0.889
@@ -13925,7 +13938,7 @@
       "type": "asset",
       "name": "giant_pacific_octopus",
       "x": 1250,
-      "y": 560,
+      "y": 660,
       "scale": 0.85
      },
      {
@@ -17371,6 +17384,13 @@
      },
      {
       "type": "asset",
+      "name": "doug_cap",
+      "x": 1330,
+      "y": 890,
+      "scale": 0.5
+     },
+     {
+      "type": "asset",
       "name": "glass_jar",
       "x": 1650,
       "y": 880,
@@ -17576,6 +17596,13 @@
       "x": 1160,
       "y": 860,
       "scale": 0.6
+     },
+     {
+      "type": "asset",
+      "name": "doug_cap",
+      "x": 1330,
+      "y": 890,
+      "scale": 0.5
      },
      {
       "type": "asset",
@@ -20457,54 +20484,11 @@
       "appear": 0.923
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        1050.0,
-        500
-       ],
-       [
-        1080.0,
-        390
-       ],
-       [
-        1100.0,
-        450
-       ],
-       [
-        1130,
-        330
-       ],
-       [
-        1170,
-        440
-       ],
-       [
-        1200.0,
-        350
-       ],
-       [
-        1220.0,
-        430
-       ],
-       [
-        1250.0,
-        500
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false,
-      "appear": 0.923
-     },
-     {
-      "type": "spray",
+      "type": "asset",
+      "name": "water_splash",
       "x": 1150,
-      "y": 420,
-      "r": 100.0,
-      "color": "#e8f6ff",
-      "density": 0.25,
+      "y": 500,
+      "scale": 0.42,
       "appear": 0.923
      },
      {
@@ -21268,54 +21252,11 @@
       "appear": 0.429
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        830.0,
-        500
-       ],
-       [
-        860.0,
-        390
-       ],
-       [
-        895.0,
-        450
-       ],
-       [
-        940,
-        330
-       ],
-       [
-        980,
-        440
-       ],
-       [
-        1025.0,
-        350
-       ],
-       [
-        1060.0,
-        430
-       ],
-       [
-        1090.0,
-        500
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false,
-      "appear": 0.429
-     },
-     {
-      "type": "spray",
+      "type": "asset",
+      "name": "water_splash",
       "x": 960,
-      "y": 420,
-      "r": 130.0,
-      "color": "#e8f6ff",
-      "density": 0.25,
+      "y": 500,
+      "scale": 0.54,
       "appear": 0.429
      },
      {
@@ -21487,54 +21428,11 @@
       "appear": 0.588
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        610.0,
-        620
-       ],
-       [
-        640.0,
-        510
-       ],
-       [
-        685.0,
-        570
-       ],
-       [
-        740,
-        450
-       ],
-       [
-        780,
-        560
-       ],
-       [
-        835.0,
-        470
-       ],
-       [
-        880.0,
-        550
-       ],
-       [
-        910.0,
-        620
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false,
-      "appear": 0.588
-     },
-     {
-      "type": "spray",
+      "type": "asset",
+      "name": "water_splash",
       "x": 760,
-      "y": 540,
-      "r": 150.0,
-      "color": "#e8f6ff",
-      "density": 0.25,
+      "y": 620,
+      "scale": 0.62,
       "appear": 0.588
      },
      {
@@ -22013,8 +21911,8 @@
      {
       "type": "wordart",
       "text": "HUNT THE SKY",
-      "x": 924,
-      "y": 300,
+      "x": 1450,
+      "y": 400,
       "size": 90,
       "boil": 0,
       "appear": 0.615
@@ -22695,54 +22593,11 @@
       "appear": 0.4
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        690.0,
-        900
-       ],
-       [
-        720.0,
-        790
-       ],
-       [
-        755.0,
-        850
-       ],
-       [
-        800,
-        730
-       ],
-       [
-        840,
-        840
-       ],
-       [
-        885.0,
-        750
-       ],
-       [
-        920.0,
-        830
-       ],
-       [
-        950.0,
-        900
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false,
-      "appear": 0.4
-     },
-     {
-      "type": "spray",
+      "type": "asset",
+      "name": "water_splash",
       "x": 820,
-      "y": 820,
-      "r": 130.0,
-      "color": "#e8f6ff",
-      "density": 0.25,
+      "y": 900,
+      "scale": 0.54,
       "appear": 0.4
      },
      {
@@ -22908,54 +22763,11 @@
       "rotate": 40
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        1220.0,
-        900
-       ],
-       [
-        1250.0,
-        790
-       ],
-       [
-        1285.0,
-        850
-       ],
-       [
-        1330,
-        730
-       ],
-       [
-        1370,
-        840
-       ],
-       [
-        1415.0,
-        750
-       ],
-       [
-        1450.0,
-        830
-       ],
-       [
-        1480.0,
-        900
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false,
-      "appear": 0.125
-     },
-     {
-      "type": "spray",
+      "type": "asset",
+      "name": "water_splash",
       "x": 1350,
-      "y": 820,
-      "r": 130.0,
-      "color": "#e8f6ff",
-      "density": 0.25,
+      "y": 900,
+      "scale": 0.54,
       "appear": 0.125
      },
      {
@@ -23347,7 +23159,7 @@
       "type": "asset",
       "name": "goliath_grouper",
       "x": 1250,
-      "y": 640,
+      "y": 700,
       "scale": 0.9
      },
      {
@@ -23512,7 +23324,7 @@
       "type": "wordart",
       "text": "BIGGEST",
       "x": 600,
-      "y": 250,
+      "y": 195,
       "size": 110,
       "boil": 0,
       "appear": 0.5
@@ -23520,8 +23332,8 @@
      {
       "type": "label",
       "text": "ATLANTIC",
-      "x": 1127,
-      "y": 250,
+      "x": 1100,
+      "y": 195,
       "size": 52,
       "bold": true,
       "boil": 0.4,
@@ -24694,6 +24506,12 @@
       "boil": 0.4
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 1250,
+    "y": 580,
+    "zoom": 1.06
    }
   },
   {
@@ -24838,8 +24656,8 @@
      {
       "type": "label",
       "text": "SWALLOWED WHOLE",
-      "x": 960,
-      "y": 230,
+      "x": 1450,
+      "y": 975,
       "size": 60,
       "bold": true,
       "boil": 0.4,
@@ -25474,9 +25292,9 @@
      {
       "type": "wordart",
       "text": "BOOM",
-      "x": 1122,
+      "x": 1640,
       "y": 330,
-      "size": 120,
+      "size": 110,
       "boil": 0,
       "appear": 0.5
      },
@@ -25484,10 +25302,26 @@
       "type": "label",
       "text": "SWIM BLADDER",
       "x": 760,
-      "y": 880,
+      "y": 900,
       "size": 46,
       "bold": true,
       "boil": 0.4,
+      "appear": 0.9
+     },
+     {
+      "type": "arrow",
+      "from": [
+       900,
+       880
+      ],
+      "to": [
+       820,
+       700
+      ],
+      "bend": 30,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 40,
       "appear": 0.9
      },
      {
@@ -26373,16 +26207,17 @@
      {
       "type": "asset",
       "name": "fishing_boat",
-      "x": 700,
+      "x": 320,
       "y": 260,
-      "scale": 0.8
+      "scale": 0.8,
+      "flip": true
      },
      {
       "type": "line",
       "points": [
        [
-        900,
-        120
+        556,
+        62
        ],
        [
         1150,
@@ -26552,16 +26387,17 @@
      {
       "type": "asset",
       "name": "fishing_boat",
-      "x": 700,
+      "x": 320,
       "y": 260,
-      "scale": 0.8
+      "scale": 0.8,
+      "flip": true
      },
      {
       "type": "line",
       "points": [
        [
-        900,
-        120
+        556,
+        62
        ],
        [
         1150,
@@ -26735,16 +26571,17 @@
      {
       "type": "asset",
       "name": "fishing_boat",
-      "x": 700,
+      "x": 320,
       "y": 260,
-      "scale": 0.8
+      "scale": 0.8,
+      "flip": true
      },
      {
       "type": "line",
       "points": [
        [
-        900,
-        120
+        556,
+        62
        ],
        [
         1150,
@@ -27625,7 +27462,7 @@
       "type": "asset",
       "name": "goliath_grouper_full",
       "x": 900,
-      "y": 560,
+      "y": 620,
       "scale": 1.2
      },
      {
@@ -27764,7 +27601,7 @@
       "type": "asset",
       "name": "goliath_grouper_full",
       "x": 900,
-      "y": 560,
+      "y": 620,
       "scale": 1.2
      },
      {
@@ -28711,7 +28548,7 @@
      {
       "type": "doug",
       "x": 900,
-      "y": 520,
+      "y": 580,
       "scale": 0.6,
       "pose": [
        "float",
@@ -28724,7 +28561,7 @@
       "type": "asset",
       "name": "sea_turtle_costume",
       "x": 900,
-      "y": 520,
+      "y": 580,
       "scale": 0.6
      },
      {
@@ -30764,8 +30601,8 @@
      {
       "type": "label",
       "text": "THOUSANDS OF KM",
-      "x": 1432,
-      "y": 640,
+      "x": 1250,
+      "y": 600,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -31977,53 +31814,11 @@
       "width": 6
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        750.0,
-        300
-       ],
-       [
-        780.0,
-        190
-       ],
-       [
-        855.0,
-        250
-       ],
-       [
-        940,
-        130
-       ],
-       [
-        980,
-        240
-       ],
-       [
-        1065.0,
-        150
-       ],
-       [
-        1140.0,
-        230
-       ],
-       [
-        1170.0,
-        300
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false
-     },
-     {
-      "type": "spray",
+      "type": "asset",
+      "name": "water_splash",
       "x": 960,
-      "y": 220,
-      "r": 210.0,
-      "color": "#e8f6ff",
-      "density": 0.25
+      "y": 300,
+      "scale": 0.88
      },
      {
       "type": "asset",
@@ -33491,19 +33286,19 @@
       "type": "asset",
       "name": "small_car",
       "x": 1300,
-      "y": 560,
-      "scale": 1.0,
+      "y": 760,
+      "scale": 0.6,
       "appear": 0.462
      },
      {
       "type": "arrow",
       "from": [
-       1300,
-       370
+       1240,
+       520
       ],
       "to": [
-       1300,
-       520
+       1240,
+       640
       ],
       "bend": 0,
       "color": "#e0201b",
@@ -33514,12 +33309,12 @@
      {
       "type": "arrow",
       "from": [
-       1450,
-       370
+       1360,
+       520
       ],
       "to": [
-       1450,
-       520
+       1360,
+       640
       ],
       "bend": 0,
       "color": "#e0201b",
@@ -33530,8 +33325,8 @@
      {
       "type": "label",
       "text": "TEETH",
-      "x": 1550,
-      "y": 760,
+      "x": 1650,
+      "y": 600,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -34199,8 +33994,8 @@
      {
       "type": "wordart",
       "text": "THEIR WAY",
-      "x": 1013,
-      "y": 300,
+      "x": 300,
+      "y": 250,
       "size": 90,
       "boil": 0,
       "appear": 0.938
@@ -34783,8 +34578,8 @@
      {
       "type": "label",
       "text": "590 KM",
-      "x": 1500,
-      "y": 300,
+      "x": 1660,
+      "y": 330,
       "size": 60,
       "bold": true,
       "boil": 0.4,
@@ -34793,8 +34588,8 @@
      {
       "type": "label",
       "text": "25 DAYS",
-      "x": 1500,
-      "y": 420,
+      "x": 1660,
+      "y": 430,
       "size": 52,
       "bold": true,
       "boil": 0.4,
@@ -34816,7 +34611,7 @@
    "id": "s184",
    "narration": "roughly the driving distance from Los Angeles to San Francisco.",
    "scene": {
-    "background": "#e7f3e7",
+    "background": "#8fd3ff",
     "elements": [
      {
       "type": "rect",
@@ -34824,7 +34619,7 @@
       "y": 0,
       "w": 1920,
       "h": 1080,
-      "fill": "#e7f3e7",
+      "fill": "#8fd3ff",
       "color": "#000000",
       "width": 0,
       "outline": false
@@ -35160,11 +34955,27 @@
      {
       "type": "label",
       "text": "TORRES STRAIT",
-      "x": 1426,
-      "y": 275,
+      "x": 1660,
+      "y": 420,
       "size": 40,
       "bold": true,
       "boil": 0.4,
+      "appear": 0.667
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1600,
+       380
+      ],
+      "to": [
+       1206,
+       325
+      ],
+      "bend": 40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 40,
       "appear": 0.667
      },
      {
@@ -35508,12 +35319,84 @@
       "appear": 0.455
      },
      {
-      "type": "spray",
-      "x": 1500,
-      "y": 300,
-      "r": 90,
-      "color": "#ffffff",
-      "density": 0.4
+      "type": "asset",
+      "name": "highspeed_camera",
+      "x": 470,
+      "y": 520,
+      "scale": 0.45
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        615,
+        420
+       ],
+       [
+        583,
+        431
+       ],
+       [
+        597,
+        462
+       ],
+       [
+        566,
+        448
+       ],
+       [
+        555,
+        480
+       ],
+       [
+        544,
+        448
+       ],
+       [
+        513,
+        462
+       ],
+       [
+        527,
+        431
+       ],
+       [
+        495,
+        420
+       ],
+       [
+        527,
+        409
+       ],
+       [
+        513,
+        378
+       ],
+       [
+        544,
+        392
+       ],
+       [
+        555,
+        360
+       ],
+       [
+        566,
+        392
+       ],
+       [
+        597,
+        378
+       ],
+       [
+        583,
+        409
+       ]
+      ],
+      "fill": "#fff7a0",
+      "color": "#000000",
+      "width": 5,
+      "smooth": false
      },
      {
       "type": "label",
@@ -35840,8 +35723,8 @@
      {
       "type": "asset",
       "name": "tide_table",
-      "x": 790,
-      "y": 560,
+      "x": 800,
+      "y": 730,
       "scale": 0.8
      },
      {
@@ -35853,16 +35736,16 @@
       "text": "safe",
       "size": 40,
       "tail": [
-       850,
-       420
+       780,
+       600
       ],
       "appear": 0.8
      },
      {
       "type": "label",
       "text": "x2",
-      "x": 1000,
-      "y": 600,
+      "x": 990,
+      "y": 700,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -36178,53 +36061,20 @@
       "rotate": -6
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        200.0,
-        900
-       ],
-       [
-        230.0,
-        790
-       ],
-       [
-        300.0,
-        850
-       ],
-       [
-        380,
-        730
-       ],
-       [
-        420,
-        840
-       ],
-       [
-        500.0,
-        750
-       ],
-       [
-        570.0,
-        830
-       ],
-       [
-        600.0,
-        900
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false
+      "type": "spray",
+      "x": 430,
+      "y": 790,
+      "r": 210,
+      "color": "#e8c07a",
+      "density": 0.55
      },
      {
       "type": "spray",
-      "x": 400,
+      "x": 520,
       "y": 820,
-      "r": 200.0,
-      "color": "#e8f6ff",
-      "density": 0.25
+      "r": 150,
+      "color": "#d9ac62",
+      "density": 0.5
      },
      {
       "type": "asset",
@@ -36386,8 +36236,8 @@
      {
       "type": "wordart",
       "text": "TOO",
-      "x": 1350,
-      "y": 560,
+      "x": 1250,
+      "y": 330,
       "size": 110,
       "boil": 0,
       "appear": 0.875
@@ -36685,7 +36535,7 @@
       "y": 520,
       "w": 1920,
       "h": 560,
-      "fill": "#1b4f86",
+      "fill": "#3a9ad9",
       "color": "#000000",
       "width": 0,
       "outline": false
@@ -36695,8 +36545,8 @@
       "x": 960,
       "y": 850,
       "r": 900,
-      "color": "#0b2447",
-      "density": 0.08
+      "color": "#2f86c6",
+      "density": 0.06
      },
      {
       "type": "rect",
@@ -36910,7 +36760,7 @@
       "y": 520,
       "w": 1920,
       "h": 560,
-      "fill": "#1b4f86",
+      "fill": "#3a9ad9",
       "color": "#000000",
       "width": 0,
       "outline": false
@@ -36920,8 +36770,8 @@
       "x": 960,
       "y": 850,
       "r": 900,
-      "color": "#0b2447",
-      "density": 0.08
+      "color": "#2f86c6",
+      "density": 0.06
      },
      {
       "type": "rect",
@@ -37024,7 +36874,7 @@
       "y": 520,
       "w": 1920,
       "h": 560,
-      "fill": "#1b4f86",
+      "fill": "#3a9ad9",
       "color": "#000000",
       "width": 0,
       "outline": false
@@ -37034,8 +36884,8 @@
       "x": 960,
       "y": 850,
       "r": 900,
-      "color": "#0b2447",
-      "density": 0.08
+      "color": "#2f86c6",
+      "density": 0.06
      },
      {
       "type": "rect",
@@ -37174,7 +37024,7 @@
       "y": 520,
       "w": 1920,
       "h": 560,
-      "fill": "#1b4f86",
+      "fill": "#3a9ad9",
       "color": "#000000",
       "width": 0,
       "outline": false
@@ -37184,8 +37034,8 @@
       "x": 960,
       "y": 850,
       "r": 900,
-      "color": "#0b2447",
-      "density": 0.08
+      "color": "#2f86c6",
+      "density": 0.06
      },
      {
       "type": "rect",
@@ -37245,7 +37095,7 @@
       "y": 358,
       "w": 140,
       "h": 166,
-      "fill": "#1b4f86",
+      "fill": "#3a9ad9",
       "color": "#000000",
       "width": 0,
       "outline": false
@@ -37324,7 +37174,7 @@
       "y": 520,
       "w": 1920,
       "h": 560,
-      "fill": "#1b4f86",
+      "fill": "#3a9ad9",
       "color": "#000000",
       "width": 0,
       "outline": false
@@ -37334,8 +37184,8 @@
       "x": 960,
       "y": 850,
       "r": 900,
-      "color": "#0b2447",
-      "density": 0.08
+      "color": "#2f86c6",
+      "density": 0.06
      },
      {
       "type": "rect",
@@ -37395,7 +37245,7 @@
       "y": 358,
       "w": 140,
       "h": 166,
-      "fill": "#1b4f86",
+      "fill": "#3a9ad9",
       "color": "#000000",
       "width": 0,
       "outline": false
@@ -37732,7 +37582,7 @@
       "y": 520,
       "w": 1920,
       "h": 560,
-      "fill": "#1b4f86",
+      "fill": "#3a9ad9",
       "color": "#000000",
       "width": 0,
       "outline": false
@@ -37742,8 +37592,8 @@
       "x": 960,
       "y": 850,
       "r": 900,
-      "color": "#0b2447",
-      "density": 0.08
+      "color": "#2f86c6",
+      "density": 0.06
      },
      {
       "type": "rect",
@@ -37803,7 +37653,7 @@
       "y": 358,
       "w": 140,
       "h": 166,
-      "fill": "#1b4f86",
+      "fill": "#3a9ad9",
       "color": "#000000",
       "width": 0,
       "outline": false
@@ -38797,137 +38647,73 @@
      {
       "type": "asset",
       "name": "finish_banner",
-      "x": 811,
-      "y": 675,
-      "scale": 0.3,
+      "x": 808,
+      "y": 664,
+      "scale": 0.45,
       "appear": 0.05
      },
      {
       "type": "asset",
       "name": "finish_banner",
-      "x": 804,
-      "y": 652,
-      "scale": 0.3,
-      "appear": 0.09
-     },
-     {
-      "type": "asset",
-      "name": "finish_banner",
-      "x": 798,
-      "y": 629,
-      "scale": 0.3,
+      "x": 795,
+      "y": 617,
+      "scale": 0.45,
       "appear": 0.13
      },
      {
       "type": "asset",
       "name": "finish_banner",
-      "x": 792,
-      "y": 606,
-      "scale": 0.3,
-      "appear": 0.17
-     },
-     {
-      "type": "asset",
-      "name": "finish_banner",
-      "x": 785,
-      "y": 582,
-      "scale": 0.3,
+      "x": 782,
+      "y": 571,
+      "scale": 0.45,
       "appear": 0.21
      },
      {
       "type": "asset",
       "name": "finish_banner",
-      "x": 786,
-      "y": 561,
-      "scale": 0.3,
-      "appear": 0.25
-     },
-     {
-      "type": "asset",
-      "name": "finish_banner",
-      "x": 801,
-      "y": 542,
-      "scale": 0.3,
+      "x": 809,
+      "y": 533,
+      "scale": 0.45,
       "appear": 0.29
      },
      {
       "type": "asset",
       "name": "finish_banner",
-      "x": 817,
-      "y": 524,
-      "scale": 0.3,
-      "appear": 0.33
-     },
-     {
-      "type": "asset",
-      "name": "finish_banner",
-      "x": 832,
-      "y": 505,
-      "scale": 0.3,
+      "x": 840,
+      "y": 496,
+      "scale": 0.45,
       "appear": 0.37
      },
      {
       "type": "asset",
       "name": "finish_banner",
-      "x": 848,
-      "y": 487,
-      "scale": 0.3,
-      "appear": 0.41
-     },
-     {
-      "type": "asset",
-      "name": "finish_banner",
-      "x": 863,
-      "y": 468,
-      "scale": 0.3,
+      "x": 871,
+      "y": 459,
+      "scale": 0.45,
       "appear": 0.45
      },
      {
       "type": "asset",
       "name": "finish_banner",
-      "x": 879,
-      "y": 451,
-      "scale": 0.3,
-      "appear": 0.49
-     },
-     {
-      "type": "asset",
-      "name": "finish_banner",
-      "x": 903,
-      "y": 446,
-      "scale": 0.3,
+      "x": 915,
+      "y": 444,
+      "scale": 0.45,
       "appear": 0.53
      },
      {
       "type": "asset",
       "name": "finish_banner",
-      "x": 927,
-      "y": 442,
-      "scale": 0.3,
-      "appear": 0.57
-     },
-     {
-      "type": "asset",
-      "name": "finish_banner",
-      "x": 950,
-      "y": 438,
-      "scale": 0.3,
+      "x": 962,
+      "y": 435,
+      "scale": 0.45,
       "appear": 0.61
-     },
-     {
-      "type": "asset",
-      "name": "finish_banner",
-      "x": 974,
-      "y": 433,
-      "scale": 0.3,
-      "appear": 0.65
      },
      {
       "type": "wordart",
       "text": "16 MARATHONS",
-      "x": 1150,
-      "y": 320,
-      "size": 90,
+      "x": 1620,
+      "y": 420,
+      "size": 60,
       "boil": 0,
       "appear": 0.444
      },
@@ -39047,8 +38833,8 @@
      {
       "type": "label",
       "text": "+1,800 KM",
-      "x": 1450,
-      "y": 330,
+      "x": 1620,
+      "y": 420,
       "size": 60,
       "bold": true,
       "boil": 0.4,
@@ -40272,54 +40058,11 @@
       "appear": 0.571
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        760.0,
-        530
-       ],
-       [
-        790.0,
-        420
-       ],
-       [
-        860.0,
-        480
-       ],
-       [
-        940,
-        360
-       ],
-       [
-        980,
-        470
-       ],
-       [
-        1060.0,
-        380
-       ],
-       [
-        1130.0,
-        460
-       ],
-       [
-        1160.0,
-        530
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false,
-      "appear": 0.714
-     },
-     {
-      "type": "spray",
+      "type": "asset",
+      "name": "water_splash",
       "x": 960,
-      "y": 450,
-      "r": 200.0,
-      "color": "#e8f6ff",
-      "density": 0.25,
+      "y": 530,
+      "scale": 0.83,
       "appear": 0.714
      },
      {
@@ -41556,54 +41299,11 @@
       "appear": 0.538
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        750.0,
-        530
-       ],
-       [
-        780.0,
-        420
-       ],
-       [
-        855.0,
-        480
-       ],
-       [
-        940,
-        360
-       ],
-       [
-        980,
-        470
-       ],
-       [
-        1065.0,
-        380
-       ],
-       [
-        1140.0,
-        460
-       ],
-       [
-        1170.0,
-        530
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false,
-      "appear": 0.077
-     },
-     {
-      "type": "spray",
+      "type": "asset",
+      "name": "water_splash",
       "x": 960,
-      "y": 450,
-      "r": 210.0,
-      "color": "#e8f6ff",
-      "density": 0.25,
+      "y": 530,
+      "scale": 0.88,
       "appear": 0.077
      },
      {
@@ -41726,55 +41426,6 @@
       "appear": 0.889
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        840.0,
-        530
-       ],
-       [
-        870.0,
-        420
-       ],
-       [
-        900.0,
-        480
-       ],
-       [
-        940,
-        360
-       ],
-       [
-        980,
-        470
-       ],
-       [
-        1020.0,
-        380
-       ],
-       [
-        1050.0,
-        460
-       ],
-       [
-        1080.0,
-        530
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false
-     },
-     {
-      "type": "spray",
-      "x": 960,
-      "y": 450,
-      "r": 120.0,
-      "color": "#e8f6ff",
-      "density": 0.25
-     },
-     {
       "type": "asset",
       "name": "rubber_ring",
       "x": 500,
@@ -41873,15 +41524,89 @@
       "width": 6
      },
      {
-      "type": "circle",
-      "x": 700,
-      "y": 520,
-      "r": 90,
-      "fill": "#ffcf4a",
+      "type": "poly",
+      "points": [
+       [
+        790,
+        520
+       ],
+       [
+        789,
+        504
+       ],
+       [
+        785,
+        489
+       ],
+       [
+        778,
+        475
+       ],
+       [
+        769,
+        462
+       ],
+       [
+        758,
+        451
+       ],
+       [
+        745,
+        442
+       ],
+       [
+        731,
+        435
+       ],
+       [
+        716,
+        431
+       ],
+       [
+        700,
+        430
+       ],
+       [
+        684,
+        431
+       ],
+       [
+        669,
+        435
+       ],
+       [
+        655,
+        442
+       ],
+       [
+        642,
+        451
+       ],
+       [
+        631,
+        462
+       ],
+       [
+        622,
+        475
+       ],
+       [
+        615,
+        489
+       ],
+       [
+        611,
+        504
+       ],
+       [
+        610,
+        520
+       ]
+      ],
+      "fill": "#ffe24a",
       "color": "#e0a000",
       "width": 5,
-      "start": 180,
-      "end": 360
+      "smooth": false
      },
      {
       "type": "asset",
@@ -42001,15 +41726,89 @@
       "width": 6
      },
      {
-      "type": "circle",
-      "x": 700,
-      "y": 520,
-      "r": 90,
-      "fill": "#ffcf4a",
+      "type": "poly",
+      "points": [
+       [
+        790,
+        520
+       ],
+       [
+        789,
+        504
+       ],
+       [
+        785,
+        489
+       ],
+       [
+        778,
+        475
+       ],
+       [
+        769,
+        462
+       ],
+       [
+        758,
+        451
+       ],
+       [
+        745,
+        442
+       ],
+       [
+        731,
+        435
+       ],
+       [
+        716,
+        431
+       ],
+       [
+        700,
+        430
+       ],
+       [
+        684,
+        431
+       ],
+       [
+        669,
+        435
+       ],
+       [
+        655,
+        442
+       ],
+       [
+        642,
+        451
+       ],
+       [
+        631,
+        462
+       ],
+       [
+        622,
+        475
+       ],
+       [
+        615,
+        489
+       ],
+       [
+        611,
+        504
+       ],
+       [
+        610,
+        520
+       ]
+      ],
+      "fill": "#ffe24a",
       "color": "#e0a000",
       "width": 5,
-      "start": 180,
-      "end": 360
+      "smooth": false
      },
      {
       "type": "asset",
@@ -42781,157 +42580,12 @@
       "appear": 0.5
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        400.0,
-        530
-       ],
-       [
-        430.0,
-        420
-       ],
-       [
-        450.0,
-        480
-       ],
-       [
-        480,
-        360
-       ],
-       [
-        520,
-        470
-       ],
-       [
-        550.0,
-        380
-       ],
-       [
-        570.0,
-        460
-       ],
-       [
-        600.0,
-        530
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false,
-      "appear": 0.75
-     },
-     {
-      "type": "spray",
-      "x": 500,
-      "y": 450,
-      "r": 100.0,
-      "color": "#e8f6ff",
-      "density": 0.25,
-      "appear": 0.75
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        860.0,
-        530
-       ],
-       [
-        890.0,
-        420
-       ],
-       [
-        910.0,
-        480
-       ],
-       [
-        940,
-        360
-       ],
-       [
-        980,
-        470
-       ],
-       [
-        1010.0,
-        380
-       ],
-       [
-        1030.0,
-        460
-       ],
-       [
-        1060.0,
-        530
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false,
-      "appear": 0.875
-     },
-     {
-      "type": "spray",
+      "type": "asset",
+      "name": "water_splash",
       "x": 960,
-      "y": 450,
-      "r": 100.0,
-      "color": "#e8f6ff",
-      "density": 0.25,
-      "appear": 0.875
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        1300.0,
-        530
-       ],
-       [
-        1330.0,
-        420
-       ],
-       [
-        1350.0,
-        480
-       ],
-       [
-        1380,
-        360
-       ],
-       [
-        1420,
-        470
-       ],
-       [
-        1450.0,
-        380
-       ],
-       [
-        1470.0,
-        460
-       ],
-       [
-        1500.0,
-        530
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false,
-      "appear": 0.875
-     },
-     {
-      "type": "spray",
-      "x": 1400,
-      "y": 450,
-      "r": 100.0,
-      "color": "#e8f6ff",
-      "density": 0.25,
-      "appear": 0.875
+      "y": 530,
+      "scale": 0.62,
+      "appear": 0.75
      },
      {
       "type": "asset",
@@ -43397,6 +43051,7 @@
       "y": 930,
       "scale": 0.6,
       "silhouette": true,
+      "glow": "#1d3a66",
       "appear": 0.667,
       "glow_r": 420
      },
@@ -43484,53 +43139,11 @@
       "rotate": -70
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        690.0,
-        530
-       ],
-       [
-        720.0,
-        420
-       ],
-       [
-        795.0,
-        480
-       ],
-       [
-        880,
-        360
-       ],
-       [
-        920,
-        470
-       ],
-       [
-        1005.0,
-        380
-       ],
-       [
-        1080.0,
-        460
-       ],
-       [
-        1110.0,
-        530
-       ]
-      ],
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "smooth": false
-     },
-     {
-      "type": "spray",
+      "type": "asset",
+      "name": "water_splash",
       "x": 900,
-      "y": 450,
-      "r": 210.0,
-      "color": "#e8f6ff",
-      "density": 0.25
+      "y": 530,
+      "scale": 0.88
      },
      {
       "type": "asset",
@@ -43929,7 +43542,7 @@
      {
       "type": "asset",
       "name": "calendar",
-      "x": 1500,
+      "x": 1720,
       "y": 390,
       "scale": 0.7,
       "appear": 0.889
@@ -43937,9 +43550,9 @@
      {
       "type": "label",
       "text": "WHOLE SEASON",
-      "x": 1500,
+      "x": 1720,
       "y": 570,
-      "size": 44,
+      "size": 40,
       "bold": true,
       "boil": 0.4,
       "appear": 0.556
@@ -45468,7 +45081,7 @@
       "type": "label",
       "text": "SEE EPISODE 1",
       "x": 960,
-      "y": 820,
+      "y": 860,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -45532,7 +45145,7 @@
      {
       "type": "rect",
       "x": 560,
-      "y": 200,
+      "y": 260,
       "w": 800,
       "h": 560,
       "fill": "#1b4f86",
@@ -45543,13 +45156,13 @@
       "type": "asset",
       "name": "giant_squid",
       "x": 960,
-      "y": 480,
+      "y": 540,
       "scale": 0.8
      },
      {
       "type": "spray",
       "x": 1250,
-      "y": 380,
+      "y": 440,
       "r": 30,
       "color": "#6ec6ff",
       "density": 0.5,
@@ -45558,7 +45171,7 @@
      {
       "type": "spray",
       "x": 1290,
-      "y": 420,
+      "y": 480,
       "r": 24,
       "color": "#6ec6ff",
       "density": 0.5,
@@ -45568,7 +45181,7 @@
       "type": "asset",
       "name": "exclamation_mark",
       "x": 1250,
-      "y": 300,
+      "y": 360,
       "scale": 0.35,
       "appear": 0.875
      },
@@ -45750,6 +45363,7 @@
       "y": 300,
       "scale": 0.3,
       "silhouette": true,
+      "glow": "#1d3a66",
       "appear": 0.077,
       "glow_r": 500
      },
@@ -45760,6 +45374,7 @@
       "y": 850,
       "scale": 0.3,
       "silhouette": true,
+      "glow": "#1d3a66",
       "flip": true,
       "appear": 0.077,
       "glow_r": 500
@@ -46736,6 +46351,7 @@
       "y": 560,
       "scale": 0.55,
       "silhouette": true,
+      "glow": "#1d3a66",
       "appear": 0.167,
       "glow_r": 520
      },
@@ -47089,8 +46705,8 @@
      {
       "type": "wordart",
       "text": "KILLER WHALE",
-      "x": 960,
-      "y": 330,
+      "x": 620,
+      "y": 900,
       "size": 90,
       "boil": 0,
       "appear": 0.231
@@ -48095,16 +47711,16 @@
      {
       "type": "asset",
       "name": "orca_bent_fin",
-      "x": 1450,
-      "y": 380,
+      "x": 1690,
+      "y": 420,
       "scale": 0.3,
       "appear": 0.7
      },
      {
       "type": "label",
       "text": "PORT",
-      "x": 1209,
-      "y": 260,
+      "x": 1690,
+      "y": 300,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -48113,16 +47729,16 @@
      {
       "type": "asset",
       "name": "orca_bent_fin",
-      "x": 1450,
-      "y": 620,
+      "x": 1690,
+      "y": 660,
       "scale": 0.3,
       "appear": 0.9
      },
      {
       "type": "label",
       "text": "STARBOARD",
-      "x": 1450,
-      "y": 500,
+      "x": 1690,
+      "y": 540,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -48194,30 +47810,30 @@
      {
       "type": "asset",
       "name": "orca_bent_fin",
-      "x": 1450,
-      "y": 380,
+      "x": 1690,
+      "y": 420,
       "scale": 0.3
      },
      {
       "type": "asset",
       "name": "orca_bent_fin",
-      "x": 1450,
-      "y": 620,
+      "x": 1690,
+      "y": 660,
       "scale": 0.3
      },
      {
       "type": "asset",
       "name": "great_white_shark",
-      "x": 1450,
-      "y": 860,
+      "x": 1690,
+      "y": 880,
       "scale": 0.25,
       "appear": 0.222
      },
      {
       "type": "asset",
       "name": "red_x",
-      "x": 1450,
-      "y": 860,
+      "x": 1690,
+      "y": 880,
       "scale": 0.35,
       "appear": 0.111
      },
@@ -48290,8 +47906,8 @@
      {
       "type": "label",
       "text": "GANSBAAI",
-      "x": 470,
-      "y": 891,
+      "x": 760,
+      "y": 801,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -48300,83 +47916,95 @@
      {
       "type": "asset",
       "name": "shark",
-      "x": 1150,
-      "y": 300,
+      "x": 1600,
+      "y": 360,
       "scale": 0.17,
       "appear": 0.05
      },
      {
       "type": "asset",
       "name": "shark",
-      "x": 1300,
-      "y": 300,
+      "x": 1770,
+      "y": 360,
       "scale": 0.17,
-      "appear": 0.09
-     },
-     {
-      "type": "asset",
-      "name": "shark",
-      "x": 1450,
-      "y": 300,
-      "scale": 0.17,
-      "appear": 0.13
+      "appear": 0.1
      },
      {
       "type": "asset",
       "name": "shark",
       "x": 1600,
-      "y": 300,
+      "y": 480,
       "scale": 0.17,
-      "appear": 0.17
+      "appear": 0.15
      },
      {
       "type": "asset",
       "name": "shark",
-      "x": 1150,
-      "y": 410,
+      "x": 1770,
+      "y": 480,
       "scale": 0.17,
-      "appear": 0.21
+      "appear": 0.2
      },
      {
       "type": "asset",
       "name": "shark",
-      "x": 1300,
-      "y": 410,
+      "x": 1600,
+      "y": 600,
       "scale": 0.17,
       "appear": 0.25
      },
      {
       "type": "asset",
       "name": "shark",
-      "x": 1450,
-      "y": 410,
+      "x": 1770,
+      "y": 600,
       "scale": 0.17,
-      "appear": 0.29
+      "appear": 0.3
      },
      {
       "type": "asset",
       "name": "shark",
       "x": 1600,
-      "y": 410,
+      "y": 720,
       "scale": 0.17,
-      "appear": 0.33
+      "appear": 0.35
+     },
+     {
+      "type": "asset",
+      "name": "shark",
+      "x": 1770,
+      "y": 720,
+      "scale": 0.17,
+      "appear": 0.4
      },
      {
       "type": "label",
       "text": "8 SHARKS",
-      "x": 1145,
-      "y": 200,
+      "x": 1685,
+      "y": 290,
       "size": 46,
       "bold": true,
       "boil": 0.4
      },
      {
-      "type": "asset",
-      "name": "red_x",
-      "x": 1380,
-      "y": 500,
-      "scale": 0.4,
-      "appear": 0.846
+      "type": "line",
+      "points": [
+       [
+        740,
+        871
+       ],
+       [
+        1520,
+        700
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 6,
+      "dash": [
+       16,
+       12
+      ],
+      "appear": 0.154
      },
      {
       "type": "label",
@@ -48438,7 +48066,7 @@
       "type": "label",
       "text": "2019",
       "x": 685,
-      "y": 929,
+      "y": 749,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -49525,6 +49153,171 @@
       "color": "#000000",
       "width": 0,
       "outline": false
+     },
+     {
+      "type": "ellipse",
+      "x": 1372,
+      "y": 400,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1294,
+      "y": 400,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1216,
+      "y": 400,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1138,
+      "y": 400,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1060,
+      "y": 400,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1762,
+      "y": 330,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1684,
+      "y": 330,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1606,
+      "y": 330,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1528,
+      "y": 330,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1450,
+      "y": 330,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1372,
+      "y": 330,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1294,
+      "y": 330,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1216,
+      "y": 330,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1138,
+      "y": 330,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
+     },
+     {
+      "type": "ellipse",
+      "x": 1060,
+      "y": 330,
+      "rx": 36,
+      "ry": 26,
+      "fill": "#ffb3ad",
+      "color": "#e0201b",
+      "width": 4,
+      "appear": 0.4
      },
      {
       "type": "asset",
@@ -51639,9 +51432,9 @@
      {
       "type": "asset",
       "name": "red_x",
-      "x": 1450,
-      "y": 450,
-      "scale": 0.6,
+      "x": 1580,
+      "y": 360,
+      "scale": 0.4,
       "appear": 0.909
      },
      {
@@ -52181,8 +51974,8 @@
      {
       "type": "asset",
       "name": "salmon",
-      "x": 1080,
-      "y": 480,
+      "x": 1180,
+      "y": 500,
       "scale": 0.6,
       "rotate": -10,
       "appear": 0.214
@@ -52342,39 +52135,20 @@
      {
       "type": "asset",
       "name": "salmon",
-      "x": 1080,
-      "y": 480,
+      "x": 1180,
+      "y": 500,
       "scale": 0.6,
       "rotate": -10
      },
      {
       "type": "label",
-      "text": "2024",
-      "x": 1550,
+      "text": "PUGET SOUND, 2024",
+      "x": 960,
       "y": 900,
-      "size": 56,
-      "bold": true,
-      "boil": 0.4,
-      "appear": 0.071
-     },
-     {
-      "type": "label",
-      "text": "PUGET SOUND",
-      "x": 450,
-      "y": 900,
-      "size": 46,
+      "size": 52,
       "bold": true,
       "boil": 0.4,
       "appear": 0.5
-     },
-     {
-      "type": "spray",
-      "x": 1300,
-      "y": 500,
-      "r": 100,
-      "color": "#ffffff",
-      "density": 0.5,
-      "appear": 0.714
      },
      {
       "type": "wordart",
