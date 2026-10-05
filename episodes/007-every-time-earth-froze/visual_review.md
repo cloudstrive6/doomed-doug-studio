@@ -72,3 +72,27 @@ VERDICT: PASS
 - Sturtian tile: added `"ink": "#000000"` to the `doug` element (x=590, y=612, pose "float") in thumbnail.json. Re-rendered `python -m studio thumbnail` and keyframe s001.
 - At 1280x720, 1920x1080 (s001) and 168x94, the black torso and arms show clearly above the pond, and the tile now reads as Doug floating in the meltwater pond rather than as a floating head.
 - Optional, not blocking (graphic designer): now that the legs are black, two small leg tips show below the pond's bottom outline at the tile's bottom border (about y≈960 in s001). They are invisible at 168x94. Raise Doug a little or widen the lower water ellipse if anyone touches the tile again.
+
+## Post-render review (final.mp4, thumbnail, Shorts)
+
+What I checked: all 33 frames in `build/samples/` (taken every 30 s, starting at 15 s), mapped to their shots with `timing.json`. Frames at full resolution for s116, s249, s255 and s064. `build/qc.json` (no problems, 997.7 s). `build/thumbnail.png` and `thumbnail_small.png` against the title in `metadata.json`. The three `build/shorts/*_preview.png`. One frame every 2 s from each of `short01.mp4`, `short02.mp4` and `short03.mp4` (1080x1920).
+
+### Main video: VERDICT: PASS
+- No black, blank, frozen or glitched frames. Chapter labels are legible in every sample. Doug is on-model in all of them (red cap, white head) and readable on every background, including the dark-navy space shots and the brown greenhouse shot.
+- Every picture matches its narration. Two examples: s249 starts as a blank clock face, then the hands, "1 DAY" and "ABOUT 11 AM" appear. s255 shows the METHANE circle, a red X and an arrow to CARBON DIOXIDE and WATER. The X partly covers the H in METHANE, but the word is shown clean first, so this is fine.
+- No gore. The deaths are cartoon (the frozen-in-ice end card in s271). Nothing reads as a kids' show.
+- Optional (director): in s116 and s117 (frame at about 6:44) the dam inset fills only the left third of a white frame, which leaves a lot of dead space. This is acceptable because the REPEAT panels fill in during s117.
+
+### Thumbnail: VERDICT: PASS (unchanged from the round 3 approval)
+- The nine labelled freeze tiles are legible at 320x180, and Doug is frozen in the deck chair in the top-left tile. It complements "What Dying Every Time Earth Froze Would Be Like" without repeating its words, and it is not misleading.
+
+### Shorts: VERDICT: FAIL
+Titles, subtitles, the @DoomedDoug tag and the end card all pass. The title is red with a black outline and readable. Subtitles stay at 2 lines or fewer. On the end card, the red arrow points down to the link and Doug is pointing at it. The failure is that Shorts keep only x 260..1660 of the 1920 frame, and several shots put Doug or a key drawing outside that band:
+
+1. **short01, s108 (director):** the CN Tower is at x=1680, so its label is cut to "CN TOW". This is the payoff comparison of the Short ("deeper than the CN Tower"). Move the `cn_tower` asset and the `CN TOWER` label to x=1580. That still clears the ice dam, whose right foot is at x=1480.
+2. **short03, s256 and s262 (director):** Doug is at x=1700, and in the Short he is sliced in half at the right edge. Set Doug's x to 1560 in both shots. The globes end at x≈1180 (s256) and x≈960 (s262), so nothing collides. In s262, check that he stays clear of the OXYGEN MAKERS label and the microbe.
+3. **short03, s258 (director):** Doug is at x=1750 and is completely off-screen in the Short, apart from a red sliver of cap. Set Doug's x to about 1600 (y unchanged), or scale `north_america_map` to 0.85 and move it to x=820 so he has room inside the safe band.
+4. **short02, s047 (director):** Doug is at x=1770 and is off-screen during "a new bridge with only five arches". Set his x to 1560. Optional: in s044, move the `question_mark` from x=1780 to 1560 so the "strange part" beat shows Doug puzzled.
+5. **short01, s106 (director, minor):** in the hook frame, Doug at x=1790 is off-screen. Set his x to about 1600.
+
+After these shotlist fixes, run `python -m studio shorts render 007-every-time-earth-froze`. All of these x positions are also safe in the 16:9 frame. Re-rendering final.mp4 is optional: the only change there is that Doug sits about 150 px further left in 6 shots. Either re-render final.mp4 for consistency or accept the small difference.

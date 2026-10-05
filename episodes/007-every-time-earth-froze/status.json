@@ -34,7 +34,12 @@
       "stage": "packaged",
       "at": "2026-10-05T07:03:03+00:00",
       "note": "narrated at rate 1.15 (196.7 wpm), 276 shots, 16.6 min, no static gaps >4.5s, chapters filled; validate OK"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-05T07:11:52+00:00",
+      "note": "final render"
     }
   ],
-  "stage": "packaged"
+  "stage": "built"
 }
