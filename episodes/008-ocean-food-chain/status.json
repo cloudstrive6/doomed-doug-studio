@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-10-05T18:56:35+00:00",
       "note": "Art director keyframes round 3 PASS: s251 inside safe area (x<=1840), advisories A1-A3 done, thumbnail v2 consistent with s001"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-10-05T19:09:12+00:00",
+      "note": "script 3 rounds, art 3 rounds, thumbnail 2 rounds; narration done"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

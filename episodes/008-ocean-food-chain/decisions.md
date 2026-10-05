@@ -93,3 +93,4 @@ Inputs: `build/thumbnail.png` (v2) at 1280x720, my own 320x180 and 168x94 downsc
 
 THUMBNAIL: APPROVED (v2)
 PACKAGE: APPROVED (GO)
+- 2026-10-05 Showrunner: packaged. Script 3 rounds (round-1 fact fixes, round-2 white-shark count, PASS r3); art assets 1 round, keyframes 3 rounds (PASS), thumbnail 2 rounds (CD approved v2). Risks: pronunciations (trevally, Gansbaai, Iberian) not audibly checked; weaker 'search snippet' sources noted in facts.md; kid-appeal medium-high (animals + costumes).
