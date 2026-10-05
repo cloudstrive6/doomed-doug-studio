@@ -1,5 +1,5 @@
-<!-- axis: up the ocean food chain, by trophic rank and size. Each item is a bigger predator that sits higher than the one before it, from a reef crustacean to the orca, the ocean's top predator, which hunts the top predators below it. Four spoken section headers: "Reef." (items 1-3), "Open water." (items 4-6), "Apex." (items 7-9), "No predators." (items 10-11, at about 70%). Predation links are only stated where sourced: the octopus eats sharks, the grouper and the crocodile eat sharks, white sharks flee orcas, sperm whales circle against orcas, orcas kill white sharks and blue whales. -->
-<!-- Episode 008: Every Step of the Ocean Food Chain. Draft 1 (2026-10-05, script writer). Death counter on screen at 65 from the first shot, ends at 74: nine deaths over eleven items. Survivals: item 4 Giant Trevally ("Doug is fine.") and item 11 Orca (narrator quietly disappointed). "Doug did not agree to this." once, in the opener. Costume gag stated once in item 1 ("which is exactly why Doug is dressed as a snail"): snail, small reef fish, crab, sooty tern, shark, sea turtle, seal, patched seal, squid. Breaks: crocodile (no costume) and orca (a small sailing boat). Befriending: the grouper informant (item 2) and "hi friend?" at the breathing hole (item 8). The cap: floats after the tiger shark, lands after the great white, ends on an orca's head in the LIVE feed. Callbacks: 006 shark streak (item 6, one line), 001 giant squid (item 10, one line). No venom, no time machine, no suitcase, no Buddy. No human attack facts of any kind; no captive orcas. -->
+<!-- axis: up the ocean food chain, by trophic rank and size. Each item is a bigger predator that sits higher than the one before it, from a reef crustacean to the orca, the ocean's top predator, which hunts the top predators below it. Four spoken section headers: "Reef." (items 1-3), "Open water." (items 4-6), "Apex." (items 7-10, the sperm whale included, with a silent background shift to the deep before it), "No predators." (item 11 only, the orca, at about 89%; moved in draft 2 from before the sperm whale because the sperm whale has a predator, pending creative director approval). Predation links are only stated where sourced: the octopus eats sharks, the grouper and the crocodile eat sharks, white sharks flee orcas, sperm whales circle against orcas, orcas kill white sharks and blue whales. -->
+<!-- Episode 008: Every Step of the Ocean Food Chain. Draft 2 (2026-10-05, script writer; fixes from script_review.md). Death counter on screen at 65 from the first shot, ends at 74: nine deaths over eleven items. Survivals: item 4 Giant Trevally ("Doug is fine.") and item 11 Orca (narrator quietly disappointed). "Doug did not agree to this." once, in the opener. Costume gag stated once in item 1 ("which is exactly why Doug is dressed as a snail"): snail, small reef fish, crab, sooty tern, shark, sea turtle, seal, patched seal, squid. Breaks: crocodile (no costume) and orca (a small sailing boat). Befriending: the grouper informant (item 2) and "hi friend?" at the breathing hole (item 8). The cap: floats after the tiger shark, lands after the great white, ends on an orca's head in the LIVE feed. Callbacks: 006 shark streak (item 6, one line), 001 giant squid (item 10, one line). No venom, no time machine, no suitcase, no Buddy. No human attack facts of any kind; no captive orcas. -->
 <!-- Pronunciation checks for the editor (preview with `narrate`): trevally = "treh-VAL-ee"; Farquhar = "FAR-kwar"; Seychelles = "say-SHELZ"; moray = "MOR-ay"; Bonita = "boh-NEE-tuh"; Farallon = "FAIR-uh-lon"; Gansbaai = "HUNS-bye" (Afrikaans; "GANZ-bye" is acceptable); marguerite = "mar-guh-REET"; Beaufort = "BOH-fert"; Torres = "TOR-ez"; pharyngeal = "fuh-RIN-jee-ul"; Puget = "PYOO-jet"; Kennedy River and Cape York as written. -->
 
 [Open on the thumbnail pyramid, 1.5 to 4 seconds: mantis shrimp at the bottom band, the orca alone at the apex, a tiny Doug for scale. Cut to a bright turquoise reef. Doug stands on the sand zipped into a snail costume, red cap on top of the shell. DOUG DEATHS: 65 already on screen.]
@@ -66,12 +66,9 @@ Most fish swallow by sucking prey into their mouths with a quick gulp of water. 
 
 [X-ray cutaway of the moray's head: a second, smaller set of jaws sitting in the throat.]
 
-It has a second set of jaws, called pharyngeal jaws, hidden in its throat. When the moray bites down on something, those throat jaws shoot forward into its mouth, grab the prey and haul it back toward the stomach. Biologists at the University of California, Davis, filmed the whole thing at high speed and published it in two thousand seven.
+It has a second set of jaws, called pharyngeal jaws, hidden in its throat. When the moray bites down on something, those throat jaws shoot forward into its mouth, grab the prey and haul it back toward the stomach. Biologists in California filmed the whole thing at high speed and published it in two thousand seven.
 
 [Diagram: the throat jaws slide forward and back, drawn like a tape measure snapping back into its case.]
-
-It works a bit like a tape measure snapping back into its case.
-
 But that's not the disturbing part. The moray has a partner.
 
 [Red Sea label. A big red-spotted grouper swims up to the moray's crack and shakes its head. Motion lines.]
@@ -80,7 +77,7 @@ In the Red Sea, a fish called the roving coral grouper swims up to a resting mor
 
 When a small fish escapes into a crack the grouper can't reach, the grouper does a headstand above the hiding spot and shakes its head again, which brings the moray straight to the fish.
 
-[Doug-in-fish swims alongside the grouper, both smiling. Small hearts. Speech bubble from Doug: "best friend".]
+[Doug-in-fish swims alongside the grouper, both smiling. Speech bubble from Doug: "best friend".]
 
 Doug meets the grouper first, and it's incredibly friendly, and it follows him everywhere. When things get scary, Doug hides in a narrow crack, and his new friend floats over and does a headstand directly above him.
 
@@ -138,21 +135,21 @@ The giant trevally is a big silver fish that can weigh up to eighty kilograms, a
 
 [A huge silver fish with a blunt head and a scowl. A stick-figure man on a bathroom scale next to it, same weight.]
 
-Normally it eats fish, squid and crustaceans, but Doug, for reasons that will become clear, is dressed as a seabird.
+It normally eats fish, squid and crustaceans, but Doug is dressed as a seabird.
 
 [Doug in a lumpy sooty tern costume, wings too big, red cap on top. He stands on a tiny sandy island.]
 
-Specifically, he is a sooty tern, which makes no sense for a fish until you visit Farquhar Atoll in the Seychelles, in the Indian Ocean.
+He is a sooty tern, which makes no sense for a fish until you visit Farquhar Atoll in the Seychelles.
 
 [Map pin on a speck of sand. Label: "ILE AUX GOELETTES, FARQUHAR ATOLL".]
 
 On one tiny island there, about two hundred thirty thousand pairs of sooty terns nest every year, and their chicks learn to fly over the lagoon in August and September. Some land on the water, and the trevally take those from the surface.
 
-The insane part is what happens to the ones still in the air.
+Now for the impossible bit. Some birds are still flying.
 
 [A trevally explodes out of the water, mouth open, toward a tern flying low over the waves. Splash lines.]
 
-In September two thousand twenty-two, researchers watched the island from a lookout for sixteen days and recorded two hundred thirty-nine attacks by giant trevally on seabirds. Most birds were taken off the water, but at least twenty were taken in flight, by fish launching themselves clear out of the lagoon.
+In September two thousand twenty-two, researchers watched the island from a lookout for sixteen days and recorded two hundred thirty-nine encounters between giant trevally and seabirds. Most birds were taken off the water, but at least twenty were taken in flight, by fish launching themselves clear out of the lagoon.
 
 This has only ever been recorded at this one island. The researchers suspect that so many trevally gather there that some of them learned to hunt the sky to beat the competition, even though most of their leaps miss.
 
@@ -170,7 +167,7 @@ Somewhere in the Indian Ocean, a population of fish has decided that the sky is 
 
 Goliath Grouper.
 
-The goliath grouper is the biggest grouper in the Atlantic, and it looks like a sofa that learned to frown. It can grow more than two meters long and weigh up to around three hundred sixty kilograms, which is heavier than a baby grand piano.
+The goliath grouper is the biggest grouper in the Atlantic. It can grow more than two meters long and weigh up to around three hundred sixty kilograms, which is heavier than a baby grand piano.
 
 [A massive mottled brown fish hovering over a wreck. A baby grand piano next to it, smaller.]
 
@@ -292,7 +289,7 @@ The disturbing part is how far a polar bear will go when the ice runs out.
 
 In two thousand eight, government scientists tracked a female polar bear wearing a radio collar in the Beaufort Sea, north of Alaska. She swam for nine days without stopping and covered six hundred eighty-seven kilometers in near-freezing water, which is more than sixteen marathons, back to back.
 
-Afterwards she kept going, swimming and walking across the sea ice for roughly another eighteen hundred kilometers. By the time scientists caught up with her again, she had lost twenty-two percent of her body weight, and the researchers concluded that long-distance swimming carries a serious energetic cost.
+Afterwards she kept going, swimming and walking across the sea ice for roughly another eighteen hundred kilometers. By the time scientists caught up with her again, she had lost twenty-two percent of her body weight, and the researchers concluded that long-distance swimming may carry a serious energetic cost.
 
 [Doug-in-seal pops his head up through a breathing hole. A large white shape is lying beside it, very still. Doug waves. Speech bubble: "hi friend?"]
 
@@ -322,7 +319,7 @@ Then it rushes upward for about seven to sixteen seconds, speeding up as much as
 
 They hunt best in the low light just after sunrise, when more than half of their attacks succeed, and as the sun climbs higher, their success rate falls and they stop hunting.
 
-The strange part is how scientists studied it. Along with more than two hundred real attacks, they recorded over a hundred strikes on fake seals, seal-shaped decoys towed behind a boat.
+How do scientists know all this? Partly by cheating. Along with more than two hundred real attacks, they recorded over a hundred strikes on fake seals, seal-shaped decoys towed behind a boat.
 
 [A boat towing Doug-in-seal on a rubber ring at a steady speed. Label on Doug: "DECOY".]
 
@@ -336,9 +333,7 @@ Doug has died. Again. The cap lands a few seconds after him.
 
 And yet, off California's Farallon Islands, great whites leave within minutes when orcas arrive, and stay away for the rest of the season.
 
-[Background goes deep navy, almost black. Big label: "NO PREDATORS".]
-
-No predators.
+[Background goes deep navy, almost black. No label: still the Apex band, now in the deep.]
 
 ## Sperm Whale
 
@@ -376,7 +371,11 @@ Doug drifts in total darkness and can't see anything, but something can detect h
 
 [Cartoon shockwave. The cap blows off and tumbles upward. The squid costume goes limp, X eyes. DOUG DEATHS: 74]
 
-Doug has died. Again. The largest predator with teeth on Earth has a defense formation, and it exists for one animal.
+Doug has died. Again. The largest predator with teeth on Earth has a defense formation, and the animal that makes it necessary is next on this list.
+
+[Background goes black, a single spotlight from above. Big label: "NO PREDATORS".]
+
+No predators.
 
 ## Orca
 
@@ -400,7 +399,7 @@ Off Western Australia in two thousand nineteen, scientists watched a group of or
 
 [Map of Spain and Portugal. Small sailboats along the coast. One orca nudging a rudder.]
 
-Doug's boat is off the coast of Spain and Portugal, where since two thousand twenty, a small group of orcas, around forty animals in total, has been approaching sailboats and going for the rudders. They push them, rotate them and sometimes break them off entirely, and several vessels have sunk. Some scientists believe it is essentially a game.
+Doug's boat is off the coast of Spain and Portugal, where since two thousand twenty, about fifteen orcas, from a population of only around forty, have been approaching sailboats and going for the rudders. They push them, rotate them and sometimes break them off entirely, and several vessels have sunk. Some scientists believe it is essentially a game.
 
 But this is the strangest part.
 
@@ -430,4 +429,4 @@ Doug is fine. The cap has survived again, but it has a new owner.
 
 Doug deaths: seventy-four. Which predator should Doug meet next? Tell us in the comments.
 
-<!-- words: 3049 (spoken narration only, spoken section headers included; markdown headings, comments and stage directions excluded) · est. runtime 15:38 at 195 wpm · draft 1 (2026-10-05) · item 1 name at spoken words 32-33, twist ("Here's the twist. It hits twice.") ends at spoken word 121, about 37 s · "No predators." at about 78% · Flesch 71.3 (textstat) · avg sentence 16.5 words (textstat) / 14.7 (strict split), max 34 · outro 14 words · items: Mantis Shrimp 272 incl. no header, Giant Moray 296, Giant Pacific Octopus 251 incl. "Open water.", Giant Trevally 291, Goliath Grouper 250, Tiger Shark 234 incl. "Apex.", Saltwater Crocodile 265, Polar Bear 269, Great White Shark 240 incl. "No predators.", Sperm Whale 262, Orca 388 incl. LIVE close and outro · opener 31 incl. "Reef." -->
+<!-- words: 3016 (spoken narration only, spoken section headers included; markdown headings, comments and stage directions excluded) · est. runtime 15:28 at 195 wpm · draft 2 (2026-10-05) · item 1 name at spoken words 32-33, twist ends at spoken word 121, about 37 s · "Open water." 28%, "Apex." 53%, "No predators." 87% (moved to just before the orca, pending creative director approval) · outro 14 words · items: Mantis Shrimp 272, Giant Moray 279, Giant Pacific Octopus 251 incl. "Open water.", Giant Trevally 277, Goliath Grouper 240, Tiger Shark 234 incl. "Apex.", Saltwater Crocodile 265, Polar Bear 270, Great White Shark 239, Sperm Whale 270 incl. "No predators.", Orca 388 incl. LIVE close and outro · opener 31 incl. "Reef." -->

@@ -1,9 +1,18 @@
 # Facts: 008 Every Step of the Ocean Food Chain
 
+> **For the creative director (draft 2, needs approval at the script gate): the "No predators." header has moved.**
+> In draft 1 the header sat before the Sperm Whale, but that item then describes the sperm whale's defence against
+> killer whales (Pitman et al. 2001), so the header contradicted the item under it (script_review.md, fix 3). The
+> header wording from the brief is unchanged. It now comes right before "Orca." (at about 87% of spoken words instead
+> of the brief's ~70%), where it is accurate: NOAA calls the orca the ocean's top predator and nothing on this list hunts
+> it. The Sperm Whale stays in the "Apex." band, with a silent background shift to deep navy (no spoken header).
+> "Almost no predators." was rejected because it breaks the two-words-or-fewer header rule. If you prefer the original
+> position, the alternative is to rename the header there (for example "The top.").
+
 Every factual claim in script.md is listed here with its source. Doug, his costumes, his deaths, the cap, the LIVE feed,
 the narrator's asides and the jokes ("he did the packaging himself", "he did not keep the shark", "even a tiger shark
-has some standards", "the crocodile had checked the tide table too", "a sofa that learned to frown", "less of a diet and
-more of a garage sale") are fiction or framing. Everyday comparisons marked "common knowledge" are checked by arithmetic.
+has some standards", "the crocodile had checked the tide table too", "less of a diet and
+more of a garage sale", "now for the impossible bit", "partly by cheating") are fiction or framing. Everyday comparisons marked "common knowledge" are checked by arithmetic.
 
 Checked 2026-10-05. "Verified" = I read the figure on the page (WebFetch, or text extracted from the PDF). "Search
 snippet" = the page blocked WebFetch (403/303 login wall/timeout) and the figure was confirmed through search-result text
@@ -84,7 +93,8 @@ quoting that page; the screener should re-open these if possible.
   https://fishlab.ucdavis.edu/wp-content/uploads/sites/397/2020/05/Mehta-Wainwright-2007b.pdf (search snippet: "launching
   raptorial pharyngeal jaws out of its throat and into its oral cavity, where the jaws grasp the struggling prey animal and
   transport it back to the throat")
-  - "Tape measure snapping back": analogy, framing.
+  - Tape measure analogy: stage direction only (spoken line cut in draft 2).
+  - "Biologists in California ... published it in two thousand seven": UC Davis, *Nature* 2007 (above).
 - Roving coral groupers recruit giant morays with head-shaking (3-6 shakes per second) in front of the moray; morays
   responded by leaving their crevice in 58% of cases ("more than half the time"); joint hunting; when prey hides in a
   crevice the grouper does a headstand with head shakes over the spot, which attracts the moray. Red Sea (Ras Mohammed
@@ -126,7 +136,9 @@ quoting that page; the screener should re-open these if possible.
   - "The only location that giant trevally have been recorded preying on seabirds is Ile aux Goelettes"; behaviour "may
     have evolved in response to intense competition"; "may have learned over time to capture birds in flight to
     outcompete conspecifics".
-- Indian Ocean location: common knowledge (Seychelles).
+- Indian Ocean location (kicker, "somewhere in the Indian Ocean"): common knowledge (Seychelles).
+- Draft 2 wording: "two hundred thirty-nine encounters between giant trevally and seabirds" follows the paper's "239
+  interactions" (133 breaches had unconfirmed outcomes, so they are not all attacks).
 
 ## 5. Goliath Grouper
 - Biggest grouper in the Atlantic: https://oceana.org/marine-life/atlantic-goliath-grouper/ (search snippet: "the largest
@@ -189,7 +201,7 @@ quoting that page; the screener should re-open these if possible.
   https://polarbearsinternational.org/polar-bears/polar-bear-facts/diet-prey/ (search snippet; page refused connection)
 - 2008, radio-collared adult female, Beaufort Sea: continuous swim of 687 km over 9 days, then about 1,800 km more of
   intermittent swimming and walking on sea ice; lost 22% of body mass; "long distance swimming ... may result in high
-  energetic costs". Durner et al. 2011, *Polar Biology* 34: 975-984 (USGS).
+  energetic costs" (script draft 2 says "may carry", matching the hedge). Durner et al. 2011, *Polar Biology* 34: 975-984 (USGS).
   https://link.springer.com/article/10.1007/s00300-010-0953-2 ; https://www.usgs.gov/index.php/publications/consequences-long-distance-swimming-and-travel-over-deep-water-pack-ice-a-female-polar (search snippets);
   https://www.nationalgeographic.com/science/article/110720-polar-bears-global-warming-sea-ice-science-environment
   (verified: 687 km, nine days, 22%, "nearly freezing water", USGS).
@@ -228,7 +240,19 @@ quoting that page; the screener should re-open these if possible.
   Aquarium of the Pacific (verified). Callback to 001 (Doug survived the giant squid): series bible episode log.
 - Marguerite / rosette defence against killer whales: heads together, tails out, calves or injured whales in the centre.
   Pitman et al. 2001, *Marine Mammal Science* 17: 494-507.
-  https://digitalcommons.unl.edu/context/usdeptcommercepub/article/1506/viewcontent/Pitman_MMS_2001_Killer_whale_predation.pdf (search snippet)
+  https://digitalcommons.unl.edu/context/usdeptcommercepub/article/1506/viewcontent/Pitman_MMS_2001_Killer_whale_predation.pdf (search snippet:
+  35 killer whales attacked nine sperm whales off California in 1997; the sperm whales' "main defensive behavior was the
+  formation of a rosette ('marguerite' - heads together, tails out)"; killer whale predation "potentially ... an
+  important, and underrated, selective factor" in sperm whale evolution);
+  https://onlinelibrary.wiley.com/doi/10.1111/j.1748-7692.2001.tb01000.x
+- Draft 2 kicker: "has a defense formation, and the animal that makes it necessary is next on this list." Draft 1's
+  "it exists for one animal" was wrong and is CUT: the marguerite has also been seen during aggressive pilot whale
+  encounters off Ecuador. The new line does not claim exclusivity; it names the orca as the predator that makes the
+  formation necessary, because killer whales are the documented predator (Pitman 2001) and pilot whales are not a real
+  threat. https://baleinesendirect.org/en/do-sperm-whales-have-any-predators/ (verified: "the 'marguerite' formation
+  was observed in sperm whales on a few occasions" with pilot whales, but "There is no evidence that pilot whales are a
+  real threat to sperm whales"; killer whales: 35 attacked nine sperm whales off California, one killed);
+  https://baleinesendirect.org/en/discover/life-of-whales/behaviour/predation-and-defence/
   - "After the daisy": marguerite is French for daisy (common knowledge).
 
 ## 11. Orca
@@ -246,7 +270,14 @@ quoting that page; the screener should re-open these if possible.
   - School bus: up to 40 ft (12.2 m), Type C usually 35-40 ft. https://www.ncbussafety.org/documents/buses/typecspecs2011.pdf
     (search snippet). 22 m ≈ two 11-12 m buses → "close to two school buses end to end".
 - Iberian orcas: interactions with sailing boats since 2020, targeting rudders, several boats sunk, no injuries reported,
-  about 40 animals, critically endangered, scientists suggest a game.
+  critically endangered, scientists suggest a game. Draft 2 fix: "about fifteen orcas, from a population of only around
+  forty". About 15 identified individuals take part in the interactions; the whole subpopulation is about 35-40.
+  https://en.wikipedia.org/wiki/Iberian_orca_attacks (verified: interactions "attributed to fifteen different individual
+  orcas"; 2011 census "39 members divided into five pods"; first interaction May 2020; four vessels sunk 2020-2023, more since);
+  https://awionline.org/awi-quarterly/winter-2023/orcas-ramming-rudders-it-may-just-be-play/ (search snippet: population
+  "numbering only 40 individuals"; "At least 15 identified orcas are now involved");
+  https://www.nationalgeographic.com/premium/article/orcas-boats-sinking-spain-play (search snippet: "a group of about 15,
+  mostly juvenile, whales"; fewer than 40 individuals)
   https://www.nationalgeographic.com/animals/article/orcas-killer-whales-ramming-boats-spain-cultural-behavior (verified);
   https://www.scientificamerican.com/article/why-has-a-group-of-orcas-suddenly-started-attacking-boats/ (Atlantic Orca
   Working Group, search snippet); https://en.wikipedia.org/wiki/Iberian_orca_attacks (search snippet: rudders "strongly
@@ -257,4 +288,6 @@ quoting that page; the screener should re-open these if possible.
 - Salmon hats: 1987, killer whales off the northwestern coast of North America carried dead salmon on their heads for
   weeks, then the fad ended; 2024, J27 "Blackberry" photographed in Puget Sound with a salmon on his head.
   https://orca.wa.gov/a-recent-orca-sighting-recalls-a-mystifying-1980s-phenomenon/ (verified);
-  https://www.cnn.com/2024/12/07/science/orcas-salmon-hat-puget-sound (search snippet)
+  https://www.cnn.com/2024/12/07/science/orcas-salmon-hat-puget-sound (search snippet);
+  https://www.nationalgeographic.com/animals/article/orcas-puget-sound-salmon-hats-killer-whales ("Why these orcas are
+  wearing salmon as hats (again)", search result; second source per the screener's advisory)
