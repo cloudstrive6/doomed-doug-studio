@@ -1,11 +1,11 @@
 <!-- axis: Age: how long ago Earth froze, from 1816 to about 2.4 billion years ago. The further back Doug goes, the more of the planet is ice. Four spoken section headers: "Cold snaps." (items 1-2, grey-white sky), "Ice age." (items 3-6, glacier blue), "Deep time." (items 7-8, teal/brown; zone shift at about 55%), "Snowball." (items 9-11, blinding white with dark-navy shadows). A small "FROZEN" globe icon next to the death counter whitens a little at every item, fully white at items 9-11. The time machine dial shows each date; frost builds on it each item. The boss is the oldest and most extreme: possibly the first time the whole planet froze, caused by life itself. -->
-<!-- Episode 007: Every Time Earth Froze. Draft 1 (2026-10-05, script writer). Death counter on screen at 56 from the first shot, ends at 65: nine deaths over eleven items. Survivals: item 2 Frost Fairs ("Doug is fine.") and item 10 Sturtian (narrator quietly disappointed). "Doug did not agree to this." once, in the opener. Befriending: Dryas flower (4), Meganeura (8), algae (10, pays off in 11). Cap survives: items 1, 3, 6, 7 and the final image. Callbacks: one line to 004 (item 7), one line to 003's Gondwana (item 8). No costume, suitcase, LIVE feed, pigeon or Buddy. Real victims (1816 famine, Storegga coasts) get one plain line each and no jokes. The Younger Dryas impact hypothesis is skipped, not mentioned. -->
-<!-- Proposed final image (for CD approval): the time machine returns to 2026 as a block of ice with the cap frozen on top, cracks open, and Doug gives a thumbs_up from inside (existing pose). Not 003's "cap as a fossil". -->
+<!-- Episode 007: Every Time Earth Froze. Draft 2 (2026-10-05, script writer; fixes F1-F4, rules 7 and 14, bible 3.5, plus all recommended fixes from script_review.md). Death counter on screen at 56 from the first shot, ends at 65: nine deaths over eleven items. Survivals: item 2 Frost Fairs ("Doug is fine.") and item 10 Sturtian (narrator quietly disappointed). "Doug did not agree to this." once, in the opener. Befriending: Dryas flower (4), Meganeura (8), algae (10, pays off in 11). Cap survives: items 1, 3, 6, 7 and the final image. Callbacks: one line to 004 (item 7), one line to 003's Gondwana (item 8). No costume, suitcase, LIVE feed, pigeon or Buddy. Real victims (1816 famine, Storegga coasts) get one plain line each and no jokes. The Younger Dryas impact hypothesis is skipped, not mentioned. -->
+<!-- Final image APPROVED by CD 2026-10-05 (see decisions.md): the time machine returns to 2026 as a block of ice with the cap frozen on top, cracks open, and Doug gives a thumbs_up from inside (existing pose). Not 003's "cap as a fossil". -->
 <!-- Pronunciation checks for the editor (preview with `narrate`): Tambora = "tam-BOR-uh"; Sumbawa = "soom-BAH-wuh"; Storegga = "STOR-egg-uh"; Dryas octopetala = "DRY-us ok-toh-PET-uh-luh"; Missoula = "mih-ZOO-luh"; Bretz = "BRETS"; Laurentide = "LOR-en-tide"; Eocene = "EE-oh-seen"; Oligocene = "OL-ig-oh-seen"; Gondwana = "gond-WAH-nuh"; Karoo = "kuh-ROO"; Meganeura = "meg-uh-NOOR-uh"; Marinoan = "muh-RIN-oh-un"; Sturtian = "STER-tee-un"; Kirschvink = "KURSH-vink"; Huronian = "hyoo-ROH-nee-un"; chloroplasts = "KLOR-oh-plasts". -->
 
 [Open on the thumbnail column, 1.5 to 4 seconds. Cut to a flat grey field. The time machine stands in it, Doug inside holding a folded deck chair. Dial reads "1816". DOUG DEATHS: 56 already on screen, the FROZEN globe icon beside it with a tiny white speck.]
 
-Earth has frozen over again and again. Doug is visiting every time, from one bad summer to a planet gone completely white.
+Earth has frozen over many times. Doug is visiting every one of them, from one bad summer to a planet gone white.
 
 Doug did not agree to this.
 
@@ -75,11 +75,11 @@ Old London Bridge stood on nineteen closely spaced arches that slowed the water 
 
 [Doug at the printing stall. The card reads "DOUG, PRINTED ON THE THAMES". Rain starts. Cracks spread across the ice.]
 
-Doug pays to have his name printed on a card, and then the wind changes, the snow turns to rain, and the ice starts to crack.
+Doug pays to have his name printed on a card. Then the snow turns to rain, and the ice cracks.
 
 [Doug leaps onto the riverbank, card in hand. The ice breaks behind him. DOUG DEATHS: 57, unchanged.]
 
-He reaches the bank with seconds to spare.
+He reaches the bank.
 
 Doug is fine.
 
@@ -109,9 +109,9 @@ About eight thousand one hundred and fifty years ago, off the coast of Norway, t
 
 [A slab of seabed slides downhill. A wave rolls out across the map.]
 
-In Shetland and Scotland, the water ran up at least five meters, and possibly several meters more. People lived along these coasts, and the wave reached them too.
+On the Scottish coast, the wave left sand up to five meters above the sea, and the real height may have been several meters more. People lived along these coasts, and the wave reached them too.
 
-However, that's not the disturbing part. The tsunami didn't finish Doggerland off, and a study in twenty twenty found that what was left of it drowned slowly, as the sea kept creeping up. The ice melting is what killed Doggerland.
+But the wave isn't what finished Doggerland. A study in twenty twenty found that what was left of it drowned slowly, as the sea kept creeping up. The ice melting is what killed Doggerland.
 
 The end of an ice age can be just as dangerous as the ice age.
 
@@ -143,7 +143,7 @@ The leading explanation starts with meltwater. As the great North American ice s
 
 Europe essentially lost its central heating, and down in Antarctica, temperatures actually went up while the north froze.
 
-The insane part is how it ended. Greenland's ice cores record a jump of about ten degrees Celsius in roughly a decade, which is about the gap between the inside of a fridge and a chilly kitchen. Layered lake mud in Europe shows the same sudden flip.
+The ending was even stranger. Greenland's ice cores record a jump of about ten degrees Celsius in roughly a decade, which is about the gap between the inside of a fridge and a chilly kitchen. Layered lake mud in Europe shows the same sudden flip.
 
 Someone could have watched the whole switch before turning twenty.
 
@@ -217,7 +217,7 @@ Around Hudson Bay, in Canada, the ground is coming up about ten millimeters a ye
 
 [Doug in a parka plants a flag on the white ice. The flag says "CHICAGO". Speech bubble: "mine".]
 
-Doug plants a flag on the ice, three kilometers above where Chicago will be, and steps back to admire it.
+Doug plants a flag on the ice above where Chicago will be, and steps back to admire it.
 
 [The ice opens. Doug drops into a crevasse. The red cap stays on the rim. DOUG DEATHS: 61]
 
@@ -235,21 +235,23 @@ Antarctica has not always been a frozen desert. About fifty-three million years 
 
 [Dial: "53 MILLION YEARS AGO". Antarctica, green, palm trees on the beach, beech trees on the hills.]
 
-Inland, the hills were covered in beech trees and conifers. Then, over millions of years, the carbon dioxide in the air slowly fell, and one study found it dropped by about forty percent in the three million years before the ice arrived.
+Inland, the hills were covered in beech trees and conifers. Then the carbon dioxide in the air slowly fell. One study found it dropped by about forty percent in the three million years before the ice arrived.
 
 Around thirty-four million years ago, at the boundary between two epochs called the Eocene and the Oligocene, Antarctica crossed a line. The prime suspect is carbon dioxide dropping below a threshold, with a wobble in Earth's orbit giving the continent summers too cold to melt the winter snow.
 
 [Dial: "34 MILLION YEARS AGO". Snow falls on the beech trees and doesn't melt.]
 
-The ocean may have played a part too, as the seaways around Antarctica opened up, but exactly how much is still argued about.
+Opening seaways around Antarctica may have helped too, though how much is still argued about.
 
 The snow stopped melting, and year after year it piled up and pressed itself into an ice sheet.
+
+The air had taken millions of years to cool, but the ice itself moved in fast. Seafloor mud from the Pacific records it arriving in two quick jumps, all within a few hundred thousand years.
 
 Today, that ice sheet is about two kilometers thick on average, which is around five Empire State Buildings stacked up. At its thickest, it reaches almost five kilometers.
 
 [Cross-section of today's ice sheet with five little Empire State Buildings stacked beside it.]
 
-What nobody tells you is that this freeze never really ended. The Antarctic ice has grown and shrunk many times since then, but the continent has stayed glaciated the whole time, so the cold that started thirty-four million years ago is still here.
+What nobody tells you is that this freeze never really ended. The ice has grown and shrunk since then, but the continent has stayed glaciated the whole time, so the cold that started thirty-four million years ago is still here.
 
 [Doug spreads a picnic blanket under a beech tree. Sandwiches, a flask. Speech bubble: "lovely".]
 
@@ -257,7 +259,7 @@ Doug spreads a picnic blanket under the beech trees. He has been to Antarctica b
 
 [Snow piles up over the blanket, the tree and Doug. Only the cap shows on top of a white mound. DOUG DEATHS: 62]
 
-Antarctica took millions of years to freeze, and it has not thawed out since.
+The air took millions of years to cool. The ice moved in fast, and it never left.
 
 ## The Karoo Ice Age
 
@@ -303,7 +305,7 @@ Around six hundred and forty million years ago, long before the first big animal
 
 [Dial: "640 MILLION YEARS AGO". The FROZEN globe is completely white.]
 
-The clue is in the rocks. Glacial deposits from this time turn up in places that sat close to the equator back then, within about ten degrees of it, which is like glaciers reaching the sea at Singapore.
+The clue is in the rocks. Glacial deposits from this time turn up in places that sat close to the equator back then, within about ten degrees of it, which is like glaciers reaching the sea in Costa Rica.
 
 In nineteen ninety-two, the geologist Joseph Kirschvink gave the idea its name: Snowball Earth.
 
@@ -311,7 +313,7 @@ In nineteen ninety-two, the geologist Joseph Kirschvink gave the idea its name: 
 
 Once enough of the planet is covered in ice, the ice reflects sunlight back into space, which makes it colder, which makes more ice. Scientists still argue about whether the oceans froze over completely, or whether a slushy band of open water survived near the equator.
 
-Here's where it gets worse. The way out was volcanoes.
+The escape route was volcanoes.
 
 With the planet frozen, rain and the weathering of rock almost stopped, so nothing was pulling carbon dioxide out of the air, and the volcanoes kept breathing it out anyway.
 
@@ -333,11 +335,11 @@ The volcanoes rescued the planet. They were not gentle about it.
 
 The Sturtian Snowball.
 
-The last freeze sounded bad, but this one came first, and it went on far longer.
+Fifty-seven million years of ice sounds like plenty of time to get used to it.
 
 [Dial: "717 MILLION YEARS AGO". White globe, colder blue shadows. Frost thick on the time machine.]
 
-Most dates put it at about seven hundred and seventeen to six hundred and sixty million years ago, which is about fifty-seven million years. The dinosaurs died out sixty-six million years ago, so this freeze lasted almost as long as all the time since then.
+Most dates put it at about seven hundred and seventeen to six hundred and sixty million years ago, which is where that fifty-seven million comes from. The dinosaurs died out sixty-six million years ago, so this freeze lasted almost as long as all the time since then.
 
 [Timeline: a long white bar labelled "STURTIAN" next to a slightly longer bar labelled "SINCE THE DINOSAURS".]
 
@@ -369,7 +371,7 @@ The First Snowball.
 
 Go back about two point four billion years, more than half of Earth's history, and the planet doesn't look like home. There are no plants, no animals and almost no oxygen.
 
-[Dial: "2,400,000,000 YEARS AGO". An orange-brown hazy sky over a bare rocky coast. FROZEN globe: dark, almost no white.]
+[Dial: "2,400,000,000 YEARS AGO". An orange-brown hazy sky over a bare rocky coast. Big scene globe in the corner of the shot: dark, almost no white. The corner FROZEN meter stays fully white (it never goes backwards).]
 
 If Earth's whole history were squeezed into a single day, this would be a little after eleven in the morning.
 
@@ -377,7 +379,7 @@ What the planet did have was methane, a much stronger greenhouse gas than carbon
 
 [Green-blue scum in the shallows, tiny bubbles labelled "O2" rising out of it.]
 
-Oxygen had been rare, but now it started building up in the air, in what scientists call the Great Oxidation Event.
+Oxygen started building up in the air, in what scientists call the Great Oxidation Event.
 
 Here's the disturbing part. Oxygen reacts with methane.
 
@@ -385,17 +387,17 @@ As the oxygen rose, it destroyed the methane, turning it into carbon dioxide and
 
 [The orange haze clears. Frost creeps in from the edges of the frame.]
 
-Earth cooled into a series of glaciations that came and went for around three hundred million years, from about two point four to two point one billion years ago. Their rocks are exposed today in Ontario, near Lake Huron, which is why they're called the Huronian glaciations.
+Earth cooled into a series of glaciations that came and went for around three hundred million years. Their rocks are exposed today in Ontario, near Lake Huron, which is why they're called the Huronian glaciations.
 
-Some geologists think at least one of them covered the whole planet, possibly the first Snowball Earth ever. Others see milder spells in between. A two thousand and five study by researchers at Caltech argued that the oxygen makers could have tipped Earth into a snowball in as little as a million years.
+Some geologists think at least one of them covered the whole planet, possibly the first Snowball Earth ever. Others see milder spells in between. A two thousand and five study by researchers at Caltech went further. It argued that the oxygen makers later tipped Earth into a full snowball, recorded in rocks in South Africa, and that it could have happened in as little as a million years.
 
-[The FROZEN globe turns fully white. Wind.]
+[The big scene globe turns fully white. Wind. The corner FROZEN meter, already full, frosts over and grows icicles: maxed out.]
 
 The worst part is who did it. No volcano. No comet. Life froze the planet.
 
 The first living things that learned to make oxygen were a disaster for everything that couldn't handle it.
 
-And the algae from the meltwater pond carries tiny green parts in every cell, called chloroplasts, which started out as cyanobacteria that an ancient cell swallowed and kept.
+And the algae from the meltwater pond carry tiny green parts in every cell, called chloroplasts, which started out as cyanobacteria that an ancient cell swallowed and kept.
 
 [The algae from the pond, with a little cyanobacterium drawn inside it. Arrow: "SAME FAMILY".]
 
@@ -407,14 +409,14 @@ Doug steps out, sees a green film on the water, and waves.
 
 [Doug frozen solid on the white shore, X eyes. DOUG DEATHS: 65]
 
-[Cut to 2026: a sunny field. The time machine thumps down as a solid block of ice, the red cap frozen on top. The ice cracks open. Inside, Doug gives a thumbs up.]
+This freeze didn't come from space or from a volcano. It came from something breathing out.
+
+[Cut to 2026: a sunny, ordinary field. Dial: "2026". The time machine thumps down as a solid block of clear ice, the red cap frozen on top. The ice cracks open, the cap drops onto Doug's head, and Doug gives a thumbs up (thumbs_up). DOUG DEATHS: 65, unchanged. Clear blue-white ice, never brown or stone: this must not read as 003's fossil.]
 
 The time machine comes home as a block of ice with a red cap frozen on top. It cracks open, and Doug gives a thumbs up. Nobody can explain this.
 
-The first great freeze didn't come from space or from a volcano. It came from something breathing out.
-
 [Final frame: Doug, thumbs up, the cracked ice around him. DOUG DEATHS: 65]
 
-Doug deaths: sixty-five. Next time, the planet heats up instead. Where should Doug go? Tell us in the comments.
+Doug deaths: sixty-five. If the planet heats up instead, where should Doug go? Tell us in the comments.
 
-<!-- words: 3111 (spoken narration only, spoken section headers included; markdown headings, comments and stage directions excluded) · est. runtime 15:57 at 195 wpm · draft 1 (2026-10-05) · item 1 name at spoken words 31-34, twist ("Here's the twist") at spoken word 86, about 26 s · "Deep time." at about 53% · 220 sentences, avg 14.1 words, max 33 · Flesch about 70 (script estimate) · outro 19 words · items incl. the header that precedes the next item: Year Without a Summer 268, Frost Fairs 295 incl. "Ice age.", Doggerland 271, Younger Dryas 254, Missoula Floods 271, Last Glacial Maximum 261 incl. "Deep time.", Antarctica Freezes 265, Karoo Ice Age 273 incl. "Snowball.", Marinoan 269, Sturtian 261, First Snowball 374 + outro 19 · opener 30 incl. "Cold snaps." -->
+<!-- words: 3113 (spoken narration only, spoken section headers included; markdown headings, comments and stage directions excluded) · est. runtime 15:58 at 195 wpm · draft 2 + CD edits (2026-10-05) · item 1 name at spoken words 31-34, twist ("Here's the twist") at spoken word 86, about 27 s · "Deep time." at about 53% · 224 sentences, avg 13.9 words, max 33 · outro 18 words · items incl. the header that precedes the next item: Year Without a Summer 267, Frost Fairs 285 incl. "Ice age.", Doggerland 273, Younger Dryas 252, Missoula Floods 271, Last Glacial Maximum 259 incl. "Deep time.", Antarctica Freezes 287, Karoo Ice Age 273 incl. "Snowball.", Marinoan 265, Sturtian 262, First Snowball 371 + outro 18 · opener 30 incl. "Cold snaps." -->

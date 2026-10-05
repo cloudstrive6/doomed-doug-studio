@@ -41,6 +41,8 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
   how Doug reaches deep time and the standard vehicle for the `prehistoric` playlist. Never explained, never
   breaks down on purpose; Doug steps out hopeful, the door opens onto the danger. It always survives (003 ends with a
   pigeon sitting on its roof). Do not use it outside time-travel episodes.
+  007 (script approved, pending QC): it comes home to 2026 as a block of clear ice with the cap frozen on top, cracks open,
+  and Doug gives a thumbs up inside (the counter does not go down). Use this ice-block return once; don't repeat it.
 - **Doug's suitcase** (from 004): a battered MS Paint suitcase that is the standard prop of the `places` playlist,
   the way the time machine belongs to `prehistoric`. Doug carries it into the opener with no stickers on it. Every time he
   dies at a place, a crude travel sticker with the place's name (for example "DEATH VALLEY") lands on it. Survivals get

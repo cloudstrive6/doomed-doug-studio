@@ -12,6 +12,9 @@ re-open these if possible.
 
 ## Flagged items from the brief (status)
 - **Younger Dryas impact hypothesis:** skipped entirely, not mentioned.
+- **Draft 2 (2026-10-05):** fixes F1-F4 from script_review.md (Chicago ice thickness removed; Antarctica fast ice
+  formation sourced to Coxall et al. 2005; Kopp 2005 attributed to the South African Makganyene snowball; Storegga
+  run-up worded as "up to five meters"); Singapore analogy replaced with Costa Rica.
 - **Huronian "global?":** hedged as "some geologists think at least one of them covered the whole planet, possibly the
   first Snowball Earth ever. Others see milder spells in between." Kopp et al. 2005 place their global snowball (the
   Makganyene, about 2.3-2.2 Ga) slightly after the Huronian glaciations; the script never claims the Huronian ice itself
@@ -82,8 +85,10 @@ re-open these if possible.
   University of Bradford (verified: land bridge; "people once actually lived on what is now the bottom of the North Sea";
   shrinking to archipelago and island) https://www.bradford.ac.uk/news/archive/2025/final-days-of-doggerland-interactive-map-and-animation.php
 - 120 m about a forty-story building: arithmetic, about 3 m per storey.
-- Storegga Slide about 8,150 years ago, 3,200 km³ of sediment, tsunami; run-up up to 5 m in Shetland and Scotland and
-  possibly metres higher; Doggerland reduced to a sandbank by then; final inundation by sea-level rise, not the tsunami:
+- Storegga Slide about 8,150 years ago, 3,200 km³ of sediment, tsunami; on the Scottish mainland coast tsunami sand
+  deposits give run-up heights "up to 5 m", which are minimum estimates that "may actually have been metres higher"
+  (script, draft 2: "On the Scottish coast, the wave left sand up to five meters above the sea, and the real height may
+  have been several meters more"; no Shetland figure used); Doggerland reduced to a sandbank by then; final inundation by sea-level rise, not the tsunami:
   Walker et al. 2020, *Antiquity* (verified)
   https://www.cambridge.org/core/journals/antiquity/article/great-wave-the-storegga-tsunami-and-the-end-of-doggerland/CB2E132445086D868BF508041CC1B827
 - Landslide "roughly the size of Scotland": University of Bradford (verified, link above).
@@ -122,7 +127,10 @@ re-open these if possible.
   10 mm a year, about 1 m per century: NASA Earth Observatory (verified)
   https://science.nasa.gov/earth/earth-observatory/contours-of-the-james-bay-lowlands/
 - Laurentide maximum about 3 km thick, reached the northeastern US: National Geographic Education (verified)
-  https://education.nationalgeographic.org/resource/ice-sheet/
+  https://education.nationalgeographic.org/resource/ice-sheet/ . The 3 km is the sheet's maximum (near Hudson Bay), not
+  its southern margin; draft 2 gives no thickness over Chicago ("Doug plants a flag on the ice above where Chicago will
+  be"). For reference only, Illinois DNR puts northern Illinois ice at about 2,000 ft (about 600 m):
+  https://dnr.illinois.gov/content/dam/soi/en/web/dnr/education/documents/onlineintroillinoisnatres-5-6-.pdf (search snippet).
 - Lake Michigan lobe extended into northeastern Illinois at the maximum: npj Climate and Atmospheric Science 2024
   https://www.nature.com/articles/s41612-024-00760-9 (search snippet); https://en.wikipedia.org/wiki/Lake_Chicago
 - Sea level about 120 m lower: USGS fact sheet (above).
@@ -144,6 +152,16 @@ re-open these if possible.
 - CO2 threshold and the gateway debate: DeConto & Pollard 2003, *Nature* 421:245; UNH/ScienceDaily 2014 "Antarctic ice
   sheet is result of carbon dioxide decrease, not continental breakup" https://www.sciencedaily.com/releases/2014/07/140730141020.htm
   (search snippet); Smithsonian (above) names the Antarctic Circumpolar Current as a major reason it stays cold.
+- The ice sheet itself formed fast after the slow CO2 decline: two rapid steps of about 40,000 years each separated by a
+  plateau of about 200,000 years, recorded in equatorial Pacific deep-sea sediments (oxygen isotopes and calcite
+  compensation depth); ice-free to continental-scale ice in under about 400,000 years: Coxall, Wilson, Pälike, Lear &
+  Backman 2005, *Nature* 433:53, "Rapid stepwise onset of Antarctic glaciation and deeper calcite compensation in the
+  Pacific Ocean" (verified, PDF text: "in two steps (~40 kyr each) separated by an intermediate plateau (~200 kyr)";
+  "synchronous with the stepwise onset of Antarctic ice-sheet growth")
+  https://pangea.stanford.edu/research/Oceans/GES206/readings/Coxall.etal.2005.pdf ; https://www.nature.com/articles/nature03135 .
+  Script, draft 2: "The air had taken millions of years to cool, but the ice itself moved in fast. Seafloor mud from the
+  Pacific records it arriving in two quick jumps, all within a few hundred thousand years." Kicker: "The air took
+  millions of years to cool. The ice moved in fast, and it never left."
 - Ice grew and shrank since but the continent stayed glaciated: https://en.wikipedia.org/wiki/East_Antarctic_Ice_Sheet
   (search snippet: "the Antarctic has apparently been continuously glaciated ever since the EOT"; "likely diminished in the Miocene").
 - Average thickness about 2 km, thickest about 4.8 km: National Geographic Education (verified, above).
@@ -181,7 +199,8 @@ re-open these if possible.
 - Glacial sediments deposited within about 10 degrees of the equator (paleomagnetism); Kirschvink coined "Snowball Earth"
   in 1992: Kirschvink 1992 https://www.semanticscholar.org/paper/Late-Proterozoic-low-latitude-global-glaciation:-Kirschvink/20ec3d2322e63638d56ccb73ab50255c5ffd55e4 ;
   https://en.wikipedia.org/wiki/Snowball_Earth (search snippets).
-- Singapore at about 1°N: common geography.
+- Costa Rica spans roughly 8-11°N, so "glaciers reaching the sea in Costa Rica" matches "within about 10 degrees of the
+  equator": common geography (draft 2 replaces Singapore, about 1°N).
 - Ice-albedo feedback; Snowball vs Slushball debate; weathering shuts down under ice: Hoffman & Schrag 2002, *Terra Nova*
   14:129 https://www.researchgate.net/publication/227536827 ; Scientific American, Hoffman & Schrag "Snowball Earth"
   https://www.scientificamerican.com/article/snowball-earth/ (search snippets); Dartmouth DUJS
@@ -216,7 +235,9 @@ re-open these if possible.
   glaciations: https://en.wikipedia.org/wiki/Huronian_glaciation (verified); Kopp et al. 2005, *PNAS* 102:11131
   https://www.pnas.org/doi/10.1073/pnas.0504878102 (search snippet: "the evolution of cyanobacteria destroyed a methane
   greenhouse and thereby directly and rapidly triggered a planetary-scale glaciation"; "on timescales as short as 1 million
-  years"; authors at Caltech incl. Kirschvink).
+  years"; authors at Caltech incl. Kirschvink). Kopp et al. place this snowball in the Makganyene glaciation of South
+  Africa (about 2.3-2.2 Ga), after the Huronian glaciations, which they say predate it. Draft 2 attributes it to "a
+  full snowball, recorded in rocks in South Africa", introduced with "later", and no longer to the Huronian ice.
 - Huronian glaciations about 2.4 to 2.1 Ga, about 300 million years, at least three ice ages; Gowganda Formation near Lake
   Huron, Ontario; debate whether global (low-latitude palaeomagnetic evidence vs discontinuous diamictites indicating
   temperate spells); GOE devastating for anaerobic organisms: Wikipedia Huronian glaciation (verified, above).

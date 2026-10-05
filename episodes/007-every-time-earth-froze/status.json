@@ -9,7 +9,17 @@
       "stage": "scripted",
       "at": "2026-10-05T05:20:25+00:00",
       "note": "draft 1"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-10-05T05:26:32+00:00",
+      "note": "draft 2"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-05T05:29:27+00:00",
+      "note": "CD approved draft 2 + 4 minor CD edits; ice-block closing image and monotonic FROZEN meter approved (see decisions.md)"
     }
   ],
-  "stage": "scripted"
+  "stage": "script_approved"
 }
