@@ -1737,7 +1737,7 @@
       "type": "text",
       "text": "YEAR WITHOUT A SUMMER",
       "x": 960,
-      "y": 300,
+      "y": 960,
       "size": 100,
       "color": "#e0201b",
       "outline": "#000000",
@@ -4965,7 +4965,7 @@
       "type": "label",
       "text": "LAKE GENEVA",
       "x": 560,
-      "y": 560,
+      "y": 330,
       "size": 52,
       "bold": true,
       "boil": 0.4,
@@ -7691,7 +7691,7 @@
       "type": "text",
       "text": "FROST FAIRS",
       "x": 960,
-      "y": 300,
+      "y": 900,
       "size": 120,
       "color": "#e0201b",
       "outline": "#000000",
@@ -8143,7 +8143,7 @@
      {
       "type": "label",
       "text": "1600s TO 1800s",
-      "x": 600,
+      "x": 700,
       "y": 330,
       "size": 52,
       "bold": true,
@@ -8340,20 +8340,20 @@
       "smooth": true
      },
      {
-      "type": "label",
-      "text": "-0.5 °C",
-      "x": 1150,
-      "y": 600,
-      "size": 40,
-      "bold": true,
-      "boil": 0.4
-     },
-     {
       "type": "asset",
       "name": "thermometer",
       "x": 1150,
       "y": 600,
       "scale": 1.0
+     },
+     {
+      "type": "label",
+      "text": "-0.5 °C",
+      "x": 1400,
+      "y": 600,
+      "size": 48,
+      "bold": true,
+      "boil": 0.4
      },
      {
       "type": "doug",
@@ -8768,7 +8768,7 @@
      {
       "type": "label",
       "text": "ABOUT 2 MONTHS",
-      "x": 1250,
+      "x": 1050,
       "y": 640,
       "size": 52,
       "bold": true,
@@ -12354,7 +12354,7 @@
       "type": "text",
       "text": "DOGGERLAND",
       "x": 960,
-      "y": 300,
+      "y": 940,
       "size": 120,
       "color": "#e0201b",
       "outline": "#000000",
@@ -13153,8 +13153,8 @@
      {
       "type": "label",
       "text": "DRY LAND",
-      "x": 960,
-      "y": 645,
+      "x": 1110,
+      "y": 555,
       "size": 48,
       "bold": true,
       "boil": 0.4,
@@ -13879,7 +13879,7 @@
      {
       "type": "label",
       "text": "SCOTLAND",
-      "x": 1450,
+      "x": 1180,
       "y": 300,
       "size": 52,
       "bold": true,
@@ -15720,7 +15720,7 @@
       "type": "text",
       "text": "THE YOUNGER DRYAS",
       "x": 960,
-      "y": 280,
+      "y": 950,
       "size": 110,
       "color": "#e0201b",
       "outline": "#000000",
@@ -20209,8 +20209,8 @@
      {
       "type": "label",
       "text": "YOUNGER DRYAS",
-      "x": 1350,
-      "y": 620,
+      "x": 1450,
+      "y": 480,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -20547,48 +20547,48 @@
      {
       "type": "asset",
       "name": "time_machine",
-      "x": 440,
-      "y": 420,
-      "scale": 0.5
+      "x": 1680,
+      "y": 848,
+      "scale": 0.7
      },
      {
       "type": "doug",
-      "x": 440,
-      "y": 355.0,
-      "scale": 0.375,
+      "x": 1680,
+      "y": 760.2,
+      "scale": 0.5249999999999999,
       "pose": "stand",
       "expression": "hopeful",
       "facing": "right"
      },
      {
       "type": "spray",
-      "x": 365.0,
-      "y": 110.0,
-      "r": 51.599999999999994,
+      "x": 1575.0,
+      "y": 414.0,
+      "r": 72.23999999999998,
       "color": "#ffffff",
       "density": 0.188
      },
      {
       "type": "spray",
-      "x": 515.0,
-      "y": 110.0,
-      "r": 51.599999999999994,
+      "x": 1785.0,
+      "y": 414.0,
+      "r": 72.23999999999998,
       "color": "#ffffff",
       "density": 0.188
      },
      {
       "type": "spray",
-      "x": 360.0,
-      "y": 390.0,
-      "r": 44.8,
+      "x": 1568.0,
+      "y": 806.0,
+      "r": 62.71999999999999,
       "color": "#ffffff",
       "density": 0.188
      },
      {
       "type": "label",
       "text": "15,000 YEARS AGO",
-      "x": 440,
-      "y": 70.0,
+      "x": 1680,
+      "y": 358.00000000000006,
       "size": 40,
       "bold": true,
       "boil": 0.4,
@@ -20598,7 +20598,7 @@
       "type": "text",
       "text": "THE MISSOULA FLOODS",
       "x": 960,
-      "y": 220,
+      "y": 970,
       "size": 110,
       "color": "#e0201b",
       "outline": "#000000",
@@ -25396,7 +25396,7 @@
       "type": "text",
       "text": "THE LAST GLACIAL MAXIMUM",
       "x": 960,
-      "y": 280,
+      "y": 950,
       "size": 96,
       "color": "#e0201b",
       "outline": "#000000",
@@ -26454,8 +26454,8 @@
      {
       "type": "label",
       "text": "DOGGERLAND",
-      "x": 960,
-      "y": 663,
+      "x": 1130,
+      "y": 573,
       "size": 48,
       "bold": true,
       "boil": 0.4,
@@ -27092,7 +27092,7 @@
       "type": "label",
       "text": "EVERY CENTURY",
       "x": 600,
-      "y": 300,
+      "y": 200,
       "size": 52,
       "bold": true,
       "boil": 0.4,
@@ -27101,8 +27101,8 @@
      {
       "type": "wordart",
       "text": "KITCHEN COUNTER",
-      "x": 1200,
-      "y": 330,
+      "x": 1250,
+      "y": 380,
       "size": 76,
       "boil": 0,
       "appear": 0.867
@@ -27176,8 +27176,8 @@
      {
       "type": "label",
       "text": "7,500 YEARS AGO",
-      "x": 960,
-      "y": 180,
+      "x": 1200,
+      "y": 200,
       "size": 52,
       "bold": true,
       "boil": 0.4,
@@ -27256,7 +27256,7 @@
      {
       "type": "doug",
       "x": 700,
-      "y": 220,
+      "y": 248,
       "scale": 0.25,
       "pose": "stand",
       "expression": "shock",
@@ -27411,7 +27411,7 @@
      {
       "type": "doug",
       "x": 700,
-      "y": 220,
+      "y": 248,
       "scale": 0.25,
       "pose": "stand",
       "expression": "confused",
@@ -27510,11 +27510,11 @@
       "type": "line",
       "points": [
        [
-        980,
+        800,
         830
        ],
        [
-        980,
+        800,
         500
        ]
       ],
@@ -27524,7 +27524,7 @@
      },
      {
       "type": "rect",
-      "x": 980,
+      "x": 800,
       "y": 500,
       "w": 230,
       "h": 120,
@@ -27535,7 +27535,7 @@
      {
       "type": "text",
       "text": "CHICAGO",
-      "x": 1095,
+      "x": 915,
       "y": 560,
       "size": 40,
       "color": "#000000",
@@ -27869,11 +27869,11 @@
       "type": "line",
       "points": [
        [
-        980,
+        800,
         830
        ],
        [
-        980,
+        800,
         500
        ]
       ],
@@ -27882,7 +27882,7 @@
      },
      {
       "type": "rect",
-      "x": 980,
+      "x": 800,
       "y": 500,
       "w": 230,
       "h": 120,
@@ -27892,7 +27892,7 @@
      {
       "type": "text",
       "text": "CHICAGO",
-      "x": 1095,
+      "x": 915,
       "y": 560,
       "size": 40,
       "color": "#000000",
@@ -28018,11 +28018,11 @@
       "type": "line",
       "points": [
        [
-        980,
+        800,
         830
        ],
        [
-        980,
+        800,
         500
        ]
       ],
@@ -28031,7 +28031,7 @@
      },
      {
       "type": "rect",
-      "x": 980,
+      "x": 800,
       "y": 500,
       "w": 230,
       "h": 120,
@@ -28041,7 +28041,7 @@
      {
       "type": "text",
       "text": "CHICAGO",
-      "x": 1095,
+      "x": 915,
       "y": 560,
       "size": 40,
       "color": "#000000",
@@ -28389,11 +28389,11 @@
       "type": "line",
       "points": [
        [
-        980,
+        800,
         830
        ],
        [
-        980,
+        800,
         500
        ]
       ],
@@ -28402,7 +28402,7 @@
      },
      {
       "type": "rect",
-      "x": 980,
+      "x": 800,
       "y": 500,
       "w": 230,
       "h": 120,
@@ -28412,7 +28412,7 @@
      {
       "type": "text",
       "text": "CHICAGO",
-      "x": 1095,
+      "x": 915,
       "y": 560,
       "size": 40,
       "color": "#000000",
@@ -29156,7 +29156,7 @@
       "type": "text",
       "text": "ANTARCTICA FREEZES",
       "x": 960,
-      "y": 230,
+      "y": 950,
       "size": 110,
       "color": "#e0201b",
       "outline": "#000000",
@@ -33639,7 +33639,7 @@
       "type": "text",
       "text": "THE KAROO ICE AGE",
       "x": 960,
-      "y": 280,
+      "y": 950,
       "size": 110,
       "color": "#e0201b",
       "outline": "#000000",
@@ -34689,8 +34689,8 @@
      {
       "type": "wordart",
       "text": "JUNGLE",
-      "x": 960,
-      "y": 380,
+      "x": 1400,
+      "y": 400,
       "size": 110,
       "boil": 0,
       "appear": 0.875
@@ -34818,8 +34818,8 @@
      {
       "type": "wordart",
       "text": "MORE OXYGEN",
-      "x": 1300,
-      "y": 380,
+      "x": 1460,
+      "y": 540,
       "size": 84,
       "boil": 0,
       "appear": 0.75
@@ -35121,7 +35121,7 @@
      {
       "type": "asset",
       "name": "front_door",
-      "x": 1450,
+      "x": 1390,
       "y": 790,
       "scale": 1.1,
       "appear": 0.778
@@ -35129,7 +35129,7 @@
      {
       "type": "wordart",
       "text": "FRONT DOOR",
-      "x": 1000,
+      "x": 860,
       "y": 200,
       "size": 96,
       "boil": 0,
@@ -35212,9 +35212,9 @@
      {
       "type": "asset",
       "name": "exclamation_mark",
-      "x": 960,
-      "y": 300,
-      "scale": 0.7,
+      "x": 1180,
+      "y": 460,
+      "scale": 0.6,
       "appear": 0.182
      },
      {
@@ -35559,8 +35559,8 @@
      {
       "type": "wordart",
       "text": "FREEZE THE PLANET",
-      "x": 760,
-      "y": 380,
+      "x": 880,
+      "y": 240,
       "size": 80,
       "boil": 0,
       "appear": 0.727
@@ -38825,7 +38825,7 @@
       "type": "text",
       "text": "THE MARINOAN SNOWBALL",
       "x": 960,
-      "y": 280,
+      "y": 950,
       "size": 104,
       "color": "#e0201b",
       "outline": "#000000",
@@ -39706,8 +39706,8 @@
      {
       "type": "wordart",
       "text": "IMPOSSIBLE",
-      "x": 900,
-      "y": 140,
+      "x": 1500,
+      "y": 300,
       "size": 96,
       "boil": 0,
       "appear": 0.333
@@ -40310,16 +40310,16 @@
      {
       "type": "wordart",
       "text": "SNOWBALL EARTH",
-      "x": 1300,
-      "y": 480,
+      "x": 1200,
+      "y": 400,
       "size": 90,
       "boil": 0,
       "appear": 0.857
      },
      {
       "type": "doug",
-      "x": 1500,
-      "y": 690,
+      "x": 1550,
+      "y": 720,
       "scale": 0.8,
       "pose": "stand",
       "expression": "shock",
@@ -43573,7 +43573,7 @@
       "type": "text",
       "text": "THE STURTIAN SNOWBALL",
       "x": 960,
-      "y": 280,
+      "y": 950,
       "size": 104,
       "color": "#e0201b",
       "outline": "#000000",
@@ -47137,7 +47137,7 @@
       "type": "text",
       "text": "THE FIRST SNOWBALL",
       "x": 960,
-      "y": 600,
+      "y": 960,
       "size": 110,
       "color": "#e0201b",
       "outline": "#000000",
@@ -53821,9 +53821,9 @@
      {
       "type": "wordart",
       "text": "BREATHING OUT",
-      "x": 1250,
-      "y": 330,
-      "size": 90,
+      "x": 1380,
+      "y": 420,
+      "size": 80,
       "boil": 0,
       "appear": 0.667
      }
