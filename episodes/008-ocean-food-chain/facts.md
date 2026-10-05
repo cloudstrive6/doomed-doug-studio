@@ -209,11 +209,17 @@ quoting that page; the screener should re-open these if possible.
 
 ## 9. Great White Shark
 - Seal Island, False Bay: white sharks target lone, incoming young-of-the-year Cape fur seals at or near the surface;
-  210 predatory attacks and 121 strikes on towed seal-shaped decoys recorded ("more than two hundred real attacks", "over
-  a hundred strikes on decoys"); most attacks last less than one minute; success greatest (55%) within one hour of
+  2,088 natural predations (1997-2003) and 121 strikes on towed seal-shaped decoys recorded ("more than two thousand real
+  attacks", "over a hundred strikes on decoys"; corrected in draft 3, draft 2 wrongly had 210); most attacks last less than one minute; success greatest (55%) within one hour of
   sunrise, falling with increasing light; sharks cease active predation when success drops to about 40%. Martin et al.
   2005, *J. Mar. Biol. Assoc. UK* 85: 1121-1135.
   https://www.cambridge.org/core/journals/journal-of-the-marine-biological-association-of-the-united-kingdom/article/abs/predatory-behaviour-of-white-sharks-carcharodon-carcharias-at-seal-island-south-africa/0B567A5205A431DC464BAF1686065371 (search snippet)
+  Full text (verified, read in draft 3): https://sharkresearch.earth.miami.edu/wp-content/uploads/2018/09/predatory_behaviour_of_white_sharks_carcharodon_carcharias_at_seal_island_south_africa.pdf
+  - Same paper, full text: "Mean predatory success rate was 47.3%" across all 2,088 interactions → "over a whole day, it's
+    closer to a coin toss" (contrasted with 55% in the first hour after sunrise).
+  - Same paper, Methods: attacks were detected partly by seals "switching from directional porpoising to either zigzag
+    evasive manoeuvres or head-stand subsurface scanning, with indications of a shark in pursuit" → "a seal that realizes
+    it's being chased zigzags, or does a headstand underwater to look for the shark".
 - Breaching begins at depths up to 20 m, with a 7-16 s ascent; swim speed increases up to 6.5-fold. Semmens et al. 2019,
   *Marine Biology* 166: 95. https://link.springer.com/article/10.1007/s00227-019-3542-0 (search snippet)
   - 20 m ≈ a six-story building at about 3.3 m per story (common knowledge).

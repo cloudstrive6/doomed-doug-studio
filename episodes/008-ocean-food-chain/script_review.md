@@ -1,154 +1,112 @@
-# Script review: 008 Every Step of the Ocean Food Chain (round 1)
+# Script review: 008 Every Step of the Ocean Food Chain (round 2)
 
-Screener, 2026-10-05. Reviewed against the style bible, the series bible, brief.md and facts.md (script draft 1).
+Screener, 2026-10-05. Reviewed draft 2 (commit 2c3be26) against the style bible, the series bible, brief.md and facts.md.
 
 VERDICT: FAIL
 
 | Check | Result |
 |---|---|
-| Facts | **2 errors + 1 internal contradiction** (13 claims checked on the web, see below) |
+| Facts | **1 error** (new finding; 13 claims web-checked this round, see section 1). All round-1 fact fixes are done. |
 | Hook | **9/10** |
-| Structure & pacing | **7/10** |
-| Voice & humour | **7/10** |
+| Structure & pacing | **8/10** (up from 7) |
+| Voice & humour | **8/10** (up from 7) |
 | TTS readiness | Pass |
-| Policy | Pass (1 advisory) |
-| Length | Pass: 3,049 spoken words (brief 2,900-3,400), about 15:38 at 195 wpm |
-| Script Writer rules violated (section 7) | **10, 11, 14** |
+| Policy | Pass |
+| Length | Pass: 3,016 spoken words (brief 2,900-3,400), about 15:28 at 195 wpm |
+| Script Writer rules violated (section 7) | **11** (one sourcing error, fix 1) |
 
-## Required fixes (all of these must be done for a PASS)
+This is a one-line fix. Everything else passes, and the script will pass once fix 1 is done. It does not need another full round.
 
-1. **Fact error: Iberian orca numbers (line 403).** "a small group of orcas, around forty animals in total, has been
-   approaching sailboats". Around 40 is the size of the whole critically endangered Iberian population. Only about 15
-   identified individuals take part in the rudder interactions (AWI Quarterly, winter 2023; National Geographic; Wikipedia,
-   "Iberian orca attacks"). Change it to something like "a few orcas from a population of only around forty", or name
-   about fifteen. Add the source to facts.md.
-2. **Fact error: sperm whale kicker (line 379).** "it exists for one animal." The marguerite is also documented against
-   pilot whales (for example a pod of 50-60 pilot whales charging a sperm whale group; Baleines en direct, "Predation and
-   defence" / "Do sperm whales have any predators?"). Replace it with a kicker that hands off to the orca without claiming
-   exclusivity, for example "the animal it's built for" changed to "its most famous use is against the next animal on
-   this list". The new claim must match Pitman et al. 2001.
-3. **Internal contradiction: the "No predators." header (line 341) sits on top of the Sperm Whale.** The same item then
-   explains the whale's defence against killer whales (line 371), and the kicker says the formation exists because of a
-   predator. Viewers will point this out. The header comes from the brief, so the creative director must approve the change.
-   Either (a) rename the header (two words or fewer, for example "Giants." or "The top.") and update the axis comment on
-   line 1, or (b) move "No predators." so that it comes right before "Orca." and give the sperm whale's band a different
-   header.
-4. **Rule 14 (phrase lifted from a competitor): line 151.** "The insane part is what happens to the ones still in the air."
-   "The insane part is" is one of Paint Explainer's own twist markers, word for word (style bible 3.3). Write an original
-   marker. Do not reuse "strange part" either, because that phrase already appears three times (lines 221, 325 and 405).
-5. **Item lengths (style bible 3.6 / brief section 6, items 2-9 about 240-280 words).**
-   - Giant Moray is 296 words. It is over both the brief and the bible's maximum of 290 for any stop. Cut at least 16 words.
-     Line 73 is a good place to cut ("It works a bit like a tape measure snapping back into its case."), because the stage
-     direction on line 71 already shows the analogy and the bed already gives the item its scale analogy. Another option is
-     to trim the attribution on line 69.
-   - Giant Trevally is 291 words. Cut at least 11 words, for example "in the Indian Ocean" on line 145 and some of line 141.
-6. **Rule 10 (joke density): Goliath Grouper.** It has about 77 seconds of narration and four joke lines: "a sofa that learned
-   to frown" (173), "for the first time in this video, he feels dangerous" (179), "He did not keep the shark." (193) and the
-   death kicker (199). That is more than one joke per 60 seconds. Cut one of the first three.
-7. **Rule 11 (every claim sourced).** After fixes 1 and 2, facts.md must have a URL for each replacement claim.
+## Required fixes
 
-## Advisory (not blocking, but recommended)
+1. **Fact error: Seal Island attack count (line 322), and the same error in facts.md (line 212).**
+   Script: "Along with more than two hundred real attacks, they recorded over a hundred strikes on fake seals".
+   facts.md: "210 predatory attacks and 121 strikes on towed seal-shaped decoys".
+   Martin et al. 2005 (abstract on the Cambridge page, and the full-text PDF I read on sharkresearch.earth.miami.edu)
+   says: "Between 1997 and 2003, there were **2088** natural predations ... and 121 strikes on towed seal-shaped decoys".
+   The script is technically true, but it understates the real figure ten times over. It also makes the decoy strikes
+   sound like about a third of the data, when they were about 5%. The figure in facts.md is wrong.
+   - Change the line to "Along with more than two thousand real attacks, they recorded over a hundred strikes on fake
+     seals, seal-shaped decoys towed behind a boat."
+   - Correct facts.md to "2,088 natural predations (1997-2003)". Add the PDF URL:
+     https://sharkresearch.earth.miami.edu/wp-content/uploads/2018/09/predatory_behaviour_of_white_sharks_carcharodon_carcharias_at_seal_island_south_africa.pdf
 
-- **Line 155, "two hundred thirty-nine attacks".** The paper (Daly et al. 2025, read in the PDF) says "239 interactions
-  between giant trevally and sooty terns or brown noddy". 133 of those breaches had unconfirmed outcomes. "Interactions" or
-  "attack attempts" would be more accurate.
-- **Line 295, "the researchers concluded that long-distance swimming carries a serious energetic cost".** The source is
-  hedged ("may result in high energetic costs"). Use "may carry".
-- **Line 83, stage direction "both smiling. Small hearts."** Hearts are a kids-show cue, and the brief bans cute framing
-  (kid-appeal risk is medium-high). Drop the hearts. The "best friend" bubble on its own is enough.
-- **Tiger Shark** is 233 words without the "Apex." header. That is just under the 240 floor for items 5-8, which is acceptable.
-- **"No predators." comes at 79%**, but the brief says about 70%. Fix 3 may change this anyway.
-- **Salmon hat source.** orca.wa.gov (Washington State) is acceptable. Also add National Geographic's "Why these orcas are
-  wearing salmon as hats (again)" as a second source.
-- **"Doug has died. Again." appears 9 times, once per death.** This is the series gag and is acceptable. Do not add any more.
+## Round-1 fixes: verification
 
-## 1. Facts: web sample (13 claims)
+| # | Round-1 fix | Status |
+|---|---|---|
+| 1 | Iberian orcas "around forty animals in total" | **Done.** It now says "about fifteen orcas, from a population of only around forty" (line 402). Sources are in facts.md: Wikipedia, AWI, NatGeo. I re-checked this: 15 individuals (11 juveniles and 4 adult females), from a population of fewer than 40. |
+| 2 | Sperm whale "it exists for one animal" | **Done.** It now says "the animal that makes it necessary is next on this list" (line 374). There is no claim that the orca is the only predator, and the line matches Pitman 2001. Baleines en direct (re-checked) says pilot whales can trigger the formation but are "not a real threat". |
+| 3 | "No predators." header over the Sperm Whale | **Done, using option (b).** The header has moved to just before "Orca." (line 378, 87%). The sperm whale now sits in the Apex band with a silent background shift. **The creative director still has to approve this, because the brief says about 70%.** The header is now accurate. I do not block on the position. |
+| 4 | Rule 14, "The insane part is" | **Done.** It now says "Now for the impossible bit. Some birds are still flying." (line 148). "strange/strangest part" appears twice now (lines 218 and 404), down from three, and the two are not adjacent. |
+| 5 | Item lengths | **Done.** Giant Moray is 279 (the tape-measure line is cut, and the attribution is shortened to "Biologists in California"). Giant Trevally is 277. |
+| 6 | Rule 10, Goliath joke density | **Done.** "a sofa that learned to frown" is cut. Three joke lines remain in about 74 s, the same density as the other items. |
+| 7 | Rule 11, URLs for the replacement claims | **Done** for fixes 1 and 2. |
+| Adv. | "attacks" changed to "encounters" (trevally), "may carry" (polar bear), hearts removed, NatGeo salmon-hat source added | **All done.** |
+
+## 1. Facts: web sample this round (13 claims)
 
 | # | Claim (line) | Result |
 |---|---|---|
-| 1 | Mantis club 23 m/s, Berkeley, high-speed camera, saddle spring (27, 41) | OK (Patek 2004; Berkeley/EurekAlert) |
-| 2 | Glass walls of tanks (41) | OK (Berkeley release wording) |
-| 3 | Trevally: 16 days in Sept 2022, 239 events, 20 in flight, 76 on water, unique to this island, competition (155-157) | OK, but "attacks" vs "interactions" (advisory) |
-| 4 | Goliath grouper and blacktip, 2014, Bonita Springs, about 1.2 m (193) | OK (Time, NPR, Aug 2014) |
-| 5 | GPO eats sharks opportunistically (125) | OK (Monterey Bay Aquarium) |
-| 6 | Croc bite 16,414 N, all living crocodilians, 2012 (251) | OK (Erickson 2012) |
-| 7 | 27 crocs in the Kennedy River, tide timing, 590 km in 25 days (257-259) | OK (UQ / Campbell 2010) |
-| 8 | Polar bear: 2008, 687 km, 9 days, about 1,800 km more, 22% weight loss (293-295) | OK; conclusion wording is hedged in the source (advisory) |
-| 9 | White shark breach at Seal Island from up to 20 m (319) | OK (Semmens 2019, Seal Island confirmed) |
-| 10 | Farallones: sharks leave within minutes and stay away for the season (337) | OK (Jorgensen 2019) |
-| 11 | Sperm whale clicks 236 dB, directional (359) | OK (Møhl 2003) |
-| 12 | Marguerite "exists for one animal" (379) | **FAIL**: also used against pilot whales |
-| 13 | Port and Starboard, 8 carcasses, 7 livers, since 2017 (395) | OK (Towner 2022) |
-| 14 | Blue whale kill 2019, about 22 m, adult, first documented, two more by 2021 (399) | OK (Totterdell 2022; Smithsonian; NPR) |
-| 15 | Iberian orcas, "around forty animals" interacting (403) | **FAIL**: about 15 of a population of about 40 |
-| 16 | Salmon hats 1987, 2024 Puget Sound (423) | OK (J27, Oct 2024; orca.wa.gov, CNN) |
+| 1 | About 15 Iberian orcas from a population of about 40, rudders, since 2020, several sunk (402) | OK (Wikipedia; at least 5 sunk) |
+| 2 | Marguerite against killer whales, kicker wording (366, 374) | OK (Pitman 2001 via Baleines en direct) |
+| 3 | Seal Island: "more than two hundred real attacks" (322) | **FAIL**: the source says 2,088 (fix 1) |
+| 4 | Over a hundred decoy strikes (322) | OK (121) |
+| 5 | Over half of attacks succeed just after sunrise, success falls with light, they stop hunting (320) | OK (55%; they stop at about 40%) |
+| 6 | Most attacks finished in under a minute (318) | OK |
+| 7 | Breach from up to 20 m, 7-16 s ascent, up to about sixfold speed-up (316-318) | OK (Semmens 2019: 6.5-fold, so "as much as sixfold" is conservative) |
+| 8 | Tiger shark Red Sea stomach: two cans, a bottle, two burlap sacks, a squid, a fish (222) | OK (Florida Museum, Gulf of Aqaba) |
+| 9 | Shark Bay: more than 600 tiger sharks since the late 1990s; turtles and dugongs favoured (212) | OK (SBERP, since 1997) |
+| 10 | 2014, river cruise tourists photograph a saltwater croc eating a bull shark (260) | OK (Adelaide River, Aug 2014; Time, CSM, NBC) |
+| 11 | No record of an orca killing a person in the wild (408) | OK (Newsweek/Giles; all known fatalities were in captivity, which the script does not mention) |
+| 12 | Mantis strike: two force peaks less than half a millisecond apart (37) | OK (Patek & Caldwell 2005: 390-480 µs) |
+| 13 | GPO: 22 kg through about 5 cm; arm span about 5 m (92, 104) | OK (ADF&G: 50 lb, two inches, 16 ft) |
 
-The writer's surprising numbers all check out against their sources: 236 dB (the brief's 230 was corrected correctly), 16,414 N, 687 km, 590 km and 239.
+The round-1 checks (16 claims) still hold for the lines that did not change.
 
 ## 2. Opening: 9/10
-- "Mantis Shrimp." is at spoken words 32-33 (the limit is 35). There is no greeting, no channel name and no subscribe ask before it.
-- The twist ("Here's the twist. It hits twice.") ends at word 120, about 37 s. That beats the 145-word / 45 s limit and is
-  inside the brief's 25-35 s aim.
-- The route-and-stakes line plus "Doug did not agree to this." follows the bible template.
-- Rules 2 and 6 are met.
+- The first spoken line is unchanged. "Mantis Shrimp." comes at words 32-33, with no greeting, channel name or subscribe ask
+  before it.
+- The twist ends at about word 121, about 37 s.
+- Script Writer rules 1-14 all pass except **11** (fix 1).
+  - Average sentence length is 14.4 words and the longest is 34.
+  - Flesch reading ease is 71.4.
+  - "essentially" and "incredibly" are each used once.
+  - Twist markers rotate, and no marker repeats back to back.
+  - The outro is 14 words.
 
-Script Writer rules 1-14:
-- 1: pass (3,049 words).
-- 2: pass.
-- 3: pass (11 items, standalone names).
-- 4: pass.
-- 5: pass (the axis is declared).
-- 6: pass.
-- 7: pass.
-- 8: pass.
-- 9: pass (average 14.7-16.5 words, maximum 34, Flesch 71.3, a short sentence in every item).
-- 10: **fail** (Goliath).
-- 11: **fail** (two claims are not supported).
-- 12: pass (outro is 14 words).
-- 13: pass ("essentially" 1, "incredibly" 1, no repeated twist marker back to back).
-- 14: **fail** ("The insane part is").
+## 3. Structure & pacing: 8/10
+- Section headers fall at 28%, 53% and 87%.
+- Item lengths:
+  - Items 2-9 run from 234 to 279 words.
+  - The Sperm Whale is 270.
+  - The boss is 388 including the close and outro, or about 374 before the outro.
+- No item is above the bible's maximum.
+- All the running gags and both survivals are intact, and the ending follows the bible.
+- Points lost: the Great White (239) is below the bible's 260 floor for items 9-11. Fix 1 adds one word, so this is not
+  blocking.
 
-## 3. Structure & pacing: 7/10
-- Escalation runs from the reef to the apex, and the orca boss works as both a payoff and a subversion.
-- Headers:
-  - "Open water." is at 28%.
-  - "Apex." is at 53%, the midpoint zone shift.
-  - "No predators." is at 79%.
-- The running gags are all present and used as the brief asks: the costume spine, befriending (grouper, "hi friend?"),
-  "Doug is fine." at the trevally, the cap (floats, lands, ends on an orca), the boss survival with the narrator
-  disappointed, the two one-line callbacks, and the LIVE-feed close.
-- The ending follows the bible: the boss kicker, then a 14-word outro with the counter and one CTA.
-- Points lost:
-  - Two items are over length (fix 5).
-  - The "No predators." header contradicts the item under it (fix 3).
-  - The octopus twist comes after Doug's death, as a tag. That is acceptable because it acts as the kicker.
-
-## 4. Voice & humour: 7/10
-- The narrator stays deadpan and slightly sadistic throughout.
-- The best lines are adult-coded: "He did the packaging himself", "His best friend on the reef was the informant",
-  "The crocodile had checked the tide table too".
-- Reading level is within target.
-- Points lost:
-  - One phrase is lifted from Paint Explainer (fix 4).
-  - The Goliath segment is overloaded with jokes (fix 6).
-  - "strange/strangest part" is used three times as a marker.
+## 4. Voice & humour: 8/10
+- The lifted Paint Explainer marker is gone.
+- "How do scientists know all this? Partly by cheating." is original and in the narrator's voice. It is the only
+  rhetorical question, which is within the bible's 0-3.
+- The narrator stays deadpan throughout.
 
 ## 5. TTS readiness: Pass
-- There are no digits, symbols, abbreviations or parentheses in the spoken lines. All numbers are written out.
-- The pronunciation list in the header covers the hard words (Gansbaai, Farquhar, pharyngeal, Puget).
-- "seven had had their livers removed" reads a little awkwardly but is fine.
+- There are no digits, symbols or parentheses in the spoken lines.
+- The pronunciation header is unchanged.
 
 ## 6. Policy: Pass
-- **Advertiser-friendly:**
-  - Every death is off-screen or cartoon.
-  - The liver fact is one flat, clinical sentence, as the brief allows.
-  - There is no profanity, no human-attack facts and no captive orcas.
-- **Made for kids:** the tone is adult-coded. The one cute cue (the hearts, line 83) is listed in the advisories.
-- **Inauthentic content:** each item has an original mini-story and its own Doug beat. This is not a templated read-out.
-- **No medical or safety advice.**
-- **Title promise:** the working title "How Doug Would Die at Every Step..." is consistent with the format. Two survivals
-  match the series precedent.
+- Advertiser-friendly: no gore, no human-attack facts, no captive orcas, and the liver fact is one clinical sentence.
+- Not made for kids: the hearts are removed, and the tone is adult-coded.
+- The script has original narrative and commentary.
+- There is no safety or medical advice.
+- The title promise matches the precedent of two survivals.
 
 ## 7. Length: Pass
-- 3,049 spoken words, inside the brief's 2,900-3,400.
-- The boss is 374 words before the outro, inside 330-380.
+- 3,016 spoken words.
+
+## Advisory (not blocking)
+- Lines 71-72: the stage direction and "But that's not the disturbing part." have no blank line between them. Add one so
+  the director's parser keeps them separate.
+- The creative director should approve the move of "No predators." (fix 3 from round 1) at the script gate.
