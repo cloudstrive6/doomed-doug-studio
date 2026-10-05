@@ -1,0 +1,378 @@
+{
+ "name": "eiffel_tower",
+ "description": "Eiffel Tower, bold crude bronze-brown (#8a5a3a) lattice: four legs with an open arch, two dark platforms, tapering upper shaft, top deck and spire. Anchor bottom-centre; EXACTLY 512 tall (spire tip at y=-512), 300 wide at the base, so copies stack end to end like empire_state_building (used at scale ~0.155).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "building",
+  "landmark",
+  "scale",
+  "france"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     0
+    ],
+    [
+     -92,
+     0
+    ],
+    [
+     -78,
+     -28
+    ],
+    [
+     -50,
+     -48
+    ],
+    [
+     0,
+     -56
+    ],
+    [
+     50,
+     -48
+    ],
+    [
+     78,
+     -28
+    ],
+    [
+     92,
+     0
+    ],
+    [
+     150,
+     0
+    ],
+    [
+     110,
+     -50
+    ],
+    [
+     74,
+     -88
+    ],
+    [
+     -74,
+     -88
+    ],
+    [
+     -110,
+     -50
+    ]
+   ],
+   "width": 5,
+   "fill": "#8a5a3a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -136,
+     -6
+    ],
+    [
+     -90,
+     -70
+    ]
+   ],
+   "width": 4,
+   "color": "#5e3a22"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -104,
+     -6
+    ],
+    [
+     -120,
+     -40
+    ]
+   ],
+   "width": 4,
+   "color": "#5e3a22"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     136,
+     -6
+    ],
+    [
+     90,
+     -70
+    ]
+   ],
+   "width": 4,
+   "color": "#5e3a22"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     104,
+     -6
+    ],
+    [
+     120,
+     -40
+    ]
+   ],
+   "width": 4,
+   "color": "#5e3a22"
+  },
+  {
+   "type": "rect",
+   "x": -84,
+   "y": -100,
+   "w": 168,
+   "h": 14,
+   "width": 4,
+   "fill": "#5e3a22"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -66,
+     -100
+    ],
+    [
+     66,
+     -100
+    ],
+    [
+     40,
+     -178
+    ],
+    [
+     -40,
+     -178
+    ]
+   ],
+   "width": 5,
+   "fill": "#8a5a3a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -104
+    ],
+    [
+     36,
+     -174
+    ]
+   ],
+   "width": 4,
+   "color": "#5e3a22"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -104
+    ],
+    [
+     -36,
+     -174
+    ]
+   ],
+   "width": 4,
+   "color": "#5e3a22"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -100
+    ],
+    [
+     30,
+     -100
+    ],
+    [
+     0,
+     -130
+    ]
+   ],
+   "width": 3,
+   "fill": "#f4ead8"
+  },
+  {
+   "type": "rect",
+   "x": -50,
+   "y": -190,
+   "w": 100,
+   "h": 12,
+   "width": 4,
+   "fill": "#5e3a22"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -34,
+     -190
+    ],
+    [
+     34,
+     -190
+    ],
+    [
+     10,
+     -428
+    ],
+    [
+     -10,
+     -428
+    ]
+   ],
+   "width": 5,
+   "fill": "#8a5a3a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -29.8,
+     -192
+    ],
+    [
+     23.0,
+     -260
+    ]
+   ],
+   "width": 3,
+   "color": "#5e3a22"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     29.8,
+     -192
+    ],
+    [
+     -23.0,
+     -260
+    ]
+   ],
+   "width": 3,
+   "color": "#5e3a22"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -23.0,
+     -260
+    ],
+    [
+     16.0,
+     -330
+    ]
+   ],
+   "width": 3,
+   "color": "#5e3a22"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     23.0,
+     -260
+    ],
+    [
+     -16.0,
+     -330
+    ]
+   ],
+   "width": 3,
+   "color": "#5e3a22"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -16.0,
+     -330
+    ],
+    [
+     9.0,
+     -400
+    ]
+   ],
+   "width": 3,
+   "color": "#5e3a22"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     16.0,
+     -330
+    ],
+    [
+     -9.0,
+     -400
+    ]
+   ],
+   "width": 3,
+   "color": "#5e3a22"
+  },
+  {
+   "type": "rect",
+   "x": -16,
+   "y": -444,
+   "w": 32,
+   "h": 16,
+   "width": 4,
+   "fill": "#5e3a22"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -8,
+     -444
+    ],
+    [
+     8,
+     -444
+    ],
+    [
+     2,
+     -512
+    ],
+    [
+     -2,
+     -512
+    ]
+   ],
+   "width": 3,
+   "fill": "#8a5a3a"
+  },
+  {
+   "type": "spray",
+   "x": -60,
+   "y": -60,
+   "r": 26,
+   "color": "#a87452",
+   "density": 0.2
+  }
+ ]
+}

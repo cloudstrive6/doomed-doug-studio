@@ -1,0 +1,241 @@
+{
+ "name": "deck_chair_folded",
+ "description": "The red/white striped deck chair folded flat into a long bundle (two pale wood rails, striped canvas between, end bars). Anchor centre (the grip). ~144x464, long axis vertical; shown rotated -10 under Doug's arm.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "beach",
+  "1816",
+  "chair"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -50.0,
+   "y": -215,
+   "w": 20.0,
+   "h": 430,
+   "width": 0,
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -30.0,
+   "y": -215,
+   "w": 20.0,
+   "h": 430,
+   "width": 0,
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -10.0,
+   "y": -215,
+   "w": 20.0,
+   "h": 430,
+   "width": 0,
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 10.0,
+   "y": -215,
+   "w": 20.0,
+   "h": 430,
+   "width": 0,
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 30.0,
+   "y": -215,
+   "w": 20.0,
+   "h": 430,
+   "width": 0,
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -50,
+   "y": -215,
+   "w": 100,
+   "h": 430,
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -20
+    ],
+    [
+     50,
+     -12
+    ]
+   ],
+   "width": 3,
+   "color": "#7a1010"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     60
+    ],
+    [
+     50,
+     68
+    ]
+   ],
+   "width": 2,
+   "color": "#7a1010"
+  },
+  {
+   "type": "rect",
+   "x": -72,
+   "y": -232,
+   "w": 24,
+   "h": 464,
+   "width": 4,
+   "fill": "#c89a5a"
+  },
+  {
+   "type": "rect",
+   "x": 48,
+   "y": -232,
+   "w": 24,
+   "h": 464,
+   "width": 4,
+   "fill": "#c89a5a"
+  },
+  {
+   "type": "rect",
+   "x": -66,
+   "y": -230,
+   "w": 132,
+   "h": 18,
+   "width": 4,
+   "fill": "#e0b878"
+  },
+  {
+   "type": "rect",
+   "x": -66,
+   "y": 205,
+   "w": 132,
+   "h": 18,
+   "width": 4,
+   "fill": "#e0b878"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62.9,
+     -143.6
+    ],
+    [
+     57.1,
+     -88.6
+    ],
+    [
+     62.9,
+     -101.4
+    ],
+    [
+     -57.1,
+     -156.4
+    ]
+   ],
+   "width": 3,
+   "fill": "#9a7038"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -62,
+     -190
+    ],
+    [
+     -58,
+     -120
+    ]
+   ],
+   "width": 2,
+   "color": "#9a7038"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -59,
+     40
+    ],
+    [
+     -62,
+     140
+    ]
+   ],
+   "width": 2,
+   "color": "#9a7038"
+  },
+  {
+   "type": "ellipse",
+   "x": -60,
+   "y": -4,
+   "rx": 5,
+   "ry": 5,
+   "width": 2,
+   "fill": "#555555"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     58,
+     -190
+    ],
+    [
+     62,
+     -120
+    ]
+   ],
+   "width": 2,
+   "color": "#9a7038"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     61,
+     40
+    ],
+    [
+     58,
+     140
+    ]
+   ],
+   "width": 2,
+   "color": "#9a7038"
+  },
+  {
+   "type": "ellipse",
+   "x": 60,
+   "y": -4,
+   "rx": 5,
+   "ry": 5,
+   "width": 2,
+   "fill": "#555555"
+  }
+ ]
+}

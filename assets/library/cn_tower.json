@@ -1,0 +1,599 @@
+{
+ "name": "cn_tower",
+ "description": "Toronto's CN Tower (scale reference): slim grey concrete shaft tapering upward (110 wide at the base), main pod with a dark window band ~2/3 up, small upper sky pod, thin red-and-white antenna. Anchor bottom-centre; EXACTLY 600 tall (y -600..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "building",
+  "landmark",
+  "scale",
+  "canada"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -55,
+     0
+    ],
+    [
+     55,
+     0
+    ],
+    [
+     30,
+     -60
+    ],
+    [
+     17,
+     -330
+    ],
+    [
+     -17,
+     -330
+    ],
+    [
+     -30,
+     -60
+    ]
+   ],
+   "width": 4,
+   "fill": "#c3c6ca"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -2
+    ],
+    [
+     52,
+     -2
+    ],
+    [
+     28,
+     -60
+    ],
+    [
+     15,
+     -328
+    ],
+    [
+     0,
+     -328
+    ]
+   ],
+   "width": 0,
+   "fill": "#8e9296",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -4
+    ],
+    [
+     0,
+     -328
+    ]
+   ],
+   "width": 3,
+   "color": "#6e7276"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -55,
+     0
+    ],
+    [
+     55,
+     0
+    ],
+    [
+     30,
+     -60
+    ],
+    [
+     17,
+     -330
+    ],
+    [
+     -17,
+     -330
+    ],
+    [
+     -30,
+     -60
+    ]
+   ],
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -20,
+     -330
+    ],
+    [
+     20,
+     -330
+    ],
+    [
+     62,
+     -356
+    ],
+    [
+     -62,
+     -356
+    ]
+   ],
+   "width": 4,
+   "fill": "#c3c6ca"
+  },
+  {
+   "type": "rect",
+   "x": -64,
+   "y": -374,
+   "w": 128,
+   "h": 18,
+   "width": 4,
+   "fill": "#34404e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -56,
+     -372
+    ],
+    [
+     -56,
+     -358
+    ]
+   ],
+   "width": 1,
+   "color": "#7fa6c8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -42,
+     -372
+    ],
+    [
+     -42,
+     -358
+    ]
+   ],
+   "width": 1,
+   "color": "#7fa6c8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -28,
+     -372
+    ],
+    [
+     -28,
+     -358
+    ]
+   ],
+   "width": 1,
+   "color": "#7fa6c8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -14,
+     -372
+    ],
+    [
+     -14,
+     -358
+    ]
+   ],
+   "width": 1,
+   "color": "#7fa6c8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -372
+    ],
+    [
+     0,
+     -358
+    ]
+   ],
+   "width": 1,
+   "color": "#7fa6c8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     14,
+     -372
+    ],
+    [
+     14,
+     -358
+    ]
+   ],
+   "width": 1,
+   "color": "#7fa6c8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     28,
+     -372
+    ],
+    [
+     28,
+     -358
+    ]
+   ],
+   "width": 1,
+   "color": "#7fa6c8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     42,
+     -372
+    ],
+    [
+     42,
+     -358
+    ]
+   ],
+   "width": 1,
+   "color": "#7fa6c8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     56,
+     -372
+    ],
+    [
+     56,
+     -358
+    ]
+   ],
+   "width": 1,
+   "color": "#7fa6c8"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -64,
+     -374
+    ],
+    [
+     64,
+     -374
+    ],
+    [
+     46,
+     -392
+    ],
+    [
+     -46,
+     -392
+    ]
+   ],
+   "width": 4,
+   "fill": "#e0e2e5"
+  },
+  {
+   "type": "rect",
+   "x": -26,
+   "y": -402,
+   "w": 52,
+   "h": 10,
+   "width": 3,
+   "fill": "#c3c6ca"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -11,
+     -402
+    ],
+    [
+     11,
+     -402
+    ],
+    [
+     8,
+     -478
+    ],
+    [
+     -8,
+     -478
+    ]
+   ],
+   "width": 3,
+   "fill": "#c3c6ca"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -402
+    ],
+    [
+     10,
+     -402
+    ],
+    [
+     7,
+     -478
+    ],
+    [
+     0,
+     -478
+    ]
+   ],
+   "width": 0,
+   "fill": "#8e9296",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -485,
+   "rx": 17,
+   "ry": 9,
+   "width": 3,
+   "fill": "#c3c6ca"
+  },
+  {
+   "type": "rect",
+   "x": -15,
+   "y": -488,
+   "w": 30,
+   "h": 5,
+   "width": 0,
+   "fill": "#34404e",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -5.0,
+     -494
+    ],
+    [
+     5.0,
+     -494
+    ],
+    [
+     4.6,
+     -509
+    ],
+    [
+     -4.6,
+     -509
+    ]
+   ],
+   "width": 0,
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -4.6,
+     -509
+    ],
+    [
+     4.6,
+     -509
+    ],
+    [
+     4.2,
+     -524
+    ],
+    [
+     -4.2,
+     -524
+    ]
+   ],
+   "width": 0,
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -4.2,
+     -524
+    ],
+    [
+     4.2,
+     -524
+    ],
+    [
+     3.7,
+     -539
+    ],
+    [
+     -3.7,
+     -539
+    ]
+   ],
+   "width": 0,
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -3.7,
+     -539
+    ],
+    [
+     3.7,
+     -539
+    ],
+    [
+     3.3,
+     -554
+    ],
+    [
+     -3.3,
+     -554
+    ]
+   ],
+   "width": 0,
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -3.3,
+     -554
+    ],
+    [
+     3.3,
+     -554
+    ],
+    [
+     2.9,
+     -569
+    ],
+    [
+     -2.9,
+     -569
+    ]
+   ],
+   "width": 0,
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -2.9,
+     -569
+    ],
+    [
+     2.9,
+     -569
+    ],
+    [
+     2.5,
+     -584
+    ],
+    [
+     -2.5,
+     -584
+    ]
+   ],
+   "width": 0,
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -2.5,
+     -584
+    ],
+    [
+     2.5,
+     -584
+    ],
+    [
+     2.0,
+     -599
+    ],
+    [
+     -2.0,
+     -599
+    ]
+   ],
+   "width": 0,
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -2.0,
+     -599
+    ],
+    [
+     2.0,
+     -599
+    ],
+    [
+     2.0,
+     -600
+    ],
+    [
+     -2.0,
+     -600
+    ]
+   ],
+   "width": 0,
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -5,
+     -494
+    ],
+    [
+     5,
+     -494
+    ],
+    [
+     2,
+     -600
+    ],
+    [
+     -2,
+     -600
+    ]
+   ],
+   "width": 2
+  }
+ ]
+}

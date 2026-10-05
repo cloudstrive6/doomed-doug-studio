@@ -1,0 +1,477 @@
+{
+ "name": "front_door",
+ "description": "Ordinary front door (scale reference): red-brown panelled wooden door in a white frame, small window, brass knob and letterbox, hinges, doormat line + step at the bottom. Anchor bottom-centre; 300x640.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "house",
+  "door",
+  "scale"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -640,
+   "w": 300,
+   "h": 640,
+   "width": 5,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -640,
+   "w": 300,
+   "h": 22,
+   "width": 4,
+   "fill": "#f0f0f0"
+  },
+  {
+   "type": "rect",
+   "x": -122,
+   "y": -612,
+   "w": 244,
+   "h": 612,
+   "width": 4,
+   "fill": "#8b3a2a"
+  },
+  {
+   "type": "rect",
+   "x": -70,
+   "y": -580,
+   "w": 140,
+   "h": 80,
+   "width": 4,
+   "fill": "#bfe6ff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -580
+    ],
+    [
+     0,
+     -500
+    ]
+   ],
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -70,
+     -540
+    ],
+    [
+     70,
+     -540
+    ]
+   ],
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -570
+    ],
+    [
+     -30,
+     -560
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": -96,
+   "y": -470,
+   "w": 82,
+   "h": 170,
+   "width": 3,
+   "fill": "#a24a36"
+  },
+  {
+   "type": "rect",
+   "x": -88,
+   "y": -462,
+   "w": 66,
+   "h": 154,
+   "width": 2,
+   "fill": "#8b3a2a",
+   "color": "#6a2a1e"
+  },
+  {
+   "type": "rect",
+   "x": 14,
+   "y": -470,
+   "w": 82,
+   "h": 170,
+   "width": 3,
+   "fill": "#a24a36"
+  },
+  {
+   "type": "rect",
+   "x": 22,
+   "y": -462,
+   "w": 66,
+   "h": 154,
+   "width": 2,
+   "fill": "#8b3a2a",
+   "color": "#6a2a1e"
+  },
+  {
+   "type": "rect",
+   "x": -96,
+   "y": -270,
+   "w": 82,
+   "h": 230,
+   "width": 3,
+   "fill": "#a24a36"
+  },
+  {
+   "type": "rect",
+   "x": -88,
+   "y": -262,
+   "w": 66,
+   "h": 214,
+   "width": 2,
+   "fill": "#8b3a2a",
+   "color": "#6a2a1e"
+  },
+  {
+   "type": "rect",
+   "x": 14,
+   "y": -270,
+   "w": 82,
+   "h": 230,
+   "width": 3,
+   "fill": "#a24a36"
+  },
+  {
+   "type": "rect",
+   "x": 22,
+   "y": -262,
+   "w": 66,
+   "h": 214,
+   "width": 2,
+   "fill": "#8b3a2a",
+   "color": "#6a2a1e"
+  },
+  {
+   "type": "spray",
+   "x": 80,
+   "y": -200,
+   "r": 60,
+   "color": "#6a2a1e",
+   "density": 0.12
+  },
+  {
+   "type": "rect",
+   "x": -30,
+   "y": -292,
+   "w": 60,
+   "h": 14,
+   "width": 3,
+   "fill": "#d4a017"
+  },
+  {
+   "type": "ellipse",
+   "x": 92,
+   "y": -300,
+   "rx": 13,
+   "ry": 13,
+   "width": 4,
+   "fill": "#d4a017"
+  },
+  {
+   "type": "ellipse",
+   "x": 88,
+   "y": -304,
+   "rx": 4,
+   "ry": 4,
+   "width": 0,
+   "fill": "#fff3b0",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -126,
+   "y": -560,
+   "w": 10,
+   "h": 30,
+   "width": 2,
+   "fill": "#555555"
+  },
+  {
+   "type": "rect",
+   "x": -126,
+   "y": -330,
+   "w": 10,
+   "h": 30,
+   "width": 2,
+   "fill": "#555555"
+  },
+  {
+   "type": "rect",
+   "x": -126,
+   "y": -90,
+   "w": 10,
+   "h": 30,
+   "width": 2,
+   "fill": "#555555"
+  },
+  {
+   "type": "rect",
+   "x": -160,
+   "y": -10,
+   "w": 320,
+   "h": 10,
+   "width": 3,
+   "fill": "#c8c8c8"
+  },
+  {
+   "type": "rect",
+   "x": -110,
+   "y": -18,
+   "w": 220,
+   "h": 12,
+   "width": 3,
+   "fill": "#8a6a3a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100,
+     -16
+    ],
+    [
+     -100,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -86,
+     -16
+    ],
+    [
+     -86,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -72,
+     -16
+    ],
+    [
+     -72,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -58,
+     -16
+    ],
+    [
+     -58,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -44,
+     -16
+    ],
+    [
+     -44,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -16
+    ],
+    [
+     -30,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -16,
+     -16
+    ],
+    [
+     -16,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -2,
+     -16
+    ],
+    [
+     -2,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     -16
+    ],
+    [
+     12,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     26,
+     -16
+    ],
+    [
+     26,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     -16
+    ],
+    [
+     40,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     54,
+     -16
+    ],
+    [
+     54,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     68,
+     -16
+    ],
+    [
+     68,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     82,
+     -16
+    ],
+    [
+     82,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     96,
+     -16
+    ],
+    [
+     96,
+     -8
+    ]
+   ],
+   "width": 1,
+   "color": "#5a4422"
+  }
+ ]
+}

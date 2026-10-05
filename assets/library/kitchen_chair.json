@@ -1,0 +1,266 @@
+{
+ "name": "kitchen_chair",
+ "description": "Plain wooden kitchen chair, side view: four legs (far pair darker), flat seat, slatted back. Anchor bottom-centre. Top of the seat EXACTLY at y=-195; back rises to y=-428; ~220 wide (x -130..+110).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "furniture",
+  "scale"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 52,
+   "y": -188,
+   "w": 14,
+   "h": 186,
+   "width": 3,
+   "fill": "#6e3a1e"
+  },
+  {
+   "type": "rect",
+   "x": -74,
+   "y": -188,
+   "w": 14,
+   "h": 186,
+   "width": 3,
+   "fill": "#6e3a1e"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -74,
+     -190
+    ],
+    [
+     -60,
+     -190
+    ],
+    [
+     -74,
+     -412
+    ],
+    [
+     -88,
+     -412
+    ]
+   ],
+   "width": 3,
+   "fill": "#6e3a1e"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -112.2,
+     -396
+    ],
+    [
+     -70.2,
+     -396
+    ],
+    [
+     -71.2,
+     -370
+    ],
+    [
+     -113.2,
+     -370
+    ]
+   ],
+   "width": 3,
+   "fill": "#c06a3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -115.6,
+     -340
+    ],
+    [
+     -73.6,
+     -340
+    ],
+    [
+     -74.6,
+     -314
+    ],
+    [
+     -116.6,
+     -314
+    ]
+   ],
+   "width": 3,
+   "fill": "#c06a3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -119.0,
+     -284
+    ],
+    [
+     -77.0,
+     -284
+    ],
+    [
+     -78.0,
+     -258
+    ],
+    [
+     -120.0,
+     -258
+    ]
+   ],
+   "width": 3,
+   "fill": "#c06a3a"
+  },
+  {
+   "type": "rect",
+   "x": -110,
+   "y": -195,
+   "w": 220,
+   "h": 22,
+   "width": 4,
+   "fill": "#a0522d"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100,
+     -187
+    ],
+    [
+     100,
+     -187
+    ]
+   ],
+   "width": 2,
+   "color": "#6e3a1e"
+  },
+  {
+   "type": "rect",
+   "x": 84,
+   "y": -173,
+   "w": 16,
+   "h": 173,
+   "width": 4,
+   "fill": "#a0522d"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -173
+    ],
+    [
+     -84,
+     -173
+    ],
+    [
+     -86,
+     0
+    ],
+    [
+     -104,
+     0
+    ]
+   ],
+   "width": 4,
+   "fill": "#a0522d"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -104,
+     -195
+    ],
+    [
+     -86,
+     -195
+    ],
+    [
+     -104,
+     -420
+    ],
+    [
+     -122,
+     -420
+    ]
+   ],
+   "width": 4,
+   "fill": "#a0522d"
+  },
+  {
+   "type": "rect",
+   "x": -86,
+   "y": -70,
+   "w": 170,
+   "h": 10,
+   "width": 3,
+   "fill": "#c06a3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -130,
+     -428
+    ],
+    [
+     -62,
+     -428
+    ],
+    [
+     -66,
+     -408
+    ],
+    [
+     -126,
+     -408
+    ]
+   ],
+   "width": 4,
+   "fill": "#a0522d"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     92,
+     -150
+    ],
+    [
+     92,
+     -30
+    ]
+   ],
+   "width": 2,
+   "color": "#6e3a1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -95,
+     -150
+    ],
+    [
+     -96,
+     -30
+    ]
+   ],
+   "width": 2,
+   "color": "#6e3a1e"
+  }
+ ]
+}

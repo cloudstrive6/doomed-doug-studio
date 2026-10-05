@@ -1,0 +1,399 @@
+{
+ "name": "printing_press",
+ "description": "1680s wooden hand printing press: dark wood (#6b4423) uprights, head and cap beams, grey screw with a long side bar handle, platen, bed with type forme and a paper stack. Anchor bottom-centre on the ice. ~360x385.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "frost fair",
+  "history",
+  "printing"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -22,
+   "w": 300,
+   "h": 22,
+   "width": 4,
+   "fill": "#4a2e16"
+  },
+  {
+   "type": "rect",
+   "x": -118,
+   "y": -370,
+   "w": 34,
+   "h": 350,
+   "width": 4,
+   "fill": "#6b4423"
+  },
+  {
+   "type": "rect",
+   "x": 84,
+   "y": -370,
+   "w": 34,
+   "h": 350,
+   "width": 4,
+   "fill": "#6b4423"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -106,
+     -350
+    ],
+    [
+     -106,
+     -40
+    ]
+   ],
+   "width": 2,
+   "color": "#8a5a33"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     96,
+     -350
+    ],
+    [
+     96,
+     -40
+    ]
+   ],
+   "width": 2,
+   "color": "#8a5a33"
+  },
+  {
+   "type": "rect",
+   "x": -140,
+   "y": -385,
+   "w": 280,
+   "h": 26,
+   "width": 4,
+   "fill": "#6b4423"
+  },
+  {
+   "type": "rect",
+   "x": -125,
+   "y": -280,
+   "w": 250,
+   "h": 40,
+   "width": 4,
+   "fill": "#6b4423"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -115,
+     -268
+    ],
+    [
+     115,
+     -268
+    ]
+   ],
+   "width": 2,
+   "color": "#8a5a33"
+  },
+  {
+   "type": "rect",
+   "x": -12,
+   "y": -240,
+   "w": 24,
+   "h": 72,
+   "width": 4,
+   "fill": "#9a9a9a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -236
+    ],
+    [
+     12,
+     -230
+    ]
+   ],
+   "width": 2,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -226
+    ],
+    [
+     12,
+     -220
+    ]
+   ],
+   "width": 2,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -216
+    ],
+    [
+     12,
+     -210
+    ]
+   ],
+   "width": 2,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -206
+    ],
+    [
+     12,
+     -200
+    ]
+   ],
+   "width": 2,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -196
+    ],
+    [
+     12,
+     -190
+    ]
+   ],
+   "width": 2,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -186
+    ],
+    [
+     12,
+     -180
+    ]
+   ],
+   "width": 2,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -176
+    ],
+    [
+     12,
+     -170
+    ]
+   ],
+   "width": 2,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -204,
+   "rx": 16,
+   "ry": 12,
+   "width": 4,
+   "fill": "#7a7a7a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0.7,
+     -199.0
+    ],
+    [
+     200.7,
+     -227.0
+    ],
+    [
+     199.3,
+     -237.0
+    ],
+    [
+     -0.7,
+     -209.0
+    ]
+   ],
+   "width": 3,
+   "fill": "#4a2e16"
+  },
+  {
+   "type": "ellipse",
+   "x": 202,
+   "y": -232,
+   "rx": 12,
+   "ry": 12,
+   "width": 4,
+   "fill": "#8a5a33"
+  },
+  {
+   "type": "rect",
+   "x": -70,
+   "y": -168,
+   "w": 140,
+   "h": 20,
+   "width": 4,
+   "fill": "#8a5a33"
+  },
+  {
+   "type": "rect",
+   "x": -130,
+   "y": -122,
+   "w": 330,
+   "h": 18,
+   "width": 4,
+   "fill": "#6b4423"
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -104,
+   "w": 360,
+   "h": 12,
+   "width": 3,
+   "fill": "#4a2e16"
+  },
+  {
+   "type": "rect",
+   "x": 180,
+   "y": -92,
+   "w": 14,
+   "h": 70,
+   "width": 3,
+   "fill": "#4a2e16"
+  },
+  {
+   "type": "rect",
+   "x": -60,
+   "y": -134,
+   "w": 120,
+   "h": 12,
+   "width": 3,
+   "fill": "#3a3a3a"
+  },
+  {
+   "type": "rect",
+   "x": 118,
+   "y": -146,
+   "w": 70,
+   "h": 24,
+   "width": 3,
+   "fill": "#fbf6e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     122,
+     -140
+    ],
+    [
+     184,
+     -140
+    ]
+   ],
+   "width": 1,
+   "color": "#b8ae98"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     122,
+     -134
+    ],
+    [
+     184,
+     -134
+    ]
+   ],
+   "width": 1,
+   "color": "#b8ae98"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     122,
+     -128
+    ],
+    [
+     184,
+     -128
+    ]
+   ],
+   "width": 1,
+   "color": "#b8ae98"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     124,
+     -158
+    ],
+    [
+     184,
+     -154
+    ],
+    [
+     182,
+     -146
+    ],
+    [
+     122,
+     -148
+    ]
+   ],
+   "width": 3,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "spray",
+   "x": -100,
+   "y": -300,
+   "r": 30,
+   "color": "#4a2e16",
+   "density": 0.15
+  },
+  {
+   "type": "spray",
+   "x": 100,
+   "y": -120,
+   "r": 30,
+   "color": "#4a2e16",
+   "density": 0.15
+  }
+ ]
+}
