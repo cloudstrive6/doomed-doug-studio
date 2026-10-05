@@ -24,8 +24,8 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 ## Running gags (use 2–3 per episode, don't overdo)
 - "Doug did not agree to this." (episode opener or first danger)
 - **Doug death counter**: an on-screen label "DOUG DEATHS: N" that ticks up at each death. Cumulative across the
-  channel. Current total: **56** (7 after 001, plus 11 in 002, plus 9 in 003, plus 9 in 004, plus 10 in 005, plus 10 in 006, QC passed; update after every episode). The next episode's
-  counter starts at 56.
+  channel. Current total: **65** (7 after 001, plus 11 in 002, plus 9 in 003, plus 9 in 004, plus 10 in 005, plus 10 in 006, plus 9 in 007, QC passed; update after every episode). The next episode's
+  counter starts at 65.
 - The red cap floating alone after a death.
 - Doug trying to befriend the thing that will kill him.
 - Narrator: "Doug has died. Again." / "Doug is fine." (Doug is not fine.)
@@ -41,7 +41,7 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
   how Doug reaches deep time and the standard vehicle for the `prehistoric` playlist. Never explained, never
   breaks down on purpose; Doug steps out hopeful, the door opens onto the danger. It always survives (003 ends with a
   pigeon sitting on its roof). Do not use it outside time-travel episodes.
-  007 (script approved, pending QC): it comes home to 2026 as a block of clear ice with the cap frozen on top, cracks open,
+  007 (QC passed, final package approved): it comes home to 2026 as a block of clear ice with the cap frozen on top, cracks open,
   and Doug gives a thumbs up inside (the counter does not go down). Use this ice-block return once; don't repeat it.
 - **Doug's suitcase** (from 004): a battered MS Paint suitcase that is the standard prop of the `places` playlist,
   the way the time machine belongs to `prehistoric`. Doug carries it into the opener with no stickers on it. Every time he
@@ -70,3 +70,4 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 | 004 | What Dying in Every Deadly Place on Earth Would Be Like | pending (QC passed 2026-10-01, final package approved, awaiting scheduled upload) | 9 (total 36) | Counter 27 to 36, 11 places in severity bands "Hours." / "Minutes." / "Seconds.". Survived: Lake Natron (flamingo costume, a costume-gag callback) and Lake Maracaibo ("Doug is fine."). Introduced Doug's stickered suitcase (`places`). Lake Nyos played straight with no joke. Boss: Nyiragongo lava lake. Shorts held pending crop fixes. |
 | 005 | The Creepiest Fossils That Still Look Alive | pending (QC passed 2026-10-02, final package approved, awaiting scheduled upload) | 10 (total 46) | Counter 36 to 46, 12 finds ordered by age (28 kyr to 506 Myr) in two bands, "Frozen." / "Stone.". Rule: the fossil is the spoiler, and Doug visits each find on its last day by time machine. Survived: Blue Babe ("Doug is fine.", narrator disappointed). Zhùr the wolf pup played straight with no death and no joke. Befriended Sparta and the Gogo fish. Costume gag once (squid, ichthyosaur). One Devonian-reef callback to 003. Boss: Stanleycaris (three eyes, brain preserved). New poses: thumbs_up, sit_thumbs_up. |
 | 006 | The Most Disturbing Discoveries at Every Depth of the Ocean | pending (QC passed 2026-10-04, final package approved, awaiting scheduled upload) | 10 (total 56) | Counter 46 to 56, 12 discoveries ordered by depth (20 m to 9,533 m). Survived: crop circles and the golden orb. Sharks never hurt Doug. Befriended at items 1, 8 and 12. Introduced the LIVE-feed closing image for `ocean` episodes. Boss: 9,533 m deepest ecosystem. |
+| 007 | What Dying Every Time Earth Froze Would Be Like | pending (QC passed 2026-10-05, final package approved, awaiting scheduled upload) | 9 (total 65) | Counter 56 to 65, 11 freezes ordered by age (1816 to about 2.4 Ga) in four bands: "Cold snaps.", "Ice age.", "Deep time.", "Snowball.". Survived: Frost Fairs ("Doug is fine.") and Sturtian (narrator quietly disappointed). Befriended the Dryas flower, Meganeura and the algae (algae pays off at the boss). Introduced the FROZEN globe meter next to the counter (monotonic, episode-specific). One callback each to 003 and 004. Ending: time machine returns to 2026 as an ice block, used once. Boss: the first Snowball (Huronian, possibly caused by life). |

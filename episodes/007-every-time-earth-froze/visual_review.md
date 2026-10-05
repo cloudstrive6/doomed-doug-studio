@@ -96,3 +96,79 @@ Titles, subtitles, the @DoomedDoug tag and the end card all pass. The title is r
 5. **short01, s106 (director, minor):** in the hook frame, Doug at x=1790 is off-screen. Set his x to about 1600.
 
 After these shotlist fixes, run `python -m studio shorts render 007-every-time-earth-froze`. All of these x positions are also safe in the 16:9 frame. Re-rendering final.mp4 is optional: the only change there is that Doug sits about 150 px further left in 6 shots. Either re-render final.mp4 for consistency or accept the small difference.
+
+## Post-render review, round 2 (re-render 12:10 UTC: final.mp4, thumbnail, Shorts)
+
+What I checked: all 33 frames in `build/samples/` (taken every 30 s), plus `build/qc.json` (no problems, 997.7 s). `build/thumbnail.png` and `thumbnail_small.png` against the title in `metadata.json`. The three `build/shorts/*_preview.png`. One frame every 2 s from each of `short01.mp4` (48.0 s), `short02.mp4` (55.9 s) and `short03.mp4` (53.9 s), all 1080x1920. I also checked every Shorts shot in shotlist.json for Doug, asset or label x positions outside the safe band of x 330..1590.
+
+The round 1 Shorts fixes are all in the shotlist and in the render. s047 Doug is at 1460. s044 has the question mark at 1470 and Doug at 1560. s106 Doug is at 1600. In s108 the CN Tower is at 1570 and its label at 1540, and "CN TOWER" now reads in full in short01. In s256 and s262 Doug is at 1560, and in s258 he is at 1580 with the map scaled to 0.9 at x 860. Doug is fully visible in all of these.
+
+### Main video: VERDICT: PASS
+- No black, blank, frozen or glitched frames.
+- Chapter labels are legible in every sample.
+- Doug is on-model in all of them and readable on every background, including the navy space shots and the brown greenhouse shot.
+- The pictures match the narration.
+- The deaths are cartoon only, ending on the frozen-in-ice end card. There is no gore and nothing reads as a kids' show.
+- The 6 shots moved for the Shorts still look natural in 16:9 (for example, s108 CN Tower and s256 Doug).
+
+### Thumbnail: VERDICT: PASS
+- The 3x3 grid of freeze tiles is unchanged from the round 3 approval. Every label reads at 320x180.
+- Doug is frozen in the deck chair in the first tile, and in the Sturtian tile his black ink body reads clearly.
+- It complements the title without repeating its words.
+- Note, not blocking (youtube-titler): `metadata.json` → `thumbnail_brief` still describes the old archetype-B ice-core column, but the approved thumbnail is the archetype-A grid. This is internal text only. Update it if anyone touches metadata.
+
+### Shorts
+**short02: PASS.**
+- The title is readable and subtitles stay at 2 lines or fewer.
+- The end card arrow points down, with Doug pointing at it.
+- s047 is fixed: Doug is on the new bridge.
+- Optional (director):
+  - In s048 Doug is at x=120, so he is off-screen in the Short during "new embankments made the river deeper". The narration does not need him there.
+  - In s053 ("Doug is fine") the `printed_card` at x=1680 is cut in half at the right edge. Moving Doug and the card about 120 px left would show the card he is holding.
+
+**short03: PASS.**
+- s256, s258 and s262 are fixed: Doug is fully inside the frame.
+- The title, subtitles, end card and arrow all pass.
+- Optional (director): in s260 the scientist (x=300) and Doug (x=1650) touch opposite edges. Both are fully visible and readable.
+- s264's FROZEN meter sits outside the crop. This is acceptable because the Short's narration does not refer to it.
+
+**short01: FAIL.** One shot left with the same Doug-sliced-at-the-edge defect as round 1:
+1. **short01, s111 (director):** "When this one failed, the whole lake emptied in about two days." Doug is at x=1700 (scale 0.55), and in the Short only half of him shows at the right edge (frame at about t=18 s) while the dam bursts. Set the `doug` element's x to 1560, y unchanged. The dam's right foot is at about x=1440, so he still clears it. This is also safe in 16:9.
+   - Optional while there:
+     - s110: check that `warning_triangle` (x=300) is not clipped at the left edge, and move it to x=400 if it is.
+     - s116: the dam inset is clipped at the left edge in the Short. Move the inset group about 150 px right.
+
+After the fix, run `python -m studio shorts render 007-every-time-earth-froze` (only short01 changes) and re-screen short01 around t=16–20 s. Re-rendering final.mp4 is optional: in 16:9 the only change is Doug sitting 140 px further left in s111.
+
+Main video and thumbnail: PASS. short02 and short03: PASS. short01: FAIL (s111 Doug x 1700 → 1560).
+
+VERDICT: FAIL
+
+## Post-render review, round 3 (short01 re-render 12:21 UTC)
+
+What I checked: `build/shorts/short01_preview.png`. Frames from `short01.mp4` (1080x1920, 48.0 s) at t = 8, 10, 12, 14–22 (every 1 s), 19.3, 19.6, 19.9, 24–40 (every 2 s), 44 and 47 s. A full-resolution crop of the right edge at t=18.5 s. The s106–s117 elements in `shotlist.json`.
+
+**s111 fix is confirmed.** In `shotlist.json`, the s111 `doug` element is at x=1560 (y=700 and scale 0.55 unchanged).
+- In the Short (t≈17–19.6 s), Doug is fully in frame in his panic pose: cap, head, raised arms and both feet, with about 70 px clear of the right edge.
+- He stands just right of the bursting dam and does not touch it.
+- The "ABOUT 2 DAYS" label appears at about t=19.5 s and is fully visible.
+- This matches "When this one failed, the whole lake emptied in about two days."
+
+**s110:** `warning_triangle` (x=300) and "NOT BUILT TO LAST" are both fully visible at t≈15 s, so the left edge does not clip them. Doug is on top of the dam and on-model.
+
+**s116/s117 (optional item from round 2, not taken up):**
+- The left inset (DAM FORMS) is cut at the left edge, and in s117 the BURST/REPEAT inset is cut at the right edge.
+- The DAM FORMS, LAKE FILLS and REPEAT labels, the tally marks and "DOZENS OF TIMES" all read in full, so the beat still lands.
+- Not blocking.
+
+**Rest of short01:**
+- The title is readable throughout.
+- Subtitles stay at 2 lines or fewer, legible on every background.
+- The hook (s106) and the s108 "CN TOWER" frame look as they did in round 2.
+- In s112, Doug runs from the wall of water fully in frame.
+- On the end card, the red arrow points down to the link and Doug is pointing at it.
+- There are no black, blank or glitched frames and no gore.
+
+Long video, thumbnail, short02 and short03 passed in round 2 and have not changed. short01: PASS.
+
+VERDICT: PASS

@@ -51,3 +51,15 @@ SCRIPT: APPROVED
 THUMBNAIL: APPROVED (A grid), pending visual-screener PASS
 
 2026-10-05 Showrunner: packaged. Rounds: script 2 (draft 1 FAIL on 4 facts + 3 style; draft 2 PASS, CD approved with small edits); art assets 1 (30 drawings approved, minor map fixes); keyframes 3 (R1 FAIL 35+22 fixes, R2 FAIL 9 fixes, R3 PASS); thumbnail: grid chosen over ice core (illegible at feed size), polished, Sturtian-tile ink fix. Editor raised speaking_rate 1.10 -> 1.15 (196.7 wpm, ~16.6 min). Risks: pronunciation of J Harlen Bretz / CN Tower / Dryas octopetala / Storegga unverified (no audio listen; no phoneme override in tts.py); music null; no draft render yet (CI final render + QC next); optional thumbnail leg-tip nit in Sturtian tile.
+
+## 2026-10-05: final package gate (creative director), APPROVED
+Inputs: `build/qc.json` (997.7 s, no problems), visual_review.md post-render (main video PASS, thumbnail PASS, Shorts PASS after the short01 s111 fix), `build/thumbnail.png` + `thumbnail_small.png`, `build/chapters.txt`, `metadata.json`, samples f_001 (0:15) and f_002 (0:45), script opening.
+- **Title: kept** "What Dying Every Time Earth Froze Would Be Like" (T1). It is the strongest frame in the latest insights memo (2026-10-01), and it isn't back-to-back with itself (006 was T3, 004 was the last T1). I didn't swap in an alt: "How Doug Would Die..." leans on a name nobody knows yet, and the other three drop the death promise. It promises deaths at every freeze, and the video delivers 9 cartoon deaths across 11 freezes plus 2 survivals, so it isn't misleading. No "first ice age" claim anywhere.
+- **Thumbnail: approved.** Nine saturated tiles in episode order, ending on the navy boss tile. At 320x180 every label reads. Frozen Doug in tile 1 carries the "dying" cue, and black-ink Doug in the Sturtian pond reads. No title words, no "Snowball Earth" label, no gore, nothing kid-coded.
+- **Description and chapters: approved.** It's hedged correctly ("may have caused", "possibly the first Snowball Earth"), with 6 key sources, the cartoon-death disclaimer and the AI-use disclosure. Chapters start at 0:00, there are 12 of them all at least 10 s apart, and the names match the thumbnail labels. Playlist is `prehistoric`.
+- **Fixed in metadata.json:** `thumbnail_brief` still described the rejected ice-core design. I rewrote it to describe the shipped 3x3 grid. `validate metadata` returned OK.
+- **First 60 s: approved.** s001 is the grid. "Year Without a Summer" is said by about word 34 (about 10 s, which matches the chapter), and the twist ("Nothing in Vermont caused it") lands at about 27 s. f_001 shows a sunny Vermont farm while the line is "should be green, warm", and f_002 shows Tambora on "largest eruption". Pictures match the narration and both are clean.
+- Not blocking: the s179/s180 hover and the s116 dead space are noted for the director's future reference, not worth a re-render.
+- Series bible: death total updated to 65, 007 added to the episode log, and the ice-block return marked as used.
+
+FINAL: APPROVED
