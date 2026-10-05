@@ -111,3 +111,5 @@ the opening of `script.md`, `build/samples/f_001-f_002` (first ~60 s), `build/qc
 FINAL: APPROVED
 - 2026-10-05 Showrunner (final review round 1): QC OK; visual VERDICT (main): FAIL (counter collides with chapter bar on zoom in s103/s128), VERDICT (shorts): PASS. Director fixed camera in shotlist; .rerender=final requested. CD package approved. Stage left at built; qc_passed after re-render round 2.
 FINAL: APPROVED
+- 2026-10-05 Showrunner (final review round 2): QC OK (no problems, exit 0); VERDICT (main): PASS, VERDICT (shorts): PASS; CD package approved earlier (title/thumbnail/description unchanged by re-render). Stage -> qc_passed.
+FINAL: APPROVED

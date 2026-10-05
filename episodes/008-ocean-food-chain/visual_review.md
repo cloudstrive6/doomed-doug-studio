@@ -365,3 +365,42 @@ re-screen will check s103 and s128 at the end of each shot.
 
 VERDICT (main): FAIL
 VERDICT (shorts): PASS
+
+## Round 6: post-render round 2, s103/s128 zoom fix (final.mp4 23:36, samples 23:42, Shorts 23:37-23:39) (2026-10-05)
+
+Checked: build/samples f_001..f_033, qc.json (duration 1001.26 s, no problems), frames pulled from final.mp4 at the
+start and the last ~0.3 s of s103 (326.05 s / 328.75 s) and s128 (401.9 s / 405.23 s), thumbnail.png +
+thumbnail_small.png, metadata.json, the three Short previews and 8 frames from each Short.
+
+### Round-5 fixes: both resolved
+1. s103: the camera is now a centred zoom_in (960, 540, 1.1). On the last frame (328.75 s) the "DOUG DEATHS: 68" plate
+   sits at y ~90..165, fully below the "GIANT TREVALLY" topbar (ends y ~83). No overlap anywhere in the shot.
+2. s128: same, centred zoom_in at 1.08. On the last frame (405.23 s) the plate is at y ~98..172, clear of the
+   "GOLIATH GROUPER" topbar. The circled SHARKS on the menu and Doug in the shark costume are whole.
+
+### Main video: PASS
+- No black, blank, frozen or glitched frames in the 33 samples; the counter runs 65 to 74 in order; chapter topbar
+  and counter never collide in any sample.
+- Doug is on-model (red cap, white head) in every costume; no gore, nothing reads as a kids' show.
+- Minor, not blocking: on the s103 end frame the zoom pushes the tern-costume Doug to the bottom-left corner (feet
+  at ~y 1070, touching the frame edge, overlapping the map corner). He is still whole and readable.
+- Earlier advisories (plate x-jump at Short-range boundaries, s188 rod, s178 27 CROCS plate) still stand as optional.
+
+### Thumbnail: PASS (unchanged)
+The pyramid reads at feed size: orca on the black apex with the red halo, all ten animals recognisable, small Doug
+with red cap in the mantis-shrimp band. Labels avoid the title words. Matches the title "How Every Step of the
+Ocean Food Chain Would Kill Doug" and is not misleading.
+
+### Shorts: PASS (all three, re-rendered)
+- short01: s103 map now uses the centred zoom; Doug in the tern costume is whole at the left of the map, the plate
+  and "ONLY HERE" are in frame. HUNT THE SKY preview frame is clean (subtitle mid-reveal is the word-timed reveal).
+- short02: menu, fisherman boat, grouper with the blacktip, counter 68 to 69 after the death all read clearly.
+- short03: three-panel row inside the crop, NOT ONE, rudder-theft orcas, ALIVE drift, SURVIVED staircase all clear.
+- All three: red 3-line title readable, subtitles 2 lines or fewer, @DoomedDoug visible, end card
+  "WHAT HAPPENS NEXT? TAP BELOW" with Doug beside a red arrow pointing straight down.
+
+### Routing
+None required.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
