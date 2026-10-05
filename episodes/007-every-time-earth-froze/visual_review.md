@@ -39,3 +39,36 @@ Recommended polish (graphic designer, optional, not blocking):
 5. **Tile 8 (Sturtian): the lone time-machine door on yellow is a grey rectangle at feed size and says nothing about a freeze.** Replace it with the Sturtian payoff, Doug in the meltwater pond with the algae on white ice, or at least add a white ice ground so the tile reads as cold.
 6. **The "Year Without a Summer" label is set smaller than the others and is the least legible at 168 px.** Raise it one size if it fits the tile width. Otherwise leave it.
 7. Note: "Antarctica Freezes" shares a stem with "Froze" in the title. This is acceptable because it is the chapter name. Flagged only for the creative director's awareness.
+
+## Round 3 (2026-10-05)
+
+Re-checked keyframes s001, s042, s044, s047, s076, s088, s132, s179, s180, s232, s233 and s261 at full resolution, plus `build/thumbnail.png` at 1280x720, 320x180 and 168x94.
+
+### Keyframes
+
+VERDICT: PASS
+
+- Item 1 (s076) is fixed. The arrow ends at about y≈520, below the NETHERLANDS box, so the word is no longer struck through.
+- Item 2 (s047) is fixed. Doug stands on an ice floe to the right of the last pillar, and no pillar touches his cap.
+- Item 3 (s088) is fixed. The NORTH ATLANTIC box sits fully inside the map frame, over the ocean.
+- s042, s044, s132, s232, s233 and s261 are clean. Text is legible and does not collide, Doug is on-model and readable, and each drawing matches its narration. s132 has nine towers stacked to the "3 KM" mark.
+- Optional, not blocking (director): in s179 and s180 Doug's feet are at about y≈735 while the ground line is at y≈760, so he hovers slightly above the jungle floor. Set Doug's hip y about 25 px lower in both shots if anyone touches them again.
+
+### Thumbnail (build/thumbnail.png and keyframe s001)
+
+VERDICT: FAIL (one regression from the polish pass, a one-line fix)
+
+- Year Without a Summer tile is fixed. The pale-blue ice block with its blue outline survives at 168x94, and Doug clearly reads as frozen in the deck chair.
+- The other tiles are unchanged and still PASS. All labels read at 320x180, and the grid reads as nine distinct colour blocks at 168x94.
+
+Required:
+1. **Sturtian tile (thumbnail.json, the `doug` element at x=590, y=612, pose "float"): Doug's body, arms and legs render in white ink.** The engine's auto-contrast switched to white because his hips sit on the dark pond. On white ice and a yellow sky the white limbs vanish, so at feed size the tile reads as a floating head over the pond. This is the same white-Doug-on-ice problem that blocked round 1, and it also shows in keyframe s001. (graphic designer)
+   Fix: add `"ink": "#000000"` to that doug element. The water ellipse drawn after him (x=645, y=624) already hides his legs below the waterline. Then re-render `python -m studio thumbnail` and keyframe s001, and confirm that the black torso and arms show above the water at 168x94.
+
+### Round 3 fix: thumbnail ink applied
+
+VERDICT: PASS
+
+- Sturtian tile: added `"ink": "#000000"` to the `doug` element (x=590, y=612, pose "float") in thumbnail.json. Re-rendered `python -m studio thumbnail` and keyframe s001.
+- At 1280x720, 1920x1080 (s001) and 168x94, the black torso and arms show clearly above the pond, and the tile now reads as Doug floating in the meltwater pond rather than as a floating head.
+- Optional, not blocking (graphic designer): now that the legs are black, two small leg tips show below the pond's bottom outline at the tile's bottom border (about y≈960 in s001). They are invisible at 168x94. Raise Doug a little or widen the lower water ellipse if anyone touches the tile again.

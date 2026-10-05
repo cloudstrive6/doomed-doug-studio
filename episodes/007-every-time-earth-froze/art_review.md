@@ -253,3 +253,33 @@ Reviewer: art-director · Date: 2026-10-05
 
 ### Re-check plan
 After the director's pass, I re-render s042, s044, s047, s076, s088, s132, s179, s180, s232 and s233 with `python -m studio keyframes 007-every-time-earth-froze --shots ...`. If they are clean, round 3 is a PASS with no full re-skim.
+
+## Keyframes round 3
+
+Reviewer: art-director · Date: 2026-10-05
+
+**Verdict: PASS.** All 9 round 2 blocking fixes and the s261 recommendation are in place. No new issues.
+
+### How I checked
+- I re-rendered s042, s044, s047, s076, s088, s132, s179, s180, s232, s233 and s261 from the HEAD shotlist with `python -m studio keyframes 007-every-time-earth-froze --shots ...`.
+- I reviewed them on a sheet with s045 as the floe reference, then zoomed into s088, s044 and s047 at full resolution.
+- As planned in round 2, I did not do a full re-skim. The other 265 shots passed in round 2 and are unchanged.
+
+### Round 2 fixes verified
+1. **s076:** "NETHERLANDS" is at y 400, and the red arrow now passes cleanly below the label box.
+2. **s088:** "NORTH ATLANTIC" (size 30) sits in open sea inside the map frame, clear of the frame line, the coast and the islands.
+3. **s132:** "9 EIFFEL TOWERS" now sits inside the ice body and reads well in lime on white.
+4. **s179:** "JUNGLE" is clear of the right trunk.
+5. **s180:** "MORE OXYGEN" (size 64) is clear of the trunk, Doug's arms and the bubbles.
+6. **s232:** Doug's feet are on the ice top.
+7. **s233:** Doug's feet are on the ice top, and he stays clear of "HIDING PLACES".
+8. **s044 and s047:**
+   - Doug stands on a white floe matching s045, so the run s044 -> s045 -> s047 is continuous.
+   - In s047 he is clear of the pillar.
+9. **s042:** Doug is on the ice below the deck slab, and "10 FOOTBALL PITCHES" is clear.
+- **s261 (recommended):** "FURTHER" at x 1180 now clears Doug's cap brim.
+
+### Style
+Doug is on-model and inks black on all the light grounds. The zone colours are unchanged from round 2, and there is no gore.
+
+Keyframes approved. Stage moves to `art_approved`.
