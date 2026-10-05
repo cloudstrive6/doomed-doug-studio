@@ -31,3 +31,21 @@
 - Carry to the editor: preview the pronunciations of Bretz, CN Tower, Dryas octopetala, Sumbawa and Storegga in `narrate`.
 
 SCRIPT: APPROVED
+
+## 2026-10-05: thumbnail choice (creative director): A (3x3 grid) wins, GO conditional on visual-screener PASS
+- Candidates: the archetype B ice core (11 bands, per brief 7) and the archetype A 3x3 grid (the brief 7 fallback). I compared
+  `build/thumb_compare_168.png` and both 1280x720 renders.
+- At 168x94 the ice core fails the condition the brief set for it. The bands are slivers, the scenes inside are specks (you can't make out the dragonfly, the
+  door or the palm trees), and the alternating labels are grey mush. The column also leaves about 60% of the frame as white margin. The grid at the same
+  size reads at once: nine saturated colour blocks, a white ball on navy as the boss tile, and labels that are still mostly readable.
+  That triggers the brief's own fallback. The grid drops Frost Fairs and Doggerland exactly as specified, keeps the order, and ends on First Snowball.
+- It also fits the style bible better: archetype A is the default grammar (2.A), and 002 and 004 both shipped grids. Doug is small
+  and in one tile only (never the hero). No label shares a word with the title, there's no "Snowball Earth" and there are no photos.
+- Files: the grid is now `thumbnail.json` (`_note` updated), and the ice core is kept as `thumbnail_b.json` and marked rejected. I ran `python -m studio
+  thumbnail` to produce `build/thumbnail.png` and `validate` returned OK. s001 uses `scene_ref: thumbnail`, so the opening image is now the grid
+  with no shotlist change. The "thumbnail column" stage direction at script line 6 is outdated wording only.
+- Optional notes for the designer (not blocking): "Year Without a Summer" is set smaller than the other labels. Fine, but if
+  it can go up a size without wrapping, do it. The Last Glacial Maximum tower is small, so at 168px the tile reads as "ice wall", which is acceptable.
+- Still needed: the visual screener's thumbnail pass (feed-size legibility, policy) on `build/thumbnail.png` and on s001 in the keyframes.
+
+THUMBNAIL: APPROVED (A grid), pending visual-screener PASS
