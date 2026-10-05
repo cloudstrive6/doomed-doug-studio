@@ -88,3 +88,82 @@ blocks a PASS.
 - s161 "EPISODE 6: 0 SHARK DEATHS" matches the series bible (006: "Sharks never hurt Doug").
 
 Re-screen after fixes: re-run `keyframes --shots` on the changed ids and send me the new sheets.
+
+## Round 2: keyframe fixes re-screen (2026-10-05)
+
+Scope: the 70 changed shots (the director's list; a diff of `shotlist.json` against the previous commit confirms exactly
+these 70 ids changed), viewed on the 6 contact sheets and at full size where in doubt. Unchanged shots: I re-rendered a
+sample (s001, s032, s111, s160, s219, s255, s277, s310) and every one is pixel-identical to its round-1 render, so the
+round-1 fixes broke nothing outside the changed set. (I re-ran `keyframes --shots` on the 70 ids afterwards, so
+`build/contact/sheet_01..06` again shows the changed set.) I also screened the thumbnail.
+
+VERDICT: FAIL
+
+All 11 round-1 required fixes have landed correctly:
+- s047, s246, s270 and s279 now use a dark navy glow. No red remains in the water, and nothing reads as blood.
+- s059 and s060 show the cap on the sand at the crack mouth, so Doug's death is identifiable. s077 and s078 show the
+  cap beside the crab costume.
+- s018: the crack lines now sit on the shell.
+- s189 now has a tripod camera with a starburst, which is clear. The flash blob is gone from s317.
+- s312: "RIP DOUG" reads first, and the red X is in the corner.
+- The overlaps are cleared on s060 (INFORMANT), s061 (title), s105 (HUNT THE SKY), s282 (KILLER WHALE) and s191 (the
+  tide table is in his hand).
+
+Most of the advisories were taken too:
+- The moray in s058 is now the real asset, and the grouper tail in s058–s060 is clear of the topbar.
+- s113, s122 and s125 labels are clear, and SWIM BLADDER has an arrow.
+- The s015–s019 counter is clear of the inset.
+- The s186, s212, s213, s288 and s289 labels and icons are off the map border, and s290 points to Gansbaai.
+- The suns in s235 and s236 are filled.
+- The 15 orcas in s299 are outlined in red.
+- The salmon in s316 and s317 sits forward over the eye patch.
+- The new `water_splash` asset reads as a splash in s096, s101, s102, s109, s110, s163, s223, s233, s243 and s247.
+
+The death counter is still correct at 65→74.
+
+Two changed shots still carry defects that block a PASS. Round 1 missed both, but each shot was edited in this round:
+
+### Required fixes
+
+1. **s110: the speech-bubble tail is a broken horizontal sliver** (director). With the bubble at `x 650, y 260` and
+   `tail [880, 300]`, the tip sits at the same height as the tail base. The engine therefore draws a thin double line
+   that runs out through the bubble's right edge, which looks like a drawing error. Set the speech element to
+   `"x": 780, "y": 150, "tail": [900, 280]`. I test-rendered this: it gives a clean wedge pointing down at Doug's head.
+2. **s110: the grey `spray` "puff" (x 1350, y 640, r 70, color #222222) reads as grey static** on the trevally's back
+   (the same defect class as round-1 fix 5). It does not read as "the tern got taken". Remove it. If a cue is wanted,
+   use 2–3 small white feather shapes with black outlines (about 30x10 px `poly`) drifting around (1300–1420,
+   600–680) with `appear 0.375`, or a short label "GULP" at (1350, 640). The tern is underwater at the fish's mouth, so
+   don't try to draw it in the jaws.
+3. **s193: the white lunge streak ends inside the crocodile's mouth** (director). The `curve` `[[0,760],[500,700],[800,720]]`,
+   width 10, runs behind the body and pokes out between the jaws, so it reads as the croc holding a white stick. End it
+   behind the tail: `"points": [[0,770],[150,752],[280,745]]`. I test-rendered this and it reads as a clean motion trail.
+
+### Advisory (not blocking)
+
+- **s109 (director):** the `red_x` "miss" mark at (1050, 540) lands on the trevally's face, so it reads as "this fish
+  is crossed out" rather than "missed Doug". Move it into the gap between the fish's nose and Doug (about `x 1120, y 470`,
+  scale 0.25), or swap it for a "MISS" label.
+- **s077 (director):** the cap sits right against the crab's red claw in the same red, so it partly merges. Nudge
+  `doug_cap` about 50 px right (and the same in s078).
+- **s212 (director):** the 8 stacked finish-line banners along the route look like garbled red and white blocks at
+  playback size. Fewer and larger banners (3–4 at scale 1.3), or a single banner plus the "16 MARATHONS" wordart,
+  would read faster.
+- **s193 (director):** the sand puff is a large speckled disc that hazes over the croc's tail. Dropping `density` to
+  0.35 would keep the cue and lose the haze.
+
+### Thumbnail (`build/thumbnail.png`, `build/thumbnail_small.png`): PASS
+
+I checked it at 1280x720, 320x180 and a 168x94 downscale.
+- It uses archetype B: a pyramid with 11 tiles (the limit is 12) and labels outside the triangle, alternating sides,
+  each 4 words or fewer.
+- All 11 creatures stay recognisable at 168x94, and the labels are still legible at 320x180. The orca alone at the
+  apex makes the threat obvious.
+- It complements "How Every Step of the Ocean Food Chain Would Kill Doug" without repeating it. There is no title text
+  on the image. It isn't misleading, since every tile is a chapter.
+- There is no gore and no kids-show tone.
+- Advisory (graphic designer): Doug, in the snail costume in the mantis shrimp tile, is about a 3 px red dot at 168x94.
+  That is within the bible's "small scale figure" rule, but scaling him about 1.3x, so the white head and red cap read
+  at feed size, would tie the image to "Doug" in the title.
+
+Re-screen after fixes: re-run `keyframes --shots s110,s193` (plus s109/s077/s078/s212 if the advisories are taken) and
+send me the sheet.

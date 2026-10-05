@@ -33,3 +33,38 @@
 - Series bible: the counter goes to 74 and the "cap with a new owner" ending gets logged after QC, following the usual practice.
 
 SCRIPT: APPROVED
+
+## 2026-10-05: thumbnail gate (creative director), CHANGES REQUESTED (round 1)
+Inputs: `thumbnail.json`, `build/thumbnail.png`, `build/thumbnail_small.png`, my own 168x94 downscale, the title in `metadata.json`,
+style bible 1.4 / 2.B / 2 grammar / Designer rules 10-11, and brief 3 + 7. There is one candidate (archetype B).
+- **What passes:** this is archetype B with 11 items (12 is the limit) and labels outside the pyramid that alternate sides bottom-up in exact chapter order
+  (mantis shrimp, moray, octopus, trevally, grouper, tiger shark, croc, polar bear, great white, sperm whale, orca). Each label is 3 words or fewer.
+  ComicNeue-Bold is the only font. There's no title text, and no label repeats a title or alt-title word (Every, Step, Ocean, Food, Chain,
+  Kill, Doug, Predator). There's no gore and the canvas is clean. At 168x94 all 11 animals keep their silhouettes and most labels still read, so
+  the A-grid fallback isn't needed. "Orca above Great White Shark" and "Mantis Shrimp on the bottom rung" are good curiosity gaps.
+- **Why it isn't approved yet:** brief 7 makes "the thumbnail must look like nature horror, not a picture book" a hard condition, and this one
+  reads like a classroom food-chain poster. Every animal is in a calm side profile, the bands are evenly cheerful, and nothing tells the
+  viewer that climbing this pyramid gets worse. Next to a topic of animals plus a costume, that's our biggest kid-appeal and CTR risk. The fixes below are
+  small and keep the layout. The visual screener also hasn't done a thumbnail pass yet.
+
+Change requests (graphic designer). Keep the geometry, label positions and fonts.
+1. **Apex band = boss band.** Change the apex poly fill from `#ff4a3a` to near-black `#111111`, matching the "NO PREDATORS" boss card.
+   Put a clean, flat red halo behind the orca: a filled `ellipse` of about rx 150 / ry 50 at the orca's centre, fill about `#e8231f`, **no
+   outline** so it reads as a glow and not an annotation circle, and **not** `spray`, because thumbnails carry no paint artefacts. Draw the orca at full
+   colour on top. The white eye patch and belly must still separate from the black band at 168 px.
+2. **The top two tiers darken, so the climb reads as more dangerous.** Change the Great White Shark half from `#ffe24a` to deep navy (about
+   `#1b2a6b`) and the Sperm Whale half from `#4fd6f0` to deep red (about `#a3162a`). Leave the bottom four tiers as they are. Check that the grey
+   shark and grey whale outlines still separate from the new fills at 168 px. If one doesn't, lighten that fill one step. Don't recolour the animal.
+3. **The hook item shows its weapon.** Swap `mantis_shrimp` for `mantis_shrimp_strike` (same body, club swung forward), which is the "it hits
+   twice" hook. Keep at least 20 px between the club tip and Doug's costume. Move Doug right (about x 585-595) if needed, and keep him inside the band.
+4. (Optional, do it if it costs nothing) Raise Doug from scale 0.175 to about 0.20 so his red cap registers as a red dot at 320 px. He stays
+   smaller than the mantis shrimp, as a scale figure only.
+5. (Optional) The YouTube duration badge sits over the bottom-right corner (roughly x > 1135, y > 650 at 1280x720), and "Moray" is under it.
+   If the label can be nudged up or left without touching "Giant Trevally" or the pyramid edge, do it. If not, leave it, because the eel itself stays visible.
+
+After the changes: run `python -m studio thumbnail 008-ocean-food-chain` and `python -m studio validate 008-ocean-food-chain`, re-check the 168x94 downscale,
+update the `_note` and `metadata.json` → `thumbnail_brief` if the description changes (dark apex), then do a visual-screener thumbnail pass.
+s001 uses `scene_ref: thumbnail`, so the opening image updates without a shotlist edit. Re-submit to the CD. If items 1-3 come back as specified and the
+screener passes, I'll approve it without another round.
+
+THUMBNAIL: CHANGES REQUESTED (round 1)

@@ -165,3 +165,45 @@ Routing: fixes 1-23 and 25-31 go to the **director**. Fix 24 (`water_splash`) go
 After the fixes, re-render only the touched shots with `--shots`, and send me the new sheets for round 2.
 
 KEYFRAMES: FAIL (round 1)
+
+# Keyframes round 2
+
+Reviewer: art director, 2026-10-05. Scope: the 70 re-rendered shots from the director's round-1 fix report
+(`build/contact/sheet_01..06.png`), full-res crops from `build/keyframes/` where needed (s110, s113, s138, s193, s212, plus
+pixel measurement of right-edge text on s186, s212, s213, s251, s288). I also reviewed the new library asset `water_splash` /
+`water_splash_small` (`assets/previews/008-ocean-food-chain-splash*.png`).
+
+## Verdict: PASS (with 1 blocking fix: a one-line move; no re-review needed once it is applied)
+
+**Asset `water_splash` / `water_splash_small`: APPROVED.** It reads as a splash (not ice) on sky, open-water and navy backgrounds.
+It is in the detailed tier (layered `#bfe6ff` fills, `#3a9ad9` inner strokes, white highlights, droplets), and the base ring sits in
+the water. s096, s101, s102, s109, s110, s163, s223, s233, s243 and s247 all anchor it on the waterline. The ice-field read is gone.
+
+**Round-1 fixes verified as done:** 1 (cap on the floor in s059/s060/s077/s078), 2-4 (counter zone clear in s015-s019, s268, s189,
+s317), 5-12 (text clear of creatures in s060, s061, s105, s113, s114, s125, s138, s143, s282), 13-22 (s179, s194, s212, s213, s155,
+s183, s251 *frame*, s288, s291, s267), 23 (boat at x 320 in s130-s132), 24 (splash swapped; sand puff in s193; no splash under the timer in s234;
+a single splash in s243), 25 (tide table in hand in s191), 26 (15 red-tinted of ~40 in s299 now reads), 27 (moray head and mouth
+visible in s058), 28 (car on the jaws plus down-arrows in s174), 29 (sun filled in s235/s236), 30 (polar water `#3a9ad9` in s197-s205),
+31 (PUGET SOUND, 2024 merged in s317), and the advisory s184 sky `#8fd3ff`. The s212 finish banners at 0.45 now read as banners.
+
+**Director's flagged shots:**
+- **s155: OK.** THOUSANDS OF KM sits inside the map over open Pacific, the turtle-Doug presenter is in the margin, and the cap is clear.
+- **s193: OK.** The sand puff reads as dust (not water), and the cap on the sand carries rule 2. See advisory A2.
+- **s234: OK.** The timer stands in clear sky with no splash. "< 1 MINUTE" (top about y 265) is clear of the counter zone.
+
+Style bible 7, rules 1-9: PASS on all 70. The cap is visible on every death beat, labels stay at 2 or fewer (s317 fixed), the value ramp is consistent, and there is no gore.
+
+## Blocking fix (director)
+1. **s251**: WHOLE SEASON (label centred at x 1720, size 40) runs to x 1898, which is 22 px from the frame edge and outside the safe area
+   (new art bible "Text" rule: x 64-1856). Set the label to x 1680, size 36, and move the calendar to x 1680 with it. Re-render `--shots s251` only.
+   No art re-review is needed: confirm the label's right edge is at 1856 or less and move on.
+
+## Advisory (polish, not blocking)
+- A1. **s110**: the grey `spray` (1350,640, `#222222`) meant as tern feathers lands on the trevally's back and reads as a dirty
+  smudge. Use `#ffffff`/`#dddddd` at about (1350, 560), above the fish, or delete it.
+- A2. **s193**: the croc still sits mostly in the green water band. Drop it to y about 830 so its feet are on the sand where Doug stood,
+  and the sand puff will sit under it naturally.
+- A3. Right-margin text that is inside the safe area but tight: s212 "16 MARATHONS" reaches x 1855, s288 STARBOARD x 1842, and
+  s186 TORRES STRAIT x 1834. If you touch these shots anyway, shift them left about 30 px.
+
+KEYFRAMES: PASS (round 2), conditional on blocking fix 1 (s251)

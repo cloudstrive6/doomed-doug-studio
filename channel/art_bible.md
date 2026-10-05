@@ -104,6 +104,9 @@ Wordart and title text must not cross a map frame line, land masses, crystals or
 On full-width maps there is no clear band below the frame: shrink the map (about 0.8-0.9) and raise it, then put the
 wordart in the freed strip, or use a short word in the side margin (007: 9 map shots failed this). Tall props (trees,
 towers, fishing rods) must stay below the chapter top bar.
+Safe area: every label/wordart edge stays inside x 64-1856, y 40-1040 at 1080p (the counter's right edge, about x 1790,
+is the reference). Side-margin labels next to a map: centre at x about 1680, size 36-40, and keep them short, or wrap to two
+lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008 s251).
 
 ## Recurring layouts
 - **Depth meter**: tall canvas + `pan_down`, zone bands, white `label` depth markers at left.
