@@ -1,0 +1,136 @@
+{
+ "ocean food chain": {
+  "demand": {
+   "score": 6,
+   "suggestions": [
+    "ocean food chain",
+    "ocean food chain for kids",
+    "ocean food chain song",
+    "ocean food chain project",
+    "ocean food chain drawing",
+    "ocean food chain animation",
+    "ocean food chain model",
+    "ocean habitat food chain drawing",
+    "the ocean food chain"
+   ]
+  },
+  "saturation": {
+   "copies_100k": 6,
+   "channels": [
+    "Absolute Past",
+    "Fauna Code",
+    "MetaVine Labs",
+    "Nick Kratka",
+    "Ranked World",
+    "Shivan Decode "
+   ],
+   "vph_median": 144.9,
+   "vph_best": 8801.1,
+   "top": [
+    {
+     "title": "Eating ONLY What I Catch For 24 Hours",
+     "channel": "Nick Kratka",
+     "views": 4665177,
+     "age_days": 22.1,
+     "vph": 8801.1,
+     "id": "F7s8ZAKrrY0"
+    },
+    {
+     "title": "Catching Food with Bow and Arrows",
+     "channel": "Nick Kratka",
+     "views": 12405308,
+     "age_days": 66.1,
+     "vph": 7821.4,
+     "id": "QVuIffC6D-w"
+    },
+    {
+     "title": "Why Can't We Eat the Ocean's Most Abundant Creature?",
+     "channel": "Fauna Code",
+     "views": 864363,
+     "age_days": 6.9,
+     "vph": 5236.1,
+     "id": "b5zNEx9HAec"
+    },
+    {
+     "title": "Mariana Trench: What Really Exists 11 KM Below the Ocean?",
+     "channel": "Shivan Decode ",
+     "views": 3890347,
+     "age_days": 56.1,
+     "vph": 2887.6,
+     "id": "jzyAHsYqUm8"
+    },
+    {
+     "title": "Deep Sea Fish Eat Fish 2026 | Sea Monster Food Chain",
+     "channel": "MetaVine Labs",
+     "views": 413433,
+     "age_days": 36.3,
+     "vph": 474.1,
+     "id": "cMvK2lXMbVE"
+    }
+   ]
+  }
+ },
+ "apex predator ocean": {
+  "demand": {
+   "score": 1,
+   "suggestions": [
+    "apex predator ocean"
+   ]
+  },
+  "saturation": {
+   "copies_100k": 6,
+   "channels": [
+    "Apex Paleo",
+    "BeyondTheBlue",
+    "Dr. Curiosphere",
+    "ExtinctZoo ",
+    "Nick Kratka",
+    "OctoLab"
+   ],
+   "vph_median": 1317.4,
+   "vph_best": 27993.1,
+   "top": [
+    {
+     "title": "I Caught Every Exotic Ocean Animal!",
+     "channel": "Nick Kratka",
+     "views": 6104642,
+     "age_days": 9.1,
+     "vph": 27993.1,
+     "id": "4TcKGZeg9AI"
+    },
+    {
+     "title": "Why Polar Bears Are The Weirdest Apex Predator on Earth",
+     "channel": "OctoLab",
+     "views": 1846772,
+     "age_days": 6.0,
+     "vph": 12728.0,
+     "id": "mohwt0FHN8c"
+    },
+    {
+     "title": "Why The Ocean's Deadliest Predator Refuses To Kill Us",
+     "channel": "OctoLab",
+     "views": 7746562,
+     "age_days": 87.0,
+     "vph": 3708.4,
+     "id": "VtrcKTkhDHU"
+    },
+    {
+     "title": "Earth's Deadliest Predator From Every Single Period",
+     "channel": "ExtinctZoo ",
+     "views": 2169709,
+     "age_days": 64.2,
+     "vph": 1408.8,
+     "id": "fKizW6NlnoA"
+    },
+    {
+     "title": "The Deadliest Sea Animal From Every Single Period",
+     "channel": "ExtinctZoo ",
+     "views": 2691478,
+     "age_days": 85.1,
+     "vph": 1317.4,
+     "id": "eWu92oXtxsw"
+    }
+   ]
+  }
+ }
+}
