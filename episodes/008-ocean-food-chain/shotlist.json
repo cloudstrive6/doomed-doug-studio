@@ -6749,8 +6749,8 @@
      },
      {
       "type": "doug",
-      "x": 800,
-      "y": 420,
+      "x": 560,
+      "y": 520,
       "scale": 0.4,
       "pose": "float",
       "expression": "dead",
@@ -9253,7 +9253,7 @@
       "type": "label",
       "text": "SNAP",
       "x": 1450,
-      "y": 420,
+      "y": 470,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -12794,8 +12794,8 @@
       "x": 960,
       "y": 760,
       "scale": 0.42,
-      "pose": "cower",
-      "expression": "gritted",
+      "pose": "stand",
+      "expression": "shock",
       "facing": "right",
       "appear": 0.5
      },
@@ -13066,7 +13066,7 @@
       "x": 960,
       "y": 760,
       "scale": 0.42,
-      "pose": "cower",
+      "pose": "stand",
       "expression": "hopeful",
       "facing": "right"
      },
@@ -18794,19 +18794,19 @@
       "type": "poly",
       "points": [
        [
-        900.0,
+        1400.0,
         680
        ],
        [
-        1016.6666666666666,
+        1483.3333333333333,
         620
        ],
        [
-        1483.3333333333333,
+        1816.6666666666667,
         616
        ],
        [
-        1600.0,
+        1900.0,
         680
        ]
       ],
@@ -18837,7 +18837,7 @@
      },
      {
       "type": "doug",
-      "x": 1250,
+      "x": 1700,
       "y": 542.0,
       "scale": 0.5,
       "pose": "stand",
@@ -18847,7 +18847,7 @@
      {
       "type": "asset",
       "name": "tern_costume",
-      "x": 1250,
+      "x": 1700,
       "y": 542.0,
       "scale": 0.5
      },
@@ -38151,8 +38151,8 @@
      {
       "type": "label",
       "text": "HOW FAR?",
-      "x": 1127,
-      "y": 250,
+      "x": 1500,
+      "y": 310,
       "size": 52,
       "bold": true,
       "boil": 0.4,
@@ -38926,7 +38926,7 @@
       "type": "wordart",
       "text": "16 MARATHONS",
       "x": 1150,
-      "y": 330,
+      "y": 320,
       "size": 90,
       "boil": 0,
       "appear": 0.444
@@ -39047,7 +39047,7 @@
      {
       "type": "label",
       "text": "+1,800 KM",
-      "x": 1150,
+      "x": 1450,
       "y": 330,
       "size": 60,
       "bold": true,
@@ -42302,8 +42302,8 @@
      {
       "type": "wordart",
       "text": "COIN TOSS",
-      "x": 1013,
-      "y": 300,
+      "x": 1450,
+      "y": 330,
       "size": 90,
       "boil": 0,
       "appear": 0.9
@@ -44450,8 +44450,8 @@
      {
       "type": "wordart",
       "text": "SQUID",
-      "x": 1082,
-      "y": 330,
+      "x": 1450,
+      "y": 400,
       "size": 120,
       "boil": 0,
       "appear": 0.833
@@ -44790,7 +44790,7 @@
      {
       "type": "label",
       "text": "236 dB",
-      "x": 1450,
+      "x": 1550,
       "y": 330,
       "size": 90,
       "bold": true,
@@ -44901,9 +44901,9 @@
      {
       "type": "wordart",
       "text": "LOUDEST",
-      "x": 1003,
-      "y": 300,
-      "size": 120,
+      "x": 1450,
+      "y": 340,
+      "size": 110,
       "boil": 0,
       "appear": 0.3
      },
