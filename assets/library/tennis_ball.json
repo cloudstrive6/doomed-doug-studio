@@ -1,0 +1,142 @@
+{
+ "name": "tennis_ball",
+ "description": "Yellow-green tennis ball with white curved seams. Anchor centre, 120 across.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "ball",
+  "sport"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 58,
+   "ry": 58,
+   "fill": "#d7e94a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 20,
+   "y": 22,
+   "r": 34,
+   "color": "#a9bd2a",
+   "density": 0.4
+  },
+  {
+   "type": "spray",
+   "x": -22,
+   "y": -24,
+   "r": 20,
+   "color": "#f0fa9a",
+   "density": 0.4
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     -42
+    ],
+    [
+     -14,
+     -16
+    ],
+    [
+     -16,
+     20
+    ],
+    [
+     -44,
+     40
+    ]
+   ],
+   "width": 9,
+   "color": "#b8c0a0"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     -42
+    ],
+    [
+     -14,
+     -16
+    ],
+    [
+     -16,
+     20
+    ],
+    [
+     -44,
+     40
+    ]
+   ],
+   "width": 5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     40,
+     -42
+    ],
+    [
+     14,
+     -16
+    ],
+    [
+     16,
+     20
+    ],
+    [
+     44,
+     40
+    ]
+   ],
+   "width": 9,
+   "color": "#b8c0a0"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     40,
+     -42
+    ],
+    [
+     14,
+     -16
+    ],
+    [
+     16,
+     20
+    ],
+    [
+     44,
+     40
+    ]
+   ],
+   "width": 5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 58,
+   "ry": 58,
+   "fill": null,
+   "width": 5
+  }
+ ]
+}

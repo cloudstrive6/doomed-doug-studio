@@ -46,6 +46,8 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 
 ## Item 1: Mantis Shrimp
 
+**DONE (illustrator):** `mantis_shrimp`, `mantis_shrimp_strike`, `mantis_arm_spring`, `snail_shell_cracked`, `highspeed_camera`, `speedometer`. Preview: `assets/previews/008-item1-assets.png` (on surface blue + 0.17 staircase size: `assets/previews/008-item1-in-context.png`). Notes: shrimp spans x -262..+270 (strike club heel at x +342, same body); speedometer dial ends at y +44 so (0,+60) is clear.
+
 ### mantis_shrimp (A)
 - **What:** peacock mantis shrimp (*Odontodactylus scyllarus*), side view facing right, resting.
 - **Look:** segmented body in bright green `#3fae5a` with darker green back, orange-red legs and swimmerets, a blue-and-red tail
@@ -87,6 +89,8 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 
 ## Item 2: Giant Moray
 
+**DONE (illustrator):** `giant_moray`, `moray_xray`, `moray_xray_jaws_forward`, `tape_measure`, `roving_coral_grouper`, `reef_fish_costume`, `reef_fish_costume_flat`. Preview: `assets/previews/008-item2-assets.png`; on navy / silhouette / worn on Doug: `assets/previews/008-item2-in-context.png`. Notes: moray x -474..+456, head x +300..+456; x-ray heads are identical geometry (pharyngeal jaw at x -120 vs +150).
+
 ### giant_moray (A, SIL)
 - **What:** giant moray eel (*Gymnothorax javanicus*), side view facing right.
 - **Look:** very long, thick, muscular body tapering to the tail, with a continuous dorsal fin. Pale yellow-brown with **dark
@@ -125,6 +129,8 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 - **Flat:** 460x170, `c`, the empty suit lying flat with the button eye crossed out. **Shots:** s059-s060.
 
 ## Item 3: Giant Pacific Octopus
+
+**DONE (illustrator):** `giant_pacific_octopus`, `octopus_arm`, `glass_jar`, `jar_lid`, `crab_costume`, `crab_costume_flat`, `tennis_ball`, `bathroom_scale`. Preview: `assets/previews/008-item3-assets.png`; worn on Doug / jar: `assets/previews/008-item3-in-context.png`. Notes: octopus arm tips at x -500..+500, y -284..+290; jar neck x +-150 (lid 340 overhangs 20 a side); crab costume claws reach x +-180, eye stalks curve out past the brim tip to y -372.
 
 ### giant_pacific_octopus (A)
 - **What:** giant Pacific octopus, seen from slightly above, **arms spread wide**.
@@ -169,6 +175,8 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 
 ## Item 4: Giant Trevally
 
+**DONE (illustrator):** `giant_trevally`, `sooty_tern`, `tern_costume`. Preview: `assets/previews/008-item4-assets.png`; rotated -45 / silhouette / worn on stand, arms_up, panic1: `assets/previews/008-item4-in-context.png`.
+
 ### giant_trevally (A, SIL)
 - **What:** giant trevally (*Caranx ignobilis*).
 - **Look:** a deep-bodied, powerful silver fish with a **steep blunt forehead** and a dark grey-silver back, a slightly
@@ -191,6 +199,8 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 - **Shots:** s086-s101, s103-s104, s106-s112.
 
 ## Item 5: Goliath Grouper
+
+**DONE (illustrator):** `goliath_grouper`, `goliath_grouper_full`, `shark_costume`, `baby_grand_piano`, `shipwreck`. Preview: `assets/previews/008-ocean-food-chain-items5-7-assets.png`; worn on Doug (float, hands_hips, wave) / silhouettes / dark water: `assets/previews/008-items5-7-in-context.png`. Notes: grouper body x -418..+426 (fins to y -258..+236), mouth gape x +272..+426 around y +20; `_full` adds the felt tail tip to x +560; shark costume fin tip at (-100,-336), kept left of the head and cap (bbox x -196..+124); piano 570x356 and shipwreck 1000x356 both sit on y=0.
 
 ### goliath_grouper (A, SIL)
 - **What:** goliath grouper (*Epinephelus itajara*).
@@ -225,6 +235,8 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 - **Size/anchor:** 1000x360, `bc`. **Shots:** s113-s128, s135-s138.
 
 ## Item 6: Tiger Shark
+
+**DONE (illustrator):** `tiger_shark`, `tiger_shark_xray`, `tin_can`, `burlap_sack`, `sea_turtle_costume`, `sea_turtle_costume_flat`, `seagrass`, `albatross_chick`, `australia_map`. Preview: `assets/previews/008-ocean-food-chain-items5-7-assets.png`; worn on Doug (float, hands_hips, wave) / silhouettes / dark water: `assets/previews/008-items5-7-in-context.png`. Notes: x-ray stomach is an empty oval exactly at (+40,+20) rx 170 ry 75, line-only (no fills); turtle shell centred (-80,-60), bbox x -172..+150; australia_map uses the exact 28 px/deg projection (frame x -630..+630, y -476..+476), clipped at the frame, and also shows Java to Timor along the top.
 
 ### tiger_shark (A, SIL)
 - **What:** tiger shark (*Galeocerdo cuvier*).
@@ -276,6 +288,8 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 
 ## Item 7: Saltwater Crocodile
 
+**DONE (illustrator):** `saltwater_crocodile`, `tide_table`. Preview: `assets/previews/008-ocean-food-chain-items5-7-assets.png`; worn on Doug (float, hands_hips, wave) / silhouettes / dark water: `assets/previews/008-items5-7-in-context.png`. Notes: croc spans x -504..+502, y -187..0 (feet flat on y=0), snout tip at x +500.
+
 ### saltwater_crocodile (A, SIL)
 - **What:** saltwater crocodile (*Crocodylus porosus*), side view facing right, standing low.
 - **Look:** a huge, long, heavy olive-grey to dark brown body with lighter yellowish flanks and belly, rows of bony scutes along
@@ -292,6 +306,7 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 ## Item 8: Polar Bear
 
 ### polar_bear (A)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** a polar bear walking on the ice, side view facing right.
 - **Look:** a creamy white `#f4f1e4` coat with pale grey-blue shading underneath (so it reads on white ice: **give it a clear
   dark outline**), a long neck, a small head with a black nose and a small dark eye, and big paws. Not cuddly: a heavy predator
@@ -299,11 +314,13 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 - **Size/anchor:** 620x380, `bc`. **Shots:** s195-s198, s200, s206-s208, s210, s213-s215, s220, s284-s285, s311.
 
 ### polar_bear_lying (B)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** the bear still-hunting: **lying flat on its belly**, chin on the ice, front paws forward, motionless.
 - **Look:** same colours and outline as `polar_bear`. It should read as "a large white shape, very still".
 - **Size/anchor:** 660x190, `bc`; the head is at the left end (it lies beside a hole on its left). **Shots:** s202-s205, s217-s218.
 
 ### seal_costume (A) / seal_costume_patched (A) / seal_costume_flat (B)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** Doug's seal costume (polar bear), and the same costume patched up (great white).
 - **Look:** a grey `#8a8f96` seal body suit with darker speckles and a pale belly panel, two flipper mitts at the suit sides,
   tail flippers at the feet, and **whiskers**: three short black lines on each side poking out sideways from behind the cheeks,
@@ -315,6 +332,7 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 - **Flat:** 460x170 `c`, the empty grey suit lying flat on the ice, eyes crossed out. **Shots:** s219-s220.
 
 ### cape_fur_seal (A)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** a real seal, swimming, side view facing right (it stands in for Cape fur seals, and for ringed/bearded seals in the
   polar shots).
 - **Look:** a sleek brown-grey body, a darker back, a pointed snout with whiskers, small ear flaps, and fore-flippers. Not cute:
@@ -323,6 +341,7 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 - **Shots:** s197, s200-s201, s205-s206, s227-s233, s239-s240.
 
 ### beaufort_map (B)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-maps-items8-11.png`.
 - **What:** a regional map of the Beaufort Sea north of Alaska, in the `world_map` style (flat green land, dark outline,
   light-blue sea, black frame, no labels).
 - **Projection:** lon 165..125 W, lat 66..77 N, `c` anchor at lon -145 / lat 71.5: `x = (lon + 145) * 24`,
@@ -331,6 +350,7 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 - **Shots:** s209, s211-s213 (always at 900,640 scale 0.9).
 
 ### finish_banner (C)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** a tiny marathon finish arch.
 - **Look:** two thin poles with a red-and-white checkered banner on top.
 - **Size/anchor:** 120x110, `bc`. I place 16 copies along the swim route at scale 0.3. **Shots:** s212.
@@ -338,6 +358,7 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 ## Item 9: Great White Shark
 
 ### great_white_shark (A, SIL)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** great white shark (*Carcharodon carcharias*), side view facing right.
 - **Look:** a heavy torpedo body, slate-grey back with a **sharp countershading line** to the white belly, a conical snout, a
   black eye, a big triangular dorsal fin and a crescent tail. The mouth is closed with a few teeth visible. No blood.
@@ -346,20 +367,24 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
   s284-s285, s289, s305, s311.
 
 ### seal_island (B)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** Seal Island, False Bay: a low, flat, rocky island crowded with seals.
 - **Look:** a low grey-brown granite outcrop with flat top, and 15-20 small brown seal shapes lying on it.
 - **Size/anchor:** 900x220, `bc` (bottom = waterline). **Shots:** s227-s228.
 
 ### seal_decoy (C)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** a seal-shaped decoy: a flat grey cut-out of a seal (carpet/rubber), floating, with a tow-rope loop at the nose.
 - **Size/anchor:** 260x70, `c`. **Shots:** s244.
 
 ### six_story_building (C)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** a plain six-storey building for the 20 m scale.
 - **Look:** a light concrete block with **exactly six rows of windows** and a flat roof.
 - **Size/anchor:** 300x600, `bc` (used at scale 1.067 so it is exactly 640 px = 20 m). **Shots:** s230.
 
 ### south_africa_map (B)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-maps-items8-11.png`.
 - **What:** a map of South Africa in the `world_map` style.
 - **Projection:** lon 15..34 E, lat 22..36 S, 70 px per degree, 1330x980, `c` at lon 24.5 / lat -29:
   `x = (lon - 24.5) * 70`, `y = -(lat + 29) * 70`. False Bay must be a clear notch (Seal Island at 18.59, -34.14), and Gansbaai
@@ -369,6 +394,7 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 ## Item 10: Sperm Whale
 
 ### sperm_whale_top (A)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** a sperm whale seen **from above**, for the marguerite (daisy) defence ring.
 - **Look:** the same dark grey as `sperm_whale`, with a long, wide, **blunt box head** (the top third), a narrowing body with
   knuckles along the back, and tail flukes spread at the left end. Small white scar circles on the head.
@@ -378,6 +404,7 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 ## Item 11: Orca (boss)
 
 ### orca (A, SIL)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** a big male orca, side view facing right.
 - **Look:** jet black with crisp white eye patch, white chin/belly, grey saddle patch behind a **very tall straight dorsal fin**
   (male), paddle flippers, and flukes. The mouth is closed. It must look powerful, not plush.
@@ -388,10 +415,12 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
   head at about (+210,-110) so the cap sits on it (s314, s318-s319).
 
 ### orca_bent_fin (B)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** Port and Starboard: the same orca with a **collapsed dorsal fin bent over** to one side.
 - **Size/anchor:** 900x300, `c`. **Shots:** s288-s289.
 
 ### sailboat (A) / sailboat_no_rudder (A)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** Doug's tiny sailboat.
 - **Look:** a small white single-mast sailing boat in side view facing right, with a short hull (blue stripe), **one triangular
   white sail** on a mast that rises to about y -480, and a ship's **wheel on a post** at about (+60,-150) where Doug stands at
@@ -403,11 +432,13 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
   **Shots (no rudder):** s301, s309-s310, s312-s314, s318-s319.
 
 ### rudder (B)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** the loose rudder the orcas take.
 - **Look:** a white fibreglass blade with a grey stock on top and a snapped edge.
 - **Size/anchor:** 90x160, `c`. **Shots:** s301, s303, s309.
 
 ### life_jacket (A)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-assets-items8-11.png`.
 - **What:** an orange life jacket worn over Doug's stick body (worn prop).
 - **Look:** a bright orange `#ff7a1a` vest from the shoulders (y -130) to the hips (y -10), with two puffy front panels, black
   straps and a buckle. Arms and legs free.
@@ -415,6 +446,7 @@ Reused from the library (no work needed): `snail_costume`, `squid_costume`, `squ
 - **Shots:** s287, s299-s301, s304, s308-s314, s318-s319.
 
 ### iberia_map (C)
+- **DONE** (illustrator): drawn in `assets/library/`, preview `assets/previews/008-ocean-food-chain-maps-items8-11.png`.
 - **What:** a map of Spain and Portugal in the `world_map` style.
 - **Projection:** lon 10 W..4 E, lat 35.5..44 N, 80 px per degree, 1120x680, `c` at lon -3 / lat 39.75:
   `x = (lon + 3) * 80`, `y = -(lat - 39.75) * 80`. Include the tip of North Africa and the Strait of Gibraltar.

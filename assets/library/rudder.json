@@ -1,0 +1,174 @@
+{
+ "name": "rudder",
+ "description": "Loose sailboat rudder: white fibreglass blade with a grey stock on top that ends in a snapped jagged stub, plus a cracked/snapped leading edge. Anchor centre, 90x170 (x -26..44, y -88..80).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "boat",
+  "rudder",
+  "orca"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -8,
+   "y": -80,
+   "w": 16,
+   "h": 50,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#8d939a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -8.0,
+     -80.0
+    ],
+    [
+     -3.0,
+     -86.0
+    ],
+    [
+     1.0,
+     -78.0
+    ],
+    [
+     5.0,
+     -88.0
+    ],
+    [
+     8.0,
+     -80.0
+    ]
+   ],
+   "width": 3,
+   "fill": "#8d939a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -6.0,
+     -40.0
+    ],
+    [
+     30.0,
+     -40.0
+    ],
+    [
+     44.0,
+     -20.0
+    ],
+    [
+     44.0,
+     40.0
+    ],
+    [
+     30.0,
+     72.0
+    ],
+    [
+     6.0,
+     80.0
+    ],
+    [
+     -14.0,
+     70.0
+    ],
+    [
+     -24.0,
+     30.0
+    ],
+    [
+     -26.0,
+     -20.0
+    ]
+   ],
+   "width": 5,
+   "fill": "#f4f4f0",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 18.0,
+   "y": 20.0,
+   "r": 22,
+   "color": "#d8dadc",
+   "density": 0.2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -14.0,
+     -30.0
+    ],
+    [
+     -18.0,
+     30.0
+    ],
+    [
+     -6.0,
+     66.0
+    ]
+   ],
+   "width": 2,
+   "color": "#bfc3c7"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -26.0,
+     -20.0
+    ],
+    [
+     -18.0,
+     -14.0
+    ],
+    [
+     -24.0,
+     -6.0
+    ],
+    [
+     -14.0,
+     0.0
+    ],
+    [
+     -20.0,
+     8.0
+    ]
+   ],
+   "width": 3,
+   "color": "#555555"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -26.0,
+     -20.0
+    ],
+    [
+     -6.0,
+     -40.0
+    ],
+    [
+     -14.0,
+     -28.0
+    ],
+    [
+     -10.0,
+     -18.0
+    ]
+   ],
+   "width": 2,
+   "fill": "#e3e3df"
+  }
+ ]
+}

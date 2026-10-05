@@ -1,0 +1,311 @@
+{
+ "name": "jar_lid",
+ "description": "Grey metal screw lid for glass_jar: flat top ellipse, ridged side. Anchor centre, 340x60.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "jar",
+  "lid",
+  "metal"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -170,
+     -18
+    ],
+    [
+     170,
+     -18
+    ],
+    [
+     170,
+     26
+    ],
+    [
+     -170,
+     26
+    ]
+   ],
+   "fill": "#9aa0a6",
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -18,
+   "rx": 170,
+   "ry": 14,
+   "fill": "#c4c9ce",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -4
+    ],
+    [
+     -150,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -130,
+     -4
+    ],
+    [
+     -130,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -110,
+     -4
+    ],
+    [
+     -110,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -90,
+     -4
+    ],
+    [
+     -90,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -70,
+     -4
+    ],
+    [
+     -70,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -4
+    ],
+    [
+     -50,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -4
+    ],
+    [
+     -30,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -4
+    ],
+    [
+     -10,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -4
+    ],
+    [
+     10,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -4
+    ],
+    [
+     30,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     -4
+    ],
+    [
+     50,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     -4
+    ],
+    [
+     70,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     90,
+     -4
+    ],
+    [
+     90,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     110,
+     -4
+    ],
+    [
+     110,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     130,
+     -4
+    ],
+    [
+     130,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     150,
+     -4
+    ],
+    [
+     150,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6b7076"
+  },
+  {
+   "type": "spray",
+   "x": 110,
+   "y": 8,
+   "r": 30,
+   "color": "#6b7076",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -120,
+     -24
+    ],
+    [
+     -40,
+     -28
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  }
+ ]
+}

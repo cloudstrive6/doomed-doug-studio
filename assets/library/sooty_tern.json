@@ -1,0 +1,416 @@
+{
+ "name": "sooty_tern",
+ "description": "Sooty tern in flight, facing right: black back, long narrow angled black wings raised (near wing to x -150), white underside and forehead, black cap and eye-stripe, thin black bill, deeply forked tail streamers. Bold for small use. Anchor centre, ~320x120.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "bird",
+  "seabird",
+  "tern",
+  "ocean"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     -2
+    ],
+    [
+     30,
+     -40
+    ],
+    [
+     40,
+     -72
+    ],
+    [
+     6,
+     -44
+    ],
+    [
+     -30,
+     -10
+    ]
+   ],
+   "fill": "#3a3a42",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     6
+    ],
+    [
+     -162,
+     -16
+    ],
+    [
+     -110,
+     14
+    ],
+    [
+     -156,
+     40
+    ],
+    [
+     -70,
+     22
+    ]
+   ],
+   "fill": "#1b1b1f",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     12
+    ],
+    [
+     -40,
+     -6
+    ],
+    [
+     20,
+     -10
+    ],
+    [
+     60,
+     -10
+    ],
+    [
+     84,
+     -4
+    ],
+    [
+     88,
+     14
+    ],
+    [
+     60,
+     30
+    ],
+    [
+     0,
+     36
+    ],
+    [
+     -60,
+     26
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     12
+    ],
+    [
+     -40,
+     -6
+    ],
+    [
+     20,
+     -10
+    ],
+    [
+     60,
+     -10
+    ],
+    [
+     84,
+     -4
+    ],
+    [
+     70,
+     6
+    ],
+    [
+     20,
+     8
+    ],
+    [
+     -40,
+     10
+    ]
+   ],
+   "fill": "#1b1b1f",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 10,
+   "y": 26,
+   "r": 16,
+   "color": "#d8dde2",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     12
+    ],
+    [
+     -40,
+     -6
+    ],
+    [
+     20,
+     -10
+    ],
+    [
+     60,
+     -10
+    ],
+    [
+     84,
+     -4
+    ],
+    [
+     88,
+     14
+    ],
+    [
+     60,
+     30
+    ],
+    [
+     0,
+     36
+    ],
+    [
+     -60,
+     26
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     98,
+     6
+    ],
+    [
+     156,
+     12
+    ],
+    [
+     98,
+     16
+    ]
+   ],
+   "fill": "#1b1b1f",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": 84,
+   "y": 4,
+   "rx": 22,
+   "ry": 20,
+   "fill": "#ffffff",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     64.9,
+     14.0
+    ],
+    [
+     63.0,
+     10.0
+    ],
+    [
+     62.1,
+     5.7
+    ],
+    [
+     62.2,
+     1.4
+    ],
+    [
+     63.3,
+     -2.8
+    ],
+    [
+     65.4,
+     -6.7
+    ],
+    [
+     68.4,
+     -10.1
+    ],
+    [
+     72.2,
+     -12.9
+    ],
+    [
+     76.5,
+     -14.8
+    ],
+    [
+     81.1,
+     -15.8
+    ],
+    [
+     85.9,
+     -15.9
+    ],
+    [
+     90.6,
+     -15.1
+    ],
+    [
+     95.0,
+     -13.3
+    ],
+    [
+     92,
+     -8
+    ],
+    [
+     80,
+     -4
+    ],
+    [
+     66,
+     6
+    ]
+   ],
+   "fill": "#1b1b1f",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     74,
+     -4
+    ],
+    [
+     88,
+     0
+    ],
+    [
+     102,
+     8
+    ]
+   ],
+   "width": 5,
+   "color": "#1b1b1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 84,
+   "y": 4,
+   "rx": 22,
+   "ry": 20,
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": 88,
+   "y": 0,
+   "rx": 3.5,
+   "ry": 3.5,
+   "fill": "#ffffff",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -14,
+     2
+    ],
+    [
+     24,
+     0
+    ],
+    [
+     12,
+     -40
+    ],
+    [
+     -40,
+     -66
+    ],
+    [
+     -150,
+     -74
+    ],
+    [
+     -60,
+     -42
+    ],
+    [
+     -28,
+     -14
+    ]
+   ],
+   "fill": "#1b1b1f",
+   "width": 5
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     4,
+     -24
+    ],
+    [
+     -40,
+     -50
+    ],
+    [
+     -120,
+     -68
+    ]
+   ],
+   "width": 2,
+   "color": "#55555f"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -48
+    ],
+    [
+     -60,
+     -52
+    ]
+   ],
+   "width": 2,
+   "color": "#55555f"
+  }
+ ]
+}

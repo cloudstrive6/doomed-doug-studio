@@ -11,6 +11,7 @@ Scene usage:
    "expression": "shock", "gear": ["scuba"], "facing": "right", "ghost": false}
 `pose` / `expression` may be lists; they cycle with the boil variant (GIF-like loop).
 Lying down / death beats: `pose: "on_back"` with no `rotate` (optional gear `cap_off`); see docs/SCENE_SCHEMA.md.
+On any other pose `cap_off` just omits the cap (nothing on the ground): reserved for approved one-off exceptions.
 """
 from __future__ import annotations
 
@@ -198,7 +199,7 @@ def doug_elements(el: dict, variant: int = 0):
             body.append({"type": "poly", "points": [(hx + fx - 6 * k, hy + fy - 2 * k), (hx + fx + 1 * k, hy + fy - 6 * k),
                                                     (hx + fx + 6 * k, hy + fy + 1 * k), (hx + fx - 1 * k, hy + fy + 5 * k)],
                          "fill": "#ffffff", "width": 2, "color": ink, "boil": 0.3})
-    cap_off = flat and "cap_off" in gear
+    cap_off = "cap_off" in gear  # flat: cap lies on the ground; upright: simply no cap (approved one-offs only)
     if not cap_off:
         body += _cap(hx, hy)
     if "scuba" in gear or "mask" in gear:

@@ -1,0 +1,406 @@
+{
+ "name": "reef_fish_costume_flat",
+ "description": "Doug's reef_fish_costume after the death beat: empty yellow-orange felt suit lying flat (neck opening at the right), dark stripe, limp forked tail at the left, flopped dorsal fin, wrinkles, and the button eye crossed out with an X. No Doug, no tears. Anchor centre, ~440x110.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "costume",
+  "prop",
+  "fish",
+  "flat"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -6
+    ],
+    [
+     -228,
+     -40
+    ],
+    [
+     -206,
+     4
+    ],
+    [
+     -232,
+     44
+    ],
+    [
+     -150,
+     24
+    ]
+   ],
+   "fill": "#e07b10",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -160,
+     4
+    ],
+    [
+     -214,
+     4
+    ]
+   ],
+   "width": 2,
+   "color": "#a85808"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90,
+     -40
+    ],
+    [
+     -130,
+     -64
+    ],
+    [
+     -40,
+     -60
+    ],
+    [
+     -20,
+     -42
+    ]
+   ],
+   "fill": "#e07b10",
+   "width": 4,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -36
+    ],
+    [
+     -60,
+     -46
+    ],
+    [
+     40,
+     -40
+    ],
+    [
+     130,
+     -50
+    ],
+    [
+     190,
+     -36
+    ],
+    [
+     204,
+     0
+    ],
+    [
+     190,
+     36
+    ],
+    [
+     120,
+     44
+    ],
+    [
+     20,
+     38
+    ],
+    [
+     -80,
+     46
+    ],
+    [
+     -150,
+     34
+    ],
+    [
+     -160,
+     0
+    ]
+   ],
+   "fill": "#f5a623",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     10
+    ],
+    [
+     -60,
+     22
+    ],
+    [
+     40,
+     18
+    ],
+    [
+     130,
+     26
+    ],
+    [
+     194,
+     22
+    ],
+    [
+     190,
+     36
+    ],
+    [
+     120,
+     44
+    ],
+    [
+     20,
+     38
+    ],
+    [
+     -80,
+     46
+    ],
+    [
+     -150,
+     34
+    ]
+   ],
+   "fill": "#e07b10",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     -44
+    ],
+    [
+     -16,
+     -46
+    ],
+    [
+     -12,
+     40
+    ],
+    [
+     -36,
+     42
+    ]
+   ],
+   "fill": "#2a2a2a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 200,
+   "y": 0,
+   "rx": 10,
+   "ry": 26,
+   "fill": "#4a2a08",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     -40
+    ],
+    [
+     52,
+     0
+    ],
+    [
+     40,
+     38
+    ]
+   ],
+   "width": 3,
+   "color": "#a85808"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     120,
+     -46
+    ],
+    [
+     110,
+     -6
+    ],
+    [
+     126,
+     40
+    ]
+   ],
+   "width": 3,
+   "color": "#a85808"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -90,
+     -42
+    ],
+    [
+     -100,
+     10
+    ]
+   ],
+   "width": 3,
+   "color": "#a85808"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -140,
+     0
+    ],
+    [
+     180,
+     4
+    ]
+   ],
+   "width": 4,
+   "color": "#6b6b6b",
+   "dash": [
+    6,
+    5
+   ]
+  },
+  {
+   "type": "ellipse",
+   "x": 84,
+   "y": -8,
+   "rx": 22,
+   "ry": 20,
+   "fill": "#ffffff",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": 86,
+   "y": -8,
+   "rx": 11,
+   "ry": 10,
+   "fill": "#111111",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -30
+    ],
+    [
+     108,
+     14
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     108,
+     -30
+    ],
+    [
+     60,
+     14
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 140,
+   "y": 30,
+   "r": 30,
+   "color": "#c46a0c",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -36
+    ],
+    [
+     -60,
+     -46
+    ],
+    [
+     40,
+     -40
+    ],
+    [
+     130,
+     -50
+    ],
+    [
+     190,
+     -36
+    ],
+    [
+     204,
+     0
+    ],
+    [
+     190,
+     36
+    ],
+    [
+     120,
+     44
+    ],
+    [
+     20,
+     38
+    ],
+    [
+     -80,
+     46
+    ],
+    [
+     -150,
+     34
+    ],
+    [
+     -160,
+     0
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "smooth": true
+  }
+ ]
+}

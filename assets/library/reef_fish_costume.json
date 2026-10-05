@@ -1,0 +1,532 @@
+{
+ "name": "reef_fish_costume",
+ "description": "Doug's homemade small-reef-fish costume (worn prop): yellow-orange felt suit with darker orange back side, cream belly patch and one dark vertical stripe (echoes small_fish), forked felt tail behind the hips to about (-176,+40), small spiny dorsal fin on the back of the suit (not the head), round button eye sewn on the chest, zipper, uneven stitching. Anchor = Doug's hips; x -176..+96, y -176..+92. Head, face and cap stay visible.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "costume",
+  "prop",
+  "fish",
+  "reef"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     14
+    ],
+    [
+     -176,
+     -12
+    ],
+    [
+     -150,
+     38
+    ],
+    [
+     -176,
+     92
+    ],
+    [
+     -80,
+     56
+    ]
+   ],
+   "fill": "#e07b10",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -90,
+     24
+    ],
+    [
+     -160,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#a85808"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -92,
+     36
+    ],
+    [
+     -150,
+     38
+    ]
+   ],
+   "width": 2,
+   "color": "#a85808"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -90,
+     48
+    ],
+    [
+     -160,
+     76
+    ]
+   ],
+   "width": 2,
+   "color": "#a85808"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -78,
+     -128
+    ],
+    [
+     -112,
+     -176
+    ],
+    [
+     -122,
+     -120
+    ],
+    [
+     -118,
+     -70
+    ],
+    [
+     -86,
+     -40
+    ]
+   ],
+   "fill": "#e07b10",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -84,
+     -110
+    ],
+    [
+     -112,
+     -168
+    ]
+   ],
+   "width": 2,
+   "color": "#a85808"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -86,
+     -90
+    ],
+    [
+     -120,
+     -124
+    ]
+   ],
+   "width": 2,
+   "color": "#a85808"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -86,
+     -66
+    ],
+    [
+     -116,
+     -80
+    ]
+   ],
+   "width": 2,
+   "color": "#a85808"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     -140
+    ],
+    [
+     70,
+     -140
+    ],
+    [
+     90,
+     -100
+    ],
+    [
+     96,
+     -20
+    ],
+    [
+     88,
+     50
+    ],
+    [
+     60,
+     72
+    ],
+    [
+     0,
+     78
+    ],
+    [
+     -60,
+     72
+    ],
+    [
+     -88,
+     50
+    ],
+    [
+     -96,
+     -20
+    ],
+    [
+     -90,
+     -100
+    ]
+   ],
+   "fill": "#f5a623",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     -140
+    ],
+    [
+     -30,
+     -140
+    ],
+    [
+     -40,
+     74
+    ],
+    [
+     -60,
+     72
+    ],
+    [
+     -88,
+     50
+    ],
+    [
+     -96,
+     -20
+    ],
+    [
+     -90,
+     -100
+    ]
+   ],
+   "fill": "#e07b10",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     20
+    ],
+    [
+     80,
+     10
+    ],
+    [
+     88,
+     50
+    ],
+    [
+     60,
+     72
+    ],
+    [
+     10,
+     76
+    ]
+   ],
+   "fill": "#fff1cf",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -34,
+     -138
+    ],
+    [
+     -12,
+     -140
+    ],
+    [
+     -14,
+     76
+    ],
+    [
+     -38,
+     74
+    ]
+   ],
+   "fill": "#2a2a2a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 50,
+   "y": -100,
+   "r": 30,
+   "color": "#ffd27a",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -70,
+   "y": 40,
+   "r": 30,
+   "color": "#c46a0c",
+   "density": 0.3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     14,
+     -138
+    ],
+    [
+     14,
+     74
+    ]
+   ],
+   "width": 4,
+   "color": "#6b6b6b",
+   "dash": [
+    6,
+    5
+   ]
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     8,
+     -132
+    ],
+    [
+     20,
+     -132
+    ],
+    [
+     20,
+     -112
+    ],
+    [
+     8,
+     -112
+    ]
+   ],
+   "fill": "#c0c0c0",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     64
+    ],
+    [
+     0,
+     70
+    ],
+    [
+     60,
+     64
+    ],
+    [
+     82,
+     46
+    ]
+   ],
+   "width": 2,
+   "color": "#8a4a08",
+   "dash": [
+    7,
+    6
+   ]
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     66,
+     -132
+    ],
+    [
+     84,
+     -96
+    ],
+    [
+     88,
+     -20
+    ]
+   ],
+   "width": 2,
+   "color": "#8a4a08",
+   "dash": [
+    7,
+    6
+   ]
+  },
+  {
+   "type": "ellipse",
+   "x": 52,
+   "y": -78,
+   "rx": 24,
+   "ry": 24,
+   "fill": "#ffffff",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": 55,
+   "y": -78,
+   "rx": 13,
+   "ry": 13,
+   "fill": "#111111",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 51,
+   "y": -81,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#ffffff",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 59,
+   "y": -75,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#ffffff",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     -94
+    ],
+    [
+     42,
+     -88
+    ]
+   ],
+   "width": 2,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     68,
+     -62
+    ],
+    [
+     62,
+     -68
+    ]
+   ],
+   "width": 2,
+   "color": "#444444"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     -140
+    ],
+    [
+     70,
+     -140
+    ],
+    [
+     90,
+     -100
+    ],
+    [
+     96,
+     -20
+    ],
+    [
+     88,
+     50
+    ],
+    [
+     60,
+     72
+    ],
+    [
+     0,
+     78
+    ],
+    [
+     -60,
+     72
+    ],
+    [
+     -88,
+     50
+    ],
+    [
+     -96,
+     -20
+    ],
+    [
+     -90,
+     -100
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "smooth": true
+  }
+ ]
+}

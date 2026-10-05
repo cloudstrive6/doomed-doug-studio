@@ -1,0 +1,372 @@
+{
+ "name": "highspeed_camera",
+ "description": "Lab high-speed camera on a grey tripod: black boxy body with a big lens pointing right, small red REC light. Anchor bottom-centre (feet on the ground), ~200x340.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "camera",
+  "lab",
+  "science"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -205
+    ],
+    [
+     -88,
+     0
+    ]
+   ],
+   "width": 13,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -205
+    ],
+    [
+     -88,
+     0
+    ]
+   ],
+   "width": 7,
+   "color": "#9aa0a6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -205
+    ],
+    [
+     14,
+     0
+    ]
+   ],
+   "width": 13,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -205
+    ],
+    [
+     14,
+     0
+    ]
+   ],
+   "width": 7,
+   "color": "#5f656b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -205
+    ],
+    [
+     90,
+     0
+    ]
+   ],
+   "width": 13,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -205
+    ],
+    [
+     90,
+     0
+    ]
+   ],
+   "width": 7,
+   "color": "#9aa0a6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -44,
+     -100
+    ],
+    [
+     45,
+     -100
+    ]
+   ],
+   "width": 4,
+   "color": "#5f656b"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -14,
+     -240
+    ],
+    [
+     14,
+     -240
+    ],
+    [
+     14,
+     -200
+    ],
+    [
+     -14,
+     -200
+    ]
+   ],
+   "fill": "#5f656b",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -250
+    ],
+    [
+     50,
+     -250
+    ],
+    [
+     40,
+     -236
+    ],
+    [
+     -40,
+     -236
+    ]
+   ],
+   "fill": "#9aa0a6",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     -338
+    ],
+    [
+     40,
+     -338
+    ],
+    [
+     40,
+     -250
+    ],
+    [
+     -92,
+     -250
+    ]
+   ],
+   "fill": "#2b2b2b",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -86,
+     -332
+    ],
+    [
+     34,
+     -332
+    ],
+    [
+     34,
+     -318
+    ],
+    [
+     -86,
+     -318
+    ]
+   ],
+   "fill": "#4a4a4a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -30,
+   "y": -280,
+   "r": 30,
+   "color": "#3d3d3d",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -324
+    ],
+    [
+     82,
+     -330
+    ],
+    [
+     82,
+     -258
+    ],
+    [
+     40,
+     -264
+    ]
+   ],
+   "fill": "#3a3a3a",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     82,
+     -334
+    ],
+    [
+     100,
+     -338
+    ],
+    [
+     100,
+     -250
+    ],
+    [
+     82,
+     -254
+    ]
+   ],
+   "fill": "#1e1e1e",
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": 100,
+   "y": -294,
+   "rx": 9,
+   "ry": 40,
+   "fill": "#5aa0d8",
+   "width": 4
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     98,
+     -320
+    ],
+    [
+     104,
+     -300
+    ]
+   ],
+   "width": 4,
+   "color": "#d8f0ff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     54,
+     -326
+    ],
+    [
+     54,
+     -262
+    ]
+   ],
+   "width": 2,
+   "color": "#666666"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     66,
+     -326
+    ],
+    [
+     66,
+     -262
+    ]
+   ],
+   "width": 2,
+   "color": "#666666"
+  },
+  {
+   "type": "ellipse",
+   "x": -70,
+   "y": -300,
+   "rx": 10,
+   "ry": 10,
+   "fill": "#e0201b",
+   "width": 3
+  },
+  {
+   "type": "spray",
+   "x": -70,
+   "y": -300,
+   "r": 18,
+   "color": "#ff6b5a",
+   "density": 0.25
+  },
+  {
+   "type": "text",
+   "text": "REC",
+   "x": -36,
+   "y": -300,
+   "size": 18,
+   "color": "#ffffff",
+   "bold": true,
+   "boil": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -280
+    ],
+    [
+     20,
+     -280
+    ],
+    [
+     20,
+     -258
+    ],
+    [
+     -80,
+     -258
+    ]
+   ],
+   "fill": "#3d4b55",
+   "width": 2
+  }
+ ]
+}

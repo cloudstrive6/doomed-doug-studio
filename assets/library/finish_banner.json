@@ -1,0 +1,260 @@
+{
+ "name": "finish_banner",
+ "description": "Tiny marathon finish arch: two thin poles with a red-and-white checkered banner across the top. Anchor bottom-centre (pole feet on y=0), 120x110.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "race",
+  "finish line"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -52.0,
+     0.0
+    ],
+    [
+     -52.0,
+     -110.0
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     52.0,
+     0.0
+    ],
+    [
+     52.0,
+     -110.0
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -52.0,
+     -2.0
+    ],
+    [
+     -52.0,
+     -106.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d0d0d0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     52.0,
+     -2.0
+    ],
+    [
+     52.0,
+     -106.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d0d0d0"
+  },
+  {
+   "type": "rect",
+   "x": -56,
+   "y": -110,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -56,
+   "y": -96,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -42,
+   "y": -110,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -42,
+   "y": -96,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -28,
+   "y": -110,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -28,
+   "y": -96,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -14,
+   "y": -110,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -14,
+   "y": -96,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": -110,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": -96,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 14,
+   "y": -110,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 14,
+   "y": -96,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 28,
+   "y": -110,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 28,
+   "y": -96,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 42,
+   "y": -110,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 42,
+   "y": -96,
+   "w": 14,
+   "h": 14,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -56,
+   "y": -110,
+   "w": 112,
+   "h": 28,
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

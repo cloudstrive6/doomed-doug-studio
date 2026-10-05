@@ -1,0 +1,329 @@
+{
+ "name": "life_jacket",
+ "description": "Bright orange (#ff7a1a) life jacket worn over Doug's stick body (worn prop): two puffy front panels from the shoulders (y -136) to the hips (y -6) with darker seams and reflective strips, a collar behind the neck, two black straps with grey buckles. Arms and legs stay free. Anchor = Doug's hips at Doug scale 1 (list it after Doug, same x/y/scale); bbox x -100..100, y -152..0. Poses: stand, wave, thumbs_up.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "costume",
+  "prop",
+  "life jacket",
+  "boat"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30.0,
+     -140.0
+    ],
+    [
+     0.0,
+     -128.0
+    ],
+    [
+     30.0,
+     -140.0
+    ],
+    [
+     40.0,
+     -152.0
+    ],
+    [
+     0.0,
+     -146.0
+    ],
+    [
+     -40.0,
+     -152.0
+    ]
+   ],
+   "width": 4,
+   "fill": "#d65f0a",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -24.0,
+     -136.0
+    ],
+    [
+     -62.0,
+     -134.0
+    ],
+    [
+     -88.0,
+     -112.0
+    ],
+    [
+     -98.0,
+     -70.0
+    ],
+    [
+     -98.0,
+     -24.0
+    ],
+    [
+     -88.0,
+     -6.0
+    ],
+    [
+     -10.0,
+     -6.0
+    ],
+    [
+     -8.0,
+     -60.0
+    ],
+    [
+     -16.0,
+     -104.0
+    ]
+   ],
+   "width": 5,
+   "fill": "#ff7a1a",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     24.0,
+     -136.0
+    ],
+    [
+     62.0,
+     -134.0
+    ],
+    [
+     88.0,
+     -112.0
+    ],
+    [
+     98.0,
+     -70.0
+    ],
+    [
+     98.0,
+     -24.0
+    ],
+    [
+     88.0,
+     -6.0
+    ],
+    [
+     10.0,
+     -6.0
+    ],
+    [
+     8.0,
+     -60.0
+    ],
+    [
+     16.0,
+     -104.0
+    ]
+   ],
+   "width": 5,
+   "fill": "#ff7a1a",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": -60.0,
+   "y": -60.0,
+   "r": 26,
+   "color": "#d65f0a",
+   "density": 0.15
+  },
+  {
+   "type": "spray",
+   "x": 60.0,
+   "y": -60.0,
+   "r": 26,
+   "color": "#d65f0a",
+   "density": 0.15
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -54.0,
+     -120.0
+    ],
+    [
+     -58.0,
+     -70.0
+    ],
+    [
+     -54.0,
+     -14.0
+    ]
+   ],
+   "width": 3,
+   "color": "#d65f0a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     54.0,
+     -120.0
+    ],
+    [
+     58.0,
+     -70.0
+    ],
+    [
+     54.0,
+     -14.0
+    ]
+   ],
+   "width": 3,
+   "color": "#d65f0a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -80.0,
+     -100.0
+    ],
+    [
+     -84.0,
+     -60.0
+    ],
+    [
+     -78.0,
+     -16.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d65f0a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     80.0,
+     -100.0
+    ],
+    [
+     84.0,
+     -60.0
+    ],
+    [
+     78.0,
+     -16.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d65f0a"
+  },
+  {
+   "type": "rect",
+   "x": -80,
+   "y": -118,
+   "w": 20,
+   "h": 8,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#e6e9ec"
+  },
+  {
+   "type": "rect",
+   "x": 60,
+   "y": -118,
+   "w": 20,
+   "h": 8,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#e6e9ec"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -98.0,
+     -66.0
+    ],
+    [
+     98.0,
+     -66.0
+    ]
+   ],
+   "width": 8,
+   "color": "#111111"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -98.0,
+     -30.0
+    ],
+    [
+     98.0,
+     -30.0
+    ]
+   ],
+   "width": 8,
+   "color": "#111111"
+  },
+  {
+   "type": "rect",
+   "x": -14,
+   "y": -74,
+   "w": 28,
+   "h": 16,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#9aa0a6"
+  },
+  {
+   "type": "rect",
+   "x": -14,
+   "y": -38,
+   "w": 28,
+   "h": 16,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#9aa0a6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -6.0,
+     -70.0
+    ],
+    [
+     -6.0,
+     -62.0
+    ]
+   ],
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -6.0,
+     -34.0
+    ],
+    [
+     -6.0,
+     -26.0
+    ]
+   ],
+   "width": 2,
+   "color": "#000000"
+  }
+ ]
+}

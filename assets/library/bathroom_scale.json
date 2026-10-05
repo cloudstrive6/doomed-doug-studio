@@ -1,0 +1,139 @@
+{
+ "name": "bathroom_scale",
+ "description": "Flat white/grey bathroom scale in low 3/4 view with a small blank pale display window at about (0,-45) for a weight label. Anchor bottom-centre, 260x70.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "scale",
+  "weight",
+  "household"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -130,
+     -16
+    ],
+    [
+     130,
+     -16
+    ],
+    [
+     124,
+     0
+    ],
+    [
+     -124,
+     0
+    ]
+   ],
+   "fill": "#a9adb2",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -112,
+     -70
+    ],
+    [
+     112,
+     -70
+    ],
+    [
+     130,
+     -16
+    ],
+    [
+     -130,
+     -16
+    ]
+   ],
+   "fill": "#eef0f2",
+   "width": 5
+  },
+  {
+   "type": "spray",
+   "x": 80,
+   "y": -30,
+   "r": 30,
+   "color": "#cfd3d7",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -46,
+     -56
+    ],
+    [
+     46,
+     -56
+    ],
+    [
+     48,
+     -34
+    ],
+    [
+     -48,
+     -34
+    ]
+   ],
+   "fill": "#d6e4cf",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62,
+     -60
+    ],
+    [
+     -100,
+     -60
+    ],
+    [
+     -112,
+     -24
+    ],
+    [
+     -66,
+     -24
+    ]
+   ],
+   "fill": "#d5d8db",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     62,
+     -60
+    ],
+    [
+     100,
+     -60
+    ],
+    [
+     112,
+     -24
+    ],
+    [
+     66,
+     -24
+    ]
+   ],
+   "fill": "#d5d8db",
+   "width": 2
+  }
+ ]
+}
