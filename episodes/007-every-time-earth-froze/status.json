@@ -49,7 +49,12 @@
       "stage": "qc_passed",
       "at": "2026-10-05T12:24:48+00:00",
       "note": "final approved"
+    },
+    {
+      "stage": "uploaded",
+      "at": "2026-10-05T12:25:07+00:00",
+      "note": "SAcFbGY0KBg"
     }
   ],
-  "stage": "qc_passed"
+  "stage": "uploaded"
 }
