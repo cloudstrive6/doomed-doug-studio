@@ -86,5 +86,40 @@ def write_wav(path: Path, pcm: bytes):
         w.writeframes(pcm)
 
 
+def normalize_wav(path: Path, lufs: float = -14.0, true_peak: float = -1.5):
+    """Bring a narration WAV to YouTube's playback reference loudness (-14 LUFS integrated): YouTube turns louder
+    uploads down but never turns quiet ones up, and raw Chirp 3 HD sits near -20 LUFS. One gain for the whole track
+    (the voice keeps its dynamics) plus a peak limiter that only touches the few plosives above the ceiling; the
+    sample rate and length stay the same, so shot timing is unchanged."""
+    import re
+    import subprocess
+
+    def measure(p: Path) -> float | None:
+        r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(p), "-af", "ebur128", "-f", "null", "-"],
+                           capture_output=True, text=True)
+        m = re.findall(r"I:\s+(-?[\d.]+|-inf) LUFS", r.stderr)
+        if r.returncode or not m:
+            raise RuntimeError(f"loudness measure failed for {p.name}: {r.stderr[-300:]}")
+        return None if m[-1] == "-inf" else float(m[-1])
+
+    now = measure(path)
+    if now is None or abs(now - lufs) < 0.5:
+        return
+    tmp = path.with_suffix(".norm.wav")
+    ceiling = 10 ** ((true_peak - 0.5) / 20)  # 0.5 dB extra headroom for inter-sample peaks after AAC encoding
+    gain = lufs - now
+    for _ in range(4):  # always from the original; the gain is corrected for what the compressor/limiter took
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(path), "-af",
+                        # gentle voice compression evens out syllable peaks so the limiter only catches plosives
+                        f"acompressor=threshold=0.1:ratio=2.5:attack=5:release=120:knee=4,volume={gain:.2f}dB,"
+                        f"alimiter=limit={ceiling:.4f}:attack=1:release=50:level=false",
+                        "-ar", str(SAMPLE_RATE), "-ac", "1", "-c:a", "pcm_s16le", str(tmp)], check=True)
+        got = measure(tmp)
+        if got is None or abs(got - lufs) < 0.3:
+            break
+        gain += lufs - got
+    tmp.replace(path)
+
+
 def pcm_seconds(pcm: bytes) -> float:
     return len(pcm) / 2 / SAMPLE_RATE

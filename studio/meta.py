@@ -170,6 +170,26 @@ def facebook_reel(file: Path, description: str) -> dict:
     return {"id": start["video_id"], "url": f"https://www.facebook.com/reel/{start['video_id']}"}
 
 
+def instagram_story(video_url: str) -> dict:
+    """Instagram Story (9:16 video, max 60 s). Stories take no caption and API stories can't carry link stickers."""
+    ig = os.environ["META_IG_USER_ID"]
+    c = post(f"{ig}/media", {"media_type": "STORIES", "video_url": video_url})
+    _wait_ig(c["id"])
+    return {"id": post(f"{ig}/media_publish", {"creation_id": c["id"]})["id"]}
+
+
+def facebook_story(file: Path) -> dict:
+    """Facebook Page Story (9:16 video, max 60 s): start -> binary upload -> finish."""
+    page = os.environ["META_PAGE_ID"]
+    start = post(f"{page}/video_stories", {"upload_phase": "start"})
+    data = file.read_bytes()
+    url = start.get("upload_url") or f"https://rupload.facebook.com/video-upload/{V}/{start['video_id']}"
+    _req(url, data=data, method="POST", headers={"Authorization": f"OAuth {_token()}", "offset": "0",
+                                                 "file_size": str(len(data))}, timeout=1800)
+    j = post(f"{page}/video_stories", {"upload_phase": "finish", "video_id": start["video_id"]})
+    return {"id": j.get("post_id") or start["video_id"]}
+
+
 def facebook_video(video_url: str, title: str, description: str) -> dict:
     page = os.environ["META_PAGE_ID"]
     j = _req(f"https://graph-video.facebook.com/{V}/{page}/videos",
@@ -262,6 +282,30 @@ def publish_due(dry_run: bool = False) -> list[str]:
                     except Exception as e:
                         sm["tiktok_error"] = str(e)[:300]
                         notify.send(f"⚠️ TikTok post failed for {s['title']}: {str(e)[:300]}")
+            # --- the same Short as an Instagram Story and a Facebook Page Story. Stories vanish after 24 h, so only
+            # Shorts that went live in the last 24 h get one (no burst of old Stories); max 3 tries per platform.
+            fresh = dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(
+                s["publish_at"].replace("Z", "+00:00")) < dt.timedelta(hours=24)
+            short_enough = (s.get("duration_s") or 0) <= 60
+            for key, enabled, make in (
+                    ("instagram_story", cfg.get("instagram_stories", True) and os.environ.get("META_IG_USER_ID"),
+                     lambda: instagram_story(public_url(ep, f"{s['id']}.mp4"))),
+                    ("facebook_story", cfg.get("facebook_stories", True),
+                     lambda: facebook_story(local_file(ep, f"{s['id']}.mp4")))):
+                if not enabled or sm.get(key) or not fresh or not short_enough or sm.get(key + "_tries", 0) >= 3:
+                    continue
+                if dry_run:
+                    print(f"[dry] {key}:", s["title"])
+                    continue
+                try:
+                    sm[key] = make()
+                    sm.pop(key + "_error", None)
+                    done.append(f"{key.replace('_', ' ').title()}: {s['title']}")
+                except Exception as e:
+                    sm[key + "_tries"] = sm.get(key + "_tries", 0) + 1
+                    sm[key + "_error"] = str(e)[:300]
+                    if sm[key + "_tries"] >= 3:
+                        notify.send(f"⚠️ {key.replace('_', ' ')} failed 3x for {s['title']}: {str(e)[:300]}")
             sp.write_text(json.dumps(shorts, indent=2, ensure_ascii=False), encoding="utf-8")
     if done:
         notify.send("📣 Posted to Facebook/Instagram:\n" + "\n".join(done))

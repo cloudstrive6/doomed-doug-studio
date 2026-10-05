@@ -298,6 +298,47 @@ def cmd_competitors(a):
     print(pull_competitors())
 
 
+def _visual_verdicts(text: str) -> tuple[str | None, list[str]]:
+    """(main verdict, Shorts verdicts) from visual_review.md. Verdicts are read per `## ` round: a round with an
+    explicit main-video verdict ("VERDICT (main): X" or "### Main video: X") decides on that plus its latest thumbnail
+    verdict, and ignores a round-level "VERDICT: FAIL" that only reflects the Shorts. A round without one uses its last
+    plain VERDICT. Shorts verdicts ("VERDICT (shorts)", anything under a Shorts heading) only hold back the Shorts."""
+    import re
+    rounds, cur, heading = [], None, ""
+    for line in text.splitlines():
+        if line.startswith("## "):  # a new round; its title (e.g. "... after Short03 re-render") isn't a section
+            cur = {"video": [], "thumb": [], "generic": []}
+            rounds.append(cur)
+            heading = ""
+        elif line.startswith("###"):
+            heading = line
+        m = re.search(r"VERDICT[^:\n]*:\s*\**\s*(PASS|FAIL)", line)
+        if not m and line.startswith("###"):
+            m = re.search(r"(?:main video|thumbnail|shorts?)\b[^:\n]*:\s*\**\s*(PASS|FAIL)", line, re.I)
+        if not m:
+            continue
+        if cur is None:
+            cur = {"video": [], "thumb": [], "generic": []}
+            rounds.append(cur)
+        ctx = (heading + " " + line).lower()
+        if "short" in ctx:
+            cur.setdefault("shorts", []).append(m.group(1))
+        elif "(main)" in ctx or "main video" in ctx:
+            cur["video"].append(m.group(1))
+        elif "thumbnail" in ctx:
+            cur["thumb"].append(m.group(1))
+        else:
+            cur["generic"].append(m.group(1))
+    main = None
+    for r in rounds:
+        base = r["video"][-1] if r["video"] else r["generic"][-1] if r["generic"] else None
+        if base is None and r["thumb"]:
+            base = r["thumb"][-1]
+        if base is not None:
+            main = "FAIL" if base == "FAIL" or (r["thumb"] and r["thumb"][-1] == "FAIL") else "PASS"
+    return main, [v for r in rounds for v in r.get("shorts", [])]
+
+
 def cmd_gate(a):
     """Mechanical approval after the final screening: the AI showrunner sometimes approves in words but forgets
     to set the stage. Passes when QC has no problems, the newest visual-screener verdict is PASS and the newest
@@ -314,16 +355,9 @@ def cmd_gate(a):
     if not qc.exists() or json.loads(qc.read_text(encoding="utf-8")).get("problems"):
         reasons.append("technical QC missing or has problems")
     vr = ep / "visual_review.md"
-    # A Shorts verdict (under a "Shorts" heading or on a "Shorts:" line) only holds back the Shorts, not the long video.
-    verdicts, shorts_verdicts, heading = [], [], ""
-    for line in (vr.read_text(encoding="utf-8").splitlines() if vr.exists() else []):
-        if line.startswith("#"):
-            heading = line
-        m = re.search(r"VERDICT[^:\n]*:\s*\**\s*(PASS|FAIL)", line)
-        if m:
-            (shorts_verdicts if "short" in (heading + line).lower() else verdicts).append(m.group(1))
-    if not verdicts or verdicts[-1] != "PASS":
-        reasons.append(f"latest visual-screener verdict is {verdicts[-1] if verdicts else 'missing'}")
+    main_verdict, shorts_verdicts = _visual_verdicts(vr.read_text(encoding="utf-8") if vr.exists() else "")
+    if main_verdict != "PASS":
+        reasons.append(f"latest visual-screener verdict is {main_verdict or 'missing'}")
     hold = ep / "build" / "shorts_hold"
     if shorts_verdicts and shorts_verdicts[-1] == "FAIL":
         hold.parent.mkdir(parents=True, exist_ok=True)

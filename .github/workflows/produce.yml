@@ -103,7 +103,19 @@ jobs:
 
       - name: "Stage C: final screening + approval"
         run: |
+          rm -f .rerender
           bash pipeline/claude_run.sh claude_stage_c.jsonl 300 "QC exit status: ${QC_OK}. $(cat pipeline/prompts/review_final.md)"
+
+      - name: "Stage C round 2: re-render the fixes, re-run QC, re-screen"
+        run: |
+          if [ ! -f .rerender ]; then echo "no re-render requested"; exit 0; fi
+          cat .rerender
+          if grep -q final .rerender || [ "${QC_OK}" != "1" ]; then python -m studio render "$EP" --final; python -m studio thumbnail "$EP"; fi
+          python -m studio shorts render "$EP" || echo "Shorts render failed (long video continues)"
+          python -m studio qc "$EP" && QC2=1 || QC2=0
+          echo "QC_OK=$QC2" >> "$GITHUB_ENV"
+          rm -f .rerender
+          bash pipeline/claude_run.sh claude_stage_c2.jsonl 300 "ROUND 2 (re-rendered after your fixes). QC exit status: ${QC2}. $(cat pipeline/prompts/review_final.md)"
 
       - name: Approval gate (mechanical check of QC + screener + creative director)
         run: python -m studio gate "$EP"

@@ -21,6 +21,8 @@ video:
   height: 1080
   gap_between_shots: 0.12    # seconds of silence after each shot's line
   target_minutes: [15, 18]
+  loudness_lufs: -14          # narration normalised to YouTube's playback reference (-14 LUFS integrated)
+  true_peak_db: -1.5         # true-peak ceiling after normalising
   music: null                # low bed under narration, e.g. assets/music/bed.mp3 (YouTube Audio Library / CC0 only)
   music_volume: 0.06
   sting: null                # short swell at each item change, e.g. assets/music/sting.mp3
@@ -54,6 +56,8 @@ social:                      # Facebook + Instagram cross-posting (after the You
   facebook_long: true        # full episode as a native Facebook Page video
   facebook_reels: true       # each Short as a Facebook Reel
   instagram_reels: true      # each Short as an Instagram Reel
+  instagram_stories: true    # each Short also as an Instagram Story (posted within 24 h of going live)
+  facebook_stories: true     # each Short also as a Facebook Page Story (posted within 24 h of going live)
   hashtags: "#DoomedDoug #deepsea #ocean #science #animals #creepyfacts"
   tiktok: true               # each Short to TikTok via Post for Me (project "Doomed Doug")
   tiktok_handle: "doomeddoug"   # safety: only ever post to this account (external id or username)

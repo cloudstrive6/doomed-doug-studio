@@ -24,8 +24,9 @@ from .paint import font, wrap
 from .scene import ShotRenderer, render_still
 
 SW, SH = 1080, 1920
-ZOOM = 1.25                         # drawing shown 1350x760, centre-cropped to 1080 wide (~10% trimmed per side)
+ZOOM = 1.25                         # max zoom: a 1536 px wide window of the 1920 frame fills the 1080x760 band
 BAND_H = round(608 * ZOOM)          # 760
+MARGIN = 50                         # px of the 1920 frame kept clear around the drawn content
 SCENE_Y = 560                       # top of the drawing band
 SUB_Y = SCENE_Y + BAND_H + 150      # centre of the subtitle block
 
@@ -95,13 +96,54 @@ def _band_colors(frame: Image.Image) -> tuple:
     return med((0, 0, w, 40)), med((0, h - 40, w, h))
 
 
-def _compose(scene_frame: Image.Image, title: str, subtitle: str, item: str | None, bands: tuple | None = None) -> Image.Image:
+def _content_window(img: Image.Image) -> tuple[int, int]:
+    """Auto-fit crop for one shot: (x0, width) in 1920-frame pixels. Finds the columns holding drawn content (pixels
+    that differ from their row's background, so horizontal sky/sea/zone bands count as background), then takes the
+    narrowest window >= 1536 px (full zoom) that keeps all of it plus a margin, up to the whole 1920 frame. Nothing
+    the director draws is ever cut off; content that fits in the middle gets the full zoom."""
+    w0, h0 = img.size
+    small = img.convert("RGB").resize((192, 108), Image.BOX)
+    px = small.load()
+    cols = [0] * 192
+    for y in range(108):
+        row = [px[x, y] for x in range(192)]
+        bg = tuple(sorted(c[i] for c in row)[96] for i in range(3))
+        for x, c in enumerate(row):
+            if max(abs(c[i] - bg[i]) for i in range(3)) > 30:
+                cols[x] += 1
+    hit = [x for x, n in enumerate(cols) if n >= 2]
+    full_w, min_w = 1920, round(1920 / ZOOM)
+    if not hit:
+        return (full_w - min_w) // 2, min_w
+    left, right = hit[0] * w0 // 192, (hit[-1] + 1) * w0 // 192
+    width = max(min_w, min(full_w, right - left + 2 * MARGIN))
+    x0 = round((left + right) / 2 - width / 2)
+    return max(0, min(full_w - width, x0)), width
+
+
+def shot_window(shot: dict, style: dict) -> tuple[int, int]:
+    """Crop window for a shot. Static shots are measured on their fully drawn picture; camera moves keep the whole
+    frame (their framing is already chosen by the camera)."""
+    cam = shot.get("camera")
+    if cam and (cam.get("move") not in (None, "static") or cam.get("from")):
+        return 0, 1920
+    img = render_still(shot["scene"], 0, None, seed=shot["id"], style=style)
+    if img.size != (1920, 1080):
+        img = img.resize((1920, 1080))
+    return _content_window(img)
+
+
+def _compose(scene_frame: Image.Image, title: str, subtitle: str, item: str | None, bands: tuple | None = None,
+             window: tuple[int, int] | None = None) -> Image.Image:
     top, bottom = bands or _band_colors(scene_frame)
     canvas = Image.new("RGB", (SW, SH), top)
     ImageDraw.Draw(canvas).rectangle((0, SCENE_Y + BAND_H // 2, SW, SH), fill=bottom)  # seamless bands
-    big = scene_frame.resize((round(SW * ZOOM), BAND_H), Image.LANCZOS)
-    x0 = (big.width - SW) // 2
-    canvas.paste(big.crop((x0, 0, x0 + SW, BAND_H)), (0, SCENE_Y))
+    if scene_frame.size != (1920, 1080):
+        scene_frame = scene_frame.resize((1920, 1080), Image.LANCZOS)
+    x0, width = window or (round(1920 * (1 - 1 / ZOOM) / 2), round(1920 / ZOOM))
+    h = min(BAND_H, round(1080 * SW / width))
+    pic = scene_frame.crop((x0, 0, x0 + width, 1080)).resize((SW, h), Image.LANCZOS)
+    canvas.paste(pic, (0, SCENE_Y + (BAND_H - h) // 2))
     d = ImageDraw.Draw(canvas)
     d.fontmode = "1"
     # hook title (red, black outline), top band
@@ -131,7 +173,7 @@ def _compose(scene_frame: Image.Image, title: str, subtitle: str, item: str | No
 
 def _end_card(text: str) -> dict:
     """End card: two-line WordArt + red arrow pointing DOWN to where Shorts show the Related-video link.
-    Everything stays inside x 260..1660, the part of the 1920 frame that survives the Shorts zoom-crop."""
+    Kept inside x 260..1660 so the auto-fit crop can use full zoom."""
     words = text.split()
     half = (len(words) + 1) // 2
     l1, l2 = " ".join(words[:half]), " ".join(words[half:])
@@ -177,6 +219,8 @@ def render(ep: Path, only: list[str] | None = None) -> list[Path]:
             t += dur
         wav = out_dir / f"{s['id']}.wav"
         tts.write_wav(wav, b"".join(pcm_all))
+        if cfg["video"].get("loudness_lufs") is not None:
+            tts.normalize_wav(wav, cfg["video"]["loudness_lufs"], cfg["video"].get("true_peak_db", -1.5))
         out = out_dir / f"{s['id']}.mp4"
         cmd = ["ffmpeg", "-y", "-loglevel", "warning", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{SW}x{SH}",
                "-r", str(fps), "-i", "-", "-i", str(wav), "-map", "0:v", "-map", "1:a", "-t", f"{t:.3f}",
@@ -191,6 +235,7 @@ def render(ep: Path, only: list[str] | None = None) -> list[Path]:
                 subs = _chunks(text, speech, start)
                 f0, f1 = round(start * fps), round((start + dur) * fps)
                 r = ShotRenderer(shot, dur, fps=fps, style=cfg["style"], topbar=None, n_frames=f1 - f0)
+                win = shot_window(shot, cfg["style"])
                 last_key, last_bytes, last_frame, target, band = None, None, None, None, None
                 alpha = 1 - math.exp(-1 / (fps * 0.25))  # ~0.25 s smoothing of band colours during pans
                 for k, frame in enumerate(r.frames()):
@@ -208,7 +253,7 @@ def render(ep: Path, only: list[str] | None = None) -> list[Path]:
                     if key != last_key:
                         last_key = key
                         last_bytes = _compose(frame, s["title"], sub,
-                                              None if shot["id"].endswith("_end") else item, bands).tobytes()
+                                              None if shot["id"].endswith("_end") else item, bands, win).tobytes()
                     proc.stdin.write(last_bytes)
         finally:
             proc.stdin.close()
@@ -220,7 +265,8 @@ def render(ep: Path, only: list[str] | None = None) -> list[Path]:
         # preview still for the visual screener
         mid = plan[len(plan) // 2]
         _compose(render_still(mid[0]["scene"], 0, None, seed=mid[0]["id"], style=cfg["style"]).resize((1920, 1080)),
-                 s["title"], mid[4][:40], mid[0].get("chapter")).resize((540, 960)).save(out_dir / f"{s['id']}_preview.png")
+                 s["title"], mid[4][:40], mid[0].get("chapter"), window=shot_window(mid[0], cfg["style"])
+                 ).resize((540, 960)).save(out_dir / f"{s['id']}_preview.png")
     save(ep, data)
     return made
 

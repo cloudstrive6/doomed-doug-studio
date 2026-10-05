@@ -133,6 +133,8 @@ def narration(ep_dir: Path, require_voice: bool = False) -> list[dict]:
         pcm = mix_at(pcm, load_pcm(Path(__file__).resolve().parent.parent / sting),
                      [max(0.0, s_ - 0.25) for s_ in starts], cfg["video"].get("sting_volume", 0.5))
     tts.write_wav(build / "narration.wav", pcm)
+    if cfg["video"].get("loudness_lufs") is not None:
+        tts.normalize_wav(build / "narration.wav", cfg["video"]["loudness_lufs"], cfg["video"].get("true_peak_db", -1.5))
     words = sum(len(tm["text"].split()) for tm in timing)
     speech = sum(tm["speech"] for tm in timing) or 1
     (build / "timing.json").write_text(json.dumps({"total": round(t, 3), "real_voice": real_all,
