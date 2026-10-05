@@ -20777,7 +20777,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -20930,7 +20930,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -21094,7 +21094,7 @@
      },
      {
       "type": "doug",
-      "x": 1700,
+      "x": 1550,
       "y": 880,
       "scale": 0.3,
       "pose": "float",
@@ -21104,14 +21104,14 @@
      {
       "type": "asset",
       "name": "tern_costume",
-      "x": 1700,
+      "x": 1550,
       "y": 880,
       "scale": 0.3
      },
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -21287,7 +21287,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -21414,8 +21414,8 @@
      {
       "type": "asset",
       "name": "sooty_tern",
-      "x": 1150,
-      "y": 220,
+      "x": 1180,
+      "y": 245,
       "scale": 0.45
      },
      {
@@ -21448,7 +21448,7 @@
      {
       "type": "wordart",
       "text": "IN FLIGHT",
-      "x": 1450,
+      "x": 1350,
       "y": 400,
       "size": 100,
       "boil": 0,
@@ -21457,7 +21457,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -21550,7 +21550,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -21721,7 +21721,7 @@
      },
      {
       "type": "doug",
-      "x": 250,
+      "x": 400,
       "y": 290,
       "scale": 0.3,
       "pose": "float",
@@ -21731,14 +21731,14 @@
      {
       "type": "asset",
       "name": "tern_costume",
-      "x": 250,
+      "x": 400,
       "y": 290,
       "scale": 0.3
      },
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -21911,8 +21911,8 @@
      {
       "type": "wordart",
       "text": "HUNT THE SKY",
-      "x": 1450,
-      "y": 400,
+      "x": 1300,
+      "y": 450,
       "size": 90,
       "boil": 0,
       "appear": 0.615
@@ -21920,7 +21920,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -22096,7 +22096,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -22226,7 +22226,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -22376,7 +22376,7 @@
      },
      {
       "type": "doug",
-      "x": 1050,
+      "x": 1000,
       "y": 330,
       "scale": 0.45,
       "pose": [
@@ -22390,7 +22390,7 @@
      {
       "type": "asset",
       "name": "tern_costume",
-      "x": 1050,
+      "x": 1000,
       "y": 330,
       "scale": 0.45,
       "appear": 0.364
@@ -22436,7 +22436,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -22569,7 +22569,7 @@
      },
      {
       "type": "doug",
-      "x": 1050,
+      "x": 1000,
       "y": 330,
       "scale": 0.45,
       "pose": "arms_up",
@@ -22579,7 +22579,7 @@
      {
       "type": "asset",
       "name": "tern_costume",
-      "x": 1050,
+      "x": 1000,
       "y": 330,
       "scale": 0.45
      },
@@ -22611,7 +22611,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -22740,7 +22740,7 @@
      },
      {
       "type": "doug",
-      "x": 1050,
+      "x": 1000,
       "y": 330,
       "scale": 0.45,
       "pose": "float",
@@ -22750,7 +22750,7 @@
      {
       "type": "asset",
       "name": "tern_costume",
-      "x": 1050,
+      "x": 1000,
       "y": 330,
       "scale": 0.45
      },
@@ -22865,7 +22865,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -23008,7 +23008,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -23755,7 +23755,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -26051,7 +26051,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -26132,7 +26132,7 @@
      },
      {
       "type": "doug",
-      "x": 1720,
+      "x": 1580,
       "y": 900,
       "scale": 0.3,
       "pose": "float",
@@ -26142,14 +26142,14 @@
      {
       "type": "asset",
       "name": "shark_costume",
-      "x": 1720,
+      "x": 1580,
       "y": 900,
       "scale": 0.3
      },
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -26329,7 +26329,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -26513,7 +26513,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -26680,7 +26680,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -26825,8 +26825,8 @@
      {
       "type": "label",
       "text": "VIDEO",
-      "x": 1150,
-      "y": 170,
+      "x": 1380,
+      "y": 330,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -26835,7 +26835,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -27020,7 +27020,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -27217,7 +27217,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -27409,7 +27409,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 68",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -27545,7 +27545,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 69",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -27722,7 +27722,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 69",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -50433,9 +50433,9 @@
      },
      {
       "type": "rect",
-      "x": 80,
+      "x": 270,
       "y": 280,
-      "w": 520,
+      "w": 440,
       "h": 360,
       "fill": "#cfe9f7",
       "color": "#000000",
@@ -50444,9 +50444,9 @@
      },
      {
       "type": "rect",
-      "x": 700,
+      "x": 740,
       "y": 280,
-      "w": 520,
+      "w": 440,
       "h": 360,
       "fill": "#cfe9f7",
       "color": "#000000",
@@ -50455,9 +50455,9 @@
      },
      {
       "type": "rect",
-      "x": 1320,
+      "x": 1210,
       "y": 280,
-      "w": 520,
+      "w": 440,
       "h": 360,
       "fill": "#cfe9f7",
       "color": "#000000",
@@ -50467,17 +50467,17 @@
      {
       "type": "asset",
       "name": "great_white_shark",
-      "x": 340,
+      "x": 490,
       "y": 460,
-      "scale": 0.4,
+      "scale": 0.35,
       "appear": 0.188
      },
      {
       "type": "asset",
       "name": "red_x",
-      "x": 340,
+      "x": 490,
       "y": 460,
-      "scale": 0.35,
+      "scale": 0.3,
       "appear": 0.25
      },
      {
@@ -50485,13 +50485,13 @@
       "name": "blue_whale",
       "x": 960,
       "y": 460,
-      "scale": 0.5,
+      "scale": 0.42,
       "appear": 0.375
      },
      {
       "type": "asset",
       "name": "orca",
-      "x": 1100,
+      "x": 1060,
       "y": 560,
       "scale": 0.15,
       "appear": 0.438
@@ -50499,63 +50499,63 @@
      {
       "type": "asset",
       "name": "sperm_whale_top",
-      "x": 1580,
-      "y": 350,
-      "scale": 0.17,
+      "x": 1430,
+      "y": 367,
+      "scale": 0.15,
       "rotate": 90,
       "appear": 0.625
      },
      {
       "type": "asset",
       "name": "sperm_whale_top",
-      "x": 1666,
-      "y": 391,
-      "scale": 0.17,
+      "x": 1503,
+      "y": 402,
+      "scale": 0.15,
       "rotate": 141,
       "appear": 0.625
      },
      {
       "type": "asset",
       "name": "sperm_whale_top",
-      "x": 1687,
-      "y": 484,
-      "scale": 0.17,
+      "x": 1521,
+      "y": 481,
+      "scale": 0.15,
       "rotate": 193,
       "appear": 0.625
      },
      {
       "type": "asset",
       "name": "sperm_whale_top",
-      "x": 1628,
-      "y": 559,
-      "scale": 0.17,
+      "x": 1471,
+      "y": 544,
+      "scale": 0.15,
       "rotate": 244,
       "appear": 0.625
      },
      {
       "type": "asset",
       "name": "sperm_whale_top",
-      "x": 1532,
-      "y": 559,
-      "scale": 0.17,
+      "x": 1389,
+      "y": 544,
+      "scale": 0.15,
       "rotate": 296,
       "appear": 0.625
      },
      {
       "type": "asset",
       "name": "sperm_whale_top",
-      "x": 1473,
-      "y": 484,
-      "scale": 0.17,
+      "x": 1339,
+      "y": 481,
+      "scale": 0.15,
       "rotate": 347,
       "appear": 0.625
      },
      {
       "type": "asset",
       "name": "sperm_whale_top",
-      "x": 1494,
-      "y": 391,
-      "scale": 0.17,
+      "x": 1357,
+      "y": 402,
+      "scale": 0.15,
       "rotate": 399,
       "appear": 0.625
      },
@@ -50570,7 +50570,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 74",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -50636,7 +50636,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 74",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -50682,7 +50682,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 74",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -50835,7 +50835,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 74",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -50990,7 +50990,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 74",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -51128,7 +51128,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 74",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -51362,7 +51362,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 74",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,
@@ -51477,7 +51477,7 @@
      {
       "type": "label",
       "text": "DOUG DEATHS: 74",
-      "x": 1580,
+      "x": 1380,
       "y": 165,
       "size": 44,
       "bold": true,

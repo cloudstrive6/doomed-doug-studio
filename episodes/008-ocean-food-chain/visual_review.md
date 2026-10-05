@@ -218,3 +218,82 @@ The other shots:
   clean.
 
 Next: art can advance. Post-render screening (samples, qc.json, shorts) follows the final render.
+
+## Round 4: post-render (final.mp4 19:19, thumbnail, Shorts 19:20-19:21) (2026-10-05)
+
+Checked: all 33 samples (every 30 s, 15 s to 975 s) mapped to their shots via timing.json, plus full-res frames at
+497 s (s158) and 588.5 s (s188); qc.json (1001.3 s, no problems); thumbnail.png and thumbnail_small.png; all three
+Short previews, plus 9 frames per Short (0.3 s, 1.5 s, 20/35/50/65/80 %, end card -3 s and last frame). Each flagged
+element was traced to its shotlist x position and compared against the Shorts safe band, x 260..1660 of the 1920 frame.
+The Shorts zoom of 1.25 keeps only x 192..1728, and it needs a margin.
+
+### Main video: PASS
+- There are no black, blank, frozen or glitched frames. Every sample matches its narration:
+  - 135 s: the scientists filming in 2007
+  - 345 s: Doug in the tern costume, "higher than every real bird"
+  - 405 s: the menu with SHARKS circled
+  - 675 s: Doug coming up through the breathing hole in the seal costume
+  - 855 s: the dead squid costume in the sonar rings, with the cap floating off
+  - 975 s: the 1987 North America map
+- The DOUG DEATHS counter runs in order: 65, 66, 67, 68, 69, 70, 71, 72, 73, 74. It matches the round-3 tally.
+- Doug is on-model in every costume (crab, tern, shark, turtle, seal, squid). His red cap and white head are always
+  readable.
+- There is no gore. The breach and the squid-costume death are cartoon only, and nothing reads as a kids' show.
+- The 585 s sample (s188) shows only Doug on a split tan and green field. That's because it lands 0.025 s into the
+  shot. At 588.5 s the 2014 label, the boat and NORTHERN AUSTRALIA are all in. This is fine.
+- Advisory (director): in s188, "tourists on a river cruise" is drawn with `fishing_boat`, which has a rod. A boat
+  without the rod would match the narration better. This isn't blocking.
+- Advisory (director): in s178, the "27 CROCS" plate overlaps the map's top-left border, and nothing marks Queensland
+  or the Kennedy River. This isn't blocking.
+
+### Thumbnail: PASS (unchanged from round 3)
+The thumbnail is the same image approved in round 3. The darkening pyramid and the orca on the red halo still read at
+320x180. Doug in the snail costume sits next to the mantis shrimp, and the image fits the title. The eye-stalk advisory
+from round 3 still applies and is optional.
+
+### Shorts: FAIL (all three)
+These parts pass: the red hook titles are readable, subtitles are 2 lines or fewer and legible, the @DoomedDoug tag
+shows, and on every end card the red arrow points down to the link with Doug beside it. The failures are crop problems
+of the same kind fixed in episodes 005, 006 and 007:
+
+1. **Counter plate in all three Shorts (director):** every shot in the Short ranges has "DOUG DEATHS: NN" at x 1580.
+   Its right half runs past the crop, so every Short shows "DOUG DEATHS:" with no number for the whole runtime. The
+   shots are s098-s111 (68), s116 (68), s128-s136 (68), s137-s138 (69) and s305-s312 (74). Move the plate to x 1380
+   in those shots (the 006 rule). For a steady plate in the main video, you can instead move it to x 1380 in every
+   shot of the episode, after checking for label collisions.
+2. **s105, short01 (director):** the "HUNT THE SKY" wordart at x 1450 runs to about x 1785. It reads "HUNT THE SK" in
+   both the Short and its preview frame. Move it to x 1300, y 450, so its right edge is at or below 1640 and it
+   clears the tail of the red arrow at (900, 400).
+3. **s102, short01, hook frame (director):** the "IN FLIGHT" wordart at x 1450 touches the right edge. Move it to
+   x 1350.
+4. **s100, short01 (director):** Doug in the tern costume at x 1700 is cut in half at the right edge. Move Doug and
+   `tern_costume` to x 1550.
+5. **s104, short01 (director):** Doug in the tern costume at x 250 is clipped at the left edge. Move Doug and
+   `tern_costume` to x 400. The surface line is at y 300, so y 290 can stay.
+6. **s129, short02 (director):** Doug in the shark costume at x 1720 shows as a grey sliver at the right edge, next to
+   the map. Move Doug and `shark_costume` to x 1580. The map's right edge is at about x 1500, so they stay clear of it.
+7. **s305, short03, opening shot (director):** the three-panel row spans x 80..1840.
+   - The left panel (the great white with the red X) is cut off at the left edge.
+   - The right panel (the sperm whales forming a circle) is almost entirely outside the crop. The narration says
+     "makes sperm whales form a circle" but the picture never shows it.
+   - Fix: refit the row inside 260..1660, for example panels w 440 at x 270, 740 and 1210, with the content centred in
+     each:
+     - `great_white_shark` and `red_x` at x 490, scale 0.35 and 0.3
+     - `blue_whale` at x 960, scale 0.42, with the small orca at x 1060
+     - the seven `sperm_whale_top` at about 0.85x their current offsets around x 1430, scale 0.15
+
+Non-blocking:
+- s309, short03: the second orca and its exit arrow run to x 200. The orca leaving the frame is intentional, so this
+  is acceptable.
+- The decorative sun at x 180 (s098, s099, s107, s111) is half-cropped. It's harmless.
+
+### Routing
+All fixes go to the director, in shotlist.json. Then run `python -m studio keyframes 008-ocean-food-chain --shots
+s098,s099,s100,s101,s102,s103,s104,s105,s106,s107,s108,s109,s110,s111,s116,s128,s129,s130,s131,s132,s133,s134,s135,s136,s137,s138,s305,s306,s307,s308,s309,s310,s311,s312`,
+then `python -m studio shorts render 008-ocean-food-chain`. Every new x position is also safe in 16:9. Re-render
+final.mp4 so the counter and s305 match the Shorts. The re-screen will cover all three Shorts plus a spot check of
+s098, s105, s129 and s305 in final.mp4.
+
+Per-Short status: short01 FAIL (fixes 1-5), short02 FAIL (fixes 1 and 6), short03 FAIL (fixes 1 and 7).
+
+VERDICT: FAIL

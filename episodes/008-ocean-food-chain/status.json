@@ -29,7 +29,12 @@
       "stage": "packaged",
       "at": "2026-10-05T19:09:12+00:00",
       "note": "script 3 rounds, art 3 rounds, thumbnail 2 rounds; narration done"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-05T19:19:51+00:00",
+      "note": "final render"
     }
   ],
-  "stage": "packaged"
+  "stage": "built"
 }
