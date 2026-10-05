@@ -57,3 +57,111 @@ formulas, checked the orca with `doug_cap` at (+210,-120) x scale, put Doug at t
 - Rules 3-6 and 9 apply at keyframe level and will be checked in round 2.
 
 ASSETS: APPROVED (pending director fix 3 at keyframes)
+
+---
+
+# Keyframes round 1
+
+Reviewer: art director, 2026-10-05. Scope: all 321 keyframes (`build/contact/sheet_01..27.png`). The contact folder held only
+`sheet_01` from a partial run, so I regenerated the full set with `python -m studio keyframes 008-ocean-food-chain` first.
+I checked full-res crops in `build/keyframes/` where a contact tile was ambiguous. References: `channel/art_bible.md` and
+style bible section 7 (Art Director rules 1-9).
+
+## Verdict: FAIL (31 numbered fixes, all small; no asset redraws except fix 24)
+
+What already works, so don't touch it: Doug is on-model in every shot (two tiers hold, auto-ink is white on every navy/black
+shot, every costume leaves the face and cap clear, and fix 3 from round 1 is done in s057/s058). Item title cards are
+consistently red, and the zone cards (REEF / OPEN WATER / APEX / NO PREDATORS) are consistently white. The caption bar
+matches the item name on every segment shot. The counter runs 65 to 74 at the right beats. The NO PREDATORS boss card
+(s280-s281) and the silent navy shift at s252 both land, and the sperm whale sits on midnight `#0b2447`. Layout variety is good:
+reef sets, maps, x-rays, staircases, chalkboards, TV feed, top-down river and depth pan. No run repeats the same composition 5 times
+(the s021-s025 force chart and the s119-s122 grouper close-ups are build-ups of 4-5 changes on one background, which is allowed).
+No gore anywhere.
+
+## Fixes for the director (composition, `shotlist.json`)
+
+**A. Cap missing on a death beat (rule 2, must fix)**
+1. **s059, s077**: the death shot shows only the flat costume, with no Doug and no cap. Every other "eaten" death in this episode
+   (s137, s163, s193, s219, s277) keeps the red cap in frame, so do the same here: add `doug_cap` (scale 0.5) on the ground beside
+   the flat costume. For s059 put it at about (1090, 895) on the crack floor; for s077 put it at about (1150, 880) next to the crab shell.
+   Carry the cap into s060/s078 at the same spot.
+
+**B. Counter zone (x 1300-1860, y 110-230 is reserved)**
+2. **s015, s016, s017, s018, s019**: the top edge of the SLOW MOTION frame (rect y 150) runs right under the
+   "DOUG DEATHS" box. Start the frame at y 250 (h 720), move the SLOW MOTION label to y 300, and check that the shrimp and snail
+   are still inside the frame.
+3. **s268**: the top-right corner of the squid inset (rect 560,200,800,560) is about 5 px from the counter. Use y 260.
+4. **s189**: the white spray disc at (1500,300) reads as a grey smudge and touches the counter zone. Delete it. If you want a "photographed"
+   cue, add a small `highspeed_camera` or red "!" at about (1000, 300). **s317**: delete the same white spray at (1300,500)
+   for the same reason.
+
+**C. Text crossing a creature, Doug or an arrow**
+5. **s060**: INFORMANT (983,260) sits across the upside-down grouper. Move it to about (1450, 480), in the clear water right of the grouper.
+6. **s061**: the GIANT PACIFIC OCTOPUS title crosses the octopus's head. Move the title to y 250, or move the octopus down to y 640.
+7. **s105**: the red arrow cuts through HUNT THE SKY. End the arrow below the text, or move the wordart to about (1420, 360).
+8. **s113**: the title touches the dorsal spines, so raise it to y 290. **s114**: BIGGEST touches the dorsal fin, so raise it to y 195.
+9. **s125**: BOOM (1122,330) sits on the grouper's head. Move it to about (1620, 330), above the sound arcs.
+10. **s138**: EATS SHARKS overlaps the dorsal fin. Either set y 175 and size 90, or move the grouper down 60.
+11. **s143**: SEA TURTLE sits on Doug's cap brim. Move it to y 225, or move Doug and the costume down 60.
+12. **s282**: the orca's dorsal fin goes through KILLER WHALE. Move the wordart to the clear water at about (620, 900).
+
+**D. Wordart on green, and text over map frame lines (art bible "Text")**
+13. **s179**: THEIR WAY sits on the grey-green estuary (`#6f8a6e`), and lime on green-grey disappears on a phone. Move it onto the sand
+    wedge at about (300, 250).
+14. **s194**: TOO (1350,560) straddles the waterline. Move it up into the sky at about (1250, 330).
+15. **s212**: rejecting the "left as is". 16 MARATHONS crosses the top-right map frame, which is exactly the 007 failure the bible
+    forbids. Move it into the right margin at about (1620, 420), size 60 (Doug stays below it). The 16 finish-banner icons at
+    scale 0.3 also read as a red scribble, so either use 0.45 with fewer, larger banners (8 at x2) or drop them and leave only the dashed route.
+16. **s213**: "+1,800 KM" crosses the right frame edge. Move it to about (1620, 420).
+17. **s155**: THOUSANDS OF KM crosses the right frame edge. Put it inside the map over open Pacific at about (1250, 600).
+18. **s183**: "590 KM" and "25 DAYS" straddle the top-right frame corner. Move both to x 1660, y 330 and y 430 (clear of the frame and the counter).
+19. **s251**: WHOLE SEASON and the calendar cross the right frame edge. Move both into the right margin, x about 1720.
+20. **s288**: PORT and STARBOARD sit on the frame edge. Move the two orcas and their labels fully into the right margin (x 1600 or more).
+21. **s291**: "2019" sits on the bottom frame line. Put it fully below the frame or fully inside the map above the pin.
+22. **s267**: SEE EPISODE 1 overlaps the inset's bottom edge. Move it to y 860.
+
+**E. Readability and props**
+23. **s130, s131, s132**: the fishing boat at (700,260) runs into the GOLIATH GROUPER chapter bar. Move the boat to x 320 (and its line with it).
+24. **Splash (asset, illustrator)**: the inline white zigzag splash reads as an **iceberg** at contact and phone size. It does this
+    in s096, s101, s102, s109, s110, s163, s193, s223, s233, s234, s243, s247, and worst in s243, where three of them in a row look like an ice field.
+    The illustrator will draw a library `water_splash` (detailed tier, bottom-centre anchor): a pale blue `#bfe6ff` crown with
+    white highlights and `#3a9ad9` inner strokes, 4-6 round droplets flying off the tips, and the base drawn as a ring
+    sitting *in* the water. Director: swap it in for every inline splash and anchor it on the waterline. In addition:
+    - **s193**: the croc lunges onto sand, so use a sand puff (`#e8c07a`/`#d9ac62` spray) instead of a water splash.
+    - **s234**: drop the splash under the kitchen timer, because the timer currently stands on an "iceberg".
+    - **s243**: one splash plus the label is enough.
+25. **s191**: the tide table at (790,560) floats about 150 px above Doug's pointing hand. Move it to about (800, 730) so he is holding it.
+26. **s299**: "15 OF ~40" doesn't read, because all 40 orca icons are identical black silhouettes. Draw 15 of them as the normal colour
+    `orca` (or tint them red) and leave 25 as silhouettes.
+27. **s058**: the moray silhouette at x 1700 is cut by the frame edge and reads as a black bar. Bring it in to x 1550 so the head
+    and mouth notch show (glow_r 0 is fine here, because the moray is already known).
+28. **s174**: the family car sits on the sea/horizon line and looks like it is driving on water. Put it on the sand above the croc's
+    jaws (about (1300, 760), scale 0.6) with a red down-arrow for "pressing down".
+29. **s235, s236**: the rising sun is only a yellow outline arc and looks unfinished. Fill it `#ffe24a`.
+30. **Polar under-ice water**: s197, s199, s200, s201, s202 and s205 use `#1b4f86` (twilight) for surface water, while s207 and s210 use
+    `#3a9ad9`. That is inconsistent inside one item, and it uses up the navy before the "silent deep-navy shift" at s252. Use `#3a9ad9`
+    for all of them. Doug's ink stays black, which is fine on that blue.
+31. **s317**: three keyword labels are on screen (AGAIN, PUGET SOUND, 2024), and the maximum is 2. Merge the two into "PUGET SOUND, 2024", the way s189 does.
+    Minor and optional: s184's highway sky `#e7f3e7` is off-palette, so `#8fd3ff` would match.
+
+## Director's "left as is" items: rulings
+- **s093, s103, s112, s155, s186 (Doug over the map frame): ACCEPTED.** Doug stands in the margin as a presenter, and the bible's
+  frame rule covers text, not Doug. His head and cap stay clear of the frame line in all five (s186 doesn't actually touch it).
+  The s155 *label* is still fix 17.
+- **s255 (crop): ACCEPTED.** This is a `pan_down` depth-meter shot on a 3240 px canvas, so the keyframe is the end frame of the pan. Towers 5-6
+  being cut at the top is just the camera move; all 6 are seen during the pan, and the whale sits on midnight `#0b2447`.
+- **s181 (satellite near the caption): ACCEPTED.** It sits below the chapter bar without touching it, and the panels read as a satellite.
+- **s212 (label over the edge): REJECTED.** See fix 15. Wordart crossing a map frame is a hard bible rule.
+
+## Style bible 7 checks (keyframe level)
+- Rule 1 (two tiers): PASS. Rule 2 (cap always visible): **FAIL** at s059 and s077 (fix 1). Rule 3 (caption bar): PASS.
+- Rule 4 (labels, max 2): **FAIL** at s317 (fix 31). Chart axes, depth markers and price tags are counted as furniture.
+- Rule 5 (annotations): PASS, every item has several. Rule 6 (value ramp): **FAIL** for the polar water (fix 30). Everything else
+  matches the ramp (reef/open water `#3a9ad9`, sperm whale `#0b2447`, and "no light" beats near-black as a lighting device).
+- Rule 7 (silhouette then reveal): PASS. First appearances (s047, s246, s270, s279) glow, and shadows of creatures already shown use
+  `glow_r: 0`. Rule 8 (no gore): PASS. Rule 9 (photos): not used.
+
+Routing: fixes 1-23 and 25-31 go to the **director**. Fix 24 (`water_splash`) goes to the **illustrator** first, then to the director for the swap.
+After the fixes, re-render only the touched shots with `--shots`, and send me the new sheets for round 2.
+
+KEYFRAMES: FAIL (round 1)

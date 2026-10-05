@@ -24,7 +24,10 @@ colours, bucket fills, spray-can glow, slight hand wobble, 3-drawing "boil" loop
 | Hadal / trenches | 6,000 m+ | `#020308` |
 
 Other environments: lava `#ff5a1f`/`#ffb000`, rock `#6b5b4b`, jungle `#2e8b3a`/`#1d5e27`, ice `#dff4ff`,
-desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never realistic).
+desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never realistic), estuary/croc water `#6f8a6e`
+(counts as green: no wordart on it).
+Water under sea ice or at any surface scene is still the surface colour `#3a9ad9`. Never borrow a deeper ramp colour for
+"cold" or "dim" water, because it spends the depth shift early (008 s197-s205).
 
 ## Two-tier rendering (style bible 4.3)
 - **Doug and humans: crude** MS Paint stick men: uniform thin lines (Doug's rig: 5 at scale 1 ≈ 4–5 px), big round
@@ -41,6 +44,8 @@ desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never
   same x/y/scale, every time (004 s104: Doug was lowered, the flip-flops stayed behind on his shins).
 - **Planted props (flags, poles, signs) touch the ground**: end the pole on the surface line, never in the air
   beside a slope (004 s146: the summit flag floated about 80 px above the slope).
+- **Eaten-whole deaths (from 008)**: when the predator swallows Doug, the death shot may show just the `*_flat` costume, but the
+  red cap (`doug_cap`) must stay in frame (floating, on the ground, or on the predator). Never a death beat with no cap (008 s059, s077).
 - **Death pose (from 003)**: `pose: "on_back"`, `expression: "dead"`, never `rotate`. Body flat, head near-upright
   facing the sky, red cap on (or `gear: ["cap_off"]` for the cap knocked off beside his head). `lie` + `rotate: -90`
   is retired for new shots: it turns the cap into a red half-head and the body into a fan of whiskers. Only
@@ -106,6 +111,9 @@ towers, fishing rods) must stay below the chapter top bar.
   x 1300-1860, y 110-230 at 1080p) is reserved: no sun, moon, creature, tree crown, arrow or other label may touch it. On death
   shots, move the sun/moon down to about (1720, 330) or drop it. This applies to **every** shot that shows the
   counter, including survival beats and title cards that carry the counter over (004 s222 moon at 1650,200).
+  Inset frames (slow-motion boxes, photo/x-ray insets) count too: start them at y ≥ 250 or end them at x ≤ 1280 (008 s015-s019).
+- **Splashes**: use the library `water_splash` (pale blue crown + droplets, base in the water). A white zigzag poly reads as an
+  iceberg (008). On sand, use a sand-colour spray puff instead.
 - **Ground texture lines** (lava crust, cracks) must not pass behind Doug's shoulders or hips: they read as extra
   arms or a skewer (004 s273-s277).
 - **WordArt placement**: the yellow-to-green `wordart` must never sit on green ground, grass, leaves or any
