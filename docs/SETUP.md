@@ -75,6 +75,7 @@ Estimated Doomed Doug usage: ~60–120 min per episode + ~10 min per growth revi
 | Secret | From |
 |---|---|
 | `CLAUDE_CODE_OAUTH_TOKEN` | `claude setup-token` |
+| `ANTHROPIC_API_KEY` | optional backup: console.anthropic.com → API keys (prepaid credits + monthly spend limit). Used only when a step stops on the subscription usage limit (`pipeline/claude_run.sh`); Telegram tells you when it kicks in. Keep it in `.env` as `ANTHROPIC_API_KEY_BACKUP` |
 | `GOOGLE_TTS_API_KEY` | Cloud API key restricted to Text-to-Speech |
 | `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET`, `YOUTUBE_REFRESH_TOKEN` | Desktop OAuth client + `python -m studio auth` |
 | `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` | @BotFather / getUpdates |
