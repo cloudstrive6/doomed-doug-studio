@@ -9748,7 +9748,7 @@
      {
       "type": "doug",
       "x": 300,
-      "y": 760,
+      "y": 880,
       "scale": 0.4,
       "pose": "stand",
       "expression": "neutral",
@@ -9981,6 +9981,31 @@
       "size": 96,
       "boil": 0,
       "appear": 0.92
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1580,
+        900
+       ],
+       [
+        1660,
+        880
+       ],
+       [
+        1690,
+        920
+       ],
+       [
+        1610,
+        950
+       ]
+      ],
+      "fill": "#ffffff",
+      "width": 4,
+      "smooth": false,
+      "color": "#7aa0bc"
      },
      {
       "type": "doug",
@@ -10577,8 +10602,33 @@
       "appear": 0.667
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        1700,
+        900
+       ],
+       [
+        1780,
+        880
+       ],
+       [
+        1810,
+        920
+       ],
+       [
+        1730,
+        950
+       ]
+      ],
+      "fill": "#ffffff",
+      "width": 4,
+      "smooth": false,
+      "color": "#7aa0bc"
+     },
+     {
       "type": "doug",
-      "x": 1650,
+      "x": 1770,
       "y": 860,
       "scale": 0.5,
       "pose": "stand",
@@ -14810,7 +14860,7 @@
       "type": "label",
       "text": "NETHERLANDS",
       "x": 1640,
-      "y": 470,
+      "y": 400,
       "size": 40,
       "bold": true,
       "boil": 0.4,
@@ -17412,9 +17462,9 @@
      {
       "type": "label",
       "text": "NORTH ATLANTIC",
-      "x": 1620,
-      "y": 424,
-      "size": 40,
+      "x": 1460,
+      "y": 700,
+      "size": 30,
       "bold": true,
       "boil": 0.4,
       "appear": 0.815
@@ -26245,7 +26295,7 @@
       "type": "wordart",
       "text": "9 EIFFEL TOWERS",
       "x": 700,
-      "y": 160,
+      "y": 450,
       "size": 76,
       "boil": 0,
       "appear": 0.273
@@ -34721,8 +34771,8 @@
      {
       "type": "wordart",
       "text": "JUNGLE",
-      "x": 1400,
-      "y": 400,
+      "x": 1330,
+      "y": 380,
       "size": 110,
       "boil": 0,
       "appear": 0.875
@@ -34850,9 +34900,9 @@
      {
       "type": "wordart",
       "text": "MORE OXYGEN",
-      "x": 1460,
-      "y": 540,
-      "size": 84,
+      "x": 1350,
+      "y": 380,
+      "size": 64,
       "boil": 0,
       "appear": 0.75
      },
@@ -45038,7 +45088,7 @@
      {
       "type": "doug",
       "x": 500,
-      "y": 170,
+      "y": 247,
       "scale": 0.35,
       "pose": "stand",
       "expression": "shock",
@@ -45153,7 +45203,7 @@
      {
       "type": "doug",
       "x": 1750,
-      "y": 150,
+      "y": 254,
       "scale": 0.3,
       "pose": "stand",
       "expression": "neutral",
@@ -50445,7 +50495,7 @@
      {
       "type": "wordart",
       "text": "FURTHER",
-      "x": 1250,
+      "x": 1180,
       "y": 500,
       "size": 90,
       "boil": 0,
