@@ -8,3 +8,4 @@ claude_*.jsonl
 .current_episode
 tests/*/build/
 .cache/
+trailers/*/build/

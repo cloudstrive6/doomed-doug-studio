@@ -1,0 +1,96 @@
+{
+ "size": [
+  1280,
+  720
+ ],
+ "background": "#8fd3ff",
+ "elements": [
+  {
+   "type": "group",
+   "x": 0,
+   "y": 0,
+   "scale": 0.6666666666666666,
+   "elements": [
+    {
+     "type": "poly",
+     "smooth": true,
+     "fill": "#9ccf6a",
+     "width": 5,
+     "points": [
+      [
+       -40,
+       900
+      ],
+      [
+       480,
+       886
+      ],
+      [
+       960,
+       908
+      ],
+      [
+       1440,
+       888
+      ],
+      [
+       1960,
+       900
+      ],
+      [
+       1960,
+       1120
+      ],
+      [
+       -40,
+       1120
+      ]
+     ]
+    },
+    {
+     "type": "doug",
+     "x": 270,
+     "y": 380,
+     "scale": 0.7,
+     "pose": "float",
+     "expression": "dead",
+     "facing": "right",
+     "ghost": true
+    },
+    {
+     "type": "doug",
+     "x": 470,
+     "y": 680,
+     "scale": 1.4,
+     "pose": "thumbs_up",
+     "expression": "hopeful",
+     "facing": "right"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "WELCOME\nBACK.",
+   "x": 935,
+   "y": 190,
+   "size": 112,
+   "color": "#e0201b",
+   "outline": "#000000",
+   "outline_width": 9,
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "DOUG IS\nFINE.",
+   "x": 935,
+   "y": 480,
+   "size": 112,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 10,
+   "bold": true,
+   "boil": 0
+  }
+ ]
+}

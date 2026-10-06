@@ -1,0 +1,265 @@
+{
+ "size": [
+  1280,
+  720
+ ],
+ "background": "#f2a25a",
+ "elements": [
+  {
+   "type": "group",
+   "x": 0,
+   "y": 0,
+   "scale": 0.6666666666666666,
+   "elements": [
+    {
+     "type": "rect",
+     "x": -10,
+     "y": -10,
+     "w": 1940,
+     "h": 610,
+     "color": "#000000",
+     "width": 0,
+     "fill": "#f2a25a",
+     "outline": false
+    },
+    {
+     "type": "poly",
+     "smooth": true,
+     "fill": "#6f8f4a",
+     "width": 4,
+     "points": [
+      [
+       -40,
+       600
+      ],
+      [
+       300,
+       530
+      ],
+      [
+       700,
+       570
+      ],
+      [
+       1100,
+       510
+      ],
+      [
+       1500,
+       560
+      ],
+      [
+       1960,
+       520
+      ],
+      [
+       1960,
+       610
+      ],
+      [
+       -40,
+       610
+      ]
+     ]
+    },
+    {
+     "type": "rect",
+     "x": -10,
+     "y": 600,
+     "w": 1940,
+     "h": 490,
+     "color": "#000000",
+     "width": 0,
+     "fill": "#3f8fb0",
+     "outline": false
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       0,
+       600
+      ],
+      [
+       480,
+       594
+      ],
+      [
+       960,
+       606
+      ],
+      [
+       1440,
+       594
+      ],
+      [
+       1920,
+       604
+      ]
+     ],
+     "color": "#ffffff",
+     "width": 5
+    },
+    {
+     "type": "spray",
+     "x": 960,
+     "y": 850,
+     "r": 600,
+     "color": "#9fd0ea",
+     "density": 0.02
+    },
+    {
+     "type": "poly",
+     "smooth": true,
+     "fill": "#e8c07a",
+     "width": 5,
+     "points": [
+      [
+       -40,
+       830
+      ],
+      [
+       400,
+       805
+      ],
+      [
+       900,
+       840
+      ],
+      [
+       1400,
+       812
+      ],
+      [
+       1960,
+       835
+      ],
+      [
+       1960,
+       1120
+      ],
+      [
+       -40,
+       1120
+      ]
+     ]
+    },
+    {
+     "type": "spray",
+     "x": 960,
+     "y": 960,
+     "r": 500,
+     "color": "#c9a15f",
+     "density": 0.04
+    },
+    {
+     "type": "doug",
+     "x": 430,
+     "y": 720,
+     "scale": 1.15,
+     "pose": "float",
+     "expression": "shock",
+     "facing": "right"
+    },
+    {
+     "type": "rect",
+     "x": 230,
+     "y": 721,
+     "w": 400,
+     "h": 160,
+     "fill": "#3f8fb0",
+     "width": 0,
+     "outline": false,
+     "boil": 0
+    },
+    {
+     "type": "poly",
+     "smooth": true,
+     "fill": "#e8c07a",
+     "width": 5,
+     "points": [
+      [
+       -40,
+       830
+      ],
+      [
+       400,
+       805
+      ],
+      [
+       900,
+       840
+      ],
+      [
+       1400,
+       812
+      ],
+      [
+       1960,
+       835
+      ],
+      [
+       1960,
+       1120
+      ],
+      [
+       -40,
+       1120
+      ]
+     ]
+    },
+    {
+     "type": "spray",
+     "x": 960,
+     "y": 960,
+     "r": 500,
+     "color": "#c9a15f",
+     "density": 0.04
+    },
+    {
+     "type": "ellipse",
+     "x": 430,
+     "y": 724,
+     "rx": 150,
+     "ry": 20,
+     "color": "#ffffff",
+     "width": 5
+    },
+    {
+     "type": "asset",
+     "name": "naegleria_amoeba",
+     "x": 820,
+     "y": 760,
+     "scale": 0.3
+    },
+    {
+     "type": "arrow",
+     "from": [
+      760,
+      735
+     ],
+     "to": [
+      540,
+      470
+     ],
+     "bend": 40,
+     "color": "#e0201b",
+     "width": 10,
+     "head": 40
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "DOUG DIES\nIN EVERY\nVIDEO",
+   "x": 945,
+   "y": 300,
+   "size": 112,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 10,
+   "bold": true,
+   "boil": 0
+  }
+ ]
+}
