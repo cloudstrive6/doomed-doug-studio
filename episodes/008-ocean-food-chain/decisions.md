@@ -113,3 +113,5 @@ FINAL: APPROVED
 FINAL: APPROVED
 - 2026-10-05 Showrunner (final review round 2): QC OK (no problems, exit 0); VERDICT (main): PASS, VERDICT (shorts): PASS; CD package approved earlier (title/thumbnail/description unchanged by re-render). Stage -> qc_passed.
 FINAL: APPROVED
+- 2026-10-06 Showrunner (final review, post-upload re-render): this episode is ALREADY UPLOADED (YouTube id QTOdC67HcZY, 2026-10-05T23:46Z), yet a further final render at 2026-10-06T00:01 reset the stage to built. The prompt reported QC exit 1, but QC re-run now exits 0 with no problems. I did not re-screen or re-approve and left the stage at built, because moving it to qc_passed could trigger a duplicate upload. Owner should check the uploaded video in YouTube Studio and decide whether this new render is wanted (it matches the same shotlist, so likely no change); stage should be restored to uploaded manually.
+FINAL: REJECTED already uploaded as QTOdC67HcZY; post-upload re-render not re-approved to avoid duplicate upload

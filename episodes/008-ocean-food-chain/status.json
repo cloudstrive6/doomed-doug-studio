@@ -54,7 +54,12 @@
       "stage": "uploaded",
       "at": "2026-10-05T23:46:14+00:00",
       "note": "QTOdC67HcZY"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-06T00:01:48+00:00",
+      "note": "final render"
     }
   ],
-  "stage": "uploaded"
+  "stage": "built"
 }
