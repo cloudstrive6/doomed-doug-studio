@@ -89,7 +89,24 @@
       "publish_at": "2026-10-07T23:00:00Z",
       "related_video": "lgpGaCCrv3Q",
       "related_set": true,
-      "uploaded_at": "2026-10-02T00:36:16+00:00"
+      "uploaded_at": "2026-10-02T00:36:16+00:00",
+      "social": {
+        "instagram_error": "IG container 17982872520084403 ERROR: Error: Media upload has failed with error code 2207085",
+        "facebook": {
+          "id": "1595364152325469",
+          "url": "https://www.facebook.com/reel/1595364152325469"
+        },
+        "tiktok": {
+          "id": "v_pub_file~v2-1.7694066387006736436",
+          "url": "https://www.tiktok.com/@doomeddoug"
+        },
+        "instagram_story": {
+          "id": "18143021200608722"
+        },
+        "facebook_story": {
+          "id": "2274105863175967"
+        }
+      }
     }
   ]
 }
