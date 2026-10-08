@@ -93,3 +93,89 @@ director's sizes, anchors and named local points. Sources:
 
 ## Rejected assets
 - `helicoprion`
+
+# Keyframes round 1
+
+Reviewer: art director, 2026-10-08. Scope: all 337 shots on `build/contact/sheet_01..29.png`, full-res `build/keyframes/` for s126 and
+s140, and element positions in `shotlist.json` for every shot flagged below. s001 is the thumbnail placeholder (pending, expected).
+
+## Verdict: FAIL (round 1). 12 fixes for the director, touching 24 shots. The rest is strong.
+
+**What works:** the style is consistent across all 12 items. The two tiers hold everywhere (crude Doug, scientists and the child against
+detailed, shaded creatures and props). Doug is on-model in every shot: round head, crescent, oval eyes, red cap, snorkel and fins
+moving with him, and the ink flips to white on the dark interior (s209) and navy (s256). The era ramp darkens one step per item, from
+Cambrian `#7cc6e6` to Miocene `#0a1630`, and lands on near-black navy at the boss. Every item opens on a glowing silhouette and a red
+title card. Annotations appear in every item. The night clock reads at a glance (moon, then sun on survival, then pink when frozen on death).
+Death beats are cartoon only (X eyes, ghost, splash, floating cap), with no gore. The mouth interiors in s228-s234 are cartoon reds.
+Most items vary layouts well: maps, monitors, TV, museum frames, sunset surface beats, the menu chalkboard, ladders and bar charts.
+
+**Asset `helicoprion` (round 2, re-drawn in 18c6135): APPROVED.** The whorl now sits on top of the lower jaw and reads as a toothed saw
+(s116, s124-s127, s132; checked full-res on s126). The head is flattened, the snout is pointed with a jaw notch in the s109 silhouette,
+and the small eye and heavy brow match `xiphactinus`/`pliosaurus`. That lifts the round-1 asset rejection: all 45 assets are now approved.
+
+## Blocking fixes (director)
+
+1. **s330: no cap on a death beat** (style bible 7.2, art bible "never a death beat with no cap"). The frame is all black apart from the HUD.
+   Add `doug_cap` at about (960, 600), scale 0.6, `rotate` 20, so the cap tumbles in the dark. Red on black reads at phone size.
+2. **s334: wordart on green grass** (art bible: lime on green disappears). Move THE WHOLE NIGHT into the sky left of the booth, at (380, 640),
+   size 60. That keeps it clear of the sun and of the booth's left edge (about x 720).
+3. **s191: SHALLOW SEA crosses the map frame and the green land.** Move it into the right margin at (1590, 900), size 60. That keeps it below Doug's feet (about y 630)
+   and right edge at 1856 or less.
+4. **Labels sitting on a map's bottom frame line** (008 precedent, s155): s166 (ABOUT 155 MILLION YEARS AGO), s189 (ABOUT 85 MILLION YEARS AGO),
+   s219 (SAME SEA), s271 (ABOUT 10 MILLION YEARS AGO). Move each one off the frame into the top-left slot used by s032/s140, at about (480, 170),
+   size 40-42.
+5. **More than 2 keyword labels on screen** (7.4). Merge or drop as follows:
+   - **s076**: drop IN WATER (the sea scorpion is already established in water). Keep ON LAND and VERY CLOSE.
+   - **s096**: merge STRONG and FAST into one label, "STRONG + FAST", at (900, 330). Keep BOTH.
+   - **s110**: merge 1899 and RUSSIA into "RUSSIA, 1899" (the s140 style). Keep ABOUT 280 MILLION YEARS AGO.
+   - **s124**: merge 2013 and IDAHO MUSEUM into "IDAHO MUSEUM, 2013" at the old 2013 slot. Keep X-RAY SCANS.
+   - **s161**: drop the 1999 box and make the label "LIOPLEURODON, 1999". Keep MONSTER.
+   - **s236**: merge NO ARMOR and NO FINS into "NO ARMOR, NO FINS" at (800, 1000). Keep RED HAT and its arrow.
+   - **s243**: drop ABOUT 37 MILLION YEARS AGO. It isn't spoken here (the narration is "It is not a lizard,") and s249 carries the date.
+   - **s140**: the SKULL, BACKBONE and FLIPPER labels float over bare dirt with no bones drawn (checked full-res). Delete all three. Add
+     `cymbospondylus_skull` on the ground between the scientists at (960, 840), scale 0.35, with one label, "SKULL, SPINE, FLIPPER", at (960, 960), size 40.
+   - Accepted as furniture (not keyword labels): s002 (CAMBRIAN is the booth's destination sign), measurements in s115/s163/s195/s274,
+     the anatomy callouts in s253 (the 007 s243 precedent) and the s336 option list in the outro question.
+6. **s035: CHAMBERS appears twice** (boxed label plus wordart). Drop the wordart. Keep the label and its arrow onto the chamber line.
+7. **s059: the poster inset enters the counter's column.** The rect runs x 560-1360 from y 160, but the art bible says insets start at y 250 or below, or end at x 1280 or less.
+   Set the rect to x 580, w 700 (so it ends at 1280) and move the jaekelopterus, SEA SCORPION! and NOW SHOWING to x 930.
+8. **s187: TWO-METER HEAD crosses the pliosaur's front flippers** at y 980. Move it into the clear water at the right, (1450, 450), size 70.
+9. **s108: MORE DANGEROUS runs into the Dunkleosteus tail** (about x 1110-1145). Move it to x 660, or keep x 760 at size 76.
+10. **s272: UPPER sits about 10 px under the night clock.** Move it to (1450, 370) and re-aim its arrow at the upper teeth.
+11. **Endoceras fossil run, s040-s050: same composition 10 times in 11 shots** (horizontal cone mid-frame, Doug at the right, cream). s045-s050
+    is 6 in a row, and our limit is 4. Re-stage two of them:
+    - **s046 (ESTIMATE)**: a close-up. Put the cone at about 2x, cropped so the dashed tip fills the left half. Tiny Doug stands *on* the shell,
+      pointing back at the dashed part. Keep the ESTIMATED label and arrow.
+    - **s048 (2025 STUDY)**: use the computer-model layout from s017/s089. Copy the monitor rects from s017 and show the cone on screen with the dashed tip, the
+      scientist at the left, and 2025 STUDY plus GENEROUS. Drop the warning triangle (one annotation is enough).
+12. **Pliosaur skull run, s172-s176: 5 in a row** of the skull centred on cream with Doug at the right (s167-s169 are the same layout too). Re-stage:
+    - **s173 (WEAKNESS)**: put the skull back on the monitor (copy the s170/s171 rects) ("the model found one weakness"), with the warning triangle
+      beside the screen.
+    - **s176 (BIT HARDER)**: show the live `pliosaurus` in Mesozoic teal `#24797c`, jaws clamped on an `ammonite`, Doug watching small at the right,
+      with BIT HARDER below in clear water. No gore. A clamp, not a bite-through.
+
+## Non-blocking advisories
+- **A1 (night clock spacing).** Short readings ("10 s", "3 s", "22 min") stay centred at x 1600 while the moon stays at x 1338. That leaves
+  a gap of about 100 px (s262-s264, s289-s293, s328-s337 most visibly). If you touch these shots anyway, put the moon at the label's left edge minus 34.
+  The format changes (h/min, then min, then s, then SUNRISE, then pink when frozen) follow the brief's downward trend and are intended.
+- **A2 (wordart on dark water).** The `#1a1a1a` outline vanishes on navy and teal, so wordart looks flatter there than on cream. Lime on navy
+  still reads at phone size. Accepted.
+- **A3 (late reveals, accepted).** Helicoprion (s109 to s116), Pliosaurus (s157 to s165), Livyatan (s267 to s272) and Megalodon (s294 to s301)
+  show the full body more than 3 beats after the silhouette. Each of these items is *about* the body being unknown or disputed, so the
+  in-between shots carry partial evidence (whorl, TV, sperm whale, teeth).
+- **A4.** s229-s232 are 4 mouth shots in a row. That is inside the limit, and the annotation changes each beat. Accepted.
+
+## Style bible 7 checks (keyframe level)
+- Rule 1 (two tiers): PASS. Rule 2 (cap always visible): **FAIL** at s330 (fix 1). Rule 3 (caption bar): PASS. Section cards (s004, s135, s240)
+  and the cold open and outro carry no bar, as intended.
+- Rule 4 (labels, max 2): **FAIL** at s076, s096, s110, s124, s140, s161, s236 and s243 (fix 5). The duplicate in s035 is fix 6.
+- Rule 5 (annotations): PASS, every item has several. Rule 6 (value ramp): PASS. The era ramp darkens monotonically, and night
+  (`#2e5f8a`, s053-s055) and sunset surface beats are lighting devices. Rule 7 (silhouette then reveal): PASS, with the A3 exceptions.
+  Rule 8 (no gore): PASS. Rule 9 (photos): not used.
+
+Routing: all 12 fixes go to the **director**. No asset work is needed (`cymbospondylus_skull`, `ammonite` and `pliosaurus` exist, and the monitor is plain rects).
+Re-render only the touched shots:
+`--shots s035,s046,s048,s059,s076,s096,s108,s110,s124,s140,s161,s166,s173,s176,s187,s189,s191,s219,s236,s243,s271,s272,s330,s334`
+and send me the new sheets for round 2.
+
+KEYFRAMES: FAIL (round 1)

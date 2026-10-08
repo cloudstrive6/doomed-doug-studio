@@ -26,6 +26,9 @@ colours, bucket fills, spray-can glow, slight hand wobble, 3-drawing "boil" loop
 Other environments: lava `#ff5a1f`/`#ffb000`, rock `#6b5b4b`, jungle `#2e8b3a`/`#1d5e27`, ice `#dff4ff`,
 desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never realistic), estuary/croc water `#6f8a6e`
 (counts as green: no wordart on it).
+**Prehistoric era ramp (from 009, one step darker per item, oldest to youngest):** Cambrian `#7cc6e6`, Ordovician `#66b3da`,
+Devonian lagoon `#5b8a86` (brackish), Devonian sea `#3f8fc4`, Permian `#347eae`, Triassic `#2a8a88`, Jurassic `#24797c`,
+Cretaceous `#1f6870` / `#1a5866`, Eocene `#16455c`, Miocene `#112f4f`, ending on `#0a1630` for the boss. Reuse it for any era-axis ocean video.
 Water under sea ice or at any surface scene is still the surface colour `#3a9ad9`. Never borrow a deeper ramp colour for
 "cold" or "dim" water, because it spends the depth shift early (008 s197-s205).
 
@@ -115,6 +118,9 @@ lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008
   shots, move the sun/moon down to about (1720, 330) or drop it. This applies to **every** shot that shows the
   counter, including survival beats and title cards that carry the counter over (004 s222 moon at 1650,200).
   Inset frames (slow-motion boxes, photo/x-ray insets) count too: start them at y ≥ 250 or end them at x ≤ 1280 (008 s015-s019).
+- **Night clock (009 only)**: moon icon at (1338, 240) plus a `label` "DOUG LASTED: ..." centred at (1600, 240), size 34, under the counter.
+  White while running, `#fff3b0` with a sun icon on survival (SUNRISE), `#ffd2cc` frozen on death. For short readings ("3 s"), put the
+  icon at the label's left edge minus 34 so it doesn't float.
 - **Splashes**: use the library `water_splash` (pale blue crown + droplets, base in the water). A white zigzag poly reads as an
   iceberg (008). On sand, use a sand-colour spray puff instead.
 - **Ground texture lines** (lava crust, cracks) must not pass behind Doug's shoulders or hips: they read as extra
