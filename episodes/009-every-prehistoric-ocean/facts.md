@@ -6,7 +6,7 @@ narrator's asides ("educated guessing", "no glass", "the narrator had already wr
 meal", "inside this one, they would find a snorkel", "never anybody's king", the closing image). Everyday comparisons
 are marked "common knowledge" and checked by arithmetic.
 
-Checked 2026-10-08. "Verified" = I read the figure on the page (WebFetch). "Search snippet" = the page blocked WebFetch
+Checked 2026-10-08. Draft 2 (2026-10-08) applies screener fixes F1-F5, the Tylosaurus re-citation and the advisory notes; the Dunkleosteus 4,400 N figure is from a model of a 6 m individual (noted below). "Verified" = I read the figure on the page (WebFetch). "Search snippet" = the page blocked WebFetch
 (403/451/captcha) and the figure was confirmed through search-result text quoting that page; the screener should
 re-open these if possible.
 
@@ -24,7 +24,7 @@ re-open these if possible.
 - **Pliosaurus bite:** the bite study is Foffa et al. 2014 (*Palaeontology*), not Benson 2013. Figures given in pounds
   as the source gives them.
 - **Liopleurodon TV size:** the newest source is a Portsmouth study published 21 July 2026 in the *Journal of Vertebrate
-  Paleontology* ("this July" in the script). The 2023 Portsmouth vertebra study (9.8-14.4 m) is about a *Pliosaurus*-like
+  Paleontology* ("in twenty twenty-six" in the script). The 2023 Portsmouth vertebra study (9.8-14.4 m) is about a *Pliosaurus*-like
   animal, not Liopleurodon, so it is not used.
 - **Xiphactinus death:** stated as "the usual reading", not fact. The fin-rupture hypothesis is not mentioned (injury
   detail).
@@ -66,24 +66,26 @@ re-open these if possible.
 - Ordovician, "about four hundred and sixty million years ago" (Middle-Late Ordovician): https://en.wikipedia.org/wiki/Endoceras (search snippet), inside ICS Ordovician.
 - Nautiloid; Paleozoic nautiloids grouped with the living chambered nautilus by shared shell structure ("ancient cousin"): https://www.digitalatlasofancientlife.org/learn/mollusca/cephalopoda/nautiloidea/ (search snippet)
 - Long straight chambered shell (orthocone): same Digital Atlas page ("long, straight shells (orthoconic longicones)")
-- Among the top predators of the Ordovician; "sturdy shell and a powerful beak": https://www.nbcnews.com/id/wbna43171662 (Peter Van Roy quote, search snippet); https://greatbasinmuseum.com/index.php/photo-galleries/image/46-orthrocone-nautiloids (search snippet)
+- "May have been one of the top predators of its time", hunting close to the seafloor, big adults probably ambush predators that lay still and waited for prey: University of Minnesota Kirkby Earth Sciences display, https://kirkby.esci.umn.edu/displays/basement-atrium/endoceras-cephalopod (verified: "may have been the apex predator of Minnesota's Ordovician seas for most of its time, hunting close to the seafloor"; adults "lay in wait on the seafloor for prey to pass by"). Supporting: https://en.wikipedia.org/wiki/Endocerida (verified: "Endocerids may have been the apex predators of the Ordovician", citing Kröger & Zhang 2008; a filter-feeding proposal, Mironenko 2018, is countered by Peterman, Barton & Yacobucci 2019, which supports benthic predators). Script keeps the hedge "may have been". Draft 1's NBC/Van Roy citation was about anomalocaridids and is removed; "powerful beak and plenty of arms" is cut (soft parts unknown).
+- Doug beat (draft 2): the Endoceras lying beside Doug all night, waiting, is framing built on the ambush-predator line above; no behaviour claim beyond it.
 - Largest fossil a 3 m conch fragment at Harvard's Museum of Comparative Zoology, incomplete; extrapolated to 5.73 m; the body-chamber assumption may be too high; 10 m reports "neither rescued nor photographed"; "the generally gigantic size of endoceratoids is a misconception": Klug et al. 2025, "Cephalopod body size and macroecology through deep time", *Scientific Reports* 15: 30736, https://pmc.ncbi.nlm.nih.gov/articles/PMC12371081/ (verified). Original estimate: Klug et al. 2015, *Lethaia*.
 - "Nearly half of that length is an estimate": arithmetic, (5.73 - 3) / 5.73 = 48 percent.
-- Pickup truck about 5.3-5.9 m: common knowledge; 5.7 m is "longer than a big pickup truck" at the upper end. (Screener: if this feels tight, swap for "about as long as a canoe".)
-- Drifting past without checking the shell: framing for the Doug survival, no speed claim made.
+- Big pickup truck about 5.3-6.4 m (full-size crew cab up to about 5.8-6.4 m): common knowledge; 5.7 m is "about as long as a big pickup truck" (draft 1's "longer than" removed per screener F4).
 
 ## 3. Jaekelopterus
-- Largest arthropod ever found; 46 cm claw (fixed ramus preserved 36.4 cm, missing about a quarter, about 45.5 cm complete); body about 2.5 m (233-259 cm from relatives' proportions); chelicerae add roughly another metre; Early Devonian (Lower Emsian), Willwerath, near Prüm, Germany; deposited in a restricted water body, possibly a brackish lagoon or floodplain lake in a delta, with no fully marine organisms: Braddy, Poschmann & Tetlie 2007/2008, *Biology Letters* 4(1), https://pmc.ncbi.nlm.nih.gov/articles/PMC2412931 (verified)
+- "The largest sea scorpion ever found, and one of the two biggest arthropods in history"; "For this giant, the claw is all we have" (the species *J. rhenaniae* is also known from smaller chelicerae and a 27 cm coxa, Størmer 1936, but the giant size rests on the one claw): Braddy, Poschmann & Tetlie 2008 (below, verified).
+- Rival: *Arthropleura*, a giant millipede relative that lived on land; the Northumberland specimen (Davies et al. 2021/2022, *Journal of the Geological Society*, "The largest arthropod in Earth history") is estimated at up to 2.63 m, against 2.33-2.59 m for Jaekelopterus, so "very close": https://www.sci.news/paleontology/arthropleura-fossil-10388.html (search snippet: up to 2.63 m, "larger than the ancient sea scorpions"); https://geolsoc.figshare.com/collections/The_largest_arthropod_in_Earth_history_insights_from_newly_discovered_i_Arthropleura_i_remains_Serpukhovian_Stainmore_Formation_Northumberland_England_/5715450 (search result title); https://www.gpb.org/news/2021/12/21/extinct-millipede-the-length-of-car-once-roamed-northern-england (NPR, search snippet).
+- 46 cm claw (fixed ramus preserved 36.4 cm, missing about a quarter, about 45.5 cm complete); body about 2.5 m (233-259 cm from relatives' proportions); chelicerae add roughly another metre; Early Devonian (Lower Emsian), Willwerath, near Prüm, Germany; deposited in a restricted water body, possibly a brackish lagoon or floodplain lake in a delta, with no fully marine organisms: Braddy, Poschmann & Tetlie 2007/2008, *Biology Letters* 4(1), https://pmc.ncbi.nlm.nih.gov/articles/PMC2412931 (verified)
 - Found in a quarry: https://bristol.ac.uk/news/2007/5698.html (University of Bristol release, search snippet)
 - "About four hundred million years ago": Emsian about 410.6-393.5 Ma (ICS).
 - Arthropods include insects, spiders, crabs, lobsters: common knowledge (Britannica-level definition).
 - Computer keyboard about 44-46 cm: common knowledge. Grown man lying down about 1.75 m: common knowledge.
-- Japanese spider crab: the largest leg span of any living arthropod, up to 3.7 m ("mostly legs"): https://www.nationalgeographic.com/animals/invertebrates/facts/japanese-spider-crab (search snippet); https://en.wikipedia.org/wiki/Japanese_spider_crab (search snippet)
+- Japanese spider crab: the largest leg span of any living arthropod, up to 3.7 m ("the arthropod with the biggest leg span alive today", "mostly legs"; draft 1's "biggest arthropod alive today" narrowed per screener): https://www.nationalgeographic.com/animals/invertebrates/facts/japanese-spider-crab (search snippet); https://en.wikipedia.org/wiki/Japanese_spider_crab (search snippet)
 
 ## 4. Dunkleosteus
 - About 360 million years ago (Late Devonian), Cleveland, Ohio: https://case.edu/news/chunky-dunk-clevelands-prehistoric-sea-monster-may-have-been-shorter-stouter-once-believed (verified)
 - Armored head and chest; only the armored head fossilizes: same Case release (verified)
-- Bony blades/dental plates instead of true teeth; bite more than 4,400 N at the jaw tip; jaw-opening linkage with a high-speed transmission, a rapid expansion phase like suction-feeding fishes: Anderson & Westneat, *Biology Letters* 3(1): 77-80, https://pmc.ncbi.nlm.nih.gov/articles/PMC2373817 (search snippet)
+- Bony blades/dental plates instead of true teeth; bite more than 4,400 N at the jaw tip (modelled on a 6 m individual; the script does not tie it to the later 3.4 m estimate); jaw-opening linkage with a high-speed transmission, a rapid expansion phase like suction-feeding fishes: Anderson & Westneat, *Biology Letters* 3(1): 77-80, https://pmc.ncbi.nlm.nih.gov/articles/PMC2373817 (search snippet)
 - Opened its mouth "in just one fiftieth of a second", creating suction; "Usually a fish has either a powerful bite or a fast bite, but not both": https://phys.org/news/2006-11-ancient-predator-strongest-fish-rivaling.html (verified)
 - Grand piano: 4,400 N / 9.81 = about 450 kg; a concert grand weighs about 400-500 kg. Common knowledge plus arithmetic.
 - Older estimates up to 30 feet (about 9 m); new estimate 11-13 ft; shorter and "much chunkier"; "very tuna-like torso"; mouth twice as large as a great white's (script says only "a huge mouth"): Case release (verified)
@@ -114,13 +116,14 @@ re-open these if possible.
 - City bus about 12 m; 17 / 12 = about 1.4, "a bus and a half": arithmetic.
 
 ## 7. Pliosaurus
-- Walking with Dinosaurs (BBC, 1999), "Cruel Sea", showed Liopleurodon as a 25 m hunter; consultant David Martill; 2026 Portsmouth study (Bartlett & Martill, *Journal of Vertebrate Paleontology*, 21 July 2026): maximum "just over eight metres": https://www.newswise.com/articles/jurassic-sea-monster-was-smaller-than-once-thought-but-no-less-formidable (verified)
+- Walking with Dinosaurs (BBC, 1999), "Cruel Sea", showed Liopleurodon as a 25 m hunter; consultant David Martill; 2026 Portsmouth study (Bartlett & Martill, *Journal of Vertebrate Paleontology*, 21 July 2026; script says "in twenty twenty-six"): maximum "just over eight metres": https://www.newswise.com/articles/jurassic-sea-monster-was-smaller-than-once-thought-but-no-less-formidable (verified)
 - Martill: "I based my calculations on some fragmentary material ... the evidence was scant": https://blog.everythingdinosaur.com/blog/_archives/2007/09/09/3217977.html (search snippet); also https://plesiosauria.com/?p=51535 (verified: "Liopleurodon ferox was not 25 meters long")
 - "Shrank by about two thirds": arithmetic, 8 / 25 = 32 percent.
 - Weymouth Bay skull, *Pliosaurus kevani* (Benson et al. 2013, *PLOS ONE*), over 2 m (2.1 m snout to parietal ridge): https://plesiosauria.com/?p=214 (search snippet)
 - About 155 million years old; skull "over six feet"; bite 2,000-4,000 lb at the front, 6,000-11,000 lb at the back; grabbed prey and moved it to the back of the jaw; skull weak to twisting/shaking: https://www.nationalgeographic.com/science/article/the-dining-habits-of-a-jurassic-sea-dragon (verified; Foffa et al. 2014, *Palaeontology*)
 - Front door about 2 m tall: common knowledge.
-- 2023 Dorset skull (Kimmeridge Bay, Steve Etches), about 6-6.5 ft, 130 teeth: https://www.npr.org/2023/12/11/1218499369/scientists-have-found-the-mostly-intact-skull-of-a-giant-deadly-sea-reptile (search snippet); https://www.smithsonianmag.com/smart-news/fossil-hunters-uncover-prehistoric-sea-monster-skull-at-a-uk-beach-180983423/ (search snippet)
+- 2023 Dorset skull (Kimmeridge Bay, Steve Etches), about 6-6.5 ft, 130 teeth, "a bite far stronger than a crocodile's"; Etches: "I stake my life the rest of the animal is there"; the cliffs are wearing away quickly: https://www.kqed.org/news/11969560/scientists-uncover-prehistoric-sea-monster-akin-to-underwater-t-rex (NPR story, verified: skull "around six feet long", "its 130 teeth in a bite far stronger than a crocodile's", Etches quote and erosion warning); https://www.smithsonianmag.com/smart-news/fossil-hunters-uncover-prehistoric-sea-monster-skull-at-a-uk-beach-180983423/ (verified: "six-and-a-half feet long", same Etches quote); https://www.npr.org/2023/12/11/1218499369/scientists-have-found-the-mostly-intact-skull-of-a-giant-deadly-sea-reptile (search snippet)
+- Twist marker (draft 2): "Now for the part the size correction left out." The escalation is framing: the 2026 study shrank Liopleurodon, but the Dorset pliosaur skull is real and the rest of that animal is likely still in the cliff. No body length is claimed for the 2023 animal (press figures of 10-12 m are unsourced extrapolations and are not used).
 
 ## 8. Xiphactinus
 - About 85 million years ago, Late Cretaceous; Kansas covered by an inland sea; up to 17 ft (5.2 m); could swallow a 6 ft (2 m) fish whole: https://tumblr.amnh.org/post/738706729558294528/its-fossil-friday-lets-swim-back-in-time-about/amp (American Museum of Natural History, verified)
@@ -132,7 +135,7 @@ re-open these if possible.
 - Fangs and upturned jaw: AMNH image and description (verified page describes a predatory fish); drawing note only.
 
 ## 9. Tylosaurus
-- Mosasaurs were sea lizards (marine reptiles) that lived alongside dinosaurs; Tylosaurus "grew more than 45 feet (14 meters) long, making it the largest of the marine reptiles called mosasaurs"; diet fish, seabirds, sharks, plesiosaurs and other mosasaurs; "two extra rows of teeth on the roof of its mouth allowed crippled captives no escape": https://www.nationalgeographic.com/animals/facts/tylosaurus (verified). Script says "around thirteen or fourteen meters" for the largest individuals (Wikipedia: Early Campanian *T. proriger* 13-14 m, search snippet).
+- Mosasaurs were sea lizards (marine reptiles) that lived alongside dinosaurs; Tylosaurus "grew more than 45 feet (14 meters) long, making it the largest of the marine reptiles called mosasaurs"; diet fish, seabirds, sharks, plesiosaurs and other mosasaurs; "two extra rows of teeth on the roof of its mouth allowed crippled captives no escape": https://www.nationalgeographic.com/animals/facts/tylosaurus (verified). Script says "around thirteen or fourteen meters" for the largest individuals, at genus level. Since May 2026 the largest specimens belong to the new species *Tylosaurus rex* (Zietlow et al. 2026, *Bulletin of the American Museum of Natural History*): species range 7.7-13.2 m, the Kansas "Bunker" specimen KUVP 5033 about 13.2 m (Formoso et al. 2026: nearly 13.5 m); *T. proriger* is now 3.9-9.5 m: https://en.wikipedia.org/wiki/Tylosaurus (verified). NatGeo's "more than 14 m" (above) covers the upper end.
 - About 84 million years ago in Kansas: https://www.amnh.org/explore/news-blogs/mosasaur-texas-t-rex (search snippet: Kansas *T. proriger* "about 84 million years old")
 - City bus about 12 m: common knowledge.
 - 1918, Charles H. Sternberg, Tylosaurus with plesiosaur bones between the ribs; plesiosaur under 3 m (young/small polycotylid): Everhart 2004, *The Mosasaur* 7: 41-46; https://oceansofkansas.com/Tylo-prey.html (verified)
@@ -153,7 +156,8 @@ re-open these if possible.
 - Peru (Pisco Formation, Cerro Colorado); about 9.9-8.9 Ma (Wikipedia, search snippet); NatGeo 2010 "around 12 million years ago". Script: "about ten million years ago".
 - Teeth up to 36 cm: Lambert et al. 2010, *Nature* 466: 105-108; NPR (search snippet); "largest teeth used for eating purposes (excluding tusks)": https://www.guinnessworldrecords.com/world-records/101447-largest-teeth-used-for-eating-purposes (search snippet)
 - School ruler 30 cm: common knowledge.
-- 13.5-18.5 m; likely hunted medium-size baleen whales "rich in fat" (Lambert quote, hypothesis); named after the biblical sea monster and Herman Melville; renamed because Leviathan was taken: NatGeo 2010 (verified)
+- Length 13.5-17.5 m: Lambert et al. 2010, *Nature* 466: 105-108 (13.5 m scaled from modern sperm whales, 16.2-17.5 m from *Zygophyseter*), via https://en.wikipedia.org/wiki/Livyatan (verified). Draft 1's 18.5 m (NatGeo blog) is dropped. "A newer study suggests it may have been a little smaller": Paolucci et al. 2025, about 11.5-16 m for the holotype, same Wikipedia page (verified).
+- Likely hunted medium-size baleen whales "rich in fat" (Lambert quote, hypothesis); named after the biblical sea monster and Herman Melville; renamed because Leviathan was taken: NatGeo 2010 (verified)
 - Name taken by a mastodon; Livyatan is the Hebrew spelling: NPR / NYIT (search snippets)
 - Megalodon lived in the same region at the same time; "many of its teeth have also been found at Cerro Colorado": NatGeo 2010 (verified)
 - Callback to 008 (sperm whale clicks): series bible/brief; framing.

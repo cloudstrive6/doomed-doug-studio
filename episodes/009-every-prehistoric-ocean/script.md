@@ -1,5 +1,5 @@
 <!-- axis: era, oldest to youngest, from about 508 million years ago (Cambrian) to about 3.6 million years ago (Pliocene). Three spoken section headers: "Paleozoic." (before item 1), "Mesozoic." (before item 6), "Cenozoic." (before item 10). Backgrounds get darker and colder at each era, ending in deep navy for the Miocene. The predators get bigger and the night clock gets shorter; the boss is the highest-ranking predator ever measured. -->
-<!-- Episode 009: One Night in Every Prehistoric Ocean. Draft 1 (2026-10-08, script writer). DOUG DEATHS on screen at 74 from the first shot, ends at 84: ten deaths over twelve items. Survivals: Endoceras ("Doug is fine.") and Xiphactinus (narrator quietly disappointed). NIGHT CLOCK ("DOUG LASTED") next to the counter, episode-only; the times in stage directions are jokes, never spoken as science. Callbacks (4): 003 at Dunkleosteus, 008 moray at Tylosaurus, 008 sperm whale at Livyatan, 008 food chain at Megalodon. No 005 callback. No costume, suitcase, LIVE feed, Buddy or ice block. Great white appears only inside Megalodon. -->
+<!-- Episode 009: One Night in Every Prehistoric Ocean. Draft 2 (2026-10-08, script writer, revised per script_review.md: F1-F5 fixed, Pliosaurus twist marker added, fifth callback cut). DOUG DEATHS on screen at 74 from the first shot, ends at 84: ten deaths over twelve items. Survivals: Endoceras ("Doug is fine.") and Xiphactinus (narrator quietly disappointed). NIGHT CLOCK ("DOUG LASTED") next to the counter, episode-only; the times in stage directions are jokes, never spoken as science. Callbacks (4): 003 at Dunkleosteus, 008 moray at Tylosaurus, 008 sperm whale at Livyatan, 008 food chain at Megalodon. No 005 callback. No costume, suitcase, LIVE feed, Buddy or ice block. Great white appears only inside Megalodon. -->
 <!-- Pronunciation checks for the editor (preview with `narrate`): Anomalocaris = "uh-NOM-uh-loh-KAR-iss"; trilobite = "TRY-loh-bite"; Endoceras = "en-DOSS-er-us"; Ordovician = "or-doh-VISH-un"; Jaekelopterus = "YAY-kel-OP-ter-us"; eurypterid = "yoo-RIP-ter-id"; Dunkleosteus = "dunk-ul-OSS-tee-us"; Helicoprion = "hel-ih-KOH-pree-on"; Karpinsky = "kar-PIN-skee"; Cymbospondylus = "sim-boh-SPON-dih-lus"; ichthyosaur = "IK-thee-oh-sore"; Pliosaurus = "PLY-oh-SORE-us"; Liopleurodon = "LY-oh-PLOOR-oh-don"; Weymouth = "WAY-muth"; Xiphactinus = "zih-FAK-tih-nus"; Gillicus = "JIL-ih-kus"; Tylosaurus = "TY-loh-SORE-us"; mosasaur = "MOH-zuh-sore"; plesiosaur = "PLEE-zee-oh-sore"; Basilosaurus = "BASS-ih-loh-SORE-us"; Dorudon = "DOR-oo-don"; Wadi Al-Hitan = "WAH-dee al hee-TAHN"; Livyatan = "liv-YAH-tan"; Megalodon = "MEG-uh-loh-don"; Pliocene = "PLY-oh-seen"; Eocene = "EE-oh-seen"; Miocene = "MY-oh-seen". -->
 
 [Open on the thumbnail, 1.5 to 4 seconds. Cut to a pale Cambrian beach at sunset. The time machine stands in the shallows. Doug steps out in a snorkel and mask. DOUG DEATHS: 74 on screen, the NIGHT CLOCK beside it: moon icon, "DOUG LASTED: 0 h 00 min".]
@@ -54,11 +54,11 @@ About four hundred and sixty million years ago, one of the most dangerous shapes
 
 Endoceras was a nautiloid, an ancient cousin of today's nautilus, and it lived in a long, straight shell divided into chambers, with its tentacles reaching out of the open end.
 
-In the Ordovician, shelled hunters like this were among the top predators in the sea, with a sturdy shell, a powerful beak and plenty of arms.
+It may have been one of the top predators of its time. It hunted close to the seafloor, and the big adults probably lay still and waited for prey to come to them.
 
 The biggest Endoceras fossil is a piece of shell three meters long, kept in a museum at Harvard University, and it's missing its tip. When scientists filled in the missing part, they got a full length of about five point seven meters.
 
-That's longer than a big pickup truck.
+That's about as long as a big pickup truck.
 
 [The three-meter fossil drawn solid, the missing part drawn as a dotted outline. Arrow: "ESTIMATED".]
 
@@ -66,9 +66,9 @@ But here's the problem. Nearly half of that length is an estimate.
 
 It depends on how long the missing end used to be, and a twenty twenty-five study warned that its own guess might be on the generous side. There were also old reports of ten-meter shells, but nobody ever collected or photographed them, and most Endoceras were much smaller than the record holder anyway.
 
-[Doug finds an old, empty shell on the seafloor and climbs into the open end. Only the red cap sticks out.]
+[Doug finds an old, empty shell on the seafloor and climbs into the open end. Only the red cap sticks out. A live Endoceras lies on the seafloor right beside him, tentacles out, waiting.]
 
-Doug finds an empty old shell, climbs inside and waits. An Endoceras drifts past him twice in the dark, and it never once checks the shell.
+Doug finds an empty old shell and climbs inside. An Endoceras lies beside him all night, waiting for something to swim past. Doug never swims past.
 
 [Sunrise through the water. Doug climbs out and stretches. NIGHT CLOCK: "SUNRISE". DOUG DEATHS: 75, unchanged.]
 
@@ -80,7 +80,7 @@ The biggest shell of its time is three meters of fossil and nearly three meters 
 
 Jaekelopterus.
 
-Sea scorpions sound like something made up for a monster film, but this one is real, and it's the largest arthropod anyone has ever found.
+Sea scorpions sound like something made up for a monster film, but this one is real. It's the largest sea scorpion ever found, and one of the two biggest arthropods in history.
 
 [A giant sea scorpion in murky green water, two long claws held forward. Label: "ABOUT 400 MILLION YEARS AGO".]
 
@@ -92,11 +92,13 @@ That's about the length of a computer keyboard, and it's only the claw.
 
 [A keyboard next to the claw, same length. Label: "46 cm".]
 
-Here's the unsettling part. The claw is all we have.
+Here's the unsettling part. For this giant, the claw is all we have.
 
 Everything else was scaled up from it, using the body proportions of its closest relatives. The answer was a body about two and a half meters long, longer than a grown man lying down, and the claws stuck out roughly another meter in front of that.
 
-For comparison, the biggest arthropod alive today, the Japanese spider crab, is mostly legs.
+Its only real rival for the record is Arthropleura, a giant millipede relative that lived on land, and the size estimates for the two are very close.
+
+For comparison, the arthropod with the biggest leg span alive today, the Japanese spider crab, is mostly legs.
 
 [Doug in front of the sea scorpion, the way you'd look into a restaurant lobster tank. Speech bubble: "hi friend?"]
 
@@ -178,8 +180,6 @@ After the worst mass extinction in Earth's history, the ocean was close to empty
 
 [An open teal sea. One tiny Doug for scale. Label: "ABOUT 246 MILLION YEARS AGO".]
 
-Doug was there for the emptying.
-
 Cymbospondylus was an ichthyosaur, a sea reptile shaped a little like a dolphin. In twenty eleven, a team in the mountains of Nevada dug up its skull, part of its backbone and a front flipper. Freeing the bones from the rock took the better part of three years.
 
 The skull alone is about two meters long, and the whole animal is estimated at more than seventeen meters.
@@ -210,7 +210,7 @@ If you grew up on nature documentaries, you might remember a sea reptile twenty-
 
 [A TV set showing a huge cartoon sea reptile. Label: "25 m (1999)". A red stamp: "NOPE".]
 
-In nineteen ninety-nine, a famous television series showed its relative Liopleurodon as a twenty-five-meter monster. The scientist who advised on it later said the number came from scraps of fossil, and a study published this July puts Liopleurodon at just over eight meters, tops.
+In nineteen ninety-nine, a famous television series showed its relative Liopleurodon as a twenty-five-meter monster. The scientist who advised on it later said the number came from scraps of fossil, and a study published in twenty twenty-six puts Liopleurodon at just over eight meters, tops.
 
 So the TV version shrank by about two thirds.
 
@@ -224,7 +224,13 @@ A computer model of that skull found that its strongest bites came from the back
 
 However, the model found one weakness. Twisting or shaking big prey could have damaged its own skull, so it probably didn't shake its food at all. It just bit harder.
 
-In twenty twenty-three, another nearly complete pliosaur skull came out of a Dorset cliff, about two meters long and holding a hundred and thirty teeth.
+Now for the part the size correction left out.
+
+[A crumbling Dorset cliff. A huge skull juts out at the bottom. A dotted outline of a body runs back into the rock. Label: "STILL IN THERE?"]
+
+In twenty twenty-three, another nearly complete pliosaur skull came out of a Dorset cliff, about two meters long and holding a hundred and thirty teeth, with a bite far stronger than a crocodile's.
+
+The fossil hunter who dug it out believes the rest of the animal is still inside that cliff. And the cliff is wearing away.
 
 [Doug floats on his back, relaxed, reading a chart titled "SIZE CORRECTION". He gives a thumbs up. Speech bubble: "only 8 m!"]
 
@@ -348,7 +354,7 @@ The biggest of them were up to thirty-six centimeters long. That's longer than a
 
 Guinness lists them as the largest teeth any animal has used for eating, and tusks don't count.
 
-The whole animal is estimated at about thirteen and a half to eighteen and a half meters long. The scientists who described it think it most likely hunted medium-sized baleen whales, which were packed with fat.
+The whole animal is estimated at about thirteen and a half to seventeen and a half meters long, and a newer study suggests it may have been a little smaller. The scientists who described it think it most likely hunted medium-sized baleen whales, which were packed with fat.
 
 Its name comes from Leviathan, the sea monster in the Bible, and from Herman Melville, who wrote Moby-Dick. The team first called it Leviathan, but that name already belonged to a fossil mastodon, so they switched to the Hebrew spelling.
 
@@ -420,4 +426,4 @@ The time machine comes home to twenty twenty-six with a tooth in the door and th
 
 Doug deaths: eighty-four. Which era should Doug spend a night in next? Tell us in the comments.
 
-<!-- words: 3065 (spoken narration only, spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:43 at 195 wpm · draft 1 (2026-10-08) · first item name at spoken word 30 · Anomalocaris twist ("Here's the twist") at spoken word 136, about 42 s · 215 sentences, avg 14.3 words, max 34 · Flesch about 69 · outro 17 words · items (header that precedes an item counted with the item before it): Anomalocaris 228, Endoceras 242, Jaekelopterus 220, Dunkleosteus 242, Helicoprion 279 incl. "Mesozoic.", Cymbospondylus 226, Pliosaurus 259, Xiphactinus 244, Tylosaurus 222 incl. "Cenozoic.", Basilosaurus 245, Livyatan 231, Megalodon 379 + outro 17 · opener 30 incl. "Paleozoic." -->
+<!-- words: 3163 (spoken narration only, spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 16:13 at 195 wpm · draft 2 (2026-10-08) · first item name at spoken word 30 · Anomalocaris twist ("Here's the twist") unchanged at about spoken word 136, about 42 s · 221 sentences, avg 14.3 words, max 34 · outro 17 words · items (header that precedes an item counted with the item before it): Anomalocaris 228, Endoceras 251, Jaekelopterus 261, Dunkleosteus 242, Helicoprion 279 incl. "Mesozoic.", Cymbospondylus 220, Pliosaurus 301, Xiphactinus 246, Tylosaurus 221 incl. "Cenozoic.", Basilosaurus 245, Livyatan 243, Megalodon 379 + outro 17 · opener 30 incl. "Paleozoic." -->
