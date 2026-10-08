@@ -1,0 +1,35 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s316",
+      "to": "s331",
+      "title": "Megalodon Ate the Predators That Ate Predators",
+      "outro": "Every other ocean is in the full dive. It is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s120",
+      "to": "s134",
+      "hook": "For a century, nobody knew where this spiral of teeth went.",
+      "hook_scene_from": "s111",
+      "title": "Nobody Knew Where This Spiral of Teeth Went",
+      "outro": "What happens next is even worse. The full dive is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s203",
+      "to": "s215",
+      "hook": "This fossil fish died with a two-meter fish inside it.",
+      "hook_scene_from": "s196",
+      "title": "This Prehistoric Fish Died From Its Own Dinner",
+      "outro": "The next sea is much worse. The full dive is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    }
+  ]
+}
