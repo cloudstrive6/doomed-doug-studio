@@ -399,6 +399,22 @@ def cmd_social(a):
             print(line.encode("ascii", "replace").decode())
 
 
+def cmd_health(a):
+    from . import health
+    rep = health.run(fix=a.fix)
+    for i in rep["issues"]:
+        mark = "FIXED" if i["fixed"] else i["owner"].upper()
+        print(f"[{i['severity']:6}] {mark:6} {i['summary']}".encode("ascii", "replace").decode())
+    if not rep["issues"]:
+        print("all good")
+    todo = health.needs_agent(rep)
+    if a.agent_file:
+        Path(a.agent_file).write_text(json.dumps(todo, indent=1, ensure_ascii=False), encoding="utf-8")
+        print(f"{len(todo)} issue(s) for the fixer agent -> {a.agent_file}")
+    if a.alert:
+        health.alert(rep)
+
+
 def cmd_actions_usage(a):
     from .actions_usage import check
     u = check(alert=a.alert)
@@ -441,6 +457,8 @@ def main():
     x = s.add_parser("social"); x.add_argument("action", choices=["release", "publish-due"])
     x.add_argument("episode", nargs="?"); x.add_argument("--dry-run", action="store_true"); x.set_defaults(f=cmd_social)
     x = s.add_parser("queue"); x.add_argument("--github-output", action="store_true"); x.set_defaults(f=cmd_queue)
+    x = s.add_parser("health"); x.add_argument("--fix", action="store_true"); x.add_argument("--alert", action="store_true")
+    x.add_argument("--agent-file"); x.set_defaults(f=cmd_health)
     x = s.add_parser("actions-usage"); x.add_argument("--alert", action="store_true"); x.set_defaults(f=cmd_actions_usage)
     a = p.parse_args()
     a.f(a)

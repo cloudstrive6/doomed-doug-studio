@@ -23,6 +23,7 @@ jobs:
           echo "tick at ${H}:${M} UTC (dow ${DOW})"
           R="${{ github.repository }}"
           gh workflow run social.yml -R "$R" && echo "-> social"
+          if [ "$M" -lt 30 ]; then gh workflow run monitor.yml -R "$R" && echo "-> monitor"; fi   # hourly health check
           if { [ "$H" = "05" ] || [ "$H" = "17" ]; } && [ "$M" -lt 30 ]; then
             gh workflow run produce.yml -R "$R" && echo "-> produce"
           fi

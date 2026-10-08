@@ -13,7 +13,8 @@ really doesn't want him. Format replicated from The Paint Explainer (structure/h
 | `channel/art_bible.md` | palette, zone colours, line weights, layouts |
 | `docs/SCENE_SCHEMA.md` | shotlist/scene/asset JSON format for the MS Paint engine |
 | `.claude/agents/` | the team: creative-director, growth-analyst, script-writer, script-screener, youtube-titler, director, illustrator, art-director, graphic-designer, editor, visual-screener |
-| `pipeline/prompts/` | showrunner prompts run by CI (`produce_episode`, `review_final`, `weekly_growth`) |
+| `pipeline/prompts/` | showrunner prompts run by CI (`produce_episode`, `review_final`, `weekly_growth`, `monitor`) |
+| `studio/health.py` | hourly ops monitor: schedule gaps, failing/stuck production, YouTube state, Shorts, cross-posts, cron ticks; state + incidents in `data/monitor/` |
 | `studio/` | Python engine: `paint.py` (renderer), `doug.py` (rig), `scene.py`, `assemble.py`, `tts.py`, `youtube.py`, `validate.py`, `notify.py` |
 | `assets/library/` | reusable drawings (JSON) · `assets/fonts/` bundled open fonts |
 | `episodes/<NNN-slug>/` | brief, script, facts, reviews, shotlist, metadata, thumbnail, status; `build/` is scratch (git-ignored) |
@@ -23,7 +24,7 @@ really doesn't want him. Format replicated from The Paint Explainer (structure/h
 `status` · `new <slug>` · `stage <ep> <stage>` · `validate <ep> [shotlist|metadata]` · `keyframes <ep> [--shots s001,s002]`
 · `asset-preview <name...>` · `thumbnail <ep>` · `art <scene.json> <out.png>` · `narrate <ep>` ·
 `render <ep> [--limit N] [--final]` · `qc <ep>` · `upload <ep> [--dry-run]` · `analytics` · `notify "<text>" [--photo p]`
-· `voices` · `auth` · `branding` · `queue` · `actions-usage` · `shorts validate|render|upload <ep>` · `shorts pending` · `shorts mark-related <shortYouTubeId>` · `auth-meta` · `social release <ep>` · `social publish-due [--dry-run]` · `signals "<query>"...` · `competitors` · `gate <ep>`
+· `voices` · `auth` · `branding` · `queue` · `actions-usage` · `shorts validate|render|upload <ep>` · `shorts pending` · `shorts mark-related <shortYouTubeId>` · `auth-meta` · `social release <ep>` · `social publish-due [--dry-run]` · `signals "<query>"...` · `competitors` · `gate <ep>` · `health [--fix] [--alert]`
 
 Stages: idea → scripted → script_approved → shotlisted → art_approved → packaged → built → qc_passed → uploaded.
 

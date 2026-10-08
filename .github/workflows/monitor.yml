@@ -1,0 +1,80 @@
+name: Ops monitor
+
+# Hourly health check of production, uploads, publishes and cross-posts (studio/health.py).
+# Mechanical problems are fixed in the check itself; problems that need diagnosis go to the ops-monitor agent
+# (pipeline/prompts/monitor.md), which routes the fix to the right team agent. Telegram only hears about fixes,
+# things that need the owner, and problems clearing. Triggered by tick.yml (cron-job.org), GitHub schedule as fallback.
+on:
+  schedule:
+    - cron: "45 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      ANTHROPIC_API_KEY_BACKUP: ${{ secrets.ANTHROPIC_API_KEY }}  # only used after the subscription limit is hit
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+      META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+      META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+      POSTFORME_API_KEY: ${{ secrets.POSTFORME_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main   # latest state when the job STARTS (a queued run would otherwise check out its stale trigger commit)
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+          git config user.name "doomed-doug-bot"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
+
+      - name: Health check (+ mechanical fixes, alerts)
+        id: health
+        run: |
+          python -m studio health --fix --alert --agent-file data/monitor/agent_issues.json
+          echo "n=$(python -c "import json;print(len(json.load(open('data/monitor/agent_issues.json'))))")" >> "$GITHUB_OUTPUT"
+
+      - name: Save state
+        if: always()
+        run: |
+          git add -A data/monitor episodes && (git commit -m "monitor: health check" || true) && git pull --rebase -X theirs && git push
+
+      - uses: actions/setup-node@v4
+        if: fromJSON(steps.health.outputs.n || '0') > 0
+        with:
+          node-version: "22"
+
+      - name: Fixer agent (diagnose + route + verify)
+        if: fromJSON(steps.health.outputs.n || '0') > 0
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          python -c "import json; from studio import health; health.mark_agent_attempt([i['key'] for i in json.load(open('data/monitor/agent_issues.json'))])"
+          bash pipeline/claude_run.sh claude_monitor.jsonl 250 "$(cat pipeline/prompts/monitor.md)" || python -m studio notify "⚠️ Monitor's fixer agent stopped with an error. Log: $RUN_URL"
+
+      - name: Save fixes
+        if: always() && fromJSON(steps.health.outputs.n || '0') > 0
+        run: |
+          git add -A && (git commit -m "monitor: fixer agent" || true) && git pull --rebase -X theirs && git push
