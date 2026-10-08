@@ -106,3 +106,28 @@ Scope: `build/thumbnail.png` (1280x720), `build/thumbnail_small.png` (320x180), 
 2. **Livyatan jaw width and silhouette variety:** this is carried over from round 4 and is still optional.
 
 VERDICT: PASS
+
+## Post-render (2026-10-08)
+
+Scope: `build/final.mp4` (1920x1080, 1033.4 s), the 34 frames in `build/samples/`, `build/qc.json`, `build/thumbnail.png` and `build/thumbnail_small.png`, `metadata.json`, the three Shorts (`short0N_preview.png`, plus 5 frames from each mp4 and full-res crops). I also scanned the final at 1 fps for edge artifacts. Nothing was re-rendered.
+
+### Main video
+- **qc.json:** there are no problems. I saw no black, blank or frozen frames in the samples. The pacing reads, and the Doug Deaths counter climbs 74 to 83 in order with no jumps.
+- **Content:** every sample is clean. Topbar labels, the counters and green callouts are legible and spelled right. Doug is on-model in every frame. Creatures are recognisable. There is no gore (Tylosaurus mouth interior is flat red, Doug's deaths are cartoon). The tone is not kid-like. The dark Xiphactinus stomach frame still shows Doug and the "?".
+- **Edge artifact (blocking): CONFIRMED VISIBLE in the final.** The left-edge risk from the keyframes survived into the encode, along with a related problem on the top edge.
+  - **Left column x=0:** there is a full-height, 1 px near-white line (about RGB 242,251,255) on navy or dark-teal scenes, while x=1 is the scene colour (about 14,23,48). Example: final.mp4 at 960 s (Megalodon "BIG PREY"). The 1 fps scan finds column 0 brighter than column 3 in **176 of 1033 seconds (17%)**, in about 85 separate runs across the whole episode (12 s to 1007 s). Most are on underwater and dark shots, the worst in the Livyatan and Megalodon chapters (about 860 to 1007 s). It switches on and off with the shots, so it flickers at cuts instead of sitting still.
+  - **Top row y=0 (new):** there are broken 1 px white dashes along the top edge, sometimes on the bottom row too. They line up with the light-ray shapes on underwater backgrounds (e.g. 900 s, 960 s and 990 s). About 160 of the 688 seconds scanned have them.
+  - **Visibility:** on cream or white scenes it cannot be seen. On dark scenes in the YouTube player (black surround, theatre mode or fullscreen) it reads as a thin white frame line that blinks between shots. It is subtle, but it is a render defect on our darkest and most important climax shots, and the fix is cheap.
+- **Thumbnail:** this is unchanged from the approved v3. Its edges are clean (white surround, no stray line). It is readable at 320 px, complements the title "What Dying in Every Prehistoric Ocean Would Be Like", and is not misleading. **Pass.**
+
+### Shorts
+- **Titles, layout and end card:** the three titles are red, readable and spelled right. The drawings are not cut off at the sides. The "?" and the "FOOD CHAIN" label sit about 30 px in from the left edge, which is tight but fine. The subtitles are large and legible. Each end card reads "WHAT HAPPENS NEXT? TAP BELOW" with the arrow pointing **down**. The @DoomedDoug handle is legible.
+- **Stray line (blocking):** this is the same top-row artifact as the main video. In Shorts the 16:9 scene sits as a band in mid-frame, so the dashes are not at a screen edge. They show as a broken white line across the top of the art band, at about y=578 of 1920 in short01. It is visible in `short01_preview.png` (dark Megalodon scene, about 6 s of the clip) and faintly in `short02_preview.png` at the top of the blue band. Against the navy band in short01 it is clearly a stray line.
+- Short03 shows no visible line in the frames I checked, but it comes from the same renderer.
+
+### Fixes
+1. **Edge pixels (art director / editor, engine, blocking for both main and Shorts):** the outermost pixel row and column of underwater and dark scenes are being drawn white. The left column is full height. The top row (and sometimes the bottom row) has dashes where the light-ray polygons and their outlines meet the frame edge. Fix it at the source in `studio/paint.py`/`scene.py`: fill the background past the canvas edge, and stop stroking the ray or background outlines where they touch the frame border. Do not just patch the episode. If a hotfix is needed instead, overwrite the 1 px border with the neighbouring pixel at assemble time. Re-render final.mp4 and all three Shorts, then re-run `qc` and re-sample. I will re-check 900 s, 960 s and 990 s, and the top of the art band in short01 and short02.
+2. No other changes are needed. The thumbnail, metadata and shot content all pass.
+
+VERDICT (main): FAIL
+VERDICT (shorts): FAIL

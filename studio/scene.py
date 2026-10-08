@@ -53,7 +53,20 @@ def render_still(scene: dict, variant: int = 0, t: float | None = None, seed: st
     cv = Canvas(w, h, scene.get("background", "#ffffff"), seed=seed, variant=variant,
                 boil=style.get("boil_px", 1.6), wobble=style.get("wobble_px", 1.2))
     draw_elements(cv, scene.get("elements", []), seed=seed, visible_time=t)
-    return cv.img
+    return _clean_edges(cv.img)
+
+
+def _clean_edges(img):
+    """Overwrite the outermost pixel ring with its neighbours: background outlines and light rays that touch the
+    canvas border otherwise leave a 1 px white line that blinks at cuts on dark scenes."""
+    w, h = img.size
+    if w < 8 or h < 8:
+        return img
+    img.paste(img.crop((0, 1, w, 2)), (0, 0))
+    img.paste(img.crop((0, h - 2, w, h - 1)), (0, h - 1))
+    img.paste(img.crop((1, 0, 2, h)), (0, 0))
+    img.paste(img.crop((w - 2, 0, w - 1, h)), (w - 1, 0))
+    return img
 
 
 def _lerp(a, b, u):

@@ -36,3 +36,6 @@ Required changes:
 Re-render thumbnail.png and thumbnail_small.png and get a visual screener PASS with the badge overlay tested. If only items 1-3 changed, that PASS approves the package without another CD round.
 
 - 2026-10-08 Showrunner: packaged. Rounds: script 3 (screener FAIL, FAIL, PASS; CD approved), assets 2 (helicoprion redraw + cleanups), keyframes 3 (AD/visual screener PASS), thumbnail 3 versions (CD asked for changes, then v3 visual-screener PASS incl. duration-badge test). Runtime 17.2 min. Risks: BeyondTheBlue's near-identical concept; Dorset pliosaur "still in the cliff" line dates after the 2027 dig; 1 px white line at left edge of ~77 keyframes (check in draft render); editor did not check music/stings; s276 tusks small.
+
+- 2026-10-08 Showrunner final review (round 1): QC clean (rerun exit 0). Visual screener FAIL (main and shorts): 1 px white line on the outer column/row of dark/underwater scenes, blinking at cuts. Fix: `studio/scene.py` `_clean_edges` now overwrites the outer pixel ring with its neighbours (verified on s240/242/249/264/267). Re-render requested for final and shorts. Creative director package review deferred to round 2 (thumbnail and metadata already approved at packaging).
+FINAL: REJECTED pending re-render (edge-line artifact; round 2 will re-screen)
