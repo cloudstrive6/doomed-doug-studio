@@ -228,7 +228,7 @@ Now for the part the size correction left out.
 
 [A crumbling Dorset cliff. A huge skull juts out at the bottom. A dotted outline of a body runs back into the rock. Label: "STILL IN THERE?"]
 
-In twenty twenty-three, another nearly complete pliosaur skull came out of a Dorset cliff, about two meters long and holding a hundred and thirty teeth, with a bite far stronger than a crocodile's.
+In twenty twenty-two, another nearly complete pliosaur skull came out of a Dorset cliff, about two meters long and holding a hundred and thirty teeth, with a bite far stronger than a crocodile's.
 
 The fossil hunter who dug it out believes the rest of the animal is still inside that cliff. And the cliff is wearing away.
 
@@ -376,7 +376,7 @@ Livyatan was named after a monster, and it still wasn't the biggest predator in 
 
 Megalodon.
 
-Megalodon means giant tooth, and teeth are almost all we have left of it.
+Megalodon means giant tooth, and teeth are almost all we have left of the biggest one.
 
 [Near-black navy water. A single giant serrated tooth glows in the middle of the frame. Label: "23 TO 3.6 MILLION YEARS AGO".]
 
@@ -426,4 +426,4 @@ The time machine comes home to twenty twenty-six with a tooth in the door and th
 
 Doug deaths: eighty-four. Which era should Doug spend a night in next? Tell us in the comments.
 
-<!-- words: 3163 (spoken narration only, spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 16:13 at 195 wpm · draft 2 (2026-10-08) · first item name at spoken word 30 · Anomalocaris twist ("Here's the twist") unchanged at about spoken word 136, about 42 s · 221 sentences, avg 14.3 words, max 34 · outro 17 words · items (header that precedes an item counted with the item before it): Anomalocaris 228, Endoceras 251, Jaekelopterus 261, Dunkleosteus 242, Helicoprion 279 incl. "Mesozoic.", Cymbospondylus 220, Pliosaurus 301, Xiphactinus 246, Tylosaurus 221 incl. "Cenozoic.", Basilosaurus 245, Livyatan 243, Megalodon 379 + outro 17 · opener 30 incl. "Paleozoic." -->
+<!-- words: 3166 (spoken narration only, spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 16:14 at 195 wpm · draft 2 + F6 fix (2026-10-08) · first item name at spoken word 30 · Anomalocaris twist ("Here's the twist") unchanged at about spoken word 136, about 42 s · 221 sentences, avg 14.3 words, max 34 · outro 17 words · items (header that precedes an item counted with the item before it): Anomalocaris 228, Endoceras 251, Jaekelopterus 261, Dunkleosteus 242, Helicoprion 279 incl. "Mesozoic.", Cymbospondylus 220, Pliosaurus 301, Xiphactinus 246, Tylosaurus 221 incl. "Cenozoic.", Basilosaurus 245, Livyatan 243, Megalodon 382 + outro 17 · opener 30 incl. "Paleozoic." -->
