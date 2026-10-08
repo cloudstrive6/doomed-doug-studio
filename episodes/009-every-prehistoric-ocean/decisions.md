@@ -34,3 +34,5 @@ Required changes:
 2. Now required (cheap, and flagged three rounds running): shift the "Megalodon" label left so it ends before x 1085, because the boss name must not read "Megal..." in the feed.
 3. Optional: open the Livyatan jaw about 20% more to separate it further from Megalodon.
 Re-render thumbnail.png and thumbnail_small.png and get a visual screener PASS with the badge overlay tested. If only items 1-3 changed, that PASS approves the package without another CD round.
+
+- 2026-10-08 Showrunner: packaged. Rounds: script 3 (screener FAIL, FAIL, PASS; CD approved), assets 2 (helicoprion redraw + cleanups), keyframes 3 (AD/visual screener PASS), thumbnail 3 versions (CD asked for changes, then v3 visual-screener PASS incl. duration-badge test). Runtime 17.2 min. Risks: BeyondTheBlue's near-identical concept; Dorset pliosaur "still in the cliff" line dates after the 2027 dig; 1 px white line at left edge of ~77 keyframes (check in draft render); editor did not check music/stings; s276 tusks small.
