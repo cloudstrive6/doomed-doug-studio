@@ -25,3 +25,12 @@ Required changes:
 5. Livyatan: open the jaw wider so the tooth row reads at 168x94, since it currently looks like it is smiling. Push the body bigger so it bleeds out of the frame and feels huge.
 6. Cymbospondylus and Xiphactinus: vary them as well. Pull Cymbospondylus back to a fuller body so its long thin profile reads (it is the "first giant"), and leave Xiphactinus as a tight upturned-jaw crop.
 7. Keep the palette gradient, labels, frames and order exactly as they are. Re-render thumbnail.png and thumbnail_small.png, then send them to the visual screener before resubmitting.
+
+**2026-10-08, creative director: thumbnail gate (v2) CHANGES (one small fix, then approve)**
+Against my v1 CHANGES: 1 done (Endoceras, Pliosaurus and Basilosaurus face left, and the crops now run full, mid and tight). 2 done (Basilosaurus is a long thin full body, its own silhouette). 3 done (Tylosaurus is a green-and-red gaping maw and no longer a shark). 4 done (Megalodon is a tight jaw crop with the teeth filling the tile, and a tiny snorkelled Doug for scale). 5 done (the Livyatan teeth read and the head bleeds out of the frame). 6 done (Cymbospondylus is full body, Xiphactinus a tight upturned jaw). 7 done (palette, labels, frames and order are unchanged). The stamp sheet is gone, and the bottom row now pays off: three mouths getting bigger and darker toward the boss. I would click this.
+Blocking: the visual screener's Round 4 is a FAIL. YouTube's duration badge (about x 1095-1251, y 620-691) hides Doug from the waist down in the Megalodon tile, which kills the human-scale cue that sells the title.
+Required changes:
+1. Megalodon tile: move Doug up 40-50 px so his whole figure, fins included, sits above y 610 on the navy gap right of the jaw. If he collides with the white jaw edge, shift the shark about 30 px left or down. Keep Doug's scale at 0.12 or more, and never place him over the white teeth.
+2. Now required (cheap, and flagged three rounds running): shift the "Megalodon" label left so it ends before x 1085, because the boss name must not read "Megal..." in the feed.
+3. Optional: open the Livyatan jaw about 20% more to separate it further from Megalodon.
+Re-render thumbnail.png and thumbnail_small.png and get a visual screener PASS with the badge overlay tested. If only items 1-3 changed, that PASS approves the package without another CD round.

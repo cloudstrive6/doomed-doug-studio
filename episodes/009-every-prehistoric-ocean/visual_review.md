@@ -55,3 +55,38 @@ Scope: `build/thumbnail.png` (1280x720), `build/thumbnail_small.png` (320x180), 
 3. **Silhouette variety:** six tiles are grey right-facing fish shapes (Dunkleosteus, Helicoprion, Cymbospondylus, Xiphactinus, Basilosaurus, Megalodon). They are acceptable because the tile colours and labels separate them, but this is worth noting for the next grid episode.
 
 VERDICT: PASS
+
+## Thumbnail v2 (2026-10-08)
+
+Scope: revised `build/thumbnail.png` (1280x720) and `build/thumbnail_small.png` (320x180), plus a 168x94 mobile downscale and zoomed crops of both Dougs and the bottom row. Title: "What Dying in Every Prehistoric Ocean Would Be Like".
+
+- **Readability:** the 3x4 Archetype A grid is unchanged in structure. At 320x180 all 12 labels are readable, spelled correctly and uncropped. At 168x94 the labels blur, as expected for this archetype, but the grid still reads at once as "a list of sea monsters". The tiles still darken in era order, ending on Megalodon on the darkest tile.
+- **Doug (on-model):** both Dougs (Anomalocaris tile and Megalodon tile) have the red cap, white round head, stick body, open shock mouth, blue mask, snorkel and fins. Both now face left, toward their threat, so round 3 advisory 2 is resolved. The eyes show through the mask and no longer read as lettering. In the Megalodon tile Doug is white-on-navy and is the only light speck in the corner, so he reads as "tiny man next to giant teeth" even at 320 px.
+- **Creatures:** every tile is recognisable as its animal type. Anomalocaris has frontal appendages and stalked eyes. Endoceras is a striped cone shell with tentacles. Jaekelopterus is a sea scorpion with claws. Dunkleosteus has an armoured head plate. Helicoprion shows the tooth whorl. Cymbospondylus is an ichthyosaur. Pliosaurus is a toothy marine reptile. Xiphactinus is a fanged fish. Tylosaurus is a gaping mouth with eyes in the corners. Basilosaurus is an eel-like whale. Livyatan and Megalodon are giant jaws. The Tylosaurus mouth is the most abstract tile, but its teeth, eyes and palatal tooth rows make it a maw rather than a red blob.
+- **Gore and policy:** there is no blood, wound or body part. The dark red on Tylosaurus, Livyatan and Megalodon is gum or mouth interior, drawn flat with no drips or pooling, so it is acceptable. Nothing is cutesy and there is no nursery palette. It reads as nature horror, not a kids' dinosaur book.
+- **Misleading:** no. Every creature shown appears in the video, and the grid delivers on "every prehistoric ocean".
+
+### Advisory (non-blocking)
+1. **Megalodon tile label:** this is carried over from round 3 advisory 1. The label is still centred, so YouTube's duration badge (bottom right, about 80x40 px at full scale) may clip the final "n". *Graphic designer:* if cheap, shift the "Megalodon" label about 20 px left. Do not move the shark or Doug.
+2. **Silhouette variety:** the grey right-facing fish shapes are unchanged. They are acceptable for this episode, and this note is kept for the next grid.
+
+VERDICT: PASS
+
+## Round 4: thumbnail v2 (2026-10-08)
+
+Scope: `build/thumbnail.png` (1280x720) and `build/thumbnail_small.png` (320x180), a 168x94 downscale, and a simulated YouTube duration badge (desktop feed: about 44x20 px at 8 px inset on a 360 px card, which is roughly x 1095-1251, y 620-691 at full res; the mobile badge is similar). This round supersedes the unnumbered "Thumbnail v2" section above, which did not test the badge position.
+
+- **CD changes applied:** Endoceras, Pliosaurus and Basilosaurus are flipped. Crops now vary across the grid (full body: Endoceras, Helicoprion, Cymbospondylus, Pliosaurus, Basilosaurus; mid: Anomalocaris, Jaekelopterus, Dunkleosteus; tight: Xiphactinus, Tylosaurus, Livyatan, Megalodon). Basilosaurus is a long eel-whale across the tile. Tylosaurus is a front-on gaping maw. Megalodon is a tight jaw crop of more than 40% of the tile with a tiny Doug. The palette gradient, labels, frames and order are unchanged. The "stamp sheet" problem from v1 is fixed.
+- **Legibility:** at 320x180 all 12 labels are readable. At 168x94 they blur, as expected for Archetype A, but the grid still reads as a set of sea monsters. Spelling is correct and nothing is cropped by the frames.
+- **Bottom row at 320x180:** Tylosaurus, Livyatan and Megalodon read as three distinct animals. Tylosaurus is a front-on red-and-green maw. Livyatan is a brown-grey side-on whale head with a brow and an eye. Megalodon is a pale grey and white three-quarter jaw on navy. They differ in colour, angle and shape, and Basilosaurus breaks up the run. The only overlap is that Livyatan and Megalodon share the same zigzag tooth row with red gums. That is acceptable.
+- **Doug:** both Dougs are on-model, with red cap, white head, stick body, shock mouth, mask, snorkel and fins, and both face their threat. The Megalodon-tile Doug is the only light speck on navy and sells the scale at 320 px.
+- **Policy:** there is no gore. The mouth interiors are flat dark red with no drips or pools. The tone is nature horror, not a kids' picture book.
+- **Misleading:** no. Every creature shown is in the video.
+- **Duration badge (blocking):** with the badge simulated, it covers **Doug's legs and fins in the Megalodon tile**, from his waist down (his body runs y about 575-645 and the badge starts at y about 620). Only a floating head and cap remain, so the one human-scale cue the CD asked for is half hidden. The badge also covers "odon" of the label, which then reads "Megal…".
+
+### Fixes
+1. **Megalodon tile Doug (graphic designer, blocking):** move Doug up so that his whole figure, fins included, sits above y ≈ 610 at full res and stays on the navy gap right of the jaw. That is about 40-50 px up. If that pushes him into the white jaw edge, nudge the shark about 30 px left or down instead of shrinking Doug below scale 0.12. Do not move him left over the teeth, because white on white disappears.
+2. **"Megalodon" label (graphic designer, recommended, not blocking):** this has been flagged for the third round. The label's right edge sits under the badge. Shift it left so it ends before x ≈ 1085, or accept "Megal…" in feed. The jaws carry the tile without the label.
+3. **Livyatan (advisory):** the jaw is wider than in v1 and the teeth read at 168 px, but it is still a narrow band. If the designer is re-rendering anyway, opening it about 20% more would separate it further from Megalodon.
+
+VERDICT: FAIL
