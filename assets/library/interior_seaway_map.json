@@ -1,0 +1,23 @@
+{
+ "name": "interior_seaway_map",
+ "description": "Map of North America about 85 Ma (world_map style: flat green land, light-blue sea, black frame, no labels), north up: the Western Interior Seaway runs north-south through the middle, splitting the continent into Laramidia (west strip) and Appalachia (east), open to the Arctic at the top and the Gulf at the bottom; white-ice Greenland corner top right. Kansas sits in the seaway at about local (+20, 0). Anchor centre, 900x700.",
+ "anchor": [0, 0],
+ "tags": ["map", "cretaceous", "north america", "seaway", "kansas", "009"],
+ "elements": [
+  {"type": "rect", "x": -450, "y": -350, "w": 900, "h": 700, "fill": "#bfe6ff", "width": 0, "color": "#000000", "outline": false},
+  {"type": "curve", "points": [[-324, 280], [-312, 272], [-300, 280], [-288, 272], [-276, 280]], "width": 3, "color": "#ffffff"},
+  {"type": "curve", "points": [[-24, 120], [-12, 112], [0, 120], [12, 112], [24, 120]], "width": 3, "color": "#ffffff"},
+  {"type": "curve", "points": [[-4, -200], [8, -208], [20, -200], [32, -208], [44, -200]], "width": 3, "color": "#ffffff"},
+  {"type": "curve", "points": [[276, 300], [288, 292], [300, 300], [312, 292], [324, 300]], "width": 3, "color": "#ffffff"},
+  {"type": "curve", "points": [[-444, 150], [-432, 142], [-420, 150], [-408, 142], [-396, 150]], "width": 3, "color": "#ffffff"},
+  {"type": "curve", "points": [[-64, 300], [-52, 292], [-40, 300], [-28, 292], [-16, 300]], "width": 3, "color": "#ffffff"},
+  {"type": "poly", "points": [[-450, -350], [-200, -350], [-230, -320], [-205, -280], [-180, -240], [-150, -190], [-135, -130], [-118, -70], [-100, -10], [-104, 50], [-118, 110], [-140, 170], [-170, 230], [-195, 290], [-215, 350], [-300, 350], [-290, 300], [-318, 240], [-340, 170], [-372, 100], [-392, 30], [-420, -40], [-450, -80]], "fill": "#6bbf59", "width": 3, "color": "#1d3b16"},
+  {"type": "poly", "points": [[450, -350], [110, -350], [120, -300], [135, -240], [150, -180], [162, -120], [160, -60], [150, 0], [162, 60], [190, 120], [235, 170], [290, 205], [345, 215], [395, 175], [430, 120], [450, 100]], "fill": "#6bbf59", "width": 3, "color": "#1d3b16"},
+  {"type": "poly", "points": [[300, -350], [450, -350], [450, -230], [400, -255], [350, -290], [320, -320]], "fill": "#bfe6ff", "width": 0, "color": "#000000", "outline": false},
+  {"type": "poly", "points": [[330, -350], [450, -350], [450, -250], [410, -270], [370, -300], [340, -320]], "fill": "#f4f8fb", "width": 3, "color": "#1d3b16"},
+  {"type": "spray", "x": -330, "y": -220, "r": 60, "color": "#4f9a40", "density": 0.25},
+  {"type": "spray", "x": 320, "y": -120, "r": 70, "color": "#4f9a40", "density": 0.25},
+  {"type": "poly", "points": [[-60, 210], [-40, 200], [-30, 216], [-50, 224]], "fill": "#6bbf59", "width": 3, "color": "#1d3b16"},
+  {"type": "rect", "x": -450, "y": -350, "w": 900, "h": 700, "fill": null, "width": 6, "color": "#000000"}
+ ]
+}

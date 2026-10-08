@@ -1,0 +1,17 @@
+{
+ "name": "snorkel",
+ "description": "Doug's snorkel on its own (no flippers): the same J-shaped blue tube (#3a6ea5) with a yellow tip and dark mouthpiece as `snorkel_gear`. Upright J, open yellow end at the top, mouthpiece hooking left at the bottom. Anchor centre, ~75x230. Rotate freely for floating/spinning death beats.",
+ "anchor": [0, 0],
+ "tags": ["prop", "doug", "snorkel", "swim", "009"],
+ "elements": [
+  {"type": "curve", "points": [[14, -112], [16, -40], [14, 40], [6, 78], [-10, 94], [-28, 96]], "width": 22, "color": "#000000"},
+  {"type": "curve", "points": [[14, -112], [16, -40], [14, 40], [6, 78], [-10, 94], [-28, 96]], "width": 14, "color": "#3a6ea5"},
+  {"type": "curve", "points": [[14, -112], [15, -66]], "width": 14, "color": "#ffd21a"},
+  {"type": "line", "points": [[8, -60], [9, 40]], "width": 3, "color": "#7fb0e0"},
+  {"type": "line", "points": [[20, -56], [21, 30]], "width": 3, "color": "#24496f"},
+  {"type": "line", "points": [[2, -112], [26, -112]], "width": 6, "color": "#000000"},
+  {"type": "poly", "points": [[-30, 82], [-18, 82], [-18, 110], [-30, 110]], "fill": "#24496f", "width": 4, "color": "#000000"},
+  {"type": "poly", "points": [[-42, 84], [-30, 88], [-30, 106], [-42, 110], [-46, 97]], "fill": "#1a1a1a", "width": 4, "color": "#000000"},
+  {"type": "line", "points": [[-38, 92], [-38, 102]], "width": 2, "color": "#555555"}
+ ]
+}

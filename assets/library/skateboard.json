@@ -1,0 +1,22 @@
+{
+ "name": "skateboard",
+ "description": "Plain wooden skateboard, side view: tan deck with kicked-up nose and tail, black grip tape along the top, two grey trucks, pale cream wheels (two near, two peeking behind). Anchor bottom-centre: wheel bottoms on y=0. ~424x92.",
+ "anchor": [0, 0],
+ "tags": ["prop", "size reference", "everyday object", "009"],
+ "elements": [
+  {"type": "ellipse", "x": -118, "y": -16, "rx": 15, "ry": 15, "fill": "#cfc6a4", "width": 4, "color": "#000000"},
+  {"type": "ellipse", "x": 142, "y": -16, "rx": 15, "ry": 15, "fill": "#cfc6a4", "width": 4, "color": "#000000"},
+  {"type": "poly", "points": [[-156, -44], [-104, -44], [-116, -30], [-144, -30]], "fill": "#9aa0a6", "width": 4, "color": "#000000"},
+  {"type": "rect", "x": -136, "y": -32, "w": 12, "h": 14, "fill": "#6b7076", "width": 3, "color": "#000000"},
+  {"type": "poly", "points": [[104, -44], [156, -44], [144, -30], [116, -30]], "fill": "#9aa0a6", "width": 4, "color": "#000000"},
+  {"type": "rect", "x": 124, "y": -32, "w": 12, "h": 14, "fill": "#6b7076", "width": 3, "color": "#000000"},
+  {"type": "poly", "points": [[-212, -90], [-198, -92], [-176, -66], [-150, -58], [150, -58], [176, -66], [198, -92], [212, -90], [204, -72], [180, -48], [150, -42], [-150, -42], [-180, -48], [-204, -72]], "fill": "#c98a4b", "width": 5, "color": "#000000"},
+  {"type": "curve", "points": [[-150, -48], [0, -48], [150, -48]], "width": 2, "color": "#8a5a2b"},
+  {"type": "curve", "points": [[-198, -90], [-176, -62], [-150, -56], [150, -56], [176, -62], [198, -90]], "width": 8, "color": "#000000"},
+  {"type": "spray", "x": -60, "y": -50, "r": 20, "color": "#e7b07a", "density": 0.3},
+  {"type": "ellipse", "x": -138, "y": -15, "rx": 15, "ry": 15, "fill": "#f1ead0", "width": 4, "color": "#000000"},
+  {"type": "ellipse", "x": -138, "y": -15, "rx": 5, "ry": 5, "fill": "#9aa0a6", "width": 2, "color": "#000000"},
+  {"type": "ellipse", "x": 122, "y": -15, "rx": 15, "ry": 15, "fill": "#f1ead0", "width": 4, "color": "#000000"},
+  {"type": "ellipse", "x": 122, "y": -15, "rx": 5, "ry": 5, "fill": "#9aa0a6", "width": 2, "color": "#000000"}
+ ]
+}

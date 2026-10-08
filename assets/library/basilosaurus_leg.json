@@ -1,0 +1,28 @@
+{
+ "name": "basilosaurus_leg",
+ "description": "Close-up of one tiny Basilosaurus hind leg: a patch of slate-grey whale body side (darker back band, paler belly) with a small pale-grey leg sticking out below, thigh from the body, bent knee at upper left (~(-110,25)), ankle lower left (~(-90,108)), foot running right to three little toes at lower right (~(42,112..144)). Anchor centre, ~365x300.",
+ "anchor": [0, 0],
+ "tags": ["whale", "basilosaurus", "eocene", "close-up", "anatomy", "009"],
+ "elements": [
+  {"type": "ellipse", "x": 42, "y": 112, "rx": 24, "ry": 10, "fill": "#a9b2bc", "width": 4, "color": "#000000"},
+  {"type": "ellipse", "x": 42, "y": 128, "rx": 24, "ry": 10, "fill": "#a9b2bc", "width": 4, "color": "#000000"},
+  {"type": "ellipse", "x": 42, "y": 144, "rx": 24, "ry": 10, "fill": "#a9b2bc", "width": 4, "color": "#000000"},
+  {"type": "poly", "points": [[0, -60], [-60, -20], [-112, 8], [-122, 36], [-110, 80], [-104, 112], [-96, 138], [-60, 146], [10, 146], [34, 138], [34, 108], [-20, 104], [-58, 96], [-66, 60], [-66, 46], [-30, 26], [40, -4], [80, -60]], "fill": "#a9b2bc", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "spray", "x": -40, "y": 10, "r": 30, "color": "#8a949f", "density": 0.35},
+  {"type": "spray", "x": -90, "y": 90, "r": 24, "color": "#8a949f", "density": 0.35},
+  {"type": "curve", "points": [[-110, 24], [-96, 36], [-80, 38]], "width": 3, "color": "#000000"},
+  {"type": "curve", "points": [[-104, 104], [-86, 110], [-66, 106]], "width": 3, "color": "#000000"},
+  {"type": "poly", "points": [[-180, -104], [-130, -146], [-40, -156], [60, -150], [140, -148], [180, -106], [176, -62], [130, -34], [40, -32], [-50, -30], [-140, -36], [-178, -64]], "fill": "#6f7a86", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-150, -132], [-60, -146], [40, -142], [140, -138], [150, -120], [90, -122], [0, -116], [-90, -120], [-150, -116]], "fill": "#525c67", "width": 0, "color": "#000000", "outline": false, "smooth": true},
+  {"type": "poly", "points": [[-150, -62], [-80, -70], [0, -68], [80, -72], [150, -64], [130, -42], [60, -40], [0, -42], [-80, -38], [-140, -44]], "fill": "#a9b2bc", "width": 0, "color": "#000000", "outline": false, "smooth": true},
+  {"type": "spray", "x": -60, "y": -80, "r": 60, "color": "#838e99", "density": 0.3},
+  {"type": "spray", "x": 110, "y": -60, "r": 50, "color": "#5f6a75", "density": 0.3},
+  {"type": "curve", "points": [[-146, -100], [-120, -105], [-94, -100]], "width": 2, "color": "#4a535d"},
+  {"type": "curve", "points": [[-66, -92], [-40, -97], [-14, -92]], "width": 2, "color": "#4a535d"},
+  {"type": "curve", "points": [[14, -104], [40, -109], [66, -104]], "width": 2, "color": "#4a535d"},
+  {"type": "curve", "points": [[94, -96], [120, -101], [146, -96]], "width": 2, "color": "#4a535d"},
+  {"type": "curve", "points": [[-116, -80], [-90, -85], [-64, -80]], "width": 2, "color": "#4a535d"},
+  {"type": "curve", "points": [[54, -84], [80, -89], [106, -84]], "width": 2, "color": "#4a535d"},
+  {"type": "poly", "points": [[-180, -104], [-130, -146], [-40, -156], [60, -150], [140, -148], [180, -106], [176, -62], [130, -34], [40, -32], [-50, -30], [-140, -36], [-178, -64]], "fill": null, "width": 5, "color": "#000000", "smooth": true}
+ ]
+}
