@@ -90,3 +90,19 @@ Scope: `build/thumbnail.png` (1280x720) and `build/thumbnail_small.png` (320x180
 3. **Livyatan (advisory):** the jaw is wider than in v1 and the teeth read at 168 px, but it is still a narrow band. If the designer is re-rendering anyway, opening it about 20% more would separate it further from Megalodon.
 
 VERDICT: FAIL
+
+## Thumbnail v3 (2026-10-08)
+
+Scope: `build/thumbnail.png` (1280x720), `build/thumbnail_small.png` (320x180), the designer's `build/thumb_badge_mock.png`, and my own badge overlays. I used three badge boxes at full res: the round 4 box (x 1095-1251, y 620-691), a desktop estimate (x 1120-1266, y 640-706) and a mobile estimate (x 1126-1254, y 630-694). I also checked 2x crops of the bottom-right corner and 320x180 and 168x94 downscales. Title: "What Dying in Every Prehistoric Ocean Would Be Like".
+
+- **Doug vs badge (round 4 fix 1): fixed.** Doug now spans about y 525-592 at full res, from the cap to the fins. He sits on the navy gap right of the jaw, with a clear margin from the white jaw edge. His lowest pixel is about 28 px above the most conservative badge top (y 620). He is fully visible in all three overlays and remains the only light speck in the corner at 320 and 168 px. He is still on-model (red cap, white head, mask, snorkel, fins) and faces the shark.
+- **Megalodon label vs badge (round 4 fix 2): fixed.** The label now spans x 905-1079 and ends 16 px before the most conservative badge left edge (x 1095). "Megalodon" reads in full in every overlay.
+- **Label ownership: acceptable, with a small cost.** The Megalodon tile runs x ≈ 941-1256 (centre ≈ 1098). The label is centred at x ≈ 992, about 105 px left of the tile centre, and its first ~36 px ("M") start under the Livyatan tile and gutter. The gap between "Livyatan" (ends x 858) and "Megalodon" is only 47 px, so the bottom row reads "Livyatan  Megalodon" as a pair. Even so, about 80% of the word sits under its own tile, and the left-to-right order matches the tiles. The Livyatan label stays centred under its tile. At 320x180 and 168x94 nobody would swap the two names. This is a visible asymmetry in the full-screen opening frame, where there is no badge, but it does not mislabel anything.
+- **Regressions: none found.** The other 11 tiles, labels, frames, palette gradient, Anomalocaris Doug and the Megalodon jaw are unchanged from v2 round 4. There is no new clipping, stray line or overlap. The gore and policy checks from round 4 still hold.
+- **Note on the designer mock:** in `thumb_badge_mock.png` the drawn badge (about x 1095-1252, y 620-691) and the magenta outline (about x 1145-1265, y 660-704) do not match. Both boxes are clear of Doug and the label, so it does not affect the verdict.
+
+### Advisory (non-blocking)
+1. **"Megalodon" label (graphic designer, optional polish):** to make the label read as part of its tile without bringing back the badge clash, either (a) left-align it to the tile's inner frame (start x ≈ 958) and set this one label at about 75% font size so it ends ≤ x 1090, or (b) leave it as is. Do not centre it under the tile again, because that puts "odon" back under the badge.
+2. **Livyatan jaw width and silhouette variety:** this is carried over from round 4 and is still optional.
+
+VERDICT: PASS
