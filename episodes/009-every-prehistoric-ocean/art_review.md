@@ -179,3 +179,87 @@ Re-render only the touched shots:
 and send me the new sheets for round 2.
 
 KEYFRAMES: FAIL (round 1)
+
+# Keyframes round 2
+
+Reviewer: art director, 2026-10-08. Scope: re-rendered `build/contact/sheet_01..29.png`. I checked every shot that changed in 0c0ce1d
+at full resolution (65 shots: s024-s027, s035, s041, s042, s046, s048, s059, s076, s096, s107, s108, s110, s124, s133, s134, s140,
+s141, s154-s156, s160, s161, s166, s173, s176, s186, s187, s189, s191, s207, s219, s230, s231, s236, s243, s260, s262-s266, s271,
+s272, s276, s289-s293, s310, s311, s327-s337). I also re-checked the three variety runs in context (s039-s050, s166-s177, s226-s237).
+No other shot changed in `shotlist.json`, so nothing outside this list can have regressed.
+
+## Verdict: FAIL (round 2). 11 of 12 round-1 fixes landed. 2 small fixes on 2 shots remain. Round 3 only needs `--shots s272,s276`.
+
+## Round-1 fixes: status
+1. s330 cap tumbling in the black frame: **done**. Red on black reads at phone size.
+2. s334 THE WHOLE NIGHT moved off the grass into the sky left of the booth: **done**. It is small at phone size, but the dark outline carries it on pale sky. Accepted.
+3. s191 SHALLOW SEA in the right margin, clear of the map and Doug: **done**.
+4. s166, s189, s219 and s271 dates in the top-left slot, off the map frames: **done**.
+5. Label count (max 2): **done** on s076, s096, s110, s124, s161, s236 and s243. s140 now has a dig pit with `cymbospondylus_skull`, vertebrae and a
+   flipper bone, and one label, "SKULL, BACKBONE, FLIPPER". That wording is fine.
+6. s035: only the CHAMBERS label and its arrow remain: **done**.
+7. s059: the poster ends at x 1280, clear of the counter column: **done**.
+8. s187: TWO-METER HEAD is in clear water at the upper right: **done**. The size-correction inset ends at x 1270 (inside the rule).
+9. s108: MORE DANGEROUS clears the Dunkleosteus tail: **done**.
+10. s272: UPPER is clear of the night clock (**done**), but the arrow was not re-aimed. See fix R2-1.
+11. Endoceras run: **done, and better than asked**. s041 (Harvard case), s042 (clipboard), s046 (close-up with Doug on the shell) and s048 (monitor)
+    break up the run. The longest repeat of the cone-on-cream layout is now 2 shots (s049-s050).
+12. Pliosaur skull run: **done**. s173 is on the monitor with the warning triangle, and s176 shows the live teal pliosaur clamping an ammonite
+    with no gore. The longest run is now 3 shots (s167-s169).
+
+## Director and visual-screener changes (checked, no regressions)
+- s024-s027 snorkel added and s026 ARMORED moved to the trilobite row. s027's SNORKEL arrow lands on the tube.
+- s230 is a push-in on the palatal teeth and s231 is a side-on cutaway with a roof-of-mouth inset (inset ends at x about 610, inside the rule).
+  The tylosaurus run s228-s232 now has three different layouts.
+- The s160 NOPE and s327 NOT PROVEN stamps now have a white fill, and the s260 SCAVENGING strike-through is horizontal. s311 STREAMLINED is off the
+  shark, s207's tail is off the frame edge and s141 FREEING THE BONES is clear of the scientist.
+- Advisory A1 has been applied: the moon now sits next to short clock readings (s262-s266, s289-s293, s328-s337).
+- **New asset `megalodon_bulky` (s310): APPROVED.** It is on palette and in the detailed tier. The bulky-vs-slim difference reads at phone size, and
+  USUAL DRAWING now sits over the top shark.
+- **New asset `elephant_tusked` (s276): APPROVED as a drawing.** The circus saddle is gone and the ivory tusks are on palette. The staging problem is fix R2-2.
+
+## Blocking fixes (director)
+- **R2-1. s272: the UPPER arrow lands on the forehead, about 110 px above the upper teeth.** Change the arrow `to` from `[1345, 470]` to
+  `[1340, 580]`. Keep `from` `[1450, 405]` and bend 30. The tip then lands on the upper tooth row, mirroring LOWER.
+- **R2-2. s276: the red X hides the tusks the line is about.** Only a cream sliver shows around the X strokes (tusks at about x 1235-1380,
+  y 600-665, tip near (1380, 610)), so at phone size the X looks like it is on the trunk again. Fixes:
+  - `red_x`: scale 0.7 to 0.45, centred at (1310, 635), with `appear` 0.3 to 0.5.
+  - Add an arrow from the TUSKS label to the tusk tip: `{"type":"arrow","from":[1420,415],"to":[1385,600],"bend":20,"color":"#e0201b","width":9,"head":40,"appear":0.15}`.
+  - Result: the tusks are pointed out first, then crossed out.
+
+## Non-blocking advisories
+- **B1 (engine/editor).** 77 keyframes have a 1 px white column at x = 0 (for example s004, s024, s235, s298, s310, s311, s327). It is pre-existing
+  and not caused by this round. It sits outside the safe area, but it may show as a hairline on the final render. Please check it in a draft frame
+  and clip the background fill to x -2 if it shows.
+- **B2.** s230: the Tylosaurus's right eye sits under the night-clock box. The HUD stays legible. If you touch the shot, scale the mouth to 0.95.
+- **B3 (illustrator).** In `assets/previews/009-every-prehistoric-ocean-fixes.png`, the top of `elephant_tusked` is cropped and `megalodon_bulky`
+  overlaps `megalodon`. Re-render the preview with more spacing for the record. The assets themselves are fine.
+
+## Style bible 7 checks (round 2)
+Rule 1: PASS. Rule 2 (cap always visible): PASS (s330 fixed). Rule 3: PASS. Rule 4 (max 2 labels): PASS. Rule 5: PASS. Rule 6: PASS.
+Rule 7: PASS (A3 exceptions unchanged). Rule 8 (no gore): PASS (s176 is a clamp, and the s230/s231 interiors are cartoon). Rule 9: not used.
+
+Routing: R2-1 and R2-2 go to the **director**, and no asset work is needed. Re-render `--shots s272,s276` and send me those two frames. If both land
+as specified, keyframes PASS without another full sheet review.
+
+KEYFRAMES: FAIL (round 2)
+
+# Keyframes round 3
+
+I checked only s230, s231, s272, s276 and s334 in `build/keyframes/`, at full resolution and at phone size.
+
+1. **s272 (R2-1): done.** The UPPER arrow now lands on the upper tooth row and mirrors LOWER. UPPER is still clear of the night clock.
+2. **s276 (R2-2): done, PASS.** The smaller X sits on the tusks, and cream ivory shows above, below and to the right of the strokes, so it no
+   longer reads as a crossed-out trunk. The TUSKS arrow tip lands at the tusk tip, just right of the X. The tusks are small, but the "label, arrow,
+   then X" combination reads clearly at phone size. No more change is needed. Doug, the cap and the HUD are clear.
+3. **s230: PASS.** B2 is resolved: both eyes now sit clear of the night-clock box. BACKWARD is legible on the palate, and the interior is cartoon,
+   not gore.
+4. **s231: PASS.** The inset ends inside the rule, THROAT sits in clear water, the yellow swallow arrow reads, and Doug is on-model with his cap
+   and snorkel.
+5. **s334: PASS.** THE WHOLE NIGHT is in the sky, left of the booth and off the grass, and it is legible. The cap on the booth and the ghost Doug's
+   cap are both visible. The three HUD rows sit inside the safe area.
+
+Style bible 7, rules 1-9: no change from round 2 (all pass, rule 9 not used). There are no blocking fixes. Advisories B1 and B3 from round 2 still
+apply but do not block.
+
+KEYFRAMES: PASS (round 3)

@@ -47473,8 +47473,8 @@
       "type": "asset",
       "name": "tylosaurus_mouth",
       "x": 900,
-      "y": 660,
-      "scale": 2.0
+      "y": 700,
+      "scale": 1.8
      },
      {
       "type": "arrow",
@@ -47639,11 +47639,11 @@
       "type": "arrow",
       "from": [
        1300,
-       600
+       625
       ],
       "to": [
        1040,
-       640
+       665
       ],
       "bend": 20,
       "color": "#ffe24a",
@@ -55414,8 +55414,8 @@
        405
       ],
       "to": [
-       1345,
-       470
+       1340,
+       580
       ],
       "bend": 30,
       "color": "#e0201b",
@@ -55893,10 +55893,10 @@
      {
       "type": "asset",
       "name": "red_x",
-      "x": 1295,
-      "y": 620,
-      "scale": 0.7,
-      "appear": 0.3
+      "x": 1310,
+      "y": 635,
+      "scale": 0.45,
+      "appear": 0.5
      },
      {
       "type": "label",
@@ -55906,6 +55906,22 @@
       "size": 52,
       "bold": true,
       "boil": 0.4,
+      "appear": 0.15
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1420,
+       415
+      ],
+      "to": [
+       1385,
+       600
+      ],
+      "bend": 20,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 40,
       "appear": 0.15
      },
      {
@@ -67240,10 +67256,19 @@
      },
      {
       "type": "wordart",
-      "text": "THE WHOLE NIGHT",
-      "x": 450,
-      "y": 640,
-      "size": 52,
+      "text": "THE WHOLE",
+      "x": 420,
+      "y": 580,
+      "size": 68,
+      "boil": 0,
+      "appear": 0.5
+     },
+     {
+      "type": "wordart",
+      "text": "NIGHT",
+      "x": 420,
+      "y": 665,
+      "size": 68,
       "boil": 0,
       "appear": 0.5
      },
