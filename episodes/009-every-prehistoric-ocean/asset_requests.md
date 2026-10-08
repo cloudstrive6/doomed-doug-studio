@@ -146,6 +146,8 @@ pink when frozen, yellow sun badge at sunrise) are drawn inline in the shotlist;
 - **Facing / anchor / size:** Facing right. Clean outline (silhouette in s109). Anchor `c`, about 820x300 at scale 1.
 - **Shots:** s109, s116, s124-s127, s132
 - **DONE (illustrator):** preview `assets/previews/009-every-prehistoric-ocean-assets-animals.png` (on navy: `assets/previews/009-every-prehistoric-ocean-animals-dark.png`). whorl centre (+280,+80); toothless upper lip passes (+285,-60); x -428..+412, y -210..+158.
+- **DONE round 2 (art_review fix 1):** preview `assets/previews/009-fixes.png` (navy + silhouette: `assets/previews/009-helicoprion-r2-dark-sil.png`). Jaw drawn under the whorl (r56, ring and spiral x1.15), head flattened, small eye under a heavy brow at (310,-88), pointed snout and jaw notch in the silhouette. Whorl centre (+280,+80) and the toothless lip through (+285,-60) are unchanged. Measured x -430..+431, y -162..+143 (305 tall).
+- **Cleanups (art_review items 2-4), same preview `assets/previews/009-fixes.png`:** spray kept inside its shape on skateboard, computer_keyboard, crt_tv, pickup_truck, xiphactinus_fossil, livyatan_tooth, basilosaurus_leg (an automated leak check on navy now finds 0 leaking pixels). pickup_truck wheels raised by 9, so the bottom is now y=0. basilosaurus_leg body patch is a flat-edged band at x -185..+185, y about -154..-30. The leg is unchanged.
 
 ### `helicoprion_guess_nose` (B)
 - **What:** Old wrong reconstruction no. 1: spiral on the end of its nose, curled back over the head.
