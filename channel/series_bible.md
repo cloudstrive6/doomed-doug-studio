@@ -25,7 +25,7 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 - "Doug did not agree to this." (episode opener or first danger)
 - **Doug death counter**: an on-screen label "DOUG DEATHS: N" that ticks up at each death. Cumulative across the
   channel. Current total: **74** (7 after 001, plus 11 in 002, plus 9 in 003, plus 9 in 004, plus 10 in 005, plus 10 in 006, plus 9 in 007, plus 9 in 008, QC passed; update after every episode). The next episode's
-  counter starts at 65.
+  counter starts at 74.
 - The red cap floating alone after a death.
 - Doug trying to befriend the thing that will kill him.
 - Narrator: "Doug has died. Again." / "Doug is fine." (Doug is not fine.)
