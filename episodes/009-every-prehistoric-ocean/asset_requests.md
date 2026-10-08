@@ -344,3 +344,17 @@ pink when frozen, yellow sun badge at sunrise) are drawn inline in the shotlist;
 - **Facing / anchor / size:** Front view; anchor bottom-centre on the ground. Anchor `bc`, about 372x640 at scale 1.
 - **Shots:** s332-s337
 - **Done:** `assets/library/time_machine_closed.json`, preview `assets/previews/009-every-prehistoric-ocean-assets-large.png`
+
+## Round-2 fixes (visual_review.md items 3 and 4)
+
+### `elephant_tusked` (variant of `elephant`, which 007 also uses and is unchanged)
+- **What:** Same elephant with two big curved ivory tusks sweeping forward past the trunk. The red saddle blanket, gold trim and strap are removed.
+- **Facing / anchor / size:** Facing right. Anchor bottom-centre (feet at y=0), about 660x400. Tusks sit at local (280..400, -240..-150).
+- **Shots:** s276. At x 900, y 860, scale 1.2 the tusks are centred near (1295, 620).
+- **Done:** `assets/library/elephant_tusked.json`, preview `assets/previews/009-every-prehistoric-ocean-fixes.png`
+
+### `megalodon_bulky` (the "usual drawing" megalodon; `megalodon` stays the slim 2025 build)
+- **What:** The same megalodon, about 1.38x deeper and 0.86x shorter. A barrel-chested super-great-white for the before/after.
+- **Facing / anchor / size:** Facing right. Anchor centre, about 950x530.
+- **Shots:** s310, replacing `great_white_shark` as the top "USUAL DRAWING" shark.
+- **Done:** `assets/library/megalodon_bulky.json`, preview `assets/previews/009-every-prehistoric-ocean-fixes.png`
