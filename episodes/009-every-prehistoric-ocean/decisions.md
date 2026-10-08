@@ -13,3 +13,15 @@
 4. My only edit: the header comment now says draft 3 (it still said draft 2). No spoken words changed.
 5. Advisory for the director and editor, not blocking: the Pliosaurus bite is in pounds while Dunkleosteus is in newtons. Leave it, since the source gives pounds. Pliosaurus is the longest non-boss item (301 words), so keep its shots brisk. The "still inside that cliff" line expires with the 2027 Kimmeridge dig: re-check it before any Short or re-upload.
 6. Series bible: add the night clock (episode-only, like 007's FROZEN meter) and the 009 log row (74 to 84, survivals Endoceras and Xiphactinus) at QC, as we did for earlier episodes.
+
+**2026-10-08, creative director: thumbnail gate (v1) CHANGES**
+Strengths: clean archetype A, legible labels at 168x94, a good era-darkening gradient, and strong tiles 1-5 (Anomalocaris, Endoceras, Jaekelopterus, Dunkleosteus, Helicoprion). No title words are repeated, and there is no gore.
+Problems: the grid is a stamp sheet. All 12 creatures face right at the same size, height and crop. In the feed, tiles 6, 8, 9, 10 and 12 (Cymbospondylus, Xiphactinus, Tylosaurus, Basilosaurus, Megalodon) read as the same grey fish, so the bottom row, which should be the payoff, is the weakest part. Megalodon, the boss, has no more presence than tile 1, and the overall read is "picture book", not nature horror.
+Required changes:
+1. Break the rhythm by mirroring (`flip: true`) Endoceras, Pliosaurus and Basilosaurus so they face left. Vary the framing across the grid: about 4 full-body, 4 mid and 4 tight head crops. No two neighbouring tiles should share a crop.
+2. Basilosaurus: show the long serpentine body undulating across the tile (smaller scale, full length, slight `rotate`), not a shark-like head crop. Its eel-whale silhouette is its only distinctive feature.
+3. Tylosaurus: swap to `tylosaurus_mouth` or a gaping-jaw crop, or show the full body with paddles and tail so it stops reading as a shark. Keep its green colouring.
+4. Megalodon (tile 12, the boss): a tight head-on or three-quarter crop with jaws wide open, with the mouth taking at least 40% of the tile. Add a tiny snorkelled Doug (red cap readable, scale about 0.12-0.15) floating in front of the jaw for human scale (style bible 7, idea 2). That is the one image that sells the title. Try `megalodon_bulky` if it fills the tile better. Keep Doug in the Anomalocaris tile as well.
+5. Livyatan: open the jaw wider so the tooth row reads at 168x94, since it currently looks like it is smiling. Push the body bigger so it bleeds out of the frame and feels huge.
+6. Cymbospondylus and Xiphactinus: vary them as well. Pull Cymbospondylus back to a fuller body so its long thin profile reads (it is the "first giant"), and leave Xiphactinus as a tight upturned-jaw crop.
+7. Keep the palette gradient, labels, frames and order exactly as they are. Re-render thumbnail.png and thumbnail_small.png, then send them to the visual screener before resubmitting.

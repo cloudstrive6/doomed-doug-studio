@@ -37,3 +37,21 @@ s053 (Endoceras now lies alongside the shell), s141 (FREEING THE BONES nudged cl
 4. **s011, s012, s065–s070, s085, s258:** the round 1 advisories 10, 11 and 17 (compound eye on a stalk, claw shape, goldfish stand-in) are unchanged. They are acceptable as they are.
 
 VERDICT: PASS
+
+## Round 3: thumbnail at feed size (2026-10-08)
+
+Scope: `build/thumbnail.png` (1280x720), `build/thumbnail_small.png` (320x180), plus a 168x94 mobile downscale. I checked them against the `metadata.json` title and thumbnail_brief and against style bible §2A.
+
+- **Grammar:** this is an Archetype A 3x4 grid on white with thick rounded frames and a single comic-font label per tile, matching the brief. Tiles darken in era order from pale Cambrian blue to near-black navy, and Megalodon sits alone on the darkest tile at bottom right. There is no title text or logo, and no label repeats a title word (Dying/Every/Prehistoric/Ocean/Sea/Like).
+- **Readability:** at 320x180 all 12 labels are readable and every tile reads as a sea monster. The teeth on Pliosaurus, Livyatan and Megalodon carry the threat. At 168x94 the labels blur, which is normal for this archetype, and the grid still reads as a table of contents for ocean monsters.
+- **Spelling:** all 12 names are spelled correctly and none is cropped.
+- **Doug:** zoomed in, he is on-model: red cap, white round head, stick body, shock mouth, mask, snorkel and fins. He is a speck at feed size. That is intended, because the style bible says the stick man is never the hero.
+- **Policy and kid appeal:** there is no blood or gore. The Helicoprion whorl is a cartoon. Angry brows and teeth on most predators keep it in nature horror. The grid does not read as a dinosaur picture book or as a kids' show.
+- **Misleading:** no. The title promises deaths in prehistoric oceans, and the grid shows the monsters at each stop, all of which are in the video.
+
+### Advisory (non-blocking)
+1. **Megalodon tile (bottom right):** YouTube's duration badge will cover the right part of the "Megalodon" label. *Graphic designer:* if cheap, nudge the label about 20 px left within the tile. The shark itself stays clear of the badge.
+2. **Anomalocaris tile:** Doug faces right, away from the Anomalocaris, and the dark mask band over his eyes reads slightly like lettering when zoomed in. *Graphic designer:* optionally set `facing: "left"` so his shock is aimed at the threat. This is invisible at feed size, so it is not required.
+3. **Silhouette variety:** six tiles are grey right-facing fish shapes (Dunkleosteus, Helicoprion, Cymbospondylus, Xiphactinus, Basilosaurus, Megalodon). They are acceptable because the tile colours and labels separate them, but this is worth noting for the next grid episode.
+
+VERDICT: PASS

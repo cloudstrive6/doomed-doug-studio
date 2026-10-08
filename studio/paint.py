@@ -438,7 +438,7 @@ def draw_element(cv: Canvas, el, tf: Transform, seed):
         cv.draw.fontmode = "1"
         cv.stroke(frame, "#000000", el.get("frame_width", 7) * sc, closed=True)
         if el.get("label"):
-            lx, ly = tf.apply((x + w / 2, y + h + el.get("label_size", 44) * 0.75))
+            lx, ly = tf.apply((x + w / 2 + el.get("label_dx", 0), y + h + el.get("label_size", 44) * 0.75))
             cv.text(el["label"], lx, ly, el.get("label_size", 44) * sc, "#000000", font_name="ComicNeue-Bold")
     elif t == "wordart":  # keyword label: yellow->green gradient fill, thin dark outline (style bible 4.2)
         x, y = tf.apply((el["x"], el["y"]))

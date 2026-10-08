@@ -66,7 +66,7 @@ Common keys: `color` (outline, default `#000000`), `fill`, `width` (line px, def
 | `bands` | horizontal colour bands: `bands` [{`y0`,`y1`,`color`}] (sky/sea/depth layers) |
 | `group` | `elements` with its own `x`,`y`,`scale`,`rotate`,`flip` |
 | `wordart` | keyword label: `text`,`x`,`y`,`size`, yellow→green gradient + dark outline (`top`,`bottom`,`outline` colours) |
-| `tile` | thumbnail/intro grid tile: `x`,`y`,`w`,`h`, `fill`, `asset` + `asset_scale` (or `elements`), `label` (comic font, under the tile); contents are clipped to the rounded frame |
+| `tile` | thumbnail/intro grid tile: `x`,`y`,`w`,`h`, `fill`, `asset` + `asset_scale` (or `elements`), `label` (comic font, under the tile; `label_dx` nudges it sideways); contents are clipped to the rounded frame |
 | `image` | real photo inset: `file` in `assets/photos/` (must be listed with source + licence in `assets/photos/SOURCES.md`; public domain / CC0 / CC-BY only), `x`,`y`,`w`; 4 px black frame |
 
 Extra keys: `line`/`curve` take `dash: [on, off]` (dotted distance lines); `arrow` takes `bend` (px, curved red
