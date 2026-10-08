@@ -22,6 +22,13 @@ def set_stage(ep: Path, stage: str, note: str = ""):
         raise SystemExit(f"unknown stage {stage}; valid: {STAGES}")
     p = ep / "status.json"
     st = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {"history": []}
+    mp = ep / "metadata.json"
+    if stage != "uploaded" and mp.exists() and json.loads(mp.read_text(encoding="utf-8")).get("youtube_id"):
+        # already on YouTube: never move it back (a re-render would otherwise be re-screened and re-uploaded)
+        print(f"{ep.name} is already uploaded; stage stays 'uploaded' (ignored '{stage}')")
+        stage, note = "uploaded", f"kept uploaded (ignored {stage}: {note})"
+        if st.get("stage") == "uploaded":
+            return
     st["stage"] = stage
     st["history"].append({"stage": stage, "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
                           "note": note})

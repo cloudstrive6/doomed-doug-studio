@@ -109,7 +109,12 @@
       "stage": "built",
       "at": "2026-10-08T17:16:10+00:00",
       "note": "final render"
+    },
+    {
+      "stage": "uploaded",
+      "at": "2026-10-08T21:12:38+00:00",
+      "note": "restored: QTOdC67HcZY (stale queued run had reset it)"
     }
   ],
-  "stage": "built"
+  "stage": "uploaded"
 }

@@ -27,6 +27,8 @@ jobs:
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # latest state when the job STARTS (a queued run would otherwise check out its stale trigger commit)
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
