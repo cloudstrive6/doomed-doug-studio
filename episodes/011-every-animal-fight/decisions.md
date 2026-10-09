@@ -18,3 +18,27 @@
 ## 2026-10-09: art director, capless upright Doug extended to s025-s026; keyframes round 2 PASS
 1. Following the visual screener's continuity fix 1, s025-s026 now keep Doug `cap_off` with `canada_goose_cap` in frame. The s021-s024 exception is extended to these two shots under the same conditions: the capped goose is in frame, it is a survival beat, and the cap returns at the s027 House Cat card.
 2. Keyframe round 2: all 20 re-keyed shots PASS (`art_review.md`).
+
+## 2026-10-09: creative director, thumbnail gate CHANGES REQUESTED (round 1)
+Reviewed `thumbnail.json`, `build/thumbnail.png` (1280x720) and `build/thumb_168.png`. There is no visual-screener report on the thumbnail yet, so it can't be approved this round anyway.
+What works: the archetype B ladder is right for this title. The yellow to orange to red to near-black ramp sells the escalation, and the elephant alone at the apex is the boss beat. The labels are the 10 chapter names in chapter order, with no title words. There is no hippo, no blood and no title text. The elephant (ears out), croc (jaws open), gorilla and pyramid silhouette all read at 168 px.
+What doesn't work yet: at feed size, the bottom two tiers read as a zoo poster. Half the animals are standing calmly in profile, and the smallest subjects are specks. The brief's highest risk was kid appeal ("must read as nature horror, not a zoo poster"), so these changes are required:
+1. **Make the animals look dangerous (asset swaps, all already in the library):**
+   - goose: `canada_goose_hiss` becomes `canada_goose_attack` (wings up, beak open; it reads at 168 px, while the hiss pose reads as a lying goose).
+   - kangaroo: `red_kangaroo` becomes `red_kangaroo_kick`.
+   - polar bear: `polar_bear` becomes `polar_bear_standing` (reared up). Scale it to fit the tier.
+   - Keep the cat, croc, elephant and gorilla as they are. The wolf, cassowary and chimp can stay because no aggressive variants exist. Don't commission new art for this.
+2. **Fill the tiers.** Every subject should be about 120-130 px tall (or as wide as the slot allows), with its top no more than about 15 px below its band's top edge. The cassowary (about 90 px now), kangaroo and goose are the worst offenders. At 168 px the cassowary must read as a bird, not a blue dot.
+3. **Doug's boxing stance.** Right now the back glove floats beside his hip, unattached, and the pose is `wave`, so he reads as holding one glove up to his face. Switch to `point` facing right (a jab toward the goose). Put a glove centred exactly on each rig hand endpoint, computed from the rig rather than placed by hand. Move him about 60 px right so he squares up to the goose. Keep him small (scale 0.24-0.28) and keep the smirk.
+4. **Spacing.** The bottom-tier labels sit about 4-6 px above the band's bottom outline, so raise them about 8 px. The "Grey Wolf" label touches the wolf's paws, so lift the wolf about 10 px. After the resize in item 2, no label may touch a drawing anywhere.
+5. **Exception accepted (record only):** archetype B puts labels outside the pyramid, alternating sides. With 3 subjects per band that isn't possible, so labels inside the bands under each subject are approved for this episode, matching the 008 ladder precedent.
+6. **Routing:** graphic designer re-renders (`build/gen_tiers.py`, then `python -m studio thumbnail 011-every-animal-fight`). The visual screener then checks the thumbnail (feed-size legibility, kid-appeal, gore). Then it comes back to me. This is also s001, so the editor must re-render s001 after approval (1.5 s hold, as per the script gate condition 3).
+
+## 2026-10-09: creative director, thumbnail gate APPROVED (round 2)
+Reviewed the revised `thumbnail.json` diff, `build/thumbnail.png` (1280x720, plus zoomed crops of Doug and the polar bear) and `build/thumb_168.png`.
+1. **Danger read: fixed.** The goose (`canada_goose_attack`, wings up, beak open), kangaroo (`red_kangaroo_kick`) and polar bear (`polar_bear_standing`, reared, jaws open, claws out) now read as threats. With the hissing cat, open-jawed croc and ears-out elephant, every tier now says "this will hurt", not "zoo poster". The kid-appeal risk from round 1 is resolved.
+2. **Tier fill: accepted with the explanation.** The subjects are about 112-122 px tall against my 120-130 target. The shortfall comes from band geometry (160 px bands minus the label strip and top clearance), not from timid scaling. Every subject now sits close to its band top, and the cassowary reads as a bird at 320 px. No further resizing.
+3. **Doug: fixed.** `point` facing right, gloves centred on the rig hand endpoints (both attached), a jab toward the goose, smirk kept, scale 0.26. On-model.
+4. **Spacing: fixed.** All labels were raised 8 px, and no label touches a drawing. The polar bear's ear slightly overlaps its band's top outline. That reads as breaking the frame, and I accept it.
+5. Visual screener round 4 polish items 1 (bottom labels) and 2 (kangaroo pose) are both covered by this revision.
+6. **Routing:** the visual screener re-checks this revision (feed legibility, kid appeal, gore). If it passes, there's no need to come back to me. The editor must re-render s001 from this thumbnail (1.5 s hold, script-gate condition 3).

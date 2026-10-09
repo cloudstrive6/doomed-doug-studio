@@ -105,3 +105,95 @@ VERDICT: PASS
 - No gore and no kids-show tone in the three shots.
 
 Routing: none. Keyframes for 011 are cleared for render from the visual side. The post-render screen (samples, qc.json, thumbnail, shorts) follows the build.
+
+## Round 4: thumbnail (2026-10-09)
+
+Scope: `build/thumbnail.png` (1280x720), `build/thumbnail_small.png` (320x180) and `build/thumb_168.png` (168x94, upscaled
+view), plus zoomed crops of Doug, the goose, the wolf, the kangaroo and the bottom-right corner (duration-badge zone). Checked
+against the title in `metadata.json`, the `thumbnail_brief`, and style bible section 2.B.
+
+VERDICT: PASS
+
+### Readability
+- **1280:** All ten labels are spelled right, in Title Case, uncropped, and do not overlap the drawings: Elephant, Gorilla,
+  Crocodile, Polar Bear, Grey Wolf, Cassowary, Chimpanzee, Goose, House Cat, Kangaroo. Each animal is recognisable at once.
+- **320 (feed/sidebar):** The stepped pyramid reads in 1 s as a size/danger ladder from bottom to top. The elephant, crocodile,
+  polar bear, gorilla, goose and cat silhouettes are clear. Of the labels, "Elephant", "Gorilla", "Crocodile", "Polar Bear",
+  "Goose", "House Cat" and "Kangaroo" are readable. "Cassowary" and "Chimpanzee" are only just readable, which is acceptable
+  for a table-of-contents grid.
+- **168 (mobile suggested):** The labels are not readable, as is normal for this archetype. The colour-band ladder and the
+  elephant/croc/bear shapes still carry it.
+- **Duration badge:** "Kangaroo" ends at about x 1165, so the bottom-right badge zone (about x 1185+, y 690+) covers only
+  empty yellow. Nothing important is hidden.
+
+### Errors / drawing check
+- Doug is on-model: red cap, white head, red boxing gloves, guard up with the lower glove joined by its arm, smug closed-eye
+  grin. He is a red speck at 168 px, which matches the brief ("tiny Doug") and bible 2 ("the stick man is never the hero").
+- No stray lines, gaps or broken fills. The wolf's legs are a bit stiff and post-like, but it clearly reads as a wolf.
+- No hippo, and all ten chapter animals are present, matching the brief.
+
+### Policy
+- **Gore:** none. The croc's open jaws and the goose's serrated hiss are threat cues with no blood or wounds.
+- **Kid appeal:** low risk. The colours are bright, but every animal is posed aggressively (hissing goose, ears-back cat,
+  open-jawed croc, ears-out elephant) on a band that darkens to near-black at the top. The boxing Doug and the "Until He Dies"
+  title make it adult-coded. There are no baby faces, pastels or nursery framing.
+- **Not misleading:** every pictured animal is a chapter. The thumbnail does not repeat the title's words, so the title gives
+  the frame and the thumbnail gives the items.
+
+### Optional polish (not blocking)
+1. Graphic designer: the bottom-row labels (Goose / House Cat / Kangaroo) sit about 4 px above the bottom border. They read
+   fine, but raising them about 8 px would give the same breathing room as the upper tiers.
+2. Graphic designer: the kangaroo is the smallest and most passive figure. If the art is touched again, a boxing/rearing pose
+   or a slightly larger scale (about 0.24) would make it read as a threat at 320 px.
+
+Routing: none required. The thumbnail is cleared from the visual side.
+
+## Round 5: revised thumbnail (2026-10-09)
+
+Scope: the re-render made after the creative director's round 1 changes (`canada_goose_attack`, `red_kangaroo_kick`,
+`polar_bear_standing`, resized subjects, Doug `point` with rig-anchored gloves). Checked `build/thumbnail.png` (1280),
+`build/thumbnail_small.png` (320) and `build/thumb_168.png` (viewed at 4x), with pixel zooms of Doug, every label/drawing gap,
+and every place a subject meets a band outline. Round 4 above screened the previous render (09:42); this render is from 09:44.
+
+VERDICT: FAIL (one small required fix; everything else passes)
+
+### Required fix
+1. **Graphic designer, bottom tier is clipped by the orange band's outline.** `gen_tiers.py` draws the orange rect *after* the
+   yellow-tier assets, so its 6 px outline (y about 553-559) paints over the tops of the three bottom subjects:
+   - Goose (`canada_goose_attack`): the raised far wing is cut flat at y 559 (about x 420-470). At 1280 and in s001 at 1080p
+     it looks like the wing was cropped.
+   - House Cat: the tail tip is sliced flat against the outline (about x 675-690).
+   - Kangaroo: the ear tips are cut by the outline (about x 1050-1065).
+   Fix: lower or shrink these three so each top clears the yellow band's top outline by at least 6 px (top at y 565 or lower).
+   For example, goose scale 0.30 to about 0.28, cat y +6, kangaroo scale 0.207 to about 0.20. **Do not** fix this by changing
+   the draw order: the goose wing would then rise into the orange band and come close to the "Grey Wolf" label (bottom at
+   about y 545). After the change, keep the kangaroo's tail tip clear of the "Kangaroo" label (it is about 6 px clear now) and
+   re-check that no label touches a drawing. This is also s001, so the editor re-renders s001 as already routed.
+
+### Checks that pass
+- **Doug's boxing stance:** now correct. The jab glove sits exactly on the extended hand and the rear glove sits on the
+  lowered hand's endpoint, attached to its arm with no floating glove. Facing right, he squares up to the goose about 130 px
+  away. He is on-model (red cap, white head, black stick body) with the closed-eye smirk, at scale 0.26. He reads as a tiny
+  red-capped speck with red gloves at 320 px and as a red dot at 168 px, which is acceptable for "tiny Doug".
+- **Threat poses:** the attack goose (wings up, serrated beak open), kicking kangaroo (both feet out, motion lines) and
+  reared polar bear are big improvements. The bottom tier no longer reads as a petting zoo at 320 px. At 168 px the goose
+  reads as a goose with wings up, and the kangaroo as a brown rearing figure.
+- **Subject size:** all subjects now fill their tiers. The cassowary reads as a dark bird with a blue head at 320 px (no
+  longer a dot).
+- **Label/drawing contact:** none. Wolf paws, cassowary feet and chimp knuckles each clear their labels by about 5-8 px, and
+  the gorilla feet, croc jaw and polar bear paws clear theirs by about 3-6 px. The bottom labels have been raised and clear
+  the bottom outline. All ten labels are spelled right and uncropped, and the duration-badge zone (bottom-right) covers only
+  empty yellow.
+- **Gorilla and polar bear heads** overlap the red band's top outline into the white, drawn on top. This reads as a
+  deliberate frame break, not a crop, so it is fine. The gorilla does not touch the elephant panel.
+- **Readability:** at 320 the pyramid, the colour ramp and 8 of 10 labels read in 1 s (Cassowary and Chimpanzee only just).
+  At 168 the labels are illegible, as expected for archetype B, and the elephant, croc, gorilla and goose carry it.
+- **Gore:** none. The polar bear's open mouth is a dark-red interior with teeth. It reads as a snarl, not blood, at every
+  size. The croc's open jaws show no wounds.
+- **Kid appeal:** low. Every animal is aggressive except the stiff wolf and the cassowary. The ramp darkens to near-black,
+  and nothing has baby proportions, pastels or nursery framing. The cat (crouched, hissing) is the softest figure, but it is
+  acceptable next to the attack goose and kicking kangaroo.
+- **Title fit:** it complements "Every Animal Doug Could Beat in a Fight, Until He Dies" without repeating any title words.
+  Every animal shown is a chapter and there is no hippo, so it is not misleading.
+
+Routing: graphic designer (fix 1), then visual screener re-check of the bottom tier only, then creative director.
