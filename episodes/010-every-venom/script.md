@@ -372,7 +372,7 @@ But the worst part is that it is not drifting.
 
 Most jellyfish float wherever the water takes them, but this one swims. It has twenty-four eyes in four groups of six, and some of them have real lenses that focus light.
 
-In two thousand and five, a study in the journal Nature looked at a different, smaller species of box jellyfish. It found that that species' eye lenses are remarkably well made, even though the eyes seem tuned to see a slightly blurry picture.
+In two thousand and five, a study in the journal Nature looked at a different, smaller species of box jellyfish. It found remarkably well made eye lenses, even though the eyes seem tuned to see a slightly blurry picture.
 
 It doesn't have a brain, yet box jellyfish use those eyes to steer around obstacles, and this one can swim toward movement.
 
