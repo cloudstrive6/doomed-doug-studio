@@ -1,12 +1,12 @@
 {
- "at": "2026-10-09T09:01:49+00:00",
+ "at": "2026-10-09T10:01:51+00:00",
  "issues": [
   {
    "key": "schedule_gap",
    "severity": "medium",
    "owner": "auto",
    "summary": "No long video scheduled for Mon 12 Oct 5:00 AM NZDT, Tue 13 Oct 5:00 AM NZDT",
-   "detail": "{\"uploaded_total\": 10, \"queued\": 2, \"target\": 4, \"phase\": \"launch\", \"in_progress\": [], \"need_episode\": true, \"later_scheduled\": []}",
+   "detail": "{\"uploaded_total\": 10, \"queued\": 2, \"target\": 4, \"phase\": \"launch\", \"in_progress\": [\"011-every-animal-fight\"], \"need_episode\": true, \"later_scheduled\": []}",
    "route": "production run",
    "fixed": false,
    "extra": {}
