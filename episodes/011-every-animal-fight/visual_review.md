@@ -76,3 +76,32 @@ s232 close-up. Each one is a one-element shotlist edit. Re-key s154 and s232 onl
 4. **s277 (director, optional):** the green tick at (494-626, 400-520) floats in the sky band. It would tie to Doug more clearly about 60 px lower, nearer his head.
 
 Routing: fixes 1-2 go to the director (re-key s154 and s232). Fix 3 is optional and goes to the illustrator (`polar_bear` asset). Fix 4 is optional and goes to the director. In round 3 I will re-screen only s154 and s232.
+
+## Round 3: re-keyed shots (2026-10-09)
+
+Scope: full-res `build/keyframes/s154.png`, `s232.png` and `s277.png` (rendered 09:36, same time as commit 051581f), with a zoomed crop of the s232
+foreleg. I also checked the shared `polar_bear` asset edit by re-keying ep 008 s195, s198, s208, s214 and s220 (scales 0.3 to 1.0), with a zoomed crop
+of the s198 chest/foreleg joint.
+
+VERDICT: PASS
+
+### Round-2 fixes: verified
+- **1. s154 cap over citation: fixed.** `doug_cap` now sits on the log top at about x 925-995, y 778-802. That leaves about 35 px of clear log between the
+  cap and the right edge of the "PNAS 2017" card, and "PNAS 2017" reads in full.
+- **2. s232 stray line: fixed.** The ice-crack line at Doug's cap brim is gone. Doug (shocked, cap on, on-model) stands alone at the left with clean space
+  around him. The close-up still breaks the s230-s233 run, and "THE HUNGRY ONE" reads in 1 s.
+- **3. s232 foreleg spike (optional): fixed.** The new chest fill patch hides the foreleg outline, so it now starts at the chest line. Only a ~5 px
+  square end-cap is visible at about x 1352, y 855, and it is not noticeable at 1080p. The grey far-leg stroke is unchanged, as allowed in round 2. The one
+  short pale ice-crack line left of the leg (about x 1250-1345, y 900) reads as ice, not as a stray stroke.
+- **4. s277 tick (optional): fixed.** The green tick moved down 60 px (bottom at about y 585). It now sits just above and right of Doug's cap (top at about
+  y 655), so it clearly belongs to him. It overlaps the edge of the sun a little, which is fine.
+
+### Shared asset check (ep 008)
+- The `polar_bear` edit does not break anything in ep 008. In s195, s198, s208, s214 (two bears, 0.9 and 0.7) and s220 (0.3), the chest/foreleg joint is
+  clean, with no gaps, holes, or fill showing past the outline. The silhouette, radio collar (s208) and -22% comparison (s214) are unchanged. Re-keying ep 008
+  is not needed. If it has already rendered, the new asset only removes a hidden spike.
+
+### Policy
+- No gore and no kids-show tone in the three shots.
+
+Routing: none. Keyframes for 011 are cleared for render from the visual side. The post-render screen (samples, qc.json, thumbnail, shorts) follows the build.
