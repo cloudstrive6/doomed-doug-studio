@@ -64,3 +64,31 @@ No wounds or blood. **PASS.**
 
 VERDICT (main): FAIL. 1 fix: s286, bubble tail (director, or engine fix by the art director).
 VERDICT (shorts): PASS
+
+# Post-render, round 2
+
+Inputs checked: re-rendered `build/final.mp4` (03:10 UTC), with s286 frames pulled at 958.0, 959.5 and 961.0 s (the shot starts at 957.26 s in `build/timing.json`), plus `build/samples/f_001-f_032.png`, `build/qc.json` (961.6 s, `problems: []`), `build/thumbnail.png`, `metadata.json`, `build/shorts/short01-03_preview.png`, and 5 frames from each Short mp4.
+
+## s286 re-render
+
+- **Tail: fixed.** The bubble now sits up and to the right of ghost Doug. The tail is a clear wedge pointing down-left at his cap. It reads as a tail. There is a tiny stray notch or dot where the tail's right base meets the bubble outline (about x 1560, y 298). It is only visible when zoomed in, so it does not block.
+- **Clearance: not fixed.** The bubble is `y 250, h 110`, so its top edge is at y 195. The DOUG DEATHS: 93 box has its bottom border at y 193-195. In the frame, the bubble outline starts at y 196, directly under the label border across x 1540-1600. There is 0 px of gap, so the two outlines merge into one line and the bubble looks like it hangs from the counter box.
+
+### Required fix (main)
+
+1. **s286 (director):** in the speech element, change `"y": 250, "h": 110, "tail": [1510, 316]` to `"y": 262, "h": 100, "tail": [1505, 326]`. The bubble then runs from y 212 to y 312, which leaves about 16 px of sky under the label, and the tail tip lands just right of the cap dome without touching it. Keep x, w and the text as they are. Re-render s286 and the final. The Shorts are not affected.
+
+## Rest of the main video
+
+The 32 samples match round 1: no black, frozen or glitched frames. Doug is on-model, the counter steps correctly from 84 to 93, nothing is gory, and nothing reads as a kids' show. No regressions.
+
+## Thumbnail
+
+Unchanged since the round 1 pass. It works with "How Every Deadly Venom Would Kill Doug". PASS.
+
+## Shorts
+
+These are the same files as round 1. All three titles are readable, nothing is cut off at the sides, the subtitles are legible, and every end card ("WHAT DID DOUG DO? / ALL 12 VENOMS / WHAT HAPPENS NEXT? TAP BELOW") has a red arrow pointing down. s286 is not in any Short. PASS.
+
+VERDICT (main): FAIL
+VERDICT (shorts): PASS

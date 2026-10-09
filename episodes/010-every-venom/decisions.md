@@ -40,3 +40,6 @@
 
 - 2026-10-09 Showrunner (final review round 1): visual-screener VERDICT (main): FAIL (s286 speech-bubble tail sliver), VERDICT (shorts): PASS. Director moved bubble to x1560 y250 w240 h110 tail [1510,316]; .rerender=final requested. Stage left at built; round 2 re-screens the new render (check bubble clears DOUG DEATHS label; fallback y265, tail [1505,330]).
 FINAL: APPROVED
+
+- 2026-10-09 Showrunner (final review round 2): QC exit 0, no problems. visual-screener VERDICT (main): FAIL (s286 bubble now touches the "DOUG DEATHS: 93" box, no gap; tail fixed), VERDICT (shorts): PASS. Round 2 allows no further re-render, so not approved. Shotlist s286 already patched per the screener (bubble y262 h100 tail [1505,326]); needs one more final render, then a re-screen. Stage left at built.
+FINAL: REJECTED s286 speech bubble touches death-counter box; fix applied to shotlist, needs one more render
