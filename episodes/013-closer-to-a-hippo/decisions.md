@@ -64,3 +64,4 @@ Series bible updated: Doug death total 114; 013 log row finalised.
 
 FINAL: APPROVED
 - 2026-10-09 final review round 1: visual FAIL (main+shorts): counters cropped in s194/s221/s248/s249, stray arrow s251. Director fixed shotlist; .rerender requested (final, shorts). Stage left unchanged pending round 2.
+FINAL: REJECTED visual re-check pending after fixes (round 1 visual FAIL); re-render requested
