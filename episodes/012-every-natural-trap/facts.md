@@ -5,7 +5,7 @@ the suitcase and stickers, the cap, the costumes, the speech bubbles, "picnic sp
 been printed", "the costume department", "match the decor" and the hotel "stay" headers. Everyday comparisons are marked
 "common knowledge" and checked by arithmetic.
 
-Checked 2026-10-09 (draft 1). "Verified" means I read the claim on the page with WebFetch or a public API. "Search snippet" means
+Checked 2026-10-09 (draft 1); updated for draft 2 per script_review.md fixes 1-10 (see "Draft 2 changes" below). "Verified" means I read the claim on the page with WebFetch or a public API. "Search snippet" means
 the page blocked WebFetch or was an image or scanned PDF, so the claim was confirmed only through search-result text that quotes the
 page. The screener should re-open those if possible.
 
@@ -21,6 +21,33 @@ about Doug.
 **Children check:** the La Brea "many of the bison were young" detail is not used. No children appear anywhere.
 **Myanmar amber:** not used. The only amber specimens are the Triassic Dolomites droplets (Schmidt et al. 2012). The general behaviour
 line ("catching prey, laying eggs, hatching") is sourced to Dominican-amber and general reviews, not Burmese specimens.
+
+## Draft 2 changes (script_review.md)
+1. **F1 opener:** "Most hold you for minutes" became "Some hold you for minutes". Only the tree well and slot canyon act in minutes.
+2. **Hook:** the twist ("No avalanche. No cliff. No storm. The tree built this trap...") moved up behind the marker "Notice what is missing."
+   It now ends at spoken word 141 (the limit is 145). No change to facts.
+3. **F2 Dead Sea level:** the claim is now time-boxed: "Between nineteen eighty and twenty fifteen, its surface dropped by about
+   thirty meters". This matches NBC 2015's "about 100 feet since 1980" exactly. No present-tense total is claimed, so no 2025 level
+   source is needed. Supporting rate: the Ministry of Environmental Protection 2015 report (via Globes) gives 1.2 m a year by then, so
+   "roughly one meter a year" is a fair average over 1980-2015.
+4. **F3 thirty percent:** the attribution to a GSI geologist is removed. The script now says "About thirty percent of the drop has been
+   blamed on mineral extraction", and the source is NBC 2015 as reporting.
+5. **F4 sinkhole count:** "As many as five thousand" became "More than five thousand". Source: Israel's Ministry of Environmental
+   Protection, about 5,500 by 2015 (Globes). NOT used: the 2019 Solid Earth preprint (more than 6,000), because its authors have
+   **withdrawn** it (copernicus page, verified).
+6. **F5 dire wolf count:** the count is CUT. The script keeps only "the single most common large animal dug out of the asphalt is the
+   dire wolf". Sources disagree on "individuals" against "specimens", and the NHM count PDF is an image I can't read.
+7. **F6 mite size:** now "about a fifth of a millimeter long, roughly the width of two human hairs". *Triasacarus* is 210 microns long,
+   about 0.2 mm, which Live Science compares to twice a hair's diameter.
+8. **F7 Altamura DNA:** now "one of the oldest Neanderthals ever to give up genetic material". Sima de los Huesos (about 430,000 years,
+   Meyer et al. 2016, *Nature*) is older.
+9. **Rule 14:** "The most disturbing part is" was replaced with "This is where it gets slow." That marker is used only once.
+10. **Rule 4:** the Tree Well kicker is now 22 words ("Over nine American winters...").
+
+Advisories applied: "car park" became "parking lot" and "football pitch" became "football field". La Brea is now "more than six
+hundred species". The Dead Sea STAY tag is now "UNTIL SOMEONE LOOKS DOWN". The NCEI Storm Events record ID was added for the 1997
+flood. Flesch is 71.8. NOT applied: the brinicle size analogy. No source gives the filmed brinicle's length, so the temperature
+comparison stays.
 
 ## Flagged items from the brief (status)
 - **Tree well 90% experiment:** kept, but the original experiment reports were not found. deepsnowsafety.org (a collaboration that
@@ -42,10 +69,9 @@ line ("catching prey, laying eggs, hatching") is sourced to Dominican-amber and 
 - **Avalanche debris weight:** the brief suggested a car or a piano. Measured debris density is about 300 kg per cubic meter (Maseguchi)
   and 200-560 kg per cubic meter in distal deposits. "Around three hundred kilograms" equals about four adults at about 75 kg each.
 - **Dead Sea rate:** the brief's "more than about 1 m a year" is not claimed. The GSI geologist's figure is about 100 ft since 1980,
-  "a rate of three feet a year" (NBC 2015). The script says "about thirty meters since nineteen eighty", which is roughly one meter a
+  "a rate of three feet a year" (NBC 2015). Draft 2 says "between nineteen eighty and twenty fifteen... about thirty meters", which is roughly one meter a
   year. A kitchen counter is about 0.9 m tall (common knowledge).
-- **Dead Sea sinkhole count:** "as many as five thousand since the 1980s" and "400 a year" are from NBC 2015. A 2019 preprint gives
-  more than 6,000. I used the lower, older figure, so treat it as a floor.
+- **Dead Sea sinkhole count:** superseded in draft 2; see change 5 above.
 - **La Brea thin-layer depth:** CUT. No source gives a depth.
 - **La Brea carnivore share:** Smithsonian prints "roughly 90 percent of the mammal fossils found are predators", and the museum says
   "the majority". The script uses Smithsonian's figure.
@@ -87,7 +113,7 @@ line ("catching prey, laying eggs, hatching") is sourced to Dominican-amber and 
 | NPS: flash floods often come from storms miles away, can happen under sunny skies, and can rise within minutes | NPS Zion: "often caused by storms miles away"; "even with sunny skies overhead"; "rises quickly, within minutes or even seconds" (verified) |
 | 12 August 1997: a thunderstorm a few miles upstream sent a flash flood through Lower Antelope Canyon; 11 people died | Wikipedia, Antelope Canyon: "On August 12, 1997, eleven tourists… killed in Lower Antelope Canyon by a flash flood"; storm "7 miles (11 km) upstream" (verified). NOAA/NCDC Storm Events narrative: storm "3 to 5 miles upstream" (reproduced at https://usdeadlyevents.com/?p=1507, search snippet). The script says "a few miles", which covers both |
 | Very little rain fell on the canyon that day | Wikipedia, Antelope Canyon: "Very little rain fell at the site that day" (verified) |
-| The official weather record describes a wall of water 3-9 m high | NOAA/NCDC Storm Events narrative, "a 10-30 foot wall of water", via usdeadlyevents.com reproduction (search snippet; flag for screener). 10-30 ft is 3.0-9.1 m |
+| The official weather record describes a wall of water 3-9 m high | NOAA NCEI Storm Events Database, Coconino County AZ, 12 Aug 1997, event ID 5611379 (older NCDC ID 282022): "a 10-30 foot wall of water" https://www.ncdc.noaa.gov/stormevents/eventdetails.jsp?id=5611379 (database not reachable from here; narrative confirmed via the reproduction at https://usdeadlyevents.com/?p=1507 and by the screener). 10-30 ft is 3.0-9.1 m |
 | The Navajo name for the upper canyon means "the place where water runs through rocks" | Showcaves: "The Navajo name for Upper Antelope Canyon is Tse' bighanilini which means the place where water runs through rocks" (verified) |
 
 ## 3. Brinicle
@@ -120,12 +146,12 @@ line ("catching prey, laying eggs, hatching") is sourced to Dominican-amber and 
 | Claim | Source |
 |---|---|
 | About one third salt; close to ten times saltier than the ocean; people float | Salinity 34.2% (2011) and density 1.24 kg per liter, about 9.6 times ocean salinity (search snippets: WorldAtlas https://www.worldatlas.com/articles/is-it-possible-to-drown-in-the-dead-sea.html ; How It Works https://www.howitworksdaily.com/question-of-the-day-why-do-we-float-in-the-dead-sea/ ). Flag: no Britannica or USGS page found |
-| Level dropped about 100 ft (about 30 m) since 1980, about 3 ft (about 1 m) a year | NBC News 2015, quoting GSI geologist Gidi Baer: "dropped by about 100 feet, which is a rate of three feet a year" (verified) https://www.nbcnews.com/news/world/sinkholes-threaten-israels-dead-sea-tourist-trade-n392461 . Kitchen counter is about 0.9 m (common knowledge) |
-| About 30% of the drop is from mineral extraction (GSI geologist) | NBC News 2015, Baer: about 30 percent of the drop caused by potash/mineral extraction (search snippet of the same NBC article, fetched page) |
+| Between 1980 and 2015 the level dropped about 100 ft (about 30 m), about 3 ft (about 1 m) a year | NBC News 2015, quoting GSI geologist Gidi Baer: "dropped by about 100 feet, which is a rate of three feet a year" (verified) https://www.nbcnews.com/news/world/sinkholes-threaten-israels-dead-sea-tourist-trade-n392461 . Kitchen counter is about 0.9 m (common knowledge) |
+| About 30% of the drop has been blamed on mineral extraction (no attribution to a named person) | NBC News 2015, the reporters' own statement that about 30 percent of the drop is caused by mineral extraction (URL above; screener confirmed it is not a Baer quote) |
 | A buried salt layer about 10,000 years old, once in salty water; fresh groundwater dissolves it; cavities grow until the roof fails | NBC News 2015: layer "formed 10,000 years ago"; fresh water dissolves it; "cavities are formed and grow until the roof can't stand the weight" (verified); Geological Survey of Israel / Abelson et al.: dissolution of salt by groundwater following the retreat of the Dead Sea level (search snippet) https://www.gov.il/BlobFolder/reports/abelson-et-al-report-2009-27/he/report_2009_GSI-27-2009.pdf |
-| As many as 5,000 sinkholes since the 1980s | NBC News 2015: "As many as 5,000 sinkholes have appeared since the 1980s" (verified). A 2019 preprint gives more than 6,000 (search snippet) https://se.copernicus.org/preprints/se-2019-97/ |
+| More than 5,000 sinkholes since the 1980s | Israel Ministry of Environmental Protection annual report, via Globes: "As of 2015, there were 5,500 such sinkholes" (search snippet) https://en.globes.co.il/en/article-dead-sea-level-falling-12-meters-per-year-1001223618 ; NBC News 2015: "As many as 5,000… since the 1980s" (verified); University of Haifa's Michael Lazar, more than 6,000 on the western side alone (2022, search snippet) https://ynetnews.com/environment/article/s1z11u6vik . The Solid Earth 2019 preprint is NOT used (withdrawn by its authors, verified) |
 | Some about 25 m (80 ft) across, about as wide as a tennis court is long | NBC News 2015: "can measure 80 feet in diameter" (verified). 80 ft is 24.4 m; a tennis court is 23.77 m long (common knowledge) |
-| Swallowed roads, buildings and a resort car park, often without warning | NBC News 2015: "buildings and roads in their path without warning"; Mineral Beach parking lot engulfed (verified) |
+| Swallowed roads, buildings and a resort parking lot, often without warning | NBC News 2015: "buildings and roads in their path without warning"; Mineral Beach parking lot engulfed (verified) |
 | About 400 new ones reported a year | NBC News 2015: "400 sinkholes are now reported around the body of water every year" (verified) |
 | Callback: Doug was swallowed at Morecambe Bay in 004 | channel/series_bible.md and 004 (in-universe) |
 
@@ -136,7 +162,7 @@ line ("catching prey, laying eggs, hatching") is sourced to Dominican-amber and 
 | Crevasses are tens of meters deep; one in Antarctica was 25 m deep | NASA: "tens of meters deep, tens of meters across"; the crevasse "Mongo" was "82 feet (25 meters) deep" (verified). Eight stories is about 24 m (common knowledge) |
 | Wind-blown snow hardens into a snow bridge that hides the crevasse | NASA (Bindschadler): snow "stretches across the top" (verified); transantarcticmountains.com, wind-drift hardening (search snippet) https://transantarcticmountains.com/?p=389 |
 | A snow bridge can be a few meters or a few centimeters thick | NASA, Bindschadler: "It can be a few meters thick, or it can be centimeters thick" (verified) |
-| Remains in one Swiss glacier travelled about 10 km at about 120 m a year (a computer model) | Swissinfo: remains moved "around 10km in the ice at an average speed of 122 metres a year" (verified) https://www.swissinfo.ch/eng/cold-cases--swiss-glaciers-reveal-grisly-surprises/48778902 . A football pitch is about 100-110 m (common knowledge) |
+| Remains in one Swiss glacier travelled about 10 km at about 120 m a year (a computer model) | Swissinfo: remains moved "around 10km in the ice at an average speed of 122 metres a year" (verified) https://www.swissinfo.ch/eng/cold-cases--swiss-glaciers-reveal-grisly-surprises/48778902 . An American football field is about 110 m including end zones (common knowledge) |
 | A Swiss couple missing since 1942 were found in July 2017 on the shrinking Tsanfleuron Glacier, 75 years later | NBC News 2017 (verified) https://www.nbcnews.com/news/world/swiss-couple-missing-75-years-found-melting-alps-glacier-n784311 ; NPR 2017 https://www.npr.org/sections/thetwo-way/2017/07/18/537917006/bodies-found-in-swiss-glacier-believed-to-be-couple-missing-since-1942 (timed out; search snippet) |
 | The ski company director: probably fell into a crevasse; as the glacier receded it gave them up | NBC News 2017, Bernhard Tschannen, Glacier 3000: "We think they may have fallen into a crevasse… As the glacier receded, it gave up their bodies" (verified) |
 | Valais police list about 300 people missing since 1925; retreating ice keeps returning climbers missing for decades | Swissinfo: "some 300 people who have gone missing since 1925"; record melting means "more and more bodies of mountaineers and hikers who have been missing for decades" emerge (verified); 2026 Trift Glacier find, 1992 hikers (search snippet, ITV) https://www.itv.com/news/2026-08-20/melting-glacier-reveals-bodies-of-hikers-missing-for-three-decades-in-swiss-alps |
@@ -150,10 +176,10 @@ line ("catching prey, laying eggs, hatching") is sourced to Dominican-amber and 
 | Today it catches lizards and pigeons; staff mark spots with traffic cones or fences | Smithsonian: "small animals such as lizards and pigeons continue to get stuck"; "marks the spots with traffic cones, or fences them off" (verified) |
 | Leaves, sand or water hid the asphalt; in warmer seasons it was soft and sticky | Carleton University Hooper Museum: "covered with debris such as leaves, sand, and water"; "In the warmer seasons the asphalt became very soft and sticky" (verified) https://hoopermuseum.carleton.ca/PleistoceneWebsite/tarpits03.htm |
 | More than three million specimens | Smithsonian: "more than three million specimens" (verified) |
-| More than 650 species | Search snippet summarising the La Brea collections ("evidence of more than 650 species"); tarpits.org collections pages https://tarpits.org/research-collections/tar-pits-collections/mammal-collections . Flag: screener may confirm on tarpits.org |
+| More than 600 species | Screener's range is 624 (Carleton Hooper Museum species lists) to "over 660" (UCMP Berkeley); search snippet: "more than 650 species". "More than six hundred" is true under all of them |
 | The collections represent about the last 50,000 years of southern California life | La Brea Tar Pits (NHM LA), Mammal Collections: "represent the last 50,000 years of southern California life" (verified, URL above) |
 | Roughly 90% of mammal fossils are predators | Smithsonian: "roughly 90 percent of the mammal fossils found are predators" (verified); museum: "the majority… have been large carnivores" (verified) |
-| The dire wolf is the most common large animal, more than 4,000 individuals | NHM Los Angeles, "Tar Pits Fossil Count" PDF (search snippet; the PDF is an image) https://nhm.org/sites/default/files/2021-12/tar_pits_fossil_count.pdf ; museum: "Our most common mammals include dire wolves" (verified) |
+| The dire wolf is the most common large animal dug out (draft 2: count cut) | La Brea Mammal Collections: "Our most common mammals include dire wolves" (verified); NHM Los Angeles "Tar Pits Fossil Count" sheet, "most common large animal at the Tar Pits" (search snippet) https://nhm.org/sites/default/files/2021-12/tar_pits_fossil_count.pdf |
 | The carnivore-trap explanation: stuck herbivores drew in predators and scavengers, who got stuck too; ancient bison as the example herbivore | Mammal Collections: "large herbivores entrapped in asphalt attracted predators and scavengers, who themselves became entrapped"; ancient bison is the most common herbivore (verified) |
 | "Tens of thousands of years" | Consistent with Smithsonian (about 40,000 years) and the museum (50,000) |
 | Still bubbling today, a short walk from the museum | Smithsonian (verified); tarpits.org FAQs (search snippet). Flag: the museum building has been temporarily closed for construction, so the script says "the museum built to hold everything it ever caught" rather than claiming it is open |
@@ -169,7 +195,7 @@ line ("catching prey, laying eggs, hatching") is sourced to Dominican-amber and 
 | Written history is about 5,000 years old; more than 25 times longer | Writing began about 3200 BC (common knowledge); 130,000 / 5,000 = 26 |
 | Left in place, because moving it could cause irreparable damage | IFLScience: "left where it was, as disturbing it could have caused irreparable damage" (verified); Uniroma1/PNAS 2025: not removed, to prevent damage (search snippet) |
 | A fragment of shoulder blade is the only part that has left the cave | Lari et al. 2015: "the retrieval from the cave of a fragment of bone (part of the right scapula)" (verified); IFLScience: a shoulder blade fragment was sampled (verified). Flag: calcite samples were also taken in 2011, but those are not part of the skeleton |
-| The oldest Neanderthal from which DNA has ever been extracted | Lari et al. 2015: "the most ancient Neanderthal from which endogenous DNA has ever been extracted" (verified) |
+| One of the oldest Neanderthals ever to give up genetic material | Lari et al. 2015: "the most ancient Neanderthal from which endogenous DNA has ever been extracted" (true in 2015, verified). Since then, Meyer et al. 2016, *Nature* 531:504, nuclear DNA from Sima de los Huesos, about 430,000 years old, classed as early Neanderthals (search snippet; Max Planck press release https://www.mpg.de/10364707/hominins-sima-de-los-huesos ; ScienceDaily https://www.sciencedaily.com/releases/2016/03/160315120946.htm ). Hence "one of the oldest" |
 | 2025: researchers described the first preserved nasal cavity in the human fossil record, using endoscopic probes in place | Buzi et al. 2025, PNAS, "The first preserved nasal cavity in the human fossil record: The Neanderthal from Altamura" (title verified via Europe PMC, DOI 10.1073/pnas.2426309122); endoscopic probes in situ (search snippet of Sapienza/Pisa press releases) https://www.unipi.it/en/news/the-unprecedented-state-of-preservation-of-a-fossil-from-southern-italy-sheds-light-on-neanderthal-facial-morphology/ |
 
 ## 9. Amber
@@ -181,7 +207,7 @@ line ("catching prey, laying eggs, hatching") is sourced to Dominican-amber and 
 | Amber preserves wings and fine hairs, and sometimes behavior: catching prey, laying eggs, hatching | Palaeodiversity 2019, "Caught in the act of hatching", on "frozen behaviour" in Dominican amber: mating, egg laying, capturing prey, hatching (search snippet) https://bioone.org/journals/Palaeodiversity/volume-12/issue-1/pale.v12.a12/Caught-in-the-act-of-hatching--a-group-of/10.18476/pale.v12.a12.pdf ; "Paleoethology: fossilized behaviours in amber" (search snippet) https://revistes.ub.edu/index.php/GEOACTA/article/view/1900 . Wings and sensory hairs: secondary summary (search snippet); screener may want a primary source |
 | Dolomites, northern Italy: about 70,000 droplets screened, mostly 2-6 mm long | Schmidt et al. 2012, PNAS 109:14796, "Arthropods in amber from the Triassic Period", DOI 10.1073/pnas.1208464109; ScienceDaily: "About 70,000 of the miniscule droplets were screened"; "most between 2-6 millimeters long" (verified). A pea is about 7-10 mm (common knowledge) |
 | Three held arthropods: part of a fly and two gall mites | ScienceDaily (verified); search snippet of the PNAS summary: "one partial midge fly… and two new species of gall mites" |
-| The bigger mite (*Triasacarus fedelei*) is 210 microns, about twice the diameter of a human hair | Live Science 2012: "just 210 microns long, or about twice the diameter of a human hair" (search snippet) https://www.livescience.com/22725-ancient-mite-trapped-amber.html |
+| The bigger mite (*Triasacarus fedelei*) is 210 microns long (about a fifth of a millimeter), roughly the width of two human hairs | Live Science 2012: "just 210 microns long, or about twice the diameter of a human hair" (search snippet) https://www.livescience.com/22725-ancient-mite-trapped-amber.html |
 | About 230 million years old; the oldest arthropods in amber; about 100 million years older than any found before | ScienceDaily: "an age of 230 million years"; "about 100 million years older than any other amber arthropod ever collected" (verified) |
 | The mites probably fed on the leaves of the tree that preserved them; they look like modern gall mites | ScienceDaily: "likely fed on the leaves of the tree that ultimately preserved them"; "surprisingly similar to ones seen today" (verified) |
 | The earliest dinosaurs had only just appeared about 230 million years ago | Martínez et al. 2011, *Science* 331:206, "A basal dinosaur from the dawn of the dinosaur era": "some 230 million years ago… (mid Carnian), the earliest dinosaurs" (search snippet) https://ri.conicet.gov.ar/handle/11336/69202 |

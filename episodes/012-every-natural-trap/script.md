@@ -1,10 +1,10 @@
 <!-- axis: duration of entrapment. Ordered by how long each trap keeps a body, from minutes (tree well) to about two hundred and thirty million years (amber). Inside "Short stay." the order follows severity, as the brief allows. Three spoken section headers: "Short stay." (in the opener, before item 1), "Long stay." (before item 6, Crevasse), "Permanent stay." (before item 8, Altamura Cave). Background ramp per brief: snow white and ice blue, red-orange canyon, Antarctic navy, grey avalanche, salt white, glacier blue-grey, asphalt black-brown, cave limestone ochre, deep amber gold. -->
-<!-- Episode 012: What Dying in Every Natural Trap Would Be Like (working). Draft 1 (2026-10-09, script writer). DOUG DEATHS on screen at 100 from the first shot, ends at 107: seven deaths over nine items. Survivals: Brinicle (sea star costume; the sticker had already been printed) and Dead Sea Sinkholes ("Doug is fine."). Prop: Doug's stickered travel suitcase (places), a sticker per death, none for survivals. Costume gag twice: sea star (brinicle) and gall mite (amber, the animal actually found in the Dolomites amber), each with one "can't hurt a person" line. Callbacks: 004 (Morecambe Bay, at the Dead Sea) and 002 (ant costume, at the amber). Real deaths (Antelope Canyon 1997, Tsanfleuron 2017, Altamura) are given as dates and counts only: no names, ages, families or remains, and no jokes in their fact lines. No escape, rescue or safety lines anywhere. Bog option not used: the draft lands inside the brief's word band without it. Optional STAY tags for the art director, each sourced in facts.md: tree well "MINUTES", slot canyon "MINUTES", brinicle "HOURS", avalanche "UNTIL DUG OUT", Dead Sea "UNTIL THE SEA COMES BACK", crevasse "75 YEARS", tar pit "50,000 YEARS", Altamura "130,000+ YEARS", amber "230,000,000 YEARS". -->
+<!-- Episode 012: What Dying in Every Natural Trap Would Be Like (working). Draft 2 (2026-10-09, script writer, revised per script_review.md fixes 1-10 and advisories: US vocabulary, La Brea species count, Dead Sea STAY tag). DOUG DEATHS on screen at 100 from the first shot, ends at 107: seven deaths over nine items. Survivals: Brinicle (sea star costume; the sticker had already been printed) and Dead Sea Sinkholes ("Doug is fine."). Prop: Doug's stickered travel suitcase (places), a sticker per death, none for survivals. Costume gag twice: sea star (brinicle) and gall mite (amber, the animal actually found in the Dolomites amber), each with one "can't hurt a person" line. Callbacks: 004 (Morecambe Bay, at the Dead Sea) and 002 (ant costume, at the amber). Real deaths (Antelope Canyon 1997, Tsanfleuron 2017, Altamura) are given as dates and counts only: no names, ages, families or remains, and no jokes in their fact lines. No escape, rescue or safety lines anywhere. Bog option not used: the draft lands inside the brief's word band without it. Optional STAY tags for the art director, each sourced in facts.md: tree well "MINUTES", slot canyon "MINUTES", brinicle "HOURS", avalanche "UNTIL DUG OUT", Dead Sea "UNTIL SOMEONE LOOKS DOWN", crevasse "75 YEARS", tar pit "50,000 YEARS", Altamura "130,000+ YEARS", amber "230,000,000 YEARS". -->
 <!-- Pronunciation checks for the editor (preview with `narrate`): brinicle = "BRIN-ih-kul"; Erebus = "AIR-uh-bus"; Tsanfleuron = "tsahn-fluh-RON"; Valais = "vah-LAY"; Kachina = "kuh-CHEE-nuh"; La Brea = "lah BRAY-uh"; Altamura = "al-tah-MOO-rah"; Lamalunga = "lah-mah-LOON-gah"; Dolomite = "DOH-luh-mite"; Pangaea = "pan-JEE-uh"; sintering = "SIN-ter-ing"; calcite = "KAL-site"; Neanderthal = "nee-AN-der-tall". -->
 
 [Open on the thumbnail, 1.5 to 4 seconds: the vertical ladder of traps, tree well at the top, amber bead at the bottom, getting darker and more golden. Cut to a snowy mountain forest. Doug on skis, carrying a clean suitcase with no stickers. DOUG DEATHS: 100 on screen.]
 
-Nature builds traps. Most hold you for minutes. One holds you for two hundred and thirty million years. Doug packed for a weekend. Doug did not agree to this.
+Nature builds traps. Some hold you for minutes. One holds you for two hundred and thirty million years. Doug packed for a weekend. Doug did not agree to this.
 
 [Big label: "SHORT STAY".]
 
@@ -22,6 +22,8 @@ A conifer's lower branches work like an umbrella, so when a storm drops deep sno
 
 What is left is a hidden hollow of loose, soft snow, ringed by a wall of deep snowpack, and often the branches hang right over the top of it.
 
+Notice what is missing. No avalanche. No cliff. No storm. The tree built this trap, and it looks like the safest place on the whole mountain.
+
 Wells like this have been seen six meters deep, three front doors stacked on top of each other, under a picnic spot.
 
 Here's the problem. People often fall into a tree well head first, and loose snow can't hold any weight, so every move to climb out just pulls more of it in.
@@ -29,8 +31,6 @@ Here's the problem. People often fall into a tree well head first, and loose sno
 In two supervised experiments in North America, volunteers were placed in tree wells on purpose, with experts standing by, and nine out of ten could not get themselves out.
 
 The danger is highest during and just after a heavy snowstorm, which is exactly when the powder is deepest and the skiing is at its best.
-
-No avalanche. No cliff. No storm. The tree built this trap, and it looks like the safest place on the whole mountain.
 
 [Doug glides under the low branches and stops. Speech bubble: "nice shade".]
 
@@ -40,7 +40,7 @@ Doug saw shade, soft snow and somewhere to sit down, so he left the trail and le
 
 Doug has died. Again. The suitcase stayed on top, which makes it the better skier of the two.
 
-In one nine-year stretch in the United States, about two thirds of the people who died after sinking into deep snow were found in tree wells.
+Over nine American winters, about two thirds of the people who died after sinking into deep snow were found in tree wells.
 
 ## Slot Canyon
 
@@ -152,19 +152,19 @@ The Dead Sea is famous for being almost impossible to sink in. Its water is abou
 
 [Salt-white shore and pale turquoise water. Doug floats on his back, suitcase floating next to him.]
 
-That part is true. Doug floated, and Doug enjoyed it. The problem is waiting for him on the beach.
+That part is true, and Doug floated and enjoyed every minute of it. The problem is waiting for him on the beach.
 
-The Dead Sea is shrinking. Since nineteen eighty its surface has dropped by about thirty meters, which works out to roughly one meter a year, about the height of a kitchen counter, every single year.
+The Dead Sea is shrinking. Between nineteen eighty and twenty fifteen, its surface dropped by about thirty meters, which works out to roughly one meter a year, about the height of a kitchen counter, every single year.
 
-Part of that is the mineral industry. One geologist with the Geological Survey of Israel puts the share caused by mineral extraction at about thirty percent.
+Part of that is the mineral industry. About thirty percent of the drop has been blamed on mineral extraction.
 
 As the shoreline pulls back, it leaves behind a buried layer of salt, formed around ten thousand years ago, that used to sit in salty water. Fresh groundwater now flows in where the brine used to be, and fresh water dissolves salt.
 
 Underground, hollow spaces open up and slowly grow, until the roof can't hold its own weight any more.
 
-The strange part is how little warning there is. As many as five thousand sinkholes have opened along the shore since the nineteen eighties, and some are about twenty-five meters across, about as wide as a tennis court is long.
+The strange part is how little warning there is. More than five thousand sinkholes have opened along the shore since the nineteen eighties, and some are about twenty-five meters across, about as wide as a tennis court is long.
 
-They have swallowed roads, buildings and the car park of a beach resort, often with no warning at all.
+They have swallowed roads, buildings and the parking lot of a beach resort, often with no warning at all.
 
 The ground here is disappearing because the sea is. The water left, and it took the floor with it.
 
@@ -188,13 +188,13 @@ A glacier looks like a smooth white road laid across the mountains, but it is ac
 
 As the ice flows over bumps and around bends, it splits open, and those splits are called crevasses. NASA describes them as tens of meters deep. One measured in Antarctica was twenty-five meters deep, about as deep as an eight-story building is tall.
 
-Many of them can't be seen at all. Wind blows snow across the opening, and the snow hardens into a lid called a snow bridge.
+Many of them can't be seen at all, because wind blows snow across the opening, and the snow hardens into a lid called a snow bridge.
 
 A glaciologist told NASA that a snow bridge can be a few meters thick, or only a few centimeters. From above, both look exactly the same.
 
 Here's the part nobody expects. A glacier never stops moving, and whatever falls into it moves along with the ice.
 
-In Switzerland, a computer model estimated that remains inside one glacier had travelled about ten kilometers, at around one hundred and twenty meters a year. That is a little more than the length of a football pitch, every year, for decades.
+In Switzerland, a computer model estimated that remains inside one glacier had travelled about ten kilometers, at around one hundred and twenty meters a year. That is a little more than the length of a football field, every year, for decades.
 
 [A plain caption card: "TSANFLEURON GLACIER, 2017". A melting ice tongue. No people drawn. No music.]
 
@@ -230,9 +230,9 @@ Today the seep mostly catches lizards and pigeons, and museum staff mark the fre
 
 During the last Ice Age, it caught much bigger things. Leaves, sand or water could cover the sticky patches, so the trap looked like ordinary ground, and in the warmer seasons the asphalt turned soft and sticky.
 
-Paleontologists have dug more than three million specimens out of La Brea, from more than six hundred and fifty species, covering roughly the last fifty thousand years of life in southern California.
+Paleontologists have dug more than three million specimens out of La Brea, from more than six hundred species, covering roughly the last fifty thousand years of life in southern California.
 
-But here's the cruel part. Roughly ninety percent of the mammal fossils found here are predators, and the single most common large animal is the dire wolf, with more than four thousand individuals.
+But here's the cruel part. Roughly ninety percent of the mammal fossils found here are predators, and the single most common large animal dug out of the asphalt is the dire wolf.
 
 The museum's explanation is a carnivore trap. A stuck plant eater, like an ancient bison, drew in predators and scavengers looking for an easy meal, and they got stuck too, which turned them into the bait for the next ones.
 
@@ -264,7 +264,7 @@ Researchers think he fell down a sinkhole shaft that led into the cave, and simp
 
 Caves like this one are built by water. Rain soaks down through the limestone, picks up dissolved calcite on the way, and leaves a thin film of it behind wherever it drips. That is how stalactites and stalagmites grow, one drop at a time.
 
-The most disturbing part is that the dripping never stopped. Over thousands of years, calcite coated him in little knobbly growths called cave popcorn, and slowly cemented him to the walls and floor.
+This is where it gets slow. The dripping never stopped. Over thousands of years, calcite coated him in little knobbly growths called cave popcorn, and slowly cemented him to the walls and floor.
 
 Dating puts him there somewhere between about one hundred and thirty thousand and one hundred and seventy thousand years ago.
 
@@ -272,7 +272,7 @@ All of written history is only about five thousand years old, so he has been dow
 
 He is still there. Scientists left the skeleton where it was, because trying to move it could cause damage that can't be undone. A small piece of shoulder blade is the only part that has ever left the cave.
 
-That one piece was enough to show he is the oldest Neanderthal anyone has ever pulled genetic material from.
+That one piece was enough to make him one of the oldest Neanderthals ever to give up genetic material.
 
 In twenty twenty-five, researchers described the inside of his nose, the first preserved nasal cavity in the whole human fossil record, by sliding tiny probe cameras in right where he lies.
 
@@ -302,9 +302,9 @@ Anything small that touches fresh resin sticks to it. More resin flows over the 
 
 Amber can keep things that almost never fossilize, like delicate wings and fine hairs, and sometimes it even keeps behavior. Animals have been found caught in the middle of catching prey, laying eggs, and even hatching.
 
-In the Dolomite mountains of northern Italy, researchers screened about seventy thousand tiny droplets of amber, most of them two to six millimeters long, which is smaller than a pea.
+In the Dolomite mountains of northern Italy, researchers screened about seventy thousand tiny droplets of amber, most of them two to six millimeters long, smaller than a pea.
 
-Three of them had something inside. One held part of a fly, and two held gall mites, so small that the bigger one is only about twice as wide as a human hair.
+Three of them had something inside. One held part of a fly, and two held gall mites, so small that the bigger one is only about a fifth of a millimeter long, roughly the width of two human hairs.
 
 Those droplets are about two hundred and thirty million years old. They hold the oldest arthropods ever found in amber, about one hundred million years older than any found before.
 
@@ -330,4 +330,4 @@ Seven traps kept Doug. The cap is the only thing nature has ever let go of on ti
 
 Doug deaths: one hundred and seven. The suitcase still has room. Which trap should Doug check into next?
 
-<!-- words: 2966 (spoken narration only: spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:13 at 195 wpm · draft 1 (2026-10-09) · 9 items · item words: Tree Well 283, Slot Canyon 302, Brinicle 333, Avalanche 303, Dead Sea Sinkholes 302, Crevasse 346, Tar Pit 308, Altamura Cave 337, Amber 421 · first item name "Tree well." at spoken word 35 · Tree Well twist ("Here's the problem.") at spoken word 137 · first death at spoken word about 270, about 1:23 · "Long stay." at spoken word 1552, 52% · "Permanent stay." at spoken word 2206, 74% · 204 sentences, avg 14.5 words, max 33 · Flesch about 72 (rough syllable count) · outro 18 words · tics: actually 2, However 0, essentially 0, incredibly 0 · twist markers in order: Here's the problem / The disturbing part / Here's where it gets nasty / But that's not the worst part / The strange part / Here's the part nobody expects / But here's the cruel part / The most disturbing part / And here is the part that should bother you -->
+<!-- words: 2965 (spoken narration only: spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:13 at 195 wpm · draft 2 (2026-10-09) · 9 items · item words: Tree Well 283, Slot Canyon 302, Brinicle 333, Avalanche 303, Dead Sea Sinkholes 299, Crevasse 347, Tar Pit 305, Altamura Cave 337, Amber 425 (closing image and outro included) · "Tree well." at spoken word 35 · Tree Well twist ("Notice what is missing. No avalanche...") at words 115-141 · "Here's the problem." follows · first death at about word 274, about 1:24 · "Long stay." at 52% · "Permanent stay." at 74% · 204 sentences, avg 14.5 words, max 33 · Flesch about 71.8 (rough syllable count) · outro 18 words · tics: actually 2, However 0, essentially 0, incredibly 0 · twist markers in order: Notice what is missing / The disturbing part / Here's where it gets nasty / But that's not the worst part / The strange part / Here's the part nobody expects / But here's the cruel part / This is where it gets slow / And here is the part that should bother you -->
