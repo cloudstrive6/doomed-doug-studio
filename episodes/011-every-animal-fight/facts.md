@@ -7,14 +7,15 @@ narrator's asides ("which suggests the British have met more geese", "not a word
 know which ones mattered", "the birds did not change on their own; they were taught" as a reading of Kofron's finding).
 Everyday comparisons are marked "common knowledge" and checked by arithmetic.
 
-Checked 2026-10-09 (draft 1). "Verified" = I read the claim on the page (WebFetch). "Search snippet" = the page blocked
+Checked 2026-10-09 (draft 1); updated for draft 2 per script_review.md (source swaps, three corrected claims, new beats marked "draft 2"). "Verified" = I read the claim on the page (WebFetch). "Search snippet" = the page blocked
 WebFetch (403 / captcha / binary PDF) and the claim was confirmed through search-result text quoting that page; the
 screener should re-open these if possible.
 
 **Safety-advice check:** no "how to win / survive" content anywhere. Cut on purpose: goose "back away slowly / don't run"
 advice, the cassowary "don't feed" advice (the feeding finding is stated as a study result only), crocodile "in-water
-position" risk factor and jaw-holding, polar bear group-size finding, bear spray, playing dead. The crocodile line "the
-biggest factor in who survived was how much bigger the crocodile was than the person" is a study result, not an action.
+position" risk factor and jaw-holding, polar bear group-size finding, bear spray, playing dead. The crocodile line "one of the
+two biggest factors in who survived was how much bigger the crocodile was than the person" is a study result, not an action;
+the second factor is deliberately not named.
 **Gore check:** no injury descriptions. The cassowary claw "can cut open an abdomen" (Artis) and the 1926 case details
 are NOT used. **Children check:** chimpanzee victims in Uganda were mostly young children, the 1926 cassowary victim was
 16, and some Australian croc victims were children: none of this is spoken; the script gives only flat counts or general
@@ -39,9 +40,9 @@ statements with no ages or names.
   used for an African bush elephant item. Script uses the 2025 Zimbabwe study (African elephant + Nile crocodile).
 - **Myths avoided:** chimps "5-8x" appears only on screen as a crossed-out myth; narration says "many times stronger",
   which ScienceDaily attributes to popular accounts. No "disembowel", no "world's most dangerous bird", no "goose breaks
-  arms", no "most fearless animal" (the honey badger line says the opposite, from the researcher).
-- **Honey Badger:** the brief's optional survival item, added because draft 1 was under 2,900 words without it. No
-  recorded-death claim is made for it (Doug survives).
+  arms", no "most fearless animal".
+- **Honey Badger:** cut in draft 2 (screener fix S1) so the first death lands at about 3:44. Its claims, sources and the
+  IFAW "thick skin" swap are no longer needed and were removed from this file.
 
 ## Opener
 | Claim | Source |
@@ -69,29 +70,17 @@ statements with no ages or names.
 | Mayo Clinic: 193 people treated for cat bites to the hand over three years; about one in three admitted to hospital | Babovic, Cayci & Carlsen 2014, J Hand Surg Am 39(2):286-290: 193 patients 2009-2011, 30% (57) hospitalized (search snippet + PDF) https://upload.orthobullets.com/journalclub/free_pdf/24480688_Babovic_Cat%20bites_JHS%202014.pdf ; ScienceDaily/Mayo release "1 in 3 ... hospitalized ... three years" (verified) https://sciencedaily.com/releases/2014/02/140205103145.htm . No infection or treatment detail spoken. |
 | Platypus hand callback | Episode 010 (fiction callback). |
 
-## Honey Badger
-| Claim | Source |
-|---|---|
-| Not in the poll; the closest was a medium-sized dog, which about half of Americans thought they could beat | YouGov US: medium-sized dog 49% (verified). The honey badger is absent from both YouGov articles (checked). |
-| Adult male weighs about 8-11 kg | Mpala Research Centre field guide: male "18 to 25 lb (8.0 to 11.2 kg)" (verified) https://mpala.org/field_guide/view/honey_badger/ |
-| Roughly a big bucket of water | Common knowledge: 10 litres of water = 10 kg. |
-| Strong forelegs and long claws that pry apart termite mounds and open beehives | Mpala (verified): "strong forelegs and long claws to pry apart termite mounds, dig for insect larvae, and open beehives" |
-| Eats insect larvae, rodents, scorpions and venomous snakes | Mpala (verified): insect larvae, scorpions, venomous snakes, rodents; BBC Wildlife: rodents, larvae, venomous snakes such as puff adders and Cape cobras (verified) https://www.discoverwildlife.com/animal-facts/mammals/why-are-honey-badgers-so-aggressive |
-| Skin unusually thick and loose; lets it twist inside its hide when held and turn to face the attacker | BBC Wildlife (Colleen Begg): "its loose skin enables it to twist round and bite its attacker" (verified, URL above); IFAW: skin lets them "manoeuvre their bodies while caught in their jaws" (search snippet) https://ifaw.org/animals/honey-badgers . Script says "turn to face", not "bite". |
-| A researcher who studied them in the wild writes that they try to avoid trouble | BBC Wildlife, Colleen Begg (long-term honey badger researcher): honey badgers "try to avoid trouble" (verified, URL above) |
-
 ## Red Kangaroo
 | Claim | Source |
 |---|---|
 | About one in six American men said they could beat a kangaroo | YouGov US: "wolves and kangaroos, which 16-17% of men think they could beat" (verified) |
-| Big males weigh up to about 90 kg | Australian Museum: males up to 92 kg (verified) https://australian.museum/learn/animals/mammals/red-kangaroo/ ; Sydney Zoo fact box 25-90 kg (verified) https://sydneyzoo.com/animals/red-kangaroo |
+| Big males weigh up to about 90 kg; males about twice the weight of females (draft 2) | Australian Museum (verified): "Male Red Kangaroos are double the body weight of females and can weigh up to 92kg" https://australian.museum/learn/animals/mammals/red-kangaroo/ ; Sydney Zoo fact box 25-90 kg (verified) https://sydneyzoo.com/animals/red-kangaroo |
 | Some stand more than 1.8 m tall | Sydney Zoo: height 1.25-1.8 m, "males can grow over two metres tall" (verified). |
 | Nearly the top of a front door | Common knowledge: standard interior/exterior door heights ~1.98-2.03 m. |
 | Males spend much of their lives sparring with other males for rank | Australian Geographic, Dr Mark Eldridge (Australian Museum): males "spend much of their life sparring to maintain their position in the social hierarchy" (search snippet) http://www.australiangeographic.com.au/news/2022/09/why-roos-attack-and-what-you-should-do-to-avoid-it/ |
-| 2014 study: walking slowly, the tail is planted like a fifth leg and pushes harder than front and hind legs combined | O'Connor, Dawson, Kram & Donelan 2014, Biology Letters 10(7): 20140381, doi:10.1098/rsbl.2014.0381 (search snippet of paper and SFU PDF) https://www.sfu.ca/locomotionlab/assets/oconnor-etal-kangaroo-tail-and-locomotion2014.pdf ; Sci News summary (verified) https://www.sci.news/biology/science-red-kangaroos-tail-fifth-leg-02036.html |
+| 2014 study: walking slowly, the tail is planted like a fifth leg and pushes the kangaroo forward as hard as front and back legs combined (draft 2: corrected from "harder than") | UNSW Newsroom, July 2014 (verified): red kangaroo tails provide "as much propulsive force as their front and hind legs combined" https://www.unsw.edu.au/newsroom/news/2014/07/kangaroos-use-tail-as-fifth-leg ; paper: O'Connor, Dawson, Kram & Donelan 2014, Biology Letters 10(7): 20140381, doi:10.1098/rsbl.2014.0381 https://www.sfu.ca/locomotionlab/assets/oconnor-etal-kangaroo-tail-and-locomotion2014.pdf |
 | Fighting males balance on their tails and kick with both back legs at the same time | Australian Geographic, Eldridge: males "balance on their tail to kick out simultaneously with both their back legs" (verified, URL above) |
 | Fatal attacks are extremely rare; one in Western Australia in 2022 reported as the first in the country since 1936 | AP via WHQR, 13 Sept 2022: "reportedly the first fatal attack by a kangaroo in Australia since 1936"; Redmond, Western Australia (verified) https://www.whqr.org/2022-09-13/an-australian-man-is-killed-by-a-kangaroo-in-a-rare-fatal-attack . No name, age or details spoken. |
-| A wildlife carer said adult males can become quite aggressive and do not do well in captivity | Same AP report (search snippet): a wildlife caregiver said "adult male and they become quite aggressive and they don't do well in captivity". |
 
 ## Grey Wolf
 | Claim | Source |
@@ -101,10 +90,11 @@ statements with no ages or names.
 | About three bags of cement | Common knowledge: standard cement bag 25 kg; 3 x 25 = 75 kg, inside the 30-80 kg range for a big male. |
 | Grey wolves mainly hunt in packs; bring down elk, moose, bison | ADW (verified): hunt mainly in packs for "moose, elk, bison, musk oxen, and reindeer" |
 | Young wolves start hunting with the pack at about ten months | ADW (verified): "At approximately ten months old, the young begin to hunt with the pack" |
-| NINA report: 489 victims worldwide 2002-2020 | Linnell, Kovtun & Rouart 2021, NINA Report 1944, "Wolf attacks on humans: an update for 2002-2020"; International Wolf Center summary: "489 victims of wolf attacks across the world from 2002 until 2020" (verified) https://wolf.org/wolf-info/factsvsfiction/are-wolves-dangerous-to-humans/ ; report PDF https://lciepub.nina.no/pdf/638036026613486689_Linnell%20NINA%20RAP%201944%20Wolf%20attack%20update.pdf |
-| Most attacks involved rabid wolves | Wolf Center summary (verified): "380 (78%) were rabid attacks" |
-| Europe and North America over 18 years: two fatal attacks | NINA abstract via search snippet and Wolf Center (verified): evidence for 12 attacks (14 victims) in Europe and North America, 2 fatal (both North America), over 18 years. |
-| Risk above zero but too small to put a number on | Wolf Center (verified): "above zero, but far too low to calculate" (paraphrased, not quoted). |
+| In Yellowstone National Park the average pack has about ten wolves (draft 2) | NPS, Lamar Valley wolf watching (verified): "In Yellowstone, the average pack size is 10 individuals." https://www.nps.gov/places/000/lamar-valley-wolf-watching.htm |
+| NINA report: 491 victims worldwide 2002-2020 (draft 2: corrected from 489) | Linnell, Kovtun & Rouart 2021, NINA Report 1944, "Wolf attacks on humans: an update for 2002-2020", abstract via AGRIS (verified): "relatively reliable cases involving 491 human victims" https://agris.fao.org/search/fr/records/6748e5337625988a3721cfb8 ; report PDF https://lciepub.nina.no/pdf/638036026613486689_Linnell%20NINA%20RAP%201944%20Wolf%20attack%20update.pdf |
+| Most attacks involved rabid wolves | NINA abstract via AGRIS (verified): 382 of the 491 victims were victims of rabid attacks |
+| Europe and North America over 18 years: two fatal attacks | NINA abstract via AGRIS (verified): attacks in Europe and North America over the 18 years, 2 fatal, both in North America. |
+| Risk above zero but too small to put a number on | International Wolf Center summary of the NINA report (verified) https://wolf.org/wolf-info/factsvsfiction/are-wolves-dangerous-to-humans/: "above zero, but far too low to calculate" (paraphrased, not quoted). |
 
 ## Cassowary
 | Claim | Source |
@@ -112,7 +102,7 @@ statements with no ages or names.
 | Not in the poll | Checked both YouGov articles. |
 | Shy bird that mostly eats plants; one of the very few birds known to have killed a person | Smithsonian Magazine (verified): cassowaries "just want to live out their lives eating plants and small animals"; Judson: "shy, peaceable"; "Cassowaries and emus are among the few birds definitively known to have killed a human" https://www.smithsonianmag.com/smart-news/five-facts-cassowary-180964963/ |
 | Second-heaviest bird alive after the ostrich; females are bigger, averaging about 58 kg | ARTIS Zoo (verified): females average 58 kg, nearly twice the males; second-heaviest living bird after the ostrich https://www.artis.nl/en/artis-zoo/what-to-explore-in-artis-zoo/southern-cassowary |
-| An adult can stand around six feet tall | Smithsonian Magazine (verified): "around six feet tall" |
+| An adult can stand about 1.8 m tall | Smithsonian Magazine (verified): "around six feet tall" (6 ft = 1.83 m; draft 2 converted to metric) |
 | Dagger-like claw about 12 cm on each foot | Smithsonian Magazine (verified): "one five-inch claw on a toe of each foot" (5 in = 12.7 cm); Scientific American blog, "dagger-like" (verified) https://www.scientificamerican.com/blog/tetrapod-zoology/how-dangerous-are-cassowaries-really/ |
 | Nearly the length of a ballpoint pen | Common knowledge: a standard ballpoint pen is about 14 cm. |
 | Can jump about 1.5 m from a standstill | ARTIS Zoo (verified): can jump about 1.5 m from a standstill |
@@ -133,6 +123,8 @@ statements with no ages or names.
 | Researchers called the advantage modest | ScienceDaily (verified): the researchers called it "modest" |
 | 20 kg suitcase -> about 27 | Arithmetic: 20 x 1.35 = 27. Illustration only. |
 | Advantage mostly from more fast-twitch fibre; humans lean toward slow, endurance fibre | O'Neill 2017 (verified): "primarily due to the chimpanzee's higher fast-twitch fiber content"; Stony Brook/PSU summaries (search snippet): humans' slow-twitch fibres adapted for endurance. |
+| 2014 study: five decades of records from 18 chimpanzee communities, more than 150 killings (observed or suspected) of chimps by chimps (draft 2) | Wilson et al. 2014, "Lethal aggression in Pan is better explained by adaptive strategies than human impacts", Nature 513:414-417, doi:10.1038/nature13727; abstract via St Andrews repository (verified): 18 chimpanzee communities, five decades, 152 killings (58 observed, 41 inferred, 53 suspected) https://research-repository.st-andrews.ac.uk/handle/10023/6258 |
+| More than nine in ten attackers were males; a typical attack outnumbered the victim about eight to one (draft 2) | Wilson 2014 abstract (verified): males were 92% of attack participants; median ratio of attackers to victims 8:1 (same URL). |
 | Wild chimpanzees have killed people where cleared forest has pushed them up against villages and farms | National Geographic, David Quammen, 2019, western Uganda: forest cleared for timber and crops; chimpanzees have killed at least three people around Muhororo (search snippet) https://www.nationalgeographic.com/animals/article/chimps-and-people-are-clashing-in-rural-uganda-feature . Victims' ages not spoken. |
 
 ## Gorilla
@@ -141,27 +133,29 @@ statements with no ages or names.
 | 8% of Americans and 2% of Britons said they could beat a gorilla | YouGov US (verified): "Lions, gorillas and elephants ... only 8%"; YouGov GB (verified): grizzly bears, elephants, lions, gorillas "at just 2%" |
 | Adult male western lowland gorilla averages ~136 kg, up to ~227 kg | Smithsonian's National Zoo (verified): "Adult males weigh an average of 300 pounds (136.1 kilograms) and up to 500 pounds (226.8 kilograms)" https://nationalzoo.si.edu/animals/western-lowland-gorilla |
 | Roughly two to three grown men | Arithmetic: 136-227 kg / ~75-80 kg = about 2-3. Common knowledge. |
+| Males are full adult silverbacks from about 13 years; named for the pale saddle of hair on the back (draft 2) | National Zoo (verified): "Silverback males are full adults at about 13 years of age or older"; mature males have a white/silver saddle of hair on the back (URL above) |
 | Threatened silverback stands upright, slaps chest with cupped hands, roars; may drop to all fours and charge | National Zoo (verified): standing upright, slapping chest with "cupped or flat hands", roaring and screaming; may drop to all fours and charge |
 | Charging gorillas generally do not hit the intruder; displays keep order between groups and reduce injury | National Zoo (verified): "In general, when they charge they do not hit the intruder"; displays "maintain order among separate troops and reduce the possibility of injury" |
 | 2021 study of wild mountain gorillas in Rwanda: bigger males' chest beats have a lower pitch | Wright et al. 2021, Scientific Reports 11:6879, doi:10.1038/s41598-021-86261-8 ("Chest beats as an honest signal of body size in male mountain gorillas"); Volcanoes National Park, Rwanda (search snippet of abstract and AFP); ScienceDaily (verified) https://sciencedaily.com/releases/2021/04/210408112358.htm |
 | Drumming can be heard more than a kilometre away | ScienceDaily/MPI release (verified): "can be heard over one kilometre away" |
 | Signal lets rivals decide whether to back off | ScienceDaily (verified): rivals use it to "decide whether to initiate, escalate or retreat" |
-| Attacks on people very rare, usually defensive | BBC Earth (reposted by 4apes), Matthew McLennan: "gorilla attacks on people in the wild are very rare and usually motivated by a defensive instinct" (verified) https://4apes.com/news/item/1474-http-www-bbc-com-earth-story-20160531-how-violent-are-gorillas-really |
+| Attacks on people very rare, usually defensive | BBC Earth, "How violent are gorillas really?", 31 May 2016, original URL https://www.bbc.com/earth/story/20160531-how-violent-are-gorillas-really (bbc.com blocks WebFetch; content verified via the 4apes repost): "gorilla attacks on people in the wild are very rare and usually motivated by a defensive instinct" https://4apes.com/news/item/1474-http-www-bbc-com-earth-story-20160531-how-violent-are-gorillas-really ; peer-reviewed support: review chapter on great ape attacks on humans (Springer, search snippet: wild great ape attacks overall rare, gorilla attacks mostly defensive) https://link.springer.com/doi/10.1007/978-3-319-22246-2_18 . The BBC piece also notes some rare fatalities; the script never claims zero. |
 | "Narrator had the death drawn already" | Callback to 010 (fiction). |
 
 ## Saltwater Crocodile
 | Claim | Source |
 |---|---|
-| Largest reptile alive; big males reach about six metres; can weigh well over a tonne | Wikipedia summary (search snippet): "largest living reptile ... males ... 1,000-1,500 kg ... 6 m" https://en.wikipedia.org/wiki/Saltwater_crocodile ; Oceana (search snippet): males typically ~5 m and over 450 kg https://oceana.org/marine-life/saltwater-crocodile/ . Screener: prefer to re-confirm with a museum/government page. |
+| Heaviest reptile alive; the biggest males reach about six metres and can weigh as much as 1.2 tonnes (draft 2 wording) | Guinness World Records, "Largest crocodilian species (living)" (verified): outsize males sometimes reach 6 m; "One of these really large males may weigh as much as 1,000-1,200 kilograms ... also making these animals the heaviest reptiles"; males average 4.6-5.2 m https://www.guinnessworldrecords.com/world-records/largest-crocodilian |
 | Longer than a family car | Common knowledge: family cars are ~4.5-5 m. |
 | 2012: bite force measured in every living crocodilian species | ScienceDaily (verified): "every single species of crocodilian" https://www.sciencedaily.com/releases/2012/03/120316093427.htm ; Erickson et al. 2012, PLoS ONE 7(3):e31781 |
 | A ~5 m saltwater crocodile bit with ~3,700 pounds of force, ~16,000 newtons | ScienceDaily (verified): "3,700 pounds for a 17-foot saltwater crocodile" (17 ft = 5.2 m); National Geographic: 16,460 newtons (verified) https://www.nationalgeographic.com/animals/article/120315-crocodiles-bite-force-erickson-science-plos-one-strongest |
 | Strongest bite ever directly measured in a living animal | National Geographic (verified): "the greatest bite force ever directly measured for living animals"; ScienceDaily: "highest bite force ever recorded" |
 | Roughly the weight of a family car | Arithmetic: 3,700 lbf ≈ 1,680 kgf; a mid-size family car ≈ 1,400-1,700 kg. Common knowledge. |
 | National Geographic puts lions, tigers and hyenas at around a quarter of that | National Geographic (verified): hyenas, lions and tigers ~1,000 psi vs saltwater crocodile ~3,700 psi (≈ 27%). |
+| Can hold its breath for up to an hour and a half; brain about the size of a walnut, enough to decide whether to attack (draft 2) | Wet Tropics Management Authority, Queensland Government (verified): estuarine crocodiles hold their breath "up to one and a half hours"; brain about the size of a walnut but enough to decide whether to attack https://www.wettropics.gov.au/crocodiles |
 | Hunts by ambush; lies in wait near the water's edge and launches sudden attacks | Oceana (search snippet): "often lie in wait near the water's edge, launching sudden, explosive attacks"; Wikipedia: "they ambush most of their prey" |
 | Australia: 42 years of records, 87 attacks, 27 fatal | Fukuda, Manolis, Saalfeld & Zuur 2015, "Dead or Alive? Factors Affecting the Survival of Victims during Attacks by Saltwater Crocodiles (Crocodylus porosus) in Australia", PLoS ONE 10(5):e0126778 (search snippet of abstract) https://pmc.ncbi.nlm.nih.gov/articles/PMC4427299 |
-| Biggest factor in survival: how much bigger the crocodile was than the person | Fukuda 2015 abstract (search snippet): most influential factors were "the difference in body mass between crocodile and victim" and the victim's position relative to the water. Only the first is spoken (the second reads as a tip). |
+| One of the two biggest factors in survival: how much bigger the crocodile was than the person (draft 2: corrected from "the biggest factor ... was simple") | Fukuda 2015 abstract (search snippet; screener verified): the two most influential factors were "the difference in body mass between crocodile and victim" and the victim's position relative to the water. Only the first is spoken (the second reads as a tip). |
 
 ## Polar Bear
 | Claim | Source |
@@ -176,6 +170,7 @@ statements with no ages or names.
 | In most attacks the bear was acting as a predator | Wilder 2017 abstract (search snippet): "bears acted as a predator in most attacks" https://pubs.usgs.gov/publication/70193125 |
 | Attacks by females were rare, mostly defending cubs | USGS abstract (verified) |
 | Most likely attackers: nutritionally stressed adult males | USGS abstract (verified): "nutritionally stressed adult male polar bears" |
+| When hunting goes well, a polar bear can eat more than 45 kg of seal blubber in one sitting (draft 2) | Polar Bears International (verified): "They can eat more than 45 kg (100 lb) of blubber in one sitting" (URL above) |
 | As sea ice shrinks, more hungry bears expected to spend longer on land near people | USGS abstract (verified): more nutritionally stressed bears spending longer on land near people due to "the loss of their sea ice habitat" |
 
 ## Elephant
@@ -189,5 +184,6 @@ statements with no ages or names.
 | Maasai sometimes spear elephants in conflicts over water and grazing; Kamba are farmers who rarely clash with elephants | Scientific American (verified) |
 | Maasai men: bunched tightly, sniffed the air more; Kamba men weaker; Maasai women and boys less | Scientific American (verified) |
 | Families led by matriarchs over 42 never retreated from boys' voices | Scientific American (verified) |
+| Researchers raised the pitch of men's voices so they sounded like women; it did not fool the elephants (draft 2) | Science News on McComb 2014 (verified): "Digitally raising the pitch of recorded male voices and lowering the female ones to swap gender" "did not fool the elephants at all" https://www.sciencenews.org/article/elephants-can-tell-mens-voices-womens |
 | Zimbabwe 2016-2022: elephants and crocodiles caused more than 80% of deaths from large wild animals | Kavhu et al. 2025, "Mapping human fatalities from megafauna to inform coexistence strategies", Scientific Reports: "crocodiles and elephants account for over 80% of human fatalities in Zimbabwe" (verified) https://uwcscholar.uwc.ac.za/items/0c8d72de-a867-49c6-a0f3-091be5259893 ; period and six-species scope (search snippet) https://wiredspace.wits.ac.za/bitstreams/22e031a9-0421-4f89-9313-213220f897c0/download . Script says "large wild animals" (the study's six megafauna species). |
 | Outro: one animal left off on purpose | Fiction / channel (hippo, next episode). |

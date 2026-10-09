@@ -1,5 +1,5 @@
-<!-- axis: severity. Ranked by how badly an unarmed adult loses, driven by measurable size, weapons and documented attacks on people, from the animals most people think they could beat to the heaviest land animal alive. Three spoken section headers: "Doug wins." (in the opener, before item 1), "Doug loses." (before item 3), "No contest." (before item 8, the zone shift at about 66% of the narration; the optional Honey Badger item moved it from the brief's 58%). Background ramp: park green and pond blue (wins), savanna scrub, dusty outback orange, forest dusk and rainforest green (loses), grey jungle, muddy river brown, Arctic white-blue and a dark red savanna sunset (no contest). The boss is the African bush elephant: the largest land animal alive and Doug's one hundredth death. -->
-<!-- Episode 011: Every Animal Doug Could Beat in a Fight, Until He Dies (working). Draft 1 (2026-10-09, script writer). DOUG DEATHS on screen at 93 from the first shot, ends at 100 on the boss: seven deaths over eleven items. Survivals: Goose (Doug "wins", cap stolen and recovered), House Cat (Doug "wins", "Doug is fine." with less conviction), Honey Badger (the brief's optional item: Doug loses, nobody dies), Gorilla (no fight; narrator quietly disappointed). Every death is from a species with sourced human fatalities (see facts.md). Prop: Doug's field guide (FRIEND? box, WIN? for goose and cat, red NO after each death, MAYBE for the honey badger and gorilla). Callbacks to 010: two (platypus hand at the house cat; "death drawn already" at the gorilla). Inversion used once, at the polar bear: "Doug agreed to this. He would like that noted." No hippo anywhere. No survival tips, no "what to do" lines, no venomous animals as items, no ocean items, no children in any fact, no named victims. -->
+<!-- axis: severity. Ranked by how badly an unarmed adult loses, driven by measurable size, weapons and documented attacks on people, from the animals most people think they could beat to the heaviest land animal alive. Three spoken section headers: "Doug wins." (in the opener, before item 1), "Doug loses." (before item 3, Red Kangaroo), "No contest." (before item 7, Gorilla: the zone shift at about 56% of the spoken words, close to the brief's 58%). Background ramp: park green and pond blue (wins), dusty outback orange, forest dusk and rainforest green (loses), grey jungle, muddy river brown, Arctic white-blue and a dark red savanna sunset (no contest). The boss is the African bush elephant: the largest land animal alive and Doug's one hundredth death. -->
+<!-- Episode 011: Every Animal Doug Could Beat in a Fight, Until He Dies (working). Draft 2 (2026-10-09, script writer, revised per script_review.md fixes 1-9). DOUG DEATHS on screen at 93 from the first shot, ends at 100 on the boss: seven deaths over ten items. Survivals: Goose (Doug "wins", cap stolen and recovered), House Cat (Doug "wins", "Doug is fine." with less conviction), Gorilla (no fight; narrator quietly disappointed). Honey Badger cut in draft 2 so the first death lands at about 3:44. Every death is from a species with sourced human fatalities (see facts.md). Prop: Doug's field guide (FRIEND? box, WIN? for goose and cat, red NO after each death, MAYBE for the gorilla). Callbacks to 010: two (platypus hand at the house cat; "death drawn already" at the gorilla). Inversion used once, at the polar bear: "Doug agreed to this. He would like that noted." No hippo anywhere. No survival tips, no "what to do" lines, no venomous animals as items, no ocean items, no children in any fact, no named victims. Gorilla undercut stays as written: the chest beat is never the reason the gorilla leaves. -->
 <!-- Pronunciation checks for the editor (preview with `narrate`): cassowary = "KASS-uh-wair-ee"; Amboseli = "am-boh-SEH-lee"; Maasai = "MAH-sigh"; Kamba = "KAHM-bah"; silverback = "SIL-ver-back"; newtons = "NOO-tunz"; Queensland = "KWEENZ-land"; Mayo = "MAY-oh"; Zimbabwe = "zim-BAHB-way". -->
 
 [Open on the thumbnail, 1.5 to 4 seconds: the animals stacked by size, goose at the bottom, elephant at the top, Doug tiny at the bottom in a boxing stance. Cut to a bright park, green grass and a blue pond. Doug holds the field guide. DOUG DEATHS: 93 on screen.]
@@ -44,7 +44,7 @@ House Cat.
 
 This is one of the most confident lines in the whole poll: sixty-nine percent of Americans and sixty-six percent of Britons said they could beat a house cat in a fight.
 
-Only the rat scored higher, which means millions of adults have quietly ranked themselves somewhere between a rat and a goose.
+Only the rat scored higher, which means millions of adults looked at a house cat and decided it was just slightly tougher than a rat.
 
 [A tabby on a garden wall, ears flat back, tail lashing. Label: "HOUSE CAT". Doug in front of it, fists up.]
 
@@ -70,39 +70,9 @@ Doug is fine. Probably.
 
 Doug won the fight, but the hospital numbers suggest the cat may still be winning the war.
 
-[Big label: "DOUG LOSES". Background shifts to dry savanna scrub.]
+[Big label: "DOUG LOSES". Background shifts to dusty outback orange.]
 
 Doug loses.
-
-## Honey Badger
-
-Honey Badger.
-
-It was not in the poll, but the closest thing was a medium-sized dog, and about half of Americans thought they could beat one of those.
-
-[A honey badger on dusty ground, low and wide, white back stripe. Label: "HONEY BADGER".]
-
-An adult male honey badger weighs about eight to eleven kilograms, roughly a big bucket of water. It is built low to the ground, with strong forelegs and long claws that can pry apart termite mounds and open beehives.
-
-[Red arrow to the front claws. Label: "DIGGING CLAWS".]
-
-It eats insect larvae, rodents, scorpions and venomous snakes, which tells you something about how the honey badger feels about danger in general.
-
-Here's the catch. A honey badger's skin is unusually thick and loose, and that looseness lets it twist around inside its own hide when something has hold of it, and turn to face whatever grabbed it.
-
-[Diagram: a badger outline inside a slightly baggy outline. Label: "LOOSE SKIN".]
-
-So grabbing a honey badger does not mean you are in control of a honey badger. It means you are holding its coat, and it is still free to deal with you.
-
-To be fair to the badger, a researcher who spent years studying them in the wild writes that honey badgers try to avoid trouble. Doug did not give it that option.
-
-[Doug, arms out for a wrestling hold. The badger turns inside its skin to face him. Doug's speech bubble: "wait what".]
-
-Doug tried to pin it. The badger turned around inside its own skin, looked at him, and Doug let go.
-
-[Doug up a small tree. The badger trots off. Field guide: "MAYBE". DOUG DEATHS: 93.]
-
-Nobody died. Doug lost, and spent the next hour up a tree that the badger had already forgotten about.
 
 ## Red Kangaroo
 
@@ -112,19 +82,19 @@ About one in six American men told the poll they could beat a kangaroo, and that
 
 [Outback at dusk, dusty orange. A big male red kangaroo stands upright, chest out. Doug beside it for scale. A front door beside both. Label: "RED KANGAROO".]
 
-Big male red kangaroos weigh up to about ninety kilograms, as heavy as a large grown man. Some stand more than one point eight meters tall, which is nearly the top of a front door.
+Big male red kangaroos weigh up to about ninety kilograms, as heavy as a large grown man. Some stand more than one point eight meters tall, which is nearly the top of a front door. The males are about twice the weight of the females, and the big ones are the ones Doug is about to meet.
 
 Males spend much of their lives sparring with other males to hold their place in the pecking order, so for a big male, fighting is not an emergency. It is routine.
 
 [Diagram: kangaroo side view. Arrow from the tail to the ground. Label: "LEG NUMBER FIVE".]
 
-In twenty fourteen, researchers measured what a red kangaroo's tail does when the animal walks slowly. It plants the tail on the ground like a fifth leg, and the tail pushes the kangaroo forward harder than its front and back legs combined.
+In twenty fourteen, researchers measured what a red kangaroo's tail does when the animal walks slowly. It plants the tail on the ground like a fifth leg, and the tail pushes the kangaroo forward as hard as its front and back legs combined.
 
 Here's the problem. In a fight, that fifth leg becomes a stand.
 
 According to a kangaroo expert at the Australian Museum, fighting males balance on their tails and kick out with both back legs at the same time. Doug brought two fists, and the kangaroo brought five limbs.
 
-Fatal attacks on people are extremely rare. One in Western Australia, in twenty twenty-two, was reported as the first in the whole country since nineteen thirty-six. A wildlife carer said at the time that adult males can become quite aggressive, and do not do well in captivity.
+Fatal attacks on people are extremely rare. One in Western Australia, in twenty twenty-two, was reported as the first in the whole country since nineteen thirty-six.
 
 [Doug in red boxing gloves, classic stance, bouncing on his toes. Speech bubble: "come on then". The kangaroo leans back on its tail.]
 
@@ -146,13 +116,13 @@ Roughly one in six American men also said they could beat a wolf. Notice the wor
 
 A grey wolf is not enormous. Males weigh from about thirty to eighty kilograms depending on where they live, so even a big one weighs about the same as three bags of cement.
 
-What a wolf has is company. Grey wolves mainly hunt in packs, and the pack is how they bring down animals far bigger than any single wolf, like elk, moose and even bison.
+What a wolf has is company. Grey wolves mainly hunt in packs, and the pack is how they bring down animals far bigger than any single wolf, like elk, moose and even bison. In Yellowstone National Park, the average pack has about ten wolves in it.
 
 [A wolf next to a moose. Then five wolf silhouettes next to the same moose.]
 
 Young wolves start hunting with the pack at about ten months old, so by the time a wolf is fully grown, it has spent most of its life practicing teamwork. Doug has spent most of his life practicing nothing in particular.
 
-Now the honest part, because wolves get a worse reputation than they deserve. A report from the Norwegian Institute for Nature Research counted four hundred eighty-nine victims of wolf attacks worldwide from two thousand two to twenty twenty.
+Now the honest part, because wolves get a worse reputation than they deserve. A report from the Norwegian Institute for Nature Research counted four hundred ninety-one victims of wolf attacks worldwide from two thousand two to twenty twenty.
 
 Most of those attacks involved wolves with rabies. Across all of Europe and North America, over eighteen years, the report found two fatal attacks, and the researchers put the risk above zero but too small to put a number on.
 
@@ -174,7 +144,7 @@ This one was not in the poll either, and it looks like an easy win: a shy bird t
 
 [Rainforest green. A tall cassowary with a blue neck and a tall casque on its head. Label: "CASSOWARY". Doug beside it, slightly shorter.]
 
-The southern cassowary is the second-heaviest bird alive after the ostrich. The females are the big ones, averaging around fifty-eight kilograms, and an adult can stand around six feet tall.
+The southern cassowary is the second-heaviest bird alive after the ostrich. The females are the big ones, averaging around fifty-eight kilograms, and an adult can stand about one point eight meters tall.
 
 [Red arrow to one foot. A ballpoint pen beside the claw for scale. Label: "CLAW".]
 
@@ -220,7 +190,13 @@ The advantage mostly comes from muscle fiber. Chimps carry more fast-twitch fibe
 
 Here's where the good news runs out. The myth was wrong, and it does not help Doug at all.
 
-One point three five times stronger is still stronger, and wild chimpanzees have killed people, in places where cleared forest has pushed them right up against villages and farms.
+One point three five times stronger is still stronger, and chimps are not shy about using it. A twenty fourteen study pooled five decades of field records from eighteen chimpanzee communities and counted more than one hundred fifty killings, observed or suspected, of chimps by other chimps.
+
+[Diagram: eight chimp silhouettes on one side, one on the other. Label: "8 vs 1".]
+
+More than nine in ten of the attackers were males, and in a typical attack they outnumbered the victim about eight to one. Chimps do not go looking for a fair fight. They go looking for a sure one.
+
+Wild chimpanzees have also killed people, in places where cleared forest has pushed them right up against villages and farms.
 
 [Doug sitting on the same log, reading a paper titled "PNAS 2017". He relaxes, puts the paper down and holds out his hand, elbow on the log. Speech bubble: "arm wrestle?".]
 
@@ -242,7 +218,7 @@ Eight percent of Americans said they could beat a gorilla. In Britain it was two
 
 [A huge silverback, upright, mid chest-beat. Two grown men drawn beside it as outlines. Label: "SILVERBACK".]
 
-An adult male western lowland gorilla weighs about one hundred thirty-six kilograms on average, and up to about two hundred twenty-seven, which is roughly two to three grown men in a single animal.
+An adult male western lowland gorilla weighs about one hundred thirty-six kilograms on average, and up to about two hundred twenty-seven, which is roughly two to three grown men in a single animal. A male counts as a full adult silverback from about thirteen years old, named for the pale saddle of hair across his back.
 
 When a silverback feels threatened, he does not start with a fight. He stands upright, slaps his chest with cupped hands and roars, and if the intruder stays, he may drop to all fours and charge.
 
@@ -270,11 +246,11 @@ The gorilla listened to Doug's chest beat, did the arithmetic, and decided Doug 
 
 Saltwater Crocodile.
 
-This is the largest reptile alive, and it does not fight the way the poll imagined. There is no squaring up, and there is no first round.
+This is the heaviest reptile alive, and it does not fight the way the poll imagined. There is no squaring up, and there is no first round.
 
 [Muddy brown river. A huge crocodile half-submerged, only eyes and nostrils visible. A family car on the bank for scale, shorter than the crocodile. Label: "SALTWATER CROCODILE".]
 
-Big males reach about six meters long, which is longer than a family car, and they can weigh well over a tonne.
+The biggest males reach about six meters, which is longer than a family car, and can weigh as much as one point two tonnes.
 
 In twenty twelve, researchers measured the bite force of every living species of crocodile and alligator. A saltwater crocodile about five meters long bit down with about three thousand seven hundred pounds of force, roughly sixteen thousand newtons.
 
@@ -284,9 +260,11 @@ That is the strongest bite ever directly measured in a living animal, roughly th
 
 It hunts by ambush. It lies in wait near the water's edge, barely moving, and then launches a sudden attack over a very short distance.
 
+It can hold its breath for up to an hour and a half. Its brain is about the size of a walnut, which is plenty to decide whether to attack.
+
 But here's the disturbing part. The strongest bite on Earth belongs to an animal that spends most of its time doing nothing at all, so it does not need to win a fight. It only needs Doug to come down to the water.
 
-In Australia, a study of forty-two years of records counted eighty-seven saltwater crocodile attacks on people, and twenty-seven of them were fatal. The biggest factor in who survived was simple: how much bigger the crocodile was than the person.
+In Australia, a study of forty-two years of records counted eighty-seven saltwater crocodile attacks on people, and twenty-seven of them were fatal. One of the two biggest factors in who survived was how much bigger the crocodile was than the person.
 
 [Doug walks the riverbank with binoculars, scanning the water. Speech bubble: "where are you". He sits down next to a large brown log at the water's edge.]
 
@@ -316,7 +294,7 @@ But in most of those attacks, the researchers judged that the bear was acting as
 
 Attacks by females were rare, and most of those were mothers defending cubs. That is the kind of attack people expect, and it is not the kind that should worry Doug.
 
-And that leads to the worst part. The bears most likely to threaten people were adult males that were nutritionally stressed, so the dangerous polar bear is the hungry one. It is not defending anything.
+And that leads to the worst part. The bears most likely to threaten people were adult males that were nutritionally stressed, so the dangerous polar bear is the hungry one. It is not defending anything. When hunting goes well, a polar bear can eat more than forty-five kilograms of seal blubber in one sitting.
 
 As the sea ice shrinks, the researchers expect more hungry bears to spend longer on land, closer to the people who live there.
 
@@ -350,6 +328,8 @@ When the elephants heard Maasai men, they bunched up tightly and sniffed the air
 
 The oldest matriarchs were the calmest judges of all. Families led by a matriarch over forty-two years old never retreated from the voices of boys. They had heard enough humans to know which ones mattered.
 
+The researchers even raised the pitch of the men's voices so they sounded like women. It did not fool the elephants at all.
+
 Here's the part that should bother you. The elephant does not need to see you, because it can judge from your voice alone whether you are a threat.
 
 It is not a gentle giant, either. In Zimbabwe, a study of deaths caused by large wild animals from twenty sixteen to twenty twenty-two found that elephants and crocodiles together caused more than four out of five of them.
@@ -366,7 +346,7 @@ It did not matter.
 
 That's one hundred.
 
-[Closing image: Doug's field guide lies open in the red dust. Every page reads "NO" except Goose and House Cat ("WIN?") and Honey Badger and Gorilla ("MAYBE"). The red cap sits on top.]
+[Closing image: Doug's field guide lies open in the red dust. Every page reads "NO" except Goose and House Cat ("WIN?") and Gorilla ("MAYBE"). The red cap sits on top.]
 
 The cap sits on top of the guide, and out of everything that took part in this video, it is the only one with a winning record.
 
@@ -374,4 +354,4 @@ The cap sits on top of the guide, and out of everything that took part in this v
 
 Doug deaths: one hundred. One animal was left off this list on purpose. It gets an episode of its own.
 
-<!-- words: 2962 (spoken narration only: spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:11 at 195 wpm · draft 1 (2026-10-09) · 11 items · first item name "Goose." at spoken word 29 · Goose twist at spoken word 145 (about 0:45) · first death (kangaroo) at spoken word 950, about 4:52: later than the brief's 2:40 because the optional Honey Badger survival sits before it, as the brief placed it; cutting the badger brings it to about 3:42 but drops the total to about 2,730 words · 206 sentences, avg 14.4 words, max 35 · Flesch about 71 (rough syllable estimate) · outro 20 words · tics: actually 1, However 0, essentially 0, incredibly 0 · twist markers: Here's the thing / The worst part / Here's the catch / Here's the problem / But that's not the part / The strange part / Here's where the good news runs out / The surprising part / But here's the disturbing part / the worst part / Here's the part that should bother you -->
+<!-- words: 2931 (spoken narration only: spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:02 at 195 wpm · draft 2 (2026-10-09) · 10 items · item words: Goose 214, House Cat 223, Red Kangaroo 286, Grey Wolf 287, Cassowary 287, Chimpanzee 308, Gorilla 306, Saltwater Crocodile 307, Polar Bear 303, Elephant 377 · first item name "Goose." at spoken word 29 · Goose twist at spoken word 145, unchanged · first death (kangaroo) at spoken word 728, about 3:44 · "No contest." at spoken word 1636, 56% · 203 sentences, avg 14.4 words, max 35 · outro 20 words · tics: actually 1, However 0, essentially 0, incredibly 0 · twist markers: Here's the thing / The worst part / Here's the problem / But that's not the part / The strange part / Here's where the good news runs out / The surprising part / But here's the disturbing part / the worst part / Here's the part that should bother you -->
