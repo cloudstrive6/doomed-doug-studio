@@ -1,0 +1,319 @@
+{
+ "name": "sandwich",
+ "description": "Triangle sandwich in 3/4 view: white bread with tan crust, lettuce, tomato and cheese layers (cheese drip). Stands for 'food from people'. Anchor centre, ~200x150 (x -100..+96, y -78..+72).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "food",
+  "sandwich"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     38
+    ],
+    [
+     96,
+     16
+    ],
+    [
+     96,
+     50
+    ],
+    [
+     -100,
+     72
+    ]
+   ],
+   "fill": "#fbf4e2",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -96,
+     70
+    ],
+    [
+     92,
+     48
+    ]
+   ],
+   "color": "#c98f4a",
+   "width": 6
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     26
+    ],
+    [
+     96,
+     4
+    ],
+    [
+     96,
+     18
+    ],
+    [
+     -100,
+     40
+    ]
+   ],
+   "fill": "#f5c431",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     12
+    ],
+    [
+     96,
+     -10
+    ],
+    [
+     96,
+     6
+    ],
+    [
+     -100,
+     28
+    ]
+   ],
+   "fill": "#d9342b",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     20
+    ],
+    [
+     -40,
+     16
+    ]
+   ],
+   "color": "#f07a6e",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     4
+    ],
+    [
+     52,
+     0
+    ]
+   ],
+   "color": "#f07a6e",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -2
+    ],
+    [
+     96,
+     -24
+    ],
+    [
+     96.0,
+     -1.0
+    ],
+    [
+     74.2,
+     -7.6
+    ],
+    [
+     52.4,
+     3.9
+    ],
+    [
+     30.7,
+     -2.7
+    ],
+    [
+     8.9,
+     8.8
+    ],
+    [
+     -12.9,
+     2.2
+    ],
+    [
+     -34.7,
+     13.7
+    ],
+    [
+     -56.4,
+     7.1
+    ],
+    [
+     -78.2,
+     18.6
+    ],
+    [
+     -100.0,
+     12.0
+    ]
+   ],
+   "fill": "#5cb83a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -30
+    ],
+    [
+     96,
+     -52
+    ],
+    [
+     96,
+     -22
+    ],
+    [
+     -100,
+     0
+    ]
+   ],
+   "fill": "#fbf4e2",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -30
+    ],
+    [
+     96,
+     -52
+    ],
+    [
+     -34,
+     -78
+    ]
+   ],
+   "fill": "#c98f4a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -78,
+     -36
+    ],
+    [
+     70,
+     -52
+    ],
+    [
+     -36,
+     -68
+    ]
+   ],
+   "fill": "#fbf4e2",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -20,
+   "y": -50,
+   "r": 12,
+   "color": "#e8dcc0",
+   "density": 0.5
+  },
+  {
+   "type": "spray",
+   "x": 40,
+   "y": -50,
+   "r": 10,
+   "color": "#e8dcc0",
+   "density": 0.5
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": -18,
+   "rx": 2,
+   "ry": 2,
+   "fill": "#d8c9a4",
+   "width": 1,
+   "color": "#d8c9a4"
+  },
+  {
+   "type": "ellipse",
+   "x": 10,
+   "y": -26,
+   "rx": 2,
+   "ry": 2,
+   "fill": "#d8c9a4",
+   "width": 1,
+   "color": "#d8c9a4"
+  },
+  {
+   "type": "ellipse",
+   "x": 60,
+   "y": -36,
+   "rx": 2,
+   "ry": 2,
+   "fill": "#d8c9a4",
+   "width": 1,
+   "color": "#d8c9a4"
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": 54,
+   "rx": 2,
+   "ry": 2,
+   "fill": "#d8c9a4",
+   "width": 1,
+   "color": "#d8c9a4"
+  },
+  {
+   "type": "ellipse",
+   "x": 40,
+   "y": 44,
+   "rx": 2,
+   "ry": 2,
+   "fill": "#d8c9a4",
+   "width": 1,
+   "color": "#d8c9a4"
+  }
+ ]
+}

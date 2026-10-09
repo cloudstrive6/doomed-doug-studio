@@ -1,0 +1,239 @@
+{
+ "name": "loudspeaker",
+ "description": "Field playback loudspeaker, front view: dark box #2e2e2e on two short feet with a carry handle, big round grey cone with dust cap, small tweeter, red power light. Anchor bottom-centre, ~164x244 (x -82..+82, y -244..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "speaker",
+  "science",
+  "savanna",
+  "elephant"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -72,
+     -14
+    ],
+    [
+     -50,
+     -14
+    ],
+    [
+     -52,
+     0
+    ],
+    [
+     -70,
+     0
+    ]
+   ],
+   "fill": "#222222",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     50,
+     -14
+    ],
+    [
+     72,
+     -14
+    ],
+    [
+     70,
+     0
+    ],
+    [
+     52,
+     0
+    ]
+   ],
+   "fill": "#222222",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -82,
+   "y": -226,
+   "w": 164,
+   "h": 214,
+   "fill": "#2e2e2e",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     60,
+     -224
+    ],
+    [
+     80,
+     -224
+    ],
+    [
+     80,
+     -14
+    ],
+    [
+     60,
+     -14
+    ]
+   ],
+   "fill": "#1d1d1d",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -72,
+     -214
+    ],
+    [
+     -72,
+     -24
+    ]
+   ],
+   "color": "#575757",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -72,
+     -216
+    ],
+    [
+     54,
+     -216
+    ]
+   ],
+   "color": "#575757",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -82,
+   "y": -226,
+   "w": 164,
+   "h": 214,
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -226,
+   "rx": 34,
+   "ry": 18,
+   "start": 180,
+   "end": 360,
+   "color": "#000000",
+   "width": 6
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -98,
+   "rx": 64,
+   "ry": 64,
+   "fill": "#9a9a9a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 20,
+   "y": -80,
+   "r": 40,
+   "color": "#7a7a7a",
+   "density": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -98,
+   "rx": 46,
+   "ry": 46,
+   "fill": "#7d7d7d",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -98,
+   "rx": 56,
+   "ry": 56,
+   "start": 200,
+   "end": 280,
+   "color": "#c4c4c4",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -98,
+   "rx": 18,
+   "ry": 18,
+   "fill": "#4e4e4e",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -5,
+   "y": -103,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#8a8a8a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -190,
+   "rx": 18,
+   "ry": 18,
+   "fill": "#8a8a8a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -190,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#4e4e4e",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 56,
+   "y": -196,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#e0201b",
+   "width": 2,
+   "color": "#000000"
+  }
+ ]
+}

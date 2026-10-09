@@ -1,0 +1,255 @@
+{
+ "name": "house_brick",
+ "description": "Plain red house brick in 3/4 view: front face #b5462e, lighter top #cf6247, darker right side #86301f, speckle texture. Anchor centre, ~220x110 (x -110..+110, y -54..+56).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "brick",
+  "building",
+  "weight"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -2
+    ],
+    [
+     58,
+     -2
+    ],
+    [
+     58,
+     56
+    ],
+    [
+     -110,
+     56
+    ]
+   ],
+   "fill": "#b5462e",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -2
+    ],
+    [
+     58,
+     -2
+    ],
+    [
+     110,
+     -54
+    ],
+    [
+     -58,
+     -54
+    ]
+   ],
+   "fill": "#cf6247",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     58,
+     -2
+    ],
+    [
+     110,
+     -54
+    ],
+    [
+     110,
+     4
+    ],
+    [
+     58,
+     56
+    ]
+   ],
+   "fill": "#86301f",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -50,
+   "y": 28,
+   "r": 30,
+   "color": "#8f3322",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 20,
+   "y": 30,
+   "r": 22,
+   "color": "#8f3322",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": -10,
+   "y": -28,
+   "r": 26,
+   "color": "#e07e63",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 84,
+   "y": 4,
+   "r": 16,
+   "color": "#6a2416",
+   "density": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": -80,
+   "y": 20,
+   "rx": 3,
+   "ry": 2,
+   "fill": "#7a2a1a",
+   "width": 1,
+   "color": "#7a2a1a"
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": 40,
+   "rx": 3,
+   "ry": 2,
+   "fill": "#7a2a1a",
+   "width": 1,
+   "color": "#7a2a1a"
+  },
+  {
+   "type": "ellipse",
+   "x": 30,
+   "y": 14,
+   "rx": 3,
+   "ry": 2,
+   "fill": "#7a2a1a",
+   "width": 1,
+   "color": "#7a2a1a"
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": -30,
+   "rx": 3,
+   "ry": 2,
+   "fill": "#7a2a1a",
+   "width": 1,
+   "color": "#7a2a1a"
+  },
+  {
+   "type": "ellipse",
+   "x": 40,
+   "y": -36,
+   "rx": 3,
+   "ry": 2,
+   "fill": "#7a2a1a",
+   "width": 1,
+   "color": "#7a2a1a"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -14,
+   "rx": 3,
+   "ry": 2,
+   "fill": "#7a2a1a",
+   "width": 1,
+   "color": "#7a2a1a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -2
+    ],
+    [
+     58,
+     -2
+    ],
+    [
+     58,
+     56
+    ],
+    [
+     -110,
+     56
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -2
+    ],
+    [
+     58,
+     -2
+    ],
+    [
+     110,
+     -54
+    ],
+    [
+     -58,
+     -54
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     58,
+     -2
+    ],
+    [
+     110,
+     -54
+    ],
+    [
+     110,
+     4
+    ],
+    [
+     58,
+     56
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}

@@ -1,0 +1,567 @@
+{
+ "name": "acacia_tree",
+ "description": "Flat-topped umbrella acacia as a near-silhouette for a red sunset: dark forked trunk #2a1a14 with V-spreading branches, wide flat crown #2e2b1a with a slightly lighter top rim. Anchor bottom-centre, ~640x520 (x -320..+320, y -520..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "plant",
+  "tree",
+  "savanna",
+  "africa",
+  "sunset"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -26,
+     0
+    ],
+    [
+     24,
+     0
+    ],
+    [
+     16,
+     -110
+    ],
+    [
+     22,
+     -190
+    ],
+    [
+     90,
+     -300
+    ],
+    [
+     190,
+     -390
+    ],
+    [
+     176,
+     -404
+    ],
+    [
+     80,
+     -322
+    ],
+    [
+     24,
+     -250
+    ],
+    [
+     30,
+     -340
+    ],
+    [
+     10,
+     -410
+    ],
+    [
+     -6,
+     -408
+    ],
+    [
+     8,
+     -330
+    ],
+    [
+     -6,
+     -250
+    ],
+    [
+     -80,
+     -330
+    ],
+    [
+     -190,
+     -400
+    ],
+    [
+     -204,
+     -388
+    ],
+    [
+     -90,
+     -310
+    ],
+    [
+     -18,
+     -200
+    ],
+    [
+     -18,
+     -110
+    ]
+   ],
+   "fill": "#2a1a14",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -4,
+     -20
+    ],
+    [
+     -2,
+     -160
+    ]
+   ],
+   "color": "#4a3226",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     24,
+     -220
+    ],
+    [
+     84,
+     -306
+    ]
+   ],
+   "color": "#4a3226",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -230
+    ],
+    [
+     -90,
+     -300
+    ]
+   ],
+   "color": "#4a3226",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     120,
+     -350
+    ],
+    [
+     230,
+     -406
+    ]
+   ],
+   "color": "#2a1a14",
+   "width": 6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -350
+    ],
+    [
+     -250,
+     -410
+    ]
+   ],
+   "color": "#2a1a14",
+   "width": 6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -310
+    ],
+    [
+     80,
+     -400
+    ]
+   ],
+   "color": "#2a1a14",
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": -230,
+   "y": -432,
+   "rx": 90,
+   "ry": 34,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -110,
+   "y": -462,
+   "rx": 120,
+   "ry": 44,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 20,
+   "y": -470,
+   "rx": 140,
+   "ry": 46,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 160,
+   "y": -455,
+   "rx": 120,
+   "ry": 40,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 255,
+   "y": -430,
+   "rx": 60,
+   "ry": 28,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -280,
+   "y": -420,
+   "rx": 34,
+   "ry": 22,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -432,
+   "rx": 250,
+   "ry": 30,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -230,
+   "y": -432,
+   "rx": 90,
+   "ry": 34,
+   "fill": "#2e2b1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -110,
+   "y": -462,
+   "rx": 120,
+   "ry": 44,
+   "fill": "#2e2b1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 20,
+   "y": -470,
+   "rx": 140,
+   "ry": 46,
+   "fill": "#2e2b1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 160,
+   "y": -455,
+   "rx": 120,
+   "ry": 40,
+   "fill": "#2e2b1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 255,
+   "y": -430,
+   "rx": 60,
+   "ry": 28,
+   "fill": "#2e2b1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -280,
+   "y": -420,
+   "rx": 34,
+   "ry": 22,
+   "fill": "#2e2b1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -432,
+   "rx": 250,
+   "ry": 30,
+   "fill": "#2e2b1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -110,
+   "y": -472,
+   "r": 34,
+   "color": "#4b4628",
+   "density": 0.45
+  },
+  {
+   "type": "spray",
+   "x": 30,
+   "y": -480,
+   "r": 40,
+   "color": "#4b4628",
+   "density": 0.45
+  },
+  {
+   "type": "spray",
+   "x": 160,
+   "y": -462,
+   "r": 32,
+   "color": "#4b4628",
+   "density": 0.45
+  },
+  {
+   "type": "spray",
+   "x": -230,
+   "y": -440,
+   "r": 22,
+   "color": "#4b4628",
+   "density": 0.45
+  },
+  {
+   "type": "ellipse",
+   "x": 20,
+   "y": -470,
+   "rx": 128,
+   "ry": 36,
+   "start": 200,
+   "end": 340,
+   "color": "#5d5530",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": -110,
+   "y": -462,
+   "rx": 106,
+   "ry": 34,
+   "start": 205,
+   "end": 335,
+   "color": "#5d5530",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": 160,
+   "y": -455,
+   "rx": 104,
+   "ry": 30,
+   "start": 210,
+   "end": 330,
+   "color": "#5d5530",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -300,
+     -420
+    ],
+    [
+     300,
+     -420
+    ],
+    [
+     296,
+     -404
+    ],
+    [
+     -296,
+     -404
+    ]
+   ],
+   "fill": "#1f1d12",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -240,
+     -430
+    ],
+    [
+     -218,
+     -438
+    ]
+   ],
+   "color": "#1f1d12",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -180,
+     -430
+    ],
+    [
+     -158,
+     -438
+    ]
+   ],
+   "color": "#1f1d12",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -430
+    ],
+    [
+     -98,
+     -438
+    ]
+   ],
+   "color": "#1f1d12",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -430
+    ],
+    [
+     -38,
+     -438
+    ]
+   ],
+   "color": "#1f1d12",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -430
+    ],
+    [
+     22,
+     -438
+    ]
+   ],
+   "color": "#1f1d12",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -430
+    ],
+    [
+     82,
+     -438
+    ]
+   ],
+   "color": "#1f1d12",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     120,
+     -430
+    ],
+    [
+     142,
+     -438
+    ]
+   ],
+   "color": "#1f1d12",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     180,
+     -430
+    ],
+    [
+     202,
+     -438
+    ]
+   ],
+   "color": "#1f1d12",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     240,
+     -430
+    ],
+    [
+     262,
+     -438
+    ]
+   ],
+   "color": "#1f1d12",
+   "width": 3
+  }
+ ]
+}

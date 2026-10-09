@@ -1,0 +1,345 @@
+{
+ "name": "ballpoint_pen",
+ "description": "Ordinary ballpoint pen lying horizontally: clear barrel with a blue ink tube, metal tip on the left, blue cap with clip posted on the right. Anchor centre, ~466x60 (x -238..+232, y -30..+21).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "pen",
+  "scale comparison",
+  "stationery"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -232,
+     0
+    ],
+    [
+     -196,
+     -12
+    ],
+    [
+     -196,
+     12
+    ]
+   ],
+   "fill": "#b9bcc2",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -234,
+   "y": 0,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#333333",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -196,
+     -14
+    ],
+    [
+     -180,
+     -18
+    ],
+    [
+     -180,
+     18
+    ],
+    [
+     -196,
+     14
+    ]
+   ],
+   "fill": "#cfd3d8",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -180,
+     -18
+    ],
+    [
+     150,
+     -18
+    ],
+    [
+     150,
+     18
+    ],
+    [
+     -180,
+     18
+    ]
+   ],
+   "fill": "#e3edf2",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -180,
+     6
+    ],
+    [
+     150,
+     6
+    ],
+    [
+     150,
+     17
+    ],
+    [
+     -180,
+     17
+    ]
+   ],
+   "fill": "#c9d8e0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -200,
+     0
+    ],
+    [
+     140,
+     0
+    ]
+   ],
+   "color": "#2a5bd7",
+   "width": 6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -170,
+     -10
+    ],
+    [
+     130,
+     -10
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -180,
+     -18
+    ],
+    [
+     150,
+     -18
+    ],
+    [
+     150,
+     18
+    ],
+    [
+     -180,
+     18
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     -12
+    ],
+    [
+     162,
+     -12
+    ],
+    [
+     162,
+     12
+    ],
+    [
+     150,
+     12
+    ]
+   ],
+   "fill": "#2a5bd7",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     110,
+     -21
+    ],
+    [
+     222,
+     -19
+    ],
+    [
+     232,
+     -8
+    ],
+    [
+     232,
+     8
+    ],
+    [
+     222,
+     19
+    ],
+    [
+     110,
+     21
+    ]
+   ],
+   "fill": "#2a5bd7",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     118,
+     -12
+    ],
+    [
+     220,
+     -10
+    ],
+    [
+     220,
+     -4
+    ],
+    [
+     118,
+     -4
+    ]
+   ],
+   "fill": "#5c86ea",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     118,
+     8
+    ],
+    [
+     222,
+     8
+    ],
+    [
+     222,
+     16
+    ],
+    [
+     118,
+     16
+    ]
+   ],
+   "fill": "#1c3f9e",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     110,
+     -21
+    ],
+    [
+     222,
+     -19
+    ],
+    [
+     232,
+     -8
+    ],
+    [
+     232,
+     8
+    ],
+    [
+     222,
+     19
+    ],
+    [
+     110,
+     21
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     120,
+     -30
+    ],
+    [
+     214,
+     -30
+    ],
+    [
+     214,
+     -22
+    ],
+    [
+     120,
+     -22
+    ]
+   ],
+   "fill": "#2a5bd7",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 122,
+   "y": -26,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#1c3f9e",
+   "width": 2,
+   "color": "#000000"
+  }
+ ]
+}

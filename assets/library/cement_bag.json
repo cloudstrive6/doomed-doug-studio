@@ -1,0 +1,282 @@
+{
+ "name": "cement_bag",
+ "description": "Grey paper sack of cement (#a9a9a4) with a folded stitched top and a plain CEMENT label. Anchor bottom-centre, ~180x240 (x -90..+90, y -240..0). Stacks: next bag up at y -230.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "cement",
+  "building",
+  "weight"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -84,
+     -200
+    ],
+    [
+     84,
+     -200
+    ],
+    [
+     90,
+     -120
+    ],
+    [
+     88,
+     -20
+    ],
+    [
+     80,
+     0
+    ],
+    [
+     -80,
+     0
+    ],
+    [
+     -88,
+     -20
+    ],
+    [
+     -90,
+     -120
+    ]
+   ],
+   "fill": "#a9a9a4",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -198
+    ],
+    [
+     84,
+     -200
+    ],
+    [
+     90,
+     -120
+    ],
+    [
+     88,
+     -20
+    ],
+    [
+     80,
+     0
+    ],
+    [
+     50,
+     0
+    ]
+   ],
+   "fill": "#8a8a85",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -84,
+     -196
+    ],
+    [
+     -60,
+     -196
+    ],
+    [
+     -64,
+     -10
+    ],
+    [
+     -82,
+     -6
+    ],
+    [
+     -88,
+     -120
+    ]
+   ],
+   "fill": "#c4c4bf",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 60,
+   "y": -60,
+   "r": 22,
+   "color": "#76766f",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -20,
+   "y": -40,
+   "r": 22,
+   "color": "#bdbdb8",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -84,
+     -200
+    ],
+    [
+     84,
+     -200
+    ],
+    [
+     90,
+     -120
+    ],
+    [
+     88,
+     -20
+    ],
+    [
+     80,
+     0
+    ],
+    [
+     -80,
+     0
+    ],
+    [
+     -88,
+     -20
+    ],
+    [
+     -90,
+     -120
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -84,
+     -200
+    ],
+    [
+     84,
+     -200
+    ],
+    [
+     76,
+     -240
+    ],
+    [
+     -76,
+     -240
+    ]
+   ],
+   "fill": "#c4c4bf",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -78,
+     -222
+    ],
+    [
+     78,
+     -222
+    ]
+   ],
+   "color": "#8a8a85",
+   "width": 2,
+   "dash": [
+    8,
+    6
+   ]
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     -240
+    ],
+    [
+     -46,
+     -200
+    ]
+   ],
+   "color": "#8a8a85",
+   "width": 2
+  },
+  {
+   "type": "rect",
+   "x": -72,
+   "y": -150,
+   "w": 144,
+   "h": 60,
+   "fill": "#f2f2ee",
+   "width": 4
+  },
+  {
+   "type": "text",
+   "text": "CEMENT",
+   "x": 0,
+   "y": -120,
+   "size": 25,
+   "bold": true,
+   "color": "#2b2b2b",
+   "boil": 0.4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -60
+    ],
+    [
+     -56,
+     -14
+    ]
+   ],
+   "color": "#8a8a85",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     -170
+    ],
+    [
+     66,
+     -110
+    ]
+   ],
+   "color": "#6f6f6a",
+   "width": 2
+  }
+ ]
+}

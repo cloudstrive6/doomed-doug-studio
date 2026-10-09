@@ -1,0 +1,354 @@
+{
+ "name": "crumpled_paper",
+ "description": "Crumpled ball of white paper with grey creases and a faint pencil stick-figure fragment (X eye, tiny red cap smudge) in the folds. Anchor centre, ~140x140 (x -70..+70, y -66..+66).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "paper",
+  "drawing",
+  "narrator"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     -66
+    ],
+    [
+     22,
+     -58
+    ],
+    [
+     46,
+     -66
+    ],
+    [
+     62,
+     -40
+    ],
+    [
+     58,
+     -14
+    ],
+    [
+     70,
+     10
+    ],
+    [
+     56,
+     38
+    ],
+    [
+     34,
+     46
+    ],
+    [
+     20,
+     66
+    ],
+    [
+     -10,
+     56
+    ],
+    [
+     -34,
+     64
+    ],
+    [
+     -54,
+     42
+    ],
+    [
+     -68,
+     18
+    ],
+    [
+     -58,
+     -6
+    ],
+    [
+     -66,
+     -34
+    ],
+    [
+     -42,
+     -52
+    ]
+   ],
+   "fill": "#f7f7f2",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     20,
+     66
+    ],
+    [
+     34,
+     46
+    ],
+    [
+     56,
+     38
+    ],
+    [
+     70,
+     10
+    ],
+    [
+     40,
+     10
+    ],
+    [
+     20,
+     30
+    ],
+    [
+     -10,
+     56
+    ]
+   ],
+   "fill": "#dadad4",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 30,
+   "y": 30,
+   "r": 24,
+   "color": "#c4c4be",
+   "density": 0.35
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -42,
+     -52
+    ],
+    [
+     -20,
+     -30
+    ],
+    [
+     -28,
+     0
+    ],
+    [
+     -58,
+     -6
+    ]
+   ],
+   "color": "#a8a8a2",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     -30
+    ],
+    [
+     10,
+     -40
+    ],
+    [
+     22,
+     -58
+    ]
+   ],
+   "color": "#a8a8a2",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -40
+    ],
+    [
+     30,
+     -10
+    ],
+    [
+     58,
+     -14
+    ]
+   ],
+   "color": "#a8a8a2",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -28,
+     0
+    ],
+    [
+     0,
+     12
+    ],
+    [
+     30,
+     -10
+    ]
+   ],
+   "color": "#a8a8a2",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     12
+    ],
+    [
+     -10,
+     56
+    ]
+   ],
+   "color": "#a8a8a2",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     12
+    ],
+    [
+     40,
+     10
+    ]
+   ],
+   "color": "#a8a8a2",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -28,
+     0
+    ],
+    [
+     -54,
+     42
+    ]
+   ],
+   "color": "#a8a8a2",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -10
+    ],
+    [
+     46,
+     -66
+    ]
+   ],
+   "color": "#a8a8a2",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": -24,
+   "y": -18,
+   "rx": 14,
+   "ry": 14,
+   "start": 160,
+   "end": 360,
+   "color": "#5a5a5a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -22
+    ],
+    [
+     -24,
+     -16
+    ]
+   ],
+   "color": "#5a5a5a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -24,
+     -22
+    ],
+    [
+     -30,
+     -16
+    ]
+   ],
+   "color": "#5a5a5a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     24
+    ],
+    [
+     26,
+     40
+    ]
+   ],
+   "color": "#5a5a5a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     20
+    ],
+    [
+     14,
+     38
+    ]
+   ],
+   "color": "#5a5a5a",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": -24,
+   "y": -32,
+   "rx": 9,
+   "ry": 4,
+   "fill": "#e0201b",
+   "width": 1,
+   "color": "#e0201b"
+  }
+ ]
+}

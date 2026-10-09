@@ -1,0 +1,657 @@
+{
+ "name": "savanna_bush",
+ "description": "Low dry savanna shrub: olive-brown leafy clumps #7a6a3a with darker underside and lighter tops, twiggy brown stems at the base and bare twigs poking out. Anchor bottom-centre, ~370x200 (x -186..+182, y -200..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "plant",
+  "bush",
+  "savanna",
+  "africa",
+  "cover"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     0
+    ],
+    [
+     -60,
+     -60
+    ],
+    [
+     -110,
+     -90
+    ]
+   ],
+   "color": "#4a3a24",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     0
+    ],
+    [
+     -20,
+     -80
+    ]
+   ],
+   "color": "#4a3a24",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     0
+    ],
+    [
+     40,
+     -70
+    ],
+    [
+     90,
+     -100
+    ]
+   ],
+   "color": "#4a3a24",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     25,
+     0
+    ],
+    [
+     110,
+     -60
+    ]
+   ],
+   "color": "#4a3a24",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     0
+    ],
+    [
+     -120,
+     -40
+    ]
+   ],
+   "color": "#4a3a24",
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": -120,
+   "y": -70,
+   "rx": 62,
+   "ry": 48,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": -110,
+   "rx": 75,
+   "ry": 60,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 40,
+   "y": -118,
+   "rx": 80,
+   "ry": 62,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 120,
+   "y": -78,
+   "rx": 62,
+   "ry": 48,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -150,
+   "y": -48,
+   "rx": 30,
+   "ry": 26,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 152,
+   "y": -48,
+   "rx": 28,
+   "ry": 24,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -78,
+   "rx": 90,
+   "ry": 46,
+   "fill": "#000000",
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -120,
+   "y": -70,
+   "rx": 62,
+   "ry": 48,
+   "fill": "#7a6a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": -110,
+   "rx": 75,
+   "ry": 60,
+   "fill": "#7a6a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 40,
+   "y": -118,
+   "rx": 80,
+   "ry": 62,
+   "fill": "#7a6a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 120,
+   "y": -78,
+   "rx": 62,
+   "ry": 48,
+   "fill": "#7a6a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -150,
+   "y": -48,
+   "rx": 30,
+   "ry": 26,
+   "fill": "#7a6a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 152,
+   "y": -48,
+   "rx": 28,
+   "ry": 24,
+   "fill": "#7a6a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -78,
+   "rx": 90,
+   "ry": 46,
+   "fill": "#7a6a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -110,
+   "y": -58,
+   "r": 26,
+   "color": "#5c4f29",
+   "density": 0.45
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": -60,
+   "r": 30,
+   "color": "#5c4f29",
+   "density": 0.45
+  },
+  {
+   "type": "spray",
+   "x": 110,
+   "y": -62,
+   "r": 26,
+   "color": "#5c4f29",
+   "density": 0.45
+  },
+  {
+   "type": "spray",
+   "x": -55,
+   "y": -62,
+   "r": 22,
+   "color": "#5c4f29",
+   "density": 0.45
+  },
+  {
+   "type": "spray",
+   "x": 55,
+   "y": -64,
+   "r": 22,
+   "color": "#5c4f29",
+   "density": 0.45
+  },
+  {
+   "type": "spray",
+   "x": -50,
+   "y": -126,
+   "r": 26,
+   "color": "#a08f58",
+   "density": 0.45
+  },
+  {
+   "type": "spray",
+   "x": 40,
+   "y": -134,
+   "r": 28,
+   "color": "#a08f58",
+   "density": 0.45
+  },
+  {
+   "type": "spray",
+   "x": -120,
+   "y": -84,
+   "r": 18,
+   "color": "#a08f58",
+   "density": 0.45
+  },
+  {
+   "type": "spray",
+   "x": 120,
+   "y": -90,
+   "r": 18,
+   "color": "#a08f58",
+   "density": 0.45
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -80,
+     -120
+    ],
+    [
+     -71,
+     -126
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -66,
+     -112
+    ],
+    [
+     -60,
+     -118
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     -140
+    ],
+    [
+     -11,
+     -146
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -6,
+     -132
+    ],
+    [
+     0,
+     -138
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -150
+    ],
+    [
+     69,
+     -156
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     74,
+     -142
+    ],
+    [
+     80,
+     -148
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     100,
+     -110
+    ],
+    [
+     109,
+     -116
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     114,
+     -102
+    ],
+    [
+     120,
+     -108
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -140,
+     -80
+    ],
+    [
+     -131,
+     -86
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -126,
+     -72
+    ],
+    [
+     -120,
+     -78
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -100
+    ],
+    [
+     19,
+     -106
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     24,
+     -92
+    ],
+    [
+     30,
+     -98
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -80
+    ],
+    [
+     -51,
+     -86
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     -72
+    ],
+    [
+     -40,
+     -78
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     -84
+    ],
+    [
+     79,
+     -90
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     84,
+     -76
+    ],
+    [
+     90,
+     -82
+    ]
+   ],
+   "color": "#5c4f29",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -90,
+     -150
+    ],
+    [
+     -110,
+     -192
+    ],
+    [
+     -128,
+     -200
+    ]
+   ],
+   "color": "#4a3a24",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -110,
+     -192
+    ],
+    [
+     -100,
+     -200
+    ]
+   ],
+   "color": "#4a3a24",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -170
+    ],
+    [
+     40,
+     -200
+    ]
+   ],
+   "color": "#4a3a24",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     110,
+     -120
+    ],
+    [
+     160,
+     -150
+    ],
+    [
+     176,
+     -146
+    ]
+   ],
+   "color": "#4a3a24",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -160,
+     -70
+    ],
+    [
+     -186,
+     -88
+    ]
+   ],
+   "color": "#4a3a24",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     160,
+     -60
+    ],
+    [
+     184,
+     -70
+    ]
+   ],
+   "color": "#4a3a24",
+   "width": 3
+  }
+ ]
+}

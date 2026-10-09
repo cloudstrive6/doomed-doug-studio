@@ -1,0 +1,336 @@
+{
+ "name": "birdseed_bag",
+ "description": "Brown paper bag (#b98b54) with rolled-over top, white label reading BIRDSEED with seed doodles, a few seeds spilled at the bottom right. Anchor centre, ~180x240 (x -90..+140 with seeds, y -122..+118). Top edge at y -122 (a cap at (0,-125) sits on it). Works upside down.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "food",
+  "bird",
+  "goose",
+  "bag"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -78,
+     -88
+    ],
+    [
+     78,
+     -88
+    ],
+    [
+     86,
+     110
+    ],
+    [
+     -86,
+     110
+    ]
+   ],
+   "fill": "#b98b54",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -86
+    ],
+    [
+     76,
+     -86
+    ],
+    [
+     84,
+     108
+    ],
+    [
+     50,
+     108
+    ]
+   ],
+   "fill": "#94683a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 55,
+   "y": 40,
+   "r": 30,
+   "color": "#7d5630",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -78,
+     -88
+    ],
+    [
+     78,
+     -88
+    ],
+    [
+     86,
+     110
+    ],
+    [
+     -86,
+     110
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -84,
+     -122
+    ],
+    [
+     84,
+     -122
+    ],
+    [
+     88,
+     -84
+    ],
+    [
+     -88,
+     -84
+    ]
+   ],
+   "fill": "#cfa56f",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -84,
+     -104
+    ],
+    [
+     84,
+     -104
+    ]
+   ],
+   "color": "#94683a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -84
+    ],
+    [
+     -24,
+     -60
+    ]
+   ],
+   "color": "#94683a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -84
+    ],
+    [
+     26,
+     -64
+    ]
+   ],
+   "color": "#94683a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -70,
+     -40
+    ],
+    [
+     -60,
+     96
+    ]
+   ],
+   "color": "#94683a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     64,
+     0
+    ],
+    [
+     70,
+     100
+    ]
+   ],
+   "color": "#6f4a25",
+   "width": 2
+  },
+  {
+   "type": "rect",
+   "x": -74,
+   "y": -36,
+   "w": 148,
+   "h": 92,
+   "fill": "#ffffff",
+   "width": 4
+  },
+  {
+   "type": "text",
+   "text": "BIRDSEED",
+   "x": 0,
+   "y": -10,
+   "size": 23,
+   "bold": true,
+   "color": "#2b2b2b",
+   "boil": 0.4
+  },
+  {
+   "type": "ellipse",
+   "x": -30,
+   "y": 28,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#d9b36a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -10,
+   "y": 34,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#d9b36a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 10,
+   "y": 26,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#d9b36a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 30,
+   "y": 33,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#d9b36a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 18,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#d9b36a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 96,
+   "y": 104,
+   "rx": 6,
+   "ry": 4,
+   "fill": "#d9b36a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 112,
+   "y": 112,
+   "rx": 6,
+   "ry": 4,
+   "fill": "#6b4a24",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 84,
+   "y": 118,
+   "rx": 6,
+   "ry": 4,
+   "fill": "#e8cc8a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 126,
+   "y": 104,
+   "rx": 6,
+   "ry": 4,
+   "fill": "#d9b36a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 104,
+   "y": 92,
+   "rx": 6,
+   "ry": 4,
+   "fill": "#e8cc8a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -96,
+   "y": 112,
+   "rx": 6,
+   "ry": 4,
+   "fill": "#d9b36a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 138,
+   "y": 116,
+   "rx": 6,
+   "ry": 4,
+   "fill": "#6b4a24",
+   "width": 2,
+   "color": "#000000"
+  }
+ ]
+}
