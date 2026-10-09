@@ -169,7 +169,7 @@ nearly stepped on; hippos' foot pressure/mass, sourced) or extend item 1 with th
 `animals` (Doug vs. Animals).
 
 ## 6. Target length
-15-17 min at about 197 wpm: **2,900-3,300 spoken words**. Items 1-2 about 230-260 each (first death by about 2:45), items 3-9 about 270-310
+15-17 min at about 197 wpm: **2,900-3,300 spoken words**. Items 1-2 about 230-260 each (first death by about **3:45**; amended 2026-10-09 by the creative director: 2:45 was unreachable within this budget, since items 1-2 alone are about 500 words plus the opener), items 3-9 about 270-310
 each, the mouth (boss) 330-380 including the closing image. Outro 30 words or fewer: final counter (114) and one dry kicker. No recap, no
 subscribe pitch.
 
