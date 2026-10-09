@@ -1,10 +1,10 @@
 <!-- axis: distance. Distance between Doug and the nearest hippo, shrinking monotonically from about eleven thousand kilometers (Colombia to the Okavango Delta, the hippo rivers of southern Africa) to zero (the open mouth). Three spoken section headers: "Far away." (opener, before item 1), "On land." (before item 3, The Night Walk), "In the water." (before item 7, The Shallows, at about 60 percent of the spoken words). The DISTANCE TO HIPPO meter sits beside DOUG DEATHS and only ever shrinks, one value per item: 11,000 km, 1 km, 300 m, 50 m, 10 m, 5 m, 2 m, 1 m, 0.5 m, 0 m. Background ramp per brief: Colombian green pasture, dusk savanna gold, night blue, riverbank mud, murky river green-brown, ending in flat dark pink-red (the mouth, flat colour, no anatomy). Boss: The Mouth, 0 meters. -->
-<!-- Episode 013: Why Hippos Get Deadlier the Closer Doug Gets (working). Draft 1 (2026-10-09, script writer). DOUG DEATHS starts at 107 and ends at 114: seven deaths over ten items. Survivals: Cocaine Hippos ("Doug is fine."), The Honk ("Doug is fine." with less conviction), The Red Sweat (narrator quietly disappointed, one flat line). One callback to 011, in the opener only. "Cocaine" is spoken once, as the item name. Escobar is named once, flatly, as the importer. No safety instructions, no injury descriptions, no teeth touching Doug, no calves shown or discussed, no named victims, no crocodile as killer. Every Doug death is a kind of incident hippos really cause: on-land encounters at night, charges, threat displays escalating, people in the water, capsized canoes, and being caught near fighting or territorial bulls. -->
+<!-- Episode 013: Why Hippos Get Deadlier the Closer Doug Gets (working). Draft 2 (2026-10-09, script writer, revised per script_review.md fixes 1-13). DOUG DEATHS starts at 107 and ends at 114: seven deaths over ten items. Survivals: Cocaine Hippos ("Doug is fine."), The Honk ("Doug is fine." with less conviction), The Red Sweat (narrator quietly disappointed, one flat line). One callback to 011, in the opener only. "Cocaine" is spoken once, as the item name. Escobar is named once, flatly, as the importer. No safety instructions, no injury descriptions, no teeth touching Doug, no calves shown or discussed, no named victims, no crocodile as killer. Every Doug death is a kind of incident hippos really cause: on-land encounters at night, charges, threat displays escalating, people in the water, capsized canoes, and being caught near fighting or territorial bulls. -->
 <!-- Pronunciation checks for the editor: Escobar = "ESS-koh-bar"; Magdalena = "mahg-dah-LAY-nah"; Maputo = "mah-POO-toh"; Zambezi = "zam-BEE-zee"; hipposudoric = "HIP-oh-soo-DOR-ick"; norhipposudoric = "NOR-hip-oh-soo-DOR-ick"; Yorkshire = "YORK-sher". -->
 
 [Open on the thumbnail, 1.5 to 4 seconds: a huge hippo mid-yawn filling the frame on flat tan, tiny Doug in the corner holding a lettuce. Cut to a bright Colombian pasture. DOUG DEATHS: 107. DISTANCE TO HIPPO: 11,000 km.]
 
-Last time, one animal was left off the list on purpose. Doug was told it lives in Africa, so he went as far from Africa as he could.
+One animal was left off Doug's fight list on purpose. Doug was told it lives in Africa, so he went as far from Africa as he could.
 
 Far away.
 
@@ -12,13 +12,13 @@ Far away.
 
 Cocaine Hippos.
 
-Doug is in Colombia, about eleven thousand kilometers from the hippo rivers of southern Africa, and he has never felt safer in his life.
+Doug is in Colombia, about eleven thousand kilometers from the hippo rivers of southern Africa, and he has never felt safer.
 
 [Doug in a sunhat on a green riverbank, arms out, relaxed. Map inset: a dotted line from Colombia to southern Africa.]
 
 In the nineteen-eighties, Pablo Escobar had four hippos brought to his private estate in Colombia: one male and three females.
 
-After his death in nineteen ninety-three, the hippos were judged too dangerous to catch, so they were left where they were.
+After his death in nineteen ninety-three, the hippos were judged too dangerous to move, so they were left where they were.
 
 They did not stay where they were.
 
@@ -32,17 +32,17 @@ Here's the problem with Doug's plan. He went as far from Africa as he could, and
 
 By late twenty twenty-three, the official government count was one hundred and sixty-nine. A field census published that same year, using boats, drones and footprints, put the real number somewhere between one hundred and eighty-one and two hundred and fifteen.
 
-Going from four animals to around two hundred is like parking one family car on an empty street, coming back thirty years later, and finding a traffic jam that runs out of sight.
+Going from four animals to around two hundred is like parking one family car on an empty street and later finding a traffic jam that runs out of sight.
 
-In twenty twenty-two, Colombia's environment ministry officially declared the hippo an invasive species. Colombian biologists have warned that without serious action, the population could reach about one thousand four hundred by twenty forty.
+In twenty twenty-two, Colombia's environment ministry declared the hippo an invasive species. Colombian biologists have warned that without action, the population could reach about one thousand four hundred by twenty forty.
 
 [Doug finally turns. The pod is very close. Doug waves. The hippos sink back under the surface.]
 
-The hippos looked at Doug for a long moment, decided he was not grass, and went back under. Doug is fine.
+The hippos looked at Doug, decided he was not grass, and went back under. Doug is fine.
 
 [DOUG DEATHS: 107. DISTANCE TO HIPPO: 1 km.]
 
-He came to the one continent where hippos were never supposed to be, and he was still outnumbered.
+He came to a continent where hippos were never supposed to be, and he was still outnumbered.
 
 ## The Honk
 
@@ -52,7 +52,7 @@ Doug is now in Mozambique, about a kilometer from a lake full of hippos, which h
 
 [Dusk savanna, gold. Doug on a low hill with a portable speaker. A lake in the far distance.]
 
-A hippo's best-known call is a long wheezing grunt that rolls into a series of loud, deep honks. Scientists call it, without much imagination, the wheeze honk.
+A hippo's best-known call is a long wheezing grunt that rolls into a series of loud, deep honks, and scientists call it, without much imagination, the wheeze honk.
 
 Over the noise of a river, that sound carries at least a mile, which is more than a kilometer and a half. That is about fifteen football pitches laid end to end.
 
@@ -62,11 +62,9 @@ In twenty twenty-two, researchers in the Maputo Special Reserve recorded the cal
 
 Some groups heard a member of their own group, some heard a neighbor from the same lake, and some heard a complete stranger.
 
-The hippos could clearly tell the difference. When a neighbor called, they sometimes answered or wandered over to look. When a stranger called, the reaction was much stronger: louder replies, a closer approach, and more marking of territory.
+The hippos could clearly tell the difference: when a neighbor called, they sometimes answered or wandered over to look. When a stranger called, the reaction was much stronger: louder replies, a closer approach, and more marking of territory.
 
 The strange part is how a hippo marks its territory. It sprays its dung around, flicking it in all directions with its tail.
-
-The researchers concluded that hippo groups are territorial units that put up with the neighbors they know and save their real hostility for everyone else.
 
 [Doug holds up the speaker. Speech bubble: "hi friend?". The speaker plays a honk.]
 
@@ -86,27 +84,21 @@ On land.
 
 The Night Walk.
 
-During the day, a hippo is mostly a pair of ears in a river. That changes at sunset, when the whole group climbs out of the water and goes looking for dinner.
+During the day, a hippo is mostly a pair of ears in a river, but that changes at sunset, when the whole group climbs out of the water and heads inland to feed.
 
 [Night blue. A trampled path winds from a river through tall grass. Doug pitches a small tent right in the middle of it.]
 
-Hippos spend five to six hours a night grazing on land. They leave the water just before dark and follow the same branching, well-trampled paths night after night, often for three to five kilometers.
+Hippos spend five to six hours a night grazing on land, leaving the water just before dark and following the same branching, well-trampled paths night after night, often for three to five kilometers.
 
-When food runs short in a drought, they have been known to travel forty to sixty kilometers to find more.
-
-An adult needs about twenty-five to forty kilograms of plants a day, mostly grass, and it gets that food on these night walks. Forty kilograms is nearly two fully packed airline suitcases of grass, eaten one mouthful at a time in the dark.
+An adult needs about twenty-five to forty kilograms of plants a day, mostly grass, and it gets that food on these night walks. Forty kilograms is nearly two fully packed airline suitcases of vegetation, consumed one mouthful at a time in the dark.
 
 [Label: "40 KG". Two suitcases on a scale, stuffed with grass.]
 
-Doug chose this spot because it was flat, clear and had no grass on it. The reason it was flat, clear and had no grass on it is that something very heavy walks over it every single night.
+Doug selected this spot because it was flat, clear and had no grass on it. The reason it was flat, clear and had no grass on it is that something extremely heavy travels over it every single night.
 
-The worst part is that none of this involves hunting. The animal coming up the path is a herbivore, it is not looking for Doug at all, and that does not help in the slightest.
+The worst part is that none of this involves hunting: the animal coming up the path is a herbivore, it is not looking for Doug at all, and that does not help in the slightest.
 
 [Close on the tent. Inside, a torch beam. Outside, two small eyes at the height of the tent roof.]
-
-In the dark, a hippo on its way to dinner is not checking the path for campers, and Doug's tent was not built to be noticed from that height.
-
-Hippos use the same route because it is their route, and to an animal that size, a tent in the middle of it is just something in the way.
 
 [Dust cloud. The tent is gone. The cap sits on the path. Ghost Doug rises. DOUG DEATHS: 108.]
 
@@ -114,27 +106,27 @@ Doug has died. Doug did not agree to this. He did, however, choose the campsite.
 
 [DISTANCE TO HIPPO: 50 m.]
 
-The path was clear again by morning, which is exactly how it stays clear.
+By sunrise the hippo was back in the river, the path was clear again, and that is exactly how it stays clear.
 
 ## The Charge
 
 The Charge.
 
-Doug has spotted a hippo about fifty meters away, grazing quietly, and he has made a calculation. It is shaped like a sofa. He is shaped like a man who can run.
+Doug has spotted a hippo about fifty meters away, grazing quietly, and he has made a calculation. It is shaped like a sofa, and he is shaped like a man who can run.
 
 [Riverbank mud, early morning. Doug in a sprinter's crouch. A hippo in the distance, head down in the grass.]
 
 An adult male common hippo weighs on average about one and a half tonnes, which is roughly the weight of a small family car. The biggest males weigh a great deal more than that.
 
-When it is agitated, that car can charge at more than thirty kilometers an hour. That is the speed of a quick cyclist in town, and faster than almost any person can run.
+When it is agitated, that car can charge at more than thirty kilometers an hour, the speed of a quick cyclist in town, and faster than almost any person can run.
 
 [Label: "30+ KM/H". A speed line behind the hippo.]
 
-For a long time, nobody had looked closely at how something that heavy actually moves at speed.
+Until recently, scientific descriptions of how hippos move on land were limited and frequently contradictory.
 
-In twenty twenty-four, researchers at the Royal Veterinary College in London filmed hippos at a park in North Yorkshire. They added online video until they had one hundred and sixty-nine running strides from thirty-two different hippos. They found that hippos almost only trot, even at top speed, and never really switch to a gallop the way a horse does.
+In twenty twenty-four, researchers at the Royal Veterinary College in London filmed hippos at a park in North Yorkshire. They added online video until they had one hundred and sixty-nine running strides from thirty-two different hippos. They found that hippos almost only trot, even at top speed, and never really switch to a gallop the way a horse does. The work was partly meant to help veterinarians care for hippos that have trouble moving, which is a sensible, practical goal that Doug is about to complicate.
 
-Here's where it gets worse. At full speed, the fastest hippos get all four feet off the ground at the same time. In the study, that happened for about fifteen percent of the time they spent running, for a little under a third of a second each time.
+Then the footage got strange. At full speed, the fastest hippos get all four feet off the ground at the same time. For the fastest ones, that airborne moment took up as much as fifteen percent of each stride.
 
 [Freeze frame: a hippo mid-stride, all four feet in the air. Red arrow pointing at the gap under its feet.]
 
@@ -154,31 +146,31 @@ The sofa had been doing this for years before Doug ever laced up his shoes.
 
 The Red Sweat.
 
-At ten meters, Doug can see something that worries him. The hippo's back is shining with a red-orange liquid, and it looks very much like the animal is bleeding.
+At ten meters, Doug can see something that worries him: the hippo's back is shining with a red-orange liquid, and it looks very much like the animal is bleeding.
 
 [Riverbank, harsh midday sun. A hippo on the bank, its back glistening with orange-red fluid. Label: "NOT BLOOD".]
 
-It isn't blood, and it isn't really sweat either, because hippos have no sweat glands. Glands in the skin release a thick, oily fluid that starts out clear and turns red within minutes, then slowly turns brown, which is where the old myth that hippos sweat blood comes from. That red color can hold on the skin for several hours.
+It isn't blood, and technically it isn't sweat either, because hippos have no sweat glands. Glands in the skin release a thick, oily fluid that starts out clear and turns red within minutes, then slowly turns brown, which is where the old myth that hippos sweat blood comes from. That red color can hold on the skin for several hours.
 
-In two thousand four, a team of chemists in Japan worked out what the fluid actually is. They found two pigments, one red and one orange, and named them hipposudoric acid and norhipposudoric acid.
+In two thousand four, a team of chemists in Japan worked out what the fluid actually is. They found two pigments, one red and one orange, and named them hipposudoric acid and norhipposudoric acid. Chemically, both turned out to be unusual, unexpectedly acidic aromatic compounds.
 
-Both pigments absorb ultraviolet light, the part of sunlight that burns skin. The red one also slowed the growth of two kinds of bacteria that cause infections, even at weaker strengths than on the hippo itself.
+Both pigments absorb ultraviolet light, the part of sunlight that burns skin. The red one also slowed the growth of two kinds of bacteria that cause infections.
 
 [Diagram: sun rays bouncing off the orange layer. A small red X over a cartoon bacterium.]
 
-The skin underneath is surprisingly fussy, because on the back and rump it is five to six centimeters thick, about as thick as a bank card is tall.
+The skin underneath is thick, five to six centimeters on the back and rump, about as thick as a bank card is tall.
 
-The very outer layer, though, is thin and loses water fast in the open air. The red coating dries like lacquer and protects it from drying out, from sunburn and from infection.
+The fussy part is the very outer layer, which is thin and loses water fast in the open air. The red coating dries like lacquer and protects it from drying out, from sunburn and from infection. The rest of their protection is simpler: they spend most of the day in the water.
 
-Here's the part Doug missed. The hippo is not hurt at all. It's wearing sunscreen.
+Here's the part Doug missed: the hippo is not hurt at all. It's wearing sunscreen.
 
 [Doug walks up holding a sticking plaster. Speech bubble: "you ok?". The hippo walks past him without looking and slides into the river.]
 
-Doug, meanwhile, is not wearing any.
+Doug, meanwhile, is not wearing any protection whatsoever.
 
 [Doug alone on the bank, holding the plaster, glowing pink with sunburn. DOUG DEATHS: 109.]
 
-Doug survived this one. The narrator would like it noted that this was not the plan.
+Doug survived this one, which was not the plan.
 
 [DISTANCE TO HIPPO: 5 m.]
 
@@ -188,21 +180,21 @@ The hippo went back into the water fully protected, and Doug stood in the sun ho
 
 The Yawn.
 
-Five meters from the riverbank, a hippo opens its mouth as wide as it will go and simply holds it there. It looks bored. It looks sleepy. It is neither.
+Five meters from the riverbank, a hippo opens its mouth as wide as it possibly can and deliberately holds it there. It looks bored, or perhaps sleepy, and it is neither. Doug took it as a sign that the hippo was finally relaxed around him.
 
 [Riverbank mud. A hippo in the shallows, mouth wide open toward Doug. Doug, five meters away, tilts his head.]
 
-In hippos, the yawn is a threat display. Young males start holding yawning contests with each other at around seven years old, and adults keep using it for the rest of their lives.
+In hippos, the yawn is a threat display, and young males start holding yawning contests with each other at around seven years old.
 
 A hippo's jaws open to about one hundred and fifty degrees, while yours open to about forty-five. That is the difference between a door left slightly ajar and a door thrown all the way back against the wall.
 
 [Two angle diagrams side by side: a human jaw at 45 degrees, a hippo jaw at 150 degrees. Label: "150°".]
 
-Inside that gap are two very different kinds of teeth. The molars at the back are for grinding grass. The long canines at the front are for fighting.
+Inside that gap are two very different kinds of teeth. The molars at the back are for grinding grass, and the long canines at the front are for fighting.
 
 In a big male, a canine can grow to about fifty centimeters long, roughly twice the length of a female's. That is a standard thirty-centimeter school ruler, plus most of a second one.
 
-They sharpen themselves, because every time the jaw opens and closes, the lower canines grind against the shorter upper ones, and that constant wear keeps the edges honed.
+They sharpen themselves automatically, because every time the jaw opens and closes, the lower canines grind against the shorter upper ones, and that constant wear keeps the edges honed.
 
 [A ruler and a half laid next to a lower canine. Red arrow pointing at the tip.]
 
@@ -212,7 +204,7 @@ Here's the thing about the yawn. The hippo is not tired. It is telling Doug exac
 
 [Doug yawns back, politely, one hand over his mouth. Speech bubble: "same".]
 
-Doug assumed this was small talk, but in hippo he had just accepted a challenge.
+Doug's own jaw has never frightened anyone. Doug assumed this was small talk, but in hippo he had just accepted a challenge.
 
 [Cut away to the riverbank from far off. A dust cloud. The cap lands in the mud. Ghost Doug rises. DOUG DEATHS: 110.]
 
@@ -226,13 +218,13 @@ In the water.
 
 The Shallows.
 
-Doug has done some reading, and according to the reading, hippos cannot swim. Doug can swim, so he has waded into the river up to his waist, two meters from the bank, feeling extremely well informed.
+Doug has done some reading, and according to the reading, hippos cannot swim. Doug can swim, so he has waded into the river up to his waist, two meters from the bank.
 
 [Murky river, green-brown. Doug waist-deep, smug, arms folded. Calm water around him.]
 
-The reading was correct: adult hippos do not really swim, and they cannot float either. Their bodies are so dense, helped along by heavy, thickened bones, that they simply sink to the bottom.
+The reading was correct: adult hippos do not really swim, and they cannot float either. Their bodies are so dense, helped along by heavy, thickened bones, that they sink.
 
-This is an animal whose closest living relatives, according to both genetic and fossil studies, are whales and dolphins, and it still never learned to swim.
+Its closest living relatives, according to both genetic and fossil studies, are whales and dolphins, and it still never learned to swim.
 
 So a hippo does not move through the water so much as along the bottom of it. It walks, pushes off the riverbed and bounds forward, and the water carries most of its weight for it.
 
@@ -240,9 +232,11 @@ So a hippo does not move through the water so much as along the bottom of it. It
 
 In two thousand nine, two American biologists filmed hippos moving underwater and studied the clips frame by frame. They found a bounding, gallop-like gait with long moments where no foot touched the bottom at all.
 
-They compared it to moving in very low gravity. Essentially, under the river, a hippo moves the way an astronaut moves on the Moon.
+They compared it to moving in very low gravity: essentially, under the river, a hippo moves the way an astronaut moves on the Moon.
 
 Before it goes under, the nostrils close and the ears fold shut. A mature hippo can stay down for about five minutes, roughly the time it takes to soft-boil an egg, although a typical dive is closer to two.
+
+In the underwater clips, the hippos averaged a little under half a meter per second, about the pace of a slow stroll. That is not fast, but it doesn't need to be fast to reach something that is standing still.
 
 [Label: "5 MIN". An egg timer on the riverbank.]
 
@@ -274,17 +268,17 @@ They can even sleep down there, because a reflex pushes a sleeping hippo up to t
 
 [Diagram: a hippo outline sinking, rising for a breath with eyes closed, and sinking again. Label: "ASLEEP".]
 
-During the day, a group may keep to only about two hundred meters of shoreline. A stretch of river with hippos in it tends to stay that way.
+During the day, a group may keep to only about two hundred meters of shoreline.
 
 Bulls defend their own stretch of river, usually fifty to one hundred meters long, about the length of a football pitch. Doug paddled into one without noticing the sign, because there is no sign.
 
-A team that canoed the length of Zambia's Kafue River in twenty twenty-five to count hippos put it plainly: hippos are capable of capsizing boats. On the Zambezi, guided canoe trips have been tipped over by a hippo coming up from directly underneath.
+A team that canoed the length of Zambia's Kafue River in twenty twenty-five to count hippos put it plainly: hippos are capable of capsizing boats. That river is considered one of the last great hippo strongholds in Africa. They are dangerous to people, especially to people travelling by boat. On the Zambezi, guided canoe trips have been tipped over by a hippo coming up from directly underneath.
 
 The problem with Doug's route is simple. From a canoe, a hippo is a rock until it isn't.
 
 [Close-up on one of the grey rocks. Two small ears flick.]
 
-Doug noticed that the rock had ears, and that the rock was breathing. He was directly above it at the time.
+Doug noticed the ears too late. He was directly above them at the time, and the rock underneath them was breathing.
 
 [The canoe lifts out of the water and tips. Splash. The canoe settles upright again, empty except for the red cap sitting neatly on the seat. Ghost Doug rises. DOUG DEATHS: 112.]
 
@@ -310,11 +304,11 @@ Most of the time, that defense is noise and display: the yawning, the staring, a
 
 A hippo fight means clashing tusks, rearing up out of the water, and shoving each other with their lower jaws. Two average bulls together weigh about three tonnes, which is two small family cars pushing bumper to bumper in a river.
 
-Remember the trot that briefly leaves the ground? In the Royal Veterinary College study, hippos mostly sprinted when one of them was chasing off another, so the fastest thing a hippo does is usually aimed at a rival.
+In the Royal Veterinary College footage, the fastest hippos on film were escaping lions or rhinos, or going after each other. The quickest strides of all came from hippos in the middle of a fight.
 
-Neither bull is thinking about Doug. Each one is thinking about the other bull and about the next fifty meters of water.
+Neither bull is thinking about Doug, because each one is thinking about the other bull and about the next fifty meters of water.
 
-The most disturbing part is what that means for Doug. The fight was never about him. He was just standing in it.
+That leaves Doug with one problem. The fight was never about him. He was just standing in it.
 
 [Doug looks left, then right. Speech bubble: "hi friends?".]
 
@@ -330,13 +324,13 @@ The bulls kept arguing for another hour, and neither of them ever found out that
 
 The Mouth.
 
-There is nowhere closer to go. Doug is standing at the river's edge, directly in front of an open hippo mouth, and he has brought a lettuce.
+There is nowhere closer to go. Doug is standing at the river's edge, directly in front of an open hippo mouth, and he has brought a lettuce, the largest one the shop had.
 
 [Dusk at the riverbank. A hippo's mouth fully open, filling most of the frame like a doorway. Doug, tiny, stands in front of it holding out a lettuce.]
 
 Doug's reasoning is that hippos are herbivores, which is true. A hippo lives almost entirely on grass, grazed at night and ground down by the broad molars at the back of its mouth.
 
-It does not hunt, it does not stalk, and it has no interest in meat whatsoever.
+It has no interest in eating Doug, and it never has.
 
 And yet the number you will usually hear is that hippos kill around five hundred people a year. If that is right, it is more than one person every single day.
 
@@ -344,17 +338,19 @@ And yet the number you will usually hear is that hippos kill around five hundred
 
 That figure is widely repeated, including by researchers who study hippos, but it comes with a warning label. Hippos are hard and dangerous to study, and they have been neglected by science partly for exactly that reason. In many areas, nobody even has a good estimate of how many hippos there are.
 
-That is why a team at the University of Leeds is building the first database of hippos across the whole of Africa.
+That is part of why a team at the University of Leeds is building Africa's first hippo database, starting in the south of the continent.
 
 What researchers and naturalists do agree on is the ranking. That Leeds team calls hippos one of the deadliest large mammals in the world, and National Geographic lists them among Africa's most dangerous animals.
 
 [Map of Africa with rivers highlighted. Small hippo icons along the waterways.]
 
-A big male can be up to five meters long, longer than most family cars. Almost everything in this video has been a hippo deciding that something was too close: a stranger's voice, a tent on a path, a canoe over its head, a man between two bulls.
+A big male can be up to five meters long, longer than most family cars.
+
+Doug had thought about this carefully: a herbivore, he reasoned, would appreciate a vegetable, and an animal with a mouth that size could appreciate a great many vegetables at once.
 
 Up to now, the danger came from the hippo getting near Doug, or from Doug wandering somewhere the hippo already was. This time, Doug walked all the way up to the hippo himself, on purpose, holding a salad.
 
-The worst part of this whole video fits in four short sentences. It doesn't want to eat Doug. It never did. It's a vegetarian. It killed him anyway.
+The worst part fits in four short sentences. It doesn't want to eat Doug. It never did. It's a vegetarian. It killed him anyway.
 
 [Doug steps forward with the lettuce, into the doorway of the mouth.]
 
@@ -368,4 +364,4 @@ The hippo kept the lettuce, and the cap was the only thing it let leave.
 
 Doug deaths: one hundred and fourteen. Tell us in the comments which animal Doug should stay away from next.
 
-<!-- words: 2952 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:08 at 195 wpm · draft 1 (2026-10-09) · 10 items · item words: Cocaine Hippos 267, The Honk 278, The Night Walk 292, The Charge 279, The Red Sweat 280, The Yawn 279, The Shallows 279, The Canoe 293, Bull Territory 298, The Mouth 377 · first item name at spoken word 30 · item 1 twist at spoken word 131 (about 0:40) · first death at spoken word 838 (about 4:18) · "In the water." at 58 percent · 206 sentences, avg 14.3 words, max 34 · Flesch about 73 by script estimate (screener to confirm with a proper tool) · outro 19 words · tics: However 1 (inside "He did, however,"), actually 2, essentially 1, incredibly 0 · twist markers: Here is the problem / The strange part / The worst part / Here is where it gets worse / Here is the part Doug missed / Here is the thing / But here is where it falls apart / The problem with Doug route / The most disturbing part / The worst part -->
+<!-- words: 2912 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 14:56 at 195 wpm · draft 2 (2026-10-09) · 10 items · item words: Cocaine Hippos 253, The Honk 254, The Night Walk 222, The Charge 292, The Red Sweat 292, The Yawn 293, The Shallows 307, The Canoe 304, Bull Territory 292, The Mouth 374 · first item name at spoken word 29 · item 1 twist at spoken word 127 (about 0:39) · first death at spoken word 721 (about 3:42) · "In the water." at 56 percent · 194 sentences, avg 15.0 words, max 35 · Flesch 70.6 (textstat) · every item has a sentence of 6 words or fewer · outro 19 words · tics: However 1, actually 1, essentially 1, incredibly 0 · twist markers: Here's the problem / The strange part / The worst part / Then the footage got strange / Here's the part Doug missed / Here's the thing / But here's where it falls apart / The problem with Doug's route / That leaves Doug with one problem / The worst part -->
