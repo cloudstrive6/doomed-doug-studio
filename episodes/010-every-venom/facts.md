@@ -7,7 +7,7 @@ who the weapon is really meant for", "most predators take the hint", "the narrat
 "has earned every bit of that reputation", "closes the distance by itself"). Everyday comparisons are marked "common
 knowledge" and checked by arithmetic.
 
-Checked 2026-10-09 (draft 1). "Verified" = I read the claim on the page (WebFetch). "Search snippet" = the page blocked
+Checked 2026-10-09 (draft 1; updated for draft 2 after the screener review). "Verified" = I read the claim on the page (WebFetch). "Search snippet" = the page blocked
 WebFetch (403/cookie wall) and the claim was confirmed through search-result text quoting that page; the screener should
 re-open these if possible.
 
@@ -18,8 +18,8 @@ octopus). The blue-ringed octopus "enough venom to paralyze ten adults" is a pot
 ## Flagged items from the brief (status)
 - **Platypus morphine:** supported by the Australian Platypus Conservancy ("not relieved by standard analgesics such as
   morphine") and by the 1992 MJA case (Fenner, Williamson & Myers, "Platypus envenomation: a painful learning experience",
-  Med J Aust 1992, PMID 1454022), confirmed via search snippets. The script says "even strong doses of morphine gave him
-  almost no relief". No dose numbers are spoken.
+  Med J Aust 1992, PMID 1454022), confirmed via search snippets. Draft 2 softens the line to "morphine gave him little relief" (screener advisory: one secondary account says repeated
+  doses eventually made the pain tolerable). No dose numbers are spoken.
 - **Hornet deaths in Japan:** the 191 figure is "wasps and bees" (the ministry category), not hornet-only. The script says
   "wasp and bee stings". The allergy line is attributed to "an earlier Japanese review" (1979-1998 data).
 - **Hornet alarm pheromone:** the 2003 Nature paper shows the alarm pheromone is in the venom. The "swatting can release it"
@@ -57,10 +57,10 @@ octopus). The blue-ringed octopus "enough venom to paralyze ten adults" is a pot
 | One of very few venomous mammals (venom in only four mammal orders; only the male platypus among monotremes) | https://usurj.journals.usask.ca/article/view/655 (verified) |
 | Only adult/mature males carry venom; hollow spur on the inside of each hind ankle | https://platypus.asn.au/platypus-venom-and-spurs/ (verified: "located on each inner hind ankle"; venom produced only by mature males); hollow keratin spur: https://www.publish.csiro.au/AM/AM12011 (search snippet) |
 | Spur about 15-18 mm long | https://platypus.asn.au/platypus-venom-and-spurs/ (verified: "typically 15-18 millimetres long") |
-| "roughly the length of your fingernail" | Common knowledge (an adult thumbnail is about 1.5 cm long) |
+| "a little longer than a staple" | Common knowledge (a standard office staple is about 12-13 mm across) |
 | Spur connected to a venom gland in the thigh (crural gland) | https://platypus.asn.au/platypus-venom-and-spurs/ (verified: "paired glands (known as crural glands) located in the upper thigh") |
 | Venom production peaks in the breeding season; used in competition between males | https://platypus.asn.au/platypus-venom-and-spurs/ (verified); https://livescience.com/27572-platypus.html (search snippet: spurs and venom help males compete for mates) |
-| Morphine gave almost no relief | https://platypus.asn.au/platypus-venom-and-spurs/ (verified: "not relieved by standard analgesics such as morphine"); Fenner PJ, Williamson JA, Myers D (1992) Med J Aust, PMID 1454022, https://pubmed.ncbi.nlm.nih.gov/1454022/ (search snippets via https://en.wikipedia.org/wiki/Platypus_venom and https://bio.davidson.edu/people/kabernd/seminar/2001/Home/lae/platypus%20attack%201.html) |
+| Morphine gave him little relief | https://platypus.asn.au/platypus-venom-and-spurs/ (verified: "not relieved by standard analgesics such as morphine"); Fenner PJ, Williamson JA, Myers D (1992) Med J Aust, PMID 1454022, https://pubmed.ncbi.nlm.nih.gov/1454022/ (search snippets via https://en.wikipedia.org/wiki/Platypus_venom and https://bio.davidson.edu/people/kabernd/seminar/2001/Home/lae/platypus%20attack%201.html) |
 | 1992 case written up by Australian doctors; man spurred in the hand | Same 1992 MJA paper (search snippet: case patient, hand/wrist nerve block) |
 | Pain and swelling can last weeks; some weakness can last months | https://platypus.asn.au/platypus-venom-and-spurs/ (verified: "several weeks"; muscle wasting can persist for months) |
 | Not known to be life threatening | https://platypus.asn.au/platypus-venom-and-spurs/ (verified: "not known to be life-threatening") |
@@ -74,6 +74,7 @@ octopus). The blue-ringed octopus "enough venom to paralyze ten adults" is a pot
 | Justin Schmidt, entomologist, ranked sting pain 1 to 4 from his own stings; bullet ant at the top | https://www.sciencefriday.com/segments/from-nettles-to-volcano-a-pain-scale-for-insect-stings/ (verified: scale one to four); https://www.discoverwildlife.com/animal-facts/insects-invertebrates/bullet-ant-initiation-ritual (verified: "tops the Schmidt sting pain index") |
 | Schmidt compared it to walking over flaming charcoal with a nail in the heel (paraphrased, credited) | https://www.sciencefriday.com/segments/from-nettles-to-volcano-a-pain-scale-for-insect-stings/ (verified quote: "Like walking over flaming charcoal with a three-inch nail embedded in your heel") |
 | Main toxin poneratoxin; keeps nerve sodium channels from switching off (blocks inactivation), prolonging the pain signal | https://pubmed.ncbi.nlm.nih.gov/27266841/ (search snippet: blocked inactivation of sodium channels); https://livescience.com/animals/ants/worlds-most-painful-ant-sting-targets-nerves-in-the-same-way-scorpion-venom-does (search snippet: prolongs pain signal by keeping sodium channels open) |
+| Frame: "Its sting does not stop when the ant lets go... barely getting started" (draft 2 replaces the unsourced general claim about insect stings fading in minutes, which is cut) | https://www.discoverwildlife.com/animal-facts/insects-invertebrates/bullet-ant-initiation-ritual (verified: "symptoms can last for up to 24 hours"); poneratoxin rows above (pain signal keeps firing) |
 | Pain up to 24 hours | https://www.discoverwildlife.com/animal-facts/insects-invertebrates/bullet-ant-initiation-ritual (verified: "symptoms can last for up to 24 hours") |
 | Sateré-Mawé of the Brazilian Amazon, coming of age ceremony; ants sedated with a plant mixture (chopped cashew leaves), woven into gloves stingers inward; repeated many times over a man's life | https://www.discoverwildlife.com/animal-facts/insects-invertebrates/bullet-ant-initiation-ritual (verified) |
 
@@ -113,6 +114,7 @@ octopus). The blue-ringed octopus "enough venom to paralyze ten adults" is a pot
 | 5-9 cm long; nocturnal | Same Frontiers review (verified: "2 to 3.5 inches (5-9 cm)"; nocturnal) |
 | "roughly the length of your finger" | Common knowledge (an adult index finger is about 7-8 cm) |
 | Venom triggers catecholamine (stress hormone) release that strains the heart | Same Frontiers review (verified: catecholamine release; myocarditis; reduced pumping) |
+| Stings linked to inflammation of the heart muscle (myocarditis) and a heart that struggles to pump | Same Frontiers review (verified: myocarditis; reduced pumping / cardiac dysfunction) |
 | Over 1.2 million scorpion stings a year worldwide, over 3,250 deaths; seven at-risk areas; 2.3 billion people at risk | Chippaux JP & Goyffon M (2008) Acta Tropica 107(2):71-79, https://www.documentation.ird.fr/hor/fdi:010042765 (search snippet of abstract) |
 | Scorpions glow under UV, blue-green, due to compounds in the exoskeleton (hyaline layer of the cuticle; beta-carboline and coumarin) | https://www.nbcnews.com/id/wbna43027595 (verified: glow from exoskeleton converting UV to visible light); https://www.mentalfloss.com/article/650144/why-do-scorpions-glow (search snippet: beta-carboline and 7-hydroxy-4-methylcoumarin; bright green) |
 | Reason unknown; ideas such as finding each other, luring prey, sunscreen did not hold up; some researchers think it has no function | https://www.nbcnews.com/id/wbna43027595 (verified) |
@@ -127,7 +129,7 @@ octopus). The blue-ringed octopus "enough venom to paralyze ten adults" is a pot
 | Coils into loops and rubs its scales together to make a rasping/sizzling sound when threatened | https://www.guinnessworldrecords.com/world-records/70257-most-widely-distributed-venomous-snake (verified: raspy sound by rubbing scales together); https://en.wikipedia.org/wiki/Echis (verified: "sizzling sound", stridulation) |
 | "like water sizzling in a hot pan" | https://roundglasssustain.com/species/saw-scaled-viper (search snippet: compared to water hitting a hot frying pan) |
 | Name from serrated-looking scales | https://www.guinnessworldrecords.com/world-records/70257-most-widely-distributed-venomous-snake (verified: scales that look serrated) |
-| "probably bites and kills more people than any other species of snake" (Nigeria, 1970s, Warrell and colleagues) | https://www.ndm.ox.ac.uk/publications/61181 (search snippet; page 403); also Guinness (verified: "bites and kills more people") |
+| "probably bites and kills more people than any other species of snake" (Nigeria, 1970s, Warrell and colleagues); draft 2 kicker keeps the hedge: "the snake that probably kills more people than any other" | https://www.ndm.ox.ac.uk/publications/61181 (search snippet; page 403); also Guinness (verified: "bites and kills more people") |
 | Victims could occupy about 10% of hospital beds in the savanna region of Nigeria | Warrell DA et al. (1974), https://pmc.ncbi.nlm.nih.gov/articles/PMC1612524 (search snippet: "may occupy 10 per cent of hospital beds in the savanna region") |
 | WHO: about 5.4 million snakebites a year; 81,410 to 137,880 deaths a year | https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming (search snippet of the 2023 fact sheet) |
 
@@ -152,12 +154,12 @@ octopus). The blue-ringed octopus "enough venom to paralyze ten adults" is a pot
 | Claim | Source |
 |---|---|
 | Not black; skin olive to grey | https://www.nationalgeographic.com/animals/reptiles/facts/black-mamba (verified) |
-| Up to about 4.5 m (14 ft); about 2.5 m (8.2 ft) more typical | https://www.nationalgeographic.com/animals/reptiles/facts/black-mamba (verified); https://www.africansnakebiteinstitute.com/snake/black-mamba/ (verified: max 4.5 m) |
-| "longer than a double bed" | Common knowledge (about 2 m) |
+| Up to about 4.5 m (14 ft), more than 4 m; about 2.5 m (8.2 ft) more typical | https://www.nationalgeographic.com/animals/reptiles/facts/black-mamba (verified); https://www.africansnakebiteinstitute.com/snake/black-mamba/ (verified: max 4.5 m) |
+| "about the length of a family car" (4.5 m max); "still longer than a sofa" (2.5 m typical) | Common knowledge (a mid-size family car is about 4.5-4.8 m long; a three-seat sofa is about 2-2.2 m) |
 | Up to about 20 km/h (12.5 mph) in short bursts | https://www.nationalgeographic.com/animals/reptiles/facts/black-mamba (verified: 12.5 mph); "short bursts": https://www.livescience.com/43559-black-mamba.html (search snippet) |
 | "relaxed bike ride" | Common knowledge (casual cycling is about 15-20 km/h) |
 | Quick to escape; if cornered strikes repeatedly | https://www.africansnakebiteinstitute.com/snake/black-mamba/ (verified) |
-| Neurotoxic; difficulty breathing within half an hour | https://www.africansnakebiteinstitute.com/snake/black-mamba/ (verified: "may cause difficulty with breathing within half an hour") |
+| Neurotoxic; difficulty breathing within half an hour ("roughly the length of a lunch break": common knowledge, a typical lunch break is 30 minutes) | https://www.africansnakebiteinstitute.com/snake/black-mamba/ (verified: "may cause difficulty with breathing within half an hour") |
 | Before antivenom, a bite was considered almost always fatal | https://www.nationalgeographic.com/animals/reptiles/facts/black-mamba (verified: "almost always fatal"); caveat on data quality: https://en.wikipedia.org/wiki/Mamba (search snippet) |
 | Named for the blue-black inside of the mouth, shown when threatened (gapes) | https://www.nationalgeographic.com/animals/reptiles/facts/black-mamba (verified); https://www.africansnakebiteinstitute.com/snake/black-mamba/ (verified: gapes, "black inner lining of the mouth") |
 
@@ -169,7 +171,8 @@ octopus). The blue-ringed octopus "enough venom to paralyze ten adults" is a pot
 | Big male about 10 cm stretched out | https://www.australiangeographic.com.au/nature-wildlife/2017/02/worlds-deadliest-spider-the-sydney-funnel-web/ (verified: "reached 10cm stretched out") |
 | "about the width of your palm" | Common knowledge (adult palm about 8-10 cm wide) |
 | Rears up and shows fangs when threatened | https://australianmuseum.net.au/Sydney-Funnel-web-Spider/ (search snippet: "rearing and displaying their impressive fangs") |
-| Males behind all recorded deaths; 13 recorded deaths | https://australian.museum/learn/animals/spiders/funnel-web-spiders-group/ (verified: "Only male spiders have been responsible for all recorded funnel-web envenomation deaths"; thirteen recorded deaths) |
+| Funnel-webs as a group: 13 recorded deaths; males responsible for all recorded funnel-web deaths; the male Sydney funnel-web probably responsible for most of the 13 (draft 1 wrongly said "all thirteen from this species"; corrected) | https://australian.museum/learn/animals/spiders/funnel-web-spiders-group/ (re-verified 2026-10-09 draft 2: "Only male spiders have been responsible for all recorded funnel-web envenomation deaths"; "The male of Atrax robustus, the Sydney Funnel-web Spider, is probably responsible for most of the thirteen recorded deaths") |
+| Bites from females have not killed anyone | Same page (verified draft 2: "bites by these females have not caused any deaths") |
 | Antivenom 1981; no deaths since | https://australian.museum/learn/animals/spiders/funnel-web-spiders-group/ (verified) |
 | A museum arachnologist: death has occurred within 15 minutes | Dr Robert Raven, Queensland Museum, in https://www.australiangeographic.com.au/nature-wildlife/2017/02/worlds-deadliest-spider-the-sydney-funnel-web/ (verified) |
 | Key toxin severely affects humans and monkeys but not other mammals | https://australian.museum/learn/animals/spiders/funnel-web-spiders-group/ (verified: "Severely and similarly affects the nervous systems of humans and monkeys, but not of other mammals") |
@@ -183,6 +186,9 @@ octopus). The blue-ringed octopus "enough venom to paralyze ten adults" is a pot
 | Ranking from a 1979 study on mice (Broad, Sutherland & Coulter, Toxicon 1979) | https://arod.com.au/faq/__qa0f9944a2755/ (search snippet: 1979 LD50 ranking, "only a relative measure of a snake's toxicity to mice") |
 | Remote, semi-arid; Channel Country of south-western Queensland and north-eastern South Australia | https://australian.museum/learn/animals/reptiles/inland-taipan/ (verified) |
 | About 2 m long | https://australian.museum/learn/animals/reptiles/inland-taipan/ (verified: average about 2 m) |
+| "about as long as a door is tall" | Common knowledge (a standard interior door is about 2-2.1 m tall) |
+| In the wild eats almost only small mammals, especially the long-haired rat | https://australian.museum/learn/animals/reptiles/inland-taipan/ (verified draft 2: "feed entirely on small to medium-sized mammals", "particularly the Long-haired Rat") |
+| Other common name: fierce snake | https://australian.museum/learn/animals/reptiles/inland-taipan/ (verified draft 2: "Fierce Snake, Small-scaled Snake, Lignum Snake") |
 | Darker in winter, paler in summer; helps warm up / avoid overheating | https://australian.museum/learn/animals/reptiles/inland-taipan/ (verified) |
 | Shy, relatively placid; warning display first when provoked | https://australian.museum/learn/animals/reptiles/inland-taipan/ (verified) |
 | Only a handful of people bitten; all survived | https://australian.museum/learn/animals/reptiles/inland-taipan/ (verified) |
@@ -193,6 +199,7 @@ octopus). The blue-ringed octopus "enough venom to paralyze ten adults" is a pot
 | Claim | Source |
 |---|---|
 | Bell 1-2 cm; tentacles up to 1 m | https://australian.museum/learn/animals/jellyfish/irukandji-carukia-barnesi/ (verified) |
+| "roughly the length of a guitar" | Common knowledge (a full-size acoustic guitar is about 1 m long) |
 | "barely the size of your fingernail"; transparent, cube-shaped bell | https://www.australiangeographic.com.au/creatura-with-bec-crew/2025/08/feelings-of-impending-doom-thats-just-the-irukandji-jellyfish/ (verified: "barely the size of a fingernail"; "transparent, cube-shaped bell") |
 | Lives off northern Australia | https://australian.museum/learn/animals/jellyfish/irukandji-carukia-barnesi/ (search snippet: offshore northern Australian waters, WA to Queensland) |
 | Sting usually mild, can go unnoticed | https://www.aliem.com/doom-from-down-under/ (verified: "A mild sting (which can easily go unnoticed)"); https://en.wikipedia.org/wiki/Irukandji_syndrome (verified: "may barely be noticed at first") |
@@ -214,7 +221,8 @@ octopus). The blue-ringed octopus "enough venom to paralyze ten adults" is a pot
 | At least 63 recorded deaths in tropical Australian waters since 1884 | Fenner PJ & Williamson JA (1996) MJA, https://www.mja.com.au/journal/1996/165/11/worldwide-deaths-and-severe-envenomation-jellyfish-stings (verified) |
 | Swims actively, unlike most jellyfish | https://oceanservice.noaa.gov/facts/box-jellyfish.html (verified) |
 | 24 eyes in four groups of six | https://www.discoverwildlife.com/animal-facts/marine-animals/box-jellyfish (verified) |
-| Some eyes have lenses; 2005 Nature study: lenses nearly aberration-free, but the eyes are tuned to a blurry image | Nilsson DE et al. (2005) Nature 435:201-205, https://www.nature.com/articles/nature03484 ; https://sciencenews.org/article/built-blurs-jellyfish-have-great-eyes-cant-focus (search snippets: "great eyes that can't focus") |
+| Some box jellyfish eyes have lenses (Chironex: lens eyes used to avoid obstacles) | https://www.discoverwildlife.com/animal-facts/marine-animals/box-jellyfish (verified: "lower lens eyes") |
+| 2005 Nature study of a different, smaller box jellyfish species: lenses nearly aberration-free, but the eyes are tuned to a blurry image. Species studied: Tripedalia cystophora, NOT Chironex fleckeri (draft 1 implied Chironex; draft 2 names it as a different species) | Nilsson DE, Gislen L, Coates MM, Skogh C, Garm A (2005) "Advanced optics in a jellyfish eye", Nature 435:201-205, https://www.nature.com/articles/nature03484 ; https://lup.lub.lu.se/record/243201 (search snippet: Tripedalia cystophora); https://sciencenews.org/article/built-blurs-jellyfish-have-great-eyes-cant-focus (search snippet: "great eyes that can't focus"); smaller: Tripedalia bell about 1 cm vs up to 30 cm for Chironex, https://en.wikipedia.org/wiki/Tripedalia_cystophora |
 | No brain | https://animaldiversity.org/accounts/Chironex_fleckeri (verified) |
 | Uses lens eyes to avoid obstacles | https://www.discoverwildlife.com/animal-facts/marine-animals/box-jellyfish (verified: "lower lens eyes help them avoid obstacles") |
 | Can swim toward movement | https://australian.museum/learn/animals/jellyfish/boxjellyfish/ (verified) |

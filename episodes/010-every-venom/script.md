@@ -1,5 +1,5 @@
 <!-- axis: severity to a healthy adult who gets no help, least to most dangerous. Three spoken section headers: "Pain only." (before item 1), "Slow killers." (before item 3), "Fast killers." (before item 7, the midpoint zone shift). Backgrounds go from warm sand and jungle green (pain) to dusty orange and red-brown (slow) to dark teal and near-black (fast; the last two items are at night in the sea). The boss is the box jellyfish: the most venomous animal in the sea, a killer within minutes, and the only animal here that swims toward Doug. -->
-<!-- Episode 010: How Every Deadly Venom Would Kill Doug (working). Draft 1 (2026-10-09, script writer). DOUG DEATHS on screen at 84 from the first shot, ends at 93: nine deaths over twelve items. Survivals: Platypus ("Doug is fine."), Bullet Ant ("Doug is fine." with less confidence), Inland Taipan (narrator quietly disappointed). Prop: Doug's field guide (FRIEND? box per animal, red NO after each death, MAYBE for survivals), pending the art director; if rejected, drop the guide directions and the guide line in the final kicker becomes the cap on the sand. Costume gag inverted once (cat costume, funnel-web). Callbacks: one to 001 (cone snail, at the blue-ringed octopus) and one in-episode (saw-scaled viper, at the inland taipan). No time machine, suitcase, LIVE feed, meters or Buddy. No first aid, no treatment steps, no "what to do" lines anywhere. Every Doug death is cartoon only: X eyes, dust cloud, flat costume, floating cap. -->
+<!-- Episode 010: How Every Deadly Venom Would Kill Doug (working). Draft 2 (2026-10-09, script writer; screener fixes applied). DOUG DEATHS on screen at 84 from the first shot, ends at 93: nine deaths over twelve items. Survivals: Platypus ("Doug is fine."), Bullet Ant ("Doug is fine." with less confidence), Inland Taipan (narrator quietly disappointed). Prop: Doug's field guide (FRIEND? box per animal, red NO after each death, MAYBE for survivals), pending the art director; if rejected, drop the guide directions and the guide line in the final kicker becomes the cap on the sand. Costume gag inverted once (cat costume, funnel-web). Callbacks: one to 001 (cone snail, at the blue-ringed octopus) and one in-episode (saw-scaled viper, at the inland taipan). No time machine, suitcase, LIVE feed, meters or Buddy. No first aid, no treatment steps, no "what to do" lines anywhere. Every Doug death is cartoon only: X eyes, dust cloud, flat costume, floating cap. -->
 <!-- Pronunciation checks for the editor (preview with `narrate`): Sateré-Mawé = "sah-teh-REH mah-WEH"; poneratoxin = "poh-NEH-ruh-TOX-in"; Komodo = "kuh-MOH-doh"; tetrodotoxin = "teh-TROH-doh-TOX-in"; mamba = "MAHM-buh"; funnel-web = "FUN-ul web"; taipan = "TY-pan"; Irukandji = "ear-oo-KAN-jee"; Queensland = "KWEENZ-land"; arachnologist = "ar-ak-NOL-oh-jist". -->
 
 [Open on the thumbnail, 1.5 to 4 seconds. Cut to a riverbank at golden hour, warm sand and green reeds. Doug stands holding a small battered notebook: the field guide. DOUG DEATHS: 84 on screen.]
@@ -20,7 +20,7 @@ It looks like a joke that nature built out of spare parts: a duck's bill, a beav
 
 [A detailed platypus on the bank. Red arrow to its back ankle. Label: "SPUR".]
 
-Only the adult males carry it, in a hollow spur on the inside of each back ankle that is about fifteen to eighteen millimeters long, roughly the length of your fingernail.
+Only the adult males carry it, in a hollow spur on the inside of each back ankle that is about fifteen to eighteen millimeters long, a little longer than a staple.
 
 The spur is connected to a venom gland up in the thigh, and venom production peaks in the breeding season, which tells you who the weapon is really meant for: other male platypuses.
 
@@ -28,7 +28,7 @@ Here's the problem. Morphine barely touches the pain.
 
 [A pill bottle labelled "MORPHINE" with a red X over it.]
 
-In a case written up by Australian doctors in nineteen ninety-two, a man was spurred in the hand, and even strong doses of morphine gave him almost no relief.
+In a case written up by Australian doctors in nineteen ninety-two, a man was spurred in the hand, and morphine gave him little relief.
 
 The pain and swelling from a spur can last for weeks, and some weakness in the area can hang around for months after that.
 
@@ -44,7 +44,7 @@ Doug is fine, according to Doug, who will not be using that hand for several wee
 
 Bullet Ant.
 
-Most insect stings fade within a few minutes of the moment they happen. This one is barely getting started.
+Its sting does not stop when the ant lets go. When the ant lets go, the sting is barely getting started.
 
 [A large, dark, glossy ant on a rainforest tree trunk. Label: "BULLET ANT".]
 
@@ -90,7 +90,7 @@ In late summer, a group of these hornets can attack a honeybee hive and complete
 
 In Japan, government statistics counted one hundred and ninety-one deaths from wasp and bee stings between two thousand and eight and two thousand and eighteen, about seventeen a year. An earlier Japanese review found that most deaths like these come from allergic reactions.
 
-Here's the twist. The venom calls for backup.
+And then it gets worse. The venom calls for backup.
 
 [A cartoon scent cloud rises off the hornet. Red "!" marks pop up on other hornets in the distance.]
 
@@ -142,6 +142,8 @@ The Indian red scorpion is about five to nine centimeters long, roughly the leng
 
 Its venom triggers a flood of stress hormones in the body, and that flood puts a heavy strain on the heart.
 
+Doctors have linked these stings to inflammation of the heart muscle and to a heart that struggles to pump. It is a small animal with a very specific target.
+
 [World map with seven regions highlighted. Label: "1.2 MILLION STINGS A YEAR".]
 
 Scorpions as a group are a much bigger problem than most people realize. One review estimated more than one point two million scorpion stings a year worldwide, leading to more than three thousand two hundred deaths. The seven hot spots it identified are home to about two point three billion people.
@@ -188,7 +190,7 @@ According to the World Health Organization, about five point four million people
 
 Doug heard the rasping and looked around for something big, so he was looking in the wrong direction, and for the wrong size.
 
-The deadliest snake on Earth is very easy to step on, and Doug stepped on it.
+The snake that probably kills more people than any other is very easy to step on, and Doug stepped on it.
 
 [Background shifts to dark teal. Big label: "FAST KILLERS".]
 
@@ -230,13 +232,13 @@ The first thing to know about the black mamba is that it is not black. The secon
 
 [A long, slim, olive-grey snake in a tree on the savanna. Label: "UP TO 4.5 M".]
 
-It can grow past four meters, although about two and a half meters is more typical, which is still longer than a double bed.
+It can grow past four meters, about the length of a family car, although about two and a half meters is more typical, which is still longer than a sofa.
 
 Its skin is olive to grey, and it can move at up to about twenty kilometers an hour in short bursts, roughly the speed of a relaxed bike ride.
 
-[A double bed next to the snake for scale.]
+[A family car next to the snake for scale.]
 
-Given the chance, a mamba would rather escape, but if it is cornered it can strike again and again. Its venom attacks the nerves, and breathing can become difficult within half an hour of a bite. Before antivenom existed, a bite was considered almost always fatal.
+Given the chance, a mamba would rather escape, but if it is cornered it can strike again and again. Its venom attacks the nerves, and breathing can become difficult within half an hour of a bite, roughly the length of a lunch break. Before antivenom existed, a bite was considered almost always fatal.
 
 Here's the catch. The name comes from inside its mouth.
 
@@ -248,9 +250,9 @@ So the one part of this snake that is actually black is the part you see last.
 
 [Doug has painted himself grey from cap to shoes, holding a sign: "NOT A MOUSE". He leans in close, waiting. The mamba opens its mouth. Speech bubble: "oh, there it is". Cut to X eyes. The guide page gets "NO". DOUG DEATHS: 90.]
 
-Doug painted himself grey to blend in, held up a sign saying he was not a mouse, and waited patiently to see the black. He saw the black.
+Doug painted himself grey to blend in, held up a sign saying he was not a mouse, and waited patiently, very close, to see the black. He saw the black.
 
-Doug has died. Again. The grey paint did not help, and neither did the sign.
+Doug has died. Again. The grey paint did not help, and neither did the sign, which the mamba could not read.
 
 ## Sydney Funnel-Web Spider
 
@@ -264,7 +266,7 @@ On warm nights between about November and April, the males leave their burrows a
 
 Legs and all, a big male can stretch to around ten centimeters, about the width of your palm, and when it feels threatened it rears up and shows its fangs.
 
-Male spiders are thought to be behind all thirteen recorded deaths from this species. An antivenom was introduced in nineteen eighty-one, and no one has died from a bite since then.
+Funnel-web spiders as a group have thirteen recorded deaths. Males caused all of them, and the male of this species probably caused most. Bites from females have not killed anyone. An antivenom was introduced in nineteen eighty-one, and no one has died from a bite since then.
 
 Before that, one museum arachnologist says, a death once came within fifteen minutes.
 
@@ -292,17 +294,19 @@ In laboratory tests on mice, this snake has the most toxic venom of any snake te
 
 The inland taipan lives in a remote, semi-arid corner of Australia called the Channel Country, in south-western Queensland and north-eastern South Australia.
 
-It is about two meters long, the length of a double bed, and it changes color with the seasons, going darker in winter to soak up heat and paler in summer to stay cool.
+It is about two meters long, about as long as a door is tall. It also changes color with the seasons, going darker in winter to soak up heat and paler in summer to stay cool.
 
 [Two snakes side by side, one dark, one pale. Labels: "WINTER", "SUMMER".]
 
 That ranking comes from a nineteen seventy-nine study that compared snake venoms on lab mice, and mice are not people, which turns out to matter here.
 
-Scientists describe it as shy and relatively placid, and when it is provoked, it puts on a warning display first.
+In the wild, it eats almost nothing but small mammals, especially the long-haired rat.
+
+Its other common name is the fierce snake. Scientists describe it as shy and relatively placid, and when it is provoked, it puts on a warning display first.
 
 Only a handful of people have ever been bitten by one, mostly people handling captive snakes, and every one of them survived.
 
-Here's the surprise. The most toxic snake on Earth has no confirmed human deaths.
+The surprise is that the most toxic snake on Earth has no confirmed human deaths.
 
 [A big red "0" with a question mark.]
 
@@ -322,7 +326,7 @@ Some jellyfish are big enough to spot from a boat, but this one is barely the si
 
 [Dusk over tropical water. A tiny, nearly invisible box-shaped jelly with four long threads. Label: "1 TO 2 CM".]
 
-Its bell is about one to two centimeters across, its tentacles can stretch to about a meter, and it lives in the waters off northern Australia.
+Its bell is about one to two centimeters across, its tentacles can stretch to about a meter, roughly the length of a guitar, and it lives in the waters off northern Australia.
 
 Its bell is transparent and shaped like a tiny box, so in the water it is practically invisible. The sting itself is usually mild. It can easily go unnoticed.
 
@@ -340,7 +344,7 @@ In two thousand and two, two people in Australia died after stings that caused I
 
 [Doug floating on his back at dusk, relaxed, hopeful smile. Nothing happens. Label: "+25 MIN". His face goes flat, then to gritted teeth. Cut to the cap floating alone on dark water. The guide page gets "NO". DOUG DEATHS: 92.]
 
-Doug went for a swim at dusk, nothing happened, and so he relaxed. Twenty-five minutes later, Doug had a feeling that something terrible was about to happen.
+Doug went for a swim at dusk, felt a tiny prickle and ignored it. Twenty-five minutes later, Doug had a feeling that something terrible was about to happen.
 
 For once in his life, Doug's instincts were completely correct.
 
@@ -362,13 +366,13 @@ From the four corners of that bell hang up to sixty tentacles, and each one can 
 
 Since eighteen eighty-four, it has caused at least sixty-three recorded deaths in tropical Australian waters.
 
-But the most disturbing thing about it is that it is not drifting.
+But the worst part is that it is not drifting.
 
 [The jellyfish revealed in full: four clusters of eyes at its corners light up. Label: "24 EYES".]
 
 Most jellyfish float wherever the water takes them, but this one swims. It has twenty-four eyes in four groups of six, and some of them have real lenses that focus light.
 
-In two thousand and five, a study in the journal Nature found that the lenses in box jellyfish eyes are remarkably well made, even though the eyes seem tuned to see a slightly blurry picture.
+In two thousand and five, a study in the journal Nature looked at a different, smaller species of box jellyfish. It found that its eye lenses are remarkably well made, even though the eyes seem tuned to see a slightly blurry picture.
 
 It doesn't have a brain, yet box jellyfish use those eyes to steer around obstacles, and this one can swim toward movement.
 
@@ -390,4 +394,4 @@ The field guide washed up the next morning. Nine pages say no and three say mayb
 
 Doug deaths: ninety-three. Which animal should Doug try to befriend next? Tell us in the comments.
 
-<!-- words: 2948 (spoken narration only: spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:07 at 195 wpm · draft 1 (2026-10-09) · first item name at spoken word 33 · Platypus twist ("Here's the problem") at spoken word 133, about 41 s · 186 sentences, avg 15.8 words, max 35 · Flesch about 68 · outro 16 words · items (a section header is counted with the item before it): opener 32 incl. "Pain only.", Platypus 220, Bullet Ant 233 incl. "Slow killers.", Asian Giant Hornet 246, Komodo Dragon 234, Indian Red Scorpion 225, Saw-Scaled Viper 235 incl. "Fast killers.", Blue-Ringed Octopus 234, Black Mamba 225, Sydney Funnel-Web Spider 241, Inland Taipan 241, Irukandji Jellyfish 237, Box Jellyfish 345 incl. outro 16 · tics: actually 1, However 0, essentially 0, incredibly 0 -->
+<!-- words: 3054 (spoken narration only: spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:40 at 195 wpm · draft 2 (2026-10-09, screener fixes 1-5 plus optional ones applied) · first item name at spoken word 33 · Platypus twist ("Here's the problem") at spoken word 133 · 193 sentences, avg 15.8 words, max 34 · Flesch about 68 · outro 16 words · items (a section header is counted with the item before it): opener 32 incl. "Pain only.", Platypus 215, Bullet Ant 235 incl. "Slow killers.", Asian Giant Hornet 248, Komodo Dragon 234, Indian Red Scorpion 254, Saw-Scaled Viper 240 incl. "Fast killers.", Blue-Ringed Octopus 234, Black Mamba 246, Sydney Funnel-Web Spider 257, Inland Taipan 266, Irukandji Jellyfish 244, Box Jellyfish 349 incl. outro 16 · twist markers starting "Here's": 3 (was 5) · "double bed": 1 · "fingernail": 1 · tics: actually 1, However 0, essentially 0, incredibly 0 -->
