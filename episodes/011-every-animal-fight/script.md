@@ -140,7 +140,7 @@ Doug was ready for one wolf. Nobody had told the other four about the poll.
 
 Cassowary.
 
-This one was not in the poll either, and it looks like an easy win: a shy bird that mostly eats plants. It is also one of the very few birds known to have killed a person.
+This one was not in the poll, and it looks like an easy win: a shy bird that mostly eats plants. It is also one of the very few birds known to have killed a person.
 
 [Rainforest green. A tall cassowary with a blue neck and a tall casque on its head. Label: "CASSOWARY". Doug beside it, slightly shorter.]
 
