@@ -19,7 +19,12 @@
       "stage": "scripted",
       "at": "2026-10-09T01:30:26+00:00",
       "note": "draft 3"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-09T01:33:24+00:00",
+      "note": "approved"
     }
   ],
-  "stage": "scripted"
+  "stage": "script_approved"
 }
