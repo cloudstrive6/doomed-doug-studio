@@ -24,8 +24,8 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 ## Running gags (use 2–3 per episode, don't overdo)
 - "Doug did not agree to this." (episode opener or first danger)
 - **Doug death counter**: an on-screen label "DOUG DEATHS: N" that ticks up at each death. Cumulative across the
-  channel. Current total: **74** (7 after 001, plus 11 in 002, plus 9 in 003, plus 9 in 004, plus 10 in 005, plus 10 in 006, plus 9 in 007, plus 9 in 008, QC passed; update after every episode). The next episode's
-  counter starts at 74.
+  channel. Current total: **84** (7 after 001, plus 11 in 002, plus 9 in 003, plus 9 in 004, plus 10 in 005, plus 10 in 006, plus 9 in 007, plus 9 in 008, plus 10 in 009, QC passed; update after every episode). The next episode's
+  counter starts at 84.
 - The red cap floating alone after a death.
 - Doug trying to befriend the thing that will kill him.
 - Narrator: "Doug has died. Again." / "Doug is fine." (Doug is not fine.)
@@ -43,6 +43,7 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
   pigeon sitting on its roof). Do not use it outside time-travel episodes.
   007 (QC passed, final package approved): it comes home to 2026 as a block of clear ice with the cap frozen on top, cracks open,
   and Doug gives a thumbs up inside (the counter does not go down). Use this ice-block return once; don't repeat it.
+  009 (final package approved): it comes home to 2026 with a Megalodon tooth in the door and the cap on the roof; the cap is "the only one who lasted the whole night". Used once; don't repeat the tooth-in-the-door ending.
 - **Doug's suitcase** (from 004): a battered MS Paint suitcase that is the standard prop of the `places` playlist,
   the way the time machine belongs to `prehistoric`. Doug carries it into the opener with no stickers on it. Every time he
   dies at a place, a crude travel sticker with the place's name (for example "DEATH VALLEY") lands on it. Survivals get
@@ -72,3 +73,4 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 | 006 | The Most Disturbing Discoveries at Every Depth of the Ocean | pending (QC passed 2026-10-04, final package approved, awaiting scheduled upload) | 10 (total 56) | Counter 46 to 56, 12 discoveries ordered by depth (20 m to 9,533 m). Survived: crop circles and the golden orb. Sharks never hurt Doug. Befriended at items 1, 8 and 12. Introduced the LIVE-feed closing image for `ocean` episodes. Boss: 9,533 m deepest ecosystem. |
 | 007 | What Dying Every Time Earth Froze Would Be Like | pending (QC passed 2026-10-05, final package approved, awaiting scheduled upload) | 9 (total 65) | Counter 56 to 65, 11 freezes ordered by age (1816 to about 2.4 Ga) in four bands: "Cold snaps.", "Ice age.", "Deep time.", "Snowball.". Survived: Frost Fairs ("Doug is fine.") and Sturtian (narrator quietly disappointed). Befriended the Dryas flower, Meganeura and the algae (algae pays off at the boss). Introduced the FROZEN globe meter next to the counter (monotonic, episode-specific). One callback each to 003 and 004. Ending: time machine returns to 2026 as an ice block, used once. Boss: the first Snowball (Huronian, possibly caused by life). |
 | 008 | How Every Step of the Ocean Food Chain Would Kill Doug | pending (QC passed 2026-10-05, final package approved, awaiting scheduled upload) | 9 (total 74) | Counter 65 to 74, 11 food-chain steps. Survived: Giant Trevally (miss) and the orca (ends with the cap under a new owner). Boss: orca. |
+| 009 | What Dying in Every Prehistoric Ocean Would Be Like | pending (QC passed 2026-10-09, final package approved, awaiting scheduled upload) | 10 (total 84) | Counter 74 to 84, 12 predators by era (508 Myr Anomalocaris to Megalodon) in three spoken bands "Paleozoic." / "Mesozoic." / "Cenozoic.". Introduced the NIGHT CLOCK ("DOUG LASTED", moon icon) beside the counter, episode-specific, shrinking from hours to 3 s. Survived: Endoceras ("Doug is fine.") and Xiphactinus (narrator had already written a death). Callbacks to 003 and 008 (moray, sperm whale, food chain). Boss: Megalodon (highest trophic level ever measured). |

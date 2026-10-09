@@ -49,3 +49,19 @@ FINAL: REJECTED edge-line artifact still present after re-render (main and Short
 
 - 2026-10-09 Showrunner final review (round 3 request): no new render since round 2 (final.mp4 00:21), QC clean on re-run (exit 0), latest visual verdict still FAIL (2 px white edge line, main and Shorts). Applied the fix noted in round 2: `studio/scene.py` `_clean_edges` now overwrites a 4 px border ring with the row/column just inside it (covers boil versions that pull shapes in by 2 px). Checked s006/s019/s312/s321/s327 over 4 variants each: no white pixels on rows 0-1. Re-render requested for final and shorts via `.rerender`. CD package review deferred until the visual gate passes; stage left at `packaged`.
 FINAL: REJECTED edge-line artifact still present in current render; scene.py fixed, re-render requested
+
+- 2026-10-09 Visual screener post-render round 3: the 4 px `_clean_edges` ring fixed the edge line. The re-rendered final (00:40) has 0/1033 s with white on the top or left 4 px band (round 2: 240 s top, 53 s left). Rows and columns 0-3 at 960/990/1005 s are scene navy (9,20,48). The remaining bottom/right hits are scene content touching the frame. The Shorts are clean on the outer frame and at the art-band edges. The thumbnail (v3), metadata, Shorts titles, subtitles and end cards all pass. Advisory, not blocking: camera push-ins briefly clip the right edge of the HUD (about 6 s in total, e.g. 516 s and 834 s).
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+- 2026-10-09 Creative director: final package review (round 3). Inputs: visual screener post-render round 3 PASS (main and Shorts), QC exit 0 with no problems, metadata.json, build/thumbnail.png, description, build/chapters.txt, samples f_001-f_003, a frame at 1.5 s, and the script opening plus timing.json.
+  - Title: "What Dying in Every Prehistoric Ocean Would Be Like" (T1, proven). The video delivers: 12 oceans and 10 cartoon deaths. It does not repeat 008's T2 formula back to back.
+  - Alt titles: swapped "The Creepiest Ancient Sea Monsters Scientists Got Wrong" for "Surviving One Night in Every Prehistoric Ocean". The old one promised a misconceptions video, and only 2 of the 12 items are corrections. The new one is the proven one-night formula and matches the actual night-clock premise. `validate metadata` OK.
+  - Thumbnail: the approved v3, a 3x4 era-darkening grid ending in the Megalodon jaw with snorkelled Doug for scale. The "Megalodon" label is now complete. I would click it. It is also the 0-1.5 s opening image, confirmed in final.mp4.
+  - Description and chapters: 13 chapters starting at 0:00 that match the item order. The six sources include the 2022 trophic-level study that backs the "highest-ranking predator" claim. The AI-use and cartoon-death disclaimers are present. Nothing is aimed at kids.
+  - First 60 s: the premise lands in 9 s, then "Doug did not agree to this." Item 1 is named at 13 s (spoken word 31). The 16,000-lens eye fact holds attention, and the twist lands at 46-49 s, about 1-4 s past the 45 s target. That is acceptable, because the build-up is factual and keeps moving. Doug is on-model, the counter is at 74 and the night clock reads clearly.
+  - Non-blocking, for the director on future episodes: the HUD clips during push-ins (about 6 s in total) and the label touch at 834 s. The next episode should land the twist inside 45 s.
+  - Series bible updated: counter 84, 009 log row, NIGHT CLOCK, and the tooth-in-the-door time-machine ending.
+FINAL: APPROVED
+- 2026-10-09 Showrunner final review (round 4/ROUND 2 re-render): QC exit 0, visual screener PASS (main+shorts, edge fix verified), CD approved (alt title swapped). Stage qc_passed.
+FINAL: APPROVED

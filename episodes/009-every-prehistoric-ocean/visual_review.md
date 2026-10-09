@@ -154,3 +154,24 @@ Scope: `build/final.mp4` (re-rendered 23:51, after commit afdc9e6 with the fix),
 
 VERDICT (main): FAIL
 VERDICT (shorts): FAIL
+
+## Post-render round 3 (2026-10-09): re-render after the 4 px `_clean_edges` ring
+
+Scope: `build/final.mp4` (re-rendered 00:40, after commit 2962cb9 with the 4 px ring), `build/qc.json` (no problems), all 34 `build/samples/`, a full-length 1 fps scan of rows/cols 0-3 on all four sides (1033 frames), full-res frames at 960/990/1005 s, `build/thumbnail.png` and `build/thumbnail_small.png`, `metadata.json`, and the three Shorts (outer-edge scan at 5 fps, an interior scan at 2 fps for isolated white rows, the previews, end cards and frames at 3/15/30/34/45 s).
+
+### Edge line: FIXED
+- **960 s (s312), 990 s (s321), 1005 s (s327):** rows 0-3 and cols 0-3 contain 0 white pixels. Every ring row and column has the same scene navy as depth 8 (mean RGB 9,20,48 on the top and 8,19,46 on the left).
+- **Full-runtime scan:** for the **top and left edges, 0 of 1033 seconds** have white in the 4 px band where depth 8 is dark (round 2: top 240 s, left 53 s). 21 seconds trip the bottom or right check at 1-5% of the edge length, uniform through all 4 rows. I checked each one, and all are scene content touching the frame (pale sand or light rays at 13-19 s and 85-88 s, a map frame, Tylosaurus teeth at 708 s, HUD boxes during push-ins). None is a stray line.
+- **Shorts:** the outer frame has 0 hits in short01/02/03 (266, 256 and 193 frames). The interior scan finds no white seam at the top or left of the art band in any Short. Its only hit (short01 33-35 s, y≈1041) is the deliberate yellow dashed "SAME LEVEL" guide. The art-band edges at y≈578/636 in short01 and short03 are now clean navy.
+
+### Everything else
+- **Main content:** the 34 samples match the approved rounds. Doug is on-model, labels and counters are legible and spelled right, the deaths run 74 to 83, there is no gore, and the tone is not kid-like. QC reports no black, blank or frozen frames.
+- **Thumbnail:** this is the approved v3, unchanged. It is readable at 320 px, complements "What Dying in Every Prehistoric Ocean Would Be Like", and is not misleading. **Pass.**
+- **Shorts:** the titles are readable and spelled right, the drawings are not cut off, the subtitles are legible, the @DoomedDoug handle is legible, and all three end cards say "WHAT HAPPENS NEXT? TAP BELOW" with the arrow pointing down. **Pass.**
+
+### Advisory (non-blocking, director, for future episodes)
+1. Camera push-ins clip the right edge of the HUD for 0.25-2 s at 10.5 s, 37 s, 187 s (Jaekelopterus map), 516 s (Pliosaurus map), 709 s and 834 s (Livyatan map). About 6 s in total. The death number always stays visible; only "min" or the box border is cut. Next time, keep the HUD inside the camera rect on push-in shots, or render it in screen space.
+2. At 834 s (Livyatan map) the "ABOUT 10 MILLION YEARS AGO" box touches the LIVYATAN topbar label. This is cosmetic.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
