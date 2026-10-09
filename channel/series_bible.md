@@ -24,8 +24,8 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 ## Running gags (use 2–3 per episode, don't overdo)
 - "Doug did not agree to this." (episode opener or first danger)
 - **Doug death counter**: an on-screen label "DOUG DEATHS: N" that ticks up at each death. Cumulative across the
-  channel. Current total: **84** (7 after 001, plus 11 in 002, plus 9 in 003, plus 9 in 004, plus 10 in 005, plus 10 in 006, plus 9 in 007, plus 9 in 008, plus 10 in 009, QC passed; update after every episode). The next episode's
-  counter starts at 84.
+  channel. Current total: **93** (7 after 001, plus 11 in 002, plus 9 in 003, plus 9 in 004, plus 10 in 005, plus 10 in 006, plus 9 in 007, plus 9 in 008, plus 10 in 009, plus 9 in 010 (final package approved); update after every episode). The next episode's
+  counter starts at 93.
 - The red cap floating alone after a death.
 - Doug trying to befriend the thing that will kill him.
 - Narrator: "Doug has died. Again." / "Doug is fine." (Doug is not fine.)
@@ -61,7 +61,7 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 - `prehistoric`: Doug vs. Prehistoric Earth (surviving a night in every era/ocean)
 - `places`: Doug vs. Deadly Places (volcanoes, quicksand, sinkholes, caves, deserts, poles)
 - `animals`: Doug vs. Animals (venom, animal fights, single-animal deep dives; created 2026-10-09 for ep 010). Proposed standard
-  prop: Doug's field guide (a "FRIEND?" box per animal, red "NO" after each death, "MAYBE" for survivals), pending the art director.
+  prop: Doug's field guide (a "FRIEND?" box per animal, red "NO" after each death, "MAYBE" for survivals), used in 010 and approved by the art director; reuse it in later `animals` episodes.
 - `compilations`: Full Series & Marathons (stitched 35–60 min and iceberg videos)
 
 ## Episode log
@@ -76,3 +76,4 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 | 007 | What Dying Every Time Earth Froze Would Be Like | pending (QC passed 2026-10-05, final package approved, awaiting scheduled upload) | 9 (total 65) | Counter 56 to 65, 11 freezes ordered by age (1816 to about 2.4 Ga) in four bands: "Cold snaps.", "Ice age.", "Deep time.", "Snowball.". Survived: Frost Fairs ("Doug is fine.") and Sturtian (narrator quietly disappointed). Befriended the Dryas flower, Meganeura and the algae (algae pays off at the boss). Introduced the FROZEN globe meter next to the counter (monotonic, episode-specific). One callback each to 003 and 004. Ending: time machine returns to 2026 as an ice block, used once. Boss: the first Snowball (Huronian, possibly caused by life). |
 | 008 | How Every Step of the Ocean Food Chain Would Kill Doug | pending (QC passed 2026-10-05, final package approved, awaiting scheduled upload) | 9 (total 74) | Counter 65 to 74, 11 food-chain steps. Survived: Giant Trevally (miss) and the orca (ends with the cap under a new owner). Boss: orca. |
 | 009 | What Dying in Every Prehistoric Ocean Would Be Like | pending (QC passed 2026-10-09, final package approved, awaiting scheduled upload) | 10 (total 84) | Counter 74 to 84, 12 predators by era (508 Myr Anomalocaris to Megalodon) in three spoken bands "Paleozoic." / "Mesozoic." / "Cenozoic.". Introduced the NIGHT CLOCK ("DOUG LASTED", moon icon) beside the counter, episode-specific, shrinking from hours to 3 s. Survived: Endoceras ("Doug is fine.") and Xiphactinus (narrator had already written a death). Callbacks to 003 and 008 (moray, sperm whale, food chain). Boss: Megalodon (highest trophic level ever measured). |
+| 010 | How Every Deadly Venom Would Kill Doug | pending (final package approved 2026-10-09, awaiting QC and scheduled upload) | 9 (total 93) | Counter 84 to 93, 12 venomous animals on a severity axis in three spoken bands "Pain only." / "Slow killers." / "Fast killers.". First `animals` episode; introduced Doug's field guide (FRIEND? / NO / MAYBE). Inverted the costume gag once (cat costume vs funnel-web). Survived: platypus ("Doug is fine."), bullet ant (less sure), inland taipan (narrator quietly deletes the death). Callbacks to 001 (cone snail) and in-episode (saw-scaled viper at the taipan). Ends with ghost Doug asking "friend?". Boss: box jellyfish. |
