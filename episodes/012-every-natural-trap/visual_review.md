@@ -88,3 +88,80 @@ Checked: `build/thumbnail.png` (1280x720, re-rendered from `thumbnail.json`), `b
    clearly reads as "cap left outside".
 3. **Altamura Cave tile:** the calcite lump reads as an egg or potato. Optional: show a faint skull outline in its
    top third (no bones beyond that), the same suggestion as r1 s222.
+
+## Round 3: post-render (final.mp4, thumbnail, Shorts), 2026-10-09
+
+Checked: all 31 samples in `build/samples/` (one every 30 s, t = 15 s to 915 s, each matched to its shot through
+`build/timing.json`), `build/qc.json` (929.5 s, `problems: []`), the first and last frames of `final.mp4`,
+`build/thumbnail.png`, `build/thumbnail_small.png`, a fresh 168x94 downscale of the current thumbnail, and
+`metadata.json`. For the Shorts: `short01..03_preview.png` and one frame per second from each `short0N.mp4`
+(1080x1920, 60 fps, 49.6 s, 46.4 s and 47.4 s long).
+
+### Main video
+- **No technical faults:** no black, blank or glitched frames. Every sample shows a different composition, so
+  nothing is frozen. The chapter tag and the DOUG DEATHS counter are present and readable in every sample. The
+  counter goes up in order (100 to 107), once per trap.
+- **Pictures match the words.** I checked these spots:
+  - s008: calm evergreen
+  - s018: tree well cross-section
+  - s035: slot canyon light beam
+  - s051: "very little rain"
+  - s077: brinicle "web of ice"
+  - s128: Dead Sea 1980/2015 level drop
+  - s155: 25 m crevasse
+  - s174: Valais plus ~300 missing
+  - s214: "another wolf" chain
+  - s233: 130,000 to 170,000 years timeline
+  - s241: nasal cavity
+  - s273: resin droplet
+  - s293: cap left outside the bead
+
+  One sample (s203, t = 645 s) caught "MOST COMMON" with nothing under it yet. A frame at 646.2 s confirms the
+  DIRE WOLF wordart and the wolf appear at 0.855 as planned. That is a reveal, not a defect.
+- **Doug:** on-model throughout (red cap, white head), readable on every backdrop, including the dark tar and cave
+  scenes. The ghost-Doug after a death and the sea-star and gall-mite costumes are consistent.
+- **Policy:** no gore. Deaths are cartoon only (abandoned cap and suitcase, ghost). The Altamura head is an abstract
+  grey bust. Nothing reads as a kids' show.
+- **Opening = thumbnail:** the frame at 0.8 s is the same 3x3 grid as `thumbnail.png`. I compared the Amber tile
+  side by side and it is the same.
+- **End:** "WHICH TRAP NEXT?" with the stickered suitcase (all 7 stickers spelled right) and the counter at 107.
+
+### Thumbnail
+- `thumbnail.png` (1280x720) and `thumbnail_small.png` (320x180) are current (13:52, same time as final.mp4).
+  - At 168x94, all nine colour blocks stay distinct. The tree with skis, brinicle, snowball avalanche, sinkholes,
+    crevasse, bison in tar and the amber bead with the red cap all read as shapes.
+  - The labels are crisp at 320 and above.
+- The grid goes with the title "What Dying in Every Natural Trap Would Be Like" without repeating it, and it isn't
+  misleading: every tile is a chapter, in chapter order.
+- Note: `build/thumbnail_168*.png` and `thumbnail_b*.png` are older (13:23) Archetype-B ladder drafts. They aren't
+  shipped, but don't use them for review.
+
+### Shorts
+- **Titles:** all three are in red/black outline, three lines, fully inside the frame and spelled right:
+  - "This Antarctic Icicle Grows Down and Freezes the Seafloor"
+  - "When an Avalanche Stops, the Snow Sets Almost Like Concrete"
+  - "La Brea's Mammal Fossils Are Mostly Predators Lured by Bait"
+- **Framing:** the auto-fit crop keeps the main drawings in frame (icicle, sea-star Doug, grain-bond diagram,
+  cubic-meter block and four adults, bison/wolf chain, museum seep). No drawing is cut off at the sides. Doug
+  stays whole even at the far-left position in short02 (the grain-diagram shots).
+- **Subtitles:** large white on dark outline, readable over every background.
+  - The previews show half-typed words ("fast en", "avalanch"). That is the word-by-word reveal caught mid-word.
+    The per-second frames show complete words.
+- **End cards:** sky-blue card with "WHAT HAPPENS NEXT? / TAP BELOW" (short02: "WHAT HAPPENS TO DOUG? TAP BELOW").
+  Doug points and a red arrow points straight down to the link in all three. The title stays on screen.
+- **Policy:** clean. Doug's death in short03 is the ghost gag only.
+
+### Advisory (non-blocking)
+1. **short01 / s080 and s087, director:** the `zoom_in` centres (x = 800 and x = 600) push the DOUG DEATHS counter
+   past the right edge of the vertical crop. For about 1 s each, it reads "DOUG DEATHS: 10" (at about 20 s and
+   41 s in short01). Fix: set `camera.x` to 960 on s080 and s087. Or have the Shorts renderer pin the counter in
+   screen space during zooms, like the hook title. If touched, re-render short01 only.
+2. **s098, director:** the "ARIZONA" label sits under the whole US map and nothing on the map points to Arizona.
+   Fix: add a red dot or ring on Arizona on `usa_map`, with the label next to it. Optional, since it's on screen
+   for under 6 s.
+3. **metadata.json `thumbnail_brief`, youtube-titler / graphic designer:** the brief still describes the
+   Archetype-B vertical ladder, but the shipped thumbnail is the Archetype-A 3x3 grid. Update the text so it
+   matches what shipped (this only affects documentation and growth notes).
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS

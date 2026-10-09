@@ -70,3 +70,27 @@ Compared `build/thumbnail.png` (A, funnel ladder) and `build/thumbnail_b.png` (B
 THUMBNAIL: B APPROVED. No redesign requested.
 
 2026-10-09 Showrunner: packaged. Script 3 rounds (screener fixed facts, hook, Flesch); art assets 1 round; keyframes 2 rounds (Doug ink/overlap fixes); thumbnail grid chosen over funnel. Narration 15:30, 199 wpm. Risks: brinicle/amber slightly over target length; thumbnail Slot Canyon/Amber/Altamura read weakly at feed size (optional fixes in visual_review.md); real-victim cards (Antelope Canyon, Tsanfleuron) handled with no jokes.
+
+## 2026-10-09: creative director, final package gate
+Reviewed: title and alts, `build/thumbnail.png` (3x3 grid), description with `build/chapters.txt`, `metadata.json`, the
+script opening, samples f_001/f_002 (15 s, 45 s), `build/qc.json` (929.5 s, `problems: []`) and visual_review.md round 3
+(main PASS, Shorts PASS).
+1. **Title kept:** "What Dying in Every Natural Trap Would Be Like" (T1). Last used in 009, so it isn't back-to-back
+   (010 T2, 011 T7). The video delivers on it: 7 cartoon deaths across 9 traps, and the 2 survivals are played as gags.
+   None of the alts is clearly stronger. The "How Long ... Before Killing Him" alt is longer and puts the twist in the
+   title, so no swap. Keep it as the first A/B candidate if CTR comes in under the channel median.
+2. **Thumbnail:** the grid follows chapter order, the labels are item names only, there's no gore, and Doug appears
+   once, in the boss tile with his cap on top. It isn't misleading, and it's the s001 opening frame. I'd click.
+3. **Opening:** "Tree well." is spoken about 33 words in, and the twist ("the calmest place... is the most dangerous
+   spot on the slope") lands within about 20 s. The 230-million-year line is an open loop to the final item. The
+   on-screen opening is DEATHS: 100, the clean suitcase and "Doug did not agree to this." It would keep me watching.
+4. **Description/metadata:** the chapters are valid (0:00 start, 9 chapters, each well over 10 s), the sources and
+   the disclaimer are present, and there's no safety advice. The "two mites ... 230 million years" claim is sourced
+   (Schmidt et al. 2012). `validate metadata` returns OK. I fixed a stale doc field: `thumbnail_brief` now describes
+   the Archetype A grid that shipped instead of the rejected ladder (screener advisory 3).
+5. **Non-blocking, for later:** short01 s080/s087 counter clipping during zooms (set camera.x to 960 and re-render
+   short01 only, if time allows). The thumbnail tile advisories (Slot Canyon wave, Altamura lump) are optional and
+   aren't worth a re-render.
+6. **Series bible updated:** counter total 107, and the 012 row is added to the episode log.
+
+FINAL: APPROVED
