@@ -240,3 +240,41 @@ VERDICT: PASS
   Round 6 (all PASS). Nothing touches or is cropped at 1280 px.
 
 No fixes. Routing: creative director (package approval).
+
+## Round 8: post-render check, final.mp4, thumbnail and Shorts (2026-10-09)
+
+### Main video (final.mp4, 910.5 s; qc.json reports no problems)
+- **Samples f_001-f_030 and the final frame:** no black, blank, frozen or glitched frames. Each chapter has its own
+  background (meadow, brick wall, desert, night forest, rainforest, misty highland, estuary, ice, sunset savanna), so no
+  run of near-identical compositions. The chapter tag at top centre and the DOUG DEATHS counter (93 to 100, rising once per
+  chapter) are legible and never overlap the drawings.
+- **Doug:** on-model in every sample (red cap, white head, black stick body). He is readable on every background, including
+  the night forest, the ice and the dark red savanna. On the dark end card his outline is white and still reads clearly.
+- **Drawings:** all ten animals are recognisable (goose, cat, kangaroo, wolves plus moose, cassowary and its foot,
+  chimp, silverback, crocodile vs car scale, polar bear, elephant). The comparison graphics (1.00 vs 1.35 bars, 6 M croc
+  vs car, poll box, Australia map, timeline) are clean and spelled correctly.
+- **Policy:** deaths are cartoon only (X-eyes Doug with dropped cap and gloves, Doug's ghost floating up, a dust-cloud
+  brawl, an empty cap on the birdseed bag). There is no blood. I zoomed in on the dark red in the gorilla and polar-bear
+  mouths: it is mouth interior with white teeth, not gore. The tone is adult and not nursery-like.
+- **Advisory, no fix needed:** f_001's poll box is mostly empty white. This is a build-up frame and it fills in later.
+  f_024 shows a "POLAR BEAR" label that repeats the chapter tag. It is redundant but harmless.
+
+### Thumbnail (build/thumbnail.png, thumb_168.png)
+- Unchanged from the Round 7 PASS. The labels are clear of the drawings, nothing is cropped, and there is no blood or
+  hippo. At 168 px the coloured pyramid, the elephant at the top and the crocodile jaws still read clearly.
+  It complements the title "Every Animal Doug Could Beat in a Fight, Until He Dies" and is not misleading.
+
+### Shorts (short01-03, 1080x1920; frames at 1/10/20/30/40 s, the end, and the previews)
+- **Titles:** the red-on-outline titles wrap to 3 lines, are fully on-canvas and readable, and are spelled correctly.
+- **Subtitles:** white with black outline, centred and legible on every background. In the previews and some frames the
+  caption is cut mid-word ("tapping a ca", "toge"). This is the word-by-word reveal caught mid-way, not cropping.
+- **Framing:** no drawing is cut off at the sides. Two elements are tight to the edge: the left cassowary in short01 at
+  about x 30, and Doug in the short02 Rwanda frame at about x 1040. Both are inside the frame. This is advisory only.
+- **End cards** (WHO'S NEXT? / WHAT HAPPENS NEXT? / ALL 10 FIGHTS: TAP BELOW): the text is legible, Doug is on-model,
+  and the red arrow points straight down to the link area.
+- **Death count:** short03's death frame shows DOUG DEATHS: 100, which matches the outro.
+
+No required fixes. Routing: creative director (final approval).
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS

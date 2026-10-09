@@ -24,8 +24,8 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 ## Running gags (use 2–3 per episode, don't overdo)
 - "Doug did not agree to this." (episode opener or first danger)
 - **Doug death counter**: an on-screen label "DOUG DEATHS: N" that ticks up at each death. Cumulative across the
-  channel. Current total: **93** (7 after 001, plus 11 in 002, plus 9 in 003, plus 9 in 004, plus 10 in 005, plus 10 in 006, plus 9 in 007, plus 9 in 008, plus 10 in 009, plus 9 in 010 (final package approved); update after every episode). The next episode's
-  counter starts at 93.
+  channel. Current total: **100** (7 after 001, plus 11 in 002, plus 9 in 003, plus 9 in 004, plus 10 in 005, plus 10 in 006, plus 9 in 007, plus 9 in 008, plus 10 in 009, plus 9 in 010, plus 7 in 011 (final package approved); update after every episode). The next episode's
+  counter starts at 100. The 100th death (011, elephant) got one flat line; don't make a milestone bit of later round numbers.
 - The red cap floating alone after a death.
 - Doug trying to befriend the thing that will kill him.
 - Narrator: "Doug has died. Again." / "Doug is fine." (Doug is not fine.)
@@ -61,7 +61,8 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 - `prehistoric`: Doug vs. Prehistoric Earth (surviving a night in every era/ocean)
 - `places`: Doug vs. Deadly Places (volcanoes, quicksand, sinkholes, caves, deserts, poles)
 - `animals`: Doug vs. Animals (venom, animal fights, single-animal deep dives; created 2026-10-09 for ep 010). Proposed standard
-  prop: Doug's field guide (a "FRIEND?" box per animal, red "NO" after each death, "MAYBE" for survivals), used in 010 and approved by the art director; reuse it in later `animals` episodes.
+  prop: Doug's field guide (a "FRIEND?" box per animal, red "NO" after each death, "MAYBE" for survivals), used in 010 and approved by the art director; reuse it in later `animals` episodes. 011 added a "WIN?" box under FRIEND? for fight episodes (ticked for survivals Doug technically wins).
+- **Used-once lines** (don't reuse): "Doug agreed to this. He would like that noted." (011, polar bear; the inversion of "Doug did not agree to this.").
 - `compilations`: Full Series & Marathons (stitched 35–60 min and iceberg videos)
 
 ## Episode log
@@ -77,3 +78,4 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 | 008 | How Every Step of the Ocean Food Chain Would Kill Doug | pending (QC passed 2026-10-05, final package approved, awaiting scheduled upload) | 9 (total 74) | Counter 65 to 74, 11 food-chain steps. Survived: Giant Trevally (miss) and the orca (ends with the cap under a new owner). Boss: orca. |
 | 009 | What Dying in Every Prehistoric Ocean Would Be Like | pending (QC passed 2026-10-09, final package approved, awaiting scheduled upload) | 10 (total 84) | Counter 74 to 84, 12 predators by era (508 Myr Anomalocaris to Megalodon) in three spoken bands "Paleozoic." / "Mesozoic." / "Cenozoic.". Introduced the NIGHT CLOCK ("DOUG LASTED", moon icon) beside the counter, episode-specific, shrinking from hours to 3 s. Survived: Endoceras ("Doug is fine.") and Xiphactinus (narrator had already written a death). Callbacks to 003 and 008 (moray, sperm whale, food chain). Boss: Megalodon (highest trophic level ever measured). |
 | 010 | How Every Deadly Venom Would Kill Doug | pending (final package approved 2026-10-09 after s286 fix, QC clean; awaiting scheduled upload) | 9 (total 93) | Counter 84 to 93, 12 venomous animals on a severity axis in three spoken bands "Pain only." / "Slow killers." / "Fast killers.". First `animals` episode; introduced Doug's field guide (FRIEND? / NO / MAYBE). Inverted the costume gag once (cat costume vs funnel-web). Survived: platypus ("Doug is fine."), bullet ant (less sure), inland taipan (narrator quietly deletes the death). Callbacks to 001 (cone snail) and in-episode (saw-scaled viper at the taipan). Ends with ghost Doug asking "friend?". Boss: box jellyfish. |
+| 011 | Every Animal Doug Could Beat in a Fight, Until He Dies | pending (QC clean, final package approved 2026-10-09, awaiting scheduled upload) | 7 (total 100) | Counter 93 to 100, the first time we reach 100. 10 animals on a severity axis in three spoken bands "Doug wins." / "Doug loses." / "No contest.", framed by the real "which animal could you beat" polls. Survived: goose (cap stolen, Doug briefly capless, cap recovered), house cat ("Doug is fine.", less sure), gorilla (no fight; narrator had the death drawn already). Field guide gained a WIN? box. Callbacks to 010 (platypus, death drawn already). Hippo deliberately held back for a future episode (outro hook). Boss: African bush elephant (death 100). |
