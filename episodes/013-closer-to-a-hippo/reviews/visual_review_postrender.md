@@ -63,3 +63,45 @@ check it at the red-sweat chapter.
 ## Route
 Director: items 1-2 (shotlist only, no new assets). Then the editor does a final render, runs `qc` and
 `shorts render` again, and the screener checks the four shot ends, s251 and short03 at 38-40 s.
+
+---
+
+# Round 2: post-render re-check after the shotlist fix (2026-10-09)
+
+What I checked: the re-rendered `build/final.mp4` (869.4 s, rendered 19:05, newer than the 18:54 shotlist), and
+`qc.json` (no problems). I took full-frame grabs and 4 fps strips of the right-hand HUD across s194 (669-675 s),
+s221 (758-766 s) and s242-s253 (846-870 s, 2 fps full frame plus 4 fps HUD strips). I also looked at all 29
+`build/samples/*.png`, `build/thumbnail.png`, `metadata.json`, and the three Shorts (a frame every 5 s for each, plus
+2 fps from 34-40 s of short03). Nothing was rendered and no shotlist was edited.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+## Round 1 fixes: verified
+1. **Counter cropping, s194, s221, s248, s249: fixed.** All four now use `camera.x` 960. "DOUG DEATHS: 112/113" and
+   "DISTANCE TO HIPPO: 1 m / 0 m" stay fully inside the frame through the end of every zoom, with the right edge of
+   the label at about x 1820 of 1920. At the end of s249, just before the black, the counter reads 113 in full, then
+   114 in s251.
+2. **Stray red arrow, s251: fixed.** The arrow has been removed from `elements`. The frame now shows a clean river
+   with the floating cap and ripples, the submerged hippo, and the field guide reading "NO", all at 114. There's no red
+   streak in the water.
+
+## Rest of the video
+- Samples: no blank or glitched frames apart from the planned 0.27 s black at s250, and no frozen stretches. The
+  HUD and chapter tags are legible, Doug is on-model throughout, and every death is a cartoon one. Nothing new
+  since round 1.
+- End sequence (s242-s253) plays cleanly: DOESN'T WANT DOUG, then NEVER DID, VEGETARIAN, ANYWAY, the mouth, the
+  black, the floating cap, the field guide, the RIP gravestone, and the "WHICH ANIMAL NEXT?" end screen.
+
+## Thumbnail: pass (unchanged)
+It still reads at feed size and complements "Why Hippos Get Deadlier the Closer Doug Gets". The two non-blocking
+nits from round 1 are still there (graphic designer, only if the thumbnail is touched again):
+- "VEGETARIAN" sits about 10 px from the left edge; nudge it to a 24 px margin.
+- The horizontal lower incisor at about (930-985, 570-595) reads as a loose rectangle.
+
+## Shorts: pass
+- **short03 (43.5 s):** the s194 segment at 34-40 s now keeps "DOUG DEATHS: 112" and "DISTANCE TO HIPPO: 1 m" whole
+  for the full zoom. The title is legible, the drawing isn't cut off at the sides, the subtitles are legible, and the
+  end-card arrow points down under "TAP BELOW".
+- **short01 (55.4 s) and short02 (36.2 s):** unchanged from round 1 and still pass.
+- Nit (not blocking): the titles of short02 and short03 still wrap with an orphan last word ("Fly", "Doesn't").

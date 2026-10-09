@@ -65,3 +65,15 @@ Series bible updated: Doug death total 114; 013 log row finalised.
 FINAL: APPROVED
 - 2026-10-09 final review round 1: visual FAIL (main+shorts): counters cropped in s194/s221/s248/s249, stray arrow s251. Director fixed shotlist; .rerender requested (final, shorts). Stage left unchanged pending round 2.
 FINAL: REJECTED visual re-check pending after fixes (round 1 visual FAIL); re-render requested
+
+## 2026-10-09: final package round 2: APPROVED
+
+Re-checked after the re-render. Visual re-screen round 2 (`reviews/visual_review_postrender.md`): main PASS, shorts PASS; `qc.json` no problems.
+1. Title, description, tags, playlist: unchanged (`metadata.json` untouched since packaging). "Why Hippos Get Deadlier the Closer Doug Gets" still matches the delivered distance axis.
+2. Thumbnail: unchanged ("VEGETARIAN" + open mouth + Doug with lettuce). Same two non-blocking nits; no change required.
+3. Chapters (`build/chapters.txt`): 10 chapters from 0:00, last at 12:36 inside the 869 s runtime; names match the caption bars.
+4. First 60 s (samples f_001-f_003): item 1 "Cocaine Hippos" caption and HUD (DOUG DEATHS 107, DISTANCE 11,000 km) legible, "LATE 2023" beat, 4 -> ~200 -> 1,400? chart; all clean.
+5. Round 1 blockers (cropped counters s194/s221/s248/s249, stray arrow s251, short03) verified fixed by the screener. Condition on the earlier approval is met.
+Still open, non-blocking: listen once for the "hipposudoric" pronunciation; watch the monetization icon on the "Cocaine Hippos" chapter.
+
+FINAL: APPROVED
