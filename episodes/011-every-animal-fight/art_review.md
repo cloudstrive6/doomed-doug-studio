@@ -94,3 +94,65 @@ D2. s218: the "LARGEST LAND CARNIVORE" wordart runs into the polar bear's raised
 D3. s201: the brain spot is a filled pink disc on top of the croc's skull, and it can read as a wound or bump. Make it a
     dashed outline circle (or a pale fill under 50% with a black outline), linked to the walnut.
 D4. s267: the "NOT FOOLED" wordart nearly touches the front elephant's crown. Lift it about 20 px.
+
+---
+
+# Keyframe review: 011 Every Animal Doug Could Beat in a Fight, Until He Dies
+
+Reviewer: art director · 2026-10-09
+Scope: all 285 keyframes (`build/contact/sheet_01..24.png`), full-res crops of s072, s123, s146, s189, s208, s209, s218, s264, s267, and a
+check of the flagged shots against `shotlist.json`. s001 is "(thumbnail pending)", which is expected and not reviewed here.
+
+## Verdict: FAIL (7 composition fixes plus 3 label-count trims, all small). Re-render only the listed shots. I will re-check those shots only.
+
+### What already works (keep it)
+- **Style:** one look across 285 shots. Crude Doug sits against the detailed-tier animals throughout. Each item has its own environment and they
+  read as a set: goose pond (sky/grass), house-cat brick wall, kangaroo dune orange, wolf night navy, cassowary rainforest, chimp blue-grey
+  forest, gorilla misty grey-green, croc river (mud band + sand), polar ice, and the elephant red-dusk savanna for the boss item. Cream diagram
+  shots break up every item, so the layouts keep changing (insets, bar charts, maps, timelines, silhouettes, crowd rows, close-ups).
+- **Doug:** on-model in every shot. The red cap stays visible on every death and on the ghost (s072, s099, s125, s153, s213, s243, s279). The
+  capless s021-s024 exception is as approved, with the goose wearing the cap. Boxing gloves (s069-s073, s187-s188, s205) read as gloves, with the
+  white cuff, and not as blood next to the body (s072 crop).
+- **Counter:** it ticks only on the death shot: 94 at s072, 95 at s099, 96 at s125, 97 at s153, 98 at s213, 99 at s243, 100 at s279. It holds on the
+  goose, cat and gorilla survivals. The counter zone is clear on every item title card and sun/moon placement.
+- **Field guide:** WIN ticks for goose and cat, MAYBE for the gorilla, and NO stamps on the deaths. The s280-s283 hero and the s281 grid are consistent.
+- **Reveals:** the cassowary (s103) and polar bear (s217) use silhouette plus red glow, with the colour reveal in the next shot.
+- **Gore:** none. Every death is a dust cloud, a splash or X-eyes.
+- **Earlier advisory notes:** D1 (s161), D3 (s201, now a dashed circle) and D4 (s267, "NOT FOOLED" now clears the crown by about 25 px) are fixed.
+  D2 (s218) now has about 45 px between the "E" and the claw tips. That is acceptable. Shortening to "BIGGEST CARNIVORE" is optional.
+- **Verdict cards** s004/s049/s155 ("DOUG WINS / DOUG LOSES / NO CONTEST") have no caption bar, on purpose (pre-item teaser on the next item's
+  background). They are consistent with each other, so keep them.
+
+## Required fixes: shotlist (director)
+1. **s189 (car on the croc):** the `small_car` wheels sit on the croc's back, so it reads as a car parked on the crocodile, not as a length
+   comparison. The car must not touch the croc. Option A (preferred): put both on the ground at true scale side by side. Keep the croc in the
+   river, move the car to the near sand at its own baseline (for example x 1350, y about 1040, scale about 1.5, wheels on the sand) and move the
+   6 M dashed line above the croc (y about 620). Option B: switch s189 to a cream diagram (croc on one baseline, car on a second baseline under
+   it, both left-aligned, one dashed length line each). Either way, keep at least 60 px of clear space between the car and the croc.
+2. **s123 (birdseed bag):** `rotate: 180` flips the bag body, but its printed label stays upright (engine text cannot rotate). It reads as an upright
+   bag with a broken base, floating at head height beside Doug's hand. Drop the rotate. Either put the bag on the ground at Doug's feet, tipped
+   over (rotate up to about 20 degrees) with 3-4 seed dots spilling from the mouth, or hold it upright at hand height (about x 700, y 760)
+   with a few seeds falling out of the bottom. The "?" stays. (This limitation is now in the art bible, Text section.)
+3. **s264 (BOYS on the sun):** the "BOYS" label at (400, 640) sits right on the sun disc, which covers x 280-520. Move it to about (640, 780), to the right of
+   the loudspeaker and below the horizon, clear of the sun.
+4. **s208 (label on Doug):** the "27 FATAL" box at (1550, 660) overlaps Doug's cap. Raise both labels by 50 px (87 ATTACKS at 470, 27 FATAL at 610)
+   or move Doug to x 1780. Doug's cap must be fully clear of the box.
+5. **s209 (Doug in the jaws):** Doug (x 300) stands on the croc's snout tip, so it reads as Doug in the jaws on a non-death beat. Move the croc to
+   x 1080 and Doug to x 220, which leaves about 100 px of clear sand between the snout and Doug. The tail stays inside x 1856.
+6. **s154 (lime on green):** the "EVERYTHING ELSE" wordart at y 600 sits on the dark-green rainforest hills. The art bible forbids lime wordart on green.
+   Lift it to y about 470 (blue sky band) and move the ghost Doug to x about 1500 so the two don't touch.
+7. **s146 (red dots):** the red `#e0201b` dots over the black chimp silhouettes, on the "killings" beat, can read as blood drops at phone size.
+   Recolour them blue `#3a8fd6` (the poll/USA blue already in this episode) and keep the 10th chimp unmarked.
+
+Label count (style bible 7.4: at most 2 labels or wordart at once):
+8. **s025:** there are 3 stacked labels. Keep "POND" (move it onto the pond next to the goose) and merge the other two into one label, "DIGNITY + LAST WORD".
+9. **s055:** "2x" wordart plus FEMALE and MALE makes 3. Delete the "2x" wordart and change the MALE label to "MALE 2x".
+10. **s083:** ELK, BISON and MOOSE are 3 labels. Use one label, "ELK, MOOSE, BISON", centred above the moose (about 1100, 320).
+
+## Required fixes: assets (illustrator)
+None. All the library drawings render on-model at every scale used.
+
+## Routing
+- Director: fixes 1-10, then re-render with `python -m studio keyframes 011-every-animal-fight --shots s025,s055,s083,s123,s146,s154,s189,s208,s209,s264`.
+- Illustrator: nothing.
+- Art bible: I added the text-in-rotated-assets rule (Text section) from s123.
