@@ -122,7 +122,7 @@ When it is agitated, that car can charge at more than thirty kilometers an hour,
 
 [Label: "30+ KM/H". A speed line behind the hippo.]
 
-Until recently, scientific descriptions of how hippos move on land were limited and frequently contradictory.
+Until recently, scientific descriptions of how hippos move on land were limited and sometimes contradictory.
 
 In twenty twenty-four, researchers at the Royal Veterinary College in London filmed hippos at a park in North Yorkshire. They added online video until they had one hundred and sixty-nine running strides from thirty-two different hippos. They found that hippos almost only trot, even at top speed, and never really switch to a gallop the way a horse does. The work was partly meant to help veterinarians care for hippos that have trouble moving, which is a sensible, practical goal that Doug is about to complicate.
 
@@ -272,7 +272,7 @@ During the day, a group may keep to only about two hundred meters of shoreline.
 
 Bulls defend their own stretch of river, usually fifty to one hundred meters long, about the length of a football pitch. Doug paddled into one without noticing the sign, because there is no sign.
 
-A team that canoed the length of Zambia's Kafue River in twenty twenty-five to count hippos put it plainly: hippos are capable of capsizing boats. That river is considered one of the last great hippo strongholds in Africa. They are dangerous to people, especially to people travelling by boat. On the Zambezi, guided canoe trips have been tipped over by a hippo coming up from directly underneath.
+A team that canoed the length of Zambia's Kafue River in twenty twenty-five to count hippos put it plainly: hippos are capable of capsizing boats. That river is considered one of the last hippo strongholds in Africa. They are dangerous to people, especially to people travelling by boat. On the Zambezi, guided canoe trips have been tipped over by a hippo coming up from directly underneath.
 
 The problem with Doug's route is simple. From a canoe, a hippo is a rock until it isn't.
 
@@ -348,7 +348,7 @@ A big male can be up to five meters long, longer than most family cars.
 
 Doug had thought about this carefully: a herbivore, he reasoned, would appreciate a vegetable, and an animal with a mouth that size could appreciate a great many vegetables at once.
 
-Up to now, the danger came from the hippo getting near Doug, or from Doug wandering somewhere the hippo already was. This time, Doug walked all the way up to the hippo himself, on purpose, holding a salad.
+There is no distance left to close now. Doug has closed all of it himself, on foot, on purpose, holding a salad, and smiling the whole way.
 
 The worst part fits in four short sentences. It doesn't want to eat Doug. It never did. It's a vegetarian. It killed him anyway.
 
@@ -364,4 +364,4 @@ The hippo kept the lettuce, and the cap was the only thing it let leave.
 
 Doug deaths: one hundred and fourteen. Tell us in the comments which animal Doug should stay away from next.
 
-<!-- words: 2912 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 14:56 at 195 wpm · draft 2 (2026-10-09) · 10 items · item words: Cocaine Hippos 253, The Honk 254, The Night Walk 222, The Charge 292, The Red Sweat 292, The Yawn 293, The Shallows 307, The Canoe 304, Bull Territory 292, The Mouth 374 · first item name at spoken word 29 · item 1 twist at spoken word 127 (about 0:39) · first death at spoken word 721 (about 3:42) · "In the water." at 56 percent · 194 sentences, avg 15.0 words, max 35 · Flesch 70.6 (textstat) · every item has a sentence of 6 words or fewer · outro 19 words · tics: However 1, actually 1, essentially 1, incredibly 0 · twist markers: Here's the problem / The strange part / The worst part / Then the footage got strange / Here's the part Doug missed / Here's the thing / But here's where it falls apart / The problem with Doug's route / That leaves Doug with one problem / The worst part -->
+<!-- words: 2904 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 14:54 at 195 wpm · draft 3 (2026-10-09) · 10 items · item words: Cocaine Hippos 253, The Honk 254, The Night Walk 222, The Charge 292, The Red Sweat 292, The Yawn 293, The Shallows 307, The Canoe 303, Bull Territory 292, The Mouth 367 · first item name at spoken word 29 · item 1 twist at spoken word 127 (about 0:39) · first death at spoken word 721 (about 3:42) · "In the water." at 56 percent · 194 sentences, avg 15.0 words, max 35 · Flesch 70.6 (textstat) · every item has a sentence of 6 words or fewer · outro 19 words · tics: However 1, actually 1, essentially 1, incredibly 0 · twist markers: Here's the problem / The strange part / The worst part / Then the footage got strange / Here's the part Doug missed / Here's the thing / But here's where it falls apart / The problem with Doug's route / That leaves Doug with one problem / The worst part -->
