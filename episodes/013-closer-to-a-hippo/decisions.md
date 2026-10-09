@@ -20,3 +20,14 @@ Notes for downstream (non-blocking, no further script rounds):
 4. Titler: no "cocaine" in title, thumbnail or tags; include "Entertainment and education only. Do not approach wild animals."
 5. Art: red sweat drawn orange-red (never blood red); hippo looks dangerous, not cuddly; no teeth in contact with Doug.
 6. Script writer: add Science News (Milius, 2004) as second source for the red sweat pigments in facts.md; drop the stale row 57 line.
+
+## 2026-10-09: thumbnail A/B: A WINS (thumbnail.json unchanged)
+
+A (archetype C hero close-up, "VEGETARIAN") beats B (archetype B distance pyramid).
+1. A builds a curiosity gap B lacks: the word "VEGETARIAN" against a gaping, tusked mouth is the episode thesis in one look,
+   and it adds to the title ("...Deadlier the Closer Doug Gets") rather than repeating it. B repeats the title's gradient with numbers.
+2. Feed size (168x94): A's hippo mouth and the word stay legible. In B the hippo in the top two bands (grazing, waterline) shrinks to grey
+   specks; only the bottom mouth tile reads.
+3. Archetype C carries the reference channel's biggest outliers; it is what the brief proposed and what the titler's thumbnail_brief specified.
+4. Policy: both clean (no blood, no red sweat, no "cocaine", no teeth touching Doug, adult tone). A's hippo looks dangerous, not cuddly.
+Keep B on file as a test variant if YouTube Test & Compare is used after launch.

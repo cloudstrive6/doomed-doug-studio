@@ -1,0 +1,181 @@
+{
+ "_note": "Variant B: distance ladder (style bible 2.B) as an inverted stepped pyramid, far (top, pasture) to 0 m (bottom, mouth); labels are distances only (no title words); tiny Doug waving in the top band, red cap visible.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 300.0,
+   "y": 12,
+   "w": 680,
+   "h": 136,
+   "fill": "#9bd86e",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "hippo_grazing",
+   "x": 820,
+   "y": 136,
+   "scale": 0.15,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "11,000 Km",
+   "x": 280.0,
+   "y": 80.0,
+   "size": 56,
+   "color": "#000000",
+   "align": "right",
+   "font": "ComicNeue-Bold",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 355.0,
+   "y": 148,
+   "w": 570,
+   "h": 136,
+   "fill": "#f2c14e",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "hippo_waterline",
+   "x": 640,
+   "y": 262,
+   "scale": 0.62,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "1 Km",
+   "x": 945.0,
+   "y": 216.0,
+   "size": 56,
+   "color": "#000000",
+   "align": "left",
+   "font": "ComicNeue-Bold",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 410.0,
+   "y": 284,
+   "w": 460,
+   "h": 136,
+   "fill": "#4a6fc0",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "hippo_trot",
+   "x": 640,
+   "y": 406,
+   "scale": 0.3,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "50 M",
+   "x": 390.0,
+   "y": 352.0,
+   "size": 56,
+   "color": "#000000",
+   "align": "right",
+   "font": "ComicNeue-Bold",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 465.0,
+   "y": 420,
+   "w": 350,
+   "h": 136,
+   "fill": "#9a6a44",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "hippo_yawn",
+   "x": 640,
+   "y": 550,
+   "scale": 0.21,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "5 M",
+   "x": 835.0,
+   "y": 488.0,
+   "size": 56,
+   "color": "#000000",
+   "align": "left",
+   "font": "ComicNeue-Bold",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 520.0,
+   "y": 556,
+   "w": 240,
+   "h": 136,
+   "fill": "#8a2343",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "hippo_mouth_front",
+   "x": 640,
+   "y": 686,
+   "scale": 0.125,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "0 M",
+   "x": 500.0,
+   "y": 624.0,
+   "size": 56,
+   "color": "#000000",
+   "align": "right",
+   "font": "ComicNeue-Bold",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 420,
+   "y": 95,
+   "scale": 0.2,
+   "pose": "wave",
+   "expression": "hopeful",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

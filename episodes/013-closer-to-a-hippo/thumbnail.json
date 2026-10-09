@@ -1,0 +1,69 @@
+{
+ "_note": "Archetype C hero close-up (style bible 2.C): hippo mid-yawn threat display filling the frame on flat tan, tiny Doug bottom-right offering a lettuce, red cap on. Big text 'VEGETARIAN' (no title words). Also the opening image.",
+ "background": "#e9c88a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "asset",
+   "name": "hippo_yawn",
+   "x": 380,
+   "y": 850,
+   "scale": 1.72,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "VEGETARIAN",
+   "x": 245,
+   "y": 68,
+   "size": 72,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 8,
+   "boil": 0,
+   "wobble": 0,
+   "bold": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     18,
+     122
+    ],
+    [
+     455,
+     122
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 9,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 1160,
+   "y": 585,
+   "scale": 0.42,
+   "pose": "point",
+   "expression": "hopeful",
+   "facing": "left",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "lettuce",
+   "x": 1062,
+   "y": 518,
+   "scale": 0.42,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

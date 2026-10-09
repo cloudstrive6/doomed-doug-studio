@@ -132,3 +132,29 @@ None.
 - From round 1: keep s250 (deliberate full-black frame) under about 1.5 s and make sure QC doesn't flag it.
 
 VERDICT: PASS (keyframes approved for render; recommended fixes 1-2 strongly suggested)
+
+## Thumbnail, 2026-10-09
+Re-rendered with `python -m studio thumbnail` from the current `thumbnail.json`. Title: "Why Hippos Get Deadlier the
+Closer Doug Gets".
+
+### Main thumbnail (A: hippo yawn + "VEGETARIAN")
+- **Feed size (320x180):** passes. The open pink mouth and tusks read immediately as the threat. Doug's red cap and
+  white head are visible bottom-right, and the green lettuce makes the joke land. "VEGETARIAN" is still legible.
+- **Title fit:** good. The text adds irony ("it's a herbivore") without repeating the title words, and the picture
+  (Doug inches from the tusks) delivers on "closer = deadlier". It isn't misleading.
+- **Errors:** none blocking. Doug is on-model. Nothing is garbled, and he sits clear of the bottom-right timestamp
+  overlay (his feet end at about y 645).
+- **Policy:** no gore. The dark maroon patch in the throat reads as the tongue/throat, not blood. The tone is deadpan
+  and adult, not a kids' show: Doug is small, the hippo is menacing, and nothing is cutesy.
+- Recommended (graphic designer, not blocking):
+  1. "VEGETARIAN" starts about 10 px from the left edge. Nudge it right to about x 260 (24 px margin) so it doesn't
+     look clipped on cropped surfaces.
+  2. The lone horizontal incisor at about (930-985, 570-595) reads as a stray rectangle or cigarette. Angle it down
+     about 20 degrees, or drop it.
+
+### Variant B (distance ladder), note for the A/B test only
+- The "11,000 Km" tier puts Doug and a hippo in the same panel, which contradicts the label. Units are also
+  inconsistent ("Km" vs "M"; use "km"/"m"). Fix both before B is used in a test (graphic designer). A is the one
+  that ships.
+
+VERDICT: PASS
