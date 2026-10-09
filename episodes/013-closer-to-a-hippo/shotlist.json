@@ -14329,8 +14329,8 @@
      },
      {
       "type": "doug",
-      "x": 1120,
-      "y": 924.0,
+      "x": 1200,
+      "y": 975,
       "scale": 0.5,
       "pose": "think",
       "expression": "confused",
@@ -23953,80 +23953,6 @@
       "r": 135,
       "color": "#ffd36b",
       "density": 0.35,
-      "appear": 0.3
-     },
-     {
-      "type": "rect",
-      "x": 270,
-      "y": 652,
-      "w": 300,
-      "h": 60,
-      "fill": "#2b3d33",
-      "color": "#2b3d33",
-      "width": 0,
-      "outline": false,
-      "boil": 0,
-      "appear": 0.3
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        356,
-        652
-       ],
-       [
-        530,
-        652
-       ],
-       [
-        570,
-        670
-       ],
-       [
-        570,
-        712
-       ],
-       [
-        386,
-        712
-       ]
-      ],
-      "fill": "#5a4b3d",
-      "color": "#5a4b3d",
-      "width": 0,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        356,
-        652
-       ],
-       [
-        386,
-        712
-       ]
-      ],
-      "color": "#3b3026",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        530,
-        652
-       ],
-       [
-        570,
-        670
-       ]
-      ],
-      "color": "#3b3026",
-      "width": 4,
       "appear": 0.3
      },
      {
@@ -42214,12 +42140,40 @@
         760
        ]
       ],
-      "color": "#e0201b",
+      "color": "#fff36b",
       "width": 6,
-      "dash": [
-       18,
-       14
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        790,
+        560
+       ],
+       [
+        850,
+        560
+       ]
       ],
+      "color": "#fff36b",
+      "width": 6,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        790,
+        760
+       ],
+       [
+        850,
+        760
+       ]
+      ],
+      "color": "#fff36b",
+      "width": 6,
       "appear": 0.3
      },
      {
@@ -52440,7 +52394,7 @@
      {
       "type": "label",
       "text": "2025",
-      "x": 300,
+      "x": 540,
       "y": 330,
       "size": 60,
       "bold": true,
@@ -64648,8 +64602,8 @@
       "type": "asset",
       "name": "hippo_mouth_front",
       "x": 880,
-      "y": 1000,
-      "scale": 0.75,
+      "y": 1065,
+      "scale": 0.62,
       "silhouette": true,
       "glow": "#ffd36b",
       "glow_r": 760
@@ -64711,8 +64665,8 @@
       "type": "asset",
       "name": "hippo_mouth_front",
       "x": 880,
-      "y": 1000,
-      "scale": 0.75,
+      "y": 1065,
+      "scale": 0.62,
       "silhouette": true,
       "glow": "#ffd36b",
       "glow_r": 760
@@ -64780,8 +64734,8 @@
       "type": "asset",
       "name": "hippo_mouth_front",
       "x": 880,
-      "y": 1000,
-      "scale": 0.75,
+      "y": 1065,
+      "scale": 0.62,
       "silhouette": true,
       "glow": "#ffd36b",
       "glow_r": 760
@@ -64789,8 +64743,8 @@
      {
       "type": "asset",
       "name": "lettuce",
-      "x": 960,
-      "y": 600,
+      "x": 880,
+      "y": 830,
       "scale": 1.0,
       "appear": 0.1
      },

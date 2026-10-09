@@ -113,3 +113,57 @@ After the fixes, re-render only the touched shots (`python -m studio keyframes 0
 and send the sheet back to the art director.
 
 **Keyframes verdict: FAIL** (12 blocking fixes for the director: 1-12. No asset fixes.)
+
+---
+
+# Round 2: keyframes re-review (contact sheets `build/contact/sheet_01..22.png`, 253 shots, rendered 18:20)
+
+Reviewer: art director, 2026-10-09. I checked all 22 sheets and looked at the touched shots at full size (s003, s033, s044, s061,
+s065, s117, s150, s164, s194, s195, s225).
+
+**Verdict: PASS.** All 12 blocking fixes are resolved. Two small leftovers (A, B below) are for the **director** in the next
+shotlist pass. They do not block `art_approved`. The visual screener can check them in its round 2. The illustrator has no fixes.
+
+## Blocking fixes from round 1
+| # | Shot(s) | Status | Notes |
+|---|---|---|---|
+| 1 | s003 | FIXED | The map is smaller and higher. "AS FAR AS HE COULD" sits in the clear strip below the frame, inside y 1040. |
+| 2 | s150 | FIXED | "NEVER LEARNED" is at about (900, 320), clear of the counter, the whale and the dolphin. |
+| 3 | s163 | FIXED | Both wordarts are at about y 390 in clear sky, below the DISTANCE label. |
+| 4 | s195, s219 | FIXED | Both titles are at about y 360, with glyph tops at y ≥ 300. The s195 title clears the yawn tips. |
+| 5 | s194 | FIXED | The ghost is at about x 1050, well clear of the counter zone. |
+| 6 | s061 | FIXED, with new issue A | `glow_r: 0` is set and the halo is now the yellow `#ffd36b` spray, so there is no blood-puddle read. See A for the cover patch. |
+| 7 | s118 | FIXED | It uses the closed-mouth `hippo`. The yawn appears first as the s119 silhouette and then in colour in s120. |
+| 8 | s250 | FIXED | `doug_cap` sits low and centred on the black, and it appears with the 114 tick. |
+| 9 | s137 | FIXED | Close-up: `hippo_yawn` fills the right two-thirds, with the 150-degree arc on the jaw and Doug small at the left. This breaks the s135-s139 run. |
+| 10 | s212 | FIXED | Cream top-down river strip with two coloured territories, a waterline hippo in each, a tiny Doug on the border and a "50 M" ruler. |
+| 11 | s015 | FIXED | Cream count card ("LATE 2023", "169") with a row of hippo heads. This breaks the s004-s017 savanna run. |
+| 12 | s035, s036 | FIXED | Only NEIGHBOR and STRANGER are labelled. |
+
+## Non-blocking fixes from round 1
+- **Done:** 13 (s087: the arrow starts at the wordart top, and the wordart is now below the film strip), 14 (s026, s030: the labels are in clear
+  sky), 16 (s213, s214: the dashed border breaks around Doug), 17 (s222, s236 are at y ≥ 330, and s225 is at (860, 160), ending before
+  x 1200), 18 (s065: the hippo's silhouette head with a yellow glow peeks past the tent, so it is no longer a capless "Doug"), 19 (s191 and
+  s172, s175-s177 are on the Canoe sunset bands), 20 (s164: the glow is now a pale non-red ring cut at the riverbed line, with no red cloud in the water).
+- **Not done:** 15 (s033). See B.
+
+## Visual-screener items with art impact (checked)
+- The reveal glow is the yellow `#ffd36b` in every shot that uses it (s061, s065, s086, s119, s164, s245-s248). Red speckle no longer
+  appears anywhere in the episode. On the maroon `#9e3348` it reads warm orange, not red. The `dung_cloud` redraw (s044) shows
+  separate flicked clumps with motion ticks, and Doug's face and body stay visible. It is gross but not gross-out. `door_ajar` / `door_flung_open` (s126)
+  read as doors at a glance. `bank_card` (s108) reads with its chip and number dashes. s121 uses strike-throughs, so both words stay legible.
+  s229 hides the whole middle card. s241 puts the lettuces in the mouth. s242 uses "0 M" in the mouth. s058 is reframed as a close crop.
+- The distance meter now steps on the item title cards (s025, s048, s070, s094, s118, s143/s144, s168, s195, s219). The counter
+  still ticks once per death (107 -> 114). Doug is on-model in every shot, and every ghost and death beat has its cap.
+
+## Remaining fixes (director, non-blocking, do them in the next shotlist pass)
+A. **s061:** the cover patch under the hippo (the `rect` at 270,652 300x60 plus the five-point path `poly` 356-570 x 652-712) has
+   straight edges and no path outline, so it shows as a lighter box under the hippo's feet. The glow is now yellow, so the cover is
+   no longer needed. Delete both elements. If yellow speckle on the path still bothers you, shrink the spray `r` to about 110 instead.
+B. **s033** (round-1 #15, still open): Doug (1120, 924) still has his head on the outline of the right-hand lake (x 1060-1540,
+   bottom y ≈ 832), and the outer sound arc (r 116 from 1000, 920) runs through his torso. Move Doug to about (1200, 1000) so
+   his head clears the lake bottom and the arcs end before his body. Or shrink the arcs to r 40/70/100.
+
+Optional polish (no action needed): s183's "2025" label partly covers the sun disc. Move the sun to about x 180 or the label to about x 1450.
+
+**Keyframes verdict, round 2: PASS** (no blocking fixes; director: A and B in the next pass; illustrator: none).
