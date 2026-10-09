@@ -1817,7 +1817,7 @@
      {
       "type": "wordart",
       "text": "CALMEST PLACE",
-      "x": 760,
+      "x": 700,
       "y": 380,
       "size": 100,
       "boil": 0,
@@ -2125,9 +2125,9 @@
      {
       "type": "wordart",
       "text": "MOST DANGEROUS",
-      "x": 760,
+      "x": 680,
       "y": 380,
-      "size": 100,
+      "size": 92,
       "boil": 0,
       "appear": 0.38
      },
@@ -4800,7 +4800,7 @@
      {
       "type": "wordart",
       "text": "SAFEST PLACE",
-      "x": 760,
+      "x": 640,
       "y": 380,
       "size": 110,
       "boil": 0,
@@ -8375,9 +8375,9 @@
      {
       "type": "wordart",
       "text": "DEEPEST POWDER",
-      "x": 760,
+      "x": 660,
       "y": 380,
-      "size": 96,
+      "size": 90,
       "boil": 0,
       "appear": 0.447
      },
@@ -9966,8 +9966,8 @@
      {
       "type": "wordart",
       "text": "TWO THIRDS",
-      "x": 1250,
-      "y": 470,
+      "x": 1350,
+      "y": 330,
       "size": 110,
       "boil": 0,
       "appear": 0.253
@@ -9985,8 +9985,8 @@
      },
      {
       "type": "doug",
-      "x": 1450,
-      "y": 640,
+      "x": 1600,
+      "y": 700,
       "scale": 0.42,
       "pose": "float",
       "ghost": true,
@@ -16662,9 +16662,9 @@
      {
       "type": "wordart",
       "text": "GROWS DOWNWARD",
-      "x": 700,
+      "x": 620,
       "y": 420,
-      "size": 96,
+      "size": 88,
       "boil": 0,
       "appear": 0.686
      },
@@ -17171,7 +17171,7 @@
      },
      {
       "type": "label",
-      "text": "-2 \u00b0C",
+      "text": "-2 °C",
       "x": 1450,
       "y": 600,
       "size": 70,
@@ -17255,7 +17255,7 @@
      },
      {
       "type": "label",
-      "text": "-2 \u00b0C",
+      "text": "-2 °C",
       "x": 1150,
       "y": 960,
       "size": 50,
@@ -17325,9 +17325,9 @@
      {
       "type": "wordart",
       "text": "COLDER THAN YOUR FRIDGE",
-      "x": 700,
-      "y": 420,
-      "size": 80,
+      "x": 600,
+      "y": 380,
+      "size": 70,
       "boil": 0,
       "appear": 0.057
      },
@@ -17555,9 +17555,9 @@
      {
       "type": "wordart",
       "text": "HOLLOW TUBE",
-      "x": 1400,
+      "x": 1380,
       "y": 520,
-      "size": 110,
+      "size": 90,
       "boil": 0,
       "appear": 0.38
      },
@@ -18166,7 +18166,7 @@
       "type": "wordart",
       "text": "5-6 HOURS",
       "x": 520,
-      "y": 760,
+      "y": 330,
       "size": 100,
       "boil": 0,
       "appear": 0.909
@@ -19737,7 +19737,7 @@
      {
       "type": "wordart",
       "text": "MOVE SLOWLY",
-      "x": 700,
+      "x": 620,
       "y": 420,
       "size": 100,
       "boil": 0,
@@ -21256,9 +21256,9 @@
      {
       "type": "wordart",
       "text": "FREEZES THE FLOOR",
-      "x": 650,
+      "x": 600,
       "y": 420,
-      "size": 96,
+      "size": 84,
       "boil": 0,
       "appear": 0.627
      },
@@ -21836,15 +21836,15 @@
      {
       "type": "wordart",
       "text": "NOT FAST ENOUGH",
-      "x": 650,
-      "y": 420,
-      "size": 96,
+      "x": 600,
+      "y": 300,
+      "size": 84,
       "boil": 0,
       "appear": 0.73
      },
      {
       "type": "doug",
-      "x": 1000,
+      "x": 860,
       "y": 536.2,
       "scale": 0.42,
       "pose": [
@@ -22774,12 +22774,12 @@
       "type": "line",
       "points": [
        [
-        500,
-        990
+        540,
+        915
        ],
        [
-        530,
-        990
+        770,
+        915
        ]
       ],
       "color": "#e0201b",
@@ -34833,9 +34833,9 @@
      {
       "type": "wordart",
       "text": "IMPOSSIBLE",
-      "x": 600,
+      "x": 540,
       "y": 470,
-      "size": 100,
+      "size": 96,
       "boil": 0,
       "appear": 0.798
      },
@@ -44010,7 +44010,7 @@
       "type": "label",
       "text": "TAR",
       "x": 600,
-      "y": 420,
+      "y": 330,
       "size": 70,
       "bold": true,
       "boil": 0.4,
@@ -44021,7 +44021,7 @@
       "type": "asset",
       "name": "red_x",
       "x": 600,
-      "y": 420,
+      "y": 330,
       "scale": 0.45,
       "appear": 0.551
      },
@@ -44029,7 +44029,7 @@
       "type": "wordart",
       "text": "NATURAL ASPHALT",
       "x": 1000,
-      "y": 560,
+      "y": 470,
       "size": 100,
       "boil": 0,
       "appear": 0.694
@@ -44799,9 +44799,9 @@
      {
       "type": "wordart",
       "text": "LIZARDS AND PIGEONS",
-      "x": 760,
+      "x": 900,
       "y": 420,
-      "size": 90,
+      "size": 84,
       "boil": 0,
       "appear": 0.605
      },
@@ -51810,9 +51810,9 @@
      {
       "type": "wordart",
       "text": "EVERYTHING IT CAUGHT",
-      "x": 760,
+      "x": 880,
       "y": 330,
-      "size": 90,
+      "size": 84,
       "boil": 0,
       "appear": 0.672
      },
@@ -54772,7 +54772,7 @@
       "type": "wordart",
       "text": "NEVER STOPPED",
       "x": 700,
-      "y": 420,
+      "y": 480,
       "size": 100,
       "boil": 0,
       "appear": 0.48
@@ -60725,7 +60725,7 @@
       "type": "wordart",
       "text": "ONLY THING THAT CAME",
       "x": 960,
-      "y": 300,
+      "y": 525,
       "size": 84,
       "boil": 0,
       "appear": 0.536
@@ -66557,9 +66557,9 @@
      {
       "type": "wordart",
       "text": "230 MILLION YEARS LATER",
-      "x": 960,
+      "x": 900,
       "y": 960,
-      "size": 84,
+      "size": 76,
       "boil": 0,
       "appear": 0.616
      },

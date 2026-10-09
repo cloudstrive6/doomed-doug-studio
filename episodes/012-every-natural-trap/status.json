@@ -29,6 +29,16 @@
       "stage": "shotlisted",
       "at": "2026-10-09T12:48:57+00:00",
       "note": ""
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-10-09T13:04:24+00:00",
+      "note": "assets approved; keyframes pending"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-10-09T13:04:29+00:00",
+      "note": "reverted: art_approved marked prematurely; keyframe review pending"
     }
   ],
   "stage": "shotlisted"
