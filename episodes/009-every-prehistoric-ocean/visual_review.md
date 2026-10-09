@@ -131,3 +131,26 @@ Scope: `build/final.mp4` (1920x1080, 1033.4 s), the 34 frames in `build/samples/
 
 VERDICT (main): FAIL
 VERDICT (shorts): FAIL
+
+## Post-render round 2 (2026-10-09): re-render after `_clean_edges`
+
+Scope: `build/final.mp4` (re-rendered 23:51, after commit afdc9e6 with the fix), all 34 `build/samples/`, `build/qc.json` (no problems), a full-res 1 fps scan of the outer 6 px on all four sides of the final (1033 s), full-res frames at 0/30/240/270/390/840/900/960/990/1005 s, the thumbnails, `metadata.json`, and the three Shorts (2 fps scan, 285 frames, plus the previews). Nothing was rendered to disk.
+
+### Edge line: NOT FIXED, now 2 px deep
+- **Main video:** I found a bright edge line in **242 of 1033 seconds (23%)**. By side: top 240 s, left 53 s, bottom 15 s, right 8 s. Round 1 had 176 s. At full res the white is now **2 px deep** (rows/columns 0 and 1, e.g. (243,255,255)), and the scene colour starts at row/column 2 (e.g. (10,23,42)). Clear examples: 960 s (s312 Megalodon "BIG PREY": dashes along the top and a white line on the lower-left edge), 990 s (s321), 1005 s (s327), and 16 s/58 s (left edge). The 640 px samples show it too: f_001, f_003, f_009, f_010, f_014, f_029 (top) and f_034 (left).
+- **Root cause (reproduced in memory with `ShotRenderer` on s312):** boil variant 0 is clean, but **variants 1 and 2 are not.** There the wobble/boil pulls the background and ray polygons in by 2 px, so the white canvas (`background: #ffffff`) shows through a 2 px ring. `_clean_edges` copies only the 1 px neighbour, which is also white, so the line survives. It flickers at 8 fps boil rate on dark shots. The round-1 fix was checked only on variant 0 (keyframes), which is why it looked fixed.
+- **Shorts:** the same defect is clearly visible. short01 has white dashes across the top of the art band at y≈578/610/636 in about 26 of 106 frames, and a full-height white line at x=0 on the art band (e.g. frame 36 s, the "which suggests competition may" shot). short03 has dashes at y≈612/636 and a left-edge line (about 7 frames). short02 had no hits in the scan, but it uses the same renderer.
+
+### Everything else
+- The content of all 34 samples is unchanged from round 1 and clean: Doug is on-model, labels and counters are legible, the death counter runs 74 to 83, there is no gore, and the tone is not kid-like. QC has no problems.
+- **Thumbnail:** this is the approved v3, unchanged, with clean edges. It is readable at 320 px, complements the title "What Dying in Every Prehistoric Ocean Would Be Like", and is not misleading. **Pass.**
+- **Shorts layout:** the titles are readable, the drawings are not cut off, the subtitles are legible, and the end cards point down. These all pass apart from the edge line.
+
+### Fixes (engine, art director / editor)
+1. `studio/scene.py` `_clean_edges` / `render_still`: make the bleed robust for every boil variant, not just variant 0. Do one of the following (both is best):
+   (a) Before drawing, fill the canvas with the colour of the first full-bleed background element instead of `#ffffff`. Or draw edge-touching background rects and ray polys with an outset of at least ceil(wobble_px + boil_px) + 2 ≈ 5 px past the canvas.
+   (b) Widen `_clean_edges` to overwrite the outer **4 px** ring from the row/column at depth 4.
+2. Verify on **all boil variants** (`ShotRenderer(...).frames()` for s312, s321, s327, s006, s019): no pixel in the outer 4 px may be white where pixel 5 is dark. Then re-render the final and Shorts, and re-run the edge scan.
+
+VERDICT (main): FAIL
+VERDICT (shorts): FAIL
