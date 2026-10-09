@@ -191,7 +191,7 @@ octopus). The blue-ringed octopus "enough venom to paralyze ten adults" is a pot
 | Other common name: fierce snake | https://australian.museum/learn/animals/reptiles/inland-taipan/ (verified draft 2: "Fierce Snake, Small-scaled Snake, Lignum Snake") |
 | Darker in winter, paler in summer; helps warm up / avoid overheating | https://australian.museum/learn/animals/reptiles/inland-taipan/ (verified) |
 | Shy, relatively placid; warning display first when provoked | https://australian.museum/learn/animals/reptiles/inland-taipan/ (verified) |
-| Only a handful of people bitten; all survived | https://australian.museum/learn/animals/reptiles/inland-taipan/ (verified) |
+| Only a handful of people bitten; all survived with fast medical treatment | https://australian.museum/learn/animals/reptiles/inland-taipan/ (re-verified draft 3: "all have survived due to the quick application of correct first aid and hospital treatment". Script says "survived with fast medical treatment", which covers both and is a historical fact, not advice. The mouse ranking is not given as the reason for zero deaths) |
 | Most bites from captive snakes; no confirmed deaths on record | https://www.guinnessworldrecords.com/world-records/71555-most-venomous-land-snake (verified) |
 | Callback: saw-scaled viper kills the most | See Saw-Scaled Viper above |
 

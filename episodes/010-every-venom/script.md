@@ -1,5 +1,5 @@
 <!-- axis: severity to a healthy adult who gets no help, least to most dangerous. Three spoken section headers: "Pain only." (before item 1), "Slow killers." (before item 3), "Fast killers." (before item 7, the midpoint zone shift). Backgrounds go from warm sand and jungle green (pain) to dusty orange and red-brown (slow) to dark teal and near-black (fast; the last two items are at night in the sea). The boss is the box jellyfish: the most venomous animal in the sea, a killer within minutes, and the only animal here that swims toward Doug. -->
-<!-- Episode 010: How Every Deadly Venom Would Kill Doug (working). Draft 2 (2026-10-09, script writer; screener fixes applied). DOUG DEATHS on screen at 84 from the first shot, ends at 93: nine deaths over twelve items. Survivals: Platypus ("Doug is fine."), Bullet Ant ("Doug is fine." with less confidence), Inland Taipan (narrator quietly disappointed). Prop: Doug's field guide (FRIEND? box per animal, red NO after each death, MAYBE for survivals), pending the art director; if rejected, drop the guide directions and the guide line in the final kicker becomes the cap on the sand. Costume gag inverted once (cat costume, funnel-web). Callbacks: one to 001 (cone snail, at the blue-ringed octopus) and one in-episode (saw-scaled viper, at the inland taipan). No time machine, suitcase, LIVE feed, meters or Buddy. No first aid, no treatment steps, no "what to do" lines anywhere. Every Doug death is cartoon only: X eyes, dust cloud, flat costume, floating cap. -->
+<!-- Episode 010: How Every Deadly Venom Would Kill Doug (working). Draft 3 (2026-10-09, script writer; screener round 2 fixes applied). DOUG DEATHS on screen at 84 from the first shot, ends at 93: nine deaths over twelve items. Survivals: Platypus ("Doug is fine."), Bullet Ant ("Doug is fine." with less confidence), Inland Taipan (narrator quietly disappointed). Prop: Doug's field guide (FRIEND? box per animal, red NO after each death, MAYBE for survivals), pending the art director; if rejected, drop the guide directions and the guide line in the final kicker becomes the cap on the sand. Costume gag inverted once (cat costume, funnel-web). Callbacks: one to 001 (cone snail, at the blue-ringed octopus) and one in-episode (saw-scaled viper, at the inland taipan). No time machine, suitcase, LIVE feed, meters or Buddy. No first aid, no treatment steps, no "what to do" lines anywhere. Every Doug death is cartoon only: X eyes, dust cloud, flat costume, floating cap. -->
 <!-- Pronunciation checks for the editor (preview with `narrate`): Sateré-Mawé = "sah-teh-REH mah-WEH"; poneratoxin = "poh-NEH-ruh-TOX-in"; Komodo = "kuh-MOH-doh"; tetrodotoxin = "teh-TROH-doh-TOX-in"; mamba = "MAHM-buh"; funnel-web = "FUN-ul web"; taipan = "TY-pan"; Irukandji = "ear-oo-KAN-jee"; Queensland = "KWEENZ-land"; arachnologist = "ar-ak-NOL-oh-jist". -->
 
 [Open on the thumbnail, 1.5 to 4 seconds. Cut to a riverbank at golden hour, warm sand and green reeds. Doug stands holding a small battered notebook: the field guide. DOUG DEATHS: 84 on screen.]
@@ -90,7 +90,7 @@ In late summer, a group of these hornets can attack a honeybee hive and complete
 
 In Japan, government statistics counted one hundred and ninety-one deaths from wasp and bee stings between two thousand and eight and two thousand and eighteen, about seventeen a year. An earlier Japanese review found that most deaths like these come from allergic reactions.
 
-And then it gets worse. The venom calls for backup.
+The nasty twist is in the venom itself. It calls for backup.
 
 [A cartoon scent cloud rises off the hornet. Red "!" marks pop up on other hornets in the distance.]
 
@@ -266,7 +266,7 @@ On warm nights between about November and April, the males leave their burrows a
 
 Legs and all, a big male can stretch to around ten centimeters, about the width of your palm, and when it feels threatened it rears up and shows its fangs.
 
-Funnel-web spiders as a group have thirteen recorded deaths. Males caused all of them, and the male of this species probably caused most. Bites from females have not killed anyone. An antivenom was introduced in nineteen eighty-one, and no one has died from a bite since then.
+Funnel-web spiders as a group have thirteen recorded deaths. Males caused all of them, and the male of this species probably caused most. An antivenom was introduced in nineteen eighty-one, and no one has died from a bite since then.
 
 Before that, one museum arachnologist says, a death once came within fifteen minutes.
 
@@ -288,7 +288,9 @@ Doug is a primate. The costume could not change that, and the spider checked.
 
 Inland Taipan.
 
-In laboratory tests on mice, this snake has the most toxic venom of any snake tested. Doug has been sent to find it.
+In laboratory tests, this snake has the most toxic venom of any snake tested. That ranking comes from a nineteen seventy-nine study that compared snake venoms on lab mice.
+
+Doug has been sent to find it.
 
 [A vast, cracked, sunbaked floodplain. A tiny Doug walks across it with a backpack. Label: "CHANNEL COUNTRY".]
 
@@ -298,15 +300,13 @@ It is about two meters long, about as long as a door is tall. It also changes co
 
 [Two snakes side by side, one dark, one pale. Labels: "WINTER", "SUMMER".]
 
-That ranking comes from a nineteen seventy-nine study that compared snake venoms on lab mice, and mice are not people, which turns out to matter here.
-
 In the wild, it eats almost nothing but small mammals, especially the long-haired rat.
 
 Its other common name is the fierce snake. Scientists describe it as shy and relatively placid, and when it is provoked, it puts on a warning display first.
 
-Only a handful of people have ever been bitten by one, mostly people handling captive snakes, and every one of them survived.
+Only a handful of people have ever been bitten by one, mostly people handling captive snakes, and every one of them survived with fast medical treatment.
 
-The surprise is that the most toxic snake on Earth has no confirmed human deaths.
+The surprise is that the snake with the most toxic venom ever measured has no confirmed human deaths.
 
 [A big red "0" with a question mark.]
 
@@ -372,7 +372,7 @@ But the worst part is that it is not drifting.
 
 Most jellyfish float wherever the water takes them, but this one swims. It has twenty-four eyes in four groups of six, and some of them have real lenses that focus light.
 
-In two thousand and five, a study in the journal Nature looked at a different, smaller species of box jellyfish. It found that its eye lenses are remarkably well made, even though the eyes seem tuned to see a slightly blurry picture.
+In two thousand and five, a study in the journal Nature looked at a different, smaller species of box jellyfish. It found that that species' eye lenses are remarkably well made, even though the eyes seem tuned to see a slightly blurry picture.
 
 It doesn't have a brain, yet box jellyfish use those eyes to steer around obstacles, and this one can swim toward movement.
 
@@ -394,4 +394,4 @@ The field guide washed up the next morning. Nine pages say no and three say mayb
 
 Doug deaths: ninety-three. Which animal should Doug try to befriend next? Tell us in the comments.
 
-<!-- words: 3054 (spoken narration only: spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:40 at 195 wpm · draft 2 (2026-10-09, screener fixes 1-5 plus optional ones applied) · first item name at spoken word 33 · Platypus twist ("Here's the problem") at spoken word 133 · 193 sentences, avg 15.8 words, max 34 · Flesch about 68 · outro 16 words · items (a section header is counted with the item before it): opener 32 incl. "Pain only.", Platypus 215, Bullet Ant 235 incl. "Slow killers.", Asian Giant Hornet 248, Komodo Dragon 234, Indian Red Scorpion 254, Saw-Scaled Viper 240 incl. "Fast killers.", Blue-Ringed Octopus 234, Black Mamba 246, Sydney Funnel-Web Spider 257, Inland Taipan 266, Irukandji Jellyfish 244, Box Jellyfish 349 incl. outro 16 · twist markers starting "Here's": 3 (was 5) · "double bed": 1 · "fingernail": 1 · tics: actually 1, However 0, essentially 0, incredibly 0 -->
+<!-- words: 3044 (spoken narration only: spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:37 at 195 wpm · draft 3 (2026-10-09, screener round 2: required fixes 1 taipan cause-of-survival and ranking sentence moved after the opening claim, 2 hornet marker now names the twist; optional A1 lab hedge kept at line 309, A2 female-bite sentence cut, box jellyfish 'that species' eye lenses') · first item name at spoken word 33 · Platypus twist at spoken word 133 · 192 sentences, avg 15.9 words, max 34 · outro 16 words · items changed: Asian Giant Hornet 250, Sydney Funnel-Web Spider 250, Inland Taipan 260, Box Jellyfish 350 incl. outro; others unchanged from draft 2 · twist markers starting "Here's": 3 · tics: actually 1, However 0, essentially 0, incredibly 0 -->

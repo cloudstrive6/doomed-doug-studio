@@ -1,162 +1,164 @@
-# Script review: 010-every-venom, draft 1
+# Script review: 010-every-venom, draft 2 (round 2)
 
-Script screener, 2026-10-09. Inputs: style bible (3.x and section 7), series bible, brief, script.md (draft 1), facts.md.
-I recomputed the stats myself and they match the writer's footer. Spoken words: 2,948. Average sentence: 15.8 words. Longest sentence: 35 words.
-Flesch is about 68. Item 1's name comes at spoken word 33, and its twist ("Here's the problem") at word 132.
+Script screener, 2026-10-09. Inputs: style bible (3.x and section 7), series bible, brief, script.md (draft 2, commit a61e8ca), facts.md, and the draft 1 to draft 2 diff.
+I recomputed the stats and they match the writer's footer:
+- Spoken words: 3,054. Sentences: 193. Average sentence: 15.8 words. Longest: 34 words.
+- Flesch is about 68.
+- "Platypus." comes at spoken word 33 and the twist at word 133.
+- No digits or symbols in the spoken text.
 
 | Check | Result |
 |---|---|
-| 1. Facts | **FAIL**: 1 error, 1 overclaim, 1 misattribution, 1 unsourced line |
-| 2. Opening | **8/10**. Rule 14 is violated once (see section 2) |
+| 1. Facts | **FAIL**: 1 misleading causal claim (inland taipan). Draft 1 had the same line and I missed it in round 1 |
+| 2. Opening | **8/10**. Rules 1-14 all OK; one style-bible deviation (3.5) |
 | 3. Structure & pacing | **8/10** |
 | 4. Voice & humour | **8/10** |
 | 5. TTS readiness | PASS |
 | 6. Policy | PASS (0 items) |
-| 7. Length | PASS (2,948, brief target 2,900-3,400) |
+| 7. Length | PASS (3,054, brief target 2,900-3,400) |
 
 ---
 
+## 0. Round 1 fixes
+
+| # | Fix | Status |
+|---|---|---|
+| 1 | Funnel-web deaths (line 269) | **FIXED.** The new text says the group has 13 deaths, all caused by males, and the male of this species "probably caused most". The Australian Museum page, re-opened today, matches word for word. |
+| 2 | Viper kicker hedge (line 193) | **FIXED.** "The snake that probably kills more people than any other..." keeps the source's "probably". |
+| 3 | Rule 14 match "the most disturbing thing" (line 369) | **FIXED.** It is now "But the worst part is that it is not drifting." The nearest same-family marker is "What's truly unsettling" in the Irukandji item before it, so the markers still rotate. |
+| 4 | Nature 2005 attribution (line 375) | **FIXED.** The line now says "a different, smaller species of box jellyfish". The study was on *Tripedalia cystophora*, and its lenses gave nearly aberration-free images while the eyes see a blur (Lund LUP record and press coverage). This is correct. |
+| 5 | Unsourced insect-sting line (line 47) | **FIXED.** The general claim is cut. The new frame, "Its sting does not stop when the ant lets go...", rests on the 24-hour and poneratoxin rows. |
+
+The optional fixes were also applied:
+- Line 31 now says "morphine gave him little relief".
+- "double bed" appears once (was 3).
+- "fingernail" appears once (was 2).
+- "Here's" twist markers: 3 (was 5).
+- The late items were lengthened.
+
 ## 1. Facts
 
-I verified 19 claims against the live source (WebFetch) or by search. I re-opened the facts.md entries marked "search snippet" wherever the page would load.
+This round I checked 22 claims against live pages (WebFetch) or by search. That covers every new or changed claim plus a resample of earlier ones.
 
-**Confirmed:**
-- **Platypus, morphine:** the 1992 MJA case report says pain did not respond to morphine. The patient was spurred in the hand.
-  I could not open PubMed (cookie wall) or the Davidson page (404). The claim rests on Wikipedia and secondary accounts.
-- **Hornet (WSDA):** 5 cm long, 7.5 cm wingspan, longer stinger, can sting more than once, venom "more powerful than any local bee or wasp", a colony destroyed "in a matter of hours", eradicated in late 2024.
-- **Japan sting deaths:** 191 deaths from wasps and bees, 2008-2018, average 17 a year. Swatting can release the alarm pheromone (nippon.com).
-- **Scorpions:** 1.2 million stings, more than 3,250 deaths, seven high-risk areas, 2.3 billion people (Chippaux & Goyffon 2008).
-  The NBC article confirms the UV glow, that all three hypotheses fail, and that "some think it has no function".
-- **Saw-scaled viper:** the Warrell (Nigeria, 1970s) abstract says it "probably bites and kills more people than any other species of snake". Its victims fill 10% of hospital beds in the savanna region.
-- **Snakebite (WHO):** 5.4 million bites a year and 81,410 to 137,880 deaths a year.
-- **Komodo:** Goldstein 2013 studied 16 captive dragons and isolated no virulent species.
-- **Blue-ringed octopus:**
-  - Golf-ball size and a flash in 0.3-0.5 s (Physics Today).
-  - The Australian Museum confirms brown until disturbed, tetrodotoxin and "several fatalities in Australia".
-- **Black mamba (NatGeo):** olive to grey skin, a blue-black mouth lining, 14 ft maximum and 8.2 ft typical, 12.5 mph, "almost always fatal" before antivenom.
-- **Inland taipan (Australian Museum):** "most toxic of all snake venoms in LD50 tests on mice", a handful bitten and all survived, darker in winter.
-- **Irukandji:**
-  - MJA 2002: named in 1952, several small carybdeid species, onset about 30 minutes, two deaths in 2002 caused by severe hypertension.
-  - Australian Geographic (Gershwin): fingernail size, a transparent cube-shaped bell, and the certainty of dying.
-- **Box jellyfish:**
-  - NOAA: "considered the most venomous marine animal", death "within a few minutes", swims at up to 4 knots.
-  - Australian Museum: 30 cm bell, up to 60 tentacles in four clumps, 3 m tentacles, swims toward movement.
-  - MJA 1996: at least 63 deaths since 1884.
+**New claims, confirmed:**
+- **Scorpion heart claim (line 145):** the Frontiers in Pharmacology 2021 review (Das et al.) supports both parts:
+  - "Indian red scorpion sting is often characterized by myocarditis..."
+  - "...reducing the heart's pumping ability"
 
-**FAIL items:**
+  The same page also confirms catecholamine release, 5-9 cm, nocturnal, and "one of the world's deadliest scorpions". Line 145 is supported.
+- **Taipan diet (line 303), Australian Museum:** "feed entirely on small to medium-sized mammals, particularly the Long-haired Rat."
+  The script's "almost nothing but small mammals" is more cautious than the source. Captive snakes also take chicks. Acceptable.
+- **"Fierce snake" (line 305):** the museum lists "Fierce Snake, Small-scaled Snake, Lignum Snake". Confirmed. The museum also confirms "shy... relatively placid" and the warning display before a strike.
+- **Taipan size and colour:** an average of 2 m, darker in winter and lighter in summer (museum). Confirmed. "As long as a door is tall" (about 2-2.1 m) is fine.
+- **Mamba (NatGeo):** up to 14 ft and 8.2 ft average, olive to gray, 12.5 mph, blue-black mouth, "almost always fatal". All confirmed.
+  - "past four meters, about the length of a family car" (4.3-4.8 m) is fine.
+  - "still longer than a sofa" (2.5 m against about 2-2.2 m) is fine.
+  - "half an hour, roughly the length of a lunch break" is fine.
+- **Funnel-web, "Bites from females have not killed anyone" (line 269):** supported. The museum says "bites by these females have not caused any deaths". "These females" means female Sydney funnel-webs, and the claim also follows from "males caused all of them". See advisory A2.
+- **Comparisons:** staple (about 12.7 mm, so "a little longer" fits a 15-18 mm spur) and guitar (about 1 m). Both pass the arithmetic check.
 
-1. **Funnel-web death count is wrong (fact error).** Script line 267: *"Male spiders are thought to be behind all thirteen recorded deaths from this species."*
-   The Australian Museum page (re-opened) gives two facts:
-   - the 13 recorded deaths are for funnel-webs as a group;
-   - the male Sydney funnel-web is "**probably responsible for most** of the thirteen recorded deaths".
+**Resampled, confirmed:**
+- **Box jellyfish (NOAA):** "most venomous marine animal", death "within a few minutes", speeds "approaching four knots" (about 7.4 km/h, so "about seven kilometers an hour" is fine), *Chironex fleckeri*.
+- **Komodo:** 3.13 m is the longest verified. Four deaths in the 35 years to 2009 (2009 press reports). Later park data to 2012 gives 5 deaths, but the script's window ends in 2009, so it is correct.
+- **Taipan:** "only a handful of people have ever been bitten", all survived.
 
-   The other sentence on that page, "only male spiders have been responsible for all recorded funnel-web envenomation deaths", is also about the group, not this species.
-   The script attaches "all thirteen" to *this species*, which the source does not support. facts.md has the same mistake (it marks this row "verified").
-2. **The viper kicker drops the hedge (overclaim).** Line 191: *"The deadliest snake on Earth is very easy to step on, and Doug stepped on it."*
-   The only source is the hedged "probably" (line 179), and "deadliest" can be heard as "most toxic", which the taipan item later says is a different snake.
-3. **The 2005 Nature study is attributed to the wrong species.** Line 371 sits in the *Chironex* item and says the study looked at "box jellyfish eyes".
-   Nilsson et al. 2005 studied *Tripedalia cystophora*, a small Caribbean box jellyfish, not *Chironex fleckeri*. Viewers will hear it as a finding about this animal.
-4. **Unsourced claim (rule 11).** Line 47: *"Most insect stings fade within a few minutes of the moment they happen."* There is no row for it in facts.md.
+**FAIL item:**
+
+1. **The taipan line implies the wrong reason for zero deaths (misleading claim).** Line 301:
+   *"...and mice are not people, which turns out to matter here."*
+   - The clause tells viewers that the mouse ranking doesn't carry over to humans, and that this explains why nobody has died.
+   - The Australian Museum gives a different reason: the handful of bite victims survived **because of prompt first aid and hospital treatment**. Bites are also rare because the snake is remote and shy.
+   - The script's own callback (line 313) gives the correct reason ("common, nearby and easy to step on"), so the item contradicts itself.
+   - It also clashes with the declared axis ("a healthy adult who gets no help"), which puts this snake among the "Fast killers".
+   - The brief's own fallback wording (section 4, item 10) is "very few bites, all survived with treatment".
 
 **Advisory (not blocking):**
-- **Platypus, line 31:** "even strong doses of morphine gave him almost no relief." One secondary account says repeated doses eventually brought the pain down to a tolerable level.
-  "Morphine gave him little relief" is safer. If the writer can open the MJA PDF, keep the wording only if the paper supports it.
-- **Funnel-web, lines 274-275:** the toxin cited is robustoxin. The museum calls it a male-specific component, so "the male's venom" is fine.
+- **A1. Line 309:** "the most toxic snake on Earth" drops the "in lab tests on mice" hedge that line 291 sets up. This is the same pattern as the viper kicker in round 1. A wording such as "the snake with the most toxic venom ever measured" keeps the hedge.
+- **A2. Line 269:** "Bites from females have not killed anyone" repeats "Males caused all of them". The museum also warns that females of other funnel-web species shouldn't be assumed safe. Cutting the sentence saves 7 words and loses nothing.
 
-## 2. Opening and Script Writer rules (section 7)
+## 2. Opening and Script Writer rules (section 7): 8/10
 
-- "Platypus." is at spoken word 33, inside the 35-word limit but tight. Nothing comes before it: no greeting, no channel name, no "in this video", no subscribe ask.
-- The twist lands at word 132 (about 41 s), under 145. It is a strong one: a joke animal that morphine can't touch.
-- The opener follows the brief and lands "Doug did not agree to this."
-- **Score 8/10.** The frame line is a plain inventory sentence and has no stakes hook. It does its job but won't be clipped.
-
-**Rule-by-rule:**
+The opening is unchanged from draft 1:
+- "Platypus." comes at word 33, with nothing banned before it.
+- The twist comes at word 133.
+- The score stays 8. The frame line is still functional, not clip-worthy.
 
 | Rule | Status |
 |---|---|
-| 1 Word count | OK (2,948) |
+| 1 Word count | OK (3,054) |
 | 2 Opening | OK |
-| 3 Item count and names | OK (12 items, standalone name sentences matching the headings) |
-| 4 Beats | OK. Every item has frame, mechanism, flagged twist, kicker of 8-25 words, and a Doug beat |
-| 5 Axis | OK. Declared in the header; the boss is the most extreme |
-| 6 Twist by word 145 | OK |
-| 7 Transitions | OK (section headers only) |
-| 8 Scale analogies | OK. One per item or more |
-| 9 Sentences and Flesch | OK. Average 15.8, max 35, at least one short sentence per item, Flesch about 68 |
-| 10 Humour | OK. Deadpan, no gross-out |
-| 11 Sources | **VIOLATED** (line 47, see fact item 4) |
-| 12 Ending | OK. The closing-image line plus a 16-word outro. "Nine pages say no and three say maybe" is a tally, not a recap; acceptable |
-| 13 Tics and markers | OK. "actually" 1, "However" 0; no twist marker repeats back-to-back |
-| 14 PE wording | **VIOLATED**: line 365, *"But the most disturbing thing about it is..."* contains the 4-word run "the most disturbing thing", which matches the PE fragment quoted in style bible 3.3 ("...the most disturbing thing yet") |
+| 3 Item count and names | OK (12) |
+| 4 Beats | OK. The new bullet-ant frame is 21 words; every kicker is 8-25 words |
+| 5 Axis | OK. But see fact item 1: line 301 undercuts the taipan's place on the axis |
+| 6 Twist by word 145 | OK (133) |
+| 7 Transitions | OK |
+| 8 Scale analogies | OK. Every item has one, and the new ones are sourced as common knowledge |
+| 9 Sentences and Flesch | OK. Average 15.8, max 34, a sentence of 3 words or fewer in every item, Flesch about 68 |
+| 10 Humour | OK. The mamba now has two gag tags ("very close", "could not read") within about 20 s. That is borderline but deadpan |
+| 11 Sources | OK. Every new claim has a row in facts.md |
+| 12 Ending | OK (16-word outro) |
+| 13 Tics and markers | OK. "actually" appears 1 time; no marker is repeated back-to-back |
+| 14 PE wording | OK. "The disturbing part is" (line 215) shares only 3 words with PE's "The most disturbing part is", which is at the limit and allowed |
+
+**Style-bible deviation (not a numbered rule):**
+- Line 93 replaces the hornet marker with *"And then it gets worse."* Style bible 3.5 is explicit: "Escalation is structural (the axis), not rhetorical. He does not say 'it gets worse'."
+- It is also the weakest marker in the script, because it announces escalation instead of naming the twist.
 
 ## 3. Structure & pacing: 8/10
 
-- **Escalation:** Pain only, then Slow killers, then Fast killers. The order is clear, and the box jellyfish works well as the boss: it is the only animal that comes to Doug.
-  - Placing the taipan survival in "Fast killers" is a deliberate brief call, and the item-6 callback justifies it.
-  - Section headers fall at about 15% and 52%. The midpoint shift is on target.
-- **Running gags:** 4 used:
-  - "Doug did not agree to this."
-  - "Doug is fine." twice, plus the taipan disappointment
-  - "Doug has died. Again." twice
-  - the cap (swatter, water, torch beam, guide)
-
-  The cat costume is inverted correctly and stated once. The field guide closes the episode. That is within the bible's 2-3 "core" gags plus props.
-- **Item lengths:** several items run under the bible template:
-  - Scorpion 225 and mamba 225 (template 240-290 for items 5-8).
-  - Funnel-web 241, taipan 241 and Irukandji 237 (template 260-300 for items 9-11).
-
-  The brief allows 240-280, and the total is within target, so this is not blocking. Lengthening the late items is the easiest way to move the runtime toward 16 minutes.
-- **Hornet:** the twist comes after the death statistics, so the item spends about 60 words on numbers before its hook. It still reads fine.
+- Item lengths now all sit inside the brief's bands, or within 6 words of them:
+  - Platypus 215 and bullet ant 235 (band 210-240).
+  - Komodo 234 and octopus 234 (band 240-280; 6 short, not material).
+  - Scorpion 254, mamba 246, funnel-web 257, taipan 266, Irukandji 244.
+  - Box jellyfish 349 (band 320-380).
+- The escalation, the section headers at about 15% and 52%, the boss, the running gags and the guide close are all unchanged and still work.
+- **Taipan flow:** line 301, "That ranking comes from...", now comes two paragraphs after the ranking it refers to (line 291). The size and colour material sits in between. "That ranking" no longer has a clear antecedent when heard aloud. Fixing fact item 1 is the natural moment to move it (see fix 1).
 
 ## 4. Voice & humour: 8/10
 
-- The narrator persona is consistent: dry, a little sadistic, and secretly fond of Doug.
-- The best lines:
-  - "everyone she knew"
-  - "wearing the boot at the time"
-  - "the spider checked"
-  - "quietly deleting it"
-  - "Doug's instincts were completely correct"
-- Repetition to trim:
-  - "double bed" is used 3 times (Komodo, mamba, taipan).
-  - "fingernail" is used twice (platypus, Irukandji).
-  - "Here's the..." starts 5 of 12 twist markers. That is legal but noticeable.
-- 20 sentences run 30-35 words, mostly mechanism lines. The punches still land because every item has short sentences.
-- "Doug is fine, the narrator says" (line 71) has the narrator quoting himself in the third person. It works as a gag. Keep it to this one instance.
+- **New lines that work:**
+  - "Its other common name is the fierce snake. Scientists describe it as shy and relatively placid": good deadpan irony with no extra joke needed.
+  - "felt a tiny prickle and ignored it" makes the Irukandji beat more accurate (the sting is mild) and sets up the kicker better.
+  - "It is a small animal with a very specific target" is a clean scorpion kicker.
+- **Weaker:**
+  - "And then it gets worse" (see section 2).
+  - Line 375, "It found that its eye lenses...": "its" can be heard as the Australian box jellyfish again, the error we just fixed. "...found that that species' eye lenses" or "found that their lenses" is clearer.
+- **Persona:** consistent throughout.
 
 ## 5. TTS readiness: PASS
 
-- No digits, symbols, parentheses or abbreviations in the spoken text. NOAA is spelled out.
-- Accented "Sateré-Mawé", poneratoxin, tetrodotoxin and Irukandji are covered by the pronunciation notes. The editor should preview them with `narrate`.
+- Nothing new to flag. There are no digits, symbols, parentheses or abbreviations.
+- "Long-haired rat" and "fierce snake" read cleanly.
+- The pronunciation notes still cover the hard words.
 
 ## 6. Policy: PASS
 
-- **Advertiser-friendly:** only clinical one-liners ("stops blood from clotting", "cardiac arrest"). There is no wound, swelling or bleeding description. All deaths are cartoon only. No profanity.
-- **Human deaths:** numbers only, with no names or ages. The funnel-web 15-minute record is given without an age.
-- **Made for kids:** the tone is adult-coded throughout. The cat costume and "so pretty" are played against the narrator's indifference, not for cuteness.
-- **Inauthentic or repetitive content:** each item is an original mini-story with its own twist and Doug beat, not a list read-out.
-- **Medical advice:** none. There are no first-aid, treatment or "you should" lines. Antivenom appears only as history or as flat fact.
-- **Title promise:** the title "How Every Deadly Venom Would Kill Doug" fits, because the opener says up front that the first venoms "only hurt", and there are 9 deaths in 12 items.
-- **Cultural respect:** the Sateré-Mawé passage is factual, has no joke, and Doug doesn't wear the glove.
+- **Advertiser-friendly:** the new heart line is clinical ("inflammation of the heart muscle"), with no gore or graphic description. No profanity.
+- **Made for kids:** the tone is still adult-coded. "Not a mouse" and the sign gag are played dry.
+- **Original content:** each item is still a distinct mini-story.
+- **Medical advice:** none. If fix 1 adds "with hospital treatment", that is a flat historical fact like the antivenom lines, not advice. It must not become a "what to do" line.
+- **Title promise:** unchanged and honest (9 deaths in 12 items).
 
 ## 7. Length: PASS
 
-2,948 spoken words, about 15:07 at 195 wpm. Brief target: 2,900-3,400.
+3,054 spoken words, about 15:40 at 195 wpm. Brief target: 2,900-3,400.
 
 ---
 
 VERDICT: FAIL
 
 Required fixes:
-1. **Line 267.** Replace *"Male spiders are thought to be behind all thirteen recorded deaths from this species."* with a sourced version. For example: *"Funnel-web spiders have thirteen recorded deaths, and males are behind all of them, most from this species."* Correct the facts.md row to match the museum's "most".
-2. **Line 191.** Hedge the kicker. *"The deadliest snake on Earth..."* should become something like *"The snake that probably kills the most people is very easy to step on, and Doug stepped on it."*
-3. **Line 365 (rule 14).** Remove the 4-word PE match "the most disturbing thing". For example: *"But the worst part is that it is not drifting."* No "The worst part is" marker sits next to it, so rotation is unaffected.
-4. **Line 371.** Attribute the Nature study correctly. For example: *"In two thousand and five, a study in the journal Nature looked at a smaller cousin and found its box jellyfish lenses remarkably well made..."* Alternatively, say "box jellyfish eyes" only in a sentence that doesn't imply *Chironex*. Update facts.md with the species.
-5. **Line 47.** Either add a source to facts.md for "most insect stings fade within a few minutes", or rewrite the frame so it makes no general claim. For example: *"Most ants are a nuisance. This one is barely getting started."*
+1. **Line 301 (fact, misleading cause).** Cut *"...and mice are not people, which turns out to matter here."* Then:
+   - Keep the sourcing. For example: *"That ranking comes from a nineteen seventy-nine study that compared snake venoms on lab mice."*
+   - Move that sentence to directly after line 291 so "That ranking" has its antecedent.
+   - Change line 307 to give the real reason, per the Australian Museum. For example: *"Only a handful of people have ever been bitten by one, mostly people handling captive snakes, and every one of them survived with fast hospital treatment."*
+
+   Keep the line 313 callback as the explanation. Update the facts.md row for "all survived" to note "with prompt first aid and hospital treatment".
+2. **Line 93 (style bible 3.5).** Replace *"And then it gets worse."* with a marker that names the twist instead of announcing escalation. It must not start with "Here's" (the viper item uses that) or "The worst part" (the Komodo item, next, uses that). For example: *"The real danger is what the venom says. It calls for backup."*
 
 Optional:
-- Soften line 31 to "morphine gave him little relief".
-- Swap one or two of the three "double bed" analogies.
-- Add about 15-25 words to items 5 and 8-11.
+- A1: line 309, keep the lab hedge ("the snake with the most toxic venom ever measured").
+- A2: line 269, cut "Bites from females have not killed anyone."
+- Line 375: change "its eye lenses" to "that species' eye lenses".
 
-Re-screen after fixes. The hook, structure and voice scores already meet the bar.
+Hook, structure and voice clear the bar, and policy is clean. Once fix 1 is made and facts.md is updated, the only blocker is gone. Fix 2 is a two-line edit. Re-screen only the taipan and hornet items after the edits.
