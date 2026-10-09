@@ -34,6 +34,18 @@ Water under sea ice or at any surface scene is still the surface colour `#3a9ad9
 severity), not only depth episodes, because the ramp is the channel's colour language. In 012, "Antarctic navy" `#1f3a5f` under
 the sea ice was swapped back to `#3a9ad9`, with water speckle `#6fc1ee`. Show cold with the white ice ceiling, not with dark water.
 
+**Land-trap environments (from 012; reuse them so later episodes match):**
+| Place | Colours |
+|---|---|
+| Snow slope / tree well | sky `#cfe9ff`, mountains `#b9cde0`, snow `#f7fbff` |
+| Slot canyon / desert drainage | desert `#f2c77a`, dry washes `#7a9cc6`, crack `#7a2e18` |
+| Glacier / crevasse | ice `#dfe7ee` / `#c9d8e4`, cracks `#4f6b84`, peaks `#8d99a6` |
+| Night (glacier melt-out) | sky `#2b2f36`, ground `#6b5b4b` / `#5a4b3d`, ice `#cfe3ef` |
+| Dead Sea | water `#8fd8d0` (shallows `#c9f0ea`), salt shore `#f3f1ea` |
+| Ice Age (La Brea) | sky bands: purple `#8a6a8a` over orange `#e59a5e`, ground `#3a2a1e`, grass tufts `#a08a4a`; reveal glow `#ff2a2a` or brighter |
+| Limestone cave | rock `#a87a40` / `#b9894a`, cave interior `#3b2a17`; cross-section soil `#c9a87a` under sky `#8fd3ff` with grass `#7cc25a` |
+| Amber forest | sky `#f6c45a`, mid band `#e4a53a`, trunks `#b07020` / `#c07a24`, ground `#6b4a1f` (spray `#57391a`), resin `#e8a33a` with highlight `#fff3c0` and glow `#ffd36b` |
+
 ## Two-tier rendering (style bible 4.3)
 - **Doug and humans: crude** MS Paint stick men: uniform thin lines (Doug's rig: 5 at scale 1 ≈ 4–5 px), big round
   head with grey shading crescent, oval eyes, meme faces.
@@ -78,6 +90,12 @@ the sea ice was swapped back to `#3a9ad9`, with water speckle `#6fc1ee`. Show co
   Doug before the prop, hips at its top edge) so only the torso shows against the dark.
 - **Dark backdrop prop behind Doug on light ground** (bridge, building, cliff): the auto-ink point can land on the
   prop and turn Doug white, so his legs vanish on the snow or ice (007 s036-s051). Set `"ink": "#000000"` on the `doug`.
+- **Never put Doug's `x` on a prop's outline** (posts, trunks, pillars; from 012 s255, s261, s262, s279). If the sample point lands on
+  the black edge, Doug flips to white on a light background. Move him at least 40 px off the edge, or set `"ink"` explicitly.
+  The reverse also applies: an explicit `"ink": "#000000"` on a near-black backdrop hides his body (012 s183, s184). Only set `ink`
+  when a prop interferes, and never by habit.
+- **Keep Doug off busy backdrop props** (small pines, bushes): his thin lines merge into the zigzags (012 s015, s024). Stand him in
+  clear ground.
 - **No floating Doug**: if the shot has a ground, dam, bank or sea surface, his feet go on it (hip = surface -
   152 x scale; swimmers sit at the water line). Doug only floats in empty diagram or space backgrounds, or as a ghost.
 - **Cover rects** that hide an earlier Doug must stop above the ground line, or they cut a notch into the horizon (007 s238).
@@ -161,6 +179,8 @@ lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008
 ## Doug gear (art director only)
 `scuba`, `mask`, `tank`, `helmet`, `sweat`, `sunburn` (003): head fill `#ff8a7a`, crescent `#e0665a` (same shape),
 arm lines `#e0201b`, three tiny white peel flakes on the front of the face. Cap, eyes, head shape and legs unchanged.
+`helmet` is the scuba bubble (a pale-blue ring round the head), so use it **underwater only**. On dry land it reads as a fishbowl or a
+halo, and a halo on a living Doug muddles the death grammar (012 cave shots). Hard-hat cavers are a separate asset (`caver`).
 
 ## Never
 Realistic gore, blood pools, exposed organs, dismemberment; realistic (non-MS-Paint) art; changing Doug's design;

@@ -39,7 +39,12 @@
       "stage": "shotlisted",
       "at": "2026-10-09T13:04:29+00:00",
       "note": "reverted: art_approved marked prematurely; keyframe review pending"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-10-09T13:18:59+00:00",
+      "note": "assets + keyframes approved by art-director and visual-screener (2 rounds)"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

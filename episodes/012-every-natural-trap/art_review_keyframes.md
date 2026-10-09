@@ -64,3 +64,43 @@ Log the new environment colours so later episodes match: Dead Sea water `#8fd8d0
 because the auto-ink sample reads the black edge.
 
 **ART (keyframes): FAIL.** Fixes 1-7 go to the director. After the re-render, I will re-check only the touched shots.
+
+---
+
+## Round 2 re-check (2026-10-09)
+
+Scope: only the 46 re-rendered shots, from contact sheets `build/contact/sheet_01..04.png` (changed shots only), with full-size
+frames for s004, s015, s043, s152, s168, s183, s261 and s279. These were fix shots s004, s015, s024, s041-s043, s152, s183, s184,
+s219-s221, s223-s235, s237-s241, s243-s247, s255, s261, s262 and s279, plus the visual-screener advisories s087, s089, s145, s168,
+s227 and s291-s293.
+
+### Verdict: PASS
+
+1. **s183, s184:** fixed. There is no `ink` key now, so Doug auto-inks white and reads in full (head, body, arms, legs) on the night
+   backdrop.
+2. **s255, s261, s262, s279:** fixed. `ink: "#000000"` is set on all four, and Doug is black-ink, matching s253-s259. In s261 and
+   s279 he still stands in front of a post, but his black lines read on the darker post fill and his head keeps its outline. Not blocking.
+3. **s015, s024:** fixed. Doug and his skis stand in clear snow at about x 520, away from the pines, and his whole body reads against
+   the pale mountain.
+4. **s041-s043:** fixed. The SE curve now ends at about x 1380, and Doug stands below and right of it with nothing crossing him. He is
+   in the same spot in all three shots.
+5. **s041-s043 counter zone:** fixed. The NE curve ends at about (1700, 300), and the second cloud sits at about y 290-410, clear of
+   the DOUG DEATHS box.
+6. **s152, s004:** fixed. In s152 both arrows run at about y 690 to the right of Doug's head, with nothing touching him. In s004 the
+   arrow arcs over Doug's head and lands on the suitcase handle.
+7. **s219-s247 helmet:** fixed. No Altamura shot carries `helmet` gear any more. Doug auto-inks white on the cave brown and reads
+   cleanly. The caver in s220 keeps his own helmet.
+
+Advisories the director also took:
+- s087 ONE ARM and s168 EVERY YEAR were lifted, and the label bottoms now sit at about y 1020, inside the safe area.
+- s089: the BRINICLE sticker is scaled up and readable at phone size.
+- s145: the MORECAMBE BAY sign is bigger and legible.
+- s227: the drop now sits above DRIPS, so the letters are clean.
+- s291-s293: preserved Doug wears the gall-mite costume inside the bead (continuity fixed). The cap sits on the outside, and the
+  counter reads 107.
+
+No new defects. Style, palette and zone colours match the round 1 shots, Doug is on-model everywhere, and the layouts still vary.
+Nothing is gory.
+
+**ART (keyframes): PASS.** I have added the art bible follow-up (012 environment colours and the auto-ink rule about prop outlines)
+to `channel/art_bible.md`.
