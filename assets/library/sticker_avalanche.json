@@ -1,0 +1,211 @@
+{
+ "name": "sticker_avalanche",
+ "description": "Travel sticker for AVALANCHE (~112x60, anchor centre): grey-white swallowtail pennant, a small grey snow slope shedding snowballs, dark text. Slightly peeling corner, bold caps text sized to stay legible at scale 0.3-0.5. Art-director-owned series lore (places playlist).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "avalanche",
+  "snow",
+  "mountain"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     -30
+    ],
+    [
+     56,
+     -20
+    ],
+    [
+     46,
+     0
+    ],
+    [
+     56,
+     20
+    ],
+    [
+     -56,
+     30
+    ]
+   ],
+   "fill": "#e9edf1",
+   "width": 4,
+   "color": "#3a4250"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -52,
+     -4
+    ],
+    [
+     -34,
+     -26
+    ],
+    [
+     -6,
+     -10
+    ],
+    [
+     -6,
+     -4
+    ]
+   ],
+   "fill": "#9aa3ad",
+   "width": 2,
+   "color": "#3a4250"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     -19
+    ],
+    [
+     -34,
+     -26
+    ],
+    [
+     -26,
+     -21
+    ],
+    [
+     -30,
+     -17
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -18,
+   "y": -8,
+   "r": 3,
+   "fill": "#ffffff",
+   "width": 1,
+   "color": "#3a4250"
+  },
+  {
+   "type": "circle",
+   "x": -10,
+   "y": -6,
+   "r": 4,
+   "fill": "#ffffff",
+   "width": 1,
+   "color": "#3a4250"
+  },
+  {
+   "type": "circle",
+   "x": -2,
+   "y": -5,
+   "r": 3,
+   "fill": "#ffffff",
+   "width": 1,
+   "color": "#3a4250"
+  },
+  {
+   "type": "circle",
+   "x": 4,
+   "y": -6,
+   "r": 2,
+   "fill": "#ffffff",
+   "width": 1,
+   "color": "#3a4250"
+  },
+  {
+   "type": "text",
+   "text": "AVALANCHE",
+   "x": -2,
+   "y": 12,
+   "size": 13,
+   "color": "#2a2f38",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     -30
+    ],
+    [
+     -42,
+     -30
+    ],
+    [
+     -56,
+     -16
+    ]
+   ],
+   "fill": "#f4efe6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -42,
+     -30
+    ],
+    [
+     -42,
+     -16
+    ],
+    [
+     -56,
+     -16
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#3a4250"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     -30
+    ],
+    [
+     56,
+     -20
+    ],
+    [
+     46,
+     0
+    ],
+    [
+     56,
+     20
+    ],
+    [
+     -56,
+     30
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#3a4250"
+  }
+ ]
+}

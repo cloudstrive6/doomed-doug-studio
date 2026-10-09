@@ -1,0 +1,604 @@
+{
+ "name": "sea_star",
+ "description": "Antarctic sea star (Odontaster-type) seen from above: five short thick arms (one pointing up), bright orange-red #e8622a with a paler #f6a26a rim, small pale bumps along the arms, darker centre disc. No face. Anchor centre, 200x200 (x -100..100, y -100..100); lowest arm tips at about y +78.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sea star",
+  "antarctic",
+  "seabed",
+  "invertebrate"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -11.7,
+     -95.3
+    ],
+    [
+     11.7,
+     -95.3
+    ],
+    [
+     25.9,
+     -35.6
+    ],
+    [
+     87.0,
+     -40.6
+    ],
+    [
+     94.2,
+     -18.3
+    ],
+    [
+     41.8,
+     13.6
+    ],
+    [
+     65.5,
+     70.2
+    ],
+    [
+     46.5,
+     84.0
+    ],
+    [
+     0.0,
+     44.0
+    ],
+    [
+     -46.5,
+     84.0
+    ],
+    [
+     -65.5,
+     70.2
+    ],
+    [
+     -41.8,
+     13.6
+    ],
+    [
+     -94.2,
+     -18.3
+    ],
+    [
+     -87.0,
+     -40.6
+    ],
+    [
+     -25.9,
+     -35.6
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#f6a26a",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10.2,
+     -83.4
+    ],
+    [
+     10.2,
+     -83.4
+    ],
+    [
+     22.3,
+     -30.7
+    ],
+    [
+     76.1,
+     -35.5
+    ],
+    [
+     82.5,
+     -16.0
+    ],
+    [
+     36.1,
+     11.7
+    ],
+    [
+     57.3,
+     61.4
+    ],
+    [
+     40.7,
+     73.5
+    ],
+    [
+     0.0,
+     38.0
+    ],
+    [
+     -40.7,
+     73.5
+    ],
+    [
+     -57.3,
+     61.4
+    ],
+    [
+     -36.1,
+     11.7
+    ],
+    [
+     -82.5,
+     -16.0
+    ],
+    [
+     -76.1,
+     -35.5
+    ],
+    [
+     -22.3,
+     -30.7
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e8622a",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 0,
+   "r": 52,
+   "color": "#c44a1e",
+   "density": 0.25
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 26,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#b8441c",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 0,
+   "r": 22,
+   "color": "#8e3214",
+   "density": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 0.0,
+   "y": -34.0,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": -7.0,
+   "y": -48.0,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 7.0,
+   "y": -48.0,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 0.0,
+   "y": -62.0,
+   "r": 4,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 0.0,
+   "y": -74.0,
+   "r": 4,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0.0,
+     -28.0
+    ],
+    [
+     0.0,
+     -80.0
+    ]
+   ],
+   "width": 2,
+   "color": "#a8401a"
+  },
+  {
+   "type": "circle",
+   "x": 32.3,
+   "y": -10.5,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 43.5,
+   "y": -21.5,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 47.8,
+   "y": -8.2,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 59.0,
+   "y": -19.2,
+   "r": 4,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 70.4,
+   "y": -22.9,
+   "r": 4,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     26.6,
+     -8.7
+    ],
+    [
+     76.1,
+     -24.7
+    ]
+   ],
+   "width": 2,
+   "color": "#a8401a"
+  },
+  {
+   "type": "circle",
+   "x": 20.0,
+   "y": 27.5,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 33.9,
+   "y": 34.7,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 22.6,
+   "y": 42.9,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 36.4,
+   "y": 50.2,
+   "r": 4,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 43.5,
+   "y": 59.9,
+   "r": 4,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     16.5,
+     22.7
+    ],
+    [
+     47.0,
+     64.7
+    ]
+   ],
+   "width": 2,
+   "color": "#a8401a"
+  },
+  {
+   "type": "circle",
+   "x": -20.0,
+   "y": 27.5,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": -22.6,
+   "y": 42.9,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": -33.9,
+   "y": 34.7,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": -36.4,
+   "y": 50.2,
+   "r": 4,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": -43.5,
+   "y": 59.9,
+   "r": 4,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -16.5,
+     22.7
+    ],
+    [
+     -47.0,
+     64.7
+    ]
+   ],
+   "width": 2,
+   "color": "#a8401a"
+  },
+  {
+   "type": "circle",
+   "x": -32.3,
+   "y": -10.5,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": -47.8,
+   "y": -8.2,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": -43.5,
+   "y": -21.5,
+   "r": 5,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": -59.0,
+   "y": -19.2,
+   "r": 4,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": -70.4,
+   "y": -22.9,
+   "r": 4,
+   "width": 2,
+   "color": "#a8401a",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -26.6,
+     -8.7
+    ],
+    [
+     -76.1,
+     -24.7
+    ]
+   ],
+   "width": 2,
+   "color": "#a8401a"
+  },
+  {
+   "type": "circle",
+   "x": 9.4,
+   "y": -12.9,
+   "r": 3.5,
+   "width": 2,
+   "color": "#7a2a10",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 15.2,
+   "y": 4.9,
+   "r": 3.5,
+   "width": 2,
+   "color": "#7a2a10",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 0.0,
+   "y": 16.0,
+   "r": 3.5,
+   "width": 2,
+   "color": "#7a2a10",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": -15.2,
+   "y": 4.9,
+   "r": 3.5,
+   "width": 2,
+   "color": "#7a2a10",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": -9.4,
+   "y": -12.9,
+   "r": 3.5,
+   "width": 2,
+   "color": "#7a2a10",
+   "fill": "#f9c49a"
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 5,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#f6a26a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -11.7,
+     -95.3
+    ],
+    [
+     11.7,
+     -95.3
+    ],
+    [
+     25.9,
+     -35.6
+    ],
+    [
+     87.0,
+     -40.6
+    ],
+    [
+     94.2,
+     -18.3
+    ],
+    [
+     41.8,
+     13.6
+    ],
+    [
+     65.5,
+     70.2
+    ],
+    [
+     46.5,
+     84.0
+    ],
+    [
+     0.0,
+     44.0
+    ],
+    [
+     -46.5,
+     84.0
+    ],
+    [
+     -65.5,
+     70.2
+    ],
+    [
+     -41.8,
+     13.6
+    ],
+    [
+     -94.2,
+     -18.3
+    ],
+    [
+     -87.0,
+     -40.6
+    ],
+    [
+     -25.9,
+     -35.6
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}

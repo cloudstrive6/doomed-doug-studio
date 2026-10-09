@@ -1,0 +1,227 @@
+{
+ "name": "kitchen_counter",
+ "description": "Ordinary kitchen counter (about 1 m, scale reference): pale wood worktop #c9b28a with grain lines and a dark front edge, two cream cupboard doors with small knobs, a dark recessed kickboard. Anchor bottom-centre, 400x240 (x -200..200, y -240..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "kitchen",
+  "counter",
+  "scale reference",
+  "prop"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -186,
+   "y": -24,
+   "w": 372,
+   "h": 24,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#5a5a5a"
+  },
+  {
+   "type": "rect",
+   "x": -192,
+   "y": -208,
+   "w": 384,
+   "h": 186,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#f1ede4",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 110,
+   "y": -208,
+   "w": 82,
+   "h": 186,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e2ddd1",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -192,
+   "y": -208,
+   "w": 384,
+   "h": 186,
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -180,
+   "y": -196,
+   "w": 174,
+   "h": 162,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#e9e3d6"
+  },
+  {
+   "type": "rect",
+   "x": -166,
+   "y": -182,
+   "w": 146,
+   "h": 134,
+   "width": 2,
+   "color": "#b9b2a2"
+  },
+  {
+   "type": "rect",
+   "x": 6,
+   "y": -196,
+   "w": 174,
+   "h": 162,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#e9e3d6"
+  },
+  {
+   "type": "rect",
+   "x": 20,
+   "y": -182,
+   "w": 146,
+   "h": 134,
+   "width": 2,
+   "color": "#b9b2a2"
+  },
+  {
+   "type": "spray",
+   "x": 150,
+   "y": -110,
+   "r": 40,
+   "color": "#d6d0c2",
+   "density": 0.2
+  },
+  {
+   "type": "circle",
+   "x": -20,
+   "y": -150,
+   "r": 6,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#8a8a8a"
+  },
+  {
+   "type": "circle",
+   "x": 20,
+   "y": -150,
+   "r": 6,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#8a8a8a"
+  },
+  {
+   "type": "rect",
+   "x": -200,
+   "y": -240,
+   "w": 400,
+   "h": 32,
+   "width": 5,
+   "color": "#000000",
+   "fill": "#c9b28a"
+  },
+  {
+   "type": "rect",
+   "x": -200,
+   "y": -216,
+   "w": 400,
+   "h": 8,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#6a4e2a",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -170,
+     -232
+    ],
+    [
+     -135.0,
+     -234
+    ],
+    [
+     -100,
+     -232
+    ]
+   ],
+   "width": 2,
+   "color": "#a88e62"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -226
+    ],
+    [
+     -15.0,
+     -228
+    ],
+    [
+     30,
+     -226
+    ]
+   ],
+   "width": 2,
+   "color": "#a88e62"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     60,
+     -232
+    ],
+    [
+     90.0,
+     -234
+    ],
+    [
+     120,
+     -232
+    ]
+   ],
+   "width": 2,
+   "color": "#a88e62"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     120,
+     -224
+    ],
+    [
+     145.0,
+     -226
+    ],
+    [
+     170,
+     -224
+    ]
+   ],
+   "width": 2,
+   "color": "#a88e62"
+  },
+  {
+   "type": "rect",
+   "x": -200,
+   "y": -240,
+   "w": 400,
+   "h": 32,
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}

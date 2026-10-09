@@ -1,0 +1,256 @@
+{
+ "name": "sugar_bag",
+ "description": "Plain 1 kg paper bag of white sugar, standing: white with a blue #2f6fd6 band reading SUGAR in bold white caps, '1 kg' below, folded top. Anchor bottom-centre, 140x200 (x -64..64, y -198..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sugar",
+  "kitchen",
+  "prop",
+  "scale reference"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -58,
+     -170
+    ],
+    [
+     -48,
+     -198
+    ],
+    [
+     48,
+     -198
+    ],
+    [
+     58,
+     -170
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#f4f4f4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -52,
+     -184
+    ],
+    [
+     52,
+     -184
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -198
+    ],
+    [
+     -36,
+     -170
+    ]
+   ],
+   "width": 2,
+   "color": "#cfcfcf"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -198
+    ],
+    [
+     36,
+     -170
+    ]
+   ],
+   "width": 2,
+   "color": "#cfcfcf"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62,
+     -170
+    ],
+    [
+     62,
+     -170
+    ],
+    [
+     64,
+     -4
+    ],
+    [
+     60,
+     0
+    ],
+    [
+     -60,
+     0
+    ],
+    [
+     -64,
+     -4
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffffff",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     36,
+     -170
+    ],
+    [
+     62,
+     -170
+    ],
+    [
+     64,
+     -4
+    ],
+    [
+     40,
+     0
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e9e9e9",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 50,
+   "y": -30,
+   "r": 18,
+   "color": "#d0d0d0",
+   "density": 0.3
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -122,
+   "w": 124,
+   "h": 58,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#2f6fd6",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 36,
+   "y": -122,
+   "w": 26,
+   "h": 58,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#255bb2",
+   "outline": false
+  },
+  {
+   "type": "text",
+   "text": "SUGAR",
+   "x": 0,
+   "y": -94,
+   "size": 32,
+   "color": "#ffffff",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "1 kg",
+   "x": 0,
+   "y": -40,
+   "size": 20,
+   "color": "#2f6fd6",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -62,
+     -122
+    ],
+    [
+     62,
+     -122
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -62,
+     -64
+    ],
+    [
+     62,
+     -64
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62,
+     -170
+    ],
+    [
+     62,
+     -170
+    ],
+    [
+     64,
+     -4
+    ],
+    [
+     60,
+     0
+    ],
+    [
+     -60,
+     0
+    ],
+    [
+     -64,
+     -4
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

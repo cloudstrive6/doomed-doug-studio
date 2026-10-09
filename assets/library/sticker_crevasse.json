@@ -1,0 +1,194 @@
+{
+ "name": "sticker_crevasse",
+ "description": "Travel sticker for CREVASSE (~112x60, anchor centre): blue-grey rectangle with an icy top strip, a dark zigzag crack, white text. Slightly peeling corner, bold caps text sized to stay legible at scale 0.3-0.5. Art-director-owned series lore (places playlist).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "crevasse",
+  "glacier",
+  "ice"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     -30
+    ],
+    [
+     56,
+     -30
+    ],
+    [
+     56,
+     30
+    ],
+    [
+     -56,
+     30
+    ]
+   ],
+   "fill": "#8fa9c0",
+   "width": 4,
+   "color": "#1d2a38"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     -30
+    ],
+    [
+     56,
+     -30
+    ],
+    [
+     56,
+     -24
+    ],
+    [
+     -56,
+     -24
+    ]
+   ],
+   "fill": "#c9dbe8",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -4,
+     -26
+    ],
+    [
+     6,
+     -26
+    ],
+    [
+     2,
+     -20
+    ],
+    [
+     8,
+     -14
+    ],
+    [
+     2,
+     -8
+    ],
+    [
+     4,
+     -2
+    ],
+    [
+     0,
+     -1
+    ],
+    [
+     -2,
+     -8
+    ],
+    [
+     -6,
+     -14
+    ],
+    [
+     -2,
+     -20
+    ]
+   ],
+   "fill": "#1d2a38",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "text",
+   "text": "CREVASSE",
+   "x": -2,
+   "y": 12,
+   "size": 15,
+   "color": "#ffffff",
+   "bold": true,
+   "boil": 0,
+   "outline": "#1d2a38",
+   "outline_width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     56,
+     -30
+    ],
+    [
+     42,
+     -30
+    ],
+    [
+     56,
+     -16
+    ]
+   ],
+   "fill": "#f4efe6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     42,
+     -30
+    ],
+    [
+     42,
+     -16
+    ],
+    [
+     56,
+     -16
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#1d2a38"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     -30
+    ],
+    [
+     56,
+     -30
+    ],
+    [
+     56,
+     30
+    ],
+    [
+     -56,
+     30
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#1d2a38"
+  }
+ ]
+}
