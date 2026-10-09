@@ -56,6 +56,10 @@ def render_still(scene: dict, variant: int = 0, t: float | None = None, seed: st
     return _clean_edges(cv.img, EDGE_PX)
 
 
+# Ring depth rebuilt by _clean_edges (boil/wobble can pull full-bleed backgrounds ~3 px in from the border).
+EDGE_PX = 5
+
+
 def _clean_edges(img, ring=4):
     """Overwrite the outermost `ring` pixels with the row/column just inside them: background outlines, light rays
     and boil-shifted shapes (which pull in by up to 2 px) otherwise leave a white line at the canvas border that

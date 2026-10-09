@@ -1,0 +1,33 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s138",
+      "to": "s151",
+      "title": "",
+      "outro": "Doug picked one up anyway. See what happened in the full video below.",
+      "end_card": "WHAT DID DOUG DO? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s221",
+      "to": "s233",
+      "hook": "The most toxic snake on Earth has never killed anyone.",
+      "hook_scene_from": "s226",
+      "title": "",
+      "outro": "Nine other venoms were not so shy. The full video is linked below.",
+      "end_card": "ALL 12 VENOMS: TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s257",
+      "to": "s268",
+      "title": "",
+      "outro": "And it has twenty-four eyes. What it does to Doug is in the full video below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    }
+  ]
+}
