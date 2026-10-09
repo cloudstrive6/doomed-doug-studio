@@ -60,6 +60,8 @@ Lane: disturbing science & nature (deep sea, parasites, prehistoric oceans, dead
 - `parasites`: Doug vs. Parasites
 - `prehistoric`: Doug vs. Prehistoric Earth (surviving a night in every era/ocean)
 - `places`: Doug vs. Deadly Places (volcanoes, quicksand, sinkholes, caves, deserts, poles)
+- `animals`: Doug vs. Animals (venom, animal fights, single-animal deep dives; created 2026-10-09 for ep 010). Proposed standard
+  prop: Doug's field guide (a "FRIEND?" box per animal, red "NO" after each death, "MAYBE" for survivals), pending the art director.
 - `compilations`: Full Series & Marathons (stitched 35–60 min and iceberg videos)
 
 ## Episode log

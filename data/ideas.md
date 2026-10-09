@@ -16,15 +16,15 @@ Score = 0.30 Eng + 0.20 Interest + 0.15 Demand + 0.10 Sat + 0.25 Own, each compo
   prehistoric **5** (003/005/007 have 4/8/1 long views; bison Short 1,069, extinction Shorts 14–29), ocean **3** (001/006/008 have 6/0/0 long views; Shorts average 59),
   animals* / compilations **5** (no data).
 
-Playlist keys: ocean, parasites, prehistoric, places, compilations. `animals*` = proposed "Doug vs. Animals". The 10-09 memo asks the creative director
-to create it, because the top 3 ideas sit there.
+Playlist keys: ocean, parasites, prehistoric, places, animals, compilations. `animals*` = "Doug vs. Animals", created by the creative director on
+2026-10-09 (`config/channel.yaml`), because the top 3 ideas sit there.
 
 ## Ranked backlog
 | # | Working title | Playlist | Engine (proven outlier) | Eng | Interest (vph) | Demand | Saturation (format) | Own | Score | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 32 | **NEW** Every Animal Doug Could Beat in a Fight (Ranked) | animals* | Fossil "Which Human Species Could You Beat in a Fight?" 1.11M (48.3x, 25 d) | 10 | 10 (3,245) | 10 ("animal fight") | 10 ("which animal could you beat in a fight" 2) | 5 | **8.8** | backlog (recommended ep 011) |
 | 35 | **NEW** Hippos Are Terrifying… Here's Why | animals* | OctoLab "Why Polar Bears Are The Weirdest Apex Predator" 2.77M (46.6x, 9.4 d) + "Walruses Are Terrifying… Here's Why" 2.49M (41.9x); KPassionate cocaine-hippo 5.14M (signals) | 10 | 8 (hippo topic best 8,140; OctoLab 1,064) | 10 ("hippo", partly kids' content) | 10 (0) | 5 | **8.4** | backlog (single-animal format test; follow-up to #32) |
-| 14 | What Dying From Every Venom Would Feel Like | animals* | T1 frame: quack doc "Every Deadly Disease" 6.10M (83.9x), genetic disease 486K (6.7x), drug overdose 165K in 2.4 d; Simple Paint poison | 10 | 10 (quack doc overdose 3,259) | 7 ("venomous animals") | 10 (0) | 5 | **8.3** | backlog (**recommended ep 010**; the ep 002 day-7 hold has expired) |
+| 14 | What Dying From Every Venom Would Feel Like | animals* | T1 frame: quack doc "Every Deadly Disease" 6.10M (83.9x), genetic disease 486K (6.7x), drug overdose 165K in 2.4 d; Simple Paint poison | 10 | 10 (quack doc overdose 3,259) | 7 ("venomous animals") | 10 (0) | 5 | **8.3** | **in-production** (ep 010, `010-every-venom`, brief 2026-10-09; working title "How Every Deadly Venom Would Kill Doug", T2 because 009 is T1) |
 | 33 | **NEW** How Fast Doug Would Die in Every Prehistoric Era | prehistoric | Joe Bartolozzi "How Fast You'd Die In Every Prehistoric Era" 2.38M in 4.3 d (signals); Fossil "How Long You'd Last in Every Prehistoric Era" 10.82M (469x) | 10 | 10 (22,963 / 8,818) | 9 ("prehistoric animals") | 2 (10) | 5 | **7.8** | backlog (crowded and overlaps 003/009; space it ≥3 weeks after 009) |
 | 34 | **NEW** Every Way Nature Could Trap Doug | places | Simple Paint "The Most Horrifying Ways People Got Trapped" 2.64M (9.8x, 7.4 d, 14,948 lifetime vph) | 8 | 6 (1,043) | 6 ("trapped" scores 10 but is Minecraft-polluted) | 10 (0) | 6 | **7.0** | backlog (caves, crevasse, tar pit, sinkhole, mudflat, tidal flat) |
 | 36 | **NEW** The Deeper Doug Digs Into Fossils, the Scarier They Get | prehistoric | Spinosnack "The Deeper You Look Into Fossils, The Scarier It Gets" 406K (3.76x, 6.2 d); series 1.03M; Mr. Science depth gradient 17M | 6 | 8 (2,604) | 9 ("fossils") | 10 (1) | 5 | **7.0** | backlog (T6; overlaps 005, so use different specimens) |
