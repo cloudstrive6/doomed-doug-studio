@@ -68,3 +68,5 @@ Compared `build/thumbnail.png` (A, funnel ladder) and `build/thumbnail_b.png` (B
    outputs first, or it will undo this pick.
 
 THUMBNAIL: B APPROVED. No redesign requested.
+
+2026-10-09 Showrunner: packaged. Script 3 rounds (screener fixed facts, hook, Flesch); art assets 1 round; keyframes 2 rounds (Doug ink/overlap fixes); thumbnail grid chosen over funnel. Narration 15:30, 199 wpm. Risks: brinicle/amber slightly over target length; thumbnail Slot Canyon/Amber/Altamura read weakly at feed size (optional fixes in visual_review.md); real-victim cards (Antelope Canyon, Tsanfleuron) handled with no jokes.

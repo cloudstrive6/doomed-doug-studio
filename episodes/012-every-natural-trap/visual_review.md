@@ -53,3 +53,38 @@ Real-victim sensitivity: handled well.
 
 Variety otherwise holds up. The brinicle (s061 to s091) and tar pit (s194 to s215) runs reuse one backdrop, but each
 shot changes its props, Doug's pose or the camera, so they don't feel frozen.
+
+## Round 2: thumbnail + s001, 2026-10-09
+
+VERDICT: PASS
+
+Checked: `build/thumbnail.png` (1280x720, re-rendered from `thumbnail.json`), `build/thumbnail_small.png`, a
+168x94 downscale (viewed native and at 4x nearest), and `build/keyframes/s001.png` (re-rendered with
+`keyframes --shots s001`).
+
+- **Archetype A done right:** white canvas, a strict 3x3 grid, thick black rounded frames, a bold comic label under
+  each tile, no title text, no arrows or circles. The nine labels match the description's trap order. The grid goes
+  with the "Every ..." title and doesn't repeat it.
+- **Feed size (168x94):** every tile's colour block stays distinct (snow, red rock, deep blue, grey and white,
+  sand, ice, tar, cave, amber). The tree with skis, brinicle, avalanche, sinkholes, crevasse and amber bead read as
+  shapes. The labels can't be read at 168, which is normal for a 9-tile grid (PE grids behave the same). They are
+  crisp and spelled right at 320 and above.
+- **Doug:** he appears only as one tile (amber), which follows the bible. He is on-model (white head, gall-mite
+  costume, consistent with the r1 continuity note), and his red cap sits on top of the bead.
+- **Policy:** no gore. The tar-pit bison is alive and sinking, and the Altamura figure is an abstract calcite lump.
+  Nothing kid-coded.
+- **s001 = thumbnail:** the s001 keyframe (`scene_ref: thumbnail`, 1920x1080) shows the same layout, tiles, labels
+  and drawings as `thumbnail.png`. The only differences are from rescaling: mean per-channel difference about 5/255
+  after downscaling, no structural difference. `thumbnail_small.png` is an exact downscale of `thumbnail.png`.
+
+### Advisory (non-blocking, graphic designer)
+1. **Slot Canyon tile:** the flash flood reads as a brown hill with a white zigzag. At 168 it is only a beige wedge
+   between red walls. Fix: make the surge read as water by adding a muddy wave front with 2 or 3 curled foam crests
+   and spray, and/or a tiny log or debris in it. Or zoom out a little so more of the narrow slot shows above the
+   surge.
+2. **Amber tile:** at feed size Doug shrinks to a red dot on an orange circle. The cap floating outside the bead,
+   apart from his head, looks like a detached prop at full size. Fix: scale Doug up about 1.3x inside the bead and
+   seat the cap on his head, poking slightly through the top of the bead. Or keep the gag but add a gap so it
+   clearly reads as "cap left outside".
+3. **Altamura Cave tile:** the calcite lump reads as an egg or potato. Optional: show a faint skull outline in its
+   top third (no bones beyond that), the same suggestion as r1 s222.

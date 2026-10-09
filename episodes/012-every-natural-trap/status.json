@@ -44,7 +44,12 @@
       "stage": "art_approved",
       "at": "2026-10-09T13:18:59+00:00",
       "note": "assets + keyframes approved by art-director and visual-screener (2 rounds)"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-10-09T13:41:06+00:00",
+      "note": "packaged: script 3 rounds, art 2 rounds"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
