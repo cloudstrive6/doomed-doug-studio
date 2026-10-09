@@ -1,0 +1,37 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s113",
+      "to": "s125",
+      "hook": "Cassowaries have killed people. Most attacks start with a snack.",
+      "hook_scene_from": "s114",
+      "title": "",
+      "outro": "Four bigger animals were still waiting. The full video is linked below.",
+      "end_card": "WHO'S NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s171",
+      "to": "s184",
+      "hook": "Doug tried to out-chest-beat a silverback gorilla.",
+      "hook_scene_from": "s177",
+      "title": "",
+      "outro": "The next animal did not walk away. The full video is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s266",
+      "to": "s279",
+      "hook": "Elephants can tell a dangerous human from his voice alone.",
+      "hook_scene_from": "s253",
+      "title": "",
+      "outro": "That was Doug's one hundredth death. All ten fights are in the full video.",
+      "end_card": "ALL 10 FIGHTS: TAP BELOW",
+      "description": ""
+    }
+  ]
+}
