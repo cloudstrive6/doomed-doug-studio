@@ -15365,15 +15365,15 @@
       "points": [
        [
         648.0,
-        280
+        390
        ],
        [
         672.0,
-        307.2
+        417.2
        ],
        [
         720.0,
-        243.2
+        353.2
        ]
       ],
       "color": "#2fae3a",
@@ -15385,15 +15385,15 @@
       "points": [
        [
         1118.0,
-        280
+        390
        ],
        [
         1142.0,
-        307.2
+        417.2
        ],
        [
         1190.0,
-        243.2
+        353.2
        ]
       ],
       "color": "#2fae3a",
@@ -15405,15 +15405,15 @@
       "points": [
        [
         1588.0,
-        280
+        390
        ],
        [
         1612.0,
-        307.2
+        417.2
        ],
        [
         1660.0,
-        243.2
+        353.2
        ]
       ],
       "color": "#2fae3a",
@@ -27867,9 +27867,9 @@
      {
       "type": "wordart",
       "text": "DID NOT AGREE",
-      "x": 860,
-      "y": 380,
-      "size": 100,
+      "x": 460,
+      "y": 330,
+      "size": 90,
       "boil": 0,
       "appear": 0.35
      },
@@ -34870,6 +34870,17 @@
       "scale": 0.75
      },
      {
+      "type": "label",
+      "text": "NOT BLOOD",
+      "x": 1320,
+      "y": 520,
+      "size": 48,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.3
+     },
+     {
       "type": "doug",
       "x": 420,
       "y": 788.8,
@@ -35066,6 +35077,17 @@
       "x": 1400,
       "y": 860,
       "scale": 0.7
+     },
+     {
+      "type": "label",
+      "text": "NOT BLOOD",
+      "x": 1400,
+      "y": 540,
+      "size": 48,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.6
      },
      {
       "type": "doug",
@@ -35294,6 +35316,17 @@
       "x": 1200,
       "y": 900,
       "scale": 0.95
+     },
+     {
+      "type": "label",
+      "text": "NOT BLOOD",
+      "x": 1480,
+      "y": 470,
+      "size": 48,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.85
      },
      {
       "type": "doug",
@@ -36673,7 +36706,7 @@
       "type": "label",
       "text": "HIPPOSUDORIC",
       "x": 640,
-      "y": 360,
+      "y": 420,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -36683,8 +36716,8 @@
      {
       "type": "label",
       "text": "NORHIPPOSUDORIC",
-      "x": 1240,
-      "y": 290,
+      "x": 1200,
+      "y": 360,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -37138,8 +37171,8 @@
        500
       ],
       "to": [
-       1390,
-       200
+       1340,
+       240
       ],
       "bend": -20,
       "color": "#e0a000",
@@ -41249,7 +41282,7 @@
      },
      {
       "type": "label",
-      "text": "150\u00b0",
+      "text": "150°",
       "x": 1100,
       "y": 420,
       "size": 64,
@@ -41313,7 +41346,7 @@
      },
      {
       "type": "label",
-      "text": "45\u00b0",
+      "text": "45°",
       "x": 520,
       "y": 380,
       "size": 64,
@@ -43302,7 +43335,7 @@
      },
      {
       "type": "label",
-      "text": "150\u00b0",
+      "text": "150°",
       "x": 900,
       "y": 420,
       "size": 64,
@@ -47557,12 +47590,12 @@
      {
       "type": "arrow",
       "from": [
-       1500,
+       1480,
        300
       ],
       "to": [
-       1500,
-       560
+       1255,
+       540
       ],
       "bend": -40,
       "color": "#e0201b",
@@ -47577,8 +47610,8 @@
        300
       ],
       "to": [
-       680,
-       520
+       770,
+       495
       ],
       "bend": 40,
       "color": "#e0201b",
@@ -63311,7 +63344,7 @@
       "name": "hippo_waterline",
       "x": 826.3,
       "y": 804.0,
-      "scale": 0.12,
+      "scale": 0.18,
       "appear": 0.4
      },
      {
@@ -63319,7 +63352,7 @@
       "name": "hippo_waterline",
       "x": 907.9,
       "y": 865.2,
-      "scale": 0.12,
+      "scale": 0.18,
       "appear": 0.5
      },
      {
@@ -63327,7 +63360,7 @@
       "name": "hippo_waterline",
       "x": 856.9,
       "y": 753.0,
-      "scale": 0.12,
+      "scale": 0.18,
       "appear": 0.6
      },
      {
@@ -63335,7 +63368,7 @@
       "name": "hippo_waterline",
       "x": 938.5,
       "y": 742.8,
-      "scale": 0.12,
+      "scale": 0.18,
       "appear": 0.7
      },
      {
@@ -63343,7 +63376,7 @@
       "name": "hippo_waterline",
       "x": 887.5,
       "y": 691.8,
-      "scale": 0.12,
+      "scale": 0.18,
       "appear": 0.8
      },
      {
@@ -63419,35 +63452,35 @@
       "name": "hippo_waterline",
       "x": 826.3,
       "y": 804.0,
-      "scale": 0.12
+      "scale": 0.18
      },
      {
       "type": "asset",
       "name": "hippo_waterline",
       "x": 907.9,
       "y": 865.2,
-      "scale": 0.12
+      "scale": 0.18
      },
      {
       "type": "asset",
       "name": "hippo_waterline",
       "x": 856.9,
       "y": 753.0,
-      "scale": 0.12
+      "scale": 0.18
      },
      {
       "type": "asset",
       "name": "hippo_waterline",
       "x": 938.5,
       "y": 742.8,
-      "scale": 0.12
+      "scale": 0.18
      },
      {
       "type": "asset",
       "name": "hippo_waterline",
       "x": 887.5,
       "y": 691.8,
-      "scale": 0.12
+      "scale": 0.18
      },
      {
       "type": "doug",
@@ -63833,49 +63866,49 @@
       "name": "hippo_waterline",
       "x": 826.3,
       "y": 804.0,
-      "scale": 0.12
+      "scale": 0.18
      },
      {
       "type": "asset",
       "name": "hippo_waterline",
       "x": 907.9,
       "y": 865.2,
-      "scale": 0.12
+      "scale": 0.18
      },
      {
       "type": "asset",
       "name": "hippo_waterline",
       "x": 856.9,
       "y": 753.0,
-      "scale": 0.12
+      "scale": 0.18
      },
      {
       "type": "asset",
       "name": "hippo_waterline",
       "x": 938.5,
       "y": 742.8,
-      "scale": 0.12
+      "scale": 0.18
      },
      {
       "type": "asset",
       "name": "hippo_waterline",
       "x": 887.5,
       "y": 691.8,
-      "scale": 0.12
+      "scale": 0.18
      },
      {
       "type": "asset",
       "name": "hippo_waterline",
       "x": 897.7,
       "y": 457.2,
-      "scale": 0.12
+      "scale": 0.18
      },
      {
       "type": "asset",
       "name": "hippo_waterline",
       "x": 632.5,
       "y": 508.2,
-      "scale": 0.12
+      "scale": 0.18
      },
      {
       "type": "asset",
