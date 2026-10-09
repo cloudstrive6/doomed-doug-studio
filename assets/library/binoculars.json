@@ -1,0 +1,190 @@
+{
+ "name": "binoculars",
+ "description": "Black binoculars, front view at a slight angle: two barrels, grey lens rims, blue glass. ~160x90, anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "binoculars"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": -10,
+   "rx": 32,
+   "ry": 32,
+   "fill": "#2c2c34",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -82,
+     -10
+    ],
+    [
+     -76,
+     6
+    ],
+    [
+     -8,
+     6
+    ],
+    [
+     -18,
+     -10
+    ]
+   ],
+   "fill": "#2c2c34",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 34,
+   "y": -10,
+   "rx": 32,
+   "ry": 32,
+   "fill": "#2c2c34",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     2,
+     -10
+    ],
+    [
+     8,
+     6
+    ],
+    [
+     76,
+     6
+    ],
+    [
+     66,
+     -10
+    ]
+   ],
+   "fill": "#2c2c34",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -16,
+   "y": -34,
+   "w": 32,
+   "h": 46,
+   "fill": "#1e1e24",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -38,
+   "rx": 14,
+   "ry": 7,
+   "fill": "#6e7078",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": -42,
+   "y": 6,
+   "rx": 36,
+   "ry": 36,
+   "fill": "#8a8c96",
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": -42,
+   "y": 6,
+   "rx": 25,
+   "ry": 25,
+   "fill": "#1f3550",
+   "width": 4
+  },
+  {
+   "type": "spray",
+   "x": -36,
+   "y": 12,
+   "r": 14,
+   "color": "#3d6a96",
+   "density": 0.5
+  },
+  {
+   "type": "ellipse",
+   "x": -51,
+   "y": -4,
+   "rx": 6,
+   "ry": 5,
+   "fill": "#ffffff",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -42,
+   "y": 6,
+   "rx": 31,
+   "ry": 31,
+   "fill": null,
+   "width": 2,
+   "color": "#5a5c64"
+  },
+  {
+   "type": "ellipse",
+   "x": 42,
+   "y": 6,
+   "rx": 36,
+   "ry": 36,
+   "fill": "#8a8c96",
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": 42,
+   "y": 6,
+   "rx": 25,
+   "ry": 25,
+   "fill": "#1f3550",
+   "width": 4
+  },
+  {
+   "type": "spray",
+   "x": 48,
+   "y": 12,
+   "r": 14,
+   "color": "#3d6a96",
+   "density": 0.5
+  },
+  {
+   "type": "ellipse",
+   "x": 33,
+   "y": -4,
+   "rx": 6,
+   "ry": 5,
+   "fill": "#ffffff",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 42,
+   "y": 6,
+   "rx": 31,
+   "ry": 31,
+   "fill": null,
+   "width": 2,
+   "color": "#5a5c64"
+  }
+ ]
+}

@@ -1,0 +1,469 @@
+{
+ "name": "pill_bottle",
+ "description": "Orange translucent prescription pill bottle with a white child-proof cap and a white MORPHINE label. Upright, ~164x246, anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "medicine",
+  "pill bottle",
+  "morphine"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     -78
+    ],
+    [
+     70,
+     -78
+    ],
+    [
+     72,
+     108
+    ],
+    [
+     60,
+     120
+    ],
+    [
+     -60,
+     120
+    ],
+    [
+     -72,
+     108
+    ]
+   ],
+   "fill": "#f0a030",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     -78
+    ],
+    [
+     70,
+     -78
+    ],
+    [
+     72,
+     108
+    ],
+    [
+     60,
+     120
+    ],
+    [
+     34,
+     120
+    ]
+   ],
+   "fill": "#cf7f14",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     -70
+    ],
+    [
+     -42,
+     -70
+    ],
+    [
+     -42,
+     110
+    ],
+    [
+     -56,
+     110
+    ]
+   ],
+   "fill": "#ffcf80",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 40,
+   "y": 100,
+   "r": 30,
+   "color": "#a85e08",
+   "density": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": 96,
+   "rx": 13,
+   "ry": 8,
+   "fill": "#f8d9a8",
+   "width": 2,
+   "color": "#b86a10"
+  },
+  {
+   "type": "ellipse",
+   "x": 8,
+   "y": 104,
+   "rx": 13,
+   "ry": 8,
+   "fill": "#f8d9a8",
+   "width": 2,
+   "color": "#b86a10"
+  },
+  {
+   "type": "ellipse",
+   "x": 34,
+   "y": 98,
+   "rx": 13,
+   "ry": 8,
+   "fill": "#f8d9a8",
+   "width": 2,
+   "color": "#b86a10"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     -78
+    ],
+    [
+     70,
+     -78
+    ],
+    [
+     72,
+     108
+    ],
+    [
+     60,
+     120
+    ],
+    [
+     -60,
+     120
+    ],
+    [
+     -72,
+     108
+    ]
+   ],
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -40,
+   "w": 124,
+   "h": 100,
+   "fill": "#ffffff",
+   "width": 4
+  },
+  {
+   "type": "text",
+   "text": "MORPHINE",
+   "x": 0,
+   "y": -14,
+   "size": 21,
+   "color": "#000000",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     12
+    ],
+    [
+     46,
+     12
+    ]
+   ],
+   "width": 3,
+   "color": "#555555"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     28
+    ],
+    [
+     30,
+     28
+    ]
+   ],
+   "width": 3,
+   "color": "#555555"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     44
+    ],
+    [
+     40,
+     44
+    ]
+   ],
+   "width": 3,
+   "color": "#555555"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -120
+    ],
+    [
+     80,
+     -120
+    ],
+    [
+     82,
+     -78
+    ],
+    [
+     -82,
+     -78
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -118
+    ],
+    [
+     80,
+     -120
+    ],
+    [
+     82,
+     -80
+    ],
+    [
+     44,
+     -80
+    ]
+   ],
+   "fill": "#e1e4e8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -66,
+     -112
+    ],
+    [
+     -66,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa0a8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -52,
+     -112
+    ],
+    [
+     -52,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa0a8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -38,
+     -112
+    ],
+    [
+     -38,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa0a8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -24,
+     -112
+    ],
+    [
+     -24,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa0a8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -112
+    ],
+    [
+     -10,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa0a8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     4,
+     -112
+    ],
+    [
+     4,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa0a8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     18,
+     -112
+    ],
+    [
+     18,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa0a8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     32,
+     -112
+    ],
+    [
+     32,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa0a8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     46,
+     -112
+    ],
+    [
+     46,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa0a8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -112
+    ],
+    [
+     60,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa0a8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     74,
+     -112
+    ],
+    [
+     74,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa0a8"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -120
+    ],
+    [
+     80,
+     -120
+    ],
+    [
+     82,
+     -78
+    ],
+    [
+     -82,
+     -78
+    ]
+   ],
+   "fill": null,
+   "width": 5
+  }
+ ]
+}

@@ -55,6 +55,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   s133-s136, s156-s160, s178-s184, s206-s210, s214, s230-s233, s253-s256, s279-s281. Hero close-ups at scale 1.1-1.2 on the beach:
   s282, s285, s286 (the `doug_cap` sits on top of the right page at (+140,-190)).
 - If the art director rejects the prop for cost, tell me and I swap every guide inset for the cap-only close (brief section 4).
+- **DONE** (illustrator batch 1): `assets/library/field_guide_open.json`, preview `assets/previews/010-every-venom-assets-b1.png`. c, 560x360 (ribbon hangs to y +202); FRIEND? at (+90,-115), empty 44x44 box at (+205,-115); name and stamp zones only carry faint ruled lines. Still needs art-director approval.
 
 ### `field_guide` (B)
 - **What:** The same guide, closed, held in Doug's hand in the opening.
@@ -62,6 +63,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   ribbon bookmark hanging out of the bottom edge.
 - **Facing / anchor / size:** Upright, cover facing the viewer. Anchor `c`, about 140x180. Placed at Doug's front hand, scale 0.42-0.45.
 - **Shots:** s002, s003, s005.
+- **DONE** (illustrator batch 1): `assets/library/field_guide.json`, preview `assets/previews/010-every-venom-assets-b1.png`. c, 140x180 (ribbon to y +122); FIELD GUIDE label reads at 0.45 as a cream patch.
 
 ---
 
@@ -76,6 +78,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   (+300,-120); tail at the left end around (-300,-60); hind-ankle spur at (-150,-15); thigh/venom-gland area at (-130,-95)
   (an arrow and a dotted line run spur to thigh). Also used flipped (two males facing each other, s012; Doug-side pet, s020-s021).
 - **Shots:** s005-s013, s018-s022 (scale 0.5-2.0; the s008/s010 close-up at 2.0 must hold up).
+- **DONE** (illustrator batch 1): `assets/library/platypus.json`, preview `assets/previews/010-every-venom-assets-b1.png`. bc, bbox x -306..+306, y -212..0; bill tip (+306,-124), tail (-306,-62), cream spur at (-160,-20), thigh bulge at (-130,-95).
 
 ### `bullet_ant` (A, SIL)
 - **What:** Bullet ant (Paraponera clavata) worker.
@@ -84,6 +87,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** Facing right (on a vertical trunk in some shots; I rotate if needed). Anchor `c`, about 500x260.
   **Keep:** stinger tip at about (-250,+40).
 - **Shots:** s025 (SIL), s026-s027, s029-s030, s033, s036, s040, s043-s044.
+- **DONE** (illustrator batch 1): `assets/library/bullet_ant.json`, preview `assets/previews/010-every-venom-assets-b1.png`. c, bbox x -256..+252, y -122..+122; stinger tip (-256,+42).
 
 ### `asian_giant_hornet` (A, SIL)
 - **What:** Northern (Asian) giant hornet, Vespa mandarinia.
@@ -94,6 +98,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   across the top so a dotted wingspan line at y -170 (local) spans them. Used down to scale 0.22 in a swarm, so keep the silhouette
   bold. Rotated 170 deg as the swatted hornet (s066-s067).
 - **Shots:** s047 (SIL), s048-s057, s062-s069, s277.
+- **DONE** (illustrator batch 1): `assets/library/asian_giant_hornet.json`, preview `assets/previews/010-every-venom-assets-b1.png`. c, bbox x -266..+258, y -174..+164; stinger tip (-264,+44); wing tips at (-214,-172) and (+206,-174).
 
 ### `komodo_dragon` (A, SIL)
 - **What:** Komodo dragon (Varanus komodoensis), adult.
@@ -102,6 +107,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** Facing right. Anchor `bc`, about 900x300 (x -450..+450). **Keep:** mouth/lower jaw at about
   (+400,-70) (microbes cluster there in s071/s079); also used flipped.
 - **Shots:** s070 (SIL), s071, s073-s076, s078-s080, s083, s086-s092, s277.
+- **DONE** (illustrator batch 1): `assets/library/komodo_dragon.json`, preview `assets/previews/010-every-venom-assets-b1.png`. bc, bbox x -454..+484 (tongue past +450), y -216..0; lower jaw at (+400,-66).
 
 ### `komodo_head_scan` (C)
 - **What:** Diagram of the 2009 head scan (Fry et al.): a side cross-section of a Komodo head.
@@ -109,6 +115,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   **venom gland in the lower jaw** filled bright yellow-orange `#ffb000` with a darker outline. No gore, clean "textbook" look.
 - **Facing / anchor / size:** Facing right. Anchor `c`, about 600x360. **Keep:** the venom gland centred at about (+60,+90).
 - **Shots:** s081.
+- **DONE** (illustrator batch 1): `assets/library/komodo_head_scan.json`, preview `assets/previews/010-every-venom-assets-b1.png`. c, 600x360; gland ellipse centred (+60,+90), small 'FRY ET AL. 2009' caption top-left.
 
 ### `indian_red_scorpion` (A, SIL)
 - **What:** Indian red scorpion (Hottentotta tamulus).
@@ -117,6 +124,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** Facing right (pincers right). Anchor `c`, about 520x300. **Keep:** sting at about (-60,-150).
   Also used flipped and tiny (0.22, rotated) climbing out of a boot.
 - **Shots:** s093 (SIL), s094-s097, s102-s104, s107 (SIL), s108, s112-s113, s277.
+- **DONE** (illustrator batch 1): `assets/library/indian_red_scorpion.json`, preview `assets/previews/010-every-venom-assets-b1.png`. c, bbox about x -232..+266, y -178..+120; sting tip at (-56,-146), bulb at (-106,-152).
 
 ### `indian_red_scorpion_uv` (B)
 - **What:** The same scorpion under ultraviolet light.
@@ -124,6 +132,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   highlights, `#14b08a` darker plates), outline dark teal `#0a4a3c`. Built-in soft `spray` glow around it.
 - **Facing / anchor / size:** Same as above (anchor `c`, 520x300).
 - **Shots:** s109-s111, s115-s116.
+- **DONE** (illustrator batch 1): `assets/library/indian_red_scorpion_uv.json`, preview `assets/previews/010-every-venom-assets-b1.png`. same geometry, built-in glow spray reaches r 230.
 
 ### `saw_scaled_viper` (A, SIL)
 - **What:** Saw-scaled viper (Echis), coiled in its threat display.
@@ -133,6 +142,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** Facing right. Anchor `c`, about 420x220. **Keep:** head at about (+150,-60). Used tiny (0.3) by Doug's
   foot and big (2.4) for the scales close-up, so the scale texture should hold up at 2.4.
 - **Shots:** s118 (SIL), s120-s122, s124-s128, s132-s136, s227-s229, s277.
+- **DONE** (illustrator batch 1): `assets/library/saw_scaled_viper.json`, preview `assets/previews/010-every-venom-assets-b1.png`. c, bbox about x -210..+214, y -98..+110; head centre (+160,-66).
 
 ### `blue_ringed_octopus` (A)
 - **What:** Blue-ringed octopus (Hapalochlaena) at rest.
@@ -140,6 +150,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   small slit-pupil eyes, no smile.
 - **Facing / anchor / size:** Anchor `c`, about 360x260 (mantle top-centre, arms spread down/out).
 - **Shots:** s138-s142, s150-s151, s159, s277.
+- **DONE** (illustrator batch 1): `assets/library/blue_ringed_octopus.json`, preview `assets/previews/010-every-venom-assets-b1.png`. c, bbox about x -186..+186, y -134..+134.
 
 ### `blue_ringed_octopus_flash` (A)
 - **What:** The same octopus, disturbed, rings flashing.
@@ -147,6 +158,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   blue `#1f6bff` with black edges, plus a faint blue `spray` glow. This is the warning flash, so it should read as "danger".
 - **Facing / anchor / size:** Same (anchor `c`, 360x260). Doug lifts it in cupped hands at scale 0.3.
 - **Shots:** s141-s147, s153, s155-s158.
+- **DONE** (illustrator batch 1): `assets/library/blue_ringed_octopus_flash.json`, preview `assets/previews/010-every-venom-assets-b1.png`. same geometry; blue glow spray r 200.
 
 ### `black_mamba` (A, SIL)
 - **What:** Black mamba (Dendroaspis polylepis), the "it's not black" item.
@@ -155,6 +167,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** Facing right. Anchor `c`, about 900x300. **Keep:** head (and closed mouth) at about (+400,-100), where
   the s174 arrow lands. Also used flipped and as a SIL.
 - **Shots:** s119 (SIL), s161 (SIL), s162-s170, s173-s175, s178-s180, s182, s184, s277.
+- **DONE** (illustrator batch 2): `assets/library/black_mamba.json`, preview `assets/previews/010-every-venom-assets-b2a.png`. olive-grey, head/closed mouth at (+400,-100); bbox x -450..+458.
 
 ### `black_mamba_gape` (B)
 - **What:** The black mamba's threat display: front body reared up, mouth wide open.
@@ -163,6 +176,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** Facing right. Anchor `c`, about 600x500. **Keep:** the centre of the open mouth at about (+150,-100)
   (a red ring and "BLACK" label sit there). Also used flipped.
 - **Shots:** s175-s177, s181.
+- **DONE** (illustrator batch 2): `assets/library/black_mamba_gape.json`, preview `assets/previews/010-every-venom-assets-b2a.png`. mouth centre about (+150..+180,-100), inky #0b0f2a lining; bbox x -275..+290, y -245..+250.
 
 ### `funnel_web_spider` (A, SIL)
 - **What:** Male Sydney funnel-web spider (Atrax robustus) in its rearing threat pose.
@@ -171,6 +185,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** Facing right. Anchor `bc`, about 420x260 (feet on y=0). **Keep:** fangs at about (+160,-240)
   (the s193 arrow).
 - **Shots:** s185 (SIL), s186-s187, s189-s195, s199, s203-s206, s208-s210, s277.
+- **DONE** (illustrator batch 2): `assets/library/funnel_web_spider.json`, preview `assets/previews/010-every-venom-assets-b2a.png`. #2a2f38 with blue-grey shine; fangs hang from (+150..+172,-222) to y -168 (chelicerae at (+150,-240)); raised front legs reach y -305, a little above the 260 box.
 
 ### `inland_taipan` (A, SIL)
 - **What:** Inland taipan (Oxyuranus microlepidotus), summer colouring.
@@ -178,12 +193,14 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   long smooth body in a relaxed S-curve. Calm and shy-looking but still a dangerous snake (no smile).
 - **Facing / anchor / size:** Facing right. Anchor `c`, about 800x260. Also used flipped (leaving, s231) and as a SIL.
 - **Shots:** s119 (SIL), s211 (SIL), s212, s217-s224, s226, s228, s231.
+- **DONE** (illustrator batch 2): `assets/library/inland_taipan.json`, preview `assets/previews/010-every-venom-assets-b2a.png`. head at about (+362,-26); bbox x -405..+414.
 
 ### `inland_taipan_winter` (C)
 - **What:** The same snake in winter colouring (it darkens to absorb heat).
 - **Look:** Identical geometry to `inland_taipan`, but dark glossy brown `#4a3020` with a near-black head `#1e1410`.
 - **Facing / anchor / size:** Same (anchor `c`, 800x260).
 - **Shots:** s218-s219.
+- **DONE** (illustrator batch 2): `assets/library/inland_taipan_winter.json`, preview `assets/previews/010-every-venom-assets-b2a.png`. same geometry as inland_taipan.
 
 ### `irukandji_jellyfish` (B)
 - **What:** Irukandji jellyfish (Carukia barnesi): fingertip-sized box jelly.
@@ -193,6 +210,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** Anchor at the **bell centre**: bell about 80x80 (x -40..+40, y -40..+40), threads down to y +400
   (bbox x -60..+60, y -40..+400). Used at 0.4 (tiny in the sea) up to 3.0 (bell close-up, threads run off the frame).
 - **Shots:** s234, s236-s238, s240-s242, s247, s253.
+- **DONE** (illustrator batch 2): `assets/library/irukandji_jellyfish.json`, preview `assets/previews/010-every-venom-assets-b2a.png`. bell x -40..+40, threads to y +398.
 
 ### `box_jellyfish` (A, SIL)
 - **What:** Australian box jellyfish (Chironex fleckeri), the boss.
@@ -203,6 +221,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   **Keep:** the four eye clusters at about (-120,+95), (+120,+95), (-50,+115), (+50,+115). I also draw it with `ink` overrides
   (`#24505c`, `#163a44`) to make it fainter in the water, so keep black outlines as the only outline colour.
 - **Shots:** s257 (SIL), s258, s259 (SIL), s260, s262-s264, s267 (SIL), s268-s269, s271, s273-s276, s278.
+- **DONE** (illustrator batch 2): `assets/library/box_jellyfish.json`, preview `assets/previews/010-every-venom-assets-b2b.png`. eye clusters exactly at the four requested points; black outlines only (ink-overridable); pedalia flare out, so bbox x -245..+245, tentacles to y +700.
 
 ### `box_jellyfish_eyes` (C)
 - **What:** The same box jellyfish with its 24 eyes lit.
@@ -210,6 +229,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   `#ffe24a` with a small `spray` glow each. Placed on top of `box_jellyfish` (appear 0.3), so it must line up exactly.
 - **Facing / anchor / size:** Same (anchor bell centre).
 - **Shots:** s269.
+- **DONE** (illustrator batch 2): `assets/library/box_jellyfish_eyes.json`, preview `assets/previews/010-every-venom-assets-b2b.png`. full redraw of box_jellyfish + 24 lit eyes; lines up at the same x/y/scale.
 
 ---
 
@@ -224,6 +244,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** Worn prop at Doug's x/y/scale, `stand` pose (hips at 0,0, neck y -150, feet y +150). Placeholder box
   was x -85..+85, y -140..+150.
 - **Shots:** s202, s205.
+- **DONE** (illustrator batch 2): `assets/library/cat_costume.json`, preview `assets/previews/010-every-venom-assets-b2b.png`. checked over Doug `stand`: hood clears the cap and face, ears at x -125..-56, y -326..-232; tail reaches x -176.
 
 ### `cat_costume_sit` (B)
 - **What:** The same costume for Doug's `sit` pose (he sits smugly on the back step).
@@ -231,6 +252,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   to the neck at (0,-80), head centre (0,-148). Leg sleeves along the legs, tail curling behind at about (-60,+60).
 - **Facing / anchor / size:** Worn prop at Doug's x/y/scale (`sit` pose). Placeholder box was x -85..+160, y -80..+90.
 - **Shots:** s206-s209.
+- **DONE** (illustrator batch 2): `assets/library/cat_costume_sit.json`, preview `assets/previews/010-every-venom-assets-b2b.png`. checked over Doug `sit`.
 
 ### `cat_costume_flat` (C)
 - **What:** The cat costume after the death beat (s210), like `crab_costume_flat`.
@@ -238,18 +260,21 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   on the hood's cat face**. No Doug, no tears. I place `doug_cap` beside it.
 - **Facing / anchor / size:** Anchor `bc`, about 500x160.
 - **Shots:** s210.
+- **DONE** (illustrator batch 2): `assets/library/cat_costume_flat.json`, preview `assets/previews/010-every-venom-assets-b2b.png`. bc, bbox x -298..+262, y -112..0.
 
 ### `monkey` (B)
 - **What:** Generic macaque, the "primates" in the toxin row.
 - **Look:** Sitting brown-grey macaque `#8a7058` with a pinkish face, small ears, long tail curled beside it. Neutral expression.
 - **Facing / anchor / size:** Facing right. Anchor `bc`, about 260x340.
 - **Shots:** s200-s203.
+- **DONE** (illustrator batch 2): `assets/library/monkey.json`, preview `assets/previews/010-every-venom-assets-b2b.png`. bc, bbox x -146..+138, y -330..0.
 
 ### `rabbit` (C)
 - **What:** Ordinary brown rabbit, one of the mammals that shrug the venom off.
 - **Look:** Brown-grey wild rabbit `#9a7a5a`, pale belly, long upright ears, white tail tuft, sitting. Not a cartoon bunny.
 - **Facing / anchor / size:** Facing right. Anchor `bc`, about 260x220.
 - **Shots:** s200-s202.
+- **DONE** (illustrator batch 2): `assets/library/rabbit.json`, preview `assets/previews/010-every-venom-assets-b2b.png`. bc, bbox x -136..+152, y -228..0.
 
 ---
 
@@ -261,18 +286,21 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   No pills spilling.
 - **Facing / anchor / size:** Upright. Anchor `c`, about 160x240.
 - **Shots:** s013, s015.
+- **Done** (illustrator batch 3): `assets/library/pill_bottle.json`, preview `assets/previews/010-every-venom-assets-c1.png`
 
 ### `staple` (C)
 - **What:** One office staple (15-18 mm platypus spur comparison).
 - **Look:** A single bent silver staple `#b8bcc4`, seen from the side (a flat "U"), with a dark outline.
 - **Facing / anchor / size:** Horizontal. Anchor `c`, about 120x40.
 - **Shots:** s009.
+- **Done** (illustrator batch 3): `assets/library/staple.json`, preview `assets/previews/010-every-venom-assets-c1.png`
 
 ### `paperclip` (C)
 - **What:** Standard paperclip (bullet ant ~2 cm).
 - **Look:** Silver wire paperclip `#b8bcc4`, horizontal, the classic double loop, dark outline.
 - **Facing / anchor / size:** Horizontal. Anchor `c`, about 240x80.
 - **Shots:** s029.
+- **Done** (illustrator batch 3): `assets/library/paperclip.json`, preview `assets/previews/010-every-venom-assets-c1.png`
 
 ### `ant_glove` (C)
 - **What:** The woven glove of the Sateré-Mawé coming-of-age ceremony, shown as an object only (no people, no Doug; the brief asks
@@ -282,30 +310,35 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   costume.
 - **Facing / anchor / size:** Upright. Anchor `c`, about 300x360.
 - **Shots:** s041-s042.
+- **Done** (illustrator batch 3): `assets/library/ant_glove.json`, preview `assets/previews/010-every-venom-assets-c1.png`
 
 ### `honeybee` (C)
 - **What:** Western honeybee worker for the stinger comparison.
 - **Look:** Golden-brown body with dark bands, fuzzy thorax, clear wings, small stinger.
 - **Facing / anchor / size:** Facing right. Anchor `c`, about 220x150 (draw it at the same scale as the hornet: about 40% of its length).
 - **Shots:** s053.
+- **Done** (illustrator batch 3): `assets/library/honeybee.json`, preview `assets/previews/010-every-venom-assets-c1.png`
 
 ### `matchbox` (C)
 - **What:** A closed matchbox (the hornet is "the length of a matchbox"). The library `matchbox_charger` has cables in it, so it doesn't work here.
 - **Look:** Closed rectangular matchbox with a red/yellow label and a brown striker strip on the side.
 - **Facing / anchor / size:** Horizontal, 3/4 view. Anchor `c`, about 260x170.
 - **Shots:** s051.
+- **Done** (illustrator batch 3): `assets/library/matchbox.json`, preview `assets/previews/010-every-venom-assets-c1.png`
 
 ### `beehive` (C)
 - **What:** Wooden honeybee hive box that the hornets raid.
 - **Look:** Stacked white/pale-yellow wooden hive boxes `#f2e6b0` with a flat lid, a dark entrance slot at the bottom, a few bees.
 - **Facing / anchor / size:** Front view. Anchor `bc`, about 280x300.
 - **Shots:** s057-s058.
+- **Done** (illustrator batch 3): `assets/library/beehive.json`, preview `assets/previews/010-every-venom-assets-c1.png`
 
 ### `mouthwash_bottle` (B)
 - **What:** The giant bottle of mouthwash Doug brings the Komodo dragon.
 - **Look:** Big translucent green bottle `#3cc08a` with a white screw cap (sealed) and a white label printed `MOUTHWASH`.
 - **Facing / anchor / size:** Upright. Anchor `c`, about 160x300. I rotate it 90 deg when it rolls away (s092), so keep the label readable sideways.
 - **Shots:** s089, s092.
+- **Done** (illustrator batch 3): `assets/library/mouthwash_bottle.json`, preview `assets/previews/010-every-venom-assets-c1.png`, assets/previews/010-every-venom-assets-c3.png (dark bg / rotated / bottom-anchored check)
 
 ### `uv_torch` (B)
 - **What:** Ultraviolet torch (blacklight flashlight) for the scorpion beat.
@@ -313,12 +346,14 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** **Anchor at the handle end** (Doug's hand), body running to the right, lens at about (+250,0). About
   260x80 (x 0..260, y -40..+40). I draw the purple beam inline from the lens.
 - **Shots:** s108-s109, s114-s116.
+- **Done** (illustrator batch 3): `assets/library/uv_torch.json`, preview `assets/previews/010-every-venom-assets-c1.png`, assets/previews/010-every-venom-assets-c3.png (dark bg / rotated / bottom-anchored check)
 
 ### `torch` (B)
 - **What:** Ordinary torch (flashlight) for the box jellyfish night wade.
 - **Look:** Same shape as `uv_torch`, yellow/grey body with a warm white lens `#fff3b0`. Must read on near-black water.
 - **Facing / anchor / size:** Same as `uv_torch` (anchor at the handle end, lens at +250).
 - **Shots:** s279-s281.
+- **Done** (illustrator batch 3): `assets/library/torch.json`, preview `assets/previews/010-every-venom-assets-c2.png`, assets/previews/010-every-venom-assets-c3.png (dark bg / rotated / bottom-anchored check)
 
 ### `boot` (B)
 - **What:** Doug's work boot (the scorpions are inside it, and he is wearing it).
@@ -326,18 +361,21 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** Toe pointing right. Anchor `bc`, about 220x200. Worn on Doug's front foot at scale 0.45, so the
   opening at the top (0,-200) sits on his shin. Also rotated -80 deg lying on the floor (s117).
 - **Shots:** s114-s117.
+- **Done** (illustrator batch 3): `assets/library/boot.json`, preview `assets/previews/010-every-venom-assets-c2.png`, assets/previews/010-every-venom-assets-c3.png (dark bg / rotated / bottom-anchored check)
 
 ### `binoculars` (C)
 - **What:** Binoculars (Doug scanning for something big; Auffenberg watching dragons).
 - **Look:** Black binoculars with two barrels and grey lens rims, front view at a slight angle.
 - **Facing / anchor / size:** Anchor `c`, about 160x90.
 - **Shots:** s078, s133-s134.
+- **Done** (illustrator batch 3): `assets/library/binoculars.json`, preview `assets/previews/010-every-venom-assets-c2.png`, assets/previews/010-every-venom-assets-c3.png (dark bg / rotated / bottom-anchored check)
 
 ### `golf_ball` (C)
 - **What:** Golf ball (the octopus is about this size).
 - **Look:** White ball with dimple dots and a light grey shading crescent.
 - **Facing / anchor / size:** Anchor `c`, about 120x120. Draw it at the same scale as the octopus (golf-ball body).
 - **Shots:** s139.
+- **Done** (illustrator batch 3): `assets/library/golf_ball.json`, preview `assets/previews/010-every-venom-assets-c2.png`
 
 ### `seashell` (C)
 - **What:** An empty-looking spiral seashell (people pick these up with a blue-ringed octopus hiding inside).
@@ -345,15 +383,18 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   opening, nothing visible inside (I add an `octopus_arm` tip poking out at the opening).
 - **Facing / anchor / size:** Anchor `c`, about 300x200. **Keep:** the opening at about (+130,+40).
 - **Shots:** s154.
+- **Done** (illustrator batch 3): `assets/library/seashell.json`, preview `assets/previews/010-every-venom-assets-c2.png`, assets/previews/010-every-venom-assets-c3.png (dark bg / rotated / bottom-anchored check)
 
 ### `guitar` (C)
 - **What:** Acoustic guitar (Irukandji tentacles reach about a meter, "roughly the length of a guitar").
 - **Look:** Classic acoustic guitar, wooden body `#c08040`, dark neck, sound hole, six strings.
 - **Facing / anchor / size:** Horizontal, neck to the right. Anchor `c`, about 500x180. I rotate it 90 deg.
 - **Shots:** s238.
+- **Done** (illustrator batch 3): `assets/library/guitar.json`, preview `assets/previews/010-every-venom-assets-c2.png`
 
 ### `basketball_hoop` (C)
 - **What:** Regulation basketball hoop (3.05 m), the box jellyfish tentacle comparison.
 - **Look:** Pole `#555`, white backboard with a red square, orange rim with a white net. Rim at about y -600, backboard top at y -700.
 - **Facing / anchor / size:** Side/front view. Anchor `bc`, about 300x700.
 - **Shots:** s265.
+- **Done** (illustrator batch 3): `assets/library/basketball_hoop.json`, preview `assets/previews/010-every-venom-assets-c2.png`, assets/previews/010-every-venom-assets-c3.png (dark bg / rotated / bottom-anchored check)

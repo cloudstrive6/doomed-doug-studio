@@ -1,0 +1,424 @@
+{
+ "name": "torch",
+ "description": "Ordinary torch (flashlight): yellow body, grey head, warm white glowing lens. Anchor at the handle end (0,0), lens at (+252,0). ~260x80. Reads on near-black.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "torch",
+  "flashlight",
+  "night"
+ ],
+ "elements": [
+  {
+   "type": "spray",
+   "x": 256,
+   "y": 0,
+   "r": 44,
+   "color": "#fff7a0",
+   "density": 0.55
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     -24
+    ],
+    [
+     172,
+     -26
+    ],
+    [
+     172,
+     26
+    ],
+    [
+     4,
+     24
+    ],
+    [
+     -2,
+     14
+    ],
+    [
+     -2,
+     -14
+    ]
+   ],
+   "fill": "#f2c230",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     8
+    ],
+    [
+     172,
+     10
+    ],
+    [
+     172,
+     26
+    ],
+    [
+     4,
+     24
+    ],
+    [
+     -2,
+     14
+    ]
+   ],
+   "fill": "#c99a14",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -14
+    ],
+    [
+     166,
+     -16
+    ]
+   ],
+   "width": 4,
+   "color": "#ffe58a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     26,
+     -22
+    ],
+    [
+     26,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#d8a818"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     -22
+    ],
+    [
+     40,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#d8a818"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     54,
+     -22
+    ],
+    [
+     54,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#d8a818"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     68,
+     -22
+    ],
+    [
+     68,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#d8a818"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     82,
+     -22
+    ],
+    [
+     82,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#d8a818"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     96,
+     -22
+    ],
+    [
+     96,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#d8a818"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     110,
+     -22
+    ],
+    [
+     110,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#d8a818"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     124,
+     -22
+    ],
+    [
+     124,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#d8a818"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     -24
+    ],
+    [
+     172,
+     -26
+    ],
+    [
+     172,
+     26
+    ],
+    [
+     4,
+     24
+    ],
+    [
+     -2,
+     14
+    ],
+    [
+     -2,
+     -14
+    ]
+   ],
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "rect",
+   "x": -2,
+   "y": -20,
+   "w": 12,
+   "h": 40,
+   "fill": "#6e7078",
+   "width": 4
+  },
+  {
+   "type": "rect",
+   "x": 140,
+   "y": -34,
+   "w": 20,
+   "h": 10,
+   "fill": "#6e7078",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     170,
+     -26
+    ],
+    [
+     226,
+     -40
+    ],
+    [
+     250,
+     -40
+    ],
+    [
+     250,
+     40
+    ],
+    [
+     226,
+     40
+    ],
+    [
+     170,
+     26
+    ]
+   ],
+   "fill": "#9a9ca6",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     170,
+     10
+    ],
+    [
+     226,
+     22
+    ],
+    [
+     250,
+     22
+    ],
+    [
+     250,
+     40
+    ],
+    [
+     226,
+     40
+    ],
+    [
+     170,
+     26
+    ]
+   ],
+   "fill": "#6e7078",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     176,
+     -18
+    ],
+    [
+     226,
+     -32
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     226,
+     -40
+    ],
+    [
+     226,
+     40
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     170,
+     -26
+    ],
+    [
+     226,
+     -40
+    ],
+    [
+     250,
+     -40
+    ],
+    [
+     250,
+     40
+    ],
+    [
+     226,
+     40
+    ],
+    [
+     170,
+     26
+    ]
+   ],
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": 252,
+   "y": 0,
+   "rx": 9,
+   "ry": 36,
+   "fill": "#fff3b0",
+   "width": 4
+  },
+  {
+   "type": "spray",
+   "x": 258,
+   "y": 0,
+   "r": 22,
+   "color": "#ffffff",
+   "density": 0.6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     252,
+     -24
+    ],
+    [
+     252,
+     -8
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  }
+ ]
+}

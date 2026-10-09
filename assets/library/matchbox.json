@@ -1,0 +1,233 @@
+{
+ "name": "matchbox",
+ "description": "Closed matchbox in 3/4 view: red/yellow label with a match icon on top, brown striker strip on the long side. ~260x160, anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "matchbox",
+  "scale comparison"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -130,
+     -15
+    ],
+    [
+     78,
+     -15
+    ],
+    [
+     78,
+     75
+    ],
+    [
+     -130,
+     75
+    ]
+   ],
+   "fill": "#e6d3a6",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -122,
+     -2
+    ],
+    [
+     70,
+     -2
+    ],
+    [
+     70,
+     62
+    ],
+    [
+     -122,
+     62
+    ]
+   ],
+   "fill": "#6b3a1a",
+   "width": 3
+  },
+  {
+   "type": "spray",
+   "x": -60,
+   "y": 30,
+   "r": 40,
+   "color": "#3e1e0a",
+   "density": 0.4
+  },
+  {
+   "type": "spray",
+   "x": 20,
+   "y": 30,
+   "r": 40,
+   "color": "#8a5226",
+   "density": 0.4
+  },
+  {
+   "type": "spray",
+   "x": 50,
+   "y": 20,
+   "r": 24,
+   "color": "#3e1e0a",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     78,
+     -15
+    ],
+    [
+     130,
+     -85
+    ],
+    [
+     130,
+     5
+    ],
+    [
+     78,
+     75
+    ]
+   ],
+   "fill": "#cbb685",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     84,
+     2
+    ],
+    [
+     124,
+     -52
+    ]
+   ],
+   "width": 2,
+   "color": "#8a7448"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -130,
+     -15
+    ],
+    [
+     78,
+     -15
+    ],
+    [
+     130,
+     -85
+    ],
+    [
+     -78,
+     -85
+    ]
+   ],
+   "fill": "#d8261c",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -24
+    ],
+    [
+     60,
+     -24
+    ],
+    [
+     100,
+     -76
+    ],
+    [
+     -60,
+     -76
+    ]
+   ],
+   "fill": "#ffd21a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -48,
+     -34
+    ],
+    [
+     22,
+     -64
+    ]
+   ],
+   "width": 6,
+   "color": "#a0522d"
+  },
+  {
+   "type": "ellipse",
+   "x": 28,
+   "y": -66,
+   "rx": 9,
+   "ry": 7,
+   "fill": "#c0140f",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     -72
+    ],
+    [
+     40,
+     -96
+    ],
+    [
+     46,
+     -78
+    ],
+    [
+     52,
+     -92
+    ],
+    [
+     50,
+     -68
+    ],
+    [
+     38,
+     -60
+    ]
+   ],
+   "fill": "#ff7a1a",
+   "width": 3,
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": -60,
+   "y": -40,
+   "r": 20,
+   "color": "#ffffff",
+   "density": 0.15
+  }
+ ]
+}

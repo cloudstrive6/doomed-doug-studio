@@ -1,0 +1,410 @@
+{
+ "name": "mouthwash_bottle",
+ "description": "Big translucent green mouthwash bottle with a sealed white screw cap and a square white MOUTHWASH label (fits when rotated 90 deg). Upright, ~152x300, anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "mouthwash",
+  "bottle",
+  "komodo"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -36,
+     -112
+    ],
+    [
+     36,
+     -112
+    ],
+    [
+     40,
+     -94
+    ],
+    [
+     70,
+     -70
+    ],
+    [
+     76,
+     -40
+    ],
+    [
+     76,
+     136
+    ],
+    [
+     66,
+     150
+    ],
+    [
+     -66,
+     150
+    ],
+    [
+     -76,
+     136
+    ],
+    [
+     -76,
+     -40
+    ],
+    [
+     -70,
+     -70
+    ],
+    [
+     -40,
+     -94
+    ]
+   ],
+   "fill": "#8fe2bc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -76,
+     -40
+    ],
+    [
+     76,
+     -40
+    ],
+    [
+     76,
+     136
+    ],
+    [
+     66,
+     150
+    ],
+    [
+     -66,
+     150
+    ],
+    [
+     -76,
+     136
+    ]
+   ],
+   "fill": "#3cc08a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -40
+    ],
+    [
+     76,
+     -40
+    ],
+    [
+     76,
+     136
+    ],
+    [
+     66,
+     150
+    ],
+    [
+     44,
+     150
+    ]
+   ],
+   "fill": "#25966a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -74,
+     -40
+    ],
+    [
+     74,
+     -40
+    ]
+   ],
+   "width": 3,
+   "color": "#1f7a55"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62,
+     -60
+    ],
+    [
+     -50,
+     -66
+    ],
+    [
+     -50,
+     136
+    ],
+    [
+     -62,
+     136
+    ]
+   ],
+   "fill": "#c8f4dd",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 30,
+   "y": 120,
+   "r": 36,
+   "color": "#1a7a52",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -36,
+     -112
+    ],
+    [
+     36,
+     -112
+    ],
+    [
+     40,
+     -94
+    ],
+    [
+     70,
+     -70
+    ],
+    [
+     76,
+     -40
+    ],
+    [
+     76,
+     136
+    ],
+    [
+     66,
+     150
+    ],
+    [
+     -66,
+     150
+    ],
+    [
+     -76,
+     136
+    ],
+    [
+     -76,
+     -40
+    ],
+    [
+     -70,
+     -70
+    ],
+    [
+     -40,
+     -94
+    ]
+   ],
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "rect",
+   "x": -40,
+   "y": -116,
+   "w": 80,
+   "h": 10,
+   "fill": "#2fae78",
+   "width": 4
+  },
+  {
+   "type": "rect",
+   "x": -64,
+   "y": -10,
+   "w": 128,
+   "h": 120,
+   "fill": "#ffffff",
+   "width": 4
+  },
+  {
+   "type": "text",
+   "text": "MOUTHWASH",
+   "x": 0,
+   "y": 50,
+   "size": 17,
+   "color": "#000000",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": -40,
+   "y": -150,
+   "w": 80,
+   "h": 40,
+   "fill": "#ffffff",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     14,
+     -147
+    ],
+    [
+     37,
+     -147
+    ],
+    [
+     37,
+     -113
+    ],
+    [
+     14,
+     -113
+    ]
+   ],
+   "fill": "#e1e4e8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -144
+    ],
+    [
+     -30,
+     -116
+    ]
+   ],
+   "width": 2,
+   "color": "#a8aeb6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     -144
+    ],
+    [
+     -20,
+     -116
+    ]
+   ],
+   "width": 2,
+   "color": "#a8aeb6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -144
+    ],
+    [
+     -10,
+     -116
+    ]
+   ],
+   "width": 2,
+   "color": "#a8aeb6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -144
+    ],
+    [
+     0,
+     -116
+    ]
+   ],
+   "width": 2,
+   "color": "#a8aeb6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -144
+    ],
+    [
+     10,
+     -116
+    ]
+   ],
+   "width": 2,
+   "color": "#a8aeb6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     -144
+    ],
+    [
+     20,
+     -116
+    ]
+   ],
+   "width": 2,
+   "color": "#a8aeb6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -144
+    ],
+    [
+     30,
+     -116
+    ]
+   ],
+   "width": 2,
+   "color": "#a8aeb6"
+  },
+  {
+   "type": "rect",
+   "x": -40,
+   "y": -150,
+   "w": 80,
+   "h": 40,
+   "fill": null,
+   "width": 5
+  }
+ ]
+}

@@ -1,0 +1,406 @@
+{
+ "name": "golf_ball",
+ "description": "White golf ball with dimples and a grey shading crescent. ~120 across, anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "sport",
+  "scale comparison",
+  "golf"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 58,
+   "ry": 58,
+   "fill": "#ffffff",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     36,
+     -46
+    ],
+    [
+     35.7,
+     -45.7
+    ],
+    [
+     43.9,
+     -37.9
+    ],
+    [
+     50.5,
+     -28.6
+    ],
+    [
+     55.1,
+     -18.2
+    ],
+    [
+     57.6,
+     -7.1
+    ],
+    [
+     57.8,
+     4.3
+    ],
+    [
+     55.9,
+     15.5
+    ],
+    [
+     51.8,
+     26.1
+    ],
+    [
+     45.7,
+     35.7
+    ],
+    [
+     37.9,
+     43.9
+    ],
+    [
+     28.6,
+     50.5
+    ],
+    [
+     18.2,
+     55.1
+    ],
+    [
+     7.1,
+     57.6
+    ],
+    [
+     -4.3,
+     57.8
+    ],
+    [
+     -15.5,
+     55.9
+    ],
+    [
+     -26.1,
+     51.8
+    ],
+    [
+     -35.7,
+     45.7
+    ],
+    [
+     -30,
+     48
+    ],
+    [
+     20,
+     40
+    ],
+    [
+     42,
+     12
+    ]
+   ],
+   "fill": "#e3e6ea",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 26,
+   "y": 28,
+   "r": 30,
+   "color": "#c4c8d0",
+   "density": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": -4,
+   "y": -44,
+   "rx": 3.1944114149821643,
+   "ry": 2.8749702734839477,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 12,
+   "y": -44,
+   "rx": 3.1087990487514863,
+   "ry": 2.7979191438763378,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -28,
+   "y": -29,
+   "rx": 3.413124256837099,
+   "ry": 3.071811831153389,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -12,
+   "y": -29,
+   "rx": 3.8411860879904873,
+   "ry": 3.457067479191439,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 4,
+   "y": -29,
+   "rx": 3.9267984542211654,
+   "ry": 3.534118608799049,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 20,
+   "y": -29,
+   "rx": 3.6699613555291317,
+   "ry": 3.3029652199762185,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -36,
+   "y": -14,
+   "rx": 3.502080856123662,
+   "ry": 3.151872770511296,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": -14,
+   "rx": 4.1013674197384065,
+   "ry": 3.691230677764566,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -4,
+   "y": -14,
+   "rx": 4.3582045184304405,
+   "ry": 3.9223840665873966,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 12,
+   "y": -14,
+   "rx": 4.2725921521997625,
+   "ry": 3.845332936979786,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 28,
+   "y": -14,
+   "rx": 3.8445303210463733,
+   "ry": 3.460077288941736,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -44,
+   "y": 1,
+   "rx": 3.2044441141498217,
+   "ry": 2.8839997027348394,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -28,
+   "y": 1,
+   "rx": 3.9749554102259212,
+   "ry": 3.577459869203329,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -12,
+   "y": 1,
+   "rx": 4.4030172413793105,
+   "ry": 3.9627155172413797,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 4,
+   "y": 1,
+   "rx": 4.488629607609988,
+   "ry": 4.039766646848989,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 20,
+   "y": 1,
+   "rx": 4.231792508917955,
+   "ry": 3.80861325802616,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 36,
+   "y": 1,
+   "rx": 3.6325059453032105,
+   "ry": 3.2692553507728896,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -36,
+   "y": 16,
+   "rx": 3.461950059453032,
+   "ry": 3.115755053507729,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": 16,
+   "rx": 4.061236623067776,
+   "ry": 3.6551129607609987,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -4,
+   "y": 16,
+   "rx": 4.318073721759809,
+   "ry": 3.8862663495838285,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 12,
+   "y": 16,
+   "rx": 4.232461355529132,
+   "ry": 3.809215219976219,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 28,
+   "y": 16,
+   "rx": 3.8043995243757434,
+   "ry": 3.4239595719381692,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -28,
+   "y": 31,
+   "rx": 3.3328626634958387,
+   "ry": 2.999576397146255,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -12,
+   "y": 31,
+   "rx": 3.760924494649227,
+   "ry": 3.3848320451843046,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 4,
+   "y": 31,
+   "rx": 3.8465368608799047,
+   "ry": 3.461883174791914,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 20,
+   "y": 31,
+   "rx": 3.5896997621878715,
+   "ry": 3.2307297859690842,
+   "fill": "#bfc4cc",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -22,
+   "y": -24,
+   "rx": 10,
+   "ry": 7,
+   "fill": "#ffffff",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 58,
+   "ry": 58,
+   "fill": null,
+   "width": 5
+  }
+ ]
+}

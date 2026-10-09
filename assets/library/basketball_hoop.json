@@ -1,0 +1,585 @@
+{
+ "name": "basketball_hoop",
+ "description": "Regulation basketball hoop: grey pole on a weighted base, white backboard (top y -700) with a red square, orange rim at y -590 with a white net. ~300x700, anchor bottom-centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "sport",
+  "scale comparison",
+  "basketball"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     -34
+    ],
+    [
+     70,
+     -34
+    ],
+    [
+     80,
+     0
+    ],
+    [
+     -80,
+     0
+    ]
+   ],
+   "fill": "#3c3c40",
+   "width": 5
+  },
+  {
+   "type": "rect",
+   "x": -14,
+   "y": -580,
+   "w": 28,
+   "h": 548,
+   "fill": "#555555",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -6,
+     -570
+    ],
+    [
+     -6,
+     -40
+    ]
+   ],
+   "width": 4,
+   "color": "#8a8a8a"
+  },
+  {
+   "type": "spray",
+   "x": 8,
+   "y": -300,
+   "r": 14,
+   "color": "#3a3a3a",
+   "density": 0.3
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -700,
+   "w": 300,
+   "h": 120,
+   "fill": "#ffffff",
+   "width": 6
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -700,
+   "w": 300,
+   "h": 120,
+   "fill": null,
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -46,
+   "y": -664,
+   "w": 92,
+   "h": 64,
+   "fill": null,
+   "width": 7,
+   "color": "#e0201b"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     110,
+     -696
+    ],
+    [
+     146,
+     -696
+    ],
+    [
+     146,
+     -584
+    ],
+    [
+     110,
+     -584
+    ]
+   ],
+   "fill": "#e8ecf0",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -700,
+   "w": 300,
+   "h": 120,
+   "fill": null,
+   "width": 6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -590
+    ],
+    [
+     -19.2,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -590
+    ],
+    [
+     -32.0,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -590
+    ],
+    [
+     -6.4,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -590
+    ],
+    [
+     -19.2,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -590
+    ],
+    [
+     6.4,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -590
+    ],
+    [
+     -6.4,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -590
+    ],
+    [
+     19.2,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -590
+    ],
+    [
+     6.4,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -590
+    ],
+    [
+     32.0,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     -590
+    ],
+    [
+     19.2,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -590
+    ],
+    [
+     -32.0,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     -590
+    ],
+    [
+     32.0,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -41,
+     -545
+    ],
+    [
+     41,
+     -545
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -32,
+     -500
+    ],
+    [
+     32,
+     -500
+    ]
+   ],
+   "width": 6,
+   "color": "#333333"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -590
+    ],
+    [
+     -19.2,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -590
+    ],
+    [
+     -32.0,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -590
+    ],
+    [
+     -6.4,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -590
+    ],
+    [
+     -19.2,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -590
+    ],
+    [
+     6.4,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -590
+    ],
+    [
+     -6.4,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -590
+    ],
+    [
+     19.2,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -590
+    ],
+    [
+     6.4,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -590
+    ],
+    [
+     32.0,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     -590
+    ],
+    [
+     19.2,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -590
+    ],
+    [
+     -32.0,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     -590
+    ],
+    [
+     32.0,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -41,
+     -545
+    ],
+    [
+     41,
+     -545
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -32,
+     -500
+    ],
+    [
+     32,
+     -500
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -596,
+   "w": 20,
+   "h": 10,
+   "fill": "#555555",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -590,
+   "rx": 54,
+   "ry": 12,
+   "fill": null,
+   "width": 10,
+   "start": 0,
+   "end": 360
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -590,
+   "rx": 54,
+   "ry": 12,
+   "fill": null,
+   "width": 6,
+   "color": "#ff6a1a",
+   "start": 0,
+   "end": 360
+  }
+ ]
+}

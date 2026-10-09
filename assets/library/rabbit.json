@@ -1,0 +1,48 @@
+{
+ "name": "rabbit",
+ "description": "Ordinary wild brown rabbit, sitting, facing right: brown-grey fur (#9a7a5a) with darker back, pale belly and chin, big haunch and long hind foot on the ground, long upright ears with dark tips, white tail tuft, dark eye in a pale fur ring under a heavy lid (alert, not a cartoon bunny), whiskers. Anchor bottom-centre; bbox x -136..+152, y -228..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "creature",
+  "mammal",
+  "rabbit",
+  "prey"
+ ],
+ "elements": [
+  {"type": "circle", "x": -116, "y": -66, "r": 20, "fill": "#f6f2ea", "width": 4},
+  {"type": "poly", "points": [[68, -146], [70, -196], [80, -224], [92, -214], [90, -170], [84, -142]], "fill": "#7a5c40", "width": 4, "smooth": true},
+  {"type": "poly", "points": [[-112, -10], [-124, -60], [-104, -108], [-50, -134], [10, -128], [48, -104], [60, -60], [54, -8], [0, -2]], "fill": "#9a7a5a", "width": 5, "smooth": true},
+  {"type": "poly", "points": [[-110, -80], [-90, -112], [-40, -128], [10, -122], [-30, -112], [-80, -96]], "fill": "#7a5c40", "width": 0, "outline": false, "smooth": true},
+  {"type": "poly", "points": [[20, -90], [48, -84], [54, -40], [44, -10], [20, -30]], "fill": "#e2d2b4", "width": 0, "outline": false, "smooth": true},
+  {"type": "ellipse", "x": -52, "y": -48, "rx": 52, "ry": 38, "fill": "#9a7a5a", "width": 4},
+  {"type": "spray", "x": -60, "y": -66, "r": 26, "color": "#7a5c40", "density": 0.3},
+  {"type": "poly", "points": [[-90, -18], [-20, -16], [16, -10], [20, 0], [-92, 0]], "fill": "#9a7a5a", "width": 4, "smooth": true},
+  {"type": "line", "points": [[-90, -100], [-82, -94]], "width": 2, "color": "#5a412c"},
+  {"type": "line", "points": [[-60, -116], [-52, -110]], "width": 2, "color": "#5a412c"},
+  {"type": "line", "points": [[-30, -118], [-22, -112]], "width": 2, "color": "#5a412c"},
+  {"type": "line", "points": [[-8, -112], [0, -106]], "width": 2, "color": "#5a412c"},
+  {"type": "line", "points": [[-80, -60], [-72, -54]], "width": 2, "color": "#5a412c"},
+  {"type": "line", "points": [[-40, -30], [-32, -24]], "width": 2, "color": "#5a412c"},
+  {"type": "line", "points": [[0, -80], [8, -74]], "width": 2, "color": "#5a412c"},
+  {"type": "curve", "points": [[38, -50], [44, -20], [48, -4]], "width": 24, "color": "#000000"},
+  {"type": "curve", "points": [[38, -50], [44, -20], [48, -4]], "width": 16, "color": "#9a7a5a"},
+  {"type": "curve", "points": [[52, -54], [62, -24], [70, -4]], "width": 24, "color": "#000000"},
+  {"type": "curve", "points": [[52, -54], [62, -24], [70, -4]], "width": 16, "color": "#9a7a5a"},
+  {"type": "poly", "points": [[28, -118], [48, -150], [84, -160], [114, -146], [130, -120], [126, -100], [104, -88], [60, -86], [34, -98]], "fill": "#9a7a5a", "width": 5, "smooth": true},
+  {"type": "poly", "points": [[80, -100], [110, -96], [126, -106], [122, -90], [96, -84], [78, -88]], "fill": "#e2d2b4", "width": 0, "outline": false, "smooth": true},
+  {"type": "poly", "points": [[48, -146], [36, -190], [42, -226], [60, -224], [68, -186], [66, -148]], "fill": "#9a7a5a", "width": 5, "smooth": true},
+  {"type": "poly", "points": [[50, -152], [44, -190], [50, -214], [58, -200], [60, -160]], "fill": "#c49a84", "width": 0, "outline": false, "smooth": true},
+  {"type": "poly", "points": [[38, -212], [42, -226], [60, -224], [62, -210], [50, -206]], "fill": "#3a2a1c", "width": 0, "outline": false, "smooth": true},
+  {"type": "ellipse", "x": 90, "y": -128, "rx": 13, "ry": 11, "fill": "#e8dcc4", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 92, "y": -128, "rx": 8, "ry": 8, "fill": "#2a1a10", "width": 3},
+  {"type": "line", "points": [[80, -136], [92, -139], [104, -134]], "width": 4},
+  {"type": "poly", "points": [[122, -116], [130, -116], [127, -110]], "fill": "#7a4a3a", "width": 2},
+  {"type": "curve", "points": [[127, -110], [126, -102], [118, -98]], "width": 2},
+  {"type": "line", "points": [[118, -108], [152, -118]], "width": 1, "color": "#333333"},
+  {"type": "line", "points": [[118, -104], [152, -104]], "width": 1, "color": "#333333"},
+  {"type": "line", "points": [[118, -100], [152, -92]], "width": 1, "color": "#333333"}
+ ]
+}

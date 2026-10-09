@@ -1,0 +1,44 @@
+{
+ "name": "field_guide",
+ "description": "Doug's field guide, closed, upright, cover facing the viewer: battered dark-brown cover with a cream FIELD GUIDE paper label, dog-eared top-right corner, page block edge on the right, red ribbon bookmark out of the bottom. Anchor centre, ~140x180 (ribbon to y +122). Held in Doug's front hand at scale ~0.45.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "book",
+  "field guide",
+  "recurring",
+  "animals playlist"
+ ],
+ "elements": [
+  {"type": "poly", "points": [[-62, -84], [72, -84], [74, 88], [-60, 90]], "width": 4, "color": "#000000", "fill": "#e9dfc2"},
+  {"type": "line", "points": [[66, -70], [72, -70]], "width": 1, "color": "#b9ad8a"},
+  {"type": "line", "points": [[66, -56], [72, -56]], "width": 1, "color": "#b9ad8a"},
+  {"type": "line", "points": [[66, -42], [72, -42]], "width": 1, "color": "#b9ad8a"},
+  {"type": "line", "points": [[66, -28], [72, -28]], "width": 1, "color": "#b9ad8a"},
+  {"type": "line", "points": [[66, -14], [72, -14]], "width": 1, "color": "#b9ad8a"},
+  {"type": "line", "points": [[66, 0], [72, 0]], "width": 1, "color": "#b9ad8a"},
+  {"type": "line", "points": [[66, 14], [72, 14]], "width": 1, "color": "#b9ad8a"},
+  {"type": "line", "points": [[66, 28], [72, 28]], "width": 1, "color": "#b9ad8a"},
+  {"type": "line", "points": [[66, 42], [72, 42]], "width": 1, "color": "#b9ad8a"},
+  {"type": "line", "points": [[66, 56], [72, 56]], "width": 1, "color": "#b9ad8a"},
+  {"type": "line", "points": [[66, 70], [72, 70]], "width": 1, "color": "#b9ad8a"},
+  {"type": "line", "points": [[66, 84], [72, 84]], "width": 1, "color": "#b9ad8a"},
+  {"type": "poly", "points": [[16, 70], [32, 70], [38, 118], [28, 110], [18, 122]], "width": 3, "color": "#000000", "fill": "#d0201b"},
+  {"type": "poly", "points": [[-70, -90], [60, -90], [64, -80], [64, 86], [-70, 86]], "width": 5, "color": "#000000", "fill": "#5b3a22"},
+  {"type": "poly", "points": [[-70, -90], [-54, -90], [-54, 86], [-70, 86]], "width": 4, "color": "#000000", "fill": "#3e2716"},
+  {"type": "line", "points": [[-48, -84], [-48, 80]], "width": 2, "color": "#7a5236"},
+  {"type": "spray", "x": 30, "y": 50, "r": 28, "color": "#7a5236", "density": 0.3},
+  {"type": "spray", "x": -30, "y": -70, "r": 18, "color": "#2e1c10", "density": 0.25},
+  {"type": "spray", "x": -20, "y": 60, "r": 18, "color": "#2e1c10", "density": 0.2},
+  {"type": "poly", "points": [[34, -90], [64, -60], [40, -62]], "width": 4, "color": "#000000", "fill": "#c9a982"},
+  {"type": "poly", "points": [[-42, -54], [56, -56], [56, 6], [-42, 8]], "width": 4, "color": "#000000", "fill": "#fdf6e3"},
+  {"type": "text", "text": "FIELD", "x": 7, "y": -36, "size": 26, "color": "#000000", "boil": 0, "font": "ComicNeue-Bold", "bold": true},
+  {"type": "text", "text": "GUIDE", "x": 7, "y": -10, "size": 26, "color": "#000000", "boil": 0, "font": "ComicNeue-Bold", "bold": true},
+  {"type": "poly", "points": [[-38, 22], [0, 18], [2, 34], [-36, 38]], "width": 2, "color": "#000000", "fill": "#e8dca8"},
+  {"type": "line", "points": [[10, 40], [44, 30]], "width": 2, "color": "#2e1c10"},
+  {"type": "line", "points": [[16, 50], [40, 44]], "width": 2, "color": "#2e1c10"}
+ ]
+}
