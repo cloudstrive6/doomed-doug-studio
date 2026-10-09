@@ -1,5 +1,5 @@
 {
- "at": "2026-10-09T08:01:04+00:00",
+ "at": "2026-10-09T08:01:44+00:00",
  "issues": [
   {
    "key": "schedule_gap",
@@ -9,16 +9,6 @@
    "detail": "{\"uploaded_total\": 10, \"queued\": 2, \"target\": 4, \"phase\": \"launch\", \"in_progress\": [], \"need_episode\": true, \"later_scheduled\": []}",
    "route": "production run",
    "fixed": false,
-   "extra": {}
-  },
-  {
-   "key": "queue_low",
-   "severity": "medium",
-   "owner": "auto",
-   "summary": "Queue 2/4 and no production running: started a production run",
-   "detail": "",
-   "route": "dispatch produce.yml",
-   "fixed": true,
    "extra": {}
   }
  ],
