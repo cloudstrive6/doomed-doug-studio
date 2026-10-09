@@ -31,3 +31,20 @@ looked most at risk (sinkhole count, La Brea buckets, Altamura nasal cavity, ava
    at the final package gate, matching 011's practice.
 
 SCRIPT: APPROVED. Next: director (shotlist), then titler.
+
+## 2026-10-09: art director, asset review PASS (33/33) and rulings on the director's notes
+Full review: `art_review.md`.
+1. **Capless upright Doug in the amber bead (s291-s293): approved one-off.** Doug uses `pose: "wave"` and `gear: ["cap_off"]` inside
+   the bead, and `doug_cap` sits on the bead top, so the cap is visible in every shot. The counter ticks on a living expression (mid-wave)
+   with no `on_back`, because "perfectly preserved" is the scripted death image. This is the "preserved" death variant and does not set
+   a precedent for ordinary deaths.
+2. **Brinicle background: `#1f3a5f` replaced with the surface colour `#3a9ad9`** in s061-s091 (31 shots), and the water speckle spray
+   `#2c4d78` replaced with `#6fc1ee`. The art bible rule (water under sea ice = `#3a9ad9`) applies on every axis, not just depth. The
+   ramp is channel-wide colour language, and a brinicle is a shallow under-ice phenomenon. I edited `shotlist.json` directly. The
+   director must update the generator's `NAVY` constant to match.
+3. **Death beats: confirmed as built.** Every death shows the cap. Cap-only images are used for the canyon, avalanche and glacier, a
+   ghost with cap for the crevasse, buried-to-the-hips `dead` plus ghost for the tar pit, the cap on `rock_lump` for Altamura and the
+   cap on the bead for amber. No `on_back` is needed.
+4. **Real-victim cards: confirmed** (s047-s051, s169-s175: muted, no Doug, no people, no jokes; no skeleton at Altamura).
+
+ART: PASS.

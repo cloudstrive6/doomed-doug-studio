@@ -30,7 +30,9 @@ desert `#f2c77a`, gut/flesh interiors (parasites) `#e79aa0` (cartoon pink, never
 Devonian lagoon `#5b8a86` (brackish), Devonian sea `#3f8fc4`, Permian `#347eae`, Triassic `#2a8a88`, Jurassic `#24797c`,
 Cretaceous `#1f6870` / `#1a5866`, Eocene `#16455c`, Miocene `#112f4f`, ending on `#0a1630` for the boss. Reuse it for any era-axis ocean video.
 Water under sea ice or at any surface scene is still the surface colour `#3a9ad9`. Never borrow a deeper ramp colour for
-"cold" or "dim" water, because it spends the depth shift early (008 s197-s205).
+"cold" or "dim" water, because it spends the depth shift early (008 s197-s205). This holds on every axis (time, duration,
+severity), not only depth episodes, because the ramp is the channel's colour language. In 012, "Antarctic navy" `#1f3a5f` under
+the sea ice was swapped back to `#3a9ad9`, with water speckle `#6fc1ee`. Show cold with the white ice ceiling, not with dark water.
 
 ## Two-tier rendering (style bible 4.3)
 - **Doug and humans: crude** MS Paint stick men: uniform thin lines (Doug's rig: 5 at scale 1 ≈ 4–5 px), big round
@@ -57,7 +59,12 @@ Water under sea ice or at any surface scene is still the surface colour `#3a9ad9
   `sit` pose drops the hip by 70 x scale). Aim flip-flop arrows at the feet, not at y + 200.
 - **Capless upright Doug (from 008)**: `gear: ["cap_off"]` on any non-`on_back` pose simply omits the cap (nothing
   drawn on the ground); head and face unchanged. The cap is his signature, so this is **only for approved one-off
-  exceptions logged in the episode's `decisions.md`** (008 close: tiny capless Doug waving while an orca wears the cap).
+  exceptions logged in the episode's `decisions.md`** (008 close: tiny capless Doug waving while an orca wears the cap; 012 s291-s293:
+  Doug preserved mid-wave inside an amber bead, `ink: "#000000"`, with `doug_cap` sitting on the bead top).
+- **Death images without a body (from 007/012)**: a death beat may show only the cap (canyon, avalanche, glacier), the cap on a prop
+  (`rock_lump`), or the cap next to a clue (the ski tips), as long as the cap is in frame and the counter ticks. The **"preserved" variant**
+  (012 amber) ticks the counter on a living expression because the frozen pose *is* the death image. It is only for entombment
+  traps (amber, ice, mineral), always logged, never for ordinary deaths, which keep `dead` X eyes.
 - **Thumbs up (from 005)**: use `pose: "thumbs_up"` (standing) or `"sit_thumbs_up"` (seated, same hip drop as `sit`).
   The hand point is local (+112, -156) x scale, with the thumb tip about 42 x scale above it, so aim arrows there. Never paste a
   separate hand prop next to Doug, because it reads as off-model. A seated Doug must sit *on* something: put the
