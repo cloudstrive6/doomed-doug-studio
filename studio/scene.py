@@ -56,23 +56,19 @@ def render_still(scene: dict, variant: int = 0, t: float | None = None, seed: st
     return _clean_edges(cv.img, EDGE_PX)
 
 
-# Boil/wobble (style boil_px 1.6 + wobble_px 1.2) can pull full-bleed backgrounds and light rays up to ~3 px in from
-# the canvas border, so the white canvas shows through as a ring that blinks on dark scenes (boil variants 1 and 2;
-# variant 0 is clean, which is why keyframes looked fine). Rebuild a ring deeper than that from the scene itself.
-EDGE_PX = 5
-
-
-def _clean_edges(img, depth: int = EDGE_PX):
-    """Replace the outer `depth`-pixel ring with the row/column just inside it (stretched), top/bottom first, then
-    left/right so the corners come from already-clean rows."""
+def _clean_edges(img, ring=4):
+    """Overwrite the outermost `ring` pixels with the row/column just inside them: background outlines, light rays
+    and boil-shifted shapes (which pull in by up to 2 px) otherwise leave a white line at the canvas border that
+    blinks at cuts on dark scenes."""
     w, h = img.size
-    d = depth
-    if w < 4 * d or h < 4 * d:
+    if w < 4 * ring or h < 4 * ring:
         return img
-    img.paste(img.crop((0, d, w, d + 1)).resize((w, d)), (0, 0))
-    img.paste(img.crop((0, h - d - 1, w, h - d)).resize((w, d)), (0, h - d))
-    img.paste(img.crop((d, 0, d + 1, h)).resize((d, h)), (0, 0))
-    img.paste(img.crop((w - d - 1, 0, w - d, h)).resize((d, h)), (w - d, 0))
+    for i in range(ring):
+        img.paste(img.crop((0, ring, w, ring + 1)), (0, i))
+        img.paste(img.crop((0, h - ring - 1, w, h - ring)), (0, h - 1 - i))
+    for i in range(ring):
+        img.paste(img.crop((ring, 0, ring + 1, h)), (i, 0))
+        img.paste(img.crop((w - ring - 1, 0, w - ring, h)), (w - 1 - i, 0))
     return img
 
 
