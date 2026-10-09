@@ -92,3 +92,32 @@ These are the same files as round 1. All three titles are readable, nothing is c
 
 VERDICT (main): FAIL
 VERDICT (shorts): PASS
+
+# Post-render, round 3
+
+Inputs checked: the re-rendered `build/final.mp4` (05:08 UTC, 961.57 s), with s286 frames pulled at 958.0, 959.5 and 961.0 s (the shot starts at 957.261 s and lasts 4.407 s in `build/timing.json`), plus `build/samples/f_001-f_032.png` (regenerated at 05:12), `build/qc.json` (961.6 s, `problems: []`), `build/thumbnail.png`, `build/thumbnail_small.png`, `metadata.json`, `build/shorts/short01-03_preview.png`, and 5-6 frames from each re-rendered Short mp4, including the end cards.
+
+## s286 re-render (bubble "friend?" at y 262, h 100, tail [1505, 326])
+
+- **Clearance: fixed.** I scanned pixel columns of the frame at 961.0 s. The bottom border of the DOUG DEATHS: 93 box is at y 193-195. The top of the bubble outline is at y 212-214 (x 1530-1590) and y 219-221 near the ends. That leaves about 16-24 px of clear sky between them, and the gap is easy to see at full size. The bubble no longer looks like it hangs from the counter.
+- **Tail: reads as a tail.** It is a clean wedge from the bottom-left of the bubble. It points down-left, and its tip ends just above and right of the cap dome without touching the cap or the brim. It is clear which character is speaking.
+- Nit, not blocking: the tiny stray dot where the tail's right base meets the bubble outline (about x 1560, y 300-305) is still there. You only see it when zoomed in.
+- The rest of the frame is unchanged: ghost Doug, the floating cap on the waterline, the field guide with "???" and "FRIEND?", and the red question mark are all clear and nothing is cropped.
+
+## Rest of the main video
+
+The 32 samples match rounds 1-2. There are no black, frozen or glitched frames. Every chapter label is spelled right and readable. Doug is on-model in every frame. The counter steps correctly from 84 to 93. Nothing is gory, and nothing reads as a kids' show. No regressions.
+
+## Thumbnail
+
+Unchanged. It is the 12-tile severity grid, and at feed size Doug's reaction heads and the animals are still readable. It matches "How Every Deadly Venom Would Kill Doug" without being misleading. PASS.
+
+## Shorts (re-rendered at 05:09-05:10)
+
+- **short01** (48.75 s): the red title is readable. The octopus, fish and the row of Dougs are inside the frame. The subtitles are legible. The end card "WHAT DID DOUG DO? TAP BELOW" has a red arrow pointing down.
+- **short02** (54.36 s): the title is readable. The vipers, terrarium and researcher are not cut off. The subtitles are legible. The end card "ALL 12 VENOMS: TAP BELOW" has a down arrow.
+- **short03** (54.80 s): the title is readable on the dark background. The jellyfish, Australia map and labels are inside the frame. The subtitles are legible. The end card "WHAT HAPPENS NEXT? TAP BELOW" has a down arrow.
+- s286 is not in any Short. No regressions from round 2.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS

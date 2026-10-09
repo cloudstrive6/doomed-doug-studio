@@ -43,3 +43,14 @@ FINAL: APPROVED
 
 - 2026-10-09 Showrunner (final review round 2): QC exit 0, no problems. visual-screener VERDICT (main): FAIL (s286 bubble now touches the "DOUG DEATHS: 93" box, no gap; tail fixed), VERDICT (shorts): PASS. Round 2 allows no further re-render, so not approved. Shotlist s286 already patched per the screener (bubble y262 h100 tail [1505,326]); needs one more final render, then a re-screen. Stage left at built.
 FINAL: REJECTED s286 speech bubble touches death-counter box; fix applied to shotlist, needs one more render
+
+## 2026-10-09: creative director, final package gate (round 3) APPROVED
+1. Condition from my earlier approval is met: the visual screener's round 3 on the re-rendered `build/final.mp4` (961.57 s) measured a 16-24 px sky gap between the "DOUG DEATHS: 93" box (bottom y 193-195) and the s286 bubble top (y 212-221). The tail reads as a tail and points at ghost Doug. VERDICT main PASS, shorts PASS. The stray-dot nit at the tail base is only visible zoomed in, so it does not block.
+2. QC: `build/qc.json` duration 961.6 s, `problems: []`.
+3. Title: "How Every Deadly Venom Would Kill Doug" is unchanged and the promise holds (9 sourced-venom deaths, 3 survivals framed openly).
+4. Thumbnail (`build/thumbnail.png`): unchanged since approval. The 4x3 severity grid, Doug's worsening face, and the box jellyfish alone on the darkest tile all read. No gore, no title words in labels. I would click it.
+5. Description: unchanged and clean. It has the hook, one comment prompt, one CTA, 6 sources, the not-medical-advice disclaimer, the AI disclosure and 3 hashtags. No first aid.
+6. Chapters (`build/chapters.txt`): 13 entries from 0:00, all 10 s or longer, in script order, and the names match the thumbnail labels (truncation exception as recorded).
+7. First 60 s: f_001 (SPARE PARTS, beaver/duck arrows), f_002 (1992 Australia case, Doug with the field guide) and f_003-f_004 (bullet ant, bandaged hand) all have DOUG DEATHS: 84 on screen and change visuals quickly. The script opening names "Platypus." at word 33 and lands the morphine twist at about 41 s. No regressions.
+8. Series bible: the 010 log row status is updated (QC clean, awaiting scheduled upload). Counter total 93 is already recorded, and the next episode starts at 93.
+FINAL: APPROVED
