@@ -7,7 +7,8 @@
    "summary": "No long video scheduled for Tue 13 Oct 5:00 AM NZDT",
    "owner": "auto",
    "severity": "medium",
-   "agent_at": "2026-10-09T01:01:51+00:00"
+   "agent_at": "2026-10-09T01:01:51+00:00",
+   "resolved": "2026-10-09T15:01:55+00:00"
   },
   "queue_low": {
    "first_seen": "2026-10-09T08:01:04+00:00",
