@@ -224,3 +224,19 @@ VERDICT: FAIL (one small fix; everything else passes)
    because its tail would hit the outline again. Re-render s001 with the thumbnail as already routed.
 
 Routing: graphic designer (fix 1), then visual screener (cat/label gap only), then creative director.
+
+## Round 7: thumbnail bottom-label re-check (2026-10-09)
+
+VERDICT: PASS
+
+### Round 6 fix verified (labels at y 690)
+- **"House Cat" vs cat:** the cat's lowest pixels (haunch, x 716-720) end at y 676, and the label tops start at y 679. That
+  leaves 2 empty rows. The closest label pixels are the "H" stem at x 692-700, which does not sit directly under the
+  haunch. The claw pixels end at y 675 (x ≤ 803). At 1280 and at 2x zoom there is a visible yellow gap with no contact.
+- **"Goose":** the feet end at y 670 and the label starts at y 679, so 8 rows are clear.
+- **"Kangaroo":** the tail ends at y 671 and the label starts at y 679, so 7 rows are clear. The "g" descender ends at y 709 and
+  the band's bottom outline starts at y 713, so 3 rows are clear. Every other label bottom is at y 703.
+- **Overall:** the shared baseline holds across all three labels and Doug has no label. The upper three tiers are unchanged from
+  Round 6 (all PASS). Nothing touches or is cropped at 1280 px.
+
+No fixes. Routing: creative director (package approval).
