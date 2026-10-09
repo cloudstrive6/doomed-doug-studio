@@ -197,3 +197,30 @@ VERDICT: FAIL (one small required fix; everything else passes)
   Every animal shown is a chapter and there is no hippo, so it is not misleading.
 
 Routing: graphic designer (fix 1), then visual screener re-check of the bottom tier only, then creative director.
+
+## Round 6: thumbnail bottom-tier re-check (2026-10-09)
+
+VERDICT: FAIL (one small fix; everything else passes)
+
+### Round 5 fix verified
+- **Bottom-row clipping is fixed.** The yellow band's top outline runs y 553-559. The highest drawn pixels are now: goose wing
+  tip y 566, cat tail tip y 565, kangaroo ear tips y 565 and Doug's cap y 565. All are at or below the y 565 target and none
+  is cut flat. At 3x zoom the goose's raised far wing is whole with a ragged primary edge, the cat's tail ends in a rounded
+  tip and both kangaroo ears are complete.
+- **Goose to "Goose":** 6 px clear (feet at y 670, label from y 677). **Kangaroo tail to "Kangaroo":** 5 px clear (tail at
+  y 671, label from y 677). **Doug:** no label, and the gloves and feet are clear.
+- **Feed size (320 / 168):** the bottom row reads the same as in Round 5. The goose (wings up), the orange cat and the brown
+  kicking kangaroo are recognisable at 320 px. At 168 px the tier still carries the pyramid and colour ramp. Nothing
+  regressed in the upper three tiers, and their labels, clearances and frame-breaking heads are unchanged.
+
+### Required fix
+1. **Graphic designer: "House Cat" now almost touches the cat.** Moving the cat down 6 px (y 673, scale 0.362) closed the gap
+   to its label. The front paw's claw/scratch pixels end at y 675 (x about 802) and the top of the "C" starts at y 677
+   (x 802-812). That leaves 1 empty row (2 px), and the haunch at about x 712-720 ends at y 676, right above the "H"
+   stem. At 1280, and after s001 is compressed at 1080p, this looks like contact. Fix: in `thumbnail.json`
+   (via `gen_tiers.py`), move all three bottom labels "Goose", "House Cat" and "Kangaroo" from y 688 to y 692, so
+   their baseline stays shared. Label bottoms move to about y 705-708, still 5 px or more above the bottom outline at y 713. Then the
+   cat has about 6 px of clearance, the goose about 11 px and the kangaroo about 10 px. Do not move the cat back up,
+   because its tail would hit the outline again. Re-render s001 with the thumbnail as already routed.
+
+Routing: graphic designer (fix 1), then visual screener (cat/label gap only), then creative director.
