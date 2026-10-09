@@ -30,3 +30,49 @@ Three required fixes, all small: one continuity break that undercuts a narrated 
 9. **s217 (art director, optional):** the red-speckle threat aura behind the bear silhouette is denser than the cassowary's (s103). It is fine at full size, but at small size it could read as a red spray. Consider dropping its density or tinting it toward grey-red.
 
 Routing: fixes 1-4 and 6-8 go to the director (shotlist edits, then re-key s025, s026, s028, s052, s137, s208, s230-s233, s266, s274-s278). Fix 5 goes to the director, plus the illustrator only if new assets are wanted. Fix 9 goes to the art director. Re-screen only the re-keyed shots in round 2.
+
+## Round 2: re-keyed shots (2026-10-09)
+
+Scope: the 20 re-rendered shots on `build/contact/sheet_01..02.png` (s025, s026, s028, s052, s055, s083, s123, s137, s146, s154, s189,
+s207, s208, s209, s217, s232, s264, s266, s275, s277), with full-res checks of s025, s028, s052, s123, s137, s154, s189, s208, s232, s275 and s277.
+I also checked continuity against `shotlist.json` (s024-s027 Doug gear and goose asset; s274-s279 narration).
+
+VERDICT: FAIL
+
+All of the round-1 fixes landed. Two small new defects in re-keyed shots block the pass: a text collision (s154) and a stray line on Doug in the new
+s232 close-up. Each one is a one-element shotlist edit. Re-key s154 and s232 only.
+
+### Round-1 fixes: verified
+- **1. s025/s026 goose continuity: fixed.** Doug has `cap_off` and the goose is `canada_goose_cap` in s024, s025 and s026. The cap returns at the s027 chapter
+  card. s025 is down to 2 labels (POND on the pond, DIGNITY + LAST WORD). The goose's cap is small at 1080p but it reads as red on the head, and it matches s021-s024.
+- **2. s208 label collision: fixed.** The 27 FATAL box bottom is at about y 703 and Doug's cap top at about y 745, so they are clear.
+- **3a. s274-s278 variety: fixed.** s275 is now a head-and-ears close-up that fills the frame, with small Doug bottom-left and white sound arcs going toward the elephant.
+  "Listened very carefully" reads in 1 s. s277 is a tighter two-shot: large smiling Doug, a green tick over him, and the elephant at 1.1 scale. It reads as
+  "Doug really is harmless: correct", which sets up "It did not matter" (s278) and the s279 death. The run is now wide / close / wide / two-shot / wide.
+- **3b. s230-s233 variety: fixed.** s232 is a 2.6x push-in on the bear's head with tiny shocked Doug left, so it breaks the run. See fix 2 below for one new problem.
+- **4. s028: fixed.** The cat sits at the bottom-left of the card, well clear of "MOST CONFIDENT".
+- **5. s083: fixed.** There is one label, "MOOSE + ELK + BISON", over the moose.
+- **6. s052: fixed.** The red arrow tip stops about 25 px above the red figure's head and reads as a pointer.
+- **7. s266: fixed.** The high-pitch red wave is now above the black MEN wave, with an up arrow between them that agrees with "PITCH UP".
+- **8. s137: fixed.** The 27 KG suitcase rides on the chimp's back.
+- **9. s217: fixed.** The threat aura behind the silhouette is now a sparse grey speckle and no longer reads as red spray.
+- **Art-director shots, also clean:** s055 (FEMALE / MALE 2x, 2 labels), s123 (bag tipped on the ground, seeds spilling, label upright), s146 (blue dots,
+  10th chimp unmarked, nothing reads as blood), s189 (cream diagram, croc and car on separate baselines, 6 M line clear, about 150 px gap), s209 (about 100 px of
+  sand between snout and Doug), s264 (BOYS clear of the sun), s207 (2 labels plus map, clean).
+- **Policy:** no gore and no kids-show tone in any re-keyed shot. The s232 bear is a neutral side-on head with no open mouth.
+
+### Required fixes
+1. **s154 (director): cap over the citation.** The `doug_cap` asset at (800, 745) sits on the white "PNAS 2017" card and covers the "NA" of "PNAS". This was
+   present in round 1 and I missed it. It is text overlapped by a drawing. Change: move the cap onto the log next to the card, at about x 960, y 790
+   (scale 0.35, sitting on the log top), or move the card to x 520 and keep the cap where it is. Check that no part of the cap touches the card.
+2. **s232 (director): stray line on Doug.** The ice-crack line `[[200, 820], [420, 812]]` starts exactly at Doug's cap brim (Doug is at x 170, scale 0.4).
+   It reads as a long pole sticking out of his cap or face. Change: delete that line, or move it to `[[330, 960], [560, 952]]`, clear of Doug.
+
+### Recommended (not blocking)
+3. **s232 (illustrator/director):** at 2.6x the `polar_bear` asset shows two artefacts: the near foreleg's black outline pokes above the chest line as a
+   small spike (about x 1355, y 810), and the grey far-leg stroke crosses the body diagonally (about x 1565,670 to 1460,960) like a crease. At this
+   scale it reads as a stray line. Moving the bear will not hide it, because the spike sits mid-frame. The fix is in the asset: the illustrator
+   ends the foreleg outline at the chest line. The grey stroke can stay. It is invisible at the asset's normal 0.85 scale, so this does not block s232.
+4. **s277 (director, optional):** the green tick at (494-626, 400-520) floats in the sky band. It would tie to Doug more clearly about 60 px lower, nearer his head.
+
+Routing: fixes 1-2 go to the director (re-key s154 and s232). Fix 3 is optional and goes to the illustrator (`polar_bear` asset). Fix 4 is optional and goes to the director. In round 3 I will re-screen only s154 and s232.

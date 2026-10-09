@@ -156,3 +156,38 @@ None. All the library drawings render on-model at every scale used.
 - Director: fixes 1-10, then re-render with `python -m studio keyframes 011-every-animal-fight --shots s025,s055,s083,s123,s146,s154,s189,s208,s209,s264`.
 - Illustrator: nothing.
 - Art bible: I added the text-in-rotated-assets rule (Text section) from s123.
+
+---
+
+## Keyframe review, round 2 (art director, 2026-10-09)
+
+Scope: the 20 re-keyed shots (`build/contact/sheet_01..02.png`): s025, s026, s028, s052, s055, s083, s123, s137, s146, s154, s189, s207,
+s208, s209, s217, s232, s264, s266, s275, s277. I also checked full-res crops of s052, s123, s154 and s232.
+
+### Verdict: PASS
+
+All 10 of my round-1 fixes are done, and so are the composition items from the visual screener's round 1 that touch my gate.
+
+| # | Shot | Round-1 fix | Result |
+|---|---|---|---|
+| 1 | s189 | car must not touch croc | PASS. Option B, cream diagram: the croc and the car sit on separate baselines with clear space between them, and the dashed 6 M line is shared. It reads as a length comparison. |
+| 2 | s123 | no rotated bag | PASS. The bag is tipped about 15 degrees on the ground at Doug's feet with seeds spilling out, and the BIRDSEED label is upright and legible. The "?" is kept. |
+| 3 | s264 | BOYS off the sun | PASS. The label sits beside the loudspeaker, below the horizon and clear of the sun. |
+| 4 | s208 | label on Doug's cap | PASS. 87 ATTACKS and 27 FATAL are raised, and the cap is fully clear of the boxes. |
+| 5 | s209 | Doug in the jaws | PASS. There is clear ground between the snout and Doug. MUCH BIGGER plus the red length line reads well. |
+| 6 | s154 | lime on green | PASS. EVERYTHING ELSE sits fully on the blue-grey sky, above the hill line (crop checked), and the ghost Doug is separate. |
+| 7 | s146 | red dots | PASS. The dots are blue `#3a8fd6` and the 10th chimp is unmarked. It no longer reads as blood. |
+| 8 | s025 | 3 labels | PASS. There are 2 labels: POND on the pond and DIGNITY + LAST WORD. |
+| 9 | s055 | 3 labels | PASS. FEMALE and MALE 2x, with no wordart. |
+| 10 | s083 | 3 labels | PASS. One label, MOOSE + ELK + BISON, sits above the moose and clears the antlers. |
+
+Visual-screener items I re-checked for style and layout:
+- s025/s026 goose continuity: Doug is capless and the goose wears the cap in both shots. **I extend the capless-upright exception from s021-s024 to s025-s026** under the same conditions: the capped goose is in frame, it is a survival beat, and the cap returns at s027. This is logged in `decisions.md`.
+- s028: the cat now clears MOST CONFIDENT. s052: the arrow stops about 20 px above the red figure's head, so there is no spike read (crop checked). s137: the 27 KG suitcase rides on the chimp's back. s266: the high wave is above the low one, with an up arrow under PITCH UP.
+- s217: the threat aura is now sparse and grey-red, about the same density as the cassowary in s103. It no longer reads as spray. My optional fix 9 is closed.
+- s232: the push-in on the bear's head with small Doug breaks the s230-s233 run. The bear's head is on-model and the ear and eye read.
+- s275/s277: s275 is a huge frontal close-up with Doug small and sound arcs. s277 is a tight two-shot with a green tick. The s274-s278 run now alternates wide / close / wide / two-shot / wide, so the s278 to s279 death cut still lands.
+
+Consistency: Doug is on-model in all 20 shots. The zone colours match each item set (goose pond, cat wall, kangaroo dune, wolf night, rainforest, chimp forest, cream diagrams, polar ice, elephant dusk). The counter values are unchanged and correct (93/94/95/96/97/98/99). All text is inside the safe area, and every shot has at most 2 labels or wordart. There is no gore.
+
+Routing: nothing for the director or the illustrator. Stage can move to `art_approved`, pending the visual screener's own round 2.

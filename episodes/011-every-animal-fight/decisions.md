@@ -14,3 +14,7 @@
 3. Not an exception: s072/s073/s243/s244 use `cap_off` on `on_back`, which is the standard knocked-off-cap death pose.
 4. No `chest_beat` pose is added. `["hands_hips", "think"]` stands for s177-s178.
 5. Asset gate: all 41 new assets are APPROVED (`art_review.md`). Small AD fixes went into the library: the elephant brows (front and side) were changed from a frown to attentive, and the croc spray haloes were tightened, with `croc_log` and `croc_log_eye` kept identical.
+
+## 2026-10-09: art director, capless upright Doug extended to s025-s026; keyframes round 2 PASS
+1. Following the visual screener's continuity fix 1, s025-s026 now keep Doug `cap_off` with `canada_goose_cap` in frame. The s021-s024 exception is extended to these two shots under the same conditions: the capped goose is in frame, it is a survival beat, and the cap returns at the s027 House Cat card.
+2. Keyframe round 2: all 20 re-keyed shots PASS (`art_review.md`).
