@@ -158,3 +158,12 @@ Closer Doug Gets".
   that ships.
 
 VERDICT: PASS
+
+## Post-render, 2026-10-09
+Full report: `reviews/visual_review_postrender.md`.
+
+1. **s194, s221, s248, s249 (director):** the zoom-in crops the death counter. Set `camera.x` to 960.
+2. **s251 (director):** the arrowhead is hidden behind the field guide, leaving a red streak in the water. Delete the arrow, or redraw it from the cap, after the guide, in black.
+
+VERDICT (main): FAIL
+VERDICT (shorts): FAIL (short03 inherits the s194 crop)
