@@ -1,5 +1,16 @@
 {
- "at": "2026-10-09T15:34:37+00:00",
- "issues": [],
+ "at": "2026-10-09T16:01:35+00:00",
+ "issues": [
+  {
+   "key": "related_pending",
+   "severity": "low",
+   "owner": "owner",
+   "summary": "3 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "detail": "Megalodon Ate the Predators That Ate Other Predators -> What Dying in Every Prehistoric Ocean Would Be Like\nHelicoprion's Tooth Spiral Took 114 Years to Figure Out -> What Dying in Every Prehistoric Ocean Would Be Like\nThis Prehistoric Fish Probably Died From Its Own Dinner -> What Dying in Every Prehistoric Ocean Would Be Like",
+   "route": "",
+   "fixed": false,
+   "extra": {}
+  }
+ ],
  "resolved_since_last": []
 }

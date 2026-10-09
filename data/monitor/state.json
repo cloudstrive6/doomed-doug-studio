@@ -18,6 +18,15 @@
    "owner": "auto",
    "severity": "medium",
    "resolved": "2026-10-09T08:01:04+00:00"
+  },
+  "related_pending": {
+   "first_seen": "2026-10-09T16:01:35+00:00",
+   "agent_attempts": 0,
+   "last_seen": "2026-10-09T16:01:35+00:00",
+   "summary": "3 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "owner": "owner",
+   "severity": "low",
+   "alerted_at": "2026-10-09T16:01:35+00:00"
   }
  }
 }
