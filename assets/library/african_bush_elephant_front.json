@@ -75,11 +75,11 @@
     {"type": "ellipse", "x": 20, "y": -34, "rx": 18, "ry": 10, "fill": "#6e6e6e", "width": 3, "color": "#000000"},
     {"type": "ellipse", "x": 104, "y": -600, "rx": 8, "ry": 7, "fill": "#ffffff", "width": 3, "color": "#000000"},
     {"type": "ellipse", "x": 104, "y": -599, "rx": 4, "ry": 5, "fill": "#000000", "width": 0, "color": "#000000", "outline": false},
-    {"type": "line", "points": [[80, -612], [128, -618]], "width": 5, "color": "#000000"},
+    {"type": "curve", "points": [[80, -616], [104, -624], [128, -616]], "width": 4, "color": "#3a3a3a"},
     {"type": "curve", "points": [[86, -586], [104, -582], [122, -588]], "width": 2, "color": "#555555"},
     {"type": "ellipse", "x": -104, "y": -600, "rx": 8, "ry": 7, "fill": "#ffffff", "width": 3, "color": "#000000"},
     {"type": "ellipse", "x": -104, "y": -599, "rx": 4, "ry": 5, "fill": "#000000", "width": 0, "color": "#000000", "outline": false},
-    {"type": "line", "points": [[-80, -612], [-128, -618]], "width": 5, "color": "#000000"},
+    {"type": "curve", "points": [[-80, -616], [-104, -624], [-128, -616]], "width": 4, "color": "#3a3a3a"},
     {"type": "curve", "points": [[-86, -586], [-104, -582], [-122, -588]], "width": 2, "color": "#555555"}
   ]
 }

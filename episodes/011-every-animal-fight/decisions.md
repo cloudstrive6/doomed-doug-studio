@@ -7,3 +7,10 @@
 6. Best lines: "the British have met more geese", "slightly tougher than a rat", "Nobody had told the other four about the poll", "They go looking for a sure one", "It did not matter." The elephant voice study is the strongest boss twist we have had in `animals`.
 7. Title promise holds for "Every Animal Doug Could Beat in a Fight, Until He Dies": two technical wins, one non-fight, then deaths up to 100. Titler: T7 test as per the brief, no "?", and the description disclaimer "Entertainment and education only. Do not approach wild animals."
 8. Series bible: add the 011 log row at QC (deaths 93 to 100, the first time we reach 100). New lore at that point: the field guide's "WIN?" box, and the once-only inversion "Doug agreed to this. He would like that noted." Don't reuse it.
+
+## 2026-10-09: art director, capless upright Doug one-off APPROVED (s021-s024)
+1. Exception granted under the art bible's "Capless upright Doug" rule: in s021-s024 Doug sits dazed (`sit` / `sit_thumbs_up`) with `gear: ["cap_off"]` while `canada_goose_cap` wears his cap. This is the script's "took the cap" beat.
+2. Conditions: the goose wearing the cap must be in frame in every capless shot (it is in all four). The cap is back on Doug at s025. This is a survival beat, never a death beat, and nothing is changed on the head or face.
+3. Not an exception: s072/s073/s243/s244 use `cap_off` on `on_back`, which is the standard knocked-off-cap death pose.
+4. No `chest_beat` pose is added. `["hands_hips", "think"]` stands for s177-s178.
+5. Asset gate: all 41 new assets are APPROVED (`art_review.md`). Small AD fixes went into the library: the elephant brows (front and side) were changed from a frown to attentive, and the croc spray haloes were tightened, with `croc_log` and `croc_log_eye` kept identical.

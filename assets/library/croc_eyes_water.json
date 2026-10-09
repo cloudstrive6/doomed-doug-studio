@@ -4,8 +4,8 @@
   "anchor": [0, 0],
   "tags": ["creature", "reptile", "crocodile", "saltwater crocodile", "predator", "011", "ambush", "water"],
   "elements": [
-    {"type": "spray", "x": 40, "y": 16, "r": 60, "color": "#5a4028", "density": 0.35},
-    {"type": "spray", "x": -140, "y": 14, "r": 70, "color": "#5a4028", "density": 0.25},
+    {"type": "spray", "x": 40, "y": 44, "r": 40, "color": "#5a4028", "density": 0.35},
+    {"type": "spray", "x": -140, "y": 44, "r": 40, "color": "#5a4028", "density": 0.25},
     {"type": "poly", "points": [[-266, 4], [-260, -8.4], [-250, -12], [-240, -8.4], [-234, 4]], "fill": "#4a4d2c", "width": 4, "color": "#000000", "smooth": true},
     {"type": "line", "points": [[-254, -7], [-246, -7]], "width": 2, "color": "#6f7244"},
     {"type": "poly", "points": [[-228, 4], [-222, -12.6], [-212, -18], [-202, -12.6], [-196, 4]], "fill": "#4a4d2c", "width": 4, "color": "#000000", "smooth": true},

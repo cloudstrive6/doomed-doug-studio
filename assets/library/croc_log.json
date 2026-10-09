@@ -30,7 +30,7 @@
     {"type": "curve", "points": [[168, -85.0], [190, -91.0], [208, -87.0]], "width": 3, "color": "#5a4e34", "wobble": 0, "boil": 0},
     {"type": "curve", "points": [[212, -85.0], [234, -91.0], [252, -87.0]], "width": 3, "color": "#5a4e34", "wobble": 0, "boil": 0},
     {"type": "curve", "points": [[256, -85.0], [278, -91.0], [296, -87.0]], "width": 3, "color": "#5a4e34", "wobble": 0, "boil": 0},
-    {"type": "spray", "x": -60, "y": -40, "r": 70, "color": "#5a4e34", "density": 0.15, "wobble": 0, "boil": 0},
+    {"type": "spray", "x": -60, "y": -56, "r": 52, "color": "#5a4e34", "density": 0.15, "wobble": 0, "boil": 0},
     {"type": "spray", "x": 200, "y": -90, "r": 50, "color": "#5a4e34", "density": 0.15, "wobble": 0, "boil": 0},
     {"type": "poly", "points": [[-450, -14], [-380, -34], [-260, -70], [-120, -120], [0, -146], [120, -142], [220, -126], [290, -116], [330, -128], [370, -112], [410, -74], [452, -46], [458, -22], [420, -8], [300, -4], [100, 0], [-200, 0], [-430, -2]], "fill": null, "width": 5, "color": "#000000", "smooth": true, "wobble": 0, "boil": 0},
     {"type": "curve", "points": [[300, -40], [380, -36], [440, -28]], "width": 3, "color": "#5a4e34", "wobble": 0, "boil": 0},
