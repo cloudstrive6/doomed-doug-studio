@@ -109,15 +109,15 @@
       "type": "asset",
       "name": "world_map",
       "x": 960,
-      "y": 640,
-      "scale": 0.9
+      "y": 590,
+      "scale": 0.8
      },
      {
       "type": "ellipse",
-      "x": 1062.0,
-      "y": 656.0,
-      "rx": 150,
-      "ry": 190,
+      "x": 1050.7,
+      "y": 604.2,
+      "rx": 133,
+      "ry": 169,
       "color": "#e0201b",
       "width": 8
      },
@@ -125,16 +125,16 @@
       "type": "curve",
       "points": [
        [
-        1052.0,
-        716.0
+        1041.8,
+        657.6
        ],
        [
-        858.0,
-        504.0
+        869.3,
+        469.1
        ],
        [
-        664.0,
-        624.0
+        696.9,
+        575.8
        ]
       ],
       "color": "#e0201b",
@@ -147,8 +147,8 @@
      },
      {
       "type": "doug",
-      "x": 664.0,
-      "y": 578.4,
+      "x": 696.9,
+      "y": 535.2,
       "scale": 0.3,
       "pose": "arms_up",
       "expression": "hopeful",
@@ -159,7 +159,7 @@
       "type": "wordart",
       "text": "AS FAR AS HE COULD",
       "x": 960,
-      "y": 1010,
+      "y": 965,
       "size": 72,
       "boil": 0,
       "appear": 0.55
@@ -7345,552 +7345,18 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 600,
-      "fill": "#8fd3ff",
-      "color": "#8fd3ff",
+      "h": 1080,
+      "fill": "#f6ecd2",
+      "color": "#f6ecd2",
       "width": 0,
       "outline": false,
       "boil": 0
-     },
-     {
-      "type": "circle",
-      "x": 230,
-      "y": 190,
-      "r": 62,
-      "fill": "#ffe24a",
-      "color": "#e0a000",
-      "width": 5
-     },
-     {
-      "type": "ellipse",
-      "x": 660,
-      "y": 210,
-      "rx": 120,
-      "ry": 40,
-      "color": "#ffffff",
-      "width": 1,
-      "fill": "#ffffff"
-     },
-     {
-      "type": "ellipse",
-      "x": 750,
-      "y": 190,
-      "rx": 90,
-      "ry": 46,
-      "color": "#ffffff",
-      "width": 1,
-      "fill": "#ffffff"
-     },
-     {
-      "type": "ellipse",
-      "x": 1080,
-      "y": 300,
-      "rx": 120,
-      "ry": 40,
-      "color": "#ffffff",
-      "width": 1,
-      "fill": "#ffffff"
-     },
-     {
-      "type": "ellipse",
-      "x": 1170,
-      "y": 280,
-      "rx": 90,
-      "ry": 46,
-      "color": "#ffffff",
-      "width": 1,
-      "fill": "#ffffff"
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        -40,
-        540
-       ],
-       [
-        300,
-        500
-       ],
-       [
-        700,
-        530
-       ],
-       [
-        1100,
-        495
-       ],
-       [
-        1500,
-        530
-       ],
-       [
-        1960,
-        505
-       ],
-       [
-        1960,
-        600
-       ],
-       [
-        -40,
-        600
-       ]
-      ],
-      "fill": "#6fb24f",
-      "color": "#2e6b2a",
-      "width": 4,
-      "smooth": true
-     },
-     {
-      "type": "rect",
-      "x": 0,
-      "y": 575,
-      "w": 1920,
-      "h": 175,
-      "fill": "#9a7a4a",
-      "color": "#9a7a4a",
-      "width": 0,
-      "outline": false,
-      "boil": 0
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        0,
-        576
-       ],
-       [
-        1920,
-        576
-       ]
-      ],
-      "color": "#5a4a2a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        120,
-        620
-       ],
-       [
-        300,
-        620
-       ]
-      ],
-      "color": "#c4a77a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        820,
-        700
-       ],
-       [
-        1010,
-        700
-       ]
-      ],
-      "color": "#c4a77a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1400,
-        640
-       ],
-       [
-        1580,
-        640
-       ]
-      ],
-      "color": "#c4a77a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        500,
-        720
-       ],
-       [
-        640,
-        720
-       ]
-      ],
-      "color": "#c4a77a",
-      "width": 4
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        -40,
-        760
-       ],
-       [
-        240,
-        748
-       ],
-       [
-        520,
-        762
-       ],
-       [
-        900,
-        746
-       ],
-       [
-        1300,
-        762
-       ],
-       [
-        1700,
-        748
-       ],
-       [
-        1960,
-        758
-       ],
-       [
-        1960,
-        1120
-       ],
-       [
-        -40,
-        1120
-       ]
-      ],
-      "fill": "#7cc25a",
-      "color": "#000000",
-      "width": 5,
-      "smooth": true
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        78,
-        830
-       ],
-       [
-        70,
-        800
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        90,
-        830
-       ],
-       [
-        92,
-        794
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        102,
-        830
-       ],
-       [
-        112,
-        802
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        748,
-        830
-       ],
-       [
-        740,
-        800
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        760,
-        830
-       ],
-       [
-        762,
-        794
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        772,
-        830
-       ],
-       [
-        782,
-        802
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1168,
-        830
-       ],
-       [
-        1160,
-        800
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1180,
-        830
-       ],
-       [
-        1182,
-        794
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1192,
-        830
-       ],
-       [
-        1202,
-        802
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1608,
-        830
-       ],
-       [
-        1600,
-        800
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1620,
-        830
-       ],
-       [
-        1622,
-        794
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1632,
-        830
-       ],
-       [
-        1642,
-        802
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        388,
-        1000
-       ],
-       [
-        380,
-        970
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        400,
-        1000
-       ],
-       [
-        402,
-        964
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        412,
-        1000
-       ],
-       [
-        422,
-        972
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1438,
-        1000
-       ],
-       [
-        1430,
-        970
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1450,
-        1000
-       ],
-       [
-        1452,
-        964
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1462,
-        1000
-       ],
-       [
-        1472,
-        972
-       ]
-      ],
-      "color": "#2e8b3a",
-      "width": 5
-     },
-     {
-      "type": "asset",
-      "name": "hippo_waterline",
-      "x": 300,
-      "y": 650,
-      "scale": 0.4
-     },
-     {
-      "type": "asset",
-      "name": "hippo_waterline",
-      "x": 560,
-      "y": 690,
-      "scale": 0.4
-     },
-     {
-      "type": "asset",
-      "name": "hippo_waterline",
-      "x": 820,
-      "y": 660,
-      "scale": 0.4
-     },
-     {
-      "type": "asset",
-      "name": "hippo_waterline",
-      "x": 1080,
-      "y": 700,
-      "scale": 0.4
-     },
-     {
-      "type": "asset",
-      "name": "hippo_waterline",
-      "x": 1340,
-      "y": 650,
-      "scale": 0.4
-     },
-     {
-      "type": "asset",
-      "name": "hippo_waterline",
-      "x": 1600,
-      "y": 690,
-      "scale": 0.4
      },
      {
       "type": "label",
-      "text": "2023",
-      "x": 300,
-      "y": 400,
+      "text": "LATE 2023",
+      "x": 960,
+      "y": 320,
       "size": 60,
       "bold": true,
       "boil": 0.4,
@@ -7900,18 +7366,82 @@
       "type": "label",
       "text": "169",
       "x": 960,
-      "y": 400,
-      "size": 110,
+      "y": 520,
+      "size": 160,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.6
      },
      {
-      "type": "doug",
+      "type": "asset",
+      "name": "hippo_waterline",
+      "x": 450,
+      "y": 760,
+      "scale": 0.42,
+      "appear": 0.1
+     },
+     {
+      "type": "asset",
+      "name": "hippo_waterline",
+      "x": 600,
+      "y": 760,
+      "scale": 0.42,
+      "appear": 0.16
+     },
+     {
+      "type": "asset",
+      "name": "hippo_waterline",
+      "x": 750,
+      "y": 760,
+      "scale": 0.42,
+      "appear": 0.22
+     },
+     {
+      "type": "asset",
+      "name": "hippo_waterline",
+      "x": 900,
+      "y": 760,
+      "scale": 0.42,
+      "appear": 0.28
+     },
+     {
+      "type": "asset",
+      "name": "hippo_waterline",
+      "x": 1050,
+      "y": 760,
+      "scale": 0.42,
+      "appear": 0.34
+     },
+     {
+      "type": "asset",
+      "name": "hippo_waterline",
+      "x": 1200,
+      "y": 760,
+      "scale": 0.42,
+      "appear": 0.4
+     },
+     {
+      "type": "asset",
+      "name": "hippo_waterline",
+      "x": 1350,
+      "y": 760,
+      "scale": 0.42,
+      "appear": 0.46
+     },
+     {
+      "type": "asset",
+      "name": "hippo_waterline",
       "x": 1500,
-      "y": 893.8,
-      "scale": 0.6,
+      "y": 760,
+      "scale": 0.42,
+      "appear": 0.52
+     },
+     {
+      "type": "doug",
+      "x": 220,
+      "y": 907.5,
+      "scale": 0.55,
       "pose": "hands_hips",
       "expression": "smirk",
       "facing": "right"
@@ -7919,9 +7449,9 @@
      {
       "type": "asset",
       "name": "doug_sunglasses",
-      "x": 1500,
-      "y": 893.8,
-      "scale": 0.6
+      "x": 220,
+      "y": 907.5,
+      "scale": 0.55
      },
      {
       "type": "label",
@@ -12383,7 +11913,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 1 km",
+      "text": "DISTANCE TO HIPPO: 11,000 km",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -12759,8 +12289,8 @@
      {
       "type": "label",
       "text": "MOZAMBIQUE",
-      "x": 960,
-      "y": 470,
+      "x": 1250,
+      "y": 350,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -12810,12 +12340,12 @@
       "type": "line",
       "points": [
        [
-        520,
-        640
+        540,
+        700
        ],
        [
-        1260,
-        650
+        1180,
+        690
        ]
       ],
       "color": "#000000",
@@ -12829,8 +12359,8 @@
      {
       "type": "label",
       "text": "1 KM",
-      "x": 890,
-      "y": 580,
+      "x": 1250,
+      "y": 440,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -13698,12 +13228,12 @@
       "type": "line",
       "points": [
        [
-        520,
-        640
+        540,
+        700
        ],
        [
-        1260,
-        650
+        1180,
+        690
        ]
       ],
       "color": "#000000",
@@ -13717,8 +13247,8 @@
      {
       "type": "label",
       "text": "1.6 KM",
-      "x": 890,
-      "y": 540,
+      "x": 1250,
+      "y": 400,
       "size": 56,
       "bold": true,
       "boil": 0.4,
@@ -14799,7 +14329,7 @@
      },
      {
       "type": "doug",
-      "x": 1240,
+      "x": 1120,
       "y": 924.0,
       "scale": 0.5,
       "pose": "think",
@@ -15006,16 +14536,6 @@
       "x": 770,
       "y": 640,
       "scale": 0.32
-     },
-     {
-      "type": "label",
-      "text": "OWN GROUP",
-      "x": 680,
-      "y": 830,
-      "size": 42,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
      },
      {
       "type": "rect",
@@ -15237,16 +14757,6 @@
       "x": 770,
       "y": 640,
       "scale": 0.32
-     },
-     {
-      "type": "label",
-      "text": "OWN GROUP",
-      "x": 680,
-      "y": 830,
-      "size": 42,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
      },
      {
       "type": "rect",
@@ -17563,7 +17073,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 300 m",
+      "text": "DISTANCE TO HIPPO: 1 km",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -18110,7 +17620,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 300 m",
+      "text": "DISTANCE TO HIPPO: 1 km",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -22588,9 +22098,9 @@
      {
       "type": "asset",
       "name": "hippo_grazing",
-      "x": 900,
-      "y": 980,
-      "scale": 1.0
+      "x": 500,
+      "y": 1040,
+      "scale": 1.6
      },
      {
       "type": "line",
@@ -22730,8 +22240,8 @@
      {
       "type": "text",
       "text": "munch",
-      "x": 1500,
-      "y": 760,
+      "x": 1260,
+      "y": 860,
       "size": 54,
       "color": "#fff3b0",
       "bold": true,
@@ -22743,8 +22253,8 @@
      {
       "type": "text",
       "text": "munch",
-      "x": 1620,
-      "y": 660,
+      "x": 1420,
+      "y": 760,
       "size": 44,
       "color": "#fff3b0",
       "bold": true,
@@ -24437,14 +23947,97 @@
       "facing": "left"
      },
      {
+      "type": "spray",
+      "x": 420,
+      "y": 575,
+      "r": 135,
+      "color": "#ffd36b",
+      "density": 0.35,
+      "appear": 0.3
+     },
+     {
+      "type": "rect",
+      "x": 270,
+      "y": 652,
+      "w": 300,
+      "h": 60,
+      "fill": "#2b3d33",
+      "color": "#2b3d33",
+      "width": 0,
+      "outline": false,
+      "boil": 0,
+      "appear": 0.3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        356,
+        652
+       ],
+       [
+        530,
+        652
+       ],
+       [
+        570,
+        670
+       ],
+       [
+        570,
+        712
+       ],
+       [
+        386,
+        712
+       ]
+      ],
+      "fill": "#5a4b3d",
+      "color": "#5a4b3d",
+      "width": 0,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        356,
+        652
+       ],
+       [
+        386,
+        712
+       ]
+      ],
+      "color": "#3b3026",
+      "width": 4,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        530,
+        652
+       ],
+       [
+        570,
+        670
+       ]
+      ],
+      "color": "#3b3026",
+      "width": 4,
+      "appear": 0.3
+     },
+     {
       "type": "asset",
       "name": "hippo",
       "x": 420,
       "y": 650,
       "scale": 0.32,
       "silhouette": true,
-      "glow": "#ff2a2a",
-      "glow_r": 300,
+      "glow": "#ffd36b",
+      "glow_r": 0,
       "appear": 0.3
      },
      {
@@ -26707,6 +26300,26 @@
       "width": 6
      },
      {
+      "type": "spray",
+      "x": 1320,
+      "y": 740,
+      "r": 120,
+      "color": "#ffd36b",
+      "density": 0.35,
+      "appear": 0.4
+     },
+     {
+      "type": "asset",
+      "name": "hippo",
+      "x": 1090,
+      "y": 880,
+      "scale": 0.7,
+      "silhouette": true,
+      "glow": "#ffd36b",
+      "glow_r": 0,
+      "appear": 0.4
+     },
+     {
       "type": "asset",
       "name": "tent",
       "x": 960,
@@ -26720,46 +26333,6 @@
       "r": 140,
       "color": "#fff7a0",
       "density": 0.5
-     },
-     {
-      "type": "circle",
-      "x": 1280,
-      "y": 640,
-      "r": 16,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 3,
-      "appear": 0.4
-     },
-     {
-      "type": "circle",
-      "x": 1340,
-      "y": 640,
-      "r": 16,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 3,
-      "appear": 0.4
-     },
-     {
-      "type": "circle",
-      "x": 1284,
-      "y": 644,
-      "r": 6,
-      "fill": "#000000",
-      "color": "#000000",
-      "width": 1,
-      "appear": 0.4
-     },
-     {
-      "type": "circle",
-      "x": 1344,
-      "y": 644,
-      "r": 6,
-      "fill": "#000000",
-      "color": "#000000",
-      "width": 1,
-      "appear": 0.4
      },
      {
       "type": "asset",
@@ -28619,7 +28192,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 50 m",
+      "text": "DISTANCE TO HIPPO: 300 m",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -33028,7 +32601,7 @@
       "y": 820,
       "scale": 0.95,
       "silhouette": true,
-      "glow": "#ff2a2a",
+      "glow": "#ffd36b",
       "glow_r": 520,
       "appear": 0.3
      },
@@ -33528,8 +33101,8 @@
      {
       "type": "arrow",
       "from": [
-       1300,
-       990
+       1250,
+       945
       ],
       "to": [
        980,
@@ -33545,8 +33118,8 @@
       "type": "wordart",
       "text": "ALL FOUR FEET",
       "x": 960,
-      "y": 980,
-      "size": 90,
+      "y": 990,
+      "size": 80,
       "boil": 0,
       "appear": 0.6
      },
@@ -34679,7 +34252,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 10 m",
+      "text": "DISTANCE TO HIPPO: 50 m",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -37687,25 +37260,11 @@
       "width": 4
      },
      {
-      "type": "rect",
-      "x": 1420,
-      "y": 420,
-      "w": 190,
-      "h": 300,
-      "fill": "#3a7ad9",
-      "color": "#000000",
-      "width": 5,
-      "appear": 0.25
-     },
-     {
-      "type": "rect",
-      "x": 1450,
-      "y": 480,
-      "w": 50,
-      "h": 40,
-      "fill": "#e8c07a",
-      "color": "#000000",
-      "width": 3,
+      "type": "asset",
+      "name": "bank_card",
+      "x": 1515,
+      "y": 570,
+      "scale": 1,
       "appear": 0.25
      },
      {
@@ -39793,7 +39352,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 5 m",
+      "text": "DISTANCE TO HIPPO: 10 m",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -39961,7 +39520,7 @@
      },
      {
       "type": "asset",
-      "name": "hippo_yawn",
+      "name": "hippo",
       "x": 1360,
       "y": 960,
       "scale": 0.8
@@ -40146,7 +39705,7 @@
       "x": 1420,
       "y": 680,
       "r": 300,
-      "color": "#ff2a2a",
+      "color": "#ffd36b",
       "density": 0.3,
       "appear": 0.4
      },
@@ -40157,7 +39716,7 @@
       "y": 900,
       "scale": 0.85,
       "silhouette": true,
-      "glow": "#ff2a2a",
+      "glow": "#ffd36b",
       "glow_r": 0,
       "appear": 0.4
      },
@@ -40595,12 +40154,36 @@
       "appear": 0.4
      },
      {
-      "type": "asset",
-      "name": "red_x",
-      "x": 640,
-      "y": 365,
-      "scale": 0.75,
+      "type": "line",
+      "points": [
+       [
+        455,
+        300
+       ],
+       [
+        825,
+        300
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 12,
       "appear": 0.75
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        435,
+        430
+       ],
+       [
+        845,
+        430
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 12,
+      "appear": 0.8
      },
      {
       "type": "label",
@@ -41398,120 +40981,35 @@
       "boil": 0
      },
      {
-      "type": "line",
-      "points": [
-       [
-        160,
-        640
-       ],
-       [
-        360,
-        640
-       ]
-      ],
-      "color": "#000000",
-      "width": 10
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        560,
-        640
-       ],
-       [
-        760,
-        640
-       ]
-      ],
-      "color": "#000000",
-      "width": 10
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        360,
-        640
-       ],
-       [
-        553.1851652578137,
-        588.2361909794959
-       ]
-      ],
-      "color": "#a0522d",
-      "width": 18
-     },
-     {
       "type": "asset",
-      "name": "front_door",
-      "x": 560,
+      "name": "door_ajar",
+      "x": 470,
       "y": 1010,
-      "scale": 0.4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        980,
-        640
-       ],
-       [
-        1180,
-        640
-       ]
-      ],
-      "color": "#000000",
-      "width": 10,
-      "appear": 0.45
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1380,
-        640
-       ],
-       [
-        1580,
-        640
-       ]
-      ],
-      "color": "#000000",
-      "width": 10,
-      "appear": 0.45
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1180,
-        640
-       ],
-       [
-        983.0384493975585,
-        605.270364466614
-       ]
-      ],
-      "color": "#a0522d",
-      "width": 18,
-      "appear": 0.45
+      "scale": 0.75
      },
      {
       "type": "label",
       "text": "AJAR",
-      "x": 460,
-      "y": 440,
+      "x": 470,
+      "y": 400,
       "size": 54,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff"
      },
      {
+      "type": "asset",
+      "name": "door_flung_open",
+      "x": 1450,
+      "y": 1010,
+      "scale": 0.75,
+      "appear": 0.5
+     },
+     {
       "type": "label",
       "text": "ALL THE WAY",
-      "x": 1280,
-      "y": 440,
+      "x": 1450,
+      "y": 400,
       "size": 54,
       "bold": true,
       "boil": 0.4,
@@ -41526,22 +41024,6 @@
       "pose": "point",
       "expression": "hopeful",
       "facing": "right"
-     },
-     {
-      "type": "arrow",
-      "from": [
-       1440,
-       600
-      ],
-      "to": [
-       1060,
-       610
-      ],
-      "bend": -100,
-      "color": "#e0201b",
-      "width": 9,
-      "head": 38,
-      "appear": 0.7
      },
      {
       "type": "label",
@@ -43300,44 +42782,37 @@
      {
       "type": "asset",
       "name": "hippo_yawn",
-      "x": 1300,
-      "y": 900,
-      "scale": 0.85
+      "x": 1250,
+      "y": 1040,
+      "scale": 1.3,
+      "flip": true
+     },
+     {
+      "type": "ellipse",
+      "x": 1094,
+      "y": 611,
+      "rx": 400,
+      "ry": 400,
+      "color": "#e0201b",
+      "width": 9,
+      "start": 140,
+      "end": 222,
+      "appear": 0.3
      },
      {
       "type": "doug",
-      "x": 400,
-      "y": 788.8,
-      "scale": 0.6,
+      "x": 170,
+      "y": 818,
+      "scale": 0.4,
       "pose": "stand",
       "expression": "shock",
       "facing": "right"
      },
      {
-      "type": "line",
-      "points": [
-       [
-        1580,
-        470
-       ],
-       [
-        1580,
-        760
-       ]
-      ],
-      "color": "#e0201b",
-      "width": 8,
-      "dash": [
-       18,
-       14
-      ],
-      "appear": 0.3
-     },
-     {
       "type": "label",
       "text": "150°",
-      "x": 900,
-      "y": 420,
+      "x": 480,
+      "y": 560,
       "size": 64,
       "bold": true,
       "boil": 0.4,
@@ -44350,7 +43825,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 2 m",
+      "text": "DISTANCE TO HIPPO: 5 m",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -44475,7 +43950,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 2 m",
+      "text": "DISTANCE TO HIPPO: 5 m",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -45630,9 +45105,9 @@
      {
       "type": "wordart",
       "text": "NEVER LEARNED",
-      "x": 960,
-      "y": 220,
-      "size": 90,
+      "x": 900,
+      "y": 320,
+      "size": 80,
       "boil": 0,
       "appear": 0.6
      },
@@ -48799,7 +48274,7 @@
       "type": "wordart",
       "text": "CAN'T SWIM",
       "x": 520,
-      "y": 320,
+      "y": 390,
       "size": 100,
       "boil": 0,
       "appear": 0.1
@@ -48808,7 +48283,7 @@
       "type": "wordart",
       "text": "DOUG CAN",
       "x": 1420,
-      "y": 320,
+      "y": 390,
       "size": 100,
       "boil": 0,
       "appear": 0.4
@@ -48937,9 +48412,105 @@
       "y": 760,
       "scale": 0.7,
       "silhouette": true,
-      "glow": "#ff2a2a",
-      "glow_r": 520,
+      "glow": "#e8f0c8",
+      "glow_r": 445,
       "appear": 0.35
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        -40,
+        920
+       ],
+       [
+        400,
+        900
+       ],
+       [
+        900,
+        925
+       ],
+       [
+        1400,
+        905
+       ],
+       [
+        1960,
+        920
+       ],
+       [
+        1960,
+        1120
+       ],
+       [
+        -40,
+        1120
+       ]
+      ],
+      "fill": "#4a3b2a",
+      "color": "#000000",
+      "width": 5,
+      "smooth": true,
+      "appear": 0.35
+     },
+     {
+      "type": "spray",
+      "x": 600,
+      "y": 980,
+      "r": 120,
+      "color": "#3a2e20",
+      "density": 0.25,
+      "appear": 0.35
+     },
+     {
+      "type": "spray",
+      "x": 1500,
+      "y": 1000,
+      "r": 140,
+      "color": "#3a2e20",
+      "density": 0.25,
+      "appear": 0.35
+     },
+     {
+      "type": "circle",
+      "x": 830,
+      "y": 560,
+      "r": 14,
+      "fill": "#cfe9e0",
+      "color": "#2a3a2a",
+      "width": 3,
+      "appear": 0.45
+     },
+     {
+      "type": "circle",
+      "x": 860,
+      "y": 510,
+      "r": 10,
+      "fill": "#cfe9e0",
+      "color": "#2a3a2a",
+      "width": 3,
+      "appear": 0.45
+     },
+     {
+      "type": "circle",
+      "x": 845,
+      "y": 465,
+      "r": 7,
+      "fill": "#cfe9e0",
+      "color": "#2a3a2a",
+      "width": 3,
+      "appear": 0.45
+     },
+     {
+      "type": "circle",
+      "x": 400,
+      "y": 600,
+      "r": 9,
+      "fill": "#cfe9e0",
+      "color": "#2a3a2a",
+      "width": 3,
+      "appear": 0.45
      },
      {
       "type": "line",
@@ -49253,7 +48824,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 1 m",
+      "text": "DISTANCE TO HIPPO: 2 m",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -49395,7 +48966,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 1 m",
+      "text": "DISTANCE TO HIPPO: 2 m",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -50064,8 +49635,20 @@
       "y": 0,
       "w": 1920,
       "h": 470,
-      "fill": "#cfe9ff",
-      "color": "#cfe9ff",
+      "fill": "#f2a24a",
+      "color": "#f2a24a",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 211,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
       "width": 0,
       "outline": false,
       "boil": 0
@@ -50235,8 +49818,20 @@
       "y": 0,
       "w": 1920,
       "h": 470,
-      "fill": "#cfe9ff",
-      "color": "#cfe9ff",
+      "fill": "#f2a24a",
+      "color": "#f2a24a",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 211,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
       "width": 0,
       "outline": false,
       "boil": 0
@@ -50904,8 +50499,20 @@
       "y": 0,
       "w": 1920,
       "h": 150,
-      "fill": "#cfe9ff",
-      "color": "#cfe9ff",
+      "fill": "#f2a24a",
+      "color": "#f2a24a",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 67,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
       "width": 0,
       "outline": false,
       "boil": 0
@@ -51114,8 +50721,20 @@
       "y": 0,
       "w": 1920,
       "h": 150,
-      "fill": "#cfe9ff",
-      "color": "#cfe9ff",
+      "fill": "#f2a24a",
+      "color": "#f2a24a",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 67,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
       "width": 0,
       "outline": false,
       "boil": 0
@@ -51334,8 +50953,20 @@
       "y": 0,
       "w": 1920,
       "h": 150,
-      "fill": "#cfe9ff",
-      "color": "#cfe9ff",
+      "fill": "#f2a24a",
+      "color": "#f2a24a",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 67,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
       "width": 0,
       "outline": false,
       "boil": 0
@@ -53396,8 +53027,20 @@
       "y": 0,
       "w": 1920,
       "h": 470,
-      "fill": "#cfe9ff",
-      "color": "#cfe9ff",
+      "fill": "#f2a24a",
+      "color": "#f2a24a",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 211,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
       "width": 0,
       "outline": false,
       "boil": 0
@@ -54173,8 +53816,20 @@
       "y": 0,
       "w": 1920,
       "h": 470,
-      "fill": "#cfe9ff",
-      "color": "#cfe9ff",
+      "fill": "#f2a24a",
+      "color": "#f2a24a",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 211,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
       "width": 0,
       "outline": false,
       "boil": 0
@@ -54731,7 +54386,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 0.5 m",
+      "text": "DISTANCE TO HIPPO: 1 m",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -54882,8 +54537,8 @@
      },
      {
       "type": "doug",
-      "x": 1300,
-      "y": 330,
+      "x": 1050,
+      "y": 360,
       "scale": 0.4,
       "pose": "float",
       "expression": "sad",
@@ -54910,7 +54565,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 0.5 m",
+      "text": "DISTANCE TO HIPPO: 1 m",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -55102,8 +54757,8 @@
       "type": "text",
       "text": "BULL TERRITORY",
       "x": 960,
-      "y": 330,
-      "size": 150,
+      "y": 360,
+      "size": 130,
       "color": "#e0201b",
       "bold": true,
       "boil": 0.3,
@@ -59648,188 +59303,112 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 470,
-      "fill": "#b9c4a8",
-      "color": "#b9c4a8",
+      "h": 1080,
+      "fill": "#f6ecd2",
+      "color": "#f6ecd2",
       "width": 0,
       "outline": false,
       "boil": 0
      },
      {
       "type": "rect",
-      "x": 0,
-      "y": 455,
-      "w": 1920,
-      "h": 60,
-      "fill": "#7a6a4a",
-      "color": "#7a6a4a",
-      "width": 0,
-      "outline": false,
-      "boil": 0
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        0,
-        455
-       ],
-       [
-        1920,
-        455
-       ]
-      ],
+      "x": 160,
+      "y": 460,
+      "w": 800,
+      "h": 240,
+      "fill": "#7fb3d5",
       "color": "#000000",
-      "width": 4
+      "width": 6
      },
      {
       "type": "rect",
-      "x": 0,
-      "y": 510,
-      "w": 1920,
-      "h": 570,
-      "fill": "#6b7a4a",
-      "color": "#6b7a4a",
-      "width": 0,
-      "outline": false,
-      "boil": 0
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        0,
-        510
-       ],
-       [
-        1920,
-        510
-       ]
-      ],
-      "color": "#3f4a2a",
-      "width": 4
+      "x": 960,
+      "y": 460,
+      "w": 800,
+      "h": 240,
+      "fill": "#86c49a",
+      "color": "#000000",
+      "width": 6,
+      "appear": 0.15
      },
      {
       "type": "asset",
-      "name": "hippo",
+      "name": "hippo_waterline",
       "x": 560,
-      "y": 820,
-      "scale": 0.7
+      "y": 600,
+      "scale": 0.9
      },
      {
       "type": "asset",
-      "name": "hippo",
+      "name": "hippo_waterline",
       "x": 1360,
-      "y": 820,
-      "scale": 0.7,
-      "flip": true
+      "y": 600,
+      "scale": 0.9,
+      "flip": true,
+      "appear": 0.15
      },
      {
       "type": "doug",
       "x": 960,
-      "y": 760,
-      "scale": 0.55,
+      "y": 560,
+      "scale": 0.3,
       "pose": "stand",
       "expression": "hopeful",
       "facing": "right"
      },
      {
-      "type": "rect",
-      "x": 0,
-      "y": 760,
-      "w": 1920,
-      "h": 320,
-      "fill": "#5f6d42",
-      "color": "#5f6d42",
-      "width": 0,
-      "outline": false,
-      "boil": 0
+      "type": "line",
+      "points": [
+       [
+        170,
+        770
+       ],
+       [
+        950,
+        770
+       ]
+      ],
+      "color": "#000000",
+      "width": 5,
+      "appear": 0.5
      },
      {
       "type": "line",
       "points": [
        [
-        0,
-        760
+        170,
+        745
        ],
        [
-        1920,
-        760
+        170,
+        795
        ]
       ],
-      "color": "#a8b48a",
-      "width": 4
+      "color": "#000000",
+      "width": 5,
+      "appear": 0.5
      },
      {
       "type": "line",
       "points": [
        [
-        140,
-        820
+        950,
+        745
        ],
        [
-        320,
-        820
+        950,
+        795
        ]
       ],
-      "color": "#8e9a6a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1100,
-        880
-       ],
-       [
-        1300,
-        880
-       ]
-      ],
-      "color": "#8e9a6a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1550,
-        810
-       ],
-       [
-        1700,
-        810
-       ]
-      ],
-      "color": "#8e9a6a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        100,
-        920
-       ],
-       [
-        1820,
-        920
-       ]
-      ],
-      "color": "#e0201b",
-      "width": 6,
-      "dash": [
-       18,
-       14
-      ],
-      "appear": 0.3
+      "color": "#000000",
+      "width": 5,
+      "appear": 0.5
      },
      {
       "type": "label",
       "text": "50 M",
-      "x": 960,
-      "y": 1000,
+      "x": 560,
+      "y": 830,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -60034,6 +59613,26 @@
        [
         960,
         470
+       ],
+       [
+        960,
+        565
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 6,
+      "dash": [
+       18,
+       14
+      ],
+      "appear": 0.25
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        860
        ],
        [
         960,
@@ -60257,6 +59856,25 @@
        [
         960,
         470
+       ],
+       [
+        960,
+        565
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 6,
+      "dash": [
+       18,
+       14
+      ]
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        860
        ],
        [
         960,
@@ -60985,7 +60603,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 0 m",
+      "text": "DISTANCE TO HIPPO: 0.5 m",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -61201,7 +60819,7 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 0 m",
+      "text": "DISTANCE TO HIPPO: 0.5 m",
       "x": 1590,
       "y": 238,
       "size": 28,
@@ -61240,14 +60858,14 @@
       "y": 1080,
       "scale": 0.6,
       "silhouette": true,
-      "glow": "#ff2a2a",
+      "glow": "#ffd36b",
       "glow_r": 0
      },
      {
       "type": "text",
       "text": "THE MOUTH",
       "x": 960,
-      "y": 330,
+      "y": 360,
       "size": 150,
       "color": "#e0201b",
       "bold": true,
@@ -61631,7 +61249,7 @@
       "type": "wordart",
       "text": "THE LARGEST",
       "x": 1350,
-      "y": 330,
+      "y": 380,
       "size": 100,
       "boil": 0,
       "appear": 0.45
@@ -62395,9 +62013,9 @@
      {
       "type": "wordart",
       "text": "NO INTEREST",
-      "x": 960,
+      "x": 860,
       "y": 160,
-      "size": 90,
+      "size": 80,
       "boil": 0,
       "appear": 0.45
      },
@@ -62736,16 +62354,6 @@
       "rotate": 4
      },
      {
-      "type": "text",
-      "text": "500?",
-      "x": 1150,
-      "y": 560,
-      "size": 64,
-      "color": "#e0201b",
-      "bold": true,
-      "boil": 0.3
-     },
-     {
       "type": "rect",
       "x": 1340,
       "y": 380,
@@ -62769,9 +62377,9 @@
      {
       "type": "asset",
       "name": "warning_triangle",
-      "x": 1140,
-      "y": 560,
-      "scale": 1.0,
+      "x": 1150,
+      "y": 640,
+      "scale": 1.55,
       "appear": 0.3
      },
      {
@@ -63798,7 +63406,7 @@
       "type": "wordart",
       "text": "ONE OF THE DEADLIEST",
       "x": 960,
-      "y": 330,
+      "y": 380,
       "size": 90,
       "boil": 0,
       "appear": 0.5
@@ -64454,8 +64062,8 @@
      {
       "type": "asset",
       "name": "lettuce",
-      "x": 700,
-      "y": 500,
+      "x": 690,
+      "y": 850,
       "scale": 0.4,
       "appear": 0.3
      },
@@ -64463,15 +64071,15 @@
       "type": "asset",
       "name": "lettuce",
       "x": 880,
-      "y": 440,
+      "y": 720,
       "scale": 0.4,
       "appear": 0.45
      },
      {
       "type": "asset",
       "name": "lettuce",
-      "x": 1060,
-      "y": 500,
+      "x": 1070,
+      "y": 850,
       "scale": 0.4,
       "appear": 0.6
      },
@@ -64627,10 +64235,10 @@
      },
      {
       "type": "label",
-      "text": "DISTANCE TO HIPPO: 0 m",
-      "x": 900,
-      "y": 160,
-      "size": 50,
+      "text": "0 M",
+      "x": 880,
+      "y": 640,
+      "size": 60,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
@@ -65043,7 +64651,7 @@
       "y": 1000,
       "scale": 0.75,
       "silhouette": true,
-      "glow": "#ff2a2a",
+      "glow": "#ffd36b",
       "glow_r": 760
      },
      {
@@ -65106,7 +64714,7 @@
       "y": 1000,
       "scale": 0.75,
       "silhouette": true,
-      "glow": "#ff2a2a",
+      "glow": "#ffd36b",
       "glow_r": 760
      },
      {
@@ -65142,7 +64750,13 @@
      }
     ]
    },
-   "pause_after": 0.03
+   "pause_after": 0.03,
+   "camera": {
+    "move": "zoom_in",
+    "x": 880,
+    "y": 620,
+    "zoom": 1.04
+   }
   },
   {
    "id": "s247",
@@ -65169,7 +64783,7 @@
       "y": 1000,
       "scale": 0.75,
       "silhouette": true,
-      "glow": "#ff2a2a",
+      "glow": "#ffd36b",
       "glow_r": 760
      },
      {
@@ -65240,7 +64854,7 @@
       "y": 1000,
       "scale": 0.75,
       "silhouette": true,
-      "glow": "#ff2a2a",
+      "glow": "#ffd36b",
       "glow_r": 760
      },
      {
@@ -65275,7 +64889,13 @@
     ]
    },
    "hold": 0.6,
-   "pause_after": 0.03
+   "pause_after": 0.03,
+   "camera": {
+    "move": "zoom_in",
+    "x": 880,
+    "y": 620,
+    "zoom": 1.08
+   }
   },
   {
    "id": "s249",
@@ -65553,6 +65173,14 @@
       "outline": false,
       "boil": 0,
       "appear": 0.7
+     },
+     {
+      "type": "asset",
+      "name": "doug_cap",
+      "x": 960,
+      "y": 880,
+      "scale": 0.5,
+      "appear": 0.85
      },
      {
       "type": "label",

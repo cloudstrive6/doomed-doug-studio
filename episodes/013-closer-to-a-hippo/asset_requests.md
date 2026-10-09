@@ -183,3 +183,10 @@ s156
 - Doug's tier (5 px lines, big round head), **no red cap**, `"auto_ink": true` like `diver`/`scientist`: white spacesuit with a backpack,
   round white helmet with a gold `#e0b030` visor, mid-bound pose (knees bent, one foot up). Anchor at the hips like Doug, about **180 x 480**
   (x -90..+90, y -330..+150). Shown at 0.6 on the black Moon panel, facing right.
+
+## Visual review round 1 fixes (illustrator, 2026-10-09)
+- [x] `dung_cloud` redrawn as separate flicked clumps + droplets (same name, size and anchor; Doug stays visible). Preview: `assets/previews/013-closer-to-a-hippo-s044-dung.png`
+- [x] `door_ajar` (new, s126 left): front-view door swung ~45 deg toward viewer. Anchor bottom-centre, 800x722 (x -400..400, y -700..22).
+- [x] `door_flung_open` (new, s126 right): same wall/doorway, leaf flat against the wall with crack + bang marks. Anchor bottom-centre, 800x700. Preview of both: `assets/previews/013-closer-to-a-hippo-s126-doors.png`
+- [x] `bank_card` (new, s108): portrait blue rounded card with chip, logo, number dashes. Anchor centre, 190x300 (drop-in for the rect at x1420 y420 w190 h300: place at 1515,570 scale 1). Preview: `assets/previews/013-closer-to-a-hippo-s108-card.png`
+- Asset sheet: `assets/previews/013-closer-to-a-hippo-fixes.png`

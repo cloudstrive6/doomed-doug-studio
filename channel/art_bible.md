@@ -46,6 +46,18 @@ the sea ice was swapped back to `#3a9ad9`, with water speckle `#6fc1ee`. Show co
 | Limestone cave | rock `#a87a40` / `#b9894a`, cave interior `#3b2a17`; cross-section soil `#c9a87a` under sky `#8fd3ff` with grass `#7cc25a` |
 | Amber forest | sky `#f6c45a`, mid band `#e4a53a`, trunks `#b07020` / `#c07a24`, ground `#6b4a1f` (spray `#57391a`), resin `#e8a33a` with highlight `#fff3c0` and glow `#ffd36b` |
 
+**African river / hippo environments (from 013; reuse for any river or savanna episode):**
+| Place | Colours |
+|---|---|
+| Savanna river, day | sky `#8fd3ff`, hills `#6fb24f`, river `#9a7a4a`, grass `#7cc25a` |
+| Savanna sunset | sky `#f6c45a` over `#f2a24a`, ground `#c9a24a` / `#b8913a`, lake `#6f8a6e` |
+| Savanna night | sky `#1b2f5a`, ground `#2b3d33`, path `#5a4b3d`, moon `#fff3b0` |
+| Mud bank + river | water `#6f8a6e`, mud `#8a6a4a`; sky `#cfe9ff` (day), `#f6dcae` (charge), `#fff3c0` (hot sun) |
+| Murky river cross-section | water `#5d6b45` / `#66764d` / `#6b7a4a`, riverbed `#4a3b2a`; far bank `#7a6a4a` |
+| River sunset (canoe) | sky `#e88a4a` over `#f2a24a`, water `#6b7a4a`; keep cutaways of the same moment on this sky |
+| Overcast bull pool | sky `#b9c4a8`, bank `#7a6a4a`, water `#6b7a4a` / `#5f6d42` |
+| Mouth / thesis cards | maroon `#9e3348` (lettuce and Doug read on it; red glow does not, so skip it there) |
+
 ## Two-tier rendering (style bible 4.3)
 - **Doug and humans: crude** MS Paint stick men: uniform thin lines (Doug's rig: 5 at scale 1 ≈ 4–5 px), big round
   head with grey shading crescent, oval eyes, meme faces.
@@ -168,6 +180,11 @@ lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008
   current value, and in older layouts it is hidden. Only `dead` + the counter ticking make it a death beat.
 - **Item title cards with the counter on screen (from 010)**: put the big red title at y 340-360 (or size it so the glyph tops stay at y ≥ 250).
   At y 250-280 and size 120-160, the tops land in the counter zone and butt against the box (010: 9 title cards). Keep the sun/moon off the title line.
+- **Second meter under the counter (from 013 "DISTANCE TO HIPPO")**: a size-28 `label` at (1590, 238). It pushes the reserved zone
+  down to y 260, so title glyph tops and wordart must stay at y ≥ 290 wherever they overlap x 1300-1860 (013 s150, s163, s195, s219).
+- **Section header cards (from 013)**: spoken, non-item headers ("FAR AWAY.", "ON LAND.", "IN THE WATER.") are white `#ffffff`
+  text with an 8 px black outline, `topbar: false`, about size 140. Item title cards stay red. Never use white for an item name
+  (the Lake Nyos exception aside).
 - **Stop title card**: zone/creature name as a big `label` + Doug reacting.
 - **Scale comparison**: Doug next to the creature, both at true relative size, a `label` with the size.
 - **Time machine** (`time_machine`, from 003, time-travel episodes only): teal booth (`#2a9d8f`, dark `#1b6f66`),
