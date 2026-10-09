@@ -128,6 +128,14 @@ lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008
 - **WordArt placement**: the yellow-to-green `wordart` must never sit on green ground, grass, leaves or any
   green field (lime-on-lime disappears at phone size). Put it on sky/cream/pink/dark areas; if the only free
   space is ground, move the label up instead.
+- **Field guide (from 010, `animals` playlist)**: `field_guide_open` (anchor centre, 560x360, spine at x=0) at scale 0.55
+  centred about (330, 880) on every outcome beat, and 1.1-1.2 for hero close-ups. `field_guide` (closed) goes in Doug's front hand at 0.42-0.45.
+  The asset is never edited per episode, and all marks are overlays in fixed local zones: the animal name is black Arimo, 26-34 units, max 2
+  words, centred near (-140,-110). The tick is a green `#2e8b3a` check in the box at (+205,-115). The stamp is centred at (+140,+50): "NO" in red
+  `#e0201b` at about 110 units after a death, "MAYBE" in orange `#ff8a1f` at about 64 units after a survival, rotated -8 to -12 deg. Nothing crosses
+  the spine or the coffee ring.
+- **Alive `on_back` (from 010 s253-s255)**: floating or resting on his back is allowed with a living expression (`hopeful`, `flat`,
+  `gritted`...), the cap on, no `rotate`, and **no death counter**. Only `dead` + the counter make it a death beat.
 - **Stop title card**: zone/creature name as a big `label` + Doug reacting.
 - **Scale comparison**: Doug next to the creature, both at true relative size, a `label` with the size.
 - **Time machine** (`time_machine`, from 003, time-travel episodes only): teal booth (`#2a9d8f`, dark `#1b6f66`),

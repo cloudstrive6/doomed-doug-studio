@@ -143,6 +143,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   foot and big (2.4) for the scales close-up, so the scale texture should hold up at 2.4.
 - **Shots:** s118 (SIL), s120-s122, s124-s128, s132-s136, s227-s229, s277.
 - **DONE** (illustrator batch 1): `assets/library/saw_scaled_viper.json`, preview `assets/previews/010-every-venom-assets-b1.png`. c, bbox about x -210..+214, y -98..+110; head centre (+160,-66).
+- **REVISED** (art review fix 2): removed the two width-5 black stubs (old elements 72 and 168) at the left coil seam; the continuous outline is unchanged and the left loop end no longer reads as a second head at 2.4. Preview `assets/previews/010-every-venom-assets-b1.png` (re-rendered).
 
 ### `blue_ringed_octopus` (A)
 - **What:** Blue-ringed octopus (Hapalochlaena) at rest.
@@ -222,6 +223,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
   (`#24505c`, `#163a44`) to make it fainter in the water, so keep black outlines as the only outline colour.
 - **Shots:** s257 (SIL), s258, s259 (SIL), s260, s262-s264, s267 (SIL), s268-s269, s271, s273-s276, s278.
 - **DONE** (illustrator batch 2): `assets/library/box_jellyfish.json`, preview `assets/previews/010-every-venom-assets-b2b.png`. eye clusters exactly at the four requested points; black outlines only (ink-overridable); pedalia flare out, so bbox x -245..+245, tentacles to y +700.
+- **REVISED** (art review fix 1): each rhopalium cluster is now 6 equal dots (r 2.5) in a 2-wide x 3-tall block (x ±4, y -6/0/+6); no smile arc, no big eye pair. Cluster centres unchanged at (-120,+95), (+120,+95), (-50,+115), (+50,+115). Preview `assets/previews/010-every-venom-assets-b2b.png` (re-rendered).
 
 ### `box_jellyfish_eyes` (C)
 - **What:** The same box jellyfish with its 24 eyes lit.
@@ -230,6 +232,7 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** Same (anchor bell centre).
 - **Shots:** s269.
 - **DONE** (illustrator batch 2): `assets/library/box_jellyfish_eyes.json`, preview `assets/previews/010-every-venom-assets-b2b.png`. full redraw of box_jellyfish + 24 lit eyes; lines up at the same x/y/scale.
+- **REVISED** (art review fix 1): the 24 lit eyes use the same 2x3 block layout as `box_jellyfish` (identical x/y/r), so the overlay still lines up. Preview `assets/previews/010-every-venom-assets-b2b.png` (re-rendered).
 
 ---
 
