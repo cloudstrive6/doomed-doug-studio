@@ -48,3 +48,23 @@ Full review: `art_review.md`.
 4. **Real-victim cards: confirmed** (s047-s051, s169-s175: muted, no Doug, no people, no jokes; no skeleton at Altamura).
 
 ART: PASS.
+
+## 2026-10-09: creative director, thumbnail pick: B (3x3 labelled grid, archetype A)
+Compared `build/thumbnail.png` (A, funnel ladder) and `build/thumbnail_b.png` (B, 3x3 grid) at full size and as 168 px feed tiles.
+1. **B wins on feed legibility.** At 168 px all nine B labels still read as words ("Tree Well", "Tar Pit", "Amber"), and every tile subject
+   stays recognisable (tree with skis, brinicle, snowball avalanche, sinkhole, crevasse, bison in tar, amber bead with the red cap).
+   In A the white-outlined labels sit on the tile art (snow, ice, sand) and turn into grey smears at 168 px. "Dead Sea Sinkholes" also
+   runs past both edges of its tile, and "Brinicle" and "Crevasse" can't be read.
+2. **A is also inconsistent:** six labels sit inside the tiles and three sit outside them. The outside ones are bigger than the inside ones,
+   so "Tar Pit", "Altamura Cave" and "Amber" pull the eye more than the escalation does. The funnel also looks like a wrong-way pyramid
+   with a lot of white space on both sides.
+3. **Variety:** 011 used archetype B (stepped pyramid). Running B again back-to-back would repeat the look in the feed. Archetype A is the
+   default style-bible format, has 9 tiles (12 max), and every label is 4 words or fewer.
+4. **Boss slot:** the amber bead with Doug and the cap on top sits bottom-right, where the eye finishes reading, so it still works as
+   the payoff tile. Doug appears as one tile only, which follows the style-bible rule.
+5. **Files:** the old `thumbnail.json` is kept as `thumbnail_a.json`. `thumbnail_b.json` has been copied to `thumbnail.json`, which means
+   shotlist s001 (`scene_ref: "thumbnail"`) now opens on the grid. `validate` returns OK and `build/thumbnail.png` was re-rendered from the grid.
+6. **Warning for the graphic designer:** `build/gen_thumbnail.py` still writes the funnel to `thumbnail.json`. If you re-run it, swap the
+   outputs first, or it will undo this pick.
+
+THUMBNAIL: B APPROVED. No redesign requested.
