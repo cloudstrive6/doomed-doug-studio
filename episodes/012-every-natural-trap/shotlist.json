@@ -855,14 +855,14 @@
      {
       "type": "arrow",
       "from": [
-       900,
-       520
+       820,
+       470
       ],
       "to": [
-       440,
-       700
+       375,
+       722
       ],
-      "bend": -60,
+      "bend": 260,
       "color": "#e0201b",
       "width": 9,
       "head": 40,
@@ -4140,15 +4140,15 @@
       "type": "line",
       "points": [
        [
-        235.0,
+        455.0,
         823
        ],
        [
-        375.0,
+        595.0,
         823
        ],
        [
-        392.5,
+        612.5,
         809.0
        ]
       ],
@@ -4157,7 +4157,7 @@
      },
      {
       "type": "doug",
-      "x": 300,
+      "x": 520,
       "y": 744.0,
       "scale": 0.5,
       "pose": "shrug",
@@ -4176,11 +4176,19 @@
       "appear": 0.313
      },
      {
-      "type": "asset",
-      "name": "red_x",
-      "x": 520,
-      "y": 330,
-      "scale": 0.4,
+      "type": "line",
+      "points": [
+       [
+        360,
+        334
+       ],
+       [
+        680,
+        334
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 7,
       "appear": 0.313
      },
      {
@@ -4195,11 +4203,19 @@
       "appear": 0.536
      },
      {
-      "type": "asset",
-      "name": "red_x",
-      "x": 860,
-      "y": 330,
-      "scale": 0.4,
+      "type": "line",
+      "points": [
+       [
+        780,
+        334
+       ],
+       [
+        940,
+        334
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 7,
       "appear": 0.536
      },
      {
@@ -4214,11 +4230,19 @@
       "appear": 0.869
      },
      {
-      "type": "asset",
-      "name": "red_x",
-      "x": 1650,
-      "y": 560,
-      "scale": 0.4,
+      "type": "line",
+      "points": [
+       [
+        1555,
+        564
+       ],
+       [
+        1745,
+        564
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 7,
       "appear": 0.869
      },
      {
@@ -7325,15 +7349,15 @@
       "type": "line",
       "points": [
        [
-        185.0,
+        455.0,
         823
        ],
        [
-        325.0,
+        595.0,
         823
        ],
        [
-        342.5,
+        612.5,
         809.0
        ]
       ],
@@ -7342,7 +7366,7 @@
      },
      {
       "type": "doug",
-      "x": 250,
+      "x": 520,
       "y": 744.0,
       "scale": 0.5,
       "pose": "stand",
@@ -12035,12 +12059,12 @@
       "type": "curve",
       "points": [
        [
-        1800,
-        180
+        1700,
+        300
        ],
        [
-        1500,
-        400
+        1450,
+        450
        ],
        [
         1200,
@@ -12058,12 +12082,12 @@
       "type": "curve",
       "points": [
        [
-        1700,
-        950
+        1380,
+        830
        ],
        [
-        1350,
-        820
+        1170,
+        760
        ],
        [
         960,
@@ -12229,12 +12253,12 @@
       "type": "curve",
       "points": [
        [
-        1800,
-        180
+        1700,
+        300
        ],
        [
-        1500,
-        400
+        1450,
+        450
        ],
        [
         1200,
@@ -12252,12 +12276,12 @@
       "type": "curve",
       "points": [
        [
-        1700,
-        950
+        1380,
+        830
        ],
        [
-        1350,
-        820
+        1170,
+        760
        ],
        [
         960,
@@ -12321,8 +12345,8 @@
      {
       "type": "asset",
       "name": "storm_cloud",
-      "x": 1600,
-      "y": 300,
+      "x": 1560,
+      "y": 360,
       "scale": 0.4,
       "appear": 0.813
      },
@@ -12430,12 +12454,12 @@
       "type": "curve",
       "points": [
        [
-        1800,
-        180
+        1700,
+        300
        ],
        [
-        1500,
-        400
+        1450,
+        450
        ],
        [
         1200,
@@ -12453,12 +12477,12 @@
       "type": "curve",
       "points": [
        [
-        1700,
-        950
+        1380,
+        830
        ],
        [
-        1350,
-        820
+        1170,
+        760
        ],
        [
         960,
@@ -12521,8 +12545,8 @@
      {
       "type": "asset",
       "name": "storm_cloud",
-      "x": 1600,
-      "y": 300,
+      "x": 1560,
+      "y": 360,
       "scale": 0.4
      },
      {
@@ -23104,7 +23128,7 @@
       "type": "label",
       "text": "ONE ARM",
       "x": 670,
-      "y": 1010,
+      "y": 990,
       "size": 40,
       "bold": true,
       "boil": 0.4,
@@ -23580,19 +23604,19 @@
       "type": "asset",
       "name": "sticker_brinicle",
       "x": 1450,
-      "y": 860,
-      "scale": 0.9,
+      "y": 830,
+      "scale": 2.2,
       "appear": 0.147
      },
      {
       "type": "arrow",
       "from": [
        1450,
-       560
+       520
       ],
       "to": [
        1450,
-       800
+       725
       ],
       "bend": 30,
       "color": "#e0201b",
@@ -34813,10 +34837,10 @@
      },
      {
       "type": "ellipse",
-      "x": 1450,
+      "x": 1400,
       "y": 470,
-      "rx": 220,
-      "ry": 130,
+      "rx": 300,
+      "ry": 165,
       "fill": "#ffffff",
       "color": "#000000",
       "width": 5,
@@ -34825,9 +34849,9 @@
      {
       "type": "asset",
       "name": "sticker_morecambe_bay",
-      "x": 1450,
+      "x": 1400,
       "y": 470,
-      "scale": 1.5,
+      "scale": 2.4,
       "appear": 0.071
      },
      {
@@ -37363,12 +37387,12 @@
      {
       "type": "arrow",
       "from": [
-       300,
-       680
+       720,
+       690
       ],
       "to": [
-       900,
-       690
+       1150,
+       700
       ],
       "bend": -20,
       "color": "#e0201b",
@@ -37379,12 +37403,12 @@
      {
       "type": "arrow",
       "from": [
-       1000,
-       690
+       1230,
+       700
       ],
       "to": [
-       1600,
-       680
+       1700,
+       690
       ],
       "bend": -20,
       "color": "#e0201b",
@@ -40098,7 +40122,7 @@
       "type": "label",
       "text": "EVERY YEAR",
       "x": 960,
-      "y": 1010,
+      "y": 990,
       "size": 40,
       "bold": true,
       "boil": 0.4,
@@ -43078,8 +43102,7 @@
       "pose": "wave",
       "expression": "flat",
       "facing": "right",
-      "appear": 0.23,
-      "ink": "#000000"
+      "appear": 0.23
      },
      {
       "type": "asset",
@@ -43230,8 +43253,7 @@
       "scale": 0.55,
       "pose": "thumbs_up",
       "expression": "smirk",
-      "facing": "right",
-      "ink": "#000000"
+      "facing": "right"
      },
      {
       "type": "asset",
@@ -52219,10 +52241,7 @@
       "scale": 0.55,
       "pose": "stand",
       "expression": "hopeful",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "asset",
@@ -52553,10 +52572,7 @@
       "scale": 0.45,
       "pose": "stand",
       "expression": "hopeful",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -52612,10 +52628,7 @@
       "scale": 0.4,
       "pose": "point",
       "expression": "hopeful",
-      "facing": "left",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "left"
      },
      {
       "type": "label",
@@ -53045,10 +53058,7 @@
       "scale": 0.4,
       "pose": "think",
       "expression": "confused",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -53203,10 +53213,7 @@
       "scale": 0.4,
       "pose": "stand",
       "expression": "sad",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -53404,10 +53411,7 @@
       "scale": 0.4,
       "pose": "stand",
       "expression": "hopeful",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -53617,10 +53621,7 @@
       "scale": 0.4,
       "pose": "stand",
       "expression": "confused",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -53873,7 +53874,7 @@
       "type": "label",
       "text": "THIN FILM",
       "x": 960,
-      "y": 560,
+      "y": 610,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -53884,7 +53885,7 @@
       "type": "wordart",
       "text": "DRIPS",
       "x": 960,
-      "y": 420,
+      "y": 480,
       "size": 100,
       "boil": 0,
       "appear": 0.889
@@ -53896,10 +53897,7 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "hopeful",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -54207,10 +54205,7 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "hopeful",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -54483,10 +54478,7 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "flat",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -54784,10 +54776,7 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "flat",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -55148,10 +55137,7 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -55553,10 +55539,7 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "gritted",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -55705,10 +55688,7 @@
       "scale": 0.45,
       "pose": "think",
       "expression": "confused",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -55848,10 +55828,7 @@
       "scale": 0.45,
       "pose": "stand",
       "expression": "hopeful",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -55991,10 +55968,7 @@
       "scale": 0.45,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -56752,10 +56726,7 @@
       "scale": 0.45,
       "pose": "stand",
       "expression": "flat",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -56910,10 +56881,7 @@
       "scale": 0.4,
       "pose": "stand",
       "expression": "confused",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -57093,10 +57061,7 @@
       "scale": 0.45,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -57240,10 +57205,7 @@
       "scale": 0.45,
       "pose": "point",
       "expression": "hopeful",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -57376,10 +57338,7 @@
       "scale": 0.45,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -58133,10 +58092,7 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "flat",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -58560,10 +58516,7 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -58633,10 +58586,7 @@
       "scale": 0.6,
       "pose": "fall",
       "expression": "shock",
-      "facing": "right",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "right"
      },
      {
       "type": "line",
@@ -58945,10 +58895,7 @@
       "scale": 0.55,
       "pose": "sit",
       "expression": "hopeful",
-      "facing": "left",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "left"
      },
      {
       "type": "asset",
@@ -59352,10 +59299,7 @@
        "hopeful",
        "sleepy"
       ],
-      "facing": "left",
-      "gear": [
-       "helmet"
-      ]
+      "facing": "left"
      },
      {
       "type": "asset",
@@ -61451,7 +61395,8 @@
       "scale": 0.55,
       "pose": "stand",
       "expression": "smirk",
-      "facing": "right"
+      "facing": "right",
+      "ink": "#000000"
      },
      {
       "type": "label",
@@ -62414,7 +62359,8 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right"
+      "facing": "right",
+      "ink": "#000000"
      },
      {
       "type": "label",
@@ -62617,7 +62563,8 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right"
+      "facing": "right",
+      "ink": "#000000"
      },
      {
       "type": "label",
@@ -65963,7 +65910,8 @@
       "scale": 0.45,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right"
+      "facing": "right",
+      "ink": "#000000"
      },
      {
       "type": "label",
@@ -67767,6 +67715,13 @@
       "ink": "#000000"
      },
      {
+      "type": "asset",
+      "name": "gall_mite_costume",
+      "x": 960,
+      "y": 671.2,
+      "scale": 0.4
+     },
+     {
       "type": "curve",
       "points": [
        [
@@ -67986,6 +67941,13 @@
        "cap_off"
       ],
       "ink": "#000000"
+     },
+     {
+      "type": "asset",
+      "name": "gall_mite_costume",
+      "x": 960,
+      "y": 671.2,
+      "scale": 0.4
      },
      {
       "type": "curve",
@@ -68210,6 +68172,13 @@
        "cap_off"
       ],
       "ink": "#000000"
+     },
+     {
+      "type": "asset",
+      "name": "gall_mite_costume",
+      "x": 960,
+      "y": 671.2,
+      "scale": 0.4
      },
      {
       "type": "curve",
