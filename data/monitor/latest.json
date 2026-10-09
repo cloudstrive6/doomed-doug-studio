@@ -1,13 +1,13 @@
 {
- "at": "2026-10-09T01:01:45+00:00",
+ "at": "2026-10-09T01:28:04+00:00",
  "issues": [
   {
    "key": "schedule_gap",
-   "severity": "high",
-   "owner": "agent",
-   "summary": "No long video scheduled for Sat 10 Oct 5:00 AM NZDT, Mon 12 Oct 5:00 AM NZDT",
-   "detail": "{\"uploaded_total\": 9, \"queued\": 1, \"target\": 4, \"phase\": \"launch\", \"in_progress\": [], \"need_episode\": true, \"later_scheduled\": [\"2026-10-10T16:00:00Z\"]}",
-   "route": "pull the next scheduled episode forward (YouTube publishAt + metadata.json)",
+   "severity": "medium",
+   "owner": "auto",
+   "summary": "No long video scheduled for Sun 11 Oct 5:00 AM NZDT, Mon 12 Oct 5:00 AM NZDT",
+   "detail": "{\"uploaded_total\": 9, \"queued\": 1, \"target\": 4, \"phase\": \"launch\", \"in_progress\": [], \"need_episode\": true, \"later_scheduled\": []}",
+   "route": "production run",
    "fixed": false,
    "extra": {}
   }

@@ -1,12 +1,1 @@
-[
- {
-  "key": "schedule_gap",
-  "severity": "high",
-  "owner": "agent",
-  "summary": "No long video scheduled for Sat 10 Oct 5:00 AM NZDT, Mon 12 Oct 5:00 AM NZDT",
-  "detail": "{\"uploaded_total\": 9, \"queued\": 1, \"target\": 4, \"phase\": \"launch\", \"in_progress\": [], \"need_episode\": true, \"later_scheduled\": [\"2026-10-10T16:00:00Z\"]}",
-  "route": "pull the next scheduled episode forward (YouTube publishAt + metadata.json)",
-  "fixed": false,
-  "extra": {}
- }
-]
+[]
