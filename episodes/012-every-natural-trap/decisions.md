@@ -1,0 +1,33 @@
+# 012 Every Natural Trap: decisions
+
+## 2026-10-09: creative director, script gate APPROVED (draft 3)
+Reviewed: `script.md` (draft 3) against `brief.md`, `script_review.md` (draft 3, PASS, 0 required fixes), and spot-checked `facts.md` rows that
+looked most at risk (sinkhole count, La Brea buckets, Altamura nasal cavity, avalanche speed attribution, lizards/pigeons). All are sourced.
+
+1. **Brief compliance: met.** 9 items on one declared axis (duration of entrapment), ordered minutes to 230 Myr, with amber as the boss. Section
+   headers "Short stay." / "Long stay." / "Permanent stay." are placed as briefed. Counter runs 100 to 107 (7 deaths), survivals are Brinicle
+   (sticker pre-printed) and Dead Sea ("Doug is fine."). 7 stickers, and the closing suitcase list matches. Costume gag twice, each with one
+   "can't hurt a person" line. Callbacks are exactly two (004 Morecambe Bay, 002 ant suit). Time machine, field guide and Buddy are not used.
+2. **Opening: passes.** "Tree well." at word 32; the twist ends at word 144. Condition for the editor: measure the twist end in the narrated
+   audio. It must finish by **0:46**. If TTS runs slow, tighten pauses before line 25. Do not cut words.
+3. **Overlap rules: met.** No quicksand, Morecambe Bay only as a one-line callback, no Myanmar amber (Dolomites only), and the crevasse beat is
+   "the glacier gives Doug back 75 years later", not 007's cap on the rim.
+4. **Real victims: met.** Antelope Canyon 1997 and Tsanfleuron 2017 get dates and counts only, on silent caption cards with no people drawn and
+   no jokes in the fact lines. Altamura has no skeleton drawn and no real photos.
+5. **Safety advice: none.** No rescue, beacon, high-ground or weather-check lines. The NPS flash-flood line and the "danger is highest after a
+   storm" line are descriptive facts, not instructions. Keep them that way in any later trims.
+6. **Click-and-stay test: yes.** Every item has a real twist (the tree built the trap, the storm you can't see, the icicle that grows down,
+   soft falling and hard stopping, the floor left with the sea, the glacier gives you back, the bait restocks itself, the cave grows over you,
+   amber gives back everything). The boss earns its slot, and the dire-wolf chain and "match the decor" are strong lines.
+7. **Notes, not blocking (do not reopen the script for these):**
+   - The Dead Sea kicker (line 173) is the flattest in the episode and sits just before the midpoint zone shift. The director should cover it
+     with a strong visual (the sinkhole map multiplying) and the editor should go straight into the "LONG STAY" card with no extra hold.
+   - Brinicle (329) and Amber (425) are slightly over their word targets. The editor may tighten pauses, but no line cuts without coming back to me.
+   - The optional STAY tags in the script header are approved for the art director as listed (they are monotonic and each one is sourced in facts.md).
+8. **For the titler:** the working title "What Dying in Every Natural Trap Would Be Like" holds. The script shows each trap's death as a cartoon
+   beat and never describes the dying, which is how every T1 episode on this channel has worked. Run the brief's `signals` queries before you lock
+   the title. Thumbnail labels must avoid title words (brief section 3).
+9. **Series bible:** no update at this gate. The counter (100 to 107), the 012 log row and the "sticker already printed" survival variant go in
+   at the final package gate, matching 011's practice.
+
+SCRIPT: APPROVED. Next: director (shotlist), then titler.
