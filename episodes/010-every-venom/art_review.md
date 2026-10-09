@@ -199,3 +199,53 @@ A2. **s235, new `moon_jellyfish`:** the "BIG" jellyfish is an in-shot flat lilac
 - **Director:** fixes 1-24 (shotlist only), then swap in A1/A2 when they land. Re-render keyframes for every shot listed in fixes 1-24.
 - **Illustrator:** A1, A2, plus previews. I approve on sight.
 - I am not touching the shotlist. I updated `channel/art_bible.md` (field guide overlay colours as rendered, title-card y rule, alive `on_back` with a persistent counter).
+
+---
+
+## Round 2 (keyframe fixes re-check), 2026-10-09
+
+Reviewer: art director
+Scope: commit 8b48e86. All 59 shots whose shotlist entries changed (s010-s262), checked against the re-rendered `build/keyframes/*.png`
+(all rendered after the shotlist write) at full res or in 640 px montages. Also the new `snake_enclosure` / `moon_jellyfish` in place, a recount of
+the layout runs from the shotlist JSON, the visual-screener's round 1 items from the art side, and the thumbnail.
+
+### Fix-by-fix
+1. Title cards s047, s070, s093, s118, s138, s161, s211, s234, s257: now at y ~350, clear of the counter box. **Fixed.**
+2. s070: the sun moved off the title. **Fixed.**
+3. s185: the moon moved to the left, clear of SYDNEY. **Fixed.** (Non-blocking: "SPIDER" brushes the lit window. It stays legible.)
+4. s174: MOUTH is at about (1500, 430) and the arrow is re-aimed. **Fixed.**
+5. s204: PREDATORS is at y ~330. **Fixed.**
+6. s245: SOARING is at y ~330. **Fixed.**
+7. s190: "!" is at y ~360. s064: the top hornet and "!" pairs are below y 300. **Fixed.**
+8. s028, s040: the maps are reframed, labels sit above the frame, the corner is clear of the zone, and the bullet ant is off the frame. s059: Doug is off. **Fixed.**
+9. s233: the sun is at (300, 330), the stray red X is gone, and the struck 92 box sits on clean sky. **Fixed.**
+10. s216: CHANNEL / COUNTRY is in the side margin on two lines. **Fixed.**
+11. s132: the viper sits next to Doug. **Fixed.**
+12. s175: one head. The coil ends in a plain tail. **Fixed.**
+13. s115-s116: the three UV scorpions crawl out of the boot opening, the glow is centred on the boot, the torch is in his hand pointing down, and the face is clear. **Fixed.**
+14. s069: the swatter is past his feet. The cap and the swatter read separately. **Fixed.**
+15. s210: the cap is beside the hood and the white X eyes show. It reads as a death. **Fixed.**
+16. s200-s201: the HUMANS X sits above the head. **Fixed.**
+17. s202, s205-s208 use `flat` and s209 uses `gritted`. The mascot read is gone. **Fixed.**
+18. Layout variety: s010 and s058 are mirrored (Doug on the left), s083 has Doug on the left, and s123 and s059 drop Doug. Recount from the JSON: the house layout
+    is now 95/286 shots and **the longest run is 4** (s014-s017, s103-s106, s216-s219). That is acceptable. **Fixed.**
+19. s112: MATES and PREY appear in turn, and only SUNLIGHT is on screen at the end. One label at a time. **Fixed.**
+20. s036 PONERATOXIN is clear of the mandibles. s176 BLACK is clear of the coil. s206 DOES NOT MATTER ends before the house wall. **Fixed.**
+21. s237 and s262: the size labels sit beside the bell. s241: INVISIBLE sits beside the jelly. **Fixed.**
+22. s097, s103: `ink #ffffff`, and the white limbs read on the brown floor. **Fixed.**
+23. s119: the mamba is on the ground line. **Fixed.**
+24. s075: DOUBLE BED is beside the bed at y ~960. **Fixed.**
+A1. s224: `snake_enclosure` is a dry tank (sand, rock, branch, water dish, heat lamp, no water, fish or coral). Detailed tier. **Approved.**
+A2. s235: `moon_jellyfish` has a translucent bell, four horseshoe gonads, frilled margin and oral arms. It reads on dark teal, is clearly "big" next to the boat, and looks nothing like the box jelly. **Approved.**
+
+### Visual-screener round 1 items (art-side check only; the screener signs off separately)
+- 1 s175: resolved. 2 sunburn: s211-s223 use standard Doug, and only s230-s233 are sunburnt. Resolved. 3 s036: resolved. 4 s204: resolved.
+- 5 thumbnail: the taipan tile now shows a worried, sunburnt Doug with a sweat drop, and the Doug heads are larger. Resolved from my side.
+- 6-8: resolved (see 1-4 above). 9-10: resolved (A1/A2). 11 s013: a MORPHINE label sits above the bottle. Resolved. 12 s109: the scorpion and its glow are fully in frame. Resolved. 13 s233: resolved.
+- The é glyph note is for the editor at render time. It is not an art item.
+
+### No regressions
+No unlisted shots changed except s215 (sunburn revert). It is clean, and CHANNEL COUNTRY + REMOTE are clear of the zone. The counter values are unchanged (84 to 93).
+The field-guide inset positions are unchanged.
+
+VERDICT: PASS

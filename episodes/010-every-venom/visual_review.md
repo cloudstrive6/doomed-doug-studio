@@ -1,35 +1,44 @@
 # 010-every-venom: Visual review
 
-## Round 1 (pre-render: keyframes + thumbnail), 2026-10-09
+## Round 2 (pre-render: re-rendered keyframes + new thumbnail), 2026-10-09
 
-VERDICT: FAIL
+I checked every round 1 item against the full-size keyframes in `build/keyframes`. I also checked every other shot that changed in commit 8b48e86 (59 shots in total), looking for regressions: s010, s028, s040, s047, s058, s059, s064, s069, s075, s083, s097, s103, s112, s115, s116, s118, s119, s123, s132, s176, s190, s200 to s202, s205 to s208, s210, s215, s216, s232, s237, s241, s245 and s262. I then checked the new thumbnail at full size and at feed size.
 
-I checked all 286 shots on the 24 contact sheets and zoomed into the full-size keyframes where something looked wrong. Overall the episode is strong. Every animal is easy to recognise. Doug stays on-model through almost all of it, and the field-guide gag reads clearly. The death counter goes from 84 to 93, which matches 9 deaths and the end-card tally of 9 NO and 3 MAYBE. There is no gore: the deaths are X-eyes and collapse, and the blood cells in s082/s124 are diagrammatic. Nothing about the tone or framing reads as a kids' show. Pacing variety is fine: the longest run of near-identical compositions is 3 shots (world maps s104 to s106). Four problems block the render, plus several smaller fixes.
+### Round 1 items
 
-### Required fixes
+| # | Shot | Result |
+|---|---|---|
+| 1 | s175 two-headed mamba | **Fixed.** The coil now ends in a plain tail, with one head only. It matches s176. |
+| 2 | s211 to s223 sunburn | **Fixed.** s211, s212, s214, s217, s221, s222 and s223 all show standard Doug with a white head. The sunburn starts at s230 and carries through s232 and s233, as the script says ("walked for days"). |
+| 3 | s036 PONERATOXIN on the ant | **Fixed.** The label sits low and right, clear of the mandibles. |
+| 4 | s204 PREDATORS under the counter | **Fixed.** The label is now at about y 330, clear of the counter. (See minor note A.) |
+| 5 | Thumbnail taipan X-eyes | **Fixed.** The taipan tile shows a worried, sweating, sunburnt Doug, which matches "Doug is fine". |
+| 6 | Title cards vs counter (s093, s138, s161, s234, s257) | **Fixed.** Every big red title now sits clearly below the DOUG DEATHS box. No letters are clipped. |
+| 7 | s070 / s185 titles over scenery | s070 **fixed**: the sun moved right, clear of KOMODO DRAGON. s185 is **partly fixed**: the moon moved left, but the title still runs over the house roofline, door and window. It is fully legible (red with a black outline on grey-blue), so this does not block. (See minor note B.) |
+| 8 | s174 MOUTH label | **Fixed.** The label sits clear of the counter, and the arrow still points to the mouth. |
+| 9 | s224 fish tank | **Fixed.** It is now a dry terrarium with sand, a rock, a branch, a water dish and a heat lamp. It reads as a snake enclosure. |
+| 10 | s235 "BIG" jellyfish | **Fixed.** The new moon jellyfish has a domed bell, gonad rings, a fringe and wavy oral arms. It reads instantly as a jellyfish. |
+| 11 | s013 MORPHINE hidden | **Fixed.** A MORPHINE label now sits above the bottle cap, so the word reads even though the X still crosses the bottle label. |
+| 12 | s109 scorpion cropped | **Fixed.** The scorpion is fully in frame. The bottom edge of the glow halo still just touches the frame edge, which is acceptable. |
+| 13 | s233 sun behind struck-out counter | **Fixed.** The sun moved to the far left. The struck-out "DOUG DEATHS: 92" box sits on clean sky. |
 
-1. **s175 (illustrator / director): broken drawing, two-headed mamba.** The gaping mamba's coil has a second, small mamba head rising out of its right side (around x 1430 to 1540, y 630 to 800). It reads as a two-headed snake. Remove the extra head or the extra `black_mamba` element so the coil ends in a plain tail, as it does in s176, s177 and s181.
-2. **s211, s212, s214, s217, s221, s222, s223 (director / art director): Doug is sunburnt too early.** In these shots Doug is fully sunburnt (pink head, red limbs). The script only makes him sunburnt after he "walked for days across the outback" (s230 to s233). Use standard Doug, with the white head, from s211 to s223, and keep the sunburn for s230 to s233 only. The pink head also loses contrast against the tan sand. If you keep the sunburn, consider a lighter pink.
-3. **s036 (director): label sits on the drawing.** The "PONERATOXIN" text starts right on the ant's mandibles. Move the label to about x 1150, y 420, above and right of the ant, or shift the ant left by about 150 px, so the two don't touch.
-4. **s204 (director): label covered by the counter.** The "DOUG DEATHS: 90" box sits on top of the "PREDATORS" label. Move "PREDATORS" down to about y 300, or left to about x 1300.
-5. **Thumbnail (graphic designer): the Inland Taipan tile is misleading.** It shows Doug with X-eyes (dead), but the taipan is a survival: "Doug is fine", page marked MAYBE. Change that Doug head to a worried or sweating expression. Optionally add a sunburn tint to match the episode.
+### Regression sweep (other changed shots)
 
-### Should fix (minor, do these in the same pass)
+I found no new defects. Doug is on-model everywhere, including the cat-costume shots s202 to s210, where the red cap and white head stay readable. The counter steps correctly: 84 (platypus) to 85 (after the hornet), 86, 87, 89, 90, 91 (funnel-web death at s210), 91 through the taipan survival, and 92 at the box jellyfish. All the labels I checked are spelled correctly and sit inside the frame. The world maps (s028, s040, s059, s123, s132) and the Australia map (s216) circle the right regions. Nothing shows gore. The red speckle "danger glow" on the title silhouettes is a stylised halo, not blood. Nothing reads as a kids' show.
 
-6. **Big title cards are too close to the counter.** In s093, s138, s161, s234 and s257 the red title's cap height touches or tucks under the "DOUG DEATHS" box. In s161 and s257 the box clips the top of the letters. Lower these titles by about 40 px, or scale them to about 90%. Route: director.
-7. **s070 and s185 (director): titles over scenery.** The "KOMODO DRAGON" title runs over the sun. "SYDNEY FUNNEL-WEB SPIDER" runs over the moon and the house wall. Move the sun or moon, or lower the title. These are still legible, so this is cosmetic.
-8. **s174 (director): label wedged under the counter.** The "MOUTH" label is pressed against the bottom of the counter box. Move it to about x 1500, y 460 and keep the arrow.
-9. **s224 (illustrator / director): wrong tank.** The captive taipan is in a fish aquarium, with fish and coral. That reads as a sea snake. Use a dry terrarium: sand, a rock, a water dish, no fish.
-10. **s235 (illustrator): the "BIG" jellyfish doesn't read as a jellyfish.** It is a flat purple disc on four straight legs and looks like a stool or table. Give it a domed bell and wavy oral arms or tentacles.
-11. **s013 (director): label hidden.** The red X hides "MORPHINE" on the bottle label ("MO...NE" is all that shows). Shrink the X, or put a "MORPHINE" label above the bottle.
-12. **s109 (director): scorpion cropped.** The glowing scorpion and its glow circle are cut off at the bottom edge. Raise them by about 80 px.
-13. **s233 (director): sun behind the struck-out counter.** The sun peeks out from behind the crossed-out "DOUG DEATHS: 92" box. Move the sun left, to about x 1500, so the gag box sits on clean sky.
+### Thumbnail
 
-### Note for the editor (post-render check)
+- **Full size (1280x720):** all 12 tiles read clearly. The Doug heads are now about 1.5x larger, so the expressions run from smile to grimace to sweat to X-eyes across the tiles. The box jellyfish sits alone on the darkest tile. The labels avoid the title words. It works with "How Every Deadly Venom Would Kill Doug" and is not misleading.
+- **Feed size (320x180):** the red caps and the progression of faces survive. The octopus, hornet, mamba and box jellyfish stand out. The labels are small but legible.
 
-- The narration for s040 contains "Sateré-Mawé". The contact-sheet caption font drew the é characters as broken glyphs. Make sure the subtitle font in the final render and the Shorts shows é correctly.
+### Minor notes (optional, do not block the render)
 
-### Thumbnail readability
+A. **s204 (director):** the bottom edge of the PREDATORS box touches the robin's head. Nudge the label up about 20 px, to about y 310, or move the robin down 20 px.
+B. **s185 (director):** to finish round 1 item 7, lower the title to about y 560, over the open night sky above the spider, or scale it to 85% so it ends left of the house at about x 1030.
+C. **Thumbnail (graphic designer):** in the middle row, "Saw-Scaled Viper" and "Blue-Ring Octopus" almost touch. Tighten the letter spacing or use a size about 5% smaller for those two labels. Also consider "Blue-Ringed Octopus", the standard common name, if it fits.
 
-- **Full size (1280x720):** clean. All 12 animals are recognisable and look dangerous rather than cute. The backgrounds darken from sand to near-black, and the box jellyfish sits alone on the darkest tile, as the brief asked. The labels are animal names only and avoid the title words. It works well with the title "How Every Deadly Venom Would Kill Doug".
-- **Feed size (320x180):** the grid of animals still reads, and the octopus, hornet and mamba stand out. The labels are only just readable ("Asian" looks like "Asion"). Doug's heads are about 10 px across, so his expressions disappear and only the red caps show. Optional: make the Doug heads about 1.5x larger so the "getting worse tile by tile" progression survives at feed size.
+### Carried over for the editor (post-render)
+
+- Check that the subtitle font renders the é in "Sateré-Mawé" (s040) correctly in final.mp4 and the Shorts.
+
+VERDICT: PASS
