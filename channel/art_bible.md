@@ -130,12 +130,16 @@ lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008
   space is ground, move the label up instead.
 - **Field guide (from 010, `animals` playlist)**: `field_guide_open` (anchor centre, 560x360, spine at x=0) at scale 0.55
   centred about (330, 880) on every outcome beat, and 1.1-1.2 for hero close-ups. `field_guide` (closed) goes in Doug's front hand at 0.42-0.45.
-  The asset is never edited per episode, and all marks are overlays in fixed local zones: the animal name is black Arimo, 26-34 units, max 2
-  words, centred near (-140,-110). The tick is a green `#2e8b3a` check in the box at (+205,-115). The stamp is centred at (+140,+50): "NO" in red
-  `#e0201b` at about 110 units after a death, "MAYBE" in orange `#ff8a1f` at about 64 units after a survival, rotated -8 to -12 deg. Nothing crosses
+  The asset is never edited per episode, and all marks are overlays in fixed local zones: the animal name is bold Arimo `#2b2b2b`, 26-34 units, max 2
+  words, centred near (-140,-110). The tick is a green `#2fae3a` polyline, width 12, in the box at (+205,-115) (points (175,-118) (197,-92) (241,-152)).
+  The stamp is centred at (+140,+50), bold with a 3-unit black outline: "NO" in red `#e0201b` at 110 units after a death, "MAYBE" in orange
+  `#e07b00` at 64 units after a survival. Stamps are upright (the engine's `text` cannot rotate; values as rendered in 010). Nothing crosses
   the spine or the coffee ring.
 - **Alive `on_back` (from 010 s253-s255)**: floating or resting on his back is allowed with a living expression (`hopeful`, `flat`,
-  `gritted`...), the cap on, no `rotate`, and **no death counter**. Only `dead` + the counter make it a death beat.
+  `gritted`...), the cap on, and no `rotate`. The counter **must not tick** on it: in episodes with a persistent counter (008 onward) it keeps its
+  current value, and in older layouts it is hidden. Only `dead` + the counter ticking make it a death beat.
+- **Item title cards with the counter on screen (from 010)**: put the big red title at y 340-360 (or size it so the glyph tops stay at y ≥ 250).
+  At y 250-280 and size 120-160, the tops land in the counter zone and butt against the box (010: 9 title cards). Keep the sun/moon off the title line.
 - **Stop title card**: zone/creature name as a big `label` + Doug reacting.
 - **Scale comparison**: Doug next to the creature, both at true relative size, a `label` with the size.
 - **Time machine** (`time_machine`, from 003, time-travel episodes only): teal booth (`#2a9d8f`, dark `#1b6f66`),

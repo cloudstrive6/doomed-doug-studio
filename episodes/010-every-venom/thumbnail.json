@@ -8,10 +8,10 @@
  "elements": [
   {
    "type": "tile",
-   "x": 27,
-   "y": 10,
-   "w": 296,
-   "h": 172,
+   "x": 15,
+   "y": 12,
+   "w": 300,
+   "h": 164,
    "fill": "#f2d08c",
    "radius": 22,
    "frame_width": 6,
@@ -19,8 +19,8 @@
     {
      "type": "asset",
      "name": "platypus",
-     "x": 145.0,
-     "y": 146.0,
+     "x": 103.0,
+     "y": 144.0,
      "scale": 0.44,
      "flip": false,
      "boil": 0,
@@ -28,9 +28,9 @@
     },
     {
      "type": "doug",
-     "x": 283,
-     "y": 223.0,
-     "scale": 0.3,
+     "x": 267,
+     "y": 245.5,
+     "scale": 0.45,
      "pose": "stand",
      "expression": "hopeful",
      "facing": "left",
@@ -38,16 +38,25 @@
      "boil": 0,
      "wobble": 0
     }
-   ],
-   "label": "Platypus",
-   "label_size": 34
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Platypus",
+   "x": 165.0,
+   "y": 210,
+   "size": 40,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 1.6,
+   "font": "ComicNeue-Bold"
   },
   {
    "type": "tile",
-   "x": 337,
-   "y": 10,
-   "w": 296,
-   "h": 172,
+   "x": 325,
+   "y": 12,
+   "w": 300,
+   "h": 164,
    "fill": "#e8c07a",
    "radius": 22,
    "frame_width": 6,
@@ -55,8 +64,8 @@
     {
      "type": "asset",
      "name": "bullet_ant",
-     "x": 457.0,
-     "y": 96.0,
+     "x": 413.0,
+     "y": 94.0,
      "scale": 0.5,
      "flip": false,
      "boil": 0,
@@ -64,9 +73,9 @@
     },
     {
      "type": "doug",
-     "x": 593,
-     "y": 223.0,
-     "scale": 0.3,
+     "x": 577,
+     "y": 245.5,
+     "scale": 0.45,
      "pose": "stand",
      "expression": "gritted",
      "facing": "left",
@@ -74,16 +83,25 @@
      "boil": 0,
      "wobble": 0
     }
-   ],
-   "label": "Bullet Ant",
-   "label_size": 34
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Bullet Ant",
+   "x": 475.0,
+   "y": 210,
+   "size": 40,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 1.6,
+   "font": "ComicNeue-Bold"
   },
   {
    "type": "tile",
-   "x": 647,
-   "y": 10,
-   "w": 296,
-   "h": 172,
+   "x": 635,
+   "y": 12,
+   "w": 300,
+   "h": 164,
    "fill": "#d9a35e",
    "radius": 22,
    "frame_width": 6,
@@ -91,8 +109,8 @@
     {
      "type": "asset",
      "name": "asian_giant_hornet",
-     "x": 765.0,
-     "y": 104.0,
+     "x": 725.0,
+     "y": 102.0,
      "scale": 0.44,
      "flip": false,
      "boil": 0,
@@ -100,9 +118,9 @@
     },
     {
      "type": "doug",
-     "x": 903,
-     "y": 223.0,
-     "scale": 0.3,
+     "x": 887,
+     "y": 245.5,
+     "scale": 0.45,
      "pose": "stand",
      "expression": "gritted",
      "facing": "left",
@@ -112,16 +130,25 @@
      "boil": 0,
      "wobble": 0
     }
-   ],
-   "label": "Asian Giant Hornet",
-   "label_size": 34
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Giant Hornet",
+   "x": 785.0,
+   "y": 210,
+   "size": 40,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 1.6,
+   "font": "ComicNeue-Bold"
   },
   {
    "type": "tile",
-   "x": 957,
-   "y": 10,
-   "w": 296,
-   "h": 172,
+   "x": 945,
+   "y": 12,
+   "w": 300,
+   "h": 164,
    "fill": "#c98a52",
    "radius": 22,
    "frame_width": 6,
@@ -129,8 +156,8 @@
     {
      "type": "asset",
      "name": "komodo_dragon",
-     "x": 955.0,
-     "y": 158.0,
+     "x": 905.0,
+     "y": 156.0,
      "scale": 0.5,
      "flip": false,
      "boil": 0,
@@ -138,9 +165,9 @@
     },
     {
      "type": "doug",
-     "x": 1213,
-     "y": 223.0,
-     "scale": 0.3,
+     "x": 1197,
+     "y": 245.5,
+     "scale": 0.45,
      "pose": "stand",
      "expression": "sad",
      "facing": "left",
@@ -150,16 +177,25 @@
      "boil": 0,
      "wobble": 0
     }
-   ],
-   "label": "Komodo Dragon",
-   "label_size": 34
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Komodo Dragon",
+   "x": 1095.0,
+   "y": 210,
+   "size": 40,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 1.6,
+   "font": "ComicNeue-Bold"
   },
   {
    "type": "tile",
-   "x": 27,
-   "y": 246,
-   "w": 296,
-   "h": 172,
+   "x": 15,
+   "y": 248,
+   "w": 300,
+   "h": 164,
    "fill": "#7a6248",
    "radius": 22,
    "frame_width": 6,
@@ -167,8 +203,8 @@
     {
      "type": "asset",
      "name": "indian_red_scorpion",
-     "x": 145.0,
-     "y": 354.0,
+     "x": 115.0,
+     "y": 352.0,
      "scale": 0.48,
      "flip": false,
      "boil": 0,
@@ -176,9 +212,9 @@
     },
     {
      "type": "doug",
-     "x": 283,
-     "y": 459.0,
-     "scale": 0.3,
+     "x": 267,
+     "y": 481.5,
+     "scale": 0.45,
      "pose": "stand",
      "expression": "shock",
      "facing": "left",
@@ -186,16 +222,25 @@
      "boil": 0,
      "wobble": 0
     }
-   ],
-   "label": "Indian Red Scorpion",
-   "label_size": 34
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Red Scorpion",
+   "x": 165.0,
+   "y": 446,
+   "size": 40,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 1.6,
+   "font": "ComicNeue-Bold"
   },
   {
    "type": "tile",
-   "x": 337,
-   "y": 246,
-   "w": 296,
-   "h": 172,
+   "x": 325,
+   "y": 248,
+   "w": 300,
+   "h": 164,
    "fill": "#5f6a52",
    "radius": 22,
    "frame_width": 6,
@@ -203,8 +248,8 @@
     {
      "type": "asset",
      "name": "saw_scaled_viper",
-     "x": 445.0,
-     "y": 346.0,
+     "x": 415.0,
+     "y": 344.0,
      "scale": 0.58,
      "flip": false,
      "boil": 0,
@@ -212,9 +257,9 @@
     },
     {
      "type": "doug",
-     "x": 593,
-     "y": 459.0,
-     "scale": 0.3,
+     "x": 577,
+     "y": 481.5,
+     "scale": 0.45,
      "pose": "stand",
      "expression": "shock",
      "facing": "left",
@@ -224,16 +269,25 @@
      "boil": 0,
      "wobble": 0
     }
-   ],
-   "label": "Saw-Scaled Viper",
-   "label_size": 34
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Saw-Scaled Viper",
+   "x": 475.0,
+   "y": 446,
+   "size": 40,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 1.6,
+   "font": "ComicNeue-Bold"
   },
   {
    "type": "tile",
-   "x": 647,
-   "y": 246,
-   "w": 296,
-   "h": 172,
+   "x": 635,
+   "y": 248,
+   "w": 300,
+   "h": 164,
    "fill": "#3f6f6a",
    "radius": 22,
    "frame_width": 6,
@@ -241,8 +295,8 @@
     {
      "type": "asset",
      "name": "blue_ringed_octopus_flash",
-     "x": 759.0,
-     "y": 336.0,
+     "x": 729.0,
+     "y": 334.0,
      "scale": 0.52,
      "flip": false,
      "boil": 0,
@@ -250,9 +304,9 @@
     },
     {
      "type": "doug",
-     "x": 903,
-     "y": 459.0,
-     "scale": 0.3,
+     "x": 887,
+     "y": 481.5,
+     "scale": 0.45,
      "pose": "stand",
      "expression": "shock",
      "facing": "left",
@@ -262,16 +316,25 @@
      "boil": 0,
      "wobble": 0
     }
-   ],
-   "label": "Blue-Ringed Octopus",
-   "label_size": 34
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Blue-Ring Octopus",
+   "x": 785.0,
+   "y": 446,
+   "size": 37,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 1.6,
+   "font": "ComicNeue-Bold"
   },
   {
    "type": "tile",
-   "x": 957,
-   "y": 246,
-   "w": 296,
-   "h": 172,
+   "x": 945,
+   "y": 248,
+   "w": 300,
+   "h": 164,
    "fill": "#2f6b6e",
    "radius": 22,
    "frame_width": 6,
@@ -279,8 +342,8 @@
     {
      "type": "asset",
      "name": "black_mamba_gape",
-     "x": 1045.0,
-     "y": 362.0,
+     "x": 1000.0,
+     "y": 360.0,
      "scale": 0.4,
      "flip": false,
      "boil": 0,
@@ -288,9 +351,9 @@
     },
     {
      "type": "doug",
-     "x": 1213,
-     "y": 459.0,
-     "scale": 0.3,
+     "x": 1197,
+     "y": 481.5,
+     "scale": 0.45,
      "pose": "stand",
      "expression": "dead",
      "facing": "left",
@@ -298,16 +361,25 @@
      "boil": 0,
      "wobble": 0
     }
-   ],
-   "label": "Black Mamba",
-   "label_size": 34
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Black Mamba",
+   "x": 1095.0,
+   "y": 446,
+   "size": 40,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 1.6,
+   "font": "ComicNeue-Bold"
   },
   {
    "type": "tile",
-   "x": 27,
-   "y": 482,
-   "w": 296,
-   "h": 172,
+   "x": 15,
+   "y": 484,
+   "w": 300,
+   "h": 164,
    "fill": "#1f5f66",
    "radius": 22,
    "frame_width": 6,
@@ -315,8 +387,8 @@
     {
      "type": "asset",
      "name": "funnel_web_spider",
-     "x": 135.0,
-     "y": 638.0,
+     "x": 105.0,
+     "y": 636.0,
      "scale": 0.48,
      "flip": false,
      "boil": 0,
@@ -324,9 +396,9 @@
     },
     {
      "type": "doug",
-     "x": 283,
-     "y": 695.0,
-     "scale": 0.3,
+     "x": 267,
+     "y": 717.5,
+     "scale": 0.45,
      "pose": "stand",
      "expression": "dead",
      "facing": "left",
@@ -334,16 +406,25 @@
      "boil": 0,
      "wobble": 0
     }
-   ],
-   "label": "Funnel-Web Spider",
-   "label_size": 34
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Funnel-Web",
+   "x": 165.0,
+   "y": 682,
+   "size": 40,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 1.6,
+   "font": "ComicNeue-Bold"
   },
   {
    "type": "tile",
-   "x": 337,
-   "y": 482,
-   "w": 296,
-   "h": 172,
+   "x": 325,
+   "y": 484,
+   "w": 300,
+   "h": 164,
    "fill": "#14434c",
    "radius": 22,
    "frame_width": 6,
@@ -351,8 +432,8 @@
     {
      "type": "asset",
      "name": "inland_taipan",
-     "x": 185.0,
-     "y": 602.0,
+     "x": 145.0,
+     "y": 600.0,
      "scale": 0.85,
      "flip": false,
      "boil": 0,
@@ -360,26 +441,38 @@
     },
     {
      "type": "doug",
-     "x": 593,
-     "y": 695.0,
-     "scale": 0.3,
+     "x": 577,
+     "y": 717.5,
+     "scale": 0.45,
      "pose": "stand",
-     "expression": "dead",
+     "expression": "sad",
      "facing": "left",
-     "gear": [],
+     "gear": [
+      "sweat",
+      "sunburn"
+     ],
      "boil": 0,
      "wobble": 0
     }
-   ],
-   "label": "Inland Taipan",
-   "label_size": 34
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Inland Taipan",
+   "x": 475.0,
+   "y": 682,
+   "size": 40,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 1.6,
+   "font": "ComicNeue-Bold"
   },
   {
    "type": "tile",
-   "x": 647,
-   "y": 482,
-   "w": 296,
-   "h": 172,
+   "x": 635,
+   "y": 484,
+   "w": 300,
+   "h": 164,
    "fill": "#0b2a32",
    "radius": 22,
    "frame_width": 6,
@@ -387,8 +480,8 @@
     {
      "type": "asset",
      "name": "irukandji_jellyfish",
-     "x": 745.0,
-     "y": 546.0,
+     "x": 715.0,
+     "y": 544.0,
      "scale": 1.15,
      "flip": false,
      "boil": 0,
@@ -396,26 +489,37 @@
     },
     {
      "type": "doug",
-     "x": 903,
-     "y": 695.0,
-     "scale": 0.3,
-     "pose": "stand",
+     "x": 863,
+     "y": 606,
+     "scale": 0.36,
+     "pose": "float",
      "expression": "dead",
      "facing": "left",
      "gear": [],
      "boil": 0,
-     "wobble": 0
+     "wobble": 0,
+     "ghost": true,
+     "ink": "#9fb0b8"
     }
-   ],
-   "label": "Irukandji Jellyfish",
-   "label_size": 34
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Irukandji",
+   "x": 785.0,
+   "y": 682,
+   "size": 40,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 1.6,
+   "font": "ComicNeue-Bold"
   },
   {
    "type": "tile",
-   "x": 957,
-   "y": 482,
-   "w": 296,
-   "h": 172,
+   "x": 945,
+   "y": 484,
+   "w": 300,
+   "h": 164,
    "fill": "#03141a",
    "radius": 22,
    "frame_width": 6,
@@ -423,17 +527,26 @@
     {
      "type": "asset",
      "name": "box_jellyfish_eyes",
-     "x": 1105.0,
-     "y": 530.0,
+     "x": 1095.0,
+     "y": 528.0,
      "scale": 0.36,
      "flip": false,
      "boil": 0,
      "wobble": 0,
      "ink": "#ffffff"
     }
-   ],
-   "label": "Box Jellyfish",
-   "label_size": 34
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Box Jellyfish",
+   "x": 1095.0,
+   "y": 682,
+   "size": 40,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 1.6,
+   "font": "ComicNeue-Bold"
   }
  ]
 }

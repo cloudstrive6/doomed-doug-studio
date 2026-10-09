@@ -3214,7 +3214,7 @@
      },
      {
       "type": "doug",
-      "x": 1700,
+      "x": 250,
       "y": 869.2,
       "scale": 0.4,
       "pose": "stand",
@@ -3746,11 +3746,21 @@
       "scale": 1.6
      },
      {
+      "type": "label",
+      "text": "MORPHINE",
+      "x": 860,
+      "y": 330,
+      "size": 50,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
+     },
+     {
       "type": "asset",
       "name": "red_x",
       "x": 860,
       "y": 560,
-      "scale": 1.4,
+      "scale": 1.0,
       "appear": 0.55
      },
      {
@@ -8244,16 +8254,16 @@
      {
       "type": "asset",
       "name": "world_map",
-      "x": 900,
-      "y": 560,
-      "scale": 0.95
+      "x": 860,
+      "y": 590,
+      "scale": 0.82
      },
      {
       "type": "ellipse",
-      "x": 638.2222222222222,
-      "y": 568.4444444444445,
-      "rx": 130,
-      "ry": 190,
+      "x": 634.0444444444444,
+      "y": 597.2888888888889,
+      "rx": 112,
+      "ry": 164,
       "fill": null,
       "color": "#e0201b",
       "width": 8,
@@ -8262,8 +8272,8 @@
      {
       "type": "label",
       "text": "BULLET ANT",
-      "x": 520,
-      "y": 230,
+      "x": 640,
+      "y": 205,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -10239,8 +10249,8 @@
      {
       "type": "wordart",
       "text": "PONERATOXIN",
-      "x": 1200,
-      "y": 560,
+      "x": 1150,
+      "y": 820,
       "size": 96,
       "boil": 0,
       "appear": 0.35
@@ -10756,16 +10766,16 @@
      {
       "type": "asset",
       "name": "world_map",
-      "x": 820,
-      "y": 560,
-      "scale": 0.95
+      "x": 860,
+      "y": 590,
+      "scale": 0.82
      },
      {
       "type": "ellipse",
-      "x": 566.6666666666667,
-      "y": 576.8888888888889,
-      "rx": 110,
-      "ry": 80,
+      "x": 641.3333333333334,
+      "y": 604.5777777777778,
+      "rx": 95,
+      "ry": 69,
       "fill": null,
       "color": "#e0201b",
       "width": 8,
@@ -10774,8 +10784,8 @@
      {
       "type": "label",
       "text": "BRAZILIAN AMAZON",
-      "x": 820,
-      "y": 210,
+      "x": 640,
+      "y": 205,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -10785,7 +10795,7 @@
      {
       "type": "asset",
       "name": "bullet_ant",
-      "x": 1640,
+      "x": 1720,
       "y": 840,
       "scale": 0.4,
       "appear": 0.6
@@ -12276,7 +12286,7 @@
       "type": "text",
       "text": "ASIAN GIANT HORNET",
       "x": 960,
-      "y": 280,
+      "y": 350,
       "size": 130,
       "color": "#e0201b",
       "bold": true,
@@ -13720,14 +13730,14 @@
      {
       "type": "asset",
       "name": "beehive",
-      "x": 1100,
+      "x": 850,
       "y": 960,
       "scale": 1.1
      },
      {
       "type": "asset",
       "name": "red_x",
-      "x": 1100,
+      "x": 850,
       "y": 760,
       "scale": 1.0,
       "appear": 0.4
@@ -13735,7 +13745,7 @@
      {
       "type": "asset",
       "name": "clock",
-      "x": 560,
+      "x": 1450,
       "y": 440,
       "scale": 0.8,
       "appear": 0.2
@@ -13743,7 +13753,7 @@
      {
       "type": "wordart",
       "text": "HOURS",
-      "x": 560,
+      "x": 1450,
       "y": 680,
       "size": 96,
       "boil": 0,
@@ -13751,12 +13761,12 @@
      },
      {
       "type": "doug",
-      "x": 1650,
+      "x": 260,
       "y": 891.6,
       "scale": 0.45,
       "pose": "stand",
       "expression": "sad",
-      "facing": "left"
+      "facing": "right"
      },
      {
       "type": "label",
@@ -13823,15 +13833,6 @@
       "size": 84,
       "boil": 0,
       "appear": 0.6
-     },
-     {
-      "type": "doug",
-      "x": 1760,
-      "y": 900,
-      "scale": 0.32,
-      "pose": "stand",
-      "expression": "sad",
-      "facing": "left"
      },
      {
       "type": "label",
@@ -14504,7 +14505,7 @@
       "type": "asset",
       "name": "asian_giant_hornet",
       "x": 1300,
-      "y": 300,
+      "y": 440,
       "scale": 0.35,
       "appear": 0.25
      },
@@ -14512,7 +14513,7 @@
       "type": "asset",
       "name": "exclamation_mark",
       "x": 1300,
-      "y": 200,
+      "y": 340,
       "scale": 0.35,
       "appear": 0.3
      },
@@ -15813,8 +15814,8 @@
      {
       "type": "asset",
       "name": "fly_swatter",
-      "x": 638.0,
-      "y": 942,
+      "x": 1100,
+      "y": 950,
       "scale": 0.55,
       "rotate": 90
      },
@@ -16014,8 +16015,8 @@
      },
      {
       "type": "circle",
-      "x": 1720,
-      "y": 330,
+      "x": 1760,
+      "y": 560,
       "r": 60,
       "fill": "#fff0a0",
       "color": "#e0a000",
@@ -16190,7 +16191,7 @@
       "type": "text",
       "text": "KOMODO DRAGON",
       "x": 960,
-      "y": 280,
+      "y": 350,
       "size": 150,
       "color": "#e0201b",
       "bold": true,
@@ -17428,14 +17429,15 @@
      {
       "type": "asset",
       "name": "komodo_dragon",
-      "x": 900,
+      "x": 1020,
       "y": 720,
-      "scale": 1.0
+      "scale": 1.0,
+      "flip": true
      },
      {
       "type": "asset",
       "name": "bed",
-      "x": 760,
+      "x": 1100,
       "y": 1010,
       "scale": 0.8,
       "appear": 0.3
@@ -17443,8 +17445,8 @@
      {
       "type": "label",
       "text": "DOUBLE BED",
-      "x": 760,
-      "y": 746.0,
+      "x": 1600,
+      "y": 960,
       "size": 40,
       "bold": true,
       "boil": 0.4,
@@ -17453,12 +17455,12 @@
      },
      {
       "type": "doug",
-      "x": 1650,
+      "x": 260,
       "y": 936.2,
       "scale": 0.42,
       "pose": "stand",
       "expression": "flat",
-      "facing": "left"
+      "facing": "right"
      },
      {
       "type": "label",
@@ -18969,21 +18971,21 @@
      {
       "type": "asset",
       "name": "petri_dish",
-      "x": 700,
+      "x": 1200,
       "y": 640,
       "scale": 2.0
      },
      {
       "type": "asset",
       "name": "microbe",
-      "x": 700,
+      "x": 1200,
       "y": 560,
       "scale": 0.6
      },
      {
       "type": "asset",
       "name": "red_x",
-      "x": 700,
+      "x": 1200,
       "y": 560,
       "scale": 0.7,
       "appear": 0.55
@@ -18991,7 +18993,7 @@
      {
       "type": "label",
       "text": "16 DRAGONS",
-      "x": 700,
+      "x": 1200,
       "y": 300,
       "size": 50,
       "bold": true,
@@ -19002,19 +19004,19 @@
      {
       "type": "asset",
       "name": "komodo_dragon",
-      "x": 1350,
+      "x": 620,
       "y": 900,
       "scale": 0.45,
       "appear": 0.3
      },
      {
       "type": "doug",
-      "x": 1700,
-      "y": 700,
+      "x": 260,
+      "y": 900,
       "scale": 0.4,
       "pose": "stand",
       "expression": "confused",
-      "facing": "left"
+      "facing": "right"
      },
      {
       "type": "label",
@@ -21037,8 +21039,8 @@
      },
      {
       "type": "rect",
-      "x": 1460,
-      "y": 330,
+      "x": 1560,
+      "y": 470,
       "w": 260,
       "h": 200,
       "fill": "#22344a",
@@ -21049,12 +21051,12 @@
       "type": "line",
       "points": [
        [
-        1590,
-        330
+        1690,
+        470
        ],
        [
-        1590,
-        530
+        1690,
+        670
        ]
       ],
       "color": "#000000",
@@ -21062,8 +21064,8 @@
      },
      {
       "type": "circle",
-      "x": 1650,
-      "y": 390,
+      "x": 1750,
+      "y": 530,
       "r": 26,
       "fill": "#fff3c0",
       "color": "#000000",
@@ -21233,7 +21235,7 @@
       "type": "text",
       "text": "INDIAN RED SCORPION",
       "x": 960,
-      "y": 260,
+      "y": 350,
       "size": 120,
       "color": "#e0201b",
       "bold": true,
@@ -21920,7 +21922,8 @@
       "scale": 0.4,
       "pose": "stand",
       "expression": "gritted",
-      "facing": "left"
+      "facing": "left",
+      "ink": "#ffffff"
      },
      {
       "type": "label",
@@ -22627,7 +22630,8 @@
       "scale": 0.36,
       "pose": "stand",
       "expression": "shock",
-      "facing": "left"
+      "facing": "left",
+      "ink": "#ffffff"
      },
      {
       "type": "label",
@@ -23670,7 +23674,7 @@
      {
       "type": "spray",
       "x": 1100,
-      "y": 900,
+      "y": 820,
       "r": 260,
       "color": "#3dffc8",
       "density": 0.25,
@@ -23680,7 +23684,7 @@
       "type": "asset",
       "name": "indian_red_scorpion_uv",
       "x": 1100,
-      "y": 900,
+      "y": 820,
       "scale": 0.8,
       "appear": 0.1
      },
@@ -23861,7 +23865,7 @@
      },
      {
       "type": "label",
-      "text": "FINDING EACH OTHER",
+      "text": "MATES",
       "x": 490,
       "y": 820,
       "size": 36,
@@ -23880,7 +23884,7 @@
      },
      {
       "type": "label",
-      "text": "LURING PREY",
+      "text": "PREY",
       "x": 960,
       "y": 820,
       "size": 36,
@@ -23901,13 +23905,39 @@
      },
      {
       "type": "label",
-      "text": "BLOCKING SUNLIGHT",
+      "text": "SUNLIGHT",
       "x": 1440,
       "y": 820,
       "size": 36,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
+      "appear": 0.6
+     },
+     {
+      "type": "rect",
+      "x": 360,
+      "y": 770,
+      "w": 260,
+      "h": 100,
+      "fill": "#f7f2e6",
+      "width": 0,
+      "outline": false,
+      "boil": 0,
+      "wobble": 0,
+      "appear": 0.35
+     },
+     {
+      "type": "rect",
+      "x": 830,
+      "y": 770,
+      "w": 260,
+      "h": 100,
+      "fill": "#f7f2e6",
+      "width": 0,
+      "outline": false,
+      "boil": 0,
+      "wobble": 0,
       "appear": 0.6
      },
      {
@@ -24583,23 +24613,23 @@
       "x": 860,
       "y": 868.8,
       "scale": 0.6,
-      "pose": "stand",
+      "pose": "point",
       "expression": "shock",
-      "facing": "right"
+      "facing": "left"
      },
      {
       "type": "asset",
       "name": "uv_torch",
-      "x": 890.1,
-      "y": 860.7,
-      "scale": 0.5,
-      "rotate": 70
+      "x": 789,
+      "y": 789,
+      "scale": 0.45,
+      "rotate": 55
      },
      {
       "type": "spray",
-      "x": 878.9615462025796,
-      "y": 898.007061186923,
-      "r": 140,
+      "x": 889,
+      "y": 915,
+      "r": 95,
       "color": "#3dffc8",
       "density": 0.35,
       "appear": 0.3
@@ -24615,27 +24645,27 @@
      {
       "type": "asset",
       "name": "indian_red_scorpion_uv",
-      "x": 859.0,
-      "y": 808.0,
-      "scale": 0.22,
-      "rotate": -70,
+      "x": 866,
+      "y": 884,
+      "scale": 0.17,
+      "rotate": -60,
       "appear": 0.5
      },
      {
       "type": "asset",
       "name": "indian_red_scorpion_uv",
-      "x": 919.0,
-      "y": 798.0,
-      "scale": 0.22,
-      "rotate": -100,
+      "x": 893,
+      "y": 872,
+      "scale": 0.17,
+      "rotate": -90,
       "appear": 0.6
      },
      {
       "type": "asset",
       "name": "indian_red_scorpion_uv",
-      "x": 969.0,
-      "y": 828.0,
-      "scale": 0.22,
+      "x": 920,
+      "y": 884,
+      "scale": 0.17,
       "rotate": -120,
       "appear": 0.7
      },
@@ -24919,23 +24949,23 @@
       "x": 860,
       "y": 868.8,
       "scale": 0.6,
-      "pose": "stand",
+      "pose": "point",
       "expression": "gritted",
-      "facing": "right"
+      "facing": "left"
      },
      {
       "type": "asset",
       "name": "uv_torch",
-      "x": 890.1,
-      "y": 860.7,
-      "scale": 0.5,
-      "rotate": 70
+      "x": 789,
+      "y": 789,
+      "scale": 0.45,
+      "rotate": 55
      },
      {
       "type": "spray",
-      "x": 878.9615462025796,
-      "y": 898.007061186923,
-      "r": 140,
+      "x": 889,
+      "y": 915,
+      "r": 95,
       "color": "#3dffc8",
       "density": 0.35
      },
@@ -24949,25 +24979,25 @@
      {
       "type": "asset",
       "name": "indian_red_scorpion_uv",
-      "x": 859.0,
-      "y": 808.0,
-      "scale": 0.22,
-      "rotate": -70
+      "x": 866,
+      "y": 884,
+      "scale": 0.17,
+      "rotate": -60
      },
      {
       "type": "asset",
       "name": "indian_red_scorpion_uv",
-      "x": 919.0,
-      "y": 798.0,
-      "scale": 0.22,
-      "rotate": -100
+      "x": 893,
+      "y": 872,
+      "scale": 0.17,
+      "rotate": -90
      },
      {
       "type": "asset",
       "name": "indian_red_scorpion_uv",
-      "x": 969.0,
-      "y": 828.0,
-      "scale": 0.22,
+      "x": 920,
+      "y": 884,
+      "scale": 0.17,
       "rotate": -120
      },
      {
@@ -25044,8 +25074,8 @@
    },
    "camera": {
     "move": "zoom_in",
-    "x": 878.9615462025796,
-    "y": 838.007061186923,
+    "x": 889,
+    "y": 880,
     "zoom": 1.1
    }
   },
@@ -25550,7 +25580,7 @@
       "type": "text",
       "text": "SAW-SCALED VIPER",
       "x": 960,
-      "y": 280,
+      "y": 350,
       "size": 140,
       "color": "#e0201b",
       "bold": true,
@@ -25765,8 +25795,8 @@
      {
       "type": "asset",
       "name": "black_mamba",
-      "x": 1150,
-      "y": 520,
+      "x": 1350,
+      "y": 860,
       "scale": 0.8,
       "silhouette": true,
       "glow_r": 0
@@ -26377,15 +26407,6 @@
       "width": 9,
       "head": 40,
       "appear": 0.45
-     },
-     {
-      "type": "doug",
-      "x": 1760,
-      "y": 900,
-      "scale": 0.32,
-      "pose": "point",
-      "expression": "flat",
-      "facing": "left"
      },
      {
       "type": "label",
@@ -27651,15 +27672,15 @@
      {
       "type": "asset",
       "name": "saw_scaled_viper",
-      "x": 1600,
-      "y": 300,
-      "scale": 0.4,
+      "x": 1680,
+      "y": 930,
+      "scale": 0.3,
       "appear": 0.2
      },
      {
       "type": "doug",
-      "x": 1760,
-      "y": 640,
+      "x": 1790,
+      "y": 900,
       "scale": 0.32,
       "pose": "stand",
       "expression": "sad",
@@ -29212,7 +29233,7 @@
       "type": "text",
       "text": "BLUE-RINGED OCTOPUS",
       "x": 960,
-      "y": 260,
+      "y": 350,
       "size": 120,
       "color": "#e0201b",
       "bold": true,
@@ -33161,8 +33182,8 @@
      },
      {
       "type": "circle",
-      "x": 1720,
-      "y": 330,
+      "x": 1760,
+      "y": 560,
       "r": 46,
       "fill": "#e8f4f0",
       "color": "#9fb8b6",
@@ -33294,7 +33315,7 @@
       "type": "text",
       "text": "BLACK MAMBA",
       "x": 960,
-      "y": 260,
+      "y": 350,
       "size": 160,
       "color": "#e0201b",
       "bold": true,
@@ -35427,8 +35448,8 @@
      {
       "type": "arrow",
       "from": [
-       1600,
-       300
+       1500,
+       470
       ],
       "to": [
        1380.0,
@@ -35443,8 +35464,8 @@
      {
       "type": "label",
       "text": "MOUTH",
-      "x": 1650,
-      "y": 250,
+      "x": 1500,
+      "y": 430,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -35630,13 +35651,6 @@
       "color": "#000000",
       "width": 4,
       "smooth": true
-     },
-     {
-      "type": "asset",
-      "name": "black_mamba",
-      "x": 1080,
-      "y": 760,
-      "scale": 1.0
      },
      {
       "type": "asset",
@@ -35840,9 +35854,9 @@
      {
       "type": "wordart",
       "text": "BLACK",
-      "x": 1260.0,
-      "y": 860,
-      "size": 110,
+      "x": 1560,
+      "y": 640,
+      "size": 100,
       "boil": 0,
       "appear": 0.55
      },
@@ -38351,8 +38365,8 @@
      },
      {
       "type": "circle",
-      "x": 300,
-      "y": 260,
+      "x": 200,
+      "y": 500,
       "r": 48,
       "fill": "#e8f0f0",
       "color": "#9fb0b0",
@@ -40087,7 +40101,7 @@
       "type": "asset",
       "name": "exclamation_mark",
       "x": 1500,
-      "y": 260,
+      "y": 360,
       "scale": 0.6,
       "appear": 0.55
      },
@@ -41299,7 +41313,7 @@
       "type": "asset",
       "name": "red_x",
       "x": 1450,
-      "y": 620,
+      "y": 540,
       "scale": 0.5,
       "appear": 0.65
      },
@@ -41402,7 +41416,7 @@
       "type": "asset",
       "name": "red_x",
       "x": 1450,
-      "y": 620,
+      "y": 540,
       "scale": 0.5
      },
      {
@@ -41539,7 +41553,7 @@
       "y": 816.4,
       "scale": 0.55,
       "pose": "stand",
-      "expression": "smirk",
+      "expression": "flat",
       "facing": "right"
      },
      {
@@ -41778,7 +41792,7 @@
       "type": "label",
       "text": "PREDATORS",
       "x": 1300,
-      "y": 220,
+      "y": 330,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -41852,7 +41866,7 @@
       "y": 668.8,
       "scale": 0.6,
       "pose": "stand",
-      "expression": "smirk",
+      "expression": "flat",
       "facing": "right"
      },
      {
@@ -42179,7 +42193,7 @@
       "y": 758.0,
       "scale": 0.6,
       "pose": "sit",
-      "expression": "smirk",
+      "expression": "flat",
       "facing": "right"
      },
      {
@@ -42200,7 +42214,7 @@
      {
       "type": "wordart",
       "text": "DOES NOT MATTER",
-      "x": 760,
+      "x": 620,
       "y": 420,
       "size": 84,
       "boil": 0,
@@ -42568,7 +42582,7 @@
       "y": 758.0,
       "scale": 0.6,
       "pose": "sit",
-      "expression": "smirk",
+      "expression": "flat",
       "facing": "right"
      },
      {
@@ -42971,7 +42985,7 @@
       "y": 758.0,
       "scale": 0.6,
       "pose": "sit",
-      "expression": "smirk",
+      "expression": "flat",
       "facing": "right"
      },
      {
@@ -43759,8 +43773,8 @@
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 1180,
-      "y": 760,
+      "x": 1150,
+      "y": 800,
       "scale": 0.45
      },
      {
@@ -43892,8 +43906,8 @@
      },
      {
       "type": "circle",
-      "x": 1720,
-      "y": 330,
+      "x": 1760,
+      "y": 560,
       "r": 66,
       "fill": "#fff36b",
       "color": "#e0a000",
@@ -44074,7 +44088,7 @@
       "type": "text",
       "text": "INLAND TAIPAN",
       "x": 960,
-      "y": 280,
+      "y": 350,
       "size": 160,
       "color": "#e0201b",
       "bold": true,
@@ -44099,10 +44113,7 @@
       "scale": 0.55,
       "pose": "stand",
       "expression": "gritted",
-      "facing": "right",
-      "gear": [
-       "sunburn"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -44342,10 +44353,7 @@
       "scale": 0.55,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right",
-      "gear": [
-       "sunburn"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -44635,10 +44643,7 @@
        "walk2"
       ],
       "expression": "hopeful",
-      "facing": "right",
-      "gear": [
-       "sunburn"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -44928,10 +44933,7 @@
        "walk2"
       ],
       "expression": "flat",
-      "facing": "right",
-      "gear": [
-       "sunburn"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -45034,10 +45036,21 @@
      },
      {
       "type": "label",
-      "text": "CHANNEL COUNTRY",
-      "x": 1500,
-      "y": 640,
-      "size": 40,
+      "text": "CHANNEL",
+      "x": 1690,
+      "y": 575,
+      "size": 36,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.4
+     },
+     {
+      "type": "label",
+      "text": "COUNTRY",
+      "x": 1690,
+      "y": 630,
+      "size": 36,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
@@ -45299,10 +45312,7 @@
       "scale": 0.4,
       "pose": "stand",
       "expression": "flat",
-      "facing": "left",
-      "gear": [
-       "sunburn"
-      ]
+      "facing": "left"
      },
      {
       "type": "label",
@@ -45909,10 +45919,7 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "gritted",
-      "facing": "right",
-      "gear": [
-       "sunburn"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -46164,10 +46171,7 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "confused",
-      "facing": "right",
-      "gear": [
-       "sunburn"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -46405,10 +46409,7 @@
       "scale": 0.5,
       "pose": "stand",
       "expression": "gritted",
-      "facing": "right",
-      "gear": [
-       "sunburn"
-      ]
+      "facing": "right"
      },
      {
       "type": "label",
@@ -46447,7 +46448,7 @@
      },
      {
       "type": "asset",
-      "name": "aquarium",
+      "name": "snake_enclosure",
       "x": 700,
       "y": 800,
       "scale": 1.0
@@ -47660,7 +47661,7 @@
      },
      {
       "type": "circle",
-      "x": 1720,
+      "x": 300,
       "y": 330,
       "r": 66,
       "fill": "#fff36b",
@@ -47974,7 +47975,7 @@
      },
      {
       "type": "circle",
-      "x": 1720,
+      "x": 300,
       "y": 330,
       "r": 66,
       "fill": "#fff36b",
@@ -48192,14 +48193,6 @@
       "appear": 0.55
      },
      {
-      "type": "asset",
-      "name": "red_x",
-      "x": 1150,
-      "y": 600,
-      "scale": 0.6,
-      "appear": 0.6
-     },
-     {
       "type": "group",
       "x": 330,
       "y": 880,
@@ -48407,7 +48400,7 @@
       "type": "text",
       "text": "IRUKANDJI JELLYFISH",
       "x": 960,
-      "y": 260,
+      "y": 350,
       "size": 128,
       "color": "#e0201b",
       "bold": true,
@@ -48582,62 +48575,11 @@
       "scale": 0.9
      },
      {
-      "type": "ellipse",
+      "type": "asset",
+      "name": "moon_jellyfish",
       "x": 1300,
       "y": 800,
-      "rx": 170,
-      "ry": 110,
-      "fill": "#cfa0d8",
-      "color": "#ffffff",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1220,
-        900
-       ],
-       [
-        1210,
-        1040
-       ]
-      ],
-      "color": "#ffffff",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1300,
-        910
-       ],
-       [
-        1310,
-        1060
-       ]
-      ],
-      "color": "#ffffff",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1380,
-        900
-       ],
-       [
-        1400,
-        1040
-       ]
-      ],
-      "color": "#ffffff",
-      "width": 4,
+      "scale": 0.7,
       "appear": 0.3
      },
      {
@@ -48754,8 +48696,8 @@
      {
       "type": "label",
       "text": "1 TO 2 CM",
-      "x": 960,
-      "y": 240,
+      "x": 1350,
+      "y": 420,
       "size": 52,
       "bold": true,
       "boil": 0.4,
@@ -49104,8 +49046,8 @@
      {
       "type": "label",
       "text": "INVISIBLE",
-      "x": 1100,
-      "y": 900,
+      "x": 1350,
+      "y": 760,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -49492,8 +49434,8 @@
      {
       "type": "label",
       "text": "SOARING",
-      "x": 1420,
-      "y": 240,
+      "x": 1480,
+      "y": 330,
       "size": 48,
       "bold": true,
       "boil": 0.4,
@@ -51009,7 +50951,7 @@
       "type": "text",
       "text": "BOX JELLYFISH",
       "x": 960,
-      "y": 250,
+      "y": 350,
       "size": 150,
       "color": "#e0201b",
       "bold": true,
@@ -51029,7 +50971,7 @@
      },
      {
       "type": "doug",
-      "x": 420,
+      "x": 250,
       "y": 490,
       "scale": 0.5,
       "pose": [
@@ -51610,8 +51552,8 @@
      {
       "type": "label",
       "text": "30 CM",
-      "x": 760,
-      "y": 210,
+      "x": 560,
+      "y": 260,
       "size": 50,
       "bold": true,
       "boil": 0.4,

@@ -401,3 +401,18 @@ the grey paint spray on Doug, the UV/torch beams, the scent cloud, the hornet sw
 - **Facing / anchor / size:** Side/front view. Anchor `bc`, about 300x700.
 - **Shots:** s265.
 - **Done** (illustrator batch 3): `assets/library/basketball_hoop.json`, preview `assets/previews/010-every-venom-assets-c2.png`, assets/previews/010-every-venom-assets-c3.png (dark bg / rotated / bottom-anchored check)
+
+## Review fixes (art_review A1/A2, visual_review 9/10/1)
+
+### `snake_enclosure` (A1, s224)
+- **What:** A dry glass reptile terrarium to replace `aquarium` in s224. It has a black frame, a mesh lid with a dome heat lamp, sand, a rock, a branch, a water dish and dry grass. There is no water fill, no fish and no coral.
+- **Facing / anchor / size:** Anchor `bc`, the same footprint as `aquarium`: glass x -290..+290, y -372..0, lid to -392, lamp top -500. The clear middle holds `inland_taipan` at 0.45-0.5. Place the snake at the tank x, with y = tank y - 110 x tank scale.
+- **Done** (illustrator batch 4): `assets/library/snake_enclosure.json`, preview `assets/previews/010-every-venom-assets-d1.png`, in-context check with the taipan at 0.45 `assets/previews/010-every-venom-assets-d2.png`
+
+### `moon_jellyfish` (A2, s235)
+- **What:** A big, harmless moon jelly. It has a round saucer bell, four violet ring gonads in a clover, a scalloped margin with short white tentacles, and four short frilly oral arms. The bell is round, not square like the box jelly's.
+- **Facing / anchor / size:** Anchor = bell centre. Bell x -232..+232, y -106..+74, and the arms reach y +265. Use it at 0.6-0.8 next to `fishing_boat`.
+- **Done** (illustrator batch 4): `assets/library/moon_jellyfish.json`, preview `assets/previews/010-every-venom-assets-d1.png`, checked on `#1f5f66` and `#123c48` in `assets/previews/010-every-venom-assets-d2.png`
+
+### `black_mamba_gape` two-headed snake (s175)
+- **No asset change.** The asset has one head, and its coil already ends in a tail tip (preview `assets/previews/010-every-venom-mamba-check.png`). The second head in s175 is the head of the separate `black_mamba` element at (1080, 760), which is drawn under the gape. The engine has no way to hide an element partway through a shot. **Director:** delete the `black_mamba` element in s175, or move the gape to a new shot (art_review fix 12).
