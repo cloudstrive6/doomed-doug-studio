@@ -31,3 +31,4 @@ A (archetype C hero close-up, "VEGETARIAN") beats B (archetype B distance pyrami
 3. Archetype C carries the reference channel's biggest outliers; it is what the brief proposed and what the titler's thumbnail_brief specified.
 4. Policy: both clean (no blood, no red sweat, no "cocaine", no teeth touching Doug, adult tone). A's hippo looks dangerous, not cuddly.
 Keep B on file as a test variant if YouTube Test & Compare is used after launch.
+- 2026-10-09: Packaged. Script 3 rounds (fact fixes, first death ~3:42), keyframes 2 rounds (art-director+visual-screener PASS), thumbnail A (VEGETARIAN) PASS. Risks: runtime 14.5 min (under brief 15-17); hipposudoric pronunciation not checked by ear; s250 black frame ~1.7s; thumbnail optional nits (text margin, stray tooth).
