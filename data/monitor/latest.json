@@ -1,11 +1,11 @@
 {
- "at": "2026-10-09T03:01:36+00:00",
+ "at": "2026-10-09T04:01:40+00:00",
  "issues": [
   {
    "key": "schedule_gap",
    "severity": "medium",
    "owner": "auto",
-   "summary": "No long video scheduled for Sun 11 Oct 5:00 AM NZDT, Mon 12 Oct 5:00 AM NZDT",
+   "summary": "No long video scheduled for Sun 11 Oct 5:00 AM NZDT, Mon 12 Oct 5:00 AM NZDT, Tue 13 Oct 5:00 AM NZDT",
    "detail": "{\"uploaded_total\": 9, \"queued\": 1, \"target\": 4, \"phase\": \"launch\", \"in_progress\": [\"010-every-venom\"], \"need_episode\": true, \"later_scheduled\": []}",
    "route": "production run",
    "fixed": false,
