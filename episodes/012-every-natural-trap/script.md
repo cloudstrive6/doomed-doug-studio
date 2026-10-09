@@ -1,5 +1,5 @@
 <!-- axis: duration of entrapment. Ordered by how long each trap keeps a body, from minutes (tree well) to about two hundred and thirty million years (amber). Inside "Short stay." the order follows severity, as the brief allows. Three spoken section headers: "Short stay." (in the opener, before item 1), "Long stay." (before item 6, Crevasse), "Permanent stay." (before item 8, Altamura Cave). Background ramp per brief: snow white and ice blue, red-orange canyon, Antarctic navy, grey avalanche, salt white, glacier blue-grey, asphalt black-brown, cave limestone ochre, deep amber gold. -->
-<!-- Episode 012: What Dying in Every Natural Trap Would Be Like (working). Draft 2 (2026-10-09, script writer, revised per script_review.md fixes 1-10 and advisories: US vocabulary, La Brea species count, Dead Sea STAY tag). DOUG DEATHS on screen at 100 from the first shot, ends at 107: seven deaths over nine items. Survivals: Brinicle (sea star costume; the sticker had already been printed) and Dead Sea Sinkholes ("Doug is fine."). Prop: Doug's stickered travel suitcase (places), a sticker per death, none for survivals. Costume gag twice: sea star (brinicle) and gall mite (amber, the animal actually found in the Dolomites amber), each with one "can't hurt a person" line. Callbacks: 004 (Morecambe Bay, at the Dead Sea) and 002 (ant costume, at the amber). Real deaths (Antelope Canyon 1997, Tsanfleuron 2017, Altamura) are given as dates and counts only: no names, ages, families or remains, and no jokes in their fact lines. No escape, rescue or safety lines anywhere. Bog option not used: the draft lands inside the brief's word band without it. Optional STAY tags for the art director, each sourced in facts.md: tree well "MINUTES", slot canyon "MINUTES", brinicle "HOURS", avalanche "UNTIL DUG OUT", Dead Sea "UNTIL SOMEONE LOOKS DOWN", crevasse "75 YEARS", tar pit "50,000 YEARS", Altamura "130,000+ YEARS", amber "230,000,000 YEARS". -->
+<!-- Episode 012: What Dying in Every Natural Trap Would Be Like (working). Draft 3 (2026-10-09, script writer, final round: draft 2 review fixes 1-3, which date the Dead Sea four hundred a year figure to twenty fifteen, make the Slot Canyon kicker nine words, and merge thirty sentence pairs in fact passages to bring Flesch to 70.8 with gag lines kept; avalanche eighteen-minute line kept in the past tense). Draft 2 revised per draft 1 review fixes 1-10. DOUG DEATHS on screen at 100 from the first shot, ends at 107: seven deaths over nine items. Survivals: Brinicle (sea star costume; the sticker had already been printed) and Dead Sea Sinkholes ("Doug is fine."). Prop: Doug's stickered travel suitcase (places), a sticker per death, none for survivals. Costume gag twice: sea star (brinicle) and gall mite (amber, the animal actually found in the Dolomites amber), each with one "can't hurt a person" line. Callbacks: 004 (Morecambe Bay, at the Dead Sea) and 002 (ant costume, at the amber). Real deaths (Antelope Canyon 1997, Tsanfleuron 2017, Altamura) are given as dates and counts only: no names, ages, families or remains, and no jokes in their fact lines. No escape, rescue or safety lines anywhere. Bog option not used: the draft lands inside the brief's word band without it. Optional STAY tags for the art director, each sourced in facts.md: tree well "MINUTES", slot canyon "MINUTES", brinicle "HOURS", avalanche "UNTIL DUG OUT", Dead Sea "UNTIL SOMEONE LOOKS DOWN", crevasse "75 YEARS", tar pit "50,000 YEARS", Altamura "130,000+ YEARS", amber "230,000,000 YEARS". -->
 <!-- Pronunciation checks for the editor (preview with `narrate`): brinicle = "BRIN-ih-kul"; Erebus = "AIR-uh-bus"; Tsanfleuron = "tsahn-fluh-RON"; Valais = "vah-LAY"; Kachina = "kuh-CHEE-nuh"; La Brea = "lah BRAY-uh"; Altamura = "al-tah-MOO-rah"; Lamalunga = "lah-mah-LOON-gah"; Dolomite = "DOH-luh-mite"; Pangaea = "pan-JEE-uh"; sintering = "SIN-ter-ing"; calcite = "KAL-site"; Neanderthal = "nee-AN-der-tall". -->
 
 [Open on the thumbnail, 1.5 to 4 seconds: the vertical ladder of traps, tree well at the top, amber bead at the bottom, getting darker and more golden. Cut to a snowy mountain forest. Doug on skis, carrying a clean suitcase with no stickers. DOUG DEATHS: 100 on screen.]
@@ -22,7 +22,7 @@ A conifer's lower branches work like an umbrella, so when a storm drops deep sno
 
 What is left is a hidden hollow of loose, soft snow, ringed by a wall of deep snowpack, and often the branches hang right over the top of it.
 
-Notice what is missing. No avalanche. No cliff. No storm. The tree built this trap, and it looks like the safest place on the whole mountain.
+Notice what is missing. There is no avalanche, no cliff and no storm. The tree built this trap, and it looks like the safest place on the whole mountain.
 
 Wells like this have been seen six meters deep, three front doors stacked on top of each other, under a picnic spot.
 
@@ -52,7 +52,7 @@ From the inside, a slot canyon is one of the most beautiful places on Earth, wit
 
 A slot canyon is a crack cut into rock by running water, far deeper than it is wide. Antelope Canyon in Arizona is about thirty-seven meters deep at its deepest, roughly as tall as a twelve-story building, and in places only a few meters wide.
 
-Most of the year, the floor is dry sand. But a slot canyon sits at the bottom of a much bigger drainage. It gathers rain from a wide stretch of desert, sometimes miles away, and pours all of it through one narrow crack.
+Most of the year the floor is dry sand, but a slot canyon sits at the bottom of a much bigger drainage. It gathers rain from a wide stretch of desert, sometimes miles away, and pours all of it through one narrow crack.
 
 The disturbing part is the weather. The National Park Service warns that flash floods in these canyons often come from storms miles away, can arrive under sunny skies, and can rise within minutes.
 
@@ -66,7 +66,7 @@ Very little rain fell on the canyon itself that day.
 
 [Hold on the card. Then cut back to the bright canyon.]
 
-The storm that kills you in a slot canyon is almost never the one above you. It is the one you can't see.
+The storm that kills you in a slot canyon is almost never the one above you, but the one you can't see.
 
 [Doug photographs the light beams. A distant rumble. Doug looks straight up at a perfectly blue sky, shrugs, and takes another photo.]
 
@@ -76,7 +76,7 @@ Doug heard a low rumble, looked up at a perfectly blue sky, decided it was nothi
 
 Doug has died. Only the cap came out of the canyon, and it came out on its own.
 
-The Navajo name for the upper canyon means the place where water runs through rocks. Nobody ever said the water was finished.
+The Navajo name for the upper canyon means the place where water runs through rocks. Nobody ever said the water was finished with it.
 
 ## Brinicle
 
@@ -86,7 +86,7 @@ Under the sea ice of Antarctica, there is an icicle that grows downward, through
 
 [Antarctic navy underwater scene. The white underside of the sea ice above. A thin white tube reaching down into the dark.]
 
-When seawater freezes into sea ice, most of its salt gets squeezed out. That salt collects as a brine that is much colder and saltier than the water below it, so it is heavier, and it sinks.
+When seawater freezes into sea ice, most of its salt gets squeezed out as a brine that is colder and saltier than the water below it, so it is heavier and sinks.
 
 The seawater around it sits at about minus two degrees Celsius, already colder than the inside of your fridge and very close to freezing. When the falling brine touches it, that water freezes onto the outside of the stream, and builds a fragile hollow tube of ice around it.
 
@@ -96,7 +96,7 @@ Here's where it gets nasty. When the brinicle reaches the seabed, the cold brine
 
 Sea urchins and sea stars move slowly, so they get frozen right where they are, and in the footage some sea stars even crawl toward it.
 
-It is an icicle that grows down through the sea and freezes the floor when it lands. It only catches what can't move fast enough.
+It is an icicle that grows down through the sea and freezes the floor when it lands, and only catches what can't move fast enough.
 
 A brinicle is no danger to a person, which is exactly why Doug is dressed as a sea star.
 
@@ -110,7 +110,7 @@ The ice stopped one arm short. Doug is fine. The sticker had already been printe
 
 [A "BRINICLE" sticker, still on its backing paper, sitting unused next to the suitcase.]
 
-A brinicle never chases anything. Everything it has ever caught was simply too slow to leave.
+A brinicle never chases anything, because everything it has ever caught was simply too slow to leave.
 
 ## Avalanche
 
@@ -120,17 +120,17 @@ A fresh slope of powder snow is about as soft as the natural world gets, because
 
 [Grey sky over a smooth white slope. Doug lies on his back in the snow, suitcase beside him.]
 
-A slab avalanche starts when a whole layer of snow breaks away from a weaker layer underneath it and slides off as one sheet. Within seconds, the slab shatters into a river of tumbling snow.
+A slab avalanche starts when a layer of snow breaks away from a weaker layer under it and slides off as one sheet, which shatters within seconds into a river of tumbling snow.
 
 An avalanche forecaster in northern Arizona says these can reach about one hundred and thirty kilometers an hour almost straight away, which is faster than traffic in the fast lane of a highway.
 
 But that's not the worst part. The worst part happens when it stops.
 
-As the debris slows down, the snow grains are jammed tightly together, and new bonds start forming between them. Laboratory work suggests the very first bonds between touching grains can form in under a second. Snow scientists call this sintering, and the same forecaster put it more simply: an avalanche can bury people basically like concrete.
+As the debris slows down, the snow grains jam tightly together and start forming new bonds, and laboratory work suggests the very first bonds between touching grains can form in under a second. Snow scientists call this sintering, and the same forecaster put it more simply: an avalanche can bury people basically like concrete.
 
 The billowing cloud of a powder avalanche is so light that a cubic meter of it can weigh as little as a bag of sugar. A cubic meter of settled debris, on the other hand, can weigh around three hundred kilograms, about as much as four grown adults.
 
-The snow is soft when it falls on you and hard when it stops. The trap closes on its own.
+The snow is soft when it falls on you and hard when it stops, so the trap closes on its own.
 
 In a Swiss study of six hundred and thirty-eight people fully buried in open terrain, survival odds dropped steeply after about eighteen minutes.
 
@@ -152,27 +152,25 @@ The Dead Sea is famous for being almost impossible to sink in. Its water is abou
 
 [Salt-white shore and pale turquoise water. Doug floats on his back, suitcase floating next to him.]
 
-That part is true, and Doug floated and enjoyed every minute of it. The problem is waiting for him on the beach.
+That part is true, and Doug floated and enjoyed every minute of it, but the problem is waiting for him on the beach.
 
 The Dead Sea is shrinking. Between nineteen eighty and twenty fifteen, its surface dropped by about thirty meters, which works out to roughly one meter a year, about the height of a kitchen counter, every single year.
 
-Part of that is the mineral industry. About thirty percent of the drop has been blamed on mineral extraction.
+About thirty percent of the drop has been blamed on the mineral industry.
 
-As the shoreline pulls back, it leaves behind a buried layer of salt, formed around ten thousand years ago, that used to sit in salty water. Fresh groundwater now flows in where the brine used to be, and fresh water dissolves salt.
-
-Underground, hollow spaces open up and slowly grow, until the roof can't hold its own weight any more.
+As the shoreline pulls back, it leaves behind a buried layer of salt, formed around ten thousand years ago, that used to sit in salty water. Fresh groundwater now flows in and dissolves the salt, so hollow spaces open up underground and slowly grow until the roof can't hold its own weight any more.
 
 The strange part is how little warning there is. More than five thousand sinkholes have opened along the shore since the nineteen eighties, and some are about twenty-five meters across, about as wide as a tennis court is long.
 
 They have swallowed roads, buildings and the parking lot of a beach resort, often with no warning at all.
 
-The ground here is disappearing because the sea is. The water left, and it took the floor with it.
+The ground here is disappearing because the sea is, and when the water left, it took the floor with it.
 
 [Doug walks up the salt beach carrying the suitcase. The ground opens under him with a soft crunch. Cut to the bottom of a round pit: Doug sits on his suitcase, looks up at a circle of sky, and gives a thumbs up. DOUG DEATHS stays at 103.]
 
 Doug has been swallowed by the ground before, at Morecambe Bay, and that was supposed to be impossible too. Doug is fine.
 
-The sea is still shrinking, so the holes keep coming, at a rate of around four hundred new ones every year.
+The sea is still shrinking, and by twenty fifteen around four hundred new holes were being reported every year.
 
 [Big label: "LONG STAY". The background shifts to glacier blue-grey.]
 
@@ -186,11 +184,11 @@ A glacier looks like a smooth white road laid across the mountains, but it is ac
 
 [Blue-grey glacier under a pale sky. Doug walks onto it with the suitcase.]
 
-As the ice flows over bumps and around bends, it splits open, and those splits are called crevasses. NASA describes them as tens of meters deep. One measured in Antarctica was twenty-five meters deep, about as deep as an eight-story building is tall.
+As the ice flows over bumps and around bends, it splits open, and those splits are called crevasses. NASA describes them as tens of meters deep, and one measured in Antarctica was twenty-five meters deep, about as deep as an eight-story building is tall.
 
 Many of them can't be seen at all, because wind blows snow across the opening, and the snow hardens into a lid called a snow bridge.
 
-A glaciologist told NASA that a snow bridge can be a few meters thick, or only a few centimeters. From above, both look exactly the same.
+A glaciologist told NASA that a snow bridge can be a few meters thick, or only a few centimeters, and from above both look exactly the same.
 
 Here's the part nobody expects. A glacier never stops moving, and whatever falls into it moves along with the ice.
 
@@ -198,13 +196,13 @@ In Switzerland, a computer model estimated that remains inside one glacier had t
 
 [A plain caption card: "TSANFLEURON GLACIER, 2017". A melting ice tongue. No people drawn. No music.]
 
-In nineteen forty-two, a Swiss couple went missing in the Alps. In July twenty seventeen, a worker found them on the shrinking Tsanfleuron Glacier, seventy-five years later.
+A Swiss couple went missing in the Alps in nineteen forty-two, and in July twenty seventeen a worker found them on the shrinking Tsanfleuron Glacier, seventy-five years later.
 
 The local ski company's director said they had probably fallen into a crevasse, and that as the glacier melted back, it gave them up.
 
 They are not the only ones. Police in the Swiss canton of Valais keep a list of about three hundred people missing since nineteen twenty-five, and as the ice retreats, it keeps returning climbers who went missing decades ago.
 
-The glacier gives you back. It just takes about a lifetime to do it.
+The glacier gives you back, but it takes about a lifetime to do it.
 
 [Back to the glacier. Doug walks onto the smoothest, whitest patch of snow. One step, and he is gone. A neat dark hole in the snow, then the hole fills with drifting snow.]
 
@@ -224,7 +222,7 @@ In the middle of Los Angeles, inside a city park with a museum in the middle of 
 
 [A city park with a museum building. In the grass, a shiny black puddle with traffic cones around it.]
 
-It isn't actually tar. It is natural asphalt, a thick, low-grade crude oil that seeps up from underground. At Rancho La Brea, up to a dozen gallons of it a day can still bubble to the surface, about four big buckets' worth.
+It isn't actually tar but natural asphalt, a thick, low-grade crude oil that seeps up from underground. At Rancho La Brea, up to a dozen gallons of it a day can still bubble to the surface, about four big buckets' worth.
 
 Today the seep mostly catches lizards and pigeons, and museum staff mark the fresh spots with traffic cones, or fence them off.
 
@@ -236,7 +234,7 @@ But here's the cruel part. Roughly ninety percent of the mammal fossils found he
 
 The museum's explanation is a carnivore trap. A stuck plant eater, like an ancient bison, drew in predators and scavengers looking for an easy meal, and they got stuck too, which turned them into the bait for the next ones.
 
-One stuck animal is the bait. The trap kept restocking itself for tens of thousands of years.
+One stuck animal became the bait, and the trap kept restocking itself for tens of thousands of years.
 
 [Black-brown asphalt ground at dusk. A bison stuck up to its knees, looking annoyed rather than hurt. Doug walks toward it, arms out. Speech bubble: "hi friend?".]
 
@@ -256,27 +254,27 @@ Permanent stay.
 
 Altamura Cave.
 
-In nineteen ninety-three, cavers exploring Lamalunga Cave, near the town of Altamura in southern Italy, found that someone had got there first. It was a Neanderthal.
+In nineteen ninety-three, cavers exploring Lamalunga Cave, near the town of Altamura in southern Italy, found that someone had got there first, a Neanderthal.
 
 [A dark ochre limestone cave, drawn simply. A caver's torch beam on the wall. No skeleton is drawn, and no real photos are used.]
 
 Researchers think he fell down a sinkhole shaft that led into the cave, and simply could not climb back out.
 
-Caves like this one are built by water. Rain soaks down through the limestone, picks up dissolved calcite on the way, and leaves a thin film of it behind wherever it drips. That is how stalactites and stalagmites grow, one drop at a time.
+Caves like this one are built by water, as rain soaks down through the limestone, picks up dissolved calcite on the way, and leaves a thin film of it behind wherever it drips. That is how stalactites and stalagmites grow, one drop at a time.
 
-This is where it gets slow. The dripping never stopped. Over thousands of years, calcite coated him in little knobbly growths called cave popcorn, and slowly cemented him to the walls and floor.
+This is where it gets slow. The dripping never stopped, and over thousands of years calcite coated him in little knobbly growths called cave popcorn, slowly cementing him to the walls and floor.
 
 Dating puts him there somewhere between about one hundred and thirty thousand and one hundred and seventy thousand years ago.
 
 All of written history is only about five thousand years old, so he has been down there more than twenty-five times longer than anyone has been writing anything down.
 
-He is still there. Scientists left the skeleton where it was, because trying to move it could cause damage that can't be undone. A small piece of shoulder blade is the only part that has ever left the cave.
+He is still there, because scientists decided that moving the skeleton could cause damage that can't be undone. A small piece of shoulder blade is the only part that has ever left the cave.
 
 That one piece was enough to make him one of the oldest Neanderthals ever to give up genetic material.
 
 In twenty twenty-five, researchers described the inside of his nose, the first preserved nasal cavity in the whole human fossil record, by sliding tiny probe cameras in right where he lies.
 
-The cave didn't just keep him. It started turning him into part of the cave.
+The cave did not just keep him but started turning him into part of the cave.
 
 [Doug drops down a dark shaft with no impact shown, and lands sitting on a ledge with a torch and his suitcase. Speech bubble: "hello?".]
 
@@ -286,7 +284,7 @@ Doug fell down a dark shaft, sat on a ledge with his torch, and waited patiently
 
 Doug has died. Give it another hundred thousand years, and he will match the decor.
 
-The way out was never the problem. Nobody was ever coming down, and the cave was the only thing that came.
+The way out was never the problem, because nobody was ever coming down, and the cave was the only thing that came.
 
 ## Amber
 
@@ -298,7 +296,7 @@ Amber is the most beautiful trap on this list, the kind people turn into jewelry
 
 When a tree is wounded, it bleeds resin, a thick, sticky liquid that seals the wound and defends it against attackers. Some of that resin hardens, and if it is buried in the right conditions for millions of years, it becomes amber.
 
-Anything small that touches fresh resin sticks to it. More resin flows over the top, and the animal ends up sealed inside.
+Anything small that touches fresh resin sticks to it, then more resin flows over the top and seals the animal inside.
 
 Amber can keep things that almost never fossilize, like delicate wings and fine hairs, and sometimes it even keeps behavior. Animals have been found caught in the middle of catching prey, laying eggs, and even hatching.
 
@@ -306,19 +304,19 @@ In the Dolomite mountains of northern Italy, researchers screened about seventy 
 
 Three of them had something inside. One held part of a fly, and two held gall mites, so small that the bigger one is only about a fifth of a millimeter long, roughly the width of two human hairs.
 
-Those droplets are about two hundred and thirty million years old. They hold the oldest arthropods ever found in amber, about one hundred million years older than any found before.
+Those droplets are about two hundred and thirty million years old, and they hold the oldest arthropods ever found in amber, about one hundred million years older than any found before.
 
 When that resin dripped, the earliest dinosaurs had only just appeared, and the continents were still joined together as one supercontinent, Pangaea.
 
 And here is the part that should bother you. The mites probably fed on the leaves of the very tree that caught them, and they look surprisingly like the gall mites alive today.
 
-Every other trap on this list gives something back eventually. The snow melts, the water drains and the glacier lets go. Amber gives back everything, in perfect detail, to whoever finds it two hundred and thirty million years later.
+Every other trap on this list gives something back eventually, as the snow melts, the water drains and the glacier lets go. Amber gives back everything, in perfect detail, to whoever finds it two hundred and thirty million years later.
 
 Resin can't trap a person, which is exactly why Doug is dressed as a gall mite. It is the same costume department that made his ant suit, and it has not improved.
 
 [Doug in a tiny, wormlike mite costume on a giant conifer leaf, red cap on top. A golden drop rolls slowly toward him. Speech bubble: "hi friend?".]
 
-Doug waved at the drop of resin as it rolled toward him. It was the friendliest thing he had met all trip.
+Doug waved at the drop of resin rolling toward him, because it was the friendliest thing he had met all trip.
 
 [The gold drop closes over him. Cut to a polished gold bead on a museum shelf under a spotlight. Doug is inside, mid-wave, perfectly preserved. The red cap sits on top of the bead, outside it. DOUG DEATHS ticks from 106 to 107. An "AMBER" sticker lands on the suitcase.]
 
@@ -330,4 +328,4 @@ Seven traps kept Doug. The cap is the only thing nature has ever let go of on ti
 
 Doug deaths: one hundred and seven. The suitcase still has room. Which trap should Doug check into next?
 
-<!-- words: 2965 (spoken narration only: spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:13 at 195 wpm · draft 2 (2026-10-09) · 9 items · item words: Tree Well 283, Slot Canyon 302, Brinicle 333, Avalanche 303, Dead Sea Sinkholes 299, Crevasse 347, Tar Pit 305, Altamura Cave 337, Amber 425 (closing image and outro included) · "Tree well." at spoken word 35 · Tree Well twist ("Notice what is missing. No avalanche...") at words 115-141 · "Here's the problem." follows · first death at about word 274, about 1:24 · "Long stay." at 52% · "Permanent stay." at 74% · 204 sentences, avg 14.5 words, max 33 · Flesch about 71.8 (rough syllable count) · outro 18 words · tics: actually 2, However 0, essentially 0, incredibly 0 · twist markers in order: Notice what is missing / The disturbing part / Here's where it gets nasty / But that's not the worst part / The strange part / Here's the part nobody expects / But here's the cruel part / This is where it gets slow / And here is the part that should bother you -->
+<!-- words: 2949 (spoken narration only: spoken section headers and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:07 at 195 wpm · draft 3 (2026-10-09) · 9 items · item words: Tree Well 286, Slot Canyon 303, Brinicle 329, Avalanche 301, Dead Sea Sinkholes 287, Crevasse 350, Tar Pit 305, Altamura Cave 333, Amber 425 (closing image and outro included) · "Tree well." at spoken word 32 · 174 sentences, avg 16.9 words, max 33 · Flesch Reading Ease 70.8 (textstat 0.7.13 flesch_reading_ease, spoken text only: comments, markdown headings and stage directions removed) · outro 18 words · Slot Canyon kicker 9 words · twist markers unchanged from draft 2 -->

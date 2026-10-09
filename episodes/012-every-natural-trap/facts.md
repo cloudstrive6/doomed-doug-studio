@@ -5,7 +5,7 @@ the suitcase and stickers, the cap, the costumes, the speech bubbles, "picnic sp
 been printed", "the costume department", "match the decor" and the hotel "stay" headers. Everyday comparisons are marked
 "common knowledge" and checked by arithmetic.
 
-Checked 2026-10-09 (draft 1); updated for draft 2 per script_review.md fixes 1-10 (see "Draft 2 changes" below). "Verified" means I read the claim on the page with WebFetch or a public API. "Search snippet" means
+Checked 2026-10-09 (draft 1); updated for draft 2 per script_review.md fixes 1-10 (see "Draft 2 changes" below), and for draft 3 per the draft 2 review (see "Draft 3 changes"). "Verified" means I read the claim on the page with WebFetch or a public API. "Search snippet" means
 the page blocked WebFetch or was an image or scanned PDF, so the claim was confirmed only through search-result text that quotes the
 page. The screener should re-open those if possible.
 
@@ -21,6 +21,28 @@ about Doug.
 **Children check:** the La Brea "many of the bison were young" detail is not used. No children appear anywhere.
 **Myanmar amber:** not used. The only amber specimens are the Triassic Dolomites droplets (Schmidt et al. 2012). The general behaviour
 line ("catching prey, laying eggs, hatching") is sourced to Dominican-amber and general reviews, not Burmese specimens.
+
+## Draft 3 changes (script_review.md, draft 2 review)
+1. **F1, Dead Sea kicker:** "the holes keep coming, at a rate of around four hundred new ones every year" became "The sea is still
+   shrinking, and by twenty fifteen around four hundred new holes were being reported every year." The figure is now dated to its
+   source year, NBC News 2015. No current rate is claimed. The screener pointed to newer mapping that suggests a lower rate today:
+   702 new sinkholes on the western shore from 2005 to 2021 (Gutiérrez et al. 2023), and about 500 at Ghor Al-Haditha from 2018 to 2022
+   (EGU23-13530). Neither is used. "The sea is still shrinking" is sourced to current reporting: the State Comptroller via Ynet, about 1.15 m a year, and a 2026 Water review.
+2. **Rule 4, Slot Canyon kicker:** now "Nobody ever said the water was finished with it." That is 9 words, and the joke is unchanged.
+   No new claim.
+3. **Rule 9, Flesch:** 30 short sentence pairs in mechanism and fact passages were merged. Gag lines are unchanged ("Doug has died.
+   Again.", "Doug is fine.", the section headers and the item names). Measured with textstat 0.7.13 `flesch_reading_ease` on spoken text
+   only (HTML comments, markdown headings and bracketed stage directions removed). Draft 2 measured 73.7 on the same meter, which
+   matches the screener. Draft 3 measures **70.8**, with 174 sentences averaging 16.9 words, a 33-word maximum and 2,949 words. The merges
+   only reword. Three rewordings touch a claim row, and each source still covers it: Dead Sea "blamed on the mineral industry"
+   (same NBC 2015 statement), Altamura "scientists decided that moving the skeleton could cause damage" (IFLScience, irreparable damage)
+   and the Altamura reveal "someone had got there first, a Neanderthal".
+4. **Advisory, avalanche:** the 18-minute line stays in the past tense ("survival odds dropped steeply after about eighteen minutes")
+   and stays attributed to one Swiss study. The 2024 JAMA Network Open update, which shortens the over-90% phase to about 10 minutes,
+   is noted under the flagged items. The line is not made present tense.
+
+Advisories not applied: Brinicle is 329 words (target 290-320) and Amber is 425 (target 380-420), each a few words over.
+The brinicle size analogy is also unchanged, because there is still no source for the length.
 
 ## Draft 2 changes (script_review.md)
 1. **F1 opener:** "Most hold you for minutes" became "Some hold you for minutes". Only the tree well and slot canyon act in minutes.
@@ -46,7 +68,7 @@ line ("catching prey, laying eggs, hatching") is sourced to Dominican-amber and 
 
 Advisories applied: "car park" became "parking lot" and "football pitch" became "football field". La Brea is now "more than six
 hundred species". The Dead Sea STAY tag is now "UNTIL SOMEONE LOOKS DOWN". The NCEI Storm Events record ID was added for the 1997
-flood. Flesch is 71.8. NOT applied: the brinicle size analogy. No source gives the filmed brinicle's length, so the temperature
+flood. Draft 2 reported Flesch as 71.8 from a rough syllable count; superseded by the draft 3 textstat measurement. NOT applied: the brinicle size analogy. No source gives the filmed brinicle's length, so the temperature
 comparison stays.
 
 ## Flagged items from the brief (status)
@@ -64,7 +86,7 @@ comparison stays.
   Avalanche Center forecaster (80 mph is about 129 km/h). The brief's "130 km/h or more" is not claimed; the script says "about".
 - **Avalanche survival figure:** this is Brugger et al. 2001, published in *Resuscitation*, not *Nature*. Survival in 638
   complete burials in open areas drops from 91% at 18 min to 34% at 35 min. Only "dropped steeply after about eighteen minutes" is
-  spoken. Note: a 2024 study shortened the over-90% phase to 10 minutes. The script attributes the 18-minute figure to "a Swiss study",
+  spoken. Note: a 2024 JAMA Network Open update, with Brugger as co-author, shortened the over-90% phase to about 10 minutes (per the screener). The script attributes the 18-minute figure to "a Swiss study",
   which is accurate for that study.
 - **Avalanche debris weight:** the brief suggested a car or a piano. Measured debris density is about 300 kg per cubic meter (Maseguchi)
   and 200-560 kg per cubic meter in distal deposits. "Around three hundred kilograms" equals about four adults at about 75 kg each.
@@ -89,7 +111,7 @@ comparison stays.
 | Claim | Source |
 |---|---|
 | One trap holds you for about 230 million years (amber) | See Amber below (Schmidt et al. 2012) |
-| "Most hold you for minutes": tree well and slot canyon act in minutes | Tree well and slot canyon rows below (NPS: "within minutes or even seconds") |
+| "Some hold you for minutes": tree well and slot canyon act in minutes | Tree well and slot canyon rows below (NPS: "within minutes or even seconds") |
 
 ## 1. Tree Well
 | Claim | Source |
@@ -147,12 +169,12 @@ comparison stays.
 |---|---|
 | About one third salt; close to ten times saltier than the ocean; people float | Salinity 34.2% (2011) and density 1.24 kg per liter, about 9.6 times ocean salinity (search snippets: WorldAtlas https://www.worldatlas.com/articles/is-it-possible-to-drown-in-the-dead-sea.html ; How It Works https://www.howitworksdaily.com/question-of-the-day-why-do-we-float-in-the-dead-sea/ ). Flag: no Britannica or USGS page found |
 | Between 1980 and 2015 the level dropped about 100 ft (about 30 m), about 3 ft (about 1 m) a year | NBC News 2015, quoting GSI geologist Gidi Baer: "dropped by about 100 feet, which is a rate of three feet a year" (verified) https://www.nbcnews.com/news/world/sinkholes-threaten-israels-dead-sea-tourist-trade-n392461 . Kitchen counter is about 0.9 m (common knowledge) |
-| About 30% of the drop has been blamed on mineral extraction (no attribution to a named person) | NBC News 2015, the reporters' own statement that about 30 percent of the drop is caused by mineral extraction (URL above; screener confirmed it is not a Baer quote) |
+| About 30% of the drop has been blamed on the mineral industry (mineral extraction; no attribution to a named person) | NBC News 2015, the reporters' own statement that about 30 percent of the drop is caused by mineral extraction (URL above; screener confirmed it is not a Baer quote) |
 | A buried salt layer about 10,000 years old, once in salty water; fresh groundwater dissolves it; cavities grow until the roof fails | NBC News 2015: layer "formed 10,000 years ago"; fresh water dissolves it; "cavities are formed and grow until the roof can't stand the weight" (verified); Geological Survey of Israel / Abelson et al.: dissolution of salt by groundwater following the retreat of the Dead Sea level (search snippet) https://www.gov.il/BlobFolder/reports/abelson-et-al-report-2009-27/he/report_2009_GSI-27-2009.pdf |
 | More than 5,000 sinkholes since the 1980s | Israel Ministry of Environmental Protection annual report, via Globes: "As of 2015, there were 5,500 such sinkholes" (search snippet) https://en.globes.co.il/en/article-dead-sea-level-falling-12-meters-per-year-1001223618 ; NBC News 2015: "As many as 5,000… since the 1980s" (verified); University of Haifa's Michael Lazar, more than 6,000 on the western side alone (2022, search snippet) https://ynetnews.com/environment/article/s1z11u6vik . The Solid Earth 2019 preprint is NOT used (withdrawn by its authors, verified) |
 | Some about 25 m (80 ft) across, about as wide as a tennis court is long | NBC News 2015: "can measure 80 feet in diameter" (verified). 80 ft is 24.4 m; a tennis court is 23.77 m long (common knowledge) |
 | Swallowed roads, buildings and a resort parking lot, often without warning | NBC News 2015: "buildings and roads in their path without warning"; Mineral Beach parking lot engulfed (verified) |
-| About 400 new ones reported a year | NBC News 2015: "400 sinkholes are now reported around the body of water every year" (verified) |
+| By 2015, about 400 new ones were being reported a year (draft 3: dated to 2015, not a current rate); the sea is still shrinking | NBC News 2015: "400 sinkholes are now reported around the body of water every year" (verified). The figure is from 2015 and is spoken as a 2015 figure. Still shrinking (present tense, checked 2026-10-09): Ynet on Israel's State Comptroller report, northern basin expected to keep falling about 1.15 m a year (search snippet) https://www.ynetnews.com/environment/article/syklzsw7fx ; Water 2026 review, 0.7-1.5 m a year across studies (search snippet) https://mdpi-res.com/d_attachment/water/water-18-01537/article_deploy/water-18-01537.pdf ; MoEP 2015 via Globes, 1.2 m a year. Newer rates from the screener are not used: Gutiérrez et al. 2023, 702 from 2005 to 2021 on the western shore; EGU23-13530, about 500 from 2018 to 2022 at Ghor Al-Haditha |
 | Callback: Doug was swallowed at Morecambe Bay in 004 | channel/series_bible.md and 004 (in-universe) |
 
 ## 6. Crevasse
@@ -193,7 +215,7 @@ comparison stays.
 | Calcite "cave popcorn" coated the bones and cemented him to the cave | IFLScience: "nodules… caused by deposits of calcite" (verified); Wikipedia: "pearl-like coralloid, calcium deposits otherwise known as cave popcorn" (search snippet); Uniroma1 / PNAS 2025 coverage: "covered in a thick layer of calcite, or 'cave popcorn'" (search snippet) https://www.uniroma1.it/en/notizia/neanderthal-nose-altamura-skeleton-reveals-new-details-about-facial-morphology-and |
 | Dated between about 130,000 and 170,000 years ago | Lari et al. 2015: "172 ± 15 ka to 130.1 ± 1.9 ka" (verified abstract) |
 | Written history is about 5,000 years old; more than 25 times longer | Writing began about 3200 BC (common knowledge); 130,000 / 5,000 = 26 |
-| Left in place, because moving it could cause irreparable damage | IFLScience: "left where it was, as disturbing it could have caused irreparable damage" (verified); Uniroma1/PNAS 2025: not removed, to prevent damage (search snippet) |
+| Left in place, because scientists judged that moving it could cause irreparable damage | IFLScience: "left where it was, as disturbing it could have caused irreparable damage" (verified); Uniroma1/PNAS 2025: not removed, to prevent damage (search snippet) |
 | A fragment of shoulder blade is the only part that has left the cave | Lari et al. 2015: "the retrieval from the cave of a fragment of bone (part of the right scapula)" (verified); IFLScience: a shoulder blade fragment was sampled (verified). Flag: calcite samples were also taken in 2011, but those are not part of the skeleton |
 | One of the oldest Neanderthals ever to give up genetic material | Lari et al. 2015: "the most ancient Neanderthal from which endogenous DNA has ever been extracted" (true in 2015, verified). Since then, Meyer et al. 2016, *Nature* 531:504, nuclear DNA from Sima de los Huesos, about 430,000 years old, classed as early Neanderthals (search snippet; Max Planck press release https://www.mpg.de/10364707/hominins-sima-de-los-huesos ; ScienceDaily https://www.sciencedaily.com/releases/2016/03/160315120946.htm ). Hence "one of the oldest" |
 | 2025: researchers described the first preserved nasal cavity in the human fossil record, using endoscopic probes in place | Buzi et al. 2025, PNAS, "The first preserved nasal cavity in the human fossil record: The Neanderthal from Altamura" (title verified via Europe PMC, DOI 10.1073/pnas.2426309122); endoscopic probes in situ (search snippet of Sapienza/Pisa press releases) https://www.unipi.it/en/news/the-unprecedented-state-of-preservation-of-a-fossil-from-southern-italy-sheds-light-on-neanderthal-facial-morphology/ |
