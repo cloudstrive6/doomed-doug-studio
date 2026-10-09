@@ -1,0 +1,298 @@
+{
+ "name": "hippo_rock",
+ "description": "The 'smooth grey rock': a hippo's back just breaking the surface, a smooth rounded dome in the hippo's back colour with a soft highlight, ripple ring, no eyes, ears or nostrils. Anchor centre on the waterline, 290x60 (x -145..+145, y -42..+20), fits inside the `hippo_waterline` footprint.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "creature",
+  "mammal",
+  "hippo",
+  "hippopotamus",
+  "river",
+  "africa",
+  "013",
+  "water",
+  "rock"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -136,
+     0
+    ],
+    [
+     -110,
+     10
+    ],
+    [
+     0,
+     15
+    ],
+    [
+     110,
+     10
+    ],
+    [
+     136,
+     0
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#4f4656",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 6,
+   "rx": 148,
+   "ry": 13,
+   "start": 180,
+   "end": 360,
+   "width": 3,
+   "color": "#d8e2c0"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -142,
+     0
+    ],
+    [
+     -128,
+     -18
+    ],
+    [
+     -96,
+     -32
+    ],
+    [
+     -50,
+     -40
+    ],
+    [
+     0,
+     -42
+    ],
+    [
+     50,
+     -40
+    ],
+    [
+     96,
+     -32
+    ],
+    [
+     128,
+     -18
+    ],
+    [
+     142,
+     0
+    ],
+    [
+     90,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     -90,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": true,
+   "fill": "#6f6474",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90,
+     -26
+    ],
+    [
+     -50,
+     -36
+    ],
+    [
+     0,
+     -38
+    ],
+    [
+     40,
+     -36
+    ],
+    [
+     10,
+     -30
+    ],
+    [
+     -40,
+     -28
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "fill": "#8a7f8f",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60,
+     -32
+    ],
+    [
+     -20,
+     -36
+    ],
+    [
+     10,
+     -34
+    ],
+    [
+     -30,
+     -30
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "fill": "#a89ca8",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -30,
+   "y": -33,
+   "rx": 5,
+   "ry": 2,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#d9d0d9",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 70,
+   "y": -14,
+   "r": 20,
+   "color": "#5e5463",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -142,
+     0
+    ],
+    [
+     -128,
+     -18
+    ],
+    [
+     -96,
+     -32
+    ],
+    [
+     -50,
+     -40
+    ],
+    [
+     0,
+     -42
+    ],
+    [
+     50,
+     -40
+    ],
+    [
+     96,
+     -32
+    ],
+    [
+     128,
+     -18
+    ],
+    [
+     142,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -142,
+     0
+    ],
+    [
+     142,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#d8e2c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 6,
+   "rx": 148,
+   "ry": 13,
+   "start": 0,
+   "end": 180,
+   "width": 3,
+   "color": "#d8e2c0"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -90,
+     11
+    ],
+    [
+     -50,
+     14
+    ]
+   ],
+   "width": 2,
+   "color": "#d8e2c0"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     30,
+     14
+    ],
+    [
+     80,
+     11
+    ]
+   ],
+   "width": 2,
+   "color": "#d8e2c0"
+  }
+ ]
+}
