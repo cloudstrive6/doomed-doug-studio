@@ -1,0 +1,33 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s012",
+      "to": "s020",
+      "title": "",
+      "hook": "Meet the California killifish. Its brain parasites have a plan.",
+      "hook_scene_from": "s006",
+      "outro": "The fish was the easy part. Then Doug went in. The full list is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s146",
+      "to": "s154",
+      "title": "",
+      "outro": "Where it came from is even stranger. The full story is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s243",
+      "to": "s254",
+      "title": "",
+      "outro": "That was the last one. Eight brain parasites got there first. The full list is linked below.",
+      "end_card": "SEE ALL 9 PARASITES. TAP BELOW",
+      "description": ""
+    }
+  ]
+}
