@@ -9219,10 +9219,7 @@
       "x": 1000,
       "y": 650,
       "scale": 0.6,
-      "pose": [
-       "arms_up",
-       "hands_hips"
-      ],
+      "pose": "stand",
       "expression": "hopeful",
       "facing": "right"
      },
@@ -9791,10 +9788,7 @@
       "x": 1000,
       "y": 650,
       "scale": 0.6,
-      "pose": [
-       "arms_up",
-       "hands_hips"
-      ],
+      "pose": "stand",
       "expression": "smirk",
       "facing": "right"
      },
@@ -30619,10 +30613,7 @@
       "x": 600,
       "y": 924.0,
       "scale": 0.5,
-      "pose": [
-       "walk1",
-       "walk2"
-      ],
+      "pose": "stand",
       "expression": "hopeful",
       "facing": "right"
      },
@@ -31145,7 +31136,7 @@
       "x": 1300,
       "y": 924.0,
       "scale": 0.5,
-      "pose": "wave",
+      "pose": "hands_hips",
       "expression": "hopeful",
       "facing": "right"
      },
@@ -32293,7 +32284,7 @@
       "x": 780,
       "y": 930,
       "scale": 0.6,
-      "rotate": -75,
+      "rotate": 75,
       "appear": 0.35
      },
      {
@@ -32480,7 +32471,7 @@
       "x": 310,
       "y": 975,
       "scale": 0.45,
-      "rotate": -75
+      "rotate": 75
      },
      {
       "type": "asset",
@@ -33474,10 +33465,10 @@
      },
      {
       "type": "ellipse",
-      "x": 1547,
+      "x": 1500,
       "y": 676,
-      "rx": 90,
-      "ry": 80,
+      "rx": 80,
+      "ry": 75,
       "color": "#e0201b",
       "width": 8,
       "appear": 0.768
@@ -34188,8 +34179,8 @@
        560
       ],
       "to": [
-       960,
-       640
+       945,
+       755
       ],
       "bend": -40,
       "color": "#e0201b",
@@ -37642,8 +37633,8 @@
      {
       "type": "wordart",
       "text": "30%",
-      "x": 1760,
-      "y": 640,
+      "x": 1250,
+      "y": 860,
       "size": 110,
       "boil": 0,
       "appear": 0.693
@@ -41717,8 +41708,8 @@
      {
       "type": "wordart",
       "text": "ONE YEAR AT A TIME",
-      "x": 1200,
-      "y": 860,
+      "x": 1100,
+      "y": 905,
       "size": 72,
       "boil": 0,
       "appear": 0.533
@@ -45818,7 +45809,7 @@
      {
       "type": "text",
       "text": "0",
-      "x": 300,
+      "x": 345,
       "y": 590,
       "size": 60,
       "color": "#000000",
@@ -45828,7 +45819,7 @@
      {
       "type": "text",
       "text": "1 mm",
-      "x": 1800,
+      "x": 1690,
       "y": 590,
       "size": 50,
       "color": "#000000",
@@ -46082,7 +46073,7 @@
      {
       "type": "text",
       "text": "0",
-      "x": 300,
+      "x": 345,
       "y": 590,
       "size": 60,
       "color": "#000000",
@@ -46092,7 +46083,7 @@
      {
       "type": "text",
       "text": "1 mm",
-      "x": 1800,
+      "x": 1690,
       "y": 590,
       "size": 50,
       "color": "#000000",
