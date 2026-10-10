@@ -1,0 +1,529 @@
+{
+ "name": "balamuthia_amoeba",
+ "description": "Balamuthia mandrillaris amoeba, plain microscope-diagram icon: irregular pale tan-grey #d8cbb0 blob with short branching pseudopods, darker inner cytoplasm, granules and vacuoles, one nucleus with a dark nucleolus. No face. Deliberately not lilac (never reads as naegleria_amoeba). 260x210 (x -130..+130, y -105..+105), anchor centre. Reads on near-black.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "cell",
+  "amoeba",
+  "parasite",
+  "microscope",
+  "diagram",
+  "014"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -118,
+     -20
+    ],
+    [
+     -125,
+     -55
+    ],
+    [
+     -100,
+     -82
+    ],
+    [
+     -60,
+     -78
+    ],
+    [
+     -30,
+     -98
+    ],
+    [
+     -5,
+     -90
+    ],
+    [
+     10,
+     -70
+    ],
+    [
+     40,
+     -82
+    ],
+    [
+     62,
+     -100
+    ],
+    [
+     78,
+     -92
+    ],
+    [
+     70,
+     -72
+    ],
+    [
+     98,
+     -70
+    ],
+    [
+     122,
+     -50
+    ],
+    [
+     108,
+     -28
+    ],
+    [
+     92,
+     -10
+    ],
+    [
+     112,
+     8
+    ],
+    [
+     126,
+     24
+    ],
+    [
+     110,
+     34
+    ],
+    [
+     96,
+     30
+    ],
+    [
+     100,
+     58
+    ],
+    [
+     78,
+     82
+    ],
+    [
+     40,
+     76
+    ],
+    [
+     10,
+     96
+    ],
+    [
+     -20,
+     100
+    ],
+    [
+     -35,
+     80
+    ],
+    [
+     -70,
+     86
+    ],
+    [
+     -95,
+     62
+    ],
+    [
+     -90,
+     30
+    ],
+    [
+     -112,
+     22
+    ]
+   ],
+   "fill": "#d8cbb0",
+   "width": 4,
+   "color": "#6b5a40",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90,
+     -20
+    ],
+    [
+     -90,
+     -50
+    ],
+    [
+     -55,
+     -55
+    ],
+    [
+     -20,
+     -62
+    ],
+    [
+     20,
+     -50
+    ],
+    [
+     60,
+     -50
+    ],
+    [
+     85,
+     -35
+    ],
+    [
+     75,
+     -5
+    ],
+    [
+     80,
+     30
+    ],
+    [
+     65,
+     58
+    ],
+    [
+     30,
+     52
+    ],
+    [
+     0,
+     70
+    ],
+    [
+     -40,
+     60
+    ],
+    [
+     -70,
+     45
+    ],
+    [
+     -68,
+     10
+    ]
+   ],
+   "fill": "#c6b796",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -10,
+   "y": 0,
+   "r": 60,
+   "color": "#b3a27e",
+   "density": 0.1
+  },
+  {
+   "type": "ellipse",
+   "x": -72,
+   "y": -28,
+   "rx": 13,
+   "ry": 12,
+   "fill": "#ece4d2",
+   "width": 2,
+   "color": "#8a7a5a"
+  },
+  {
+   "type": "ellipse",
+   "x": 70,
+   "y": 40,
+   "rx": 10,
+   "ry": 10,
+   "fill": "#ece4d2",
+   "width": 2,
+   "color": "#8a7a5a"
+  },
+  {
+   "type": "ellipse",
+   "x": -30,
+   "y": 58,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#ece4d2",
+   "width": 2,
+   "color": "#8a7a5a"
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": -40,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8f7c58",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 30,
+   "y": -40,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8f7c58",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 55,
+   "y": -15,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8f7c58",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -85,
+   "y": 10,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8f7c58",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -45,
+   "y": 30,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8f7c58",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 20,
+   "y": 35,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8f7c58",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 70,
+   "y": -35,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8f7c58",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -10,
+   "y": -50,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8f7c58",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 45,
+   "y": 62,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8f7c58",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -60,
+   "y": 60,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8f7c58",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 95,
+   "y": -55,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8f7c58",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -100,
+   "y": -50,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8f7c58",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 10,
+   "y": 0,
+   "rx": 34,
+   "ry": 28,
+   "fill": "#b5a385",
+   "width": 3,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "ellipse",
+   "x": 16,
+   "y": 2,
+   "rx": 9,
+   "ry": 8,
+   "fill": "#4a3a28",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -118,
+     -20
+    ],
+    [
+     -125,
+     -55
+    ],
+    [
+     -100,
+     -82
+    ],
+    [
+     -60,
+     -78
+    ],
+    [
+     -30,
+     -98
+    ],
+    [
+     -5,
+     -90
+    ],
+    [
+     10,
+     -70
+    ],
+    [
+     40,
+     -82
+    ],
+    [
+     62,
+     -100
+    ],
+    [
+     78,
+     -92
+    ],
+    [
+     70,
+     -72
+    ],
+    [
+     98,
+     -70
+    ],
+    [
+     122,
+     -50
+    ],
+    [
+     108,
+     -28
+    ],
+    [
+     92,
+     -10
+    ],
+    [
+     112,
+     8
+    ],
+    [
+     126,
+     24
+    ],
+    [
+     110,
+     34
+    ],
+    [
+     96,
+     30
+    ],
+    [
+     100,
+     58
+    ],
+    [
+     78,
+     82
+    ],
+    [
+     40,
+     76
+    ],
+    [
+     10,
+     96
+    ],
+    [
+     -20,
+     100
+    ],
+    [
+     -35,
+     80
+    ],
+    [
+     -70,
+     86
+    ],
+    [
+     -95,
+     62
+    ],
+    [
+     -90,
+     30
+    ],
+    [
+     -112,
+     22
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#6b5a40",
+   "smooth": true
+  }
+ ]
+}

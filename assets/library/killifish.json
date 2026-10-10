@@ -1,0 +1,884 @@
+{
+ "name": "killifish",
+ "description": "California killifish (Fundulus parvipinnis), side view facing right: slim olive-backed fish, bright silver flanks with faint dark vertical bars, white belly, rounded (not forked) tail, small rounded dorsal set far back, blunt head, small upturned mouth. Plain light silver head patch around (+80,-5) r~40 for cyst dots. Eye (+95,-10). Anchor centre, 260x100 (x -130..+130, y -50..+50).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "fish",
+  "killifish",
+  "salt marsh",
+  "parasite host",
+  "creature"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -66,
+     -14
+    ],
+    [
+     -96,
+     -38
+    ],
+    [
+     -116,
+     -38
+    ],
+    [
+     -126,
+     -20
+    ],
+    [
+     -127,
+     0
+    ],
+    [
+     -126,
+     20
+    ],
+    [
+     -116,
+     38
+    ],
+    [
+     -96,
+     38
+    ],
+    [
+     -66,
+     14
+    ]
+   ],
+   "fill": "#9ea58c",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -76,
+     -8.5
+    ],
+    [
+     -122,
+     -34
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -76,
+     -5.0
+    ],
+    [
+     -122,
+     -20
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -76,
+     -1.75
+    ],
+    [
+     -122,
+     -7
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -76,
+     1.75
+    ],
+    [
+     -122,
+     7
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -76,
+     5.0
+    ],
+    [
+     -122,
+     20
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -76,
+     8.5
+    ],
+    [
+     -122,
+     34
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "spray",
+   "x": -110,
+   "y": 0,
+   "r": 12,
+   "color": "#c2c8b2",
+   "density": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -58,
+     -20
+    ],
+    [
+     -52,
+     -40
+    ],
+    [
+     -38,
+     -48
+    ],
+    [
+     -22,
+     -46
+    ],
+    [
+     -14,
+     -34
+    ],
+    [
+     -12,
+     -28
+    ]
+   ],
+   "fill": "#9ea58c",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -48,
+     -27
+    ],
+    [
+     -46,
+     -42
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -38,
+     -27
+    ],
+    [
+     -36,
+     -42
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -28,
+     -27
+    ],
+    [
+     -26,
+     -42
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -19,
+     -27
+    ],
+    [
+     -17,
+     -42
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     18
+    ],
+    [
+     -50,
+     38
+    ],
+    [
+     -36,
+     46
+    ],
+    [
+     -22,
+     42
+    ],
+    [
+     -18,
+     30
+    ]
+   ],
+   "fill": "#9ea58c",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     26
+    ],
+    [
+     -45,
+     40
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -36,
+     26
+    ],
+    [
+     -35,
+     40
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -26,
+     26
+    ],
+    [
+     -25,
+     40
+    ]
+   ],
+   "color": "#5d6649",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     24,
+     30
+    ],
+    [
+     12,
+     46
+    ],
+    [
+     30,
+     44
+    ],
+    [
+     38,
+     32
+    ]
+   ],
+   "fill": "#9ea58c",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     128,
+     -4
+    ],
+    [
+     118,
+     -20
+    ],
+    [
+     96,
+     -30
+    ],
+    [
+     60,
+     -35
+    ],
+    [
+     20,
+     -36
+    ],
+    [
+     -20,
+     -32
+    ],
+    [
+     -50,
+     -24
+    ],
+    [
+     -74,
+     -14
+    ],
+    [
+     -76,
+     12
+    ],
+    [
+     -52,
+     22
+    ],
+    [
+     -20,
+     30
+    ],
+    [
+     20,
+     34
+    ],
+    [
+     60,
+     31
+    ],
+    [
+     96,
+     22
+    ],
+    [
+     118,
+     10
+    ],
+    [
+     127,
+     2
+    ]
+   ],
+   "fill": "#c4ccd0",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -74,
+     -12
+    ],
+    [
+     -50,
+     -23
+    ],
+    [
+     -20,
+     -31
+    ],
+    [
+     20,
+     -35
+    ],
+    [
+     50,
+     -34
+    ],
+    [
+     66,
+     -30
+    ],
+    [
+     48,
+     -18
+    ],
+    [
+     10,
+     -14
+    ],
+    [
+     -30,
+     -10
+    ],
+    [
+     -60,
+     -4
+    ]
+   ],
+   "fill": "#6f7a5a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60,
+     12
+    ],
+    [
+     -20,
+     24
+    ],
+    [
+     20,
+     28
+    ],
+    [
+     60,
+     26
+    ],
+    [
+     100,
+     16
+    ],
+    [
+     118,
+     8
+    ],
+    [
+     90,
+     12
+    ],
+    [
+     50,
+     16
+    ],
+    [
+     0,
+     14
+    ],
+    [
+     -40,
+     8
+    ]
+   ],
+   "fill": "#f5f7f5",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -10,
+   "y": -22,
+   "r": 14,
+   "color": "#5b6548",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -45,
+   "y": -14,
+   "r": 10,
+   "color": "#5b6548",
+   "density": 0.35
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -8
+    ],
+    [
+     -62,
+     16
+    ]
+   ],
+   "color": "#8d969a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     -8
+    ],
+    [
+     -48,
+     16
+    ]
+   ],
+   "color": "#8d969a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -32,
+     -8
+    ],
+    [
+     -34,
+     16
+    ]
+   ],
+   "color": "#8d969a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -18,
+     -8
+    ],
+    [
+     -20,
+     16
+    ]
+   ],
+   "color": "#8d969a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -4,
+     -8
+    ],
+    [
+     -6,
+     16
+    ]
+   ],
+   "color": "#8d969a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -8
+    ],
+    [
+     8,
+     16
+    ]
+   ],
+   "color": "#8d969a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     24,
+     -8
+    ],
+    [
+     22,
+     16
+    ]
+   ],
+   "color": "#8d969a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     38,
+     -8
+    ],
+    [
+     36,
+     16
+    ]
+   ],
+   "color": "#8d969a",
+   "width": 3
+  },
+  {
+   "type": "spray",
+   "x": 4,
+   "y": 2,
+   "r": 14,
+   "color": "#ffffff",
+   "density": 0.4
+  },
+  {
+   "type": "spray",
+   "x": -36,
+   "y": 2,
+   "r": 10,
+   "color": "#ffffff",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 80,
+   "y": -6,
+   "r": 16,
+   "color": "#e6ebee",
+   "density": 0.35
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -70,
+     0
+    ],
+    [
+     -20,
+     -2
+    ],
+    [
+     40,
+     -4
+    ],
+    [
+     66,
+     -6
+    ]
+   ],
+   "color": "#a3abb0",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     128,
+     -4
+    ],
+    [
+     118,
+     -20
+    ],
+    [
+     96,
+     -30
+    ],
+    [
+     60,
+     -35
+    ],
+    [
+     20,
+     -36
+    ],
+    [
+     -20,
+     -32
+    ],
+    [
+     -50,
+     -24
+    ],
+    [
+     -74,
+     -14
+    ],
+    [
+     -76,
+     12
+    ],
+    [
+     -52,
+     22
+    ],
+    [
+     -20,
+     30
+    ],
+    [
+     20,
+     34
+    ],
+    [
+     60,
+     31
+    ],
+    [
+     96,
+     22
+    ],
+    [
+     118,
+     10
+    ],
+    [
+     127,
+     2
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     70,
+     -28
+    ],
+    [
+     62,
+     -6
+    ],
+    [
+     68,
+     18
+    ],
+    [
+     78,
+     28
+    ]
+   ],
+   "color": "#6b7478",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     62,
+     4
+    ],
+    [
+     40,
+     12
+    ],
+    [
+     34,
+     22
+    ],
+    [
+     58,
+     14
+    ]
+   ],
+   "fill": "#d9dee0",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     58,
+     7
+    ],
+    [
+     40,
+     16
+    ]
+   ],
+   "color": "#9aa4a8",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     128,
+     -6
+    ],
+    [
+     122,
+     -3
+    ],
+    [
+     114,
+     -4
+    ]
+   ],
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": 95,
+   "y": -10,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 97,
+   "y": -10,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#000000",
+   "width": 1,
+   "color": "#000000"
+  }
+ ]
+}

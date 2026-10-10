@@ -1,0 +1,300 @@
+{
+ "name": "flowerpot",
+ "description": "Plain terracotta flowerpot of soil, side view with a slight top-down: tapering pot #c8643a with shading, darker rim band, dark soil top #3a2418 with a few crumbs. Soil top centre at (0,-215); Doug's cap sits at y -245. 240x230 (x -120..+120, y -230..0), anchor bottom-centre. Reads on near-black.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "plant",
+  "garden",
+  "soil",
+  "014"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -104,
+     -184
+    ],
+    [
+     104,
+     -184
+    ],
+    [
+     80,
+     -2
+    ],
+    [
+     -80,
+     -2
+    ]
+   ],
+   "fill": "#c8643a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -184
+    ],
+    [
+     104,
+     -184
+    ],
+    [
+     80,
+     -2
+    ],
+    [
+     40,
+     -2
+    ]
+   ],
+   "fill": "#b4562e",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 70,
+   "y": -120,
+   "r": 26,
+   "color": "#a24c26",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 62,
+   "y": -50,
+   "r": 22,
+   "color": "#a24c26",
+   "density": 0.35
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90,
+     -178
+    ],
+    [
+     -70,
+     -178
+    ],
+    [
+     -52,
+     -10
+    ],
+    [
+     -68,
+     -10
+    ]
+   ],
+   "fill": "#e08a5c",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -104,
+     -184
+    ],
+    [
+     104,
+     -184
+    ],
+    [
+     80,
+     -2
+    ],
+    [
+     -80,
+     -2
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -78,
+     -14
+    ],
+    [
+     78,
+     -14
+    ]
+   ],
+   "width": 3,
+   "color": "#7a3a1c"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -120,
+     -222
+    ],
+    [
+     120,
+     -222
+    ],
+    [
+     116,
+     -182
+    ],
+    [
+     -116,
+     -182
+    ]
+   ],
+   "fill": "#a24c26",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -112,
+     -216
+    ],
+    [
+     -90,
+     -216
+    ],
+    [
+     -88,
+     -188
+    ],
+    [
+     -110,
+     -188
+    ]
+   ],
+   "fill": "#c0603a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 90,
+   "y": -200,
+   "r": 16,
+   "color": "#7e3a1c",
+   "density": 0.4
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -222,
+   "rx": 120,
+   "ry": 14,
+   "fill": "#b85a30",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -215,
+   "rx": 104,
+   "ry": 10,
+   "fill": "#3a2418",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -40,
+   "y": -217,
+   "rx": 6,
+   "ry": 4,
+   "fill": "#5e3e28",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 18,
+   "y": -213,
+   "rx": 7,
+   "ry": 4,
+   "fill": "#5e3e28",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 55,
+   "y": -216,
+   "rx": 5,
+   "ry": 3,
+   "fill": "#5e3e28",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -10,
+   "y": -219,
+   "rx": 4,
+   "ry": 3,
+   "fill": "#5e3e28",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -66,
+   "y": -213,
+   "rx": 4,
+   "ry": 3,
+   "fill": "#5e3e28",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 76,
+   "y": -214,
+   "rx": 4,
+   "ry": 3,
+   "fill": "#5e3e28",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": -211,
+   "rx": 3,
+   "ry": 2,
+   "fill": "#6a4630",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

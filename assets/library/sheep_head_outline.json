@@ -1,0 +1,233 @@
+{
+ "name": "sheep_head_outline",
+ "description": "Side-profile sheep head diagram facing right (014 gid cyst), in the head_outline style: plain grey #d9d9d9 fill, #555555 outline, long face sloping to the muzzle at the right (Roman nose tip about (+256,+84)), nostril, mouth and faint jaw ticks, eye dot at (+122,-96) with a brow tick, one drooping ear sticking out at the back-top (to about (-258,-132)), neck stub at the bottom (y 215). No brain, no interior: the skull area around (-40,-60) radius 110+ is kept completely plain for the cyst overlay. Centre anchor, 520x440 (x -256..+256, y -216..+215).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "diagram",
+  "sheep",
+  "head",
+  "outline",
+  "medical"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -186
+    ],
+    [
+     -200,
+     -186
+    ],
+    [
+     -244,
+     -160
+    ],
+    [
+     -258,
+     -132
+    ],
+    [
+     -232,
+     -128
+    ],
+    [
+     -192,
+     -140
+    ],
+    [
+     -150,
+     -156
+    ]
+   ],
+   "fill": "#c4c4c4",
+   "width": 5,
+   "color": "#555555",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -190,
+     215
+    ],
+    [
+     -214,
+     120
+    ],
+    [
+     -222,
+     10
+    ],
+    [
+     -208,
+     -90
+    ],
+    [
+     -172,
+     -160
+    ],
+    [
+     -108,
+     -205
+    ],
+    [
+     -25,
+     -216
+    ],
+    [
+     55,
+     -196
+    ],
+    [
+     120,
+     -150
+    ],
+    [
+     178,
+     -80
+    ],
+    [
+     220,
+     -10
+    ],
+    [
+     246,
+     48
+    ],
+    [
+     256,
+     84
+    ],
+    [
+     252,
+     108
+    ],
+    [
+     236,
+     124
+    ],
+    [
+     206,
+     134
+    ],
+    [
+     170,
+     140
+    ],
+    [
+     120,
+     132
+    ],
+    [
+     60,
+     126
+    ],
+    [
+     20,
+     150
+    ],
+    [
+     -6,
+     215
+    ]
+   ],
+   "fill": "#d9d9d9",
+   "width": 5,
+   "color": "#555555",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 122,
+   "y": -96,
+   "rx": 8,
+   "ry": 8,
+   "width": 0,
+   "fill": "#333333",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     104,
+     -114
+    ],
+    [
+     122,
+     -120
+    ],
+    [
+     140,
+     -112
+    ]
+   ],
+   "width": 3,
+   "color": "#555555"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     232,
+     64
+    ],
+    [
+     244,
+     78
+    ],
+    [
+     236,
+     92
+    ]
+   ],
+   "width": 3,
+   "color": "#555555"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     250,
+     112
+    ],
+    [
+     226,
+     114
+    ],
+    [
+     204,
+     110
+    ]
+   ],
+   "width": 3,
+   "color": "#555555"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     70,
+     70
+    ],
+    [
+     110,
+     108
+    ],
+    [
+     160,
+     122
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9a9a"
+  }
+ ]
+}

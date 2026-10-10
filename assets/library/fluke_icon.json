@@ -1,0 +1,405 @@
+{
+ "name": "fluke_icon",
+ "description": "Lancet liver fluke (Dicrocoelium), adult, microscope-diagram icon: lancet-shaped flatworm pointed at both ends, pale translucent cream-pink, oral and ventral sucker dots near the front (right), faint branching gut lines. No face. Anchor centre, 200x70 (x -100..+100, y -35..+35).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "parasite",
+  "fluke",
+  "flatworm",
+  "diagram",
+  "lancet fluke",
+  "icon"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     100,
+     0
+    ],
+    [
+     80,
+     -12
+    ],
+    [
+     50,
+     -24
+    ],
+    [
+     10,
+     -32
+    ],
+    [
+     -30,
+     -30
+    ],
+    [
+     -64,
+     -20
+    ],
+    [
+     -88,
+     -8
+    ],
+    [
+     -100,
+     0
+    ],
+    [
+     -88,
+     8
+    ],
+    [
+     -64,
+     20
+    ],
+    [
+     -30,
+     30
+    ],
+    [
+     10,
+     32
+    ],
+    [
+     50,
+     24
+    ],
+    [
+     80,
+     12
+    ]
+   ],
+   "fill": "#f2d6c8",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -20,
+   "y": 10,
+   "r": 16,
+   "color": "#ddb0a2",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 30,
+   "y": -8,
+   "r": 14,
+   "color": "#fbeee8",
+   "density": 0.4
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     78,
+     0
+    ],
+    [
+     60,
+     0
+    ],
+    [
+     46,
+     -6
+    ]
+   ],
+   "color": "#c4857a",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     46,
+     -6
+    ],
+    [
+     30,
+     -12
+    ],
+    [
+     -10,
+     -18
+    ],
+    [
+     -50,
+     -14
+    ],
+    [
+     -78,
+     -6
+    ]
+   ],
+   "color": "#c4857a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     24,
+     -13
+    ],
+    [
+     14,
+     -21
+    ]
+   ],
+   "color": "#c4857a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -6,
+     -18
+    ],
+    [
+     -16,
+     -26
+    ]
+   ],
+   "color": "#c4857a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -36,
+     -16
+    ],
+    [
+     -46,
+     -24
+    ]
+   ],
+   "color": "#c4857a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -62,
+     -10
+    ],
+    [
+     -72,
+     -18
+    ]
+   ],
+   "color": "#c4857a",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     46,
+     -6
+    ],
+    [
+     30,
+     12
+    ],
+    [
+     -10,
+     18
+    ],
+    [
+     -50,
+     14
+    ],
+    [
+     -78,
+     6
+    ]
+   ],
+   "color": "#c4857a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     24,
+     13
+    ],
+    [
+     14,
+     21
+    ]
+   ],
+   "color": "#c4857a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -6,
+     18
+    ],
+    [
+     -16,
+     26
+    ]
+   ],
+   "color": "#c4857a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -36,
+     16
+    ],
+    [
+     -46,
+     24
+    ]
+   ],
+   "color": "#c4857a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -62,
+     10
+    ],
+    [
+     -72,
+     18
+    ]
+   ],
+   "color": "#c4857a",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     30,
+     -2
+    ],
+    [
+     10,
+     -8
+    ],
+    [
+     -8,
+     2
+    ],
+    [
+     -26,
+     -6
+    ],
+    [
+     -44,
+     2
+    ]
+   ],
+   "color": "#d79a8e",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     100,
+     0
+    ],
+    [
+     80,
+     -12
+    ],
+    [
+     50,
+     -24
+    ],
+    [
+     10,
+     -32
+    ],
+    [
+     -30,
+     -30
+    ],
+    [
+     -64,
+     -20
+    ],
+    [
+     -88,
+     -8
+    ],
+    [
+     -100,
+     0
+    ],
+    [
+     -88,
+     8
+    ],
+    [
+     -64,
+     20
+    ],
+    [
+     -30,
+     30
+    ],
+    [
+     10,
+     32
+    ],
+    [
+     50,
+     24
+    ],
+    [
+     80,
+     12
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 84,
+   "y": 0,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#e7b2a4",
+   "width": 2,
+   "color": "#a8665a"
+  },
+  {
+   "type": "ellipse",
+   "x": 52,
+   "y": 0,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#e7b2a4",
+   "width": 2,
+   "color": "#a8665a"
+  }
+ ]
+}
