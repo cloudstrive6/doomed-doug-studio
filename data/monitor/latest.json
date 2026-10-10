@@ -1,5 +1,5 @@
 {
- "at": "2026-10-10T19:01:32+00:00",
+ "at": "2026-10-10T20:01:32+00:00",
  "issues": [
   {
    "key": "produce_failing",
@@ -15,6 +15,16 @@
      38065989596
     ]
    }
+  },
+  {
+   "key": "queue_low",
+   "severity": "medium",
+   "owner": "auto",
+   "summary": "Queue 3/4 and no production running: started a production run",
+   "detail": "",
+   "route": "dispatch produce.yml",
+   "fixed": true,
+   "extra": {}
   },
   {
    "key": "related_pending",
