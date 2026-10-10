@@ -1,6 +1,6 @@
 {
  "name": "worm_icon",
- "description": "Generic parasite worm icon (014 episode-wide): plain pale pink #f2b8b8 nematode in a gentle S, outline #a05050, rounded head end on the right at about (+100,+0), tapered tail on the left, one faint highlight and a faint darker underside stroke. No face, no mouth, no segments. Centre anchor, 200x70 (x -100..100, y -35..35). Reads at 0.1-0.25 scale and on maroon. rotate 180 = dead / belly up.",
+ "description": "Generic parasite worm icon (014 episode-wide): plain pale pink #f2b8b8 nematode in a gentle S, outline #8a3e3e width 7 (darkened by the art director so it reads on flesh pink #f4c6c4), rounded head end on the right at about (+100,+0), tapered tail on the left, one faint highlight and a faint darker underside stroke. No face, no mouth, no segments. Centre anchor, 200x70 (x -100..100, y -35..35). Reads at 0.1-0.25 scale and on maroon. rotate 180 = dead / belly up.",
  "anchor": [
   0,
   0
@@ -438,8 +438,8 @@
     ]
    ],
    "fill": "#f2b8b8",
-   "width": 5,
-   "color": "#a05050"
+   "width": 7,
+   "color": "#8a3e3e"
   },
   {
    "type": "curve",
