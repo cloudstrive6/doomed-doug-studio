@@ -30,11 +30,12 @@
   },
   "produce_failing": {
    "first_seen": "2026-10-10T18:01:38+00:00",
-   "agent_attempts": 0,
+   "agent_attempts": 1,
    "last_seen": "2026-10-10T18:01:38+00:00",
    "summary": "Last 2 production runs failed",
    "owner": "agent",
-   "severity": "high"
+   "severity": "high",
+   "agent_at": "2026-10-10T18:01:43+00:00"
   }
  }
 }
