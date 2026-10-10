@@ -4,7 +4,22 @@
       "stage": "idea",
       "at": "2026-10-10T16:05:11+00:00",
       "note": "created"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-10-10T16:16:49+00:00",
+      "note": "draft 1"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-10-10T16:24:01+00:00",
+      "note": "draft 2 (script_review fixes)"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-10T16:29:49+00:00",
+      "note": "CD approved draft 3 (screener PASS r3); tidied header + Gnathostoma kicker, 2,932 words"
     }
   ],
-  "stage": "idea"
+  "stage": "script_approved"
 }
