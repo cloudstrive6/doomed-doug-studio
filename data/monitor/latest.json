@@ -1,6 +1,21 @@
 {
- "at": "2026-10-10T17:01:36+00:00",
+ "at": "2026-10-10T18:01:38+00:00",
  "issues": [
+  {
+   "key": "produce_failing",
+   "severity": "high",
+   "owner": "agent",
+   "summary": "Last 2 production runs failed",
+   "detail": "2026-10-10T17:01:00Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/38070005292\n2026-10-10T16:01:46Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/38065989596",
+   "route": "diagnose the run logs, route to the agent that owns the failing stage",
+   "fixed": false,
+   "extra": {
+    "run_ids": [
+     38070005292,
+     38065989596
+    ]
+   }
+  },
   {
    "key": "related_pending",
    "severity": "low",
