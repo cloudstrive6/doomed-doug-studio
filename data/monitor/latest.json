@@ -1,16 +1,6 @@
 {
- "at": "2026-10-11T21:01:28+00:00",
+ "at": "2026-10-11T22:01:30+00:00",
  "issues": [
-  {
-   "key": "schedule_gap",
-   "severity": "medium",
-   "owner": "auto",
-   "summary": "No long video scheduled for Thu 15 Oct 5:00 AM NZDT",
-   "detail": "{\"uploaded_total\": 13, \"queued\": 2, \"target\": 4, \"phase\": \"launch\", \"in_progress\": [\"014-every-brain-parasite\"], \"need_episode\": true, \"later_scheduled\": []}",
-   "route": "production run",
-   "fixed": false,
-   "extra": {}
-  },
   {
    "key": "related_pending",
    "severity": "low",
@@ -23,7 +13,6 @@
   }
  ],
  "resolved_since_last": [
-  "queue_low",
-  "produce_failing"
+  "schedule_gap"
  ]
 }
