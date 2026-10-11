@@ -58,6 +58,15 @@ the sea ice was swapped back to `#3a9ad9`, with water speckle `#6fc1ee`. Show co
 | Overcast bull pool | sky `#b9c4a8`, bank `#7a6a4a`, water `#6b7a4a` / `#5f6d42` |
 | Mouth / thesis cards | maroon `#9e3348` (lettuce and Doug read on it; red glow does not, so skip it there) |
 
+**Parasite / body severity ramp (from 014; reuse for any inside-the-body episode, one step darker per band):**
+| Band | Colours |
+|---|---|
+| Diagram / neutral | cream `#f4f1dc` (band 1) / `#f6ecd2` (band 2); salt marsh sky `#eef4dc` |
+| "Inside a body" beats | flesh pink `#f4c6c4` (cartoon, never realistic); grey anatomy `head_outline` / `body_outline` |
+| Band 3 ("eats you") | maroon `#5a1a24`, paddock sky `#7a2232`, sombre hold card `#2a0c12` |
+| Boss (last item) | near-black `#120a0c`, soil `#3a2418`; Doug auto-inks white, wordart renders flat green |
+Item 1 of each band may keep its outdoor scene (river, field, paddock); the ramp darkens the *backdrop* across bands, not within an item.
+
 ## Two-tier rendering (style bible 4.3)
 - **Doug and humans: crude** MS Paint stick men: uniform thin lines (Doug's rig: 5 at scale 1 ≈ 4–5 px), big round
   head with grey shading crescent, oval eyes, meme faces.
@@ -111,7 +120,11 @@ the sea ice was swapped back to `#3a9ad9`, with water speckle `#6fc1ee`. Show co
 - **No floating Doug**: if the shot has a ground, dam, bank or sea surface, his feet go on it (hip = surface -
   152 x scale; swimmers sit at the water line). Doug only floats in empty diagram or space backgrounds, or as a ghost.
 - **Cover rects** that hide an earlier Doug must stop above the ground line, or they cut a notch into the horizon (007 s238).
-- **Props on humans** (medals, badges) hang on the chest (below neck y), never over the face (007 s120).
+- **Props on humans** (medals, badges) hang on the chest (below neck y), never over the face (007 s120). Neck-hung signs
+  (014 "vegetarian"): the cord apex sits at the neck point and the sign top is about 40 px below it. A cord apex placed above the neck
+  draws the strings across his face (014 s139, s140).
+- **Paths through Doug** (a worm's route, a nerve): draw the dashed path *before* the `doug`, so his white head covers it and
+  the line never crosses his eyes (014 s192). Shadow or dust sprays near Doug also go before him (014 s194).
 - **Creatures and places: the detailed tier**: cleaner cartoon illustrations with layered fills, interior shading
   (`spray`, darker back / lighter belly), texture strokes at 2–3, outlines 3–5. The contrast is part of the joke.
 
@@ -128,6 +141,8 @@ reveals · real photos only public-domain/licensed with a 4 px black frame.
   Prefer a centre-anchored asset, or skip `glow` and add a `spray` at the body centre yourself.
 - Leaving out `glow` does **not** turn the glow off: every `silhouette: true` gets a default red glow
   (`glow_r` 260) at the anchor. To use your own body-centre `spray` instead, set `"glow_r": 0` on the silhouette.
+  Put that `spray` **before** the silhouette in the element list. Placed after, it speckles over the black shape, and on a
+  near-black backdrop the creature disappears (014 s223 mandrill). On near-black, raise the spray density to about 0.55.
 - Spray is speckle, so a later ground `poly` does not cover it (the bucket fill skips the speckles). To keep a
   glow off the ground, put a flat ground-colour `rect` after the spray, starting at the ground line, then re-add
   the ground texture spray (see 003 s146).
