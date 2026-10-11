@@ -3,7 +3,7 @@
   "schedule_gap": {
    "first_seen": "2026-10-11T04:01:36+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-11T18:01:33+00:00",
+   "last_seen": "2026-10-11T19:01:30+00:00",
    "summary": "No long video scheduled for Thu 15 Oct 5:00 AM NZDT",
    "owner": "auto",
    "severity": "medium"
@@ -20,7 +20,7 @@
   "related_pending": {
    "first_seen": "2026-10-09T16:01:35+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-11T18:01:33+00:00",
+   "last_seen": "2026-10-11T19:01:30+00:00",
    "summary": "9 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -29,7 +29,7 @@
   "produce_failing": {
    "first_seen": "2026-10-11T18:01:33+00:00",
    "agent_attempts": 1,
-   "last_seen": "2026-10-11T18:01:33+00:00",
+   "last_seen": "2026-10-11T19:01:30+00:00",
    "summary": "Last 7 production runs failed",
    "owner": "agent",
    "severity": "high",
