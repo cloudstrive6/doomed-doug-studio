@@ -34,3 +34,4 @@ Reasons for picking A:
 Non-blocking notes on A: in the Lancet Liver Fluke tile the dark ant costume is a bit murky against the gold, and the five head-diagram tiles in rows 2-3 look alike. Each one is told apart by its host prop (slug, ham, frog, fish), which is acceptable. If 014 under-performs on CTR after 7 days, test B as the swap thumbnail.
 
 THUMBNAIL: A APPROVED
+- 2026-10-11: packaged. Rounds: script 3, assets 1, keyframes 2 (AD pass r1, VS pass r2), thumbnail A picked. Risk: runtime 14:31 slightly under 15-17 target; speech 206 wpm (1 over).
