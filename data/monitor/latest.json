@@ -1,5 +1,5 @@
 {
- "at": "2026-10-11T22:01:30+00:00",
+ "at": "2026-10-11T23:01:44+00:00",
  "issues": [
   {
    "key": "related_pending",
@@ -12,7 +12,5 @@
    "extra": {}
   }
  ],
- "resolved_since_last": [
-  "schedule_gap"
- ]
+ "resolved_since_last": []
 }
