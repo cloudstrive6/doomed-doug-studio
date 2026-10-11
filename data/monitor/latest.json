@@ -1,12 +1,12 @@
 {
- "at": "2026-10-11T15:05:49+00:00",
+ "at": "2026-10-11T16:01:38+00:00",
  "issues": [
   {
    "key": "schedule_gap",
    "severity": "medium",
    "owner": "auto",
    "summary": "No long video scheduled for Thu 15 Oct 5:00 AM NZDT",
-   "detail": "{\"uploaded_total\": 13, \"queued\": 3, \"target\": 4, \"phase\": \"launch\", \"in_progress\": [\"014-every-brain-parasite\"], \"need_episode\": true, \"later_scheduled\": []}",
+   "detail": "{\"uploaded_total\": 13, \"queued\": 2, \"target\": 4, \"phase\": \"launch\", \"in_progress\": [\"014-every-brain-parasite\"], \"need_episode\": true, \"later_scheduled\": []}",
    "route": "production run",
    "fixed": false,
    "extra": {}
@@ -34,7 +34,7 @@
    "key": "queue_low",
    "severity": "medium",
    "owner": "auto",
-   "summary": "Queue 3/4 and no production running",
+   "summary": "Queue 2/4 and no production running",
    "detail": "",
    "route": "dispatch produce.yml",
    "fixed": false,
@@ -44,8 +44,8 @@
    "key": "related_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "6 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
-   "detail": "Megalodon Ate the Predators That Ate Other Predators -> What Dying in Every Prehistoric Ocean Would Be Like\nHelicoprion's Tooth Spiral Took 114 Years to Figure Out -> What Dying in Every Prehistoric Ocean Would Be Like\nThis Prehistoric Fish Probably Died From Its Own Dinner -> What Dying in Every Prehistoric Ocean Would Be Like\nThis 25-Gram Octopus Has Enough Venom to Paralyze Ten Adults -> How Every Deadly Venom Would Kill Doug\nThe World's Most Toxic Snake Has Zero Confirmed Kills -> How Every Deadly Venom Would Kill Doug\nThe Box Jellyfish Has Killed 63 People, and It Swims -> How Every Deadly Venom Would Kill Doug",
+   "summary": "9 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "detail": "Megalodon Ate the Predators That Ate Other Predators -> What Dying in Every Prehistoric Ocean Would Be Like\nHelicoprion's Tooth Spiral Took 114 Years to Figure Out -> What Dying in Every Prehistoric Ocean Would Be Like\nThis Prehistoric Fish Probably Died From Its Own Dinner -> What Dying in Every Prehistoric Ocean Would Be Like\nThis 25-Gram Octopus Has Enough Venom to Paralyze Ten Adults -> How Every Deadly Venom Would Kill Doug\nThe World's Most Toxic Snake Has Zero Confirmed Kills -> How Every Deadly Venom Would Kill Doug\nThe Box Jellyfish Has Killed 63 People, and It Swims -> How Every Deadly Venom Would Kill Doug\nMost Cassowary Attacks Come From Birds People Fed First -> Every Animal Doug Could Beat in a Fight, Until He Dies\nA Gorilla's Chest Beat Tells Rivals Exactly How Big It Is -> Every Animal Doug Could Beat in a Fight, Until He Dies\nElephants Know If You're a Threat Just From Your Voice -> Every Animal Doug Could Beat in a Fight, Until He Dies",
    "route": "",
    "fixed": false,
    "extra": {}
