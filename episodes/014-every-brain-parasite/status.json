@@ -24,7 +24,12 @@
       "stage": "shotlisted",
       "at": "2026-10-10T16:53:49+00:00",
       "note": "256 shots (~15.3 min), 2,932 words verbatim; Doug in 98% of shots; counter 114->121 + BRAIN meter; 25 new assets requested; 3 Shorts (killifish s012-s020, Spirometra s146-s154, Balamuthia s243-s254) await titles; thumbnail.json pending (graphic designer)"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-10-11T21:04:51+00:00",
+      "note": "AD pass r1, visual-screener pass r2 after director fixes"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

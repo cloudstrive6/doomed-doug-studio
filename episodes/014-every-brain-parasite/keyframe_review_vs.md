@@ -61,7 +61,7 @@ The fixes below block the gate.
   no cropping, and the counter zone is clear on all title cards.
 - Tone: adult deadpan, no nursery framing; "vegetarian" sign (s139-s140) is legible at 1080p.
 
-VISUAL: FAIL. Required fixes are s223, s194, s156, s246, s132, s221 and s067-s070 (items 1-7). Items 8-13 are minor.
+Round 1 verdict (superseded by round 2 below): FAIL. Required fixes were s223, s194, s156, s246, s132, s221 and s067-s070 (items 1-7). Items 8-13 were minor.
 
 ## Fixes round 1 (director, 2026-10-11)
 
@@ -74,3 +74,28 @@ All changes are in `shotlist.json`, with narration unchanged. The listed shots w
 - **s067-s073:** broke up the run. s069 is now a cyst close-up with no head (big cyst, a slow zoom_in 1.06, a dashed 5-6 cm line and the label, with sheep-Doug in shock). s070 is a scale comparison with no head (cyst > golf ball at the true ~5.5 : 4.3 ratio, plus labels and "BIGGER"). The sheep-head diagram now appears in s067-s068 and s072-s073 only, with the pasture shot s071 between them.
 - **Minor:** s189 "MORE CASES" raised to y 998. s218 Doug moved to x 990 so his hand touches the horse (the speech bubble moved with him). s250 arrow now points to the raised hand, with a small red scratch line. s164 worm moved inside the head (x 640). s104 arrow now points to the neck. s047 day/night split moved to x 1280, left of the counter box.
 - **AD advisory s118-s126:** s120 ("something else entirely") is now a big shocked Doug reaction close-up with "!" and "SOMETHING ELSE", which breaks up the grey diagram run.
+
+## Round 2 (2026-10-11), re-rendered keyframes s001-s256, 22 contact sheets + full-res crops
+
+All 256 keyframes were re-rendered at 21:01-21:02. I re-checked every listed shot at 1080p and scanned all sheets for regressions.
+
+### Round-1 fixes verified
+- **s223 (item 1):** fixed. The mandrill is now a solid black hunched-primate silhouette on a visible red speckle disc, with "1986 / SAN DIEGO / ?". It reads as an animal at a glance, and s227 reveals it in colour.
+- **s018 (AD):** fixed. The heron silhouette is solid black on the glow disc.
+- **s194 (item 2):** fixed. Doug's head, cap and brim are clean white/red, and the spray sits behind him.
+- **s156 (item 3):** fixed. The 0-3 cm ruler has the larva spanning exactly 0-1 cm under the red bracket, with "ABOUT 1 cm" below. **s151** has the 0-5 cm bracket. OK.
+- **s246 (item 4):** fixed. "155" is clear above the US map. The map clears the counter and BRAIN tag, and "1974 TO 2025" sits below it.
+- **s132 (item 5):** fixed. "30%" is below the map frame. The frame top (y about 280) clears the BRAIN tag.
+- **s221 (item 6):** fixed. The lighter soil patch is visible, and the arrow plus "DIRT" label read at 1080p.
+- **s067-s073 (item 7):** fixed. Heads in s067-s068, then the s069 cyst close-up (5-6 cm), the s070 cyst > golf ball comparison, the s071 pasture, and heads in s072-s073. The run is broken.
+- **Minor:** s189 "MORE CASES" is below the frame, bottom at about y 1020, inside the safe area. s250 has the arrow on the raised hand plus a red scratch line. s164 has the suitcase worm inside the head outline. s104 has the arrow tip on the neck/upper chest. s047 has the split at x 1280, left of the counter box. All OK.
+- **AD fixes:** s041 (thermometer moved off the sun), s108 (WEEKS/MONTHS stacked below the calendar), s120 (shocked Doug close-up with "SOMETHING ELSE"), s139/s140 ("vegetarian" sign hangs on the chest, cord clear of the face), s146 (patient body + scientist, 2008 / UNITED KINGDOM, so s145-s147 no longer repeat), s192 (the dashed route runs behind Doug and the eyes are clear). All OK.
+
+### Regression scan
+No new problems. Doug is on model throughout. The counter runs 114 -> 121, with the s167/s168 gag intact. There's no cropping, no text over the counter zone, no stray lines, no gore, and no kids-show tone. No run of 4 or more near-identical compositions remains: s153-s155 is 3 top-down heads, and the AD accepted it as the flipbook.
+
+### Advisory (non-blocking, fix only if touching the shot)
+1. **s218 (director):** Doug's hand still stops about 25 px short of the horse (hand tip x about 1074, horse chest/leg edge x about 1099). Move Doug +30 px in x, keeping the bubble with him, so the pat lands.
+2. **s192 (director):** the Gnathostoma worm drawn on top of the red cap is small and reads a little like a cap decal at 1080p. Optionally add a small red circle around it or lift it 10 px above the cap.
+
+VISUAL: PASS
