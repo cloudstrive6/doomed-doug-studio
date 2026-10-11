@@ -20,3 +20,17 @@ Notes for downstream (non-blocking):
 - Titler: add "Entertainment and education only. Nothing here is medical advice." to the description; don't use "...Every Brain Parasite Feels Like".
 
 SCRIPT: APPROVED
+
+## 2026-10-11: thumbnail pick: A (3x3 grid) WINS, B (hero "IT WALKS") kept as thumbnail_b.json
+
+I rendered both at 1280x720 and at 320x180 feed size (B rendered to a temp path with `python -m studio art`).
+Reasons for picking A:
+1. **Grammar and brief:** A is archetype A (style bible 2.A): 9 tiles in item order, rounded black frames, bold comic labels that match the chapter names, and a ramp from pale pond green to the near-black boss tile. It uses no title words, no anatomy, no scans or photos, and no VEGETARIAN sign or lettuce. This is exactly the brief's `thumbnail_brief`.
+2. **Avoids 013's look:** 013 was an archetype C hero (big subject on a flat field, tiny Doug bottom-right). B uses the same composition (giant head on flat maroon, tiny Doug bottom-right), so we would ship two hero layouts in a row. A breaks the run.
+3. **Honest packaging:** the title promises *every* brain parasite. A shows all 9 as a table of contents. B sells only Gnathostoma (item 7), so "IT WALKS" over-indexes one item.
+4. **Opening image:** the thumbnail is the opening image, and A leads straight into "Killifish Fluke." (tile 1, top left). B would open on item 7.
+5. **Feed size:** A's labels are still readable at 320x180 and the dark boss tile with the red cap catches the eye. B reads more boldly in the feed, which is its only real advantage, but it doesn't make up for points 2-4.
+
+Non-blocking notes on A: in the Lancet Liver Fluke tile the dark ant costume is a bit murky against the gold, and the five head-diagram tiles in rows 2-3 look alike. Each one is told apart by its host prop (slug, ham, frog, fish), which is acceptable. If 014 under-performs on CTR after 7 days, test B as the swap thumbnail.
+
+THUMBNAIL: A APPROVED
