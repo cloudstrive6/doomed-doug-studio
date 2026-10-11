@@ -1,5 +1,5 @@
 {
- "at": "2026-10-11T13:01:54+00:00",
+ "at": "2026-10-11T14:01:44+00:00",
  "issues": [
   {
    "key": "schedule_gap",
@@ -29,6 +29,16 @@
      38065989596
     ]
    }
+  },
+  {
+   "key": "queue_low",
+   "severity": "medium",
+   "owner": "auto",
+   "summary": "Queue 3/4 and no production running",
+   "detail": "",
+   "route": "dispatch produce.yml",
+   "fixed": false,
+   "extra": {}
   },
   {
    "key": "related_pending",
