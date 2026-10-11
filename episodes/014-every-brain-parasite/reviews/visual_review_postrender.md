@@ -66,3 +66,46 @@ VERDICT (shorts): FAIL
 | 1 | s024 | `camera.x` 520 -> 960 | director |
 
 After re-rendering, re-run final, qc and short01. Items 2-4 are optional polish.
+
+---
+
+# Round 2: post-render re-check (2026-10-11)
+
+What I checked: the re-render from 21:41 (`final.mp4`, the samples, the thumbnails and all three Shorts are newer
+than commit 5c144b5). The shotlist now has `camera.x` 960 on s014 and s024. I pulled frames from `final.mp4` at
+39.3, 39.7, 40.05 and 40.13 s (the end of s014's zoom) and at 73.4, 74.6, 75.8 and 75.93 s (the end of s024's zoom).
+I also viewed all 29 samples, `build/qc.json` (no problems, 871.4 s), `thumbnail.png` and `thumbnail_small.png` and
+`metadata.json`. For the Shorts I viewed each preview, 12 frames from each Short, and short01 at 14.6-15.8 s, where
+s014 plays. I re-ran blackdetect and freezedetect over the whole video. Nothing was rendered.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+## Round 1 blocker: fixed
+1. **s014 / s024 death counter:** fixed. At the end of both zooms the full label "DOUG DEATHS: 114" sits inside
+   the frame, with its box ending around x 1880 of 1920. "BRAIN: STEERED" under it is also whole. Doug (stick at
+   x ~575 in s014, killifish costume at x ~400 in s024) and the chapter tag stay in frame, and the cap and face read
+   clearly.
+2. **short01:** fixed. From 14.6 to 15.8 s the counter shows "DOUG DEATHS: 114" with nothing cut off. s024 is not in
+   short01 (its range is s012-s020), so only s014 needed checking there.
+
+## Re-checked and OK
+- **Samples (29):** the HUD is whole in every frame. The counter climbs 114 to 120 in chapter order, and the
+  BRAIN meter reads STEERED, then OCCUPIED, then EATEN. There are no black, blank or glitched frames. Doug is on-model
+  throughout, and the parasites are cartoon drawings with no gore.
+- **Black/frozen:** see the line at the end.
+- **Thumbnail:** unchanged from round 1 and still a pass. At 320x180 the 3x3 grid, Doug's red caps and the dark
+  progression read clearly, and the tile labels are still mostly legible. It suits the title and isn't misleading.
+- **Shorts:** the titles are readable. The end cards have the red arrow pointing straight down, next to Doug.
+  Subtitles are large and outlined. No drawing is cut off at the sides; short03 has the same tight but whole left
+  margin noted in round 1.
+
+## Still open (advisory, does not block)
+- Round 1 items 2-5 (the s250 arrow on the hand; short03's "WONDERFUL AFTERNOON" position, s244/s245 margins and
+  missing title outline) are unchanged. They are optional polish (director / art director).
+- New, minor (editor/engine): the short01 preview frame shows the subtitle mid-word ("...near the surf"). This is
+  just the word-by-word subtitle reveal caught partway through a word, and playback is fine. If a cleaner preview is
+  wanted, take it at the end of a caption line.
+
+No required fixes.
+- **Black/frozen (round 2 run):** blackdetect (d 0.1, pix_th 0.05) and freezedetect (8 s) over the whole of `final.mp4` found nothing.

@@ -39,7 +39,17 @@
       "stage": "built",
       "at": "2026-10-11T21:19:19+00:00",
       "note": "final render"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-11T21:41:00+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "qc_passed",
+      "at": "2026-10-11T21:50:24+00:00",
+      "note": "final approved"
     }
   ],
-  "stage": "built"
+  "stage": "qc_passed"
 }

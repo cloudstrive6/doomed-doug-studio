@@ -52,3 +52,10 @@ PACKAGE: APPROVED (conditional on re-render + visual screener PASS)
 - Creative director approved the package (title, thumbnail, description, opening), conditional on the re-render passing.
 
 FINAL: APPROVED
+
+## 2026-10-11: final package confirmation (round 2, after re-render)
+- My package condition is met. The re-render (21:41) fixes the cropped counter: the visual screener's Round 2 gives main PASS and shorts PASS, with "DOUG DEATHS: 114" whole in s014/s024 and in short01. QC is clean (871.4 s), and no black or frozen frames were found.
+- I re-checked the title and description in `metadata.json`. They are unchanged: honest T1, disclaimer, AI note, 6 sources, no advice. `build/chapters.txt` has 9 chapters starting at 0:00, in item order, and they match the thumbnail labels. The last chapter starts at 12:24, inside the 14:31 runtime. `build/thumbnail.png` is the approved archetype A grid, with no gore and no title words. Samples f_001-f_003 open on the pond and then show costumed Doug, with the chapter tag and the counter (114, BRAIN: STEERED) whole in every frame.
+- The advisory polish (s250 arrow, short03 margins/label, short01 preview mid-word subtitle) is non-blocking. It is left to the director/editor for a later pass.
+
+FINAL: APPROVED
