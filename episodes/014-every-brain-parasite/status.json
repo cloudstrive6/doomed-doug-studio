@@ -34,7 +34,12 @@
       "stage": "packaged",
       "at": "2026-10-11T21:10:41+00:00",
       "note": "narrated 14:31, validate OK, shorts OK"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-11T21:19:19+00:00",
+      "note": "final render"
     }
   ],
-  "stage": "packaged"
+  "stage": "built"
 }

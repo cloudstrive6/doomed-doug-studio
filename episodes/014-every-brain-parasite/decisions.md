@@ -35,3 +35,20 @@ Non-blocking notes on A: in the Lancet Liver Fluke tile the dark ant costume is 
 
 THUMBNAIL: A APPROVED
 - 2026-10-11: packaged. Rounds: script 3, assets 1, keyframes 2 (AD pass r1, VS pass r2), thumbnail A picked. Risk: runtime 14:31 slightly under 15-17 target; speech 206 wpm (1 over).
+
+## 2026-10-11: final package gate: APPROVED
+
+What I reviewed: `metadata.json` (title, alt_titles, description, tags, playlist), `build/thumbnail.png`, `build/chapters.txt`, `build/samples/f_001-f_003`, the opening of `script.md` and `build/captions.srt` (0:00-1:30), and `reviews/visual_review_postrender.md`.
+1. **Title kept:** "What Dying From Every Brain Parasite Would Feel Like" (T1). It is the proven body-horror formula and it is honest: all 9 items reach the brain/CNS, and Doug dies in 7 of them. It isn't back-to-back with 012's T1 (013 was T6 in between), and it doesn't use the "...Every Brain Parasite Feels Like" wording. None of the alts is stronger. "How Every Brain Parasite Would Kill Doug" repeats 010's formula and is wrong, because Doug survives 2 items. "Creepiest"/"Most Disturbing" are softer and have no death promise. "Deeper They Go" would over-promise, because the axis is severity, not depth. No swap.
+2. **Thumbnail:** archetype A 3x3 grid that ramps from pond green to near-black, with labels that match the chapters. It has no title words, no anatomy and no gore, and the red caps carry it at feed size. The boss tile (cap on the flowerpot) is the best curiosity hook on the channel so far. Same as the earlier pick.
+3. **Opening:** the thumbnail grid is the first frame. "Killifish Fluke." is spoken at 0:08.5 (about word 25), and the twist "The fish isn't sick. It's dancing." comes at 0:40. Both meet style bible 3.2. There is a cold-open thesis line plus "Doug did not agree to this." within 7 s. Doug is in costume and the counter (114) is visible by the third sample.
+4. **Description/chapters:** the first line is accurate ("about nine in ten" matches facts), it has the medical disclaimer and the AI-use note, there are 6 sources, and there is no advice. The chapters start at 0:00, there are 9 of them, they are in item order, and they match the thumbnail labels. Tags are relevant with no stuffing. Playlist `parasites` is valid.
+5. **Condition (not a package issue):** the post-render visual screener FAIL (counter cropped in s014/s024, which carries into short01) has a fix queued (camera x 960). Upload only after the re-render, `qc` passes, and the visual screener PASSES both the new final and short01. Optional polish from that review (s250 arrow, short03 label nudges) is the director's call.
+
+PACKAGE: APPROVED (conditional on re-render + visual screener PASS)
+
+## 2026-10-11: final review round 1
+- QC exit 0 (duration 14:31, no problems). Visual screener: VERDICT (main) FAIL, VERDICT (shorts) FAIL: s014/s024 zoom-ins cropped the death counter ("11" instead of "114"). Showrunner set camera.x to 960 on both (shotlist validates). `.rerender` requests final + shorts. Stage left at `packaged`; not qc_passed until round 2 passes. Optional s250 arrow / short03 label polish not applied.
+- Creative director approved the package (title, thumbnail, description, opening), conditional on the re-render passing.
+
+FINAL: APPROVED
