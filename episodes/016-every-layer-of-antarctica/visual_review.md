@@ -168,3 +168,42 @@ R2-3. **s138, director.** The "260 KM TO OPEN SEA" box (x≈1075–1525, y≈770
 - s036: the ice chimney is still small next to the wordart.
 - s120: Doug still sits close to the bottom-right microbe.
 - s075: the bottom of "FAST" nearly touches Doug's cap. A 20–30 px raise would give it air.
+
+## Round 3: pre-render re-check (R2-1 to R2-3, plus art-review fixes on s034/s035/s202/s265), 2026-10-12
+
+Inputs: `shotlist.json` (274 shots; only s034, s035, s138, s193, s194, s202, s261 and s265 changed compared with the round-2
+snapshot, and nothing in `studio/` or `assets/` changed). All 274 keyframes and all 23 contact sheets were rendered after the
+last shotlist save. I viewed full-size keyframes for all 8 changed shots. For the three camera moves I rendered the true
+end-of-move frame (u = 1.0): `render_still` → `camera_rect` → `fit_frame` → `with_topbar`, the same order `ShotRenderer`
+uses, so the caption bar is drawn on top after the crop. I also re-cropped all 38 camera shots and scanned contact
+sheets 03, 12, 17, 22 and 23, which hold every changed shot and its neighbours.
+
+Correction to my round-2 method: I cropped keyframes that already had the caption bar baked in, so those crops showed
+the caption bar cut off. In the real render the bar is composited after the crop and is never cut. None of the round-2
+findings depended on this.
+
+### Fix re-check
+
+| # | Shot | Result |
+|---|---|---|
+| R2-1 | s193 | PASS. Camera is now `zoom_in x1180 y520 z1.15`, so the crop runs y 50–990. At the end frame Doug (cap, head and feet) is fully in frame, about 55 px below the top edge. He is clear of the caption bar horizontally. MELT, the melt lens, the arrow and the HUD are all in frame. |
+| R2-1 | s194 | PASS. Same camera as s193. "COULD INCREASE" was moved to x 640, y 400 and now spans x≈315–965 in the pale band. It is clear of the thin-ice line (y 506) and of the orange glow, which starts at x≈980. At the end frame the text runs x≈75–820, so nothing is clipped. |
+| R2-2 | s261 | PASS. The move is now `to [960,500,1.1]`. At the end frame Doug is whole, "SEA LEVEL" is complete (x≈115–325), the HUD is inside the right edge, and the push still lands on the warning sign. |
+| R2-3 | s138 | PASS. "260 KM TO OPEN SEA" now spans x≈1215–1665, y≈770–830. It is clear of the sponge boulder and its stalks (right edge ≈1150) and above the dashed line (y 870). |
+| art | s034 / s035 | PASS. CRACKS and FROM BELOW sit at y 330 in the sky and are clear of the ice-slope outline and the HUD. |
+| art | s202 | PASS. "7 EMPIRE STATES" spans x≈110–670 and is clear of the borehole and the building stack. Doug in the borehole is on-model. |
+| art | s265 | PASS. The baked 1.25× group zoom breaks the s262–s266 run of five identical diagrams. The EASIER arrows fill the frame, and the 1996, 2018 and 5+ KM labels can all be read. |
+
+Regression scan: Doug is on-model everywhere I checked. There are no new text crops, overlaps or spelling errors. The death
+counter still runs 130→139 in order, and there is no gore. The other 37 camera moves end cleanly. No run of 4 or more
+near-identical compositions remains.
+
+### VERDICT: PASS
+
+The keyframes are cleared for the render. No required fixes.
+
+#### Advisory (not blocking)
+- s138: the right edge of the "260 KM" box (x≈1665) touches the shelf-front colour edge at x 1660. Moving it to x 1420 would leave a gap.
+- s265: the ocean-surface line from the group (white, x≈1560–1920, y≈340) floats inside the dark ice. It is also visible in s262–s264, so it is consistent, but stopping it at the ice front would look cleaner.
+- Carried over: s036 ice chimney is small; Doug sits close to the microbe in s120; "FAST" is tight above Doug's cap in s075.
+- Post-render screening (samples, qc.json, final thumbnail and Shorts) is still to do after `render --final`.

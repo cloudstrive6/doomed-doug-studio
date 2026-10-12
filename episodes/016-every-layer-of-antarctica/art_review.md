@@ -226,3 +226,70 @@ Round-1 fixes I checked as done:
 
 Re-render only s034, s035, s194, s202 and s262-s266 (`python -m studio keyframes 016-every-layer-of-antarctica --shots ...`). Then rebuild
 the full contact sheets, because a partial render wipes them. I'll do a quick re-check of those 9 shots only.
+
+## Keyframes round 3
+
+Reviewer: art director · 2026-10-12 · scope: s034, s035, s138, s193, s194, s202, s261, s262-s266 (`build/keyframes`, all
+rendered 17:59). `python -m studio keyframes` skips the camera for 1920x1080 canvases, so `assemble.keyframes` shows push-in shots
+at zoom 1.0. To get the real end-of-move frames for s193, s194, s261 and s265, I rendered `fit_frame(img, camera_rect(cam, u=1.0))`
+myself (plus u=0 for `from/to` moves). I also measured each label's pixel box on those frames against the art-bible safe area
+(x 64-1856, y 40-1040). That check turned up a safe-area problem in the counter on other push-in shots that rounds 1 and 2 never
+looked at, because those reviews used only the static keyframes. I list it below as fix 4.
+
+### Verdict: FAIL (4 composition fixes, all director; no asset work)
+
+Passed this round:
+- **s034 CRACKS / s035 FROM BELOW:** at y 330 the letter bottoms sit at about y 362, about 30 px above the slope line. Pass.
+- **s138 TOTAL DARKNESS:** clear of the boulder and the 260 KM label, legible on the dark water. Pass.
+- **s193 MELT:** clear of the lens at both ends of the push-in. Pass.
+- **s194 COULD INCREASE** (x 640, y 400): on the keyframe it spans x 315-965 in the pale band, left of the glow (about x 980). At
+  the end of the push-in it spans x 75-820. Both are inside the safe area. Pass.
+- **s202 7 EMPIRE STATES:** spans x 110-670, clear of the borehole and the building stack. Pass.
+- **s262, s264:** pass.
+- **s265:** the 1.25 static group zoom on the reverse slope gives the run its framing change, and the EASIER arrows fill the frame.
+  The counter and meter sit unscaled outside the group. Pass. The s262-s266 variety point (round-2 fix 4) is closed.
+- Doug is on-model with the cap visible in every shot here. Counter 131 → 138 and meter 25 m → 4,000 m are monotonic. Zone colours
+  are unchanged.
+
+### Required fixes (director)
+1. **s261, end of the new push-in (`to [960, 500, 1.1]`): text is outside the safe area on both sides.** The counter's right edge
+   ends at x 1903 and the meter at x 1865. The SEA LEVEL label's left edge ends at x 33. Set the label `SEA LEVEL` to `x 330`
+   (keep y 330) and the camera to `{"from": [960, 540, 1.0], "to": [1008, 500, 1.1], "ease": "smooth"}`. I verified the result:
+   counter ≤ 1850 and SEA LEVEL ≥ 100.
+2. **s263 LIFTS OFF AND FLOATS (1600, 380): the label box's lower-left corner sits on the ice-shelf top outline.** Move it to
+   `y 320`. That clears the outline and stays about 30 px below the meter box. Verified.
+3. **s266: the red arrow runs behind the UNDER THE ICE box** (about x 650-760, y 820-860), so the arrow looks cut in two. Move
+   `LOWEST GROUND` to `(600, 540)` and `UNDER THE ICE` to `(600, 620)`. Both then sit in clear dark ice above the arrow. Verified.
+4. **Counter outside the safe area at the end of push-ins (missed in rounds 1-2, found with the camera-frame check).** On every
+   zoom shot below, the camera crop pushes the DOUG DEATHS box past x 1856, and on some it also pushes the box above y 40. Change
+   only the camera centre. Zoom, ease and the rest of the shot stay as they are. I re-measured every row at u = 0, 0.5 and 1 with
+   these values, and every label stays inside x 64-1856, y 40-1040:
+
+   | Shot | Now (right edge / top) | New camera |
+   |---|---|---|
+   | s005 | 1872 (DID NOT AGREE 1901) | `zoom_in x 1006, y 560, zoom 1.06` |
+   | s022 | 1859 | `zoom_in x 970, y 560, zoom 1.05` |
+   | s056 | 1900 / top 12 | `from [960,540,1.0] to [1037,565,1.14]` |
+   | s057 | 1884 | `zoom_in x 993, y 600, zoom 1.08` |
+   | s083 | 1874 / top 13 | `from [1023,470,1.12] to [1023,570,1.12]` |
+   | s095 | 1886 | `zoom_in x 993, y 560, zoom 1.08` |
+   | s112 | 1881 / top 32 | `zoom_in x 1008, y 580, zoom 1.1` |
+   | s114 | 1859 / top 32 | `zoom_in x 1008, y 580, zoom 1.1` |
+   | s124 | 1868 | `zoom_in x 978, y 760, zoom 1.06` |
+   | s129 | 1883 | `zoom_in x 993, y 610, zoom 1.08` |
+   | s148 | 1883 | `zoom_in x 993, y 610, zoom 1.08` |
+   | s161 | 1902 (meter 1864) | `zoom_in x 1008, y 560, zoom 1.1` |
+   | s176 | 1868 | `zoom_in x 978, y 620, zoom 1.06` |
+   | s196 | start frame 1920 / top 13 | `from [1023,570,1.12] to [960,540,1.0]` |
+   | s219 | 1868 | `zoom_in x 978, y 560, zoom 1.06` |
+   | s239 | 1874 | `zoom_in x 1023, y 540, zoom 1.12` |
+
+   Rule of thumb for future push-ins on shots that carry the counter: keep `cx ≥ 1817 − 890/zoom` and `cy ≤ 127 + 500/zoom`.
+
+### Note for the engine (non-blocking, route to the showrunner)
+`assemble.keyframes` applies `camera_rect(..., 1.0)` only when the canvas isn't 1920x1080, so every push-in reviews at zoom 1.0.
+Rendering the end-of-move frame for every shot that has a camera (and the start frame for `from` and `zoom_out` moves) would have
+caught fix 4 in round 1.
+
+After the fixes, re-render s005, s022, s056, s057, s083, s095, s112, s114, s124, s129, s148, s161, s176, s196, s219, s239, s261, s263
+and s266, then rebuild the contact sheets. I'll re-check those shots on their camera end frames only.
