@@ -31,3 +31,31 @@ What passes: Doug is on-model and readable in every shot (red cap, white head), 
 16. **s287** (illustrator/director): the two caps on the shovel are tiny (about 30 px). Scale up the shovel and caps so "TWO CAPS" is readable at phone size. Also move the "TWO CAPS" text left so its "S" does not overlap the dark shaft.
 17. **s176** (director): the right-hand top slab touches the bottom edge of the DEPTH badge. Nudge the slab grid down a little.
 18. **s070** (illustrator): the "RUSSIAN DOLLS" text sits on the large doll's head. Move the text above the dolls.
+
+## Round 2: keyframes after round 1 fixes (2026-10-12)
+
+Scope: I checked the 13 required and 5 recommended round 1 items at full resolution. I also reviewed all 61 shots that changed in fd02d1c against their narration, plus s001 (the thumbnail opening).
+
+VERDICT: FAIL (one blocking item)
+
+Round 1 items resolved:
+- Required 1-13: all fixed. s034, s206, s082, s141 ("2023" is now fully outside the slab), s240, s204, s169-s171 and s178-s181 all clear the HUD. In s191 the Tanystropheus and giraffe are separated, and the label sits above the giraffe. s071 and s078 use the same readable beetle icon. In s195-s198 variety is fixed (s197 is now a close-up of the missing body). In s236-s242 variety is fixed (s238 has a ruler, s239 a rice comparison, s242 a timeline).
+- Recommended 14-18: all addressed. s086 has a faded red cap and a "HIS" label. s107 shows Sue's silhouette as the cause. In s287 the caps are larger and "TWO CAPS" clears the shaft. s176 and s070 are fine.
+
+New shots: the changed shots match their narration. Doug is on-model and there is no gore. The death counter and depth badges are consistent.
+
+### Required fixes
+
+1. **s180** (director/art director): the threat glow behind the Aspidorhynchus and pterosaur silhouette is a red speckle cloud in the water, centred on the bite. At a glance it reads as a blood cloud. The red dots also spill over the black fish body, which looks like a render glitch, and there is a row of stray red tick marks along the bottom edge of the frame (x ~1360-1700, y ~1075). Change the glow to a neutral or dark tone (as in s186), keep it behind the silhouette only, and remove the bottom-edge ticks.
+
+### Recommended (non-blocking)
+
+2. **s166, s199** (director): these use the same red underwater glow, more faintly. In s199 it sits next to "caught by the neck". Use the same neutral glow as the s180 fix so nothing in the water reads as blood.
+3. **s281** (director): the HUD shovel icon tip touches the T. rex icon's head. Nudge the T. rex icon down or left by about 15 px.
+
+## Thumbnail candidates (round 2)
+
+Checked at 1280x720 and at feed size (about 246x138).
+
+- **Option A (`build/thumbnail.png` = `thumb_a.png`, `thumbnail_small.png`): PASS. Recommended.** The strata cross-section darkens band by band, which sells "the deeper... the scarier" and complements the title without repeating its words. All six finds are recognisable at feed size (the rhino skeleton least so). The labels read at feed size and use no title words. It is not misleading, since every find is in the episode. Non-blocking notes for the graphic designer: (a) Doug is about 50 px tall and his cap touches the top edge, so at feed size he is a speck. Scale him up about 1.5x and drop him a little so the cap clears the edge. (b) The column uses only the middle ~40% of the width. Widen the bands or enlarge the finds so the threats carry more of the frame. (c) "Tanystropheus" is set smaller than the other labels; match the sizes, or shorten it if needed.
+- **Option B (`build/thumb_b.png`, `thumb_b_small.png`): FAIL (do not use).** The 2x3 grid of panels loses the depth gradient, so it no longer complements a "deeper = scarier" title and reads like a generic fossil collage. Doug appears only as a tiny figure in one panel, and there is no sense of descent or threat to him. "Held On" and "Wasp Flies" are cryptic without the stacked layers for context.

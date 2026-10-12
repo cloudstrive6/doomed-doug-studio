@@ -199,3 +199,33 @@ validate OK, shorts validate OK, affected keyframes re-rendered and checked.
   hole. s086 tag "003" changed to "HIS" (appears on the word), using the red-tinted `doug_cap_fossil`. s287 shovel s1.8 with
   caps s0.9, TWO CAPS moved left.
 - Minor notes not addressed: s015, s016, s020, s099, s159/s160.
+
+---
+
+# Keyframes round 2
+
+Reviewer: art director · 2026-10-12 · scope: re-rendered `build/contact/` plus full-res `build/keyframes/` for all 68 shots
+touched in round 1 (both reviews), with HUD-corner crops on borderline shots.
+
+## Verdict: FAIL (2 small HUD fixes, everything else resolved)
+
+Resolved and verified: A1 (red glow on s043, s054, s166, s180, s186, s199, s204; s098/s103/s107 stronger), B2-B3 (s067 has
+2 labels, s068 only "?", s211 has 2), C4-C10 (all chapter cards s006-s256 sit below the HUD at one size; s082, s152, s155,
+s169-s171, s176, s204 and s240 clear), D13-D18 (s018 ruler matches the ash band, s039 rice ≈2.4x pupa, s064 body on 0-8,
+s088/s089 Doug vs skull, s191 side by side, s239 worm ≈0.6x rice), E19-E26 (s031, s141 label, s178-s181 rod and float,
+s202, s223/s224 pale-blue x-ray, s247 camera, s134 map bleed, s070). The VS items also land well: the `insect` icon
+(s067/s071/s078), `spiny_fish` (s072/s073/s213), the s197 close-up, s238 ruler, s242 timeline, s086 "HIS" with the tinted
+cap, s107 Sue silhouette, s287 caps. The runs s195-s198 and s236-s242 now vary. Doug is on-model, with his cap in every shot.
+
+## Required fixes (director)
+
+1. **s281** (round 1 item 12 not fully met): the callback T. rex's head touches the depth meter's shovel icon at about
+   (1340, 255). Move the rex at least 60 px down or left (or shrink the ring about 5% more) so nothing touches the HUD.
+2. **s141**: the slab's top outline runs straight through the shovel icon at about (1340, 250). Move the slab down about
+   50 px, or shrink it to about 0.95, so its top edge sits below y≈290.
+
+## Minor (not blocking)
+- s204: at s2.16 the Nothosaurus silhouette's blocky snout tip looks like a rectangle. It reads as a looming reveal, so
+  leave it unless you are touching the shot anyway.
+- s186/s204/s199: the red glow spray bleeds onto the sand. That's fine, but a glow centred about 60 px higher would keep it in the water.
+- Round 1 minors s015, s016, s020, s099 and s159/s160 are still open (optional).
