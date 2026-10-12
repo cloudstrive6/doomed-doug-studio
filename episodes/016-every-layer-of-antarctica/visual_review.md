@@ -94,3 +94,77 @@ static runs. I will re-check only the listed shots plus the thumbnail.
 - s159: the thought bubble's tail points between Doug and the microscope. Aim it at Doug.
 
 Re-check scope for round 2: fixes 1–12 only.
+
+## Round 2: pre-render re-check (fixes 1–12 + regression scan), 2026-10-12
+
+Inputs: `shotlist.json` (274 shots), all 274 keyframes in `build/keyframes/` (all rendered after the last
+shotlist save), `build/contact/sheet_01..23.png`, full-size keyframes for s138, s146, s182, s187, s194 and s261,
+simulated end-of-move frames for all 38 shots that have a camera move (keyframes show the uncropped canvas, so I
+cropped each one with `camera_rect(..., u=1.0)`), and `build/thumbnail*.png`, `thumb_compare_168.png` and
+`thumb_compare_small.png`.
+
+Note on tooling: when I started, `build/contact/` held only `sheet_01.png` with a single tile (s001).
+`keyframes --shots s001` wipes every contact sheet and rebuilds only from the shots it rendered
+(`studio/assemble.py` `keyframes()` → `contact_sheets()` unlinks `*.png` first). I rebuilt all 23 sheets from the
+existing, current keyframes without re-rendering. Whoever runs a partial keyframe pass next should rebuild the
+full sheet set, or the engine should only regenerate sheets on full runs.
+
+### Fix re-check
+
+| # | Shot(s) | Result |
+|---|---|---|
+| 1 | s012 | PASS. "PERFECTLY CLEAR" sits fully on the light-blue side. At the end of the zoom its right edge is about 105 px from the frame edge. |
+| 2 | s025 | PASS. "JOINED THE PHOTO" is at the top left, above the ice chunk, with a safe margin through the shake. |
+| 3 | s254 | PASS. The "DENMAN" label sits inside the canyon floor. |
+| 4 | s090 | PASS. The whole water band is dark, the robot is on one tone, and the seabed line is intact. |
+| 5 | s162 | PASS. The tardigrade drawing appears with a red arrow, and "WATER BEAR" is readable. |
+| 6 | s187 | PASS. Doug stands on the green ground between Fuji and the buried panel, clear of the HUD and of "COMPLETELY BURIED". |
+| 7 | s178 / s181 / s182 | PASS. "RADAR MAPS" clears the screen border, s181 is a close-up with clear text, and in s182 "UNDER THE ICE" sits under "138" above the scientist's hair, with a tight gap but no overlap. |
+| 8 | s146 | PASS. The bubble is above the scientist, its tail points at his head, and it is clear of both the dashed line and the km label. |
+| 9 | s004 s005 s045 s107 s138 s142 s205 s213 s253 s272 | PASS on every listed wordart move. The stray dashed fragment in s138 is gone. A new overlap in s138 is listed as fix R2-3. |
+| 10 | s115 | PASS. The tubes are pale blue and clear with green microbes, so they no longer read as blood vials. |
+| 11 | variety runs | PASS on every run: s073 close-up and s076/s077 bar graphic; s179/s181 close-ups; s237/s238 close-ups and s239 zoom; s259/s260 canyon close-ups; and alternate-shot zooms on s054–057, s112/s114, s127/s129 and s161/s162. Two of the new moves introduced clipping, listed as fixes R2-1 and R2-2. |
+| 12 | thumbnail A | PASS. See the thumbnail section below. |
+
+Regression scan of all 23 sheets: no off-model Doug, no new text crops, no spelling errors, death counter
+130→139 intact, no gore. The only new problems are the three below, two of which come from the new camera moves.
+
+### VERDICT: FAIL
+
+There are three small director fixes, all in camera values or label positions. Re-check scope for round 3:
+s193, s194, s261 and s138 only.
+
+#### Required fixes
+
+R2-1. **s193 / s194, director.** The new zoom_in moves end with the crop top at y≈110 full-size. Doug's cap starts at
+   y≈102, so at the end of both moves the cap is clipped and his head touches the top edge. Change both cameras to
+   `{"move": "zoom_in", "x": 1180, "y": 520, "zoom": 1.15}`, which puts the crop top at y≈50. Also, in s194
+   "COULD INCREASE" (x≈380–1140, baseline y≈500) runs its last letters into the orange heat glow and onto the
+   top edge of the melt lens. Move it to y≈400 (higher in the clear ice band) or end it by x≈980.
+R2-2. **s261, director.** The new push-in `to: [1050, 590, 1.15]` ends with a crop of x 215–1885 and y 120–1060. That cuts Doug's head
+   off (he stands at y 60–240, so only his legs remain), and "SEA LEVEL" (x 118–323) is cut to "EVEL". Change it to
+   `"to": [960, 500, 1.1]` (crop x 87–1833, y 9–991), which keeps Doug, SEA LEVEL and the HUD in frame and still
+   pushes into the warning sign. Alternatively, drop Doug from this shot.
+R2-3. **s138, director.** The "260 KM TO OPEN SEA" box (x≈1075–1525, y≈770–830) sits on the top-right of the sponge
+   boulder and touches the rightmost sponge stalk. Move the box right and down to x≈1230, y≈800 so it stays fully right of the
+   boulder (boulder right edge ≈1170) and above the dashed line, or shrink it to "260 KM".
+
+#### Thumbnail verdict
+
+- **A (`thumbnail.png`): PASS, keep as primary.** Fix 12 is done. The labels are bold and noticeably larger,
+  Doug is about 1.6× scale with his red cap and white head clear, and "See-Through Fish" now starts at x≈28 (above
+  the 24 px minimum). At 168 px all six labels can now be read, Doug reads as a red-capped figure on the rope, and
+  every band subject is distinguishable. It matches the title "What Dying at Every Depth Under Antarctica Would Be
+  Like" without repeating it and isn't misleading. Advisory only: a few red glow speckles from the Denman band
+  drift up into the Lake Vostok band (around x 650–700, y 600–620 at 1280 px), and a few ash dots sit just under the
+  volcano band line. Clipping the glow and ash sprays to their own bands would tidy it up.
+- **B (`thumbnail_b.png`, "4 KM DOWN"): PASS as the A/B alternate.** The round-1 optional note was taken up: the
+  red speckle is now a smooth red radial gradient on the canyon floor, which reads as heat or danger instead of
+  noise at 168 px. The text is large and clean, and Doug is big and obvious. The threat is still implied
+  rather than shown, which suits a test variant.
+
+#### Advisory carried over (not blocking)
+
+- s036: the ice chimney is still small next to the wordart.
+- s120: Doug still sits close to the bottom-right microbe.
+- s075: the bottom of "FAST" nearly touches Doug's cap. A 20–30 px raise would give it air.

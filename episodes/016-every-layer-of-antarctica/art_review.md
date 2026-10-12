@@ -182,3 +182,47 @@ What passes:
 Optional (non-blocking): s229-s240 have surface Doug at x ≈ 1245, right against the counter. Move him to x ≤ 1100.
 
 Re-render after the fixes (`python -m studio keyframes 016-every-layer-of-antarctica`). I'll re-review the full set.
+
+## Keyframes round 2
+
+Reviewer: art director · 2026-10-12 · scope: all 274 re-rendered keyframes. I rebuilt `build/contact/sheet_01..23.png` from
+the fresh `build/keyframes` because the last single-shot render had left only `sheet_01`. I cropped the counter/meter zone, the
+frame edges and every round-1 hotspot at full size, and ran a script check of the shotlist for wordart word counts, stickers on
+small suitcases, and the counter and meter sequence.
+
+### Verdict: FAIL (4 small composition fixes, no asset work). Route everything below to the **director**.
+
+Round-1 fixes I checked as done:
+- **1.** The s017 meter now reads `0 m`. The meter only climbs (0 → 25 → 587 → 740 → 800 → 872 → 1,087 → 2,000 → 3,200 → 3,766 → 4,000)
+  and the counter goes 130 → 139 with no drops.
+- **2.** No `sticker_*` sits on a suitcase scaled under 0.15. s273 still shows all nine stickers.
+- **3.** The counter/meter zone is clear: the cave icicles and crevasse spikes moved, the REC and world-map frames end at about x 1260, and
+  s187 Doug is at about x 940. The listed wordart now clears the zone.
+- **4.** Safe area: s012, s025, s084, s178, s028, s121, s189, s240, s138, s254 and s019 are all inside.
+- **5.** The listed overlaps are cleared, including the glacier, drill, boulder, rope and arrow shots, plus s205, s146 and s182.
+- **6.** Every wordart is 4 words or fewer.
+- **7.** Variety: s073 close-up, s076-s077 bar chart, s127 push-in, s173 close-up, s237-s239 borehole push-in, s259-s260 canyon push-in, and
+  push-ins on s054/s056/s057 and s193/s194. Those runs now pass.
+- **8 and 9.** The drill tops and s217/s218 clear the caption bar. s274 now has a dashed "room" slot with an arrow, and it reads.
+- Doug is on-model everywhere and the cap is always visible. The death beats stay cartoon-only, zone colours match the art bible,
+  and the optional move of surface Doug in s229-s240 is done.
+
+### Required fixes (director)
+1. **s034 CRACKS, s035 FROM BELOW: wordart sits on the ice-slope outline.** Both are at `y 390, size 90`. The letter bottoms
+   (about y 428) cross the top edge of the slope poly (y about 400-440 across the text span). Set `y 330` in both (the top stays at about 292, still
+   clear of the meter). s036 ICE CHIMNEYS is fine.
+2. **s194 COULD INCREASE: the baseline sits on the new thin-ice line (y 506), and the right end runs into the orange glow around the
+   melt lens.** Move it to `x 560, y 420` so it sits in the pale band, left of the lens (lens x 1030-1330).
+3. **s202 7 EMPIRE STATE BUILDINGS: the borehole (rect x 748-772) runs through the word BUILDINGS.** Same rule as the round-1 rope
+   fixes. Change the text to `7 EMPIRE STATES` at `x 390, y 760, size 64` (it spans about x 90-690, clear of the hole and the building stack).
+4. **Layout variety, s262-s266 (glacier grounding-line diagram, 5 in a row, all with no camera).** I missed this run in round 1. Add one
+   framing change, e.g. a push-in on the reverse slope for s265 (`{"move": "zoom_in", "x": 600, "y": 760, "zoom": 1.25}`)
+   so the EASIER arrows fill the frame.
+
+### Optional (non-blocking)
+- The ICE ABOVE DOUG meter sits right on the ice-surface line in the drill cross-sections (s085-s086, s154, s158, s201-s204, s228-s229,
+  s233-s236, s239-s240, s242, s245, s248-s251). It stays fully legible because the box is opaque, so I'm not blocking on it. In future
+  episodes, put the surface line at y ≥ 280 or ≤ 200 in shots that use the meter.
+
+Re-render only s034, s035, s194, s202 and s262-s266 (`python -m studio keyframes 016-every-layer-of-antarctica --shots ...`). Then rebuild
+the full contact sheets, because a partial render wipes them. I'll do a quick re-check of those 9 shots only.
