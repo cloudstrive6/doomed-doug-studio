@@ -195,7 +195,7 @@ class Canvas:
 
     def text(self, s, x, y, size=48, color="#000", align="center", outline=None, outline_width=0,
              font_name="default", max_width=None, line_spacing=1.1, bold=False):
-        f = font(int(size), font_name, bold)
+        f = font(max(1, int(size)), font_name, bold)
         lines = wrap(s, f, max_width) if max_width else str(s).split("\n")
         heights = [f.getbbox(l or " ")[3] - f.getbbox(l or " ")[1] for l in lines]
         lh = int(size * line_spacing)

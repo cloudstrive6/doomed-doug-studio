@@ -8,10 +8,10 @@
  "elements": [
   {
    "type": "rect",
-   "x": 365,
+   "x": 438,
    "y": 150,
-   "w": 550,
-   "h": 112,
+   "w": 506,
+   "h": 150,
    "fill": "#e6f2f9",
    "width": 6,
    "color": "#000000",
@@ -20,10 +20,10 @@
   },
   {
    "type": "rect",
-   "x": 365,
-   "y": 262,
-   "w": 550,
-   "h": 88,
+   "x": 438,
+   "y": 300,
+   "w": 506,
+   "h": 80,
    "fill": "#a2cde6",
    "width": 6,
    "color": "#000000",
@@ -32,10 +32,10 @@
   },
   {
    "type": "rect",
-   "x": 365,
-   "y": 350,
-   "w": 550,
-   "h": 88,
+   "x": 438,
+   "y": 380,
+   "w": 506,
+   "h": 80,
    "fill": "#5a9cc9",
    "width": 6,
    "color": "#000000",
@@ -44,10 +44,10 @@
   },
   {
    "type": "rect",
-   "x": 365,
-   "y": 438,
-   "w": 550,
-   "h": 88,
+   "x": 438,
+   "y": 460,
+   "w": 506,
+   "h": 80,
    "fill": "#2f6aa8",
    "width": 6,
    "color": "#000000",
@@ -56,10 +56,10 @@
   },
   {
    "type": "rect",
-   "x": 365,
-   "y": 526,
-   "w": 550,
-   "h": 88,
+   "x": 438,
+   "y": 540,
+   "w": 506,
+   "h": 80,
    "fill": "#173a68",
    "width": 6,
    "color": "#000000",
@@ -68,10 +68,10 @@
   },
   {
    "type": "rect",
-   "x": 365,
-   "y": 614,
-   "w": 550,
-   "h": 88,
+   "x": 438,
+   "y": 620,
+   "w": 506,
+   "h": 80,
    "fill": "#0b0d16",
    "width": 6,
    "color": "#000000",
@@ -81,8 +81,8 @@
   {
    "type": "asset",
    "name": "taylor_glacier_front",
-   "x": 760.0,
-   "y": 258,
+   "x": 786.0,
+   "y": 296,
    "scale": 0.24,
    "boil": 0,
    "wobble": 0
@@ -90,8 +90,8 @@
   {
    "type": "asset",
    "name": "blood_falls_stain",
-   "x": 760.0,
-   "y": 258,
+   "x": 786.0,
+   "y": 296,
    "scale": 0.24,
    "boil": 0,
    "wobble": 0
@@ -99,8 +99,8 @@
   {
    "type": "asset",
    "name": "icefin_robot",
-   "x": 490.0,
-   "y": 306.0,
+   "x": 556.0,
+   "y": 340.0,
    "scale": 0.42,
    "boil": 0,
    "wobble": 0
@@ -108,9 +108,9 @@
   {
    "type": "asset",
    "name": "ice_fish",
-   "x": 780.0,
-   "y": 306.0,
-   "scale": 0.62,
+   "x": 821.0,
+   "y": 340.0,
+   "scale": 0.6,
    "flip": true,
    "boil": 0,
    "wobble": 0
@@ -118,17 +118,17 @@
   {
    "type": "asset",
    "name": "sponge_boulder",
-   "x": 640.0,
-   "y": 434,
-   "scale": 0.2,
+   "x": 691.0,
+   "y": 456,
+   "scale": 0.17,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "spray",
-   "x": 640.0,
-   "y": 480,
-   "r": 70,
+   "x": 691.0,
+   "y": 506,
+   "r": 40,
    "color": "#ff7a1a",
    "density": 0.18,
    "boil": 0,
@@ -137,16 +137,16 @@
   {
    "type": "asset",
    "name": "volcano",
-   "x": 640.0,
-   "y": 522,
-   "scale": 0.2,
+   "x": 691.0,
+   "y": 536,
+   "scale": 0.18,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "ellipse",
-   "x": 640.0,
-   "y": 576.0,
+   "x": 691.0,
+   "y": 586.0,
    "rx": 200,
    "ry": 30,
    "fill": "#3a9ad9",
@@ -157,18 +157,8 @@
   },
   {
    "type": "spray",
-   "x": 640.0,
-   "y": 576.0,
-   "r": 150,
-   "color": "#8fd3ff",
-   "density": 0.05,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "spray",
-   "x": 640.0,
-   "y": 650,
+   "x": 691.0,
+   "y": 648,
    "r": 50,
    "color": "#d0301e",
    "density": 0.2,
@@ -179,36 +169,36 @@
    "type": "poly",
    "points": [
     [
-     368,
-     632
-    ],
-    [
-     530.0,
-     638
-    ],
-    [
-     600.0,
-     696
-    ],
-    [
-     680.0,
-     696
-    ],
-    [
-     750.0,
-     636
-    ],
-    [
-     912,
+     441,
      630
     ],
     [
-     912,
-     699
+     581.0,
+     636
     ],
     [
-     368,
-     699
+     651.0,
+     694
+    ],
+    [
+     731.0,
+     694
+    ],
+    [
+     801.0,
+     634
+    ],
+    [
+     941,
+     628
+    ],
+    [
+     941,
+     697
+    ],
+    [
+     441,
+     697
     ]
    ],
    "fill": "#3a2e28",
@@ -220,8 +210,8 @@
   {
    "type": "asset",
    "name": "doug_cap",
-   "x": 640.0,
-   "y": 688,
+   "x": 691.0,
+   "y": 686,
    "scale": 0.34,
    "boil": 0,
    "wobble": 0
@@ -229,86 +219,98 @@
   {
    "type": "text",
    "text": "Blood Falls",
-   "x": 1100,
-   "y": 206.0,
-   "size": 46,
-   "max_width": 360,
+   "x": 960,
+   "y": 225.0,
+   "size": 52,
    "font": "ComicNeue-Bold",
    "bold": true,
    "color": "#000000",
+   "align": "left",
+   "outline": "#000000",
+   "outline_width": 2,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "text",
    "text": "See-Through Fish",
-   "x": 182,
-   "y": 306.0,
-   "size": 46,
-   "max_width": 360,
+   "x": 422,
+   "y": 340.0,
+   "size": 52,
    "font": "ComicNeue-Bold",
    "bold": true,
    "color": "#000000",
+   "align": "right",
+   "outline": "#000000",
+   "outline_width": 2,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "text",
    "text": "Sponge Rock",
-   "x": 1100,
-   "y": 394.0,
-   "size": 46,
-   "max_width": 360,
+   "x": 960,
+   "y": 420.0,
+   "size": 52,
    "font": "ComicNeue-Bold",
    "bold": true,
    "color": "#000000",
+   "align": "left",
+   "outline": "#000000",
+   "outline_width": 2,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "text",
    "text": "Buried Volcano",
-   "x": 182,
-   "y": 482.0,
-   "size": 46,
-   "max_width": 360,
+   "x": 422,
+   "y": 500.0,
+   "size": 52,
    "font": "ComicNeue-Bold",
    "bold": true,
    "color": "#000000",
+   "align": "right",
+   "outline": "#000000",
+   "outline_width": 2,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "text",
    "text": "Lake Vostok",
-   "x": 1100,
-   "y": 570.0,
-   "size": 46,
-   "max_width": 360,
+   "x": 960,
+   "y": 580.0,
+   "size": 52,
    "font": "ComicNeue-Bold",
    "bold": true,
    "color": "#000000",
+   "align": "left",
+   "outline": "#000000",
+   "outline_width": 2,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "text",
    "text": "Denman Canyon",
-   "x": 182,
-   "y": 658.0,
-   "size": 46,
-   "max_width": 360,
+   "x": 422,
+   "y": 660.0,
+   "size": 52,
    "font": "ComicNeue-Bold",
    "bold": true,
    "color": "#000000",
+   "align": "right",
+   "outline": "#000000",
+   "outline_width": 2,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "rect",
-   "x": 365,
+   "x": 438,
    "y": 138,
-   "w": 550,
+   "w": 506,
    "h": 12,
    "fill": "#f7fbff",
    "width": 5,
@@ -319,7 +321,7 @@
   {
    "type": "asset",
    "name": "hot_water_drill",
-   "x": 490.0,
+   "x": 541.0,
    "y": 138,
    "scale": 0.17,
    "boil": 0,
@@ -329,36 +331,36 @@
    "type": "line",
    "points": [
     [
-     490.0,
+     541.0,
      33
     ],
     [
-     490.0,
-     216
+     541.0,
+     246
     ]
    ],
    "color": "#c8a050",
-   "width": 5,
+   "width": 6,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "ellipse",
-   "x": 490.0,
-   "y": 218,
-   "rx": 6,
-   "ry": 2,
+   "x": 541.0,
+   "y": 248,
+   "rx": 9,
+   "ry": 3,
    "fill": null,
    "color": "#e07a2a",
-   "width": 5,
+   "width": 6,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "doug",
-   "x": 490.0,
-   "y": 218,
-   "scale": 0.2,
+   "x": 541.0,
+   "y": 248,
+   "scale": 0.32,
    "pose": "stand",
    "expression": "shock",
    "facing": "right",

@@ -85,6 +85,20 @@ layer, oldest at the bottom; luminance must fall every step (015's draft had lay
 Shaft interior (the hole Doug stands in) is always `#f1e4c6` so he reads on every layer. DEPTH meter: size-28 label at (1590, 238)
 with the `shovel` asset at scale 0.16 to its left; it sits with the death counter, never over the shaft.
 
+**Ice-thickness ramp (from 016; reuse it for any "down through the ice" episode).** The ice body gets one step darker per item, and
+luminance must fall every step. Below the ice, water uses its own darker parallel step. It is the axis here, so the "sub-ice water =
+`#3a9ad9`" rule does not apply *inside an ice-thickness axis*. Everywhere else it still applies. Strata lines (`#0a1a33`, width 3) keep
+the ice reading as ice, not ocean.
+| Item band | Ice | Water / lake below |
+|---|---|---|
+| Surface items (0-25 m) | `#eef6fb` / `#cfe6f3` | brine `#3a2a22` |
+| ~600-900 m | `#c8e3f2` → `#b6d9ed` → `#a2cde6` → `#8cc0de` | `#1b4f86` → `#194a7e` → `#174574` → `#153f6a` |
+| ~1-2 km | `#5a9cc9` → `#2f6aa8` | `#123760` |
+| ~3-4 km | `#1b3f73` → `#0f2240` | `#0b2447` → `#071a36` |
+| Boss (deepest) | `#0b0d16` | rock `#3a2e28`, faint red spray `#3a0e14` |
+Small "move between items" map: Antarctica on `#3a9ad9` with a red ring marker. ICE meter: a size-28 `label` at (1590, 238) with `ice_cube_icon` at
+0.16 to its left, monotonic. Tiny carried props that have printed stickers (the suitcase) drop the stickers below scale 0.15: their text renders under 1 px (016 s202).
+
 ## Two-tier rendering (style bible 4.3)
 - **Doug and humans: crude** MS Paint stick men: uniform thin lines (Doug's rig: 5 at scale 1 ≈ 4–5 px), big round
   head with grey shading crescent, oval eyes, meme faces.
