@@ -1,16 +1,7 @@
 {
- "at": "2026-10-12T06:01:31+00:00",
- "issues": [
-  {
-   "key": "related_pending",
-   "severity": "low",
-   "owner": "owner",
-   "summary": "9 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
-   "detail": "Megalodon Ate the Predators That Ate Other Predators -> What Dying in Every Prehistoric Ocean Would Be Like\nHelicoprion's Tooth Spiral Took 114 Years to Figure Out -> What Dying in Every Prehistoric Ocean Would Be Like\nThis Prehistoric Fish Probably Died From Its Own Dinner -> What Dying in Every Prehistoric Ocean Would Be Like\nThis 25-Gram Octopus Has Enough Venom to Paralyze Ten Adults -> How Every Deadly Venom Would Kill Doug\nThe World's Most Toxic Snake Has Zero Confirmed Kills -> How Every Deadly Venom Would Kill Doug\nThe Box Jellyfish Has Killed 63 People, and It Swims -> How Every Deadly Venom Would Kill Doug\nMost Cassowary Attacks Come From Birds People Fed First -> Every Animal Doug Could Beat in a Fight, Until He Dies\nA Gorilla's Chest Beat Tells Rivals Exactly How Big It Is -> Every Animal Doug Could Beat in a Fight, Until He Dies\nElephants Know If You're a Threat Just From Your Voice -> Every Animal Doug Could Beat in a Fight, Until He Dies",
-   "route": "",
-   "fixed": false,
-   "extra": {}
-  }
- ],
- "resolved_since_last": []
+ "at": "2026-10-12T07:01:55+00:00",
+ "issues": [],
+ "resolved_since_last": [
+  "related_pending"
+ ]
 }
