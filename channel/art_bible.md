@@ -167,6 +167,11 @@ reveals · real photos only public-domain/licensed with a 4 px black frame.
 - A small `scale` needs a bigger `glow_r`: the visible ring is `glow_r x scale` minus the drawing's half-width.
 - Never put the colour reveal in the same shot on top of a glowing silhouette: the leftover red spray peeks out
   under the creature and reads as a blood puddle. Silhouette in one shot, colour in the next (1-3 beats later).
+- Underwater, any red spray reads as blood. Red cue on first appearance = a thin solid red outline, never speckle or
+  cloud: set `"glow_r": 0` and `"rim": {"color": "#e0201b", "px": 4-5}` on the silhouette (hard 3-5 px edge hugging
+  the shape), with a dark water-tone `spray` glow (e.g. `#1b4f86`, `#0f3d3b`) before it, kept inside the frame and off
+  the sea floor. Repeat silhouettes and action beats (a bite in progress) use the dark glow only (015 s166, s186, s199;
+  s180, s204).
 
 ## Text
 Font: Arimo (bundled, Arial look-alike = classic MS Paint text). `label` boxes for depths, names and numbers.

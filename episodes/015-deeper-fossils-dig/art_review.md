@@ -229,3 +229,40 @@ cap, s107 Sue silhouette, s287 caps. The runs s195-s198 and s236-s242 now vary. 
   leave it unless you are touching the shot anyway.
 - s186/s204/s199: the red glow spray bleeds onto the sand. That's fine, but a glow centred about 60 px higher would keep it in the water.
 - Round 1 minors s015, s016, s020, s099 and s159/s160 are still open (optional).
+
+---
+
+# Keyframes round 3
+
+Reviewer: art director · 2026-10-12 · scope: full-res `build/keyframes/` s001, s141, s166, s180, s186, s199, s204, s281,
+plus HUD-corner crops of s141/s281, checked against the round 2 findings and the c8dcbd6 shotlist diff.
+
+## Verdict: FAIL (round 2 items fixed; the glow change regressed rule 7.7 on 3 first-reveal shots)
+
+Resolved: round 2 item 1 (s281: the T. rex at 1205,445 now has about 60 px of clear air below the shovel icon), round 2
+item 2 (s141: the slab's top edge is at y≈310, clear of the HUD, and "2023" still sits outside it). s001 is clean: Doug is
+on-model, the strata and labels read, and nothing touches the edges. The s180 bottom-edge ticks are gone.
+
+Context: to address visual_review round 2 item 1 (the red cloud read as blood), the director recoloured all five glows
+to dark water tones (#1b4f86 / #0f3d3b). That concern is valid for s180, but the blanket change removes the reveal glow
+required by style bible 7.7 from the first silhouette reveal of each creature. The art bible now has an underwater
+glow rule (Silhouette glow sizing, last bullet) covering both points.
+
+## Required fixes (director)
+
+1. **s166** (Aspidorhynchus first reveal): bring back a red glow as a halo. Use `#ff2a2a`, density about 0.2, centred
+   on the fish's body (about 1000,810), with r about 420 so it extends only 60-80 px past the silhouette. List it before
+   the silhouette. No red at the pterosaur or the waterline.
+2. **s186** (Tanystropheus first reveal): use the same red halo recipe. Centre it on the body and neck (about 950,540),
+   using an ellipse-like pair of sprays if one disc can't cover the neck, at density about 0.2. Keep it at least 60 px above
+   the sand line, as the round 2 minor asked.
+3. **s199** (Nothosaurus first reveal): use the same red halo recipe, centred on the Nothosaurus body (about 900,450), not
+   on the Tanystropheus's neck where the bite lands. It must sit behind the silhouette and not touch the coloured
+   Tanystropheus.
+
+## Accepted as is
+- s180 (a repeat silhouette during the bite) and s204 (a repeat Nothosaurus silhouette) may keep the dark water-tone
+  glow. That resolves the visual screener's blood concern.
+- Minor, s180: a few blue speckles still sit on the fish's black body near the bite (x≈1320-1470). Move the
+  three sprays before the silhouettes if you are touching the shot.
+- Round 2 minors (s204 blocky snout, open round 1 minors) remain optional.

@@ -7,3 +7,18 @@
 - Non-blocking: "neighbours" (item 11) can become "neighbors" for spelling consistency at any later edit; no TTS impact.
 
 SCRIPT: APPROVED
+
+## 2026-10-12: thumbnail pick
+- **Option A (`thumbnail.json`) chosen.** Visual screener round 3: PASS (round 2 notes fixed: Doug bigger with cap clear of the edge, strata about 55% of the width, label sizes matched). The darkening strata *is* the depth gradient the title promises, all six finds are in the episode (no overpromise), it reads at feed size, and it works as s001.
+- Option B (`thumbnail_b.json`) rejected: screener FAIL. The 2x3 collage loses the descent, Doug is barely present, and the "Held On" / "Wasp Flies" labels are cryptic. Keep it on file only as a possible A/B variant if CTR on A underperforms.
+- `thumbnail.json` already holds A; no copy needed.
+
+THUMBNAIL: A APPROVED
+
+## 2026-10-12: art gate (assets + keyframes)
+- Assets: art director PASS, all 48 assets approved (`repenomamus_fight` v2 re-review included).
+- Keyframes: rounds 1-2 resolved by both reviewers. One open item: the s166/s186/s199 reveal glow.
+- **Ruling on the glow conflict: the art director is right.** Style bible rule 7.7 (red glow on a first silhouette reveal) is a format rule and stays. The screener's concern was the dense red *cloud* that read as blood. The halo recipe (centred on the body, about 60-80 px past the silhouette, density about 0.13-0.2, behind the silhouette, never on a bite) fixes that. I checked the re-rendered `build/keyframes/s166.png`, `s186.png` and `s199.png` (01:26). Each is a thin speckled red outline that reads as a threat aura and not as blood. The s186 halo stays well above the sand. The s199 halo sits on the Nothosaurus only and does not touch the coloured Tanystropheus or the red arrow. s180 and s204 keep the dark water glow, per the new art bible bullet, which I endorse.
+- Non-blocking, editor or director at the next touch: clamp the glow speckle at the frame edges (s186/s199/s204 top-edge streaks, s281 bottom ticks). Optional round 1 and 2 minors (s015, s016, s020, s099, s159/s160, s204 snout) stay optional.
+
+ART: GO, conditional on the visual screener's re-check of the halo versions of s166/s186/s199 coming back PASS. If that re-check FAILs on a blood read, apply its fix and keep a red halo (lower the density, do not remove it). Then re-check only those three shots. No further CD review is needed unless the halo is dropped.

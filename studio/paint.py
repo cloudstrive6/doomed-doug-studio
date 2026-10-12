@@ -288,10 +288,11 @@ def _silhouette(el, cv):
         return el
     if el.get("type") in ("text", "label", "spray", "wordart"):
         return None
+    sc = cv.silhouette if isinstance(cv.silhouette, str) else "#000000"
     el = dict(el)
-    el["color"] = "#000000"
+    el["color"] = sc
     if el.get("fill") not in (None, "none"):
-        el["fill"] = "#000000"
+        el["fill"] = sc
     return el
 
 
@@ -413,7 +414,24 @@ def draw_element(cv: Canvas, el, tf: Transform, seed):
             gx, gy = outer.apply((0, 0))
             gr = el.get("glow_r", 260) * outer.total_scale
             for k, (rf, dens) in enumerate(((1.0, 0.16), (0.8, 0.32), (0.6, 0.6))):  # soft radial falloff
-                cv.spray(gx, gy, gr * rf, el.get("glow", "#ff2a1a"), dens, f"{seed}:{k}")
+                if gr > 0:
+                    cv.spray(gx, gy, gr * rf, el.get("glow", "#ff2a1a"), dens, f"{seed}:{k}")
+            rim = el.get("rim")  # {"color", "px"}: hard solid outline cue = offset flat-colour copies behind the shape
+            if rim:
+                rpx = rim.get("px", 4) * tf.total_scale
+                cv.silhouette = rim.get("color", "#e0201b")
+                try:
+                    for k in range(16):
+                        a_ = k * math.pi / 8
+                        dx, dy = rpx * math.cos(a_), rpx * math.sin(a_)
+                        shifted_outer = Transform(outer.x, outer.y, outer.s, math.degrees(outer.r), outer.flip, tf)
+                        sh_inner = Transform(-ax, -ay, 1.0, 0, False, shifted_outer)
+                        base_apply = shifted_outer.apply
+                        shifted_outer.apply = (lambda b, ddx, ddy: (lambda pt: (b(pt)[0] + ddx, b(pt)[1] + ddy)))(
+                            base_apply, dx, dy)
+                        draw_elements(cv, a["elements"], sh_inner, seed + ":" + el["name"])
+                finally:
+                    cv.silhouette = False
             cv.silhouette = True
             try:
                 draw_elements(cv, a["elements"], inner, seed + ":" + el["name"])

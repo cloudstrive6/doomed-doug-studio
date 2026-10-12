@@ -59,3 +59,42 @@ Checked at 1280x720 and at feed size (about 246x138).
 
 - **Option A (`build/thumbnail.png` = `thumb_a.png`, `thumbnail_small.png`): PASS. Recommended.** The strata cross-section darkens band by band, which sells "the deeper... the scarier" and complements the title without repeating its words. All six finds are recognisable at feed size (the rhino skeleton least so). The labels read at feed size and use no title words. It is not misleading, since every find is in the episode. Non-blocking notes for the graphic designer: (a) Doug is about 50 px tall and his cap touches the top edge, so at feed size he is a speck. Scale him up about 1.5x and drop him a little so the cap clears the edge. (b) The column uses only the middle ~40% of the width. Widen the bands or enlarge the finds so the threats carry more of the frame. (c) "Tanystropheus" is set smaller than the other labels; match the sizes, or shorten it if needed.
 - **Option B (`build/thumb_b.png`, `thumb_b_small.png`): FAIL (do not use).** The 2x3 grid of panels loses the depth gradient, so it no longer complements a "deeper = scarier" title and reads like a generic fossil collage. Doug appears only as a tiny figure in one panel, and there is no sense of descent or threat to him. "Held On" and "Wasp Flies" are cryptic without the stacked layers for context.
+
+## Round 3: spot-check after round 2 fixes (2026-10-12)
+
+Scope: s001, s141, s166, s180, s186, s199, s204 and s281 at full resolution, with pixel checks along the frame edges, plus `build/thumbnail.png` and `thumbnail_small.png` at feed size.
+
+### Keyframes: VERDICT: PASS
+
+- **s180 (required 1): fixed.** The glow behind the Aspidorhynchus and pterosaur is now a dark blue speckle, the same treatment as s186. There is no red in the water apart from the bobber, nothing reads as blood, no red dots sit on the fish body, and the bottom-edge ticks are gone (0 off-colour pixels in the bottom 8 rows).
+- **s166, s199 (recommended 2): fixed.** Both use the neutral dark glow. Nothing in the water reads as blood. s199's red arrow is clearly a graphic arrow.
+- **s281 (recommended 3): fixed.** The shovel icon now sits clear of the HUD, with no contact with any icon.
+- **s001, s141, s186, s204:** no regressions. s141's "2023" is still outside the slab. Doug is on-model in every shot, the HUD and death counter are consistent (125 to 129), and there is no gore.
+
+Non-blocking (director/editor, can be fixed alongside other edits): there are faint 1-6 px glow-clipping streaks at the frame edges, the same artefact class as the old s180 ticks. In s281 they are short green vertical ticks along the bottom edge (x ~872-1030). In s186, s199 and s204 they are faint vertical streaks along the top edge (y 0-3, x ~270-1650). They are hard to see at playback size. Clamp or fade the glow's speckle at the frame edges.
+
+### Thumbnail: VERDICT: PASS
+
+- All three round 2 notes are addressed. Doug is larger and his cap clears the top edge. The strata column is wider (~55% of the frame) and the finds are bigger. The label sizes now match, and "Tanystropheus" reads at the same size as the others.
+- At feed size (`thumbnail_small.png`) the darkening strata, all six finds and all six labels are readable. Doug is small but recognisable from his red cap at the surface. The thumbnail complements "The Deeper Doug Digs, the Scarier the Fossils Get" without repeating its words, and is not misleading. It also works as s001.
+
+## Round 4: red first-appearance halos and edge streaks (2026-10-12)
+
+Scope: s166, s180, s186, s199, s204 and s281 at full resolution, with pixel checks on the top 4 and bottom 8 rows.
+
+### Keyframes: VERDICT: FAIL
+
+The edge streaks are fixed. s180, s204 and s281 pass. The new red halos do not pass. They are not "faint thin halos". Each is a wide, diffuse `#ff2a2a` spray cloud (r 90-230 px, density 0.12-0.2) that drifts 100-200 px off the silhouette into the water. That is the same speckled red cloud in water that failed s180 in round 1. In open water a diffuse red cloud reads as blood, and it reads that way most strongly next to bite narration.
+
+Required fixes:
+
+1. **s199** (director/art director): the red spray cloud surrounds the predator's jaws, the red arrow runs from the jaws to the Tanystropheus neck, and the narration is "caught by the neck, probably in a single bite". Together these read as a blood cloud from a neck bite. Remove the three `#ff2a2a` sprays and go back to the round 3 neutral dark glow. The red arrow alone is fine.
+2. **s166** (director/art director): the four r170 red sprays make a wide pink-red cloud in the water around the Aspidorhynchus. Remove them, or replace them with fix 4.
+3. **s186** (director/art director): the six red sprays (up to r230) cover about a third of the frame around the Tanystropheus silhouette. Doug is in the same water, so this reads as a red-stained sea. Remove them, or replace them with fix 4.
+4. **Acceptable alternative** (art director, if the first-appearance red cue is wanted): use a crisp, solid red outline hugging the silhouette, 3-5 px stroke, offset 4-8 px or less, with no spray or speckle. A hard graphic line reads as a "threat" marker, not as fluid. Diffuse red particles in water are not acceptable on this channel. Update the art bible note to say this.
+
+Passed:
+- **Edge streaks: fixed.** There are 0 off-colour pixels in the top 4 and bottom 8 rows of all six shots.
+- **s180:** the dark blue glow is unchanged. The only red is the bobber.
+- **s204:** neutral dark glow, Doug on-model, no issues.
+- **s281:** the HUD icons are clear, and the faint green glow is fine.

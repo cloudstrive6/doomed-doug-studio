@@ -25823,8 +25823,8 @@
      {
       "type": "spray",
       "x": 1000,
-      "y": 800,
-      "r": 260,
+      "y": 815,
+      "r": 230,
       "color": "#1b4f86",
       "density": 0.3,
       "appear": 0.25
@@ -25837,7 +25837,11 @@
       "scale": 1.2,
       "silhouette": true,
       "glow_r": 0,
-      "appear": 0.25
+      "appear": 0.25,
+      "rim": {
+       "color": "#e0201b",
+       "px": 5
+      }
      },
      {
       "type": "label",
@@ -30223,9 +30227,9 @@
      },
      {
       "type": "spray",
-      "x": 980,
-      "y": 540,
-      "r": 540,
+      "x": 900,
+      "y": 560,
+      "r": 360,
       "color": "#0f3d3b",
       "density": 0.3
      },
@@ -30264,11 +30268,27 @@
      },
      {
       "type": "spray",
-      "x": 960,
-      "y": 100,
-      "r": 700,
+      "x": 480,
+      "y": 280,
+      "r": 260,
       "color": "#4fb0a8",
-      "density": 0.15
+      "density": 0.12
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 250,
+      "r": 230,
+      "color": "#4fb0a8",
+      "density": 0.12
+     },
+     {
+      "type": "spray",
+      "x": 1440,
+      "y": 280,
+      "r": 260,
+      "color": "#4fb0a8",
+      "density": 0.12
      },
      {
       "type": "doug",
@@ -30292,7 +30312,11 @@
       "y": 560,
       "scale": 1.4,
       "silhouette": true,
-      "glow_r": 0
+      "glow_r": 0,
+      "rim": {
+       "color": "#e0201b",
+       "px": 5
+      }
      },
      {
       "type": "wordart",
@@ -31994,15 +32018,6 @@
       "outline": false
      },
      {
-      "type": "spray",
-      "x": 420,
-      "y": 790,
-      "r": 280,
-      "color": "#0f3d3b",
-      "density": 0.3,
-      "appear": 0.35
-     },
-     {
       "type": "poly",
       "points": [
        [
@@ -32037,11 +32052,27 @@
      },
      {
       "type": "spray",
-      "x": 960,
-      "y": 100,
-      "r": 700,
+      "x": 480,
+      "y": 280,
+      "r": 260,
       "color": "#4fb0a8",
-      "density": 0.15
+      "density": 0.12
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 250,
+      "r": 230,
+      "color": "#4fb0a8",
+      "density": 0.12
+     },
+     {
+      "type": "spray",
+      "x": 1440,
+      "y": 280,
+      "r": 260,
+      "color": "#4fb0a8",
+      "density": 0.12
      },
      {
       "type": "doug",
@@ -32061,29 +32092,42 @@
      {
       "type": "asset",
       "name": "tanystropheus",
-      "x": 1000,
-      "y": 520,
+      "x": 1060,
+      "y": 500,
       "scale": 1.3
+     },
+     {
+      "type": "spray",
+      "x": 400,
+      "y": 735,
+      "r": 210,
+      "color": "#0f3d3b",
+      "density": 0.3,
+      "appear": 0.35
      },
      {
       "type": "asset",
       "name": "nothosaurus",
-      "x": 420,
-      "y": 820,
-      "scale": 1.0,
+      "x": 400,
+      "y": 745,
+      "scale": 0.9,
       "silhouette": true,
       "glow_r": 0,
-      "appear": 0.35
+      "appear": 0.35,
+      "rim": {
+       "color": "#e0201b",
+       "px": 5
+      }
      },
      {
       "type": "arrow",
       "from": [
-       560,
-       740
+       640,
+       690
       ],
       "to": [
-       880,
-       560
+       930,
+       545
       ],
       "color": "#e0201b",
       "width": 9,
@@ -32642,8 +32686,8 @@
      {
       "type": "spray",
       "x": 960,
-      "y": 430,
-      "r": 560,
+      "y": 470,
+      "r": 440,
       "color": "#0f3d3b",
       "density": 0.3,
       "appear": 0.15
@@ -32683,11 +32727,27 @@
      },
      {
       "type": "spray",
-      "x": 960,
-      "y": 100,
-      "r": 700,
+      "x": 480,
+      "y": 280,
+      "r": 260,
       "color": "#4fb0a8",
-      "density": 0.15
+      "density": 0.12
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 250,
+      "r": 230,
+      "color": "#4fb0a8",
+      "density": 0.12
+     },
+     {
+      "type": "spray",
+      "x": 1440,
+      "y": 280,
+      "r": 260,
+      "color": "#4fb0a8",
+      "density": 0.12
      },
      {
       "type": "doug",
@@ -45546,8 +45606,8 @@
      {
       "type": "spray",
       "x": 960,
-      "y": 560,
-      "r": 520,
+      "y": 540,
+      "r": 500,
       "color": "#2f5a3a",
       "density": 0.2
      },
