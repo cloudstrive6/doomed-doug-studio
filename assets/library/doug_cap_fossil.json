@@ -1,6 +1,6 @@
 {
  "name": "doug_cap_fossil",
- "description": "Doug's cap turned to stone (003 callback): exactly the doug_cap geometry (dome + right-pointing brim, ~200x80, centred) in grey stone #9a958c with a faint red tint, darker underside, speckle, hairline cracks and a pale chip on the back edge of the dome.",
+ "description": "Doug's cap turned to stone (003 callback): exactly the doug_cap geometry (dome + right-pointing brim, ~200x80, centred) in faded brick-red stone #b0807a (darker #7e5e58 underside) so it still reads as Doug's red cap, with grey-red mottling, speckle, hairline cracks and a pale stone chip on the back edge of the dome.",
  "anchor": [
   0,
   0
@@ -33,7 +33,7 @@
      21.4
     ]
    ],
-   "fill": "#6f6a62",
+   "fill": "#7e5e58",
    "width": 5,
    "color": "#000000",
    "smooth": true
@@ -66,7 +66,7 @@
      21.4
     ]
    ],
-   "fill": "#9a958c",
+   "fill": "#b0807a",
    "width": 5,
    "color": "#000000",
    "smooth": true
@@ -76,15 +76,15 @@
    "x": -30,
    "y": -5,
    "r": 50,
-   "color": "#a8706a",
-   "density": 0.12
+   "color": "#b85a50",
+   "density": 0.2
   },
   {
    "type": "spray",
    "x": -50,
    "y": 5,
    "r": 30,
-   "color": "#7e7970",
+   "color": "#8a8078",
    "density": 0.2
   },
   {
@@ -92,7 +92,7 @@
    "x": 10,
    "y": -20,
    "r": 25,
-   "color": "#b9b4aa",
+   "color": "#c8b8b0",
    "density": 0.2
   },
   {
@@ -148,7 +148,7 @@
      34.4
     ]
    ],
-   "fill": "#9a958c",
+   "fill": "#b0807a",
    "width": 5,
    "color": "#000000"
   },
@@ -157,8 +157,8 @@
    "x": 65,
    "y": 26,
    "r": 18,
-   "color": "#a8706a",
-   "density": 0.15
+   "color": "#b85a50",
+   "density": 0.2
   },
   {
    "type": "poly",

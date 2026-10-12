@@ -300,3 +300,21 @@ From the director, for the illustrator (the art director approves). House style:
 - Anchor = Doug's hips at scale 1; stand pose.
 - Shots: s283-s286
 - DONE: `assets/library/cloudina_costume.json`, preview `assets/previews/015-assets-cloudina.png` (dark-bg check `015-assets-darktest.png`)
+
+## Visual-review fixes (round 2)
+
+### `insect` (new)
+- Simple cartoon beetle for the s071/s078 food-chain icon (replaces the brown oval). Side view facing right, ~218x118, anchor bottom-centre (feet at local y +60).
+- DONE: `assets/library/insect.json`, preview `assets/previews/015-deeper-fossils-dig-fixes.png`
+
+### `doug_cap_fossil` (revised)
+- Faded brick-red stone fill so it still reads as Doug's red cap. Same geometry, ~200x80, anchor centre.
+- DONE: `assets/library/doug_cap_fossil.json`, preview `assets/previews/015-deeper-fossils-dig-fixes.png`
+
+### `spiny_fish` (new)
+- Acanthodian "spiny fish" for s072 (and optionally s073, s160, s213) in place of `small_fish`. Facing right, ~345x165, anchor centre.
+- DONE: `assets/library/spiny_fish.json`, preview `assets/previews/015-deeper-fossils-dig-fixes.png`
+
+### `shovel_two_caps` (new)
+- `shovel` with doug_cap_fossil plus doug_cap stacked on the grip, caps about 2x the s287 size. Same anchor as `shovel` (grip point). ~128x395.
+- DONE: `assets/library/shovel_two_caps.json`, preview `assets/previews/015-deeper-fossils-dig-fixes.png`
