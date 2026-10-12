@@ -34,6 +34,16 @@
    "density": 0.15
   },
   {
+   "type": "rect",
+   "x": -12,
+   "y": -160,
+   "w": 24,
+   "h": 40,
+   "fill": "#3a3a40",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
    "type": "group",
    "x": 0,
    "y": -220,
@@ -996,17 +1006,6 @@
      "fill": "#1a120c",
      "width": 3,
      "color": "#000000"
-    },
-    {
-     "type": "ellipse",
-     "x": -91,
-     "y": -60,
-     "rx": 4,
-     "ry": 4,
-     "fill": "#ffffff",
-     "width": 0,
-     "color": "#000000",
-     "outline": false
     },
     {
      "type": "curve",

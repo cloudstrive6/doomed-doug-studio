@@ -67,6 +67,24 @@ the sea ice was swapped back to `#3a9ad9`, with water speckle `#6fc1ee`. Show co
 | Boss (last item) | near-black `#120a0c`, soil `#3a2418`; Doug auto-inks white, wordart renders flat green |
 Item 1 of each band may keep its outdoor scene (river, field, paddock); the ramp darkens the *backdrop* across bands, not within an item.
 
+**Rock-strata / dig-depth ramp (from 015; reuse for any "dig down through time" or cross-section episode).** One step darker per
+layer, oldest at the bottom; luminance must fall every step (015's draft had layers 6-7 brighter than 5, fixed to the values below).
+| Layer | Fill | Accent |
+|---|---|---|
+| 1 (top, youngest) | `#d9b77a` | |
+| 2 | `#d4a04a` | |
+| 3 | `#c07a3a` | |
+| 4 | `#a65a32` | boundary clay stripe `#efe6d0` |
+| 5 | `#8e4a2c` | |
+| 6 | `#665244` | |
+| 7 | `#4a505c` | |
+| 8 | `#3f444d` | |
+| 9 | `#4a3a34` | grey bands `#5f5f5f` |
+| 10 | `#2a2a2e` | |
+| 11 (boss, oldest) | `#15181a` | green glow `#2f5a3a`; Doug auto-inks white |
+Shaft interior (the hole Doug stands in) is always `#f1e4c6` so he reads on every layer. DEPTH meter: size-28 label at (1590, 238)
+with the `shovel` asset at scale 0.16 to its left; it sits with the death counter, never over the shaft.
+
 ## Two-tier rendering (style bible 4.3)
 - **Doug and humans: crude** MS Paint stick men: uniform thin lines (Doug's rig: 5 at scale 1 ≈ 4–5 px), big round
   head with grey shading crescent, oval eyes, meme faces.

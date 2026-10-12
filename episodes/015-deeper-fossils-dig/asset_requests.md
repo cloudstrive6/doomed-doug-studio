@@ -185,6 +185,7 @@ From the director, for the illustrator (the art director approves). House style:
 - `bc`, ~560x300, dinosaur facing right.
 - Shots: s142-s143, s149, s151-s154
 - DONE: `assets/library/repenomamus_fight.json`; preview `assets/previews/015-deeper-fossils-dig-assets-b.png` (worn check `015-worn.png`, dark check `015-dark.png`).
+- REDRAWN after art review: preview `assets/previews/015-fight-v2.png`, in-shot check `assets/previews/015-fight-shot.png`. New hold points (local): bite on ribs (+34,-64), paw on lower jaw (+274,-46), hind foot on thigh (-180,-74).
 
 ### `referee_shirt` (B)
 - Black-and-white striped referee shirt worn by Doug, with a silver whistle on a cord at the mouth area (~(+50,-195) at scale 1, not covering the eyes).
