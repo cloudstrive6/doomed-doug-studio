@@ -22,3 +22,4 @@ THUMBNAIL: A APPROVED
 - Non-blocking, editor or director at the next touch: clamp the glow speckle at the frame edges (s186/s199/s204 top-edge streaks, s281 bottom ticks). Optional round 1 and 2 minors (s015, s016, s020, s099, s159/s160, s204 snout) stay optional.
 
 ART: GO, conditional on the visual screener's re-check of the halo versions of s166/s186/s199 coming back PASS. If that re-check FAILs on a blood read, apply its fix and keep a red halo (lower the density, do not remove it). Then re-check only those three shots. No further CD review is needed unless the halo is dropped.
+- 2026-10-12: script 3 rounds (draft 3 PASS), assets 2 rounds (1 redraw), keyframes 5 review rounds (red-glow dispute resolved via new 'rim' red-outline option in studio/paint.py, documented in SCENE_SCHEMA), thumbnail A (B rejected). Risks: dinosaur kid-appeal, Sue's jaw cause contested (script says unknown), 8 optional minor keyframe nits left (s015,s016,s020,s099,s159,s160).

@@ -34,7 +34,12 @@
       "stage": "art_approved",
       "at": "2026-10-12T01:29:26+00:00",
       "note": "AD+VS pass keyframes round 5; thumbnail A"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-10-12T01:44:08+00:00",
+      "note": "narrated 15.5 min, validated"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
