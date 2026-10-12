@@ -10,18 +10,18 @@
    "resolved": "2026-10-11T22:01:30+00:00"
   },
   "queue_low": {
-   "first_seen": "2026-10-11T19:43:55+00:00",
+   "first_seen": "2026-10-12T00:01:44+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-11T20:01:32+00:00",
-   "summary": "Queue 2/4 and no production running",
+   "last_seen": "2026-10-12T00:01:44+00:00",
+   "summary": "Queue 3/4 and no production running: started a production run",
    "owner": "auto",
    "severity": "medium",
-   "resolved": "2026-10-11T21:01:28+00:00"
+   "resolved": "2026-10-12T00:01:44+00:00"
   },
   "related_pending": {
    "first_seen": "2026-10-09T16:01:35+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-11T23:12:05+00:00",
+   "last_seen": "2026-10-12T00:01:44+00:00",
    "summary": "9 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
