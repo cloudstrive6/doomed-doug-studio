@@ -15,3 +15,17 @@
 4. The callback to 004 ("The last time Doug was in Antarctica, he stood on top of it.") is the only callback. Don't add a 012 crevasse callback in the visuals.
 
 SCRIPT: APPROVED
+
+## 2026-10-12: art + package gate
+- Inputs: `visual_review.md` (round 3 PASS, 274 keyframes, 23 contact sheets), `art_review.md` (assets: all 43 APPROVED; keyframes round 3: 4 director fixes), `shotlist.json`, `metadata.json`, thumbnails A and B with `build/thumb_compare_168.png`.
+- **Art-director round-3 fixes verified in the shotlist:** SEA LEVEL is at x 330 and the s261 camera ends at [1008,500,1.1]. LIFTS OFF AND FLOATS is at y 320 (s263). LOWEST GROUND and UNDER THE ICE are at (600,540) and (600,620) (s266). All 16 counter safe-area camera centres match the art director's table exactly. The keyframes and contact sheets were re-rendered after the last shotlist save (18:04 → 18:05). I looked at s263 and s266 at full size: the labels are clear of the outlines and the arrow is continuous. `python -m studio validate` returns OK.
+- **Thumbnail: A wins and stays in `thumbnail.json`.** No file swap. Reasons:
+  1. At 168 px, A sells the promise of the title "at Every Depth": six subjects stacked down a column that darkens, with the cap at the bottom. It is the proven archetype B grid (the style bible's depth gradient), and it doubles as the s001 opening image, as the brief requires.
+  2. B ("4 KM DOWN", Doug over a red-glow canyon) is clean, but there is only one idea in it and nothing to discover. A dark canyon could belong to any topic, and nothing in it says Antarctica or what is down there. That makes it weaker on curiosity than A, which has six named things to look at.
+  3. Every label in A is backed by the script and facts.md (for example, the "see-through fish" is sourced at line 124 of the script), and none of them repeat a word from the title or alt titles.
+  B stays in `thumbnail_b.json` as the YouTube Test & Compare variant. Run it as a test, not as the primary.
+- **Package:** The title "What Dying at Every Depth Under Antarctica Would Be Like" (T1, 56 chars) delivers what it promises: Doug dies at 9 of 11 depth stops, down to more than 4 km. It is not a noun swap of 001, and the titler's side-by-side reasoning is accepted. The description is factual and lists sources, with the AI-use and cartoon disclaimers. Playlist is `places`. Not made for kids. No gore: the deaths are opaque ice and cartoon X-eyes, and Blood Falls is shown as rust.
+- Non-blocking for the editor/director (optional, only if it costs nothing): clip the Denman glow and the volcano ash speckles in thumbnail A to their own bands. Also note the advisories on s036, s075, s120 and s138. Post-render screening is still required.
+
+ART + PACKAGE: APPROVED
+- 2026-10-12: scripted in 2 screener rounds (fact fixes, Denman/Vostok order resolved with sourced >4000 m), art 3 rounds + 1 safe-area fix pass (camera-move counter overflow; keyframe renderer skips 1080p camera moves so reviewers must render end frames). Engine: clamped font size >=1 in paint.py. Risks: Lake Vostok/Denman hedges, minor notes s036/s075/s120.
