@@ -1,0 +1,279 @@
+{
+ "name": "doug_cap_fossil",
+ "description": "Doug's cap turned to stone (003 callback): exactly the doug_cap geometry (dome + right-pointing brim, ~200x80, centred) in grey stone #9a958c with a faint red tint, darker underside, speckle, hairline cracks and a pale chip on the back edge of the dome.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "cap",
+  "fossil",
+  "stone",
+  "callback"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -98,
+     21.4
+    ],
+    [
+     -64.0,
+     34.4
+    ],
+    [
+     8.0,
+     34.4
+    ],
+    [
+     42,
+     21.4
+    ]
+   ],
+   "fill": "#6f6a62",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -98,
+     21.4
+    ],
+    [
+     -89.2,
+     -13.2
+    ],
+    [
+     -53.2,
+     -36.2
+    ],
+    [
+     -6.4,
+     -36.2
+    ],
+    [
+     31.0,
+     -13.2
+    ],
+    [
+     42,
+     21.4
+    ]
+   ],
+   "fill": "#9a958c",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": -30,
+   "y": -5,
+   "r": 50,
+   "color": "#a8706a",
+   "density": 0.12
+  },
+  {
+   "type": "spray",
+   "x": -50,
+   "y": 5,
+   "r": 30,
+   "color": "#7e7970",
+   "density": 0.2
+  },
+  {
+   "type": "spray",
+   "x": 10,
+   "y": -20,
+   "r": 25,
+   "color": "#b9b4aa",
+   "density": 0.2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -98,
+     21.4
+    ],
+    [
+     -89.2,
+     -13.2
+    ],
+    [
+     -53.2,
+     -36.2
+    ],
+    [
+     -6.4,
+     -36.2
+    ],
+    [
+     31.0,
+     -13.2
+    ],
+    [
+     42,
+     21.4
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     29.6,
+     12.8
+    ],
+    [
+     98.0,
+     21.4
+    ],
+    [
+     94.4,
+     35.8
+    ],
+    [
+     28.2,
+     34.4
+    ]
+   ],
+   "fill": "#9a958c",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 65,
+   "y": 26,
+   "r": 18,
+   "color": "#a8706a",
+   "density": 0.15
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     0
+    ],
+    [
+     -80,
+     -18
+    ],
+    [
+     -70,
+     -6
+    ],
+    [
+     -78,
+     8
+    ]
+   ],
+   "fill": "#c9c4b8",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -84,
+     -8
+    ],
+    [
+     -76,
+     -2
+    ]
+   ],
+   "width": 2,
+   "color": "#8a857c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     -36
+    ],
+    [
+     -26,
+     -20
+    ],
+    [
+     -16,
+     -8
+    ],
+    [
+     -24,
+     6
+    ]
+   ],
+   "width": 2,
+   "color": "#3e3a34"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -16,
+     -8
+    ],
+    [
+     -4,
+     -4
+    ]
+   ],
+   "width": 2,
+   "color": "#3e3a34"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     -10
+    ],
+    [
+     12,
+     4
+    ],
+    [
+     18,
+     16
+    ]
+   ],
+   "width": 2,
+   "color": "#3e3a34"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     20
+    ],
+    [
+     66,
+     28
+    ],
+    [
+     62,
+     34
+    ]
+   ],
+   "width": 2,
+   "color": "#3e3a34"
+  }
+ ]
+}

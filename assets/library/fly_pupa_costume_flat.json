@@ -1,0 +1,445 @@
+{
+ "name": "fly_pupa_costume_flat",
+ "description": "Doug's fly-pupa costume gone flat and empty on the ground after the death beat: deflated brown segmented barrel, collapsed neck hole at the left, stubby arm nubs splayed, two printed X eyes (white discs, black X) on its front. No body inside. Anchor bottom-centre (lies on y=0), ~370x120 (x -185..+184, y -118..0). Put doug_cap beside it.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "costume",
+  "prop",
+  "fly",
+  "pupa",
+  "death"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -20
+    ],
+    [
+     -185,
+     -30
+    ],
+    [
+     -180,
+     -6
+    ],
+    [
+     -150,
+     -2
+    ]
+   ],
+   "fill": "#7a4e24",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     130,
+     -18
+    ],
+    [
+     170,
+     -46
+    ],
+    [
+     184,
+     -30
+    ],
+    [
+     150,
+     -2
+    ]
+   ],
+   "fill": "#7a4e24",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     0
+    ],
+    [
+     -165,
+     -40
+    ],
+    [
+     -150,
+     -78
+    ],
+    [
+     -100,
+     -92
+    ],
+    [
+     -40,
+     -108
+    ],
+    [
+     20,
+     -116
+    ],
+    [
+     80,
+     -110
+    ],
+    [
+     130,
+     -86
+    ],
+    [
+     162,
+     -46
+    ],
+    [
+     165,
+     -10
+    ],
+    [
+     140,
+     0
+    ]
+   ],
+   "fill": "#8a5a2a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -140,
+     -6
+    ],
+    [
+     -100,
+     -30
+    ],
+    [
+     0,
+     -38
+    ],
+    [
+     100,
+     -30
+    ],
+    [
+     150,
+     -14
+    ],
+    [
+     140,
+     -2
+    ]
+   ],
+   "fill": "#6a421c",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": -50,
+   "r": 90,
+   "color": "#6a4a2a",
+   "density": 0.08
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -124,
+     -80
+    ],
+    [
+     -112,
+     -42.0
+    ],
+    [
+     -122,
+     -4
+    ]
+   ],
+   "width": 3,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -84,
+     -92
+    ],
+    [
+     -72,
+     -48.0
+    ],
+    [
+     -82,
+     -4
+    ]
+   ],
+   "width": 3,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -44,
+     -102
+    ],
+    [
+     -32,
+     -53.0
+    ],
+    [
+     -42,
+     -4
+    ]
+   ],
+   "width": 3,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     36,
+     -108
+    ],
+    [
+     48,
+     -56.0
+    ],
+    [
+     38,
+     -4
+    ]
+   ],
+   "width": 3,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     96,
+     -94
+    ],
+    [
+     108,
+     -49.0
+    ],
+    [
+     98,
+     -4
+    ]
+   ],
+   "width": 3,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     134,
+     -66
+    ],
+    [
+     146,
+     -35.0
+    ],
+    [
+     136,
+     -4
+    ]
+   ],
+   "width": 3,
+   "color": "#4e3014"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -96
+    ],
+    [
+     40,
+     -104
+    ],
+    [
+     42,
+     -96
+    ],
+    [
+     -28,
+     -88
+    ]
+   ],
+   "fill": "#e6c49a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -150,
+   "y": -40,
+   "rx": 12,
+   "ry": 34,
+   "fill": "#3a220c",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -10,
+   "y": -62,
+   "rx": 22,
+   "ry": 22,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -21,
+     -73
+    ],
+    [
+     1,
+     -51
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -21,
+     -51
+    ],
+    [
+     1,
+     -73
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 60,
+   "y": -62,
+   "rx": 22,
+   "ry": 22,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     49,
+     -73
+    ],
+    [
+     71,
+     -51
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     49,
+     -51
+    ],
+    [
+     71,
+     -73
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     0
+    ],
+    [
+     -165,
+     -40
+    ],
+    [
+     -150,
+     -78
+    ],
+    [
+     -100,
+     -92
+    ],
+    [
+     -40,
+     -108
+    ],
+    [
+     20,
+     -116
+    ],
+    [
+     80,
+     -110
+    ],
+    [
+     130,
+     -86
+    ],
+    [
+     162,
+     -46
+    ],
+    [
+     165,
+     -10
+    ],
+    [
+     140,
+     0
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}

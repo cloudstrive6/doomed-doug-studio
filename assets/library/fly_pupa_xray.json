@@ -1,0 +1,745 @@
+{
+ "name": "fly_pupa_xray",
+ "description": "X-ray / micro-CT view of a fossil fly pupa for a dark #0d1b2a background: glowing pale cyan #9fe6ff case outline (dark blue fill, dashed segment rings), and inside it the pale white silhouette of an adult parasitoid wasp folded up: head right, thorax, thin waist, abdomen left, antennae and wings tucked back along the body, legs folded underneath. Diagram only, no emergence. Anchor centre, ~620x280.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "xray",
+  "fly",
+  "pupa",
+  "wasp",
+  "parasitoid",
+  "diagram"
+ ],
+ "elements": [
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 0,
+   "r": 300,
+   "color": "#1f5f80",
+   "density": 0.03
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -300.0,
+     0.0
+    ],
+    [
+     -282.0,
+     -78.0
+    ],
+    [
+     -216.0,
+     -126.0
+    ],
+    [
+     -90.0,
+     -138.0
+    ],
+    [
+     90.0,
+     -138.0
+    ],
+    [
+     216.0,
+     -120.0
+    ],
+    [
+     279.0,
+     -72.0
+    ],
+    [
+     300.0,
+     0.0
+    ],
+    [
+     279.0,
+     72.0
+    ],
+    [
+     216.0,
+     120.0
+    ],
+    [
+     90.0,
+     138.0
+    ],
+    [
+     -90.0,
+     138.0
+    ],
+    [
+     -216.0,
+     126.0
+    ],
+    [
+     -282.0,
+     78.0
+    ]
+   ],
+   "fill": "#18405a",
+   "width": 6,
+   "color": "#9fe6ff",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 0,
+   "r": 200,
+   "color": "#24587a",
+   "density": 0.1
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -224,
+     -107.4
+    ],
+    [
+     -206,
+     0
+    ],
+    [
+     -224,
+     107.4
+    ]
+   ],
+   "width": 2,
+   "color": "#5fb4d6",
+   "dash": [
+    10,
+    8
+   ]
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -170,
+     -119.0
+    ],
+    [
+     -152,
+     0
+    ],
+    [
+     -170,
+     119.0
+    ]
+   ],
+   "width": 2,
+   "color": "#5fb4d6",
+   "dash": [
+    10,
+    8
+   ]
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -116,
+     -123.0
+    ],
+    [
+     -98,
+     0
+    ],
+    [
+     -116,
+     123.0
+    ]
+   ],
+   "width": 2,
+   "color": "#5fb4d6",
+   "dash": [
+    10,
+    8
+   ]
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -62,
+     -123.9
+    ],
+    [
+     -44,
+     0
+    ],
+    [
+     -62,
+     123.9
+    ]
+   ],
+   "width": 2,
+   "color": "#5fb4d6",
+   "dash": [
+    10,
+    8
+   ]
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -8,
+     -124.0
+    ],
+    [
+     10,
+     0
+    ],
+    [
+     -8,
+     124.0
+    ]
+   ],
+   "width": 2,
+   "color": "#5fb4d6",
+   "dash": [
+    10,
+    8
+   ]
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     46,
+     -123.9
+    ],
+    [
+     64,
+     0
+    ],
+    [
+     46,
+     123.9
+    ]
+   ],
+   "width": 2,
+   "color": "#5fb4d6",
+   "dash": [
+    10,
+    8
+   ]
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     100,
+     -123.0
+    ],
+    [
+     118,
+     0
+    ],
+    [
+     100,
+     123.0
+    ]
+   ],
+   "width": 2,
+   "color": "#5fb4d6",
+   "dash": [
+    10,
+    8
+   ]
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     154,
+     -119.0
+    ],
+    [
+     172,
+     0
+    ],
+    [
+     154,
+     119.0
+    ]
+   ],
+   "width": 2,
+   "color": "#5fb4d6",
+   "dash": [
+    10,
+    8
+   ]
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     208,
+     -107.4
+    ],
+    [
+     226,
+     0
+    ],
+    [
+     208,
+     107.4
+    ]
+   ],
+   "width": 2,
+   "color": "#5fb4d6",
+   "dash": [
+    10,
+    8
+   ]
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -300.0,
+     0.0
+    ],
+    [
+     -282.0,
+     -78.0
+    ],
+    [
+     -216.0,
+     -126.0
+    ],
+    [
+     -90.0,
+     -138.0
+    ],
+    [
+     90.0,
+     -138.0
+    ],
+    [
+     216.0,
+     -120.0
+    ],
+    [
+     279.0,
+     -72.0
+    ],
+    [
+     300.0,
+     0.0
+    ],
+    [
+     279.0,
+     72.0
+    ],
+    [
+     216.0,
+     120.0
+    ],
+    [
+     90.0,
+     138.0
+    ],
+    [
+     -90.0,
+     138.0
+    ],
+    [
+     -216.0,
+     126.0
+    ],
+    [
+     -282.0,
+     78.0
+    ]
+   ],
+   "fill": null,
+   "width": 6,
+   "color": "#9fe6ff",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     60,
+     30
+    ],
+    [
+     90,
+     70
+    ],
+    [
+     40,
+     88
+    ],
+    [
+     110,
+     96
+    ]
+   ],
+   "width": 4,
+   "color": "#dff6ff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     20,
+     30
+    ],
+    [
+     50,
+     70
+    ],
+    [
+     0,
+     88
+    ],
+    [
+     70,
+     96
+    ]
+   ],
+   "width": 4,
+   "color": "#dff6ff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -20,
+     30
+    ],
+    [
+     10,
+     70
+    ],
+    [
+     -40,
+     88
+    ],
+    [
+     30,
+     96
+    ]
+   ],
+   "width": 4,
+   "color": "#dff6ff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -20
+    ],
+    [
+     -110,
+     -48
+    ],
+    [
+     -200,
+     -40
+    ],
+    [
+     -245,
+     0
+    ],
+    [
+     -205,
+     40
+    ],
+    [
+     -110,
+     48
+    ],
+    [
+     -30,
+     22
+    ]
+   ],
+   "fill": "#c9ecf8",
+   "width": 4,
+   "color": "#f2fbff",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -80,
+     -44
+    ],
+    [
+     -88,
+     0
+    ],
+    [
+     -80,
+     44
+    ]
+   ],
+   "width": 2,
+   "color": "#8fcbe0"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -130,
+     -44
+    ],
+    [
+     -138,
+     0
+    ],
+    [
+     -130,
+     44
+    ]
+   ],
+   "width": 2,
+   "color": "#8fcbe0"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -180,
+     -44
+    ],
+    [
+     -188,
+     0
+    ],
+    [
+     -180,
+     44
+    ]
+   ],
+   "width": 2,
+   "color": "#8fcbe0"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -248,
+     0
+    ],
+    [
+     -275,
+     -4
+    ],
+    [
+     -248,
+     6
+    ]
+   ],
+   "fill": "#f2fbff",
+   "width": 2,
+   "color": "#f2fbff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -34,
+     -10
+    ],
+    [
+     0,
+     -8
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     -34,
+     10
+    ]
+   ],
+   "fill": "#d8f2fb",
+   "width": 3,
+   "color": "#f2fbff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -36
+    ],
+    [
+     60,
+     -46
+    ],
+    [
+     110,
+     -30
+    ],
+    [
+     118,
+     0
+    ],
+    [
+     100,
+     32
+    ],
+    [
+     40,
+     40
+    ],
+    [
+     0,
+     26
+    ]
+   ],
+   "fill": "#d8f2fb",
+   "width": 4,
+   "color": "#f2fbff",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 160,
+   "y": -4,
+   "rx": 42,
+   "ry": 40,
+   "fill": "#e4f7fd",
+   "width": 4,
+   "color": "#f2fbff"
+  },
+  {
+   "type": "ellipse",
+   "x": 176,
+   "y": -12,
+   "rx": 15,
+   "ry": 18,
+   "fill": "#9fd4e8",
+   "width": 2,
+   "color": "#f2fbff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     180,
+     -40
+    ],
+    [
+     150,
+     -78
+    ],
+    [
+     60,
+     -84
+    ],
+    [
+     -60,
+     -78
+    ],
+    [
+     -150,
+     -70
+    ]
+   ],
+   "width": 4,
+   "color": "#f2fbff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     190,
+     -36
+    ],
+    [
+     170,
+     -66
+    ],
+    [
+     80,
+     -70
+    ],
+    [
+     -30,
+     -66
+    ]
+   ],
+   "width": 3,
+   "color": "#bfe6f4"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -38
+    ],
+    [
+     -60,
+     -62
+    ],
+    [
+     -200,
+     -66
+    ],
+    [
+     -230,
+     -50
+    ],
+    [
+     -160,
+     -40
+    ],
+    [
+     -20,
+     -30
+    ]
+   ],
+   "fill": null,
+   "width": 3,
+   "color": "#bfe6f4",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     30,
+     -36
+    ],
+    [
+     -90,
+     -52
+    ],
+    [
+     -190,
+     -54
+    ]
+   ],
+   "width": 2,
+   "color": "#8fcbe0"
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 0,
+   "r": 260,
+   "color": "#9fe6ff",
+   "density": 0.012
+  }
+ ]
+}

@@ -1,0 +1,485 @@
+{
+ "name": "fly_pupa",
+ "description": "Fossil fly pupa (puparium): small brown barrel capsule #8a5a2a with rounded ends, 9 faint segment rings, darker underside, glossy highlight, stony speckle, tiny spiracle nubs at both ends. Long axis horizontal. Anchor centre, ~210x92. Works from scale 0.45 to 3 and as a silhouette.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "insect",
+  "fossil",
+  "fly",
+  "pupa",
+  "parasite"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100.0,
+     0.0
+    ],
+    [
+     -94.0,
+     -26.0
+    ],
+    [
+     -72.0,
+     -42.0
+    ],
+    [
+     -30.0,
+     -46.0
+    ],
+    [
+     30.0,
+     -46.0
+    ],
+    [
+     72.0,
+     -40.0
+    ],
+    [
+     93.0,
+     -24.0
+    ],
+    [
+     100.0,
+     0.0
+    ],
+    [
+     93.0,
+     24.0
+    ],
+    [
+     72.0,
+     40.0
+    ],
+    [
+     30.0,
+     46.0
+    ],
+    [
+     -30.0,
+     46.0
+    ],
+    [
+     -72.0,
+     42.0
+    ],
+    [
+     -94.0,
+     26.0
+    ]
+   ],
+   "fill": "#8a5a2a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     16
+    ],
+    [
+     -60,
+     32
+    ],
+    [
+     0,
+     38
+    ],
+    [
+     60,
+     32
+    ],
+    [
+     92,
+     16
+    ],
+    [
+     90,
+     26
+    ],
+    [
+     66,
+     40
+    ],
+    [
+     0,
+     46
+    ],
+    [
+     -66,
+     42
+    ],
+    [
+     -92,
+     26
+    ]
+   ],
+   "fill": "#6a421c",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -26
+    ],
+    [
+     -40,
+     -38
+    ],
+    [
+     30,
+     -38
+    ],
+    [
+     75,
+     -28
+    ],
+    [
+     40,
+     -30
+    ],
+    [
+     -30,
+     -30
+    ]
+   ],
+   "fill": "#a8784a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -20,
+   "y": 10,
+   "r": 70,
+   "color": "#6a4a2a",
+   "density": 0.1
+  },
+  {
+   "type": "spray",
+   "x": 20,
+   "y": -10,
+   "r": 60,
+   "color": "#b08a5a",
+   "density": 0.06
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -75,
+     -36.6
+    ],
+    [
+     -68,
+     0
+    ],
+    [
+     -75,
+     36.6
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -57,
+     -40.4
+    ],
+    [
+     -50,
+     0
+    ],
+    [
+     -57,
+     40.4
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -39,
+     -41.7
+    ],
+    [
+     -32,
+     0
+    ],
+    [
+     -39,
+     41.7
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -21,
+     -42.0
+    ],
+    [
+     -14,
+     0
+    ],
+    [
+     -21,
+     42.0
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -3,
+     -42.0
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     -3,
+     42.0
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     15,
+     -42.0
+    ],
+    [
+     22,
+     0
+    ],
+    [
+     15,
+     42.0
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     33,
+     -41.7
+    ],
+    [
+     40,
+     0
+    ],
+    [
+     33,
+     41.7
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     51,
+     -40.4
+    ],
+    [
+     58,
+     0
+    ],
+    [
+     51,
+     40.4
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3014"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     69,
+     -36.6
+    ],
+    [
+     76,
+     0
+    ],
+    [
+     69,
+     36.6
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3014"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -32
+    ],
+    [
+     10,
+     -36
+    ],
+    [
+     12,
+     -28
+    ],
+    [
+     -48,
+     -24
+    ]
+   ],
+   "fill": "#e6c49a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 25,
+   "y": -31,
+   "rx": 4,
+   "ry": 3,
+   "fill": "#f4dcbc",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 98,
+   "y": -10,
+   "rx": 5,
+   "ry": 4,
+   "fill": "#5a3814",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 98,
+   "y": 10,
+   "rx": 5,
+   "ry": 4,
+   "fill": "#5a3814",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -100,
+   "y": 0,
+   "rx": 6,
+   "ry": 8,
+   "fill": "#5a3814",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100.0,
+     0.0
+    ],
+    [
+     -94.0,
+     -26.0
+    ],
+    [
+     -72.0,
+     -42.0
+    ],
+    [
+     -30.0,
+     -46.0
+    ],
+    [
+     30.0,
+     -46.0
+    ],
+    [
+     72.0,
+     -40.0
+    ],
+    [
+     93.0,
+     -24.0
+    ],
+    [
+     100.0,
+     0.0
+    ],
+    [
+     93.0,
+     24.0
+    ],
+    [
+     72.0,
+     40.0
+    ],
+    [
+     30.0,
+     46.0
+    ],
+    [
+     -30.0,
+     46.0
+    ],
+    [
+     -72.0,
+     42.0
+    ],
+    [
+     -94.0,
+     26.0
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}

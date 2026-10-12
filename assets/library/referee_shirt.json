@@ -1,0 +1,41 @@
+{
+ "name": "referee_shirt",
+ "description": "Black-and-white vertical-striped referee shirt worn by Doug (prop): short striped sleeve caps, black V collar, yellow badge, and a silver whistle held at the mouth corner (~(+50,-188), below the eyes) on a grey cord running down to the neck point (0,-150). No sleeves, so any pose's arms stay visible. Anchor = Doug's hips (0,0) at Doug scale 1; shirt y -152..+8. Place at Doug's x, y, scale, listed after Doug.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "costume",
+  "worn",
+  "referee",
+  "whistle",
+  "015"
+ ],
+ "elements": [
+  {"type":"ellipse","x":-50,"y":-128,"rx":20,"ry":16,"fill":"#ffffff","width":5},
+  {"type":"ellipse","x":50,"y":-128,"rx":20,"ry":16,"fill":"#ffffff","width":5},
+  {"type":"line","points":[[-40,-140],[-46,-114]],"width":6,"color":"#111111"},
+  {"type":"line","points":[[-54,-138],[-62,-118]],"width":6,"color":"#111111"},
+  {"type":"line","points":[[40,-140],[46,-114]],"width":6,"color":"#111111"},
+  {"type":"line","points":[[54,-138],[62,-118]],"width":6,"color":"#111111"},
+  {"type":"poly","points":[[-40,-152],[40,-152],[52,-128],[54,8],[-54,8],[-52,-128]],"fill":"#ffffff","width":5},
+  {"type":"poly","points":[[-54,-124.3],[-42,-146.3],[-42,8],[-54,8]],"fill":"#111111","width":0,"outline":false},
+  {"type":"poly","points":[[-30,-150],[-18,-150],[-18,8],[-30,8]],"fill":"#111111","width":0,"outline":false},
+  {"type":"poly","points":[[-6,-150],[6,-150],[6,8],[-6,8]],"fill":"#111111","width":0,"outline":false},
+  {"type":"poly","points":[[18,-150],[30,-150],[30,8],[18,8]],"fill":"#111111","width":0,"outline":false},
+  {"type":"poly","points":[[42,-146.3],[54,-124.3],[54,8],[42,8]],"fill":"#111111","width":0,"outline":false},
+  {"type":"poly","points":[[-26,-152],[26,-152],[0,-122]],"fill":"#111111","width":4},
+  {"type":"poly","points":[[-20,-152],[20,-152],[0,-130]],"fill":"#ffffff","width":2},
+  {"type":"poly","points":[[-40,-152],[40,-152],[52,-128],[54,8],[-54,8],[-52,-128]],"fill":null,"width":5},
+  {"type":"poly","points":[[20,-116],[40,-116],[40,-96],[30,-90],[20,-96]],"fill":"#f2c21b","width":3},
+  {"type":"curve","points":[[0,-146],[20,-150],[40,-166],[52,-180]],"width":3,"color":"#555b62"},
+  {"type":"curve","points":[[0,-146],[-14,-136],[-8,-126]],"width":3,"color":"#555b62"},
+  {"type":"poly","points":[[28,-192],[50,-193],[50,-181],[28,-180]],"fill":"#c9ced3","width":3},
+  {"type":"circle","x":60,"y":-187,"r":12,"fill":"#c9ced3","width":3},
+  {"type":"spray","x":63,"y":-182,"r":9,"color":"#8d949b","density":0.45},
+  {"type":"poly","points":[[50,-192],[56,-199],[61,-198],[56,-190]],"fill":"#2a2a2a","width":2},
+  {"type":"circle","x":56,"y":-190,"r":2,"fill":"#ffffff","width":0,"outline":false}
+ ]
+}

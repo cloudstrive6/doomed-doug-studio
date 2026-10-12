@@ -1,0 +1,487 @@
+{
+ "name": "herefordshire_nodule",
+ "description": "Herefordshire Lagerstaette nodule cracked open into two pale grey stone halves side by side, each broken face showing the same tiny dark fossil shape (part and counterpart) at (-78,0) and (+78,0). ~300x200, anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "fossil",
+  "nodule",
+  "silurian",
+  "herefordshire",
+  "015"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -144,
+     -60
+    ],
+    [
+     -108,
+     -96
+    ],
+    [
+     -58,
+     -100
+    ],
+    [
+     -16,
+     -72
+    ],
+    [
+     -6,
+     -10
+    ],
+    [
+     -18,
+     60
+    ],
+    [
+     -58,
+     96
+    ],
+    [
+     -108,
+     92
+    ],
+    [
+     -142,
+     56
+    ],
+    [
+     -152,
+     0
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#c9c9c4",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": -118,
+   "y": 40,
+   "r": 40,
+   "color": "#8a8a84",
+   "density": 0.35
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -130,
+     -50
+    ],
+    [
+     -108,
+     -62
+    ],
+    [
+     -88,
+     -76
+    ],
+    [
+     -60,
+     -70
+    ],
+    [
+     -38,
+     -54
+    ],
+    [
+     -28,
+     -20
+    ],
+    [
+     -34,
+     6
+    ],
+    [
+     -26,
+     34
+    ],
+    [
+     -48,
+     66
+    ],
+    [
+     -74,
+     72
+    ],
+    [
+     -104,
+     66
+    ],
+    [
+     -124,
+     42
+    ],
+    [
+     -132,
+     10
+    ]
+   ],
+   "width": 3,
+   "color": "#6f6f6a",
+   "fill": "#b0afa8"
+  },
+  {
+   "type": "spray",
+   "x": -78,
+   "y": 0,
+   "r": 40,
+   "color": "#bdbcb5",
+   "density": 0.3
+  },
+  {
+   "type": "circle",
+   "x": -108,
+   "y": -30,
+   "r": 2,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7f7f7a",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -54,
+   "y": 40,
+   "r": 2,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7f7f7a",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -48,
+   "y": -40,
+   "r": 2,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7f7f7a",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -98,
+   "y": 40,
+   "r": 2,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7f7f7a",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     12,
+     -60
+    ],
+    [
+     48,
+     -96
+    ],
+    [
+     98,
+     -100
+    ],
+    [
+     140,
+     -72
+    ],
+    [
+     150,
+     -10
+    ],
+    [
+     138,
+     60
+    ],
+    [
+     98,
+     96
+    ],
+    [
+     48,
+     92
+    ],
+    [
+     14,
+     56
+    ],
+    [
+     4,
+     0
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#c9c9c4",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 118,
+   "y": 40,
+   "r": 40,
+   "color": "#8a8a84",
+   "density": 0.35
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     26,
+     -50
+    ],
+    [
+     48,
+     -62
+    ],
+    [
+     68,
+     -76
+    ],
+    [
+     96,
+     -70
+    ],
+    [
+     118,
+     -54
+    ],
+    [
+     128,
+     -20
+    ],
+    [
+     122,
+     6
+    ],
+    [
+     130,
+     34
+    ],
+    [
+     108,
+     66
+    ],
+    [
+     82,
+     72
+    ],
+    [
+     52,
+     66
+    ],
+    [
+     32,
+     42
+    ],
+    [
+     24,
+     10
+    ]
+   ],
+   "width": 3,
+   "color": "#6f6f6a",
+   "fill": "#b0afa8"
+  },
+  {
+   "type": "spray",
+   "x": 78,
+   "y": 0,
+   "r": 40,
+   "color": "#bdbcb5",
+   "density": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 48,
+   "y": -30,
+   "r": 2,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7f7f7a",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 102,
+   "y": 40,
+   "r": 2,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7f7f7a",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 108,
+   "y": -40,
+   "r": 2,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7f7f7a",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 58,
+   "y": 40,
+   "r": 2,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7f7f7a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -78,
+   "y": 0,
+   "rx": 18,
+   "ry": 11,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#4a3f36"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -92,
+     8
+    ],
+    [
+     -98,
+     16
+    ]
+   ],
+   "width": 2,
+   "color": "#4a3f36"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -84,
+     10
+    ],
+    [
+     -88,
+     18
+    ]
+   ],
+   "width": 2,
+   "color": "#4a3f36"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -62,
+     -2
+    ],
+    [
+     -52,
+     -8
+    ]
+   ],
+   "width": 2,
+   "color": "#4a3f36"
+  },
+  {
+   "type": "ellipse",
+   "x": 78,
+   "y": 0,
+   "rx": 18,
+   "ry": 11,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#4a3f36"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     92,
+     8
+    ],
+    [
+     98,
+     16
+    ]
+   ],
+   "width": 2,
+   "color": "#4a3f36"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     84,
+     10
+    ],
+    [
+     88,
+     18
+    ]
+   ],
+   "width": 2,
+   "color": "#4a3f36"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     62,
+     -2
+    ],
+    [
+     52,
+     -8
+    ]
+   ],
+   "width": 2,
+   "color": "#4a3f36"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -2,
+     -30
+    ],
+    [
+     2,
+     -14
+    ]
+   ],
+   "width": 3,
+   "color": "#6f6f6a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -4,
+     10
+    ],
+    [
+     4,
+     24
+    ]
+   ],
+   "width": 3,
+   "color": "#6f6f6a"
+  }
+ ]
+}

@@ -1,0 +1,294 @@
+{
+ "name": "shovel",
+ "description": "Doug's garden spade, upright, blade down: pale wooden shaft #c08a4a with dark edge, wooden T-grip (top at y -126..-108), grey steel blade #9aa3ab with darker right half and dirt specks. Anchor (0,0) = front-hand grip point; T-grip top ~(0,-110) for stacked caps, blade tip (0,+166) rests on the ground. ~70x292 (x -35..35, y -126..+166). Bold blade reads at scale 0.16 as the DEPTH icon.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "tool",
+  "dig",
+  "fossil"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -34,
+     -126
+    ],
+    [
+     34,
+     -126
+    ],
+    [
+     34,
+     -108
+    ],
+    [
+     -34,
+     -108
+    ]
+   ],
+   "fill": "#c08a4a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -113
+    ],
+    [
+     30,
+     -113
+    ]
+   ],
+   "width": 3,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -9,
+     -110
+    ],
+    [
+     9,
+     -110
+    ],
+    [
+     9,
+     48
+    ],
+    [
+     -9,
+     48
+    ]
+   ],
+   "fill": "#c08a4a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     3,
+     -106
+    ],
+    [
+     7,
+     -106
+    ],
+    [
+     7,
+     46
+    ],
+    [
+     3,
+     46
+    ]
+   ],
+   "fill": "#8a5a2a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -4,
+     -80
+    ],
+    [
+     -4,
+     -40
+    ]
+   ],
+   "width": 2,
+   "color": "#e0b47a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -12,
+     36
+    ],
+    [
+     12,
+     36
+    ],
+    [
+     16,
+     70
+    ],
+    [
+     -16,
+     70
+    ]
+   ],
+   "fill": "#7d868e",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -34,
+     64
+    ],
+    [
+     34,
+     64
+    ],
+    [
+     33,
+     138
+    ],
+    [
+     0,
+     166
+    ],
+    [
+     -33,
+     138
+    ]
+   ],
+   "fill": "#9aa3ab",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     2,
+     68
+    ],
+    [
+     30,
+     68
+    ],
+    [
+     29,
+     136
+    ],
+    [
+     2,
+     160
+    ]
+   ],
+   "fill": "#6f7880",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -24,
+     76
+    ],
+    [
+     -26,
+     132
+    ]
+   ],
+   "width": 3,
+   "color": "#d4dadf"
+  },
+  {
+   "type": "ellipse",
+   "x": -14,
+   "y": 140,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#6b4a2a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 14,
+   "y": 120,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#6b4a2a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": 110,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#6b4a2a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 6,
+   "y": 150,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#6b4a2a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 22,
+   "y": 96,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#6b4a2a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -34,
+     64
+    ],
+    [
+     34,
+     64
+    ],
+    [
+     33,
+     138
+    ],
+    [
+     0,
+     166
+    ],
+    [
+     -33,
+     138
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}

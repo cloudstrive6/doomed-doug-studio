@@ -1,0 +1,324 @@
+{
+ "name": "ash_man",
+ "description": "Small snowman made of grey volcanic ash: two stacked grey balls #9a9a9a with darker spray shading, pebble eyes, pebble mouth and buttons, twig arms. Anchor bottom-centre; head top is flat at (0,-260) for a doug_cap at scale 0.4. ~245x260 incl. twigs.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "ash",
+  "volcano",
+  "snowman"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     -50,
+     -125
+    ],
+    [
+     -90,
+     -150
+    ],
+    [
+     -118,
+     -185
+    ]
+   ],
+   "width": 5,
+   "color": "#5a3a1a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -100,
+     -165
+    ],
+    [
+     -122,
+     -160
+    ]
+   ],
+   "width": 4,
+   "color": "#5a3a1a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     50,
+     -125
+    ],
+    [
+     92,
+     -140
+    ],
+    [
+     120,
+     -170
+    ]
+   ],
+   "width": 5,
+   "color": "#5a3a1a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     104,
+     -152
+    ],
+    [
+     126,
+     -148
+    ]
+   ],
+   "width": 4,
+   "color": "#5a3a1a"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -72,
+   "rx": 76,
+   "ry": 72,
+   "fill": "#9a9a9a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": -30,
+   "y": -55,
+   "r": 55,
+   "color": "#6e6e6e",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 25,
+   "y": -100,
+   "r": 30,
+   "color": "#bcbcbc",
+   "density": 0.25
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -72,
+   "rx": 76,
+   "ry": 72,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -36,
+     -260
+    ],
+    [
+     36,
+     -260
+    ],
+    [
+     52,
+     -232
+    ],
+    [
+     56,
+     -195
+    ],
+    [
+     40,
+     -158
+    ],
+    [
+     0,
+     -142
+    ],
+    [
+     -40,
+     -158
+    ],
+    [
+     -56,
+     -195
+    ],
+    [
+     -52,
+     -232
+    ]
+   ],
+   "fill": "#9a9a9a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": -25,
+   "y": -190,
+   "r": 32,
+   "color": "#6e6e6e",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 20,
+   "y": -230,
+   "r": 18,
+   "color": "#bcbcbc",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -36,
+     -260
+    ],
+    [
+     36,
+     -260
+    ],
+    [
+     52,
+     -232
+    ],
+    [
+     56,
+     -195
+    ],
+    [
+     40,
+     -158
+    ],
+    [
+     0,
+     -142
+    ],
+    [
+     -40,
+     -158
+    ],
+    [
+     -56,
+     -195
+    ],
+    [
+     -52,
+     -232
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": -16,
+   "y": -212,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#2e2e2e",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 18,
+   "y": -212,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#2e2e2e",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": -180,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2e2e2e",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -8,
+   "y": -175,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2e2e2e",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 6,
+   "y": -175,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2e2e2e",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 18,
+   "y": -180,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2e2e2e",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -110,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#2e2e2e",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -75,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#2e2e2e",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -40,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#2e2e2e",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": -6,
+   "r": 70,
+   "color": "#7c7c7c",
+   "density": 0.08
+  }
+ ]
+}
