@@ -1,0 +1,37 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s235",
+      "to": "s244",
+      "hook": "Lake Vostok was sealed under Antarctica's ice for millions of years.",
+      "hook_scene_from": "s228",
+      "title": "",
+      "outro": "What happens next is even worse. The full dive is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s141",
+      "to": "s151",
+      "hook": "Scientists drilled through Antarctic ice and hit a rock that was alive.",
+      "hook_scene_from": "s136",
+      "title": "",
+      "outro": "And it only gets deeper from here. The full dive is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s087",
+      "to": "s097",
+      "hook": "Scientists melted a hole through 740 meters of Antarctic ice.",
+      "hook_scene_from": "s083",
+      "title": "",
+      "outro": "Then the ice above them started to move. The full dive is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    }
+  ]
+}

@@ -9,7 +9,17 @@
       "stage": "scripted",
       "at": "2026-10-12T16:20:04+00:00",
       "note": "draft 1"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-12T16:32:28+00:00",
+      "note": "CD go: draft 2 + E1 kicker fix confirmed; brief order kept (Vostok 10, Denman boss >4000 m sourced); 2959 words ~15:10; notes for director in decisions.md"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-10-12T17:09:53+00:00",
+      "note": ""
     }
   ],
-  "stage": "scripted"
+  "stage": "shotlisted"
 }
