@@ -29,3 +29,17 @@ SCRIPT: APPROVED
 
 ART + PACKAGE: APPROVED
 - 2026-10-12: scripted in 2 screener rounds (fact fixes, Denman/Vostok order resolved with sourced >4000 m), art 3 rounds + 1 safe-area fix pass (camera-move counter overflow; keyframe renderer skips 1080p camera moves so reviewers must render end frames). Engine: clamped font size >=1 in paint.py. Risks: Lake Vostok/Denman hedges, minor notes s036/s075/s120.
+
+## 2026-10-12: final package gate
+- Inputs: `metadata.json`, `build/thumbnail.png` (A), `build/chapters.txt`, `build/timing.json`, `build/qc.json` (914.5 s, `problems: []`), `build/samples` f_001-f_002, `script.md` opening, `visual_review.md` post-render (main FAIL on s248 only; Shorts PASS), and the s248 shotlist diff.
+- **Title kept:** "What Dying at Every Depth Under Antarctica Would Be Like". None of the alternates is clearly stronger. "Every Layer" lands next to 001. "How Doug Would Die" repeats the openings of 001 and 003. "Creepiest Things" underpromises on the death format. "Why ... Deadlier" is the weakest curiosity frame of the four. The title delivers what it promises: 9 deaths over 11 depth stops down to more than 4 km.
+- **Thumbnail A:** the six-band ice column reads at feed size. The red cap at the top and the dropped cap at the bottom bookend the episode, and every label is a chapter. The labels share no words with the title. I would click it.
+- **Chapters/description:** every chapter matches the spoken header shot in `timing.json`. Blood Falls is at 13.4 s, Mercer at 495.7 s (8:15), Vostok at 731.5 s (12:11) and Denman at 813.5 s (13:33). The first chapter is at 0:00, the intro is at least 10 s, and there are 12 chapters. The s248 label move changes no timing, so the chapters hold for the re-render. The description includes the sources plus the AI-use and cartoon disclaimers, with no medical or safety advice.
+- **First 60 s:** "Blood Falls" is the 33rd word (spoken at 13.4 s), "It isn't blood" plays at 24.8 s and the first death comes at about 65 s. The thumbnail is the opening image. Narration runs at 194 wpm overall. Samples f_001 and f_002 are clean: the meter flashes 400 m only on the twist shot and the outflow reads as a rust stain. The pacing would keep me watching.
+- **s248 fix verified in `shotlist.json`:** DENMAN GLACIER x 600 → 720, with y, size and appear unchanged. This was the screener's only required fix.
+- Condition (operational, not creative): the upload may go only from the queued `render --final` output (`.rerender=final`), after `qc` passes and a frame check at s248 (about 825 s) shows "SEA LEVEL" whole. The current `build/final.mp4` still has the overlap and must not be uploaded. The Shorts need no re-render.
+- Series bible: the death total is now 139 (16 episodes) and the 016 log row is set to final-approved.
+
+FINAL: APPROVED
+- 2026-10-12: post-render main FAIL (s248 label overlap, fixed x720); re-render queued; stage left unchanged pending round 2. Shorts PASS.
+FINAL: APPROVED

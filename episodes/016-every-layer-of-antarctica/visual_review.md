@@ -207,3 +207,45 @@ The keyframes are cleared for the render. No required fixes.
 - s265: the ocean-surface line from the group (white, x≈1560–1920, y≈340) floats inside the dark ice. It is also visible in s262–s264, so it is consistent, but stopping it at the ice front would look cleaner.
 - Carried over: s036 ice chimney is small; Doug sits close to the microbe in s120; "FAST" is tight above Doug's cap in s075.
 - Post-render screening (samples, qc.json, final thumbnail and Shorts) is still to do after `render --final`.
+
+## Round 4: post-render screening (final.mp4, thumbnail, Shorts), 2026-10-12
+
+Inputs: `build/final.mp4` (1920x1080, 914.5 s, rendered 18:24 after the last shotlist save at 18:13), `build/qc.json`
+(`problems: []`), all 30 samples in `build/samples` (taken at t = 15 + 30k s). I re-grabbed each sample time at full
+1080p and mapped it to a shot id through `captions.srt`. I also checked `build/thumbnail.png` and `thumbnail_small.png`
+against `metadata.json`, and `build/shorts/short01-03` (previews, 5 frames each, plus a contact sheet every 3 s). I ran a
+scan over all 274 scenes for overlapping label, text and wordart boxes. The only hit that wasn't the intended death-counter
+swap was s248. Nothing was rendered.
+
+### Main video
+- No black or blank frames, glitches or frozen frames in the samples. Topbar chapter captions match the chapter list. The death
+  counter rises 130 to 138 in order across the samples. Doug is on-model in every sample he appears in. No gore: the Blood
+  Falls outflow is a brown iron stain, and deaths are cartoon only.
+- **Defect, s248 (sample f_028, t≈825 s):** the "DENMAN GLACIER" label (x 600, y 330, size 40, appears at 0.143) is drawn
+  over the right end of the "SEA LEVEL" label (x 330, y 330). On screen it reads **"SEA LEVE"** for about 3.5 s. The same
+  scene recurs in s249–s261, but there the DENMAN label is absent, so they are clean. Pre-render rounds missed this.
+- Mid-shot samples that only look sparse because their reveals had not fired yet (s027 microbe panel, s144 sponge distance
+  shot): fine at full length.
+
+### Thumbnail
+PASS. Archetype B cross-section. Bands darken from top to bottom with one subject per band, and Doug is on the rope at the
+top. Labels are outside the stack, alternate sides and use no title words. At 168 px the bands, Doug's red cap and the labels
+can all still be read. The bottom-right corner, where the timestamp sits, is empty white. It complements "What Dying at Every Depth Under
+Antarctica Would Be Like" and is not misleading: every pictured stop is a chapter.
+
+### Shorts
+PASS. All three are 1080x1920 (42.6 / 49.5 / 47.8 s). The red title is readable at the top and the subtitles are big and
+high-contrast. The full 16:9 frame is letterboxed, so no main drawing is cut at the sides. On every end card the red arrow
+points straight down and Doug points at it. The Doug death in short01 (137 to 138) is a cartoon death (water geyser).
+- Advisory: short03 fish close-up (around 24–36 s), where the ROV's left thrusters touch the left frame edge. This comes from the
+  main-video shot and is not a crop introduced by the Short.
+- Advisory: short01 at about 30 s has a subtitle wrap orphan ("frozen samples could / be").
+
+### VERDICT (main): FAIL
+### VERDICT (shorts): PASS
+
+#### Required fixes
+1. **s248 (director, composition):** move the "DENMAN GLACIER" label from x 600 to **x 720** (keep y 330, size 40, appear
+   0.143). It will then span about x 525–915, clear of "SEA LEVEL" (right edge about 430), the rope (x 1032) and "A CANYON" (top
+   about 425). Then re-render: `keyframes --shots s248` to confirm, and after that `render --final`. The Shorts do not use s248
+   (short01 is the Vostok section, which ends at the s244 counter tick), so they do not need re-rendering.
