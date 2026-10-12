@@ -23,3 +23,15 @@ THUMBNAIL: A APPROVED
 
 ART: GO, conditional on the visual screener's re-check of the halo versions of s166/s186/s199 coming back PASS. If that re-check FAILs on a blood read, apply its fix and keep a red halo (lower the density, do not remove it). Then re-check only those three shots. No further CD review is needed unless the halo is dropped.
 - 2026-10-12: script 3 rounds (draft 3 PASS), assets 2 rounds (1 redraw), keyframes 5 review rounds (red-glow dispute resolved via new 'rim' red-outline option in studio/paint.py, documented in SCENE_SCHEMA), thumbnail A (B rejected). Risks: dinosaur kid-appeal, Sue's jaw cause contested (script says unknown), 8 optional minor keyframe nits left (s015,s016,s020,s099,s159,s160).
+
+## 2026-10-12: final package gate
+- Inputs: visual screener round 6 PASS (main, thumbnail, 3 Shorts); `build/qc.json` has no problems (929 s, 31 samples).
+- **Title: keep "The Deeper Doug Digs, the Scarier the Fossils Get".** It is the depth gradient the thumbnail draws, it is honest (11 finds in depth/age order, ending at the oldest predation evidence), and it does not repeat 013's word order. None of the alts is clearly stronger. "How Doug Would Die..." oversells, because Doug survives two items. "Disturbing Things Scientists Found Inside Fossils" fits only half the list. The other two lose Doug and the gradient.
+- Thumbnail (`build/thumbnail.png`): six strata darkening to the green-glow First Hole, one find per band, Doug with his shovel on top. The labels never reuse title words. It reads as a descent and makes me want to see the bottom layer, and every pictured find is in the video.
+- Opening (script plus f_001-f_003): the thumbnail is the opening image, "Ashfall." comes at about word 33 and 0:11, and the twist (the volcano was in Idaho) lands at about 0:27. The sample frames are clean and the HUD reads (DOUG DEATHS 121, DEPTH 12). The ash deaths are told through bone growths, not injury, and Doug's death is the cartoon X-eyes and ghost.
+- Chapters: 12 entries, start at 0:00, all at least 10 s apart, and they match the HUD chapter names. `{{CHAPTERS}}` is filled at upload (`studio/youtube.py`).
+- Description: the hook paragraph, CTA, six primary sources, cartoon disclaimer and AI-use disclosure are all present. Tags are on-topic and none are kid-targeted. "Dinosaur" stays out of the title. The playlist is `prehistoric`.
+- Counter: the shotlist ends at DOUG DEATHS 130. The series bible total is now 130.
+- Non-blocking: the description line "visits each find on its last day" is loose for Sue (cause of death unknown) and the Tongue Worms survival. Leave it.
+
+FINAL: APPROVED

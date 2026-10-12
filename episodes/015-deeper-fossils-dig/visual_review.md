@@ -118,3 +118,32 @@ Whole episode: every keyframe issue from rounds 1-4 is resolved. **Keyframes PAS
 The thumbnail is unchanged since round 3 (`build/thumbnail.png`, `thumbnail_small.png`) and still passes.
 
 **Overall: VERDICT: PASS** (keyframes and thumbnail). The post-render checks (samples, qc.json, Shorts) are still to do after the build.
+
+## Round 6: post-render (2026-10-12)
+
+Scope: all 31 `build/samples/f_*.png` (every 30 s of the 929 s final.mp4), `build/qc.json`, `build/thumbnail.png` + `thumbnail_small.png` against `metadata.json`, the 3 Shorts previews, and 8 frames pulled from each Short (1, 4, 10, 18, 26, 34, 42 s and the last 1.5 s).
+
+### Main video: VERDICT: PASS
+
+- qc.json reports no problems. None of the 31 samples is black, blank, glitched or frozen. Every sample is a different composition.
+- The chapter titles (ASHFALL through THE FIRST HOLE) match the HUD. The death counter climbs from 121 to 129, and the depth climbs from 12 to 550 million years in order. All text is legible, and nothing is cropped or overlapping.
+- Doug is on-model (red cap, white head) in every frame where he appears, including the referee outfit (f_017), the couch (f_006) and the Cloudina disguise (f_031).
+- The round 5 rims are fine in the render (f_021, f_022). There is no red cloud in the water.
+- Non-blocking note on f_011 (Sue shot): the pale pink speckle disc behind the black T. rex silhouette is on land, faint, and there is no wound in the shot, so it reads as a glow and not as blood. It is fine as is.
+- No gore. The Russian dolls (f_008) are a short adult-coded gag and do not give the video a kids' tone.
+
+### Thumbnail: VERDICT: PASS
+
+The strata cross-section reads at 320x180: six coloured bands, a recognisable find in each, and Doug with his shovel at the top. All labels are legible at feed size and none repeat words from the title. The thumbnail matches the title "The Deeper Doug Digs, the Scarier the Fossils Get" and is not misleading.
+
+### Shorts: VERDICT: PASS
+
+- short01 (48.6 s), short02 (49.3 s) and short03 (52.4 s) are all 1080x1920.
+- The red titles are readable on dark, cream and sky backgrounds, and the subtitles are large and legible. The @DoomedDoug watermark is clean.
+- The auto-fit crop keeps every drawing whole: the X-ray pupa, the 55-pupae grid, the X-ray snake with its LIZARD label, the Russian dolls, the snake-to-lizard-to-insect chain, the fish-on-wing close-up and the slab grid. The HUD stays fully in frame.
+- Doug is sometimes small near the left edge (about 5% in), but he is always fully visible and on-model.
+- The end card "WHAT HAPPENS NEXT? TAP BELOW" is legible, and the red arrow points down to the link.
+- In short02 at 26 s, the shark shows on its own while the narration says "The first was a shark..." (s072). That matches the narration, so it is fine.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS

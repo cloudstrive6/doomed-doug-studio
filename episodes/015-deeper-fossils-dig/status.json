@@ -39,7 +39,17 @@
       "stage": "packaged",
       "at": "2026-10-12T01:44:08+00:00",
       "note": "narrated 15.5 min, validated"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-12T01:54:56+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "qc_passed",
+      "at": "2026-10-12T02:04:31+00:00",
+      "note": "final approved"
     }
   ],
-  "stage": "packaged"
+  "stage": "qc_passed"
 }
