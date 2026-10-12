@@ -1,0 +1,19 @@
+{
+ "name": "tshirt_hanger",
+ "description": "Plain light-blue T-shirt hanging on a grey wire coat hanger, hook at the top (y ~-140). Anchor centre, ~260x280 (x -130..130, y -142..132).",
+ "anchor": [0, 0],
+ "tags": ["clothing", "prop", "shirt", "warm"],
+ "elements": [
+  {"type": "poly", "points": [[-62, -96], [-118, -70], [-130, -10], [-96, 2], [-84, -32], [-84, 132], [84, 132], [84, -32], [96, 2], [130, -10], [118, -70], [62, -96], [40, -88], [0, -76], [-40, -88]], "fill": "#8cc6ec", "width": 0, "color": "#000000", "outline": false},
+  {"type": "poly", "points": [[30, -86], [62, -96], [118, -70], [130, -10], [96, 2], [84, -32], [84, 132], [40, 132], [48, 0]], "fill": "#6faedb", "width": 0, "color": "#000000", "outline": false},
+  {"type": "spray", "x": -30, "y": 30, "r": 40, "color": "#b4dcf5", "density": 0.3},
+  {"type": "curve", "points": [[-40, 20], [-30, 80], [-36, 120]], "width": 3, "color": "#4f8fc0"},
+  {"type": "curve", "points": [[30, 40], [22, 110]], "width": 3, "color": "#4f8fc0"},
+  {"type": "line", "points": [[-84, -32], [-96, 2]], "width": 3, "color": "#4f8fc0"},
+  {"type": "poly", "points": [[-40, -88], [0, -60], [40, -88], [24, -92], [0, -78], [-24, -92]], "fill": "#5d9fd0", "width": 3, "color": "#000000"},
+  {"type": "poly", "points": [[-62, -96], [-118, -70], [-130, -10], [-96, 2], [-84, -32], [-84, 132], [84, 132], [84, -32], [96, 2], [130, -10], [118, -70], [62, -96], [40, -88], [0, -76], [-40, -88]], "fill": null, "width": 5, "color": "#000000"},
+  {"type": "line", "points": [[0, -78], [0, -116]], "width": 5, "color": "#5a5f66"},
+  {"type": "line", "points": [[-6, -116], [6, -116]], "width": 5, "color": "#5a5f66"},
+  {"type": "ellipse", "x": -16, "y": -124, "rx": 18, "ry": 16, "start": 330, "end": 540, "width": 5, "color": "#5a5f66"}
+ ]
+}

@@ -1,0 +1,327 @@
+{
+ "name": "sticker_blood_falls",
+ "description": "Travel sticker for BLOOD FALLS (~112x60, anchor centre): white glacier stamp with a dashed rust border, pale-blue ice cliff band and a rust-red (iron oxide, not blood) drip down the middle, rust-red text. Slightly peeling corner, bold caps text legible at scale 0.2-0.3 on the suitcase and 1.6 on the closing card. Art-director-owned series lore (places playlist).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "antarctica",
+  "016",
+  "blood falls",
+  "glacier",
+  "rust"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56.0,
+     -30.0
+    ],
+    [
+     56.0,
+     -30.0
+    ],
+    [
+     56.0,
+     30.0
+    ],
+    [
+     -56.0,
+     30.0
+    ]
+   ],
+   "fill": "#fbfbf6",
+   "width": 4,
+   "color": "#5a1a10"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -52,
+     -26
+    ],
+    [
+     52,
+     -26
+    ],
+    [
+     52,
+     26
+    ],
+    [
+     -52,
+     26
+    ],
+    [
+     -52,
+     -26
+    ]
+   ],
+   "width": 2,
+   "color": "#c8501e",
+   "dash": [
+    5,
+    4
+   ]
+  },
+  {
+   "type": "rect",
+   "x": -50,
+   "y": -24,
+   "w": 100,
+   "h": 2,
+   "fill": null,
+   "width": 2,
+   "color": "#9fb8c8"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -24
+    ],
+    [
+     50,
+     -24
+    ],
+    [
+     50,
+     -2
+    ],
+    [
+     -50,
+     -2
+    ]
+   ],
+   "fill": "#d8ebf6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -34,
+     -22
+    ],
+    [
+     -34,
+     -4
+    ]
+   ],
+   "width": 2,
+   "color": "#9cc4de"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     -22
+    ],
+    [
+     -20,
+     -6
+    ]
+   ],
+   "width": 2,
+   "color": "#9cc4de"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     -22
+    ],
+    [
+     22,
+     -5
+    ]
+   ],
+   "width": 2,
+   "color": "#9cc4de"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     -22
+    ],
+    [
+     36,
+     -6
+    ]
+   ],
+   "width": 2,
+   "color": "#9cc4de"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -24
+    ],
+    [
+     50,
+     -24
+    ]
+   ],
+   "width": 2,
+   "color": "#4f6b84"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -2,
+   "rx": 13,
+   "ry": 3,
+   "fill": "#c8501e",
+   "width": 2,
+   "color": "#8a1a10"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -3,
+     -24
+    ],
+    [
+     3,
+     -24
+    ],
+    [
+     5,
+     -16
+    ],
+    [
+     2,
+     -9
+    ],
+    [
+     4,
+     -3
+    ],
+    [
+     -4,
+     -3
+    ],
+    [
+     -2,
+     -9
+    ],
+    [
+     -5,
+     -16
+    ]
+   ],
+   "fill": "#c8501e",
+   "width": 2,
+   "color": "#8a1a10",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -22
+    ],
+    [
+     0,
+     -4
+    ]
+   ],
+   "width": 1,
+   "color": "#8a1a10"
+  },
+  {
+   "type": "text",
+   "text": "BLOOD FALLS",
+   "x": 0,
+   "y": 14,
+   "size": 12,
+   "color": "#8a1a10",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     56.0,
+     -30.0
+    ],
+    [
+     42.0,
+     -30.0
+    ],
+    [
+     56.0,
+     -16.0
+    ]
+   ],
+   "fill": "#f4efe6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     42.0,
+     -30.0
+    ],
+    [
+     42.0,
+     -16.0
+    ],
+    [
+     56.0,
+     -16.0
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#5a1a10"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56.0,
+     -30.0
+    ],
+    [
+     56.0,
+     -30.0
+    ],
+    [
+     56.0,
+     30.0
+    ],
+    [
+     -56.0,
+     30.0
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#5a1a10"
+  }
+ ]
+}

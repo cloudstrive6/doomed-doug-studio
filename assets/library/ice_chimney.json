@@ -1,0 +1,28 @@
+{
+ "name": "ice_chimney",
+ "description": "Fumarolic ice chimney/tower on Mount Erebus: rough, slightly bulging white and pale-blue ice tower with frost lumps and texture strokes, open dark hole at the top (rim y -248). Steam is added by the scene. Anchor bottom-centre, ~140x260.",
+ "anchor": [0, 0],
+ "tags": ["ice", "antarctica", "volcano", "erebus", "place"],
+ "elements": [
+  {"type": "poly", "points": [[-62, 0], [-70, -30], [-64, -52], [-72, -90], [-76, -118], [-66, -140], [-60, -170], [-64, -196], [-52, -222], [-46, -248], [46, -248], [54, -226], [50, -204], [62, -186], [74, -160], [68, -136], [72, -100], [78, -74], [68, -50], [70, -24], [64, 0]], "fill": "#e9f3f9", "width": 0, "color": "#000000", "outline": false},
+  {"type": "poly", "points": [[10, -248], [46, -248], [52, -222], [62, -186], [70, -140], [72, -90], [68, -40], [64, 0], [20, 0], [30, -80], [26, -170]], "fill": "#b9d4e6", "width": 0, "color": "#000000", "outline": false},
+  {"type": "poly", "points": [[-62, 0], [-66, -40], [-50, -36], [-20, -10], [20, -14], [50, -30], [68, -40], [64, 0]], "fill": "#cfe2ef", "width": 0, "color": "#000000", "outline": false},
+  {"type": "curve", "points": [[-64, -52], [-50, -60], [-44, -80]], "width": 3, "color": "#8fb4cf"},
+  {"type": "curve", "points": [[-66, -140], [-52, -150]], "width": 3, "color": "#8fb4cf"},
+  {"type": "curve", "points": [[68, -136], [54, -130]], "width": 3, "color": "#8fb4cf"},
+  {"type": "curve", "points": [[68, -50], [56, -60]], "width": 3, "color": "#8fb4cf"},
+  {"type": "curve", "points": [[50, -204], [38, -200]], "width": 3, "color": "#8fb4cf"},
+  {"type": "curve", "points": [[-40, -60], [-34, -110]], "width": 3, "color": "#8fb4cf"},
+  {"type": "curve", "points": [[-30, -150], [-24, -200]], "width": 3, "color": "#8fb4cf"},
+  {"type": "curve", "points": [[30, -40], [40, -100]], "width": 3, "color": "#8fb4cf"},
+  {"type": "curve", "points": [[-10, -90], [-6, -130]], "width": 3, "color": "#8fb4cf"},
+  {"type": "curve", "points": [[40, -140], [36, -190]], "width": 3, "color": "#8fb4cf"},
+  {"type": "curve", "points": [[-44, -20], [-36, -30]], "width": 3, "color": "#8fb4cf"},
+  {"type": "spray", "x": -30, "y": -150, "r": 34, "color": "#ffffff", "density": 0.35},
+  {"type": "spray", "x": 40, "y": -110, "r": 34, "color": "#9cc0da", "density": 0.2},
+  {"type": "spray", "x": 0, "y": -20, "r": 50, "color": "#ffffff", "density": 0.3},
+  {"type": "poly", "points": [[-62, 0], [-70, -30], [-64, -52], [-72, -90], [-76, -118], [-66, -140], [-60, -170], [-64, -196], [-52, -222], [-46, -248], [46, -248], [54, -226], [50, -204], [62, -186], [74, -160], [68, -136], [72, -100], [78, -74], [68, -50], [70, -24], [64, 0]], "fill": null, "width": 5, "color": "#000000"},
+  {"type": "ellipse", "x": 0, "y": -248, "rx": 48, "ry": 14, "fill": "#2a3a4a", "width": 5, "color": "#000000"},
+  {"type": "ellipse", "x": 0, "y": -245, "rx": 30, "ry": 6, "fill": "#11161f", "width": 0, "color": "#000000", "outline": false}
+ ]
+}

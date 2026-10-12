@@ -1,0 +1,228 @@
+{
+ "name": "sticker_thwaites",
+ "description": "Travel sticker for THWAITES (~120x60, anchor centre): pale-blue pennant on a little pole, a small white ice cliff with a dark slot cut up into its underside, navy text. Slightly peeling corner, bold caps text legible at scale 0.2-0.3 on the suitcase and 1.6 on the closing card. Art-director-owned series lore (places playlist).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "antarctica",
+  "016",
+  "thwaites",
+  "glacier",
+  "ice shelf"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -58,
+     -30
+    ],
+    [
+     62,
+     -14
+    ],
+    [
+     62,
+     14
+    ],
+    [
+     -58,
+     30
+    ]
+   ],
+   "fill": "#a9d4f0",
+   "width": 4,
+   "color": "#1d2a38"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -34,
+   "w": 5,
+   "h": 68,
+   "fill": "#6b4a2a",
+   "width": 2,
+   "color": "#1d2a38"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -38,
+     -18
+    ],
+    [
+     8,
+     -18
+    ],
+    [
+     12,
+     -10
+    ],
+    [
+     8,
+     -2
+    ],
+    [
+     -38,
+     -2
+    ]
+   ],
+   "fill": "#f4fbff",
+   "width": 2,
+   "color": "#1d2a38"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -26,
+     -2
+    ],
+    [
+     -6,
+     -2
+    ],
+    [
+     -12,
+     -10
+    ],
+    [
+     -20,
+     -11
+    ]
+   ],
+   "fill": "#1d2a38",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -16
+    ],
+    [
+     -30,
+     -6
+    ]
+   ],
+   "width": 2,
+   "color": "#9cc4de"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -16
+    ],
+    [
+     0,
+     -6
+    ]
+   ],
+   "width": 2,
+   "color": "#9cc4de"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -44,
+     0
+    ],
+    [
+     16,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#3a6a9a"
+  },
+  {
+   "type": "text",
+   "text": "THWAITES",
+   "x": -8,
+   "y": 10,
+   "size": 14,
+   "color": "#1d2a38",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     62,
+     -14
+    ],
+    [
+     48,
+     -14
+    ],
+    [
+     62,
+     0
+    ]
+   ],
+   "fill": "#f4efe6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     48,
+     -14
+    ],
+    [
+     48,
+     0
+    ],
+    [
+     62,
+     0
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#1d2a38"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -58,
+     -30
+    ],
+    [
+     62,
+     -14
+    ],
+    [
+     62,
+     14
+    ],
+    [
+     -58,
+     30
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#1d2a38"
+  }
+ ]
+}

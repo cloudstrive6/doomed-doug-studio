@@ -1,0 +1,188 @@
+{
+ "name": "rope_hook",
+ "description": "Empty end of Doug's rope: grey steel snap-hook / carabiner with a darker gate bar and a small ring at the top. Anchor = tie-on point at the top (0,0); hook hangs to about y +138, about 70 wide. The lower bend is an open U so doug_cap can hang from it.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "rope",
+  "hook",
+  "carabiner",
+  "prop",
+  "016"
+ ],
+ "elements": [
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 12,
+   "r": 13,
+   "fill": null,
+   "width": 12,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 12,
+   "r": 13,
+   "fill": null,
+   "width": 6,
+   "color": "#a3abb4"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     26
+    ],
+    [
+     -22,
+     40
+    ],
+    [
+     -32,
+     70
+    ],
+    [
+     -32,
+     100
+    ],
+    [
+     -20,
+     124
+    ],
+    [
+     0,
+     132
+    ],
+    [
+     20,
+     124
+    ],
+    [
+     32,
+     100
+    ],
+    [
+     32,
+     74
+    ]
+   ],
+   "width": 20,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     26
+    ],
+    [
+     -22,
+     40
+    ],
+    [
+     -32,
+     70
+    ],
+    [
+     -32,
+     100
+    ],
+    [
+     -20,
+     124
+    ],
+    [
+     0,
+     132
+    ],
+    [
+     20,
+     124
+    ],
+    [
+     32,
+     100
+    ],
+    [
+     32,
+     74
+    ]
+   ],
+   "width": 12,
+   "color": "#a3abb4"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -26,
+     66
+    ],
+    [
+     -26,
+     100
+    ],
+    [
+     -16,
+     118
+    ]
+   ],
+   "width": 3,
+   "color": "#dfe4e9"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     30
+    ],
+    [
+     31,
+     70
+    ]
+   ],
+   "width": 11,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     30
+    ],
+    [
+     31,
+     70
+    ]
+   ],
+   "width": 5,
+   "color": "#4a525c"
+  },
+  {
+   "type": "circle",
+   "x": 32,
+   "y": 74,
+   "r": 6,
+   "fill": "#a3abb4",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -6,
+   "y": 26,
+   "r": 9,
+   "fill": "#8d96a0",
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

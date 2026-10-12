@@ -1,0 +1,248 @@
+{
+ "name": "sticker_ross_ice_shelf",
+ "description": "Travel sticker for ROSS ICE SHELF (~130x64, anchor centre): dark-blue rectangle with a flat white ice shelf band on top, a tiny pale fish under it, white two-line text. Slightly peeling corner, bold caps text legible at scale 0.2-0.3 on the suitcase and 1.6 on the closing card. Art-director-owned series lore (places playlist).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "antarctica",
+  "016",
+  "ross ice shelf",
+  "ice shelf",
+  "fish"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -65.0,
+     -32.0
+    ],
+    [
+     65.0,
+     -32.0
+    ],
+    [
+     65.0,
+     32.0
+    ],
+    [
+     -65.0,
+     32.0
+    ]
+   ],
+   "fill": "#1b3f73",
+   "width": 4,
+   "color": "#0f1f3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -65,
+     -32
+    ],
+    [
+     65,
+     -32
+    ],
+    [
+     65,
+     -14
+    ],
+    [
+     -65,
+     -14
+    ]
+   ],
+   "fill": "#f7fbff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -65,
+     -14
+    ],
+    [
+     65,
+     -14
+    ]
+   ],
+   "width": 3,
+   "color": "#0f1f3a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -24
+    ],
+    [
+     40,
+     -24
+    ]
+   ],
+   "width": 2,
+   "color": "#c9dbe8"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     16
+    ],
+    [
+     48,
+     11
+    ],
+    [
+     56,
+     14
+    ],
+    [
+     58,
+     16
+    ],
+    [
+     56,
+     18
+    ],
+    [
+     48,
+     21
+    ]
+   ],
+   "fill": "#d6ecf7",
+   "width": 2,
+   "color": "#d6ecf7"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     16
+    ],
+    [
+     34,
+     11
+    ],
+    [
+     34,
+     21
+    ]
+   ],
+   "fill": "#d6ecf7",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 53,
+   "y": 15,
+   "r": 1,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "text",
+   "text": "ROSS ICE",
+   "x": -12,
+   "y": 2,
+   "size": 14,
+   "color": "#ffffff",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "SHELF",
+   "x": -12,
+   "y": 19,
+   "size": 14,
+   "color": "#ffffff",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     65.0,
+     -32.0
+    ],
+    [
+     51.0,
+     -32.0
+    ],
+    [
+     65.0,
+     -18.0
+    ]
+   ],
+   "fill": "#f4efe6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     51.0,
+     -32.0
+    ],
+    [
+     51.0,
+     -18.0
+    ],
+    [
+     65.0,
+     -18.0
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#0f1f3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -65.0,
+     -32.0
+    ],
+    [
+     65.0,
+     -32.0
+    ],
+    [
+     65.0,
+     32.0
+    ],
+    [
+     -65.0,
+     32.0
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#0f1f3a"
+  }
+ ]
+}

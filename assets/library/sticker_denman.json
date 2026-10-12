@@ -1,0 +1,211 @@
+{
+ "name": "sticker_denman",
+ "description": "Travel sticker for DENMAN (~112x60, anchor centre): black stamp with a dashed grey border, one faint red stripe and a deep V canyon, pale grey text. Slightly peeling corner, bold caps text legible at scale 0.2-0.3 on the suitcase and 1.6 on the closing card. Art-director-owned series lore (places playlist).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "antarctica",
+  "016",
+  "denman",
+  "canyon",
+  "deepest"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56.0,
+     -30.0
+    ],
+    [
+     56.0,
+     -30.0
+    ],
+    [
+     56.0,
+     30.0
+    ],
+    [
+     -56.0,
+     30.0
+    ]
+   ],
+   "fill": "#0b0d16",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -52,
+     -26
+    ],
+    [
+     52,
+     -26
+    ],
+    [
+     52,
+     26
+    ],
+    [
+     -52,
+     26
+    ],
+    [
+     -52,
+     -26
+    ]
+   ],
+   "width": 2,
+   "color": "#5a606c",
+   "dash": [
+    5,
+    4
+   ]
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -56,
+     -14
+    ],
+    [
+     56,
+     -14
+    ]
+   ],
+   "width": 3,
+   "color": "#6a1e22"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -24
+    ],
+    [
+     30,
+     -24
+    ],
+    [
+     4,
+     -2
+    ],
+    [
+     -4,
+     -2
+    ]
+   ],
+   "fill": "#5a606c",
+   "width": 2,
+   "color": "#8d96a0"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -16,
+     -24
+    ],
+    [
+     16,
+     -24
+    ],
+    [
+     0,
+     -4
+    ]
+   ],
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "text",
+   "text": "DENMAN",
+   "x": 0,
+   "y": 13,
+   "size": 20,
+   "color": "#e6e9ee",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     56.0,
+     -30.0
+    ],
+    [
+     42.0,
+     -30.0
+    ],
+    [
+     56.0,
+     -16.0
+    ]
+   ],
+   "fill": "#f4efe6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     42.0,
+     -30.0
+    ],
+    [
+     42.0,
+     -16.0
+    ],
+    [
+     56.0,
+     -16.0
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56.0,
+     -30.0
+    ],
+    [
+     56.0,
+     -30.0
+    ],
+    [
+     56.0,
+     30.0
+    ],
+    [
+     -56.0,
+     30.0
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

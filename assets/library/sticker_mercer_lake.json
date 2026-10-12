@@ -1,0 +1,229 @@
+{
+ "name": "sticker_mercer_lake",
+ "description": "Travel sticker for MERCER LAKE (~112x60, anchor centre): glacier-blue rectangle, a tiny tan ostracod (seed-shrimp shell with little legs poking out), white text with navy outline. Slightly peeling corner, bold caps text legible at scale 0.2-0.3 on the suitcase and 1.6 on the closing card. Art-director-owned series lore (places playlist).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "antarctica",
+  "016",
+  "mercer lake",
+  "subglacial lake",
+  "ostracod"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56.0,
+     -30.0
+    ],
+    [
+     56.0,
+     -30.0
+    ],
+    [
+     56.0,
+     30.0
+    ],
+    [
+     -56.0,
+     30.0
+    ]
+   ],
+   "fill": "#7fb2d6",
+   "width": 4,
+   "color": "#1d2a38"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -14,
+     -14
+    ],
+    [
+     -8,
+     -24
+    ],
+    [
+     6,
+     -26
+    ],
+    [
+     14,
+     -20
+    ],
+    [
+     14,
+     -10
+    ],
+    [
+     4,
+     -6
+    ],
+    [
+     -10,
+     -7
+    ]
+   ],
+   "fill": "#d9b47a",
+   "width": 2,
+   "color": "#6b4a22",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -14
+    ],
+    [
+     12,
+     -18
+    ]
+   ],
+   "width": 1,
+   "color": "#8a6a3a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -14,
+     -10
+    ],
+    [
+     -22,
+     -6
+    ]
+   ],
+   "width": 2,
+   "color": "#6b4a22"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -8
+    ],
+    [
+     -18,
+     -2
+    ]
+   ],
+   "width": 2,
+   "color": "#6b4a22"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -13,
+     -18
+    ],
+    [
+     -22,
+     -22
+    ]
+   ],
+   "width": 2,
+   "color": "#6b4a22"
+  },
+  {
+   "type": "circle",
+   "x": 10,
+   "y": -19,
+   "r": 1.5,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "text",
+   "text": "MERCER LAKE",
+   "x": 0,
+   "y": 13,
+   "size": 13,
+   "color": "#ffffff",
+   "bold": true,
+   "boil": 0,
+   "outline": "#1d2a38",
+   "outline_width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     56.0,
+     -30.0
+    ],
+    [
+     42.0,
+     -30.0
+    ],
+    [
+     56.0,
+     -16.0
+    ]
+   ],
+   "fill": "#f4efe6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     42.0,
+     -30.0
+    ],
+    [
+     42.0,
+     -16.0
+    ],
+    [
+     56.0,
+     -16.0
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#1d2a38"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56.0,
+     -30.0
+    ],
+    [
+     56.0,
+     -30.0
+    ],
+    [
+     56.0,
+     30.0
+    ],
+    [
+     -56.0,
+     30.0
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#1d2a38"
+  }
+ ]
+}

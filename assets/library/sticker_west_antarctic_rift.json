@@ -1,0 +1,235 @@
+{
+ "name": "sticker_west_antarctic_rift",
+ "description": "Travel sticker for WEST ANTARCTIC RIFT (~130x66, anchor centre): cobalt shield, small dark volcanic cone with an orange glow under a white ice lid, white two-line text. Slightly peeling corner, bold caps text legible at scale 0.2-0.3 on the suitcase and 1.6 on the closing card. Art-director-owned series lore (places playlist).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "antarctica",
+  "016",
+  "west antarctic rift",
+  "volcano",
+  "subglacial"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -65,
+     -32
+    ],
+    [
+     65,
+     -32
+    ],
+    [
+     65,
+     2
+    ],
+    [
+     44,
+     20
+    ],
+    [
+     0,
+     34
+    ],
+    [
+     -44,
+     20
+    ],
+    [
+     -65,
+     2
+    ]
+   ],
+   "fill": "#1f4fb0",
+   "width": 4,
+   "color": "#0b1a40"
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": -12,
+   "r": 12,
+   "color": "#ff9a2a",
+   "density": 0.55
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -18,
+     -6
+    ],
+    [
+     -4,
+     -20
+    ],
+    [
+     4,
+     -20
+    ],
+    [
+     18,
+     -6
+    ]
+   ],
+   "fill": "#3a3a42",
+   "width": 2,
+   "color": "#111111"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -4,
+     -20
+    ],
+    [
+     4,
+     -20
+    ],
+    [
+     2,
+     -14
+    ],
+    [
+     -2,
+     -14
+    ]
+   ],
+   "fill": "#ff8a1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -28,
+     -28
+    ],
+    [
+     28,
+     -28
+    ],
+    [
+     24,
+     -21
+    ],
+    [
+     -24,
+     -21
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#0b1a40"
+  },
+  {
+   "type": "text",
+   "text": "WEST ANTARCTIC",
+   "x": 0,
+   "y": 3,
+   "size": 11,
+   "color": "#ffffff",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "RIFT",
+   "x": 0,
+   "y": 18,
+   "size": 16,
+   "color": "#ffffff",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     65,
+     -32
+    ],
+    [
+     51,
+     -32
+    ],
+    [
+     65,
+     -18
+    ]
+   ],
+   "fill": "#f4efe6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     51,
+     -32
+    ],
+    [
+     51,
+     -18
+    ],
+    [
+     65,
+     -18
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#0b1a40"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -65,
+     -32
+    ],
+    [
+     65,
+     -32
+    ],
+    [
+     65,
+     2
+    ],
+    [
+     44,
+     20
+    ],
+    [
+     0,
+     34
+    ],
+    [
+     -44,
+     20
+    ],
+    [
+     -65,
+     2
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#0b1a40"
+  }
+ ]
+}

@@ -1,0 +1,239 @@
+{
+ "name": "flag_doug_was_here",
+ "description": "Doug's little flag: thin grey pole from the ground (0,0) up to (0,-300) with a red ball tip, white cloth flag x 0..200, y -300..-190 with hand-lettered black 'DOUG WAS / HERE'. Never rotate. Anchor = pole base on the ground.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "flag",
+  "doug",
+  "016"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -5,
+     0
+    ],
+    [
+     -5,
+     -300
+    ],
+    [
+     5,
+     -300
+    ],
+    [
+     5,
+     0
+    ]
+   ],
+   "fill": "#8d8d8d",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -2,
+     -6
+    ],
+    [
+     -2,
+     -294
+    ]
+   ],
+   "width": 2,
+   "color": "#c4c4c4"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     -300
+    ],
+    [
+     40,
+     -306
+    ],
+    [
+     80,
+     -300
+    ],
+    [
+     120,
+     -294
+    ],
+    [
+     160,
+     -300
+    ],
+    [
+     200,
+     -304
+    ],
+    [
+     198,
+     -246
+    ],
+    [
+     196,
+     -190
+    ],
+    [
+     160,
+     -186
+    ],
+    [
+     120,
+     -194
+    ],
+    [
+     80,
+     -188
+    ],
+    [
+     40,
+     -184
+    ],
+    [
+     4,
+     -190
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     120,
+     -294
+    ],
+    [
+     160,
+     -300
+    ],
+    [
+     156,
+     -190
+    ],
+    [
+     120,
+     -194
+    ]
+   ],
+   "fill": "#e4e4e4",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     120,
+     -290
+    ],
+    [
+     118,
+     -198
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     -300
+    ],
+    [
+     40,
+     -306
+    ],
+    [
+     80,
+     -300
+    ],
+    [
+     120,
+     -294
+    ],
+    [
+     160,
+     -300
+    ],
+    [
+     200,
+     -304
+    ],
+    [
+     198,
+     -246
+    ],
+    [
+     196,
+     -190
+    ],
+    [
+     160,
+     -186
+    ],
+    [
+     120,
+     -194
+    ],
+    [
+     80,
+     -188
+    ],
+    [
+     40,
+     -184
+    ],
+    [
+     4,
+     -190
+    ]
+   ],
+   "fill": null,
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -306,
+   "fill": "#e0201b",
+   "width": 4,
+   "r": 11
+  },
+  {
+   "type": "text",
+   "text": "DOUG WAS",
+   "x": 101,
+   "y": -268,
+   "size": 36,
+   "color": "#000000",
+   "font": "ComicNeue-Bold",
+   "boil": 0.3
+  },
+  {
+   "type": "text",
+   "text": "HERE",
+   "x": 101,
+   "y": -224,
+   "size": 40,
+   "color": "#000000",
+   "font": "ComicNeue-Bold",
+   "boil": 0.3
+  }
+ ]
+}

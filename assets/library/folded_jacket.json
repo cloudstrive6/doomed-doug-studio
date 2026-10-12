@@ -1,0 +1,25 @@
+{
+ "name": "folded_jacket",
+ "description": "Doug's dark-blue puffer jacket folded into a neat puffy oblong pillow: quilted seams with puffed highlights, lighter top, a sleeve rolled across the top ending in a dark cuff, silver zip with pull. Anchor bottom-centre, ~212x84 (x -106..106, y -84..0).",
+ "anchor": [0, 0],
+ "tags": ["prop", "clothing", "jacket", "survival"],
+ "elements": [
+  {"type": "poly", "points": [[-96, 0], [-106, -14], [-104, -36], [-96, -56], [-80, -66], [0, -70], [80, -66], [96, -56], [104, -36], [106, -14], [96, 0]], "fill": "#2b4a8a", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-100, -40], [-90, -60], [-70, -67], [0, -70], [70, -67], [90, -60], [100, -40], [60, -46], [0, -48], [-60, -46]], "fill": "#4169b4", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-104, -16], [-60, -10], [0, -8], [60, -10], [104, -16], [96, 0], [-96, 0]], "fill": "#1f3767", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "curve", "points": [[-102, -46], [-50, -42], [0, -44], [50, -42], [102, -46]], "width": 3, "color": "#16264a"},
+  {"type": "curve", "points": [[-102, -24], [-50, -20], [0, -22], [50, -20], [102, -24]], "width": 3, "color": "#16264a"},
+  {"type": "curve", "points": [[-80, -56], [-30, -60], [20, -60], [70, -56]], "width": 3, "color": "#5f86cf"},
+  {"type": "curve", "points": [[-80, -34], [-30, -38], [20, -38], [70, -34]], "width": 3, "color": "#5f86cf"},
+  {"type": "curve", "points": [[-80, -14], [-30, -18], [20, -18], [70, -14]], "width": 3, "color": "#5f86cf"},
+  {"type": "poly", "points": [[-70, -64], [-60, -82], [40, -84], [66, -80], [66, -58], [40, -54], [-60, -56]], "fill": "#3a60a8", "width": 4, "color": "#000000", "smooth": true},
+  {"type": "line", "points": [[-40, -80], [-38, -58]], "width": 2, "color": "#16264a"},
+  {"type": "line", "points": [[0, -82], [2, -56]], "width": 2, "color": "#16264a"},
+  {"type": "ellipse", "x": 70, "y": -69, "rx": 12, "ry": 14, "fill": "#1a2d55", "width": 4, "color": "#000000"},
+  {"type": "ellipse", "x": 72, "y": -69, "rx": 5, "ry": 7, "fill": "#0d1830", "width": 0, "color": "#000000", "outline": false},
+  {"type": "line", "points": [[-50, -78], [20, -80]], "width": 2, "color": "#7a9ee0"},
+  {"type": "line", "points": [[-84, -52], [-88, -6]], "width": 3, "color": "#c9ccd2"},
+  {"type": "rect", "x": -92, "y": -30, "w": 8, "h": 12, "fill": "#c9ccd2", "width": 2, "color": "#000000"},
+  {"type": "poly", "points": [[-96, 0], [-106, -14], [-104, -36], [-96, -56], [-80, -66], [0, -70], [80, -66], [96, -56], [104, -36], [106, -14], [96, 0]], "fill": null, "width": 5, "color": "#000000", "smooth": true}
+ ]
+}

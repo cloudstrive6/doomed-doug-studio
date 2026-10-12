@@ -1,0 +1,14 @@
+{
+ "name": "manhattan_outline",
+ "description": "Manhattan island outline in world_map style: flat green #6cbf5a, dark green #1d4a17 outline, long and narrow, standing upright (Battery tip at the bottom, Inwood at the top, Lower East Side bulge bottom right), Central Park as a darker green strip. No labels. Anchor centre, ~190x720 (x -82..104, y -360..360).",
+ "anchor": [0, 0],
+ "tags": ["map", "usa", "new york", "manhattan", "scale"],
+ "elements": [
+  {"type": "poly", "points": [[-46, 360], [-66, 318], [-80, 262], [-82, 200], [-76, 130], [-66, 60], [-54, -10], [-40, -80], [-26, -150], [-10, -214], [6, -266], [22, -310], [38, -342], [50, -360], [66, -356], [76, -336], [70, -306], [62, -270], [60, -232], [66, -196], [80, -160], [86, -120], [78, -80], [70, -30], [64, 20], [60, 70], [64, 120], [74, 170], [94, 210], [104, 240], [86, 268], [54, 300], [18, 334], [-14, 354]], "fill": "#6cbf5a", "width": 0, "color": "#000000", "outline": false},
+  {"type": "poly", "points": [[-34, -150], [-2, -146], [18, -16], [-14, -20]], "fill": "#4f9e40", "width": 3, "color": "#3f7d33"},
+  {"type": "spray", "x": 20, "y": -250, "r": 16, "color": "#5fb04e", "density": 0.3},
+  {"type": "spray", "x": 0, "y": 200, "r": 36, "color": "#7fcb6c", "density": 0.3},
+  {"type": "spray", "x": 10, "y": 60, "r": 30, "color": "#5fb04e", "density": 0.25},
+  {"type": "poly", "points": [[-46, 360], [-66, 318], [-80, 262], [-82, 200], [-76, 130], [-66, 60], [-54, -10], [-40, -80], [-26, -150], [-10, -214], [6, -266], [22, -310], [38, -342], [50, -360], [66, -356], [76, -336], [70, -306], [62, -270], [60, -232], [66, -196], [80, -160], [86, -120], [78, -80], [70, -30], [64, 20], [60, 70], [64, 120], [74, 170], [94, 210], [104, 240], [86, 268], [54, 300], [18, 334], [-14, 354]], "fill": null, "width": 5, "color": "#1d4a17"}
+ ]
+}

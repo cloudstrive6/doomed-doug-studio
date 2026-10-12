@@ -1,0 +1,611 @@
+{
+ "name": "five_story_building",
+ "description": "Plain five-storey concrete block for the 'about five storeys high' scale beat (same family as six_story_building): light concrete, flat roof with parapet, exactly five rows of four blue windows, floor lines. Anchor bottom-centre, 312x500 (x -156..156, y -500..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "building",
+  "scale",
+  "city"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -496,
+   "w": 300,
+   "h": 496,
+   "fill": "#d9d5cc",
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": -90,
+   "y": -250,
+   "r": 70,
+   "color": "#c4bfb4",
+   "density": 0.08
+  },
+  {
+   "type": "spray",
+   "x": 80,
+   "y": -100,
+   "r": 60,
+   "color": "#c4bfb4",
+   "density": 0.08
+  },
+  {
+   "type": "rect",
+   "x": -156,
+   "y": -500,
+   "w": 312,
+   "h": 18,
+   "fill": "#b9b4aa",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -128,
+   "y": -460,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -414
+    ],
+    [
+     -98,
+     -450
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -460,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -54,
+     -414
+    ],
+    [
+     -32,
+     -450
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 4,
+   "y": -460,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     -414
+    ],
+    [
+     34,
+     -450
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 70,
+   "y": -460,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     -414
+    ],
+    [
+     100,
+     -450
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -384
+    ],
+    [
+     150,
+     -384
+    ]
+   ],
+   "width": 2,
+   "color": "#a59f93"
+  },
+  {
+   "type": "rect",
+   "x": -128,
+   "y": -364,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -318
+    ],
+    [
+     -98,
+     -354
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -364,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -54,
+     -318
+    ],
+    [
+     -32,
+     -354
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 4,
+   "y": -364,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     -318
+    ],
+    [
+     34,
+     -354
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 70,
+   "y": -364,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     -318
+    ],
+    [
+     100,
+     -354
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -288
+    ],
+    [
+     150,
+     -288
+    ]
+   ],
+   "width": 2,
+   "color": "#a59f93"
+  },
+  {
+   "type": "rect",
+   "x": -128,
+   "y": -268,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -222
+    ],
+    [
+     -98,
+     -258
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -268,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -54,
+     -222
+    ],
+    [
+     -32,
+     -258
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 4,
+   "y": -268,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     -222
+    ],
+    [
+     34,
+     -258
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 70,
+   "y": -268,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     -222
+    ],
+    [
+     100,
+     -258
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -192
+    ],
+    [
+     150,
+     -192
+    ]
+   ],
+   "width": 2,
+   "color": "#a59f93"
+  },
+  {
+   "type": "rect",
+   "x": -128,
+   "y": -172,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -126
+    ],
+    [
+     -98,
+     -162
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -172,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -54,
+     -126
+    ],
+    [
+     -32,
+     -162
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 4,
+   "y": -172,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     -126
+    ],
+    [
+     34,
+     -162
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 70,
+   "y": -172,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     -126
+    ],
+    [
+     100,
+     -162
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -96
+    ],
+    [
+     150,
+     -96
+    ]
+   ],
+   "width": 2,
+   "color": "#a59f93"
+  },
+  {
+   "type": "rect",
+   "x": -128,
+   "y": -76,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -30
+    ],
+    [
+     -98,
+     -66
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -76,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -54,
+     -30
+    ],
+    [
+     -32,
+     -66
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 4,
+   "y": -76,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     -30
+    ],
+    [
+     34,
+     -66
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 70,
+   "y": -76,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     -30
+    ],
+    [
+     100,
+     -66
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  }
+ ]
+}

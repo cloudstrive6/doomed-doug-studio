@@ -1,0 +1,623 @@
+{
+ "name": "rusty_nail",
+ "description": "Old iron nail left out in the rain (rust simile): horizontal, flat head at the left, point at the right, grey steel with patchy matte orange-brown rust and a few flakes peeling off. Anchor centre, about 380x90.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "rust",
+  "nail",
+  "iron",
+  "016"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -172,
+     -12
+    ],
+    [
+     140,
+     -12
+    ],
+    [
+     190,
+     0
+    ],
+    [
+     140,
+     12
+    ],
+    [
+     -172,
+     12
+    ]
+   ],
+   "fill": "#9aa1a8",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -172,
+     2
+    ],
+    [
+     140,
+     2
+    ],
+    [
+     190,
+     0
+    ],
+    [
+     140,
+     12
+    ],
+    [
+     -172,
+     12
+    ]
+   ],
+   "fill": "#6e757c",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -168,
+     -6
+    ],
+    [
+     136,
+     -6
+    ]
+   ],
+   "width": 3,
+   "color": "#d3d8dc"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -160,
+     -11
+    ],
+    [
+     -163,
+     11
+    ]
+   ],
+   "width": 2,
+   "color": "#5a6168"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -11
+    ],
+    [
+     -153,
+     11
+    ]
+   ],
+   "width": 2,
+   "color": "#5a6168"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -140,
+     -11
+    ],
+    [
+     -143,
+     11
+    ]
+   ],
+   "width": 2,
+   "color": "#5a6168"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -130,
+     -11
+    ],
+    [
+     -133,
+     11
+    ]
+   ],
+   "width": 2,
+   "color": "#5a6168"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -12
+    ],
+    [
+     -70,
+     -12
+    ],
+    [
+     -60,
+     0
+    ],
+    [
+     -74,
+     12
+    ],
+    [
+     -118,
+     12
+    ],
+    [
+     -104,
+     0
+    ]
+   ],
+   "fill": "#b5562a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     -12
+    ],
+    [
+     30,
+     -12
+    ],
+    [
+     42,
+     -2
+    ],
+    [
+     26,
+     12
+    ],
+    [
+     -6,
+     12
+    ],
+    [
+     4,
+     0
+    ]
+   ],
+   "fill": "#b5562a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     70,
+     -12
+    ],
+    [
+     96,
+     -12
+    ],
+    [
+     112,
+     0
+    ],
+    [
+     94,
+     12
+    ],
+    [
+     66,
+     6
+    ]
+   ],
+   "fill": "#b5562a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     144,
+     -10
+    ],
+    [
+     160,
+     -6
+    ],
+    [
+     170,
+     2
+    ],
+    [
+     150,
+     10
+    ]
+   ],
+   "fill": "#b5562a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -96,
+     -8
+    ],
+    [
+     -74,
+     -6
+    ],
+    [
+     -78,
+     6
+    ],
+    [
+     -98,
+     6
+    ]
+   ],
+   "fill": "#8a3f1e",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     6,
+     -6
+    ],
+    [
+     24,
+     -6
+    ],
+    [
+     26,
+     6
+    ],
+    [
+     8,
+     6
+    ]
+   ],
+   "fill": "#8a3f1e",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -88,
+   "y": 0,
+   "r": 18,
+   "color": "#c06a30",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 16,
+   "y": 0,
+   "r": 18,
+   "color": "#c06a30",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 90,
+   "y": 0,
+   "r": 18,
+   "color": "#c06a30",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 150,
+   "y": 0,
+   "r": 18,
+   "color": "#c06a30",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": 4,
+   "r": 18,
+   "color": "#c06a30",
+   "density": 0.25
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -172,
+     -12
+    ],
+    [
+     140,
+     -12
+    ],
+    [
+     190,
+     0
+    ],
+    [
+     140,
+     12
+    ],
+    [
+     -172,
+     12
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -190,
+     -44
+    ],
+    [
+     -172,
+     -40
+    ],
+    [
+     -172,
+     40
+    ],
+    [
+     -190,
+     44
+    ]
+   ],
+   "fill": "#8d949b",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -186,
+     -38
+    ],
+    [
+     -186,
+     36
+    ]
+   ],
+   "width": 2,
+   "color": "#d3d8dc"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -190,
+     8
+    ],
+    [
+     -176,
+     4
+    ],
+    [
+     -174,
+     30
+    ],
+    [
+     -190,
+     38
+    ]
+   ],
+   "fill": "#a8481e",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -182,
+   "y": -20,
+   "r": 10,
+   "color": "#b5562a",
+   "density": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -190,
+     -44
+    ],
+    [
+     -172,
+     -40
+    ],
+    [
+     -172,
+     40
+    ],
+    [
+     -190,
+     44
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     12
+    ],
+    [
+     -84,
+     14
+    ],
+    [
+     -86,
+     24
+    ],
+    [
+     -94,
+     20
+    ]
+   ],
+   "fill": "#a0481e",
+   "width": 2,
+   "color": "#5a2410"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     20,
+     12
+    ],
+    [
+     30,
+     14
+    ],
+    [
+     26,
+     22
+    ]
+   ],
+   "fill": "#a0481e",
+   "width": 2,
+   "color": "#5a2410"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     84,
+     12
+    ],
+    [
+     92,
+     13
+    ],
+    [
+     90,
+     21
+    ],
+    [
+     82,
+     19
+    ]
+   ],
+   "fill": "#a0481e",
+   "width": 2,
+   "color": "#5a2410"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60,
+     34
+    ],
+    [
+     -52,
+     32
+    ],
+    [
+     -54,
+     40
+    ]
+   ],
+   "fill": "#a0481e",
+   "width": 2,
+   "color": "#5a2410"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     44,
+     38
+    ],
+    [
+     52,
+     36
+    ],
+    [
+     50,
+     44
+    ],
+    [
+     42,
+     43
+    ]
+   ],
+   "fill": "#a0481e",
+   "width": 2,
+   "color": "#5a2410"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -120,
+     -14
+    ],
+    [
+     -112,
+     -22
+    ],
+    [
+     -108,
+     -14
+    ]
+   ],
+   "fill": "#a0481e",
+   "width": 2,
+   "color": "#5a2410"
+  }
+ ]
+}

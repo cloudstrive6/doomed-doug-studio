@@ -1,0 +1,370 @@
+{
+ "name": "ice_chunk",
+ "description": "Opaque, solid block of glacier ice that falls on Doug: irregular chunk with white-blue faces #e9f4fb, brighter top face, #bcd8ec shaded right side, a few blue cracks and white highlights, flat bottom. Not outline-only like ice_block. Anchor bottom-centre, about 422x300 (x -210..212, y -300..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "ice",
+  "prop",
+  "glacier",
+  "death",
+  "016"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -210,
+     0
+    ],
+    [
+     -204,
+     -140
+    ],
+    [
+     -170,
+     -232
+    ],
+    [
+     -80,
+     -286
+    ],
+    [
+     40,
+     -300
+    ],
+    [
+     140,
+     -266
+    ],
+    [
+     196,
+     -190
+    ],
+    [
+     212,
+     -100
+    ],
+    [
+     210,
+     0
+    ]
+   ],
+   "fill": "#e9f4fb",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -170,
+     -232
+    ],
+    [
+     -80,
+     -286
+    ],
+    [
+     40,
+     -300
+    ],
+    [
+     140,
+     -266
+    ],
+    [
+     90,
+     -236
+    ],
+    [
+     -60,
+     -250
+    ]
+   ],
+   "fill": "#f8fcff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     90,
+     -236
+    ],
+    [
+     140,
+     -266
+    ],
+    [
+     196,
+     -190
+    ],
+    [
+     212,
+     -100
+    ],
+    [
+     210,
+     0
+    ],
+    [
+     110,
+     0
+    ],
+    [
+     120,
+     -150
+    ]
+   ],
+   "fill": "#bcd8ec",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 160,
+   "y": -110,
+   "r": 40,
+   "color": "#a3c7e2",
+   "density": 0.2
+  },
+  {
+   "type": "spray",
+   "x": -120,
+   "y": -40,
+   "r": 50,
+   "color": "#d3e7f5",
+   "density": 0.15
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -170,
+     -232
+    ],
+    [
+     -60,
+     -250
+    ],
+    [
+     90,
+     -236
+    ],
+    [
+     140,
+     -266
+    ]
+   ],
+   "width": 3,
+   "color": "#7fa9c8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     90,
+     -236
+    ],
+    [
+     120,
+     -150
+    ],
+    [
+     110,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#7fa9c8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -200
+    ],
+    [
+     -96,
+     -150
+    ],
+    [
+     -108,
+     -110
+    ],
+    [
+     -80,
+     -60
+    ]
+   ],
+   "width": 3,
+   "color": "#5f8fb6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -96,
+     -150
+    ],
+    [
+     -64,
+     -140
+    ]
+   ],
+   "width": 2,
+   "color": "#5f8fb6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     -240
+    ],
+    [
+     36,
+     -180
+    ],
+    [
+     24,
+     -130
+    ]
+   ],
+   "width": 3,
+   "color": "#5f8fb6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     160,
+     -200
+    ],
+    [
+     150,
+     -140
+    ],
+    [
+     172,
+     -90
+    ]
+   ],
+   "width": 2,
+   "color": "#6f9cc0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -180,
+     -170
+    ],
+    [
+     -160,
+     -214
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -188,
+     -120
+    ],
+    [
+     -184,
+     -150
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -280
+    ],
+    [
+     30,
+     -290
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -210,
+     0
+    ],
+    [
+     -204,
+     -140
+    ],
+    [
+     -170,
+     -232
+    ],
+    [
+     -80,
+     -286
+    ],
+    [
+     40,
+     -300
+    ],
+    [
+     140,
+     -266
+    ],
+    [
+     196,
+     -190
+    ],
+    [
+     212,
+     -100
+    ],
+    [
+     210,
+     0
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -210,
+     0
+    ],
+    [
+     210,
+     0
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}

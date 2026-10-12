@@ -1,0 +1,18 @@
+{
+ "name": "teaspoon",
+ "description": "Silver teaspoon holding a small pool of pale-blue lake water: horizontal, handle at the left with highlight and shade strokes, egg-shaped bowl at the right (centre about (+110,0), ~140x92) narrowing into the handle, water pool with white glints. Anchor centre, ~360x95 (x -180..178, y -46..46).",
+ "anchor": [0, 0],
+ "tags": ["prop", "kitchen", "spoon", "water", "scale"],
+ "elements": [
+  {"type": "poly", "points": [[-180, -4], [-172, -16], [-140, -20], [-104, -14], [-20, -5], [30, -5], [46, -3], [46, 3], [30, 5], [-20, 5], [-104, 14], [-140, 20], [-172, 16], [-180, 4]], "fill": "#c8ccd2", "width": 4, "color": "#000000", "smooth": true},
+  {"type": "curve", "points": [[-168, -8], [-130, -12], [-60, -4], [30, -2]], "width": 3, "color": "#f4f6f8"},
+  {"type": "curve", "points": [[-160, 10], [-120, 10], [-60, 4]], "width": 3, "color": "#8d939b"},
+  {"type": "poly", "points": [[40, -4], [62, -30], [100, -46], [140, -44], [170, -26], [178, 0], [170, 26], [140, 44], [100, 46], [62, 30], [40, 4]], "fill": "#c8ccd2", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[60, 10], [100, 30], [150, 36], [172, 10], [170, 26], [140, 44], [100, 46], [62, 30]], "fill": "#9aa0a8", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[64, -4], [82, -24], [110, -34], [146, -30], [164, -12], [166, 6], [150, 26], [116, 32], [84, 22], [66, 8]], "fill": "#a8dcf6", "width": 3, "color": "#5a9cc8", "smooth": true},
+  {"type": "poly", "points": [[100, 10], [130, 4], [156, 10], [146, 22], [116, 24]], "fill": "#86c8ee", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "curve", "points": [[86, -16], [106, -26], [130, -26]], "width": 3, "color": "#ffffff"},
+  {"type": "ellipse", "x": 146, "y": -16, "rx": 5, "ry": 3, "fill": "#ffffff", "width": 0, "color": "#000000", "outline": false},
+  {"type": "poly", "points": [[40, -4], [62, -30], [100, -46], [140, -44], [170, -26], [178, 0], [170, 26], [140, 44], [100, 46], [62, 30], [40, 4]], "fill": null, "width": 5, "color": "#000000", "smooth": true}
+ ]
+}

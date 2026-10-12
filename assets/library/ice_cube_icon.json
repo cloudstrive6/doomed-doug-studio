@@ -1,0 +1,207 @@
+{
+ "name": "ice_cube_icon",
+ "description": "ICE ABOVE DOUG meter icon: one pale-blue ice cube in 3/4 view, white highlight on the top face, darker right face, very thick black outline so it reads at 32 px. Anchor centre, about 190x200.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "icon",
+  "meter",
+  "ice",
+  "016"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -88,
+     -52
+    ],
+    [
+     0,
+     -8
+    ],
+    [
+     0,
+     96
+    ],
+    [
+     -88,
+     52
+    ]
+   ],
+   "fill": "#9fd0ee",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -8
+    ],
+    [
+     88,
+     -52
+    ],
+    [
+     88,
+     52
+    ],
+    [
+     0,
+     96
+    ]
+   ],
+   "fill": "#5f9fcf",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -96
+    ],
+    [
+     88,
+     -52
+    ],
+    [
+     0,
+     -8
+    ],
+    [
+     -88,
+     -52
+    ]
+   ],
+   "fill": "#e6f5fd",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     -56
+    ],
+    [
+     -6,
+     -76
+    ],
+    [
+     10,
+     -68
+    ],
+    [
+     -28,
+     -48
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -72,
+     -30
+    ],
+    [
+     -60,
+     -24
+    ],
+    [
+     -60,
+     30
+    ],
+    [
+     -72,
+     24
+    ]
+   ],
+   "fill": "#d4ecfa",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -8
+    ],
+    [
+     0,
+     96
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -88,
+     -52
+    ],
+    [
+     0,
+     -8
+    ],
+    [
+     88,
+     -52
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -96
+    ],
+    [
+     88,
+     -52
+    ],
+    [
+     88,
+     52
+    ],
+    [
+     0,
+     96
+    ],
+    [
+     -88,
+     52
+    ],
+    [
+     -88,
+     -52
+    ]
+   ],
+   "fill": null,
+   "width": 11,
+   "color": "#000000"
+  }
+ ]
+}
