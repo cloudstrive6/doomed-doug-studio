@@ -249,3 +249,33 @@ points straight down and Doug points at it. The Doug death in short01 (137 to 13
    0.143). It will then span about x 525–915, clear of "SEA LEVEL" (right edge about 430), the rope (x 1032) and "A CANYON" (top
    about 425). Then re-render: `keyframes --shots s248` to confirm, and after that `render --final`. The Shorts do not use s248
    (short01 is the Vostok section, which ends at the s244 counter tick), so they do not need re-rendering.
+
+## Post-render, round 2 (re-render after s248 fix)
+
+Inputs: `build/final.mp4` (1920x1080, 914.5 s, rendered 18:45, after the 18:33 shotlist save that has DENMAN GLACIER
+at x 720), `build/qc.json` (`problems: []`), samples f_001-f_030, a frame at t = 825 s from final.mp4 (s248 runs
+821.96-826.10 s per `captions.srt`), `build/thumbnail.png` and `thumbnail_small.png` checked against `metadata.json`, and
+`build/shorts/short01-03.mp4` (re-encoded 18:46-18:49, so I checked them again: frames at 2/12/24/34 s and the end card).
+Nothing was rendered.
+
+### Main video
+- **s248 fixed.** At t = 825 s, "SEA LEVEL" (right edge about x 430) and "DENMAN GLACIER" (about x 527-913) sit side by side
+  with a clear gap between them. Both read in full, and neither touches the rope (x 1032), "A CANYON" or the HUD. Sample
+  f_028 agrees.
+- All 30 samples are otherwise unchanged from round 1. No black, blank, glitched or frozen frames. Chapter captions are correct.
+  The death counter goes 130 to 138 in order. Doug is on-model wherever he appears. No gore (the Blood Falls outflow is an iron
+  stain). Nothing reads as a kids' show.
+
+### Thumbnail
+PASS (unchanged). Archetype B cross-section, one subject per band, red-capped Doug on the rope at the top. Labels are
+outside the stack, alternate sides and use no title words. It reads at 320 px, and the bottom-right timestamp corner is clear.
+It complements "What Dying at Every Depth Under Antarctica Would Be Like" and is not misleading.
+
+### Shorts
+PASS. All three are 1080x1920 (42.6 / 49.5 / 47.8 s). The red titles are readable, the subtitles are large and high-contrast,
+the letterboxed 16:9 drawings are not cut at the sides, and on all three end cards the red arrow points down with Doug
+beside it. The only advisory is the one carried over from round 1: subtitle wrap orphans (for example short01 "under
+Antarctica's ice / for"). Cosmetic, no fix needed.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
