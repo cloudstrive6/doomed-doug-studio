@@ -4,7 +4,27 @@
       "stage": "idea",
       "at": "2026-10-12T00:05:25+00:00",
       "note": "created"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-10-12T00:21:05+00:00",
+      "note": "draft 1"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-10-12T00:28:35+00:00",
+      "note": "draft 2"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-10-12T00:32:16+00:00",
+      "note": "draft 3"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-12T00:33:36+00:00",
+      "note": "CD approved"
     }
   ],
-  "stage": "idea"
+  "stage": "script_approved"
 }
