@@ -266,3 +266,33 @@ glow rule (Silhouette glow sizing, last bullet) covering both points.
 - Minor, s180: a few blue speckles still sit on the fish's black body near the bite (x≈1320-1470). Move the
   three sprays before the silhouettes if you are touching the shot.
 - Round 2 minors (s204 blocky snout, open round 1 minors) remain optional.
+
+---
+
+# Keyframes round 4
+
+Reviewer: art director · 2026-10-12 · scope: fresh full-res renders of s166, s186, s199 (c2ebb1c) and the new
+`rim` option in `studio/paint.py`.
+
+## Verdict: PASS
+
+- **s166** (Aspidorhynchus): a clean, unbroken red rim of about 5 px hugs the whole fish silhouette, including the
+  fins and snout teeth. The dark blue halo sits behind it with no red speckle. It reads as a first-reveal cue, not as blood. The
+  label and HUD are clear.
+- **s186** (Tanystropheus): the rim is continuous from the tail to the head and the neck reads very well. The dark glow
+  stays well above the sand. The "MOSTLY NECK" caption overlaps only the lower glow edge, so it's still legible.
+- **s199** (Nothosaurus): the rim is clean. The dark glow is centred on the Nothosaurus and doesn't touch the coloured
+  Tanystropheus. The red bite arrow and rim share a hue, which ties the cue together. This satisfies the rule 7.7
+  compromise (art bible, underwater glow rule).
+
+`rim` code review (sanity): OK. It is opt-in (`el.get("rim")`), so silhouettes without the key render exactly as
+before. `_silhouette` falls back to `#000000` when `cv.silhouette is True`. The `gr > 0` guard only changes
+`glow_r: 0`/negative cases. The rim offset is applied in screen space after the full transform, and its width is scaled by
+the parent scale, not the asset's own scale, so the edge width stays constant. The `try/finally` resets state.
+Cost: 16 extra asset passes per rimmed silhouette, which is fine for the few reveal shots.
+
+## Minor (optional)
+1. s199: the dark glow's bottom edge (y≈945) just grazes the sand line. Move it up about 20 px if you're touching the shot.
+2. s199: the title card still says "TANYSTROPHEUS" while the new creature is introduced. Fine if the Nothosaurus is
+   named in the narration or the next shot. Otherwise add a small label (director's call).
+3. Earlier optional minors (s180 speckles, s204 snout, round 1 list) remain open.

@@ -98,3 +98,23 @@ Passed:
 - **s180:** the dark blue glow is unchanged. The only red is the bobber.
 - **s204:** neutral dark glow, Doug on-model, no issues.
 - **s281:** the HUD icons are clear, and the faint green glow is fine.
+
+## Round 5: solid red rims on s166, s186, s199 (2026-10-12)
+
+Scope: s166, s186 and s199 at full resolution, with a pixel check for loose red particles and for the frame edges. The thumbnail has not changed since the round 3 PASS.
+
+### Keyframes: VERDICT: PASS
+
+- **s166, s186, s199 (round 4 fixes 1-4): fixed.** Each silhouette now has a crisp, solid 4-5 px `#e0201b` rim that hugs the shape. There is no red spray or cloud. Only 8-17 isolated red pixels remain per frame, all anti-aliasing at the rim and teeth, so nothing reads as fluid. The glow behind each silhouette is a dark water-tone speckle only.
+- **s199:** the red rim plus the graphic arrow to the base of the neck reads as a threat marker, not a blood cloud. It matches "caught by the neck".
+- **Edges:** 0 red pixels in the top 4 and bottom 8 rows of all three shots.
+- The art bible note (line 170) now records the rule.
+- No regressions: Doug is on-model, the HUD is consistent (126/127), the labels are legible and there is no gore.
+
+Whole episode: every keyframe issue from rounds 1-4 is resolved. **Keyframes PASS.**
+
+### Thumbnail: VERDICT: PASS
+
+The thumbnail is unchanged since round 3 (`build/thumbnail.png`, `thumbnail_small.png`) and still passes.
+
+**Overall: VERDICT: PASS** (keyframes and thumbnail). The post-render checks (samples, qc.json, Shorts) are still to do after the build.
