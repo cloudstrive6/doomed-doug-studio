@@ -1,12 +1,22 @@
 {
- "at": "2026-10-13T15:01:51+00:00",
+ "at": "2026-10-13T16:02:04+00:00",
  "issues": [
+  {
+   "key": "queue_low",
+   "severity": "medium",
+   "owner": "auto",
+   "summary": "Queue 3/4 and no production running: started a production run",
+   "detail": "",
+   "route": "dispatch produce.yml",
+   "fixed": true,
+   "extra": {}
+  },
   {
    "key": "related_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "3 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
-   "detail": "This Antarctic Icicle Grows Down and Freezes the Seafloor -> What Dying in Every Natural Trap Would Be Like\nWhen an Avalanche Stops, the Snow Sets Almost Like Concrete -> What Dying in Every Natural Trap Would Be Like\nLa Brea's Mammal Fossils Are Mostly Predators Lured by Bait -> What Dying in Every Natural Trap Would Be Like",
+   "summary": "6 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "detail": "This Antarctic Icicle Grows Down and Freezes the Seafloor -> What Dying in Every Natural Trap Would Be Like\nWhen an Avalanche Stops, the Snow Sets Almost Like Concrete -> What Dying in Every Natural Trap Would Be Like\nLa Brea's Mammal Fossils Are Mostly Predators Lured by Bait -> What Dying in Every Natural Trap Would Be Like\nA Hippo's Red Sweat Isn't Blood, It's Sunscreen -> Why Hippos Get Deadlier the Closer Doug Gets\nHippos Can't Gallop, but at Top Speed They Briefly Fly -> Why Hippos Get Deadlier the Closer Doug Gets\nFrom a Canoe, a Hippo Looks Like a Rock Until It Doesn't -> Why Hippos Get Deadlier the Closer Doug Gets",
    "route": "",
    "fixed": false,
    "extra": {}
