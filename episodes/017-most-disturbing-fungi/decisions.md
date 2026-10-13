@@ -44,3 +44,4 @@ I compared `build/thumbnail.png`, `build/thumbnail_b.png` and both `_small` rend
 - **Condition:** there is no visual-screener report on the thumbnail in this folder yet. Pass A through the visual screener (feed-size check) before the package gate.
 
 THUMBNAIL: A APPROVED (pending visual-screener PASS)
+- 2026-10-13: packaged. Script 3 rounds (ergot date, copied marker, chytrid ratio fixed), art assets 1 round (PASS), keyframes 3 rounds (both screeners PASS), thumbnail A (3x3 grid) PASS. Risks: Latin-name pronunciation unchecked in narration.wav (Gibellula bangbangus, Pseudogymnoascus destructans, asperigimycins); real-victim cards must stay sober; grid thumbnails 4 in a row (014-017), vary next. B thumbnail has banned red arrow (remove before any test).

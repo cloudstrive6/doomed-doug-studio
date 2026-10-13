@@ -29,7 +29,12 @@
       "stage": "art_approved",
       "at": "2026-10-13T17:32:36+00:00",
       "note": "art-director + visual-screener PASS (keyframes 3 rounds); thumbnail A grid chosen, screener PASS"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-10-13T17:37:35+00:00",
+      "note": "all gates passed; narrated 15.3 min"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
