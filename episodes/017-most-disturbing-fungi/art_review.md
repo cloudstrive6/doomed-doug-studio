@@ -111,3 +111,84 @@ spider_costume_fuzz, cicada_nymph, frog, frog_costume_flat), a fit test of `doug
 None blocking. Optional: `bat_white_nose` puff spacing (asset 27).
 
 **PASS.** 54 assets approved as drawn. `spider_costume_fuzz` was fixed by the art director and re-previewed. Director notes 1-5 apply at the keyframe gate.
+
+## Keyframes
+
+Reviewer: art director · 2026-10-13
+Inputs: all 266 keyframes (`build/keyframes/s001-s266.png`), re-rendered from the committed shotlist because `build/contact/` only held a
+one-shot sheet (s001) from a partial `--shots` run. 23 contact sheets (`build/contact/sheet_01-23.png`), full-res checks of every text/counter
+near miss, and an estimate of each label/wordart box against the counter zone (x 1300-1860, y 110-230) and the safe area (x 64-1856).
+
+### What holds
+- **Doug is on-model in all 266 shots.** He has the cap in every frame, including all ghosts, and expressions come only from the fixed set.
+  - The costumes (cicada, fly, spider, bat, frog) sit correctly, with pom-pom/bead eyes and ears beside the cap.
+  - Upside-down Doug works in s076-s078 and s127-s130. The legs end on the ceiling line.
+  - The hard hat (s153-s157) and paper crown (s201-s205) are perched on the cap.
+- **Deaths 140-147 tick on the right beats:**
+  - 140 at s029.
+  - 141 at s056.
+  - 142 at s079.
+  - 143 at s106.
+  - 144 at s131.
+  - 145 at s178.
+  - 146 at s229.
+  - 147 at s261.
+  - Flat costume + cap + ghost with X eyes for the costume deaths. Body + ghost for s178/s229. `doug_fuzz_silhouette` once at s261, with no ghost, as approved in decision 3.
+  - Nothing is gory. The spore plug, banded fly, fuzzed spider and white-nose bat all read as fungus, not wounds.
+- **Zone colours are consistent per item and match the art bible's fungus/mould table:**
+  - Massospora: cream / sage grass.
+  - Fly fungus: green wall + window.
+  - Cave spider: cave greens.
+  - Chytrid: overcast swamp (s106 fixed).
+  - White-nose: slate cave.
+  - Valley Fever: sand.
+  - Ergot: parchment.
+  - Tomb: charcoal.
+  - Cryptococcus: forest.
+  - C. auris: clinical mint `#e4eeec`/`#b9c7c4` throughout s231-s263, including the thermostat room.
+  - Maps and sober cards (s099, s152, s168, s223, s243) are an intentional break.
+- **Earlier director notes 1-5 are all resolved:**
+  - s044/s055 use the white/yellow override.
+  - s103 clears the counter.
+  - s058 has the spider off the title line.
+  - s106 is on the swamp palette.
+  - C. auris is on mint.
+- **Layout variety is good.** The episode cycles through scenes, maps, bar/line charts, counting grids, sober cards, lab benches and title
+  cards. No run of 5 near-identical compositions.
+  - s127-s130 ("Then again. Then again.") is a deliberate build-up beat: each shot adds an element (alarm wiggle, then "!", then "!!"). Allowed.
+
+### Fixed by the art director in `shotlist.json` (position/scale only, plus one wordart shortened; validated and re-rendered)
+1. Wordart that crossed into the DOUG DEATHS box:
+   - s015 "DOESN'T STOP": x 1100 to 960.
+   - s023 "CAN'T INFECT PEOPLE": x 960 to 800.
+   - s024 "DRESSED AS A CICADA": x 960 to 780.
+   - s141 "MORE THAN A DOZEN": x 960 to 820.
+   - s157 "INTO A COUNTY": x 1000 to 900.
+   - s198 "ABOUT AS WELL": x 1340 to 960.
+2. s019: the lime "WING FLICK" sat on the green hill line (lime on green). Moved y 640 to 595, onto cream.
+3. s030: "GETS THE REST" ran through the yellow sun. Moved x 760 to 640.
+4. s036: "BEFORE SUNSET" ran into Doug's head. Moved x 1300 to 1180.
+5. s061, s062: the spider silhouette/fuzz covered the "GUNPOWDER STORE" label ("GUNPOWD..."). Moved the label x 960 to 520.
+6. s088: "MORE THAN HALF" ran to the frame edge (outside the safe area). Moved x 1540 to 1420.
+7. s108: the item title crossed the hanging white-nose bat. Title y 440 to 500, and the bat moved to (1200, 170), clear of the counter zone.
+8. s147: "TEN TIMES" butted against the 1994 bar. Moved to (1520, 560), beside the bar under the counter.
+9. s169: "THE POISON WAS THE BREAD" was 5 words (rule 7.4 allows 1-4). Changed to "POISON WAS THE BREAD" (still echoes the line) and moved x to 860.
+10. s167: twelve hospitals were stamped over the two background cottages, and Doug overlapped the last hospital. Removed the cottages, shifted the hospitals 60 px left and moved Doug to x 1810.
+11. s246: Doug (scale 0.5) stood on the face of the brick wall and read as painted on it. Moved him to the wall's left end at the s256/s257 wall-scene placement (120, 899.2, 0.4).
+12. s249: the cat and horse were stacked on top of each other, and the horse was smaller than the cat. Cat is now (1440, 0.4) and horse (1660, 0.42).
+13. s263: "it is also food" was identical to s262 apart from a 9 px dot. Added an approved `spore_puff_sit` (1380, 620, 0.4) beside the cap on the sill.
+
+### For the director (advisory, not blocking)
+1. s206: the title "CRYPTOCOCCUS GATTII" crosses the left and right tree crowns. Readable thanks to the outline, but cleaner if the outer trees move to x ≤ 120 / ≥ 1800 or the title moves to y 360 (on dark green, below the crowns' widest point).
+2. s242: the "WHO, 2022: CRITICAL PRIORITY" label sits on the hospital's roof sign. Drop the hospital 40 px or move the label to y 300.
+3. s049, s050: Doug's fly wing touches the left frame edge (x ≈ 30). Move Doug to x ≥ 180.
+4. These shots end 0-60 px inside the reserved counter zone (x ≥ 1300) but visibly clear of the box. Nudge left 60 px on the next pass if convenient:
+   - Wordart: s018, s043, s051, s154, s156, s179, s194, s204.
+   - Labels: s032, s063, s166, s195, s241, s242.
+5. s127-s130: optional slow 5% push-in on s130 to sell the third repeat.
+
+### Fixes for the illustrator
+None.
+
+**PASS.** 266 keyframes are on-model, on-palette and legible, with no gore. The 13 shot fixes above were applied by the art director and re-rendered.
+Director advisories 1-5 are polish only.

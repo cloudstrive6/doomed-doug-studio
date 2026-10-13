@@ -29,3 +29,18 @@
 - Series bible: the counter is now 147 and the 017 log row is added.
 
 SCRIPT: APPROVED
+
+## 2026-10-13: thumbnail pick: A (3x3 grid) WINS, B (hero half-cicada, "STILL FLYING") kept as thumbnail_b.json
+I compared `build/thumbnail.png`, `build/thumbnail_b.png` and both `_small` renders.
+1. **Title pairing:** "The Most Disturbing Fungi Scientists Have Ever Found" is a list title with "Most Disturbing" in it. Style bible 2 says a grid goes with "Every / Most Disturbing X" titles, and a hero image goes with "What Dying..." and "How Every X Died". A gives the items and the title gives the frame. B sells one item (Massospora) under a title that promises ten.
+2. **Grammar:** B has a red arrow on the thumbnail, and style bible 2 does not allow that ("No face-cam, no red arrows, no circles"). B is otherwise clean.
+3. **Opening image:** s001 ("Every fungus on this list has taken over something alive,") uses `scene_ref: thumbnail`. A works as the table of contents for that line and leads into tile 1, "Half a Cicada" / "Massospora." B would also lead into item 1, but it does not show "this list".
+4. **Feed size (320x180):** B is bolder, and that is its real advantage. A still reads at feed size: 9 distinct silhouettes on saturated tiles, a white-fuzzed spider and cicada plug, and labels that stay legible. Curiosity: "Sunset Pose", "90 Species", "King's Tomb" and "37°C" are four open loops, while B has one.
+5. **Variety concern (noted, not decisive):** 014, 015 and 016 all shipped grids or strata, so 017 makes four grid-type thumbnails in a row. The last hero was 013. Pairing a hero with a list title would break the format rule just for variety, so instead the next hero-friendly title (T1 "What Dying..." / single-subject) should get archetype C.
+6. **Wording:** A's labels (Half a Cicada, Sunset Pose, Cave Spider, 90 Species, White Nose, St. Anthony's Fire, King's Tomb, Island Trees, 37°C) and B's "STILL FLYING" contain no title or alt-title words (checked against the metadata ban list). None of them appear in `data/competitors` or `style/`. They are our own wording and come from our script's beats. "St. Anthony's Fire" is the historical name for ergotism, not a competitor label.
+7. **Policy:** both are clean. Fuzz is soft and cartoon-style, there is no gore, no anatomy, and the tone is adult. Doug does not appear in A, and in B he is a tiny scale figure.
+- No file swap: `thumbnail.json` already holds A, and `studio thumbnail` was not re-run.
+- B stays on file as the YouTube Test & Compare variant. **Before any test, remove the red arrow** (graphic designer). The chalky plug reads without it.
+- **Condition:** there is no visual-screener report on the thumbnail in this folder yet. Pass A through the visual screener (feed-size check) before the package gate.
+
+THUMBNAIL: A APPROVED (pending visual-screener PASS)

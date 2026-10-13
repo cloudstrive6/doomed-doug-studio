@@ -2420,7 +2420,7 @@
      {
       "type": "wordart",
       "text": "DOESN'T STOP",
-      "x": 1100,
+      "x": 960,
       "y": 230,
       "size": 96,
       "boil": 0,
@@ -3174,7 +3174,7 @@
       "type": "wordart",
       "text": "WING FLICK",
       "x": 760,
-      "y": 640,
+      "y": 595,
       "size": 90,
       "boil": 0,
       "appear": 0.4
@@ -3769,7 +3769,7 @@
      {
       "type": "wordart",
       "text": "CAN'T INFECT PEOPLE",
-      "x": 960,
+      "x": 800,
       "y": 230,
       "size": 90,
       "boil": 0,
@@ -3918,7 +3918,7 @@
      {
       "type": "wordart",
       "text": "DRESSED AS A CICADA",
-      "x": 960,
+      "x": 780,
       "y": 230,
       "size": 90,
       "boil": 0,
@@ -5047,7 +5047,7 @@
      {
       "type": "wordart",
       "text": "GETS THE REST",
-      "x": 760,
+      "x": 640,
       "y": 200,
       "size": 84,
       "boil": 0,
@@ -6050,7 +6050,7 @@
      {
       "type": "wordart",
       "text": "BEFORE SUNSET",
-      "x": 1300,
+      "x": 1180,
       "y": 820,
       "size": 90,
       "boil": 0,
@@ -10175,7 +10175,7 @@
      {
       "type": "label",
       "text": "GUNPOWDER STORE",
-      "x": 960,
+      "x": 520,
       "y": 330,
       "size": 36,
       "bold": true,
@@ -10356,7 +10356,7 @@
      {
       "type": "label",
       "text": "GUNPOWDER STORE",
-      "x": 960,
+      "x": 520,
       "y": 330,
       "size": 36,
       "bold": true,
@@ -15162,7 +15162,7 @@
      {
       "type": "wordart",
       "text": "MORE THAN HALF",
-      "x": 1540,
+      "x": 1420,
       "y": 420,
       "size": 80,
       "boil": 0,
@@ -19850,7 +19850,7 @@
       "type": "text",
       "text": "WHITE-NOSE SYNDROME",
       "x": 960,
-      "y": 440,
+      "y": 500,
       "size": 130,
       "color": "#e0201b",
       "bold": true,
@@ -19862,8 +19862,8 @@
      {
       "type": "asset",
       "name": "bat_white_nose",
-      "x": 1300,
-      "y": 190,
+      "x": 1200,
+      "y": 170,
       "scale": 0.6,
       "appear": 0.3
      },
@@ -27122,7 +27122,7 @@
      {
       "type": "wordart",
       "text": "MORE THAN A DOZEN",
-      "x": 960,
+      "x": 820,
       "y": 200,
       "size": 84,
       "boil": 0,
@@ -28126,8 +28126,8 @@
      {
       "type": "wordart",
       "text": "TEN TIMES",
-      "x": 1500,
-      "y": 400,
+      "x": 1520,
+      "y": 560,
       "size": 100,
       "boil": 0,
       "appear": 0.6
@@ -29925,7 +29925,7 @@
      {
       "type": "wordart",
       "text": "INTO A COUNTY",
-      "x": 1000,
+      "x": 900,
       "y": 200,
       "size": 90,
       "boil": 0,
@@ -31475,20 +31475,6 @@
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "medieval_cottage",
-      "x": 330,
-      "y": 660,
-      "scale": 0.7
-     },
-     {
-      "type": "asset",
-      "name": "medieval_cottage",
-      "x": 1560,
-      "y": 650,
-      "scale": 0.6
-     },
-     {
       "type": "rect",
       "x": 0,
       "y": 640,
@@ -31534,7 +31520,7 @@
      {
       "type": "asset",
       "name": "stone_hospital_medieval",
-      "x": 260,
+      "x": 200,
       "y": 600,
       "scale": 0.32,
       "appear": 0.1
@@ -31542,7 +31528,7 @@
      {
       "type": "asset",
       "name": "stone_hospital_medieval",
-      "x": 540,
+      "x": 480,
       "y": 600,
       "scale": 0.32,
       "appear": 0.15
@@ -31550,7 +31536,7 @@
      {
       "type": "asset",
       "name": "stone_hospital_medieval",
-      "x": 820,
+      "x": 760,
       "y": 600,
       "scale": 0.32,
       "appear": 0.2
@@ -31558,7 +31544,7 @@
      {
       "type": "asset",
       "name": "stone_hospital_medieval",
-      "x": 1100,
+      "x": 1040,
       "y": 600,
       "scale": 0.32,
       "appear": 0.25
@@ -31566,7 +31552,7 @@
      {
       "type": "asset",
       "name": "stone_hospital_medieval",
-      "x": 1380,
+      "x": 1320,
       "y": 600,
       "scale": 0.32,
       "appear": 0.3
@@ -31574,7 +31560,7 @@
      {
       "type": "asset",
       "name": "stone_hospital_medieval",
-      "x": 1660,
+      "x": 1600,
       "y": 600,
       "scale": 0.32,
       "appear": 0.35
@@ -31582,7 +31568,7 @@
      {
       "type": "asset",
       "name": "stone_hospital_medieval",
-      "x": 260,
+      "x": 200,
       "y": 920,
       "scale": 0.32,
       "appear": 0.4
@@ -31590,7 +31576,7 @@
      {
       "type": "asset",
       "name": "stone_hospital_medieval",
-      "x": 540,
+      "x": 480,
       "y": 920,
       "scale": 0.32,
       "appear": 0.45
@@ -31598,7 +31584,7 @@
      {
       "type": "asset",
       "name": "stone_hospital_medieval",
-      "x": 820,
+      "x": 760,
       "y": 920,
       "scale": 0.32,
       "appear": 0.5
@@ -31606,7 +31592,7 @@
      {
       "type": "asset",
       "name": "stone_hospital_medieval",
-      "x": 1100,
+      "x": 1040,
       "y": 920,
       "scale": 0.32,
       "appear": 0.55
@@ -31614,7 +31600,7 @@
      {
       "type": "asset",
       "name": "stone_hospital_medieval",
-      "x": 1380,
+      "x": 1320,
       "y": 920,
       "scale": 0.32,
       "appear": 0.6
@@ -31622,7 +31608,7 @@
      {
       "type": "asset",
       "name": "stone_hospital_medieval",
-      "x": 1660,
+      "x": 1600,
       "y": 920,
       "scale": 0.32,
       "appear": 0.65
@@ -31640,7 +31626,7 @@
      },
      {
       "type": "doug",
-      "x": 1760,
+      "x": 1810,
       "y": 884.0,
       "scale": 0.5,
       "pose": "stand",
@@ -31829,8 +31815,8 @@
      },
      {
       "type": "wordart",
-      "text": "THE POISON WAS THE BREAD",
-      "x": 960,
+      "text": "POISON WAS THE BREAD",
+      "x": 860,
       "y": 260,
       "size": 76,
       "boil": 0,
@@ -35796,7 +35782,7 @@
      {
       "type": "wordart",
       "text": "ABOUT AS WELL",
-      "x": 1340,
+      "x": 960,
       "y": 220,
       "size": 84,
       "boil": 0,
@@ -46021,9 +46007,9 @@
      },
      {
       "type": "doug",
-      "x": 760,
-      "y": 824.0,
-      "scale": 0.5,
+      "x": 120,
+      "y": 899.2,
+      "scale": 0.4,
       "pose": "stand",
       "expression": "smirk",
       "facing": "right"
@@ -47472,16 +47458,16 @@
      {
       "type": "asset",
       "name": "cat",
-      "x": 1600,
+      "x": 1440,
       "y": 900,
-      "scale": 0.5
+      "scale": 0.4
      },
      {
       "type": "asset",
       "name": "horse",
-      "x": 1700,
+      "x": 1660,
       "y": 900,
-      "scale": 0.3,
+      "scale": 0.42,
       "appear": 0.2
      },
      {
@@ -51636,6 +51622,14 @@
       "x": 1490,
       "y": 590,
       "scale": 0.55
+     },
+     {
+      "type": "asset",
+      "name": "spore_puff_sit",
+      "x": 1380,
+      "y": 620,
+      "scale": 0.4,
+      "appear": 0.3
      },
      {
       "type": "spray",
