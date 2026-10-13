@@ -45,3 +45,8 @@ I compared `build/thumbnail.png`, `build/thumbnail_b.png` and both `_small` rend
 
 THUMBNAIL: A APPROVED (pending visual-screener PASS)
 - 2026-10-13: packaged. Script 3 rounds (ergot date, copied marker, chytrid ratio fixed), art assets 1 round (PASS), keyframes 3 rounds (both screeners PASS), thumbnail A (3x3 grid) PASS. Risks: Latin-name pronunciation unchecked in narration.wav (Gibellula bangbangus, Pseudogymnoascus destructans, asperigimycins); real-victim cards must stay sober; grid thumbnails 4 in a row (014-017), vary next. B thumbnail has banned red arrow (remove before any test).
+
+## 2026-10-13: final review round 1 (showrunner)
+- QC: no problems in qc.json. Visual screener: VERDICT (main): FAIL (sun arc rendered as hollow outline in s031-s034, s036-s040, s043, s051-s054); VERDICT (shorts): PASS. See reviews/visual_final.md.
+- Director replaced the arcs with filled half-disc polys + horizon (shotlist only), nudged the s232 microscope. Shotlist validates. Re-render of `final` requested via .rerender; creative-director package approval deferred to round 2.
+FINAL: REJECTED round 1: sun-arc render defect, shotlist fixed, awaiting re-render
