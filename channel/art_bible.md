@@ -99,6 +99,20 @@ the ice reading as ice, not ocean.
 Small "move between items" map: Antarctica on `#3a9ad9` with a red ring marker. ICE meter: a size-28 `label` at (1590, 238) with `ice_cube_icon` at
 0.16 to its left, monotonic. Tiny carried props that have printed stickers (the suitcase) drop the stickers below scale 0.15: their text renders under 1 px (016 s202).
 
+**Fungus / mould environments (from 017; reuse for any fungus, spore or mould episode).** Spores and fungus are always soft
+cartoon fuzz: off-white `#f6f6f0` with light-grey speckle (`#d8d8d0` / `#b8b8b0`) and a black scalloped outline. Never brown, red or
+dark specks inside white fuzz, because at phone size they read as dried blood or rot (017 `spider_costume_fuzz`, fixed to `#a8a8a0`).
+| Place | Colours |
+|---|---|
+| Opener / meadow | cream sky `#f4f1dc` over mould-green `#c9d6a3` |
+| Wall + window at night | forest-green wall `#2f5a3a`, dusk glass `#f2a24a`, night glass `#1b2f5a` |
+| Fungal cave (green) | `#26402e` (spider) · stone cave (grey) `#5a5f66` (bats) · crypt `#3a3a44` |
+| Swamp | overcast sky `#b9c4a8` over swamp olive `#5d6b45` / `#6b7a4a`; keep every shot of the item on it, death beats included |
+| Dry hills | `#f6dcae` / `#f2c77a` · parchment `#e8dcc0` with rye `#d9b45a` · deep forest `#1f3a2a` |
+| Clinical / hospital (boss) | cold pale mint `#e4eeec`, floor `#b9c7c4`. Never cream: three cream items (opener, ergot, boss) collapse into one look |
+**WordArt override on green or olive grounds** (any of the above greens, light or dark): `"top": "#ffffff", "bottom": "#ffe24a",
+"outline": "#1a1a1a"`. The default yellow-to-green gradient stays banned on green.
+
 ## Two-tier rendering (style bible 4.3)
 - **Doug and humans: crude** MS Paint stick men: uniform thin lines (Doug's rig: 5 at scale 1 ≈ 4–5 px), big round
   head with grey shading crescent, oval eyes, meme faces.
@@ -116,6 +130,16 @@ Small "move between items" map: Antarctica on `#3a9ad9` with a red ring marker. 
   beside a slope (004 s146: the summit flag floated about 80 px above the slope).
 - **Eaten-whole deaths (from 008)**: when the predator swallows Doug, the death shot may show just the `*_flat` costume, but the
   red cap (`doug_cap`) must stay in frame (floating, on the ground, or on the predator). Never a death beat with no cap (008 s059, s077).
+- **Upside-down Doug (from 017, ceiling walks, hanging)**: a `group` with `rotate: 180` holding the `doug` and the worn costume at
+  local (0,0) with the same scale. The cap hangs below the head, and that reads as intended. Only use it with costumes that have no
+  text and nothing gravity-dependent (`spider_costume`, `bat_costume`). Do not use it for death beats (those stay `on_back`).
+- **Hats perched on the cap (from 017: `hard_hat`, `paper_crown`)**: these are worn props with anchor = hips, listed after Doug at the same
+  x/y/scale/flip. The rim sits at y -294, so the cap dome and brim stay visible below. They fit upright poses only (stand, point, shrug,
+  thumbs_up, hands_hips, walk). Never use them with `sit`, `on_back` or a rotated group.
+- **Fuzz-over death (from 017, reusable `parasites` death)**: `doug_fuzz_silhouette` replaces the `doug` element at the same x/y/scale.
+  It is Doug's `stand` silhouette in white fungal fuzz with a black outline, the exact cap, and no face. Like the amber "preserved" variant,
+  the frozen overgrown body *is* the death image. So it has no X eyes and no ghost, the counter ticks and the cap stays in frame. Use it only for
+  overgrowth deaths (fungus, mould, coral, lichen), log it in `decisions.md`, and use it at most once per episode.
 - **Death pose (from 003)**: `pose: "on_back"`, `expression: "dead"`, never `rotate`. Body flat, head near-upright
   facing the sky, red cap on (or `gear: ["cap_off"]` for the cap knocked off beside his head). `lie` + `rotate: -90`
   is retired for new shots: it turns the cap into a red half-head and the body into a fan of whiskers. Only
