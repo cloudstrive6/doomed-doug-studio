@@ -24,7 +24,12 @@
       "stage": "shotlisted",
       "at": "2026-10-13T16:55:29+00:00",
       "note": "266 shots (narration = script, 2922 words), 10 chapters, Doug in 96% of shots, deaths 140-147 ticked; 3 Shorts (chytrid s094-s102, Northridge s143-s151, C. auris wall s250-s257); 55 new assets requested in asset_requests.md; thumbnail.json pending from graphic designer"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-10-13T17:32:36+00:00",
+      "note": "art-director + visual-screener PASS (keyframes 3 rounds); thumbnail A grid chosen, screener PASS"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

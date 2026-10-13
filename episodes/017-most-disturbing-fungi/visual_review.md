@@ -2,53 +2,78 @@
 
 ## Round 1: keyframes (2026-10-13)
 
-Scope: all 266 keyframes (`build/keyframes/s001–s266.png`, contact sheets `build/contact/sheet_01–23.png`, full-res crops for anything borderline). Note: `python -m studio keyframes` was re-run by another agent while this review was in progress. Everything here is from the finished render (17:17 UTC).
+The verdict was FAIL with 23 fixes: text colliding with the counter, drawings or the frame edge; pictures that didn't match the narration (s061, s099, s192, s097); a red "menace" stipple that read as blood (s047, s061, s257); the porpoise drawn as a fish (s210/s211); a horse drawn on top of a cat (s249); huts behind the hospital grid (s167); and an unreadable footnote (s234). Round 2 below checks each one.
 
-### What's working
-- Death counter continuity is correct: 139 at the start, +1 on each of the 8 deaths (s029, s056, s079, s106, s131, s178, s229, s261), 147 at s264. The "Doug is fine" beats (s154, s204) leave it unchanged.
-- Doug stays on-model throughout: red cap and white head, readable in every costume (cicada, fly, spider, frog, bat). Costume "eye" baubles don't hide the cap. Doug is missing only where he should be: the s001 cold-open grid, the sober cards, and s262/s263, where the cap-only gag is deliberate.
-- The real-victim cards (s099, s152, s168, s192, s223, s243) are sober: flat dark or plain background, white text, no Doug, no counter, no jokes. That's the right tone.
-- Deaths are all cartoon: X-eyes, ghost, empty costume. No blood, organs or dismemberment. Nothing reads as a kids' show.
-- Creatures are recognisable: cicada, nymph, house fly, orb-weaver, frog, bat, ergot spur, rye, tomb, Douglas fir. Maps read clearly.
-- Variety is fine. The repeated compositions (s127–s130 alarm, s262–s263 cap) are deliberate rhythm gags, not stale runs.
+## Round 2: keyframes + thumbnail (2026-10-13)
+
+Scope: all 266 re-rendered keyframes (contact sheets `build/contact/sheet_01–23.png`) plus full-res crops of every borderline shot. Also checked `build/thumbnail.png`, `build/thumbnail_small.png` and `thumbnail.json` (3x3 grid). I re-rendered nothing.
+
+### Round 1 fixes: verification
+| # | Shot | Status |
+|---|---|---|
+| 1 | s015 DOESN'T STOP vs counter | Fixed. About 50 px horizontal clearance. |
+| 2 | s023 CAN'T INFECT PEOPLE | Fixed. About 60 px clear. |
+| 3 | s024 DRESSED AS A CICADA | Fixed. |
+| 4 | s141 MORE THAN A DOZEN | Fixed. About 90 px clear. |
+| 5 | s198 ABOUT AS WELL | Fixed. |
+| 6 | s157 INTO A COUNTY | Fixed. About 110 px clear. |
+| 7 | s036 BEFORE SUNSET vs Doug | Fixed. About 75 px gap to the fly-eye bauble. |
+| 8 | s030 GETS THE REST vs sun | Fixed. The sun now sits beside the text. |
+| 9 | s088 MORE THAN HALF edge | Fixed. Now inside title-safe. |
+| 10 | s061/s062 GUNPOWDER STORE label | Fixed. Moved left, fully readable. |
+| 11 | s108 WHITE-NOSE SYNDROME vs bat | Fixed. |
+| 12 | s125 ENDANGERED vs bat | Fixed. |
+| 13 | s206 CRYPTOCOCCUS GATTII vs tree | Fixed. |
+| 14 | s242 WHO label vs red cross | Fixed. The building moved down; the cross is clear. |
+| 15 | s061 white spider | Fixed. The lit spider is the white, fungus-coated asset. |
+| 16 | s099 card text | Fixed. Reads "GREATEST RECORDED LOSS OF BIODIVERSITY TO A DISEASE", sober. |
+| 17 | s186/s192 researcher card | Fixed. s186 has the hedged card "ACCORDING TO LATER ACCOUNTS: 10 OF ~12 DIED". s192 shows spores going to the lungs, with LUNG INFECTIONS and WEAK IMMUNE SYSTEMS. |
+| 18 | s097 crossed-out ratio | Fixed. 4 of 20 crossed out. |
+| 19 | s047/s061/s257 red stipple | Fixed. Now a dark purple haze; nothing reads as blood. |
+| 20 | s210/s211 porpoise, ferret | Fixed. A ferret was added and the porpoise has a dorsal fin, flukes and a blunt snout. See advisory A3. |
+| 21 | s249 cat/horse tangle | Fixed. Cat and horse are now separate. |
+| 22 | s167 huts under hospitals | Fixed. Plain ground. |
+| 23 | s234 footnote | Fixed. Large "FOOTNOTE: NEW YEAST" with an arrow. |
+
+### New scan: what's still good
+- The death counter runs 139 to 147, +1 on each death shot (s029, s056, s079, s106, s131, s178, s229, s261). The two "Doug is fine" beats (s154, s204) don't change it.
+- Doug is on-model in every costume, with the red cap readable everywhere. The cap-only gag at s262/s263 is intentional.
+- The sober cards (s099, s152, s168, s186, s223, s243) have a plain background, white text, no Doug and no counter.
+- No gore. Every death is cartoon (X-eyes, ghost, fuzz-covered Doug at s261). Nothing reads as kids' TV.
+- No stale runs. s127–s130 is the deliberate alarm-clock rhythm gag.
+- The cold open (s001) matches the thumbnail grid, so the opening image is consistent.
 
 ### Fixes required
 
-**Text colliding with the death counter (director: composition)**
-1. **s015**: "DOESN'T STOP" runs under the DOUG DEATHS box. Move the title left or down (top-left at y ≈ 140, or under the cicada) so it clears the counter by at least 20 px.
-2. **s023**: "CAN'T INFECT PEOPLE" overlaps the counter. Shrink it or move it down to about y ≈ 200, centred left of x ≈ 1050.
-3. **s024**: "DRESSED AS A CICADA" overlaps the counter. Same fix: move it down or left, or reduce the size.
-4. **s141**: "MORE THAN A DOZEN" overlaps the counter ("DOZEN" is cut by the box). Move it to the left half or below the hair strip.
-5. **s198**: "ABOUT AS WELL" overlaps the counter. Move it above the bars on the left, or down between the bar tops and the counter.
-6. **s157**: "INTO A COUNTY" touches the counter edge (about 0 px gap). Shift it left or down for at least 20 px clearance.
-
-**Text colliding with drawings or the frame edge (director: composition)**
-7. **s036**: "BEFORE SUNSET" runs into Doug's head (the final T is hidden). Move Doug further right or down, or move the text left.
-8. **s030**: "GETS THE REST" overlaps the yellow sun. Move the sun clear of the text or drop the text below it.
-9. **s088**: "MORE THAN HALF" ends about 20 px from the right frame edge, outside title-safe. Pull it in so it sits at least 96 px from the edge (e.g. centre it over the bars).
-10. **s061 / s062**: the "GUNPOWDER STORE" label is cut off by the spider ("GUNPOWD…", "GUNPOWDER ST…"). Move the label clear of the spider (e.g. under the ceiling line on the left).
-11. **s108**: "WHITE-NOSE SYNDROME" runs into the hanging bat's wing tip. Move the bat left or up, or lower the title.
-12. **s125**: "ENDANGERED" overlaps the bottom of the hanging bat. Lower the title by about 60 px or move the bat right.
-13. **s206**: "CRYPTOCOCCUS GATTII" runs into the right-hand fir tree. Shrink the title or move that tree out of the title band.
-14. **s242**: the "WHO, 2022: CRITICAL PRIORITY" label covers the hospital's roof red-cross sign. Move the label above the roof line or to the left of the building.
-
-**Picture doesn't match narration (director)**
-15. **s061**: narration is "a spider coated in white fungus", but the lit spider is a black silhouette with a red halo. Use the white fungus-coated spider asset from s062 here, lit by the beam.
-16. **s099**: narration is "greatest recorded loss of biodiversity caused by a disease", but the card repeats s097's "90 SPECIES, PRESUMED EXTINCT". Change the card text to "GREATEST RECORDED LOSS OF BIODIVERSITY TO A DISEASE" and keep the sober style.
-17. **s192**: the sober card "10 OF 12 RESEARCHERS DIED" sits under narration about lung infections in weak immune systems, and it states as fact a claim the script hedges ("according to later accounts"). Move this card to s186, worded "ACCORDING TO LATER ACCOUNTS: 10 OF ~12 DIED". Give s192 a lung or spore visual instead (e.g. spores drifting toward a pair of lungs, or a "WEAK IMMUNE SYSTEMS" label).
-18. **s097**: 8 of 20 frog silhouettes are crossed out (40%), but 90 of 501 is about 18%. Cross out 4 of 20 (or 2 of 10). As drawn, the visual overstates the stat.
-
-**Possible gore read (art director: style)**
-19. **s047, s061, s257**: the "menace" effect is red speckle sprayed around a black silhouette. On s257 (black blob on the brick wall) it reads as blood spatter. Swap the red stipple for a dark grey or purple glow, or the plain warning-icon treatment, everywhere this effect is used.
-
-**Drawing / clarity (illustrator / director)**
-20. **s210 / s211** (illustrator): the "porpoise" is drawn as a fish (salmon shape), and the narration also names ferrets, which aren't shown. Replace the fish with a porpoise (dorsal fin, tail flukes, blunt snout) and add a ferret (or at least fix the porpoise).
-21. **s249** (director): the horse is drawn on top of the cat, making a tangled shape. Space them apart (cat left, horse right, about 150 px gap).
-22. **s167** (director): the 370-hospitals grid is pasted over the village huts, so the buildings overlap. Drop the huts from this shot (plain ground) so the grid reads cleanly.
-23. **s234** (director): the "footnote: new yeast" text on the paper is about 18 px tall and unreadable at feed size. Make it a large label (≥ 36 px), or circle the footnote line with a separate "FOOTNOTE" label.
+1. **s176** (director, composition): the "HALF" label box overlaps the brim of Doug's cap. The loaf also looks whole, so the label isn't clearly attached to anything. Move the label so it sits centred above the loaf, at least 20 px clear of the cap. Better still, show a visibly half-eaten loaf (illustrator: a bite-cut variant of the loaf asset, if one exists).
+2. **Thumbnail, "White Nose" tile (row 2, centre)** (graphic designer): the bat's head, which carries the white-nose fuzz and is the whole point of the tile, is cut off by the tile's bottom border. At 320x180 the bat reads as a brown seed pod or cocoon. Scale the bat down to about 75% and move it up so the head, ears and white muzzle sit fully inside the tile with about 15 px margin. If possible, use a wings-spread or face-forward bat pose so it reads as a bat at feed size. Leave the other 8 tiles alone: they read well at small size and the labels are legible.
 
 ### Advisory (not blocking)
-- s007: the red arrow sweeping in from the Atlantic onto the eastern US implies something arriving from overseas, which isn't what the line is about (years underground). Consider dropping it or swapping in a "brood region" circle.
-- s002: "STARTED ON PEOPLE" has no person in shot. A small "PEOPLE" silhouette would make the line land.
+- A1. s042: the grass-blade tip pokes into the bottom of the "PARASITE DAYS" label. Nudge the label up about 20 px.
+- A2. s067: the "DIM, DAMP" label hangs under a measurement-style dashed line beneath the spider, which looks like a size callout. Drop the dashed line, or move the label away from the spider.
+- A3. s210/s211: the porpoise has a whale-style blowhole spout, which makes it look like a small whale. Removing the spout would make it read as a porpoise.
+- A4. s183: the narration caption on the contact sheet renders "Kraków" as "Krak□w" (missing glyph in the caption font). The in-frame label is correct. Check that the subtitle/Shorts caption font has the ó glyph before the final render.
+- A5. Carried over from round 1: s007's red arrow arriving from the Atlantic still implies something coming from overseas. s002 still has no person for "STARTED ON PEOPLE".
 
 VERDICT: FAIL
+
+## Round 3: narrow re-check (2026-10-13)
+
+Scope: `build/keyframes/s176.png`, `s210.png`, `s211.png` and `s242.png`, plus `build/thumbnail.png` and `build/thumbnail_small.png` (with full-res and 4x crops of the White Nose tile). I re-rendered nothing.
+
+### Round 2 fixes: verification
+| # | Item | Status |
+|---|---|---|
+| 1 | s176 HALF label vs cap | Fixed. The label now sits above the loaf, about 45 px right of the cap brim tip, with no overlap. The loaf has a visible bite cut and crumbs below it, so "ate half of it" reads at a glance. |
+| 2 | Thumbnail White Nose tile | Fixed. The bat (scale 0.36, hanging from a dark ceiling bar) fits fully inside the tile: ears and head are about 25 px above the bottom border at full res. At 320x180 it reads as a bat hanging upside down (folded wings, pointed ears), with the white fuzz dots visible. That's the classic hibernating pose, which suits white-nose syndrome. The other 8 tiles are unchanged and still read well. |
+
+### Spot checks
+- s210/s211: ferret, porpoise (dorsal fin, flukes), llama and horse are all clear. Each animal has its own question mark. On s211, ANIMALS FIRST and THEN PEOPLE are legible and clear of the drawings. The arrow points to Doug and the counter stays at 145. Advisory A3 (the porpoise's blowhole spout) still stands but doesn't block.
+- s242: the CDC and WHO labels stack cleanly, with about 40 px clear of the red-cross sign. The counter is at 146, Doug is on-model, and the picture matches the narration.
+
+### Advisory (not blocking)
+- A6. s176: the bitten loaf floats at Doug's head height with no hand or surface under it. It reads fine in this style. If the director wants it tidier, drop it onto a crate or put it in Doug's hand.
+- A7. Thumbnail White Nose tile: the white fuzz sits on the wing edges and throat more than on the muzzle itself. Putting a small white tuft right on the face would sell "white nose" better. Optional.
+- Earlier advisories A1–A5 are carried forward unchanged.
+
+VERDICT: PASS

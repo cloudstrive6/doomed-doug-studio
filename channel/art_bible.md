@@ -210,6 +210,9 @@ reveals · real photos only public-domain/licensed with a 4 px black frame.
   the shape), with a dark water-tone `spray` glow (e.g. `#1b4f86`, `#0f3d3b`) before it, kept inside the frame and off
   the sea floor. Repeat silhouettes and action beats (a bite in progress) use the dark glow only (015 s166, s186, s199;
   s180, s204).
+- On brick, flesh-toned or any red/brown surface, and around a small dead body, red speckle reads as blood spatter
+  (017 s257, s047). Use a dull purple `#5e4670` glow there instead (`"glow": "#5e4670"`). The red glow stays for
+  first reveals on neutral or dark-cool grounds only.
 
 ## Text
 Font: Arimo (bundled, Arial look-alike = classic MS Paint text). `label` boxes for depths, names and numbers.

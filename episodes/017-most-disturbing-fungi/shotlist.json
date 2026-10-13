@@ -32600,14 +32600,37 @@
      {
       "type": "asset",
       "name": "bread_loaf",
-      "x": 760,
+      "x": 860,
       "y": 760,
       "scale": 0.45,
       "appear": 0.1
      },
      {
       "type": "circle",
-      "x": 736,
+      "x": 888,
+      "y": 731,
+      "r": 25,
+      "fill": "#f3e2b8",
+      "color": "#a8763a",
+      "width": 3,
+      "boil": 0.3,
+      "appear": 0.1
+     },
+     {
+      "type": "circle",
+      "x": 901,
+      "y": 731,
+      "r": 27,
+      "fill": "#d9b45a",
+      "color": "#d9b45a",
+      "width": 0,
+      "outline": false,
+      "boil": 0,
+      "appear": 0.1
+     },
+     {
+      "type": "circle",
+      "x": 836,
       "y": 900,
       "r": 5,
       "fill": "#c49a3a",
@@ -32617,7 +32640,7 @@
      },
      {
       "type": "circle",
-      "x": 703,
+      "x": 803,
       "y": 916,
       "r": 5,
       "fill": "#c49a3a",
@@ -32627,7 +32650,7 @@
      },
      {
       "type": "circle",
-      "x": 722,
+      "x": 822,
       "y": 872,
       "r": 5,
       "fill": "#c49a3a",
@@ -32637,7 +32660,7 @@
      },
      {
       "type": "circle",
-      "x": 740,
+      "x": 840,
       "y": 926,
       "r": 5,
       "fill": "#c49a3a",
@@ -32647,7 +32670,7 @@
      },
      {
       "type": "circle",
-      "x": 684,
+      "x": 784,
       "y": 894,
       "r": 5,
       "fill": "#c49a3a",
@@ -32657,7 +32680,7 @@
      },
      {
       "type": "circle",
-      "x": 754,
+      "x": 854,
       "y": 878,
       "r": 5,
       "fill": "#c49a3a",
@@ -32668,8 +32691,8 @@
      {
       "type": "label",
       "text": "HALF",
-      "x": 760,
-      "y": 650,
+      "x": 840,
+      "y": 635,
       "size": 36,
       "bold": true,
       "boil": 0.4,
@@ -37545,7 +37568,7 @@
      {
       "type": "asset",
       "name": "porpoise",
-      "x": 980,
+      "x": 1010,
       "y": 760,
       "scale": 0.5,
       "appear": 0.38
@@ -37553,7 +37576,7 @@
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 980,
+      "x": 1010,
       "y": 420,
       "scale": 0.18,
       "appear": 0.41
@@ -37676,14 +37699,14 @@
      {
       "type": "asset",
       "name": "porpoise",
-      "x": 980,
+      "x": 1010,
       "y": 760,
       "scale": 0.5
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 980,
+      "x": 1010,
       "y": 420,
       "scale": 0.18
      },
@@ -43275,7 +43298,13 @@
      }
     ]
    },
-   "pause_after": 0.03
+   "pause_after": 0.03,
+   "camera": {
+    "move": "zoom_out",
+    "x": 960,
+    "y": 540,
+    "zoom": 1.06
+   }
   },
   {
    "id": "s243",

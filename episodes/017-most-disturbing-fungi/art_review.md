@@ -192,3 +192,44 @@ None.
 
 **PASS.** 266 keyframes are on-model, on-palette and legible, with no gore. The 13 shot fixes above were applied by the art director and re-rendered.
 Director advisories 1-5 are polish only.
+
+### Round 2 (after visual_review round 1 fixes)
+
+Reviewer: art director · 2026-10-13
+Inputs: the fresh 17:27-17:28 UTC render (`build/keyframes/`, `build/contact/sheet_01-23.png`), the diff of commit 5b7ca42 (28 shots
+changed), side-by-side checks of each changed shot against its neighbours, and full-res crops of s210 (new `ferret`, redrawn `porpoise`) and s257.
+
+**Visual review items, all resolved:**
+- **s047, s061, s257 (gore read, item 19).** The red stipple is gone.
+  - s047: the banded fly silhouette now has a dull purple `#5e4670` glow.
+  - s257: the blob on the brick wall has the same purple glow and no longer reads as spatter.
+  - s061: now shows the white `cave_spider_fuzz` lit by the head-torch beam. This also fixes item 15.
+  - The rule is now in the art bible (silhouette glow: purple on brick, red/brown or near-body grounds).
+- **s097:** 4 of 20 frogs are crossed out (about 18%), which matches 90/501.
+- **s099:** the sober card reads "GREATEST RECORDED LOSS / OF BIODIVERSITY / TO A DISEASE" with a lone frog silhouette. It is no longer a repeat of s097.
+- **s125:** "ENDANGERED" sits clear below the hanging bat.
+- **s186 / s192:**
+  - s186 is the hedged sober card: "ACCORDING TO LATER ACCOUNTS: / 10 OF ~12 / DIED". No Doug, no counter, no joke.
+  - s192 is now a lungs-and-spores body diagram with "LUNG INFECTIONS" and a "WEAK IMMUNE SYSTEMS" label. Doug looks gritted, not joking. The tone is right for the beat after the tomb deaths.
+- **s206:** the outer firs moved to the frame edges and the title band is clean.
+- **s210 / s211:** the redrawn `porpoise` (melon head, no beak, dorsal fin, flukes) reads as a porpoise, and the new `ferret` (bandit mask, cream body, dark legs) reads at 0.4. Both are detailed tier, on-palette, not cute and not gory, and both are **approved** as library assets. The lineup now matches the narration order: dog, cat, ferret, porpoise, llama, horse.
+- **s234:** "FOOTNOTE: / NEW YEAST" is 40 px bold, readable at feed size, with the red arrow on it.
+- **s242:** the labels sit above the roof and the red-cross sign is visible.
+- **Counter clearance:**
+  - My round-1 advisory list is done. s018, s032, s043, s051, s063, s154, s156, s166, s179, s194, s195, s204 and s241 all end at x ≤ 1290.
+  - s242's WHO label ends at about 1288.
+  - s049/s050: Doug's fly wing is now about 100 px from the frame edge (inside safe).
+
+**Consistency check:**
+- No other shots changed.
+- The counter sequence (139→147 on s029/s056/s079/s106/s131/s178/s229/s261) and the zone colours are unchanged from round 1.
+- The new s186 card follows the established sober-card style (s099/s152/s168/s223).
+- s185→s186→s187 and s191→s192→s193 each change layout. There are no new runs of similar compositions.
+
+**Advisory (polish, not blocking; director):**
+1. s210/s211: the ferret's nose is about 20 px from the porpoise's flukes. Nudge the porpoise x +30 (or the ferret -20) for a cleaner gap.
+2. s241→s242: the hospital shrinks from scale 1.0 to 0.85 at the same x between consecutive shots, which pops slightly on the cut. Either set s242's camera to a gentle `zoom_out` so the change reads as intended, or accept it.
+
+**Fixes for the illustrator:** none.
+
+**PASS.** All 13 targeted shots and the counter-clearance moves are on-model, on-palette and legible, with no gore read. `ferret` and the redrawn `porpoise` are approved.
