@@ -144,7 +144,7 @@ Genetic studies trace the outbreak strain to the Korean peninsula. It began spre
 
 Here comes the part that's hard to say out loud. A major study in twenty nineteen linked chytrid to the decline of at least five hundred and one amphibian species. That's roughly six and a half percent of every known amphibian, or more than three cards out of every fifty-two card deck.
 
-Ninety of those species are presumed extinct, and only about one in eight of the rest shows any sign of recovery.
+Ninety of those species are presumed extinct, and only about one in eight of all the declining species shows any sign of recovery.
 
 [Sober card on a dark olive background, no Doug: "90 SPECIES, PRESUMED EXTINCT".]
 
@@ -400,4 +400,4 @@ The cap has outlived one hundred and forty-seven Dougs, and as of today, it is a
 
 Doug deaths: one hundred and forty-seven. Which fungus on this list would you least like to meet? Tell us in the comments.
 
-<!-- words: 2920 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 14:58 at 195 wpm · draft 2 (2026-10-13; review F1, rule 14, advisories) · 10 items · first item name at spoken word 33 · item 1 twist at spoken word 126 · first death at spoken word 258 (about 1:19) · avg sentence 14.1 words, max 33 · Flesch about 67 · outro 22 words · twist markers: The disturbing part is / The worst part is / Here is the eerie part / Here comes the part that is hard to say out loud / The catch is / Here is the twist / The unsettling part is / But here is the strange part / Here is the problem / And here is where it gets personal -->
+<!-- words: 2922 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 14:59 at 195 wpm · draft 3 (2026-10-13; round 2 F2 chytrid denominator) · 10 items · first item name at spoken word 33 · item 1 twist at spoken word 126 · first death at spoken word 258 (about 1:19) · avg sentence 14.1 words, max 33 · Flesch about 67 · outro 22 words · twist markers: The disturbing part is / The worst part is / Here is the eerie part / Here comes the part that is hard to say out loud / The catch is / Here is the twist / The unsettling part is / But here is the strange part / Here is the problem / And here is where it gets personal -->

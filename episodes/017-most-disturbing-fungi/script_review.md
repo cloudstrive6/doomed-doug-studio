@@ -1,148 +1,119 @@
-# Script review: 017 The Most Disturbing Fungi Scientists Have Ever Found (draft 1)
+# Script review: 017 The Most Disturbing Fungi Scientists Have Ever Found (draft 2, round 2)
 
-Script Screener, 2026-10-13. Read: style bible (3.1-3.6, section 7), series bible, brief, script.md (draft 1), facts.md.
-The "search" lines in facts.md were re-opened first.
+Script Screener, 2026-10-13. Read: style bible section 7, brief, script.md (draft 2), facts.md, round 1 review, and the git diff from draft 1 to draft 2.
+This round re-checks the two blocking fixes, the facts that were added, and every line that changed.
 
 VERDICT: FAIL
 
 | Check | Result |
 |---|---|
-| 1. Facts | **1 error** (ergot "1711", fix 1). 22 claims checked; 21 hold. Facts.md has 2 citation mix-ups (advisory). |
-| 2. Opening | **8/10**. Rules violated: **14** (fix 2). Rule 8 is borderline at item 8 (advisory). |
+| 1. Facts | **1 error**, introduced in draft 2 (chytrid "of the rest", fix 1). All 3 new facts hold. Round 1's F1 is fixed. |
+| 2. Opening | **8/10**. The rule 14 violation is fixed, and no rules are violated now. |
 | 3. Structure & pacing | **7/10** |
-| 4. Voice & humour | **8/10**, but there is one competitor phrase (fix 2) |
-| 5. TTS readiness | Clean. One pronunciation note is missing (advisory). |
-| 6. Policy | Clean (0 items). There are 2 tone advisories. |
-| 7. Length | 2,934 spoken words, recounted. That is about 15:03 at 195 wpm, inside 2,900-3,300 but only 34 words above the floor. |
+| 4. Voice & humour | **8/10** |
+| 5. TTS readiness | Clean. The Pseudogymnoascus and bangbangus pronunciations are now in the comment. |
+| 6. Policy | Clean (0 items) |
+| 7. Length | 2,920 spoken words, recounted. That is about 14:58 at 195 wpm, inside 2,900-3,300 and 20 words above the floor. |
 
-There are two blocking fixes, and both are small. Keep the total at 2,900 words or more after them (see the note under fix 1).
+There is one blocking fix, and it is three words long. Everything else passes.
 
 ---
 
 ## 1. Facts
 
-**Search-only claims re-opened (verified on the page or in the primary abstract):**
+**Round 1 blocking fix:**
+- **F1 (ergot, 1711): FIXED.** The sentence is cut, and so is its facts.md row. The replacement line about rye bread
+  ("hit hardest among people who lived largely on rye bread") matches the Microbiology Society page ("subsisted on a diet high in rye"). OK.
 
-| Claim | Result |
-|---|---|
-| Massospora: Stage I males make the female wing-flick, males attempt to mate, and this spreads spores (Cooley 2018, *Sci Rep* 8:1432) | OK |
-| Cathinone in *M. cicadina*-infected periodical cicadas (Boyce 2019, *Fungal Ecology* 41:147) | OK. The authors frame its role as a hypothesis, and the script says "think it may help", which is fine. |
-| Entomophthora: male flies are enticed to mate with infected female cadavers by volatiles (Naundrup 2022, *ISME J* 16:2388) | OK |
-| Entomophthora: death 4-7 days after exposure, last movement 0-5 h before sunset, about 92% raise wings, spores fired about 5 h after sunset at about 10 m/s (Elya 2018, fetched) | OK. About 80% of flies die in the 4-7 day window, and the script's "in a lab study" covers that. |
-| Gibellula: 2021, Winterwatch, Castle Espie gunpowder store, volunteer, DNA, *Fungal Systematics and Evolution*, 24 Jan 2025 | OK |
-| Meta menardi legspan about 5 cm | OK, several sources. One gives about 6 cm, which still fits "around". |
-| Chytrid: 501 species, 90 presumed extinct, peak in the 1980s, 12% recovering (Scheele 2019 abstract) | OK |
-| 501 species = 6.5% of known amphibians | OK (CORDIS, fetched: "6.5 % of the known total") |
-| Northridge: 203 cases, 3 deaths, Simi Valley 56%, dust-cloud odds ratio 3.0, peak about 2 weeks after the quake, first outbreak after an earthquake (Schneider 1997, *JAMA*) | OK |
-| WNS: 40 states and 8 provinces as of July 2023; three species down more than 90%; muzzle, ears and wings; no human illness (USGS, fetched) | OK |
-| C. gattii: 25.1 per million on Vancouver Island; 218 cases and 19 deaths, 1999-2007; animals including a horse; animal cases came first; healthy hosts (EID 15(8), fetched) | OK |
-| C. gattii: BC has "the largest reported population ... worldwide" | OK, but the source is **EID 16(2)** (Galanis 2010), not 15(8) as facts.md says |
-| Tomb: about a dozen entered and ten died "within weeks" (Penn, fetched) | Sourced, but secondary accounts disagree on timing (weeks, months or years) and on the total (some say up to 15). See advisory A3. |
-| Asperigimycins: 2 of 4 potent against leukaemia cells; a lipid variant matched cytarabine and daunorubicin; animal models next (Penn, fetched) | OK |
-| Ergot: holy fire / St Anthony's Fire, the Order founded in 1095, more than 370 hospitals, more than 50,000 deaths in southern France 990-1130 (Microbiology Society, fetched) | OK |
-| Ergometrine used to stop postnatal bleeding; ergotamine for migraine | OK (Microbiology Society, fetched) |
-| C. auris: 476 US clinical cases in 2019 and 1,471 in 2021 (Lyman et al. 2023, *Ann Intern Med*) | OK |
-| C. auris: type strain from the ear canal in Japan in 2009; grew well at 40 °C (Satoh 2009) | OK |
-| 4,802 strains; each 1 °C rise from 30 to 40 °C excluded about 6% more (Robert and Casadevall 2009, *JID*) | OK |
-| Hot-tub ceiling of 104 °F (40 °C) (CPSC) | OK |
-| Spread to WA and OR | OK. Cite EID 15(8) ("Spread ... into Pacific Northwest"); 16(2) does not name the states. |
-| **Ergot: "Scientists didn't even suggest that the spur was a fungus until seventeen eleven."** | **FAIL.** See F1. |
+**New facts verified this round:**
 
-**F1. The 1711 ergot date is unverified, and other sources disagree.** The only source is a University of Hawaii lecture page, and
-it refuses connections (ECONNREFUSED) today. Other histories credit von Münchhausen (1764) with recognising ergot as a fungus,
-De Candolle with naming it a fungus in 1815/16, and Tulasne with its full life cycle in 1853. A 2022 taxonomy review credits Claude
-Joseph Geoffroy only with recognising it "in the 1700s", with no year. "Didn't even suggest ... until" is a precise negative claim
-that we can't support.
+| Claim (draft 2) | Check | Result |
+|---|---|---|
+| "Viewers of the BBC's Springwatch nicknamed it Gibellula bangbangus, after the gunpowder store." | WWT page fetched: "named by BBC Springwatch viewers in honour of its discovery site". The discovery site was the gunpowder store. Winterwatch is the series that was filming (2021), and Springwatch viewers gave the nickname, so the two programme names don't contradict each other. | OK |
+| "The same compounds did little or nothing to breast, liver or lung cancer cells." | Penn Engineering page fetched: "the compounds had little to no effect on breast, liver or lung cancer cells" | OK |
+| "Valley fever doesn't spread from person to person, so every one of those cases came straight out of the dust." | CDC fact sheet and archived CDC page: "Valley fever cannot spread from person to person." CDPH says it is not contagious. The "out of the dust" part is a fair inference, because infection is by inhaling airborne spores. | OK. Advisory: facts.md quotes the CDC sheet as "cannot be spread from an infected person or animal to another person". Search results show "does not spread from person to person". Paste the exact wording. |
+| "Spores left in the soil by an earlier generation infect the young cicadas as they dig their way up." | Cooley 2018 (round 1, OK) | OK |
+| "...and the fungus gets the rest." | No timing claim now, so no source is needed | OK |
 
-**Facts.md housekeeping (advisory, not blocking):**
-- Item 9: move "largest reported population" to EID 16(2) and "WA/OR spread" to EID 15(8).
-- Item 7: the Microbiology Society page doesn't say the spurs were "ground into flour". Add a source that does, or cite Nebraska
-  Extension / Bayer for it.
+**F2 (new in draft 2): the chytrid recovery denominator is wrong.**
+- Script line 147: "Ninety of those species are presumed extinct, and only about one in eight of the rest shows any sign of recovery."
+- Scheele et al. 2019, *Science* 363:1459, abstract: "only **12% of declined species** show signs of recovery".
+  "Declined species" means all 501, including the 90 that are extinct. That gives about 60 recovering species.
+- "Of the rest" moves the denominator to the 411 that are not extinct. Sixty of 411 is about one in seven, not one in eight. Draft 1 had it right
+  ("of the affected species"), and the edit broke it. facts.md row 91 still cites "12%" without saying what it is a percentage of.
+
+**Facts.md housekeeping (advisory):**
+- Row 91 still lists "Declines peaked in the 1980s". The script no longer says this, so drop it or mark it as cut.
+- The citation swap for item 9 (EID 16(2) and 15(8)) is done. OK.
 
 ## 2. Opening (8/10)
-- The first item name, "Massospora.", is spoken word **34**. That passes rule 2, but only one word inside the limit. "Insects." is word 33.
-- There is no greeting, channel name, "in this video" or subscribe ask.
-- The twist marker "The disturbing part is" lands at word **127**, so it passes rule 6 (145 or fewer).
-- The stakes line ("a few have started on people") is good, and so is "It isn't dying. It's delivering."
+- "Massospora." is spoken word **33**, and the twist marker comes at word **126**. No greeting, channel name or subscribe ask comes before them.
+- The opener now says "taken over", which is accurate for all 10 items.
 - **Rule check (section 7, rules 1-14):**
-  - 1 OK, 2 OK, 3 OK (10 items, names match the headings), 4 OK (every item has frame, marker, kicker of 8-25 words, and Doug beat), 5 OK
-    (axis in the header comment), 6 OK, 7 OK, 9 OK (average 14.3 words, which is at the floor; longest 34; at least one sentence of 6 words or fewer
-    per item; Flesch about 68), 10 OK, 11 **see F1**, 12 OK, 13 OK (no tic over the cap; no repeated marker back to back).
-  - **8, borderline:** item 8 (Tomb) has no everyday-object scale analogy. "The same year Columbus sailed" is a time anchor, which the brief
-    allows. Not blocking.
-  - **14, VIOLATED:** see fix 2.
+  - Rule 1: OK (2,920 words).
+  - Rules 2-7: OK.
+  - Rule 8: OK. Item 8 is still borderline (time anchor only) but acceptable, as in round 1.
+  - Rule 9: OK. Average 14.2 words per sentence (at the floor), longest 33, Flesch about 67.
+  - Rule 10: OK.
+  - Rule 11: **see F2**.
+  - Rule 12: OK.
+  - Rule 13: OK. The 10 markers are all different.
+  - **Rule 14: FIXED.** The boss now says "And here's where it gets personal." This phrase isn't in the style bible's PE marker list or in `data/` competitor material.
 
 ## 3. Structure & pacing (7/10)
-- **Axis:** insects, then whole species, then people. The spoken headers and the costume-off at "People." are in place.
-- **Escalation dips (advisory; the brief set this order, so the creative director decides):**
-  - 4 to 5: chytrid (90 extinctions) is followed by white-nose (no extinctions), so the "Whole species." block peaks first and then drops.
-  - 7 to 8: ergot (an estimated 50,000+ deaths) is followed by the Tomb (10 deaths and a survival). The biggest human body count sits in the middle of "People."
-- **Segment lengths against the brief's 250-290:**
-  - Chytrid: **307**
-  - Ergot: **299**
-  - Boss: 381 without the outro, against a 330-380 range
-  - Item 1: opener plus item 1 is 307, which is OK
-  - Trim chytrid and ergot toward 290 if fix 1 leaves room (see the length note).
-- **First death:** at about 1:29, against the brief's "about 1:00". It is still inside the bible's item-1 window (by 1:35). Advisory.
-- **Running gags:** all present and correctly placed. Death count 139 to 147, 8 deaths, survivals at 6 and 8.
-- **Ending:** follows the bible. The boss kicker, the Doug beat and the cap line come first, then a 22-word outro with the counter and one comment prompt.
+- **Segment word counts, item name to kicker, Doug beats included:**
+
+  | Segment | Words |
+  |---|---|
+  | Opener plus item 1 | 275 |
+  | Fly | 283 |
+  | Spider | 279 |
+  | Chytrid | 290 (down from 307) |
+  | White-nose | 285 |
+  | Valley fever | 287 |
+  | Ergot | 284 (down from 299) |
+  | Tomb | 271 |
+  | Cryptococcus gattii | 264 |
+  | Boss | 380 plus a 22-word outro |
+
+  All segments are now within the 250-290 range, and the boss is within 330-380.
+- **First death** is at about word 261, around 1:20. That is closer to the brief's "about 1:00" than draft 1 was.
+- **Advisory:** opener plus item 1 (275) is now just under the brief's 280-310 guide. It isn't blocking.
+- **Escalation dips** (white-nose after chytrid, the Tomb after ergot) are unchanged. As in round 1, that is the creative director's call.
+- **Running gags:** all present. Death count runs 139 to 147, with survivals at items 6 and 8. The ending follows the bible.
 
 ## 4. Voice & humour (8/10)
-- The deadpan holds throughout. Best lines:
-  - "He held it permanently."
-  - "Doug is most people."
-  - "He didn't die of the cold, he died of getting up too often."
-  - "it is also food."
-- Joke density is within rule 10.
-- **Competitor phrase:** see fix 2.
-- **Advisories:**
-  - **Chytrid costume line:** "Chytrid isn't known to affect humans, but Doug is a frog anyway." The "but ... anyway" reverses the gag's logic. Use the
-    because-shape, as in the other costume lines.
-  - **Opener verb:** "taken control of something alive" isn't true for Coccidioides, ergot, A. flavus, C. gattii or C. auris, and it
-    implies zombie-style mind control. The brief's "taken over" is accurate.
-  - **Item 1 kicker:** "the fungus gets most of the month" is an implicit claim with no source. Stage I symptoms appear some days after
-    emergence. Either source it or soften it (for example, "and the fungus gets the rest").
+- The chytrid costume line now uses the "which is why" form, which fixes the logic.
+- The new Valley Fever sentence and the bangbangus line read naturally, and the persona is consistent.
+- No competitor phrases.
 
 ## 5. TTS readiness: clean
 - No digits, symbols or parentheses are spoken.
-- "BBC" and "DNA" are standard initialisms that Chirp reads correctly. OK.
-- **Advisory:** "Pseudogymnoascus destructans" is the hardest phrase in the script, and the pronunciation comment doesn't cover it. Add it, for
-  example "SOO-doh-jim-noh-ASS-kus deh-STRUK-tanz", and preview it with `narrate`.
+- **Advisory:** "Gibellula bangbangus" is a new tongue-twister. Preview it with `narrate`.
 
 ## 6. Policy: 0 items
-- **Advertiser-friendly:** no gore. The body words are limited to "the heart simply stopped", "lungs" and the segments that "drop off", all
-  in a clinical register. No profanity.
-- **Made-for-kids:** adult-coded. No nursery framing and no game references.
-- **Inauthentic content:** every item has its own original narrative and twist. Not a templated read-out.
-- **Medical advice:** none (no symptoms lists, no treatment, no "see a doctor"). Asperigimycins are framed as "only in the lab ... a long way from a cure".
-- **Drugs:** cathinone appears once, flat. There is no psilocybin and no LSD.
-- **Title promise:** delivered.
-- **Advisory A1 (sexual content):** "They try to mate with the dead, infected female". This is fine as spoken science. The director must keep the visual to
-  heads turning and scent lines, with no contact drawn.
-- **Advisory A2 (real victims):** the Tomb's "10 OF 12 RESEARCHERS DIED" card is followed shortly by "the curse ... was mostly a newspaper
-  headline". The line mocks the curse, not the dead, but leave a clear beat between the card and the Doug section.
-- **Advisory A3 (tomb numbers):** accounts of the count and the time span vary. The script states "ten of them had died" as fact. Consider
-  "according to later accounts, ten of them died within weeks", in line with the brief's "verify the number and time span".
+- The Tomb now attributes the death count ("according to later accounts"), and the stage directions hold a beat after the sober card. A2 and A3 are resolved.
+- The new cancer line widens the caveat, so the risk of a medical promise is lower than in draft 1.
+- There is still no gore, no kids framing and no medical advice. The title promise is delivered.
 
 ## 7. Length
-2,934 spoken words, about 15:03. That is inside the brief's 2,900-3,300 range.
+2,920 spoken words, about 14:58. That is inside the brief's 2,900-3,300 range. Fix 1 changes no words.
 
 ---
 
 ## Required fixes
 
-1. **F1 (fact).** Ergot: "Scientists didn't even suggest that the spur was a fungus until seventeen eleven."
-   - **Cut the sentence.** Or replace it with a claim fetched on the page, for example that Tulasne described ergot's full life cycle as one fungus
-     in 1853 (with a fetched source added to facts.md).
-   - **Length note:** cutting it outright (16 words) drops the total to about 2,918. Don't also trim chytrid or ergot by more than about 18 words
-     combined unless you add words elsewhere (the Tomb at 256 or the Cave Spider at 263 have room).
-2. **Rule 14 (competitor wording).** Boss: "And here's the most disturbing part."
-   - "the most disturbing part" is 4 consecutive words of a Paint Explainer marker (style bible 3.3, "The most disturbing part is...").
-   - Replace it with a marker of our own, for example "And here's the part that should worry us." Keep it different from the item 9 marker ("Here's the
-     problem") to satisfy rule 13.
+1. **F2 (fact, rule 11).** Chytrid, line 147: "and only about one in eight of the rest shows any sign of recovery."
+   - Change "of the rest" to "of all the declining species", or restore draft 1's "of the affected species".
+     Either keeps the 12% of 501 denominator.
+   - If you'd rather keep "the rest", the figure becomes "about one in seven". That needs facts.md to show the arithmetic (60 of 411), and the
+     paper's species count has to be confirmed first. The first option is safer.
+   - Update facts.md row 91 to say "12% of the 501 declined species" and drop the 1980s clause.
+   - The word count must stay at 2,900 or more. The first option adds 2 words (2,922). The draft 1 wording keeps the total at 2,920.
 
 **Recommended, not blocking:**
-- Trim chytrid (307) and ergot (299) toward 290, keeping the total at 2,900 or more.
-- Fix the chytrid costume-line logic, change the opener to "taken over", soften the item 1 kicker, and attribute the tomb death count (A3).
-- Add a pronunciation note for Pseudogymnoascus. Correct the item 9 citations in facts.md.
-- Creative director's call: swap items 4 and 5 (chytrid as the "Whole species." peak) and consider moving the Tomb before ergot, so the people block climbs.
+- Put the exact CDC wording in facts.md row 117.
+- Preview "bangbangus" in `narrate`.
+- Opener plus item 1 is at 275. That's fine, but don't trim it further.
+
+When fix 1 is made as written, no other changes are needed for a PASS. A re-screen of that one line is enough.
