@@ -1,0 +1,289 @@
+{
+ "name": "medicine_bottle_plain",
+ "description": "Plain brown glass medicine bottle with a white ribbed screw cap and a blank white label (no text, no brand), glass highlight and darker shaded side. Anchor bottom-centre, ~135x260.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "medicine",
+  "bottle",
+  "pharmacy",
+  "017"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62,
+     -8
+    ],
+    [
+     -66,
+     -150
+    ],
+    [
+     -56,
+     -178
+    ],
+    [
+     -30,
+     -192
+    ],
+    [
+     -28,
+     -206
+    ],
+    [
+     28,
+     -206
+    ],
+    [
+     30,
+     -192
+    ],
+    [
+     56,
+     -178
+    ],
+    [
+     66,
+     -150
+    ],
+    [
+     62,
+     -8
+    ],
+    [
+     50,
+     0
+    ],
+    [
+     -50,
+     0
+    ]
+   ],
+   "fill": "#8a4e1c",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     -190
+    ],
+    [
+     56,
+     -176
+    ],
+    [
+     64,
+     -150
+    ],
+    [
+     60,
+     -10
+    ],
+    [
+     48,
+     -2
+    ],
+    [
+     36,
+     -2
+    ],
+    [
+     42,
+     -150
+    ]
+   ],
+   "fill": "#5e3210",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -46,
+     -160
+    ],
+    [
+     -50,
+     -100
+    ],
+    [
+     -48,
+     -30
+    ]
+   ],
+   "width": 7,
+   "color": "#d9a06a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -30,
+     -182
+    ],
+    [
+     -42,
+     -172
+    ]
+   ],
+   "width": 4,
+   "color": "#d9a06a"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -132,
+   "w": 124,
+   "h": 88,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 40,
+   "y": -88,
+   "r": 26,
+   "color": "#d8d8d8",
+   "density": 0.25
+  },
+  {
+   "type": "rect",
+   "x": -36,
+   "y": -258,
+   "w": 72,
+   "h": 54,
+   "fill": "#f6f6f6",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -26,
+     -252
+    ],
+    [
+     -26,
+     -210
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -17,
+     -252
+    ],
+    [
+     -17,
+     -210
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -252
+    ],
+    [
+     -8,
+     -210
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1,
+     -252
+    ],
+    [
+     1,
+     -210
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -252
+    ],
+    [
+     10,
+     -210
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     19,
+     -252
+    ],
+    [
+     19,
+     -210
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     28,
+     -252
+    ],
+    [
+     28,
+     -210
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "rect",
+   "x": -36,
+   "y": -258,
+   "w": 72,
+   "h": 10,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

@@ -1,0 +1,298 @@
+{
+ "name": "vial",
+ "description": "Small glass lab vial: white ribbed cap, clear pale liquid with a meniscus, blank white label band (the shotlist adds the name in a label above). Anchor bottom-centre, ~75x220.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "lab",
+  "science",
+  "vial",
+  "017"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -168
+    ],
+    [
+     -30,
+     -10
+    ],
+    [
+     -22,
+     0
+    ],
+    [
+     22,
+     0
+    ],
+    [
+     30,
+     -10
+    ],
+    [
+     30,
+     -168
+    ]
+   ],
+   "fill": "#e4f2f6",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -27,
+     -112
+    ],
+    [
+     -27,
+     -10
+    ],
+    [
+     -20,
+     -3
+    ],
+    [
+     20,
+     -3
+    ],
+    [
+     27,
+     -10
+    ],
+    [
+     27,
+     -112
+    ]
+   ],
+   "fill": "#f1efc9",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -27,
+     -112
+    ],
+    [
+     0,
+     -106
+    ],
+    [
+     27,
+     -112
+    ]
+   ],
+   "width": 3,
+   "color": "#c9c48a"
+  },
+  {
+   "type": "rect",
+   "x": -30,
+   "y": -92,
+   "w": 60,
+   "h": 46,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -18,
+     -160
+    ],
+    [
+     -18,
+     -100
+    ]
+   ],
+   "width": 5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -18,
+     -40
+    ],
+    [
+     -18,
+     -14
+    ]
+   ],
+   "width": 5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -168
+    ],
+    [
+     -30,
+     -10
+    ],
+    [
+     -22,
+     0
+    ],
+    [
+     22,
+     0
+    ],
+    [
+     30,
+     -10
+    ],
+    [
+     30,
+     -168
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -36,
+   "y": -220,
+   "w": 72,
+   "h": 54,
+   "fill": "#f6f6f6",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -26,
+     -214
+    ],
+    [
+     -26,
+     -172
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -17,
+     -214
+    ],
+    [
+     -17,
+     -172
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -214
+    ],
+    [
+     -8,
+     -172
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1,
+     -214
+    ],
+    [
+     1,
+     -172
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -214
+    ],
+    [
+     10,
+     -172
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     19,
+     -214
+    ],
+    [
+     19,
+     -172
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     28,
+     -214
+    ],
+    [
+     28,
+     -172
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "rect",
+   "x": -36,
+   "y": -220,
+   "w": 72,
+   "h": 9,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

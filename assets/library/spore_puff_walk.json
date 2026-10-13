@@ -1,0 +1,639 @@
+{
+ "name": "spore_puff_walk",
+ "description": "A fuzzy off-white spore clump (merged cloud-like lobes, light grey shading, speckle and fuzz strokes) walking right on two tiny black stick legs mid-stride. No face, no arms. Anchor bottom-centre (feet), ~205x225.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "fungus",
+  "spore",
+  "character",
+  "valley fever",
+  "017"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -16,
+     -70
+    ],
+    [
+     -30,
+     -36
+    ],
+    [
+     -46,
+     -4
+    ],
+    [
+     -30,
+     -2
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     18,
+     -70
+    ],
+    [
+     34,
+     -38
+    ],
+    [
+     40,
+     -2
+    ],
+    [
+     56,
+     -2
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -138,
+   "rx": 87.5,
+   "ry": 73.5,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 71.7,
+   "y": -143.4,
+   "rx": 33.0,
+   "ry": 30.7,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 61.0,
+   "y": -107.1,
+   "rx": 31.3,
+   "ry": 29.1,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 40.8,
+   "y": -90.2,
+   "rx": 33.8,
+   "ry": 31.4,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -6.2,
+   "y": -80.2,
+   "rx": 31.6,
+   "ry": 29.4,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -36.1,
+   "y": -87.8,
+   "rx": 29.4,
+   "ry": 27.3,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -56.8,
+   "y": -102.3,
+   "rx": 30.5,
+   "ry": 28.3,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -72.0,
+   "y": -139.4,
+   "rx": 28.1,
+   "ry": 26.1,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -59.2,
+   "y": -171.0,
+   "rx": 29.4,
+   "ry": 27.3,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -40.5,
+   "y": -185.9,
+   "rx": 27.8,
+   "ry": 25.9,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 10.0,
+   "y": -195.4,
+   "rx": 33.4,
+   "ry": 31.0,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 42.3,
+   "y": -184.9,
+   "rx": 32.4,
+   "ry": 30.1,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 57.2,
+   "y": -173.3,
+   "rx": 30.1,
+   "ry": 28.0,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -138,
+   "rx": 80.5,
+   "ry": 66.5,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 71.7,
+   "y": -143.4,
+   "rx": 26.0,
+   "ry": 23.7,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 61.0,
+   "y": -107.1,
+   "rx": 24.3,
+   "ry": 22.1,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 40.8,
+   "y": -90.2,
+   "rx": 26.8,
+   "ry": 24.4,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -6.2,
+   "y": -80.2,
+   "rx": 24.6,
+   "ry": 22.4,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -36.1,
+   "y": -87.8,
+   "rx": 22.4,
+   "ry": 20.3,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -56.8,
+   "y": -102.3,
+   "rx": 23.5,
+   "ry": 21.3,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -72.0,
+   "y": -139.4,
+   "rx": 21.1,
+   "ry": 19.1,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -59.2,
+   "y": -171.0,
+   "rx": 22.4,
+   "ry": 20.3,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -40.5,
+   "y": -185.9,
+   "rx": 20.8,
+   "ry": 18.9,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 10.0,
+   "y": -195.4,
+   "rx": 26.4,
+   "ry": 24.0,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 42.3,
+   "y": -184.9,
+   "rx": 25.4,
+   "ry": 23.1,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 57.2,
+   "y": -173.3,
+   "rx": 23.1,
+   "ry": 21.0,
+   "fill": "#f6f6f0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 10,
+   "y": -117.0,
+   "r": 46.2,
+   "color": "#d4d4cc",
+   "density": 0.5
+  },
+  {
+   "type": "spray",
+   "x": 33.6,
+   "y": -128,
+   "r": 42.0,
+   "color": "#d4d4cc",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": -138,
+   "r": 67.2,
+   "color": "#9a9a92",
+   "density": 0.04
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     21.7,
+     -134.5
+    ],
+    [
+     26.7,
+     -138.5
+    ],
+    [
+     31.7,
+     -134.5
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     20.2,
+     -119.9
+    ],
+    [
+     25.2,
+     -123.9
+    ],
+    [
+     30.2,
+     -119.9
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     31.3,
+     -117.0
+    ],
+    [
+     36.3,
+     -121.0
+    ],
+    [
+     41.3,
+     -117.0
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     3.4,
+     -111.1
+    ],
+    [
+     8.4,
+     -115.1
+    ],
+    [
+     13.4,
+     -111.1
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -5.1,
+     -101.5
+    ],
+    [
+     -0.1,
+     -105.5
+    ],
+    [
+     4.9,
+     -101.5
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -31.5,
+     -123.8
+    ],
+    [
+     -26.5,
+     -127.8
+    ],
+    [
+     -21.5,
+     -123.8
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -49.5,
+     -129.4
+    ],
+    [
+     -44.5,
+     -133.4
+    ],
+    [
+     -39.5,
+     -129.4
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -38.7,
+     -143.7
+    ],
+    [
+     -33.7,
+     -147.7
+    ],
+    [
+     -28.7,
+     -143.7
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -30.9,
+     -156.0
+    ],
+    [
+     -25.9,
+     -160.0
+    ],
+    [
+     -20.9,
+     -156.0
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -29.2,
+     -170.0
+    ],
+    [
+     -24.2,
+     -174.0
+    ],
+    [
+     -19.2,
+     -170.0
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -3.2,
+     -164.0
+    ],
+    [
+     1.8,
+     -168.0
+    ],
+    [
+     6.8,
+     -164.0
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     18.7,
+     -160.8
+    ],
+    [
+     23.7,
+     -164.8
+    ],
+    [
+     28.7,
+     -160.8
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     14.1,
+     -163.0
+    ],
+    [
+     19.1,
+     -167.0
+    ],
+    [
+     24.1,
+     -163.0
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     35.3,
+     -143.7
+    ],
+    [
+     40.3,
+     -147.7
+    ],
+    [
+     45.3,
+     -143.7
+    ]
+   ],
+   "width": 2,
+   "color": "#b5b5ad"
+  }
+ ]
+}

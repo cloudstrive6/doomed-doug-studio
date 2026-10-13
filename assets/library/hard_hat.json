@@ -1,0 +1,255 @@
+{
+ "name": "hard_hat",
+ "description": "Yellow construction hard hat as a worn prop: domed shell with a raised centre ridge, rim and short front peak to the right. Anchor = Doug's hips at scale 1 (stand pose); it perches on top of the red cap: rim bottom at y -294, shell top at y -412, so the cap dome and brim stay visible below.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "worn prop",
+  "hat",
+  "construction",
+  "017"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     -306
+    ],
+    [
+     -90,
+     -344
+    ],
+    [
+     -72,
+     -384
+    ],
+    [
+     -36,
+     -404
+    ],
+    [
+     10,
+     -408
+    ],
+    [
+     52,
+     -394
+    ],
+    [
+     82,
+     -362
+    ],
+    [
+     94,
+     -318
+    ],
+    [
+     96,
+     -306
+    ]
+   ],
+   "fill": "#f7c21b",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     -396
+    ],
+    [
+     56,
+     -390
+    ],
+    [
+     82,
+     -360
+    ],
+    [
+     92,
+     -318
+    ],
+    [
+     60,
+     -314
+    ],
+    [
+     54,
+     -356
+    ]
+   ],
+   "fill": "#d99a0a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": -366,
+   "r": 26,
+   "color": "#fff2a0",
+   "density": 0.45
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -22,
+     -404
+    ],
+    [
+     4,
+     -412
+    ],
+    [
+     28,
+     -404
+    ],
+    [
+     24,
+     -310
+    ],
+    [
+     -18,
+     -310
+    ]
+   ],
+   "fill": "#ffd84a",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -12,
+     -396
+    ],
+    [
+     -10,
+     -316
+    ]
+   ],
+   "width": 3,
+   "color": "#c98a00"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     14,
+     -398
+    ],
+    [
+     16,
+     -316
+    ]
+   ],
+   "width": 3,
+   "color": "#c98a00"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -102,
+     -310
+    ],
+    [
+     60,
+     -314
+    ],
+    [
+     130,
+     -306
+    ],
+    [
+     140,
+     -294
+    ],
+    [
+     60,
+     -294
+    ],
+    [
+     -100,
+     -294
+    ]
+   ],
+   "fill": "#f2b400",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -96,
+     -300
+    ],
+    [
+     126,
+     -300
+    ]
+   ],
+   "width": 2,
+   "color": "#c98a00"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     -306
+    ],
+    [
+     -90,
+     -344
+    ],
+    [
+     -72,
+     -384
+    ],
+    [
+     -36,
+     -404
+    ],
+    [
+     10,
+     -408
+    ],
+    [
+     52,
+     -394
+    ],
+    [
+     82,
+     -362
+    ],
+    [
+     94,
+     -318
+    ],
+    [
+     96,
+     -306
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}

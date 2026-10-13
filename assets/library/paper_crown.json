@@ -1,0 +1,256 @@
+{
+ "name": "paper_crown",
+ "description": "Gold paper party crown (five zigzag points, a red, a blue and a green stuck-on paper jewel) as a worn prop. Anchor = Doug's hips at scale 1 (stand pose); it perches on top of the red cap (band bottom y -293, point tips y -405) so the cap dome and brim stay visible below.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "worn prop",
+  "hat",
+  "crown",
+  "party",
+  "017"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90,
+     -293
+    ],
+    [
+     -86,
+     -327
+    ],
+    [
+     -68.0,
+     -405
+    ],
+    [
+     -50,
+     -327
+    ],
+    [
+     -32.0,
+     -405
+    ],
+    [
+     -14,
+     -327
+    ],
+    [
+     4.0,
+     -405
+    ],
+    [
+     22,
+     -327
+    ],
+    [
+     40.0,
+     -405
+    ],
+    [
+     58,
+     -327
+    ],
+    [
+     76.0,
+     -405
+    ],
+    [
+     94,
+     -327
+    ],
+    [
+     98,
+     -293
+    ]
+   ],
+   "fill": "#f2c21b",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     58,
+     -327
+    ],
+    [
+     76,
+     -405
+    ],
+    [
+     94,
+     -327
+    ],
+    [
+     98,
+     -293
+    ],
+    [
+     60,
+     -293
+    ]
+   ],
+   "fill": "#d39a12",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -88,
+     -327
+    ],
+    [
+     96,
+     -327
+    ]
+   ],
+   "width": 3,
+   "color": "#b8860b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -88,
+     -301
+    ],
+    [
+     96,
+     -301
+    ]
+   ],
+   "width": 2,
+   "color": "#b8860b"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90,
+     -293
+    ],
+    [
+     -86,
+     -327
+    ],
+    [
+     -68.0,
+     -405
+    ],
+    [
+     -50,
+     -327
+    ],
+    [
+     -32.0,
+     -405
+    ],
+    [
+     -14,
+     -327
+    ],
+    [
+     4.0,
+     -405
+    ],
+    [
+     22,
+     -327
+    ],
+    [
+     40.0,
+     -405
+    ],
+    [
+     58,
+     -327
+    ],
+    [
+     76.0,
+     -405
+    ],
+    [
+     94,
+     -327
+    ],
+    [
+     98,
+     -293
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -32,
+   "y": -349,
+   "rx": 10,
+   "ry": 10,
+   "fill": "#e0201b",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -361
+    ],
+    [
+     50,
+     -349
+    ],
+    [
+     40,
+     -337
+    ],
+    [
+     30,
+     -349
+    ]
+   ],
+   "fill": "#2b6fd6",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 4,
+   "y": -310,
+   "rx": 9,
+   "ry": 7,
+   "fill": "#2fae3a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -74,
+     -333
+    ],
+    [
+     -62,
+     -357
+    ]
+   ],
+   "width": 3,
+   "color": "#fff3b0"
+  }
+ ]
+}

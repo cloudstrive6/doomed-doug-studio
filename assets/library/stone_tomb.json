@@ -1,0 +1,512 @@
+{
+ "name": "stone_tomb",
+ "description": "Sealed royal stone sarcophagus: pale grey-tan stone chest with carved recessed panels on a low plinth, a flat overhanging lid with a simple carved crown on its front edge, and a cobweb across the top-left corner. Anchor bottom-centre, ~700x385.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "tomb",
+  "royal",
+  "stone",
+  "crypt",
+  "curse",
+  "017"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -350,
+   "y": -60,
+   "w": 700,
+   "h": 60,
+   "fill": "#b0a488",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -350,
+   "y": -60,
+   "w": 700,
+   "h": 14,
+   "fill": "#c4b898",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 250,
+   "y": -30,
+   "r": 60,
+   "color": "#8f8366",
+   "density": 0.3
+  },
+  {
+   "type": "rect",
+   "x": -300,
+   "y": -312,
+   "w": 600,
+   "h": 252,
+   "fill": "#d3c7ab",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 220,
+   "y": -160,
+   "r": 90,
+   "color": "#b3a684",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -240,
+   "y": -100,
+   "r": 50,
+   "color": "#b3a684",
+   "density": 0.2
+  },
+  {
+   "type": "rect",
+   "x": -270,
+   "y": -280,
+   "w": 160,
+   "h": 180,
+   "fill": null,
+   "width": 3,
+   "color": "#8a7d62"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -266,
+     -276
+    ],
+    [
+     -114,
+     -276
+    ]
+   ],
+   "width": 2,
+   "color": "#efe6cf"
+  },
+  {
+   "type": "rect",
+   "x": -80,
+   "y": -280,
+   "w": 160,
+   "h": 180,
+   "fill": null,
+   "width": 3,
+   "color": "#8a7d62"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -76,
+     -276
+    ],
+    [
+     76,
+     -276
+    ]
+   ],
+   "width": 2,
+   "color": "#efe6cf"
+  },
+  {
+   "type": "rect",
+   "x": 110,
+   "y": -280,
+   "w": 160,
+   "h": 180,
+   "fill": null,
+   "width": 3,
+   "color": "#8a7d62"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     114,
+     -276
+    ],
+    [
+     266,
+     -276
+    ]
+   ],
+   "width": 2,
+   "color": "#efe6cf"
+  },
+  {
+   "type": "rect",
+   "x": -312,
+   "y": -84,
+   "w": 624,
+   "h": 24,
+   "fill": "#c4b898",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -200,
+     -200
+    ],
+    [
+     -186,
+     -192
+    ],
+    [
+     -174,
+     -194
+    ]
+   ],
+   "width": 2,
+   "color": "#a39675"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     20,
+     -140
+    ],
+    [
+     34,
+     -132
+    ],
+    [
+     46,
+     -134
+    ]
+   ],
+   "width": 2,
+   "color": "#a39675"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     170,
+     -230
+    ],
+    [
+     184,
+     -222
+    ],
+    [
+     196,
+     -224
+    ]
+   ],
+   "width": 2,
+   "color": "#a39675"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     250,
+     -90
+    ],
+    [
+     264,
+     -82
+    ],
+    [
+     276,
+     -84
+    ]
+   ],
+   "width": 2,
+   "color": "#a39675"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -320,
+     -366
+    ],
+    [
+     -300,
+     -384
+    ],
+    [
+     300,
+     -384
+    ],
+    [
+     320,
+     -366
+    ]
+   ],
+   "fill": "#e9e0c9",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -325,
+   "y": -366,
+   "w": 650,
+   "h": 54,
+   "fill": "#ddd2b8",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 240,
+   "y": -340,
+   "r": 50,
+   "color": "#b3a684",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     -322
+    ],
+    [
+     -48,
+     -356
+    ],
+    [
+     -26,
+     -340
+    ],
+    [
+     0,
+     -362
+    ],
+    [
+     26,
+     -340
+    ],
+    [
+     48,
+     -356
+    ],
+    [
+     44,
+     -322
+    ]
+   ],
+   "fill": "#cdbf9c",
+   "width": 3,
+   "color": "#7a6d52"
+  },
+  {
+   "type": "ellipse",
+   "x": -48,
+   "y": -358,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#cdbf9c",
+   "width": 2,
+   "color": "#7a6d52"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -364,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#cdbf9c",
+   "width": 2,
+   "color": "#7a6d52"
+  },
+  {
+   "type": "ellipse",
+   "x": 48,
+   "y": -358,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#cdbf9c",
+   "width": 2,
+   "color": "#7a6d52"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -42,
+     -330
+    ],
+    [
+     42,
+     -330
+    ]
+   ],
+   "width": 2,
+   "color": "#7a6d52"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -318,
+     -366
+    ],
+    [
+     -318,
+     -296
+    ]
+   ],
+   "width": 2,
+   "color": "#f2f2f2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -318,
+     -366
+    ],
+    [
+     -293,
+     -304
+    ]
+   ],
+   "width": 2,
+   "color": "#f2f2f2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -318,
+     -366
+    ],
+    [
+     -270,
+     -318
+    ]
+   ],
+   "width": 2,
+   "color": "#f2f2f2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -318,
+     -366
+    ],
+    [
+     -254,
+     -340
+    ]
+   ],
+   "width": 2,
+   "color": "#f2f2f2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -318,
+     -366
+    ],
+    [
+     -246,
+     -366
+    ]
+   ],
+   "width": 2,
+   "color": "#f2f2f2"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -318.0,
+     -341.5
+    ],
+    [
+     -309.2,
+     -344.3
+    ],
+    [
+     -301.2,
+     -349.2
+    ],
+    [
+     -295.6,
+     -356.9
+    ],
+    [
+     -292.8,
+     -366.0
+    ]
+   ],
+   "width": 2,
+   "color": "#f2f2f2"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -318.0,
+     -324.0
+    ],
+    [
+     -303.0,
+     -328.8
+    ],
+    [
+     -289.2,
+     -337.2
+    ],
+    [
+     -279.6,
+     -350.4
+    ],
+    [
+     -274.8,
+     -366.0
+    ]
+   ],
+   "width": 2,
+   "color": "#f2f2f2"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -318.0,
+     -306.5
+    ],
+    [
+     -296.8,
+     -313.3
+    ],
+    [
+     -277.2,
+     -325.2
+    ],
+    [
+     -263.6,
+     -343.9
+    ],
+    [
+     -256.8,
+     -366.0
+    ]
+   ],
+   "width": 2,
+   "color": "#f2f2f2"
+  }
+ ]
+}
