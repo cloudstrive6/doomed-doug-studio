@@ -76,3 +76,51 @@ Alternative: the art director could fix the engine so that a circle with `start`
 
 VERDICT (main): FAIL
 VERDICT (shorts): PASS
+
+---
+
+# Post-render review, round 2 (2026-10-13)
+
+## Freshness check
+- `shotlist.json` was edited at 17:55:22 (sun swap and s232 move).
+- `final.mp4` was rendered at 18:05:37, and the samples and `qc.json` were written at 18:10–18:11.
+- So all frames reviewed here come from the re-render. `qc.json` reports `problems: []` and a duration of 917.5 s.
+
+## Round 1 blocker: setting sun (FIXED)
+- **Shotlist:** the shotlist now has filled `poly` half-discs, and no `circle` with `start: 180` remains in any shot.
+- **Re-grabs from final.mp4** at 89.5, 95.0, 98.5, 107.0, 110.5, 121.0, 132.8, 161.0, 164.0, 165.4 and 167.5 s:
+  - s031–s034, s037, s040, s043 and s051–s054 all show a solid yellow (#ffe24a) half-disc with a black outline, sitting on the window sill.
+  - It reads clearly as a setting sun. No hollow arc or stray line anywhere.
+- **s036** (107.0 s): a solid orange half-disc on the black horizon line, next to the clock, with BEFORE SUNSET.
+  - Sample f_004 lands about 1.1 s into s036, before the sun's `appear: 0.3`, so only the bare horizon shows there. That is expected.
+- **Horizon line:** the suggested extra horizon line was not added. It is not needed, because the window's bottom edge and sill do that job.
+- **s033** (98.5 s): the climbing fly overlaps the left edge of the sun. That is intended staging (the fly climbing), and it reads fine.
+
+## Advisory A8, s232 microscope (FIXED)
+- At 797.5 and 798.5 s the microscope (x=170) stands fully clear of the world map's left edge.
+- The 2009 box, JAPAN pin, JAPAN label and Doug are all clear.
+
+## All 31 samples (f_001 to f_031)
+- No black, blank or frozen frames, and no glitches.
+- Topbar, death counter (139 to 146) and labels are legible and spelled correctly.
+- Doug is on-model in every shot (red cap, white head, costumes).
+- No gore and no kids-show tone.
+- f_031 is the end-card recap grid, as before.
+
+## Thumbnail
+- `thumbnail.png` and `thumbnail_small.png` have been regenerated but are identical in design to the round-3 PASS (a 3x3 grid of hosts).
+- All 9 tiles and labels are readable at feed size, and the grid fits the title. PASS.
+
+## Shorts
+- Videos, end cards and previews are unchanged from the round 1 PASS:
+  - All three are 1080x1920, running 38.8, 46.0 and 37.6 s.
+  - Titles are readable, nothing is cropped at the sides, and subtitles are legible.
+  - The end card's "TAP BELOW" arrow points down.
+- **A9 still open:** the preview frames catch a caption mid-word ("eight of all the d", "doctors would nor", "as the c"). Advisory only.
+
+## Remaining advisories (non-blocking)
+- **A9 (editor):** grab each Short's preview at the end of a caption chunk.
+- Earlier advisories A1–A7 carry forward unchanged.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS

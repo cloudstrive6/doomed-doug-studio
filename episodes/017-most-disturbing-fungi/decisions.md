@@ -50,3 +50,29 @@ THUMBNAIL: A APPROVED (pending visual-screener PASS)
 - QC: no problems in qc.json. Visual screener: VERDICT (main): FAIL (sun arc rendered as hollow outline in s031-s034, s036-s040, s043, s051-s054); VERDICT (shorts): PASS. See reviews/visual_final.md.
 - Director replaced the arcs with filled half-disc polys + horizon (shotlist only), nudged the s232 microscope. Shotlist validates. Re-render of `final` requested via .rerender; creative-director package approval deferred to round 2.
 FINAL: REJECTED round 1: sun-arc render defect, shotlist fixed, awaiting re-render
+
+## 2026-10-13: final package gate, round 2
+- **Inputs:**
+  - reviews/visual_final.md round 2 (main PASS, shorts PASS; the re-render was confirmed fresh against the shotlist edit).
+  - qc.json (`problems: []`, 917.5 s, about 15.3 min).
+  - build/thumbnail.png, build/chapters.txt, metadata.json.
+  - Samples f_001/f_002 and the script's opening.
+- **Title: keep "The Most Disturbing Fungi Scientists Have Ever Found".**
+  - It pairs with the grid thumbnail (style bible 2: grid for "Most Disturbing X") and promises a list, which the video delivers with 10 items.
+  - None of the alternates is clearly stronger. "What Dying From Every Body-Snatching Fungus..." would want a hero thumbnail, and its claim is false for the two survivals plus the sober cards. The other alternates are weaker or rely on Doug's name.
+  - The alternates stay on file for a later Test & Compare.
+- **Thumbnail A:** all 9 tiles read at feed size. There are four open loops (Sunset Pose, 90 Species, King's Tomb, 37°C), no title words, soft cartoon fuzz only and no gore. It matches s001.
+- **Description/chapters:**
+  - The hook paragraph matches the content.
+  - There are 6 key sources, plus a disclaimer, the AI-use note and "not medical advice".
+  - Chapters start at 0:00, there are 11 of them, every one is at least 10 s, and they map to the 10 items.
+  - Tags are on-topic. The playlist is `parasites`.
+- **First 60 s:** "Massospora." comes at word 33 and the twist ("It isn't dying. It's delivering.") lands inside 45 s. Sample frames show a clean topbar, counter 139, Doug on-model in the cicada costume, and the map and branch reading cleanly. I'd click and keep watching.
+- **Policy:** nothing aimed at children, no gore, no medical advice, every claim sourced, and the title is delivered.
+- **Carry-forward advisories (not blocking):**
+  1. A9: each Short's preview frame should be grabbed at the end of a caption chunk.
+  2. Remove thumbnail B's red arrow before any test.
+  3. The next thumbnail should not be a grid (017 is the fourth grid in a row).
+- Series bible: the 017 row status is updated. The counter was already 147.
+
+FINAL: APPROVED
