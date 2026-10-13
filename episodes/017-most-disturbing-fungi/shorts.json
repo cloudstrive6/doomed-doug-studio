@@ -1,0 +1,37 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s094",
+      "to": "s102",
+      "hook": "This fungus is linked to ninety presumed-extinct frog species.",
+      "hook_scene_from": "s097",
+      "title": "This Fungus Is Erasing Entire Frog Species",
+      "outro": "Then Doug goes for a swim. The full dive is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s143",
+      "to": "s151",
+      "hook": "An earthquake once shook a fungus loose onto a whole county.",
+      "hook_scene_from": "s145",
+      "title": "The Earthquake That Caused a Fungus Outbreak",
+      "outro": "What happens next is even worse. The full dive is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s250",
+      "to": "s257",
+      "hook": "Most fungi can't survive your body heat. This one might.",
+      "hook_scene_from": "s246",
+      "title": "The Fungus Learning to Beat Our Body Heat",
+      "outro": "Then Doug turns up his thermostat. The full dive is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    }
+  ]
+}
