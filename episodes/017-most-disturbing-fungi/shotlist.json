@@ -2958,7 +2958,7 @@
      {
       "type": "wordart",
       "text": "DELIVERING",
-      "x": 960,
+      "x": 900,
       "y": 230,
       "size": 110,
       "boil": 0,
@@ -5350,7 +5350,7 @@
      {
       "type": "label",
       "text": "ENTOMOPHTHORA MUSCAE",
-      "x": 960,
+      "x": 900,
       "y": 260,
       "size": 48,
       "bold": true,
@@ -7168,7 +7168,7 @@
      {
       "type": "wordart",
       "text": "ALARM CLOCK",
-      "x": 960,
+      "x": 900,
       "y": 260,
       "size": 96,
       "boil": 0,
@@ -7864,7 +7864,8 @@
       "y": 540,
       "scale": 1.0,
       "silhouette": true,
-      "glow_r": 320
+      "glow_r": 320,
+      "glow": "#5e4670"
      },
      {
       "type": "asset",
@@ -8284,7 +8285,7 @@
      },
      {
       "type": "doug",
-      "x": 180,
+      "x": 250,
       "y": 876.4,
       "scale": 0.55,
       "pose": "stand",
@@ -8294,7 +8295,7 @@
      {
       "type": "asset",
       "name": "fly_costume",
-      "x": 180,
+      "x": 250,
       "y": 876.4,
       "scale": 0.55
      },
@@ -8563,7 +8564,7 @@
      },
      {
       "type": "doug",
-      "x": 180,
+      "x": 250,
       "y": 876.4,
       "scale": 0.55,
       "pose": "stand",
@@ -8573,7 +8574,7 @@
      {
       "type": "asset",
       "name": "fly_costume",
-      "x": 180,
+      "x": 250,
       "y": 876.4,
       "scale": 0.55
      },
@@ -8715,7 +8716,7 @@
      {
       "type": "wordart",
       "text": "FLY COSTUME",
-      "x": 960,
+      "x": 900,
       "y": 250,
       "size": 100,
       "boil": 0,
@@ -10215,13 +10216,20 @@
       "appear": 0.2
      },
      {
+      "type": "spray",
+      "x": 1160,
+      "y": 330,
+      "r": 200,
+      "color": "#fff7d0",
+      "density": 0.35,
+      "appear": 0.45
+     },
+     {
       "type": "asset",
       "name": "cave_spider_fuzz",
       "x": 1160,
       "y": 300,
       "scale": 0.6,
-      "silhouette": true,
-      "glow_r": 360,
       "appear": 0.45
      },
      {
@@ -10481,7 +10489,7 @@
      {
       "type": "label",
       "text": "GIBELLULA BANGBANGUS",
-      "x": 960,
+      "x": 900,
       "y": 200,
       "size": 52,
       "bold": true,
@@ -17872,38 +17880,6 @@
       "appear": 0.29
      },
      {
-      "type": "asset",
-      "name": "red_x",
-      "x": 780,
-      "y": 440,
-      "scale": 0.12,
-      "appear": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "red_x",
-      "x": 900,
-      "y": 440,
-      "scale": 0.12,
-      "appear": 0.35
-     },
-     {
-      "type": "asset",
-      "name": "red_x",
-      "x": 1020,
-      "y": 440,
-      "scale": 0.12,
-      "appear": 0.38
-     },
-     {
-      "type": "asset",
-      "name": "red_x",
-      "x": 1140,
-      "y": 440,
-      "scale": 0.12,
-      "appear": 0.41
-     },
-     {
       "type": "doug",
       "x": 1700,
       "y": 924.0,
@@ -18092,10 +18068,10 @@
      },
      {
       "type": "text",
-      "text": "90 SPECIES,",
+      "text": "GREATEST RECORDED LOSS",
       "x": 960,
-      "y": 470,
-      "size": 96,
+      "y": 400,
+      "size": 88,
       "color": "#ffffff",
       "bold": true,
       "boil": 0.3,
@@ -18105,10 +18081,23 @@
      },
      {
       "type": "text",
-      "text": "PRESUMED EXTINCT",
+      "text": "OF BIODIVERSITY",
       "x": 960,
-      "y": 620,
-      "size": 96,
+      "y": 520,
+      "size": 88,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0.3,
+      "outline": "#000000",
+      "outline_width": 6,
+      "max_width": 1700
+     },
+     {
+      "type": "text",
+      "text": "TO A DISEASE",
+      "x": 960,
+      "y": 640,
+      "size": 88,
       "color": "#ffffff",
       "bold": true,
       "boil": 0.3,
@@ -18120,8 +18109,8 @@
       "type": "asset",
       "name": "frog",
       "x": 960,
-      "y": 860,
-      "scale": 0.45,
+      "y": 900,
+      "scale": 0.4,
       "silhouette": true,
       "glow_r": 0,
       "appear": 0.5
@@ -23912,7 +23901,7 @@
       "type": "text",
       "text": "ENDANGERED",
       "x": 760,
-      "y": 560,
+      "y": 640,
       "size": 96,
       "color": "#e0201b",
       "bold": true,
@@ -28972,7 +28961,7 @@
      {
       "type": "wordart",
       "text": "DOUG IS FINE",
-      "x": 960,
+      "x": 900,
       "y": 260,
       "size": 100,
       "boil": 0,
@@ -29698,7 +29687,7 @@
      {
       "type": "wordart",
       "text": "MOST PEOPLE",
-      "x": 960,
+      "x": 900,
       "y": 260,
       "size": 100,
       "boil": 0,
@@ -31425,7 +31414,7 @@
      {
       "type": "label",
       "text": "ORDER OF ST. ANTHONY, 1095",
-      "x": 960,
+      "x": 900,
       "y": 180,
       "size": 48,
       "bold": true,
@@ -33446,7 +33435,7 @@
      {
       "type": "wordart",
       "text": "LIKE A GRAIN",
-      "x": 960,
+      "x": 900,
       "y": 220,
       "size": 96,
       "boil": 0,
@@ -34319,113 +34308,60 @@
       "outline": false
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        200,
-        960
-       ],
-       [
-        200,
-        300
-       ],
-       [
-        420,
-        160
-       ],
-       [
-        640,
-        300
-       ],
-       [
-        640,
-        960
-       ]
-      ],
-      "fill": "#33333c",
-      "color": "#1a1a20",
-      "width": 5
+      "type": "text",
+      "text": "ACCORDING TO LATER ACCOUNTS:",
+      "x": 960,
+      "y": 360,
+      "size": 64,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0.3,
+      "outline": "#000000",
+      "outline_width": 5,
+      "max_width": 1600
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        1280,
-        960
-       ],
-       [
-        1280,
-        300
-       ],
-       [
-        1500,
-        160
-       ],
-       [
-        1720,
-        300
-       ],
-       [
-        1720,
-        960
-       ]
-      ],
-      "fill": "#33333c",
-      "color": "#1a1a20",
-      "width": 5
+      "type": "text",
+      "text": "10 OF ~12",
+      "x": 960,
+      "y": 520,
+      "size": 110,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0.3,
+      "outline": "#000000",
+      "outline_width": 6,
+      "max_width": 1600,
+      "appear": 0.35
      },
      {
-      "type": "rect",
-      "x": 0,
-      "y": 960,
-      "w": 1920,
-      "h": 120,
-      "fill": "#2c2c33",
-      "color": "#2c2c33",
-      "width": 0,
-      "boil": 0,
-      "outline": false
+      "type": "text",
+      "text": "DIED",
+      "x": 960,
+      "y": 670,
+      "size": 110,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0.3,
+      "outline": "#000000",
+      "outline_width": 6,
+      "max_width": 1600,
+      "appear": 0.6
      },
      {
       "type": "line",
       "points": [
        [
-        0,
-        960
+        660,
+        780
        ],
        [
-        1920,
-        960
+        1260,
+        780
        ]
       ],
-      "color": "#000000",
+      "color": "#ffffff",
       "width": 4
-     },
-     {
-      "type": "asset",
-      "name": "stone_tomb_open",
-      "x": 960,
-      "y": 960,
-      "scale": 1.0
-     },
-     {
-      "type": "spray",
-      "x": 960,
-      "y": 600,
-      "r": 180,
-      "color": "#d8d0c0",
-      "density": 0.3
-     },
-     {
-      "type": "label",
-      "text": "ACCORDING TO LATER ACCOUNTS",
-      "x": 960,
-      "y": 220,
-      "size": 40,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff",
-      "appear": 0.3
      }
     ]
    },
@@ -34910,53 +34846,208 @@
       "y": 0,
       "w": 1920,
       "h": 1080,
-      "fill": "#4a4e54",
-      "color": "#4a4e54",
+      "fill": "#f4f1dc",
+      "color": "#f4f1dc",
       "width": 0,
       "boil": 0,
       "outline": false
      },
      {
-      "type": "text",
-      "text": "10 OF 12",
-      "x": 960,
-      "y": 470,
-      "size": 96,
-      "color": "#ffffff",
-      "bold": true,
-      "boil": 0.3,
-      "outline": "#000000",
-      "outline_width": 6,
-      "max_width": 1700
+      "type": "asset",
+      "name": "body_outline",
+      "x": 900,
+      "y": 560,
+      "scale": 1.0
      },
      {
-      "type": "text",
-      "text": "RESEARCHERS DIED",
-      "x": 960,
-      "y": 620,
-      "size": 96,
-      "color": "#ffffff",
-      "bold": true,
-      "boil": 0.3,
-      "outline": "#000000",
-      "outline_width": 6,
-      "max_width": 1700
-     },
-     {
-      "type": "line",
+      "type": "poly",
       "points": [
        [
-        660,
-        760
+        888,
+        310
        ],
        [
-        1260,
-        760
+        852,
+        318
+       ],
+       [
+        822,
+        374
+       ],
+       [
+        814,
+        460
+       ],
+       [
+        830,
+        492
+       ],
+       [
+        884,
+        478
        ]
       ],
-      "color": "#ffffff",
+      "fill": "#f2a3a3",
+      "color": "#1a1a1a",
       "width": 4,
-      "appear": 0.5
+      "smooth": true
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        912,
+        310
+       ],
+       [
+        948,
+        318
+       ],
+       [
+        978,
+        374
+       ],
+       [
+        986,
+        460
+       ],
+       [
+        970,
+        492
+       ],
+       [
+        916,
+        478
+       ]
+      ],
+      "fill": "#f2a3a3",
+      "color": "#1a1a1a",
+      "width": 4,
+      "smooth": true
+     },
+     {
+      "type": "circle",
+      "x": 260,
+      "y": 300,
+      "r": 14,
+      "fill": "#7a8a3a",
+      "color": "#3a4420",
+      "width": 2,
+      "appear": 0.1
+     },
+     {
+      "type": "circle",
+      "x": 330,
+      "y": 360,
+      "r": 14,
+      "fill": "#7a8a3a",
+      "color": "#3a4420",
+      "width": 2,
+      "appear": 0.12
+     },
+     {
+      "type": "circle",
+      "x": 220,
+      "y": 410,
+      "r": 14,
+      "fill": "#7a8a3a",
+      "color": "#3a4420",
+      "width": 2,
+      "appear": 0.14
+     },
+     {
+      "type": "circle",
+      "x": 380,
+      "y": 280,
+      "r": 14,
+      "fill": "#7a8a3a",
+      "color": "#3a4420",
+      "width": 2,
+      "appear": 0.16
+     },
+     {
+      "type": "circle",
+      "x": 300,
+      "y": 470,
+      "r": 14,
+      "fill": "#7a8a3a",
+      "color": "#3a4420",
+      "width": 2,
+      "appear": 0.18
+     },
+     {
+      "type": "circle",
+      "x": 420,
+      "y": 400,
+      "r": 14,
+      "fill": "#7a8a3a",
+      "color": "#3a4420",
+      "width": 2,
+      "appear": 0.2
+     },
+     {
+      "type": "circle",
+      "x": 250,
+      "y": 520,
+      "r": 14,
+      "fill": "#7a8a3a",
+      "color": "#3a4420",
+      "width": 2,
+      "appear": 0.22
+     },
+     {
+      "type": "arrow",
+      "from": [
+       460,
+       380
+      ],
+      "to": [
+       820,
+       370
+      ],
+      "bend": -40,
+      "color": "#e0201b",
+      "width": 8,
+      "appear": 0.3
+     },
+     {
+      "type": "wordart",
+      "text": "LUNG INFECTIONS",
+      "x": 1420,
+      "y": 420,
+      "size": 72,
+      "boil": 0,
+      "appear": 0.25
+     },
+     {
+      "type": "label",
+      "text": "WEAK IMMUNE SYSTEMS",
+      "x": 900,
+      "y": 1010,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.65
+     },
+     {
+      "type": "doug",
+      "x": 1500,
+      "y": 853.6,
+      "scale": 0.7,
+      "pose": "stand",
+      "expression": "gritted",
+      "facing": "left"
+     },
+     {
+      "type": "label",
+      "text": "DOUG DEATHS: 145",
+      "x": 1590,
+      "y": 162,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
      }
     ]
    },
@@ -35122,7 +35213,7 @@
      {
       "type": "wordart",
       "text": "CANCER DRUG LEAD",
-      "x": 860,
+      "x": 800,
       "y": 260,
       "size": 90,
       "boil": 0,
@@ -35206,7 +35297,7 @@
      {
       "type": "label",
       "text": "UNIVERSITY OF PENNSYLVANIA",
-      "x": 960,
+      "x": 900,
       "y": 180,
       "size": 44,
       "bold": true,
@@ -36762,7 +36853,7 @@
      {
       "type": "wordart",
       "text": "DOUG IS FINE",
-      "x": 960,
+      "x": 900,
       "y": 200,
       "size": 96,
       "boil": 0,
@@ -36960,23 +37051,16 @@
      {
       "type": "asset",
       "name": "pine_tree",
-      "x": 160,
+      "x": 60,
       "y": 800,
       "scale": 1.0
      },
      {
       "type": "asset",
       "name": "pine_tree",
-      "x": 1780,
+      "x": 1860,
       "y": 790,
       "scale": 0.9
-     },
-     {
-      "type": "asset",
-      "name": "pine_tree",
-      "x": 520,
-      "y": 780,
-      "scale": 0.7
      },
      {
       "type": "rect",
@@ -37033,8 +37117,8 @@
       "type": "text",
       "text": "CRYPTOCOCCUS GATTII",
       "x": 960,
-      "y": 330,
-      "size": 130,
+      "y": 380,
+      "size": 100,
       "color": "#e0201b",
       "bold": true,
       "boil": 0.3,
@@ -37413,82 +37497,98 @@
      {
       "type": "asset",
       "name": "large_dog",
-      "x": 260,
+      "x": 230,
       "y": 760,
       "scale": 0.6,
-      "appear": 0.1
+      "appear": 0.08
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 260,
+      "x": 230,
       "y": 420,
       "scale": 0.18,
-      "appear": 0.14
+      "appear": 0.11
      },
      {
       "type": "asset",
       "name": "cat",
-      "x": 540,
+      "x": 470,
       "y": 760,
       "scale": 0.45,
-      "appear": 0.22
+      "appear": 0.18
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 540,
+      "x": 470,
       "y": 420,
       "scale": 0.18,
-      "appear": 0.26
+      "appear": 0.21
+     },
+     {
+      "type": "asset",
+      "name": "ferret",
+      "x": 700,
+      "y": 760,
+      "scale": 0.4,
+      "appear": 0.28
+     },
+     {
+      "type": "asset",
+      "name": "question_mark",
+      "x": 700,
+      "y": 420,
+      "scale": 0.18,
+      "appear": 0.31
      },
      {
       "type": "asset",
       "name": "porpoise",
-      "x": 860,
+      "x": 980,
       "y": 760,
       "scale": 0.5,
-      "appear": 0.34
-     },
-     {
-      "type": "asset",
-      "name": "question_mark",
-      "x": 860,
-      "y": 420,
-      "scale": 0.18,
       "appear": 0.38
      },
      {
       "type": "asset",
+      "name": "question_mark",
+      "x": 980,
+      "y": 420,
+      "scale": 0.18,
+      "appear": 0.41
+     },
+     {
+      "type": "asset",
       "name": "llama",
-      "x": 1180,
+      "x": 1260,
       "y": 760,
       "scale": 0.55,
-      "appear": 0.46
+      "appear": 0.48
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1180,
+      "x": 1260,
       "y": 420,
       "scale": 0.18,
-      "appear": 0.5
+      "appear": 0.51
      },
      {
       "type": "asset",
       "name": "horse",
-      "x": 1520,
+      "x": 1560,
       "y": 760,
       "scale": 0.45,
-      "appear": 0.58
+      "appear": 0.6
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1520,
+      "x": 1560,
       "y": 420,
       "scale": 0.18,
-      "appear": 0.62
+      "appear": 0.63
      },
      {
       "type": "doug",
@@ -37534,70 +37634,84 @@
      {
       "type": "asset",
       "name": "large_dog",
-      "x": 260,
+      "x": 230,
       "y": 760,
       "scale": 0.6
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 260,
+      "x": 230,
       "y": 420,
       "scale": 0.18
      },
      {
       "type": "asset",
       "name": "cat",
-      "x": 540,
+      "x": 470,
       "y": 760,
       "scale": 0.45
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 540,
+      "x": 470,
+      "y": 420,
+      "scale": 0.18
+     },
+     {
+      "type": "asset",
+      "name": "ferret",
+      "x": 700,
+      "y": 760,
+      "scale": 0.4
+     },
+     {
+      "type": "asset",
+      "name": "question_mark",
+      "x": 700,
       "y": 420,
       "scale": 0.18
      },
      {
       "type": "asset",
       "name": "porpoise",
-      "x": 860,
+      "x": 980,
       "y": 760,
       "scale": 0.5
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 860,
+      "x": 980,
       "y": 420,
       "scale": 0.18
      },
      {
       "type": "asset",
       "name": "llama",
-      "x": 1180,
+      "x": 1260,
       "y": 760,
       "scale": 0.55
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1180,
+      "x": 1260,
       "y": 420,
       "scale": 0.18
      },
      {
       "type": "asset",
       "name": "horse",
-      "x": 1520,
+      "x": 1560,
       "y": 760,
       "scale": 0.45
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1520,
+      "x": 1560,
       "y": 420,
       "scale": 0.18
      },
@@ -42093,16 +42207,30 @@
      },
      {
       "type": "text",
-      "text": "footnote: new yeast",
+      "text": "FOOTNOTE:",
       "x": 820,
-      "y": 790,
-      "size": 22,
+      "y": 735,
+      "size": 40,
       "color": "#000000",
       "bold": true,
       "boil": 0.3,
       "outline": "#ffffff",
       "outline_width": 0,
-      "max_width": 1600,
+      "max_width": 480,
+      "appear": 0.3
+     },
+     {
+      "type": "text",
+      "text": "NEW YEAST",
+      "x": 820,
+      "y": 790,
+      "size": 40,
+      "color": "#000000",
+      "bold": true,
+      "boil": 0.3,
+      "outline": "#ffffff",
+      "outline_width": 0,
+      "max_width": 480,
       "appear": 0.3
      },
      {
@@ -43007,7 +43135,7 @@
      {
       "type": "label",
       "text": "CDC, 2019: URGENT THREAT",
-      "x": 960,
+      "x": 900,
       "y": 160,
       "size": 48,
       "bold": true,
@@ -43096,12 +43224,12 @@
       "name": "hospital_building",
       "x": 1000,
       "y": 900,
-      "scale": 1.0
+      "scale": 0.85
      },
      {
       "type": "label",
       "text": "CDC, 2019: URGENT THREAT",
-      "x": 960,
+      "x": 900,
       "y": 160,
       "size": 48,
       "bold": true,
@@ -43111,7 +43239,7 @@
      {
       "type": "label",
       "text": "WHO, 2022: CRITICAL PRIORITY",
-      "x": 960,
+      "x": 900,
       "y": 260,
       "size": 48,
       "bold": true,
@@ -50711,7 +50839,8 @@
       "scale": 0.5,
       "silhouette": true,
       "glow_r": 200,
-      "appear": 0.5
+      "appear": 0.5,
+      "glow": "#5e4670"
      },
      {
       "type": "doug",

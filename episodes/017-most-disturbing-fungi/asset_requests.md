@@ -77,6 +77,7 @@ There are 55 new drawings. Everything else in the shotlist already exists in `as
 | `paper_crown` | Gold paper party crown (zigzag points, a couple of stuck-on paper jewels), worn perched on top of the cap so the cap stays visible below. | Worn prop, anchor = hips (sits at about y -330..-430 at scale 1). | s201-s205 |
 | `bc_map` | Southwest British Columbia, Vancouver Island, Washington and Oregon, world_map style: flat green land, dark outline, light blue Pacific and Salish Sea, faint state and border lines, black frame, no labels. Projection `x = (lon + 122.5) * 70`, `y = -(lat - 46.75) * 80`. Frame lon -129..-116, lat 42..51.5 (x -455..455, y -380..380). | Anchor (0,0) = lon -122.5 / lat 46.75. | s209, s216, s220, s224-s225 |
 | `porpoise` | Harbour porpoise, side view: dark grey back, paler belly, small triangular dorsal fin, short blunt snout, no beak. | Facing right, anchor bottom-centre (belly line), about 420x160. | s210-s211 |
+| `ferret` | Domestic sable ferret standing, side view: long slim cream body, dark brown legs and tail, white face with a dark bandit mask, small round ears, pink nose. | Facing right, anchor bottom-centre (feet), about 570x165. | s210-s211 |
 | `llama` | Llama standing: cream-and-brown wool, long neck, banana ears, calm half-lidded eye. | Facing right, anchor bottom-centre, about 300x420. | s210-s211 |
 | `hospital_building` | Plain modern hospital seen only from outside: pale concrete block, a grid of blue windows, a glass entrance, a small red cross sign on the roof edge. No people, no beds, nothing visible through the windows. | Anchor bottom-centre, about 900x620. | s240-s242 |
 | `petri_dish_auris` | `petri_dish` geometry with smooth creamy-white yeast colonies (Candida auris) inside. | Same as `petri_dish`. | s231, s233, s250, s265-s266 |
@@ -103,3 +104,7 @@ There are 55 new drawings. Everything else in the shotlist already exists in `as
   - 145 and 146 are `on_back` + `dead` with the cap on.
   - 147 is `doug_fuzz_silhouette`.
 - **Sober cards** have no Doug, no counter and no joke, in white text: s099 (chytrid), s152 (Northridge), s168 (ergot), s192 (tomb), s223 (C. gattii). The C. auris card is s243, in dark text on a pale card. The two tomb-death narration shots (s186, s189) carry no joke either.
+
+## Visual review fixes (round 1, s210/s211)
+- [x] `porpoise` redrawn (it read as a fish): rounded melon head, no beak, smile line, blowhole with spout, triangular dorsal fin, tail stock bent up into broad horizontal flukes, smooth grey with dark cape and white belly. Same anchor (bottom-centre, belly line), now ~480x176. Preview: `assets/previews/017-assets.png`.
+- [x] `ferret` drawn (new). Preview: `assets/previews/017-assets.png`. Not yet placed in s210/s211: the director needs to add it (suggested scale 0.4, about 230 px wide, so it fits in the row).
