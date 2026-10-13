@@ -1,10 +1,10 @@
 <!-- axis: severity, measured by who the fungus can take. One insect at a time (items 1-3), then whole species (4-5), then people (6-10). The boss, Candida auris, is the one fungus that may be learning to beat the body heat that protects every mammal. Spoken section headers: "Insects." (opener, before item 1), "Whole species." (before item 4), "People." (before item 6; the costume comes off on screen here). -->
 <!-- Episode: deaths 140 to 147 (counter starts at 139). Survivals: Valley Fever (6) and The Tomb Fungus (8), both "Doug is fine." Costume gag: cicada, fly, spider, frog, bat; costume off at "People.". Befriending: "hi king?" (8), "hi friend?" (9). One callback to 002's ant fungus (item 2). Sober cards, no Doug, no joke: chytrid 90 species (4), Northridge 3 deaths (6), tomb researchers (8), C. gattii 19 deaths (9), C. auris numbers (10). No patients, beds or ill people are drawn anywhere. -->
-<!-- Pronunciation for the editor: Massospora = "mass-OSS-por-uh"; cathinone = "CATH-ih-nohn"; Entomophthora muscae = "en-toh-MOFF-thor-uh MUSS-kee"; Gibellula attenboroughii = "jib-EL-yoo-luh at-en-buh-ROH-ee-eye"; Castle Espie = "ESS-pee"; Metellina = "met-eh-LEE-nuh"; chytrid = "KIT-rid"; Batrachochytrium = "buh-TRAY-koh-KIT-ree-um"; Coccidioides = "cock-SID-ee-OY-deez"; Northridge = "NORTH-ridge"; Simi = "SEE-mee"; ergot = "UR-got"; Casimir = "KAZ-ih-meer"; Jagiellon = "yah-GYEL-on"; Wawel = "VAH-vel"; Kraków = "KRAH-koof"; Aspergillus flavus = "ass-per-JIL-us FLAY-vus"; asperigimycins = "ass-PEH-rih-jih-MY-sinz"; Cryptococcus gattii = "krip-toh-KOK-us GAT-ee-eye"; Candida auris = "CAN-did-uh OR-iss". -->
+<!-- Pronunciation for the editor: Massospora = "mass-OSS-por-uh"; cathinone = "CATH-ih-nohn"; Entomophthora muscae = "en-toh-MOFF-thor-uh MUSS-kee"; Gibellula attenboroughii = "jib-EL-yoo-luh at-en-buh-ROH-ee-eye"; Castle Espie = "ESS-pee"; Metellina = "met-eh-LEE-nuh"; chytrid = "KIT-rid"; Batrachochytrium = "buh-TRAY-koh-KIT-ree-um"; Coccidioides = "cock-SID-ee-OY-deez"; Northridge = "NORTH-ridge"; Simi = "SEE-mee"; ergot = "UR-got"; Casimir = "KAZ-ih-meer"; Jagiellon = "yah-GYEL-on"; Wawel = "VAH-vel"; Kraków = "KRAH-koof"; Aspergillus flavus = "ass-per-JIL-us FLAY-vus"; asperigimycins = "ass-PEH-rih-jih-MY-sinz"; Cryptococcus gattii = "krip-toh-KOK-us GAT-ee-eye"; Candida auris = "CAN-did-uh OR-iss"; Pseudogymnoascus destructans = "SOO-doh-jim-noh-ASS-kus deh-STRUK-tanz"; bangbangus = "bang-BANG-us". -->
 
 [Open on the thumbnail, 1.5 to 4 seconds: the 3x3 grid of hosts taken over. Cut to a pale mould-green field. Doug stands in a cicada costume, red cap on top, looking at a tray of soft white fuzz. DOUG DEATHS: 139.]
 
-Every fungus on this list has taken control of something alive, and a few have started on people. Today, each one gets a turn with Doug.
+Every fungus on this list has taken over something alive, and a few have started on people. Today, each one gets a turn with Doug.
 
 Doug did not agree to this.
 
@@ -38,8 +38,6 @@ Infected males even start flicking their wings the way females do when they're r
 
 Chemists have also found cathinone inside infected cicadas, a stimulant related to amphetamine, and the researchers think it may help keep the insects going while they fall apart.
 
-Later in the season, a second form of the fungus makes tough resting spores instead, which fall into the soil and wait for the next generation to come up.
-
 Massospora is built for cicadas and can't infect people, which is exactly why Doug is dressed as a cicada.
 
 [Doug the cicada waves to the other cicadas. The back end of his costume pops off like a cork. He doesn't notice. A bird lands. Doug, X eyes, ghost floats up. The cap sits on a branch. DOUG DEATHS: 140.]
@@ -48,7 +46,7 @@ Doug kept waving at the other cicadas while the back of his costume popped off l
 
 Doug has died. Again.
 
-Seventeen years underground, one month in the sun, and the fungus gets most of the month.
+Seventeen years underground, one month in the sun, and the fungus gets the rest.
 
 ## Death-Pose Fly Fungus
 
@@ -98,7 +96,7 @@ In twenty twenty-one, a BBC crew was filming the nature show Winterwatch at Cast
 
 [A volunteer with a torch points at the ceiling. A spider covered in soft white fuzz.]
 
-On the ceiling of an old Victorian gunpowder store was a spider coated in white fungus. DNA tests later showed that nobody had ever described this fungus before. In January twenty twenty-five, scientists named it Gibellula attenboroughii, after David Attenborough.
+On the ceiling of an old Victorian gunpowder store was a spider coated in white fungus. DNA tests later showed that nobody had ever described this fungus before. Viewers of the BBC's Springwatch nicknamed it Gibellula bangbangus, after the gunpowder store. In January twenty twenty-five, scientists gave it a proper name, Gibellula attenboroughii, after David Attenborough.
 
 [A cave spider, creature tier, next to a credit card. Its legs span roughly the card's short side.]
 
@@ -132,21 +130,21 @@ Chytrid.
 
 Every fungus so far has taken one animal at a time, but this one is counted in species.
 
-Chytrid is a fungus that lives in the skin of frogs, toads and other amphibians, which is a bad place for a fungus to be, because frogs drink and breathe partly through their skin.
+Chytrid lives in the skin of frogs, toads and other amphibians, which is a bad place for a fungus to be, because frogs drink and breathe partly through their skin.
 
 [A frog outline with arrows of water and salts moving through the skin. The arrows thin out.]
 
-The fungus wrecks the way that skin moves salts in and out. In a study on green tree frogs, salt transport across the skin dropped by more than half, the salts in the blood fell, and in the end the heart simply stopped.
+The fungus wrecks how that skin moves salts. In a study on green tree frogs, salt transport across the skin dropped by more than half, the salts in the blood fell, and in the end the heart simply stopped.
 
 [A map of the world. One dot on the Korean peninsula, then arrows fanning out along shipping routes.]
 
-Genetic studies trace the strain behind the outbreak to the Korean peninsula. It began spreading in the early twentieth century, around the same time the global trade in amphibians took off, and it rode that trade around the world.
+Genetic studies trace the outbreak strain to the Korean peninsula. It began spreading in the early twentieth century, around the same time the global trade in amphibians took off, and it rode that trade around the world.
 
 [A deck of fifty-two cards. Three and a half cards turn grey.]
 
 Here comes the part that's hard to say out loud. A major study in twenty nineteen linked chytrid to the decline of at least five hundred and one amphibian species. That's roughly six and a half percent of every known amphibian, or more than three cards out of every fifty-two card deck.
 
-Ninety of those species are presumed extinct. The declines peaked in the nineteen eighties, and only about one in eight of the affected species shows any sign of recovery.
+Ninety of those species are presumed extinct, and only about one in eight of the rest shows any sign of recovery.
 
 [Sober card on a dark olive background, no Doug: "90 SPECIES, PRESUMED EXTINCT".]
 
@@ -154,7 +152,7 @@ The study's authors called it the greatest recorded loss of biodiversity caused 
 
 It isn't killing frogs. It's deleting kinds of frog.
 
-Chytrid isn't known to affect humans, but Doug is a frog anyway.
+Chytrid isn't known to affect humans, which is why Doug is a frog.
 
 [Doug the frog sits in a clean pond reading a pamphlet titled "CLEAN WATER". The water is clean. X eyes. Ghost Doug rises. The cap floats on a lily pad. DOUG DEATHS: 143.]
 
@@ -224,7 +222,7 @@ Here's the twist. On January seventeenth, nineteen ninety-four, the Northridge e
 
 [A counter ticks up to 203.]
 
-Over the next eight weeks, Ventura County recorded two hundred and three cases, roughly ten times what doctors would normally expect, with the most new cases appearing about two weeks after the earthquake. More than half of them were in Simi Valley, and people caught in the dust clouds had about three times the odds of being diagnosed. It was the first outbreak of its kind ever reported after an earthquake.
+Over the next eight weeks, Ventura County recorded two hundred and three cases, roughly ten times what doctors would normally expect, with the most new cases appearing about two weeks after the earthquake. More than half of them were in Simi Valley, and people caught in the dust clouds had about three times the odds of being diagnosed. It was the first outbreak of its kind ever reported after an earthquake. Valley fever doesn't spread from person to person, so every one of those cases came straight out of the dust.
 
 [Sober card, cave-grey, no Doug: "3 PEOPLE DIED".]
 
@@ -252,7 +250,7 @@ Ergot is a fungus that grows on rye, and it replaces the grain with a hard spur,
 
 [A baker's sack of rye. A few dark spurs mixed in. Then a loaf of bread.]
 
-At harvest, the spurs were ground into flour along with everything else, and in parts of Europe, poor families lived largely on rye bread.
+At harvest, the spurs ended up in the grain, and the outbreaks hit hardest among people who lived largely on rye bread.
 
 [A stone hospital with a cross on the door. Label: "ORDER OF ST. ANTHONY, 1095".]
 
@@ -262,7 +260,7 @@ People called the illness holy fire, for the burning it caused, and later Saint 
 
 Between the years nine ninety and eleven thirty, an estimated fifty thousand people or more died of it in southern France alone.
 
-The unsettling part is that for centuries, the poison was the bread, and nobody could see the difference. Scientists didn't even suggest that the spur was a fungus until seventeen eleven.
+The unsettling part is that for centuries, the poison was the bread, and nobody could see the difference.
 
 [A courtroom in Salem, 1692. A question mark over a loaf.]
 
@@ -290,7 +288,7 @@ King Casimir the Fourth of Poland died in fourteen ninety-two, the same year Col
 
 [1973. A group of stick researchers with lamps open the lid. Soft dust drifts out.]
 
-The tomb stayed sealed for nearly five hundred years. In nineteen seventy-three, a team of about a dozen researchers opened it, and within a short time, ten of them had died.
+The tomb stayed sealed for nearly five hundred years. In nineteen seventy-three, a team of about a dozen researchers opened it, and according to later accounts, ten of them died within weeks.
 
 [A newspaper headline: "CURSE".]
 
@@ -308,9 +306,9 @@ But here's the strange part. The curse fungus is now a lead for a cancer drug.
 
 In twenty twenty-five, scientists at the University of Pennsylvania pulled a new family of molecules out of Aspergillus flavus and named them asperigimycins. In lab dishes, two of them had strong effects against leukemia cells, and one modified version did about as well as two drugs already used to treat leukemia.
 
-So far that's only in the lab, on cells, with animal testing next, and it's a long way from a cure.
+The same compounds did little or nothing to breast, liver or lung cancer cells. So far that's only in the lab, on cells, with animal testing next, and it's a long way from a cure.
 
-[Doug in a paper crown pushes open the tomb. Speech bubble: "hi king?". Nothing happens. A small cloud of dust settles on his cap. DOUG DEATHS: 145.]
+[Hold a clear beat after the sober card before Doug appears. Doug in a paper crown pushes open the tomb. Speech bubble: "hi king?". Nothing happens. A small cloud of dust settles on his cap. DOUG DEATHS: 145.]
 
 Doug opened the tomb wearing a paper crown and said, "hi king?" Nothing happened at all.
 
@@ -378,7 +376,7 @@ In twenty nineteen, the Centers for Disease Control put it on its list of urgent
 
 [A thermometer at 37 degrees. Around it, a wall. Fungi bump against the wall and fall back.]
 
-To understand why this one matters, you need to know about the wall.
+To see why this one matters, you need to know about the wall.
 
 Our bodies sit at about thirty-seven degrees Celsius, and most fungi simply can't grow that warm. When researchers tested nearly five thousand fungal strains, every one-degree rise between thirty and forty degrees shut out about six percent more of them. That heat is one big reason mammals rarely get fungal infections.
 
@@ -386,7 +384,7 @@ Our bodies sit at about thirty-seven degrees Celsius, and most fungi simply can'
 
 When it was first described, Candida auris grew well at forty degrees. That's hotter than our bodies, and about as hot as safety regulators say a hot tub should ever get.
 
-And here's the most disturbing part. One hypothesis says it learned to handle that heat out in the world, adapting to warmer temperatures as the climate warmed, until our bodies were no longer too hot for it. It's only a hypothesis, and the researchers themselves say it will be hard to prove.
+And here's where it gets personal. One hypothesis says it learned to handle that heat out in the world, adapting to warmer temperatures as the climate warmed, until our bodies were no longer too hot for it. It's only a hypothesis, and the researchers say it will be hard to prove.
 
 Our body heat has been a wall against fungi for millions of years. This might be the first one learning to climb it.
 
@@ -402,4 +400,4 @@ The cap has outlived one hundred and forty-seven Dougs, and as of today, it is a
 
 Doug deaths: one hundred and forty-seven. Which fungus on this list would you least like to meet? Tell us in the comments.
 
-<!-- words: 2934 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:04 at 195 wpm · draft 1 (2026-10-13) · 10 items · first item name at spoken word 33 · item 1 twist at spoken word about 125 · first death at about spoken word 290 (about 1:30) · avg sentence 14.2 words, max 34 · Flesch about 67 · outro 22 words · twist markers: The disturbing part is / The worst part is / Here is the eerie part / Here comes the part that is hard to say out loud / The catch is / Here is the twist / The unsettling part is / But here is the strange part / Here is the problem / And here is the most disturbing part -->
+<!-- words: 2920 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 14:58 at 195 wpm · draft 2 (2026-10-13; review F1, rule 14, advisories) · 10 items · first item name at spoken word 33 · item 1 twist at spoken word 126 · first death at spoken word 258 (about 1:19) · avg sentence 14.1 words, max 33 · Flesch about 67 · outro 22 words · twist markers: The disturbing part is / The worst part is / Here is the eerie part / Here comes the part that is hard to say out loud / The catch is / Here is the twist / The unsettling part is / But here is the strange part / Here is the problem / And here is where it gets personal -->

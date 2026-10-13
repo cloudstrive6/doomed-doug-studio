@@ -1,6 +1,6 @@
 # Facts: 017 The Most Disturbing Fungi Scientists Have Ever Found (working)
 
-Every factual claim in script.md is listed here with its source. Checked 2026-10-13 (draft 1).
+Every factual claim in script.md is listed here with its source. Checked 2026-10-13 (draft 1). Revised for draft 2 after script_review.md (F1, rule 14, advisories).
 "Fetched" means I read the claim on the page with WebFetch. "Search" means I confirmed it from search-result text quoting the page
 (the page blocked WebFetch or I did not open it). The screener should re-open the "Search" lines first.
 
@@ -30,6 +30,7 @@ plant in his parasite days" is series lore: 002 zombie ant fungus).
 - Brief: tomb deaths "within a few years": Penn says "within weeks"; script says "within a short time".
 - Massospora "keeps calling": no source; cut.
 - Massospora relative with psilocybin: cut (optional, drug-risk).
+- Draft 2: ergot "not suggested to be a fungus until 1711" cut (screener F1: unverifiable, sources disagree). Massospora resting-spore sentence cut for pacing (first death earlier).
 
 ## Opener
 | Claim | Source |
@@ -41,7 +42,7 @@ plant in his parasite days" is series lore: 002 zombie ant fungus).
 |---|---|
 | Periodical cicadas spend 13 or 17 years underground and emerge together | University of Missouri Extension, periodical cicada guide: https://extension.missouri.edu/g7259 (search) |
 | About a month above ground | Scientific American, Artful Amoeba, "Zombie Cicadas' Bodies Are Literally Falling Apart" ("their month topside"): https://www.scientificamerican.com/blog/artful-amoeba/zombie-cicadas-bodies-are-literally-falling-apart (fetched) |
-| Resting spores wait in soil for the next generation; a later (Stage II) form makes resting spores | Cooley, Marshall & Hill 2018, Scientific Reports 8:1432, abstract reproduced at https://cicadamania.com/cicadas/new-paper-massospora-cicadina-hijacks-the-sexual-signals-of-periodical-cicadas (search) |
+| Spores left in the soil by an earlier generation infect emerging cicadas (Stage II resting spores wait for the next generation) | Cooley, Marshall & Hill 2018, Scientific Reports 8:1432, abstract reproduced at https://cicadamania.com/cicadas/new-paper-massospora-cicadina-hijacks-the-sexual-signals-of-periodical-cicadas (search) |
 | The fungus destroys the lower half of the abdomen; chalky white spore plug | National Geographic, "This fungus turns cicadas into zombies who procreate until they die": https://www.nationalgeographic.com/animals/article/cicadas-fungus-massospora-parasite (fetched; Kasson: "chalky white") |
 | Joints between segments break down; terminal segments fall off | Boyce et al. 2019, Fungal Ecology (preprint): https://www.biorxiv.org/content/10.1101/375105v2.full ("destroys intersegmental membranes, progressively sloughing off abdominal sclerites") (search); Scientific American (above, fetched: "several terminal segments of their body to fall off") |
 | They keep flying and trying to mate, spreading spores | National Geographic (above, fetched); Scientific American (above, fetched) |
@@ -49,7 +50,7 @@ plant in his parasite days" is series lore: 002 zombie ant fungus).
 | Cathinone, an amphetamine-type stimulant, found in infected periodical cicadas; may contribute to keeping them active | Boyce et al. 2019 (above); National Geographic (above, fetched: "likely contributes to their prolonged wakefulness") |
 | Can't infect people | Field Museum scientists quoted by NPR: https://www.kpbs.org/news/science-technology/2024/06/06/a-fungus-is-turning-cicadas-into-horny-zombies-but-dont-panic (search: "other animals and people can't get infected by it") |
 | Comparison: about the length of a paperclip | Periodical cicada adults 0.75 to 1.5 inches (Missouri Extension, above); standard paper clip 1 1/4 inches (Uline "Standard" clips: https://www.uline.com/Product/Detail/S-24288/Desk-Supplies/Paper-Clips-Standard, search) |
-| Kicker "seventeen years underground, one month in the sun" | as above (17-year broods; month topside) |
+| Kicker "seventeen years underground, one month in the sun, and the fungus gets the rest" | as above (17-year broods; month topside). "Gets the rest" refers to the rest of the cicada (the fungus takes the abdomen and spreads through the host); no timing claim. Draft 1's "gets most of the month" was cut as unsourced. |
 
 ## 2. Death-Pose Fly Fungus
 | Claim | Source |
@@ -70,6 +71,7 @@ plant in his parasite days" is series lore: 002 zombie ant fungus).
 |---|---|
 | 2021, BBC Winterwatch filming, Castle Espie wetland reserve, Northern Ireland; volunteer spotted it; old Victorian gunpowder store | WWT: https://www.wwt.org.uk/wetland-centres/castle-espie/news/gibellula-attenboroughii (fetched); Popular Science: https://www.popsci.com/environment/zombie-spider-fungus/ (fetched: "on the ceiling of an abandoned gunpowder storeroom") |
 | DNA testing confirmed it was new to science | WWT (fetched) |
+| Springwatch viewers nicknamed it Gibellula bangbangus, after the discovery site (the gunpowder store) | WWT (fetched: "first nicknamed Gibellula bangbangus by BBC Springwatch viewers"); Popular Science (fetched) |
 | Named Gibellula attenboroughii after David Attenborough; described January 2025 (Fungal Systematics and Evolution, 24 Jan 2025) | Popular Science (fetched); WWT (fetched) |
 | Hosts: orb-weaving cave spiders Metellina merianae and Meta menardi | WWT (fetched); Popular Science (fetched) |
 | These spiders keep to dim, damp places | Popular Science (fetched: "normally reclusive ... dark, damp habitats"); BCRA Cave Life: https://www.bcra.org.uk/cavelife/yorkshire/spiders.html (fetched) |
@@ -112,6 +114,7 @@ plant in his parasite days" is series lore: 002 zombie ant fungus).
 | About 60% of people infected have no symptoms | CDC "Facts about Valley Fever": https://gacc.nifc.gov/oscc/cwcg/docs/Facts-about-valley-fever%20Wildland%20Fire_JUN2024%20(1).pdf (search: "most people (60%) who are exposed ... never have symptoms") |
 | Spores (arthroconidia) about 2 to 5 micrometers | StatPearls (NCBI Bookshelf): https://www.ncbi.nlm.nih.gov/books/NBK448161/ (search) |
 | Comparison: human hair about 70 micrometers; 70 / 5 = 14, so more than a dozen spores across one hair | EPA PM basics: https://www.epa.gov/pm-pollution/particulate-matter-pm-basics (search: "The average human hair is about 70 micrometers in diameter") |
+| Valley fever is not contagious (no person-to-person spread) | CDC "Facts about Valley Fever" (above, search: "cannot be spread from an infected person or animal to another person") |
 | Northridge earthquake, 17 January 1994 | USGS: https://www.usgs.gov/publications/a-coccidioidomycosis-outbreak-following-northridge-calif-earthquake (search) |
 | Landslides in mountains near Simi Valley; dust clouds carried spores; 203 cases including 3 deaths in Ventura County, 24 Jan to 15 Mar 1994; Simi Valley 56% of cases; onset peaked 2 weeks after the quake; dust-cloud exposure odds ratio 3.0; first reported outbreak after an earthquake | Schneider et al. 1997, JAMA 277:904: https://pubmed.ncbi.nlm.nih.gov/9062329/ (search, abstract) |
 | "Over the next eight weeks", about an order of magnitude more than expected ("roughly ten times") | Jibson 2002 review, USGS: https://pubs.usgs.gov/publication/70023977 (search: "203 outbreak-associated cases ... in the 8 weeks following the earthquake, about an order of magnitude more than expected") |
@@ -121,10 +124,10 @@ plant in his parasite days" is series lore: 002 zombie ant fungus).
 |---|---|
 | Claviceps purpurea grows on rye and replaces the grain with a hard sclerotium | Bayer Crop Science: https://www.cropscience.bayer.ca/articles/2021/managing-ergot-in-cereal-crops (search: sclerotia replace kernels; "hard, dark purple to black") |
 | Sclerotia 2-20 mm; some about ten times the size of a normal grain | University of Nebraska Extension EC1880: https://extensionpubs.unl.edu/publication/ec1880/na/pdf/view (search) |
-| Spurs ground into flour; epidemics worst among people living on rye; poor diet of rye bread | Microbiology Society, "The highs and lows of ergot": https://microbiologysociety.org/resource/the-highs-and-lows-of-ergot.html (fetched) |
+| Spurs ended up in the grain; eating contaminated grain products, especially rye, caused ergotism | Wikipedia, Ergotism: https://en.wikipedia.org/wiki/Ergotism (fetched: "eating grain products, particularly rye, contaminated with the fungus Claviceps purpurea was the cause of ergotism") |
+| Outbreaks hit hardest among people living largely on rye bread | Microbiology Society, "The highs and lows of ergot": https://microbiologysociety.org/resource/the-highs-and-lows-of-ergot.html (fetched: epidemics "most severe among those who subsisted on a diet high in rye") |
 | Called holy fire (ignis sacer) for the burning sensation; later St Anthony's Fire after the Order of St Anthony, founded in southern France in 1095, which built over 370 hospitals | Microbiology Society (fetched) |
 | 990-1130 AD, an estimated 50,000+ deaths in southern France | Microbiology Society (fetched) |
-| First suggestion that ergot was a fungus: Geoffroy, 1711 | University of Hawaii Botany, "Ergot of Rye - I: Introduction and History" (search; via http://www.botany.hawaii.edu/faculty/wong/BOT135/LECT12.HTM) |
 | Caporael 1976, Science, proposed ergotism behind the Salem accusations | Science 192:21 (1976); summary: https://en.wikipedia.org/wiki/Linnda_R._Caporael ; Salem Witch Museum: https://salemwitchmuseum.com/2023/05/17/debunking-the-moldy-bread-theory/ (search) |
 | Spanos and Gottlieb 1976, Science 194:1390, concluded the evidence did not support it | Salem Witch Museum (above); eNotes reprint: https://enotes.com/topics/salem-witch-trials/criticism/search-causes/nicholas-p-spanos-and-jack-gottlieb-essay-date (search) |
 | Ergotamine still used for migraine; ergometrine used to stop postnatal bleeding | Microbiology Society (fetched) |
@@ -136,12 +139,13 @@ plant in his parasite days" is series lore: 002 zombie ant fungus).
 | Columbus's first Atlantic crossing, 1492 | Britannica, Christopher Columbus: https://www.britannica.com/biography/Christopher-Columbus (general reference) |
 | Tomb in Wawel Cathedral, Kraków; opened 1973 | https://en.wikipedia.org/wiki/Tomb_of_Casimir_IV_Jagiellon (search) |
 | Sealed nearly 500 years | arithmetic: 1492 to 1973 = 481 years |
-| About a dozen researchers entered; ten died within a short time ("within weeks") | University of Pennsylvania Engineering: https://www.engineering.upenn.edu/stories/penn-engineers-turn-toxic-fungus-into-anti-cancer-drug/ (fetched: "a dozen scientists entered the tomb ... Within weeks, 10 of them died") |
+| About a dozen researchers entered; "according to later accounts, ten of them died within weeks" (attributed: secondary accounts vary on timing and total) | University of Pennsylvania Engineering: https://www.engineering.upenn.edu/stories/penn-engineers-turn-toxic-fungus-into-anti-cancer-drug/ (fetched: "a dozen scientists entered the tomb ... Within weeks, 10 of them died") |
 | Newspapers called it a curse | Wikipedia (above: "Jagiellonian curse" rumours) (search) |
 | Aspergillus flavus found in the tomb and blamed | Penn (fetched); Wikipedia (above) |
 | A. flavus grows on peanuts and corn | FDA-USDA MOU: https://www.fda.gov/about-fda/domestic-mous/mou-225-19-031 ; Missouri Extension: https://extension.missouri.edu/g4155 (search) |
 | Its spores can cause lung infections, mainly in people with weakened immune systems | Penn (fetched) |
 | 2025, Penn team isolated asperigimycins; two of four variants potent against leukemia cells; a modified (lipid) variant performed as well as cytarabine and daunorubicin; lab only; animal testing next | Penn (fetched); Nature Chemical Biology, 23 June 2025 (Nie et al.); Daily Pennsylvanian: https://www.thedp.com/article/2025/07/penn-researchers-turn-fungus-to-cancer-treatment (search) |
+| Little to no effect on breast, liver or lung cancer cells | Penn (fetched) |
 
 ## 9. Cryptococcus gattii
 | Claim | Source |
@@ -154,9 +158,9 @@ plant in his parasite days" is series lore: 002 zombie ant fungus).
 | Infects healthy, immunocompetent people | CDC EID 15(8) (fetched) |
 | Vancouver Island annual incidence 25.1 per million | CDC EID 15(8) (search) |
 | Comparison: 25.1 per million x 41,649 = 1.05, about one person a year per sold-out Wrigley Field | Wrigley Field capacity 41,649: https://en.wikipedia.org/wiki/Wrigley_Field (search); arithmetic |
-| BC has the largest reported population of C. gattii-infected persons worldwide | CDC EID 15(8) (search) |
+| BC has the largest reported population of C. gattii-infected persons worldwide | CDC EID 16(2), Galanis et al. 2010: https://wwwnc.cdc.gov/eid/article/16/2/09-0900 (search; screener confirmed) |
 | 1999-2007: 218 cases, 19 deaths | CDC EID 15(8) (fetched) |
-| Spread to mainland BC, Washington and Oregon | CDC EID 16(2): https://wwwnc.cdc.gov/eid/article/16/2/09-0900 (search) |
+| Spread to mainland BC, Washington and Oregon | CDC EID 15(8): https://wwwnc.cdc.gov/eid/article/15/8/08-1384 ("Spread ... into Pacific Northwest"; screener confirmed) |
 
 ## 10. Candida auris
 | Claim | Source |
