@@ -123,3 +123,26 @@ that add an element on every shot, which is allowed.
 
 Re-run `python -m studio keyframes 018-every-cassowary-reason --shots s041,s084,s135,s190,s216,s258,s259,s260,s261`. If those
 frames match the above, the keyframes PASS with no further review round needed for the remaining shots.
+
+---
+
+# Keyframe review round 2 (art director, 2026-10-14): PASS
+
+Scope: re-keyed frames s041, s084, s135, s190, s216, s258-s261 (`build/keyframes`), plus fresh contact sheets
+(sheet_01 and sheet_21 checked for the visual-screener's recompositions at s006/s007 and s251/s253).
+
+1. **s135:** PASS. Doug has black ink on the Dad mid-green and is on-model. The shot sets `"ink": "#000000"` and the engine fix also covers it.
+2. **s216:** PASS. "DAGGER-LIKE" is off the feather fringe and sits in clear dark space. Advisory: the gap to the counter box is only about 10 px. Nudging it to y 260 would give more room, but this is not blocking.
+3. **s258-s261:** PASS. The "THE KICK" top bar is restored on all four frames. Bonus: the cap lump in the neck now reads at phone size in s260.
+4. **s084:** PASS. The grey disc with "110" reads as a deliberate pie before it fills.
+5. **s190:** PASS. The label is now "18,000-6,000 YEARS".
+6. **s041:** PASS. The label is now "MOST HEAT".
+
+The screener's recompositions are on-style: s006 has the fern crop, s007 is a Doug close-up, and s251 is a head push-in. The s246-s253 run no longer repeats the same frame.
+
+**Engine ink fix (`studio/paint.py` `_bg_is_dark`):** sound. It takes the median luma of 81 samples (a 9x9 grid, 6 px step, ±24 px)
+around the same anchor as before, with the same threshold (70). A spray speckle or an ink line can no longer flip the result. Real dark
+backgrounds still flip to white, because the median follows the dominant colour. `#789f66` has a luma of about 141, so it correctly stays black. One shared helper serves both Doug
+and crude-tier humans. No art bible change needed.
+
+No further fixes. Staging waits on the visual-screener's round-2 PASS.
