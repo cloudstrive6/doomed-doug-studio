@@ -82,3 +82,31 @@ recognisable. The fixes below are small and specific.
   still reads as a bird.
 
 Re-screen needed for: s001, s006, s007, s084, s101, s122, s135, s251, s253, thumbnail A (and B if it is used).
+
+## Round 2: re-screen of round-1 fixes (2026-10-14)
+
+VERDICT: PASS
+
+Re-checked the keyframes s001, s006, s007, s084, s101, s122, s135, s251 and s253 (plus s252 and s254 for the run
+context), thumbnail A and thumbnail B at full size and at 320x180.
+
+1. s135: fixed. Doug is drawn in normal black ink and is on-model (red cap, white head), with the same look as s133.
+2. s122: fixed. The three males stand on the ground line at the right, so nothing floats.
+3. s101: fixed. "NO HOOKS" sits about 70 px below the counter, so it is clear of the counter and of the feather.
+4. s084: fixed. The disc is light grey with a bold "110" in it, so it reads as a total and not as a blank element.
+5. s251 and s253: fixed. s251 is a tight shot of the head and eye with the two arrows, and no people are drawn.
+   s253 is a wide night forest with no spotlight and a small bird off-centre right. The spotlight run is broken,
+   and s254 lands on a new frame.
+6. s006 and s007: fixed. s006 is a tight shot of the fern with only the casque and eye showing over it. s007 is a
+   push-in on Doug's confused face with white sound arcs coming in from the right. The hook no longer has 5
+   identical wides.
+7. Thumbnail A and s001: fixed. The leg runs off the top edge, so there is no stump or severed read. A thick red
+   ring marks the inner-toe claw, so "SAME TOE" has an obvious referent. s001 matches the thumbnail. At 320 px the
+   text, the bird head, the ringed claw and tiny Doug in his red cap all read.
+   Thumbnail B: fixed. The labels are bold, and the foot tile crops the leg at the tile's top edge, with the claw
+   ringed. All 4 tiles read at 320 px. Either thumbnail is OK to use.
+
+### Advisory (not blocking)
+
+- s251: the "CAME TO THE BIRD" caption crosses the bird's neck and wattle. It is legible thanks to its outline, but
+  it would be cleaner moved up to y about 200 in the empty dark area at upper left (director).

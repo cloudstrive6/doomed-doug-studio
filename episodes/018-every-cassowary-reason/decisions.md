@@ -37,3 +37,7 @@ SCRIPT: APPROVED
   the mid-green Dad background. Fixed by `_bg_is_dark()` (median luma of a 9x9 sample grid), used for both Doug and
   `auto_ink` crude humans. s135 also gets an explicit `"ink": "#000000"`. s143 beam tilt (advisory) skipped: the
   `balance_scale` asset is one piece and has no tilt option.
+
+## 2026-10-14 · Thumbnail A/B pick (creative director)
+- **A wins** (thumbnail.json, Archetype C hero). Kept as is; thumbnail_b.json stays on file, unused.
+- Why: at feed size (320x180), A reads as one clear threat story: the hard-eyed head looking down at tiny red-cap Doug, with the ringed claw between them. B has no Doug (our brand marker). Its RADIATOR tile (pink bird on navy) doesn't read without the video. Its four small panels lose the claw's menace, and its white ground blends into YouTube's feed.

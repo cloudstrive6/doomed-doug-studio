@@ -24,7 +24,12 @@
       "stage": "shotlisted",
       "at": "2026-10-14T17:06:21+00:00",
       "note": "265 shots, all 2,939 words; 40 new assets requested (asset_requests.md); 3 Shorts picked (Quills, Swim, Toe); s047 capless one-off needs AD approval"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-10-14T17:33:12+00:00",
+      "note": "art-director + visual-screener PASS round 2; thumbnail A"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }
