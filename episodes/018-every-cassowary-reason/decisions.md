@@ -71,3 +71,4 @@ SCRIPT: APPROVED
 
 FINAL: APPROVED
 - 2026-10-14: Showrunner final review. The workflow reported QC exit 1, but qc.json had no problems and a re-run of qc exited 0. Visual screener round 3 PASS (main + shorts). Creative director approved. Advisories (non-blocking): s225/s226 leg fringe, s251 caption over the neck.
+FINAL: APPROVED
