@@ -1,0 +1,29 @@
+{
+  "name": "cassowary_sign",
+  "description": "Australian yellow diamond warning sign (#f5c400, black border) with a black cassowary silhouette facing right (casque, beak, wattle, shaggy tail, two legs), bolted to a grey post. Anchor = foot of the post on the ground (0,0). Diamond centre (0,-420), 304 corner to corner; overall ~310x575 (y -575..0).",
+  "anchor": [0, 0],
+  "tags": ["prop", "sign", "warning", "cassowary", "australia", "018"],
+  "elements": [
+    {"type": "rect", "x": -13, "y": -560, "w": 26, "h": 560, "fill": "#8d9096", "width": 4, "color": "#000000"},
+    {"type": "line", "points": [[-5.0, -540.0], [-5.0, -10.0]], "width": 3, "color": "#b9bcc2"},
+    {"type": "spray", "x": 6.0, "y": -150.0, "r": 7, "color": "#6e7176", "density": 0.3},
+    {"type": "poly", "points": [[0.0, -572.0], [152.0, -420.0], [0.0, -268.0], [-152.0, -420.0]], "fill": "#f5c400", "width": 6, "color": "#000000"},
+    {"type": "spray", "x": 40.0, "y": -380.0, "r": 50, "color": "#e0ad00", "density": 0.18},
+    {"type": "poly", "points": [[0.0, -550.0], [130.0, -420.0], [0.0, -290.0], [-130.0, -420.0]], "fill": null, "width": 5, "color": "#000000"},
+    {"type": "ellipse", "x": 0.0, "y": -520.0, "rx": 5.0, "ry": 5.0, "fill": "#8d9096", "width": 2, "color": "#000000"},
+    {"type": "ellipse", "x": 0.0, "y": -316.0, "rx": 5.0, "ry": 5.0, "fill": "#8d9096", "width": 2, "color": "#000000"},
+    {"type": "poly", "points": [[-72.2, -402.5], [-63.0, -430.1], [-33.6, -446.6], [1.4, -444.8], [21.6, -431.9], [30.8, -411.7], [25.3, -391.4], [3.2, -378.6], [-33.6, -376.7], [-61.2, -384.1]], "fill": "#111111", "width": 2, "color": "#111111", "smooth": true},
+    {"type": "poly", "points": [[-66.7, -395.1], [-77.8, -380.4], [-48.3, -384.1]], "fill": "#111111", "width": 2, "color": "#111111"},
+    {"type": "poly", "points": [[-66.7, -395.1], [-63.0, -371.2], [-48.3, -384.1]], "fill": "#111111", "width": 2, "color": "#111111"},
+    {"type": "poly", "points": [[-66.7, -395.1], [-46.5, -369.4], [-48.3, -384.1]], "fill": "#111111", "width": 2, "color": "#111111"},
+    {"type": "poly", "points": [[10.6, -439.3], [17.9, -466.9], [23.4, -483.4], [38.2, -485.3], [36.3, -466.9], [30.8, -431.9]], "fill": "#111111", "width": 2, "color": "#111111"},
+    {"type": "ellipse", "x": 32.6, "y": -485.3, "rx": 13.0, "ry": 12.0, "fill": "#111111", "width": 2, "color": "#111111"},
+    {"type": "poly", "points": [[23.4, -489.0], [25.3, -509.2], [34.5, -512.9], [41.8, -492.6]], "fill": "#111111", "width": 2, "color": "#111111", "smooth": true},
+    {"type": "poly", "points": [[40.0, -490.8], [60.2, -481.6], [40.0, -477.9]], "fill": "#111111", "width": 2, "color": "#111111"},
+    {"type": "poly", "points": [[29.0, -472.4], [34.5, -457.7], [38.2, -472.4]], "fill": "#111111", "width": 2, "color": "#111111"},
+    {"type": "line", "points": [[-18.9, -382.2], [-24.4, -339.9]], "width": 9, "color": "#111111"},
+    {"type": "line", "points": [[-33.6, -338.1], [-9.7, -338.1]], "width": 6, "color": "#111111"},
+    {"type": "line", "points": [[1.4, -382.2], [6.9, -339.9]], "width": 9, "color": "#111111"},
+    {"type": "line", "points": [[-2.3, -338.1], [21.6, -338.1]], "width": 6, "color": "#111111"}
+  ]
+}

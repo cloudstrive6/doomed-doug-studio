@@ -1,0 +1,255 @@
+{
+ "name": "casque_fin",
+ "description": "Cassowary casque tip (with a sliver of blue head) cutting the water like a shark fin, moving right, small white V wake. Reads 'fin?' first, 'casque' second. Anchor = waterline centre (0,0); ~200x150. Silhouette-safe.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "creature",
+  "bird",
+  "water",
+  "fin",
+  "silhouette",
+  "cassowary",
+  "018"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     60,
+     4
+    ],
+    [
+     -20,
+     16
+    ],
+    [
+     -100,
+     22
+    ]
+   ],
+   "width": 4,
+   "color": "#e8f6ff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     60,
+     -2
+    ],
+    [
+     -20,
+     -8
+    ],
+    [
+     -100,
+     -10
+    ]
+   ],
+   "width": 4,
+   "color": "#e8f6ff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     2
+    ],
+    [
+     -50,
+     -14
+    ],
+    [
+     0,
+     -20
+    ],
+    [
+     56,
+     -16
+    ],
+    [
+     70,
+     2
+    ]
+   ],
+   "fill": "#3a7bd5",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -46,
+     -10
+    ],
+    [
+     -40,
+     -50
+    ],
+    [
+     -34,
+     -92
+    ],
+    [
+     -30,
+     -128
+    ],
+    [
+     -10,
+     -116
+    ],
+    [
+     20,
+     -80
+    ],
+    [
+     46,
+     -40
+    ],
+    [
+     62,
+     -12
+    ]
+   ],
+   "fill": "#8a6436",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -36,
+     -24
+    ],
+    [
+     -30,
+     -80
+    ],
+    [
+     -26,
+     -116
+    ],
+    [
+     -16,
+     -100
+    ],
+    [
+     -20,
+     -60
+    ],
+    [
+     -26,
+     -20
+    ]
+   ],
+   "fill": "#5e4224",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -8,
+     -100
+    ],
+    [
+     20,
+     -66
+    ],
+    [
+     44,
+     -28
+    ]
+   ],
+   "width": 3,
+   "color": "#b48a52"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -46,
+     -10
+    ],
+    [
+     -40,
+     -50
+    ],
+    [
+     -34,
+     -92
+    ],
+    [
+     -30,
+     -128
+    ],
+    [
+     -10,
+     -116
+    ],
+    [
+     20,
+     -80
+    ],
+    [
+     46,
+     -40
+    ],
+    [
+     62,
+     -12
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     64,
+     -4
+    ],
+    [
+     82,
+     -16
+    ],
+    [
+     92,
+     -4
+    ]
+   ],
+   "width": 4,
+   "color": "#e8f6ff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     70,
+     4
+    ],
+    [
+     96,
+     2
+    ]
+   ],
+   "width": 3,
+   "color": "#e8f6ff"
+  }
+ ]
+}

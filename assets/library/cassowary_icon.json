@@ -1,0 +1,269 @@
+{
+ "name": "cassowary_icon",
+ "description": "Tiny simplified cassowary for crowds and counts, facing right: black body blob, blue neck, red wattle dot, brown casque, two grey legs. Bottom-centre (feet y=0), ~60x92. Reads at 40 px.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "icon",
+  "bird",
+  "cassowary",
+  "018"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -30
+    ],
+    [
+     -10,
+     0
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -30
+    ],
+    [
+     -10,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#7d7d82"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     8,
+     -30
+    ],
+    [
+     10,
+     0
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     8,
+     -30
+    ],
+    [
+     10,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#7d7d82"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -18,
+     0
+    ],
+    [
+     -2,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#3c3c40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     4,
+     0
+    ],
+    [
+     20,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#3c3c40"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     8,
+     -44
+    ],
+    [
+     12,
+     -64
+    ],
+    [
+     14,
+     -76
+    ],
+    [
+     24,
+     -76
+    ],
+    [
+     22,
+     -60
+    ],
+    [
+     24,
+     -44
+    ]
+   ],
+   "fill": "#3a7bd5",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -22
+    ],
+    [
+     -32,
+     -40
+    ],
+    [
+     -18,
+     -54
+    ],
+    [
+     4,
+     -58
+    ],
+    [
+     22,
+     -48
+    ],
+    [
+     26,
+     -30
+    ],
+    [
+     14,
+     -24
+    ],
+    [
+     0,
+     -18
+    ],
+    [
+     -14,
+     -24
+    ]
+   ],
+   "fill": "#2a2a2e",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     -80
+    ],
+    [
+     12,
+     -92
+    ],
+    [
+     20,
+     -86
+    ],
+    [
+     26,
+     -76
+    ]
+   ],
+   "fill": "#8a6436",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     12,
+     -74
+    ],
+    [
+     14,
+     -82
+    ],
+    [
+     26,
+     -82
+    ],
+    [
+     30,
+     -76
+    ],
+    [
+     24,
+     -72
+    ]
+   ],
+   "fill": "#3a7bd5",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     28,
+     -80
+    ],
+    [
+     40,
+     -76
+    ],
+    [
+     28,
+     -74
+    ]
+   ],
+   "fill": "#2c2c2c",
+   "width": 2,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "ellipse",
+   "x": 23,
+   "y": -66,
+   "rx": 4,
+   "ry": 5,
+   "fill": "#d8262a",
+   "width": 2,
+   "color": "#000000"
+  }
+ ]
+}

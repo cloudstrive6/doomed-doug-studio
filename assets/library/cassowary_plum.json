@@ -1,0 +1,18 @@
+{
+  "name": "cassowary_plum",
+  "description": "Cassowary plum (Cerbera floribunda) fruit lying on its side: smooth oval, glossy purplish-blue #4a3a9a with darker underside spray, lighter highlight and white glint, faint suture line, small brown stem nub at the left end. Anchor centre, ~260x152.",
+  "anchor": [0, 0],
+  "tags": ["prop", "fruit", "plant", "rainforest", "cassowary", "018"],
+  "elements": [
+    {"type": "poly", "points": [[-118.0, 0.0], [-108.0, -46.0], [-60.0, -74.0], [10.0, -76.0], [74.0, -60.0], [114.0, -24.0], [120.0, 10.0], [100.0, 48.0], [50.0, 72.0], [-20.0, 76.0], [-80.0, 62.0], [-112.0, 36.0]], "fill": "#4a3a9a", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+    {"type": "spray", "x": 30.0, "y": 22.0, "r": 52, "color": "#2e2366", "density": 0.35},
+    {"type": "spray", "x": 66.0, "y": 18.0, "r": 34, "color": "#241b52", "density": 0.35},
+    {"type": "poly", "points": [[-90.0, -30.0], [-50.0, -56.0], [10.0, -60.0], [-10.0, -40.0], [-60.0, -24.0]], "fill": "#7a6ac8", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+    {"type": "ellipse", "x": -44.0, "y": -46.0, "rx": 22.0, "ry": 9.0, "fill": "#c9c0f0", "width": 0, "color": "#000000", "outline": false},
+    {"type": "ellipse", "x": -58.0, "y": -44.0, "rx": 6.0, "ry": 4.0, "fill": "#ffffff", "width": 0, "color": "#000000", "outline": false},
+    {"type": "curve", "points": [[-110.0, 6.0], [-40.0, 20.0], [40.0, 18.0], [116.0, 6.0]], "width": 2, "color": "#33287a"},
+    {"type": "poly", "points": [[-118.0, 0.0], [-108.0, -46.0], [-60.0, -74.0], [10.0, -76.0], [74.0, -60.0], [114.0, -24.0], [120.0, 10.0], [100.0, 48.0], [50.0, 72.0], [-20.0, 76.0], [-80.0, 62.0], [-112.0, 36.0]], "fill": null, "width": 4, "color": "#000000", "smooth": true},
+    {"type": "poly", "points": [[-116.0, -6.0], [-134.0, -12.0], [-140.0, -2.0], [-134.0, 8.0], [-116.0, 6.0]], "fill": "#6b4a2a", "width": 3, "color": "#000000"},
+    {"type": "ellipse", "x": -112.0, "y": 0.0, "rx": 7.0, "ry": 9.0, "fill": "#8a6a3a", "width": 2, "color": "#000000"}
+  ]
+}

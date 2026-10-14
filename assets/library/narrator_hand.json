@@ -1,0 +1,29 @@
+{
+  "name": "narrator_hand",
+  "description": "The narrator's flat, crude-tier human arm and right hand reaching into frame from the top right: plain grey shirt sleeve and darker cuff, white open hand with four fingers and a thumb, fingers pointing down-left as if it just put something down. Anchor = fingertips (0,0) (middle finger tip); the sleeve runs up-right to about (+760,-650), off-screen. auto_ink.",
+  "anchor": [0, 0],
+  "tags": ["human", "hand", "arm", "narrator", "crude", "018"],
+  "auto_ink": true,
+  "elements": [
+    {"type": "poly", "points": [[76.7, -111.9], [-12.1, -65.9], [-15.4, -50.2], [-0.8, -43.4], [89.2, -86.9]], "fill": "#ffffff", "width": 10, "color": "#000000", "smooth": true, "keep_ink": true},
+    {"type": "poly", "points": [[93.5, -88.7], [-0.3, -17.1], [-0.3, -0.3], [15.8, 4.5], [111.4, -64.6]], "fill": "#ffffff", "width": 10, "color": "#000000", "smooth": true, "keep_ink": true},
+    {"type": "poly", "points": [[111.3, -64.4], [34.0, 16.7], [36.7, 33.3], [53.3, 35.6], [132.7, -43.4]], "fill": "#ffffff", "width": 10, "color": "#000000", "smooth": true, "keep_ink": true},
+    {"type": "poly", "points": [[130.3, -39.4], [79.2, 34.7], [83.0, 49.7], [98.3, 48.3], [151.5, -24.3]], "fill": "#ffffff", "width": 10, "color": "#000000", "smooth": true, "keep_ink": true},
+    {"type": "poly", "points": [[127.2, -149.2], [62.4, -154.2], [21.1, -153.1], [15.7, -137.9], [47.2, -122.7], [101.4, -108.6]], "fill": "#ffffff", "width": 10, "color": "#000000", "smooth": true, "keep_ink": true},
+    {"type": "poly", "points": [[55.2, -98.0], [84.5, -128.4], [173.0, -191.1], [215.5, -153.8], [245.9, -106.0], [170.4, -28.2], [137.4, -5.2]], "fill": "#ffffff", "width": 10, "color": "#000000", "smooth": true, "keep_ink": true},
+    {"type": "poly", "points": [[76.7, -111.9], [-12.1, -65.9], [-15.4, -50.2], [-0.8, -43.4], [89.2, -86.9]], "fill": "#ffffff", "width": 0, "color": "#000000", "smooth": true, "outline": false, "keep_ink": true},
+    {"type": "poly", "points": [[93.5, -88.7], [-0.3, -17.1], [-0.3, -0.3], [15.8, 4.5], [111.4, -64.6]], "fill": "#ffffff", "width": 0, "color": "#000000", "smooth": true, "outline": false, "keep_ink": true},
+    {"type": "poly", "points": [[111.3, -64.4], [34.0, 16.7], [36.7, 33.3], [53.3, 35.6], [132.7, -43.4]], "fill": "#ffffff", "width": 0, "color": "#000000", "smooth": true, "outline": false, "keep_ink": true},
+    {"type": "poly", "points": [[130.3, -39.4], [79.2, 34.7], [83.0, 49.7], [98.3, 48.3], [151.5, -24.3]], "fill": "#ffffff", "width": 0, "color": "#000000", "smooth": true, "outline": false, "keep_ink": true},
+    {"type": "poly", "points": [[127.2, -149.2], [62.4, -154.2], [21.1, -153.1], [15.7, -137.9], [47.2, -122.7], [101.4, -108.6]], "fill": "#ffffff", "width": 0, "color": "#000000", "smooth": true, "outline": false, "keep_ink": true},
+    {"type": "poly", "points": [[55.2, -98.0], [84.5, -128.4], [173.0, -191.1], [215.5, -153.8], [245.9, -106.0], [170.4, -28.2], [137.4, -5.2]], "fill": "#ffffff", "width": 0, "color": "#000000", "smooth": true, "outline": false, "keep_ink": true},
+    {"type": "line", "points": [[97.3, -91.9], [77.1, -78.6]], "width": 4, "color": "#000000", "keep_ink": true},
+    {"type": "line", "points": [[116.8, -69.2], [98.6, -53.5]], "width": 4, "color": "#000000", "keep_ink": true},
+    {"type": "line", "points": [[136.3, -46.4], [120.1, -28.5]], "width": 4, "color": "#000000", "keep_ink": true},
+    {"type": "curve", "points": [[150.9, -143.1], [150.9, -106.3], [184.9, -88.0]], "width": 3, "color": "#d6d6d6", "keep_ink": true},
+    {"type": "poly", "points": [[193.2, -232.1], [735.9, -705.2], [840.0, -583.7], [289.5, -119.7]], "fill": "#a4a4a8", "width": 5, "color": "#000000"},
+    {"type": "line", "points": [[316.8, -180.0], [806.6, -591.9]], "width": 3, "color": "#86868c"},
+    {"type": "poly", "points": [[157.8, -196.5], [202.3, -239.9], [298.6, -127.5], [248.9, -90.2]], "fill": "#7e7e84", "width": 5, "color": "#000000"},
+    {"type": "line", "points": [[187.9, -209.1], [265.9, -118.0]], "width": 2, "color": "#5e5e64"}
+  ]
+}
