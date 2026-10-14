@@ -296,6 +296,18 @@ def _silhouette(el, cv):
     return el
 
 
+def _bg_is_dark(cv, x, y, thresh=70):
+    """Median luma of a 9x9 grid around (x, y): a single pixel can land on a spray speckle or an ink line and
+    flip Doug/crude humans to white ink on a light background."""
+    lum = []
+    for dx in range(-24, 25, 6):
+        for dy in range(-24, 25, 6):
+            px, py = min(max(int(x + dx), 0), cv.w - 1), min(max(int(y + dy), 0), cv.h - 1)
+            r, g, b = cv.img.getpixel((px, py))[:3]
+            lum.append(0.299 * r + 0.587 * g + 0.114 * b)
+    return sorted(lum)[len(lum) // 2] < thresh
+
+
 def draw_element(cv: Canvas, el, tf: Transform, seed):
     el = _silhouette(el, cv)
     if el is None:
@@ -390,10 +402,7 @@ def draw_element(cv: Canvas, el, tf: Transform, seed):
         inner.parent = outer
         ink = el.get("ink")
         if ink is None and a.get("auto_ink"):  # crude-tier humans: same white-ink rule as Doug on dark backgrounds
-            px, py = outer.apply((0, -80))
-            px, py = min(max(int(px), 0), cv.w - 1), min(max(int(py), 0), cv.h - 1)
-            r, g, b = cv.img.getpixel((px, py))[:3]
-            if 0.299 * r + 0.587 * g + 0.114 * b < 70:
+            if _bg_is_dark(cv, *outer.apply((0, -80))):
                 ink = "#ffffff"
         if ink:
             def _ink(els):
@@ -495,10 +504,7 @@ def draw_element(cv: Canvas, el, tf: Transform, seed):
     elif t == "doug":
         from .doug import doug_elements
         if "ink" not in el:  # auto-contrast: white lines on dark backgrounds
-            px, py = tf.apply((el.get("x", 0), el.get("y", 0) - 80 * el.get("scale", 1)))
-            px, py = min(max(int(px), 0), cv.w - 1), min(max(int(py), 0), cv.h - 1)
-            r, g, b = cv.img.getpixel((px, py))[:3]
-            if 0.299 * r + 0.587 * g + 0.114 * b < 70:
+            if _bg_is_dark(cv, *tf.apply((el.get("x", 0), el.get("y", 0) - 80 * el.get("scale", 1)))):
                 el = {**el, "ink": "#ffffff"}
         els = doug_elements(el, cv.variant)
         sub = Transform(el.get("x", 0), el.get("y", 0), el.get("scale", 1), el.get("rotate", 0),

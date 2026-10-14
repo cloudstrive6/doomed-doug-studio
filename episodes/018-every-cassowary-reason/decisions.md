@@ -31,3 +31,9 @@ SCRIPT: APPROVED
 ## 2026-10-14 · Asset gate (art director)
 - All 40 new assets are APPROVED (art_review.md). The AD fixed three in the library: the `cassowary_head` casque no longer reads as a hat, the `cassowary_swallow_cap` lump is blue + Doug-red instead of the bruise purples, and the `seedling_cap` seed-husk lumps are removed (dung read). `seedling_cap` reads as planted, so the fallback is not used.
 - **Capless upright Doug one-off approved: s047** (`gear: ["cap_off"]`, the cap is held out over the casque for shade, back on in s048). It is not a precedent. Placement fix routed to the director (cap in hand, scale 0.7).
+
+- **Keyframe round 1, s135 white Doug (director, engine fix):** the auto-contrast ink check in `studio/paint.py`
+  sampled one pixel above Doug's hip; on s135 it landed on a dark ground-spray speckle and flipped him to white ink on
+  the mid-green Dad background. Fixed by `_bg_is_dark()` (median luma of a 9x9 sample grid), used for both Doug and
+  `auto_ink` crude humans. s135 also gets an explicit `"ink": "#000000"`. s143 beam tilt (advisory) skipped: the
+  `balance_scale` asset is one piece and has no tilt option.

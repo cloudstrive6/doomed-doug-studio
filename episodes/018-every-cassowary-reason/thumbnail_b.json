@@ -1,5 +1,5 @@
 {
- "_note": "Variant B (thumbnail_brief B test): Archetype A 2x2 grid in item order; labels 32 HZ / RADIATOR / 50 KM/H / SAME TOE (no title/alt words, no chicks, never 23 Hz).",
+ "_note": "Variant B (thumbnail_brief B test): Archetype A 2x2 grid in item order; labels 32 HZ / RADIATOR / 50 KM/H / SAME TOE (no title/alt words, no chicks, never 23 Hz). Labels drawn as bold text; foot leg runs off the tile top; claw ringed.",
  "background": "#ffffff",
  "size": [
   1280,
@@ -15,8 +15,6 @@
    "fill": "#4fc3e8",
    "radius": 12,
    "frame_width": 6,
-   "label": "32 HZ",
-   "label_size": 48,
    "elements": [
     {
      "type": "rect",
@@ -77,8 +75,6 @@
    "fill": "#1f2a6b",
    "radius": 12,
    "frame_width": 6,
-   "label": "RADIATOR",
-   "label_size": 48,
    "elements": [
     {
      "type": "rect",
@@ -109,8 +105,6 @@
    "fill": "#ffe24a",
    "radius": 12,
    "frame_width": 6,
-   "label": "50 KM/H",
-   "label_size": 48,
    "elements": [
     {
      "type": "rect",
@@ -141,8 +135,6 @@
    "fill": "#e04fa0",
    "radius": 12,
    "frame_width": 6,
-   "label": "SAME TOE",
-   "label_size": 48,
    "elements": [
     {
      "type": "rect",
@@ -158,11 +150,244 @@
      "boil": 0,
      "wobble": 0,
      "name": "cassowary_foot",
-     "x": 984,
-     "y": 568,
-     "scale": 0.62
+     "x": 960,
+     "y": 610,
+     "scale": 0.8
+    },
+    {
+     "type": "rect",
+     "x": 790,
+     "y": 330,
+     "w": 140,
+     "h": 95,
+     "fill": "#e04fa0",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       824,
+       432
+      ],
+      [
+       900,
+       432
+      ],
+      [
+       900,
+       330
+      ],
+      [
+       824,
+       330
+      ]
+     ],
+     "fill": "#8d9096",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       882,
+       432
+      ],
+      [
+       900,
+       432
+      ],
+      [
+       900,
+       330
+      ],
+      [
+       882,
+       330
+      ]
+     ],
+     "fill": "#676a70",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       830,
+       432
+      ],
+      [
+       843,
+       432
+      ],
+      [
+       843,
+       330
+      ],
+      [
+       830,
+       330
+      ]
+     ],
+     "fill": "#b3b6bb",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       824,
+       434
+      ],
+      [
+       824,
+       330
+      ]
+     ],
+     "color": "#000000",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       900,
+       434
+      ],
+      [
+       900,
+       330
+      ]
+     ],
+     "color": "#000000",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       850,
+       400
+      ],
+      [
+       872,
+       410
+      ],
+      [
+       896,
+       404
+      ]
+     ],
+     "color": "#4b4e54",
+     "width": 3,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       850,
+       376
+      ],
+      [
+       872,
+       386
+      ],
+      [
+       896,
+       380
+      ]
+     ],
+     "color": "#4b4e54",
+     "width": 3,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "circle",
+     "x": 1092,
+     "y": 503,
+     "rx": 82,
+     "ry": 44,
+     "color": "#e8202a",
+     "width": 8,
+     "fill": null,
+     "boil": 0,
+     "wobble": 0
     }
    ]
+  },
+  {
+   "type": "text",
+   "text": "32 HZ",
+   "x": 326.0,
+   "y": 322,
+   "size": 54,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 2,
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "RADIATOR",
+   "x": 954.0,
+   "y": 322,
+   "size": 54,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 2,
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "50 KM/H",
+   "x": 326.0,
+   "y": 676,
+   "size": 54,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 2,
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "SAME TOE",
+   "x": 954.0,
+   "y": 676,
+   "size": 54,
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 2,
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
   }
  ]
 }
