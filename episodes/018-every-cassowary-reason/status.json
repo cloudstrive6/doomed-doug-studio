@@ -34,7 +34,17 @@
       "stage": "packaged",
       "at": "2026-10-14T17:37:38+00:00",
       "note": "narrated (204 wpm, 15:11), pacing pass: extra pop-ins on s242/s243 text cards"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-14T17:48:26+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "qc_passed",
+      "at": "2026-10-14T17:59:01+00:00",
+      "note": "final approved"
     }
   ],
-  "stage": "packaged"
+  "stage": "qc_passed"
 }

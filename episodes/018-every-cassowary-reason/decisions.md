@@ -42,3 +42,32 @@ SCRIPT: APPROVED
 - **A wins** (thumbnail.json, Archetype C hero). Kept as is; thumbnail_b.json stays on file, unused.
 - Why: at feed size (320x180), A reads as one clear threat story: the hard-eyed head looking down at tiny red-cap Doug, with the ringed claw between them. B has no Doug (our brand marker). Its RADIATOR tile (pink bird on navy) doesn't read without the video. Its four small panels lose the claw's menace, and its white ground blends into YouTube's feed.
 - 2026-10-14: Showrunner run. Script 3 rounds (fact/hook/timing fixes; PASS round 3), keyframes 2 rounds (art-director + visual-screener PASS round 2), thumbnail A. Risks: Flesch ~73 (edge), 50 km/h sourced from encyclopedias, s242/s243 sober-card pop-in text added by editor (ON HIS OWN PROPERTY) re: real 2019 death — verify tone; engine ink-detection fix in studio/paint.py.
+
+## 2026-10-14 · Final package gate (creative director)
+- Inputs: visual_review.md round 3 says PASS for the main video and PASS for the shorts. qc.json has no problems (15:11, 2,939 words, 193.6 wpm overall). I checked the thumbnail, metadata.json, chapters.txt, the script opening, keyframes s001-s003 and s240-s245, and frames from final.mp4 at 1/6/11/18/25/35/45/55 s and at 838/845/852 s.
+- **Title: kept** as "Every Reason the Cassowary Is the Most Terrifying Bird Alive" (60 chars).
+  - It's honest: 11 reasons, and they rise to the toe and the kick. The topic noun reads at feed size, and it pairs with "SAME TOE" without repeating a word.
+  - Strongest alt: "The Most Terrifying Bird That Scientists Think People Once Raised". It has more curiosity, but it sells one item out of 11 (The First Pet, at 10:34), so it under-delivers on the promise. It is not clearly stronger, so no swap. It goes on file as the A/B title test candidate if T8 CTR comes in under channel median after 500 impressions or more.
+- **Thumbnail (A):** clicks for me.
+  - One hard-eyed head, the ringed claw and tiny red-cap Doug make a single threat story. "SAME TOE" is a curiosity gap the video pays off at 11:59.
+  - The leg runs off the top edge, so there is no severed read. It matches the opening frame at 0:00-0:02.
+- **Description/chapters:**
+  - Every claim in the first paragraph is in the script and sourced: 32 Hz, the radiator, about 50 days, the swim, 50 km/h, 18,000 years "may", the inner-toe claw.
+  - The 11 chapters run from 0:00, ascending, and match the item order. The disclaimer and AI-use lines are present. "Do not approach wild animals." is a generic disclaimer, not safety advice.
+  - The tags are on-topic and the playlist is animals.
+- **First 60 s:** retention holds.
+  - The thumbnail is the opening image. The "NO" in the field guide plus "MISUNDERSTANDING" sets the gag by about 6 s, and "The Boom." is named by about 8 s.
+  - The twist "you might feel this bird before you hear it" lands around 0:35, inside the 45 s rule.
+  - The visual changes about every 2-5 s: map, piano build, elephant, forest. The piano labels pop in cleanly.
+  - Non-blocking: the 2003-study map frames Australia while the line says Papua New Guinea. PNG is visible at the top edge, so it's acceptable. Next time, centre the map on the place being named.
+- **Sober cards s240-s245: tone approved.**
+  - Plain white and grey on near-black, with no Doug, counter, topbar, bird, music sting or joke. That is a clean tonal break.
+  - The text is restricted to dates, places and neutral facts: STRUCK THE BIRD / RAN / FELL / ON HIS OWN PROPERTY / BRED THE BIRDS / HAD FALLEN. There are no names, ages or injuries.
+  - The editor's pop-in "ON HIS OWN PROPERTY" mirrors the narration word for word ("kept on his own property"). It reads as context, not blame or irony, so it stays.
+  - The "naturally shy and wary" reset at s246 is respectful and does not undercut the cards.
+  - Rule for future episodes: real deaths are never written as a list of what the victim did wrong. Each card gets at most one action line, and no pop-in may land as a punchline beat.
+- **Series bible:** no new lore at this gate. The death counter (147 to 154) and the 018 log row were already updated at the script gate.
+- Not rendered or uploaded by me. Next step: `python -m studio upload 018-every-cassowary-reason` via the showrunner, scheduled ≥ 18 h out.
+
+FINAL: APPROVED
+- 2026-10-14: Showrunner final review. The workflow reported QC exit 1, but qc.json had no problems and a re-run of qc exited 0. Visual screener round 3 PASS (main + shorts). Creative director approved. Advisories (non-blocking): s225/s226 leg fringe, s251 caption over the neck.

@@ -110,3 +110,63 @@ context), thumbnail A and thumbnail B at full size and at 320x180.
 
 - s251: the "CAME TO THE BIRD" caption crosses the bird's neck and wattle. It is legible thanks to its outline, but
   it would be cleaner moved up to y about 200 in the empty dark area at upper left (director).
+
+## Round 3: post-render (final.mp4, thumbnail, Shorts) (2026-10-14)
+
+Checked: all 30 frames in `build/samples` (one every 30 s; `qc.json` reports 911 s and no problems), frames
+pulled from final.mp4 at 85% of each shot from s240 to s245, `thumbnail.png` and `thumbnail_small.png`, the
+title in `metadata.json`, the 3 Shorts previews, and frames from each Short at 10/30/55/80/98.5% (plus caption
+sweeps of short03 at 4 to 6 fps).
+
+### Main video
+
+- **Samples:** no black, blank or frozen frames, and no glitches. Every sample has the chapter tab and the death
+  counter, which climbs steadily from 147 to 153. Doug is on-model (red cap, white head) in every frame he
+  appears in. The death beats are cartoon only: f_008 shows a lying Doug with his ghost floating up, f_021 a
+  flat Doug. There is no gore. The variety is good: forest, cream cards, beach and Sydney, road, x-ray, night
+  museum, cave and spotlight.
+- **Sober cards s240-s245 (real human deaths):** OK.
+  - Each card is plain white and grey text on near-black, with no topbar, no death counter, no Doug, no bird
+    drawing, no music-video flourish and no jokes. That marks a clear tonal break from the cartoon deaths
+    around them.
+  - The text is limited to: TWO DOCUMENTED DEATHS / 1926 ... 2019, 93 YEARS / 1926. QUEENSLAND. HE STRUCK THE
+    BIRD. THEN HE RAN. THEN HE FELL. / 2019. FLORIDA. ON HIS OWN PROPERTY. / HE BRED THE BIRDS. / HE HAD FALLEN.
+  - There are no names, no ages (the narration says "young hunter" but no age appears on screen) and no
+    injuries or cause-of-wound wording. Nothing is graphic.
+  - All the text is legible and centred, and nothing is cropped. Greying the 1926 line out on the 2019 cards
+    reads well.
+  - The return to the forest at s246 ("naturally shy and wary") is a clean reset.
+- **Thumbnail:** OK.
+  - "SAME TOE" is crisp at 320x180. The casque, blue neck and wattles read instantly, the ringed inner-toe
+    claw gives the text its referent, and tiny Doug with his cap and field guide is visible for scale.
+  - The leg runs off the top edge, so there is no severed read.
+  - It complements the title "Every Reason the Cassowary Is the Most Terrifying Bird Alive" without repeating
+    any title word, and it is not misleading because the claw and the toe are the climax of the video.
+
+### Shorts (1080x1920)
+
+- **short01 (wing claw):** OK. The 3-line title is readable. The x-ray wing and the quill drawings sit inside
+  the frame with margin. The captions are legible. The end card "WHAT'S ON THE FEET? TAP BELOW" has a red
+  arrow pointing straight down, above "is linked below."
+- **short02 (swim):** OK. The title is readable. The beach, the campers, the BINGIL BAY sign and the fin are
+  all inside the frame. One mid-shot frame shows the media-release sheet without the bird because the bird is
+  still appearing; this is not a defect. The end card arrow points down.
+- **short03 (same toe):** OK. The title is readable. The skeleton, the raptor foot with the TOE 2 arrow and
+  the falcon are all uncropped. A caption sweep shows clean 2-line chunks ("One study compared / their", then
+  "feet to those of"). The fragment "those o" seen in one fast-seek grab was a decoder blend between frames,
+  not a real caption. The end card arrow points down.
+
+### Advisory (not blocking)
+
+- s225/s226 (also the tail of short03): the cassowary foot specimen ends at the top in a black feather
+  fringe, floating on the dark background. In this side-by-side specimen layout next to the fossil foot, it
+  reads as a comparison diagram rather than a severed limb, so it is acceptable. If the shot is ever
+  re-rendered, the director could run the leg off the top of the frame, as on the thumbnail.
+- s251 caption overlap from round 2 still stands (cosmetic).
+
+### Required fixes
+
+None.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
