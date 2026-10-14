@@ -1,0 +1,82 @@
+{
+ "_note": "Archetype C hero (thumbnail_brief): flat jungle green, huge hard-eyed cassowary head lowered toward the viewer, raised foot with the inner-toe claw in the foreground, tiny Doug (red cap) holding the open field guide, 2 words SAME TOE (no title/alt words). No chicks, no gore.",
+ "background": "#2e8b3a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "spray",
+   "x": 930,
+   "y": 330,
+   "r": 330,
+   "color": "#3fa54b",
+   "density": 0.5,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 650,
+   "w": 1300,
+   "h": 80,
+   "fill": "#1d5e27",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "cassowary_head",
+   "x": 960,
+   "y": 390,
+   "scale": 1.25,
+   "rotate": -14,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "cassowary_foot",
+   "x": 230,
+   "y": 650,
+   "scale": 1.15,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 640,
+   "y": 590,
+   "scale": 0.32,
+   "pose": "stand",
+   "expression": "shock",
+   "facing": "left"
+  },
+  {
+   "type": "asset",
+   "name": "field_guide_open",
+   "x": 598,
+   "y": 578,
+   "scale": 0.1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "SAME TOE",
+   "x": 330,
+   "y": 80,
+   "size": 120,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 8,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

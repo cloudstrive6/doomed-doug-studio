@@ -9095,9 +9095,9 @@
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 1010,
-      "y": 470,
-      "scale": 0.45
+      "x": 1000,
+      "y": 546,
+      "scale": 0.7
      },
      {
       "type": "asset",
@@ -13127,7 +13127,7 @@
       "type": "wordart",
       "text": "GARDENER",
       "x": 760,
-      "y": 190,
+      "y": 155,
       "size": 90,
       "boil": 0,
       "appear": 0.45
@@ -13587,9 +13587,9 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 750,
-      "y": 760,
-      "scale": 0.8,
+      "x": 790,
+      "y": 740,
+      "scale": 0.6,
       "appear": 0.1
      },
      {
@@ -16758,7 +16758,7 @@
       "type": "label",
       "text": "4,000?",
       "x": 560,
-      "y": 330,
+      "y": 470,
       "size": 54,
       "bold": true,
       "boil": 0.4,
@@ -16776,7 +16776,7 @@
      {
       "type": "wordart",
       "text": "HARD TO COUNT",
-      "x": 960,
+      "x": 760,
       "y": 290,
       "size": 90,
       "boil": 0,
@@ -28990,7 +28990,7 @@
       "type": "label",
       "text": "AUSTRALIAN MUSEUM",
       "x": 760,
-      "y": 330,
+      "y": 300,
       "size": 40,
       "bold": true,
       "boil": 0.4,
@@ -29001,7 +29001,7 @@
       "type": "wordart",
       "text": "VERY AGGRESSIVE",
       "x": 760,
-      "y": 470,
+      "y": 415,
       "size": 90,
       "boil": 0,
       "top": "#ffffff",
@@ -30266,7 +30266,7 @@
      {
       "type": "wordart",
       "text": "NO VISITORS",
-      "x": 900,
+      "x": 1150,
       "y": 300,
       "size": 100,
       "boil": 0,
@@ -46613,7 +46613,7 @@
      },
      {
       "type": "doug",
-      "x": 600,
+      "x": 470,
       "y": 400,
       "scale": 0.5,
       "pose": "float",
@@ -55590,7 +55590,7 @@
       "name": "cassowary_swallow_cap",
       "x": 1080,
       "y": 900,
-      "scale": 0.62,
+      "scale": 0.8,
       "flip": true
      },
      {
@@ -55615,7 +55615,13 @@
       "boil": 0.4,
       "fill": "#ffffff"
      }
-    ]
+    ],
+    "camera": {
+     "move": "zoom_in",
+     "x": 1000,
+     "y": 560,
+     "zoom": 1.1
+    }
    }
   },
   {
@@ -55852,8 +55858,8 @@
      {
       "type": "wordart",
       "text": "PLANTED",
-      "x": 1450,
-      "y": 450,
+      "x": 1370,
+      "y": 430,
       "size": 110,
       "boil": 0,
       "top": "#ffffff",

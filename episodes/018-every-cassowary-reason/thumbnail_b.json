@@ -1,0 +1,168 @@
+{
+ "_note": "Variant B (thumbnail_brief B test): Archetype A 2x2 grid in item order; labels 32 HZ / RADIATOR / 50 KM/H / SAME TOE (no title/alt words, no chicks, never 23 Hz).",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 26,
+   "y": 14,
+   "w": 600,
+   "h": 270,
+   "fill": "#4fc3e8",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "32 HZ",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 6,
+     "y": -6,
+     "w": 660,
+     "h": 320,
+     "fill": "#4fc3e8",
+     "width": 0
+    },
+    {
+     "type": "asset",
+     "boil": 0,
+     "wobble": 0,
+     "name": "cassowary_head",
+     "x": 326,
+     "y": 164,
+     "scale": 0.72
+    },
+    {
+     "type": "circle",
+     "x": 136,
+     "y": 144,
+     "r": 40,
+     "start": 150,
+     "end": 210,
+     "width": 7,
+     "color": "#1a1a1a"
+    },
+    {
+     "type": "circle",
+     "x": 136,
+     "y": 144,
+     "r": 70,
+     "start": 150,
+     "end": 210,
+     "width": 7,
+     "color": "#1a1a1a"
+    },
+    {
+     "type": "circle",
+     "x": 136,
+     "y": 144,
+     "r": 100,
+     "start": 150,
+     "end": 210,
+     "width": 7,
+     "color": "#1a1a1a"
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 654,
+   "y": 14,
+   "w": 600,
+   "h": 270,
+   "fill": "#1f2a6b",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "RADIATOR",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 634,
+     "y": -6,
+     "w": 660,
+     "h": 320,
+     "fill": "#1f2a6b",
+     "width": 0
+    },
+    {
+     "type": "asset",
+     "boil": 0,
+     "wobble": 0,
+     "name": "cassowary_thermal_hot",
+     "x": 954,
+     "y": 289,
+     "scale": 0.48
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 26,
+   "y": 368,
+   "w": 600,
+   "h": 270,
+   "fill": "#ffe24a",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "50 KM/H",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 6,
+     "y": 348,
+     "w": 660,
+     "h": 320,
+     "fill": "#ffe24a",
+     "width": 0
+    },
+    {
+     "type": "asset",
+     "boil": 0,
+     "wobble": 0,
+     "name": "cassowary_running",
+     "x": 326,
+     "y": 643,
+     "scale": 0.5
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 654,
+   "y": 368,
+   "w": 600,
+   "h": 270,
+   "fill": "#e04fa0",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "SAME TOE",
+   "label_size": 48,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 634,
+     "y": 348,
+     "w": 660,
+     "h": 320,
+     "fill": "#e04fa0",
+     "width": 0
+    },
+    {
+     "type": "asset",
+     "boil": 0,
+     "wobble": 0,
+     "name": "cassowary_foot",
+     "x": 984,
+     "y": 568,
+     "scale": 0.62
+    }
+   ]
+  }
+ ]
+}
