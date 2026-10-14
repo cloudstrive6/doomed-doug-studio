@@ -4,7 +4,7 @@
 
 [Open on the thumbnail, 1.5 to 4 seconds: the towering cassowary, one foot raised, tiny Doug at the bottom with the open field guide. Cut to bright rainforest green. Doug holds the field guide open on the CASSOWARY page. The FRIEND? box has a red "NO" in it from last time. DOUG DEATHS: 147.]
 
-Doug's field guide already has a page for this bird. It says no. Doug has decided that was a misunderstanding.
+Doug's field guide already has a page for this bird, and the box marked friend says no. Doug has decided that was a misunderstanding.
 
 Harmless.
 
@@ -16,23 +16,23 @@ You would expect the most dangerous bird alive to announce itself, and in a way 
 
 [A cassowary in the trees, neck slightly puffed. Faint, wide sound rings come off it. Label: "32 HZ".]
 
-In two thousand three, researchers recorded cassowaries in Papua New Guinea and found that their booming calls go remarkably low. The southern cassowary went down to thirty-two hertz, and its smaller cousin, the dwarf cassowary, went down to twenty-three.
+A study published in two thousand three recorded cassowaries in Papua New Guinea and found that their booming calls go remarkably low. The southern cassowary went down to thirty-two hertz, and its smaller cousin, the dwarf cassowary, went down to twenty-three.
 
-[A piano keyboard. A red arrow at the far left key: "LOWEST KEY: 27.5". A dotted line below it: "HUMAN HEARING: ABOUT 20".]
+[A piano keyboard. A red arrow at the far left key: "LOWEST KEY: 27.5". Just above it, a marker "SOUTHERN: 32". Just below it, "DWARF: 23". A dotted line under everything: "HUMAN HEARING: ABOUT 20".]
 
-The lowest key on a standard piano plays at about twenty-seven and a half hertz, and human hearing gives out at roughly twenty.
+The lowest key on a standard piano plays at about twenty-seven and a half hertz. The southern bird's boom sits just above that key, and the dwarf's deepest note drops below it, close to where human hearing gives out at roughly twenty.
 
 Here's the unsettling part.
 
-[Close on an ear. The sound rings pass straight through it and into a stick-figure chest, which wobbles.]
+[Close on an ear. Some sound rings go into it. Others pass into a stick-figure chest, which wobbles.]
 
-The lead researcher said that up close, these calls aren't always something you hear, and sometimes they're something you feel, the way people describe standing near rumbling elephants.
+The lead researcher said that up close, these calls can be heard or felt, the way people describe standing near rumbling elephants.
 
-So a bird up to two meters tall could be calling right now, a few trees away, and you might not hear a thing. You would only feel it.
+So a bird up to two meters tall could be calling right now, a few trees away, and you might feel it as much as hear it.
 
 [Diagram: a tall wall of leaves. A short, high sound wave bounces off it. A long, slow sound wave rolls straight through.]
 
-The researchers think a voice like this suits an animal that lives alone, spread thinly through dense rainforest. A deep note can carry through all those leaves to another cassowary a long way off.
+The researchers think a voice like this suits an animal that lives alone, spread thinly through dense rainforest. A deep note can carry through all those leaves to another cassowary a long way off. The researchers also pointed out that a call this deep gives scientists a new way to find and study birds that are extremely secretive.
 
 [Doug pats his pocket and pulls out his phone. The screen is blank. Behind him, three trees back, a cassowary stops booming, looks at him, and walks off. DOUG DEATHS: 147.]
 
@@ -54,7 +54,7 @@ On top of every cassowary's head sits a tall crest called a casque, and it looks
 
 The outside is a sheath of keratin, the same material your hair is made of. Underneath is a fragile bony core, part honeycomb and part empty space, threaded through with blood vessels.
 
-For around two hundred years, people argued about what it was for. A shield for ramming through undergrowth, a weapon for fights, a way to impress a mate, a sound box for the boom. One major review found the casque far too light and fragile to be any kind of weapon, but it still couldn't settle what the thing was actually for.
+For around two hundred years, people argued about what it was for. A shield for ramming through undergrowth, a weapon for fights, a way to impress a mate, a sound box for the boom. One major review found its bony core fragile and judged the weapon idea unlikely, but it still couldn't settle what the thing was actually for.
 
 The surprising answer came in two thousand nineteen.
 
@@ -80,13 +80,13 @@ The Plum.
 
 [A cassowary on the forest floor, swallowing a large fruit whole. The lump slides down the blue neck.]
 
-The cassowary is mostly a fruit eater, and it has no table manners whatsoever, because it swallows its fruit whole.
+The cassowary is mostly a fruit eater, and it doesn't nibble. It swallows its fruit whole, often picking it straight up off the forest floor.
 
 [A scatter of fruit icons fanning out across the screen. Counter: "238 SPECIES".]
 
-One study of southern cassowaries in Australia found them eating the fruit of two hundred and thirty-eight plant species. In feeding trials, seeds stayed inside the bird for about five hours on average. That's long enough to carry them a couple of hundred meters, and sometimes more than a kilometer.
+One study of southern cassowaries in Australia found them eating the fruit of two hundred and thirty-eight plant species. In feeding trials, seeds stayed inside the bird for about five hours on average. That's long enough to carry them a couple of hundred meters, and sometimes more than a kilometer. Cassowaries feed most in the early morning and late afternoon, and when the researchers allowed for that, the average trip for a seed grew to about three hundred and forty meters.
 
-The seeds come out undamaged, in a pile of free fertiliser, somewhere new.
+The seeds come out undamaged, in a pile of fertiliser, somewhere new.
 
 According to the agency that manages Queensland's Wet Tropics rainforest, more than seventy tree species there have fruit too big for any other forest animal to eat and carry away. Without the cassowary, those seeds have nobody else to move them.
 
@@ -104,7 +104,7 @@ The bird is the rainforest's gardener, and it can eat the plum. Doug cannot.
 
 [The narrator's hand, a flat drawn arm, enters frame and puts a cassowary plum in Doug's hand. Doug looks at the cassowary, which is swallowing one. Doug swallows his whole. His face turns green. X eyes. Ghost Doug floats up. DOUG DEATHS: 148.]
 
-We handed Doug a cassowary plum. Doug did not agree to this. He watched the bird swallow one whole, decided it looked easy, and did exactly the same thing.
+We handed Doug a cassowary plum. Doug did not agree to this. He watched the bird swallow one whole, and did exactly the same thing.
 
 The bird walked off to plant a tree, and Doug stayed behind as a lesson.
 
@@ -116,17 +116,17 @@ The Road.
 
 [Darker shade-green. A two-lane road through the rainforest. A yellow diamond sign with a cassowary silhouette.]
 
-So far, the cassowary has been the danger in every item. For this one, we are going to look at it from the bird's side of the road.
+On the roads of far north Queensland, the danger runs the other way, and it's worth looking at it from the bird's side of the road.
 
 [Map of Australia. A small green strip in the far northeast, labelled "WET TROPICS" and "CAPE YORK".]
 
 In Australia, cassowaries live only in the far north of Queensland, and the southern cassowary is listed as Endangered under national law. Queensland's environment department estimates that there are about four thousand of them left in the wild. Even that number is soft, because a shy, solitary bird in thick rainforest has always been very hard to count.
 
-[A crude Sydney Opera House. A seat counter: "CONCERT HALL: 2,679". Cassowaries fill every seat, and a queue of them waits outside.]
+[A crude Sydney Opera House. A seat counter: "CONCERT HALL: 2,664". Cassowaries fill every seat, and a queue of them waits outside.]
 
-The main concert hall at the Sydney Opera House seats two thousand six hundred and seventy-nine people. Every wild cassowary in Queensland would fill it, and there would still be a long queue outside for the second show.
+The main concert hall at the Sydney Opera House seats up to two thousand six hundred and sixty-four people. Every wild cassowary in Queensland would fill it, and there would still be a long queue outside for the second show.
 
-Now here's the problem.
+The problem is what happens on the roads.
 
 [A pie chart: "CARS 55%", "DOGS 18%", "OTHER".]
 
@@ -152,7 +152,7 @@ The cassowary can't fly, and most people assume its wings are simply tiny, usele
 
 [The body feathers close up. Each one splits into a "V", two long shafts side by side. Label: "TWO SHAFTS".]
 
-Its body feathers are loose, shaggy and almost hair-like, because they're missing the tiny hooks that zip a flying bird's feathers together into a smooth surface. Its feathers even grow as doubles, two shafts of similar length from one base, which may be unique to cassowaries.
+Its body feathers are loose, shaggy and almost hair-like, because they're missing the tiny hooks that zip a flying bird's feathers together into a smooth surface. Its feathers even grow as doubles, two shafts of similar length from one base.
 
 [The wing, enlarged. Four long, curved spikes stick out of it. Label: "4 QUILLS".]
 
@@ -166,7 +166,7 @@ The same study found that the second digit of the wing ends in a curved claw. Th
 
 [Doug flaps his arms on a tree stump, demonstrating. The cassowary watches, then lifts one stubby wing. Four quills and a little claw. Doug stops flapping. DOUG DEATHS: 148.]
 
-Doug stood on a stump and flapped his arms, trying to teach the bird how to fly. The cassowary lifted one wing, showed him the quills and the claw, and lowered it again.
+Doug stood on a stump and flapped, trying to teach the bird to fly. It lifted one wing, showed him the quills and the claw, and lowered it.
 
 Doug got the message, climbed down off the stump, and decided not to bring up flying again. Even the part of this bird that does nothing has a claw on it.
 
@@ -190,7 +190,7 @@ When the chicks hatch, they're striped in cream and dark brown, which probably h
 
 [Background: the male walks, three small striped chicks behind him in a line, drawn small and detailed, not cute.]
 
-Here's the part to remember. The Australian Museum notes that the fathers caring for eggs and chicks are very aggressive during the breeding season.
+And that's where this becomes dangerous. The Australian Museum notes that the fathers caring for eggs and chicks are very aggressive during the breeding season.
 
 The angriest parent in this forest is the dad.
 
@@ -210,7 +210,7 @@ Most people assume a big, heavy, flightless bird would stay well away from deep 
 
 [A cassowary on a scale: "UP TO 60 KG". Six big bags of rice on the other side.]
 
-A large cassowary can weigh as much as sixty kilograms, about the same as six of those big ten-kilogram bags of rice, and all of that can swim.
+A large cassowary can weigh as much as sixty kilograms, about the same as six of those big ten-kilogram bags of rice.
 
 Queensland's parks and wildlife service says cassowaries will take to the water to cross from one side of a river to the other, or to get away from dogs or from a rival cassowary.
 
@@ -220,9 +220,7 @@ The weird part is how far they take it.
 
 In late twenty twenty-three, people at a campground on Bingil Bay in north Queensland watched something swimming toward the beach from the open sea. At first they thought it was a turtle, or maybe a shark's fin. Then a young cassowary walked out of the water and shook itself off.
 
-Officials said they weren't sure how long it had been out there, or why it had gone for a swim. A sixty-kilogram bird walking out of the surf at a campground was unusual enough that Queensland's environment department put out a media release about it.
-
-So the list of places Doug can safely get away from a cassowary no longer includes the forest, the river or, it turns out, the sea.
+Officials said they weren't sure how long it had been out there, or why it had gone for a swim. A young cassowary walking out of the surf at a campground was unusual enough that Queensland's environment department put out a media release about it.
 
 Doug's escape plan was the river. For the cassowary, the river is the commute.
 
@@ -242,7 +240,7 @@ The Sprint.
 
 [Dusk light through the trees. A cassowary standing still between trunks, legs drawn long and thick.]
 
-Most of the time, a cassowary wanders slowly across the forest floor, head down, picking up fallen fruit. Standing still, it looks heavy and a little awkward, like something that would have trouble catching a bus. That impression doesn't survive seeing one move.
+Most of the time, a cassowary wanders slowly across the forest floor, head down, picking up fallen fruit. Standing still, it looks heavy and a little awkward. That impression doesn't survive seeing one move.
 
 [A round road sign reading "50" next to a cassowary in mid-stride. Label: "50 KM/H".]
 
@@ -256,15 +254,13 @@ But that's not the disturbing part.
 
 That top speed isn't something people describe on an open track. It's described for a bird running through rainforest, with vines, roots, fallen logs and low branches, in the kind of place where you can't see more than a few meters ahead.
 
-Doug, on the other hand, needs a clear path, decent shoes and a head start, and he has never once had all three at the same time.
-
 Thick forest is where Doug is slowest. It's where the cassowary is fastest.
 
 [Doug sprints through the trees, looking back over his shoulder. Nothing behind him. He slows down and smiles. He turns to face forward. The cassowary is standing directly in front of him. Dust cloud. X eyes. Ghost Doug floats up. DOUG DEATHS: 151.]
 
 Doug ran as fast as he could, looked back over his shoulder, and saw nothing behind him, so he slowed down and relaxed. Then he looked forward again.
 
-It hadn't been chasing him at all. It had simply gotten there first, by a route Doug didn't know existed.
+It hadn't been chasing him at all. It had simply gotten there first.
 
 Deadly.
 
@@ -274,7 +270,7 @@ The First Pet.
 
 [Near-dark forest. A rock shelter in the New Guinea highlands. A pile of eggshell fragments on the floor.]
 
-You would think anyone who had met a cassowary would keep their distance. Some of the earliest people in New Guinea seem to have done the opposite.
+You would think anyone who had met a cassowary would keep their distance. People in New Guinea, at least eighteen thousand years ago, seem to have done the opposite.
 
 [Eggshell fragments under a magnifying glass. Label: "18,000 TO 6,000 YEARS OLD". A counter: "1,019 FRAGMENTS".]
 
@@ -284,7 +280,7 @@ The team worked out how far along each egg had been when someone collected it, a
 
 [A crude stick figure in a rock shelter holding an egg up to the light. Later, the same figure walking with a small striped chick behind it.]
 
-So the researchers suggest people may have been collecting the eggs on purpose, hatching them, and raising the chicks. Cassowary chicks imprint on people readily and are easy to raise to full size, and they are still traded in New Guinea today. The birds in the rock shelters were most likely dwarf cassowaries, which grow to around twenty kilograms.
+So the researchers suggest people may have been collecting the eggs on purpose, hatching them, and raising the chicks. Cassowary chicks imprint on people readily and are easy to raise to full size, and they are still traded in New Guinea today. The birds in the rock shelters were most likely dwarf cassowaries, which grow to around twenty kilograms, about the weight of two big ten-kilogram bags of rice. That's the small one.
 
 Here comes the part nobody expected.
 
@@ -298,7 +294,7 @@ People may have been raising the most dangerous bird alive for eighteen thousand
 
 Doug picked up a chick and said hi friend. It imprinted on him immediately, and then it kept on growing.
 
-The people of New Guinea had eighteen thousand years of practice. Doug skipped the practice.
+The people of New Guinea may have had thousands of years of practice, and Doug skipped all of it.
 
 ## The Toe
 
@@ -318,7 +314,7 @@ Now look at the raptor dinosaurs, like Deinonychus. Their famous enlarged killin
 
 Scientists still argue about how those raptors used theirs, and the old movie image of slashing is not the favourite answer. One study compared their feet to those of hawks and eagles, which hold prey down with an enlarged talon and use their body weight to pin it. That study suggested the raptor claw was mostly used the same way, to grip prey and keep it there.
 
-Here's the twist.
+Put the two feet side by side, and the unnerving part jumps out.
 
 [The cassowary foot and the Deinonychus foot side by side. Both inner toes glow red.]
 
@@ -328,7 +324,7 @@ It's the same toe.
 
 Doug brought a plaster museum cast of a raptor claw, held it up against the cassowary's foot, and asked whether the two of them matched. The bird agreed, briefly.
 
-The dinosaurs never really left. Some of them just took up fruit.
+The dinosaurs never really left. Some of them just gave up hunting and took up fruit.
 
 ## The Kick
 
@@ -340,7 +336,7 @@ Guinness World Records and countless headlines call the cassowary the most dange
 
 [A cassowary in side view. A curved arrow shows the foot swinging forward and down. A stick-figure outline stands beside it, with a dotted line at chest height.]
 
-Unlike an emu, a cassowary isn't limited to kicking backwards. It can kick forward and downward, and it can jump high enough to strike an adult at chest height. Those kicks are how a cassowary defends itself against predators. Its legs end in three toes, and you already know about the inner one.
+A cassowary can kick forward and downward, and it can jump high enough to strike an adult at chest height. Those kicks are how a cassowary defends itself against predators. Its legs end in three toes, and you already know about the inner one.
 
 Here is the part that changes the whole picture.
 
@@ -372,4 +368,5 @@ Later that evening, a cassowary found the cap, looked at it for a while, and swa
 
 Doug deaths: one hundred and fifty-four. The field guide still says no. Which part of the cassowary would you least like to meet? Tell us in the comments.
 
-<!-- words: 2943 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:06 at 195 wpm · draft 1 (2026-10-14) · 11 items (brief's Quills option used) · item words: The Boom 229, The Helmet 262, The Plum 228, The Road 258, The Quills 264, The Dad 266, The Swim 277, The Sprint 256, The First Pet 265, The Toe 262, The Kick 355 · first item name "The Boom." at spoken word 21 · item 1 twist ("Here's the unsettling part.") at spoken word 111 · first death (The Plum) at about spoken word 700, about 3:35 · "Deadly." at about 72% · 208 sentences, avg 14.1 words, max 34 · Flesch about 72 (scripted estimate) · outro 28 words · tics: actually 1, However 0, essentially 0, incredibly 0 · twist markers: Here's the unsettling part / The surprising answer came / The strange part is / Now here's the problem / The worst part is / Here's the part to remember / The weird part is / But that's not the disturbing part / Here comes the part nobody expected / Here's the twist / Here is the part that changes the whole picture -->
+
+<!-- words: 2956 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:10 at 195 wpm · draft 2 (2026-10-14; script_review.md fixes 1-13) · 11 items · item words: The Boom 266, The Helmet 259, The Plum 259, The Road 262, The Quills 253, The Dad 267, The Swim 245, The Sprint 213, The First Pet 285, The Toe 276, The Kick 346 · first item name "The Boom." at spoken word 27 · item 1 twist at spoken word 136 · first death (The Plum) at about spoken word 775, about 3:58 · 206 sentences, avg 14.3 words, max 34 · Flesch about 72 (scripted estimate) · outro 28 words · tics: actually 1, However 0, essentially 0, incredibly 0 · twist markers: Here's the unsettling part / The surprising answer came / The strange part is / The problem is what happens on the roads / The worst part is / And that's where this becomes dangerous / The weird part is / But that's not the disturbing part / Here comes the part nobody expected / Put the two feet side by side, and the unnerving part jumps out / Here is the part that changes the whole picture -->
