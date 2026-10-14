@@ -1,0 +1,37 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s106",
+      "to": "s116",
+      "hook": "The cassowary can't fly, but its tiny wings hide something worse.",
+      "hook_scene_from": "s097",
+      "title": "",
+      "outro": "Its feet are even worse. The full video is linked below.",
+      "end_card": "WHAT'S ON THE FEET? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s148",
+      "to": "s159",
+      "hook": "Campers saw a fin heading for the beach. It wasn't a shark.",
+      "hook_scene_from": "s150",
+      "title": "",
+      "outro": "Running away doesn't work either. The full video is linked below.",
+      "end_card": "WHERE CAN DOUG HIDE? TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s218",
+      "to": "s226",
+      "hook": "This bird's dagger claw grows on a very famous toe.",
+      "hook_scene_from": "s216",
+      "title": "",
+      "outro": "Then Doug tested it himself. The full video is linked below.",
+      "end_card": "WHAT HAPPENS NEXT? TAP BELOW",
+      "description": ""
+    }
+  ]
+}

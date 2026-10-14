@@ -16,3 +16,14 @@
 - Series bible: the counter and the 018 log row are updated.
 
 SCRIPT: APPROVED
+
+## 2026-10-14 · Shotlist (director)
+- 265 shots. All 2,939 spoken words are covered, in order. Max 30 words per shot, and Doug appears in 90% of shots (ghost included). There are 11 chapters, and the section headers "HARMLESS." / "DANGEROUS." / "DEADLY." are white cards with `topbar: false`.
+- Ramp: the forest backdrop gets one step darker per item on the severity axis (bright rainforest green, then shade green, river brown-green, dusk, near-dark and near-black). Diagrams are cream (Harmless), pale sage (Dangerous) and dark slate `#1e2622` (Deadly). WordArt uses the green-ground override everywhere on forest backdrops.
+- Counter: 147 → 148 (s070 Plum), 149 (s138 Dad), 150 (s159 Swim, no bit), 151 (s184 Sprint), 152 (s208 First Pet), 153 (s230 Toe) and 154 (s257 Kick).
+- **Needs art-director approval (one-off capless Doug):** s047 shows Doug with `gear: ["cap_off"]` holding `doug_cap` out over the casque for shade ("offered the bird his cap"). The cap stays in frame, and s048 puts it back on.
+- The two human deaths (s240-s245) are on a sober card: plain `#0d0d0f`, white/grey text only, no Doug, no counter, no caption bar, and no names, ages or injuries. The claw never touches Doug: every death is a dust cloud, a splash or a cut-away.
+- Chicks stay small (scale 0.28-0.55) and in the background or in diagrams. There is no close-up hero chick.
+- Foot close-ups (`cassowary_foot`) only appear on diagram cards. In forest shots the whole bird is shown, so a lone leg never reads as severed.
+- Closing: `seedling_cap` (s261, s262, s265). The fallback is `doug_cap` beside the footprint line, as asset_requests.md describes.
+- Shorts: short01 The Quills (s106-s116, wing claw), short02 The Swim (s148-s159, Bingil Bay sea swim), short03 The Toe (s218-s226, "It's the same toe."). Each has a hook line and is about 42-52 s.
