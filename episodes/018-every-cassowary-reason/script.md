@@ -1,4 +1,4 @@
-<!-- axis: severity, measured as the danger each trait puts Doug in. From a sound he can't hear (item 1) to the claw and the kick (items 10-11). Spoken section headers: "Harmless." (opener, items 1-3; the joke is that item 3 isn't), "Dangerous." (before item 4), "Deadly." (before item 9, about 70%). -->
+<!-- axis: severity, measured as the danger each trait puts Doug in. From a sound he may feel before he hears it (item 1) to the claw and the kick (items 10-11). Spoken section headers: "Harmless." (opener, items 1-3; the joke is that item 3 isn't), "Dangerous." (before item 4), "Deadly." (before item 9, about 70%). -->
 <!-- Episode: 11 items (brief option used: The Quills added between The Road and The Dad, survival, no death). Deaths 148 to 154 (counter starts at 147). Survivals: The Boom ("Doug is fine."), The Helmet (narrator quietly disappointed), The Road, The Quills. "Doug did not agree to this." at The Plum. "Doug has died. Again." once, at The Swim. Death 150 gets no bit. Befriending: "hi friends?" (The Dad), "hi friend?" (The First Pet), "FRIEND?" written into the guide (The Kick). The cap: downstream (The Swim), on the empty nest (The First Pet), swallowed and planted (closing). One callback to 011 only: the field guide page in the opener and the jump clause in The Sprint. Sober card, no Doug, no joke: the two human deaths (The Kick). No names, no ages, no injuries. The claw never touches Doug on screen. -->
 <!-- Pronunciation for the editor: cassowary = "KASS-uh-wair-ee"; casque = "KASK"; keratin = "KERR-uh-tin"; Bingil = "BING-il"; Cairns = "CANS"; Deinonychus = "dye-NON-ih-kus"; hertz = "HURTS"; theropod = "THERR-uh-pod". -->
 
@@ -12,7 +12,7 @@ Harmless.
 
 The Boom.
 
-You would expect the most dangerous bird alive to announce itself, and in a way the cassowary does, just not in a way you can hear.
+You would think the most dangerous bird alive would announce itself, and the cassowary does, just not in the way you'd expect.
 
 [A cassowary in the trees, neck slightly puffed. Faint, wide sound rings come off it. Label: "32 HZ".]
 
@@ -20,19 +20,19 @@ A study published in two thousand three recorded cassowaries in Papua New Guinea
 
 [A piano keyboard. A red arrow at the far left key: "LOWEST KEY: 27.5". Just above it, a marker "SOUTHERN: 32". Just below it, "DWARF: 23". A dotted line under everything: "HUMAN HEARING: ABOUT 20".]
 
-The lowest key on a standard piano plays at about twenty-seven and a half hertz. The southern bird's boom sits just above that key, and the dwarf's deepest note drops below it, close to where human hearing gives out at roughly twenty.
+That's right around the lowest key on a piano, and close to where human hearing starts to give out.
 
 Here's the unsettling part.
 
 [Close on an ear. Some sound rings go into it. Others pass into a stick-figure chest, which wobbles.]
 
-The lead researcher said that up close, these calls can be heard or felt, the way people describe standing near rumbling elephants.
+You might feel this bird before you hear it.
 
-So a bird up to two meters tall could be calling right now, a few trees away, and you might feel it as much as hear it.
+The lead researcher said that up close, these calls can be heard or felt, the way people describe standing near rumbling elephants. So a bird up to two meters tall could be calling a few trees away, and the first thing you notice might be a rumble in your chest.
 
 [Diagram: a tall wall of leaves. A short, high sound wave bounces off it. A long, slow sound wave rolls straight through.]
 
-The researchers think a voice like this suits an animal that lives alone, spread thinly through dense rainforest. A deep note can carry through all those leaves to another cassowary a long way off. The researchers also pointed out that a call this deep gives scientists a new way to find and study birds that are extremely secretive.
+The researchers think a voice like this suits an animal that lives alone, spread thinly through dense rainforest. A deep note can carry through all those leaves to another cassowary a long way off.
 
 [Doug pats his pocket and pulls out his phone. The screen is blank. Behind him, three trees back, a cassowary stops booming, looks at him, and walks off. DOUG DEATHS: 147.]
 
@@ -84,7 +84,7 @@ The cassowary is mostly a fruit eater, and it doesn't nibble. It swallows its fr
 
 [A scatter of fruit icons fanning out across the screen. Counter: "238 SPECIES".]
 
-One study of southern cassowaries in Australia found them eating the fruit of two hundred and thirty-eight plant species. In feeding trials, seeds stayed inside the bird for about five hours on average. That's long enough to carry them a couple of hundred meters, and sometimes more than a kilometer. Cassowaries feed most in the early morning and late afternoon, and when the researchers allowed for that, the average trip for a seed grew to about three hundred and forty meters.
+One study of southern cassowaries in Australia found them eating the fruit of two hundred and thirty-eight plant species. In feeding trials, seeds stayed inside the bird for about five hours on average. That's long enough to carry them a couple of hundred meters, and sometimes more than a kilometer.
 
 The seeds come out undamaged, in a pile of fertiliser, somewhere new.
 
@@ -254,13 +254,15 @@ But that's not the disturbing part.
 
 That top speed isn't something people describe on an open track. It's described for a bird running through rainforest, with vines, roots, fallen logs and low branches, in the kind of place where you can't see more than a few meters ahead.
 
+The Australian Museum says these birds can crash straight through rainforest thickets that look impossible to get through, and then vanish from view almost at once. Their tough skin and bristly, hair-like feathers help shield them from the spiny plants that would stop almost anything else.
+
 Thick forest is where Doug is slowest. It's where the cassowary is fastest.
 
 [Doug sprints through the trees, looking back over his shoulder. Nothing behind him. He slows down and smiles. He turns to face forward. The cassowary is standing directly in front of him. Dust cloud. X eyes. Ghost Doug floats up. DOUG DEATHS: 151.]
 
 Doug ran as fast as he could, looked back over his shoulder, and saw nothing behind him, so he slowed down and relaxed. Then he looked forward again.
 
-It hadn't been chasing him at all. It had simply gotten there first.
+It hadn't been chasing him at all. It had simply taken the shortcut and gotten there first.
 
 Deadly.
 
@@ -288,7 +290,7 @@ Here comes the part nobody expected.
 
 The team described it as possibly the earliest sign anywhere in the world of people managing the breeding of a bird. The lead researcher said it came thousands of years before anyone domesticated the chicken.
 
-People may have been raising the most dangerous bird alive for eighteen thousand years. Doug had a weekend.
+People may have been raising the most dangerous bird alive since as long as eighteen thousand years ago. Doug had a weekend.
 
 [Doug holds a small striped chick. Speech bubble: "hi friend?". Caption card: "LATER". The cassowary is now taller than Doug. It looks down at him. Cut to the empty nest with the red cap sitting in it. DOUG DEATHS: 152.]
 
@@ -306,7 +308,7 @@ Every bird alive today is a dinosaur. Birds sit inside the theropods, the group 
 
 [The foot with each toe numbered. The inner toe is labelled "TOE 2". A paring knife lies next to the claw, about the same length.]
 
-Each foot has just three toes, because the small first toe that most birds have is simply missing. The inner one of the three, which anatomists call digit two, carries a long, dagger-like claw. On a big bird it can reach about ten to twelve centimeters, roughly the length of the blade on a kitchen paring knife.
+Each foot has just three toes, because the small first toe that most birds have is simply missing. The inner one of the three, which anatomists call digit two, carries a long, dagger-like claw. On a big bird it can reach about ten to twelve centimeters, roughly the length of a long paring-knife blade.
 
 [A museum skeleton of Deinonychus. Its foot is enlarged. The second toe carries a big curved claw. Label: "TOE 2".]
 
@@ -369,4 +371,4 @@ Later that evening, a cassowary found the cap, looked at it for a while, and swa
 Doug deaths: one hundred and fifty-four. The field guide still says no. Which part of the cassowary would you least like to meet? Tell us in the comments.
 
 
-<!-- words: 2956 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:10 at 195 wpm · draft 2 (2026-10-14; script_review.md fixes 1-13) · 11 items · item words: The Boom 266, The Helmet 259, The Plum 259, The Road 262, The Quills 253, The Dad 267, The Swim 245, The Sprint 213, The First Pet 285, The Toe 276, The Kick 346 · first item name "The Boom." at spoken word 27 · item 1 twist at spoken word 136 · first death (The Plum) at about spoken word 775, about 3:58 · 206 sentences, avg 14.3 words, max 34 · Flesch about 72 (scripted estimate) · outro 28 words · tics: actually 1, However 0, essentially 0, incredibly 0 · twist markers: Here's the unsettling part / The surprising answer came / The strange part is / The problem is what happens on the roads / The worst part is / And that's where this becomes dangerous / The weird part is / But that's not the disturbing part / Here comes the part nobody expected / Put the two feet side by side, and the unnerving part jumps out / Here is the part that changes the whole picture -->
+<!-- words: 2935 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:03 at 195 wpm · draft 3 (2026-10-14; round-2 script_review.md fixes 1-5 plus both advisory notes) · 11 items · item words: The Boom 225, The Helmet 259, The Plum 228, The Road 262, The Quills 253, The Dad 267, The Swim 245, The Sprint 263, The First Pet 289, The Toe 273, The Kick 346 · first item name "The Boom." at spoken word 26 · item 1 twist marker at spoken word 110, twist sentence "You might feel this bird before you hear it." at spoken word 114 (0:35) · first death (The Plum, "Doug did not agree to this.") at spoken word 703, about 3:36 · The Sprint kicker: final sentence 10 words, two-sentence kicker 17 · 206 sentences, avg 14.2 words, max 34 · Flesch about 73 (scripted estimate; average is still at the floor) · outro 28 words · tics: actually 1, However 0, essentially 0, incredibly 0 -->
