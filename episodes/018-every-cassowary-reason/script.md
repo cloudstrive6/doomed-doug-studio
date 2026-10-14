@@ -132,6 +132,8 @@ The problem is what happens on the roads.
 
 One study looked at one hundred and ten cassowary deaths with a known cause, between nineteen eighty-six and two thousand four. Fifty-five percent of those birds were hit by vehicles, and eighteen percent were killed by dogs. Queensland's transport department still calls vehicle strikes the leading known cause of cassowary deaths.
 
+The cars are winning.
+
 Roads through their habitat carry yellow cassowary crossing signs, and one Queensland trial tested warning signs that light up when a driver is going over the limit.
 
 For one item, the dangerous animal on this road is Doug.
@@ -371,4 +373,4 @@ Later that evening, a cassowary found the cap, looked at it for a while, and swa
 Doug deaths: one hundred and fifty-four. The field guide still says no. Which part of the cassowary would you least like to meet? Tell us in the comments.
 
 
-<!-- words: 2935 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:03 at 195 wpm · draft 3 (2026-10-14; round-2 script_review.md fixes 1-5 plus both advisory notes) · 11 items · item words: The Boom 225, The Helmet 259, The Plum 228, The Road 262, The Quills 253, The Dad 267, The Swim 245, The Sprint 263, The First Pet 289, The Toe 273, The Kick 346 · first item name "The Boom." at spoken word 26 · item 1 twist marker at spoken word 110, twist sentence "You might feel this bird before you hear it." at spoken word 114 (0:35) · first death (The Plum, "Doug did not agree to this.") at spoken word 703, about 3:36 · The Sprint kicker: final sentence 10 words, two-sentence kicker 17 · 206 sentences, avg 14.2 words, max 34 · Flesch about 73 (scripted estimate; average is still at the floor) · outro 28 words · tics: actually 1, However 0, essentially 0, incredibly 0 -->
+<!-- words: 2939 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:03 at 195 wpm · draft 3 (2026-10-14; round-2 script_review.md fixes 1-5 plus both advisory notes) · 11 items · item words: The Boom 225, The Helmet 259, The Plum 228, The Road 266 (CD added "The cars are winning." at script approval), The Quills 253, The Dad 267, The Swim 245, The Sprint 263, The First Pet 289, The Toe 273, The Kick 346 · first item name "The Boom." at spoken word 26 · item 1 twist marker at spoken word 110, twist sentence "You might feel this bird before you hear it." at spoken word 114 (0:35) · first death (The Plum, "Doug did not agree to this.") at spoken word 703, about 3:36 · The Sprint kicker: final sentence 10 words, two-sentence kicker 17 · 206 sentences, avg 14.2 words, max 34 · Flesch about 73 (scripted estimate; average is still at the floor) · outro 28 words · tics: actually 1, However 0, essentially 0, incredibly 0 -->
