@@ -550,7 +550,7 @@
      -458
     ]
    ],
-   "fill": "#8a3a7a",
+   "fill": "#2c5fae",
    "width": 0,
    "color": "#000000",
    "smooth": true,
@@ -584,11 +584,11 @@
      -466
     ]
    ],
-   "fill": "#c23a52",
-   "width": 0,
+   "fill": "#e0201b",
+   "width": 3,
    "color": "#000000",
    "smooth": true,
-   "outline": false
+   "outline": true
   },
   {
    "type": "curve",
@@ -606,7 +606,7 @@
      -470
     ]
    ],
-   "width": 6,
+   "width": 7,
    "color": "#e0201b"
   },
   {

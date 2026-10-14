@@ -27,3 +27,7 @@ SCRIPT: APPROVED
 - Foot close-ups (`cassowary_foot`) only appear on diagram cards. In forest shots the whole bird is shown, so a lone leg never reads as severed.
 - Closing: `seedling_cap` (s261, s262, s265). The fallback is `doug_cap` beside the footprint line, as asset_requests.md describes.
 - Shorts: short01 The Quills (s106-s116, wing claw), short02 The Swim (s148-s159, Bingil Bay sea swim), short03 The Toe (s218-s226, "It's the same toe."). Each has a hook line and is about 42-52 s.
+
+## 2026-10-14 · Asset gate (art director)
+- All 40 new assets are APPROVED (art_review.md). The AD fixed three in the library: the `cassowary_head` casque no longer reads as a hat, the `cassowary_swallow_cap` lump is blue + Doug-red instead of the bruise purples, and the `seedling_cap` seed-husk lumps are removed (dung read). `seedling_cap` reads as planted, so the fallback is not used.
+- **Capless upright Doug one-off approved: s047** (`gear: ["cap_off"]`, the cap is held out over the casque for shade, back on in s048). It is not a precedent. Placement fix routed to the director (cap in hand, scale 0.7).

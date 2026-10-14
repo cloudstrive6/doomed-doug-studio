@@ -1,6 +1,6 @@
 {
  "name": "seedling_cap",
- "description": "Closing image: a young rainforest seedling on a fresh soil mound (split purple seed husk at the base, two dry leaves on the ground), three broad green leaves, and Doug's exact red cap (doug_cap at 0.78) perched on the stem top like a hat. Bottom-centre, ~250x395 (x -125..+125, y -370..0); cap centre (6,-342).",
+ "description": "Closing image: a young rainforest seedling on a fresh soil mound (two dry leaves on the ground; seed husk removed by art director 018: lumps at the stem base risked a dung read), three broad green leaves, and Doug's exact red cap (doug_cap at 0.78) perched on the stem top like a hat. Bottom-centre, ~250x395 (x -125..+125, y -370..0); cap centre (6,-342).",
  "anchor": [
   0,
   0
@@ -235,56 +235,6 @@
    ],
    "fill": null,
    "width": 5,
-   "color": "#000000",
-   "smooth": true
-  },
-  {
-   "type": "poly",
-   "points": [
-    [
-     -30,
-     -50
-    ],
-    [
-     -26,
-     -66
-    ],
-    [
-     -12,
-     -70
-    ],
-    [
-     -4,
-     -56
-    ]
-   ],
-   "fill": "#6b4a7a",
-   "width": 3,
-   "color": "#000000",
-   "smooth": true
-  },
-  {
-   "type": "poly",
-   "points": [
-    [
-     14,
-     -56
-    ],
-    [
-     20,
-     -70
-    ],
-    [
-     34,
-     -68
-    ],
-    [
-     36,
-     -52
-    ]
-   ],
-   "fill": "#6b4a7a",
-   "width": 3,
    "color": "#000000",
    "smooth": true
   },
