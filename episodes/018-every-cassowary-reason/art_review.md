@@ -87,3 +87,39 @@ capless-upright exception in the art bible, and it is logged in `decisions.md`. 
    and move it right/up (about x 790, y 740) so the fingertips stop at his raised hand/plum and his eyes stay clear.
 3. Advisory, s260: at bird scale 0.62 the cap lump is about 20 px tall. Consider scale 0.8 or a slow `zoom_in` on the neck
    (lump at local (100,-470), flipped), so the outro gag lands at phone size.
+
+---
+
+# Keyframe review (art director, 2026-10-14): FAIL (6 small fixes, all director/composition)
+
+Scope: all 265 keyframes (`build/contact/sheet_01..23.png`; single frames checked for s135, s216).
+
+**What passes.** The style is consistent across all 11 items. Doug is on-model everywhere except s135 (fix 1). The cap is visible
+in every frame where he is alive or a ghost, and s047 stays the logged one-off. Two-tier rendering holds (crude Doug,
+scientists and campers; detailed cassowary, foot, casque, x-ray wing, Deinonychus). The background ramp darkens one step
+per item (light green Boom/Helmet/Plum, then Road `#8fb07a`, Dad `#789f66`, Sprint brown, First Pet/Toe dark green, Kick
+near-black), and diagram cards follow it (cream, then grey-mint, then dark). Silhouette-then-reveal is used at s014, s109,
+s137 and s182. Every death is a dust cloud, a splash or a cut-away, so there is no gore. The claw never touches Doug. The real-death
+sober cards (s240-s245, `topbar: false`, no Doug, no counter) are the CD-sanctioned exception in `decisions.md` and are
+approved as staged. Layout variety is good: forest wides alternate with map, piano, pie chart, scale, timeline, x-ray, split
+panel, Opera House and beach builds. Long runs on one background (Road s088-s095, Swim beach s148-s153) are build-up groups
+that add an element on every shot, which is allowed.
+
+## Fixes (route: director)
+1. **s135:** Doug auto-inks **white** on the Dad mid-green (`#789f66`), so his body lines almost vanish. Add `"ink": "#000000"`
+   to the `doug` element.
+2. **s216:** the "DAGGER-LIKE" wordart sits on the black feather fringe at the top of the foot (text bottom about y 335, fringe top
+   about y 330). Move the wordart to clear dark space at about `"x": 1300, "y": 250`. That keeps it under the counter, above the "TOE 2" label, and off the foot.
+3. **s258-s261:** these shots are still The Kick (the coda runs before the outro line "Doug deaths: one hundred and fifty-four"), but they
+   have `topbar: false`. Style bible 7.3 requires the caption bar on every segment frame. Restore the "THE KICK" top bar on
+   s258, s259, s260 and s261. The outro (s262-s265) can stay bar-free.
+4. **s084:** the bare white disc reads as a missing or broken asset for the whole shot, until s085 fills it. Give it content now: put
+   a `cassowary` icon (scale about 0.35) or a big "110" text in the centre of the circle, or start the pie with its outline only (thin black ring, `fill` = background).
+5. **s190:** the label "18,000 TO 6,000 YEARS OLD" is 5 words (the max is 4). Change it to `"18,000-6,000 YEARS"`.
+6. **s041:** the wordart "THE MOST" has no noun, so it reads as a fragment. Change it to `"MOST HEAT"`, which echoes "heat" in the same line.
+
+## Advisory (not blocking)
+- s143: the balance beam is level with one pan empty. If the `balance_scale` asset or the scene allows a tilt, let the bird's pan sit lower and level it at s144 when the rice arrives.
+
+Re-run `python -m studio keyframes 018-every-cassowary-reason --shots s041,s084,s135,s190,s216,s258,s259,s260,s261`. If those
+frames match the above, the keyframes PASS with no further review round needed for the remaining shots.
