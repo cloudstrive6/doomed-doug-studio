@@ -1,12 +1,22 @@
 {
- "at": "2026-10-14T14:01:50+00:00",
+ "at": "2026-10-14T16:01:50+00:00",
  "issues": [
+  {
+   "key": "queue_low",
+   "severity": "medium",
+   "owner": "auto",
+   "summary": "Queue 3/4 and no production running: started a production run",
+   "detail": "",
+   "route": "dispatch produce.yml",
+   "fixed": true,
+   "extra": {}
+  },
   {
    "key": "related_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "6 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
-   "detail": "This Antarctic Icicle Grows Down and Freezes the Seafloor -> What Dying in Every Natural Trap Would Be Like\nWhen an Avalanche Stops, the Snow Sets Almost Like Concrete -> What Dying in Every Natural Trap Would Be Like\nLa Brea's Mammal Fossils Are Mostly Predators Lured by Bait -> What Dying in Every Natural Trap Would Be Like\nA Hippo's Red Sweat Isn't Blood, It's Sunscreen -> Why Hippos Get Deadlier the Closer Doug Gets\nHippos Can't Gallop, but at Top Speed They Briefly Fly -> Why Hippos Get Deadlier the Closer Doug Gets\nFrom a Canoe, a Hippo Looks Like a Rock Until It Doesn't -> Why Hippos Get Deadlier the Closer Doug Gets",
+   "summary": "9 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "detail": "This Antarctic Icicle Grows Down and Freezes the Seafloor -> What Dying in Every Natural Trap Would Be Like\nWhen an Avalanche Stops, the Snow Sets Almost Like Concrete -> What Dying in Every Natural Trap Would Be Like\nLa Brea's Mammal Fossils Are Mostly Predators Lured by Bait -> What Dying in Every Natural Trap Would Be Like\nA Hippo's Red Sweat Isn't Blood, It's Sunscreen -> Why Hippos Get Deadlier the Closer Doug Gets\nHippos Can't Gallop, but at Top Speed They Briefly Fly -> Why Hippos Get Deadlier the Closer Doug Gets\nFrom a Canoe, a Hippo Looks Like a Rock Until It Doesn't -> Why Hippos Get Deadlier the Closer Doug Gets\nBrain Parasites Make These Fish Dance for Herons -> What Dying From Every Brain Parasite Would Feel Like\nA Spot Crawled Across This Man's Brain for Four Years -> What Dying From Every Brain Parasite Would Feel Like\nThis Brain Infection Lives in Ordinary Garden Soil -> What Dying From Every Brain Parasite Would Feel Like",
    "route": "",
    "fixed": false,
    "extra": {}
