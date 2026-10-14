@@ -51480,6 +51480,20 @@
       "outline_width": 0,
       "max_width": 1600,
       "appear": 0.45
+     },
+     {
+      "type": "text",
+      "text": "THEN HE RAN. THEN HE FELL.",
+      "x": 960,
+      "y": 760,
+      "size": 54,
+      "color": "#cfcfcf",
+      "bold": true,
+      "boil": 0.3,
+      "outline": null,
+      "outline_width": 0,
+      "max_width": 1600,
+      "appear": 0.6
      }
     ]
    }
@@ -51529,6 +51543,20 @@
       "outline_width": 0,
       "max_width": 1600,
       "appear": 0.15
+     },
+     {
+      "type": "text",
+      "text": "ON HIS OWN PROPERTY.",
+      "x": 960,
+      "y": 700,
+      "size": 54,
+      "color": "#cfcfcf",
+      "bold": true,
+      "boil": 0.3,
+      "outline": null,
+      "outline_width": 0,
+      "max_width": 1600,
+      "appear": 0.55
      }
     ]
    }

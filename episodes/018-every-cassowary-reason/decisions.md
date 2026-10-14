@@ -41,3 +41,4 @@ SCRIPT: APPROVED
 ## 2026-10-14 · Thumbnail A/B pick (creative director)
 - **A wins** (thumbnail.json, Archetype C hero). Kept as is; thumbnail_b.json stays on file, unused.
 - Why: at feed size (320x180), A reads as one clear threat story: the hard-eyed head looking down at tiny red-cap Doug, with the ringed claw between them. B has no Doug (our brand marker). Its RADIATOR tile (pink bird on navy) doesn't read without the video. Its four small panels lose the claw's menace, and its white ground blends into YouTube's feed.
+- 2026-10-14: Showrunner run. Script 3 rounds (fact/hook/timing fixes; PASS round 3), keyframes 2 rounds (art-director + visual-screener PASS round 2), thumbnail A. Risks: Flesch ~73 (edge), 50 km/h sourced from encyclopedias, s242/s243 sober-card pop-in text added by editor (ON HIS OWN PROPERTY) re: real 2019 death — verify tone; engine ink-detection fix in studio/paint.py.
