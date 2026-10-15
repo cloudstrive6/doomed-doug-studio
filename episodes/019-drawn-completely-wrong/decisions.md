@@ -104,3 +104,4 @@ in narration.wav.
 FINAL: REJECTED pending re-render verification
 
 2026-10-15 final review round 1: visual screener FAIL (main: death counter clipped in s007/s015/s043/s092/s098/s108/s139/s143/s250; shorts: short03 end-card silhouette). Fixed via camera.x=960 and tease_asset spinosaurus_mystery_tease; .rerender requested (final, shorts). Stage left at packaged.
+FINAL: REJECTED pending re-render verification
