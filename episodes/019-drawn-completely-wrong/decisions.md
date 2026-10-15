@@ -105,3 +105,22 @@ FINAL: REJECTED pending re-render verification
 
 2026-10-15 final review round 1: visual screener FAIL (main: death counter clipped in s007/s015/s043/s092/s098/s108/s139/s143/s250; shorts: short03 end-card silhouette). Fixed via camera.x=960 and tease_asset spinosaurus_mystery_tease; .rerender requested (final, shorts). Stage left at packaged.
 FINAL: REJECTED pending re-render verification
+
+2026-10-15 visual screener post-render round 2 (re-render verified from final.mp4 and short01-03):
+VERDICT (main): PASS - DOUG DEATHS counter fully visible with all digits and intact borders in the last frames of s007/s015/s043/s092/s098/s108/s139/s143/s250; 33 samples have no black, frozen or glitched frames; qc.json clean; thumbnail unchanged and readable.
+VERDICT (shorts): PASS - short01-03 titles, subtitles and down arrows are legible and nothing is cropped; the short03 end card is a recognisable Spinosaurus silhouette (croc snout, long neck, spined sail, waterline) that matches "WHICH SPINOSAURUS CAME OUT?" and is not answered in the clip. Advisory: the "???" covers the middle of the silhouettes; move it off the shape in future.
+
+## 2026-10-15: final package, round 2 (creative director)
+Re-checked: title and description in `metadata.json` (unchanged since the round 1 approval), `build/thumbnail_small.png`,
+`build/chapters.txt` (11 chapters from 0:00, they match the items and the {{CHAPTERS}} slot), script opening, samples f_001/f_002,
+the round 2 post-render visual screener section (main PASS, shorts PASS) and `build/qc.json` (985 s, problems: []).
+- **Title:** "The Creepiest Prehistoric Animals Scientists Drew All Wrong" is unchanged and still delivers the full 11-item list.
+- **Thumbnail:** unchanged grid. It reads at 320 px, with 11 red X's and the Spinosaurus '?', and it matches the opening image.
+- **First 60 s:** f_001 shows the BRONTOSAURUS label, the OLD DRAWING card with the '?' on the head and the counter at 154 with its
+  border intact. f_002 shows the 1903 rename beat. The item name and the twist are both on time (style bible 3.2).
+- **Round 1 render blockers resolved:** the counter is unclipped in all 9 shots, the short03 end card is recognisable, and qc is clean.
+- **Carried (non-blocking):** the editor never explicitly confirmed the pronunciations of Ramsköld, Öhningen, Scheuchzer and
+  Rozhdestvensky. The owner should listen for them during the 18 h review window. The screener's "???" placement on end cards
+  is an engine/director follow-up for future Shorts.
+Series bible already logs 019 (total 161). Episode log status updated to "package approved, final".
+FINAL: APPROVED

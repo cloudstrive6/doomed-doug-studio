@@ -161,3 +161,11 @@ Thumbnail: PASS (unchanged). short01 and short02 cliffhangers: PASS.
 
 VERDICT (main): FAIL
 VERDICT (shorts): FAIL (short03 silhouette)
+
+## Post-render round 2 (2026-10-15, re-render after camera.x=960 / tease_asset fixes)
+VERDICT: PASS (main) / PASS (shorts)
+- Last frames pulled from final.mp4 at shot end times (timing.json) for s007, s015, s043, s092, s098, s108, s139, s143, s250: the DOUG DEATHS box is fully inside frame every time, all digits show (154/154/155/156/156/156/157/157/160), and the box borders and the chapter-label borders are intact. Fixed.
+- 33 samples (f_001-f_033): no black, blank, frozen or glitched frames. Counter goes up in order from 154 to 161. qc.json problems: [].
+- Thumbnail and thumbnail_small: unchanged from the approved grid, and still readable at 320 px.
+- short01/02/03: titles, subtitles and @DoomedDoug are legible, nothing is cut off at the sides, and every end-card arrow points down. short03 end card now uses spinosaurus_mystery_tease, and the silhouette shows a crocodile snout with teeth on a long neck, a spined sail hump and a waterline. It reads as a Spinosaurus coming out of the river and matches "WHICH SPINOSAURUS CAME OUT?". The outro does not answer the question. Fixed.
+- Advisory, not blocking: on all three end cards the "???" sits on the centre of the silhouette and hides some of the shape (for short03, the place where the sail meets the neck). Future fix for the director/engine: put the "???" above the silhouette or offset it.
