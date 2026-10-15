@@ -1,0 +1,349 @@
+{
+ "name": "old_drawing_card",
+ "description": "OLD DRAWING museum card (019 episode device, reusable for any 'old reconstruction' episode): yellowed cream card #efe2b8 with darker aged edges, foxing spots, 6 px brown #8a6a3a border + thin inner rule, pin hole top centre, header 'OLD DRAWING' at (-130,-228) and a blank year box x +170..+360, y -258..-198 (overlay the year as text at (+265,-228)). x -370..370, y -180..250 is left EMPTY for an old_* plate placed at the same centre. Anchor centre, 800x560.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "card",
+  "museum",
+  "old drawing",
+  "reconstruction",
+  "history"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -400,
+   "y": -280,
+   "w": 800,
+   "h": 560,
+   "fill": "#d9c48a",
+   "color": "#8a6a3a",
+   "width": 6,
+   "boil": 0.3
+  },
+  {
+   "type": "rect",
+   "x": -386,
+   "y": -266,
+   "w": 772,
+   "h": 532,
+   "fill": "#e6d6a6",
+   "outline": false,
+   "width": 0,
+   "boil": 0.3
+  },
+  {
+   "type": "rect",
+   "x": -376,
+   "y": -256,
+   "w": 752,
+   "h": 512,
+   "fill": "#efe2b8",
+   "outline": false,
+   "width": 0,
+   "boil": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -370,
+   "y": -250,
+   "r": 22,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 370,
+   "y": 250,
+   "r": 24,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 372,
+   "y": -252,
+   "r": 18,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -372,
+   "y": 252,
+   "r": 20,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 216.5326306262042,
+   "y": -271,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 8.733693894877717,
+   "y": -271,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 391,
+   "y": -79.47220296900863,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -391,
+   "y": 44.04716757755796,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -391,
+   "y": -204.01272941062348,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 391,
+   "y": -89.76915222880243,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -391,
+   "y": 173.94471150617932,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -391,
+   "y": 206.5447506439226,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 52.62241206600277,
+   "y": -271,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 288.15057138948634,
+   "y": 271,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -293.44239672827445,
+   "y": 271,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 391,
+   "y": -57.94785670661025,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 230.32524581889447,
+   "y": -271,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 391,
+   "y": -251.2626507009091,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 391,
+   "y": 132.94483306597323,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 391,
+   "y": -31.04329867429712,
+   "r": 9,
+   "color": "#c9ad72",
+   "density": 0.3
+  },
+  {
+   "type": "rect",
+   "x": -379,
+   "y": -259,
+   "w": 758,
+   "h": 518,
+   "fill": null,
+   "color": "#8a6a3a",
+   "width": 2,
+   "boil": 0.3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -379,
+     -189
+    ],
+    [
+     379,
+     -189
+    ]
+   ],
+   "width": 2,
+   "color": "#8a6a3a"
+  },
+  {
+   "type": "circle",
+   "x": -345,
+   "y": -238,
+   "r": 5,
+   "fill": "#c9a76a",
+   "outline": false,
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": -330,
+   "y": -205,
+   "r": 3,
+   "fill": "#c9a76a",
+   "outline": false,
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": 40,
+   "y": -250,
+   "r": 4,
+   "fill": "#c9a76a",
+   "outline": false,
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": 110,
+   "y": -200,
+   "r": 3,
+   "fill": "#c9a76a",
+   "outline": false,
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": -360,
+   "y": 258,
+   "r": 3,
+   "fill": "#c9a76a",
+   "outline": false,
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": 300,
+   "y": 262,
+   "r": 4,
+   "fill": "#c9a76a",
+   "outline": false,
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": 382,
+   "y": 150,
+   "r": 3,
+   "fill": "#c9a76a",
+   "outline": false,
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": -384,
+   "y": -60,
+   "r": 3,
+   "fill": "#c9a76a",
+   "outline": false,
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -268,
+   "r": 7,
+   "fill": "#cdb47a",
+   "outline": false,
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -268,
+   "r": 4,
+   "fill": "#3a2414",
+   "outline": false,
+   "width": 0
+  },
+  {
+   "type": "rect",
+   "x": 170,
+   "y": -258,
+   "w": 190,
+   "h": 60,
+   "fill": "#f7eed0",
+   "color": "#8a6a3a",
+   "width": 2,
+   "boil": 0.3
+  },
+  {
+   "type": "text",
+   "text": "OLD DRAWING",
+   "x": -130,
+   "y": -226,
+   "size": 46,
+   "bold": true,
+   "color": "#6a4520",
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

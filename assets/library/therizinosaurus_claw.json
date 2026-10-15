@@ -1,0 +1,293 @@
+{
+ "name": "therizinosaurus_claw",
+ "description": "One fossil Therizinosaurus hand claw (bone core): long, gently curved, flattened scythe in cream-brown with a darker underside, vascular groove and an articular base on the left, point to the right. Centre anchor, 500x140 (500 units = 50 cm).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "fossil",
+  "claw",
+  "therizinosaurus",
+  "bone",
+  "prop"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -246,
+     -30
+    ],
+    [
+     -200,
+     -52
+    ],
+    [
+     -120,
+     -66
+    ],
+    [
+     -20,
+     -66
+    ],
+    [
+     80,
+     -54
+    ],
+    [
+     170,
+     -28
+    ],
+    [
+     230,
+     6
+    ],
+    [
+     252,
+     34
+    ],
+    [
+     226,
+     22
+    ],
+    [
+     160,
+     4
+    ],
+    [
+     80,
+     -8
+    ],
+    [
+     -10,
+     -6
+    ],
+    [
+     -90,
+     6
+    ],
+    [
+     -150,
+     30
+    ],
+    [
+     -190,
+     56
+    ],
+    [
+     -226,
+     50
+    ],
+    [
+     -250,
+     20
+    ]
+   ],
+   "fill": "#d9c39a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     26
+    ],
+    [
+     -90,
+     2
+    ],
+    [
+     -10,
+     -10
+    ],
+    [
+     80,
+     -12
+    ],
+    [
+     160,
+     0
+    ],
+    [
+     226,
+     20
+    ],
+    [
+     200,
+     4
+    ],
+    [
+     160,
+     -6
+    ],
+    [
+     80,
+     -20
+    ],
+    [
+     -10,
+     -22
+    ],
+    [
+     -90,
+     -12
+    ],
+    [
+     -160,
+     10
+    ]
+   ],
+   "fill": "#b0915e",
+   "width": 0,
+   "color": "#b0915e",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -46
+    ],
+    [
+     -120,
+     -58
+    ],
+    [
+     -20,
+     -58
+    ],
+    [
+     80,
+     -46
+    ],
+    [
+     150,
+     -28
+    ],
+    [
+     80,
+     -38
+    ],
+    [
+     -20,
+     -46
+    ],
+    [
+     -120,
+     -46
+    ]
+   ],
+   "fill": "#efe2c0",
+   "width": 0,
+   "color": "#efe2c0",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -170,
+     -20
+    ],
+    [
+     -60,
+     -34
+    ],
+    [
+     60,
+     -28
+    ],
+    [
+     180,
+     -2
+    ]
+   ],
+   "width": 3,
+   "color": "#8a6a3e"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -240,
+     -26
+    ],
+    [
+     -220,
+     -6
+    ],
+    [
+     -232,
+     20
+    ],
+    [
+     -218,
+     42
+    ]
+   ],
+   "width": 3,
+   "color": "#8a6a3e"
+  },
+  {
+   "type": "spray",
+   "x": -220,
+   "y": 10,
+   "r": 28,
+   "color": "#8a6a3e",
+   "density": 0.2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -50
+    ],
+    [
+     -96,
+     -48
+    ]
+   ],
+   "width": 2,
+   "color": "#b0915e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -52
+    ],
+    [
+     24,
+     -50
+    ]
+   ],
+   "width": 2,
+   "color": "#b0915e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     100,
+     -36
+    ],
+    [
+     124,
+     -34
+    ]
+   ],
+   "width": 2,
+   "color": "#b0915e"
+  }
+ ]
+}

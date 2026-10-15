@@ -1,0 +1,482 @@
+{
+ "name": "fencing_mask",
+ "description": "Worn prop: fencing mask over Doug's face (stand / thumbs_up / hands_hips poses). Dark grey wire mesh drawn as lines only, no fill, over the face circle centred at (0,-218), so eyes and mouth read through it; strap round the back of the head; white padded bib under the chin. Stays below the cap brim (nothing above y -240) so the red cap is untouched. Anchor = Doug's hips at Doug scale 1: list after Doug at the same x/y/scale.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "worn",
+  "mask",
+  "fencing",
+  "sport",
+  "019"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -14,
+     -146
+    ],
+    [
+     20,
+     -138
+    ],
+    [
+     60,
+     -134
+    ],
+    [
+     98,
+     -142
+    ],
+    [
+     110,
+     -130
+    ],
+    [
+     84,
+     -114
+    ],
+    [
+     30,
+     -112
+    ],
+    [
+     -10,
+     -122
+    ],
+    [
+     -22,
+     -136
+    ]
+   ],
+   "fill": "#f4f4f0",
+   "width": 4,
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -8,
+     -126
+    ],
+    [
+     40,
+     -120
+    ],
+    [
+     90,
+     -124
+    ]
+   ],
+   "color": "#c8c8c0",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -12,
+     -136
+    ],
+    [
+     40,
+     -128
+    ],
+    [
+     100,
+     -134
+    ]
+   ],
+   "color": "#c8c8c0",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -14,
+     -234
+    ],
+    [
+     -40,
+     -230
+    ],
+    [
+     -58,
+     -212
+    ],
+    [
+     -56,
+     -184
+    ],
+    [
+     -36,
+     -164
+    ],
+    [
+     -16,
+     -152
+    ]
+   ],
+   "color": "#3a3a40",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -18.4,
+     -217.5
+    ],
+    [
+     -15.4,
+     -154.4
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -5.4,
+     -236.9
+    ],
+    [
+     -0.8,
+     -141.2
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     8.6,
+     -238.1
+    ],
+    [
+     13.3,
+     -139.4
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22.5,
+     -238.8
+    ],
+    [
+     27.4,
+     -136.9
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36.7,
+     -235.6
+    ],
+    [
+     41.5,
+     -135.6
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50.9,
+     -231.9
+    ],
+    [
+     55.5,
+     -135.0
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     65.1,
+     -227.5
+    ],
+    [
+     69.5,
+     -134.4
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     79.3,
+     -223.1
+    ],
+    [
+     83.4,
+     -138.1
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     93.7,
+     -213.8
+    ],
+    [
+     97.2,
+     -141.9
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     108.6,
+     -195.6
+    ],
+    [
+     110.4,
+     -158.1
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     3.0,
+     -238.0
+    ],
+    [
+     27.8,
+     -238.0
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -16.5,
+     -225.0
+    ],
+    [
+     74.2,
+     -225.0
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -19.5,
+     -212.0
+    ],
+    [
+     96.0,
+     -212.0
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -23.2,
+     -199.0
+    ],
+    [
+     106.5,
+     -199.0
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22.5,
+     -186.0
+    ],
+    [
+     112.5,
+     -186.0
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -21.0,
+     -173.0
+    ],
+    [
+     112.5,
+     -173.0
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -19.5,
+     -160.0
+    ],
+    [
+     111.8,
+     -160.0
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -9.8,
+     -147.0
+    ],
+    [
+     101.2,
+     -147.0
+    ]
+   ],
+   "color": "#4a4a52",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -14,
+     -236
+    ],
+    [
+     20,
+     -240
+    ],
+    [
+     52,
+     -232
+    ],
+    [
+     84,
+     -222
+    ],
+    [
+     104,
+     -206
+    ],
+    [
+     114,
+     -184
+    ],
+    [
+     112,
+     -160
+    ],
+    [
+     98,
+     -142
+    ],
+    [
+     70,
+     -134
+    ],
+    [
+     30,
+     -136
+    ],
+    [
+     -6,
+     -142
+    ],
+    [
+     -20,
+     -160
+    ],
+    [
+     -24,
+     -196
+    ]
+   ],
+   "fill": null,
+   "color": "#2e2e33",
+   "width": 5
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -10,
+     -232
+    ],
+    [
+     30,
+     -236
+    ],
+    [
+     80,
+     -222
+    ]
+   ],
+   "color": "#9a9aa2",
+   "width": 2
+  }
+ ]
+}

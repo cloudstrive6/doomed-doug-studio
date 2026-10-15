@@ -1,0 +1,511 @@
+{
+ "name": "big_shield",
+ "description": "Worn prop: Doug's biggest shield, a round wooden plank shield with riveted metal rim and a steel boss, seen at a slight angle (tall ellipse) held in front of his body. Anchor = Doug's hips at Doug scale 1: list it after Doug at the same x/y/scale. Covers torso and legs, bbox x -10..150, y -150..150, so head and red cap stay visible. On the floor: rotate 80-90.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "worn",
+  "shield",
+  "armour",
+  "019"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 70,
+   "y": 0,
+   "rx": 78,
+   "ry": 148,
+   "fill": "#8e939b",
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": 70,
+   "y": 0,
+   "rx": 66,
+   "ry": 134,
+   "fill": "#b5703a",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     70.0,
+     -132.0
+    ],
+    [
+     61.6,
+     -130.9
+    ],
+    [
+     53.4,
+     -127.5
+    ],
+    [
+     45.5,
+     -122.0
+    ],
+    [
+     38.0,
+     -114.3
+    ],
+    [
+     31.0,
+     -104.7
+    ],
+    [
+     24.7,
+     -93.3
+    ],
+    [
+     19.2,
+     -80.4
+    ],
+    [
+     14.6,
+     -66.0
+    ],
+    [
+     10.9,
+     -50.5
+    ],
+    [
+     8.2,
+     -34.2
+    ],
+    [
+     6.5,
+     -17.2
+    ],
+    [
+     6.0,
+     0.0
+    ],
+    [
+     6.5,
+     17.2
+    ],
+    [
+     8.2,
+     34.2
+    ],
+    [
+     10.9,
+     50.5
+    ],
+    [
+     14.6,
+     66.0
+    ],
+    [
+     19.2,
+     80.4
+    ],
+    [
+     24.7,
+     93.3
+    ],
+    [
+     31.0,
+     104.7
+    ],
+    [
+     38.0,
+     114.3
+    ],
+    [
+     45.5,
+     122.0
+    ],
+    [
+     53.4,
+     127.5
+    ],
+    [
+     61.6,
+     130.9
+    ],
+    [
+     70.0,
+     132.0
+    ],
+    [
+     50,
+     -128
+    ],
+    [
+     40,
+     0
+    ],
+    [
+     50,
+     128
+    ]
+   ],
+   "fill": "#8f5428",
+   "smooth": true,
+   "outline": false,
+   "width": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     26,
+     -95.8777029949906
+    ],
+    [
+     28,
+     95.8777029949906
+    ]
+   ],
+   "color": "#5e3416",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     52,
+     -124.92024570278369
+    ],
+    [
+     54,
+     124.92024570278369
+    ]
+   ],
+   "color": "#5e3416",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     -129.01196808832321
+    ],
+    [
+     80,
+     129.01196808832321
+    ]
+   ],
+   "color": "#5e3416",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     104,
+     -110.85128324726954
+    ],
+    [
+     106,
+     110.85128324726954
+    ]
+   ],
+   "color": "#5e3416",
+   "width": 3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     32,
+     -96
+    ],
+    [
+     36,
+     -80
+    ],
+    [
+     32,
+     -64
+    ]
+   ],
+   "color": "#7a4520",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     58,
+     24
+    ],
+    [
+     62,
+     40
+    ],
+    [
+     58,
+     56
+    ]
+   ],
+   "color": "#7a4520",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     84,
+     -46
+    ],
+    [
+     88,
+     -30
+    ],
+    [
+     84,
+     -14
+    ]
+   ],
+   "color": "#7a4520",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     110,
+     54
+    ],
+    [
+     114,
+     70
+    ],
+    [
+     110,
+     86
+    ]
+   ],
+   "color": "#7a4520",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     34,
+     74
+    ],
+    [
+     38,
+     90
+    ],
+    [
+     34,
+     106
+    ]
+   ],
+   "color": "#7a4520",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     84,
+     -116
+    ],
+    [
+     88,
+     -100
+    ],
+    [
+     84,
+     -84
+    ]
+   ],
+   "color": "#7a4520",
+   "width": 2
+  },
+  {
+   "type": "spray",
+   "x": 100,
+   "y": -70,
+   "r": 32,
+   "color": "#e0a060",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 30,
+   "y": 60,
+   "r": 30,
+   "color": "#5e3416",
+   "density": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 142.0,
+   "y": 0.0,
+   "r": 3,
+   "fill": "#d4d7dc",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 132.4,
+   "y": 70.5,
+   "r": 3,
+   "fill": "#d4d7dc",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 106.0,
+   "y": 122.1,
+   "r": 3,
+   "fill": "#d4d7dc",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 70.0,
+   "y": 141.0,
+   "r": 3,
+   "fill": "#d4d7dc",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 34.0,
+   "y": 122.1,
+   "r": 3,
+   "fill": "#d4d7dc",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 7.6,
+   "y": 70.5,
+   "r": 3,
+   "fill": "#d4d7dc",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": -2.0,
+   "y": 0.0,
+   "r": 3,
+   "fill": "#d4d7dc",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 7.6,
+   "y": -70.5,
+   "r": 3,
+   "fill": "#d4d7dc",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 34.0,
+   "y": -122.1,
+   "r": 3,
+   "fill": "#d4d7dc",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 70.0,
+   "y": -141.0,
+   "r": 3,
+   "fill": "#d4d7dc",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 106.0,
+   "y": -122.1,
+   "r": 3,
+   "fill": "#d4d7dc",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 132.4,
+   "y": -70.5,
+   "r": 3,
+   "fill": "#d4d7dc",
+   "width": 1
+  },
+  {
+   "type": "ellipse",
+   "x": 76,
+   "y": 0,
+   "rx": 26,
+   "ry": 40,
+   "fill": "#8e939b",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": 80,
+   "y": -4,
+   "rx": 16,
+   "ry": 26,
+   "fill": "#c4c8cf",
+   "width": 3
+  },
+  {
+   "type": "spray",
+   "x": 84,
+   "y": -14,
+   "r": 10,
+   "color": "#ffffff",
+   "density": 0.6
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     82.7,
+     -139.8
+    ],
+    [
+     90.4,
+     -136.3
+    ],
+    [
+     97.9,
+     -131.2
+    ],
+    [
+     105.1,
+     -124.5
+    ],
+    [
+     111.9,
+     -116.3
+    ],
+    [
+     118.1,
+     -106.8
+    ],
+    [
+     123.8,
+     -95.9
+    ],
+    [
+     128.9,
+     -84.0
+    ],
+    [
+     133.2,
+     -71.0
+    ]
+   ],
+   "color": "#e6e8ec",
+   "width": 3
+  }
+ ]
+}

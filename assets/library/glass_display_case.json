@@ -1,0 +1,540 @@
+{
+ "name": "glass_display_case",
+ "description": "Empty museum glass display case on a dark wooden cabinet stand (original drawing): pale-blue glass drawn as a frame outline with thin light-blue tint strips, back edges seen through, white glint lines and only faint corner haze, so the interior is see-through (place exhibits at about (0,-450), drawn BEFORE the case so they sit behind the glass, or after it). Wooden lid and table top, brass corner caps, panelled cabinet with a blank brass plate. Anchor bottom-centre, 600x800 (x -300..300, y -800..0); glass interior x -275..275, y -770..-265.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "museum",
+  "display case",
+  "glass",
+  "exhibit"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -270,
+   "y": -230,
+   "w": 540,
+   "h": 210,
+   "fill": "#5a3420",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -262,
+   "y": -222,
+   "w": 524,
+   "h": 16,
+   "fill": "#7a4a2c",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -240,
+   "y": -196,
+   "w": 220,
+   "h": 150,
+   "fill": "#3e2214",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 20,
+   "y": -196,
+   "w": 220,
+   "h": 150,
+   "fill": "#3e2214",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -232,
+   "y": -188,
+   "w": 204,
+   "h": 134,
+   "fill": "#4a2a18",
+   "width": 2,
+   "color": "#2a160c"
+  },
+  {
+   "type": "rect",
+   "x": 28,
+   "y": -188,
+   "w": 204,
+   "h": 134,
+   "fill": "#4a2a18",
+   "width": 2,
+   "color": "#2a160c"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -200,
+     -180
+    ],
+    [
+     -194,
+     -120
+    ],
+    [
+     -200,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#352013"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -120,
+     -180
+    ],
+    [
+     -114,
+     -120
+    ],
+    [
+     -120,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#352013"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -180
+    ],
+    [
+     -54,
+     -120
+    ],
+    [
+     -60,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#352013"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     60,
+     -180
+    ],
+    [
+     66,
+     -120
+    ],
+    [
+     60,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#352013"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     140,
+     -180
+    ],
+    [
+     146,
+     -120
+    ],
+    [
+     140,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#352013"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     200,
+     -180
+    ],
+    [
+     206,
+     -120
+    ],
+    [
+     200,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#352013"
+  },
+  {
+   "type": "rect",
+   "x": -290,
+   "y": -20,
+   "w": 580,
+   "h": 20,
+   "fill": "#3e2214",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -60,
+   "y": -150,
+   "w": 120,
+   "h": 40,
+   "fill": "#c9a640",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -52,
+     -142
+    ],
+    [
+     -20,
+     -142
+    ]
+   ],
+   "width": 2,
+   "color": "#f0d878"
+  },
+  {
+   "type": "rect",
+   "x": -300,
+   "y": -262,
+   "w": 600,
+   "h": 34,
+   "fill": "#7a4a2c",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -292,
+     -254
+    ],
+    [
+     292,
+     -254
+    ]
+   ],
+   "width": 2,
+   "color": "#a06a42"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -254,
+     -749
+    ],
+    [
+     254,
+     -749
+    ],
+    [
+     254,
+     -268
+    ]
+   ],
+   "width": 3,
+   "color": "#9cc4da"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -254,
+     -749
+    ],
+    [
+     -254,
+     -268
+    ]
+   ],
+   "width": 3,
+   "color": "#9cc4da"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -280,
+     -775
+    ],
+    [
+     -254,
+     -749
+    ]
+   ],
+   "width": 3,
+   "color": "#9cc4da"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     280,
+     -775
+    ],
+    [
+     254,
+     -749
+    ]
+   ],
+   "width": 3,
+   "color": "#9cc4da"
+  },
+  {
+   "type": "rect",
+   "x": -276,
+   "y": -771,
+   "w": 18,
+   "h": 505,
+   "fill": "#cfe6f2",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 258,
+   "y": -771,
+   "w": 18,
+   "h": 505,
+   "fill": "#cfe6f2",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -276,
+   "y": -771,
+   "w": 552,
+   "h": 16,
+   "fill": "#cfe6f2",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -205,
+   "y": -700,
+   "r": 48,
+   "color": "#e3f1f8",
+   "density": 0.16
+  },
+  {
+   "type": "spray",
+   "x": 210,
+   "y": -327,
+   "r": 45,
+   "color": "#e3f1f8",
+   "density": 0.14
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -245,
+     -735
+    ],
+    [
+     -175,
+     -655
+    ]
+   ],
+   "width": 6,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -225,
+     -690
+    ],
+    [
+     -195,
+     -660
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -740
+    ],
+    [
+     -110,
+     -700
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     180,
+     -470
+    ],
+    [
+     245,
+     -405
+    ]
+   ],
+   "width": 6,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     210,
+     -420
+    ],
+    [
+     245,
+     -385
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -250,
+     -380
+    ],
+    [
+     -215,
+     -345
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": -280,
+   "y": -775,
+   "w": 560,
+   "h": 513,
+   "fill": null,
+   "width": 9,
+   "color": "#9cc4da"
+  },
+  {
+   "type": "rect",
+   "x": -284,
+   "y": -779,
+   "w": 568,
+   "h": 521,
+   "fill": null,
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -300,
+   "y": -800,
+   "w": 600,
+   "h": 28,
+   "fill": "#7a4a2c",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -292,
+     -792
+    ],
+    [
+     292,
+     -792
+    ]
+   ],
+   "width": 2,
+   "color": "#a06a42"
+  },
+  {
+   "type": "rect",
+   "x": -286,
+   "y": -772,
+   "w": 14,
+   "h": 14,
+   "fill": "#c9a640",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -286,
+   "y": -276,
+   "w": 14,
+   "h": 14,
+   "fill": "#c9a640",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 272,
+   "y": -772,
+   "w": 14,
+   "h": 14,
+   "fill": "#c9a640",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 272,
+   "y": -276,
+   "w": 14,
+   "h": 14,
+   "fill": "#c9a640",
+   "width": 2,
+   "color": "#000000"
+  }
+ ]
+}

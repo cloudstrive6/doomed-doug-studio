@@ -1,0 +1,19 @@
+{
+ "name": "iguanodon_thumb_spike",
+ "description": "The fossil Iguanodon thumb spike: a pointed cone-shaped bone, cream-brown with a lighter top edge, darker underside, dark brown articular base at the left and a few cracks, point to the right. Centre anchor, 400x150 (x -206..198, y -70..70); scale 1 = 14 cm, same scale as dollar_bill.",
+ "anchor": [0, 0],
+ "tags": ["fossil", "iguanodon", "thumb spike", "mantell", "prop", "019"],
+ "elements": [
+  {"type": "poly", "points": [[-196.0, -40.0], [-150.0, -66.0], [-80.0, -68.0], [0.0, -52.0], [80.0, -34.0], [150.0, -18.0], [198.0, -4.0], [198.0, 2.0], [150.0, 14.0], [80.0, 30.0], [0.0, 52.0], [-80.0, 66.0], [-150.0, 66.0], [-196.0, 40.0], [-206.0, 0.0]], "fill": "#d9bf8f", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-190.0, 30.0], [-120.0, 56.0], [-40.0, 54.0], [60.0, 34.0], [150.0, 12.0], [190.0, 2.0], [120.0, 22.0], [20.0, 38.0], [-80.0, 46.0], [-160.0, 40.0]], "fill": "#b8956a", "width": 0, "color": "#b8956a", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-170.0, -48.0], [-90.0, -60.0], [0.0, -44.0], [100.0, -26.0], [170.0, -10.0], [90.0, -20.0], [0.0, -32.0], [-100.0, -44.0]], "fill": "#eedcb0", "width": 0, "color": "#eedcb0", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-196.0, -40.0], [-170.0, -56.0], [-150.0, -30.0], [-148.0, 20.0], [-160.0, 56.0], [-196.0, 40.0], [-206.0, 0.0]], "fill": "#8a6a42", "width": 4, "color": "#000000", "smooth": true},
+  {"type": "spray", "x": -178, "y": 0, "r": 22, "color": "#5a3a22", "density": 0.3},
+  {"type": "spray", "x": -100, "y": 20, "r": 30, "color": "#a07a4a", "density": 0.12},
+  {"type": "line", "points": [[-60.0, -66.0], [-52.0, -40.0], [-62.0, -20.0], [-54.0, 4.0]], "width": 2, "color": "#5a3a22"},
+  {"type": "line", "points": [[40.0, 44.0], [46.0, 24.0], [38.0, 10.0]], "width": 2, "color": "#5a3a22"},
+  {"type": "line", "points": [[110.0, -30.0], [116.0, -14.0]], "width": 2, "color": "#5a3a22"},
+  {"type": "line", "points": [[-120.0, 64.0], [-112.0, 42.0], [-120.0, 30.0]], "width": 2, "color": "#5a3a22"},
+  {"type": "poly", "points": [[-196.0, -40.0], [-150.0, -66.0], [-80.0, -68.0], [0.0, -52.0], [80.0, -34.0], [150.0, -18.0], [198.0, -4.0], [198.0, 2.0], [150.0, 14.0], [80.0, 30.0], [0.0, 52.0], [-80.0, 66.0], [-150.0, 66.0], [-196.0, 40.0], [-206.0, 0.0]], "fill": null, "width": 5, "color": "#000000", "smooth": true}
+ ]
+}

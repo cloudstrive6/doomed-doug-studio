@@ -113,54 +113,67 @@ Used in: s248, s256, s257, s258, s259
 ## `hallucigenia`
 Correct Hallucigenia, detailed tier, side view, head to the RIGHT: small worm-like pinkish-beige body, seven pairs of stiff pointed SPINES up on its back, soft clawed legs below, small head with tiny dark eyes at the right. Centre anchor, 400x180.
 Used in: s164, s167, s168, s173, s174, s176, s177, s181, s182, s183
+DONE (illustrator, 2026-10-15): `assets/library/hallucigenia.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-a.png`
 
 ## `hallucigenia_head`
 Close-up of Hallucigenia's real head (2015): a pair of simple dark eyes on top, round mouth ringed with small spines, needle-like teeth visible lining the throat (cut-away), pinkish-beige. Unsettling, not gory. Centre anchor, 700x500.
 Used in: s178
+DONE (illustrator, 2026-10-15): `assets/library/hallucigenia_head.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-a.png`
 
 ## `homo_diluvii_slab`
 The Teylers 'Homo diluvii testis' fossil as found in 1726: pale cream-grey limestone slab, dark brown fossil bones showing a ROUND skull outline and a backbone only (no limbs), so it looks vaguely like part of a person. NO human face. Centre anchor, 500x620.
 Used in: s240, s241, s243, s244, s245, s246, s248, s252, s256, s257, s258, s293
+DONE (illustrator, 2026-10-15): `assets/library/homo_diluvii_slab.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-a.png`
 
 ## `homo_diluvii_slab_exposed`
 Same slab after Cuvier: extra bone exposed, now clearly showing shoulder bones and both FRONT LEGS with small salamander toes (legs at about (-150,-150) and (+150,-150)). Centre anchor, 500x620.
 Used in: s249, s250, s251, s254, s259
+DONE (illustrator, 2026-10-15): `assets/library/homo_diluvii_slab_exposed.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-a.png`
 
 ## `iguanodon`
 Real Iguanodon, detailed tier, facing right: olive-green, heavy body standing on four legs with the front legs shorter, horse-like beaked head, and a clear cone-shaped THUMB SPIKE on the near front hand (spike tip at about (+100,-210)). Not cute. Anchor bottom-centre, x -380..380, y -420..0.
 Used in: s050, s053, s054, s056
+DONE (illustrator, 2026-10-15): `assets/library/iguanodon.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-b.png`
 
 ## `iguanodon_mould_dinner`
 The 1853 dinner in the mould: a half-built Iguanodon model cut away (grey plaster shell, scaffold poles) with a long white-clothed table inside, candles, plates, and 6-8 crude-tier stick men in top hats (no faces needed beyond dots); ONE stick man sits inside the head end at the right (head end around (+430,-330)). Night-friendly mid tones. Anchor bottom-centre, x -560..560, y -500..0.
 Used in: s042, s043, s044
+DONE (illustrator, 2026-10-15): `assets/library/iguanodon_mould_dinner.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-b.png`
 
 ## `iguanodon_skeleton`
 Mounted Bernissart-style Iguanodon skeleton (off-white bones, grey outline, reads on the dark hall), standing semi-upright, thumb spikes on the hands, NO nose horn. Anchor bottom-centre, x -380..380, y -400..0.
 Used in: s047, s048
+DONE (illustrator, 2026-10-15): `assets/library/iguanodon_skeleton.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-b.png`
 
 ## `iguanodon_teeth`
 A handful of fossil Iguanodon teeth (4-5 leaf-shaped, ridged, brown-cream teeth) on a small pile. Centre anchor, 400x200.
 Used in: s035
+DONE (illustrator, 2026-10-15): `assets/library/iguanodon_teeth.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-a.png`
 
 ## `iguanodon_thumb_spike`
 The fossil Iguanodon thumb spike: pointed cone-shaped bone, cream-brown with darker base and a few cracks, point to the right. Centre anchor, 400x150 at scale 1 = 14 cm (same scale as `dollar_bill`).
 Used in: s037, s038, s051, s052
+DONE (illustrator, 2026-10-15): `assets/library/iguanodon_thumb_spike.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-a.png`
 
 ## `iguanodon_thumbs_up`
 Same Iguanodon reared up on its hind legs, facing right, one front hand raised with the thumb spike pointing straight UP like a thumbs-up (hand at about (+200,-480)), calm flat expression. Anchor bottom-centre, x -260..260, y -640..0.
 Used in: s057, s058
+DONE (illustrator, 2026-10-15): `assets/library/iguanodon_thumbs_up.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-b.png`
 
 ## `journal_paper`
 An old printed scientific paper: cream page, title block of grey lines, a small engraved animal plate rectangle, two text columns as grey lines, a dog-eared corner. No readable words. Centre anchor, 360x480.
 Used in: s067, s070, s071, s146, s269, s279, s281
+DONE (illustrator, 2026-10-15): `assets/library/journal_paper.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-a.png`
 
 ## `megalosaurus`
 Real Megalosaurus, detailed tier, facing right: two-legged theropod, brown with darker back stripes, big head with teeth, small arms, long tail. Anchor bottom-centre, x -300..300, y -300..0; 600 units nose to tail = 6 m (director scales it against `ping_pong_table`).
 Used in: s125, s126, s127, s129, s131, s132
+DONE (illustrator, 2026-10-15): `assets/library/megalosaurus.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-b.png`
 
 ## `megalosaurus_bones`
 The Buckland bones: a partial lower jaw with blade teeth and a partial thigh bone, fossil brown, side by side. Centre anchor, 600x300 (jaw left, leg bone right).
 Used in: s115, s135
+DONE (illustrator, 2026-10-15): `assets/library/megalosaurus_bones.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-a.png`
 
 ## `old_brontosaurus_boxy`
 OLD-DRAWING style (all `old_*` assets): an old scientific plate redrawn by us, never traced from a real plate. Brown ink `#5a3a1e` outlines (3-4), parchment-tone fills `#e6d2a0` / `#d9c08a` with brown cross-hatch shading, transparent background (it sits on `old_drawing_card`), no text. Centre anchor, fits x -340..340, y -200..200, facing right unless stated. Detailed tier, slightly stiff Victorian-engraving posture so it reads as 'old science'. The 1932-style Brontosaurus/Apatosaurus restoration: huge sauropod side view, long neck up-right ending in a SHORT, BLUNT, BOXY Camarasaurus-like head (the wrong part, make it obvious), pillar legs, long tail down-left.
@@ -217,63 +230,79 @@ Used in: s211, s215, s216, s217, s218, s223, s293
 ## `ping_pong_table`
 Ping-pong table seen from the SIDE, showing its full LENGTH: dark blue top with white edge line, the net standing up in the middle, grey legs. Anchor bottom-centre, 548x180 (548 units = 2.74 m). Megalosaurus scale beat: two of these end to end. Must look clearly different from `ping_pong_table_end`.
 Used in: s126
+DONE (illustrator, 2026-10-15): `assets/library/ping_pong_table.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-b.png`
 
 ## `ping_pong_table_end`
 Ping-pong table seen from the END (3/4 view from the end, so it reads as WIDTH, not length): dark blue top receding away, white edge lines, net posts on both sides with the net across, grey legs. Anchor bottom-centre, 306 wide (306 units = 1.525 m), x -153..153, y -190..0. Must be obviously a different view from `ping_pong_table`.
 Used in: s255
+DONE (illustrator, 2026-10-15): `assets/library/ping_pong_table_end.json`, preview `assets/previews/019-drawn-completely-wrong-assets-h-r-b.png`
 
 ## `salamander_outline`
 Overlay: thick red `#e0201b` dashed outline of a giant salamander seen from above (broad flat head at top, front legs, body, tail at bottom), sized to sit exactly on `homo_diluvii_slab_exposed` at the same x/y/scale. Centre anchor, 400x560.
 Used in: s251, s259
+**Done** (illustrator, 2026-10-15): `assets/library/salamander_outline.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`.
 
 ## `sauropod_skeleton_headless`
 Mounted museum skeleton of an Apatosaurus WITHOUT a head, on a low dark-wood plinth, facing right: off-white bones `#f4ecd8` with grey outline (same tier as `dinosaur_skeleton`, reads on the dark night hall), long neck rising up-right ending in a bare neck stub at about (+520,-555) where a skull would go, ribcage, pillar legs, long tail left, grey support rods. Anchor bottom-centre, x -560..560, y -600..0.
 Used in: s010, s011, s012, s019, s020, s021, s022, s024
+**Done** (illustrator, 2026-10-15): `assets/library/sauropod_skeleton_headless.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`.
 
 ## `spinosaurus_mystery`
 The Spinosaurus 'nobody has drawn yet': a big shape rising out of a river, head and long jaws up, a tall sail that is a slightly DIFFERENT shape from all four cards, dripping water. Mainly shown as a silhouette with a red rim, so keep a strong readable outline. Anchor bottom-centre on the waterline, x -350..350, y -600..0. Also the end-card tease for short03.
 Used in: s286, s288
+**Done** (illustrator, 2026-10-15): `assets/library/spinosaurus_mystery.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`.
 
 ## `stegosaurus`
 Real Stegosaurus, detailed tier, facing right: tall UPRIGHT plates alternating in two staggered rows along the back (top around y -440), small low head at the right, four long tail spikes (thagomizer) at the left end (about (-420,-230)), olive/rust colours. Anchor bottom-centre, x -460..460, y -440..0.
 Used in: s095, s096, s097, s098, s105, s107, s108, s109
+**Done** (illustrator, 2026-10-15): `assets/library/stegosaurus.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`. Tail spikes reach x -520.
 
 ## `stegosaurus_fossil_slab`
 Rock slab (grey-tan) with a Stegosaurus skeleton preserved in it, plates still standing in place along the spine. Centre anchor, 900x600.
 Used in: s094
+**Done** (illustrator, 2026-10-15): `assets/library/stegosaurus_fossil_slab.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`.
 
 ## `stegosaurus_tail_spike`
 One Stegosaurus tail spike, cream bone with darker base, point to the left. Centre anchor, 400x80.
 Used in: s103
+**Done** (illustrator, 2026-10-15): `assets/library/stegosaurus_tail_spike.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`.
 
 ## `synapsid_skull`
 Side-view diagram skull (Dimetrodon) in cream bone: eye socket and ONE clear opening behind it (at about (+40,-40)), toothy jaws. Centre anchor, 560x320.
 Used in: s202
+**Done** (illustrator, 2026-10-15): `assets/library/synapsid_skull.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`. Note: the temporal opening is at (+40,-45) as requested (where the s202 arrow lands), so the snout is a bit short for a real Dimetrodon; drawing spans x -236..284, y -152..96.
 
 ## `tall_ladder`
 A very tall wooden ladder standing upright (two rails, many rungs), slightly wobbly. Anchor bottom-centre, x -70..70, y -1000..0.
 Used in: s130, s131, s132, s133, s134
+**Done** (illustrator, 2026-10-15): `assets/library/tall_ladder.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`.
 
 ## `tennis_court_side`
 Tennis court seen from the side at ground level: green-blue court strip with white lines, the net post and net (0.9 m) in the middle, baseline marks at each end. Anchor bottom-centre, 1200 units long (23.8 m at 50 u/m), x -600..600, y -60..10.
 Used in: s009
+**Done** (illustrator, 2026-10-15): `assets/library/tennis_court_side.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`.
 
 ## `therizinosaurus`
 Real Therizinosaurus, detailed tier, facing right: tall, pot-bellied, feathered brown-cream, long neck, small beaked head, long arms with three huge scythe claws held forward (claws at about (+250,-330)). Anchor bottom-centre, x -350..350, y -700..0. Also shown as a silhouette.
 Used in: s222, s224, s225, s226, s229, s230, s231, s233, s234, s236, s238
+**Done** (illustrator, 2026-10-15): `assets/library/therizinosaurus.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`.
 
 ## `therizinosaurus_claw`
 One fossil Therizinosaurus claw (bone core): long, gently curved, flattened scythe shape, cream-brown, point to the right. Centre anchor, 500x140; 500 units = 50 cm (director lines up `ruler` at 0.7).
 Used in: s212, s213, s214, s219, s221, s227, s228, s230, s232
+**Done** (illustrator, 2026-10-15): `assets/library/therizinosaurus_claw.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`.
 
 ## `us_quarter`
 Generic silver US-style quarter coin seen face-on: ridged rim, '25¢' and a simple eagle-free star motif (no real portrait). Centre anchor, 300x300.
 Used in: s168
+**Done** (illustrator, 2026-10-15): `assets/library/us_quarter.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`.
 
 ## `victorian_woman`
 Crude-tier stick woman (Doug's tier, 5 px lines, big round head with grey crescent, `auto_ink`), 1820s bonnet and long plain dress, neutral face, front hand raised holding nothing (the spike floats beside her). Anchor hips (0,0), feet +150, head top about -325, facing right.
 Used in: s037
+**Done** (illustrator, 2026-10-15): `assets/library/victorian_woman.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`. Raised open hand at about (+148,-165), in front of the bonnet brim.
 
 ## `water_plants_bunch`
 Bunch of dripping water plants (long green ribbon leaves, a lily pad, a few blue drips) held at the grip. Anchor = grip, x -60..60, y -140..90.
 Used in: s216, s235, s236, s237
+**Done** (illustrator, 2026-10-15): `assets/library/water_plants_bunch.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`.

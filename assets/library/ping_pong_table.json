@@ -1,0 +1,26 @@
+{
+ "name": "ping_pong_table",
+ "description": "Ping-pong table seen from the SIDE, showing its full LENGTH: thin dark blue top seen almost edge-on with white edge lines, the net standing up in the middle, grey leg frames at both ends and a cross bar. Anchor bottom-centre, 548x194 (548 units = 2.74 m). Clearly a different view from ping_pong_table_end.",
+ "anchor": [0, 0],
+ "tags": ["ping pong", "table tennis", "table", "scale", "prop", "019"],
+ "elements": [
+  {"type": "rect", "x": -212, "y": -132, "w": 12, "h": 132, "fill": "#6d7076", "width": 3, "color": "#000000"},
+  {"type": "rect", "x": 220, "y": -132, "w": 12, "h": 132, "fill": "#6d7076", "width": 3, "color": "#000000"},
+  {"type": "rect", "x": -236, "y": -128, "w": 14, "h": 128, "fill": "#8d9096", "width": 4, "color": "#000000"},
+  {"type": "rect", "x": -246, "y": -6, "w": 34, "h": 6, "fill": "#3a3a3a", "width": 2, "color": "#000000"},
+  {"type": "rect", "x": 196, "y": -128, "w": 14, "h": 128, "fill": "#8d9096", "width": 4, "color": "#000000"},
+  {"type": "rect", "x": 186, "y": -6, "w": 34, "h": 6, "fill": "#3a3a3a", "width": 2, "color": "#000000"},
+  {"type": "line", "points": [[-220.0, -60.0], [210.0, -60.0]], "width": 6, "color": "#6d7076"},
+  {"type": "poly", "points": [[-262.0, -164.0], [282.0, -164.0], [274.0, -150.0], [-274.0, -150.0]], "fill": "#1f4e8c", "width": 4, "color": "#000000"},
+  {"type": "rect", "x": -274, "y": -150, "w": 548, "h": 16, "fill": "#163a68", "width": 4, "color": "#000000"},
+  {"type": "line", "points": [[-266.0, -158.0], [276.0, -158.0]], "width": 3, "color": "#ffffff"},
+  {"type": "line", "points": [[-270.0, -151.0], [270.0, -151.0]], "width": 3, "color": "#ffffff"},
+  {"type": "poly", "points": [[-6.0, -190.0], [8.0, -190.0], [8.0, -150.0], [-6.0, -150.0]], "fill": "#f4f4f4", "width": 3, "color": "#000000"},
+  {"type": "line", "points": [[-6.0, -182.0], [8.0, -182.0]], "width": 1, "color": "#9a9a9a"},
+  {"type": "line", "points": [[-6.0, -174.0], [8.0, -174.0]], "width": 1, "color": "#9a9a9a"},
+  {"type": "line", "points": [[-6.0, -166.0], [8.0, -166.0]], "width": 1, "color": "#9a9a9a"},
+  {"type": "line", "points": [[-6.0, -158.0], [8.0, -158.0]], "width": 1, "color": "#9a9a9a"},
+  {"type": "line", "points": [[-8.0, -192.0], [10.0, -192.0]], "width": 4, "color": "#ffffff"},
+  {"type": "line", "points": [[1.0, -194.0], [1.0, -134.0]], "width": 5, "color": "#3a3a3a"}
+ ]
+}

@@ -1,0 +1,441 @@
+{
+ "name": "tennis_court_side",
+ "description": "Tennis court seen from the side at ground level: thin green-blue court strip with a white sideline, white baseline marks at both ends (x +-594) and service-line marks (x +-320), the net posts and narrow mesh net in the middle (net top ~y -48). 1200 units long = 23.8 m at 50 u/m. Anchor bottom-centre, x -612..612, y -56..10.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "scale",
+  "sport",
+  "tennis",
+  "court",
+  "comparison"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -606,
+     -14
+    ],
+    [
+     606,
+     -14
+    ],
+    [
+     612,
+     10
+    ],
+    [
+     -612,
+     10
+    ]
+   ],
+   "fill": "#2f8a8a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -608,
+     2
+    ],
+    [
+     608,
+     2
+    ],
+    [
+     610,
+     9
+    ],
+    [
+     -610,
+     9
+    ]
+   ],
+   "fill": "#1f6a6a",
+   "width": 0,
+   "color": "#1f6a6a",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -600,
+     -9
+    ],
+    [
+     600,
+     -9
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -604,
+     4
+    ],
+    [
+     604,
+     4
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -594,
+     -13
+    ],
+    [
+     -594,
+     9
+    ]
+   ],
+   "width": 8,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     594,
+     -13
+    ],
+    [
+     594,
+     9
+    ]
+   ],
+   "width": 8,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -320,
+     -11
+    ],
+    [
+     -320,
+     6
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     320,
+     -11
+    ],
+    [
+     320,
+     6
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -9
+    ],
+    [
+     0,
+     4
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -22,
+     -50
+    ],
+    [
+     22,
+     -44
+    ],
+    [
+     22,
+     -2
+    ],
+    [
+     -22,
+     -12
+    ]
+   ],
+   "fill": "#dfe6ea",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -50.0
+    ],
+    [
+     22,
+     -44.0
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -42.4
+    ],
+    [
+     22,
+     -35.6
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -34.8
+    ],
+    [
+     22,
+     -27.2
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -27.2
+    ],
+    [
+     22,
+     -18.8
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -19.6
+    ],
+    [
+     22,
+     -10.4
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -12.0
+    ],
+    [
+     22,
+     -2.0
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22.0,
+     -50.0
+    ],
+    [
+     -22.0,
+     -12.0
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -14.7,
+     -49.0
+    ],
+    [
+     -14.7,
+     -10.3
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -7.3,
+     -48.0
+    ],
+    [
+     -7.3,
+     -8.7
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0.0,
+     -47.0
+    ],
+    [
+     0.0,
+     -7.0
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     7.3,
+     -46.0
+    ],
+    [
+     7.3,
+     -5.3
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     14.7,
+     -45.0
+    ],
+    [
+     14.7,
+     -3.7
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22.0,
+     -44.0
+    ],
+    [
+     22.0,
+     -2.0
+    ]
+   ],
+   "width": 1,
+   "color": "#444444"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -50
+    ],
+    [
+     22,
+     -44
+    ]
+   ],
+   "width": 5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -50
+    ],
+    [
+     22,
+     -44
+    ]
+   ],
+   "width": 1,
+   "color": "#666666"
+  },
+  {
+   "type": "rect",
+   "x": -27,
+   "y": -56,
+   "w": 7,
+   "h": 46,
+   "fill": "#4a5560",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 20,
+   "y": -50,
+   "w": 7,
+   "h": 50,
+   "fill": "#4a5560",
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}
