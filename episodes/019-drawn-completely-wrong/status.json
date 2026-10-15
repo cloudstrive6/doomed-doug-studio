@@ -4,7 +4,17 @@
       "stage": "idea",
       "at": "2026-10-15T16:05:52+00:00",
       "note": "created"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-10-15T16:24:21+00:00",
+      "note": "Draft 1: 11 items (Megalosaurus option used), 3,156 spoken words (~16:11), axis = severity of the drawing error, deaths 155-161, facts.md sourced"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-15T16:35:55+00:00",
+      "note": "CD approved draft 2: screener PASS, 11 items (Megalosaurus option), deaths 155-161, opening meets 3.2; non-blocking notes in decisions.md"
     }
   ],
-  "stage": "idea"
+  "stage": "script_approved"
 }
