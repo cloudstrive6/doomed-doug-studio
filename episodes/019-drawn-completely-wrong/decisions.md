@@ -56,3 +56,14 @@ no planned static stretch over ~4.6 s. 68 new drawings requested in `asset_reque
   Dimetrodon s195-s207 ("further from T. rex than T. rex is from you", then "it's family"), loop = where his cap ends up (s208).
   short03 Spinosaurus s276-s287 with a 15 m hook, loop = the shape that matches none of the cards (s288). Titles are left for the
   youtube-titler.
+
+## 2026-10-15: thumbnail A vs B: KEEP A (grid) (creative director)
+- **Chosen:** `thumbnail.json` (Archetype A, 11-tile grid of crossed-out OLD drawings). `thumbnail_b.json` (FAKE HEAD card) stays
+  on file as the alternate for a later Test & Compare. Nothing was copied.
+- **Why A:** (1) It passed visual screening, and style bible 3.2 requires the grid to be the opening image, so the click carries
+  straight into the first frame. B does not match the opening. (2) It delivers what the title promises, "Prehistoric Animals"
+  plural: eleven wrong drawings, eleven red X's and a '?' on Spinosaurus that teases the finale. B sells only item 1 (Brontosaurus,
+  about 2 of 16 minutes), so it under-promises the list and risks a viewer who came for that one item leaving after the reveal.
+  (3) A uses the proven ranking/list formula for this stage of the channel. B is the weaker archetype C.
+- **B's strengths noted:** it reads better at feed size (2 huge words, one subject) and has Doug for scale. It's the first
+  candidate to try if A's CTR comes in below the channel median after 48 h.
