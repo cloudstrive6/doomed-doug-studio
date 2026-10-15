@@ -1,0 +1,1038 @@
+{
+ "_note": "Archetype A, 4x3 grid in chapter order: our own redraws of the OLD wrong reconstructions on saturated fills, each stamped with a red X; Spinosaurus (the finale, still being redrawn) is a double-wide tile, 1915 plate crossed out vs 2022 plate with a red '?'. Labels = chapter names; no title/alt-title words, no 'Dinosaur'. No Doug (subject-first).",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 30,
+   "y": 14,
+   "w": 296,
+   "h": 168,
+   "fill": "#3fc1e8",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Brontosaurus",
+   "label_size": 36,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "old_brontosaurus_boxy",
+     "x": 184.0,
+     "y": 102.0,
+     "scale": 0.4,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       48,
+       30
+      ],
+      [
+       92,
+       74
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       92,
+       30
+      ],
+      [
+       48,
+       74
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       48,
+       30
+      ],
+      [
+       92,
+       74
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       92,
+       30
+      ],
+      [
+       48,
+       74
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 338,
+   "y": 14,
+   "w": 296,
+   "h": 168,
+   "fill": "#8fd14f",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Iguanodon",
+   "label_size": 36,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "old_iguanodon_nosehorn",
+     "x": 492.0,
+     "y": 110.0,
+     "scale": 0.39,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       356,
+       30
+      ],
+      [
+       400,
+       74
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       400,
+       30
+      ],
+      [
+       356,
+       74
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       356,
+       30
+      ],
+      [
+       400,
+       74
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       400,
+       30
+      ],
+      [
+       356,
+       74
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 646,
+   "y": 14,
+   "w": 296,
+   "h": 168,
+   "fill": "#4a6fe0",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Elasmosaurus",
+   "label_size": 36,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "old_elasmosaurus_backwards",
+     "x": 800.0,
+     "y": 102.0,
+     "scale": 0.39,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       664,
+       30
+      ],
+      [
+       708,
+       74
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       708,
+       30
+      ],
+      [
+       664,
+       74
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       664,
+       30
+      ],
+      [
+       708,
+       74
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       708,
+       30
+      ],
+      [
+       664,
+       74
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 954,
+   "y": 14,
+   "w": 296,
+   "h": 168,
+   "fill": "#ffc93c",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Stegosaurus",
+   "label_size": 36,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "old_stegosaurus_roof",
+     "x": 1110.0,
+     "y": 104.0,
+     "scale": 0.41,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       972,
+       30
+      ],
+      [
+       1016,
+       74
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       1016,
+       30
+      ],
+      [
+       972,
+       74
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       972,
+       30
+      ],
+      [
+       1016,
+       74
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       1016,
+       30
+      ],
+      [
+       972,
+       74
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 30,
+   "y": 249,
+   "w": 296,
+   "h": 168,
+   "fill": "#b06ad6",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Megalosaurus",
+   "label_size": 36,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "old_megalosaurus_quadruped",
+     "x": 186.0,
+     "y": 339.0,
+     "scale": 0.4,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       48,
+       265
+      ],
+      [
+       92,
+       309
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       92,
+       265
+      ],
+      [
+       48,
+       309
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       48,
+       265
+      ],
+      [
+       92,
+       309
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       92,
+       265
+      ],
+      [
+       48,
+       309
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 338,
+   "y": 249,
+   "w": 296,
+   "h": 168,
+   "fill": "#ff8c3a",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Deinocheirus",
+   "label_size": 36,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "old_deinocheirus_arms",
+     "x": 494.0,
+     "y": 339.0,
+     "scale": 0.4,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       356,
+       265
+      ],
+      [
+       400,
+       309
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       400,
+       265
+      ],
+      [
+       356,
+       309
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       356,
+       265
+      ],
+      [
+       400,
+       309
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       400,
+       265
+      ],
+      [
+       356,
+       309
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 646,
+   "y": 249,
+   "w": 296,
+   "h": 168,
+   "fill": "#2fb8a0",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Hallucigenia",
+   "label_size": 36,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "old_hallucigenia_1977",
+     "x": 802.0,
+     "y": 341.0,
+     "scale": 0.39,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       664,
+       265
+      ],
+      [
+       708,
+       309
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       708,
+       265
+      ],
+      [
+       664,
+       309
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       664,
+       265
+      ],
+      [
+       708,
+       309
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       708,
+       265
+      ],
+      [
+       664,
+       309
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 954,
+   "y": 249,
+   "w": 296,
+   "h": 168,
+   "fill": "#f27ab5",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Dimetrodon",
+   "label_size": 36,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "dimetrodon",
+     "x": 1118.0,
+     "y": 397.0,
+     "scale": 0.36,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       972,
+       265
+      ],
+      [
+       1016,
+       309
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       1016,
+       265
+      ],
+      [
+       972,
+       309
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       972,
+       265
+      ],
+      [
+       1016,
+       309
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       1016,
+       265
+      ],
+      [
+       972,
+       309
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 30,
+   "y": 484,
+   "w": 296,
+   "h": 168,
+   "fill": "#5ad1f0",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Therizinosaurus",
+   "label_size": 36,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "old_therizinosaurus_turtle",
+     "x": 186.0,
+     "y": 572.0,
+     "scale": 0.4,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       48,
+       500
+      ],
+      [
+       92,
+       544
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       92,
+       500
+      ],
+      [
+       48,
+       544
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       48,
+       500
+      ],
+      [
+       92,
+       544
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       92,
+       500
+      ],
+      [
+       48,
+       544
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 338,
+   "y": 484,
+   "w": 296,
+   "h": 168,
+   "fill": "#9a8cf0",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Homo Diluvii Testis",
+   "label_size": 32,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "homo_diluvii_slab",
+     "x": 496.0,
+     "y": 638.0,
+     "scale": 0.36,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       356,
+       500
+      ],
+      [
+       400,
+       544
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       400,
+       500
+      ],
+      [
+       356,
+       544
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       356,
+       500
+      ],
+      [
+       400,
+       544
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       400,
+       500
+      ],
+      [
+       356,
+       544
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 646,
+   "y": 484,
+   "w": 604,
+   "h": 168,
+   "fill": "#e9e04a",
+   "radius": 24,
+   "frame_width": 6,
+   "label": "Spinosaurus",
+   "label_size": 36,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "old_spinosaurus_1915",
+     "x": 816,
+     "y": 572.0,
+     "scale": 0.38,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "old_spinosaurus_2022",
+     "x": 1080,
+     "y": 572.0,
+     "scale": 0.38,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       664,
+       500
+      ],
+      [
+       708,
+       544
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       708,
+       500
+      ],
+      [
+       664,
+       544
+      ]
+     ],
+     "width": 17,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       664,
+       500
+      ],
+      [
+       708,
+       544
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       708,
+       500
+      ],
+      [
+       664,
+       544
+      ]
+     ],
+     "width": 9,
+     "color": "#e0201b",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "?",
+     "x": 1206,
+     "y": 536,
+     "size": 90,
+     "color": "#e0201b"
+    }
+   ]
+  }
+ ]
+}

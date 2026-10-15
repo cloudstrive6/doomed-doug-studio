@@ -1,0 +1,145 @@
+{
+ "_note": "Backup archetype C: one huge OLD DRAWING card (1932 boxy-head Brontosaurus plate) crossed out with a giant red X, 2 words FAKE HEAD (no title/alt-title words), tiny shocked Doug (red cap) for scale. Flat royal blue.",
+ "background": "#2b7fd6",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "asset",
+   "name": "old_drawing_card",
+   "x": 440,
+   "y": 372,
+   "scale": 0.98,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "old_brontosaurus_boxy",
+   "x": 440,
+   "y": 412,
+   "scale": 0.95,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "1932",
+   "x": 699.7,
+   "y": 148.56,
+   "size": 44,
+   "font": "Arimo",
+   "bold": true,
+   "color": "#5a3a1e",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     130,
+     282
+    ],
+    [
+     610,
+     602
+    ]
+   ],
+   "width": 42,
+   "color": "#000000",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     610,
+     282
+    ],
+    [
+     130,
+     602
+    ]
+   ],
+   "width": 42,
+   "color": "#000000",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     130,
+     282
+    ],
+    [
+     610,
+     602
+    ]
+   ],
+   "width": 30,
+   "color": "#e0201b",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     610,
+     282
+    ],
+    [
+     130,
+     602
+    ]
+   ],
+   "width": 30,
+   "color": "#e0201b",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "FAKE",
+   "x": 1075,
+   "y": 210,
+   "size": 140,
+   "font": "Arimo",
+   "bold": true,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "HEAD",
+   "x": 1075,
+   "y": 350,
+   "size": 140,
+   "font": "Arimo",
+   "bold": true,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 1075,
+   "y": 575,
+   "scale": 0.42,
+   "pose": "stand",
+   "expression": "shock",
+   "facing": "left"
+  }
+ ]
+}

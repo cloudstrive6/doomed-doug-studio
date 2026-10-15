@@ -18450,24 +18450,16 @@
      {
       "type": "arrow",
       "from": [
-       1000,
-       420
-      ],
-      "to": [
-       1200,
+       1780,
        560
       ],
-      "bend": 50,
+      "to": [
+       1670,
+       790
+      ],
+      "bend": 40,
       "color": "#e0201b",
       "width": 9,
-      "appear": 0.4
-     },
-     {
-      "type": "asset",
-      "name": "silver_fish",
-      "x": 1600,
-      "y": 920,
-      "scale": 0.6,
       "appear": 0.6
      },
      {
@@ -19104,14 +19096,14 @@
       "type": "asset",
       "name": "hallucigenia",
       "x": 900,
-      "y": 880,
+      "y": 858,
       "scale": 0.4
      },
      {
       "type": "asset",
       "name": "magnifying_glass",
       "x": 700,
-      "y": 830,
+      "y": 808,
       "scale": 1.0,
       "appear": 0.3
      },
@@ -20408,14 +20400,14 @@
      {
       "type": "arrow",
       "from": [
-       440,
+       450,
        330
       ],
       "to": [
-       640,
-       470
+       670,
+       404
       ],
-      "bend": 40,
+      "bend": 30,
       "color": "#e0201b",
       "width": 9,
       "appear": 0.2
@@ -20757,14 +20749,14 @@
       "type": "asset",
       "name": "hallucigenia",
       "x": 1000,
-      "y": 890,
+      "y": 850,
       "scale": 0.5
      },
      {
       "type": "asset",
       "name": "hallucigenia",
       "x": 1300,
-      "y": 890,
+      "y": 860,
       "scale": 0.4
      },
      {
@@ -20878,7 +20870,7 @@
       "type": "asset",
       "name": "hallucigenia",
       "x": 1300,
-      "y": 890,
+      "y": 850,
       "scale": 0.5
      },
      {
@@ -20979,7 +20971,7 @@
       "type": "asset",
       "name": "hallucigenia",
       "x": 1120,
-      "y": 890,
+      "y": 850,
       "scale": 0.5
      },
      {
@@ -27329,10 +27321,10 @@
        300
       ],
       "to": [
-       600,
-       520
+       604,
+       424
       ],
-      "bend": 40,
+      "bend": 30,
       "color": "#e0201b",
       "width": 9,
       "appear": 0.6
