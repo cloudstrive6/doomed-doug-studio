@@ -67,6 +67,22 @@ def validate(ep: Path) -> list[str]:
             probs.append(f"{s['id']}: ~{secs:.0f}s of narration; keep Shorts 25-55 s")
         if len(s["title"]) > 60:
             probs.append(f"{s['id']}: title over 60 chars")
+        # cliffhanger (growth memo 2026-10-09: Shorts bring 99% of views but almost nobody clicks through):
+        # the outro opens one specific loop that only the full video closes, and the end card shows it
+        out, card = s.get("outro", ""), s.get("end_card", "")
+        if not s.get("tease_from"):
+            probs.append(f"{s['id']}: missing tease_from (shot id of the teased thing, shown as a silhouette on the end card)")
+        elif s["tease_from"] not in ids:
+            probs.append(f"{s['id']}: tease_from {s['tease_from']} not in shotlist")
+        elif s["tease_from"] in {x["id"] for x in _shot_slice(sl, s["from"], s["to"])}:
+            probs.append(f"{s['id']}: tease_from must be a shot the Short does NOT show (cut before it, or later)")
+        if not 8 <= len(out.split()) <= 28:
+            probs.append(f"{s['id']}: outro must be 8-28 words (cliffhanger + where to find the answer)")
+        generic = ("what happens next", "the full video is linked below", "the full dive is linked below")
+        if any(g in out.lower() for g in generic[1:]) and len(out.split()) < 14:
+            probs.append(f"{s['id']}: outro is generic; name the specific thing the full video reveals")
+        if not card or len(card.split()) > 8 or card.upper().startswith("WHAT HAPPENS NEXT"):
+            probs.append(f"{s['id']}: end_card must be a specific question about the teased thing, <= 8 words")
     return probs
 
 
@@ -184,6 +200,47 @@ def _end_card(text: str) -> dict:
         {"type": "arrow", "from": [1180, 560], "to": [1180, 980], "color": "#e0201b", "width": 22, "head": 80}]}
 
 
+def _asset_box(name: str, scale: float) -> tuple[int, int, int, int] | None:
+    """Pixel bbox of an asset drawn alone at (960, 540) and `scale` (relative to the anchor point)."""
+    img = render_still({"background": "#ffffff", "elements": [{"type": "asset", "name": name, "x": 960, "y": 540,
+                                                                 "scale": scale}]}, 0, None, seed="box")
+    from PIL import ImageChops
+    diff = ImageChops.difference(img.convert("RGB"), Image.new("RGB", img.size, "white")).getbbox()
+    return None if not diff else (diff[0] - 960, diff[1] - 540, diff[2] - 960, diff[3] - 540)
+
+
+def _tease_card(text: str, tease_shot: dict, asset: str | None = None) -> dict:
+    """Cliffhanger end card: the teased creature/thing from later in the episode as a black silhouette with a red
+    glow and "???", the question as WordArt, Doug pointing and the red arrow down to the Related-video link.
+    Everything stays inside x 260..1660 so the Shorts crop keeps full zoom."""
+    words = text.split()
+    half = (len(words) + 1) // 2
+    l1, l2 = " ".join(words[:half]), " ".join(words[half:])
+    assets = [e for e in tease_shot.get("scene", {}).get("elements", []) if e.get("type") == "asset"]
+    if asset:  # the director names the creature/thing to silhouette (`tease_asset`)
+        assets = [next((e for e in assets if e.get("name") == asset), {"name": asset})]
+    else:
+        assets = sorted(assets, key=lambda e: -float(e.get("scale", 1)))[:1]
+    els = [{"type": "wordart", "text": l1, "x": 960, "y": 150, "size": 96},
+           {"type": "wordart", "text": l2, "x": 960, "y": 270, "size": 96}]
+    box_w, box_h, cx, cy = 500, 430, 1220, 680   # silhouette area, right of centre (inside x 260..1660)
+    for a in assets:
+        b = _asset_box(a["name"], 1.0)
+        if not b:
+            continue
+        w, h = b[2] - b[0], b[3] - b[1]
+        k = min(box_w / max(w, 1), box_h / max(h, 1), 3.0)
+        # place the bbox centre on (cx, cy)
+        x = cx - (b[0] + b[2]) / 2 * k
+        y = cy - (b[1] + b[3]) / 2 * k
+        els.append({"type": "asset", "name": a["name"], "x": round(x), "y": round(y), "scale": round(k, 3),
+                    "flip": a.get("flip", False), "silhouette": True, "rim": {"color": "#e0201b", "px": 5}})
+    els += [{"type": "wordart", "text": "???", "x": cx, "y": cy, "size": 150},
+            {"type": "doug", "x": 470, "y": 900, "scale": 0.8, "pose": ["point", "wave"], "expression": "worried"},
+            {"type": "arrow", "from": [800, 600], "to": [800, 1000], "color": "#e0201b", "width": 22, "head": 80}]
+    return {"background": "#0d0d14", "elements": els}
+
+
 # ------------------------------------------------------------------ render
 
 
@@ -207,7 +264,9 @@ def render(ep: Path, only: list[str] | None = None) -> list[Path]:
         for shot in _shot_slice(sl, s["from"], s["to"]):
             segs.append((shot, shot.get("narration", "")))
         end_text = s.get("end_card", "FULL VIDEO: TAP THE LINK BELOW")
-        segs.append(({"id": s["id"] + "_end", "scene": _end_card(end_text), "boil": True},
+        tease = next((x for x in sl["shots"] if x["id"] == s.get("tease_from")), None)
+        card = _tease_card(end_text, tease, s.get("tease_asset")) if tease else _end_card(end_text)
+        segs.append(({"id": s["id"] + "_end", "scene": card, "boil": True},
                      s.get("outro", "The full video is linked below.")))
         pcm_all, plan, t = [], [], 0.0
         for shot, text in segs:

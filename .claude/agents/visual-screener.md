@@ -25,6 +25,10 @@ Doug + threat obvious, complements the title in `metadata.json`, not misleading.
 
 Shorts: view `build/shorts/*_preview.png` (and a few frames from `build/shorts/*.mp4` with ffmpeg): title
 readable, drawing not cut off at the sides, subtitles legible, end card arrow points down to the link.
+Cliffhanger (watch the last ~8 s of each Short): the clip pays off its title, then the outro opens one specific
+question the Short does not answer, and the end card shows that teased creature/thing as a recognisable red-
+outlined silhouette with "???" and a matching question. FAIL a Short that answers its own cliffhanger, teases
+something vague, or whose silhouette can't be recognised (route to the director: `tease_from`/`tease_asset`).
 
 ## Report: `episodes/<id>/visual_review.md` (append a section per round)
 `VERDICT: PASS` or `VERDICT: FAIL` with numbered fixes, each naming the shot id and the exact change, routed to
