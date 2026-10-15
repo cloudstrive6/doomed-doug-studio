@@ -122,3 +122,83 @@ All 68 assets are on file. Every bbox matches its request within a few units, an
 | water_plants_bunch | APPROVED |
 
 68 / 68 APPROVED, 0 REVISE.
+
+---
+
+# 019 keyframe review (art director)
+
+Date: 2026-10-15. Scope: all 293 keyframes (`build/contact/sheet_01-25.png`). I opened s083, s215, s286 and s288 at full 1080p
+and checked the element coordinates in `shotlist.json` for every shot listed below. Thumbnail pick is at the end.
+
+## Verdict: FAIL. 1 blocking policy fix (asset), 22 composition fixes (director). The rest of the episode passes.
+
+What passes: Doug is on-model in every shot (red cap, head about 1/3 of his height, oval eyes, ghost/death poses correct).
+Chapter colours hold within each chapter. The counter runs 154 to 161 in the right places. Title cards read clearly, and the
+OLD DRAWING cards stay a recognisably detailed tier next to crude Doug. Nothing is cropped by the frame edge.
+
+### A. Illustrator (asset). BLOCKING
+1. **`spinosaurus_mystery` (s286, s288)**: the drips that hang from the jaw tip are part of the silhouette, so they get the
+   red rim. On black they read as **blood dripping from the mouth** (clearest at s288, x 1740-1780, y 420-530). This breaks
+   "never gory". Remove the drips from the silhouette polygon. If you want water, redraw them as separate light-blue droplets
+   (`#bfe6ff`, no red rim) a little away from the jaw. Re-preview it on navy and on the orange s288 background. I approved
+   the asset on navy, where the drips didn't show. My mistake.
+
+### B. Director (composition). Fix before art_approved
+Text/wordart sitting on the floor line and the bottom edge of the card (all are wordart/labels at y 980-1000 on top of the
+`y 1000` floor line):
+2. **s092** `LIKE A SHELL`, 3. **s145** `CLAWED HUNTER`, 4. **s216** `WATER PLANTS`, 5. **s218** `TURTLE-SHAPED`,
+6. **s270** `UPRIGHT HUNTER`, 7. **s274** `SWAM`: move the wordart to the free right margin, about (1600, 440),
+   size 56-64. That's the slot s063/s089/s170 already use, so the card shots stay consistent.
+8. **s251** `SALAMANDER` (860, 990) runs into the bottom of the slab: move it to about (1450, 420).
+9. **s217** `CHELONIFORMIS` label (820, 990) straddles the floor line: move it to (1600, 430).
+
+Labels/wordart overlapping a drawing or another label:
+10. **s215**: the `4.5 m` dimension line (y 330) and label (820, 300) run straight through the card header, so
+    "OLD DRAWING" and "1954" become unreadable. Move the line and label below the turtle, inside the card (y about 870), or
+    above the card (y about 225).
+11. **s018** `OLDER NAME WON` (1120, 360) overlaps the right edge of the card: x 1300.
+12. **s026** `THE NAME IS BACK` (1120, 360) has the same overlap: x 1320.
+13. **s172**: the `1991` label (330, 330) sits on the card's top-left corner and header: move it to (1600, 430).
+14. **s259** `STILL A SALAMANDER` (1300, 330) overlaps the right edge of the glass case: x 1450 (or size 48).
+15. **s178**: `EYES` (400, 290) sits on the top-left corner of the head panel and `TEETH` (1180, 330) sits on its top-right
+    corner. Move EYES to about (250, 380), outside the panel (re-aim the arrow from there), and TEETH to about (1450, 470).
+16. **s275**: the `ABOUT 15 m` label (850, 730) sits on the middle giraffe's head and hides the "1" of 15. Move the
+    dimension line and label to y 690 and the label to x 1015, between two giraffes.
+17. **s017**: the `APATOSAURUS` label (1260, 900) covers the scientist's legs (1180, 860). Move the scientist to x 1440.
+18. **s066**: the scientist (620, 860) stands with his head inside the vertebra row (y 620). Move him to x 1420.
+19. **s071**: `journal_paper` (1090, 700) covers Marsh's face (scientist at 1200). Put it at his hand, about (1110, 800).
+20. **s268**: the `MUNICH` label (820, 380) is half-hidden behind the dust cloud and reads "MUNICH" clipped. Move it to y 315
+    or drop it (s265-s267 already establish Munich).
+21. **s063, s170**: the red arrow starts on top of the "OLD DRAWING" header text. Start it outside the card on the right
+    (by the wordart) and curve it in.
+
+Map edges (the world_map border shows as a black bar and an empty strip):
+22. **s008, s064, s191**: the left edge of the map is visible at x of about 30-40. Scale `world_map` 2.6 to 2.8 and re-centre
+    so the red circle stays put, or shift x so the border is off-frame.
+23. **s148, s149**: the top edge of the map (black line at y of about 135) is visible: scale 2.2 to 2.4 or move y down to about 1120.
+
+Doug standing on water:
+24. **s080, s084**: Doug uses `point` / `panic1` at the sea line (y 560), so he stands on the water up to his ankles, while
+    s082/s083 have him swimming. Use `swim1/swim2` (holding the card for s080), or put him on the island next to the
+    time machine.
+
+### C. Notes (not blocking; director's call)
+- **s083**: the narration line is "The long end has a mouth", but the neck is a black silhouette, so you can't see a mouth.
+  A small `TEETH`/`MOUTH` arrow, or the coloured neck with teeth as in s079, would land the line.
+- Repeated compositions: s019-s022 (the same headless-skeleton frame 4 times, only the label changes), s013-s015 and
+  s169-s171 (the same card + Doug 3 times, only an arrow or wordart changes). These are under the 5-in-a-row limit, but a
+  push-in or a Doug pose/position change on the middle shot of each run would help pacing.
+- s205: the red X over the `RELATIVES` plaque makes the word hard to read. Fine as a gag, or move the X to the toy set.
+
+## Thumbnail pick: `thumbnail.json` (A, labelled 4x3 grid). Winner confirmed
+- The grid is the designer's recommendation, it's the opening image (s001 = the grid, per decisions.md item 8 and style bible
+  "open with the thumbnail grid"), and it pairs with the list-style title. At feed size (`thumbnail_small.png`, 320 px)
+  all 11 silhouettes and red X's read and the labels are still legible. It's on-palette, subject-first, not gory.
+- `thumbnail_b.json` (FAKE HEAD hero card) is clean and readable, but it sells only item 1 and doesn't match the opening frame.
+  Keep it as the A/B backup.
+- `thumbnail.json` already holds the grid spec, so nothing needed copying. `thumbnail_b.json` is left unchanged as the alternate.
+- Optional polish for the designer: the Dimetrodon tile shows the *real* Dimetrodon under an X, while every other tile shows
+  the old wrong drawing. The toy-set plate from s189 (`gift_shop_shelf` with its "DINOSAURS" sign) would match the tile grammar.
+  Not blocking.
+
+Re-review needed: the shots in B after the director's patch, plus s286/s288 after the illustrator's asset fix.
