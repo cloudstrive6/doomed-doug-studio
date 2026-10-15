@@ -67,3 +67,4 @@ no planned static stretch over ~4.6 s. 68 new drawings requested in `asset_reque
   (3) A uses the proven ranking/list formula for this stage of the channel. B is the weaker archetype C.
 - **B's strengths noted:** it reads better at feed size (2 huge words, one subject) and has Doug for scale. It's the first
   candidate to try if A's CTR comes in below the channel median after 48 h.
+2026-10-15: 019 packaged. Script 2 rounds (7 small fixes), assets 1 round (68 approved), keyframes 2 rounds. Risks: ö/Ö font glyphs and pronunciations unverified in narration.wav (Ramsköld, Öhningen, Scheuchzer, Rozhdestvensky); Crystal Palace horn claim depends on post-2026 restoration.
