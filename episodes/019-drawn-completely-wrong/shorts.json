@@ -1,0 +1,39 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s010",
+      "to": "s024",
+      "title": "",
+      "outro": "Then Doug went back to meet the real one, holding the 1932 drawing. He went looking for the boxy head. Full video below.",
+      "tease_from": "s032",
+      "tease_asset": "brontosaurus",
+      "end_card": "WHAT DID DOUG FIND INSTEAD?",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s195",
+      "to": "s207",
+      "title": "",
+      "outro": "Doug brought a family photo to say hello. His cap ended up somewhere very specific. Full video below.",
+      "tease_from": "s208",
+      "tease_asset": "dimetrodon",
+      "end_card": "WHERE DID DOUG'S CAP END UP?",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s276",
+      "to": "s287",
+      "title": "",
+      "hook": "Spinosaurus is fifteen meters long, and nobody agrees what it looked like.",
+      "hook_scene_from": "s275",
+      "outro": "Behind Doug, something that matched none of the four cards rose out of the river. Full video below.",
+      "tease_from": "s288",
+      "tease_asset": "spinosaurus_mystery",
+      "end_card": "WHICH SPINOSAURUS CAME OUT?",
+      "description": ""
+    }
+  ]
+}
