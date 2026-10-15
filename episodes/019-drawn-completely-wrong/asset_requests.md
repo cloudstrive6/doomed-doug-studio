@@ -306,3 +306,8 @@ Used in: s037
 Bunch of dripping water plants (long green ribbon leaves, a lily pad, a few blue drips) held at the grip. Anchor = grip, x -60..60, y -140..90.
 Used in: s216, s235, s236, s237
 **Done** (illustrator, 2026-10-15): `assets/library/water_plants_bunch.json`, preview `assets/previews/019-drawn-completely-wrong-assets-s-z.png`.
+
+## `spinosaurus_mystery_tease`
+Post-render fix 3 (short03 end card only). Tease-only variant of `spinosaurus_mystery` with the same "matches no card" teal-grey body rising from the river, redrawn so it reads as a silhouette: a long low croc snout pointing right with a tooth-row notch, and ONE continuous tall sail. Do not use it in the main video, and do not change `spinosaurus_mystery`.
+Used in: shorts.json short03 `tease_asset`
+**Done** (illustrator, 2026-10-15): `assets/library/spinosaurus_mystery_tease.json`, preview `assets/previews/019-tease.png`, end-card test (silhouette + red rim + "???") `assets/previews/019-tease-endcard.png`. The head and neck sit above and right of the "???", and the sail top is above it. A clear notch separates the sail and the neck.

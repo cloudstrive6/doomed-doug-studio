@@ -68,3 +68,39 @@ no planned static stretch over ~4.6 s. 68 new drawings requested in `asset_reque
 - **B's strengths noted:** it reads better at feed size (2 huge words, one subject) and has Doug for scale. It's the first
   candidate to try if A's CTR comes in below the channel median after 48 h.
 2026-10-15: 019 packaged. Script 2 rounds (7 small fixes), assets 1 round (68 approved), keyframes 2 rounds. Risks: ö/Ö font glyphs and pronunciations unverified in narration.wav (Ramsköld, Öhningen, Scheuchzer, Rozhdestvensky); Crystal Palace horn claim depends on post-2026 restoration.
+
+## 2026-10-15: final package (creative director)
+Reviewed: `metadata.json` (title, alts, description, tags, playlist), `build/thumbnail.png` + `thumbnail_small.png`,
+`build/chapters.txt`, script L1-60, samples f_001-f_003 (15/45/75 s), `reviews/visual_review_postrender.md`, `build/qc.json`
+(985 s, no problems). `validate metadata`: OK. `{{CHAPTERS}}` is filled by `studio/youtube.py` at upload.
+
+**Package: APPROVED on its merits.**
+- **Title kept:** "The Creepiest Prehistoric Animals Scientists Drew All Wrong" (59 chars, T4). No alt is clearly stronger:
+  "Scariest...Completely Wrong" is the same promise at the 65-char limit (truncation risk on mobile), "How Every...Would Kill Doug"
+  over-promises deaths (4 of 11 are survivals), "Each Museum" is narrower than the content, and "Fossils" repeats 005/015.
+  Different clause from 017's T4 and not back-to-back with 018's T8. No "Dinosaur", nothing banned by the brief.
+- **Honesty:** delivers 11 old drawings, each flipped to the real animal, ending on the one still being redrawn. The softest fit is
+  Dimetrodon (the popular "dinosaur" label rather than a scientist's drawing), but the 1878 card and the "Wrong animal." band
+  frame it fairly, so it is not a broken promise.
+- **Thumbnail:** the 11-tile grid with red X's and a '?' on Spinosaurus reads at 320 px. Labels are chapter names only, with no title
+  words, and it is the opening image (style bible 3.2). Screener PASS. Kept over B (see the earlier entry).
+- **Opening:** "Brontosaurus" is the 25th spoken word, and it is on screen with the OLD DRAWING card by 15 s. The twist (borrowed head)
+  lands well inside 45 s. f_002/f_003 show the 1903 rename and the 1979 head swap with the counter visible, which keeps the pace. I
+  would click and keep watching.
+- **Description:** the first two lines sell four concrete twists plus the unsolved boss with no spoilers. The comment prompt,
+  sources (Carnegie, NHM, ROM, NatGeo x2, Field Museum), cartoon-death disclaimer and AI-use disclosure are all present. Hashtags
+  and tags are adult/science-coded. Chapters are 11, start at 0:00 and match the items.
+- **Policy:** cartoon deaths that cut away, no gore, no medical/safety content, nothing kid-targeted.
+
+**Not approved yet: the render.** The post-render visual screener FAILed the main video (DOUG DEATHS counter clipped by zoom in
+s092/s098/s108/s139/s143/s250, label border shaved in s007/s015/s043) and short03 (Spinosaurus end-card silhouette unreadable).
+Fixes are in shotlist.json/shorts.json and a re-render is queued. Before upload, the re-rendered final.mp4 and short01-03 need a
+visual-screener PASS that confirms: (1) the counter's full digits in the last frames of those 9 shots, (2) a recognisable short03
+end card, (3) qc.json clean. After that the episode can go to upload with this package unchanged; no further CD review is needed
+unless the screener finds something new.
+Open editor risk carried from packaging: confirm ö/Ö glyphs and the pronunciations of Ramsköld/Öhningen/Scheuchzer/Rozhdestvensky
+in narration.wav.
+
+FINAL: REJECTED pending re-render verification
+
+2026-10-15 final review round 1: visual screener FAIL (main: death counter clipped in s007/s015/s043/s092/s098/s108/s139/s143/s250; shorts: short03 end-card silhouette). Fixed via camera.x=960 and tease_asset spinosaurus_mystery_tease; .rerender requested (final, shorts). Stage left at packaged.

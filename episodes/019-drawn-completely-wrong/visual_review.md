@@ -149,3 +149,15 @@ and s289. No text is cropped or covers a drawing. There is no gore and nothing r
 
 ### Routing
 None required. Ready for art_approved from a visual-screening standpoint.
+
+## Post-render, 2026-10-15
+Full report: `reviews/visual_review_postrender.md`.
+
+1. **s092, s098, s108, s139, s143, s250 (director):** the zoom-in (1.08) crops the last digit of the death counter. Set `camera.x` to 960.
+2. **s007, s015, s043 (director, same pass):** the zoom (1.06) shaves the counter's right border. Set `camera.x` to 960.
+3. **short03 (illustrator + director):** the `spinosaurus_mystery` end-card silhouette isn't recognisable as a Spinosaurus. Add a tease-only `spinosaurus_mystery_tease` with a croc-snout profile and one continuous sail, and set it as short03 `tease_asset`.
+
+Thumbnail: PASS (unchanged). short01 and short02 cliffhangers: PASS.
+
+VERDICT (main): FAIL
+VERDICT (shorts): FAIL (short03 silhouette)

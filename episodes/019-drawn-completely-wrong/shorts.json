@@ -9,7 +9,8 @@
       "tease_from": "s032",
       "tease_asset": "brontosaurus",
       "end_card": "WHAT DID DOUG FIND INSTEAD?",
-      "description": "Marsh gave his headless skeleton a borrowed boxy skull from a different animal, and the Carnegie Museum's Apatosaurus wore a Camarasaurus head for 47 years, from 1932 until the swap in 1979; see what Doug found when he went to meet the real one in the full episode."
+      "description": "Marsh gave his headless skeleton a borrowed boxy skull from a different animal, and the Carnegie Museum's Apatosaurus wore a Camarasaurus head for 47 years, from 1932 until the swap in 1979; see what Doug found when he went to meet the real one in the full episode.",
+      "duration_s": 59.6
     },
     {
       "id": "short02",
@@ -20,7 +21,8 @@
       "tease_from": "s208",
       "tease_asset": "dimetrodon",
       "end_card": "WHERE DID DOUG'S CAP END UP?",
-      "description": "Dimetrodon lived about three times further from Tyrannosaurus in time than Tyrannosaurus lives from you, grew steak-knife teeth 40 million years before meat-eating dinosaurs did, and sits on the branch that led to mammals; find out where Doug's cap ended up in the full episode."
+      "description": "Dimetrodon lived about three times further from Tyrannosaurus in time than Tyrannosaurus lives from you, grew steak-knife teeth 40 million years before meat-eating dinosaurs did, and sits on the branch that led to mammals; find out where Doug's cap ended up in the full episode.",
+      "duration_s": 53.7
     },
     {
       "id": "short03",
@@ -31,9 +33,10 @@
       "hook_scene_from": "s275",
       "outro": "Behind Doug, something that matched none of the four cards rose out of the river. Full video below.",
       "tease_from": "s288",
-      "tease_asset": "spinosaurus_mystery",
+      "tease_asset": "spinosaurus_mystery_tease",
       "end_card": "WHICH SPINOSAURUS CAME OUT?",
-      "description": "In 2022 one study argued the 15-meter Spinosaurus dove underwater for its food and another argued it was too buoyant to dive and waded the shallows on two legs; see which Spinosaurus came out of the river for Doug in the full episode."
+      "description": "In 2022 one study argued the 15-meter Spinosaurus dove underwater for its food and another argued it was too buoyant to dive and waded the shallows on two legs; see which Spinosaurus came out of the river for Doug in the full episode.",
+      "duration_s": 48.9
     }
   ]
 }
