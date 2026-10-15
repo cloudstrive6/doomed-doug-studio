@@ -24,7 +24,12 @@
       "stage": "shotlisted",
       "at": "2026-10-15T17:21:05+00:00",
       "note": "assets approved"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-10-15T17:36:45+00:00",
+      "note": "art-director + visual-screener PASS round 2"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

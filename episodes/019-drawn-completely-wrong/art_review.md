@@ -202,3 +202,45 @@ Doug standing on water:
   Not blocking.
 
 Re-review needed: the shots in B after the director's patch, plus s286/s288 after the illustrator's asset fix.
+
+---
+
+# 019 keyframe review, round 2 (art director)
+
+Date: 2026-10-15. Scope: all 25 re-rendered sheets (`build/contact/sheet_01-25.png`). I compared the shotlist against `d93e529`
+(42 shots changed: s008 s017 s018 s026 s054 s063 s064 s066 s071 s080 s083 s084 s092 s099 s145 s148 s149 s157-s160 s170 s172 s178
+s190 s191 s205 s215-s218 s251 s259 s268 s270 s274 s275 s287-s291). I checked every one on the sheets, and opened s071, s083,
+s178, s215, s218, s286 and s288 at full 1080p.
+
+## Verdict: PASS. All blocking items from round 1 are fixed. One leftover is optional polish (s071) and does not block art_approved.
+
+### A. Blocking asset fix: verified
+1. **`spinosaurus_mystery` (s286, s288): FIXED.** The jaw drips are gone from the silhouette polygon. At full size on the teal
+   water (s286) and the orange river (s288), the red rim follows only the snout, back spines, body and tail. Nothing hangs
+   from the mouth, and nothing reads as blood. The silhouette is still a clear "unknown shape" for the Shorts end card.
+
+### B. Composition fixes 2-24: verified
+- **Wordart/labels off the floor line:** s092, s145, s216, s218 (now a new frame with the turtle costume, and Doug is on-model:
+  cap, head, oval eyes), s270 and s274 all sit in the right-hand margin, matching s063/s089/s170. s251 SALAMANDER and s217
+  CHELONIFORMIS are clear of the slab and the floor.
+- **Overlaps:** s215 `4.5 m` now sits above the card, and "OLD DRAWING 1954" is fully readable. s018 and s026 wordart clear the card.
+  s172 `1991` is off the header. s259 clears the glass case. In s178, EYES sits outside the panel and its arrow lands on the eye,
+  and TEETH sits in the right margin. s275 `ABOUT 15 m` is between the giraffes with the "1" visible. In s017 the label is clear
+  of the scientist. In s066 the scientist is out of the vertebra row. s268 drops the MUNICH label, and the dust cloud no longer
+  has gag stars (this also covers the visual screener's tone note). s063 and s170 arrows start outside the card.
+- **Map edges:** in s008, s064 and s191 the left border is off-frame. In s148 and s149 the top border is off-frame.
+- **Water:** in s080, Doug stands on the island with the card. In s084 he swims. The s157-s160 and s287-s291 river is now water
+  blue `#3a9ad9` with wave ticks, so the s289 splash reads as Doug going in.
+- **Notes that were also taken:** s083 has a MOUTH arrow on the head. s099 has an original chalk spike-tail doodle (not
+  Larson's panel). s205 no longer has the X over RELATIVES. In s190 the X sits on the DINOSAURS plaque, which is the point
+  of the line "It is not a dinosaur", so it is approved.
+
+General: Doug is on-model in every changed shot. Chapter colours are unchanged. The counter runs 154 to 161 correctly. No new
+crops or overlaps.
+
+### Optional polish (director, non-blocking)
+1. **s071:** `journal_paper` at (1110, 800) still covers Marsh's left eye. The asset is anchored at its centre and is about
+   190 px tall, so my round-1 coordinate was too high. That was my mistake. Move it to about **(1090, 880)** so its top edge
+   sits below his chin (head bottom at about y 760). Marsh still reads as holding the paper as it is, so this does not block.
+
+Re-review needed: none. The keyframes are approved for `art_approved`.

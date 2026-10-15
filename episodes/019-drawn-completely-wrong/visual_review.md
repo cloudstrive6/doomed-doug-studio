@@ -103,3 +103,49 @@ gore-adjacent detail, and one run of identical frames.
 - Graphic designer: thumbnail advisories only.
 
 Re-key the changed shots and send the new sheets back for round 2.
+
+## Round 2: re-rendered keyframes (2026-10-15)
+
+Scope: all 25 contact sheets (s001-s293) re-viewed for regressions. Full 1080p keyframes opened for s017, s018, s026,
+s054, s158, s190, s205, s215, s217, s218, s275, s286, s288 and s289. Camera blocks checked in `shotlist.json`.
+
+VERDICT: PASS
+
+### Round-1 required fixes
+
+1. **s017**: FIXED. The scientist now stands at x 1540, clear of the APATOSAURUS label and next to Doug.
+2. **s018 / s026**: FIXED. "OLDER NAME WON" and "THE NAME IS BACK" start at about x 960, well clear of the card's
+   right edge (x 860).
+3. **s205 / s190**: FIXED. s205 has no X; the cream patch with red "RELATIVES" reads as a correction. s190 now has the
+   red X over the DINOSAURS plate, which matches "It is not a dinosaur".
+4. **s215**: FIXED, with a different placement from the one I suggested. The dashed line and "4.5 m" now sit above the
+   card (y about 210-230) and clear the OLD DRAWING header and the 1954 box. That works.
+5. **s054**: FIXED. The warning triangle (1520, 420) and DEFENSE label (1520, 300) are clear of the Iguanodon's head.
+6. **s275**: FIXED. The line and "ABOUT 15 m" are at y 685, and the giraffe heads end around y 760, below the label.
+7. **s157-s160 / s287-s291**: FIXED. The river is now blue water with an outline and white wave ticks. "Dips its bill
+   into the river" (s158) and the s289 splash now clearly happen in water.
+8. **`spinosaurus_mystery` (s286, s288)**: FIXED. The drip shapes are gone from the asset. The silhouette has a clean
+   red rim and nothing hangs from the jaw. No gore reading on navy-teal or orange.
+9. **s215-s218 run**: FIXED. s217 adds the CHELONIFORMIS label plus a push to [1150, 560, 1.15], which is lighter than
+   the push I suggested but keeps the label in frame. s218 is a new frame: a small card on the left, Doug in the turtle
+   costume, and "TURTLE-SHAPED" wordart. The run is broken.
+
+Round-1 advisories that were also taken up: s099 (the blackboard now has a chalk spiked-tail doodle), s268 (plain smoke
+cloud with no gag stars or spirals), s172 (the 1991 label no longer overlaps the card). Still open and not blocking:
+s237 (no Therizinosaurus in the death frame), s193 (the two animals still stand side by side), s071 and s083.
+
+### Regression scan
+No new problems. Every shot has Doug on-model. The counter still steps 154->161 at s032, s085, s109, s185, s208, s237
+and s289. No text is cropped or covers a drawing. There is no gore and nothing reads as a kids' show.
+
+### Advisory (not blocking)
+- **`spinosaurus_mystery` silhouette for the Shorts end card (director / illustrator)**: in the keyframe the silhouette
+  works as "something is under the water". On its own as a tease, though, the raised snout reads a bit like a raised
+  arm or mitten, and the double-hump sail like two boulders. If this becomes a Short's `tease_asset`, consider showing
+  more of the jaw profile (open jaw or a visible tooth row notch) so it reads as "croc-snouted dinosaur" at phone size.
+  I will check this again at the Shorts end-card stage.
+- Caption font still lacks "ö" in the contact sheets (s172, s174, s242). This is editor-side only, and the on-screen
+  label is correct.
+
+### Routing
+None required. Ready for art_approved from a visual-screening standpoint.
