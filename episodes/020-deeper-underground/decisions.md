@@ -19,3 +19,18 @@
   - Art director: the drill pod (new, recurring) and the Earth cross-section need approval.
   - Titler: "Deadlier" plus "Deeper" is the lead. No "dig" and no "hole" in the long-form title.
 - Series bible updated: counter 170, drill pod, cross-section cut, AGAIN stamp, used-once lines, episode log row 020.
+
+## 2026-10-16: thumbnail pick: A (Earth wedge) WINS
+- Chosen: `thumbnail.json` (A, archetype B Earth wedge, 8 labelled bands, tiny Doug on the surface). Kept unchanged, with no text edits.
+  `thumbnail_b.json` (B, "6,371 KM" hero) is kept as the alternate. Re-rendered with `python -m studio thumbnail` to `build/thumbnail.png`.
+- Why A:
+  1. Style bible section 2.B says the tiered pyramid is the ideal archetype for a layered or depth topic. Section 2 pairs a
+     gradient or list title with a grid, and a hero shot with "What Dying..." titles. Our title is the T6 gradient ("Deadlier the
+     Deeper"), so the thumbnail should show the items and the title supplies the frame. None of the 8 labels repeats a title word.
+  2. The thumbnail is the opening image (style bible 4.1, brief section 3, s001 scene_ref). A works as the episode's table of
+     contents. B would open on a hole and a circle that show none of the items.
+  3. Curiosity gaps: "Devil Worm", "Oldest Water", "Hidden Ocean" and "Kola Borehole" each give a reason to click. B relies on one
+     number, and the hero has no subject (no creature, no body-horror moment). Archetype C works because of its subject.
+- Accepted risk: at 168x94 the labels in A are small. The colour gradient from tan to white-hot and the wedge shape still read as
+  "going down" at feed size, and the labels are legible at browse or suggested-video size. B is the A/B test candidate if Studio
+  thumbnail testing is used.
