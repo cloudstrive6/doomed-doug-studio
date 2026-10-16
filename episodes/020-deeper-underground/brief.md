@@ -184,7 +184,7 @@ until draft 1.
     2023 *Nature Geoscience*; Wang et al. 2024 *Nature*; scientists still argue, say so).
 - Scale analogy: as hot as the surface of the Sun, but under the weight of the whole planet; it can't melt even though it should.
 - Twist: the hottest place Doug has ever been is the one place nothing melts. Doug beat: Doug plants a flag at the exact centre. Every
-  direction is now "up". Flat, X eyes. Sticker "THE CENTRE"; suitcase full.
+  direction is now "up". Flat, X eyes. Sticker "THE CENTER" (en-US on screen; CD gate 2026-10-16); suitcase full.
 - **Closing image:** back on the surface, the suitcase and the cap come up together out of a hole that wasn't there. The narrator: the
   suitcase "still has room" (approved bible line). Then the outro.
 
@@ -285,6 +285,11 @@ lengthen items 9-12 (they carry the least familiar science).
   - hotter than the Sun's surface, and it still can't melt
 
 ## 8. Shorts candidates (memo 10-09 rule: one famous creature or fact plus a hard number)
-1. "This Cave Was Sealed for 5.5 Million Years" (Movile; verify the number).
-2. "A Scientist Drank 2-Billion-Year-Old Water" (Kidd Mine; verify the age of the water she tasted).
-3. "The Deepest Hole Ever Dug Is 0.2% of the Way Down" (Kola, 12,262 m of 6,371 km).
+CD review at the script gate (2026-10-16): all three are approved as worded below. Each one states only what the long video states.
+1. "This Cave Has Been Sealed for at Least 2.5 Million Years" (Movile). Use the sourced low end as the hard number, with "at least",
+   because the sources give 2.5 to 5.5 Myr and GESS Lab treats 5.5 Myr as when the cave began to form. Never "5.5 Million" in a Short.
+   An on-screen line may add "longer than humans have existed" (2.5 Myr vs 300 kyr).
+2. "A Scientist Tasted Billion-Year-Old Water" (Kidd Mine). She tasted the 2013 water, at least 1 billion years old. Never "2-billion"
+   or "drank" (the 2016 water was not the one she tasted). Any closing line must stay "it is not drinking water", with no advice.
+3. "The Deepest Hole Ever Drilled Is 0.2% of the Way Down" (Kola, 12,262 m of 6,371 km). "Drilled", not "Dug": it is accurate and keeps
+   off the `015` "dig" frame. If a Short mentions the "well to hell" story, it must call it a hoax.

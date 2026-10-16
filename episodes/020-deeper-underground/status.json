@@ -4,7 +4,17 @@
       "stage": "idea",
       "at": "2026-10-16T16:05:10+00:00",
       "note": "created"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-10-16T16:18:40+00:00",
+      "note": "draft 1"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-16T16:29:16+00:00",
+      "note": "CD approved draft 2 (screener PASS); applied line 388 'some of', THE CENTER sticker, Shorts wording; series bible updated (counter 170, drill pod, cross-section)"
     }
   ],
-  "stage": "idea"
+  "stage": "script_approved"
 }
