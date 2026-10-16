@@ -1,0 +1,227 @@
+{
+ "name": "water_glass_empty",
+ "description": "The same plain tumbler as water_glass, now empty with a few drops on the wall and a little puddle on the base (020). Anchor centre; 110x170.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "glass",
+  "empty",
+  "drink",
+  "020"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -55,
+     -85
+    ],
+    [
+     55,
+     -85
+    ],
+    [
+     43,
+     85
+    ],
+    [
+     -43,
+     85
+    ]
+   ],
+   "fill": "#eef4f6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -1.0
+    ],
+    [
+     -25,
+     10
+    ],
+    [
+     -30,
+     15
+    ],
+    [
+     -35,
+     10
+    ]
+   ],
+   "fill": "#cfe3ef",
+   "width": 2,
+   "color": "#6a8aa0",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     18,
+     -28.8
+    ],
+    [
+     22,
+     -20
+    ],
+    [
+     18,
+     -16
+    ],
+    [
+     14,
+     -20
+    ]
+   ],
+   "fill": "#cfe3ef",
+   "width": 2,
+   "color": "#6a8aa0",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     31.2
+    ],
+    [
+     34,
+     40
+    ],
+    [
+     30,
+     44
+    ],
+    [
+     26,
+     40
+    ]
+   ],
+   "fill": "#cfe3ef",
+   "width": 2,
+   "color": "#6a8aa0",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     53.4
+    ],
+    [
+     -7,
+     60
+    ],
+    [
+     -10,
+     63
+    ],
+    [
+     -13,
+     60
+    ]
+   ],
+   "fill": "#cfe3ef",
+   "width": 2,
+   "color": "#6a8aa0",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 76,
+   "rx": 30,
+   "ry": 4,
+   "fill": "#cfe3ef",
+   "width": 2,
+   "color": "#6a8aa0"
+  },
+  {
+   "type": "rect",
+   "x": -43,
+   "y": 70,
+   "w": 86,
+   "h": 15,
+   "fill": "#d6e4ea",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -43,
+     70
+    ],
+    [
+     43,
+     70
+    ]
+   ],
+   "width": 2,
+   "color": "#8aa0aa"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     -70
+    ],
+    [
+     -32,
+     60
+    ]
+   ],
+   "width": 6,
+   "color": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -55,
+     -85
+    ],
+    [
+     55,
+     -85
+    ],
+    [
+     43,
+     85
+    ],
+    [
+     -43,
+     85
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -85,
+   "rx": 55,
+   "ry": 7,
+   "fill": null,
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}

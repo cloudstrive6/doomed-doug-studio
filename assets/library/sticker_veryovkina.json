@@ -1,0 +1,218 @@
+{
+ "name": "sticker_veryovkina",
+ "description": "Travel sticker for VERYOVKINA (020, ~112x60, anchor centre, same family as sticker_naica / sticker_vostok): grey limestone shield with a blue water drop, dark text. Slightly peeling corner, bold caps text. Art-director-owned series lore (places playlist).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "020",
+  "underground",
+  "veryovkina",
+  "abkhazia",
+  "cave",
+  "deepest cave"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -54,
+     -30
+    ],
+    [
+     54,
+     -30
+    ],
+    [
+     54,
+     4
+    ],
+    [
+     40,
+     20
+    ],
+    [
+     0,
+     31
+    ],
+    [
+     -40,
+     20
+    ],
+    [
+     -54,
+     4
+    ]
+   ],
+   "fill": "#c4c4ba",
+   "width": 4,
+   "color": "#3a3a3a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -18
+    ],
+    [
+     -20,
+     -18
+    ]
+   ],
+   "width": 2,
+   "color": "#8a8a80"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     -18
+    ],
+    [
+     50,
+     -18
+    ]
+   ],
+   "width": 2,
+   "color": "#8a8a80"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -27
+    ],
+    [
+     8,
+     -14
+    ],
+    [
+     8,
+     -9
+    ],
+    [
+     0,
+     -3
+    ],
+    [
+     -8,
+     -9
+    ],
+    [
+     -8,
+     -14
+    ]
+   ],
+   "fill": "#3a9ad9",
+   "width": 2,
+   "color": "#0b2447",
+   "smooth": true
+  },
+  {
+   "type": "circle",
+   "x": -3,
+   "y": -11,
+   "r": 2,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "text",
+   "text": "VERYOVKINA",
+   "x": 0,
+   "y": 6,
+   "size": 13.5,
+   "color": "#2a2a2a",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -54,
+     -30
+    ],
+    [
+     54,
+     -30
+    ],
+    [
+     54,
+     4
+    ],
+    [
+     40,
+     20
+    ],
+    [
+     0,
+     31
+    ],
+    [
+     -40,
+     20
+    ],
+    [
+     -54,
+     4
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#3a3a3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     54,
+     -30
+    ],
+    [
+     41,
+     -30
+    ],
+    [
+     54,
+     -17
+    ]
+   ],
+   "fill": "#f4efe6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     41,
+     -30
+    ],
+    [
+     43,
+     -28
+    ],
+    [
+     54,
+     -17
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#3a3a3a"
+  }
+ ]
+}

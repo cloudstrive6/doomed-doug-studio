@@ -121,3 +121,25 @@ All nine show on the closing card s307-s308 at scale 1.5.
 `deck_chair`, `gypsum_crystal`, `sticker_naica`, `sticker_denman`, `speedometer`, `loudspeaker`, `dinner_plate`, `bank_card`,
 `narrator_hand`, `research_ship`, `dollar_bill`, `journal_paper`, `clipboard`, `volcano`, `balance_scale`, `water_bottle`, `snorkel`,
 `snorkel_gear`, `house`, `kitchen_chair`, `flag_doug_was_here`, `finish_banner`, `microscope`, plus the annotations.
+
+## Illustrator status (2026-10-16): all done
+Every request above is drawn in `assets/library/` with the anchor and size asked for, unless a note below says otherwise.
+Previews are in `assets/previews/`: `020-gated-a.png` (earth_cross_section, drill_pod, drill_pod_open, drill_pod_melted),
+`020-gated-b.png` (depth_icon, again_stamp), `020-gated-context.png` (Earth at 2.6 and 0.2, the open pod with Doug at hip +35 and scale 0.6,
+the meter icon at 0.16, the stamp on the suitcase, all on dark strata), `020-stickers.png`, `020-context-c.png` (all nine stickers + AGAIN on
+the suitcase), `020-assets-a.png`, `020-assets-b.png`, `020-context-b.png` (tall assets in full, centipede silhouette with glow_r 330, dark-cave checks).
+
+- [x] earth_cross_section: the radii are exact (outer 400; 0.936/0.896 transition band; 0.546; 0.19). Wobble is damped on the rings so edges stay clean at 2.6. **Needs art-director approval.**
+- [x] depth_icon. **Needs art-director approval.**
+- [x] drill_pod / drill_pod_open / drill_pod_melted: the open hatch door spans x +186..+330 (hinged just outside the x 180 opening). The opening is completely empty and the floor is at y 130. The melted pod is ~500x280, anchored bottom-centre. **Needs art-director approval.**
+- [x] again_stamp: the letters are drawn as strokes so the whole stamp tilts -8 degrees (engine text cannot rotate). **Needs art-director approval.**
+- [x] sticker_movile_cave, sticker_lechuguilla, sticker_veryovkina, sticker_mponeng, sticker_the_moho, sticker_hidden_ocean: about 112x60.
+- [x] sticker_outer_core, sticker_the_center: round badges r 38 with two-line text (THE CENTER has a ray ring out to r 50).
+- [x] cave_centipede: about 560x200 including the antennae and trailing last legs; no eyes. Silhouette checked.
+- [x] devil_worm: exactly 400 long.
+- [x] mine_headframe: x -25..+25 is empty for the full height. The hoist cables drop at x +-32, just outside the column rather than down the exact middle. 360x520.
+- [x] mine_cage (7 miners), mine_fan, drilling_rig (x -15..+15 empty below the crown block), borehole_cap
+- [x] gypsum_chandelier (top-centre anchor, 660 tall), gypsum_cluster (flat top at y -170, about 60 wide; 300 wide)
+- [x] juina_diamond (green speck at +20,-10), rug, houseplant (pot 184 wide, rim 204; flat top leaf at y -300)
+- [x] water_glass, water_glass_empty, antibiotic_capsule, compass, stretcher, burj_khalifa (exactly 600 tall; stacking checked)
+- [x] scientist_woman (`auto_ink`, built from `scientist`)

@@ -1,0 +1,396 @@
+{
+ "name": "juina_diamond",
+ "description": "Juina 'superdeep' diamond (020): small dull, scruffy brown rough diamond (#7a6248 facets, darker underside, pitted speckle, not sparkly) with one tiny bright green ringwoodite speck at local (+20,-10). Anchor centre; 190x190.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "diamond",
+  "ringwoodite",
+  "mineral",
+  "juina",
+  "brazil",
+  "mantle",
+  "020",
+  "underground"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -88,
+     -6
+    ],
+    [
+     -60,
+     -64
+    ],
+    [
+     -8,
+     -96
+    ],
+    [
+     52,
+     -78
+    ],
+    [
+     96,
+     -20
+    ],
+    [
+     84,
+     40
+    ],
+    [
+     34,
+     92
+    ],
+    [
+     -30,
+     88
+    ],
+    [
+     -80,
+     46
+    ]
+   ],
+   "fill": "#7a6248",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -8,
+     -96
+    ],
+    [
+     52,
+     -78
+    ],
+    [
+     96,
+     -20
+    ],
+    [
+     20,
+     -20
+    ]
+   ],
+   "fill": "#8e765a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     20,
+     -20
+    ],
+    [
+     96,
+     -20
+    ],
+    [
+     84,
+     40
+    ],
+    [
+     34,
+     92
+    ]
+   ],
+   "fill": "#5e4a36",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -88,
+     -6
+    ],
+    [
+     -60,
+     -64
+    ],
+    [
+     -8,
+     -96
+    ],
+    [
+     20,
+     -20
+    ],
+    [
+     -30,
+     10
+    ]
+   ],
+   "fill": "#887058",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     10
+    ],
+    [
+     20,
+     -20
+    ],
+    [
+     34,
+     92
+    ],
+    [
+     -30,
+     88
+    ],
+    [
+     -80,
+     46
+    ]
+   ],
+   "fill": "#6a5440",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -96
+    ],
+    [
+     20,
+     -20
+    ]
+   ],
+   "width": 3,
+   "color": "#3a2c20"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     -20
+    ],
+    [
+     96,
+     -20
+    ]
+   ],
+   "width": 3,
+   "color": "#3a2c20"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     -20
+    ],
+    [
+     34,
+     92
+    ]
+   ],
+   "width": 3,
+   "color": "#3a2c20"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     -20
+    ],
+    [
+     -30,
+     10
+    ]
+   ],
+   "width": 3,
+   "color": "#3a2c20"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     10
+    ],
+    [
+     -88,
+     -6
+    ]
+   ],
+   "width": 3,
+   "color": "#3a2c20"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     10
+    ],
+    [
+     -80,
+     46
+    ]
+   ],
+   "width": 3,
+   "color": "#3a2c20"
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 0,
+   "r": 80,
+   "color": "#4a3a2a",
+   "density": 0.08
+  },
+  {
+   "type": "spray",
+   "x": -20,
+   "y": -30,
+   "r": 50,
+   "color": "#a08a6a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": -50,
+   "y": 30,
+   "r": 3,
+   "fill": "#3a2c20",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 40,
+   "y": 50,
+   "r": 3,
+   "fill": "#3a2c20",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 60,
+   "y": -40,
+   "r": 3,
+   "fill": "#3a2c20",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -40,
+   "y": -50,
+   "r": 3,
+   "fill": "#3a2c20",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     60
+    ],
+    [
+     -30,
+     50
+    ]
+   ],
+   "width": 2,
+   "color": "#a08a6a"
+  },
+  {
+   "type": "spray",
+   "x": 20,
+   "y": -10,
+   "r": 12,
+   "color": "#7aff8a",
+   "density": 0.4
+  },
+  {
+   "type": "circle",
+   "x": 20,
+   "y": -10,
+   "r": 6,
+   "fill": "#2cff5a",
+   "width": 2,
+   "color": "#0a3a14"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -88,
+     -6
+    ],
+    [
+     -60,
+     -64
+    ],
+    [
+     -8,
+     -96
+    ],
+    [
+     52,
+     -78
+    ],
+    [
+     96,
+     -20
+    ],
+    [
+     84,
+     40
+    ],
+    [
+     34,
+     92
+    ],
+    [
+     -30,
+     88
+    ],
+    [
+     -80,
+     46
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}

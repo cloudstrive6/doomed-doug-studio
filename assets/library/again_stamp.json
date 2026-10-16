@@ -1,0 +1,405 @@
+{
+ "name": "again_stamp",
+ "description": "Narrator's red rubber-stamp mark 'AGAIN' (020 series lore): rough #e0201b rectangle outline (double rule) with bold caps AGAIN drawn as strokes, so the whole stamp tilts -8 degrees, plus light ink speckle. ~124x56, anchor centre. Sits over the suitcase's 5th sticker slot; readable from scale 0.165 (suitcase) to 1.5 (closing card).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "stamp",
+  "again",
+  "series",
+  "suitcase",
+  "narrator",
+  "020",
+  "text"
+ ],
+ "elements": [
+  {
+   "type": "group",
+   "x": 0,
+   "y": 0,
+   "rotate": -8,
+   "scale": 1,
+   "elements": [
+    {
+     "type": "poly",
+     "points": [
+      [
+       -60,
+       -25
+      ],
+      [
+       -30,
+       -26
+      ],
+      [
+       0,
+       -24.5
+      ],
+      [
+       30,
+       -26
+      ],
+      [
+       60,
+       -25
+      ],
+      [
+       61,
+       -8
+      ],
+      [
+       59.5,
+       8
+      ],
+      [
+       60,
+       25
+      ],
+      [
+       30,
+       26
+      ],
+      [
+       0,
+       24
+      ],
+      [
+       -30,
+       26
+      ],
+      [
+       -60,
+       25
+      ],
+      [
+       -61,
+       8
+      ],
+      [
+       -59.5,
+       -8
+      ]
+     ],
+     "fill": null,
+     "width": 5,
+     "color": "#e0201b"
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -54.0,
+       -20.0
+      ],
+      [
+       -27.0,
+       -20.8
+      ],
+      [
+       0.0,
+       -19.6
+      ],
+      [
+       27.0,
+       -20.8
+      ],
+      [
+       54.0,
+       -20.0
+      ],
+      [
+       54.9,
+       -6.4
+      ],
+      [
+       53.6,
+       6.4
+      ],
+      [
+       54.0,
+       20.0
+      ],
+      [
+       27.0,
+       20.8
+      ],
+      [
+       0.0,
+       19.2
+      ],
+      [
+       -27.0,
+       20.8
+      ],
+      [
+       -54.0,
+       20.0
+      ],
+      [
+       -54.9,
+       6.4
+      ],
+      [
+       -53.6,
+       -6.4
+      ]
+     ],
+     "fill": null,
+     "width": 2,
+     "color": "#e0201b"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       -50,
+       15
+      ],
+      [
+       -42,
+       -15
+      ],
+      [
+       -34,
+       15
+      ]
+     ],
+     "width": 6,
+     "color": "#e0201b"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       -46.5,
+       4
+      ],
+      [
+       -37.5,
+       4
+      ]
+     ],
+     "width": 6,
+     "color": "#e0201b"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       -13,
+       -9
+      ],
+      [
+       -17,
+       -15
+      ],
+      [
+       -25,
+       -15
+      ],
+      [
+       -29,
+       -8
+      ],
+      [
+       -29,
+       8
+      ],
+      [
+       -25,
+       15
+      ],
+      [
+       -17,
+       15
+      ],
+      [
+       -13,
+       10
+      ],
+      [
+       -13,
+       1
+      ],
+      [
+       -20,
+       1
+      ]
+     ],
+     "width": 6,
+     "color": "#e0201b"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       -8,
+       15
+      ],
+      [
+       0,
+       -15
+      ],
+      [
+       8,
+       15
+      ]
+     ],
+     "width": 6,
+     "color": "#e0201b"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       -4.5,
+       4
+      ],
+      [
+       4.5,
+       4
+      ]
+     ],
+     "width": 6,
+     "color": "#e0201b"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       21,
+       -15
+      ],
+      [
+       21,
+       15
+      ]
+     ],
+     "width": 6,
+     "color": "#e0201b"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       15,
+       -15
+      ],
+      [
+       27,
+       -15
+      ]
+     ],
+     "width": 6,
+     "color": "#e0201b"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       15,
+       15
+      ],
+      [
+       27,
+       15
+      ]
+     ],
+     "width": 6,
+     "color": "#e0201b"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       34,
+       15
+      ],
+      [
+       34,
+       -15
+      ],
+      [
+       50,
+       15
+      ],
+      [
+       50,
+       -15
+      ]
+     ],
+     "width": 6,
+     "color": "#e0201b"
+    },
+    {
+     "type": "spray",
+     "x": -20,
+     "y": 4,
+     "r": 44,
+     "color": "#e0201b",
+     "density": 0.03
+    },
+    {
+     "type": "spray",
+     "x": 30,
+     "y": -6,
+     "r": 40,
+     "color": "#e0201b",
+     "density": 0.025
+    },
+    {
+     "type": "circle",
+     "x": -64,
+     "y": 18,
+     "r": 1.6,
+     "fill": "#e0201b",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "circle",
+     "x": 66,
+     "y": -20,
+     "r": 1.6,
+     "fill": "#e0201b",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "circle",
+     "x": 58,
+     "y": 30,
+     "r": 1.6,
+     "fill": "#e0201b",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "circle",
+     "x": -40,
+     "y": 31,
+     "r": 1.6,
+     "fill": "#e0201b",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "circle",
+     "x": 20,
+     "y": -31,
+     "r": 1.6,
+     "fill": "#e0201b",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    }
+   ]
+  }
+ ]
+}

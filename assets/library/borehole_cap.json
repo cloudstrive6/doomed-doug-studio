@@ -1,0 +1,488 @@
+{
+ "name": "borehole_cap",
+ "description": "The Kola Superdeep Borehole today (020): small rusty round steel cap (#8a4a24, rust #b0521a speckle) with a welded seam and a centre bolt head, on a bolted flange, set in a cracked grey concrete slab with rust streaks. Anchor = bottom-centre; 260x106.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "place",
+  "prop",
+  "kola",
+  "borehole",
+  "rust",
+  "cap",
+  "russia",
+  "020",
+  "underground"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -130,
+     -30
+    ],
+    [
+     130,
+     -30
+    ],
+    [
+     126,
+     0
+    ],
+    [
+     -126,
+     0
+    ]
+   ],
+   "fill": "#b9b9b0",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -130,
+     -30
+    ],
+    [
+     130,
+     -30
+    ],
+    [
+     128,
+     -22
+    ],
+    [
+     -128,
+     -22
+    ]
+   ],
+   "fill": "#d4d4cc",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100,
+     -18
+    ],
+    [
+     -80,
+     -8
+    ],
+    [
+     -86,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#6a6a62"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     -26
+    ],
+    [
+     84,
+     -12
+    ]
+   ],
+   "width": 2,
+   "color": "#6a6a62"
+  },
+  {
+   "type": "spray",
+   "x": -90,
+   "y": -12,
+   "r": 14,
+   "color": "#8a8a80",
+   "density": 0.2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -38,
+     -30
+    ],
+    [
+     -36,
+     -4
+    ]
+   ],
+   "width": 4,
+   "color": "#b0521a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -30
+    ],
+    [
+     -10,
+     -12
+    ]
+   ],
+   "width": 4,
+   "color": "#b0521a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     -30
+    ],
+    [
+     24,
+     -2
+    ]
+   ],
+   "width": 4,
+   "color": "#b0521a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     44,
+     -30
+    ],
+    [
+     46,
+     -10
+    ]
+   ],
+   "width": 4,
+   "color": "#b0521a"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -36,
+   "rx": 70,
+   "ry": 14,
+   "fill": "#7a3e1c",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 60.76,
+   "y": -36.0,
+   "r": 4,
+   "fill": "#4a2a14",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 49.15587257822181,
+   "y": -29.534362224782797,
+   "r": 4,
+   "fill": "#4a2a14",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 18.775872578221808,
+   "y": -25.53837832075331,
+   "r": 4,
+   "fill": "#4a2a14",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -18.7758725782218,
+   "y": -25.53837832075331,
+   "r": 4,
+   "fill": "#4a2a14",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -49.1558725782218,
+   "y": -29.534362224782793,
+   "r": 4,
+   "fill": "#4a2a14",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -60.76,
+   "y": -36.0,
+   "r": 4,
+   "fill": "#4a2a14",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -49.15587257822182,
+   "y": -42.4656377752172,
+   "r": 4,
+   "fill": "#4a2a14",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -18.77587257822181,
+   "y": -46.46162167924669,
+   "r": 4,
+   "fill": "#4a2a14",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 18.775872578221794,
+   "y": -46.46162167924669,
+   "r": 4,
+   "fill": "#4a2a14",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 49.1558725782218,
+   "y": -42.4656377752172,
+   "r": 4,
+   "fill": "#4a2a14",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -46,
+     -38
+    ],
+    [
+     -46,
+     -78
+    ],
+    [
+     46,
+     -78
+    ],
+    [
+     46,
+     -38
+    ]
+   ],
+   "fill": "#8a4a24",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     16,
+     -38
+    ],
+    [
+     16,
+     -78
+    ],
+    [
+     46,
+     -78
+    ],
+    [
+     46,
+     -38
+    ]
+   ],
+   "fill": "#6e3a1c",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -20,
+   "y": -58,
+   "r": 22,
+   "color": "#b0521a",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 30,
+   "y": -60,
+   "r": 16,
+   "color": "#c86a2a",
+   "density": 0.2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     -38
+    ],
+    [
+     -46,
+     -78
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     46,
+     -38
+    ],
+    [
+     46,
+     -78
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -80,
+   "rx": 46,
+   "ry": 12,
+   "fill": "#9a5228",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -32,
+   "y": -83,
+   "r": 3,
+   "fill": "#5a3018",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -24,
+   "y": -81,
+   "r": 3,
+   "fill": "#5a3018",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -16,
+   "y": -83,
+   "r": 3,
+   "fill": "#5a3018",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -8,
+   "y": -81,
+   "r": 3,
+   "fill": "#5a3018",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -83,
+   "r": 3,
+   "fill": "#5a3018",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 8,
+   "y": -81,
+   "r": 3,
+   "fill": "#5a3018",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 16,
+   "y": -83,
+   "r": 3,
+   "fill": "#5a3018",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 24,
+   "y": -81,
+   "r": 3,
+   "fill": "#5a3018",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 32,
+   "y": -83,
+   "r": 3,
+   "fill": "#5a3018",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -8,
+   "y": -102,
+   "w": 16,
+   "h": 16,
+   "fill": "#6e3a1c",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -106,
+   "w": 20,
+   "h": 6,
+   "fill": "#4a2a14",
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}

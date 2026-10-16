@@ -1,0 +1,328 @@
+{
+ "name": "sticker_lechuguilla",
+ "description": "Travel sticker for LECHUGUILLA (020, ~112x60, anchor centre, same family as sticker_naica / sticker_vostok): tan desert rectangle with a white gypsum chandelier hanging from the top edge, brown text. Slightly peeling corner, bold caps text. Art-director-owned series lore (places playlist).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "020",
+  "underground",
+  "lechuguilla",
+  "new mexico",
+  "cave",
+  "gypsum"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     50.0,
+     -30.0
+    ],
+    [
+     53.0,
+     -29.2
+    ],
+    [
+     55.2,
+     -27.0
+    ],
+    [
+     56.0,
+     -24.0
+    ],
+    [
+     56.0,
+     24.0
+    ],
+    [
+     55.2,
+     27.0
+    ],
+    [
+     53.0,
+     29.2
+    ],
+    [
+     50.0,
+     30.0
+    ],
+    [
+     -50.0,
+     30.0
+    ],
+    [
+     -53.0,
+     29.2
+    ],
+    [
+     -55.2,
+     27.0
+    ],
+    [
+     -56.0,
+     24.0
+    ],
+    [
+     -56.0,
+     -24.0
+    ],
+    [
+     -55.2,
+     -27.0
+    ],
+    [
+     -53.0,
+     -29.2
+    ],
+    [
+     -50.0,
+     -30.0
+    ]
+   ],
+   "fill": "#e8c07a",
+   "width": 4,
+   "color": "#7a5a2a"
+  },
+  {
+   "type": "rect",
+   "x": -56,
+   "y": -30,
+   "w": 112,
+   "h": 5,
+   "fill": "#b9894a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -9,
+     -25
+    ],
+    [
+     -3,
+     -25
+    ],
+    [
+     -6.0,
+     -1.0
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#6a5a40"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -9,
+     -25
+    ],
+    [
+     -3,
+     -25
+    ],
+    [
+     2.0,
+     -11.1
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#6a5a40"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -9,
+     -25
+    ],
+    [
+     -3,
+     -25
+    ],
+    [
+     -14.0,
+     -11.1
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#6a5a40"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     5,
+     -25
+    ],
+    [
+     11,
+     -25
+    ],
+    [
+     5.5,
+     -7.2
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#6a5a40"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     5,
+     -25
+    ],
+    [
+     11,
+     -25
+    ],
+    [
+     12.1,
+     -13.7
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#6a5a40"
+  },
+  {
+   "type": "text",
+   "text": "LECHUGUILLA",
+   "x": 0,
+   "y": 14,
+   "size": 13.8,
+   "color": "#5a3a10",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     52,
+     28
+    ],
+    [
+     38,
+     28
+    ],
+    [
+     52,
+     14
+    ]
+   ],
+   "fill": "#f4efe6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     38,
+     28
+    ],
+    [
+     40,
+     26
+    ],
+    [
+     52,
+     14
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#7a5a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     50.0,
+     -30.0
+    ],
+    [
+     53.0,
+     -29.2
+    ],
+    [
+     55.2,
+     -27.0
+    ],
+    [
+     56.0,
+     -24.0
+    ],
+    [
+     56.0,
+     24.0
+    ],
+    [
+     55.2,
+     27.0
+    ],
+    [
+     53.0,
+     29.2
+    ],
+    [
+     50.0,
+     30.0
+    ],
+    [
+     -50.0,
+     30.0
+    ],
+    [
+     -53.0,
+     29.2
+    ],
+    [
+     -55.2,
+     27.0
+    ],
+    [
+     -56.0,
+     24.0
+    ],
+    [
+     -56.0,
+     -24.0
+    ],
+    [
+     -55.2,
+     -27.0
+    ],
+    [
+     -53.0,
+     -29.2
+    ],
+    [
+     -50.0,
+     -30.0
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#7a5a2a"
+  }
+ ]
+}

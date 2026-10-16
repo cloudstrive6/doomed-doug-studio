@@ -1,0 +1,523 @@
+{
+ "name": "earth_cross_section",
+ "description": "Crude cutaway slice of the whole Earth (recurring, any into-the-planet episode). Anchor = centre, outer radius exactly 400 (800 wide). Layers by fraction of the outer radius: brown crust rim #8e4a2c (392-400) with an alternating blue/green surface line; mantle 0.98-0.546 stepped #a65a32 -> #c0602a; faint darker transition-zone band 0.896-0.936 (#9c542f, kept subtle for the scene's dashed rings); outer core 0.546-0.19 orange #ff8a1f with yellow swirl strokes; inner core r 0.19 white-hot #fff3c0 with a #ffe24a glow ring. Black outline 6, no text. Clean edges at 2.6 (top-arc shots).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "place",
+  "earth",
+  "planet",
+  "cross section",
+  "core",
+  "mantle",
+  "crust",
+  "020",
+  "underground",
+  "diagram"
+ ],
+ "elements": [
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 400.0,
+   "fill": "#8e4a2c",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 392,
+   "fill": "#a65a32",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 374.40000000000003,
+   "fill": "#9c542f",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 358.40000000000003,
+   "fill": "#ab5c30",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 330,
+   "fill": "#b05d2e",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 280,
+   "fill": "#b85f2c",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 245,
+   "fill": "#c0602a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 272.51086002791345,
+   "y": 99.18584156444393,
+   "r": 34,
+   "color": "#d2753a",
+   "density": 0.18
+  },
+  {
+   "type": "spray",
+   "x": -25.27516539682089,
+   "y": 288.8964624466062,
+   "r": 34,
+   "color": "#d2753a",
+   "density": 0.18
+  },
+  {
+   "type": "spray",
+   "x": -272.5108600279134,
+   "y": 99.18584156444398,
+   "r": 34,
+   "color": "#d2753a",
+   "density": 0.18
+  },
+  {
+   "type": "spray",
+   "x": -186.40840680909645,
+   "y": -222.15288850450358,
+   "r": 34,
+   "color": "#d2753a",
+   "density": 0.18
+  },
+  {
+   "type": "spray",
+   "x": 145.00000000000003,
+   "y": -251.1473670974872,
+   "r": 34,
+   "color": "#d2753a",
+   "density": 0.18
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 392,
+   "ry": 392,
+   "start": 0,
+   "end": 360,
+   "fill": null,
+   "width": 2,
+   "color": "#5a2a14",
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 218.4,
+   "fill": "#ff8a1f",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 0,
+   "r": 212.4,
+   "color": "#ffa43a",
+   "density": 0.05
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     172.3,
+     30.4
+    ],
+    [
+     133.1,
+     83.2
+    ],
+    [
+     81.7,
+     112.5
+    ],
+    [
+     29.3,
+     117.4
+    ],
+    [
+     -14.3,
+     102.0
+    ]
+   ],
+   "width": 5,
+   "color": "#ffe24a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -102.8,
+     122.6
+    ],
+    [
+     -125.4,
+     66.7
+    ],
+    [
+     -123.3,
+     13.0
+    ],
+    [
+     -101.9,
+     -29.2
+    ],
+    [
+     -69.3,
+     -54.2
+    ]
+   ],
+   "width": 5,
+   "color": "#ffe24a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -58.1,
+     -159.7
+    ],
+    [
+     5.3,
+     -151.9
+    ],
+    [
+     54.5,
+     -122.4
+    ],
+    [
+     83.4,
+     -80.6
+    ],
+    [
+     90.9,
+     -36.7
+    ]
+   ],
+   "width": 5,
+   "color": "#ffe24a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     64.0,
+     110.9
+    ],
+    [
+     15.3,
+     108.9
+    ],
+    [
+     -22.3,
+     89.3
+    ],
+    [
+     -43.5,
+     59.9
+    ],
+    [
+     -47.5,
+     29.7
+    ]
+   ],
+   "width": 5,
+   "color": "#ffe24a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -120.1,
+     -21.2
+    ],
+    [
+     -88.2,
+     -55.1
+    ],
+    [
+     -50.5,
+     -69.6
+    ],
+    [
+     -16.5,
+     -66.0
+    ],
+    [
+     7.0,
+     -49.5
+    ]
+   ],
+   "width": 5,
+   "color": "#ffe24a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     83.6,
+     -99.6
+    ],
+    [
+     98.9,
+     -52.6
+    ],
+    [
+     93.5,
+     -9.8
+    ],
+    [
+     73.1,
+     20.9
+    ],
+    [
+     45.7,
+     35.7
+    ]
+   ],
+   "width": 5,
+   "color": "#ffe24a"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 218.4,
+   "ry": 218.4,
+   "start": 0,
+   "end": 360,
+   "fill": null,
+   "width": 3,
+   "color": "#7a2e10",
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 0,
+   "r": 102.0,
+   "color": "#ffe24a",
+   "density": 0.45
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 85.0,
+   "fill": "#ffe24a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 76.0,
+   "fill": "#fff3c0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "circle",
+   "x": -22,
+   "y": -24,
+   "r": 20,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 76.0,
+   "ry": 76.0,
+   "start": 0,
+   "end": 360,
+   "fill": null,
+   "width": 3,
+   "color": "#e0a020",
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 396.0,
+   "ry": 396.0,
+   "start": 0,
+   "end": 70,
+   "fill": null,
+   "width": 5,
+   "color": "#3a9ad9",
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 396.0,
+   "ry": 396.0,
+   "start": 70,
+   "end": 110,
+   "fill": null,
+   "width": 5,
+   "color": "#4fa83a",
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 396.0,
+   "ry": 396.0,
+   "start": 110,
+   "end": 200,
+   "fill": null,
+   "width": 5,
+   "color": "#3a9ad9",
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 396.0,
+   "ry": 396.0,
+   "start": 200,
+   "end": 245,
+   "fill": null,
+   "width": 5,
+   "color": "#4fa83a",
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 396.0,
+   "ry": 396.0,
+   "start": 245,
+   "end": 290,
+   "fill": null,
+   "width": 5,
+   "color": "#3a9ad9",
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 396.0,
+   "ry": 396.0,
+   "start": 290,
+   "end": 330,
+   "fill": null,
+   "width": 5,
+   "color": "#4fa83a",
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 396.0,
+   "ry": 396.0,
+   "start": 330,
+   "end": 360,
+   "fill": null,
+   "width": 5,
+   "color": "#3a9ad9",
+   "wobble": 0.15,
+   "boil": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 0,
+   "r": 400.0,
+   "fill": null,
+   "width": 6,
+   "color": "#000000",
+   "wobble": 0.15,
+   "boil": 0.3
+  }
+ ]
+}
