@@ -1,16 +1,6 @@
 {
- "at": "2026-10-16T16:01:50+00:00",
+ "at": "2026-10-16T16:58:21+00:00",
  "issues": [
-  {
-   "key": "queue_low",
-   "severity": "medium",
-   "owner": "auto",
-   "summary": "Queue 3/4 and no production running: started a production run",
-   "detail": "",
-   "route": "dispatch produce.yml",
-   "fixed": true,
-   "extra": {}
-  },
   {
    "key": "related_pending",
    "severity": "low",
