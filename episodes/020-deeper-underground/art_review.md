@@ -4,9 +4,10 @@ Scope: the new assets in `asset_requests.md` (33 library files: 6 gated devices,
 1 crude-tier human). Checked against the previews in `assets/previews/020-*.png`, plus zoomed check renders, the radii in
 the JSON, and the shotlist placements.
 
-## Verdict: FAIL (assets). All 6 gated devices are APPROVED. 4 non-gated assets need one more pass.
-Shotlisting can continue. The four REVISE assets keep their anchors and sizes, so no shot has to move. Re-preview only those four
-and send them back to me. I will re-check them without a full review.
+## Verdict: PASS (assets, re-check 2026-10-16). All 33 assets are APPROVED.
+The first pass sent 4 non-gated assets back (fixes 1-4 below). The illustrator's revisions were re-checked on
+`assets/previews/020-revise.png` and `020-revise-zoom.png` and in context (s027, s048, s062, s157, s164, s206). All four now pass.
+See "Re-check" at the end.
 
 ## Gated devices
 | # | Asset | Verdict | Notes |
@@ -41,21 +42,21 @@ Zoomed re-render checked: every name now clears the peel corner and the border. 
 ## Places, machines, props
 | # | Asset | Verdict | Notes |
 |---|---|---|---|
-| 18 | `mine_headframe` | **REVISE** | See fix 1. |
+| 18 | `mine_headframe` | APPROVE (re-check) | Fix 1 done. See Re-check. |
 | 19 | `mine_cage` | APPROVE | Two decks, 7 miners in yellow hats, mesh sides. It reads at 0.2. |
 | 20 | `mine_fan` | APPROVE | |
 | 21 | `drilling_rig` | APPROVE | The crown block ties both legs together at the top, so it reads as one derrick. The pipe rack and cabin are good. |
-| 22 | `borehole_cap` | **REVISE** | See fix 2. |
+| 22 | `borehole_cap` | APPROVE (re-check) | Fix 2 done. See Re-check. |
 | 23 | `gypsum_chandelier` | APPROVE | Top anchor, 660 tall, the glints read on dark rock. |
 | 24 | `gypsum_cluster` | APPROVE | |
 | 25 | `juina_diamond` | APPROVE | Dull and scruffy as briefed, with the green speck at (+20,-10). |
 | 26 | `rug` | APPROVE | |
-| 27 | `houseplant` | **REVISE** | See fix 3. |
+| 27 | `houseplant` | APPROVE (re-check) | Fix 3 done. See Re-check. |
 | 28 | `water_glass` | APPROVE | It is cloudy grey-brown, so it reads as "not tap water". |
 | 29 | `water_glass_empty` | APPROVE | |
 | 30 | `antibiotic_capsule` | APPROVE | |
 | 31 | `compass` | APPROVE | |
-| 32 | `stretcher` | **REVISE** | See fix 4. |
+| 32 | `stretcher` | APPROVE (re-check) | Fix 4 done. See Re-check. |
 | 33 | `burj_khalifa` | APPROVE | Exactly 600 tall, the stack checked, steel-blue. |
 
 ## Required fixes (illustrator)
@@ -87,7 +88,9 @@ Zoomed re-render checked: every name now clears the peel corner and the border. 
 
 ## Notes for the director (composition, no asset change)
 - **s027 centipede silhouette**: the backdrop is brown cave rock (`#3b2a17` / `#a87a40`). Under the art bible, red speckle on brown reads as
-  blood spatter. Use `"glow": "#5e4670"` (dull purple) and keep `glow_r` 330.
+  blood spatter. Use `"glow": "#5e4670"` (dull purple) and keep `glow_r` 330. **Done by the AD** in `build/gen_shotlist.py`
+  (line 520), shotlist regenerated, s027 keyframe checked: the purple haze reads as menace, not blood.
+  (s078 `devil_worm` keeps its red glow: it sits on near-black `#1f1416`, not brown, and the red is the "devil" beat.)
 - **s277 melted pod**: `doug_cap` is in frame and the counter ticks. Good.
 - **Pod shots at 1.0 (s251-s254, s274-s276)**: the exhaust tip is at about y -330 x scale. At y 560 it clears the DOUG DEPTH meter zone
   (x 1300-1860, y 110-260). Keep it that way if the pod moves up or right.
@@ -98,3 +101,14 @@ Zoomed re-render checked: every name now clears the peel corner and the border. 
 - `drill_pod.json`: removed the smirk-like `curve` under the porthole.
 - `sticker_lechuguilla`, `sticker_mponeng`, `sticker_the_moho`, `sticker_hidden_ocean`, `sticker_outer_core`, `sticker_the_center`: the text is
   smaller or shifted so it clears the peel corner (values above). No other change.
+
+## Re-check of the 4 revised assets (2026-10-16)
+| # | Asset | Verdict | Notes |
+|---|---|---|---|
+| 1 | `mine_headframe` | APPROVE | The sheave deck ties both legs into one machine with the wheels on top. It reads as a headframe, not two radio towers, at 0.55 and at the 168 px tile. The cross-brace stays above y -300. **Deviation accepted:** the ropes drop at x ±14 into the shaft mouth instead of ±32. They are visible now, and in s164 the cage hangs between them. |
+| 2 | `borehole_cap` | APPROVE | It is grey steel with rust patches and streaks running onto the slab. It has a welded top plate and light hex bolts on the flange only, and the stub is squat. It no longer reads as a pot, cake or hat. 260x80 instead of 110 tall is fine (bottom-centre anchor, nothing sits on it). In s206 at 0.6 it is small but reads as a capped stub on concrete. |
+| 3 | `houseplant` | APPROVE | The top leaf is a real side-view leaf with a midrib and an underside crescent. The stem joins it off-centre. In s157 the cap sits cleanly on the flat top. |
+| 4 | `stretcher` | APPROVE | The steel rail, three straps with buckles and the squared tray ends make it read as a rescue litter, not a basket or canoe. It is neutral and empty on the sober s048 card. |
+
+No AD edits were needed on this pass. Asset gate: PASS. Shots s027, s048, s062, s157, s164 and s206 were re-rendered.
+`build/contact/sheet_01.png` now holds only those 6, so re-run the full `keyframes` pass before the keyframe review.
