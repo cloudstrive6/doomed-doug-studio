@@ -40345,14 +40345,14 @@
      {
       "type": "asset",
       "name": "travel_suitcase",
-      "x": 538,
+      "x": 428,
       "y": 880,
       "scale": 0.3
      },
      {
       "type": "asset",
       "name": "sticker_movile_cave",
-      "x": 502.0,
+      "x": 392.0,
       "y": 815.5,
       "scale": 0.3,
       "rotate": -6
@@ -40360,7 +40360,7 @@
      {
       "type": "asset",
       "name": "sticker_lechuguilla",
-      "x": 538.0,
+      "x": 428.0,
       "y": 815.5,
       "scale": 0.3,
       "rotate": 4
@@ -40368,7 +40368,7 @@
      {
       "type": "asset",
       "name": "sticker_veryovkina",
-      "x": 574.0,
+      "x": 464.0,
       "y": 815.5,
       "scale": 0.3,
       "rotate": -4
@@ -40376,7 +40376,7 @@
      {
       "type": "asset",
       "name": "sticker_mponeng",
-      "x": 502.0,
+      "x": 392.0,
       "y": 835.0,
       "scale": 0.3,
       "rotate": 5
@@ -40384,7 +40384,7 @@
      {
       "type": "asset",
       "name": "sticker_mponeng",
-      "x": 538.0,
+      "x": 428.0,
       "y": 835.0,
       "scale": 0.3,
       "rotate": -5,
@@ -40393,18 +40393,10 @@
      {
       "type": "asset",
       "name": "again_stamp",
-      "x": 538.6,
+      "x": 428.6,
       "y": 836.2,
       "scale": 0.246,
       "appear": 0.7
-     },
-     {
-      "type": "asset",
-      "name": "doug_cap",
-      "x": 760,
-      "y": 840,
-      "scale": 0.4,
-      "appear": 0.15
      },
      {
       "type": "label",
@@ -40603,14 +40595,14 @@
      {
       "type": "asset",
       "name": "travel_suitcase",
-      "x": 538,
+      "x": 428,
       "y": 880,
       "scale": 0.3
      },
      {
       "type": "asset",
       "name": "sticker_movile_cave",
-      "x": 502.0,
+      "x": 392.0,
       "y": 815.5,
       "scale": 0.3,
       "rotate": -6
@@ -40618,7 +40610,7 @@
      {
       "type": "asset",
       "name": "sticker_lechuguilla",
-      "x": 538.0,
+      "x": 428.0,
       "y": 815.5,
       "scale": 0.3,
       "rotate": 4
@@ -40626,7 +40618,7 @@
      {
       "type": "asset",
       "name": "sticker_veryovkina",
-      "x": 574.0,
+      "x": 464.0,
       "y": 815.5,
       "scale": 0.3,
       "rotate": -4
@@ -40634,7 +40626,7 @@
      {
       "type": "asset",
       "name": "sticker_mponeng",
-      "x": 502.0,
+      "x": 392.0,
       "y": 835.0,
       "scale": 0.3,
       "rotate": 5
@@ -40642,7 +40634,7 @@
      {
       "type": "asset",
       "name": "sticker_mponeng",
-      "x": 538.0,
+      "x": 428.0,
       "y": 835.0,
       "scale": 0.3,
       "rotate": -5
@@ -40650,16 +40642,9 @@
      {
       "type": "asset",
       "name": "again_stamp",
-      "x": 538.6,
+      "x": 428.6,
       "y": 836.2,
       "scale": 0.246
-     },
-     {
-      "type": "asset",
-      "name": "doug_cap",
-      "x": 760,
-      "y": 840,
-      "scale": 0.4
      },
      {
       "type": "doug",

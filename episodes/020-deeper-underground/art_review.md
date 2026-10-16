@@ -261,3 +261,23 @@ What passes, so please don't change it:
 
 Routing: both fixes go to the **director** (`build/gen_shotlist.py` → regenerate → `keyframes --shots s221,s268`). There are no illustrator
 fixes. Re-review is limited to s221 and s268. Once both are clean, the keyframe gate is PASS with no further full pass needed.
+
+## Keyframes round 3 (art director, 2026-10-16)
+Scope: full-res `build/keyframes/` for s089, s154, s184, s221, s268 and s303 (all re-rendered 17:52). This review also covers the
+visual-screener's only blocking item (s303). Coordinates are at 1920x1080.
+
+### Verdict: PASS. The keyframe gate is closed.
+1. **s221 (round-2 fix 1)**: the ocean band now starts at y 290 and "OCEAN" sits inside it. The depth icon and the "DOUG DEPTH" box are on
+   clean background, and the diagram top lines up with s217-s220. Fixed.
+2. **s268 (round-2 fix 2)**: the top and bottom solar-wind curves now end at x 1290 (y 300 / 910) and are symmetric. Neither touches the
+   HUD. Fixed. Accepted deviation: the outermost light-blue magnetosphere loop still passes behind the depth icon at about (1366, 238).
+   The icon is drawn on top and stays fully legible, the loop clears the counter box, and the line is a thin background element. This is not blocking.
+3. **s303 (screener's blocking item)**: with the cream cover and the cap-on-flag gag gone, there is now exactly one red cap, still on dead
+   Doug's head as he lies on his side. That makes it continuous with the other 8 deaths. Doug is on-model with X eyes and a flat mouth, nothing is gory,
+   and the "DOUG WAS HERE" flag and the stickered suitcase read cleanly. The caption bar "THE INNER CORE" is present, and the counter reads 170 with depth 6,371 km.
+   The pale inner-core cream matches the zone ramp. PASS.
+4. **Round-2 optionals taken**: s154 Doug now stands on the globe rim at about (700, 260), clear of the counter. s089 "2.5 BURJ KHALIFAS"
+   has air before the Burj stack. In s184, "WORKPLACE / OVEN" moved down to y ≈ 315, below the depth box, so they no longer read as HUD.
+   All three are PASS.
+
+Routing: none. Stage → `art_approved` (art + visual screeners passed).
