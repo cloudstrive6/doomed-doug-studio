@@ -35,3 +35,24 @@
   "going down" at feed size, and the labels are legible at browse or suggested-video size. B is the A/B test candidate if Studio
   thumbnail testing is used.
 2026-10-16: art 3 key rounds, script 2 rounds; risks: pronunciation of Mohorovičić/Halicephalobus/Desulforudis unchecked by ear; thumbnail A labels small at feed size.
+
+## 2026-10-16: final package gate: APPROVED
+- Screener: visual_review.md round 5, main PASS (32 samples clean, qc.json `problems: []`, 968.8 s, deaths 161 to 169, depth meter only goes up).
+- Title: I am keeping "Why the Ground Gets Deadlier the Deeper Doug Goes" (T6, 49 chars). None of the alts is clearly stronger.
+  The "Earth" variant can be misread as "Earth is getting deadlier over time". The T2 "Die at Every Depth" alt over-promises
+  because Doug survives 3 of 12. The T3 and T4 alts deliver less at the core. The skeleton matches 013 ("Why Hippos Get Deadlier
+  the Closer Doug Gets"), but that was seven episodes ago and 019 was T4, so the formula is not used back-to-back. The promise
+  (deadlier with depth, all the way to the center) is delivered.
+- Thumbnail (build/thumbnail.png, small): the 8-band wedge reads as "going down" at 168x94. Doug is now visibly a red-capped
+  figure, the inner core glows, and no label repeats a title word. Every label is a real chapter. I would click it.
+- Description: the hook paragraph is accurate (sealed cave, deepest mine, Kola, past 12 km, center). It has 6 key sources plus
+  the cartoon-death disclaimer and the AI-use disclosure, and nothing over-claims. Chapters (build/chapters.txt): 13 entries
+  starting at 0:00, every one at least 10 s long, matching the 12 items in order, last at 14:18 of 16:09.
+- First 60 s: the thumbnail wedge opens the video. "Movile Cave" is spoken at about word 31 and the bad-air twist (100x CO2)
+  lands well before 45 s. f_001 to f_003 are on-model and legible, and the sandwich-for-the-king death is cartoon-only and
+  adult-coded. "Doug did not agree to this" and the counter are in place.
+- Not part of this gate: short02's end-card tease silhouette failed the Shorts screen (visual_review.md round 5). It must be
+  fixed before that Short is uploaded, but it does not block the long-form video.
+- Carried risk: the Chirp pronunciation of Mohorovičić, Halicephalobus and Desulforudis is still unconfirmed by ear. The owner
+  should spot-check during the review window.
+FINAL: APPROVED

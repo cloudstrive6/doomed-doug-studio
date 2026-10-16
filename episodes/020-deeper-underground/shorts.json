@@ -11,7 +11,8 @@
       "tease_from": "s028",
       "tease_asset": "cave_centipede",
       "end_card": "WHO IS THE KING OF THIS CAVE?",
-      "description": "Movile Cave in Romania runs on chemicals instead of sunlight, and its air holds about a hundred times more carbon dioxide than ours; find out who rules it in the full episode."
+      "description": "Movile Cave in Romania runs on chemicals instead of sunlight, and its air holds about a hundred times more carbon dioxide than ours; find out who rules it in the full episode.",
+      "duration_s": 40.6
     },
     {
       "id": "short02",
@@ -20,11 +21,12 @@
       "hook": "A scientist tasted water sealed in rock for a billion years.",
       "hook_scene_from": "s120",
       "title": "A Scientist Tasted Billion-Year-Old Water",
-      "outro": "Four hundred meters deeper, in a South African gold mine, something has lived alone for millions of years on radioactive rock. It's linked below.",
-      "tease_from": "s150",
-      "tease_asset": "microbe",
-      "end_card": "WHAT LIVES ALONE 2.8 KM DOWN?",
-      "description": "Water sealed in rock for at least a billion years leaked out of a Canadian mine, and the geochemist who led the work tasted it (it is not drinking water); the full episode shows what lives even deeper."
+      "outro": "Further down is the deepest mine on Earth, where a steel cage full of workers drops two kilometers in three minutes. Doug got in. It's linked below.",
+      "tease_from": "s165",
+      "tease_asset": "mine_cage",
+      "end_card": "WHAT WAITS AT THE BOTTOM FOR DOUG?",
+      "description": "Water sealed in rock for at least a billion years leaked out of a Canadian mine, and the geochemist who led the work tasted it (it is not drinking water); the full episode follows Doug into the cage of the deepest mine on Earth.",
+      "duration_s": 36.6
     },
     {
       "id": "short03",
@@ -37,7 +39,8 @@
       "tease_from": "s207",
       "tease_asset": "doug_cap",
       "end_card": "WHAT WENT DOWN INSTEAD OF DOUG?",
-      "description": "The Kola Superdeep Borehole reached about 12 kilometers before the rock got too hot to drill, and that is barely a scratch on the planet; the full episode reveals what went down instead of Doug."
+      "description": "The Kola Superdeep Borehole reached about 12 kilometers before the rock got too hot to drill, and that is barely a scratch on the planet; the full episode reveals what went down instead of Doug.",
+      "duration_s": 45.9
     }
   ]
 }

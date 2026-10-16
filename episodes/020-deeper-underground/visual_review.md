@@ -58,3 +58,34 @@ The two shots stay on the same set across the cut, so the s183 to s184 change is
 VERDICT: PASS
 
 The keyframes pass. The minor items from round 2 (s220, s275, s040/s041, s267/s269/s278) are still optional and do not block.
+
+## Round 5: post-render (final.mp4 samples, thumbnail, Shorts)
+
+### Main video
+I looked at all 32 sample frames (f_001 to f_032) and at qc.json (duration 968.8 s, `problems: []`).
+- There are no black, blank, frozen or glitched frames. The chapter header, DOUG DEATHS and DOUG DEPTH sit in the same place on every frame. Deaths go 161 to 169 and depth goes 18 m, 489 m, 1,300 m, 2,209 m, 2,400 m, 2,800 m, 4,000 m, 12,262 m, 35 km, 660 km, 2,890 km, 6,371 km, so both only ever go up.
+- f_001 is a split screen (the Black Sea map next to the MOVILE CAVE title card). I pulled frames at 14 s and 15.5 s and it holds steady with the BLACK SEA label appearing, so it is a deliberate layout and not a stuck transition.
+- Doug is on-model in every frame where he appears. All text is legible and nothing is cropped. There is no gore: the death at f_016 is cartoon X-eyes beside a houseplant and rug. Nothing has a kids-show tone. Settings change every one or two samples, so there is no stale run.
+
+### Thumbnail
+thumbnail.png is an Earth wedge with eight bands, each holding one subject, from the centipede down to the glowing core, with Doug at the top edge. At 168x94 (thumbnail_small.png) the wedge, the colour going from brown to white-hot, Doug's red cap and all eight labels still read. None of the labels use title words. It fits "Why the Ground Gets Deadlier the Deeper Doug Goes" and does not mislead. One minor note: the Mponeng mine-cage icon is tiny at feed size, but this does not block.
+
+VERDICT (main): PASS
+
+### Shorts
+- **short01 (40.6 s): pass.** The title is readable and the subtitles are legible. The Movile cave, centipede and jar are not cut off at the sides. It pays off "sealed 2.5 million years". The outro teases "the king of the cave" without showing it. The end card has a cave_centipede silhouette whose legs and antennae are clearly recognisable, with "???", "WHO IS THE KING OF THIS CAVE?", and the arrow pointing down.
+- **short03 (45.9 s): pass.** It pays off the 12 km / 0.2% title (the Earth vs 12 km "< 1 MM" frame). The outro teases "something of his on a string" without naming it. The end card shows a doug_cap silhouette that is recognisable as a cap, matching "WHAT WENT DOWN INSTEAD OF DOUG?". The arrow points down.
+- **short02 (36.6 s): FAIL, unrecognisable tease silhouette.** The clip and the outro are fine (it pays off the tasted water, then teases the lonely bacterium 2.8 km down). On the end card, though, `tease_asset: "microbe"` is only about 96 px wide in the library. `_tease_card` caps the scale at 3.0, so it renders as a roughly 290 px dark blob, and the 150 px "???" wordart covers almost all of it. A viewer sees a small red-rimmed smudge behind "???", not a bacterium. Even uncovered, a plain rod with a tail would be hard to recognise as a silhouette.
+
+VERDICT (shorts): FAIL
+
+### Fixes
+1. **short02 (director, `shorts.json` only):** Re-target the cliffhanger to something whose silhouette is recognisable and that the Short does not show. Use the Mponeng lift cage:
+   - `tease_from`: `"s165"` and `tease_asset`: `"mine_cage"`
+   - `outro`: "Further down is the deepest mine on Earth, where a steel cage full of workers drops two kilometers in three minutes. Doug got in. It's linked below."
+   - `end_card`: "WHAT WAITS AT THE BOTTOM FOR DOUG?" (7 words)
+   - Update `description` to match, ending with "the full episode shows what waits at the bottom of the deepest mine on Earth."
+   - Then re-render only short02 and check the preview: the cage silhouette (a box with bars and a cable) must read, and "???" must not hide it.
+   - Alternative if the bacterium tease is kept: the end-card silhouette needs an engine change (offset the "???" off the silhouette, or a larger microbe drawing). That is outside shotlist/scene edits, so take it to the art director, not the director.
+
+The main video and thumbnail can go ahead. Only short02 has to be redone.
