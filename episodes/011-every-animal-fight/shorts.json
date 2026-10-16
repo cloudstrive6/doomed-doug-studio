@@ -89,7 +89,27 @@
       "publish_at": "2026-10-16T23:00:00Z",
       "related_video": "Df1Lh4okCsk",
       "related_set": true,
-      "uploaded_at": "2026-10-09T10:16:56+00:00"
+      "uploaded_at": "2026-10-09T10:16:56+00:00",
+      "social": {
+        "instagram": {
+          "id": "18344863591269769",
+          "url": "https://www.instagram.com/reel/DekqmRgD5F8/"
+        },
+        "facebook": {
+          "id": "1136881422182506",
+          "url": "https://www.facebook.com/reel/1136881422182506"
+        },
+        "tiktok": {
+          "id": "v_pub_file~v2-1.7697404927232002068",
+          "url": "https://www.tiktok.com/@doomeddoug"
+        },
+        "instagram_story": {
+          "id": "18077824436435423"
+        },
+        "facebook_story": {
+          "id": "1043491308723117"
+        }
+      }
     }
   ]
 }
