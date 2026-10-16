@@ -1,12 +1,22 @@
 {
- "at": "2026-10-16T15:01:44+00:00",
+ "at": "2026-10-16T16:01:50+00:00",
  "issues": [
+  {
+   "key": "queue_low",
+   "severity": "medium",
+   "owner": "auto",
+   "summary": "Queue 3/4 and no production running: started a production run",
+   "detail": "",
+   "route": "dispatch produce.yml",
+   "fixed": true,
+   "extra": {}
+  },
   {
    "key": "related_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "3 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
-   "detail": "Wasps Ate These Flies Alive and Fossilized Inside Them -> The Deeper Doug Digs, the Scarier the Fossils Get\nThis Fossil Snake Ate a Lizard That Ate an Insect -> The Deeper Doug Digs, the Scarier the Fossils Get\nThis Fossil Fish Bit a Pterosaur and Couldn't Let Go -> The Deeper Doug Digs, the Scarier the Fossils Get",
+   "summary": "6 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "detail": "Wasps Ate These Flies Alive and Fossilized Inside Them -> The Deeper Doug Digs, the Scarier the Fossils Get\nThis Fossil Snake Ate a Lizard That Ate an Insect -> The Deeper Doug Digs, the Scarier the Fossils Get\nThis Fossil Fish Bit a Pterosaur and Couldn't Let Go -> The Deeper Doug Digs, the Scarier the Fossils Get\nLake Vostok's Water Rushed Up the Drill Hole, Then Froze -> What Dying at Every Depth Under Antarctica Would Be Like\nNobody Knows What These Sponges Under Antarctica Are Eating -> What Dying at Every Depth Under Antarctica Would Be Like\nFish Swam Up to a Camera 740 Meters Under Antarctic Ice -> What Dying at Every Depth Under Antarctica Would Be Like",
    "route": "",
    "fixed": false,
    "extra": {}
