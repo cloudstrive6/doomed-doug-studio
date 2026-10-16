@@ -1,0 +1,43 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s012",
+      "to": "s022",
+      "hook": "This cave was sealed for at least 2.5 million years.",
+      "hook_scene_from": "s009",
+      "title": "",
+      "outro": "Down here lives something researchers call the king of the cave. Doug brought it a sandwich and took one deep breath. Full video below.",
+      "tease_from": "s028",
+      "tease_asset": "cave_centipede",
+      "end_card": "WHO IS THE KING OF THIS CAVE?",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s113",
+      "to": "s122",
+      "hook": "A scientist tasted water sealed in rock for a billion years.",
+      "hook_scene_from": "s120",
+      "title": "",
+      "outro": "Four hundred meters deeper, in a South African gold mine, something has lived alone for millions of years on radioactive rock. It's linked below.",
+      "tease_from": "s150",
+      "tease_asset": "microbe",
+      "end_card": "WHAT LIVES ALONE 2.8 KM DOWN?",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s194",
+      "to": "s205",
+      "hook": "The deepest hole ever drilled is twelve kilometers deep.",
+      "hook_scene_from": "s188",
+      "title": "",
+      "outro": "Doug did not fit down the hole. So the narrator lowered something of his on a string instead, and it came back warm. Full video below.",
+      "tease_from": "s207",
+      "tease_asset": "doug_cap",
+      "end_card": "WHAT WENT DOWN INSTEAD OF DOUG?",
+      "description": ""
+    }
+  ]
+}
