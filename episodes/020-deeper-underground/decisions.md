@@ -56,3 +56,8 @@
 - Carried risk: the Chirp pronunciation of Mohorovičić, Halicephalobus and Desulforudis is still unconfirmed by ear. The owner
   should spot-check during the review window.
 FINAL: APPROVED
+
+## 2026-10-16: round 2 showrunner decision
+- final.mp4 unchanged since the creative director's package approval above; re-run `qc` exits 0 with `problems: []`. Visual review round 6: main PASS.
+- Shorts: VERDICT (shorts): FAIL (short02 cage silhouette reads as a plain rectangle). Round 2, so no further re-render. Shorts stay held back; fix: `tease_asset: "mine_headframe"` (tease_from s161) and re-render short02 before upload. Does not block the long video.
+FINAL: APPROVED

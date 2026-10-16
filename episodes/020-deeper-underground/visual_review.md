@@ -89,3 +89,25 @@ VERDICT (shorts): FAIL
    - Alternative if the bacterium tease is kept: the end-card silhouette needs an engine change (offset the "???" off the silhouette, or a larger microbe drawing). That is outside shotlist/scene edits, so take it to the art director, not the director.
 
 The main video and thumbnail can go ahead. Only short02 has to be redone.
+
+## Round 6: post-render re-check (samples, thumbnail, Shorts after the short02 re-target)
+
+### Main video
+I looked again at all 32 samples (f_001 to f_032) and qc.json (968.8 s, `problems: []`). final.mp4 has not changed since round 5 (18:22). There are no black, blank, frozen or glitched frames. The HUD is in the same place on every frame. DOUG DEATHS goes 161 to 169 and DOUG DEPTH goes 18 m to 6,371 km, and neither ever goes down. Doug is on-model, all text is legible and nothing is cropped. The only death shown is the cartoon X-eyes one at f_016, so there is no gore, and nothing has a kids-show tone. No run of samples looks stale.
+
+### Thumbnail
+thumbnail.png and thumbnail_small.png are the same as in round 5. It is an eight-band Earth wedge with Doug at the top. At 168x94 the wedge, the brown-to-white-hot gradient, Doug's red cap and all eight labels still read. No label uses a title word. It fits "Why the Ground Gets Deadlier the Deeper Doug Goes" and does not mislead. The tiny Mponeng cage icon is still a minor note and does not block.
+
+### Shorts
+- **short01 (40.6 s): pass**, same as round 5. The cave_centipede silhouette is recognisable (legs and antennae), it matches "WHO IS THE KING OF THIS CAVE?", and the arrow points down.
+- **short03 (45.9 s): pass**, same as round 5. It pays off the "< 1 MM" frame. The doug_cap silhouette matches "WHAT WENT DOWN INSTEAD OF DOUG?", and the arrow points down.
+- **short02 (38.6 s): FAIL. The tease silhouette still can't be recognised.** These parts work: the title is readable, the subtitles are legible, and nothing is cut off at the sides. The clip pays off its title ("It tastes terrible."). The new outro (deepest mine, steel cage, "Doug got in") opens one specific question that the Short does not answer, and the end card text "WHAT WAITS AT THE BOTTOM FOR DOUG?" matches it. The end card itself does not work. `silhouette: true` fills the whole mine_cage drawing solid black, so the mesh side panels, the two decks, the safety bar and the miners all disappear. All that is left is a plain black upright rectangle with a red rim and a 1-2 px nub on top where the rope is. You cannot see a cable, bars or decks. It reads as a black door, fridge or phone, not a lift cage. The "???" wordart then sits right across the middle of that rectangle, so the one feature it has, a box shape, is also its only content. This misses the round 5 acceptance check ("a box with bars and a cable must read", "??? must not hide it"). I checked the preview and the last 10 s of the mp4 at 1 s steps.
+
+### Fixes
+1. **short02 (director, `shorts.json` only): change the tease to the Mponeng headframe.** Set `tease_from: "s161"` and `tease_asset: "mine_headframe"`. Keep the outro, end_card and description as they are; they still fit, because the headframe stands over the shaft the cage drops down. The headframe is a lattice. Its open X-bracing, its two sheave wheels on top and its two hoist ropes give an outline that a solid silhouette keeps, so it reads as a "mine" instantly. Below y -300 the centre column is empty apart from the ropes, so the "???" at the card centre will sit between the legs without hiding the wheels or the tower shape. Re-render only short02. Accept it only if the preview shows the wheels at the top and the open lattice legs, with "???" between the legs.
+2. **Alternative (art director, engine):** if the cage tease has to stay, `_tease_card` in `studio/shorts.py` needs a silhouette mode that keeps internal detail (for example, draw the asset's interior strokes in the rim red over the black fill) or that offsets the "???" below or beside the silhouette. Even then, the rope has to be drawn thick enough to show. Do not just re-render the current setup.
+
+The main video and the thumbnail can go ahead. Only short02 is blocked.
+
+VERDICT (main): PASS
+VERDICT (shorts): FAIL
