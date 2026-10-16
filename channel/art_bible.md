@@ -84,6 +84,9 @@ layer, oldest at the bottom; luminance must fall every step (015's draft had lay
 | 11 (boss, oldest) | `#15181a` | green glow `#2f5a3a`; Doug auto-inks white |
 Shaft interior (the hole Doug stands in) is always `#f1e4c6` so he reads on every layer. DEPTH meter: size-28 label at (1590, 238)
 with the `shovel` asset at scale 0.16 to its left; it sits with the death counter, never over the shaft.
+020 (into the planet) reused this ramp one layer per item: Movile on the limestone-cave pair, then layers 2-10 (Lechuguilla `#d4a04a` →
+Hidden Ocean `#2a2a2e`), with the core items on layer 11 `#15181a` or a navy starfield for Earth-from-space field diagrams. Its DOUG DEPTH meter
+uses `depth_icon` at 0.16. Glyph tops of wordart near the meter stay at y ≥ 290 (in 020 round 1, wordart at y 330-340 touched it in 7 shots).
 
 **Ice-thickness ramp (from 016; reuse it for any "down through the ice" episode).** The ice body gets one step darker per item, and
 luminance must fall every step. Below the ice, water uses its own darker parallel step. It is the axis here, so the "sub-ice water =
@@ -264,6 +267,8 @@ lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008
 - **Section header cards (from 013)**: spoken, non-item headers ("FAR AWAY.", "ON LAND.", "IN THE WATER.") are white `#ffffff`
   text with an 8 px black outline, `topbar: false`, about size 140. Item title cards stay red. Never use white for an item name
   (the Lake Nyos exception aside).
+- **Narrator hand** (`narrator_hand`): it enters from a side edge below y 120 and never crosses the caption bar or the counter zone (020
+  s207/s208 came in through the top bar). Wordart and labels stay clear of the hand and the arm.
 - **Stop title card**: zone/creature name as a big `label` + Doug reacting.
 - **Scale comparison**: Doug next to the creature, both at true relative size, a `label` with the size.
 - **Time machine** (`time_machine`, from 003, time-travel episodes only): teal booth (`#2a9d8f`, dark `#1b6f66`),
