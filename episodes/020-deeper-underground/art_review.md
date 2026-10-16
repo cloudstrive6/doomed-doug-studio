@@ -214,3 +214,50 @@ What passes, so please don't change it:
 
 Routing: all 41 fixes go to the **director** (`build/gen_shotlist.py` → regenerate → `keyframes --shots ...`). There are no illustrator fixes this round.
 Re-review only the changed shots plus their neighbours on the next pass.
+
+## Keyframes round 2 (art director, 2026-10-16)
+Scope: all 308 keyframes in the fresh full render `build/contact/sheet_01-26.png` (s001 is now the chosen thumbnail A), with full-res checks
+of `build/keyframes/` for s001, s089, s129, s154, s184, s186, s219, s221, s243 and s268. Coordinates are at 1920x1080.
+
+### Verdict: FAIL (composition only, 2 numbered fixes). No asset or engine change is needed.
+39 of the 41 round-1 fixes are applied cleanly. Two leftover counter-zone collisions (s221, s268) are the same class as round-1 fixes 13-16.
+Both are coordinate edits on one shot each.
+
+What passes, so please don't change it:
+- **Round-1 fixes verified.** Fixes 1-4 work: the cream jar card (s018-s021), the animal grid (s025-s026), the two-glass card (s128-s129)
+  and the orange liquid-metal run (s262-s264) all break up the long runs. No composition now repeats for more than 6 shots.
+  The fixes for s045, s071, s089, s119, s141, s153, s161, s173, s184, s190, s202/s203, s207/s208, s211, s222/s223, s229, s231, s251/s274,
+  s279, s282, s287, s299 and s302 are all correct. Doug's feet are inside the safe area on s216-s227 and s271. s059 and s144 now read as Doug.
+  The s193 foram, the s104 phone and the s134 doormat all read. s304-s306 have the caption bar back.
+- **Accepted deviations (director):**
+  - s185/s186: the Kola world map is re-framed rather than shifted to the exact coordinates. It fills the panel, and Kola is clearly ringed.
+    "1970" uses the cream green-ground override, which is allowed.
+  - s061/s136: `south_africa_map` fills the panel with no frame band.
+  - s244: the map is in a blue sea panel, and "MELTING" sits on the sea. Its corner clears the meter.
+  - s236/s242/s246: the tiny Doug moved to the left rim. s255: the ghost is on the left rim.
+  - s220: the 4 Everests stay on the ruler line in the middle, and "4 EVERESTS" is at top left.
+  - s281: Lehmann keeps the brown-haired `scientist_woman`. The name label and the 1936 date separate her from Sherwood Lollar, and this fix was optional.
+  - s128/s129: both glasses use the same water tint. The labels, the 1 vs 8 salt piles and the bacteria carry the comparison.
+  - s243: the map frame starts at y 260, flush under the meter. That meets the letter of fix 13, and nothing overlaps.
+- **Style and continuity hold.** Doug is on-model with the red cap in every shot, including all 9 deaths, the ghosts and the closing card.
+  The counter runs 161 to 170 on the same beats as round 1. The zone ramp, the cream shaft and crack interiors, and the red item titles are unchanged.
+  Nothing is gory or kid-coded.
+- **s001 / thumbnail A:** on-palette strata wedge, with Doug on-model on the surface. The 8 labels are legible, and every element is inside the frame. PASS.
+
+### Required fixes (director)
+1. **s221**: the ocean band (rect y 200, h 160) runs under the counter. The depth icon (1366, 238) and the "DOUG DEPTH" box sit on the
+   blue band. Start the ocean at y 290: set the rect to `y 290, h 70` and move the "OCEAN" label to y 325. Leave the crust, mantle, red Moho line
+   and "6 KM" as they are. The diagram's top edge then matches s217-s220 (y ≈ 270-300).
+2. **s268**: the top solar-wind curve ends at (1270, 230) and runs straight through the depth icon at (1366, 238). Change its points to
+   `[[1640, 380], [1520, 380], [1440, 340], [1290, 300]]`. For symmetry, end the bottom curve at (1290, 910) instead of (1270, 980). The other
+   two curves stay as they are.
+
+### Optional (not blocking)
+- s154: Doug (1250, 260, scale 0.25) stands in empty space next to the counter. Moving him onto the globe rim at about (700, 300) would match
+  how s236/s242/s246 were fixed.
+- s089: the "S" of "2.5 BURJ KHALIFAS" ends about 25 px from the half-Burj stub. Nudging the wordart 40 px left would give it air.
+- s184: "WORKPLACE / OVEN" sit right under the depth meter (label top at y ≈ 278) and read as part of the HUD. Moving both labels to x 1250
+  or y 340+ would separate them.
+
+Routing: both fixes go to the **director** (`build/gen_shotlist.py` → regenerate → `keyframes --shots s221,s268`). There are no illustrator
+fixes. Re-review is limited to s221 and s268. Once both are clean, the keyframe gate is PASS with no further full pass needed.
