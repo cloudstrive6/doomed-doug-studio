@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-10-16T17:53:35+00:00",
       "note": "art + visual screeners passed"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-10-16T18:09:56+00:00",
+      "note": "narrated, paced, validated"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

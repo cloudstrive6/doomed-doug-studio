@@ -34,3 +34,4 @@
 - Accepted risk: at 168x94 the labels in A are small. The colour gradient from tan to white-hot and the wedge shape still read as
   "going down" at feed size, and the labels are legible at browse or suggested-video size. B is the A/B test candidate if Studio
   thumbnail testing is used.
+2026-10-16: art 3 key rounds, script 2 rounds; risks: pronunciation of Mohorovičić/Halicephalobus/Desulforudis unchecked by ear; thumbnail A labels small at feed size.
