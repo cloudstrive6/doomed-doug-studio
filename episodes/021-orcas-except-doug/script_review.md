@@ -1,169 +1,125 @@
-# Script review: 021 Why Orcas Kill Everything in the Ocean Except Doug (draft 1)
+# Script review: 021 Why Orcas Kill Everything in the Ocean Except Doug (draft 2)
 
-Script screener, 2026-10-17. Inputs: style bible, series bible, brief.md, script.md, facts.md.
+Script screener, 2026-10-17. Inputs: style bible, series bible, brief.md, script.md (draft 2), facts.md (draft 2 update).
 
 VERDICT: FAIL
 
+The draft is close. Two narrow fact items block it (F1, F2); everything else is a one-line edit.
+
 | Check | Result |
 |---|---|
-| 1. Facts | **FAIL**: 4 items (F1 to F4), plus 1 claim I could not verify (F5) |
-| 2. Opening | Hook **7/10**. SW rules 1, 2, 3, 5, 6, 7, 8, 9, 11, 12, 13 and 14 pass. Rule 4 has minor misses (see S3, S4). Rule 11 fails through F1 to F3. |
-| 3. Structure and pacing | **7/10** |
+| 1. Facts | **FAIL**: 2 items (F1 Monterey humpbacks, F2 Hoyt attribution). All 5 draft-1 fact items are resolved. |
+| 2. Opening | Hook **9/10**. SW rules 1-3, 5-14 pass. Rule 4 has one miss (Gray Whale Calf Doug beat, 31 words). |
+| 3. Structure and pacing | **8/10** |
 | 4. Voice and humour | **8/10** |
-| 5. TTS readiness | Pass, with 2 small notes |
-| 6. Policy | **Pass** (0 policy items; 1 advisory) |
-| 7. Length | 2,956 spoken words. Recounted and it matches. Inside the 2,900-3,300 band. **Pass** |
+| 5. TTS readiness | Pass, with 1 pronunciation to add |
+| 6. Policy | **Pass** (0 items) |
+| 7. Length | 2,984 spoken words (I recounted and it matches). Inside the 2,900-3,300 band. **Pass** |
 
 ---
 
+## Draft 1 fixes: verification
+
+| # | Fix | Status |
+|---|---|---|
+| 1 | F1 Dolphin "kills" vs "events" | **Fixed.** "The attacks themselves are rarely seen ... only one kill was reported ... fourteen more attacks were seen". Matches Ashe 2021 ("only one ... kill was reported between 1973 and 1996", "14 more events observed between 1996 and 2011"). |
+| 2 | F2 "largest stingray" | **Fixed.** Now "one of the largest stingrays in the world". The header table is updated too. |
+| 3 | F3 Hoyt paraphrase | **Partly fixed.** The facts.md note is corrected. The new sentence still puts a non-Hoyt clause inside "In his view". See F2 below. |
+| 4 | F4 Great White generalisation | **Fixed.** The line is now "a young great white". The MENU line uses the Guinness typical adult range, 520-770 kg. |
+| 5 | F5 the 3 m shoreline claim | **Fixed (cut).** I confirmed the sentence is gone, along with the shoreline claim. |
+| 6 | S1 axis | **Fixed (option b).** The MENU now reads 14, 45, 82-130, 180, 350, 364-725, 520-770, 900 AT BIRTH, UP TO 21,500, 150,000 kg. That's one unit throughout and it never goes down. The floor and maximum labels are honest. |
+| 7 | Hook | **Fixed.** The twist marker comes at word 71. The seal contrast and the "rather go hungry" payoff end at word 132 (about 0:41). |
+| 8 | S5 sober card framing | **Fixed (no Doug, no joke).** The new marker reads oddly in context (see fix 4). |
+| 9 | S2 segment lengths | **Fixed.** Whale Shark is 250 words, with the 1949 weight added. Gray Whale Calf is 271. Every item 2-10 falls between 245 and 271. |
+| 10 | S3/S4 kickers and Doug beats | **Kickers fixed:** Seal is 14 words, Great White 14. Law of the Tongue's Doug beat is now 23 words. **Gray Whale Calf's beat is still 31 words**: I count 7 + 11 + 13, not the 29 claimed. See fix 3. |
+| 11 | Minor accuracy | **Fixed.** "five hundred and twenty", "of the dolphins photographed", "about ten tonnes". |
+| 12 | TTS pronunciations | **Fixed.** Te Ara and Erich are added. |
+
+**Item 8/9 swap:** checked, and it's clean.
+- The counter still runs 170 to 178 with 8 deaths: Gray Whale holds at 176, Whale Shark is 177.
+- "Giants." now comes before Whale Shark at about 70%.
+- "This is the first whale on the list" is true in the new order.
+- No back-reference broke. Eden to Blue Whale is still adjacent, and no twist marker repeats back to back.
+- One honest caveat, not a fix: the order rests on a calf birth weight (a floor) against a species maximum (a ceiling). An actual Unimak yearling might outweigh the 6 m juvenile whale shark. Both labels say which number they are, so this is acceptable. Flag it to the creative director.
+
 ## 1. Facts
 
-I started with the lines facts.md marks "Search" and re-opened their sources. I checked 30 or more claims in total.
+I re-opened or newly checked 30 or more claims. Fetched or searched this pass:
 
-**Confirmed:**
-- NOAA Chinook ("about 3 feet and 30 pounds", largest Pacific salmon).
-- Ford & Ellis via DFO/PMC: Chinook selectivity; size, lipid and year-round presence.
-- Ford et al. 1998 abstract: "Six mammal species were taken, with over half of observed attacks involving harbour seals". No kills confirmed for residents, and no mammal remains found in residents' stomachs.
-- Deecke 2005 (I read the PDF text): seals detect orca calls "from distances of several kilometres"; transients call "extremely rarely", except after a kill.
-- KUOW (Bigg's orcas and harbor seals).
-- NOAA killer whale page: diet "primarily determined by the culture (i.e., learned hunting tactics)"; largest Delphinidae; 32 ft and 11 tons; Southern Residents endangered; Chinook threat.
-- Ashe 2021: 415 dolphins, about 8 times more orca scars than fishery scars (3.9% vs 0.5%), 1 kill between 1973 and 1996.
-- Te Ara feeding page: "only group known to eat ... rays ... as a staple food".
-- Orca Research Trust on strandings while ray hunting.
-- ScienceDaily on Estes 1998: 25% a year, Kuluk Bay 76%, the two years before Estes was convinced, Clam Lagoon, four orcas.
-- Guinness: white sharks 520-770 kg.
-- Daily Maverick on Starboard: 18 June 2023, south of Seal Island, a 2.5 m juvenile, under two minutes, filmed from two vessels; all earlier kills involved 2 to 6 orcas.
-- Shark Trust (via search): Farallon 1997, 15 minutes, "likely" tonic immobility.
-- Frontiers news: four events 2018-2024, a juvenile of about 6 m, Moctezuma in 3 of 4, a female seen with him before, young sharks more vulnerable.
-- Barrett-Lennard 2011 abstract (via search): ">150 transient killer whales that aggregate annually"; most attacks on calves and yearlings by groups of 3 to 4; attackers broke off when mothers defended.
-- National Geographic on Monterey 2012: about 16 humpbacks, six and a half hours, flippers and tails.
-- Pitman 2017: 115 interactions, 89% of prey were other species.
-- Eden: Wikipedia and the museum.
-- Flinders on Totterdell 2022: about 14 orcas attacking, females leading, about 50 in the area, "In all three events, at least 16 of the same animals participated".
-- APA on Towers 2025: 34 cases, two decades, "all but one" waited.
-- Wikipedia "Orca attacks": no confirmed fatalities; 1972 Point Sur; "only fairly well-documented instance".
-- EPA vehicle weight of 4,372 lb (via Jalopnik).
+| Claim | Source | Result |
+|---|---|---|
+| Heaviest whale shark: 21.5 t, off Pakistan, 1949 | Guinness, fetched: "estimated 21.5 tonnes ... captured off Baba Island, near Karachi, Pakistan ... 11 November 1949" | Confirmed |
+| Dall's porpoise "possibly the fastest"; orcas block bays | NOAA feature, fetched | Confirmed |
+| Old Tom: rope towing, tooth wear, found September 1930, skeleton | Eden Killer Whale Museum, fetched | Confirmed |
+| 34 cases over two decades; California, New Zealand, Norway, Patagonia; "all but one" waited | APA release, fetched | Confirmed |
+| Blue whales: adult, then a calf two weeks later, then a 2021 juvenile; about 14 orcas attacking with females leading; about 50 in the area; at least 16 in all three | Flinders, fetched | Confirmed |
+| Hoyt: "fussy eaters, really conservative ... whatever they learned from their mothers and from their pod" | Live Science via Yahoo, fetched | Quote confirmed; attribution problem, see F2 |
+| Point Sur 1972: orca let go; Hoyt interviewed the surfer and thought "mistaken for a seal" | Yahoo, fetched; Wikipedia | Confirmed |
+| Dolphin: 415 photographed, 3.9% vs 0.5%, 1 kill in 1973-96, 14 events in 1996-2011 | Ashe 2021, fetched | Confirmed |
+| Icy Strait 1993: two fishermen, 3 or 4 orcas, one moose killed, the other later drowned; deer on a rock | Marine Detective quoting Ford & Ellis, fetched | Confirmed ("didn't survive either" is accurate) |
+| Monterey 2012 humpbacks | National Geographic, fetched twice | **Misstated**, see F1 |
+| 115 interactions; 89% of prey were other species | National Geographic | Confirmed |
+| Gray whale: newborn about 2,000 lb, adult about 90,000 lb, about 10,000 mi round trip, "one of the longest annual migrations of any mammal" | NOAA, fetched | Confirmed |
+| Orca diet "primarily determined by the culture (i.e., learned hunting tactics)"; up to 11 tons and 32 ft; largest member of the dolphin family | NOAA, fetched | Confirmed |
+| UBC (Couture 2022): energy deficit in 6 of the last 40 years | CBC, Weather Network, CTV via search | Confirmed |
+
+Draft-1 confirmations still stand: Chinook, Estes/ScienceDaily, Te Ara, Starboard, Farallon, Pancaldi/Frontiers, Barrett-Lennard abstract, Wikipedia "Orca attacks".
 
 **FAIL items:**
 
-- **F1 (Dolphin), the source says "events", not "kills".** The line is: "Actual kills are rarely seen, and between nineteen seventy-three and nineteen ninety-six, only one was reported off British Columbia, although fourteen more were seen over the next fifteen years." Ashe et al. 2021 says "14 more events observed between 1996 and 2011" and doesn't say how many were kills. It also separates kills from harassment for the earlier period. In context, the script calls all 14 kills.
-- **F2 (Stingray), "The short-tail stingray is the largest stingray species" is contested.** The Wikipedia page that facts.md cites contradicts itself: the intro says "One of the largest stingrays in the world". The giant freshwater stingray is a rival for the title: Guinness has a 2022 record of about 300 kg with a 2.2 m disc, which is wider than the 2.1 m the script uses.
-- **F3 (Blue Whale thesis), the line puts words in Hoyt's mouth.** The line is: "In his view, people were simply never part of anyone's learned diet." The source (Live Science via Yahoo) says orcas "are fussy eaters, really conservative in terms of whatever they learned from their mothers and from their pod about what constitutes food". It does not say people were never part of a learned diet. I fetched it twice. facts.md says "the article sums up his view" that way, and it doesn't. The brief's hard rule is "don't claim anything stronger than the source".
-- **F4 (Great White), an overstated generalisation.** The line is: "So the most feared predator most people can name lasted about two minutes against one orca." The two-minute kill was a 2.5 m juvenile, which the script itself says two paragraphs earlier. This line, plus THE MENU showing "GREAT WHITE, 1,100 kg" (a Gansbaai figure that isn't narrated), tells viewers an adult took two minutes.
+- **F1 (Gray Whale Calf), the humpback account is misstated.** The line is: "Humpback whales arrived, around sixteen in total, and although they were too late for the calf, they spent six and a half hours harassing the orcas anyway". National Geographic says: "Two humpback whales were already on the scene as the killer whales ... attacked the grays", and "after the calf had been killed, about 14 more humpbacks arrived". So the two weren't too late, and they didn't arrive with the rest. Only the 14 came after the calf died.
+- **F2 (Blue Whale thesis), a narrator claim sits inside Hoyt's view.** The line is: "In his view, an orca's idea of food is whatever its mother and its pod taught it, and no one has ever recorded an orca family teaching its young to hunt people." The second clause is the writer's inference from "no confirmed fatalities" (facts.md says so). Because it sits under "In his view", viewers hear it as Hoyt's position. That repeats the draft-1 F3 problem (the brief's hard rule: nothing stronger than the source). The first clause also restates the sentence before it almost word for word.
 
-**Needs verification before lock (not counted as an error yet):**
+## 2. Opening: 9/10
+- The opener is 29 words and states the title promise. "Chinook Salmon." comes at words 31-32. There is no greeting, channel name or subscribe ask.
+- The marker "Here's the strange part." comes at word 71. Hunger, the seals and "They would rather go hungry than change the menu." all arrive by word 132 (about 0:41).
+- The DFO sentence now comes after the payoff, as asked. This is a strong open.
+- **Rule check (section 7, 1-14):** only **rule 4** is violated, by the Gray Whale Calf Doug beat at 31 words. Every other rule passes.
+  - Rule 9: average 14.4 words, max 34, Flesch about 66.
+  - Rule 12: 24-word outro.
+  - Rule 13: "Here's" now appears 3 times and never back to back.
 
-- **F5 (Gray Whale Calf), "once a whale reached water about three meters deep, the attack ended."** facts.md cites the Barrett-Lennard 2011 abstract (Search). int-res.com rate-limited me (HTTP 429). None of the abstract text I could find through search contains the 3 m figure. One search snippet gives kill depths of 15-75 m, and ADN only describes "very shallow water". The writer must WebFetch the MEPS full text (doi 10.3354/meps08906) and quote the line in facts.md, or cut the number ("once a whale reached the shallows, the attack ended" only if that wording is supported).
-
-**Minor accuracy, fix in the same pass:**
-
-- Great White: "between five hundred and seven hundred and seventy kilograms". Guinness says 520. Say "five hundred and twenty".
-- Dolphin: "roughly one in every twenty-five of these dolphins is carrying orca scars". 3.9% comes from 415 photographed, well-marked dolphins, not from the whole population. Say "of the dolphins photographed".
-- Dolphin: "eleven tons" (NOAA's short tons) is said alongside metric "tonnes" everywhere else. TTS says both the same way, so viewers hear one unit at two different scales. Say "about ten tonnes" and update the label.
-
-## 2. Opening: 7/10
-
-**What works:**
-- The first sentence is the title promise, with three prey animals and the exception.
-- "Chinook Salmon." comes at words 31-32. There is no greeting, channel name, "in this video" or subscribe ask.
-- The twist marker "Here's the strange part." comes at word 142 (about 0:43). That passes rule 6 by the letter.
-
-**What doesn't:**
-- The brief's twist is "would rather go hungry ... than eat the seals swimming past them", and it has to land by 0:45. Its seal half doesn't arrive until "Meanwhile, harbor seals swim..." and "They would rather go hungry than change the menu." at word 249 (**about 1:16**).
-- Between the marker and the payoff there are three slow sentences: the NOAA status, the UBC study and the DFO size/fat/year-round sentence.
-
-## 3. Structure and pacing: 7/10
-
-**What works:**
-- The axis is declared in the header.
-- All four spoken section headers are present; "Giants." comes at 68%.
-- 11 items, with an 8-death and 3-survival split as briefed. The counter runs from 170 to 178.
-- Running gags are all present: "Doug did not agree to this.", "Doug is fine." ×3, "Doug has died. Again." ×2, the cap, "hi cousin?", one 008 callback.
-- The costume line is said in full once and varied twice.
-- The ending is per the bible, with a 24-word outro (counter plus CTA). There is no recap or moral, and no captivity.
-
-**Problems:**
-- **S1. The axis breaks on screen.** THE MENU reads 14, 45, 82-130, 180, 350, 725, **1,100 kg**, then **"6 m"** (a unit change), then **900 kg**. The menu is the viewer's escalation ruler, and at Gray Whale Calf it visibly goes down. The writer flagged this but didn't fix it. The brief says "If two items swap order, reorder them".
-- **S2. Segment length.** Whale Shark is 220 words, under the 240 minimum for items 2-10. Gray Whale Calf is 298 including "Giants.", which is over the 290 maximum.
-- **S3. Kickers under 8 words** (rule 4: 8-25 words, last sentence):
-  - Harbor Seal: "The orca, apparently, had not." (5 words)
-  - Great White: "Starboard didn't even need his partner." (6 words)
-- **S4. Doug beats over 30 words** (rule 4):
-  - Gray Whale Calf: "Doug stayed close ... added Doug to the menu." (36 words)
-  - Law of the Tongue: the rudder/rope beat (31 words)
-- **S5. A Doug joke frames the sober card.** "Here's the problem with Doug's plan." comes right before the real 1972 bite. The brief says the sober card has no Doug and no joke, and is clearly separate from the seal beat.
+## 3. Structure and pacing: 8/10
+- **Axis:** monotonic in kg; the header declares it; the blue whale is the boss.
+- **Escalation:** danger and weirdness rise. The first item where the prey fights back is placed well at item 8, right before "Giants.".
+- **Segment lengths:**
+  - Item 1 is 254 words (brief: 240-270).
+  - Items 2-10 run 245-271.
+  - Blue Whale is 408 including the 24-word outro, so 384 without it. That is 4 over the brief's 330-380. Fix 2 removes about 18 words, which solves it.
+- **Running gags:** all present. "Doug did not agree to this." ×1, "Doug is fine." ×2, "Doug has died. Again." ×2, the cap, "hi cousin?", the 008 rudder callback once. The costume line is said in full once and varied twice.
+- **Ending:** per the bible.
 
 ## 4. Voice and humour: 8/10
-
-**What works:**
-- Average sentence length is 14.1 words (inside the 14-19 band, but only just). The longest is 34. Every item has a sentence of 6 words or fewer.
-- Flesch is about 68.
-- The deadpan holds throughout. The narrator's indifference reads as adult.
-- The strongest lines: "the rock was wearing the cap", "the orcas treat it as packaging", "Doug stopped minding anything", "Doug, they tried to feed."
-- There are no tic words, and twist markers never repeat back to back.
-- No OctoLab wording ("refuses to kill" is absent) and no PE item list.
-
-**Problems:**
-- Scale analogies are monotonous: bowling balls 3 times in the first 3 items, then "average new car" 5 times.
-- 6 of 11 twist markers start with "Here's".
-- Item 1's Doug cluster has 4 joke lines in about 20 s. That's normal for the series, but it's the densest moment in the script.
+- The deadpan holds and reads as adult. Best lines: "the orcas treat it as packaging", "Doug stopped minding anything", "Doug, they tried to feed."
+- No OctoLab or PE wording, and no tic overuse.
+- **Weak spots:**
+  - "There is one exception on record." follows a sentence about orcas calling after kills. It reads as an exception to the calling, not to "orcas don't bite people" (fix 4).
+  - "some of it came to help a stranger" is clumsy, because "it" refers back to "something". Optional: "and some of the help came from strangers."
+  - "Average new car" appears in 5 items (optional).
 
 ## 5. TTS readiness: Pass
-
-- There are no digits, symbols, parentheses or abbreviations in the narration, and years and decimals are spelled out.
-- **Add pronunciations:** "Te Ara" = "teh AH-rah"; "Erich" = "AIR-ik"; "Noises Islands" (literal, just to confirm).
-- Tons vs tonnes: see the minor fixes under Facts.
+There are no digits, symbols, parentheses or abbreviations in the narration. Add "Dall's" = "DAWLZ" to the pronunciation comment.
 
 ## 6. Policy: Pass
-
-**Advertiser-friendly:**
-- No blood, wounds or carcasses.
-- The tongue appears once at item 10 and once at item 11, one clinical clause each.
-- The 1972 bite has no name and no injury details.
-- Profanity-free.
-- Advisory: "after a stingray spine penetrated her" is clinical but the most body-specific line in the script. Consider "probably killed by a stingray spine".
-
-**Made-for-kids:**
-- The tone is adult-coded. There is no kids framing, and the costumes are played deadpan.
-
-**Inauthentic content:**
-- The narrative is original: it builds a why-thread that adds a clue each item.
-
-**Safety and title promise:**
-- There is no safety or medical advice.
-- The title promise is delivered.
-- Watch the closing (food offers, FRIEND? MAYBE) together with the F3 fix. Don't swap in Hoyt's "would ever hunt a human" quote: next to MAYBE it reads as an assurance that orcas are safe.
+- **Advertiser-friendly:** no gore. The stingray line is softened to "probably been killed by a stingray spine". Each tongue appears as one clinical clause. The 1972 bite has no name and no injuries. Profanity-free.
+- **Made-for-kids:** the tone is adult-coded; the costumes are played deadpan.
+- **Inauthentic content:** the original why-thread adds a clue each item and pays off at the boss.
+- **Safety and title promise:** no safety or medical advice; the title promise is delivered. The closing doesn't use the "would ever hunt a human" quote.
 
 ## 7. Length: Pass
-
-2,956 words, est. 15:10.
+2,984 words, est. 15:18.
 
 ---
 
 ## Required fixes
 
-1. **F1 (Dolphin):** "although fourteen more were seen over the next fifteen years" → "although fourteen more attacks were seen over the next fifteen years". Also change the sentence opener so it no longer says these were all kills.
-2. **F2 (Stingray):** "The short-tail stingray is the largest stingray species." → "The short-tail stingray is one of the largest stingrays in the world." Update the header table.
-3. **F3 (Blue Whale):** replace "In his view, people were simply never part of anyone's learned diet." with wording the source supports. For example: "In his view, an orca's idea of food is whatever its mother and its pod taught it, and no one has ever recorded a family teaching people." The second clause rests on the opener's "no confirmed record" source; cite it in facts.md. Fix the facts.md note that misstates the article.
-4. **F4 (Great White):** "So the most feared predator most people can name lasted about two minutes against one orca." → "So a young great white, from the most feared predator most people can name, lasted about two minutes against one orca." (or similar). Change the MENU line to a sourced weight or size for the animals the orcas actually took, or label it as the species maximum.
-5. **F5 (Gray Whale Calf):** WebFetch the Barrett-Lennard 2011 full text and quote the 3 m line in facts.md, or cut "about three meters deep".
-6. **S1 (axis):** make THE MENU monotonic, using sourced figures in one unit. Either:
-   - (a) give the Whale Shark line a sourced weight in kg or tonnes, and give Gray Whale Calf a sourced weight for the calves and yearlings actually taken at Unimak (older than newborns); or
-   - (b) reorder the items, and update the section headers and their percentages.
+1. **F1 (Gray Whale Calf):** replace "Humpback whales arrived, around sixteen in total, and although they were too late for the calf, they spent six and a half hours harassing the orcas anyway, slashing at them with flippers and tails." with wording that matches the source. For example: "Two humpbacks were already there, and after the calf was killed, about fourteen more arrived. For six and a half hours, they harassed the orcas anyway, slashing at them with flippers and tails." Update the stage direction ("about sixteen") and the facts.md line to match.
+2. **F2 (Blue Whale):** delete "In his view, an orca's idea of food is whatever its mother and its pod taught it, and". Make the rest a separate narrator sentence that isn't attributed to Hoyt: "And no one has ever recorded an orca family teaching its young to hunt people." Optionally extend Hoyt's line to "...whatever they learned from their mothers and their pod." This also brings Blue Whale back inside 330-380.
+3. **Rule 4 (Gray Whale Calf Doug beat, 31 words):** cut it to 30 or fewer. For example, "Doug stayed close to a large mother." becomes "Doug stayed close to a mother." Correct the word note in the footer comment.
+4. **Sober-card marker (Harbor Seal):** "There is one exception on record." becomes "There is one human case on record." (or similar), so it can't be read as an exception to the orcas keeping quiet. Keep it free of Doug and jokes.
+5. **TTS:** add "Dall's = DAWLZ" to the pronunciation comment.
 
-   Don't put the mother's 40 tonnes on the calf's line.
-7. **Hook:** make the item 1 twist land by about 145 words. Move the seal contrast ("harbor seals swim through the same waters ... never confirmed a resident orca eating a seal") and "They would rather go hungry than change the menu." up to right after "Here's the strange part.". Move or cut the DFO size/fat/year-round sentence so it comes after the payoff.
-8. **S5:** replace "Here's the problem with Doug's plan." with a neutral twist marker that doesn't mention Doug (for example "There is one exception on record.").
-9. **S2:** Whale Shark needs at least 20 more words of mechanism or detail (sourced). Trim Gray Whale Calf by at least 8 words (the Doug beat; see 10).
-10. **S3/S4:**
-    - Harbor Seal: merge the kicker into one sentence of 8 or more words, for example "We had been very confident about this one, and the orca apparently had not."
-    - Great White: end on a kicker of 8-25 words, for example "One orca, one shark, about two minutes, and Starboard didn't even need his partner."
-    - Gray Whale Calf: cut the Doug beat to 30 words or fewer, for example by dropping "Doug is fine." or "very large".
-    - Law of the Tongue: cut the Doug beat to 30 words or fewer, for example by dropping "very helpfully" or "across the bay".
-11. **Minor accuracy:**
-    - "five hundred and seven hundred and seventy" → "five hundred and twenty and seven hundred and seventy".
-    - "of these dolphins" → "of the dolphins photographed".
-    - "eleven tons" → "about ten tonnes", and update the label.
-12. **TTS:** add "Te Ara" and "Erich" to the pronunciation comment.
-
-Optional, not blocking: vary the scale analogies (fewer cars and bowling balls), rotate some twist markers away from "Here's", and soften "penetrated her".
+Optional, not blocking:
+- Reword "some of it came to help a stranger".
+- Swap one or two "average new car" analogies.
+- Tell the creative director about the floor-versus-maximum basis behind the item 8/9 order.

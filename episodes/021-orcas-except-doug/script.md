@@ -1,5 +1,5 @@
 <!-- axis: prey size. From a fish lighter than two bowling balls to the largest animal that has ever lived. Each item is placed by the sourced weight on its THE MENU line (see table); every MENU line is in kilograms and the series rises monotonically. Spoken section headers: "Snacks." (opener, items 1-2), "Doug-sized." (before item 3), "Bigger." (before item 6, about 43%), "Giants." (before item 9, about 70%). -->
-<!-- Episode 021: Why Orcas Kill Everything in the Ocean Except Doug. Draft 2 (2026-10-17, script writer; fixes all 12 screener items). Counter on screen at 170 from the first shot, ends at 178: eight deaths over eleven items. Survivals: Harbor Seal ("Doug is fine."), Gray Whale Calf, now item 8 (narrator slightly disappointed; Doug added to THE MENU "for completeness"), The Law of the Tongue (no costume; the one 008 callback, the rudder line). "Doug did not agree to this." once, at item 1. The costume line is said in full once (item 1) and varied twice (Sea Otter, Great White Shark). Befriending: "hi cousin?" (Dolphin, speech bubble only). The cap: on the otter's rock, on the sand, between the antlers, out of the blowhole. No captivity, no captive names, no salmon hat, no LIVE feed, no WIN? box, no Herring option used (word count is inside the band without it). Sober card, no Doug, no joke: the 1972 Point Sur line (Harbor Seal). Predation is always off-screen: no blood, no wounds, no carcasses. The sober card is introduced by a neutral marker, "There is one exception on record." "Doug is fine." twice (Harbor Seal, Law of the Tongue). The tongue appears once at item 10 and once at item 11, one clinical clause each. -->
+<!-- Episode 021: Why Orcas Kill Everything in the Ocean Except Doug. Draft 3 (2026-10-17, script writer; applies the 5 draft-2 screener fixes). Counter on screen at 170 from the first shot, ends at 178: eight deaths over eleven items. Survivals: Harbor Seal ("Doug is fine."), Gray Whale Calf, now item 8 (narrator slightly disappointed; Doug added to THE MENU "for completeness"), The Law of the Tongue (no costume; the one 008 callback, the rudder line). "Doug did not agree to this." once, at item 1. The costume line is said in full once (item 1) and varied twice (Sea Otter, Great White Shark). Befriending: "hi cousin?" (Dolphin, speech bubble only). The cap: on the otter's rock, on the sand, between the antlers, out of the blowhole. No captivity, no captive names, no salmon hat, no LIVE feed, no WIN? box, no Herring option used (word count is inside the band without it). Sober card, no Doug, no joke: the 1972 Point Sur line (Harbor Seal). Predation is always off-screen: no blood, no wounds, no carcasses. The sober card is introduced by a neutral marker, "There is one human case worth knowing." "Doug is fine." twice (Harbor Seal, Law of the Tongue). The tongue appears once at item 10 and once at item 11, one clinical clause each. -->
 <!-- Weight table for the axis and THE MENU (sources in facts.md). All MENU lines in kg:
 | # | Item | MENU line | Basis |
 | 1 | Chinook Salmon | 14 kg | NOAA typical mature fish, 30 lb |
@@ -14,7 +14,7 @@
 | 10 | The Law of the Tongue | no MENU line | baleen whales herded at Eden |
 | 11 | Blue Whale | 150,000 kg | NOAA, 330,000 lb |
 Reorder (S1, option b): Gray Whale Calf and Whale Shark swapped (now items 8 and 9). "Giants." moved to before Whale Shark (item 9, about 70%, as the brief places it). Counter: Gray Whale Calf holds at 176, Whale Shark death is 177. Gray whale frame line changed to "This is the first whale on the list". Report to the creative director. -->
-<!-- Pronunciation for the editor: Chinook = "shih-NOOK"; Aleutian = "uh-LOO-shun"; Adak = "AY-dak"; Bigg's = "BIGZ"; Hauraki = "how-RAH-kee"; Mossel = "MOSS-ul"; Farallon = "FAIR-uh-lon"; Moctezuma = "mok-teh-ZOO-muh"; Unimak = "YOO-nih-mak"; Kiah = "KY-uh"; Twofold = "TOO-fold"; Estes = "ESS-teez"; Hoyt = "HOYT"; Te Ara = "teh AH-rah"; Erich = "AIR-ik"; Noises Islands = read literally, "NOY-ziz EYE-lunds". -->
+<!-- Pronunciation for the editor: Chinook = "shih-NOOK"; Aleutian = "uh-LOO-shun"; Adak = "AY-dak"; Bigg's = "BIGZ"; Hauraki = "how-RAH-kee"; Mossel = "MOSS-ul"; Farallon = "FAIR-uh-lon"; Moctezuma = "mok-teh-ZOO-muh"; Unimak = "YOO-nih-mak"; Kiah = "KY-uh"; Twofold = "TOO-fold"; Estes = "ESS-teez"; Hoyt = "HOYT"; Te Ara = "teh AH-rah"; Erich = "AIR-ik"; Dall's = "DAWLZ"; Noises Islands = read literally, "NOY-ziz EYE-lunds". -->
 
 [Open on the thumbnail, 1.5 to 4 seconds: the huge orca breaching with a whole great white held side-on, tiny Doug in a rowboat waving, the orca's eye turned away from him. Cut to grey-green North Pacific water. Doug holds the field guide open on the ORCA page. The FRIEND? box is empty. THE MENU card sits in the corner, blank. DOUG DEATHS: 170.]
 
@@ -124,7 +124,7 @@ Seals have excellent underwater hearing and can pick up orca calls from kilomete
 
 So the seal hunters mostly keep quiet. Researchers found that they rarely call while hunting and save most of their noise for after a kill.
 
-There is one exception on record.
+There is one human case worth knowing.
 
 [Sober card: plain dark blue, white text only. "POINT SUR, CALIFORNIA, 1972". No Doug.]
 
@@ -308,9 +308,9 @@ Here's where the list changes.
 
 The mothers fight back, and when they defended their young aggressively, the orcas broke off.
 
-[Monterey Bay map. Label: "MAY 2012". Humpback icons arrive one after another until there are about sixteen.]
+[Monterey Bay map. Label: "MAY 2012". Two humpback icons already there; after the calf, about fourteen more arrive one after another, about sixteen in all.]
 
-Sometimes, strangers turn up. In May two thousand twelve, in Monterey Bay, California, orcas attacked a gray whale mother and her calf. Humpback whales arrived, around sixteen in total, and although they were too late for the calf, they spent six and a half hours harassing the orcas anyway, slashing at them with flippers and tails.
+Sometimes, strangers turn up. In May two thousand twelve, in Monterey Bay, California, orcas attacked a gray whale mother and her calf. Two humpbacks were already there, and after the calf was killed, about fourteen more arrived. For six and a half hours, they harassed the orcas anyway, slashing at them with flippers and tails.
 
 [A field-notes page: "115 ENCOUNTERS". A tick next to "OTHER SPECIES".]
 
@@ -318,7 +318,7 @@ A review of over a hundred encounters found that humpbacks often charge in to br
 
 [Doug in a gray whale calf costume, tucked beside a large mother. Orca fins approach. Two humpbacks crash in, splashing. The orcas leave. Doug, hopeful smile. DOUG DEATHS: 176, unchanged. The narrator's pencil writes at the bottom of THE MENU: "DOUG, 80 kg".]
 
-Doug stayed close to a large mother. The orcas came, two humpbacks crashed in, and the orcas left. We are slightly disappointed, and for completeness, have added Doug to the menu.
+Doug stayed close to a mother. The orcas came, two humpbacks crashed in, and the orcas left. We are slightly disappointed, and for completeness, have added Doug to the menu.
 
 For the first time on this list, something made the orcas back off, and some of it came to help a stranger.
 
@@ -428,7 +428,7 @@ It isn't size, because they'll take the largest animal that has ever lived. It i
 
 [A mother orca with a younger orca beside her, a line of small fish icons between them. Label: "LEARNED".]
 
-The leading explanation is about families. United States government scientists say each orca population's diet is driven mainly by hunting tactics that are learned. The researcher Erich Hoyt calls orcas fussy eaters, very conservative about whatever they learned from their mothers. In his view, an orca's idea of food is whatever its mother and its pod taught it, and no one has ever recorded an orca family teaching its young to hunt people.
+The leading explanation is about families. United States government scientists say each orca population's diet is driven mainly by hunting tactics that are learned. The researcher Erich Hoyt calls orcas fussy eaters, very conservative about whatever they learned from their mothers and their pod. And no one has ever recorded an orca family teaching its young to hunt people.
 
 [Doug in a blue whale costume so enormous that only the red cap pokes out of the blowhole. Orca fins arrive from every direction. Cut to open ocean. The cap floats alone in the shaft of light. DOUG DEATHS: 178.]
 
@@ -452,4 +452,4 @@ They hunt everything in the ocean. Doug, they tried to feed.
 
 Doug deaths: one hundred and seventy-eight. He still hasn't eaten the fish. What should Doug dress up as next? Tell us in the comments.
 
-<!-- words: 2984 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:18 at 195 wpm · draft 2 (2026-10-17) · 11 items · item words (section header counted with the item it introduces): Chinook Salmon 254 incl. "Snacks.", Sea Otter 254, Harbor Seal 264 incl. "Doug-sized.", Dolphin 250, Stingray 245, Moose 245 incl. "Bigger.", Great White Shark 263, Gray Whale Calf 271, Whale Shark 250 incl. "Giants.", The Law of the Tongue 251, Blue Whale 408 incl. closing and outro · opener 29 words · item 1 twist marker ends at spoken word 71, payoff "They would rather go hungry than change the menu." ends at word 132 (about 0:41) · "Bigger." at 43%, "Giants." at 70% · Doug beats: Gray Whale Calf 29, Law of the Tongue 23 plus "Doug is fine." · outro 24 words · 207 sentences, avg 14.4 words, max 34 -->
+<!-- words: 2969 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:14 at 195 wpm · draft 3 (2026-10-17) · 11 items · item words (section header counted with the item it introduces): Chinook Salmon 254 incl. "Snacks.", Sea Otter 254, Harbor Seal 264 incl. "Doug-sized.", Dolphin 250, Stingray 245, Moose 245 incl. "Bigger.", Great White Shark 263, Gray Whale Calf 269, Whale Shark 250 incl. "Giants.", The Law of the Tongue 251, Blue Whale 394 incl. closing and outro, 370 without the 24-word outro · opener 29 words · item 1 twist marker ends at spoken word 71, payoff "They would rather go hungry than change the menu." ends at word 132 (about 0:41) · "Bigger." at 43%, "Giants." at 70% · Doug beats: Gray Whale Calf 30 (6 + 11 + 13), Law of the Tongue 23 plus "Doug is fine." · outro 24 words · 207 sentences, avg 14.4 words, max 34 -->
