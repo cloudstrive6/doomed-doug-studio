@@ -113,6 +113,21 @@ dark specks inside white fuzz, because at phone size they read as dried blood or
 | Swamp | overcast sky `#b9c4a8` over swamp olive `#5d6b45` / `#6b7a4a`; keep every shot of the item on it, death beats included |
 | Dry hills | `#f6dcae` / `#f2c77a` · parchment `#e8dcc0` with rye `#d9b45a` · deep forest `#1f3a2a` |
 | Clinical / hospital (boss) | cold pale mint `#e4eeec`, floor `#b9c7c4`. Never cream: three cream items (opener, ergot, boss) collapse into one look |
+**Regional ocean ramp (from 021, prey-size axis; reuse for any "one ocean region per item" episode).** This is not a depth
+axis. It uses no depth-zone hex, so the depth language stays intact. Luminance falls from the mid items to the boss.
+| Item / region | Water | Sky / extra |
+|---|---|---|
+| North Pacific grey-green (salmon) | `#5d8a87` | `#cfd8d6` |
+| Kelp forest (otter) | `#4f8a7f` | `#d6e4e8` |
+| Open coast (seal, dolphin) | `#3a9ad9` | `#cfe9ff` |
+| Shallow sand flats (stingray) | `#5cc6c9` | `#cfe9ff` |
+| Cold strait (moose) | `#4a86a8` | `#cfe2ee` |
+| Then one step darker per item | `#2f7fbf` → `#2a6aa6` → `#1f5a94` | |
+| Old-map / history item | `#3f6f86` | sepia `#e9dcc0` |
+| Boss (open ocean, dusk) | `#14365e` (Doug auto-inks white) | closing dusk sky `#e88a4a` over `#f2a24a` |
+| Sombre fact cards (real injuries/deaths, text only) | `#2f6f9f`, night `#1b2f5a` | |
+Every shot of an item stays on its item colour, death beats included. `#5d8a87` and `#4f8a7f` count as green grounds (WordArt override below).
+
 **WordArt override on green or olive grounds** (any of the above greens, light or dark): `"top": "#ffffff", "bottom": "#ffe24a",
 "outline": "#1a1a1a"`. The default yellow-to-green gradient stays banned on green.
 

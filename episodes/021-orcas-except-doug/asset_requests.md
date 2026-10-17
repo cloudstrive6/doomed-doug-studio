@@ -28,6 +28,7 @@ x/y/scale, and Doug's head, face and red cap stay fully visible. Each costume sh
 - Shots (29): s003, s027-s029, s049-s050, s059, s075-s076, s103, s124, s130, s132, s137-s140, s167, s172, s202-s203, s205-s206,
   s213-s214, s232, s255-s256, s258. Used tiny (0.12-0.2) as map icons and up to 0.8, so keep the shape bold.
 - **Done (illustrator, 2026-10-17):** `assets/library/orca_fin.json`; preview `assets/previews/021-orcas-except-doug-creatures-a.png` (dark-water check `assets/previews/021-orcas-except-doug-creatures-dark.png`).
+- **Fix 1 done (illustrator, 2026-10-17, art_review #3):** forked tail replaced by two paired webbed hind flippers held together, tilted up, 5 digit lines each, splayed toe tips; 3 claw strokes on the front flipper. Spots/head/eye/whiskers/anchor unchanged; bbox now ~490x185 (x -255..236, y -89..95). Previews next to `salmon`: `assets/previews/021-seal-fix.png` (scale 1), `assets/previews/021-seal-fix-s04.png` (scale 0.4), dark check `assets/previews/021-check-0b2a4a.png`.
 
 ### orca_female
 - What: adult female orca (mother, "females leading", Moctezuma's companion).
