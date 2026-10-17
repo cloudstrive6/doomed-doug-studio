@@ -1,0 +1,467 @@
+{
+ "_note": "Variant B (thumbnail_brief B test): Archetype A 3x3 grid in item order, eight prey tiles each with an orca fin, ninth tile Doug waving from the rowboat with a red ?, labels SALMON / OTTER / SEAL / DOLPHIN / STINGRAY / MOOSE / GREAT WHITE / BLUE WHALE / 80 KG (no title or alt-title words).",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 24,
+   "y": 12,
+   "w": 400,
+   "h": 168,
+   "fill": "#4fc3e8",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "SALMON",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 14,
+     "y": 2,
+     "w": 420,
+     "h": 188,
+     "fill": "#4fc3e8",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "salmon",
+     "x": 244.0,
+     "y": 91.0,
+     "scale": 0.8,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "orca_fin",
+     "x": 68,
+     "y": 172,
+     "scale": 0.22,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 12,
+   "w": 400,
+   "h": 168,
+   "fill": "#7ed957",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "OTTER",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 430,
+     "y": 2,
+     "w": 420,
+     "h": 188,
+     "fill": "#7ed957",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "sea_otter",
+     "x": 660.0,
+     "y": 111.0,
+     "scale": 0.68,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "orca_fin",
+     "x": 484,
+     "y": 172,
+     "scale": 0.22,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 856,
+   "y": 12,
+   "w": 400,
+   "h": 168,
+   "fill": "#e04fa0",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "SEAL",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 846,
+     "y": 2,
+     "w": 420,
+     "h": 188,
+     "fill": "#e04fa0",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "harbor_seal",
+     "x": 1076.0,
+     "y": 96.0,
+     "scale": 0.66,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "orca_fin",
+     "x": 900,
+     "y": 172,
+     "scale": 0.22,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 24,
+   "y": 248,
+   "w": 400,
+   "h": 168,
+   "fill": "#ffe24a",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "DOLPHIN",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 14,
+     "y": 238,
+     "w": 420,
+     "h": 188,
+     "fill": "#ffe24a",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "pacific_white_sided_dolphin",
+     "x": 244.0,
+     "y": 347.0,
+     "scale": 0.58,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "orca_fin",
+     "x": 68,
+     "y": 408,
+     "scale": 0.22,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 248,
+   "w": 400,
+   "h": 168,
+   "fill": "#ff9a3d",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "STINGRAY",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 430,
+     "y": 238,
+     "w": 420,
+     "h": 188,
+     "fill": "#ff9a3d",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "short_tail_stingray",
+     "x": 700.0,
+     "y": 332.0,
+     "scale": 0.48,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "orca_fin",
+     "x": 484,
+     "y": 408,
+     "scale": 0.22,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 856,
+   "y": 248,
+   "w": 400,
+   "h": 168,
+   "fill": "#3a9ad9",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "MOOSE",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 846,
+     "y": 238,
+     "w": 420,
+     "h": 188,
+     "fill": "#3a9ad9",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "moose",
+     "x": 1066.0,
+     "y": 482.0,
+     "scale": 0.4,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 846,
+     "y": 372.0,
+     "w": 420,
+     "h": 120,
+     "fill": "#1f5a94",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       846,
+       372.0
+      ],
+      [
+       1266,
+       372.0
+      ]
+     ],
+     "color": "#000000",
+     "width": 4,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "orca_fin",
+     "x": 900,
+     "y": 408,
+     "scale": 0.22,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 24,
+   "y": 484,
+   "w": 400,
+   "h": 168,
+   "fill": "#9b6dd6",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "GREAT WHITE",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 14,
+     "y": 474,
+     "w": 420,
+     "h": 188,
+     "fill": "#9b6dd6",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "great_white_shark",
+     "x": 244.0,
+     "y": 573.0,
+     "scale": 0.46,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "orca_fin",
+     "x": 68,
+     "y": 644,
+     "scale": 0.22,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 484,
+   "w": 400,
+   "h": 168,
+   "fill": "#ff8fb1",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "BLUE WHALE",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 430,
+     "y": 474,
+     "w": 420,
+     "h": 188,
+     "fill": "#ff8fb1",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "blue_whale",
+     "x": 680.0,
+     "y": 578.0,
+     "scale": 0.68,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "orca_fin",
+     "x": 484,
+     "y": 644,
+     "scale": 0.22,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 856,
+   "y": 484,
+   "w": 400,
+   "h": 168,
+   "fill": "#f2a24a",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "80 KG",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 846,
+     "y": 474,
+     "w": 420,
+     "h": 188,
+     "fill": "#f2a24a",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 846,
+     "y": 612,
+     "w": 420,
+     "h": 80,
+     "fill": "#14365e",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       846,
+       612
+      ],
+      [
+       1266,
+       612
+      ]
+     ],
+     "color": "#000000",
+     "width": 4,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 1006.0,
+     "y": 576,
+     "scale": 0.23,
+     "pose": "wave",
+     "expression": "hopeful",
+     "facing": "right"
+    },
+    {
+     "type": "asset",
+     "name": "rowboat",
+     "x": 1006.0,
+     "y": 618,
+     "scale": 0.5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "?",
+     "x": 1176.0,
+     "y": 564,
+     "size": 140,
+     "color": "#e8202a",
+     "outline": "#000000",
+     "outline_width": 6,
+     "font": "Arimo",
+     "bold": true,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  }
+ ]
+}
