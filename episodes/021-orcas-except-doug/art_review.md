@@ -298,3 +298,40 @@ a salmon), s107 (ray beside NZ) and s250 (close-up of the fish).
 - **Illustrator:** nothing.
 - Re-review will cover only those shots. If the frame edges measure x <= 1280 (WA/BC) and y >= 250 (Aleutian), and the s234
   label clears the frame, this is a PASS.
+
+---
+
+# Keyframe review, round 3 (art director, 2026-10-17)
+
+Scope: all 22 contact sheets (s001-s259). I re-rendered every keyframe from the current `shotlist.json` first, because the last
+partial render (s082, s087) had replaced the contact folder with one sheet, and some older keyframes were from before the
+final shotlist edit. I also took 1080p pixel measurements of every round-2 shot and ran the counter-zone sweep again on all 259
+frames.
+
+## Verdict: PASS
+
+**Round-2 required fixes, all verified at 1080p:**
+1. WA/BC map (s006, s010, s013, s014, s023, s060, s084, s085): the frame's right edge is at **x 1258-1259** (limit 1280), in
+   the same place in all 8 shots. Everything on the map moved with it, and the labels under the map stay centred.
+2. Aleutian map (s036, s037, s052): the frame top is at **y 260** (limit 250). The otters, X marks, orcas and dashed line all
+   moved with it.
+3. s234: "TONGUE FIRST" is now below the Australia map. The frame line clears the counter zone and nothing overlaps.
+
+**Optional polish also done:** s082 (the label no longer touches the dorsal fin), s174 (clock lowered), s219 ("PARTNERS" and
+"NOT PREY" lowered), s255 (Doug is clear of the fin and splash, with about 40 px of water between them), s145 (the car_half
+scissors now clear the pectoral fin). The visual-screener's items are also in: s068 and s071 are seascapes, so there are at most
+2 navy cards in a row, and s087 has the ORCA vs FISHING GEAR tally.
+
+**Sweep:** Doug is on-model in every frame. The red cap is present on every alive, ghost and costume Doug, and ink turns white
+on the dark backgrounds. Item colours match the bible ramp, and every item tag is correct. The counter reads 170 to 178 on the
+right beats. No ink comes within 30 px of the counter box in any frame (s001 is the thumbnail opener and has no counter, so it
+was excluded). There is no gore anywhere. Layouts vary well: no composition repeats more than 2 times in a row.
+
+## Non-blocking notes (fix if the director touches these shots again; do not re-review)
+- s234: the top of the "TONGUE FIRST" box is 10 px below the map frame's bottom line (y 824 to 834). The 20 px rule wants
+  y about 885. It reads cleanly as a caption, and the gap came from my round-2 coordinate.
+- s145: after the polish move, the car_half wheels sit about 10 px above the bottom edge of the frame. Raising the car by 30
+  and moving it left by 40 would give it room and still clear the fin.
+
+## Routing
+- Nothing is blocking. Art is approved from my side. The stage moves to `art_approved` once the visual-screener also passes.

@@ -1,66 +1,54 @@
 # Visual review: 021-orcas-except-doug
 
-## Round 2: pre-render keyframes (22 contact sheets, s001-s259; re-rendered 18:04 after commit 6833084)
+## Round 3 (final): pre-render keyframes (22 contact sheets, s001-s259) + thumbnail
 
-VERDICT: FAIL
+VERDICT: PASS
 
-Round 1 found 9 blocking items. 8 of them are fixed. Item 9b is still open: s067-s071 are still five near-identical navy text cards, and s068 still has no picture. That is the only reason for the FAIL. No new blocking problems were found. Doug is on-model in every shot. The counter goes 170 to 178 consistently. There is no gore and no kids-show tone.
+Note on the build: `build/contact/` held only one partial sheet (s082, s087), left over from a `--shots` run. Also, `shotlist.json` (saved 18:12:54) was newer than most keyframes (18:11-18:12:10). I re-ran `python -m studio keyframes 021-orcas-except-doug` and reviewed all 259 fresh keyframes on 22 sheets. `validate shotlist` returns OK.
 
-### Round 1 items: status
+Twenty-one shots changed since round 2: s006, s010, s013, s014, s023, s036, s037, s052, s060, s068, s071, s082, s084, s085, s087, s100, s145, s174, s219, s234, s255. All were checked, and none of them has a regression.
+
+### Round 2 items: status
 
 | # | Shot(s) | Status |
 |---|---|---|
-| 1 | s145, s163 car | FIXED. `car_half` now shows a clean solid half, a dashed red cut line with scissors, and the missing half as a dashed ghost outline. No mask rectangle and no stray marks. |
-| 2 | s167 Unimak map | FIXED. The new `unimak_map` is one continuous frame. The 150+ fin grid sits in open water. |
-| 3 | Counter vs map frames (s105-s107, s128, s131-s133, s188, s189, s197, s205, s228, s229, s252, s253) | FIXED. Every map frame now clears the DOUG DEATHS box. The Norway pin in s253 is fully visible. |
-| 4 | s062, s063, s080, s254 text overlaps | FIXED. |
-| 5 | s202 title over Doug | FIXED. The title's baseline is at about y330 and the top of Doug's cap is at about y365 (full frame checked). |
-| 6 | s123, s124 moose vs HUD | FIXED. The antlers are clear of the counter. "LAND ANIMAL" now sits beside the moose. |
-| 7 | s256 fin on menu | FIXED. The fin is in the water to the right of the board. |
-| 8 | s051 ghost under counter | FIXED. |
-| 9a | s010-s014 map run | FIXED. s011 is now a hungry orca with a crossed-out plate, and s012 shows seals passing underwater. |
-| 9b | s067-s071 navy card run | NOT FIXED (see fix 1). |
-| 9c | s247-s250 sunset wides | FIXED. s250 is a close-up of Doug with the fish and "REAL". |
-| 10 | s129 water plant | FIXED. `water_weed_draped` reads as a floating weed mat. |
-| 11 | s086/s087/s100/s233 fin-photo grid | PARTLY FIXED. "FIN PHOTOS" and "16 IN ALL 3 HUNTS" were added. s087 still has no fishing-gear comparison (see fix 2). |
-| 12 | s107 ray on Australia | FIXED. The ray now sits next to the circled New Zealand. |
-| 13 | s152, s153 boat behind counter | FIXED. |
-| 14 | s231 FEMALES LEAD | FIXED. The label is centred and no orca is covered. |
-| 15 | s153 2:00 over orca | FIXED. |
-| 16 | s063 fish-eater shown as salmon | FIXED. It now shows an orca with a salmon icon. |
+| 1 | s067-s071 navy card run, s068 had no picture | FIXED. s068 is now a seascape: the notched surfboard sits at the waterline, the fin heads away to the right, there is a red arrow, and "HE SURVIVED" is at the top. s071 reuses the seascape with the fin further off and "IT LET GO". The longest navy run is now 2 (s069, s070). No rider, no blood, and the notch is a cartoon notch. |
+| 2 | s087 "8x" had no comparison | FIXED. There is now an "ORCA" row with 8 red ticks and a "FISHING GEAR" row with 1 grey tick. The scar strokes on the fin tiles are about 2x thicker. It reads in 1 second (full frame checked). |
+| 3 | s255 Doug overlapping the fin | FIXED. Doug is at x1760 and the fin at x1550. The splash ends at about x1680 and Doug's hand starts at about x1720, so they read as two separate shapes (full frame checked). |
+| 4 | s145 scissors near the pectoral fin | ACCEPTABLE. Now about 60-70 px diagonally from the fin tip at (1260,790). See note A. |
 
-### Must fix (blocking)
+### Sweep of all 22 sheets
+- **Doug:** on-model (red cap, white head) in every shot where he appears.
+- **Death counter:** steps 170 -> 171 (s029) -> 172 (s050) -> 173 (s099) -> 174 (s120) -> 175 (s140) -> 176 (s159) -> 177 (s200) -> 178 (s246). It matches the outro line "one hundred and seventy-eight" in s257.
+- **Overlaps:** no map frame or label covers the DOUG DEATHS box, and nothing overlaps the title labels.
+- **Content:** no gore anywhere. Deaths are X-eyes or a floating cap only, and the s001 jaw interior is dark maroon, not blood.
+- **Tone:** no kids-show tone.
+- **Variety:** no run of 4 or more near-identical compositions. The longest similar runs are 3: the s235-s238 menu callbacks change their emphasis each time, and the s146-s148 maps change their content.
+- **Changed map shots** (s006, s010, s013, s014, s023, s036, s037, s052, s060, s084, s085): each has a clean frame, clears the counter, and has labels inside the safe area.
+- **Other changed shots:**
+  - s082: five cars under the orca.
+  - s100: a 1-in-25 grid.
+  - s174: humpbacks chasing orcas, with a "6.5 HOURS" clock.
+  - s219: "PARTNERS / NOT PREY".
+  - s234: "SAME AS EDEN" with a dashed link.
 
-1. **s067-s071: still five near-identical navy text cards, and s068 has no picture (director; illustrator only if a surfer figure is wanted).**
-   - All five shots have the same navy background and the same "POINT SUR, CALIFORNIA, 1972" line, with text lines stacked underneath.
-   - s067 and s068 are text only. s069-s071 add the same surfboard and seal pair in the same place.
-   - This is the episode's only human-bite case, and the "it let go" beat has nothing to look at.
-   - **Fix s068.** Replace the navy card with a seascape: sky over sea water, `surfboard_bitten` floating at the waterline near x700, and `orca_fin` at about x1300 heading right, away from the board. Add a red curved arrow from the board to the fin, and keep "HE SURVIVED" at the top (about y300). If the director wants a rider on the board, use a plain stick figure, not Doug and with no cap, or ask the illustrator for a `surfer` asset. Nothing bloody: no bite marks and no red on the board.
-   - **Fix s070 or s071.** Change one of them so they are not both copies of s069. For example, in s071 ("and even then, the orca let go") reuse the s068 seascape with the fin further away and the text "IT LET GO".
-   - Keep s067 as the dateline card.
-   - Done means no more than 3 navy cards in a row.
+  All five read clearly.
 
-### Should fix (non-blocking)
+### Thumbnail (build/thumbnail.png, thumbnail_small.png, plus a 168 px feed simulation)
+- **Text:** "NOT ME?" is legible at 320 px and at 168 px. It uses no title or alt-title words.
+- **Subjects:** the orca breaching with a great white held side-on is obvious at feed size. The orca is hard-eyed, not cute. Tiny Doug in the rowboat, waving, is identifiable by the red cap even at 168 px.
+- **Content:** no blood, wound or red in the jaw; the mouth interior is dark maroon and reads as shadow.
+- **Fit with the title:** it complements "Why Orcas Kill Everything in the Ocean Except Doug" (threat plus exception) and is not misleading. The orca kill-list and the Doug exception are both in the video.
 
-2. **s087: "8x" still has nothing to compare against (director).** The narration compares orca scars with fishing-gear scars, but only orca scars are shown. Under "8x", add a two-row tally: "ORCA SCARS" with 8 red ticks, and "FISHING GEAR" with 1 grey tick (or a small hook/net icon). Make the red scar strokes on the fin tiles about 2x thicker (width 9 now; use about 16).
-3. **s255: Doug overlaps the orca fin (director).** Doug's cap and raised arm are drawn over the base of the fin and its splash (full frame: fin at about x1550, Doug at about x1650). Move Doug right to about x1760, or the fin left to about x1420, so there is about 60 px of open water between them. That makes the "they hunt everything" beat read as fin plus Doug, not one merged shape.
-4. **s145: the car_half scissors almost touch the shark's pectoral fin (director).** The gap is about 40 px at about x1180-1260, y740-790. Drop the car about 60 px (y+60), or nudge it left about 100 px, so the cut line and scissors read on their own.
+### Non-blocking notes (optional polish, do not hold the render)
+A. **s145, director.** The car's wheels now end at y1072, only 8 px above the bottom edge, so the car looks like it rests on the frame. The scissors are still fairly close to the shark's pectoral fin. Suggested change: move `car_half` from (1180,1070) to about (1000,1010). That puts the cut line clear of the fin (the fin spans x1260-1400) and leaves about 60 px of bottom margin.
 
-### Checked and fine (new this round)
-- s011 hungry orca with a crossed-out plate, and s012 seals underwater: both read in 1 second.
-- s069 `surfboard_bitten`: the notch is a cartoon notch with no blood. Fine.
-- s163 `car_half` next to the calf: it reads as "half a car", which matches the narration.
-- s164 shows 20 cars, which matches the narration.
-- s227 shows the cars and Doug icons with their counts. Legible.
-- s250: the large Doug close-up is on-model (red cap, white head).
-- s257/s258 outro: the "MAYBE" book callback reads clearly.
-- s259 CTA: the costume lineup is clear and the deaths are cartoon (X eyes, no gore).
-- The full frames for s145, s202 and s255 were viewed at 1920x1080.
+B. **s067, director, optional.** This is still a text-only dateline card ("POINT SUR, CALIFORNIA, 1972" on navy). It is accepted as a dateline beat now that s068 carries the picture.
 
 ### Routing summary
-- Director: 1 (s068 seascape, s070/s071 variation), 2, 3, 4
-- Illustrator: optional `surfer` figure for fix 1 only, if the director wants a rider on the board
+- Director: optional A, B
+- Illustrator: no action
 - Art director: no style violations; no action
-- Graphic designer: thumbnail not in scope this round
+- Graphic designer: thumbnail passes; no action
 
-Re-screen after fixes: s067-s071, s087, s145, s255.
+Cleared for narration/render. Post-render screen still due: build/samples, qc.json, and the Shorts.
