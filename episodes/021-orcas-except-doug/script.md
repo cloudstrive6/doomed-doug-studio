@@ -194,7 +194,7 @@ Its tail carries a barbed spine, with venom held in grooves along it.
 
 The worst part is what happened in nineteen ninety-eight.
 
-[Plain sea-blue card. A small orca silhouette lying on its side. Label: "HAURAKI GULF, 1998".]
+[Plain sea-blue card, white text only. Label: "HAURAKI GULF, 1998". No orca drawn, no Doug.]
 
 A young female orca was found dead near the Noises Islands in the Hauraki Gulf. At the necropsy, vets concluded she had probably been killed by a stingray spine.
 
@@ -320,7 +320,7 @@ A review of over a hundred encounters found that humpbacks often charge in to br
 
 Doug stayed close to a mother. The orcas came, two humpbacks crashed in, and the orcas left. We are slightly disappointed, and for completeness, have added Doug to the menu.
 
-For the first time on this list, something made the orcas back off, and some of it came to help a stranger.
+For the first time on this list, something made the orcas back off, and some of the help came from strangers.
 
 Giants.
 
@@ -452,4 +452,5 @@ They hunt everything in the ocean. Doug, they tried to feed.
 
 Doug deaths: one hundred and seventy-eight. He still hasn't eaten the fish. What should Doug dress up as next? Tell us in the comments.
 
-<!-- words: 2969 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:14 at 195 wpm · draft 3 (2026-10-17) · 11 items · item words (section header counted with the item it introduces): Chinook Salmon 254 incl. "Snacks.", Sea Otter 254, Harbor Seal 264 incl. "Doug-sized.", Dolphin 250, Stingray 245, Moose 245 incl. "Bigger.", Great White Shark 263, Gray Whale Calf 269, Whale Shark 250 incl. "Giants.", The Law of the Tongue 251, Blue Whale 394 incl. closing and outro, 370 without the 24-word outro · opener 29 words · item 1 twist marker ends at spoken word 71, payoff "They would rather go hungry than change the menu." ends at word 132 (about 0:41) · "Bigger." at 43%, "Giants." at 70% · Doug beats: Gray Whale Calf 30 (6 + 11 + 13), Law of the Tongue 23 plus "Doug is fine." · outro 24 words · 207 sentences, avg 14.4 words, max 34 -->
+<!-- creative director gate edits (2026-10-17): Hauraki card is text-only (no dead-orca silhouette, brief: no carcass); "some of it came to help a stranger" changed to "some of the help came from strangers" (-1 word, Gray Whale Calf 268). -->
+<!-- words: 2968 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:14 at 195 wpm · draft 3 (2026-10-17) · 11 items · item words (section header counted with the item it introduces): Chinook Salmon 254 incl. "Snacks.", Sea Otter 254, Harbor Seal 264 incl. "Doug-sized.", Dolphin 250, Stingray 245, Moose 245 incl. "Bigger.", Great White Shark 263, Gray Whale Calf 269, Whale Shark 250 incl. "Giants.", The Law of the Tongue 251, Blue Whale 394 incl. closing and outro, 370 without the 24-word outro · opener 29 words · item 1 twist marker ends at spoken word 71, payoff "They would rather go hungry than change the menu." ends at word 132 (about 0:41) · "Bigger." at 43%, "Giants." at 70% · Doug beats: Gray Whale Calf 30 (6 + 11 + 13), Law of the Tongue 23 plus "Doug is fine." · outro 24 words · 207 sentences, avg 14.4 words, max 34 -->
