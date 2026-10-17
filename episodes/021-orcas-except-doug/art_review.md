@@ -118,3 +118,108 @@ creative director so the brief/script wording does not get "fixed" later.
 ## Routing
 - Illustrator: fix 1 (`harbor_seal`). Optional: deer brow, whaleboat oar shade.
 - Director: confirm the s097 swap. Keep the Salmon/Otter wordart override and the item-colour discipline above.
+
+---
+
+# Keyframe review (art director, 2026-10-17)
+
+Scope: all 22 contact sheets (`build/contact/sheet_01..22.png`, s001-s259), with full-resolution crops from
+`build/keyframes/` for every overlap or readability doubt (counter zone, map frames, Doug close calls). I checked them against the
+art bible: the 021 regional ramp, the counter zone (x 1300-1860, y 110-230; inset frames start at y >= 250 or end at x <= 1280),
+the text and map rules, Doug's locked design and the rules in style bible section 7 (1-9).
+
+## Verdict: FAIL (13 required fix groups, all director unless marked)
+
+**What works:** the style is consistent across all 259 frames. Doug is on-model everywhere, and the cap is visible in every
+costume, ghost and cap-only death. The counter ticks exactly on the death beats (s029 171, s050 172, s099 173, s120 174, s140 175,
+s159 176, s200 177, s246 178) and holds on the survivals (s075, s177-s179, s222). Item colours follow the approved ramp, and Salmon
+and Otter wordart all use the green-ground override. The first reveals (s040, s194) use the thin red rim with no red speckle.
+Nothing is gory: the s001 jaws are cartoon, and the s050 red in the splash reads as the cap on the rock. The pacing of the build-up
+groups is good, and layouts rotate well (maps, scales, menus, costumes, text cards). The failures are almost all collisions with
+the counter and map frames, plus a few readability problems.
+
+## Required fixes
+
+1. **Wordart/labels touching or overlapping the counter.** Move glyph tops to y >= 250 wherever the text spans x 1300-1860, or
+   end the text at x <= 1280:
+   s015 "RATHER GO HUNGRY" (tops butt the box), s062 "MAMMAL EATERS" and s063 "FISH EATERS" (label boxes overlap the counter;
+   move both to about (1250, 330)), s080 "LARGEST" (overlaps the box), s094 "EATS DOLPHINS" (tops at y ~170, touches the box's
+   left edge), s127 "STRONG SWIMMERS" ("RS" runs under the box), s162 "FIRST WHALE" (tops at y ~205), s180 "BACK OFF"
+   (touches the box), s183 "BIGGEST FISH" (tops at y ~170), s203 "BACKGROUND" (touches the box), s254 "THEY WAITED"
+   (label overlaps the counter).
+2. **Creatures and props inside the counter zone.**
+   - s123: the moose's antlers touch the counter box. s124: the moose is half hidden behind the counter *and* the "LAND ANIMAL"
+     label, so the subject of the line is unreadable. Put the moose on the right hill at y >= 300 (body below the zone) and move
+     the label to the moose's left.
+   - s152, s153: the right-hand fishing boat sits behind the counter, and its rod tip reaches the caption bar. Move that boat to
+     x <= 1200, or drop the horizon to y >= 260.
+   - s230: the 2019-adult blue whale's nose runs into the zone (it touches the box's bottom-left). Shift the three whales and their
+     labels left by about 150, or start the stack at y >= 260.
+3. **Ghost Doug inside the counter zone.** The ghost's cap touches or overlaps the counter box in s051, s121, s160 and s201.
+   Spawn ghosts at x <= 1250 or with the head at y >= 290 (s099 and s246 are placed correctly).
+4. **Inset maps under the counter.** This is the 008 rule: the frame must start at y >= 250 or end at x <= 1280. These shots
+   have the counter sitting on the map's top-right corner or frame: s128, s131, s132, s133 (Icy Strait), s155 (Farallon),
+   s165, s166 (top at y ~231, borderline), s167, s172, s173 (Monterey), s188, s189, s197 (Gulf of California), s204, s205
+   (Eden), s228, s229 (Australia), s252, s253 (world). Shrink to about 0.85 and lower the frame top to y >= 260, or end it at
+   x <= 1280. Keep each map in the same place across its build-up group so nothing jumps.
+5. **Text crossing a map frame.** s197 "SHARK HUNTERS" sits on the map's bottom frame line. s228 "3 TIMES" and s229
+   "2019 TO 2021" overlap the frame's bottom-right corner. Leave at least 20 px of clear space (after fix 4 there is room below the
+   frame).
+6. **s030: Doug reads as a floating head.** At scale 0.4 on `#5d8a87`, his body lines are almost invisible, so the frame shows a
+   capped head drifting next to an orca with a salmon in its mouth (a decapitation read). Make the body readable (scale >= 0.5,
+   with normal ink and not the faded ghost tint), or drop him from the shot. The ghost already plays in s029.
+7. **s075, s076: the surfboard goes through Doug's chest.** The board is at y 594 and Doug floats at y 640 (s = 0.5), so the
+   board line crosses his torso and the seal costume, and it reads as a skewer. Either stand him *on* the board as in s073 (hip =
+   board top - 152 x 0.5) or put him in the water beside the board (x about 1250) with the board drawn after him.
+8. **s108: the stingray's tail tip touches Doug's face.** The tail and the pale barb end at his cap and mouth. On an item about a
+   lethal barb this is gore-adjacent, so it must not ship. Move the ray right (x about 1250) or Doug left, keeping 80 px or more
+   between the tail tip and his head. The size comparison still reads.
+9. **s202: the item title runs through Doug's head.** "THE LAW OF THE TONGUE" at y 350 crosses his cap and face in the boat.
+   Lower the boat and Doug by about 80 (horizon to about 700, keeping hip = boat seat), or shrink the title (size about 110, y 300)
+   so its glyph bottoms clear the cap top by 20 px or more. Keep glyph tops at y >= 250 where the title spans x > 1300.
+10. **Drawing and composition glitches.**
+    - s145, s163 ("half a car"): the cover `rect` that hides the car's back half is a flat block that does not match the textured
+      background (light rays in s145). It leaves an orphaned wheel stroke and a cut body edge, so it looks like a render bug. Draw
+      the missing half as a red dashed outline (cut line plus ghosted half) instead of covering it, and delete the cover rect.
+    - s141: the moose is a full standing moose sunk below the surface line (legs and all underwater). Use the swimming
+      composition from s127-s130 (body at the water line, head and antlers above), with the white dashed line from the boat to it.
+    - s129: `water_plants_bunch` at 0.9 hangs in the air beside the moose's head with a leaf "head" and stem "limbs", so it reads
+      as a little green stick creature. Scale it to about 0.5 and tuck it at the moose's mouth, overlapping the muzzle. If it still
+      reads as a figure, **illustrator**: redraw it as a limp, draped weed clump (no single top leaf).
+    - s167: a stray full-height black vertical line runs through the Unimak `tile` (x about 760). Fix the tile crop so only the
+      outer frame shows.
+    - s256: the orca fin is drawn on top of THE MENU and covers the "MOOSE, 364-725 kg" line. Move the fin into the open water
+      to the right of the menu (x >= 1250).
+11. **Off-item backgrounds.** The rule from the asset review is that every shot of an item stays on its item colour.
+    - Cream `#f4f1dc` (the 019/020 opener colour) is used in s125, s126, s134, s135, s136 (Moose) and s143 (Great White). Use the
+      item's sky over a floor: Moose `#cfe2ee` and Great White water `#2f7fbf`. The scientists can stand on a seabed strip, as in
+      s018.
+    - The pale studio greys `#e9f3f8` and `#e4eef4` are used in s057, s058, s072 (Harbor Seal), s163, s164 (Gray Whale Calf), s186
+      and s187 (Whale Shark). Put these weigh-ins on the item colour: seal sky `#cfe9ff`, and for calf and whale shark the item
+      water `#2a6aa6` and `#1f5a94`, as s018 did for salmon. s035 (otter sky `#d6e4e8`) is fine.
+    - Accepted as is: s212-s213 (night is part of the "overnight" beat), s220 (a callback to the 008 boat scene, so the 008
+      look is intended), and s259 (end card).
+12. **s067-s071: five text-only frames in a row, and the text jumps.** The block re-centres vertically in every shot, so line 1
+    moves (y ~1007 → ~987) as lines are added, and five consecutive frames share one composition. Anchor line 1 at a fixed y
+    (about 400) and add lines below it. From s069 ("mistaken for a seal?") add one image: `surfboard_bitten` at about (960, 820),
+    scale 0.7, with a small `harbor_seal` at 0.4 beside it, on the night ground. Do not add red. s066 (Doug alone) and s072 already
+    break the run on either side.
+13. **Copy on screen (s233).** "16 IN ALL 3" reads as a typo. Change it to "16 IN ALL 3 HUNTS" (size 40, wrapped to two lines if
+    needed, centre x <= 1680).
+
+## Optional polish (not blocking)
+- s006, s010-s014, s084, s085: the map's right edge sits at about x 1290 right beside the counter. Nothing touches, but shift the
+  map 20 px left for air.
+- s082: the orca's dorsal tip touches the bottom of the "10 TONNES" box. Raise the label by 30.
+- s153: the "2:00" label sits on the orca's back. Move it above the stopwatch.
+- s177: the gray whale's fluke touches the costume hood. Move Doug 60 px down-left.
+- s178: the speckle "commotion" cloud spills over the caption bar. Clip it to y >= 120 or drop its density.
+- s224, s225: the tiny white-ink Doug is lost against the whale's belly line under the flipper. Drop him 60 px into clear water
+  so the scale gag reads.
+- s231: "FEMALES LEAD" covers one orca in the bottom row. Move it to y 1030, or remove that orca.
+
+## Routing
+- **Director:** fixes 1-13 (shotlist edits only), plus the optional polish.
+- **Illustrator:** only if the fix-10 rescale of `water_plants_bunch` still reads as a figure.
+- Re-render keyframes for the touched shots (`python -m studio keyframes 021-orcas-except-doug --shots ...`) and send the new
+  contact sheets back. Re-review will cover only the listed shots.

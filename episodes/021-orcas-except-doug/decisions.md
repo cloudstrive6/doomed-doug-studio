@@ -29,3 +29,17 @@
   - Editor: check Chirp on Moctezuma, Hauraki, Unimak, Te Ara, Dall's.
   - Optional, not done: "average new car" still appears in several items; the director can vary the visual analogy on screen.
 - Series bible updated: counter 178, THE MENU (episode-only), costume-gag note, used-once lines, episode log row 021.
+
+## 2026-10-17: thumbnail pick: A (hero orca, "NOT ME?")
+- **Winner: A** (archetype C hero) stays in `thumbnail.json`. **B** (3x3 grid) stays in `thumbnail_b.json` as the A/B alternate. No file swap was needed.
+- Why A:
+  1. **It sells the title's one idea in a single glance.** "Why Orcas Kill Everything in the Ocean Except Doug" is about one exception, not a
+     list. A shows the contrast directly: a great white in the jaws and Doug ignored beside it. "NOT ME?" adds the question without
+     repeating a title word. B shows the "everything" part but hides the "except" in tile 9, the last thing a viewer reads.
+  2. **Feed size (320 px):** in A, the orca, the shark and "NOT ME?" all read, and the red cap is still a visible dot. In B, the labels are legible
+     but the tiles blur into a generic animal chart.
+  3. **Tone and kid-appeal:** B's smiling salmon, otter and seal make it look like a nursery chart. A is powerful and adult-coded. The orca has
+     a hard eye and an open jaw, and there is no smile curve.
+  4. **Continuity:** the approved script and shotlist s001 open on this exact image (brief, opening section). The growth memo also asked for this concept.
+- Policy check on A: the shark is whole, with no blood and no wound. The dark mouth interior is shading, not red. Doug is unharmed and in cartoon style. PASS for me.
+- Note for the graphic designer: keep B ready. If A's CTR is below about 3% after 48 h, swap to B (Test & Compare if available).
