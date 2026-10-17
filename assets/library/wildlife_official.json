@@ -1,0 +1,830 @@
+{
+ "name": "wildlife_official",
+ "description": "Crude-tier stick-man wildlife official / spokesman (no red cap): green peaked official cap with a gold badge and black peak, bushy moustache, khaki short-sleeved shirt with a gold shield badge, pocket, green tie and epaulettes, olive trousers; front hand raised mid-explanation. auto_ink. Anchor hips (0,0), feet +150, cap top ~-326. Faces right.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "character",
+  "human",
+  "stick man",
+  "official",
+  "ranger",
+  "spokesman",
+  "021"
+ ],
+ "auto_ink": true,
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     16.2,
+     76.3
+    ],
+    [
+     31.6,
+     148.7
+    ]
+   ],
+   "width": 22,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     4
+    ],
+    [
+     16.2,
+     76.3
+    ],
+    [
+     30.7,
+     140
+    ]
+   ],
+   "width": 13,
+   "color": "#5b6b3a",
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": 43.6,
+   "y": 150,
+   "rx": 20,
+   "ry": 8,
+   "fill": "#1e1a16",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -16.2,
+     76.3
+    ],
+    [
+     -31.6,
+     148.7
+    ]
+   ],
+   "width": 22,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     4
+    ],
+    [
+     -16.2,
+     76.3
+    ],
+    [
+     -30.7,
+     140
+    ]
+   ],
+   "width": 13,
+   "color": "#5b6b3a",
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": -19.6,
+   "y": 150,
+   "rx": 20,
+   "ry": 8,
+   "fill": "#1e1a16",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -28,
+     -122
+    ],
+    [
+     -58,
+     -68
+    ],
+    [
+     -76,
+     -18
+    ]
+   ],
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -28,
+     -122
+    ],
+    [
+     -50,
+     -82
+    ]
+   ],
+   "width": 20,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -28,
+     -122
+    ],
+    [
+     -50,
+     -82
+    ]
+   ],
+   "width": 12,
+   "color": "#c8b37a",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -34,
+     -130
+    ],
+    [
+     34,
+     -130
+    ],
+    [
+     40,
+     6
+    ],
+    [
+     -40,
+     6
+    ]
+   ],
+   "fill": "#c8b37a",
+   "width": 5
+  },
+  {
+   "type": "spray",
+   "x": -24,
+   "y": -40,
+   "r": 26,
+   "color": "#9a8650",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -14,
+     -130
+    ],
+    [
+     0,
+     -112
+    ],
+    [
+     14,
+     -130
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 3,
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -5,
+     -114
+    ],
+    [
+     5,
+     -114
+    ],
+    [
+     8,
+     -50
+    ],
+    [
+     0,
+     -40
+    ],
+    [
+     -8,
+     -50
+    ]
+   ],
+   "fill": "#3f5a2e",
+   "width": 3,
+   "keep_ink": true
+  },
+  {
+   "type": "rect",
+   "x": -30,
+   "y": -96,
+   "w": 22,
+   "h": 22,
+   "fill": "#9a8650",
+   "width": 3,
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -90
+    ],
+    [
+     -8,
+     -90
+    ]
+   ],
+   "width": 2,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     14,
+     -100
+    ],
+    [
+     32,
+     -104
+    ],
+    [
+     34,
+     -86
+    ],
+    [
+     23,
+     -72
+    ],
+    [
+     12,
+     -86
+    ]
+   ],
+   "fill": "#f2c230",
+   "width": 3,
+   "keep_ink": true
+  },
+  {
+   "type": "circle",
+   "x": 23,
+   "y": -90,
+   "r": 4,
+   "fill": "#b8860b",
+   "width": 1,
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -32,
+     -128
+    ],
+    [
+     -14,
+     -126
+    ]
+   ],
+   "width": 6,
+   "color": "#3f5a2e",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -38,
+     2
+    ],
+    [
+     38,
+     2
+    ]
+   ],
+   "width": 7,
+   "color": "#3a2a1a",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     28,
+     -122
+    ],
+    [
+     56,
+     -84
+    ]
+   ],
+   "width": 20,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     28,
+     -122
+    ],
+    [
+     56,
+     -84
+    ]
+   ],
+   "width": 12,
+   "color": "#c8b37a",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     56,
+     -84
+    ],
+    [
+     70,
+     -70
+    ],
+    [
+     100,
+     -88
+    ]
+   ],
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     32,
+     -126
+    ],
+    [
+     14,
+     -126
+    ]
+   ],
+   "width": 6,
+   "color": "#3f5a2e",
+   "keep_ink": true
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -218,
+   "r": 72,
+   "fill": "#ffffff",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -12.5,
+     -147.1
+    ],
+    [
+     -24.6,
+     -150.3
+    ],
+    [
+     -36.0,
+     -155.6
+    ],
+    [
+     -46.3,
+     -162.8
+    ],
+    [
+     -55.2,
+     -171.7
+    ],
+    [
+     -62.4,
+     -182.0
+    ],
+    [
+     -67.7,
+     -193.4
+    ],
+    [
+     -70.9,
+     -205.5
+    ],
+    [
+     -72.0,
+     -218.0
+    ],
+    [
+     -70.9,
+     -230.5
+    ],
+    [
+     -67.7,
+     -242.6
+    ],
+    [
+     -62.4,
+     -254.0
+    ],
+    [
+     -55.2,
+     -264.3
+    ],
+    [
+     -46.3,
+     -273.2
+    ],
+    [
+     -36.0,
+     -280.4
+    ],
+    [
+     -24.6,
+     -285.7
+    ],
+    [
+     -12.5,
+     -288.9
+    ],
+    [
+     -8.6,
+     -280.0
+    ],
+    [
+     -19.0,
+     -275.2
+    ],
+    [
+     -28.4,
+     -268.6
+    ],
+    [
+     -36.6,
+     -260.4
+    ],
+    [
+     -43.2,
+     -251.0
+    ],
+    [
+     -48.0,
+     -240.6
+    ],
+    [
+     -51.0,
+     -229.5
+    ],
+    [
+     -52.0,
+     -218.0
+    ],
+    [
+     -51.0,
+     -206.5
+    ],
+    [
+     -48.0,
+     -195.4
+    ],
+    [
+     -43.2,
+     -185.0
+    ],
+    [
+     -36.6,
+     -175.6
+    ],
+    [
+     -28.4,
+     -167.4
+    ],
+    [
+     -19.0,
+     -160.8
+    ],
+    [
+     -8.6,
+     -156.0
+    ]
+   ],
+   "fill": "#d6d6d6",
+   "width": 0,
+   "outline": false,
+   "boil": 0.5
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -218,
+   "r": 72,
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": 6,
+   "y": -220,
+   "rx": 10,
+   "ry": 15,
+   "fill": "#ffffff",
+   "width": 3,
+   "boil": 0.3,
+   "keep_ink": true
+  },
+  {
+   "type": "circle",
+   "x": 9,
+   "y": -220,
+   "r": 5,
+   "fill": "#000000",
+   "width": 1,
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": 38,
+   "y": -220,
+   "rx": 10,
+   "ry": 15,
+   "fill": "#ffffff",
+   "width": 3,
+   "boil": 0.3,
+   "keep_ink": true
+  },
+  {
+   "type": "circle",
+   "x": 41,
+   "y": -220,
+   "r": 5,
+   "fill": "#000000",
+   "width": 1,
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -6,
+     -244
+    ],
+    [
+     18,
+     -240
+    ]
+   ],
+   "width": 6,
+   "color": "#3a2a1a",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     28,
+     -240
+    ],
+    [
+     50,
+     -244
+    ]
+   ],
+   "width": 6,
+   "color": "#3a2a1a",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     6,
+     -196
+    ],
+    [
+     22,
+     -204
+    ],
+    [
+     38,
+     -200
+    ],
+    [
+     54,
+     -204
+    ],
+    [
+     68,
+     -194
+    ],
+    [
+     58,
+     -184
+    ],
+    [
+     40,
+     -190
+    ],
+    [
+     24,
+     -186
+    ],
+    [
+     10,
+     -184
+    ]
+   ],
+   "fill": "#5a3a22",
+   "width": 3,
+   "smooth": true,
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     24,
+     -172
+    ],
+    [
+     46,
+     -172
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -64,
+     -262
+    ],
+    [
+     -60,
+     -290
+    ],
+    [
+     60,
+     -294
+    ],
+    [
+     66,
+     -262
+    ],
+    [
+     20,
+     -256
+    ],
+    [
+     -30,
+     -256
+    ]
+   ],
+   "fill": "#3f5a2e",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -300
+    ],
+    [
+     -50,
+     -322
+    ],
+    [
+     40,
+     -326
+    ],
+    [
+     88,
+     -306
+    ],
+    [
+     60,
+     -288
+    ],
+    [
+     -62,
+     -284
+    ]
+   ],
+   "fill": "#4f6e3a",
+   "width": 4,
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -268
+    ],
+    [
+     64,
+     -268
+    ]
+   ],
+   "width": 4,
+   "color": "#c9a23a",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -262
+    ],
+    [
+     78,
+     -262
+    ],
+    [
+     112,
+     -250
+    ],
+    [
+     106,
+     -242
+    ],
+    [
+     66,
+     -248
+    ],
+    [
+     40,
+     -254
+    ]
+   ],
+   "fill": "#111111",
+   "width": 4,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     14,
+     -300
+    ],
+    [
+     24,
+     -292
+    ],
+    [
+     34,
+     -300
+    ],
+    [
+     30,
+     -282
+    ],
+    [
+     18,
+     -282
+    ]
+   ],
+   "fill": "#f2c230",
+   "width": 3,
+   "keep_ink": true
+  }
+ ]
+}

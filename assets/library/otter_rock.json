@@ -1,0 +1,259 @@
+{
+ "name": "otter_rock",
+ "description": "Small flat grey stone (sea-otter tool): ~140 x 70, flat top at y -40 where doug_cap sits (cap at about (0,-38) x scale with the cap at ~0.8 of the rock's scale), rounded bottom, darker underside, light top edge, speckles and a crack. Anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "rock",
+  "stone",
+  "otter",
+  "021"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -66,
+     -40
+    ],
+    [
+     60,
+     -42
+    ],
+    [
+     70,
+     -30
+    ],
+    [
+     66,
+     4
+    ],
+    [
+     40,
+     24
+    ],
+    [
+     -10,
+     28
+    ],
+    [
+     -50,
+     22
+    ],
+    [
+     -70,
+     0
+    ]
+   ],
+   "fill": "#8c8f93",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -66,
+     4
+    ],
+    [
+     -40,
+     18
+    ],
+    [
+     0,
+     22
+    ],
+    [
+     40,
+     18
+    ],
+    [
+     62,
+     0
+    ],
+    [
+     40,
+     10
+    ],
+    [
+     0,
+     12
+    ],
+    [
+     -40,
+     8
+    ]
+   ],
+   "fill": "#5e6166",
+   "width": 0,
+   "outline": false,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -58,
+     -36
+    ],
+    [
+     40,
+     -38
+    ],
+    [
+     30,
+     -28
+    ],
+    [
+     -40,
+     -28
+    ]
+   ],
+   "fill": "#b7babd",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 20,
+   "y": 2,
+   "r": 18,
+   "color": "#5e6166",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -30,
+   "y": -10,
+   "r": 14,
+   "color": "#b7babd",
+   "density": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": -40,
+   "y": -12,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#4a4c50",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -12,
+   "y": 0,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#4a4c50",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 24,
+   "y": -14,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#4a4c50",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 44,
+   "y": 4,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#4a4c50",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": 6,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#4a4c50",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 6,
+   "y": 12,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#4a4c50",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     10,
+     -40
+    ],
+    [
+     18,
+     -26
+    ],
+    [
+     14,
+     -14
+    ]
+   ],
+   "width": 2,
+   "color": "#55585c"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -66,
+     -40
+    ],
+    [
+     60,
+     -42
+    ],
+    [
+     70,
+     -30
+    ],
+    [
+     66,
+     4
+    ],
+    [
+     40,
+     24
+    ],
+    [
+     -10,
+     28
+    ],
+    [
+     -50,
+     22
+    ],
+    [
+     -70,
+     0
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}

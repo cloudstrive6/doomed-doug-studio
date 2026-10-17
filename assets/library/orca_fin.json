@@ -1,0 +1,360 @@
+{
+ "name": "orca_fin",
+ "description": "Top of a surfacing male orca: tall straight jet-black dorsal fin (slightly back-swept, tip at y -300) on a short strip of black back with a grey saddle patch behind the fin, mid-grey highlight along the leading edge so it reads on dark water, white ripple ring and foam on the waterline. Facing right (trailing edge left). Anchor bottom-centre on the waterline (y=0); ~330 wide incl. ripples (fin+back x -118..122), y -300..18.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "orca",
+  "killer whale",
+  "fin",
+  "water",
+  "icon",
+  "021"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 6,
+   "rx": 160,
+   "ry": 24,
+   "width": 4,
+   "color": "#ffffff",
+   "fill": "#bfe6ff"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 6,
+   "rx": 128,
+   "ry": 15,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -118.0,
+     2.0
+    ],
+    [
+     -98.0,
+     -22.0
+    ],
+    [
+     -62.0,
+     -36.0
+    ],
+    [
+     -40.0,
+     -110.0
+    ],
+    [
+     -24.0,
+     -220.0
+    ],
+    [
+     -12.0,
+     -292.0
+    ],
+    [
+     2.0,
+     -300.0
+    ],
+    [
+     12.0,
+     -270.0
+    ],
+    [
+     32.0,
+     -150.0
+    ],
+    [
+     56.0,
+     -62.0
+    ],
+    [
+     72.0,
+     -42.0
+    ],
+    [
+     104.0,
+     -24.0
+    ],
+    [
+     122.0,
+     2.0
+    ]
+   ],
+   "fill": "#17181d",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62.0,
+     -36.0
+    ],
+    [
+     -40.0,
+     -110.0
+    ],
+    [
+     -24.0,
+     -220.0
+    ],
+    [
+     -12.0,
+     -292.0
+    ],
+    [
+     -4.0,
+     -280.0
+    ],
+    [
+     -8.0,
+     -200.0
+    ],
+    [
+     -14.0,
+     -110.0
+    ],
+    [
+     -20.0,
+     -36.0
+    ]
+   ],
+   "fill": "#0d0d10",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -104.0,
+     -14.0
+    ],
+    [
+     -86.0,
+     -28.0
+    ],
+    [
+     -62.0,
+     -34.0
+    ],
+    [
+     -48.0,
+     -26.0
+    ],
+    [
+     -62.0,
+     -14.0
+    ],
+    [
+     -86.0,
+     -8.0
+    ]
+   ],
+   "fill": "#a3a8b0",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -70,
+   "y": -22,
+   "r": 16,
+   "color": "#c8ccd2",
+   "density": 0.15
+  },
+  {
+   "type": "spray",
+   "x": 10,
+   "y": -120,
+   "r": 34,
+   "color": "#34363f",
+   "density": 0.15
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     6.0,
+     -284.0
+    ],
+    [
+     14.0,
+     -240.0
+    ],
+    [
+     30.0,
+     -150.0
+    ],
+    [
+     50.0,
+     -74.0
+    ],
+    [
+     68.0,
+     -44.0
+    ],
+    [
+     100.0,
+     -26.0
+    ]
+   ],
+   "width": 5,
+   "color": "#7d838d"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -118.0,
+     2.0
+    ],
+    [
+     -98.0,
+     -22.0
+    ],
+    [
+     -62.0,
+     -36.0
+    ],
+    [
+     -40.0,
+     -110.0
+    ],
+    [
+     -24.0,
+     -220.0
+    ],
+    [
+     -12.0,
+     -292.0
+    ],
+    [
+     2.0,
+     -300.0
+    ],
+    [
+     12.0,
+     -270.0
+    ],
+    [
+     32.0,
+     -150.0
+    ],
+    [
+     56.0,
+     -62.0
+    ],
+    [
+     72.0,
+     -42.0
+    ],
+    [
+     104.0,
+     -24.0
+    ],
+    [
+     122.0,
+     2.0
+    ]
+   ],
+   "width": 5,
+   "smooth": true,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -150.0,
+     2.0
+    ],
+    [
+     -110.0,
+     -3.0
+    ],
+    [
+     -60.0,
+     4.0
+    ],
+    [
+     0.0,
+     -2.0
+    ],
+    [
+     60.0,
+     4.0
+    ],
+    [
+     110.0,
+     -3.0
+    ],
+    [
+     155.0,
+     2.0
+    ]
+   ],
+   "width": 5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -165.0,
+     12.0
+    ],
+    [
+     -138.0,
+     12.0
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     140.0,
+     13.0
+    ],
+    [
+     168.0,
+     12.0
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": 0,
+   "r": 18,
+   "color": "#ffffff",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 60,
+   "y": 0,
+   "r": 18,
+   "color": "#ffffff",
+   "density": 0.3
+  }
+ ]
+}

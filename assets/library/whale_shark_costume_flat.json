@@ -1,0 +1,629 @@
+{
+ "name": "whale_shark_costume_flat",
+ "description": "whale_shark_costume rolled belly-up: horizontal felt body (x -134..286) with the white belly on top and the spotted dark blue-grey back underneath, dorsal fin pointing down, a pectoral fin flopped up, crescent tail at the right. Drawn over an `on_back` Doug at the same x/y/scale (no rotate, anchor = his hips): head, X eyes and cap clear on the left.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "costume",
+  "prop",
+  "whale shark",
+  "flat",
+  "on_back",
+  "021"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     170,
+     -6
+    ],
+    [
+     220,
+     -60
+    ],
+    [
+     262,
+     -130
+    ],
+    [
+     276,
+     -150
+    ],
+    [
+     272,
+     -90
+    ],
+    [
+     256,
+     -20
+    ],
+    [
+     276,
+     40
+    ],
+    [
+     286,
+     80
+    ],
+    [
+     250,
+     60
+    ],
+    [
+     214,
+     20
+    ],
+    [
+     170,
+     18
+    ]
+   ],
+   "fill": "#4d6478",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     256,
+     -20
+    ],
+    [
+     276,
+     40
+    ],
+    [
+     286,
+     80
+    ],
+    [
+     250,
+     60
+    ],
+    [
+     226,
+     20
+    ]
+   ],
+   "fill": "#33465a",
+   "width": 0,
+   "outline": false,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     170,
+     -6
+    ],
+    [
+     220,
+     -60
+    ],
+    [
+     262,
+     -130
+    ],
+    [
+     276,
+     -150
+    ],
+    [
+     272,
+     -90
+    ],
+    [
+     256,
+     -20
+    ],
+    [
+     276,
+     40
+    ],
+    [
+     286,
+     80
+    ],
+    [
+     250,
+     60
+    ],
+    [
+     214,
+     20
+    ],
+    [
+     170,
+     18
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     40
+    ],
+    [
+     20,
+     100
+    ],
+    [
+     50,
+     140
+    ],
+    [
+     60,
+     110
+    ],
+    [
+     60,
+     40
+    ]
+   ],
+   "fill": "#33465a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60,
+     -30
+    ],
+    [
+     -90,
+     -80
+    ],
+    [
+     -100,
+     -96
+    ],
+    [
+     -74,
+     -76
+    ],
+    [
+     -40,
+     -40
+    ]
+   ],
+   "fill": "#33465a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -132,
+     -10
+    ],
+    [
+     -110,
+     -44
+    ],
+    [
+     -20,
+     -60
+    ],
+    [
+     80,
+     -56
+    ],
+    [
+     160,
+     -30
+    ],
+    [
+     180,
+     0
+    ],
+    [
+     160,
+     30
+    ],
+    [
+     60,
+     52
+    ],
+    [
+     -40,
+     54
+    ],
+    [
+     -110,
+     40
+    ],
+    [
+     -134,
+     16
+    ]
+   ],
+   "fill": "#4d6478",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -120,
+     -12
+    ],
+    [
+     -104,
+     -40
+    ],
+    [
+     -20,
+     -54
+    ],
+    [
+     80,
+     -50
+    ],
+    [
+     154,
+     -26
+    ],
+    [
+     170,
+     -4
+    ],
+    [
+     80,
+     -10
+    ],
+    [
+     -20,
+     -12
+    ]
+   ],
+   "fill": "#e9ecef",
+   "width": 0,
+   "outline": false,
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 20,
+   "y": -36,
+   "r": 30,
+   "color": "#c3c9cf",
+   "density": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": -2.5,
+   "y": 40.3,
+   "rx": 4.9281710355406245,
+   "ry": 4.9281710355406245,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 137.7,
+   "y": 28.4,
+   "rx": 4.927481487345537,
+   "ry": 4.927481487345537,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -97.3,
+   "y": 5.1,
+   "rx": 5.445428830650466,
+   "ry": 5.445428830650466,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -81.7,
+   "y": 20.2,
+   "rx": 4.1682531360295885,
+   "ry": 4.1682531360295885,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 44.6,
+   "y": 40.5,
+   "rx": 3.9016081309642274,
+   "ry": 3.9016081309642274,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 153.7,
+   "y": 19.7,
+   "rx": 3.819053351836983,
+   "ry": 3.819053351836983,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -6.9,
+   "y": 10.7,
+   "rx": 5.598634831082229,
+   "ry": 5.598634831082229,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -44.2,
+   "y": 24.9,
+   "rx": 5.180721850968302,
+   "ry": 5.180721850968302,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 12.6,
+   "y": 12.1,
+   "rx": 5.141937769534435,
+   "ry": 5.141937769534435,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 120.6,
+   "y": 9.8,
+   "rx": 4.13626539775048,
+   "ry": 4.13626539775048,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -60.9,
+   "y": 34.7,
+   "rx": 4.08686117583643,
+   "ry": 4.08686117583643,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 67.1,
+   "y": 23.8,
+   "rx": 5.030274932705457,
+   "ry": 5.030274932705457,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 31.6,
+   "y": 15.3,
+   "rx": 4.376070852582371,
+   "ry": 4.376070852582371,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -103.5,
+   "y": 27.0,
+   "rx": 5.691042265078899,
+   "ry": 5.691042265078899,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 75.4,
+   "y": 42.0,
+   "rx": 4.729654943081952,
+   "ry": 4.729654943081952,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 92.3,
+   "y": 16.2,
+   "rx": 4.829863432769633,
+   "ry": 4.829863432769633,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 108.2,
+   "y": 27.7,
+   "rx": 5.03428228981487,
+   "ry": 5.03428228981487,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 49.7,
+   "y": 19.9,
+   "rx": 3.871806081665322,
+   "ry": 3.871806081665322,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -118.1,
+   "y": 4.2,
+   "rx": 5.4995053609591285,
+   "ry": 5.4995053609591285,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 14.2,
+   "y": 36.9,
+   "rx": 4.0303393678529424,
+   "ry": 4.0303393678529424,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -24.4,
+   "y": 18.2,
+   "rx": 4.597750550475953,
+   "ry": 4.597750550475953,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -18.1,
+   "y": 34.6,
+   "rx": 5.089114484576227,
+   "ry": 5.089114484576227,
+   "fill": "#f4f6f8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -120,
+     -4
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     170,
+     -2
+    ]
+   ],
+   "width": 2,
+   "color": "#2a3a4a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -100,
+     -30
+    ],
+    [
+     0,
+     -40
+    ],
+    [
+     120,
+     -30
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa6b2",
+   "dash": [
+    7,
+    6
+   ]
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -132,
+     -10
+    ],
+    [
+     -110,
+     -44
+    ],
+    [
+     -20,
+     -60
+    ],
+    [
+     80,
+     -56
+    ],
+    [
+     160,
+     -30
+    ],
+    [
+     180,
+     0
+    ],
+    [
+     160,
+     30
+    ],
+    [
+     60,
+     52
+    ],
+    [
+     -40,
+     54
+    ],
+    [
+     -110,
+     40
+    ],
+    [
+     -134,
+     16
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}
