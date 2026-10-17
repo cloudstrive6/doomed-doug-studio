@@ -1,20 +1,20 @@
-<!-- axis: prey size. From a fish lighter than two bowling balls to the largest animal that has ever lived. Each item is placed by the sourced weight of the animal the orcas take on (see table). Spoken section headers: "Snacks." (opener, items 1-2), "Doug-sized." (before item 3), "Bigger." (before item 6), "Giants." (before item 9, about 68%). -->
-<!-- Episode 021: Why Orcas Kill Everything in the Ocean Except Doug. Draft 1 (2026-10-17, script writer). Counter on screen at 170 from the first shot, ends at 178: eight deaths over eleven items. Survivals: Harbor Seal ("Doug is fine."), Gray Whale Calf (narrator slightly disappointed; Doug added to THE MENU "for completeness"), The Law of the Tongue (no costume; the one 008 callback, the rudder line). "Doug did not agree to this." once, at item 1. The costume line is said in full once (item 1) and varied twice (Sea Otter, Great White Shark). Befriending: "hi cousin?" (Dolphin, speech bubble only). The cap: on the otter's rock, on the sand, between the antlers, out of the blowhole. No captivity, no captive names, no salmon hat, no LIVE feed, no WIN? box, no Herring option used (word count is inside the band without it). Sober card, no Doug, no joke: the 1972 Point Sur line (Harbor Seal). Predation is always off-screen: no blood, no wounds, no carcasses. The tongue appears once at item 10 and once at item 11, one clinical clause each. -->
-<!-- Weight table for the axis (sources in facts.md):
-| # | Item | Figure used | Basis |
-| 1 | Chinook Salmon | about 14 kg | NOAA typical mature fish, 30 lb |
-| 2 | Sea Otter | up to about 45 kg | ADF&G, males 80-100 lb |
-| 3 | Harbor Seal | about 82 to 130 kg | NOAA, 180-285 lb adult |
-| 4 | Dolphin | about 136 to 180 kg | NOAA, Pacific white-sided dolphin 300-400 lb; Dall's porpoise 130-200 kg (DOSITS) |
-| 5 | Stingray | up to 350 kg | Short-tail stingray, largest species (Wikipedia/Earthpedia; FishBase length) |
-| 6 | Moose | about 364 to 725 kg | ADF&G, cows 364-591, bulls 542-725 |
-| 7 | Great White Shark | 520 to 770 kg typical adult, over a tonne for big females | Guinness; a 4.9 m female killed by orcas near Gansbaai, est. 1,110 kg (Dive Magazine) |
-| 8 | Whale Shark | juvenile about 6 m; adults to about 18 m | Frontiers 2024 news release. No sourced weight for a 6 m juvenile. |
-| 9 | Gray Whale Calf | calf about 900 kg at birth; the orcas must get past a mother of about 40 tonnes | NOAA |
-| 10 | The Law of the Tongue | baleen whales herded at Eden | Eden museum / Wikipedia |
-| 11 | Blue Whale | up to about 150 tonnes | NOAA, 330,000 lb |
-Ordering notes for the creative director: (a) Starboard's solo kill (item 7) was a 2.5 m juvenile, lighter than a moose; the item sits after Moose on the adult-white-shark figure, which is what the narration states. (b) A 6 m juvenile whale shark versus a gray whale calf on migration has no sourced weight for either; I kept the brief's order because at item 9 the orcas have to get past the mother, and the narration frames it that way. Neither swap was made. -->
-<!-- Pronunciation for the editor: Chinook = "shih-NOOK"; Aleutian = "uh-LOO-shun"; Adak = "AY-dak"; Bigg's = "BIGZ"; Hauraki = "how-RAH-kee"; Mossel = "MOSS-ul"; Farallon = "FAIR-uh-lon"; Moctezuma = "mok-teh-ZOO-muh"; Unimak = "YOO-nih-mak"; Kiah = "KY-uh"; Twofold = "TOO-fold"; Estes = "ESS-teez"; Hoyt = "HOYT". -->
+<!-- axis: prey size. From a fish lighter than two bowling balls to the largest animal that has ever lived. Each item is placed by the sourced weight on its THE MENU line (see table); every MENU line is in kilograms and the series rises monotonically. Spoken section headers: "Snacks." (opener, items 1-2), "Doug-sized." (before item 3), "Bigger." (before item 6, about 43%), "Giants." (before item 9, about 70%). -->
+<!-- Episode 021: Why Orcas Kill Everything in the Ocean Except Doug. Draft 2 (2026-10-17, script writer; fixes all 12 screener items). Counter on screen at 170 from the first shot, ends at 178: eight deaths over eleven items. Survivals: Harbor Seal ("Doug is fine."), Gray Whale Calf, now item 8 (narrator slightly disappointed; Doug added to THE MENU "for completeness"), The Law of the Tongue (no costume; the one 008 callback, the rudder line). "Doug did not agree to this." once, at item 1. The costume line is said in full once (item 1) and varied twice (Sea Otter, Great White Shark). Befriending: "hi cousin?" (Dolphin, speech bubble only). The cap: on the otter's rock, on the sand, between the antlers, out of the blowhole. No captivity, no captive names, no salmon hat, no LIVE feed, no WIN? box, no Herring option used (word count is inside the band without it). Sober card, no Doug, no joke: the 1972 Point Sur line (Harbor Seal). Predation is always off-screen: no blood, no wounds, no carcasses. The sober card is introduced by a neutral marker, "There is one exception on record." "Doug is fine." twice (Harbor Seal, Law of the Tongue). The tongue appears once at item 10 and once at item 11, one clinical clause each. -->
+<!-- Weight table for the axis and THE MENU (sources in facts.md). All MENU lines in kg:
+| # | Item | MENU line | Basis |
+| 1 | Chinook Salmon | 14 kg | NOAA typical mature fish, 30 lb |
+| 2 | Sea Otter | 45 kg | ADF&G, males 80-100 lb |
+| 3 | Harbor Seal | 82-130 kg | NOAA, 180-285 lb adult |
+| 4 | Dolphin | 180 kg | NOAA, Pacific white-sided dolphin 300-400 lb |
+| 5 | Stingray | 350 kg | Short-tail stingray, one of the largest stingrays in the world (Wikipedia; FishBase length) |
+| 6 | Moose | 364-725 kg | ADF&G, cows from 364, bulls to 725 |
+| 7 | Great White Shark | 520-770 kg | Guinness typical adult range. Starboard's solo kill was a 2.5 m juvenile, and the narration says so ("a young great white"). |
+| 8 | Gray Whale Calf | 900 kg AT BIRTH | NOAA newborn weight; the calves and yearlings taken at Unimak are older, so this is a floor. The mother's 40 tonnes is not on the MENU line. |
+| 9 | Whale Shark | UP TO 21,500 kg | Guinness heaviest scientifically recorded specimen (species maximum, labelled "UP TO"). The attacked shark was a 6 m juvenile, as narrated; no sourced weight exists for it. |
+| 10 | The Law of the Tongue | no MENU line | baleen whales herded at Eden |
+| 11 | Blue Whale | 150,000 kg | NOAA, 330,000 lb |
+Reorder (S1, option b): Gray Whale Calf and Whale Shark swapped (now items 8 and 9). "Giants." moved to before Whale Shark (item 9, about 70%, as the brief places it). Counter: Gray Whale Calf holds at 176, Whale Shark death is 177. Gray whale frame line changed to "This is the first whale on the list". Report to the creative director. -->
+<!-- Pronunciation for the editor: Chinook = "shih-NOOK"; Aleutian = "uh-LOO-shun"; Adak = "AY-dak"; Bigg's = "BIGZ"; Hauraki = "how-RAH-kee"; Mossel = "MOSS-ul"; Farallon = "FAIR-uh-lon"; Moctezuma = "mok-teh-ZOO-muh"; Unimak = "YOO-nih-mak"; Kiah = "KY-uh"; Twofold = "TOO-fold"; Estes = "ESS-teez"; Hoyt = "HOYT"; Te Ara = "teh AH-rah"; Erich = "AIR-ik"; Noises Islands = read literally, "NOY-ziz EYE-lunds". -->
 
 [Open on the thumbnail, 1.5 to 4 seconds: the huge orca breaching with a whole great white held side-on, tiny Doug in a rowboat waving, the orca's eye turned away from him. Cut to grey-green North Pacific water. Doug holds the field guide open on the ORCA page. The FRIEND? box is empty. THE MENU card sits in the corner, blank. DOUG DEATHS: 170.]
 
@@ -28,29 +28,37 @@ Chinook Salmon.
 
 Off the coasts of Washington and British Columbia lives a family of orcas that eats almost nothing but fish, and it has a favorite.
 
+[A pod of orcas, tall straight fins, cruising past a crowd of smaller salmon. Label: "RESIDENTS".]
+
+These orcas are called residents, and they are extremely picky eaters.
+
+Here's the strange part.
+
+[Map of the Salish Sea. A thin, tired orca icon. Label: "HUNGRY: 6 OF 40 YEARS".]
+
+A University of British Columbia study found that in six of the last forty years, the southern residents simply didn't get enough to eat.
+
+[Harbor seals bob on the same map. A second orca icon with a different fin shape swims among them. Label: "SEAL EATERS".]
+
+Harbor seals swim through the same waters, and a different population of orcas eats them all the time. Researchers have never confirmed a resident orca eating a seal.
+
+They would rather go hungry than change the menu.
+
 [A big silver salmon, side-on. Label: "CHINOOK". Beside it, two bowling balls on a scale. THE MENU gets its first line: "CHINOOK SALMON, 14 kg".]
 
-The Chinook is the biggest salmon in the Pacific, and a typical adult is about a meter long and weighs around fourteen kilograms, roughly the weight of two bowling balls.
+What they want is Chinook. It is the biggest salmon in the Pacific, and a typical adult is about a meter long and weighs around fourteen kilograms, roughly the weight of two bowling balls.
 
-[A pod of orcas, tall straight fins, cruising past a crowd of smaller salmon. Red arrow to one big Chinook.]
+[Red arrow to one big Chinook in a crowd of smaller salmon.]
 
-The orcas here are called residents, and researchers who followed them for years found that they hunt Chinook on purpose. Smaller salmon pass through the same water in far greater numbers, and the orcas mostly let them go.
+Researchers who followed these orcas for years found that they hunt Chinook on purpose, while smaller salmon that far outnumber it mostly swim on by. Canadian government scientists think the orcas favor it for its size, its fat and the fact that it is around all year.
+
+[Same map. Label: "ENDANGERED".]
+
+The southern residents are now endangered, and United States government scientists name a shortage of Chinook as one of their main threats.
 
 [Doug, zipped into a salmon costume, red cap on top, floating very upright.]
 
 Orcas don't hunt people. They hunt salmon. Which is exactly why Doug is dressed as one.
-
-Here's the strange part.
-
-[Map of the Salish Sea. Label: "ENDANGERED". A thin, tired orca icon.]
-
-The southern population of these orcas is endangered, and United States government scientists name a shortage of Chinook as one of its main threats. A University of British Columbia study found that in six of the last forty years, they simply didn't get enough to eat. Canadian government scientists think they favor Chinook for its size, its fat and the fact that it is around all year.
-
-[Harbor seals bob on the same map. A second orca icon with a different fin shape swims among them. Label: "SEAL EATERS".]
-
-Meanwhile, harbor seals swim through the same waters, and a different population of orcas eats them all the time. Researchers have never confirmed a resident orca eating a seal, or any other marine mammal.
-
-They would rather go hungry than change the menu.
 
 [Doug in the salmon costume waves at the resident pod, hopeful smile. The pod turns. Splash. The cap floats alone. DOUG DEATHS: 171.]
 
@@ -116,7 +124,7 @@ Seals have excellent underwater hearing and can pick up orca calls from kilomete
 
 So the seal hunters mostly keep quiet. Researchers found that they rarely call while hunting and save most of their noise for after a kill.
 
-Here's the problem with Doug's plan.
+There is one exception on record.
 
 [Sober card: plain dark blue, white text only. "POINT SUR, CALIFORNIA, 1972". No Doug.]
 
@@ -130,7 +138,7 @@ Doug paddled out in the seal costume, and an orca took the surfboard, considered
 
 Doug is fine.
 
-We had been very confident about this one. The orca, apparently, had not.
+We had been very confident about this one, and the orca apparently had not.
 
 ## Dolphin
 
@@ -138,9 +146,9 @@ Dolphin.
 
 Dolphins are fast, social and clever, which sounds like exactly the kind of animal that shouldn't end up on anyone's menu.
 
-[A huge orca beside a small car, then five small cars in a row. Label: "11 TONS". THE MENU: "DOLPHIN, 180 kg".]
+[A huge orca beside a small car, then five small cars in a row. Label: "10 TONNES". THE MENU: "DOLPHIN, 180 kg".]
 
-Technically, the orca is a dolphin, the largest member of the whole family. It can grow to almost ten meters long and weigh up to eleven tons, about as much as five average new cars.
+Technically, the orca is a dolphin, the largest member of the whole family. It can grow to almost ten meters long and weigh about ten tonnes, as much as five average new cars.
 
 [A Pacific white-sided dolphin, sleek, with grey and white stripes. Label: "PACIFIC WHITE-SIDED".]
 
@@ -148,7 +156,7 @@ Pacific white-sided dolphins weigh up to about one hundred and eighty kilograms,
 
 [Photo-ID style grid of dolphin fins. Some fins have little red tick marks. Label: "ORCA SCARS".]
 
-Researchers who photographed more than four hundred of these dolphins found healed orca scars about eight times more often than scars from fishing gear. Actual kills are rarely seen, and between nineteen seventy-three and nineteen ninety-six, only one was reported off British Columbia, although fourteen more were seen over the next fifteen years.
+Researchers who photographed more than four hundred of these dolphins found healed orca scars about eight times more often than scars from fishing gear. The attacks themselves are rarely seen. Between nineteen seventy-three and nineteen ninety-six, only one kill was reported off British Columbia, although fourteen more attacks were seen over the next fifteen years.
 
 [A bay mouth. Three orcas line up across it, blocking the exit. Porpoises circle inside.]
 
@@ -164,7 +172,7 @@ Doug swam up in the dolphin costume and greeted the orca as family, but the orca
 
 Doug has died. Again.
 
-Off British Columbia, roughly one in every twenty-five of these dolphins is carrying orca scars.
+Off British Columbia, roughly one in every twenty-five of the dolphins photographed was carrying orca scars.
 
 ## Stingray
 
@@ -178,7 +186,7 @@ New Zealand's orcas don't. They hunt rays in very shallow water, close to sandy 
 
 [A short-tail stingray, huge and flat, next to a standard door. The ray is wider than the door is tall. THE MENU: "STINGRAY, 350 kg".]
 
-The short-tail stingray is the largest stingray species. It can measure about two point one meters across, wider than a standard door is tall, and weigh up to three hundred and fifty kilograms.
+The short-tail stingray is one of the largest stingrays in the world. It can measure about two point one meters across, wider than a standard door is tall, and weigh up to three hundred and fifty kilograms.
 
 [Close-up of the ray's tail. A yellow warning triangle next to the spine. Label: "VENOM".]
 
@@ -188,7 +196,7 @@ The worst part is what happened in nineteen ninety-eight.
 
 [Plain sea-blue card. A small orca silhouette lying on its side. Label: "HAURAKI GULF, 1998".]
 
-A young female orca was found dead near the Noises Islands in the Hauraki Gulf. At the necropsy, vets concluded she had probably died after a stingray spine penetrated her.
+A young female orca was found dead near the Noises Islands in the Hauraki Gulf. At the necropsy, vets concluded she had probably been killed by a stingray spine.
 
 [Back to the shallows. A beached orca outline, then a red arrow showing it wriggling back out.]
 
@@ -210,7 +218,7 @@ Moose.
 
 A moose is a land animal, which ought to keep it well away from anything that hunts at sea.
 
-[A bull moose on a scale, next to a third of a car. Label: "UP TO 725 kg". THE MENU: "MOOSE, 725 kg".]
+[A bull moose on a scale, next to a third of a car. Label: "UP TO 725 kg". THE MENU: "MOOSE, 364-725 kg".]
 
 A big bull moose in Alaska can weigh up to about seven hundred and twenty-five kilograms, more than a third of an average new car.
 
@@ -218,7 +226,7 @@ A big bull moose in Alaska can weigh up to about seven hundred and twenty-five k
 
 Moose are strong swimmers, and along Alaska's coast they cross big stretches of water, between islands and across coves. Researchers think part of the draw is water plants, which give moose the sodium they crave.
 
-Here's where it goes wrong.
+That is where it goes wrong.
 
 [Same map. Label: "ICY STRAIT, 1993". Two moose icons mid-channel. Three dorsal fins approaching. Cut away before contact.]
 
@@ -246,9 +254,9 @@ Great White Shark.
 
 Ask most people to name the most dangerous animal in the sea, and this is the one they'll pick.
 
-[A great white, side-on, filling the frame. Label: "OVER 1 TONNE". A small car outline behind it, half shaded. THE MENU: "GREAT WHITE, 1,100 kg".]
+[A great white, side-on, filling the frame. Label: "ADULT: 520-770 kg". A small car outline behind it, half shaded. THE MENU: "GREAT WHITE, 520-770 kg".]
 
-Adult great whites typically weigh between five hundred and seven hundred and seventy kilograms. A big female can top a tonne, more than half the weight of an average new car.
+Adult great whites typically weigh between five hundred and twenty and seven hundred and seventy kilograms. A big female can top a tonne, more than half the weight of an average new car.
 
 [Map of South Africa. Two orcas with flopped-over dorsal fins. Labels: "PORT" and "STARBOARD".]
 
@@ -268,55 +276,21 @@ On the eighteenth of June, two thousand twenty-three, near Seal Island in Mossel
 
 There's an older trick as well, from nineteen ninety-seven, when an orca off California's Farallon Islands was seen holding a white shark upside down for about fifteen minutes. Flipping a shark over can put it into a trance-like state called tonic immobility, and that is likely what happened.
 
-So the most feared predator most people can name lasted about two minutes against one orca.
+So a young great white, of the most feared species most people can name, lasted about two minutes against one orca.
 
 [An orca nudges Doug's shark costume and flips it upside down. Doug goes very still, X eyes. The flat costume drifts, cap still on top. DOUG DEATHS: 176.]
 
 An orca turned Doug upside down, and he went very still and stayed that way.
 
-One orca. One shark. About two minutes. Starboard didn't even need his partner.
-
-## Whale Shark
-
-Whale Shark.
-
-The whale shark is the biggest fish alive, a slow, gentle filter feeder that cruises along swallowing plankton.
-
-[A whale shark covered in white spots, next to an orca outline. The shark is nearly twice as long. Label: "UP TO 18 m". THE MENU: "WHALE SHARK, 6 m".]
-
-Adults can reach around eighteen meters, almost twice the length of the biggest orca.
-
-[Map of Mexico, the Gulf of California highlighted. Four small camera icons. Label: "2018 TO 2024".]
-
-Between two thousand eighteen and two thousand twenty-four, researchers documented four orca attacks on whale sharks in the southern Gulf of California, using photos and video from scientists and members of the public. One of the sharks was a juvenile about six meters long, three doors laid end to end.
-
-[Three orcas around a whale shark. A red curved arrow shows the shark being rolled belly up. Cut away.]
-
-The orcas worked as a team, striking the shark until it turned upside down. The researchers point out that young whale sharks are more vulnerable to predators than adults are.
-
-Here's what makes this one different.
-
-[An orca with a distinctive fin. Label: "MOCTEZUMA". A second orca beside him, labelled "?".]
-
-An adult male the researchers call Moctezuma appears in three of the four attacks. A female seen with him before joined one of them. The researchers suggest there may be a specialized group of shark hunters living in the region.
-
-So a brand-new prey can end up on the menu. Somebody just has to work it out first.
-
-[Doug in a polka-dot whale shark costume, mouth wide open, contentedly filtering plankton. The costume slowly rolls belly up. X eyes. Cap on top. DOUG DEATHS: 177.]
-
-Doug cruised along with his mouth open, minding his own business and filtering plankton, until the costume rolled over and Doug stopped minding anything.
-
-The biggest fish in the ocean, and only a handful of orcas seem to know it's food.
-
-Giants.
+One orca, one shark, about two minutes, and Starboard didn't even need his partner.
 
 ## Gray Whale Calf
 
 Gray Whale Calf.
 
-From here on, everything on the list is a whale, and whales are much harder to push around.
+This is the first whale on the list, and whales are much harder to push around.
 
-[Colder, deeper blue. A gray whale mother and calf swimming together. Labels: "CALF: 900 kg" and "MOTHER: 40 TONNES". Car outlines: half a car next to the calf, twenty cars next to the mother. THE MENU: "GRAY WHALE CALF, 900 kg".]
+[Colder, deeper blue. A gray whale mother and calf swimming together. Labels: "CALF AT BIRTH: 900 kg" and "MOTHER: 40 TONNES". Car outlines: half a car next to the calf, twenty cars next to the mother. THE MENU: "GRAY WHALE CALF, 900 kg AT BIRTH".]
 
 A newborn gray whale weighs about nine hundred kilograms, roughly half an average new car. Its mother can weigh about forty tonnes, the same as twenty cars.
 
@@ -332,7 +306,7 @@ Here's where the list changes.
 
 [The mother gray whale swings her tail between the calf and the orcas. A red "!" above her.]
 
-The mothers fight back, and when they defended their young aggressively, the orcas broke off. Gray whales also run for the shoreline, and once a whale reached water about three meters deep, the attack ended.
+The mothers fight back, and when they defended their young aggressively, the orcas broke off.
 
 [Monterey Bay map. Label: "MAY 2012". Humpback icons arrive one after another until there are about sixteen.]
 
@@ -342,11 +316,49 @@ Sometimes, strangers turn up. In May two thousand twelve, in Monterey Bay, Calif
 
 A review of over a hundred encounters found that humpbacks often charge in to break up orca attacks, even when the target is a completely different species.
 
-[Doug in a gray whale calf costume, tucked beside a very large mother. Orca fins approach. Two humpbacks crash in, splashing. The orcas leave. Doug, hopeful smile. DOUG DEATHS: 177, unchanged. The narrator's pencil writes at the bottom of THE MENU: "DOUG, 80 kg".]
+[Doug in a gray whale calf costume, tucked beside a large mother. Orca fins approach. Two humpbacks crash in, splashing. The orcas leave. Doug, hopeful smile. DOUG DEATHS: 176, unchanged. The narrator's pencil writes at the bottom of THE MENU: "DOUG, 80 kg".]
 
-Doug stayed close to a very large mother. The orcas came, two humpbacks crashed in, and the orcas left. Doug is fine. We are slightly disappointed, and for completeness, we have added Doug to the menu.
+Doug stayed close to a large mother. The orcas came, two humpbacks crashed in, and the orcas left. We are slightly disappointed, and for completeness, have added Doug to the menu.
 
 For the first time on this list, something made the orcas back off, and some of it came to help a stranger.
+
+Giants.
+
+## Whale Shark
+
+Whale Shark.
+
+The whale shark is the biggest fish alive, a slow, gentle filter feeder that cruises along swallowing plankton.
+
+[A whale shark covered in white spots, next to an orca outline. The shark is nearly twice as long. Label: "UP TO 18 m". THE MENU: "WHALE SHARK, UP TO 21,500 kg".]
+
+Adults can reach around eighteen meters, almost twice the length of the biggest orca.
+
+[A scale with a whale shark on one side and two orcas on the other. Label: "21.5 TONNES, 1949".]
+
+The heaviest one ever scientifically recorded, caught off Pakistan in nineteen forty-nine, weighed an estimated twenty-one and a half tonnes, more than two big orcas put together.
+
+[Map of Mexico, the Gulf of California highlighted. Four small camera icons. Label: "2018 TO 2024".]
+
+Between two thousand eighteen and two thousand twenty-four, researchers documented four orca attacks on whale sharks in the southern Gulf of California, using photos and video from scientists and members of the public. One of the sharks was a juvenile about six meters long, three doors laid end to end.
+
+[Three orcas around a whale shark. A red curved arrow shows the shark being rolled belly up. Cut away.]
+
+The orcas worked as a team, striking the shark until it turned upside down. The researchers point out that young whale sharks are more vulnerable to predators than adults are.
+
+What makes this one different is who did it.
+
+[An orca with a distinctive fin. Label: "MOCTEZUMA". A second orca beside him, labelled "?".]
+
+An adult male the researchers call Moctezuma appears in three of the four attacks. A female seen with him before joined one of them. The researchers suggest there may be a specialized group of shark hunters living in the region.
+
+So a brand-new prey can end up on the menu. Somebody just has to work it out first.
+
+[Doug in a polka-dot whale shark costume, mouth wide open, contentedly filtering plankton. The costume slowly rolls belly up. X eyes. Cap on top. DOUG DEATHS: 177.]
+
+Doug cruised along with his mouth open, minding his own business and filtering plankton, until the costume rolled over and Doug stopped minding anything.
+
+The biggest fish in the ocean, and only a handful of orcas seem to know it's food.
 
 ## The Law of the Tongue
 
@@ -380,7 +392,7 @@ Orcas have hunted alongside people before, and for close to a century, they trea
 
 [Doug in a wooden whaleboat, oar in hand, no costume, red cap. An orca surfaces, picks up the trailing rope in its teeth, and tows him along helpfully. Doug, hopeful smile. DOUG DEATHS: 177, unchanged.]
 
-The last time Doug met orcas in a boat, they took the rudder. This time, one picked up his rope in its teeth and towed him across the bay, very helpfully.
+The last time Doug met orcas in a boat, they took the rudder. This time, one took his rope in its teeth and towed him.
 
 Doug is fine.
 
@@ -416,7 +428,7 @@ It isn't size, because they'll take the largest animal that has ever lived. It i
 
 [A mother orca with a younger orca beside her, a line of small fish icons between them. Label: "LEARNED".]
 
-The leading explanation is about families. United States government scientists say each orca population's diet is driven mainly by hunting tactics that are learned. The researcher Erich Hoyt calls orcas fussy eaters, very conservative about whatever they learned from their mothers. In his view, people were simply never part of anyone's learned diet.
+The leading explanation is about families. United States government scientists say each orca population's diet is driven mainly by hunting tactics that are learned. The researcher Erich Hoyt calls orcas fussy eaters, very conservative about whatever they learned from their mothers. In his view, an orca's idea of food is whatever its mother and its pod taught it, and no one has ever recorded an orca family teaching its young to hunt people.
 
 [Doug in a blue whale costume so enormous that only the red cap pokes out of the blowhole. Orca fins arrive from every direction. Cut to open ocean. The cap floats alone in the shaft of light. DOUG DEATHS: 178.]
 
@@ -440,4 +452,4 @@ They hunt everything in the ocean. Doug, they tried to feed.
 
 Doug deaths: one hundred and seventy-eight. He still hasn't eaten the fish. What should Doug dress up as next? Tell us in the comments.
 
-<!-- words: 2956 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:10 at 195 wpm · draft 1 (2026-10-17) · 11 items · item words: Chinook Salmon 256, Sea Otter 255, Harbor Seal 262 incl. "Doug-sized.", Dolphin 249, Stingray 243, Moose 243 incl. "Bigger.", Great White Shark 255, Whale Shark 220, Gray Whale Calf 298 incl. "Giants.", The Law of the Tongue 257, Blue Whale 388 incl. closing and outro · opener 30 words; title promise and three prey animals in the first sentence; first item name "Chinook Salmon." at spoken words 31-32 · item 1 twist marker at spoken word 140 (about 0:43) · first death (171) at about spoken word 268, about 1:22 · "Bigger." at 44%, "Giants." at 68% · outro 24 words · 210 sentences, avg 14.1 words, max 34 · Flesch about 68 (scripted estimate) · tics: However 0, actually 0, essentially 0, incredibly 0 · Herring option not used -->
+<!-- words: 2984 (spoken narration only: spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:18 at 195 wpm · draft 2 (2026-10-17) · 11 items · item words (section header counted with the item it introduces): Chinook Salmon 254 incl. "Snacks.", Sea Otter 254, Harbor Seal 264 incl. "Doug-sized.", Dolphin 250, Stingray 245, Moose 245 incl. "Bigger.", Great White Shark 263, Gray Whale Calf 271, Whale Shark 250 incl. "Giants.", The Law of the Tongue 251, Blue Whale 408 incl. closing and outro · opener 29 words · item 1 twist marker ends at spoken word 71, payoff "They would rather go hungry than change the menu." ends at word 132 (about 0:41) · "Bigger." at 43%, "Giants." at 70% · Doug beats: Gray Whale Calf 29, Law of the Tongue 23 plus "Doug is fine." · outro 24 words · 207 sentences, avg 14.4 words, max 34 -->
