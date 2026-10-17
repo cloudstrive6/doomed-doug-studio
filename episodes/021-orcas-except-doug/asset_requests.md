@@ -227,3 +227,18 @@ x/y/scale, and Doug's head, face and red cap stay fully visible. Each costume sh
 - Old sepia-style map of the far south coast of New South Wales: cream/yellowed paper `#efe2b8`, brown ink coast, hatched sea,
   a compass rose; Twofold Bay as a clear bite in the coast at **(120, 40)**, the Kiah River mouth just south of it at
   (100, 90). About 1100 x 800, anchor centre. Shots: s204-s205, s234 (small inset).
+
+## Keyframe round 1 fixes (illustrator)
+
+### car_half (DONE: `assets/previews/021-r1-assets.png`)
+- Half a small_car with the same anchor and footprint: rear half solid, a red dashed cut line with tiny scissors, and the
+  missing front half as a red dashed ghost outline. It replaces `small_car` plus the cover `rect` in s145 and s163.
+
+### unimak_map (DONE: `assets/previews/021-r1-assets.png`)
+- A close-up of Unimak Island, 1200 x 720, anchor centre: the island across the upper middle with the Shishaldin cone, the Alaska
+  Peninsula top right, the Krenitzin islands far left, and open North Pacific in the lower half for the fin grid. It replaces
+  the cropped `north_america_map` tile in s167 (the crop caused the black bar and the empty panel).
+
+### water_weed_draped (DONE: `assets/previews/021-r1-assets.png`)
+- A low, lumpy, soggy weed mat floating at the waterline (anchor = waterline centre), with no stalks, top leaf or hanging
+  strands. It replaces `water_plants_bunch` in s129 (that asset is unchanged because 019 uses it).
