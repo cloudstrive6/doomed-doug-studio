@@ -43,3 +43,4 @@
   4. **Continuity:** the approved script and shotlist s001 open on this exact image (brief, opening section). The growth memo also asked for this concept.
 - Policy check on A: the shark is whole, with no blood and no wound. The dark mouth interior is shading, not red. Doug is unharmed and in cartoon style. PASS for me.
 - Note for the graphic designer: keep B ready. If A's CTR is below about 3% after 48 h, swap to B (Test & Compare if available).
+- 2026-10-17: script 3 rounds (screener FAIL,FAIL,PASS); art assets 1 round (harbor_seal fix); keyframes 3 rounds (art-director + visual-screener PASS); thumbnail A (orca hero) chosen, B backup. Risks: 'Search'-only sources in facts.md; s145 car near frame edge (optional); draft render not sampled by editor, CI render/QC next.
