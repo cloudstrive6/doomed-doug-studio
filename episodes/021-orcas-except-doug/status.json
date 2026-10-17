@@ -29,7 +29,17 @@
       "stage": "packaged",
       "at": "2026-10-17T18:21:11+00:00",
       "note": "script 3 rounds, art 3 rounds, narrated, validated"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-17T18:32:01+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "qc_passed",
+      "at": "2026-10-17T18:41:22+00:00",
+      "note": "final approved"
     }
   ],
-  "stage": "packaged"
+  "stage": "qc_passed"
 }

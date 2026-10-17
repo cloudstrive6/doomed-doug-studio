@@ -44,3 +44,24 @@
 - Policy check on A: the shark is whole, with no blood and no wound. The dark mouth interior is shading, not red. Doug is unharmed and in cartoon style. PASS for me.
 - Note for the graphic designer: keep B ready. If A's CTR is below about 3% after 48 h, swap to B (Test & Compare if available).
 - 2026-10-17: script 3 rounds (screener FAIL,FAIL,PASS); art assets 1 round (harbor_seal fix); keyframes 3 rounds (art-director + visual-screener PASS); thumbnail A (orca hero) chosen, B backup. Risks: 'Search'-only sources in facts.md; s145 car near frame edge (optional); draft render not sampled by editor, CI render/QC next.
+
+## 2026-10-17: final package gate (creative director)
+- Inputs: visual_review.md (main PASS, shorts PASS), build/qc.json (951.8 s, problems: none), build/thumbnail.png,
+  metadata.json, build/chapters.txt, build/samples f_001-f_004, script.md opening.
+- **Title: kept** "Why Orcas Kill Everything in the Ocean Except Doug" (T9, 50 chars). None of the alternates is clearly stronger.
+  "Except You" is the best A/B challenger, but it drops Doug from the title on a channel that is still building him as the brand,
+  so it stays an alternate for Test & Compare. The title is delivered: 11 prey items rising to the blue whale, and the "except" is
+  answered with an attributed thesis plus the 2025 prey-offering study.
+- **Thumbnail A: approved.** "NOT ME?" reads, the shark is whole with no blood, and the hard-eyed orca is powerful, not cute. Tiny
+  waving Doug gives the contrast. It is also the opening image, so the click matches the first frame.
+- **Description: approved.** The first two lines are honest ("no confirmed record of killing a person" matches script line 21; the
+  1972 Point Sur bite is non-fatal and shown on a sober card). It has six sources, the cartoon/education disclaimer with "Do not
+  approach wild animals", the AI-use disclosure, and a comment prompt. Chapters run 0:00 to 13:45 over a 15:52 video; every chapter
+  is at least 10 s and there are 12 entries.
+- **First 60 s: approved.** The thumbnail opens, the premise is in two lines, "Chinook Salmon" starts at word 31, and the twist
+  ("6 of 40 years hungry ... rather go hungry than change the menu") lands at about 0:41. Samples are clean: the item label, the
+  counter at 170, Doug on-model and the SHORTAGE caption legible. Sea Otter (f_004) moves the counter to 171 as planned.
+- Carried-forward notes (non-blocking): director optional notes C and D in visual_review.md; the graphic designer swaps to thumbnail
+  B if A's CTR is below about 3% after 48 h; judge T9 on CTR/AVD after 500 or more impressions.
+
+FINAL: APPROVED

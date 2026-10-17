@@ -52,3 +52,52 @@ B. **s067, director, optional.** This is still a text-only dateline card ("POINT
 - Graphic designer: thumbnail passes; no action
 
 Cleared for narration/render. Post-render screen still due: build/samples, qc.json, and the Shorts.
+
+---
+
+## Post-render screen (final.mp4, thumbnail, Shorts)
+
+**What I checked:** build/samples f_001-f_032 (one frame every 30 s of the 951.8 s render), build/qc.json, build/thumbnail.png and thumbnail_small.png against metadata.json, and the three Shorts. For each Short I viewed the preview and pulled ffmpeg frames at 1/8/16/24/32 s plus the last 9, 6, 3.5, 1.5 and 0.3 s.
+
+### Main video
+- **QC:** qc.json reports `problems: []`. There are no black, blank or glitched frames in the 32 samples.
+- **Frames:**
+  - Every sample has the zone header and the death counter (it rises from 170 to 178 in order). Doug is on-model (red cap, white head) wherever he appears.
+  - Text is legible and uncropped.
+  - Each chapter has a different background colour or zone, so no stretch looks frozen.
+- **Pictures:** every drawing is recognisable: salmon, otter, seal, dolphin and porpoise, stingray, moose, the South Africa map, gray whale, whale shark, the Eden whalers and Old Tom, blue whale, and the rowboat ending.
+- **Content:** no gore. Deaths are costume gags (the otter float, the whale-shark mouth, the moose costume).
+- **f_012 (dolphin, "1 IN 25"):** Doug is caught mid-fade or sinking at the death beat. That is acceptable as a transition frame.
+- **f_014 (stingray zone):** an empty beach with Doug on the bank is a scene beat, not a missing asset.
+
+### Thumbnail
+- **thumbnail.png:** "NOT ME?" is legible. The breaching orca holds a whole great white with no blood. Tiny waving Doug in the rowboat is clear.
+- **thumbnail_small.png (320 px):** the text, the orca with the shark, and Doug's red cap all still read.
+- **Fit with the title:** it complements "Why Orcas Kill Everything in the Ocean Except Doug" (threat plus exception) and is not misleading. Unchanged from the keyframe-round pass.
+
+VERDICT (main): PASS
+
+### Shorts (1080x1920)
+- **short01, "One Orca Killed a Great White Shark in Two Minutes" (49.4 s)**
+  - Title is readable and not cropped. Captions are legible.
+  - It pays off the title with "1 ORCA" and the 2:00 stopwatch.
+  - End card: the orca silhouette (dorsal fin, tail flukes) is recognisable in red outline with "???". "WHAT DID THE ORCA DO TO DOUG?" matches the outro ("Doug in the shark costume ... did not last two minutes"). The outro implies the outcome but not what happened, so the question stays open. The arrow points down.
+- **short02, "Orcas Have Been Caught Killing Swimming Moose" (48.2 s)**
+  - The hook scene and the Icy Strait 1993 map pay off the title.
+  - End card: the moose-costume silhouette (antlers over a swimming body at the waterline) is recognisable as the moose costume. It matches "HOW DID DOUG THE MOOSE END UP?". The outro does not answer it, and the arrow points down.
+- **short03, "Orcas Hunt the Largest Animal That Has Ever Lived" (45.8 s)**
+  - The blue whale, the "150 TONNES" label, the Australia map, the hunt formation with "FEMALES LEAD", and the fin-ID grid pay off the title.
+  - End card: the orca silhouette is clear, with "WHAT DID THE ORCA DO FOR DOUG?". It is a specific tease of the 34-case prey-offering finding and is not answered in the clip. The arrow points down.
+- **All three:** the watermark is present. Titles and subtitles sit in the safe areas. The preview stills catch captions mid-word (word-by-word reveal), which is normal in motion.
+
+VERDICT (shorts): PASS
+
+### Non-blocking notes (optional; do not hold upload)
+C. **s224-s226, director, optional.** At `blue_whale` scale 2.4 the whale overruns both frame edges in the landscape and Shorts frames. This is intended to show the "too big to fit" scale, and the head and eye stay in frame. In s226 the menu card group at (60,290) also covers the whale's tail section. If these shots are ever re-cut, shift the card to y≈560 below the whale, or drop the whale to scale 2.0.
+D. **short01 outro, director, optional.** "He did not last two minutes" leans toward answering the question. A softer line next time would be "Next, an orca found Doug in the shark costume. Full video below."
+
+### Routing summary
+- Director: optional C, D
+- Illustrator, art director, graphic designer: no action
+
+Cleared for upload.
