@@ -1,0 +1,39 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s149",
+      "to": "s158",
+      "title": "",
+      "outro": "Next, an orca found Doug in the shark costume. He did not last two minutes. Full video below.",
+      "tease_from": "s159",
+      "tease_asset": "orca",
+      "end_card": "WHAT DID THE ORCA DO TO DOUG?",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s123",
+      "to": "s133",
+      "hook": "Orcas have been seen killing moose.",
+      "hook_scene_from": "s127",
+      "title": "",
+      "outro": "Doug then swam the same channel in a moose costume, looking very dignified. Briefly. How it ended is in the full video below.",
+      "tease_from": "s140",
+      "tease_asset": "moose_costume_flat",
+      "end_card": "HOW DID DOUG THE MOOSE END UP?",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s224",
+      "to": "s233",
+      "title": "",
+      "outro": "Later, an orca found Doug alone in a tiny boat and did something orcas have done only thirty-four times on record. It's linked below.",
+      "tease_from": "s249",
+      "tease_asset": "orca",
+      "end_card": "WHAT DID THE ORCA DO FOR DOUG?",
+      "description": ""
+    }
+  ]
+}
