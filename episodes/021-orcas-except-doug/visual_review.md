@@ -1,55 +1,66 @@
 # Visual review: 021-orcas-except-doug
 
-## Round 1: pre-render keyframes (22 contact sheets, s001-s259)
+## Round 2: pre-render keyframes (22 contact sheets, s001-s259; re-rendered 18:04 after commit 6833084)
 
 VERDICT: FAIL
 
-What works: Doug stays on-model all the way through (red cap, white head) and is present wherever he should be. All deaths are cartoon deaths (ghost Doug plus a leftover cap or costume), and there is no gore anywhere: no blood on the s001 shark, the s213 "tongue and lips" is shown as a buoy, and the s216/s223 skeleton is a museum display. The tone is not kids-show. The death counter goes 170 to 178 consistently (s029, s050, s099, s120, s140, s159, s200, s246). Creature drawings are recognisable (orca, salmon, otter, seal, dolphin, stingray, moose, great white, gray whale, humpback, whale shark, blue whale). The menu-board running gag is clean and legible.
+Round 1 found 9 blocking items. 8 of them are fixed. Item 9b is still open: s067-s071 are still five near-identical navy text cards, and s068 still has no picture. That is the only reason for the FAIL. No new blocking problems were found. Doug is on-model in every shot. The counter goes 170 to 178 consistently. There is no gore and no kids-show tone.
 
-The FAIL comes from two broken drawings (s145, s163, s167), many text-on-text and object-on-HUD collisions, and three runs of near-identical compositions.
+### Round 1 items: status
+
+| # | Shot(s) | Status |
+|---|---|---|
+| 1 | s145, s163 car | FIXED. `car_half` now shows a clean solid half, a dashed red cut line with scissors, and the missing half as a dashed ghost outline. No mask rectangle and no stray marks. |
+| 2 | s167 Unimak map | FIXED. The new `unimak_map` is one continuous frame. The 150+ fin grid sits in open water. |
+| 3 | Counter vs map frames (s105-s107, s128, s131-s133, s188, s189, s197, s205, s228, s229, s252, s253) | FIXED. Every map frame now clears the DOUG DEATHS box. The Norway pin in s253 is fully visible. |
+| 4 | s062, s063, s080, s254 text overlaps | FIXED. |
+| 5 | s202 title over Doug | FIXED. The title's baseline is at about y330 and the top of Doug's cap is at about y365 (full frame checked). |
+| 6 | s123, s124 moose vs HUD | FIXED. The antlers are clear of the counter. "LAND ANIMAL" now sits beside the moose. |
+| 7 | s256 fin on menu | FIXED. The fin is in the water to the right of the board. |
+| 8 | s051 ghost under counter | FIXED. |
+| 9a | s010-s014 map run | FIXED. s011 is now a hungry orca with a crossed-out plate, and s012 shows seals passing underwater. |
+| 9b | s067-s071 navy card run | NOT FIXED (see fix 1). |
+| 9c | s247-s250 sunset wides | FIXED. s250 is a close-up of Doug with the fish and "REAL". |
+| 10 | s129 water plant | FIXED. `water_weed_draped` reads as a floating weed mat. |
+| 11 | s086/s087/s100/s233 fin-photo grid | PARTLY FIXED. "FIN PHOTOS" and "16 IN ALL 3 HUNTS" were added. s087 still has no fishing-gear comparison (see fix 2). |
+| 12 | s107 ray on Australia | FIXED. The ray now sits next to the circled New Zealand. |
+| 13 | s152, s153 boat behind counter | FIXED. |
+| 14 | s231 FEMALES LEAD | FIXED. The label is centred and no orca is covered. |
+| 15 | s153 2:00 over orca | FIXED. |
+| 16 | s063 fish-eater shown as salmon | FIXED. It now shows an orca with a salmon icon. |
 
 ### Must fix (blocking)
 
-1. **s145 and s163: broken car drawing (illustrator, then director).** The right half of the red car is replaced by a flat background-coloured rectangle, with stray black marks left at the bottom right (s145 at about x1180-1420, y790-1010; s163 at about x1550-1730, y760-920). The "half a car" idea reads as a render glitch. Fix: draw a proper `car_half` asset with a clean cut edge (a dashed red cut line, with the missing half drawn as a dashed outline), or show a whole car with a "÷2" label. Do not mask with a rectangle.
-2. **s167: broken Unimak map (illustrator).** A thick vertical black bar splits the map at about x760, and the left third is a flat, lighter, empty panel. It looks like a crop seam. Fix: redraw or re-crop the Unimak map so it is one continuous frame, and keep the 150+ fin grid inside the water area.
-3. **The DOUG DEATHS box collides with map frames (director).** The counter box sits on top of the map's top-right corner in s105, s106, s107, s128, s131, s132, s133, s188, s189, s197, s205, s228, s229, s252 and s253. In s253 it also half-covers the Norway pin circle. Fix: shrink each map or shift it left/down so its frame clears the counter box (box spans about x1365-1815, y128-196). Keep at least 20 px of clearance.
-4. **Text-on-text overlaps (director).**
-   - s062: the "MAMMAL EATERS" label is drawn over the bottom of the DOUG DEATHS box. Move it down next to the orca (for example x1250, y300).
-   - s063: "FISH EATERS" has the same overlap. Move it next to its subject.
-   - s080: the "LARGEST" big text runs into the DOUG DEATHS box. Move it left or down (centre about x900, y330).
-   - s254: "THEY WAITED" overlaps the DOUG DEATHS box. Move it to about y300, centred over the orca/boat.
-5. **s202: the chapter title covers Doug (director).** The red "THE LAW OF THE TONGUE" title runs straight through Doug's head and cap in the boat. Move the title up (y about 220) or move the boat/Doug down so the cap is fully visible.
-6. **s123 and s124: moose hidden by the HUD (director).** In s123 the moose's antlers are tucked behind the DOUG DEATHS box. In s124 the "LAND ANIMAL" label covers the moose's whole body and head, so only its legs show. Fix: move the moose left and down onto the right hillside (x about 1400, head below y260), and move "LAND ANIMAL" below or beside it.
-7. **s256: orca fin drawn on top of the menu board (director).** The fin and its splash sit on the menu paper and cover "MOOSE, 364-725 kg". Move the fin into the water beside the board (for example x1300, waterline) or behind the board.
-8. **s051: ghost Doug jammed under the DOUG DEATHS box (director).** The ghost's cap touches the bottom of the counter box. Move the ghost down and left (for example x1550, y300).
-9. **Variety: runs of 4 or more near-identical compositions (director).**
-   - s010-s014: five map shots in a row. The same WA/BC map, Doug at bottom right, a label under the map. Break it up: make s011 ("didn't get enough to eat") a thin, hungry orca with an empty plate or a "6 OF 40" calendar strip, and make s012 ("harbor seals swim through the same waters") an underwater shot of seals passing orcas. Keep the map for s010, s013 and s014.
-   - s067-s071: five navy text-only cards in a row ("POINT SUR, CALIFORNIA, 1972" with lines added). There is no picture at all for the only human-bite case, which is the episode's key beat. Keep s067 as the dateline card. Make s068 a surfer on a board with an orca fin turning away and "HE SURVIVED". Make s069 the surfer next to a seal silhouette with "MISTAKEN FOR A SEAL?" and an Erich Hoyt label. Keep s070/s071 as the card if needed. Nothing bloody: no bite marks, only the orca letting go.
-   - s247-s250: four identical sunset boat wides. Make s250 ("That part is real") a close-up of the fish lying in Doug's boat with "REAL", or a push-in.
+1. **s067-s071: still five near-identical navy text cards, and s068 has no picture (director; illustrator only if a surfer figure is wanted).**
+   - All five shots have the same navy background and the same "POINT SUR, CALIFORNIA, 1972" line, with text lines stacked underneath.
+   - s067 and s068 are text only. s069-s071 add the same surfboard and seal pair in the same place.
+   - This is the episode's only human-bite case, and the "it let go" beat has nothing to look at.
+   - **Fix s068.** Replace the navy card with a seascape: sky over sea water, `surfboard_bitten` floating at the waterline near x700, and `orca_fin` at about x1300 heading right, away from the board. Add a red curved arrow from the board to the fin, and keep "HE SURVIVED" at the top (about y300). If the director wants a rider on the board, use a plain stick figure, not Doug and with no cap, or ask the illustrator for a `surfer` asset. Nothing bloody: no bite marks and no red on the board.
+   - **Fix s070 or s071.** Change one of them so they are not both copies of s069. For example, in s071 ("and even then, the orca let go") reuse the s068 seascape with the fin further away and the text "IT LET GO".
+   - Keep s067 as the dateline card.
+   - Done means no more than 3 navy cards in a row.
 
-### Should fix (non-blocking but recommended)
+### Should fix (non-blocking)
 
-10. **s129: the water plant reads as a creature (illustrator).** The green plant has dangling stems that look like legs and arms, so it reads like a bug or squid next to the moose. Redraw it as a clump of leafy water plants rooted in or floating on the water, with no limb-like stems.
-11. **s086, s087, s100, s233: the dolphin/orca "photo ID" grid doesn't read (director/illustrator).** The grey triangles in white squares don't obviously read as fin photos. In s087 the red orca-scar ticks are too small to see at video size, and "fishing gear" scars aren't shown, so "8x" has nothing to compare against. Fix: label the grid "FIN PHOTOS", make the scar marks 2-3 times larger and thicker, and in s087 add a 1-vs-8 tally (fishing gear vs orca). In s233, change "16 IN ALL 3" to "16 IN ALL 3 HUNTS".
-12. **s107: a stingray is drawn on Australia (director).** The point is that New Zealand orcas eat rays. Move the ray icon next to the circled NZ, or remove it.
-13. **s152 and s153: a boat sits behind the DOUG DEATHS box (director).** The right-hand boat on the horizon is clipped by the counter. Move it left (for example x1300).
-14. **s231: the "FEMALES LEAD" label covers an orca in the bottom row (director).** Move the label to the centre of the frame, or drop that orca.
-15. **s153: the "2:00" stopwatch label overlaps the orca's head.** Move it up beside the stopwatch.
-16. **s063: the fish-eater calls are shown as a salmon.** Use an orca with a small salmon icon (resident orca) so it pairs with the s062 mammal-eater orca. Right now it reads as "the seal ignores a fish".
+2. **s087: "8x" still has nothing to compare against (director).** The narration compares orca scars with fishing-gear scars, but only orca scars are shown. Under "8x", add a two-row tally: "ORCA SCARS" with 8 red ticks, and "FISHING GEAR" with 1 grey tick (or a small hook/net icon). Make the red scar strokes on the fin tiles about 2x thicker (width 9 now; use about 16).
+3. **s255: Doug overlaps the orca fin (director).** Doug's cap and raised arm are drawn over the base of the fin and its splash (full frame: fin at about x1550, Doug at about x1650). Move Doug right to about x1760, or the fin left to about x1420, so there is about 60 px of open water between them. That makes the "they hunt everything" beat read as fin plus Doug, not one merged shape.
+4. **s145: the car_half scissors almost touch the shark's pectoral fin (director).** The gap is about 40 px at about x1180-1260, y740-790. Drop the car about 60 px (y+60), or nudge it left about 100 px, so the cut line and scissors read on their own.
 
-### Checked and fine
-- s001: shark in the orca's mouth, no blood, cartoon. Fine.
-- s029/s030, s050, s099, s120, s140, s159/s160, s200/s201, s246: ghost Doug plus cap, consistent and non-graphic.
-- s075: the surfboard notch is a cartoon "bite", Doug fine. OK.
-- s111 (ray cropped at the frame edge) and s224-s226 (blue whale overflowing the frame) are deliberate scale crops and read correctly.
-- s096 CLEVER/FAMILY and s072/s118/s138 crossed words are intentional and still legible.
-- s213 shows the catch as a float, with no carcass. Fine for policy.
-- s259: CTA frame clear.
+### Checked and fine (new this round)
+- s011 hungry orca with a crossed-out plate, and s012 seals underwater: both read in 1 second.
+- s069 `surfboard_bitten`: the notch is a cartoon notch with no blood. Fine.
+- s163 `car_half` next to the calf: it reads as "half a car", which matches the narration.
+- s164 shows 20 cars, which matches the narration.
+- s227 shows the cars and Doug icons with their counts. Legible.
+- s250: the large Doug close-up is on-model (red cap, white head).
+- s257/s258 outro: the "MAYBE" book callback reads clearly.
+- s259 CTA: the costume lineup is clear and the deaths are cartoon (X eyes, no gore).
+- The full frames for s145, s202 and s255 were viewed at 1920x1080.
 
 ### Routing summary
-- Illustrator: 1 (car_half asset), 2 (Unimak map), 10 (water plant), 11 (larger scar marks)
-- Director: 1 (re-place car), 3, 4, 5, 6, 7, 8, 9, 11 (labels), 12, 13, 14, 15, 16
-- Art director: no style violations found; no action.
-- Graphic designer: thumbnail not in scope for this round.
+- Director: 1 (s068 seascape, s070/s071 variation), 2, 3, 4
+- Illustrator: optional `surfer` figure for fix 1 only, if the director wants a rider on the board
+- Art director: no style violations; no action
+- Graphic designer: thumbnail not in scope this round
 
-Re-screen after fixes: s010-s014, s051, s062, s063, s067-s071, s080, s086, s087, s100, s105-s107, s123, s124, s128, s129, s131-s133, s145, s152, s153, s163, s167, s188, s189, s197, s202, s205, s228, s229, s231, s233, s247-s250, s252-s254, s256.
+Re-screen after fixes: s067-s071, s087, s145, s255.

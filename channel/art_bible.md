@@ -255,6 +255,8 @@ lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008
   shots, move the sun/moon down to about (1720, 330) or drop it. This applies to **every** shot that shows the
   counter, including survival beats and title cards that carry the counter over (004 s222 moon at 1650,200).
   Inset frames (slow-motion boxes, photo/x-ray insets) count too: start them at y ≥ 250 or end them at x ≤ 1280 (008 s015-s019).
+  Map assets are inset frames. Check the rendered frame line in pixels (asset size × scale around its anchor), not the element's
+  x/y: a map that ends 17 px left of the box still breaks the rule (021 s006 group, frame right edge 1348 and top 176).
 - **Night clock (009 only)**: moon icon at (1338, 240) plus a `label` "DOUG LASTED: ..." centred at (1600, 240), size 34, under the counter.
   White while running, `#fff3b0` with a sun icon on survival (SUNRISE), `#ffd2cc` frozen on death. For short readings ("3 s"), put the
   icon at the label's left edge minus 34 so it doesn't float.

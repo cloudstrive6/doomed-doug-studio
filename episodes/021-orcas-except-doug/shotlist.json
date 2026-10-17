@@ -787,7 +787,7 @@
      {
       "type": "asset",
       "name": "bc_map",
-      "x": 960,
+      "x": 870,
       "y": 500,
       "scale": 0.85
      },
@@ -802,7 +802,7 @@
      },
      {
       "type": "circle",
-      "x": 930,
+      "x": 840,
       "y": 410,
       "r": 95,
       "fill": null,
@@ -813,7 +813,7 @@
      {
       "type": "asset",
       "name": "orca",
-      "x": 935,
+      "x": 845,
       "y": 430,
       "scale": 0.12,
       "appear": 0.8
@@ -1625,7 +1625,7 @@
      {
       "type": "asset",
       "name": "bc_map",
-      "x": 960,
+      "x": 870,
       "y": 500,
       "scale": 0.85
      },
@@ -1641,7 +1641,7 @@
      {
       "type": "asset",
       "name": "orca",
-      "x": 935,
+      "x": 845,
       "y": 440,
       "scale": 0.12
      },
@@ -1656,7 +1656,7 @@
      {
       "type": "label",
       "text": "6 OF 40 YEARS",
-      "x": 960,
+      "x": 870,
       "y": 935,
       "size": 50,
       "bold": true,
@@ -2169,7 +2169,7 @@
      {
       "type": "asset",
       "name": "bc_map",
-      "x": 960,
+      "x": 870,
       "y": 500,
       "scale": 0.85
      },
@@ -2185,35 +2185,35 @@
      {
       "type": "asset",
       "name": "orca",
-      "x": 935,
+      "x": 845,
       "y": 440,
       "scale": 0.12
      },
      {
       "type": "asset",
       "name": "harbor_seal",
-      "x": 880,
+      "x": 790,
       "y": 470,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "harbor_seal",
-      "x": 1000,
+      "x": 910,
       "y": 520,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "harbor_seal",
-      "x": 920,
+      "x": 830,
       "y": 560,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "orca",
-      "x": 1010,
+      "x": 920,
       "y": 600,
       "scale": 0.12,
       "appear": 0.3
@@ -2221,7 +2221,7 @@
      {
       "type": "label",
       "text": "SEAL EATERS",
-      "x": 960,
+      "x": 870,
       "y": 935,
       "size": 50,
       "bold": true,
@@ -2349,7 +2349,7 @@
      {
       "type": "asset",
       "name": "bc_map",
-      "x": 960,
+      "x": 870,
       "y": 500,
       "scale": 0.85
      },
@@ -2365,57 +2365,57 @@
      {
       "type": "asset",
       "name": "orca",
-      "x": 935,
+      "x": 845,
       "y": 440,
       "scale": 0.12
      },
      {
       "type": "asset",
       "name": "harbor_seal",
-      "x": 880,
+      "x": 790,
       "y": 470,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "harbor_seal",
-      "x": 1000,
+      "x": 910,
       "y": 520,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "harbor_seal",
-      "x": 920,
+      "x": 830,
       "y": 560,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "orca",
-      "x": 1010,
+      "x": 920,
       "y": 600,
       "scale": 0.12
      },
      {
-      "type": "label",
-      "text": "SEAL EATERS",
-      "x": 960,
-      "y": 935,
-      "size": 50,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
-     },
-     {
       "type": "circle",
-      "x": 935,
+      "x": 845,
       "y": 440,
       "r": 60,
       "fill": null,
       "color": "#e0201b",
       "width": 6,
       "appear": 0.15
+     },
+     {
+      "type": "label",
+      "text": "SEAL EATERS",
+      "x": 870,
+      "y": 935,
+      "size": 50,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
      },
      {
       "type": "wordart",
@@ -4129,7 +4129,7 @@
      {
       "type": "asset",
       "name": "bc_map",
-      "x": 960,
+      "x": 870,
       "y": 500,
       "scale": 0.85
      },
@@ -4145,14 +4145,14 @@
      {
       "type": "asset",
       "name": "orca",
-      "x": 935,
+      "x": 845,
       "y": 440,
       "scale": 0.12
      },
      {
       "type": "asset",
       "name": "warning_triangle",
-      "x": 1100,
+      "x": 1010,
       "y": 360,
       "scale": 0.45,
       "appear": 0.3
@@ -4160,7 +4160,7 @@
      {
       "type": "wordart",
       "text": "ENDANGERED",
-      "x": 960,
+      "x": 870,
       "y": 935,
       "size": 90,
       "boil": 0,
@@ -6429,42 +6429,42 @@
       "type": "asset",
       "name": "aleutian_map",
       "x": 960,
-      "y": 500,
+      "y": 532,
       "scale": 0.9
      },
      {
       "type": "asset",
       "name": "sea_otter",
       "x": 500,
-      "y": 560,
+      "y": 592,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "sea_otter",
       "x": 700,
-      "y": 530,
+      "y": 562,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "sea_otter",
       "x": 900,
-      "y": 500,
+      "y": 532,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "sea_otter",
       "x": 1100,
-      "y": 470,
+      "y": 502,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "sea_otter",
       "x": 1300,
-      "y": 440,
+      "y": 472,
       "scale": 0.13
      },
      {
@@ -6482,7 +6482,7 @@
       "type": "asset",
       "name": "red_x",
       "x": 500,
-      "y": 560,
+      "y": 592,
       "scale": 0.3,
       "appear": 0.7
      },
@@ -6490,7 +6490,7 @@
       "type": "asset",
       "name": "red_x",
       "x": 1100,
-      "y": 470,
+      "y": 502,
       "scale": 0.3,
       "appear": 0.85
      },
@@ -6546,63 +6546,63 @@
       "type": "asset",
       "name": "aleutian_map",
       "x": 960,
-      "y": 500,
+      "y": 532,
       "scale": 0.9
      },
      {
       "type": "asset",
       "name": "sea_otter",
       "x": 500,
-      "y": 560,
+      "y": 592,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "sea_otter",
       "x": 700,
-      "y": 530,
+      "y": 562,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "sea_otter",
       "x": 900,
-      "y": 500,
+      "y": 532,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "sea_otter",
       "x": 1100,
-      "y": 470,
+      "y": 502,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "sea_otter",
       "x": 1300,
-      "y": 440,
+      "y": 472,
       "scale": 0.13
      },
      {
       "type": "asset",
       "name": "red_x",
       "x": 500,
-      "y": 560,
+      "y": 592,
       "scale": 0.3
      },
      {
       "type": "asset",
       "name": "red_x",
       "x": 1100,
-      "y": 470,
+      "y": 502,
       "scale": 0.3
      },
      {
       "type": "asset",
       "name": "red_x",
       "x": 700,
-      "y": 530,
+      "y": 562,
       "scale": 0.3,
       "appear": 0.35
      },
@@ -10337,7 +10337,7 @@
       "type": "asset",
       "name": "aleutian_map",
       "x": 960,
-      "y": 500,
+      "y": 532,
       "scale": 0.9
      },
      {
@@ -10345,23 +10345,23 @@
       "points": [
        [
         420,
-        580
+        612
        ],
        [
         700,
-        540
+        572
        ],
        [
         1000,
-        490
+        522
        ],
        [
         1300,
-        440
+        472
        ],
        [
         1560,
-        400
+        432
        ]
       ],
       "color": "#e0201b",
@@ -10376,28 +10376,28 @@
       "type": "asset",
       "name": "orca",
       "x": 600,
-      "y": 620,
+      "y": 652,
       "scale": 0.1
      },
      {
       "type": "asset",
       "name": "orca",
       "x": 850,
-      "y": 590,
+      "y": 622,
       "scale": 0.1
      },
      {
       "type": "asset",
       "name": "orca",
       "x": 1100,
-      "y": 540,
+      "y": 572,
       "scale": 0.1
      },
      {
       "type": "asset",
       "name": "orca",
       "x": 1350,
-      "y": 500,
+      "y": 532,
       "scale": 0.1
      },
      {
@@ -11697,7 +11697,7 @@
      {
       "type": "asset",
       "name": "bc_map",
-      "x": 960,
+      "x": 870,
       "y": 500,
       "scale": 0.85
      },
@@ -11713,7 +11713,7 @@
      {
       "type": "asset",
       "name": "harbor_seal",
-      "x": 880,
+      "x": 790,
       "y": 470,
       "scale": 0.12,
       "appear": 0.2
@@ -11721,7 +11721,7 @@
      {
       "type": "asset",
       "name": "harbor_seal",
-      "x": 990,
+      "x": 900,
       "y": 520,
       "scale": 0.12,
       "appear": 0.2
@@ -11729,7 +11729,7 @@
      {
       "type": "asset",
       "name": "harbor_seal",
-      "x": 920,
+      "x": 830,
       "y": 570,
       "scale": 0.12,
       "appear": 0.2
@@ -11737,7 +11737,7 @@
      {
       "type": "asset",
       "name": "harbor_seal",
-      "x": 840,
+      "x": 750,
       "y": 380,
       "scale": 0.12,
       "appear": 0.2
@@ -11745,7 +11745,7 @@
      {
       "type": "label",
       "text": "MORE THAN HALF",
-      "x": 960,
+      "x": 870,
       "y": 935,
       "size": 50,
       "bold": true,
@@ -11756,11 +11756,11 @@
      {
       "type": "arrow",
       "from": [
-       1300,
+       1210,
        300
       ],
       "to": [
-       1000,
+       910,
        470
       ],
       "bend": 60,
@@ -12891,39 +12891,135 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 1080,
-      "fill": "#1b2f5a",
-      "color": "#1b2f5a",
+      "h": 620,
+      "fill": "#cfe9ff",
+      "color": "#cfe9ff",
       "width": 0,
       "outline": false,
       "boil": 0
      },
      {
-      "type": "text",
-      "text": "POINT SUR, CALIFORNIA, 1972",
-      "x": 960,
-      "y": 300,
-      "size": 72,
-      "color": "#ffffff",
-      "bold": true,
-      "boil": 0.3,
-      "outline": "#000000",
-      "outline_width": 6,
-      "max_width": 1500
+      "type": "rect",
+      "x": 0,
+      "y": 620,
+      "w": 1920,
+      "h": 460,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
+      "width": 0,
+      "outline": false,
+      "boil": 0
      },
      {
-      "type": "text",
+      "type": "curve",
+      "points": [
+       [
+        -20,
+        620
+       ],
+       [
+        240,
+        612
+       ],
+       [
+        480,
+        624
+       ],
+       [
+        720,
+        614
+       ],
+       [
+        960,
+        624
+       ],
+       [
+        1200,
+        612
+       ],
+       [
+        1440,
+        624
+       ],
+       [
+        1680,
+        614
+       ],
+       [
+        1940,
+        622
+       ]
+      ],
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 880,
+      "r": 900,
+      "color": "#6fc1ee",
+      "density": 0.02
+     },
+     {
+      "type": "asset",
+      "name": "surfboard_bitten",
+      "x": 700,
+      "y": 614,
+      "scale": 0.9
+     },
+     {
+      "type": "asset",
+      "name": "orca_fin",
+      "x": 1300,
+      "y": 620,
+      "scale": 0.6,
+      "appear": 0.1
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1120,
+        650
+       ],
+       [
+        900,
+        650
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 6,
+      "dash": [
+       14,
+       10
+      ],
+      "appear": 0.25
+     },
+     {
+      "type": "arrow",
+      "from": [
+       860,
+       510
+      ],
+      "to": [
+       1150,
+       420
+      ],
+      "bend": -60,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 40,
+      "appear": 0.3
+     },
+     {
+      "type": "wordart",
       "text": "HE SURVIVED",
       "x": 960,
-      "y": 415,
-      "size": 64,
-      "color": "#ffffff",
-      "bold": true,
-      "boil": 0.3,
-      "outline": "#000000",
-      "outline_width": 6,
-      "appear": 0.45,
-      "max_width": 1500
+      "y": 300,
+      "size": 100,
+      "boil": 0,
+      "appear": 0.55
      },
      {
       "type": "label",
@@ -13109,66 +13205,134 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 1080,
-      "fill": "#1b2f5a",
-      "color": "#1b2f5a",
+      "h": 620,
+      "fill": "#cfe9ff",
+      "color": "#cfe9ff",
       "width": 0,
       "outline": false,
       "boil": 0
      },
      {
-      "type": "text",
-      "text": "POINT SUR, CALIFORNIA, 1972",
+      "type": "rect",
+      "x": 0,
+      "y": 620,
+      "w": 1920,
+      "h": 460,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        -20,
+        620
+       ],
+       [
+        240,
+        612
+       ],
+       [
+        480,
+        624
+       ],
+       [
+        720,
+        614
+       ],
+       [
+        960,
+        624
+       ],
+       [
+        1200,
+        612
+       ],
+       [
+        1440,
+        624
+       ],
+       [
+        1680,
+        614
+       ],
+       [
+        1940,
+        622
+       ]
+      ],
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 300,
-      "size": 72,
-      "color": "#ffffff",
-      "bold": true,
-      "boil": 0.3,
-      "outline": "#000000",
-      "outline_width": 6,
-      "max_width": 1500
+      "y": 880,
+      "r": 900,
+      "color": "#6fc1ee",
+      "density": 0.02
      },
      {
       "type": "asset",
       "name": "surfboard_bitten",
-      "x": 780,
-      "y": 800,
-      "scale": 1.1
+      "x": 700,
+      "y": 614,
+      "scale": 0.9
      },
      {
       "type": "asset",
-      "name": "harbor_seal",
-      "x": 1380,
-      "y": 790,
-      "scale": 0.75
+      "name": "orca_fin",
+      "x": 1640,
+      "y": 620,
+      "scale": 0.42
      },
      {
-      "type": "text",
-      "text": "ONE DOCUMENTED CASE",
-      "x": 960,
-      "y": 415,
-      "size": 64,
+      "type": "line",
+      "points": [
+       [
+        1500,
+        650
+       ],
+       [
+        900,
+        650
+       ]
+      ],
       "color": "#ffffff",
-      "bold": true,
-      "boil": 0.3,
-      "outline": "#000000",
-      "outline_width": 6,
-      "max_width": 1500
+      "width": 6,
+      "dash": [
+       14,
+       10
+      ],
+      "appear": 0.15
      },
      {
-      "type": "text",
+      "type": "arrow",
+      "from": [
+       1000,
+       500
+      ],
+      "to": [
+       1500,
+       460
+      ],
+      "bend": -50,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 40,
+      "appear": 0.3
+     },
+     {
+      "type": "wordart",
       "text": "IT LET GO",
       "x": 960,
-      "y": 530,
-      "size": 64,
-      "color": "#ffffff",
-      "bold": true,
-      "boil": 0.3,
-      "outline": "#000000",
-      "outline_width": 6,
-      "appear": 0.4,
-      "max_width": 1500
+      "y": 300,
+      "size": 110,
+      "boil": 0,
+      "appear": 0.5
      },
      {
       "type": "label",
@@ -14992,8 +15156,8 @@
      {
       "type": "label",
       "text": "10 TONNES",
-      "x": 960,
-      "y": 170,
+      "x": 420,
+      "y": 230,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -15403,14 +15567,14 @@
      {
       "type": "asset",
       "name": "bc_map",
-      "x": 960,
+      "x": 870,
       "y": 500,
       "scale": 0.85
      },
      {
       "type": "asset",
       "name": "pacific_white_sided_dolphin",
-      "x": 700,
+      "x": 610,
       "y": 420,
       "scale": 0.1,
       "appear": 0.15
@@ -15418,7 +15582,7 @@
      {
       "type": "asset",
       "name": "pacific_white_sided_dolphin",
-      "x": 760,
+      "x": 670,
       "y": 560,
       "scale": 0.1,
       "appear": 0.15
@@ -15426,7 +15590,7 @@
      {
       "type": "asset",
       "name": "orca",
-      "x": 720,
+      "x": 630,
       "y": 490,
       "scale": 0.1,
       "appear": 0.5
@@ -15434,7 +15598,7 @@
      {
       "type": "asset",
       "name": "orca",
-      "x": 800,
+      "x": 710,
       "y": 640,
       "scale": 0.1,
       "appear": 0.5
@@ -15568,42 +15732,42 @@
      {
       "type": "asset",
       "name": "bc_map",
-      "x": 960,
+      "x": 870,
       "y": 500,
       "scale": 0.85
      },
      {
       "type": "asset",
       "name": "pacific_white_sided_dolphin",
-      "x": 700,
+      "x": 610,
       "y": 420,
       "scale": 0.1
      },
      {
       "type": "asset",
       "name": "pacific_white_sided_dolphin",
-      "x": 760,
+      "x": 670,
       "y": 560,
       "scale": 0.1
      },
      {
       "type": "asset",
       "name": "orca",
-      "x": 720,
+      "x": 630,
       "y": 490,
       "scale": 0.1
      },
      {
       "type": "asset",
       "name": "orca",
-      "x": 800,
+      "x": 710,
       "y": 640,
       "scale": 0.1
      },
      {
       "type": "wordart",
       "text": "ONLY PREDATOR",
-      "x": 960,
+      "x": 870,
       "y": 935,
       "size": 90,
       "boil": 0,
@@ -16535,48 +16699,48 @@
       "type": "line",
       "points": [
        [
-        756,
+        754,
         384
        ],
        [
-        772,
+        770,
         426
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
       "type": "line",
       "points": [
        [
-        772,
+        776,
         384
        ],
        [
-        788,
+        792,
         426
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
       "type": "line",
       "points": [
        [
-        788,
+        798,
         384
        ],
        [
-        804,
+        814,
         426
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
@@ -16673,48 +16837,48 @@
       "type": "line",
       "points": [
        [
-        1296,
+        1294,
         384
        ],
        [
-        1312,
+        1310,
         426
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
       "type": "line",
       "points": [
        [
-        1312,
+        1316,
         384
        ],
        [
-        1328,
+        1332,
         426
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
       "type": "line",
       "points": [
        [
-        1328,
+        1338,
         384
        ],
        [
-        1344,
+        1354,
         426
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
@@ -16841,48 +17005,48 @@
       "type": "line",
       "points": [
        [
-        936,
+        934,
         534
        ],
        [
-        952,
+        950,
         576
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
       "type": "line",
       "points": [
        [
-        952,
+        956,
         534
        ],
        [
-        968,
+        972,
         576
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
       "type": "line",
       "points": [
        [
-        968,
+        978,
         534
        ],
        [
-        984,
+        994,
         576
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
@@ -17039,48 +17203,48 @@
       "type": "line",
       "points": [
        [
-        756,
+        754,
         684
        ],
        [
-        772,
+        770,
         726
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
       "type": "line",
       "points": [
        [
-        772,
+        776,
         684
        ],
        [
-        788,
+        792,
         726
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
       "type": "line",
       "points": [
        [
-        788,
+        798,
         684
        ],
        [
-        804,
+        814,
         726
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
@@ -17177,48 +17341,48 @@
       "type": "line",
       "points": [
        [
-        1296,
+        1294,
         684
        ],
        [
-        1312,
+        1310,
         726
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
       "type": "line",
       "points": [
        [
-        1312,
+        1316,
         684
        ],
        [
-        1328,
+        1332,
         726
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
       "type": "line",
       "points": [
        [
-        1328,
+        1338,
         684
        ],
        [
-        1344,
+        1354,
         726
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 12,
       "appear": 0.25
      },
      {
@@ -17263,13 +17427,179 @@
       "appear": 0.15
      },
      {
+      "type": "label",
+      "text": "ORCA",
+      "x": 760,
+      "y": 830,
+      "size": 40,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.4
+     },
+     {
+      "type": "label",
+      "text": "FISHING GEAR",
+      "x": 760,
+      "y": 930,
+      "size": 40,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.6
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        800
+       ],
+       [
+        960,
+        860
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 12,
+      "appear": 0.42
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1000,
+        800
+       ],
+       [
+        1000,
+        860
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 12,
+      "appear": 0.44
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1040,
+        800
+       ],
+       [
+        1040,
+        860
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 12,
+      "appear": 0.46
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1080,
+        800
+       ],
+       [
+        1080,
+        860
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 12,
+      "appear": 0.48
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1120,
+        800
+       ],
+       [
+        1120,
+        860
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 12,
+      "appear": 0.5
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1160,
+        800
+       ],
+       [
+        1160,
+        860
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 12,
+      "appear": 0.52
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1200,
+        800
+       ],
+       [
+        1200,
+        860
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 12,
+      "appear": 0.54
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1240,
+        800
+       ],
+       [
+        1240,
+        860
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 12,
+      "appear": 0.56
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        900
+       ],
+       [
+        960,
+        960
+       ]
+      ],
+      "color": "#d8d8d8",
+      "width": 12,
+      "appear": 0.62
+     },
+     {
       "type": "wordart",
       "text": "8x",
-      "x": 1050,
-      "y": 900,
-      "size": 120,
+      "x": 1560,
+      "y": 880,
+      "size": 130,
       "boil": 0,
-      "appear": 0.6
+      "appear": 0.72
      },
      {
       "type": "label",
@@ -20164,11 +20494,11 @@
       "type": "line",
       "points": [
        [
-        896,
+        894,
         614
        ],
        [
-        912,
+        910,
         656
        ]
       ],
@@ -20180,11 +20510,11 @@
       "type": "line",
       "points": [
        [
-        912,
+        910,
         614
        ],
        [
-        928,
+        926,
         656
        ]
       ],
@@ -20196,11 +20526,11 @@
       "type": "line",
       "points": [
        [
-        928,
+        926,
         614
        ],
        [
-        944,
+        942,
         656
        ]
       ],
@@ -27950,7 +28280,7 @@
       "type": "asset",
       "name": "car_half",
       "x": 1180,
-      "y": 1010,
+      "y": 1070,
       "scale": 1.2,
       "appear": 0.45
      },
@@ -33085,7 +33415,7 @@
       "type": "asset",
       "name": "clock",
       "x": 1500,
-      "y": 300,
+      "y": 330,
       "scale": 0.5,
       "appear": 0.0
      },
@@ -33093,7 +33423,7 @@
       "type": "label",
       "text": "6.5 HOURS",
       "x": 1500,
-      "y": 420,
+      "y": 450,
       "size": 48,
       "bold": true,
       "boil": 0.4,
@@ -40093,7 +40423,7 @@
       "type": "label",
       "text": "PARTNERS",
       "x": 1250,
-      "y": 280,
+      "y": 300,
       "size": 56,
       "bold": true,
       "boil": 0.4,
@@ -40104,7 +40434,7 @@
       "type": "label",
       "text": "NOT PREY",
       "x": 1250,
-      "y": 400,
+      "y": 420,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -43233,7 +43563,7 @@
       "type": "label",
       "text": "TONGUE FIRST",
       "x": 1250,
-      "y": 280,
+      "y": 870,
       "size": 48,
       "bold": true,
       "boil": 0.4,
@@ -46522,7 +46852,7 @@
      },
      {
       "type": "doug",
-      "x": 1650,
+      "x": 1760,
       "y": 680,
       "scale": 0.36,
       "pose": "float",

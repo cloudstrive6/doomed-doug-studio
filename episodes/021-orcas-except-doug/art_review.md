@@ -223,3 +223,78 @@ the counter and map frames, plus a few readability problems.
 - **Illustrator:** only if the fix-10 rescale of `water_plants_bunch` still reads as a figure.
 - Re-render keyframes for the touched shots (`python -m studio keyframes 021-orcas-except-doug --shots ...`) and send the new
   contact sheets back. Re-review will cover only the listed shots.
+
+---
+
+# Keyframe review, round 2 (art director, 2026-10-17)
+
+Scope: all 22 contact sheets again (s001-s259, all re-rendered 18:03-18:04), plus 1080p checks of every changed shot. For the
+counter I did a pixel sweep: for all 259 keyframes I cropped x 1150-1920, y 90-340 and measured the box edges
+(x 1365-1815, y 128-196) against the nearest ink.
+
+## Verdict: FAIL (3 small, mechanical fix groups, all director)
+
+**All 13 round-1 fixes are done and verified:**
+1. Wordart and labels are clear of the counter in s015, s062, s063, s080, s094, s127, s162, s180, s183, s203 and s254. Glyph
+   tops are at y >= 250, or the text ends at x <= 1280.
+2. In s123 and s124 the moose is on the right hill below the zone, with the label to its left. In s152 and s153 the boats are
+   at x <= 1260. The s230 whale stack ends at x 1260.
+3. The ghosts in s051, s121, s160 and s201 are out of the zone.
+4. The maps in s105-s107, s128, s131-s133, s155, s165-s167, s172, s173, s188, s189, s197, s204, s205, s228, s229, s252 and
+   s253 all have frame tops at y 266-300, or end at x <= 1280. Each build-up group stays in one place.
+5. "SHARK HUNTERS" (s197), "3 TIMES" (s228) and "2019 TO 2021" (s229) are clear of the frames.
+6. s030: Doug has been dropped. The orca, salmon and "NO OPINION" read cleanly.
+7. s075, s076: Doug stands on the board, so there is no skewer read.
+8. s108: about 450 px between the tail tip and Doug.
+9. s202: the title tops are at y 250 and the cap clears the title by about 25 px.
+10. `car_half` (s145, s163) reads as a deliberate cut. `unimak_map` (s167) is one clean frame. `water_weed_draped` (s129) reads
+    as a weed mat at the moose's muzzle. s141 shows the moose swimming with the dashed line from the boat. In s256 the fin is
+    in open water to the right of the menu.
+11. Item skies and waters are now on the ramp: seal `#cfe9ff`, moose `#cfe2ee`, great white `#2f7fbf`, calf `#2a6aa6`, whale
+    shark `#1f5a94`. The pale grey weigh-in floors in s057, s058, s072, s163, s164, s186 and s187 are accepted, because the
+    scale needs a floor.
+12. In s067-s071, line 1 stays at a fixed y. From s069 on, the surfboard and seal break the text run. No red.
+13. s233 now says "16 IN ALL 3 HUNTS".
+The visual-screener's variety fixes also read well: s011 (hungry orca and plate), s012 (seals passing), s063 (resident orca with
+a salmon), s107 (ray beside NZ) and s250 (close-up of the fish).
+
+## Required fixes
+
+1. **WA/BC map group: the map frame runs into the counter zone.** In round 1 I measured this edge at about x 1290 and filed it
+   as optional. At 1080p the frame's right edge is actually at **x 1348 with its top at y 176**, which is 17 px from the box and
+   breaks the inset-frame rule. Shots: **s006, s010, s013, s014, s023, s060, s084, s085** (`bc_map` at x 960, scale 0.85).
+   Fix: set the map x to **870** and move everything drawn on the map (orcas, fish, seals, the red circle, the warning icon, the
+   s060 arrow, and the s084/s085 dolphin and orca icons) by -90 in x as well. This puts the right edge at about 1259. The labels
+   under the map ("6 OF 40 YEARS", "SEAL EATERS", "ENDANGERED", "MORE THAN HALF", "ONLY PREDATOR") can move -90 too, to stay
+   centred. Keep the same x in all 8 shots so the map never jumps.
+2. **Aleutian map: the frame sits right under the counter.** In **s036, s037 and s052** (`aleutian_map` at y 500, scale 0.9) the
+   frame top is at y 228 and the frame runs to x 1592, only 32 px below the box. I missed this in round 1. Fix: set the map y to
+   **532** (frame top at about 260) and move the otters, red X marks, orcas and the s052 dashed line on it by +32 in y. The
+   labels below ("1990s", "MINUS 25% A YEAR", "ENORMOUS") still have more than 80 px of clearance, so leave them where they
+   are.
+3. **s234: "TONGUE FIRST" sits on the Australia map's top frame line** (the label box covers y 245-315 and the frame top is at
+   300). That breaks the round-1 rule of 20 px clear around map frames. Fix: move the label below the map, to about
+   **(1250, 870)**. The frame bottom is at about 819. Do not move it up: above the map it would land in the counter zone.
+
+## Optional polish (not blocking)
+- s082: the orca's dorsal tip still touches the bottom of the "10 TONNES" box. Raise the label by 30.
+- s174: the clock icon's top is at y 243, 47 px under the box. Lower the clock and "6.5 HOURS" by 30.
+- s219: the top of the "PARTNERS" box is at y 237 and the box spans to x 1418. Lower "PARTNERS" and "NOT PREY" by 20.
+- s255: Doug's cap brim touches the orca fin's right edge. Move Doug about 70 px right, so he stands beside the fin instead of
+  stuck to it.
+- s145: the shark's pectoral fin tip grazes the ghost outline of the half car. Move the car about 40 px down or left.
+
+## Notes
+- The counter value is correct on every frame (170 to 178 on the same death beats as round 1). No other ink comes within 30 px
+  of the box in any of the 259 frames.
+- Not mine to call: the visual-screener's should-fix for s087 (a 1-vs-8 fishing-gear tally) has not been added. The screener
+  should decide whether that blocks.
+- Art bible updated (`channel/art_bible.md`, death counter): map assets count as inset frames. Measure the rendered frame line in
+  pixels, not the element's x/y.
+
+## Routing
+- **Director:** required fixes 1-3 (shotlist only, 12 shots), plus any optional polish. Re-render
+  `--shots s006,s010,s013,s014,s023,s036,s037,s052,s060,s084,s085,s234` (plus any polish shots).
+- **Illustrator:** nothing.
+- Re-review will cover only those shots. If the frame edges measure x <= 1280 (WA/BC) and y >= 250 (Aleutian), and the s234
+  label clears the frame, this is a PASS.
