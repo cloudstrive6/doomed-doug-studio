@@ -52,3 +52,4 @@
 - Fallback: if day-7 CTR is under the channel median, swap to B (as with 015 and 012), but first have the illustrator fix the
   buffalo tile (wide, sweeping horns, heavy body) and give TONGUE or CROWD a distinct drawing.
 - Next: the visual screener checks the thumbnail. Shot s001 (the opening image) uses the A hero for 1.5 to 4 s.
+- 2026-10-18: script 3 rounds (fact/rule fixes), art 2 rounds + thumbnail check round 3 (s184 tail), thumbnail A hero, packaged 15:44. Risks: Flesch/sentence-length at limits; weak 'rare attacks' source (AP 2009); hero thumbnail claws unclear at feed size (fallback B grid after buffalo redraw).
