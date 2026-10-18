@@ -1,0 +1,41 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s063",
+      "to": "s075",
+      "hook": "A Komodo dragon can smell you from four kilometers away.",
+      "hook_scene_from": "s070",
+      "title": "",
+      "outro": "The dragon never looked behind the rock. It didn't need to. How Doug's hiding went is in the full video below.",
+      "tease_from": "s076",
+      "tease_asset": "komodo_head",
+      "end_card": "WHAT FOUND DOUG BEHIND THE ROCK?",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s171",
+      "to": "s183",
+      "title": "",
+      "outro": "Then Doug offered it a picnic as a peace treaty. The dragon accepted. Not just the sandwiches. It's in the full video below.",
+      "tease_from": "s185",
+      "tease_asset": "komodo_dragon",
+      "end_card": "WHAT ELSE DID THE DRAGON EAT?",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s239",
+      "to": "s249",
+      "hook": "A Komodo dragon had babies without ever meeting a male.",
+      "hook_scene_from": "s240",
+      "title": "",
+      "outro": "Komodos have outwaited everything for about four million years. Doug tried to outwait one with a folding chair. It's linked below.",
+      "tease_from": "s282",
+      "tease_asset": "komodo_log_eye",
+      "end_card": "HOW LONG DID DOUG LAST?",
+      "description": ""
+    }
+  ]
+}
