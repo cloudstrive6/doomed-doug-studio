@@ -1,5 +1,5 @@
 <!-- axis: time. THE WAIT, how long the dragon is willing to wait for Doug, from zero seconds to about four million years. Each item is placed by the sourced time value on THE WAIT clock (table below); the clock only goes up. Spoken section headers: "Seconds." (opener, items 1-2), "Hours." (before item 3), "Days." (before item 5), "Weeks." (before item 9), "Months." (before item 10), "Years." (before item 11). -->
-<!-- Episode 022: Why the Komodo Dragon Can Kill Doug Without Chasing Him. Draft 1 (2026-10-18, script writer). Counter on screen at 178 from the first shot, ends at 186: eight deaths over twelve items. Survivals: The Teeth ("Doug is fine.", bandage, the one 010 callback), The Meal ("Doug is fine. The picnic is not."), The Fast ("hi friend?", full not friendly, narrator quietly disappointed), The Virgin Birth ("Doug was not required."). "Doug did not agree to this." once, item 1. The cap: on the rock (3), floating by the ring at the shore (5), on the grass (7), on a branch (10), on the folding chair (12, closing). Field guide KOMODO page: FRIEND? empty at item 1, red "NO" at the closing. Predation always off-screen: no blood, no wounds, no carcasses, no feeding on screen. One sober line on human attacks (The Follow), no joke beside it. -->
+<!-- Episode 022: Why the Komodo Dragon Can Kill Doug Without Chasing Him. Draft 2 (2026-10-18, script writer, revised per script_review.md fixes 1-15). Counter on screen at 178 from the first shot, ends at 186: eight deaths over twelve items. Survivals: The Teeth ("Doug is fine.", bandage, the one 010 callback), The Meal ("Doug is fine. The picnic is not."), The Fast ("hi friend?", full not friendly, narrator quietly disappointed), The Virgin Birth ("Doug was not required."). "Doug did not agree to this." once, item 1. The cap: on the rock (3), floating by the ring at the shore (5), on the grass (7), on a branch (10), on the folding chair (12, closing). Field guide KOMODO page: FRIEND? empty at item 1, red "NO" at the closing. Predation always off-screen: no blood, no wounds, no carcasses, no feeding on screen. One sober line on human attacks (The Follow), no joke beside it. -->
 <!-- Deviations from the brief, all fact-driven (details in facts.md "Brief leads that failed"):
 1. The Swim: the brief's twist ("leaving the island is not leaving the dragon" because dragons follow by sea) fails. Jessop et al. 2018 tracked dragons and found they almost never leave the valley they hatched in. New twist, same line: the dragon doesn't follow Doug across the water; the next island already has its own dragons.
 2. The Buffalo: the "picks prey ten times its size and wins the wait" twist fails. Fry's team says buffalo almost always escape the first attack; Smithsonian: dragons seldom succeed in killing them. New twist: it doesn't need to win the fight, only to be nearby when the buffalo finally lies down (scavenging, Bull et al. 2010 shared feeding over several days). No bacteria, no sepsis, no waterhole infection. Buffalo moved before The Meal so the clock stays monotonic (Crowd several days, Buffalo days, Meal up to five days of digestion).
@@ -14,8 +14,8 @@
 | 1 | The Ambush | 0 S | the strike |
 | 2 | The Teeth | 1 S | the bite and release |
 | 3 | The Tongue | 50 MIN | Doug's 4 km head start at walking pace, about fifty minutes |
-| 4 | The Follow | 4 HR | Fry: about one in five bitten animals lasts up to four hours |
-| 5 | The Swim | 1 DAY | daily range, up to seven miles a day in the home valley |
+| 4 | The Follow | 4 HR | Jessop, in Smithsonian magazine: about one in five bitten animals lasts up to four hours |
+| 5 | The Swim | 1 DAY | daily range, up to ten kilometers a day (SDZWA), inside the home valley (Jessop 2018) |
 | 6 | The Crowd | SEVERAL DAYS | Bull 2010: shared feeding over several days |
 | 7 | The Buffalo | SEVERAL DAYS + | narrated only as "days" |
 | 8 | The Meal | 5 DAYS | SDZWA: cool nights delay digestion by up to five days |
@@ -44,7 +44,7 @@ It can do that.
 
 [A dragon in a short sprint, dust behind it. Next to it, a stick cyclist pedalling at an easy pace. Label: "UP TO 20 KM/H".]
 
-In a short burst, a Komodo can reach about twenty kilometers an hour, which is a little faster than the average commuter cycling across Copenhagen. The catch is that it can only keep this up over short distances.
+In a short burst, a Komodo can reach about twenty kilometers an hour, which is a little faster than the average commuter cycling across Copenhagen, but it can only keep this up over short distances.
 
 Here's the problem.
 
@@ -54,13 +54,13 @@ It rarely needs the sprint at all. The Smithsonian's National Zoo describes drag
 
 [Red arrow to the log. Label: "NOT A LOG".]
 
-So the biggest, most dangerous dragon on the island is usually the one doing the least. It lies low beside the path, it stays quiet, and it lets the island bring breakfast to it.
+So the biggest, most dangerous dragon on the island is usually the one doing the least. It lies low beside the path, it stays perfectly quiet, and it lets the island bring breakfast to it.
 
 It can chase you. It almost never has to, because it started waiting before you arrived.
 
 [Doug strolls down the trail reading the field guide, open on the KOMODO page. The FRIEND? box is empty. The log beside the trail opens one eye.]
 
-Doug studied the field guide carefully on the way in, and he kept a close eye on the trail ahead of him. Doug did not agree to this.
+Doug studied the field guide carefully on the way in, and he kept a close eye on the trail ahead of him, which is exactly where the dragon was not. Doug did not agree to this.
 
 [Dust cloud. The cap spins in the air and lands on the trail. DOUG DEATHS: 179. THE WAIT: 0 S.]
 
@@ -78,7 +78,7 @@ It has about sixty teeth, flattened like little blades, curved backward and serr
 
 [One tooth, enlarged. An orange stripe along its edge and tip. Label: "IRON".]
 
-In two thousand twenty-four, scientists led by King's College London looked closely at the edges. The cutting edges and the tips of the teeth are coated in iron, which shows up as an orange stripe and seems to keep them sharp.
+In two thousand twenty-four, scientists led by King's College London found that the cutting edges and tips of the teeth are coated in iron, which shows up orange and seems to keep them sharp.
 
 The strange part is the bite itself.
 
@@ -110,7 +110,7 @@ Doug has a head start, and he intends to use it. The dragon does not seem worrie
 
 [The dragon's head in profile. A long yellow forked tongue flicks out. Label: "SMELL".]
 
-A Komodo dragon smells with its tongue, flicking it out to collect scent particles from the air and the ground, then pulling them back in. A pair of sensing organs in the roof of its mouth then reads every particle it brought back.
+A Komodo dragon smells with its tongue, flicking it out to collect scent from the air and the ground, then pulling it back to a pair of sensing organs in the roof of its mouth. As far as a Komodo is concerned, the whole island is something to taste, and that includes whoever happens to be walking across it.
 
 [The tongue, enlarged, with the two tips spread apart. A red arrow on each side. Label: "LEFT, RIGHT".]
 
@@ -124,7 +124,7 @@ The Smithsonian's National Zoo says a Komodo can smell carrion up to four kilome
 
 [Doug crouched behind a big rock, very still, very pleased with himself. THE WAIT: 50 MIN.]
 
-Doug ran for nearly an hour, found a big rock and hid behind it. He held his breath, and he did not make a single sound.
+Doug ran for nearly an hour, found a big rock and hid behind it, convinced that a predator that cannot see him cannot find him. He held his breath, and he did not make a single sound.
 
 [A forked tongue curls around the side of the rock. Cut to the rock alone with the cap on top. DOUG DEATHS: 180.]
 
@@ -138,11 +138,11 @@ Most predators fail the moment their prey gets away. For a Komodo dragon, the pr
 
 [A deer bounding off through tall grass. The dragon stays put, watching. Label: "RELEASED".]
 
-The bite is fast, the dragon lets go, and the animal runs. The dragon doesn't seem to mind, because it has done this many times before.
+The bite is fast, the dragon lets go and the animal runs, which doesn't seem to bother the dragon in the slightest, because it has done this many times before.
 
 [A simple pie chart. Big slice: "MINUTES". Smaller slice: "UP TO 4 HOURS". Thin slice: "SURVIVE".]
 
-Fry's team, who study the dragon's bite, report that about seventy percent of bitten animals go down within minutes. Roughly one in five lasts up to four hours, and only about one in ten survives. Most hunts end quickly, and the ones that don't are where the waiting begins.
+Ecologist Tim Jessop, who has spent years tracking these dragons in the field, told Smithsonian magazine that about seventy percent of bitten animals go down within minutes. Roughly one in five lasts up to four hours, and only about one in ten survives. Most hunts end quickly, and the ones that don't are where the waiting begins.
 
 [The dragon walking at an easy pace along a winding dotted trail, tongue out. Label: "UP TO 10 KM A DAY".]
 
@@ -150,7 +150,7 @@ During those hours, the dragon simply walks after it, following the scent at its
 
 That's the unsettling part.
 
-Four hours is longer than two full football matches played back to back. The prey spends that time running, while the dragon spends it strolling.
+Four hours is longer than the whole of the film Titanic, with time left over for the credits and a snack. The prey spends that time running, while the dragon spends it strolling.
 
 [A plain card, no Doug, no drawing: "ATTACKS ON PEOPLE ARE RARE. THEY DO HAPPEN."]
 
@@ -158,7 +158,7 @@ Attacks on people are rare. They do happen.
 
 [Doug jogs along, looks over his shoulder. Nothing. He sits down on a log and unwraps a sandwich. THE WAIT: 4 HR.]
 
-Doug ran for an hour, checked behind him, saw absolutely nothing, and sat down on a log for lunch.
+Doug jogged on, checked behind him every few minutes, saw absolutely nothing, and sat down on a log for lunch.
 
 [The dragon walks into frame at the same easy pace. Cut to the log, the sandwich and the cap. DOUG DEATHS: 181.]
 
@@ -178,11 +178,11 @@ Komodo dragons can swim, and like other monitor lizards they swim well, so they 
 
 [Map of Komodo National Park with ten red dots. Label: "TEN SITES".]
 
-In two thousand eighteen, a team led by ecologist Tim Jessop published tracking work from ten sites across Komodo National Park. Of all the dragons they caught a second time, only two had moved from one site to another. The team concluded that dragons take to open water only in very rare circumstances, even though they are perfectly able to swim.
+So when the same Tim Jessop led a team tracking dragons at ten sites across Komodo National Park, you might expect them to be moving between sites all the time. The study came out in two thousand eighteen, and of all the dragons they caught a second time, only two had moved from one site to another. The team concluded that dragons take to open water only in very rare circumstances, even though they are perfectly able to swim.
 
-[A dragon walking a loop inside one valley, dotted line. Label: "UP TO 11 KM A DAY".]
+[A dragon walking a loop inside one valley, dotted line. Label: "UP TO 10 KM A DAY".]
 
-A dragon can walk up to about eleven kilometers a day, roughly a quarter of a marathon, but almost all of it happens inside the same valley. Most of them rarely, if ever, leave the valley they hatched in, and their DNA shows the populations are becoming somewhat inbred.
+A dragon can walk up to about ten kilometers a day, roughly a quarter of a marathon, but almost all of it happens inside the same valley. Most of them rarely, if ever, leave the valley they hatched in, and their genes show the populations are becoming somewhat inbred.
 
 Here's the catch.
 
@@ -194,7 +194,7 @@ Doug paddled for a whole day, reached the next island and claimed it with a smal
 
 [A different, larger dragon lifts its head from the sand behind him. Cut to the flag and the empty ring floating at the shore, the cap resting inside it. DOUG DEATHS: 182.]
 
-Leaving the island is not leaving the dragons. Out here, every island comes with its own set, already waiting on the beach.
+Leaving the island is not leaving the dragons. The island next door came with its own set, already waiting on the beach.
 
 ## The Crowd
 
@@ -208,7 +208,7 @@ Every dragon in the area can smell the same meal. Researchers who watched twenty
 
 [A crowd of dragon heads. Label: "MORE THAN A FOOTBALL TEAM".]
 
-That's more dragons around one meal than there are players on a football team.
+That's more dragons around one meal than there are players on a football team. Nobody counts the guests.
 
 The disturbing part is that they have rules.
 
@@ -232,11 +232,11 @@ He arrived as a guest, and somewhere near the top of the hierarchy, someone deci
 
 The Buffalo.
 
-The water buffalo is the biggest prey on these islands. It was brought here by people a few centuries ago, which is not long by dragon standards, and nobody asked the dragons what they thought about it.
+The water buffalo is the biggest prey on these islands. People brought it here a few centuries ago, and nobody asked the dragons what they thought about it.
 
 [A huge water buffalo, side-on. Next to it, a concert grand piano. Label: "400 KG OR MORE".]
 
-Even the smallest domestic buffalo breeds weigh around four hundred kilograms, close to the weight of a concert grand piano. The biggest dragons in the field studies weigh around ninety. Dragons are used to tackling prey as heavy as themselves, or heavier, but a buffalo is several of them stacked together.
+Even the smallest domestic buffalo breeds weigh around four hundred kilograms, close to the weight of a concert grand piano. The biggest dragons in the field studies weigh around ninety, and while dragons are used to tackling prey as heavy as themselves, or heavier, a buffalo is several of them stacked together.
 
 The dragons attack them anyway.
 
@@ -244,7 +244,7 @@ The dragons attack them anyway.
 
 Here's where it turns.
 
-The dragon usually loses, and Fry's team say buffalo almost always escape the first attack, and Smithsonian magazine adds that dragons seldom succeed in killing animals this large.
+The dragon usually loses. Fry's team say buffalo almost always escape the first attack, and Smithsonian magazine adds that dragons seldom succeed in killing animals this large.
 
 [Many dragon heads around an off-screen shape, cut off at the frame edge. Label: "SEVERAL DAYS".]
 
@@ -254,11 +254,11 @@ It never has to win the fight, it only has to outlast the buffalo.
 
 [Doug stands next to the buffalo with a small sign: "MORAL SUPPORT". The dragon looks at the buffalo. Then it looks at Doug. A page-a-day calendar flips. THE WAIT: SEVERAL DAYS.]
 
-Doug stood beside the buffalo for several days to show solidarity. The dragon studied the two of them very carefully.
+Doug stood beside the buffalo for several days to show solidarity, holding his sign up the whole time so that nobody could miss the message. The dragon studied the two of them very carefully.
 
 [Cut to black. Then the grass, the sign and the cap. The buffalo is gone, grazing far away. DOUG DEATHS: 184.]
 
-The buffalo was a long-term project, but Doug could not outrun anything, and he did not weigh four hundred kilograms.
+The buffalo was a long-term project. Doug was a short one, and he did not weigh four hundred kilograms.
 
 ## The Meal
 
@@ -268,7 +268,7 @@ A predator that rarely hunts needs a good reason to stop hunting. For a Komodo d
 
 [The dragon beside a scale. The scale reads "80%". Label: "IN ONE MEAL".]
 
-The Smithsonian's National Zoo says an adult can eat up to eighty percent of its own body weight in one sitting. It eats fast, and it wastes very little of what it catches.
+The Smithsonian's National Zoo says an adult can eat up to eighty percent of its own body weight in one sitting. For a person, that would mean finishing a meal that weighs almost as much as you do, and then asking whether there is dessert. It eats fast, and it wastes very little of what it catches.
 
 [A stopwatch reading "17 MIN". Beside it, fifteen big water bottles in a row. Label: "31 KG".]
 
@@ -278,9 +278,9 @@ Then the dragon does nothing at all.
 
 [A heavy, bloated dragon lying flat on a warm rock in the sun. Label: "DIGESTING".]
 
-How fast it digests depends on the temperature. The dragon lies out in the sun to warm up, and a run of cool nights can delay digestion by up to five days. That's a full working week, spent lying on a rock.
+How fast it digests depends on the temperature, so the dragon lies out in the sun to warm up, and a run of cool nights can delay digestion by up to five days. That's a full working week, spent lying on a rock.
 
-What makes it worse is the logic: it doesn't need to hunt often, because it eats like it might never eat again.
+What makes it worse is the logic. It doesn't need to hunt often, because every time it does eat, it eats like it might never get the chance again.
 
 [Doug lays out a picnic blanket with a basket, sandwiches and a thermos. Speech bubble: "peace?" THE WAIT: 5 DAYS.]
 
@@ -304,7 +304,7 @@ According to the San Diego Zoo Wildlife Alliance, a large Komodo kills about one
 
 [A second calendar, every square crammed with tiny plates. Label: "1,095".]
 
-To put that in context, a person eating three meals a day gets through more than a thousand meals a year. A large dragon needs about a dozen big ones.
+Compare that with you. A person eating three meals a day gets through more than a thousand meals a year, plus whatever happens near the fridge at midnight. A large dragon gets by on about a dozen big ones, plus the odd small snack.
 
 [The dragon on a sunny rock, a little sun icon pointing at it. Label: "SOLAR POWERED".]
 
@@ -314,7 +314,7 @@ But that's not the disturbing part.
 
 [The dragon lying on a rock in the sun, eyes half-closed, watching a deer path in the distance.]
 
-An animal that only needs a dozen meals a year can afford to wait for any one of them. It never has to take a bad chance, and it can let a hundred easy chances walk right past.
+An animal that only has to land one big meal a month can afford to wait for any one of them. It never has to take a bad chance, and it can let a hundred easy chances walk right past, because the next one is already on its way down the path.
 
 [Doug walks past a large, bloated, basking dragon and waves. Speech bubble: "hi friend?" The dragon doesn't move. THE WAIT: 1 MONTH.]
 
@@ -338,7 +338,7 @@ A female lays around twenty eggs, and they can take up to eight months to hatch.
 
 [A tiny hatchling next to a tennis ball. Label: "ABOUT 80 G".]
 
-A newborn weighs about eighty grams, less than two tennis balls. The biggest adult males can weigh more than a hundred kilograms.
+A hatchling weighs about eighty grams, less than two tennis balls, while the biggest adult males can weigh more than a hundred kilograms.
 
 [A young dragon scrambling straight up a tree trunk. Label: "UP".]
 
@@ -350,11 +350,11 @@ Here's the grim part.
 
 Adults eat young dragons. The Smithsonian's National Zoo says it plainly: large Komodos cannibalize young ones. The adults are too heavy to climb after them, so the young stay up for months, until they grow too big for the branches themselves.
 
-The first lesson in a Komodo's life is that the adults wait at the bottom of the tree.
+The first lesson in a Komodo's life is that the adults wait at the bottom of the tree. The second lesson is that they are very patient about it.
 
 [Doug climbs a tree to escape an adult below. On the branch above him sits a young dragon, lean, hard-eyed and not at all cute. THE WAIT: MONTHS.]
 
-Doug climbed the tree to escape the adult, but the young dragon was already up there, and it had been eating insects for months.
+Doug climbed the tree to escape the adult, which was the one sensible thing he did all episode. The young dragon was already up there, and it had been eating nothing but insects for months.
 
 [Cut to the branch with only the cap on it. DOUG DEATHS: 185.]
 
@@ -370,7 +370,7 @@ It doesn't need to chase its prey. It turns out that, in the right situation, a 
 
 [A zoo enclosure sign: "CHESTER ZOO". A female dragon beside a clutch of eggs. Label: "NO MALE".]
 
-In two thousand six, keepers at Chester Zoo in England noticed something odd. A female named Flora had laid a clutch of eggs, even though she had never been kept with a male.
+In two thousand six, keepers at Chester Zoo in England noticed that a female named Flora had laid a clutch of eggs, even though she had never been kept with a male.
 
 [A second sign: "LONDON ZOO". Four young dragons. Label: "OVER 2 YEARS".]
 
@@ -380,7 +380,7 @@ The surprising part is what the genetics showed.
 
 [A simple diagram: one parent icon, arrow, egg. Label: "ONE PARENT".]
 
-Researchers from the University of Liverpool tested the eggs and the young, and published the results in the journal Nature. In both cases, the mother was the only parent. This is called parthenogenesis, or virgin birth.
+Researchers from the University of Liverpool ran genetic tests on the eggs and the young, and in the journal Nature they reported the same answer for both females. In each case, the mother was the only parent. This is called parthenogenesis, or virgin birth.
 
 [Two chromosome letters: "Z Z". Label: "ALWAYS MALE".]
 
@@ -392,13 +392,13 @@ Doug arrived at the nest with flowers, and the eggs hatched while he was still i
 
 [Doug stands there holding the flowers. DOUG DEATHS: 185 holds.]
 
-Doug survived, but only in the technical sense, because nobody here was waiting for him, and nobody ever had been.
+Doug survived, but only in the technical sense, because nobody here was waiting for him, and nobody ever had been. He left the flowers by the nest anyway, which nobody asked for either.
 
 ## The Last Giant
 
 The Last Giant.
 
-For a long time, scientists thought the Komodo dragon was a strange island accident. The idea was that an ordinary lizard reached these islands and slowly grew huge.
+For a long time, scientists thought the Komodo dragon was a strange island accident, an ordinary lizard that reached these islands and slowly grew huge.
 
 [A scientist stick figure holding a small lizard on an island, with a big arrow toward a giant dragon. Label: "ISLAND GIANT?" A red X stamps over it.]
 
@@ -406,15 +406,15 @@ In two thousand nine, a team led by paleontologist Scott Hocknull showed that th
 
 [Map: Australia on the right, an arrow sweeping west to the islands. Label: "FROM AUSTRALIA".]
 
-The dragon was already a giant when it arrived, so it was not an island experiment at all. It was a survivor from a lost world of giant lizards.
+The dragon was already a giant when it arrived, so it was not an island experiment at all, but a survivor from a lost world of giant lizards.
 
 [A huge monitor lizard silhouette towering over a dragon. Label: "MEGALANIA".]
 
-Its relatives included Megalania in Australia, the largest lizard known to science. A conservative estimate puts it at more than five and a half meters long and at least five hundred seventy-five kilograms, heavier than a concert grand piano.
+Its relatives included Megalania in Australia, the largest lizard known to science. A conservative estimate puts it at more than five and a half meters long and at least five hundred seventy-five kilograms, heavier than a typical adult horse.
 
 [The Megalania silhouette goes grey, then fades. Label: "GONE".]
 
-Megalania is gone, and so are the other giant monitors, which leaves the Komodo as the one that lasted. On Flores, its body size has stayed about the same for nine hundred thousand years, through big changes in the animals around it. The same paper also rejected the idea that it grew big by specializing in hunting the small elephant relatives of Flores, called Stegodon.
+Megalania is gone, and so are the other giant monitors, which leaves the Komodo as the one that lasted. On Flores, its body size has stayed about the same for nine hundred thousand years, through major turnovers in the animals living around it. The same paper also rejected the idea that it grew big by specializing in hunting the small elephant relatives of Flores, called Stegodon.
 
 [A timeline, very long, with a tiny sliver at the end. Label: "WRITING".]
 
@@ -424,13 +424,13 @@ Here's the part it can't wait out.
 
 [The islands on a map, the coastline creeping inland. Label: "ENDANGERED, 2021".]
 
-In twenty twenty-one, the IUCN moved the Komodo dragon from Vulnerable to Endangered. Fewer than one thousand four hundred adult dragons are left. In the most extreme projections, rising seas could take up to seventy-one percent of their habitat within forty-five years.
+In twenty twenty-one, the International Union for Conservation of Nature moved the Komodo dragon from Vulnerable to Endangered. Fewer than one thousand four hundred adult dragons are left. In the most extreme projections, rising seas could take up to seventy-one percent of their habitat within forty-five years.
 
-It outwaited every giant lizard that ever lived. The one thing it cannot wait out is the sea rising around its islands.
+It outwaited every other giant monitor lizard. The one thing it cannot wait out is the sea rising around its islands.
 
 [Doug sets up a folding chair on a rock, facing the dragon, with THE WAIT clock on his lap. Speech bubble: "I can wait too". The dragon lies down opposite. Day, night, day, night. Doug yawns.]
 
-Doug decided to beat the dragon at its own game. He brought a folding chair and the clock, and he settled in to outlast it.
+Doug decided to beat the dragon at its own game, so he brought a folding chair and the clock and settled in to outlast it.
 
 [Doug's head nods forward. Cut to the empty chair and the cap. DOUG DEATHS: 186. THE WAIT: ABOUT 4,000,000 YR.]
 
@@ -444,4 +444,4 @@ It waited out the giants. It will have no trouble at all waiting for the next Do
 
 Doug deaths: one hundred and eighty-six. The clock is still running. Which animal should Doug try to outlast next? Tell us in the comments.
 
-<!-- words: 2940 (spoken narration only: opener, spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:05 at 195 wpm · draft 1 (2026-10-18) · 12 items · item words (header counted with the item before it): Ambush 233, Teeth 259 incl. "Hours.", Tongue 216, Follow 231 incl. "Days.", Swim 234, Crowd 232, Buffalo 227, Meal 215 incl. "Weeks.", Fast 238 incl. "Months.", Nursery 231 incl. "Years.", Virgin Birth 228, Last Giant 368 incl. closing and 24-word outro · opener 22 words, first item name at word 25 · item 1 twist marker "Here's the problem." ends at word 104 (about 0:32) · "Days." at 33%, "Weeks." 64%, "Months." 72%, "Years." 80% · 216 sentences, avg 13.6 words (14.7 excluding the 18 one-to-three-word name and header sentences), max 29 · Flesch about 72 (heuristic syllable count) · tic words However/actually/essentially/incredibly: 0 each -->
+<!-- words: 3117 (spoken narration only: opener, spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 16:00 at 195 wpm · draft 2 (2026-10-18) · 12 items · item words (header counted with the item before it): Ambush 239, Teeth 252 incl. "Hours.", Tongue 243, Follow 252 incl. "Days.", Swim 252, Crowd 236, Buffalo 231, Meal 247 incl. "Weeks.", Fast 266 incl. "Months.", Nursery 254 incl. "Years.", Virgin Birth 248, Last Giant 369 incl. closing and 24-word outro · 215 sentences, avg 14.5 words, max 35 · The Crowd shortest sentence 4 words ("Nobody counts the guests.") · Flesch heuristic 75.0 on our counter, which read draft 1 at 76.2 against the screener's 72.9, so about 71.7 on the screener's scale · tic words However/actually/essentially/incredibly: 0 each · "To put that in context": removed -->

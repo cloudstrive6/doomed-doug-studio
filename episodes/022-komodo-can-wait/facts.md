@@ -1,6 +1,6 @@
 # Facts: 022 Why the Komodo Dragon Can Kill Doug Without Chasing Him
 
-Every factual claim in script.md is listed here with its source. Checked 2026-10-18 (draft 1).
+Every factual claim in script.md is listed here with its source. Checked 2026-10-18 (draft 1); updated for draft 2 after script_review.md.
 "Fetched" means I read the claim on the page with WebFetch. "Search" means I confirmed it only from search-result text quoting the
 page (I didn't open the page, or it blocked WebFetch). The screener should re-open the "Search" lines first.
 
@@ -8,14 +8,18 @@ page (I didn't open the page, or it blocked WebFetch). The screener should re-op
 guide on the trail, the bandage, hiding behind the rock, the sandwich, the swim ring and flag, the paper plate, "MORAL SUPPORT", the
 picnic and thermos, "hi friend?", the tree climb, the flowers, the folding chair, "Doug lasted nine hours"); the 010 mouthwash callback;
 narrator lines such as "it lets the island bring breakfast to it", "the thermos was not technically food", "the buffalo was a long-term
-project", "every island comes with its own set".
+project. Doug was a short one", "the island next door came with its own set" (the specific neighbouring island Doug reached, which in the
+story has dragons; not a claim about every island: wild populations are only on Komodo, Rinca, Flores, Gili Motang and Nusa Kode, and islands
+such as Padar have none), "the whole island is something to taste", "nobody counts the guests", "the next one is already on its way down
+the path", "the second lesson is that they are very patient about it".
 
 **Comparisons** are marked "comparison", with the source for the everyday object and the arithmetic.
 
 ## Brief leads that failed (cut or changed, not hedged)
 - **"9.5 km" smell range:** no primary source found. Replaced by the Smithsonian National Zoo's 4 km.
 - **"A dozen or so meals a year":** only travel and general-content sites (Nat Hab, EnviroLiteracy). Replaced by SDZWA "about 1 large
-  prey ungulate per month". "About a dozen big ones" in the script is arithmetic from that line (12 months), stated as approximate.
+  prey ungulate per month", "supplemented by smaller prey". Draft 2 wording: "only has to land one big meal a month" and "gets by on
+  about a dozen big ones, plus the odd small snack" (12 months x 1, not a total meal count and not a stated need).
 - **Swim twist (dragons follow by sea):** contradicted. Jessop et al. 2018 (via National Geographic): dragons rarely if ever leave their
   natal valley; only two recaptured dragons moved between sites; open water is braved only in exceptionally rare circumstances.
   The script uses this as the twist instead.
@@ -28,8 +32,8 @@ project", "every island comes with its own set".
   large Komodos eat young ones (Smithsonian National Zoo).
 - **Years spent in trees:** sources disagree (8 months, ADW; "first year", Tulsa Zoo sheet; up to 4 years, informal). Cut; the script
   says "for months" and "the smaller the dragon, the more it lived in the trees" (Imansyah et al. 2008).
-- **Rearing-up posture in ritual combat:** no authoritative source. The narration says only "ritual combat" (Smithsonian National Zoo);
-  the rearing pose is a drawing, not a spoken claim.
+- **Rearing-up posture in ritual combat:** sourced after all (screener): Smithsonian National Zoo describes ritual combat as "wrestling
+  upright" (https://nationalzoo.si.edu/animals/komodo-dragon). The narration still says only "ritual combat"; the drawing is supported.
 - **"Deadliest lizard":** not used anywhere.
 - **Bite force 39 N absolute:** not used; only the ratio to a same-size crocodile skull, as the paper states it.
 
@@ -64,7 +68,7 @@ project", "every island comes with its own set".
   - Comparison: a US quarter is 24.26 mm across (Search): https://en.wikipedia.org/wiki/Quarter_(United_States_coin) ;
     https://www.usmint.gov/learn/coins-and-medals/circulating-coins/coin-specifications . 2 cm < 2.4 cm.
 - 2024, iron coating on serrations and tips, orange colour, keeps edges sharp; King's College London lead (LeBlanc et al. 2024, Nature
-  Ecology & Evolution 8:1711-1722) (Search): https://www.kcl.ac.uk/news/komodo-dragons-have-iron-coated-teeth-to-rip-apart-their-prey ;
+  Ecology & Evolution 8:1711-1722) (Fetched by the screener: "cutting edges and tips"): https://www.kcl.ac.uk/news/komodo-dragons-have-iron-coated-teeth-to-rip-apart-their-prey ;
   https://www.smithsonianmag.com/smart-news/komodo-dragons-have-iron-coated-teeth-study-finds-180984799/ ;
   https://www.nationalgeographic.com/animals/article/komodo-dragons-iron-teeth-predators
 - 2009, Fry et al., PNAS 106:8969-8974: skull modelled (finite-element); bite force "6.5 times less than the 252 N produced by the bite of a
@@ -95,8 +99,8 @@ project", "every island comes with its own set".
     4 / 4.8 = 0.83 h = 50 minutes.
 
 ## 4. The Follow
-- About 70 percent of prey die within minutes, 20 percent within four hours, 10 percent survive (Fry, quoted in Smithsonian magazine)
-  (Fetched): https://www.smithsonianmag.com/science-nature/the-komodo-dragon-is-an-all-purpose-killing-machine-4176149/
+- About 70 percent of prey die within minutes, 20 percent within four hours, 10 percent survive: ecologist Tim Jessop (then University of
+  Melbourne), quoted in Smithsonian magazine; not Fry (draft 1 misattributed it) (Fetched): https://www.smithsonianmag.com/science-nature/the-komodo-dragon-is-an-all-purpose-killing-machine-4176149/
   - Wording kept non-graphic: "go down", "lasts", "survives".
 - Bite then release: same Smithsonian magazine line as item 2.
 - Tracks wounded prey by smell: SDZWA behavior fact sheet (Fetched), above.
@@ -104,10 +108,10 @@ project", "every island comes with its own set".
   https://ielc.libguides.com/sdzg/factsheets/komododragon/behavior
 - An injured deer photographed being stalked by a different dragon: Bull, Jessop & Whiteley 2010, PLoS ONE 5:e11097, Figure 1 caption
   (Fetched): https://pmc.ncbi.nlm.nih.gov/articles/PMC2888571/
-  - Comparison: a football match is two halves of 45 minutes (IFAB Laws of the Game, Law 7) (Search): https://www.theifab.com/laws/latest/the-duration-of-the-match/ .
-    Two matches = 180 minutes < 240 minutes.
-- Attacks on people are rare but do happen: AP/NBC News, 2009, "Attacks on humans are rare" with recent fatal cases (Search):
-  https://www.nbcnews.com/id/wbna30913500 . No names, no details, no figures (010's figure not repeated).
+  - Comparison (draft 2, replaces the football-match line): Titanic (1997) runs 194 minutes, The Numbers (Fetched):
+    https://www.the-numbers.com/movie/Titanic-(1997) . 240 - 194 = 46 minutes left over ("time left over for the credits and a snack").
+- Attacks on people are rare but do happen: AP/NBC News, 2009, "Attacks on humans are rare" with recent fatal cases (Fetched by the screener, "Komodo dragon attacks are still rare,
+  experts note"): https://www.nbcnews.com/id/wbna30913500 . No park-authority or IUCN page stating this was found in this pass. No names, no details, no figures (010's figure not repeated).
 
 ## 5. The Swim
 - Komodo dragons swim well: National Geographic 2018, "Komodo dragons can swim pretty well" (Fetched):
@@ -116,11 +120,13 @@ project", "every island comes with its own set".
 - Seen paddling along the shore: National Geographic 2018, dragons "do occasionally enjoy a shoreline dip" (Search, same URL).
 - 2018 study led by Tim Jessop (Deakin University), Proceedings of the Royal Society B; ten sites across Komodo National Park; of recaptured
   dragons, only two had moved between sites; they rarely if ever leave the valleys they hatched in; open water only in exceptionally rare
-  circumstances; DNA shows they are becoming somewhat inbred; up to seven miles a day within native valleys (Fetched):
-  https://www.nationalgeographic.com/animals/article/komodo-dragon-behavior-homebody-lair
-  - "About eleven kilometers": 7 miles = 11.3 km.
-  - Comparison: a marathon is 42.195 km (Search): https://www.britannica.com/sports/marathon-sport . 11 / 42.2 = 0.26, "roughly a quarter".
-- Other islands have their own dragons: Komodo, Rinca, Flores and Gili Motang are listed as wild populations (National Geographic caption,
+  circumstances; genetic data show they are becoming somewhat inbred ("their genes show"); up to seven miles a day within native valleys
+  (Fetched): https://www.nationalgeographic.com/animals/article/komodo-dragon-behavior-homebody-lair
+  - Daily distance in the script: "up to about ten kilometers a day", the SDZWA figure already used in item 4, so the two on-screen labels
+    match (UP TO 10 KM A DAY). Jessop's 7 mi (11.3 km) is consistent with it and kept here as a note only.
+  - "The same Tim Jessop": he is the ecologist quoted in item 4 (Smithsonian magazine) and lead author of the 2018 study.
+  - Comparison: a marathon is 42.195 km (Search): https://www.britannica.com/sports/marathon-sport . 10 / 42.2 = 0.24, "roughly a quarter".
+- The neighbouring island has its own dragons: Komodo, Rinca, Flores and Gili Motang (and Nusa Kode) are listed as wild populations (National Geographic caption,
   Fetched, above); NHM 2021 (Fetched, item 1).
 
 ## 6. The Crowd
@@ -131,7 +137,7 @@ project", "every island comes with its own set".
 - Eats about 2.5 kg of meat in a minute: San Diego Zoo, "seen consuming 5.5 pounds of meat in one minute" (Fetched):
   https://animals.sandiegozoo.org/animals/komodo-dragon
 - Dominant dragon eats first, typically the biggest male, then smaller males, females, and the young come down from the trees once the
-  adults have left: Columbus Zoo (Search, quoted in results; the Fetch confirmed "the dominant dragon eats first"):
+  adults have left: Columbus Zoo (Fetched by the screener, full order confirmed):
   https://www.columbuszoo.org/animals/komodo-dragon
 - Males compete in ritual combat: Smithsonian National Zoo, "Dominant males compete for females in ritual combat" (Fetched):
   https://nationalzoo.si.edu/animals/komodo-dragon . The script says "when two big males disagree"; no injury detail.
@@ -145,6 +151,7 @@ project", "every island comes with its own set".
 - Smallest domestic breeds about 400 kg (carabao, wenzhou); larger breeds 900 kg: Britannica (Search): https://www.britannica.com/animal/water-buffalo .
   The island buffalo are feral domestic stock, so the narration says "even the smallest domestic buffalo breeds weigh around four
   hundred kilograms".
+- People brought buffalo "a few centuries ago": as above. Frame shortened in draft 2; no new claim.
   - Comparison: Steinway Model D concert grand, net weight about 480 kg (990 lb) (Search): https://www.troy.edu/student-life-resources/arts-culture/davis-theatre/technical-details/steinway-sons-concert-grand-model-d.html .
     400 is "close to" 480.
 - Dragons up to 90 kg in the field studies; prey often equal or exceed the dragon's own body mass: Bull et al. 2010 (Fetched), above.
@@ -171,11 +178,14 @@ project", "every island comes with its own set".
 - Digestion depends on temperature; cool nights can delay complete digestion by up to 5 days: SDZWA diet fact sheet (Fetched), above.
 - Basks to warm up: SDZWA behavior fact sheet, "Raise body temperature by sunbasking and absorbing energy from warm surfaces" (Fetched), above.
   - "A full working week" = five days, arithmetic.
+- "A meal that weighs almost as much as you do": 80 percent of body weight applied to a person, arithmetic from the line above.
 
 ## 9. The Fast
 - A large Komodo kills about one large prey ungulate, deer or boar, per month: SDZWA diet fact sheet (Fetched):
   https://ielc.libguides.com/sdzg/factsheets/komododragon/diet
   - Arithmetic: 3 meals x 365 days = 1,095 a year ("more than a thousand"); one a month = about 12 ("about a dozen big ones").
+  - "Plus the odd small snack": SDZWA, large prey "supplemented by smaller prey" (Fetched by the screener), same URL. "The fridge at
+    midnight" is narrator framing.
 - A wild dragon still digesting a small deer eaten earlier that week: Smithsonian magazine (Fetched):
   https://www.smithsonianmag.com/science-nature/the-komodo-dragon-is-an-all-purpose-killing-machine-4176149/
 - Cold-blooded animals take heat from outside sources rather than generating it from food, and have much lower metabolic rates than
@@ -186,7 +196,7 @@ project", "every island comes with its own set".
 - Incubation 2.5 to 8 months: same (Fetched).
 - Females dig decoy nests to discourage predators, including male Komodos and other female dragons: San Diego Zoo (Fetched):
   https://animals.sandiegozoo.org/animals/komodo-dragon
-- Hatchling weighs about 80 g: SDZWA reproduction fact sheet (Fetched), above.
+- Hatchling (draft 1 said "newborn"; changed per brief) weighs about 80 g: SDZWA reproduction fact sheet (Fetched), above.
   - Comparison: an official tennis ball is 56.0 to 59.4 g (ITF technical booklet) (Search): https://www.itftennis.com/media/4420/2023-technical-booklet.pdf .
     Two balls = at least 112 g > 80 g.
 - Adult males up to 136 kg ("more than a hundred kilograms"): SDZWA characteristics fact sheet (Fetched), above. Not the 010 "70 kg" figure.
@@ -226,13 +236,17 @@ project", "every island comes with its own set".
 - Megalania (V. priscus) "the largest of all known lizards", extinct in Australia by the end of the Pleistocene; V. komodoensis the
   "isolated long-term survivor" of the giant varanids: Hocknull et al. 2009 (Fetched), above.
 - Megalania conservatively at least 575 kg and over 5.5 m: Fry et al. 2009 (Fetched): https://pmc.ncbi.nlm.nih.gov/articles/PMC2690028
-  - Comparison: Steinway Model D about 480 kg (see item 7). 575 > 480.
-- Body size stable over the last 900,000 years on Flores, through major faunal turnovers: Hocknull et al. 2009 (Fetched), above.
+  - Comparison (draft 2, replaces the second piano): average adult horse about 500 kg (1,100 lb), PetMD (Fetched):
+    https://www.petmd.com/horse/how-much-does-horse-weigh . 575 > 500, "heavier than a typical adult horse".
+- Body size stable over the last 900,000 years on Flores, through major faunal turnovers ("major turnovers in the animals living around
+  it"): Hocknull et al. 2009 (Fetched), above.
+- "It outwaited every other giant monitor lizard": V. komodoensis as the "isolated long-term survivor" of the giant varanids, Hocknull et al.
+  2009 (Fetched), above. Draft 1's "every giant lizard that ever lived" was an over-claim and is gone.
 - Rejects the idea that it became giant as a specialist hunter of pygmy Stegodon: Hocknull et al. 2009 (Fetched), above.
   "Small elephant relatives" = Stegodon, a proboscidean.
   - Comparison: writing began about 5,000 years ago (Britannica) (Search): https://kids.britannica.com/kids/article/writing/399998 ;
     World History Encyclopedia, writing in Sumer from about 3500 BCE (Search): https://www.worldhistory.org/writing/ . 4,000,000 / 5,000 = 800.
-- 2021 IUCN reassessment from Vulnerable to Endangered; fewer than 1,400 adults; up to 71 percent of suitable habitat could be lost in the
+- 2021 IUCN (spoken in full: International Union for Conservation of Nature) reassessment from Vulnerable to Endangered; fewer than 1,400 adults; up to 71 percent of suitable habitat could be lost in the
   next 45 years in the most extreme projections, from rising sea levels: Natural History Museum, London (Fetched):
   https://www.nhm.ac.uk/discover/news/2021/september/komodo-dragon-is-now-listed-as-endangered-from-rising-sea-levels.html
   - Note for the screener: other outlets give 30 percent over 45 years as the headline IUCN figure; the script uses NHM's "most extreme
