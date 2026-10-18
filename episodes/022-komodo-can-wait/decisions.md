@@ -53,3 +53,26 @@
   buffalo tile (wide, sweeping horns, heavy body) and give TONGUE or CROWD a distinct drawing.
 - Next: the visual screener checks the thumbnail. Shot s001 (the opening image) uses the A hero for 1.5 to 4 s.
 - 2026-10-18: script 3 rounds (fact/rule fixes), art 2 rounds + thumbnail check round 3 (s184 tail), thumbnail A hero, packaged 15:44. Risks: Flesch/sentence-length at limits; weak 'rare attacks' source (AP 2009); hero thumbnail claws unclear at feed size (fallback B grid after buffalo redraw).
+
+## 2026-10-18: final package gate: APPROVED
+- Screener: visual_review.md post-render VERDICT (main) PASS. All 31 samples are clean and qc.json shows no problems. The Shorts FAIL is
+  being re-rendered separately and doesn't block the main upload.
+- Title: I'm keeping the lead "How the Komodo Dragon Kills Doug Without Chasing Him" (52 chars, T2 plus a revelation clause). It reads
+  more cleanly than my gate lead, avoids opening with "Why" right after 021, and shares no word with "IT CAN WAIT". None of the alts is
+  clearly stronger. "Why Komodo Dragons Don't Need to Chase Doug to Kill Him" is the best A/B challenger, but it's longer and opens with
+  "Why". It stays the A/B option, and the "Patience" alt is still excluded because it doubles the thumbnail. No swap. The promise is
+  delivered: none of the eight deaths is a chase, and item 1 says it can sprint.
+- Thumbnail (build/thumbnail.png): one huge, still, hard-eyed dragon, its tongue at tiny whistling Doug's white-bandaged ankle, and a
+  three-word stakes line. It reads in one glance and asks "when does it strike?" I would click. No gore and nothing cute.
+- First 60 s (captions plus f_001 to f_003): the thesis comes in the first sentence, "Seconds. The Ambush." by about 0:10 (about word 29),
+  and "It rarely needs the sprint at all" by about 0:35. Map, then trail, then a warning sign with the dragon lying low beside Doug. The
+  HUD (DEATHS 178, THE WAIT) is legible. The Copenhagen-cyclist scale beat and "Doug did not agree to this." land before the first death
+  (about 1:15). I would keep watching.
+- Description and chapters: the 12 chapters match build/chapters.txt and the 15:44 runtime, starting at 0:00. There are 6 primary or
+  institutional sources, the disclaimer includes "Do not approach wild animals.", there is an AI-use disclosure, and nothing is
+  medical or safety advice. made_for_kids is false (config). The tags are on-topic. Playlist: animals.
+- Series bible: row 022 updated to the final title and status, with the formula note corrected to T2. The counter stays at 186.
+- Watch: day-7 CTR. If it's below the channel median, swap to thumbnail B after the buffalo tile is redrawn (see the thumbnail pick above).
+
+FINAL: APPROVED
+- Showrunner: QC reported exit 1 at workflow time but re-run exits 0 with no problems. Main PASS; Shorts FAIL (end-card fixes applied, .rerender shorts requested).

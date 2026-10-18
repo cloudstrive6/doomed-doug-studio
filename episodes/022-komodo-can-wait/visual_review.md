@@ -1,5 +1,52 @@
 # Visual review: 022-komodo-can-wait
 
+## Post-render review (2026-10-18)
+
+VERDICT (main): PASS
+VERDICT (shorts): FAIL
+
+### Main video (final.mp4, 15:44)
+- I checked all 31 samples in `build/samples/`. `qc.json` reports no problems. There are no black, blank, frozen or glitched
+  frames. The chapter banner, death counter (178 to 185) and THE WAIT stopwatch badge advance in step with the chapters.
+  Doug is on-model and readable in every frame.
+- f_007 at about 3:00: the faint airbrush blobs near "LEFT" are the scent-cloud tongue gag mid-animation. I extracted
+  frames at 178 to 183 s to confirm this. They are not a glitch.
+- Round-1 fix 5 (severed heads) holds: the `komodo_head` close-ups fade at the neck with spray. There is no gore and no
+  kids-show tone.
+- Thumbnail (`thumbnail.png` / `thumbnail_small.png`): IT CAN WAIT is readable at feed size. The heavy, hard-eyed
+  Komodo lies flat with its tongue out toward tiny whistling Doug, who has a white ankle bandage. The image matches
+  the title "How the Komodo Dragon Kills Doug Without Chasing Him", shares no words with it, and is not misleading.
+  PASS.
+
+### Shorts (1080x1920, 49.0 s / 50.2 s / 51.0 s)
+Titles, subtitles, framing, the @DoomedDoug tag and the end-card down arrow are fine in all three. Nothing is cut off
+at the sides. A Komodo head entering from the left edge reads as coming into the frame. The bodies pay off their
+titles: the 4 km smell, the 31 kg boar in 17 minutes, and Chester Zoo parthenogenesis. The failures are all in the
+cliffhangers.
+
+### Required fixes (director: `shorts.json` → `tease_from` / `tease_asset` / `end_card` / `outro`)
+1. **short01: the end card answers its own question.** The outro says "The dragon never looked behind the rock",
+   then the card asks "WHAT FOUND DOUG BEHIND THE ROCK?" over a Komodo silhouette. The whole Short already says the
+   dragon's tongue found him. Keep `tease_asset: komodo_dragon` / `tease_from: s076` and ask about something the Short
+   never covers, the Follow chapter. For example, set `end_card` to "HOW LONG DID IT FOLLOW DOUG?" and end the outro
+   with "...it followed him anyway. How far is in the full video below." (Tim Jessop's walking-pace follow, s078+).
+2. **short02: the silhouette shows the eater, not what got eaten.** "WHAT ELSE DID THE DRAGON EAT?" is shown over a
+   Komodo silhouette, and viewers have just watched the dragon for 45 s. Set `tease_asset: picnic_basket`. It is
+   already in s184/s185 and its handle and box shape read clearly in solid black. Keep `tease_from: s185` and the
+   question.
+3. **short03: the silhouette cannot be recognised.** `komodo_log_eye` blacks out to a flat lens or sliver shape, so it
+   reads as nothing. It also does not match "HOW LONG DID DOUG LAST?" The teased thing is Doug's folding-chair vigil,
+   so set `tease_asset: deck_chair` (in s280/s282). Keep `tease_from: s282` (s282 narration "Doug lasted nine hours" is
+   not in the Short, so the question stays open).
+4. Advisory (director/editor): on all three cards the "???" sits on top of the silhouette's body and covers about 40%
+   of it. If the end-card layout allows, put the "???" above the silhouette or enlarge the silhouette, so the shape
+   reads at phone size.
+
+Re-render only the Shorts (`python -m studio shorts render 022-komodo-can-wait`). The main video, thumbnail and
+metadata need no changes.
+
+---
+
 ## Round 3: s184 re-check, thumbnail and s001 (2026-10-18)
 
 Scope: `build/keyframes/s184.png`, `build/thumbnail.png` (1280x720), `build/thumbnail_small.png` (320x180, feed
