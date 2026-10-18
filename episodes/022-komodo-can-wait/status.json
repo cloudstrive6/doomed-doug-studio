@@ -9,7 +9,12 @@
       "stage": "scripted",
       "at": "2026-10-18T16:22:15+00:00",
       "note": "draft 1: 2940 words, 12 items, time axis (0 s to ~4 Myr), deaths 179-186; Swim and Buffalo twists rewritten to match sources; see script.md header comments"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-18T16:39:03+00:00",
+      "note": "CD approved draft 3 (screener PASS round 3, 3,032 words); facts.md A3 Titanic quote fixed; bible updated to 186"
     }
   ],
-  "stage": "scripted"
+  "stage": "script_approved"
 }

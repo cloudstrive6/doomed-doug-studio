@@ -108,7 +108,7 @@ the path", "the second lesson is that they are very patient about it".
 - An injured deer photographed being stalked by a different dragon: Bull, Jessop & Whiteley 2010, PLoS ONE 5:e11097, Figure 1 caption
   (Fetched): https://pmc.ncbi.nlm.nih.gov/articles/PMC2888571/
   - Comparison (draft 2, replaces the football-match line): Titanic (1997) runs 194 minutes, The Numbers (Fetched):
-    https://www.the-numbers.com/movie/Titanic-(1997) . 240 - 194 = 46 minutes left over ("time left over for the credits and a snack").
+    https://www.the-numbers.com/movie/Titanic-(1997) . 240 - 194 = 46 minutes left over ("with time left over for a snack", script draft 3).
 - Attacks on people are rare but do happen: AP/NBC News, 2009, "Attacks on humans are rare" with recent fatal cases (Fetched by the screener, "Komodo dragon attacks are still rare,
   experts note"): https://www.nbcnews.com/id/wbna30913500 . No park-authority or IUCN page stating this was found in this pass. No names, no details, no figures (010's figure not repeated).
 
