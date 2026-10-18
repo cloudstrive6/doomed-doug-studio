@@ -74,6 +74,7 @@ right unless noted; the shotlist flips as needed.
 - Shots (4): s029, s033-s034, s040.
 
 - **DONE (illustrator):** `assets/library/komodo_mouth_teeth.json`, preview `assets/previews/022-komodo-can-wait-assets.png`. bbox x -450..446, y -250..252; head continues off the left edge.
+- **FIXED A2 (illustrator, 2026-10-18):** left end extended to x -530 with a soft darker scaly neck fade (lumpy scale edge, dark spray, no outline, closed jaw corner) like `komodo_head`; jaws, teeth, gum, interior and eye unchanged. bbox about x -554..446, y -250..252. preview `assets/previews/022-komodo-can-wait-assets-fix.png` (+ on scene backgrounds `022-komodo-can-wait-assets-fix-onbg.png`).
 ### komodo_tooth
 - What: one tooth, enlarged, for the 2024 iron-coating fact.
 - Look: a flattened backward-curved blade, cream `#f1ead6`, point down, serrated back edge, with a **clear orange `#e07b2a` stripe
@@ -151,6 +152,7 @@ right unless noted; the shotlist flips as needed.
 - Shots (18): s002, s144-s149, s152-s157, s161, s164-s167.
 
 - **DONE (illustrator):** `assets/library/water_buffalo.json`, preview `assets/previews/022-komodo-can-wait-assets-b.png`. bbox about x -342..356, y -462..0.
+- **FIXED A1 (illustrator, 2026-10-18):** both horns redrawn as wide swept-back crescents (near horn ~320 long, slate `#3a3a3a` with 6 `#6a6a6a` ridges; far horn `#262626`, behind and slightly higher), clear sky between horn and back. Body, legs, eye and anchor unchanged. bbox about x -342..356, y -485..0. preview `assets/previews/022-komodo-can-wait-assets-fix.png` (+ on scene backgrounds `022-komodo-can-wait-assets-fix-onbg.png`).
 ### wild_boar
 - What: a wild boar (Sunda/Flores type).
 - Look: bristly dark grey-brown body, crest of longer bristles along the spine, long snout with small tusks, short legs, thin tail.
@@ -265,6 +267,12 @@ right unless noted; the shotlist flips as needed.
   right. No blood.
 - Anchor centre. About 520 x 60.
 - Shots (1): s034.
+
+### thermos (added from visual_review fix 1, s189)
+- **DONE (illustrator, 2026-10-18):** `assets/library/thermos.json`. Green flask matching the one on `picnic_blanket` (`#2e8b57`, grey cup-lid and base, no handle). Anchor bottom-centre, ~44x123 (x -22..22, y -123..0). preview `assets/previews/022-komodo-can-wait-assets-fix.png` (+ on scene backgrounds `022-komodo-can-wait-assets-fix-onbg.png`).
+
+### water_buffalo_lying (added from visual_review fix 6, s162)
+- **DONE (illustrator, 2026-10-18):** `assets/library/water_buffalo_lying.json`. Same design/palette as `water_buffalo`, lying on its belly with legs folded under, head laid down with the chin on the ground, eyes calmly closed, tail limp. No wounds. Faces right. Anchor bottom-centre (ground y=0), ~940x300 (x -478..462, y -298..0). preview `assets/previews/022-komodo-can-wait-assets-fix.png` (+ on scene backgrounds `022-komodo-can-wait-assets-fix-onbg.png`).
 
 ## Doug gear (art director, not the illustrator)
 

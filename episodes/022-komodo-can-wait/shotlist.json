@@ -2299,71 +2299,78 @@
      },
      {
       "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
       "name": "dust_plume",
-      "x": 420,
-      "y": 850,
-      "scale": 0.5
+      "x": 300,
+      "y": 930,
+      "scale": 0.95
      },
      {
       "type": "asset",
       "name": "komodo_dragon",
-      "x": 560,
-      "y": 910,
-      "scale": 0.66
+      "x": 860,
+      "y": 1030,
+      "scale": 1.25
      },
      {
       "type": "line",
       "points": [
        [
-        150,
+        60,
         820
        ],
        [
-        280,
+        330,
         820
        ]
       ],
       "color": "#000000",
-      "width": 5
+      "width": 6
      },
      {
       "type": "line",
       "points": [
        [
-        120,
-        860
+        20,
+        900
        ],
        [
-        260,
-        860
+        300,
+        900
        ]
       ],
       "color": "#000000",
-      "width": 5
+      "width": 6
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        80,
+        980
+       ],
+       [
+        320,
+        980
+       ]
+      ],
+      "color": "#000000",
+      "width": 6
      },
      {
       "type": "label",
       "text": "UP TO 20 KM/H",
-      "x": 620,
-      "y": 560,
-      "size": 60,
+      "x": 760,
+      "y": 470,
+      "size": 64,
       "bold": true,
-      "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.55
      },
      {
       "type": "doug",
-      "x": 1700,
-      "y": 892,
-      "scale": 0.45,
+      "x": 1790,
+      "y": 900,
+      "scale": 0.36,
       "pose": "stand",
       "expression": "gritted",
       "facing": "left"
@@ -2910,33 +2917,23 @@
       "width": 4
      },
      {
-      "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "komodo_dragon",
-      "x": 760,
-      "y": 910,
-      "scale": 0.62
-     },
-     {
       "type": "line",
       "points": [
        [
-        300,
-        960
+        180,
+        800
        ],
        [
-        700,
-        960
+        520,
+        790
+       ],
+       [
+        880,
+        778
        ]
       ],
       "color": "#000000",
-      "width": 6,
+      "width": 5,
       "dash": [
        16,
        12
@@ -2945,24 +2942,52 @@
      {
       "type": "asset",
       "name": "dust_plume",
-      "x": 280,
-      "y": 860,
+      "x": 220,
+      "y": 800,
+      "scale": 0.22
+     },
+     {
+      "type": "asset",
+      "name": "dust_plume",
+      "x": 470,
+      "y": 792,
+      "scale": 0.15
+     },
+     {
+      "type": "asset",
+      "name": "dust_plume",
+      "x": 700,
+      "y": 784,
+      "scale": 0.09
+     },
+     {
+      "type": "asset",
+      "name": "komodo_dragon",
+      "x": 1080,
+      "y": 790,
       "scale": 0.3
+     },
+     {
+      "type": "asset",
+      "name": "red_x",
+      "x": 900,
+      "y": 700,
+      "scale": 0.3,
+      "appear": 0.35
      },
      {
       "type": "wordart",
       "text": "SHORT BURSTS",
-      "x": 800,
+      "x": 860,
       "y": 450,
       "size": 96,
-      "boil": 0,
-      "appear": 0.4
+      "appear": 0.5
      },
      {
       "type": "doug",
-      "x": 1600,
-      "y": 892,
-      "scale": 0.45,
+      "x": 1720,
+      "y": 790,
+      "scale": 0.24,
       "pose": "hands_hips",
       "expression": "smirk",
       "facing": "left"
@@ -3989,68 +4014,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 660,
-      "fill": "#8fd3ff",
-      "color": "#8fd3ff",
-      "width": 0,
-      "outline": false,
-      "boil": 0
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        0,
-        640
-       ],
-       [
-        0,
-        550
-       ],
-       [
-        260,
-        490
-       ],
-       [
-        520,
-        570
-       ],
-       [
-        820,
-        510
-       ],
-       [
-        1120,
-        580
-       ],
-       [
-        1420,
-        500
-       ],
-       [
-        1700,
-        560
-       ],
-       [
-        1920,
-        520
-       ],
-       [
-        1920,
-        640
-       ]
-      ],
-      "fill": "#c9b56a",
-      "color": "#000000",
-      "width": 3,
-      "smooth": false
-     },
-     {
-      "type": "rect",
-      "x": 0,
-      "y": 640,
-      "w": 1920,
-      "h": 440,
+      "h": 1080,
       "fill": "#e2c97e",
       "color": "#e2c97e",
       "width": 0,
@@ -4058,45 +4022,10 @@
       "boil": 0
      },
      {
-      "type": "curve",
-      "points": [
-       [
-        -20,
-        640
-       ],
-       [
-        300,
-        634
-       ],
-       [
-        640,
-        644
-       ],
-       [
-        960,
-        636
-       ],
-       [
-        1280,
-        646
-       ],
-       [
-        1600,
-        636
-       ],
-       [
-        1940,
-        642
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
       "type": "spray",
       "x": 960,
-      "y": 900,
-      "r": 900,
+      "y": 540,
+      "r": 1000,
       "color": "#c9ad66",
       "density": 0.02
      },
@@ -4105,192 +4034,147 @@
       "points": [
        [
         -20,
+        1000
+       ],
+       [
+        300,
         900
        ],
        [
-        400,
-        860
+        620,
+        760
        ],
        [
         900,
-        830
+        640
        ],
        [
-        1400,
-        815
+        1200,
+        520
+       ],
+       [
+        1500,
+        420
        ],
        [
         1940,
-        800
+        300
        ],
        [
         1940,
-        870
+        400
        ],
        [
-        1400,
-        890
+        1520,
+        510
        ],
        [
-        900,
-        910
+        1230,
+        610
        ],
        [
-        400,
-        950
+        950,
+        730
+       ],
+       [
+        680,
+        850
+       ],
+       [
+        360,
+        990
        ],
        [
         -20,
-        1000
+        1100
        ]
       ],
       "fill": "#efd9a0",
-      "color": "#efd9a0",
-      "width": 0,
-      "outline": false,
-      "boil": 0
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        66,
-        1000
-       ],
-       [
-        58,
-        970
-       ]
-      ],
       "color": "#b0924a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        80,
-        1000
-       ],
-       [
-        80,
-        962
-       ]
-      ],
-      "color": "#b0924a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        94,
-        1000
-       ],
-       [
-        102,
-        970
-       ]
-      ],
-      "color": "#b0924a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1826,
-        1025
-       ],
-       [
-        1818,
-        995
-       ]
-      ],
-      "color": "#b0924a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1840,
-        1025
-       ],
-       [
-        1840,
-        987
-       ]
-      ],
-      "color": "#b0924a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1854,
-        1025
-       ],
-       [
-        1862,
-        995
-       ]
-      ],
-      "color": "#b0924a",
-      "width": 4
+      "width": 3
      },
      {
       "type": "asset",
       "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
+      "x": 300,
+      "y": 560,
+      "scale": 0.45
+     },
+     {
+      "type": "asset",
+      "name": "savanna_bush",
+      "x": 1640,
+      "y": 760,
       "scale": 0.5
      },
      {
       "type": "asset",
+      "name": "savanna_bush",
+      "x": 1100,
+      "y": 330,
+      "scale": 0.35
+     },
+     {
+      "type": "asset",
       "name": "komodo_log",
-      "x": 1200,
-      "y": 820,
-      "scale": 0.8
+      "x": 1000,
+      "y": 830,
+      "scale": 0.42
      },
      {
       "type": "asset",
       "name": "deer",
-      "x": 260,
+      "x": 420,
       "y": 920,
-      "scale": 0.5,
+      "scale": 0.32,
       "appear": 0.1
      },
      {
       "type": "asset",
       "name": "wild_boar",
-      "x": 560,
-      "y": 960,
-      "scale": 0.45,
-      "appear": 0.45
+      "x": 1430,
+      "y": 470,
+      "scale": 0.3,
+      "flip": true,
+      "appear": 0.4
      },
      {
       "type": "arrow",
       "from": [
-       600,
-       760
+       560,
+       820
       ],
       "to": [
-       980,
-       790
+       820,
+       700
       ],
-      "bend": 40,
+      "bend": 30,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
-      "appear": 0.7
+      "appear": 0.6
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1300,
+       470
+      ],
+      "to": [
+       1110,
+       560
+      ],
+      "bend": -30,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.75
      },
      {
       "type": "doug",
-      "x": 1720,
-      "y": 896,
-      "scale": 0.42,
+      "x": 1700,
+      "y": 1010,
+      "scale": 0.3,
       "pose": "stand",
       "expression": "gritted",
       "facing": "left"
@@ -5556,46 +5440,31 @@
       "width": 4
      },
      {
-      "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
+      "type": "doug",
+      "x": 330,
+      "y": 720,
+      "scale": 0.24,
+      "pose": [
+       "walk1",
+       "walk2"
+      ],
+      "expression": "hopeful",
+      "facing": "right"
      },
      {
       "type": "asset",
       "name": "komodo_log",
-      "x": 1200,
-      "y": 820,
-      "scale": 0.85
-     },
-     {
-      "type": "label",
-      "text": "NOT A LOG",
-      "x": 1560,
-      "y": 420,
-      "size": 56,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
+      "x": 760,
+      "y": 1080,
+      "scale": 2.0
      },
      {
       "type": "wordart",
       "text": "QUIET",
-      "x": 700,
-      "y": 440,
-      "size": 100,
-      "boil": 0,
+      "x": 620,
+      "y": 420,
+      "size": 110,
       "appear": 0.5
-     },
-     {
-      "type": "doug",
-      "x": 380,
-      "y": 854,
-      "scale": 0.5,
-      "pose": "stand",
-      "expression": "gritted",
-      "facing": "right"
      },
      {
       "type": "label",
@@ -5628,9 +5497,9 @@
    },
    "camera": {
     "move": "zoom_in",
-    "x": 1100,
-    "y": 760,
-    "zoom": 1.08
+    "x": 1300,
+    "y": 820,
+    "zoom": 1.06
    }
   },
   {
@@ -6570,50 +6439,42 @@
       "width": 4
      },
      {
-      "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "komodo_log",
-      "x": 1250,
-      "y": 820,
-      "scale": 0.85
-     },
-     {
-      "type": "asset",
-      "name": "clock",
-      "x": 1250,
-      "y": 500,
-      "scale": 0.6,
-      "appear": 0.3
-     },
-     {
-      "type": "label",
-      "text": "WAITING",
-      "x": 1250,
-      "y": 650,
-      "size": 48,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff",
-      "appear": 0.45
-     },
-     {
       "type": "doug",
-      "x": 300,
-      "y": 854,
-      "scale": 0.5,
+      "x": 330,
+      "y": 720,
+      "scale": 0.22,
       "pose": [
        "walk1",
        "walk2"
       ],
       "expression": "hopeful",
       "facing": "right",
-      "appear": 0.65
+      "appear": 0.6
+     },
+     {
+      "type": "asset",
+      "name": "komodo_log",
+      "x": 1200,
+      "y": 1085,
+      "scale": 1.35
+     },
+     {
+      "type": "asset",
+      "name": "clock",
+      "x": 1250,
+      "y": 470,
+      "scale": 0.6,
+      "appear": 0.25
+     },
+     {
+      "type": "label",
+      "text": "WAITING",
+      "x": 1250,
+      "y": 640,
+      "size": 48,
+      "bold": true,
+      "fill": "#ffffff",
+      "appear": 0.4
      },
      {
       "type": "label",
@@ -6908,56 +6769,53 @@
       "width": 4
      },
      {
-      "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "komodo_log",
-      "x": 1300,
-      "y": 820,
-      "scale": 0.85
-     },
-     {
       "type": "doug",
       "x": 560,
-      "y": 846,
-      "scale": 0.55,
-      "pose": [
-       "walk1",
-       "walk2"
-      ],
+      "y": 1160,
+      "scale": 1.5,
+      "pose": "think",
       "expression": "hopeful",
       "facing": "right"
      },
      {
       "type": "asset",
-      "name": "field_guide",
-      "x": 632,
-      "y": 840,
-      "scale": 0.44
-     },
-     {
-      "type": "asset",
       "name": "field_guide_open",
-      "x": 380,
-      "y": 420,
-      "scale": 0.6,
-      "appear": 0.35
+      "x": 1060,
+      "y": 640,
+      "scale": 0.95
      },
      {
       "type": "text",
       "text": "KOMODO",
-      "x": 296.0,
-      "y": 354.0,
-      "size": 18.0,
+      "x": 927,
+      "y": 535,
+      "size": 30,
       "color": "#2b2b2b",
-      "bold": true,
-      "boil": 0,
-      "appear": 0.35
+      "bold": true
+     },
+     {
+      "type": "wordart",
+      "text": "THE TRAIL",
+      "x": 1460,
+      "y": 330,
+      "size": 80,
+      "appear": 0.6
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1460,
+       400
+      ],
+      "to": [
+       1700,
+       720
+      ],
+      "bend": -40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.7
      },
      {
       "type": "label",
@@ -7252,25 +7110,10 @@
       "width": 4
      },
      {
-      "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "komodo_log_eye",
-      "x": 1300,
-      "y": 820,
-      "scale": 0.85,
-      "appear": 0.25
-     },
-     {
       "type": "doug",
-      "x": 560,
-      "y": 846,
-      "scale": 0.55,
+      "x": 280,
+      "y": 720,
+      "scale": 0.24,
       "pose": "stand",
       "expression": "hopeful",
       "facing": "right"
@@ -7278,19 +7121,34 @@
      {
       "type": "asset",
       "name": "field_guide",
-      "x": 632,
-      "y": 840,
-      "scale": 0.44
+      "x": 312,
+      "y": 718,
+      "scale": 0.2
+     },
+     {
+      "type": "asset",
+      "name": "komodo_log",
+      "x": 560,
+      "y": 1090,
+      "scale": 2.3
+     },
+     {
+      "type": "asset",
+      "name": "komodo_log_eye",
+      "x": 560,
+      "y": 1090,
+      "scale": 2.3,
+      "appear": 0.3
      },
      {
       "type": "arrow",
       "from": [
-       1560,
+       1640,
        520
       ],
       "to": [
        1420,
-       740
+       840
       ],
       "bend": -60,
       "color": "#e0201b",
@@ -7301,7 +7159,7 @@
      {
       "type": "asset",
       "name": "exclamation_mark",
-      "x": 1600,
+      "x": 1680,
       "y": 450,
       "scale": 0.5,
       "appear": 0.6
@@ -7334,6 +7192,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 1393,
+    "y": 897,
+    "zoom": 1.1
    }
   },
   {
@@ -8583,18 +8447,18 @@
      {
       "type": "asset",
       "name": "komodo_mouth_teeth",
-      "x": 1180,
-      "y": 760,
-      "scale": 0.55
+      "x": 380,
+      "y": 790,
+      "scale": 1.1
      },
      {
       "type": "doug",
-      "x": 400,
+      "x": 1500,
       "y": 884,
       "scale": 0.5,
       "pose": "stand",
       "expression": "gritted",
-      "facing": "right"
+      "facing": "left"
      },
      {
       "type": "label",
@@ -9569,7 +9433,7 @@
       "type": "asset",
       "name": "bread_knife",
       "x": 1300,
-      "y": 860,
+      "y": 800,
       "scale": 0.9,
       "appear": 0.4
      },
@@ -9577,8 +9441,8 @@
       "type": "wordart",
       "text": "SERRATED",
       "x": 1300,
-      "y": 700,
-      "size": 84,
+      "y": 910,
+      "size": 80,
       "boil": 0,
       "appear": 0.55
      },
@@ -9640,65 +9504,141 @@
       "boil": 0
      },
      {
-      "type": "spray",
-      "x": 960,
-      "y": 540,
-      "r": 950,
-      "color": "#c9ad66",
-      "density": 0.006
+      "type": "line",
+      "points": [
+       [
+        560,
+        790
+       ],
+       [
+        1440,
+        790
+       ]
+      ],
+      "color": "#8d9096",
+      "width": 4
      },
      {
       "type": "asset",
       "name": "komodo_tooth",
       "x": 700,
-      "y": 580,
-      "scale": 0.9
+      "y": 629.3199999999999,
+      "scale": 0.78
      },
      {
       "type": "circle",
-      "x": 1150,
+      "x": 1180,
       "y": 600,
-      "r": 120,
+      "r": 190,
       "fill": "#c9ced4",
       "color": "#000000",
       "width": 5,
-      "appear": 0.5
+      "appear": 0.3
      },
      {
       "type": "circle",
-      "x": 1150,
+      "x": 1180,
       "y": 600,
-      "r": 96,
+      "r": 160,
       "fill": null,
       "color": "#8d9096",
       "width": 3,
-      "appear": 0.5
+      "appear": 0.3
      },
      {
       "type": "text",
       "text": "25¢",
-      "x": 1150,
+      "x": 1180,
       "y": 600,
-      "size": 56,
+      "size": 80,
       "color": "#5a5f66",
       "bold": true,
-      "boil": 0.2,
-      "appear": 0.5
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        990,
+        380
+       ],
+       [
+        1370,
+        380
+       ]
+      ],
+      "color": "#000000",
+      "width": 5,
+      "dash": [
+       14,
+       10
+      ],
+      "appear": 0.55
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        990,
+        360
+       ],
+       [
+        990,
+        400
+       ]
+      ],
+      "color": "#000000",
+      "width": 5,
+      "appear": 0.55
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1370,
+        360
+       ],
+       [
+        1370,
+        400
+       ]
+      ],
+      "color": "#000000",
+      "width": 5,
+      "appear": 0.55
+     },
+     {
+      "type": "label",
+      "text": "24 MM",
+      "x": 1180,
+      "y": 330,
+      "size": 40,
+      "bold": true,
+      "fill": "#ffffff",
+      "appear": 0.55
      },
      {
       "type": "label",
       "text": "ABOUT 2 CM",
       "x": 700,
-      "y": 900,
+      "y": 880,
       "size": 50,
       "bold": true,
-      "boil": 0.4,
       "fill": "#ffffff",
-      "appear": 0.3
+      "appear": 0.2
+     },
+     {
+      "type": "text",
+      "text": "(BOTH ENLARGED)",
+      "x": 940,
+      "y": 970,
+      "size": 30,
+      "color": "#5a5f66",
+      "bold": true
      },
      {
       "type": "doug",
-      "x": 1660,
+      "x": 1700,
       "y": 896,
       "scale": 0.42,
       "pose": "think",
@@ -10141,237 +10081,46 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 660,
-      "fill": "#8fd3ff",
-      "color": "#8fd3ff",
+      "h": 1080,
+      "fill": "#e4f3fb",
+      "color": "#e4f3fb",
       "width": 0,
       "outline": false,
       "boil": 0
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        0,
-        640
-       ],
-       [
-        0,
-        550
-       ],
-       [
-        260,
-        490
-       ],
-       [
-        520,
-        570
-       ],
-       [
-        820,
-        510
-       ],
-       [
-        1120,
-        580
-       ],
-       [
-        1420,
-        500
-       ],
-       [
-        1700,
-        560
-       ],
-       [
-        1920,
-        520
-       ],
-       [
-        1920,
-        640
-       ]
-      ],
-      "fill": "#c9b56a",
-      "color": "#000000",
-      "width": 3,
-      "smooth": false
-     },
-     {
-      "type": "rect",
-      "x": 0,
-      "y": 640,
-      "w": 1920,
-      "h": 440,
-      "fill": "#e2c97e",
-      "color": "#e2c97e",
-      "width": 0,
-      "outline": false,
-      "boil": 0
-     },
-     {
-      "type": "curve",
-      "points": [
-       [
-        -20,
-        640
-       ],
-       [
-        300,
-        634
-       ],
-       [
-        640,
-        644
-       ],
-       [
-        960,
-        636
-       ],
-       [
-        1280,
-        646
-       ],
-       [
-        1600,
-        636
-       ],
-       [
-        1940,
-        642
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "spray",
-      "x": 960,
-      "y": 900,
-      "r": 900,
-      "color": "#c9ad66",
-      "density": 0.02
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        76,
-        1000
-       ],
-       [
-        68,
-        970
-       ]
-      ],
-      "color": "#b0924a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        90,
-        1000
-       ],
-       [
-        90,
-        962
-       ]
-      ],
-      "color": "#b0924a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        104,
-        1000
-       ],
-       [
-        112,
-        970
-       ]
-      ],
-      "color": "#b0924a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1816,
-        1025
-       ],
-       [
-        1808,
-        995
-       ]
-      ],
-      "color": "#b0924a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1830,
-        1025
-       ],
-       [
-        1830,
-        987
-       ]
-      ],
-      "color": "#b0924a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1844,
-        1025
-       ],
-       [
-        1852,
-        995
-       ]
-      ],
-      "color": "#b0924a",
-      "width": 4
-     },
-     {
-      "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
      },
      {
       "type": "asset",
       "name": "komodo_mouth_teeth",
-      "x": 1100,
-      "y": 650,
-      "scale": 0.7
-     },
-     {
-      "type": "doug",
-      "x": 420,
-      "y": 884,
-      "scale": 0.5,
-      "pose": "think",
-      "expression": "confused",
-      "facing": "right"
+      "x": 820,
+      "y": 560,
+      "scale": 0.95
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1100,
-      "y": 380,
+      "x": 1350,
+      "y": 330,
       "scale": 0.5,
       "appear": 0.4
+     },
+     {
+      "type": "label",
+      "text": "THE BITE",
+      "x": 820,
+      "y": 920,
+      "size": 56,
+      "bold": true,
+      "fill": "#ffffff",
+      "appear": 0.55
+     },
+     {
+      "type": "doug",
+      "x": 1660,
+      "y": 896,
+      "scale": 0.42,
+      "pose": "think",
+      "expression": "confused",
+      "facing": "left"
      },
      {
       "type": "label",
@@ -11497,9 +11246,9 @@
       "type": "asset",
       "name": "red_x",
       "x": 950,
-      "y": 500,
+      "y": 330,
       "scale": 0.45,
-      "appear": 0.25
+      "appear": 0.3
      },
      {
       "type": "label",
@@ -11855,24 +11604,17 @@
      },
      {
       "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
       "name": "komodo_dragon",
-      "x": 1250,
-      "y": 920,
-      "scale": 0.6,
+      "x": 1560,
+      "y": 960,
+      "scale": 0.55,
       "flip": true
      },
      {
       "type": "doug",
-      "x": 600,
-      "y": 869,
-      "scale": 0.6,
+      "x": 760,
+      "y": 690,
+      "scale": 1.0,
       "pose": "point",
       "expression": "hopeful",
       "facing": "right",
@@ -11883,14 +11625,14 @@
      {
       "type": "arrow",
       "from": [
-       360,
-       820
+       420,
+       720
       ],
       "to": [
-       575,
-       930
+       762,
+       822
       ],
-      "bend": 40,
+      "bend": 50,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
@@ -11899,11 +11641,10 @@
      {
       "type": "label",
       "text": "BANDAGE",
-      "x": 300,
-      "y": 760,
-      "size": 44,
+      "x": 360,
+      "y": 620,
+      "size": 50,
       "bold": true,
-      "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.45
      },
@@ -13301,10 +13042,11 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1200,
-      "y": 760,
-      "scale": 0.9
+      "name": "komodo_dragon",
+      "x": 1250,
+      "y": 930,
+      "scale": 0.7,
+      "flip": true
      },
      {
       "type": "doug",
@@ -13867,10 +13609,11 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1350,
-      "y": 760,
-      "scale": 0.8
+      "name": "komodo_dragon",
+      "x": 1450,
+      "y": 920,
+      "scale": 0.6,
+      "flip": true
      },
      {
       "type": "doug",
@@ -14476,10 +14219,11 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1350,
-      "y": 780,
-      "scale": 0.8
+      "name": "komodo_dragon",
+      "x": 1400,
+      "y": 930,
+      "scale": 0.62,
+      "flip": true
      },
      {
       "type": "spray",
@@ -14759,11 +14503,11 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1450,
-      "y": 780,
-      "scale": 0.75,
-      "flip": false
+      "name": "komodo_dragon",
+      "x": 1560,
+      "y": 930,
+      "scale": 0.55,
+      "flip": true
      },
      {
       "type": "spray",
@@ -14796,14 +14540,14 @@
      {
       "type": "arrow",
       "from": [
-       1220,
-       600
+       1270,
+       830
       ],
       "to": [
-       860,
-       720
+       800,
+       760
       ],
-      "bend": 60,
+      "bend": 50,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
@@ -15370,10 +15114,11 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
+      "name": "komodo_dragon",
       "x": 860,
-      "y": 760,
-      "scale": 0.9
+      "y": 940,
+      "scale": 0.7,
+      "flip": false
      },
      {
       "type": "spray",
@@ -16288,9 +16033,9 @@
      {
       "type": "asset",
       "name": "komodo_head",
-      "x": 400,
-      "y": 780,
-      "scale": 0.75
+      "x": 250,
+      "y": 800,
+      "scale": 1.0
      },
      {
       "type": "doug",
@@ -16554,7 +16299,7 @@
      {
       "type": "asset",
       "name": "komodo_head",
-      "x": 300,
+      "x": 150,
       "y": 760,
       "scale": 0.6
      },
@@ -16607,8 +16352,8 @@
       "type": "line",
       "points": [
        [
-        480,
-        740
+        330,
+        760
        ],
        [
         900,
@@ -18105,18 +17850,18 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1430,
-      "y": 770,
-      "scale": 0.6,
-      "flip": true
-     },
-     {
-      "type": "asset",
       "name": "boulder",
       "x": 1100,
       "y": 980,
       "scale": 1.0
+     },
+     {
+      "type": "asset",
+      "name": "komodo_dragon",
+      "x": 1590,
+      "y": 985,
+      "scale": 0.5,
+      "flip": true
      },
      {
       "type": "asset",
@@ -18396,18 +18141,18 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1430,
-      "y": 770,
-      "scale": 0.6,
-      "flip": true
-     },
-     {
-      "type": "asset",
       "name": "boulder",
       "x": 1100,
       "y": 980,
       "scale": 1.0
+     },
+     {
+      "type": "asset",
+      "name": "komodo_dragon",
+      "x": 1590,
+      "y": 985,
+      "scale": 0.5,
+      "flip": true
      },
      {
       "type": "asset",
@@ -18425,12 +18170,28 @@
       "density": 0.08
      },
      {
-      "type": "asset",
-      "name": "komodo_log",
-      "x": 1550,
-      "y": 1040,
-      "scale": 0.4,
-      "appear": 0.5
+      "type": "arrow",
+      "from": [
+       1300,
+       900
+      ],
+      "to": [
+       1130,
+       660
+      ],
+      "bend": 60,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.3
+     },
+     {
+      "type": "wordart",
+      "text": "THE TONGUE",
+      "x": 620,
+      "y": 430,
+      "size": 96,
+      "appear": 0.55
      },
      {
       "type": "label",
@@ -20411,6 +20172,16 @@
       "pose": "stand",
       "expression": "shock",
       "facing": "left"
+     },
+     {
+      "type": "label",
+      "text": "70%",
+      "x": 940,
+      "y": 690,
+      "size": 60,
+      "bold": true,
+      "fill": "#ffffff",
+      "appear": 0.3
      },
      {
       "type": "label",
@@ -22822,9 +22593,9 @@
      {
       "type": "doug",
       "x": 1720,
-      "y": 930,
+      "y": 935,
       "scale": 0.36,
-      "pose": "sit",
+      "pose": "stand",
       "expression": "flat",
       "facing": "left"
      },
@@ -23744,7 +23515,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 808,
+      "y": 798,
       "scale": 0.5,
       "pose": "sit",
       "expression": "hopeful",
@@ -24026,7 +23797,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 808,
+      "y": 798,
       "scale": 0.5,
       "pose": "sit",
       "expression": "hopeful",
@@ -25109,7 +24880,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -25118,7 +24889,7 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
@@ -25356,7 +25127,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -25365,7 +25136,7 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
@@ -25613,7 +25384,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -25622,7 +25393,7 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
@@ -25881,7 +25652,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -25890,7 +25661,7 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
@@ -26124,7 +25895,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -26133,7 +25904,7 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
@@ -27151,7 +26922,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -27160,7 +26931,7 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
@@ -27400,7 +27171,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -27409,7 +27180,7 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
@@ -29041,7 +28812,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -29050,7 +28821,7 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
@@ -29281,7 +29052,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -29290,7 +29061,7 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
@@ -29555,7 +29326,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -29564,7 +29335,7 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
@@ -29792,7 +29563,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -29801,7 +29572,7 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
@@ -29891,6 +29662,34 @@
       "boil": 0
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        60,
+        564
+       ],
+       [
+        140,
+        520
+       ],
+       [
+        250,
+        505
+       ],
+       [
+        360,
+        530
+       ],
+       [
+        430,
+        564
+       ]
+      ],
+      "fill": "#b0903e",
+      "color": "#000000",
+      "width": 3
+     },
+     {
       "type": "rect",
       "x": 0,
       "y": 560,
@@ -30018,7 +29817,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -30027,21 +29826,28 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
       "type": "asset",
+      "name": "palm_tree",
+      "x": 1700,
+      "y": 1000,
+      "scale": 0.75
+     },
+     {
+      "type": "asset",
       "name": "flag_doug_was_here",
-      "x": 1020,
-      "y": 860,
+      "x": 1010,
+      "y": 900,
       "scale": 0.7,
       "appear": 0.35
      },
      {
       "type": "doug",
       "x": 800,
-      "y": 784,
+      "y": 830,
       "scale": 0.5,
       "pose": "arms_up",
       "expression": "hopeful",
@@ -30049,22 +29855,22 @@
      },
      {
       "type": "speech",
-      "x": 470,
-      "y": 380,
+      "x": 520,
+      "y": 330,
       "w": 220,
       "h": 120,
       "text": "safe",
       "tail": [
-       700,
-       560
+       810,
+       655
       ],
       "appear": 0.6
      },
      {
       "type": "asset",
       "name": "rubber_ring",
-      "x": 400,
-      "y": 640,
+      "x": 470,
+      "y": 770,
       "scale": 0.4
      },
      {
@@ -30116,6 +29922,34 @@
       "boil": 0
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        60,
+        564
+       ],
+       [
+        140,
+        520
+       ],
+       [
+        250,
+        505
+       ],
+       [
+        360,
+        530
+       ],
+       [
+        430,
+        564
+       ]
+      ],
+      "fill": "#b0903e",
+      "color": "#000000",
+      "width": 3
+     },
+     {
       "type": "rect",
       "x": 0,
       "y": 560,
@@ -30243,7 +30077,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -30252,28 +30086,35 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
       "type": "asset",
+      "name": "palm_tree",
+      "x": 1700,
+      "y": 1000,
+      "scale": 0.75
+     },
+     {
+      "type": "asset",
       "name": "komodo_dragon",
-      "x": 1520,
-      "y": 900,
-      "scale": 0.75,
+      "x": 1400,
+      "y": 960,
+      "scale": 0.7,
       "flip": true
      },
      {
       "type": "asset",
       "name": "flag_doug_was_here",
-      "x": 1020,
-      "y": 860,
+      "x": 1010,
+      "y": 900,
       "scale": 0.7
      },
      {
       "type": "doug",
       "x": 700,
-      "y": 784,
+      "y": 830,
       "scale": 0.5,
       "pose": "panic1",
       "expression": "shock",
@@ -30282,10 +30123,17 @@
      {
       "type": "asset",
       "name": "exclamation_mark",
-      "x": 640,
-      "y": 420,
+      "x": 700,
+      "y": 480,
       "scale": 0.55,
       "appear": 0.3
+     },
+     {
+      "type": "asset",
+      "name": "rubber_ring",
+      "x": 470,
+      "y": 770,
+      "scale": 0.4
      },
      {
       "type": "label",
@@ -30339,6 +30187,34 @@
       "boil": 0
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        60,
+        564
+       ],
+       [
+        140,
+        520
+       ],
+       [
+        250,
+        505
+       ],
+       [
+        360,
+        530
+       ],
+       [
+        430,
+        564
+       ]
+      ],
+      "fill": "#b0903e",
+      "color": "#000000",
+      "width": 3
+     },
+     {
       "type": "rect",
       "x": 0,
       "y": 560,
@@ -30466,7 +30342,7 @@
         1090
        ]
       ],
-      "fill": "#e8c07a",
+      "fill": "#c9a24a",
       "color": "#000000",
       "width": 4
      },
@@ -30475,34 +30351,41 @@
       "x": 960,
       "y": 920,
       "r": 900,
-      "color": "#c9a060",
+      "color": "#b08a3a",
       "density": 0.02
      },
      {
       "type": "asset",
+      "name": "palm_tree",
+      "x": 1700,
+      "y": 1000,
+      "scale": 0.75
+     },
+     {
+      "type": "asset",
       "name": "flag_doug_was_here",
-      "x": 1020,
-      "y": 860,
+      "x": 1010,
+      "y": 900,
       "scale": 0.7
      },
      {
       "type": "asset",
       "name": "rubber_ring",
-      "x": 560,
-      "y": 700,
-      "scale": 0.45
+      "x": 470,
+      "y": 770,
+      "scale": 0.4
      },
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 560,
-      "y": 680,
+      "x": 700,
+      "y": 880,
       "scale": 0.4
      },
      {
       "type": "doug",
-      "x": 560,
-      "y": 460,
+      "x": 700,
+      "y": 560,
       "scale": 0.38,
       "pose": "float",
       "expression": "flat",
@@ -30512,11 +30395,12 @@
      },
      {
       "type": "asset",
-      "name": "komodo_log",
-      "x": 1500,
-      "y": 980,
-      "scale": 0.5,
-      "appear": 0.55
+      "name": "komodo_log_eye",
+      "x": 1350,
+      "y": 1010,
+      "scale": 0.6,
+      "appear": 0.55,
+      "flip": true
      },
      {
       "type": "label",
@@ -30783,18 +30667,25 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 760,
-      "y": 760,
-      "scale": 0.6
+      "name": "komodo_dragon",
+      "x": 600,
+      "y": 860,
+      "scale": 0.4
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1180,
-      "y": 780,
-      "scale": 0.6,
+      "name": "komodo_dragon",
+      "x": 1220,
+      "y": 880,
+      "scale": 0.42,
       "flip": true
+     },
+     {
+      "type": "asset",
+      "name": "komodo_dragon",
+      "x": 900,
+      "y": 1000,
+      "scale": 0.5
      },
      {
       "type": "doug",
@@ -31372,19 +31263,11 @@
       "appear": 0.2
      },
      {
-      "type": "arrow",
-      "from": [
-       1700,
-       700
-      ],
-      "to": [
-       1800,
-       900
-      ],
-      "bend": 40,
-      "color": "#e0201b",
-      "width": 9,
-      "head": 36,
+      "type": "wordart",
+      "text": "SAME MEAL",
+      "x": 960,
+      "y": 300,
+      "size": 96,
       "appear": 0.5
      },
      {
@@ -31672,24 +31555,23 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1000,
-      "y": 760,
-      "scale": 0.45,
+      "name": "komodo_dragon",
+      "x": 1080,
+      "y": 860,
+      "scale": 0.36,
       "appear": 0.5
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1250,
-      "y": 780,
-      "scale": 0.45,
-      "flip": true,
+      "name": "komodo_dragon",
+      "x": 1180,
+      "y": 960,
+      "scale": 0.42,
       "appear": 0.6
      },
      {
       "type": "doug",
-      "x": 1700,
+      "x": 1720,
       "y": 899,
       "scale": 0.4,
       "pose": "stand",
@@ -31983,22 +31865,21 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1000,
-      "y": 800,
-      "scale": 0.45
+      "name": "komodo_dragon",
+      "x": 1080,
+      "y": 860,
+      "scale": 0.36
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1250,
-      "y": 820,
-      "scale": 0.45,
-      "flip": true
+      "name": "komodo_dragon",
+      "x": 1180,
+      "y": 960,
+      "scale": 0.42
      },
      {
       "type": "doug",
-      "x": 1700,
+      "x": 1720,
       "y": 899,
       "scale": 0.4,
       "pose": "stand",
@@ -32256,50 +32137,50 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1720,
-      "y": 520,
-      "scale": 0.42,
+      "name": "komodo_dragon",
+      "x": 1790,
+      "y": 700,
+      "scale": 0.3,
       "appear": 0.1
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1600,
-      "y": 700,
-      "scale": 0.45,
+      "name": "komodo_dragon",
+      "x": 1520,
+      "y": 715,
+      "scale": 0.28,
       "appear": 0.18
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1700,
-      "y": 880,
-      "scale": 0.42,
+      "name": "komodo_dragon",
+      "x": 1430,
+      "y": 835,
+      "scale": 0.34,
       "appear": 0.26
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1420,
-      "y": 560,
+      "name": "komodo_dragon",
+      "x": 1760,
+      "y": 850,
       "scale": 0.38,
       "appear": 0.34
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1380,
-      "y": 820,
-      "scale": 0.4,
+      "name": "komodo_dragon",
+      "x": 1410,
+      "y": 1000,
+      "scale": 0.42,
       "appear": 0.42
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1500,
-      "y": 980,
-      "scale": 0.36,
+      "name": "komodo_dragon",
+      "x": 1800,
+      "y": 1010,
+      "scale": 0.46,
       "appear": 0.5
      },
      {
@@ -32573,45 +32454,45 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1720,
-      "y": 520,
-      "scale": 0.42
-     },
-     {
-      "type": "asset",
-      "name": "komodo_head",
-      "x": 1600,
+      "name": "komodo_dragon",
+      "x": 1790,
       "y": 700,
-      "scale": 0.45
+      "scale": 0.3
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1700,
-      "y": 880,
-      "scale": 0.42
+      "name": "komodo_dragon",
+      "x": 1520,
+      "y": 715,
+      "scale": 0.28
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1420,
-      "y": 560,
+      "name": "komodo_dragon",
+      "x": 1430,
+      "y": 835,
+      "scale": 0.34
+     },
+     {
+      "type": "asset",
+      "name": "komodo_dragon",
+      "x": 1760,
+      "y": 850,
       "scale": 0.38
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1380,
-      "y": 820,
-      "scale": 0.4
+      "name": "komodo_dragon",
+      "x": 1410,
+      "y": 1000,
+      "scale": 0.42
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1500,
-      "y": 980,
-      "scale": 0.36
+      "name": "komodo_dragon",
+      "x": 1800,
+      "y": 1010,
+      "scale": 0.46
      },
      {
       "type": "wordart",
@@ -32983,45 +32864,45 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1720,
-      "y": 520,
-      "scale": 0.42
-     },
-     {
-      "type": "asset",
-      "name": "komodo_head",
-      "x": 1600,
+      "name": "komodo_dragon",
+      "x": 1790,
       "y": 700,
-      "scale": 0.45
+      "scale": 0.3
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1700,
-      "y": 880,
-      "scale": 0.42
+      "name": "komodo_dragon",
+      "x": 1520,
+      "y": 715,
+      "scale": 0.28
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1420,
-      "y": 560,
+      "name": "komodo_dragon",
+      "x": 1430,
+      "y": 835,
+      "scale": 0.34
+     },
+     {
+      "type": "asset",
+      "name": "komodo_dragon",
+      "x": 1760,
+      "y": 850,
       "scale": 0.38
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1380,
-      "y": 820,
-      "scale": 0.4
+      "name": "komodo_dragon",
+      "x": 1410,
+      "y": 1000,
+      "scale": 0.42
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1500,
-      "y": 980,
-      "scale": 0.36
+      "name": "komodo_dragon",
+      "x": 1800,
+      "y": 1010,
+      "scale": 0.46
      },
      {
       "type": "asset",
@@ -33302,45 +33183,45 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1720,
-      "y": 520,
-      "scale": 0.42
-     },
-     {
-      "type": "asset",
-      "name": "komodo_head",
-      "x": 1600,
+      "name": "komodo_dragon",
+      "x": 1790,
       "y": 700,
-      "scale": 0.45
+      "scale": 0.3
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1700,
-      "y": 880,
-      "scale": 0.42
+      "name": "komodo_dragon",
+      "x": 1520,
+      "y": 715,
+      "scale": 0.28
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1420,
-      "y": 560,
+      "name": "komodo_dragon",
+      "x": 1430,
+      "y": 835,
+      "scale": 0.34
+     },
+     {
+      "type": "asset",
+      "name": "komodo_dragon",
+      "x": 1760,
+      "y": 850,
       "scale": 0.38
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1380,
-      "y": 820,
-      "scale": 0.4
+      "name": "komodo_dragon",
+      "x": 1410,
+      "y": 1000,
+      "scale": 0.42
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1500,
-      "y": 980,
-      "scale": 0.36
+      "name": "komodo_dragon",
+      "x": 1800,
+      "y": 1010,
+      "scale": 0.46
      },
      {
       "type": "doug",
@@ -34824,8 +34705,8 @@
       "h": 120,
       "text": "can I help?",
       "tail": [
-       420,
-       620
+       510,
+       729
       ],
       "appear": 0.45
      },
@@ -36081,9 +35962,20 @@
      {
       "type": "asset",
       "name": "calendar",
-      "x": 400,
-      "y": 520,
-      "scale": 0.55,
+      "x": 380,
+      "y": 470,
+      "scale": 0.9,
+      "appear": 0.2
+     },
+     {
+      "type": "text",
+      "text": "CENTURIES",
+      "x": 380,
+      "y": 488.0,
+      "size": 34,
+      "color": "#000000",
+      "bold": true,
+      "max_width": 210,
       "appear": 0.2
      },
      {
@@ -38086,15 +37978,15 @@
      {
       "type": "asset",
       "name": "dust_plume",
-      "x": 700,
-      "y": 900,
-      "scale": 0.3
+      "x": 900,
+      "y": 930,
+      "scale": 0.25
      },
      {
       "type": "asset",
       "name": "komodo_dragon",
-      "x": 700,
-      "y": 960,
+      "x": 560,
+      "y": 965,
       "scale": 0.55
      },
      {
@@ -39519,42 +39411,42 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1720,
-      "y": 560,
-      "scale": 0.45,
+      "name": "komodo_dragon",
+      "x": 1800,
+      "y": 700,
+      "scale": 0.3,
       "appear": 0.1
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1560,
+      "name": "komodo_dragon",
+      "x": 1540,
       "y": 720,
-      "scale": 0.48,
+      "scale": 0.28,
       "appear": 0.22
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1740,
-      "y": 860,
-      "scale": 0.45,
+      "name": "komodo_dragon",
+      "x": 1460,
+      "y": 850,
+      "scale": 0.34,
       "appear": 0.34
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1380,
-      "y": 600,
+      "name": "komodo_dragon",
+      "x": 1780,
+      "y": 860,
       "scale": 0.4,
       "appear": 0.46
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1400,
-      "y": 880,
-      "scale": 0.42,
+      "name": "komodo_dragon",
+      "x": 1820,
+      "y": 1010,
+      "scale": 0.45,
       "appear": 0.58
      },
      {
@@ -39825,38 +39717,38 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1720,
-      "y": 560,
-      "scale": 0.45
+      "name": "komodo_dragon",
+      "x": 1800,
+      "y": 700,
+      "scale": 0.3
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1560,
+      "name": "komodo_dragon",
+      "x": 1540,
       "y": 720,
-      "scale": 0.48
+      "scale": 0.28
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1740,
+      "name": "komodo_dragon",
+      "x": 1460,
+      "y": 850,
+      "scale": 0.34
+     },
+     {
+      "type": "asset",
+      "name": "komodo_dragon",
+      "x": 1780,
       "y": 860,
-      "scale": 0.45
-     },
-     {
-      "type": "asset",
-      "name": "komodo_head",
-      "x": 1380,
-      "y": 600,
       "scale": 0.4
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1400,
-      "y": 880,
-      "scale": 0.42
+      "name": "komodo_dragon",
+      "x": 1820,
+      "y": 1010,
+      "scale": 0.45
      },
      {
       "type": "asset",
@@ -40134,38 +40026,38 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1720,
-      "y": 560,
-      "scale": 0.45
+      "name": "komodo_dragon",
+      "x": 1800,
+      "y": 700,
+      "scale": 0.3
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1560,
+      "name": "komodo_dragon",
+      "x": 1540,
       "y": 720,
-      "scale": 0.48
+      "scale": 0.28
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1740,
+      "name": "komodo_dragon",
+      "x": 1460,
+      "y": 850,
+      "scale": 0.34
+     },
+     {
+      "type": "asset",
+      "name": "komodo_dragon",
+      "x": 1780,
       "y": 860,
-      "scale": 0.45
-     },
-     {
-      "type": "asset",
-      "name": "komodo_head",
-      "x": 1380,
-      "y": 600,
       "scale": 0.4
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1400,
-      "y": 880,
-      "scale": 0.42
+      "name": "komodo_dragon",
+      "x": 1820,
+      "y": 1010,
+      "scale": 0.45
      },
      {
       "type": "asset",
@@ -40730,27 +40622,35 @@
      },
      {
       "type": "asset",
-      "name": "komodo_log_eye",
-      "x": 700,
-      "y": 980,
-      "scale": 0.5
+      "name": "water_buffalo_lying",
+      "x": 1250,
+      "y": 990,
+      "scale": 0.7
      },
      {
       "type": "asset",
       "name": "komodo_log_eye",
-      "x": 1150,
+      "x": 560,
       "y": 1010,
-      "scale": 0.45,
-      "flip": true,
+      "scale": 0.4
+     },
+     {
+      "type": "asset",
+      "name": "komodo_log_eye",
+      "x": 1250,
+      "y": 745,
+      "scale": 0.22,
+      "flip": false,
       "appear": 0.3
      },
      {
       "type": "asset",
       "name": "komodo_log_eye",
-      "x": 1500,
-      "y": 960,
-      "scale": 0.4,
-      "appear": 0.55
+      "x": 1790,
+      "y": 1000,
+      "scale": 0.28,
+      "appear": 0.55,
+      "flip": true
      },
      {
       "type": "wordart",
@@ -41331,15 +41231,15 @@
      {
       "type": "asset",
       "name": "placard",
-      "x": 600,
-      "y": 860,
+      "x": 510,
+      "y": 814,
       "scale": 0.55
      },
      {
       "type": "text",
       "text": "MORAL SUPPORT",
-      "x": 600,
-      "y": 706.0,
+      "x": 510,
+      "y": 660,
       "size": 28,
       "color": "#000000",
       "bold": true,
@@ -41657,15 +41557,15 @@
      {
       "type": "asset",
       "name": "placard",
-      "x": 600,
-      "y": 860,
+      "x": 510,
+      "y": 814,
       "scale": 0.55
      },
      {
       "type": "text",
       "text": "MORAL SUPPORT",
-      "x": 600,
-      "y": 706.0,
+      "x": 510,
+      "y": 660,
       "size": 28,
       "color": "#000000",
       "bold": true,
@@ -41674,9 +41574,9 @@
      },
      {
       "type": "asset",
-      "name": "komodo_head",
-      "x": 1700,
-      "y": 900,
+      "name": "komodo_dragon",
+      "x": 1770,
+      "y": 990,
       "scale": 0.5,
       "flip": true
      },
@@ -41684,8 +41584,8 @@
       "type": "line",
       "points": [
        [
-        1560,
-        880
+        1540,
+        950
        ],
        [
         1250,
@@ -41704,8 +41604,8 @@
       "type": "line",
       "points": [
        [
-        1560,
-        880
+        1540,
+        950
        ],
        [
         700,
@@ -44725,52 +44625,35 @@
      },
      {
       "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
       "name": "flat_rock",
-      "x": 960,
-      "y": 990,
-      "scale": 1.0
+      "x": 600,
+      "y": 1150,
+      "scale": 2.0
      },
      {
       "type": "asset",
       "name": "komodo_bloated",
-      "x": 960,
-      "y": 880,
-      "scale": 0.75
+      "x": 520,
+      "y": 1060,
+      "scale": 1.9
      },
      {
       "type": "asset",
       "name": "thermometer",
-      "x": 1600,
+      "x": 1640,
       "y": 560,
-      "scale": 0.6,
+      "scale": 0.7,
       "appear": 0.3
      },
      {
       "type": "label",
       "text": "DIGESTING",
-      "x": 960,
-      "y": 420,
+      "x": 1250,
+      "y": 330,
       "size": 56,
       "bold": true,
-      "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.45
-     },
-     {
-      "type": "doug",
-      "x": 260,
-      "y": 922,
-      "scale": 0.38,
-      "pose": "think",
-      "expression": "flat",
-      "facing": "right"
      },
      {
       "type": "label",
@@ -45015,220 +44898,256 @@
       "width": 4
      },
      {
-      "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
+      "type": "circle",
+      "x": 1120,
+      "y": 400,
+      "r": 130,
+      "fill": "#ffe24a",
+      "color": "#000000",
+      "width": 5,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1270,
+        400
+       ],
+       [
+        1320,
+        400
+       ]
+      ],
+      "color": "#e0a000",
+      "width": 8,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1250,
+        475
+       ],
+       [
+        1293,
+        500
+       ]
+      ],
+      "color": "#e0a000",
+      "width": 8,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1195,
+        530
+       ],
+       [
+        1220,
+        573
+       ]
+      ],
+      "color": "#e0a000",
+      "width": 8,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1120,
+        550
+       ],
+       [
+        1120,
+        600
+       ]
+      ],
+      "color": "#e0a000",
+      "width": 8,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1045,
+        530
+       ],
+       [
+        1020,
+        573
+       ]
+      ],
+      "color": "#e0a000",
+      "width": 8,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        990,
+        475
+       ],
+       [
+        947,
+        500
+       ]
+      ],
+      "color": "#e0a000",
+      "width": 8,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        970,
+        400
+       ],
+       [
+        920,
+        400
+       ]
+      ],
+      "color": "#e0a000",
+      "width": 8,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        990,
+        325
+       ],
+       [
+        947,
+        300
+       ]
+      ],
+      "color": "#e0a000",
+      "width": 8,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1045,
+        270
+       ],
+       [
+        1020,
+        227
+       ]
+      ],
+      "color": "#e0a000",
+      "width": 8,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1120,
+        250
+       ],
+       [
+        1120,
+        200
+       ]
+      ],
+      "color": "#e0a000",
+      "width": 8,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1195,
+        270
+       ],
+       [
+        1220,
+        227
+       ]
+      ],
+      "color": "#e0a000",
+      "width": 8,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1250,
+        325
+       ],
+       [
+        1293,
+        300
+       ]
+      ],
+      "color": "#e0a000",
+      "width": 8,
+      "appear": 0.15
      },
      {
       "type": "asset",
       "name": "flat_rock",
-      "x": 960,
-      "y": 990,
-      "scale": 1.0
+      "x": 600,
+      "y": 960,
+      "scale": 0.6
      },
      {
       "type": "asset",
       "name": "komodo_bloated",
-      "x": 960,
-      "y": 880,
-      "scale": 0.75
-     },
-     {
-      "type": "circle",
-      "x": 1500,
-      "y": 400,
-      "r": 70,
-      "fill": "#ffe24a",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1584,
-        400
-       ],
-       [
-        1614,
-        400
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1568,
-        449
-       ],
-       [
-        1592,
-        467
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1526,
-        480
-       ],
-       [
-        1535,
-        508
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1474,
-        480
-       ],
-       [
-        1465,
-        508
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1432,
-        449
-       ],
-       [
-        1408,
-        467
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1416,
-        400
-       ],
-       [
-        1386,
-        400
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1432,
-        351
-       ],
-       [
-        1408,
-        333
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1474,
-        320
-       ],
-       [
-        1465,
-        292
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1526,
-        320
-       ],
-       [
-        1535,
-        292
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1568,
-        351
-       ],
-       [
-        1592,
-        333
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6,
-      "appear": 0.2
+      "x": 600,
+      "y": 895,
+      "scale": 0.45
      },
      {
       "type": "arrow",
       "from": [
-       1400,
-       480
+       980,
+       520
       ],
       "to": [
-       1150,
-       680
+       780,
+       800
       ],
-      "bend": 40,
+      "bend": 50,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
       "appear": 0.45
      },
      {
+      "type": "wordart",
+      "text": "WARM UP",
+      "x": 520,
+      "y": 430,
+      "size": 96,
+      "appear": 0.6
+     },
+     {
       "type": "doug",
-      "x": 260,
-      "y": 922,
-      "scale": 0.38,
+      "x": 1700,
+      "y": 930,
+      "scale": 0.32,
       "pose": "stand",
       "expression": "flat",
-      "facing": "right"
+      "facing": "left",
+      "gear": [
+       "sunburn"
+      ]
      },
      {
       "type": "label",
@@ -45563,247 +45482,283 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 660,
-      "fill": "#ecc27a",
-      "color": "#ecc27a",
+      "h": 1080,
+      "fill": "#f6e3b8",
+      "color": "#f6e3b8",
       "width": 0,
       "outline": false,
       "boil": 0
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        0,
-        640
-       ],
-       [
-        0,
-        550
-       ],
-       [
-        260,
-        490
-       ],
-       [
-        520,
-        570
-       ],
-       [
-        820,
-        510
-       ],
-       [
-        1120,
-        580
-       ],
-       [
-        1420,
-        500
-       ],
-       [
-        1700,
-        560
-       ],
-       [
-        1920,
-        520
-       ],
-       [
-        1920,
-        640
-       ]
-      ],
-      "fill": "#b0903e",
-      "color": "#000000",
-      "width": 3,
-      "smooth": false
      },
      {
       "type": "rect",
-      "x": 0,
-      "y": 640,
-      "w": 1920,
-      "h": 440,
-      "fill": "#c9a24a",
-      "color": "#c9a24a",
-      "width": 0,
-      "outline": false,
-      "boil": 0
+      "x": 330,
+      "y": 400,
+      "w": 220,
+      "h": 260,
+      "fill": "#ffffff",
+      "color": "#000000",
+      "width": 5
      },
      {
-      "type": "curve",
+      "type": "rect",
+      "x": 330,
+      "y": 400,
+      "w": 220,
+      "h": 60,
+      "fill": "#e0201b",
+      "color": "#000000",
+      "width": 5
+     },
+     {
+      "type": "text",
+      "text": "MON",
+      "x": 440,
+      "y": 432,
+      "size": 36,
+      "color": "#ffffff",
+      "bold": true
+     },
+     {
+      "type": "line",
       "points": [
        [
-        -20,
-        640
+        380,
+        560
        ],
        [
-        300,
-        634
+        425,
+        610
        ],
+       [
+        505,
+        500
+       ]
+      ],
+      "color": "#1f8f3a",
+      "width": 14,
+      "appear": 0.1
+     },
+     {
+      "type": "rect",
+      "x": 590,
+      "y": 400,
+      "w": 220,
+      "h": 260,
+      "fill": "#ffffff",
+      "color": "#000000",
+      "width": 5
+     },
+     {
+      "type": "rect",
+      "x": 590,
+      "y": 400,
+      "w": 220,
+      "h": 60,
+      "fill": "#e0201b",
+      "color": "#000000",
+      "width": 5
+     },
+     {
+      "type": "text",
+      "text": "TUE",
+      "x": 700,
+      "y": 432,
+      "size": 36,
+      "color": "#ffffff",
+      "bold": true
+     },
+     {
+      "type": "line",
+      "points": [
        [
         640,
-        644
+        560
        ],
        [
-        960,
-        636
+        685,
+        610
        ],
        [
-        1280,
-        646
-       ],
-       [
-        1600,
-        636
-       ],
-       [
-        1940,
-        642
+        765,
+        500
        ]
       ],
+      "color": "#1f8f3a",
+      "width": 14,
+      "appear": 0.22
+     },
+     {
+      "type": "rect",
+      "x": 850,
+      "y": 400,
+      "w": 220,
+      "h": 260,
+      "fill": "#ffffff",
       "color": "#000000",
-      "width": 4
+      "width": 5
      },
      {
-      "type": "spray",
+      "type": "rect",
+      "x": 850,
+      "y": 400,
+      "w": 220,
+      "h": 60,
+      "fill": "#e0201b",
+      "color": "#000000",
+      "width": 5
+     },
+     {
+      "type": "text",
+      "text": "WED",
       "x": 960,
-      "y": 900,
-      "r": 900,
-      "color": "#b08a3a",
-      "density": 0.02
+      "y": 432,
+      "size": 36,
+      "color": "#ffffff",
+      "bold": true
      },
      {
       "type": "line",
       "points": [
        [
-        76,
-        1000
+        900,
+        560
        ],
        [
-        68,
-        970
+        945,
+        610
+       ],
+       [
+        1025,
+        500
        ]
       ],
-      "color": "#94752a",
-      "width": 4
+      "color": "#1f8f3a",
+      "width": 14,
+      "appear": 0.34
+     },
+     {
+      "type": "rect",
+      "x": 1110,
+      "y": 400,
+      "w": 220,
+      "h": 260,
+      "fill": "#ffffff",
+      "color": "#000000",
+      "width": 5
+     },
+     {
+      "type": "rect",
+      "x": 1110,
+      "y": 400,
+      "w": 220,
+      "h": 60,
+      "fill": "#e0201b",
+      "color": "#000000",
+      "width": 5
+     },
+     {
+      "type": "text",
+      "text": "THU",
+      "x": 1220,
+      "y": 432,
+      "size": 36,
+      "color": "#ffffff",
+      "bold": true
      },
      {
       "type": "line",
       "points": [
        [
-        90,
-        1000
+        1160,
+        560
        ],
        [
-        90,
-        962
+        1205,
+        610
+       ],
+       [
+        1285,
+        500
        ]
       ],
-      "color": "#94752a",
-      "width": 4
+      "color": "#1f8f3a",
+      "width": 14,
+      "appear": 0.46
+     },
+     {
+      "type": "rect",
+      "x": 1370,
+      "y": 400,
+      "w": 220,
+      "h": 260,
+      "fill": "#ffffff",
+      "color": "#000000",
+      "width": 5
+     },
+     {
+      "type": "rect",
+      "x": 1370,
+      "y": 400,
+      "w": 220,
+      "h": 60,
+      "fill": "#e0201b",
+      "color": "#000000",
+      "width": 5
+     },
+     {
+      "type": "text",
+      "text": "FRI",
+      "x": 1480,
+      "y": 432,
+      "size": 36,
+      "color": "#ffffff",
+      "bold": true
      },
      {
       "type": "line",
       "points": [
        [
-        104,
-        1000
+        1420,
+        560
        ],
        [
-        112,
-        970
-       ]
-      ],
-      "color": "#94752a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1816,
-        1025
+        1465,
+        610
        ],
        [
-        1808,
-        995
+        1545,
+        500
        ]
       ],
-      "color": "#94752a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1830,
-        1025
-       ],
-       [
-        1830,
-        987
-       ]
-      ],
-      "color": "#94752a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1844,
-        1025
-       ],
-       [
-        1852,
-        995
-       ]
-      ],
-      "color": "#94752a",
-      "width": 4
-     },
-     {
-      "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "flat_rock",
-      "x": 960,
-      "y": 990,
-      "scale": 1.0
-     },
-     {
-      "type": "asset",
-      "name": "komodo_bloated",
-      "x": 960,
-      "y": 880,
-      "scale": 0.75
+      "color": "#1f8f3a",
+      "width": 14,
+      "appear": 0.58
      },
      {
       "type": "label",
       "text": "A FULL WORKING WEEK",
       "x": 960,
-      "y": 420,
-      "size": 52,
+      "y": 780,
+      "size": 56,
       "bold": true,
-      "boil": 0.4,
       "fill": "#ffffff",
-      "appear": 0.3
+      "appear": 0.75
      },
      {
       "type": "doug",
-      "x": 260,
-      "y": 922,
-      "scale": 0.38,
+      "x": 1750,
+      "y": 950,
+      "scale": 0.36,
       "pose": "hands_hips",
       "expression": "flat",
-      "facing": "right"
+      "facing": "left"
+     },
+     {
+      "type": "asset",
+      "name": "komodo_bloated",
+      "x": 330,
+      "y": 960,
+      "scale": 0.25
      },
      {
       "type": "label",
@@ -46643,8 +46598,8 @@
       "h": 120,
       "text": "peace?",
       "tail": [
-       1060,
-       640
+       910,
+       654
       ],
       "appear": 0.4
      },
@@ -47503,18 +47458,6 @@
       "facing": "right"
      },
      {
-      "type": "rect",
-      "x": 764,
-      "y": 830,
-      "w": 46,
-      "h": 40,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 3,
-      "outline": true,
-      "boil": 0
-     },
-     {
       "type": "label",
       "text": "DOUG DEATHS: 184",
       "x": 1590,
@@ -47779,18 +47722,6 @@
       "pose": "stand",
       "expression": "sad",
       "facing": "right"
-     },
-     {
-      "type": "rect",
-      "x": 764,
-      "y": 830,
-      "w": 46,
-      "h": 40,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 3,
-      "outline": true,
-      "boil": 0
      },
      {
       "type": "line",
@@ -48099,35 +48030,39 @@
       "facing": "right"
      },
      {
-      "type": "rect",
-      "x": 764,
-      "y": 830,
-      "w": 46,
-      "h": 40,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 3,
-      "outline": true,
-      "boil": 0
-     },
-     {
       "type": "label",
       "text": "NOT FOOD",
-      "x": 1300,
-      "y": 520,
+      "x": 1000,
+      "y": 600,
       "size": 50,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
-      "appear": 0.3
+      "appear": 0.25
      },
      {
       "type": "asset",
-      "name": "question_mark",
-      "x": 1500,
-      "y": 720,
-      "scale": 0.4,
-      "appear": 0.6
+      "name": "thermos",
+      "x": 1000,
+      "y": 880,
+      "scale": 1.5,
+      "appear": 0.1
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1060,
+       760
+      ],
+      "to": [
+       1700,
+       860
+      ],
+      "bend": -80,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.55
      },
      {
       "type": "label",
@@ -54734,68 +54669,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 640,
-      "fill": "#f2a24a",
-      "color": "#f2a24a",
-      "width": 0,
-      "outline": false,
-      "boil": 0
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        0,
-        620
-       ],
-       [
-        0,
-        530
-       ],
-       [
-        260,
-        470
-       ],
-       [
-        520,
-        550
-       ],
-       [
-        820,
-        490
-       ],
-       [
-        1120,
-        560
-       ],
-       [
-        1420,
-        480
-       ],
-       [
-        1700,
-        540
-       ],
-       [
-        1920,
-        500
-       ],
-       [
-        1920,
-        620
-       ]
-      ],
-      "fill": "#9a7a3a",
-      "color": "#000000",
-      "width": 3,
-      "smooth": false
-     },
-     {
-      "type": "rect",
-      "x": 0,
-      "y": 620,
-      "w": 1920,
-      "h": 460,
+      "h": 1080,
       "fill": "#b8913a",
       "color": "#b8913a",
       "width": 0,
@@ -54803,278 +54677,186 @@
       "boil": 0
      },
      {
-      "type": "curve",
-      "points": [
-       [
-        -20,
-        620
-       ],
-       [
-        300,
-        614
-       ],
-       [
-        640,
-        624
-       ],
-       [
-        960,
-        616
-       ],
-       [
-        1280,
-        626
-       ],
-       [
-        1600,
-        616
-       ],
-       [
-        1940,
-        622
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
       "type": "spray",
       "x": 960,
-      "y": 890,
-      "r": 900,
-      "color": "#a07e32",
+      "y": 540,
+      "r": 1000,
+      "color": "#a07a32",
       "density": 0.02
      },
      {
-      "type": "line",
+      "type": "poly",
       "points": [
        [
-        76,
-        1000
+        -20,
+        1100
        ],
        [
-        68,
-        970
-       ]
-      ],
-      "color": "#866a2a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        90,
-        1000
+        200,
+        900
        ],
        [
-        90,
-        962
-       ]
-      ],
-      "color": "#866a2a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        104,
-        1000
-       ],
-       [
-        112,
-        970
-       ]
-      ],
-      "color": "#866a2a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1816,
-        1025
-       ],
-       [
-        1808,
-        995
-       ]
-      ],
-      "color": "#866a2a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1830,
-        1025
-       ],
-       [
-        1830,
-        987
-       ]
-      ],
-      "color": "#866a2a",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1844,
-        1025
-       ],
-       [
-        1852,
-        995
-       ]
-      ],
-      "color": "#866a2a",
-      "width": 4
-     },
-     {
-      "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 660,
-      "scale": 0.5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        300,
-        760
-       ],
-       [
-        700,
-        740
-       ],
-       [
-        1100,
-        720
-       ],
-       [
-        1500,
+        520,
         700
        ],
        [
-        1900,
-        690
+        900,
+        520
+       ],
+       [
+        1300,
+        380
+       ],
+       [
+        1940,
+        200
+       ],
+       [
+        1940,
+        300
+       ],
+       [
+        1340,
+        460
+       ],
+       [
+        960,
+        600
+       ],
+       [
+        620,
+        780
+       ],
+       [
+        330,
+        960
+       ],
+       [
+        180,
+        1100
        ]
       ],
-      "color": "#c9a45a",
-      "width": 14,
-      "dash": [
-       30,
-       4
-      ]
+      "fill": "#c9a45a",
+      "color": "#8a6a2a",
+      "width": 3
+     },
+     {
+      "type": "asset",
+      "name": "deer",
+      "x": 250,
+      "y": 930,
+      "scale": 0.32,
+      "appear": 0.04
      },
      {
       "type": "asset",
       "name": "deer",
       "x": 400,
-      "y": 750,
-      "scale": 0.16,
-      "appear": 0.05
+      "y": 868,
+      "scale": 0.302,
+      "appear": 0.1
      },
      {
       "type": "asset",
       "name": "deer",
-      "x": 560,
+      "x": 550,
+      "y": 806,
+      "scale": 0.284,
+      "appear": 0.16
+     },
+     {
+      "type": "asset",
+      "name": "deer",
+      "x": 700,
       "y": 744,
-      "scale": 0.16,
-      "appear": 0.13
+      "scale": 0.266,
+      "appear": 0.22
      },
      {
       "type": "asset",
       "name": "deer",
-      "x": 720,
-      "y": 738,
-      "scale": 0.16,
-      "appear": 0.21
+      "x": 850,
+      "y": 682,
+      "scale": 0.248,
+      "appear": 0.28
      },
      {
       "type": "asset",
       "name": "deer",
-      "x": 880,
-      "y": 732,
-      "scale": 0.16,
-      "appear": 0.29
+      "x": 1000,
+      "y": 620,
+      "scale": 0.23,
+      "appear": 0.34
      },
      {
       "type": "asset",
       "name": "deer",
-      "x": 1040,
-      "y": 726,
-      "scale": 0.16,
-      "appear": 0.37
+      "x": 1150,
+      "y": 558,
+      "scale": 0.212,
+      "appear": 0.4
      },
      {
       "type": "asset",
       "name": "deer",
-      "x": 1200,
-      "y": 720,
-      "scale": 0.16,
-      "appear": 0.45
+      "x": 1300,
+      "y": 496,
+      "scale": 0.194,
+      "appear": 0.46
      },
      {
       "type": "asset",
       "name": "deer",
-      "x": 1360,
-      "y": 714,
-      "scale": 0.16,
-      "appear": 0.53
+      "x": 1450,
+      "y": 434,
+      "scale": 0.176,
+      "appear": 0.52
      },
      {
       "type": "asset",
       "name": "deer",
-      "x": 1520,
-      "y": 708,
-      "scale": 0.16,
-      "appear": 0.61
+      "x": 1600,
+      "y": 372,
+      "scale": 0.158,
+      "appear": 0.58
      },
      {
       "type": "asset",
       "name": "deer",
-      "x": 1680,
-      "y": 702,
-      "scale": 0.16,
-      "appear": 0.69
+      "x": 1750,
+      "y": 310,
+      "scale": 0.14,
+      "appear": 0.64
      },
      {
       "type": "asset",
       "name": "flat_rock",
-      "x": 700,
-      "y": 1050,
-      "scale": 1.0
+      "x": 1640,
+      "y": 900,
+      "scale": 0.32
      },
      {
       "type": "asset",
       "name": "komodo_bloated",
-      "x": 700,
-      "y": 940,
-      "scale": 0.8
+      "x": 1640,
+      "y": 880,
+      "scale": 0.25
      },
      {
       "type": "label",
       "text": "100",
-      "x": 1300,
-      "y": 480,
+      "x": 1640,
+      "y": 760,
       "size": 50,
       "bold": true,
-      "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.75
      },
      {
       "type": "doug",
-      "x": 1700,
-      "y": 945,
-      "scale": 0.36,
+      "x": 1800,
+      "y": 1020,
+      "scale": 0.24,
       "pose": "stand",
       "expression": "confused",
       "facing": "left"
@@ -55699,7 +55481,7 @@
       "text": "hi friend?",
       "tail": [
        450,
-       650
+       729
       ],
       "appear": 0.4
      },
@@ -55947,30 +55729,23 @@
      },
      {
       "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
       "name": "flat_rock",
-      "x": 1000,
-      "y": 990,
-      "scale": 1.0
+      "x": 340,
+      "y": 1180,
+      "scale": 2.0
      },
      {
       "type": "asset",
       "name": "komodo_bloated",
-      "x": 1000,
-      "y": 880,
-      "scale": 0.75
+      "x": 260,
+      "y": 1090,
+      "scale": 1.9
      },
      {
       "type": "doug",
-      "x": 1590,
-      "y": 904,
-      "scale": 0.5,
+      "x": 1700,
+      "y": 1180,
+      "scale": 1.2,
       "pose": "wave",
       "expression": "confused",
       "facing": "left"
@@ -55978,9 +55753,9 @@
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1700,
-      "y": 520,
-      "scale": 0.45,
+      "x": 1350,
+      "y": 330,
+      "scale": 0.5,
       "appear": 0.45
      },
      {
@@ -56503,30 +56278,24 @@
      },
      {
       "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
       "name": "flat_rock",
-      "x": 900,
-      "y": 990,
-      "scale": 1.0
+      "x": 1150,
+      "y": 1080,
+      "scale": 1.4
      },
      {
       "type": "asset",
       "name": "komodo_bloated",
-      "x": 900,
-      "y": 880,
-      "scale": 0.75
+      "x": 1150,
+      "y": 950,
+      "scale": 1.15,
+      "flip": true
      },
      {
       "type": "doug",
-      "x": 1650,
-      "y": 912,
-      "scale": 0.45,
+      "x": 330,
+      "y": 900,
+      "scale": 0.5,
       "pose": "thumbs_up",
       "expression": "smirk",
       "facing": "right"
@@ -56534,20 +56303,34 @@
      {
       "type": "wordart",
       "text": "FULL",
-      "x": 900,
+      "x": 1150,
       "y": 430,
-      "size": 110,
-      "boil": 0,
+      "size": 120,
       "appear": 0.6
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1150,
+       500
+      ],
+      "to": [
+       1180,
+       760
+      ],
+      "bend": 30,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.65
      },
      {
       "type": "label",
       "text": "NOT FRIENDLY",
-      "x": 900,
-      "y": 580,
+      "x": 600,
+      "y": 560,
       "size": 48,
       "bold": true,
-      "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.8
      },
@@ -59124,7 +58907,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 660,
+      "h": 1080,
       "fill": "#e0844a",
       "color": "#e0844a",
       "width": 0,
@@ -59132,264 +58915,55 @@
       "boil": 0
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        0,
-        640
-       ],
-       [
-        0,
-        550
-       ],
-       [
-        260,
-        490
-       ],
-       [
-        520,
-        570
-       ],
-       [
-        820,
-        510
-       ],
-       [
-        1120,
-        580
-       ],
-       [
-        1420,
-        500
-       ],
-       [
-        1700,
-        560
-       ],
-       [
-        1920,
-        520
-       ],
-       [
-        1920,
-        640
-       ]
-      ],
-      "fill": "#7a6440",
-      "color": "#000000",
-      "width": 3,
-      "smooth": false
-     },
-     {
-      "type": "rect",
-      "x": 0,
-      "y": 640,
-      "w": 1920,
-      "h": 440,
-      "fill": "#9c8452",
-      "color": "#9c8452",
-      "width": 0,
-      "outline": false,
-      "boil": 0
-     },
-     {
-      "type": "curve",
-      "points": [
-       [
-        -20,
-        640
-       ],
-       [
-        300,
-        634
-       ],
-       [
-        640,
-        644
-       ],
-       [
-        960,
-        636
-       ],
-       [
-        1280,
-        646
-       ],
-       [
-        1600,
-        636
-       ],
-       [
-        1940,
-        642
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "spray",
-      "x": 960,
-      "y": 900,
-      "r": 900,
-      "color": "#87703f",
-      "density": 0.02
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        76,
-        1000
-       ],
-       [
-        68,
-        970
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        90,
-        1000
-       ],
-       [
-        90,
-        962
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        104,
-        1000
-       ],
-       [
-        112,
-        970
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1816,
-        1025
-       ],
-       [
-        1808,
-        995
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1830,
-        1025
-       ],
-       [
-        1830,
-        987
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1844,
-        1025
-       ],
-       [
-        1852,
-        995
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
       "type": "asset",
       "name": "rainforest_tree",
-      "x": 1050,
-      "y": 1000,
-      "scale": 0.85
+      "x": 960,
+      "y": 2300,
+      "scale": 2.6
      },
      {
       "type": "asset",
       "name": "komodo_young",
-      "x": 1110,
-      "y": 520,
-      "scale": 0.35,
-      "rotate": -80,
-      "appear": 0.4
-     },
-     {
-      "type": "asset",
-      "name": "komodo_young",
-      "x": 1110,
-      "y": 800,
-      "scale": 0.6,
+      "x": 1010,
+      "y": 880,
+      "scale": 0.75,
       "rotate": -80,
       "appear": 0.25
      },
      {
       "type": "asset",
-      "name": "scientist",
-      "x": 520,
-      "y": 820,
-      "scale": 0.6
-     },
-     {
-      "type": "asset",
-      "name": "binoculars",
-      "x": 600,
-      "y": 640,
-      "scale": 0.4
+      "name": "komodo_young",
+      "x": 1000,
+      "y": 500,
+      "scale": 0.45,
+      "rotate": -80,
+      "appear": 0.4
      },
      {
       "type": "label",
       "text": "SMALLER = HIGHER",
       "x": 520,
-      "y": 380,
+      "y": 560,
       "size": 48,
       "bold": true,
-      "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.65
      },
      {
-      "type": "doug",
-      "x": 200,
-      "y": 938,
-      "scale": 0.34,
-      "pose": "stand",
-      "expression": "flat",
-      "facing": "right"
+      "type": "arrow",
+      "from": [
+       620,
+       900
+      ],
+      "to": [
+       620,
+       640
+      ],
+      "bend": -30,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.6
      },
      {
       "type": "label",
@@ -59916,43 +59490,35 @@
      },
      {
       "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
       "name": "rainforest_tree",
-      "x": 1050,
-      "y": 1000,
-      "scale": 0.85
+      "x": 1250,
+      "y": 1500,
+      "scale": 1.9
      },
      {
       "type": "asset",
       "name": "komodo_young",
-      "x": 1110,
-      "y": 600,
+      "x": 1350,
+      "y": 330,
       "scale": 0.45,
       "rotate": -80
      },
      {
       "type": "asset",
       "name": "komodo_dragon",
-      "x": 630,
-      "y": 1000,
-      "scale": 0.6,
-      "appear": 0.2
+      "x": 700,
+      "y": 1060,
+      "scale": 1.1
      },
      {
       "type": "arrow",
       "from": [
-       890,
-       900
+       1150,
+       820
       ],
       "to": [
-       1030,
-       640
+       1310,
+       420
       ],
       "bend": -40,
       "color": "#e0201b",
@@ -59962,9 +59528,9 @@
      },
      {
       "type": "doug",
-      "x": 300,
-      "y": 932,
-      "scale": 0.38,
+      "x": 220,
+      "y": 1000,
+      "scale": 0.3,
       "pose": "cower",
       "expression": "shock",
       "facing": "right"
@@ -60214,49 +59780,41 @@
      },
      {
       "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
       "name": "rainforest_tree",
-      "x": 1050,
-      "y": 1000,
-      "scale": 0.85
+      "x": 1250,
+      "y": 1500,
+      "scale": 1.9
      },
      {
       "type": "asset",
       "name": "komodo_young",
-      "x": 1110,
-      "y": 600,
+      "x": 1350,
+      "y": 330,
       "scale": 0.45,
       "rotate": -80
      },
      {
       "type": "asset",
       "name": "komodo_dragon",
-      "x": 630,
-      "y": 1000,
-      "scale": 0.6
+      "x": 700,
+      "y": 1060,
+      "scale": 1.1
      },
      {
       "type": "label",
       "text": "CANNIBALIZE",
-      "x": 480,
-      "y": 420,
-      "size": 56,
+      "x": 560,
+      "y": 460,
+      "size": 60,
       "bold": true,
-      "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.45
      },
      {
       "type": "doug",
-      "x": 250,
-      "y": 935,
-      "scale": 0.36,
+      "x": 220,
+      "y": 1000,
+      "scale": 0.3,
       "pose": "stand",
       "expression": "gritted",
       "facing": "right"
@@ -60505,57 +60063,49 @@
      },
      {
       "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
       "name": "rainforest_tree",
-      "x": 1050,
-      "y": 1000,
-      "scale": 0.85
+      "x": 1250,
+      "y": 1500,
+      "scale": 1.9
      },
      {
       "type": "asset",
       "name": "komodo_young",
-      "x": 1110,
-      "y": 600,
+      "x": 1350,
+      "y": 330,
       "scale": 0.45,
       "rotate": -80
      },
      {
       "type": "asset",
       "name": "komodo_dragon",
-      "x": 630,
-      "y": 1000,
-      "scale": 0.6
+      "x": 700,
+      "y": 1060,
+      "scale": 1.1
      },
      {
       "type": "label",
       "text": "TOO HEAVY TO CLIMB",
-      "x": 480,
-      "y": 400,
-      "size": 52,
+      "x": 560,
+      "y": 460,
+      "size": 56,
       "bold": true,
-      "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.35
      },
      {
       "type": "asset",
       "name": "red_x",
-      "x": 930,
-      "y": 830,
-      "scale": 0.35,
+      "x": 1180,
+      "y": 720,
+      "scale": 0.4,
       "appear": 0.6
      },
      {
       "type": "doug",
-      "x": 250,
-      "y": 935,
-      "scale": 0.36,
+      "x": 220,
+      "y": 1000,
+      "scale": 0.3,
       "pose": "stand",
       "expression": "flat",
       "facing": "right"
@@ -60601,7 +60151,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 660,
+      "h": 1080,
       "fill": "#e0844a",
       "color": "#e0844a",
       "width": 0,
@@ -60609,257 +60159,46 @@
       "boil": 0
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        0,
-        640
-       ],
-       [
-        0,
-        550
-       ],
-       [
-        260,
-        490
-       ],
-       [
-        520,
-        570
-       ],
-       [
-        820,
-        510
-       ],
-       [
-        1120,
-        580
-       ],
-       [
-        1420,
-        500
-       ],
-       [
-        1700,
-        560
-       ],
-       [
-        1920,
-        520
-       ],
-       [
-        1920,
-        640
-       ]
-      ],
-      "fill": "#7a6440",
-      "color": "#000000",
-      "width": 3,
-      "smooth": false
-     },
-     {
-      "type": "rect",
-      "x": 0,
-      "y": 640,
-      "w": 1920,
-      "h": 440,
-      "fill": "#9c8452",
-      "color": "#9c8452",
-      "width": 0,
-      "outline": false,
-      "boil": 0
-     },
-     {
-      "type": "curve",
-      "points": [
-       [
-        -20,
-        640
-       ],
-       [
-        300,
-        634
-       ],
-       [
-        640,
-        644
-       ],
-       [
-        960,
-        636
-       ],
-       [
-        1280,
-        646
-       ],
-       [
-        1600,
-        636
-       ],
-       [
-        1940,
-        642
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "spray",
-      "x": 960,
-      "y": 900,
-      "r": 900,
-      "color": "#87703f",
-      "density": 0.02
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        76,
-        1000
-       ],
-       [
-        68,
-        970
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        90,
-        1000
-       ],
-       [
-        90,
-        962
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        104,
-        1000
-       ],
-       [
-        112,
-        970
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1816,
-        1025
-       ],
-       [
-        1808,
-        995
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1830,
-        1025
-       ],
-       [
-        1830,
-        987
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1844,
-        1025
-       ],
-       [
-        1852,
-        995
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
       "type": "asset",
       "name": "rainforest_tree",
-      "x": 1050,
-      "y": 1000,
-      "scale": 0.85
+      "x": 960,
+      "y": 2300,
+      "scale": 2.6
      },
      {
       "type": "asset",
       "name": "komodo_young",
-      "x": 1110,
-      "y": 600,
-      "scale": 0.45,
+      "x": 1010,
+      "y": 760,
+      "scale": 0.7,
       "rotate": -80
      },
      {
       "type": "asset",
       "name": "komodo_young",
-      "x": 1110,
-      "y": 380,
-      "scale": 0.3,
+      "x": 1000,
+      "y": 420,
+      "scale": 0.42,
       "rotate": -80,
       "appear": 0.3
      },
      {
       "type": "asset",
       "name": "calendar",
-      "x": 600,
-      "y": 520,
-      "scale": 0.5,
+      "x": 480,
+      "y": 560,
+      "scale": 0.9,
       "appear": 0.45
      },
      {
       "type": "text",
       "text": "MONTHS",
-      "x": 600,
-      "y": 540,
-      "size": 24,
+      "x": 480,
+      "y": 578,
+      "size": 40,
       "color": "#000000",
       "bold": true,
-      "boil": 0,
       "appear": 0.45
-     },
-     {
-      "type": "doug",
-      "x": 250,
-      "y": 935,
-      "scale": 0.36,
-      "pose": "stand",
-      "expression": "flat",
-      "facing": "right"
      },
      {
       "type": "label",
@@ -61771,7 +61110,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 660,
+      "h": 1080,
       "fill": "#e0844a",
       "color": "#e0844a",
       "width": 0,
@@ -61779,259 +61118,51 @@
       "boil": 0
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        0,
-        640
-       ],
-       [
-        0,
-        550
-       ],
-       [
-        260,
-        490
-       ],
-       [
-        520,
-        570
-       ],
-       [
-        820,
-        510
-       ],
-       [
-        1120,
-        580
-       ],
-       [
-        1420,
-        500
-       ],
-       [
-        1700,
-        560
-       ],
-       [
-        1920,
-        520
-       ],
-       [
-        1920,
-        640
-       ]
-      ],
-      "fill": "#7a6440",
-      "color": "#000000",
-      "width": 3,
-      "smooth": false
-     },
-     {
-      "type": "rect",
-      "x": 0,
-      "y": 640,
-      "w": 1920,
-      "h": 440,
-      "fill": "#9c8452",
-      "color": "#9c8452",
-      "width": 0,
-      "outline": false,
-      "boil": 0
-     },
-     {
-      "type": "curve",
-      "points": [
-       [
-        -20,
-        640
-       ],
-       [
-        300,
-        634
-       ],
-       [
-        640,
-        644
-       ],
-       [
-        960,
-        636
-       ],
-       [
-        1280,
-        646
-       ],
-       [
-        1600,
-        636
-       ],
-       [
-        1940,
-        642
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "spray",
-      "x": 960,
-      "y": 900,
-      "r": 900,
-      "color": "#87703f",
-      "density": 0.02
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        76,
-        1000
-       ],
-       [
-        68,
-        970
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        90,
-        1000
-       ],
-       [
-        90,
-        962
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        104,
-        1000
-       ],
-       [
-        112,
-        970
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1816,
-        1025
-       ],
-       [
-        1808,
-        995
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1830,
-        1025
-       ],
-       [
-        1830,
-        987
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1844,
-        1025
-       ],
-       [
-        1852,
-        995
-       ]
-      ],
-      "color": "#6f5c34",
-      "width": 4
-     },
-     {
-      "type": "asset",
-      "name": "savanna_bush",
-      "x": 140,
-      "y": 680,
-      "scale": 0.5
-     },
-     {
       "type": "asset",
       "name": "rainforest_tree",
-      "x": 1050,
-      "y": 1000,
-      "scale": 0.85
-     },
-     {
-      "type": "asset",
-      "name": "komodo_dragon",
-      "x": 630,
-      "y": 1000,
-      "scale": 0.6
+      "x": 760,
+      "y": 2300,
+      "scale": 2.6
      },
      {
       "type": "asset",
       "name": "tree_branch",
-      "x": 1170,
-      "y": 420,
-      "scale": 0.4
-     },
-     {
-      "type": "asset",
-      "name": "komodo_young",
       "x": 1250,
-      "y": 412,
-      "scale": 0.5,
-      "flip": true,
-      "appear": 0.25
+      "y": 640,
+      "scale": 0.9
      },
      {
       "type": "doug",
-      "x": 930,
-      "y": 640,
-      "scale": 0.42,
+      "x": 1150,
+      "y": 760,
+      "scale": 0.55,
       "pose": "arms_up",
       "expression": "shock",
       "facing": "right"
      },
      {
       "type": "asset",
+      "name": "komodo_young",
+      "x": 1560,
+      "y": 615,
+      "scale": 0.75,
+      "flip": true,
+      "appear": 0.25
+     },
+     {
+      "type": "asset",
       "name": "insect",
       "x": 1700,
-      "y": 600,
-      "scale": 0.3,
-      "appear": 0.6
+      "y": 330,
+      "scale": 0.35,
+      "appear": 0.55
      },
      {
       "type": "asset",
       "name": "red_x",
       "x": 1700,
-      "y": 600,
-      "scale": 0.25,
+      "y": 330,
+      "scale": 0.3,
       "appear": 0.7
      },
      {
@@ -65807,21 +64938,91 @@
       "density": 0.006
      },
      {
+      "type": "line",
+      "points": [
+       [
+        500,
+        420
+       ],
+       [
+        620,
+        640
+       ]
+      ],
+      "color": "#2f6fd6",
+      "width": 34
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        620,
+        420
+       ],
+       [
+        500,
+        640
+       ]
+      ],
+      "color": "#2f6fd6",
+      "width": 34
+     },
+     {
       "type": "text",
-      "text": "Z  Z",
-      "x": 760,
-      "y": 560,
-      "size": 220,
+      "text": "Z",
+      "x": 560,
+      "y": 700,
+      "size": 56,
       "color": "#2f6fd6",
       "bold": true,
-      "boil": 0.2,
       "outline": "#000000",
-      "outline_width": 6
+      "outline_width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        800,
+        420
+       ],
+       [
+        920,
+        640
+       ]
+      ],
+      "color": "#2f6fd6",
+      "width": 34
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        920,
+        420
+       ],
+       [
+        800,
+        640
+       ]
+      ],
+      "color": "#2f6fd6",
+      "width": 34
+     },
+     {
+      "type": "text",
+      "text": "Z",
+      "x": 860,
+      "y": 700,
+      "size": 56,
+      "color": "#2f6fd6",
+      "bold": true,
+      "outline": "#000000",
+      "outline_width": 3
      },
      {
       "type": "label",
-      "text": "ALWAYS MALE",
-      "x": 760,
+      "text": "ZZ = ALWAYS MALE",
+      "x": 710,
       "y": 840,
       "size": 56,
       "bold": true,
@@ -65978,18 +65179,6 @@
       "appear": 0.75
      },
      {
-      "type": "doug",
-      "x": 1700,
-      "y": 600,
-      "scale": 0.34,
-      "pose": [
-       "swim1",
-       "swim2"
-      ],
-      "expression": "flat",
-      "facing": "left"
-     },
-     {
       "type": "label",
       "text": "DOUG DEATHS: 185",
       "x": 1590,
@@ -66086,22 +65275,6 @@
       "scale": 0.4
      },
      {
-      "type": "asset",
-      "name": "question_mark",
-      "x": 500,
-      "y": 420,
-      "scale": 0.4,
-      "appear": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "question_mark",
-      "x": 1400,
-      "y": 420,
-      "scale": 0.4,
-      "appear": 0.5
-     },
-     {
       "type": "label",
       "text": "OTHER ANIMALS",
       "x": 960,
@@ -66113,16 +65286,41 @@
       "appear": 0.4
      },
      {
-      "type": "doug",
-      "x": 1700,
-      "y": 600,
-      "scale": 0.34,
-      "pose": [
-       "swim1",
-       "swim2"
-      ],
-      "expression": "flat",
-      "facing": "left"
+      "type": "asset",
+      "name": "shark",
+      "x": 380,
+      "y": 900,
+      "scale": 0.5,
+      "silhouette": true,
+      "glow_r": 0,
+      "appear": 0.25
+     },
+     {
+      "type": "asset",
+      "name": "question_mark",
+      "x": 380,
+      "y": 760,
+      "scale": 0.35,
+      "appear": 0.3
+     },
+     {
+      "type": "asset",
+      "name": "shark",
+      "x": 1560,
+      "y": 920,
+      "scale": 0.45,
+      "flip": true,
+      "silhouette": true,
+      "glow_r": 0,
+      "appear": 0.5
+     },
+     {
+      "type": "asset",
+      "name": "question_mark",
+      "x": 1560,
+      "y": 790,
+      "scale": 0.35,
+      "appear": 0.55
      },
      {
       "type": "label",
@@ -66411,8 +65609,8 @@
       "h": 120,
       "text": "hello?",
       "tail": [
-       560,
-       640
+       610,
+       739
       ],
       "appear": 0.45
      },
@@ -68662,23 +67860,19 @@
       "scale": 0.5
      },
      {
-      "type": "spray",
-      "x": 1350,
-      "y": 880,
-      "r": 330,
-      "color": "#e0201b",
-      "density": 0.3,
-      "appear": 0.4
-     },
-     {
       "type": "asset",
       "name": "megalania",
       "x": 1350,
       "y": 990,
       "scale": 0.5,
       "silhouette": true,
-      "glow_r": 0,
-      "appear": 0.4
+      "glow_r": 1200,
+      "appear": 0.4,
+      "glow": "#e0201b",
+      "rim": {
+       "color": "#e0201b",
+       "px": 4
+      }
      },
      {
       "type": "asset",
@@ -68974,21 +68168,18 @@
       "scale": 0.5
      },
      {
-      "type": "spray",
-      "x": 1250,
-      "y": 880,
-      "r": 330,
-      "color": "#e0201b",
-      "density": 0.35
-     },
-     {
       "type": "asset",
       "name": "megalania",
       "x": 1250,
       "y": 990,
       "scale": 0.5,
       "silhouette": true,
-      "glow_r": 0
+      "glow_r": 1200,
+      "glow": "#e0201b",
+      "rim": {
+       "color": "#e0201b",
+       "px": 4
+      }
      },
      {
       "type": "asset",
@@ -72878,8 +72069,8 @@
       "h": 120,
       "text": "I can wait too",
       "tail": [
-       780,
-       640
+       830,
+       686
       ],
       "appear": 0.55
      },
@@ -72925,11 +72116,30 @@
       "y": 0,
       "w": 1920,
       "h": 660,
-      "fill": "#f2a24a",
-      "color": "#f2a24a",
+      "fill": "#1b2f5a",
+      "color": "#1b2f5a",
       "width": 0,
       "outline": false,
       "boil": 0
+     },
+     {
+      "type": "circle",
+      "x": 260,
+      "y": 230,
+      "r": 60,
+      "fill": "#fff3b0",
+      "color": "#fff3b0",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 250,
+      "r": 900,
+      "color": "#ffffff",
+      "density": 0.004
      },
      {
       "type": "poly",
@@ -72975,7 +72185,7 @@
         640
        ]
       ],
-      "fill": "#9a7a3a",
+      "fill": "#22324a",
       "color": "#000000",
       "width": 3,
       "smooth": false
@@ -72986,8 +72196,8 @@
       "y": 640,
       "w": 1920,
       "h": 440,
-      "fill": "#b8913a",
-      "color": "#b8913a",
+      "fill": "#2b3d33",
+      "color": "#2b3d33",
       "width": 0,
       "outline": false,
       "boil": 0
@@ -73032,7 +72242,7 @@
       "x": 960,
       "y": 900,
       "r": 900,
-      "color": "#a07e32",
+      "color": "#3b5247",
       "density": 0.02
      },
      {
@@ -73047,7 +72257,7 @@
         970
        ]
       ],
-      "color": "#866a2a",
+      "color": "#3e5446",
       "width": 4
      },
      {
@@ -73062,7 +72272,7 @@
         962
        ]
       ],
-      "color": "#866a2a",
+      "color": "#3e5446",
       "width": 4
      },
      {
@@ -73077,7 +72287,7 @@
         970
        ]
       ],
-      "color": "#866a2a",
+      "color": "#3e5446",
       "width": 4
      },
      {
@@ -73092,7 +72302,7 @@
         995
        ]
       ],
-      "color": "#866a2a",
+      "color": "#3e5446",
       "width": 4
      },
      {
@@ -73107,7 +72317,7 @@
         987
        ]
       ],
-      "color": "#866a2a",
+      "color": "#3e5446",
       "width": 4
      },
      {
@@ -73122,7 +72332,7 @@
         995
        ]
       ],
-      "color": "#866a2a",
+      "color": "#3e5446",
       "width": 4
      },
      {
@@ -73170,165 +72380,6 @@
       "y": 1000,
       "scale": 0.7,
       "flip": true
-     },
-     {
-      "type": "circle",
-      "x": 1500,
-      "y": 420,
-      "r": 60,
-      "fill": "#ffe24a",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1574,
-        420
-       ],
-       [
-        1604,
-        420
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1560,
-        463
-       ],
-       [
-        1584,
-        481
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1523,
-        490
-       ],
-       [
-        1532,
-        519
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1477,
-        490
-       ],
-       [
-        1468,
-        519
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1440,
-        463
-       ],
-       [
-        1416,
-        481
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1426,
-        420
-       ],
-       [
-        1396,
-        420
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1440,
-        377
-       ],
-       [
-        1416,
-        359
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1477,
-        350
-       ],
-       [
-        1468,
-        321
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1523,
-        350
-       ],
-       [
-        1532,
-        321
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1560,
-        377
-       ],
-       [
-        1584,
-        359
-       ]
-      ],
-      "color": "#e0a000",
-      "width": 6
      },
      {
       "type": "label",
@@ -74575,18 +73626,28 @@
       "type": "asset",
       "name": "wait_stopwatch",
       "x": 960,
-      "y": 400,
-      "scale": 0.8
+      "y": 420,
+      "scale": 1.5
      },
      {
       "type": "text",
-      "text": "4,000,000 YR",
+      "text": "4,000,000",
       "x": 960,
-      "y": 416,
-      "size": 20,
+      "y": 430,
+      "size": 50,
       "color": "#000000",
       "bold": true,
-      "boil": 0
+      "boil": 0,
+      "max_width": 220
+     },
+     {
+      "type": "text",
+      "text": "YEARS",
+      "x": 960,
+      "y": 490,
+      "size": 34,
+      "color": "#000000",
+      "bold": true
      },
      {
       "type": "label",
