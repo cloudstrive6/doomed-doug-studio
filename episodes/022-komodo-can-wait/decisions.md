@@ -74,5 +74,5 @@
 - Series bible: row 022 updated to the final title and status, with the formula note corrected to T2. The counter stays at 186.
 - Watch: day-7 CTR. If it's below the channel median, swap to thumbnail B after the buffalo tile is redrawn (see the thumbnail pick above).
 
+- Showrunner: QC exit 1 at workflow time, re-run exits 0 with no problems. Main PASS; Shorts FAIL (fixes applied, .rerender shorts).
 FINAL: APPROVED
-- Showrunner: QC reported exit 1 at workflow time but re-run exits 0 with no problems. Main PASS; Shorts FAIL (end-card fixes applied, .rerender shorts requested).
