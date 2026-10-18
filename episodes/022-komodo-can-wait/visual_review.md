@@ -1,6 +1,47 @@
 # Visual review: 022-komodo-can-wait
 
-## Post-render review (2026-10-18)
+## Post-render Round 2: re-rendered Shorts, main spot-check (2026-10-18)
+
+Scope: I viewed `build/shorts/short01-03_preview.png` and extracted frames from each mp4 at 20 s and at 8, 6, 4,
+2 and 0.3 s before the end. I also took full-res crops of the short01 and short03 end cards, re-checked all 31
+`build/samples`, `qc.json`, both thumbnails, and compared the result against keyframe s282. Nothing was rendered.
+
+### Main video: still PASS
+`final.mp4` and the thumbnail are unchanged since the post-render PASS (both 17:58). `qc.json` reports no problems.
+All 31 samples are clean: no black, frozen or glitched frames, the HUD steps 178 to 185, and Doug is on-model
+throughout. The thumbnail ("IT CAN WAIT", flat Komodo with its tongue reaching tiny whistling Doug) reads at feed
+size and fits "How the Komodo Dragon Kills Doug Without Chasing Him".
+
+### Shorts (51.9 s / 50.2 s / 51.0 s)
+The titles, subtitles, @DoomedDoug tag and down arrow are fine on all three, and nothing is cut off at the sides.
+1. **short01: FIXED.** The outro now ends "...it followed him anyway. How far is in the full video below." The card
+   asks "HOW LONG DID IT FOLLOW DOUG?", which the Short does not answer. The Komodo silhouette (red outline, legs,
+   long tail) reads as the lizard. Advisory: the "???" still covers the head and front half, and the silhouette is
+   only about 360 px wide.
+2. **short02: FIXED.** The `picnic_basket` silhouette (handle and box) reads instantly. It matches "WHAT ELSE DID
+   THE DRAGON EAT?" and the "peace treaty" outro, and the Short does not answer it.
+3. **short03: STILL FAILS (silhouette can't be recognised).** The question "HOW LONG DID DOUG LAST?" is right, and the
+   Short does not answer it. But in solid black the side-view `deck_chair` is just a thin diagonal bar with a forked
+   blob at its foot. Without the striped canvas it reads as a broken branch or a slingshot, not a chair. My round-1
+   suggestion was wrong. Its slim frame does not survive being blacked out.
+
+### Required fix
+1. **short03:** set `tease_asset: wait_stopwatch` and keep `tease_from: s282` (`wait_stopwatch` is in s282). This
+   goes to the director (`shorts.json`). A round body with a crown button is recognisable at phone size even
+   in silhouette. It answers "HOW LONG?" directly and ties to "outwait" in the outro. The "9 HOURS" answer stays
+   off the card. Keep `end_card` and `outro` as they are.
+2. Advisory (director/editor, carried over): move the "???" above the silhouette or enlarge it. This matters most on
+   short01, where it hides the Komodo's head.
+
+Re-render only short03 (`python -m studio shorts render 022-komodo-can-wait`). Round 3 only needs to confirm the
+short03 end card.
+
+VERDICT (main): PASS
+VERDICT (shorts): FAIL
+
+---
+
+## Post-render review, Round 1 (2026-10-18) (history)
 
 VERDICT (main): PASS
 VERDICT (shorts): FAIL

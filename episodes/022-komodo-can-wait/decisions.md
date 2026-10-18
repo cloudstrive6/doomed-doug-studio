@@ -76,3 +76,6 @@
 
 - Showrunner: QC exit 1 at workflow time, re-run exits 0 with no problems. Main PASS; Shorts FAIL (fixes applied, .rerender shorts).
 FINAL: APPROVED
+
+- Showrunner round 2: QC OK (no problems). VERDICT (main): PASS; VERDICT (shorts): FAIL (short03 end-card silhouette unreadable; short01/02 fixed). Shorts held back; suggested fix: short03 tease_asset wait_stopwatch. Main video stays qc_passed.
+FINAL: APPROVED
