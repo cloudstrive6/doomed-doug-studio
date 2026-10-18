@@ -15,7 +15,24 @@
       "publish_at": "2026-10-18T13:00:00Z",
       "related_video": "NyDbJUUWj0M",
       "related_set": true,
-      "uploaded_at": "2026-10-09T19:12:02+00:00"
+      "uploaded_at": "2026-10-09T19:12:02+00:00",
+      "social": {
+        "instagram_error": "Meta API 500: b'{\"error\":{\"code\":1,\"message\":\"Please reduce the amount of data you\\'re asking for, then retry your request\"}}'",
+        "facebook": {
+          "id": "1739895053747234",
+          "url": "https://www.facebook.com/reel/1739895053747234"
+        },
+        "tiktok": {
+          "id": "v_pub_file~v2-1.7697992550476695604",
+          "url": "https://www.tiktok.com/@doomeddoug"
+        },
+        "instagram_story": {
+          "id": "17878186557567944"
+        },
+        "facebook_story": {
+          "id": "2057209601665249"
+        }
+      }
     },
     {
       "id": "short02",
