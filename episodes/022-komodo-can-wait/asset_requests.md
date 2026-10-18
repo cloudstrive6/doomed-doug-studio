@@ -47,12 +47,14 @@ right unless noted; the shotlist flips as needed.
 - Facing right. Anchor bottom-centre (belly on y=0). About 940 x 150 (x -470..470, y -150..0).
 - Shots (20): s002-s003, s005, s013-s021, s023-s024, s028, s056, s077, s122, s237, s284.
 
+- **DONE (illustrator):** `assets/library/komodo_log.json`, preview `assets/previews/022-komodo-can-wait-assets.png`. wobble/boil 0; eye at local (+362,-84); bbox x -470..470, y -142..0.
 ### komodo_log_eye
 - What: exactly `komodo_log` (same geometry, `wobble`/`boil` identical so the swap is seamless) with **one eye open**: small amber eye,
   black slit-ish pupil, heavy brow. Like `croc_log` / `croc_log_eye`.
 - Facing right. Same bbox and anchor as `komodo_log`.
 - Shots (11): s025-s026, s162-s163, s229-s230, s279-s283.
 
+- **DONE (illustrator):** `assets/library/komodo_log_eye.json`, preview `assets/previews/022-komodo-can-wait-assets.png`. same geometry as komodo_log (wobble/boil 0), swap at the same x/y/scale/flip.
 ### komodo_head
 - What: head and neck of an adult in profile with the **long forked yellow tongue flicked out** (tongue tips clearly spread). Used
   big for The Tongue (scale 1.4-1.6), small (0.4-0.5) in crowds of heads around an off-frame meal, peeking over a ridge, and
@@ -63,6 +65,7 @@ right unless noted; the shotlist flips as needed.
 - Facing right. Anchor centre. About 560 x 220 (x -280..280, y -110..110), tongue tips at about x +280.
 - Shots (33): s053, s055, s057-s066, s069-s070, s076-s077, s123, s125-s130, s132-s133, s139-s141, s143, s158-s160, s165.
 
+- **DONE (illustrator):** `assets/library/komodo_head.json`, preview `assets/previews/022-komodo-can-wait-assets.png`. tongue tips at (+282,-12) and (+282,+48); eye (+30,-62); bbox x -280..282, y -106..108.
 ### komodo_mouth_teeth
 - What: close-up of the dragon's mouth slightly open, showing a row of **curved, flattened, serrated teeth** along the jaws.
 - Look: the front half of the head, very large, jaws open about 20 degrees, dark `#7a0d0d` mouth interior (no red on the teeth),
@@ -70,6 +73,7 @@ right unless noted; the shotlist flips as needed.
 - Facing right. Anchor centre. About 900 x 500.
 - Shots (4): s029, s033-s034, s040.
 
+- **DONE (illustrator):** `assets/library/komodo_mouth_teeth.json`, preview `assets/previews/022-komodo-can-wait-assets.png`. bbox x -450..446, y -250..252; head continues off the left edge.
 ### komodo_tooth
 - What: one tooth, enlarged, for the 2024 iron-coating fact.
 - Look: a flattened backward-curved blade, cream `#f1ead6`, point down, serrated back edge, with a **clear orange `#e07b2a` stripe
@@ -77,30 +81,35 @@ right unless noted; the shotlist flips as needed.
 - Point down. Anchor centre. About 260 x 420.
 - Shots (5): s035-s039.
 
+- **DONE (illustrator):** `assets/library/komodo_tooth.json`, preview `assets/previews/022-komodo-can-wait-assets-b.png`. bbox x -118..118, y -206..206.
 ### komodo_skull
 - What: textbook-style side view of a Komodo dragon skull (Fry et al. 2009 model). **Not** the 010 `komodo_head_scan` venom diagram.
 - Look: long, fairly light cream bone `#efe6d0` skull with grey shading, large eye socket, long narrow snout, row of small curved teeth.
 - Facing right. Anchor centre. About 600 x 260 (same length as `crocodile_skull` so the two read as "same size").
 - Shots (3): s041-s043.
 
+- **DONE (illustrator):** `assets/library/komodo_skull.json`, preview `assets/previews/022-komodo-can-wait-assets-b.png`. about 600x220 (x -300..300, y -118..102), kept lower than the croc on purpose.
 ### crocodile_skull
 - What: saltwater crocodile skull, side view, for the 6.5x bite comparison.
 - Look: same cream bone palette, much deeper, heavier and broader jaw, big conical teeth, thick jaw muscle attachment area.
 - Facing right. Anchor centre. About 600 x 220.
 - Shots (2): s042-s043.
 
+- **DONE (illustrator):** `assets/library/crocodile_skull.json`, preview `assets/previews/022-komodo-can-wait-assets-b.png`. about 610x240 (x -306..302, y -116..122).
 ### komodo_swim
 - What: a dragon swimming at the surface: only the head and a low line of back and tail above the waterline.
 - Look: `komodo_dragon` colours; head up, nostrils clear, a few ripple lines and a small white wake at the head. Draws on `#3a9ad9`.
 - Facing right. Anchor = waterline centre (y=0 is the water surface). About 700 wide, up to 110 above and 20 below the line.
 - Shots (5): s101, s104-s105, s110-s111.
 
+- **DONE (illustrator):** `assets/library/komodo_swim.json`, preview `assets/previews/022-komodo-can-wait-assets.png`. drawn for #3a9ad9; wake reaches x +432; y -70..20.
 ### komodo_rearing_pair
 - What: two large males in **ritual combat**: reared up on their hind legs and tails, chest to chest, forelimbs gripping each other.
 - Look: both match `komodo_dragon`; mouths closed, no wounds, no bites. Dust puffs at their feet.
 - Facing: the pair faces each other (left one faces right). Anchor bottom-centre (feet on y=0). About 700 x 560.
 - Shots (1): s138.
 
+- **DONE (illustrator):** `assets/library/komodo_rearing_pair.json`, preview `assets/previews/022-komodo-can-wait-assets.png`. bbox about x -352..352, y -560..0; left one holds its head higher.
 ### komodo_bloated
 - What: a heavy, bloated, full dragon basking flat on a warm rock after a meal (The Meal, The Fast, the closing).
 - Look: `komodo_dragon` with a visibly rounder, sagging belly that spreads on the rock, legs splayed out flat, chin down, eyes
@@ -108,6 +117,7 @@ right unless noted; the shotlist flips as needed.
 - Facing right. Anchor bottom-centre. About 960 x 200.
 - Shots (25): s168, s177-s182, s191, s193, s196-s197, s201-s212, s277-s278.
 
+- **DONE (illustrator):** `assets/library/komodo_bloated.json`, preview `assets/previews/022-komodo-can-wait-assets.png`. bbox x -480..482, y -200..0.
 ### komodo_young
 - What: a young dragon (hatchling to juvenile). Used on the ground, rotated about -80 degrees climbing a trunk, sitting on a branch, and
   as the "four healthy young".
@@ -116,6 +126,7 @@ right unless noted; the shotlist flips as needed.
 - Facing right. Anchor bottom-centre (feet on y=0). About 420 x 100 (x -210..210). Keep the silhouette bold at scale 0.25.
 - Shots (24): s114, s137, s214-s217, s220-s230, s232, s234, s242, s245, s249-s250, s255.
 
+- **DONE (illustrator):** `assets/library/komodo_young.json`, preview `assets/previews/022-komodo-can-wait-assets.png`. bbox x -212..214, y -72..0; 6-unit outline holds at 0.25.
 ### megalania
 - What: Megalania (*Varanus priscus*), the giant extinct Australian monitor. First shown as a silhouette (red glow, then full).
 - Look: same body plan as `komodo_dragon` but **drawn at the same unit scale and about 1.8x as long and much bulkier**: deeper head,
@@ -123,11 +134,13 @@ right unless noted; the shotlist flips as needed.
 - Facing right. Anchor bottom-centre. About 1700 x 380 (x -850..850, y -380..0). SIL-safe outline (one closed shape).
 - Shots (4): s263-s266 (s263-s264 as `silhouette`).
 
+- **DONE (illustrator):** `assets/library/megalania.json`, preview `assets/previews/022-komodo-can-wait-assets-megalania.png`. bbox x -817..868, y -376..0; SIL-safe; use glow_r ~1200 for the silhouette.
 ### megalania_grey
 - What: exactly `megalania` (same geometry) in flat greys `#9a9a9a` / `#7d7d7d`, outline `#5a5a5a`, for "gone" / extinct.
 - Same bbox and anchor.
 - Shots (3): s267-s268, s277.
 
+- **DONE (illustrator):** `assets/library/megalania_grey.json`, preview `assets/previews/022-komodo-can-wait-assets-megalania.png`. same geometry as megalania.
 ## Other creatures
 
 ### water_buffalo
@@ -137,33 +150,39 @@ right unless noted; the shotlist flips as needed.
 - Facing right. Anchor bottom-centre. About 700 x 460.
 - Shots (18): s002, s144-s149, s152-s157, s161, s164-s167.
 
+- **DONE (illustrator):** `assets/library/water_buffalo.json`, preview `assets/previews/022-komodo-can-wait-assets-b.png`. bbox about x -342..356, y -462..0.
 ### wild_boar
 - What: a wild boar (Sunda/Flores type).
 - Look: bristly dark grey-brown body, crest of longer bristles along the spine, long snout with small tusks, short legs, thin tail.
 - Facing right. Anchor bottom-centre. About 420 x 240.
 - Shots (5): s002, s016, s151, s174, s195.
 
+- **DONE (illustrator):** `assets/library/wild_boar.json`, preview `assets/previews/022-komodo-can-wait-assets-b.png`. bbox about x -220..223, y -272..0.
 ### smilodon
 - What: a sabre-toothed cat (head and shoulders is fine), for "compared the method to sharks and sabre-toothed cats".
 - Look: tawny `#c9944a` big cat, darker back, long curved upper canines showing past the closed lower jaw. No blood.
 - Facing left (toward the shark on the left). Anchor centre. About 600 x 520.
 - Shots (2): s045-s046.
 
+- **DONE (illustrator):** `assets/library/smilodon.json`, preview `assets/previews/022-komodo-can-wait-assets-b.png`. faces left; bbox about x -336..256, y -266..258 (ear tip slightly above the spec box).
 ## Nests and eggs
 
 ### nest_mound
+- **DONE** (illustrator): `assets/library/nest_mound.json`, preview `assets/previews/022-komodo-can-wait-props.png (+ on scene backgrounds: 022-komodo-can-wait-props-onbg.png)`.
 - What: a Komodo nest mound of scraped earth (also used empty as the **decoy nest**).
 - Look: low domed heap of brown earth `#8a6a4a` with darker shading, a few twigs and dry leaves, one dug opening at the front.
 - Anchor bottom-centre. About 520 x 170.
 - Shots (8): s114, s218-s219, s236, s252-s255.
 
 ### komodo_eggs
+- **DONE** (illustrator): `assets/library/komodo_eggs.json`, preview `assets/previews/022-komodo-can-wait-props.png (+ on scene backgrounds: 022-komodo-can-wait-props-onbg.png)`.
 - What: a clutch of Komodo eggs placed in front of the nest mound.
 - Look: about 8 visible **leathery white elongated eggs** (`#f4f1e8`, grey shading), in a shallow scrape, slightly dented and matte.
 - Anchor bottom-centre. About 260 x 90.
 - Shots (8): s218-s219, s236, s240, s245, s247-s248, s252.
 
 ### komodo_eggs_hatching
+- **DONE** (illustrator): `assets/library/komodo_eggs_hatching.json`, preview `assets/previews/022-komodo-can-wait-props.png (+ on scene backgrounds: 022-komodo-can-wait-props-onbg.png)`.
 - What: the same clutch hatching: torn leathery shells, three young dragon heads and forelimbs pushing out.
 - Look: same footprint as `komodo_eggs`; the young are the `komodo_young` design (lean, hard narrow eyes, no cute faces).
 - Anchor bottom-centre. About 260 x 110.
@@ -172,24 +191,28 @@ right unless noted; the shotlist flips as needed.
 ## Props and places
 
 ### placard
+- **DONE** (illustrator): `assets/library/placard.json`, preview `assets/previews/022-komodo-can-wait-props.png (+ on scene backgrounds: 022-komodo-can-wait-props-onbg.png)`.
 - What: Doug's handheld protest sign for "MORAL SUPPORT".
 - Look: plain white card board with a black outline on a light wooden stick. **Leave the card blank**: the shotlist prints the text.
 - Anchor = grip point at the bottom of the stick (0,0); card x -150..150, y -360..-200 (text centre at (0,-280)).
 - Shots (4): s164-s167 (lying on the grass, rotated, in s166-s167).
 
 ### signboard
+- **DONE** (illustrator): `assets/library/signboard.json`, preview `assets/previews/022-komodo-can-wait-props.png (+ on scene backgrounds: 022-komodo-can-wait-props-onbg.png)`.
 - What: a zoo entrance sign on two wooden posts (CHESTER ZOO, LONDON ZOO).
 - Look: cream `#e8dcc0` board with a dark frame on two brown posts. **Leave the board blank** (text centre at (0,-265)).
 - Anchor bottom-centre. About 440 x 330.
 - Shots (4): s239-s242.
 
 ### big_water_bottle
+- **DONE** (illustrator): `assets/library/big_water_bottle.json`, preview `assets/previews/022-komodo-can-wait-props.png (+ on scene backgrounds: 022-komodo-can-wait-props-onbg.png)`.
 - What: a big two-litre plastic bottle of water (15 in a row = 31 kg).
 - Look: clear pale-blue plastic, blue cap, water to the shoulder, plain white label band (no brand).
 - Anchor bottom-centre. About 110 x 330.
 - Shots (1): s175 (fifteen copies).
 
 ### stick_cyclist
+- **DONE** (illustrator): `assets/library/stick_cyclist.json`, preview `assets/previews/022-komodo-can-wait-props.png (+ on scene backgrounds: 022-komodo-can-wait-props-onbg.png)`.
 - What: a city commuter cycling at an easy pace (Copenhagen comparison).
 - Look: crude tier like `scientist` (5 px lines, big round head, grey crescent, no red cap), `auto_ink`; plain upright city bike with a
   basket, relaxed face.
@@ -197,30 +220,35 @@ right unless noted; the shotlist flips as needed.
 - Shots (1): s011.
 
 ### picnic_basket
+- **DONE** (illustrator): `assets/library/picnic_basket.json`, preview `assets/previews/022-komodo-can-wait-props.png (+ on scene backgrounds: 022-komodo-can-wait-props-onbg.png)`.
 - What: a wicker picnic basket for Doug's peace-treaty picnic.
 - Look: tan woven basket `#c9944a` with crosshatch weave, two hinged lids, a red-and-white gingham cloth poking out, arched handle.
 - Anchor bottom-centre. About 220 x 180.
 - Shots (2): s184-s185.
 
 ### flower_bouquet
+- **DONE** (illustrator): `assets/library/flower_bouquet.json`, preview `assets/previews/022-komodo-can-wait-props.png (+ on scene backgrounds: 022-komodo-can-wait-props-onbg.png)`.
 - What: the bunch of flowers Doug brings to the nest.
 - Look: 5-6 simple flowers (pink, yellow, white) on green stems tied with a red ribbon.
 - Anchor = grip point at the bottom of the stems (0,0); flowers up to y -200, about 120 wide.
 - Shots (4): s252-s255.
 
 ### boulder
+- **DONE** (illustrator): `assets/library/boulder.json`, preview `assets/previews/022-komodo-can-wait-props.png (+ on scene backgrounds: 022-komodo-can-wait-props-onbg.png)`.
 - What: the big rock Doug hides behind (The Tongue); the cap sits on top after death 180.
 - Look: grey-brown `#7a6a58` volcanic boulder, lit upper-left, darker lower-right, a few cracks, dusty base. No face, no body shapes.
 - Anchor bottom-centre. About 420 x 330, with a **flat spot on top at (0,-330)** for the cap.
 - Shots (5): s073-s077.
 
 ### flat_rock
+- **DONE** (illustrator): `assets/library/flat_rock.json`, preview `assets/previews/022-komodo-can-wait-props.png (+ on scene backgrounds: 022-komodo-can-wait-props-onbg.png)`.
 - What: the low warm rock slab dragons bask on, and the rock Doug sets his folding chair on in the boss.
 - Look: wide, low grey-tan `#8a7a6a` slab with a sun-lit flat top and darker front face, a few cracks.
 - Anchor bottom-centre. About 900 x 120, **flat top surface at y -110** (dragons and the chair stand there).
 - Shots (25): s177-s181, s191, s193, s196-s197, s201, s203, s205-s212, s279-s283, s288.
 
 ### komodo_np_map
+- **DONE** (illustrator): `assets/library/komodo_np_map.json`, preview `assets/previews/022-komodo-can-wait-map.png`.
 - What: map of Komodo National Park in the `world_map` style (flat green `#6cbf5a` land, dark green outline, light-blue sea, black frame,
   no labels): Komodo Island, Rinca, the small islands between (Padar, Gili Motang, Nusa Kode) and the west end of Flores, with the east tip
   of Sumbawa at the far left edge.
@@ -231,6 +259,7 @@ right unless noted; the shotlist flips as needed.
 - Shots (9): s006-s007, s106-s109, s274-s276.
 
 ### bread_knife
+- **DONE** (illustrator): `assets/library/bread_knife.json`, preview `assets/previews/022-komodo-can-wait-props.png (+ on scene backgrounds: 022-komodo-can-wait-props-onbg.png)`.
 - What: a serrated bread knife for "serrated along the edges like a bread knife".
 - Look: long steel blade `#c9ced4` with a clearly scalloped serrated edge, black handle with rivets, lying horizontally, blade to the
   right. No blood.

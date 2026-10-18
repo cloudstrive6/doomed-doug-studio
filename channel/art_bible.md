@@ -281,6 +281,9 @@ lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008
   At y 250-280 and size 120-160, the tops land in the counter zone and butt against the box (010: 9 title cards). Keep the sun/moon off the title line.
 - **Second meter under the counter (from 013 "DISTANCE TO HIPPO")**: a size-28 `label` at (1590, 238). It pushes the reserved zone
   down to y 260, so title glyph tops and wordart must stay at y ≥ 290 wherever they overlap x 1300-1860 (013 s150, s163, s195, s219).
+  022 THE WAIT uses `wait_stopwatch` at 0.16; the label is centred, so move the icon left as the value grows (icon right edge ~30 px
+  left of the label box). Big `wait_stopwatch` prop: face centre (0,+20) x scale; overlay text must keep half-width under ~85 local
+  units (text px width / scale ≤ 170) or it runs over the 3 and 9 ticks.
 - **Section header cards (from 013)**: spoken, non-item headers ("FAR AWAY.", "ON LAND.", "IN THE WATER.") are white `#ffffff`
   text with an 8 px black outline, `topbar: false`, about size 140. Item title cards stay red. Never use white for an item name
   (the Lake Nyos exception aside).
@@ -299,6 +302,9 @@ lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008
 arm lines `#e0201b`, three tiny white peel flakes on the front of the face. Cap, eyes, head shape and legs unchanged.
 `helmet` is the scuba bubble (a pale-blue ring round the head), so use it **underwater only**. On dry land it reads as a fishbowl or a
 halo, and a halo on a living Doug muddles the death grammar (012 cave shots). Hard-hat cavers are a separate asset (`caver`).
+`bandage` (022): a short white `#ffffff` ankle wrap of 3 slanted turns with a thin grey `#8a8a8a` outline, on the **front leg** just
+above the foot; it follows the leg in every pose (walk loop, run, sit, `on_back`) and stays white with grey line on night scenes.
+Survival marker for a bite he walked away from: never red, never a wound.
 
 ## Never
 Realistic gore, blood pools, exposed organs, dismemberment; realistic (non-MS-Paint) art; changing Doug's design;

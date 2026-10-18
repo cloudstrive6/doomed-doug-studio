@@ -1,0 +1,315 @@
+{
+ "name": "signboard",
+ "description": "Zoo entrance sign: blank cream #e8dcc0 board in a dark brown wooden frame with nail heads, on two brown posts planted in the ground with grass tufts at the feet. Anchor bottom-centre (posts end on y=0), 440x340 (x -220..220, y -340..0). Board is BLANK: text centre (0,-265), clear area 400x95.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "sign",
+  "zoo",
+  "place",
+  "022"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -3,
+   "rx": 215,
+   "ry": 9,
+   "fill": "#9c8a62",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -181,
+   "y": -340,
+   "w": 32,
+   "h": 340,
+   "fill": "#8a5a2e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -161,
+   "y": -336,
+   "w": 10,
+   "h": 334,
+   "fill": "#6e4422",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -172,
+     -190
+    ],
+    [
+     -171,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#5a3a1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -167,
+     -170
+    ],
+    [
+     -166,
+     -110
+    ]
+   ],
+   "width": 2,
+   "color": "#5a3a1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -174,
+     -30
+    ],
+    [
+     -183,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#5e7a2a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -155,
+     -24
+    ],
+    [
+     -143,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#5e7a2a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -166,
+     -36
+    ],
+    [
+     -164,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#5e7a2a"
+  },
+  {
+   "type": "rect",
+   "x": 149,
+   "y": -340,
+   "w": 32,
+   "h": 340,
+   "fill": "#8a5a2e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 169,
+   "y": -336,
+   "w": 10,
+   "h": 334,
+   "fill": "#6e4422",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     158,
+     -190
+    ],
+    [
+     159,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#5a3a1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     163,
+     -170
+    ],
+    [
+     164,
+     -110
+    ]
+   ],
+   "width": 2,
+   "color": "#5a3a1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     156,
+     -30
+    ],
+    [
+     147,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#5e7a2a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     175,
+     -24
+    ],
+    [
+     187,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#5e7a2a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     164,
+     -36
+    ],
+    [
+     166,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#5e7a2a"
+  },
+  {
+   "type": "rect",
+   "x": -220,
+   "y": -330,
+   "w": 440,
+   "h": 130,
+   "fill": "#5a3a1e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -204,
+   "y": -316,
+   "w": 408,
+   "h": 102,
+   "fill": "#e8dcc0",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -204,
+     -228
+    ],
+    [
+     204,
+     -228
+    ],
+    [
+     204,
+     -214
+    ],
+    [
+     -204,
+     -214
+    ]
+   ],
+   "fill": "#d8caa8",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -212,
+   "y": -322,
+   "rx": 3.5,
+   "ry": 3.5,
+   "fill": "#c9ced4",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 212,
+   "y": -322,
+   "rx": 3.5,
+   "ry": 3.5,
+   "fill": "#c9ced4",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -212,
+   "y": -208,
+   "rx": 3.5,
+   "ry": 3.5,
+   "fill": "#c9ced4",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 212,
+   "y": -208,
+   "rx": 3.5,
+   "ry": 3.5,
+   "fill": "#c9ced4",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -204,
+   "y": -316,
+   "w": 408,
+   "h": 102,
+   "fill": null,
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}

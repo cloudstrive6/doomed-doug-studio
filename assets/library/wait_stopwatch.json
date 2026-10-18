@@ -1,0 +1,323 @@
+{
+ "name": "wait_stopwatch",
+ "description": "THE WAIT (022): chunky crude silver-grey stopwatch. Grey #a9adb3 case with darker #7d828a rim, bold crown button on a short stem (top at 0,-160; press point 0,-140), small side button at 1 o'clock, plain white face with 12 short ticks and NO hands. Face centre (0,+20), clear radius ~90 inside the ticks (keep overlay text half-width under ~85 local units) for overlay text. Anchor centre, ~260x300 (x -130..130, y -160..143). Meter icon at 0.16 left of the size-28 THE WAIT label; big prop 0.3-1.4.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "icon",
+  "meter",
+  "time",
+  "stopwatch",
+  "clock",
+  "ui",
+  "022"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     58.3,
+     -73.3
+    ],
+    [
+     78.4,
+     -105.5
+    ]
+   ],
+   "width": 34,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     59.4,
+     -75.0
+    ],
+    [
+     75.2,
+     -100.4
+    ]
+   ],
+   "width": 20,
+   "color": "#7d828a"
+  },
+  {
+   "type": "rect",
+   "x": -18,
+   "y": -128,
+   "w": 36,
+   "h": 34,
+   "fill": "#7d828a",
+   "width": 8
+  },
+  {
+   "type": "rect",
+   "x": -40,
+   "y": -160,
+   "w": 80,
+   "h": 36,
+   "fill": "#a9adb3",
+   "width": 9
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -28,
+     -150
+    ],
+    [
+     22,
+     -150
+    ]
+   ],
+   "width": 5,
+   "color": "#d9dce0"
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 20,
+   "r": 123,
+   "fill": "#7d828a",
+   "width": 10
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 20,
+   "r": 114,
+   "fill": "#a9adb3",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 62,
+   "y": 84,
+   "r": 44,
+   "color": "#7d828a",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -96,
+     -10
+    ],
+    [
+     -80,
+     -50
+    ],
+    [
+     -46,
+     -76
+    ]
+   ],
+   "width": 6,
+   "color": "#d9dce0"
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": 20,
+   "r": 104,
+   "fill": "#ffffff",
+   "width": 6
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": -18,
+   "r": 40,
+   "color": "#f0f0f0",
+   "density": 0.2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0.0,
+     -81.0
+    ],
+    [
+     0.0,
+     -70.0
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50.5,
+     -67.5
+    ],
+    [
+     47.0,
+     -61.4
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     87.5,
+     -30.5
+    ],
+    [
+     81.4,
+     -27.0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     101.0,
+     20.0
+    ],
+    [
+     90.0,
+     20.0
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     87.5,
+     70.5
+    ],
+    [
+     81.4,
+     67.0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50.5,
+     107.5
+    ],
+    [
+     47.0,
+     101.4
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0.0,
+     121.0
+    ],
+    [
+     0.0,
+     110.0
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50.5,
+     107.5
+    ],
+    [
+     -47.0,
+     101.4
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -87.5,
+     70.5
+    ],
+    [
+     -81.4,
+     67.0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -101.0,
+     20.0
+    ],
+    [
+     -90.0,
+     20.0
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -87.5,
+     -30.5
+    ],
+    [
+     -81.4,
+     -27.0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50.5,
+     -67.5
+    ],
+    [
+     -47.0,
+     -61.4
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

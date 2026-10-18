@@ -177,6 +177,15 @@ def doug_elements(el: dict, variant: int = 0):
                 hx_, hy_ = pts[-1][0] + shoulder[0], pts[-1][1] + shoulder[1]
                 body += _thumb(hx_, hy_, ink, skin)
 
+    if "bandage" in gear and not ghost:  # white ankle wrap on the FRONT leg; follows the leg in every pose
+        if flat:
+            knee, foot = ON_BACK["leg_f"][1], ON_BACK["leg_f"][2]
+        else:
+            a1, a2 = pose["leg_f"]
+            k_, f_ = _limb(HIP, a1 - lean, a1 + a2 - lean, THIGH, SHIN)[1:]
+            knee, foot = (k_[0], k_[1] + drop), (f_[0], f_[1] + drop)
+        body += _bandage(knee, foot)
+
     if "tank" in gear or "scuba" in gear:
         if flat:  # tank under his back
             body.insert(0, {"type": "rect", "x": -120, "y": 4, "w": 90, "h": 26, "fill": "#f2c21b", "width": 4})
@@ -222,6 +231,31 @@ def _thumb(x, y, ink, skin):
     """Crude MS Paint thumbs-up at the hand point (x, y): a small round fist with a stubby thumb pointing up."""
     return [{"type": "circle", "x": x, "y": y - 4, "r": 15, "fill": skin, "width": 4, "color": ink, "boil": 0.3},
             {"type": "line", "points": [(x - 3, y - 16), (x - 3, y - 42)], "width": 10, "color": ink, "boil": 0.3}]
+
+
+BANDAGE = "#ffffff"
+BANDAGE_LINE = "#8a8a8a"
+
+
+def _bandage(knee, foot):
+    """`bandage` gear (022): a short white wrap of 3 turns around the ankle, just above the foot. Never red.
+    Thin grey outline so it stays white-on-white readable and does not flip with auto-white ink on night scenes."""
+    dx, dy = foot[0] - knee[0], foot[1] - knee[1]
+    n = math.hypot(dx, dy) or 1
+    ux, uy = dx / n, dy / n          # along the shin, toward the foot
+    px, py = -uy, ux                 # across the shin
+    half = 10                        # half thickness of the wrap (leg line is 5)
+    out = []
+    for i, t in enumerate((0.58, 0.72, 0.86)):  # 3 turns, slightly slanted like a spiral wrap
+        c = (knee[0] + dx * t, knee[1] + dy * t)
+        s0, s1 = -6, 6
+        tilt = 3
+        pts = [(c[0] + ux * (s0 - tilt) + px * half, c[1] + uy * (s0 - tilt) + py * half),
+               (c[0] + ux * (s1 - tilt) + px * half, c[1] + uy * (s1 - tilt) + py * half),
+               (c[0] + ux * (s1 + tilt) - px * half, c[1] + uy * (s1 + tilt) - py * half),
+               (c[0] + ux * (s0 + tilt) - px * half, c[1] + uy * (s0 + tilt) - py * half)]
+        out.append({"type": "poly", "points": pts, "fill": BANDAGE, "width": 2, "color": BANDAGE_LINE, "boil": 0.3})
+    return out
 
 
 def _cap(hx, hy):
