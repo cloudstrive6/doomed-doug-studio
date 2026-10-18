@@ -1,0 +1,347 @@
+{
+ "_note": "Variant B (thumbnail_brief B test): Archetype A 3x3 grid in item order, labels AMBUSH / TEETH / TONGUE / FOLLOW / SWIM / CROWD / BUFFALO / NURSERY / 4,000,000 YR (no title or alt-title words); no Doug.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 24,
+   "y": 12,
+   "w": 400,
+   "h": 168,
+   "fill": "#ffe24a",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "AMBUSH",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 24,
+     "y": 146.0,
+     "w": 400,
+     "h": 60,
+     "fill": "#e2c97e",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       24,
+       146.0
+      ],
+      [
+       424,
+       146.0
+      ]
+     ],
+     "width": 4,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "komodo_log_eye",
+     "x": 214.0,
+     "y": 148.0,
+     "scale": 0.4,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 12,
+   "w": 400,
+   "h": 168,
+   "fill": "#4fc3e8",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "TEETH",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "komodo_mouth_teeth",
+     "x": 650.0,
+     "y": 106.0,
+     "scale": 0.42,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 856,
+   "y": 12,
+   "w": 400,
+   "h": 168,
+   "fill": "#e04fa0",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "TONGUE",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "komodo_head",
+     "x": 1046.0,
+     "y": 96.0,
+     "scale": 0.66,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 24,
+   "y": 248,
+   "w": 400,
+   "h": 168,
+   "fill": "#7ed957",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "FOLLOW",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "deer",
+     "x": 364.0,
+     "y": 398.0,
+     "scale": 0.3,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "komodo_dragon",
+     "x": 164.0,
+     "y": 398.0,
+     "scale": 0.26,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 248,
+   "w": 400,
+   "h": 168,
+   "fill": "#8fd3ff",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "SWIM",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 440,
+     "y": 342.0,
+     "w": 400,
+     "h": 120,
+     "fill": "#3a9ad9",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "komodo_swim",
+     "x": 570.0,
+     "y": 346.0,
+     "scale": 0.56,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 856,
+   "y": 248,
+   "w": 400,
+   "h": 168,
+   "fill": "#ff9a3d",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "CROWD",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "komodo_head",
+     "x": 936.0,
+     "y": 292.0,
+     "scale": 0.3,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "komodo_head",
+     "x": 1116.0,
+     "y": 282.0,
+     "scale": 0.3,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "komodo_head",
+     "x": 1016.0,
+     "y": 347.0,
+     "scale": 0.3,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "komodo_head",
+     "x": 1196.0,
+     "y": 337.0,
+     "scale": 0.3,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "komodo_head",
+     "x": 916.0,
+     "y": 392.0,
+     "scale": 0.3,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "komodo_head",
+     "x": 1106.0,
+     "y": 397.0,
+     "scale": 0.3,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 24,
+   "y": 484,
+   "w": 400,
+   "h": 168,
+   "fill": "#9b6dd6",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "BUFFALO",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "water_buffalo",
+     "x": 274.0,
+     "y": 648.0,
+     "scale": 0.27,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "komodo_log_eye",
+     "x": 104.0,
+     "y": 648.0,
+     "scale": 0.24,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 484,
+   "w": 400,
+   "h": 168,
+   "fill": "#2ec4b6",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "NURSERY",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "komodo_eggs_hatching",
+     "x": 640.0,
+     "y": 626.0,
+     "scale": 0.95,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 856,
+   "y": 484,
+   "w": 400,
+   "h": 168,
+   "fill": "#f2a24a",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "4,000,000 YR",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "wait_stopwatch",
+     "x": 1056.0,
+     "y": 572.0,
+     "scale": 0.5,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "4M",
+     "x": 1056.0,
+     "y": 590.0,
+     "size": 54,
+     "color": "#000000",
+     "font": "Arimo",
+     "bold": true,
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  }
+ ]
+}

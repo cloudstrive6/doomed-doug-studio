@@ -1,106 +1,149 @@
 # Visual review: 022-komodo-can-wait
 
-## Round 1: pre-render keyframes (2026-10-18)
+## Round 3: s184 re-check, thumbnail and s001 (2026-10-18)
 
-Scope: all 24 contact sheets (s001 to s288) in `build/contact/`, with full-size checks of s061, s187 and s232 in
-`build/keyframes/`. s001 is a "(thumbnail pending)" placeholder, which is expected at this stage. The thumbnail
-gets its own check after packaging.
+Scope: `build/keyframes/s184.png`, `build/thumbnail.png` (1280x720), `build/thumbnail_small.png` (320x180, feed
+size), and `build/keyframes/s001.png`. The s001 keyframe on disk was still the 17:36 "(thumbnail pending)"
+placeholder because it was rendered before `thumbnail.json` existed. I re-ran
+`python -m studio keyframes 022-komodo-can-wait --shots s001`, and it now resolves `scene_ref: thumbnail`
+correctly.
 
-**VERDICT: FAIL**
+**KEYFRAMES VERDICT: PASS**
+**THUMBNAIL VERDICT: PASS**
 
-### What already works
-- Doug is on-model in every shot (red cap, white head) and reads against every background, the night and purple
-  bands included.
-- The HUD works. DOUG DEATHS goes 178 to 186 with one step per death (s027, s076, s098, s121, s142, s166, s233,
-  s282), and that matches the series bible. THE WAIT only ever goes up (0 S to ABOUT 4,000,000 YR). The six band
-  cards (SECONDS. / HOURS. / DAYS. / WEEKS. / MONTHS. / YEARS.) are clear.
-- There is no gore anywhere. Every death is a dust cloud, a dropped cap or the ghost Doug. The tooth close-ups
-  (s029, s033, s034, s040) show dark-red gums with no blood. "Adults eat young dragons" (s225, s226) is drawn as
-  an arrow and a label, never as eating. The RIP stone (s286) is fine.
-- There is no kids'-show risk. Hatchlings, tennis balls, flowers and the picnic are drawn flat and dry, and the
-  jokes stay adult ("full, not friendly", "Doug was not required"). The chapter title "The Nursery" is fine in
-  context.
-- Most data visuals are clear: the pie charts (s084 to s087), the meal calendars (s194 to s200), the bottles
-  (s175), the timeline (s272) and the maps (s007, s106 to s109, s260 to s262). Labels are spelled correctly and
-  none are cropped.
+### Keyframes
+- s184: FIXED. The "peace?" tail now ends at about y 695, just above the cap of the sitting Doug (the cap starts at
+  about y 715). It no longer stops on the horizon, and it clearly comes from Doug. The thermos, basket, blanket and
+  sandwiches all read, the dragon on the right is on-model, and the HUD (DEATHS 184, THE WAIT: 5 DAYS) is legible.
+- s001: PASS. It is the same picture as the thumbnail, at full resolution, which follows the opening-image
+  convention. No text is cropped and Doug is fully in frame.
+- Every other shot passed in round 2 and was not changed.
 
-### Required fixes
+### Thumbnail (archetype C, "IT CAN WAIT")
+- Feed size (320x180): "IT CAN WAIT" is the strongest element and is easy to read. The huge dragon head, its orange
+  eye and the yellow forked tongue read in under a second. Doug's red cap and white head still stand out at the
+  right edge.
+- Story: a huge, still predator watches tiny Doug as he strolls away whistling (music note), and the tongue is
+  already reaching his ankle. This fits the title "How the Komodo Dragon Kills Doug Without Chasing Him" without
+  repeating any title word, and it isn't misleading.
+- Brief compliance: the dragon is low and flat, the eye is hard and hooded, and the tongue is out. It has no wings
+  or fire and nothing about it is cute. Doug has a white ankle bandage with no red and no wound. There is no gore
+  and no kids'-show tone.
+- Layout: Doug sits at about x 1140 to 1265 and y 415 to 615 in the 1280x720 version, which keeps him clear of
+  YouTube's duration badge in the bottom right (about y 670 or lower). The music note is about 15 px from the right
+  edge. That is tight but not cropped.
 
-1. **s187, s188, s189: delete the stray white square.** Director. Each of these shots contains a raw element
-   `{"type":"rect","x":764,"y":830,"w":46,"h":40,"fill":"#ffffff"}` that sits beside Doug's hand like a broken
-   prop. Remove it from all three shots. In s189 the line is about the thermos, but no thermos is shown. Show one
-   next to "NOT FOOD" (crossed out with `red_x`, or as an outline inside the dragon). The library has no thermos
-   drawing, so the illustrator needs to draw a small `thermos` asset that matches the green flask in the s184
-   picnic blanket.
-2. **s146: the calendar is blank.** Director. Copy the s119 approach and add a text element on the calendar:
-   `{"type":"text","text":"300 YRS","x":400,"y":540,"size":34,"bold":true,"appear":0.2}`. This matches facts.md:
-   "introduced only 300 years ago" (Fry). If you would rather not add the number, delete the calendar and let the
-   "A FEW CENTURIES AGO" label carry the shot.
-3. **s120, s121, s122: Doug claims the "next island" on the shore he started from.** Director. In s116 to s119 the
-   far island is the hill on the top horizon and the near beach is home. In s120 Doug and the flag stand on that
-   same near beach, so it looks like he paddled back. Reverse the geography for s120 to s122: make the foreground
-   beach the new island, put the old island's hill (the s116 hill) small on the far horizon, beach the ring at the
-   waterline, and keep Doug and the flag on the foreground sand. The dragon in s121 and the lying dragon in s122
-   then read as "already waiting on the beach". Also end the "safe" bubble's tail at Doug's head. Right now it stops
-   at the waterline, about 115 px away.
-4. **s035: the tooth is drawn bigger than the coin, but the narration says it is "shorter than a quarter is
-   wide".** Director. The tooth (`komodo_tooth`, scale 0.9) stands about 1.5 times the coin's height. Scale the
-   tooth to about 0.45 or enlarge the coin (r about 180) so the tooth is clearly smaller than the coin's diameter,
-   and put them side by side on the same baseline.
-5. **Floating "komodo_head" cut-outs on open ground read as severed heads.** Director. The head asset has a
-   feathered neck edge. On close-up plain backgrounds that reads as a crop (s053, s058 to s060, s063 to s065 are
-   OK). On open sand it reads as a disembodied head lying on the ground (see the s061 full-size frame). Affected
-   shots: s055, s057, s061, s062, s066, s069, s070, s076, s077, s123, s127, s128, s129, s130, s132, s133, s158,
-   s159, s160, s165. For each one, either swap in `komodo_dragon` (full body), or place the head so the neck edge
-   is hidden: run it off the frame edge, or put it behind the rock, a bush or the ridge line. The ridge-crest
-   crowds (s125, s126, s139 to s141) can stay as long as the heads sit just behind the crest line with the neck
-   edge covered. s123 has a second problem: two heads meeting tongue-to-tongue on a chapter card reads as a kiss.
-   Use two full-body dragons facing the viewer or a ridge-line crowd instead.
-6. **s162: the buffalo that "finally lies down for good" is missing.** Director, plus illustrator if needed. The
-   frame shows only three resting dragons, which reads as "dragons lie down". Add the buffalo lying on its side
-   (cartoon: eyes closed or X-eyes, no wounds) with the dragons waiting at a distance. If `water_buffalo` cannot
-   be rotated cleanly, the illustrator should draw a `water_buffalo_lying` asset.
-7. **Variety: long runs of near-identical frames.** Director.
-   - **s013 to s028 (Ambush):** 14 of these 16 shots use the same frame: dragon log centre-right on the trail,
-     Doug left, same desert. Break up the run. s016: top-down trail with deer and boar walking along it. s020
-     ("lies low ... perfectly quiet"): tight close-up of the log's open eye (`komodo_log_eye`). s024: close-up of
-     Doug's face buried in the field guide. s025: swap s024's closed book for the open field-guide page from s285,
-     with the dragon out of focus behind it.
-   - **s177 to s181 (dragon on the rock, 5 frames):** make s181 a calendar strip, MON to FRI with all five days
-     ticked ("a full working week"), with no rock.
-   - **s205 to s212 (`komodo_bloated` on the rock, 8 frames in a row):** make s207 a wide shot looking down the
-     path with the line of 100 deer and the dragon small in the corner. Make s209 and s210 a close-up of the
-     dragon's half-closed eye with Doug's tiny waving hand at the edge. Make s212 a punch-in on the swollen belly
-     under the "FULL" label.
-8. **s034: "SERRATED" overlaps the tip of the lower jaw.** Director. Move the word down so it sits under the bread
-   knife, or above the snout, clear of the drawing.
-9. **s126: the red arrow (1700,700 to 1800,900) points at empty ground.** Director. Remove it, or replace it with
-   short scent arrows from each head converging on one point off the right edge.
-10. **s249: "Z Z" reads as snoring.** Director. Change the label to "ZZ CHROMOSOMES", or draw two small X-shaped
-    chromosome glyphs labelled Z and Z, so a viewer doesn't read it as "Zzz".
-11. **Speech-bubble tails stop short of Doug.** Director. In s140 ("can I help?"), s184 ("peace?"), s209
-    ("hi friend?") and s252 ("hello?") the tail ends on the horizon line well above Doug's head, so it isn't clear
-    who is speaking. Set each `tail` point to just above Doug's head (Doug x, about head y minus 20).
+### Advisories (non-blocking, graphic designer)
+- A. At feed size the claws (small white marks at about x 430 to 500, y 615 to 640) vanish, and the front leg
+  reads as a featureless lump. The forked tongue alone is what says "lizard". Two or three bold dark claws on that
+  foot would make it read more clearly as a Komodo and less like a catfish or seal head.
+- B. The white underline under the text adds nothing. You can drop it, or keep it if that is the channel's
+  thumbnail grammar.
+- C. The ankle bandage can't be seen at 320 px. That's fine because it is a full-size detail.
 
-### Advisory (fix if cheap, does not block)
-- s153: the attacking dragon is half hidden behind the buffalo's legs. Separate them, with the dragon lunging at a
-  hind leg and a dust puff.
-- s250, s251, s257 to s259: Doug swimming in the top-right corner has no setup and slightly undercuts "empty
-  island" in s250. Consider removing him from s250 and s251.
-- s251 ("other animals"): it shows the same Komodo island again. A small shark or snake silhouette with "?" would
-  match the line better.
-- s276: the two blue squares on the map don't say "flooded habitat". A blue hatched coastline band would read
-  faster.
-- s092: Doug in the "sit" pose on a plain background looks like he is floating. Give him the log from s096 or use
-  the stand pose.
-- s284: the "4,000,000 YR" text on the stopwatch is too small to read. Enlarge the stopwatch or rely on the HUD.
+### Round history
+| Round | Scope | Verdict |
+|---|---|---|
+| 1 | All 24 contact sheets | FAIL (11 fixes) |
+| 2 | Re-rendered sheets | FAIL (1 fix: s184 tail) |
+| 3 | s184, thumbnail, s001 | Keyframes PASS · Thumbnail PASS |
+
+---
+
+## Round 2: pre-render keyframes (2026-10-18), FAIL (history)
+
+Scope: all 24 re-rendered contact sheets (s001 to s288, all regenerated 17:36) in `build/contact/`. I checked
+s035, s120, s140, s162 and s184 at full size in `build/keyframes/` and compared the speech-bubble tails against the
+`doug`/`speech` coordinates in `shotlist.json`. s001 is still the "(thumbnail pending)" placeholder, which is
+expected at this stage. The thumbnail gets its own check after packaging.
+
+**VERDICT: FAIL** (one small fix left; everything else passes)
+
+### Round 1 fixes re-checked
+1. **s187, s188, s189 stray white square: FIXED.** The square is gone from all three. s189 now shows a green
+   thermos that matches the s184 picnic, with "NOT FOOD" and an arrow into the dragon's mouth. It reads at once.
+2. **s146 blank calendar: FIXED.** The calendar now says "CENTURIES" next to the "A FEW CENTURIES AGO" label. That
+   is legible and matches the narration.
+3. **s120 to s122 geography: FIXED.** The old island is now a small hill on the far left horizon. Doug, the ring
+   and the "DOUG WAS HERE" flag are on the foreground beach, with a palm tree for the new island. The s121 dragon
+   and the s122 lying dragon read as "already waiting on the beach". The "safe" tail now ends about 25 px above
+   Doug's cap.
+4. **s035 tooth vs quarter: FIXED.** The tooth (about 320 px) is clearly shorter than the coin's 380 px diameter.
+   Both stand on one baseline, with the "24 MM" span and "(BOTH ENLARGED)" note.
+5. **Floating head cut-outs: FIXED.** s055, s057, s061, s062, s066, s076, s077, s123, s127 to s133, s158 to s160
+   and s165 now use full-body dragons. s069 and s070 run the head off the left edge. The ridge crowds (s125, s126,
+   s139 to s141) put the ground polygon over the heads, so no neck edge shows. s123 is now three full-body dragons
+   and no longer reads as a kiss.
+6. **s162 missing buffalo: FIXED.** The new `water_buffalo_lying` lies down with its eyes closed and no wounds.
+   Three resting dragons wait around it. The joke lands and stays cartoon-clean.
+7. **Variety: FIXED.**
+   - Ambush: s016 is the top-down trail with the deer and boar, s020 is the tight log close-up, s024 is Doug's face
+     with the open field guide, and s025 is the big dragon foreground with tiny Doug reading. The run is broken up.
+   - s181 is now the MON to FRI calendar strip with five ticks.
+   - s207 is the long path of deer with "100" and the dragon small in the corner. s210 is the half-closed-eye
+     close-up with Doug. s212 is the punch-in on the belly under "FULL". The rock run is broken up.
+8. **s034 "SERRATED" overlap: FIXED.** The word now sits under the bread knife, clear of the jaw.
+9. **s126 stray red arrow: FIXED.** Removed.
+10. **s249 "Z Z" read as snoring: FIXED.** It is now two blue X-shaped chromosome glyphs, each labelled Z, with
+    "ZZ = ALWAYS MALE" underneath.
+11. **Speech-bubble tails: 3 of 4 FIXED.** s140 ("can I help?"), s209 ("hi friend?") and s252 ("hello?") now end
+    about 20 to 30 px above Doug's cap, and so does the new s279 ("I can wait too"). **s184 ("peace?") is still
+    wrong, see the required fix below.**
+
+### Round 1 advisories
+- s153: FIXED. The dragon is separated from the buffalo, with a dust puff at the leg.
+- s250, s251: FIXED. Doug is removed. s251 now shows two shark silhouettes with "?". s257 to s259 still show
+  swimming Doug, which is fine.
+- s092: FIXED. The sitting Doug is replaced with a standing Doug beside the Titanic card and the snack.
+- s284: FIXED. The stopwatch is now large and "4,000,000 YEARS" reads easily.
+- s276: NOT CHANGED. The two blue squares still don't say "flooded habitat" on their own. This is still advisory
+  and does not block.
+
+### General scan for new problems
+- Doug is on-model (red cap, white head) in every shot, including the new close-ups (s024, s210) and the night,
+  purple and orange bands.
+- The HUD is consistent. DOUG DEATHS goes 178 to 186, one step per death: s027, s076, s098, s121, s142, s166,
+  s233, s282. THE WAIT only ever goes up. In s223, s225, s226 and s228 the big tree canopy sits behind the chapter
+  label and the HUD, and both stay readable.
+- There is no gore and no kids'-show tone. The new lying buffalo, the thermos, the shark silhouettes and the
+  Megalania silhouettes (s263, s264) are all clean.
+- Text is legible and spelled right, nothing is cropped, and nothing overlaps a drawing.
+- Advisory only: s159 and s160 ("feeding on them together" and "a meal that can go on for several days") show the
+  dragon crowd running off the right edge with no buffalo in frame. It works as an implied off-screen meal. A buffalo
+  rump at the right edge would make it explicit.
+
+### Required fix
+1. **s184: the "peace?" tail still ends on the horizon line, about 60 px above Doug.** Director. Doug uses the
+   `sit` pose (x 900, y 829), so his head is lower than the standing offset you used. The tail ends at
+   [910, 654], right on the horizon, and Doug's cap starts at about y 715. Change the speech `tail` to
+   `[910, 695]`.
 
 ### Routing summary
-- Director: fixes 1 to 11.
-- Illustrator: the `thermos` asset (fix 1) and possibly `water_buffalo_lying` (fix 6).
-- Art director: nothing blocking. Please sign off on the head-placement rule in fix 5 (head only when the neck
-  edge is hidden) as a standing layout rule.
-- Graphic designer: thumbnail not reviewed yet (pending).
+- Director: fix 1 (s184, one coordinate).
+- Illustrator: nothing. `thermos` and `water_buffalo_lying` both read well.
+- Art director: nothing blocking.
+- Graphic designer: thumbnail still pending, not reviewed yet.
 
-Re-run `python -m studio keyframes 022-komodo-can-wait --shots <changed ids>` and send the new sheets back for
-round 2.
+Re-run `python -m studio keyframes 022-komodo-can-wait --shots s184`. Round 3 only needs to confirm s184. Every
+other shot passes as rendered.
+
+---
+
+## Round 1: pre-render keyframes (2026-10-18), FAIL (history)
+
+Scope: all 24 contact sheets, with full-size checks of s061, s187 and s232. The required fixes were:
+1. s187 to s189: delete the stray white square, and show the thermos in s189 (new `thermos` asset).
+2. s146: the calendar is blank. Add "300 YRS" or remove the calendar.
+3. s120 to s122: Doug claims the "next island" on his home shore. Reverse the geography and end the "safe" tail at
+   Doug.
+4. s035: the tooth is drawn bigger than the quarter. Make the tooth clearly smaller than the coin.
+5. `komodo_head` cut-outs on open ground read as severed heads (s055, s057, s061, s062, s066, s069, s070, s076,
+   s077, s123, s127 to s133, s158 to s160, s165). Use full bodies or hide the neck edge. s123 reads as a kiss.
+6. s162: the buffalo is missing. Add a lying buffalo (new `water_buffalo_lying`).
+7. Variety: break up s013 to s028, s177 to s181 and s205 to s212.
+8. s034: "SERRATED" overlaps the jaw.
+9. s126: a stray red arrow points at empty ground.
+10. s249: "Z Z" reads as snoring.
+11. Speech tails in s140, s184, s209 and s252 stop short of Doug.
+
+Advisories: s153, s250 and s251, s251, s276, s092, s284.

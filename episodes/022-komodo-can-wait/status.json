@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-10-18T17:01:17+00:00",
       "note": ""
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-10-18T17:42:33+00:00",
+      "note": "art-director PASS r2, visual-screener PASS r3, thumbnail A"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

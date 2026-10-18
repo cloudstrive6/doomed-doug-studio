@@ -30,3 +30,25 @@
     Do not approach wild animals." Metadata must never target kids.
   - Editor: check Chirp on Rinca, Flores, Sungai, Megalania, Stegodon, Hocknull, LeBlanc, parthenogenesis.
 - Series bible updated: counter 186, THE WAIT (episode-only), Doug's bandage gear, used-once lines, episode log row 022.
+
+## 2026-10-18: thumbnail pick: A (hero, `thumbnail.json`) WINS; B (grid) kept as `thumbnail_b.json` for a later swap
+- Viewed `build/thumbnail.png`, `build/thumbnail_small.png`, `build/thumbnail_b.png` and `build/thumbnail_b_small.png`. Re-rendered A
+  with `python -m studio thumbnail 022-komodo-can-wait`. `thumbnail.json` is unchanged and there is no `thumbnail_a.json`.
+- Why A:
+  1. Pairing (style bible, title/thumbnail complementarity): the title is a T2 "How [X] Kills" revelation and not an "Every / Most
+     Disturbing" list. That pairs with a hero. A grid would promise a list the title doesn't frame.
+  2. A tells the title's story in one glance: a huge, still dragon with one eye on Doug, the tongue out, and Doug walking off whistling
+     with the bandage. "IT CAN WAIT" is the stakes-phrase variant of archetype C (white bold sans with an underline on a flat earth-tone
+     field). It still reads at 320x180: three words, one creature, one tiny red cap.
+  3. B is weaker. TEETH, TONGUE and CROWD are three crops of the same head, so the grid looks samey. The BUFFALO tile's animal has long,
+     thin, swept-back horns and reads as an ibex or goat, not a water buffalo. "4M" inside the stopwatch only repeats the label. With no
+     stakes and no Doug, nothing in it says "without chasing".
+- Note on A, no change needed: the half-lidded eye reads as patient and cold rather than sleepy, and that fits "it can wait". The
+  bandage is white with no red. No gore, nothing cute.
+- Consistency check: the title "How the Komodo Dragon Kills Doug Without Chasing Him" shares no word with "IT CAN WAIT", and the
+  thumbnail_brief in metadata.json matches both JSONs (A's text, and B's labels and order). The promise is delivered (script gate). If a
+  title A/B test runs, don't use the alt "...Weapon Scientists Found Is Patience" against this thumbnail, because "Patience" and "WAIT"
+  say the same thing twice. The other three alts are fine.
+- Fallback: if day-7 CTR is under the channel median, swap to B (as with 015 and 012), but first have the illustrator fix the
+  buffalo tile (wide, sweeping horns, heavy body) and give TONGUE or CROWD a distinct drawing.
+- Next: the visual screener checks the thumbnail. Shot s001 (the opening image) uses the A hero for 1.5 to 4 s.

@@ -1,0 +1,307 @@
+{
+ "_note": "Archetype C hero (thumbnail_brief main): komodo_log_eye huge and flat across sand-tan, forked tongue out, one open eye on tiny Doug walking away whistling with the white ankle bandage (no red); text IT CAN WAIT (no title/alt-title words).",
+ "background": "#e2c97e",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 640,
+   "w": 1300,
+   "h": 100,
+   "fill": "#cfae62",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -20,
+     640
+    ],
+    [
+     320,
+     636
+    ],
+    [
+     640,
+     643
+    ],
+    [
+     960,
+     637
+    ],
+    [
+     1300,
+     642
+    ]
+   ],
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "group",
+   "x": 45,
+   "y": 640,
+   "scale": 2.05,
+   "elements": [
+    {
+     "type": "curve",
+     "points": [
+      [
+       440,
+       -30
+      ],
+      [
+       475,
+       -28
+      ],
+      [
+       502,
+       -26
+      ]
+     ],
+     "width": 8,
+     "color": "#000000"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       500,
+       -26
+      ],
+      [
+       516,
+       -34
+      ],
+      [
+       530,
+       -44
+      ]
+     ],
+     "width": 8,
+     "color": "#000000"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       500,
+       -26
+      ],
+      [
+       516,
+       -18
+      ],
+      [
+       530,
+       -8
+      ]
+     ],
+     "width": 8,
+     "color": "#000000"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       440,
+       -30
+      ],
+      [
+       475,
+       -28
+      ],
+      [
+       502,
+       -26
+      ]
+     ],
+     "width": 4.5,
+     "color": "#e8c43a"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       500,
+       -26
+      ],
+      [
+       516,
+       -34
+      ],
+      [
+       530,
+       -44
+      ]
+     ],
+     "width": 4.5,
+     "color": "#e8c43a"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       500,
+       -26
+      ],
+      [
+       516,
+       -18
+      ],
+      [
+       530,
+       -8
+      ]
+     ],
+     "width": 4.5,
+     "color": "#e8c43a"
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "komodo_log_eye",
+   "x": 45,
+   "y": 640,
+   "scale": 2.05,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "group",
+   "x": 45,
+   "y": 640,
+   "scale": 2.05,
+   "elements": [
+    {
+     "type": "ellipse",
+     "x": 362,
+     "y": -84,
+     "rx": 15,
+     "ry": 10,
+     "fill": "#d9961f",
+     "width": 3,
+     "color": "#000000"
+    },
+    {
+     "type": "ellipse",
+     "x": 369,
+     "y": -84,
+     "rx": 3.2,
+     "ry": 9,
+     "fill": "#000000",
+     "width": 0,
+     "color": "#000000"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       336,
+       -96
+      ],
+      [
+       362,
+       -104
+      ],
+      [
+       392,
+       -94
+      ]
+     ],
+     "width": 6,
+     "color": "#000000"
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 1185,
+   "y": 558,
+   "scale": 0.4,
+   "pose": "walk1",
+   "expression": "hopeful",
+   "facing": "right",
+   "gear": [
+    "bandage"
+   ]
+  },
+  {
+   "type": "ellipse",
+   "x": 1245,
+   "y": 450,
+   "rx": 9,
+   "ry": 7,
+   "fill": "#000000",
+   "width": 2,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1253,
+     450
+    ],
+    [
+     1253,
+     416
+    ],
+    [
+     1266,
+     422
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "IT CAN WAIT",
+   "x": 640,
+   "y": 130,
+   "size": 132,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     240,
+     218
+    ],
+    [
+     1040,
+     218
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 13,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
