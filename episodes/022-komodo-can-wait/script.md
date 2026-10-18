@@ -1,5 +1,5 @@
 <!-- axis: time. THE WAIT, how long the dragon is willing to wait for Doug, from zero seconds to about four million years. Each item is placed by the sourced time value on THE WAIT clock (table below); the clock only goes up. Spoken section headers: "Seconds." (opener, items 1-2), "Hours." (before item 3), "Days." (before item 5), "Weeks." (before item 9), "Months." (before item 10), "Years." (before item 11). -->
-<!-- Episode 022: Why the Komodo Dragon Can Kill Doug Without Chasing Him. Draft 2 (2026-10-18, script writer, revised per script_review.md fixes 1-15). Counter on screen at 178 from the first shot, ends at 186: eight deaths over twelve items. Survivals: The Teeth ("Doug is fine.", bandage, the one 010 callback), The Meal ("Doug is fine. The picnic is not."), The Fast ("hi friend?", full not friendly, narrator quietly disappointed), The Virgin Birth ("Doug was not required."). "Doug did not agree to this." once, item 1. The cap: on the rock (3), floating by the ring at the shore (5), on the grass (7), on a branch (10), on the folding chair (12, closing). Field guide KOMODO page: FRIEND? empty at item 1, red "NO" at the closing. Predation always off-screen: no blood, no wounds, no carcasses, no feeding on screen. One sober line on human attacks (The Follow), no joke beside it. -->
+<!-- Episode 022: Why the Komodo Dragon Can Kill Doug Without Chasing Him. Draft 3 (2026-10-18, script writer, round-2 fixes 1-7 and advisories A1-A2 applied). Counter on screen at 178 from the first shot, ends at 186: eight deaths over twelve items. Survivals: The Teeth ("Doug is fine.", bandage, the one 010 callback), The Meal ("Doug is fine. The picnic is not."), The Fast ("hi friend?", full not friendly, narrator quietly disappointed), The Virgin Birth ("Doug was not required."). "Doug did not agree to this." once, item 1. The cap: on the rock (3), floating by the ring at the shore (5), on the grass (7), on a branch (10), on the folding chair (12, closing). Field guide KOMODO page: FRIEND? empty at item 1, red "NO" at the closing. Predation always off-screen: no blood, no wounds, no carcasses, no feeding on screen. One sober line on human attacks (The Follow), no joke beside it. -->
 <!-- Deviations from the brief, all fact-driven (details in facts.md "Brief leads that failed"):
 1. The Swim: the brief's twist ("leaving the island is not leaving the dragon" because dragons follow by sea) fails. Jessop et al. 2018 tracked dragons and found they almost never leave the valley they hatched in. New twist, same line: the dragon doesn't follow Doug across the water; the next island already has its own dragons.
 2. The Buffalo: the "picks prey ten times its size and wins the wait" twist fails. Fry's team says buffalo almost always escape the first attack; Smithsonian: dragons seldom succeed in killing them. New twist: it doesn't need to win the fight, only to be nearby when the buffalo finally lies down (scavenging, Bull et al. 2010 shared feeding over several days). No bacteria, no sepsis, no waterhole infection. Buffalo moved before The Meal so the clock stays monotonic (Crowd several days, Buffalo days, Meal up to five days of digestion).
@@ -60,7 +60,7 @@ It can chase you. It almost never has to, because it started waiting before you 
 
 [Doug strolls down the trail reading the field guide, open on the KOMODO page. The FRIEND? box is empty. The log beside the trail opens one eye.]
 
-Doug studied the field guide carefully on the way in, and he kept a close eye on the trail ahead of him, which is exactly where the dragon was not. Doug did not agree to this.
+Doug studied the field guide and kept a close eye on the trail ahead, which is exactly where the dragon was not. Doug did not agree to this.
 
 [Dust cloud. The cap spins in the air and lands on the trail. DOUG DEATHS: 179. THE WAIT: 0 S.]
 
@@ -124,7 +124,7 @@ The Smithsonian's National Zoo says a Komodo can smell carrion up to four kilome
 
 [Doug crouched behind a big rock, very still, very pleased with himself. THE WAIT: 50 MIN.]
 
-Doug ran for nearly an hour, found a big rock and hid behind it, convinced that a predator that cannot see him cannot find him. He held his breath, and he did not make a single sound.
+Doug ran for nearly an hour and hid behind a big rock, convinced that what cannot see him cannot find him. He held his breath.
 
 [A forked tongue curls around the side of the rock. Cut to the rock alone with the cap on top. DOUG DEATHS: 180.]
 
@@ -150,7 +150,7 @@ During those hours, the dragon simply walks after it, following the scent at its
 
 That's the unsettling part.
 
-Four hours is longer than the whole of the film Titanic, with time left over for the credits and a snack. The prey spends that time running, while the dragon spends it strolling.
+Four hours is longer than the whole of the film Titanic, with time left over for a snack. The prey spends that time running, while the dragon spends it strolling.
 
 [A plain card, no Doug, no drawing: "ATTACKS ON PEOPLE ARE RARE. THEY DO HAPPEN."]
 
@@ -254,7 +254,7 @@ It never has to win the fight, it only has to outlast the buffalo.
 
 [Doug stands next to the buffalo with a small sign: "MORAL SUPPORT". The dragon looks at the buffalo. Then it looks at Doug. A page-a-day calendar flips. THE WAIT: SEVERAL DAYS.]
 
-Doug stood beside the buffalo for several days to show solidarity, holding his sign up the whole time so that nobody could miss the message. The dragon studied the two of them very carefully.
+Doug stood beside the buffalo for several days, holding up his sign in solidarity. The dragon studied the two of them very carefully.
 
 [Cut to black. Then the grass, the sign and the cap. The buffalo is gone, grazing far away. DOUG DEATHS: 184.]
 
@@ -268,7 +268,7 @@ A predator that rarely hunts needs a good reason to stop hunting. For a Komodo d
 
 [The dragon beside a scale. The scale reads "80%". Label: "IN ONE MEAL".]
 
-The Smithsonian's National Zoo says an adult can eat up to eighty percent of its own body weight in one sitting. For a person, that would mean finishing a meal that weighs almost as much as you do, and then asking whether there is dessert. It eats fast, and it wastes very little of what it catches.
+The Smithsonian's National Zoo says an adult can eat up to eighty percent of its own body weight in one sitting. It eats fast, and it wastes very little of what it catches.
 
 [A stopwatch reading "17 MIN". Beside it, fifteen big water bottles in a row. Label: "31 KG".]
 
@@ -304,7 +304,7 @@ According to the San Diego Zoo Wildlife Alliance, a large Komodo kills about one
 
 [A second calendar, every square crammed with tiny plates. Label: "1,095".]
 
-Compare that with you. A person eating three meals a day gets through more than a thousand meals a year, plus whatever happens near the fridge at midnight. A large dragon gets by on about a dozen big ones, plus the odd small snack.
+Compare that with you. A person eating three meals a day gets through more than a thousand meals a year. A large dragon gets by on about a dozen big ones, plus the odd small snack.
 
 [The dragon on a sunny rock, a little sun icon pointing at it. Label: "SOLAR POWERED".]
 
@@ -334,7 +334,7 @@ A Komodo dragon begins life very small, and very much on its own. The first thin
 
 [A nest mound in the dirt, with a second, fake mound beside it. Label: "UP TO 8 MONTHS".]
 
-A female lays around twenty eggs, and they can take up to eight months to hatch. Some females dig decoy nests nearby, to put off predators, including other dragons.
+A female lays around twenty eggs, which can take up to eight months to hatch, and some females dig decoy nests nearby, to put off predators, including other dragons.
 
 [A tiny hatchling next to a tennis ball. Label: "ABOUT 80 G".]
 
@@ -354,7 +354,7 @@ The first lesson in a Komodo's life is that the adults wait at the bottom of the
 
 [Doug climbs a tree to escape an adult below. On the branch above him sits a young dragon, lean, hard-eyed and not at all cute. THE WAIT: MONTHS.]
 
-Doug climbed the tree to escape the adult, which was the one sensible thing he did all episode. The young dragon was already up there, and it had been eating nothing but insects for months.
+Doug climbed the tree to escape the adult, the one sensible thing he did all episode. The young dragon was already up there, and it was tired of insects.
 
 [Cut to the branch with only the cap on it. DOUG DEATHS: 185.]
 
@@ -380,7 +380,7 @@ The surprising part is what the genetics showed.
 
 [A simple diagram: one parent icon, arrow, egg. Label: "ONE PARENT".]
 
-Researchers from the University of Liverpool ran genetic tests on the eggs and the young, and in the journal Nature they reported the same answer for both females. In each case, the mother was the only parent. This is called parthenogenesis, or virgin birth.
+Researchers from the University of Liverpool ran genetic tests on the eggs and the young, and in the journal Nature they reported the same answer for both females. In each case, the mother was the only parent, which is called parthenogenesis, or virgin birth.
 
 [Two chromosome letters: "Z Z". Label: "ALWAYS MALE".]
 
@@ -392,7 +392,7 @@ Doug arrived at the nest with flowers, and the eggs hatched while he was still i
 
 [Doug stands there holding the flowers. DOUG DEATHS: 185 holds.]
 
-Doug survived, but only in the technical sense, because nobody here was waiting for him, and nobody ever had been. He left the flowers by the nest anyway, which nobody asked for either.
+Doug survived, but only in the technical sense, because nobody here was waiting for him, and nobody ever had been.
 
 ## The Last Giant
 
@@ -444,4 +444,4 @@ It waited out the giants. It will have no trouble at all waiting for the next Do
 
 Doug deaths: one hundred and eighty-six. The clock is still running. Which animal should Doug try to outlast next? Tell us in the comments.
 
-<!-- words: 3117 (spoken narration only: opener, spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 16:00 at 195 wpm · draft 2 (2026-10-18) · 12 items · item words (header counted with the item before it): Ambush 239, Teeth 252 incl. "Hours.", Tongue 243, Follow 252 incl. "Days.", Swim 252, Crowd 236, Buffalo 231, Meal 247 incl. "Weeks.", Fast 266 incl. "Months.", Nursery 254 incl. "Years.", Virgin Birth 248, Last Giant 369 incl. closing and 24-word outro · 215 sentences, avg 14.5 words, max 35 · The Crowd shortest sentence 4 words ("Nobody counts the guests.") · Flesch heuristic 75.0 on our counter, which read draft 1 at 76.2 against the screener's 72.9, so about 71.7 on the screener's scale · tic words However/actually/essentially/incredibly: 0 each · "To put that in context": removed -->
+<!-- words: 3032 (spoken narration only: opener, spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:33 at 195 wpm · draft 3 (2026-10-18) · 12 items · 211 sentences, avg 14.4 words, max 35 · Flesch 70.9 on our counter, which reads draft 2 at 70.9 against the screener's 71.9, so about 71.9 on the screener's scale · Doug beats all 30 words or fewer · round-2 cuts: fridge, dessert, flowers line, credits; merged two non-punch pairs (Nursery eggs, Virgin Birth parthenogenesis) to hold the average -->

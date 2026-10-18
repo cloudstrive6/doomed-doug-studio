@@ -9,8 +9,7 @@ guide on the trail, the bandage, hiding behind the rock, the sandwich, the swim 
 picnic and thermos, "hi friend?", the tree climb, the flowers, the folding chair, "Doug lasted nine hours"); the 010 mouthwash callback;
 narrator lines such as "it lets the island bring breakfast to it", "the thermos was not technically food", "the buffalo was a long-term
 project. Doug was a short one", "the island next door came with its own set" (the specific neighbouring island Doug reached, which in the
-story has dragons; not a claim about every island: wild populations are only on Komodo, Rinca, Flores, Gili Motang and Nusa Kode, and islands
-such as Padar have none), "the whole island is something to taste", "nobody counts the guests", "the next one is already on its way down
+story has dragons; not a claim about every island), "the whole island is something to taste", "nobody counts the guests", "the next one is already on its way down
 the path", "the second lesson is that they are very patient about it".
 
 **Comparisons** are marked "comparison", with the source for the everyday object and the arithmetic.
