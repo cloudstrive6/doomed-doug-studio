@@ -52,3 +52,22 @@
 - Optional polish for the graphic designer (not blocking): use plain downward triangles for the T. rex's top teeth (screener nit).
 - B is kept only as a possible A/B test variant. Before it runs, drop the badges (or make them all "?") and add a small Doug to one tile.
 - 2026-10-19: Packaged. Script 2 rounds (R1 FAIL: 5 fact errors; R2 PASS). Art: assets approved round 1 (AD fixed 5), keyframes 2 rounds (AD PASS, visual-screener FAIL then PASS). Thumbnail A 'BAD TIMING' chosen. Narration 16:30. Risks: kids-dinosaur adjacency, capless Doug outro (approved), s124 static not pan.
+
+## 2026-10-19: final package approval (creative director)
+- **APPROVED.** Visual screener post-render PASS (main and Shorts), QC `problems: []`.
+- Title kept: "Would a Hippo Survive Every Prehistoric Era? Doug Died Trying" (61 chars, T11, one approved '?'). It is a
+  different formula from 020 (T6), 021 and 022 (T2). Doug really does die 9 times and every stop gets a verdict, so the title
+  delivers. No alt is clearly stronger. The "Could" variant is a coin-flip A/B. "No Predators at All" is a sharper curiosity
+  gap, but it hides the hippo-vs-T. rex promise that the thumbnail sells.
+- Thumbnail A "BAD TIMING": reads at feed size, has no title words, and the T. rex stop is in the video. It is also the s001
+  opening image. The T. rex teeth still look like hourglasses (top and bottom triangles meet). That is cosmetic and doesn't
+  block release; the plain downward triangles fix stays open for any re-export.
+- Description: the hook matches the video, the six key sources are listed, and the cartoon-death disclaimer, AI-use
+  disclosure and playlist `prehistoric` are present. Chapters are 12 eras plus Intro, start at 0:00, are in strictly
+  backwards order and match the script headers.
+- First 60 s: the opener says "Ice Age London" at about word 30 and the twist (the hippo is already there) lands inside 45 s.
+  Counter 186 and tally 0/12 are visible from the first frame and Doug is on-model. The tone is deadpan, with no nursery
+  register.
+- The screener's four minor defects (s295 flag text, s102 overlap, s156/s295 chalkboard text size, s026 divider) are logged
+  as non-blocking. Fix them only if the episode gets re-rendered for another reason.
+FINAL: APPROVED
