@@ -1,0 +1,658 @@
+{
+ "_note": "Variant B (thumbnail_brief B test): Archetype A 3x3 grid, item order, the hippo facing each stop's killer with a green tick (hippo survived) or red X badge. 9 of 12 chapters (Hyneria, Bare Land, Archean dropped; 5 ticks / 4 X). Labels are chapter names, no title or alt-title words; no Doug.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 24,
+   "y": 12,
+   "w": 400,
+   "h": 168,
+   "fill": "#8fd3ff",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "Ice Age London",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "spotted_hyena",
+     "x": 309,
+     "y": 170,
+     "scale": 0.36,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hippo",
+     "x": 116,
+     "y": 172,
+     "scale": 0.21,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "circle",
+     "x": 64,
+     "y": 50,
+     "r": 27,
+     "fill": "#22a83a",
+     "width": 4,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       51,
+       51
+      ],
+      [
+       61,
+       62
+      ],
+      [
+       78,
+       39
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 12,
+   "w": 400,
+   "h": 168,
+   "fill": "#7ed957",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "Turkana Croc",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "croc_head_rising",
+     "x": 730,
+     "y": 174,
+     "scale": 0.36,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hippo",
+     "x": 532,
+     "y": 172,
+     "scale": 0.21,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "circle",
+     "x": 480,
+     "y": 50,
+     "r": 27,
+     "fill": "#22a83a",
+     "width": 4,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       467,
+       51
+      ],
+      [
+       477,
+       62
+      ],
+      [
+       494,
+       39
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 856,
+   "y": 12,
+   "w": 400,
+   "h": 168,
+   "fill": "#e04fa0",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "Purussaurus",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "purussaurus",
+     "x": 1201,
+     "y": 174,
+     "scale": 0.37,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hippo",
+     "x": 948,
+     "y": 172,
+     "scale": 0.21,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "circle",
+     "x": 896,
+     "y": 50,
+     "r": 27,
+     "fill": "#e0201b",
+     "width": 4,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       885,
+       39
+      ],
+      [
+       907,
+       61
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       907,
+       39
+      ],
+      [
+       885,
+       61
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 24,
+   "y": 248,
+   "w": 400,
+   "h": 168,
+   "fill": "#4fc3e8",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "Walking Whale",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "ambulocetus",
+     "x": 309,
+     "y": 406,
+     "scale": 0.33,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hippo",
+     "x": 116,
+     "y": 408,
+     "scale": 0.21,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "circle",
+     "x": 64,
+     "y": 286,
+     "r": 27,
+     "fill": "#22a83a",
+     "width": 4,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       51,
+       287
+      ],
+      [
+       61,
+       298
+      ],
+      [
+       78,
+       275
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 248,
+   "w": 400,
+   "h": 168,
+   "fill": "#ffe24a",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "Titanoboa",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "titanoboa",
+     "x": 775,
+     "y": 376,
+     "scale": 0.28,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hippo",
+     "x": 532,
+     "y": 408,
+     "scale": 0.21,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "circle",
+     "x": 480,
+     "y": 286,
+     "r": 27,
+     "fill": "#22a83a",
+     "width": 4,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       467,
+       287
+      ],
+      [
+       477,
+       298
+      ],
+      [
+       494,
+       275
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 856,
+   "y": 248,
+   "w": 400,
+   "h": 168,
+   "fill": "#ff7a3d",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "Tyrannosaurus",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "t_rex",
+     "x": 1156,
+     "y": 428,
+     "scale": 0.42,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hippo",
+     "x": 948,
+     "y": 408,
+     "scale": 0.21,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "circle",
+     "x": 896,
+     "y": 286,
+     "r": 27,
+     "fill": "#e0201b",
+     "width": 4,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       885,
+       275
+      ],
+      [
+       907,
+       297
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       907,
+       275
+      ],
+      [
+       885,
+       297
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 24,
+   "y": 484,
+   "w": 400,
+   "h": 168,
+   "fill": "#c7a4ff",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "The Morrison",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "allosaurus",
+     "x": 324,
+     "y": 654,
+     "scale": 0.38,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hippo",
+     "x": 116,
+     "y": 644,
+     "scale": 0.21,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "circle",
+     "x": 64,
+     "y": 522,
+     "r": 27,
+     "fill": "#e0201b",
+     "width": 4,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       53,
+       511
+      ],
+      [
+       75,
+       533
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       75,
+       511
+      ],
+      [
+       53,
+       533
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 484,
+   "w": 400,
+   "h": 168,
+   "fill": "#2ec4b6",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "The Gorgon",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "inostrancevia",
+     "x": 745,
+     "y": 642,
+     "scale": 0.36,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hippo",
+     "x": 532,
+     "y": 644,
+     "scale": 0.21,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "circle",
+     "x": 480,
+     "y": 522,
+     "r": 27,
+     "fill": "#22a83a",
+     "width": 4,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       467,
+       523
+      ],
+      [
+       477,
+       534
+      ],
+      [
+       494,
+       511
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 856,
+   "y": 484,
+   "w": 400,
+   "h": 168,
+   "fill": "#ff4a2a",
+   "radius": 12,
+   "frame_width": 6,
+   "label": "The Hadean",
+   "label_size": 44,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 856,
+     "y": 618,
+     "w": 400,
+     "h": 60,
+     "fill": "#3a2a2a",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "volcano",
+     "x": 1156,
+     "y": 646,
+     "scale": 0.33,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hippo",
+     "x": 948,
+     "y": 644,
+     "scale": 0.21,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "circle",
+     "x": 896,
+     "y": 522,
+     "r": 27,
+     "fill": "#e0201b",
+     "width": 4,
+     "color": "#000000",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       885,
+       511
+      ],
+      [
+       907,
+       533
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       907,
+       511
+      ],
+      [
+       885,
+       533
+      ]
+     ],
+     "width": 8,
+     "color": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  }
+ ]
+}

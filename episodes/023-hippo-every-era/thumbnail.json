@@ -1,0 +1,82 @@
+{
+ "_note": "Archetype C hero (thumbnail_brief main): adult hippo, mouth shut and side-eyeing, nose to nose with a T. rex filling the right of the frame on flat dusty orange; tiny red-capped Doug sitting on the hippo's back for scale. Text BAD TIMING only (no title/alt-title words; 'WRONG ERA' dropped because Era is in the title).",
+ "background": "#e3a35f",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 700,
+   "w": 1300,
+   "h": 40,
+   "fill": "#c98a4a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "t_rex",
+   "x": 1735,
+   "y": 1300,
+   "scale": 2.6,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "hippo",
+   "x": 420,
+   "y": 706,
+   "scale": 1.1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 300,
+   "y": 322.59999999999997,
+   "scale": 0.32,
+   "pose": "sit",
+   "expression": "shock",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "BAD TIMING",
+   "x": 330,
+   "y": 78,
+   "size": 104,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     150
+    ],
+    [
+     620,
+     150
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 12,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
