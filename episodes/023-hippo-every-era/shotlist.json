@@ -267,42 +267,26 @@
      },
      {
       "type": "asset",
-      "name": "time_machine",
-      "x": 420,
-      "y": 900,
-      "scale": 0.75
-     },
-     {
-      "type": "doug",
-      "x": 820,
-      "y": 816,
-      "scale": 0.55,
-      "pose": "stand",
-      "expression": "hopeful",
-      "facing": "right"
-     },
-     {
-      "type": "asset",
       "name": "hippo",
-      "x": 1300,
-      "y": 910,
-      "scale": 0.7,
+      "x": 1450,
+      "y": 1300,
+      "scale": 2.3,
       "flip": true
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1360,
-      "y": 560,
-      "scale": 0.45,
+      "x": 560,
+      "y": 430,
+      "scale": 0.6,
       "appear": 0.4
      },
      {
       "type": "label",
       "text": "SIGNED: NOBODY",
-      "x": 1300,
-      "y": 420,
-      "size": 40,
+      "x": 620,
+      "y": 640,
+      "size": 48,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
@@ -1252,14 +1236,14 @@
      },
      {
       "type": "asset",
-      "name": "time_machine",
-      "x": 420,
+      "name": "time_machine_hippo_squeeze",
+      "x": 760,
       "y": 900,
-      "scale": 0.75
+      "scale": 1.05
      },
      {
       "type": "doug",
-      "x": 1600,
+      "x": 1500,
       "y": 824,
       "scale": 0.5,
       "pose": "think",
@@ -1267,59 +1251,15 @@
       "facing": "left"
      },
      {
-      "type": "asset",
-      "name": "hippo",
-      "x": 1050,
-      "y": 910,
-      "scale": 0.7
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        285,
-        620
-       ],
-       [
-        555,
-        620
-       ]
-      ],
-      "color": "#000000",
-      "width": 6,
-      "dash": [
-       16,
-       12
-      ],
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        800,
-        560
-       ],
-       [
-        1300,
-        560
-       ]
-      ],
-      "color": "#000000",
-      "width": 6,
-      "dash": [
-       16,
-       12
-      ],
-      "appear": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "red_x",
-      "x": 420,
-      "y": 620,
-      "scale": 0.5,
-      "appear": 0.75
+      "type": "label",
+      "text": "DOES NOT FIT",
+      "x": 1380,
+      "y": 420,
+      "size": 52,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.4
      },
      {
       "type": "label",
@@ -2582,7 +2522,7 @@
      {
       "type": "wordart",
       "text": "TRAFALGAR SQUARE",
-      "x": 868,
+      "x": 800,
       "y": 300,
       "size": 80,
       "boil": 0,
@@ -3531,8 +3471,8 @@
      },
      {
       "type": "circle",
-      "x": 960,
-      "y": 420,
+      "x": 620,
+      "y": 330,
       "r": 80,
       "fill": "#ffe24a",
       "color": "#e0a000",
@@ -3568,8 +3508,8 @@
      {
       "type": "wordart",
       "text": "WARM SPELL",
-      "x": 960,
-      "y": 640,
+      "x": 1000,
+      "y": 500,
       "size": 80,
       "boil": 0,
       "appear": 0.6
@@ -6632,8 +6572,8 @@
      },
      {
       "type": "doug",
-      "x": 300,
-      "y": 800,
+      "x": 250,
+      "y": 540,
       "scale": 0.45,
       "pose": "float",
       "expression": "dead",
@@ -8069,7 +8009,7 @@
       "type": "wordart",
       "text": "HALF A BUS",
       "x": 960,
-      "y": 280,
+      "y": 185,
       "size": 96,
       "boil": 0,
       "appear": 0.6
@@ -10732,16 +10672,26 @@
      },
      {
       "type": "asset",
+      "name": "hippo",
+      "x": 1010,
+      "y": 900,
+      "scale": 0.3,
+      "flip": true,
+      "appear": 0.4
+     },
+     {
+      "type": "asset",
       "name": "saltwater_crocodile",
-      "x": 1400,
+      "x": 1520,
       "y": 900,
       "scale": 0.5,
-      "appear": 0.2
+      "appear": 0.2,
+      "flip": true
      },
      {
       "type": "label",
       "text": "CALVES",
-      "x": 1400,
+      "x": 1420,
       "y": 560,
       "size": 52,
       "bold": true,
@@ -10752,12 +10702,12 @@
      {
       "type": "arrow",
       "from": [
-       1300,
+       1330,
        620
       ],
       "to": [
-       1100,
-       820
+       1040,
+       780
       ],
       "bend": 40,
       "color": "#e0201b",
@@ -18910,14 +18860,34 @@
       "scale": 1.1
      },
      {
+      "type": "doug",
+      "x": 250,
+      "y": 862,
+      "scale": 0.45,
+      "pose": "stand",
+      "expression": "gritted",
+      "facing": "right"
+     },
+     {
+      "type": "label",
+      "text": "BIG FEET",
+      "x": 600,
+      "y": 1010,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.15
+     },
+     {
       "type": "arrow",
       "from": [
-       600,
-       1000
+       690,
+       985
       ],
       "to": [
-       760,
-       900
+       900,
+       895
       ],
       "bend": -30,
       "color": "#e0201b",
@@ -18926,14 +18896,25 @@
       "appear": 0.15
      },
      {
+      "type": "label",
+      "text": "LONG SNOUT",
+      "x": 1450,
+      "y": 400,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.4
+     },
+     {
       "type": "arrow",
       "from": [
-       1500,
-       520
+       1450,
+       440
       ],
       "to": [
-       1450,
-       700
+       1335,
+       760
       ],
       "bend": 30,
       "color": "#e0201b",
@@ -18942,40 +18923,31 @@
       "appear": 0.4
      },
      {
+      "type": "label",
+      "text": "JAWS",
+      "x": 1700,
+      "y": 980,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.65
+     },
+     {
       "type": "arrow",
       "from": [
-       1700,
-       900
+       1660,
+       945
       ],
       "to": [
-       1550,
-       800
+       1260,
+       820
       ],
       "bend": 30,
       "color": "#e0201b",
       "width": 9,
       "head": 40,
       "appear": 0.65
-     },
-     {
-      "type": "label",
-      "text": "JAWS",
-      "x": 1700,
-      "y": 950,
-      "size": 44,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff",
-      "appear": 0.7
-     },
-     {
-      "type": "doug",
-      "x": 250,
-      "y": 862,
-      "scale": 0.45,
-      "pose": "stand",
-      "expression": "gritted",
-      "facing": "right"
      },
      {
       "type": "label",
@@ -21614,7 +21586,7 @@
       "type": "text",
       "text": "TITANOBOA",
       "x": 960,
-      "y": 380,
+      "y": 760,
       "size": 150,
       "color": "#e0201b",
       "bold": true,
@@ -21627,7 +21599,7 @@
       "type": "label",
       "text": "ABOUT 58 TO 60 MILLION YEARS AGO",
       "x": 960,
-      "y": 520,
+      "y": 890,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -22324,7 +22296,7 @@
       "type": "wordart",
       "text": "LONGER THAN A BUS",
       "x": 841,
-      "y": 260,
+      "y": 190,
       "size": 80,
       "boil": 0,
       "appear": 0.75
@@ -22666,8 +22638,8 @@
      {
       "type": "asset",
       "name": "angry_sun",
-      "x": 1450,
-      "y": 330,
+      "x": 1150,
+      "y": 400,
       "scale": 0.7,
       "appear": 0.3
      },
@@ -22681,7 +22653,7 @@
      {
       "type": "wordart",
       "text": "VERY HOT",
-      "x": 800,
+      "x": 680,
       "y": 330,
       "size": 100,
       "boil": 0,
@@ -22757,7 +22729,7 @@
      {
       "type": "label",
       "text": "30-34 °C",
-      "x": 1050,
+      "x": 1180,
       "y": 460,
       "size": 64,
       "bold": true,
@@ -22776,7 +22748,7 @@
      {
       "type": "wordart",
       "text": "AVERAGE YEARLY",
-      "x": 1100,
+      "x": 1180,
       "y": 340,
       "size": 70,
       "boil": 0,
@@ -23871,7 +23843,7 @@
       "type": "rect",
       "x": 0,
       "y": 0,
-      "w": 3840,
+      "w": 1920,
       "h": 560,
       "fill": "#e4eedd",
       "color": "#e4eedd",
@@ -23888,34 +23860,54 @@
        ],
        [
         -40,
-        250
-       ],
-       [
-        600,
         200
        ],
        [
-        1300,
-        260
+        140,
+        160
        ],
        [
-        2000,
-        190
+        300,
+        230
        ],
        [
-        2700,
-        250
+        470,
+        150
        ],
        [
-        3400,
-        200
+        640,
+        220
        ],
        [
-        3880,
-        240
+        820,
+        160
        ],
        [
-        3880,
+        1000,
+        230
+       ],
+       [
+        1180,
+        150
+       ],
+       [
+        1360,
+        220
+       ],
+       [
+        1540,
+        160
+       ],
+       [
+        1720,
+        230
+       ],
+       [
+        1960,
+        170
+       ],
+       [
+        1960,
         600
        ]
       ],
@@ -23925,10 +23917,59 @@
       "smooth": true
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        -40,
+        620
+       ],
+       [
+        -40,
+        420
+       ],
+       [
+        240,
+        380
+       ],
+       [
+        540,
+        420
+       ],
+       [
+        840,
+        385
+       ],
+       [
+        1140,
+        420
+       ],
+       [
+        1440,
+        385
+       ],
+       [
+        1740,
+        415
+       ],
+       [
+        1960,
+        390
+       ],
+       [
+        1960,
+        620
+       ]
+      ],
+      "fill": "#2e8b3a",
+      "color": "#1d5e27",
+      "width": 4,
+      "smooth": true
+     },
+     {
       "type": "rect",
       "x": 0,
       "y": 600,
-      "w": 3840,
+      "w": 1920,
       "h": 480,
       "fill": "#5d6b45",
       "color": "#5d6b45",
@@ -23944,7 +23985,7 @@
         602
        ],
        [
-        3840,
+        1920,
         602
        ]
       ],
@@ -23952,16 +23993,62 @@
       "width": 4
      },
      {
+      "type": "line",
+      "points": [
+       [
+        200,
+        700
+       ],
+       [
+        420,
+        700
+       ]
+      ],
+      "color": "#8a9a6a",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1100,
+        760
+       ],
+       [
+        1350,
+        760
+       ]
+      ],
+      "color": "#8a9a6a",
+      "width": 4
+     },
+     {
       "type": "spray",
-      "x": 1900,
+      "x": 400,
       "y": 600,
-      "r": 600,
+      "r": 160,
       "color": "#ffffff",
-      "density": 0.05
+      "density": 0.08
+     },
+     {
+      "type": "spray",
+      "x": 1000,
+      "y": 590,
+      "r": 200,
+      "color": "#ffffff",
+      "density": 0.07
+     },
+     {
+      "type": "spray",
+      "x": 1600,
+      "y": 600,
+      "r": 170,
+      "color": "#ffffff",
+      "density": 0.08
      },
      {
       "type": "doug",
-      "x": 500,
+      "x": 170,
       "y": 700,
       "scale": 0.6,
       "pose": "stand",
@@ -23975,7 +24062,7 @@
       "type": "rect",
       "x": 0,
       "y": 700,
-      "w": 3840,
+      "w": 1920,
       "h": 380,
       "fill": "#5d6b45",
       "color": "#5d6b45",
@@ -23985,69 +24072,86 @@
      },
      {
       "type": "asset",
-      "name": "hippo_submerged",
-      "x": 1400,
-      "y": 720,
-      "scale": 0.9
-     },
-     {
-      "type": "asset",
       "name": "titanoboa_coil",
-      "x": 300,
+      "x": 470,
       "y": 700,
-      "scale": 0.9
+      "scale": 0.7
      },
      {
       "type": "asset",
       "name": "titanoboa_coil",
       "x": 900,
       "y": 700,
-      "scale": 0.9
+      "scale": 0.7,
+      "appear": 0.15
      },
      {
       "type": "asset",
-      "name": "titanoboa_coil",
-      "x": 1500,
+      "name": "hippo_submerged",
+      "x": 1300,
       "y": 700,
-      "scale": 0.9
-     },
-     {
-      "type": "asset",
-      "name": "titanoboa_coil",
-      "x": 2100,
-      "y": 700,
-      "scale": 0.9
-     },
-     {
-      "type": "asset",
-      "name": "titanoboa_coil",
-      "x": 2700,
-      "y": 700,
-      "scale": 0.9
-     },
-     {
-      "type": "asset",
-      "name": "titanoboa_coil",
-      "x": 3300,
-      "y": 700,
-      "scale": 0.9
+      "scale": 0.8
      },
      {
       "type": "asset",
       "name": "exclamation_mark",
-      "x": 3300,
-      "y": 420,
+      "x": 1560,
+      "y": 520,
       "scale": 0.4,
+      "appear": 0.35
+     },
+     {
+      "type": "asset",
+      "name": "titanoboa_coil",
+      "x": 1840,
+      "y": 700,
+      "scale": 0.7,
       "appear": 0.6
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1640,
+       540
+      ],
+      "to": [
+       1850,
+       600
+      ],
+      "bend": -30,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 40,
+      "appear": 0.75
+     },
+     {
+      "type": "label",
+      "text": "DOUG DEATHS: 190",
+      "x": 1590,
+      "y": 162,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
+     },
+     {
+      "type": "asset",
+      "name": "chalkboard",
+      "x": 1372,
+      "y": 238,
+      "scale": 0.07
+     },
+     {
+      "type": "label",
+      "text": "HIPPO SURVIVED: 3 / 12",
+      "x": 1600,
+      "y": 238,
+      "size": 28,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
      }
-    ],
-    "size": [
-     3840,
-     1080
     ]
-   },
-   "camera": {
-    "move": "pan_right"
    }
   },
   {
@@ -27276,36 +27380,21 @@
      },
      {
       "type": "asset",
+      "name": "t_rex",
+      "x": 1560,
+      "y": 660,
+      "scale": 0.3,
+      "flip": true,
+      "silhouette": true,
+      "glow_r": 0,
+      "appear": 0.4
+     },
+     {
+      "type": "asset",
       "name": "hippo_grazing",
       "x": 1000,
       "y": 910,
       "scale": 0.6
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        1350,
-        900
-       ],
-       [
-        1900,
-        860
-       ],
-       [
-        1960,
-        960
-       ],
-       [
-        1400,
-        980
-       ]
-      ],
-      "fill": "#5a4a2a",
-      "color": "#5a4a2a",
-      "width": 0,
-      "smooth": false,
-      "appear": 0.4
      },
      {
       "type": "doug",
@@ -29174,21 +29263,217 @@
       "scale": 0.9
      },
      {
-      "type": "ellipse",
-      "x": 950,
-      "y": 900,
-      "rx": 520,
-      "ry": 120,
-      "fill": "#4a3a22",
-      "color": "#4a3a22",
-      "width": 0
+      "type": "poly",
+      "points": [
+       [
+        700,
+        909
+       ],
+       [
+        730,
+        866
+       ],
+       [
+        810,
+        846
+       ],
+       [
+        900,
+        854
+       ],
+       [
+        990,
+        806
+       ],
+       [
+        1090,
+        764
+       ],
+       [
+        1135,
+        766
+       ],
+       [
+        1110,
+        802
+       ],
+       [
+        1010,
+        866
+       ],
+       [
+        1080,
+        872
+       ],
+       [
+        1215,
+        874
+       ],
+       [
+        1245,
+        892
+       ],
+       [
+        1215,
+        909
+       ],
+       [
+        1080,
+        916
+       ],
+       [
+        1010,
+        924
+       ],
+       [
+        1110,
+        984
+       ],
+       [
+        1135,
+        1016
+       ],
+       [
+        1090,
+        1014
+       ],
+       [
+        990,
+        979
+       ],
+       [
+        900,
+        956
+       ],
+       [
+        810,
+        962
+       ],
+       [
+        730,
+        949
+       ]
+      ],
+      "fill": "#c4a46a",
+      "color": "#c4a46a",
+      "width": 14,
+      "smooth": true
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        700,
+        915
+       ],
+       [
+        730,
+        872
+       ],
+       [
+        810,
+        852
+       ],
+       [
+        900,
+        860
+       ],
+       [
+        990,
+        812
+       ],
+       [
+        1090,
+        770
+       ],
+       [
+        1135,
+        772
+       ],
+       [
+        1110,
+        808
+       ],
+       [
+        1010,
+        872
+       ],
+       [
+        1080,
+        878
+       ],
+       [
+        1215,
+        880
+       ],
+       [
+        1245,
+        898
+       ],
+       [
+        1215,
+        915
+       ],
+       [
+        1080,
+        922
+       ],
+       [
+        1010,
+        930
+       ],
+       [
+        1110,
+        990
+       ],
+       [
+        1135,
+        1022
+       ],
+       [
+        1090,
+        1020
+       ],
+       [
+        990,
+        985
+       ],
+       [
+        900,
+        962
+       ],
+       [
+        810,
+        968
+       ],
+       [
+        730,
+        955
+       ]
+      ],
+      "fill": "#6e5432",
+      "color": "#3a2a16",
+      "width": 5,
+      "smooth": true
      },
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 900,
-      "y": 850,
-      "scale": 0.5
+      "x": 860,
+      "y": 912,
+      "scale": 0.55,
+      "rotate": -6
+     },
+     {
+      "type": "label",
+      "text": "STOMPED",
+      "x": 960,
+      "y": 560,
+      "size": 52,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.5
      },
      {
       "type": "label",
@@ -29778,9 +30063,9 @@
      {
       "type": "asset",
       "name": "jurassic_conifer",
-      "x": 1700,
-      "y": 660,
-      "scale": 0.7
+      "x": 1680,
+      "y": 720,
+      "scale": 0.45
      },
      {
       "type": "asset",
@@ -30484,9 +30769,9 @@
      {
       "type": "wordart",
       "text": "REDWOOD TALL",
-      "x": 450,
+      "x": 380,
       "y": 400,
-      "size": 84,
+      "size": 76,
       "boil": 0,
       "appear": 0.6
      },
@@ -32237,7 +32522,7 @@
       "type": "label",
       "text": "35 M",
       "x": 1050,
-      "y": 400,
+      "y": 995,
       "size": 52,
       "bold": true,
       "boil": 0.4,
@@ -32656,7 +32941,7 @@
      },
      {
       "type": "doug",
-      "x": 1250,
+      "x": 1290,
       "y": 844,
       "scale": 0.5,
       "pose": "cower",
@@ -33522,14 +33807,14 @@
      {
       "type": "asset",
       "name": "sauropod_footprint",
-      "x": 960,
+      "x": 600,
       "y": 900,
       "scale": 1.2
      },
      {
       "type": "asset",
       "name": "brontosaurus_foot",
-      "x": 960,
+      "x": 600,
       "y": 300,
       "scale": 0.7,
       "appear": 0.45
@@ -33547,12 +33832,12 @@
      },
      {
       "type": "doug",
-      "x": 300,
+      "x": 1100,
       "y": 852,
       "scale": 0.45,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right"
+      "facing": "left"
      },
      {
       "type": "label",
@@ -37147,9 +37432,9 @@
      {
       "type": "asset",
       "name": "archaeopteris",
-      "x": 1650,
-      "y": 600,
-      "scale": 0.6
+      "x": 1790,
+      "y": 620,
+      "scale": 0.35
      },
      {
       "type": "asset",
@@ -37787,16 +38072,16 @@
      {
       "type": "asset",
       "name": "archaeopteris",
-      "x": 1400,
-      "y": 600,
-      "scale": 0.9,
+      "x": 1150,
+      "y": 640,
+      "scale": 0.6,
       "appear": 0.2
      },
      {
       "type": "label",
       "text": "ARCHAEOPTERIS",
-      "x": 1400,
-      "y": 640,
+      "x": 1150,
+      "y": 680,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -38686,7 +38971,7 @@
       "type": "wordart",
       "text": "5 CM FANGS",
       "x": 1450,
-      "y": 420,
+      "y": 880,
       "size": 90,
       "boil": 0,
       "appear": 0.5
@@ -38695,11 +38980,11 @@
       "type": "arrow",
       "from": [
        1450,
-       520
+       810
       ],
       "to": [
-       1300,
-       600
+       1330,
+       650
       ],
       "bend": 30,
       "color": "#e0201b",
@@ -38827,7 +39112,7 @@
       "type": "label",
       "text": "SHARK TEETH: SMALLER",
       "x": 1450,
-      "y": 560,
+      "y": 935,
       "size": 40,
       "bold": true,
       "boil": 0.4,
@@ -46216,8 +46501,8 @@
      {
       "type": "label",
       "text": "SUNLIGHT",
-      "x": 300,
-      "y": 420,
+      "x": 480,
+      "y": 300,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -49482,8 +49767,8 @@
      },
      {
       "type": "doug",
-      "x": 300,
-      "y": 500,
+      "x": 1600,
+      "y": 640,
       "scale": 0.45,
       "pose": "float",
       "expression": "dead",
@@ -50877,50 +51162,78 @@
       "points": [
        [
         640,
-        400
+        420
        ],
        [
-        800,
+        700,
+        350
+       ],
+       [
+        790,
         330
        ],
        [
-        900,
-        440
+        860,
+        380
        ],
        [
-        760,
+        880,
+        450
+       ],
+       [
+        820,
+        510
+       ],
+       [
+        730,
         520
+       ],
+       [
+        660,
+        480
        ]
       ],
-      "fill": "#262626",
+      "fill": "#5a4a3c",
       "color": "#000000",
       "width": 4,
-      "smooth": false
+      "smooth": true
      },
      {
       "type": "poly",
       "points": [
        [
-        900,
-        640
+        920,
+        650
        ],
        [
-        1060,
+        990,
         600
        ],
        [
-        1100,
-        720
+        1080,
+        620
+       ],
+       [
+        1110,
+        700
+       ],
+       [
+        1050,
+        770
        ],
        [
         960,
-        780
+        760
+       ],
+       [
+        910,
+        710
        ]
       ],
-      "fill": "#262626",
+      "fill": "#5a4a3c",
       "color": "#000000",
       "width": 4,
-      "smooth": false
+      "smooth": true
      },
      {
       "type": "label",
@@ -52916,31 +53229,164 @@
       "density": 0.03
      },
      {
-      "type": "circle",
-      "x": 900,
-      "y": 500,
-      "r": 60,
-      "fill": "#cfe9ff",
-      "color": "#3a6ea5",
-      "width": 5
+      "type": "poly",
+      "points": [
+       [
+        1110,
+        640
+       ],
+       [
+        1114,
+        603
+       ],
+       [
+        1124,
+        567
+       ],
+       [
+        1142,
+        534
+       ],
+       [
+        1166,
+        506
+       ],
+       [
+        1194,
+        482
+       ],
+       [
+        1227,
+        464
+       ],
+       [
+        1263,
+        454
+       ],
+       [
+        1300,
+        450
+       ],
+       [
+        1337,
+        454
+       ],
+       [
+        1373,
+        464
+       ],
+       [
+        1406,
+        482
+       ],
+       [
+        1434,
+        506
+       ],
+       [
+        1458,
+        534
+       ],
+       [
+        1476,
+        567
+       ],
+       [
+        1486,
+        603
+       ],
+       [
+        1490,
+        640
+       ]
+      ],
+      "fill": "#ffffff",
+      "color": "#000000",
+      "width": 7,
+      "smooth": false
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1300,
+        640
+       ],
+       [
+        1120,
+        640
+       ],
+       [
+        1123,
+        605
+       ],
+       [
+        1134,
+        571
+       ],
+       [
+        1150,
+        540
+       ]
+      ],
+      "fill": "#e0201b",
+      "color": "#e0201b",
+      "width": 0,
+      "smooth": false
      },
      {
       "type": "text",
       "text": "O2",
-      "x": 900,
-      "y": 500,
-      "size": 48,
+      "x": 1300,
+      "y": 560,
+      "size": 64,
       "color": "#000000",
       "bold": true,
       "boil": 0
      },
      {
-      "type": "asset",
-      "name": "red_x",
-      "x": 900,
-      "y": 500,
-      "scale": 0.4,
-      "appear": 0.3
+      "type": "line",
+      "points": [
+       [
+        1300,
+        640
+       ],
+       [
+        1130,
+        632
+       ]
+      ],
+      "color": "#000000",
+      "width": 10,
+      "appear": 0.25
+     },
+     {
+      "type": "circle",
+      "x": 1300,
+      "y": 640,
+      "r": 14,
+      "fill": "#000000",
+      "color": "#000000",
+      "width": 1
+     },
+     {
+      "type": "text",
+      "text": "0%",
+      "x": 1150,
+      "y": 680,
+      "size": 44,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0
+     },
+     {
+      "type": "wordart",
+      "text": "NO OXYGEN",
+      "x": 1300,
+      "y": 370,
+      "size": 90,
+      "boil": 0,
+      "appear": 0.5
      },
      {
       "type": "doug",
@@ -53365,45 +53811,27 @@
      },
      {
       "type": "circle",
-      "x": 700,
-      "y": 360,
-      "r": 250,
+      "x": 250,
+      "y": 250,
+      "r": 330,
       "fill": "#b8b4ac",
       "color": "#5a5650",
       "width": 6
      },
      {
       "type": "circle",
-      "x": 620,
-      "y": 300,
-      "r": 48,
+      "x": 170,
+      "y": 200,
+      "r": 60,
       "fill": "#9a968e",
       "color": "#5a5650",
       "width": 3
      },
      {
       "type": "circle",
-      "x": 790,
-      "y": 430,
-      "r": 36,
-      "fill": "#9a968e",
-      "color": "#5a5650",
-      "width": 3
-     },
-     {
-      "type": "circle",
-      "x": 760,
-      "y": 260,
-      "r": 24,
-      "fill": "#9a968e",
-      "color": "#5a5650",
-      "width": 3
-     },
-     {
-      "type": "circle",
-      "x": 600,
-      "y": 450,
-      "r": 20,
+      "x": 360,
+      "y": 380,
+      "r": 44,
       "fill": "#9a968e",
       "color": "#5a5650",
       "width": 3
@@ -53413,27 +53841,23 @@
       "points": [
        [
         -40,
-        660
+        560
        ],
        [
-        300,
-        600
+        400,
+        520
        ],
        [
-        600,
-        640
-       ],
-       [
-        1000,
-        590
+        900,
+        560
        ],
        [
         1400,
-        640
+        510
        ],
        [
         1960,
-        600
+        540
        ],
        [
         1960,
@@ -53458,71 +53882,50 @@
       "density": 0.03
      },
      {
-      "type": "line",
-      "points": [
-       [
-        100,
-        1010
-       ],
-       [
-        240,
-        1035
-       ]
-      ],
-      "color": "#ff5a1f",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1500,
-        980
-       ],
-       [
-        1700,
-        950
-       ]
-      ],
-      "color": "#ff5a1f",
-      "width": 4
-     },
-     {
       "type": "ellipse",
-      "x": 1450,
-      "y": 800,
-      "rx": 360,
-      "ry": 70,
+      "x": 1060,
+      "y": 830,
+      "rx": 820,
+      "ry": 170,
       "fill": "#3f5a6a",
       "color": "#1a2a33",
-      "width": 5
+      "width": 6
      },
      {
       "type": "spray",
-      "x": 1450,
-      "y": 760,
-      "r": 150,
+      "x": 1060,
+      "y": 700,
+      "r": 300,
       "color": "#d8d8d8",
       "density": 0.03
      },
      {
       "type": "asset",
       "name": "hippo_waterline",
-      "x": 1450,
-      "y": 800,
-      "scale": 1.0
+      "x": 1060,
+      "y": 830,
+      "scale": 2.4
+     },
+     {
+      "type": "asset",
+      "name": "exclamation_mark",
+      "x": 1500,
+      "y": 430,
+      "scale": 0.5,
+      "appear": 0.4
      },
      {
       "type": "doug",
-      "x": 700,
-      "y": 844,
+      "x": 180,
+      "y": 800,
       "scale": 0.5,
       "pose": "stand",
-      "expression": "hopeful",
+      "expression": "shock",
       "facing": "right",
       "gear": [
        "sweat"
-      ]
+      ],
+      "appear": 0.5
      },
      {
       "type": "label",
@@ -56060,6 +56463,34 @@
       "boil": 0
      },
      {
+      "type": "doug",
+      "x": 1560,
+      "y": 900,
+      "scale": 0.7,
+      "pose": "stand",
+      "expression": "flat",
+      "facing": "left",
+      "gear": [
+       "cap_off"
+      ]
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1470,
+       470
+      ],
+      "to": [
+       1540,
+       690
+      ],
+      "bend": -30,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 40,
+      "appear": 0.35
+     },
+     {
       "type": "label",
       "text": "DOUG SURVIVED: 3 / 12",
       "x": 1400,
@@ -56069,18 +56500,6 @@
       "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.2
-     },
-     {
-      "type": "doug",
-      "x": 1500,
-      "y": 922,
-      "scale": 0.45,
-      "pose": "stand",
-      "expression": "flat",
-      "facing": "left",
-      "gear": [
-       "cap_off"
-      ]
      },
      {
       "type": "label",
@@ -56143,9 +56562,9 @@
      {
       "type": "wordart",
       "text": "ALL TWELVE",
-      "x": 960,
+      "x": 1250,
       "y": 380,
-      "size": 110,
+      "size": 100,
       "boil": 0,
       "appear": 0.3
      },
@@ -56153,11 +56572,11 @@
       "type": "arrow",
       "from": [
        1300,
-       420
+       450
       ],
       "to": [
-       1110,
-       610
+       1120,
+       800
       ],
       "bend": 40,
       "color": "#e0201b",

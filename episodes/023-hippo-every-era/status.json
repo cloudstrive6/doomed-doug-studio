@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-10-19T16:57:39+00:00",
       "note": "301 shots, 3,106 words verbatim; 41 new assets requested in asset_requests.md; 3 Shorts picked (titles pending titler); thumbnail.json pending graphic designer"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-10-19T17:31:18+00:00",
+      "note": "art-director + visual-screener PASS round 2"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }
