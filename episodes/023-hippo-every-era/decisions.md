@@ -43,3 +43,12 @@
   ("The cap survived all twelve"), so Doug stands beside it with `gear: ["cap_off"]` (precedent 008 close). Art director to confirm.
 - Shorts: short01 Purussaurus (cut before the badge death, tease s085), short02 Titanoboa (tease the T. rex at s140), short03 The
   Morrison footprint (cut before the Allosaurus choice, tease s177). Titles/descriptions left for the youtube-titler.
+
+## 2026-10-19: thumbnail pick (creative director)
+- **Winner: A (`thumbnail.json`, archetype C hero, "BAD TIMING"). It stays as is; no copy from `thumbnail_b.json`.**
+- Why: I checked both at feed size. A reads instantly: hippo nose to nose with a T. rex, a tiny red-capped Doug for scale, two words, a flat
+  orange field. It doesn't repeat any title word and it matches the s001 opening. B's check/X badges answer the title's question for 9
+  eras (they give away the payoff). B also has no Doug, its labels are unreadable at 168x94, and it shows 9 of the 12 stops.
+- Optional polish for the graphic designer (not blocking): use plain downward triangles for the T. rex's top teeth (screener nit).
+- B is kept only as a possible A/B test variant. Before it runs, drop the badges (or make them all "?") and add a small Doug to one tile.
+- 2026-10-19: Packaged. Script 2 rounds (R1 FAIL: 5 fact errors; R2 PASS). Art: assets approved round 1 (AD fixed 5), keyframes 2 rounds (AD PASS, visual-screener FAIL then PASS). Thumbnail A 'BAD TIMING' chosen. Narration 16:30. Risks: kids-dinosaur adjacency, capless Doug outro (approved), s124 static not pan.
