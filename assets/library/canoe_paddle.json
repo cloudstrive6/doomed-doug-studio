@@ -1,0 +1,228 @@
+{
+ "name": "canoe_paddle",
+ "description": "Plain wooden canoe paddle: pale wood #c08a4a shaft with a T-grip on top, flat oval blade at the bottom with a darker edge and grain lines. Centre anchor; bbox x -46..+46, y -210..+210.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "paddle",
+  "canoe",
+  "boat",
+  "wood",
+  "023"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 112,
+   "rx": 46,
+   "ry": 98,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#8a5a2a"
+  },
+  {
+   "type": "ellipse",
+   "x": -2,
+   "y": 108,
+   "rx": 36,
+   "ry": 86,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#c08a4a",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     30
+    ],
+    [
+     10,
+     30
+    ],
+    [
+     12,
+     190
+    ],
+    [
+     0,
+     204
+    ],
+    [
+     -12,
+     190
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#dcae72",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     40
+    ],
+    [
+     0,
+     120
+    ],
+    [
+     0,
+     196
+    ]
+   ],
+   "width": 2,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -20,
+     60
+    ],
+    [
+     -26,
+     120
+    ],
+    [
+     -18,
+     170
+    ]
+   ],
+   "width": 2,
+   "color": "#a87440"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     20,
+     70
+    ],
+    [
+     24,
+     130
+    ],
+    [
+     16,
+     176
+    ]
+   ],
+   "width": 2,
+   "color": "#a87440"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -9,
+     -186
+    ],
+    [
+     9,
+     -186
+    ],
+    [
+     9,
+     34
+    ],
+    [
+     -9,
+     34
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#c08a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     3,
+     -180
+    ],
+    [
+     3,
+     30
+    ]
+   ],
+   "width": 3,
+   "color": "#dcae72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -4,
+     -100
+    ],
+    [
+     -4,
+     -40
+    ]
+   ],
+   "width": 2,
+   "color": "#a87440"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -42,
+     -210
+    ],
+    [
+     42,
+     -210
+    ],
+    [
+     40,
+     -196
+    ],
+    [
+     12,
+     -188
+    ],
+    [
+     -12,
+     -188
+    ],
+    [
+     -40,
+     -196
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#c08a4a",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -204
+    ],
+    [
+     30,
+     -204
+    ]
+   ],
+   "width": 2,
+   "color": "#dcae72"
+  }
+ ]
+}

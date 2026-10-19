@@ -1,0 +1,386 @@
+{
+ "name": "grass_tuft",
+ "description": "One small tuft of grass: six thin tapered green #5f9a3a blades (alternating darker) fanning up from a little brown dirt clump. Not a meadow. Bottom-centre anchor (y=0); bbox about x -60..+60, y -150..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "plant",
+  "grass",
+  "tuft",
+  "ground",
+  "023"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -28.8,
+     -6
+    ],
+    [
+     -29.4,
+     -55.0
+    ],
+    [
+     -30,
+     -100
+    ],
+    [
+     -20.4,
+     -50.0
+    ],
+    [
+     -12.8,
+     -6
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#5f9a3a",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -20.8,
+     -10
+    ],
+    [
+     -25.4,
+     -50.0
+    ],
+    [
+     -28.5,
+     -90.0
+    ]
+   ],
+   "width": 2,
+   "color": "#8ccc5a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -16.8,
+     -6
+    ],
+    [
+     -15.4,
+     -77.0
+    ],
+    [
+     -14,
+     -140
+    ],
+    [
+     -6.4,
+     -70.0
+    ],
+    [
+     -0.8,
+     -6
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#4a7f2c",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -8.8,
+     -10
+    ],
+    [
+     -11.4,
+     -70.0
+    ],
+    [
+     -13.3,
+     -126.0
+    ]
+   ],
+   "width": 2,
+   "color": "#8ccc5a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -5.6,
+     -6
+    ],
+    [
+     -0.8,
+     -82.5
+    ],
+    [
+     4,
+     -150
+    ],
+    [
+     8.2,
+     -75.0
+    ],
+    [
+     10.4,
+     -6
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#5f9a3a",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     2.4,
+     -10
+    ],
+    [
+     3.2,
+     -75.0
+    ],
+    [
+     3.8,
+     -135.0
+    ]
+   ],
+   "width": 2,
+   "color": "#8ccc5a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     2.4,
+     -6
+    ],
+    [
+     11.2,
+     -70.4
+    ],
+    [
+     20,
+     -128
+    ],
+    [
+     20.2,
+     -64.0
+    ],
+    [
+     18.4,
+     -6
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#4a7f2c",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     10.4,
+     -10
+    ],
+    [
+     15.2,
+     -64.0
+    ],
+    [
+     19.0,
+     -115.2
+    ]
+   ],
+   "width": 2,
+   "color": "#8ccc5a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     11.2,
+     -6
+    ],
+    [
+     24.6,
+     -52.8
+    ],
+    [
+     38,
+     -96
+    ],
+    [
+     33.6,
+     -48.0
+    ],
+    [
+     27.2,
+     -6
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#5f9a3a",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     19.2,
+     -10
+    ],
+    [
+     28.6,
+     -48.0
+    ],
+    [
+     36.1,
+     -86.4
+    ]
+   ],
+   "width": 2,
+   "color": "#8ccc5a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -32.0,
+     -6
+    ],
+    [
+     -39.0,
+     -38.5
+    ],
+    [
+     -46,
+     -70
+    ],
+    [
+     -30.0,
+     -35.0
+    ],
+    [
+     -16.0,
+     -6
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#4a7f2c",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -24.0,
+     -10
+    ],
+    [
+     -35.0,
+     -35.0
+    ],
+    [
+     -43.7,
+     -63.0
+    ]
+   ],
+   "width": 2,
+   "color": "#8ccc5a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     0
+    ],
+    [
+     -50,
+     -12
+    ],
+    [
+     -20,
+     -20
+    ],
+    [
+     20,
+     -20
+    ],
+    [
+     50,
+     -12
+    ],
+    [
+     58,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#7a5a3a",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": -10,
+   "r": 8,
+   "color": "#5a3e24",
+   "density": 0.3
+  },
+  {
+   "type": "circle",
+   "x": -30,
+   "y": -8,
+   "r": 2.5,
+   "width": 0,
+   "color": "#4a321c",
+   "fill": "#4a321c",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -6,
+   "y": -8,
+   "r": 2.5,
+   "width": 0,
+   "color": "#4a321c",
+   "fill": "#4a321c",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 24,
+   "y": -8,
+   "r": 2.5,
+   "width": 0,
+   "color": "#4a321c",
+   "fill": "#4a321c",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 40,
+   "y": -8,
+   "r": 2.5,
+   "width": 0,
+   "color": "#4a321c",
+   "fill": "#4a321c",
+   "outline": false
+  }
+ ]
+}

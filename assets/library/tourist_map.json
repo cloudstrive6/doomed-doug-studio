@@ -1,0 +1,522 @@
+{
+ "name": "tourist_map",
+ "description": "Doug's unfolded paper tourist city map: pale cream sheet folded in four vertical panels (alternate panels shaded, wavy top/bottom edges at the folds), blue river, grey street grid, green park squares, a red 'you are here' dot; no readable text. Centre anchor, ~305x210 (x -152..+152, y -106..+102). Hold it in Doug's front hand at one edge.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "map",
+  "paper",
+  "travel",
+  "023"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -100
+    ],
+    [
+     -50,
+     -106
+    ],
+    [
+     50,
+     -100
+    ],
+    [
+     150,
+     -106
+    ],
+    [
+     152,
+     102
+    ],
+    [
+     50,
+     96
+    ],
+    [
+     -50,
+     102
+    ],
+    [
+     -148,
+     98
+    ]
+   ],
+   "fill": "#f3ead0",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -106
+    ],
+    [
+     50,
+     -100
+    ],
+    [
+     50,
+     96
+    ],
+    [
+     -50,
+     102
+    ]
+   ],
+   "fill": "#e4d8b6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     -106
+    ],
+    [
+     152,
+     102
+    ],
+    [
+     100,
+     99
+    ],
+    [
+     100,
+     -103
+    ]
+   ],
+   "fill": "#e4d8b6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -110,
+     -95
+    ],
+    [
+     -107,
+     95
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -70,
+     -95
+    ],
+    [
+     -67,
+     95
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -25,
+     -95
+    ],
+    [
+     -22,
+     95
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     25,
+     -95
+    ],
+    [
+     28,
+     95
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     -95
+    ],
+    [
+     73,
+     95
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     115,
+     -95
+    ],
+    [
+     118,
+     95
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -145,
+     -65
+    ],
+    [
+     148,
+     -68
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -145,
+     -25
+    ],
+    [
+     148,
+     -28
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -145,
+     15
+    ],
+    [
+     148,
+     12
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -145,
+     55
+    ],
+    [
+     148,
+     52
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -140,
+     85
+    ],
+    [
+     140,
+     -90
+    ]
+   ],
+   "width": 4,
+   "color": "#b5b5b5"
+  },
+  {
+   "type": "rect",
+   "x": -130,
+   "y": -80,
+   "w": 50,
+   "h": 40,
+   "fill": "#7cc25a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 60,
+   "y": 30,
+   "w": 60,
+   "h": 45,
+   "fill": "#7cc25a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -20,
+   "y": -60,
+   "w": 35,
+   "h": 30,
+   "fill": "#7cc25a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -118,
+   "y": -68,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#4f8a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -96,
+   "y": -56,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#4f8a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 76,
+   "y": 44,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#4f8a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 98,
+   "y": 58,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#4f8a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -152,
+     30
+    ],
+    [
+     -90,
+     10
+    ],
+    [
+     -40,
+     45
+    ],
+    [
+     20,
+     20
+    ],
+    [
+     70,
+     -20
+    ],
+    [
+     120,
+     -10
+    ],
+    [
+     152,
+     -40
+    ]
+   ],
+   "width": 10,
+   "color": "#4a90d9"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -152,
+     30
+    ],
+    [
+     -90,
+     10
+    ],
+    [
+     -40,
+     45
+    ],
+    [
+     20,
+     20
+    ],
+    [
+     70,
+     -20
+    ],
+    [
+     120,
+     -10
+    ],
+    [
+     152,
+     -40
+    ]
+   ],
+   "width": 3,
+   "color": "#8fc4f0"
+  },
+  {
+   "type": "ellipse",
+   "x": -60,
+   "y": -15,
+   "rx": 13,
+   "ry": 13,
+   "fill": "#e0201b",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -60,
+   "y": -15,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -106
+    ],
+    [
+     -50,
+     102
+    ]
+   ],
+   "width": 3,
+   "color": "#bfae86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     -100
+    ],
+    [
+     50,
+     96
+    ]
+   ],
+   "width": 3,
+   "color": "#bfae86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     0
+    ],
+    [
+     150,
+     -2
+    ]
+   ],
+   "width": 2,
+   "color": "#cdbf98"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -100
+    ],
+    [
+     -50,
+     -106
+    ],
+    [
+     50,
+     -100
+    ],
+    [
+     150,
+     -106
+    ],
+    [
+     152,
+     102
+    ],
+    [
+     50,
+     96
+    ],
+    [
+     -50,
+     102
+    ],
+    [
+     -148,
+     98
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

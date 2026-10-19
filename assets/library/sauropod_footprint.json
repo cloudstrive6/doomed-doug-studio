@@ -1,0 +1,405 @@
+{
+ "name": "sauropod_footprint",
+ "description": "Huge sauropod footprint pressed into tan mud, low 3/4 top-down view: irregular mud patch, pale raised rim, round-oval print whose far inner wall shows dark, filled with still blue water #6fc1ee with white shine lines, three stubby toe marks at the front (right). ~420x180, anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "footprint",
+  "trace fossil",
+  "sauropod",
+  "jurassic",
+  "mud",
+  "023"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     221,
+     0
+    ],
+    [
+     215,
+     23
+    ],
+    [
+     188,
+     41
+    ],
+    [
+     147,
+     59
+    ],
+    [
+     100,
+     79
+    ],
+    [
+     51,
+     92
+    ],
+    [
+     0,
+     88
+    ],
+    [
+     -55,
+     78
+    ],
+    [
+     -110,
+     73
+    ],
+    [
+     -157,
+     66
+    ],
+    [
+     -188,
+     47
+    ],
+    [
+     -200,
+     22
+    ],
+    [
+     -199,
+     0
+    ],
+    [
+     -191,
+     -22
+    ],
+    [
+     -176,
+     -47
+    ],
+    [
+     -150,
+     -66
+    ],
+    [
+     -110,
+     -73
+    ],
+    [
+     -58,
+     -78
+    ],
+    [
+     0,
+     -88
+    ],
+    [
+     54,
+     -92
+    ],
+    [
+     100,
+     -79
+    ],
+    [
+     140,
+     -59
+    ],
+    [
+     176,
+     -41
+    ],
+    [
+     205,
+     -23
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#c9a87a",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": -170,
+   "y": 40,
+   "r": 16,
+   "color": "#a8885a",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -90,
+   "y": 64,
+   "r": 16,
+   "color": "#a8885a",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 70,
+   "r": 16,
+   "color": "#a8885a",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 90,
+   "y": 64,
+   "r": 16,
+   "color": "#a8885a",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 170,
+   "y": 40,
+   "r": 16,
+   "color": "#a8885a",
+   "density": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 172,
+   "ry": 70,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#e2c89a"
+  },
+  {
+   "type": "spray",
+   "x": -110,
+   "y": -52,
+   "r": 10,
+   "color": "#f6e2bc",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": -60,
+   "r": 10,
+   "color": "#f6e2bc",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 40,
+   "y": -60,
+   "r": 10,
+   "color": "#f6e2bc",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 110,
+   "y": -52,
+   "r": 10,
+   "color": "#f6e2bc",
+   "density": 0.35
+  },
+  {
+   "type": "ellipse",
+   "x": 124,
+   "y": -34,
+   "rx": 20,
+   "ry": 13,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#8a6a4a"
+  },
+  {
+   "type": "ellipse",
+   "x": 142,
+   "y": -6,
+   "rx": 20,
+   "ry": 13,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#8a6a4a"
+  },
+  {
+   "type": "ellipse",
+   "x": 134,
+   "y": 24,
+   "rx": 20,
+   "ry": 13,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#8a6a4a"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 4,
+   "rx": 140,
+   "ry": 52,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#8a6a4a"
+  },
+  {
+   "type": "ellipse",
+   "x": 4,
+   "y": 14,
+   "rx": 128,
+   "ry": 40,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#6fc1ee",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -60,
+   "y": 26,
+   "r": 12,
+   "color": "#4fa6d8",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 32,
+   "r": 12,
+   "color": "#4fa6d8",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 60,
+   "y": 30,
+   "r": 12,
+   "color": "#4fa6d8",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -80,
+     6
+    ],
+    [
+     -30,
+     -2
+    ],
+    [
+     30,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     50,
+     30
+    ],
+    [
+     90,
+     26
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -140,
+     4
+    ],
+    [
+     -120,
+     30
+    ],
+    [
+     -60,
+     50
+    ],
+    [
+     40,
+     54
+    ],
+    [
+     110,
+     40
+    ],
+    [
+     140,
+     6
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -190,
+     40
+    ],
+    [
+     -176,
+     44
+    ]
+   ],
+   "width": 2,
+   "color": "#8a6a4a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     180,
+     50
+    ],
+    [
+     194,
+     54
+    ]
+   ],
+   "width": 2,
+   "color": "#8a6a4a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -160,
+     -60
+    ],
+    [
+     -146,
+     -56
+    ]
+   ],
+   "width": 2,
+   "color": "#8a6a4a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     120,
+     -70
+    ],
+    [
+     134,
+     -66
+    ]
+   ],
+   "width": 2,
+   "color": "#8a6a4a"
+  }
+ ]
+}
