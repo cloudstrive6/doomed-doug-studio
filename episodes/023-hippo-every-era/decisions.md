@@ -32,3 +32,14 @@
   3. Analogy props repeat (bus x2, credit card x2, ping-pong table x2, cars throughout). Vary the drawings' framing so the cards don't
      feel recycled.
 - Series bible updated: counter 195, HIPPO SURVIVED tally and the hippo-loss rule, used-once lines, episode log row.
+
+## 2026-10-19: shotlist (director)
+- 301 shots, all 3,106 spoken words in order, Doug (incl. ghost) in 96% of shots, every death beat ticks DOUG DEATHS 186 to 195; a
+  HIPPO SURVIVED label (size 28 at 1590/1600,238, `chalkboard` icon at 0.07) sits under the counter and only moves on survivals (1,2,3,4,5,6).
+- Hippo losses are never deaths: black card + red X "HIPPO" (Purussaurus), `time_machine_hippo_ears` door shut, red X on the tally board.
+- Family photo is a new stiff formal portrait asset (`hippo_whale_portrait`), not 019's `family_photo_frame`. Scale props vary framing
+  (car on a weighbridge vs 4 cars stacked; school bus side view; ping-pong table side vs end view; bank card vs credit-card edge).
+- **Capless upright Doug, approved one-off (s297-s298 outro):** the hippo wears Doug's red cap in the closing Trafalgar Square image
+  ("The cap survived all twelve"), so Doug stands beside it with `gear: ["cap_off"]` (precedent 008 close). Art director to confirm.
+- Shorts: short01 Purussaurus (cut before the badge death, tease s085), short02 Titanoboa (tease the T. rex at s140), short03 The
+  Morrison footprint (cut before the Allosaurus choice, tease s177). Titles/descriptions left for the youtube-titler.

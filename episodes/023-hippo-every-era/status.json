@@ -14,7 +14,12 @@
       "stage": "script_approved",
       "at": "2026-10-19T16:34:25+00:00",
       "note": "CD approved draft 2 (screener round 2 PASS); polish A1-A3 applied by CD"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-10-19T16:57:39+00:00",
+      "note": "301 shots, 3,106 words verbatim; 41 new assets requested in asset_requests.md; 3 Shorts picked (titles pending titler); thumbnail.json pending graphic designer"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }

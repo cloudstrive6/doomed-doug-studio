@@ -1,0 +1,41 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s068",
+      "to": "s081",
+      "hook": "This giant caiman ruled the rivers of ancient Brazil.",
+      "hook_scene_from": "s065",
+      "title": "",
+      "outro": "Then the river started to bulge. Doug went back in for the badge. Full video below.",
+      "tease_from": "s085",
+      "tease_asset": "purussaurus",
+      "end_card": "WHAT DID THE RIVER KEEP?",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s113",
+      "to": "s128",
+      "title": "",
+      "outro": "Doug survived the biggest snake ever. Next stop: the last grass on Earth, and something five hippos heavy. Linked below.",
+      "tease_from": "s140",
+      "tease_asset": "t_rex",
+      "end_card": "WHAT FOUND THE HIPPO'S LAST GRASS?",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s165",
+      "to": "s176",
+      "hook": "Doug took a hippo back 150 million years.",
+      "hook_scene_from": "s158",
+      "title": "",
+      "outro": "The Allosaurus looked at Doug, then at the hippo, and made its choice. Which one is in the full video below.",
+      "tease_from": "s177",
+      "tease_asset": "allosaurus",
+      "end_card": "WHO DID THE ALLOSAURUS PICK?",
+      "description": ""
+    }
+  ]
+}
