@@ -25,14 +25,19 @@ After each major step, commit your progress: `git add -A && git commit -m "<id>:
 - If `data/ideas.md` has fewer than 5 ideas with status `backlog`, have the **growth-analyst** add at least 10
   new proven-engine ideas before the creative director picks (the launch phase publishes one video a day).
 
+## Quality bar
+The channel publishes 3 episodes a week (not daily): use the time for quality, not speed. Every
+episode must be one the creative director would click on from the thumbnail and watch to the end. Spend the extra
+round on the opening minute (the retention cliff) and on the thumbnail and title.
+
 ## 1. Brief: creative-director
 Ask it to pick the next episode from `data/ideas.md` and create it: `python -m studio new <slug>` then write
 `brief.md`, mark the idea `in-production`. Stage stays `idea`.
 
-## 2. Script: script-writer ⇄ script-screener (max 3 rounds)
+## 2. Script: script-writer ⇄ script-screener (max 4 rounds)
 Writer produces `script.md` + `facts.md` → stage `scripted`. Screener writes `script_review.md`.
 FAIL → send the review back to the writer. After a PASS, the creative-director gives approval (it may request
-changes: counts as a round) → stage `script_approved`. If still failing after 3 rounds: ask the creative-director
+changes: counts as a round) → stage `script_approved`. If still failing after 4 rounds: ask the creative-director
 to either simplify the brief and retry once, or abort (then notify and stop).
 
 ## 3. Packaging text + shotlist (can run in parallel)

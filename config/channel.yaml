@@ -43,18 +43,17 @@ schedule:
   display_timezone: "Pacific/Auckland"   # every time shown to the owner (Telegram, status, logs) is in NZ time
   publish_time: "12:00"
   review_window_days: 0.75   # videos are uploaded >= this many days (0.75 = 18 h) before going public (owner review window); lets a morning build fill the next day
-  launch:                    # one video EVERY day (+3 Shorts) for the first N uploads
-    episodes: 9999           # owner goal 2026-10-20: monetize ASAP, then $1,000/day -> stay daily until monetized
-                             # (was 28 then weekly); revisit with real RPM data
+  launch:                    # the daily launch run (first 23 uploads, 30 Sep - 24 Oct 2026) is over
+    episodes: 23
     publish_days: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
-    queue_target: 4          # keep this many scheduled-but-unpublished videos in the queue during launch
-  publish_days: ["Fri"]      # after the launch: one long video a week
-  episodes_ahead: 1          # after the launch: scheduled videos to keep in the queue
+    queue_target: 4
+  publish_days: ["Mon", "Wed", "Fri"]   # 3 episodes a week: 12:00 New York = Tue/Thu/Sat 5:00 AM NZDT (owner, 2026-10-20)
+  episodes_ahead: 3          # keep a week of episodes scheduled ahead
 
 shorts:                      # vertical Shorts cut from each episode, pointing viewers to the long video
-  per_episode: 3
+  per_episode: 4             # 3 episodes/week x 4 = 12 Shorts/week, about 2 a day
   publish_times: ["09:00", "14:00", "19:00"]   # launch phase, New York time = 2:00 AM, 7:00 AM and 12:00 PM NZDT (3 a day matches 1 episode x 3 Shorts)
-  weekly_publish_times: ["19:00"]     # after the launch: 1 Short a day (12:00 PM NZDT); launch backlog keeps it daily
+  weekly_publish_times: ["09:00", "19:00"]   # after the launch: 2 Shorts a day, 2:00 AM and 12:00 PM NZDT
   playlist: "Doomed Doug Shorts"
 
 compilations:                # weekly marathons of published episodes (studio/compile.py), not in the daily episode slots
