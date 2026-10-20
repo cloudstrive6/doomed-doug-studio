@@ -271,12 +271,19 @@ def check_related() -> list[Issue]:
     """Shorts whose long video is public but whose Related-video link isn't set (Studio-only, so the owner/Claude in
     Chrome does it). Reported once a day at most via the state file."""
     from .shorts import pending_related
+    out = []
     ready = [p for p in pending_related() if _utc(p["long_publish_at"]) < NOW()]
-    if not ready:
-        return []
-    return [Issue("related_pending", "low", "owner",
-                  f"{len(ready)} Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
-                  detail="\n".join(f"{p['short_title']} -> {p['related_title']}" for p in ready))]
+    if ready:
+        out.append(Issue("related_pending", "low", "owner",
+                         f"{len(ready)} Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+                         detail="\n".join(f"{p['short_title']} -> {p['related_title']}" for p in ready)))
+    # end screens (Studio-only, like Related video): every uploaded episode should send finishers to the next video
+    no_es = [(ep.name, m["youtube_id"]) for ep, m, _ in _episodes() if m.get("youtube_id") and not m.get("end_screen_set")]
+    if no_es:
+        out.append(Issue("end_screens_pending", "low", "owner",
+                         f"{len(no_es)} episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+                         detail="\n".join(f"{n} https://studio.youtube.com/video/{v}/editor" for n, v in no_es)))
+    return out
 
 
 def check_ticks() -> list[Issue]:

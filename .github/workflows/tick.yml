@@ -32,3 +32,4 @@ jobs:
             gh workflow run snapshot.yml -R "$R" && echo "-> snapshot"
           fi
           if [ "$DOW" = "7" ] && [ "$H" = "14" ] && [ "$M" -lt 30 ]; then gh workflow run growth.yml -R "$R" && echo "-> growth"; fi
+          if [ "$DOW" = "2" ] && [ "$H" = "20" ] && [ "$M" -ge 30 ]; then gh workflow run compile.yml -R "$R" && echo "-> compile"; fi

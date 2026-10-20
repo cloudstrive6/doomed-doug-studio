@@ -415,6 +415,14 @@ def cmd_health(a):
         health.alert(rep)
 
 
+def cmd_compile(a):
+    from . import compile as comp
+    if not a.upload_only:
+        comp.build(a.slug)
+    if not a.render_only:
+        comp.upload(a.slug, dry_run=a.dry_run)
+
+
 def cmd_ypp(a):
     from . import notify, ypp
     p = ypp.progress()
@@ -468,6 +476,9 @@ def main():
     x = s.add_parser("queue"); x.add_argument("--github-output", action="store_true"); x.set_defaults(f=cmd_queue)
     x = s.add_parser("health"); x.add_argument("--fix", action="store_true"); x.add_argument("--alert", action="store_true")
     x.add_argument("--agent-file"); x.set_defaults(f=cmd_health)
+    x = s.add_parser("compile"); x.add_argument("slug"); x.add_argument("--render-only", action="store_true")
+    x.add_argument("--upload-only", action="store_true"); x.add_argument("--dry-run", action="store_true")
+    x.set_defaults(f=cmd_compile)
     x = s.add_parser("ypp"); x.add_argument("--notify", action="store_true"); x.set_defaults(f=cmd_ypp)
     x = s.add_parser("actions-usage"); x.add_argument("--alert", action="store_true"); x.set_defaults(f=cmd_actions_usage)
     a = p.parse_args()

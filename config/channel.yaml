@@ -23,6 +23,10 @@ video:
   target_minutes: [15, 18]
   loudness_lufs: -14          # narration normalised to YouTube's playback reference (-14 LUFS integrated)
   true_peak_db: -1.5         # true-peak ceiling after normalising
+  end_slate:                 # appended to every episode: space for YouTube's end-screen video + Subscribe elements
+    seconds: 15
+    title: "DOUG'S NEXT DEATH"
+    line: "Doug is already dead again in the next one. It is right here."
   music: null                # low bed under narration, e.g. assets/music/bed.mp3 (YouTube Audio Library / CC0 only)
   music_volume: 0.06
   sting: null                # short swell at each item change, e.g. assets/music/sting.mp3
@@ -52,6 +56,10 @@ shorts:                      # vertical Shorts cut from each episode, pointing v
   publish_times: ["09:00", "14:00", "19:00"]   # launch phase, New York time = 2:00 AM, 7:00 AM and 12:00 PM NZDT (3 a day matches 1 episode x 3 Shorts)
   weekly_publish_times: ["19:00"]     # after the launch: 1 Short a day (12:00 PM NZDT); launch backlog keeps it daily
   playlist: "Doomed Doug Shorts"
+
+compilations:                # weekly marathons of published episodes (studio/compile.py), not in the daily episode slots
+  publish_days: ["Sat"]
+  publish_time: "16:00"     # New York = Sun 9:00 AM NZDT (clear of the 12:00 episode and the Shorts slots)
 
 social:                      # Facebook + Instagram cross-posting (after the YouTube publish time)
   facebook_long: true        # full episode as a native Facebook Page video

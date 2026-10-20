@@ -1,0 +1,68 @@
+name: Weekly marathon compilation
+
+# Long-video watch hours are the bottleneck to monetization: once a week the creative director plans a themed
+# marathon of published episodes (pipeline/prompts/compile_weekly.md); studio/compile.py builds it (trims end slates,
+# matches loudness, cold open, chapters, thumbnail) and uploads it scheduled into "Full Series & Marathons".
+on:
+  schedule:
+    - cron: "30 20 * * 2"          # Tue 20:30 UTC; tick.yml also dispatches it
+  workflow_dispatch:
+
+concurrency:
+  group: compile
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      ANTHROPIC_API_KEY_BACKUP: ${{ secrets.ANTHROPIC_API_KEY }}  # only used after the subscription limit is hit
+      GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main   # latest state when the job STARTS (a queued run would otherwise check out its stale trigger commit)
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+          npm install -g @anthropic-ai/claude-code
+          git config user.name "doomed-doug-bot"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
+      - name: Plan the marathon (creative director)
+        run: |
+          rm -f .compilation
+          bash pipeline/claude_run.sh claude_compile.jsonl 120 "$(cat pipeline/prompts/compile_weekly.md)"
+          test -s .compilation || { echo "no compilation planned"; exit 1; }
+          echo "SLUG=$(cat .compilation)" >> "$GITHUB_ENV"
+      - name: Build + upload
+        run: |
+          python -m studio compile "$SLUG"
+          python -m studio notify "🎬 Marathon scheduled: $(python -c "import json;m=json.load(open('compilations/$SLUG/metadata.json'));print(m['title'], m['url'])")"
+      - name: Save
+        if: always()
+        run: |
+          git add -A compilations && (git commit -m "compilation: built + uploaded" || true) && git pull --rebase -X theirs && git push
+      - name: Alert on failure
+        if: failure()
+        run: python -m studio notify "❌ Weekly marathon failed. Log: $RUN_URL"

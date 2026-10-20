@@ -9,3 +9,5 @@ claude_*.jsonl
 tests/*/build/
 .cache/
 trailers/*/build/
+compilations/*/build/
+.compilation

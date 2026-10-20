@@ -207,6 +207,11 @@ def upload_episode(ep_dir: Path, dry_run: bool = False, publish_at_override: str
     vid = resp["id"]
     meta.update(youtube_id=vid, publish_at=publish_at, url=f"https://youtu.be/{vid}",
                 uploaded_at=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"))
+    try:  # length of the appended end slate, so marathons can trim it (studio/compile.py)
+        tm = json.loads((ep_dir / "build" / "timing.json").read_text(encoding="utf-8"))["shots"]
+        meta["end_slate_s"] = next((x["duration"] for x in tm if x["id"] == "endslate"), 0)
+    except Exception:
+        pass
     meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
     warnings = []
     try:

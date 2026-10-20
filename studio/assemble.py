@@ -44,7 +44,28 @@ def load_shotlist(ep_dir: Path) -> dict:
             current = shot["chapter"]
         tb = shot.get("topbar", True)
         shot["_topbar"] = None if tb is False else (tb if isinstance(tb, str) else current)
+    slate = load_config()["video"].get("end_slate")
+    if slate and sl.get("end_slate", True) and sl.get("shots") and not any(s["id"] == "endslate" for s in sl["shots"]):
+        sl["shots"].append(end_slate_shot(slate))
     return sl
+
+
+def end_slate_shot(cfg: dict) -> dict:
+    """15 s end slate appended to every episode: one narrated line, Doug on the left pointing right at two empty
+    frames where YouTube's end-screen elements go (a video at the top right, Subscribe below it). Watch-time goal:
+    send finishers straight into the next episode instead of leaving. Elements pop in so QC sees no static stretch."""
+    frame = {"type": "rect", "x": 1010, "y": 150, "w": 720, "h": 405, "fill": "#14202c", "color": "#ffffff", "width": 6}
+    return {"id": "endslate", "narration": cfg.get("line", ""), "topbar": False, "pause_after": 0.3,
+            "min_duration": float(cfg.get("seconds", 15)), "scene": {"background": "#8fd3ff", "elements": [
+                {"type": "rect", "x": 0, "y": 900, "w": 1920, "h": 180, "fill": "#7ac943", "width": 0},
+                {**frame, "appear": 0.1},
+                {"type": "circle", "x": 1370, "y": 760, "r": 120, "fill": "#14202c", "color": "#ffffff", "width": 6,
+                 "appear": 0.3},
+                {"type": "wordart", "text": cfg.get("title", "DOUG'S NEXT DEATH"), "x": 470, "y": 210, "size": 84},
+                {"type": "doug", "x": 430, "y": 880, "scale": 0.9, "pose": ["point", "wave"], "expression": "hopeful"},
+                {"type": "arrow", "from": [640, 520], "to": [960, 380], "color": "#e0201b", "width": 18, "head": 60,
+                 "appear": 0.5},
+                {"type": "label", "text": "SUBSCRIBE", "x": 1370, "y": 945, "size": 44, "appear": 0.7}]}}
 
 
 # ------------------------------------------------------------------ previews
