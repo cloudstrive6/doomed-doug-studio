@@ -1,0 +1,66 @@
+{
+ "_note": "Test C Doug in peril: point-of-view straight into a Tylosaurus maw, Doug falling into the throat, arms flailing. Text GULP (no title words).",
+ "background": "#1a5866",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "asset",
+   "name": "tylosaurus_mouth",
+   "x": 770,
+   "y": 400,
+   "scale": 1.15,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 840,
+   "y": 170,
+   "r": 10,
+   "fill": "#cfe9ff",
+   "color": "#ffffff",
+   "width": 2,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 870,
+   "y": 125,
+   "r": 13,
+   "fill": "#cfe9ff",
+   "color": "#ffffff",
+   "width": 2,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 760,
+   "y": 330,
+   "scale": 0.62,
+   "pose": "fall",
+   "expression": "shock",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "GULP",
+   "x": 185,
+   "y": 360,
+   "size": 120,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

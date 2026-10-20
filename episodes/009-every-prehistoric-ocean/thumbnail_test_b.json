@@ -1,0 +1,88 @@
+{
+ "_note": "Test B hero close-up: Megalodon's head rising diagonally out of teal water toward tiny snorkelling Doug at the surface. Text WRONG ERA (no title words).",
+ "background": "#24797c",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 140,
+   "fill": "#8fd3ff",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "megalodon",
+   "x": -240,
+   "y": 760,
+   "scale": 2.4,
+   "rotate": -20,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     140
+    ],
+    [
+     320,
+     134
+    ],
+    [
+     640,
+     144
+    ],
+    [
+     960,
+     135
+    ],
+    [
+     1280,
+     142
+    ]
+   ],
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 1060,
+   "y": 140,
+   "scale": 0.56,
+   "pose": "swim1",
+   "expression": "shock",
+   "facing": "left",
+   "gear": [
+    "mask"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "WRONG ERA",
+   "x": 330,
+   "y": 72,
+   "size": 100,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "_note": "Test B hero close-up: a giant T. rex silhouette with a red rim buried in the orange rock right under tiny Doug and his shovel, one yellow eye lit. Text IT MOVED (no title words).",
+ "background": "#c07a3a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 220,
+   "fill": "#8fd3ff",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 220,
+   "w": 1280,
+   "h": 34,
+   "fill": "#d9b77a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     220
+    ],
+    [
+     1280,
+     220
+    ]
+   ],
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "t_rex",
+   "x": 640,
+   "y": 900,
+   "scale": 1.5,
+   "silhouette": true,
+   "glow_r": 0,
+   "rim": {
+    "color": "#e0201b",
+    "px": 5
+   },
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 1075,
+   "y": 322,
+   "r": 10,
+   "fill": "#ffe24a",
+   "color": "#000000",
+   "width": 3,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 900,
+   "y": 152,
+   "scale": 0.45,
+   "pose": "stand",
+   "expression": "shock",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "shovel",
+   "x": 972,
+   "y": 172,
+   "scale": 0.45,
+   "rotate": 15,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "IT MOVED",
+   "x": 300,
+   "y": 110,
+   "size": 105,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

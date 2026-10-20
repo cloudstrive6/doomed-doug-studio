@@ -1,0 +1,120 @@
+{
+ "_note": "Test C Doug in peril: Doug in the ant costume, jaws locked, clinging to the tip of a grass blade at sunset (lancet liver fluke) while a giant sheep leans in to eat the grass. Text STUCK (no title words).",
+ "background": "#f2a24a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 260,
+   "fill": "#f6c45a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 620,
+   "w": 1280,
+   "h": 100,
+   "fill": "#7cc25a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     620
+    ],
+    [
+     1280,
+     620
+    ]
+   ],
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "grass_blade",
+   "x": 430,
+   "y": 720,
+   "scale": 0.6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "grass_blade",
+   "x": 610,
+   "y": 720,
+   "scale": 0.55,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "grass_blade",
+   "x": 520,
+   "y": 720,
+   "scale": 0.8,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 520,
+   "y": 330,
+   "scale": 0.5,
+   "pose": "arms_up",
+   "expression": "gritted",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "ant_costume",
+   "x": 520,
+   "y": 330,
+   "scale": 0.5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "sheep",
+   "x": 1060,
+   "y": 720,
+   "scale": 2.0,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "STUCK",
+   "x": 215,
+   "y": 95,
+   "size": 110,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

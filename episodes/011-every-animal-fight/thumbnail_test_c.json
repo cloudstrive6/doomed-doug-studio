@@ -1,0 +1,115 @@
+{
+ "_note": "Test C Doug in peril: a red kangaroo's double kick launching Doug through the air over the outback, motion lines behind him. Text ROUND 1 (no title words).",
+ "background": "#8fd3ff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 600,
+   "w": 1280,
+   "h": 120,
+   "fill": "#e8a33a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     600
+    ],
+    [
+     1280,
+     600
+    ]
+   ],
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "red_kangaroo_kick",
+   "x": 330,
+   "y": 604,
+   "scale": 0.95,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     680,
+     470
+    ],
+    [
+     760,
+     420
+    ],
+    [
+     840,
+     380
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     690,
+     520
+    ],
+    [
+     780,
+     470
+    ],
+    [
+     860,
+     430
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 960,
+   "y": 330,
+   "scale": 0.66,
+   "pose": "fall",
+   "expression": "shock",
+   "facing": "right",
+   "rotate": -20,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "ROUND 1",
+   "x": 1010,
+   "y": 85,
+   "size": 110,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

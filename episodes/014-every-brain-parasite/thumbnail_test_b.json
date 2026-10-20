@@ -1,0 +1,93 @@
+{
+ "_note": "Test B hero close-up: the boss amoeba Balamuthia blown up huge on near-black, its nucleus staring like an eye, tiny Doug looking up at it. Text 90% FATAL (facts: about 90 percent fatal). No title words, no anatomy.",
+ "background": "#120a0c",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "spray",
+   "x": 800,
+   "y": 330,
+   "r": 440,
+   "color": "#5e4670",
+   "density": 0.45,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     520,
+     400
+    ],
+    [
+     420,
+     440
+    ],
+    [
+     330,
+     500
+    ],
+    [
+     300,
+     545
+    ],
+    [
+     345,
+     552
+    ],
+    [
+     430,
+     505
+    ],
+    [
+     540,
+     470
+    ]
+   ],
+   "fill": "#d9cba3",
+   "color": "#6b5a3a",
+   "width": 6,
+   "smooth": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "balamuthia_amoeba",
+   "x": 820,
+   "y": 330,
+   "scale": 3.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 200,
+   "y": 560,
+   "scale": 0.45,
+   "pose": "cower",
+   "expression": "shock",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "90% FATAL",
+   "x": 300,
+   "y": 95,
+   "size": 96,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

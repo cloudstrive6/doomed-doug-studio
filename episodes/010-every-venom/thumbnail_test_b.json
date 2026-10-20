@@ -1,0 +1,44 @@
+{
+ "_note": "Test B hero close-up: a black mamba rearing with its inky-black mouth gaping across the right half of a hot yellow frame, tiny Doug cowering in front of it. Text 30 MINUTES (facts: breathing trouble within half an hour). No title words.",
+ "background": "#ffd23a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "asset",
+   "name": "black_mamba_gape",
+   "x": 470,
+   "y": 600,
+   "scale": 2.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 1160,
+   "y": 470,
+   "scale": 0.5,
+   "pose": "cower",
+   "expression": "gritted",
+   "facing": "left",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "TOO CLOSE",
+   "x": 320,
+   "y": 80,
+   "size": 100,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

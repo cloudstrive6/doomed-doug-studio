@@ -1,0 +1,103 @@
+{
+ "_note": "Test C Doug in peril: Doug sprinting across a meadow with a swarm of Asian giant hornets on his tail, the nearest one huge and closing in. Text RUN! (no title words).",
+ "background": "#8fd3ff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 600,
+   "w": 1280,
+   "h": 120,
+   "fill": "#7cc25a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     600
+    ],
+    [
+     1280,
+     600
+    ]
+   ],
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "asian_giant_hornet",
+   "x": 1130,
+   "y": 150,
+   "scale": 0.4,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "asian_giant_hornet",
+   "x": 1120,
+   "y": 470,
+   "scale": 0.55,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "asian_giant_hornet",
+   "x": 640,
+   "y": 520,
+   "scale": 0.42,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 300,
+   "y": 505,
+   "scale": 0.62,
+   "pose": "run1",
+   "expression": "shock",
+   "facing": "left",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "asian_giant_hornet",
+   "x": 820,
+   "y": 270,
+   "scale": 0.85,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "RUN!",
+   "x": 230,
+   "y": 95,
+   "size": 140,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

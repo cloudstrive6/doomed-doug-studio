@@ -1,0 +1,287 @@
+{
+ "_note": "Test C Doug in peril: Doug sweating on a shrinking rock in Nyiragongo's lava lake, arms up, his travel suitcase sinking in the lava beside him. Text NO REFUNDS (no title words).",
+ "background": "#2b1a1a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     300
+    ],
+    [
+     200,
+     360
+    ],
+    [
+     330,
+     470
+    ],
+    [
+     -10,
+     470
+    ]
+   ],
+   "fill": "#4a3b30",
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     1290,
+     280
+    ],
+    [
+     1060,
+     350
+    ],
+    [
+     930,
+     470
+    ],
+    [
+     1290,
+     470
+    ]
+   ],
+   "fill": "#4a3b30",
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 470,
+   "w": 1280,
+   "h": 250,
+   "fill": "#ff5a1f",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 640,
+   "y": 700,
+   "r": 380,
+   "color": "#ffb000",
+   "density": 0.2,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     470
+    ],
+    [
+     300,
+     476
+    ],
+    [
+     640,
+     466
+    ],
+    [
+     980,
+     476
+    ],
+    [
+     1280,
+     470
+    ]
+   ],
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     60,
+     560
+    ],
+    [
+     180,
+     548
+    ],
+    [
+     300,
+     570
+    ]
+   ],
+   "color": "#b8320f",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     880,
+     640
+    ],
+    [
+     1000,
+     628
+    ],
+    [
+     1120,
+     650
+    ]
+   ],
+   "color": "#b8320f",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     380,
+     680
+    ],
+    [
+     500,
+     668
+    ],
+    [
+     560,
+     690
+    ]
+   ],
+   "color": "#b8320f",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "rock_lump",
+   "x": 640,
+   "y": 540,
+   "scale": 0.62,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 360,
+   "y": 520,
+   "r": 18,
+   "fill": "#ffb000",
+   "color": "#000000",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 410,
+   "y": 600,
+   "r": 12,
+   "fill": "#ffb000",
+   "color": "#000000",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 1100,
+   "y": 540,
+   "r": 16,
+   "fill": "#ffb000",
+   "color": "#000000",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "travel_suitcase",
+   "x": 940,
+   "y": 560,
+   "scale": 0.3,
+   "rotate": -20,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 860,
+   "y": 560,
+   "w": 180,
+   "h": 60,
+   "fill": "#ff5a1f",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     860,
+     562
+    ],
+    [
+     950,
+     556
+    ],
+    [
+     1040,
+     562
+    ]
+   ],
+   "color": "#000000",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 640,
+   "y": 260,
+   "scale": 0.6,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "right",
+   "gear": [
+    "sweat"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "NO REFUNDS",
+   "x": 520,
+   "y": 640,
+   "size": 110,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

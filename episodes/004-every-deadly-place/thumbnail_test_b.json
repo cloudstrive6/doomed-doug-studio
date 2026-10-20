@@ -1,0 +1,139 @@
+{
+ "_note": "Test B hero close-up: a giant golden lancehead head looming from the top of the frame over tiny Doug with his travel suitcase on Snake Island, small lanceheads at his feet. Text THOUSANDS OF THEM (facts: 2,000-4,000 snakes). No title words.",
+ "background": "#4fd6f0",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 590,
+   "w": 1280,
+   "h": 130,
+   "fill": "#7cc25a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     590
+    ],
+    [
+     1280,
+     590
+    ]
+   ],
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "golden_lancehead",
+   "x": 1300,
+   "y": 1130,
+   "scale": 4.0,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     330,
+     318
+    ],
+    [
+     250,
+     322
+    ],
+    [
+     214,
+     304
+    ],
+    [
+     236,
+     326
+    ],
+    [
+     212,
+     344
+    ],
+    [
+     252,
+     330
+    ],
+    [
+     330,
+     330
+    ]
+   ],
+   "fill": "#e0201b",
+   "color": "#000000",
+   "width": 3,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "travel_suitcase",
+   "x": 70,
+   "y": 590,
+   "scale": 0.24,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 170,
+   "y": 532,
+   "scale": 0.38,
+   "pose": "cower",
+   "expression": "shock",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "golden_lancehead",
+   "x": 330,
+   "y": 680,
+   "scale": 0.33,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "golden_lancehead",
+   "x": 80,
+   "y": 700,
+   "scale": 0.28,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "THOUSANDS OF THEM",
+   "x": 640,
+   "y": 75,
+   "size": 96,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

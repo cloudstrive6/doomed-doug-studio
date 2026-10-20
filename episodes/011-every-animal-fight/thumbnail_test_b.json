@@ -1,0 +1,44 @@
+{
+ "_note": "Test B hero close-up: a silverback beating its chest, roaring, filling the right half of a flat yellow frame; tiny Doug smirking with a thumbs up. Text EASY? (no title words).",
+ "background": "#ffd23a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "asset",
+   "name": "silverback_chest_beat",
+   "x": 860,
+   "y": 850,
+   "scale": 1.25,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 250,
+   "y": 560,
+   "scale": 0.42,
+   "pose": "thumbs_up",
+   "expression": "smirk",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "EASY?",
+   "x": 260,
+   "y": 140,
+   "size": 150,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

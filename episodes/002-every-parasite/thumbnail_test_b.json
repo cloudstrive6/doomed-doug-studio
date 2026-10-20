@@ -1,0 +1,58 @@
+{
+ "_note": "Test B hero close-up: a giant malaria mosquito filling the left two-thirds on flat yellow, needle aimed at tiny Doug asleep on his back. Text ONE BITE (no title words; malaria is the episode's 610,000-a-year item).",
+ "background": "#ffe24a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "asset",
+   "name": "mosquito",
+   "x": 500,
+   "y": 230,
+   "scale": 2.45,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 1060,
+   "y": 540,
+   "scale": 0.58,
+   "pose": "cower",
+   "expression": "gritted",
+   "facing": "left",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "ONE",
+   "x": 1090,
+   "y": 85,
+   "size": 120,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "BITE",
+   "x": 1090,
+   "y": 200,
+   "size": 120,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 9,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
