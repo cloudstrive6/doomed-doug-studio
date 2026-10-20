@@ -283,6 +283,13 @@ def check_related() -> list[Issue]:
         out.append(Issue("end_screens_pending", "low", "owner",
                          f"{len(no_es)} episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
                          detail="\n".join(f"{n} https://studio.youtube.com/video/{v}/editor" for n, v in no_es)))
+    # thumbnail Test & compare (Studio-only): episodes uploaded with A/B/C variants but no test set yet
+    no_test = [(ep.name, m["youtube_id"]) for ep, m, _ in _episodes() if m.get("youtube_id")
+               and (ep / "thumbnail_test_b.json").exists() and not m.get("thumb_test_set")]
+    if no_test:
+        out.append(Issue("thumb_tests_pending", "low", "owner",
+                         f"{len(no_test)} episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+                         detail="\n".join(f"{n} https://studio.youtube.com/video/{v}/edit" for n, v in no_test)))
     return out
 
 

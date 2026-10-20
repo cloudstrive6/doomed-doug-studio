@@ -100,7 +100,9 @@ def release_assets(ep: Path) -> dict:
     """Store the episode's videos in a DRAFT GitHub release ep-<NNN> (not publicly downloadable). Each file is
     copied to the public release only when it is cross-posted, i.e. after it is live on YouTube."""
     tag = "ep-" + ep.name[:3]
-    files = [p for p in [ep / "build" / "final.mp4", *sorted((ep / "build" / "shorts").glob("short*.mp4"))] if p.exists()]
+    files = [p for p in [ep / "build" / "final.mp4", *sorted((ep / "build" / "shorts").glob("short*.mp4")),
+                         *[ep / "build" / f for f in ("thumbnail.png", "thumbnail_b.png", "thumbnail_c.png")]]
+             if p.exists()]  # thumbnails: the A/B/C set for YouTube Studio's Test & compare
     exists = subprocess.run(["gh", "release", "view", tag, "--repo", REPO], capture_output=True).returncode == 0
     if not exists:
         subprocess.run(["gh", "release", "create", tag, "--repo", REPO, "--draft", "--title", f"Episode {ep.name}",

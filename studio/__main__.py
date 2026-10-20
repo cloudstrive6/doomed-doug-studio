@@ -99,6 +99,16 @@ def cmd_thumbnail(a):
         im.resize((1280, 720), Image.NEAREST).save(out)
     im.resize((320, 180), Image.LANCZOS).save(ep / "build" / "thumbnail_small.png")  # how it looks in the feed
     print(out)
+    # A/B/C test variants for YouTube Studio's "Test & compare" (the main thumbnail.json is variant A)
+    for v in ("b", "c"):
+        src = ep / f"thumbnail_test_{v}.json"
+        if src.exists():
+            o = render_scene_file(src, ep / "build" / f"thumbnail_{v}.png")
+            iv = Image.open(o)
+            if iv.size != (1280, 720):
+                iv.resize((1280, 720), Image.NEAREST).save(o)
+            iv.resize((320, 180), Image.LANCZOS).save(ep / "build" / f"thumbnail_{v}_small.png")
+            print(o)
 
 
 def cmd_art(a):

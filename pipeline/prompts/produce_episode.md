@@ -51,8 +51,9 @@ Then director renders keyframes (`python -m studio keyframes <id>`) and fixes ob
 re-render keyframes for changed shots (`--shots s012,s013`), re-review. Max 3 rounds → stage `art_approved`.
 
 ## 5. Thumbnail: graphic-designer → creative-director → visual-screener
-Designer makes `thumbnail.json` (and optionally `thumbnail_b.json`); creative-director picks (copy the winner to
-`thumbnail.json`); visual-screener checks the thumbnail at feed size.
+Designer makes the three thumbnail variants (`thumbnail.json` = hero close-up, `thumbnail_test_b.json` = Doug in
+peril, `thumbnail_test_c.json` = simple grid; see `.claude/agents/graphic-designer.md`); the creative director
+approves all three (each must be one they'd click); visual-screener checks all three at feed size (168x94).
 
 ## 6. Timing: editor
 Make sure `shorts.json` exists (director picks, titler titles) and `python -m studio shorts validate <id>` is OK.

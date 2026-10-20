@@ -20,7 +20,8 @@ with its narration under it). Check each shot:
 
 ## Post-render
 View `build/samples/*.png` (frames every 30 s from final.mp4) and `build/qc.json`: black/blank frames, glitches,
-frozen shots, unreadable moments. View `build/thumbnail.png` and `build/thumbnail_small.png`: readable at feed size,
+frozen shots, unreadable moments. View all three thumbnails (`build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` and their `_small`
+versions): each readable at feed size with one clear focal point,
 Doug + threat obvious, complements the title in `metadata.json`, not misleading.
 
 Shorts: view `build/shorts/*_preview.png` (and a few frames from `build/shorts/*.mp4` with ffmpeg): title

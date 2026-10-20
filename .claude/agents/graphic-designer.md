@@ -13,19 +13,23 @@ of the video (a table of contents shown for the first 1.5–4 s). It must read a
 - `episodes/<id>/metadata.json` (title + `thumbnail_brief`), `episodes/<id>/script.md` (item/chapter names)
 - The newest `data/insights/*.md` (which archetype is winning for us)
 
-## Episode thumbnail: `episodes/<id>/thumbnail.json` (`"size": [1280, 720]`)
-Pick the archetype from the style bible:
-- **A. Labelled tile grid (default):** white background, 6–12 `tile`s in a neat grid, each with a creature/place
-  from the library on a zone-coloured fill and a bold comic label underneath (label = the chapter name, ≤ 4 words).
-- **B. Tiered pyramid / iceberg:** for layered topics (ocean depth, eras): stacked bands from light to dark with
-  labels outside, alternating sides.
-- **C. Hero close-up:** one or two huge subjects (a silhouette-with-glow or a mouth full of teeth), 1–3 words of big
-  text, flat background, tiny Doug for scale. Cartoon only, never gore.
-Rules: no title text on the thumbnail; ≤ 3 fonts; never repeat a title word as a label; Doug appears only small
-(scale figure) or as one tile, and his red cap must be visible when he does.
-Render: `python -m studio thumbnail <id>` → check `build/thumbnail.png` AND `build/thumbnail_small.png`.
-Iterate until every tile reads small. If unsure, also make `thumbnail_b.json` (another archetype); the creative
-director picks and copies the winner to `thumbnail.json`.
+## Episode thumbnails: THREE variants for YouTube's Test & compare (`"size": [1280, 720]`)
+Owner decision 2026-10-20: our tile grids and pyramids turn into unreadable confetti at feed size (most episodes
+0–3% CTR); The Paint Explainer's own biggest outliers are hero close-ups. A new channel gets about one second of a
+stranger's attention, so every thumbnail needs ONE focal point that reads at 168x94. Make all three; YouTube shows
+each to a share of viewers and keeps the one with the most watch time, and the results tell us the channel's style.
+- **`thumbnail.json` = A. Hero close-up (the default and the video's opening image):** one huge creature filling
+  half the frame or more (face, eyes, mouth full of teeth, or a silhouette with a red glow), Doug small but clearly
+  in danger with his red cap visible, 0–3 words of huge text that ADD to the title (a reaction, a number, a
+  contradiction: "VEGETARIAN", "NOT ME?", "97% FATAL"), saturated flat background with strong contrast.
+- **`thumbnail_test_b.json` = B. Doug in peril:** a scene, not a portrait: Doug mid-predicament (falling, swallowed,
+  sinking, cornered) with the threat closing in, reaction face readable, 0–2 words.
+- **`thumbnail_test_c.json` = C. Simple grid:** at most 4–6 BIG tiles (never 9–16), each one creature, labels ≤ 2 words,
+  or a 3–4 band pyramid for layered topics. The list-format control.
+Rules for all three: cartoon only, never gore; no title text; ≤ 2 fonts; never repeat a title word; Doug's red cap
+visible in every variant (brand recognition in the feed); test every variant at 168x94 (`build/*_small.png`): if
+the subject or the words don't read at that size, simplify. Variants must differ in concept, not just colour.
+Render: `python -m studio thumbnail <id>` → `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` (+ `_small`).
 
 ## Channel branding (in `channel/`)
 `banner.json` → `banner.png` (2560x1440; all key art inside the central 1546x423 safe area), `avatar.json` →
