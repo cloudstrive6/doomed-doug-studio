@@ -415,6 +415,15 @@ def cmd_health(a):
         health.alert(rep)
 
 
+def cmd_ypp(a):
+    from . import notify, ypp
+    p = ypp.progress()
+    text = ypp.summary(p)
+    print(text.encode("ascii", "replace").decode())
+    if a.notify:
+        notify.send(text)
+
+
 def cmd_actions_usage(a):
     from .actions_usage import check
     u = check(alert=a.alert)
@@ -459,6 +468,7 @@ def main():
     x = s.add_parser("queue"); x.add_argument("--github-output", action="store_true"); x.set_defaults(f=cmd_queue)
     x = s.add_parser("health"); x.add_argument("--fix", action="store_true"); x.add_argument("--alert", action="store_true")
     x.add_argument("--agent-file"); x.set_defaults(f=cmd_health)
+    x = s.add_parser("ypp"); x.add_argument("--notify", action="store_true"); x.set_defaults(f=cmd_ypp)
     x = s.add_parser("actions-usage"); x.add_argument("--alert", action="store_true"); x.set_defaults(f=cmd_actions_usage)
     a = p.parse_args()
     a.f(a)

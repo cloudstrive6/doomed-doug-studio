@@ -45,6 +45,9 @@ jobs:
       - name: Pull analytics + competitor data
         continue-on-error: true
         run: python -m studio analytics
+      - name: Monetization progress (Telegram)
+        continue-on-error: true
+        run: python -m studio ypp --notify
       - name: Growth analyst + creative director
         run: |
           bash pipeline/claude_run.sh claude_growth.jsonl 200 "$(cat pipeline/prompts/weekly_growth.md)"

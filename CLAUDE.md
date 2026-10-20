@@ -4,6 +4,15 @@ Automated faceless YouTube channel **Doomed Doug** (@DoomedDoug): MS Paint stick
 disturbing science & nature lane. Every video the narrator sends Doug (stick man, red cap) somewhere nature
 really doesn't want him. Format replicated from The Paint Explainer (structure/hooks/titles, not content).
 
+## Goal (owner, 2026-10-20)
+Get the channel **monetized (YouTube Partner Program with ad revenue) as fast as possible**, then reach **$1,000/day
+from AdSense** as fast as possible. Ad eligibility = 1,000 subscribers AND 4,000 public long-form watch hours
+(12 months) or 10M Shorts views (90 days); revenue comes almost entirely from long videos (Shorts pay ~1-2% as
+much per view). So: Shorts for discovery and subscribers, **long-video watch time and click-through is the
+north star**, and everything stays inside YouTube policy (no bought views/subs, sub4sub, misleading packaging,
+reused or repetitive content); a policy strike or a YPP rejection is the slowest path of all.
+Progress: `python -m studio ypp` (data/ypp/).
+
 ## Map
 | Path | What |
 |---|---|
@@ -24,7 +33,7 @@ really doesn't want him. Format replicated from The Paint Explainer (structure/h
 `status` · `new <slug>` · `stage <ep> <stage>` · `validate <ep> [shotlist|metadata]` · `keyframes <ep> [--shots s001,s002]`
 · `asset-preview <name...>` · `thumbnail <ep>` · `art <scene.json> <out.png>` · `narrate <ep>` ·
 `render <ep> [--limit N] [--final]` · `qc <ep>` · `upload <ep> [--dry-run]` · `analytics` · `notify "<text>" [--photo p]`
-· `voices` · `auth` · `branding` · `queue` · `actions-usage` · `shorts validate|render|upload <ep>` · `shorts pending` · `shorts mark-related <shortYouTubeId>` · `auth-meta` · `social release <ep>` · `social publish-due [--dry-run]` · `signals "<query>"...` · `competitors` · `gate <ep>` · `health [--fix] [--alert]`
+· `voices` · `auth` · `branding` · `queue` · `actions-usage` · `shorts validate|render|upload <ep>` · `shorts pending` · `shorts mark-related <shortYouTubeId>` · `auth-meta` · `social release <ep>` · `social publish-due [--dry-run]` · `signals "<query>"...` · `competitors` · `gate <ep>` · `health [--fix] [--alert]` · `ypp [--notify]`
 
 Stages: idea → scripted → script_approved → shotlisted → art_approved → packaged → built → qc_passed → uploaded.
 
@@ -36,4 +45,4 @@ Stages: idea → scripted → script_approved → shotlisted → art_approved �
 - Doug's design is locked (`studio/doug.py`); only the art director may add poses/gear.
 - Never commit or print secrets (`.env`, tokens). Uploads happen only through `python -m studio upload` after QC.
 - Uploads are scheduled `publishAt` ≥ 18 h out (`schedule.review_window_days`); the owner reviews in YouTube Studio during that window.
-- Cadence: first 28 uploads daily (launch), then weekly on Fridays (`config/channel.yaml` → `schedule`).
+- Cadence: one long video + 3 Shorts every day until the channel is monetized (`config/channel.yaml` → `schedule`).

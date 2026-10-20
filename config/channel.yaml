@@ -39,8 +39,9 @@ schedule:
   display_timezone: "Pacific/Auckland"   # every time shown to the owner (Telegram, status, logs) is in NZ time
   publish_time: "12:00"
   review_window_days: 0.75   # videos are uploaded >= this many days (0.75 = 18 h) before going public (owner review window); lets a morning build fill the next day
-  launch:                    # binge-able back catalogue first: one video EVERY day for the first N uploads
-    episodes: 28
+  launch:                    # one video EVERY day (+3 Shorts) for the first N uploads
+    episodes: 9999           # owner goal 2026-10-20: monetize ASAP, then $1,000/day -> stay daily until monetized
+                             # (was 28 then weekly); revisit with real RPM data
     publish_days: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
     queue_target: 4          # keep this many scheduled-but-unpublished videos in the queue during launch
   publish_days: ["Fri"]      # after the launch: one long video a week
