@@ -65,4 +65,5 @@ jobs:
           git add -A compilations && (git commit -m "compilation: built + uploaded" || true) && git pull --rebase -X theirs && git push
       - name: Alert on failure
         if: failure()
-        run: python -m studio notify "❌ Weekly marathon failed. Log: $RUN_URL"
+        run: |
+          python -m studio notify "❌ Weekly marathon failed. Log: $RUN_URL"
