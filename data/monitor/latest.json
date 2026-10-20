@@ -1,16 +1,7 @@
 {
- "at": "2026-10-20T01:17:15+00:00",
- "issues": [
-  {
-   "key": "related_pending",
-   "severity": "low",
-   "owner": "owner",
-   "summary": "15 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
-   "detail": "Wasps Ate These Flies Alive and Fossilized Inside Them -> The Deeper Doug Digs, the Scarier the Fossils Get\nThis Fossil Snake Ate a Lizard That Ate an Insect -> The Deeper Doug Digs, the Scarier the Fossils Get\nThis Fossil Fish Bit a Pterosaur and Couldn't Let Go -> The Deeper Doug Digs, the Scarier the Fossils Get\nLake Vostok's Water Rushed Up the Drill Hole, Then Froze -> What Dying at Every Depth Under Antarctica Would Be Like\nNobody Knows What These Sponges Under Antarctica Are Eating -> What Dying at Every Depth Under Antarctica Would Be Like\nFish Swam Up to a Camera 740 Meters Under Antarctic Ice -> What Dying at Every Depth Under Antarctica Would Be Like\nThis Fungus Is Deleting Entire Species of Frog -> The Most Disturbing Fungi Scientists Have Ever Found\nThe Earthquake That Shook a Fungus Into a Whole County -> The Most Disturbing Fungi Scientists Have Ever Found\nMost Fungi Can't Grow at Body Heat. This One Can -> The Most Disturbing Fungi Scientists Have Ever Found\nThe Cassowary Can't Fly but Still Has a Claw on Its Wing -> Every Reason the Cassowary Is the Most Terrifying Bird Alive\nCampers Saw a Fin Coming Ashore. It Was a Cassowary. -> Every Reason the Cassowary Is the Most Terrifying Bird Alive\nThe Cassowary's Dagger Claw Is on the Raptor's Killing Toe -> Every Reason the Cassowary Is the Most Terrifying Bird Alive\nBrontosaurus Wore Somebody Else's Head for 47 Years -> The Creepiest Prehistoric Animals Scientists Drew All Wrong\nDimetrodon Is More Closely Related to You Than to T. Rex -> The Creepiest Prehistoric Animals Scientists Drew All Wrong\nScientists Still Can't Agree What Spinosaurus Looked Like -> The Creepiest Prehistoric Animals Scientists Drew All Wrong",
-   "route": "",
-   "fixed": false,
-   "extra": {}
-  }
- ],
- "resolved_since_last": []
+ "at": "2026-10-20T02:01:35+00:00",
+ "issues": [],
+ "resolved_since_last": [
+  "related_pending"
+ ]
 }
