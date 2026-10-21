@@ -45,3 +45,18 @@ I checked all 24 re-rendered contact sheets (s001 to s279 plus the endslate). I 
 2. **s049, s050 (director).** "MIDDLE" and "POND WEED" are drawn over pine tips, the same layering issue as the old s037. Draw the labels after the treeline or lift them to about y≈80. They are legible as they are, thanks to the outline.
 
 **Routing:** this needs no blocking action. The optional items go to the graphic designer (1) and the director (2). The next screen is post-render: `build/samples/`, `qc.json`, and the Shorts.
+
+## Round 3: thumbnail C re-check (2026-10-21)
+
+VERDICT: PASS
+
+I checked `build/thumbnail_c.png`, rebuilt at 18:21 from the edited `thumbnail_test_c.json`, at full size and downscaled to 168x94 (feed size). `thumbnail_c_small.png` matches the full-size image.
+- **Labels: fixed.** They are now one word each in heavy black type (Calf, Dive, Rut, Hooves, Train, Highway), each under its tile on white. All six are crisp at 168 px, and the Round 2 blur is gone. No label uses a title word.
+- **Doug in all six tiles: fixed.** He is at scale 0.33, with the red cap and white head readable in every tile at feed size. This includes Train (standing by the moose and locomotive) and Highway (pinned between the car and the bull). His lines are black on every background.
+- **Cropping:** nothing important is cropped. The edges trim the Dive antlers, the Highway car's rear and the moose's rump, but those are deliberate bleeds inside the frames. The Hooves bull's hump just touches the top edge of its tile, and its head and hooves are fully in frame.
+- **Gore and tone:** none. There are cartoon peril faces only, and no blood or injury marks. In Calf, Doug waves happily at the cow, which is ironic setup rather than a kids' show tone.
+- **A and B are unchanged.** `thumbnail.json` and `thumbnail_test_b.json` have not been modified since the last commit. The re-renders match Round 2: A is "WRONG ANIMAL" with the head-on bull, the sweating grizzly and Doug; B is "35 MPH" with the charging bull and Doug running away.
+
+Minor and not blocking (graphic designer): the Hooves tile is the weakest read at 168 px. The rearing bull becomes a brown diagonal blob with stick front legs. Pulling it about 20 px down and right, so the head sits clear of the top edge and nearer Doug, would help. In Highway, Doug's cap brim touches the moose's muzzle. A gap of a few pixels would make the cap pop.
+
+Routing: no action needed. C is cleared for the A/B/C test.
