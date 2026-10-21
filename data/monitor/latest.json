@@ -1,12 +1,22 @@
 {
- "at": "2026-10-21T15:37:55+00:00",
+ "at": "2026-10-21T16:01:52+00:00",
  "issues": [
+  {
+   "key": "queue_low",
+   "severity": "medium",
+   "owner": "auto",
+   "summary": "Queue 2/3 and no production running: started a production run",
+   "detail": "",
+   "route": "dispatch produce.yml",
+   "fixed": true,
+   "extra": {}
+  },
   {
    "key": "related_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "3 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
-   "detail": "This Cave Has Been Sealed for at Least 2.5 Million Years -> Why the Ground Gets Deadlier the Deeper Doug Goes\nA Scientist Tasted Billion-Year-Old Water -> Why the Ground Gets Deadlier the Deeper Doug Goes\nThe Deepest Hole Ever Drilled Is 0.2% of the Way Down -> Why the Ground Gets Deadlier the Deeper Doug Goes",
+   "summary": "6 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "detail": "This Cave Has Been Sealed for at Least 2.5 Million Years -> Why the Ground Gets Deadlier the Deeper Doug Goes\nA Scientist Tasted Billion-Year-Old Water -> Why the Ground Gets Deadlier the Deeper Doug Goes\nThe Deepest Hole Ever Drilled Is 0.2% of the Way Down -> Why the Ground Gets Deadlier the Deeper Doug Goes\nOne Orca Killed a Great White Shark in Two Minutes -> Why Orcas Kill Everything in the Ocean Except Doug\nOrcas Have Been Caught Killing Swimming Moose -> Why Orcas Kill Everything in the Ocean Except Doug\nOrcas Hunt the Largest Animal That Has Ever Lived -> Why Orcas Kill Everything in the Ocean Except Doug",
    "route": "",
    "fixed": false,
    "extra": {}
