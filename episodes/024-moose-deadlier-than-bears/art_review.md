@@ -152,3 +152,42 @@ new art except where noted. Most fixes are single-element moves for the **direct
 - **Director:** fixes 1-19 (all composition or shotlist edits; fix 12 uses the new `crouch` pose), plus the optional 20-26.
 - **Illustrator:** nothing required. Optional item 26, and asset-pass item 3 (moose_head_surfacing ears) remains optional.
 - Re-review: send only the changed shots (`python -m studio keyframes 024-moose-deadlier-than-bears --shots ...`), and I'll re-check them against this list.
+
+---
+
+# Keyframes round 2 (art director, 2026-10-21)
+
+**Verdict: PASS.** I re-reviewed all 24 contact sheets (s001-s279 + endslate) after the re-render, plus the three thumbnails.
+All 19 required fixes from round 1 are in, and the re-render introduced no new defects. Style, Doug on-model, zone palettes,
+counter (195 to 203) and scoreboard (BEAR 5 / MOOSE 11) are all still consistent, and nothing is gory.
+
+## Round-1 fixes verified
+1. Scoreboard hand: RESOLVED. In s018-s020, s047, s065, s096, s118, s141, s167, s191, s214, s238 and s269 the glove sits below and right of the newest tick, and "BEAR | MOOSE" plus every tick can be read.
+2. Shorelines s028/s029/s037: RESOLVED. The shore is now diagonal with a sand strip.
+3. s032/s035 invisible floor: RESOLVED. There is a single surface line, the board sits on the surface and the bull no longer stands on a mid-water line.
+4. s043-s048 Doug continuity: RESOLVED. He is on the paddleboard at the surface throughout.
+5. s047: RESOLVED. Doug is on the board and the scoreboard sits on the far shore.
+6. Labels: RESOLVED. s009 label clear of the counter, s044/s046 off the backboard, s106 "NPS: SAME" clear of Doug, s236 ellipse encloses "KILLED: 0".
+7. s010: RESOLVED. Doug stands clear between the moose and the door.
+8. s080: RESOLVED. Doug is out of the door.
+9. s105/s106/s110 speed lines: RESOLVED. They are anchored behind the moose.
+10. s100 tombstone: RESOLVED. It is on the ground.
+11. s121 doormat: RESOLVED. Removed.
+12. s071 crouch: RESOLVED. The new pose reads and the bubble tail points at the head.
+13. Den mounds s150/s152/s153/s165: RESOLVED. They now have a snow ground band.
+14. s166: RESOLVED. It uses one label, "AWAKE, HUNGRY, EXHAUSTED".
+15. s204 locomotive: RESOLVED. It sits on rails with a snow strip.
+16. s056: RESOLVED. "MAY-JUN" fits the page.
+17. Caption bar s146-s148 and s258-s263: RESOLVED. The bar is on, and the counter and scoreboard stay off for the real-death cards.
+18. s258-s263 static run: RESOLVED. s258-s260 show the night road and crossing sign, and s261-s263 show a large moose vs deer, all kept sober.
+19. s225 wolf: RESOLVED. It is inside the map, on the ice.
+Optional items also done: s015 now has a "?" on the card, s148 has a quiet campus and moose silhouette, s196 has no salad patch, and s172/s173 have the guide on the snow.
+
+## Still open (non-blocking, carry to next episode)
+- s211-s213 are still three identical track perspectives. Only the headlight grows, which is acceptable but flat, so the editor could add a push-in on s213.
+- Doug is still parked bottom-right in many info shots (e.g. s249-s252, s105, s159). Next episode, bring him into the scene more often.
+
+## Thumbnails (art pass; CD approval separate)
+- **A hero (`thumbnail.png`): APPROVED, my first pick.** The head-on moose glare fills the frame, "WRONG ANIMAL" is heavy and readable at 168 px, and the small bear plus screaming Doug set up the twist. The downturned mouth fix holds. It is the one I'd click.
+- **B peril (`thumbnail_b.png`): APPROVED, strong second.** The charging bull plus fleeing Doug on flat amber reads instantly at feed size, and "35 MPH" matches the script's 56 km/h. It is clickable, but less unexpected than A.
+- **C grid (`thumbnail_c.png`): APPROVED, weakest.** It is clean and on-grammar, but at 168 px the six cells become small brown shapes on colour. Use it as a test variant only.
