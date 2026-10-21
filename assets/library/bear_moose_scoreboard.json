@@ -1,0 +1,506 @@
+{
+ "name": "bear_moose_scoreboard",
+ "description": "The episode's BEAR / MOOSE scoreboard: the library chalkboard (same brown frame, dark green #2f5a3a board, ledge, chalk and eraser) with chalk-white #f4f4ec hand-lettered headers BEAR centred (-165,-150) and MOOSE centred (+165,-150), a chalk underline at y -100 and a chalk divider at x=0 (y -190..160). Both columns are empty for the shotlist's tally marks (BEAR x -300..-40, MOOSE x +30..+300, y -60..+150). Centre anchor, x -390..390, y -240..236.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "chalkboard",
+  "scoreboard",
+  "moose",
+  "bear",
+  "tally"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -380,
+   "y": -240,
+   "w": 760,
+   "h": 460,
+   "fill": "#8a4a24",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -372,
+   "y": -232,
+   "w": 744,
+   "h": 12,
+   "fill": "#a0582d",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -372,
+   "y": 196,
+   "w": 744,
+   "h": 18,
+   "fill": "#6e3a1c",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -360,
+     -228
+    ],
+    [
+     -280.0,
+     -225
+    ],
+    [
+     -200,
+     -228
+    ]
+   ],
+   "width": 2,
+   "color": "#5c2f16"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -120,
+     -230
+    ],
+    [
+     -20.0,
+     -227
+    ],
+    [
+     80,
+     -230
+    ]
+   ],
+   "width": 2,
+   "color": "#5c2f16"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     160,
+     -226
+    ],
+    [
+     250.0,
+     -223
+    ],
+    [
+     340,
+     -226
+    ]
+   ],
+   "width": 2,
+   "color": "#5c2f16"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -350,
+     206
+    ],
+    [
+     -250.0,
+     209
+    ],
+    [
+     -150,
+     206
+    ]
+   ],
+   "width": 2,
+   "color": "#5c2f16"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     40,
+     208
+    ],
+    [
+     170.0,
+     211
+    ],
+    [
+     300,
+     208
+    ]
+   ],
+   "width": 2,
+   "color": "#5c2f16"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -372,
+     -180
+    ],
+    [
+     -370,
+     -110.0
+    ],
+    [
+     -372,
+     -40
+    ]
+   ],
+   "width": 2,
+   "color": "#5c2f16"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -370,
+     20
+    ],
+    [
+     -368,
+     90.0
+    ],
+    [
+     -370,
+     160
+    ]
+   ],
+   "width": 2,
+   "color": "#5c2f16"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     370,
+     -160
+    ],
+    [
+     372,
+     -90.0
+    ],
+    [
+     370,
+     -20
+    ]
+   ],
+   "width": 2,
+   "color": "#5c2f16"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     372,
+     40
+    ],
+    [
+     374,
+     105.0
+    ],
+    [
+     372,
+     170
+    ]
+   ],
+   "width": 2,
+   "color": "#5c2f16"
+  },
+  {
+   "type": "rect",
+   "x": -350,
+   "y": -212,
+   "w": 700,
+   "h": 392,
+   "fill": "#2f5a3a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -346,
+   "y": -208,
+   "w": 692,
+   "h": 14,
+   "fill": "#264c30",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -346,
+   "y": -208,
+   "w": 14,
+   "h": 384,
+   "fill": "#264c30",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -290,
+   "y": -150,
+   "r": 50,
+   "color": "#264c30",
+   "density": 0.12
+  },
+  {
+   "type": "spray",
+   "x": 290,
+   "y": 120,
+   "r": 50,
+   "color": "#264c30",
+   "density": 0.12
+  },
+  {
+   "type": "spray",
+   "x": -180,
+   "y": -60,
+   "r": 90,
+   "color": "#4d7a59",
+   "density": 0.12
+  },
+  {
+   "type": "spray",
+   "x": 150,
+   "y": 40,
+   "r": 100,
+   "color": "#4a7556",
+   "density": 0.1
+  },
+  {
+   "type": "spray",
+   "x": 40,
+   "y": -130,
+   "r": 60,
+   "color": "#55836a",
+   "density": 0.08
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -370,
+     180
+    ],
+    [
+     370,
+     180
+    ],
+    [
+     390,
+     214
+    ],
+    [
+     -390,
+     214
+    ]
+   ],
+   "fill": "#a0582d",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -390,
+   "y": 214,
+   "w": 780,
+   "h": 22,
+   "fill": "#7a4220",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -360,
+     188
+    ],
+    [
+     360,
+     188
+    ]
+   ],
+   "width": 2,
+   "color": "#c27a45"
+  },
+  {
+   "type": "rect",
+   "x": -250,
+   "y": 194,
+   "w": 50,
+   "h": 12,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -180,
+   "y": 196,
+   "w": 34,
+   "h": 11,
+   "fill": "#fff6a8",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": 186,
+   "w": 110,
+   "h": 26,
+   "fill": "#c9a06a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": 204,
+   "w": 110,
+   "h": 8,
+   "fill": "#e8e8e8",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": -165,
+   "y": -150,
+   "r": 110,
+   "color": "#5f8a6b",
+   "density": 0.05
+  },
+  {
+   "type": "spray",
+   "x": 165,
+   "y": -150,
+   "r": 110,
+   "color": "#5f8a6b",
+   "density": 0.05
+  },
+  {
+   "type": "text",
+   "text": "BEAR",
+   "x": -165,
+   "y": -150,
+   "size": 78,
+   "color": "#f4f4ec",
+   "bold": true,
+   "font": "ComicNeue-Bold",
+   "boil": 0.6
+  },
+  {
+   "type": "text",
+   "text": "MOOSE",
+   "x": 165,
+   "y": -150,
+   "size": 78,
+   "color": "#f4f4ec",
+   "bold": true,
+   "font": "ComicNeue-Bold",
+   "boil": 0.6
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -318,
+     -100
+    ],
+    [
+     -160,
+     -97
+    ],
+    [
+     0,
+     -101
+    ],
+    [
+     160,
+     -98
+    ],
+    [
+     318,
+     -101
+    ]
+   ],
+   "width": 6,
+   "color": "#f4f4ec",
+   "boil": 0.6
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -190
+    ],
+    [
+     2,
+     -60
+    ],
+    [
+     -1,
+     60
+    ],
+    [
+     1,
+     160
+    ]
+   ],
+   "width": 6,
+   "color": "#f4f4ec",
+   "boil": 0.6
+  },
+  {
+   "type": "spray",
+   "x": -200,
+   "y": -98,
+   "r": 40,
+   "color": "#c9d6c8",
+   "density": 0.06
+  },
+  {
+   "type": "spray",
+   "x": 220,
+   "y": -100,
+   "r": 40,
+   "color": "#c9d6c8",
+   "density": 0.06
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 120,
+   "r": 30,
+   "color": "#c9d6c8",
+   "density": 0.06
+  },
+  {
+   "type": "rect",
+   "x": -380,
+   "y": -240,
+   "w": 760,
+   "h": 460,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}

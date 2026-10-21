@@ -1,0 +1,351 @@
+{
+ "name": "moose_track",
+ "description": "A moose front hoof print in snow, toes up: two long pointed teardrop halves of the cloven hoof with a gap between, two small dewclaw dots behind, blue-grey (#9fb3c6) inside shading on a pale snow patch, crisp dark outline. ~18 cm: at scale 1.4 it is ~1.15x a `dollar_bill` at 0.75. Centre anchor, x -85..85, y -135..135.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "object",
+  "track",
+  "footprint",
+  "moose",
+  "snow",
+  "024"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 82,
+   "ry": 132,
+   "fill": "#f7fbff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 0,
+   "r": 80,
+   "color": "#dfe9f3",
+   "density": 0.25
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -8,
+     -132
+    ],
+    [
+     -26,
+     -100
+    ],
+    [
+     -46,
+     -40
+    ],
+    [
+     -58,
+     20
+    ],
+    [
+     -56,
+     60
+    ],
+    [
+     -40,
+     80
+    ],
+    [
+     -18,
+     74
+    ],
+    [
+     -8,
+     40
+    ],
+    [
+     -6,
+     -20
+    ]
+   ],
+   "fill": "#9fb3c6",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -46,
+     -30
+    ],
+    [
+     -56,
+     20
+    ],
+    [
+     -52,
+     58
+    ],
+    [
+     -38,
+     72
+    ],
+    [
+     -30,
+     30
+    ],
+    [
+     -30,
+     -20
+    ]
+   ],
+   "fill": "#7d93aa",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -30,
+   "y": 30,
+   "r": 22,
+   "color": "#6f85a0",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -8,
+     -132
+    ],
+    [
+     -26,
+     -100
+    ],
+    [
+     -46,
+     -40
+    ],
+    [
+     -58,
+     20
+    ],
+    [
+     -56,
+     60
+    ],
+    [
+     -40,
+     80
+    ],
+    [
+     -18,
+     74
+    ],
+    [
+     -8,
+     40
+    ],
+    [
+     -6,
+     -20
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     8,
+     -132
+    ],
+    [
+     26,
+     -100
+    ],
+    [
+     46,
+     -40
+    ],
+    [
+     58,
+     20
+    ],
+    [
+     56,
+     60
+    ],
+    [
+     40,
+     80
+    ],
+    [
+     18,
+     74
+    ],
+    [
+     8,
+     40
+    ],
+    [
+     6,
+     -20
+    ]
+   ],
+   "fill": "#9fb3c6",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     46,
+     -30
+    ],
+    [
+     56,
+     20
+    ],
+    [
+     52,
+     58
+    ],
+    [
+     38,
+     72
+    ],
+    [
+     30,
+     30
+    ],
+    [
+     30,
+     -20
+    ]
+   ],
+   "fill": "#7d93aa",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 30,
+   "y": 30,
+   "r": 22,
+   "color": "#6f85a0",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     8,
+     -132
+    ],
+    [
+     26,
+     -100
+    ],
+    [
+     46,
+     -40
+    ],
+    [
+     58,
+     20
+    ],
+    [
+     56,
+     60
+    ],
+    [
+     40,
+     80
+    ],
+    [
+     18,
+     74
+    ],
+    [
+     8,
+     40
+    ],
+    [
+     6,
+     -20
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": -34,
+   "y": 112,
+   "rx": 14,
+   "ry": 10,
+   "fill": "#9fb3c6",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 34,
+   "y": 112,
+   "rx": 14,
+   "ry": 10,
+   "fill": "#9fb3c6",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -110
+    ],
+    [
+     -50,
+     -126
+    ]
+   ],
+   "width": 2,
+   "color": "#c9d8e4"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     60,
+     -110
+    ],
+    [
+     50,
+     -126
+    ]
+   ],
+   "width": 2,
+   "color": "#c9d8e4"
+  }
+ ]
+}
