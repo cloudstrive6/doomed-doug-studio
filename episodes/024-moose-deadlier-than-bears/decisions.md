@@ -84,3 +84,31 @@ I viewed all three at 1280x720 and at feed size, and read visual_review.md (PASS
 - 2026-10-21 (CD, thumbnail C final): APPROVED for the A/B/C test. Heavy one-word labels read at 168 px, Doug (red cap) is visible in 6/6 tiles, all labels match real chapters, no gore or kid tone. A is still primary. Optional polish, not required: nudge the Hooves bull ~20 px down/right and open a small gap between Doug's cap and the Highway muzzle.
 
 - 2026-10-21 (showrunner): script 4 rounds (draft 4 PASS; CD requested fixes at round 3→4), art 2 rounds (art-director + visual-screener PASS), thumbnails A/B/C approved (C needed one fix). Added tts custom pronunciation (Mech) in studio/tts.py + channel.yaml — listen to s229. Risks: 'deadlier' title only valid with 'to Doug' (sources support injuries not deaths); s202 line 'one to one and a half meters' clumsy; Doug often bottom-right.
+
+- 2026-10-21 (visual screener, post-render round 4): see visual_review.md Round 4.
+VERDICT (main): PASS
+VERDICT (shorts): FAIL (short01, short02 and short04 end cards are answered by their own outro or silhouette; text-only fixes to shorts.json `outro`/`end_card` are listed in visual_review.md; short03 PASS)
+
+## 2026-10-21: final package gate (creative director): APPROVED
+Reviewed: metadata.json (title, alt_titles, description, tags, playlist), build/chapters.txt, build/thumbnail.png at full and feed
+size, build/samples/f_001-f_003 (first ~90 s), the script opening, qc.json (16:07, no problems) and visual_review.md Round 4 (main PASS).
+
+1. **Title: keep "Why Moose Are Deadlier to Doug Than Any Bear".** 44 chars, Doug in the title, one dread word, and honest: "to Doug"
+   is paid off on screen (BEAR 0 / MOOSE 8 deaths), and the injury claim is ADF&G's own wording. No alt is clearly stronger: the
+   "Hurt More People" alt is 58 chars and reads clunky; "Every Way" and "Scariest Habits" are weaker promises. Keep the "Hurt More
+   People" alt as the first title A/B candidate if CTR is under channel median after 48 h. Not back-to-back with 023's formula.
+2. **Thumbnail A ("WRONG ANIMAL"): approved as primary** (B and C approved earlier for the test). The glaring bull plus the sweating
+   grizzly sells the premise without reading the title, text shares no word with the title, no gore, not cute.
+3. **Description:** first line is the sourced ADF&G claim (injuries, not deaths), so nothing over-promises; sources, cartoon/not-safety
+   disclaimer and AI-use disclosure are present; {{CHAPTERS}} will fill from chapters.txt (11 chapters, starts 0:00, all >10 s apart).
+   Tags and playlist `animals` are fine.
+4. **First 60 s:** the thumbnail is the opening image; the title promise is the first sentence; "The Deer" is named at about word 30;
+   the twist card (MORE PEOPLE IN ALASKA ARE INJURED BY MOOSE THAN BY BEARS) lands in the first ~35 s, and death 196 follows inside
+   the first chapter. Counter and BEAR/MOOSE board are on screen from the first shot. I'd keep watching.
+5. **Not blocking:** s015 shows the evidence card as an empty box with only the source line for about 1 s before s016 fills it.
+   Do not re-render for this; director note for future evidence cards: put the main text on the first shot of the card.
+- Shorts: main package is independent of the shorts.json end-card/outro fixes; those go through `shorts render` and the visual
+  screener's last-8 s re-check before any Short uploads.
+- Variety reminder stands: 025 should be a list/depth episode, not a fifth single-animal video.
+
+FINAL: APPROVED

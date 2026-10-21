@@ -60,3 +60,30 @@ I checked `build/thumbnail_c.png`, rebuilt at 18:21 from the edited `thumbnail_t
 Minor and not blocking (graphic designer): the Hooves tile is the weakest read at 168 px. The rearing bull becomes a brown diagonal blob with stick front legs. Pulling it about 20 px down and right, so the head sits clear of the top edge and nearer Doug, would help. In Highway, Doug's cap brim touches the moose's muzzle. A gap of a few pixels would make the cap pop.
 
 Routing: no action needed. C is cleared for the A/B/C test.
+
+## Round 4: post-render (final.mp4, thumbnails, Shorts) (2026-10-21)
+
+VERDICT (main): PASS
+VERDICT (shorts): FAIL
+
+### Main video (`build/samples/f_001-f_032`, `build/qc.json`)
+- `qc.json`: duration 967.1 s (16:07), `problems: []`. None of the 32 samples is black, blank, glitched or frozen-looking. Each sample is a different composition and chapter tags progress Deer to Highway.
+- Counter continuity: DOUG DEATHS runs 195 to 203 with no reversals. The BEAR/MOOSE tally ends 5-11 and the closing card shows 8 vs 0, matching the script's design (tally = narrator's judgement, not deaths).
+- Doug is on-model (red cap, white head) and readable in every frame he appears in. There is no gore. The f_008 red halo is mood glow, the f_012 rearing bull in The Hooves is cartoon, and the f_030 Maine "MOOSE VS DEER" card is sober. Nothing in a kids' show tone. Every caption and label I sampled is spelled correctly, not cropped and legible.
+- Minor and not blocking (director): f_002 / s015 catches the ADF&G card before its `question_mark` appears at 0.4, so for about 1 s it is an empty cream box with a small grey source line. Setting `appear` to 0.1, or adding the source line at a larger size, would fill the gap.
+
+### Thumbnails (`thumbnail.png`, `_b`, `_c` + `_small`, re-rendered 18:36)
+- They are unchanged from the Round 2/3 approvals. A ("WRONG ANIMAL") is still the strongest: one focal bull, the nervous grizzly and Doug read at 168 px, and it complements "Why Moose Are Deadlier to Doug Than Any Bear" without misleading. B ("35 MPH") and C (one-word grid, Doug in 6/6 tiles) are also readable at feed size. PASS.
+
+### Shorts (`build/shorts/short01-04.mp4` + previews; frames at 1 s, 20/40/60 %, and the last 8 s)
+- In all four Shorts the format is correct. The title is legible at the top, the drawings are not clipped at the sides, and the subtitles are legible and centred. (In the short03 preview, "with thei" is a downscale artifact. The video frames at 23-24 s show "bull moose with their" in full.) The end card arrow points down to the link, and each end card has a red-outlined silhouette with "???".
+- **short03 (antlers locked): PASS.** The title is paid off (Unalakleet, 8 in of ice, the locked racks). The outro "How that ended is in the full video below" leaves the question open, and the charging-moose silhouette with antlers is recognisable.
+- **short01 (Newfoundland): FAIL.** The end card "WHAT WAS STANDING IN THE ROAD?" is answered by its own picture and by the whole Short: the silhouette is a moose, and the outro says "a moose never has to attack anyone". The question gives the viewer nothing left to learn.
+- **short02 (nostrils): FAIL.** The outro answers the end-card question. It says "On a snowed-in railway, it won't move for a train", and the card then asks "WHO MOVES FIRST: MOOSE OR TRAIN?". The locomotive silhouette is mostly covered by "???", but the cab and wheels still read, so the silhouette is acceptable.
+- **short04 (drunk moose): FAIL.** The outro answers the end-card question. "...could, and it didn't move" means the moose kept the path, so "WHO GAVE UP THE PATH FIRST?" is already answered.
+
+### Required fixes (all `shorts.json` text edits, routed to the director: `outro` / `end_card`; then `shorts render`)
+1. **short01:** keep `tease_from` s272 and `tease_asset` moose. Change `end_card` to `DID DOUG SEE IT IN TIME?`. The outro can stay, or tighten it to "On that island's roads, a moose never has to attack anyone. Doug drove home there at night. Full video below."
+2. **short02:** change `outro` to "Underwater, a moose ignores you. On a snowed-in railway, Doug and a moose shared one track with a train coming. It's linked below." Change `end_card` to `WHO GOT OFF THE TRACK?`. Keep the `locomotive` tease, or switch `tease_asset` to `moose` so the silhouette reads more clearly.
+3. **short04:** change `outro` to "That moose couldn't get down. The one standing at the end of Doug's freshly shoveled Anchorage path could. Full video below." Keep `end_card` `WHO GAVE UP THE PATH FIRST?` and the moose tease.
+4. After the re-render, the visual screener only needs to re-check the last 8 s of short01, short02 and short04.
