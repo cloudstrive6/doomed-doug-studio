@@ -1,16 +1,6 @@
 {
- "at": "2026-10-21T22:01:56+00:00",
+ "at": "2026-10-21T22:45:45+00:00",
  "issues": [
-  {
-   "key": "shorts_missing:024-moose-deadlier-than-bears",
-   "severity": "medium",
-   "owner": "auto",
-   "summary": "024-moose-deadlier-than-bears: Shorts short01, short02, short03, short04 were never uploaded: uploaded 4 now",
-   "detail": "",
-   "route": "shorts upload",
-   "fixed": true,
-   "extra": {}
-  },
   {
    "key": "related_pending",
    "severity": "low",
