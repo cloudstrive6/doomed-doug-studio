@@ -112,3 +112,7 @@ size, build/samples/f_001-f_003 (first ~90 s), the script opening, qc.json (16:0
 - Variety reminder stands: 025 should be a list/depth episode, not a fifth single-animal video.
 
 FINAL: APPROVED
+
+- 2026-10-21 (showrunner, round 2): Shorts re-rendered after end-card/outro fixes; visual screener Round 5 PASS (main + shorts). QC re-run exits 0, no problems. Package unchanged since CD approval; stage already qc_passed. Optional: short01 description hint wording.
+
+FINAL: APPROVED

@@ -87,3 +87,17 @@ VERDICT (shorts): FAIL
 2. **short02:** change `outro` to "Underwater, a moose ignores you. On a snowed-in railway, Doug and a moose shared one track with a train coming. It's linked below." Change `end_card` to `WHO GOT OFF THE TRACK?`. Keep the `locomotive` tease, or switch `tease_asset` to `moose` so the silhouette reads more clearly.
 3. **short04:** change `outro` to "That moose couldn't get down. The one standing at the end of Doug's freshly shoveled Anchorage path could. Full video below." Keep `end_card` `WHO GAVE UP THE PATH FIRST?` and the moose tease.
 4. After the re-render, the visual screener only needs to re-check the last 8 s of short01, short02 and short04.
+
+## Round 5: Shorts re-check after end_card/outro fixes (2026-10-21)
+
+Scope: `build/shorts/short01-04.mp4` re-rendered 18:46-18:48 from the updated `shorts.json`. For each Short I checked the opening frame and frames at -9, -7, -5, -3, -1.5 and -0.3 s from the end. Main video and thumbnails are unchanged since Round 4 (`final.mp4` untouched, qc rerun clean), so the Round 4 PASS still applies.
+
+- **short01 (Newfoundland, 36.9 s): PASS.** The opening frame shows the title and the Newfoundland map with the "The island of Newfoundland" subtitle, all legible. The outro subtitles read "...a moose never has / to attack anyone. Doug / drove there at night. / Full video below." The end card asks "DID DOUG SEE IT IN TIME?". The moose silhouette shows what he meets, but nothing in the outro or the card says whether he saw it, so the question stays open. The red-outlined antlered moose with "???" is recognisable, and the arrow points down to the link.
+- **short02 (nostrils, 47.4 s): PASS.** The opening is the hook frame of the moose fully under the lake with Doug on a raft above, and the "A moose can vanish" subtitle. The outro reads "Underwater, a moose ignores / you. On a snowed-in / ...moose shared one track / with a train coming. / It's linked below." It no longer says who moved. "WHO GOT OFF THE TRACK?" is open, and the locomotive silhouette (cab, boiler and wheels showing around the "???") reads as a train.
+- **short03 (antlers locked, 51.5 s): PASS, unchanged.** The opening shows the Unalakleet ice and the "Two bull moose were" subtitle. The outro ends "How that ended is in the full video below", with "DID THE CARDBOARD ANTLERS FOOL HIM?" and the charging-moose silhouette. The question is not answered.
+- **short04 (drunk moose, 50.1 s): PASS.** The opening shows the moose stuck in the apple tree at night with Doug and the house, and the "A moose was stuck" subtitle. The outro reads "...down. The one standing / Doug's freshly shoveled Anchorage / path could. Full video / below." It now says only that this moose could move, not who gave way, so "WHO GAVE UP THE PATH FIRST?" is open. The moose silhouette is recognisable.
+- In all four, the title is legible at the top, nothing is clipped at the sides, the end card is centred and has no overlaps, and the @DoomedDoug tag is present. There are no black or frozen frames in the tail.
+- Minor and not blocking (titler): the short01 `description` ("what that did to Doug on Newfoundland's night roads") hints at the outcome a little. It is acceptable, but "shows what Doug met on Newfoundland's night roads" would keep the cliffhanger cleaner.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
