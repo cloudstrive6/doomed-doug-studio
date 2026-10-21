@@ -1,5 +1,5 @@
 <!-- axis: severity, measured against a bear. Three spoken bands: "Like bears." (items 1-5, the moose and the bear tie on the trait), "Unlike bears." (items 6-9, the moose does something a bear doesn't), "Worse than bears." (items 10-11, the moose is worse for people). Most extreme last: The Highway, the only item with numbers of people hurt and killed. -->
-<!-- Episode 024: Why Moose Are Deadlier to Doug Than Any Bear. Draft 3 (2026-10-21, script writer: round-2 rule 9 fix, sentence merges and longer wording in The Deer, The Calf, The Snow and The Train; Anchorage winter figure credited to the Alaska Science Forum, not the biologist. Draft 2 carried round-1 fixes F1-F4, T1 and advisories A1, A2, A4, A6.) Counter on screen at 195 from the first shot, ends at 203: eight deaths over eleven items (196-203). Survivals: The Dive, The Apples, The Train ("Doug is fine."; narrator quietly disappointed at The Apples and The Train). Death 200 (The Snow) is played flat. "Doug did not agree to this." once, in the opener. "hi friend?" at items 1, 3, 9 and "hi friends?" at item 10 (four total). One callback, to 021, in item 1. The cap: apple (1), willows (3), fallen log (5), snow (6), shovel (7), moss beside the cardboard antlers (8), wolf tracks (10), moose-crossing sign (11). BEAR / MOOSE scoreboard: ties in band 1, moose only after that, ends BEAR 5, MOOSE 11. Every tick is the narrator's judgement; the script says so once, in item 1. Field guide MOOSE page: FRIEND? empty at item 1, "NO" at death 196, "MAYBE" pencilled at The Dive and erased at The Calf, two-page closing. A bear never kills Doug and never attacks anything on screen. The Wolves tick is owned on air as attitude, not danger to people. -->
+<!-- Episode 024: Why Moose Are Deadlier to Doug Than Any Bear. Draft 4 (2026-10-21, script writer: creative director gate fixes, Wolves card and line now "77 TESTED" with no total-kills figure, Train continuity line made true, Train snow depth reworded for TTS, Hooves ends on the short punch "It's standing on the weapon."). Draft 3 (round-2 rule 9 fix, sentence merges and longer wording in The Deer, The Calf, The Snow and The Train; Anchorage winter figure credited to the Alaska Science Forum, not the biologist. Draft 2 carried round-1 fixes F1-F4, T1 and advisories A1, A2, A4, A6.) Counter on screen at 195 from the first shot, ends at 203: eight deaths over eleven items (196-203). Survivals: The Dive, The Apples, The Train ("Doug is fine."; narrator quietly disappointed at The Apples and The Train). Death 200 (The Snow) is played flat. "Doug did not agree to this." once, in the opener. "hi friend?" at items 1, 3, 9 and "hi friends?" at item 10 (four total). One callback, to 021, in item 1. The cap: apple (1), willows (3), fallen log (5), snow (6), shovel (7), moss beside the cardboard antlers (8), wolf tracks (10), moose-crossing sign (11). BEAR / MOOSE scoreboard: ties in band 1, moose only after that, ends BEAR 5, MOOSE 11. Every tick is the narrator's judgement; the script says so once, in item 1. Field guide MOOSE page: FRIEND? empty at item 1, "NO" at death 196, "MAYBE" pencilled at The Dive and erased at The Calf, two-page closing. A bear never kills Doug and never attacks anything on screen. The Wolves tick is owned on air as attitude, not danger to people. -->
 <!-- Deviations from the brief, all fact-driven (details in facts.md, "Brief leads that failed or changed"):
 1. Opening line rewritten so the first sentence states the title promise without spending the item 1 twist. The ADF&G injury line is the item 1 twist, in ADF&G's own wording: "more people in Alaska are injured by moose than by bears each year."
 2. The Run: the bear is NOT about as fast. ADF&G gives brown bears bursts of up to 64 km/h; moose about 56 km/h (Newfoundland government; NPS 35 mph). The tie stays, the twist changes: the bear wins on flat ground, the moose wins over fallen timber and deep snow (NPS: long legs carry it through deep snow and over obstacles). The bog was unsourced, so Doug runs into a tangle of fallen trees; the cap lands on a log, not a tussock.
@@ -201,7 +201,7 @@ It isn't hunting you, and it never eats what it fights. The Alaska Science Forum
 
 The disturbing part is where the weapon is kept.
 
-A moose doesn't have to reach for anything, open anything or get any closer than it already is. Its weapon is the thing it is already standing on.
+A moose doesn't have to reach for anything, open anything or get any closer than it already is. It's standing on the weapon.
 
 [The narrator's hand chalks a tick under MOOSE only. BEAR 5, MOOSE 6.]
 
@@ -291,7 +291,7 @@ A train cannot swerve, and it has to keep to its timetable through the whole Ala
 
 [A railway line through deep snow, walls of snow on either side. A moose walking between the rails. Label: "3-5 FT OF SNOW".]
 
-In nineteen eighty-six, an article in Fish and Game's own magazine explained that in winters when the snow lies three to five feet deep, moose use the cleared railway line for walking and resting. That is somewhere between one and one and a half meters of snow.
+In nineteen eighty-six, an article in Fish and Game's own magazine explained that in winters when the snow lies three to five feet deep, moose use the cleared railway line for walking and resting. That is about one to one and a half meters of snow.
 
 [A calendar for one year, every day crossed with a small moose, a few days with two. Label: "385".]
 
@@ -313,7 +313,7 @@ The same article says that once a moose is on the track, after struggling throug
 
 Doug stood on the tracks waving hello, and when the horn sounded, the moose turned to face the train instead of Doug, and Doug stepped off the other side. Doug is fine.
 
-For the first time all episode, Doug got out of the way of something, and the narrator found it a little hard to watch.
+That was the first sensible thing Doug had done all winter, and the narrator found it a little hard to watch.
 
 Worse than bears.
 
@@ -327,9 +327,9 @@ Out in the forest, nothing hunts a big animal quite like a wolf pack, but faced 
 
 Moose reached Isle Royale, an island in Lake Superior, in the early nineteen hundreds, and wolves arrived in the late nineteen forties, by crossing an ice bridge from Canada. Scientists began studying both in nineteen fifty-eight, more than ten years before the first Moon landing, and it is now the longest continuous predator and prey study in the world.
 
-[A pack of wolves fanning out around a moose standing in the snow. Label: "77 TESTED, 6 KILLED".]
+[A pack of wolves fanning out around a moose standing in the snow. Label: "77 TESTED".]
 
-In the early years, the biologist David Mech followed the island's large pack from the air, and in sixty-eight hours of watching he saw sixty-six hunts. The pack seriously tested seventy-seven moose, holding them at bay or chasing them for long distances, and it killed only six of them.
+In the early years, the biologist David Mech followed the island's large pack from the air, and in sixty-eight hours of watching he saw sixty-six hunts. The pack seriously tested seventy-seven moose, holding them at bay or chasing them for long distances.
 
 The unsettling part is what worked.
 
@@ -395,4 +395,4 @@ Doug has now been killed by a moose eight times. He has never even met a bear.
 
 Doug deaths: two hundred and three. Moose: eight. Bears: still zero. Which animal with a gentle reputation should Doug misjudge next? Tell us in the comments.
 
-<!-- words: 3037 (spoken narration only: opener, spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:35 at 195 wpm · draft 3 (2026-10-21) · 11 items · 180 sentences by simple split (164 by textstat), avg 16.9 words, max 34 · Flesch 70.2 measured with textstat flesch_reading_ease on the spoken text (draft 2 measured 72.9) · per item Flesch: The Deer 69.4, The Dive 70.8, The Calf 69.7, The Apples 70.3, The Run 73.3, The Hooves 70.8, The Snow 66.3, The Rut 60.6, The Train 76.7, The Wolves 71.8, The Highway 69.1 · per item words: The Deer 231, The Dive 285, The Calf 248, The Apples 268, The Run 236, The Hooves 248, The Snow 274, The Rut 255, The Train 294, The Wolves 267, The Highway 403 incl. closing kicker and 26-word outro · every item keeps a sentence of 6 words or fewer · US spelling throughout -->
+<!-- words: 3021 after the CD's draft-4 wording fix in The Train (second "Doug stepped off" removed; Flesch 70.3 re-measured), was 3026 (spoken narration only: opener, spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:30 at 195 wpm · draft 4 (2026-10-21) · 11 items · Flesch 70.3 measured with textstat flesch_reading_ease on the spoken text (draft 3 measured 70.2) · per item Flesch: The Deer 69.4, The Dive 70.8, The Calf 69.7, The Apples 70.3, The Run 73.3, The Hooves 71.2, The Snow 66.3, The Rut 60.6, The Train 77.0, The Wolves 71.8, The Highway 69.1 · per item words: The Deer 231, The Dive 285, The Calf 248, The Apples 268, The Run 236, The Hooves 243, The Snow 274, The Rut 255, The Train 295, The Wolves 260, The Highway 403 incl. closing kicker and 26-word outro · every item keeps a sentence of 6 words or fewer, and The Hooves now has one besides its name · US spelling throughout -->
