@@ -38,7 +38,11 @@ def synthesize(text: str, voice: dict, cache_dir: Path) -> tuple[bytes, bool]:
     load_dotenv()
     key = os.environ.get("GOOGLE_TTS_API_KEY")
     cache_dir.mkdir(parents=True, exist_ok=True)
-    h = hashlib.sha1(json.dumps([text, voice], sort_keys=True).encode()).hexdigest()[:16]
+    import re
+    prons = [p for p in voice.get("pronunciations", []) if re.search(rf"\b{re.escape(p['phrase'])}\b", text)]
+    voice = {k: v for k, v in voice.items() if k != "pronunciations"}
+    # cache key only changes for lines that actually contain a custom-pronounced phrase
+    h = hashlib.sha1(json.dumps([text, voice] + ([prons] if prons else []), sort_keys=True).encode()).hexdigest()[:16]
     cached = cache_dir / f"{h}.pcm"
     if cached.exists():
         os.utime(cached)  # mark as recently used (CI prunes clips unused for 21 days)
@@ -53,6 +57,9 @@ def synthesize(text: str, voice: dict, cache_dir: Path) -> tuple[bytes, bool]:
         "voice": {"languageCode": voice.get("language", "en-US"), "name": voice["name"]},
         "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": SAMPLE_RATE},
     }
+    if prons:
+        body["input"]["customPronunciations"] = {"pronunciations": [
+            {"phrase": p["phrase"], "phoneticEncoding": "PHONETIC_ENCODING_IPA", "pronunciation": p["ipa"]} for p in prons]}
     if voice.get("speaking_rate", 1.0) != 1.0:
         body["audioConfig"]["speakingRate"] = voice["speaking_rate"]
     last = None
@@ -69,6 +76,9 @@ def synthesize(text: str, voice: dict, cache_dir: Path) -> tuple[bytes, bool]:
             last = f"HTTP {e.code}: {e.read()[:300]!r}"
             if e.code == 400 and "speakingRate" in last and "speakingRate" in body["audioConfig"]:
                 body["audioConfig"].pop("speakingRate")  # voice doesn't support pace control
+                continue
+            if e.code == 400 and "ustomPronunciation" in last and "customPronunciations" in body["input"]:
+                body["input"].pop("customPronunciations")  # voice/API doesn't support it
                 continue
             if e.code not in (429, 500, 502, 503, 504):
                 break

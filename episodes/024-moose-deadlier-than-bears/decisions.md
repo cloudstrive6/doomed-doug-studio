@@ -80,3 +80,7 @@ I viewed all three at 1280x720 and at feed size, and read visual_review.md (PASS
      `thumbnail_c_small.png` and check that every label reads at 168x94. The visual screener only needs to re-check C (labels
      legible at feed size, Doug visible in 6 of 6 tiles, nothing cropped), and then it comes back to me.
 - The stage stays `art_approved`. Packaging can go ahead with A as the primary and B ready. C is added to the test only after its re-check.
+
+- 2026-10-21 (CD, thumbnail C final): APPROVED for the A/B/C test. Heavy one-word labels read at 168 px, Doug (red cap) is visible in 6/6 tiles, all labels match real chapters, no gore or kid tone. A is still primary. Optional polish, not required: nudge the Hooves bull ~20 px down/right and open a small gap between Doug's cap and the Highway muzzle.
+
+- 2026-10-21 (showrunner): script 4 rounds (draft 4 PASS; CD requested fixes at round 3→4), art 2 rounds (art-director + visual-screener PASS), thumbnails A/B/C approved (C needed one fix). Added tts custom pronunciation (Mech) in studio/tts.py + channel.yaml — listen to s229. Risks: 'deadlier' title only valid with 'to Doug' (sources support injuries not deaths); s202 line 'one to one and a half meters' clumsy; Doug often bottom-right.
