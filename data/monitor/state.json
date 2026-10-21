@@ -21,7 +21,7 @@
   "related_pending": {
    "first_seen": "2026-10-20T16:01:50+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-21T21:02:00+00:00",
+   "last_seen": "2026-10-21T22:01:56+00:00",
    "summary": "6 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -40,7 +40,7 @@
   "end_screens_pending": {
    "first_seen": "2026-10-21T19:01:45+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-21T21:02:00+00:00",
+   "last_seen": "2026-10-21T22:01:56+00:00",
    "summary": "1 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -49,11 +49,20 @@
   "thumb_tests_pending": {
    "first_seen": "2026-10-21T19:01:45+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-21T21:02:00+00:00",
+   "last_seen": "2026-10-21T22:01:56+00:00",
    "summary": "1 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
    "owner": "owner",
    "severity": "low",
    "alerted_at": "2026-10-21T19:01:45+00:00"
+  },
+  "shorts_missing:024-moose-deadlier-than-bears": {
+   "first_seen": "2026-10-21T22:01:56+00:00",
+   "agent_attempts": 0,
+   "last_seen": "2026-10-21T22:01:56+00:00",
+   "summary": "024-moose-deadlier-than-bears: Shorts short01, short02, short03, short04 were never uploaded: uploaded 4 now",
+   "owner": "auto",
+   "severity": "medium",
+   "resolved": "2026-10-21T22:01:56+00:00"
   }
  }
 }
