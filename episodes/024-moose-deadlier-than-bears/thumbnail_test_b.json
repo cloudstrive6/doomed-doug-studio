@@ -1,0 +1,58 @@
+{
+ "_note": "Variant B (Doug in peril): a bull moose charging head-down from the left fills two thirds of a flat saturated yellow frame, antlers a body length from Doug, who sprints right across the snow in shock, cap flying on. Text 35 MPH (NPS: moose top out around 35 mph; facts.md line 70). No title word.",
+ "background": "#ffc93a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 640,
+   "w": 1300,
+   "h": 100,
+   "fill": "#ffffff",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "moose_charging",
+   "x": 400,
+   "y": 715,
+   "scale": 1.5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 1125,
+   "y": 470,
+   "scale": 0.6,
+   "pose": "run1",
+   "expression": "shock",
+   "facing": "right",
+   "gear": [
+    "sweat"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "35 MPH",
+   "x": 260,
+   "y": 100,
+   "size": 124,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 11,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

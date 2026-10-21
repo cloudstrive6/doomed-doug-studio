@@ -1,0 +1,100 @@
+{
+ "_note": "Variant A (thumbnail_brief hero, archetype C): huge head-on bull moose (moose_head_on) filling the right two thirds on flat pale-snow blue; a smaller grizzly at left with sweat drops, eyeing the moose; tiny red-capped Doug between them in panic. Text WRONG ANIMAL only (no title/alt-title word).",
+ "background": "#cfe6f5",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 650,
+   "w": 1300,
+   "h": 90,
+   "fill": "#ffffff",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "moose_head_on",
+   "x": 850,
+   "y": 390,
+   "scale": 1.16,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "grizzly_bear",
+   "x": 175,
+   "y": 690,
+   "scale": 0.6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "ellipse",
+   "x": 275,
+   "y": 455,
+   "rx": 10,
+   "ry": 15,
+   "fill": "#7cc8f2",
+   "width": 3,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "ellipse",
+   "x": 305,
+   "y": 428,
+   "rx": 9,
+   "ry": 13,
+   "fill": "#7cc8f2",
+   "width": 3,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 425,
+   "y": 580,
+   "scale": 0.42,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "WRONG",
+   "x": 250,
+   "y": 88,
+   "size": 106,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 10,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "ANIMAL",
+   "x": 250,
+   "y": 200,
+   "size": 106,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 10,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

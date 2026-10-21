@@ -57,6 +57,8 @@ POSES = {
     # thumbs up: front forearm raised, small fist + thumb drawn at the hand (see _thumb). Standing and seated.
     "thumbs_up":     dict(arm_f=(95, 25), arm_b=(-20, -10), leg_f=(12, 0), leg_b=(-12, 0), lean=0, thumb=True),
     "sit_thumbs_up": dict(arm_f=(95, 25), arm_b=(-10, 30), leg_f=(90, 0), leg_b=(80, 0), lean=0, drop=70, thumb=True),
+    # crouch: squatting low, leaning in, front hand held out (greeting a small animal). Feet stay on the stand ground line.
+    "crouch":   dict(arm_f=(100, 10), arm_b=(-5, -10), leg_f=(95, -80), leg_b=(45, -105), lean=15, drop=61),
     "fall":     dict(arm_f=(130, -10), arm_b=(-130, 10), leg_f=(150, -30), leg_b=(-150, 20), lean=0),
     "cower":    dict(arm_f=(120, 45), arm_b=(-120, -45), leg_f=(60, -30), leg_b=(-40, 30), lean=10, drop=40),
     "lie":      dict(arm_f=(10, 0), arm_b=(-10, 0), leg_f=(5, 0), leg_b=(-5, 0), lean=0),

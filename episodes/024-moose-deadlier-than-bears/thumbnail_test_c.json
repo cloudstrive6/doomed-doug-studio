@@ -1,0 +1,240 @@
+{
+ "_note": "Variant C (list-format control): 6 big tiles in a 3x2 grid, one moose behaviour each with tiny red-capped Doug, labels = chapter names (The Calf, The Dive, The Rut, The Hooves, The Train, The Highway). No title/alt-title words.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 27,
+   "y": 12,
+   "w": 400,
+   "h": 242,
+   "fill": "#ff5fa2",
+   "radius": 18,
+   "frame_width": 7,
+   "label": "The Calf",
+   "label_size": 58,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "moose_cow",
+     "x": 157,
+     "y": 252,
+     "scale": 0.4,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "moose_calf",
+     "x": 282,
+     "y": 252,
+     "scale": 0.4,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 387,
+     "y": 237,
+     "scale": 0.2,
+     "pose": "wave",
+     "expression": "hopeful",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 12,
+   "w": 400,
+   "h": 242,
+   "fill": "#3a9ad9",
+   "radius": 18,
+   "frame_width": 7,
+   "label": "The Dive",
+   "label_size": 58,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "moose_head_surfacing",
+     "x": 610,
+     "y": 207,
+     "scale": 0.62,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 795,
+     "y": 207,
+     "scale": 0.2,
+     "pose": "swim1",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 853,
+   "y": 12,
+   "w": 400,
+   "h": 242,
+   "fill": "#ff7a1a",
+   "radius": 18,
+   "frame_width": 7,
+   "label": "The Rut",
+   "label_size": 58,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "moose_charging",
+     "x": 1023,
+     "y": 252,
+     "scale": 0.5,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 1198,
+     "y": 212,
+     "scale": 0.2,
+     "pose": "panic1",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 27,
+   "y": 352,
+   "w": 400,
+   "h": 242,
+   "fill": "#8be04e",
+   "radius": 18,
+   "frame_width": 7,
+   "label": "The Hooves",
+   "label_size": 58,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "moose_cow_rearing",
+     "x": 187,
+     "y": 597,
+     "scale": 0.36,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 337,
+     "y": 552,
+     "scale": 0.2,
+     "pose": "cower",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 352,
+   "w": 400,
+   "h": 242,
+   "fill": "#d6ebf7",
+   "radius": 18,
+   "frame_width": 7,
+   "label": "The Train",
+   "label_size": 58,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "locomotive",
+     "x": 590,
+     "y": 587,
+     "scale": 0.3,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "moose",
+     "x": 760,
+     "y": 587,
+     "scale": 0.28,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 853,
+   "y": 352,
+   "w": 400,
+   "h": 242,
+   "fill": "#ffe24a",
+   "radius": 18,
+   "frame_width": 7,
+   "label": "The Highway",
+   "label_size": 58,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "small_car_driving",
+     "x": 963,
+     "y": 587,
+     "scale": 0.55,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "moose",
+     "x": 1153,
+     "y": 587,
+     "scale": 0.33,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

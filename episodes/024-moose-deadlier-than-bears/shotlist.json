@@ -1141,8 +1141,8 @@
      },
      {
       "type": "doug",
-      "x": 1760,
-      "y": 979,
+      "x": 1190,
+      "y": 800,
       "scale": 0.4,
       "pose": "stand",
       "expression": "gritted",
@@ -1531,7 +1531,7 @@
      {
       "type": "label",
       "text": "UP TO ABOUT 2 M AT THE SHOULDER",
-      "x": 860,
+      "x": 700,
       "y": 230,
       "size": 46,
       "bold": true,
@@ -1727,7 +1727,7 @@
      {
       "type": "label",
       "text": "UP TO ABOUT 2 M AT THE SHOULDER",
-      "x": 860,
+      "x": 700,
       "y": 230,
       "size": 46,
       "bold": true,
@@ -1764,9 +1764,9 @@
      },
      {
       "type": "doug",
-      "x": 1080,
-      "y": 786,
-      "scale": 0.55,
+      "x": 1228,
+      "y": 799,
+      "scale": 0.48,
       "pose": "stand",
       "expression": "confused",
       "facing": "left",
@@ -2646,6 +2646,14 @@
       "boil": 0
      },
      {
+      "type": "asset",
+      "name": "question_mark",
+      "x": 960,
+      "y": 540,
+      "scale": 0.5,
+      "appear": 0.4
+     },
+     {
       "type": "doug",
       "x": 1760,
       "y": 932,
@@ -3044,10 +3052,10 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1080,
+      "x": 957,
       "y": 640,
-      "scale": 1.1,
-      "rotate": 25,
+      "scale": 1.0,
+      "rotate": 40,
       "appear": 0.4
      },
      {
@@ -3240,10 +3248,10 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1080,
+      "x": 957,
       "y": 640,
-      "scale": 1.1,
-      "rotate": 25
+      "scale": 1.0,
+      "rotate": 40
      },
      {
       "type": "wordart",
@@ -3481,10 +3489,10 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 942,
-      "y": 578,
-      "scale": 1.1,
-      "rotate": 25,
+      "x": 966,
+      "y": 654,
+      "scale": 1.0,
+      "rotate": 40,
       "appear": 0.6
      },
      {
@@ -5314,16 +5322,85 @@
       "width": 4
      },
      {
-      "type": "rect",
-      "x": 0,
-      "y": 640,
-      "w": 760,
-      "h": 440,
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        636
+       ],
+       [
+        894,
+        636
+       ],
+       [
+        869,
+        732.0
+       ],
+       [
+        818.0,
+        833.2
+       ],
+       [
+        751.0,
+        962.0
+       ],
+       [
+        674,
+        1100
+       ],
+       [
+        -20,
+        1100
+       ]
+      ],
+      "fill": "#e8c07a",
+      "color": "#000000",
+      "width": 3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        636
+       ],
+       [
+        860,
+        636
+       ],
+       [
+        835,
+        732.0
+       ],
+       [
+        784.0,
+        833.2
+       ],
+       [
+        717.0,
+        962.0
+       ],
+       [
+        640,
+        1100
+       ],
+       [
+        -20,
+        1100
+       ]
+      ],
       "fill": "#8f9a5a",
-      "color": "#8f9a5a",
+      "color": "#000000",
       "width": 0,
-      "outline": false,
-      "boil": 0
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 430.0,
+      "y": 890,
+      "r": 420,
+      "color": "#7a8548",
+      "density": 0.02
      },
      {
       "type": "curve",
@@ -5668,16 +5745,85 @@
       "width": 4
      },
      {
-      "type": "rect",
-      "x": 0,
-      "y": 640,
-      "w": 760,
-      "h": 440,
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        636
+       ],
+       [
+        894,
+        636
+       ],
+       [
+        869,
+        732.0
+       ],
+       [
+        818.0,
+        833.2
+       ],
+       [
+        751.0,
+        962.0
+       ],
+       [
+        674,
+        1100
+       ],
+       [
+        -20,
+        1100
+       ]
+      ],
+      "fill": "#e8c07a",
+      "color": "#000000",
+      "width": 3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        636
+       ],
+       [
+        860,
+        636
+       ],
+       [
+        835,
+        732.0
+       ],
+       [
+        784.0,
+        833.2
+       ],
+       [
+        717.0,
+        962.0
+       ],
+       [
+        640,
+        1100
+       ],
+       [
+        -20,
+        1100
+       ]
+      ],
       "fill": "#8f9a5a",
-      "color": "#8f9a5a",
+      "color": "#000000",
       "width": 0,
-      "outline": false,
-      "boil": 0
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 430.0,
+      "y": 890,
+      "r": 420,
+      "color": "#7a8548",
+      "density": 0.02
      },
      {
       "type": "curve",
@@ -6591,17 +6737,17 @@
      },
      {
       "type": "asset",
-      "name": "moose",
+      "name": "moose_velvet",
       "x": 620,
-      "y": 1000,
+      "y": 860,
       "scale": 0.8
      },
      {
       "type": "rect",
       "x": 0,
-      "y": 700,
+      "y": 606,
       "w": 1920,
-      "h": 380,
+      "h": 474,
       "fill": "#3a9ad9",
       "color": "#3a9ad9",
       "width": 0,
@@ -6609,15 +6755,35 @@
       "boil": 0
      },
      {
-      "type": "line",
+      "type": "curve",
       "points": [
        [
-        0,
-        700
+        -20,
+        606
        ],
        [
-        1920,
-        700
+        320,
+        600
+       ],
+       [
+        640,
+        610
+       ],
+       [
+        960,
+        602
+       ],
+       [
+        1280,
+        612
+       ],
+       [
+        1600,
+        602
+       ],
+       [
+        1940,
+        608
        ]
       ],
       "color": "#000000",
@@ -6627,12 +6793,102 @@
       "type": "line",
       "points": [
        [
-        460,
-        730
+        160,
+        690
+       ],
+       [
+        360,
+        690
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        700,
+        760
+       ],
+       [
+        900,
+        760
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1300,
+        720
+       ],
+       [
+        1500,
+        720
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1650,
+        860
+       ],
+       [
+        1850,
+        860
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        420,
+        930
+       ],
+       [
+        620,
+        930
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1050,
+        980
+       ],
+       [
+        1250,
+        980
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        440,
+        640
        ],
        [
         820,
-        730
+        640
        ]
       ],
       "color": "#6fc1ee",
@@ -6642,13 +6898,13 @@
       "type": "asset",
       "name": "paddleboard",
       "x": 1400,
-      "y": 712,
+      "y": 610,
       "scale": 0.6
      },
      {
       "type": "doug",
       "x": 1400,
-      "y": 632,
+      "y": 530,
       "scale": 0.45,
       "pose": "stand",
       "expression": "flat",
@@ -6835,7 +7091,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_submerged",
+      "name": "moose_submerged_velvet",
       "x": 760,
       "y": 960,
       "scale": 0.75,
@@ -7014,19 +7270,19 @@
       "points": [
        [
         -20,
-        960
+        700
        ],
        [
-        400,
-        946
+        600,
+        716
        ],
        [
-        900,
-        966
+        1000,
+        830
        ],
        [
         1400,
-        950
+        940
        ],
        [
         1940,
@@ -7055,82 +7311,48 @@
      },
      {
       "type": "asset",
-      "name": "seagrass",
-      "x": 180,
-      "y": 960,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "seagrass",
-      "x": 520,
-      "y": 960,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "seagrass",
-      "x": 1120,
-      "y": 960,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "seagrass",
-      "x": 1480,
-      "y": 960,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "seagrass",
-      "x": 1760,
-      "y": 960,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "moose",
-      "x": 700,
-      "y": 600,
+      "name": "moose_velvet",
+      "x": 480,
+      "y": 712,
       "scale": 0.75
      },
      {
-      "type": "rect",
-      "x": 0,
-      "y": 470,
-      "w": 1920,
-      "h": 490,
-      "fill": "#3a9ad9",
-      "color": "#3a9ad9",
-      "width": 0,
-      "outline": false,
-      "boil": 0
+      "type": "asset",
+      "name": "seagrass",
+      "x": 150,
+      "y": 708,
+      "scale": 0.5
      },
      {
-      "type": "line",
-      "points": [
-       [
-        0,
-        470
-       ],
-       [
-        1920,
-        470
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "seagrass",
+      "x": 700,
+      "y": 748,
+      "scale": 0.5
+     },
+     {
+      "type": "asset",
+      "name": "seagrass",
+      "x": 1150,
+      "y": 875,
+      "scale": 0.5
+     },
+     {
+      "type": "asset",
+      "name": "seagrass",
+      "x": 1560,
+      "y": 950,
+      "scale": 0.5
      },
      {
       "type": "arrow",
       "from": [
-       1000,
-       820
+       1330,
+       670
       ],
       "to": [
-       820,
-       900
+       1180,
+       800
       ],
       "bend": 40,
       "color": "#e0201b",
@@ -7141,8 +7363,8 @@
      {
       "type": "wordart",
       "text": "PLANTS",
-      "x": 1250,
-      "y": 760,
+      "x": 1450,
+      "y": 600,
       "size": 96,
       "boil": 0,
       "appear": 0.5
@@ -7151,13 +7373,13 @@
       "type": "asset",
       "name": "paddleboard",
       "x": 1250,
-      "y": 470,
+      "y": 386,
       "scale": 0.6
      },
      {
       "type": "doug",
       "x": 1250,
-      "y": 394,
+      "y": 310,
       "scale": 0.42,
       "pose": "point",
       "expression": "hopeful",
@@ -7319,7 +7541,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_submerged",
+      "name": "moose_submerged_velvet",
       "x": 800,
       "y": 960,
       "scale": 0.75
@@ -7645,16 +7867,85 @@
       "width": 4
      },
      {
-      "type": "rect",
-      "x": 0,
-      "y": 560,
-      "w": 900,
-      "h": 520,
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        556
+       ],
+       [
+        1034,
+        556
+       ],
+       [
+        1009,
+        668.0
+       ],
+       [
+        982.0,
+        786.8
+       ],
+       [
+        943.0,
+        938.0
+       ],
+       [
+        894,
+        1100
+       ],
+       [
+        -20,
+        1100
+       ]
+      ],
+      "fill": "#e8c07a",
+      "color": "#000000",
+      "width": 3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        556
+       ],
+       [
+        1000,
+        556
+       ],
+       [
+        975,
+        668.0
+       ],
+       [
+        948.0,
+        786.8
+       ],
+       [
+        909.0,
+        938.0
+       ],
+       [
+        860,
+        1100
+       ],
+       [
+        -20,
+        1100
+       ]
+      ],
       "fill": "#8f9a5a",
-      "color": "#8f9a5a",
+      "color": "#000000",
       "width": 0,
-      "outline": false,
-      "boil": 0
+      "outline": false
+     },
+     {
+      "type": "spray",
+      "x": 500.0,
+      "y": 810,
+      "r": 420,
+      "color": "#7a8548",
+      "density": 0.02
      },
      {
       "type": "curve",
@@ -7701,16 +7992,16 @@
      {
       "type": "asset",
       "name": "red_x",
-      "x": 650,
-      "y": 470,
-      "scale": 0.3,
+      "x": 430,
+      "y": 790,
+      "scale": 0.35,
       "appear": 0.4
      },
      {
       "type": "wordart",
       "text": "NO OTHER DEER",
-      "x": 1250,
-      "y": 400,
+      "x": 1420,
+      "y": 800,
       "size": 90,
       "boil": 0,
       "appear": 0.5
@@ -8281,16 +8572,16 @@
      },
      {
       "type": "asset",
-      "name": "moose_submerged",
-      "x": 820,
+      "name": "moose_submerged_velvet",
+      "x": 760,
       "y": 960,
-      "scale": 0.75
+      "scale": 1.0
      },
      {
       "type": "wordart",
       "text": "NO FLOODING",
-      "x": 1350,
-      "y": 650,
+      "x": 1440,
+      "y": 700,
       "size": 90,
       "boil": 0,
       "appear": 0.4
@@ -8467,7 +8758,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_submerged",
+      "name": "moose_submerged_velvet",
       "x": 700,
       "y": 960,
       "scale": 0.7
@@ -8670,7 +8961,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_submerged",
+      "name": "moose_submerged_velvet",
       "x": 560,
       "y": 960,
       "scale": 0.6
@@ -8715,9 +9006,9 @@
      },
      {
       "type": "label",
-      "text": "18 FT? UNMEASURED",
-      "x": 1520,
-      "y": 640,
+      "text": "18 FT+",
+      "x": 1000,
+      "y": 700,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -8725,10 +9016,17 @@
       "appear": 0.6
      },
      {
+      "type": "asset",
+      "name": "paddleboard",
+      "x": 1250,
+      "y": 380,
+      "scale": 0.6
+     },
+     {
       "type": "doug",
-      "x": 1760,
-      "y": 899,
-      "scale": 0.4,
+      "x": 1250,
+      "y": 304,
+      "scale": 0.42,
       "pose": "point",
       "expression": "shock",
       "facing": "left"
@@ -8889,7 +9187,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_submerged",
+      "name": "moose_submerged_velvet",
       "x": 560,
       "y": 960,
       "scale": 0.6
@@ -8958,10 +9256,17 @@
       "appear": 0.55
      },
      {
+      "type": "asset",
+      "name": "paddleboard",
+      "x": 1250,
+      "y": 380,
+      "scale": 0.6
+     },
+     {
       "type": "doug",
-      "x": 1760,
-      "y": 899,
-      "scale": 0.4,
+      "x": 1250,
+      "y": 304,
+      "scale": 0.42,
       "pose": "stand",
       "expression": "gritted",
       "facing": "left"
@@ -9122,7 +9427,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_submerged",
+      "name": "moose_submerged_velvet",
       "x": 560,
       "y": 960,
       "scale": 0.6
@@ -9157,8 +9462,8 @@
      {
       "type": "label",
       "text": "18 FT? UNMEASURED",
-      "x": 1520,
-      "y": 640,
+      "x": 620,
+      "y": 500,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -9463,7 +9768,7 @@
       "type": "asset",
       "name": "bear_moose_scoreboard",
       "x": 900,
-      "y": 520,
+      "y": 410,
       "scale": 0.85
      },
      {
@@ -9471,11 +9776,11 @@
       "points": [
        [
         654,
-        473
+        363
        ],
        [
         654,
-        533
+        423
        ]
       ],
       "color": "#f4f4ec",
@@ -9487,11 +9792,11 @@
       "points": [
        [
         674,
-        473
+        363
        ],
        [
         674,
-        533
+        423
        ]
       ],
       "color": "#f4f4ec",
@@ -9504,11 +9809,11 @@
       "points": [
        [
         934,
-        473
+        363
        ],
        [
         934,
-        533
+        423
        ]
       ],
       "color": "#f4f4ec",
@@ -9520,11 +9825,11 @@
       "points": [
        [
         954,
-        473
+        363
        ],
        [
         954,
-        533
+        423
        ]
       ],
       "color": "#f4f4ec",
@@ -9535,17 +9840,24 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 960,
-      "y": 537,
-      "scale": 1.1,
-      "rotate": 25,
+      "x": 984,
+      "y": 503,
+      "scale": 1.0,
+      "rotate": 40,
       "appear": 0.6
      },
      {
+      "type": "asset",
+      "name": "paddleboard",
+      "x": 300,
+      "y": 606,
+      "scale": 0.6
+     },
+     {
       "type": "doug",
-      "x": 220,
-      "y": 892,
-      "scale": 0.45,
+      "x": 300,
+      "y": 530,
+      "scale": 0.42,
       "pose": "stand",
       "expression": "flat",
       "facing": "right"
@@ -9706,7 +10018,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_submerged",
+      "name": "moose_submerged_velvet",
       "x": 900,
       "y": 960,
       "scale": 0.75
@@ -9721,10 +10033,17 @@
       "appear": 0.3
      },
      {
+      "type": "asset",
+      "name": "paddleboard",
+      "x": 1250,
+      "y": 380,
+      "scale": 0.6
+     },
+     {
       "type": "doug",
-      "x": 1700,
-      "y": 899,
-      "scale": 0.4,
+      "x": 1250,
+      "y": 304,
+      "scale": 0.42,
       "pose": "point",
       "expression": "smirk",
       "facing": "left"
@@ -11819,10 +12138,10 @@
      },
      {
       "type": "text",
-      "text": "MAY - JUNE",
+      "text": "MAY-JUN",
       "x": 450,
       "y": 500,
-      "size": 44,
+      "size": 30,
       "color": "#000000",
       "bold": true,
       "boil": 0,
@@ -13807,10 +14126,10 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 985,
-      "y": 578,
-      "scale": 1.1,
-      "rotate": 25,
+      "x": 1009,
+      "y": 654,
+      "scale": 1.0,
+      "rotate": 40,
       "appear": 0.6
      },
      {
@@ -14857,14 +15176,6 @@
      },
      {
       "type": "asset",
-      "name": "grizzly_bear",
-      "x": 1770,
-      "y": 846,
-      "scale": 0.2,
-      "flip": true
-     },
-     {
-      "type": "asset",
       "name": "moose_calf",
       "x": 1100,
       "y": 910,
@@ -14875,7 +15186,7 @@
       "x": 800,
       "y": 824,
       "scale": 0.5,
-      "pose": "wave",
+      "pose": "crouch",
       "expression": "hopeful",
       "facing": "right"
      },
@@ -14887,8 +15198,8 @@
       "h": 120,
       "text": "hi friend?",
       "tail": [
-       760,
-       590
+       800,
+       700
       ],
       "size": 40,
       "appear": 0.3
@@ -15077,14 +15388,6 @@
       "x": 1500,
       "y": 860,
       "scale": 0.7
-     },
-     {
-      "type": "asset",
-      "name": "grizzly_bear",
-      "x": 1770,
-      "y": 846,
-      "scale": 0.2,
-      "flip": true
      },
      {
       "type": "asset",
@@ -15369,14 +15672,6 @@
       "x": 1500,
       "y": 860,
       "scale": 0.7
-     },
-     {
-      "type": "asset",
-      "name": "grizzly_bear",
-      "x": 1770,
-      "y": 846,
-      "scale": 0.2,
-      "flip": true
      },
      {
       "type": "asset",
@@ -18306,8 +18601,8 @@
      },
      {
       "type": "doug",
-      "x": 1550,
-      "y": 779,
+      "x": 1180,
+      "y": 960,
       "scale": 0.4,
       "pose": "stand",
       "expression": "shock",
@@ -24417,10 +24712,10 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1007,
-      "y": 578,
-      "scale": 1.1,
-      "rotate": 25,
+      "x": 1031,
+      "y": 654,
+      "scale": 1.0,
+      "rotate": 40,
       "appear": 0.6
      },
      {
@@ -26413,16 +26708,16 @@
      {
       "type": "asset",
       "name": "gravestone",
-      "x": 700,
-      "y": 600,
+      "x": 650,
+      "y": 880,
       "scale": 0.45,
       "appear": 0.3
      },
      {
       "type": "asset",
       "name": "red_x",
-      "x": 700,
-      "y": 600,
+      "x": 650,
+      "y": 880,
       "scale": 0.5,
       "appear": 0.55
      },
@@ -27675,51 +27970,6 @@
       "density": 0.02
      },
      {
-      "type": "line",
-      "points": [
-       [
-        60,
-        640
-       ],
-       [
-        280,
-        640
-       ]
-      ],
-      "color": "#000000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        20,
-        720
-       ],
-       [
-        240,
-        720
-       ]
-      ],
-      "color": "#000000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        80,
-        800
-       ],
-       [
-        300,
-        800
-       ]
-      ],
-      "color": "#000000",
-      "width": 6
-     },
-     {
       "type": "asset",
       "name": "moose_charging",
       "x": 700,
@@ -27926,51 +28176,6 @@
       "density": 0.02
      },
      {
-      "type": "line",
-      "points": [
-       [
-        60,
-        640
-       ],
-       [
-        280,
-        640
-       ]
-      ],
-      "color": "#000000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        20,
-        720
-       ],
-       [
-        240,
-        720
-       ]
-      ],
-      "color": "#000000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        80,
-        800
-       ],
-       [
-        300,
-        800
-       ]
-      ],
-      "color": "#000000",
-      "width": 6
-     },
-     {
       "type": "asset",
       "name": "moose_charging",
       "x": 700,
@@ -28007,8 +28212,8 @@
      },
      {
       "type": "doug",
-      "x": 1700,
-      "y": 839,
+      "x": 1200,
+      "y": 960,
       "scale": 0.4,
       "pose": "thumbs_up",
       "expression": "flat",
@@ -28540,7 +28745,7 @@
      {
       "type": "asset",
       "name": "grizzly_running",
-      "x": 900,
+      "x": 1200,
       "y": 900,
       "scale": 0.6,
       "appear": 0.3
@@ -28726,51 +28931,6 @@
       "density": 0.02
      },
      {
-      "type": "line",
-      "points": [
-       [
-        60,
-        640
-       ],
-       [
-        280,
-        640
-       ]
-      ],
-      "color": "#000000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        20,
-        720
-       ],
-       [
-        240,
-        720
-       ]
-      ],
-      "color": "#000000",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        80,
-        800
-       ],
-       [
-        300,
-        800
-       ]
-      ],
-      "color": "#000000",
-      "width": 6
-     },
-     {
       "type": "asset",
       "name": "moose_charging",
       "x": 520,
@@ -28780,15 +28940,15 @@
      {
       "type": "asset",
       "name": "grizzly_running",
-      "x": 900,
+      "x": 1200,
       "y": 900,
       "scale": 0.6
      },
      {
       "type": "label",
       "text": "UP TO 64 KM/H",
-      "x": 900,
-      "y": 420,
+      "x": 1200,
+      "y": 600,
       "size": 52,
       "bold": true,
       "boil": 0.4,
@@ -28798,8 +28958,8 @@
      {
       "type": "label",
       "text": "ABOUT 56 KM/H",
-      "x": 520,
-      "y": 500,
+      "x": 560,
+      "y": 470,
       "size": 40,
       "bold": true,
       "boil": 0.4,
@@ -29476,7 +29636,7 @@
       "points": [
        [
         960,
-        0
+        100
        ],
        [
         960,
@@ -30489,10 +30649,10 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1018,
-      "y": 524,
-      "scale": 1.1,
-      "rotate": 25,
+      "x": 1042,
+      "y": 643,
+      "scale": 1.0,
+      "rotate": 40,
       "appear": 0.6
      },
      {
@@ -30713,7 +30873,7 @@
       "points": [
        [
         960,
-        0
+        100
        ],
        [
         960,
@@ -31107,14 +31267,6 @@
       "pose": "stand",
       "expression": "shock",
       "facing": "left"
-     },
-     {
-      "type": "asset",
-      "name": "doormat",
-      "x": 700,
-      "y": 880,
-      "scale": 0.4,
-      "appear": 0.4
      },
      {
       "type": "wordart",
@@ -32906,7 +33058,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_cow_rearing",
+      "name": "moose_bull_rearing",
       "x": 1000,
       "y": 900,
       "scale": 0.85
@@ -35871,10 +36023,10 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1059,
-      "y": 578,
-      "scale": 1.1,
-      "rotate": 25,
+      "x": 1083,
+      "y": 654,
+      "scale": 1.0,
+      "rotate": 40,
       "appear": 0.6
      },
      {
@@ -36374,7 +36526,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_cow_rearing",
+      "name": "moose_bull_rearing",
       "x": 1300,
       "y": 900,
       "scale": 0.9,
@@ -36791,7 +36943,6 @@
      }
     ]
    },
-   "topbar": false,
    "camera": {
     "move": "zoom_in",
     "x": 960,
@@ -36842,10 +36993,90 @@
       "color": "#8a8f98",
       "width": 4,
       "appear": 0.1
+     },
+     {
+      "type": "rect",
+      "x": 1300,
+      "y": 640,
+      "w": 420,
+      "h": 300,
+      "fill": "#30353d",
+      "color": "#4a515c",
+      "width": 4,
+      "appear": 0.7
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1280,
+        640
+       ],
+       [
+        1510,
+        560
+       ],
+       [
+        1740,
+        640
+       ]
+      ],
+      "fill": "#30353d",
+      "color": "#4a515c",
+      "width": 4,
+      "appear": 0.7
+     },
+     {
+      "type": "rect",
+      "x": 1475,
+      "y": 830,
+      "w": 70,
+      "h": 110,
+      "fill": "#262a31",
+      "color": "#4a515c",
+      "width": 3,
+      "appear": 0.7
+     },
+     {
+      "type": "rect",
+      "x": 1340,
+      "y": 690,
+      "w": 70,
+      "h": 60,
+      "fill": "#262a31",
+      "color": "#4a515c",
+      "width": 3,
+      "appear": 0.7
+     },
+     {
+      "type": "rect",
+      "x": 1610,
+      "y": 690,
+      "w": 70,
+      "h": 60,
+      "fill": "#262a31",
+      "color": "#4a515c",
+      "width": 3,
+      "appear": 0.7
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1180,
+        940
+       ],
+       [
+        1840,
+        940
+       ]
+      ],
+      "color": "#4a515c",
+      "width": 4,
+      "appear": 0.7
      }
     ]
    },
-   "topbar": false,
    "camera": {
     "move": "zoom_in",
     "x": 960,
@@ -36895,10 +37126,128 @@
       ],
       "color": "#8a8f98",
       "width": 4
+     },
+     {
+      "type": "rect",
+      "x": 1300,
+      "y": 640,
+      "w": 420,
+      "h": 300,
+      "fill": "#30353d",
+      "color": "#4a515c",
+      "width": 4
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1280,
+        640
+       ],
+       [
+        1510,
+        560
+       ],
+       [
+        1740,
+        640
+       ]
+      ],
+      "fill": "#30353d",
+      "color": "#4a515c",
+      "width": 4
+     },
+     {
+      "type": "rect",
+      "x": 1475,
+      "y": 830,
+      "w": 70,
+      "h": 110,
+      "fill": "#262a31",
+      "color": "#4a515c",
+      "width": 3
+     },
+     {
+      "type": "rect",
+      "x": 1340,
+      "y": 690,
+      "w": 70,
+      "h": 60,
+      "fill": "#262a31",
+      "color": "#4a515c",
+      "width": 3
+     },
+     {
+      "type": "rect",
+      "x": 1610,
+      "y": 690,
+      "w": 70,
+      "h": 60,
+      "fill": "#262a31",
+      "color": "#4a515c",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1180,
+        940
+       ],
+       [
+        1840,
+        940
+       ]
+      ],
+      "color": "#4a515c",
+      "width": 4
+     },
+     {
+      "type": "asset",
+      "name": "moose_cow",
+      "x": 560,
+      "y": 940,
+      "scale": 0.42,
+      "silhouette": true,
+      "glow_r": 0,
+      "rim": {
+       "color": "#4a515c",
+       "px": 3
+      },
+      "appear": 0.45
+     },
+     {
+      "type": "asset",
+      "name": "moose_calf",
+      "x": 820,
+      "y": 940,
+      "scale": 0.32,
+      "silhouette": true,
+      "glow_r": 0,
+      "rim": {
+       "color": "#4a515c",
+       "px": 3
+      },
+      "appear": 0.55
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        300,
+        940
+       ],
+       [
+        1000,
+        940
+       ]
+      ],
+      "color": "#4a515c",
+      "width": 4,
+      "appear": 0.45
      }
     ]
    },
-   "topbar": false,
    "hold": 0.6,
    "camera": {
     "move": "zoom_out",
@@ -37182,6 +37531,60 @@
       "boil": 0
      },
      {
+      "type": "rect",
+      "x": 0,
+      "y": 960,
+      "w": 1920,
+      "h": 120,
+      "fill": "#f4f8fb",
+      "color": "#f4f8fb",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        0,
+        960
+       ],
+       [
+        1920,
+        960
+       ]
+      ],
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        -20,
+        960
+       ],
+       [
+        480,
+        956
+       ],
+       [
+        960,
+        962
+       ],
+       [
+        1440,
+        956
+       ],
+       [
+        1940,
+        960
+       ]
+      ],
+      "color": "#000000",
+      "width": 4
+     },
+     {
       "type": "poly",
       "points": [
        [
@@ -37278,7 +37681,7 @@
      {
       "type": "doug",
       "x": 1650,
-      "y": 832,
+      "y": 890,
       "scale": 0.45,
       "pose": "thumbs_up",
       "expression": "smirk",
@@ -37586,6 +37989,60 @@
       "boil": 0
      },
      {
+      "type": "rect",
+      "x": 0,
+      "y": 960,
+      "w": 1920,
+      "h": 120,
+      "fill": "#f4f8fb",
+      "color": "#f4f8fb",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        0,
+        960
+       ],
+       [
+        1920,
+        960
+       ]
+      ],
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        -20,
+        960
+       ],
+       [
+        480,
+        956
+       ],
+       [
+        960,
+        962
+       ],
+       [
+        1440,
+        956
+       ],
+       [
+        1940,
+        960
+       ]
+      ],
+      "color": "#000000",
+      "width": 4
+     },
+     {
       "type": "poly",
       "points": [
        [
@@ -37734,6 +38191,60 @@
       "width": 0,
       "outline": false,
       "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 960,
+      "w": 1920,
+      "h": 120,
+      "fill": "#f4f8fb",
+      "color": "#f4f8fb",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        0,
+        960
+       ],
+       [
+        1920,
+        960
+       ]
+      ],
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        -20,
+        960
+       ],
+       [
+        480,
+        956
+       ],
+       [
+        960,
+        962
+       ],
+       [
+        1440,
+        956
+       ],
+       [
+        1940,
+        960
+       ]
+      ],
+      "color": "#000000",
+      "width": 4
      },
      {
       "type": "poly",
@@ -40372,6 +40883,60 @@
       "boil": 0
      },
      {
+      "type": "rect",
+      "x": 0,
+      "y": 960,
+      "w": 1920,
+      "h": 120,
+      "fill": "#f4f8fb",
+      "color": "#f4f8fb",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        0,
+        960
+       ],
+       [
+        1920,
+        960
+       ]
+      ],
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        -20,
+        960
+       ],
+       [
+        480,
+        956
+       ],
+       [
+        960,
+        962
+       ],
+       [
+        1440,
+        956
+       ],
+       [
+        1940,
+        960
+       ]
+      ],
+      "color": "#000000",
+      "width": 4
+     },
+     {
       "type": "poly",
       "points": [
        [
@@ -40767,36 +41332,14 @@
      },
      {
       "type": "label",
-      "text": "AWAKE",
-      "x": 500,
-      "y": 320,
-      "size": 44,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff",
-      "appear": 0.1
-     },
-     {
-      "type": "label",
-      "text": "HUNGRY",
+      "text": "AWAKE, HUNGRY, EXHAUSTED",
       "x": 960,
-      "y": 250,
+      "y": 260,
       "size": 44,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
-      "appear": 0.4
-     },
-     {
-      "type": "label",
-      "text": "EXHAUSTED",
-      "x": 1400,
-      "y": 328,
-      "size": 44,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff",
-      "appear": 0.7
+      "appear": 0.15
      },
      {
       "type": "label",
@@ -41294,10 +41837,10 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1061,
-      "y": 536,
-      "scale": 1.1,
-      "rotate": 25,
+      "x": 1085,
+      "y": 612,
+      "scale": 1.0,
+      "rotate": 40,
       "appear": 0.6
      },
      {
@@ -42482,15 +43025,15 @@
      {
       "type": "asset",
       "name": "field_guide_open",
-      "x": 330,
-      "y": 880,
+      "x": 250,
+      "y": 975,
       "scale": 0.55
      },
      {
       "type": "text",
       "text": "MOOSE",
-      "x": 253.0,
-      "y": 819.5,
+      "x": 173.0,
+      "y": 914.5,
       "size": 16.5,
       "color": "#2b2b2b",
       "bold": true,
@@ -42499,8 +43042,8 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 407.0,
-      "y": 907.5,
+      "x": 327.0,
+      "y": 1002.5,
       "size": 60.5,
       "color": "#e0201b",
       "bold": true,
@@ -42810,15 +43353,15 @@
      {
       "type": "asset",
       "name": "field_guide_open",
-      "x": 330,
-      "y": 880,
+      "x": 250,
+      "y": 975,
       "scale": 0.55
      },
      {
       "type": "text",
       "text": "MOOSE",
-      "x": 253.0,
-      "y": 819.5,
+      "x": 173.0,
+      "y": 914.5,
       "size": 16.5,
       "color": "#2b2b2b",
       "bold": true,
@@ -42827,8 +43370,8 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 407.0,
-      "y": 907.5,
+      "x": 327.0,
+      "y": 1002.5,
       "size": 60.5,
       "color": "#e0201b",
       "bold": true,
@@ -44124,16 +44667,16 @@
      {
       "type": "asset",
       "name": "moose_antler_rack",
-      "x": 1600,
-      "y": 860,
+      "x": 440,
+      "y": 790,
       "scale": 0.35,
       "appear": 0.6
      },
      {
       "type": "label",
       "text": "ALASKA + NW CANADA",
-      "x": 1500,
-      "y": 640,
+      "x": 420,
+      "y": 590,
       "size": 40,
       "bold": true,
       "boil": 0.4,
@@ -44527,8 +45070,8 @@
      },
      {
       "type": "doug",
-      "x": 1760,
-      "y": 979,
+      "x": 1420,
+      "y": 860,
       "scale": 0.4,
       "pose": "point",
       "expression": "hopeful",
@@ -46683,10 +47226,10 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1102,
-      "y": 578,
-      "scale": 1.1,
-      "rotate": 25,
+      "x": 1126,
+      "y": 654,
+      "scale": 1.0,
+      "rotate": 40,
       "appear": 0.6
      },
      {
@@ -47467,13 +48010,6 @@
       "r": 900,
       "color": "#9a7a30",
       "density": 0.03
-     },
-     {
-      "type": "asset",
-      "name": "moss_patch",
-      "x": 1000,
-      "y": 900,
-      "scale": 1.2
      },
      {
       "type": "asset",
@@ -48553,7 +49089,7 @@
      },
      {
       "type": "asset",
-      "name": "journal_paper",
+      "name": "moose_article_page",
       "x": 860,
       "y": 540,
       "scale": 1.0
@@ -49429,6 +49965,87 @@
       "width": 0,
       "outline": false,
       "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 500,
+      "w": 1920,
+      "h": 90,
+      "fill": "#f7fbff",
+      "color": "#f7fbff",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 482,
+      "w": 1920,
+      "h": 36,
+      "fill": "#9aa3ab",
+      "color": "#9aa3ab",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        0,
+        486
+       ],
+       [
+        1920,
+        486
+       ]
+      ],
+      "color": "#3a3a40",
+      "width": 7
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        0,
+        512
+       ],
+       [
+        1920,
+        512
+       ]
+      ],
+      "color": "#3a3a40",
+      "width": 7
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        -20,
+        590
+       ],
+       [
+        480,
+        586
+       ],
+       [
+        960,
+        592
+       ],
+       [
+        1440,
+        586
+       ],
+       [
+        1940,
+        590
+       ]
+      ],
+      "color": "#000000",
+      "width": 4
      },
      {
       "type": "asset",
@@ -51595,6 +52212,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 1150,
+    "y": 640,
+    "zoom": 1.08
    }
   },
   {
@@ -51894,6 +52517,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 1150,
+    "y": 640,
+    "zoom": 1.08
    }
   },
   {
@@ -53274,7 +53903,10 @@
     ]
    },
    "camera": {
-    "move": "shake"
+    "move": "zoom_in",
+    "x": 960,
+    "y": 560,
+    "zoom": 1.1
    }
   },
   {
@@ -53809,10 +54441,10 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1100,
-      "y": 576,
-      "scale": 1.1,
-      "rotate": 25,
+      "x": 1124,
+      "y": 652,
+      "scale": 1.0,
+      "rotate": 40,
       "appear": 0.6
      },
      {
@@ -54528,7 +55160,7 @@
      },
      {
       "type": "asset",
-      "name": "moose",
+      "name": "moose_rear",
       "x": 960,
       "y": 820,
       "scale": 0.35
@@ -56253,8 +56885,8 @@
      },
      {
       "type": "doug",
-      "x": 1760,
-      "y": 979,
+      "x": 1430,
+      "y": 850,
       "scale": 0.4,
       "pose": "stand",
       "expression": "gritted",
@@ -56706,10 +57338,11 @@
      {
       "type": "asset",
       "name": "grey_wolf",
-      "x": 770,
-      "y": 340,
-      "scale": 0.25,
-      "appear": 0.4
+      "x": 720,
+      "y": 388,
+      "scale": 0.2,
+      "appear": 0.4,
+      "flip": true
      },
      {
       "type": "label",
@@ -57570,7 +58203,7 @@
      },
      {
       "type": "asset",
-      "name": "airplane",
+      "name": "bush_plane",
       "x": 960,
       "y": 260,
       "scale": 0.5,
@@ -57847,7 +58480,7 @@
      },
      {
       "type": "asset",
-      "name": "airplane",
+      "name": "bush_plane",
       "x": 960,
       "y": 260,
       "scale": 0.5
@@ -59065,10 +59698,11 @@
       "appear": 0.2
      },
      {
-      "type": "circle",
+      "type": "ellipse",
       "x": 1440,
       "y": 790,
-      "r": 140,
+      "rx": 220,
+      "ry": 62,
       "fill": null,
       "color": "#e0201b",
       "width": 8,
@@ -59823,10 +60457,10 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1135,
-      "y": 524,
-      "scale": 1.1,
-      "rotate": 25,
+      "x": 1159,
+      "y": 643,
+      "scale": 1.0,
+      "rotate": 40,
       "appear": 0.6
      },
      {
@@ -63026,6 +63660,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 860,
+    "y": 650,
+    "zoom": 1.1
    }
   },
   {
@@ -63039,7 +63679,19 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 1080,
+      "h": 620,
+      "fill": "#cfe9ff",
+      "color": "#cfe9ff",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 620,
+      "w": 1920,
+      "h": 460,
       "fill": "#3a9ad9",
       "color": "#3a9ad9",
       "width": 0,
@@ -63047,219 +63699,195 @@
       "boil": 0
      },
      {
-      "type": "asset",
-      "name": "newfoundland_map",
-      "x": 860,
-      "y": 640,
-      "scale": 0.85
+      "type": "curve",
+      "points": [
+       [
+        -20,
+        620
+       ],
+       [
+        480,
+        616
+       ],
+       [
+        960,
+        622
+       ],
+       [
+        1440,
+        616
+       ],
+       [
+        1940,
+        620
+       ]
+      ],
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        1100
+       ],
+       [
+        -20,
+        560
+       ],
+       [
+        200,
+        540
+       ],
+       [
+        420,
+        600
+       ],
+       [
+        700,
+        640
+       ],
+       [
+        980,
+        760
+       ],
+       [
+        1150,
+        900
+       ],
+       [
+        1260,
+        1100
+       ]
+      ],
+      "fill": "#5f7a4a",
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        700,
+        640
+       ],
+       [
+        980,
+        760
+       ],
+       [
+        1150,
+        900
+       ],
+       [
+        1260,
+        1100
+       ],
+       [
+        1200,
+        1100
+       ],
+       [
+        1090,
+        910
+       ],
+       [
+        930,
+        780
+       ],
+       [
+        680,
+        664
+       ]
+      ],
+      "fill": "#8a8f98",
+      "color": "#000000",
+      "width": 3
      },
      {
       "type": "asset",
-      "name": "moose_icon",
-      "x": 640,
-      "y": 630,
-      "scale": 0.24
+      "name": "pine_tree",
+      "x": 120,
+      "y": 560,
+      "scale": 0.3
      },
      {
       "type": "asset",
-      "name": "moose_icon",
-      "x": 692,
-      "y": 630,
+      "name": "pine_tree",
+      "x": 300,
+      "y": 575,
       "scale": 0.24
      },
      {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 744,
-      "y": 630,
-      "scale": 0.24
+      "type": "line",
+      "points": [
+       [
+        1350,
+        760
+       ],
+       [
+        1550,
+        760
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
      },
      {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 796,
-      "y": 630,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 848,
-      "y": 630,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 900,
-      "y": 630,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 952,
-      "y": 630,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 1004,
-      "y": 630,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 1056,
-      "y": 630,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 640,
-      "y": 675,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 692,
-      "y": 675,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 744,
-      "y": 675,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 796,
-      "y": 675,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 848,
-      "y": 675,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 900,
-      "y": 675,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 952,
-      "y": 675,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 1004,
-      "y": 675,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 1056,
-      "y": 675,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 640,
-      "y": 720,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 692,
-      "y": 720,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 744,
-      "y": 720,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 796,
-      "y": 720,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 848,
-      "y": 720,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 900,
-      "y": 720,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 952,
-      "y": 720,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 1004,
-      "y": 720,
-      "scale": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "moose_icon",
-      "x": 1056,
-      "y": 720,
-      "scale": 0.24
+      "type": "line",
+      "points": [
+       [
+        1500,
+        900
+       ],
+       [
+        1700,
+        900
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
      },
      {
       "type": "asset",
       "name": "black_bear",
-      "x": 1600,
-      "y": 900,
-      "scale": 0.4,
-      "appear": 0.2
+      "x": 520,
+      "y": 860,
+      "scale": 0.8,
+      "appear": 0.15
      },
      {
       "type": "label",
       "text": "BLACK BEAR",
-      "x": 1600,
-      "y": 620,
-      "size": 44,
+      "x": 560,
+      "y": 470,
+      "size": 48,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.4
+     },
+     {
+      "type": "label",
+      "text": "LARGEST MEAT-EATER",
+      "x": 560,
+      "y": 380,
+      "size": 36,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.25
+     },
+     {
+      "type": "doug",
+      "x": 980,
+      "y": 700,
+      "scale": 0.4,
+      "pose": "shrug",
+      "expression": "flat",
+      "facing": "left",
+      "appear": 0.6
      },
      {
       "type": "label",
@@ -63272,13 +63900,6 @@
       "fill": "#ffffff"
      },
      {
-      "type": "asset",
-      "name": "chalkboard",
-      "x": 1420,
-      "y": 238,
-      "scale": 0.07
-     },
-     {
       "type": "label",
       "text": "BEAR 5 | MOOSE 10",
       "x": 1606,
@@ -63287,6 +63908,13 @@
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff"
+     },
+     {
+      "type": "asset",
+      "name": "chalkboard",
+      "x": 1420,
+      "y": 238,
+      "scale": 0.07
      }
     ]
    }
@@ -64186,39 +64814,348 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 1080,
-      "fill": "#2b2f36",
-      "color": "#2b2f36",
+      "h": 600,
+      "fill": "#141c33",
+      "color": "#141c33",
       "width": 0,
       "outline": false,
       "boil": 0
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        600
+       ],
+       [
+        -20,
+        540
+       ],
+       [
+        0,
+        540
+       ],
+       [
+        80,
+        500
+       ],
+       [
+        160,
+        540
+       ],
+       [
+        240,
+        500
+       ],
+       [
+        320,
+        540
+       ],
+       [
+        400,
+        500
+       ],
+       [
+        480,
+        540
+       ],
+       [
+        560,
+        500
+       ],
+       [
+        640,
+        540
+       ],
+       [
+        720,
+        500
+       ],
+       [
+        800,
+        540
+       ],
+       [
+        880,
+        500
+       ],
+       [
+        960,
+        540
+       ],
+       [
+        1040,
+        500
+       ],
+       [
+        1120,
+        540
+       ],
+       [
+        1200,
+        500
+       ],
+       [
+        1280,
+        540
+       ],
+       [
+        1360,
+        500
+       ],
+       [
+        1440,
+        540
+       ],
+       [
+        1520,
+        500
+       ],
+       [
+        1600,
+        540
+       ],
+       [
+        1680,
+        500
+       ],
+       [
+        1760,
+        540
+       ],
+       [
+        1840,
+        500
+       ],
+       [
+        1920,
+        540
+       ],
+       [
+        1940,
+        600
+       ]
+      ],
+      "fill": "#0b1220",
+      "color": "#000000",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 600,
+      "w": 1920,
+      "h": 480,
+      "fill": "#1f2a22",
+      "color": "#1f2a22",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        940,
+        600
+       ],
+       [
+        980,
+        600
+       ],
+       [
+        1700,
+        1100
+       ],
+       [
+        220,
+        1100
+       ]
+      ],
+      "fill": "#3a3a40",
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        600.5555555555555
+       ],
+       [
+        960,
+        605.0
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        620.0
+       ],
+       [
+        960,
+        635.5555555555555
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        667.2222222222222
+       ],
+       [
+        960,
+        693.8888888888889
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 6
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        742.2222222222222
+       ],
+       [
+        960,
+        780.0
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 8
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        845.0
+       ],
+       [
+        960,
+        893.8888888888889
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 10
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        975.5555555555557
+       ],
+       [
+        960,
+        1035.5555555555554
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 13
+     },
+     {
+      "type": "circle",
+      "x": 300,
+      "y": 120,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 700,
+      "y": 60,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 1150,
+      "y": 160,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 1500,
+      "y": 90,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 90,
+      "y": 300,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 1200,
+      "y": 380,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "asset",
+      "name": "moose_crossing_sign",
+      "x": 1640,
+      "y": 860,
+      "scale": 0.55,
+      "appear": 0.3
+     },
+     {
       "type": "text",
       "text": "NEWFOUNDLAND: ABOUT 539 MOOSE-VEHICLE COLLISIONS A YEAR,",
       "x": 960,
-      "y": 360,
-      "size": 54,
+      "y": 190,
+      "size": 44,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
-      "max_width": 1500,
+      "max_width": 1720,
       "appear": 0.05
      },
      {
       "type": "text",
       "text": "2012-2020",
       "x": 960,
-      "y": 470,
-      "size": 54,
+      "y": 300,
+      "size": 48,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
+      "max_width": 1500,
       "appear": 0.75
      }
     ]
-   },
-   "topbar": false
+   }
   },
   {
    "id": "s259",
@@ -64231,19 +65168,338 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 1080,
-      "fill": "#2b2f36",
-      "color": "#2b2f36",
+      "h": 600,
+      "fill": "#141c33",
+      "color": "#141c33",
       "width": 0,
       "outline": false,
       "boil": 0
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        600
+       ],
+       [
+        -20,
+        540
+       ],
+       [
+        0,
+        540
+       ],
+       [
+        80,
+        500
+       ],
+       [
+        160,
+        540
+       ],
+       [
+        240,
+        500
+       ],
+       [
+        320,
+        540
+       ],
+       [
+        400,
+        500
+       ],
+       [
+        480,
+        540
+       ],
+       [
+        560,
+        500
+       ],
+       [
+        640,
+        540
+       ],
+       [
+        720,
+        500
+       ],
+       [
+        800,
+        540
+       ],
+       [
+        880,
+        500
+       ],
+       [
+        960,
+        540
+       ],
+       [
+        1040,
+        500
+       ],
+       [
+        1120,
+        540
+       ],
+       [
+        1200,
+        500
+       ],
+       [
+        1280,
+        540
+       ],
+       [
+        1360,
+        500
+       ],
+       [
+        1440,
+        540
+       ],
+       [
+        1520,
+        500
+       ],
+       [
+        1600,
+        540
+       ],
+       [
+        1680,
+        500
+       ],
+       [
+        1760,
+        540
+       ],
+       [
+        1840,
+        500
+       ],
+       [
+        1920,
+        540
+       ],
+       [
+        1940,
+        600
+       ]
+      ],
+      "fill": "#0b1220",
+      "color": "#000000",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 600,
+      "w": 1920,
+      "h": 480,
+      "fill": "#1f2a22",
+      "color": "#1f2a22",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        940,
+        600
+       ],
+       [
+        980,
+        600
+       ],
+       [
+        1700,
+        1100
+       ],
+       [
+        220,
+        1100
+       ]
+      ],
+      "fill": "#3a3a40",
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        600.5555555555555
+       ],
+       [
+        960,
+        605.0
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        620.0
+       ],
+       [
+        960,
+        635.5555555555555
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        667.2222222222222
+       ],
+       [
+        960,
+        693.8888888888889
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 6
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        742.2222222222222
+       ],
+       [
+        960,
+        780.0
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 8
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        845.0
+       ],
+       [
+        960,
+        893.8888888888889
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 10
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        975.5555555555557
+       ],
+       [
+        960,
+        1035.5555555555554
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 13
+     },
+     {
+      "type": "circle",
+      "x": 300,
+      "y": 120,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 700,
+      "y": 60,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 1150,
+      "y": 160,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 1500,
+      "y": 90,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 90,
+      "y": 300,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 1200,
+      "y": 380,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "asset",
+      "name": "moose_crossing_sign",
+      "x": 1640,
+      "y": 860,
+      "scale": 0.55
+     },
+     {
       "type": "text",
       "text": "NEWFOUNDLAND: ABOUT 539 MOOSE-VEHICLE COLLISIONS A YEAR,",
       "x": 960,
-      "y": 360,
-      "size": 54,
+      "y": 190,
+      "size": 44,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 1720
+     },
+     {
+      "type": "text",
+      "text": "2012-2020",
+      "x": 960,
+      "y": 300,
+      "size": 48,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
@@ -64251,28 +65507,18 @@
      },
      {
       "type": "text",
-      "text": "2012-2020",
-      "x": 960,
-      "y": 470,
-      "size": 54,
-      "color": "#ffffff",
-      "bold": true,
-      "boil": 0
-     },
-     {
-      "type": "text",
       "text": "1987-88: 661 CRASHES,",
       "x": 960,
-      "y": 660,
-      "size": 58,
+      "y": 390,
+      "size": 52,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
+      "max_width": 1500,
       "appear": 0.3
      }
     ]
-   },
-   "topbar": false
+   }
   },
   {
    "id": "s260",
@@ -64285,19 +65531,338 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 1080,
-      "fill": "#2b2f36",
-      "color": "#2b2f36",
+      "h": 600,
+      "fill": "#141c33",
+      "color": "#141c33",
       "width": 0,
       "outline": false,
       "boil": 0
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        600
+       ],
+       [
+        -20,
+        540
+       ],
+       [
+        0,
+        540
+       ],
+       [
+        80,
+        500
+       ],
+       [
+        160,
+        540
+       ],
+       [
+        240,
+        500
+       ],
+       [
+        320,
+        540
+       ],
+       [
+        400,
+        500
+       ],
+       [
+        480,
+        540
+       ],
+       [
+        560,
+        500
+       ],
+       [
+        640,
+        540
+       ],
+       [
+        720,
+        500
+       ],
+       [
+        800,
+        540
+       ],
+       [
+        880,
+        500
+       ],
+       [
+        960,
+        540
+       ],
+       [
+        1040,
+        500
+       ],
+       [
+        1120,
+        540
+       ],
+       [
+        1200,
+        500
+       ],
+       [
+        1280,
+        540
+       ],
+       [
+        1360,
+        500
+       ],
+       [
+        1440,
+        540
+       ],
+       [
+        1520,
+        500
+       ],
+       [
+        1600,
+        540
+       ],
+       [
+        1680,
+        500
+       ],
+       [
+        1760,
+        540
+       ],
+       [
+        1840,
+        500
+       ],
+       [
+        1920,
+        540
+       ],
+       [
+        1940,
+        600
+       ]
+      ],
+      "fill": "#0b1220",
+      "color": "#000000",
+      "width": 0,
+      "outline": false
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 600,
+      "w": 1920,
+      "h": 480,
+      "fill": "#1f2a22",
+      "color": "#1f2a22",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        940,
+        600
+       ],
+       [
+        980,
+        600
+       ],
+       [
+        1700,
+        1100
+       ],
+       [
+        220,
+        1100
+       ]
+      ],
+      "fill": "#3a3a40",
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        600.5555555555555
+       ],
+       [
+        960,
+        605.0
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        620.0
+       ],
+       [
+        960,
+        635.5555555555555
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        667.2222222222222
+       ],
+       [
+        960,
+        693.8888888888889
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 6
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        742.2222222222222
+       ],
+       [
+        960,
+        780.0
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 8
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        845.0
+       ],
+       [
+        960,
+        893.8888888888889
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 10
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        960,
+        975.5555555555557
+       ],
+       [
+        960,
+        1035.5555555555554
+       ]
+      ],
+      "color": "#ffe24a",
+      "width": 13
+     },
+     {
+      "type": "circle",
+      "x": 300,
+      "y": 120,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 700,
+      "y": 60,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 1150,
+      "y": 160,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 1500,
+      "y": 90,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 90,
+      "y": 300,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "circle",
+      "x": 1200,
+      "y": 380,
+      "r": 3,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 1
+     },
+     {
+      "type": "asset",
+      "name": "moose_crossing_sign",
+      "x": 1640,
+      "y": 860,
+      "scale": 0.55
+     },
+     {
       "type": "text",
       "text": "NEWFOUNDLAND: ABOUT 539 MOOSE-VEHICLE COLLISIONS A YEAR,",
       "x": 960,
-      "y": 360,
-      "size": 54,
+      "y": 190,
+      "size": 44,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 1720
+     },
+     {
+      "type": "text",
+      "text": "2012-2020",
+      "x": 960,
+      "y": 300,
+      "size": 48,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
@@ -64305,38 +65870,29 @@
      },
      {
       "type": "text",
-      "text": "2012-2020",
-      "x": 960,
-      "y": 470,
-      "size": 54,
-      "color": "#ffffff",
-      "bold": true,
-      "boil": 0
-     },
-     {
-      "type": "text",
       "text": "1987-88: 661 CRASHES,",
       "x": 960,
-      "y": 660,
-      "size": 58,
+      "y": 390,
+      "size": 52,
       "color": "#ffffff",
       "bold": true,
-      "boil": 0
+      "boil": 0,
+      "max_width": 1500
      },
      {
       "type": "text",
       "text": "133 PEOPLE INJURED, 3 KILLED",
       "x": 960,
-      "y": 760,
-      "size": 58,
+      "y": 470,
+      "size": 52,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
+      "max_width": 1500,
       "appear": 0.3
      }
     ]
    },
-   "topbar": false,
    "hold": 0.5
   },
   {
@@ -64358,20 +65914,37 @@
       "boil": 0
      },
      {
-      "type": "text",
-      "text": "MAINE, 2003-2017:",
-      "x": 960,
-      "y": 340,
-      "size": 60,
-      "color": "#ffffff",
-      "bold": true,
+      "type": "rect",
+      "x": 0,
+      "y": 900,
+      "w": 1920,
+      "h": 180,
+      "fill": "#353a42",
+      "color": "#353a42",
+      "width": 0,
+      "outline": false,
       "boil": 0
      },
      {
+      "type": "line",
+      "points": [
+       [
+        0,
+        900
+       ],
+       [
+        1920,
+        900
+       ]
+      ],
+      "color": "#5a616c",
+      "width": 4
+     },
+     {
       "type": "asset",
-      "name": "moose_icon",
-      "x": 760,
-      "y": 600,
+      "name": "moose",
+      "x": 600,
+      "y": 900,
       "scale": 0.6,
       "appear": 0.3
      },
@@ -64379,7 +65952,7 @@
       "type": "text",
       "text": "VS",
       "x": 960,
-      "y": 600,
+      "y": 780,
       "size": 60,
       "color": "#ffffff",
       "bold": true,
@@ -64389,14 +65962,24 @@
      {
       "type": "asset",
       "name": "deer",
-      "x": 1160,
-      "y": 680,
-      "scale": 0.3,
+      "x": 1300,
+      "y": 900,
+      "scale": 0.6,
       "appear": 0.3
+     },
+     {
+      "type": "text",
+      "text": "MAINE, 2003-2017:",
+      "x": 960,
+      "y": 170,
+      "size": 60,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 1600
      }
     ]
-   },
-   "topbar": false
+   }
   },
   {
    "id": "s262",
@@ -64417,29 +66000,81 @@
       "boil": 0
      },
      {
+      "type": "rect",
+      "x": 0,
+      "y": 900,
+      "w": 1920,
+      "h": 180,
+      "fill": "#353a42",
+      "color": "#353a42",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        0,
+        900
+       ],
+       [
+        1920,
+        900
+       ]
+      ],
+      "color": "#5a616c",
+      "width": 4
+     },
+     {
+      "type": "asset",
+      "name": "moose",
+      "x": 600,
+      "y": 900,
+      "scale": 0.6
+     },
+     {
       "type": "text",
-      "text": "MAINE, 2003-2017:",
+      "text": "VS",
       "x": 960,
-      "y": 340,
+      "y": 780,
       "size": 60,
       "color": "#ffffff",
       "bold": true,
       "boil": 0
      },
      {
+      "type": "asset",
+      "name": "deer",
+      "x": 1300,
+      "y": 900,
+      "scale": 0.6
+     },
+     {
       "type": "text",
-      "text": "7,061 MOOSE CRASHES, 26 FATAL.",
+      "text": "MAINE, 2003-2017:",
       "x": 960,
-      "y": 480,
+      "y": 170,
       "size": 60,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
+      "max_width": 1600
+     },
+     {
+      "type": "text",
+      "text": "7,061 MOOSE CRASHES, 26 FATAL.",
+      "x": 960,
+      "y": 280,
+      "size": 56,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 1500,
       "appear": 0.4
      }
     ]
-   },
-   "topbar": false
+   }
   },
   {
    "id": "s263",
@@ -64460,31 +66095,84 @@
       "boil": 0
      },
      {
+      "type": "rect",
+      "x": 0,
+      "y": 900,
+      "w": 1920,
+      "h": 180,
+      "fill": "#353a42",
+      "color": "#353a42",
+      "width": 0,
+      "outline": false,
+      "boil": 0
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        0,
+        900
+       ],
+       [
+        1920,
+        900
+       ]
+      ],
+      "color": "#5a616c",
+      "width": 4
+     },
+     {
+      "type": "asset",
+      "name": "moose",
+      "x": 600,
+      "y": 900,
+      "scale": 0.6
+     },
+     {
       "type": "text",
-      "text": "MAINE, 2003-2017:",
+      "text": "VS",
       "x": 960,
-      "y": 340,
+      "y": 780,
       "size": 60,
       "color": "#ffffff",
       "bold": true,
       "boil": 0
+     },
+     {
+      "type": "asset",
+      "name": "deer",
+      "x": 1300,
+      "y": 900,
+      "scale": 0.6
+     },
+     {
+      "type": "text",
+      "text": "MAINE, 2003-2017:",
+      "x": 960,
+      "y": 170,
+      "size": 60,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 1600
      },
      {
       "type": "text",
       "text": "7,061 MOOSE CRASHES, 26 FATAL.",
       "x": 960,
-      "y": 480,
-      "size": 60,
+      "y": 280,
+      "size": 56,
       "color": "#ffffff",
       "bold": true,
-      "boil": 0
+      "boil": 0,
+      "max_width": 1500
      },
      {
       "type": "text",
       "text": "ODDS OF A DEATH: ABOUT 13 TIMES A DEER CRASH",
       "x": 960,
-      "y": 660,
-      "size": 56,
+      "y": 400,
+      "size": 52,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
@@ -64493,7 +66181,6 @@
      }
     ]
    },
-   "topbar": false,
    "hold": 0.5
   },
   {
@@ -65046,7 +66733,7 @@
      },
      {
       "type": "asset",
-      "name": "journal_paper",
+      "name": "moose_article_page",
       "x": 760,
       "y": 760,
       "scale": 0.4,
@@ -66427,10 +68114,10 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 942,
-      "y": 663,
-      "scale": 1.1,
-      "rotate": 25,
+      "x": 966,
+      "y": 739,
+      "scale": 1.0,
+      "rotate": 40,
       "appear": 0.6
      },
      {
@@ -67220,7 +68907,7 @@
      },
      {
       "type": "text",
-      "text": "\u266a",
+      "text": "♪",
       "x": 1150,
       "y": 700,
       "size": 80,
@@ -67231,7 +68918,7 @@
      },
      {
       "type": "text",
-      "text": "\u266a",
+      "text": "♪",
       "x": 1230,
       "y": 640,
       "size": 80,

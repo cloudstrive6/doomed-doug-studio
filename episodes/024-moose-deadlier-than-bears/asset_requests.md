@@ -76,6 +76,7 @@ House rules (brief section 7): detailed cartoon tier, thick black outline (5-6),
 - Shots (3): s050, s051, s052.
 - DONE (illustrator, moose batch): `assets/library/moose_head_surfacing.json`, preview `assets/previews/024-moose-deadlier-than-bears-moose-assets.png` (bottom-anchored ones are cropped there; full views on white/navy in `assets/previews/024-moose-deadlier-than-bears-moose-assets-detail.png`). Antlerless; weed strands end at the waterline.
 - POLISH (illustrator, art_review optional 3): ears redrawn as broader leaf shapes angled back and out, so the head reads less like a horse. Preview `assets/previews/024-moose-head-surfacing.png`.
+- DONE (illustrator, visual review round 1 fix 17): redrawn so it stops reading as a horse. It now has a big bulbous muzzle, deeper than the mid-face, with the upper lip drooping past a set-back chin and a large slanted nostril. Other changes: a Roman-nose top line, a bigger bell in front of the throat, broad leaf ears held out sideways, and small summer velvet palmate antlers with rounded fuzzy tips. Same anchor (waterline under the neck), same palette, same weed and ripples. bbox x -176..214, y -314..21 (was -180..182, -300..20), so it's a drop-in at s050-s052 with the same x, y and scale. Previews: assets/previews/024-moose-head-surfacing-v2.png (on white, `#3a9ad9` and navy), assets/previews/024-moose-head-surfacing-v2-shots.png (s050, s052), assets/previews/024-moose-head-surfacing-v2-s051.png, and assets/previews/024-moose-head-surfacing-v2-s051-168x94.png (feed size: muzzle and antlers still read as a moose).
 
 ### moose_submerged
 - What: A whole moose **completely underwater**, feeding on the lake bed (lake cross-section shots in The Dive).
@@ -83,6 +84,7 @@ House rules (brief section 7): detailed cartoon tier, thick black outline (5-6),
 - Facing/anchor: Facing right, bottom-centre anchor on the lake bed (hooves y=0). bbox x -310..310, y -560..0 (about 620 x 560).
 - Shots (8): s033, s036, s042, s043, s044, s045, s046, s048.
 - DONE (illustrator, moose batch): `assets/library/moose_submerged.json`, preview `assets/previews/024-moose-deadlier-than-bears-moose-assets.png` (bottom-anchored ones are cropped there; full views on white/navy in `assets/previews/024-moose-deadlier-than-bears-moose-assets-detail.png`). Antlerless (matches moose_head_surfacing); the tall pondweed under the muzzle is part of the asset.
+- CONTINUITY (director, keyframes round 2): `moose_head_surfacing` now has small summer velvet antlers, so the shots use a new variant, `assets/library/moose_submerged_velvet.json`. It is `moose_submerged` with the velvet antler elements from `moose_velvet` (elements 6 and 47-55, shifted -15/+125 onto the poll and drawn over the head). The anchor and bbox are unchanged, and `moose_submerged` itself is untouched. It is used in all 8 shots above. s032/s035 swap `moose` to `moose_velvet` too, so The Dive shows one velvet-antlered summer bull throughout. The illustrator may polish it (optional).
 
 ### moose_nose_cutaway
 - What: Cross-section diagram of a **moose nose with the nostril valves** (Witmer's dissection, 'AUTOMATIC VALVE').
@@ -267,5 +269,32 @@ House rules (brief section 7): detailed cartoon tier, thick black outline (5-6),
 - Shots (1): s256.
 
 - DONE (illustrator): `assets/library/stadium.json`, preview assets/previews/024-assets-b.png.
+
+### moose_bull_rearing (visual review round 1, fix 2)
+- What: Antlered bull moose rearing on his hind legs, so the s142 bull doesn't turn into the antlerless cow (which reads as a horse) in s143. It's optional for s129.
+- Look: This is the `moose_cow_rearing` pose and palette with the `moose` palmate antlers (far paddle behind the head, near paddle in front, tines on the rim). It keeps the bulbous drooping muzzle and has a bigger bull bell.
+- Facing/anchor: Facing right. The anchor is bottom-centre at the hind hooves (y=0). bbox x -231..232, y -708..0. The legs and body match the cow's footprint, and the rack adds about 70 units on top. It's a drop-in swap: keep the same x, y, scale and flip. In the s143 mock-up (scale 0.9) the antler tips reach y≈263, just under the BEAR | MOOSE scoreboard.
+- Shots: s143 (required), s129 (optional). s137 stays `moose_cow_rearing`.
+- DONE (illustrator): `assets/library/moose_bull_rearing.json`. Previews: assets/previews/024-moose-deadlier-than-bears-bull-rearing.png (on white and navy, beside the cow and the standing bull) and assets/previews/024-moose-deadlier-than-bears-bull-rearing-s143-mock.png (s143 with the swap). Checked at 168x94: it reads as an antlered moose.
+### bush_plane (visual review round 1, fix 9)
+- What: A small single-engine high-wing bush plane on skis, the kind David Mech flew to follow the Isle Royale wolves (replaces the modern passenger `airplane` in s229/s230).
+- Look: Crude-to-detailed prop tier like `helicopter`: one propeller at the nose, wing mounted on top of the cabin with a diagonal strut down to the fuselage, two side windows, small tail fin, **two skis** instead of wheels. Red-and-cream or yellow-and-white paint, thick black outline. Reads as "tiny bush plane" at scale 0.5 against the grey-blue winter sky `#9aa9c2`.
+- Facing/anchor: Side view facing right, centre anchor. bbox about x -260..260, y -110..110.
+- Shots: s229, s230 (x 960, y 260, scale 0.5).
+- DONE (illustrator): `assets/library/bush_plane.json` (red fuselage, cream cheat line and high wing, two struts, near and far skis plus a tail ski). bbox x -256..244, y -100..104. Previews: assets/previews/024-moose-deadlier-than-bears-fix-assets.png (library sheet) and assets/previews/024-moose-deadlier-than-bears-fix-assets-detail.png (on white and navy, plus in-shot mock-ups at the requested scales); 168x94 check in assets/previews/024-moose-deadlier-than-bears-fix-assets-tiny.png. Reads as a ski plane at 0.5 on `#9aa9c2`.
+
+### moose_rear (visual review round 1, fix 13)
+- What: The bull `moose` seen from behind/three-quarter rear, standing on the railway and facing **away from the camera** toward a distant train headlight (s216: "the moose turned to face the train instead of Doug").
+- Look: `moose` palette and antlers. We see the rump (pale-ish rear, short tail), long hind legs planted wide, the high shoulder hump, both palmate antler paddles spreading wide on either side of the head beyond the hump, the head itself mostly hidden (one ear tip visible). Menacing bulk, no face.
+- Facing/anchor: Rear view, bottom-centre anchor (hooves on y=0). bbox about x -230..230, y -560..0.
+- Shots: s216 (x 960, y 820, scale 0.35, between Doug and the headlight).
+- DONE (illustrator): `assets/library/moose_rear.json` (straight-on rear view; far front legs show between the hind legs). bbox x -232..232, y -558..0, hooves on y=0. Previews: assets/previews/024-moose-deadlier-than-bears-fix-assets.png (library sheet) and assets/previews/024-moose-deadlier-than-bears-fix-assets-detail.png (on white and navy, plus in-shot mock-ups at the requested scales); 168x94 check in assets/previews/024-moose-deadlier-than-bears-fix-assets-tiny.png. Reads as an antlered moose from behind at 0.35 on a night background.
+
+### moose_article_page (visual review round 1, fix 16)
+- What: A copy of `journal_paper` (same cream page, grey title block, two text columns, dog-ear) whose engraved plate shows **a small moose silhouette** (hump, drooping muzzle, palmate antlers) in brown ink, so the article picture stops reading as a fish or lizard. Leave `journal_paper` itself untouched (other episodes use it).
+- Facing/anchor: Centre anchor, 360x480, same as `journal_paper`.
+- Shots: s200 (scale 1.0), s266 (scale 0.4).
+- DONE (illustrator): `assets/library/moose_article_page.json` (journal_paper elements copied verbatim; only the plate animal was replaced by a brown-ink bull moose traced from `moose.json`, plus a ground line and a tiny spruce). Same 360x480 frame, x -180..188, y -240..248 including the shadow. `journal_paper.json` untouched. Previews: assets/previews/024-moose-deadlier-than-bears-fix-assets.png (library sheet) and assets/previews/024-moose-deadlier-than-bears-fix-assets-detail.png (on white and navy, plus in-shot mock-ups at the requested scales); 168x94 check in assets/previews/024-moose-deadlier-than-bears-fix-assets-tiny.png.
+
 ## For the graphic designer (thumbnail, s001)
 `thumbnail.json` does not exist yet; s001 is `scene_ref: thumbnail` and carries the first 7 words. Proposal A (brief section 3): use `moose_head_on` above as the hero (it is requested at the detailed tier for exactly this), the library `grizzly_bear` small beside it, tiny Doug, "WRONG ANIMAL". If the bear needs a nervous sideways glance, ask the illustrator for a `grizzly_bear` variant; the shotlist doesn't need one.

@@ -172,6 +172,9 @@ Every shot of an item stays on its item colour, death beats included. `#5d8a87` 
   (`rock_lump`), or the cap next to a clue (the ski tips), as long as the cap is in frame and the counter ticks. The **"preserved" variant**
   (012 amber) ticks the counter on a living expression because the frozen pose *is* the death image. It is only for entombment
   traps (amber, ice, mineral), always logged, never for ordinary deaths, which keep `dead` X eyes.
+- **Crouch (from 024)**: `pose: "crouch"`, a low squat leaning in with the front hand held out at chest height (greeting a calf, a
+  cub, anything small). Feet stay on the same ground line as `stand` (hips at the usual y), so no y change is needed. Not a fear pose:
+  for fear use `cower`.
 - **Thumbs up (from 005)**: use `pose: "thumbs_up"` (standing) or `"sit_thumbs_up"` (seated, same hip drop as `sit`).
   The hand point is local (+112, -156) x scale, with the thumb tip about 42 x scale above it, so aim arrows there. Never paste a
   separate hand prop next to Doug, because it reads as off-model. A seated Doug must sit *on* something: put the
