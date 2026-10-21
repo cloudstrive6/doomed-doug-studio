@@ -51,3 +51,32 @@ flat) waits for approval.
 - Carry to the titler: keep "to Doug" in any "Deadlier" title (the sources support injuries, not deaths). No T1 or T2 wording.
 - Series bible updated: counter 195 to 203 (death 200 flat), BEAR / MOOSE scoreboard logged as an episode-only device, episode log row.
 - Variety reminder: 021-024 are four single-animal episodes in a row, so 025 should be a list episode or the prehistoric compilation.
+
+## 2026-10-21: thumbnail gate (creative director): A APPROVED, B APPROVED, C NEEDS FIX
+I viewed all three at 1280x720 and at feed size, and read visual_review.md (PASS, C labels soft) and art_review.md (A > B > C).
+
+- **A (`thumbnail.png`, "WRONG ANIMAL"): APPROVED, lead variant and the opening frame (s001).** The glaring head-on bull fills
+  the frame, and the small sweating grizzly next to screaming Doug makes the pitch before anyone reads the title: the bear is scared
+  too. The text is heavy and legible at 168 px and shares no word with the title. The video delivers what it promises (BEAR 0 / MOOSE 8).
+  I'd click it.
+- **B (`thumbnail_b.png`, "35 MPH"): APPROVED, A/B variant.** One focal point, readable peril, and a crisp number. 35 mph is the NPS
+  figure (facts.md line 70) and is the same as the script's 56 km/h, so it isn't misleading even though the narration uses km/h. It is
+  less surprising than A because there's no bear, but it's a clean peril test. I'd click it.
+- **C (`thumbnail_c.png`, chapter grid): NEEDS FIX, do not upload as a test variant yet.** At 168 px the labels are thin grey strokes,
+  and the six tiles become brown shapes on colour. The labels carry an archetype-A grid, and here they don't hold up, so I wouldn't
+  click it. Doug is a dot in four tiles and missing from two. Required changes to `thumbnail_test_c.json` (graphic designer):
+  1. **One-word labels:** Calf, Dive, Rut, Hooves, Train, Highway (drop "The"; Title Case, per the bible's 1-4 word rule).
+  2. **Heavier, bigger labels.** The tile `label` already uses ComicNeue-Bold at 58 px, and that weight is too light. Set each tile's
+     `label` to "" and add a `text` element under each tile instead: font ComicNeue-Bold, size about 84, color #000000,
+     `outline` #000000, `outline_width` 3 (a black-on-black stroke works as faux-bold, so it still reads as the bible's
+     no-outline bold comic label). The cap height should be about 60-70 px. Shrink the tile height from 242 to about 225 if you need
+     room so labels don't touch the next row or the bottom edge (keep a margin of 8 px or more).
+  3. **Bigger Doug in every tile.** Raise Doug's scale from 0.2 to about 0.32-0.35, so the red cap stays a visible red dot at
+     168 px, and keep him smaller than the moose so he still works as the scale figure.
+  4. **Add Doug to Train and Highway.** Train: Doug standing just off the track beside the moose (pose stand, expression shock),
+     which matches the script beat where he steps off the line. Highway: Doug cowering at the roadside between the car and the moose
+     (cower, shock). No injury imagery.
+  5. Leave the subjects, background colours, frames and white canvas as they are. Re-render `thumbnail_c.png` and
+     `thumbnail_c_small.png` and check that every label reads at 168x94. The visual screener only needs to re-check C (labels
+     legible at feed size, Doug visible in 6 of 6 tiles, nothing cropped), and then it comes back to me.
+- The stage stays `art_approved`. Packaging can go ahead with A as the primary and B ready. C is added to the test only after its re-check.
