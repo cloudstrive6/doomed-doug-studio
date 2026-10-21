@@ -75,6 +75,7 @@ House rules (brief section 7): detailed cartoon tier, thick black outline (5-6),
 - Facing/anchor: Facing right, anchor (0,0) = waterline under the neck. bbox x -180..180, y -300..20 (about 360 x 320).
 - Shots (3): s050, s051, s052.
 - DONE (illustrator, moose batch): `assets/library/moose_head_surfacing.json`, preview `assets/previews/024-moose-deadlier-than-bears-moose-assets.png` (bottom-anchored ones are cropped there; full views on white/navy in `assets/previews/024-moose-deadlier-than-bears-moose-assets-detail.png`). Antlerless; weed strands end at the waterline.
+- POLISH (illustrator, art_review optional 3): ears redrawn as broader leaf shapes angled back and out, so the head reads less like a horse. Preview `assets/previews/024-moose-head-surfacing.png`.
 
 ### moose_submerged
 - What: A whole moose **completely underwater**, feeding on the lake bed (lake cross-section shots in The Dive).
@@ -103,6 +104,7 @@ House rules (brief section 7): detailed cartoon tier, thick black outline (5-6),
 - Facing/anchor: Anchor (0,0) = ice surface at the centre. bbox x -350..350, y -260..0 (about 700 x 260).
 - Shots (2): s189, s190.
 - DONE (illustrator, moose batch): `assets/library/locked_antlers_ice.json`, preview `assets/previews/024-moose-deadlier-than-bears-moose-assets.png` (bottom-anchored ones are cropped there; full views on white/navy in `assets/previews/024-moose-deadlier-than-bears-moose-assets-detail.png`).
+- REDRAWN (illustrator, art_review fix 1): two palmate racks in the `moose_antler_rack` shape and colour, inner paddles overlapping, front-rack tines over the back paddle and two back-rack tines hooked over the front. Snow caps, ice line y=0, crack ring kept; bbox x -346..346, y -226..-2, nothing below the ice. Preview `assets/previews/024-locked-antlers.png`.
 
 ### moose_track
 - What: A **moose front hoof print in snow** (7 in / 18 cm; compared with a dollar bill).
