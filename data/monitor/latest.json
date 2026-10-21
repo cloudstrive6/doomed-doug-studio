@@ -1,5 +1,5 @@
 {
- "at": "2026-10-21T18:01:41+00:00",
+ "at": "2026-10-21T19:01:45+00:00",
  "issues": [
   {
    "key": "related_pending",
@@ -7,6 +7,26 @@
    "owner": "owner",
    "summary": "6 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "detail": "This Cave Has Been Sealed for at Least 2.5 Million Years -> Why the Ground Gets Deadlier the Deeper Doug Goes\nA Scientist Tasted Billion-Year-Old Water -> Why the Ground Gets Deadlier the Deeper Doug Goes\nThe Deepest Hole Ever Drilled Is 0.2% of the Way Down -> Why the Ground Gets Deadlier the Deeper Doug Goes\nOne Orca Killed a Great White Shark in Two Minutes -> Why Orcas Kill Everything in the Ocean Except Doug\nOrcas Have Been Caught Killing Swimming Moose -> Why Orcas Kill Everything in the Ocean Except Doug\nOrcas Hunt the Largest Animal That Has Ever Lived -> Why Orcas Kill Everything in the Ocean Except Doug",
+   "route": "",
+   "fixed": false,
+   "extra": {}
+  },
+  {
+   "key": "end_screens_pending",
+   "severity": "low",
+   "owner": "owner",
+   "summary": "1 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "detail": "024-moose-deadlier-than-bears https://studio.youtube.com/video/bACeD2HtavQ/editor",
+   "route": "",
+   "fixed": false,
+   "extra": {}
+  },
+  {
+   "key": "thumb_tests_pending",
+   "severity": "low",
+   "owner": "owner",
+   "summary": "1 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "detail": "024-moose-deadlier-than-bears https://studio.youtube.com/video/bACeD2HtavQ/edit",
    "route": "",
    "fixed": false,
    "extra": {}
