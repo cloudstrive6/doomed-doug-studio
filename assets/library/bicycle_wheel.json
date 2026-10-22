@@ -1,0 +1,610 @@
+{
+ "name": "bicycle_wheel",
+ "description": "Road bike wheel (about 70 cm), flat side view: thin black tyre, silver rim, 28 thin straight spokes laced to a small silver hub with a cassette of rings, valve at the bottom. Transparent between the spokes. Anchor centre, diameter ~520 (x -261..261).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "bicycle",
+  "scale"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 250,
+   "ry": 250,
+   "start": 0,
+   "end": 360,
+   "width": 18,
+   "color": "#1e1e1e",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 234,
+   "ry": 234,
+   "start": 0,
+   "end": 360,
+   "width": 12,
+   "color": "#c0c6ce",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 259,
+   "ry": 259,
+   "start": 0,
+   "end": 360,
+   "width": 4,
+   "color": "#000000",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 227,
+   "ry": 227,
+   "start": 0,
+   "end": 360,
+   "width": 4,
+   "color": "#000000",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 241,
+   "ry": 241,
+   "start": 0,
+   "end": 360,
+   "width": 3,
+   "color": "#000000",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 235,
+   "ry": 235,
+   "start": 200,
+   "end": 250,
+   "width": 3,
+   "color": "#f2f6fa",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 250,
+   "ry": 250,
+   "start": 300,
+   "end": 340,
+   "width": 3,
+   "color": "#4a4a4a",
+   "fill": null
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     21.5,
+     -4.8
+    ],
+    [
+     226.0,
+     0.0
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     19.9,
+     9.5
+    ],
+    [
+     220.3,
+     50.3
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     21.4,
+     5.0
+    ],
+    [
+     203.6,
+     98.1
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     13.8,
+     17.1
+    ],
+    [
+     176.7,
+     140.9
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     17.1,
+     13.8
+    ],
+    [
+     140.9,
+     176.7
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     5.0,
+     21.4
+    ],
+    [
+     98.1,
+     203.6
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     9.5,
+     19.9
+    ],
+    [
+     50.3,
+     220.3
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -4.8,
+     21.5
+    ],
+    [
+     0.0,
+     226.0
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -0.1,
+     22.0
+    ],
+    [
+     -50.3,
+     220.3
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -13.6,
+     17.3
+    ],
+    [
+     -98.1,
+     203.6
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -9.6,
+     19.8
+    ],
+    [
+     -140.9,
+     176.7
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -19.8,
+     9.6
+    ],
+    [
+     -176.7,
+     140.9
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -17.3,
+     13.6
+    ],
+    [
+     -203.6,
+     98.1
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22.0,
+     0.1
+    ],
+    [
+     -220.3,
+     50.3
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -21.5,
+     4.8
+    ],
+    [
+     -226.0,
+     0.0
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -19.9,
+     -9.5
+    ],
+    [
+     -220.3,
+     -50.3
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -21.4,
+     -5.0
+    ],
+    [
+     -203.6,
+     -98.1
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -13.8,
+     -17.1
+    ],
+    [
+     -176.7,
+     -140.9
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -17.1,
+     -13.8
+    ],
+    [
+     -140.9,
+     -176.7
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -5.0,
+     -21.4
+    ],
+    [
+     -98.1,
+     -203.6
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -9.5,
+     -19.9
+    ],
+    [
+     -50.3,
+     -220.3
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     4.8,
+     -21.5
+    ],
+    [
+     -0.0,
+     -226.0
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0.1,
+     -22.0
+    ],
+    [
+     50.3,
+     -220.3
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     13.6,
+     -17.3
+    ],
+    [
+     98.1,
+     -203.6
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     9.6,
+     -19.8
+    ],
+    [
+     140.9,
+     -176.7
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     19.8,
+     -9.6
+    ],
+    [
+     176.7,
+     -140.9
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     17.3,
+     -13.6
+    ],
+    [
+     203.6,
+     -98.1
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22.0,
+     -0.1
+    ],
+    [
+     220.3,
+     -50.3
+    ]
+   ],
+   "width": 2,
+   "color": "#6a7078"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -6,
+     214
+    ],
+    [
+     6,
+     214
+    ],
+    [
+     6,
+     238
+    ],
+    [
+     -6,
+     238
+    ]
+   ],
+   "fill": "#c0c6ce",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 32,
+   "ry": 32,
+   "fill": "#b8bec6",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 25,
+   "ry": 25,
+   "start": 0,
+   "end": 360,
+   "width": 2,
+   "color": "#4a5058",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 18,
+   "ry": 18,
+   "start": 0,
+   "end": 360,
+   "width": 2,
+   "color": "#4a5058",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 12,
+   "ry": 12,
+   "start": 0,
+   "end": 360,
+   "width": 2,
+   "color": "#4a5058",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#1e1e1e",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -60,
+   "y": -60,
+   "rx": 1,
+   "ry": 1,
+   "fill": null,
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

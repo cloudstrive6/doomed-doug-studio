@@ -1,0 +1,624 @@
+{
+ "name": "ukulele",
+ "description": "Soprano ukulele (about 53 cm), horizontal with the neck to the right: small light-wood figure-eight body with shading, dark sound hole with a rosette ring, dark bridge, dark fretboard with silver frets, four light strings, brown headstock with four white pegs. Anchor centre. x -182..210, y -49..49.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "music",
+  "scale"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -182,
+     0
+    ],
+    [
+     -176,
+     -44
+    ],
+    [
+     -146,
+     -70
+    ],
+    [
+     -108,
+     -74
+    ],
+    [
+     -74,
+     -60
+    ],
+    [
+     -56,
+     -48
+    ],
+    [
+     -36,
+     -56
+    ],
+    [
+     -6,
+     -58
+    ],
+    [
+     26,
+     -46
+    ],
+    [
+     44,
+     -22
+    ],
+    [
+     48,
+     0
+    ],
+    [
+     44,
+     22
+    ],
+    [
+     26,
+     46
+    ],
+    [
+     -6,
+     58
+    ],
+    [
+     -36,
+     56
+    ],
+    [
+     -56,
+     48
+    ],
+    [
+     -74,
+     60
+    ],
+    [
+     -108,
+     74
+    ],
+    [
+     -146,
+     70
+    ],
+    [
+     -176,
+     44
+    ]
+   ],
+   "fill": "#e3b778",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": -150,
+   "y": 40,
+   "r": 34,
+   "color": "#c8945a",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 10,
+   "y": 36,
+   "r": 26,
+   "color": "#c8945a",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -160,
+     -50
+    ],
+    [
+     -120,
+     -64
+    ],
+    [
+     -84,
+     -54
+    ]
+   ],
+   "width": 3,
+   "color": "#f6dca8"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -170,
+     -15.0
+    ],
+    [
+     -80,
+     -21.0
+    ],
+    [
+     30,
+     -15.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d4a466"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -170,
+     15.0
+    ],
+    [
+     -80,
+     21.0
+    ],
+    [
+     30,
+     15.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d4a466"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -13
+    ],
+    [
+     156,
+     -12
+    ],
+    [
+     156,
+     12
+    ],
+    [
+     40,
+     13
+    ]
+   ],
+   "fill": "#c8945a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     -11
+    ],
+    [
+     156,
+     -10
+    ],
+    [
+     156,
+     10
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "fill": "#3a2a20",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -10
+    ],
+    [
+     60,
+     10
+    ]
+   ],
+   "width": 2,
+   "color": "#c8ccd2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     82,
+     -10
+    ],
+    [
+     82,
+     10
+    ]
+   ],
+   "width": 2,
+   "color": "#c8ccd2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     102,
+     -10
+    ],
+    [
+     102,
+     10
+    ]
+   ],
+   "width": 2,
+   "color": "#c8ccd2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     120,
+     -10
+    ],
+    [
+     120,
+     10
+    ]
+   ],
+   "width": 2,
+   "color": "#c8ccd2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     136,
+     -10
+    ],
+    [
+     136,
+     10
+    ]
+   ],
+   "width": 2,
+   "color": "#c8ccd2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     150,
+     -10
+    ],
+    [
+     150,
+     10
+    ]
+   ],
+   "width": 2,
+   "color": "#c8ccd2"
+  },
+  {
+   "type": "ellipse",
+   "x": -18,
+   "y": 0,
+   "rx": 24,
+   "ry": 24,
+   "fill": "#2b1a10",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -18,
+   "y": 0,
+   "rx": 31,
+   "ry": 31,
+   "start": 0,
+   "end": 360,
+   "width": 3,
+   "color": "#8a5a30",
+   "fill": null
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     172,
+     -20
+    ],
+    [
+     172,
+     -34
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 172,
+   "y": -40,
+   "rx": 7,
+   "ry": 9,
+   "fill": "#f0ece0",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     172,
+     20
+    ],
+    [
+     172,
+     34
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 172,
+   "y": 40,
+   "rx": 7,
+   "ry": 9,
+   "fill": "#f0ece0",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     194,
+     -20
+    ],
+    [
+     194,
+     -34
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 194,
+   "y": -40,
+   "rx": 7,
+   "ry": 9,
+   "fill": "#f0ece0",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     194,
+     20
+    ],
+    [
+     194,
+     34
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 194,
+   "y": 40,
+   "rx": 7,
+   "ry": 9,
+   "fill": "#f0ece0",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     156,
+     -14
+    ],
+    [
+     206,
+     -22
+    ],
+    [
+     210,
+     0
+    ],
+    [
+     206,
+     22
+    ],
+    [
+     156,
+     14
+    ]
+   ],
+   "fill": "#8a5a30",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     157,
+     -12
+    ],
+    [
+     157,
+     12
+    ]
+   ],
+   "width": 4,
+   "color": "#f0ece0"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -136,
+     -26
+    ],
+    [
+     -122,
+     -26
+    ],
+    [
+     -122,
+     26
+    ],
+    [
+     -136,
+     26
+    ]
+   ],
+   "fill": "#4a2c18",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -129,
+     -11.2
+    ],
+    [
+     157,
+     -7
+    ]
+   ],
+   "width": 2,
+   "color": "#f4f4f0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     157,
+     -7
+    ],
+    [
+     172,
+     -14
+    ]
+   ],
+   "width": 2,
+   "color": "#f4f4f0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -129,
+     -4.0
+    ],
+    [
+     157,
+     -2.5
+    ]
+   ],
+   "width": 2,
+   "color": "#f4f4f0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     157,
+     -2.5
+    ],
+    [
+     194,
+     -14
+    ]
+   ],
+   "width": 2,
+   "color": "#f4f4f0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -129,
+     4.0
+    ],
+    [
+     157,
+     2.5
+    ]
+   ],
+   "width": 2,
+   "color": "#f4f4f0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     157,
+     2.5
+    ],
+    [
+     194,
+     14
+    ]
+   ],
+   "width": 2,
+   "color": "#f4f4f0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -129,
+     11.2
+    ],
+    [
+     157,
+     7
+    ]
+   ],
+   "width": 2,
+   "color": "#f4f4f0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     157,
+     7
+    ],
+    [
+     172,
+     14
+    ]
+   ],
+   "width": 2,
+   "color": "#f4f4f0"
+  }
+ ]
+}

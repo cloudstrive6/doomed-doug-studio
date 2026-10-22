@@ -1,0 +1,458 @@
+{
+ "name": "bug_net",
+ "description": "Doug's insect net: light wooden handle (dark grip wrap at the bottom), silver wire hoop seen slightly from the side (ellipse centred (0,-400), radius 100) and a white mesh bag hanging below the hoop to y -260. Anchor = the grip end (0,0); the handle runs straight up. Rotate it a little in use.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "insect",
+  "net",
+  "doug"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -400,
+   "rx": 100,
+   "ry": 34,
+   "start": 180,
+   "end": 360,
+   "width": 9,
+   "color": "#000000",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -400,
+   "rx": 100,
+   "ry": 34,
+   "start": 180,
+   "end": 360,
+   "width": 4,
+   "color": "#c8c8c8",
+   "fill": null
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -98,
+     -398
+    ],
+    [
+     -94,
+     -350
+    ],
+    [
+     -74,
+     -300
+    ],
+    [
+     -40,
+     -268
+    ],
+    [
+     0,
+     -260
+    ],
+    [
+     40,
+     -268
+    ],
+    [
+     74,
+     -300
+    ],
+    [
+     94,
+     -350
+    ],
+    [
+     98,
+     -398
+    ],
+    [
+     60,
+     -372
+    ],
+    [
+     0,
+     -366
+    ],
+    [
+     -60,
+     -372
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -73.5,
+     -353.6
+    ],
+    [
+     -44.1,
+     -300
+    ],
+    [
+     -11.0,
+     -264
+    ]
+   ],
+   "width": 2,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -49.0,
+     -359.8
+    ],
+    [
+     -29.4,
+     -300
+    ],
+    [
+     -7.3,
+     -264
+    ]
+   ],
+   "width": 2,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -24.5,
+     -365.9
+    ],
+    [
+     -14.7,
+     -300
+    ],
+    [
+     -3.7,
+     -264
+    ]
+   ],
+   "width": 2,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0.0,
+     -372.0
+    ],
+    [
+     0.0,
+     -300
+    ],
+    [
+     0.0,
+     -264
+    ]
+   ],
+   "width": 2,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     24.5,
+     -365.9
+    ],
+    [
+     14.7,
+     -300
+    ],
+    [
+     3.7,
+     -264
+    ]
+   ],
+   "width": 2,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     49.0,
+     -359.8
+    ],
+    [
+     29.4,
+     -300
+    ],
+    [
+     7.3,
+     -264
+    ]
+   ],
+   "width": 2,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     73.5,
+     -353.6
+    ],
+    [
+     44.1,
+     -300
+    ],
+    [
+     11.0,
+     -264
+    ]
+   ],
+   "width": 2,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -93.4,
+     -358.5
+    ],
+    [
+     0,
+     -348.5
+    ],
+    [
+     93.4,
+     -358.5
+    ]
+   ],
+   "width": 2,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -76.7,
+     -327.0
+    ],
+    [
+     0,
+     -317.0
+    ],
+    [
+     76.7,
+     -327.0
+    ]
+   ],
+   "width": 2,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -46.0,
+     -295.5
+    ],
+    [
+     0,
+     -285.5
+    ],
+    [
+     46.0,
+     -295.5
+    ]
+   ],
+   "width": 2,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -8,
+     0
+    ],
+    [
+     -8,
+     -366
+    ],
+    [
+     8,
+     -366
+    ],
+    [
+     8,
+     0
+    ]
+   ],
+   "fill": "#d9b07a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -2,
+     -20
+    ],
+    [
+     -2,
+     -340
+    ]
+   ],
+   "width": 2,
+   "color": "#a0784a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     2
+    ],
+    [
+     -10,
+     -64
+    ],
+    [
+     10,
+     -64
+    ],
+    [
+     10,
+     2
+    ]
+   ],
+   "fill": "#6b4a2a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -9,
+     -10
+    ],
+    [
+     9,
+     -18
+    ]
+   ],
+   "width": 2,
+   "color": "#3a2614"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -9,
+     -24
+    ],
+    [
+     9,
+     -32
+    ]
+   ],
+   "width": 2,
+   "color": "#3a2614"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -9,
+     -38
+    ],
+    [
+     9,
+     -46
+    ]
+   ],
+   "width": 2,
+   "color": "#3a2614"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -9,
+     -52
+    ],
+    [
+     9,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#3a2614"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -11,
+     -352
+    ],
+    [
+     -11,
+     -376
+    ],
+    [
+     11,
+     -376
+    ],
+    [
+     11,
+     -352
+    ]
+   ],
+   "fill": "#b8b8b8",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -400,
+   "rx": 100,
+   "ry": 34,
+   "start": 0,
+   "end": 180,
+   "width": 9,
+   "color": "#000000",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -400,
+   "rx": 100,
+   "ry": 34,
+   "start": 0,
+   "end": 180,
+   "width": 4,
+   "color": "#d8d8d8",
+   "fill": null
+  }
+ ]
+}
