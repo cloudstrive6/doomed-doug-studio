@@ -1,58 +1,58 @@
 # Visual review: 025-too-much-oxygen
 
-## Round 1: pre-render keyframes (2026-10-22)
+## Round 2: re-rendered keyframes + thumbnails (2026-10-22)
 
-Scope: contact sheets 01–22 (s002–s260 + endslate). s001 (thumbnail) skipped as instructed.
+Scope: the 80 re-rendered keyframes (contact sheets 01–07: s002–s005, s013–s014, s025–s030, s043–s044, s048, s056,
+s061, s065, s069, s075–s076, s088–s090, s093–s094, s103, s107–s109, s113, s116, s120, s124–s126, s138, s140–s142,
+s157–s158, s161–s162, s164, s172, s174, s177, s185, s192, s198, s210–s213, s215–s217, s222, s225–s226, s228–s229,
+s231, s234, s236–s238, s247–s257, s259), checked against the round-1 fixes and for regressions. I also screened all
+three thumbnails at full size, in `smalls.png` and at feed size (`feed168.png`, 168x94).
 
-**VERDICT: FAIL**
+**VERDICT: PASS**
 
-Overall the episode is in good shape. Doug is on-model in every shot (red cap, white head). The creatures are recognisable: dragonfly, Megarachne card, eurypterid, Meganeura, scorpion, Hibbertopterus, Crassigyrinus, Arthropleura. Deaths are cartoon-only, there is no gore, and the tone is not kids-show. There is one dismemberment read (s030). Six shots also have labels that collide with the death counter / size meter or are covered by a drawing, and two of those are unreadable. Those block the pass.
+All seven round-1 blockers are fixed, and I found no new blocking problems.
 
-### Must fix (blocking)
+### Round-1 blockers: status
+1. s030: fixed. The ghost Doug now floats in open sky with his full body visible, and the only other cap is the one on the fern. The dismemberment read is gone.
+2. s211: fixed. "HUGE TEETH" sits clear of the meter.
+3. s213: fixed. "LARGE EYES" is clear of the meter.
+4. s162: fixed. "AIR" reads clearly and the blue arrow hits the plates.
+5. s093: fixed. "PIERCING BEAK" is clear of the meter box.
+6. s094: fixed. "EXTRA FLAPS" is clear and the arrow is aimed at the front flap.
+7. s090: fixed. "309 MILLION YEARS AGO" is fully visible.
 
-1. **s030: director.** The ghost Doug (`doug` x 760, y 520, ghost, dead) sits exactly on the crown of the middle `scale_tree` (also x 760). In the frame it reads as Doug's severed X-eyed head stuck on top of a tree trunk. That is a dismemberment read, and it also shows two caps (one on the head, one on the fern). Move the ghost into open sky away from every trunk, e.g. x 1000, y 420, so the full floating body is visible.
-2. **s211: director.** The "HUGE TEETH" label (x 1450, y 250) sits under the size-meter box and reads "HUGE TE…". Move the label below the counter zone (e.g. x 1350, y 330) and adjust the arrow start.
-3. **s213: director.** The "LARGE EYES" label (x 1400, y 270) is overlapped by the size-meter box ("DOUG-SIZED" covers "EYES"). Move it out of the top-right corner, e.g. x 1350, y 340, or to the left side of the skull.
-4. **s162: director.** The "AIR" label is almost completely hidden behind the "ABOUT 70 CM" size-meter box (only "AIR" fragments show). Move it to around x 1750, y 760 (below the plates) or to the left of the plates, and re-aim the blue arrow.
-5. **s093: director.** The "PIERCING BEAK" label overlaps the "54 CM" meter box and tape icon. Move it down and left (e.g. x 1640, y 300 in frame) so its top edge clears y 240.
-6. **s094: director.** The "EXTRA FLAPS" label overlaps the "54 CM" meter box. Move it to around x 470, y 300 and re-aim the arrow at the small front flap.
-7. **s090: director.** The "309 MILLION YEARS AGO" subtitle is cut off: the Mazothairos drawing on the right tree covers "AGO". Move the insect lower or right (clear of the label), or move the label left.
+### Round-1 should-fix and variety items: status
+Fixed: s061 and s140 (meter clear), s125 and s126 (frame clear of the meter), s069, s177, s157, s158, s236, s229 (stale bracket removed),
+s210 (the 1.6 M marker is gone and the 2–3 M bracket stays), s259, s013, s014, s198, s215, s228, s231, s044, s120, s027, s141, s142,
+s056 (Sumatra label added, dashed line now starts below the tag, and a Doug stack gives scale), s043 (now a winged mayfly), s075 and s076 (rope
+barrier with posts), s138 (wings-spread bat), s109 (fern-and-insect scene breaks the cross-section run),
+s113 (close-up), s116 (larger hand). The meter is now hidden in the cold open (s002–s005).
 
-### Should fix (overlaps with the counter/meter, readability, clarity)
+### Non-blocking notes (fix if touched again)
+- **s002 (director):** the right-hand "O2" (about x 1150, y 420) now sits on the branches of the right tree crown. Move it about 120 px up into open sky.
+- **s140 (illustrator/director):** the net handle ends at Doug's cap brim, about 50 px above his raised hand. Snap the handle end to the hand.
+- **s250 (director):** the fern saddle floats beside Doug's outstretched hand rather than in it. Move it about 60 px left and down onto the hand.
+- **s056 (director):** the top Doug in the depth stack is cropped at the frame edge. This is acceptable as "keeps going", but one fewer Doug, or a small "x9" label, would make it read more clearly.
+- **Size meter (art director, carried over from round 1, item 31):** the tape icon is still unreadably small at scale 0.16.
 
-8. **s061, s140: director.** The insect wing (Bojophlebia in s061, Meganeura in s140) passes straight through the size-meter tape icon. Lower the creature about 80 px or shift it left so the meter stays clean.
-9. **s125, s126: director.** The flashback picture-frame's top edge and right side run through the size-meter icon. Shrink the frame or move it down/left so its top edge is below y ≈ 260 and its right edge is left of x ≈ 1450.
-10. **s069: director.** The top-right corner of the X-ray panel touches the meter icon. Shrink or move the panel about 40 px down/left.
-11. **s177: director.** The "2005" label sits on the meter icon. Move it to the left of the paper (e.g. x 1300, y 160).
-12. **s157, s236: director.** "SMALL PINCERS" (s157) and "CENTIPEDE-LIKE" (s236) butt against the underside of the meter box. Drop each about 40 px. s158 uses the same "SMALL PINCERS" position, so drop it there too.
-13. **s229: director.** A stale "2 TO 3 M?" label and red bracket from the Crassigyrinus scale (s210) are still on the Arthropleura scale, which already marks 2.6 M. Remove the bracket and label.
-14. **s210: director.** The red "1.6 M" marker at Doug's head height reads as the animal's size and contradicts "2 TO 3 M". Remove that marker, or relabel it "DOUG". Keep the 2–3 m bracket.
-15. **s259: director.** The "BUGS THAT NOTICED HIM: ALMOST NONE" label covers the top of the time machine (TIME sign hidden), and the dragonfly's tail crosses the end of the label. Move the label into open sky (e.g. centre x 1100, y 330) and move the dragonfly clear of it.
-16. **s013, s014: director.** Doug stands directly in front of a scale-tree trunk, and the patterned trunk runs through his body, so he reads poorly. Move Doug about 120 px right into clear ground.
-17. **s198, s215: director.** Doug is placed inside the fern, which hides his whole body and leaves a floating head. Move him beside the fern (e.g. 150 px left).
-18. **s228, s231: director.** Doug is half-hidden behind Arthropleura's tail and a tree trunk at the far left. Pull him left/up or move him in front so his full body reads; this matters for the scale gag.
-19. **s044, s120: director.** The lime emphasis word ("LONELY BRANCH", "GRIFFINFLIES") is drawn over a family-tree branch line that cuts through the letters. Move the word off the line.
-20. **s027: director.** The candle flame column runs up through the "THE OXYGEN" chapter tag. Cap the flame below about y 70 or scale it to 0.9.
-21. **s141, s142: director.** The Meganeura wings overlap the "THE GRIFFINFLY" chapter tag. Lower the dragonfly about 60 px.
-22. **s002: director.** One of the three "O2" glyphs sits on top of a tree crown (lower-left one, under "EXTRA OXYGEN") and is half-lost in the foliage. Move it into open sky.
-23. **s056: director.** The frame is almost entirely flat brown with a dashed line. Sumatra and peat aren't readable, Doug is absent, and the dashed line runs through the "THE WINGS" tag. Add Doug at the surface for scale (as in s052/s055), start the dashed depth line below the tag, and add a small "SUMATRA" label.
-24. **s043: illustrator.** The mayfly on the MAYFLIES branch is a brown beetle, not a mayfly. Use the Bojophlebia/mayfly-style winged drawing (small scale) so the two branches read as mayfly vs dragonfly.
-25. **s075, s076: illustrator / director.** The row of five white circles on the museum floor is unexplained (it reads as eggs or balls). Remove it, or make it a clear rope barrier with posts.
-26. **s140: illustrator / director.** The bug net floats beside Doug and is not in his hand. Attach the handle to Doug's raised hand.
-27. **s138: illustrator.** The bat silhouette (centre) is an unreadable black blob. Use a wings-spread bat silhouette.
+### Thumbnails
 
-### Variety (director)
+**A: `thumbnail.png` ("AIR DID THIS?", Arthropleura head-on + Meganeura, Doug): PASS (recommended lead).**
+At 168x94 it has one clear focal point: the giant segmented bug fills the right half and Doug's red cap stands out against the lime background.
+The text is fully legible at feed size and repeats no title word. It complements the title well: the title gives the oxygen cause and the image
+shows the giant bugs blamed on it. There is no gore and it does not look like a kids' show. Minor issue: the Meganeura shrinks to a thin blue stroke
+at feed size, so it adds little but does no harm.
 
-28. **s106–s109.** Four near-identical fern-stem cross-section frames in a row with no camera moves. Add a zoom_in on s107 (onto the inner tissue) and a push to the wound circles on s108. Alternatively, cut s109 to a fern-and-insect scene ("still alive" with the fern drinking-straw image).
-29. **s211–s214.** Four identical skull compositions. Vary them with camera moves: zoom to the teeth on s211, pan along the ridges on s212, tight on the eye on s213. This also fixes items 2–3 if the labels are re-placed.
-30. **s112–s117.** Six shots on the same tree-fern set with Doug in the same spot. Camera moves only exist on s112/s117. Add a close-up (zoom 1.3 on Doug + insect) on s113, and on s116 frame the narrator hand larger or cut tighter.
+**B: `thumbnail_b.png` ("GULP", Crassigyrinus jaws below the waterline, Doug above): PASS (weakest of the three).**
+It is readable at feed size with one focal point, the teeth and eye. There is no gore; the teeth are cartoon. It is not misleading,
+because Crassigyrinus is a full chapter. However, the title promises **bugs**, and this shows an amphibian that reads at 168 px as a crocodile or frog, so the
+title and image pull in different directions, and "GULP" does not connect to oxygen. I expect the lowest CTR of the three. Keep it in the test only as the
+contrast arm (graphic designer, optional).
 
-### Style note (art director, non-blocking for this episode)
+**C: `thumbnail_c.png` (2x3 labelled grid: Griffinfly, Spider, Scorpion, Tadpole, Beak, Millipede): PASS.**
+This is the house archetype A. All six labels are legible at 168x94 and there are fewer than 12 tiles. Each creature is recognisable in its tile except Tadpole,
+which reads as a croc-like head at feed size; that is acceptable with the label. There is no gore. "Spider" is the chapter name and the
+misconception the video unpacks, so it is not misleading. Minor issues: the pastel pink and purple tiles combined with the rounded Comic font are the closest of the three to a
+kids-show look, and the six repeated Dougs add clutter. Optional (graphic designer): drop Doug from the tiles or keep him in only one.
 
-31. **Size meter, all shots.** The `tape_measure` icon is drawn at scale 0.16 and is unreadable at 1080p (a few pixels of yellow). Its label is tiny type compared with the death counter. Consider scale 0.3+ and a larger label font. Also, through s002–s037 the meter reads "SMALLER THAN A DOT" while a giant dragonfly and millipede are on screen in the cold open. Either hide the meter until s038 or start it at the first creature's size.
-
-### Checked and fine
-- Death counter increments correctly at each death: 203 → 204 (s028), 205 (s062), 206 (s088), 207 (s144), 208 (s171), 209 (s220), 210 (s252). The final 210 matches the narration in s258.
-- All deaths are cartoon (smoke, sunk cap, splash, ghost, flattened X-eyes). There is no blood or anatomy. Silhouette reveals (s003, s033, s065, s147, s178, s199, s226) are clear.
-- Spelling of all on-screen names is correct: Bojophlebia, Megarachne, Palaeodictyoptera, Mazon Creek, Commentry, Pulmonoscorpius, East Kirkton, Hibbertopterus, Crassigyrinus, Arthropleura, Howick Bay.
-- Endslate is clean and the arrow points to the video slot.
+No gore or policy risk in any variant. None of them copies competitor drawings or wording.
