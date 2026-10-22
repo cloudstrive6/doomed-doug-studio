@@ -44,3 +44,36 @@ SCRIPT: APPROVED
   (+hook), short04 The Griffinfly s137-s143 (+hook). All four cut just before Doug's death or survival beat (Doug's-fate loop).
   Titles and descriptions are left for the titler.
 - Thumbnail (s001 `scene_ref`) is pending from the graphic designer; it is the only non-asset validator item.
+
+## 2026-10-22, creative director: thumbnail gate (A / B / C)
+Read: visual_review.md round 2 (PASS on all three), build/thumbnail.png, thumbnail_b.png, thumbnail_c.png, build/feed168.png,
+metadata.json title "When Earth Had So Much Oxygen That Bugs Could Kill Doug" and thumbnail_brief.
+
+**A, `thumbnail.png` ("AIR DID THIS?", Arthropleura head-on + Meganeura + Doug): APPROVED, lead variant.**
+One focal point at 168 px, text legible, no title word repeated, the image delivers the title's promise (giant bugs, oxygen as the cause),
+and both creatures kill Doug on screen. Doug is small and for scale, not the hero (style bible 2, human-for-scale). I would click it.
+Optional only if it gets re-rendered for another reason: scale the Meganeura up about 1.4x so it reads as more than a thin blue line at feed size.
+
+**B, `thumbnail_b.png` ("GULP", Crassigyrinus): REJECTED. Redo as a different hero.**
+The title promises bugs. This shows the one non-bug in the episode, and at 168 px it reads as a crocodile. "GULP" has nothing to do with
+oxygen or size. A test arm that pulls against the title wastes impressions and teaches YouTube the wrong audience. Changes for the graphic designer:
+1. Hero is **Meganeura** (the Griffinfly, death 207), seen from above or head-on, with its wings spread across about 75-80% of the frame width.
+   Keep it at the detailed tier: heavy, veined and real, never cute.
+2. Doug stands small below one wing, with his arms stretched out sideways and visibly shorter than one wing (wing span greater than Doug's arm span). Use the scared face.
+3. Text: **"THIS FLEW"** in white bold sans with a dark outline, top-left, 2 words, not a title word.
+4. Background: flat sky blue with a thin dark swamp-green ground strip, so it contrasts with A's lime.
+5. No Crassigyrinus, no waterline split.
+6. Re-render `feed168.png` with the new B and send it to the visual screener for a quick feed-size re-check.
+
+**C, `thumbnail_c.png` (2x3 grid): APPROVED WITH CHANGES (graphic designer, then CD spot-check of the PNG; no full re-screen needed).**
+The grid grammar and labels are right, and Spider is honest because it is the misconception the chapter unpacks. However, six identical shocked
+Dougs make it look mascot-led and nudge it toward a kids'-show look; the style bible says the stick man is "almost never" on the thumbnail.
+1. Remove Doug from five tiles. Keep him only in the **Millipede** tile, smaller (about 60% of his current height), as the human for scale.
+2. In the five freed tiles, scale each creature up to fill the tile (about 80% of tile width). The Griffinfly's wings in particular should spread across the tile.
+3. Beak tile: change the lavender background to a saturated **lime** (style bible palette), which removes the pastel pink-plus-purple pairing.
+   Keep magenta on Spider.
+4. Leave the labels, order, font and white canvas as they are.
+
+Order for the Test & Compare run: A (lead), new B, revised C. The package stage is not complete until new B and revised C are back.
+
+THUMBNAILS: A APPROVED · B REJECTED (redo) · C CHANGES REQUESTED
