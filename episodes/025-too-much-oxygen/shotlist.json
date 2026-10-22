@@ -210,8 +210,8 @@
      {
       "type": "text",
       "text": "O2",
-      "x": 760,
-      "y": 470,
+      "x": 1000,
+      "y": 500,
       "size": 56,
       "color": "#2a7fd0",
       "bold": true,
@@ -236,23 +236,6 @@
       "x": 1590,
       "y": 162,
       "size": 44,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
-     },
-     {
-      "type": "asset",
-      "name": "tape_measure",
-      "x": 1372,
-      "y": 238,
-      "scale": 0.16
-     },
-     {
-      "type": "label",
-      "text": "SMALLER THAN A DOT",
-      "x": 1600,
-      "y": 238,
-      "size": 28,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff"
@@ -462,23 +445,6 @@
       "x": 1590,
       "y": 162,
       "size": 44,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
-     },
-     {
-      "type": "asset",
-      "name": "tape_measure",
-      "x": 1372,
-      "y": 238,
-      "scale": 0.16
-     },
-     {
-      "type": "label",
-      "text": "SMALLER THAN A DOT",
-      "x": 1600,
-      "y": 238,
-      "size": 28,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff"
@@ -693,23 +659,6 @@
       "x": 1590,
       "y": 162,
       "size": 44,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
-     },
-     {
-      "type": "asset",
-      "name": "tape_measure",
-      "x": 1372,
-      "y": 238,
-      "scale": 0.16
-     },
-     {
-      "type": "label",
-      "text": "SMALLER THAN A DOT",
-      "x": 1600,
-      "y": 238,
-      "size": 28,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff"
@@ -928,23 +877,6 @@
       "x": 1590,
       "y": 162,
       "size": 44,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
-     },
-     {
-      "type": "asset",
-      "name": "tape_measure",
-      "x": 1372,
-      "y": 238,
-      "scale": 0.16
-     },
-     {
-      "type": "label",
-      "text": "SMALLER THAN A DOT",
-      "x": 1600,
-      "y": 238,
-      "size": 28,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff"
@@ -2682,7 +2614,7 @@
      },
      {
       "type": "doug",
-      "x": 700,
+      "x": 930,
       "y": 796,
       "scale": 0.55,
       "pose": "stand",
@@ -2692,7 +2624,7 @@
      {
       "type": "asset",
       "name": "warning_triangle",
-      "x": 1000,
+      "x": 1120,
       "y": 520,
       "scale": 0.6,
       "appear": 0.3
@@ -2898,7 +2830,7 @@
      },
      {
       "type": "doug",
-      "x": 700,
+      "x": 920,
       "y": 796,
       "scale": 0.55,
       "pose": "cower",
@@ -2908,7 +2840,7 @@
      {
       "type": "asset",
       "name": "campfire",
-      "x": 1050,
+      "x": 1110,
       "y": 900,
       "scale": 0.9,
       "appear": 0.45
@@ -5104,7 +5036,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 880,
+      "h": 1010,
       "fill": "#cfd8c0",
       "color": "#cfd8c0",
       "width": 0,
@@ -5114,22 +5046,15 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
-      "y": 890,
-      "scale": 0.7
-     },
-     {
-      "type": "asset",
-      "name": "scale_tree",
-      "x": 760,
-      "y": 890,
-      "scale": 0.7
+      "x": 130,
+      "y": 1020,
+      "scale": 1.35
      },
      {
       "type": "asset",
       "name": "scale_tree",
       "x": 1250,
-      "y": 890,
+      "y": 1020,
       "scale": 0.7
      },
      {
@@ -5137,23 +5062,23 @@
       "points": [
        [
         -40,
-        880
+        1010
        ],
        [
         400,
-        866
+        996
        ],
        [
         900,
-        886
+        1016
        ],
        [
         1400,
-        868
+        998
        ],
        [
         1960,
-        884
+        1014
        ],
        [
         1960,
@@ -5181,19 +5106,19 @@
       "type": "poly",
       "points": [
        [
-        700,
-        900
+        1100,
+        1030
        ],
        [
-        1500,
-        900
+        1960,
+        1030
        ],
        [
-        1540,
+        2000,
         1090
        ],
        [
-        660,
+        1060,
         1090
        ]
       ],
@@ -5206,12 +5131,12 @@
       "type": "line",
       "points": [
        [
-        760.0,
-        950
+        1160.0,
+        1080
        ],
        [
-        880.0,
-        950
+        1280.0,
+        1080
        ]
       ],
       "color": "#9fb59e",
@@ -5221,12 +5146,12 @@
       "type": "line",
       "points": [
        [
-        986.6666666666666,
-        990
+        1406.6666666666667,
+        1120
        ],
        [
-        1106.6666666666665,
-        990
+        1526.6666666666667,
+        1120
        ]
       ],
       "color": "#9fb59e",
@@ -5236,12 +5161,12 @@
       "type": "line",
       "points": [
        [
-        1213.3333333333333,
-        1030
+        1653.3333333333333,
+        1160
        ],
        [
-        1333.3333333333333,
-        1030
+        1773.3333333333333,
+        1160
        ]
       ],
       "color": "#9fb59e",
@@ -5250,22 +5175,15 @@
      {
       "type": "asset",
       "name": "fern",
-      "x": 1700,
-      "y": 910,
+      "x": 1500,
+      "y": 1040,
       "scale": 0.6
      },
      {
-      "type": "asset",
-      "name": "time_machine",
-      "x": 300,
-      "y": 890,
-      "scale": 0.75
-     },
-     {
       "type": "doug",
-      "x": 720,
-      "y": 796,
-      "scale": 0.55,
+      "x": 620,
+      "y": 835,
+      "scale": 1.15,
       "pose": "point",
       "expression": "hopeful",
       "facing": "right"
@@ -5273,19 +5191,19 @@
      {
       "type": "asset",
       "name": "cupcake_candle",
-      "x": 860,
-      "y": 700,
-      "scale": 0.6
+      "x": 960,
+      "y": 720,
+      "scale": 1.25
      },
      {
       "type": "speech",
-      "x": 1050,
-      "y": 430,
-      "w": 320,
-      "h": 130,
+      "x": 1250,
+      "y": 420,
+      "w": 360,
+      "h": 140,
       "text": "happy trip!",
       "tail": [
-       830,
+       1040,
        560
       ],
       "appear": 0.4
@@ -5490,7 +5408,7 @@
      },
      {
       "type": "doug",
-      "x": 720,
+      "x": 880,
       "y": 796,
       "scale": 0.55,
       "pose": "arms_up",
@@ -5500,26 +5418,26 @@
      {
       "type": "asset",
       "name": "cupcake_candle",
-      "x": 870,
-      "y": 640,
+      "x": 965,
+      "y": 600,
       "scale": 0.6
      },
      {
       "type": "speech",
-      "x": 1050,
+      "x": 1300,
       "y": 430,
       "w": 320,
       "h": 130,
       "text": "happy trip!",
       "tail": [
-       830,
-       520
+       1010,
+       540
       ]
      },
      {
       "type": "label",
       "text": "FIRST TRIP",
-      "x": 1150,
+      "x": 1450,
       "y": 700,
       "size": 48,
       "bold": true,
@@ -5727,7 +5645,7 @@
      },
      {
       "type": "doug",
-      "x": 720,
+      "x": 880,
       "y": 796,
       "scale": 0.55,
       "pose": "point",
@@ -5737,24 +5655,24 @@
      {
       "type": "asset",
       "name": "cupcake_candle",
-      "x": 860,
+      "x": 990,
       "y": 700,
       "scale": 0.6
      },
      {
       "type": "asset",
       "name": "matchbox",
-      "x": 1000,
-      "y": 800,
+      "x": 1150,
+      "y": 820,
       "scale": 0.4,
       "appear": 0.2
      },
      {
       "type": "asset",
       "name": "candle_flare",
-      "x": 860,
-      "y": 640,
-      "scale": 1.0,
+      "x": 990,
+      "y": 634,
+      "scale": 0.8,
       "appear": 0.7
      },
      {
@@ -5788,7 +5706,7 @@
    },
    "camera": {
     "move": "zoom_in",
-    "x": 860,
+    "x": 990,
     "y": 600,
     "zoom": 1.08
    }
@@ -5963,7 +5881,7 @@
      },
      {
       "type": "spray",
-      "x": 760,
+      "x": 920,
       "y": 840,
       "r": 230,
       "color": "#3a3a3a",
@@ -5971,7 +5889,7 @@
      },
      {
       "type": "doug",
-      "x": 760,
+      "x": 920,
       "y": 838,
       "scale": 0.6,
       "pose": "on_back",
@@ -5981,7 +5899,7 @@
      {
       "type": "asset",
       "name": "cupcake_candle",
-      "x": 1050,
+      "x": 1130,
       "y": 840,
       "scale": 0.45
      },
@@ -5989,19 +5907,19 @@
       "type": "curve",
       "points": [
        [
-        760,
+        920,
         720
        ],
        [
-        740,
+        900,
         650
        ],
        [
-        790,
+        950,
         590
        ],
        [
-        760,
+        920,
         520
        ]
       ],
@@ -6053,7 +5971,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 880,
+      "h": 1010,
       "fill": "#cfd8c0",
       "color": "#cfd8c0",
       "width": 0,
@@ -6063,46 +5981,32 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
-      "y": 890,
-      "scale": 0.7
-     },
-     {
-      "type": "asset",
-      "name": "scale_tree",
-      "x": 760,
-      "y": 890,
-      "scale": 0.7
-     },
-     {
-      "type": "asset",
-      "name": "scale_tree",
-      "x": 1250,
-      "y": 890,
-      "scale": 0.7
+      "x": 1560,
+      "y": 1020,
+      "scale": 0.75
      },
      {
       "type": "poly",
       "points": [
        [
         -40,
-        880
+        1010
        ],
        [
         400,
-        866
+        996
        ],
        [
         900,
-        886
+        1016
        ],
        [
         1400,
-        868
+        998
        ],
        [
         1960,
-        884
+        1014
        ],
        [
         1960,
@@ -6127,142 +6031,65 @@
       "density": 0.03
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        700,
-        900
-       ],
-       [
-        1500,
-        900
-       ],
-       [
-        1540,
-        1090
-       ],
-       [
-        660,
-        1090
-       ]
-      ],
-      "fill": "#1e2418",
-      "color": "#000000",
-      "width": 4,
-      "smooth": true
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        760.0,
-        950
-       ],
-       [
-        880.0,
-        950
-       ]
-      ],
-      "color": "#9fb59e",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        986.6666666666666,
-        990
-       ],
-       [
-        1106.6666666666665,
-        990
-       ]
-      ],
-      "color": "#9fb59e",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1213.3333333333333,
-        1030
-       ],
-       [
-        1333.3333333333333,
-        1030
-       ]
-      ],
-      "color": "#9fb59e",
-      "width": 4
-     },
-     {
       "type": "asset",
       "name": "fern",
-      "x": 1700,
-      "y": 910,
+      "x": 1820,
+      "y": 1040,
       "scale": 0.6
      },
      {
-      "type": "asset",
-      "name": "time_machine",
-      "x": 300,
-      "y": 890,
-      "scale": 0.75
-     },
-     {
       "type": "spray",
-      "x": 760,
-      "y": 840,
-      "r": 230,
+      "x": 680,
+      "y": 980,
+      "r": 380,
       "color": "#3a3a3a",
       "density": 0.25
      },
      {
       "type": "doug",
-      "x": 760,
-      "y": 838,
-      "scale": 0.6,
+      "x": 550,
+      "y": 919,
+      "scale": 1.3,
       "pose": "on_back",
       "expression": "dead",
       "facing": "right"
      },
      {
-      "type": "asset",
-      "name": "cupcake_candle",
-      "x": 1050,
-      "y": 840,
-      "scale": 0.45
-     },
-     {
       "type": "curve",
       "points": [
        [
-        760,
-        720
+        550,
+        860
        ],
        [
-        740,
-        650
+        520,
+        760
        ],
        [
-        790,
+        590,
+        680
+       ],
+       [
+        550,
         590
-       ],
-       [
-        760,
-        520
        ]
       ],
       "color": "#8a8a8a",
-      "width": 6
+      "width": 8
+     },
+     {
+      "type": "asset",
+      "name": "cupcake_candle",
+      "x": 1060,
+      "y": 764,
+      "scale": 2.0
      },
      {
       "type": "wordart",
       "text": "SURVIVED",
-      "x": 1050,
-      "y": 640,
-      "size": 84,
+      "x": 1060,
+      "y": 400,
+      "size": 96,
       "boil": 0,
       "top": "#ffffff",
       "bottom": "#ffe24a",
@@ -6470,7 +6297,7 @@
      },
      {
       "type": "spray",
-      "x": 760,
+      "x": 920,
       "y": 840,
       "r": 230,
       "color": "#3a3a3a",
@@ -6479,7 +6306,7 @@
      {
       "type": "asset",
       "name": "cupcake_candle",
-      "x": 1050,
+      "x": 1060,
       "y": 840,
       "scale": 0.45
      },
@@ -6516,8 +6343,8 @@
      },
      {
       "type": "doug",
-      "x": 760,
-      "y": 520,
+      "x": 1000,
+      "y": 430,
       "scale": 0.45,
       "pose": "float",
       "expression": "dead",
@@ -8595,11 +8422,195 @@
       "appear": 0.5
      },
      {
-      "type": "asset",
-      "name": "insect",
-      "x": 600,
-      "y": 470,
-      "scale": 0.4,
+      "type": "poly",
+      "points": [
+       [
+        531,
+        493
+       ],
+       [
+        496,
+        379
+       ],
+       [
+        551,
+        390
+       ],
+       [
+        564,
+        496
+       ]
+      ],
+      "fill": "#e8e2cc",
+      "color": "#000000",
+      "width": 4,
+      "appear": 0.3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        525,
+        496
+       ],
+       [
+        489,
+        434
+       ],
+       [
+        518,
+        436
+       ],
+       [
+        540,
+        496
+       ]
+      ],
+      "fill": "#d8d0bc",
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.3
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        573,
+        500
+       ],
+       [
+        518,
+        504
+       ],
+       [
+        463,
+        498
+       ],
+       [
+        430,
+        480
+       ]
+      ],
+      "color": "#6b4a2a",
+      "width": 13,
+      "appear": 0.3
+     },
+     {
+      "type": "circle",
+      "x": 584,
+      "y": 496,
+      "r": 12,
+      "fill": "#6b4a2a",
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.3
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        430,
+        480
+       ],
+       [
+        375,
+        441
+       ],
+       [
+        320,
+        463
+       ]
+      ],
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.3
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        430,
+        480
+       ],
+       [
+        375,
+        458
+       ],
+       [
+        320,
+        480
+       ]
+      ],
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.3
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        430,
+        480
+       ],
+       [
+        375,
+        476
+       ],
+       [
+        320,
+        498
+       ]
+      ],
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        534,
+        504
+       ],
+       [
+        526,
+        529
+       ]
+      ],
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        551,
+        504
+       ],
+       [
+        542,
+        529
+       ]
+      ],
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        568,
+        504
+       ],
+       [
+        559,
+        529
+       ]
+      ],
+      "color": "#000000",
+      "width": 3,
       "appear": 0.3
      },
      {
@@ -8775,7 +8786,7 @@
      {
       "type": "wordart",
       "text": "LONELY BRANCH",
-      "x": 1300,
+      "x": 1450,
       "y": 800,
       "size": 80,
       "boil": 0,
@@ -9488,8 +9499,8 @@
      {
       "type": "label",
       "text": "PEAT SWAMP",
-      "x": 700,
-      "y": 620,
+      "x": 900,
+      "y": 520,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -11262,6 +11273,25 @@
        ],
        [
         1100,
+        1070
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 6,
+      "dash": [
+       18,
+       14
+      ]
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1100,
+        1190
+       ],
+       [
+        1100,
         2050
        ]
       ],
@@ -11273,11 +11303,91 @@
       ]
      },
      {
+      "type": "line",
+      "points": [
+       [
+        1060,
+        2050
+       ],
+       [
+        1140,
+        2050
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 6
+     },
+     {
       "type": "asset",
       "name": "doug_silhouette",
-      "x": 900,
-      "y": 380,
-      "scale": 0.3
+      "x": 450,
+      "y": 2050,
+      "scale": 0.395,
+      "appear": 0.75
+     },
+     {
+      "type": "asset",
+      "name": "doug_silhouette",
+      "x": 450,
+      "y": 1872,
+      "scale": 0.395,
+      "appear": 0.68
+     },
+     {
+      "type": "asset",
+      "name": "doug_silhouette",
+      "x": 450,
+      "y": 1694,
+      "scale": 0.395,
+      "appear": 0.61
+     },
+     {
+      "type": "asset",
+      "name": "doug_silhouette",
+      "x": 450,
+      "y": 1516,
+      "scale": 0.395,
+      "appear": 0.54
+     },
+     {
+      "type": "asset",
+      "name": "doug_silhouette",
+      "x": 450,
+      "y": 1338,
+      "scale": 0.395,
+      "appear": 0.47
+     },
+     {
+      "type": "asset",
+      "name": "doug_silhouette",
+      "x": 450,
+      "y": 1160,
+      "scale": 0.395,
+      "appear": 0.4
+     },
+     {
+      "type": "asset",
+      "name": "doug_silhouette",
+      "x": 450,
+      "y": 982,
+      "scale": 0.395,
+      "appear": 0.33
+     },
+     {
+      "type": "asset",
+      "name": "doug_silhouette",
+      "x": 450,
+      "y": 804,
+      "scale": 0.395,
+      "appear": 0.26
+     },
+     {
+      "type": "asset",
+      "name": "doug_silhouette",
+      "x": 450,
+      "y": 626,
+      "scale": 0.395,
+      "appear": 0.19
      },
      {
       "type": "label",
@@ -11290,9 +11400,29 @@
       "fill": "#ffffff"
      },
      {
+      "type": "doug",
+      "x": 1350,
+      "y": 312,
+      "scale": 0.45,
+      "pose": "stand",
+      "expression": "shock",
+      "facing": "left"
+     },
+     {
+      "type": "label",
+      "text": "SUMATRA PEAT",
+      "x": 1450,
+      "y": 1500,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.4
+     },
+     {
       "type": "label",
       "text": "MORE THAN 15 M",
-      "x": 1100,
+      "x": 1450,
       "y": 1980,
       "size": 56,
       "bold": true,
@@ -11301,13 +11431,31 @@
       "appear": 0.55
      },
      {
-      "type": "doug",
-      "x": 1300,
-      "y": 334,
-      "scale": 0.3,
-      "pose": "stand",
-      "expression": "shock",
-      "facing": "right"
+      "type": "label",
+      "text": "DOUG DEATHS: 204",
+      "x": 1590,
+      "y": 1242,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
+     },
+     {
+      "type": "asset",
+      "name": "tape_measure",
+      "x": 1372,
+      "y": 1318,
+      "scale": 0.16
+     },
+     {
+      "type": "label",
+      "text": "40 CM",
+      "x": 1600,
+      "y": 1318,
+      "size": 28,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
      },
      {
       "type": "label",
@@ -12081,7 +12229,7 @@
       "type": "asset",
       "name": "bojophlebia",
       "x": 1450,
-      "y": 300,
+      "y": 400,
       "scale": 0.6
      },
      {
@@ -12823,6 +12971,15 @@
       "appear": 0.3
      },
      {
+      "type": "spray",
+      "x": 1350,
+      "y": 930,
+      "r": 230,
+      "color": "#e0201b",
+      "density": 0.25,
+      "appear": 0.45
+     },
+     {
       "type": "asset",
       "name": "megarachne",
       "x": 1350,
@@ -13191,10 +13348,10 @@
      },
      {
       "type": "rect",
-      "x": 640,
-      "y": 240,
-      "w": 760,
-      "h": 560,
+      "x": 620,
+      "y": 300,
+      "w": 720,
+      "h": 510,
       "fill": "#1b2f5a",
       "color": "#1b2f5a",
       "width": 0,
@@ -13203,10 +13360,10 @@
      },
      {
       "type": "rect",
-      "x": 640,
-      "y": 240,
-      "w": 760,
-      "h": 560,
+      "x": 620,
+      "y": 300,
+      "w": 720,
+      "h": 510,
       "fill": null,
       "color": "#000000",
       "width": 6
@@ -13221,8 +13378,8 @@
      {
       "type": "asset",
       "name": "megarachne_spider_1980",
-      "x": 1020,
-      "y": 520,
+      "x": 980,
+      "y": 555,
       "scale": 0.6,
       "ink": "#9fe6ff",
       "appear": 0.35
@@ -13230,8 +13387,8 @@
      {
       "type": "label",
       "text": "X-RAYS",
-      "x": 1020,
-      "y": 860,
+      "x": 980,
+      "y": 870,
       "size": 48,
       "bold": true,
       "boil": 0.4,
@@ -13934,53 +14091,139 @@
       "appear": 0.25
      },
      {
-      "type": "circle",
-      "x": 300,
-      "y": 940,
-      "r": 44,
-      "fill": "#ffffff",
+      "type": "rect",
+      "x": 511,
+      "y": 900,
+      "w": 18,
+      "h": 110,
+      "fill": "#c9a227",
       "color": "#000000",
-      "width": 5,
+      "width": 3,
+      "appear": 0.55
+     },
+     {
+      "type": "ellipse",
+      "x": 520,
+      "y": 1012,
+      "rx": 34,
+      "ry": 10,
+      "fill": "#a8861c",
+      "color": "#000000",
+      "width": 3,
       "appear": 0.55
      },
      {
       "type": "circle",
-      "x": 390,
-      "y": 960,
-      "r": 44,
-      "fill": "#ffffff",
+      "x": 520,
+      "y": 896,
+      "r": 15,
+      "fill": "#e8c547",
       "color": "#000000",
-      "width": 5,
+      "width": 3,
+      "appear": 0.55
+     },
+     {
+      "type": "rect",
+      "x": 951,
+      "y": 900,
+      "w": 18,
+      "h": 110,
+      "fill": "#c9a227",
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.55
+     },
+     {
+      "type": "ellipse",
+      "x": 960,
+      "y": 1012,
+      "rx": 34,
+      "ry": 10,
+      "fill": "#a8861c",
+      "color": "#000000",
+      "width": 3,
       "appear": 0.55
      },
      {
       "type": "circle",
-      "x": 480,
-      "y": 940,
-      "r": 44,
-      "fill": "#ffffff",
+      "x": 960,
+      "y": 896,
+      "r": 15,
+      "fill": "#e8c547",
       "color": "#000000",
-      "width": 5,
+      "width": 3,
+      "appear": 0.55
+     },
+     {
+      "type": "rect",
+      "x": 1391,
+      "y": 900,
+      "w": 18,
+      "h": 110,
+      "fill": "#c9a227",
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.55
+     },
+     {
+      "type": "ellipse",
+      "x": 1400,
+      "y": 1012,
+      "rx": 34,
+      "ry": 10,
+      "fill": "#a8861c",
+      "color": "#000000",
+      "width": 3,
       "appear": 0.55
      },
      {
       "type": "circle",
-      "x": 570,
-      "y": 960,
-      "r": 44,
-      "fill": "#ffffff",
+      "x": 1400,
+      "y": 896,
+      "r": 15,
+      "fill": "#e8c547",
       "color": "#000000",
-      "width": 5,
+      "width": 3,
       "appear": 0.55
      },
      {
-      "type": "circle",
-      "x": 660,
-      "y": 940,
-      "r": 44,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 5,
+      "type": "curve",
+      "points": [
+       [
+        532,
+        912
+       ],
+       [
+        740,
+        958
+       ],
+       [
+        948,
+        912
+       ]
+      ],
+      "color": "#a0161a",
+      "width": 11,
+      "appear": 0.55
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        972,
+        912
+       ],
+       [
+        1180,
+        958
+       ],
+       [
+        1388,
+        912
+       ]
+      ],
+      "color": "#a0161a",
+      "width": 11,
       "appear": 0.55
      },
      {
@@ -14097,53 +14340,139 @@
       "scale": 1.25
      },
      {
-      "type": "circle",
-      "x": 300,
-      "y": 940,
-      "r": 44,
-      "fill": "#ffffff",
+      "type": "rect",
+      "x": 511,
+      "y": 900,
+      "w": 18,
+      "h": 110,
+      "fill": "#c9a227",
       "color": "#000000",
-      "width": 5,
+      "width": 3,
+      "appear": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 520,
+      "y": 1012,
+      "rx": 34,
+      "ry": 10,
+      "fill": "#a8861c",
+      "color": "#000000",
+      "width": 3,
       "appear": 0
      },
      {
       "type": "circle",
-      "x": 390,
-      "y": 960,
-      "r": 44,
-      "fill": "#ffffff",
+      "x": 520,
+      "y": 896,
+      "r": 15,
+      "fill": "#e8c547",
       "color": "#000000",
-      "width": 5,
+      "width": 3,
+      "appear": 0
+     },
+     {
+      "type": "rect",
+      "x": 951,
+      "y": 900,
+      "w": 18,
+      "h": 110,
+      "fill": "#c9a227",
+      "color": "#000000",
+      "width": 3,
+      "appear": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 960,
+      "y": 1012,
+      "rx": 34,
+      "ry": 10,
+      "fill": "#a8861c",
+      "color": "#000000",
+      "width": 3,
       "appear": 0
      },
      {
       "type": "circle",
-      "x": 480,
-      "y": 940,
-      "r": 44,
-      "fill": "#ffffff",
+      "x": 960,
+      "y": 896,
+      "r": 15,
+      "fill": "#e8c547",
       "color": "#000000",
-      "width": 5,
+      "width": 3,
+      "appear": 0
+     },
+     {
+      "type": "rect",
+      "x": 1391,
+      "y": 900,
+      "w": 18,
+      "h": 110,
+      "fill": "#c9a227",
+      "color": "#000000",
+      "width": 3,
+      "appear": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 1400,
+      "y": 1012,
+      "rx": 34,
+      "ry": 10,
+      "fill": "#a8861c",
+      "color": "#000000",
+      "width": 3,
       "appear": 0
      },
      {
       "type": "circle",
-      "x": 570,
-      "y": 960,
-      "r": 44,
-      "fill": "#ffffff",
+      "x": 1400,
+      "y": 896,
+      "r": 15,
+      "fill": "#e8c547",
       "color": "#000000",
-      "width": 5,
+      "width": 3,
       "appear": 0
      },
      {
-      "type": "circle",
-      "x": 660,
-      "y": 940,
-      "r": 44,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 5,
+      "type": "curve",
+      "points": [
+       [
+        532,
+        912
+       ],
+       [
+        740,
+        958
+       ],
+       [
+        948,
+        912
+       ]
+      ],
+      "color": "#a0161a",
+      "width": 11,
+      "appear": 0
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        972,
+        912
+       ],
+       [
+        1180,
+        958
+       ],
+       [
+        1388,
+        912
+       ]
+      ],
+      "color": "#a0161a",
+      "width": 11,
       "appear": 0
      },
      {
@@ -16441,18 +16770,18 @@
      },
      {
       "type": "asset",
-      "name": "doug_cap",
-      "x": 760,
-      "y": 870,
-      "scale": 0.45
-     },
-     {
-      "type": "asset",
       "name": "water_glass_empty",
       "x": 760,
       "y": 830,
       "scale": 0.85,
       "rotate": 180
+     },
+     {
+      "type": "asset",
+      "name": "doug_cap",
+      "x": 760,
+      "y": 870,
+      "scale": 0.45
      },
      {
       "type": "asset",
@@ -16647,18 +16976,18 @@
      },
      {
       "type": "asset",
-      "name": "doug_cap",
-      "x": 760,
-      "y": 870,
-      "scale": 0.45
-     },
-     {
-      "type": "asset",
       "name": "water_glass_empty",
       "x": 760,
       "y": 830,
       "scale": 0.85,
       "rotate": 180
+     },
+     {
+      "type": "asset",
+      "name": "doug_cap",
+      "x": 760,
+      "y": 870,
+      "scale": 0.45
      },
      {
       "type": "asset",
@@ -16827,8 +17156,8 @@
      {
       "type": "asset",
       "name": "mazothairos",
-      "x": 1250,
-      "y": 520,
+      "x": 1560,
+      "y": 640,
       "scale": 0.55,
       "appear": 0.45
      },
@@ -17302,14 +17631,14 @@
      {
       "type": "arrow",
       "from": [
-       1450,
-       350
+       1440,
+       400
       ],
       "to": [
-       1290,
-       600
+       1200,
+       615
       ],
-      "bend": -60,
+      "bend": -50,
       "color": "#e0201b",
       "width": 10,
       "head": 30,
@@ -17319,7 +17648,7 @@
       "type": "label",
       "text": "PIERCING BEAK",
       "x": 1450,
-      "y": 290,
+      "y": 360,
       "size": 48,
       "bold": true,
       "boil": 0.4,
@@ -17399,14 +17728,14 @@
      {
       "type": "arrow",
       "from": [
-       1400,
-       330
+       1520,
+       400
       ],
       "to": [
-       1050,
-       470
+       1008,
+       462
       ],
-      "bend": -60,
+      "bend": -50,
       "color": "#e0201b",
       "width": 10,
       "head": 30,
@@ -17415,8 +17744,8 @@
      {
       "type": "label",
       "text": "EXTRA FLAPS",
-      "x": 1420,
-      "y": 280,
+      "x": 1570,
+      "y": 360,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -18945,7 +19274,7 @@
      {
       "type": "asset",
       "name": "tree_fern",
-      "x": 1150,
+      "x": 1480,
       "y": 890,
       "scale": 0.95
      },
@@ -19643,6 +19972,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 900,
+    "y": 560,
+    "zoom": 1.08
    }
   },
   {
@@ -19882,6 +20217,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 1030,
+    "y": 620,
+    "zoom": 1.1
    }
   },
   {
@@ -19895,201 +20236,113 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 1080,
-      "fill": "#f4f1dc",
-      "color": "#f4f1dc",
+      "h": 880,
+      "fill": "#a9b894",
+      "color": "#a9b894",
       "width": 0,
       "outline": false,
       "boil": 0
      },
      {
-      "type": "circle",
-      "x": 900,
-      "y": 560,
-      "r": 330,
-      "fill": "#7a9a4a",
-      "color": "#000000",
-      "width": 7
-     },
-     {
-      "type": "circle",
-      "x": 900,
-      "y": 560,
-      "r": 170,
-      "fill": "#e8d68a",
-      "color": "#3a5a2a",
-      "width": 6
-     },
-     {
-      "type": "circle",
-      "x": 900,
-      "y": 560,
-      "r": 110,
-      "fill": "#9fd0f0",
-      "color": "#3a5a2a",
-      "width": 5
-     },
-     {
-      "type": "circle",
-      "x": 1176,
-      "y": 677,
-      "r": 12,
-      "fill": "#1a1a1a",
-      "color": "#000000",
-      "width": 3,
-      "appear": 0
-     },
-     {
-      "type": "circle",
-      "x": 775,
-      "y": 833,
-      "r": 12,
-      "fill": "#1a1a1a",
-      "color": "#000000",
-      "width": 3,
-      "appear": 0
-     },
-     {
-      "type": "circle",
-      "x": 631,
-      "y": 427,
-      "r": 12,
-      "fill": "#1a1a1a",
-      "color": "#000000",
-      "width": 3,
-      "appear": 0
-     },
-     {
-      "type": "circle",
-      "x": 985,
-      "y": 272,
-      "r": 12,
-      "fill": "#1a1a1a",
-      "color": "#000000",
-      "width": 3,
-      "appear": 0
-     },
-     {
-      "type": "line",
+      "type": "poly",
       "points": [
        [
-        1176,
-        677
+        -40,
+        880
        ],
        [
-        1038,
-        618
+        400,
+        866
+       ],
+       [
+        900,
+        886
+       ],
+       [
+        1400,
+        868
+       ],
+       [
+        1960,
+        884
+       ],
+       [
+        1960,
+        1120
+       ],
+       [
+        -40,
+        1120
        ]
       ],
-      "color": "#1a1a1a",
-      "width": 8,
-      "appear": 0
+      "fill": "#4f5a33",
+      "color": "#000000",
+      "width": 5,
+      "smooth": true
      },
      {
-      "type": "line",
-      "points": [
-       [
-        775,
-        833
-       ],
-       [
-        838,
-        696
-       ]
-      ],
-      "color": "#1a1a1a",
-      "width": 8,
-      "appear": 0
+      "type": "spray",
+      "x": 960,
+      "y": 1000,
+      "r": 900,
+      "color": "#3f4828",
+      "density": 0.03
      },
      {
-      "type": "line",
-      "points": [
-       [
-        631,
-        427
-       ],
-       [
-        765,
-        494
-       ]
-      ],
-      "color": "#1a1a1a",
-      "width": 8,
-      "appear": 0
+      "type": "asset",
+      "name": "fern",
+      "x": 1750,
+      "y": 910,
+      "scale": 0.6
      },
      {
-      "type": "line",
-      "points": [
-       [
-        985,
-        272
-       ],
-       [
-        943,
-        416
-       ]
-      ],
-      "color": "#1a1a1a",
-      "width": 8,
-      "appear": 0
+      "type": "asset",
+      "name": "tree_fern",
+      "x": 1250,
+      "y": 890,
+      "scale": 1.0
+     },
+     {
+      "type": "asset",
+      "name": "tree_fern",
+      "x": 200,
+      "y": 890,
+      "scale": 0.8
+     },
+     {
+      "type": "asset",
+      "name": "mazothairos",
+      "x": 1098,
+      "y": 600,
+      "scale": 0.6
      },
      {
       "type": "circle",
-      "x": 1038,
-      "y": 618,
-      "r": 36,
+      "x": 1250,
+      "y": 632,
+      "r": 30,
       "fill": null,
-      "color": "#e07b00",
+      "color": "#e0201b",
       "width": 9,
-      "appear": 0
-     },
-     {
-      "type": "circle",
-      "x": 838,
-      "y": 696,
-      "r": 36,
-      "fill": null,
-      "color": "#e07b00",
-      "width": 9,
-      "appear": 0
-     },
-     {
-      "type": "circle",
-      "x": 765,
-      "y": 494,
-      "r": 36,
-      "fill": null,
-      "color": "#e07b00",
-      "width": 9,
-      "appear": 0
-     },
-     {
-      "type": "circle",
-      "x": 943,
-      "y": 416,
-      "r": 36,
-      "fill": null,
-      "color": "#e07b00",
-      "width": 9,
-      "appear": 0
+      "appear": 0.3
      },
      {
       "type": "wordart",
       "text": "STILL ALIVE",
-      "x": 900,
-      "y": 960,
+      "x": 760,
+      "y": 420,
       "size": 90,
       "boil": 0,
       "appear": 0.4
      },
      {
       "type": "doug",
-      "x": 1650,
-      "y": 960,
-      "scale": 0.4,
+      "x": 560,
+      "y": 796,
+      "scale": 0.55,
       "pose": "stand",
       "expression": "shock",
-      "facing": "left"
+      "facing": "right"
      },
      {
       "type": "label",
@@ -20588,7 +20841,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 880,
+      "h": 1060,
       "fill": "#a9b894",
       "color": "#a9b894",
       "width": 0,
@@ -20596,41 +20849,27 @@
       "boil": 0
      },
      {
-      "type": "asset",
-      "name": "tree_fern",
-      "x": 1250,
-      "y": 890,
-      "scale": 0.9
-     },
-     {
-      "type": "asset",
-      "name": "tree_fern",
-      "x": 160,
-      "y": 890,
-      "scale": 0.8
-     },
-     {
       "type": "poly",
       "points": [
        [
         -40,
-        880
+        1060
        ],
        [
         400,
-        866
+        1046
        ],
        [
         900,
-        886
+        1066
        ],
        [
         1400,
-        868
+        1048
        ],
        [
         1960,
-        884
+        1064
        ],
        [
         1960,
@@ -20656,16 +20895,23 @@
      },
      {
       "type": "asset",
-      "name": "fern",
-      "x": 1700,
-      "y": 910,
-      "scale": 0.6
+      "name": "tree_fern",
+      "x": 1680,
+      "y": 1070,
+      "scale": 1.45
+     },
+     {
+      "type": "asset",
+      "name": "tree_fern",
+      "x": 120,
+      "y": 1070,
+      "scale": 1.2
      },
      {
       "type": "doug",
-      "x": 800,
-      "y": 796,
-      "scale": 0.55,
+      "x": 760,
+      "y": 880,
+      "scale": 1.6,
       "pose": "stand",
       "expression": "gritted",
       "facing": "right"
@@ -20673,24 +20919,24 @@
      {
       "type": "asset",
       "name": "leaf_hat",
-      "x": 800,
-      "y": 796,
-      "scale": 0.55
+      "x": 760,
+      "y": 880,
+      "scale": 1.6
      },
      {
       "type": "asset",
       "name": "mazothairos",
-      "x": 860,
-      "y": 520,
-      "scale": 0.45,
+      "x": 1060,
+      "y": 400,
+      "scale": 0.85,
       "flip": true
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1050,
-      "y": 380,
-      "scale": 0.4,
+      "x": 1180,
+      "y": 600,
+      "scale": 0.6,
       "appear": 0.35
      },
      {
@@ -21124,16 +21370,16 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1500,
-      "y": 700,
-      "scale": 0.6,
+      "x": 1440,
+      "y": 800,
+      "scale": 0.95,
       "appear": 0.3
      },
      {
       "type": "label",
       "text": "DISAPPOINTED",
-      "x": 1350,
-      "y": 860,
+      "x": 1120,
+      "y": 560,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -21761,8 +22007,8 @@
      {
       "type": "wordart",
       "text": "GRIFFINFLIES",
-      "x": 960,
-      "y": 960,
+      "x": 1450,
+      "y": 880,
       "size": 80,
       "boil": 0,
       "appear": 0.7
@@ -22365,20 +22611,20 @@
      {
       "type": "asset",
       "name": "insect",
-      "x": 1080,
-      "y": 560,
+      "x": 1110,
+      "y": 300,
       "scale": 0.35,
       "appear": 0.3
      },
      {
       "type": "arrow",
       "from": [
-       1350,
-       700
+       1340,
+       720
       ],
       "to": [
-       1020,
-       540
+       935,
+       455
       ],
       "bend": 60,
       "color": "#e0201b",
@@ -22456,10 +22702,10 @@
      },
      {
       "type": "rect",
-      "x": 760,
-      "y": 220,
-      "w": 900,
-      "h": 560,
+      "x": 700,
+      "y": 300,
+      "w": 880,
+      "h": 540,
       "fill": "#e9dcc0",
       "color": "#e9dcc0",
       "width": 0,
@@ -22468,10 +22714,10 @@
      },
      {
       "type": "rect",
-      "x": 760,
-      "y": 220,
-      "w": 900,
-      "h": 560,
+      "x": 700,
+      "y": 300,
+      "w": 880,
+      "h": 540,
       "fill": null,
       "color": "#8a6a3a",
       "width": 8
@@ -22479,15 +22725,15 @@
      {
       "type": "asset",
       "name": "meganeura",
-      "x": 1210,
-      "y": 500,
+      "x": 1180,
+      "y": 570,
       "scale": 0.6,
       "appear": 0.3
      },
      {
       "type": "doug",
-      "x": 1050,
-      "y": 680,
+      "x": 1000,
+      "y": 740,
       "scale": 0.35,
       "pose": "wave",
       "expression": "hopeful",
@@ -22553,10 +22799,10 @@
      },
      {
       "type": "rect",
-      "x": 760,
-      "y": 220,
-      "w": 900,
-      "h": 560,
+      "x": 700,
+      "y": 300,
+      "w": 880,
+      "h": 540,
       "fill": "#e9dcc0",
       "color": "#e9dcc0",
       "width": 0,
@@ -22565,10 +22811,10 @@
      },
      {
       "type": "rect",
-      "x": 760,
-      "y": 220,
-      "w": 900,
-      "h": 560,
+      "x": 700,
+      "y": 300,
+      "w": 880,
+      "h": 540,
       "fill": null,
       "color": "#8a6a3a",
       "width": 8
@@ -22576,19 +22822,19 @@
      {
       "type": "asset",
       "name": "meganeura",
-      "x": 1480,
-      "y": 330,
+      "x": 1420,
+      "y": 430,
       "scale": 0.45
      },
      {
       "type": "arrow",
       "from": [
-       1200,
-       520
+       1130,
+       620
       ],
       "to": [
-       1440,
-       360
+       1360,
+       470
       ],
       "bend": -50,
       "color": "#e0201b",
@@ -22598,8 +22844,8 @@
      },
      {
       "type": "doug",
-      "x": 1050,
-      "y": 680,
+      "x": 1000,
+      "y": 740,
       "scale": 0.35,
       "pose": "stand",
       "expression": "flat",
@@ -24505,20 +24751,163 @@
       "appear": 0.2
      },
      {
-      "type": "asset",
-      "name": "bat_hanging",
-      "x": 960,
-      "y": 470,
-      "scale": 0.7,
-      "silhouette": true,
-      "glow_r": 0,
+      "type": "poly",
+      "points": [
+       [
+        945,
+        662
+       ],
+       [
+        953,
+        668
+       ],
+       [
+        960,
+        675
+       ],
+       [
+        967,
+        668
+       ],
+       [
+        975,
+        662
+       ],
+       [
+        993,
+        653
+       ],
+       [
+        1017,
+        633
+       ],
+       [
+        1050,
+        649
+       ],
+       [
+        1076,
+        622
+       ],
+       [
+        1108,
+        635
+       ],
+       [
+        1130,
+        607
+       ],
+       [
+        1152,
+        620
+       ],
+       [
+        1186,
+        611
+       ],
+       [
+        1164,
+        576
+       ],
+       [
+        1092,
+        554
+       ],
+       [
+        1026,
+        574
+       ],
+       [
+        978,
+        607
+       ],
+       [
+        971,
+        587
+       ],
+       [
+        978,
+        561
+       ],
+       [
+        964,
+        578
+       ],
+       [
+        956,
+        578
+       ],
+       [
+        942,
+        561
+       ],
+       [
+        949,
+        587
+       ],
+       [
+        942,
+        607
+       ],
+       [
+        894,
+        574
+       ],
+       [
+        828,
+        554
+       ],
+       [
+        756,
+        576
+       ],
+       [
+        734,
+        611
+       ],
+       [
+        768,
+        620
+       ],
+       [
+        790,
+        607
+       ],
+       [
+        812,
+        635
+       ],
+       [
+        844,
+        622
+       ],
+       [
+        870,
+        649
+       ],
+       [
+        903,
+        633
+       ],
+       [
+        927,
+        653
+       ],
+       [
+        945,
+        662
+       ]
+      ],
+      "fill": "#000000",
+      "color": "#000000",
+      "width": 3,
       "appear": 0.3
      },
      {
       "type": "asset",
       "name": "red_x",
       "x": 960,
-      "y": 600,
+      "y": 620,
       "scale": 0.5,
       "appear": 0.45
      },
@@ -24803,16 +25192,16 @@
      {
       "type": "asset",
       "name": "bug_net",
-      "x": 790,
-      "y": 560,
+      "x": 748,
+      "y": 652,
       "scale": 0.7,
       "rotate": 15
      },
      {
       "type": "asset",
       "name": "meganeura",
-      "x": 1250,
-      "y": 330,
+      "x": 1300,
+      "y": 420,
       "scale": 0.7,
       "flip": true,
       "appear": 0.5
@@ -24942,21 +25331,21 @@
       "type": "asset",
       "name": "meganeura",
       "x": 660,
-      "y": 180,
+      "y": 240,
       "scale": 0.8
      },
      {
       "type": "asset",
       "name": "bug_net",
       "x": 560,
-      "y": 560,
+      "y": 620,
       "scale": 0.7,
       "rotate": -8
      },
      {
       "type": "doug",
       "x": 545,
-      "y": 700,
+      "y": 760,
       "scale": 0.5,
       "pose": "arms_up",
       "expression": "gritted",
@@ -24966,7 +25355,7 @@
       "type": "asset",
       "name": "exclamation_mark",
       "x": 880,
-      "y": 520,
+      "y": 580,
       "scale": 0.4,
       "appear": 0.4
      },
@@ -25098,21 +25487,21 @@
       "type": "asset",
       "name": "meganeura",
       "x": 660,
-      "y": 180,
+      "y": 240,
       "scale": 0.8
      },
      {
       "type": "asset",
       "name": "bug_net",
       "x": 560,
-      "y": 560,
+      "y": 620,
       "scale": 0.7,
       "rotate": -8
      },
      {
       "type": "doug",
       "x": 545,
-      "y": 720,
+      "y": 780,
       "scale": 0.5,
       "pose": "arms_up",
       "expression": "gritted",
@@ -27475,7 +27864,7 @@
       "type": "arrow",
       "from": [
        1500,
-       350
+       400
       ],
       "to": [
        1350,
@@ -27491,7 +27880,7 @@
       "type": "label",
       "text": "SMALL PINCERS",
       "x": 1500,
-      "y": 300,
+      "y": 360,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -27566,7 +27955,7 @@
       "type": "label",
       "text": "SMALL PINCERS",
       "x": 1500,
-      "y": 300,
+      "y": 360,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -27978,7 +28367,7 @@
       "type": "arrow",
       "from": [
        1450,
-       350
+       400
       ],
       "to": [
        1030,
@@ -27994,7 +28383,7 @@
       "type": "label",
       "text": "BOOK LUNGS",
       "x": 1450,
-      "y": 300,
+      "y": 360,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -28194,12 +28583,12 @@
      {
       "type": "arrow",
       "from": [
-       1500,
-       300
+       1470,
+       420
       ],
       "to": [
        1120,
-       520
+       525
       ],
       "bend": -40,
       "color": "#2a7fd0",
@@ -28210,8 +28599,8 @@
      {
       "type": "label",
       "text": "AIR",
-      "x": 1550,
-      "y": 260,
+      "x": 1500,
+      "y": 380,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -28580,7 +28969,7 @@
       "type": "label",
       "text": "GILLS",
       "x": 550,
-      "y": 300,
+      "y": 360,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -28702,7 +29091,7 @@
       "type": "label",
       "text": "BOOK LUNGS",
       "x": 1350,
-      "y": 300,
+      "y": 360,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -30147,7 +30536,7 @@
      },
      {
       "type": "doug",
-      "x": 1000,
+      "x": 850,
       "y": 470,
       "scale": 0.42,
       "pose": "float",
@@ -30423,7 +30812,7 @@
       "text": "THE SEA SCORPION THAT WALKED",
       "x": 960,
       "y": 360,
-      "size": 92,
+      "size": 80,
       "color": "#e0201b",
       "bold": true,
       "boil": 0.3,
@@ -30435,7 +30824,7 @@
       "type": "label",
       "text": "330 MILLION YEARS AGO",
       "x": 960,
-      "y": 500,
+      "y": 470,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -30850,7 +31239,7 @@
       "type": "label",
       "text": "2005",
       "x": 1350,
-      "y": 280,
+      "y": 325,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -32498,8 +32887,8 @@
      },
      {
       "type": "doug",
-      "x": 1700,
-      "y": 600,
+      "x": 1760,
+      "y": 880,
       "scale": 0.4,
       "pose": "point",
       "expression": "shock",
@@ -33529,7 +33918,7 @@
      {
       "type": "rect",
       "x": 1300,
-      "y": 250,
+      "y": 330,
       "w": 420,
       "h": 200,
       "fill": "#e8b8c8",
@@ -33540,10 +33929,114 @@
       "appear": 0.25
      },
      {
+      "type": "rect",
+      "x": 1300,
+      "y": 330,
+      "w": 420,
+      "h": 200,
+      "fill": null,
+      "color": "#000000",
+      "width": 4,
+      "appear": 0.25
+     },
+     {
+      "type": "ellipse",
+      "x": 1345,
+      "y": 395,
+      "rx": 16,
+      "ry": 10,
+      "fill": "#b07a8e",
+      "color": "#7a4a5a",
+      "width": 3,
+      "appear": 0.25
+     },
+     {
+      "type": "ellipse",
+      "x": 1400,
+      "y": 465,
+      "rx": 16,
+      "ry": 10,
+      "fill": "#b07a8e",
+      "color": "#7a4a5a",
+      "width": 3,
+      "appear": 0.25
+     },
+     {
+      "type": "ellipse",
+      "x": 1455,
+      "y": 395,
+      "rx": 16,
+      "ry": 10,
+      "fill": "#b07a8e",
+      "color": "#7a4a5a",
+      "width": 3,
+      "appear": 0.25
+     },
+     {
+      "type": "ellipse",
+      "x": 1510,
+      "y": 465,
+      "rx": 16,
+      "ry": 10,
+      "fill": "#b07a8e",
+      "color": "#7a4a5a",
+      "width": 3,
+      "appear": 0.25
+     },
+     {
+      "type": "ellipse",
+      "x": 1565,
+      "y": 395,
+      "rx": 16,
+      "ry": 10,
+      "fill": "#b07a8e",
+      "color": "#7a4a5a",
+      "width": 3,
+      "appear": 0.25
+     },
+     {
+      "type": "ellipse",
+      "x": 1620,
+      "y": 465,
+      "rx": 16,
+      "ry": 10,
+      "fill": "#b07a8e",
+      "color": "#7a4a5a",
+      "width": 3,
+      "appear": 0.25
+     },
+     {
+      "type": "ellipse",
+      "x": 1675,
+      "y": 395,
+      "rx": 16,
+      "ry": 10,
+      "fill": "#b07a8e",
+      "color": "#7a4a5a",
+      "width": 3,
+      "appear": 0.25
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1320,
+        432
+       ],
+       [
+        1700,
+        428
+       ]
+      ],
+      "color": "#b07a8e",
+      "width": 6,
+      "appear": 0.25
+     },
+     {
       "type": "label",
       "text": "SILICONE COPY",
       "x": 1510,
-      "y": 500,
+      "y": 590,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -34826,7 +35319,7 @@
      },
      {
       "type": "doug",
-      "x": 1700,
+      "x": 1500,
       "y": 804,
       "scale": 0.5,
       "pose": "stand",
@@ -36417,33 +36910,6 @@
       "appear": 0.6
      },
      {
-      "type": "line",
-      "points": [
-       [
-        1570,
-        620.0
-       ],
-       [
-        1790,
-        620.0
-       ]
-      ],
-      "color": "#e0201b",
-      "width": 7,
-      "appear": 0.6
-     },
-     {
-      "type": "label",
-      "text": "1.6 M",
-      "x": 1490,
-      "y": 620.0,
-      "size": 30,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff",
-      "appear": 0.6
-     },
-     {
       "type": "doug",
       "x": 240,
       "y": 980,
@@ -36510,8 +36976,8 @@
      {
       "type": "arrow",
       "from": [
-       1400,
-       300
+       1420,
+       400
       ],
       "to": [
        1100,
@@ -36527,7 +36993,7 @@
       "type": "label",
       "text": "HUGE TEETH",
       "x": 1450,
-      "y": 250,
+      "y": 360,
       "size": 48,
       "bold": true,
       "boil": 0.4,
@@ -36571,6 +37037,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 1000,
+    "y": 600,
+    "zoom": 1.08
    }
   },
   {
@@ -36694,6 +37166,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_out",
+    "x": 700,
+    "y": 520,
+    "zoom": 1.08
    }
   },
   {
@@ -36724,14 +37202,14 @@
      {
       "type": "arrow",
       "from": [
-       1350,
-       250
+       1360,
+       400
       ],
       "to": [
-       980,
-       440
+       965,
+       495
       ],
-      "bend": -60,
+      "bend": -50,
       "color": "#e0201b",
       "width": 10,
       "head": 30,
@@ -36741,7 +37219,7 @@
       "type": "label",
       "text": "LARGE EYES",
       "x": 1400,
-      "y": 270,
+      "y": 360,
       "size": 48,
       "bold": true,
       "boil": 0.4,
@@ -36785,6 +37263,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 930,
+    "y": 500,
+    "zoom": 1.08
    }
   },
   {
@@ -37105,7 +37589,7 @@
      },
      {
       "type": "doug",
-      "x": 1700,
+      "x": 1500,
       "y": 804,
       "scale": 0.5,
       "pose": "stand",
@@ -37369,7 +37853,7 @@
      },
      {
       "type": "doug",
-      "x": 200,
+      "x": 310,
       "y": 812,
       "scale": 0.45,
       "pose": "stand",
@@ -37605,7 +38089,7 @@
      },
      {
       "type": "doug",
-      "x": 1700,
+      "x": 1500,
       "y": 804,
       "scale": 0.5,
       "pose": "stand",
@@ -38577,7 +39061,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -39073,7 +39557,7 @@
       "type": "wordart",
       "text": "LARGEST LAND BUG",
       "x": 960,
-      "y": 300,
+      "y": 400,
       "size": 84,
       "boil": 0,
       "top": "#ffffff",
@@ -39147,7 +39631,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -39236,7 +39720,7 @@
      },
      {
       "type": "doug",
-      "x": 250,
+      "x": 205,
       "y": 812,
       "scale": 0.45,
       "pose": "stand",
@@ -39412,7 +39896,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -39485,14 +39969,14 @@
      {
       "type": "asset",
       "name": "arthropleura",
-      "x": 960,
+      "x": 1080,
       "y": 800,
-      "scale": 1.9
+      "scale": 1.8
      },
      {
       "type": "label",
       "text": "UP TO ABOUT 2.6 M",
-      "x": 700,
+      "x": 760,
       "y": 500,
       "size": 50,
       "bold": true,
@@ -39503,7 +39987,7 @@
      {
       "type": "label",
       "text": "AROUND 50 KG",
-      "x": 1250,
+      "x": 1300,
       "y": 580,
       "size": 50,
       "bold": true,
@@ -39756,65 +40240,6 @@
       "type": "line",
       "points": [
        [
-        1830,
-        540
-       ],
-       [
-        1830,
-        340
-       ]
-      ],
-      "color": "#e0201b",
-      "width": 6,
-      "dash": [
-       18,
-       14
-      ]
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1812,
-        540
-       ],
-       [
-        1848,
-        540
-       ]
-      ],
-      "color": "#e0201b",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1812,
-        340
-       ],
-       [
-        1848,
-        340
-       ]
-      ],
-      "color": "#e0201b",
-      "width": 6
-     },
-     {
-      "type": "label",
-      "text": "2 TO 3 M?",
-      "x": 1730,
-      "y": 306,
-      "size": 28,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
-     },
-     {
-      "type": "line",
-      "points": [
-       [
         1570,
         420.0
        ],
@@ -39989,7 +40414,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -40062,16 +40487,17 @@
      {
       "type": "asset",
       "name": "arthropleura",
-      "x": 960,
+      "x": 1080,
       "y": 800,
-      "scale": 1.9
+      "scale": 1.8
      },
      {
       "type": "asset",
       "name": "paper_crown",
-      "x": 1700,
-      "y": 1060,
+      "x": 1790,
+      "y": 925,
       "scale": 0.55,
+      "rotate": 12,
       "appear": 0.4
      },
      {
@@ -40394,7 +40820,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -40503,7 +40929,7 @@
      },
      {
       "type": "doug",
-      "x": 250,
+      "x": 205,
       "y": 812,
       "scale": 0.45,
       "pose": "stand",
@@ -40688,8 +41114,8 @@
      {
       "type": "arrow",
       "from": [
-       1400,
-       330
+       1420,
+       400
       ],
       "to": [
        985,
@@ -40705,7 +41131,7 @@
       "type": "label",
       "text": "CENTIPEDE-LIKE",
       "x": 1450,
-      "y": 290,
+      "y": 360,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -40780,7 +41206,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -40970,7 +41396,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -42378,7 +42804,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -42531,7 +42957,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -42675,7 +43101,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -42748,14 +43174,14 @@
      {
       "type": "asset",
       "name": "arthropleura",
-      "x": 900,
-      "y": 700,
-      "scale": 1.5
+      "x": 830,
+      "y": 790,
+      "scale": 1.35
      },
      {
       "type": "asset",
       "name": "small_car",
-      "x": 1500,
+      "x": 1650,
       "y": 890,
       "scale": 1.0,
       "appear": 0.25
@@ -42774,7 +43200,7 @@
      },
      {
       "type": "doug",
-      "x": 200,
+      "x": 180,
       "y": 819,
       "scale": 0.4,
       "pose": "stand",
@@ -42823,7 +43249,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 880,
+      "h": 1040,
       "fill": "#5f6a50",
       "color": "#5f6a50",
       "width": 0,
@@ -42833,46 +43259,32 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
-      "y": 890,
-      "scale": 0.7
-     },
-     {
-      "type": "asset",
-      "name": "scale_tree",
-      "x": 760,
-      "y": 890,
-      "scale": 0.7
-     },
-     {
-      "type": "asset",
-      "name": "scale_tree",
-      "x": 1260,
-      "y": 890,
-      "scale": 0.7
+      "x": 60,
+      "y": 1050,
+      "scale": 1.3
      },
      {
       "type": "poly",
       "points": [
        [
         -40,
-        880
+        1040
        ],
        [
         400,
-        866
+        1026
        ],
        [
         900,
-        886
+        1046
        ],
        [
         1400,
-        868
+        1028
        ],
        [
         1960,
-        884
+        1044
        ],
        [
         1960,
@@ -42898,24 +43310,16 @@
      },
      {
       "type": "asset",
-      "name": "fern",
-      "x": 1700,
-      "y": 910,
-      "scale": 0.6
-     },
-     {
-      "type": "asset",
-      "name": "arthropleura",
-      "x": 1200,
-      "y": 800,
-      "scale": 1.4,
-      "flip": true
+      "name": "arthropleura_head",
+      "x": 1420,
+      "y": 760,
+      "scale": 1.5
      },
      {
       "type": "doug",
-      "x": 420,
-      "y": 796,
-      "scale": 0.55,
+      "x": 520,
+      "y": 873,
+      "scale": 1.1,
       "pose": "point",
       "expression": "hopeful",
       "facing": "right"
@@ -42923,19 +43327,20 @@
      {
       "type": "asset",
       "name": "fern_saddle",
-      "x": 540,
-      "y": 760,
-      "scale": 0.6
+      "x": 850,
+      "y": 605,
+      "scale": 1.0,
+      "appear": 0.25
      },
      {
       "type": "speech",
-      "x": 600,
-      "y": 360,
-      "w": 280,
+      "x": 900,
+      "y": 330,
+      "w": 300,
       "h": 120,
       "text": "hi friend?",
       "tail": [
-       470,
+       640,
        520
       ],
       "appear": 0.5
@@ -42991,7 +43396,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -43064,7 +43469,7 @@
      {
       "type": "asset",
       "name": "arthropleura",
-      "x": 1000,
+      "x": 1080,
       "y": 800,
       "scale": 1.4,
       "flip": true
@@ -43081,8 +43486,8 @@
      {
       "type": "asset",
       "name": "fern_saddle",
-      "x": 540,
-      "y": 760,
+      "x": 300,
+      "y": 790,
       "scale": 0.6
      },
      {
@@ -43152,7 +43557,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -43278,7 +43683,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 880,
+      "h": 1000,
       "fill": "#5f6a50",
       "color": "#5f6a50",
       "width": 0,
@@ -43288,46 +43693,32 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
-      "y": 890,
-      "scale": 0.7
-     },
-     {
-      "type": "asset",
-      "name": "scale_tree",
-      "x": 760,
-      "y": 890,
-      "scale": 0.7
-     },
-     {
-      "type": "asset",
-      "name": "scale_tree",
-      "x": 1260,
-      "y": 890,
-      "scale": 0.7
+      "x": 150,
+      "y": 1010,
+      "scale": 1.3
      },
      {
       "type": "poly",
       "points": [
        [
         -40,
-        880
+        1000
        ],
        [
         400,
-        866
+        986
        ],
        [
         900,
-        886
+        1006
        ],
        [
         1400,
-        868
+        988
        ],
        [
         1960,
-        884
+        1004
        ],
        [
         1960,
@@ -43352,24 +43743,18 @@
       "density": 0.03
      },
      {
-      "type": "asset",
-      "name": "fern",
-      "x": 1700,
-      "y": 910,
-      "scale": 0.6
-     },
-     {
-      "type": "asset",
-      "name": "arthropleura",
-      "x": 1250,
-      "y": 800,
-      "scale": 1.4
+      "type": "spray",
+      "x": 800,
+      "y": 960,
+      "r": 420,
+      "color": "#2c2c1e",
+      "density": 0.2
      },
      {
       "type": "doug",
-      "x": 500,
-      "y": 838,
-      "scale": 0.6,
+      "x": 700,
+      "y": 909,
+      "scale": 1.3,
       "pose": "on_back",
       "expression": "dead",
       "facing": "right"
@@ -43377,9 +43762,147 @@
      {
       "type": "asset",
       "name": "fern_saddle",
-      "x": 760,
-      "y": 870,
+      "x": 1180,
+      "y": 975,
+      "scale": 1.0,
+      "rotate": -8
+     },
+     {
+      "type": "asset",
+      "name": "dust_plume",
+      "x": 1800,
+      "y": 900,
       "scale": 0.5
+     },
+     {
+      "type": "ellipse",
+      "x": 300,
+      "y": 1015,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 410,
+      "y": 1027,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 520,
+      "y": 1015,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 630,
+      "y": 1027,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 740,
+      "y": 1015,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 850,
+      "y": 1027,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 960,
+      "y": 1015,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 1070,
+      "y": 1027,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 1180,
+      "y": 1015,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 1290,
+      "y": 1027,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 1400,
+      "y": 1015,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 1510,
+      "y": 1027,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
+     },
+     {
+      "type": "ellipse",
+      "x": 1620,
+      "y": 1015,
+      "rx": 18,
+      "ry": 7,
+      "fill": "#1a1a12",
+      "color": "#1a1a12",
+      "width": 0
      },
      {
       "type": "label",
@@ -43433,7 +43956,7 @@
      {
       "type": "asset",
       "name": "scale_tree",
-      "x": 120,
+      "x": 40,
       "y": 890,
       "scale": 0.7
      },
@@ -43520,8 +44043,8 @@
      {
       "type": "asset",
       "name": "fern_saddle",
-      "x": 760,
-      "y": 870,
+      "x": 600,
+      "y": 840,
       "scale": 0.5
      },
      {
@@ -43849,7 +44372,8 @@
       "fill": "#ffffff"
      }
     ]
-   }
+   },
+   "topbar": false
   },
   {
    "id": "s256",
@@ -43988,6 +44512,7 @@
      }
     ]
    },
+   "topbar": false,
    "hold": 0.4
   },
   {
@@ -44119,6 +44644,7 @@
      }
     ]
    },
+   "topbar": false,
    "hold": 0.6
   },
   {
@@ -44346,7 +44872,7 @@
       "type": "label",
       "text": "BUGS THAT NOTICED HIM: ALMOST NONE",
       "x": 960,
-      "y": 480,
+      "y": 330,
       "size": 50,
       "bold": true,
       "boil": 0.4,
@@ -44356,8 +44882,8 @@
      {
       "type": "asset",
       "name": "meganeura",
-      "x": 1450,
-      "y": 330,
+      "x": 1500,
+      "y": 540,
       "scale": 0.4,
       "appear": 0.5
      },

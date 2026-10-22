@@ -11,7 +11,7 @@
 <!-- Pronunciation for the editor: Bojophlebia = "BOY-oh-FLEE-bee-uh"; Megarachne = "MEG-uh-RACK-nee"; Hunicken = "HOO-nik-en"; Mazothairos = "MAZE-oh-THY-ross"; Mazon = "MAY-zon"; Meganeura = "MEG-uh-NYOOR-uh"; Commentry = "koh-mahn-TREE"; Pulmonoscorpius = "PUL-mon-oh-SKOR-pee-us"; Kirkton = "KIRK-tun"; Hibbertopterus = "HIB-ert-OP-ter-us"; Fife = "FIFE"; Crassigyrinus = "KRASS-ee-jih-RYE-nus"; Arthropleura = "AR-thro-PLOOR-uh"; Howick = "HOY-ick"; Montceau-les-Mines = "mon-SOH lay MEEN"; Palaeodictyoptera = "PAY-lee-oh-DIK-tee-OP-ter-uh"; eurypterid = "yoo-RIP-ter-id"; West Lothian = "west LOH-thee-un". -->
 
 
-[Open on the thumbnail, 1.5 to 4 seconds: a huge Arthropleura curving across the frame, a Meganeura overhead with its wings spread, tiny red-capped Doug in the middle. Flat swamp-green background. Text: "TOO MUCH AIR". Cut to the time machine standing in a steaming coal swamp: scale trees, ferns, still black water. DOUG DEATHS: 203. Beside it, the DOUG FOR SCALE tape measure with a Doug silhouette, reading "SMALLER THAN THIS DOT".]
+[Open on the thumbnail, 1.5 to 4 seconds: Arthropleura's head and front plates huge across the frame, a Meganeura overhead with its wings spread, tiny red-capped Doug in a panic in front of the mandibles. Flat swamp-green background. Text: "AIR DID THIS?". Cut to the time machine standing in a steaming coal swamp: scale trees, ferns, still black water. DOUG DEATHS: 203. From the first chapter card on, the DOUG FOR SCALE tape measure sits under the counter, reading "SMALLER THAN A DOT".]
 
 Three hundred million years ago, Earth's air was loaded with extra oxygen, and its bugs were big enough to kill Doug. Today, Doug meets them. Doug did not agree to this.
 
