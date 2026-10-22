@@ -164,6 +164,7 @@ animal. Please keep to the anchor and bbox given: the shotlist was laid out agai
 
 ### arthropleura_head
 - **DONE** (illustrator, 2026-10-22): `assets/library/arthropleura_head.json`, preview `assets/previews/025-too-much-oxygen-assets.png`
+- **REDRAWN** (illustrator, 2026-10-22, per art_review.md fixes; anchor/bbox unchanged): preview `assets/previews/025-redraw4.png`, checked in keyframes s110, s111, s235, s236, s250, s251, s254
 - What: The 2024 juvenile head reveal: a millipede body but some centipede-like head features.
 - Look: Front 3/4 view of the head and first segments: two antennae, **eyes on short stalks**, mouthparts, in the same dark brown-grey
   plate palette as `arthropleura`.
@@ -172,6 +173,7 @@ animal. Please keep to the anchor and bbox given: the shotlist was laid out agai
 
 ### tree_fern
 - **DONE** (illustrator, 2026-10-22): `assets/library/tree_fern.json`, preview `assets/previews/025-too-much-oxygen-assets.png`
+- **REDRAWN** (illustrator, 2026-10-22, per art_review.md fixes; anchor/bbox unchanged): preview `assets/previews/025-redraw4.png`, checked in keyframes s110, s111, s235, s236, s250, s251, s254
 - What: Carboniferous tree fern (Psaronius-type) for The Beak's forest.
 - Look: Straight, shaggy trunk (#5a4a30 with matted root texture) topped by a crown of long, arching, finely divided fronds (#4f8a3a /
   darker #3a6a2a). Different silhouette from `scale_tree` (crown of fronds, no forked branches).
@@ -212,6 +214,7 @@ animal. Please keep to the anchor and bbox given: the shotlist was laid out agai
 
 ### leaf_hat
 - **DONE** (illustrator, 2026-10-22): `assets/library/leaf_hat.json`, preview `assets/previews/025-too-much-oxygen-assets.png, assets/previews/025C-dougtest.png`
+- **REDRAWN** (illustrator, 2026-10-22, per art_review.md fixes; anchor/bbox unchanged): preview `assets/previews/025-redraw4.png`, checked in keyframes s110, s111, s235, s236, s250, s251, s254
 - What: Doug's camouflage hat made of overlapping leaves (worn prop, not a costume).
 - Look: A dome of overlapping green leaves (#4f8a3a / #6fae4a, a few lighter) sitting on top of the cap, **the red cap brim and the top of
   the cap dome still visible** (the script: "the red cap poking through the top"). No face.
@@ -229,6 +232,7 @@ animal. Please keep to the anchor and bbox given: the shotlist was laid out agai
 
 ### fern_saddle
 - **DONE** (illustrator, 2026-10-22): `assets/library/fern_saddle.json`, preview `assets/previews/025-too-much-oxygen-assets.png`
+- **REDRAWN** (illustrator, 2026-10-22, per art_review.md fixes; anchor/bbox unchanged): preview `assets/previews/025-redraw4.png`, checked in keyframes s110, s111, s235, s236, s250, s251, s254
 - What: A saddle made out of a fern, for riding Arthropleura.
 - Look: A saddle shape woven from green fern fronds, two dangling stirrups made of twisted stems.
 - Facing/anchor: Centre anchor, bbox about x -160..160, y -90..90.
