@@ -77,3 +77,4 @@ Dougs make it look mascot-led and nudge it toward a kids'-show look; the style b
 Order for the Test & Compare run: A (lead), new B, revised C. The package stage is not complete until new B and revised C are back.
 
 THUMBNAILS: A APPROVED · B REJECTED (redo) · C CHANGES REQUESTED
+- 2026-10-22: script 2 rounds (round 1 fact errors + size order), art 3 rounds (4 redraws, 80 layout fixes), thumbnails A approved, B/C redone and re-screened. Risks: title says oxygen causes giant bugs (script hedges); Commentry/Kirkton IPA simplified, unheard; 54 shots >5s rely on pop-ins.

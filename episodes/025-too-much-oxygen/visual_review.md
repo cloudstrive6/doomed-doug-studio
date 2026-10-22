@@ -56,3 +56,12 @@ misconception the video unpacks, so it is not misleading. Minor issues: the past
 kids-show look, and the six repeated Dougs add clutter. Optional (graphic designer): drop Doug from the tiles or keep him in only one.
 
 No gore or policy risk in any variant. None of them copies competitor drawings or wording.
+
+## Thumbnail re-screen (revised set, 2026-10-22)
+Checked at full size and at feed size (`build/feed168.png`, rebuilt after the thumbnails). **VERDICT: PASS (A, B, C).**
+
+- **A ("AIR DID THIS?", Arthropleura + Meganeura, Doug): PASS, still the recommended lead.** It has one focal point, and the text and Doug's red cap read at 168 px. The Meganeura now perches on the millipede's back, so it reads at feed size as one threat instead of a stray blue stroke. It shows no gore and doesn't look like a kids' show. It complements the title and repeats no title word.
+- **B ("THIS FLEW", Meganeura wings spread, Doug grimacing): PASS.** This is a clear improvement on "GULP". It now shows a bug, which matches the title's promise, and "THIS FLEW" is legible at feed size. It has one focal point and no gore. Non-blocking: the wingspan is drawn at about 4-5 times Doug's height, while the video's tape measure says "ABOUT 70 CM". The body overlapping the foreground strip makes this read as forced perspective, which is normal genre exaggeration, so it isn't misleading packaging. It is the least threatening of the three, so I expect it to have the lowest CTR (graphic designer, optional: open Meganeura's jaws or angle it toward Doug).
+- **C (2x3 labelled grid): PASS.** All six labels are legible at 168 px. Doug now appears only in the Millipede tile, which removes the clutter flagged in round 1. Its creatures stay recognisable, and Tadpole is carried by its label. It shows no gore. The rounded font and pastel tiles remain the closest of the three to a kids-show look, but this is acceptable.
+
+None of the variants has a policy risk or misleading claim, and none copies competitor wording or drawings.

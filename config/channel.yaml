@@ -15,6 +15,23 @@ voice:                       # Google Cloud TTS, Chirp 3: HD
   speaking_rate: 1.15         # editor calibrates so timing.json wpm_speech lands at 190-205 (style bible)
   pronunciations:             # custom IPA for Chirp 3 HD (only applied to lines containing the phrase)
     - {phrase: "Mech", ipa: "mitʃ"}
+    - {phrase: "Bojophlebia", ipa: "ˈbɔɪoʊˈflibiə"}
+    - {phrase: "Megarachne", ipa: "ˈmɛɡəˈrækni"}
+    - {phrase: "Hunicken", ipa: "ˈhunɪkən"}
+    - {phrase: "Mazothairos", ipa: "ˈmeɪzoʊˈθaɪrɒs"}
+    - {phrase: "Mazon", ipa: "ˈmeɪzɒn"}
+    - {phrase: "Meganeura", ipa: "ˈmɛɡəˈnjʊərə"}
+    - {phrase: "Commentry", ipa: "koʊmɑnˈtri"}
+    - {phrase: "Pulmonoscorpius", ipa: "ˈpʌlmənoʊˈskɔrpiəs"}
+    - {phrase: "Kirkton", ipa: "ˈkɝktən"}
+    - {phrase: "Hibbertopterus", ipa: "ˈhɪbərˈtɒptərəs"}
+    - {phrase: "Fife", ipa: "faɪf"}
+    - {phrase: "Crassigyrinus", ipa: "ˈkræsɪdʒɪˈraɪnəs"}
+    - {phrase: "Arthropleura", ipa: "ˈɑrθroʊˈplʊərə"}
+    - {phrase: "Howick", ipa: "ˈhɔɪɪk"}
+    - {phrase: "Palaeodictyoptera", ipa: "ˈpeɪlioʊˈdɪktiˈɒptərə"}
+    - {phrase: "eurypterid", ipa: "jʊˈrɪptərɪd"}
+    - {phrase: "Lothian", ipa: "ˈloʊðiən"}
   fallback_wpm: 197          # only used for dry runs without an API key
 
 video:
