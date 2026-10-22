@@ -1,14 +1,14 @@
-<!-- axis: body size, longest dimension (wingspan or body length), smallest to largest, inside the high-oxygen world of the Carboniferous and earliest Permian. Item 1 is the oxygen itself (smaller than any dot). Two spoken bands: "Arm-sized." (items 2-6, about 40 cm to about 70 cm) and "Doug-sized." (items 7-9, about 1.6 m to about 2.6 m). Most extreme last: Arthropleura, the largest land arthropod known. Crassigyrinus (NHM: "around two to three metres") is ranked at the middle of its range, about 2.5 m, below Arthropleura's up to about 2.6 m; see deviation 4. -->
-<!-- Episode 025: When Earth Had So Much Oxygen That Bugs Could Kill Doug. Draft 1 (2026-10-22, script writer). Counter on screen at 203 from the first shot, ends at 210: seven deaths over nine items (204-210). Survivals: The Beak and The Sea Scorpion That Walked ("Doug is fine."; narrator quietly disappointed at both). Death 210 (The Millipede) is played flat. "Doug did not agree to this." once, in the opener. "hi friend?" at items 4, 8 and 9 only. One callback, to 007 (Meganeura flew away), in item 5. The cap: fern (1), peat (2), under the glass on the riverbank (3), drifting down (5), log (6), ripples (8), Arthropleura's back (9). DOUG FOR SCALE tape measure beside the counter, monotonic. Time machine opens every item. -->
+<!-- axis: body size, longest dimension (wingspan or body length), smallest to largest, inside the high-oxygen world of the Carboniferous and earliest Permian. Item 1 is the oxygen itself (smaller than any dot). Two spoken bands: "Arm-sized." (items 2-6, about 40 cm to about 70 cm) and "Doug-sized." (items 7-9, about 1.6 m to about 2.6 m). Most extreme last: Arthropleura, the largest bug, meaning the largest land arthropod known (ESRF, Smithsonian). Items 2-7 and 9 are all bugs and rise strictly. The one non-bug, Crassigyrinus at item 8 (NHM: "around two to three metres"), overlaps Arthropleura's size, and the boss says so on air: "The tadpole from hell may have been just as long. But this is the biggest bug". On screen, item 8 is a dashed "2 TO 3 M?" range bracket, not a reading, so the solid tape reading never drops: Doug height at items 7-8, then "ABOUT 2.6 M" at the boss. See deviation 4. -->
+<!-- Episode 025: When Earth Had So Much Oxygen That Bugs Could Kill Doug. Draft 2 (2026-10-22, script writer), revised for script_review.md draft 1: F1, F2, F3 (a, b, c) and T1 fixed; advisories applied: bowling pin "about as wide as", trackway "at the time", item 6 marker "The surprising part", pronunciations added. Counter on screen at 203 from the first shot, ends at 210: seven deaths over nine items (204-210). Survivals: The Beak and The Sea Scorpion That Walked ("Doug is fine."; narrator quietly disappointed at both). Death 210 (The Millipede) is played flat. "Doug did not agree to this." once, in the opener. "hi friend?" at items 4, 8 and 9 only. One callback, to 007 (Meganeura flew away), in item 5. The cap: fern (1), peat (2), under the glass on the riverbank (3), drifting down (5), log (6), ripples (8), Arthropleura's back (9). DOUG FOR SCALE tape measure beside the counter; its solid reading is monotonic (item 8 adds only a dashed "2 TO 3 M?" bracket). Time machine opens every item. -->
 <!-- Deviations from the brief, all fact-driven (details in facts.md, "Brief leads that failed or changed"):
 1. Item 2 is "The Wings", not "The Mayfly". Sroka, Staniczek and Bechly 2015 reject Bojophlebia as a mayfly; it is now a near-basal relative of the mayfly and dragonfly lineage. The same revision gives the wingspan as "nearly 40 cm", not 45 cm, so the script says "nearly forty centimeters". The modern mayfly contrast is not used.
-2. The Spider: no source found for the size of contemporary Carboniferous spiders, so that line is cut. The comparison is to the largest living spider instead (Selden et al. 2005: Theraphosa leblondi, 30 cm leg span). Megarachne was a sweep feeder with no pincers, so it does not kill Doug; the river does.
+2. The Spider: no source found for the size of contemporary Carboniferous spiders, so that line is cut. The comparison is to the largest living spider instead (Selden et al. 2005: Theraphosa leblondi, 30 cm leg span). Megarachne raked the mud for small invertebrates, so it does not kill Doug; the river does.
 3. The Beak: the winglets are hedged. A DFG-funded study concluded the prothoracic winglets were not used in flight, and for Mazothairos itself they are "difficult to verify", so the script calls them "small extra flaps" and does not give them to Mazothairos. The wingspan is "about fifty-five centimeters, estimated from a single, badly broken fossil".
-4. Item 8 is "The Tadpole From Hell", not "The Thick Tadpole". The Natural History Museum translates the name as "shallow wriggler", which conflicts with the common "thick tadpole", so no name meaning is given; the chapter uses the museum's own nickname, "tadpole from hell". Its size is the NHM's "around two to three metres", which overlaps Arthropleura's top estimate; it stays at item 8 because the axis ranks the middle of each range, and the boss is introduced as the biggest bug, not the biggest animal.
+4. Item 8 is "The Tadpole From Hell", not "The Thick Tadpole". The Natural History Museum translates the name as "shallow wriggler", which conflicts with the common "thick tadpole", so no name meaning is given; the chapter uses the museum's own nickname, "tadpole from hell". Its size is the NHM's "around two to three metres", which overlaps Arthropleura's "up to 2.6 m" (ESRF) or "around 2.7 m" (Cambridge), so nobody can say which was longer. It stays at item 8 because the brief locks Arthropleura as the boss. The boss is billed as the biggest bug, the largest land arthropod known, not the biggest animal, and it says on air that the tadpole from hell may have been just as long. The tape measure shows item 8 only as a dashed "2 TO 3 M?" bracket, so the solid reading stays monotonic. Its kicker says "the museum calls it a tadpole", because it was an adult early tetrapod, not a larva.
 5. Arthropleura: the Northumberland fossil is about 326 million years old, older than the oxygen peak. Cambridge's release says this "shows that oxygen cannot be the only explanation". That is the resolution's first line, followed by the 2026 Nature study (Snelling et al.) and Clapham and Karr 2012. Arthropleura preferred open coastal woodland, not coal swamp, so the cap rides off "into the woods".
 6. Pulmonoscorpius age: the 2025 U-Pb dating (Garza et al.) puts the East Kirkton beds at about 341 million years, so the script says "about three hundred and forty million years ago".
 7. "The Biggest Insect" (Meganeuropsis) is not added: the draft is over 2,900 words without it. -->
-<!-- Pronunciation for the editor: Bojophlebia = "BOY-oh-FLEE-bee-uh"; Megarachne = "MEG-uh-RACK-nee"; Hunicken = "HOO-nik-en"; Mazothairos = "MAZE-oh-THY-ross"; Mazon = "MAY-zon"; Meganeura = "MEG-uh-NYOOR-uh"; Commentry = "koh-mahn-TREE"; Pulmonoscorpius = "PUL-mon-oh-SKOR-pee-us"; Kirkton = "KIRK-tun"; Hibbertopterus = "HIB-ert-OP-ter-us"; Fife = "FIFE"; Crassigyrinus = "KRASS-ee-jih-RYE-nus"; Arthropleura = "AR-thro-PLOOR-uh"; Howick = "HOY-ick"; Montceau-les-Mines = "mon-SOH lay MEEN". -->
+<!-- Pronunciation for the editor: Bojophlebia = "BOY-oh-FLEE-bee-uh"; Megarachne = "MEG-uh-RACK-nee"; Hunicken = "HOO-nik-en"; Mazothairos = "MAZE-oh-THY-ross"; Mazon = "MAY-zon"; Meganeura = "MEG-uh-NYOOR-uh"; Commentry = "koh-mahn-TREE"; Pulmonoscorpius = "PUL-mon-oh-SKOR-pee-us"; Kirkton = "KIRK-tun"; Hibbertopterus = "HIB-ert-OP-ter-us"; Fife = "FIFE"; Crassigyrinus = "KRASS-ee-jih-RYE-nus"; Arthropleura = "AR-thro-PLOOR-uh"; Howick = "HOY-ick"; Montceau-les-Mines = "mon-SOH lay MEEN"; Palaeodictyoptera = "PAY-lee-oh-DIK-tee-OP-ter-uh"; eurypterid = "yoo-RIP-ter-id"; West Lothian = "west LOH-thee-un". -->
 
 
 [Open on the thumbnail, 1.5 to 4 seconds: a huge Arthropleura curving across the frame, a Meganeura overhead with its wings spread, tiny red-capped Doug in the middle. Flat swamp-green background. Text: "TOO MUCH AIR". Cut to the time machine standing in a steaming coal swamp: scale trees, ferns, still black water. DOUG DEATHS: 203. Beside it, the DOUG FOR SCALE tape measure with a Doug silhouette, reading "SMALLER THAN THIS DOT".]
@@ -55,7 +55,7 @@ The Wings.
 
 [The time machine dial reads 309. The door opens onto a flat, steaming swamp with a shallow lake. Overhead, a large insect with four broad wings drifts past.]
 
-About three hundred and nine million years ago, over a swamp in what is now the Czech Republic, something with a wingspan of nearly forty centimeters went drifting past. That's a little wider than a bowling pin is tall.
+About three hundred and nine million years ago, over a swamp in what is now the Czech Republic, something with a wingspan of nearly forty centimeters went drifting past. That's about as wide as a bowling pin is tall.
 
 [The insect beside a bowling pin. Label: "NEARLY 40 CM". The tape measure jumps to "40 CM".]
 
@@ -101,7 +101,7 @@ In two thousand five, a second, more complete fossil turned up at the same site,
 
 [A red X stamped across the old card. The model is wheeled away. A new drawing appears: a short, broad sea scorpion with bladed front limbs. Label: "EURYPTERID".]
 
-Even that name turns out to be misleading, because the rocks show it lived in fresh water on a river floodplain, nowhere near the sea. It was about fifty-four centimeters long, slightly longer than a soprano ukulele. It had no pincers at all. Instead, its front limbs carried blades for raking through the soft mud, hunting for small invertebrates.
+Even that name turns out to be misleading, because the rocks show it lived in fresh water on a river floodplain, nowhere near the sea. It was about fifty-four centimeters long, slightly longer than a soprano ukulele. Its front limbs carried blades for raking through the soft mud, hunting for small invertebrates.
 
 [The sea scorpion beside a ukulele. The tape measure reads "54 CM".]
 
@@ -197,7 +197,7 @@ Its fossils come from East Kirkton Quarry, in West Lothian, Scotland, from rocks
 
 What did it eat? Experts think it probably preyed on smaller arthropods, and possibly on small four-legged animals. Its pincers were fairly small for a scorpion of its size, which suggests it either went after smaller prey or relied heavily on its venom.
 
-The worst part is how it breathed.
+The surprising part is where it breathed.
 
 [A cutaway of the scorpion's underside with four pairs of small slits. Label: "BOOK LUNGS".]
 
@@ -223,7 +223,7 @@ The Sea Scorpion That Walked.
 
 [The time machine dial reads 330. The door opens onto a sandy riverbank in Scotland. Across the sand runs a long, wide trail: two bands of footprints with a groove down the middle.]
 
-A geologist out walking near St Andrews, in Fife, Scotland, once spotted something strange in the sandstone. It was a trackway, about six meters long and almost a meter wide, made roughly three hundred and thirty million years ago, and he described it in two thousand five.
+A geologist out walking near Saint Andrews, in Fife, Scotland, once spotted something strange in the sandstone. It was a trackway, about six meters long and almost a meter wide, made roughly three hundred and thirty million years ago, and he described it in two thousand five.
 
 [A crude map of Scotland with Fife highlighted. Label: "6 M OF FOOTPRINTS".]
 
@@ -235,7 +235,7 @@ It was not a hunter of big prey. It lived in freshwater swamps and rivers, using
 
 But here's what makes it famous. The tracks show it walking on land, with a short, slow stride, and a groove where it dragged its tail along behind it. A sea scorpion the size of Doug, out of the water, walking.
 
-According to the geologist who found them, it's the largest trackway of a walking arthropod found so far. How the animal breathed out there is still unknown. One idea is that its gills kept working as long as they stayed wet. Even the geologist who found the tracks doubts that these animals could ever have adapted to living on land full time. The trackway itself is fragile, so it still lies out in the rock, and silicone copies were made to preserve it.
+According to the geologist who found them, it was the largest trackway of a walking arthropod found at the time. How the animal breathed out there is still unknown. One idea is that its gills kept working as long as they stayed wet. Even the geologist who found the tracks doubts that these animals could ever have adapted to living on land full time. The trackway itself is fragile, so it still lies out in the rock, and silicone copies were made to preserve it.
 
 [A red "?" over the animal's underside. Label: "GILLS? ON LAND?"]
 
@@ -267,7 +267,7 @@ It was an early four-limbed animal, an early cousin of the creatures that went o
 
 Every known fossil of it was found badly crushed, including the original specimen kept in Edinburgh. For almost a century, it was drawn with a very tall, narrow head, a bit like a moray eel. Then in twenty twenty-three, researchers rebuilt the skull digitally from scans, and it came out low and wide, shaped much more like a crocodile's. The lead researcher puts the whole animal at around two to three meters long, longer than a standard door is tall.
 
-[Crassigyrinus beside a door. The tape measure reads "ABOUT 2 TO 3 M".]
+[Crassigyrinus beside a door. The tape measure's solid reading stays where item 7 left it, at the Doug silhouette's height. Instead, a dashed bracket appears beside the tape, spanning 2 to 3 meters, labeled "2 TO 3 M?".]
 
 That rebuilt skull was full of huge teeth, and ridges along it helped spread the force of the bite across all of them. It also had large eyes for seeing in the dim coal swamps, and lines along the head for sensing vibrations in the water.
 
@@ -281,7 +281,7 @@ Doug has only ever seen tadpoles in garden ponds, where they are small, harmless
 
 [Cut to black on a huge gulp. Then the pool, with the cap floating in the middle of a ring of ripples. DOUG DEATHS: 209.]
 
-Technically, it was a tadpole. Nothing about it was small, except the legs.
+Technically, the museum calls it a tadpole. Nothing about it was small, except the legs.
 
 ## The Millipede
 
@@ -289,23 +289,25 @@ The Millipede.
 
 [The time machine dial reads 326. The door opens onto open woodland near a coast. Something enormous and segmented moves between the trees, too long to fit in the frame.]
 
-In January twenty eighteen, a large block of sandstone fell from a cliff onto the beach at Howick Bay, in Northumberland, England. It cracked open as it landed, and a former student from the University of Cambridge spotted what was inside: a piece of the largest bug that ever lived.
+In January twenty eighteen, a large block of sandstone fell from a cliff onto the beach at Howick Bay, in Northumberland, England. It cracked open, and a former Cambridge student spotted what was inside: a piece of the largest bug that ever lived.
 
 [A boulder on a beach, split open, with a long segmented fossil inside. Label: "HOWICK BAY, 2018".]
 
 It belonged to Arthropleura, a giant relative of millipedes. The fossil is a section about seventy-five centimeters long, probably part of a shell the animal shed as it grew. From that section, researchers estimate the whole animal at up to about two point six meters long and around fifty kilograms. The University of Cambridge, which announced the find, called it as big as a car.
 
-[Arthropleura beside a small car. The tape measure passes the top of the Doug silhouette and keeps going, reading "ABOUT 2.6 M".]
+[Arthropleura beside a small car. The tape measure's solid reading finally climbs up past the top of the Doug silhouette, and stops at "ABOUT 2.6 M", inside the dashed "2 TO 3 M?" bracket left over from the tadpole. The bracket stays dashed; the reading is solid.]
 
-Arthropleura lived for around forty-five million years, between about three hundred and forty-five and two hundred and ninety million years ago, and then disappeared in the Permian. Nobody is sure why.
+The tadpole from hell may have been just as long. But this is the biggest bug, the largest land arthropod known.
+
+Arthropleura lasted around forty-five million years, then disappeared in the Permian. Nobody is sure why.
 
 For a long time, nobody knew what its head looked like either. In twenty twenty-four, scientists scanned two tiny young specimens from France, each about four centimeters long, and finally saw one. The body is a millipede's, but the head has a few features you'd normally expect on a centipede.
 
 [Two small fossils in a scanner, then a head appearing on screen: antennae, eyes on stalks. Label: "HEAD, FINALLY".]
 
-As for its diet, the twenty twenty-four team thinks it was a slow scavenger that probably ate rotting plant matter, although one of the twenty twenty-one researchers had wondered if it might even hunt. No adult head has been found yet, so the debate continues.
+As for its diet, the twenty twenty-four team thinks it was a slow scavenger of rotting plants, although one of the Howick Bay researchers had wondered if it might even hunt. No adult head has been found yet, so the debate continues.
 
-What nobody expected was the timing. This fossil is older than the oxygen peak, and its own researchers say that means oxygen cannot be the only explanation for its size. In twenty twenty-six, a study in Nature found that in living insects, the tiny air tubes take up only about one percent of the flight muscle. That suggests oxygen supply wasn't what held them back. And once birds arrived, insect size stopped following oxygen. The honest answer is that the extra oxygen may have helped, but nobody can yet say how much.
+What nobody expected was the timing. This fossil is older than the oxygen peak, and its own researchers say oxygen cannot be the only explanation for its size. In twenty twenty-six, a study in Nature found that in living insects, the tiny air tubes take up only about one percent of the flight muscle. That suggests oxygen supply wasn't what held them back. And once birds arrived, insect size stopped following oxygen. The honest answer is that the extra oxygen may have helped, but nobody can yet say how much.
 
 [The oxygen chart from The Griffinfly, now with a bird silhouette added and the two lines splitting apart. Label: "IT'S COMPLICATED".]
 
@@ -333,4 +335,4 @@ Back home, in ordinary twenty-one percent air, Doug takes one long, careful brea
 
 Doug deaths: two hundred and ten. Bugs that noticed him: almost none. Which vanished world should Doug visit next? Tell us in the comments.
 
-<!-- words: 2976 (spoken narration only: opener, spoken band headers, item names and outro included; markdown headings, comments and stage directions excluded; textstat lexicon_count) · est. runtime 15:15 at 195 wpm · draft 1 (2026-10-22) · 9 items · Flesch 71.3 (textstat flesch_reading_ease on the spoken text) · average sentence length 15.3 words, longest 35 · per item: OPEN 31 (Flesch 84.5); The Oxygen 310 (Flesch 72.9); The Wings 306 (Flesch 69.1); The Spider 301 (Flesch 66.8); The Beak 322 (Flesch 74.1); The Griffinfly 332 (Flesch 72.5); The Scorpion 299 (Flesch 70.8); The Sea Scorpion That Walked 324 (Flesch 73.4); The Tadpole From Hell 304 (Flesch 72.5); The Millipede 447 (Flesch 68.0) · twist in item 1 lands at about word 122 from the start (about 38 s) · every item has a sentence of 6 words or fewer besides its name · US spelling throughout -->
+<!-- words: 2966 (spoken narration only: opener, spoken band headers, item names and outro included; markdown headings, comments and stage directions excluded; textstat lexicon_count) · est. runtime 15:13 at 195 wpm · draft 2 (2026-10-22) · 9 items · Flesch 71.6 (textstat flesch_reading_ease on the spoken text) · average sentence length 14.3 words, longest 31 · per item: OPEN 31 (Flesch 84.5); The Oxygen 310 (Flesch 73.5); The Wings 306 (Flesch 69.4); The Spider 294 (Flesch 65.8); The Beak 322 (Flesch 74.1); The Griffinfly 332 (Flesch 72.5); The Scorpion 299 (Flesch 70.3); The Sea Scorpion That Walked 326 (Flesch 73.5); The Tadpole From Hell 306 (Flesch 72.1); The Millipede 440 including the 24-word outro, 416 without (Flesch 70.6) · twist in item 1 lands at about word 122 from the start (about 38 s) · every item has a sentence of 6 words or fewer besides its name · US spelling throughout -->
