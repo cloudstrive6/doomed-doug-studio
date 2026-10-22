@@ -37,8 +37,6 @@ The coal from this time backs that up. In some seams, up to forty percent of a l
 
 [A coal seam cross-section with black charcoal streaks. Label: "UP TO 40% CHARCOAL".]
 
-A quick word on "bugs", which is a loose word here. Some of what you're about to meet are insects, others are relatives of scorpions and millipedes, and one of them isn't a bug at all. Everything on this list grew up breathing this air.
-
 [The time machine door opens. Doug steps out holding a cupcake with one birthday candle. Speech bubble: "happy trip!"]
 
 Doug has brought a cupcake with a single birthday candle on it, to celebrate his first trip to this world, and being Doug, he lights it immediately.
@@ -46,6 +44,8 @@ Doug has brought a cupcake with a single birthday candle on it, to celebrate his
 [The flame jumps far too high. Cut to Doug, soot-black from cap to shoes, X eyes, a thin curl of smoke above him. DOUG DEATHS: 204. The cap, smoking slightly, lands on a fern.]
 
 Doug has died. The cupcake survived. The cap landed on a fern, which, in this air, was a brave place to land.
+
+A quick word on "bugs", which is a loose word here. Some of what you're about to meet are insects, others are relatives of scorpions and millipedes, and one of them isn't a bug at all. Everything on this list grew up breathing this air.
 
 Arm-sized.
 
@@ -289,7 +289,7 @@ The Millipede.
 
 [The time machine dial reads 326. The door opens onto open woodland near a coast. Something enormous and segmented moves between the trees, too long to fit in the frame.]
 
-In January twenty eighteen, a large block of sandstone fell from a cliff onto the beach at Howick Bay, in Northumberland, England. It cracked open, and a former Cambridge student spotted what was inside: a piece of the largest bug that ever lived.
+In January twenty eighteen, a large block of sandstone fell from a cliff onto the beach at Howick Bay, in Northumberland, England. It cracked open, and a former Cambridge student spotted what was inside: a piece of the largest land bug that ever lived.
 
 [A boulder on a beach, split open, with a long segmented fossil inside. Label: "HOWICK BAY, 2018".]
 
@@ -311,7 +311,7 @@ What nobody expected was the timing. This fossil is older than the oxygen peak, 
 
 [The oxygen chart from The Griffinfly, now with a bird silhouette added and the two lines splitting apart. Label: "IT'S COMPLICATED".]
 
-The biggest bug that ever lived probably wasn't interested in eating anything with a pulse. It didn't have to be. It was the size of a car.
+The biggest land bug that ever lived probably wasn't interested in eating anything with a pulse. It didn't have to be. It was the size of a car.
 
 [Doug approaches with a saddle made from a fern. Speech bubble: "hi friend?"]
 
@@ -335,4 +335,4 @@ Back home, in ordinary twenty-one percent air, Doug takes one long, careful brea
 
 Doug deaths: two hundred and ten. Bugs that noticed him: almost none. Which vanished world should Doug visit next? Tell us in the comments.
 
-<!-- words: 2966 (spoken narration only: opener, spoken band headers, item names and outro included; markdown headings, comments and stage directions excluded; textstat lexicon_count) · est. runtime 15:13 at 195 wpm · draft 2 (2026-10-22) · 9 items · Flesch 71.6 (textstat flesch_reading_ease on the spoken text) · average sentence length 14.3 words, longest 31 · per item: OPEN 31 (Flesch 84.5); The Oxygen 310 (Flesch 73.5); The Wings 306 (Flesch 69.4); The Spider 294 (Flesch 65.8); The Beak 322 (Flesch 74.1); The Griffinfly 332 (Flesch 72.5); The Scorpion 299 (Flesch 70.3); The Sea Scorpion That Walked 326 (Flesch 73.5); The Tadpole From Hell 306 (Flesch 72.1); The Millipede 440 including the 24-word outro, 416 without (Flesch 70.6) · twist in item 1 lands at about word 122 from the start (about 38 s) · every item has a sentence of 6 words or fewer besides its name · US spelling throughout -->
+<!-- words: 2968 (CD edit 2026-10-22: "land bug" x2, bugs aside moved after death 204) (spoken narration only: opener, spoken band headers, item names and outro included; markdown headings, comments and stage directions excluded; textstat lexicon_count) · est. runtime 15:13 at 195 wpm · draft 2 (2026-10-22) · 9 items · Flesch 71.6 (textstat flesch_reading_ease on the spoken text) · average sentence length 14.3 words, longest 31 · per item: OPEN 31 (Flesch 84.5); The Oxygen 310 (Flesch 73.5); The Wings 306 (Flesch 69.4); The Spider 294 (Flesch 65.8); The Beak 322 (Flesch 74.1); The Griffinfly 332 (Flesch 72.5); The Scorpion 299 (Flesch 70.3); The Sea Scorpion That Walked 326 (Flesch 73.5); The Tadpole From Hell 306 (Flesch 72.1); The Millipede 442 including the 24-word outro, 418 without (Flesch 70.6) · twist in item 1 lands at about word 122 from the start (about 38 s) · every item has a sentence of 6 words or fewer besides its name · US spelling throughout -->
