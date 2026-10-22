@@ -1,0 +1,81 @@
+{
+ "_note": "Variant A (hero close-up, archetype C, video's opening image): Arthropleura's head and front plates huge across the right two thirds of a flat saturated swamp-green frame, a Meganeura overhead with wings spread, tiny red-capped Doug in panic in front of the mandibles. Text AIR DID THIS? (titler's replacement for TOO MUCH AIR, which shares 'Much' with the title; the question mark keeps it honest to the script's 'oxygen may have helped, nobody can yet say how much'). No title/alt-title word.",
+ "background": "#8fce3c",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 640,
+   "w": 1300,
+   "h": 90,
+   "fill": "#5d8a2a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "arthropleura_head",
+   "x": 900,
+   "y": 420,
+   "scale": 1.75,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "meganeura",
+   "x": 690,
+   "y": 95,
+   "scale": 0.55,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 430,
+   "y": 560,
+   "scale": 0.56,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "right",
+   "gear": [
+    "sweat"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "AIR DID",
+   "x": 265,
+   "y": 120,
+   "size": 124,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "THIS?",
+   "x": 265,
+   "y": 260,
+   "size": 124,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

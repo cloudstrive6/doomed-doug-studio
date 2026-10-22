@@ -1,0 +1,70 @@
+{
+ "_note": "Variant B (Doug in peril): Doug treading water at the surface of a Carboniferous pool, panicking, while Crassigyrinus (The Tadpole From Hell, death 209 'a huge gulp') rises from below with its toothed jaws open, angled up at him. Hot yellow sky over bright pool for contrast. Text GULP (a reaction, not a title word). No gore: cut before contact, as in the script.",
+ "background": "#ffd23a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "doug",
+   "x": 880,
+   "y": 355,
+   "scale": 0.78,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "left",
+   "gear": [
+    "sweat"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 330,
+   "w": 1300,
+   "h": 400,
+   "fill": "#3a9ad9",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 326,
+   "w": 1300,
+   "h": 8,
+   "fill": "#000000",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "crassigyrinus",
+   "x": 110,
+   "y": 1120,
+   "scale": 2.6,
+   "rotate": -38,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "GULP",
+   "x": 330,
+   "y": 170,
+   "size": 170,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 13,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

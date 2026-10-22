@@ -1,0 +1,304 @@
+{
+ "_note": "Variant C (list-format control): 6 big tiles in a 3x2 grid, one Carboniferous giant each with red-capped Doug (scale 0.33) in all six, one-word chapter-name labels (Griffinfly, Spider, Scorpion, Tadpole, Beak, Millipede). No title/alt-title words (deliberately no 'Bugs', 'Giant').",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 27,
+   "y": 12,
+   "w": 400,
+   "h": 225,
+   "fill": "#8fd3ff",
+   "radius": 18,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "meganeura",
+     "x": 187.0,
+     "y": 124.5,
+     "scale": 0.42,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 382,
+     "y": 197,
+     "scale": 0.33,
+     "pose": "panic1",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Griffinfly",
+   "x": 227.0,
+   "y": 287,
+   "size": 80,
+   "font": "ComicNeue-Bold",
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 3,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 12,
+   "w": 400,
+   "h": 225,
+   "fill": "#ff5fa2",
+   "radius": 18,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "megarachne_spider_1980",
+     "x": 560.0,
+     "y": 124.5,
+     "scale": 0.4,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 795,
+     "y": 197,
+     "scale": 0.33,
+     "pose": "cower",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Spider",
+   "x": 640.0,
+   "y": 287,
+   "size": 80,
+   "font": "ComicNeue-Bold",
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 3,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 853,
+   "y": 12,
+   "w": 400,
+   "h": 225,
+   "fill": "#ffe24a",
+   "radius": 18,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "pulmonoscorpius",
+     "x": 1013.0,
+     "y": 184.5,
+     "scale": 0.42,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 1208,
+     "y": 197,
+     "scale": 0.33,
+     "pose": "panic1",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Scorpion",
+   "x": 1053.0,
+   "y": 287,
+   "size": 80,
+   "font": "ComicNeue-Bold",
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 3,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 27,
+   "y": 355,
+   "w": 400,
+   "h": 225,
+   "fill": "#3a9ad9",
+   "radius": 18,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "crassigyrinus",
+     "x": 97.0,
+     "y": 497.5,
+     "scale": 0.42,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 382,
+     "y": 540,
+     "scale": 0.33,
+     "pose": "panic1",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Tadpole",
+   "x": 227.0,
+   "y": 630,
+   "size": 80,
+   "font": "ComicNeue-Bold",
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 3,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 355,
+   "w": 400,
+   "h": 225,
+   "fill": "#c48cff",
+   "radius": 18,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "mazothairos",
+     "x": 590.0,
+     "y": 467.5,
+     "scale": 0.55,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 795,
+     "y": 540,
+     "scale": 0.33,
+     "pose": "shrug",
+     "expression": "confused",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Beak",
+   "x": 640.0,
+   "y": 630,
+   "size": 80,
+   "font": "ComicNeue-Bold",
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 3,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 853,
+   "y": 355,
+   "w": 400,
+   "h": 225,
+   "fill": "#ff8a3a",
+   "radius": 18,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "arthropleura",
+     "x": 953.0,
+     "y": 512.5,
+     "scale": 0.5,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 1208,
+     "y": 540,
+     "scale": 0.33,
+     "pose": "panic1",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Millipede",
+   "x": 1053.0,
+   "y": 630,
+   "size": 80,
+   "font": "ComicNeue-Bold",
+   "color": "#000000",
+   "outline": "#000000",
+   "outline_width": 3,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
