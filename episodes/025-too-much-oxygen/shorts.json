@@ -1,0 +1,54 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s079",
+      "to": "s087",
+      "title": "",
+      "hook": "In 1980, a fossil was announced as the largest spider ever.",
+      "hook_scene_from": "s067",
+      "outro": "Doug never let go of the glass. Where the river took him is in the full video below.",
+      "tease_from": "s088",
+      "tease_asset": "megarachne",
+      "end_card": "WHERE DID THE RIVER TAKE DOUG?",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s223",
+      "to": "s229",
+      "title": "",
+      "outro": "Doug brought it a saddle made out of a fern, because he wanted to ride it. Full video below.",
+      "tease_from": "s253",
+      "tease_asset": "arthropleura",
+      "end_card": "DID DOUG GET HIS RIDE?",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s178",
+      "to": "s186",
+      "title": "",
+      "hook": "Someone found six meters of sea scorpion footprints. On land.",
+      "hook_scene_from": "s176",
+      "outro": "Doug lay down inside its trackway to measure it. It was still walking. Full video below.",
+      "tease_from": "s194",
+      "tease_asset": "hibbertopterus",
+      "end_card": "DID IT WALK OVER DOUG?",
+      "description": ""
+    },
+    {
+      "id": "short04",
+      "from": "s137",
+      "to": "s143",
+      "title": "",
+      "hook": "Meganeura had a seventy-centimeter wingspan and a sky with no birds.",
+      "hook_scene_from": "s122",
+      "outro": "It let go at the top of a scale tree. Doug does not have wings. Full video below.",
+      "tease_from": "s145",
+      "tease_asset": "meganeura",
+      "end_card": "HOW FAR DID DOUG FALL?",
+      "description": ""
+    }
+  ]
+}

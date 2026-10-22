@@ -21,3 +21,26 @@ Read script.md, script_review.md (round 2) and the brief. Decision on the screen
   re-hooks. The oxygen debate is honest and resolved on air.
 
 SCRIPT: APPROVED
+
+## 2026-10-22, director: shotlist (260 shots), shorts, asset requests
+- **Coverage:** all 2,968 spoken words appear once and in order (checked word by word against script.md). Max 31 words a shot; every
+  shot over about 15 words builds with `appear` pop-ins (no static stretch over about 4.6 s at 195 wpm). Doug is in 96% of shots.
+- **HUD:** `DOUG DEATHS: N` at (1590,162) on every shot from s002 (203 to 210), with the DOUG FOR SCALE reading under it as a size-28
+  label at (1600,238) and `tape_measure` at 0.16. Readings: SMALLER THAN A DOT → 40 CM → 54 CM → 55 CM → ABOUT 70 CM (items 5 and 6)
+  → 1.6 M → DOUG-SIZED (s195 onward, held through item 8) → ABOUT 2.6 M → DOUG (closing). Monotonic. Each item's scale shot has a
+  DOUG FOR SCALE panel (vertical 0-3 m tape, `doug_silhouette` = 1.6 m so "1.6 M" is Doug-sized). Item 8 adds only the dashed
+  "2 TO 3 M?" bracket; the solid line stays at 1.6 M; item 9's solid line reaches 2.6 M inside the kept bracket (script deviation 4).
+- **Palette:** one step darker per item on a swamp ramp (sky `#cfd8c0` → `#5f6a50`, ground `#5d6b45` → `#3a3a28`), cream `#f4f1dc`
+  diagram cards, 2026 park `#8fd3ff` / `#7cc25a` at the close. All WordArt on the swamp scenes uses the green-ground override.
+- **Deaths:** 204 soot (on_back dead + soot spray + smoke curl, no burn detail); 205 cap on peat; 206 cap under the upturned glass;
+  207 cap drifting (no body, cut before landing); 208 cap on the log; 209 cap in ripples; 210 on_back dead, played flat (no shake). s030
+  (cap on the fern) and s254 (cap on Arthropleura) show **no body**, because `cap_off` would put a second cap on the ground (art bible
+  "death images without a body"). The script's "cut to black on contact" (208, 209) is a hard cut to the death shot, not a black
+  frame, so keyframes stay reviewable.
+- **Survivals:** 206 and 208 held on the counter at The Beak (s115) and the trackway (s195, `sit` + neutral dot eyes, no X eyes).
+- Brief reuse check: `meganeura`, `arthropleura`, `scale_tree`, `fern`, `tape_measure`, `time_machine` reused; `jaekelopterus` not reused
+  (Megarachne and Hibbertopterus must look distinct). 27 new drawings requested in asset_requests.md.
+- **Shorts:** short01 The Spider s079-s087 (+hook), short02 The Millipede s223-s229, short03 The Sea Scorpion That Walked s178-s186
+  (+hook), short04 The Griffinfly s137-s143 (+hook). All four cut just before Doug's death or survival beat (Doug's-fate loop).
+  Titles and descriptions are left for the titler.
+- Thumbnail (s001 `scene_ref`) is pending from the graphic designer; it is the only non-asset validator item.
