@@ -1,5 +1,5 @@
 {
- "_note": "Variant C (list-format control): 6 big tiles in a 3x2 grid, one Carboniferous giant each with red-capped Doug (scale 0.33) in all six, one-word chapter-name labels (Griffinfly, Spider, Scorpion, Tadpole, Beak, Millipede). No title/alt-title words (deliberately no 'Bugs', 'Giant').",
+ "_note": "Variant C (list-format control, revised per CD 2026-10-22): 6 big tiles in a 3x2 grid, one Carboniferous giant each scaled to ~80% of tile width; red-capped Doug only in the Millipede tile (scale 0.2) as the human for scale; Beak tile lime instead of lavender. One-word chapter-name labels (Griffinfly, Spider, Scorpion, Tadpole, Beak, Millipede). No title/alt-title words.",
  "background": "#ffffff",
  "size": [
   1280,
@@ -20,21 +20,11 @@
     {
      "type": "asset",
      "name": "meganeura",
-     "x": 187.0,
-     "y": 124.5,
-     "scale": 0.42,
+     "x": 227.0,
+     "y": 109.5,
+     "scale": 0.64,
      "flip": false,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "doug",
-     "x": 382,
-     "y": 197,
-     "scale": 0.33,
-     "pose": "panic1",
-     "expression": "shock",
-     "facing": "left",
+     "rotate": -22,
      "boil": 0,
      "wobble": 0
     }
@@ -69,21 +59,10 @@
     {
      "type": "asset",
      "name": "megarachne_spider_1980",
-     "x": 560.0,
+     "x": 640.0,
      "y": 124.5,
-     "scale": 0.4,
+     "scale": 0.47,
      "flip": false,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "doug",
-     "x": 795,
-     "y": 197,
-     "scale": 0.33,
-     "pose": "cower",
-     "expression": "shock",
-     "facing": "left",
      "boil": 0,
      "wobble": 0
     }
@@ -118,21 +97,10 @@
     {
      "type": "asset",
      "name": "pulmonoscorpius",
-     "x": 1013.0,
-     "y": 184.5,
-     "scale": 0.42,
+     "x": 1053.0,
+     "y": 161.5,
+     "scale": 0.45,
      "flip": false,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "doug",
-     "x": 1208,
-     "y": 197,
-     "scale": 0.33,
-     "pose": "panic1",
-     "expression": "shock",
-     "facing": "left",
      "boil": 0,
      "wobble": 0
     }
@@ -167,21 +135,10 @@
     {
      "type": "asset",
      "name": "crassigyrinus",
-     "x": 97.0,
-     "y": 497.5,
-     "scale": 0.42,
+     "x": 227.0,
+     "y": 467.5,
+     "scale": 0.38,
      "flip": false,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "doug",
-     "x": 382,
-     "y": 540,
-     "scale": 0.33,
-     "pose": "panic1",
-     "expression": "shock",
-     "facing": "left",
      "boil": 0,
      "wobble": 0
     }
@@ -208,7 +165,7 @@
    "y": 355,
    "w": 400,
    "h": 225,
-   "fill": "#c48cff",
+   "fill": "#8fce3c",
    "radius": 18,
    "frame_width": 7,
    "label": "",
@@ -216,21 +173,10 @@
     {
      "type": "asset",
      "name": "mazothairos",
-     "x": 590.0,
-     "y": 467.5,
-     "scale": 0.55,
+     "x": 650.0,
+     "y": 486.5,
+     "scale": 0.59,
      "flip": false,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "doug",
-     "x": 795,
-     "y": 540,
-     "scale": 0.33,
-     "pose": "shrug",
-     "expression": "confused",
-     "facing": "left",
      "boil": 0,
      "wobble": 0
     }
@@ -265,18 +211,18 @@
     {
      "type": "asset",
      "name": "arthropleura",
-     "x": 953.0,
-     "y": 512.5,
-     "scale": 0.5,
+     "x": 1043.0,
+     "y": 437.5,
+     "scale": 0.37,
      "flip": false,
      "boil": 0,
      "wobble": 0
     },
     {
      "type": "doug",
-     "x": 1208,
-     "y": 540,
-     "scale": 0.33,
+     "x": 1193,
+     "y": 550,
+     "scale": 0.2,
      "pose": "panic1",
      "expression": "shock",
      "facing": "left",

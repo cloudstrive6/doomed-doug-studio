@@ -1,19 +1,40 @@
 {
- "_note": "Variant B (Doug in peril): Doug treading water at the surface of a Carboniferous pool, panicking, while Crassigyrinus (The Tadpole From Hell, death 209 'a huge gulp') rises from below with its toothed jaws open, angled up at him. Hot yellow sky over bright pool for contrast. Text GULP (a reaction, not a title word). No gore: cut before contact, as in the script.",
- "background": "#ffd23a",
+ "_note": "Variant B (redo per CD 2026-10-22): Meganeura (The Griffinfly, death 207) seen from above, wings spread across ~78% of the frame width, detailed tier. Doug small below the left wing, arms stretched out sideways, scared face; one wing is far longer than his whole arm span. Flat sky blue with a thin dark swamp-green ground strip (contrasts with A's lime). Text THIS FLEW (not a title word).",
+ "background": "#5cc8ff",
  "size": [
   1280,
   720
  ],
  "elements": [
   {
+   "type": "rect",
+   "x": -10,
+   "y": 665,
+   "w": 1300,
+   "h": 70,
+   "fill": "#2f4a22",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "meganeura",
+   "x": 640,
+   "y": 310,
+   "scale": 1.85,
+   "rotate": -22,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
    "type": "doug",
-   "x": 880,
-   "y": 355,
-   "scale": 0.78,
-   "pose": "panic1",
-   "expression": "shock",
-   "facing": "left",
+   "x": 300,
+   "y": 590,
+   "scale": 0.5,
+   "pose": "float",
+   "expression": "scared",
+   "facing": "right",
    "gear": [
     "sweat"
    ],
@@ -21,46 +42,14 @@
    "wobble": 0
   },
   {
-   "type": "rect",
-   "x": -10,
-   "y": 330,
-   "w": 1300,
-   "h": 400,
-   "fill": "#3a9ad9",
-   "width": 0,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "rect",
-   "x": -10,
-   "y": 326,
-   "w": 1300,
-   "h": 8,
-   "fill": "#000000",
-   "width": 0,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "asset",
-   "name": "crassigyrinus",
-   "x": 110,
-   "y": 1120,
-   "scale": 2.6,
-   "rotate": -38,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
    "type": "text",
-   "text": "GULP",
-   "x": 330,
-   "y": 170,
-   "size": 170,
+   "text": "THIS FLEW",
+   "x": 345,
+   "y": 78,
+   "size": 108,
    "color": "#ffffff",
    "outline": "#000000",
-   "outline_width": 13,
+   "outline_width": 12,
    "font": "Arimo",
    "bold": true,
    "boil": 0,
