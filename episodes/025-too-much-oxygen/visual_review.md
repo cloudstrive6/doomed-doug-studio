@@ -65,3 +65,41 @@ Checked at full size and at feed size (`build/feed168.png`, rebuilt after the th
 - **C (2x3 labelled grid): PASS.** All six labels are legible at 168 px. Doug now appears only in the Millipede tile, which removes the clutter flagged in round 1. Its creatures stay recognisable, and Tadpole is carried by its label. It shows no gore. The rounded font and pastel tiles remain the closest of the three to a kids-show look, but this is acceptable.
 
 None of the variants has a policy risk or misleading claim, and none copies competitor wording or drawings.
+
+## Post-render screen (final.mp4, thumbnails, Shorts), 2026-10-22
+I checked all 32 samples in `build/samples/` against the shots they land in (ffmpeg samples at t = 15 s, 45 s, ... so f_n is (n-1)*30+15 s), all three thumbnails at full size and at 168x94, the four Shorts previews, and frames from each Short (0.5, 3, 15 and 25 s, then six frames across the last 9 s).
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+### Main video
+- I found no black or blank frames, glitches, frozen shots or garbled drawings. The death counter runs 203 to 210 in order, and the size meter steps from "SMALLER THAN A DOT" to "40 CM", "54/55 CM", "ABOUT 70 CM", "1.6 M", "DOUG-SIZED", "ABOUT 2.6 M" and "DOUG" in step with the chapters. Doug is on-model (red cap, white head) and readable in every frame. Chapter headers are spelled correctly and not cropped.
+- Pictures match the narration: f_011 PALAEODICTYOPTERA label (s092), f_018 sea scorpion vs cat vs Doug-for-scale, f_021 Fife map, f_024 "CHECKED: 1" (s196), f_028 split sandstone block, f_030 oxygen curve with PEAK (s242), f_031 millipede vs car, f_032 time booth with the comments CTA (s260).
+- Some frames look empty because their labels pop in later in the shot: f_014 "FINE", f_015 "TODAY: ABOUT 19 CM", f_020 "SMALL OPENINGS", f_023 "WET GILLS", f_030 "NOT ONLY OXYGEN", f_032 "TELL US IN THE COMMENTS". This is expected.
+- No gore or kids-show tone. Death 205 (s087, f_011 area) is a cartoon splash.
+
+Non-blocking (fix only if touched again):
+1. **s123 (director):** the "65 TO 75 CM" label sits on the end of the griffinfly's abdomen (f_015, about x 270-480, y 480-530 at 1080p). Move the label about 80 px down, or right, clear of the body.
+2. **s165 (director/illustrator):** before "SMALL OPENINGS" pops in, the book-gill covering plate reads as a plain brown box with a black slot (f_020). Bring the label in at appear 0.0-0.2, or add a faint outline of the scorpion's body around the plate.
+3. **Size-meter tape icon (art director, carried over):** still unreadably small. Every frame shows a smudge at about x 900, y 160.
+
+### Thumbnails
+These are the same files as the 18:36 re-screen (A/B/C regenerated with the render; no visual change). **A: PASS** (lead). One focal point; "AIR DID THIS?" and Doug's red cap read at 168 px. **B: PASS. C: PASS.** None is misleading, and none repeats a title word against `metadata.json`'s title "When Earth Had So Much Oxygen That Bugs Could Kill Doug".
+
+### Shorts
+- **short01** "The Largest Spider Fossil Ever Found Wasn't a Spider" (45.3 s): pays off its title (museum spider, then "FRESH WATER" sea scorpion with BLADES). The outro leaves Doug in the splash. End card: "WHERE DID THE RIVER TAKE DOUG?", red-outlined eurypterid silhouette with "???" (recognisable: plated body, bladed limbs), and the arrow points down. Unanswered. PASS.
+- **short02** "A Fallen Cliff Revealed a Millipede as Big as a Car" (40.3 s): cliff fall, then sandstone block, then Arthropleura vs car (pays off). End card: "DID DOUG GET HIS RIDE?" with a long, segmented, leg-fringed millipede silhouette. Recognisable at full size, though thin. Unanswered. PASS. Optional (director): scale `tease_asset` arthropleura up about 1.3x so the "???" covers less of the body.
+- **short03** "Six Meters of Sea Scorpion Footprints Were Found on Land" (47.0 s): trackway with "6 M OF FOOTPRINTS", then Hibbertopterus walking out of the water (pays off). End card: "DID IT WALK OVER DOUG?" with a Hibbertopterus silhouette. Unanswered. PASS.
+- **short04** "This Giant Dragonfly Ruled a Sky With No Birds in It" (35.4 s): wingspan vs wheel vs Doug, then "NO BIRDS YET" (pays off). The clip ends at the tree top. End card: "HOW FAR DID DOUG FALL?" with a clear red dragonfly silhouette. Unanswered. PASS. Minor: at 25 s Doug in the scale-tree crown (s143 area) is a few pixels of red among the fronds on a phone; acceptable.
+- In all four, title text is legible, burned-in subtitles are white with a dark outline and readable, the 16:9 art band is not cut at the sides, and the end-card arrow points down to the link.
+
+### Technical notes on the QC exit 1
+`build/qc.json` (written 18:41:37, after `final.mp4` at 18:36:23 and all 32 samples) lists `problems: []`. `cmd_qc` only calls `sys.exit(1)` when `problems` is non-empty, so **this run's qc.json cannot come from a process that exited 1 through the QC checks.** I re-verified every check independently:
+- Duration 964.5 s = 16.1 min (target 15-18, accepted window 12-27): OK.
+- 1920x1080 @ 60/1 fps (config fps 60), video + audio streams: OK.
+- timing.json: real_voice true, wpm_speech 197.6 (185-215 allowed): OK.
+- `thumbnail.png` and `captions.srt` present: OK.
+- Integrated loudness -14.3 LUFS, LRA 2.7 LU (target -14; qc doesn't check loudness): OK.
+- Shorts: all four are 1080x1920 with audio, 35-47 s.
+
+Likely explanations: (a) an earlier `qc` invocation failed (for example, while `final.mp4` was being written, or before the Shorts render freed the disk) and its qc.json was overwritten by this clean re-run; (b) the exit status belonged to a chained step, e.g. `studio gate`, which exits 1 when there is no post-render screener verdict yet (true until this section was appended); or (c) the qc output was piped (`| head`) and the final `print` raised BrokenPipeError after qc.json was written. Re-running `python -m studio qc 025-too-much-oxygen` (no render needed) should exit 0. If it does not, capture stderr.

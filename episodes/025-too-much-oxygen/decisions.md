@@ -78,3 +78,28 @@ Order for the Test & Compare run: A (lead), new B, revised C. The package stage 
 
 THUMBNAILS: A APPROVED · B REJECTED (redo) · C CHANGES REQUESTED
 - 2026-10-22: script 2 rounds (round 1 fact errors + size order), art 3 rounds (4 redraws, 80 layout fixes), thumbnails A approved, B/C redone and re-screened. Risks: title says oxygen causes giant bugs (script hedges); Commentry/Kirkton IPA simplified, unheard; 54 shots >5s rely on pop-ins.
+
+## 2026-10-22: Final package gate (CD)
+Inputs: `build/qc.json` (duration 964.5 s = 16:04, problems: none), `visual_review.md` (VERDICT main PASS, shorts PASS),
+`metadata.json`, `build/thumbnail.png`, `build/chapters.txt`, `build/samples/f_001`-`f_004`, the script opening.
+
+- **Title: kept** "When Earth Had So Much Oxygen That Bugs Could Kill Doug" (55 chars, T12, new family, breaks the Why/How/Would run of 021-024).
+  No alt is clearly stronger: "When Bugs Were Big Enough to Kill Doug" is shorter but drops the oxygen hook that the thumbnail's
+  "AIR DID THIS?" answers; the other three are weaker or longer. Alts stay as Test & Compare material only.
+  Honesty: the oxygen literally kills Doug at 204 (the fire) and bugs kill him at 206-210; the script's boss segment states the
+  oxygen-gigantism link is debated (Cambridge 2021, Snelling et al. 2026). It promises Doug's cartoon premise, not a settled cause. OK.
+- **Thumbnail A: approved as lead.** One focal threat (Arthropleura with Meganeura perched), red cap and 3-word question readable at
+  feed size, no title word repeated, adult-coded, no gore. The question mark is what makes it honest and clickable.
+- **Description: approved.** The first two lines carry the hook (300 Myr, giant bugs, sea scorpion as big as a person, 70 cm griffinfly,
+  Arthropleura) and promise only what the video delivers ("how much of it the oxygen really explains"). Sources, cartoon-death
+  disclaimer and AI-use disclosure are present. `{{CHAPTERS}}` is filled from the real timings at upload.
+- **Chapters: approved.** 0:00 Intro / 0:10 The Oxygen ... 13:24 The Millipede. Every chapter is at least 10 s, and they match the 9 items.
+- **First 60 s: approved.** Item 1 is named in the first two words; the twist ("It isn't." / oxygen feeds fire) lands well inside 45 s;
+  counter 203 and DOUG FOR SCALE are on screen from the first frame; pie chart AIR TODAY to AIR THEN to the fire loop to the bug
+  taxonomy reads cleanly; cupcake death 204 lands at about 1:30, which makes a strong retention spike before chapter 2.
+  Non-blocking notes for future episodes (no re-render): f_002 shows a "?" label box plus a separate red "?" asset before the
+  "ABOUT 27 TO 35%" reveal, so the double question mark is redundant (director: one "?" next time); at 640 px the tape-measure icon
+  beside "SMALLER THAN A DOT" is a smudge (art director: scale it up for future scale-tape devices).
+- Series bible: 025 log row set to final approved; counter already 210 (next episode starts at 210).
+
+FINAL: APPROVED
