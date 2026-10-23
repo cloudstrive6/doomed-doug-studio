@@ -1,151 +1,125 @@
-# 026 Script Review: Why the Deep Sea Turns Animals Into Terrifying Giants (draft 2)
+# 026 Script Review: Why the Deep Sea Turns Animals Into Terrifying Giants (draft 3)
 
-Script screener, 2026-10-23. Inputs: style bible, series bible, brief, script.md (draft 2), facts.md, my draft 1 review, plus the 001, 003 and 023 scripts for repetition.
+Script screener, 2026-10-23. Inputs: style bible, series bible, brief, script.md (draft 3, commit 944761c), facts.md, my draft 2 review, the 311ea70 → 944761c diff, and a grep of every earlier script for repeated gags.
 
-**VERDICT: FAIL**. The facts are now clean, and all five draft 1 fixes are resolved. Two things still block it:
-- **The boss is too long.** The Giant Cell grew from 320 to 371 words because the 001 callback came back as a 56-word, four-sentence paragraph. The brief caps the boss at 320.
-- **The new sea spider death repeats 023.** It reuses 023's breath-hold death almost word for word, and its "blend in" beat comes straight after the bigfin squid's "blend in" beat.
+**VERDICT: PASS**
 
-Both are quick fixes.
+Both draft 2 blocking fixes are resolved, and nothing regressed. The word counts I re-measured match the writer's footer exactly.
 
 | Check | Result |
 |---|---|
-| Facts | **PASS**: 0 errors (17 claims checked on the web this round; the DOI is confirmed) |
+| Facts | **PASS**: 0 errors (10 claims checked on the web this round, plus the changed lines) |
 | Opening / hook | **8 / 10** |
-| Structure & pacing | **6 / 10** (boss over the brief cap) |
-| Voice & humour | **7 / 10** |
+| Structure & pacing | **8 / 10** |
+| Voice & humour | **8 / 10** |
 | TTS readiness | **PASS** |
 | Policy | **PASS**: 0 items |
-| Length | **PASS**: 3,117 spoken words (brief 3,000-3,300), about 15:59 |
+| Length | **PASS**: 3,040 spoken words (brief 3,000-3,300), about 15:35 |
 
-## Draft 1 fixes: status
+## Draft 2 fixes: status
 | # | Fix | Status |
 |---|---|---|
-| 1 | Isopod study year | **Resolved.** The script now says "twenty twenty-six". The facts.md row cites *Cell*, 5 June 2026, the DOI, and CAS and Nautilus. The "please confirm" note is gone. |
-| 2 | False snailfish callback | **Resolved.** "Deeper than that one" is deleted, and the new callback is true: the 8,336 m fish is 001's fish. |
-| 3 | Item 10 repeated 001 | **Resolved.** The item is replaced by the Giant Sea Spider. There is no TMAO, no 8,200 m wall and no Everest line. |
-| 4 | TTS respellings | **Resolved.** Respellings for xenophyophore, foram and arachnid are now in the header. |
-| 5 | Fish-line precision | **Moot.** The lines are gone. |
+| 1 | Giant Cell at 320 words or fewer | **Resolved.** The item is 314 words without the outro (333 with it), against the brief's cap of 320. The callback is now one spoken sentence of 17 words: "The cable passes the depth of the deepest fish ever filmed, the snailfish from Doug's first trip." It is also strictly true now. PRESSURE? is a stage direction only. The *Syringammina* line is cut, and its facts.md row is deleted. The footer counts are updated. |
+| 2 | New sea spider death | **Resolved.** In the new death, Doug puts a stethoscope to a leg and hears digestion, then the spider steps on him. There is no breath-hold and no "blend in". It comes from the gut-in-the-legs and gut-pump facts. The Doug line is 19 words, and the death is cut on the step. The cap leaves on the leg. "It has the legs for it" is gone, so the item has two joke lines plus the Doug beat. The grep found no repeat: 015's stethoscope was a vet-and-breath-mint gag, and in 010 Doug stepped on a snake, not the reverse. |
 
-Draft 1 advisories:
-- **Done:** "little" is gone from the roly-poly line, "baby" is now "juvenile", "sort of" is cut, the recap is out of the outro, and the bigfin squid went from 219 to 241 words.
+Draft 2 advisories:
+- **Done:** "Here's what makes it worse." is now "The catch is that". Greenland Shark is down to 286, inside its 240-290 band. Flesch is 71.45, up from 71.87. Item 1 lost 4 words above the twist, which is now at word 141.
 
-## 1. Facts: PASS (17 checked on the web this round)
-
-| # | Claim | Verdict | Check |
+## 1. Facts: PASS (10 checked on the web this round)
+| # | Claim | Verdict | Source |
 |---|---|---|---|
-| 1 | **DOI 10.1016/j.cell.2026.05.012 is the isopod *Cell* paper** | PASS | doi.org resolves to Elsevier PII S0092867426005714 (a *Cell* PII). The Yeasen literature index lists the same DOI, the title "Deep-sea megafauna co-opts microbial energy metabolism genes to withstand ultra-long starvation", *Cell*, 5 June 2026, Yuan et al. |
-| 2 | "two related giant isopods" | PASS | CAS release 2026-06-25: *B. jamesi* (about 898 m) and *B. doederleini* (about 300 m). |
-| 3 | "a huge stomach and an extremely slow metabolism" | PASS | CAS: the stomach is about two-thirds of the body, with sharply lowered basal metabolic rate. The paper abstract says "distended, food-retentive stomach" and "markedly reduced BMR". |
-| 4 | Sea spider: not a spider, not even an arachnid; its own group | PASS | Wikipedia "Sea spider" (Pycnogonida). |
-| 5 | Most sea spiders are a few millimeters across | PASS | Wikipedia: spans from 1 mm, most at the small end. |
-| 6 | *C. colossea* leg span about 70 cm | PASS | Guinness "Largest sea spider" and Wikipedia. |
-| 7 | Body about 7 cm | PASS | Wikipedia: up to 7 cm including the proboscis and abdomen. "Body" is acceptable. |
-| 8 | About 400 to more than 5,000 m; "most of the world's oceans" | PASS | Wikipedia: 420-5,200 m, all main oceans except the Arctic. 5,000 m sits inside the range, so depth stays monotonic. |
-| 9 | Gut branches and most reproductive organs inside the legs | PASS | Guinness: gonads and parts of the gut are in the legs. ScienceDaily 2017: gut tube "to the end of every leg". |
-| 10 | No gills or lungs; oxygen soaks in through the shell | PASS | ScienceDaily 2017: "take in oxygen directly through their cuticles". |
-| 11 | 2017: the weak heart barely moves blood beyond the middle; the gut pumps in waves | PASS | Woods et al. 2017, *Current Biology*, via ScienceDaily 10 July 2017: "hearts weren't moving any blood beyond the spiders' central portion". The study used 12 species, and the script correctly says "in sea spiders". |
-| 12 | Snailfish at 8,336 m is still the deepest fish filmed ("nobody has filmed a fish any deeper") | PASS | UWA 2023 and NPR. A search found no deeper record through 2026. It is the same fish as 001 line 245, so the callback is true. |
-| 13 | Xenophyophores at 10,641 m, Sirena Deep, July 2011, Scripps with NatGeo engineers | PASS | Scripps release. |
-| 14 | "Nobody had ever recorded them anywhere near that depth" | PASS | Scripps: the previous record was about 7,500 m (New Hebrides Trench). |
-| 15 | Often more than 10 cm, the largest single cells | PASS | Scripps: "often exceed 10 cm", "the largest individual cells in existence". |
-| 16 | 15+ major animal groups, sometimes 100+ animals in one cell, like apartment blocks | PASS | Nautilus (Levin): "more than 15 major animal groups", "more than 100 individual animals", "apartment houses". |
-| 17 | Toba isopod dates (unchanged, rechecked against the facts.md rows) | PASS | SoraNews24, as in draft 1. |
+| 1 | Greenland shark: "one of the slowest fish ever measured for its size, cruising slower than most people walk" (reworded) | PASS | Watanabe et al. 2012, "The slowest fish": 0.34 m/s, the lowest for its size. "For its size" covers the later dwarf-seahorse caveat. |
+| 2 | Snailfish callback: the deepest fish ever filmed, and the cable passes "the depth of" it | PASS | UWA, Smithsonian and NPR: 8,336 m, Izu-Ogasawara. With "depth of", the trench mismatch I noted in draft 2 is gone. |
+| 3 | Sea spider: the weak heart barely moves blood beyond the middle; the gut pumps in the legs (2017) | PASS | Woods et al. 2017, *Current Biology*, via Cosmos: 12 species. The script says "in sea spiders". |
+| 4 | *C. colossea* has a leg span of about 70 cm and a body of about 7 cm | PASS | Guinness and Wikipedia |
+| 5 | Lives from about 400 to more than 5,000 m | PASS | Wikipedia: 420-5,200 m |
+| 6 | Xenophyophores at 10,641 m, Sirena Deep, July 2011, Scripps; often more than 10 cm; "scientists call them the largest single cells" | PASS | Scripps and UCSD. The claim is attributed to scientists, which is fine. |
+| 7 | Toba isopod: January 2009, about 50 g fish, died February 2014, more than five years | PASS | SoraNews24 and Practical Fishkeeping |
+| 8 | Colossal squid: first live footage in March 2025 near the South Sandwich Islands, a juvenile of about 30 cm | PASS | Schmidt Ocean Institute and National Geographic |
+| 9 | Oarfish: 2019 study, more than 300 sightings against more than 200 earthquakes since 1928, one possible match | PASS | Orihara et al. 2019, *BSSA*: 336 sightings, 221 earthquakes |
+| 10 | Bigfin: deepest squid filmed in the Philippine Trench; about 70 ever seen | PASS | Guinness and Smithsonian (6,212 m); MBARI (about 70) |
+| 11 | Supergiant amphipod: 2025, about 200 records from about 3,900 to almost 9,000 m, more than half the oceans, populations connected | PASS | Maroni et al. 2025, *R. Soc. Open Sci.*: 195 records, 3,890-8,931 m, about 59% |
 
-The other unchanged lines were verified in draft 1 and map to sourced rows. The amphipod item only moved position, and its text is unchanged.
-
-Minor, not blocking:
-- The snailfish was filmed in the Izu-Ogasawara Trench, but the cable is heading into the Mariana Trench.
-- "The cable passes the deepest fish ever filmed" reads within the episode's one-cable-many-oceans conceit, as with the Antarctic, Arctic and Kermadec stops.
-- If fix 1 rewrites this sentence anyway, "passes the depth of the deepest fish ever filmed" is strictly true.
+Every other change in the diff is wording only ("hangs", "deliberately", "comfortable, warm chimney"), so no claims changed. The new Doug beat maps to a facts.md row marked as cartoon premise.
 
 ## 2. Opening (8/10) and Script Writer rules 1-14
-
-The opener and item 1 are unchanged.
-
 | Check | Result |
 |---|---|
-| Item 1's name | Spoken word 32 on my recount, which includes "Big.". Draft 1's "27" undercounted the opener, but 32 is still within 35. |
-| Before item 1's name | No greeting, channel name or "in this video". |
-| "Here's the problem." | Word 145 on my count (144 on the writer's). That is exactly at the limit. |
+| Item 1's name | Word 32-33 (within 35) |
+| Before item 1's name | No greeting, channel name or "in this video" |
+| Twist | "Here's the problem." is at word 141, within about 145 |
 
-The scoring rationale is the same as in draft 1.
-
-**Rules violated: none blocking.**
+**Rules violated: none.**
 
 | Rule | Measured |
 |---|---|
-| 1 | 3,117 words |
-| 3 | 11 items, names match the headings |
-| 4 | **Borderline at item 11.** The first beat after "The Giant Cell." is a 56-word fish and pressure paragraph, not a 15-35-word frame for the cell (fix 1). The sea spider has every beat: frame 20 words, "It gets stranger." as the marker, kicker 17, Doug beat 19. |
-| 5 | Monotonic (4,000 → 5,000 → 6,500 → 10,641 m) |
-| 7 | No transitions |
-| 8 | Bicycle wheel analogy |
-| 9 | Average 14.4, max 34, Flesch 71.87 (textstat, cap 72) |
-| 10 | Borderline at the sea spider (see section 4) |
-| 11 | Every new claim is sourced |
+| 1 | 3,040 words |
+| 3 | 11 items |
+| 4 | **Acceptable at item 11.** The first beat after "The Giant Cell." is now the 17-word one-line callback the brief allows, followed by a 32-word frame. |
+| 5 | Monotonic, 250 → 10,641 m |
+| 7 | Clean |
+| 8 | Clean |
+| 9 | Average 14.5, max 34, Flesch 71.45 (cap 72) |
+| 10 | Sea spider now has two jokes plus the Doug beat |
+| 11 | Clean |
 | 12 | Outro 19 words |
-| 13 | Twist markers rotate. "The surprising part is" is used at items 2 and 10, which are not adjacent. |
+| 13 | Markers rotate. "The catch is that" is new, and "It gets stranger." now stands alone. |
 | 14 | Clean |
 
-## 3. Structure & pacing (6/10)
+## 3. Structure & pacing (8/10)
 
-- **The Giant Cell is 371 words without the outro, against the brief's cap of 320.** Section 6 says "the hook (1) and boss (11) up to 320". Draft 1 was exactly 320.
-  - The whole overrun is the new callback paragraph: 56 words in 4 sentences.
-  - The script's own header calls it a "one-sentence 001 callback", and the brief allows 001's snailfish only "as one-line callbacks".
-  - It also holds the boss reveal back by about 17 seconds behind a fish and a clipboard beat that have nothing to do with the cell.
-  - It fits the bible's 300-380 boss band only with 9 words to spare. The brief is the tighter, governing limit. (Fix 1.)
-- **The swap works.** The sea spider adds real weirdness: guts in the legs, a gut doing the heart's job, breathing through the shell. Item 9 now sits cleanly between bigfin (4,000 m) and amphipod (6,500 m). The oxygen reason after a creature that breathes through its skin is a good handoff.
-- **Running gags:**
-  - Counter 210 to 218, with eight deaths in order.
-  - Three "Doug is fine." lines.
+Word counts per item:
+
+| Item | Words |
+|---|---|
+| Opener | 31 |
+| Giant Oarfish | 267 |
+| Japanese Spider Crab | 273 |
+| Giant Phantom Jelly | 255 |
+| Giant Isopod | 288 |
+| Colossal Squid | 283 |
+| Greenland Shark | 286 |
+| Giant Tube Worm | 260 |
+| Bigfin Squid | 240 |
+| Giant Sea Spider | 262 |
+| Supergiant Amphipod | 262 |
+| The Giant Cell | 314 + outro 19 |
+
+- **The boss is inside both the brief cap (320) and the bible band (300-380).** The reveal is no longer held back.
+- **Escalation and gags hold:**
+  - Depth bands: Big. / Bigger. / Too deep.
+  - The counter goes from 210 to 218, with eight deaths in order.
+  - There are three "Doug is fine." lines.
   - The cap appears in every item.
-  - The LIVE-feed ending follows the bible.
-- **Advisory, carried over: still over the bible bands.** Greenland Shark is 297 (item 6 band 240-290), Isopod 287 and Spider Crab 273 (items 2-4 band 230-270). All are inside the brief's 260-290 average except the shark.
+  - The clipboard reasons build up as before.
+  - The ending is the LIVE feed per the bible.
+- **Advisory, carried over:**
+  - Isopod (288) and Spider Crab (273) are over the bible's 230-270 band for items 2-4.
+  - Both are inside the brief's 260-290 average.
 
-## 4. Voice & humour (7/10)
-
-The narrator is consistent and no competitor phrasing was found. Points are lost on these:
-- **Repeated Doug beat (fix 2).**
-  - Sea spider: "[Doug puffs out his cheeks and holds his breath…]" / "He stops breathing and waits for the oxygen to soak in".
-  - This is 023's death 194 again ("[Doug puffs his cheeks and holds his breath. He holds it.…]"), from three episodes ago. It is also the third breath-hold gag on the channel (003 line 95).
-  - "Doug decides to blend in" comes straight after bigfin's "attempting to blend in". That is the same gag type in back-to-back items.
-- **Joke density in the sea spider.** It has three joke lines in about 80 seconds: "don't seem to be attached to much", "the legs are doing everyone's job", "to be fair, it has the legs for it". Rule 10 allows 1 per 60 seconds. Advisory: keep two.
-- **Advisory: escalation phrasing.** "It gets stranger." (item 9) and "Here's what makes it worse." (item 8) come back to back. Bible 3.5 says escalation is structural, not "it gets worse". Consider another marker for one of them.
+## 4. Voice & humour (8/10)
+- The narrator stays consistent, and no competitor phrasing was found.
+- The new death is fresh and specific to the animal.
+- "The spider needs that leg back immediately." is a dry, adult-coded punchline.
+- Minor, not blocking: "Doug has died. Again." appears at deaths 212 and 218. That is fine as a deliberate bookend.
 
 ## 5. TTS readiness: PASS
-- No symbols, digits, abbreviations or parentheses in the spoken text.
-- The new words have respellings: arachnid, xenophyophore, foram.
+- No digits, symbols, abbreviations or parentheses in the spoken text. "8,336 M" appears only in a stage direction.
+- Respellings cover every hard word.
+- "Izu-Ogasawara" stays in the pronunciation list but is no longer spoken. This is harmless.
 
 ## 6. Policy: PASS
-- **Advertiser-friendly:** every death is cut on the moment. The new death is X eyes and a colour change, with no injury detail. No profanity.
-- **Made for kids:** the nursery words are gone. Tone is adult-coded.
-- **Inauthentic or repetitive content:** the original narrative and why-thread are intact, and the 001 overlap is resolved. The 023 gag repeat is a series-freshness issue handled under fix 2. As a side benefit, removing it also drops the only on-screen suffocation beat.
-- **Advice and title promise:** no advice. The title promise is delivered, and the honesty line is present.
+- **Advertiser-friendly:**
+  - The step death is cut on the moment, with X eyes and no crushing description.
+  - There is no on-screen suffocation beat now.
+  - No profanity.
+- **Made for kids:** the tone is adult-coded, and there are no nursery words.
+- **Inauthentic or repetitive content:** the narrative and why-thread are original, and the 001 and 023 overlaps are cleared.
+- **Advice and title promise:** no advice. The honesty line is present, and the title promise is delivered.
 
 ## 7. Length: PASS
-3,117 words, about 15:59. Fix 1 removes about 35-50 words, which leaves about 3,070. That is still inside 3,000-3,300.
+3,040 words, about 15:35, inside 3,000-3,300.
 
----
-
-## Required fixes
-
-1. **Cut the Giant Cell to 320 words or fewer (structure, brief section 6).** Quote: "On the way down, the cable passes the deepest fish ever filmed, the snailfish Doug met on his first trip, and nobody has filmed a fish any deeper. The narrator writes pressure on the clipboard, then crosses it out, because none of the main ideas say it makes animals bigger. Pressure doesn't build giants. It builds limits."
-   - Cut this to **one spoken sentence of 20 words or fewer**, as the brief and the script's own header specify. For example, keep only the fish callback.
-   - Let the PRESSURE? crossing-out happen as a stage direction only, with no narration.
-   - If the pressure point must be spoken, cut the fish line instead.
-   - Then trim the rest of the item to 320 words or fewer without the outro. The likeliest cut is "The biggest kind, about twenty centimeters across, lives much shallower, around a thousand meters down, off Scotland." (18 words). It is sourced but optional.
-   - If you drop it, also delete facts.md row "Biggest kind about 20 cm".
-   - Optional: say "passes the depth of the deepest fish ever filmed" (see the facts note).
-   - Update the word counts in the footer.
-2. **Replace the sea spider's Doug beat (repetition).** Quote: "Doug decides to blend in. He stops breathing and waits for the oxygen to soak in through his skin." and the stage direction "[Doug puffs out his cheeks and holds his breath…He slowly turns blue.]"
-   - Replace it with a death that does not use breath-holding (023 death 194, 003) and does not use "blend in" (bigfin squid, the item before).
-   - It should come from this animal's own facts, for example the legs, the gut-pump or the 70 cm reach.
-   - Keep it at 15-30 words, cut on the moment, and keep the cap walking off on a leg.
-   - While rewriting, drop one of the item's three joke lines (rule 10).
-
-## Advisories (not blocking)
-- Item 1's twist sits at word 144-145. Do not add a single word above it.
-- Flesch is 71.87 against a cap of 72. Re-measure after the edits.
-- Vary one of "Here's what makes it worse." / "It gets stranger." (items 8-9, bible 3.5).
-- Greenland Shark is 297 words, 7 over the bible's item 6 band. Trimming it is optional.
+## Advisories for downstream (not blocking)
+- **Length:** only 40 words above the floor. Do not cut further in direction or edit without re-counting.
+- **Item 1:** do not add words above the twist (word 141).

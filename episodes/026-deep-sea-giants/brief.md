@@ -52,8 +52,8 @@ the biggest thing on the seafloor is one cell.
 director and art director choose). Ends with the ocean-standard **LIVE feed** closing (series bible).
 
 **Episode-only device, proposed: WHY SO BIG?** A crude clipboard in the corner. The narrator's hand adds one handwritten reason at the
-item that demonstrates it: COLD (item 2 or 4), MORE OXYGEN (item 2/3, the one 025 callback), FOOD IS RARE (item 4), LIVE LONGER (item 6),
-BRING YOUR OWN FOOD (item 7), and at item 10 "PRESSURE?" is written and **crossed out** (pressure sets limits, it doesn't make giants).
+item that demonstrates it: COLD (item 2 or 4), FOOD IS RARE (item 4), LIVE LONGER (item 6), BRING YOUR OWN FOOD (item 7), MORE OXYGEN (item 10, the one 025
+callback), and at the top of item 11 "PRESSURE?" is written and **crossed out** (stage direction only) (pressure sets limits, it doesn't make giants).
 Every line is a hypothesis stated as one ("scientists think", "one idea is"), sourced in facts.md. The death counter always stays.
 
 ### Big.
@@ -120,28 +120,34 @@ Every line is a hypothesis stated as one ("scientists think", "one idea is"), so
 - Twist: we've only ever seen it on camera, never held one. Doug beat: it hangs motionless beside him, ignores him entirely.
   "Doug is fine." Narrator: "Nobody knows what it eats. It has decided it isn't Doug."
 
-**9. Supergiant Amphipod** (*Alicella gigantea*; about 6,000-7,000 m, Kermadec Trench, NZ; death 216)
-- Facts: up to about 34 cm when most amphipods are a few millimetres to a couple of centimetres; found at about 4,000-7,000+ m; a 2025
-  study (verify authors, *Royal Society Open Science*) found it across about 59% of the world's ocean and genetically one species. Reason COLD
-  plus MORE OXYGEN (Chapelle & Peck 1999, *Nature*: maximum amphipod size tracks oxygen). **The 025 callback lives here, one line.**
-- Analogy: a shrimp-like scavenger the length of a school ruler (verify 30 cm vs 34 cm).
+**9. Giant Sea Spider** (*Colossendeis colossea*; about 5,000 m; death 216). *Replaced "The Fish Line" in draft 2 (CD-approved
+2026-10-23): that item re-told 001's Hadal Snailfish (same molecule, same limit, same 8,336 m fish) and its Everest line would have
+been the channel's third. Items 9 and 10 swapped order so the depth stays monotonic.*
+- Facts: not a spider or even an arachnid (Pycnogonida); most species are a few millimetres; *C. colossea* leg span about 70 cm on a
+  body about 7 cm (Guinness, SeaLifeBase), about 420-5,200 m; gut branches and gonads run inside the legs; no gills or lungs, oxygen
+  soaks through the cuticle; Woods et al. 2017 (*Current Biology*): the weak heart barely moves blood past the body, the gut pumps it
+  in the legs (12 species: say "in sea spiders").
+- Analogy: a leg span about as wide as a bicycle wheel.
+- Doug beat: Doug puts a stethoscope to a leg to find the heartbeat and hears digestion; the spider sets the leg down on him (cut on
+  the step); the cap leaves on the leg tip. No breath-hold (023), no "blend in" (bigfin, item 8).
+
+**10. Supergiant Amphipod** (*Alicella gigantea*; about 6,500 m, Kermadec Trench, NZ; death 217)
+- Facts: up to about 34 cm when most amphipods are a few millimetres; Jamieson et al. 2013 (Kermadec); Maroni, Niyazi & Jamieson
+  2025 (*R. Soc. Open Sci.*): about 195 records, 3,890-8,931 m, may live across about 59% of the ocean, populations connected. Reason
+  MORE OXYGEN (Chapelle & Peck 1999, *Nature*: maximum amphipod size tracks oxygen), stated as a still-tested idea. **The 025 callback
+  lives here, one line.**
+- Analogy: longer than a school ruler (30 cm vs 34 cm).
 - Doug beat: Doug lowers a sandwich as bait; the swarm arrives. Cut on the cloud; the cap floats up alone. **Never describe eating Doug.**
   001 already did the pollutants-in-amphipods twist; do not repeat it.
-
-**10. The Fish Line** (about 8,200-8,400 m; death 217)
-- Facts: Yancey et al. 2014 (*PNAS*): fish need more of a protective molecule (TMAO) the deeper they go, and around 8,200-8,400 m their
-  bodies would hit a limit; the deepest fish ever filmed was a snailfish at 8,336 m (Izu-Ogasawara Trench, 2022, announced 2023,
-  Jamieson et al.). Below this, no fish has ever been seen. The narrator crosses out "PRESSURE?" on WHY SO BIG?: pressure doesn't build
-  giants, it builds limits.
-- Analogy: stack Mount Everest on the line and its summit would still be under water (8,849 m vs about 8,300 m; check the wording).
-- One callback to 001 (Doug met a hadal snailfish). Doug beat: Doug crosses the line with a "FISH?" sign. "Doug is not a fish. The ocean
-  noticed." Cartoon pancake or "the pressure does the rest, quietly". No body detail.
 
 **11. The Giant Cell** (xenophyophores; Sirena Deep, Mariana Trench, about 10,641 m; the boss; death 218)
 - Facts: single-celled organisms (giant foraminifera) that build fragile shells; some species reach about 10-20 cm (the largest,
   *Syringammina fragilissima*, lives far shallower: say so); 2011 Scripps/NatGeo drop-cameras found xenophyophores at about 10,641 m in
   the Sirena Deep, the deepest ever recorded; they host many smaller animals. Writer: confirm size of the trench specimens.
 - Analogy: one cell as big as your fist (if the trench specimens are smaller, use them and reserve the fist for the record species).
+- Descent (draft 2 swap): one spoken sentence as the cable passes the 8,336 m fish record, the only 001 snailfish callback; "PRESSURE?"
+  is written and crossed out on WHY SO BIG? as a stage direction only (pressure sets limits, it doesn't make giants). No Yancey molecule
+  or limit re-explained, no Everest line.
 - Twist (the payoff of the why-thread): at the very bottom, the giants aren't animals at all. The biggest thing down here is one cell.
 - Doug beat: "hi friend?" to a single cell. Death 218 played flat. **LIVE feed closing:** the ship monitor, red "LIVE" tag, the cap drifts
   down and settles on the xenophyophore, which, per the facts, is home to other things already. One dry kicker (writer's own).
