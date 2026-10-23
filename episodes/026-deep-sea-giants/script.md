@@ -1,12 +1,12 @@
 <!-- axis: depth, the depth at which Doug meets each giant on the winch cable (a value inside that animal's sourced depth range), monotonic from about 250 m to 10,641 m. Three spoken bands: "Big." (items 1-3, under 1,000 m: oarfish 250 m, spider crab 350 m, phantom jelly 990 m), "Bigger." (items 4-7, 1,000-3,000 m: isopod 1,100 m, colossal squid 1,500 m, Greenland shark 2,000 m, tube worm 2,400 m), "Too deep." (items 8-11: bigfin squid 4,000 m, giant sea spider 5,000 m, supergiant amphipod 6,500 m, the giant cell 10,641 m; the cable passes the 8,336 m fish record in a one-sentence 001 callback at the top of item 11). Most extreme last: the deepest xenophyophores ever recorded, Sirena Deep, Mariana Trench. -->
-<!-- Episode 026: Why the Deep Sea Turns Animals Into Terrifying Giants. Draft 2 (2026-10-23, script writer; draft 1 failed screening: isopod study year, false snailfish callback, item 10 repeated 001, TTS respellings). Counter on screen at 210 from the first shot, ends at 218: eight deaths (211-218), three survivals (Giant Oarfish, Giant Isopod, Bigfin Squid), each "Doug is fine.", narrator quietly disappointed at the oarfish and the isopod. "Doug did not agree to this." once, in the opener. Befriending: "roommates?" (item 3), "hi friend?" (items 4 and 11). Deaths: spider crab 211, phantom jelly 212, colossal squid 213, Greenland shark 214, tube worm 215, giant sea spider 216, supergiant amphipod 217, giant cell 218. Callbacks: 001 giant squid (item 5), 025 oxygen (item 10), 001 hadal snailfish (item 11, one sentence: the deepest fish ever filmed, which Doug met on his first trip; no re-explanation of the 001 molecule or limit), one line each. The cap: carried off by the spider crab (2), drifting out of the jelly's arms (3), on a hook (5), frosted on the shark's back (6), drifting off the vent (7), carried off on a sea spider leg (9), floating up from the swarm (10), settling on the giant cell in the LIVE feed (11). WHY SO BIG? clipboard in the corner from item 2: COLD (2), FOOD IS RARE (4), LIVE LONGER (6), BRING YOUR OWN FOOD (7), MORE OXYGEN (10), PRESSURE? written and crossed out at the top of item 11 as the cable passes the fish record. Every reason is spoken as a hypothesis ("one idea is", "scientists think"). The honesty line (not every deep animal is a giant; scientists still argue) is in item 11. -->
+<!-- Episode 026: Why the Deep Sea Turns Animals Into Terrifying Giants. Draft 3 (2026-10-23, script writer; draft 2 failed screening: boss over the 320-word cap, sea spider death repeated 023's breath-hold and bigfin's 'blend in'; draft 1 failed on isopod study year, false snailfish callback, item 10 repeated 001, TTS respellings). Counter on screen at 210 from the first shot, ends at 218: eight deaths (211-218), three survivals (Giant Oarfish, Giant Isopod, Bigfin Squid), each "Doug is fine.", narrator quietly disappointed at the oarfish and the isopod. "Doug did not agree to this." once, in the opener. Befriending: "roommates?" (item 3), "hi friend?" (items 4 and 11). Deaths: spider crab 211, phantom jelly 212, colossal squid 213, Greenland shark 214, tube worm 215, giant sea spider 216 (stethoscope on a leg hears digestion, the spider steps on him; no breath-hold, no blend-in), supergiant amphipod 217, giant cell 218. Callbacks: 001 giant squid (item 5), 025 oxygen (item 10), 001 hadal snailfish (item 11, one 17-word sentence: the cable passes the depth of the deepest fish ever filmed, from Doug's first trip; no re-explanation of the 001 molecule or limit), one line each. The cap: carried off by the spider crab (2), drifting out of the jelly's arms (3), on a hook (5), frosted on the shark's back (6), drifting off the vent (7), carried off on a sea spider leg (9), floating up from the swarm (10), settling on the giant cell in the LIVE feed (11). WHY SO BIG? clipboard in the corner from item 2: COLD (2), FOOD IS RARE (4), LIVE LONGER (6), BRING YOUR OWN FOOD (7), MORE OXYGEN (10), PRESSURE? written and crossed out at the top of item 11 as the cable passes the fish record, as a stage direction only (not narrated). Every reason is spoken as a hypothesis ("one idea is", "scientists think"). The honesty line (not every deep animal is a giant; scientists still argue) is in item 11. -->
 <!-- Deviations from the brief, all fact-driven (sources in facts.md):
 1. Bigfin squid size: MBARI lists a maximum total length of 6.4 m, so the script says "more than six meters", not 8 m. Analogy stays "taller than a giraffe" (giraffes about 5.5 m).
 2. Giant phantom jelly: no strong source says it has no stinging tentacles, so the "It doesn't sting" twist is cut. The script says scientists suspect it tangles prey in its arms (Smithsonian, MBARI) and uses the pelagic brotula as the twist. Analogy: each arm is longer than a tennis court is wide (more than 10 m against 10.97 m); the school bus was dropped (no reliable length source). Depth: Doug meets it at 990 m, the depth of MBARI's 2021 Monterey Bay sighting.
 3. Greenland shark maturity: the paper's figure is "at least 156 plus or minus 22 years" (William & Mary release), so the script says "about a hundred and fifty years or more". Stomach contents of land animals are cut (only anecdotal sources). Historical anchor: the midpoint (392 years before about 2016) lands near the Mayflower's 1620 crossing.
 4. Riftia: length "about two meters" (Smithsonian curator via PBS: "over six feet"), growth "more than eighty-five centimeters of tube a year" (Lutz et al. 1994 via Guinness and later papers).
 5. Item 10 "The Fish Line" replaced by "Giant Sea Spider" (Colossendeis colossea, 5,000 m) after the screener found it re-told 001's Hadal Snailfish; the fish record survives only as a one-sentence callback in item 11, and the Everest scale line is cut (it would have been the channel's third use). Items 9 and 10 swap order to keep depth monotonic, so the oxygen reason now follows the sea spider.
-6. Giant cell size: no measurement of the Sirena Deep specimens was found, so the script gives the group's size ("often more than ten centimeters", Scripps) and puts the record species, about twenty centimeters, much shallower (Syringammina fragilissima, Rockall Trough, about 600-1,300 m).
+6. Giant cell size: no measurement of the Sirena Deep specimens was found, so the script gives the group's size ("often more than ten centimeters", Scripps). The shallower record-species line was cut in draft 3 for the boss word cap.
 7. Colossal squid: adults are said to live "deeper than a thousand meters" (Te Papa), not "2,000 m or more". Mass 495 kg; analogy a concert grand piano (about 480 kg). -->
 <!-- Pronunciation for the editor: oarfish = "OR-fish"; isopod = "EYE-so-pod"; Toba = "TOE-bah"; Greenland = "GREEN-lund"; amphipod = "AM-fih-pod"; Kermadec = "ker-MAD-ek"; xenophyophore = "ZEE-no-FY-oh-for"; foram = "FOR-um"; arachnid = "uh-RAK-nid"; Sirena = "sih-RAY-nuh"; Izu-Ogasawara = "EE-zoo oh-gah-sah-WAH-rah"; Galapagos = "guh-LAH-puh-gohs"; Te Papa = "teh PAH-pah"; Ross Sea = "ROSS sea"; South Sandwich = "south SAND-wich". -->
 
@@ -22,9 +22,9 @@ Giant Oarfish.
 
 [CABLE OUT: 250 M. Blue fading to navy. A silver line hangs straight up and down in the water. Doug, hanging from the cable, squints at it.]
 
-At two hundred and fifty meters, most of the sunlight is gone, and something long and silver is hanging in the water, straight up and down, like a dropped ribbon.
+At two hundred and fifty meters, most of the sunlight is gone, and something long and silver hangs in the water, straight up and down, like a dropped ribbon.
 
-This is the giant oarfish, the longest bony fish alive. Measured ones reach about eight meters, about as long as two cars parked end to end. It has a red crest on its head and one red fin running the length of its back, and it moves by rippling that fin while its body stays almost still.
+This is the giant oarfish, the longest bony fish alive. Measured ones reach about eight meters, about as long as two cars end to end. It has a red crest on its head and one red fin running down its back, and it moves by rippling that fin while its body stays almost still.
 
 In Japan, its name is usually translated as messenger from the sea god's palace, and a popular belief says it turns up before earthquakes.
 
@@ -86,7 +86,7 @@ Scientists first collected one in eighteen ninety-nine, and in twenty twenty-one
 
 Its diet is mostly a guess: probably plankton and small fish. Scientists suspect it wraps prey in those long curtains and pulls it up toward its mouth.
 
-The unsettling part is that it isn't always alone. Robot cameras have filmed a small fish called a pelagic brotula living beside it, hovering over the bell and slipping in and out of the arms. Scientists now think the two live together on purpose.
+The unsettling part is that it isn't always alone. Robot cameras have filmed a small fish called a pelagic brotula living beside it, hovering over the bell and slipping in and out of the arms. Scientists now think the two live together deliberately.
 
 [Doug looks at the little fish, then at the curtains. Speech bubble: "roommates?"]
 
@@ -114,7 +114,7 @@ It eats whatever sinks to the bottom, from dead fish and squid to the occasional
 
 That's the next reason on the clipboard. Down here, food mostly arrives as whatever falls from above, and it arrives rarely. One idea is that a bigger body burns less energy for its size and stores more, so it can wait much longer between meals.
 
-Here's the part nobody expected. In January two thousand nine, a giant isopod at the Toba Aquarium in Japan ate one small fish of about fifty grams. Then it stopped. Its keepers kept offering food for years, and it kept refusing, sometimes nosing at the meal and then leaving it alone. It was found dead in February twenty fourteen, more than five years after its last meal. In twenty twenty-six, scientists studying two related giant isopods found a huge stomach and an extremely slow metabolism, which helps explain the waiting.
+Here's the part nobody expected. In January two thousand nine, a giant isopod at the Toba Aquarium in Japan ate one small fish of about fifty grams, and then it stopped. Its keepers kept offering food for years, and it kept refusing, sometimes nosing at the meal and then leaving it alone. It was found dead in February twenty fourteen, more than five years after its last meal. In twenty twenty-six, scientists studying two related giant isopods found a huge stomach and an extremely slow metabolism, which helps explain the waiting.
 
 [Doug sets a fish on a plate in front of the isopod. Speech bubble: "hi friend?". Calendar pages fly off a wall calendar beside them: 2009, 2010, 2011, 2012, 2013. The isopod does not move.]
 
@@ -130,7 +130,7 @@ Colossal Squid.
 
 [CABLE OUT: 1,500 M. Near-freezing black water in the Southern Ocean. A huge eye opens in the dark, then the rest of the squid.]
 
-At one thousand five hundred meters, in the freezing water around Antarctica, a huge eye opens in the dark. Doug met the giant squid once. This is its heavier cousin.
+At one thousand five hundred meters, in the freezing water around Antarctica, a huge eye opens in the dark. Doug met the giant squid once, and this is its heavier cousin.
 
 The colossal squid is the heaviest invertebrate known. In February two thousand seven, a fishing boat in the Ross Sea hauled one up that weighed about four hundred and ninety-five kilograms. That's about as much as a concert grand piano. The squid is now at Te Papa, the national museum in Wellington, New Zealand, where it's still the most massive invertebrate anyone has ever examined.
 
@@ -166,7 +166,7 @@ That's the next reason. In cold water, some animals grow slowly but keep going f
 
 Here's the uncomfortable part. That age comes with an error bar of plus or minus a hundred and twenty years. So the shark could be under three hundred, or a lot older than four hundred, and nobody knows exactly.
 
-It's also one of the slowest-swimming fish ever measured for its size, cruising at about a third of a meter per second, which is slower than most people walk.
+It's also one of the slowest fish ever measured for its size, cruising slower than most people walk.
 
 [Doug, in the harness, kicks hard and paddles away from the shark. The shark doesn't change speed. Frost spreads over Doug from the cap down. Frosty X eyes. DOUG DEATHS: 214.]
 
@@ -198,7 +198,7 @@ Doug offers lunch to something with no mouth, and it turns out it brought its ow
 
 [Doug leans back against the warm black chimney. A puff of cartoon steam. The cap drifts up and away through the shimmering water. DOUG DEATHS: 215.]
 
-Doug leans on the nice warm rock to wait, and the vent water handles the rest.
+Doug leans on the comfortable, warm chimney to wait, and the vent water handles the rest.
 
 Doug has died. The worms never noticed.
 
@@ -216,7 +216,7 @@ The bigfin squid has a small body and two big fins, and its arms and tentacles s
 
 The biggest one ever estimated from video was more than six meters long in total, which is taller than a giraffe. Adults apparently spend their time hovering just above the seafloor, while the young start life near the surface. It lives down to more than six thousand meters, and one filmed in the Philippine Trench is the deepest squid ever recorded.
 
-Here's what makes it worse. Only about seventy have ever been seen or caught, and the caught ones were damaged youngsters. Scientists have never collected an adult, so everything we know about the grown-up version comes from cameras.
+The catch is that only about seventy have ever been seen or caught, and the caught ones were damaged youngsters. Scientists have never collected an adult, so everything we know about the grown-up version comes from cameras.
 
 [Doug hangs beside it, arms held out at right angles, copying the elbows. The squid does not react. A long hold.]
 
@@ -244,11 +244,11 @@ It has no gills and no lungs, so oxygen simply soaks in through its outer shell.
 
 It's a giant made almost entirely of legs, and the legs are doing everyone's job.
 
-[Doug puffs out his cheeks and holds his breath, arms spread out stiffly like legs. He slowly turns blue. X eyes. DOUG DEATHS: 216. The cap drops onto one long leg, and the spider walks off with it.]
+[Doug kneels beside one long leg with a toy stethoscope pressed to it, frowning. A slow wave ripples down the leg. Doug counts on his fingers. The spider lifts that leg and sets it down on Doug. Cut on the step. X eyes. DOUG DEATHS: 216. The cap is left hooked on the tip of the leg, and the spider walks off with it.]
 
-Doug decides to blend in. He stops breathing and waits for the oxygen to soak in through his skin.
+Doug presses a stethoscope to one leg to find the heartbeat, but what he's really hearing is its digestion.
 
-It doesn't. Doug has died. The sea spider walks off with the cap, and to be fair, it has the legs for it.
+The spider needs that leg back immediately. Doug has died. The sea spider walks off with the cap.
 
 ## Supergiant Amphipod
 
@@ -278,9 +278,9 @@ Doug has died. The sandwich, for the record, also did not make it.
 
 The Giant Cell.
 
-[CABLE OUT spins past 8,336 M. A tiny pale snailfish flicks past the lamp, going the other way. The narrator's hand writes "PRESSURE?" on WHY SO BIG?, then crosses it out with one red line.]
+[CABLE OUT spins past 8,336 M. A tiny pale snailfish flicks past the lamp, going the other way. Silently, while the line is spoken, the narrator's hand writes "PRESSURE?" on WHY SO BIG?, then crosses it out with one red line. Not narrated.]
 
-On the way down, the cable passes the deepest fish ever filmed, the snailfish Doug met on his first trip, and nobody has filmed a fish any deeper. The narrator writes pressure on the clipboard, then crosses it out, because none of the main ideas say it makes animals bigger. Pressure doesn't build giants. It builds limits.
+The cable passes the depth of the deepest fish ever filmed, the snailfish from Doug's first trip.
 
 [CABLE OUT: 10,641 M. The Sirena Deep, Mariana Trench. Near-black water, fine grey mud. A lumpy, fragile, sponge-like object sits on the mud in the lamp, about the size of a fist.]
 
@@ -288,7 +288,7 @@ At ten thousand six hundred and forty-one meters, in the Sirena Deep of the Mari
 
 It isn't a sponge. It isn't even an animal. It's a xenophyophore, and it's one single cell.
 
-It's a giant kind of foram, a group of single-celled organisms that build shells, and this one builds its fragile outer shell by gluing together grains of seafloor mud. A single one often grows more than ten centimeters across, about the size of a fist, and scientists call them the largest single cells in existence. The biggest kind, about twenty centimeters across, lives much shallower, around a thousand meters down, off Scotland.
+It's a giant kind of foram, a group of single-celled organisms that build shells, and this one builds its fragile outer shell by gluing together grains of seafloor mud. A single one often grows more than ten centimeters across, about the size of a fist, and scientists call them the largest single cells in existence.
 
 [Inset: a map of the Pacific with the Mariana Trench highlighted, a dotted line down to "10,641 M".]
 
@@ -314,4 +314,4 @@ Up on the ship, the live feed shows the cap sinking slowly into frame from above
 
 Doug deaths: two hundred and eighteen. Where in the ocean should Doug sink next? Tell us in the comments.
 
-<!-- words: 3117 (spoken narration only: opener, spoken band headers, item names and the 19-word outro included; markdown headings, HTML comments and stage directions excluded; textstat lexicon_count) · est. runtime 15:59 at 195 wpm · draft 2 (2026-10-23) · 11 items · Flesch 71.9 (textstat flesch_reading_ease, spoken text) · average sentence 14.4 words, longest 34 · per item: Giant Oarfish 271; Japanese Spider Crab 273; Giant Phantom Jelly 256; Giant Isopod 287; Colossal Squid 282; Greenland Shark 297; Giant Tube Worm 260; Bigfin Squid 241; Giant Sea Spider 267; Supergiant Amphipod 262; The Giant Cell 390 including the outro (371 without) · opener and item 1 unchanged from draft 1, so the twist marker "Here's the problem" is still at word 144 on the screener's count · tics: actually 1, incredibly 1, however 0, essentially 0 · US spelling throughout -->
+<!-- words: 3040 (spoken narration only: opener, spoken band headers, item names and the 19-word outro included; markdown headings, HTML comments and stage directions excluded; textstat lexicon_count) · est. runtime 15:35 at 195 wpm · draft 3 (2026-10-23) · 11 items · Flesch 71.45 (textstat flesch_reading_ease, spoken text) · average sentence 14.5 words, longest 34 · per item: Giant Oarfish 267; Japanese Spider Crab 273; Giant Phantom Jelly 255; Giant Isopod 288; Colossal Squid 283; Greenland Shark 286; Giant Tube Worm 260; Bigfin Squid 240; Giant Sea Spider 262; Supergiant Amphipod 262; The Giant Cell 333 including the outro (314 without) · opener 31 words; item 1 trimmed by 4 words above the twist, so "Here's the problem" is at word 141 on this count (143 on the screener's draft 2 method) · twist markers: bigfin now 'The catch is that', sea spider keeps 'It gets stranger.' · tics: actually 1, incredibly 1, however 0, essentially 0 · US spelling throughout -->
