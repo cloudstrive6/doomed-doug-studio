@@ -9910,9 +9910,9 @@
      {
       "type": "wordart",
       "text": "LIVE TOGETHER",
-      "x": 640,
+      "x": 660,
       "y": 380,
-      "size": 80,
+      "size": 70,
       "boil": 0,
       "appear": 0.3
      },
@@ -17113,7 +17113,7 @@
       "type": "asset",
       "name": "colossal_squid_hook_arm",
       "x": 1150,
-      "y": 880,
+      "y": 860,
       "scale": 0.5
      },
      {
@@ -18201,12 +18201,8 @@
         592.0
        ]
       ],
-      "color": "#eef6ff",
-      "width": 13,
-      "dash": [
-       22,
-       9
-      ]
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -18297,12 +18293,8 @@
         460.0
        ]
       ],
-      "color": "#eef6ff",
-      "width": 13,
-      "dash": [
-       22,
-       9
-      ]
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -18441,12 +18433,8 @@
         440.0
        ]
       ],
-      "color": "#eef6ff",
-      "width": 13,
-      "dash": [
-       22,
-       9
-      ]
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -18543,12 +18531,8 @@
         440.0
        ]
       ],
-      "color": "#eef6ff",
-      "width": 13,
-      "dash": [
-       22,
-       9
-      ]
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -18700,12 +18684,8 @@
         548.0
        ]
       ],
-      "color": "#eef6ff",
-      "width": 13,
-      "dash": [
-       22,
-       9
-      ]
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -18811,12 +18791,8 @@
         548.0
        ]
       ],
-      "color": "#eef6ff",
-      "width": 13,
-      "dash": [
-       22,
-       9
-      ]
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -19038,6 +19014,21 @@
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        292.0,
+        -30
+       ],
+       [
+        292.0,
+        600.0
+       ]
+      ],
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -19293,12 +19284,8 @@
         548.0
        ]
       ],
-      "color": "#eef6ff",
-      "width": 13,
-      "dash": [
-       22,
-       9
-      ]
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -19420,12 +19407,8 @@
         548.0
        ]
       ],
-      "color": "#eef6ff",
-      "width": 13,
-      "dash": [
-       22,
-       9
-      ]
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -19539,12 +19522,8 @@
         432.0
        ]
       ],
-      "color": "#eef6ff",
-      "width": 13,
-      "dash": [
-       22,
-       9
-      ]
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -19688,6 +19667,21 @@
       "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        157.5,
+        -30
+       ],
+       [
+        157.5,
+        800.0
+       ]
+      ],
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -19945,12 +19939,8 @@
         380.0
        ]
       ],
-      "color": "#eef6ff",
-      "width": 13,
-      "dash": [
-       22,
-       9
-      ]
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -20070,6 +20060,21 @@
         280.0
        ]
       ],
+      "color": "#c9d6e6",
+      "width": 11
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1157.5,
+        -30
+       ],
+       [
+        1157.5,
+        280.0
+       ]
+      ],
       "color": "#c0c6cc",
       "width": 5
      },
@@ -20140,6 +20145,21 @@
       "x": 960,
       "y": 640,
       "scale": 1.7
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        116.0,
+        -30
+       ],
+       [
+        116.0,
+        920.0
+       ]
+      ],
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -20245,12 +20265,8 @@
         460.0
        ]
       ],
-      "color": "#eef6ff",
-      "width": 13,
-      "dash": [
-       22,
-       9
-      ]
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -20435,6 +20451,21 @@
         800.0
        ]
       ],
+      "color": "#c9d6e6",
+      "width": 11
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        157.5,
+        -30
+       ],
+       [
+        157.5,
+        800.0
+       ]
+      ],
       "color": "#c0c6cc",
       "width": 5
      },
@@ -20573,6 +20604,21 @@
       "y": 520,
       "scale": 0.4,
       "appear": 0.75
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        157.5,
+        -30
+       ],
+       [
+        157.5,
+        800.0
+       ]
+      ],
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -20743,6 +20789,21 @@
         400
        ]
       ],
+      "color": "#c9d6e6",
+      "width": 11
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        800,
+        -30
+       ],
+       [
+        915,
+        400
+       ]
+      ],
       "color": "#c0c6cc",
       "width": 5
      },
@@ -20816,6 +20877,21 @@
       "x": 560,
       "y": 720,
       "scale": 0.9
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        900,
+        -30
+       ],
+       [
+        1065,
+        400
+       ]
+      ],
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -20926,12 +21002,8 @@
         440.0
        ]
       ],
-      "color": "#eef6ff",
-      "width": 13,
-      "dash": [
-       22,
-       9
-      ]
+      "color": "#c9d6e6",
+      "width": 11
      },
      {
       "type": "line",
@@ -22178,7 +22250,7 @@
      {
       "type": "wordart",
       "text": "1977",
-      "x": 600,
+      "x": 690,
       "y": 380,
       "size": 120,
       "boil": 0,
@@ -22360,7 +22432,7 @@
      {
       "type": "label",
       "text": "GALAPAGOS",
-      "x": 760,
+      "x": 700,
       "y": 640,
       "size": 40,
       "bold": true,
@@ -28819,7 +28891,7 @@
       "x": 560,
       "y": 600,
       "scale": 0.6,
-      "pose": "hands_hips",
+      "pose": "elbows_out",
       "expression": "smirk",
       "facing": "right"
      },
@@ -28919,7 +28991,7 @@
       "x": 520,
       "y": 820,
       "scale": 0.95,
-      "pose": "hands_hips",
+      "pose": "elbows_out",
       "expression": "flat",
       "facing": "right"
      },
@@ -33391,6 +33463,37 @@
       "scale": 1.0
      },
      {
+      "type": "line",
+      "points": [
+       [
+        758.4,
+        -30
+       ],
+       [
+        758.4,
+        668.0
+       ]
+      ],
+      "color": "#c0c6cc",
+      "width": 5
+     },
+     {
+      "type": "doug",
+      "x": 823,
+      "y": 820,
+      "scale": 0.38,
+      "pose": "float",
+      "expression": "gritted",
+      "facing": "right"
+     },
+     {
+      "type": "asset",
+      "name": "cable_harness",
+      "x": 823,
+      "y": 820,
+      "scale": 0.38
+     },
+     {
       "type": "text",
       "text": "SUPERGIANT AMPHIPOD",
       "x": 960,
@@ -33402,37 +33505,6 @@
       "bold": true,
       "boil": 0.3,
       "max_width": 1500
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        695.4,
-        -30
-       ],
-       [
-        695.4,
-        668.0
-       ]
-      ],
-      "color": "#c0c6cc",
-      "width": 5
-     },
-     {
-      "type": "doug",
-      "x": 760,
-      "y": 820,
-      "scale": 0.38,
-      "pose": "float",
-      "expression": "gritted",
-      "facing": "right"
-     },
-     {
-      "type": "asset",
-      "name": "cable_harness",
-      "x": 760,
-      "y": 820,
-      "scale": 0.38
      },
      {
       "type": "label",

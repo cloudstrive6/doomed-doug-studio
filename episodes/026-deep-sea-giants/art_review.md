@@ -273,3 +273,78 @@ each label 60-80 px up, or sideways onto clear water.
 - Illustrator: nothing.
 - Stage: **do not** move to `art_approved`. Once my re-check passes **and** the visual-screener passes, run
   `python -m studio stage 026-deep-sea-giants art_approved --note "AD+VS pass"`.
+
+---
+
+# Keyframes review, round 2 (art director, 2026-10-23)
+
+Scope: the re-rendered frames for K1-K14 at full size (s023, s024, s028, s055, s056, s126, s127, s161, s177, s184, s185,
+s186, s203-s206, s213, s229, s238, s247, s254, s263, s272, s277, s278), the oarfish run s022-s029, the whole Greenland
+chapter s136-s160 (visual review item 17), the three thumbnails and their `_small` files, and the `FEED_SIZE` change in
+`studio/__main__.py`.
+
+**Verdict: FAIL.** 13 of the 14 K fixes and T1 are verified. Three small shotlist fixes remain (R2-1 to R2-3). All three go to the
+**director**, and all three are one-line edits I have already test-rendered. No new assets are needed.
+
+## Round-1 fixes verified
+- **K1 s229: fixed.** Doug is at x ≈ 300 on his back, and the leftmost leg tip (≈ 590) clears his feet by about 75 px. No line crosses him.
+  The empty `rope_hook` reads as "unclipped".
+- **K2 s127: fixed.** The pale x-ray inset has three hooked pieces whose ends are curled or cropped by the frame. There is no red gash on the
+  belly, and the arrow lands on the inset. **s126: almost fixed.** The jar works, but see R2-1.
+- **K3 s185/s186: fixed.** The rim is now `#8a1a1a` at 2 px, so the filaments read as dark threads, not red drips. The s185 title clears the fins by about 110 px.
+- **K4 s213: fixed.** The tiny spider is on his hand, with a white inset at 0.22, a dotted line, and the arrow on the inset.
+- **K5 s177/s238/s254/s272: fixed.** "BRING YOUR / OWN FOOD" is wrapped, the margins are ≥ 14 px and the fingertips are ≥ 50 px from the glyphs. The smallest glyph is
+  30.6 px (s254, board 0.9). s238 has `hold 0.8`. The clipboard is now a recurring layout in the art bible.
+- **K6 s055/s056: fixed** (twilight `#1b4f86`). **K7 s184: fixed** (`#0b2447`). **K13 s263: fixed** (surface `#3a9ad9` water under
+  the night sky).
+- **K8 s161: fixed.** The title sits at about y 360 and clears the tallest plume by about 30 px. It crosses the left smoker's smoke and Doug's cable, and is still readable.
+- **K9 s023: fixed.** ROBOT SUBMARINE clears Doug's arm and the ROV.
+- **K10 s247: fixed.** HALF THE OCEANS is entirely on black.
+- **K11 s277: fixed.** `cap_taken` with the cap drifting up, and s278 picks it up on the LIVE feed. There is one cap per frame.
+- **K12: fixed.** s024 is now a timeline card (oarfish icon `rotate 90 + flip`, upright with its head right, per R3), and s028 is a punch-in with a thumbs up.
+  The run s022-s029 now breaks twice. Optional: in s024 the cable crosses the dotted timeline at x ≈ 500. Moving Doug to x ≈ 960, below
+  the line, would clean it up. Not blocking.
+- **K14 s203/s206: fixed.** BLEND IN and ISN'T DOUG are on clear water.
+- **T1 thumbnail C: fixed.** All six tiles use one label size, with the Giants dropped consistently. "One Cell" sits left on purpose to keep the
+  duration badge clear, and I accept that. **A** is unchanged: PASS. **B** (re-done for visual item 11): PASS from me. Doug is bigger and
+  central, the cable ends at his harness, the stub is gone and there is no gore. One nit for the graphic designer, not blocking: a short white leg line
+  shows under the lower tentacle at about (1920, 630) at 1280 scale. Hide it under the tentacle or remove it.
+
+## Remaining fixes (director)
+
+**R2-1. s126: the cut end still peeks out under the SPECIMEN label.** A 45 x 10 px red sliver with a straight black cut edge shows
+between the label's bottom (y 880) and the jar floor (about y 890). The bible rule is that no part of a cut end may show. Fix: `colossal_squid_hook_arm` **y 880 → 860**
+(same x and scale). I rendered it: the base is fully behind the label, and the J hook stays inside the jar neck.
+
+**R2-2. Visual review item 17, frosted cable: ruling.** Keep the frost, because the script asks for it ("a thin crust of frost on the cable",
+item 6). But redraw it and make it consistent. The current overlay (`#eef6ff`, width 13, dash [22,9]) is wider than the cable, and every dash
+picks up black end caps, so it reads as a zipper. It also flips on and off from shot to shot (frosted: s136-s141, s145-s147, s150,
+s153, s159; plain: s143, s151, s152, s154, s155, s157, s158). New spec (test-rendered, now in the art bible):
+- Replace the dashed overlay with a **solid sheath drawn before (under) the cable, using the same points**:
+  `{"type": "line", "points": <cable points>, "color": "#c9d6e6", "width": 11}`, then the existing `#c0c6cc` width-5 cable on top.
+  No dash and no spray.
+- Apply it to **every s136-s159 shot that shows the cable**. That means adding it to s143, s151, s152, s154, s155, s157 and s158 (s157/s158 use the
+  same angled points). s142, s144, s148 (the timeline bar itself is not a cable), s149, s156 and s160 have no cable, so leave them alone. It stops at the
+  chapter end (s161, tube worms, plain cable).
+
+**R2-3. s203/s204: hands_hips substitution rejected, use the new pose `elbows_out`.** `hands_hips` gives bent elbows, so the narration
+is technically true, but the gag is that Doug copies the squid. The bigfin's arms go straight out and then drop sharply at the elbow, and
+akimbo arms do not echo that shape. In s203 the hands also disappear behind the harness belt. I have added **`"pose": "elbows_out"`**
+to `studio/doug.py`: upper arms straight out sideways, forearms hanging straight down, the same squared silhouette as the squid. I test-rendered s203 and s204 with
+it (same x/y/scale, harness on). It reads at once as mimicry, and the strop only crosses the back arm (fine, per R4). Change only the
+`pose` field in both shots.
+
+## Engine and tooling
+- `studio/doug.py`: new pose `elbows_out` (`arm_f=(90,-90)`, `arm_b=(-90,90)`, legs as in `hands_hips`). This only adds a pose, so no existing pose
+  or render changes. Documented in `docs/SCENE_SCHEMA.md` and `channel/art_bible.md` (Doug gear section).
+- `studio/__main__.py` `FEED_SIZE = (168, 94)`: **sane, approved.** It matches the 168x94 standard in the style bible (rule 11), the
+  graphic-designer and visual-screener briefs and `produce_episode.md`. No other code reads the `_small` files, so nothing else breaks. 168x94 is
+  16:9 within half a pixel. Note: the `_small` previews are now LANCZOS-downscaled straight from the source image. That is correct for a feed preview.
+- Art bible additions: the clipboard recurring layout (R2 + K5 conditions), the frosted cable spec, and the specimen jar / cut-pieces rule.
+
+## Routing
+- Director: R2-1, R2-2, R2-3. Then re-render `--shots s126,s136,s137,s138,s139,s140,s141,s143,s145,s146,s147,s150,s151,s152,s153,s154,s155,s157,s158,s159,s203,s204`.
+  I re-check only those frames.
+- Graphic designer: the optional thumbnail B leg-line nit.
+- Stage: **do not** move to `art_approved` yet. Once my round-3 check passes **and** the visual-screener passes, run
+  `python -m studio stage 026-deep-sea-giants art_approved --note "AD+VS pass"`.

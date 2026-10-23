@@ -48,6 +48,8 @@ POSES = {
     "shrug":    dict(arm_f=(60, 90), arm_b=(-60, -90), leg_f=(12, 0), leg_b=(-12, 0), lean=0),
     "think":    dict(arm_f=(30, 140), arm_b=(-20, -10), leg_f=(12, 0), leg_b=(-12, 0), lean=0),
     "hands_hips": dict(arm_f=(60, -40), arm_b=(-60, 40), leg_f=(15, 0), leg_b=(-15, 0), lean=0),
+    # elbows out (026, bigfin "blend in"): upper arms straight out sideways, forearms hanging straight down.
+    "elbows_out": dict(arm_f=(90, -90), arm_b=(-90, 90), leg_f=(15, 0), leg_b=(-15, 0), lean=0),
     "walk1":    dict(arm_f=(35, 60), arm_b=(-35, -10), leg_f=(30, 0), leg_b=(-30, -20), lean=4),
     "walk2":    dict(arm_f=(-30, -5), arm_b=(30, 60), leg_f=(-25, -20), leg_b=(25, 0), lean=4),
     "run1":     dict(arm_f=(70, 80), arm_b=(-60, -20), leg_f=(70, 0), leg_b=(-50, -110), lean=15),

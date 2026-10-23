@@ -303,6 +303,17 @@ lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008
   read). Anchor bottom-centre on the ground; flat roof top at y=-640 (props on the roof go at ground - 640 x scale).
   Doug inside: draw Doug after the booth at the booth's x, feet at ground-8, Doug scale = 0.75 x booth scale.
   Keep wordart and labels off the open door (x +180..+330 x scale).
+- **Episode clipboard / running list** (`why_clipboard`, from 026 WHY SO BIG?): may exceed the 8-word label cap as an episode device.
+  One new line per shot in red `#c0181b`, older lines dark grey `#2b2b2b`; title black. Line spacing 52 x scale; wrap any line
+  that would leave under 14 px of white margin on either side ("BRING YOUR / OWN FOOD"). Glyphs never under 26 px at 1080p
+  (board scale ≥ 0.9). No other label or wordart on screen with it. `narrator_hand` fingertips stay ≥ 20 px from every glyph
+  (enter at the board's right rim or below the last line). Any clipboard shot with under 2.5 s of narration gets `hold` ≥ 0.8.
+- **Frosted cable (from 026 Greenland chapter)**: a solid pale sheath *under* the normal cable, same points:
+  `{"type": "line", "color": "#c9d6e6", "width": 11}` then the usual `#c0c6cc` width-5 cable on top. No dash (dashes pick up
+  black end-caps and read as a zipper or ladder). Once the script frosts the cable, every shot in that stretch that shows the
+  cable gets the sheath, angled cables included, until the script thaws it or the chapter ends.
+- **Specimen jars and cut pieces (from 026)**: any severed-looking end (arm piece, tentacle, fin) is hidden behind the jar label,
+  the jar rim, a frame edge or another piece. Not even a sliver of the flat cut may show.
 
 ## Doug gear (art director only)
 `scuba`, `mask`, `tank`, `helmet`, `sweat`, `sunburn` (003): head fill `#ff8a7a`, crescent `#e0665a` (same shape),
@@ -312,6 +323,10 @@ halo, and a halo on a living Doug muddles the death grammar (012 cave shots). Ha
 `bandage` (022): a short white `#ffffff` ankle wrap of 3 slanted turns with a thin grey `#8a8a8a` outline, on the **front leg** just
 above the foot; it follows the leg in every pose (walk loop, run, sit, `on_back`) and stays white with grey line on night scenes.
 Survival marker for a bite he walked away from: never red, never a wound.
+`cap_taken` (026): see "One cap per frame".
+Pose `elbows_out` (026): upper arms straight out sideways, forearms hanging straight down (a squared "goalpost down"). For
+mimicry gags (copying the bigfin squid's elbowed arms). Works with `cable_harness` (the strop crosses the back arm, which reads
+as behind him). Not with `sit` props or hats.
 
 ## Never
 Realistic gore, blood pools, exposed organs, dismemberment; realistic (non-MS-Paint) art; changing Doug's design;

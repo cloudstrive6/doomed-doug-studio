@@ -107,7 +107,7 @@ Annotation assets in the library: `question_mark`, `exclamation_mark`, `warning_
 **Caption bar:** the renderer automatically draws the current item name (ALL CAPS, comic font, thin white strip,
 top centre) on every frame from the shot with that `chapter` until the next one.
 
-Doug poses: stand, wave, point, arms_up, panic1, panic2, shrug, think, hands_hips, walk1, walk2, run1, run2,
+Doug poses: stand, wave, point, arms_up, panic1, panic2, shrug, think, hands_hips, elbows_out, walk1, walk2, run1, run2,
 swim1, swim2, float, sit, crouch, fall, cower, lie, dive, thumbs_up, sit_thumbs_up (front hand is a small fist with
 the thumb up, held clear of the face). Loop pairs for GIF-like motion: `["walk1","walk2"]`,
 `["run1","run2"]`, `["swim1","swim2"]`, `["panic1","panic2"]`.
