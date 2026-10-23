@@ -150,3 +150,126 @@ arms_up with the harness:
 ## Routing
 - Illustrator: A1 (hook arm), A2 (xenophyophore), A3 (foram shell). The optional notes on #9 and #12 are your call.
 - Director: D1-D5, then render keyframes for my keyframe review.
+
+---
+
+# Keyframes review, round 1 (art director, 2026-10-23)
+
+Scope: all 24 contact sheets (s001-s281 plus the endslate), with full-size checks of s126, s127, s161, s177, s186, s213,
+s229, s238 and s254, and the 3 thumbnails (`build/thumbnail.png`, `_b`, `_c`, plus their `_small` versions).
+
+**Round-1 fixes: all verified.** A1 (the hook arm has a rounded club tip and an open J hook with a gap, seen in s119-s135
+and thumbnail A), A2 (the xenophyophore is reticulate with no face at 2.0 in s257/s258/s275), A3 (the foram has no stick),
+D1 (s010/s020 oarfish upright, head right), D2 (s227 Doug at 700/839, the leg runs through the chest piece, the empty
+`rope_hook` shows he unclipped, and his feet are on the ground in s227 and s228), D3 (one cap per frame in s055/s056),
+D4 (the s054 cable ends on the ring), D5 (every first-reveal silhouette has `glow_r: 0` and a red rim), R1 (the s054 cap
+sits at about x 1805).
+
+**What works.** Doug is on-model in every shot. He auto-inks white on all the dark zones and keeps his red cap, including
+on the ghosts. The two-tier contrast holds everywhere. The zone ramp is correct from s078 on (midnight `#0b2447`, abyss
+`#050a1f`, hadal `#020308`). The counter and the CABLE OUT meter are never touched. Layouts vary well: maps, depth bars,
+the aquarium set, the Te Papa set, close-ups (s117, s118), the split screen (s178), graphs (s144, s241), the recap
+pyramid (s274) and the TV ending (s278-s281). Thumbnails A and B pass.
+
+**Verdict: FAIL.** There are 4 blocking fixes (K1-K4: three gore or "impaled" reads and one invisible subject) and 10
+smaller fixes. They are all shotlist or composition fixes, so they go to the **director**. T1 goes to the graphic
+designer. No new assets are needed.
+
+## Blocking (director)
+
+**K1. s229: Doug looks skewered.** The giant sea spider (1050, 935, x1.1) has 4 left legs that pass straight through
+Doug's head, cap and body (Doug is `on_back` at 760, 888). It reads as impaled (art bible: no lines through Doug).
+Move Doug to **x ≤ 430** (same y and scale) so the leftmost leg tip (about x 590) clears his feet by at least 30 px.
+Or, if the death needs contact, rest one leg tip *on* his chest from above and let no leg cross his head, cap or limbs.
+
+**K2. s126 and s127: the arm piece reads as a severed limb or a wound.**
+- s126: `colossal_squid_hook_arm` lies `rotate: 90` on the floor, and its flat base cut shows at about (1145, 900-940).
+  That is the exact "severed stump" read that A1 removed from the tip. Put the piece inside a specimen jar
+  (`glass_jar`, with the cut end hidden behind the jar's lower rim or label), or crop it so the base runs off-frame or
+  behind the scientist's feet. The cut edge must never show.
+- s127: the dark-red sliver at 0.18 sits on the whale's belly next to the flipper (1050, 700). It reads as a bleeding
+  gash, not as stomach contents. Show the stomach as a cartoon x-ray: fill the ellipse with pale `#f3e6e0` at about 70 %
+  opacity, or use a white inset circle with a black 4 px frame. Put 2-3 arm pieces inside at 0.22 or larger, clear of the
+  flipper, with no cut ends showing (curl them or overlap them). The arrow stays.
+
+**K3. s185 and s186: bigfin silhouette filaments read as red drips.** The 4 px red rim on hair-thin filaments turns
+them into 16 solid red streaks running down to the seabed (s186 full size). That reads as blood running, and it hides the
+"something **pale**" in the narration. Keep the silhouette and rim on the mantle, fins and arms only. Either draw the
+filaments as unsilhouetted thin lines in `#3a3f52` (the same asset at the same x/y/scale, under a silhouetted copy masked
+above y ≈ the elbow line), or drop the rim to `{"color": "#8a1a1a", "px": 2}` for these two shots. Re-render both. In
+s185, also keep the BIGFIN SQUID title clear of the fins: move the squid to y 470 or the title to x 880.
+
+**K4. s213: the "few millimetre" spider is invisible.** At scale 0.04 the spider is a speck on Doug's cap brim, so the
+"A FEW MM" arrow points at the **cap**. Put the tiny spider on Doug's front hand (about 850, 828). Add a white magnifier
+inset circle (r about 150, black 4 px frame) at about (1180, 700), with `giant_sea_spider` at 0.22 inside it and a dotted
+line from the hand to the circle. Point the arrow from the label to the inset. Keep the label where it is.
+
+## Fixes (director)
+
+**K5. Clipboard (R2 conditions) in s177, s238, s254.** "BRING YOUR OWN FOOD" runs edge to edge on the sheet with
+0-2 px margin, and in s238 and s254 the narrator's glove touches the "MORE OXYGEN" / "PRESSURE?" lines. R2 requires the
+hand to stay clear of the text. Fixes:
+- Keep at least **14 px** of white margin on both sides of every line. Wrap "BRING YOUR / OWN FOOD" onto two lines
+  (with line spacing tightened from 60 to about 52 x scale so 6 lines plus the title still fit). Never go below 26 px glyphs.
+- Glove fingertips at least **20 px** from any glyph. Bring the hand in at the board's lower-right corner (below the last
+  line) or hold the board edge at x ≥ the sheet's right edge + 10.
+- s272 (no hand) has the same margin problem, so apply the wrap there too.
+Once this holds, I add the clipboard as a recurring layout in the art bible.
+
+**K6. s055 and s056: zone colour.** These are death beats at **350 m**, but the background is midnight `#0b2447`, so they
+spend the midnight colour before the 1,000 m mark (art bible: items stay on their zone colour, death beats included;
+never borrow a deeper ramp colour). Use twilight `#1b4f86` with the s054 seabed fills (`#5e5a50` / `#4e4a42`).
+
+**K7. s184 "TOO DEEP." card: zone colour.** The meter reads CABLE OUT 3,000 M, but the background is abyss `#050a1f`.
+Like BIG. (s005, twilight) and BIGGER. (s078, midnight), the card takes the colour of its own depth: `#0b2447`. (The
+other fix is to read 4,000 M, but the narration does not support that.)
+
+**K8. s161: title over plumes.** The tallest tube-worm plume (about 1130, 300-400) sits behind the red "TUBE WORM"
+letters, so it is red on red. Move the title up to y 250 or the cluster down/right by about 80 px. The title must clear
+every plume by at least 15 px.
+
+**K9. s023: label over Doug.** ROBOT SUBMARINE (560, 820, size 66) runs through Doug (260, 830, 0.32). Move it to
+**(660, 760)** so it clears his outstretched arm and the ROV.
+
+**K10. s247: WordArt on pale.** HALF THE OCEANS (960, 1000) sits on the map's bottom frame and the pale ice, so lime on
+near-white is unreadable at phone size. Shrink the map to about 0.75 and raise it so its frame ends at least 20 px above
+the glyph tops. The WordArt must sit entirely on black.
+
+**K11. s277: cap continuity.** Doug dies on the mud still wearing his cap, then in s278-s279 the cap sinks into frame
+from above. Give s277 `"gear": ["cap_taken"]` (not `cap_off`, which drops a second cap on the ground) plus a `doug_cap` at about (900, 520), scale 0.45, rotate
+-20, drifting up. Then s278 picks up a cap that is visibly already loose.
+
+**K12. Oarfish run, s022-s029: same composition 8 times.** Doug is left on the cable and the oarfish is vertical right in
+eight shots in a row (and s009-s012 before that). The sign beat (s025-s027) is a fair build-up group, so change only s024
+and s028:
+- s024 ("about fifteen years ago"): a timeline card, 2011 → TODAY, dotted line, small oarfish icon at 2011 (the same
+  device as s128).
+- s028 ("Doug is fine."): a punch-in on Doug at 0.9-1.0 with a thumbs up, oarfish edge in frame, like s117/s118.
+
+**K13 (minor). s263: night water.** The surface water is deep navy, which reads as a deeper zone. Keep the night sky if
+you want it, but make the water the surface colour `#3a9ad9` (art bible: any surface scene uses the surface colour) with
+`#6fc1ee` speckle.
+
+**K14 (minor). Labels over filaments.** "BLEND IN" in s203 and "ISN'T DOUG" in s206 cross the bigfin filaments. Move
+each label 60-80 px up, or sideways onto clear water.
+
+## Thumbnails (graphic designer)
+
+- **A (`thumbnail.png`): PASS.** Archetype C, one word, the eye reads at 168 px, the hook arm has the fixed club tip and
+  open J hook, small scared Doug, dark navy. It is also a clean s001.
+- **B (`thumbnail_b.png`): PASS.** Archetype C, "10 METERS", the jelly reads, Doug's face and cap stay clear of the
+  arms, no gore.
+- **C (`thumbnail_c.png`): FAIL. Fix T1.** The auto-fit labels come out in 2 sizes ("Colossal Squid" and "Greenland Shark"
+  at about 60 % of the others), so the grid looks uneven at 168 px. Use **one label size** for all 6 tiles (the largest
+  size the longest label fits). Rule 10 says labels = chapter names, so use the chapter names where they fit in 4 words or
+  fewer: "Giant Oarfish", "Giant Isopod", "Colossal Squid", "Greenland Shark", "Supergiant Amphipod", "The Giant Cell"
+  (or drop the "Giant"s consistently if the size gets too small, but treat all tiles the same). The dark grid is accepted
+  for this episode under the brief's "thumbnail stays dark" rule.
+
+## Routing
+- Director: K1-K14. Then re-render only the affected shots (`--shots s023,s024,s028,s055,s056,s126,s127,s161,s177,s184,s185,s186,s203,s206,s213,s229,s238,s247,s254,s263,s272,s277`)
+  and I re-check those frames only.
+- Graphic designer: T1 (thumbnail C).
+- Illustrator: nothing.
+- Stage: **do not** move to `art_approved`. Once my re-check passes **and** the visual-screener passes, run
+  `python -m studio stage 026-deep-sea-giants art_approved --note "AD+VS pass"`.

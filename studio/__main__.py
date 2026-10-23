@@ -90,6 +90,9 @@ def render_scene_file(src: Path, out: Path):
     return out
 
 
+FEED_SIZE = (168, 94)  # mobile feed / suggested thumbnail size: every variant must read at this size
+
+
 def cmd_thumbnail(a):
     ep = episode_dir(a.episode)
     out = render_scene_file(ep / "thumbnail.json", ep / "build" / "thumbnail.png")
@@ -97,7 +100,7 @@ def cmd_thumbnail(a):
     im = Image.open(out)
     if im.size != (1280, 720):
         im.resize((1280, 720), Image.NEAREST).save(out)
-    im.resize((320, 180), Image.LANCZOS).save(ep / "build" / "thumbnail_small.png")  # how it looks in the feed
+    im.resize(FEED_SIZE, Image.LANCZOS).save(ep / "build" / "thumbnail_small.png")  # true phone-feed size
     print(out)
     # A/B/C test variants for YouTube Studio's "Test & compare" (the main thumbnail.json is variant A)
     for v in ("b", "c"):
@@ -107,7 +110,7 @@ def cmd_thumbnail(a):
             iv = Image.open(o)
             if iv.size != (1280, 720):
                 iv.resize((1280, 720), Image.NEAREST).save(o)
-            iv.resize((320, 180), Image.LANCZOS).save(ep / "build" / f"thumbnail_{v}_small.png")
+            iv.resize(FEED_SIZE, Image.LANCZOS).save(ep / "build" / f"thumbnail_{v}_small.png")
             print(o)
 
 
