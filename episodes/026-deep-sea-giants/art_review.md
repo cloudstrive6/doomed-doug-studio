@@ -348,3 +348,20 @@ it (same x/y/scale, harness on). It reads at once as mimicry, and the strop only
 - Graphic designer: the optional thumbnail B leg-line nit.
 - Stage: **do not** move to `art_approved` yet. Once my round-3 check passes **and** the visual-screener passes, run
   `python -m studio stage 026-deep-sea-giants art_approved --note "AD+VS pass"`.
+
+---
+
+# Round 3 (art director, 2026-10-23)
+
+**Verdict: PASS**
+
+Scope: re-check of s126, s136-s159, s203, s204, s074, s166, s167 and s231 only (build/keyframes, 1920x1080), plus detail crops.
+
+- **R2-1 s126: fixed.** The arm base is fully behind the SPECIMEN label and no red sliver or cut edge shows. The J hook sits inside the jar neck. Not gory.
+- **R2-2 frosted cable: fixed.** Every on-cable shot from s136 to s159 now has the solid `#c9d6e6` w11 sheath under the `#c0c6cc` w5 cable. That includes s143, s151, s152, s154, s155, s157 and s158, and now s148 too, which does show a cable (my R2 note was wrong about s148). There is no dash and no zipper. In the 1080p crops it reads as one frosted line, and it looks the same in every shot. The small `#eef6ff` puffs in s137 (appear 0.25) and s158 (appear 0.55) are timed frost beats, not the cable overlay, so they are fine. The s159 frost ball is the death gag, also fine.
+- **R2-3 s203/s204: fixed.** `elbows_out` reads at once as copying the bigfin's elbows. Doug is on-model, his hands are clear of the harness belt, and BLEND IN is on clear water.
+- **VS minor 2: fixed.** s074: LIVE TOGETHER now ends about 45 px left of the bell. s166: 1977 sits right of the cable and clear of it. s167: GALAPAGOS is clear of the plumes. s231: the cable now runs through the gap between the G and the I of SUPERGIANT. The text's black outline covers it and every glyph is whole and legible, so this is accepted. Optional: move Doug and the cable to x of about 700 if the shot is touched again.
+- Continuity: the counter stays at 213 and CABLE OUT stays at 2,000 M through the shark chapter. Doug is white-on-dark with the red cap in every frame. The zone colour is midnight `#0b2447` throughout, and s149 uses surface `#3a9ad9`. Layouts vary across the run: hero, thermometer, silhouette, eye-lens diagram, bomb-pulse chart, timeline, ship, clipboard, size lineup and close-up.
+- Note, not blocking: in s152, Doug's feet sit about 55 px above the bottom edge. That is just inside the safe area and works as the scale gag.
+
+Stage: AD round 3 PASS and VS round 2 PASS, so the episode moves to `art_approved`.
