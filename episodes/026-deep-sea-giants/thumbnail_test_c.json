@@ -1,0 +1,348 @@
+{
+ "_note": "Variant C (list-format control, the titler's brief): 6 big tiles in a 3x2 grid on black, white-ringed, tile fills follow the art bible depth ramp top-left to bottom-right (twilight #1b4f86, midnight #0b2447 x3, hadal #020308 x2) so the grid still reads as going down. One giant per tile at the detailed tier; red-capped Doug only in the One Cell tile, hanging on his cable, as the curiosity gap. Labels from the brief, all free of title words (no Giant/Sea/Deep/Big/Doug): Oarfish, Isopod, Colossal Squid, Greenland Shark, Amphipod, One Cell.",
+ "background": "#000000",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 20,
+   "y": 8,
+   "w": 408,
+   "h": 244,
+   "fill": "#ffffff",
+   "radius": 24,
+   "frame_width": 0,
+   "label": "",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 26,
+   "y": 14,
+   "w": 396,
+   "h": 232,
+   "fill": "#1b4f86",
+   "radius": 18,
+   "frame_width": 5,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "giant_oarfish",
+     "x": 180.0,
+     "y": 140.0,
+     "scale": 0.5,
+     "boil": 0,
+     "wobble": 0,
+     "rotate": 75
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Oarfish",
+   "x": 224.0,
+   "y": 296,
+   "size": 80,
+   "font": "ComicNeue-Bold",
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 436,
+   "y": 8,
+   "w": 408,
+   "h": 244,
+   "fill": "#ffffff",
+   "radius": 24,
+   "frame_width": 0,
+   "label": "",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 442,
+   "y": 14,
+   "w": 396,
+   "h": 232,
+   "fill": "#0b2447",
+   "radius": 18,
+   "frame_width": 5,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "giant_isopod",
+     "x": 630.0,
+     "y": 210.0,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Isopod",
+   "x": 640.0,
+   "y": 296,
+   "size": 80,
+   "font": "ComicNeue-Bold",
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 852,
+   "y": 8,
+   "w": 408,
+   "h": 244,
+   "fill": "#ffffff",
+   "radius": 24,
+   "frame_width": 0,
+   "label": "",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 858,
+   "y": 14,
+   "w": 396,
+   "h": 232,
+   "fill": "#0b2447",
+   "radius": 18,
+   "frame_width": 5,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "colossal_squid",
+     "x": 1056.0,
+     "y": 130.0,
+     "scale": 0.43,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Colossal Squid",
+   "x": 1056.0,
+   "y": 296,
+   "size": 58,
+   "font": "ComicNeue-Bold",
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 20,
+   "y": 346,
+   "w": 408,
+   "h": 244,
+   "fill": "#ffffff",
+   "radius": 24,
+   "frame_width": 0,
+   "label": "",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 26,
+   "y": 352,
+   "w": 396,
+   "h": 232,
+   "fill": "#0b2447",
+   "radius": 18,
+   "frame_width": 5,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "greenland_shark",
+     "x": 224.0,
+     "y": 468.0,
+     "scale": 0.44,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Greenland Shark",
+   "x": 224.0,
+   "y": 634,
+   "size": 54,
+   "font": "ComicNeue-Bold",
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 436,
+   "y": 346,
+   "w": 408,
+   "h": 244,
+   "fill": "#ffffff",
+   "radius": 24,
+   "frame_width": 0,
+   "label": "",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 442,
+   "y": 352,
+   "w": 396,
+   "h": 232,
+   "fill": "#020308",
+   "radius": 18,
+   "frame_width": 5,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "supergiant_amphipod",
+     "x": 640.0,
+     "y": 468.0,
+     "scale": 0.72,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Amphipod",
+   "x": 640.0,
+   "y": 634,
+   "size": 80,
+   "font": "ComicNeue-Bold",
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 852,
+   "y": 346,
+   "w": 408,
+   "h": 244,
+   "fill": "#ffffff",
+   "radius": 24,
+   "frame_width": 0,
+   "label": "",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 858,
+   "y": 352,
+   "w": 396,
+   "h": 232,
+   "fill": "#020308",
+   "radius": 18,
+   "frame_width": 5,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "xenophyophore",
+     "x": 1126.0,
+     "y": 573.0,
+     "scale": 0.85,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       925.2,
+       342
+      ],
+      [
+       925.2,
+       412.0
+      ]
+     ],
+     "color": "#c0c6cc",
+     "width": 4,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 966.0,
+     "y": 508.0,
+     "scale": 0.24,
+     "pose": "float",
+     "expression": "shock",
+     "facing": "right",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "cable_harness",
+     "x": 966.0,
+     "y": 508.0,
+     "scale": 0.24,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "One Cell",
+   "x": 1056.0,
+   "y": 634,
+   "size": 80,
+   "font": "ComicNeue-Bold",
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 6,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

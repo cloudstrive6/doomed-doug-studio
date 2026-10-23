@@ -1,0 +1,91 @@
+{
+ "_note": "Variant A (hero close-up, video's opening image): the colossal squid's eye fills the right ~60% of a flat midnight-navy frame (art bible #0b2447; no bright kids'-ocean colours), its swivel-hook tentacle rising from the bottom with the top hook curling at Doug's red cap. Doug small on his winch cable, scared. Text HOOKS (titler's backup word; not a title or alt-title word; the script's swivelling hooks are what kill him, death 213). The eye is a detailed-tier drawing, no face, no smile, no gore.",
+ "background": "#0b2447",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "spray",
+   "x": 640,
+   "y": 360,
+   "r": 800,
+   "color": "#7f95b0",
+   "density": 0.008
+  },
+  {
+   "type": "asset",
+   "name": "giant_squid_eye",
+   "x": 905,
+   "y": 370,
+   "scale": 0.92,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     219.0,
+     -30
+    ],
+    [
+     219.0,
+     370.0
+    ]
+   ],
+   "color": "#c0c6cc",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 300,
+   "y": 560,
+   "scale": 0.48,
+   "pose": "float",
+   "expression": "shock",
+   "facing": "right",
+   "gear": [
+    "sweat"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "cable_harness",
+   "x": 300,
+   "y": 560,
+   "scale": 0.48,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "colossal_squid_hook_arm",
+   "x": 430,
+   "y": 760,
+   "scale": 0.62,
+   "rotate": -6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "HOOKS",
+   "x": 290,
+   "y": 118,
+   "size": 140,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
