@@ -1,0 +1,21 @@
+{
+ "name": "stethoscope_crouch",
+ "description": "Stethoscope as a worn prop for Doug's `crouch` pose, facing right. Anchor = Doug's hips (0,0): list after Doug at the same x/y/scale/flip. Earpieces at both sides of the head (local (-22,-142) and (134,-142)), grey tubes run outside the head outline to a Y under the chin (62,-62), the main tube droops to the front hand (151,-56) holding the silver chest piece. Chest-piece centre = local (172,-48) x scale. Face and cap stay clear.",
+ "anchor": [0, 0],
+ "tags": ["doug", "worn prop", "stethoscope", "crouch", "026"],
+ "elements": [
+  {"type": "curve", "points": [[-22, -138], [-26, -108], [-4, -78], [34, -62], [62, -62]], "width": 9, "color": "#000000"},
+  {"type": "curve", "points": [[-22, -138], [-26, -108], [-4, -78], [34, -62], [62, -62]], "width": 4, "color": "#8f969e"},
+  {"type": "curve", "points": [[134, -138], [132, -108], [104, -80], [78, -66], [62, -62]], "width": 9, "color": "#000000"},
+  {"type": "curve", "points": [[134, -138], [132, -108], [104, -80], [78, -66], [62, -62]], "width": 4, "color": "#8f969e"},
+  {"type": "curve", "points": [[62, -62], [68, -30], [92, -4], [124, -8], [146, -34], [160, -50]], "width": 10, "color": "#000000"},
+  {"type": "curve", "points": [[62, -62], [68, -30], [92, -4], [124, -8], [146, -34], [160, -50]], "width": 5, "color": "#8f969e"},
+  {"type": "circle", "x": 62, "y": -62, "r": 6, "fill": "#c9ced4", "width": 3, "color": "#000000"},
+  {"type": "ellipse", "x": -22, "y": -142, "rx": 7, "ry": 9, "fill": "#3a3d42", "width": 3, "color": "#000000"},
+  {"type": "ellipse", "x": 134, "y": -142, "rx": 7, "ry": 9, "fill": "#3a3d42", "width": 3, "color": "#000000"},
+  {"type": "line", "points": [[150, -54], [162, -50]], "width": 8, "color": "#000000"},
+  {"type": "circle", "x": 172, "y": -48, "r": 16, "fill": "#c9ced4", "width": 4, "color": "#000000"},
+  {"type": "circle", "x": 172, "y": -48, "r": 9, "fill": "#e6e9ec", "width": 2, "color": "#7a8088"},
+  {"type": "spray", "x": 166, "y": -54, "r": 6, "color": "#ffffff", "density": 0.5}
+ ]
+}

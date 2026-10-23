@@ -1,0 +1,354 @@
+{
+ "name": "cable_harness",
+ "description": "Doug's winch-cable harness, worn prop. Anchor = Doug's hips at scale 1; list after Doug with the same x/y/scale (flip when Doug faces left). Grey webbing hip belt (x -46..46, y -12..12) with buckle and two short thigh loops, one orange #e07b00 strop from the back of the belt (-30,-5) curving up-left (clears the head by ~45) to a grey steel shackle ring centred at (-170,-400) r14: the scene draws the cable straight up from the ring. Small yellow lamp clamped on the strop at (-142,-300), pale face pointing right/down. No shoulder straps. Bbox x -200..+50, y -420..+55.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "worn prop",
+  "harness",
+  "cable",
+  "026"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": -22,
+   "y": 30,
+   "rx": 20,
+   "ry": 22,
+   "fill": null,
+   "width": 11,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -22,
+   "y": 30,
+   "rx": 20,
+   "ry": 22,
+   "fill": null,
+   "width": 6,
+   "color": "#8d939a"
+  },
+  {
+   "type": "ellipse",
+   "x": 22,
+   "y": 30,
+   "rx": 20,
+   "ry": 22,
+   "fill": null,
+   "width": 11,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 22,
+   "y": 30,
+   "rx": 20,
+   "ry": 22,
+   "fill": null,
+   "width": 6,
+   "color": "#8d939a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -30,
+     -5
+    ],
+    [
+     -78,
+     -100
+    ],
+    [
+     -116,
+     -200
+    ],
+    [
+     -142,
+     -300
+    ],
+    [
+     -166,
+     -386
+    ]
+   ],
+   "width": 17,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -30,
+     -5
+    ],
+    [
+     -78,
+     -100
+    ],
+    [
+     -116,
+     -200
+    ],
+    [
+     -142,
+     -300
+    ],
+    [
+     -166,
+     -386
+    ]
+   ],
+   "width": 11,
+   "color": "#e07b00"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -33,
+     -12
+    ],
+    [
+     -80,
+     -105
+    ],
+    [
+     -118,
+     -205
+    ],
+    [
+     -144,
+     -305
+    ]
+   ],
+   "width": 2,
+   "color": "#ffb04a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -174,
+     -392
+    ],
+    [
+     -158,
+     -380
+    ],
+    [
+     -152,
+     -366
+    ],
+    [
+     -166,
+     -362
+    ],
+    [
+     -176,
+     -376
+    ]
+   ],
+   "fill": "#e07b00",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     -12
+    ],
+    [
+     44,
+     -12
+    ],
+    [
+     46,
+     12
+    ],
+    [
+     -46,
+     12
+    ]
+   ],
+   "fill": "#8d939a",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     -5
+    ],
+    [
+     40,
+     -5
+    ]
+   ],
+   "width": 2,
+   "color": "#c4c9ce"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     6
+    ],
+    [
+     40,
+     6
+    ]
+   ],
+   "width": 2,
+   "color": "#5f656c"
+  },
+  {
+   "type": "rect",
+   "x": -12,
+   "y": -15,
+   "w": 24,
+   "h": 30,
+   "fill": "#cfd3d8",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -10
+    ],
+    [
+     0,
+     10
+    ]
+   ],
+   "width": 3,
+   "color": "#5f656c"
+  },
+  {
+   "type": "rect",
+   "x": -40,
+   "y": -14,
+   "w": 18,
+   "h": 18,
+   "fill": "#e07b00",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": -170,
+   "y": -400,
+   "r": 14,
+   "fill": null,
+   "width": 11,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -170,
+   "y": -400,
+   "r": 14,
+   "fill": null,
+   "width": 5,
+   "color": "#a9adb3"
+  },
+  {
+   "type": "circle",
+   "x": -174,
+   "y": -406,
+   "r": 3,
+   "fill": "#ffffff",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "group",
+   "x": -142,
+   "y": -300,
+   "rotate": 30,
+   "elements": [
+    {
+     "type": "spray",
+     "x": 44,
+     "y": 6,
+     "r": 30,
+     "color": "#fff7a0",
+     "density": 0.35
+    },
+    {
+     "type": "rect",
+     "x": -10,
+     "y": -12,
+     "w": 20,
+     "h": 24,
+     "fill": "#5f656c",
+     "width": 4
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -4,
+       -16
+      ],
+      [
+       26,
+       -18
+      ],
+      [
+       36,
+       -24
+      ],
+      [
+       36,
+       24
+      ],
+      [
+       26,
+       18
+      ],
+      [
+       -4,
+       16
+      ]
+     ],
+     "fill": "#f2c200",
+     "width": 4
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       2,
+       -10
+      ],
+      [
+       24,
+       -10
+      ]
+     ],
+     "width": 2,
+     "color": "#c99a00"
+    },
+    {
+     "type": "ellipse",
+     "x": 36,
+     "y": 0,
+     "rx": 7,
+     "ry": 22,
+     "fill": "#fff7a0",
+     "width": 4
+    }
+   ]
+  }
+ ]
+}

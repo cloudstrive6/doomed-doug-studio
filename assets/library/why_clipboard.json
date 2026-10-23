@@ -1,0 +1,221 @@
+{
+ "name": "why_clipboard",
+ "description": "WHY SO BIG? episode clipboard: big brown #a0522d board (420x580), silver clip at the top, BLANK flat white sheet x -180..180, y -240..260 for overlaid text (title at y -185, lines at -110..190). Anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "clipboard",
+  "episode device",
+  "026"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -210,
+     -290
+    ],
+    [
+     210,
+     -290
+    ],
+    [
+     212,
+     288
+    ],
+    [
+     -212,
+     290
+    ]
+   ],
+   "fill": "#a0522d",
+   "width": 6
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -206,
+     262
+    ],
+    [
+     208,
+     260
+    ],
+    [
+     208,
+     284
+    ],
+    [
+     -206,
+     286
+    ]
+   ],
+   "fill": "#7a3c20",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     188,
+     -284
+    ],
+    [
+     206,
+     -284
+    ],
+    [
+     208,
+     282
+    ],
+    [
+     190,
+     282
+    ]
+   ],
+   "fill": "#7a3c20",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -196,
+     -272
+    ],
+    [
+     -196,
+     250
+    ]
+   ],
+   "width": 3,
+   "color": "#c46a3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -172,
+     -232
+    ],
+    [
+     190,
+     -232
+    ],
+    [
+     190,
+     270
+    ],
+    [
+     -172,
+     270
+    ]
+   ],
+   "fill": "#6a3218",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -180,
+   "y": -240,
+   "w": 360,
+   "h": 500,
+   "fill": "#ffffff",
+   "width": 4,
+   "wobble": 0.4,
+   "boil": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -310
+    ],
+    [
+     80,
+     -310
+    ],
+    [
+     92,
+     -242
+    ],
+    [
+     -92,
+     -242
+    ]
+   ],
+   "fill": "#c0c6cc",
+   "width": 6
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -46,
+     -330
+    ],
+    [
+     46,
+     -330
+    ],
+    [
+     56,
+     -306
+    ],
+    [
+     -56,
+     -306
+    ]
+   ],
+   "fill": "#a9adb3",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -84,
+     -256
+    ],
+    [
+     84,
+     -256
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -80,
+     -248
+    ],
+    [
+     82,
+     -248
+    ]
+   ],
+   "width": 2,
+   "color": "#7f858c"
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -312,
+   "r": 10,
+   "fill": "#a0522d",
+   "width": 4
+  }
+ ]
+}

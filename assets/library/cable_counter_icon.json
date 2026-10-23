@@ -1,0 +1,350 @@
+{
+ "name": "cable_counter_icon",
+ "description": "CABLE OUT meter icon: a winch drum seen side-on: dark wound cable on a grey drum between two grey flanges, the cable running off the top to the upper right, a red crank handle on the right flange, grey stand. Very thick outline so it reads at 32 px. Anchor centre, about 200x180.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "icon",
+  "meter",
+  "winch",
+  "cable",
+  "026"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     52
+    ],
+    [
+     -50,
+     52
+    ],
+    [
+     -38,
+     86
+    ],
+    [
+     -92,
+     86
+    ]
+   ],
+   "fill": "#5f656c",
+   "width": 8
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     50,
+     52
+    ],
+    [
+     80,
+     52
+    ],
+    [
+     92,
+     86
+    ],
+    [
+     38,
+     86
+    ]
+   ],
+   "fill": "#5f656c",
+   "width": 8
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -44
+    ],
+    [
+     60,
+     -76
+    ],
+    [
+     92,
+     -92
+    ]
+   ],
+   "width": 18,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -44
+    ],
+    [
+     60,
+     -76
+    ],
+    [
+     92,
+     -92
+    ]
+   ],
+   "width": 10,
+   "color": "#2b2b30"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -46,
+   "w": 124,
+   "h": 92,
+   "fill": "#2f3136",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -66,
+     -44
+    ],
+    [
+     -54,
+     44
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7f86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -54,
+     -44
+    ],
+    [
+     -42,
+     44
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7f86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -42,
+     -44
+    ],
+    [
+     -30,
+     44
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7f86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -44
+    ],
+    [
+     -18,
+     44
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7f86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -18,
+     -44
+    ],
+    [
+     -6,
+     44
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7f86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -6,
+     -44
+    ],
+    [
+     6,
+     44
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7f86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     6,
+     -44
+    ],
+    [
+     18,
+     44
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7f86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     18,
+     -44
+    ],
+    [
+     30,
+     44
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7f86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -44
+    ],
+    [
+     42,
+     44
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7f86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     42,
+     -44
+    ],
+    [
+     54,
+     44
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7f86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     54,
+     -44
+    ],
+    [
+     66,
+     44
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7f86"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -46,
+   "w": 124,
+   "h": 92,
+   "fill": null,
+   "width": 9
+  },
+  {
+   "type": "ellipse",
+   "x": -64,
+   "y": 0,
+   "rx": 18,
+   "ry": 70,
+   "fill": "#8d939a",
+   "width": 9
+  },
+  {
+   "type": "ellipse",
+   "x": 64,
+   "y": 0,
+   "rx": 18,
+   "ry": 70,
+   "fill": "#c4c9ce",
+   "width": 9
+  },
+  {
+   "type": "circle",
+   "x": 64,
+   "y": 0,
+   "r": 9,
+   "fill": "#5f656c",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     64,
+     0
+    ],
+    [
+     96,
+     36
+    ]
+   ],
+   "width": 23,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     64,
+     0
+    ],
+    [
+     96,
+     36
+    ]
+   ],
+   "width": 14,
+   "color": "#e0201b"
+  },
+  {
+   "type": "rect",
+   "x": 86,
+   "y": 32,
+   "w": 22,
+   "h": 44,
+   "fill": "#e0201b",
+   "width": 7
+  }
+ ]
+}
