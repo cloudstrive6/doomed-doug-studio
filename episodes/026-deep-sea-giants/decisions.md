@@ -40,3 +40,25 @@ SCRIPT: APPROVED
 - Shorts: short01 colossal squid first live footage (s125-s130, Doug-fate loop), short02 Greenland shark age (s140-s149,
   Doug-fate loop), short03 isopod five-year fast (s094-s104, worse thing later: sea spider), short04 earthquake oarfish
   (s009-s018, worse thing later: the giant cell). Working titles only; titler to refine.
+
+## 2026-10-23, creative director: thumbnail gate (A/B/C, visual screener round 2 PASS)
+Viewed build/thumbnail.png, thumbnail_b.png, thumbnail_c.png at 1280x720 and the *_small.png files at 168x94, next to the
+title "Why the Deep Sea Grows Giants Big Enough to Kill Doug". I read visual_review.md (round 2 PASS) and the three thumbnail JSON notes.
+- **A (HOOKS, colossal squid eye), lead and opening image: I would click.** One huge focal point that still reads as an eye at
+  168x94. Tiny Doug and the hooked arm next to it show the "giant" scale the title promises, and HOOKS adds what the title
+  leaves out (how it kills him). The text shares no word with the title. It is honest: death 213 is the hook (s133-s134) and the
+  script opens on this frame. Dark navy, no face or smile on the creature, cartoon only, so no kid-appeal or gore risk.
+- **B (10 METERS, phantom jelly): I would click.** Doug's scared face and red cap sit in the centre, the arms wrap him, and
+  10 METERS is a sourced claim (arms longer than ten meters). At feed size the jelly reads as a big red mass more than a
+  jellyfish, but Doug in peril plus the number carries it. This is a valid test against A.
+- **C (6-tile grid): an acceptable list control, the weakest of the three.** It is clean and legible, the labels avoid title
+  words, and One Cell works as the curiosity gap. But only the One Cell tile shows Doug, so the other five give no sense of scale,
+  and the isopod and amphipod read as bugs, not giants. Its job is to test the list format, so it does not block.
+- Deviation accepted: the titler's brief asked for an archetype B depth column, but the designer made A a hero close-up and kept
+  the grid as C. That is the better click, and it matches the script's open. Several recent leads have been C heroes (021-025),
+  each with a different creature and text, so I see no repetitive-packaging risk yet. 027 should lead with a grid or depth column.
+- Optional, only if C is re-rendered for another reason: put a tiny Doug for scale beside 2-3 more giants (colossal squid,
+  Greenland shark, isopod), so the grid shows the size the title claims.
+
+PACKAGE (THUMBNAILS): APPROVED
+- 2026-10-23: scripted 3 rounds (isopod year, item10 swap to sea spider, cell length/spider death), art 3 rounds (AD+VS), thumbs approved; added cap_taken + elbows_out to rig. Risks: script near length floor; thumbnail C weaker.

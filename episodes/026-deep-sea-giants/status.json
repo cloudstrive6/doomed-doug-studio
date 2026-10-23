@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-10-23T18:26:31+00:00",
       "note": "AD+VS pass, round 3"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-10-23T18:31:08+00:00",
+      "note": "packaged: art+thumbs approved, narrated, validated"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
