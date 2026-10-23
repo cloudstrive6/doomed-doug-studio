@@ -955,7 +955,8 @@
       "x": 960,
       "y": 470,
       "scale": 0.9,
-      "rotate": 90
+      "rotate": 90,
+      "flip": true
      },
      {
       "type": "line",
@@ -2042,6 +2043,7 @@
       "y": 575,
       "scale": 0.55,
       "rotate": 90,
+      "flip": true,
       "appear": 0.2
      },
      {
@@ -7126,8 +7128,8 @@
         -30
        ],
        [
-        1200,
-        600
+        1224,
+        580
        ]
       ],
       "color": "#c0c6cc",
@@ -7285,7 +7287,10 @@
       "scale": 0.55,
       "pose": "on_back",
       "expression": "dead",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "cap_taken"
+      ]
      },
      {
       "type": "line",
@@ -7430,7 +7435,10 @@
       "scale": 0.5,
       "pose": "on_back",
       "expression": "dead",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "cap_taken"
+      ]
      },
      {
       "type": "asset",
@@ -9387,6 +9395,15 @@
       "x": 1100,
       "y": 330,
       "scale": 0.75
+     },
+     {
+      "type": "spray",
+      "x": 1100,
+      "y": 235,
+      "r": 200,
+      "color": "#1b4f86",
+      "density": 0.45,
+      "appear": 0.5
      },
      {
       "type": "asset",
@@ -32828,16 +32845,38 @@
       "density": 0.05
      },
      {
+      "type": "line",
+      "points": [
+       [
+        380,
+        -30
+       ],
+       [
+        420,
+        560
+       ]
+      ],
+      "color": "#c0c6cc",
+      "width": 5
+     },
+     {
+      "type": "asset",
+      "name": "rope_hook",
+      "x": 420,
+      "y": 560,
+      "scale": 0.6
+     },
+     {
       "type": "asset",
       "name": "giant_sea_spider",
-      "x": 1150,
+      "x": 1320,
       "y": 935,
-      "scale": 1.4
+      "scale": 1.25
      },
      {
       "type": "doug",
       "x": 700,
-      "y": 870,
+      "y": 838.8,
       "scale": 0.6,
       "pose": "crouch",
       "expression": "confused",
@@ -32847,27 +32886,27 @@
       "type": "asset",
       "name": "stethoscope_crouch",
       "x": 700,
-      "y": 870,
+      "y": 838.8,
       "scale": 0.6
      },
      {
       "type": "curve",
       "points": [
        [
-        890,
-        660
+        820,
+        760
        ],
        [
-        920,
-        640
+        845,
+        730
        ],
        [
-        950,
-        680
+        870,
+        745
        ],
        [
-        980,
-        650
+        900,
+        705
        ]
       ],
       "color": "#ffe24a",
@@ -32998,17 +33037,39 @@
       "density": 0.05
      },
      {
+      "type": "line",
+      "points": [
+       [
+        380,
+        -30
+       ],
+       [
+        420,
+        560
+       ]
+      ],
+      "color": "#c0c6cc",
+      "width": 5
+     },
+     {
+      "type": "asset",
+      "name": "rope_hook",
+      "x": 420,
+      "y": 560,
+      "scale": 0.6
+     },
+     {
       "type": "asset",
       "name": "giant_sea_spider",
-      "x": 1150,
+      "x": 1320,
       "y": 935,
-      "scale": 1.4,
+      "scale": 1.25,
       "rotate": -6
      },
      {
       "type": "doug",
       "x": 700,
-      "y": 870,
+      "y": 838.8,
       "scale": 0.6,
       "pose": "cower",
       "expression": "gritted",
@@ -34741,7 +34802,8 @@
       "fill": "#ffffff"
      }
     ]
-   }
+   },
+   "hold": 0.8
   },
   {
    "id": "s239",
@@ -37932,6 +37994,14 @@
       "r": 950,
       "color": "#2c2c30",
       "density": 0.05
+     },
+     {
+      "type": "spray",
+      "x": 1250,
+      "y": 905,
+      "r": 260,
+      "color": "#121620",
+      "density": 0.45
      },
      {
       "type": "asset",

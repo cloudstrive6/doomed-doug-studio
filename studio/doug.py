@@ -12,6 +12,8 @@ Scene usage:
 `pose` / `expression` may be lists; they cycle with the boil variant (GIF-like loop).
 Lying down / death beats: `pose: "on_back"` with no `rotate` (optional gear `cap_off`); see docs/SCENE_SCHEMA.md.
 On any other pose `cap_off` just omits the cap (nothing on the ground): reserved for approved one-off exceptions.
+`cap_taken` omits the cap in every pose, `on_back` included, with nothing on the ground: only when the cap is visibly
+held elsewhere in the same frame (a creature carrying it), so there is exactly one cap on screen.
 """
 from __future__ import annotations
 
@@ -210,7 +212,10 @@ def doug_elements(el: dict, variant: int = 0):
             body.append({"type": "poly", "points": [(hx + fx - 6 * k, hy + fy - 2 * k), (hx + fx + 1 * k, hy + fy - 6 * k),
                                                     (hx + fx + 6 * k, hy + fy + 1 * k), (hx + fx - 1 * k, hy + fy + 5 * k)],
                          "fill": "#ffffff", "width": 2, "color": ink, "boil": 0.3})
-    cap_off = "cap_off" in gear  # flat: cap lies on the ground; upright: simply no cap (approved one-offs only)
+    # cap_off: flat = cap lies on the ground; upright = simply no cap (approved one-offs only).
+    # cap_taken (from 026): no cap in any pose, nothing on the ground, because a creature/prop in frame holds the cap.
+    cap_taken = "cap_taken" in gear
+    cap_off = "cap_off" in gear or cap_taken
     if not cap_off:
         body += _cap(hx, hy)
     if "scuba" in gear or "mask" in gear:
@@ -224,7 +229,7 @@ def doug_elements(el: dict, variant: int = 0):
                                                 (hx - 55, hy - 16)], "fill": "#6ec6ff", "width": 3})
     if flat:  # tilt the whole head (face, cap, gear) so he looks up at the sky; the cap stays a cap
         body = body[:n_body] + _turn(body[n_body:], HEAD_TILT, (hx, hy))
-        if cap_off:
+        if cap_off and not cap_taken:
             body += _cap_on_ground(hx - HEAD_R - 80, ON_BACK_GROUND)
     return body
 

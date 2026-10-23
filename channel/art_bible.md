@@ -168,6 +168,10 @@ Every shot of an item stays on its item colour, death beats included. `#5d8a87` 
   drawn on the ground); head and face unchanged. The cap is his signature, so this is **only for approved one-off
   exceptions logged in the episode's `decisions.md`** (008 close: tiny capless Doug waving while an orca wears the cap; 012 s291-s293:
   Doug preserved mid-wave inside an amber bead, `ink: "#000000"`, with `doug_cap` sitting on the bead top).
+- **One cap per frame / `cap_taken` (from 026)**: when a creature or prop in the shot is holding the cap (crab claw, squid
+  hook, sea-spider leg), the Doug body in that shot must not wear one too. Upright poses use `cap_off` as usual (logged
+  one-off); an `on_back` death body uses `gear: ["cap_taken"]` (no cap on his head, none on the ground). A ghost Doug
+  keeps his cap as always (the ghost cap is death grammar, not a second real cap).
 - **Death images without a body (from 007/012)**: a death beat may show only the cap (canyon, avalanche, glacier), the cap on a prop
   (`rock_lump`), or the cap next to a clue (the ski tips), as long as the cap is in frame and the counter ticks. The **"preserved" variant**
   (012 amber) ticks the counter on a living expression because the frozen pose *is* the death image. It is only for entombment

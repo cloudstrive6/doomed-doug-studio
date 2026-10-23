@@ -136,6 +136,7 @@ freshwater_snail, anglerfish, barreleye_fish, garden_spider, carpenter_ant, crab
   The top hook curls open so `doug_cap` can hang from it at about **(0,-580)**. Anchor bottom-centre, about 240x620.
   Shots: s119, s120, s126-s127 (small, rotated 90), s132-s135 (cap hanging on it).
 - DONE (illustrator): `assets/library/colossal_squid_hook_arm.json`, preview `assets/previews/026-deep-sea-giants-assets-b-squid.png` (white / navy / silhouette+rim / 168px tile), contact sheet `assets/previews/026-deep-sea-giants-assets-b.png`. Top hook spans x -22..40, y -630..-540; its tip dips into the cap at the s132 placement (checked).
+- FIX A1 DONE (illustrator, round 2): tip now tapers from ~90 to 50 wide over the top ~120 units into a rounded club (no straight cut); top hook redrawn as an open J (base ring at (38,-552), crest y -638, sharp barbed tip pointing down at (-20,-589) with a ~35-unit gap to the arm); 3 smaller hooks added on the right edge (y -372/-432/-492), left hooks re-seated on the new edge (top-left one under the cap dropped). Cap hang point (0,-580) and top-hook bbox x -29..53, y -638..-537 unchanged in practice; in s132 the barb tip digs into the cap crown. Previews: `assets/previews/026-assets-fix1.png`, context `assets/previews/026-assets-fix1-context.png` (s132 on #0b2447 at 0.75 with doug_cap 0.4; 1.6x with and without cap).
 
 ### greenland_shark
 - Real look: *Somniosus microcephalus*. Side view facing right: heavy cigar body, grey-brown `#6e6a64` with darker back,
@@ -191,8 +192,10 @@ freshwater_snail, anglerfish, barreleye_fish, garden_spider, carpenter_ant, crab
   few open pores (homes for tenants), flat bottom resting on mud. No face. Anchor bottom-centre, about 260x200
   (y -200..0). Shots: s003, s253 (silhouette), s256-s281 (s257-s275 at 1.6-2.2 close-ups, s278-s281 small on the monitor).
 - DONE (illustrator): `assets/library/xenophyophore.json`, preview `assets/previews/026-deep-sea-giants-amphipod-xeno-foram-dark.png`, contact sheet `assets/previews/026-deep-sea-giants-assets-amphipod-xeno.png`. Bbox x -132..132, y -196..0. Six open pores.
+- FIX A2 DONE (illustrator, round 2): outer outline, bbox and flat base untouched. Pores redistributed so no face: largest moved off-centre to (68,-42), others at (-46,-112), (36,-142), (-86,-58), (-22,-36, vertical oval), (92,-104), all different sizes and heights. Old blob 'cells' replaced by a reticulate net of ~240 thin ridges `#6e675b` (w2, ~20-unit jittered hex cells, faint pale top edge) plus 9 pinhole pores r4-6. Previews: `assets/previews/026-assets-fix1.png`, context `assets/previews/026-assets-fix1-context.png` (s262 at 2.2, and #020308 at 2.0 and 0.5).
 
 ### foram_shell
 - Classic tiny chambered spiral foram shell, cream `#efe6d0`, seen in a microscope view. Anchor centre, about 120x120.
   Shot: s259.
 - DONE (illustrator): `assets/library/foram_shell.json`, preview `assets/previews/026-deep-sea-giants-amphipod-xeno-foram-dark.png`, contact sheet `assets/previews/026-deep-sea-giants-assets-amphipod-xeno.png`. Bbox x -50..51, y -45..44.
+- FIX A3 DONE (illustrator, round 2): brown rod and knob removed; the aperture face is now closed with the black outline, and 4 very thin pale `#f6f0e0` branching pseudopod threads (w2 over a w3 `#c9bd9c` hairline so they show on the pale microscope field) trail from the aperture. Bbox now x -50..66, y -45..78. Previews: `assets/previews/026-assets-fix1.png`, context `assets/previews/026-assets-fix1-context.png` (s259 and 5x close-up).

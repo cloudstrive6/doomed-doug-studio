@@ -89,7 +89,9 @@ with whiskers); 001/002 still use it and render unchanged.
   `y = ground_y - 70 x scale` (scale 0.85: ground minus 60; scale 0.8: ground minus 56).
 - **Cap knocked off**: add `"gear": ["cap_off"]`. The cap lies on the ground beside his head (about
   `x - 370 x scale`), so leave room on that side. On upright poses (`stand`, `wave`, ...) `cap_off` just omits the
-  cap, nothing on the ground (approved one-off exceptions only, see the art bible). Other gear (`mask`, `scuba`, `helmet`, `sunburn`, `sweat`) still works.
+  cap, nothing on the ground (approved one-off exceptions only, see the art bible). `"gear": ["cap_taken"]` (from 026)
+  omits the cap in every pose, `on_back` included, with nothing on the ground: use it only when a creature or prop in the
+  same frame is holding the cap, so exactly one cap is on screen. Other gear (`mask`, `scuba`, `helmet`, `sunburn`, `sweat`) still works.
 - **Ghost**: stays the usual upright `"pose": "float", "ghost": true` above the body. Don't use `on_back` for the ghost.
 - **Worn props** drawn for the old combo (`snorkel_gear`, `ammonite_costume_flat`): keep the asset's
   `"rotate": -90` at Doug's `x`,`y`. The `on_back` joints sit exactly where `lie` + rotate -90 put them, so the props
