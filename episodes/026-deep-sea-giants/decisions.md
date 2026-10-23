@@ -62,3 +62,32 @@ title "Why the Deep Sea Grows Giants Big Enough to Kill Doug". I read visual_rev
 
 PACKAGE (THUMBNAILS): APPROVED
 - 2026-10-23: scripted 3 rounds (isopod year, item10 swap to sea spider, cell length/spider death), art 3 rounds (AD+VS), thumbs approved; added cap_taken + elbows_out to rig. Risks: script near length floor; thumbnail C weaker.
+
+## 2026-10-23, creative director: final package gate
+I read qc.json (exit 0, no problems), visual_review.md (main video PASS; shorts FAIL only on the short04 end card), metadata.json,
+build/chapters.txt and script.md up to item 2. I looked at build/thumbnail.png at full size and at sample frames f_001 to f_003.
+- **Title: kept "Why the Deep Sea Grows Giants Big Enough to Kill Doug".** It is honest: the script answers the "why" as
+  hypotheses, Doug dies to 8 of the 11 giants, and "big enough to kill Doug" keeps it his cartoon premise. It is 53 characters,
+  it keeps its distance from the 773K competitor title, and it matches the 021/024 causal T9 shape. None of the alternates is
+  clearly stronger. "Ocean's Deepest Animals" is longer and blander. "Scientists Still Argue About" and "Scientists Found" drop
+  Doug and the stakes. "Keep Killing Doug All the Way Down" is clunky. No swap.
+- **Thumbnail A (HOOKS, colossal squid eye):** I would click it. The one giant eye beside a tiny scared Doug sells the scale.
+  HOOKS shares no word with the title and is paid off at death 213. It is dark and cartoon, with no gore and no cute creature.
+- **Opening:** the script opens on the thumbnail frame, then the premise and "Doug did not agree to this." The first item,
+  "Giant Oarfish", is named at about word 31, inside the 35-word limit. Its twist (the earthquake legend fails a study of
+  300+ sightings) lands within about 45 s. f_001 to f_003 are clean: the counter reads 210, CABLE OUT 250 M, the
+  EARTHQUAKES map and the ROBOT SUBMARINE pop-in are legible, and Doug is in every frame. Each frame changes the picture,
+  with no stale stretch.
+- **Description and chapters:** the first two lines restate the promise with sourced specifics. "May be nearly 400 years
+  old" is hedged correctly. The comment prompt, sources, cartoon disclaimer and AI-use disclosure are all there, with 3
+  hashtags. In chapters.txt, 0:00 Intro is followed by 11 chapters in ascending order, the first at 0:10, and each name
+  matches an item heading. The playlist is `ocean`, and that is correct.
+- **Policy:** this is not made for kids (adult-coded deadpan, no nursery tone). The deaths are cartoon only. There is no
+  medical or safety advice. Every claim in the description has a source.
+- **Shorts:** this approval covers the main video package only. short04 must not publish until its re-rendered end card
+  passes the visual screener's re-screen of the last 8 s. The minor short01 "???" placement is optional.
+- **For 027 (logged for the brief):** lead with a grid or depth column, not another hero close-up (021-026 were all heroes).
+- Series bible: the episode-log row now carries the final title. The counter was already updated to 218.
+
+- Shorts: short04 end card failed visual screen; director fixed shorts.json (amphipod tease); re-render of shorts requested. Main video PASS, QC exit 0 on re-run.
+FINAL: APPROVED

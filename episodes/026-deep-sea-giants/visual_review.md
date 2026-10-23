@@ -62,3 +62,50 @@ All three fit the title and none is misleading.
 ### Not yet screened
 Post-render checks (`build/samples/`, `build/qc.json`, final.mp4) and the Shorts. Neither exists yet, so they come
 in the next round after render.
+
+## Round 3: post-render (final.mp4, thumbnails, Shorts) (2026-10-23)
+
+VERDICT (main): PASS
+VERDICT (shorts): FAIL
+
+### Main video (build/samples f_001-f_033, build/qc.json)
+- qc.json: 983.75 s, `problems: []`. No black, blank or frozen samples. Every sample has a different composition.
+- Every frame has the item title card, the DOUG DEATHS counter (210 to 217 in order across the samples) and the
+  CABLE OUT tag (250 m to 10,641 m). Nothing is cropped and all text is spelled correctly.
+- Doug is on-model and readable in every sample, including the small cable shots on near-black (f_014, f_023, f_030).
+  The deaths are cartoon only: the floating ghost with the cap knocked off (f_009, f_021) and the cap left over the
+  amphipod swarm (f_029). There is no gore and nothing reads as a kids' show.
+- f_033 end screen: the two dark boxes are the YouTube end-screen element slots, as intended.
+- Thumbnails: A (HOOKS, eye + hooked arm + Doug), B (10 METERS, phantom jelly) and C (6-tile grid) all read at
+  168x94. Each has one focal point, fits the title "Why the Deep Sea Grows Giants Big Enough to Kill Doug" and is not
+  misleading. No change from round 2.
+
+### Shorts (1080x1920; frames at 0.5 s, 3 s, 10 s, mid and the last ~9 s of each)
+- The titles are readable, the subtitles are legible, the @DoomedDoug tag is clear, and the end-card arrow points down
+  every time.
+- short01 (colossal squid, 31.9 s): pays off its title (1925-2025 timeline, then the 30 cm juvenile). The outro tease
+  ("what did the hooks grab first", s132) is not answered. The hooked-arm silhouette is readable. PASS.
+- short02 (Greenland shark, 41.9 s): pays off with "392 YEARS OLD" and the 1620 Mayflower shot. The slow-shark
+  question is open and the shark silhouette is clear. PASS.
+- short03 (giant isopod, 50.3 s): pays off with the 5 YEARS aquarium and FEB 2014 calendar. The stethoscope/leg question
+  is open and the sea-spider leg silhouette is clear. PASS.
+- short04 (oarfish, 46.1 s): pays off with the crossed-out Japan map. **FAIL on the end card.**
+
+### Required fixes (shorts)
+1. **short04 end card** (director: `shorts.json` `tease_from`/`tease_asset`/`outro`/`end_card`). The
+   `xenophyophore` silhouette is a lumpy black blob with a red rim. Without the colour drawing it reads as a rock or a
+   cloud, not a "thing", so the tease is vague. Its large red glow is also cut flat along a hard horizontal edge at
+   about y=1315 (sampled at 44.5 s: the glow is about rgb(84,30,23) at y=1300 and background at y=1318). That looks
+   like a glitch. Re-point the tease at something recognisable that the clip doesn't answer. Recommended:
+   `tease_from: "s251"`, `tease_asset: "supergiant_amphipod"`,
+   outro e.g. "The oarfish only ignored Doug. Six kilometers deeper, he lowered a sandwich as bait. Something answered.
+   Full video below.", `end_card: "WHAT CAME FOR DOUG'S SANDWICH?"`. The shrimp-shaped silhouette reads instantly and
+   is smaller, so the glow fits. If the director wants to keep the giant-cell tease instead, the silhouette must
+   become recognisable (for example the cell outline beside Doug for scale), and the glow must not be clipped. Then
+   re-render short04 only and re-screen its last 8 s.
+
+### Minor, not blocking
+2. short01 end card (director): the "???" sits across the hook arm and covers about half of the hooks. Move the "???"
+   above or to the right of the silhouette if the end-card layout allows it.
+3. short02 at about 10 s (the eye zoom, "2016: 28 SHARKS"): the shark's tail runs off the left edge. This comes from
+   the camera zoom in the source shot and still reads. Leave it unless the shot is touched again.

@@ -29,7 +29,17 @@
       "stage": "packaged",
       "at": "2026-10-23T18:31:08+00:00",
       "note": "packaged: art+thumbs approved, narrated, validated"
+    },
+    {
+      "stage": "built",
+      "at": "2026-10-23T18:44:23+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "qc_passed",
+      "at": "2026-10-23T18:55:30+00:00",
+      "note": "final approved"
     }
   ],
-  "stage": "packaged"
+  "stage": "qc_passed"
 }

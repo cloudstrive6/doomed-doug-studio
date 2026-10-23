@@ -11,7 +11,8 @@
       "tease_from": "s132",
       "tease_asset": "colossal_squid_hook_arm",
       "end_card": "WHAT DID THE HOOKS GRAB FIRST?",
-      "description": ""
+      "description": "",
+      "duration_s": 31.9
     },
     {
       "id": "short02",
@@ -22,7 +23,8 @@
       "tease_from": "s160",
       "tease_asset": "greenland_shark",
       "end_card": "HOW DID A SLOW SHARK GET DOUG?",
-      "description": ""
+      "description": "",
+      "duration_s": 41.9
     },
     {
       "id": "short03",
@@ -35,18 +37,20 @@
       "tease_from": "s227",
       "tease_asset": "giant_sea_spider",
       "end_card": "WHAT DID DOUG HEAR IN ITS LEG?",
-      "description": ""
+      "description": "",
+      "duration_s": 50.3
     },
     {
       "id": "short04",
       "from": "s009",
       "to": "s018",
       "title": "The Earthquake Fish of Japan Predicts Nothing",
-      "outro": "The oarfish only ignored Doug. At ten thousand meters, the biggest thing on the seafloor isn't even an animal. It's linked below.",
-      "tease_from": "s258",
-      "tease_asset": "xenophyophore",
-      "end_card": "WHAT IS THE BIGGEST THING DOWN THERE?",
-      "description": ""
+      "outro": "The oarfish only ignored Doug. Six kilometers deeper, he lowered a sandwich as bait. Something answered. Full video below.",
+      "tease_from": "s251",
+      "tease_asset": "supergiant_amphipod",
+      "end_card": "WHAT CAME FOR DOUG'S SANDWICH?",
+      "description": "",
+      "duration_s": 46.1
     }
   ]
 }
