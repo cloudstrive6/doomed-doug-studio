@@ -2635,7 +2635,7 @@
       "text": "EARTHQUAKE?",
       "x": 707.2,
       "y": 456.4,
-      "size": 30.0,
+      "size": 25.5,
       "color": "#000000",
       "bold": true,
       "boil": 0,
@@ -2745,7 +2745,7 @@
       "text": "EARTHQUAKE?",
       "x": 707.2,
       "y": 456.4,
-      "size": 30.0,
+      "size": 25.5,
       "color": "#000000",
       "bold": true,
       "boil": 0
@@ -2871,14 +2871,14 @@
       "x": 707.2,
       "y": 666.4,
       "scale": 0.75,
-      "rotate": -12
+      "rotate": -6
      },
      {
       "type": "text",
       "text": "EARTHQUAKE?",
-      "x": 707.2,
-      "y": 456.4,
-      "size": 30.0,
+      "x": 685.2490227137928,
+      "y": 457.5504019726626,
+      "size": 25.5,
       "color": "#000000",
       "bold": true,
       "boil": 0
@@ -5255,8 +5255,8 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1470.0,
-      "y": 650.0,
+      "x": 1500.0,
+      "y": 680.0,
       "scale": 0.55,
       "appear": 0.45
      },
@@ -7116,7 +7116,7 @@
      {
       "type": "asset",
       "name": "japanese_spider_crab_cap",
-      "x": 1700,
+      "x": 1680,
       "y": 900,
       "scale": 0.5
      },
@@ -7168,8 +7168,8 @@
      {
       "type": "wordart",
       "text": "TOO FAR",
-      "x": 1000,
-      "y": 480,
+      "x": 760,
+      "y": 580,
       "size": 76,
       "boil": 0,
       "appear": 0.7
@@ -12275,8 +12275,8 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1470.0,
-      "y": 710.0,
+      "x": 1501.48,
+      "y": 740.0,
       "scale": 0.55,
       "appear": 0.3
      },
@@ -19799,8 +19799,8 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1470.0,
-      "y": 770.0,
+      "x": 1500.0,
+      "y": 800.0,
       "scale": 0.55,
       "appear": 0.25
      },
@@ -21921,8 +21921,8 @@
      {
       "type": "wordart",
       "text": "LIPSTICK-RED",
-      "x": 1150,
-      "y": 332,
+      "x": 690,
+      "y": 225,
       "size": 80,
       "boil": 0,
       "appear": 0.15
@@ -23658,11 +23658,19 @@
      },
      {
       "type": "asset",
-      "name": "red_x",
-      "x": 500,
+      "name": "sandwich",
+      "x": 760,
       "y": 440,
-      "scale": 0.6,
-      "appear": 0.7
+      "scale": 0.5,
+      "appear": 0.62
+     },
+     {
+      "type": "asset",
+      "name": "red_x",
+      "x": 760,
+      "y": 440,
+      "scale": 0.45,
+      "appear": 0.75
      },
      {
       "type": "line",
@@ -24293,8 +24301,8 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1470.0,
-      "y": 830.0,
+      "x": 1548.6,
+      "y": 860.0,
       "scale": 0.55,
       "appear": 0.3
      },
@@ -24506,7 +24514,7 @@
       "type": "wordart",
       "text": "ON LOCATION",
       "x": 1440,
-      "y": 400,
+      "y": 332,
       "size": 80,
       "boil": 0,
       "appear": 0.65
@@ -24515,11 +24523,11 @@
       "type": "line",
       "points": [
        [
-        429.0,
+        169.0,
         -30
        ],
        [
-        429.0,
+        169.0,
         480.0
        ]
       ],
@@ -24528,7 +24536,7 @@
      },
      {
       "type": "doug",
-      "x": 480,
+      "x": 220,
       "y": 600,
       "scale": 0.3,
       "pose": "float",
@@ -24538,7 +24546,7 @@
      {
       "type": "asset",
       "name": "cable_harness",
-      "x": 480,
+      "x": 220,
       "y": 600,
       "scale": 0.3
      },
@@ -24861,8 +24869,8 @@
      {
       "type": "wordart",
       "text": "FASTEST GROWTH",
-      "x": 700,
-      "y": 330,
+      "x": 880,
+      "y": 215,
       "size": 80,
       "boil": 0,
       "appear": 0.65
@@ -26239,8 +26247,8 @@
      {
       "type": "wordart",
       "text": "TWO BIG FINS",
-      "x": 1500,
-      "y": 420,
+      "x": 1530,
+      "y": 480,
       "size": 76,
       "boil": 0,
       "appear": 0.5
@@ -33062,9 +33070,9 @@
       "type": "asset",
       "name": "giant_sea_spider",
       "x": 1320,
-      "y": 935,
+      "y": 889,
       "scale": 1.25,
-      "rotate": -6
+      "rotate": 5
      },
      {
       "type": "doug",
@@ -33201,6 +33209,28 @@
       "density": 0.05
      },
      {
+      "type": "line",
+      "points": [
+       [
+        380,
+        -30
+       ],
+       [
+        420,
+        560
+       ]
+      ],
+      "color": "#c0c6cc",
+      "width": 5
+     },
+     {
+      "type": "asset",
+      "name": "rope_hook",
+      "x": 420,
+      "y": 560,
+      "scale": 0.6
+     },
+     {
       "type": "doug",
       "x": 760,
       "y": 888.0,
@@ -33330,6 +33360,28 @@
       "r": 950,
       "color": "#2c2e34",
       "density": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        380,
+        -30
+       ],
+       [
+        420,
+        560
+       ]
+      ],
+      "color": "#c0c6cc",
+      "width": 5
+     },
+     {
+      "type": "asset",
+      "name": "rope_hook",
+      "x": 420,
+      "y": 560,
+      "scale": 0.6
      },
      {
       "type": "asset",
@@ -34737,8 +34789,8 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1470.0,
-      "y": 890.0,
+      "x": 1500.0,
+      "y": 920.0,
       "scale": 0.55,
       "appear": 0.25
      },
@@ -38267,8 +38319,8 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1558.0,
-      "y": 840.0,
+      "x": 1585.0,
+      "y": 867.0,
       "scale": 0.55,
       "appear": 0.35
      },

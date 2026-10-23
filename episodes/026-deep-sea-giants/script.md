@@ -10,7 +10,7 @@
 7. Colossal squid: adults are said to live "deeper than a thousand meters" (Te Papa), not "2,000 m or more". Mass 495 kg; analogy a concert grand piano (about 480 kg). -->
 <!-- Pronunciation for the editor: oarfish = "OR-fish"; isopod = "EYE-so-pod"; Toba = "TOE-bah"; Greenland = "GREEN-lund"; amphipod = "AM-fih-pod"; Kermadec = "ker-MAD-ek"; xenophyophore = "ZEE-no-FY-oh-for"; foram = "FOR-um"; arachnid = "uh-RAK-nid"; Sirena = "sih-RAY-nuh"; Izu-Ogasawara = "EE-zoo oh-gah-sah-WAH-rah"; Galapagos = "guh-LAH-puh-gohs"; Te Papa = "teh PAH-pah"; Ross Sea = "ROSS sea"; South Sandwich = "south SAND-wich". -->
 
-[Open on the thumbnail, 1.5 to 4 seconds: a dark depth column, navy to black, each giant drawn in its band with a tiny red-capped Doug silhouette beside it for scale. Labels are the item names. Cut to a research ship on a grey sea at dawn. A winch cable runs over the stern and down into the water. Doug hangs from the hook end in a harness, cap on. DOUG DEATHS: 210. Under the counter, a cable counter reads "CABLE OUT: 0 M".]
+[Open on the thumbnail (variant A), 1.5 to 4 seconds: flat midnight navy, the colossal squid's eye filling the right of the frame, its swivel-hook tentacle rising from the bottom with the top hook curling at Doug's red cap, Doug small and scared on his winch cable, the word HOOKS. Cut to a research ship on a grey sea at dawn. A winch cable runs over the stern and down into the water. Doug hangs from the hook end in a harness, cap on. DOUG DEATHS: 210. Under the counter, a cable counter reads "CABLE OUT: 0 M".]
 
 Doug is being lowered on a cable to the deepest trench on Earth, and he is stopping at every giant on the way down. Doug did not agree to this.
 
