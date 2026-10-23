@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23T19:01:46+00:00",
+ "at": "2026-10-23T20:01:47+00:00",
  "issues": [
   {
    "key": "related_pending",
@@ -15,8 +15,8 @@
    "key": "end_screens_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "2 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
-   "detail": "024-moose-deadlier-than-bears https://studio.youtube.com/video/bACeD2HtavQ/editor\n025-too-much-oxygen https://studio.youtube.com/video/b85fECVktMA/editor",
+   "summary": "3 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "detail": "024-moose-deadlier-than-bears https://studio.youtube.com/video/bACeD2HtavQ/editor\n025-too-much-oxygen https://studio.youtube.com/video/b85fECVktMA/editor\n026-deep-sea-giants https://studio.youtube.com/video/PZtxJTh4bUQ/editor",
    "route": "",
    "fixed": false,
    "extra": {}
@@ -25,8 +25,8 @@
    "key": "thumb_tests_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "2 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
-   "detail": "024-moose-deadlier-than-bears https://studio.youtube.com/video/bACeD2HtavQ/edit\n025-too-much-oxygen https://studio.youtube.com/video/b85fECVktMA/edit",
+   "summary": "3 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "detail": "024-moose-deadlier-than-bears https://studio.youtube.com/video/bACeD2HtavQ/edit\n025-too-much-oxygen https://studio.youtube.com/video/b85fECVktMA/edit\n026-deep-sea-giants https://studio.youtube.com/video/PZtxJTh4bUQ/edit",
    "route": "",
    "fixed": false,
    "extra": {}
