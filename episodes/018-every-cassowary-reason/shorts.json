@@ -15,7 +15,24 @@
       "publish_at": "2026-10-23T13:00:00Z",
       "related_video": "WqT0axnzOP4",
       "related_set": true,
-      "uploaded_at": "2026-10-14T17:59:43+00:00"
+      "uploaded_at": "2026-10-14T17:59:43+00:00",
+      "social": {
+        "instagram": {
+          "id": "18637190494026160",
+          "url": "https://www.instagram.com/reel/De1nf_-AJg7/"
+        },
+        "facebook": {
+          "id": "2616988405480380",
+          "url": "https://www.facebook.com/reel/2616988405480380"
+        },
+        "tiktok_error": "TikTok (Post for Me) failed: \"Failed to post to TikTok\"",
+        "instagram_story": {
+          "id": "18126502468803290"
+        },
+        "facebook_story": {
+          "id": "4180621095404202"
+        }
+      }
     },
     {
       "id": "short02",
