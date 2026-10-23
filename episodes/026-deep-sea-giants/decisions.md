@@ -21,3 +21,22 @@ Read script.md (draft 3), facts.md, script_review.md (round 3) and the brief.
   sea spider legs and the one-cell boss all work as re-hooks. The why-thread gives the list a reason to watch to the end.
 
 SCRIPT: APPROVED
+
+## 2026-10-23, director: shotlist
+- 281 shots; all 3,040 spoken words in order, none cut (checked word-for-word against script.md). s001 = thumbnail
+  (graphic designer's `thumbnail.json` still to come). 11 chapters, section cards BIG. / BIGGER. / TOO DEEP. (white, topbar off).
+- Doug in 94% of shots. Every shot over ~14 words has mid-shot pop-ins; no static gap estimated above 4.6 s.
+- Vehicle: Doug hangs from the winch cable in `cable_harness` (ring at local (-170,-400)); CABLE OUT meter (size-28 label at
+  (1590, 238) + `cable_counter_icon`) under the counter, monotonic 0 M to 10,641 M. No cable crosses the counter zone.
+- Depth ramp: items 1-3 twilight `#1b4f86` (jelly fades to `#0b2447` lower half at 990 m), 4-7 midnight `#0b2447`,
+  8-9 abyss `#050a1f`, 10-11 hadal `#020308`. Surface/sea-surface fact cards stay `#3a9ad9`.
+- **Capless upright Doug (one-off, art director please confirm):** s052-s054 (`cap_off`, the spider crab has the cap) and
+  s132-s133 (the colossal squid hook has the cap). Script-driven; the cap stays in frame in every one of those shots.
+- **WHY SO BIG? clipboard exceeds the ~8-word text guide** on its writing shots (up to 13 words in s238/s254/s272): it is
+  the episode device and the growing list is the joke; no wordart on those shots.
+- Death 216: Doug on_back with the cap on under the spider (s229), then the spider walks off with the cap and ghost Doug rises
+  (s230, no body, so only one cap). Deaths 212/213/215/217 use cap + ghost (no body); 211/214/218 on_back.
+- Te Papa drawn with `museum_building` (modern) plus a TE PAPA label, not the classical facade.
+- Shorts: short01 colossal squid first live footage (s125-s130, Doug-fate loop), short02 Greenland shark age (s140-s149,
+  Doug-fate loop), short03 isopod five-year fast (s094-s104, worse thing later: sea spider), short04 earthquake oarfish
+  (s009-s018, worse thing later: the giant cell). Working titles only; titler to refine.

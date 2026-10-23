@@ -1,0 +1,52 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s125",
+      "to": "s130",
+      "hook": "The heaviest invertebrate on Earth hid from cameras for a century.",
+      "hook_scene_from": "s111",
+      "title": "Nobody Filmed a Live Colossal Squid for 100 Years",
+      "outro": "Doug waved at that eye a few seconds later. The hooks noticed. What they grabbed first is in the full video below.",
+      "tease_from": "s132",
+      "tease_asset": "colossal_squid_hook_arm",
+      "end_card": "WHAT DID THE HOOKS GRAB FIRST?",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s140",
+      "to": "s149",
+      "title": "This Shark Was Born Around the Time of the Mayflower",
+      "outro": "Then Doug tried to outswim this shark, which cruises slower than you walk. It never chased him. Full video below.",
+      "tease_from": "s160",
+      "tease_asset": "greenland_shark",
+      "end_card": "HOW DID A SLOW SHARK GET DOUG?",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s094",
+      "to": "s104",
+      "hook": "This giant deep-sea bug once refused food for five years.",
+      "hook_scene_from": "s082",
+      "title": "The Giant Isopod That Didn't Eat for Five Years",
+      "outro": "Four kilometers deeper, Doug meets a sea spider whose legs do its digesting. He put a stethoscope on one. Full video below.",
+      "tease_from": "s227",
+      "tease_asset": "giant_sea_spider",
+      "end_card": "WHAT DID DOUG HEAR IN ITS LEG?",
+      "description": ""
+    },
+    {
+      "id": "short04",
+      "from": "s009",
+      "to": "s018",
+      "title": "The Earthquake Fish of Japan Predicts Nothing",
+      "outro": "The oarfish only ignored Doug. At ten thousand meters, the biggest thing on the seafloor isn't even an animal. It's linked below.",
+      "tease_from": "s258",
+      "tease_asset": "xenophyophore",
+      "end_card": "WHAT IS THE BIGGEST THING DOWN THERE?",
+      "description": ""
+    }
+  ]
+}
