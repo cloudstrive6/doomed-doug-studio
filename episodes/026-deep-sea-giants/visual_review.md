@@ -109,3 +109,34 @@ VERDICT (shorts): FAIL
    above or to the right of the silhouette if the end-card layout allows it.
 3. short02 at about 10 s (the eye zoom, "2016: 28 SHARKS"): the shark's tail runs off the left edge. This comes from
    the camera zoom in the source shot and still reads. Leave it unless the shot is touched again.
+
+## Post-render, round 2 (short04 re-render; 2026-10-23)
+
+### Main video (quick re-check)
+- qc.json `problems: []`. Re-viewed samples f_002, f_012, f_021, f_029: all clean, Doug on-model, the counter and
+  cable tags are correct, deaths are cartoon only. build/thumbnail.png (HOOKS, eye, hooked arm, scared Doug) is
+  unchanged and still reads: one focal point, Doug and the threat are obvious. No regressions.
+
+### Shorts
+- short01-03 previews: unchanged since round 1 and still fine. The titles and the @DoomedDoug tag are readable and
+  nothing is cut off at the sides. The preview subtitles stop mid-word ("nobody filme", "three hundre", "twenty fou")
+  because the still is grabbed during the word-by-word reveal. In the video the full words show. Not a defect.
+- short04 (oarfish, 46.4 s). Frames checked at 0.5, 3, 10, 23, 35 s, then every 1.5 s from 37.5 s to 46.2 s.
+  - Body is unchanged from round 1: the title is readable, the subtitles are legible, the oarfish is complete and the
+    crossed-out Japan map pays off the title.
+  - The outro ("The oarfish only ignored Doug. Six kilometers deeper, he lowered a sandwich as bait. Something
+    answered.") opens one specific question that the clip does not answer.
+  - End card: "WHAT CAME FOR DOUG'S SANDWICH?" is legible. The supergiant_amphipod silhouette reads immediately as a
+    segmented crustacean, with antennae, legs and tail fan inside a red outline. The red arrow points down, and Doug
+    is on-model to the left.
+  - Glow: a circular, dithered radial fade that is fully inside the frame. On a 44.5 s full-res frame the columns
+    and rows decay smoothly to the background (11,11,19), with no flat horizontal cut. The round-1 hard clip is gone.
+  - Minor, not blocking: as in short01, the "???" sits across the middle of the body. The head, antennae, legs and
+    tail still carry the shape.
+
+### Fixes
+None required. Round-1 minor notes 2 and 3 (the short01 "???" placement and the short02 tail edge at about 10 s)
+stay optional.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS

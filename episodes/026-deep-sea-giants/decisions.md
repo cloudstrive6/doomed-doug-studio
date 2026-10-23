@@ -91,3 +91,6 @@ build/chapters.txt and script.md up to item 2. I looked at build/thumbnail.png a
 
 - Shorts: short04 end card failed visual screen; director fixed shorts.json (amphipod tease); re-render of shorts requested. Main video PASS, QC exit 0 on re-run.
 FINAL: APPROVED
+
+- Round 2: QC exit 0; visual screener PASS (main) and PASS (shorts) after short04 end card fix. Stage stays qc_passed.
+FINAL: APPROVED
