@@ -1,7 +1,7 @@
 {
  "date": "2026-10-25",
  "channel": {
-  "viewCount": "39145",
+  "viewCount": "40655",
   "subscriberCount": "44",
   "hiddenSubscriberCount": false,
   "videoCount": "83"
@@ -483,109 +483,7 @@
    "shares": 0,
    "title": "A Gorilla's Chest Beat Tells Rivals Exactly How Big It Is",
    "published": "2026-10-16T18:00:03Z",
-   "lifetime_views": 1183,
-   "retention_curve": [
-    [
-     0.01,
-     1.21,
-     0.563
-    ],
-    [
-     0.06,
-     1.104,
-     0.402
-    ],
-    [
-     0.11,
-     0.988,
-     0.336
-    ],
-    [
-     0.16,
-     0.831,
-     0.303
-    ],
-    [
-     0.21,
-     0.766,
-     0.292
-    ],
-    [
-     0.26,
-     0.729,
-     0.29
-    ],
-    [
-     0.31,
-     0.686,
-     0.291
-    ],
-    [
-     0.36,
-     0.646,
-     0.297
-    ],
-    [
-     0.41,
-     0.612,
-     0.298
-    ],
-    [
-     0.46,
-     0.581,
-     0.317
-    ],
-    [
-     0.51,
-     0.544,
-     0.354
-    ],
-    [
-     0.56,
-     0.518,
-     0.412
-    ],
-    [
-     0.61,
-     0.507,
-     0.481
-    ],
-    [
-     0.66,
-     0.502,
-     0.532
-    ],
-    [
-     0.71,
-     0.5,
-     0.566
-    ],
-    [
-     0.76,
-     0.488,
-     0.591
-    ],
-    [
-     0.81,
-     0.46,
-     0.6
-    ],
-    [
-     0.86,
-     0.426,
-     0.586
-    ],
-    [
-     0.91,
-     0.391,
-     0.565
-    ],
-    [
-     0.96,
-     0.355,
-     0.562
-    ]
-   ]
+   "lifetime_views": 1183
   },
   {
    "video": "hObVyrLD8xA",
@@ -1473,7 +1371,7 @@
    "shares": 0,
    "title": "Every Reason the Cassowary Is the Most Terrifying Bird Alive",
    "published": "2026-10-18T16:00:17Z",
-   "lifetime_views": 448
+   "lifetime_views": 450
   },
   {
    "video": "gtI0brul9to",
@@ -1529,7 +1427,7 @@
    "shares": 0,
    "title": "The Creepiest Prehistoric Animals Scientists Drew All Wrong",
    "published": "2026-10-19T16:00:31Z",
-   "lifetime_views": 372
+   "lifetime_views": 377
   },
   {
    "video": "ZNoc06L_AUE",
@@ -1557,7 +1455,7 @@
    "shares": 0,
    "title": "Most Fungi Can't Grow at Body Heat. This One Can",
    "published": "2026-10-22T23:00:05Z",
-   "lifetime_views": 775
+   "lifetime_views": 776
   },
   {
    "video": "qQzKv8adTkI",
@@ -1585,7 +1483,7 @@
    "shares": 0,
    "title": "Why Orcas Kill Everything in the Ocean Except Doug",
    "published": "2026-10-21T16:00:08Z",
-   "lifetime_views": 741
+   "lifetime_views": 742
   },
   {
    "video": "7d0O3DuX12A",
@@ -1641,7 +1539,7 @@
    "shares": 0,
    "title": "This Fungus Is Deleting Entire Species of Frog",
    "published": "2026-10-22T13:00:26Z",
-   "lifetime_views": 280
+   "lifetime_views": 279
   },
   {
    "video": "S_An9KcvvCo",
@@ -1697,7 +1595,7 @@
    "shares": 0,
    "title": "What Dying From Every Parasite Would Feel Like",
    "published": "2026-10-01T16:00:07Z",
-   "lifetime_views": 87
+   "lifetime_views": 89
   },
   {
    "video": "jX15nlPn0WE",
@@ -1711,7 +1609,7 @@
    "shares": 0,
    "title": "How Every Deadly Venom Would Kill Doug",
    "published": "2026-10-10T16:00:31Z",
-   "lifetime_views": 67
+   "lifetime_views": 68
   },
   {
    "video": "9eiX84Ik1Sc",
@@ -1728,7 +1626,9 @@
    "lifetime_views": 51
   }
  ],
- "errors": [],
+ "errors": [
+  "audienceWatchRatio,relativeRetentionPerformance: <HttpError 500 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DMINE&startDate=2026-09-27&endDate=2026-10-25&metrics=audienceWatchRatio%2CrelativeRetentionPerformance&dimensions=elapsedVideoTimeRatio&filters=video%3D%3D3jSMcJKlvjc&alt=json returned \"Internal error encountered.\". Details: \"[{'message': 'Internal error encountered.', 'domain': 'global', 'reason': 'backendError'}]\">"
+ ],
  "traffic_sources": {
   "columns": [
    "insightTrafficSourceType",
