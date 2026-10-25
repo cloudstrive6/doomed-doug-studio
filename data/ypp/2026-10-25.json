@@ -1,0 +1,32 @@
+{
+ "date": "2026-10-25",
+ "subscribers": {
+  "have": 44,
+  "need": 1000,
+  "per_day_7d": 2.4,
+  "eta": "~2027-11-22 at the last 7 days' pace"
+ },
+ "long_watch_hours_365d": {
+  "have": 39.8,
+  "need": 4000,
+  "per_day_7d": 4.45,
+  "eta": "~2029-04-02 at the last 7 days' pace"
+ },
+ "shorts_views_90d": {
+  "have": 33963,
+  "need": 10000000,
+  "per_day_7d": 2729,
+  "eta": ">10 years at this pace"
+ },
+ "views_per_day_7d": {
+  "long": 169,
+  "shorts": 2729
+ },
+ "revenue_if_monetized_usd_per_day": 1.18,
+ "goal_usd_per_day": 1000.0,
+ "long_views_per_day_needed_for_goal": 166667,
+ "assumptions": {
+  "rpm_long": 6.0,
+  "rpm_shorts": 0.06
+ }
+}

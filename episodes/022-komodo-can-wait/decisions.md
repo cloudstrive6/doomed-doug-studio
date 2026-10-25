@@ -79,3 +79,6 @@ FINAL: APPROVED
 
 - Showrunner round 2: QC OK (no problems). VERDICT (main): PASS; VERDICT (shorts): FAIL (short03 end-card silhouette unreadable; short01/02 fixed). Shorts held back; suggested fix: short03 tease_asset wait_stopwatch. Main video stays qc_passed.
 FINAL: APPROVED
+
+## 2026-10-25: title formula label T2 -> T9
+- The title "How the Komodo Dragon Kills Doug Without Chasing Him" is a single-animal kill title with a revelation clause and no "Every [Set]" scope, which makes it the "How" variant of T9. It was never a test of the dropped T2 list formula. Day-7 (10-29) counts toward T9. Packaging is unchanged; this is a label fix only (metadata.json, series bible, ideas.md). See data/insights/2026-10-25.md Decisions.
