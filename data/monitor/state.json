@@ -21,39 +21,29 @@
   "related_pending": {
    "first_seen": "2026-10-20T16:01:50+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-25T20:01:37+00:00",
+   "last_seen": "2026-10-25T21:01:39+00:00",
    "summary": "12 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
    "alerted_at": "2026-10-25T17:52:34+00:00"
   },
-  "produce_failing": {
-   "first_seen": "2026-10-11T18:01:33+00:00",
-   "agent_attempts": 1,
-   "last_seen": "2026-10-11T20:01:32+00:00",
-   "summary": "Last 7 production runs failed",
-   "owner": "agent",
-   "severity": "high",
-   "agent_at": "2026-10-11T18:01:38+00:00",
-   "resolved": "2026-10-11T21:01:28+00:00"
-  },
   "end_screens_pending": {
    "first_seen": "2026-10-21T19:01:45+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-25T20:01:37+00:00",
+   "last_seen": "2026-10-25T21:01:39+00:00",
    "summary": "3 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
    "owner": "owner",
    "severity": "low",
-   "alerted_at": "2026-10-24T21:01:35+00:00"
+   "alerted_at": "2026-10-25T21:01:39+00:00"
   },
   "thumb_tests_pending": {
    "first_seen": "2026-10-21T19:01:45+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-25T20:01:37+00:00",
+   "last_seen": "2026-10-25T21:01:39+00:00",
    "summary": "3 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
    "owner": "owner",
    "severity": "low",
-   "alerted_at": "2026-10-24T21:01:35+00:00"
+   "alerted_at": "2026-10-25T21:01:39+00:00"
   },
   "shorts_missing:024-moose-deadlier-than-bears": {
    "first_seen": "2026-10-21T22:01:56+00:00",
