@@ -1,0 +1,529 @@
+{
+ "name": "record_book",
+ "description": "The 'famous record book', generic (no brand, no logo, no readable title): big dark-green hardback, spine on the left, double gold border, blank gold title plate with two gold rules, gold page edges on the right. Anchor centre; bbox x -150..150, y -190..190.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "book",
+  "record book",
+  "sober",
+  "027"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     130,
+     -176
+    ],
+    [
+     150,
+     -168
+    ],
+    [
+     150,
+     184
+    ],
+    [
+     130,
+     190
+    ]
+   ],
+   "fill": "#d4a73a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     -160
+    ],
+    [
+     148,
+     -158
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     -146
+    ],
+    [
+     148,
+     -144
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     -132
+    ],
+    [
+     148,
+     -130
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     -118
+    ],
+    [
+     148,
+     -116
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     -104
+    ],
+    [
+     148,
+     -102
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     -90
+    ],
+    [
+     148,
+     -88
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     -76
+    ],
+    [
+     148,
+     -74
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     -62
+    ],
+    [
+     148,
+     -60
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     -48
+    ],
+    [
+     148,
+     -46
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     -34
+    ],
+    [
+     148,
+     -32
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     -20
+    ],
+    [
+     148,
+     -18
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     -6
+    ],
+    [
+     148,
+     -4
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     8
+    ],
+    [
+     148,
+     10
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     22
+    ],
+    [
+     148,
+     24
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     36
+    ],
+    [
+     148,
+     38
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     50
+    ],
+    [
+     148,
+     52
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     64
+    ],
+    [
+     148,
+     66
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     78
+    ],
+    [
+     148,
+     80
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     92
+    ],
+    [
+     148,
+     94
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     106
+    ],
+    [
+     148,
+     108
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     120
+    ],
+    [
+     148,
+     122
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     134
+    ],
+    [
+     148,
+     136
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     148
+    ],
+    [
+     148,
+     150
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     162
+    ],
+    [
+     148,
+     164
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     134,
+     176
+    ],
+    [
+     148,
+     178
+    ]
+   ],
+   "width": 1,
+   "color": "#a8802a"
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -190,
+   "w": 280,
+   "h": 380,
+   "fill": "#1f5a3a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -190,
+   "w": 34,
+   "h": 380,
+   "fill": "#14402a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -116,
+     -190
+    ],
+    [
+     -116,
+     190
+    ]
+   ],
+   "width": 3,
+   "color": "#0e2a1c"
+  },
+  {
+   "type": "rect",
+   "x": -96,
+   "y": -150,
+   "w": 200,
+   "h": 300,
+   "fill": null,
+   "width": 4,
+   "color": "#d4a73a"
+  },
+  {
+   "type": "rect",
+   "x": -84,
+   "y": -138,
+   "w": 176,
+   "h": 276,
+   "fill": null,
+   "width": 2,
+   "color": "#d4a73a"
+  },
+  {
+   "type": "rect",
+   "x": -56,
+   "y": -70,
+   "w": 120,
+   "h": 50,
+   "fill": "#c8962e",
+   "width": 3,
+   "color": "#8a6a1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     -54
+    ],
+    [
+     48,
+     -54
+    ]
+   ],
+   "width": 3,
+   "color": "#e8c060"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -38
+    ],
+    [
+     38,
+     -38
+    ]
+   ],
+   "width": 3,
+   "color": "#e8c060"
+  },
+  {
+   "type": "spray",
+   "x": 60,
+   "y": 100,
+   "r": 50,
+   "color": "#2a6a48",
+   "density": 0.15
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -190,
+   "w": 280,
+   "h": 380,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}

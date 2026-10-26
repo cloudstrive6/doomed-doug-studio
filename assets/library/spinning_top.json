@@ -1,0 +1,361 @@
+{
+ "name": "spinning_top",
+ "description": "Classic wooden toy spinning top: red body with yellow stripes, pointed tip down, round wooden cap and short brown handle on top, highlight and shadow, two curved motion lines either side. Anchor centre; bbox x -136..136, y -116..110.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "toy",
+  "spinning top",
+  "027"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     -30
+    ],
+    [
+     -80,
+     -54
+    ],
+    [
+     -40,
+     -66
+    ],
+    [
+     40,
+     -66
+    ],
+    [
+     80,
+     -54
+    ],
+    [
+     92,
+     -30
+    ],
+    [
+     70,
+     10
+    ],
+    [
+     30,
+     58
+    ],
+    [
+     6,
+     100
+    ],
+    [
+     0,
+     110
+    ],
+    [
+     -6,
+     100
+    ],
+    [
+     -30,
+     58
+    ],
+    [
+     -70,
+     10
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -88,
+     -26
+    ],
+    [
+     88,
+     -26
+    ],
+    [
+     78,
+     -4
+    ],
+    [
+     -78,
+     -4
+    ]
+   ],
+   "fill": "#ffd23a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62,
+     22
+    ],
+    [
+     62,
+     22
+    ],
+    [
+     44,
+     44
+    ],
+    [
+     -44,
+     44
+    ]
+   ],
+   "fill": "#ffd23a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -24,
+     66
+    ],
+    [
+     24,
+     66
+    ],
+    [
+     14,
+     84
+    ],
+    [
+     -14,
+     84
+    ]
+   ],
+   "fill": "#ffd23a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -50
+    ],
+    [
+     -40,
+     -62
+    ],
+    [
+     0,
+     -62
+    ],
+    [
+     -30,
+     -40
+    ],
+    [
+     -70,
+     -30
+    ]
+   ],
+   "fill": "#ff6a5a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     60,
+     -30
+    ],
+    [
+     84,
+     -40
+    ],
+    [
+     70,
+     6
+    ],
+    [
+     30,
+     54
+    ],
+    [
+     40,
+     0
+    ]
+   ],
+   "fill": "#a8140f",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     -30
+    ],
+    [
+     -80,
+     -54
+    ],
+    [
+     -40,
+     -66
+    ],
+    [
+     40,
+     -66
+    ],
+    [
+     80,
+     -54
+    ],
+    [
+     92,
+     -30
+    ],
+    [
+     70,
+     10
+    ],
+    [
+     30,
+     58
+    ],
+    [
+     6,
+     100
+    ],
+    [
+     0,
+     110
+    ],
+    [
+     -6,
+     100
+    ],
+    [
+     -30,
+     58
+    ],
+    [
+     -70,
+     10
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -62,
+   "rx": 46,
+   "ry": 12,
+   "fill": "#c8884a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -9,
+   "y": -112,
+   "w": 18,
+   "h": 50,
+   "fill": "#a0522d",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -112,
+   "rx": 9,
+   "ry": 4,
+   "fill": "#c8884a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -3,
+     -106
+    ],
+    [
+     -3,
+     -70
+    ]
+   ],
+   "width": 2,
+   "color": "#d8a070"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -10,
+   "rx": 120,
+   "ry": 70,
+   "start": 160,
+   "end": 200,
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -10,
+   "rx": 136,
+   "ry": 80,
+   "start": 165,
+   "end": 195,
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -10,
+   "rx": 120,
+   "ry": 70,
+   "start": -20,
+   "end": 20,
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -10,
+   "rx": 136,
+   "ry": 80,
+   "start": -15,
+   "end": 15,
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}

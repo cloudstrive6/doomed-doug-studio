@@ -1,0 +1,267 @@
+{
+ "name": "indonesia_map_ntt",
+ "description": "Overlay for indonesia_map (identical geometry): only East Nusa Tenggara (Flores, Komodo, Sumba, west Timor, Alor, Lembata, Solor/Adonara, Rote, Sawu) filled orange #ff8a3a with a white outline; everything else transparent. Equirectangular lon 95..141.7E, lat 7N..13S at 30 px per degree, 1400x600, anchor (0,0) at lon 118.33 / lat -3: x = (lon - 118.33) * 30, y = -(lat + 3) * 30. bbox x -700..700, y -300..300.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "map",
+  "indonesia",
+  "ntt",
+  "overlay",
+  "027"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     44.1,
+     165.0
+    ],
+    [
+     65.1,
+     159.0
+    ],
+    [
+     95.1,
+     166.5
+    ],
+    [
+     110.1,
+     162.0
+    ],
+    [
+     134.1,
+     156.0
+    ],
+    [
+     140.1,
+     159.0
+    ],
+    [
+     134.1,
+     168.0
+    ],
+    [
+     110.1,
+     174.0
+    ],
+    [
+     80.1,
+     177.0
+    ],
+    [
+     56.1,
+     174.0
+    ],
+    [
+     47.1,
+     171.0
+    ]
+   ],
+   "fill": "#ff8a3a",
+   "width": 3,
+   "color": "#ffffff",
+   "wobble": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     18.6,
+     198.0
+    ],
+    [
+     35.1,
+     190.5
+    ],
+    [
+     59.1,
+     195.0
+    ],
+    [
+     74.1,
+     207.0
+    ],
+    [
+     68.1,
+     217.5
+    ],
+    [
+     47.1,
+     210.0
+    ],
+    [
+     26.1,
+     204.0
+    ]
+   ],
+   "fill": "#ff8a3a",
+   "width": 3,
+   "color": "#ffffff",
+   "wobble": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     153.6,
+     217.5
+    ],
+    [
+     164.1,
+     207.0
+    ],
+    [
+     179.1,
+     192.0
+    ],
+    [
+     198.6,
+     180.0
+    ],
+    [
+     204.6,
+     195.0
+    ],
+    [
+     182.1,
+     213.0
+    ],
+    [
+     164.1,
+     220.5
+    ]
+   ],
+   "fill": "#ff8a3a",
+   "width": 3,
+   "color": "#ffffff",
+   "wobble": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     179.1,
+     157.5
+    ],
+    [
+     191.1,
+     154.5
+    ],
+    [
+     204.6,
+     157.5
+    ],
+    [
+     197.1,
+     163.5
+    ],
+    [
+     182.1,
+     162.0
+    ]
+   ],
+   "fill": "#ff8a3a",
+   "width": 3,
+   "color": "#ffffff",
+   "wobble": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     146.1,
+     160.5
+    ],
+    [
+     158.1,
+     156.0
+    ],
+    [
+     165.6,
+     160.5
+    ],
+    [
+     158.1,
+     166.5
+    ],
+    [
+     147.6,
+     165.0
+    ]
+   ],
+   "fill": "#ff8a3a",
+   "width": 3,
+   "color": "#ffffff",
+   "wobble": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     135.6,
+     232.5
+    ],
+    [
+     146.1,
+     226.5
+    ],
+    [
+     152.1,
+     229.5
+    ],
+    [
+     143.1,
+     237.0
+    ]
+   ],
+   "fill": "#ff8a3a",
+   "width": 3,
+   "color": "#ffffff",
+   "wobble": 0.4
+  },
+  {
+   "type": "ellipse",
+   "x": 105.6,
+   "y": 225.0,
+   "rx": 6,
+   "ry": 3,
+   "fill": "#ff8a3a",
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 34.5,
+   "y": 168.0,
+   "rx": 3,
+   "ry": 4,
+   "fill": "#ff8a3a",
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 149.1,
+   "y": 159.0,
+   "rx": 3,
+   "ry": 2,
+   "fill": "#ff8a3a",
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 168.6,
+   "y": 159.0,
+   "rx": 3,
+   "ry": 2,
+   "fill": "#ff8a3a",
+   "width": 2,
+   "color": "#ffffff"
+  }
+ ]
+}

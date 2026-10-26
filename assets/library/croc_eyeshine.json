@@ -1,0 +1,130 @@
+{
+ "name": "croc_eyeshine",
+ "description": "A pair of crocodile eyes shining in torchlight: two amber-orange #ffb347 oval dots 50 units apart with white centres, a soft orange spray glow and a faint blue-grey ripple line under them. Built for near-black water (#0b0d10). Anchor centre; bbox x -60..60, y -22..17.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "crocodile",
+  "eyes",
+  "night",
+  "eyeshine",
+  "027"
+ ],
+ "elements": [
+  {
+   "type": "spray",
+   "x": -25,
+   "y": -2,
+   "r": 20,
+   "color": "#ff8a2a",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 25,
+   "y": -2,
+   "r": 20,
+   "color": "#ff8a2a",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": -25,
+   "y": -2,
+   "r": 13,
+   "color": "#ffb347",
+   "density": 0.6
+  },
+  {
+   "type": "spray",
+   "x": 25,
+   "y": -2,
+   "r": 13,
+   "color": "#ffb347",
+   "density": 0.6
+  },
+  {
+   "type": "ellipse",
+   "x": -25,
+   "y": -2,
+   "rx": 8,
+   "ry": 6,
+   "fill": "#ffb347",
+   "width": 2,
+   "color": "#c8641a"
+  },
+  {
+   "type": "ellipse",
+   "x": -24,
+   "y": -3,
+   "rx": 3.2,
+   "ry": 2.6,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 25,
+   "y": -2,
+   "rx": 8,
+   "ry": 6,
+   "fill": "#ffb347",
+   "width": 2,
+   "color": "#c8641a"
+  },
+  {
+   "type": "ellipse",
+   "x": 26,
+   "y": -3,
+   "rx": 3.2,
+   "ry": 2.6,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -52,
+     15
+    ],
+    [
+     -36,
+     12
+    ],
+    [
+     -20,
+     15
+    ],
+    [
+     -4,
+     12
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     28,
+     12
+    ],
+    [
+     44,
+     15
+    ],
+    [
+     56,
+     13
+    ]
+   ],
+   "width": 2,
+   "color": "#4a5a6a"
+  }
+ ]
+}

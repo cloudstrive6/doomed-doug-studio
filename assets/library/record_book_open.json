@@ -1,0 +1,638 @@
+{
+ "name": "record_book_open",
+ "description": "The generic record book lying open flat: dark-green covers, cream pages with grey text lines, a bolder line in the middle of the left page (about (-140,2)) for a crossed-out number, and a clear empty margin on the right page around (+230, 0) for handwriting. No readable text, no logo. Anchor centre; bbox x -300..300, y -190..190.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "book",
+  "record book",
+  "open",
+  "sober",
+  "027"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -300,
+     -170
+    ],
+    [
+     0,
+     -186
+    ],
+    [
+     300,
+     -170
+    ],
+    [
+     300,
+     190
+    ],
+    [
+     0,
+     176
+    ],
+    [
+     -300,
+     190
+    ]
+   ],
+   "fill": "#1f5a3a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -288,
+     -176
+    ],
+    [
+     -6,
+     -186
+    ],
+    [
+     -6,
+     170
+    ],
+    [
+     -288,
+     180
+    ]
+   ],
+   "fill": "#f4ecd2",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     6,
+     -186
+    ],
+    [
+     288,
+     -176
+    ],
+    [
+     288,
+     180
+    ],
+    [
+     6,
+     170
+    ]
+   ],
+   "fill": "#f4ecd2",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     -184
+    ],
+    [
+     -6,
+     -186
+    ],
+    [
+     -6,
+     170
+    ],
+    [
+     -40,
+     172
+    ]
+   ],
+   "fill": "#e0d6b8",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     6,
+     -186
+    ],
+    [
+     40,
+     -184
+    ],
+    [
+     40,
+     172
+    ],
+    [
+     6,
+     170
+    ]
+   ],
+   "fill": "#e0d6b8",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -186
+    ],
+    [
+     0,
+     172
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     -148
+    ],
+    [
+     -40,
+     -150
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     -126
+    ],
+    [
+     -40,
+     -128
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     -104
+    ],
+    [
+     -40,
+     -106
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     -82
+    ],
+    [
+     -40,
+     -84
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     -60
+    ],
+    [
+     -40,
+     -62
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     -38
+    ],
+    [
+     -40,
+     -40
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     -16
+    ],
+    [
+     -40,
+     -18
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     6
+    ],
+    [
+     -40,
+     4
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     28
+    ],
+    [
+     -40,
+     26
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     50
+    ],
+    [
+     -40,
+     48
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     72
+    ],
+    [
+     -40,
+     70
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     94
+    ],
+    [
+     -40,
+     92
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     116
+    ],
+    [
+     -40,
+     114
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     138
+    ],
+    [
+     -40,
+     136
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -262,
+     160
+    ],
+    [
+     -40,
+     158
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     -150
+    ],
+    [
+     160,
+     -149
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     -128
+    ],
+    [
+     160,
+     -127
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     -106
+    ],
+    [
+     160,
+     -105
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     -84
+    ],
+    [
+     160,
+     -83
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     -62
+    ],
+    [
+     140,
+     -61
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     -40
+    ],
+    [
+     140,
+     -39
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     -18
+    ],
+    [
+     140,
+     -17
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     4
+    ],
+    [
+     140,
+     5
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     26
+    ],
+    [
+     140,
+     27
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     48
+    ],
+    [
+     140,
+     49
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     70
+    ],
+    [
+     140,
+     71
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     92
+    ],
+    [
+     160,
+     93
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     114
+    ],
+    [
+     160,
+     115
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     136
+    ],
+    [
+     160,
+     137
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     158
+    ],
+    [
+     160,
+     159
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9488"
+  },
+  {
+   "type": "rect",
+   "x": -200,
+   "y": -10,
+   "w": 120,
+   "h": 24,
+   "fill": "#ece2c4",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -190,
+     2
+    ],
+    [
+     -90,
+     2
+    ]
+   ],
+   "width": 5,
+   "color": "#6a6458"
+  }
+ ]
+}
