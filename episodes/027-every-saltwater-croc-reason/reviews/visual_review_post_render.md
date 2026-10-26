@@ -49,3 +49,44 @@ Minor, not blocking: the `*_preview.png` stills catch subtitles mid-word ("cl", 
 
 VERDICT (main): PASS
 VERDICT (shorts): FAIL
+
+---
+
+# Round 2 (2026-10-26): Shorts re-render after the short01 fixes
+
+Scope: all 4 re-rendered Shorts in `build/shorts/*.mp4`. For each I pulled frames at 0.5 s and 1.5 s and at 8, 6, 4, 2.5, 1 and 0.3 s before the end, plus a full-resolution last frame of short01. I also re-checked the 32 `build/samples/*.png` and `qc.json`. `final.mp4` and the thumbnails have the same timestamps as in Round 1 (19:34), so the main video has not changed. Nothing was rendered.
+
+## Main video: PASS (unchanged from Round 1)
+
+- `qc.json` still reports `problems: []`.
+- The 32 samples match Round 1: no black, blank or frozen frames, the death counter goes up in order from 218 to 225, Doug is on-model, and there is no gore.
+- The thumbnails are unchanged and still pass.
+
+## Shorts: PASS
+
+| Short | Payoff | Cliffhanger | Silhouette | Result |
+|---|---|---|---|---|
+| short01 (face sensitivity) | yes | "WHAT HAPPENED WHEN DOUG'S DROP FELL?" is not answered | open croc jaws, readable | PASS (fixed) |
+| short02 (411 km home) | yes | unchanged, not answered | tub with croc hump | PASS |
+| short03 (Cassius 110+) | yes | unchanged, not answered | croc profile | PASS |
+| short04 (11.5 h dive) | yes | unchanged, not answered | croc profile | PASS |
+
+**short01 fix 1 (question): verified.**
+- The clip runs s045 to s057 and ends on "It can feel him."
+- The new end card asks about Doug's own drop. The outro sets it up: "sat perfectly still in a canoe... One drop fell."
+- The answer (s061 to s062, "One drop falls from his paddle. Doug has died. Again.") is outside the clip.
+- The earlier alligator-tank drop (s050 to s052) no longer gives the answer away, because the question is now about Doug.
+
+**short01 fix 2 (silhouette): verified.**
+- `croc_jaws_open` renders as a large black silhouette with a red outline. It shows a long upper snout with a jagged tooth line, an open lower jaw and a nostril bump, so it reads as crocodile jaws in under a second.
+- "???" sits inside the gape and the upper jaw, but the snout tip, teeth and lower jaw are all still visible around it.
+- The red glow below and the arrow pointing down sit correctly.
+- The question text, the title and "Full video below." are all legible.
+
+**Minor, not blocking:**
+- (a) On short01's silhouette, the back of the head is cut off flat on the left, which makes that end look a little boxy. Optional for the illustrator: round off the back of the skull.
+- (b) The short03 and short04 silhouettes are thin profiles, and "???" covers their middle. They still read as crocs because the snout and tail are visible, the same as in Round 1.
+- (c) The `*_preview.png` stills still catch subtitles mid-phrase. This only affects the preview capture.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS

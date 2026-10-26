@@ -122,3 +122,8 @@ deadpan ("ANYWAY" while fishing a river he just called empty). I would keep watc
 croc) belongs to the Shorts pipeline. It must be fixed and re-screened before short01 is uploaded, and it does not hold the main video.
 
 FINAL: APPROVED
+
+## 2026-10-26, showrunner round 2
+QC exit 1 reported but qc.json problems: []. Visual screener round 2: main PASS, shorts PASS (short01 end card and croc_jaws_open silhouette fixed). Main video files unchanged since the creative director gate; approval stands. Stage qc_passed.
+
+FINAL: APPROVED
