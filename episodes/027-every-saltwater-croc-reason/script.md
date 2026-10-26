@@ -1,13 +1,14 @@
 <!-- axis: severity, measured as how close the danger gets to Doug. From a crocodile hidden in a river Doug has checked and called empty (item 1) to a species that people nearly wiped out, then protected, and that now lives in a capital city's harbor (item 11). Spoken section headers: none before item 1 (cold open straight into The Dive), "Noticed." (before item 2: it knows Doug is there), "Followed." (before item 5, about 40%: it goes where Doug goes), "Chosen." (before item 9, about 75%: it treats Doug as food). -->
+<!-- Draft 2 (2026-10-26, script writer), per script_review.md. Required: (1) The Lunge no longer calls the crocodile slow on land anywhere: Hutchinson 2019 is said as a relative finding (bigger moves less athletically than smaller), Doug's "big must mean slow" is framed as Doug's mistake, and the NT Government's own line (faster than humans on land for short bursts) corrects it; new kicker. (2) Outro cut to 26 words ("Tell us in the comments." dropped). (3) and (4) facts.md: Sideleau, Sitorus, Suryana and Britton 2021, archived NT URLs, the 2008 Darwin Harbour release. Recommended: the Dive temperature paragraph trimmed to 25 words, first death now at spoken word 209 (about 1:04 of narration, about 1:07 with the thumbnail hold); Lolong said as "largest crocodile in captivity", per Guinness; "Here's where it gets worse." replaced by "Here's the part people get wrong."; new kickers at The Skin (flat), The Size, The Lunge and The Legend; "Doug is fine." at The Size replaced by the narrator's disappointment ("Doug survives this one. We had the splash ready."); years all read as "two thousand ..." from 2001 on. Length recovered in floor items: The Home (crocodile C waited more than three months before swimming home; at the time, the longest homeward journey reported for a crocodilian, both from Read et al. 2007) and The Size (Cassius came from the Northern Territory; the park believed he outlived a wild crocodile's years, NBC). -->
 <!-- Episode 027, draft 1 (2026-10-26, script writer). Cold-open experiment: the first spoken sentence is the cold-open fact, Doug's line comes second, "The Dive." is at spoken word 29. Counter on screen at 218 from the first shot, ends at 226: eight deaths (219 The Dive, 220 The Skin said flat, 221 The Egg, 222 The Home, 223 The Lunge, 224 The Roll, 225 The Menu, 226 The Comeback). Survivals: The Tongue ("Doug is fine."), The Size (narrator quietly disappointed), The Legend ("Doug is fine. The legend is not."). "Doug did not agree to this." at The Dive. "Doug has died. Again." once, at The Skin. Befriending: "hi friends?" (The Egg, The Comeback), "hi friend?" (The Size), "FRIEND?" written in the guide (The Menu). The cap: floats (The Dive), still on his head (The Tongue), on the nest mound (The Egg), in the bathtub (The Home), hanging from the twig (The Lunge), flung onto the bank (The Roll), on the jetty (The Menu), in the rangers' trap (closing). One 011 callback only: the SALTWATER CROCODILE page already has a red NO; it ends with three. Sober cards, no Doug, no jokes, no names: The Legend (1945) and The Menu (attack numbers). No log, no costume, no episode meter, no bite number, no tide, no word "surf". Teeth never touch Doug on screen; every death cuts to splash or spray. -->
 <!-- Deviations from the brief, all fact-driven (sources and reasons in facts.md, "Brief checks"):
 1. Cold open: no government or ABC figure for a recent Darwin Harbour-only count could be found (recent releases give Territory-wide totals only). The sourced, dated harbor figures are 215 removed from Darwin Harbour in 2012 (PWCNT, via RNZ and the Katherine Times) and 212 in 2014 (NT Government media release). So the line is "In a single year, rangers have pulled more than two hundred saltwater crocodiles out of one city's harbor." The comeback-number fallback was not needed.
-2. The Dive: Campbell, Dwyer, Irwin and Franklin 2010 turned out to be a freshwater-crocodile paper (the Proc R Soc B "thermal window" study), so it is not used. The dive records come from the Queensland Museum (a resting crocodile stays under "at least 8 hours"; one large estuarine crocodile "recorded at 11.5 hours"), with the temperature effect from Rodgers et al. 2015 (UQ release, Conservation Physiology). The cog-tooth valve sentence is cut: the sources disagree on whether the shunt helps diving at all (Eme et al. 2009 found it made no difference in alligators), so the one-sentence physiology beat uses the Queensland Museum's heart rate figure instead. Franklin's "up to seven hours" quote (BBC Wildlife 2016) is not spoken, because next to the museum's "at least eight hours" it would sound like a contradiction; the same article's finding that tagged crocodiles' body temperature follows the water is used instead.
+2. The Dive: Campbell, Dwyer, Irwin and Franklin 2010 turned out to be a freshwater-crocodile paper (the Proc R Soc B "thermal window" study), so it is not used. The dive records come from the Queensland Museum (a resting crocodile stays under "at least 8 hours"; one large estuarine crocodile "recorded at 11.5 hours"), with the temperature effect from Rodgers et al. 2015 (UQ release, Conservation Physiology). The cog-tooth valve sentence is cut: the sources disagree on whether the shunt helps diving at all (Eme et al. 2009 found it made no difference in alligators), so the one-sentence physiology beat uses the Queensland Museum's heart rate figure instead. Franklin's "up to seven hours" quote (BBC Wildlife 2016) is not spoken, because next to the museum's "at least eight hours" it would sound like a contradiction; in draft 2 the temperature beat is cut to one line ("cooler water meant longer dives", Rodgers et al. 2015) and the tracker finding is no longer spoken.
 3. The Skin: the single-drop experiment was on American alligators (Soares 2002), and Leitch and Catania tested American alligators and Nile crocodiles, not saltwater crocodiles. The script names alligators for the drop test and alligators and Nile crocodiles for the sensor counts, and never claims the tests were on saltwater crocodiles.
 4. The Tongue: the CSG account says the species "thrives in freshwater", so the twist is "the name is not a nickname, it is an incomplete list" (river and sea are both its territory), which keeps the brief's meaning and stays accurate. Island record: the FAO species guide's "islands over 1,000 km from the nearest population". The Great Barrier Reef comparison replaces the continental-US one, because no source gives a span for the range.
-5. Item 7 is "The Lunge", not "The Jump" (FLAGGED item). No primary or textbook source for vertical leaps at branches was found; the only material is tour-boat footage and a blog. The Gallop swap fails the brief's own test: Hutchinson et al. 2019 did not film C. porosus, and the only porosus bounding report they cite is for young animals under 2 m. What a government source does support is the Northern Territory Government's description of the tail as solid muscle and "a major source of power" that lets the crocodile make sudden lunges out of the water to grab prey. The item uses that, plus Hutchinson's finding that big crocodylians are less athletic on land as the false comfort. The twist ("out of reach was a guess") and the Doug beat (branch, twig, cap) are kept, with a low branch. Creative director to confirm the rename.
+5. Item 7 is "The Lunge", not "The Jump" (FLAGGED item). No primary or textbook source for vertical leaps at branches was found; the only material is tour-boat footage and a blog. The Gallop swap fails the brief's own test: Hutchinson et al. 2019 did not film C. porosus, and the only porosus bounding report they cite is for young animals under 2 m. What a government source does support is the Northern Territory Government's description of the tail as solid muscle and "a major source of power" that lets the crocodile make sudden lunges out of the water to grab prey. The item uses that, plus Hutchinson's relative finding (bigger crocodylians move less athletically than smaller ones), which Doug wrongly reads as "slow"; the NT Government's next sentence (faster than humans on land for short bursts) corrects him (draft 2). The twist ("out of reach was a guess") and the Doug beat (branch, twig, cap) are kept, with a low branch. Creative director to confirm the rename.
 6. The Legend (FLAGGED item): kept. No personal names are spoken on the sober card ("a team of crocodile scientists", "a British historian", "a naturalist's book"); the names are in facts.md. Two attributed doubters: Platt and colleagues, Herpetological Bulletin 2001 (read in full), and historian Sam Willis's documentary research for National Geographic, after which Guinness took the record out of circulation (Guinness World Records news, 13 Dec 2016). McLynn 2011 is listed in facts.md as a third, but not spoken, because I could only reach it through Wikipedia.
-7. The Menu: the CrocBITE founder is not named (Adam Britton's 2023 conviction makes the attribution a brand-safety problem, and the database is now offline and renamed). The numbers are Sideleau 2021, Marine and Freshwater Research (100 attacks in East Nusa Tenggara, 2009 to 2018, 60 percent fatal), so the analogy is "worse than a coin flip", not "about half". "People as prey" is attributed to crocodile scientists (Platt et al. 2001, citing Pooley et al. 1989; CSG status account 2018).
+7. The Menu: the CrocBITE founder is not named (Adam Britton's 2023 conviction makes the attribution a brand-safety problem, and the database is now offline and renamed). The numbers are Sideleau, Sitorus, Suryana and Britton 2021, Marine and Freshwater Research, built on CrocBITE data (Britton is a co-author; no names are spoken, but the CD should decide knowingly before the paper goes in the description's SOURCES) (100 attacks in East Nusa Tenggara, 2009 to 2018, 60 percent fatal), so the analogy is "worse than a coin flip", not "about half". "People as prey" is attributed to crocodile scientists (Platt et al. 2001, citing Pooley et al. 1989; CSG status account 2018).
 8. The Egg: the survival figure is the Territory Wildlife Park's "about 1%" (NT Government park); the mouth-carry is the Queensland Museum's "may gently carry them to the water in her mouth", said as "may".
 9. The Size: Cassius's age is attributed as an estimate ("was thought to be more than one hundred and ten years old. Nobody knew for sure"); the analogy is "around the start of the First World War", because "more than 110" in November 2024 does not guarantee a hatch before the Titanic.
 10. The Comeback: about 3,000 when hunting was banned (AAP report of the 2024 management program); 80,000 to 100,000 now, near pre-hunting levels (Webb, Manolis and Brien 2018, CSG). Fukuda et al. 2011 supports the 1971 protection and the recovery, but gives densities, not totals, so the totals are not attributed to it.
@@ -46,7 +47,7 @@ Doug watched this river for an hour before deciding that it was empty. For a cro
 
 [Thermometer beside the water, the mercury low. Red arrow: "COOLER WATER = LONGER DIVES".]
 
-The temperature of the water matters too. In tests on young saltwater crocodiles, the time they stayed under roughly halved for every three and a half degrees of warming, so the coolest water allows the longest dives. Researchers who put trackers inside more than a hundred and fifty wild saltwater crocodiles in Queensland found that their body temperature simply follows the water around them. The crocodile never has to come up to check on Doug, because it can simply wait until he gives up and wades in.
+In tests on young saltwater crocodiles, cooler water meant longer dives. The crocodile never has to come up to check on Doug. It can simply wait.
 
 [The narrator's hand passes Doug a fishing rod. Doug takes it, looking at the water.]
 
@@ -98,7 +99,7 @@ One drop falls from his paddle.
 
 Doug has died. Again.
 
-He didn't make a sound, but he was still dripping, and in the dark that was more than enough.
+He didn't make a sound. One drop was enough.
 
 ## The Tongue
 
@@ -190,11 +191,11 @@ In Australia, adult females rarely grow longer than three meters, while males ha
 
 [A photo-style inset frame: a crocodile in a pen, with a tape line. Label: "6.17 M, 2011".]
 
-In two thousand eleven, a male called Lolong was captured in the southern Philippines. Guinness World Records listed him at six point one seven meters and named him the longest crocodile in captivity, and he died in two thousand thirteen.
+In two thousand eleven, a male called Lolong was captured in the southern Philippines. He measured six point one seven meters, Guinness World Records named him the largest crocodile in captivity, and he died in two thousand thirteen.
 
 [A second inset frame: an older crocodile on an island. Label: "5.48 M".]
 
-His title passed to Cassius, a crocodile in Queensland who measured about five and a half meters. Cassius lived in a crocodile park on an island near Cairns from nineteen eighty-seven until he died in November twenty twenty-four.
+His title passed to Cassius, a crocodile in Queensland who measured about five and a half meters. Cassius lived in a crocodile park on an island near Cairns from nineteen eighty-seven until he died in November two thousand twenty-four. He had been brought there from the Northern Territory, and the park believed he had lived well beyond the years of a wild crocodile.
 
 Here's what nobody could measure.
 
@@ -212,9 +213,9 @@ Doug has brought a tape measure to find out how big this one is, and the tape ru
 
 Doug pats it gently on the nose and says hello, and the crocodile stays asleep.
 
-Doug is fine.
+Doug survives this one. We had the splash ready.
 
-We had already filled in the paperwork, but the tape ran out before the crocodile did, and that was the end of it.
+The tape ran out at the back legs. The crocodile did not.
 
 ## The Home
 
@@ -230,7 +231,11 @@ Australian scientists caught three large males, fitted each one with a satellite
 
 [On the map, a red line starts at the release point, travels north up the east coast, rounds the tip of Cape York, and runs back down the west coast to the start. Label: "411 KM, 20 DAYS".]
 
-He didn't take the short way back over land. He swam north, rounded the tip of Cape York, and came back down the other side, covering four hundred and eleven kilometers of coastline in twenty days. That's about twenty kilometers a day, close to a half marathon, every day for almost three weeks. He arrived home on Christmas Eve.
+He didn't take the short way back over land. He swam north, rounded the tip of Cape York, and came back down the other side, covering four hundred and eleven kilometers of coastline in twenty days. That's about twenty kilometers a day, close to a half marathon, every day for almost three weeks. He arrived home on Christmas Eve. At the time, it was the longest journey home ever reported for a crocodile.
+
+[A calendar beside the release point. Pages flip: one month, two, three. The crocodile lies in the shallows, still.]
+
+And he wasn't in a hurry to start. For more than three months, he stayed near the place where he'd been released, as if he'd settled in. Then he left.
 
 The worst part is that he wasn't special.
 
@@ -240,7 +245,7 @@ All three crocodiles found their way back to where they had been caught. The sci
 
 [Doug in a car, towing a trailer with a crocodile in it. A long road. He opens the trailer at the end, waves, and drives away.]
 
-Doug has driven a crocodile a very long way from home, waved goodbye, and driven all the way back.
+Doug has driven a crocodile a very long way from home, waved goodbye, and waited three whole months to be sure it had settled in.
 
 [Doug's bathroom. He opens the door with a towel over his shoulder. A crocodile lies in the bathtub. Cut to a splash. The cap floats in the tub. DOUG DEATHS: 222.]
 
@@ -256,15 +261,15 @@ The Lunge.
 
 [Dusk. A crocodile on a riverbank, walking slowly. Doug watches from a tree.]
 
-On land, a big crocodile is not much of an athlete. A two thousand nineteen study filmed fifteen species of crocodiles and their relatives moving at different speeds, and found that the bigger the animal, the less athletic its movement on land.
+On land, size has a cost. A two thousand nineteen study filmed fifteen species of crocodiles and their relatives moving at different speeds, and found that bigger animals moved less athletically on land than smaller ones.
 
-[A stick-figure chart: small crocodile running, medium crocodile trotting, large crocodile plodding. A red arrow points down along the row.]
+[A stick-figure chart: small crocodile bounding, medium crocodile trotting, large crocodile walking. A red arrow points down along the row: "LESS ATHLETIC THAN A SMALL ONE".]
 
 Some crocodiles can gallop, but for this species, the only report of bounding that the scientists cite was in young ones under two meters long.
 
 [Doug climbs onto a low branch hanging over the river, about as high above the water as a kitchen counter is above the floor. He unwraps a sandwich.]
 
-Doug has read all of this and made a plan. He's climbed onto a branch about as high above the water as a kitchen counter, where he can eat his lunch in peace.
+Doug has read all of this and made a plan. He's decided that a big crocodile must be a slow crocodile. So he's climbed onto a branch about as high above the water as a kitchen counter, where he can eat his lunch in peace.
 
 But that's not where the danger is.
 
@@ -274,7 +279,11 @@ The Northern Territory Government describes the saltwater crocodile's tail as so
 
 [Diagram: the tail sweeps, the body rises out of the water, jaws closed, toward the branch. Dotted line: "OUT OF REACH?" with a red question mark.]
 
-So the slow animal on the bank and the animal under Doug's branch are not the same problem. On land, it plods. In the water, it has the tail, and Doug has chosen to sit directly above the water.
+The same page adds that those muscles let crocodiles move faster than humans on land, for short bursts. Less athletic than a small crocodile does not mean slower than Doug.
+
+[A stick-figure race on a muddy bank: Doug and a crocodile side by side for a few steps, the crocodile a nose ahead. Label: "SHORT BURSTS".]
+
+And Doug has chosen to sit directly above the water, which is where that tail does its best work.
 
 Doug climbed out of reach. "Out of reach" was a guess.
 
@@ -284,7 +293,7 @@ Doug takes the first bite of his sandwich.
 
 Doug has died.
 
-The branch was the right height for a picnic, but nobody had told the crocodile that it was a picnic.
+Doug's whole plan was about the crocodile on land. The crocodile was never on land.
 
 ## The Roll
 
@@ -306,7 +315,7 @@ Then the whole animal spun along its length, and when the researchers held the t
 
 Large Nile crocodiles have been measured spinning at somewhere between half a turn and one full turn every second. A two thousand nineteen survey tested crocodiles from every living species, including thin-snouted species that had been thought unable to do it, and all but one species rolled.
 
-Here's where it gets worse.
+Here's the part people get wrong.
 
 [The grey shape stays fixed in the jaws while the whole crocodile turns around it. Red arrow: "THE CROCODILE SPINS".]
 
@@ -358,7 +367,7 @@ Doug reads the record book on a rock, closes it, and feels much better.
 
 Doug is fine. The legend is not.
 
-The book was wrong about the biggest attack in history. That isn't good news for Doug, because the real danger was never one big night.
+The record book got the biggest number wrong. The small numbers are still being counted.
 
 ## The Menu
 
@@ -378,7 +387,7 @@ A two thousand twenty-one study looked at one province of Indonesia, East Nusa T
 
 [A second highlighted map: Queensland. Label: "35 ATTACKS, 1971 TO 2015".]
 
-Even in Queensland, crocodile experts counted thirty-five attacks between nineteen seventy-one and twenty fifteen.
+Even in Queensland, crocodile experts counted thirty-five attacks between nineteen seventy-one and two thousand fifteen.
 
 Here's the disturbing part. To a large saltwater crocodile, a person isn't a threat to chase off, and it isn't a case of mistaken identity.
 
@@ -444,6 +453,6 @@ In the morning, the rangers pull up one of their traps, and inside is a single r
 
 [End card: "DOUG DEATHS: 226".]
 
-Doug deaths: two hundred and twenty-six. The cap has been relocated. It will probably come home. Which crocodile fact would keep you out of the water? Tell us in the comments.
+Doug deaths: two hundred and twenty-six. The cap has been relocated. It will probably come home. Which crocodile fact would keep you out of the water?
 
-<!-- words: 2846 (spoken narration only: cold open, spoken section headers, item names and outro included; markdown headings, HTML comments and stage directions excluded; regex word count, textstat Flesch) · est. runtime 14:36 at 195 wpm (brief target 2,800-3,200, 14-16 min) · draft 1 (2026-10-26) · 11 items · Flesch 70.2 · 201 sentences, average 14.2 words, longest 34 · cold open 28 words, "The Dive." at spoken word 29, twist marker "Here's the problem." at word 130 (about 40 s), first death (219) at about 1:30 · cold open plus item 1: 296 · per item (each count includes the section header that follows it): The Dive 268, The Skin 243, The Tongue 264, The Egg 242, The Size 233, The Home 231, The Lunge 230, The Roll 234, The Legend 286, The Menu 234, The Comeback 353 incl. the 30-word outro (323 without) · every item has a sentence of 6 words or fewer besides its name · twist markers rotate: problem / unsettling part / twist / strange part / what nobody could measure / worst part / not where the danger is / where it gets worse / uncomfortable part / disturbing part / the thing nobody planned for · tics: actually 1, however 0, essentially 0, incredibly 0 · US spelling throughout -->
+<!-- words: 2841 (spoken narration only: cold open, spoken section headers, item names and outro included; markdown headings, HTML comments and stage directions excluded; regex word count, same method as draft 1) · est. runtime 14:34 at 195 wpm (brief target 2,800-3,200, 14-16 min) · draft 2 (2026-10-26) · 11 items · 209 sentences, average 13.6 words, longest 34 · cold open 28 words, "The Dive." at spoken word 29, twist marker "Here's the problem." at word 129 (about 40 s), first death (219) at spoken word 209, about 1:04 (1:07 with the thumbnail hold) · cold open plus item 1: 235 · per item (each count includes the section header that follows it): The Dive 207, The Skin 233, The Tongue 264, The Egg 242, The Size 251, The Home 281, The Lunge 241, The Roll 235, The Legend 276, The Menu 235, The Comeback 348 incl. the 26-word outro (322 without) · every item has a sentence of 6 words or fewer besides its name · twist markers rotate: problem / unsettling part / twist / strange part / what nobody could measure / worst part / not where the danger is / the part people get wrong / uncomfortable part / disturbing part / the thing nobody planned for · tics: actually 1, however 0, essentially 0, incredibly 0 · US spelling throughout -->
