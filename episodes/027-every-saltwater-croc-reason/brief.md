@@ -280,7 +280,7 @@ It is a survival: Doug swallows a pebble in solidarity and nothing happens. Don'
   - a mound nest with small background hatchlings
   - a mother croc carrying a hatchling in her jaws (closed, gentle)
   - a croc in a bathtub
-  - a vertical jump from the water at a branch
+  - a crocodile rising out of the water toward a low branch, body mostly submerged, jaws closed (CD 2026-10-26: no vertical leap, see decisions.md)
   - a spinning-top blur
   - a Guinness-style record book
   - a jetty
