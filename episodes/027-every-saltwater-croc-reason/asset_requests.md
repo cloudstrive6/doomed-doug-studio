@@ -25,6 +25,7 @@ Drawn from primitives in the shotlist (no asset needed): field-guide name and NO
 
 ### croc_jaw_closeup / croc_jaw_closeup_lit
 - **DONE** (illustrator, 2026-10-26): preview `assets/previews/027-every-saltwater-croc-reason-assets.png`. Neck edge at x -460.
+- **ROUND 2 DONE** (illustrator, 2026-10-26, art review fix A): preview `assets/previews/027-every-saltwater-croc-reason-assets-r2.png`. Neck continues as one body (scale rows, nuchal scutes, belly band, jaw ends at a hinge) with no closing outline to x -1750 in both files; `_lit` geometry identical, glow dots still on the head only. New bbox x -1750..450, y -226..252.
 - What: close-up of a saltwater crocodile's snout, side view, for the touch-sensor (ISO) beat.
 - Look: the front half of the head, jaws closed, interlocking teeth along the jaw line, eye at the left edge (about (-300,-120)), nostril bump at the snout tip. **The jaw scales are covered in many tiny dark dots** (dome pressure receptors, `#2a2a20`, 4-6 px at scale 1), densest along the jaw edges. `_lit` is identical geometry with each dot **glowing yellow `#ffe24a`** (small solid dot plus a tight pale halo), so it can be overlaid on the plain one.
 - Facing: right. Anchor centre. bbox x -450..450, y -190..190.
@@ -52,6 +53,7 @@ Drawn from primitives in the shotlist (no asset needed): field-guide name and NO
 
 ### croc_tongue_closeup
 - **DONE** (illustrator, 2026-10-26): preview `assets/previews/027-every-saltwater-croc-reason-assets.png`.
+- **ROUND 2 DONE** (illustrator, 2026-10-26, fix A): preview `assets/previews/027-every-saltwater-croc-reason-assets-r2.png`. Jaw rims, 3 more teeth per side, gum, tongue (pores in the art director's grey) and throat run open-ended to x -1000. New bbox x -1000..400, y -240..240.
 - What: close-up of the saltwater crocodile's tongue inside the open lower jaw (salt glands).
 - Look: pale pink-yellow tongue `#f0c8a8` filling the middle, edged by the lower teeth row; **a neat row of tiny dark pores** (salt glands) across the tongue, a few tiny white specks leaving them. No blood, no food.
 - Anchor centre. bbox x -400..400, y -220..220.
@@ -87,6 +89,7 @@ Drawn from primitives in the shotlist (no asset needed): field-guide name and NO
 
 ### croc_mother_hatchling
 - **DONE** (illustrator, 2026-10-26): preview `assets/previews/027-every-saltwater-croc-reason-assets.png`.
+- **ROUND 2 DONE** (illustrator, 2026-10-26, fix A): preview `assets/previews/027-every-saltwater-croc-reason-assets-r2.png`. Neck and shoulder continue open-ended to x -1000, with nuchal scutes and osteoderm rows, and the throat band slopes down to the ground line (y 0..8). New bbox x -1000..350, y -395..8.
 - What: the mother's head in profile carrying a hatchling in her closed jaws.
 - Look: saltwater croc head and neck, **jaws closed**, a small hatchling (yellowish-grey with dark bands) just visible between/behind the teeth near the middle of the jaw, head poking out. Gentle, not menacing; hatchling small, not cute.
 - Facing: right. Anchor bottom-centre (lower jaw on y=0). bbox x -350..350, y -330..0.
@@ -129,6 +132,7 @@ Drawn from primitives in the shotlist (no asset needed): field-guide name and NO
 
 ### bathtub_croc
 - **DONE** (illustrator, 2026-10-26): preview `assets/previews/027-every-saltwater-croc-reason-assets.png`. Rim at (-180,-80) left clear for doug_cap.
+- **ROUND 2 DONE** (illustrator, 2026-10-26, fix B): preview `assets/previews/027-every-saltwater-croc-reason-assets-r2.png`. The boxy back of the head is now a sloping neck with nuchal scutes, running down from behind the eye into the body line. The old hump behind the head is removed. Rim at (-180,-80) is still clear. The bbox is unchanged.
 - What: the library `bathtub` with a crocodile lying in it (The Home death and outro callback).
 - Look: identical tub geometry; water line just under the rim; the croc's snout and eye bump over the right rim (jaws closed), tail tip over the left rim, scutes along the middle at the water surface. The shotlist places `doug_cap` floating in the tub at about local (-180,-80).
 - Anchor/bbox: same as `bathtub` (centre) plus the head rising to y -210: x -334..334, y -210..129.
@@ -157,6 +161,7 @@ Drawn from primitives in the shotlist (no asset needed): field-guide name and NO
 
 ### croc_holding_shape
 - **DONE** (illustrator, 2026-10-26): preview `assets/previews/027-every-saltwater-croc-reason-assets.png`. Snout ripple to x +440.
+- **ROUND 2 DONE** (illustrator, 2026-10-26, fix C): preview `assets/previews/027-every-saltwater-croc-reason-assets-r2.png`. The grey oblong now crosses the closed jaw line: it pokes above the snout and below the lower jaw, and the upper jaw fill, upper teeth, jaw line and top outline are drawn over it. Same sloped neck as fix B. The dark rectangle is gone: the submerged body runs under the head instead. The head is raised 22 units. New bbox x -400..440, y -100..50.
 - What: a crocodile at the surface holding something too big to swallow (The Roll).
 - Look: croc head and back at the surface, jaws closed around a **plain grey oblong shape `#8a8f96`** (no limbs, no features, no colour, clearly "undefined thing"). Water ripples around.
 - Facing: right. Anchor centre on the waterline. bbox x -400..400, y -100..100.

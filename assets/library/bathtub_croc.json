@@ -1,6 +1,6 @@
 {
  "name": "bathtub_croc",
- "description": "The library bathtub (identical tub geometry) with a saltwater crocodile lying in it: row of back scutes along the middle just above the rim, head resting raised over the right rim (jaws closed, yellow eye, snout tip at x 334, eye bump up to y -210), tail tip draped over the left rim, a few water drips. Leaves the rim at about (-180,-80) clear for doug_cap. Anchor centre; bbox x -334..334, y -210..129.",
+ "description": "The library bathtub (identical tub geometry) with a saltwater crocodile lying in it: row of back scutes along the middle just above the rim, head resting raised over the right rim on a sloping neck that runs down from behind the eye into the body line (jaws closed, yellow eye, snout tip at x 334, eye bump up to y -210), tail tip draped over the left rim, a few water drips. Leaves the rim at about (-180,-80) clear for doug_cap. Anchor centre; bbox x -334..334, y -210..129.",
  "anchor": [
   0,
   0
@@ -181,86 +181,6 @@
    "type": "poly",
    "points": [
     [
-     -23,
-     -105.2
-    ],
-    [
-     -14,
-     -118.2
-    ],
-    [
-     -5,
-     -105.2
-    ]
-   ],
-   "fill": "#4a4d2c",
-   "width": 3,
-   "color": "#000000"
-  },
-  {
-   "type": "poly",
-   "points": [
-    [
-     3,
-     -105.3
-    ],
-    [
-     12,
-     -118.3
-    ],
-    [
-     21,
-     -105.3
-    ]
-   ],
-   "fill": "#4a4d2c",
-   "width": 3,
-   "color": "#000000"
-  },
-  {
-   "type": "poly",
-   "points": [
-    [
-     29,
-     -103.7
-    ],
-    [
-     38,
-     -116.7
-    ],
-    [
-     47,
-     -103.7
-    ]
-   ],
-   "fill": "#4a4d2c",
-   "width": 3,
-   "color": "#000000"
-  },
-  {
-   "type": "poly",
-   "points": [
-    [
-     55,
-     -102.2
-    ],
-    [
-     64,
-     -115.2
-    ],
-    [
-     73,
-     -102.2
-    ]
-   ],
-   "fill": "#4a4d2c",
-   "width": 3,
-   "color": "#000000"
-  },
-  {
-   "type": "poly",
-   "points": [
-    [
      81,
      -100.6
     ],
@@ -336,35 +256,6 @@
    "fill": "#4a4d2c",
    "width": 3,
    "color": "#000000"
-  },
-  {
-   "type": "poly",
-   "points": [
-    [
-     60,
-     -88
-    ],
-    [
-     70,
-     -150
-    ],
-    [
-     110,
-     -192
-    ],
-    [
-     150,
-     -150
-    ],
-    [
-     160,
-     -88
-    ]
-   ],
-   "fill": "#6f7244",
-   "width": 5,
-   "color": "#000000",
-   "smooth": true
   },
   {
    "type": "poly",
@@ -1017,8 +908,24 @@
    "type": "poly",
    "points": [
     [
-     74.9,
-     -188.5
+     -28,
+     -116
+    ],
+    [
+     -5,
+     -121
+    ],
+    [
+     30,
+     -138
+    ],
+    [
+     62,
+     -166
+    ],
+    [
+     92,
+     -200
     ],
     [
      95.2,
@@ -1085,18 +992,39 @@
      -92.0
     ],
     [
-     74.9,
-     -96.8
+     30,
+     -92
+    ],
+    [
+     -28,
+     -92
     ]
    ],
    "fill": "#6f7244",
    "width": 5,
    "color": "#000000",
-   "smooth": true
+   "smooth": true,
+   "outline": false
   },
   {
    "type": "poly",
    "points": [
+    [
+     -10,
+     -116
+    ],
+    [
+     12,
+     -124
+    ],
+    [
+     34,
+     -135
+    ],
+    [
+     64,
+     -162
+    ],
     [
      80.0,
      -188.5
@@ -1132,6 +1060,14 @@
     [
      80.0,
      -164.4
+    ],
+    [
+     40,
+     -128
+    ],
+    [
+     12,
+     -117
     ]
    ],
    "fill": "#4a4d2c",
@@ -1143,6 +1079,10 @@
   {
    "type": "poly",
    "points": [
+    [
+     20,
+     -102
+    ],
     [
      80.0,
      -111.3
@@ -1170,6 +1110,10 @@
     [
      80.0,
      -96.8
+    ],
+    [
+     20,
+     -94
     ]
    ],
    "fill": "#b9a85e",
@@ -1611,11 +1555,65 @@
    "color": "#000000"
   },
   {
-   "type": "poly",
+   "type": "curve",
    "points": [
     [
-     74.9,
-     -188.5
+     22,
+     -124.1
+    ],
+    [
+     27,
+     -112
+    ],
+    [
+     25,
+     -104
+    ]
+   ],
+   "width": 2,
+   "color": "#55582f"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     46,
+     -142.0
+    ],
+    [
+     51,
+     -112
+    ],
+    [
+     49,
+     -104
+    ]
+   ],
+   "width": 2,
+   "color": "#55582f"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -28,
+     -116
+    ],
+    [
+     -5,
+     -121
+    ],
+    [
+     30,
+     -138
+    ],
+    [
+     62,
+     -166
+    ],
+    [
+     92,
+     -200
     ],
     [
      95.2,
@@ -1682,14 +1680,92 @@
      -92.0
     ],
     [
-     74.9,
-     -96.8
+     60,
+     -92
     ]
    ],
-   "fill": null,
    "width": 5,
-   "color": "#000000",
-   "smooth": true
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -21,
+     -115.5
+    ],
+    [
+     -14,
+     -131.5
+    ],
+    [
+     -4,
+     -115.5
+    ]
+   ],
+   "fill": "#4a4d2c",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     5,
+     -126.2
+    ],
+    [
+     12,
+     -142.2
+    ],
+    [
+     22,
+     -126.2
+    ]
+   ],
+   "fill": "#4a4d2c",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     31,
+     -142.8
+    ],
+    [
+     38,
+     -158.8
+    ],
+    [
+     48,
+     -142.8
+    ]
+   ],
+   "fill": "#4a4d2c",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     57,
+     -166.5
+    ],
+    [
+     64,
+     -182.5
+    ],
+    [
+     74,
+     -166.5
+    ]
+   ],
+   "fill": "#4a4d2c",
+   "width": 3,
+   "color": "#000000"
   },
   {
    "type": "poly",
