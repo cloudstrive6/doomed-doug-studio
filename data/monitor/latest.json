@@ -1,12 +1,22 @@
 {
- "at": "2026-10-26T15:02:04+00:00",
+ "at": "2026-10-26T16:01:46+00:00",
  "issues": [
+  {
+   "key": "queue_low",
+   "severity": "medium",
+   "owner": "auto",
+   "summary": "Queue 2/3 and no production running: started a production run",
+   "detail": "",
+   "route": "dispatch produce.yml",
+   "fixed": true,
+   "extra": {}
+  },
   {
    "key": "related_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "12 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
-   "detail": "This Cave Has Been Sealed for at Least 2.5 Million Years -> Why the Ground Gets Deadlier the Deeper Doug Goes\nA Scientist Tasted Billion-Year-Old Water -> Why the Ground Gets Deadlier the Deeper Doug Goes\nThe Deepest Hole Ever Drilled Is 0.2% of the Way Down -> Why the Ground Gets Deadlier the Deeper Doug Goes\nOne Orca Killed a Great White Shark in Two Minutes -> Why Orcas Kill Everything in the Ocean Except Doug\nOrcas Have Been Caught Killing Swimming Moose -> Why Orcas Kill Everything in the Ocean Except Doug\nOrcas Hunt the Largest Animal That Has Ever Lived -> Why Orcas Kill Everything in the Ocean Except Doug\nA Komodo Dragon Can Smell Carrion Four Kilometers Away -> How the Komodo Dragon Kills Doug Without Chasing Him\nA Komodo Dragon Ate a 31-Kilogram Boar in 17 Minutes -> How the Komodo Dragon Kills Doug Without Chasing Him\nKomodo Dragons Can Have Babies Without Ever Meeting a Male -> How the Komodo Dragon Kills Doug Without Chasing Him\nThis Ancient Caiman Weighed More Than Five Hippos -> Would a Hippo Survive Every Prehistoric Era? Doug Died Trying\nTitanoboa Was Longer Than a City Bus -> Would a Hippo Survive Every Prehistoric Era? Doug Died Trying\nThese Dinosaur Footprints Were a Meter Long -> Would a Hippo Survive Every Prehistoric Era? Doug Died Trying",
+   "summary": "16 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "detail": "This Cave Has Been Sealed for at Least 2.5 Million Years -> Why the Ground Gets Deadlier the Deeper Doug Goes\nA Scientist Tasted Billion-Year-Old Water -> Why the Ground Gets Deadlier the Deeper Doug Goes\nThe Deepest Hole Ever Drilled Is 0.2% of the Way Down -> Why the Ground Gets Deadlier the Deeper Doug Goes\nOne Orca Killed a Great White Shark in Two Minutes -> Why Orcas Kill Everything in the Ocean Except Doug\nOrcas Have Been Caught Killing Swimming Moose -> Why Orcas Kill Everything in the Ocean Except Doug\nOrcas Hunt the Largest Animal That Has Ever Lived -> Why Orcas Kill Everything in the Ocean Except Doug\nA Komodo Dragon Can Smell Carrion Four Kilometers Away -> How the Komodo Dragon Kills Doug Without Chasing Him\nA Komodo Dragon Ate a 31-Kilogram Boar in 17 Minutes -> How the Komodo Dragon Kills Doug Without Chasing Him\nKomodo Dragons Can Have Babies Without Ever Meeting a Male -> How the Komodo Dragon Kills Doug Without Chasing Him\nThis Ancient Caiman Weighed More Than Five Hippos -> Would a Hippo Survive Every Prehistoric Era? Doug Died Trying\nTitanoboa Was Longer Than a City Bus -> Would a Hippo Survive Every Prehistoric Era? Doug Died Trying\nThese Dinosaur Footprints Were a Meter Long -> Would a Hippo Survive Every Prehistoric Era? Doug Died Trying\nNewfoundland Had No Moose, Now It Has Over 100,000 -> Why Moose Are Deadlier to Doug Than Any Bear\nMoose Feed Underwater Because Their Nostrils Seal Shut -> Why Moose Are Deadlier to Doug Than Any Bear\nTwo Bull Moose Were Found Frozen in Ice, Antlers Locked -> Why Moose Are Deadlier to Doug Than Any Bear\nThat Drunk Moose in an Apple Tree Probably Wasn't Drunk -> Why Moose Are Deadlier to Doug Than Any Bear",
    "route": "",
    "fixed": false,
    "extra": {}
