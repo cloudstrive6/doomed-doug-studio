@@ -1,4 +1,5 @@
 <!-- axis: severity, measured as how close the danger gets to Doug. From a crocodile hidden in a river Doug has checked and called empty (item 1) to a species that people nearly wiped out, then protected, and that now lives in a capital city's harbor (item 11). Spoken section headers: none before item 1 (cold open straight into The Dive), "Noticed." (before item 2: it knows Doug is there), "Followed." (before item 5, about 40%: it goes where Doug goes), "Chosen." (before item 9, about 75%: it treats Doug as food). -->
+<!-- Draft 3 (2026-10-26, script writer), per the draft 2 script_review.md. (1) Rule 9: eleven sentence merges or cuts, wording kept: The Dive (hour/short dive; check on Doug, because it can simply wait), The Skin, The Tongue ("isn't a nickname, it's an incomplete list"), The Egg (garden waste, but it's a nest), The Size, The Home (Christmas Eve; settled in, and then he left), The Lunge ("Doug has read all of this and made a plan." dropped, per the recommendation; "big must mean slow" joined to the branch line), The Legend. 198 sentences, average 14.5 words, Flesch 69.8 (textstat). (2) Rule 4: The Skin, The Size, The Lunge and The Legend kickers are each one sentence now, wording kept (10, 13, 16 and 16 words). Death 220 still flat. (3) The Dive: Rodgers et al. 2015 test temperatures (twenty-eight degrees Celsius, up to thirty-five) and the halving figure restored, both re-checked against UQ News; the line is in facts.md. Cold open plus item 1 is now 266 words, The Dive 241 including "Noticed.", first death at spoken word 241. -->
 <!-- Draft 2 (2026-10-26, script writer), per script_review.md. Required: (1) The Lunge no longer calls the crocodile slow on land anywhere: Hutchinson 2019 is said as a relative finding (bigger moves less athletically than smaller), Doug's "big must mean slow" is framed as Doug's mistake, and the NT Government's own line (faster than humans on land for short bursts) corrects it; new kicker. (2) Outro cut to 26 words ("Tell us in the comments." dropped). (3) and (4) facts.md: Sideleau, Sitorus, Suryana and Britton 2021, archived NT URLs, the 2008 Darwin Harbour release. Recommended: the Dive temperature paragraph trimmed to 25 words, first death now at spoken word 209 (about 1:04 of narration, about 1:07 with the thumbnail hold); Lolong said as "largest crocodile in captivity", per Guinness; "Here's where it gets worse." replaced by "Here's the part people get wrong."; new kickers at The Skin (flat), The Size, The Lunge and The Legend; "Doug is fine." at The Size replaced by the narrator's disappointment ("Doug survives this one. We had the splash ready."); years all read as "two thousand ..." from 2001 on. Length recovered in floor items: The Home (crocodile C waited more than three months before swimming home; at the time, the longest homeward journey reported for a crocodilian, both from Read et al. 2007) and The Size (Cassius came from the Northern Territory; the park believed he outlived a wild crocodile's years, NBC). -->
 <!-- Episode 027, draft 1 (2026-10-26, script writer). Cold-open experiment: the first spoken sentence is the cold-open fact, Doug's line comes second, "The Dive." is at spoken word 29. Counter on screen at 218 from the first shot, ends at 226: eight deaths (219 The Dive, 220 The Skin said flat, 221 The Egg, 222 The Home, 223 The Lunge, 224 The Roll, 225 The Menu, 226 The Comeback). Survivals: The Tongue ("Doug is fine."), The Size (narrator quietly disappointed), The Legend ("Doug is fine. The legend is not."). "Doug did not agree to this." at The Dive. "Doug has died. Again." once, at The Skin. Befriending: "hi friends?" (The Egg, The Comeback), "hi friend?" (The Size), "FRIEND?" written in the guide (The Menu). The cap: floats (The Dive), still on his head (The Tongue), on the nest mound (The Egg), in the bathtub (The Home), hanging from the twig (The Lunge), flung onto the bank (The Roll), on the jetty (The Menu), in the rangers' trap (closing). One 011 callback only: the SALTWATER CROCODILE page already has a red NO; it ends with three. Sober cards, no Doug, no jokes, no names: The Legend (1945) and The Menu (attack numbers). No log, no costume, no episode meter, no bite number, no tide, no word "surf". Teeth never touch Doug on screen; every death cuts to splash or spray. -->
 <!-- Deviations from the brief, all fact-driven (sources and reasons in facts.md, "Brief checks"):
@@ -43,11 +44,13 @@ Here's the problem.
 
 [A clock on the bank. The hands sweep around once. Doug watches the water the whole time, chin on his hand.]
 
-Doug watched this river for an hour before deciding that it was empty. For a crocodile, an hour is a short dive.
+Doug watched this river for an hour before deciding that it was empty, but for a crocodile, an hour is a short dive.
 
-[Thermometer beside the water, the mercury low. Red arrow: "COOLER WATER = LONGER DIVES".]
+[Thermometer beside the water, the mercury low. Red arrow: "COOLER WATER = LONGER DIVES". Below it: "28°C ... 35°C" and "DIVE TIME HALVES EVERY 3.5°C WARMER".]
 
-In tests on young saltwater crocodiles, cooler water meant longer dives. The crocodile never has to come up to check on Doug. It can simply wait.
+Scientists tested young saltwater crocodiles in water at twenty-eight degrees Celsius, today's summer temperature, and at up to thirty-five degrees. Cooler water meant longer dives, and their time underwater roughly halved for every three and a half degrees of warming.
+
+The crocodile never has to come up to check on Doug, because it can simply wait.
 
 [The narrator's hand passes Doug a fishing rod. Doug takes it, looking at the water.]
 
@@ -61,7 +64,7 @@ Doug has died.
 
 [The field guide, SALTWATER CROCODILE page. A second red NO is stamped under the first.]
 
-The river was never empty. It was holding its breath, and it can hold it for much longer than Doug can watch.
+The river was never empty. It was holding its breath the whole time, and it can hold it for much longer than Doug can watch.
 
 Noticed.
 
@@ -99,7 +102,7 @@ One drop falls from his paddle.
 
 Doug has died. Again.
 
-He didn't make a sound. One drop was enough.
+He didn't make a sound, and one drop was enough.
 
 ## The Tongue
 
@@ -123,7 +126,7 @@ A United Nations fisheries guide notes that single saltwater crocodiles have tur
 
 But here's the twist. Crocodile experts say it also thrives in fresh water, in rivers, lakes and swamps as far as hundreds of kilometers inland.
 
-So "saltwater" isn't a nickname. It's an incomplete list.
+So "saltwater" isn't a nickname, it's an incomplete list.
 
 [Doug sprints from the river across the sand and paddles out to sea on an inflatable ring. He floats there, relieved, eyes closed.]
 
@@ -143,7 +146,7 @@ The Egg.
 
 [Mangrove shade, a little darker. A tall mound of mud and leaves on a riverbank. A large female crocodile lies beside it.]
 
-On a riverbank in the wet season, there's a large pile of mud and dead leaves that looks like garden waste. It's a nest.
+On a riverbank in the wet season, there's a large pile of mud and dead leaves that looks like garden waste, but it's a nest.
 
 [Cutaway of the mound: rows of white eggs inside. Beside it, four egg cartons. Label: "ABOUT 50 EGGS".]
 
@@ -215,7 +218,7 @@ Doug pats it gently on the nose and says hello, and the crocodile stays asleep.
 
 Doug survives this one. We had the splash ready.
 
-The tape ran out at the back legs. The crocodile did not.
+The tape ran out at the back legs, and the crocodile did not.
 
 ## The Home
 
@@ -231,11 +234,11 @@ Australian scientists caught three large males, fitted each one with a satellite
 
 [On the map, a red line starts at the release point, travels north up the east coast, rounds the tip of Cape York, and runs back down the west coast to the start. Label: "411 KM, 20 DAYS".]
 
-He didn't take the short way back over land. He swam north, rounded the tip of Cape York, and came back down the other side, covering four hundred and eleven kilometers of coastline in twenty days. That's about twenty kilometers a day, close to a half marathon, every day for almost three weeks. He arrived home on Christmas Eve. At the time, it was the longest journey home ever reported for a crocodile.
+He didn't take the short way back over land. He swam north, rounded the tip of Cape York, and came back down the other side, covering four hundred and eleven kilometers of coastline in twenty days. That's about twenty kilometers a day, close to a half marathon, every day for almost three weeks. He arrived home on Christmas Eve, and at the time, it was the longest journey home ever reported for a crocodile.
 
 [A calendar beside the release point. Pages flip: one month, two, three. The crocodile lies in the shallows, still.]
 
-And he wasn't in a hurry to start. For more than three months, he stayed near the place where he'd been released, as if he'd settled in. Then he left.
+And he wasn't in a hurry to start. For more than three months, he stayed near the place where he'd been released, as if he'd settled in, and then he left.
 
 The worst part is that he wasn't special.
 
@@ -269,7 +272,7 @@ Some crocodiles can gallop, but for this species, the only report of bounding th
 
 [Doug climbs onto a low branch hanging over the river, about as high above the water as a kitchen counter is above the floor. He unwraps a sandwich.]
 
-Doug has read all of this and made a plan. He's decided that a big crocodile must be a slow crocodile. So he's climbed onto a branch about as high above the water as a kitchen counter, where he can eat his lunch in peace.
+Doug has decided that a big crocodile must be a slow one, so he's climbed onto a branch about as high above the water as a kitchen counter to eat his lunch in peace.
 
 But that's not where the danger is.
 
@@ -293,7 +296,7 @@ Doug takes the first bite of his sandwich.
 
 Doug has died.
 
-Doug's whole plan was about the crocodile on land. The crocodile was never on land.
+Doug's whole plan was about the crocodile on land, and the crocodile was never on land.
 
 ## The Roll
 
@@ -367,7 +370,7 @@ Doug reads the record book on a rock, closes it, and feels much better.
 
 Doug is fine. The legend is not.
 
-The record book got the biggest number wrong. The small numbers are still being counted.
+The record book got the biggest number wrong, but the small numbers are still being counted.
 
 ## The Menu
 
@@ -455,4 +458,4 @@ In the morning, the rangers pull up one of their traps, and inside is a single r
 
 Doug deaths: two hundred and twenty-six. The cap has been relocated. It will probably come home. Which crocodile fact would keep you out of the water?
 
-<!-- words: 2841 (spoken narration only: cold open, spoken section headers, item names and outro included; markdown headings, HTML comments and stage directions excluded; regex word count, same method as draft 1) · est. runtime 14:34 at 195 wpm (brief target 2,800-3,200, 14-16 min) · draft 2 (2026-10-26) · 11 items · 209 sentences, average 13.6 words, longest 34 · cold open 28 words, "The Dive." at spoken word 29, twist marker "Here's the problem." at word 129 (about 40 s), first death (219) at spoken word 209, about 1:04 (1:07 with the thumbnail hold) · cold open plus item 1: 235 · per item (each count includes the section header that follows it): The Dive 207, The Skin 233, The Tongue 264, The Egg 242, The Size 251, The Home 281, The Lunge 241, The Roll 235, The Legend 276, The Menu 235, The Comeback 348 incl. the 26-word outro (322 without) · every item has a sentence of 6 words or fewer besides its name · twist markers rotate: problem / unsettling part / twist / strange part / what nobody could measure / worst part / not where the danger is / the part people get wrong / uncomfortable part / disturbing part / the thing nobody planned for · tics: actually 1, however 0, essentially 0, incredibly 0 · US spelling throughout -->
+<!-- words: 2871 (spoken narration only: cold open, spoken section headers, item names and outro included; markdown headings, HTML comments and stage directions excluded; regex word count, same method as drafts 1 and 2) · est. runtime 14:43 at 195 wpm (brief target 2,800-3,200) · draft 3 (2026-10-26) · 11 items · 198 sentences, average 14.5 words, longest 34 · Flesch reading ease 69.8 (textstat) · cold open 28 words, "The Dive." at spoken word 29, twist marker "Here's the problem." at word 129 to 130 (about 40 s), first death (219) at spoken word 240 to 241, about 1:14 of narration (1:17 with the thumbnail hold) · cold open plus item 1: 266 · per item (each count includes the section header that follows it): The Dive 241, The Skin 234, The Tongue 264, The Egg 243, The Size 252, The Home 283, The Lunge 231, The Roll 235, The Legend 277, The Menu 235, The Comeback 348 incl. the 26-word outro (322 without) · kickers (last sentence per item): 20, 10, 23, 13, 13, 13, 16, 10, 16, 19, 10 at The Comeback before the outro, all 8 to 25 · twist markers and tics unchanged from draft 2 · US spelling throughout -->
