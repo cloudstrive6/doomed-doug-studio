@@ -91,3 +91,34 @@ after a visual-screener PASS on A, B and the revised C (renders and `_small`). N
 
 THUMBNAIL A: APPROVED · THUMBNAIL B: APPROVED · THUMBNAIL C: CHANGES (2), re-review C only
 - 2026-10-26 showrunner: script 3 rounds (draft 3 PASS, CD approved), art 3 rounds (art-director PASS + visual-screener PASS), thumbnails 2 rounds (A/B/C PASS), narration 15.9 min. Risk: ~23% of sentences end in ', and …' (script-screener/editor flagged, not blocking); sober Legend/Menu sections have no Doug by design; Skin/Size attack-stat sources noted in facts.md; Sideleau paper cited without Britton/CrocBITE.
+
+## 2026-10-26, creative director: final package gate
+Read: metadata.json (title, alts, description, tags, playlist), build/chapters.txt, build/thumbnail.png, build/samples/f_001-f_003,
+the first 36 s of build/captions.srt, the script.md opening, facts.md (cold-open and Home rows), build/qc.json (problems: []) and
+reviews/visual_review_post_render.md (main: PASS; shorts: FAIL on short01 only).
+
+**Title: KEEP "Every Reason the Saltwater Crocodile Is the Scariest Reptile".** It is 60 chars, uses the T8 skeleton from our best
+performer (018, 9 episodes back, not back-to-back), and puts the full search phrase up front. "Scariest" is an opinion and the
+video delivers 11 sourced reasons, so the title does not overpromise. None of the alts is clearly stronger. The 'Croc' alt loses
+the search term, and the T9/T2/T4 alts are weaker. They stay as Studio test candidates only.
+
+**Thumbnail A ("IT WAS THERE"): approved, as at the thumbnail gate.** It has one focal point, the yellow eye locked on Doug. The
+jaws are closed, there is no leap and no blood, and the text repeats no title word. The optional snout-crop note was not taken up.
+That is acceptable.
+
+**Description and chapters: OK.** Every claim in the hook paragraph is in the video and in facts.md: 411 km home is from Read et al.
+2007, and the harbour removals are from the NT/PWCNT counts of 215 in 2012 and 212 in 2014. It has the sources, the AI-use
+disclosure, a cartoon-death disclaimer, no medical or safety advice beyond "do not approach wild animals", and no kid signals. There
+are 12 chapters, starting at 0:00, each over 10 s, and they match the item list. The 0:00 "Intro" is only the 11 s cold open,
+so it is not a hook section.
+
+**First 60 s: passes style bible 3.2.** The cold-open fact (more than 200 crocs pulled from one city's harbour, sourced) runs into
+"Doug is going there. Eventually." That plants a callback to The Comeback, which helps retention. "The Dive." lands at about
+0:12, which is spoken word 29 and inside the 35-word rule. The twist (an 8 h rest dive, with a recorded 11.5 h dive) lands by
+0:36, well inside 45 s. The frames show Doug on-model, the death counter at 218, a clear "THE DIVE" topbar and adult-coded
+deadpan ("ANYWAY" while fishing a river he just called empty). I would keep watching.
+
+**Not blocking this gate:** the short01 FAIL (end-card question already answered in the clip, and the silhouette does not read as a
+croc) belongs to the Shorts pipeline. It must be fixed and re-screened before short01 is uploaded, and it does not hold the main video.
+
+FINAL: APPROVED
