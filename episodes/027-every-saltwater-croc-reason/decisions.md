@@ -46,3 +46,11 @@ Read script.md (draft 3), facts.md (Lunge and Menu rows, "Brief checks"), script
   relocation item.
 
 SCRIPT: APPROVED
+
+## 2026-10-26, director: shotlist
+- 330 shots, every spoken word once and in order (2,867), max 21 words a shot, about 15.7 min at 195 wpm. Doug is in 82% of shots. No static stretch is over 4.5 s on the estimate.
+- Sober cards (The Legend s240-s261, The Menu s271-s288) have no Doug, no names, no people drawn and **no DOUG DEATHS counter** (it returns on the next Doug shot). The Legend title card is white, under the art-bible rule for sombre mass-casualty items.
+- The Lunge diagram (s201) shows the head and front third rising toward the branch, with jaws closed. No body-length leap. Death 220 (s062) is flat: an empty canoe, a splash and the cap, with no ghost gag.
+- The three field-guide NOs: s005 has one NO (from 011), s032 adds the second, s327 adds the third.
+- Shorts: Skin, Home, Size and Dive. The Legend was dropped because its myth-bust needs about 70 s of contiguous narration. Shorts titles and descriptions are left for the youtube-titler.
+- Ramp: bright tidal river, mangrove shade, darker mangrove (Egg), dusk estuary (Size, Home), late dusk (Lunge), night falling (Roll), near-black sober cards and night river (Legend, Menu, Comeback). The art director should add it to the art bible if approved.
