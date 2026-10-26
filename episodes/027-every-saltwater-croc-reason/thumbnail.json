@@ -1,0 +1,105 @@
+{
+ "_note": "Variant A (hero close-up, video's opening image, s001): river-sunset palette from the art bible (sky #e88a4a, water #6b7a4a) so the olive croc pops off flat orange. A huge saltwater croc head breaks the water on the right ~60% of the frame, jaws CLOSED, nothing in them, eye on Doug. Tiny Doug (red cap) sits frozen in his canoe at left. Text IT WAS THERE (brief's suggestion; no title/alt word; pays off The Dive: the 'empty' river). No leap, no blood, no hatchlings.",
+ "background": "#e88a4a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 548,
+   "w": 1300,
+   "h": 260,
+   "fill": "#6b7a4a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     548
+    ],
+    [
+     1290,
+     548
+    ]
+   ],
+   "color": "#3d4a2a",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "croc_head_rising",
+   "x": 930,
+   "y": 562,
+   "scale": 1.72,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     50,
+     600
+    ],
+    [
+     190,
+     612
+    ],
+    [
+     340,
+     600
+    ]
+   ],
+   "color": "#a3b088",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 200,
+   "y": 552,
+   "scale": 0.44,
+   "pose": "sit",
+   "expression": "shock",
+   "facing": "right",
+   "gear": [
+    "sweat"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "canoe",
+   "x": 200,
+   "y": 568,
+   "scale": 0.66,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "IT WAS\nTHERE",
+   "x": 255,
+   "y": 175,
+   "size": 118,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

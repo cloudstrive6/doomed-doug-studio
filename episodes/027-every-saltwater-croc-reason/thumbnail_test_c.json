@@ -1,0 +1,246 @@
+{
+ "_note": "Variant C (list-format control): 4 BIG tiles in a 2x2 grid on white, PE archetype-A grammar (thick black frames, bold comic labels = chapter names minus 'The'). Skin (glowing jaw sensors on the sensor-tank slate), Size (dusk estuary, the whole croc with tiny red-capped Doug for scale), Home (the bathtub gag with Doug's red cap on the rim), Dive (river cross-section, croc resting flat on the bottom under a flat surface). Labels sit ABOVE the tiles so the bottom-right corner (duration badge) holds no text. Lunge and Roll were tried and dropped: at feed size the Lunge reads as a leap (decisions.md) and the Roll top view turns to mush. No title words, one font, jaws closed everywhere, no blood, no hatchlings.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "Skin",
+   "x": 325,
+   "y": 38,
+   "size": 76,
+   "font": "ComicNeue-Bold",
+   "color": "#000000",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 20,
+   "y": 80,
+   "w": 610,
+   "h": 262,
+   "fill": "#2a2e33",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "croc_jaw_closeup_lit",
+     "x": 370,
+     "y": 205,
+     "scale": 0.56,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Size",
+   "x": 955,
+   "y": 38,
+   "size": 76,
+   "font": "ComicNeue-Bold",
+   "color": "#000000",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 650,
+   "y": 80,
+   "w": 610,
+   "h": 262,
+   "fill": "#f2a24a",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "rect",
+     "x": 640,
+     "y": 290,
+     "w": 640,
+     "h": 80,
+     "fill": "#8a6a4a",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "saltwater_crocodile",
+     "x": 1000,
+     "y": 296,
+     "scale": 0.5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 705,
+     "y": 240,
+     "scale": 0.26,
+     "pose": "stand",
+     "expression": "shock",
+     "facing": "right",
+     "gear": [
+      "sweat"
+     ],
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Home",
+   "x": 325,
+   "y": 392,
+   "size": 76,
+   "font": "ComicNeue-Bold",
+   "color": "#000000",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 20,
+   "y": 434,
+   "w": 610,
+   "h": 262,
+   "fill": "#d9e6e6",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "bathtub_croc",
+     "x": 325,
+     "y": 590,
+     "scale": 0.72,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "doug_cap",
+     "x": 210,
+     "y": 528,
+     "scale": 0.32,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Dive",
+   "x": 955,
+   "y": 392,
+   "size": 76,
+   "font": "ComicNeue-Bold",
+   "color": "#000000",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 650,
+   "y": 434,
+   "w": 610,
+   "h": 262,
+   "fill": "#5d6b45",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "rect",
+     "x": 640,
+     "y": 420,
+     "w": 640,
+     "h": 40,
+     "fill": "#cfe9ff",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       640,
+       460
+      ],
+      [
+       1280,
+       460
+      ]
+     ],
+     "color": "#c9d4b0",
+     "width": 4,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       640,
+       650
+      ],
+      [
+       800,
+       640
+      ],
+      [
+       1000,
+       655
+      ],
+      [
+       1280,
+       642
+      ],
+      [
+       1280,
+       720
+      ],
+      [
+       640,
+       720
+      ]
+     ],
+     "fill": "#4a3b2a",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "croc_sleeping",
+     "x": 945,
+     "y": 652,
+     "scale": 0.6,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "_note": "Variant B (Doug in peril, the brief's river cross-section): late-dusk sky (#b8573a) over a cut-open murky river (#4f5e3a, riverbed #4a3b2a) from the art bible's 027 ramp. Doug (red cap) sits in his canoe on the flat surface, looking down in shock; directly under him a huge saltwater croc lies coiled underwater, jaws closed, head angled up at the canoe. Text 11.5 HOURS (script, The Dive: the record dive; no title/alt word). No leap, no blood, no hatchlings, teeth nowhere near Doug.",
+ "background": "#b8573a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 250,
+   "w": 1300,
+   "h": 480,
+   "fill": "#4f5e3a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     650
+    ],
+    [
+     200,
+     630
+    ],
+    [
+     480,
+     655
+    ],
+    [
+     800,
+     625
+    ],
+    [
+     1100,
+     650
+    ],
+    [
+     1290,
+     635
+    ],
+    [
+     1290,
+     730
+    ],
+    [
+     -10,
+     730
+    ]
+   ],
+   "fill": "#4a3b2a",
+   "width": 0,
+   "outline": false,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     250
+    ],
+    [
+     1290,
+     250
+    ]
+   ],
+   "color": "#c9d4b0",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "croc_coiled_underwater",
+   "x": 735,
+   "y": 505,
+   "scale": 1.32,
+   "flip": true,
+   "rotate": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 300,
+   "y": 238,
+   "scale": 0.5,
+   "pose": "sit",
+   "expression": "shock",
+   "facing": "right",
+   "gear": [
+    "sweat"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "canoe",
+   "x": 300,
+   "y": 258,
+   "scale": 0.75,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "11.5 HOURS",
+   "x": 930,
+   "y": 120,
+   "size": 112,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
