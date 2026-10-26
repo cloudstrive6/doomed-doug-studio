@@ -804,7 +804,7 @@
       "type": "text",
       "text": "THE DIVE",
       "x": 960,
-      "y": 350,
+      "y": 245,
       "size": 140,
       "color": "#e0201b",
       "outline": "#000000",
@@ -1052,7 +1052,7 @@
       "type": "wordart",
       "text": "NORTHERN AUSTRALIA",
       "x": 900,
-      "y": 330,
+      "y": 250,
       "size": 76,
       "boil": 0,
       "appear": 0.5
@@ -2404,122 +2404,109 @@
     "background": "#ffffff",
     "elements": [
      {
-      "type": "bands",
-      "bands": [
-       {
-        "y0": 0,
-        "y1": 330,
-        "color": "#cfe9ff"
-       },
-       {
-        "y0": 330,
-        "y1": 640,
-        "color": "#6b7a4a"
-       },
-       {
-        "y0": 640,
-        "y1": 1080,
-        "color": "#5d6b45"
-       }
-      ]
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "fill": "#5d6b45",
+      "color": "#5d6b45",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        -20,
-        334
-       ],
-       [
-        -20,
-        312
-       ],
-       [
-        700,
-        306
-       ],
-       [
-        1400,
-        314
-       ],
-       [
-        1940,
-        308
-       ],
-       [
-        1940,
-        334
-       ]
-      ],
-      "fill": "#7a6a4a",
-      "color": "#000000",
-      "width": 3
+      "type": "spray",
+      "x": 760,
+      "y": 590,
+      "r": 330,
+      "color": "#6b7a4a",
+      "density": 0.25
      },
      {
       "type": "asset",
-      "name": "mangrove_clump",
-      "x": 900,
-      "y": 316,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1180,
-      "y": 316,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1500,
-      "y": 316,
-      "scale": 0.3
+      "name": "wait_stopwatch",
+      "x": 760,
+      "y": 560,
+      "scale": 1.6
      },
      {
       "type": "line",
       "points": [
        [
-        -20,
-        334
+        760,
+        592.0
        ],
        [
-        1940,
-        334
+        729,
+        476.0
        ]
       ],
+      "color": "#2b2b2b",
+      "width": 9
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        760,
+        592.0
+       ],
+       [
+        760,
+        704.0
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 5,
+      "appear": 0.2
+     },
+     {
+      "type": "circle",
+      "x": 760,
+      "y": 592.0,
+      "r": 10,
+      "fill": "#2b2b2b",
       "color": "#000000",
-      "width": 4
+      "width": 2
+     },
+     {
+      "type": "wordart",
+      "text": "11.5 HOURS",
+      "x": 1330,
+      "y": 420,
+      "size": 110,
+      "boil": 0,
+      "top": "#ffffff",
+      "bottom": "#ffe24a",
+      "outline": "#1a1a1a",
+      "appear": 0.2
      },
      {
       "type": "poly",
       "points": [
        [
         -20,
+        930
+       ],
+       [
+        600,
+        915
+       ],
+       [
+        1300,
+        925
+       ],
+       [
+        1940,
+        910
+       ],
+       [
+        1940,
         1100
        ],
        [
         -20,
-        950
-       ],
-       [
-        400,
-        940
-       ],
-       [
-        900,
-        955
-       ],
-       [
-        1400,
-        935
-       ],
-       [
-        1940,
-        950
-       ],
-       [
-        1940,
         1100
        ]
       ],
@@ -2529,68 +2516,21 @@
       "smooth": true
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        -20,
-        334
-       ],
-       [
-        360,
-        334
-       ],
-       [
-        430,
-        600
-       ],
-       [
-        520,
-        950
-       ],
-       [
-        -20,
-        960
-       ]
-      ],
-      "fill": "#8a6a4a",
-      "color": "#000000",
-      "width": 4,
-      "smooth": true
-     },
-     {
       "type": "asset",
-      "name": "saltwater_crocodile",
-      "x": 1190,
-      "y": 938,
-      "scale": 0.8
+      "name": "croc_sleeping",
+      "x": 1380,
+      "y": 935,
+      "scale": 0.5,
+      "appear": 0.4
      },
      {
       "type": "doug",
-      "x": 190,
-      "y": 273,
+      "x": 1760,
+      "y": 864,
       "scale": 0.4,
       "pose": "arms_up",
       "expression": "shock",
-      "facing": "right"
-     },
-     {
-      "type": "asset",
-      "name": "wait_stopwatch",
-      "x": 760,
-      "y": 620,
-      "scale": 0.5
-     },
-     {
-      "type": "wordart",
-      "text": "11.5 HOURS",
-      "x": 1200,
-      "y": 520,
-      "size": 110,
-      "boil": 0,
-      "top": "#ffffff",
-      "bottom": "#ffe24a",
-      "outline": "#1a1a1a",
-      "appear": 0.2
+      "facing": "left"
      },
      {
       "type": "label",
@@ -2606,9 +2546,9 @@
    },
    "camera": {
     "move": "zoom_in",
-    "x": 1100,
-    "y": 700,
-    "zoom": 1.1
+    "x": 760,
+    "y": 580,
+    "zoom": 1.08
    }
   },
   {
@@ -2819,122 +2759,149 @@
     "background": "#ffffff",
     "elements": [
      {
-      "type": "bands",
-      "bands": [
-       {
-        "y0": 0,
-        "y1": 330,
-        "color": "#cfe9ff"
-       },
-       {
-        "y0": 330,
-        "y1": 640,
-        "color": "#6b7a4a"
-       },
-       {
-        "y0": 640,
-        "y1": 1080,
-        "color": "#5d6b45"
-       }
-      ]
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "fill": "#5d6b45",
+      "color": "#5d6b45",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        -20,
-        334
-       ],
-       [
-        -20,
-        312
-       ],
-       [
-        700,
-        306
-       ],
-       [
-        1400,
-        314
-       ],
-       [
-        1940,
-        308
-       ],
-       [
-        1940,
-        334
-       ]
-      ],
-      "fill": "#7a6a4a",
-      "color": "#000000",
-      "width": 3
+      "type": "spray",
+      "x": 700,
+      "y": 500,
+      "r": 300,
+      "color": "#6b7a4a",
+      "density": 0.25
      },
      {
       "type": "asset",
-      "name": "mangrove_clump",
-      "x": 900,
-      "y": 316,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1180,
-      "y": 316,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1500,
-      "y": 316,
-      "scale": 0.3
+      "name": "heart_icon",
+      "x": 700,
+      "y": 500,
+      "scale": 2.0,
+      "appear": 0.1
      },
      {
       "type": "line",
       "points": [
        [
-        -20,
-        334
+        120,
+        880
        ],
        [
-        1940,
-        334
+        560,
+        880
+       ],
+       [
+        590,
+        860
+       ],
+       [
+        620,
+        880
+       ],
+       [
+        650,
+        760
+       ],
+       [
+        680,
+        960
+       ],
+       [
+        710,
+        880
+       ],
+       [
+        1240,
+        880
+       ],
+       [
+        1270,
+        860
+       ],
+       [
+        1300,
+        880
+       ],
+       [
+        1330,
+        760
+       ],
+       [
+        1360,
+        960
+       ],
+       [
+        1390,
+        880
+       ],
+       [
+        1560,
+        880
        ]
       ],
-      "color": "#000000",
-      "width": 4
+      "color": "#ffffff",
+      "width": 6,
+      "appear": 0.3
+     },
+     {
+      "type": "label",
+      "text": "2 TO 3 BEATS A MINUTE",
+      "x": 1240,
+      "y": 380,
+      "size": 46,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.5
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1240,
+       440
+      ],
+      "to": [
+       1000,
+       520
+      ],
+      "bend": -40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.5
      },
      {
       "type": "poly",
       "points": [
        [
         -20,
+        990
+       ],
+       [
+        600,
+        975
+       ],
+       [
+        1300,
+        985
+       ],
+       [
+        1940,
+        970
+       ],
+       [
+        1940,
         1100
        ],
        [
         -20,
-        950
-       ],
-       [
-        400,
-        940
-       ],
-       [
-        900,
-        955
-       ],
-       [
-        1400,
-        935
-       ],
-       [
-        1940,
-        950
-       ],
-       [
-        1940,
         1100
        ]
       ],
@@ -2944,84 +2911,13 @@
       "smooth": true
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        -20,
-        334
-       ],
-       [
-        360,
-        334
-       ],
-       [
-        430,
-        600
-       ],
-       [
-        520,
-        950
-       ],
-       [
-        -20,
-        960
-       ]
-      ],
-      "fill": "#8a6a4a",
-      "color": "#000000",
-      "width": 4,
-      "smooth": true
-     },
-     {
-      "type": "asset",
-      "name": "saltwater_crocodile",
-      "x": 1190,
-      "y": 938,
-      "scale": 0.8
-     },
-     {
       "type": "doug",
-      "x": 190,
-      "y": 273,
+      "x": 1760,
+      "y": 924,
       "scale": 0.4,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right"
-     },
-     {
-      "type": "asset",
-      "name": "heart_icon",
-      "x": 1350,
-      "y": 850,
-      "scale": 0.3,
-      "appear": 0.2
-     },
-     {
-      "type": "arrow",
-      "from": [
-       1450,
-       600
-      ],
-      "to": [
-       1370,
-       800
-      ],
-      "bend": 40,
-      "color": "#e0201b",
-      "width": 9,
-      "head": 36,
-      "appear": 0.3
-     },
-     {
-      "type": "label",
-      "text": "2 TO 3 BEATS A MINUTE",
-      "x": 1300,
-      "y": 540,
-      "size": 42,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff",
-      "appear": 0.5
+      "facing": "left"
      },
      {
       "type": "label",
@@ -5525,9 +5421,9 @@
      {
       "type": "rect",
       "x": 820,
-      "y": 800,
+      "y": 790,
       "w": 280,
-      "h": 60,
+      "h": 70,
       "fill": "#8a7a4a",
       "color": "#8a7a4a",
       "width": 0,
@@ -5539,13 +5435,33 @@
       "points": [
        [
         820,
-        800
+        790
        ],
        [
         1100,
-        800
+        790
        ]
       ],
+      "color": "#a08d5a",
+      "width": 3
+     },
+     {
+      "type": "ellipse",
+      "x": 958,
+      "y": 791,
+      "rx": 44,
+      "ry": 8,
+      "fill": null,
+      "color": "#c9b98a",
+      "width": 3
+     },
+     {
+      "type": "ellipse",
+      "x": 958,
+      "y": 793,
+      "rx": 78,
+      "ry": 14,
+      "fill": null,
       "color": "#a08d5a",
       "width": 3
      },
@@ -6690,7 +6606,7 @@
       "type": "text",
       "text": "NOTICED.",
       "x": 960,
-      "y": 420,
+      "y": 245,
       "size": 140,
       "color": "#ffffff",
       "outline": "#000000",
@@ -6936,7 +6852,7 @@
       "type": "text",
       "text": "THE SKIN",
       "x": 960,
-      "y": 350,
+      "y": 245,
       "size": 140,
       "color": "#e0201b",
       "outline": "#000000",
@@ -7351,6 +7267,16 @@
      },
      {
       "type": "label",
+      "text": "ALLIGATOR",
+      "x": 1100,
+      "y": 900,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
+     },
+     {
+      "type": "label",
       "text": "DOUG DEATHS: 219",
       "x": 1590,
       "y": 162,
@@ -7439,6 +7365,16 @@
       "pose": "stand",
       "expression": "neutral",
       "facing": "left"
+     },
+     {
+      "type": "label",
+      "text": "ALLIGATOR",
+      "x": 1100,
+      "y": 900,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
      },
      {
       "type": "label",
@@ -8578,15 +8514,106 @@
      {
       "type": "asset",
       "name": "croc_jaws_open",
-      "x": 1150,
-      "y": 860,
-      "scale": 1.0
+      "x": 1650,
+      "y": 880,
+      "scale": 1.0,
+      "flip": true
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 862,
+      "w": 1920,
+      "h": 230,
+      "fill": "#66764d",
+      "color": "#66764d",
+      "width": 0,
+      "boil": 0,
+      "outline": false
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        620,
+        862
+       ],
+       [
+        1910,
+        862
+       ]
+      ],
+      "color": "#7f8f66",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        900,
+        940
+       ],
+       [
+        1080,
+        940
+       ]
+      ],
+      "color": "#7f8f66",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1450,
+        1000
+       ],
+       [
+        1650,
+        1000
+       ]
+      ],
+      "color": "#7f8f66",
+      "width": 3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        880
+       ],
+       [
+        300,
+        874
+       ],
+       [
+        520,
+        886
+       ],
+       [
+        640,
+        930
+       ],
+       [
+        720,
+        1100
+       ],
+       [
+        -20,
+        1100
+       ]
+      ],
+      "fill": "#6b5a3e",
+      "color": "#000000",
+      "width": 4,
+      "smooth": true
      },
      {
       "type": "asset",
       "name": "small_fish",
-      "x": 1650,
-      "y": 820,
+      "x": 1200,
+      "y": 800,
       "scale": 0.5,
       "appear": 0.1
      },
@@ -8594,12 +8621,44 @@
       "type": "line",
       "points": [
        [
-        1760,
+        1040,
+        775
+       ],
+       [
+        1110,
+        775
+       ]
+      ],
+      "color": "#000000",
+      "width": 4,
+      "appear": 0.1
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1040,
         800
        ],
        [
-        1840,
+        1110,
         800
+       ]
+      ],
+      "color": "#000000",
+      "width": 4,
+      "appear": 0.1
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1040,
+        825
+       ],
+       [
+        1110,
+        825
        ]
       ],
       "color": "#000000",
@@ -8619,8 +8678,8 @@
      },
      {
       "type": "doug",
-      "x": 380,
-      "y": 824,
+      "x": 330,
+      "y": 798,
       "scale": 0.5,
       "pose": "stand",
       "expression": "shock",
@@ -8669,9 +8728,100 @@
      {
       "type": "asset",
       "name": "croc_jaws_open",
-      "x": 1150,
-      "y": 860,
-      "scale": 1.0
+      "x": 1650,
+      "y": 880,
+      "scale": 1.0,
+      "flip": true
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 862,
+      "w": 1920,
+      "h": 230,
+      "fill": "#66764d",
+      "color": "#66764d",
+      "width": 0,
+      "boil": 0,
+      "outline": false
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        620,
+        862
+       ],
+       [
+        1910,
+        862
+       ]
+      ],
+      "color": "#7f8f66",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        900,
+        940
+       ],
+       [
+        1080,
+        940
+       ]
+      ],
+      "color": "#7f8f66",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1450,
+        1000
+       ],
+       [
+        1650,
+        1000
+       ]
+      ],
+      "color": "#7f8f66",
+      "width": 3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        880
+       ],
+       [
+        300,
+        874
+       ],
+       [
+        520,
+        886
+       ],
+       [
+        640,
+        930
+       ],
+       [
+        720,
+        1100
+       ],
+       [
+        -20,
+        1100
+       ]
+      ],
+      "fill": "#6b5a3e",
+      "color": "#000000",
+      "width": 4,
+      "smooth": true
      },
      {
       "type": "label",
@@ -8697,8 +8847,8 @@
      },
      {
       "type": "doug",
-      "x": 380,
-      "y": 824,
+      "x": 330,
+      "y": 798,
       "scale": 0.5,
       "pose": "arms_up",
       "expression": "shock",
@@ -11817,9 +11967,47 @@
      {
       "type": "asset",
       "name": "croc_jaws_open",
-      "x": 1250,
+      "x": 1710,
       "y": 880,
-      "scale": 0.7
+      "scale": 0.7,
+      "flip": true
+     },
+     {
+      "type": "rect",
+      "x": 1380,
+      "y": 864,
+      "w": 550,
+      "h": 226,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
+      "width": 0,
+      "boil": 0,
+      "outline": false
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1410,
+        864
+       ],
+       [
+        1910,
+        864
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
+     },
+     {
+      "type": "ellipse",
+      "x": 1400,
+      "y": 870,
+      "rx": 110,
+      "ry": 14,
+      "fill": null,
+      "color": "#6fc1ee",
+      "width": 3
      },
      {
       "type": "doug",
@@ -11979,9 +12167,47 @@
      {
       "type": "asset",
       "name": "croc_jaws_open",
-      "x": 1150,
+      "x": 1650,
       "y": 900,
-      "scale": 1.0
+      "scale": 1.0,
+      "flip": true
+     },
+     {
+      "type": "rect",
+      "x": 1240,
+      "y": 878,
+      "w": 690,
+      "h": 212,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
+      "width": 0,
+      "boil": 0,
+      "outline": false
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1270,
+        878
+       ],
+       [
+        1910,
+        878
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
+     },
+     {
+      "type": "ellipse",
+      "x": 1400,
+      "y": 884,
+      "rx": 110,
+      "ry": 14,
+      "fill": null,
+      "color": "#6fc1ee",
+      "width": 3
      },
      {
       "type": "doug",
@@ -11995,8 +12221,8 @@
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1650,
-      "y": 420,
+      "x": 1180,
+      "y": 330,
       "scale": 0.4,
       "appear": 0.5
      },
@@ -12148,9 +12374,47 @@
      {
       "type": "asset",
       "name": "croc_jaws_open",
-      "x": 1150,
+      "x": 1650,
       "y": 900,
-      "scale": 1.0
+      "scale": 1.0,
+      "flip": true
+     },
+     {
+      "type": "rect",
+      "x": 1240,
+      "y": 878,
+      "w": 690,
+      "h": 212,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
+      "width": 0,
+      "boil": 0,
+      "outline": false
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1270,
+        878
+       ],
+       [
+        1910,
+        878
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
+     },
+     {
+      "type": "ellipse",
+      "x": 1400,
+      "y": 884,
+      "rx": 110,
+      "ry": 14,
+      "fill": null,
+      "color": "#6fc1ee",
+      "width": 3
      },
      {
       "type": "doug",
@@ -12163,9 +12427,9 @@
      },
      {
       "type": "spray",
-      "x": 1150,
-      "y": 650,
-      "r": 260,
+      "x": 1560,
+      "y": 680,
+      "r": 240,
       "color": "#ffffff",
       "density": 0.1,
       "appear": 0.5
@@ -12327,9 +12591,47 @@
      {
       "type": "asset",
       "name": "croc_jaws_open",
-      "x": 1150,
+      "x": 1650,
       "y": 900,
-      "scale": 1.0
+      "scale": 1.0,
+      "flip": true
+     },
+     {
+      "type": "rect",
+      "x": 1240,
+      "y": 878,
+      "w": 690,
+      "h": 212,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
+      "width": 0,
+      "boil": 0,
+      "outline": false
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1270,
+        878
+       ],
+       [
+        1910,
+        878
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
+     },
+     {
+      "type": "ellipse",
+      "x": 1400,
+      "y": 884,
+      "rx": 110,
+      "ry": 14,
+      "fill": null,
+      "color": "#6fc1ee",
+      "width": 3
      },
      {
       "type": "doug",
@@ -12342,31 +12644,31 @@
      },
      {
       "type": "spray",
-      "x": 1150,
-      "y": 650,
-      "r": 260,
+      "x": 1560,
+      "y": 680,
+      "r": 240,
       "color": "#ffffff",
       "density": 0.1
      },
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1650,
-      "y": 420,
+      "x": 1180,
+      "y": 330,
       "scale": 0.4,
       "appear": 0.2
      },
      {
       "type": "arrow",
       "from": [
-       1450,
-       520
+       1580,
+       740
       ],
       "to": [
-       1700,
-       300
+       1200,
+       520
       ],
-      "bend": -40,
+      "bend": 40,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
@@ -12594,9 +12896,47 @@
      {
       "type": "asset",
       "name": "croc_jaws_open",
-      "x": 1150,
+      "x": 1650,
       "y": 900,
-      "scale": 1.0
+      "scale": 1.0,
+      "flip": true
+     },
+     {
+      "type": "rect",
+      "x": 1240,
+      "y": 878,
+      "w": 690,
+      "h": 212,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
+      "width": 0,
+      "boil": 0,
+      "outline": false
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1270,
+        878
+       ],
+       [
+        1910,
+        878
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
+     },
+     {
+      "type": "ellipse",
+      "x": 1400,
+      "y": 884,
+      "rx": 110,
+      "ry": 14,
+      "fill": null,
+      "color": "#6fc1ee",
+      "width": 3
      },
      {
       "type": "doug",
@@ -12610,14 +12950,14 @@
      {
       "type": "arrow",
       "from": [
-       800,
-       400
+       980,
+       380
       ],
       "to": [
-       1030,
-       640
+       1540,
+       690
       ],
-      "bend": 40,
+      "bend": -40,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
@@ -14387,8 +14727,8 @@
      {
       "type": "wordart",
       "text": "FRESH WATER",
-      "x": 1100,
-      "y": 330,
+      "x": 1023,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "appear": 0.4
@@ -14783,7 +15123,7 @@
      {
       "type": "doug",
       "x": 380,
-      "y": 694,
+      "y": 746,
       "scale": 0.5,
       "pose": [
        "run1",
@@ -16248,7 +16588,7 @@
       "type": "text",
       "text": "THE EGG",
       "x": 960,
-      "y": 350,
+      "y": 245,
       "size": 140,
       "color": "#e0201b",
       "outline": "#000000",
@@ -16908,8 +17248,8 @@
      {
       "type": "wordart",
       "text": "WET SEASON",
-      "x": 1250,
-      "y": 330,
+      "x": 1088,
+      "y": 250,
       "size": 84,
       "boil": 0,
       "top": "#ffffff",
@@ -17162,7 +17502,7 @@
       "type": "wordart",
       "text": "GARDEN WASTE?",
       "x": 1000,
-      "y": 330,
+      "y": 250,
       "size": 84,
       "boil": 0,
       "top": "#ffffff",
@@ -17424,8 +17764,8 @@
       "type": "wordart",
       "text": "NEST",
       "x": 1000,
-      "y": 330,
-      "size": 110,
+      "y": 250,
+      "size": 100,
       "boil": 0,
       "top": "#ffffff",
       "bottom": "#ffe24a",
@@ -17701,8 +18041,8 @@
      {
       "type": "wordart",
       "text": "PLANTS",
-      "x": 1350,
-      "y": 360,
+      "x": 1188,
+      "y": 250,
       "size": 84,
       "boil": 0,
       "top": "#ffffff",
@@ -17963,7 +18303,7 @@
       "type": "label",
       "text": "ABOUT 50 EGGS",
       "x": 980,
-      "y": 360,
+      "y": 250,
       "size": 46,
       "bold": true,
       "boil": 0.4,
@@ -18446,7 +18786,7 @@
       "type": "label",
       "text": "MALE",
       "x": 760,
-      "y": 360,
+      "y": 250,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -18457,7 +18797,7 @@
       "type": "label",
       "text": "FEMALE",
       "x": 1200,
-      "y": 360,
+      "y": 250,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -18965,7 +19305,7 @@
      {
       "type": "asset",
       "name": "croc_jaws_open",
-      "x": 1500,
+      "x": 1690,
       "y": 940,
       "scale": 0.8,
       "flip": true,
@@ -18983,8 +19323,8 @@
      {
       "type": "wordart",
       "text": "PROTECTS THE NEST",
-      "x": 960,
-      "y": 330,
+      "x": 880,
+      "y": 250,
       "size": 80,
       "boil": 0,
       "top": "#ffffff",
@@ -19927,15 +20267,6 @@
       "scale": 1.0
      },
      {
-      "type": "doug",
-      "x": 220,
-      "y": 839,
-      "scale": 0.4,
-      "pose": "stand",
-      "expression": "shock",
-      "facing": "right"
-     },
-     {
       "type": "circle",
       "x": 620,
       "y": 270,
@@ -19992,9 +20323,9 @@
      {
       "type": "rect",
       "x": 0,
-      "y": 740,
+      "y": 742,
       "w": 1920,
-      "h": 150,
+      "h": 340,
       "fill": "#5d6b45",
       "color": "#5d6b45",
       "width": 0,
@@ -20007,11 +20338,11 @@
       "points": [
        [
         0,
-        890
+        742
        ],
        [
         1920,
-        890
+        742
        ]
       ],
       "color": "#77855c",
@@ -20019,10 +20350,102 @@
       "appear": 0.5
      },
      {
+      "type": "line",
+      "points": [
+       [
+        500,
+        860
+       ],
+       [
+        700,
+        860
+       ]
+      ],
+      "color": "#77855c",
+      "width": 3,
+      "appear": 0.5
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1350,
+        900
+       ],
+       [
+        1600,
+        900
+       ]
+      ],
+      "color": "#77855c",
+      "width": 3,
+      "appear": 0.5
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        900,
+        1000
+       ],
+       [
+        1100,
+        1000
+       ]
+      ],
+      "color": "#77855c",
+      "width": 3,
+      "appear": 0.5
+     },
+     {
+      "type": "doug",
+      "x": 220,
+      "y": 719,
+      "scale": 0.4,
+      "pose": "panic1",
+      "expression": "shock",
+      "facing": "right"
+     },
+     {
+      "type": "rect",
+      "x": 175,
+      "y": 758,
+      "w": 90,
+      "h": 40,
+      "fill": "#5d6b45",
+      "color": "#5d6b45",
+      "width": 0,
+      "boil": 0,
+      "outline": false,
+      "appear": 0.5
+     },
+     {
+      "type": "ellipse",
+      "x": 220,
+      "y": 758,
+      "rx": 46,
+      "ry": 8,
+      "fill": null,
+      "color": "#9aa880",
+      "width": 3,
+      "appear": 0.5
+     },
+     {
+      "type": "ellipse",
+      "x": 220,
+      "y": 760,
+      "rx": 72,
+      "ry": 13,
+      "fill": null,
+      "color": "#77855c",
+      "width": 3,
+      "appear": 0.55
+     },
+     {
       "type": "wordart",
       "text": "FLOODS",
       "x": 1450,
-      "y": 400,
+      "y": 272,
       "size": 96,
       "boil": 0,
       "top": "#ffffff",
@@ -23647,13 +24070,6 @@
      {
       "type": "asset",
       "name": "mangrove_clump",
-      "x": 1150,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
       "x": 1520,
       "y": 454,
       "scale": 0.3
@@ -23831,7 +24247,7 @@
       "type": "text",
       "text": "chirp",
       "x": 1000,
-      "y": 360,
+      "y": 330,
       "size": 50,
       "color": "#ffffff",
       "bold": true,
@@ -24368,7 +24784,7 @@
       "type": "wordart",
       "text": "GENTLY",
       "x": 1150,
-      "y": 420,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "top": "#ffffff",
@@ -24695,8 +25111,8 @@
      {
       "type": "wordart",
       "text": "UNHURT",
-      "x": 1300,
-      "y": 360,
+      "x": 1167,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "top": "#ffffff",
@@ -25777,8 +26193,8 @@
      {
       "type": "wordart",
       "text": "GENTLE",
-      "x": 1300,
-      "y": 360,
+      "x": 1167,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "top": "#ffffff",
@@ -26063,8 +26479,8 @@
      {
       "type": "wordart",
       "text": "FAMILY",
-      "x": 1300,
-      "y": 360,
+      "x": 1167,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "top": "#ffffff",
@@ -26341,8 +26757,8 @@
      {
       "type": "wordart",
       "text": "NURSERY",
-      "x": 1350,
-      "y": 360,
+      "x": 1138,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "top": "#ffffff",
@@ -26573,7 +26989,7 @@
       "type": "text",
       "text": "FOLLOWED.",
       "x": 960,
-      "y": 420,
+      "y": 245,
       "size": 140,
       "color": "#ffffff",
       "outline": "#000000",
@@ -26864,7 +27280,7 @@
       "type": "text",
       "text": "THE SIZE",
       "x": 960,
-      "y": 350,
+      "y": 245,
       "size": 140,
       "color": "#e0201b",
       "outline": "#000000",
@@ -27174,8 +27590,8 @@
      {
       "type": "wordart",
       "text": "LARGEST REPTILES",
-      "x": 1000,
-      "y": 330,
+      "x": 936,
+      "y": 250,
       "size": 84,
       "boil": 0,
       "appear": 0.5
@@ -27470,8 +27886,8 @@
      {
       "type": "wordart",
       "text": "MALES",
-      "x": 1500,
-      "y": 380,
+      "x": 1196,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "appear": 0.5
@@ -28428,188 +28844,63 @@
     "background": "#ffffff",
     "elements": [
      {
-      "type": "bands",
-      "bands": [
-       {
-        "y0": 0,
-        "y1": 1080,
-        "color": "#e88a4a"
-       }
-      ]
-     },
-     {
       "type": "rect",
-      "x": 200,
-      "y": 330,
-      "w": 940,
-      "h": 480,
-      "fill": "#d8c8a0",
-      "color": "#000000",
-      "width": 8,
-      "boil": 0
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        240,
-        760
-       ],
-       [
-        1100,
-        760
-       ]
-      ],
-      "color": "#5a4630",
-      "width": 6
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        260,
-        420
-       ],
-       [
-        260,
-        760
-       ]
-      ],
-      "color": "#8a8f96",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        380,
-        420
-       ],
-       [
-        380,
-        760
-       ]
-      ],
-      "color": "#8a8f96",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        500,
-        420
-       ],
-       [
-        500,
-        760
-       ]
-      ],
-      "color": "#8a8f96",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        620,
-        420
-       ],
-       [
-        620,
-        760
-       ]
-      ],
-      "color": "#8a8f96",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        740,
-        420
-       ],
-       [
-        740,
-        760
-       ]
-      ],
-      "color": "#8a8f96",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        860,
-        420
-       ],
-       [
-        860,
-        760
-       ]
-      ],
-      "color": "#8a8f96",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        980,
-        420
-       ],
-       [
-        980,
-        760
-       ]
-      ],
-      "color": "#8a8f96",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1100,
-        420
-       ],
-       [
-        1100,
-        760
-       ]
-      ],
-      "color": "#8a8f96",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        250,
-        470
-       ],
-       [
-        1110,
-        470
-       ]
-      ],
-      "color": "#8a8f96",
-      "width": 5
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
       "type": "asset",
-      "name": "saltwater_crocodile",
-      "x": 670,
-      "y": 760,
-      "scale": 0.8
+      "name": "calendar",
+      "x": 800,
+      "y": 560,
+      "scale": 1.4
+     },
+     {
+      "type": "text",
+      "text": "2011",
+      "x": 800,
+      "y": 588,
+      "size": 98,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 646,
+      "y": 504,
+      "w": 308,
+      "h": 168,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 0,
+      "boil": 0,
+      "outline": false,
+      "appear": 0.4
+     },
+     {
+      "type": "text",
+      "text": "2013",
+      "x": 800,
+      "y": 588,
+      "size": 98,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0,
+      "appear": 0.4
      },
      {
       "type": "label",
-      "text": "6.17 M, 2011",
-      "x": 670,
-      "y": 880,
+      "text": "LOLONG",
+      "x": 800,
+      "y": 250,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -28618,17 +28909,17 @@
      {
       "type": "label",
       "text": "DIED 2013",
-      "x": 670,
-      "y": 260,
-      "size": 40,
+      "x": 800,
+      "y": 880,
+      "size": 44,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
-      "appear": 0.4
+      "appear": 0.6
      },
      {
       "type": "doug",
-      "x": 1550,
+      "x": 1450,
       "y": 836,
       "scale": 0.5,
       "pose": "stand",
@@ -28759,99 +29050,62 @@
     "background": "#ffffff",
     "elements": [
      {
-      "type": "bands",
-      "bands": [
-       {
-        "y0": 0,
-        "y1": 1080,
-        "color": "#e88a4a"
-       }
-      ]
-     },
-     {
       "type": "rect",
-      "x": 200,
-      "y": 330,
-      "w": 940,
-      "h": 480,
-      "fill": "#d8c8a0",
-      "color": "#000000",
-      "width": 8,
-      "boil": 0
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        240,
-        760
-       ],
-       [
-        1100,
-        760
-       ]
-      ],
-      "color": "#c9a24a",
-      "width": 6
-     },
-     {
-      "type": "asset",
-      "name": "palm_tree",
-      "x": 1000,
-      "y": 760,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "saltwater_crocodile",
-      "x": 600,
-      "y": 760,
-      "scale": 0.7
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
       "type": "asset",
       "name": "australia_map",
-      "x": 1560,
-      "y": 560,
-      "scale": 0.4
+      "x": 790,
+      "y": 620,
+      "scale": 0.9
      },
      {
       "type": "circle",
-      "x": 1701,
-      "y": 495,
-      "r": 12,
+      "x": 1124,
+      "y": 467,
+      "r": 14,
       "fill": "#e0201b",
       "color": "#000000",
       "width": 3,
-      "appear": 0.4
+      "appear": 0.3
      },
      {
       "type": "label",
       "text": "CAIRNS",
-      "x": 1721,
-      "y": 445,
-      "size": 32,
+      "x": 1144,
+      "y": 417,
+      "size": 36,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
-      "appear": 0.6
+      "appear": 0.5
      },
      {
       "type": "label",
       "text": "CASSIUS",
-      "x": 670,
-      "y": 260,
+      "x": 1640,
+      "y": 420,
       "size": 44,
       "bold": true,
       "boil": 0.4,
-      "fill": "#ffffff"
+      "fill": "#ffffff",
+      "appear": 0.1
      },
      {
       "type": "doug",
-      "x": 1560,
-      "y": 939,
-      "scale": 0.4,
-      "pose": "stand",
+      "x": 1650,
+      "y": 844,
+      "scale": 0.5,
+      "pose": "point",
       "expression": "hopeful",
       "facing": "left"
      },
@@ -28875,76 +29129,58 @@
     "background": "#ffffff",
     "elements": [
      {
-      "type": "bands",
-      "bands": [
-       {
-        "y0": 0,
-        "y1": 1080,
-        "color": "#e88a4a"
-       }
-      ]
-     },
-     {
       "type": "rect",
-      "x": 200,
-      "y": 330,
-      "w": 940,
-      "h": 480,
-      "fill": "#d8c8a0",
-      "color": "#000000",
-      "width": 8,
-      "boil": 0
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        240,
-        760
-       ],
-       [
-        1100,
-        760
-       ]
-      ],
-      "color": "#c9a24a",
-      "width": 6
-     },
-     {
-      "type": "asset",
-      "name": "palm_tree",
-      "x": 1000,
-      "y": 760,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "saltwater_crocodile",
-      "x": 600,
-      "y": 760,
-      "scale": 0.7
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
       "type": "asset",
       "name": "australia_map",
-      "x": 1560,
-      "y": 560,
-      "scale": 0.4
+      "x": 790,
+      "y": 620,
+      "scale": 0.9
      },
      {
       "type": "circle",
-      "x": 1701,
-      "y": 495,
-      "r": 12,
+      "x": 1124,
+      "y": 467,
+      "r": 14,
       "fill": "#e0201b",
       "color": "#000000",
       "width": 3
      },
      {
       "type": "label",
+      "text": "CAIRNS",
+      "x": 1144,
+      "y": 417,
+      "size": 36,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
+     },
+     {
+      "type": "label",
+      "text": "CASSIUS",
+      "x": 1640,
+      "y": 420,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
+     },
+     {
+      "type": "label",
       "text": "1987 TO 2024",
-      "x": 670,
-      "y": 880,
+      "x": 1640,
+      "y": 520,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -28952,20 +29188,10 @@
       "appear": 0.3
      },
      {
-      "type": "label",
-      "text": "CASSIUS",
-      "x": 670,
-      "y": 260,
-      "size": 44,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
-     },
-     {
       "type": "doug",
-      "x": 1560,
-      "y": 939,
-      "scale": 0.4,
+      "x": 1650,
+      "y": 844,
+      "scale": 0.5,
       "pose": "stand",
       "expression": "sad",
       "facing": "left"
@@ -28990,80 +29216,73 @@
     "background": "#ffffff",
     "elements": [
      {
-      "type": "bands",
-      "bands": [
-       {
-        "y0": 0,
-        "y1": 1080,
-        "color": "#e88a4a"
-       }
-      ]
-     },
-     {
       "type": "rect",
-      "x": 200,
-      "y": 330,
-      "w": 940,
-      "h": 480,
-      "fill": "#d8c8a0",
-      "color": "#000000",
-      "width": 8,
-      "boil": 0
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        240,
-        760
-       ],
-       [
-        1100,
-        760
-       ]
-      ],
-      "color": "#c9a24a",
-      "width": 6
-     },
-     {
-      "type": "asset",
-      "name": "palm_tree",
-      "x": 1000,
-      "y": 760,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "saltwater_crocodile",
-      "x": 600,
-      "y": 760,
-      "scale": 0.7
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
       "type": "asset",
       "name": "australia_map",
-      "x": 1560,
-      "y": 560,
-      "scale": 0.4
+      "x": 790,
+      "y": 620,
+      "scale": 0.9
      },
      {
       "type": "circle",
-      "x": 1701,
-      "y": 495,
-      "r": 12,
+      "x": 1124,
+      "y": 467,
+      "r": 14,
       "fill": "#e0201b",
       "color": "#000000",
       "width": 3
      },
      {
+      "type": "label",
+      "text": "CAIRNS",
+      "x": 1144,
+      "y": 417,
+      "size": 36,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
+     },
+     {
+      "type": "label",
+      "text": "CASSIUS",
+      "x": 1640,
+      "y": 420,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
+     },
+     {
+      "type": "text",
+      "text": "NT",
+      "x": 803,
+      "y": 519,
+      "size": 60,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0,
+      "appear": 0.1
+     },
+     {
       "type": "arrow",
       "from": [
-       1544,
-       464
+       853,
+       489
       ],
       "to": [
-       1696,
-       492
+       1108,
+       471
       ],
       "bend": -60,
       "color": "#e0201b",
@@ -29072,20 +29291,10 @@
       "appear": 0.3
      },
      {
-      "type": "label",
-      "text": "CASSIUS",
-      "x": 670,
-      "y": 260,
-      "size": 44,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
-     },
-     {
       "type": "doug",
-      "x": 1560,
-      "y": 939,
-      "scale": 0.4,
+      "x": 1650,
+      "y": 844,
+      "scale": 0.5,
       "pose": "point",
       "expression": "confused",
       "facing": "left"
@@ -29110,73 +29319,122 @@
     "background": "#ffffff",
     "elements": [
      {
-      "type": "bands",
-      "bands": [
-       {
-        "y0": 0,
-        "y1": 1080,
-        "color": "#e88a4a"
-       }
-      ]
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
       "type": "rect",
-      "x": 200,
-      "y": 330,
-      "w": 940,
-      "h": 480,
-      "fill": "#d8c8a0",
+      "x": 380,
+      "y": 540,
+      "w": 220,
+      "h": 280,
+      "fill": "#6b7a4a",
       "color": "#000000",
-      "width": 8,
-      "boil": 0
+      "width": 6,
+      "boil": 0,
+      "appear": 0.1
+     },
+     {
+      "type": "rect",
+      "x": 760,
+      "y": 300,
+      "w": 220,
+      "h": 520,
+      "fill": "#c9a24a",
+      "color": "#000000",
+      "width": 6,
+      "boil": 0,
+      "appear": 0.4
      },
      {
       "type": "line",
       "points": [
        [
-        240,
-        760
+        380,
+        540
+       ],
+       [
+        1060,
+        540
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 5,
+      "dash": [
+       16,
+       12
+      ],
+      "appear": 0.4
+     },
+     {
+      "type": "arrow",
+      "from": [
+       870,
+       530
+      ],
+      "to": [
+       870,
+       330
+      ],
+      "bend": 0,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.5
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        280,
+        820
        ],
        [
         1100,
-        760
+        820
        ]
       ],
-      "color": "#c9a24a",
+      "color": "#000000",
       "width": 6
      },
      {
-      "type": "asset",
-      "name": "palm_tree",
-      "x": 1000,
-      "y": 760,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "saltwater_crocodile",
-      "x": 600,
-      "y": 760,
-      "scale": 0.7
+      "type": "label",
+      "text": "WILD CROC",
+      "x": 490,
+      "y": 880,
+      "size": 40,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.1
      },
      {
       "type": "label",
       "text": "CASSIUS",
-      "x": 670,
-      "y": 260,
-      "size": 44,
+      "x": 870,
+      "y": 880,
+      "size": 40,
       "bold": true,
       "boil": 0.4,
-      "fill": "#ffffff"
+      "fill": "#ffffff",
+      "appear": 0.4
      },
      {
       "type": "wordart",
       "text": "WELL BEYOND",
-      "x": 1430,
-      "y": 400,
-      "size": 76,
+      "x": 1440,
+      "y": 420,
+      "size": 84,
       "boil": 0,
-      "appear": 0.5
+      "appear": 0.6
      },
      {
       "type": "doug",
@@ -29494,82 +29752,78 @@
     "background": "#ffffff",
     "elements": [
      {
-      "type": "bands",
-      "bands": [
-       {
-        "y0": 0,
-        "y1": 1080,
-        "color": "#e88a4a"
-       }
-      ]
-     },
-     {
       "type": "rect",
-      "x": 200,
-      "y": 330,
-      "w": 940,
-      "h": 480,
-      "fill": "#d8c8a0",
-      "color": "#000000",
-      "width": 8,
-      "boil": 0
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "fill": "#e88a4a",
+      "color": "#e88a4a",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
       "type": "line",
       "points": [
        [
-        240,
-        760
+        120,
+        780
        ],
        [
-        1100,
-        760
+        1800,
+        780
        ]
       ],
-      "color": "#c9a24a",
+      "color": "#5a4630",
       "width": 6
      },
      {
       "type": "asset",
-      "name": "palm_tree",
-      "x": 1000,
-      "y": 760,
-      "scale": 0.5
-     },
-     {
-      "type": "asset",
       "name": "saltwater_crocodile",
-      "x": 600,
-      "y": 760,
-      "scale": 0.7
+      "x": 620,
+      "y": 780,
+      "scale": 0.8
      },
      {
       "type": "label",
-      "text": "CASSIUS",
-      "x": 670,
-      "y": 260,
+      "text": "CASSIUS: 110+",
+      "x": 620,
+      "y": 460,
       "size": 44,
       "bold": true,
       "boil": 0.4,
-      "fill": "#ffffff"
+      "fill": "#ffffff",
+      "appear": 0.2
      },
      {
       "type": "wordart",
       "text": "110+ YEARS",
-      "x": 1440,
-      "y": 400,
-      "size": 84,
+      "x": 900,
+      "y": 260,
+      "size": 96,
       "boil": 0,
-      "appear": 0.5
+      "appear": 0.4
      },
      {
       "type": "doug",
-      "x": 1500,
-      "y": 836,
+      "x": 1450,
+      "y": 704,
       "scale": 0.5,
-      "pose": "stand",
-      "expression": "shock",
+      "pose": "shrug",
+      "expression": "flat",
       "facing": "left"
+     },
+     {
+      "type": "label",
+      "text": "DOUG: UNLIKELY",
+      "x": 1450,
+      "y": 460,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.7
      },
      {
       "type": "label",
@@ -30131,8 +30385,8 @@
      {
       "type": "wordart",
       "text": "ALIVE LONGER",
-      "x": 1100,
-      "y": 330,
+      "x": 1000,
+      "y": 250,
       "size": 90,
       "boil": 0,
       "appear": 0.6
@@ -30411,16 +30665,16 @@
      {
       "type": "wordart",
       "text": "ALIVE LONGER",
-      "x": 1100,
-      "y": 330,
+      "x": 1000,
+      "y": 250,
       "size": 90,
       "boil": 0
      },
      {
       "type": "asset",
       "name": "exclamation_mark",
-      "x": 700,
-      "y": 480,
+      "x": 430,
+      "y": 560,
       "scale": 0.3,
       "appear": 0.3
      },
@@ -30707,7 +30961,7 @@
       "type": "wordart",
       "text": "HOW BIG?",
       "x": 960,
-      "y": 330,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "appear": 0.5
@@ -30736,18 +30990,13 @@
       "bands": [
        {
         "y0": 0,
-        "y1": 230,
+        "y1": 300,
         "color": "#f2a24a"
        },
        {
-        "y0": 230,
-        "y1": 460,
-        "color": "#e88a4a"
-       },
-       {
-        "y0": 460,
+        "y0": 300,
         "y1": 1080,
-        "color": "#6b7a4a"
+        "color": "#e88a4a"
        }
       ]
      },
@@ -30756,210 +31005,27 @@
       "points": [
        [
         -20,
-        472
+        620
        ],
        [
-        -20,
-        438
+        600,
+        600
        ],
-       [
-        400,
-        430
-       ],
-       [
-        900,
-        442
-       ],
-       [
-        1400,
-        428
-       ],
-       [
-        1940,
-        440
-       ],
-       [
-        1940,
-        472
-       ]
-      ],
-      "fill": "#6a5238",
-      "color": "#000000",
-      "width": 3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 140,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 430,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1150,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1520,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1800,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        700,
-        550
-       ],
-       [
-        860,
-        550
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
        [
         1300,
         610
        ],
        [
-        1520,
-        610
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1000,
-        720
+        1940,
+        596
        ],
        [
-        1140,
-        720
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1600,
-        790
-       ],
-       [
-        1780,
-        790
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1150,
-        910
-       ],
-       [
-        1350,
-        910
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        -20,
-        790
-       ],
-       [
-        300,
-        786
-       ],
-       [
-        560,
-        800
-       ],
-       [
-        700,
-        840
-       ],
-       [
-        800,
+        1940,
         1100
        ],
        [
         -20,
         1100
-       ]
-      ],
-      "fill": "#8a6a4a",
-      "color": "#000000",
-      "width": 4,
-      "smooth": true
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        600,
-        850
-       ],
-       [
-        800,
-        790
-       ],
-       [
-        1400,
-        780
-       ],
-       [
-        1800,
-        800
-       ],
-       [
-        1960,
-        860
-       ],
-       [
-        1960,
-        900
-       ],
-       [
-        560,
-        900
        ]
       ],
       "fill": "#8a6a4a",
@@ -30970,59 +31036,75 @@
      {
       "type": "asset",
       "name": "croc_sleeping",
-      "x": 1180,
-      "y": 840,
-      "scale": 0.9
+      "x": 1610,
+      "y": 930,
+      "scale": 2.4
      },
      {
       "type": "line",
       "points": [
        [
-        1590,
-        772
+        1940,
+        960
        ],
        [
-        1020,
-        772
+        1250,
+        960
        ]
       ],
       "color": "#f2d03a",
+      "width": 10,
+      "appear": 0.1
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1250,
+        940
+       ],
+       [
+        1250,
+        985
+       ]
+      ],
+      "color": "#8a8f96",
       "width": 8,
       "appear": 0.1
      },
      {
-      "type": "doug",
-      "x": 650,
-      "y": 824,
-      "scale": 0.5,
-      "pose": "stand",
-      "expression": "confused",
-      "facing": "right"
-     },
-     {
       "type": "arrow",
       "from": [
-       900,
-       500
+       1030,
+       480
       ],
       "to": [
-       1010,
-       740
+       1230,
+       930
       ],
       "bend": 40,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
-      "appear": 0.6
+      "appear": 0.5
      },
      {
       "type": "wordart",
       "text": "TAPE RUNS OUT",
       "x": 760,
-      "y": 420,
-      "size": 76,
+      "y": 250,
+      "size": 90,
       "boil": 0,
-      "appear": 0.7
+      "appear": 0.6
+     },
+     {
+      "type": "doug",
+      "x": 220,
+      "y": 889,
+      "scale": 0.6,
+      "pose": "stand",
+      "expression": "confused",
+      "facing": "right"
      },
      {
       "type": "label",
@@ -31333,18 +31415,13 @@
       "bands": [
        {
         "y0": 0,
-        "y1": 230,
+        "y1": 300,
         "color": "#f2a24a"
        },
        {
-        "y0": 230,
-        "y1": 460,
-        "color": "#e88a4a"
-       },
-       {
-        "y0": 460,
+        "y0": 300,
         "y1": 1080,
-        "color": "#6b7a4a"
+        "color": "#e88a4a"
        }
       ]
      },
@@ -31353,210 +31430,27 @@
       "points": [
        [
         -20,
-        472
+        860
        ],
-       [
-        -20,
-        438
-       ],
-       [
-        400,
-        430
-       ],
-       [
-        900,
-        442
-       ],
-       [
-        1400,
-        428
-       ],
-       [
-        1940,
-        440
-       ],
-       [
-        1940,
-        472
-       ]
-      ],
-      "fill": "#6a5238",
-      "color": "#000000",
-      "width": 3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 140,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 430,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1150,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1520,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1800,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        700,
-        550
-       ],
-       [
-        860,
-        550
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1300,
-        610
-       ],
-       [
-        1520,
-        610
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1000,
-        720
-       ],
-       [
-        1140,
-        720
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1600,
-        790
-       ],
-       [
-        1780,
-        790
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1150,
-        910
-       ],
-       [
-        1350,
-        910
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        -20,
-        790
-       ],
-       [
-        300,
-        786
-       ],
-       [
-        560,
-        800
-       ],
-       [
-        700,
-        840
-       ],
-       [
-        800,
-        1100
-       ],
-       [
-        -20,
-        1100
-       ]
-      ],
-      "fill": "#8a6a4a",
-      "color": "#000000",
-      "width": 4,
-      "smooth": true
-     },
-     {
-      "type": "poly",
-      "points": [
        [
         600,
         850
        ],
        [
-        800,
-        790
+        1300,
+        856
        ],
        [
-        1400,
-        780
+        1940,
+        846
        ],
        [
-        1800,
-        800
+        1940,
+        1100
        ],
        [
-        1960,
-        860
-       ],
-       [
-        1960,
-        900
-       ],
-       [
-        560,
-        900
+        -20,
+        1100
        ]
       ],
       "fill": "#8a6a4a",
@@ -31567,25 +31461,16 @@
      {
       "type": "asset",
       "name": "croc_sleeping",
-      "x": 1180,
-      "y": 840,
-      "scale": 0.9
-     },
-     {
-      "type": "doug",
-      "x": 1740,
-      "y": 722,
-      "scale": 0.5,
-      "pose": "crouch",
-      "expression": "hopeful",
-      "facing": "left"
+      "x": 160,
+      "y": 900,
+      "scale": 2.6
      },
      {
       "type": "text",
       "text": "Z",
-      "x": 1450,
-      "y": 640,
-      "size": 50,
+      "x": 1180,
+      "y": 520,
+      "size": 60,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
@@ -31596,15 +31481,37 @@
      {
       "type": "text",
       "text": "Z",
-      "x": 1490,
-      "y": 580,
-      "size": 64,
+      "x": 1260,
+      "y": 420,
+      "size": 80,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
       "appear": 0.5,
       "outline": "#000000",
       "outline_width": 3
+     },
+     {
+      "type": "text",
+      "text": "Z",
+      "x": 1350,
+      "y": 300,
+      "size": 100,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "appear": 0.8,
+      "outline": "#000000",
+      "outline_width": 3
+     },
+     {
+      "type": "doug",
+      "x": 1720,
+      "y": 789,
+      "scale": 0.6,
+      "pose": "crouch",
+      "expression": "hopeful",
+      "facing": "left"
      },
      {
       "type": "label",
@@ -31881,7 +31788,7 @@
       "type": "wordart",
       "text": "SURVIVES",
       "x": 960,
-      "y": 330,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "appear": 0.3
@@ -32197,269 +32104,77 @@
     "background": "#ffffff",
     "elements": [
      {
-      "type": "bands",
-      "bands": [
-       {
-        "y0": 0,
-        "y1": 230,
-        "color": "#f2a24a"
-       },
-       {
-        "y0": 230,
-        "y1": 460,
-        "color": "#e88a4a"
-       },
-       {
-        "y0": 460,
-        "y1": 1080,
-        "color": "#6b7a4a"
-       }
-      ]
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "fill": "#f4f1dc",
+      "color": "#f4f1dc",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
-      "type": "poly",
+      "type": "line",
       "points": [
        [
-        -20,
-        472
+        100,
+        760
        ],
        [
-        -20,
-        438
-       ],
-       [
-        400,
-        430
-       ],
-       [
-        900,
-        442
-       ],
-       [
-        1400,
-        428
-       ],
-       [
-        1940,
-        440
-       ],
-       [
-        1940,
-        472
+        1820,
+        760
        ]
       ],
-      "fill": "#6a5238",
       "color": "#000000",
-      "width": 3
+      "width": 4
      },
      {
       "type": "asset",
-      "name": "mangrove_clump",
-      "x": 140,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 430,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1150,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1520,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1800,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        700,
-        550
-       ],
-       [
-        860,
-        550
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1300,
-        610
-       ],
-       [
-        1520,
-        610
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1000,
-        720
-       ],
-       [
-        1140,
-        720
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
+      "name": "saltwater_crocodile",
+      "x": 900,
+      "y": 760,
+      "scale": 1.4
      },
      {
       "type": "line",
       "points": [
        [
         1600,
-        790
+        830
        ],
        [
-        1780,
-        790
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1150,
-        910
-       ],
-       [
-        1350,
-        910
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        -20,
-        790
-       ],
-       [
-        300,
-        786
-       ],
-       [
-        560,
-        800
-       ],
-       [
-        700,
-        840
-       ],
-       [
-        800,
-        1100
-       ],
-       [
-        -20,
-        1100
-       ]
-      ],
-      "fill": "#8a6a4a",
-      "color": "#000000",
-      "width": 4,
-      "smooth": true
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        600,
-        850
-       ],
-       [
-        800,
-        790
-       ],
-       [
-        1400,
-        780
-       ],
-       [
-        1800,
-        800
-       ],
-       [
-        1960,
-        860
-       ],
-       [
-        1960,
-        900
-       ],
-       [
-        560,
-        900
-       ]
-      ],
-      "fill": "#8a6a4a",
-      "color": "#000000",
-      "width": 4,
-      "smooth": true
-     },
-     {
-      "type": "asset",
-      "name": "croc_sleeping",
-      "x": 1180,
-      "y": 840,
-      "scale": 0.9
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1590,
-        772
-       ],
-       [
-        1020,
-        772
+        690,
+        830
        ]
       ],
       "color": "#f2d03a",
-      "width": 8
+      "width": 12,
+      "appear": 0.1
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        690,
+        810
+       ],
+       [
+        690,
+        850
+       ]
+      ],
+      "color": "#8a8f96",
+      "width": 8,
+      "appear": 0.1
      },
      {
       "type": "label",
       "text": "TAPE",
-      "x": 1300,
-      "y": 640,
-      "size": 36,
+      "x": 1145,
+      "y": 900,
+      "size": 40,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
@@ -32467,12 +32182,12 @@
      },
      {
       "type": "doug",
-      "x": 330,
-      "y": 722,
-      "scale": 0.5,
+      "x": 1780,
+      "y": 699,
+      "scale": 0.4,
       "pose": "stand",
       "expression": "flat",
-      "facing": "right"
+      "facing": "left"
      },
      {
       "type": "label",
@@ -32494,269 +32209,75 @@
     "background": "#ffffff",
     "elements": [
      {
-      "type": "bands",
-      "bands": [
-       {
-        "y0": 0,
-        "y1": 230,
-        "color": "#f2a24a"
-       },
-       {
-        "y0": 230,
-        "y1": 460,
-        "color": "#e88a4a"
-       },
-       {
-        "y0": 460,
-        "y1": 1080,
-        "color": "#6b7a4a"
-       }
-      ]
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "fill": "#f4f1dc",
+      "color": "#f4f1dc",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
-      "type": "poly",
+      "type": "line",
       "points": [
        [
-        -20,
-        472
+        100,
+        760
        ],
        [
-        -20,
-        438
-       ],
-       [
-        400,
-        430
-       ],
-       [
-        900,
-        442
-       ],
-       [
-        1400,
-        428
-       ],
-       [
-        1940,
-        440
-       ],
-       [
-        1940,
-        472
+        1820,
+        760
        ]
       ],
-      "fill": "#6a5238",
       "color": "#000000",
-      "width": 3
+      "width": 4
      },
      {
       "type": "asset",
-      "name": "mangrove_clump",
-      "x": 140,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 430,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1150,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1520,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "mangrove_clump",
-      "x": 1800,
-      "y": 454,
-      "scale": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        700,
-        550
-       ],
-       [
-        860,
-        550
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1300,
-        610
-       ],
-       [
-        1520,
-        610
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1000,
-        720
-       ],
-       [
-        1140,
-        720
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
+      "name": "saltwater_crocodile",
+      "x": 900,
+      "y": 760,
+      "scale": 1.4
      },
      {
       "type": "line",
       "points": [
        [
         1600,
-        790
+        830
        ],
        [
-        1780,
-        790
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1150,
-        910
-       ],
-       [
-        1350,
-        910
-       ]
-      ],
-      "color": "#86935f",
-      "width": 3
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        -20,
-        790
-       ],
-       [
-        300,
-        786
-       ],
-       [
-        560,
-        800
-       ],
-       [
-        700,
-        840
-       ],
-       [
-        800,
-        1100
-       ],
-       [
-        -20,
-        1100
-       ]
-      ],
-      "fill": "#8a6a4a",
-      "color": "#000000",
-      "width": 4,
-      "smooth": true
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        600,
-        850
-       ],
-       [
-        800,
-        790
-       ],
-       [
-        1400,
-        780
-       ],
-       [
-        1800,
-        800
-       ],
-       [
-        1960,
-        860
-       ],
-       [
-        1960,
-        900
-       ],
-       [
-        560,
-        900
-       ]
-      ],
-      "fill": "#8a6a4a",
-      "color": "#000000",
-      "width": 4,
-      "smooth": true
-     },
-     {
-      "type": "asset",
-      "name": "croc_sleeping",
-      "x": 1180,
-      "y": 840,
-      "scale": 0.9
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1590,
-        772
-       ],
-       [
-        1020,
-        772
+        690,
+        830
        ]
       ],
       "color": "#f2d03a",
+      "width": 12
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        690,
+        810
+       ],
+       [
+        690,
+        850
+       ]
+      ],
+      "color": "#8a8f96",
       "width": 8
      },
      {
       "type": "label",
       "text": "TAPE",
-      "x": 1300,
-      "y": 640,
-      "size": 36,
+      "x": 1145,
+      "y": 900,
+      "size": 40,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff"
@@ -32765,16 +32286,16 @@
       "type": "line",
       "points": [
        [
-        1020,
-        900
+        690,
+        830
        ],
        [
-        700,
-        900
+        194,
+        830
        ]
       ],
-      "color": "#ffffff",
-      "width": 5,
+      "color": "#e0201b",
+      "width": 6,
       "dash": [
        16,
        12
@@ -32784,19 +32305,19 @@
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 640,
-      "y": 620,
+      "x": 442,
+      "y": 930,
       "scale": 0.3,
       "appear": 0.5
      },
      {
       "type": "doug",
-      "x": 330,
-      "y": 722,
-      "scale": 0.5,
+      "x": 1780,
+      "y": 699,
+      "scale": 0.4,
       "pose": "stand",
       "expression": "gritted",
-      "facing": "right"
+      "facing": "left"
      },
      {
       "type": "label",
@@ -33062,8 +32583,8 @@
      {
       "type": "wordart",
       "text": "FAR AWAY",
-      "x": 600,
-      "y": 520,
+      "x": 480,
+      "y": 500,
       "size": 90,
       "boil": 0,
       "appear": 0.6
@@ -33737,78 +33258,180 @@
     "background": "#ffffff",
     "elements": [
      {
-      "type": "rect",
-      "x": 0,
-      "y": 0,
-      "w": 1920,
-      "h": 1080,
-      "fill": "#bfe6ff",
-      "color": "#bfe6ff",
-      "width": 0,
-      "boil": 0,
-      "outline": false
+      "type": "bands",
+      "bands": [
+       {
+        "y0": 0,
+        "y1": 560,
+        "color": "#cfe9ff"
+       },
+       {
+        "y0": 560,
+        "y1": 1080,
+        "color": "#3a9ad9"
+       }
+      ]
      },
      {
-      "type": "asset",
-      "name": "cape_york_map",
-      "x": 900,
-      "y": 600,
-      "scale": 0.9
-     },
-     {
-      "type": "circle",
-      "x": 778,
-      "y": 646,
-      "r": 12,
-      "fill": "#e0201b",
-      "color": "#000000",
+      "type": "line",
+      "points": [
+       [
+        300,
+        640
+       ],
+       [
+        460,
+        640
+       ]
+      ],
+      "color": "#6fc1ee",
       "width": 3
      },
      {
       "type": "line",
       "points": [
        [
-        778,
-        646
+        820,
+        730
        ],
        [
-        1067,
-        782
+        980,
+        730
        ]
       ],
+      "color": "#6fc1ee",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1340,
+        820
+       ],
+       [
+        1500,
+        820
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        360,
+        910
+       ],
+       [
+        520,
+        910
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        880,
+        1000
+       ],
+       [
+        1040,
+        1000
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        640
+       ],
+       [
+        240,
+        630
+       ],
+       [
+        440,
+        680
+       ],
+       [
+        560,
+        1100
+       ],
+       [
+        -20,
+        1100
+       ]
+      ],
+      "fill": "#e8c07a",
       "color": "#000000",
-      "width": 5,
-      "dash": [
-       16,
-       12
-      ]
+      "width": 4,
+      "smooth": true
+     },
+     {
+      "type": "asset",
+      "name": "helicopter",
+      "x": 1050,
+      "y": 190,
+      "scale": 0.7
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1050,
+        262
+       ],
+       [
+        1050,
+        330
+       ]
+      ],
+      "color": "#5a4630",
+      "width": 4
+     },
+     {
+      "type": "asset",
+      "name": "croc_in_sling",
+      "x": 1050,
+      "y": 330,
+      "scale": 0.7
      },
      {
       "type": "asset",
       "name": "water_splash_small",
-      "x": 1117,
-      "y": 782,
-      "scale": 0.4,
-      "appear": 0.3
+      "x": 1050,
+      "y": 610,
+      "scale": 0.6,
+      "appear": 0.4
      },
      {
       "type": "label",
-      "text": "CAPE YORK",
+      "text": "RELEASED",
       "x": 1560,
       "y": 420,
-      "size": 40,
+      "size": 44,
       "bold": true,
       "boil": 0.4,
-      "fill": "#ffffff"
+      "fill": "#ffffff",
+      "appear": 0.6
      },
      {
       "type": "doug",
-      "x": 1600,
-      "y": 899,
+      "x": 260,
+      "y": 575,
       "scale": 0.4,
       "pose": "stand",
       "expression": "hopeful",
-      "facing": "left"
+      "facing": "right"
      },
      {
       "type": "label",
@@ -34671,59 +34294,158 @@
     "background": "#ffffff",
     "elements": [
      {
+      "type": "bands",
+      "bands": [
+       {
+        "y0": 0,
+        "y1": 500,
+        "color": "#cfe9ff"
+       },
+       {
+        "y0": 500,
+        "y1": 1080,
+        "color": "#3a9ad9"
+       }
+      ]
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1300,
+        600
+       ],
+       [
+        1500,
+        600
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        700,
+        980
+       ],
+       [
+        880,
+        980
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 3
+     },
+     {
+      "type": "asset",
+      "name": "croc_sleeping",
+      "x": 1150,
+      "y": 860,
+      "scale": 1.1
+     },
+     {
       "type": "rect",
-      "x": 0,
-      "y": 0,
-      "w": 1920,
-      "h": 1080,
-      "fill": "#bfe6ff",
-      "color": "#bfe6ff",
+      "x": 300,
+      "y": 840,
+      "w": 1620,
+      "h": 240,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
       "width": 0,
       "boil": 0,
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "cape_york_map",
-      "x": 900,
-      "y": 600,
-      "scale": 0.9
+      "type": "line",
+      "points": [
+       [
+        600,
+        840
+       ],
+       [
+        1720,
+        840
+       ]
+      ],
+      "color": "#6fc1ee",
+      "width": 4
      },
      {
-      "type": "circle",
-      "x": 778,
-      "y": 646,
-      "r": 12,
-      "fill": "#e0201b",
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        700
+       ],
+       [
+        300,
+        690
+       ],
+       [
+        520,
+        740
+       ],
+       [
+        640,
+        1100
+       ],
+       [
+        -20,
+        1100
+       ]
+      ],
+      "fill": "#e8c07a",
       "color": "#000000",
-      "width": 3
+      "width": 4,
+      "smooth": true
      },
      {
-      "type": "asset",
-      "name": "saltwater_crocodile",
-      "x": 1187,
-      "y": 812,
-      "scale": 0.1
+      "type": "label",
+      "text": "RELEASE POINT",
+      "x": 1150,
+      "y": 400,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.1
      },
      {
       "type": "text",
       "text": "Z",
-      "x": 1225,
-      "y": 730,
-      "size": 40,
-      "color": "#000000",
+      "x": 1560,
+      "y": 640,
+      "size": 50,
+      "color": "#ffffff",
       "bold": true,
       "boil": 0,
-      "appear": 0.4
+      "appear": 0.3,
+      "outline": "#000000",
+      "outline_width": 3
+     },
+     {
+      "type": "text",
+      "text": "Z",
+      "x": 1620,
+      "y": 570,
+      "size": 64,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "appear": 0.6,
+      "outline": "#000000",
+      "outline_width": 3
      },
      {
       "type": "doug",
-      "x": 1600,
-      "y": 899,
+      "x": 300,
+      "y": 633,
       "scale": 0.4,
       "pose": "stand",
       "expression": "confused",
-      "facing": "left"
+      "facing": "right"
      },
      {
       "type": "label",
@@ -38331,7 +38053,7 @@
       "type": "text",
       "text": "THE LUNGE",
       "x": 960,
-      "y": 350,
+      "y": 245,
       "size": 140,
       "color": "#e0201b",
       "outline": "#000000",
@@ -38594,8 +38316,8 @@
      {
       "type": "wordart",
       "text": "SIZE HAS A COST",
-      "x": 1050,
-      "y": 330,
+      "x": 962,
+      "y": 250,
       "size": 84,
       "boil": 0,
       "appear": 0.4
@@ -39508,8 +39230,8 @@
      {
       "type": "wordart",
       "text": "BIG = SLOW?",
-      "x": 1100,
-      "y": 330,
+      "x": 1023,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "appear": 0.5
@@ -39593,7 +39315,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -39644,7 +39366,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 550,
+      "y": 650,
       "scale": 0.5,
       "pose": "sit",
       "expression": "hopeful",
@@ -39653,20 +39375,20 @@
      {
       "type": "asset",
       "name": "kitchen_counter",
-      "x": 1500,
+      "x": 1215,
       "y": 760,
-      "scale": 0.8,
+      "scale": 0.33,
       "appear": 0.4
      },
      {
       "type": "line",
       "points": [
        [
-        1120,
-        600
+        1105,
+        700
        ],
        [
-        1120,
+        1105,
         760
        ]
       ],
@@ -39681,8 +39403,8 @@
      {
       "type": "label",
       "text": "KITCHEN COUNTER",
-      "x": 1500,
-      "y": 380,
+      "x": 1400,
+      "y": 540,
       "size": 40,
       "bold": true,
       "boil": 0.4,
@@ -39768,7 +39490,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -39819,7 +39541,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 550,
+      "y": 650,
       "scale": 0.5,
       "pose": "sit",
       "expression": "hopeful",
@@ -39829,7 +39551,7 @@
       "type": "asset",
       "name": "sandwich",
       "x": 1050,
-      "y": 560,
+      "y": 660,
       "scale": 0.2
      },
      {
@@ -39920,7 +39642,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -39986,7 +39708,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 550,
+      "y": 650,
       "scale": 0.5,
       "pose": "sit",
       "expression": "hopeful",
@@ -39996,7 +39718,7 @@
       "type": "asset",
       "name": "sandwich",
       "x": 1050,
-      "y": 560,
+      "y": 660,
       "scale": 0.2
      },
      {
@@ -40102,7 +39824,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -40168,7 +39890,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 550,
+      "y": 650,
       "scale": 0.5,
       "pose": "sit",
       "expression": "hopeful",
@@ -40178,7 +39900,7 @@
       "type": "asset",
       "name": "sandwich",
       "x": 1050,
-      "y": 560,
+      "y": 660,
       "scale": 0.2
      },
      {
@@ -40294,7 +40016,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -40360,7 +40082,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 550,
+      "y": 650,
       "scale": 0.5,
       "pose": "sit",
       "expression": "neutral",
@@ -40370,7 +40092,7 @@
       "type": "asset",
       "name": "sandwich",
       "x": 1050,
-      "y": 560,
+      "y": 660,
       "scale": 0.2
      },
      {
@@ -40481,7 +40203,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -40547,7 +40269,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 550,
+      "y": 650,
       "scale": 0.5,
       "pose": "sit",
       "expression": "neutral",
@@ -40557,7 +40279,7 @@
       "type": "asset",
       "name": "sandwich",
       "x": 1050,
-      "y": 560,
+      "y": 660,
       "scale": 0.2
      },
      {
@@ -40687,7 +40409,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -40753,9 +40475,9 @@
      {
       "type": "asset",
       "name": "croc_lunge_rising",
-      "x": 1450,
+      "x": 1330,
       "y": 760,
-      "scale": 0.8,
+      "scale": 0.55,
       "appear": 0.5
      },
      {
@@ -40770,7 +40492,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 550,
+      "y": 650,
       "scale": 0.5,
       "pose": "sit",
       "expression": "shock",
@@ -41099,7 +40821,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -41150,7 +40872,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 550,
+      "y": 650,
       "scale": 0.5,
       "pose": "sit",
       "expression": "hopeful",
@@ -41160,18 +40882,18 @@
       "type": "asset",
       "name": "sandwich",
       "x": 1050,
-      "y": 560,
+      "y": 660,
       "scale": 0.2
      },
      {
       "type": "line",
       "points": [
        [
-        1000,
-        640
+        1060,
+        712
        ],
        [
-        1000,
+        1060,
         760
        ]
       ],
@@ -41273,7 +40995,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -41339,7 +41061,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 550,
+      "y": 650,
       "scale": 0.5,
       "pose": "sit",
       "expression": "hopeful",
@@ -41349,7 +41071,7 @@
       "type": "asset",
       "name": "sandwich",
       "x": 1050,
-      "y": 560,
+      "y": 660,
       "scale": 0.2
      },
      {
@@ -41366,8 +41088,8 @@
        900
       ],
       "to": [
-       1060,
-       660
+       1080,
+       720
       ],
       "bend": -80,
       "color": "#e0201b",
@@ -41462,7 +41184,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -41513,7 +41235,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 550,
+      "y": 650,
       "scale": 0.5,
       "pose": "sit_thumbs_up",
       "expression": "smirk",
@@ -41523,7 +41245,7 @@
       "type": "asset",
       "name": "sandwich",
       "x": 1050,
-      "y": 560,
+      "y": 660,
       "scale": 0.2
      },
      {
@@ -41614,7 +41336,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -41665,7 +41387,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 550,
+      "y": 650,
       "scale": 0.5,
       "pose": "sit",
       "expression": "flat",
@@ -41675,7 +41397,7 @@
       "type": "asset",
       "name": "sandwich",
       "x": 1050,
-      "y": 560,
+      "y": 660,
       "scale": 0.2
      },
      {
@@ -41774,7 +41496,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -41825,7 +41547,7 @@
      {
       "type": "doug",
       "x": 1000,
-      "y": 550,
+      "y": 650,
       "scale": 0.5,
       "pose": "sit",
       "expression": "hopeful",
@@ -41835,7 +41557,7 @@
       "type": "asset",
       "name": "sandwich",
       "x": 1050,
-      "y": 560,
+      "y": 660,
       "scale": 0.2
      },
      {
@@ -41956,7 +41678,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -42015,7 +41737,7 @@
       "type": "asset",
       "name": "doug_cap",
       "x": 1330,
-      "y": 630,
+      "y": 730,
       "scale": 0.4,
       "rotate": -20
      },
@@ -42024,11 +41746,11 @@
       "points": [
        [
         1330,
-        590
+        690
        ],
        [
         1330,
-        614
+        714
        ]
       ],
       "color": "#5a3a1e",
@@ -42125,7 +41847,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -42177,7 +41899,7 @@
       "type": "asset",
       "name": "doug_cap",
       "x": 1330,
-      "y": 630,
+      "y": 730,
       "scale": 0.4,
       "rotate": -20
      },
@@ -42282,7 +42004,7 @@
       "type": "asset",
       "name": "tree_branch",
       "x": 900,
-      "y": 600,
+      "y": 700,
       "scale": 0.7
      },
      {
@@ -42349,7 +42071,7 @@
       "type": "asset",
       "name": "doug_cap",
       "x": 1330,
-      "y": 630,
+      "y": 730,
       "scale": 0.4,
       "rotate": -20
      },
@@ -42599,7 +42321,7 @@
       "type": "text",
       "text": "THE ROLL",
       "x": 960,
-      "y": 350,
+      "y": 245,
       "size": 140,
       "color": "#e0201b",
       "outline": "#000000",
@@ -42857,8 +42579,8 @@
      {
       "type": "wordart",
       "text": "CAN'T CHEW",
-      "x": 1100,
-      "y": 330,
+      "x": 1052,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "appear": 0.3
@@ -43526,57 +43248,89 @@
      },
      {
       "type": "asset",
-      "name": "croc_top_c",
-      "x": 900,
-      "y": 560,
+      "name": "saltwater_crocodile",
+      "x": 880,
+      "y": 700,
       "scale": 0.9
      },
      {
-      "type": "ellipse",
-      "x": 900,
-      "y": 820,
-      "rx": 420,
-      "ry": 120,
-      "start": 200,
-      "end": 340,
-      "fill": null,
+      "type": "line",
+      "points": [
+       [
+        330,
+        610
+       ],
+       [
+        1440,
+        610
+       ]
+      ],
       "color": "#ffffff",
       "width": 5,
-      "appear": 0.3
+      "dash": [
+       16,
+       12
+      ],
+      "appear": 0.2
      },
      {
       "type": "ellipse",
-      "x": 900,
-      "y": 820,
-      "rx": 460,
-      "ry": 150,
-      "start": 200,
-      "end": 340,
+      "x": 880,
+      "y": 610,
+      "rx": 80,
+      "ry": 210,
       "fill": null,
       "color": "#ffffff",
       "width": 5,
-      "appear": 0.3
+      "appear": 0.4
      },
      {
       "type": "arrow",
       "from": [
-       1280,
-       920
+       800,
+       400
       ],
       "to": [
-       1340,
-       760
+       960,
+       400
       ],
-      "bend": 60,
+      "bend": -60,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
-      "appear": 0.3
+      "appear": 0.4
+     },
+     {
+      "type": "arrow",
+      "from": [
+       960,
+       820
+      ],
+      "to": [
+       800,
+       820
+      ],
+      "bend": -60,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.6
+     },
+     {
+      "type": "label",
+      "text": "SPINS",
+      "x": 1250,
+      "y": 330,
+      "size": 48,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff",
+      "appear": 0.5
      },
      {
       "type": "doug",
       "x": 1700,
-      "y": 889,
+      "y": 980,
       "scale": 0.4,
       "pose": "stand",
       "expression": "shock",
@@ -44177,23 +43931,11 @@
       "appear": 0.2
      },
      {
-      "type": "line",
-      "points": [
-       [
-        1580,
-        520
-       ],
-       [
-        1600,
-        545
-       ],
-       [
-        1640,
-        490
-       ]
-      ],
-      "color": "#2fae3a",
-      "width": 10,
+      "type": "asset",
+      "name": "red_x",
+      "x": 1610,
+      "y": 515,
+      "scale": 0.3,
       "appear": 0.2
      },
      {
@@ -44945,8 +44687,8 @@
      {
       "type": "wordart",
       "text": "A DANCE?",
-      "x": 1200,
-      "y": 330,
+      "x": 1109,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "appear": 0.5
@@ -45637,88 +45379,43 @@
       "smooth": true
      },
      {
-      "type": "ellipse",
-      "x": 1000,
-      "y": 920,
-      "rx": 150,
-      "ry": 34,
-      "fill": null,
-      "color": "#d9e4d0",
-      "width": 5
-     },
-     {
-      "type": "ellipse",
-      "x": 1000,
-      "y": 880,
-      "rx": 128,
-      "ry": 30,
-      "fill": null,
-      "color": "#d9e4d0",
-      "width": 5
-     },
-     {
-      "type": "ellipse",
+      "type": "asset",
+      "name": "water_splash",
       "x": 1000,
       "y": 840,
-      "rx": 106,
-      "ry": 26,
-      "fill": null,
-      "color": "#d9e4d0",
-      "width": 5
+      "scale": 0.9
      },
      {
-      "type": "ellipse",
-      "x": 1000,
-      "y": 800,
-      "rx": 84,
-      "ry": 22,
-      "fill": null,
-      "color": "#d9e4d0",
-      "width": 5
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        940,
-        760
-       ],
-       [
-        1060,
-        760
-       ],
-       [
-        1000,
-        920
-       ]
+      "type": "arrow",
+      "from": [
+       790,
+       900
       ],
-      "fill": "#8a8f96",
-      "color": "#000000",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1000,
-        760
-       ],
-       [
-        700,
-        520
-       ],
-       [
-        330,
-        770
-       ]
+      "to": [
+       790,
+       640
       ],
+      "bend": -150,
       "color": "#ffffff",
-      "width": 5,
-      "dash": [
-       16,
-       12
+      "width": 7,
+      "head": 28,
+      "appear": 0.3
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1210,
+       640
       ],
-      "appear": 0.2
+      "to": [
+       1210,
+       900
+      ],
+      "bend": -150,
+      "color": "#ffffff",
+      "width": 7,
+      "head": 28,
+      "appear": 0.3
      },
      {
       "type": "asset",
@@ -45981,8 +45678,8 @@
      {
       "type": "label",
       "text": "TO ESCAPE",
-      "x": 1300,
-      "y": 400,
+      "x": 1000,
+      "y": 250,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -45992,8 +45689,8 @@
      {
       "type": "label",
       "text": "TO FEED",
-      "x": 1300,
-      "y": 500,
+      "x": 1290,
+      "y": 250,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -46487,9 +46184,9 @@
      {
       "type": "wordart",
       "text": "NEEDS A PARTNER",
-      "x": 1250,
-      "y": 400,
-      "size": 84,
+      "x": 950,
+      "y": 238,
+      "size": 76,
       "boil": 0,
       "appear": 0.3
      },
@@ -47106,33 +46803,16 @@
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "myanmar_coast_map",
-      "x": 860,
-      "y": 600,
-      "scale": 0.9
-     },
-     {
-      "type": "label",
-      "text": "RAMREE ISLAND, 1945",
-      "x": 860,
-      "y": 180,
-      "size": 44,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
-     },
-     {
       "type": "text",
-      "text": "VERY FEW CAME OUT",
-      "x": 1530,
-      "y": 640,
-      "size": 46,
+      "text": "VERY FEW CAME OUT.",
+      "x": 960,
+      "y": 540,
+      "size": 110,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
-      "appear": 0.3,
-      "max_width": 380
+      "appear": 0.2,
+      "max_width": 1500
      }
     ]
    }
@@ -48220,7 +47900,7 @@
       "type": "wordart",
       "text": "A ROCK",
       "x": 1100,
-      "y": 330,
+      "y": 250,
       "size": 90,
       "boil": 0,
       "top": "#ffffff",
@@ -48467,8 +48147,8 @@
      {
       "type": "wordart",
       "text": "MUCH BETTER",
-      "x": 1100,
-      "y": 330,
+      "x": 1043,
+      "y": 250,
       "size": 90,
       "boil": 0,
       "top": "#ffffff",
@@ -49548,8 +49228,8 @@
      {
       "type": "wordart",
       "text": "STILL COUNTED",
-      "x": 1100,
-      "y": 330,
+      "x": 1012,
+      "y": 250,
       "size": 84,
       "boil": 0,
       "top": "#ffffff",
@@ -51452,59 +51132,71 @@
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "indonesia_map",
-      "x": 900,
-      "y": 600,
-      "scale": 1.0
-     },
-     {
-      "type": "asset",
-      "name": "indonesia_map_ntt",
-      "x": 900,
-      "y": 600,
-      "scale": 1.0
-     },
-     {
       "type": "label",
-      "text": "100 ATTACKS, 10 YEARS",
+      "text": "100 ATTACKS",
       "x": 960,
-      "y": 250,
+      "y": 220,
       "size": 46,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff"
      },
      {
+      "type": "asset",
+      "name": "us_quarter",
+      "x": 960,
+      "y": 560,
+      "scale": 1.1,
+      "appear": 0.1
+     },
+     {
+      "type": "ellipse",
+      "x": 960,
+      "y": 560,
+      "rx": 260,
+      "ry": 260,
+      "start": 200,
+      "end": 280,
+      "fill": null,
+      "color": "#e8ecf4",
+      "width": 5,
+      "appear": 0.1
+     },
+     {
+      "type": "ellipse",
+      "x": 960,
+      "y": 560,
+      "rx": 260,
+      "ry": 260,
+      "start": 20,
+      "end": 100,
+      "fill": null,
+      "color": "#e8ecf4",
+      "width": 5,
+      "appear": 0.1
+     },
+     {
       "type": "label",
       "text": "60 FATAL",
-      "x": 1600,
-      "y": 960,
-      "size": 44,
+      "x": 960,
+      "y": 880,
+      "size": 50,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
-      "appear": 0.3
+      "appear": 0.35,
+      "color": "#e0201b"
      },
      {
-      "type": "circle",
-      "x": 1700,
-      "y": 800,
-      "r": 70,
-      "fill": "#e8c04a",
-      "color": "#000000",
-      "width": 5,
-      "appear": 0.6
-     },
-     {
-      "type": "circle",
-      "x": 1700,
-      "y": 800,
-      "r": 52,
-      "fill": null,
-      "color": "#b08a2a",
-      "width": 4,
-      "appear": 0.6
+      "type": "text",
+      "text": "WORSE THAN 50/50",
+      "x": 960,
+      "y": 980,
+      "size": 48,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "appear": 0.7
      }
     ]
    }
@@ -51516,59 +51208,94 @@
     "background": "#ffffff",
     "elements": [
      {
-      "type": "rect",
-      "x": 0,
-      "y": 0,
-      "w": 1920,
-      "h": 1080,
-      "fill": "#1a1d22",
-      "color": "#1a1d22",
-      "width": 0,
-      "boil": 0,
-      "outline": false
+      "type": "bands",
+      "bands": [
+       {
+        "y0": 0,
+        "y1": 600,
+        "color": "#1a1d22"
+       },
+       {
+        "y0": 600,
+        "y1": 1080,
+        "color": "#2a3440"
+       }
+      ]
      },
      {
-      "type": "asset",
-      "name": "indonesia_map",
-      "x": 900,
-      "y": 600,
-      "scale": 1.0
+      "type": "line",
+      "points": [
+       [
+        300,
+        700
+       ],
+       [
+        480,
+        700
+       ]
+      ],
+      "color": "#3e4b5a",
+      "width": 3
      },
      {
-      "type": "asset",
-      "name": "indonesia_map_ntt",
-      "x": 900,
-      "y": 600,
-      "scale": 1.0
+      "type": "line",
+      "points": [
+       [
+        1300,
+        760
+       ],
+       [
+        1500,
+        760
+       ]
+      ],
+      "color": "#3e4b5a",
+      "width": 3
      },
      {
-      "type": "label",
-      "text": "100 ATTACKS, 10 YEARS",
-      "x": 960,
-      "y": 250,
-      "size": 46,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
+      "type": "line",
+      "points": [
+       [
+        600,
+        900
+       ],
+       [
+        760,
+        900
+       ]
+      ],
+      "color": "#3e4b5a",
+      "width": 3
      },
      {
       "type": "asset",
       "name": "fishing_boat",
-      "x": 1550,
-      "y": 860,
-      "scale": 0.3,
-      "appear": 0.5
+      "x": 960,
+      "y": 620,
+      "scale": 1.0,
+      "appear": 0.1
      },
      {
       "type": "label",
       "text": "MOSTLY FISHING",
-      "x": 1550,
-      "y": 960,
-      "size": 40,
+      "x": 960,
+      "y": 880,
+      "size": 44,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
-      "appear": 0.6
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "MOSTLY MEN",
+      "x": 960,
+      "y": 240,
+      "size": 54,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "appear": 0.3
      }
     ]
    }
@@ -53066,12 +52793,11 @@
       "scale": 1.6
      },
      {
-      "type": "spray",
-      "x": 1450,
-      "y": 640,
-      "r": 200,
-      "color": "#dfeaf0",
-      "density": 0.3
+      "type": "asset",
+      "name": "water_splash",
+      "x": 1480,
+      "y": 860,
+      "scale": 0.8
      },
      {
       "type": "asset",
@@ -54314,16 +54040,48 @@
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "nt_map_sepia",
-      "x": 620,
-      "y": 600,
-      "scale": 0.9
+      "type": "line",
+      "points": [
+       [
+        200,
+        230
+       ],
+       [
+        200,
+        900
+       ],
+       [
+        1760,
+        900
+       ]
+      ],
+      "color": "#5a4630",
+      "width": 6
+     },
+     {
+      "type": "text",
+      "text": "CROCS",
+      "x": 200,
+      "y": 200,
+      "size": 36,
+      "color": "#5a4630",
+      "bold": true,
+      "boil": 0
+     },
+     {
+      "type": "text",
+      "text": "1945",
+      "x": 230,
+      "y": 950,
+      "size": 36,
+      "color": "#5a4630",
+      "bold": true,
+      "boil": 0
      },
      {
       "type": "rect",
-      "x": 480,
-      "y": 470,
+      "x": 760,
+      "y": 150,
       "w": 300,
       "h": 100,
       "fill": "#e9dcc0",
@@ -54334,8 +54092,8 @@
      {
       "type": "text",
       "text": "HUNTING",
-      "x": 630,
-      "y": 520,
+      "x": 910,
+      "y": 200,
       "size": 52,
       "color": "#e0201b",
       "bold": true,
@@ -54345,59 +54103,49 @@
       "type": "line",
       "points": [
        [
-        1150,
-        300
+        246,
+        337
        ],
        [
-        1150,
-        900
+        547,
+        412
        ],
        [
-        1820,
-        900
-       ]
-      ],
-      "color": "#5a4630",
-      "width": 5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1170,
-        380
+        825,
+        575
        ],
        [
-        1300,
-        450
+        1056,
+        748
        ],
        [
-        1420,
-        600
-       ],
-       [
-        1520,
-        760
-       ],
-       [
-        1580,
-        850
+        1195,
+        846
        ]
       ],
       "color": "#e0201b",
-      "width": 9,
+      "width": 10,
       "appear": 0.2
      },
      {
       "type": "label",
       "text": "26 YEARS",
-      "x": 1450,
-      "y": 320,
-      "size": 40,
+      "x": 900,
+      "y": 560,
+      "size": 44,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.5
+     },
+     {
+      "type": "doug",
+      "x": 1830,
+      "y": 854,
+      "scale": 0.3,
+      "pose": "stand",
+      "expression": "sad",
+      "facing": "left"
      },
      {
       "type": "label",
@@ -54431,64 +54179,118 @@
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "nt_map_sepia",
-      "x": 620,
-      "y": 600,
-      "scale": 0.9
-     },
-     {
       "type": "line",
       "points": [
        [
-        1150,
-        300
+        200,
+        230
        ],
        [
-        1150,
+        200,
         900
        ],
        [
-        1820,
+        1760,
         900
        ]
       ],
       "color": "#5a4630",
-      "width": 5
+      "width": 6
+     },
+     {
+      "type": "text",
+      "text": "CROCS",
+      "x": 200,
+      "y": 200,
+      "size": 36,
+      "color": "#5a4630",
+      "bold": true,
+      "boil": 0
+     },
+     {
+      "type": "text",
+      "text": "1945",
+      "x": 230,
+      "y": 950,
+      "size": 36,
+      "color": "#5a4630",
+      "bold": true,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 760,
+      "y": 150,
+      "w": 300,
+      "h": 100,
+      "fill": "#e9dcc0",
+      "color": "#e0201b",
+      "width": 8,
+      "boil": 0
+     },
+     {
+      "type": "text",
+      "text": "HUNTING",
+      "x": 910,
+      "y": 200,
+      "size": 52,
+      "color": "#e0201b",
+      "bold": true,
+      "boil": 0
      },
      {
       "type": "line",
       "points": [
        [
-        1170,
-        380
+        246,
+        337
        ],
        [
-        1300,
-        450
+        547,
+        412
        ],
        [
-        1420,
-        600
+        825,
+        575
        ],
        [
-        1520,
-        760
+        1056,
+        748
        ],
        [
-        1580,
-        850
+        1195,
+        846
        ]
       ],
       "color": "#e0201b",
-      "width": 9
+      "width": 10
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1195,
+        250
+       ],
+       [
+        1195,
+        900
+       ]
+      ],
+      "color": "#5a4630",
+      "width": 4,
+      "dash": [
+       14,
+       10
+      ],
+      "appear": 0.3
      },
      {
       "type": "label",
       "text": "1971",
-      "x": 1580,
+      "x": 1195,
       "y": 960,
-      "size": 36,
+      "size": 40,
       "bold": true,
       "boil": 0.4,
       "fill": "#ffffff",
@@ -54496,8 +54298,8 @@
      },
      {
       "type": "doug",
-      "x": 1750,
-      "y": 901,
+      "x": 1830,
+      "y": 854,
       "scale": 0.3,
       "pose": "stand",
       "expression": "confused",

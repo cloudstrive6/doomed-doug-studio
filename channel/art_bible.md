@@ -131,6 +131,22 @@ Every shot of an item stays on its item colour, death beats included. `#5d8a87` 
 **WordArt override on green or olive grounds** (any of the above greens, light or dark): `"top": "#ffffff", "bottom": "#ffe24a",
 "outline": "#1a1a1a"`. The default yellow-to-green gradient stays banned on green.
 
+**Crocodile / tidal-river time-of-day ramp (from 027; reuse for any crocodile, river or "one item per hour" episode).** The light falls
+item by item from bright midday to night. The sober cards are the darkest step and have no Doug, no counter and no music sting.
+| Item | Sky / backdrop | Water / ground |
+|---|---|---|
+| Bright tidal river (Dive) | `#cfe9ff` | mud water `#8a7a4a`; cross-section `#6b7a4a` / `#5d6b45` |
+| Mangrove shade (Skin) | overcast `#b9c4a8` | `#66764d`; sensor-tank cards `#2a2e33`; night canoe `#1b2f5a` over `#2b3d33` |
+| Sea / range (Tongue) | `#cfe9ff`, map sea `#bfe6ff` | sea `#3a9ad9` |
+| Darker mangrove (Egg) | `#a3ae8f` | `#5d6b45` |
+| Dusk estuary (Size, Home) | `#f2a24a` over `#e88a4a` | `#6b7a4a`; outback `#c9663a` / `#9a7a4a`; bathroom `#d9e6e6` |
+| Late dusk (Lunge) | `#b8573a` over `#7a3b3a` | `#4f5e3a` |
+| Night falling (Roll) | `#3b3550`; diagram card `#2a3040` | `#2f3a2a` |
+| Sober cards (Legend, Menu) | near-black `#15181a` / `#1a1d22`, white `label`s, white title | maps in muted `#2a3440` sea / `#4a5a48` land |
+| Night river / city (Menu Doug beats, Comeback) | `#0b0f14`, city night `#0b1020` | `#0d1410` / `#0f1e1c`; history cards sepia `#e9dcc0` |
+**Open-jaw head cut edge (from 027):** `croc_jaws_open` ends in a flat vertical back edge. Never place it with that edge mid-frame (it
+reads as a severed head). Push the back edge past the frame edge (flip it if needed), or use an asset whose neck runs off-frame.
+
 ## Two-tier rendering (style bible 4.3)
 - **Doug and humans: crude** MS Paint stick men: uniform thin lines (Doug's rig: 5 at scale 1 ≈ 4–5 px), big round
   head with grey shading crescent, oval eyes, meme faces.
@@ -248,6 +264,9 @@ Wordart and title text must not cross a map frame line, land masses, crystals or
 On full-width maps there is no clear band below the frame: shrink the map (about 0.8-0.9) and raise it, then put the
 wordart in the freed strip, or use a short word in the side margin (007: 9 map shots failed this). Tall props (trees,
 towers, fishing rods) must stay below the chapter top bar.
+**Treelines count as land (from 027).** On horizon scenes with a row of `mangrove_clump` (or any tree row) at the waterline, wordart,
+title text and labels go in the clear sky above the canopy (for clumps at y 454, scale 0.3, the canopy top is y 327, so text centre
+y ≤ 255 at size ≤ 110, clear of the counter box), or the clump directly behind the text is removed. 027 had 40 shots that broke this.
 Text inside library assets stays upright when the asset is rotated or flipped (the engine's `text` cannot rotate). An asset with a printed
 label (`birdseed_bag`, `cement_bag`, signs) at `rotate` 90-270 reads as an upright object with a broken outline, not an upturned one (011 s123).
 To show "empty" or "spilled", keep it upright or tilt it under 25 degrees and add falling seeds/crumbs, or lay it on the ground.
