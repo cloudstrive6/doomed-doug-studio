@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-10-26T19:02:50+00:00",
       "note": "art-director PASS + visual-screener PASS (round 3)"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-10-26T19:24:48+00:00",
+      "note": "all gates passed; narrated, validated"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

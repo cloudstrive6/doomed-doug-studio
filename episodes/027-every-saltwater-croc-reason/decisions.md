@@ -90,3 +90,4 @@ designer was right about the leap reading).
 after a visual-screener PASS on A, B and the revised C (renders and `_small`). Nothing moves to `packaged` before that.
 
 THUMBNAIL A: APPROVED · THUMBNAIL B: APPROVED · THUMBNAIL C: CHANGES (2), re-review C only
+- 2026-10-26 showrunner: script 3 rounds (draft 3 PASS, CD approved), art 3 rounds (art-director PASS + visual-screener PASS), thumbnails 2 rounds (A/B/C PASS), narration 15.9 min. Risk: ~23% of sentences end in ', and …' (script-screener/editor flagged, not blocking); sober Legend/Menu sections have no Doug by design; Skin/Size attack-stat sources noted in facts.md; Sideleau paper cited without Britton/CrocBITE.

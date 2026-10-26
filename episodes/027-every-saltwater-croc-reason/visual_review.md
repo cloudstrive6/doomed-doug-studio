@@ -61,3 +61,31 @@ Fine as drawn in C: the labels (Skin, Size, Home, Dive) are legible at feed size
 
 ### Checks passed on all three variants
 No gore, no blood, no teeth on Doug, no hatchlings, no leaping croc, no kid-show tone, no title words in the thumbnail text, no MS Paint artifacts, and no text cropped at the edges.
+
+## Round 5: Thumbnails (2026-10-26)
+
+Scope: the revised `build/thumbnail.png` (A) and `build/thumbnail_c.png` (C), plus the unchanged `build/thumbnail_b.png` (B). Each was viewed at 1280x720, at 168x94 (`*_small.png`) and in zoomed crops (A snout, C Skin tile, C Dive snout). Checked against the title "Every Reason the Saltwater Crocodile Is the Scariest Reptile", the `thumbnail_brief` banned-word list and the Round 4 fixes.
+
+**VERDICT: PASS** (all three variants). A, B and C can all go into Test & Compare.
+
+| Variant | Result | Summary |
+|---|---|---|
+| A (hero, "IT WAS THERE") | **PASS** | The head is lowered, so it reads less like a sea serpent. Still readable at feed size, with no title words. |
+| B (cross-section, "11.5 HOURS") | **PASS** | Unchanged from Round 4 and still the strongest at 168x94. |
+| C (4-tile grid) | **PASS** | Both Round 4 blockers are fixed: the Skin domes read as separate points, and the Dive tile now says "under you". |
+
+### A: PASS
+- The lowered head angle makes it read better as a crocodile head at 168 px. The big yellow slit eye, the interlocking tooth line and the scutes along the back of the head are all visible. Doug (red cap, white head, scared face, sweat drop) and the ripple ring still read in under a second. "IT WAS THERE" is fully legible and uses no banned word.
+- Jaws are closed and empty. No blood. The body stays submerged, so it doesn't read as a leap.
+- Minor (graphic designer, optional, not blocking): the snout tip and nostril still run off the top-right edge, so the Round 4 suggestion is only partly done. If A gets another pass, scale the head down about 10% or shift it left so the nostril bump sits inside the frame. The faint stipple patch on the cheek is fine.
+
+### B: PASS
+Unchanged from Round 4. It still passes on every point there: legible text, the whole croc readable under the canoe, a sourced claim, no gore, Doug on-model.
+
+### C: PASS
+1. **Skin tile: fixed.** There are now about 37 larger yellow sensor domes, evenly spaced on a recognisable snout (eye, teeth and nostril all visible). At 168x94 they read as distinct bright points, not glitter or a rash, and they no longer cluster tightly enough to raise a trypophobia concern. This is inside the CD's 25-40 range. Minor (illustrator, optional): the fine dark stipple left between the domes adds noise at full size. Removing it would make the domes read even more clearly as the subject.
+2. **Dive tile: fixed.** Doug's canoe sits on the surface line with his red cap clearly visible, and the croc fills the lower half of the tile right underneath him. At feed size it now reads as "it's down there under you", not "croc on mud", and the canoe sets it apart from the Size tile even though both crocs are drawn side-on. Jaws are closed. Minor (graphic designer, optional): the nostril bump touches the panel's right border. Pull the croc about 10 px left so it has a margin.
+- The labels (Skin, Size, Home, Dive) are legible at 168x94 and avoid every banned word. The Size and Home tiles are unchanged and still fine.
+
+### Checks passed on all three variants
+No gore, no blood, no teeth on Doug, no hatchlings, no leaping croc, no kid-show tone, no title or alt-title words, no text cropped at the edges, no MS Paint artifacts. Each variant has one clear focal point at feed size (C as a grid of four) and none of them is misleading for the title.
