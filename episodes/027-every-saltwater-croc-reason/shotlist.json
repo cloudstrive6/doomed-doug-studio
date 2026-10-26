@@ -7637,23 +7637,23 @@
      },
      {
       "type": "asset",
+      "name": "croc_jaw_closeup",
+      "x": 1220,
+      "y": 350,
+      "scale": 0.72
+     },
+     {
+      "type": "asset",
       "name": "fingertip",
       "x": 420,
       "y": 1000,
       "scale": 0.8
      },
      {
-      "type": "asset",
-      "name": "croc_jaw_closeup",
-      "x": 1280,
-      "y": 640,
-      "scale": 0.8
-     },
-     {
       "type": "label",
       "text": "YOU",
       "x": 420,
-      "y": 470,
+      "y": 620,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -7708,23 +7708,23 @@
      },
      {
       "type": "asset",
+      "name": "croc_jaw_closeup",
+      "x": 1220,
+      "y": 350,
+      "scale": 0.72
+     },
+     {
+      "type": "asset",
       "name": "fingertip",
       "x": 420,
       "y": 1000,
       "scale": 0.8
      },
      {
-      "type": "asset",
-      "name": "croc_jaw_closeup",
-      "x": 1280,
-      "y": 640,
-      "scale": 0.8
-     },
-     {
       "type": "label",
       "text": "YOU",
       "x": 420,
-      "y": 470,
+      "y": 620,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -7733,8 +7733,8 @@
      {
       "type": "label",
       "text": "10 TIMES MORE SENSITIVE",
-      "x": 1280,
-      "y": 400,
+      "x": 1340,
+      "y": 640,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -7854,6 +7854,13 @@
      },
      {
       "type": "asset",
+      "name": "croc_jaw_closeup",
+      "x": 1230,
+      "y": 350,
+      "scale": 0.72
+     },
+     {
+      "type": "asset",
       "name": "fingertip",
       "x": 520,
       "y": 1000,
@@ -7861,16 +7868,9 @@
      },
      {
       "type": "asset",
-      "name": "croc_jaw_closeup",
-      "x": 1300,
-      "y": 640,
-      "scale": 0.8
-     },
-     {
-      "type": "asset",
       "name": "red_x",
       "x": 520,
-      "y": 700,
+      "y": 820,
       "scale": 0.6,
       "appear": 0.3
      },
@@ -25765,7 +25765,7 @@
      },
      {
       "type": "doug",
-      "x": 400,
+      "x": 720,
       "y": 420,
       "scale": 0.4,
       "pose": "float",
@@ -26051,7 +26051,7 @@
      },
      {
       "type": "doug",
-      "x": 400,
+      "x": 720,
       "y": 420,
       "scale": 0.4,
       "pose": "float",
@@ -26313,7 +26313,7 @@
      },
      {
       "type": "doug",
-      "x": 400,
+      "x": 720,
       "y": 420,
       "scale": 0.4,
       "pose": "float",
@@ -29172,9 +29172,9 @@
      {
       "type": "wordart",
       "text": "WELL BEYOND",
-      "x": 1500,
+      "x": 1430,
       "y": 400,
-      "size": 90,
+      "size": 76,
       "boil": 0,
       "appear": 0.5
      },
@@ -29556,9 +29556,9 @@
      {
       "type": "wordart",
       "text": "110+ YEARS",
-      "x": 1500,
+      "x": 1440,
       "y": 400,
-      "size": 90,
+      "size": 84,
       "boil": 0,
       "appear": 0.5
      },
@@ -29653,9 +29653,9 @@
      {
       "type": "wordart",
       "text": "110+ YEARS",
-      "x": 1500,
+      "x": 1440,
       "y": 400,
-      "size": 90,
+      "size": 84,
       "boil": 0
      },
      {
@@ -34708,8 +34708,8 @@
      {
       "type": "text",
       "text": "Z",
-      "x": 1267,
-      "y": 752,
+      "x": 1225,
+      "y": 730,
       "size": 40,
       "color": "#000000",
       "bold": true,
@@ -34910,9 +34910,9 @@
      {
       "type": "wordart",
       "text": "SETTLED IN",
-      "x": 1560,
+      "x": 1480,
       "y": 420,
-      "size": 84,
+      "size": 80,
       "boil": 0,
       "appear": 0.1
      },
@@ -35398,9 +35398,9 @@
      {
       "type": "wordart",
       "text": "REMARKABLE",
-      "x": 1580,
+      "x": 1490,
       "y": 420,
-      "size": 80,
+      "size": 66,
       "boil": 0,
       "appear": 0.3
      },
@@ -40769,10 +40769,10 @@
      },
      {
       "type": "doug",
-      "x": 200,
-      "y": 642,
-      "scale": 0.4,
-      "pose": "stand",
+      "x": 1000,
+      "y": 550,
+      "scale": 0.5,
+      "pose": "sit",
       "expression": "shock",
       "facing": "right"
      },
@@ -47011,7 +47011,7 @@
      {
       "type": "label",
       "text": "AROUND 1,000",
-      "x": 1600,
+      "x": 1560,
       "y": 820,
       "size": 40,
       "bold": true,
@@ -47125,13 +47125,14 @@
      {
       "type": "text",
       "text": "VERY FEW CAME OUT",
-      "x": 1560,
+      "x": 1530,
       "y": 640,
       "size": 46,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
-      "appear": 0.3
+      "appear": 0.3,
+      "max_width": 380
      }
     ]
    }
@@ -47798,7 +47799,7 @@
      {
       "type": "text",
       "text": "DOUBT",
-      "x": 1213.0,
+      "x": 1130,
       "y": 600,
       "size": 40,
       "color": "#e0201b",
@@ -51477,7 +51478,7 @@
      {
       "type": "label",
       "text": "60 FATAL",
-      "x": 1750,
+      "x": 1600,
       "y": 960,
       "size": 44,
       "bold": true,
@@ -51487,7 +51488,7 @@
      },
      {
       "type": "circle",
-      "x": 1750,
+      "x": 1700,
       "y": 800,
       "r": 70,
       "fill": "#e8c04a",
@@ -51497,7 +51498,7 @@
      },
      {
       "type": "circle",
-      "x": 1750,
+      "x": 1700,
       "y": 800,
       "r": 52,
       "fill": null,
