@@ -3751,6 +3751,19 @@
       "appear": 0.5
      },
      {
+      "type": "rect",
+      "x": 1046,
+      "y": 446,
+      "w": 29,
+      "h": 104,
+      "fill": "#e0201b",
+      "color": "#e0201b",
+      "width": 0,
+      "boil": 0,
+      "outline": false,
+      "appear": 0.5
+     },
+     {
       "type": "text",
       "text": "35°C",
       "x": 1060,
@@ -3848,6 +3861,18 @@
       "x": 1060,
       "y": 600,
       "scale": 0.9
+     },
+     {
+      "type": "rect",
+      "x": 1046,
+      "y": 446,
+      "w": 29,
+      "h": 104,
+      "fill": "#e0201b",
+      "color": "#e0201b",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
       "type": "text",
@@ -3961,6 +3986,18 @@
       "x": 1060,
       "y": 600,
       "scale": 0.9
+     },
+     {
+      "type": "rect",
+      "x": 1046,
+      "y": 446,
+      "w": 29,
+      "h": 104,
+      "fill": "#e0201b",
+      "color": "#e0201b",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
       "type": "text",
@@ -5402,7 +5439,7 @@
      {
       "type": "doug",
       "x": 960,
-      "y": 760,
+      "y": 800,
       "scale": 0.5,
       "pose": [
        "walk1",
@@ -5415,7 +5452,7 @@
       "type": "asset",
       "name": "fishing_rod",
       "x": 985,
-      "y": 724,
+      "y": 764,
       "scale": 0.5
      },
      {
@@ -5423,7 +5460,7 @@
       "x": 820,
       "y": 790,
       "w": 280,
-      "h": 70,
+      "h": 100,
       "fill": "#8a7a4a",
       "color": "#8a7a4a",
       "width": 0,
@@ -20400,7 +20437,7 @@
      {
       "type": "doug",
       "x": 220,
-      "y": 719,
+      "y": 775,
       "scale": 0.4,
       "pose": "panic1",
       "expression": "shock",
@@ -20411,7 +20448,7 @@
       "x": 175,
       "y": 758,
       "w": 90,
-      "h": 40,
+      "h": 90,
       "fill": "#5d6b45",
       "color": "#5d6b45",
       "width": 0,
@@ -26988,7 +27025,7 @@
      {
       "type": "text",
       "text": "FOLLOWED.",
-      "x": 960,
+      "x": 880,
       "y": 245,
       "size": 140,
       "color": "#ffffff",
@@ -51143,7 +51180,7 @@
      },
      {
       "type": "asset",
-      "name": "us_quarter",
+      "name": "coin_generic",
       "x": 960,
       "y": 560,
       "scale": 1.1,
@@ -54402,8 +54439,8 @@
      {
       "type": "label",
       "text": "ABOUT 3,000",
-      "x": 1400,
-      "y": 780,
+      "x": 1310,
+      "y": 810,
       "size": 40,
       "bold": true,
       "boil": 0.4,
@@ -55233,8 +55270,8 @@
      {
       "type": "label",
       "text": "ABOUT 3,000",
-      "x": 1400,
-      "y": 780,
+      "x": 1310,
+      "y": 810,
       "size": 40,
       "bold": true,
       "boil": 0.4,
