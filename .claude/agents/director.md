@@ -41,7 +41,7 @@ watching. Visual change is retention: the picture must change on every beat.
 - Shot ids `s001`, `s002`, ... in order.
 
 ## Shorts: `episodes/<id>/shorts.json`
-Pick **4 Shorts** (config `shorts.per_episode`), each from a different item, from the shotlist: each a contiguous run of shots (`from`, `to`)
+Pick **3 Shorts** (config `shorts.per_episode`), each from a different item, from the shotlist: each a contiguous run of shots (`from`, `to`)
 with 25–55 s of narration, starting on a strong first line (ideally the item name or a shocking number).
 Prefer the most surprising items, not item 1; one famous creature/fact + a hard number makes the best Short.
 
@@ -61,7 +61,7 @@ clicks through to the full episode). Rules:
 5. `end_card`: a specific question about the teased thing, ≤ 8 words, all caps ("WHAT HAPPENS AT ZERO METRES?").
 Format (see `studio/shorts.py`): `{"shorts": [{"id": "short01", "from": "s145", "to": "s155", "title": "",
 "outro": "...", "tease_from": "s171", "tease_asset": "hippo_yawn", "end_card": "WHAT HAPPENS AT ZERO METRES?",
-"description": ""}, ...]}` (ids short01 ... short04). Leave `title`/`description` for the youtube-titler.
+"description": ""}, ...]}` (ids short01, short02, short03). Leave `title`/`description` for the youtube-titler.
 Optional `hook`: one extra spoken opening line (≤ 12 words) if the first shot doesn't hook on its own, with
 `hook_scene_from` = the shot whose drawing matches that line (it's shown static).
 Then `python -m studio shorts validate <id>` (it enforces the cliffhanger fields).

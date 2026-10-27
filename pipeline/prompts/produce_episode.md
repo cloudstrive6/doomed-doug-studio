@@ -26,7 +26,7 @@ After each major step, commit your progress: `git add -A && git commit -m "<id>:
   new proven-engine ideas before the creative director picks (the launch phase publishes one video a day).
 
 ## Quality bar
-The channel publishes 3 episodes a week (not daily): use the time for quality, not speed. Every
+The channel publishes daily: every upload gets its own YouTube home-feed test, so quality per upload still decides how far it travels. Every
 episode must be one the creative director would click on from the thumbnail and watch to the end. Spend the extra
 round on the opening minute (the retention cliff) and on the thumbnail and title.
 

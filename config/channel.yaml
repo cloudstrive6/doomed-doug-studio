@@ -66,13 +66,13 @@ schedule:
     episodes: 23
     publish_days: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
     queue_target: 4
-  publish_days: ["Mon", "Wed", "Fri"]   # 3 episodes a week: 12:00 New York = Tue/Thu/Sat 5:00 AM NZDT (owner, 2026-10-20)
-  episodes_ahead: 3          # keep a week of episodes scheduled ahead
+  publish_days: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]   # daily again (owner, 2026-10-27): each upload earns its own home-feed test (~400-700 views in week 1)
+  episodes_ahead: 4          # keep 4 days of episodes scheduled ahead
 
 shorts:                      # vertical Shorts cut from each episode, pointing viewers to the long video
-  per_episode: 4             # 3 episodes/week x 4 = 12 Shorts/week, about 2 a day
+  per_episode: 3             # daily episodes x 3 = 21 Shorts/week = 3 a day
   publish_times: ["09:00", "14:00", "19:00"]   # launch phase, New York time = 2:00 AM, 7:00 AM and 12:00 PM NZDT (3 a day matches 1 episode x 3 Shorts)
-  weekly_publish_times: ["09:00", "19:00"]   # after the launch: 2 Shorts a day, 2:00 AM and 12:00 PM NZDT
+  weekly_publish_times: ["09:00", "14:00", "19:00"]   # 3 Shorts a day: 2:00 AM, 7:00 AM, 12:00 PM NZDT
   playlist: "Doomed Doug Shorts"
 
 compilations:                # weekly marathons of published episodes (studio/compile.py), not in the daily episode slots

@@ -45,4 +45,4 @@ Stages: idea → scripted → script_approved → shotlisted → art_approved �
 - Doug's design is locked (`studio/doug.py`); only the art director may add poses/gear.
 - Never commit or print secrets (`.env`, tokens). Uploads happen only through `python -m studio upload` after QC.
 - Uploads are scheduled `publishAt` ≥ 18 h out (`schedule.review_window_days`); the owner reviews in YouTube Studio during that window.
-- Cadence: 3 episodes a week (Tue/Thu/Sat 5 AM NZ) + 4 Shorts each (2 a day) + a marathon every Sunday (`config/channel.yaml`).
+- Cadence: one episode every day (5 AM NZ) + 3 Shorts each (3 a day) + a marathon every Sunday (`config/channel.yaml`).
