@@ -142,3 +142,22 @@ The problems are the end-card questions.
 short01 is otherwise good. It pays off its title (the punctured fender, the capsized dinghy, the 216 regulars). The outro sets up
 one specific question ("WHAT DOES THAT SMILE REALLY MEAN?"), and the open-jawed `leopard_seal_gape` silhouette (teeth visible)
 matches it. It does not need changes beyond the optional item 3.
+
+## Round 4: post-render re-check (re-rendered Shorts, final round), 2026-10-27
+
+What I checked: the three re-rendered `build/shorts/short01-03.mp4` (frame at 20 s, then frames at -8, -5, -3 and -1 s of each), the three `*_preview.png`, all 23 `build/samples`, `qc.json` (no problems), `thumbnail.png` and `metadata.json`. Nothing was rendered.
+
+### Main video + thumbnail: PASS (unchanged since round 3)
+- The samples match round 3. There are no black, blank or frozen frames, the counter steps 234 to 240 in order, Doug is on-model, and there is no gore. `qc.json` reports no problems.
+- Thumbnail A ("IT FOLLOWS") still works with the title "How the Leopard Seal Kills Doug From Under the Ice": Doug on the yellow band, his shadow on the floe, and the spotted head underneath. It is honest packaging.
+- Round-2 notes R1 (the pale Sieve head) and R4/R5 are still open and still non-blocking.
+
+### Shorts: PASS
+1. **short02 (round-3 fix 2): fixed.** The end card now reads "WHAT DID SHE TRY TO FEED DOUG?". It follows the outro's "She tried." and matches the red-outlined swimming-seal silhouette. The Short does not answer it.
+2. **short03 (round-3 fix 1): fixed.** The end card now reads "WILL THE SEAL FALL FOR DOUG'S COSTUME?". This is the open question, and the outro no longer answers it. The rising head with whisker ticks and ripples reads as a seal head coming out of the water.
+3. **short01:** unchanged and still good. "WHAT DOES THAT SMILE REALLY MEAN?" goes with the open-jaw `leopard_seal_gape` silhouette.
+4. Packaging holds in all three Shorts. The titles are readable on three lines and never cropped. The subtitles are large and legible. The arrow points straight down. `@DoomedDoug` is legible. Nothing important is cut off at the sides.
+5. Non-blocking, for the next episode: round-3 item 3 was not done. The "???" still sits over the silhouette's head in all three Shorts. It costs a little recognisability (most in short01, where it covers the jaw line), but each silhouette still reads with its question. Director/editor: put "???" above the silhouette by default in the end-card layout.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS

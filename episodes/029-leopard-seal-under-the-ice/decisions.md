@@ -103,3 +103,6 @@ build/qc.json (698.5 s, no problems), metadata.json, build/chapters.txt, thumbna
 
 - 2026-10-27 showrunner: workflow reported QC exit 1 but qc.json has no problems and a re-run of qc exits 0; main PASS, shorts FAIL (end cards fixed, .rerender=shorts queued). Main video approved.
 FINAL: APPROVED
+
+- 2026-10-27 showrunner ROUND 2: qc re-run exit 0, no problems; visual screener round 4 main PASS, shorts PASS; CD package approval stands (series bible already updated). Stage -> qc_passed.
+FINAL: APPROVED
