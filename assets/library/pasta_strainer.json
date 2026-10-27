@@ -1,0 +1,509 @@
+{
+ "name": "pasta_strainer",
+ "description": "Kitchen pasta strainer / colander, side view: silver metal bowl with rows of round holes, rolled rim seen from slightly above, two side handles with hanging holes, ring foot. Centre anchor, about 370 x 220.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "kitchen",
+  "colander",
+  "strainer",
+  "sieve",
+  "prop"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60,
+     80
+    ],
+    [
+     60,
+     80
+    ],
+    [
+     72,
+     108
+    ],
+    [
+     -72,
+     108
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#9aa0a6"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -140,
+     -64
+    ],
+    [
+     -178,
+     -70
+    ],
+    [
+     -182,
+     -50
+    ],
+    [
+     -140,
+     -44
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#9aa0a6"
+  },
+  {
+   "type": "ellipse",
+   "x": -168,
+   "y": -58,
+   "rx": 6,
+   "ry": 5,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     140,
+     -64
+    ],
+    [
+     178,
+     -70
+    ],
+    [
+     182,
+     -50
+    ],
+    [
+     140,
+     -44
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#9aa0a6"
+  },
+  {
+   "type": "ellipse",
+   "x": 168,
+   "y": -58,
+   "rx": 6,
+   "ry": 5,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -60
+    ],
+    [
+     -140,
+     -10
+    ],
+    [
+     -110,
+     40
+    ],
+    [
+     -60,
+     80
+    ],
+    [
+     0,
+     90
+    ],
+    [
+     60,
+     80
+    ],
+    [
+     110,
+     40
+    ],
+    [
+     140,
+     -10
+    ],
+    [
+     150,
+     -60
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#c9ced4",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": -70,
+   "y": 10,
+   "r": 40,
+   "color": "#eef1f4",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 90,
+   "y": 20,
+   "r": 30,
+   "color": "#9aa0a6",
+   "density": 0.2
+  },
+  {
+   "type": "ellipse",
+   "x": -120.0,
+   "y": -30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -90.0,
+   "y": -30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -60.0,
+   "y": -30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -30.0,
+   "y": -30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0.0,
+   "y": -30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 30.0,
+   "y": -30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 60.0,
+   "y": -30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 90.0,
+   "y": -30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 120.0,
+   "y": -30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -104.0,
+   "y": 0,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -74.3,
+   "y": 0,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -44.6,
+   "y": 0,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -14.9,
+   "y": 0,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 14.9,
+   "y": 0,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 44.6,
+   "y": 0,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 74.3,
+   "y": 0,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 104.0,
+   "y": 0,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -84.0,
+   "y": 30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -56.0,
+   "y": 30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -28.0,
+   "y": 30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0.0,
+   "y": 30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 28.0,
+   "y": 30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 56.0,
+   "y": 30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 84.0,
+   "y": 30,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -56.0,
+   "y": 58,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -28.0,
+   "y": 58,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0.0,
+   "y": 58,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 28.0,
+   "y": 58,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 56.0,
+   "y": 58,
+   "rx": 6,
+   "ry": 5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -60,
+   "rx": 150,
+   "ry": 22,
+   "width": 5,
+   "color": "#000000",
+   "fill": "#dfe3e7"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -58,
+   "rx": 134,
+   "ry": 15,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#7a8088"
+  }
+ ]
+}

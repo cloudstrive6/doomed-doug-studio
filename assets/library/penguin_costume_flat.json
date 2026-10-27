@@ -1,0 +1,429 @@
+{
+ "name": "penguin_costume_flat",
+ "description": "The empty penguin costume floating flat on the water after a death: deflated black felt sack lying horizontally with the white belly panel on top, flipper mitts flopped, orange felt feet at the left, bunched hood end at the right, pale #bfe6ff waterline across the middle. Put doug_cap on top. Centre anchor, about 500 x 200.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "costume",
+  "prop",
+  "penguin",
+  "death"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -198.8,
+     -41.8
+    ],
+    [
+     -243.8,
+     -44.0
+    ],
+    [
+     -256.8,
+     -25.4
+    ],
+    [
+     -247.2,
+     -17.0
+    ],
+    [
+     -255.3,
+     -5.4
+    ],
+    [
+     -237.1,
+     5.6
+    ],
+    [
+     -193.6,
+     -12.2
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#f08a24"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -192.7,
+     2.3
+    ],
+    [
+     -233.6,
+     -16.6
+    ],
+    [
+     -252.6,
+     -4.3
+    ],
+    [
+     -246.9,
+     7.2
+    ],
+    [
+     -258.7,
+     14.9
+    ],
+    [
+     -246.0,
+     31.9
+    ],
+    [
+     -198.9,
+     31.7
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#f08a24"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -40
+    ],
+    [
+     -120,
+     -56
+    ],
+    [
+     0,
+     -50
+    ],
+    [
+     120,
+     -58
+    ],
+    [
+     196,
+     -44
+    ],
+    [
+     232,
+     -20
+    ],
+    [
+     240,
+     6
+    ],
+    [
+     226,
+     30
+    ],
+    [
+     180,
+     44
+    ],
+    [
+     60,
+     40
+    ],
+    [
+     -60,
+     48
+    ],
+    [
+     -170,
+     40
+    ],
+    [
+     -212,
+     22
+    ],
+    [
+     -214,
+     -14
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#2e3036",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -30
+    ],
+    [
+     -60,
+     -40
+    ],
+    [
+     40,
+     -34
+    ],
+    [
+     130,
+     -40
+    ],
+    [
+     170,
+     -24
+    ],
+    [
+     150,
+     -6
+    ],
+    [
+     60,
+     -10
+    ],
+    [
+     -40,
+     -4
+    ],
+    [
+     -140,
+     -10
+    ]
+   ],
+   "width": 3,
+   "color": "#8a8a84",
+   "fill": "#f4f2ea",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -120,
+     -44
+    ],
+    [
+     -106,
+     -20
+    ],
+    [
+     -116,
+     20
+    ]
+   ],
+   "width": 2,
+   "color": "#4a4d55"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     -44
+    ],
+    [
+     -26,
+     -20
+    ],
+    [
+     -36,
+     20
+    ]
+   ],
+   "width": 2,
+   "color": "#4a4d55"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     40,
+     -44
+    ],
+    [
+     54,
+     -20
+    ],
+    [
+     44,
+     20
+    ]
+   ],
+   "width": 2,
+   "color": "#4a4d55"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     120,
+     -44
+    ],
+    [
+     134,
+     -20
+    ],
+    [
+     124,
+     20
+    ]
+   ],
+   "width": 2,
+   "color": "#4a4d55"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     -46
+    ],
+    [
+     -30,
+     -90
+    ],
+    [
+     -6,
+     -104
+    ],
+    [
+     16,
+     -92
+    ],
+    [
+     14,
+     -50
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#2e3036",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     36
+    ],
+    [
+     24,
+     76
+    ],
+    [
+     48,
+     88
+    ],
+    [
+     64,
+     72
+    ],
+    [
+     62,
+     38
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#2e3036",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 222,
+   "y": -6,
+   "rx": 22,
+   "ry": 32,
+   "width": 5,
+   "color": "#000000",
+   "fill": "#1f2125"
+  },
+  {
+   "type": "ellipse",
+   "x": 222,
+   "y": -6,
+   "rx": 10,
+   "ry": 18,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#121316",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -250,
+     4
+    ],
+    [
+     -160,
+     0
+    ],
+    [
+     -60,
+     6
+    ],
+    [
+     60,
+     2
+    ],
+    [
+     160,
+     6
+    ],
+    [
+     250,
+     2
+    ]
+   ],
+   "width": 4,
+   "color": "#bfe6ff"
+  },
+  {
+   "type": "ellipse",
+   "x": -180,
+   "y": 10,
+   "rx": 34,
+   "ry": 6,
+   "start": 0,
+   "end": 180,
+   "width": 2,
+   "color": "#e8f6ff"
+  },
+  {
+   "type": "ellipse",
+   "x": -40,
+   "y": 10,
+   "rx": 40,
+   "ry": 6,
+   "start": 0,
+   "end": 180,
+   "width": 2,
+   "color": "#e8f6ff"
+  },
+  {
+   "type": "ellipse",
+   "x": 100,
+   "y": 10,
+   "rx": 36,
+   "ry": 6,
+   "start": 0,
+   "end": 180,
+   "width": 2,
+   "color": "#e8f6ff"
+  },
+  {
+   "type": "ellipse",
+   "x": 210,
+   "y": 10,
+   "rx": 30,
+   "ry": 6,
+   "start": 0,
+   "end": 180,
+   "width": 2,
+   "color": "#e8f6ff"
+  }
+ ]
+}

@@ -1,0 +1,310 @@
+{
+ "name": "music_note",
+ "description": "A single bold black eighth-note music note (note head, stem, one flag) with a thick white halo outline so it reads at 30 px on blue water. Centre anchor, about 100 x 130.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "annotation",
+  "music",
+  "song",
+  "note"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     36
+    ],
+    [
+     -36,
+     22
+    ],
+    [
+     -16,
+     14
+    ],
+    [
+     6,
+     16
+    ],
+    [
+     14,
+     28
+    ],
+    [
+     6,
+     44
+    ],
+    [
+     -16,
+     52
+    ],
+    [
+     -36,
+     50
+    ]
+   ],
+   "width": 14,
+   "color": "#ffffff",
+   "fill": "#111111",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     28
+    ],
+    [
+     14,
+     26
+    ],
+    [
+     14,
+     -56
+    ],
+    [
+     4,
+     -56
+    ]
+   ],
+   "width": 14,
+   "color": "#ffffff",
+   "fill": "#111111"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     -58
+    ],
+    [
+     24,
+     -40
+    ],
+    [
+     40,
+     -26
+    ],
+    [
+     44,
+     -2
+    ],
+    [
+     36,
+     18
+    ],
+    [
+     34,
+     0
+    ],
+    [
+     26,
+     -18
+    ],
+    [
+     12,
+     -30
+    ]
+   ],
+   "width": 14,
+   "color": "#ffffff",
+   "fill": "#111111",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     36
+    ],
+    [
+     -36,
+     22
+    ],
+    [
+     -16,
+     14
+    ],
+    [
+     6,
+     16
+    ],
+    [
+     14,
+     28
+    ],
+    [
+     6,
+     44
+    ],
+    [
+     -16,
+     52
+    ],
+    [
+     -36,
+     50
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#111111",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     28
+    ],
+    [
+     14,
+     26
+    ],
+    [
+     14,
+     -56
+    ],
+    [
+     4,
+     -56
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#111111"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     -58
+    ],
+    [
+     24,
+     -40
+    ],
+    [
+     40,
+     -26
+    ],
+    [
+     44,
+     -2
+    ],
+    [
+     36,
+     18
+    ],
+    [
+     34,
+     0
+    ],
+    [
+     26,
+     -18
+    ],
+    [
+     12,
+     -30
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#111111",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     36
+    ],
+    [
+     -36,
+     22
+    ],
+    [
+     -16,
+     14
+    ],
+    [
+     6,
+     16
+    ],
+    [
+     14,
+     28
+    ],
+    [
+     6,
+     44
+    ],
+    [
+     -16,
+     52
+    ],
+    [
+     -36,
+     50
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#111111",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     28
+    ],
+    [
+     14,
+     26
+    ],
+    [
+     14,
+     -56
+    ],
+    [
+     4,
+     -56
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#111111",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     26
+    ],
+    [
+     -16,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a6a"
+  }
+ ]
+}

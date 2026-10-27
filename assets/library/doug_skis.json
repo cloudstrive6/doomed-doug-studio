@@ -1,0 +1,155 @@
+{
+ "name": "doug_skis",
+ "description": "Doug's cross-country skis (worn prop): two long pale-wood skis side by side with turned-up tips at the right and small black bindings under his feet. No poles. Anchor = Doug's hips at scale 1; list after Doug at the same x/y/scale; skis lie at y +144..+166, x -236..+284.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "prop",
+  "skis",
+  "worn",
+  "snow"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -236,
+     150
+    ],
+    [
+     240,
+     150
+    ],
+    [
+     262,
+     146
+    ],
+    [
+     272,
+     132
+    ],
+    [
+     278,
+     134
+    ],
+    [
+     274,
+     150
+    ],
+    [
+     246,
+     162
+    ],
+    [
+     -230,
+     162
+    ],
+    [
+     -236,
+     158
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#d9b47a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -224,
+     156
+    ],
+    [
+     234,
+     156
+    ]
+   ],
+   "width": 2,
+   "color": "#a07a44"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -214,
+     154
+    ],
+    [
+     246,
+     154
+    ],
+    [
+     268,
+     150
+    ],
+    [
+     278,
+     136
+    ],
+    [
+     284,
+     138
+    ],
+    [
+     280,
+     154
+    ],
+    [
+     252,
+     166
+    ],
+    [
+     -208,
+     166
+    ],
+    [
+     -214,
+     162
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#e8c890"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -202,
+     160
+    ],
+    [
+     240,
+     160
+    ]
+   ],
+   "width": 2,
+   "color": "#a07a44"
+  },
+  {
+   "type": "rect",
+   "x": -46,
+   "y": 144,
+   "w": 30,
+   "h": 10,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#2b2b2b"
+  },
+  {
+   "type": "rect",
+   "x": 18,
+   "y": 144,
+   "w": 30,
+   "h": 10,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#2b2b2b"
+  }
+ ]
+}

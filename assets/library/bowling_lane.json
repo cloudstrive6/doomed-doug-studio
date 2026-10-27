@@ -1,0 +1,546 @@
+{
+ "name": "bowling_lane",
+ "description": "A bowling lane seen from above: long pale-wood strip with grain lines, grey gutters both sides, red foul line at x -470, approach dots, target arrows, and ten white pins (red neck dots) in their triangle with the head pin at x +440 (foul line to head pin = 18 m). Horizontal, centre anchor, 1000 x 124.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "bowling",
+  "lane",
+  "diagram",
+  "scale",
+  "sport"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -500,
+   "y": -62,
+   "w": 1000,
+   "h": 124,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#7d838a"
+  },
+  {
+   "type": "rect",
+   "x": -500,
+   "y": -40,
+   "w": 1000,
+   "h": 80,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#e8c890"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -498,
+     -28
+    ],
+    [
+     498,
+     -28
+    ]
+   ],
+   "width": 1.5,
+   "color": "#d2ad70"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -498,
+     -14
+    ],
+    [
+     498,
+     -14
+    ]
+   ],
+   "width": 1.5,
+   "color": "#d2ad70"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -498,
+     0
+    ],
+    [
+     498,
+     0
+    ]
+   ],
+   "width": 1.5,
+   "color": "#d2ad70"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -498,
+     14
+    ],
+    [
+     498,
+     14
+    ]
+   ],
+   "width": 1.5,
+   "color": "#d2ad70"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -498,
+     28
+    ],
+    [
+     498,
+     28
+    ]
+   ],
+   "width": 1.5,
+   "color": "#d2ad70"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -300,
+     -40
+    ],
+    [
+     -300,
+     40
+    ]
+   ],
+   "width": 1.5,
+   "color": "#d2ad70"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -40
+    ],
+    [
+     -60,
+     40
+    ]
+   ],
+   "width": 1.5,
+   "color": "#d2ad70"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     180,
+     -40
+    ],
+    [
+     180,
+     40
+    ]
+   ],
+   "width": 1.5,
+   "color": "#d2ad70"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -470,
+     -40
+    ],
+    [
+     -470,
+     40
+    ]
+   ],
+   "width": 5,
+   "color": "#c0181b"
+  },
+  {
+   "type": "ellipse",
+   "x": -488,
+   "y": -24,
+   "rx": 2.5,
+   "ry": 2.5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#6b4a2a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -488,
+   "y": -8,
+   "rx": 2.5,
+   "ry": 2.5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#6b4a2a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -488,
+   "y": 8,
+   "rx": 2.5,
+   "ry": 2.5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#6b4a2a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -488,
+   "y": 24,
+   "rx": 2.5,
+   "ry": 2.5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#6b4a2a",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -176.0,
+     -30
+    ],
+    [
+     -190.0,
+     -34
+    ],
+    [
+     -190.0,
+     -26
+    ]
+   ],
+   "width": 1,
+   "color": "#000000",
+   "fill": "#6b4a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -195.2,
+     -18
+    ],
+    [
+     -209.2,
+     -22
+    ],
+    [
+     -209.2,
+     -14
+    ]
+   ],
+   "width": 1,
+   "color": "#000000",
+   "fill": "#6b4a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -214.4,
+     -6
+    ],
+    [
+     -228.4,
+     -10
+    ],
+    [
+     -228.4,
+     -2
+    ]
+   ],
+   "width": 1,
+   "color": "#000000",
+   "fill": "#6b4a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -214.4,
+     6
+    ],
+    [
+     -228.4,
+     2
+    ],
+    [
+     -228.4,
+     10
+    ]
+   ],
+   "width": 1,
+   "color": "#000000",
+   "fill": "#6b4a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -195.2,
+     18
+    ],
+    [
+     -209.2,
+     14
+    ],
+    [
+     -209.2,
+     22
+    ]
+   ],
+   "width": 1,
+   "color": "#000000",
+   "fill": "#6b4a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -176.0,
+     30
+    ],
+    [
+     -190.0,
+     26
+    ],
+    [
+     -190.0,
+     34
+    ]
+   ],
+   "width": 1,
+   "color": "#000000",
+   "fill": "#6b4a2a"
+  },
+  {
+   "type": "ellipse",
+   "x": 440,
+   "y": 0,
+   "rx": 7,
+   "ry": 7,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 440,
+   "y": 0,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 457,
+   "y": -9.0,
+   "rx": 7,
+   "ry": 7,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 457,
+   "y": -9.0,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 457,
+   "y": 9.0,
+   "rx": 7,
+   "ry": 7,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 457,
+   "y": 9.0,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 474,
+   "y": -18.0,
+   "rx": 7,
+   "ry": 7,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 474,
+   "y": -18.0,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 474,
+   "y": 0.0,
+   "rx": 7,
+   "ry": 7,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 474,
+   "y": 0.0,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 474,
+   "y": 18.0,
+   "rx": 7,
+   "ry": 7,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 474,
+   "y": 18.0,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 491,
+   "y": -27.0,
+   "rx": 7,
+   "ry": 7,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 491,
+   "y": -27.0,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 491,
+   "y": -9.0,
+   "rx": 7,
+   "ry": 7,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 491,
+   "y": -9.0,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 491,
+   "y": 9.0,
+   "rx": 7,
+   "ry": 7,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 491,
+   "y": 9.0,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 491,
+   "y": 27.0,
+   "rx": 7,
+   "ry": 7,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 491,
+   "y": 27.0,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e0201b",
+   "outline": false
+  }
+ ]
+}

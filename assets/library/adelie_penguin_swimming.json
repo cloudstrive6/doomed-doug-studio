@@ -1,0 +1,513 @@
+{
+ "name": "adelie_penguin_swimming",
+ "description": "Adelie penguin swimming fast underwater, horizontal, facing right: streamlined torpedo body, black back and head, white belly, white eye ring, flipper swept back, pink feet trailing, a few bubbles and white speed lines behind. Alive and darting. Centre anchor, about 400 x 90 (x -216..180, y -42..38; bubbles to the left).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "penguin",
+  "adelie",
+  "antarctic",
+  "bird",
+  "swimming",
+  "underwater"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": -176,
+   "y": -18,
+   "rx": 7,
+   "ry": 7,
+   "width": 2,
+   "color": "#9ccbe8",
+   "fill": "#e8f6ff"
+  },
+  {
+   "type": "ellipse",
+   "x": -196,
+   "y": -2,
+   "rx": 5,
+   "ry": 5,
+   "width": 2,
+   "color": "#9ccbe8",
+   "fill": "#e8f6ff"
+  },
+  {
+   "type": "ellipse",
+   "x": -188,
+   "y": 14,
+   "rx": 9,
+   "ry": 9,
+   "width": 2,
+   "color": "#9ccbe8",
+   "fill": "#e8f6ff"
+  },
+  {
+   "type": "ellipse",
+   "x": -212,
+   "y": -14,
+   "rx": 4,
+   "ry": 4,
+   "width": 2,
+   "color": "#9ccbe8",
+   "fill": "#e8f6ff"
+  },
+  {
+   "type": "ellipse",
+   "x": -164,
+   "y": 26,
+   "rx": 4,
+   "ry": 4,
+   "width": 2,
+   "color": "#9ccbe8",
+   "fill": "#e8f6ff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -128,
+     6
+    ],
+    [
+     -156,
+     0
+    ],
+    [
+     -162,
+     10
+    ],
+    [
+     -150,
+     18
+    ],
+    [
+     -126,
+     16
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#f2a0a6"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -134,
+     -6
+    ],
+    [
+     -150,
+     -16
+    ],
+    [
+     -140,
+     -4
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#24262c"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     2
+    ],
+    [
+     136,
+     -14
+    ],
+    [
+     110,
+     -28
+    ],
+    [
+     60,
+     -40
+    ],
+    [
+     0,
+     -42
+    ],
+    [
+     -60,
+     -34
+    ],
+    [
+     -110,
+     -18
+    ],
+    [
+     -136,
+     -4
+    ],
+    [
+     -140,
+     6
+    ],
+    [
+     -112,
+     18
+    ],
+    [
+     -60,
+     32
+    ],
+    [
+     0,
+     38
+    ],
+    [
+     60,
+     34
+    ],
+    [
+     110,
+     22
+    ],
+    [
+     136,
+     12
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#f7f7f4",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     2
+    ],
+    [
+     136,
+     -14
+    ],
+    [
+     110,
+     -28
+    ],
+    [
+     60,
+     -40
+    ],
+    [
+     0,
+     -42
+    ],
+    [
+     -60,
+     -34
+    ],
+    [
+     -110,
+     -18
+    ],
+    [
+     -136,
+     -4
+    ],
+    [
+     -140,
+     6
+    ],
+    [
+     -100,
+     2
+    ],
+    [
+     -40,
+     0
+    ],
+    [
+     20,
+     0
+    ],
+    [
+     70,
+     0
+    ],
+    [
+     106,
+     4
+    ],
+    [
+     126,
+     2
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#24262c",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 24,
+   "r": 30,
+   "color": "#d6dbe0",
+   "density": 0.22
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     2
+    ],
+    [
+     136,
+     12
+    ],
+    [
+     110,
+     18
+    ],
+    [
+     92,
+     14
+    ],
+    [
+     100,
+     2
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#24262c",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -6
+    ],
+    [
+     10,
+     14
+    ],
+    [
+     -40,
+     30
+    ],
+    [
+     -70,
+     36
+    ],
+    [
+     -60,
+     26
+    ],
+    [
+     -20,
+     10
+    ],
+    [
+     20,
+     -10
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#33363d",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     30,
+     2
+    ],
+    [
+     -10,
+     18
+    ],
+    [
+     -56,
+     30
+    ]
+   ],
+   "width": 2,
+   "color": "#c9ccd2"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     146,
+     -6
+    ],
+    [
+     176,
+     -2
+    ],
+    [
+     180,
+     2
+    ],
+    [
+     170,
+     6
+    ],
+    [
+     146,
+     8
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#2a2523"
+  },
+  {
+   "type": "ellipse",
+   "x": 122,
+   "y": -12,
+   "rx": 8,
+   "ry": 8,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#f7f7f4",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 123,
+   "y": -12,
+   "rx": 3.5,
+   "ry": 3.5,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#0b0b0b",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -30
+    ],
+    [
+     -210,
+     -30
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -170,
+     -4
+    ],
+    [
+     -210,
+     -4
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     22
+    ],
+    [
+     -210,
+     22
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     2
+    ],
+    [
+     136,
+     -14
+    ],
+    [
+     110,
+     -28
+    ],
+    [
+     60,
+     -40
+    ],
+    [
+     0,
+     -42
+    ],
+    [
+     -60,
+     -34
+    ],
+    [
+     -110,
+     -18
+    ],
+    [
+     -136,
+     -4
+    ],
+    [
+     -140,
+     6
+    ],
+    [
+     -112,
+     18
+    ],
+    [
+     -60,
+     32
+    ],
+    [
+     0,
+     38
+    ],
+    [
+     60,
+     34
+    ],
+    [
+     110,
+     22
+    ],
+    [
+     136,
+     12
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}

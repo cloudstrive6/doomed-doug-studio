@@ -1,0 +1,211 @@
+{
+ "name": "cinema_seat",
+ "description": "One cinema seat, front view: red velvet back with tufting lines, red seat cushion folded down (top at y -90), dark armrests and base. Anchor bottom-centre, about 160 x 180.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "cinema",
+  "seat",
+  "theatre",
+  "prop"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -50,
+   "y": -40,
+   "w": 100,
+   "h": 40,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#2b2b2b"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     -180
+    ],
+    [
+     56,
+     -180
+    ],
+    [
+     60,
+     -96
+    ],
+    [
+     -60,
+     -96
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#b3202a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     -168
+    ],
+    [
+     44,
+     -168
+    ],
+    [
+     46,
+     -108
+    ],
+    [
+     -46,
+     -108
+    ]
+   ],
+   "width": 2,
+   "color": "#7e141c",
+   "fill": "#c83440"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -15,
+     -164
+    ],
+    [
+     -15,
+     -112
+    ]
+   ],
+   "width": 2,
+   "color": "#7e141c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     15,
+     -164
+    ],
+    [
+     15,
+     -112
+    ]
+   ],
+   "width": 2,
+   "color": "#7e141c"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     -90
+    ],
+    [
+     56,
+     -90
+    ],
+    [
+     60,
+     -58
+    ],
+    [
+     -60,
+     -58
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#b3202a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -52,
+     -78
+    ],
+    [
+     52,
+     -78
+    ]
+   ],
+   "width": 2,
+   "color": "#7e141c"
+  },
+  {
+   "type": "rect",
+   "x": -79,
+   "y": -104,
+   "w": 18,
+   "h": 104,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#2b2b2b"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -82,
+     -112
+    ],
+    [
+     -58,
+     -112
+    ],
+    [
+     -58,
+     -100
+    ],
+    [
+     -82,
+     -100
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#3d3d3d"
+  },
+  {
+   "type": "rect",
+   "x": 61,
+   "y": -104,
+   "w": 18,
+   "h": 104,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#2b2b2b"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     58,
+     -112
+    ],
+    [
+     82,
+     -112
+    ],
+    [
+     82,
+     -100
+    ],
+    [
+     58,
+     -100
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#3d3d3d"
+  }
+ ]
+}

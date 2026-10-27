@@ -1,0 +1,394 @@
+{
+ "name": "inflatable_dinghy_swamped",
+ "description": "The same grey dinghy punctured and swamped: front tube sagging flat and wrinkled, hull tilted bow-down and half under water, water inside, a small dark puncture tear (no teeth), pale waterline across. Anchor = waterline centre, about 470 x 110.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "boat",
+  "dinghy",
+  "inflatable",
+  "swamped",
+  "marina"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -220,
+     -40
+    ],
+    [
+     -100,
+     -34
+    ],
+    [
+     40,
+     -18
+    ],
+    [
+     180,
+     8
+    ],
+    [
+     220,
+     26
+    ],
+    [
+     180,
+     40
+    ],
+    [
+     40,
+     30
+    ],
+    [
+     -120,
+     10
+    ],
+    [
+     -216,
+     -6
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#4a4f56",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -180,
+     -24
+    ],
+    [
+     -60,
+     -16
+    ],
+    [
+     60,
+     -2
+    ],
+    [
+     160,
+     16
+    ],
+    [
+     60,
+     10
+    ],
+    [
+     -80,
+     -6
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7cc0e8",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -224,
+     -44
+    ],
+    [
+     -200,
+     -64
+    ],
+    [
+     -140,
+     -62
+    ],
+    [
+     -80,
+     -56
+    ],
+    [
+     -40,
+     -46
+    ],
+    [
+     -40,
+     -28
+    ],
+    [
+     -90,
+     -24
+    ],
+    [
+     -150,
+     -24
+    ],
+    [
+     -210,
+     -26
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#8a9096",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -200,
+     -54
+    ],
+    [
+     -120,
+     -54
+    ],
+    [
+     -70,
+     -48
+    ]
+   ],
+   "width": 2,
+   "color": "#b7bcc2"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     -44
+    ],
+    [
+     20,
+     -30
+    ],
+    [
+     90,
+     -16
+    ],
+    [
+     150,
+     -2
+    ],
+    [
+     210,
+     12
+    ],
+    [
+     224,
+     20
+    ],
+    [
+     210,
+     26
+    ],
+    [
+     150,
+     16
+    ],
+    [
+     90,
+     2
+    ],
+    [
+     20,
+     -12
+    ],
+    [
+     -44,
+     -26
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#5f656c",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -6,
+     -27.2
+    ],
+    [
+     2,
+     -19.2
+    ],
+    [
+     -4,
+     -11.2
+    ]
+   ],
+   "width": 2,
+   "color": "#3a3f45"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     44,
+     -17.2
+    ],
+    [
+     52,
+     -9.2
+    ],
+    [
+     46,
+     -1.2
+    ]
+   ],
+   "width": 2,
+   "color": "#3a3f45"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     94,
+     -7.2
+    ],
+    [
+     102,
+     0.8
+    ],
+    [
+     96,
+     8.8
+    ]
+   ],
+   "width": 2,
+   "color": "#3a3f45"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     144,
+     2.8
+    ],
+    [
+     152,
+     10.8
+    ],
+    [
+     146,
+     18.8
+    ]
+   ],
+   "width": 2,
+   "color": "#3a3f45"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     184,
+     10.8
+    ],
+    [
+     192,
+     18.8
+    ],
+    [
+     186,
+     26.8
+    ]
+   ],
+   "width": 2,
+   "color": "#3a3f45"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     70,
+     -12
+    ],
+    [
+     82,
+     -18
+    ],
+    [
+     88,
+     -8
+    ],
+    [
+     80,
+     -4
+    ]
+   ],
+   "width": 2,
+   "color": "#000000",
+   "fill": "#1a1c1f"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -232,
+     -66
+    ],
+    [
+     -218,
+     -66
+    ],
+    [
+     -214,
+     -14
+    ],
+    [
+     -226,
+     -14
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#6b5a48"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -240,
+     0
+    ],
+    [
+     -120,
+     -4
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     120,
+     -2
+    ],
+    [
+     240,
+     2
+    ]
+   ],
+   "width": 3,
+   "color": "#bfe6ff"
+  },
+  {
+   "type": "ellipse",
+   "x": 140,
+   "y": 4,
+   "rx": 40,
+   "ry": 6,
+   "start": 0,
+   "end": 180,
+   "width": 2,
+   "color": "#e8f6ff"
+  }
+ ]
+}

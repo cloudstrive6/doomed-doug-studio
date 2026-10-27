@@ -1,0 +1,326 @@
+{
+ "name": "vacuum_cleaner",
+ "description": "Household canister vacuum cleaner: red canister body on small wheels at the left, grey corrugated hose curling up and over to a silver wand and a dark floor head on the right. Anchor bottom-centre, about 440 x 300.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "vacuum",
+  "household",
+  "appliance",
+  "prop"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -96
+    ],
+    [
+     -40,
+     -190
+    ],
+    [
+     20,
+     -262
+    ],
+    [
+     90,
+     -270
+    ],
+    [
+     130,
+     -228
+    ],
+    [
+     136,
+     -190
+    ]
+   ],
+   "width": 24,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -96
+    ],
+    [
+     -40,
+     -190
+    ],
+    [
+     20,
+     -262
+    ],
+    [
+     90,
+     -270
+    ],
+    [
+     130,
+     -228
+    ],
+    [
+     136,
+     -190
+    ]
+   ],
+   "width": 16,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -96
+    ],
+    [
+     -40,
+     -190
+    ],
+    [
+     20,
+     -262
+    ],
+    [
+     90,
+     -270
+    ],
+    [
+     130,
+     -228
+    ],
+    [
+     136,
+     -190
+    ]
+   ],
+   "width": 16,
+   "color": "#6b7078",
+   "dash": [
+    3,
+    7
+   ]
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     136,
+     -190
+    ],
+    [
+     176,
+     -22
+    ]
+   ],
+   "width": 14,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     136,
+     -190
+    ],
+    [
+     176,
+     -22
+    ]
+   ],
+   "width": 8,
+   "color": "#c9ced4"
+  },
+  {
+   "type": "rect",
+   "x": 126,
+   "y": -204,
+   "w": 22,
+   "h": 20,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#3a3d42"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     130,
+     -24
+    ],
+    [
+     214,
+     -24
+    ],
+    [
+     220,
+     0
+    ],
+    [
+     124,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#3a3d42"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     132,
+     -4
+    ],
+    [
+     212,
+     -4
+    ]
+   ],
+   "width": 3,
+   "color": "#7a7f86"
+  },
+  {
+   "type": "ellipse",
+   "x": -160,
+   "y": -14,
+   "rx": 14,
+   "ry": 14,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#2b2b2b"
+  },
+  {
+   "type": "ellipse",
+   "x": -40,
+   "y": -14,
+   "rx": 14,
+   "ry": 14,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#2b2b2b"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -210,
+     -40
+    ],
+    [
+     -200,
+     -110
+    ],
+    [
+     -150,
+     -136
+    ],
+    [
+     -60,
+     -132
+    ],
+    [
+     -24,
+     -100
+    ],
+    [
+     -20,
+     -40
+    ],
+    [
+     -60,
+     -24
+    ],
+    [
+     -180,
+     -24
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#d62a1f",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -196,
+     -90
+    ],
+    [
+     -160,
+     -118
+    ],
+    [
+     -90,
+     -122
+    ]
+   ],
+   "width": 4,
+   "color": "#ff6a5a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -46
+    ],
+    [
+     -120,
+     -36
+    ],
+    [
+     -30,
+     -46
+    ],
+    [
+     -24,
+     -40
+    ],
+    [
+     -60,
+     -26
+    ],
+    [
+     -180,
+     -26
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#9a1a12",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": -96,
+   "rx": 18,
+   "ry": 18,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#3a3d42"
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -150,
+   "w": 60,
+   "h": 16,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#2b2b2b"
+  }
+ ]
+}

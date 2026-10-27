@@ -1,0 +1,325 @@
+{
+ "name": "blubber_stove_pot",
+ "description": "1916 blubber stove: crude stove made from an old rusty tin drum with a stove pipe, a fire door with a small orange flame, a dented metal pot with a handle on top, a little grey smoke from the pipe. No meat visible. Anchor bottom-centre, about 170 x 310 (smoke to y -306).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "stove",
+  "1916",
+  "expedition",
+  "cooking",
+  "prop"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": -48,
+   "y": -236,
+   "rx": 16,
+   "ry": 12.8,
+   "width": 2,
+   "color": "#8a8c90",
+   "fill": "#b9bbbe"
+  },
+  {
+   "type": "ellipse",
+   "x": -36,
+   "y": -262,
+   "rx": 20,
+   "ry": 16.0,
+   "width": 2,
+   "color": "#8a8c90",
+   "fill": "#b9bbbe"
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": -292,
+   "rx": 14,
+   "ry": 11.2,
+   "width": 2,
+   "color": "#8a8c90",
+   "fill": "#b9bbbe"
+  },
+  {
+   "type": "rect",
+   "x": -60,
+   "y": -230,
+   "w": 20,
+   "h": 112,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#5a5048"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -56,
+     -220
+    ],
+    [
+     -56,
+     -124
+    ]
+   ],
+   "width": 2,
+   "color": "#7a6e62"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -132
+    ],
+    [
+     80,
+     -132
+    ],
+    [
+     84,
+     0
+    ],
+    [
+     -84,
+     0
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#8a7a6a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -82,
+     -104
+    ],
+    [
+     0,
+     -98
+    ],
+    [
+     82,
+     -104
+    ]
+   ],
+   "width": 3,
+   "color": "#6b5d50"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -82,
+     -60
+    ],
+    [
+     0,
+     -54
+    ],
+    [
+     82,
+     -60
+    ]
+   ],
+   "width": 3,
+   "color": "#6b5d50"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -82,
+     -18
+    ],
+    [
+     0,
+     -12
+    ],
+    [
+     82,
+     -18
+    ]
+   ],
+   "width": 3,
+   "color": "#6b5d50"
+  },
+  {
+   "type": "spray",
+   "x": 40,
+   "y": -60,
+   "r": 30,
+   "color": "#a0522d",
+   "density": 0.18
+  },
+  {
+   "type": "spray",
+   "x": -50,
+   "y": -30,
+   "r": 20,
+   "color": "#6b4a2a",
+   "density": 0.15
+  },
+  {
+   "type": "rect",
+   "x": -34,
+   "y": -64,
+   "w": 56,
+   "h": 44,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#2a1a12"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -20,
+     -22
+    ],
+    [
+     -12,
+     -46
+    ],
+    [
+     -4,
+     -34
+    ],
+    [
+     4,
+     -56
+    ],
+    [
+     12,
+     -30
+    ],
+    [
+     14,
+     -22
+    ]
+   ],
+   "width": 2,
+   "color": "#c04a0a",
+   "fill": "#ff8a1f"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -8,
+     -22
+    ],
+    [
+     -2,
+     -36
+    ],
+    [
+     6,
+     -24
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffe24a",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -132
+    ],
+    [
+     -56,
+     -184
+    ],
+    [
+     -30,
+     -188
+    ],
+    [
+     -10,
+     -178
+    ],
+    [
+     10,
+     -190
+    ],
+    [
+     56,
+     -186
+    ],
+    [
+     52,
+     -132
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#9aa0a6"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -14,
+     -170
+    ],
+    [
+     -6,
+     -156
+    ],
+    [
+     -14,
+     -142
+    ]
+   ],
+   "width": 2,
+   "color": "#6b7078"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -62,
+     -186
+    ],
+    [
+     62,
+     -188
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     56,
+     -178
+    ],
+    [
+     76,
+     -172
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 20,
+   "y": -160,
+   "r": 14,
+   "color": "#c9ced4",
+   "density": 0.3
+  }
+ ]
+}

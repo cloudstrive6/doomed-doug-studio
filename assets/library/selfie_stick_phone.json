@@ -1,0 +1,293 @@
+{
+ "name": "selfie_stick_phone",
+ "description": "Phone on an extended telescopic selfie stick: black rubber grip with a red button at the anchor (0,0), three-segment black stick running up and right to a clamp holding the phone at about (+236,-236), screen facing back toward the grip.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "phone",
+  "selfie",
+  "prop",
+  "tourist"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     80,
+     -80
+    ]
+   ],
+   "width": 18,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     80,
+     -80
+    ]
+   ],
+   "width": 12,
+   "color": "#3a3d42"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     80,
+     -80
+    ],
+    [
+     160,
+     -160
+    ]
+   ],
+   "width": 15,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     80,
+     -80
+    ],
+    [
+     160,
+     -160
+    ]
+   ],
+   "width": 9,
+   "color": "#3a3d42"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     160,
+     -160
+    ],
+    [
+     218,
+     -218
+    ]
+   ],
+   "width": 13,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     160,
+     -160
+    ],
+    [
+     218,
+     -218
+    ]
+   ],
+   "width": 7,
+   "color": "#3a3d42"
+  },
+  {
+   "type": "ellipse",
+   "x": 80,
+   "y": -80,
+   "rx": 8,
+   "ry": 8,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#55585e"
+  },
+  {
+   "type": "ellipse",
+   "x": 160,
+   "y": -160,
+   "rx": 8,
+   "ry": 8,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#55585e"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     25.5,
+     -45.3
+    ],
+    [
+     45.3,
+     -25.5
+    ],
+    [
+     -11.3,
+     31.1
+    ],
+    [
+     -31.1,
+     11.3
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#1e1f22"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12.7,
+     -29.7
+    ],
+    [
+     29.7,
+     -12.7
+    ]
+   ],
+   "width": 2,
+   "color": "#45474c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -1.4,
+     -15.6
+    ],
+    [
+     15.6,
+     1.4
+    ]
+   ],
+   "width": 2,
+   "color": "#45474c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -15.6,
+     -1.4
+    ],
+    [
+     1.4,
+     15.6
+    ]
+   ],
+   "width": 2,
+   "color": "#45474c"
+  },
+  {
+   "type": "ellipse",
+   "x": 21.2,
+   "y": -21.2,
+   "rx": 5,
+   "ry": 5,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#e0201b"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     233.2,
+     -196.4
+    ],
+    [
+     275.6,
+     -238.8
+    ],
+    [
+     284.1,
+     -230.3
+    ],
+    [
+     241.7,
+     -187.9
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#2b2b2b"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     176.6,
+     -216.2
+    ],
+    [
+     255.8,
+     -295.4
+    ],
+    [
+     295.4,
+     -255.8
+    ],
+    [
+     216.2,
+     -176.6
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#1e1f22"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     187.9,
+     -216.2
+    ],
+    [
+     255.8,
+     -284.1
+    ],
+    [
+     284.1,
+     -255.8
+    ],
+    [
+     216.2,
+     -187.9
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#9fd8ff",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     206.3,
+     -223.3
+    ],
+    [
+     258.6,
+     -241.7
+    ]
+   ],
+   "width": 3,
+   "color": "#e8f6ff"
+  }
+ ]
+}

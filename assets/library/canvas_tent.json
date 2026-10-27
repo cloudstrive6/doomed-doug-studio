@@ -1,0 +1,312 @@
+{
+ "name": "canvas_tent",
+ "description": "Old canvas ridge tent (1916 camp): off-white #ece3cf canvas front triangle and shaded sagging side roof, darker open door flap, ridge pole tips, two guy ropes to pegs. Anchor bottom-centre, about 300 x 185.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "tent",
+  "camp",
+  "1916",
+  "expedition",
+  "prop"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -80,
+     -150
+    ],
+    [
+     -140,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     86,
+     -146
+    ],
+    [
+     140,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     -158
+    ],
+    [
+     -118,
+     -2
+    ]
+   ],
+   "width": 2,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -140,
+     -10
+    ],
+    [
+     -140,
+     4
+    ]
+   ],
+   "width": 4,
+   "color": "#5a4030"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     140,
+     -10
+    ],
+    [
+     140,
+     4
+    ]
+   ],
+   "width": 4,
+   "color": "#5a4030"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -118,
+     -10
+    ],
+    [
+     -118,
+     4
+    ]
+   ],
+   "width": 4,
+   "color": "#5a4030"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -20,
+     -168
+    ],
+    [
+     110,
+     -152
+    ],
+    [
+     130,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#d4c8ab"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -150
+    ],
+    [
+     60,
+     -132
+    ],
+    [
+     124,
+     -140
+    ]
+   ],
+   "width": 2,
+   "color": "#b8aa88"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     4,
+     -90
+    ],
+    [
+     64,
+     -78
+    ],
+    [
+     126,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#b8aa88"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -20,
+     -170
+    ],
+    [
+     -120,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#ece3cf"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -20,
+     -170
+    ],
+    [
+     -60,
+     -80
+    ],
+    [
+     -120,
+     0
+    ]
+   ],
+   "width": 0.1,
+   "color": "#ece3cf"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -20,
+     -150
+    ],
+    [
+     -66,
+     0
+    ],
+    [
+     -24,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#8a7a58"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -20,
+     -150
+    ],
+    [
+     -24,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     -6,
+     -60
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#b8aa88"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     -170
+    ],
+    [
+     -20,
+     0
+    ]
+   ],
+   "width": 0.1,
+   "color": "#ece3cf"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     -170
+    ],
+    [
+     -22,
+     -184
+    ]
+   ],
+   "width": 4,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     110,
+     -152
+    ],
+    [
+     112,
+     -166
+    ]
+   ],
+   "width": 4,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -140,
+     0
+    ],
+    [
+     150,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#9aa0a6"
+  }
+ ]
+}

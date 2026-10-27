@@ -1,0 +1,274 @@
+{
+ "name": "leopard_seal_canine",
+ "description": "One leopard seal canine tooth, diagram style: long, curved, sharply pointed ivory #f4ecd8 crown with grey shading on one side, duller tan root half at the bottom with growth lines. No gum, no blood. Pointing up, centre anchor, about 92 x 300 (tip at y -150).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "seal",
+  "leopard seal",
+  "tooth",
+  "diagram",
+  "canine"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     52,
+     0
+    ],
+    [
+     48,
+     60
+    ],
+    [
+     34,
+     118
+    ],
+    [
+     12,
+     148
+    ],
+    [
+     -10,
+     146
+    ],
+    [
+     -28,
+     110
+    ],
+    [
+     -38,
+     50
+    ],
+    [
+     -38,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#d9caa4",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     0
+    ],
+    [
+     40,
+     60
+    ],
+    [
+     26,
+     120
+    ],
+    [
+     12,
+     146
+    ],
+    [
+     20,
+     110
+    ],
+    [
+     30,
+     60
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#bfae86",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     14,
+     -150
+    ],
+    [
+     34,
+     -110
+    ],
+    [
+     48,
+     -50
+    ],
+    [
+     52,
+     0
+    ],
+    [
+     -38,
+     0
+    ],
+    [
+     -34,
+     -40
+    ],
+    [
+     -20,
+     -96
+    ],
+    [
+     2,
+     -138
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#f4ecd8",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     14,
+     -146
+    ],
+    [
+     34,
+     -108
+    ],
+    [
+     48,
+     -50
+    ],
+    [
+     52,
+     -2
+    ],
+    [
+     26,
+     -2
+    ],
+    [
+     26,
+     -60
+    ],
+    [
+     18,
+     -120
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#cfc6b0",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -6,
+   "y": -40,
+   "r": 18,
+   "color": "#ffffff",
+   "density": 0.25
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -20,
+     -90
+    ],
+    [
+     -24,
+     -40
+    ],
+    [
+     -22,
+     -10
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -38,
+     0
+    ],
+    [
+     6,
+     6
+    ],
+    [
+     52,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -26,
+     40
+    ],
+    [
+     6,
+     44
+    ],
+    [
+     36,
+     40
+    ]
+   ],
+   "width": 2,
+   "color": "#b0a07c"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -26,
+     80
+    ],
+    [
+     6,
+     84
+    ],
+    [
+     36,
+     80
+    ]
+   ],
+   "width": 2,
+   "color": "#b0a07c"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -26,
+     116
+    ],
+    [
+     6,
+     120
+    ],
+    [
+     36,
+     116
+    ]
+   ],
+   "width": 2,
+   "color": "#b0a07c"
+  }
+ ]
+}

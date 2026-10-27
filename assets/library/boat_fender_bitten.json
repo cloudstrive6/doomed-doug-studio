@@ -1,0 +1,351 @@
+{
+ "name": "boat_fender_bitten",
+ "description": "Boat fender: white cylindrical inflatable fender with blue end caps, a rope through the top eye, and two dark crescent-shaped puncture holes (no red). Vertical, centre anchor, about 120 x 330 (x -60..60, y -210..124).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "boat",
+  "fender",
+  "marina",
+  "bite",
+  "prop"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -150
+    ],
+    [
+     -24,
+     -170
+    ],
+    [
+     -10,
+     -196
+    ],
+    [
+     16,
+     -186
+    ],
+    [
+     30,
+     -210
+    ]
+   ],
+   "width": 5,
+   "color": "#c9b58a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -150
+    ],
+    [
+     -24,
+     -170
+    ],
+    [
+     -10,
+     -196
+    ],
+    [
+     16,
+     -186
+    ],
+    [
+     30,
+     -210
+    ]
+   ],
+   "width": 2,
+   "color": "#8a7652",
+   "dash": [
+    5,
+    5
+   ]
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -138,
+   "rx": 14,
+   "ry": 12,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#2f6fd6"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -138,
+   "rx": 6,
+   "ry": 5,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -48,
+     -120
+    ],
+    [
+     48,
+     -120
+    ],
+    [
+     58,
+     -90
+    ],
+    [
+     60,
+     90
+    ],
+    [
+     50,
+     124
+    ],
+    [
+     -50,
+     124
+    ],
+    [
+     -60,
+     90
+    ],
+    [
+     -58,
+     -90
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#f6f7f8",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -48,
+     -120
+    ],
+    [
+     48,
+     -120
+    ],
+    [
+     58,
+     -90
+    ],
+    [
+     -58,
+     -90
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#2f6fd6",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60,
+     96
+    ],
+    [
+     60,
+     96
+    ],
+    [
+     50,
+     124
+    ],
+    [
+     -50,
+     124
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#2f6fd6",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 26,
+   "y": 0,
+   "r": 30,
+   "color": "#cfd5dc",
+   "density": 0.25
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -34,
+     -80
+    ],
+    [
+     -36,
+     86
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -58,
+     -60
+    ],
+    [
+     0,
+     -52
+    ],
+    [
+     58,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#b9c0c8"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -58,
+     60
+    ],
+    [
+     0,
+     68
+    ],
+    [
+     58,
+     60
+    ]
+   ],
+   "width": 2,
+   "color": "#b9c0c8"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -26,
+     -26
+    ],
+    [
+     -8,
+     -32
+    ],
+    [
+     10,
+     -26
+    ],
+    [
+     4,
+     -20
+    ],
+    [
+     -8,
+     -24
+    ],
+    [
+     -20,
+     -20
+    ]
+   ],
+   "width": 2,
+   "color": "#000000",
+   "fill": "#1a1c1f"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -4,
+     26
+    ],
+    [
+     14,
+     20
+    ],
+    [
+     32,
+     26
+    ],
+    [
+     26,
+     32
+    ],
+    [
+     14,
+     28
+    ],
+    [
+     2,
+     32
+    ]
+   ],
+   "width": 2,
+   "color": "#000000",
+   "fill": "#1a1c1f"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -48,
+     -120
+    ],
+    [
+     48,
+     -120
+    ],
+    [
+     58,
+     -90
+    ],
+    [
+     60,
+     90
+    ],
+    [
+     50,
+     124
+    ],
+    [
+     -50,
+     124
+    ],
+    [
+     -60,
+     90
+    ],
+    [
+     -58,
+     -90
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}
