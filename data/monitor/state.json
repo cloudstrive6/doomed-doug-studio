@@ -1,13 +1,13 @@
 {
  "issues": {
   "queue_low": {
-   "first_seen": "2026-10-26T16:01:46+00:00",
+   "first_seen": "2026-10-27T08:01:43+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-26T16:01:46+00:00",
-   "summary": "Queue 2/3 and no production running: started a production run",
+   "last_seen": "2026-10-27T08:01:43+00:00",
+   "summary": "Queue 3/4 and no production running: started a production run",
    "owner": "auto",
    "severity": "medium",
-   "resolved": "2026-10-26T16:01:46+00:00"
+   "resolved": "2026-10-27T08:01:43+00:00"
   },
   "related_pending": {
    "first_seen": "2026-10-20T16:01:50+00:00",
@@ -51,7 +51,7 @@
   "schedule_gap": {
    "first_seen": "2026-10-27T04:01:42+00:00",
    "agent_attempts": 1,
-   "last_seen": "2026-10-27T07:01:34+00:00",
+   "last_seen": "2026-10-27T08:01:43+00:00",
    "summary": "No long video scheduled for Sat 31 Oct 5:00 AM NZDT",
    "owner": "auto",
    "severity": "medium",
@@ -60,7 +60,7 @@
   "produce_failing": {
    "first_seen": "2026-10-27T05:37:09+00:00",
    "agent_attempts": 1,
-   "last_seen": "2026-10-27T07:01:34+00:00",
+   "last_seen": "2026-10-27T08:01:43+00:00",
    "summary": "Last 2 production runs failed",
    "owner": "agent",
    "severity": "high",
