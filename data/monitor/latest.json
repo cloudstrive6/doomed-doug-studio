@@ -1,15 +1,30 @@
 {
- "at": "2026-10-27T05:01:58+00:00",
+ "at": "2026-10-27T05:37:09+00:00",
  "issues": [
   {
    "key": "schedule_gap",
    "severity": "medium",
    "owner": "auto",
    "summary": "No long video scheduled for Sat 31 Oct 5:00 AM NZDT",
-   "detail": "{\"uploaded_total\": 27, \"queued\": 3, \"target\": 4, \"phase\": \"weekly\", \"in_progress\": [], \"need_episode\": true, \"later_scheduled\": []}",
+   "detail": "{\"uploaded_total\": 27, \"queued\": 3, \"target\": 4, \"phase\": \"weekly\", \"in_progress\": [\"028-megalodon-every-era\"], \"need_episode\": true, \"later_scheduled\": []}",
    "route": "production run",
    "fixed": false,
    "extra": {}
+  },
+  {
+   "key": "produce_failing",
+   "severity": "high",
+   "owner": "agent",
+   "summary": "Last 2 production runs failed",
+   "detail": "2026-10-27T05:01:00Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/40452909335\n2026-10-27T03:49:44Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/40446325531",
+   "route": "diagnose the run logs, route to the agent that owns the failing stage",
+   "fixed": false,
+   "extra": {
+    "run_ids": [
+     40452909335,
+     40446325531
+    ]
+   }
   }
  ],
  "resolved_since_last": []
