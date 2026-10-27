@@ -1,17 +1,17 @@
 <!-- axis: severity. How sure the narrator is that the megalodon dies, from a sure win (The Nursery) to a sure loss (The Last Megalodon). The stops jump around in time; every stop shows its date on a card. Every verdict is the narrator's judgement from sourced facts, except the boss, which is the fossil record itself. Severity order: survive (1-3), probably survive (4, The Supernova), coin toss (5, The Rival), probably not (6, The Orcas), then losses (7-10) and the one on record (11). Spoken section headers: none before item 1, "Big company." (before item 2), "Coin toss." (before item 4), "Wrong water." (before item 7), "The real one." (before item 11). -->
-<!-- Episode 028: Could Megalodon Survive Every Deadly Era Before and After It? (working). Draft 2 (2026-10-27, script writer), applying all 12 fixes from script_review.md (draft 1). 11 items: the brief's 10 plus the writer option "The Rival" (Livyatan, 009 creature 1 of 3), now item 5 before The Orcas (S1) so severity rises. DOUG DEATHS on screen at 226 from the first shot, ends at 234: eight deaths over eleven items, 227 The Nursery, 228 The Mosasaur, 229 The Rival, 230 The Orcas, 231 The Hothouse, 232 The Ice Age, 233 The Trench, 234 The Last Megalodon (cable snaps, played flat). Doug survives The Giant Ichthyosaur ("Doug is fine.", narrator quietly disappointed), The Supernova ("Doug is fine. Probably.") and The Canal ("Doug is fine."). MEG SURVIVED chalkboard: ticks on items 1-4, a red "?" on The Rival (item 5), red X on items 6-11; ends 4 / 11. A megalodon loss is never shown as a death: red X stamp, cut to black, or the shark swimming off into the dark. "Doug did not agree to this." once, item 1. Callbacks exactly two: 021 at The Orcas, 009 at The Last Megalodon. -->
+<!-- Episode 028: Could Megalodon Survive Every Deadly Era Before and After It? (working). Draft 3 (2026-10-27, script writer): targeted fixes F5, F6, S3, M3, M4, M5 and advisories A1, A2 from script_review.md round 2, on top of draft 2's 12 round-1 fixes. 11 items: the brief's 10 plus the writer option "The Rival" (Livyatan, 009 creature 1 of 3), now item 5 before The Orcas (S1) so severity rises. DOUG DEATHS on screen at 226 from the first shot, ends at 234: eight deaths over eleven items, 227 The Nursery, 228 The Mosasaur, 229 The Rival, 230 The Orcas, 231 The Hothouse, 232 The Ice Age, 233 The Trench, 234 The Last Megalodon (cable snaps, played flat). Doug survives The Giant Ichthyosaur ("Doug is fine.", narrator quietly disappointed), The Supernova ("Doug is fine. Probably.") and The Canal ("Doug is fine."). MEG SURVIVED chalkboard: ticks on items 1-4, a red "?" on The Rival (item 5), red X on items 6-11; ends 4 / 11. A megalodon loss is never shown as a death: red X stamp, cut to black, or the shark swimming off into the dark. "Doug did not agree to this." once, item 1. Callbacks exactly two: 021 at The Orcas, 009 at The Last Megalodon. -->
 <!-- Deviations from the brief, all fact-driven (details in facts.md "Brief leads that changed"):
 1. Birth size: Shimada et al. 2021 gave about 2 m, but Shimada et al. 2025 (Palaeontologia Electronica) re-analysed vertebral growth bands and suggests 3.6 to 3.9 m, and says pups that size make nursery areas less likely to be needed. The cold open uses the newer figure, hedged; item 1's twist is the nursery doubt, and its kicker is hedged ("probably home"). The womb line follows the 2025 abstract's own behaviour, oophagy (feeding on unhatched eggs), not "siblings".
 2. Supernova distance: Wallner 2016 says "up to 100 parsecs"; the 150 light-year figure is the 2017 University of Kansas revision, which also says a supernova at that distance should have effects but not set off a mass extinction. Iron-60 wave timing uses Wallner's 1.5 to 3.2 million years.
 3. Ice Age: the "too cold to follow" twist is not used (megalodon's inferred temperature tolerance included cool water). The twist is habitat: whales got bigger, but at LGM sea level the warm shallow shelves were dry land (Pimiento 2017 names shrinking coastal habitat as the suspected driver of the Pliocene losses). No temperature claim about the shark.
 4. Hothouse: no study put a megalodon in PETM water. The script compares two sourced numbers, tropical PETM sea surface above 36 degrees (Frieling 2017) and megalodon's estimated body temperature of about 27 degrees (Griffiths 2023), and says it is our reasoning.
-5. Trench: "about five kilometers" belongs to a Carcharodon-type tooth inside a manganese nodule (Challenger Station 252, 2,740 fathoms, Murray and Renard 1891, Plate III). The two megalodon teeth Tschernezky dated in 1959 came from south of Tahiti; no depth is spoken for them. The rebuttal is now only the slow crust growth (Southern Fried Science); the growth-rate and associated-sharks lines are cut.
+5. Trench: "about five kilometers" belongs to a Carcharodon-type tooth inside a manganese nodule (Challenger Station 252, 2,740 fathoms, Murray and Renard 1891, Plate III). The two megalodon teeth Tschernezky dated in 1959 came from south of Tahiti; no depth is spoken for them. The rebuttal is the slow crust growth (Southern Fried Science) plus the NHM page: the 1959 method was disproven in the 1970s and the teeth fall well within megalodon's expected timeline. The growth-rate and associated-sharks lines are cut.
 6. Ichthyotitan diet cut (no source). Cretoxyrhina line cut (no strong source opened; word budget). -->
 <!-- Pronunciation for the editor: megalodon = "MEG-uh-luh-don"; Gatún = "gah-TOON"; Colón = "koh-LOHN"; Mosasaurus = "MOH-zuh-SORE-us"; hoffmannii = evidence card only, never spoken; Maastricht = "MAH-strikt"; Ichthyotitan = "IK-thee-oh-TIE-tun"; ichthyosaur = "IK-thee-oh-sore"; severnensis = "sev-er-NEN-sis"; Livyatan = "liv-YAH-tahn"; Pisco = "PEE-skoh"; Pliocene = "PLY-oh-seen"; Paleocene-Eocene = "PAY-lee-oh-seen EE-oh-seen"; denticles = "DEN-tih-kulz"; Bering = "BAIR-ing"; Tschernezky = on screen only, never spoken. Initialisms "HMS" and "DNA": confirm Chirp spells them out in the narrate pass. -->
 
 [Open on the thumbnail, 1.5 to 4 seconds. Cut to the time machine in a plain room. Doug stands beside it in a small shark cage hanging from a crane hook. DOUG DEATHS: 226. A small chalkboard beside the counter: MEG SURVIVED: 0 / 11.]
 
-Megalodon pups may have been born almost four meters long, after feeding on unhatched eggs in the womb. Doug is taking one through the deadliest eras to see which kills it.
+Megalodon pups may have been born almost four meters long, after feeding on unhatched eggs in the womb. Doug is taking a full-grown one through the deadliest eras to see which kills it.
 
 ## The Nursery
 
@@ -43,11 +43,13 @@ A standard single bed is one meter ninety long. Even the smaller estimate hangs 
 
 [A newborn megalodon slides alongside the cage. It is longer than the cage. It is much longer than Doug.]
 
-The thing Doug just waved at is a baby, and depending on whose estimate you trust, it is about twice as long as he is.
+The thing Doug just waved at is a baby, and on the newer estimate, it is about twice as long as he is.
 
 [The newborn turns toward the cage. Cut away. A splash. The cap sits alone on the cage roof. DOUG DEATHS: 227.]
 
 Doug has died. Again.
+
+The newborn swims on into the shallows without looking back. Its first meal was unhatched eggs. Doug was its second.
 
 [The adult megalodon drifts past, calm. A tick appears on the chalkboard: MEG SURVIVED: 1 / 11.]
 
@@ -61,7 +63,7 @@ The Mosasaur.
 
 [Caption bar: THE MOSASAUR. Era card: ABOUT 66 TO 70 MILLION YEARS AGO. MAASTRICHT SEA.]
 
-Most stops on this list come after the megalodon's time, but this one is long before it, in a warm, shallow sea that once covered what is now the Netherlands.
+Five stops on this list come after the megalodon's time. This one is long before it, in a warm, shallow sea that once covered what is now the Netherlands.
 
 [The cage is lowered into pale, chalky water. A long reptile shape moves below.]
 
@@ -263,7 +265,7 @@ Now look at the megalodon. In twenty twenty-three, scientists read the chemical 
 
 Most sharks run at the same temperature as the water they swim in, which makes the megalodon one of the rare exceptions. That warm body was a weapon. It probably helped the shark swim faster and hunt in cooler seas than most sharks could.
 
-Here's the catch. This water is about nine degrees hotter than the megalodon itself, and its whole body is built to hold heat in, not to get rid of it.
+Here's the catch. This water is about nine degrees hotter than the megalodon itself, and as far as we can tell, its body was built to hold heat in, not to get rid of it.
 
 [The megalodon slows, sluggish in the shimmer. Doug sets the rubber duck on the water and leans back.]
 
@@ -285,7 +287,7 @@ About twenty thousand years ago, so much water was locked up in ice sheets that 
 
 [The time machine door opens on a wide, empty plain of sand and mud. The cage sits on dry ground. The sea is a thin line far away.]
 
-Ice sheets buried much of North America and northern Europe. The missing water is taller than the Statue of Liberty, from the ground to the tip of the torch, and most of the world's shallow continental shelves were simply dry land.
+Ice sheets buried much of North America and northern Europe. The missing water is taller than the Statue of Liberty, from the ground to the tip of the torch, and huge areas of the world's shallow continental shelves were simply dry land.
 
 Between Siberia and Alaska, the sea floor turned into a land bridge, and woolly mammoths walked across ground that is now under the Bering Strait.
 
@@ -333,7 +335,7 @@ The rocks from that nursery bay are still here. Geologists call them the Gatún 
 
 The cruel part is simple. Ships now cross the land where the pups were born.
 
-The canal runs about eighty kilometers from ocean to ocean, a little under two marathons, and every ship that uses it is sailing through what used to be a megalodon nursery.
+The canal runs about eighty kilometers from ocean to ocean, a little under two marathons, and ships using it pass the very rocks where megalodon pups once grew up.
 
 [Doug kneels at the bank and digs with his fingers. He pulls out a small, dark fossil tooth and holds it up to the sun.]
 
@@ -369,7 +371,7 @@ That would make megalodon practically modern, and it didn't hold up.
 
 Manganese crusts on the deep sea floor grow far more slowly than that. They take millions of years to form.
 
-But that's not the twist. The teeth that started the rumour are some of the best evidence against it.
+But that's not the twist. Re-checked, the teeth that started the rumour turned out to be as old as every other megalodon tooth.
 
 [The cage is lowered into blackness. Doug holds a sign on a rope: "MEG?"]
 
@@ -437,4 +439,4 @@ Megalodon got through four of these eleven eras. It won at home ten million year
 
 Doug deaths: two hundred and thirty-four. Which giant should Doug drag through time next? Tell us in the comments.
 
-<!-- words: 3004 (spoken narration only: cold open, spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:24 at 195 wpm · draft 2 (2026-10-27) · 11 items · item 1 twist at word 138, first death at word 238 (about 1:13) · The Ice Age 275 · boss 368 incl. closing kicker and 19-word outro · avg sentence 13.5 words incl. one-word item names and headers, longest 32 -->
+<!-- words: 3031 (spoken narration only: cold open, spoken section headers, item names and outro included; markdown headings, comments and stage directions excluded) · est. runtime 15:32 at 195 wpm · draft 3 (2026-10-27) · 11 items · cold open 33 words, "The Nursery." at words 34-35 · item 1 twist at word 141, The Nursery 247 without the cold open · boss 368 incl. closing kicker and 19-word outro · longest sentence 32 -->

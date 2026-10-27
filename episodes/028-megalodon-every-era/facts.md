@@ -9,7 +9,7 @@ reasoning, not a study's") and The Ice Age ("the fossils can't settle it"). The 
 record itself, and the script says so. Everyday comparisons are marked "comparison", with the source for the everyday
 object and the arithmetic.
 
-Checked 2026-10-27 (draft 1); updated for draft 2 the same day after script_review.md (F1-F4, M1, M2, new scale comparisons and Ice Age line). "Verified" = I read the claim on the page (WebFetch). "Search snippet" = confirmed from
+Checked 2026-10-27 (draft 1); updated for draft 2 the same day after script_review.md (F1-F4, M1, M2, new scale comparisons and Ice Age line), and for draft 3 after round 2 (F5, F6, S3, M3-M5, A1, A2; NHM rows added under The Trench). "Verified" = I read the claim on the page (WebFetch). "Search snippet" = confirmed from
 search-result text quoting the page, not opened directly. The screener should re-open those.
 
 **Spent-facts check (brief section 0), line by line:** no "giant tooth" line, no cartilage skeleton, no tooth size or hand
@@ -63,11 +63,14 @@ called a hypothesis and debated. Great white competition is "possible, not prove
 | Interpreted as a nursery: shallow, sheltered, food, fewer predators | Pimiento 2010; https://www.nationalgeographic.com/science/article/off-the-prehistoric-coast-of-panama-a-mega-toothed-shark-nursery | Search snippet |
 | Comparison: a standard single bed is 190 cm long; 2 m > 1.9 m | Which?, https://www.which.co.uk/reviews/mattresses/article/uk-mattress-sizes-bed-mattress-size-guide-aDx4r9b4T99o | Search snippet |
 | "about twice as long as he is" | Comparison: Doug is a fictional stick man of adult height (about 1.8 m); 3.6-3.9 m is about twice that | Comparison |
+| Draft 3 wording: "On the newer estimate, it is about twice as long as he is" (A2) | Only the 2025 figure (3.6-3.9 m) gives "twice"; the 2021 figure (about 2 m) is about Doug's height | Comparison |
+| Draft 3 Doug beat: "Its first meal was unhatched eggs. Doug was its second." | First clause: oophagy, Shimada 2025 abstract (row above). Second clause is fiction (Doug) | Verified / fiction |
 
 ## The Mosasaur
 | Claim | Source | Status |
 |---|---|---|
 | Late Cretaceous sea around Maastricht, about 66-70 Myr (Maastrichtian) | NHM, https://www.nhm.ac.uk/discover/what-is-a-mosasaur.html ; https://en.wikipedia.org/wiki/Mosasaurus | Verified (NHM, context) / search snippet |
+| Frame: "Five stops on this list come after the megalodon's time" (F5) | Internal count of this episode's 11 stops: after its time = Supernova, Orcas, Ice Age, Canal, Trench (5); before = Mosasaur, Ichthyosaur, Hothouse (3); its own time = Nursery, Rival, Last Megalodon (3) | Framing (arithmetic) |
 | *M. hoffmannii* is a giant marine lizard; *Mosasaurus* was the first mosasaur named (genus 1822); "lizard of the Meuse" after the river through Maastricht | NHM page above | Verified |
 | Miners in a limestone quarry near Maastricht found teeth and bones in the mid-1700s; a better skull caused debate over fish, crocodile or whale | NHM page above | Verified |
 | 1795: French army seized the skull and took it to Paris, where it is still displayed | NHM page above; https://en.wikipedia.org/wiki/Research_history_of_Mosasaurus | Verified |
@@ -139,12 +142,14 @@ called a hypothesis and debated. Great white competition is "possible, not prove
 | Most sharks are the same temperature as the water (ectothermic); megalodon an exception | Same; https://www.smithsonianmag.com/smart-news/megalodons-were-warm-blooded-and-it-was-a-blessing-and-a-curse-180982438/ | Verified (PNAS) |
 | Warm body probably helped it swim faster and hunt in cooler seas | Same Smithsonian article; PNAS discussion | Search snippet |
 | "about nine degrees hotter than the megalodon itself" | Arithmetic: 36 - 27 = 9 | Comparison |
+| "as far as we can tell, its body was built to hold heat in" (M5, hedged in draft 3) | Griffiths 2023 (above): megalodon was regionally endothermic, keeping its body about 7 °C above the surrounding water. That the body could not shed heat in 36 °C water is our reasoning, flagged by "as far as we can tell" and the "our reasoning, not a study's" verdict line | Verified (endothermy) / reasoning |
 
 ## The Ice Age
 | Claim | Source | Status |
 |---|---|---|
 | About 20,000 years ago sea level about 120 m lower; continental shelves exposed | https://agu.confex.com/agu/osm20/preliminaryview.cgi/Paper638531.html ; Yukon Geological Survey https://emrlibrary.gov.yk.ca/ygs/open_files/2019/OF2019-2_Beringia.pdf ; https://en.wikipedia.org/wiki/Last_Glacial_Maximum | Search snippet |
 | Ice sheets covered much of North America and northern Europe | https://en.wikipedia.org/wiki/Last_Glacial_Maximum | Search snippet |
+| Draft 3 wording: "huge areas of the world's shallow continental shelves were simply dry land" (M4; was "most") | Sources above say shelves were "exposed" and "large areas" were dry; NPS Beringia (below) "some areas that are now under water were dry land" | Search snippet / verified (NPS) |
 | Lower sea level exposed a land bridge between Asia and North America in the Bering Strait area; woolly mammoths crossed it | NPS "About Beringia", https://www.nps.gov/subjects/beringia/about.htm ("some areas that are now under water were dry land", "a land bridge connecting the continents of Asia and North America in the present day Bering Strait area"; woolly mammoth listed among animals that crossed "the steppe-tundra lowlands of the Bering land bridge") | Verified (opened 2026-10-27) |
 | Comparison: Statue of Liberty ground to torch 92.99 m; 120 m is taller | NPS, https://www.nps.gov/stli/historyculture/statue-statistics.htm | Search snippet |
 | Baleen whales became giants in the last few million years, around the start of the ice ages; ice sheets changed food distribution into seasonal rich patches; big filter feeders benefit | Slater, Goldbogen, Pyenson 2017, *Proc. R. Soc. B*; Smithsonian release https://www.sciencedaily.com/releases/2017/05/170524110024.htm | Verified |
@@ -157,6 +162,7 @@ called a hypothesis and debated. Great white competition is "possible, not prove
 | Gatún sea connected the Pacific and the Caribbean in the late Miocene | Pimiento 2010 abstract (above) | Search snippet |
 | Gatún Formation studied in outcrops near Colón and in new collections from the Panama Canal expansion | Florida Museum, https://www.floridamuseum.ufl.edu/panama-pire/research/invertebrates/ | Verified |
 | Canal about 50 miles (about 80 km) | NASA Earth Observatory, https://science.nasa.gov/earth/earth-observatory/panama-canal-2932/ | Verified |
+| Draft 3 wording: "ships using it pass the very rocks where megalodon pups once grew up" (M3; was "sailing through what used to be a megalodon nursery") | The nursery teeth are from the Gatún Formation, exposed near Colón at the Caribbean end and in Panama Canal expansion collections (Pimiento 2010; Florida Museum row above). The claim is limited to those rocks, not the whole 80 km route | Verified (Florida Museum) / search snippet (Pimiento) |
 | Comparison: marathon 42.195 km; 80 km is a little under two | World Athletics, https://worldathletics.org/disciplines/road-running/marathon | Not opened; standard figure |
 | Small teeth are why it was called a nursery | Pimiento 2010 | Search snippet |
 
@@ -169,6 +175,8 @@ called a hypothesis and debated. Great white competition is "possible, not prove
 | Comparison: Burj Khalifa 828 m; 5,011 / 828 = 6.05, "six Burj Khalifas" | CTBUH via https://www.khl.com/news/ctbuh-ratifies-height-of-burj-khalifa/55351.article | Search snippet |
 | 1959: Tschernezky dated two Challenger megalodon teeth (south of Tahiti) by manganese thickness to about 11,000 and 24,000 years | Tschernezky, W. 1959, "Age of *Carcharodon megalodon*?", *Nature* 184:1331, https://doi.org/10.1038/1841331a0 (paywalled; the paper's existence and citation were confirmed by the screener). The 11,000 and 24,000-year figures match every secondary account (e.g. https://www.buriedtreasurefossils.com/blog/post/what-the-hms-challenger-teeth-reveal-about-megalodons-age-and-extinction-timeline , a dealer blog, used only as corroboration) | Primary citation (paywalled, not read in full); figures corroborated by secondary accounts |
 | Rebuttal: manganese crusts on the deep sea floor grow far more slowly than that and take millions of years to form | Southern Fried Science, https://www.southernfriedscience.com/finding-megalodon-at-the-bottom-of-the-sea (crusts "grow slowly" and "take millions of years to form"; opened by the screener) | Verified (screener) |
+| "it didn't hold up": the 1959 dating method and result were disproven | Natural History Museum, "Is megalodon still alive?", https://www.nhm.ac.uk/discover/is-megalodon-still-alive.html ("this study's findings and method were ultimately completely disproven in the 1970s") | Verified (opened 2026-10-27, draft 3) |
+| Twist (F6, draft 3): "Re-checked, the teeth that started the rumour turned out to be as old as every other megalodon tooth." Replaces the unsourced "some of the best evidence against it" | Same NHM page: "In reality, the teeth come from well within megalodon's expected timeline." | Verified (opened 2026-10-27, draft 3) |
 | CUT in draft 2: "the growth rate he used was far too fast" and "found alongside fossils of other sharks known only from millions of years ago" | Draft 1 marked these "Verified" from the dealer blog; Southern Fried Science does not support them, so both lines were removed from the script | Cut |
 | Deep water about 2 °C at 5,000 m; dark | NOAA Ocean Explorer, https://oceanexplorer.noaa.gov/facts/deep-ocean.html (average 4 °C below 200 m; 2.2 °C at 5,000 m on Mona Seamount) | Search snippet |
 | No sharks live much below 3,000 m; not enough food | Natural History Museum, https://www.nhm.ac.uk/discover/is-megalodon-still-alive.html | Verified |
