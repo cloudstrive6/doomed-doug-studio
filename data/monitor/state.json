@@ -22,7 +22,7 @@
   "end_screens_pending": {
    "first_seen": "2026-10-27T09:38:26+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-27T11:01:49+00:00",
+   "last_seen": "2026-10-27T12:02:03+00:00",
    "summary": "1 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -31,7 +31,7 @@
   "thumb_tests_pending": {
    "first_seen": "2026-10-27T09:38:26+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-27T11:01:49+00:00",
+   "last_seen": "2026-10-27T12:02:03+00:00",
    "summary": "1 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
    "owner": "owner",
    "severity": "low",
