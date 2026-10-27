@@ -1,5 +1,5 @@
 <!-- axis: position. Where Doug is, from on top of the Antarctic ice down to underneath it. Spoken bands: "On the ice." (cold open, before item 1), "In a boat." (before item 3), "In the water." (before item 5), "Under the ice." (before item 9, the boss). Every stop is one step closer to the seal's own world; the boss is under the pack ice, where it lives and sings. -->
-<!-- Episode 029, draft 2 (2026-10-27, script writer; applies all 10 required fixes from script_review.md, draft 1). Written to the 2026-10-27 retention update: concrete first sentence (1916, the seal bursting out and the chase; the shadow is now said only once, at item 1's twist), payoff promise by 0:10 ("Doug is under that ice, singing back to one"), item 1 is one of the three strongest, hook fact first in every item, every kicker leans into the next stop. Counter on screen at 234 from the first shot, ends at 240: six deaths (235 The Chase, 236 The Ice Edge, 237 The Head, 238 The Sieve, 239 The Seal Eater, 240 The Song). Survivals: The Visitor ("Doug is fine.", narrator quietly disappointed) and The Gift ("Doug is fine.", the seal is disappointed, FRIEND? MAYBE). The Snorkeller: sober card, no Doug death, no joke, Doug only as the respect beat in a stage direction. "Doug did not agree to this." once (The Chase). "Doug has died. Again." once (The Ice Edge). Costume gag twice: penguin (The Ice Edge), library seal costume (The Seal Eater). Befriending: "hi friend?" (The Gift), "hi friends?" (The Seal Eater). One 016 callback (The Ice Edge). No 021 callback anywhere. The cap: snow (1), on the flat costume (2), on the flooded dinghy (3), on the pontoon (4), spat out of the teeth (6), on the flat costume (7), set down on the ice (8), the closing shadow (9). -->
+<!-- Episode 029, draft 3 (2026-10-27, script writer; applies fixes 1-4 from script_review.md, draft 2: payoff promise shortened so "The Chase." lands at words 34-35; about 25 words added to The Chase after its twist, from South; "for more than twenty years"; The Visitor bridge flattened). Draft 2 applied all 10 required fixes from the draft-1 review. Written to the 2026-10-27 retention update: concrete first sentence (1916, the seal bursting out and the chase; the shadow is now said only once, at item 1's twist), payoff promise by 0:10 ("Doug ends up under that ice, singing back to one"), item 1 is one of the three strongest, hook fact first in every item, every kicker leans into the next stop. Counter on screen at 234 from the first shot, ends at 240: six deaths (235 The Chase, 236 The Ice Edge, 237 The Head, 238 The Sieve, 239 The Seal Eater, 240 The Song). Survivals: The Visitor ("Doug is fine.", narrator quietly disappointed) and The Gift ("Doug is fine.", the seal is disappointed, FRIEND? MAYBE). The Snorkeller: sober card, no Doug death, no joke, Doug only as the respect beat in a stage direction. "Doug did not agree to this." once (The Chase). "Doug has died. Again." once (The Ice Edge). Costume gag twice: penguin (The Ice Edge), library seal costume (The Seal Eater). Befriending: "hi friend?" (The Gift), "hi friends?" (The Seal Eater). One 016 callback (The Ice Edge). No 021 callback anywhere. The cap: snow (1), on the flat costume (2), on the flooded dinghy (3), on the pontoon (4), spat out of the teeth (6), on the flat costume (7), set down on the ice (8), the closing shadow (9). -->
 <!-- Deviations from the brief, all fact-driven (sources and reasons in facts.md, "Brief checks"):
 1. The Chase: South (1919) records the attack ("climbed on to the floe and attacked one of the men"), Wild shooting it, and the crew eating it and frying the fish found in its stomach, but it has no shadow detail. The shadow is in the PBS NOVA wildlife page ("having tracked his shadow from beneath the ice") and in Lansing's Endurance (1959), so the script says "according to the expedition's accounts" at the item's twist. Draft 2: the shadow is said only there; the cold open has the leap and the chase, and item 1 opens on the single case (the seal lost him, then found him again), with no species-level claim.
 2. The Ice Edge: the 1980s expedition-member option is cut. Its date could not be pinned (1985 trek, attack on the way back, possibly early 1986), and the leg-and-kick detail is only in Robert Swan's retelling. The analogy is the "high-risk zone" width (10 to 20 m, Ainley et al. 2005, citing Penney and Lowry 1967) against a bowling lane (18 m, foul line to head pin).
@@ -19,7 +19,7 @@ In nineteen sixteen, a leopard seal burst out of the sea and chased one of Shack
 
 [The floe from below: the dark seal shape, the bright ice above. Doug's field guide opens on a new page: LEOPARD SEAL. The FRIEND? box is empty.]
 
-By the end, Doug is under that ice, singing back to one.
+Doug ends up under that ice, singing back to one.
 
 On the ice.
 
@@ -57,7 +57,9 @@ Doug did not agree to this, but he was given skis, a red cap and a sunny afterno
 
 [Back on the 1916 floe: a crude cooking pot over a small blubber flame, the men around it.]
 
-The crew ate the seal, and fried the undigested fish they discovered inside it. For the rest of this video, the menu goes the other way.
+The crew ate the seal, and fried the undigested fish they discovered inside it. It was the only fresh fish they ate during the whole drift on the ice, and the extra meat meant slightly bigger rations for everyone.
+
+For the rest of this video, the menu goes the other way.
 
 ## The Ice Edge
 
@@ -135,9 +137,9 @@ Doug rowed an inflatable dinghy into the marina to say hello, and the dinghy is 
 
 Doug is fine, standing waist deep in a city marina and still wearing the cap. We had hoped for a little more.
 
-[A law book stamped "PROTECTED". The seal's name on it. Doug's name is not.]
+[A law book stamped "PROTECTED". The seal's name on it.]
 
-She is protected under New Zealand's Marine Mammals Protection Act. Doug is not, so he's returning to Antarctica for a closer examination of that head.
+She is protected under New Zealand's Marine Mammals Protection Act. Next, Doug goes back to Antarctica for a closer look at that head.
 
 ## The Head
 
@@ -255,7 +257,7 @@ On one Antarctic beach, leopard seals have eaten, on average, about seven in eve
 
 [A map: Livingston Island, a red dot on Cape Shirreff. A field hut with a flag.]
 
-The beach is Cape Shirreff, on Livingston Island, where American government scientists have studied the fur seals for twenty years. Since two thousand ten, they estimate leopard seals have eaten an average of sixty-nine percent of the pups born there each year. Pup numbers have fallen by eighty-six percent since two thousand seven.
+The beach is Cape Shirreff, on Livingston Island, where American government scientists have studied the fur seals for more than twenty years. Since two thousand ten, they estimate leopard seals have eaten an average of sixty-nine percent of the pups born there each year. Pup numbers have fallen by eighty-six percent since two thousand seven.
 
 [A row of ten cinema seats. At the end of the shot, seven are empty.]
 
@@ -349,4 +351,4 @@ The first thing it followed was Doug's shadow, and now it's following the cap's.
 
 Doug deaths: two hundred and forty. The cap is under the ice now. The next place Doug really shouldn't go is right there on screen.
 
-<!-- words: 1990 (spoken narration only: cold open, spoken band headers, item names and outro included; markdown headings, HTML comments and stage directions excluded; regex word count, same method as draft 1) · est. runtime 10:12 at 195 wpm (brief target 1,950-2,350, 10-12 min) · draft 2 (2026-10-27) · 9 items · twist marker "Here's the problem." at spoken word 98, "The Chase." at spoken words 36-37 · draft 2 changes: cold open drops the shadow (fix 1); item 1 opener rewritten to the single case (fix 2); payoff promise "singing back to one" (fix 3); "wrecking dinghies" (fix 4); "probably already survived" (fix 5); Doug removed from the lead-in to the real death (fix 6); "in case anybody has doubts" cut (fix 7); The Head kicker straightened (fix 8); "Every time Doug met this seal, it came at him from the water" (fix 9); the Rogers "patch" line said once, at the Doug beat (fix 10); item 1's first stage direction no longer shows the shadow before the twist · pronunciations for Owha, Whangarei, Orde-Lees, Shirreff and Rothera added to voice.pronunciations in config/channel.yaml -->
+<!-- words: 2013 (spoken narration only: cold open, spoken band headers, item names and outro included; markdown headings, HTML comments and stage directions excluded; regex word count) · est. runtime 10:19 at 195 wpm (brief target 1,950-2,350) · draft 3 (2026-10-27) · 9 items · "The Chase." at spoken words 34-35 · twist marker "Here's the problem." at spoken word 97 · The Chase is 227 words · draft 3 changes: fix 1 payoff promise "Doug ends up under that ice, singing back to one." (10 words); fix 2 The Chase meal kicker gains "It was the only fresh fish they ate during the whole drift on the ice, and the extra meat meant slightly bigger rations for everyone." (after the twist; sourced to South); fix 3 "for more than twenty years"; fix 4 The Visitor bridge flattened to "Next, Doug goes back to Antarctica for a closer look at that head." and the "Doug's name is not" stage-direction gag removed -->

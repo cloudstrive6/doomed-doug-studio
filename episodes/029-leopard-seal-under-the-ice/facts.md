@@ -1,6 +1,6 @@
 # Facts: 029 Why the Leopard Seal Is Antarctica's Deadliest Hunter (working)
 
-Every factual claim in script.md is listed here with its source. Checked 2026-10-27 (draft 1); updated for draft 2 the same day (screener fixes F1, F2, F3, P1 and the reworded lines).
+Every factual claim in script.md is listed here with its source. Checked 2026-10-27 (draft 1); updated for draft 2 the same day (screener fixes F1, F2, F3, P1 and the reworded lines), and for draft 3 (the Chase rations line, "more than twenty years").
 
 How each source was checked:
 - **Read** means I downloaded the primary text and read the passage in full. These are *South* (Project Gutenberg plain text), Ainley et al. 2005, Hocking et al. 2013, Muir et al. 2006, the FAO species guide, the IAATO guidelines, and the Chambers et al. 2025 full text (Europe PMC XML).
@@ -38,6 +38,7 @@ The screener should re-open the "Search" lines first.
 | Big females can weigh more than five hundred kilograms | Australian Antarctic Division: males 2.8 m, 320 kg; females 3.0 m, 370 kg on average; "large females can exceed 3.5 m and weigh over 500 kg": https://www.antarctica.gov.au/about-antarctica/animals/seals/leopard-seals/ . NZ DOC: adult females 3.6 m, up to 500 kg: https://www.doc.govt.nz/nature/native-animals/marine-mammals/seals/leopard-seal/ | Fetched |
 | A large individual is longer than the original Mini car | Comparison. The classic Mini's "overall length was 3.05 metres", BMW Group press release "1959 – 2009: fifty years of MINI": https://www.press.bmwgroup.com/global/article/detail/T0012284EN . Large females exceed 3.5 m (AAD) | Fetched |
 | The crew ate the seal, and fried the undigested fish they discovered inside it | *South*: "When it was cut up, we found in its stomach several undigested fish. These we fried in some of its blubber, and so had our only 'fresh' fish meal during the whole of our drift on the ice." And: "On April 5 we killed two seals, and this, with the sea-leopard of a few days before, enabled us to slightly increase our ration." | Read |
+| It was the only fresh fish they ate during the whole drift on the ice, and the extra meat meant slightly bigger rations for everyone (draft 3) | *South*: the fried stomach fish were "our only 'fresh' fish meal during the whole of our drift on the ice"; "On April 5 we killed two seals, and this, with the sea-leopard of a few days before, enabled us to slightly increase our ration." Gutenberg text: https://www.gutenberg.org/cache/epub/5199/pg5199.txt | Read |
 
 ## 2. The Ice Edge
 Source for the item: Ainley, Ballard, Karl and Dugger 2005, "Leopard seal predation rates at penguin colonies of different size", *Antarctic Science* 17(3): 335–340, doi:10.1017/S0954102005002750. PDF: https://archive.penguinscience.com/reprints/pen_seal.pdf
@@ -115,7 +116,7 @@ Primary source for the item: Hocking, Evans and Fitzgerald, "Leopard seals (*Hyd
 | Claim | Source | Check |
 |---|---|---|
 | On one Antarctic beach, leopard seals have eaten, on average, about seven in every ten fur seal pups born there each year | Krause, Bonin, Goebel, Reiss and Watters 2022, "The Rapid Population Collapse of a Key Marine Predator in the Northern Antarctic Peninsula Endangers Genetic Diversity and Resilience to Climate Change", *Frontiers in Marine Science* 8: 796488, abstract: "We estimated that leopard seals consumed an average of 69.3% (range: 50.3–80.9%) of all AFS pups born each year since 2010": https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.796488/full . **Peer-reviewed, not the media-only "70%"** | Fetched |
-| The beach is Cape Shirreff, on Livingston Island, where American government scientists have studied the fur seals for twenty years | Krause et al. 2022 (NOAA Antarctic Ecosystem Research Division): "All methods reported here were implemented each summer between 2001 and 2020"; abstract describes 20 years of field data | Fetched |
+| The beach is Cape Shirreff, on Livingston Island, where American government scientists have studied the fur seals for more than twenty years (draft 3 wording, screener advisory) | Krause et al. 2022 (NOAA Antarctic Ecosystem Research Division): US AMLR monitoring at Cape Shirreff began in the 1996-97 season; "All methods reported here were implemented each summer between 2001 and 2020" (20 years of field data in the paper itself). Either way it is more than twenty years: https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.796488/full | Fetched |
 | Since 2010, they estimate leopard seals have eaten an average of sixty-nine percent of the pups born there each year | Same, 69.3% | Fetched |
 | Pup numbers have fallen by eighty-six percent since 2007 | Krause et al. 2022, Results: "pup production at Cape Shirreff has decreased by 86% since 2007" | Fetched |
 | Picture ten seats in a row at the cinema, and by the end of the summer, seven of them are empty | Comparison: 69.3% ≈ 7 in 10 | Comparison |
