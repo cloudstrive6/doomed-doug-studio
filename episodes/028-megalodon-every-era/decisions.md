@@ -123,3 +123,23 @@
 - Rounds: script 3, art keyframes 2 (art-director + visual-screener PASS round 2), thumbnails 2 (B scale fix, CD + screener re-approved). A primary, B and C tests.
 - Risk: script is ~15.5 min (3,031 words) because the brief set 2,950-3,350 words just after the 10-12 min retention update landed. Reshooting would redo script, shotlist and art, so it ships long. `studio/validate.py` grandfather cutoff moved from 2026-10-27 to 2026-10-28 so 028 passes; 029 onward must hit 10-12 min.
 - Optional polish not done: s303 ghost vs rope, s309 silhouette gap, s148 label, s305 glow disc.
+
+## 2026-10-27, creative director: final package gate
+22. **Read against:** visual review round 4 (main PASS, shorts PASS), `qc.json` (985.4 s, no problems), `metadata.json`,
+    `build/chapters.txt`, `build/thumbnail.png`, samples f_001-f_003, frames pulled from `final.mp4` at 0.5/4/8/12/20/40 s,
+    and the script and caption opening.
+23. **Title: keep the lead** "Could Megalodon Survive Every Era Before and After It Died?". It is the proven T11 formula, and
+    "It Died" closes the "still alive" packaging risk inside the title. No alternate is clearly stronger. "Doug Died Finding
+    Out" is too close to 023's kicker. "Only One Actually Killed It" leans on the one verdict that is on record. "Most of Them
+    Kill It" is honest but weaker. T11 last ran at 023, four episodes back, so it is not back-to-back.
+24. **Thumbnail A: approved as primary.** It matches the first frame of the video exactly, the text answers the title
+    without repeating it, and nothing in it is gore or kid-coded.
+25. **First 60 s: approved.** The hook fact (pups almost 4 m, oophagy, hedged) comes first. "The Nursery" is spoken at
+    0:10, inside 35 words. "Doug did not agree to this" lands, the "one rule" sets up the honest guess framing, and the
+    first death (226 -> 227, cap stays on the cage) arrives by about 1:00. Brief section 3 is met.
+26. **Description and chapters: approved.** The 11 chapters are in order, start at 0:00 and match the cards. The sources
+    are present, and the disclaimer says the verdicts are guesses except the last, which matches the script.
+27. **Carry-forward (not blocking):** this episode ships at about 16.4 min against the 10-12 min target. Retention on it
+    should be read as an outlier, and 029 must hit 1,950-2,350 words. Next episode, swap the HUD chalkboard icon for a
+    tooth icon or drop it (visual review round 4, nit 1).
+FINAL: APPROVED

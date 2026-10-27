@@ -221,3 +221,58 @@ Scope: `build/thumbnail_b.png` and `build/thumbnail_b_small.png` (168x94) only. 
 Confirmed: the pup is about 2.2x Doug's standing height, the whole animal is visible and the image is honest to the video's
 own claim. The blocking item 20.1 is cleared. B can join the test set with A (primary) and C. Final CD sign-off on the image
 otherwise stands as in item 20.
+
+## Round 4 (2026-10-27): Post-render (final.mp4, thumbnails, Shorts)
+Scope: 33 samples every 30 s (f_001-f_013 from `build/samples/`; f_014-f_033 were missing from the folder even
+though `qc.json` lists them, so I pulled them from `final.mp4` at the same 30 s spacing), `qc.json` (985.4 s, no
+problems), thumbnails A/B/C and their 168x94 versions, `metadata.json`, and `short01-03` (previews plus 12 frames per
+Short, 6 of them from the last ~12 s).
+
+### Main video: VERDICT (main): PASS
+- No black, blank, frozen or glitched frames. All 11 chapters show up in order with the right chapter cards (Nursery,
+  Mosasaur, Giant Ichthyosaur, Supernova, Rival, Orcas, Hothouse, Ice Age, Canal, Trench, Last Megalodon). The HUD is
+  steady (deaths 226 -> 234, meg survived 0/11 -> 4/11) and never collides with board text or labels.
+- Doug is on-model in every frame where he appears (red cap, white head) and readable on every background, including
+  the dark Trench (f_027-f_029). His deaths are cartoon ghost floats only. There is no gore, the test tubes (f_001,
+  f_016) are lab samples with no wound context, and the shark mouths are teeth with no blood.
+- Text is legible, spelled correctly and not cropped. Drawings are recognisable: mosasaur skull, ichthyosaur jaw,
+  Livyatan skeleton, orcas, maps, manganese nodule, teeth.
+- f_020 (cage cut by the left edge) and f_031 (shark cut by the right edge) are push-in/entrance framings and read as
+  intentional.
+- The tone is not kid-coded.
+- Non-blocking nits (optional):
+  1. Art director/director: the HUD icon next to "MEG SURVIVED" is the `chalkboard` asset at scale 0.07. At viewing
+     size it reads as an unexplained dark-green rectangle in every shot (for example f_033). Next episode, swap it for
+     a tiny megalodon-tooth icon or drop it.
+  2. Director: in the Orcas chapter at about 7:30 (f_016), the red "!" sits about 40 px to the right of "SHARK",
+     detached from the word. Tighten the gap in future layouts.
+
+### Thumbnails: PASS (A primary, B, C)
+- A "SPOILER: NO": the shark head plus caged, shocked Doug give one focal line, and the text is the strongest element
+  at 168x94. The text adds to the title rather than repeating it and is honest (megalodon is dead/loses). The brief's
+  "half-drawn red X" is absent, but this version is what the CD approved, so it is not a defect.
+- B "NEWBORN": still correct after round 3 (pup about 2.2x Doug, feet on the cage roof).
+- C (Orcas X / Nursery check / Ice Age X): the shark is in every tile, the badges read at feed size, and the labels
+  match the chapters.
+- None of them is misleading against the title or the video.
+
+### Shorts: VERDICT (shorts): PASS
+- All three are 1080x1920, 40-49 s. Titles are fully readable in the top band, burned subtitles are large and legible,
+  "@DoomedDoug" is present, and no drawing is cut at the sides (the 16:9 frame is fit to width).
+- short01 ("An 11-Year-Old Found a Sea Reptile as Big as a Blue Whale"): pays off its title (Ruby, Blue Anchor jaw,
+  "two city buses", "still growing"). The outro opens one specific question, and the end card shows a red-outlined
+  **sperm whale** silhouette (blunt head and flukes are recognisable) with "???" and "WHAT DID THE GIANT SPERM WHALE
+  DO?". The arrow points down. The answer is not given.
+- short02 ("These Orcas Eat Sharks and Wear Their Teeth to the Gums"): pays off its title (offshore orcas, teeth worn
+  flat, sandpaper skin). The tease is Doug's toothbrush visit; the end card shows a red-outlined **orca** silhouette
+  (tall dorsal fin, flukes) with "???" and "WHAT DID DOUG DO WITH THE TOOTHBRUSH?". The answer (s161-s162) is not
+  shown. Optional for the director: a small toothbrush silhouette next to the orca would tie the picture to the
+  question more directly, but the orca is the right subject because it is what answers it.
+- short03 ("The Teeth That Made Megalodon Seem Modern Were Ancient"): the hook (HMS Challenger) and the payoff
+  ("11,000"/"24,000" crossed out, "MILLIONS OF YEARS") are both there. The end card shows a red-outlined **shark**
+  silhouette with "???" and "HOW DID THE LAST MEGALODON VANISH?", the arrow points down, and the answer is not given.
+- Nit (editor, optional): in the 9:16 frames the HUD "MEG SURVIVED" line is about 8 px tall and unreadable on a
+  phone. It carries no Short-critical information.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
