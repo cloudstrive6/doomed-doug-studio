@@ -1,0 +1,131 @@
+# 028-megalodon-every-era: visual review
+
+## Round 1 (2026-10-27): pre-render keyframes + thumbnails
+
+Scope: all 26 contact sheets (s001-s309 + endslate), `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png`
+and their 168x94 `_small` versions. I zoomed into the full-res keyframes for s010, s033, s035/s036, s095, s097,
+s108 and s252.
+
+Policy: PASS. There is no gore. Every death is a cartoon ghost float or a frozen block, and the shark's mouth is never
+on Doug. Nothing reads as nursery tone. Ruby (s063-s078) is a neutral stick figure, which is fine. The HMS Challenger
+flies a white ensign, not a US flag, so it is correct. The HUD (deaths 226 -> 234, meg survived 0 -> 4/11) stays
+consistent the whole way through.
+
+### KEYFRAMES: VERDICT: FAIL
+
+Blocking fixes:
+
+1. **s010 (director): Doug appears twice.** He waves from the time machine on the sand bank AND sits in the cage
+   (second `doug` element at x1094 with scuba gear). Remove one. Keep the cage Doug, because the cage sequence
+   follows, or drop the cage from this shot.
+2. **Chapter-title cards collide with the cage (director).** The red title and the date/place sub-label are drawn
+   over the cage top and its rope in s004, s031, s060, s111, s138, s166, s218, s244 and s272. Move the cage down or
+   left by about 150 px, or move the title block to the right two-thirds, so the sub-label sits on clear water. This
+   is the chapter opener every viewer sees, so it has to be clean.
+3. **The mosasaur silhouette is unrecognisable (illustrator).** In `mosasaurus` with `silhouette: true` (s030,
+   s034, s035) the fill bulges into a blunt, sperm-whale head. Put s035 next to s036 and it does not match the
+   pointed-snout drawing. It also looks like the Livyatan silhouette in s113, so two different teases read as the
+   same animal. Fix the silhouette fill so the outline follows the visible snout and jaw. Re-check all three shots.
+4. **s054 (director): the action contradicts the narration.** "has to swim up to the surface for a breath", but the
+   mosasaur is angled nose-DOWN, with its tail at the top beside the up arrow. Flip or rotate it so the snout points
+   at the surface and the arrow leads from the snout.
+5. **Runs of near-identical "cage left + board/shark right" compositions (director).** Break each run below 4 with a
+   cutaway: Doug out of the cage, a close-up, a size comparison or a scene change.
+   - s017-s020 (4 boards in a row)
+   - s072-s075 (4 boards)
+   - s146-s150 (5 boards)
+   - s203-s208 (6 boards)
+   - s278-s288 (**11 boards in a row**, the worst run in the episode, at the payoff chapter. It needs at least 3
+     breaks, e.g. Doug at the dig site for s279-s280, a full-frame rock wall for s283, a beach/tool cutaway for
+     s287)
+   - s097-s100 and s106-s110 (the same cage-at-surface + star + shark frame 9 times across the Supernova chapter)
+   - s180-s185 (6 frames of the same cage + big shark)
+6. **s252 (director/illustrator): the stack is unreadable.** Six thin grey spikes on black do not read as Burj
+   Khalifa. Add a "BURJ KHALIFA" label, draw at least the bottom tower with a base, and keep the top tower below the
+   HUD band. Right now its tip runs into the sky strip.
+7. **s207 and s208 (director): the patches are almost invisible.** The "dense patches" spray circles are pale teal
+   on blue/cream and practically disappear. Use solid green plankton clumps, like the dots in s206, packed into 2-3
+   blobs.
+8. **s008 (director): the chalkboard covers the subject.** It hides the megalodon's head and "ONE VERDICT" sits on
+   its belly. Move the board above-left of the shark and put the text in clear water.
+9. **The bus asset (illustrator) is a yellow school bus.** It is used in s049 and s071 ("city buses") and s156
+   (labelled "A CITY BUS"). The label contradicts the picture, and a school bus is kid-coded iconography for a
+   not-for-kids channel. Draw a city transit bus (white/red or grey, flat front, route sign) and swap it in all three
+   shots.
+
+Should fix (polish, not blocking on their own):
+
+10. **s024 (director):** the "2x DOUG" comparison has no Doug beside the pup. Add a small standing Doug, or a
+    Doug-length bar, under the dashed line so the 2x reads.
+11. **s033 (director):** the "LONG BEFORE" arrow's tail pokes out of the right side of the label as a stray red
+    stroke. Start the arrow below the label.
+12. **s035, s062, s113, s245 (art director):** the `spray` glow disc behind each reveal silhouette shows as a grey
+    noise circle. In s035 it bleeds over the sand. Reduce the density or radius, or drop it.
+13. **s097-s110 (art director): Supernova gear.** The straw hat sits on top of the red cap, and the scuba
+    mask/sunglasses plus the cage top bar cover most of the white head, so Doug's on-model read (red cap, white head)
+    is lost. Drop the straw hat or seat it so the cap brim shows, and raise Doug so his face clears the top bar.
+    s108's pink/red-limbed Doug is acceptable as a radiation gag, but confirm it is intentional.
+14. **s172 (illustrator):** the plankton under the red X is a tiny unreadable circle. Use the s206 green plankton
+    dots, or a labelled "PLANKTON" foram, at 3x size.
+15. **s028, s077, s234, s237 (director): text overlaps art.**
+    - "PLENTY TO EAT" sits on the seagrass (s028).
+    - "THE SMALL ONE" sits on the ichthyosaur's fins (s077).
+    - "WHERE PUPS WERE BORN" runs into the tree canopy (s234).
+    - "PUPS GREW UP HERE" covers the sun (s237).
+
+    Nudge each label into clear space.
+16. **s148 and s149 (director):** the denticle triangles spill past the right edge of the board. Clip them to the
+    board.
+17. **s200 and s201 (director):** the Beringia map has no "SIBERIA" or "ALASKA" labels, so the land bridge is hard to
+    parse. The mammoth in s201 is a brown speck; scale it up about 2x.
+18. **s303 (director):** the cause of death (snapped rope) is a tiny kink. Make the break obvious, with a frayed end
+    and a falling arrow on the cage, so "Doug has died. Again." has a visible cause.
+19. **endslate (director):** "DOUG'S NEXT DEATH" starts about 10 px from the left edge. Move it inside title-safe
+    (x >= 96).
+20. **s230 and s231 (editor):** the contact-sheet captions render "Gatún" and "Colón" with missing glyphs. The
+    on-screen labels are fine. Confirm the burned-in subtitle font has ú and ó before the final render.
+
+Advisory: in most cage shots Doug is at scale 0.33-0.5 behind bars, so only the red cap reads at small sizes. That is
+acceptable at 1080p, but where the beat is about Doug (s005, s016, s076, s260), use a cage scale of 0.9 or bring Doug
+out of the cage.
+
+### THUMBNAIL A (`thumbnail.png`, "SPOILER: NO"): VERDICT: PASS
+
+At 168x94, "SPOILER: NO" is readable, the megalodon head is the single clear focal point and the cage reads. It
+answers the title's question honestly: megalodon fails 7 of 11 stops and is extinct. The art is menacing, with the
+mouth closed. Non-blocking suggestions for the graphic designer:
+- At feed size Doug is only a red cap speck behind the bars. Scale the cage about 1.3x, or lower the middle bar so
+  his face shows.
+- Only two fragments of the half-drawn red X show, and they read as stray red slashes. Either reveal more of one
+  stroke so the X shape is legible, or drop it.
+
+### THUMBNAIL B (`thumbnail_b.png`, "NEWBORN"): VERDICT: PASS
+
+This is the strongest read at 168x94: one big shark, a screaming Doug on the cage (fully on-model), and one bold word.
+It is not misleading, because the video opens on the 4 m newborn (s001-s024). The weakness is that it speaks to the
+hook rather than the "every era" title. That makes it a fair A/B variant, but A complements the title better.
+
+### THUMBNAIL C (`thumbnail_c.png`, 2x3 verdict grid): VERDICT: FAIL
+
+Fixes for the graphic designer:
+1. **No single focal point.** There are six equal tiles, and at 168x94 none of them dominates. Doug is a 6 px figure
+   in one tile, so "Doug + threat obvious" fails. Make one tile hero-sized, e.g. the Orcas X tile at 2x with Doug in
+   the cage, or put a large Doug/cage overlay across the grid.
+2. **The X badges are much weaker than the check badges.** A thin red X on white nearly vanishes at feed size (it
+   reads pink). Match the check style: a solid red disc with a thick white X, at the same size and stroke as the
+   green check.
+3. **Tile labels are in a different handwritten font** from the channel's bold sans with black outline (the art
+   bible thumbnail type), and they are about 7 px tall at feed size. Use the channel font, bigger, or drop the
+   labels. The pictures carry the meaning.
+4. **The brief asked for a 3x3 grid of the non-boss stops.** This is a 2x3 grid that omits the Ichthyosaur, Rival,
+   Hothouse and Canal. That is acceptable for readability, but the Supernova tile shows no megalodon, and the Ice
+   Age and Trench tiles show Doug and a tooth. Put the shark (or its silhouette) in every tile so the check/X clearly
+   refers to the megalodon.
+
+### Summary
+- Keyframes: **FAIL.** There are 9 blocking fixes (s010 double Doug; title-card/cage collisions in 9 chapter
+  openers; the mosasaur silhouette; the s054 direction; repetition runs, worst s278-s288; s252; s207/s208; s008; the
+  school bus asset) and 11 polish items.
+- Thumbnail A: **PASS** (optional tweaks).
+- Thumbnail B: **PASS.**
+- Thumbnail C: **FAIL** (no focal point, weak X badges, off-style labels).

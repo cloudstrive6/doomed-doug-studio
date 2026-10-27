@@ -1,5 +1,5 @@
 {
- "_note": "Variant A (hero close-up, the video opening image, s001; brief proposal A): megalodon.json build at 2.6x fills ~70% of the frame on flat deep blue #163f7a, inlined as a group with the jaws CLOSED (teeth and red mouth removed, flat downturned mouth line) and a hard side-eye under a heavy brow, so it reads menacing, not toothy or cute. A big red X is half-drawn behind it (one full stroke, the second stops at the middle) as the visual answer to the title question. Tiny red-capped Doug, shocked, in the shark_cage hanging in front of the snout. Text SPOILER: NO (white Arimo bold + underline; no title or alt-title word). No blood, no bite.",
+ "_note": "Variant A (hero close-up, the video opening image, s001; brief proposal A): megalodon.json build at 2.6x fills ~70% of the frame on flat deep blue #163f7a, inlined as a group with the jaws CLOSED (teeth and red mouth removed, flat downturned mouth line) and a hard side-eye under a heavy brow, so it reads menacing, not toothy or cute. Red-capped Doug (face above the cage's middle band, cage 0.95x), shocked, in the shark_cage hanging in front of the snout. Text SPOILER: NO (white Arimo bold + underline; no title or alt-title word). No blood, no bite. Round 2 (visual review notes): the half-drawn red X read as stray slashes at feed size and was dropped; SPOILER: NO carries the answer. Shark nudged 25 px left to clear the bigger cage.",
  "background": "#163f7a",
  "size": [
   1280,
@@ -7,53 +7,8 @@
  ],
  "elements": [
   {
-   "type": "line",
-   "points": [
-    [
-     60,
-     40
-    ],
-    [
-     700,
-     690
-    ]
-   ],
-   "color": "#e0201b",
-   "width": 60,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "line",
-   "points": [
-    [
-     700,
-     40
-    ],
-    [
-     420,
-     325
-    ]
-   ],
-   "color": "#e0201b",
-   "width": 60,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "circle",
-   "x": 420,
-   "y": 325,
-   "r": 30,
-   "fill": "#e0201b",
-   "width": 0,
-   "outline": false,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
    "type": "group",
-   "x": -470,
+   "x": -495,
    "y": 475,
    "scale": 2.6,
    "elements": [
@@ -3351,11 +3306,11 @@
    "type": "line",
    "points": [
     [
-     1120,
+     1110,
      -10
     ],
     [
-     1120,
+     1110,
      250
     ]
    ],
@@ -3366,9 +3321,9 @@
   },
   {
    "type": "doug",
-   "x": 1104,
-   "y": 505,
-   "scale": 0.5,
+   "x": 1094,
+   "y": 545,
+   "scale": 0.6,
    "pose": "cower",
    "expression": "shock",
    "facing": "left",
@@ -3381,9 +3336,9 @@
   {
    "type": "asset",
    "name": "shark_cage",
-   "x": 1120,
-   "y": 625,
-   "scale": 0.8,
+   "x": 1110,
+   "y": 690,
+   "scale": 0.95,
    "boil": 0,
    "wobble": 0
   },

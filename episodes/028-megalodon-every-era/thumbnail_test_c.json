@@ -1,5 +1,5 @@
 {
- "_note": "Variant C (list-format control): 6 BIG tiles (3x2) on white, PE archetype-A grammar, labels = chapter names minus The, placed ABOVE the tiles. Each tile one subject plus the MEG SURVIVED verdict badge from the script chalkboard (green tick: Nursery, Mosasaur, Supernova; red X: Orcas, Ice Age, Trench). Doug and his red cap appear in Ice Age (dragging the cage toward the sea). Boss tile omitted: it stays the payoff. One font (ComicNeue-Bold), no title words.",
+ "_note": "Variant C (list-format control), round 2 per visual_review.md: 1 hero tile + 2 tiles on white, megalodon in every tile. HERO (left, 790x692) = The Orcas: the adult megalodon, jaws open and flipped to face left, flees an orca pod toward red-capped Doug, who is shocked inside a shark_cage on a cable (bottom left). Small tiles: The Nursery (megalodon_pup, green tick) and The Ice Age (megalodon under a pack-ice edge, red X). Badges match exactly: a solid disc with a thick black outline and a thick white tick or X (green or red). Labels use the channel thumbnail type, the same as A and B (Arimo bold, white with a black outline), 1-2 words each, never a title or alt-title word. The boss stays the payoff.",
  "background": "#ffffff",
  "size": [
   1280,
@@ -7,300 +7,43 @@
  ],
  "elements": [
   {
-   "type": "text",
-   "text": "Nursery",
-   "x": 220.0,
-   "y": 48,
-   "size": 64,
-   "font": "ComicNeue-Bold",
-   "color": "#000000",
-   "boil": 0,
-   "wobble": 0
-  },
-  {
    "type": "tile",
-   "x": 20,
-   "y": 82,
-   "w": 400,
-   "h": 255,
-   "fill": "#3a9a8a",
-   "radius": 20,
-   "frame_width": 7,
-   "label": "",
-   "elements": [
-    {
-     "type": "asset",
-     "name": "megalodon_pup",
-     "x": 190,
-     "y": 232,
-     "scale": 0.62,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "circle",
-     "x": 370,
-     "y": 132,
-     "r": 40,
-     "fill": "#2fa84f",
-     "width": 6,
-     "color": "#000000",
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "line",
-     "points": [
-      [
-       350,
-       134
-      ],
-      [
-       365,
-       150
-      ],
-      [
-       392,
-       116
-      ]
-     ],
-     "color": "#ffffff",
-     "width": 11,
-     "boil": 0,
-     "wobble": 0
-    }
-   ],
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "text",
-   "text": "Mosasaur",
-   "x": 640.0,
-   "y": 48,
-   "size": 64,
-   "font": "ComicNeue-Bold",
-   "color": "#000000",
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "tile",
-   "x": 440,
-   "y": 82,
-   "w": 400,
-   "h": 255,
-   "fill": "#2f7fbf",
-   "radius": 20,
-   "frame_width": 7,
-   "label": "",
-   "elements": [
-    {
-     "type": "asset",
-     "name": "mosasaurus",
-     "x": 480,
-     "y": 232,
-     "scale": 0.62,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "circle",
-     "x": 790,
-     "y": 132,
-     "r": 40,
-     "fill": "#2fa84f",
-     "width": 6,
-     "color": "#000000",
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "line",
-     "points": [
-      [
-       770,
-       134
-      ],
-      [
-       785,
-       150
-      ],
-      [
-       812,
-       116
-      ]
-     ],
-     "color": "#ffffff",
-     "width": 11,
-     "boil": 0,
-     "wobble": 0
-    }
-   ],
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "text",
-   "text": "Supernova",
-   "x": 1060.0,
-   "y": 48,
-   "size": 64,
-   "font": "ComicNeue-Bold",
-   "color": "#000000",
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "tile",
-   "x": 860,
-   "y": 82,
-   "w": 400,
-   "h": 255,
-   "fill": "#1b2f5a",
-   "radius": 20,
-   "frame_width": 7,
-   "label": "",
-   "elements": [
-    {
-     "type": "asset",
-     "name": "supernova",
-     "x": 1050,
-     "y": 217,
-     "scale": 0.6,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "circle",
-     "x": 1210,
-     "y": 132,
-     "r": 40,
-     "fill": "#2fa84f",
-     "width": 6,
-     "color": "#000000",
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "line",
-     "points": [
-      [
-       1190,
-       134
-      ],
-      [
-       1205,
-       150
-      ],
-      [
-       1232,
-       116
-      ]
-     ],
-     "color": "#ffffff",
-     "width": 11,
-     "boil": 0,
-     "wobble": 0
-    }
-   ],
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "text",
-   "text": "Orcas",
-   "x": 220.0,
-   "y": 400,
-   "size": 64,
-   "font": "ComicNeue-Bold",
-   "color": "#000000",
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "tile",
-   "x": 20,
-   "y": 434,
-   "w": 400,
-   "h": 255,
+   "x": 14,
+   "y": 14,
+   "w": 790,
+   "h": 692,
    "fill": "#2a6aa6",
-   "radius": 20,
-   "frame_width": 7,
+   "radius": 24,
+   "frame_width": 8,
    "label": "",
    "elements": [
     {
      "type": "asset",
      "name": "orca",
-     "x": 170,
-     "y": 584,
-     "scale": 0.5,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "circle",
-     "x": 370,
-     "y": 484,
-     "r": 40,
-     "fill": "#ffffff",
-     "width": 6,
-     "color": "#000000",
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "asset",
-     "name": "red_x",
-     "x": 370,
-     "y": 484,
-     "scale": 0.19,
-     "boil": 0,
-     "wobble": 0
-    }
-   ],
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "text",
-   "text": "Ice Age",
-   "x": 640.0,
-   "y": 400,
-   "size": 64,
-   "font": "ComicNeue-Bold",
-   "color": "#000000",
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "tile",
-   "x": 440,
-   "y": 434,
-   "w": 400,
-   "h": 255,
-   "fill": "#cfe2ee",
-   "radius": 20,
-   "frame_width": 7,
-   "label": "",
-   "elements": [
-    {
-     "type": "rect",
-     "x": 430,
-     "y": 619,
-     "w": 420,
-     "h": 90,
-     "fill": "#e3cf94",
-     "width": 0,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "asset",
-     "name": "shark_cage",
-     "x": 550,
-     "y": 659,
+     "x": 560,
+     "y": 600,
      "scale": 0.36,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "orca",
+     "x": 800,
+     "y": 520,
+     "scale": 0.3,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "megalodon",
+     "x": 610,
+     "y": 330,
+     "scale": 0.72,
+     "flip": true,
      "boil": 0,
      "wobble": 0
     },
@@ -308,91 +51,126 @@
      "type": "line",
      "points": [
       [
-       605,
-       634
+       125,
+       0
       ],
       [
-       690,
-       609
+       125,
+       400
       ]
      ],
-     "color": "#000000",
+     "color": "#c9d2da",
      "width": 4,
      "boil": 0,
      "wobble": 0
     },
     {
      "type": "doug",
-     "x": 710,
-     "y": 604,
-     "scale": 0.3,
-     "pose": "walk1",
-     "expression": "sad",
+     "x": 125,
+     "y": 560,
+     "scale": 0.42,
+     "pose": "cower",
+     "expression": "shock",
      "facing": "right",
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "circle",
-     "x": 790,
-     "y": 484,
-     "r": 40,
-     "fill": "#ffffff",
-     "width": 6,
-     "color": "#000000",
+     "gear": [
+      "sweat"
+     ],
      "boil": 0,
      "wobble": 0
     },
     {
      "type": "asset",
-     "name": "red_x",
-     "x": 790,
-     "y": 484,
-     "scale": 0.19,
+     "name": "shark_cage",
+     "x": 125,
+     "y": 700,
+     "scale": 0.64,
      "boil": 0,
      "wobble": 0
     }
    ],
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "text",
-   "text": "Trench",
-   "x": 1060.0,
-   "y": 400,
-   "size": 64,
-   "font": "ComicNeue-Bold",
-   "color": "#000000",
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "tile",
-   "x": 860,
-   "y": 434,
-   "w": 400,
-   "h": 255,
-   "fill": "#0d1626",
-   "radius": 20,
-   "frame_width": 7,
+   "x": 822,
+   "y": 14,
+   "w": 444,
+   "h": 334,
+   "fill": "#3a9a8a",
+   "radius": 24,
+   "frame_width": 8,
    "label": "",
    "elements": [
     {
      "type": "asset",
-     "name": "megalodon_tooth",
-     "x": 1030,
-     "y": 564,
-     "scale": 0.55,
+     "name": "megalodon_pup",
+     "x": 1035,
+     "y": 190,
+     "scale": 0.46,
      "boil": 0,
      "wobble": 0
-    },
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 822,
+   "y": 372,
+   "w": 444,
+   "h": 334,
+   "fill": "#a9d3ea",
+   "radius": 24,
+   "frame_width": 8,
+   "label": "",
+   "elements": [
     {
-     "type": "circle",
-     "x": 1210,
-     "y": 484,
-     "r": 40,
-     "fill": "#ffffff",
+     "type": "poly",
+     "points": [
+      [
+       810,
+       360
+      ],
+      [
+       1280,
+       360
+      ],
+      [
+       1280,
+       430
+      ],
+      [
+       1220,
+       452
+      ],
+      [
+       1160,
+       428
+      ],
+      [
+       1090,
+       458
+      ],
+      [
+       1010,
+       432
+      ],
+      [
+       940,
+       455
+      ],
+      [
+       870,
+       430
+      ],
+      [
+       810,
+       448
+      ]
+     ],
+     "fill": "#f4fbff",
      "width": 6,
      "color": "#000000",
      "boil": 0,
@@ -400,14 +178,178 @@
     },
     {
      "type": "asset",
-     "name": "red_x",
-     "x": 1210,
-     "y": 484,
-     "scale": 0.19,
+     "name": "megalodon",
+     "x": 1030,
+     "y": 560,
+     "scale": 0.38,
      "boil": 0,
      "wobble": 0
     }
    ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 700,
+   "y": 110,
+   "r": 78,
+   "fill": "#e0201b",
+   "width": 7,
+   "color": "#000000",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     664.9,
+     74.9
+    ],
+    [
+     735.1,
+     145.1
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 28,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     735.1,
+     74.9
+    ],
+    [
+     664.9,
+     145.1
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 28,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 1196,
+   "y": 84,
+   "r": 52,
+   "fill": "#2fa84f",
+   "width": 7,
+   "color": "#000000",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1170.0,
+     85.04
+    ],
+    [
+     1189.24,
+     103.76
+    ],
+    [
+     1223.04,
+     63.2
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 18,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 1196,
+   "y": 442,
+   "r": 52,
+   "fill": "#e0201b",
+   "width": 7,
+   "color": "#000000",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1172.6,
+     418.6
+    ],
+    [
+     1219.4,
+     465.4
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 18,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1219.4,
+     418.6
+    ],
+    [
+     1172.6,
+     465.4
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 18,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "ORCAS",
+   "x": 300,
+   "y": 90,
+   "size": 110,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 10,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "NURSERY",
+   "x": 1010,
+   "y": 300,
+   "size": 72,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 10,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "ICE AGE",
+   "x": 1010,
+   "y": 660,
+   "size": 72,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 10,
+   "font": "Arimo",
+   "bold": true,
    "boil": 0,
    "wobble": 0
   }
