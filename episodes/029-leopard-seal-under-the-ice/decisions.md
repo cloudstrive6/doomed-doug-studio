@@ -61,3 +61,21 @@
   under the tiles (Chase, Visitor, Head, Gift, Sieve, Song). Ice Edge and Seal Eater are skipped because they contain title words, and The
   Snorkeller is never used on a thumbnail. At 168x94 the C labels are only marginally legible, but the tile subjects read. Visual screener
   recommends B as the lead challenger.
+
+## 2026-10-27, creative director: thumbnail gate (A/B/C, visual screener round 2 PASS)
+Read against the lead title "How the Leopard Seal Kills Doug From Under the Ice" and the alts. I checked all three at full size and at 168x94.
+1. **A (`thumbnail.png`, "IT FOLLOWS"): APPROVED, lead and opening image (s001).** It is the title drawn as a picture: Doug strolls
+   on the floe, unaware and smiling, while the spotted seal lies under his shadow, eye on him. The irony (he doesn't know, we do) is the click.
+   No text overlaps the title words. At feed size the shadow, the seal and the red cap all read. It is also the only variant that pays
+   off "From Under the Ice" literally, so it stays primary, following the 026-028 convention (A = s001 = primary).
+2. **B (`thumbnail_b.png`, "CORNERED"): APPROVED, test arm and my bet for the CTR winner.** It has the strongest single focal point on the
+   board: the reptile head towering over tiny, terrified Doug on a floe. It is honest: the seal comes at Doug from the water (Chase, Ice
+   Edge). It does not show the "under" idea, which is why it is a test and not the lead. If Test & compare picks B, accept it with no further gate.
+3. **C (`thumbnail_c.png`, 3x2 grid): APPROVED as a test arm, CONDITIONAL on one fix (graphic designer, `thumbnail_test_c.json`, Sieve tile):**
+   the red cap inside the open red mouth, with pink-red krill sprayed around it, reads as blood spray around a bite at feed size (screener R3).
+   We don't ship anything that reads as blood on packaging. Fix: (a) close the seal's mouth to a toothy grin with the cap brim poking out of
+   the lips, **or** draw the inside of the mouth dark grey, not red; and (b) recolour the krill orange (`#f39c3c`-ish) and keep them in
+   the cloud ahead of the snout, with no specks scattered around the jaw. Re-render `thumbnail_c.png` and `thumbnail_c_small.png`.
+   No re-screen is needed if only the Sieve tile changes, but the graphic designer must eyeball the 168x94 image to confirm the red-spray read is gone.
+   **If C is not fixed before upload, ship A primary + B as the only test variant. C never ships with the current Sieve tile.**
+4. Stage is unchanged. The thumbnails do not block packaging, because A + B are cleared now.
