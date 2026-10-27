@@ -1,0 +1,171 @@
+# Facts: 029 Why the Leopard Seal Is Antarctica's Deadliest Hunter (working)
+
+Every factual claim in script.md is listed here with its source. Checked 2026-10-27 (draft 1).
+
+How each source was checked:
+- **Read** means I downloaded the primary text and read the passage in full. These are *South* (Project Gutenberg plain text), Ainley et al. 2005, Hocking et al. 2013, Muir et al. 2006, the FAO species guide, the IAATO guidelines, and the Chambers et al. 2025 full text (Europe PMC XML).
+- **Fetched** means I read the claim on the web page with WebFetch.
+- **Search** means I confirmed the claim only from search-result text quoting the page. In these cases the page blocked fetching or I did not open it.
+
+The screener should re-open the "Search" lines first.
+
+**Not claims (fiction or framing):**
+- The scenes and props: Doug, the field guide (FRIEND? / MAYBE / NO), the skis and the sunny afternoon, the penguin costume and the seal costume, "the other penguins politely insist", the inflatable dinghy and the flooded marina, the selfie, snorkelling with the seal, the KRILL sign, "hi friend?" / "hi friends?", the diving mask, hanging upside down (Doug's own idea; the script never says the seal does it), humming along, the cap and its shadow.
+- The narrator's lines: "the ice was a floor, but to the seal, it was a window" (an image for the shadow detail), "For the rest of this video, the menu goes the other way", "These aren't lost animals, they're regulars" (framing of the NIWA figures), "We had hoped for a little more", "The smile isn't a smile, it's the seal telling you that you're too close" (a paraphrase of IAATO's "threat display"), "a vacuum cleaner" (an image for suction feeding), "Doug counted as krill", "which tells the leopard seal exactly who hasn't been tried yet", "it isn't hunting at all" (the song bouts are mating and territory calls, not hunting), "Doug listened. That was the problem." (the brief's line), the closing shadow, and the outro.
+- "Apparently, she had decided that this big, slow animal couldn't catch anything on its own" is the motive, marked "apparently" as the brief requires. National Geographic's wording is that she may have taken him for a useless predator. Nobody knows the real reason, and the script says so.
+
+**Comparisons** are marked "comparison", with the source for the everyday object and the arithmetic.
+
+---
+
+## Cold open
+| Claim (as spoken) | Source | Check |
+|---|---|---|
+| In 1916, a leopard seal chased one of Shackleton's men across the ice | Shackleton, *South* (1919), ch. on the drift (Project Gutenberg #5199, around line 4560): "One day a huge sea-leopard climbed on to the floe and attacked one of the men. Wild, hearing the shouting, ran out and shot it." The surrounding entries are dated March 21 to April 5, 1916: https://www.gutenberg.org/cache/epub/5199/pg5199.txt | Read |
+| (same, the chase) | PBS NOVA, "Shackleton's Voyage of Endurance", Surviving: Wildlife: "The 12-foot-long animal chased Orde-Lees over the ice before vanishing back into the water", resurfacing in front of him: https://www.pbs.org/wgbh/nova/shackletonexped/surviving/wildlife.html | Fetched |
+| tracking his shadow from underneath | Same PBS page: "having tracked his shadow from beneath the ice". Also Lansing, *Endurance: Shackleton's Incredible Voyage* (1959), which says the seal tracked his shadow (per the book excerpt quoted in search results: https://www.goodreads.com/notes/22130605-endurance/51222744-nathan-miller and https://theportugalnews.com/news/2022-04-21/bits-of-books-endurance-shackletons-incredible-voyage/66461). ***South* does not mention the shadow**, so item 1 attributes it: "according to the expedition's accounts". | Fetched (PBS) / Search (Lansing) |
+| (promise) By the end, Doug is under that ice, where it lives | Leopard seals live in "pack-ice surrounding the Antarctic continent" (Australian Antarctic Division): https://www.antarctica.gov.au/about-antarctica/animals/seals/leopard-seals/ | Fetched |
+
+## 1. The Chase
+| Claim | Source | Check |
+|---|---|---|
+| A leopard seal can follow you across the ice by watching your shadow from below | The Orde-Lees account (PBS NOVA, Lansing), as above. The general framing is one case, told as one case in the next lines | Fetched / Search |
+| That year, Shackleton's men were camped on drifting sea ice after the pack ice had crushed their ship, Endurance | *South*: Endurance was crushed by the pack in late 1915 and the party camped on the floe (Ocean Camp, then Patience Camp) through the 1916 drift; the leopard seal entry is in the floe-camp chapter (Gutenberg text, above) | Read |
+| Thomas Orde-Lees was skiing back to camp when an enormous seal burst out of the water and chased him across the floe, then dropped back into the sea and vanished | Lansing 1959 via the excerpt in search results: Orde-Lees, "traveling on skis across the rotting surface of the ice, had just about reached camp when an evil, knoblike head burst out of the water just in front of him"; PBS NOVA: chased him over the ice "before vanishing back into the water" (URLs above). PBS also names Orde-Lees | Fetched / Search |
+| According to the expedition's accounts, it tracked his shadow from beneath the ice and came up again right in front of him | PBS NOVA: "only to resurface in front of him, having tracked his shadow from beneath the ice" (URL above) | Fetched |
+| Frank Wild ran out with a rifle and shot it | *South*: "Wild, hearing the shouting, ran out and shot it." PBS NOVA names the rifle as possibly the weapon "Frank Wild used to finally bring the lunging creature down" | Read / Fetched |
+| That seal was about twelve feet long, roughly three and a half meters | PBS NOVA: "The 12-foot-long animal" (12 ft = 3.66 m, said as "roughly three and a half meters") | Fetched |
+| Big females can weigh more than five hundred kilograms | Australian Antarctic Division: males 2.8 m, 320 kg; females 3.0 m, 370 kg on average; "large females can exceed 3.5 m and weigh over 500 kg": https://www.antarctica.gov.au/about-antarctica/animals/seals/leopard-seals/ . NZ DOC: adult females 3.6 m, up to 500 kg: https://www.doc.govt.nz/nature/native-animals/marine-mammals/seals/leopard-seal/ | Fetched |
+| A large individual is longer than the original Mini car | Comparison. The classic Mini's "overall length was 3.05 metres", BMW Group press release "1959 – 2009: fifty years of MINI": https://www.press.bmwgroup.com/global/article/detail/T0012284EN . Large females exceed 3.5 m (AAD) | Fetched |
+| The crew ate the seal, and fried the undigested fish they discovered inside it | *South*: "When it was cut up, we found in its stomach several undigested fish. These we fried in some of its blubber, and so had our only 'fresh' fish meal during the whole of our drift on the ice." And: "On April 5 we killed two seals, and this, with the sea-leopard of a few days before, enabled us to slightly increase our ration." | Read |
+
+## 2. The Ice Edge
+Source for the item: Ainley, Ballard, Karl and Dugger 2005, "Leopard seal predation rates at penguin colonies of different size", *Antarctic Science* 17(3): 335–340, doi:10.1017/S0954102005002750. PDF: https://archive.penguinscience.com/reprints/pen_seal.pdf
+
+| Claim | Source | Check |
+|---|---|---|
+| Next to a penguin colony, the danger is concentrated in a strip of water | Ainley et al. 2005: the "'high-risk zone' for the penguins includes the waters within 10–20 m of the beach or ice foot (Penney & Lowry 1967, Müller-Schwarze & Müller-Schwarze 1975)" | Read |
+| about as long as a bowling lane / a lane, from the foul line to the first pin, is about eighteen meters long | Comparison. Britannica (Student): the head pin stands 60 feet (18 m) from the foul line: https://kids.britannica.com/students/article/bowling/273315 (18 m falls inside 10–20 m) | Search |
+| every penguin going to sea has to cross it | Ainley et al. 2005: a penguin must "swim ... through the line of seals that spread along a colony landing beach"; even a non-breeder "has to pass through a seal line only 2–4 times during the summer" | Read |
+| Leopard seals wait beside the penguin colonies; researchers watching Adelie penguins observed the seals usually lying motionless at the ice edge, or just beyond the breaking waves | Ainley et al. 2005: seals "generally positioned themselves next to the beach ice foot or just beyond the breaking waves"; the usual "penguin-hunting mode, in which they lay motionless at an ice edge or just beyond the beach" | Read |
+| The high-risk zone for a penguin is the water within ten to twenty meters of the shore | Same, "within 10–20 m of the beach or ice foot" | Read |
+| A penguin with chicks to feed is obliged to cross that strip twenty to thirty times a season | Ainley et al. 2005: "a penguin that eventually provisions chicks must make the crossing 20–30 times per season" | Read |
+| At one large colony, scientists estimated the seals could take up to five percent of the breeding adults in a summer | Ainley et al. 2005: "Penguin kill rates near to colonies can be significant, estimated at up to 5% of the breeding population (Penney & Lowry 1967)". Penney and Lowry worked at Cape Crozier (Ecology 1967; abstract via https://openpolar.no/Record/crwiley:10.2307%2F1933751: seasonal depredation "approximates 5% of the breeding population") | Read / Search |
+| The ice edge is where it waits | Ainley et al. 2005 (above). Also Muir et al. 2006: "interactions occurring at the ice edge, where leopard seals seek out prey, resulted in the highest response from leopard seals" | Read |
+| Penguins are exactly what the seal is waiting for | Hall-Aspland and Rogers 2004, as summarized by Ainley et al. 2005: "the Adélie penguin is the primary prey of leopard seals in those coastal waters of Antarctica near large penguin colonies" | Read |
+| The last time Doug was in Antarctica, he went under the ice and never saw a single penguin | Series bible, 016 log: "No penguins." (callback, not a science claim) | Internal |
+
+## 3. The Visitor
+| Claim | Source | Check |
+|---|---|---|
+| A leopard seal once moved into a city marina in New Zealand and started capsizing the dinghies | 1News, 1 Mar 2020: at Westhaven Marina she was seen "playing with a dinghy and causing it to capsize": https://www.1news.co.nz/2020/03/01/aucklands-mischief-making-celebrity-seal-owha-caught-on-camera-capsizing-dinghy . 1News, 29 Jan 2019: "Owha, the 300kg leopard seal, has been tearing chunks out of boat's at Auckland's Westhaven Marina": https://www.1news.co.nz/2019/01/29/inquisitive-300kg-leopard-seal-wreaking-havoc-for-boaties-in-auckland-marina | Fetched |
+| Her name was Owha, and she weighed around three hundred kilograms | 1News 2019, "the 300kg leopard seal" (above) | Fetched |
+| more than three average grown men put together | Comparison. CDC FastStats, body measurements: men 20 and over average 199.0 lb (90.3 kg): https://www.cdc.gov/nchs/fastats/body-measurements.htm . 3 × 90.3 = 271 kg, under 300 | Fetched |
+| She made herself comfortable in Westhaven Marina, in the middle of Auckland | 1News 2019 (above), "Auckland's Westhaven Marina"; Westhaven is beside the Auckland Harbour Bridge in central Auckland | Fetched |
+| One boat owner told reporters she had done thousands of dollars of damage to his fenders and his dinghy, which she punctured | 1News 2019, berth owner Simon Hull: "We have had thousands of dollars of damage to fenders and our dinghy, we have had our dinghy punctured" | Fetched |
+| On another evening, a man walking his dog watched her playing with a dinghy until it capsized | 1News 2020: Chris Morrison "was out walking his dog last night at Westhaven Marina" and "caught her ... playing with a dinghy and causing it to capsize" | Fetched |
+| For a long time, leopard seals in New Zealand were considered lost strays | NIWA, "Owha and her friends awarded citizenship", 27 May 2019: they "have gone from being officially classified as vagrants, to residents"; NZ "was thought to be well out of their normal range": https://www.niwa.co.nz/news/owha-and-her-friends-awarded-citizenship | Fetched |
+| Then researchers invited the public to report sightings, gathered more than three thousand records, and identified two hundred and sixteen different seals that had visited, seventy-four in a single year | Same NIWA page: "more than 3000 sighting records"; "the identification of 216 individuals who had visited New Zealand shores—74 in 2018 alone". The public reporting is Hupman and Visser's LeopardSeals.org (same page) and the hotline described in NIWA's "Can a leopard seal change its spots?": https://niwa.co.nz/news/can-leopard-seal-change-its-spots | Fetched / Search |
+| Owha herself moved between Dunedin, the Bay of Plenty, Auckland and Whangarei | NIWA 2019: "Owha, a female leopard seal, has been moving between Dunedin, the Bay of Plenty, Auckland and Whangarei" | Fetched |
+| These aren't lost animals, they're regulars | Framing of the NIWA figures. Note: DOC's current species page lists "New Zealand status: Migrant", so the script avoids "resident" | Fetched |
+| She is protected under New Zealand's Marine Mammals Protection Act | DOC: "Leopard seals are protected under the Marine Mammals Protection Act 1978": https://www.doc.govt.nz/nature/native-animals/marine-mammals/seals/leopard-seal/ | Fetched |
+
+## 4. The Head
+| Claim | Source | Check |
+|---|---|---|
+| The wide-open grin is listed by Antarctic tour operators as a warning sign | IAATO (International Association of Antarctica Tour Operators) Marine Wildlife Watching Guidelines, section 2a, signs a seal "has been disturbed" include "open mouth threat displays (e.g. such as in leopard seals on ice, or elephant seals on land)". PDF hosted by Japan's Ministry of the Environment: https://www.env.go.jp/nature/nankyoku/kankyohogo/database/visit/pdf/for_vessel_and_zodiac_en.pdf | Read |
+| which looks a lot like yawning, and the example they give is leopard seals on ice | IAATO Guidelines Part 2, Hauled-Out Seals: "Open mouth threat displays (similar to yawning)": https://www.env.go.jp/nature/nankyoku/kankyohogo/database/visit/pdf/marine_mammal-2_en.pdf ; leopard seals on ice named as the example in the full guidelines (above) | Read |
+| Up close, the head looks almost reptilian | Marine Mammals of the World (Naturalis / ETI species account): "Because of the shape of the head, they appear almost reptilian": https://marine-mammals.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/nsr_taxon.php?id=58526 | Fetched |
+| a long, wide, thick lower jaw and an enormous gape | Duke OBIS-SEAMAP species profile: "The lower jaw is massive, being long, wide, and thick"; "Leopard seals have an enormous gape": https://seamap.env.duke.edu/species/180667/html (same wording in the Naturalis account). **The 160° gape figure is cut: no source** | Fetched |
+| the canine teeth can be two and a half centimeters long and sharply pointed | Same two pages: "The canine teeth are very long (up to 2.5 cm) and sharply pointed" | Fetched |
+| That's approximately the width of an American quarter, per tooth | Comparison. US quarter diameter 0.955 in (24.26 mm): https://en.wikipedia.org/wiki/Quarter_(United_States_coin) (the US Mint specification page returned 403) | Search |
+| They are also extremely curious about boats | Muir et al. 2006: in-water behaviour was "generally described ... as displaying curiosity"; Duke Marine Lab blog (below) | Read / Fetched |
+| At Palmer Station, an American research base, leopard seals have been known to bite boat pontoons, and the station's inflatable boats are covered in an extra layer of protective rubber | Andy Read, Duke Antarctica blog, 1 Feb 2015, "A Little More Antarctic Wildlife": leopard seals "have been known to bite the pontoons of Zodiacs (ours are covered with an extra layer of protective rubber)": https://blogs.nicholas.duke.edu/antarctica/a-little-more-antarctic-wildlife | Fetched |
+| In 2015, one bit through a moored boat there and destroyed it | Andy Read, Duke Antarctica blog, 9 Feb 2015, "Almost home…": at Palmer Station "a leopard seal had bitten through the pontoon of our Zodiac while it was moored to the dock and destroyed the boat": https://blogs.nicholas.duke.edu/antarctica/almost-home | Fetched |
+
+## 5. The Gift
+| Claim | Source | Check |
+|---|---|---|
+| In Antarctica, a leopard seal once spent four days trying to feed a human | National Geographic, "How a Leopard Seal Fed Me Penguins" (11 Mar 2014): she "tried to feed the weaker Nicklen for four days": https://www.nationalgeographic.com/adventure/article/140311-paul-nicklen-leopard-seal-photographer-viral . Nicklen on NPR *Fresh Air* (6 Jun 2017): "This leopard seal stayed with me for four days straight": https://www.wkms.org/2017-06-06/polar-photographer-shares-his-view-of-a-ferocious-but-fragile-ecosystem | Fetched |
+| Paul Nicklen, diving there on assignment for National Geographic in 2006 | NatGeo 2014: "While documenting leopard seals in Antarctica for a 2006 National Geographic magazine story" | Fetched |
+| A large female came straight at him, and her head, the magazine reported, was bigger than a grizzly bear's | NatGeo 2014: "The animal had a head larger than a grizzly bear's"; "a large female leopard seal" (Nicklen on NPR: "she" throughout) | Fetched |
+| She took his camera, and his head, into her mouth. Then she let go | NatGeo 2014: "it took his camera and his head into its mouth"; it then began bringing him penguins rather than harming him | Fetched |
+| She started delivering penguins, first living ones and then dead ones | NatGeo 2014: "It began to bring him penguins, first alive, then dead." NPR: "she started to bring me dead penguins" | Fetched |
+| approximately the length of a long weekend | Comparison: four days, Friday to Monday | Comparison |
+| Nobody knows for sure why; apparently, she had decided he couldn't catch anything on its own | NatGeo 2014 offers the explanation that she may have taken him for a "useless predator" and tried to feed "the weaker Nicklen". Said as "apparently", per the brief | Fetched |
+| At one point, he had five penguins floating around his head | NPR *Fresh Air* (member station repost): "at one point I had five penguins floating around my head" | Fetched |
+| He later told public radio that she followed him back to his sailboat in the evenings, and that he fell in love with her | NPR *Fresh Air*: "She would follow me back to the sailboat at night"; "I definitely fell in love with this seal" | Fetched |
+
+## 6. The Sieve
+Primary source for the item: Hocking, Evans and Fitzgerald, "Leopard seals (*Hydrurga leptonyx*) use suction and filter feeding when hunting small prey underwater", *Polar Biology* 36: 211–222 (2013; online Oct 2012), doi:10.1007/s00300-012-1253-9. Author PDF: https://users.monash.edu.au/~arevans/pdf/Hocking_et_al2013PolarBiol.pdf
+
+| Claim | Source | Check |
+|---|---|---|
+| The leopard seal, the reptile-headed penguin hunter, can also feed like a whale | Hocking et al.: filter feeding is typical of baleen whales; press: Australian Geographic, "Leopard seals filter feed like whales" (Nov 2013): https://www.australiangeographic.com.au/news/2013/11/leopard-seals-filter-feed-like-whales | Read / Search |
+| Much of its diet isn't penguins or seals at all, but krill | Hocking et al. intro: "much of their diet is not composed of vertebrates but instead consists of krill" | Read |
+| small shrimp-like animals that live in dense swarms | British Antarctic Survey, Antarctic wildlife: krill is "a small, shrimp-like crustacean that lives in dense swarms": https://www.bas.ac.uk/about/antarctica/wildlife/seals/leopard-seal/ (this URL serves BAS's general Antarctic wildlife page; the krill line is on it) | Fetched |
+| it uses its back teeth, which each have several sharp points, and when the jaws close, those points lock together into a sieve | Hocking et al. abstract: "tricuspate postcanines function to sieve krill"; Fig. 5b, "Sieve created by tight occlusion of postcanines". FAO species guide (crabeater/leopard account): "Upper and lower teeth interlock to form a network for straining krill from the water": https://www.fao.org/4/t0725e/t0725e43.pdf | Read |
+| It works like a pasta strainer, made of teeth | Comparison (explanatory), as the brief allows | Comparison |
+| A study published in 2013 filmed leopard seals feeding at Taronga Zoo in Sydney | Hocking et al.: feeding trials with captive seals at Taronga Zoo, Sydney (Monash release: https://www.monash.edu/news/media-releases/swiss-army-knife-teeth-secret-to-seals-success) | Read / Search |
+| With small prey, they didn't bite, they sucked it in, then pushed the seawater back out sideways through the sieve | Hocking et al. abstract: "Suction was used to draw small prey into the mouth followed by expulsion of ingested seawater through the sieve formed by postcanine teeth"; results: "Lateral water expulsion followed suction" | Read |
+| each suction lasted, on average, less than a third of a second | Hocking et al. Table 2, duration of suction: male 0.287 ± 0.035 s, female 0.150 ± 0.016 s (both under 0.33 s) | Read |
+| Scientists had long suspected what those back teeth were for, but this was the first time anyone documented it happening | Hocking et al. abstract: "This is thought to be achieved with their unusual dentition ... the function of the postcanines has never been documented. Here, we present the first direct observations of filter feeding in leopard seals." | Read |
+
+## 7. The Seal Eater
+| Claim | Source | Check |
+|---|---|---|
+| On one Antarctic beach, leopard seals have eaten, on average, about seven in every ten fur seal pups born there each year | Krause, Bonin, Goebel, Reiss and Watters 2022, "The Rapid Population Collapse of a Key Marine Predator in the Northern Antarctic Peninsula Endangers Genetic Diversity and Resilience to Climate Change", *Frontiers in Marine Science* 8: 796488, abstract: "We estimated that leopard seals consumed an average of 69.3% (range: 50.3–80.9%) of all AFS pups born each year since 2010": https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.796488/full . **Peer-reviewed, not the media-only "70%"** | Fetched |
+| The beach is Cape Shirreff, on Livingston Island, where American government scientists have studied the fur seals for twenty years | Krause et al. 2022 (NOAA Antarctic Ecosystem Research Division): "All methods reported here were implemented each summer between 2001 and 2020"; abstract describes 20 years of field data | Fetched |
+| Since 2010, they estimate leopard seals have eaten an average of sixty-nine percent of the pups born there each year | Same, 69.3% | Fetched |
+| Pup numbers have fallen by eighty-six percent since 2007 | Krause et al. 2022, Results: "pup production at Cape Shirreff has decreased by 86% since 2007" | Fetched |
+| Picture ten seats in a row at the cinema, and by the end of the summer, seven of them are empty | Comparison: 69.3% ≈ 7 in 10 | Comparison |
+| on a typical peak day only about twenty were seen hunting there simultaneously | Krause et al. 2022, Discussion: "the maximum number of leopard seals observed foraging concurrently at Cape Shirreff averaged 20" (range 11–41, 2011–2020). Sperou et al. 2025 restates "a mean of only ~20 individual leopard seals" | Fetched |
+| A 2025 study of their whiskers concluded that a few large females, specializing in this prey, have likely helped drive the collapse | Sperou, Krause et al. 2025, "Individual specialization in a generalist apex predator: The leopard seal", *Ecology and Evolution* 15(6): e71593, doi:10.1002/ece3.71593 (46 whiskers from 34 seals): "Long-term specialization by a few large adult female leopard seals has likely contributed to the decline of their prey, Antarctic fur seals": https://pmc.ncbi.nlm.nih.gov/articles/PMC12184730/ | Fetched |
+| Out in the pack ice, crabeater seals live alongside them | FAO, Jefferson, Leatherwood and Webber 1993, *Marine Mammals of the World*, crabeater account (pack-ice seal): https://www.fao.org/4/t0725e/t0725e43.pdf ; AAD: leopard seals live in the pack ice (above) | Read |
+| The majority of adult crabeaters carry long scars, often in pairs, that are thought to come from leopard seal attacks they escaped when they were young | FAO 1993: "Most crabeaters have at least a few and often many long scars on the body, which are most often seen in pairs, parallel or near to each other. These scars are thought to be the result of unsuccessful leopard seal attacks on the seals as juveniles." **The "up to 78%" figure is not spoken**: it appears only in the Duke OBIS-SEAMAP crabeater profile (https://seamap.env.duke.edu/species/622023/html) and a South African Red List page, and the Siniff and Bengtson primary paper could not be reached, so the brief's fallback ("most") is used | Read |
+| Most of the crabeaters you'll ever see have already survived this animal once | Follows from the FAO line above (most adults carry the scars) | Inference |
+| once, on record, it killed a person | See item 8 | Fetched / Read |
+
+## 8. The Snorkeller (sober card)
+| Claim | Source | Check |
+|---|---|---|
+| In July 2003, a marine biologist with the British Antarctic Survey was snorkelling near Rothera Research Station when a leopard seal attacked her, and she died | Muir, Barnes and Reid 2006, "Interactions between humans and leopard seals", *Antarctic Science* 18(1): 61–74, doi:10.1017/S0954102006000058, abstract: in July 2003 a marine biologist at Rothera Research Station "was attacked and drowned by a leopard seal". PDF: https://www.vliz.be/imisdocs/publications/217038.pdf . National Geographic, 6 Aug 2003: snorkelling "near Rothera research station": https://www.nationalgeographic.com/animals/article/leopard-seal-kills-scientist-in-antarctica . **No name is spoken or shown.** (The brief's "Polar Record" citation is wrong; the paper is in *Antarctic Science*.) | Read / Fetched |
+| It is the first human death known to have been caused by a leopard seal | NatGeo 2003: "is thought to be the first human fatality caused by a leopard seal"; BAS spokesperson Linda Capper (same article): "a completely unprecedented event". Muir et al. 2006: "the only known account of its kind" | Fetched / Read |
+| snorkelling at the station was prohibited afterwards | Muir et al. 2006: "BAS temporarily suspended SCUBA diving ... and snorkelling ... Diving recommenced in January 2004, with a number of revisions to the diving procedures, although snorkelling is now prohibited" | Read |
+| Attacks like this are extraordinarily rare | Muir et al. 2006 (next two rows) | Read |
+| In more than thirty years of the Survey's diving and snorkelling records, a leopard seal made physical contact with someone four times | Muir et al. 2006: "at BAS research stations, from January 1970–July 2003, physical contact with a marine mammal during diving and snorkelling has been reported on 17 occasions of which four were with a leopard seal" (Table: 11,178 total dives and snorkels) | Read |
+| Most of the seals that approach people in the water are simply curious, and in those records, none of the curious ones went on to attack | Muir et al. 2006 abstract: in-water interactions "generally described the seal's behaviour as displaying curiosity"; "there were no records of interactions where 'curious' leopard seals showed subsequent hunting, or attack behaviour" | Read |
+| The leopard seal earns its reputation from penguins and seals, not from people | Summary line: items 2 and 7 (predation) against item 8 (rarity) | Inference |
+
+## 9. The Song
+| Claim | Source | Check |
+|---|---|---|
+| Under the Antarctic pack ice, in the breeding season, a male leopard seal can sing for up to thirteen hours a day | New Atlas, 1 Aug 2025 (on Chambers et al.): males sing "for up to 13 hours each day": https://newatlas.com/biology/leopard-seals-sing ; ScienceAlert (UNSW authors' article, 1 Aug 2025): "underwater solos for up to 13 hours": https://www.sciencealert.com/leopard-seal-mating-songs-are-eerily-like-our-nursery-rhymes . Chambers et al. 2025: males are spread "amongst the pack ice" and "call for many hours each day throughout the breeding season" | Fetched / Read |
+| This is where the leopard seal actually lives, in the broken sea ice that surrounds the continent | AAD: solitary animals living in "pack-ice surrounding the Antarctic continent" (URL above). NIWA 2019: "widely distributed throughout the Antarctic pack ice" | Fetched |
+| From November to January, the males dive under it and sing | DOSITS (University of Rhode Island): "highly vocal during the breeding season (November to January)": https://dosits.org/?p=17841 ; Chambers et al. 2025: recordings "from November to January" | Fetched / Read |
+| in bursts of about two minutes, then surface for a breath and dive again | New Atlas: "in two-minute bursts underwater before taking a quick breather on the ice above"; ScienceAlert: "underwater for about two minutes" before returning to the surface | Fetched |
+| Thirteen hours is an average full-time workday, then five more hours | Comparison. BLS American Time Use Survey 2024 (released 26 Jun 2025): "On days they worked, full-time employed people worked an average of 8.1 hours": https://www.bls.gov/news.release/archives/atus_06262025.htm . 8.1 + 5 ≈ 13 | Search |
+| In the 1990s, the biologist Tracey Rogers rode a quad bike out across the ice and marked twenty-six sleeping males with dye | ScienceAlert (by Chambers and Rogers, UNSW): Rogers "rode her quad bike across the Antarctic ice" and "marked 26 individual male seals with dye as they slept"; "collected by ... Tracey Rogers, in the 1990s". Chambers et al. 2025 Methods: recordings 1992–1994 and 1997–1998, Davis Sea | Fetched / Read |
+| Every song is built from the same five calls, and each male puts them in his own order | Chambers, Buck and Rogers 2025, "Leopard seal song patterns have similar predictability to nursery rhymes", *Scientific Reports* 15: 26099, doi:10.1038/s41598-025-11008-8 (full text, Europe PMC PMC12313973): "an alphabet of 5 distinct stereotyped calls"; abstract: "individually unique patterns". https://europepmc.org/article/PMC/PMC12313973 | Read |
+| In 2025, researchers at the University of New South Wales measured how predictable those songs are | Same paper (Chambers and Rogers, UNSW Sydney; Buck, UMass Dartmouth), information entropy of 26 males' songs | Read |
+| about as predictable as simple human songs, and more predictable than classical or modern music | Abstract: "The estimated information entropy of the leopard seal songs is comparable to nursery rhymes but ... lower than contemporary, classical and baroque music." Said as "simple human songs" per the brief; **"nursery rhymes" is never spoken** | Read |
+| a structure that helps the song reach distant listeners accurately | Abstract: "The greater structure of the leopard seal's song improves the ability of distant listeners to accurately receive signals and identify singers" | Read |
+| Rogers has suggested that, to rival males, the song could mean this patch is taken | New Atlas: Rogers, "It could be a 'this is my patch' to other males and also a 'look how strong and lovely I am' to the females." | Fetched |
+| To a rival male, that song could mean this patch is taken | Same (the Doug beat reuses it) | Fetched |
+| It's singing the same five notes, over and over | Chambers et al. 2025: five stereotyped calls in repeated sequences (calling bouts) | Read |
+
+---
+
+## Brief checks (leads in the brief that were changed or cut)
+1. **Shadow detail (item 1):** NOT in *South* (read in full around the sea-leopard entries; the word "shadow" does not appear there). Present in PBS NOVA and Lansing, so it is attributed: "according to the expedition's accounts". The meal is in *South*, so the brief's optional extra is used.
+2. **1985 ice-edge grab (item 2, optional):** cut. Swissinfo (31 Mar 2002) quotes Robert Swan on a seal attacking Gareth Wood after the Pole trek, with no year; the trek ended in January 1986, so "1985" is unreliable. https://www.swissinfo.ch/eng/banking-fintech/antarctic-voyage-sets-sail/2614966
+3. **Hupman et al. 2020 (item 3):** the journal paper could not be reached; NIWA's 2019 release has the numbers and is used. DOC lists the species as "Migrant" today, so the script says "regulars", not "residents".
+4. **Antarctica-to-Auckland distance (item 3):** no source for a seal's route distance; replaced by the 300 kg weight comparison.
+5. **Gape angle (item 4):** cut; no source gives 160° or any angle.
+6. **IAATO approach distances (item 4):** not used. The IAATO document is used for the open-mouth threat display instead (twist).
+7. **Krill share (item 6):** Hall-Aspland and Rogers 2004 is a Prydz Bay (East Antarctica) paper and its figure was not reachable; the script uses Hocking et al.'s "much of their diet". Krause et al. 2020 (BMC Ecology) gives spring krill shares of 31.7–38.0% at Cape Shirreff, but that is not spoken.
+8. **Crabeater "78%" (item 7):** not spoken; "most" from FAO, per the brief's fallback.
+9. **Cape Shirreff pup share (item 7):** the brief warned the 70% was media-only. A peer-reviewed figure exists (Krause et al. 2022, 69.3%), so it is used, said as "about seven in every ten" and "sixty-nine percent".
+10. **Rothera citation (item 8):** Muir, Barnes and Reid 2006 is in *Antarctic Science* 18(1), not *Polar Record*. The "rules were tightened" lead is confirmed: snorkelling is now prohibited and diving has new procedures.
+11. **Upside-down singing (item 9):** cut. No source found (Chambers et al. 2025 full text, New Atlas, ScienceAlert, DOSITS, Mongabay checked). The song distance has no figure in any source either, so the analogy is the 13-hour day.
+12. **Song study journal:** *Scientific Reports* (not *Nature*, as Mongabay says), published 31 Jul / 1 Aug 2025.
