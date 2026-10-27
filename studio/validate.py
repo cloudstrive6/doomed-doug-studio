@@ -84,7 +84,7 @@ def validate_shotlist(ep_dir: Path) -> list[str]:
     lo, hi = load_config()["video"]["target_minutes"]   # 10-12 since the 2026-10-27 retention update
     st = ep_dir / "status.json"
     started = json.loads(st.read_text(encoding="utf-8"))["history"][0]["at"][:10] if st.exists() else "9999"
-    if started < "2026-10-27":   # briefed under the old 15-18 min rules: don't fail an episode mid-production
+    if started < "2026-10-28":   # briefed under the old 15-18 min rules (028 was briefed with 2,950-3,350 words): don't fail an episode mid-production
         lo, hi = 12, 18
     if not lo * 0.9 <= minutes <= hi * 1.15:
         problems.append(f"script is ~{minutes:.1f} min at 195 wpm; target {lo}-{hi} min ({lo * 195:,}-{hi * 195:,} words)")

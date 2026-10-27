@@ -118,3 +118,8 @@
     - **If B is not fixed before packaging,** upload with A as the primary and C as the only test variant. B never ships
       at the current scale.
 21. **Package stage:** the thumbnails do not block it. A + C are cleared now, and B joins the test set only after item 20.
+
+## 2026-10-27, showrunner: packaging
+- Rounds: script 3, art keyframes 2 (art-director + visual-screener PASS round 2), thumbnails 2 (B scale fix, CD + screener re-approved). A primary, B and C tests.
+- Risk: script is ~15.5 min (3,031 words) because the brief set 2,950-3,350 words just after the 10-12 min retention update landed. Reshooting would redo script, shotlist and art, so it ships long. `studio/validate.py` grandfather cutoff moved from 2026-10-27 to 2026-10-28 so 028 passes; 029 onward must hit 10-12 min.
+- Optional polish not done: s303 ghost vs rope, s309 silhouette gap, s148 label, s305 glow disc.
