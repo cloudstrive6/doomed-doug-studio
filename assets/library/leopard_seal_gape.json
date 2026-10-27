@@ -1,6 +1,6 @@
 {
  "name": "leopard_seal_gape",
- "description": "The same leopard seal hauled out with head and chest raised on a planted fore flipper, doing the open-mouth threat display: jaws gaping very wide up and to the right, dark #7a0d0d mouth, pale pink tongue, a row of pale teeth with the two canines. Reads as a 'smiling seal' photo and as a warning. Anchor bottom-centre, about 760 x 390 (x -380..345, y -387..0); open mouth around (+260, -280).",
+ "description": "The same leopard seal hauled out with head and chest raised on a planted fore flipper, doing the open-mouth threat display: jaws gaping very wide up and to the right, dark #7a0d0d mouth, pale pink tongue, a row of pale teeth with the two canines. Both jaws are closed with their own black outlines and rounded snout/chin tips; the mouth interior is set back behind the tips with a concave outlined front edge. Reads as a 'smiling seal' photo and as a warning. Anchor bottom-centre, about 760 x 390 (x -380..345, y -387..0); open mouth around (+260, -280).",
  "anchor": [
   0,
   0
@@ -1528,12 +1528,32 @@
      -349.4
     ],
     [
-     307.7,
-     -367.1
+     288.5,
+     -332.4
     ],
     [
-     342.0,
-     -207.9
+     283.6,
+     -315.2
+    ],
+    [
+     281.9,
+     -297.7
+    ],
+    [
+     283.4,
+     -280.0
+    ],
+    [
+     288.1,
+     -262.0
+    ],
+    [
+     295.9,
+     -243.7
+    ],
+    [
+     306.9,
+     -225.2
     ],
     [
      321.1,
@@ -1563,34 +1583,43 @@
    "width": 0,
    "color": "#000000",
    "fill": "#7a0d0d",
-   "outline": false
+   "outline": false,
+   "smooth": false
   },
   {
    "type": "poly",
    "points": [
     [
-     193.8,
-     -232.5
+     188,
+     -244
     ],
     [
-     238.6,
-     -227.6
+     226,
+     -254
     ],
     [
-     282.4,
-     -218.3
+     264,
+     -246
     ],
     [
-     308.8,
-     -208.0
+     292,
+     -228
     ],
     [
-     279.2,
-     -202.9
+     300,
+     -212
     ],
     [
-     223.8,
-     -212.3
+     279,
+     -203
+    ],
+    [
+     223,
+     -212
+    ],
+    [
+     194,
+     -226
     ]
    ],
    "width": 2,
@@ -1626,12 +1655,16 @@
      -206.5
     ],
     [
-     342.0,
-     -207.9
+     338,
+     -211
     ],
     [
-     335.8,
-     -200.0
+     346,
+     -204
+    ],
+    [
+     336,
+     -198
     ],
     [
      311.9,
@@ -1667,6 +1700,49 @@
    "fill": "#c9ced4",
    "smooth": true,
    "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     296.5,
+     -349.4
+    ],
+    [
+     288.5,
+     -332.4
+    ],
+    [
+     283.6,
+     -315.2
+    ],
+    [
+     281.9,
+     -297.7
+    ],
+    [
+     283.4,
+     -280.0
+    ],
+    [
+     288.1,
+     -262.0
+    ],
+    [
+     295.9,
+     -243.7
+    ],
+    [
+     306.9,
+     -225.2
+    ],
+    [
+     321.1,
+     -206.5
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
   },
   {
    "type": "spray",
@@ -2025,41 +2101,6 @@
    "fill": "#f1ead8"
   },
   {
-   "type": "curve",
-   "points": [
-    [
-     342.0,
-     -207.9
-    ],
-    [
-     321.1,
-     -206.5
-    ],
-    [
-     281.2,
-     -212.7
-    ],
-    [
-     244.4,
-     -222.8
-    ],
-    [
-     215.2,
-     -236.0
-    ],
-    [
-     193.6,
-     -253.1
-    ],
-    [
-     183.2,
-     -269.1
-    ]
-   ],
-   "width": 4,
-   "color": "#000000"
-  },
-  {
    "type": "poly",
    "points": [
     [
@@ -2103,8 +2144,12 @@
      -379.5
     ],
     [
-     307.7,
-     -367.1
+     309,
+     -371
+    ],
+    [
+     310,
+     -358
     ],
     [
      296.5,
@@ -2602,41 +2647,6 @@
    "fill": "#f1ead8"
   },
   {
-   "type": "curve",
-   "points": [
-    [
-     307.7,
-     -367.1
-    ],
-    [
-     296.5,
-     -349.4
-    ],
-    [
-     268.0,
-     -320.8
-    ],
-    [
-     238.3,
-     -297.0
-    ],
-    [
-     210.4,
-     -281.0
-    ],
-    [
-     183.8,
-     -273.7
-    ],
-    [
-     164.9,
-     -274.6
-    ]
-   ],
-   "width": 4,
-   "color": "#000000"
-  },
-  {
    "type": "ellipse",
    "x": 287.6,
    "y": -376.1,
@@ -2844,8 +2854,36 @@
      -379.5
     ],
     [
-     307.7,
-     -367.1
+     309,
+     -371
+    ],
+    [
+     310,
+     -358
+    ],
+    [
+     296.5,
+     -349.4
+    ],
+    [
+     268.0,
+     -320.8
+    ],
+    [
+     238.3,
+     -297.0
+    ],
+    [
+     210.4,
+     -281.0
+    ],
+    [
+     183.8,
+     -273.7
+    ],
+    [
+     164.9,
+     -274.6
     ]
    ],
    "width": 5,
@@ -2855,12 +2893,40 @@
    "type": "curve",
    "points": [
     [
-     339.3,
-     -206.1
+     183.2,
+     -269.1
     ],
     [
-     335.8,
-     -200.0
+     193.6,
+     -253.1
+    ],
+    [
+     215.2,
+     -236.0
+    ],
+    [
+     244.4,
+     -222.8
+    ],
+    [
+     281.2,
+     -212.7
+    ],
+    [
+     321.1,
+     -206.5
+    ],
+    [
+     338,
+     -211
+    ],
+    [
+     346,
+     -204
+    ],
+    [
+     336,
+     -198
     ],
     [
      311.9,

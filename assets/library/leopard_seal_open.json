@@ -1,6 +1,6 @@
 {
  "name": "leopard_seal_open",
- "description": "The same swimming leopard seal (identical body, bbox and anchor to leopard_seal) with the jaws open in a lunge/gulp: dark #7a0d0d mouth interior, a few small pale nub teeth only. Mouth gap about x +300..+400, y -40..+40. Facing right.",
+ "description": "The same swimming leopard seal (identical body, bbox and anchor to leopard_seal) with the jaws open in a lunge/gulp: dark #7a0d0d mouth interior, a few small pale nub teeth only. Both jaws closed with black outlines and rounded tips; the mouth interior is set back behind the tips with a concave outlined front edge. Mouth gap about x +300..+400, y -40..+40. Facing right.",
  "anchor": [
   0,
   0
@@ -1952,12 +1952,32 @@
      -18.3
     ],
     [
-     409.4,
-     -27.5
+     381.1,
+     -8.3
     ],
     [
-     398.8,
-     61.1
+     374.2,
+     1.7
+    ],
+    [
+     369.4,
+     11.6
+    ],
+    [
+     366.8,
+     21.4
+    ],
+    [
+     366.2,
+     31.2
+    ],
+    [
+     367.8,
+     40.9
+    ],
+    [
+     371.4,
+     50.5
     ],
     [
      377.2,
@@ -1987,7 +2007,8 @@
    "width": 0,
    "color": "#000000",
    "fill": "#7a0d0d",
-   "outline": false
+   "outline": false,
+   "smooth": false
   },
   {
    "type": "poly",
@@ -2017,12 +2038,16 @@
      60.0
     ],
     [
-     398.8,
-     61.1
+     394,
+     57
     ],
     [
-     391.5,
-     68.3
+     403,
+     63
+    ],
+    [
+     395,
+     69.5
     ],
     [
      366.8,
@@ -2058,6 +2083,49 @@
    "fill": "#c9ced4",
    "smooth": true,
    "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     390.0,
+     -18.3
+    ],
+    [
+     381.1,
+     -8.3
+    ],
+    [
+     374.2,
+     1.7
+    ],
+    [
+     369.4,
+     11.6
+    ],
+    [
+     366.8,
+     21.4
+    ],
+    [
+     366.2,
+     31.2
+    ],
+    [
+     367.8,
+     40.9
+    ],
+    [
+     371.4,
+     50.5
+    ],
+    [
+     377.2,
+     60.0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
   },
   {
    "type": "spray",
@@ -2376,41 +2444,6 @@
    "fill": "#f1ead8"
   },
   {
-   "type": "curve",
-   "points": [
-    [
-     398.8,
-     61.1
-    ],
-    [
-     377.2,
-     60.0
-    ],
-    [
-     337.2,
-     49.4
-    ],
-    [
-     300.8,
-     35.2
-    ],
-    [
-     272.3,
-     18.7
-    ],
-    [
-     252.1,
-     -1.1
-    ],
-    [
-     243.3,
-     -18.5
-    ]
-   ],
-   "width": 4,
-   "color": "#000000"
-  },
-  {
    "type": "poly",
    "points": [
     [
@@ -2454,8 +2487,12 @@
      -43.6
     ],
     [
-     409.4,
-     -27.5
+     412,
+     -32
+    ],
+    [
+     405,
+     -21
     ],
     [
      390.0,
@@ -2913,41 +2950,6 @@
    "fill": "#f1ead8"
   },
   {
-   "type": "curve",
-   "points": [
-    [
-     409.4,
-     -27.5
-    ],
-    [
-     390.0,
-     -18.3
-    ],
-    [
-     349.6,
-     -8.7
-    ],
-    [
-     310.8,
-     -4.3
-    ],
-    [
-     277.8,
-     -5.4
-    ],
-    [
-     250.8,
-     -13.6
-    ],
-    [
-     234.8,
-     -24.7
-    ]
-   ],
-   "width": 4,
-   "color": "#000000"
-  },
-  {
    "type": "ellipse",
    "x": 396.8,
    "y": -46.2,
@@ -3155,8 +3157,36 @@
      -43.6
     ],
     [
-     409.4,
-     -27.5
+     412,
+     -32
+    ],
+    [
+     405,
+     -21
+    ],
+    [
+     390.0,
+     -18.3
+    ],
+    [
+     349.6,
+     -8.7
+    ],
+    [
+     310.8,
+     -4.3
+    ],
+    [
+     277.8,
+     -5.4
+    ],
+    [
+     250.8,
+     -13.6
+    ],
+    [
+     234.8,
+     -24.7
     ]
    ],
    "width": 5,
@@ -3166,12 +3196,40 @@
    "type": "curve",
    "points": [
     [
-     395.9,
-     62.4
+     243.3,
+     -18.5
     ],
     [
-     391.5,
-     68.3
+     252.1,
+     -1.1
+    ],
+    [
+     272.3,
+     18.7
+    ],
+    [
+     300.8,
+     35.2
+    ],
+    [
+     337.2,
+     49.4
+    ],
+    [
+     377.2,
+     60.0
+    ],
+    [
+     394,
+     57
+    ],
+    [
+     403,
+     63
+    ],
+    [
+     395,
+     69.5
     ],
     [
      366.8,

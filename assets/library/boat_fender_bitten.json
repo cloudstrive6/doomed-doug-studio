@@ -1,6 +1,6 @@
 {
  "name": "boat_fender_bitten",
- "description": "Boat fender: white cylindrical inflatable fender with blue end caps, a rope through the top eye, and two dark crescent-shaped puncture holes (no red). Vertical, centre anchor, about 120 x 330 (x -60..60, y -210..124).",
+ "description": "Boat fender: white cylindrical inflatable fender with blue end caps, a rope through the top eye, and two dark crescent-slit puncture holes side by side on a slight diagonal (bite spacing), each with a jagged pale rim and dent/wrinkle lines in the soft vinyl (no red). Vertical, centre anchor, about 120 x 330 (x -60..60, y -210..124).",
  "anchor": [
   0,
   0
@@ -245,68 +245,320 @@
    "color": "#b9c0c8"
   },
   {
-   "type": "poly",
+   "type": "curve",
    "points": [
     [
-     -26,
-     -26
+     -44,
+     -30
     ],
     [
-     -8,
-     -32
+     0,
+     -14
     ],
     [
-     10,
-     -26
-    ],
-    [
-     4,
-     -20
-    ],
-    [
-     -8,
-     -24
-    ],
-    [
-     -20,
-     -20
+     44,
+     -6
     ]
    ],
    "width": 2,
-   "color": "#000000",
-   "fill": "#1a1c1f"
+   "color": "#b9c0c8"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     16
+    ],
+    [
+     0,
+     30
+    ],
+    [
+     42,
+     36
+    ]
+   ],
+   "width": 2,
+   "color": "#b9c0c8"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -42,
+     2
+    ],
+    [
+     -30,
+     -2
+    ],
+    [
+     -22,
+     4
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa3ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -6,
+     -28
+    ],
+    [
+     4,
+     -34
+    ],
+    [
+     10,
+     -30
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa3ad"
   },
   {
    "type": "poly",
    "points": [
     [
+     4,
+     -14
+    ],
+    [
      -4,
-     26
+     -8
     ],
     [
-     14,
-     20
+     -5,
+     1
     ],
     [
-     32,
-     26
+     -16,
+     0
     ],
     [
-     26,
-     32
+     -25,
+     5
     ],
     [
-     14,
-     28
+     -31,
+     -3
     ],
     [
-     2,
-     32
+     -41,
+     -6
+    ],
+    [
+     -38,
+     -14
+    ],
+    [
+     -41,
+     -22
+    ],
+    [
+     -31,
+     -25
+    ],
+    [
+     -25,
+     -33
+    ],
+    [
+     -16,
+     -28
+    ],
+    [
+     -5,
+     -29
+    ],
+    [
+     -4,
+     -20
+    ]
+   ],
+   "width": 2,
+   "color": "#8a939d",
+   "fill": "#dfe3e7"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -24,
+     -28
+    ],
+    [
+     -14,
+     -22
+    ],
+    [
+     -10,
+     -12
+    ],
+    [
+     -14,
+     -2
+    ],
+    [
+     -24,
+     2
+    ],
+    [
+     -19,
+     -8
+    ],
+    [
+     -19,
+     -18
     ]
    ],
    "width": 2,
    "color": "#000000",
-   "fill": "#1a1c1f"
+   "fill": "#1a1c1f",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -2,
+     30
+    ],
+    [
+     10,
+     26
+    ],
+    [
+     18,
+     32
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa3ad"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     34,
+     0
+    ],
+    [
+     44,
+     -6
+    ],
+    [
+     50,
+     -2
+    ]
+   ],
+   "width": 2,
+   "color": "#9aa3ad"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     44,
+     14
+    ],
+    [
+     36,
+     20
+    ],
+    [
+     35,
+     29
+    ],
+    [
+     24,
+     28
+    ],
+    [
+     15,
+     33
+    ],
+    [
+     9,
+     25
+    ],
+    [
+     -1,
+     22
+    ],
+    [
+     2,
+     14
+    ],
+    [
+     -1,
+     6
+    ],
+    [
+     9,
+     3
+    ],
+    [
+     15,
+     -5
+    ],
+    [
+     24,
+     0
+    ],
+    [
+     35,
+     -1
+    ],
+    [
+     36,
+     8
+    ]
+   ],
+   "width": 2,
+   "color": "#8a939d",
+   "fill": "#dfe3e7"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     16,
+     0
+    ],
+    [
+     26,
+     6
+    ],
+    [
+     30,
+     16
+    ],
+    [
+     26,
+     26
+    ],
+    [
+     16,
+     30
+    ],
+    [
+     21,
+     20
+    ],
+    [
+     21,
+     10
+    ]
+   ],
+   "width": 2,
+   "color": "#000000",
+   "fill": "#1a1c1f",
+   "smooth": true
   },
   {
    "type": "poly",

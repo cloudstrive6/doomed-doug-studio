@@ -140,6 +140,7 @@ Reused from the library (no request): `antarctica_map`, `baby_grand_piano`, `bin
 - Notes: Used big (scale 1.1-1.3) as the tourist photo and the selfie partner.
 - Shots: s101, s102, s105, s119, s120, s121, s122, s124 (8 shots)
 - **DONE** (illustrator, 2026-10-27): `assets/library/leopard_seal_gape.json`, preview `assets/previews/029-leopard-seal-under-the-ice-assets-seal.png`. x -381..345, y -387..0; mouth centre about (+260,-280).
+- **FIXED round 2** (illustrator, 2026-10-27, art review fix 1): both jaws closed with their own black outlines and rounded snout/chin tips; the mouth interior is set back behind the tips with a concave black front edge (background shows through at the front); the tongue is raised so it reads; `#7a0d0d` and tooth count unchanged. Anchor and bbox unchanged (x -379..346, y -384..0); mouth centre still about (+260,-280). Preview `assets/previews/029-leopard-seal-under-the-ice-assets-fixes.png` (cell crops at default scale, so it was rendered at 0.5) plus `assets/previews/029-leopard-seal-under-the-ice-seal-mouths.png` (at 1.3 on ice/water).
 
 ## `leopard_seal_jaw_diagram`
 **Diagram.** Side-on diagram of the leopard seal's closed jaws showing the krill sieve.
@@ -149,6 +150,7 @@ Reused from the library (no request): `antarctica_map`, `baby_grand_piano`, `bin
 - Notes: The director draws arrows and a red ring on the interlock zone, so keep that area clear of other detail.
 - Shots: s155, s161, s162, s163, s164, s169, s172, s173 (8 shots)
 - **DONE** (illustrator, 2026-10-27): `assets/library/leopard_seal_jaw_diagram.json`, preview `assets/previews/029-leopard-seal-under-the-ice-assets-seal.png`. about 905 x 430 (y -248..183); sieve centred ~(+80,+40), canines ~(+310..+378, +2..+92); interlock zone kept clear.
+- **FIXED round 2** (illustrator, 2026-10-27, art review fix 2): the dashed flat cut edge is gone. The head ends in a closed, rounded back of skull/neck curve (x -452..456, about 910 wide, unchanged). The canines are now the longest teeth: about 130 tall versus 80 for the cheek teeth (1.6x), curved and sharp. The upper canine is at x +270..+324 with its tip at (+278,+100); the lower canine sits in front at x +330..+384 with its tip at (+346,-58). Both roots are tucked into pink gum bulges. The canines moved about 30 units back from +310..+378. The interlock zone at (+80,+40) is untouched, the whisker dots moved up 40 to clear the lower canine tip, and there is no wordart or red ring on the canines. Preview `assets/previews/029-leopard-seal-under-the-ice-assets-fixes.png` plus `assets/previews/029-leopard-seal-under-the-ice-jaw-diagram-s161.png`, which shows it at the s161 placement (860,520,1.1) and at 0.4.
 
 ## `krill_cloud`
 **Creature swarm.** A dense swarm of Antarctic krill.
@@ -224,6 +226,7 @@ Reused from the library (no request): `antarctica_map`, `baby_grand_piano`, `bin
 - Notes: Shown at scale 1.4-1.6 beside `us_quarter`.
 - Shots: s106, s107, s174 (3 shots)
 - **DONE** (illustrator, 2026-10-27): `assets/library/leopard_seal_canine.json`, preview `assets/previews/029-leopard-seal-under-the-ice-assets-seal.png`. x -40..54, y -152..150, tip at y -150.
+- **FIXED round 2** (illustrator, 2026-10-27, art review fix 3): redrawn as a slim, sabre-curved fang. The tip at (-54,-150) bends to the left, the crown is `#f4ecd8` with grey on the inside (concave) curve, and the root is smooth, duller tan, tapering, with no bands. There is one faint gum line at y 0. Centre anchor, x -54..40, y -150..148 (about 95 x 300). Preview `assets/previews/029-leopard-seal-under-the-ice-assets-fixes.png`.
 
 ## `boat_fender_bitten`
 **Prop.** Boat fender with bite holes.
@@ -232,6 +235,7 @@ Reused from the library (no request): `antarctica_map`, `baby_grand_piano`, `bin
 - Facing / anchor / size: Vertical, centre anchor, about 120 x 280.
 - Shots: s079, s080 (2 shots)
 - **DONE** (illustrator, 2026-10-27): `assets/library/boat_fender_bitten.json`, preview `assets/previews/029-leopard-seal-under-the-ice-assets-2.png`. x -62..62, y -212 (rope)..126.
+- **FIXED round 2** (illustrator, 2026-10-27, art review fix 4): the stacked chevrons are replaced by two dark crescent-slit punctures side by side on a diagonal, at (-20,-14) and (+20,+14). Each one has a jagged pale rim and short wrinkle lines, plus two dent lines across the vinyl. No red. Anchor and bbox unchanged. Preview `assets/previews/029-leopard-seal-under-the-ice-assets-fixes.png` (checked at 0.6 and 1.6).
 
 ## `leopard_seal_open`
 **Creature.** The same swimming leopard seal with the mouth wide open (lunge / gulp).
@@ -240,6 +244,7 @@ Reused from the library (no request): `antarctica_map`, `baby_grand_piano`, `bin
 - Facing / anchor / size: Facing right, centre anchor, same 800 x 220 bbox; mouth gap at about x +300..+400, y -40..+40.
 - Shots: s135, s178 (2 shots)
 - **DONE** (illustrator, 2026-10-27): `assets/library/leopard_seal_open.json`, preview `assets/previews/029-leopard-seal-under-the-ice-assets-seal.png`. same body/bbox; mouth gap x ~+300..+410, y -45..+45; small nub teeth only.
+- **FIXED round 2** (illustrator, 2026-10-27, art review fix 1): same jaw outline, rounded tips and set-back concave mouth edge as `_gape`; teeth unchanged. Body, anchor and bbox unchanged; gap still x +300..+410, y -45..+45. Preview `assets/previews/029-leopard-seal-under-the-ice-assets-fixes.png` plus `assets/previews/029-leopard-seal-under-the-ice-seal-mouths.png` (at 1.4 on surface water).
 
 ## `cinema_seat`
 **Prop.** One cinema seat, front view.
@@ -274,6 +279,7 @@ Reused from the library (no request): `antarctica_map`, `baby_grand_piano`, `bin
 - Notes: One shot only (s021); the next shot cuts away before anything happens (brief policy note).
 - Shots: s021 (1 shots)
 - **DONE** (illustrator, 2026-10-27): `assets/library/explorer_1916_rifle.json`, preview `assets/previews/029-leopard-seal-under-the-ice-assets-3.png`. muzzle points up-right, no flash.
+- **FIXED round 2** (illustrator, 2026-10-27, art review fix 5): the rifle is carried across the chest at about 72 degrees, with the butt at the front hip (+40,+10) and the muzzle beside the back shoulder above head height (-68,-314). Both mittens are on it (grip at the chest, fore-end by the back shoulder) and there is no flash. Anchor unchanged (hips). Extents changed from x -104..183, y -307..93 to x -104..156, y -314..93, because the muzzle no longer sticks out to the right. Preview `assets/previews/029-leopard-seal-under-the-ice-assets-fixes.png`.
 
 ## `penguin_costume_flat`
 **Prop (death beat).** The empty penguin costume floating flat on the water after death 236.

@@ -1,6 +1,6 @@
 {
  "name": "explorer_1916_rifle",
- "description": "The same 1916 expedition man running, holding a rifle diagonally across his chest in both mittens, muzzle pointing UP (not aimed, no shot, no muzzle flash). Anchor hips, facing right.",
+ "description": "The same 1916 expedition man running, carrying a rifle across his chest at about 70 degrees in both mittens (port-arms carry): butt at the front hip (+40, +10), muzzle up beside the back shoulder above head height (-68, -314). Not aimed, no shot, no muzzle flash. Anchor hips, facing right.",
  "anchor": [
   0,
   0
@@ -15,54 +15,6 @@
  ],
  "auto_ink": true,
  "elements": [
-  {
-   "type": "line",
-   "points": [
-    [
-     29.5,
-     -118.4
-    ],
-    [
-     36.0,
-     -56.7
-    ],
-    [
-     82.9,
-     -90.8
-    ]
-   ],
-   "width": 22,
-   "color": "#000000"
-  },
-  {
-   "type": "line",
-   "points": [
-    [
-     29.5,
-     -118.4
-    ],
-    [
-     36.0,
-     -56.7
-    ],
-    [
-     82.9,
-     -90.8
-    ]
-   ],
-   "width": 16,
-   "color": "#7d6e56"
-  },
-  {
-   "type": "ellipse",
-   "x": 82.9,
-   "y": -90.8,
-   "rx": 10,
-   "ry": 10,
-   "width": 3,
-   "color": "#000000",
-   "fill": "#5c5040"
-  },
   {
    "type": "line",
    "points": [
@@ -268,12 +220,12 @@
    "type": "line",
    "points": [
     [
-     104.5,
-     -111.6
+     5.2,
+     -94.4
     ],
     [
-     183.4,
-     -187.7
+     -68.0,
+     -314.0
     ]
    ],
    "width": 9,
@@ -283,12 +235,12 @@
    "type": "line",
    "points": [
     [
-     104.5,
-     -111.6
+     5.2,
+     -94.4
     ],
     [
-     183.4,
-     -187.7
+     -68.0,
+     -314.0
     ]
    ],
    "width": 5,
@@ -298,20 +250,20 @@
    "type": "poly",
    "points": [
     [
-     40.9,
-     -33.6
+     28.6,
+     13.8
     ],
     [
-     109.4,
-     -106.6
+     51.4,
+     6.2
     ],
     [
-     99.7,
-     -116.7
+     8.7,
+     -106.1
     ],
     [
-     26.3,
-     -48.7
+     -3.6,
+     -101.9
     ]
    ],
    "width": 4,
@@ -322,12 +274,27 @@
    "type": "line",
    "points": [
     [
-     111.7,
-     -118.6
+     29.2,
+     9.4
     ],
     [
-     162.1,
-     -167.2
+     48.2,
+     3.0
+    ]
+   ],
+   "width": 4,
+   "color": "#3a2a1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -1.1,
+     -113.3
+    ],
+    [
+     -39.1,
+     -227.2
     ]
    ],
    "width": 12,
@@ -337,12 +304,12 @@
    "type": "line",
    "points": [
     [
-     113.1,
-     -120.0
+     -1.4,
+     -114.3
     ],
     [
-     160.7,
-     -165.8
+     -38.7,
+     -226.2
     ]
    ],
    "width": 7,
@@ -356,12 +323,12 @@
      -118.4
     ],
     [
-     56.7,
-     -62.7
+     -14,
+     -112
     ],
     [
-     97.0,
-     -104.4
+     -23.2,
+     -179.7
     ]
    ],
    "width": 22,
@@ -375,12 +342,60 @@
      -118.4
     ],
     [
-     56.7,
-     -62.7
+     -14,
+     -112
     ],
     [
-     97.0,
-     -104.4
+     -23.2,
+     -179.7
+    ]
+   ],
+   "width": 16,
+   "color": "#7d6e56"
+  },
+  {
+   "type": "ellipse",
+   "x": -23.2,
+   "y": -179.7,
+   "rx": 10,
+   "ry": 10,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#5c5040"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     29.5,
+     -118.4
+    ],
+    [
+     66,
+     -66
+    ],
+    [
+     10.0,
+     -80.1
+    ]
+   ],
+   "width": 22,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     29.5,
+     -118.4
+    ],
+    [
+     66,
+     -66
+    ],
+    [
+     10.0,
+     -80.1
     ]
    ],
    "width": 16,
@@ -388,8 +403,8 @@
   },
   {
    "type": "ellipse",
-   "x": 97.0,
-   "y": -104.4,
+   "x": 10.0,
+   "y": -80.1,
    "rx": 10,
    "ry": 10,
    "width": 3,

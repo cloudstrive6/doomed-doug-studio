@@ -1,6 +1,6 @@
 {
  "name": "leopard_seal_canine",
- "description": "One leopard seal canine tooth, diagram style: long, curved, sharply pointed ivory #f4ecd8 crown with grey shading on one side, duller tan root half at the bottom with growth lines. No gum, no blood. Pointing up, centre anchor, about 92 x 300 (tip at y -150).",
+ "description": "One leopard seal canine tooth, diagram style: long, slim, sabre-curved, sharply pointed ivory #f4ecd8 crown bending back to the left (tip at -56,-150), grey shading on the inside (concave) curve, smooth duller tan root half with no bands and one faint gum line at y 0. No gum tissue, no blood. Centre anchor, about 95 x 300.",
  "anchor": [
   0,
   0
@@ -10,118 +10,154 @@
   "leopard seal",
   "tooth",
   "diagram",
-  "canine"
+  "canine",
+  "fang"
  ],
  "elements": [
   {
    "type": "poly",
    "points": [
     [
-     52,
+     32,
      0
     ],
-    [
-     48,
-     60
-    ],
-    [
-     34,
-     118
-    ],
-    [
-     12,
-     148
-    ],
-    [
-     -10,
-     146
-    ],
-    [
-     -28,
-     110
-    ],
-    [
-     -38,
-     50
-    ],
-    [
-     -38,
-     0
-    ]
-   ],
-   "width": 4,
-   "color": "#000000",
-   "fill": "#d9caa4",
-   "smooth": true
-  },
-  {
-   "type": "poly",
-   "points": [
     [
      30,
-     0
-    ],
-    [
-     40,
-     60
-    ],
-    [
-     26,
-     120
-    ],
-    [
-     12,
-     146
+     50
     ],
     [
      20,
      110
     ],
     [
-     30,
-     60
+     6,
+     148
+    ],
+    [
+     -8,
+     148
+    ],
+    [
+     -20,
+     110
+    ],
+    [
+     -28,
+     50
+    ],
+    [
+     -30,
+     0
     ]
    ],
-   "width": 0,
+   "width": 4,
    "color": "#000000",
-   "fill": "#bfae86",
-   "smooth": true,
-   "outline": false
+   "fill": "#cdbb92",
+   "smooth": true
   },
   {
    "type": "poly",
    "points": [
     [
-     14,
-     -150
-    ],
-    [
-     34,
-     -110
-    ],
-    [
-     48,
-     -50
-    ],
-    [
-     52,
+     -30,
      0
     ],
     [
-     -38,
-     0
-    ],
-    [
-     -34,
-     -40
+     -28,
+     50
     ],
     [
      -20,
-     -96
+     110
     ],
     [
-     2,
-     -138
+     -8,
+     148
+    ],
+    [
+     -10,
+     104
+    ],
+    [
+     -16,
+     50
+    ],
+    [
+     -18,
+     0
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#b5a37a",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     18,
+     20
+    ],
+    [
+     20,
+     70
+    ],
+    [
+     12,
+     120
+    ]
+   ],
+   "width": 3,
+   "color": "#ddd0ae"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     32,
+     0
+    ],
+    [
+     40,
+     -44
+    ],
+    [
+     34,
+     -86
+    ],
+    [
+     14,
+     -122
+    ],
+    [
+     -18,
+     -144
+    ],
+    [
+     -54,
+     -150
+    ],
+    [
+     -30,
+     -130
+    ],
+    [
+     -14,
+     -100
+    ],
+    [
+     -12,
+     -62
+    ],
+    [
+     -20,
+     -24
+    ],
+    [
+     -30,
+     0
     ]
    ],
    "width": 4,
@@ -133,142 +169,157 @@
    "type": "poly",
    "points": [
     [
-     14,
-     -146
+     -52,
+     -149
     ],
     [
-     34,
+     -30,
+     -130
+    ],
+    [
+     -14,
+     -100
+    ],
+    [
+     -12,
+     -62
+    ],
+    [
+     -20,
+     -24
+    ],
+    [
+     -30,
+     -2
+    ],
+    [
+     -12,
+     -2
+    ],
+    [
+     -2,
+     -30
+    ],
+    [
+     2,
+     -70
+    ],
+    [
+     -4,
      -108
     ],
     [
-     48,
-     -50
-    ],
-    [
-     52,
-     -2
-    ],
-    [
-     26,
-     -2
-    ],
-    [
-     26,
-     -60
-    ],
-    [
-     18,
-     -120
+     -22,
+     -134
     ]
    ],
    "width": 0,
    "color": "#000000",
-   "fill": "#cfc6b0",
+   "fill": "#c9c3b6",
    "smooth": true,
    "outline": false
   },
   {
    "type": "spray",
-   "x": -6,
-   "y": -40,
-   "r": 18,
-   "color": "#ffffff",
+   "x": -8,
+   "y": -70,
+   "r": 16,
+   "color": "#a9a397",
    "density": 0.25
   },
   {
    "type": "curve",
    "points": [
     [
-     -20,
-     -90
+     22,
+     -14
     ],
     [
-     -24,
-     -40
+     28,
+     -50
     ],
     [
-     -22,
-     -10
+     22,
+     -86
+    ],
+    [
+     6,
+     -116
     ]
    ],
    "width": 3,
    "color": "#ffffff"
   },
   {
-   "type": "curve",
+   "type": "poly",
    "points": [
     [
-     -38,
+     32,
      0
     ],
     [
-     6,
-     6
+     40,
+     -44
     ],
     [
-     52,
+     34,
+     -86
+    ],
+    [
+     14,
+     -122
+    ],
+    [
+     -18,
+     -144
+    ],
+    [
+     -54,
+     -150
+    ],
+    [
+     -30,
+     -130
+    ],
+    [
+     -14,
+     -100
+    ],
+    [
+     -12,
+     -62
+    ],
+    [
+     -20,
+     -24
+    ],
+    [
+     -30,
      0
     ]
    ],
    "width": 4,
-   "color": "#000000"
+   "color": "#000000",
+   "smooth": true
   },
   {
    "type": "curve",
    "points": [
     [
-     -26,
-     40
+     -30,
+     0
     ],
     [
-     6,
-     44
+     2,
+     5
     ],
     [
-     36,
-     40
+     32,
+     0
     ]
    ],
    "width": 2,
-   "color": "#b0a07c"
-  },
-  {
-   "type": "curve",
-   "points": [
-    [
-     -26,
-     80
-    ],
-    [
-     6,
-     84
-    ],
-    [
-     36,
-     80
-    ]
-   ],
-   "width": 2,
-   "color": "#b0a07c"
-  },
-  {
-   "type": "curve",
-   "points": [
-    [
-     -26,
-     116
-    ],
-    [
-     6,
-     120
-    ],
-    [
-     36,
-     116
-    ]
-   ],
-   "width": 2,
-   "color": "#b0a07c"
+   "color": "#9c8c68"
   }
  ]
 }
