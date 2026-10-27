@@ -29,7 +29,12 @@
       "stage": "script_approved",
       "at": "2026-10-27T04:29:46+00:00",
       "note": "CD approved"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-10-27T04:51:27+00:00",
+      "note": "309 shots, 11 chapters, narration verbatim; 24 asset requests (shark_cage first); shorts01-03 picked (titles pending); s001 waits on thumbnail.json; canal counter held at 232 (script note said 231)"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }

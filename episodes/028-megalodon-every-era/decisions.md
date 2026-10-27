@@ -33,3 +33,28 @@
    - Titler: the brief's bans stand (no "still alive", "hiding", "The Meg", "Dominate", "Prehistoric Ocean"). The title count must
      not promise ten if the video has eleven.
    - Series bible: add counter 226 to 234 and the 028 log row at the final package, as with earlier episodes.
+
+## 2026-10-27, director: shotlist
+9. **Shotlist:** 309 shots. s001 is the thumbnail (`thumbnail.json` is still pending from the graphic designer), then the 11 chapters
+   (The Nursery s004, The Mosasaur s031, The Giant Ichthyosaur s060, The Supernova s085, The Rival s111, The Orcas s138, The Hothouse
+   s166, The Ice Age s194, The Canal s218, The Trench s244, The Last Megalodon s272). Narration matches the approved script word for
+   word (3,033 spoken words). Doug is in 99% of shots. No shot runs more than about 4.5 s without a new element.
+10. **HUD:** `DOUG DEATHS` at (1590,162), plus the MEG SURVIVED device in 023's layout (`chalkboard` icon at 0.07 and a size-28 label
+    at (1600,238)). The big chalkboard (tick, shaky tick, red "?" or red X) appears on every verdict beat. Final tally 4 / 11.
+11. **Counter fix (script stage direction):** the script's Canal note says "DOUG DEATHS stays at 231". After the Ice Age death, the counter
+    is already 232, so the Canal holds at **232** (227 Nursery, 228 Mosasaur, 229 Rival, 230 Orcas, 231 Hothouse, 232 Ice Age,
+    233 Trench, 234 Last Megalodon).
+12. **Logged one-offs:**
+    - Ice Age death 232 uses the "preserved" variant: Doug mid-step (`walk1`, gritted) inside `ice_block` with the cap frozen on, and
+      the counter ticks. It is a mid-step block on the shelf, not the 007 ending (decision 8).
+    - Closing s307-s309: a capless upright Doug (`cap_off`) while `doug_cap` sits on the megalodon tooth, so only one cap is on screen.
+13. **Colour per stop (severity, not depth):** Nursery `#5cc6c9` shallows, Mosasaur chalky `#6aaabf`, Ichthyosaur `#3f8fc4`
+    dimming to `#2a6aa6` when it passes over, Supernova surface `#347eae`, Rival murky `#3f6f5f` (green, WordArt override),
+    Orcas grey `#46647a`, Hothouse olive `#5d6b45` under a glare sky `#fff3c0` (override on the water only), Ice Age dry shelf,
+    Canal jungle bank, Trench abyss `#050a1f`, and the boss on an ordinary `#3a9ad9` sea fading to `#14365e` as the shark leaves.
+    The megalodon's losses are a red X plus the shark swimming off. It is never shown dead.
+14. **Shorts:** short01 The Giant Ichthyosaur (s062-s072, tease Livyatan s134), short02 The Orcas (s139-s152, Doug's fate:
+    toothbrush s161), short03 The Trench rumour teeth (s253-s261 with a hook, tease the boss s301). Titles are left for the titler.
+15. **Assets:** 24 new drawings were requested in `asset_requests.md`. `shark_cage` is in 225 shots, so it is the illustrator's first
+    job. The keyframes were checked against temporary outline placeholders (since deleted). Re-run `keyframes` once the real
+    assets land.

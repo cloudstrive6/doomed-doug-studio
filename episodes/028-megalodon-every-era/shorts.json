@@ -1,0 +1,39 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s062",
+      "to": "s072",
+      "title": "",
+      "outro": "It swam straight over Doug's cage and ignored him. Two stops later, a sperm whale with a three-meter skull did not. Linked below.",
+      "tease_from": "s134",
+      "tease_asset": "livyatan",
+      "end_card": "WHAT DID THE GIANT SPERM WHALE DO?",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s139",
+      "to": "s152",
+      "title": "",
+      "outro": "Then Doug got into a cage next to a shark, right in front of them, holding a toothbrush. Full video below.",
+      "tease_from": "s161",
+      "tease_asset": "orca",
+      "end_card": "WHAT DID DOUG DO WITH THE TOOTHBRUSH?",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s253",
+      "to": "s261",
+      "hook": "HMS Challenger hauled up megalodon teeth from the Pacific.",
+      "hook_scene_from": "s249",
+      "title": "",
+      "outro": "So it is not down there. Doug went to see the last megalodon instead, three point six million years ago. It is linked below.",
+      "tease_from": "s301",
+      "tease_asset": "megalodon",
+      "end_card": "HOW DID THE LAST MEGALODON VANISH?",
+      "description": ""
+    }
+  ]
+}
