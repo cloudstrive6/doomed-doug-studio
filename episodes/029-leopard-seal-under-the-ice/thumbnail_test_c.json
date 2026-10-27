@@ -1,0 +1,298 @@
+{
+ "_note": "Variant C (list-format control): 4 BIG tiles, 2x2 on white, labels above the tiles (bottom-right corner text-free for the duration badge) = chapter names minus 'The', Arimo bold black, one font. Chase (yellow: hauled-out seal behind running red-capped Doug on the floe), Head (red: the open-mouth threat gape, Doug cowering at a distance), Sieve (blue: open-mouth seal straining a krill cloud, Doug's cap strained out by the teeth, per the script), Song (navy: under the pack-ice ceiling, the seal with music notes, Doug floating and listening). No title words (Ice Edge skipped because of 'Ice'), no penguin or seal harmed, no blood.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "Chase",
+   "x": 325,
+   "y": 40,
+   "size": 68,
+   "color": "#000000",
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 20,
+   "y": 80,
+   "w": 610,
+   "h": 262,
+   "fill": "#ffd23f",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "rect",
+     "x": 0,
+     "y": 280,
+     "w": 640,
+     "h": 80,
+     "fill": "#f4fbff",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "leopard_seal_hauled_out",
+     "x": 230,
+     "y": 300,
+     "scale": 0.52,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 500,
+     "y": 234,
+     "scale": 0.45,
+     "pose": "run1",
+     "expression": "shock",
+     "facing": "right",
+     "gear": [
+      "sweat"
+     ],
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Head",
+   "x": 955,
+   "y": 40,
+   "size": 68,
+   "color": "#000000",
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 650,
+   "y": 80,
+   "w": 610,
+   "h": 262,
+   "fill": "#ff5a3c",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "rect",
+     "x": 640,
+     "y": 300,
+     "w": 640,
+     "h": 60,
+     "fill": "#f4fbff",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "leopard_seal_gape",
+     "x": 860,
+     "y": 312,
+     "scale": 0.5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 1185,
+     "y": 232,
+     "scale": 0.5,
+     "pose": "cower",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Sieve",
+   "x": 325,
+   "y": 394,
+   "size": 68,
+   "color": "#000000",
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 20,
+   "y": 434,
+   "w": 610,
+   "h": 262,
+   "fill": "#1d6fb8",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "asset",
+     "name": "krill_cloud",
+     "x": 470,
+     "y": 565,
+     "scale": 0.55,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "leopard_seal_open",
+     "x": 230,
+     "y": 575,
+     "scale": 0.6,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "doug_cap",
+     "x": 575,
+     "y": 545,
+     "scale": 0.45,
+     "rotate": -20,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "Song",
+   "x": 955,
+   "y": 394,
+   "size": 68,
+   "color": "#000000",
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 650,
+   "y": 434,
+   "w": 610,
+   "h": 262,
+   "fill": "#0b2a55",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "",
+   "elements": [
+    {
+     "type": "poly",
+     "points": [
+      [
+       640,
+       420
+      ],
+      [
+       1280,
+       420
+      ],
+      [
+       1280,
+       480
+      ],
+      [
+       1200,
+       500
+      ],
+      [
+       1110,
+       478
+      ],
+      [
+       1010,
+       504
+      ],
+      [
+       920,
+       482
+      ],
+      [
+       820,
+       502
+      ],
+      [
+       730,
+       480
+      ],
+      [
+       640,
+       498
+      ]
+     ],
+     "fill": "#a9c9e0",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "leopard_seal",
+     "x": 870,
+     "y": 610,
+     "scale": 0.48,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "music_note",
+     "x": 1080,
+     "y": 560,
+     "scale": 0.55,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "music_note",
+     "x": 1150,
+     "y": 620,
+     "scale": 0.45,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 1175,
+     "y": 610,
+     "scale": 0.38,
+     "pose": "float",
+     "expression": "hopeful",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

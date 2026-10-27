@@ -1,4 +1,44 @@
-# 029-leopard-seal-under-the-ice: art review (assets, round 1)
+# 029-leopard-seal-under-the-ice: art review (assets)
+
+## Round 2: APPROVED (art director, 2026-10-27)
+
+## Verdict: PASS. All 37 assets are APPROVED and art is signed off for the assets.
+
+I re-reviewed the six round-2 redraws from `assets/previews/029-leopard-seal-under-the-ice-assets-fixes.png`,
+`-seal-mouths.png` and `-jaw-diagram-s161.png`. I also rendered the real keyframes that use them: s021, s079, s080, s105,
+s155, s161-s164, s169 and s172-s174.
+
+| Fix | Asset | Round 2 |
+|---|---|---|
+| 1 | `leopard_seal_gape` | APPROVED. Both jaws are outlined with rounded tips, and the concave mouth edge sits behind them, so the head no longer reads as sliced. In s105 at 1.3 it reads as menacing, not gory |
+| 1 | `leopard_seal_open` | APPROVED. Same fix, and it matches `_gape` and the hero design. The small nub teeth stay non-graphic for s135 |
+| 2 | `leopard_seal_jaw_diagram` | APPROVED. The back of the skull is closed and rounded, with no cut edge. The canines are clearly the longest teeth (about 1.6x the cheek teeth). The interlock zone is clear, and the s163 ring and s169 arrows still land on the sieve |
+| 3 | `leopard_seal_canine` | APPROVED. It is slim and sabre-curved with a plain tan root, so it reads as a fang at 1.4 in s174 |
+| 4 | `boat_fender_bitten` | APPROVED. Two diagonal crescent punctures with jagged rims, and no face read at 0.6 (s079) or 1.6 (s080). No red |
+| 5 | `explorer_1916_rifle` | APPROVED. Carried across the chest at about 70 degrees with the muzzle above the back shoulder, so it is not aimed. No flash (s021) |
+
+### Shotlist check against the moved canines (canines now at local x +270..+384, tips y -58 / +100)
+- **s174**: no change needed. It uses the standalone `leopard_seal_canine` (600, 540, 1.4) plus `leopard_seal`, and does not
+  use the jaw diagram, so it has no coordinates tied to the canine position. The FANGS wordart sits clear above the tooth.
+- **s162**: I fixed this myself in `shotlist.json`. The dashed leader line from the interlock (978, 544) to the zoom
+  circle ran straight through both canines, and the SHARP POINTS wordart (1500, 620) overlapped the upper canine tip and
+  the chin. Changes:
+  - The line now runs (978, 544) -> (1090, 420) -> (1380, 420), above the lower canine tip.
+  - The wordart moved to (1560, 660). Its right edge is about 1800, which is inside the safe area.
+  - `validate shotlist` passes and the re-rendered keyframe is clean.
+- s155, s161, s163, s164, s169, s172 and s173: no overlays touch the canines, so no change.
+
+### Minor, no action required
+- The diagram's upper-canine gum reads a little like a pink cap at 1.1. This is acceptable for a textbook diagram, and the
+  illustrator can soften it if there is time.
+- The director's note on s064 (`thumbs_up` inside `penguin_costume`) from round 1 still stands.
+
+## Next
+The assets are signed off. Keyframe review happens at `art_approved` after the director renders the full contact sheets.
+
+---
+
+## Round 1 (superseded by round 2 above)
 
 Art director, 2026-10-27. Reviewed the 37 new assets in `asset_requests.md` from the three preview sheets
 (`assets/previews/029-leopard-seal-under-the-ice-assets-{seal,2,3}.png`). I also rendered three test scenes: the seal family on

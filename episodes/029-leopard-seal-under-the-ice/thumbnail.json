@@ -1,0 +1,135 @@
+{
+ "_note": "Variant A (hero close-up, the video opening image, s001; brief proposal A, Archetype C hero): flat saturated yellow sky over a white floe cross-section; tiny red-capped Doug (0.55x, walk1, hopeful, unaware) strolls on top; his shadow is a dark patch on the underside of the ice, and directly beneath it the huge leopard_seal (1.9x, rotated -22, mouth closed, eye on the shadow) fills the dark-blue water, more than half the frame. Text IT FOLLOWS (Arimo bold, white, black outline) adds the shadow-tracking twist; no title or alt-title word. Nobody attacked, no blood, no 2003 reference.",
+ "background": "#0b2a55",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 255,
+   "fill": "#ffd23f",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 245,
+   "w": 1300,
+   "h": 530,
+   "fill": "#0b2a55",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "leopard_seal",
+   "x": 370,
+   "y": 690,
+   "scale": 1.9,
+   "rotate": -22,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     245
+    ],
+    [
+     1290,
+     245
+    ],
+    [
+     1290,
+     341
+    ],
+    [
+     1180,
+     355
+    ],
+    [
+     1040,
+     339
+    ],
+    [
+     900,
+     357
+    ],
+    [
+     760,
+     341
+    ],
+    [
+     600,
+     359
+    ],
+    [
+     430,
+     343
+    ],
+    [
+     260,
+     357
+    ],
+    [
+     120,
+     341
+    ],
+    [
+     -10,
+     353
+    ]
+   ],
+   "fill": "#f4fbff",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "ellipse",
+   "x": 1000,
+   "y": 335,
+   "rx": 105,
+   "ry": 17,
+   "fill": "#3c4c5e",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 1000,
+   "y": 168,
+   "scale": 0.55,
+   "pose": "walk1",
+   "expression": "hopeful",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "IT FOLLOWS",
+   "x": 400,
+   "y": 662,
+   "size": 100,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
