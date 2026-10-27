@@ -14,6 +14,13 @@ moves **long-video watch hours and subscribers** (impressions, CTR, average view
 subs per 1K views), not raw Shorts views. Each memo names the single biggest lever for the next week and the
 experiment that tests it (one variable at a time, with the metric and the date to judge it).
 
+## Running experiment: shorter, harder-hooking episodes (from 2026-10-27)
+Episodes started on/after 2026-10-27 are 10-12 min with the new opening rules (style bible "Retention update").
+Compare them with episodes 018-027 (15-17 min, old openings) once each has 7 days of data: retention at 0:30 and
+1:00, relative retention at 0:30, average view duration, % viewed, views and watch hours in week 1 (YouTube Analytics
+`audienceWatchRatio` / `relativeRetentionPerformance` by `elapsedVideoTimeRatio`, filter video==ID). Report it in
+every memo until it's decided; recommend keeping, adjusting (e.g. 12-14 min) or reverting.
+
 ## Inputs
 - `python -m studio analytics` → writes `data/analytics/<date>.json` (our channel: views, watch time, average view
   duration, % viewed, retention curves, traffic sources, countries, impressions/CTR where available, revenue once

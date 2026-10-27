@@ -21,12 +21,14 @@ Smithsonian, NatGeo, Britannica, university/aquarium sites, peer-reviewed summar
 Never copy phrasing from competitor videos or sources; write it fresh.
 
 ## Output: `episodes/<id>/script.md`
-- Plain narration, one paragraph per beat, and a `## <Item name>` heading per item (9–14 items). The heading is
+- Plain narration, one paragraph per beat, and a `## <Item name>` heading per item (8–10 items). The heading is
   the chapter title and the on-screen caption bar; the item's first spoken sentence is exactly that name
   (style bible 7 → Script Writer rule 3).
 - Stage directions for the director only in square brackets on their own line: `[Doug tries to pet it]`.
   They are not spoken.
-- 2,800–3,500 spoken words (15–18 min at ~195 wpm) unless the brief says otherwise. State the escalation axis in
+- 1,950–2,350 spoken words (10–12 min at ~195 wpm) unless the brief says otherwise. The first 30 seconds decide
+  whether anyone stays: follow the style bible's "Retention update (2026-10-27)" exactly (concrete first sentence,
+  payoff promise by 0:10, item 1 among the 3 strongest, hook fact first in every item, re-hook every ~90 s). State the escalation axis in
   an HTML comment at the top: `<!-- axis: depth -->`.
 - Write for the ear and for TTS: short sentences, numbers written the way they should be said ("two hundred
   meters", "minus two degrees Celsius"), no abbreviations, no emojis, no parentheses. Deliberate pauses: use a

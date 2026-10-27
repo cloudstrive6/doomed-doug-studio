@@ -5,6 +5,7 @@ import json
 import re
 from pathlib import Path
 
+from .config import load_config
 from .doug import EXPRESSIONS, POSES
 from .paint import LIBRARY_DIR
 
@@ -80,11 +81,16 @@ def validate_shotlist(ep_dir: Path) -> list[str]:
         if share < 0.5:
             problems.append(f"Doug appears in only {share:.0%} of shots; he should be in at least half")
     minutes = words / 195
-    if minutes < 12:
-        problems.append(f"script is ~{minutes:.1f} min at 195 wpm; target 15-18 (2,800-3,500 words)")
+    lo, hi = load_config()["video"]["target_minutes"]   # 10-12 since the 2026-10-27 retention update
+    st = ep_dir / "status.json"
+    started = json.loads(st.read_text(encoding="utf-8"))["history"][0]["at"][:10] if st.exists() else "9999"
+    if started < "2026-10-27":   # briefed under the old 15-18 min rules: don't fail an episode mid-production
+        lo, hi = 12, 18
+    if not lo * 0.9 <= minutes <= hi * 1.15:
+        problems.append(f"script is ~{minutes:.1f} min at 195 wpm; target {lo}-{hi} min ({lo * 195:,}-{hi * 195:,} words)")
     chapters = [s.get("chapter") for s in sl.get("shots", []) if s.get("chapter")]
-    if not 9 <= len(chapters) <= 14:
-        problems.append(f"{len(chapters)} chapters/items; style bible requires 9-14 (one per item, named exactly like it)")
+    if not 8 <= len(chapters) <= 12:
+        problems.append(f"{len(chapters)} chapters/items; the style bible's retention update asks for 8-10 (one per item)")
     if sl.get("shots") and sl["shots"][0].get("scene_ref") != "thumbnail":
         problems.append("s001 should open on the thumbnail grid (scene_ref: thumbnail) for 1.5-4 s (style bible Editor rule 3)")
     script = ep_dir / "script.md"

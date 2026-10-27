@@ -452,6 +452,26 @@ Each rule is written so it can be checked. "Must" means a rejection if it fails.
 9. Produce 5 candidate titles, labelled by skeleton ID, with the chosen one first.
 10. Titles must never reuse a Paint Explainer title verbatim, or with only a noun swapped.
 
+### Retention update (2026-10-27): these rules OVERRIDE the length and opening rules below
+Measured on our own episodes 18-21 and 2 (YouTube audience retention): 30-50% of viewers leave in the first 30 s
+(relative retention at 0:30 = 0.15-0.34, i.e. far below comparable videos); the cliffs are at ~0:09 and ~0:19, where
+the opening ends and item 1 begins. The best opener (ep 2: 71% still watching at 0:30) states concrete stakes in its
+first sentence and starts on a strong item; the worst (ep 21: 52%) starts on the weakest item with background
+("Off the coasts of..."). So, for every new episode:
+1. **Length: 10-12 minutes** (about 1,950-2,350 spoken words at 195 WPM), **8-10 items**. Cut the weakest items, never
+   pad. Each item 200-260 words.
+2. **First sentence (0-5 s):** a concrete, surprising claim with a number or a body/death stake that the title
+   promises (e.g. "Every parasite on this list can kill the animal it lives in."). No scene-setting, no "Doug's field
+   guide...", nothing vague.
+3. **Payoff promise by 0:10:** name the single most extreme thing Doug faces later, specifically, without resolving it
+   ("By the end of this, Doug is standing inside an orca's mouth."). This is the open loop that carries the middle.
+4. **Item 1 is one of the three strongest items**, never the mildest. If the escalation axis would start weak, start
+   the axis later (or open with the strongest item as a cold open, then go back to the axis start).
+5. **Item 1 opens on its most surprising fact** in its first two sentences; background and geography come after,
+   if at all. Same rule, softer, for every item: the hook fact first, the context second.
+6. **Re-hook every ~90 s**: each item's kicker or Doug beat leans into the next ("and the next one doesn't even need
+   teeth"), never a full stop that invites leaving.
+
 ### Script Writer (script-writer)
 1. Total narration must be 2,800-3,500 words for a 15-18 minute video at 195 WPM. Report the word count and estimated runtime.
 2. The first item name must appear within the first 35 words. No greeting, channel name, "in this video" or subscribe

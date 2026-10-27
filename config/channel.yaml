@@ -39,7 +39,7 @@ video:
   width: 1920
   height: 1080
   gap_between_shots: 0.12    # seconds of silence after each shot's line
-  target_minutes: [15, 18]
+  target_minutes: [10, 12]   # retention test from 2026-10-27 (was 15-18)
   loudness_lufs: -14          # narration normalised to YouTube's playback reference (-14 LUFS integrated)
   true_peak_db: -1.5         # true-peak ceiling after normalising
   end_slate:                 # appended to every episode: space for YouTube's end-screen video + Subscribe elements
