@@ -371,7 +371,7 @@ That would make megalodon practically modern, and it didn't hold up.
 
 Manganese crusts on the deep sea floor grow far more slowly than that. They take millions of years to form.
 
-But that's not the twist. Re-checked, the teeth that started the rumour turned out to be as old as every other megalodon tooth.
+But that's not the twist. Re-checked, the teeth that started the rumour turned out to be millions of years old, like every other megalodon tooth.
 
 [The cage is lowered into blackness. Doug holds a sign on a rope: "MEG?"]
 

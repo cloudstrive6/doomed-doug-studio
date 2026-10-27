@@ -14,3 +14,22 @@
    - Two callbacks: 021 at The Orcas and 009 at the boss.
 4. **Proposed episode-only device: the MEG SURVIVED chalkboard,** using 023's tally rules. The megalodon's losses are never shown as
    deaths. The art director decides whether to keep it.
+
+## 2026-10-27, creative director: script gate (draft 3)
+5. **Script APPROVED.** Screener round 3 PASS (facts PASS, hook 8, structure 8, voice 8, TTS/policy/length PASS, 3,031 words). Read
+   against the brief, it delivers:
+   - item 1's name at words 34-35, twist at word 141
+   - every stop ends on a hedged verdict and a stamp; the boss is the only one "in the rocks"
+   - "Megalodon is extinct. It is not down there." makes the title honest (risk HIGH, closed)
+   - exactly two callbacks (021 Orcas, 009 boss); no spent 009/008/021/023 facts
+6. **Accepted deviations from the brief** (all fact-driven, logged in the script header and facts.md):
+   - The writer option "The Rival" (Livyatan) was taken. That makes 11 items, deaths 227-234 (8) and MEG SURVIVED 4 / 11, with a "?" for The Rival.
+   - Birth size uses Shimada 2025 (about 3.6-3.9 m). The nursery doubt is now the twist.
+   - Supernova at 150 ly (KU 2017). The Ice Age twist is shelf habitat, not cold. The Hothouse verdict is labelled as our reasoning.
+7. **CD edit:** line 374 now reads "millions of years old, like every other megalodon tooth" (screener advisory, matches the NHM wording).
+   Word count unchanged in effect (+3).
+8. **Downstream notes:**
+   - Director: the Ice Age death is a mid-step cartoon ice block on the shelf, never the 007 time-machine ice-block ending.
+   - Titler: the brief's bans stand (no "still alive", "hiding", "The Meg", "Dominate", "Prehistoric Ocean"). The title count must
+     not promise ten if the video has eleven.
+   - Series bible: add counter 226 to 234 and the 028 log row at the final package, as with earlier episodes.
