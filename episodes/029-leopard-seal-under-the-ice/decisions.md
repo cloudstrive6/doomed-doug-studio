@@ -55,3 +55,9 @@
 7. Shorts: The Visitor (s072-s091), The Gift (s129-s147) and The Seal Eater (s184-s198), not item 1 and not The Snorkeller. Titles
    are left for the youtube-titler.
 - validate.py: length-rule cutoff moved to 2026-10-27T12 (028 old rule, 029 new)
+- Thumbnails round 2 (graphic designer, 2026-10-27): A and B water changed to `#3a9ad9` + `#6fc1ee` speckle (art bible). A: the seal sits fully under
+  the floe with a gap of water, Doug's shadow is larger and darker with the seal's eye lined up under it, and IT FOLLOWS is raised 30 px. B: Doug
+  shrunk 0.65x to 0.38x (small scale figure, style bible 7.10). C: the 2x2 grid is replaced by a spec-compliant 3x2 grid of 6 tiles with labels
+  under the tiles (Chase, Visitor, Head, Gift, Sieve, Song). Ice Edge and Seal Eater are skipped because they contain title words, and The
+  Snorkeller is never used on a thumbnail. At 168x94 the C labels are only marginally legible, but the tile subjects read. Visual screener
+  recommends B as the lead challenger.

@@ -1,6 +1,6 @@
 {
  "_note": "Variant B (Doug in peril, item 1 / The Head beat): flat orange-red sky, dark sea. Red-capped Doug (0.65x, panic1, shock, sweat) stranded on a tiny ice floe; the leopard seal's reptile head and spotted neck rise out of the water and stop nose to nose with him, mouth closed (leopard_seal_head_rising inlined as a group without its ripple rings so the rotated rings don't float above the waterline; flipped, rotated -22). Text CORNERED (Arimo bold). No contact, no bite, no blood; no title or alt-title word.",
- "background": "#0b2a55",
+ "background": "#3a9ad9",
  "size": [
   1280,
   720
@@ -1966,10 +1966,114 @@
    "y": 600,
    "w": 1300,
    "h": 140,
-   "fill": "#0b2a55",
+   "fill": "#3a9ad9",
    "width": 0,
    "boil": 0,
    "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 40,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
+  },
+  {
+   "type": "spray",
+   "x": 140,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
+  },
+  {
+   "type": "spray",
+   "x": 240,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
+  },
+  {
+   "type": "spray",
+   "x": 340,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
+  },
+  {
+   "type": "spray",
+   "x": 440,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
+  },
+  {
+   "type": "spray",
+   "x": 540,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
+  },
+  {
+   "type": "spray",
+   "x": 640,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
+  },
+  {
+   "type": "spray",
+   "x": 740,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
+  },
+  {
+   "type": "spray",
+   "x": 840,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
+  },
+  {
+   "type": "spray",
+   "x": 940,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
+  },
+  {
+   "type": "spray",
+   "x": 1040,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
+  },
+  {
+   "type": "spray",
+   "x": 1140,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
+  },
+  {
+   "type": "spray",
+   "x": 1240,
+   "y": 665,
+   "r": 58,
+   "color": "#6fc1ee",
+   "density": 0.03
   },
   {
    "type": "line",
@@ -2013,35 +2117,35 @@
    "type": "poly",
    "points": [
     [
-     290,
-     578
+     390,
+     588
     ],
     [
-     380,
-     566
+     440,
+     580
     ],
     [
      520,
-     574
+     584
     ],
     [
-     560,
+     545,
      604
     ],
     [
      520,
-     636
+     624
     ],
     [
-     400,
-     646
+     450,
+     630
     ],
     [
-     300,
-     632
+     395,
+     622
     ],
     [
-     262,
+     372,
      604
     ]
    ],
@@ -2052,9 +2156,9 @@
   },
   {
    "type": "doug",
-   "x": 410,
-   "y": 479,
-   "scale": 0.65,
+   "x": 460,
+   "y": 535,
+   "scale": 0.38,
    "pose": "panic1",
    "expression": "shock",
    "facing": "right",

@@ -1,11 +1,19 @@
 {
- "_note": "Variant A (hero close-up, the video opening image, s001; brief proposal A, Archetype C hero): flat saturated yellow sky over a white floe cross-section; tiny red-capped Doug (0.55x, walk1, hopeful, unaware) strolls on top; his shadow is a dark patch on the underside of the ice, and directly beneath it the huge leopard_seal (1.9x, rotated -22, mouth closed, eye on the shadow) fills the dark-blue water, more than half the frame. Text IT FOLLOWS (Arimo bold, white, black outline) adds the shadow-tracking twist; no title or alt-title word. Nobody attacked, no blood, no 2003 reference.",
- "background": "#0b2a55",
+ "_note": "Variant A (hero close-up, the video opening image, s001; brief proposal A, Archetype C hero), round 2: flat saturated yellow sky over a white floe cross-section; tiny red-capped Doug (0.5x, walk1, hopeful, unaware) strolls on top; his shadow is a large dark patch on the underside of the ice directly under his feet, and below it, with a clear gap of water, the huge leopard_seal (2.1x, rotated -22, mouth closed) lurks with its eye lined up under the shadow. Water #3a9ad9 + #6fc1ee speckle per the art bible (matches s003). Text IT FOLLOWS (Arimo bold, white, black outline), raised off the bottom edge; no title or alt-title word. Nobody attacked, no blood, no 2003 reference.",
+ "background": "#3a9ad9",
  "size": [
   1280,
   720
  ],
  "elements": [
+  {
+   "type": "spray",
+   "x": 640,
+   "y": 540,
+   "r": 760,
+   "color": "#6fc1ee",
+   "density": 0.012
+  },
   {
    "type": "rect",
    "x": -10,
@@ -18,22 +26,11 @@
    "wobble": 0
   },
   {
-   "type": "rect",
-   "x": -10,
-   "y": 245,
-   "w": 1300,
-   "h": 530,
-   "fill": "#0b2a55",
-   "width": 0,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
    "type": "asset",
    "name": "leopard_seal",
-   "x": 370,
-   "y": 690,
-   "scale": 1.9,
+   "x": 290,
+   "y": 800,
+   "scale": 2.1,
    "rotate": -22,
    "boil": 0,
    "wobble": 0
@@ -97,20 +94,20 @@
   },
   {
    "type": "ellipse",
-   "x": 1000,
-   "y": 335,
-   "rx": 105,
-   "ry": 17,
-   "fill": "#3c4c5e",
+   "x": 870,
+   "y": 328,
+   "rx": 150,
+   "ry": 24,
+   "fill": "#1f2d3d",
    "width": 0,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "doug",
-   "x": 1000,
-   "y": 168,
-   "scale": 0.55,
+   "x": 870,
+   "y": 175,
+   "scale": 0.5,
    "pose": "walk1",
    "expression": "hopeful",
    "facing": "right",
@@ -121,7 +118,7 @@
    "type": "text",
    "text": "IT FOLLOWS",
    "x": 400,
-   "y": 662,
+   "y": 632,
    "size": 100,
    "color": "#ffffff",
    "outline": "#000000",
