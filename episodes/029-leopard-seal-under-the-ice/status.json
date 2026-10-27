@@ -34,7 +34,12 @@
       "stage": "art_approved",
       "at": "2026-10-27T18:38:21+00:00",
       "note": "AD pass round 2"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-10-27T18:44:18+00:00",
+      "note": "all gates passed"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

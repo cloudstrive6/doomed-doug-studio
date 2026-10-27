@@ -79,3 +79,4 @@ Read against the lead title "How the Leopard Seal Kills Doug From Under the Ice"
    No re-screen is needed if only the Sieve tile changes, but the graphic designer must eyeball the 168x94 image to confirm the red-spray read is gone.
    **If C is not fixed before upload, ship A primary + B as the only test variant. C never ships with the current Sieve tile.**
 4. Stage is unchanged. The thumbnails do not block packaging, because A + B are cleared now.
+- 2026-10-27: scripted 3 rounds (draft1 FAIL hook/facts, draft2 FAIL word-count, draft3 PASS); assets 2 rounds; keyframes 2 rounds (AD+VS PASS); thumbs A lead/B/C approved; validate cutoff fixed in studio/validate.py. Risks: IPA pronunciations (Owha etc.) unchecked by ear; sieve head asset plain; marina water colour #2f7fbf.
