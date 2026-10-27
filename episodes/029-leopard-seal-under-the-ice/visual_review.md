@@ -78,3 +78,67 @@ R5. **s182 (illustrator, minor):** the dark-blue spray halo behind the tease sil
 - The endslate is clear and the arrow points to the next-video slot. s264 points off toward the next location.
 - Spelling: Orde-Lees, Frank Wild, Westhaven Marina, Owha, Whangarei, Dunedin, Palmer Station, Taronga Zoo, Cape Shirreff,
   Rothera, Tracey Rogers and UNSW are all correct.
+
+## Round 3: post-render (final.mp4, thumbnails, Shorts), 2026-10-27
+
+Inputs checked: `build/qc.json` (698.5 s, no problems), all 23 samples `build/samples/f_001-f_023.png`, a full-res frame grab of
+s189/s190 from final.mp4, `thumbnail.png` / `_b` / `_c` and their `_small` versions, and the three `build/shorts/*_preview.png`.
+From each Short (1080x1920, 61.8 s / 56.1 s / 53.7 s) I pulled frames at 2, 15, 30 and 45 s, plus the last 8 s at -8, -6, -4,
+-2.5 and -1 s. I also zoomed into each end card. Title: "How the Leopard Seal Kills Doug From Under the Ice".
+
+VERDICT (main): PASS
+VERDICT (shorts): FAIL
+
+### Main video + thumbnail: PASS
+
+- None of the samples has a black, blank or frozen frame or a render glitch. f_019 (The Snorkeller, `#15181a` text card) and
+  f_023 (counter 240 on the empty ice) are intended. The chapter tag and the counter are legible in every sample. The counter
+  steps 234 to 240 in order.
+- Doug is on-model everywhere: red cap, white head. That includes the seal-costume shot (f_018), the pile of Dougs in f_022, and
+  the Shackleton-era men in f_001-f_003, who are bearded explorers, not Doug.
+- The seal drawings are consistent and recognisable: reptile head, spotted grey coat (f_002, f_009, f_012, f_020, f_021). There is
+  no gore and no blood read. The 69% pie (s190) is a rust-orange data fill with no blood read. Nothing looks like a kids' show.
+- s189 at full res is fine: the blank white circle is the empty pie, and "SINCE 2010", the seal and Doug are all on screen.
+- **Thumbnail A ("IT FOLLOWS"):** this is the lead. At 168x94 there is one focal story. Doug on the yellow band and his shadow
+  on the floe read clearly, and the spotted reptile head sits right under him. The text avoids every title word and supports the
+  title's "From Under the Ice". It is not misleading, because nobody is being attacked.
+- **Thumbnail B ("CORNERED"):** strong at feed size. Doug's panic and the towering head are clear and on-brief.
+- **Thumbnail C (6 tiles):** the Sieve krill is now orange, and the red-spray read from round 2 R3 is mostly gone. The red cap
+  still sits inside the open mouth. At 168x94 it reads as "Doug in the mouth", not as blood. Acceptable for the A/B test.
+- These round-2 notes are still open and still non-blocking:
+  - R1: the Sieve head, s155-s173, is still the pale blob (visible in f_014 and f_015).
+  - R2: not visible in the samples.
+  - R4 and R5: unchanged.
+
+### Shorts: FAIL (cliffhanger wording, no re-art needed)
+
+The packaging works in all three Shorts:
+- The titles are readable: three lines of red on a dark band, never cropped.
+- The subtitles are large and legible on every background.
+- The arrow points straight down. `@DoomedDoug` is legible.
+- Nothing is cut off at the sides that matters. In short02 at 2 s (s139) the seal's tail is clipped at the right edge, but the
+  head and the diver are in frame, so this is fine.
+- No gore.
+
+The problems are the end-card questions.
+
+1. **short03 (director): the outro answers its own cliffhanger.** The outro says "Then Doug joined them in a seal costume, with
+   no scars at all", and the end card then asks "WHO HAS THE SEAL NOT TRIED YET?". The viewer has just been told the answer
+   (Doug, in a costume, unscarred), and the real open question (what the seal does to him) is never asked. Fix: in
+   `shorts.json` short03, change `end_card` to `"WILL THE SEAL FALL FOR DOUG'S COSTUME?"`. Keep `tease_from: s208` and
+   `tease_asset: leopard_seal_head_rising`, which match the new question. Re-render the Short only.
+2. **short02 (director): the question and the silhouette don't match.** The end card asks "DID DOUG CATCH THE PENGUIN?", but the
+   red-outlined silhouette is the swimming seal (`leopard_seal`). No penguin is shown, so the picture doesn't belong to the
+   question. Fix, either:
+   - (a) change `end_card` to `"WHAT DID SHE TRY TO FEED DOUG?"`. This fits the outro's "She tried." and the seal silhouette,
+     and the Short doesn't answer it; or
+   - (b) keep the question and set `tease_asset` to a penguin asset (the one used in s150, the penguin swimming toward Doug).
+
+   Option (a) is preferred, because the seal silhouette is the more recognisable shape.
+3. **short01 and short03 end cards (director, minor, do it with fix 1):** the "???" sits on top of the silhouette's neck and head.
+   In short03 it covers most of the rising head, which then reads as a black boot or periscope. If the end-card layout allows,
+   move the "???" above the silhouette, or shrink it, so the snout and whiskers stay visible.
+
+short01 is otherwise good. It pays off its title (the punctured fender, the capsized dinghy, the 216 regulars). The outro sets up
+one specific question ("WHAT DOES THAT SMILE REALLY MEAN?"), and the open-jawed `leopard_seal_gape` silhouette (teeth visible)
+matches it. It does not need changes beyond the optional item 3.

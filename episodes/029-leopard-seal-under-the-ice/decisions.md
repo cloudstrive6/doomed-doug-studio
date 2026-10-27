@@ -80,3 +80,26 @@ Read against the lead title "How the Leopard Seal Kills Doug From Under the Ice"
    **If C is not fixed before upload, ship A primary + B as the only test variant. C never ships with the current Sieve tile.**
 4. Stage is unchanged. The thumbnails do not block packaging, because A + B are cleared now.
 - 2026-10-27: scripted 3 rounds (draft1 FAIL hook/facts, draft2 FAIL word-count, draft3 PASS); assets 2 rounds; keyframes 2 rounds (AD+VS PASS); thumbs A lead/B/C approved; validate cutoff fixed in studio/validate.py. Risks: IPA pronunciations (Owha etc.) unchecked by ear; sieve head asset plain; marina water colour #2f7fbf.
+
+## 2026-10-27, creative director: final package gate
+Inputs: visual_review.md round 3 (main PASS, Shorts FAIL now fixed in shorts.json with the re-render queued, which does not hold the long video),
+build/qc.json (698.5 s, no problems), metadata.json, build/chapters.txt, thumbnails A/B/C at full size and at 168x94, samples f_001-f_004, and the script opening.
+1. **Title: keep the lead, "How the Leopard Seal Kills Doug From Under the Ice".** No alt is clearly stronger. "Deadliest Hunter... Antarctic Ice"
+   is a search phrase, but it drops Doug and the "under" twist, and A only pays off the lead. "Above and Below" is weaker and more generic.
+   The lead is honest: the seal comes at Doug from the water in every death, and the boss is under the ice.
+2. **Thumbnails: A primary (= s001), B test, C test, all three ship.** I checked C: the Sieve tile now has a dark mouth interior and orange krill
+   in the cloud ahead of the snout. At 168x94 it reads as "cap in the mouth", not as blood, so the condition from the thumbnail gate is met.
+   If Test & compare picks B or C, accept it with no further gate.
+3. **Description: one edit made by me.** "is the deadliest hunter under the Antarctic ice" became "hunts from under the Antarctic ice". The
+   superlative has no source (orcas exist), and we never approve unsourced claims. I re-ran `validate metadata`: OK. The chapters match
+   build/chapters.txt (9 items plus intro, starting at 0:00). The sources, disclaimer and AI-use block are fine.
+4. **First 60 s: pass.** The first sentence is concrete (1916, the seal bursts out and chases one of Shackleton's men). The payoff promise
+   ("Doug ends up under that ice, singing back to one") lands by about 0:10. "The Chase." comes at words 34-35, and the shadow twist
+   ("the ice was a floor... a window") arrives well inside 45 s. f_001-f_004 are clean: chapter tag and counter are legible, the explorers are
+   bearded and not Doug, there is no gore, and the rifle beat cuts away.
+5. Series bible updated: the death counter is now 240 and the 029 row is added to the episode log.
+6. Non-blocking notes for later: R1 (plain Sieve head asset) goes to the illustrator backlog; the IPA pronunciations still need a listen
+   during the owner's review window.
+
+- 2026-10-27 showrunner: workflow reported QC exit 1 but qc.json has no problems and a re-run of qc exits 0; main PASS, shorts FAIL (end cards fixed, .rerender=shorts queued). Main video approved.
+FINAL: APPROVED
