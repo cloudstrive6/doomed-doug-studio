@@ -1,141 +1,126 @@
-# 029 script review (draft 2): Script Screener, 2026-10-27
+# 029 script review (draft 3): Script Screener, 2026-10-27
 
-**VERDICT: FAIL** (one blocking item, a two-word fix: item 1's name lands at words 36-37, and the limit is 35)
+**VERDICT: PASS**
 
 | Check | Result |
 |---|---|
-| Facts | **0 FAIL items.** 24 claims re-verified on the web or in primary PDFs. 1 advisory wording note |
-| Opening / retention | **Hook 7/10.** 1 FAIL item (item 1's name at word 36). Expect 8-9 once fixed |
+| Facts | **0 FAIL items.** The new draft-3 claims were checked against the primary text, and 4 sources were re-checked on the web (13 claims). Draft 2's 24 verified claims are unchanged |
+| Opening / retention | **Hook 8/10.** 0 FAIL items. "The Chase." is at spoken words 34-35 |
 | Structure & pacing | 8/10 |
 | Voice & humour | 8/10 |
-| TTS | Pass. The pronunciations are now in `config/channel.yaml` (Owha, Whangarei, Orde-Lees, Shirreff, Rothera) |
-| Policy | Pass, 0 items (P1 from draft 1 is fixed) |
-| Length | 1,990 spoken words (recounted), about 10:12. Inside 1,950-2,350, with a 40-word margin |
+| TTS | Pass |
+| Policy | Pass, 0 items |
+| Length | 2,013 spoken words (recounted), about 10:19. Inside 1,950-2,350 |
 
-All ten draft-1 fixes were applied and checked: F1, F2, F3, P1, the shadow said once, the payoff promise, the Sieve and Head joke cuts, "came at him from the water", and the Rogers line said once.
+Draft 2 had four fixes. All four are applied and checked against the diff (`a40a670..340397a`):
+- **Fix 1:** applied, and it was the only blocking item.
+- **Fixes 2-4:** applied. These were the recommended fixes.
+- **No other spoken lines changed.**
 
 ---
 
 ## 1. Facts: pass
 
-**Re-verified for draft 2 (24 claims in 10 sources, all matching)**
-1. Krause et al. 2022, *Front. Mar. Sci.* (fetched):
-   - 69.3% of pups eaten each year since 2010 (range 50.3-80.9%)
-   - an 86% decrease since 2007
-   - the maximum number of seals foraging at once averaged 20 (range 11-41)
-   - methods ran 2001-2020, which is "20 years of field data"
-2. Sperou et al. 2025, *Ecol. Evol.* (fetched): "a few large adult female leopard seals has likely contributed to the decline". The script's "have likely helped drive" keeps the hedge. OK.
-3. Muir, Barnes & Reid 2006 (PDF text extracted):
-   - "attacked and drowned by a leopard seal"
-   - "17 occasions of which four were with a leopard seal"
-   - "snorkelling is now prohibited"
-   - "no records of interactions where curious leopard seals showed subsequent hunting, or attack behaviour"
-   
-   This closes the "four contacts" gap from the draft-1 review.
-4. Ainley et al. 2005 (PDF text extracted):
-   - "the crossing 20-30 times per season"
-   - the high-risk zone "within 10-20 m"
-   - "up to 5% of the breeding population (Penney & Lowry 1967)"
-   - seals "lay motionless at an ice edge or just beyond the beach"
-5. Nicklen on NPR *Fresh Air* (fetched):
-   - "four days straight"
-   - "five penguins floating around my head"
-   - "follow me back to the sailboat at night"
-   - "I definitely fell in love with this seal"
-6. Duke Antarctica blog, 9 Feb 2015 (fetched): the Zodiac pontoon was bitten through while moored, in the last days of sampling at Palmer, so "in two thousand fifteen" holds.
-7. New Atlas 2025 (fetched):
-   - "up to 13 hours each day"
-   - "two-minute bursts"
-   - an "alphabet of five sounds"
-   - each male has his own sequence
-   - Rogers' "this is my patch" to other males
-8. Chambers, Buck & Rogers 2025, *Sci. Rep.* (abstract via search): the entropy is comparable to nursery rhymes and lower than contemporary, classical and baroque music, and the structure "improves the ability of distant listeners to accurately receive signals".
-9. Bowling lane: 60 ft (18.29 m) from the foul line to the head pin. OK.
-10. Carried over from the draft-1 verification and unchanged in draft 2: PBS NOVA (the shadow, the 12 ft length, Orde-Lees), AAD (more than 500 kg), NIWA (3,000+ records, 216 seals, 74 in a year), and IAATO (the open-mouth threat display).
+**New in draft 3, checked against the primary text** (*South*, Project Gutenberg #5199, lines 4560-4578, downloaded and read):
+1. **"It was the only fresh fish they ate during the whole drift on the ice".** *South* says: "had our only 'fresh' fish meal during the whole of our drift on the ice." OK.
+2. **"the extra meat meant slightly bigger rations for everyone".** *South* says: "On April 5 we killed two seals, and this, with the sea-leopard of a few days before, enabled us to slightly increase our ration." OK. The seal was one of three animals behind the increase, and the line does not say it was the only one.
+3. **The attack, Wild shooting it, and the crew frying the undigested fish.** The same passage covers these, and they read the same as before. OK.
 
-**Not independently confirmed:** the Lansing "burst out of the water" excerpt (search did not surface it). The cold-open verb is still backed by *South*, which has the seal "climbed on to the floe and attacked", and by PBS, which has it chasing him and resurfacing. **Accepted.**
-
-**Advisory (not blocking):** line 258 says "American government scientists have studied the fur seals for twenty years". Krause et al. note that US AMLR monitoring at Cape Shirreff began in 1996-97, about 30 seasons ago. The 20 years is the span of *their dataset*. Consider "for more than twenty years".
+**Re-checked on the web for this pass:**
+4. **Krause et al. 2022, *Front. Mar. Sci.*** (fetched):
+   - US AMLR monitoring has run "Since 1996–1997", so "for more than twenty years" is now accurate (this was the draft-2 advisory).
+   - 69.3% of pups eaten each year since 2010.
+   - pup production down 86% since 2007.
+   - a maximum of about 20 seals foraging at once.
+5. **Owha (1News 2019 and 2020):**
+   - the boat owner's "thousands of dollars of damage to fenders and our dinghy ... punctured" quote
+   - she capsized a dinghy while playing with it
+   - she weighed about 300 kg
+   - she is protected under the Marine Mammals Protection Act (1978)
+6. **Rothera, July 2003:**
+   - National Geographic (2003) calls it the first known human death caused by a leopard seal.
+   - Muir, Barnes and Reid (2006) report that snorkelling was prohibited afterwards.
+7. **Hocking et al. 2013:** the Taronga Zoo study used suction and filter feeding through the postcanine sieve. The co-author confirms the sieve was "suspected, but never observed".
 
 ---
 
-## 2. Opening: the retention test (hook 7/10)
+## 2. Opening: the retention test (hook 8/10)
 
-First 100 words, read as a stranger:
-- Sentence 1 has a number (1916), a predator bursting out of the sea and a chase. Concrete, and it no longer gives away the twist. **Pass.**
-- The payoff promise, "By the end, Doug is under that ice, singing back to one.", is specific and unresolved, and it is paid off exactly at the boss. **Pass.** It ends at about word 32 (about 0:10 of narration). This is borderline because of the 1.5-4 s thumbnail hold, which fix 1 also helps.
-- Item 1 (the Shackleton chase) is among the 3 strongest, and its first sentence is a new hook ("lost the man ... then it found him again"). **Pass.**
-- No greeting, channel name or subscribe ask. **Pass.**
-- The twist marker falls at word 100, and the shadow fact at about 110, both under 145. The shadow is now new information when it lands, so draft 1's main problem is fixed. **Pass.**
-- **FAIL: item 1's name is at spoken words 36-37.** The count is 20 (sentence 1) + 12 (promise) + 3 ("On the ice.") = 35, then "The Chase.". The rule is within the first 35 words (screener check 2, writer rule 2, series bible "Openings"). The writer's own footer reports 36-37.
+Words 1-35, counted with a regex:
+- "In nineteen sixteen ... across the ice." is 20 words.
+- "Doug ends up under that ice, singing back to one." is 10 words.
+- "On the ice." is 3 words.
+- **"The Chase." is words 34-35. Rule 2 passes.**
 
-**Script Writer rules (section 7)**
-- **Violated: rule 2** (above).
-- Rules 1 and 3 are superseded by the retention update, and the script complies (9 items, 1,990 words).
-- Rule 4: The Snorkeller's Doug beat is waived by the brief. Not counted.
-- Rule 7: the item-to-item bridge lines (lines 104, 140, 172, 210, 246) are lean-in kickers under retention rule 6. Noted, not counted. Line 172, "Next, Doug leaves the boat behind and gets in the water.", is the barest. It follows the brief's own example, so it is accepted.
+The rest of the opening:
+- **Sentence 1:** a number (1916), a predator bursting out of the sea, and a chase. **Pass.**
+- **Payoff promise:** specific and unresolved. It ends at word 30, which is earlier than in draft 2, and the boss pays it off. **Pass.**
+- **Item 1:** among the three strongest, and it opens on a new hook ("lost the man ... then it found him again"). **Pass.**
+- **No greeting, channel name or subscribe ask.** **Pass.**
+- **Twist:** "Here's the problem." is at word 97 and the shadow fact is at about 110, both under 145. **Pass.**
+
+**Script Writer rules (section 7): no rule is violated.**
+- Rules 1 and 3 are superseded by the retention update, and the script complies (9 items, 2,013 words).
+- Rule 4: the brief waives The Snorkeller's Doug beat.
+- Rule 7: the bridge kickers are accepted as retention rule 6 lean-ins, as in draft 2.
 - Rule 9:
-  - the average sentence is 14.6 words
-  - the longest sentence is 33 words (lines 152 and 230)
+  - the average sentence is 14.7 words
+  - the longest sentence is 33 words
   - every item has a sentence of 6 words or fewer
-  - Flesch is about 72 by my rough estimate, at the top edge of 60-72 (the writer reported 71.8 for draft 1)
-- Rule 10: within limits after the cuts. See section 4 for The Visitor.
-- Rule 13: "actually" is used twice, and "However", "essentially" and "incredibly" not at all. The nine twist markers are all different, with no repeats in a row.
-- Rule 14: no lifted phrasing spotted. The PE transcripts are not in the repo, so this could not be checked fully.
-- Rules 5, 6, 8, 11 and 12 pass. The outro is 24 words.
+  - Flesch is about 71 by my estimate, inside 60-72
 
 ---
 
 ## 3. Structure & pacing (8/10)
-- The axis is declared in the header, and all four bands are spoken in order.
-- The danger curve is better. The boss is now the payoff of the opening promise, and Doug's death comes from a specific, sourced mechanism (the song as a "this is my patch" claim to rival males).
-- The "came at him from the water" line is now true inside the story.
-- Item lengths:
-  - Items: 202 / 255 / 224 / 210 / 210 / 201 / 239 / 129 / 285, all inside the bible's 200-260 band.
-  - The Snorkeller (129) and the boss (285) are inside the brief's bands.
-  - **Item 1 is 202, under the brief's 220-260** (advisory, see fix 2).
-- Running gags are all within the brief:
-  - one "did not agree", one "Again.", "Doug is fine." twice
-  - costumes twice
-  - "hi friend?" / "hi friends?"
-  - MAYBE then NO
-  - the cap at every stop
-  - one 016 callback, and no 021 callback
-- The ending is the closing-shadow kicker plus a 24-word outro. It has no recap.
+
+**The Chase is 227 words, now inside the brief's 220-260** (it was 202):
+- The new beat sits after the twist, so the twist timing is unchanged.
+- The new sentence is concrete and sourced, not padding.
+- It also sets up "the menu goes the other way" better: the men ate the seal, and from here on the seal eats.
+
+**Item lengths:**
+- The Chase 227, The Ice Edge 255, The Visitor 222, The Head 210, The Gift 210, The Sieve 201 and The Seal Eater 241. All are inside the bible's 200-260.
+- The Snorkeller (129) and The Song (285) are inside the brief's own bands.
+
+**Unchanged from draft 2:**
+- the axis and the four spoken bands
+- the escalation to the under-ice boss
+- the running gags and the counter (234 to 240)
+- the ending: the closing-shadow kicker plus a 24-word outro
 
 ## 4. Voice & humour (8/10)
-- The narrator is deadpan and consistent. The new item 1 opener and "the ice was a floor ... a window" both work.
-- The Sieve and The Head are now within the joke limit.
-- **Noted, not counted:** The Visitor has three dry lines in about 15 s: "permanently part of the marina floor", "We had hoped for a little more" and "Doug is not". The first two are the brief's mandated Doug beat and the narrator's disappointment gag. If the writer touches this item, flatten "Doug is not, so he's returning..." into a plain bridge.
+
+**The Visitor:**
+- The "Doug's name is not" stage-direction gag is gone.
+- The bridge is now a plain line: "Next, Doug goes back to Antarctica for a closer look at that head."
+- The item now has two dry lines ("permanently part of the marina floor" and "We had hoped for a little more"). Both are mandated beats, and two is within rule 10.
+
+**The Chase:**
+- The added sentence is flat and documentary, which suits the narrator.
+- It still has one joke line ("an excellent shadow").
 
 ## 5. TTS readiness: pass
-- Numbers are written as words.
-- There are no symbols, abbreviations or parentheses in the spoken text.
-- "1/3", "300 KG" and similar appear only in stage directions.
-- The pronunciation entries are present in `voice.pronunciations`.
+
+The new and changed lines have no numerals, symbols or abbreviations. The pronunciations are unchanged.
 
 ## 6. Policy: pass
-- **Advertiser-friendly:**
-  - no gore
-  - the shooting is one flat clause
-  - penguin and seal kills stay off-screen
-  - no profanity
-  - P1 is fixed: line 280 is now "It hunts seals and penguins, and once, on record, it killed a person."
-- **Made-for-kids:** the tone is adult-coded, "nursery rhymes" is never spoken, and the costumes are played straight.
-- **Inauthentic or repetitive content:** the episode has an original narrative with a distinct position-axis story.
-- **Advice and title honesty:** there is no safety advice. The honesty line is in The Snorkeller, and "Deadliest Hunter" rests on the predation record, not on human attacks.
+
+None of the changes adds anything:
+- no gore
+- no profanity
+- no kid-coded framing
+- no advice
+
+The shooting is still one flat clause.
 
 ## 7. Length: pass
-1,990 spoken words, about 10:12 at 195 WPM. Fix 1 removes 2 words (1,988). Fix 2, if applied, adds about 20.
+
+2,013 spoken words, about 10:19 at 195 WPM, with a 63-word margin over the floor.
 
 ---
 
 ## Required fixes
-1. **Lines 18-24, item 1's name by word 35 (blocking).** Cut at least 2 spoken words before "The Chase.". Recommended: change line 22 "By the end, Doug is under that ice, singing back to one." (12 words) to "Doug ends up under that ice, singing back to one." (10 words). "The Chase." then sits at words 34-35, and the payoff promise finishes about half a second sooner. Do not cut "On the ice." or the 1916 number.
+None.
 
-## Recommended (not blocking)
-2. **The Chase is 202 words; the brief asks for 220-260.** Add about 20 words *after* the twist, not before it. For example, add one more concrete beat to the size or meal kicker. The "Here's the problem." marker must stay under word 145.
-3. **Line 258:** change "for twenty years" to "for more than twenty years" (US AMLR monitoring began in 1996-97).
-4. **Line 140 (optional):** flatten "Doug is not" so The Visitor has two jokes, not three.
-
-When fix 1 is in, re-screen only the opening word count. Nothing else in the script needs another full pass.
+## Notes for the director (not blocking)
+- In item 1, the cut to black and the cap (death 235) come before the 1916 meal flashback. Keep the flashback visually distinct (a "1916" caption or sepia tone) so the death does not read as the end of the item.
