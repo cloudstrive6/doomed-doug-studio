@@ -1,0 +1,32 @@
+{
+  "name": "stone_tool",
+  "description": "Early stone tool (Lomekwi-style chipped core): grey-brown stone with big angular flake scars in different tones, conchoidal ripple lines, a rough cortex patch in the middle and a pale sharp working edge on the right. Anchor = centre; x -90..90, y -110..110.",
+  "anchor": [0, 0],
+  "tags": ["artifact", "prehistoric", "human", "tool", "stone"],
+  "elements": [
+    {"type": "poly", "points": [[-60, -104], [-10, -110], [40, -96], [62, -80], [70, -62], [82, -48], [84, -30], [90, -10], [84, 6], [86, 24], [76, 40], [74, 60], [60, 86], [20, 110], [-30, 104], [-70, 76], [-88, 30], [-86, -30], [-78, -76]], "fill": "#8f8170", "width": 5, "color": "#000000"},
+    {"type": "poly", "points": [[-10, -110], [40, -96], [52, -60], [14, -44], [-20, -70]], "fill": "#b3a693", "width": 3, "color": "#3e352b"},
+    {"type": "poly", "points": [[40, -96], [78, -60], [90, -10], [56, -14], [52, -60]], "fill": "#a09381", "width": 3, "color": "#3e352b"},
+    {"type": "poly", "points": [[90, -10], [82, 40], [60, 86], [40, 48], [56, -14]], "fill": "#b3a693", "width": 3, "color": "#3e352b"},
+    {"type": "poly", "points": [[60, 86], [20, 110], [-6, 70], [40, 48]], "fill": "#a09381", "width": 3, "color": "#3e352b"},
+    {"type": "poly", "points": [[-60, -104], [-10, -110], [-20, -70], [-52, -50], [-78, -76]], "fill": "#6a5d4e", "width": 3, "color": "#3e352b"},
+    {"type": "poly", "points": [[-88, 30], [-86, -30], [-52, -50], [-36, 2], [-62, 40]], "fill": "#7b6e5e", "width": 3, "color": "#3e352b"},
+    {"type": "poly", "points": [[-30, 104], [-70, 76], [-62, 40], [-26, 60], [-6, 70], [20, 110]], "fill": "#6a5d4e", "width": 3, "color": "#3e352b"},
+    {"type": "poly", "points": [[14, -44], [52, -60], [56, -14], [40, 48], [-6, 70], [-26, 60], [-36, 2], [-52, -50], [-20, -70]], "fill": "#857766", "width": 3, "color": "#3e352b"},
+    {"type": "spray", "x": 10, "y": 0, "r": 45, "color": "#6a5d4e", "density": 0.25},
+    {"type": "circle", "x": 0, "y": -20, "r": 2.5, "fill": "#5a4e40", "width": 0, "color": "#000000", "outline": false},
+    {"type": "circle", "x": 20, "y": 10, "r": 2.5, "fill": "#5a4e40", "width": 0, "color": "#000000", "outline": false},
+    {"type": "circle", "x": -15, "y": 25, "r": 2.5, "fill": "#5a4e40", "width": 0, "color": "#000000", "outline": false},
+    {"type": "circle", "x": 10, "y": 40, "r": 2.5, "fill": "#5a4e40", "width": 0, "color": "#000000", "outline": false},
+    {"type": "circle", "x": -20, "y": -30, "r": 2.5, "fill": "#5a4e40", "width": 0, "color": "#000000", "outline": false},
+    {"type": "curve", "points": [[-2, -98], [14, -86], [30, -90]], "width": 2, "color": "#4a4034"},
+    {"type": "curve", "points": [[4, -84], [18, -72], [34, -76]], "width": 2, "color": "#4a4034"},
+    {"type": "curve", "points": [[62, -60], [66, -40], [78, -32]], "width": 2, "color": "#4a4034"},
+    {"type": "curve", "points": [[70, 10], [64, 30], [72, 46]], "width": 2, "color": "#4a4034"},
+    {"type": "curve", "points": [[-66, -82], [-50, -76], [-40, -86]], "width": 2, "color": "#4a4034"},
+    {"type": "curve", "points": [[-74, -10], [-62, 0], [-66, 16]], "width": 2, "color": "#4a4034"},
+    {"type": "curve", "points": [[-50, 78], [-36, 70], [-24, 82]], "width": 2, "color": "#4a4034"},
+    {"type": "line", "points": [[42, -92], [60, -78], [68, -60], [79, -47], [81, -30], [86, -10], [80, 6], [82, 24], [72, 40], [70, 60], [57, 82]], "width": 3, "color": "#e6dccb"},
+    {"type": "poly", "points": [[-60, -104], [-10, -110], [40, -96], [62, -80], [70, -62], [82, -48], [84, -30], [90, -10], [84, 6], [86, 24], [76, 40], [74, 60], [60, 86], [20, 110], [-30, 104], [-70, 76], [-88, 30], [-86, -30], [-78, -76]], "width": 5, "color": "#000000"}
+  ]
+}

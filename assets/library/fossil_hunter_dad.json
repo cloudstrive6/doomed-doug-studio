@@ -1,0 +1,459 @@
+{
+ "name": "fossil_hunter_dad",
+ "description": "Crude-tier stick man (028): the fossil-hunter father. Doug's line weight, big round head with the grey crescent, oval eyes, flat mouth, short dark-brown hair, no cap, olive outdoor jacket with zip and pockets, small geological hammer in the front hand. auto_ink. Anchor hips (0,0), feet +150, head top about -302 (hair), same rig as `scientist`; facing right.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "character",
+  "human",
+  "adult",
+  "stick man",
+  "fossil hunter",
+  "father",
+  "beach",
+  "028"
+ ],
+ "auto_ink": true,
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     16,
+     76
+    ],
+    [
+     32,
+     148
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -16,
+     76
+    ],
+    [
+     -32,
+     148
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     32,
+     148
+    ],
+    [
+     50,
+     148
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -32,
+     148
+    ],
+    [
+     -14,
+     148
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -26,
+     -122
+    ],
+    [
+     -58,
+     -66
+    ],
+    [
+     -74,
+     -16
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -34,
+     -132
+    ],
+    [
+     34,
+     -132
+    ],
+    [
+     52,
+     30
+    ],
+    [
+     -52,
+     30
+    ]
+   ],
+   "fill": "#6f7d4a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -134
+    ],
+    [
+     -20,
+     -150
+    ],
+    [
+     20,
+     -150
+    ],
+    [
+     30,
+     -134
+    ]
+   ],
+   "fill": "#56623a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     2,
+     -130
+    ],
+    [
+     4,
+     28
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "rect",
+   "x": -40,
+   "y": -20,
+   "w": 26,
+   "h": 20,
+   "fill": null,
+   "width": 3,
+   "color": "#56623a",
+   "keep_ink": true
+  },
+  {
+   "type": "rect",
+   "x": 16,
+   "y": -20,
+   "w": 26,
+   "h": 20,
+   "fill": null,
+   "width": 3,
+   "color": "#56623a",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     16
+    ],
+    [
+     50,
+     16
+    ]
+   ],
+   "width": 2,
+   "color": "#56623a",
+   "keep_ink": true
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -218,
+   "r": 72,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -218,
+   "rx": 56.2,
+   "ry": 56.2,
+   "start": 110,
+   "end": 230,
+   "fill": null,
+   "width": 11.5,
+   "color": "#d6d6d6",
+   "keep_ink": true
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -218,
+   "r": 72,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 7.2,
+   "y": -221.6,
+   "rx": 8.6,
+   "ry": 13.0,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true,
+   "boil": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 10.1,
+   "y": -220.2,
+   "r": 4.7,
+   "fill": "#000000",
+   "width": 1,
+   "color": "#000000",
+   "keep_ink": true,
+   "boil": 0.2
+  },
+  {
+   "type": "ellipse",
+   "x": 33.1,
+   "y": -221.6,
+   "rx": 8.6,
+   "ry": 13.0,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true,
+   "boil": 0.3
+  },
+  {
+   "type": "circle",
+   "x": 36.0,
+   "y": -220.2,
+   "r": 4.7,
+   "fill": "#000000",
+   "width": 1,
+   "color": "#000000",
+   "keep_ink": true,
+   "boil": 0.2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     8.6,
+     -183.4
+    ],
+    [
+     33.1,
+     -184.9
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -68,
+     -240
+    ],
+    [
+     -62,
+     -266
+    ],
+    [
+     -42,
+     -286
+    ],
+    [
+     -10,
+     -296
+    ],
+    [
+     24,
+     -294
+    ],
+    [
+     50,
+     -282
+    ],
+    [
+     66,
+     -262
+    ],
+    [
+     70,
+     -244
+    ],
+    [
+     58,
+     -258
+    ],
+    [
+     50,
+     -250
+    ],
+    [
+     40,
+     -264
+    ],
+    [
+     26,
+     -258
+    ],
+    [
+     14,
+     -270
+    ],
+    [
+     0,
+     -262
+    ],
+    [
+     -14,
+     -272
+    ],
+    [
+     -26,
+     -262
+    ],
+    [
+     -40,
+     -268
+    ],
+    [
+     -50,
+     -254
+    ],
+    [
+     -60,
+     -258
+    ]
+   ],
+   "fill": "#4a3424",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     26,
+     -122
+    ],
+    [
+     62,
+     -74
+    ],
+    [
+     84,
+     -40
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     84,
+     -40
+    ],
+    [
+     104,
+     -116
+    ]
+   ],
+   "width": 8,
+   "color": "#a0522d"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     80,
+     -126
+    ],
+    [
+     124,
+     -130
+    ],
+    [
+     130,
+     -118
+    ],
+    [
+     98,
+     -112
+    ],
+    [
+     76,
+     -110
+    ]
+   ],
+   "fill": "#8d9096",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 84,
+   "y": -40,
+   "r": 9,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

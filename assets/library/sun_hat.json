@@ -1,0 +1,561 @@
+{
+ "name": "sun_hat",
+ "description": "Wide floppy straw sun hat #e8c07a with a red band, worn prop perched on Doug's cap (the hard_hat convention, 028): anchor = Doug's hips at scale 1, rim at y -294 so the cap dome and brim stay visible below; x -130..130, y -342..-288. List after Doug at the same x/y/scale/flip, with doug_sunglasses; standing poses only.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "worn prop",
+  "hat",
+  "sun hat",
+  "straw",
+  "beach",
+  "desert",
+  "028"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -66,
+     -306
+    ],
+    [
+     -62,
+     -324
+    ],
+    [
+     -44,
+     -338
+    ],
+    [
+     0,
+     -342
+    ],
+    [
+     44,
+     -338
+    ],
+    [
+     62,
+     -324
+    ],
+    [
+     66,
+     -306
+    ]
+   ],
+   "fill": "#e8c07a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     20,
+     -338
+    ],
+    [
+     44,
+     -334
+    ],
+    [
+     60,
+     -322
+    ],
+    [
+     62,
+     -308
+    ],
+    [
+     36,
+     -308
+    ],
+    [
+     34,
+     -326
+    ]
+   ],
+   "fill": "#c99a50",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -26,
+   "y": -326,
+   "r": 14,
+   "color": "#fff0c8",
+   "density": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -66,
+     -318
+    ],
+    [
+     66,
+     -318
+    ],
+    [
+     66,
+     -304
+    ],
+    [
+     -66,
+     -304
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -130,
+     -292
+    ],
+    [
+     -118,
+     -302
+    ],
+    [
+     -80,
+     -308
+    ],
+    [
+     0,
+     -310
+    ],
+    [
+     80,
+     -308
+    ],
+    [
+     118,
+     -302
+    ],
+    [
+     130,
+     -292
+    ],
+    [
+     110,
+     -288
+    ],
+    [
+     60,
+     -292
+    ],
+    [
+     0,
+     -294
+    ],
+    [
+     -60,
+     -292
+    ],
+    [
+     -110,
+     -288
+    ]
+   ],
+   "fill": "#e8c07a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -122,
+     -294
+    ],
+    [
+     -60,
+     -296
+    ],
+    [
+     0,
+     -298
+    ],
+    [
+     60,
+     -296
+    ],
+    [
+     122,
+     -294
+    ],
+    [
+     110,
+     -289
+    ],
+    [
+     60,
+     -292
+    ],
+    [
+     0,
+     -294
+    ],
+    [
+     -60,
+     -292
+    ],
+    [
+     -110,
+     -289
+    ]
+   ],
+   "fill": "#c99a50",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -110,
+     -304
+    ],
+    [
+     -104,
+     -296
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -88,
+     -304
+    ],
+    [
+     -82,
+     -296
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -66,
+     -304
+    ],
+    [
+     -60,
+     -296
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -44,
+     -304
+    ],
+    [
+     -38,
+     -296
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -304
+    ],
+    [
+     -16,
+     -296
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -304
+    ],
+    [
+     6,
+     -296
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     -304
+    ],
+    [
+     28,
+     -296
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     44,
+     -304
+    ],
+    [
+     50,
+     -296
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     66,
+     -304
+    ],
+    [
+     72,
+     -296
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     88,
+     -304
+    ],
+    [
+     94,
+     -296
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     110,
+     -304
+    ],
+    [
+     116,
+     -296
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -328.5
+    ],
+    [
+     -46,
+     -322
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -331.5
+    ],
+    [
+     -26,
+     -322
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -334.5
+    ],
+    [
+     -6,
+     -322
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -334.5
+    ],
+    [
+     14,
+     -322
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -331.5
+    ],
+    [
+     34,
+     -322
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     -328.5
+    ],
+    [
+     54,
+     -322
+    ]
+   ],
+   "width": 2,
+   "color": "#c99a50"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -66,
+     -306
+    ],
+    [
+     -62,
+     -324
+    ],
+    [
+     -44,
+     -338
+    ],
+    [
+     0,
+     -342
+    ],
+    [
+     44,
+     -338
+    ],
+    [
+     62,
+     -324
+    ],
+    [
+     66,
+     -306
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -66,
+     -318
+    ],
+    [
+     66,
+     -318
+    ],
+    [
+     66,
+     -304
+    ],
+    [
+     -66,
+     -304
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -311
+    ],
+    [
+     60,
+     -311
+    ]
+   ],
+   "width": 2,
+   "color": "#8a0f0c"
+  }
+ ]
+}

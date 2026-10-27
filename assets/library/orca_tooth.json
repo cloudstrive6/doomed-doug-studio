@@ -1,0 +1,282 @@
+{
+ "name": "orca_tooth",
+ "description": "One healthy orca tooth for a cartoon dental comparison (028): vertical, conical and slightly curved, cream-white enamel crown with a pointed tip and a highlight, darker tan root below. Anchor centre; x -60..60, y -180..180.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "tooth",
+  "orca",
+  "dental",
+  "comparison",
+  "028"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     -30
+    ],
+    [
+     -46,
+     40
+    ],
+    [
+     -40,
+     110
+    ],
+    [
+     -26,
+     160
+    ],
+    [
+     -6,
+     178
+    ],
+    [
+     14,
+     172
+    ],
+    [
+     30,
+     140
+    ],
+    [
+     40,
+     80
+    ],
+    [
+     42,
+     10
+    ],
+    [
+     40,
+     -30
+    ]
+   ],
+   "fill": "#d4bc8c",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     -24
+    ],
+    [
+     40,
+     -26
+    ],
+    [
+     42,
+     10
+    ],
+    [
+     40,
+     80
+    ],
+    [
+     30,
+     140
+    ],
+    [
+     14,
+     170
+    ],
+    [
+     16,
+     120
+    ],
+    [
+     20,
+     40
+    ]
+   ],
+   "fill": "#b79a64",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -34,
+     30
+    ],
+    [
+     -30,
+     40
+    ],
+    [
+     -24,
+     48
+    ]
+   ],
+   "width": 2,
+   "color": "#b79a64"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -34,
+     80
+    ],
+    [
+     -30,
+     90
+    ],
+    [
+     -24,
+     98
+    ]
+   ],
+   "width": 2,
+   "color": "#b79a64"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -34,
+     130
+    ],
+    [
+     -30,
+     140
+    ],
+    [
+     -24,
+     148
+    ]
+   ],
+   "width": 2,
+   "color": "#b79a64"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -46,
+     -24
+    ],
+    [
+     -44,
+     -80
+    ],
+    [
+     -30,
+     -130
+    ],
+    [
+     -8,
+     -166
+    ],
+    [
+     14,
+     -180
+    ],
+    [
+     20,
+     -160
+    ],
+    [
+     34,
+     -110
+    ],
+    [
+     44,
+     -60
+    ],
+    [
+     44,
+     -24
+    ]
+   ],
+   "fill": "#f6f1e2",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     16,
+     -164
+    ],
+    [
+     32,
+     -112
+    ],
+    [
+     42,
+     -60
+    ],
+    [
+     42,
+     -28
+    ],
+    [
+     22,
+     -30
+    ],
+    [
+     20,
+     -90
+    ]
+   ],
+   "fill": "#d9d0b8",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -26,
+     -40
+    ],
+    [
+     -24,
+     -100
+    ],
+    [
+     -6,
+     -146
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -46,
+     -24
+    ],
+    [
+     0,
+     -18
+    ],
+    [
+     44,
+     -24
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

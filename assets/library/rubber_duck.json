@@ -1,0 +1,22 @@
+{
+  "name": "rubber_duck",
+  "description": "Classic yellow rubber bath duck facing right: plump body with upturned tail, round head, orange two-part beak, black eye with white glint, wing, darker yellow underside. Anchor = bottom-centre on the waterline (y=0); x -84..84, y -116..12.",
+  "anchor": [0, 0],
+  "tags": ["prop", "toy", "bath", "funny"],
+  "elements": [
+    {"type": "poly", "points": [[-82, -62], [-70, -48], [-55, -50], [-20, -55], [20, -50], [50, -40], [70, -22], [72, -2], [58, 8], [20, 12], [-30, 12], [-62, 4], [-78, -18], [-84, -45]], "smooth": true, "fill": "#ffd51f", "width": 5, "color": "#000000"},
+    {"type": "poly", "points": [[-75, -15], [-40, -5], [10, -2], [55, -8], [70, -10], [66, 3], [40, 10], [-20, 11], [-55, 5]], "smooth": true, "fill": "#e0a800", "width": 0, "color": "#000000", "outline": false},
+    {"type": "circle", "x": 25, "y": -80, "r": 36, "fill": "#ffd51f", "width": 5, "color": "#000000"},
+    {"type": "spray", "x": 15, "y": -95, "r": 18, "color": "#fff7a0", "density": 0.5},
+    {"type": "spray", "x": -20, "y": -38, "r": 22, "color": "#fff7a0", "density": 0.45},
+    {"type": "poly", "points": [[-45, -38], [-10, -42], [20, -32], [14, -16], [-12, -10], [-38, -18], [-30, -26]], "smooth": true, "fill": "#ffc800", "width": 3, "color": "#000000"},
+    {"type": "curve", "points": [[-25, -26], [0, -24]], "width": 2, "color": "#c08a00"},
+    {"type": "curve", "points": [[-20, -18], [4, -18]], "width": 2, "color": "#c08a00"},
+    {"type": "poly", "points": [[54, -88], [84, -82], [82, -72], [56, -70]], "smooth": true, "fill": "#ff8a1c", "width": 4, "color": "#000000"},
+    {"type": "poly", "points": [[55, -72], [78, -72], [72, -63], [56, -64]], "smooth": true, "fill": "#e06a00", "width": 3, "color": "#000000"},
+    {"type": "ellipse", "x": 36, "y": -92, "rx": 7, "ry": 9, "fill": "#000000", "width": 1, "color": "#000000"},
+    {"type": "circle", "x": 38, "y": -95, "r": 2.5, "fill": "#ffffff", "width": 0, "color": "#000000", "outline": false},
+    {"type": "spray", "x": 42, "y": -70, "r": 7, "color": "#ffa860", "density": 0.5},
+    {"type": "curve", "points": [[-5, -60], [20, -50], [50, -40]], "width": 5, "color": "#000000"}
+  ]
+}
