@@ -151,3 +151,52 @@ white text with no top bar. Every item has its annotations, and there is no gore
 ### Next
 Director: apply fixes 1-24, re-render only the touched shots with `python -m studio keyframes 028-megalodon-every-era --shots ...`,
 then I'll review round 2. No illustrator work and no Doug rig changes are needed.
+
+## Keyframes round 2
+
+Reviewer: art director, 2026-10-27
+Scope: re-rendered keyframes after commit 89306e5 (`build/keyframes/`, `build/contact/`). Every round-1 fix shot was
+checked at full frame, plus the full runs s086-s097, s143-s152, s201-s212, s277-s292 and s298-s309 for layout variety,
+and spot checks on the round-1 minors (s024, s054, s066, s252, s309).
+
+### Verdict: PASS (all 24 required fixes verified; 4 optional polish notes, none blocking)
+
+| # | Fix | Status |
+|---|---|---|
+| 1 | s010 single Doug | Done. Doug is in the cage, the booth is empty. |
+| 2 | s303 empty cage on the death beat | Done. The cage is empty with the cap on its roof, and the ghost has the "!". This matches the s025 death-beat convention. |
+| 3 | Title-card cage clear of the title block | Done on s004, s031, s060, s111, s138, s166, s244 and s272: the cage is at x 230 and its top is well under the date label. s218 has the cage on the bank, clear of the title. |
+| 4 | s085 counter zone | Done. There is no rope, and Doug stands on the floating cage below the counter. |
+| 5 | s031 silhouette first | Done. s031 is a silhouette, and s036 is the first colour mosasaur. |
+| 6 | Glow discs (s035, s062, s113, s245) | Done. No pale disc remains. s245 keeps a faint dark halo that stays inside the frame. |
+| 7-10 | Layout runs | Done. s278-s288 now go board, board, scientist, scientist, board, strata, board, board, timeline walk, board, full-frame. s089/s092 are full-frame space and seabed shots, s206/s207 are open water, and s149 is the flank close-up. No run is longer than 3 boards. |
+| 11 | s057, s135 debris vs caption bar | Done. The splash, sign and cap are clear of the caption bar. |
+| 12 | s234 wordart over the tree | Done. "PUPS WERE BORN" is in clear sky. |
+| 13 | s237 label on the sun | Done. |
+| 14 | s242 | Done. One label reads "NO SEA, NO PUPS", clear of the cage. |
+| 15 | Max 2 labels (s017, s187, s256, s261, s286) | Done. The extra numbers are now small text inside the asset. |
+| 16 | s077 | Done. "THE SMALL ONE" sits under the meg with a red arrow. |
+| 17 | s084 coin | Done. The coin is above the text. |
+| 18 | s028 lime-on-lime | Done. The wordart is raised above the seagrass. |
+| 19 | s002 door zone | Done. The hoist is clear of the open door. |
+| 20 | s176 O2 | Done. The text reads through a small X. |
+| 21 | s172 plankton | Done. The shell reads under the X. |
+| 22 | s148/s149 denticles | Done. The pattern stays inside the panel and the flank outline. |
+| 23 | Endslate safe area | Done. The wordart starts at about x 130. This is an engine change in `studio/assemble.py`, so it applies to every episode. |
+| 24 | Ichthyosaur zone colour | Done. s060/s061 use `#2a6aa6` / `#8faecb` and match s062-s083. |
+
+Round-1 minors were also picked up: the Ice Age water is now `#4a9ec8` and differs from the Last Megalodon's `#3a9ad9`,
+s024 has DOUG bars, s066 shows Ruby in colour, s252 has "x6" plus "BURJ KHALIFA" on one tower, and s309's silhouettes
+are in the water band. The mosasaur silhouette fill (the illustrator's update to `mosasaurus.json`) reads solid in
+s031/s035. Doug is on-model in every shot I checked, and the counter runs 226 -> 234 correctly.
+
+### Optional polish (director, only if cheap; does not block art_approved)
+1. **s148**: the "SHARK SKIN" label sits on top of the first triangle row. Drop the 3 triangles behind it, or move the
+   label onto the panel's top border.
+2. **s303**: the rope runs straight through the ghost Doug, so at a glance he can look like he is still hanging. Shift
+   the ghost about 80 px left of the rope.
+3. **s305**: there is a faint pale glow disc on the sand around the tooth (rule from fix 6). Use `glow_r: 0` or a smaller glow.
+4. **s309**: the mosasaur silhouette's snout touches the whale silhouette's tail. Leave about 40 px between them.
+
+Not art issues, already logged elsewhere: the cage rope behind the caption bar (accepted), and the ú/ó glyphs in the
+subtitle font (editor).

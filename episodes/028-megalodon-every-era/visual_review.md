@@ -129,3 +129,73 @@ Fixes for the graphic designer:
 - Thumbnail A: **PASS** (optional tweaks).
 - Thumbnail B: **PASS.**
 - Thumbnail C: **FAIL** (no focal point, weak X badges, off-style labels).
+
+## Round 2 (2026-10-27): re-check of keyframes + thumbnails
+
+Scope: all 26 contact sheets (re-rendered 08:09, after commit 89306e5), `build/thumbnail.png`, `thumbnail_b.png` and
+`thumbnail_c.png` (rendered 08:03, after the cb9f6e0 thumbnail JSON changes), and their 168x94 `_small` versions. I
+zoomed into the full-res keyframes for s030, s035, s036, s113, s125, s232, s245, s252, s303 and s309.
+
+Policy: still PASS. No gore, cartoon deaths only (ghost float, ice block, falling cage), nothing nursery-toned. The
+HUD runs 226 -> 234 and 0/11 -> 4/11 consistently.
+
+### Round-1 blocking fixes
+| # | Item | Verdict | Notes |
+|---|---|---|---|
+| 1 | s010 double Doug | **PASS** | There is one Doug, in the cage. The booth on the bank is empty. |
+| 2 | Chapter cards vs cage (s004, s031, s060, s085, s111, s138, s166, s194, s218, s244, s272) | **PASS** | All 11 openers are clean. The cage is at the left (s218/s272 at the right, s085/s194 on the surface or bank), and every title and sub-label sits on clear background. |
+| 3 | Mosasaur silhouette | **PASS** | s030/s031/s034/s035 now show a long, tapered, toothed jaw, and the silhouette matches the s036 colour drawing. It is clearly different from the blunt Livyatan silhouette in s113/s117, and the two read as different animals side by side in s309. |
+| 4 | s054 direction | **PASS** | The snout points up and the arrow leads from the snout to the surface. |
+| 5 | Repetition runs | **PASS** | No run is longer than 3. s018 and s021/s022 break s017-s020. s073/s078 break s072-s075. s146/s149 break the Orcas boards. s206/s207 break the Ice Age run. The Supernova gets s099/s101/s102/s103/s108. The Hothouse gets s182/s184. s278-s288 now goes board, board, s280/s281 lab, board, s283 rock strata, board, board, s286 timeline walk, board, s288 Doug + rock. |
+| 6 | s252 Burj stack | **PASS** | It has a base, an "x6" and a "BURJ KHALIFA" label, and the top tower clears the HUD band. |
+| 7 | s207/s208 patches | **PASS** | Solid green clumps, readable at a glance. |
+| 8 | s008 board covering the shark | **PASS** | The board is above-left and "ONE VERDICT" sits in clear water. |
+| 9 | School bus asset | **PASS** | s049, s071 and s156 use a white/red `city_bus` with a "42 CITY" route sign. |
+
+### Round-1 polish items
+- 10 s024 (DOUG bars): PASS. 11 s033 arrow: PASS. 14 s172 plankton (shell under the X): PASS. 15 s028/s077/s234/s237
+  labels: PASS. 16 s148/s149 denticles clipped: PASS. 17 s200/s201 (SIBERIA/ALASKA labels, mammoth 2x): PASS.
+  13 Supernova gear: PASS. Doug stands on the cage with the cap brim and white head readable, and the straw hat
+  is acceptable. s108 is confirmed as an intentional sunburn gag.
+- 18 s303: PASS (marginal). The empty cage drops with a red down-arrow and the cap is left on the cage roof, so the
+  cause reads. The frayed end is only a small fork just above the hook. A wider gap between the frayed rope end and the
+  cage hook would make the snap obvious (director, optional).
+- 19 endslate: PASS. "DOUG'S NEXT DEATH" now starts at about x 126, inside title-safe.
+- 12 glow discs: PARTIAL, not blocking. s245 (and faintly s113) still show a dark speckled disc behind the silhouette.
+  On these dark backgrounds it reads as murk, not as a grey noise circle, and nothing bleeds onto the sand any more.
+  Optional: drop the spray (art director).
+- 20 accented glyphs: still OPEN, for the editor. The contact strip shows "Gat?n"/"Col?n" in s230/s231, while the
+  on-screen labels "GATÚN FORMATION" and "NEAR COLÓN" render correctly. Check this against the burned-in subtitle font
+  at the final render, before post-render review.
+
+There are no new defects. I checked text against the HUD (s086, s125, s232), cropping, stray strokes and on-model
+Doug on all 310 tiles.
+
+### KEYFRAMES: VERDICT: PASS
+All 9 blocking fixes are verified. The open items (s303 snap emphasis, the s245 glow, the subtitle glyphs) are
+non-blocking and routed above.
+
+### THUMBNAIL A (`thumbnail.png`, "SPOILER: NO"): VERDICT: PASS
+Both round-1 suggestions are done. The stray half-X is gone, and Doug is bigger with his face clear of the bars,
+so the 168x94 version reads as megalodon eye + scared Doug in a cage + "SPOILER: NO". It has one focal point,
+complements the title and is honest (megalodon fails 7 of 11 stops).
+
+### THUMBNAIL B (`thumbnail_b.png`, "NEWBORN"): VERDICT: PASS
+Unchanged from round 1. It has the strongest single-subject read, and Doug is on the cage roof, fully on-model. It
+is still a hook-led A/B variant rather than an "every era" read.
+
+### THUMBNAIL C (`thumbnail_c.png`, verdict grid): VERDICT: PASS
+All four round-1 fails are fixed.
+1. There is now a hero tile (Orcas, about two-thirds of the frame) with a big, scared Doug in the cage, the
+   megalodon and two orcas. At 168x94 this is the clear focal point.
+2. The X and check badges are matched solid discs with thick white marks, and they read red/green at feed size.
+3. Labels use the channel's bold sans with a black outline.
+4. Every tile shows the megalodon, so each badge clearly refers to it.
+
+Nit (optional, graphic designer): "NURSERY"/"ICE AGE" are about 8 px tall at feed size. The badges and pictures
+carry the meaning, so this is fine.
+
+### Summary (round 2)
+- Keyframes: **PASS** (non-blocking: s303 snap emphasis for the director, the s245 glow for the art director, and the
+  ú/ó subtitle glyphs for the editor).
+- Thumbnail A: **PASS**. Thumbnail B: **PASS**. Thumbnail C: **PASS**.
