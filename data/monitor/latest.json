@@ -1,6 +1,26 @@
 {
- "at": "2026-10-27T15:41:31+00:00",
+ "at": "2026-10-27T16:37:50+00:00",
  "issues": [
+  {
+   "key": "queue_low",
+   "severity": "medium",
+   "owner": "auto",
+   "summary": "Queue 3/4 and no production running: started a production run",
+   "detail": "",
+   "route": "dispatch produce.yml",
+   "fixed": true,
+   "extra": {}
+  },
+  {
+   "key": "related_pending",
+   "severity": "low",
+   "owner": "owner",
+   "summary": "4 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "detail": "The Largest Spider Fossil Ever Found Wasn't a Spider -> When Earth Had So Much Oxygen That Bugs Could Kill Doug\nA Fallen Cliff Revealed a Millipede as Big as a Car -> When Earth Had So Much Oxygen That Bugs Could Kill Doug\nSix Meters of Sea Scorpion Footprints Were Found on Land -> When Earth Had So Much Oxygen That Bugs Could Kill Doug\nThis Giant Dragonfly Ruled a Sky With No Birds in It -> When Earth Had So Much Oxygen That Bugs Could Kill Doug",
+   "route": "",
+   "fixed": false,
+   "extra": {}
+  },
   {
    "key": "end_screens_pending",
    "severity": "low",
