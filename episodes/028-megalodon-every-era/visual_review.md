@@ -199,3 +199,25 @@ carry the meaning, so this is fine.
 - Keyframes: **PASS** (non-blocking: s303 snap emphasis for the director, the s245 glow for the art director, and the
   ú/ó subtitle glyphs for the editor).
 - Thumbnail A: **PASS**. Thumbnail B: **PASS**. Thumbnail C: **PASS**.
+
+## Round 3 (2026-10-27): Thumbnail B re-check after the scale fix (decisions.md items 17-21)
+Scope: `build/thumbnail_b.png` and `build/thumbnail_b_small.png` (168x94) only. A and C are not re-checked.
+
+### THUMBNAIL B (`thumbnail_b.png`, "NEWBORN"): VERDICT: PASS
+1. **Scale (item 20.1): fixed.** Measured on the 1280x720 render: the pup runs from tail tip x 234 to nose x 881 (about
+   647 px) and Doug runs from cap top y 23 to feet y 312 (about 289 px). That is **about 2.2x Doug's height**, inside the
+   requested 2.0-2.3x and consistent with s024 "2x DOUG" and the script's "about twice as long as he is". The whole tail is
+   in frame. The pup (about 647 px) is still clearly longer than the cage (about 232 px wide, 320 px tall).
+2. **Feet on the roof (item 20.2): fixed.** The feet end at about y 312 on the roof bar (top about y 315), so he reads as
+   standing on the cage. Arms up, shock face and sweat drop are kept. Doug is on-model (red cap, white head).
+3. **Kept (item 20.3):** "NEWBORN" in the one bold font with a black outline, same colours, closed mouth, no blood.
+4. **Feed size (168x94):** "NEWBORN" is the most legible element. Pup + cage + Doug on the roof read as one scene, and
+   the red cap marks Doug at once. There is one focal line (text to pup to Doug). Nothing is cropped, and nothing overlaps
+   the text.
+- Nit (optional, graphic designer): at 168x94 Doug's face is only a few pixels and the panic comes mostly from the pose.
+  That is acceptable for an A/B variant.
+
+### Creative director proxy (scale point only)
+Confirmed: the pup is about 2.2x Doug's standing height, the whole animal is visible and the image is honest to the video's
+own claim. The blocking item 20.1 is cleared. B can join the test set with A (primary) and C. Final CD sign-off on the image
+otherwise stands as in item 20.

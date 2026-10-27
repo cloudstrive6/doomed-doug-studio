@@ -1,5 +1,5 @@
 {
- "_note": "Variant B (Doug in peril, The Nursery beat): clear shallow green water #3a9a8a, pale sky, sand floor. A NEWBORN megalodon_pup (mouth closed, heavy brow) longer than the whole cage noses the bars; Doug (red cap) has scrambled onto the cage roof, arms up, shocked face, head breaking the surface. Text NEWBORN (the contradiction: this is the baby; script fact: pups maybe ~4 m at birth). One font, no title/alt word, no blood. The brief's 3x3 grid for B was dropped per the owner decision of 2026-10-20 (no 9-16 tile grids).",
+ "_note": "Variant B (Doug in peril, The Nursery beat): clear shallow green water #3a9a8a, pale sky, sand floor. A NEWBORN megalodon_pup (mouth closed, heavy brow) (scale 0.725, about 650 px nose to tail, about 2.2x Doug's 294 px standing height, whole tail in frame; script: about twice as long as Doug) still longer than the whole cage noses the bars; Doug (red cap) (scale 0.66) has scrambled onto the cage roof, feet planted on the roof bar, arms up, shocked face, head breaking the surface. Text NEWBORN (the contradiction: this is the baby; script fact: pups maybe ~4 m at birth). One font, no title/alt word, no blood. The brief's 3x3 grid for B was dropped per the owner decision of 2026-10-20 (no 9-16 tile grids).",
  "background": "#3a9a8a",
  "size": [
   1280,
@@ -75,9 +75,9 @@
   {
    "type": "asset",
    "name": "megalodon_pup",
-   "x": 318,
-   "y": 440,
-   "scale": 1.25,
+   "x": 560,
+   "y": 470,
+   "scale": 0.725,
    "boil": 0,
    "wobble": 0
   },
@@ -90,7 +90,7 @@
     ],
     [
      1000,
-     250
+     300
     ]
    ],
    "color": "#5a6670",
@@ -101,8 +101,8 @@
   {
    "type": "doug",
    "x": 935,
-   "y": 172,
-   "scale": 0.48,
+   "y": 218,
+   "scale": 0.66,
    "pose": "arms_up",
    "expression": "shock",
    "facing": "left",
@@ -116,8 +116,8 @@
    "type": "asset",
    "name": "shark_cage",
    "x": 1000,
-   "y": 620,
-   "scale": 0.8,
+   "y": 636,
+   "scale": 0.72,
    "boil": 0,
    "wobble": 0
   },
