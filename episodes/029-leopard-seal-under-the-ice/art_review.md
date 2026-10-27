@@ -228,3 +228,60 @@ set from the existing keyframes afterwards.
 ## Next
 The director breaks runs 1-9 and re-renders. The graphic designer fixes 10-12 and re-renders s001 together with `thumbnail`. I
 re-check only the changed shots in round 2.
+
+---
+
+# Keyframes + thumbnails, round 2 (art director, 2026-10-27)
+
+## Verdict: PASS
+
+I re-rendered the full keyframe set from the current `shotlist.json` (265 frames, 23 sheets) and reviewed all of it. Some round-1
+keyframes on disk were stale (18:16). I also checked the three thumbnails at full size and the suspect shots at full frame.
+
+### Round-1 director fixes (layout variety): all done
+1. **s010-s022**: s012 (ENORMOUS scale beat) and s015-s020 (shadow and floor/window, under-ice cross-section) are now full-frame
+   sepia with the 1916 tag. The longest framed run is now 2 shots. s022 shows Wild, the BANG and the seal, with no wound.
+2. **s037-s041**: s041 is a below-the-edge cross-section with penguins diving through the red strip.
+3. **s084-s091**: s086 (three phones with SEAL! bubbles) and s088 (216-seal lineup) break the map run.
+4. **s109-s113**: s110 is a close-up of a seal biting the zodiac pontoon.
+5. **s129-s139**: s131/s132 use the magazine-cover card, and s135 and s138 are push-ins.
+6. **s148-s152**: s152 is a close-up of Doug with the seal cropping in.
+7. **s199-s210**: s203 is a framed YEARS EARLIER flashback, and s204/s205 are stat cards on cream.
+8. **s212-s224**: s215 is the muted Peninsula map (`#2a3440` / `#4a5a48`) with the Rothera marker, and s220/s221 show the dive-log
+   book with four tallies. The text sits at y 440 on every card. s224 is the new REPUTATION card.
+9. **s249-s256**: s253 is a close-up of the singing seal.
+- The recommended items also landed: KRILL sign on s179, MAYBE struck through on s258, grey-tan beach on s182-s188 (the pups read),
+  and no red ripple rings on s099/s182.
+
+### Round-1 graphic-designer fixes: all done
+10. A and B use `#3a9ad9` water with `#6fc1ee` speckle. In A the seal now sits clearly under the floe, below Doug's shadow, and s001
+    matches.
+11. In B, Doug is about a quarter of the frame height, a small scale figure.
+12. C is a 3x2 grid of 6 tiles with labels under them (Archetype A spec), and The Snorkeller is not used.
+
+### Fixed myself this round (`validate shotlist` OK, full set and thumbnails re-rendered)
+1. **s110**: the zoom group sat at x -1940 at 2x, which left a 20 px white strip down the right edge of the frame. I moved it to
+   x -1920.
+2. **s115**: the GUIDELINES wordart touched the checklist card's right border. I moved it to (1580, 430), clear of the card and the
+   counter.
+3. **s016**: the EXPEDITION ACCOUNTS book's top-right corner was 20 px under the counter box, inside the counter zone. I moved it to
+   (1250, 300). The label is unchanged.
+4. **Thumbnail C, Sieve tile**: the fill was `#1d6fb8`, a deeper blue than the art bible allows. I changed it to `#3a9ad9`, which
+   matches s176-s180.
+
+### Checked and fine
+- Doug is on-model with his red cap in every Doug shot. The costume deaths (s067, s210) and the upside-down shots (s254-s256) keep
+  the cap and eyes readable.
+- Counter: 234 to 240. The Snorkeller block (s212-s224) has no Doug and no counter.
+- There is no gore. Open mouths use `#7a0d0d`, and no penguin is ever shown caught.
+- Zone colours: open and sub-ice water is `#3a9ad9`, and the 1916 cross-sections use the sepia `#7f9ea3`. The Visitor marina uses
+  the regional harbour step `#2f7fbf` across the whole item (unchanged since round 1). This is consistent, and it is not a "cold"
+  borrow.
+
+### Non-blocking (illustrator, if time allows)
+- The `leopard_seal_jaw_diagram` sieve head (s155, s161-s164, s169, s172-s173) is still the plain pale-grey diagram. Adding the
+  spot pattern, darker dorsal shading and whisker dots (visual screener rec. 10) would tie it to the hero head better.
+- The s064 floating thumb in `penguin_costume` stands, as accepted in round 1.
+
+## Next
+Art is approved. The visual screener's round 2 is also PASS, so the stage moves to `art_approved`.

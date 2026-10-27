@@ -2775,8 +2775,8 @@
      {
       "type": "asset",
       "name": "old_book",
-      "x": 1330,
-      "y": 290,
+      "x": 1250,
+      "y": 300,
       "scale": 0.5,
       "appear": 0.2
      },
@@ -18948,7 +18948,7 @@
     "elements": [
      {
       "type": "group",
-      "x": -1940.0,
+      "x": -1920.0,
       "y": -960.0,
       "scale": 2.0,
       "elements": [
@@ -19783,8 +19783,8 @@
      {
       "type": "wordart",
       "text": "GUIDELINES",
-      "x": 1500,
-      "y": 330,
+      "x": 1580,
+      "y": 430,
       "size": 72,
       "boil": 0,
       "appear": 0.4
