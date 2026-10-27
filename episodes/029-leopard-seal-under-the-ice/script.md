@@ -1,9 +1,9 @@
 <!-- axis: position. Where Doug is, from on top of the Antarctic ice down to underneath it. Spoken bands: "On the ice." (cold open, before item 1), "In a boat." (before item 3), "In the water." (before item 5), "Under the ice." (before item 9, the boss). Every stop is one step closer to the seal's own world; the boss is under the pack ice, where it lives and sings. -->
-<!-- Episode 029, draft 1 (2026-10-27, script writer). Written to the 2026-10-27 retention update: concrete first sentence (1916, the shadow), payoff promise by 0:10 ("Doug is under that ice, where it lives"), item 1 is one of the three strongest, hook fact first in every item, every kicker leans into the next stop. Counter on screen at 234 from the first shot, ends at 240: six deaths (235 The Chase, 236 The Ice Edge, 237 The Head, 238 The Sieve, 239 The Seal Eater, 240 The Song). Survivals: The Visitor ("Doug is fine.", narrator quietly disappointed) and The Gift ("Doug is fine.", the seal is disappointed, FRIEND? MAYBE). The Snorkeller: sober card, no Doug death, no joke, Doug only as the respect beat in a stage direction. "Doug did not agree to this." once (The Chase). "Doug has died. Again." once (The Ice Edge). Costume gag twice: penguin (The Ice Edge), library seal costume (The Seal Eater). Befriending: "hi friend?" (The Gift), "hi friends?" (The Seal Eater). One 016 callback (The Ice Edge). No 021 callback anywhere. The cap: snow (1), on the flat costume (2), on the flooded dinghy (3), on the pontoon (4), spat out of the teeth (6), on the flat costume (7), set down on the ice (8), the closing shadow (9). -->
+<!-- Episode 029, draft 2 (2026-10-27, script writer; applies all 10 required fixes from script_review.md, draft 1). Written to the 2026-10-27 retention update: concrete first sentence (1916, the seal bursting out and the chase; the shadow is now said only once, at item 1's twist), payoff promise by 0:10 ("Doug is under that ice, singing back to one"), item 1 is one of the three strongest, hook fact first in every item, every kicker leans into the next stop. Counter on screen at 234 from the first shot, ends at 240: six deaths (235 The Chase, 236 The Ice Edge, 237 The Head, 238 The Sieve, 239 The Seal Eater, 240 The Song). Survivals: The Visitor ("Doug is fine.", narrator quietly disappointed) and The Gift ("Doug is fine.", the seal is disappointed, FRIEND? MAYBE). The Snorkeller: sober card, no Doug death, no joke, Doug only as the respect beat in a stage direction. "Doug did not agree to this." once (The Chase). "Doug has died. Again." once (The Ice Edge). Costume gag twice: penguin (The Ice Edge), library seal costume (The Seal Eater). Befriending: "hi friend?" (The Gift), "hi friends?" (The Seal Eater). One 016 callback (The Ice Edge). No 021 callback anywhere. The cap: snow (1), on the flat costume (2), on the flooded dinghy (3), on the pontoon (4), spat out of the teeth (6), on the flat costume (7), set down on the ice (8), the closing shadow (9). -->
 <!-- Deviations from the brief, all fact-driven (sources and reasons in facts.md, "Brief checks"):
-1. The Chase: South (1919) records the attack ("climbed on to the floe and attacked one of the men"), Wild shooting it, and the crew eating it and frying the fish found in its stomach, but it has no shadow detail. The shadow is in the PBS NOVA wildlife page ("having tracked his shadow from beneath the ice") and in Lansing's Endurance (1959), so the script says "according to the expedition's accounts" at the item's twist. The cold open states the chase and the shadow as one flat fact, as the brief drafted; the screener may want the attribution moved up into the cold open.
+1. The Chase: South (1919) records the attack ("climbed on to the floe and attacked one of the men"), Wild shooting it, and the crew eating it and frying the fish found in its stomach, but it has no shadow detail. The shadow is in the PBS NOVA wildlife page ("having tracked his shadow from beneath the ice") and in Lansing's Endurance (1959), so the script says "according to the expedition's accounts" at the item's twist. Draft 2: the shadow is said only there; the cold open has the leap and the chase, and item 1 opens on the single case (the seal lost him, then found him again), with no species-level claim.
 2. The Ice Edge: the 1980s expedition-member option is cut. Its date could not be pinned (1985 trek, attack on the way back, possibly early 1986), and the leg-and-kick detail is only in Robert Swan's retelling. The analogy is the "high-risk zone" width (10 to 20 m, Ainley et al. 2005, citing Penney and Lowry 1967) against a bowling lane (18 m, foul line to head pin).
-3. The Visitor: the hook says "capsizing the dinghies", not "sinking the boats" (1News has one capsize on camera and one punctured dinghy; no source has her sinking a boat). The distance analogy is replaced by a weight analogy (300 kg against the average American man, CDC), because no source gives an Antarctica-to-Auckland distance for a seal's trip. The NZ figures are NIWA's (more than 3,000 records, 216 individuals, 74 in 2018); the Hupman et al. journal paper could not be reached, so it is not named. DOC currently lists the species as "Migrant", so the script says "regulars", not "residents".
+3. The Visitor: the hook says "wrecking dinghies" (draft 2; draft 1's "capsizing the dinghies" over-claimed), not "sinking the boats" (1News has one capsize on camera and one punctured dinghy; no source has her sinking a boat). The distance analogy is replaced by a weight analogy (300 kg against the average American man, CDC), because no source gives an Antarctica-to-Auckland distance for a seal's trip. The NZ figures are NIWA's (more than 3,000 records, 216 individuals, 74 in 2018); the Hupman et al. journal paper could not be reached, so it is not named. DOC currently lists the species as "Migrant", so the script says "regulars", not "residents".
 4. The Head: the gape angle is cut (no source; the species accounts say only "enormous gape"). The twist uses the IAATO Marine Wildlife Watching Guidelines, which list "open mouth threat displays" as a sign of a disturbed seal, with "leopard seals on ice" as the example, "similar to yawning". Boat biting is sourced to Palmer Station (Duke marine lab blog, 2015). The IAATO approach-distance line is not used.
 5. The Sieve: the krill share is given only as Hocking et al. state it ("much of their diet"), not as a percentage; Hall-Aspland and Rogers 2004 is a Prydz Bay paper and its figure could not be read.
 6. The Seal Eater: the brief's "up to 78%" crabeater figure has no reachable primary paper (Siniff and Bengtson's paper could not be found; the figure appears only in the Duke OBIS-SEAMAP profile), so the script says "most", from the FAO species guide (Jefferson, Leatherwood and Webber 1993). The fur-seal figure is NOT the media-only 70%: it is the peer-reviewed estimate, 69.3% of pups born each year since 2010 (Krause et al. 2022, Frontiers in Marine Science), said as "about seven in every ten". The analogy is ten cinema seats, not a classroom. The whisker study (Sperou et al. 2025) is worded to its own hedge: a few large females "likely contributed", said as "have likely helped drive the collapse".
@@ -15,11 +15,11 @@
 
 [Open on the thumbnail, 1.5 to 4 seconds: a white ice floe on top, tiny red-capped Doug walking on it, his shadow on the ice. Below the surface, in dark blue, the leopard seal's huge reptile-like head directly under the shadow, mouth slightly open, one eye on Doug. DOUG DEATHS: 234. A small DOUG POSITION strip beside the counter, optional, reads ICE.]
 
-In nineteen sixteen, a leopard seal chased one of Shackleton's men across the ice, tracking his shadow from underneath.
+In nineteen sixteen, a leopard seal burst out of the sea and chased one of Shackleton's men across the ice.
 
 [The floe from below: the dark seal shape, the bright ice above. Doug's field guide opens on a new page: LEOPARD SEAL. The FRIEND? box is empty.]
 
-By the end, Doug is under that ice, where it lives.
+By the end, Doug is under that ice, singing back to one.
 
 On the ice.
 
@@ -27,13 +27,13 @@ On the ice.
 
 The Chase.
 
-[A wide white floe. A small figure on skis. Below the floe, a dark shape keeps pace with the skier's shadow.]
+[A wide white floe. A small figure on skis, almost at a row of tents. A dark ring in the water where something has just gone under.]
 
-A leopard seal does not need to see you to follow you across the ice, because it can watch your shadow from below.
+The seal lost the man it was chasing, and then it found him again.
 
 [Map card: the Weddell Sea, a red dot on drifting ice. Label: "1916". The crushed ship's mast sticking out of the ice in the background.]
 
-That year, Shackleton's men were camped on drifting sea ice after the pack ice had crushed their ship, Endurance. One of them, Thomas Orde-Lees, was skiing back to camp when an enormous seal burst out of the water and chased him across the floe, then dropped back into the sea and vanished.
+That year, Shackleton's men were camped on drifting sea ice after the pack ice had crushed their ship, Endurance. One of them, Thomas Orde-Lees, was skiing back to camp when the enormous seal came after him across the floe, then dropped back into the sea and vanished.
 
 Here's the problem.
 
@@ -111,7 +111,7 @@ The Visitor.
 
 [A city marina at dusk: masts, a skyline, a sign reading "WESTHAVEN". A huge spotted seal lies across a pontoon.]
 
-A leopard seal once moved into a city marina in New Zealand and started capsizing the dinghies.
+A leopard seal once moved into a city marina in New Zealand and started wrecking dinghies.
 
 [Scale card: the seal on a scale, "300 KG". Beside it, three plain stick men on a second scale, "3 AVERAGE MEN".]
 
@@ -169,7 +169,7 @@ The wildlife guidelines that Antarctic tour operators follow list the signs that
 
 Doug leaned out of the boat for a selfie with the smile, and the photo came out very well.
 
-Doug has learned to avoid the boat entirely, so this time, he got in the water.
+Next, Doug leaves the boat behind and gets in the water.
 
 In the water.
 
@@ -237,7 +237,7 @@ Scientists had long suspected what those back teeth were for, but this was the f
 
 [Doug floating in the middle of the krill cloud, cap on, holding a hand-lettered sign: "KRILL".]
 
-Doug is hiding in a swarm of krill, carrying a sign that says krill, in case anybody has doubts.
+Doug is hiding in a swarm of krill, carrying a sign that says krill.
 
 [A huge whoosh. The krill cloud is gone. Cut to black. The red cap pops out through the gaps in the teeth and floats. DOUG DEATHS: 238.]
 
@@ -269,7 +269,7 @@ The disturbing part is the survivors.
 
 [Pack ice. A group of crabeater seals hauled out. Each one has three simple pale lines on its side.]
 
-Out in the pack ice, crabeater seals live alongside them. The majority of adult crabeaters carry long scars, often in pairs, that are thought to come from leopard seal attacks they escaped when they were young. Most of the crabeaters you'll ever see have already survived this animal once.
+Out in the pack ice, crabeater seals live alongside them. The majority of adult crabeaters carry long scars, often in pairs, that are thought to come from leopard seal attacks they escaped when they were young. Most of the crabeaters you'll ever see have probably already survived this animal once.
 
 [Doug arrives in the seal costume, cap on top. Speech bubble: "hi friends?" Every crabeater has stripes. Doug's costume is perfectly clean.]
 
@@ -277,7 +277,7 @@ Doug has joined the crabeaters in his seal costume, and he's the only one withou
 
 [A splash. Cut to black. The seal costume floats flat, cap on top. DOUG DEATHS: 239.]
 
-So far, it has hunted seals, penguins and Doug, and once, on record, it killed a person.
+It hunts seals and penguins, and once, on record, it killed a person.
 
 ## The Snorkeller
 
@@ -323,13 +323,13 @@ In the nineteen nineties, the biologist Tracey Rogers rode a quad bike out acros
 
 [Five simple symbols on a card, each a different call. Then the same five in different orders, one row per seal.]
 
-Every song is built from the same five calls, and each male puts them in his own order. In two thousand twenty-five, researchers at the University of New South Wales measured how predictable those songs are. They came out about as predictable as simple human songs, and more predictable than classical or modern music, a structure that helps the song reach distant listeners accurately. Rogers has suggested that, to rival males, the song could mean this patch is taken.
+Every song is built from the same five calls, and each male puts them in his own order. In two thousand twenty-five, researchers at the University of New South Wales measured how predictable those songs are. They came out about as predictable as simple human songs, and more predictable than classical or modern music, a structure that helps the song reach distant listeners accurately.
 
 And here's the twist.
 
 [Pull back: the whole video's path drawn as a dotted line, from the floe, to the edge, to the boat, to the water, and down to here.]
 
-Doug has spent this whole video being hunted from below. Down here, where the leopard seal actually lives, it isn't hunting at all. It's singing the same five notes, over and over, to anyone who'll listen.
+Every time Doug met this seal, it came at him from the water. Down here, where the leopard seal actually lives, it isn't hunting at all. It's singing the same five notes, over and over, to anyone who'll listen.
 
 [Doug under the ice in a diving mask, cap over it, hanging upside down from the ice ceiling beside the singing seal. His eyes are closed. He is enjoying it.]
 
@@ -337,7 +337,7 @@ Doug listened. That was the problem.
 
 [Doug starts humming along. Small music notes from Doug. The seal's notes stop. The seal turns its head.]
 
-To a rival male, that song could mean this patch is taken, and Doug had just sung one back.
+Rogers has suggested that, to a rival male, a song like that could mean this patch is taken, and Doug had just sung one back.
 
 [Cut to black. DOUG DEATHS: 240. The field guide LEOPARD SEAL page: "MAYBE" is rubbed out and a red "NO" is stamped in the FRIEND? box.]
 
@@ -349,4 +349,4 @@ The first thing it followed was Doug's shadow, and now it's following the cap's.
 
 Doug deaths: two hundred and forty. The cap is under the ice now. The next place Doug really shouldn't go is right there on screen.
 
-<!-- words: 2022 (spoken narration only: cold open, spoken band headers, item names and outro included; markdown headings, HTML comments and stage directions excluded; regex word count, same method as 027) · est. runtime 10:22 at 195 wpm, about 10:25 with the thumbnail hold (brief target 1,950-2,350, 10-12 min) · draft 1 (2026-10-27) · 9 items · 137 sentences, average 14.8 words, longest 33 · Flesch reading ease 71.8 (textstat) · cold open 33 words, "The Chase." at spoken words 34-35, twist marker "Here's the problem." at word 111 (about 0:34 of narration), Doug's first line at word 200, first death (235) after word 223 · per item (each count includes the band header that follows it): The Chase 216 (249 with the cold open), The Ice Edge 255, The Visitor 225, The Head 215, The Gift 210, The Sieve 206, The Seal Eater 242, The Snorkeller 129, The Song 291 including the 23-word outro (268 without) · kickers (last sentence per item): 12, 16, 15, 15, 20, 16, 17, 13, 15, all 8 to 25 · twist markers, all different: Here's the problem / The worst part is / Here's the part people get wrong / But that's not the disturbing part / The strange part is / Here's the part nobody had seen / The disturbing part is / This is the part that matters / And here's the twist · tics: "actually" 2, "However"/"essentially"/"incredibly" 0 · US spelling except "snorkelling" (kept to match the brief and BAS usage; the editor may switch it to "snorkeling") -->
+<!-- words: 1990 (spoken narration only: cold open, spoken band headers, item names and outro included; markdown headings, HTML comments and stage directions excluded; regex word count, same method as draft 1) · est. runtime 10:12 at 195 wpm (brief target 1,950-2,350, 10-12 min) · draft 2 (2026-10-27) · 9 items · twist marker "Here's the problem." at spoken word 98, "The Chase." at spoken words 36-37 · draft 2 changes: cold open drops the shadow (fix 1); item 1 opener rewritten to the single case (fix 2); payoff promise "singing back to one" (fix 3); "wrecking dinghies" (fix 4); "probably already survived" (fix 5); Doug removed from the lead-in to the real death (fix 6); "in case anybody has doubts" cut (fix 7); The Head kicker straightened (fix 8); "Every time Doug met this seal, it came at him from the water" (fix 9); the Rogers "patch" line said once, at the Doug beat (fix 10); item 1's first stage direction no longer shows the shadow before the twist · pronunciations for Owha, Whangarei, Orde-Lees, Shirreff and Rothera added to voice.pronunciations in config/channel.yaml -->

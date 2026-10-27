@@ -32,6 +32,11 @@ voice:                       # Google Cloud TTS, Chirp 3: HD
     - {phrase: "Palaeodictyoptera", ipa: "ˈpeɪlioʊˈdɪktiˈɒptərə"}
     - {phrase: "eurypterid", ipa: "jʊˈrɪptərɪd"}
     - {phrase: "Lothian", ipa: "ˈloʊðiən"}
+    - {phrase: "Owha", ipa: "ˈoʊfɑ"}
+    - {phrase: "Whangarei", ipa: "ˌfɑŋɑˈreɪ"}
+    - {phrase: "Orde-Lees", ipa: "ˈɔrd ˈliz"}
+    - {phrase: "Shirreff", ipa: "ˈʃɪrɪf"}
+    - {phrase: "Rothera", ipa: "ˈrɒθərə"}
   fallback_wpm: 197          # only used for dry runs without an API key
 
 video:
