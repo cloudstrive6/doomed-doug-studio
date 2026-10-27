@@ -288,6 +288,8 @@ def _silhouette(el, cv):
         return el
     if el.get("type") in ("text", "label", "spray", "wordart"):
         return None
+    if el.get("silhouette_keep"):  # water ripples/drips: keep their own colour, never rimmed (029 s099: red "blood" drips)
+        return None if isinstance(cv.silhouette, str) else el
     sc = cv.silhouette if isinstance(cv.silhouette, str) else "#000000"
     el = dict(el)
     el["color"] = sc

@@ -132,7 +132,7 @@
       "x": 1050,
       "y": 808.75,
       "r": 225,
-      "color": "#e0201b",
+      "color": "#5e4670",
       "density": 0.22,
       "appear": 0.22
      },
@@ -12659,9 +12659,9 @@
      {
       "type": "text",
       "text": "THE VISITOR",
-      "x": 960,
-      "y": 300,
-      "size": 140,
+      "x": 880,
+      "y": 235,
+      "size": 120,
       "color": "#e0201b",
       "outline": "#000000",
       "outline_width": 7,
@@ -13035,7 +13035,7 @@
      },
      {
       "type": "doug",
-      "x": 500,
+      "x": 590,
       "y": 620,
       "scale": 0.5,
       "pose": "wave",
@@ -13335,7 +13335,7 @@
      },
      {
       "type": "doug",
-      "x": 500,
+      "x": 590,
       "y": 620,
       "scale": 0.5,
       "pose": "stand",
@@ -13469,7 +13469,7 @@
      },
      {
       "type": "doug",
-      "x": 500,
+      "x": 590,
       "y": 620,
       "scale": 0.5,
       "pose": "point",
@@ -14082,7 +14082,7 @@
      },
      {
       "type": "doug",
-      "x": 500,
+      "x": 590,
       "y": 620,
       "scale": 0.5,
       "pose": "think",
@@ -16358,7 +16358,7 @@
       "x": 960,
       "y": 720,
       "scale": 0.6,
-      "pose": "stand",
+      "pose": "hands_hips",
       "expression": "flat",
       "facing": "right"
      },
@@ -16482,7 +16482,7 @@
       "x": 960,
       "y": 720,
       "scale": 0.6,
-      "pose": "stand",
+      "pose": "hands_hips",
       "expression": "flat",
       "facing": "right"
      },
@@ -16636,7 +16636,7 @@
       "x": 960,
       "y": 720,
       "scale": 0.6,
-      "pose": "stand",
+      "pose": "hands_hips",
       "expression": "sad",
       "facing": "right"
      },
@@ -17091,7 +17091,7 @@
      },
      {
       "type": "rect",
-      "x": 260,
+      "x": 180,
       "y": 180,
       "w": 1100,
       "h": 760,
@@ -17102,7 +17102,7 @@
      },
      {
       "type": "spray",
-      "x": 810,
+      "x": 730,
       "y": 560,
       "r": 520,
       "color": "#9a6a3a",
@@ -17110,7 +17110,7 @@
      },
      {
       "type": "rect",
-      "x": 400,
+      "x": 320,
       "y": 260,
       "w": 760,
       "h": 560,
@@ -17121,7 +17121,7 @@
      },
      {
       "type": "rect",
-      "x": 430,
+      "x": 350,
       "y": 290,
       "w": 700,
       "h": 300,
@@ -17133,7 +17133,7 @@
      },
      {
       "type": "rect",
-      "x": 430,
+      "x": 350,
       "y": 590,
       "w": 700,
       "h": 200,
@@ -17147,11 +17147,11 @@
       "type": "line",
       "points": [
        [
-        430,
+        350,
         590
        ],
        [
-        1130,
+        1050,
         590
        ]
       ],
@@ -17161,14 +17161,14 @@
      {
       "type": "asset",
       "name": "leopard_seal_gape",
-      "x": 780,
+      "x": 700,
       "y": 720,
       "scale": 0.85,
       "flip": true
      },
      {
       "type": "circle",
-      "x": 780,
+      "x": 700,
       "y": 250,
       "r": 14,
       "fill": "#e0201b",
@@ -17187,7 +17187,7 @@
      {
       "type": "wordart",
       "text": "GRIN",
-      "x": 800,
+      "x": 720,
       "y": 350,
       "size": 80,
       "boil": 0,
@@ -17226,7 +17226,7 @@
      },
      {
       "type": "rect",
-      "x": 260,
+      "x": 180,
       "y": 180,
       "w": 1100,
       "h": 760,
@@ -17237,7 +17237,7 @@
      },
      {
       "type": "spray",
-      "x": 810,
+      "x": 730,
       "y": 560,
       "r": 520,
       "color": "#9a6a3a",
@@ -17245,7 +17245,7 @@
      },
      {
       "type": "rect",
-      "x": 400,
+      "x": 320,
       "y": 260,
       "w": 760,
       "h": 560,
@@ -17256,7 +17256,7 @@
      },
      {
       "type": "rect",
-      "x": 430,
+      "x": 350,
       "y": 290,
       "w": 700,
       "h": 300,
@@ -17268,7 +17268,7 @@
      },
      {
       "type": "rect",
-      "x": 430,
+      "x": 350,
       "y": 590,
       "w": 700,
       "h": 200,
@@ -17282,11 +17282,11 @@
       "type": "line",
       "points": [
        [
-        430,
+        350,
         590
        ],
        [
-        1130,
+        1050,
         590
        ]
       ],
@@ -17296,14 +17296,14 @@
      {
       "type": "asset",
       "name": "leopard_seal_gape",
-      "x": 780,
+      "x": 700,
       "y": 720,
       "scale": 0.85,
       "flip": true
      },
      {
       "type": "circle",
-      "x": 780,
+      "x": 700,
       "y": 250,
       "r": 14,
       "fill": "#e0201b",
@@ -17321,7 +17321,7 @@
      },
      {
       "type": "rect",
-      "x": 950,
+      "x": 870,
       "y": 640,
       "w": 330,
       "h": 220,
@@ -17334,7 +17334,7 @@
      {
       "type": "text",
       "text": "WARNING SIGN",
-      "x": 1115,
+      "x": 1035,
       "y": 750,
       "size": 44,
       "color": "#000000",
@@ -17611,8 +17611,8 @@
      {
       "type": "wordart",
       "text": "ENORMOUS GAPE",
-      "x": 960,
-      "y": 220,
+      "x": 880,
+      "y": 300,
       "size": 80,
       "boil": 0,
       "appear": 0.4
@@ -40283,20 +40283,17 @@
      {
       "type": "group",
       "x": 760,
-      "y": 276,
+      "y": 290,
       "scale": 1.0,
       "elements": [
        {
         "type": "doug",
         "x": 0,
         "y": 0,
-        "scale": 0.5,
+        "scale": 0.6,
         "pose": "stand",
         "expression": "sleepy",
-        "facing": "right",
-        "gear": [
-         "mask"
-        ]
+        "facing": "right"
        }
       ],
       "rotate": 180
@@ -40553,20 +40550,17 @@
      {
       "type": "group",
       "x": 760,
-      "y": 276,
+      "y": 290,
       "scale": 1.0,
       "elements": [
        {
         "type": "doug",
         "x": 0,
         "y": 0,
-        "scale": 0.5,
+        "scale": 0.6,
         "pose": "stand",
         "expression": "sleepy",
-        "facing": "right",
-        "gear": [
-         "mask"
-        ]
+        "facing": "right"
        }
       ],
       "rotate": 180
@@ -40836,20 +40830,17 @@
      {
       "type": "group",
       "x": 760,
-      "y": 276,
+      "y": 290,
       "scale": 1.0,
       "elements": [
        {
         "type": "doug",
         "x": 0,
         "y": 0,
-        "scale": 0.5,
+        "scale": 0.6,
         "pose": "stand",
         "expression": "hopeful",
-        "facing": "right",
-        "gear": [
-         "mask"
-        ]
+        "facing": "right"
        }
       ],
       "rotate": 180
@@ -41114,20 +41105,17 @@
      {
       "type": "group",
       "x": 760,
-      "y": 276,
+      "y": 290,
       "scale": 1.0,
       "elements": [
        {
         "type": "doug",
         "x": 0,
         "y": 0,
-        "scale": 0.5,
+        "scale": 0.6,
         "pose": "stand",
         "expression": "hopeful",
-        "facing": "right",
-        "gear": [
-         "mask"
-        ]
+        "facing": "right"
        }
       ],
       "rotate": 180
@@ -41400,20 +41388,17 @@
      {
       "type": "group",
       "x": 760,
-      "y": 276,
+      "y": 290,
       "scale": 1.0,
       "elements": [
        {
         "type": "doug",
         "x": 0,
         "y": 0,
-        "scale": 0.5,
+        "scale": 0.6,
         "pose": "stand",
         "expression": "shock",
-        "facing": "right",
-        "gear": [
-         "mask"
-        ]
+        "facing": "right"
        }
       ],
       "rotate": 180

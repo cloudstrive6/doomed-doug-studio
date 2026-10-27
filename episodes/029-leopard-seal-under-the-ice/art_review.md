@@ -145,3 +145,86 @@ diagram pieces. They do not change the head, palette or spots.
 The illustrator redraws items 4-8 (fixes 1-5), re-runs `python -m studio asset-preview` for those five, and pings me for round 2.
 The 32 approved assets need no further review. `_gape` is bottom-anchored and about 390 tall, so the default preview cell
 crops its head. Preview it at `--scale 0.6` or on a scene canvas.
+
+---
+
+# Keyframes + thumbnails, round 1 (art director, 2026-10-27)
+
+## Verdict: FAIL. Style, palette and Doug are consistent; layout variety and the thumbnails' water colour are not.
+
+I reviewed all 23 contact sheets (264 shots plus the endslate), checked the suspect shots at full frame, and looked at
+the three thumbnails at full size and at feed size.
+
+**Passes:**
+- The two-tier look holds in every shot.
+- Doug's red cap is visible in every Doug shot, including the ghosts and the costume deaths (s067, s210). The cap stays in frame on
+  every death beat (s031, s124, s179/s180, s210, s257-s263).
+- Sea and sub-ice water are `#3a9ad9` everywhere in the body of the video.
+- Item title cards are red. The Snorkeller uses the white sober title, following the 027 Legend precedent.
+- Death counter values are correct: 234 to 240.
+- There is no gore. The open mouths use `#7a0d0d`, and no penguin is shown being caught.
+
+## Fixed myself (shotlist re-rendered, `validate shotlist` OK)
+1. **s002**: the red speckle glow on the cream 1916 floe read as blood spatter next to the skier. I changed it to the dull purple
+   `#5e4670`, per the art bible's rule for tan and brown grounds.
+2. **s099, s182**: the red silhouette rim also traced the asset's water drips and ripple rings. That produced red "drips" hanging
+   from the jaw and red rings in the water, which read as blood. I added an engine flag `"silhouette_keep": true`
+   (`studio/paint.py`, `_silhouette`): when it is set, an element keeps its own colour inside a silhouette and is skipped by the
+   rim pass. I tagged the drips and ripples in `leopard_seal_head_rising.json` with it. This is metadata only, and the asset's normal
+   look is unchanged. The rim now hugs only the head.
+3. **s071**: the THE VISITOR title sat on the skyline. Its glyphs crossed the building tops (skylines count as land, per the 027
+   treeline rule). I moved it to (880, 235) at size 120. It is now clear of the buildings and its right edge stays under x 1280,
+   outside the counter zone.
+4. **s074, s077, s078, s083**: Doug stood on the pier post at x 500, so the post's outlines ran through his torso. I moved him to x 590,
+   on clear deck in front of the second hull.
+5. **s094-s096**: in "waist deep", the `stand` arms under the head read as two short legs, so it looked like a head on legs. I
+   changed the pose to `hands_hips` so the elbows read as arms at the waterline.
+6. **s101, s102**: the photo board's top-right corner (1360, 180) butted against the counter box. I shifted the whole board, with
+   the photo, pin, GRIN wordart and WARNING SIGN note, 80 px left, so the right edge is at 1280.
+7. **s105**: the ENORMOUS GAPE wordart reached x 1320 at y 185-250, inside the counter zone. I moved it to (880, 300).
+8. **s252-s256**: upside-down Doug at 0.5 with `mask` had his eyes covered by the mask and the cap covering half his head, so he
+   read as a red-and-white ball or bobber. I removed `mask` (no other under-ice Doug wears one) and raised the scale to 0.6 (group
+   y 290). His eyes now read, and the cap hanging below matches the 017 upside-down convention.
+
+Note for whoever re-renders: `keyframes --shots` rewrites `build/contact` with only the listed shots. I rebuilt the full 23-sheet
+set from the existing keyframes afterwards.
+
+## Required fixes: director (layout variety, no more than 4 shots in a row with the same composition, per the 028 rule)
+1. **s010-s022 (13 shots)**: the 1916 framed panel is on the left with Doug on the right. Only the panel's contents change. Turn
+   2-3 of these into full-frame sepia shots that keep the "1916" tag:
+   - s017 "tracked his shadow": a full-width under-ice view of the seal looking up at the shadow.
+   - s019/s020 floor/window: a full-frame split, with the skier on top and the seal below.
+   - s012 ENORMOUS: a scale beat.
+2. **s037-s041 (5)**: the same penguin-row edge shot five times. Make s040 or s041 a different view, either from below the ice
+   edge or a close-up of the strip.
+3. **s084-s091 (8)**: the NZ map is on the left with a prop on the right every time. Make s086 (public reports) and s088 (216 seals)
+   full-frame (a phone or hotline card, and a lineup of seals), so the map shots are not consecutive.
+4. **s109-s113 (5)**: Palmer Station is the same wide shot five times. Make s110 or s112 a close-up of a seal biting a pontoon.
+5. **s129-s139 (11)**: diver, seal and Doug are in the same underwater layout. s134 already has an inset. Also break s131/s132
+   (Paul Nicklen, 2006), for example with a magazine-cover card, and s135 with a close-up of the head over the camera.
+6. **s148-s152 (5)**: Doug and the seal in the same mid-water frame. Make s152 ("and frankly, so are we") a different shot.
+7. **s199-s210 (12)**: the pack-ice crabeater scene is the backdrop for all twelve shots. Break it twice: s203 (escaped when young)
+   as a framed flashback, and s204/s205 as a stat or close-up card.
+8. **s212-s224 (13 sober cards)**: keep them sober, with no Doug, no counter and no joke, but vary 2-3 of them using the 027
+   sober-card palette. For example, a muted map of the Antarctic Peninsula with a Rothera marker (`#2a3440` sea, `#4a5a48` land) for
+   s215, and a closed dive-log book with the four tally marks for s220/s221. The text position also jumps between centre (s214-s216)
+   and top (s217-s219). Pick one.
+9. **s249-s256 (8)**: the same under-ice frame. Break s253 or s254 with a close-up of the singing seal or a rival-male card for
+   "to a rival male".
+
+## Required fixes: graphic designer (thumbnails)
+10. **All three variants use navy water** (`#0b2a55`): under the sea ice in A and in C's Song tile, and at the surface in B. This
+    breaks the art-bible rule that water under sea ice, and at any surface scene, is `#3a9ad9`, never a deeper ramp colour for
+    "cold". It matters most for **A**, because A is also s001: the video opens on navy and then cuts to `#3a9ad9` at s003. Use
+    `#3a9ad9` with `#6fc1ee` speckle. The seal's grey and the black-outlined white text still read on it.
+11. **B (CORNERED)**: Doug is about 45% of the frame height and co-stars with the seal. Style bible 7.10 allows Doug only as a
+    small scale figure. Shrink him to about half that size, or keep B only as a logged deliberate test.
+12. **C (2x2 tiles)**: this is off-spec for Archetype A, which needs 6-12 tiles with the bold label *under* each tile. If C goes to
+    A/B testing as a deliberate 4-tile control, log that in `decisions.md`. Otherwise use 6-8 chapter tiles with labels underneath
+    (skip The Snorkeller).
+- Otherwise the thumbnails are fine. All three read at feed size, the text is not in the title, and there is no gore. The seal's
+  mouth is closed in A and B, and C's Head tile uses the approved gape.
+
+## Next
+The director breaks runs 1-9 and re-renders. The graphic designer fixes 10-12 and re-renders s001 together with `thumbnail`. I
+re-check only the changed shots in round 2.

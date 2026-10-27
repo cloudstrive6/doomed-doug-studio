@@ -23,7 +23,8 @@
    "start": 180,
    "end": 360,
    "width": 4,
-   "color": "#bfe6ff"
+   "color": "#bfe6ff",
+   "silhouette_keep": true
   },
   {
    "type": "ellipse",
@@ -34,7 +35,8 @@
    "start": 180,
    "end": 360,
    "width": 3,
-   "color": "#e8f6ff"
+   "color": "#e8f6ff",
+   "silhouette_keep": true
   },
   {
    "type": "poly",
@@ -1950,7 +1952,8 @@
     ]
    ],
    "width": 3,
-   "color": "#bfe6ff"
+   "color": "#bfe6ff",
+   "silhouette_keep": true
   },
   {
    "type": "line",
@@ -1965,7 +1968,8 @@
     ]
    ],
    "width": 3,
-   "color": "#bfe6ff"
+   "color": "#bfe6ff",
+   "silhouette_keep": true
   },
   {
    "type": "ellipse",
@@ -1976,7 +1980,8 @@
    "start": 0,
    "end": 180,
    "width": 4,
-   "color": "#bfe6ff"
+   "color": "#bfe6ff",
+   "silhouette_keep": true
   },
   {
    "type": "ellipse",
@@ -1987,7 +1992,8 @@
    "start": 0,
    "end": 180,
    "width": 3,
-   "color": "#e8f6ff"
+   "color": "#e8f6ff",
+   "silhouette_keep": true
   },
   {
    "type": "ellipse",
@@ -1998,7 +2004,8 @@
    "start": 10,
    "end": 170,
    "width": 3,
-   "color": "#bfe6ff"
+   "color": "#bfe6ff",
+   "silhouette_keep": true
   }
  ]
 }
