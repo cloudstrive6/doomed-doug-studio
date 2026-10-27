@@ -1,6 +1,6 @@
 {
  "name": "mosasaurus",
- "description": "Mosasaurus hoffmannii (028), the Maastricht giant marine lizard: massive deep skull that tapers in a long triangle to a blunt conical tip, NO bony rostrum (unlike tylosaurus), robust jaws open with interlocking conical teeth (gape reads as a zig-zag in silhouette; neck slightly narrower than skull) with conical teeth (dark red mouth, no blood), long body with dark grey-green #3f5a5a back over mid #5a7a76 with lighter scale arcs, pale belly, four paddle flippers with digit lines, tail ending in a downturned crescent fluke. Mid-tone for chalky #6aaabf water; reads tilted. Facing right; anchor centre; x -520..520, y -130..150.",
+ "description": "Mosasaurus hoffmannii (028), the Maastricht giant marine lizard: massive deep skull that tapers in a long triangle to a blunt conical tip, NO bony rostrum (unlike tylosaurus), robust jaws open with interlocking conical teeth (gape reads as a zig-zag in silhouette; neck slightly narrower than skull) with conical teeth (dark red mouth, no blood), long body with dark grey-green #3f5a5a back over mid #5a7a76 with lighter scale arcs, pale belly, four paddle flippers with digit lines, tail ending in a downturned crescent fluke. Mid-tone for chalky #6aaabf water; reads tilted. Facing right; anchor centre; x -520..520, y -130..150. Silhouette-safe: the open gape is drawn with spray (skipped in silhouette), so the black silhouette keeps a long low pointed skull with open toothed jaws, distinct from the blunt Livyatan head.",
  "anchor": [
   0,
   0
@@ -1158,19 +1158,19 @@
    "type": "poly",
    "points": [
     [
-     262,
+     258,
      8
     ],
     [
-     372,
-     4
+     292,
+     12
     ],
     [
-     372,
-     46
+     292,
+     32
     ],
     [
-     262,
+     258,
      40
     ]
    ],
@@ -1178,6 +1178,246 @@
    "width": 0,
    "color": "#000000",
    "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 296,
+   "y": 21.0,
+   "r": 10.0,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 302,
+   "y": 21.2,
+   "r": 10.6,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 308,
+   "y": 21.4,
+   "r": 11.2,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 314,
+   "y": 21.7,
+   "r": 11.8,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 320,
+   "y": 21.9,
+   "r": 12.4,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 326,
+   "y": 22.1,
+   "r": 13.0,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 332,
+   "y": 22.3,
+   "r": 13.6,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 338,
+   "y": 22.5,
+   "r": 14.2,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 344,
+   "y": 22.8,
+   "r": 14.8,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 350,
+   "y": 23.0,
+   "r": 15.4,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 356,
+   "y": 23.2,
+   "r": 16.0,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 362,
+   "y": 23.4,
+   "r": 16.6,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 368,
+   "y": 23.7,
+   "r": 17.2,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 374,
+   "y": 23.9,
+   "r": 17.8,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 380,
+   "y": 24.1,
+   "r": 18.4,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 386,
+   "y": 24.3,
+   "r": 19.0,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 392,
+   "y": 24.5,
+   "r": 19.6,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 398,
+   "y": 24.8,
+   "r": 20.2,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 404,
+   "y": 25.0,
+   "r": 20.8,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 410,
+   "y": 25.2,
+   "r": 21.4,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 416,
+   "y": 25.4,
+   "r": 22.0,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 422,
+   "y": 25.6,
+   "r": 22.6,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 428,
+   "y": 25.9,
+   "r": 23.2,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 434,
+   "y": 26.1,
+   "r": 23.8,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 440,
+   "y": 26.3,
+   "r": 24.4,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 446,
+   "y": 26.5,
+   "r": 25.0,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 452,
+   "y": 26.7,
+   "r": 25.6,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 458,
+   "y": 27.0,
+   "r": 26.2,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 464,
+   "y": 27.2,
+   "r": 26.8,
+   "color": "#7a0d0d",
+   "density": 14
+  },
+  {
+   "type": "spray",
+   "x": 470,
+   "y": 27.4,
+   "r": 27.4,
+   "color": "#7a0d0d",
+   "density": 14
   },
   {
    "type": "poly",
@@ -1212,19 +1452,19 @@
     ],
     [
      440,
-     80
+     74
     ],
     [
      370,
-     88
+     80
     ],
     [
      300,
-     90
+     82
     ],
     [
      244,
-     72
+     70
     ]
    ],
    "fill": "#5a7a76",
@@ -1238,15 +1478,15 @@
    "points": [
     [
      290,
-     76
+     70
     ],
     [
      370,
-     74
+     70
     ],
     [
      440,
-     66
+     64
     ],
     [
      490,
@@ -1254,15 +1494,15 @@
     ],
     [
      440,
-     80
+     74
     ],
     [
      370,
-     88
+     80
     ],
     [
      300,
-     90
+     82
     ]
    ],
    "fill": "#d9dcc6",
@@ -1300,19 +1540,19 @@
     ],
     [
      440,
-     80
+     74
     ],
     [
      370,
-     88
+     80
     ],
     [
      300,
-     90
+     82
     ],
     [
      244,
-     72
+     70
     ]
    ],
    "width": 5,
@@ -1327,23 +1567,23 @@
     ],
     [
      290,
-     -82
+     -68
     ],
     [
      350,
-     -82
+     -62
     ],
     [
      420,
-     -66
+     -48
     ],
     [
      478,
-     -42
+     -30
     ],
     [
      512,
-     -20
+     -14
     ],
     [
      521,
@@ -1389,35 +1629,35 @@
     ],
     [
      290,
-     -79
+     -65
     ],
     [
      350,
-     -80
+     -59
     ],
     [
      420,
-     -64
+     -46
     ],
     [
      478,
-     -40
-    ],
-    [
-     500,
      -28
     ],
     [
+     496,
+     -20
+    ],
+    [
      460,
-     -30
+     -22
     ],
     [
      400,
-     -44
+     -32
     ],
     [
      330,
-     -50
+     -40
     ],
     [
      262,
@@ -1434,24 +1674,28 @@
    "type": "curve",
    "points": [
     [
-     290,
-     -82
-    ],
-    [
-     350,
-     -82
-    ],
-    [
-     420,
+     262,
      -66
     ],
     [
+     290,
+     -68
+    ],
+    [
+     350,
+     -62
+    ],
+    [
+     420,
+     -48
+    ],
+    [
      478,
-     -42
+     -30
     ],
     [
      512,
-     -20
+     -14
     ],
     [
      521,
@@ -1786,11 +2030,11 @@
    "points": [
     [
      292,
-     -74
+     -66
     ],
     [
      278,
-     -24
+     -22
     ],
     [
      290,
@@ -1802,20 +2046,20 @@
   },
   {
    "type": "ellipse",
-   "x": 392,
-   "y": -50,
-   "rx": 15,
-   "ry": 12,
+   "x": 388,
+   "y": -36,
+   "rx": 14,
+   "ry": 11,
    "fill": "#e8d860",
    "width": 3,
    "color": "#000000"
   },
   {
    "type": "ellipse",
-   "x": 395,
-   "y": -50,
+   "x": 391,
+   "y": -36,
    "rx": 4,
-   "ry": 10,
+   "ry": 9,
    "fill": "#000000",
    "width": 1,
    "color": "#000000"
@@ -1824,12 +2068,12 @@
    "type": "line",
    "points": [
     [
-     372,
-     -70
+     368,
+     -54
     ],
     [
-     414,
-     -60
+     410,
+     -46
     ]
    ],
    "width": 5,
@@ -1837,8 +2081,8 @@
   },
   {
    "type": "ellipse",
-   "x": 500,
-   "y": -20,
+   "x": 503,
+   "y": -12,
    "rx": 7,
    "ry": 4,
    "fill": "#000000",
@@ -1850,15 +2094,15 @@
    "points": [
     [
      320,
-     -48.0
+     -40
     ],
     [
      326,
-     -42.0
+     -34
     ],
     [
      332,
-     -48.0
+     -40
     ]
    ],
    "width": 2,
@@ -1869,15 +2113,15 @@
    "points": [
     [
      354,
-     -50.0
+     -42
     ],
     [
      360,
-     -44.0
+     -36
     ],
     [
      366,
-     -50.0
+     -42
     ]
    ],
    "width": 2,
@@ -1887,16 +2131,16 @@
    "type": "curve",
    "points": [
     [
-     434,
-     -34.0
-    ],
-    [
      440,
-     -28.0
+     -22
     ],
     [
      446,
-     -34.0
+     -16
+    ],
+    [
+     452,
+     -22
     ]
    ],
    "width": 2,

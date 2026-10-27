@@ -58,3 +58,32 @@
 15. **Assets:** 24 new drawings were requested in `asset_requests.md`. `shark_cage` is in 225 shots, so it is the illustrator's first
     job. The keyframes were checked against temporary outline placeholders (since deleted). Re-run `keyframes` once the real
     assets land.
+
+## 2026-10-27, director: keyframe round 1 fixes
+16. **Art review fixes 1-24 and visual review blocking items 1, 2, 4-8 (round 1).** Most of these landed in the shotlist in
+    commit cb9f6e0 and were not logged then. All keyframes were re-rendered in full and every item was checked on the
+    frames. Status:
+    - Done in cb9f6e0 and verified: s010 has one Doug (the cage Doug, no Doug at the booth). s303 has an empty cage, a frayed
+      rope, a falling arrow and the cap on the cage. All 11 chapter cards have the cage at x 230 (s218 on the bank at the
+      right), and s085 has no rope and its cage sits below the counter zone. s031 is a silhouette, so s036 is the first
+      colour mosasaur. s035/s062/s113/s245 use `glow_r: 0` with no pale disc. s054 points snout-up with the arrow leading
+      from the snout. The layout runs are all broken to 2-3 boards max: s018, s073, s089, s092, s146, s149, s182, s184,
+      s206/s207, s280/s281, s283 and s286 are full-frame cutaways. Labels: s017, s187, s256, s261 and s286 keep at most 2
+      labels (the extra numbers are small text inside the asset), and s242 reads "NO SEA, NO PUPS". s028, s077, s084,
+      s234 and s237 have their text in clear space. s002 has the hoist clear of the door. s008 has the board above-left.
+      s172 uses the shell, s176 uses a small X beside the O2, and s148 keeps the denticles inside the panel. s060/s061 use
+      `#2a6aa6`/`#8faecb`. s207/s208 use solid green clumps. s252 has an "x6" label, a "BURJ KHALIFA" label and a base,
+      with the tip under the HUD. s049/s071/s156 use `city_bus`. s024 has DOUG bars. s200/s201 label Siberia and Alaska,
+      and the mammoth is 2x. s066 shows Ruby in colour. The Ice Age underwater shots (s203-s209) use `#4a9ec8`/`#dfe6ec`.
+    - New in this pass: **s086**: "END OF THE WORLD?" moved right (x 1250 to 1330), off Doug's face. **s149**: dropped the
+      3 denticles that poked past the flank outline and the frame edge (fix 22). **s309**: the mosasaur silhouette was
+      raised into the water band. **Endslate (fix 23)**: the end slate is built by the engine, not the shotlist, so
+      `studio/assemble.py` `end_slate_shot` now places the title wordart at x 530 and size 76 (x 470 and size 84 before).
+      It now starts at about x 130, inside title-safe, and still clears the end-screen frame at x 1010. This applies to
+      every episode's end slate from now on.
+    - Not changed: the cage rope runs behind the caption bar in s051/s052/s056 and others. The reviewer said it reads fine,
+      and moving these cages would re-block several shots. Visual review 13: the `sun_hat` stays (art-approved, with the
+      cap dome and brim visible). Doug now stands on the cage, so his face clears the bars, and s108's sunburn is the
+      intentional radiation gag. Visual review 3 (mosasaur silhouette fill) is the illustrator's job and is in progress.
+      Visual review 20 (the subtitle font has no ú/ó glyphs) is for the editor.
+    - `validate shotlist`: OK. The only warning is the existing script-length note. `shorts validate`: OK.

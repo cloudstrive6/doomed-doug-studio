@@ -172,6 +172,11 @@ anchor, x -220..220, y -130..130.
 - `mosasaurus` silhouette: redrawn (6c83369) so the silhouette follows the tapered snout and zig-zag jaw, with no blunt
   head; it no longer matches the boxy Livyatan silhouette. Checked in s030/s034/s035/s036/s113 keyframes.
   **Done** (illustrator): preview `assets/previews/028-mosasaurus-silhouette-check.png` (normal / silhouette / on water / livyatan)
+  - Round 2: the silhouette still bulged because the red mouth-interior poly filled the jaw gap and the skull rose above
+    the body line. The gape is now drawn with spray (skipped in silhouette) behind a small throat wedge, and the skull is
+    lower and tapers to the snout, so the silhouette shows long open toothed jaws. Rechecked s030/s031/s034/s035/s036/s113/s309.
+    **Done** (illustrator): preview `assets/previews/028-mosasaurus-silhouette-check-r2.png` (normal / mosasaur sil + rim /
+    livyatan sil / mosasaur sil no rim)
 - `burj_khalifa`: redrawn (6c83369), stepped setbacks + podium + spire, reads at scale 0.25 in s252. The label and keeping
   the top copy below the HUD are director items. **Done**: preview `assets/previews/028-megalodon-every-era-assets-r2b.png`
 - `city_bus` (NEW, swap for `school_bus` in s049, s071, s156): white/red transit bus, flat front, LED route sign "42 CITY",

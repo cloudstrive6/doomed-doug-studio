@@ -61,7 +61,7 @@ def end_slate_shot(cfg: dict) -> dict:
                 {**frame, "appear": 0.1},
                 {"type": "circle", "x": 1370, "y": 760, "r": 120, "fill": "#14202c", "color": "#ffffff", "width": 6,
                  "appear": 0.3},
-                {"type": "wordart", "text": cfg.get("title", "DOUG'S NEXT DEATH"), "x": 470, "y": 210, "size": 84},
+                {"type": "wordart", "text": cfg.get("title", "DOUG'S NEXT DEATH"), "x": 530, "y": 210, "size": 76},
                 {"type": "doug", "x": 430, "y": 880, "scale": 0.9, "pose": ["point", "wave"], "expression": "hopeful"},
                 {"type": "arrow", "from": [640, 520], "to": [960, 380], "color": "#e0201b", "width": 18, "head": 60,
                  "appear": 0.5},
