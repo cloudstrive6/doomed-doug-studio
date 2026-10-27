@@ -87,3 +87,34 @@
       intentional radiation gag. Visual review 3 (mosasaur silhouette fill) is the illustrator's job and is in progress.
       Visual review 20 (the subtitle font has no ú/ó glyphs) is for the editor.
     - `validate shotlist`: OK. The only warning is the existing script-length note. `shorts validate`: OK.
+
+## 2026-10-27, creative director: thumbnail gate (A, B, C)
+17. **Read against** the lead title "Could Megalodon Survive Every Era Before and After It Died?", the alternates, the approved
+    script verdicts (ticks 1-4, "?" on The Rival, X on 6-11, 4 / 11) and visual review round 2 (A, B and C all PASS at 168x94).
+18. **Thumbnail A (`thumbnail.png`, "SPOILER: NO"): APPROVED.** It is the primary and the opening image (s001).
+    - Honest: the title asks whether megalodon survives every era, and the video's answer is no (4 / 11, and it is extinct).
+    - It would make me click: the menacing closed-mouth eye, scared Doug in a cage and a two-word answer that moves the question
+      to "which era kills it?". No title or alt-title word is repeated.
+19. **Thumbnail C (`thumbnail_c.png`, verdict grid): APPROVED** as an A/B variant.
+    - Every badge matches the script: NURSERY tick (item 1), ORCAS X (item 6, "probably not"), ICE AGE X (item 8).
+    - The Orcas hero tile carries the click. The verdict grid sells the "every era" promise better than A or B.
+    - The teeth are cartoon, not gore.
+20. **Thumbnail B (`thumbnail_b.png`, "NEWBORN"): CHANGES REQUESTED** (graphic designer, in `thumbnail_test_b.json`).
+    The concept is approved. The scale is not honest to the video.
+    1. **Scale (blocking):** the video's own beat (s024 "2x DOUG", script line "about twice as long as he is", Shimada 2025
+       at 3.6-3.9 m) puts the newborn at about twice Doug's height. In B, the pup's visible length (about 870 px, tail cut by
+       the left edge) is over 4x Doug's standing height (about 210 px at scale 0.48). That overstates the fact by 2x in the
+       one place where the fact is the hook. To fix it:
+       - Measure the pup nose to tail tip and set its length to **2.0-2.3x Doug's standing height** (cap top to feet), on the
+         same pixels.
+       - Keep the whole pup in frame, tail included. A visible tail makes the length read as a measurement.
+       - To keep the feed-size impact, scale Doug up (about 0.65-0.70, about 290-310 px tall) rather than shrinking the pup
+         a lot. The pup must still be longer than the cage, which is the script's other claim.
+    2. **Doug's feet on the roof:** at the moment they float about 25 px above the cage top (feet about y 240, roof about y 265).
+       Plant them on the roof bar so "he scrambled onto the cage" reads at once. Keep the arms up, the shock face and the sweat.
+    3. Keep everything else: the "NEWBORN" text, colours, one font, closed mouth and no blood.
+    4. Re-render `thumbnail <ep>` and the 168x94 small version. Then the visual screener re-checks B only. The CD re-approves
+       on the image alone. A and C do not need another round.
+    - **If B is not fixed before packaging,** upload with A as the primary and C as the only test variant. B never ships
+      at the current scale.
+21. **Package stage:** the thumbnails do not block it. A + C are cleared now, and B joins the test set only after item 20.
