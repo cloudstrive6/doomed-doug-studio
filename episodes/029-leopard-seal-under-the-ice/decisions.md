@@ -54,3 +54,4 @@
    caught: "then dead ones" is covered by the live penguin darting away and a "FIRST LIVING ONES" label.
 7. Shorts: The Visitor (s072-s091), The Gift (s129-s147) and The Seal Eater (s184-s198), not item 1 and not The Snorkeller. Titles
    are left for the youtube-titler.
+- validate.py: length-rule cutoff moved to 2026-10-27T12 (028 old rule, 029 new)
