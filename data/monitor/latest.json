@@ -1,36 +1,20 @@
 {
- "at": "2026-10-27T03:01:59+00:00",
+ "at": "2026-10-27T04:01:42+00:00",
  "issues": [
   {
-   "key": "related_pending",
-   "severity": "low",
-   "owner": "owner",
-   "summary": "16 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
-   "detail": "This Cave Has Been Sealed for at Least 2.5 Million Years -> Why the Ground Gets Deadlier the Deeper Doug Goes\nA Scientist Tasted Billion-Year-Old Water -> Why the Ground Gets Deadlier the Deeper Doug Goes\nThe Deepest Hole Ever Drilled Is 0.2% of the Way Down -> Why the Ground Gets Deadlier the Deeper Doug Goes\nOne Orca Killed a Great White Shark in Two Minutes -> Why Orcas Kill Everything in the Ocean Except Doug\nOrcas Have Been Caught Killing Swimming Moose -> Why Orcas Kill Everything in the Ocean Except Doug\nOrcas Hunt the Largest Animal That Has Ever Lived -> Why Orcas Kill Everything in the Ocean Except Doug\nA Komodo Dragon Can Smell Carrion Four Kilometers Away -> How the Komodo Dragon Kills Doug Without Chasing Him\nA Komodo Dragon Ate a 31-Kilogram Boar in 17 Minutes -> How the Komodo Dragon Kills Doug Without Chasing Him\nKomodo Dragons Can Have Babies Without Ever Meeting a Male -> How the Komodo Dragon Kills Doug Without Chasing Him\nThis Ancient Caiman Weighed More Than Five Hippos -> Would a Hippo Survive Every Prehistoric Era? Doug Died Trying\nTitanoboa Was Longer Than a City Bus -> Would a Hippo Survive Every Prehistoric Era? Doug Died Trying\nThese Dinosaur Footprints Were a Meter Long -> Would a Hippo Survive Every Prehistoric Era? Doug Died Trying\nNewfoundland Had No Moose, Now It Has Over 100,000 -> Why Moose Are Deadlier to Doug Than Any Bear\nMoose Feed Underwater Because Their Nostrils Seal Shut -> Why Moose Are Deadlier to Doug Than Any Bear\nTwo Bull Moose Were Found Frozen in Ice, Antlers Locked -> Why Moose Are Deadlier to Doug Than Any Bear\nThat Drunk Moose in an Apple Tree Probably Wasn't Drunk -> Why Moose Are Deadlier to Doug Than Any Bear",
-   "route": "",
-   "fixed": false,
-   "extra": {}
-  },
-  {
-   "key": "end_screens_pending",
-   "severity": "low",
-   "owner": "owner",
-   "summary": "4 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
-   "detail": "024-moose-deadlier-than-bears https://studio.youtube.com/video/bACeD2HtavQ/editor\n025-too-much-oxygen https://studio.youtube.com/video/b85fECVktMA/editor\n026-deep-sea-giants https://studio.youtube.com/video/PZtxJTh4bUQ/editor\n027-every-saltwater-croc-reason https://studio.youtube.com/video/KCh-dKve4iM/editor",
-   "route": "",
-   "fixed": false,
-   "extra": {}
-  },
-  {
-   "key": "thumb_tests_pending",
-   "severity": "low",
-   "owner": "owner",
-   "summary": "4 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
-   "detail": "024-moose-deadlier-than-bears https://studio.youtube.com/video/bACeD2HtavQ/edit\n025-too-much-oxygen https://studio.youtube.com/video/b85fECVktMA/edit\n026-deep-sea-giants https://studio.youtube.com/video/PZtxJTh4bUQ/edit\n027-every-saltwater-croc-reason https://studio.youtube.com/video/KCh-dKve4iM/edit",
-   "route": "",
+   "key": "schedule_gap",
+   "severity": "high",
+   "owner": "agent",
+   "summary": "No long video scheduled for Wed 28 Oct 5:00 AM NZDT, Fri 30 Oct 5:00 AM NZDT",
+   "detail": "{\"uploaded_total\": 27, \"queued\": 3, \"target\": 4, \"phase\": \"weekly\", \"in_progress\": [], \"need_episode\": true, \"later_scheduled\": [\"2026-10-28T16:00:00Z\", \"2026-10-30T16:00:00Z\", \"2026-11-02T17:00:00Z\"]}",
+   "route": "pull the next scheduled episode forward (YouTube publishAt + metadata.json)",
    "fixed": false,
    "extra": {}
   }
  ],
- "resolved_since_last": []
+ "resolved_since_last": [
+  "related_pending",
+  "end_screens_pending",
+  "thumb_tests_pending"
+ ]
 }

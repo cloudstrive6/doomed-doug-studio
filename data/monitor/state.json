@@ -16,7 +16,8 @@
    "summary": "16 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
-   "alerted_at": "2026-10-26T18:01:46+00:00"
+   "alerted_at": "2026-10-26T18:01:46+00:00",
+   "resolved": "2026-10-27T04:01:42+00:00"
   },
   "end_screens_pending": {
    "first_seen": "2026-10-21T19:01:45+00:00",
@@ -25,7 +26,8 @@
    "summary": "4 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
    "owner": "owner",
    "severity": "low",
-   "alerted_at": "2026-10-26T21:01:55+00:00"
+   "alerted_at": "2026-10-26T21:01:55+00:00",
+   "resolved": "2026-10-27T04:01:42+00:00"
   },
   "thumb_tests_pending": {
    "first_seen": "2026-10-21T19:01:45+00:00",
@@ -34,7 +36,8 @@
    "summary": "4 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
    "owner": "owner",
    "severity": "low",
-   "alerted_at": "2026-10-26T21:01:55+00:00"
+   "alerted_at": "2026-10-26T21:01:55+00:00",
+   "resolved": "2026-10-27T04:01:42+00:00"
   },
   "shorts_missing:024-moose-deadlier-than-bears": {
    "first_seen": "2026-10-21T22:01:56+00:00",
@@ -44,6 +47,14 @@
    "owner": "auto",
    "severity": "medium",
    "resolved": "2026-10-21T22:01:56+00:00"
+  },
+  "schedule_gap": {
+   "first_seen": "2026-10-27T04:01:42+00:00",
+   "agent_attempts": 0,
+   "last_seen": "2026-10-27T04:01:42+00:00",
+   "summary": "No long video scheduled for Wed 28 Oct 5:00 AM NZDT, Fri 30 Oct 5:00 AM NZDT",
+   "owner": "agent",
+   "severity": "high"
   }
  }
 }
