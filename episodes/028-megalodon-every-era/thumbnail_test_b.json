@@ -1,0 +1,139 @@
+{
+ "_note": "Variant B (Doug in peril, The Nursery beat): clear shallow green water #3a9a8a, pale sky, sand floor. A NEWBORN megalodon_pup (mouth closed, heavy brow) longer than the whole cage noses the bars; Doug (red cap) has scrambled onto the cage roof, arms up, shocked face, head breaking the surface. Text NEWBORN (the contradiction: this is the baby; script fact: pups maybe ~4 m at birth). One font, no title/alt word, no blood. The brief's 3x3 grid for B was dropped per the owner decision of 2026-10-20 (no 9-16 tile grids).",
+ "background": "#3a9a8a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 110,
+   "fill": "#cfe9ff",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     100
+    ],
+    [
+     1290,
+     100
+    ]
+   ],
+   "color": "#e8f6f2",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     650
+    ],
+    [
+     300,
+     632
+    ],
+    [
+     640,
+     655
+    ],
+    [
+     960,
+     630
+    ],
+    [
+     1290,
+     648
+    ],
+    [
+     1290,
+     730
+    ],
+    [
+     -10,
+     730
+    ]
+   ],
+   "fill": "#e3cf94",
+   "width": 0,
+   "outline": false,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "megalodon_pup",
+   "x": 318,
+   "y": 440,
+   "scale": 1.25,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1000,
+     90
+    ],
+    [
+     1000,
+     250
+    ]
+   ],
+   "color": "#5a6670",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 935,
+   "y": 172,
+   "scale": 0.48,
+   "pose": "arms_up",
+   "expression": "shock",
+   "facing": "left",
+   "gear": [
+    "sweat"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "shark_cage",
+   "x": 1000,
+   "y": 620,
+   "scale": 0.8,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "NEWBORN",
+   "x": 380,
+   "y": 170,
+   "size": 130,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

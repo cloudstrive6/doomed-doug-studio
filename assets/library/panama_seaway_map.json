@@ -18,7 +18,7 @@
     {"type": "poly", "points": [[-150, -170], [-128, -176], [-118, -160], [-140, -152]], "fill": "#6bbf59", "width": 6, "color": "#1d3b16", "wobble": 0.5, "boil": 0.4},
     {"type": "poly", "points": [[190, 130], [214, 124], [222, 142], [198, 148]], "fill": "#6bbf59", "width": 6, "color": "#1d3b16", "wobble": 0.5, "boil": 0.4},
     {"type": "poly", "points": [[170, -40], [186, -46], [192, -30], [176, -26]], "fill": "#6bbf59", "width": 6, "color": "#1d3b16", "wobble": 0.5, "boil": 0.4},
-    {"type": "spray", "x": -560, "y": -330, "r": 110, "color": "#5aa94a", "density": 0.1},
+    {"type": "spray", "x": -560, "y": -300, "r": 100, "color": "#5aa94a", "density": 0.1},
     {"type": "spray", "x": 560, "y": 250, "r": 140, "color": "#5aa94a", "density": 0.1},
     {"type": "spray", "x": -380, "y": -230, "r": 50, "color": "#5aa94a", "density": 0.12},
     {"type": "poly", "points": [[-582, -200], [-560, -224], [-538, -200]], "fill": "#4f9a43", "width": 2, "color": "#1d3b16"},
