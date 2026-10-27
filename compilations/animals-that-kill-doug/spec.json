@@ -1,7 +1,7 @@
 {
  "title": "Every Animal Built to Kill Doug (Orca, Cassowary, Komodo, Moose Marathon)",
  "card": "FOUR ANIMALS, ZERO MERCY",
- "intro": "Doug has met an orca, a cassowary, a Komodo dragon and a moose. The orca is the only one that spared him, and only because he tasted wrong. The rest were not so picky. Here are all four, back to back.",
+ "intro": "Doug has now met an orca, a cassowary, a Komodo dragon and a moose. Only one of them leaves him alone. The other three have excellent reasons not to. Here are all four, back to back.",
  "description": "Four full episodes back to back: why orcas leave Doug alone, every reason the cassowary is the most terrifying bird alive, how the Komodo dragon kills without chasing, and why moose are deadlier than bears. Real science, cartoon deaths.",
  "episodes": [
   "021-orcas-except-doug",
@@ -9,7 +9,23 @@
   "022-komodo-can-wait",
   "024-moose-deadlier-than-bears"
  ],
- "tags": ["deadly animals", "orca", "cassowary", "komodo dragon", "moose", "animal attacks", "disturbing science", "stick figure", "doomed doug", "marathon"],
+ "tags": [
+  "deadly animals",
+  "orca",
+  "cassowary",
+  "komodo dragon",
+  "moose",
+  "animal attacks",
+  "disturbing science",
+  "stick figure",
+  "doomed doug",
+  "marathon"
+ ],
  "thumb_text": "1 HOUR",
- "thumb_assets": ["orca", "cassowary", "komodo_dragon", "moose"]
+ "thumb_assets": [
+  "orca",
+  "cassowary",
+  "komodo_dragon",
+  "moose"
+ ]
 }
