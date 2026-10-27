@@ -167,3 +167,13 @@ A generic sea turtle swimming, facing right: green-brown shell with scutes, pale
 anchor, x -220..220, y -130..130.
 - Shots: s290, s291, s294
 - **Done** (illustrator, part B): preview `assets/previews/028-megalodon-every-era-assets-b-props.png` (on water: `assets/previews/028-megalodon-every-era-assets-b-context.png`)
+
+## Keyframe review round 1 fixes (visual_review items 3, 6, 9)
+- `mosasaurus` silhouette: redrawn (6c83369) so the silhouette follows the tapered snout and zig-zag jaw, with no blunt
+  head; it no longer matches the boxy Livyatan silhouette. Checked in s030/s034/s035/s036/s113 keyframes.
+  **Done** (illustrator): preview `assets/previews/028-mosasaurus-silhouette-check.png` (normal / silhouette / on water / livyatan)
+- `burj_khalifa`: redrawn (6c83369), stepped setbacks + podium + spire, reads at scale 0.25 in s252. The label and keeping
+  the top copy below the HUD are director items. **Done**: preview `assets/previews/028-megalodon-every-era-assets-r2b.png`
+- `city_bus` (NEW, swap for `school_bus` in s049, s071, s156): white/red transit bus, flat front, LED route sign "42 CITY",
+  anchor bottom-centre (tyres at y 0), x -310..326, y -284..0 (school_bus: x -310..310, y -270..0).
+  **Done** (illustrator): preview `assets/previews/028-megalodon-every-era-assets-r2.png`

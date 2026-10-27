@@ -1,5 +1,5 @@
 {
- "_note": "Variant C (list-format control), round 2 per visual_review.md: 1 hero tile + 2 tiles on white, megalodon in every tile. HERO (left, 790x692) = The Orcas: the adult megalodon, jaws open and flipped to face left, flees an orca pod toward red-capped Doug, who is shocked inside a shark_cage on a cable (bottom left). Small tiles: The Nursery (megalodon_pup, green tick) and The Ice Age (megalodon under a pack-ice edge, red X). Badges match exactly: a solid disc with a thick black outline and a thick white tick or X (green or red). Labels use the channel thumbnail type, the same as A and B (Arimo bold, white with a black outline), 1-2 words each, never a title or alt-title word. The boss stays the payoff.",
+ "_note": "Variant C (list-format control), round 2 per visual_review.md: 1 hero tile + 2 tiles on white, megalodon in every tile. HERO (left, 790x692) = The Orcas: the adult megalodon (0.72x, jaws open, flipped to face left) flees an orca pod straight at red-capped Doug, shocked in a shark_cage on a cable (bottom left, cage 0.85x, Doug 0.66x; cage drawn first, Doug on top, bars and bands redrawn over his body from the neck down so his face and cap read at 168x94); the snout reaches the cage corner. Small tiles: The Nursery (megalodon_pup, green tick) and The Ice Age (megalodon under a pack-ice edge, red X). Badges match exactly: a solid disc with a thick black outline and a thick white tick or X (green or red). Labels use the channel thumbnail type, the same as A and B (Arimo bold, white with a black outline), 1-2 words each, never a title or alt-title word. The boss stays the payoff.",
  "background": "#ffffff",
  "size": [
   1280,
@@ -40,8 +40,8 @@
     {
      "type": "asset",
      "name": "megalodon",
-     "x": 610,
-     "y": 330,
+     "x": 700.0,
+     "y": 330.0,
      "scale": 0.72,
      "flip": true,
      "boil": 0,
@@ -51,12 +51,12 @@
      "type": "line",
      "points": [
       [
-       125,
+       170.0,
        0
       ],
       [
-       125,
-       400
+       170.0,
+       312.5
       ]
      ],
      "color": "#c9d2da",
@@ -65,10 +65,19 @@
      "wobble": 0
     },
     {
+     "type": "asset",
+     "name": "shark_cage",
+     "x": 170.0,
+     "y": 712.0,
+     "scale": 0.85,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
      "type": "doug",
-     "x": 125,
-     "y": 560,
-     "scale": 0.42,
+     "x": 160.0,
+     "y": 520.0,
+     "scale": 0.66,
      "pose": "cower",
      "expression": "shock",
      "facing": "right",
@@ -79,11 +88,332 @@
      "wobble": 0
     },
     {
-     "type": "asset",
-     "name": "shark_cage",
-     "x": 125,
-     "y": 700,
-     "scale": 0.64,
+     "type": "line",
+     "points": [
+      [
+       39.099999999999994,
+       452.0
+      ],
+      [
+       39.099999999999994,
+       700.1
+      ]
+     ],
+     "width": 17.0,
+     "color": "#3a3a3a",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       39.099999999999994,
+       452.0
+      ],
+      [
+       39.099999999999994,
+       700.1
+      ]
+     ],
+     "width": 11.9,
+     "color": "#9aa3ab",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       71.825,
+       452.0
+      ],
+      [
+       71.825,
+       700.1
+      ]
+     ],
+     "width": 12.8,
+     "color": "#3a3a3a",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       71.825,
+       452.0
+      ],
+      [
+       71.825,
+       700.1
+      ]
+     ],
+     "width": 7.6,
+     "color": "#9aa3ab",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       104.55,
+       452.0
+      ],
+      [
+       104.55,
+       700.1
+      ]
+     ],
+     "width": 12.8,
+     "color": "#3a3a3a",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       104.55,
+       452.0
+      ],
+      [
+       104.55,
+       700.1
+      ]
+     ],
+     "width": 7.6,
+     "color": "#9aa3ab",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       137.275,
+       452.0
+      ],
+      [
+       137.275,
+       700.1
+      ]
+     ],
+     "width": 12.8,
+     "color": "#3a3a3a",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       137.275,
+       452.0
+      ],
+      [
+       137.275,
+       700.1
+      ]
+     ],
+     "width": 7.6,
+     "color": "#9aa3ab",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       170.0,
+       452.0
+      ],
+      [
+       170.0,
+       700.1
+      ]
+     ],
+     "width": 12.8,
+     "color": "#3a3a3a",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       170.0,
+       452.0
+      ],
+      [
+       170.0,
+       700.1
+      ]
+     ],
+     "width": 7.6,
+     "color": "#9aa3ab",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       202.725,
+       452.0
+      ],
+      [
+       202.725,
+       700.1
+      ]
+     ],
+     "width": 12.8,
+     "color": "#3a3a3a",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       202.725,
+       452.0
+      ],
+      [
+       202.725,
+       700.1
+      ]
+     ],
+     "width": 7.6,
+     "color": "#9aa3ab",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       235.45,
+       452.0
+      ],
+      [
+       235.45,
+       700.1
+      ]
+     ],
+     "width": 12.8,
+     "color": "#3a3a3a",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       235.45,
+       452.0
+      ],
+      [
+       235.45,
+       700.1
+      ]
+     ],
+     "width": 7.6,
+     "color": "#9aa3ab",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       268.175,
+       452.0
+      ],
+      [
+       268.175,
+       700.1
+      ]
+     ],
+     "width": 12.8,
+     "color": "#3a3a3a",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       268.175,
+       452.0
+      ],
+      [
+       268.175,
+       700.1
+      ]
+     ],
+     "width": 7.6,
+     "color": "#9aa3ab",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       300.9,
+       452.0
+      ],
+      [
+       300.9,
+       700.1
+      ]
+     ],
+     "width": 17.0,
+     "color": "#3a3a3a",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       300.9,
+       452.0
+      ],
+      [
+       300.9,
+       700.1
+      ]
+     ],
+     "width": 11.9,
+     "color": "#9aa3ab",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 34.0,
+     "y": 511.4,
+     "w": 272.0,
+     "h": 11.9,
+     "fill": "#9aa3ab",
+     "width": 4,
+     "color": "#3a3a3a",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 34.0,
+     "y": 681.4,
+     "w": 272.0,
+     "h": 11.9,
+     "fill": "#9aa3ab",
+     "width": 4,
+     "color": "#3a3a3a",
      "boil": 0,
      "wobble": 0
     }

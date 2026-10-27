@@ -1,5 +1,5 @@
 {
- "_note": "Variant A (hero close-up, the video opening image, s001; brief proposal A): megalodon.json build at 2.6x fills ~70% of the frame on flat deep blue #163f7a, inlined as a group with the jaws CLOSED (teeth and red mouth removed, flat downturned mouth line) and a hard side-eye under a heavy brow, so it reads menacing, not toothy or cute. Red-capped Doug (face above the cage's middle band, cage 0.95x), shocked, in the shark_cage hanging in front of the snout. Text SPOILER: NO (white Arimo bold + underline; no title or alt-title word). No blood, no bite. Round 2 (visual review notes): the half-drawn red X read as stray slashes at feed size and was dropped; SPOILER: NO carries the answer. Shark nudged 25 px left to clear the bigger cage.",
+ "_note": "Variant A (hero close-up, the video opening image, s001; brief proposal A): megalodon.json build at 2.6x fills ~70% of the frame on flat deep blue #163f7a, inlined as a group with the jaws CLOSED (teeth and red mouth removed, flat downturned mouth line) and a hard side-eye under a heavy brow, so it reads menacing, not toothy or cute. Red-capped Doug, shocked, inside the shark_cage hanging in front of the snout. Text SPOILER: NO (white Arimo bold + underline; no title or alt-title word). No blood, no bite. Round 2 (visual review notes): the half-drawn red X read as stray slashes at feed size and was dropped; SPOILER: NO carries the answer. Shark nudged 25 px left. Cage now 1.0x (bottom at y 700) and Doug 0.8x (was 0.6x); the cage is drawn first, Doug on top, then the cage bars and bands are redrawn over his body from the neck down (y >= 446), so his head and cap sit in front of the bars (pressed against them) while his body stays inside: his face reads at 168x94.",
  "background": "#163f7a",
  "size": [
   1280,
@@ -3311,7 +3311,7 @@
     ],
     [
      1110,
-     250
+     230.0
     ]
    ],
    "color": "#c9d2da",
@@ -3320,10 +3320,19 @@
    "wobble": 0
   },
   {
+   "type": "asset",
+   "name": "shark_cage",
+   "x": 1110,
+   "y": 700,
+   "scale": 1.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
    "type": "doug",
-   "x": 1094,
-   "y": 545,
-   "scale": 0.6,
+   "x": 1100.0,
+   "y": 520.0,
+   "scale": 0.8,
    "pose": "cower",
    "expression": "shock",
    "facing": "left",
@@ -3334,11 +3343,332 @@
    "wobble": 0
   },
   {
-   "type": "asset",
-   "name": "shark_cage",
-   "x": 1110,
-   "y": 690,
-   "scale": 0.95,
+   "type": "line",
+   "points": [
+    [
+     956.0,
+     446.0
+    ],
+    [
+     956.0,
+     686.0
+    ]
+   ],
+   "width": 20.0,
+   "color": "#3a3a3a",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     956.0,
+     446.0
+    ],
+    [
+     956.0,
+     686.0
+    ]
+   ],
+   "width": 14.0,
+   "color": "#9aa3ab",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     994.5,
+     446.0
+    ],
+    [
+     994.5,
+     686.0
+    ]
+   ],
+   "width": 15.0,
+   "color": "#3a3a3a",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     994.5,
+     446.0
+    ],
+    [
+     994.5,
+     686.0
+    ]
+   ],
+   "width": 9.0,
+   "color": "#9aa3ab",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1033.0,
+     446.0
+    ],
+    [
+     1033.0,
+     686.0
+    ]
+   ],
+   "width": 15.0,
+   "color": "#3a3a3a",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1033.0,
+     446.0
+    ],
+    [
+     1033.0,
+     686.0
+    ]
+   ],
+   "width": 9.0,
+   "color": "#9aa3ab",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1071.5,
+     446.0
+    ],
+    [
+     1071.5,
+     686.0
+    ]
+   ],
+   "width": 15.0,
+   "color": "#3a3a3a",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1071.5,
+     446.0
+    ],
+    [
+     1071.5,
+     686.0
+    ]
+   ],
+   "width": 9.0,
+   "color": "#9aa3ab",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1110.0,
+     446.0
+    ],
+    [
+     1110.0,
+     686.0
+    ]
+   ],
+   "width": 15.0,
+   "color": "#3a3a3a",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1110.0,
+     446.0
+    ],
+    [
+     1110.0,
+     686.0
+    ]
+   ],
+   "width": 9.0,
+   "color": "#9aa3ab",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1148.5,
+     446.0
+    ],
+    [
+     1148.5,
+     686.0
+    ]
+   ],
+   "width": 15.0,
+   "color": "#3a3a3a",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1148.5,
+     446.0
+    ],
+    [
+     1148.5,
+     686.0
+    ]
+   ],
+   "width": 9.0,
+   "color": "#9aa3ab",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1187.0,
+     446.0
+    ],
+    [
+     1187.0,
+     686.0
+    ]
+   ],
+   "width": 15.0,
+   "color": "#3a3a3a",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1187.0,
+     446.0
+    ],
+    [
+     1187.0,
+     686.0
+    ]
+   ],
+   "width": 9.0,
+   "color": "#9aa3ab",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1225.5,
+     446.0
+    ],
+    [
+     1225.5,
+     686.0
+    ]
+   ],
+   "width": 15.0,
+   "color": "#3a3a3a",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1225.5,
+     446.0
+    ],
+    [
+     1225.5,
+     686.0
+    ]
+   ],
+   "width": 9.0,
+   "color": "#9aa3ab",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1264.0,
+     446.0
+    ],
+    [
+     1264.0,
+     686.0
+    ]
+   ],
+   "width": 20.0,
+   "color": "#3a3a3a",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1264.0,
+     446.0
+    ],
+    [
+     1264.0,
+     686.0
+    ]
+   ],
+   "width": 14.0,
+   "color": "#9aa3ab",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 950.0,
+   "y": 464.0,
+   "w": 320.0,
+   "h": 14.0,
+   "fill": "#9aa3ab",
+   "width": 4,
+   "color": "#3a3a3a",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 950.0,
+   "y": 664.0,
+   "w": 320.0,
+   "h": 14.0,
+   "fill": "#9aa3ab",
+   "width": 4,
+   "color": "#3a3a3a",
    "boil": 0,
    "wobble": 0
   },

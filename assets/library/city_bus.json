@@ -1,0 +1,641 @@
+{
+ "name": "city_bus",
+ "description": "City transit bus (028) side view, facing right: white body, red skirt and window stripe, flat front with windscreen edge and mirror, grey roof AC pod, tinted window band, two-leaf glass front and middle doors, amber LED route sign '42 CITY' over the front door, wheels in dark arches. Swap-in for school_bus: anchor bottom-centre (tyre bottoms at y 0), ~640x284 (x -310..326, y -284..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "vehicle",
+  "bus",
+  "city bus",
+  "transit",
+  "scale comparison",
+  "everyday",
+  "028"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -170,
+     -262
+    ],
+    [
+     -160,
+     -284
+    ],
+    [
+     40,
+     -284
+    ],
+    [
+     50,
+     -262
+    ]
+   ],
+   "fill": "#bfc4ca",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -140,
+     -274
+    ],
+    [
+     20,
+     -274
+    ]
+   ],
+   "width": 2,
+   "color": "#8d949c"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -305,
+     -262
+    ],
+    [
+     288,
+     -262
+    ],
+    [
+     305,
+     -246
+    ],
+    [
+     307,
+     -22
+    ],
+    [
+     -305,
+     -22
+    ]
+   ],
+   "fill": "#f3f3ee",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -303,
+     -140
+    ],
+    [
+     305,
+     -140
+    ],
+    [
+     305,
+     -100
+    ],
+    [
+     -303,
+     -100
+    ]
+   ],
+   "fill": "#dcdcd4",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -120,
+   "y": -252,
+   "r": 26,
+   "color": "#ffffff",
+   "density": 0.5
+  },
+  {
+   "type": "spray",
+   "x": 120,
+   "y": -252,
+   "r": 26,
+   "color": "#ffffff",
+   "density": 0.5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -303,
+     -98
+    ],
+    [
+     305,
+     -98
+    ],
+    [
+     306,
+     -24
+    ],
+    [
+     -303,
+     -24
+    ]
+   ],
+   "fill": "#d7261e",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -303,
+     -48
+    ],
+    [
+     306,
+     -48
+    ],
+    [
+     306,
+     -24
+    ],
+    [
+     -303,
+     -24
+    ]
+   ],
+   "fill": "#a81a14",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -303,
+   "y": -146,
+   "w": 608,
+   "h": 10,
+   "fill": "#d7261e",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -303,
+     -98
+    ],
+    [
+     305,
+     -98
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -290,
+   "y": -232,
+   "w": 58,
+   "h": 80,
+   "fill": "#7fa9bf",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -282,
+     -172
+    ],
+    [
+     -260,
+     -222
+    ]
+   ],
+   "width": 3,
+   "color": "#d9eef8"
+  },
+  {
+   "type": "rect",
+   "x": -228,
+   "y": -232,
+   "w": 58,
+   "h": 80,
+   "fill": "#7fa9bf",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -220,
+     -172
+    ],
+    [
+     -198,
+     -222
+    ]
+   ],
+   "width": 3,
+   "color": "#d9eef8"
+  },
+  {
+   "type": "rect",
+   "x": -166,
+   "y": -232,
+   "w": 58,
+   "h": 80,
+   "fill": "#7fa9bf",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -158,
+     -172
+    ],
+    [
+     -136,
+     -222
+    ]
+   ],
+   "width": 3,
+   "color": "#d9eef8"
+  },
+  {
+   "type": "rect",
+   "x": -104,
+   "y": -232,
+   "w": 56,
+   "h": 80,
+   "fill": "#7fa9bf",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -96,
+     -172
+    ],
+    [
+     -74,
+     -222
+    ]
+   ],
+   "width": 3,
+   "color": "#d9eef8"
+  },
+  {
+   "type": "rect",
+   "x": 30,
+   "y": -232,
+   "w": 62,
+   "h": 80,
+   "fill": "#7fa9bf",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     38,
+     -172
+    ],
+    [
+     60,
+     -222
+    ]
+   ],
+   "width": 3,
+   "color": "#d9eef8"
+  },
+  {
+   "type": "rect",
+   "x": 96,
+   "y": -232,
+   "w": 62,
+   "h": 80,
+   "fill": "#7fa9bf",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     104,
+     -172
+    ],
+    [
+     126,
+     -222
+    ]
+   ],
+   "width": 3,
+   "color": "#d9eef8"
+  },
+  {
+   "type": "rect",
+   "x": -42,
+   "y": -236,
+   "w": 30,
+   "h": 210,
+   "fill": "#7fa9bf",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -27,
+     -236
+    ],
+    [
+     -27,
+     -26
+    ]
+   ],
+   "width": 2,
+   "color": "#2a3a44"
+  },
+  {
+   "type": "rect",
+   "x": -12,
+   "y": -236,
+   "w": 30,
+   "h": 210,
+   "fill": "#7fa9bf",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     3,
+     -236
+    ],
+    [
+     3,
+     -26
+    ]
+   ],
+   "width": 2,
+   "color": "#2a3a44"
+  },
+  {
+   "type": "rect",
+   "x": 170,
+   "y": -236,
+   "w": 30,
+   "h": 210,
+   "fill": "#7fa9bf",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     185,
+     -236
+    ],
+    [
+     185,
+     -26
+    ]
+   ],
+   "width": 2,
+   "color": "#2a3a44"
+  },
+  {
+   "type": "rect",
+   "x": 200,
+   "y": -236,
+   "w": 30,
+   "h": 210,
+   "fill": "#7fa9bf",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     215,
+     -236
+    ],
+    [
+     215,
+     -26
+    ]
+   ],
+   "width": 2,
+   "color": "#2a3a44"
+  },
+  {
+   "type": "rect",
+   "x": 236,
+   "y": -232,
+   "w": 50,
+   "h": 100,
+   "fill": "#7fa9bf",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     290,
+     -244
+    ],
+    [
+     303,
+     -236
+    ],
+    [
+     305,
+     -120
+    ],
+    [
+     290,
+     -120
+    ]
+   ],
+   "fill": "#5f8aa2",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": 168,
+   "y": -258,
+   "w": 118,
+   "h": 22,
+   "fill": "#151515",
+   "width": 3
+  },
+  {
+   "type": "text",
+   "text": "42 CITY",
+   "x": 227,
+   "y": -247,
+   "size": 17,
+   "color": "#ffb000"
+  },
+  {
+   "type": "rect",
+   "x": -292,
+   "y": -258,
+   "w": 40,
+   "h": 22,
+   "fill": "#151515",
+   "width": 3
+  },
+  {
+   "type": "text",
+   "text": "42",
+   "x": -272,
+   "y": -247,
+   "size": 17,
+   "color": "#ffb000"
+  },
+  {
+   "type": "rect",
+   "x": 294,
+   "y": -82,
+   "w": 14,
+   "h": 20,
+   "fill": "#fff6c0",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -310,
+   "y": -84,
+   "w": 10,
+   "h": 24,
+   "fill": "#ff3b30",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     305,
+     -228
+    ],
+    [
+     326,
+     -236
+    ],
+    [
+     326,
+     -196
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "text",
+   "text": "TRANSIT",
+   "x": -95,
+   "y": -73,
+   "size": 17,
+   "color": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -305,
+     -262
+    ],
+    [
+     288,
+     -262
+    ],
+    [
+     305,
+     -246
+    ],
+    [
+     307,
+     -22
+    ],
+    [
+     -305,
+     -22
+    ]
+   ],
+   "fill": null,
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": -210,
+   "y": -50,
+   "rx": 56,
+   "ry": 50,
+   "fill": "#2e2e2e",
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": -210,
+   "y": -44,
+   "r": 44,
+   "fill": "#1a1a1a",
+   "width": 5
+  },
+  {
+   "type": "circle",
+   "x": -210,
+   "y": -44,
+   "r": 18,
+   "fill": "#9a9a9a",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": -210,
+   "y": -44,
+   "r": 5,
+   "fill": "#4a4a4a",
+   "width": 1
+  },
+  {
+   "type": "ellipse",
+   "x": 100,
+   "y": -50,
+   "rx": 56,
+   "ry": 50,
+   "fill": "#2e2e2e",
+   "width": 0
+  },
+  {
+   "type": "circle",
+   "x": 100,
+   "y": -44,
+   "r": 44,
+   "fill": "#1a1a1a",
+   "width": 5
+  },
+  {
+   "type": "circle",
+   "x": 100,
+   "y": -44,
+   "r": 18,
+   "fill": "#9a9a9a",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": 100,
+   "y": -44,
+   "r": 5,
+   "fill": "#4a4a4a",
+   "width": 1
+  }
+ ]
+}
