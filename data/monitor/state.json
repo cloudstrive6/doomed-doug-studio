@@ -12,7 +12,7 @@
   "related_pending": {
    "first_seen": "2026-10-27T16:37:50+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-28T07:01:45+00:00",
+   "last_seen": "2026-10-28T08:02:00+00:00",
    "summary": "4 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -21,7 +21,7 @@
   "end_screens_pending": {
    "first_seen": "2026-10-27T09:38:26+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-28T07:01:45+00:00",
+   "last_seen": "2026-10-28T08:02:00+00:00",
    "summary": "2 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -30,7 +30,7 @@
   "thumb_tests_pending": {
    "first_seen": "2026-10-27T09:38:26+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-10-28T07:01:45+00:00",
+   "last_seen": "2026-10-28T08:02:00+00:00",
    "summary": "2 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
    "owner": "owner",
    "severity": "low",
