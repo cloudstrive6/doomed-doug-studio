@@ -1,0 +1,508 @@
+{
+ "name": "narrator_hand_pencil",
+ "description": "The narrator's crude-tier arm and right fist entering horizontally from the right edge, holding a yellow pencil (sharpened wood cone, dark graphite point) angled up-left toward the death counter. Same look as narrator_hand: white hand with thick black outline (keep_ink), grey sleeve with darker cuff. Anchor (0,0) = pencil tip (the topmost point); everything else is below and to the right: fist about (140..260, 18..110), sleeve to (+740, 0..86), off-frame. auto_ink.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "human",
+  "hand",
+  "arm",
+  "narrator",
+  "pencil",
+  "crude",
+  "030"
+ ],
+ "auto_ink": true,
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     18.2,
+     3.0
+    ],
+    [
+     15.2,
+     10.5
+    ]
+   ],
+   "fill": "#3a3a3a",
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     16.7,
+     1.4
+    ],
+    [
+     46.8,
+     7.0
+    ],
+    [
+     38.5,
+     27.4
+    ],
+    [
+     13.0,
+     10.6
+    ]
+   ],
+   "fill": "#f2d2a0",
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     18.2,
+     3.0
+    ],
+    [
+     15.2,
+     10.5
+    ]
+   ],
+   "fill": "#3a3a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     46.8,
+     7.0
+    ],
+    [
+     235.9,
+     83.5
+    ],
+    [
+     227.7,
+     103.9
+    ],
+    [
+     38.5,
+     27.4
+    ]
+   ],
+   "fill": "#ffd23a",
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     47.5,
+     15.9
+    ],
+    [
+     228.3,
+     89.0
+    ]
+   ],
+   "width": 2,
+   "color": "#e0a81a",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     44.5,
+     23.4
+    ],
+    [
+     225.3,
+     96.4
+    ]
+   ],
+   "width": 2,
+   "color": "#e0a81a",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     30
+    ],
+    [
+     178,
+     18
+    ],
+    [
+     220,
+     22
+    ],
+    [
+     250,
+     40
+    ],
+    [
+     258,
+     70
+    ],
+    [
+     246,
+     98
+    ],
+    [
+     210,
+     108
+    ],
+    [
+     172,
+     102
+    ],
+    [
+     150,
+     84
+    ],
+    [
+     142,
+     58
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 10,
+   "color": "#000000",
+   "smooth": true,
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     30
+    ],
+    [
+     178,
+     18
+    ],
+    [
+     220,
+     22
+    ],
+    [
+     250,
+     40
+    ],
+    [
+     258,
+     70
+    ],
+    [
+     246,
+     98
+    ],
+    [
+     210,
+     108
+    ],
+    [
+     172,
+     102
+    ],
+    [
+     150,
+     84
+    ],
+    [
+     142,
+     58
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false,
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     168,
+     50
+    ],
+    [
+     190,
+     56
+    ],
+    [
+     214,
+     58
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     168,
+     68
+    ],
+    [
+     190,
+     74
+    ],
+    [
+     214,
+     76
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     168,
+     86
+    ],
+    [
+     190,
+     92
+    ],
+    [
+     214,
+     94
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     46
+    ],
+    [
+     138,
+     40
+    ],
+    [
+     128,
+     46
+    ],
+    [
+     134,
+     58
+    ],
+    [
+     170,
+     62
+    ],
+    [
+     200,
+     50
+    ],
+    [
+     196,
+     36
+    ],
+    [
+     170,
+     36
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 9,
+   "color": "#000000",
+   "smooth": true,
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     46
+    ],
+    [
+     138,
+     40
+    ],
+    [
+     128,
+     46
+    ],
+    [
+     134,
+     58
+    ],
+    [
+     170,
+     62
+    ],
+    [
+     200,
+     50
+    ],
+    [
+     196,
+     36
+    ],
+    [
+     170,
+     36
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false,
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     222,
+     34
+    ],
+    [
+     236,
+     54
+    ],
+    [
+     232,
+     80
+    ]
+   ],
+   "width": 3,
+   "color": "#d6d6d6",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     244,
+     14
+    ],
+    [
+     292,
+     6
+    ],
+    [
+     304,
+     104
+    ],
+    [
+     254,
+     110
+    ]
+   ],
+   "fill": "#7e7e84",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     262,
+     18
+    ],
+    [
+     276,
+     104
+    ]
+   ],
+   "width": 2,
+   "color": "#5e5e64"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     290,
+     6
+    ],
+    [
+     740,
+     0
+    ],
+    [
+     740,
+     86
+    ],
+    [
+     302,
+     104
+    ]
+   ],
+   "fill": "#a4a4a8",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     320,
+     60
+    ],
+    [
+     720,
+     50
+    ]
+   ],
+   "width": 3,
+   "color": "#86868c"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     420,
+     22
+    ],
+    [
+     470,
+     34
+    ],
+    [
+     520,
+     24
+    ]
+   ],
+   "width": 3,
+   "color": "#86868c"
+  }
+ ]
+}

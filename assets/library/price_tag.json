@@ -1,0 +1,174 @@
+{
+ "name": "price_tag",
+ "description": "Small blank white paper price tag (030): clipped point at the left with a punched, reinforced hole and a loop of brown string, faint grey shadow along the bottom edge. Anchor centre, ~120x70 (x -62..60, y -30..30).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "tag",
+  "price",
+  "shop",
+  "030"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     -28,
+     0
+    ],
+    [
+     -44,
+     -26
+    ],
+    [
+     -60,
+     -22
+    ],
+    [
+     -60,
+     4
+    ],
+    [
+     -46,
+     18
+    ],
+    [
+     -28,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#8a6a4a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -24,
+     -26
+    ],
+    [
+     56,
+     -26
+    ],
+    [
+     58,
+     26
+    ],
+    [
+     -24,
+     27
+    ],
+    [
+     -46,
+     0
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -24,
+     20
+    ],
+    [
+     56,
+     19
+    ],
+    [
+     58,
+     26
+    ],
+    [
+     -24,
+     27
+    ],
+    [
+     -38,
+     9
+    ]
+   ],
+   "fill": "#e2e2dc",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -24,
+     -26
+    ],
+    [
+     56,
+     -26
+    ],
+    [
+     58,
+     26
+    ],
+    [
+     -24,
+     27
+    ],
+    [
+     -46,
+     0
+    ],
+    [
+     -24,
+     -26
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -27,
+   "y": 0,
+   "r": 8,
+   "fill": "#d6d0c4",
+   "width": 3,
+   "color": "#7a7a72"
+  },
+  {
+   "type": "circle",
+   "x": -27,
+   "y": 0,
+   "r": 3.5,
+   "fill": "#5a5a52",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -27,
+     0
+    ],
+    [
+     -36,
+     -12
+    ],
+    [
+     -46,
+     -24
+    ]
+   ],
+   "width": 3,
+   "color": "#8a6a4a"
+  }
+ ]
+}

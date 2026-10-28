@@ -1,0 +1,40 @@
+{
+  "name": "tick_unfed",
+  "description": "The same Deinocroton tick unfed, top view facing right: small flat teardrop body in the dracula_tick colours (#7a5a4a, darker scutum), 8 legs, mouthparts forward. Before/after partner for dracula_tick. Centre anchor, ~160x130.",
+  "anchor": [
+    0,
+    0
+  ],
+  "tags": [
+    "tick",
+    "parasite",
+    "amber",
+    "specimen",
+    "030"
+  ],
+  "elements": [
+    {"type": "line", "points": [[-10, -26], [-24, -50], [-46, -60]], "width": 8, "color": "#1a100c"},
+    {"type": "line", "points": [[-10, -26], [-24, -50], [-46, -60]], "width": 3, "color": "#4a3428"},
+    {"type": "line", "points": [[4, -28], [0, -54], [-10, -66]], "width": 8, "color": "#1a100c"},
+    {"type": "line", "points": [[4, -28], [0, -54], [-10, -66]], "width": 3, "color": "#4a3428"},
+    {"type": "line", "points": [[18, -26], [30, -52], [32, -66]], "width": 8, "color": "#1a100c"},
+    {"type": "line", "points": [[18, -26], [30, -52], [32, -66]], "width": 3, "color": "#4a3428"},
+    {"type": "line", "points": [[30, -20], [52, -40], [62, -56]], "width": 8, "color": "#1a100c"},
+    {"type": "line", "points": [[30, -20], [52, -40], [62, -56]], "width": 3, "color": "#4a3428"},
+    {"type": "line", "points": [[-10, 26], [-24, 50], [-46, 60]], "width": 8, "color": "#1a100c"},
+    {"type": "line", "points": [[-10, 26], [-24, 50], [-46, 60]], "width": 3, "color": "#4a3428"},
+    {"type": "line", "points": [[4, 28], [0, 54], [-10, 66]], "width": 8, "color": "#1a100c"},
+    {"type": "line", "points": [[4, 28], [0, 54], [-10, 66]], "width": 3, "color": "#4a3428"},
+    {"type": "line", "points": [[18, 26], [30, 52], [32, 66]], "width": 8, "color": "#1a100c"},
+    {"type": "line", "points": [[18, 26], [30, 52], [32, 66]], "width": 3, "color": "#4a3428"},
+    {"type": "line", "points": [[30, 20], [52, 40], [62, 56]], "width": 8, "color": "#1a100c"},
+    {"type": "line", "points": [[30, 20], [52, 40], [62, 56]], "width": 3, "color": "#4a3428"},
+    {"type": "poly", "points": [[-62, 0], [-54, -26], [-20, -36], [20, -30], [44, -16], [50, 0], [44, 16], [20, 30], [-20, 36], [-54, 26]], "width": 4, "color": "#000000", "fill": "#7a5a4a", "smooth": true},
+    {"type": "poly", "points": [[-58, 8], [-40, 28], [0, 34], [36, 20], [10, 22], [-30, 22]], "width": 0, "color": "#000000", "fill": "#5a4032", "smooth": true, "outline": false},
+    {"type": "poly", "points": [[8, -22], [40, -14], [48, 0], [40, 14], [8, 22], [16, 0]], "width": 2, "color": "#1a100c", "fill": "#5a3a2a", "smooth": true},
+    {"type": "curve", "points": [[-48, -10], [-20, -14], [4, -8]], "width": 2, "color": "#4a3428"},
+    {"type": "curve", "points": [[-48, 10], [-20, 14], [4, 8]], "width": 2, "color": "#4a3428"},
+    {"type": "ellipse", "x": -28, "y": -18, "rx": 12, "ry": 4, "width": 0, "color": "#000000", "fill": "#a88a78", "outline": false},
+    {"type": "poly", "points": [[46, -8], [66, -6], [74, 0], [66, 6], [46, 8]], "width": 3, "color": "#1a100c", "fill": "#2e2018"}
+  ]
+}

@@ -1,0 +1,436 @@
+{
+ "name": "bee_hummingbird",
+ "description": "Bee hummingbird (Mellisuga helenae, 030 comparison card), hovering, facing right: tiny teardrop body with iridescent blue-green back (sprayed teal/blue sheen), grey-white belly, small magenta gorget, long thin straight black bill, short dark tail, tucked feet and blurred pale wings with motion arcs above. Small hard eye under a brow line (not cute). Anchor centre, ~166x110 (x -84..82, y -66..42).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "bird",
+  "hummingbird",
+  "tiny",
+  "comparison",
+  "030"
+ ],
+ "elements": [
+  {
+   "type": "spray",
+   "x": -6,
+   "y": -46,
+   "r": 46,
+   "color": "#b8c8d4",
+   "density": 0.45
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     -6
+    ],
+    [
+     -46,
+     -52
+    ],
+    [
+     -30,
+     -64
+    ],
+    [
+     8,
+     -60
+    ],
+    [
+     22,
+     -14
+    ]
+   ],
+   "fill": "#dfe8ee",
+   "width": 3,
+   "color": "#7a8a98",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -4,
+     -8
+    ],
+    [
+     14,
+     -60
+    ],
+    [
+     36,
+     -58
+    ],
+    [
+     40,
+     -30
+    ],
+    [
+     20,
+     -6
+    ]
+   ],
+   "fill": "#eef3f6",
+   "width": 2,
+   "color": "#9aaab8",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": -6,
+   "y": -6,
+   "rx": 58,
+   "ry": 55.099999999999994,
+   "start": 220,
+   "end": 300,
+   "fill": null,
+   "width": 2,
+   "color": "#8a9aa8"
+  },
+  {
+   "type": "ellipse",
+   "x": -6,
+   "y": -6,
+   "rx": 66,
+   "ry": 62.699999999999996,
+   "start": 220,
+   "end": 300,
+   "fill": null,
+   "width": 2,
+   "color": "#8a9aa8"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     6
+    ],
+    [
+     -80,
+     -4
+    ],
+    [
+     -84,
+     10
+    ],
+    [
+     -80,
+     24
+    ],
+    [
+     -44,
+     20
+    ]
+   ],
+   "fill": "#2c4f4c",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     13
+    ],
+    [
+     -80,
+     10
+    ]
+   ],
+   "width": 2,
+   "color": "#1a3230"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     4
+    ],
+    [
+     -28,
+     -14
+    ],
+    [
+     4,
+     -18
+    ],
+    [
+     28,
+     -12
+    ],
+    [
+     40,
+     4
+    ],
+    [
+     30,
+     24
+    ],
+    [
+     2,
+     34
+    ],
+    [
+     -28,
+     28
+    ],
+    [
+     -50,
+     18
+    ]
+   ],
+   "fill": "#e0e0da",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     4
+    ],
+    [
+     -28,
+     -14
+    ],
+    [
+     4,
+     -18
+    ],
+    [
+     28,
+     -12
+    ],
+    [
+     36,
+     -2
+    ],
+    [
+     10,
+     4
+    ],
+    [
+     -20,
+     8
+    ],
+    [
+     -48,
+     12
+    ]
+   ],
+   "fill": "#1f8a74",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -10,
+   "y": -6,
+   "r": 22,
+   "color": "#3fc7b0",
+   "density": 0.5
+  },
+  {
+   "type": "spray",
+   "x": -30,
+   "y": -2,
+   "r": 16,
+   "color": "#3a7ad9",
+   "density": 0.45
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     4
+    ],
+    [
+     -28,
+     -14
+    ],
+    [
+     4,
+     -18
+    ],
+    [
+     28,
+     -12
+    ],
+    [
+     40,
+     4
+    ],
+    [
+     30,
+     24
+    ],
+    [
+     2,
+     34
+    ],
+    [
+     -28,
+     28
+    ],
+    [
+     -50,
+     18
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -30,
+     -2
+    ],
+    [
+     -10,
+     6
+    ],
+    [
+     12,
+     4
+    ]
+   ],
+   "width": 3,
+   "color": "#123f36"
+  },
+  {
+   "type": "circle",
+   "x": 38,
+   "y": -12,
+   "r": 17,
+   "fill": "#1f8a74",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 34,
+   "y": -18,
+   "r": 10,
+   "color": "#3fc7b0",
+   "density": 0.6
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     0
+    ],
+    [
+     48,
+     -4
+    ],
+    [
+     52,
+     6
+    ],
+    [
+     36,
+     12
+    ]
+   ],
+   "fill": "#c8245e",
+   "width": 2,
+   "color": "#7a1038"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     54,
+     -12
+    ],
+    [
+     82,
+     -9
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 44,
+   "y": -15,
+   "r": 3.2,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     -22
+    ],
+    [
+     50,
+     -19
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     32
+    ],
+    [
+     4,
+     40
+    ],
+    [
+     10,
+     40
+    ]
+   ],
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     30
+    ],
+    [
+     -8,
+     39
+    ],
+    [
+     -2,
+     40
+    ]
+   ],
+   "width": 2,
+   "color": "#000000"
+  }
+ ]
+}

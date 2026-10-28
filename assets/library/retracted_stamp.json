@@ -1,0 +1,659 @@
+{
+ "name": "retracted_stamp",
+ "description": "Red rubber-stamp mark 'RETRACTED' (030): rough #e0201b double-rule rectangle with small ink gaps, bold caps drawn as strokes (no font), slightly uneven baseline, light red speckle. Upright, same family as again_stamp. Anchor centre, ~530x170 (x -265..265, y -85..85). Stamped over journal_paper at 1.0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "stamp",
+  "retracted",
+  "annotation",
+  "text",
+  "030"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -252,
+     -70
+    ],
+    [
+     -120,
+     -71
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -104,
+     -71
+    ],
+    [
+     90,
+     -69
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     104,
+     -69
+    ],
+    [
+     252,
+     -70
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     252,
+     -70
+    ],
+    [
+     253,
+     10
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     253,
+     24
+    ],
+    [
+     252,
+     70
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     252,
+     70
+    ],
+    [
+     40,
+     71
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     26,
+     71
+    ],
+    [
+     -252,
+     70
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -252,
+     70
+    ],
+    [
+     -253,
+     -20
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -253,
+     -34
+    ],
+    [
+     -252,
+     -70
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -238,
+     -56
+    ],
+    [
+     60,
+     -56
+    ]
+   ],
+   "width": 4,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     72,
+     -56
+    ],
+    [
+     238,
+     -56
+    ],
+    [
+     238,
+     56
+    ],
+    [
+     -150,
+     56
+    ]
+   ],
+   "width": 4,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -162,
+     56
+    ],
+    [
+     -238,
+     56
+    ],
+    [
+     -238,
+     -56
+    ]
+   ],
+   "width": 4,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -204.5,
+     32
+    ],
+    [
+     -204.5,
+     -32
+    ],
+    [
+     -183.5,
+     -32
+    ],
+    [
+     -173.5,
+     -24
+    ],
+    [
+     -173.5,
+     -8
+    ],
+    [
+     -183.5,
+     0
+    ],
+    [
+     -204.5,
+     0
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -191.5,
+     0
+    ],
+    [
+     -171.5,
+     32
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -125.5,
+     -31
+    ],
+    [
+     -157.5,
+     -31
+    ],
+    [
+     -157.5,
+     33
+    ],
+    [
+     -125.5,
+     33
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -157.5,
+     1
+    ],
+    [
+     -132.5,
+     1
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -112.5,
+     -33
+    ],
+    [
+     -75.5,
+     -33
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -94.0,
+     -33
+    ],
+    [
+     -94.0,
+     31
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -63.5,
+     32
+    ],
+    [
+     -63.5,
+     -32
+    ],
+    [
+     -42.5,
+     -32
+    ],
+    [
+     -32.5,
+     -24
+    ],
+    [
+     -32.5,
+     -8
+    ],
+    [
+     -42.5,
+     0
+    ],
+    [
+     -63.5,
+     0
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50.5,
+     0
+    ],
+    [
+     -30.5,
+     32
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -16.5,
+     33
+    ],
+    [
+     0.0,
+     -31
+    ],
+    [
+     16.5,
+     33
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -9.5,
+     12
+    ],
+    [
+     9.5,
+     12
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     63.5,
+     -23
+    ],
+    [
+     54.5,
+     -32
+    ],
+    [
+     39.5,
+     -32
+    ],
+    [
+     30.5,
+     -21
+    ],
+    [
+     30.5,
+     21
+    ],
+    [
+     39.5,
+     32
+    ],
+    [
+     54.5,
+     32
+    ],
+    [
+     63.5,
+     23
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     75.5,
+     -33
+    ],
+    [
+     112.5,
+     -33
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     94.0,
+     -33
+    ],
+    [
+     94.0,
+     31
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     156.5,
+     -31
+    ],
+    [
+     124.5,
+     -31
+    ],
+    [
+     124.5,
+     33
+    ],
+    [
+     156.5,
+     33
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     124.5,
+     1
+    ],
+    [
+     149.5,
+     1
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     171.5,
+     -32
+    ],
+    [
+     171.5,
+     32
+    ],
+    [
+     188.5,
+     32
+    ],
+    [
+     203.5,
+     19
+    ],
+    [
+     203.5,
+     -19
+    ],
+    [
+     188.5,
+     -32
+    ],
+    [
+     171.5,
+     -32
+    ]
+   ],
+   "width": 10,
+   "color": "#e0201b"
+  },
+  {
+   "type": "spray",
+   "x": -120,
+   "y": 10,
+   "r": 110,
+   "color": "#e0201b",
+   "density": 0.02
+  },
+  {
+   "type": "spray",
+   "x": 140,
+   "y": -5,
+   "r": 110,
+   "color": "#e0201b",
+   "density": 0.02
+  },
+  {
+   "type": "circle",
+   "x": 20.5,
+   "y": 80.1,
+   "r": 2,
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 63.9,
+   "y": -83.8,
+   "r": 2,
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -236.6,
+   "y": 80.4,
+   "r": 2,
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 256.1,
+   "y": 74.1,
+   "r": 2,
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 11.7,
+   "y": -74.3,
+   "r": 2,
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 261.9,
+   "y": 83.7,
+   "r": 2,
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 80.9,
+   "y": -78.0,
+   "r": 2,
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -131.7,
+   "y": 81.6,
+   "r": 2,
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 34.4,
+   "y": 80.4,
+   "r": 2,
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

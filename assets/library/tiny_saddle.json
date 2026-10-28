@@ -1,0 +1,497 @@
+{
+ "name": "tiny_saddle",
+ "description": "Tiny brown leather riding saddle in side view (030 'smallest dinosaur' gag): raised cantle at the back (left) and pommel at the front (right), stitched seat, skirt flap, near stirrup leather with brass buckle and a steel stirrup iron, far stirrup behind, and a blank cream tag hanging on a string from the pommel. Bottom-centre anchor (stirrups rest on y=0), ~240x140 (x -112..128, y -140..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "saddle",
+  "leather",
+  "joke",
+  "030"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     -78
+    ],
+    [
+     -34,
+     -36
+    ]
+   ],
+   "width": 9,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     -78
+    ],
+    [
+     -34,
+     -36
+    ]
+   ],
+   "width": 5,
+   "color": "#5e3214"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -48,
+     -36
+    ],
+    [
+     -20,
+     -36
+    ],
+    [
+     -16,
+     -6
+    ],
+    [
+     -52,
+     -6
+    ]
+   ],
+   "fill": null,
+   "width": 6,
+   "color": "#6f6f6f"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     -86
+    ],
+    [
+     40,
+     -86
+    ],
+    [
+     52,
+     -60
+    ],
+    [
+     36,
+     -34
+    ],
+    [
+     -58,
+     -34
+    ],
+    [
+     -78,
+     -58
+    ]
+   ],
+   "fill": "#8a4f24",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62,
+     -80
+    ],
+    [
+     34,
+     -80
+    ],
+    [
+     44,
+     -60
+    ],
+    [
+     30,
+     -42
+    ],
+    [
+     -52,
+     -42
+    ],
+    [
+     -68,
+     -60
+    ]
+   ],
+   "fill": null,
+   "width": 2,
+   "color": "#5e3214"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -88
+    ],
+    [
+     -104,
+     -118
+    ],
+    [
+     -90,
+     -134
+    ],
+    [
+     -70,
+     -120
+    ],
+    [
+     -40,
+     -100
+    ],
+    [
+     0,
+     -98
+    ],
+    [
+     40,
+     -104
+    ],
+    [
+     68,
+     -118
+    ],
+    [
+     84,
+     -140
+    ],
+    [
+     98,
+     -132
+    ],
+    [
+     102,
+     -108
+    ],
+    [
+     90,
+     -86
+    ],
+    [
+     40,
+     -78
+    ],
+    [
+     -40,
+     -78
+    ],
+    [
+     -96,
+     -80
+    ]
+   ],
+   "fill": "#8a4f24",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60,
+     -108
+    ],
+    [
+     -30,
+     -96
+    ],
+    [
+     20,
+     -95
+    ],
+    [
+     60,
+     -108
+    ],
+    [
+     55,
+     -96
+    ],
+    [
+     10,
+     -88
+    ],
+    [
+     -40,
+     -88
+    ]
+   ],
+   "fill": "#b06a34",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -100,
+     -112
+    ],
+    [
+     -88,
+     -126
+    ],
+    [
+     -74,
+     -118
+    ]
+   ],
+   "width": 3,
+   "color": "#b06a34"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     78,
+     -132
+    ],
+    [
+     92,
+     -132
+    ],
+    [
+     96,
+     -112
+    ]
+   ],
+   "width": 3,
+   "color": "#5e3214"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -84,
+     -92
+    ],
+    [
+     -40,
+     -86
+    ],
+    [
+     30,
+     -86
+    ],
+    [
+     80,
+     -94
+    ]
+   ],
+   "width": 2,
+   "color": "#e8c07a",
+   "dash": [
+    6,
+    6
+   ]
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     8,
+     -84
+    ],
+    [
+     16,
+     -36
+    ]
+   ],
+   "width": 12,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     8,
+     -84
+    ],
+    [
+     16,
+     -36
+    ]
+   ],
+   "width": 7,
+   "color": "#b06a34"
+  },
+  {
+   "type": "rect",
+   "x": 5,
+   "y": -66,
+   "w": 14,
+   "h": 10,
+   "fill": null,
+   "width": 3,
+   "color": "#c9a24a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -6,
+     -36
+    ],
+    [
+     36,
+     -36
+    ],
+    [
+     44,
+     0
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "fill": null,
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -6,
+     -36
+    ],
+    [
+     36,
+     -36
+    ],
+    [
+     44,
+     0
+    ],
+    [
+     -14,
+     0
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#a8a8a8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -14,
+     0
+    ],
+    [
+     44,
+     0
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -2
+    ],
+    [
+     42,
+     -2
+    ]
+   ],
+   "width": 4,
+   "color": "#d0d0d0"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     -40
+    ],
+    [
+     -44,
+     -20
+    ],
+    [
+     -40,
+     -8
+    ]
+   ],
+   "width": 6,
+   "color": "#5e3214"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     96,
+     -126
+    ],
+    [
+     108,
+     -110
+    ],
+    [
+     112,
+     -88
+    ]
+   ],
+   "width": 2,
+   "color": "#6b4a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     100,
+     -88
+    ],
+    [
+     124,
+     -88
+    ],
+    [
+     126,
+     -54
+    ],
+    [
+     98,
+     -54
+    ]
+   ],
+   "fill": "#efe6d0",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 112,
+   "y": -82,
+   "r": 2.5,
+   "fill": "#6b4a2a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

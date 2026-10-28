@@ -1,0 +1,27 @@
+{
+  "name": "amber_bead_glint",
+  "description": "Overlay for amber_bead: the exact bead outline (#6b3a10, width 6, steady) with no fill, two curved #fff3c0 glint streaks at upper-left, a small star glint at (+190,-120) and tiny pale bubbles near the rim. Interior transparent so the specimen reads; always drawn after the specimen. Centre anchor, 600x420.",
+  "anchor": [
+    0,
+    0
+  ],
+  "tags": [
+    "amber",
+    "resin",
+    "glint",
+    "overlay",
+    "030"
+  ],
+  "elements": [
+    {"type": "poly", "points": [[289.4, 0.0], [278.0, 38.4], [253.4, 72.9], [222.2, 103.1], [188.0, 130.6], [149.5, 155.4], [104.5, 175.2], [53.7, 187.6], [0.0, 192.3], [-54.6, 190.8], [-109.7, 183.9], [-163.6, 170.0], [-211.6, 146.9], [-247.6, 114.9], [-269.0, 77.4], [-278.1, 38.4], [-279.4, 0.0], [-275.0, -38.0], [-262.7, -75.6], [-239.2, -111.0], [-204.3, -141.9], [-160.5, -166.8], [-111.0, -186.1], [-57.1, -199.5], [-0.0, -205.1], [57.4, -200.4], [110.5, -185.3], [156.3, -162.5], [195.6, -135.8], [230.9, -107.1], [261.8, -75.3], [283.4, -39.1]], "width": 6, "color": "#6b3a10", "smooth": true, "boil": 0, "wobble": 0},
+    {"type": "curve", "points": [[-240.5, 5.8], [-237.2, -29.0], [-226.5, -63.6], [-205.2, -96.1]], "width": 12, "color": "#fff3c0"},
+    {"type": "curve", "points": [[-176.6, -127.0], [-142.2, -146.4], [-103.7, -161.8]], "width": 8, "color": "#fff3c0"},
+    {"type": "curve", "points": [[-209.4, -39.0], [-199.0, -64.5]], "width": 5, "color": "#fff3c0"},
+    {"type": "poly", "points": [[190, -146], [197, -127], [216, -120], [197, -113], [190, -94], [183, -113], [164, -120], [183, -127]], "width": 2, "color": "#ffffff", "fill": "#fff3c0"},
+    {"type": "circle", "x": 190, "y": -120, "r": 4, "width": 0, "color": "#000000", "fill": "#ffffff", "outline": false},
+    {"type": "circle", "x": -232.6, "y": -75.3, "r": 4, "width": 2, "color": "#c98a2a", "fill": "#fff3c0"},
+    {"type": "circle", "x": 209.7, "y": 84.1, "r": 5, "width": 2, "color": "#c98a2a", "fill": "#fff3c0"},
+    {"type": "circle", "x": -21.8, "y": 173.0, "r": 3.5, "width": 2, "color": "#c98a2a", "fill": "#fff3c0"},
+    {"type": "circle", "x": 192.6, "y": -112.3, "r": 3.5, "width": 2, "color": "#c98a2a", "fill": "#fff3c0"}
+  ]
+}

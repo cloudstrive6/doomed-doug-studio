@@ -1,0 +1,36 @@
+{
+  "name": "dna_kit",
+  "description": "Doug's handheld DNA test gadget: small grey plastic box with rounded corners, stubby antenna, a blank pale-green screen (x -70..70, y -60..0, empty for overlay text), printed black 'DNA KIT' under it, two round buttons. Centre anchor, ~200x185.",
+  "anchor": [
+    0,
+    0
+  ],
+  "tags": [
+    "gadget",
+    "dna",
+    "device",
+    "prop",
+    "doug gear",
+    "030"
+  ],
+  "elements": [
+    {"type": "line", "points": [[62, -84], [70, -112]], "width": 10, "color": "#000000"},
+    {"type": "line", "points": [[62, -84], [70, -112]], "width": 5, "color": "#5a5f66"},
+    {"type": "circle", "x": 70, "y": -114, "r": 8, "width": 3, "color": "#000000", "fill": "#e0201b"},
+    {"type": "poly", "points": [[76.0, -84.0], [85.2, -82.2], [93.0, -77.0], [98.2, -69.2], [100.0, -60.0], [100.0, 60.0], [98.2, 69.2], [93.0, 77.0], [85.2, 82.2], [76.0, 84.0], [-76.0, 84.0], [-85.2, 82.2], [-93.0, 77.0], [-98.2, 69.2], [-100.0, 60.0], [-100.0, -60.0], [-98.2, -69.2], [-93.0, -77.0], [-85.2, -82.2], [-76.0, -84.0]], "width": 5, "color": "#000000", "fill": "#9aa0a6", "boil": 0.6},
+    {"type": "poly", "points": [[80.0, 40.0], [87.7, 41.5], [94.1, 45.9], [98.5, 52.3], [100.0, 60.0], [100.0, 64.0], [98.5, 71.7], [94.1, 78.1], [87.7, 82.5], [80.0, 84.0], [-80.0, 84.0], [-87.7, 82.5]], "width": 0, "color": "#000000", "fill": "#7a8086", "outline": false},
+    {"type": "poly", "points": [[80, -78], [96, -60], [96, 60], [86, 74], [84, -60]], "width": 0, "color": "#000000", "fill": "#7a8086", "outline": false},
+    {"type": "poly", "points": [[-90, -74], [-60, -80], [40, -80], [-70, -72]], "width": 0, "color": "#000000", "fill": "#c4c9ce", "outline": false},
+    {"type": "rect", "x": -80, "y": -70, "w": 160, "h": 80, "fill": "#4a4f56", "width": 3, "color": "#000000", "boil": 0.5},
+    {"type": "rect", "x": -70, "y": -60, "w": 140, "h": 60, "fill": "#c8f0c0", "width": 2, "color": "#2a2e33", "boil": 0, "wobble": 0},
+    {"type": "line", "points": [[-62, -52], [-40, -52]], "width": 3, "color": "#e8fbe4"},
+    {"type": "text", "text": "DNA KIT", "x": 0, "y": 30, "size": 30, "color": "#000000", "bold": true, "boil": 0, "wobble": 0},
+    {"type": "circle", "x": -40, "y": 60, "r": 13, "width": 4, "color": "#000000", "fill": "#e0201b"},
+    {"type": "circle", "x": -43, "y": 56, "r": 4, "width": 0, "color": "#000000", "fill": "#ff8a7a", "outline": false},
+    {"type": "circle", "x": 40, "y": 60, "r": 13, "width": 4, "color": "#000000", "fill": "#3fbf4a"},
+    {"type": "circle", "x": 37, "y": 56, "r": 4, "width": 0, "color": "#000000", "fill": "#9fe6a0", "outline": false},
+    {"type": "line", "points": [[76, 30], [88, 30]], "width": 2, "color": "#5a5f66"},
+    {"type": "line", "points": [[76, 40], [88, 40]], "width": 2, "color": "#5a5f66"},
+    {"type": "line", "points": [[76, 50], [88, 50]], "width": 2, "color": "#5a5f66"}
+  ]
+}

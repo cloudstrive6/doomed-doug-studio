@@ -15,6 +15,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, 600 x 420 (x -300..300, y -210..210).
 - Notes: Used as a sandwich: `amber_bead`, then the specimen asset(s) at bead-local coords, then `amber_bead_glint`, all inside one group (scale 0.22 in the tray, 0.42-1.15 on cards). Must read as amber at 130 px wide (tray). Amber-forest resin palette from the art bible.
 - Shots: s002, s005, s006, s007, s008, s009, s010, s011, s012, s013, s014, s020, s021, s030, s032, s033, s034, s035, s036, s037, s040, s041, s042, s045, s046, s047, s049, s054, s055, s056, s057, s058, s059, s060, s061, s062, s066, s067, s068, s069, s070, s071, s076, s077, s078, s079, s080, s081, s082, s083, s084, s087, s088, s089, s090, s096, s097, s098, s099, s100, s104, s105, s106, s107, s108, s109, s110, s111, s112, s113, s114, s117, s118, s119, s120, s121, s122, s123, s130, s131, s132, s133, s135, s141, s142, s143, s144, s149, s155, s156, s157, s158, s159, s160, s161, s162, s163, s164, s181, s182, s183, s184, s185, s186, s187, s189, s191, s192, s195, s200, s201, s211, s212, s213 (114 shots)
+- **Status: DONE** (illustrator) - `assets/library/amber_bead.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `amber_bead_glint`
 **Overlay for `amber_bead`.**
@@ -23,6 +24,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, same 600 x 420 footprint, transparent interior.
 - Notes: Always drawn after the specimen; never used alone.
 - Shots: s002, s005, s006, s007, s008, s009, s010, s011, s012, s013, s014, s020, s021, s030, s032, s033, s034, s035, s036, s037, s040, s041, s042, s045, s046, s047, s049, s054, s055, s056, s057, s058, s059, s060, s061, s062, s066, s067, s068, s069, s070, s071, s076, s077, s078, s079, s080, s081, s082, s083, s084, s087, s088, s089, s090, s096, s097, s098, s099, s100, s104, s105, s106, s107, s108, s109, s110, s111, s112, s113, s114, s117, s118, s119, s120, s121, s122, s123, s130, s131, s132, s133, s135, s141, s142, s143, s144, s149, s155, s156, s157, s158, s159, s160, s161, s162, s163, s164, s181, s182, s183, s184, s185, s186, s187, s189, s191, s192, s195, s200, s201, s211, s212, s213 (114 shots)
+- **Status: DONE** (illustrator) - `assets/library/amber_bead_glint.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `feather_tick`
 **Specimen (item 1 hero, cold open).**
@@ -31,6 +33,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, fits the bead core: about 440 x 230 (x -220..220, y -115..115).
 - Notes: Also used alone on the family-tree card at 0.35.
 - Shots: s002, s005, s006, s011, s012, s020, s023, s024, s030, s032, s054, s076, s077, s078, s104, s105, s130, s155, s156, s181, s212, s213 (22 shots)
+- **Status: DONE** (illustrator) - `assets/library/feather_tick.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `dracula_tick`
 **Specimen.**
@@ -39,6 +42,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 260 x 220 (x -130..130, y -110..110).
 - Notes: Shown in the bead at scale 1, on a nest at 0.15-0.18 (keep it readable as a blob with legs).
 - Shots: s007, s008, s009, s010, s021, s022 (6 shots)
+- **Status: DONE** (illustrator) - `assets/library/dracula_tick.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `tick_unfed`
 **Specimen (comparison).**
@@ -47,6 +51,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 160 x 130.
 - Notes: Before/after beside the swollen one.
 - Shots: s008 (1 shot)
+- **Status: DONE** (illustrator) - `assets/library/tick_unfed.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `coin_edge`
 **Prop.**
@@ -55,6 +60,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Bottom-centre anchor (resting edge on y=0), about 140 x 300.
 - Notes: "Shorter than a penny is thick": a dotted line runs from the rim band to the tick.
 - Shots: s012 (1 shot)
+- **Status: DONE** (illustrator) - `assets/library/coin_edge.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `film_poster_generic`
 **Prop card.**
@@ -63,6 +69,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 600 x 860 (x -300..300, y -430..430).
 - Notes: Used at scale 1.0 on a dark `#1a1d22` card, with a `mosquito` in a bead in the centre and a red `?` beside.
 - Shots: s013, s014 (2 shots)
+- **Status: DONE** (illustrator) - `assets/library/film_poster_generic.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `dna_strand`
 **Diagram prop.**
@@ -71,6 +78,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 640 x 170.
 - Notes: Used at 0.1-1.1.
 - Shots: s014, s015, s018, s019, s020 (5 shots)
+- **Status: DONE** (illustrator) - `assets/library/dna_strand.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `moa`
 **Creature.**
@@ -79,6 +87,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Bottom-centre anchor (feet on y=0); about 450 wide x 900 tall at scale 1 = true size against Doug at scale 1 (3.6 m bird vs 1.8 m Doug).
 - Notes: Used once at 0.62 next to Doug at 0.31.
 - Shots: s017 (1 shot)
+- **Status: DONE** (illustrator) - `assets/library/moa.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `feather_nest`
 **Prop.**
@@ -87,6 +96,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Bottom-centre anchor, about 360 x 150 (x -180..180, y -150..0).
 - Notes: On the ground (item 1), in a tree fork on a branch (item 7), and in the death beat with the cap sitting in it.
 - Shots: s021, s022, s173, s176, s177, s178, s179, s180 (8 shots)
+- **Status: DONE** (illustrator) - `assets/library/feather_nest.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `enantiornithine`
 **Creature (item 7 parent, also on the family tree).**
@@ -95,6 +105,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Bottom-centre anchor (feet on y=0), about 420 x 300.
 - Notes: Used plain, flipped, and as a silhouette (`silhouette: true`, purple glow spray behind) for the reveal; the teeth and wing claws must be readable in the silhouette's outline.
 - Shots: s024, s156, s169, s170, s171, s172, s173, s174, s175, s178, s180 (11 shots)
+- **Status: DONE** (illustrator) - `assets/library/enantiornithine.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `feathered_dino_looming`
 **Creature (item 1 kit beat and the boss: the adult).**
@@ -103,6 +114,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Anchor (0,0) = neck base on the right edge; extents about x -900..0, y -360..+260.
 - Notes: Placed at x 1940 (just past the frame edge), y 620-650, scale 1.0-1.05. Silhouette version first (purple glow), then full colour 1 beat later. Head must stay below y 260 at those placements (counter zone).
 - Shots: s028, s029, s030, s208, s209 (5 shots)
+- **Status: DONE** (illustrator) - `assets/library/feathered_dino_looming.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `dna_kit`
 **Prop (Doug's gadget).**
@@ -111,6 +123,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 200 x 160.
 - Notes: Held near Doug's thumbs-up hand at 0.55; close-up at 1.4 with "ERROR" overlaid on the screen.
 - Shots: s026, s027, s028 (3 shots)
+- **Status: DONE** (illustrator) - `assets/library/dna_kit.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `test_tube_dino`
 **Prop.**
@@ -119,8 +132,10 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 60 x 220.
 - Notes: One shot, on the ground by Doug.
 - Shots: s026 (1 shot)
+- **Status: DONE** (illustrator) - `assets/library/test_tube_dino.json`; preview `assets/previews/030-trapped-in-amber-assets-a.png` (fitted sheet + bead sandwiches: `assets/previews/030-trapped-in-amber-assets-a-fitted.png`).
 
 ## `amber_spider`
+**DONE** (illustrator, 2026-10-28): `assets/library/amber_spider.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Creature (in amber, item 2).**
 
 - Look: A young spider in side view facing right, frozen mid-lunge: rounded orange-brown abdomen, smaller head-body, 8 thin jointed legs (front pair raised forward), **fangs (chelicerae) open and pointing forward** at the front. Clean silhouette.
@@ -129,6 +144,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Shots: s005, s033, s034, s035, s036, s037, s040, s041, s042, s043, s044, s045, s046, s047, s049, s054, s076, s077, s078, s104, s105, s130, s155, s156, s181, s212, s213 (27 shots)
 
 ## `parasitic_wasp`
+**DONE** (illustrator, 2026-10-28): `assets/library/parasitic_wasp.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Creature (in amber).**
 
 - Look: A small dark parasitic wasp, side view facing right: black-brown body with a narrow waist, clear veined wings, long antennae, legs splayed as if stuck. Not the emerald `jewel_wasp`.
@@ -137,6 +153,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Shots: s005, s033, s034, s035, s036, s037, s040, s041, s042, s043, s044, s045, s046, s047, s048, s049, s054, s076, s077, s078, s104, s105, s130, s155, s156, s181, s212, s213 (28 shots)
 
 ## `hell_ant_grip`
+**DONE** (illustrator, 2026-10-28): `assets/library/hell_ant_grip.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Creature (item 3 hero).**
 
 - Look: Ceratomyrmex hell ant in side view facing right: dark red-brown body, a **long horn/paddle sticking forward-up from the forehead**, long scythe jaws **swung upward** so the prey is pinned between jaws and horn; the prey is a small pale cockroach-relative nymph (tan, segmented, little legs). Menacing.
@@ -145,6 +162,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Shots: s005, s055, s056, s057, s058, s059, s060, s061, s062, s076, s077, s078, s104, s105, s130, s155, s156, s181, s212, s213 (20 shots)
 
 ## `hell_ant`
+**DONE** (illustrator, 2026-10-28): `assets/library/hell_ant.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Creature.**
 
 - Look: The same hell ant alone, jaws open and raised upward, horn visible, no prey.
@@ -153,6 +171,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Shots: s053, s063, s065, s072, s073, s074, s075 (7 shots)
 
 ## `vampire_ant`
+**DONE** (illustrator, 2026-10-28): `assets/library/vampire_ant.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Creature (in amber).**
 
 - Look: Linguamyrmex vampire ant, side view facing right: dark brown hell ant with a **flat paddle-shaped plate on its face** (slightly metallic grey sheen `#8d9096`), long upward-curved jaws, a few tiny trigger hairs near the mouth.
@@ -161,6 +180,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Shots: s066, s067, s068, s069, s070, s071 (6 shots)
 
 ## `rice_grain`
+**DONE** (illustrator, 2026-10-28): `assets/library/rice_grain.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Prop.**
 
 - Look: One long grain of white rice, horizontal, cream-white with a faint grey outline and soft shading.
@@ -169,6 +189,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Shots: s065 (1 shot)
 
 ## `cockroach_costume_empty`
+**DONE** (illustrator, 2026-10-28): `assets/library/cockroach_costume_empty.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Death prop (item 3).**
 
 - Look: Doug's `cockroach_costume` lying flat and empty on the ground (deflated): the same glossy reddish-brown shell, tan collar, zipper and spiny legs, splayed, antennae flopped. No Doug inside.
@@ -177,6 +198,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Shots: s075 (1 shot)
 
 ## `ammonite_shell_empty`
+**DONE** (illustrator, 2026-10-28): `assets/library/ammonite_shell_empty.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Specimen (item 4 hero).**
 
 - Look: A small juvenile ammonite shell, planispiral and ribbed (cream with brown bands, like the library `ammonite` but **no body, no head, no arms**). The opening faces lower right and is **packed with sand** (`#e8c07a` with darker grains).
@@ -185,6 +207,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Shots: s079, s080, s081, s082, s083, s084, s085, s086, s087, s088, s089, s090, s091, s092, s093, s094, s095, s096, s097, s098, s099, s100, s104, s105, s130, s155, s156, s181, s212, s213 (30 shots)
 
 ## `beach_towel`
+**DONE** (illustrator, 2026-10-28): `assets/library/beach_towel.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Prop.**
 
 - Look: A striped beach towel lying flat on sand, in perspective: red/white stripes, frayed short ends.
@@ -193,6 +216,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Shots: s101, s102 (2 shots)
 
 ## `xiaophis_skeleton`
+**DONE** (illustrator, 2026-10-28): `assets/library/xiaophis_skeleton.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Specimen (item 5 hero).**
 
 - Look: Xiaophis, the headless baby snake: a tiny loosely coiled (S-bend) chain of cream-white vertebrae with fine curved ribs, **no skull** (the front end just stops), the tail tapering. Delicate, readable as a backbone.
@@ -201,6 +225,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Shots: s079, s106, s107, s108, s109, s110, s111, s112, s113, s114, s116, s117, s118, s119, s122, s123, s130, s155, s156, s181, s212, s213 (22 shots)
 
 ## `shed_snake_skin`
+**DONE** (illustrator, 2026-10-28): `assets/library/shed_snake_skin.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Specimen / prop.**
 
 - Look: A long translucent papery shed snake skin fragment: pale grey-cream `#e6e0cc` with a clear diamond scale pattern drawn in fine grey lines, ragged torn ends, slightly twisted.
@@ -209,6 +234,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Shots: s120, s121, s122, s123, s128 (5 shots)
 
 ## `big_cretaceous_snake`
+**DONE** (illustrator, 2026-10-28): `assets/library/big_cretaceous_snake.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Creature (silhouette only).**
 
 - Look: A big primitive snake draped along a horizontal branch, head raised to the right with the mouth closed, thick body hanging in a loop below the branch. Generic (no pit-viper heat pits, no rattles, no hood), olive-brown. The outline must read clearly as a snake when blacked out.
@@ -217,6 +243,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Shots: s121, s128 (2 shots)
 
 ## `oculudentavis_skull`
+**DONE** (illustrator, 2026-10-28): `assets/library/oculudentavis_skull.json`, preview `assets/previews/030-trapped-in-amber-assets-illustrator-b.png`.
 **Specimen (item 6 hero).**
 
 - Look: The tiny Oculudentavis skull in side view facing right: bird-like domed skull, **very large round eye socket** with a ring of bony plates, long narrow snout with a **row of small sharp teeth** along the jaw. Cream bone `#efe6d0` with grey shading.
@@ -231,6 +258,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 440 x 220.
 - Notes: Bead and the squashed-skulls card.
 - Shots: s141, s142, s143, s144, s145, s149 (6 shots)
+- **Done** (illustrator): `assets/library/oculudentavis_specimen.json`, preview `assets/previews/030-assets-c.png`.
 
 ## `tiny_saddle`
 **Prop.**
@@ -239,6 +267,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Bottom-centre anchor, about 220 x 140.
 - Notes: Held near Doug's hand, then on the ground and on the log. A label "SMALLEST DINOSAUR" is overlaid separately.
 - Shots: s150, s151, s152 (3 shots)
+- **Done** (illustrator): `assets/library/tiny_saddle.json`, preview `assets/previews/030-assets-a.png`.
 
 ## `retracted_stamp`
 **Annotation.**
@@ -247,6 +276,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 520 x 150.
 - Notes: Stamped over `journal_paper` at scale 1.0.
 - Shots: s139 (1 shot)
+- **Done** (illustrator): `assets/library/retracted_stamp.json`, preview `assets/previews/030-assets-a.png`.
 
 ## `bee_hummingbird`
 **Creature.**
@@ -255,6 +285,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 160 x 110.
 - Notes: Comparison card at 1.3.
 - Shots: s136 (1 shot)
+- **Done** (illustrator): `assets/library/bee_hummingbird.json`, preview `assets/previews/030-assets-c.png`.
 
 ## `belone_fossil`
 **Specimen (item 7 hero).**
@@ -263,6 +294,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 440 x 260.
 - Notes: Arrows point at head (upper right), wing (upper left) and foot (lower right).
 - Shots: s106, s157, s158, s159, s160, s161, s162, s163, s164, s181, s212, s213 (12 shots)
+- **Done** (illustrator): `assets/library/belone_fossil.json`, preview `assets/previews/030-assets-c.png`.
 
 ## `amber_lump_claw`
 **Prop.**
@@ -271,6 +303,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 320 x 220.
 - Notes: On the museum director's desk.
 - Shots: s165, s166, s167 (3 shots)
+- **Done** (illustrator): `assets/library/amber_lump_claw.json`, preview `assets/previews/030-assets-c.png`.
 
 ## `belone_scan`
 **Diagram (x-ray family).**
@@ -279,6 +312,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 440 x 260.
 - Notes: One shot at 1.4.
 - Shots: s168 (1 shot)
+- **Done** (illustrator): `assets/library/belone_scan.json`, preview `assets/previews/030-assets-c.png`.
 
 ## `eva_tail`
 **Specimen (boss).**
@@ -287,6 +321,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 440 x 200.
 - Notes: Bead at 1.15, alone at 1.1-1.3 beside two coins.
 - Shots: s182, s183, s184, s185, s186, s187, s188, s189, s191, s192, s194, s195, s200, s201 (14 shots)
+- **Done** (illustrator): `assets/library/eva_tail.json`, preview `assets/previews/030-assets-e.png`.
 
 ## `amber_market_stall`
 **Place prop.**
@@ -295,6 +330,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Bottom-centre anchor, about 900 x 560.
 - Notes: Item 8 market beat; a `price_tag` sits on one bead at about (+120,-290).
 - Shots: s197, s198, s199 (3 shots)
+- **Done** (illustrator): `assets/library/amber_market_stall.json`, preview `assets/previews/030-assets-d.png`.
 
 ## `price_tag`
 **Prop.**
@@ -303,6 +339,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 120 x 70.
 - Notes: One shot.
 - Shots: s198 (1 shot)
+- **Done** (illustrator): `assets/library/price_tag.json`, preview `assets/previews/030-assets-a.png`.
 
 ## `kachin_map`
 **Sober-card map.**
@@ -311,6 +348,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, about 700 x 900.
 - Notes: Sober Kachin/SVP card (no Doug, no counter, no wordart) and the snake's "northern Myanmar" beat.
 - Shots: s115, s202, s203, s204, s205 (5 shots)
+- **Done** (illustrator): `assets/library/kachin_map.json`, preview `assets/previews/030-assets-d.png`.
 
 ## `specimen_tray`
 **Prop (episode device).**
@@ -319,6 +357,7 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Centre anchor, 1600 x 260 (x -800..800, y -130..130).
 - Notes: Used at 0.8 on the end-of-item tray shots (beads drop into slots at scale 0.22), and tiny (0.24) in the cold open.
 - Shots: s002, s032, s054, s076, s077, s078, s104, s105, s130, s155, s156, s181, s212, s213 (14 shots)
+- **Done** (illustrator): `assets/library/specimen_tray.json`, preview `assets/previews/030-assets-b.png`.
 
 ## `narrator_hand_pencil`
 **Narrator prop.**
@@ -327,3 +366,4 @@ Reused from the library (no request): `ammonite`, `ancient_conifer_trunk`, `bank
 - Facing / anchor / size: Anchor (0,0) = pencil tip; the sleeve runs right to about (+700,+40), off-frame.
 - Notes: s052: tip at (1420, 330) then lowered to (1420, 440). Nothing may reach above y 260 (counter zone).
 - Shots: s052 (1 shot)
+- **Done** (illustrator): `assets/library/narrator_hand_pencil.json`, preview `assets/previews/030-assets-a.png`.
