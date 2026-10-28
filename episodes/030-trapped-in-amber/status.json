@@ -44,7 +44,12 @@
       "stage": "qc_passed",
       "at": "2026-10-28T17:43:57+00:00",
       "note": "approval gate: QC clean, visual PASS"
+    },
+    {
+      "stage": "uploaded",
+      "at": "2026-10-28T17:44:50+00:00",
+      "note": "StupfMPSmTw"
     }
   ],
-  "stage": "qc_passed"
+  "stage": "uploaded"
 }
