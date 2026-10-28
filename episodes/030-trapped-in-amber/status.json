@@ -19,7 +19,12 @@
       "stage": "script_approved",
       "at": "2026-10-28T16:31:23+00:00",
       "note": "CD approved draft 3: screener fixes 1-2 confirmed; Flesch ~75 accepted for this episode; CD trimmed Wrong Dinosaur to 250 words and varied 'strange'; 1,973 words (~10:07)"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-10-28T16:48:07+00:00",
+      "note": "216 shots, all 1,973 words in order; 40 asset requests (amber_bead + glint and 8 specimens first); 3 Shorts (Wrong Dinosaur, Hell Ant, Tail) awaiting titles; validate clean except missing assets + thumbnail.json"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }

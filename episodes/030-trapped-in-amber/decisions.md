@@ -35,3 +35,29 @@
    - The title must promise "creepiest things found in amber" and nothing the video lacks: no "dinosaur DNA", no "alive".
    - Don't reuse 029's "How the X..." formula.
 7. **Series bible:** the 030 log row and the counter total (to 246) are added at the final package gate, as with 028 and 029.
+
+## 2026-10-28, director: shotlist
+1. **216 shots**, every spoken word of draft 3 once and in order (1,973 words, checked word by word against script.md). s001 is the
+   thumbnail (`scene_ref`, "A tick has been holding on", min 2.0 s); `thumbnail.json` is the graphic designer's and does not exist yet,
+   so validate flags it until then. Doug (incl. ghost) is in 94% of shots; every shot has an `appear` build within 4.5 s (estimated at
+   3.25 words/s).
+2. **Episode devices:** every specimen is an `amber_bead` + specimen + `amber_bead_glint` group on a "museum shelf" card whose backdrop
+   darkens one step per spoken size band (Bugs `#4a3520`, Bigger `#3b2a17`, Backbones `#2c1f12`, Dinosaur `#1a120b`), so the size axis
+   is also a value ramp. Each item ends on the **specimen tray** (8 slots): the item's bead drops in on the kicker line and a red `?` marks
+   the next slot. Slot 8 gets the cap-in-amber bead at the close. Counter on every shot from s002 at 240, ticking to 246 on the six death
+   beats; not on the Kachin/SVP sober card (s202-s205: no Doug, no counter, no wordart, white labels only) or the big end card.
+3. **CD notes applied:** the young dinosaur and the adult (`feathered_dino_looming`) and the enantiornithine parent are requested hunched,
+   toothy and not cute. The Jurassic Park card is `film_poster_generic` (no title, logo or poster likeness) with a mosquito bead and a `?`.
+   Doug is never inside amber: s211 seals only the cap (`doug_cap` in a bead) while ghost Doug floats away; s212-s213 show it in slot 8.
+4. **Stage directions not used (to avoid capless-Doug one-offs):** the cap snagged on the silk (The Web) and the cap on the saddle
+   (The Wrong Dinosaur). s053 instead shows Doug walking off while a hell-ant silhouette appears (re-hooks into item 3); Doug keeps his cap
+   in both survivals. No `cap_off`/`cap_taken` anywhere in the episode.
+5. **Silhouette glows** use the purple `#5e4670` spray on the brown/red forest and shelf backdrops (art bible: red speckle on brown reads
+   as blood); only the night-forest snake reveal (s128, dark-cool ground) keeps red. Silhouettes use `glow_r: 0` with a body-centre spray.
+6. **Shorts:** short01 The Wrong Dinosaur (s132-s143, loop = the toothed bird at the nest, tease s178), short02 The Hell Ant (s056-s065,
+   loop = Doug's costume fate, tease s075), short03 The Tail (s184-s195, loop = what came with the young one, tease s209). Titles and
+   descriptions are left for the youtube-titler (validate reports only "missing title").
+7. **Keyframes not run:** 40 drawings are missing (asset_requests.md) and the renderer stops on a missing asset. I previewed 48 shots with
+   placeholder ellipses for the missing drawings to check Doug placement, ground lines, counter zone, the wave and the tray layout. Once
+   the illustrator delivers, run `python -m studio keyframes 030-trapped-in-amber` and check the beads (specimen readable at tray scale
+   0.22), the hand-held props (`dna_kit`, `tiny_saddle`, `torch`) against Doug's hands, and the costume on the `crouch` pose (s073-s074).
