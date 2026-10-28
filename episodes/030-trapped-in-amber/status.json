@@ -9,7 +9,17 @@
       "stage": "scripted",
       "at": "2026-10-28T16:19:57+00:00",
       "note": "draft 1"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-10-28T16:30:28+00:00",
+      "note": "draft 3"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-28T16:31:23+00:00",
+      "note": "CD approved draft 3: screener fixes 1-2 confirmed; Flesch ~75 accepted for this episode; CD trimmed Wrong Dinosaur to 250 words and varied 'strange'; 1,973 words (~10:07)"
     }
   ],
-  "stage": "scripted"
+  "stage": "script_approved"
 }

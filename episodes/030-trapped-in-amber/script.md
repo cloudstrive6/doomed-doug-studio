@@ -214,15 +214,15 @@ In twenty twenty, this skull was announced as the smallest dinosaur ever found, 
 
 [A thumbnail outline beside the skull. They match.]
 
-The skull is about one and a half centimeters long, about as wide as a thumbnail, small enough to sit on the tip of your finger. Its describers named it Oculudentavis and said the whole animal was about the size of a bee hummingbird, the smallest bird alive. The paper came out in March twenty twenty, in one of the world's top journals, and the headlines followed.
+The skull is about one and a half centimeters long, about as wide as a thumbnail. Its describers named it Oculudentavis and said the whole animal was about the size of a bee hummingbird, the smallest bird alive. The paper came out that March, in one of the world's top journals, and the headlines followed.
 
 [A red "RETRACTED" stamp lands on the label.]
 
-Here's where it gets strange. That July, the authors retracted their own paper, saying a new, unpublished specimen cast doubt on where their animal sat in the family tree.
+Then it got awkward. That July, the authors retracted their own paper, saying a new, unpublished specimen cast doubt on where their animal sat in the family tree.
 
 [A second, larger bead: a partial skeleton with a complete skull, scales visible.]
 
-That second specimen was published in twenty twenty-one. It had a complete skull and part of a body, with scales and soft tissue, and scans showed it was a lizard. The researchers named it a new species of Oculudentavis, and they found both skulls had been squashed as they fossilised. The first skull's snout was squeezed into a narrower, more beak-like shape, which helped make a lizard look like a bird.
+That second specimen was published in twenty twenty-one. It had a complete skull and part of a body, with scales and soft tissue, and scans showed it was a lizard. The researchers named it a new species of Oculudentavis, and found both skulls had been squashed as they fossilised. The first skull's snout was squeezed into a narrower, more beak-like shape, which helped make a lizard look like a bird.
 
 [Red arrow between the two beads.]
 
@@ -320,4 +320,5 @@ The cap is now a museum specimen. Doug is not.
 
 Doug deaths: two hundred and forty-six. Last time Doug went into amber, the cap stayed outside. The next place Doug shouldn't go is right there on screen.
 
+<!-- Draft 3 (2026-10-28): screener required fixes 1-2 applied (hell ant "final victim"; "found in amber from the same area"). Creative director edits at the script gate: Wrong Dinosaur trimmed 262 to 250 (cut "small enough to sit on the tip of your finger", "March twenty twenty" to "that March", "they found" to "found"); "Here's where it gets strange." became "Then it got awkward." (A3). Spoken total now 1,973 words, about 10:07. -->
 <!-- words: 1985 (spoken narration only: cold open, spoken band headers, item names, "hi friend?" lines and outro included; markdown headings, HTML comments and stage directions excluded; regex word count) · est. runtime 10:11 at 195 wpm (brief target 1,950-2,350) · draft 2 (2026-10-28) · 8 items · "The Tick." at spoken words 34-35 · twist marker "Here's the problem." at spoken words 115-117 · items: Tick 247, Web 230, Hell Ant 233, Ammonite 241, Snake 212, Wrong Dinosaur 262, Hatchling 216, Tail 311 (boss, includes the 27-word outro) · 130 sentences, average 15.3 words, longest 35 · Flesch about 71 (rough syllable count) -->
