@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28T17:02:59+00:00",
+ "at": "2026-10-28T18:01:56+00:00",
  "issues": [
   {
    "key": "related_pending",
@@ -15,8 +15,8 @@
    "key": "end_screens_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "2 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
-   "detail": "028-megalodon-every-era https://studio.youtube.com/video/YogqSPAjkA4/editor\n029-leopard-seal-under-the-ice https://studio.youtube.com/video/HiXaeCRS0fw/editor",
+   "summary": "3 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "detail": "028-megalodon-every-era https://studio.youtube.com/video/YogqSPAjkA4/editor\n029-leopard-seal-under-the-ice https://studio.youtube.com/video/HiXaeCRS0fw/editor\n030-trapped-in-amber https://studio.youtube.com/video/StupfMPSmTw/editor",
    "route": "",
    "fixed": false,
    "extra": {}
@@ -25,8 +25,8 @@
    "key": "thumb_tests_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "2 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
-   "detail": "028-megalodon-every-era https://studio.youtube.com/video/YogqSPAjkA4/edit\n029-leopard-seal-under-the-ice https://studio.youtube.com/video/HiXaeCRS0fw/edit",
+   "summary": "3 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "detail": "028-megalodon-every-era https://studio.youtube.com/video/YogqSPAjkA4/edit\n029-leopard-seal-under-the-ice https://studio.youtube.com/video/HiXaeCRS0fw/edit\n030-trapped-in-amber https://studio.youtube.com/video/StupfMPSmTw/edit",
    "route": "",
    "fixed": false,
    "extra": {}
