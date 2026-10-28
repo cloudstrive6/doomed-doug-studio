@@ -61,3 +61,54 @@
    placeholder ellipses for the missing drawings to check Doug placement, ground lines, counter zone, the wave and the tray layout. Once
    the illustrator delivers, run `python -m studio keyframes 030-trapped-in-amber` and check the beads (specimen readable at tray scale
    0.22), the hand-held props (`dna_kit`, `tiny_saddle`, `torch`) against Doug's hands, and the costume on the `crouch` pose (s073-s074).
+
+## 2026-10-28, creative director: thumbnail gate (A / B / C)
+Checked `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` and the 168 px `_small` versions against the title
+"The Creepiest Things Scientists Have Found Trapped in Amber". No visual-screener thumbnail report exists yet
+(`visual_review.md` covers keyframes only and skipped s001), so this is the creative verdict; the package gate still
+needs a visual-screener PASS on the three thumbnails.
+
+**Verdict: APPROVED, no changes. A is the primary, B and C go into the test.**
+1. **A (hero: 99 MILLION YEARS).** The strongest click. At feed size it reads in under a second: big toothy dinosaur,
+   panicking Doug, glowing bead with the tick on a feather. The video delivers this exact image: s001 opens on it,
+   s028 to s030 ("the feather's owner") and s208/s209 ("Young ones come with adults") show the same looming dinosaur over
+   Doug. The text uses no title word.
+2. **B (peril: STUCK).** It clicks and reads at feed size. The Doug-sized hell ant is in the video (s072 to s075, the
+   costume beat). Doug in liquid resin is a composite, but it shows the episode's mechanism (resin traps whatever
+   is at the foot of the trunk, s093/s094) and it keeps CD note 5: Doug is in liquid resin, never sealed in amber.
+   It's acceptable packaging, not a false promise.
+3. **C (grid control).** It's the honest list read, and the bead size ladder pays off "Things". It's the weakest at
+   168 px (the labels are small, and the snake skeleton reads a bit like a centipede until you read the label). It's
+   fine as the control.
+4. **"Baby Snake" label: OK.** It's accurate: Xing et al. 2018, *Science Advances*, "embryonic-to-neonate snake"; Caldwell:
+   "the first baby snake" (facts.md rows 75 to 79; script item 6 says "baby snake"). It avoids every title word. In this
+   context (a headless skeleton next to TICK, HELL ANT and DINOSAUR TAIL) it doesn't read as kids content.
+5. **Kids-appeal check: pass.** No cute eyes, no mascot or nursery tone. Doug is in shock or panic in all three. C's
+   bright tiles and the ComicNeue font are the channel's standard grid grammar and match past episodes.
+6. **Dinosaur-menace check: pass.** A's dinosaur is hunched, hard-eyed and has open jaws, which meets the "not cute"
+   note, and it never touches Doug. B's ant has open jaws and doesn't touch him either. There's no blood or injury
+   anywhere and no real-looking gore. Nothing promises "dinosaur DNA", "alive" or Jurassic Park.
+7. **For the A/B test:** if the titler's alt "...From Ticks to Dinosaurs" is ever tested, run it with A or B, not C,
+   because C's TICK and DINOSAUR TAIL labels would repeat title words.
+
+## 2026-10-28, director: visual review round 1 fixes
+1. **Variety:** 63 shots restaged, and no more than 2 centred-bead frames now run back to back (checked by script). The new framings are:
+   - extreme close-ups: the bead at scale 2.2 centred at (900, 600), so its top-right edge stays clear of the counter zone;
+   - a mirrored card (bead left, Doug right);
+   - Doug holding the magnifier to the bead;
+   - Doug beside a giant bead resting on the shelf;
+   - live bug's-eye forest-floor cutaways (hell ant, vampire ant with its beetle prey, with no fluid shown);
+   - split cards.
+   Kachin/SVP: s202 is the map with a red Kachin outline, s203 an amber-mine entrance, s204 a journal page crossed out, and s205 the map again.
+   The card stays sober: no Doug, no counter, no wordart.
+2. **Fixes:**
+   - s004: no trunk over the silhouette, and the arrow ends on the tail.
+   - s012: no bead. The penny edge is at 2.4 with the tick at true relative scale on the rim (about 2/3), plus a zoomed inset.
+   - s065: the ant is at 0.7 with its left end lined up with the rice.
+   - s046/s047: the adult male is at 0.8 and fully inside the bead.
+   - s172-s174: Doug is at x 640, clear of the trunks.
+   - Tray shots: the stray dashed drop line is removed.
+   - s048: a silk egg sac with 11 clustered eggs, drawn from shapes.
+   - s134: the library `thumbs_up_hand` with the skull on the thumbnail.
+3. The art director's round-1 edits from commit b24dc27 (s009, s052, s097, s099, s110, s136, s137, s171, s178, s180) are carried over unchanged.
+   The narration is untouched (1,973 words), and the shot ids are unchanged, so shorts.json still validates.

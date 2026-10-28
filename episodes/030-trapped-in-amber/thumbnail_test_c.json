@@ -1,0 +1,218 @@
+{
+ "_note": "Variant C (list-format control, archetype A grid, brief proposal A): 4 big tiles in a 2x2 on white, each one amber bead with one specimen, beads growing tile by tile (0.40 -> 0.60) to the most golden glowing one with the feathered tail; red-capped Doug (shock) beside the last bead. Labels ComicNeue-Bold via tile label (only font), none of the title words: Tick / Hell Ant / Baby Snake / Dinosaur Tail.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 30,
+   "y": 12,
+   "w": 590,
+   "h": 250,
+   "fill": "#3fc1ff",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Tick",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "group",
+     "x": 325.0,
+     "y": 137.0,
+     "scale": 0.4,
+     "boil": 0,
+     "wobble": 0,
+     "elements": [
+      {
+       "type": "asset",
+       "name": "amber_bead",
+       "x": 0,
+       "y": 0,
+       "scale": 1.0
+      },
+      {
+       "type": "asset",
+       "name": "feather_tick",
+       "x": 0,
+       "y": 0,
+       "scale": 0.95
+      },
+      {
+       "type": "asset",
+       "name": "amber_bead_glint",
+       "x": 0,
+       "y": 0,
+       "scale": 1.0
+      }
+     ]
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 660,
+   "y": 12,
+   "w": 590,
+   "h": 250,
+   "fill": "#ff4fa3",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Hell Ant",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "group",
+     "x": 955.0,
+     "y": 137.0,
+     "scale": 0.46,
+     "boil": 0,
+     "wobble": 0,
+     "elements": [
+      {
+       "type": "asset",
+       "name": "amber_bead",
+       "x": 0,
+       "y": 0,
+       "scale": 1.0
+      },
+      {
+       "type": "asset",
+       "name": "hell_ant_grip",
+       "x": 0,
+       "y": 0,
+       "scale": 1.0
+      },
+      {
+       "type": "asset",
+       "name": "amber_bead_glint",
+       "x": 0,
+       "y": 0,
+       "scale": 1.0
+      }
+     ]
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 30,
+   "y": 362,
+   "w": 590,
+   "h": 250,
+   "fill": "#7ed957",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Baby Snake",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "group",
+     "x": 325.0,
+     "y": 487.0,
+     "scale": 0.52,
+     "boil": 0,
+     "wobble": 0,
+     "elements": [
+      {
+       "type": "asset",
+       "name": "amber_bead",
+       "x": 0,
+       "y": 0,
+       "scale": 1.0
+      },
+      {
+       "type": "asset",
+       "name": "xiaophis_skeleton",
+       "x": 0,
+       "y": 0,
+       "scale": 1.05
+      },
+      {
+       "type": "asset",
+       "name": "amber_bead_glint",
+       "x": 0,
+       "y": 0,
+       "scale": 1.0
+      }
+     ]
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 660,
+   "y": 362,
+   "w": 590,
+   "h": 250,
+   "fill": "#6a3fa0",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Dinosaur Tail",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "spray",
+     "x": 1015.0,
+     "y": 487.0,
+     "r": 220,
+     "color": "#ffb52e",
+     "density": 0.09
+    },
+    {
+     "type": "group",
+     "x": 1015.0,
+     "y": 487.0,
+     "scale": 0.6,
+     "boil": 0,
+     "wobble": 0,
+     "elements": [
+      {
+       "type": "asset",
+       "name": "amber_bead",
+       "x": 0,
+       "y": 0,
+       "scale": 1.0
+      },
+      {
+       "type": "asset",
+       "name": "eva_tail",
+       "x": 0,
+       "y": 0,
+       "scale": 1.0
+      },
+      {
+       "type": "asset",
+       "name": "amber_bead_glint",
+       "x": 0,
+       "y": 0,
+       "scale": 1.0
+      }
+     ]
+    },
+    {
+     "type": "doug",
+     "x": 755,
+     "y": 567,
+     "scale": 0.3,
+     "pose": "panic1",
+     "expression": "shock",
+     "facing": "right",
+     "ink": "#ffffff",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

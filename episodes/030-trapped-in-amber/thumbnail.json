@@ -1,0 +1,105 @@
+{
+ "_note": "Variant A (hero close-up, video opening image s001; brief proposal B made a creature hero per the 10-20 owner rule): flat saturated yellow field with an orange glow behind the head; the huge feathered_dino_looming head (open toothy jaws, hard yellow eye) leans in from the right and fills ~60% of the frame; tiny red-capped Doug (panic, shock, sweat) on the left holds up a glowing amber bead with the tick-on-a-feather (the episode's rule: the thing in the amber is small, the things around it were not; s001 line 'A tick has been holding on'). Text 99 MILLION YEARS (Arimo bold, white, black outline): no title word. Hunched, toothy, not cute; no contact, no blood.",
+ "background": "#ffd23f",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "spray",
+   "x": 880,
+   "y": 420,
+   "r": 560,
+   "color": "#ff9f1c",
+   "density": 0.09
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 640,
+   "w": 1300,
+   "h": 90,
+   "fill": "#7a4a1f",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "feathered_dino_looming",
+   "x": 1300,
+   "y": 400,
+   "scale": 0.95,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 230,
+   "y": 290,
+   "r": 190,
+   "color": "#ffffff",
+   "density": 0.08
+  },
+  {
+   "type": "doug",
+   "x": 230,
+   "y": 560,
+   "scale": 0.52,
+   "pose": "arms_up",
+   "expression": "shock",
+   "facing": "right",
+   "gear": [
+    "sweat"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "group",
+   "x": 230,
+   "y": 290,
+   "scale": 0.42,
+   "boil": 0,
+   "wobble": 0,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "amber_bead",
+     "x": 0,
+     "y": 0,
+     "scale": 1.0
+    },
+    {
+     "type": "asset",
+     "name": "feather_tick",
+     "x": 0,
+     "y": 0,
+     "scale": 0.95
+    },
+    {
+     "type": "asset",
+     "name": "amber_bead_glint",
+     "x": 0,
+     "y": 0,
+     "scale": 1.0
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "99 MILLION YEARS",
+   "x": 470,
+   "y": 80,
+   "size": 96,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
