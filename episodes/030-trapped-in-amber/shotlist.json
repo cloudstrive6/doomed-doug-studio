@@ -1444,7 +1444,7 @@
      },
      {
       "type": "spray",
-      "x": 1060,
+      "x": 820,
       "y": 560,
       "r": 520,
       "color": "#6b4a1f",
@@ -1487,7 +1487,7 @@
      },
      {
       "type": "spray",
-      "x": 1060,
+      "x": 820,
       "y": 540,
       "r": 363,
       "color": "#ffd36b",
@@ -1495,7 +1495,7 @@
      },
      {
       "type": "group",
-      "x": 1060,
+      "x": 820,
       "y": 540,
       "scale": 1.1,
       "elements": [
@@ -1525,7 +1525,7 @@
      {
       "type": "label",
       "text": "DEINOCROTON DRACULI",
-      "x": 1060,
+      "x": 820,
       "y": 270,
       "size": 44,
       "bold": true,
@@ -1535,12 +1535,12 @@
      },
      {
       "type": "doug",
-      "x": 290,
+      "x": 1640,
       "y": 824.0,
       "scale": 0.5,
       "pose": "think",
       "expression": "confused",
-      "facing": "right"
+      "facing": "left"
      },
      {
       "type": "label",
@@ -9443,17 +9443,9 @@
       "type": "asset",
       "name": "narrator_hand_pencil",
       "x": 1420,
-      "y": 330,
+      "y": 380,
       "scale": 0.7,
       "appear": 0.1
-     },
-     {
-      "type": "asset",
-      "name": "narrator_hand_pencil",
-      "x": 1420,
-      "y": 440,
-      "scale": 0.7,
-      "appear": 0.6
      },
      {
       "type": "label",
@@ -10440,7 +10432,7 @@
      },
      {
       "type": "spray",
-      "x": 1060,
+      "x": 820,
       "y": 560,
       "r": 520,
       "color": "#6b4a1f",
@@ -10483,7 +10475,7 @@
      },
      {
       "type": "spray",
-      "x": 1060,
+      "x": 820,
       "y": 540,
       "r": 363,
       "color": "#ffd36b",
@@ -10491,7 +10483,7 @@
      },
      {
       "type": "group",
-      "x": 1060,
+      "x": 820,
       "y": 540,
       "scale": 1.1,
       "elements": [
@@ -10521,7 +10513,7 @@
      {
       "type": "label",
       "text": "99 MILLION YEARS AGO",
-      "x": 1060,
+      "x": 820,
       "y": 270,
       "size": 44,
       "bold": true,
@@ -10531,12 +10523,12 @@
      },
      {
       "type": "doug",
-      "x": 290,
+      "x": 1640,
       "y": 824.0,
       "scale": 0.5,
       "pose": "think",
       "expression": "neutral",
-      "facing": "right"
+      "facing": "left"
      },
      {
       "type": "label",
@@ -12005,7 +11997,7 @@
      },
      {
       "type": "spray",
-      "x": 1060,
+      "x": 820,
       "y": 560,
       "r": 520,
       "color": "#6b4a1f",
@@ -12048,7 +12040,7 @@
      },
      {
       "type": "spray",
-      "x": 1060,
+      "x": 820,
       "y": 540,
       "r": 363,
       "color": "#ffd36b",
@@ -12056,7 +12048,7 @@
      },
      {
       "type": "group",
-      "x": 1060,
+      "x": 820,
       "y": 540,
       "scale": 1.1,
       "elements": [
@@ -12086,14 +12078,15 @@
      {
       "type": "asset",
       "name": "insect",
-      "x": 520,
+      "x": 1400,
       "y": 520,
-      "scale": 0.9
+      "scale": 0.9,
+      "flip": true
      },
      {
       "type": "asset",
       "name": "warning_triangle",
-      "x": 520,
+      "x": 1400,
       "y": 330,
       "scale": 0.5,
       "appear": 0.3
@@ -12101,7 +12094,7 @@
      {
       "type": "wordart",
       "text": "DRINK",
-      "x": 1060,
+      "x": 820,
       "y": 975,
       "size": 96,
       "boil": 0,
@@ -12109,12 +12102,12 @@
      },
      {
       "type": "doug",
-      "x": 200,
+      "x": 1720,
       "y": 839.2,
       "scale": 0.4,
       "pose": "cower",
       "expression": "gritted",
-      "facing": "right"
+      "facing": "left"
      },
      {
       "type": "label",
@@ -17194,7 +17187,7 @@
      },
      {
       "type": "spray",
-      "x": 1060,
+      "x": 820,
       "y": 560,
       "r": 520,
       "color": "#6b4a1f",
@@ -17237,7 +17230,7 @@
      },
      {
       "type": "spray",
-      "x": 1060,
+      "x": 820,
       "y": 540,
       "r": 363,
       "color": "#ffd36b",
@@ -17245,7 +17238,7 @@
      },
      {
       "type": "group",
-      "x": 1060,
+      "x": 820,
       "y": 540,
       "scale": 1.1,
       "elements": [
@@ -17275,7 +17268,7 @@
      {
       "type": "wordart",
       "text": "ALREADY DEAD",
-      "x": 1060,
+      "x": 820,
       "y": 975,
       "size": 96,
       "boil": 0,
@@ -17283,12 +17276,12 @@
      },
      {
       "type": "doug",
-      "x": 290,
+      "x": 1640,
       "y": 824.0,
       "scale": 0.5,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right"
+      "facing": "left"
      },
      {
       "type": "label",
@@ -17571,8 +17564,8 @@
        760
       ],
       "to": [
-       1230,
-       590
+       1080,
+       640
       ],
       "bend": 40,
       "color": "#e0201b",
@@ -19397,7 +19390,7 @@
      },
      {
       "type": "spray",
-      "x": 1060,
+      "x": 820,
       "y": 560,
       "r": 520,
       "color": "#6b4a1f",
@@ -19440,7 +19433,7 @@
      },
      {
       "type": "spray",
-      "x": 1060,
+      "x": 820,
       "y": 540,
       "r": 363,
       "color": "#ffd36b",
@@ -19448,7 +19441,7 @@
      },
      {
       "type": "group",
-      "x": 1060,
+      "x": 820,
       "y": 540,
       "scale": 1.1,
       "elements": [
@@ -19478,7 +19471,7 @@
      {
       "type": "label",
       "text": "XIAOPHIS MYANMARENSIS",
-      "x": 1060,
+      "x": 820,
       "y": 270,
       "size": 44,
       "bold": true,
@@ -19488,12 +19481,12 @@
      },
      {
       "type": "doug",
-      "x": 290,
+      "x": 1640,
       "y": 824.0,
       "scale": 0.5,
       "pose": "think",
       "expression": "confused",
-      "facing": "right"
+      "facing": "left"
      },
      {
       "type": "label",
@@ -23929,20 +23922,10 @@
       "scale": 0.5
      },
      {
-      "type": "label",
-      "text": "OCULUDENTAVIS",
-      "x": 560,
-      "y": 330,
-      "size": 40,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff"
-     },
-     {
       "type": "wordart",
       "text": "BEE HUMMINGBIRD",
-      "x": 900,
-      "y": 300,
+      "x": 1000,
+      "y": 330,
       "size": 84,
       "boil": 0,
       "appear": 0.3
@@ -24041,17 +24024,6 @@
       "boil": 0.4,
       "fill": "#ffffff",
       "appear": 0.4
-     },
-     {
-      "type": "label",
-      "text": "TINY DINO!",
-      "x": 1380,
-      "y": 560,
-      "size": 40,
-      "bold": true,
-      "boil": 0.4,
-      "fill": "#ffffff",
-      "appear": 0.55
      },
      {
       "type": "asset",
@@ -29215,12 +29187,12 @@
      {
       "type": "arrow",
       "from": [
-       520,
-       360
+       760,
+       250
       ],
       "to": [
-       850,
-       540
+       1135,
+       370
       ],
       "bend": -40,
       "color": "#e0201b",
@@ -29231,8 +29203,8 @@
      {
       "type": "label",
       "text": "WING CLAWS",
-      "x": 480,
-      "y": 310,
+      "x": 640,
+      "y": 230,
       "size": 44,
       "bold": true,
       "boil": 0.4,
@@ -30798,7 +30770,7 @@
      {
       "type": "spray",
       "x": 1420,
-      "y": 360,
+      "y": 500,
       "r": 260,
       "color": "#5e4670",
       "density": 0.18,
@@ -30808,7 +30780,7 @@
       "type": "asset",
       "name": "enantiornithine",
       "x": 1420,
-      "y": 450,
+      "y": 600,
       "scale": 0.8,
       "silhouette": true,
       "glow_r": 0,
@@ -31171,15 +31143,15 @@
      {
       "type": "wordart",
       "text": "LESS PARENT",
-      "x": 700,
-      "y": 300,
+      "x": 760,
+      "y": 190,
       "size": 96,
       "boil": 0,
       "appear": 0.3
      },
      {
       "type": "doug",
-      "x": 780,
+      "x": 560,
       "y": 380,
       "scale": 0.38,
       "pose": "float",
