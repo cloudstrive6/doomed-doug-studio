@@ -29,7 +29,12 @@
       "stage": "art_approved",
       "at": "2026-10-28T17:21:31+00:00",
       "note": "art-director + visual-screener PASS, thumbnails approved"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-10-28T17:24:37+00:00",
+      "note": "narrated 10.9 min, 199.6 wpm, 217 shots, pronunciations added, validate OK"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

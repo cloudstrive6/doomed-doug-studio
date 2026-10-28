@@ -36,6 +36,15 @@ voice:                       # Google Cloud TTS, Chirp 3: HD
     - {phrase: "Whangarei", ipa: "ˌfɑŋɑˈreɪ"}
     - {phrase: "Orde-Lees", ipa: "ˈɔrd ˈliz"}
     - {phrase: "Shirreff", ipa: "ˈʃɪrɪf"}
+    - {phrase: "Deinocroton", ipa: "ˈdaɪnoʊˈkroʊtɒn"}
+    - {phrase: "Xiaophis", ipa: "ˈʃaʊˈoʊfɪs"}
+    - {phrase: "Oculudentavis", ipa: "ˈɒkjʊluˈdɛntˈeɪvɪs"}
+    - {phrase: "enantiornithines", ipa: "ɛˈnæntiˈɔrnɪˌθaɪnz"}
+    - {phrase: "enantiornithine", ipa: "ɛˈnæntiˈɔrnɪˌθaɪn"}
+    - {phrase: "Myitkyina", ipa: "ˈmɪtʃɪˌnɑ"}
+    - {phrase: "Caputoraptor", ipa: "ˈkæpjutoʊˈræptər"}
+    - {phrase: "Belone", ipa: "bɛˈloʊni"}
+    - {phrase: "Linguamyrmex", ipa: "ˈlɪŋɡwəˈmɜrmɛks"}
     - {phrase: "Rothera", ipa: "ˈrɒθərə"}
   fallback_wpm: 197          # only used for dry runs without an API key
 

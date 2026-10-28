@@ -112,3 +112,4 @@ needs a visual-screener PASS on the three thumbnails.
    - s134: the library `thumbs_up_hand` with the skull on the thumbnail.
 3. The art director's round-1 edits from commit b24dc27 (s009, s052, s097, s099, s110, s136, s137, s171, s178, s180) are carried over unchanged.
    The narration is untouched (1,973 words), and the shot ids are unchanged, so shorts.json still validates.
+- 2026-10-28: script 3 rounds (screener FAIL x2 then CD approval after 2 one-line fixes), art 2 rounds (art-director PASS, visual-screener FAIL->PASS), thumbnails approved first pass. Risks: kid-appeal (dinosaurs), pronunciations (IPA added, not ear-tested), s128 snake silhouette reads as rope, raw amber lump s165-167, 15s longest shot unchecked.
