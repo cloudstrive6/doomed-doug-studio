@@ -75,3 +75,56 @@ change is required.
   stepping the bead size up from Tick to Dinosaur Tail, would deliver the "size ladder" promise and dilute the
   flashcard look.
 - None of the three has spelling errors, crops, stray marks or gore.
+
+## Round 3: post-render (final.mp4, thumbnails, Shorts), 2026-10-28
+
+Inputs checked: `build/qc.json` (655.49 s, `problems: []`, written 17:41 after the 17:35 final render), all 22 samples
+`build/samples/f_001-f_022.png` (each mapped to its shot via timing.json; every frame matches its narration), `thumbnail.png` / `_b` / `_c`
+and their `_small` (168x94) versions, `metadata.json`, and the three `build/shorts/*_preview.png`. From each Short (1080x1920,
+46.1 s / 40.2 s / 46.9 s) I pulled frames every 6 s, frames every 1.5 s over the last 9 s, and the final frame. Title: "The Creepiest
+Things Scientists Have Found Trapped in Amber".
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+### Main video + thumbnail: PASS
+- No sample is black, blank, frozen or glitched. f_022 (endslate, sky/grass, DOUG'S NEXT DEATH + dark end-screen box) is intended.
+- The chapter tags step in order: Tick, Web, Hell Ant, Ammonite, Snake, Wrong Dinosaur, Hatchling, Tail. The counter also steps
+  in order, from 240 to 245.
+- Each picture matches its line. Examples: f_002 "158 MOA BONES" over "...a hundred and fifty-eight bones of moa", f_008 Doug in
+  the cockroach costume over "young cockroach relative", f_014 skull vs BEE HUMMINGBIRD, f_019 "3.5 CM" tail, f_021 the
+  map with the red outline, "2021" and STRICTER STOP.
+- Doug is on-model everywhere (red cap, white head), including the cockroach costume. The specimens are recognisable: the tick,
+  the spider and the fly in the web, the hell ant, the ammonite, the snake skin, the Oculudentavis skull, the hatchling and the
+  feathered tail. Text is legible and spelled right. There is no gore: the swollen tick and the "iron from blood" beat have no
+  blood read. Nothing looks like a kids' show.
+- The thumbnails are unchanged from the Round 2 PASS. Each is readable at 168x94, with Doug and the threat obvious. None is
+  misleading against the title.
+- Advisory (director, not blocking): f_021 / s205 has no Doug and no death counter. It is a map beat, so this is acceptable.
+
+### Shorts: PASS
+- short01 (Lizard): The title pays off ("A LIZARD", scan). The outro opens the nest question without answering it. The end card
+  shows a red-outlined toothed bird silhouette (enantiornithine, s178) with "???" and "WHAT LANDED BEHIND DOUG AT THE NEST?".
+  The question matches the silhouette.
+- short02 (Hell Ant): The title pays off ("PINNED", the cockroach relative held under the horn). The outro sets up the costume.
+  The end card shows a hell-ant silhouette with scythe jaws and "DID THE HELL ANT FALL FOR IT?". It is not answered in the clip.
+- short03 (Tail): The title pays off (bones, skin, 3D feathers, iron). The end card shows the looming toothed dinosaur head with
+  "WHAT CAME WITH THE YOUNG ONE?". It is not answered in the clip.
+- In all three, the title is readable, the subtitles are legible, nothing is cut off at the sides, and the red arrow points down
+  to the link. The subtitle in short02_preview ("related to cockro") is a mid-word progressive reveal, not truncation. The next
+  frames complete the word.
+- Advisories (director, not blocking): (1) short03 `tease_asset` feathered_dino_looming shows only a head wedge cropped at the
+  right edge, and "???" sits over its eye. It still reads as a toothed dinosaur head, but a full-body adult silhouette would read
+  faster. (2) In all three end cards "???" overlaps the silhouette's centre. Nudging the "???" above the silhouette would
+  improve recognition. (3) Doug sits very close to the left frame edge in several Short frames (about 20-60 px). He is not
+  cropped.
+
+### Technical notes for the showrunner
+- QC exit status 1 vs a clean qc.json: `cmd_qc` writes qc.json and then exits with `1 if problems else 0`. A qc.json with
+  `problems: []` written at 17:41:14 (the samples are the same timestamp) therefore comes from a run that exited 0. The reported
+  exit 1 most likely came from a different step. My best guess is `gate`, which exits 1 while the newest visual-review verdict is
+  missing or not a PASS. That was the case before this round. The other possibility is an earlier QC attempt whose output was
+  overwritten. Re-run `python -m studio qc 030-trapped-in-amber` and `gate` to confirm. Nothing in the render itself is wrong.
+- Duration 655.49 s (10.9 min) is not suspicious. It matches narration.wav (655.56 s, 1,986 words, 199.6 wpm speech /
+  181.8 wpm overall with pauses). It is inside `target_minutes: [10, 12]`. The CD's "~10:07" was a word-count estimate made
+  before the pauses were added. The video is 1920x1080 with audio and video streams. There are 217 timed shots.

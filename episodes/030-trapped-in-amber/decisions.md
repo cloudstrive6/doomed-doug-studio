@@ -113,3 +113,24 @@ needs a visual-screener PASS on the three thumbnails.
 3. The art director's round-1 edits from commit b24dc27 (s009, s052, s097, s099, s110, s136, s137, s171, s178, s180) are carried over unchanged.
    The narration is untouched (1,973 words), and the shot ids are unchanged, so shorts.json still validates.
 - 2026-10-28: script 3 rounds (screener FAIL x2 then CD approval after 2 one-line fixes), art 2 rounds (art-director PASS, visual-screener FAIL->PASS), thumbnails approved first pass. Risks: kid-appeal (dinosaurs), pronunciations (IPA added, not ear-tested), s128 snake silhouette reads as rope, raw amber lump s165-167, 15s longest shot unchecked.
+
+## 2026-10-28, creative director: final package gate
+Reviewed the title, `build/thumbnail.png` (and the 168 px version), the metadata.json description and tags, `build/chapters.txt`, the
+script opening, and the first 40 s of `build/final.mp4` (frames at 1, 5, 9, 20 and 40 s) plus samples f_001/f_002. Visual screener
+post-render: main PASS, shorts PASS. QC re-run exit 0, no problems; `gate` exit 0.
+1. **Title: kept as "The Creepiest Things Scientists Have Found Trapped in Amber"** (59 chars, T4). The alt "...From Ticks to Dinosaurs"
+   is the only real challenger. It is not clearly stronger, though: it is 63 chars, so it truncates sooner in the feed, and "Things"
+   promises a list that the eight-item video delivers. Keep it as the first A/B title challenger with thumbnail A or B, per the thumbnail gate note 7.
+2. **Thumbnail A: approved.** It reads in under a second at 168 px: the looming toothy dinosaur, panicking Doug, and the tick-on-feather
+   bead. "99 MILLION YEARS" uses no title word. It is not cute and there is no contact or gore. The video pays it off: 0:00 is this
+   exact frame, and the looming adult returns in the boss ("Young ones come with adults").
+3. **Opening: passes the 3.2 rules.** The concrete first sentence (tick, dinosaur feather, 99 million years) is on the thumbnail frame.
+   The payoff promise ("the owner of the first dinosaur tail ever found in amber") lands by about 0:09 over the FIRST DINOSAUR TAIL silhouette.
+   "The Tick." comes at 0:11, and item 1's twist (Dracula's swollen tick, then the DNA/Jurassic question) follows inside 45 s. The counter shows 240 from the start.
+4. **Description: approved.** The first line pays off the title with four real specimens, there are 6 sources with links, and it carries the
+   disclaimer and AI-use note. The {{CHAPTERS}} placeholder is filled from chapters.txt at upload (studio/youtube.py:174). The chapters start at 0:00, there are
+   8 items plus the intro, and every chapter is at least 10 s long. There is no "DNA", "alive" or Jurassic Park claim in the title, the thumbnail or the description.
+5. **Lore:** series_bible.md has been updated. The counter is now 246 (+6), and the 030 log row adds the SPECIMEN TRAY device and the cap sealed in amber.
+6. **Watch next (non-blocking):** check day-2 CTR for A against B/C. If A's CTR is below the channel median, swap to B before swapping the title.
+
+FINAL: APPROVED
