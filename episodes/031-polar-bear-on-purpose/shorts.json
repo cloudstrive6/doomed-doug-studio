@@ -7,11 +7,12 @@
       "title": "Polar Bears Almost Vanish on a Thermal Camera",
       "hook": "Point a thermal camera at a polar bear and it almost disappears.",
       "hook_scene_from": "s042",
-      "outro": "Doug's camera worked perfectly. What was still glowing on that screen a second later is in the full video below.",
+      "outro": "The nose on Doug's screen kept getting closer. How close it got is in the full video below.",
       "tease_from": "s052",
-      "tease_asset": "thermal_bear_face",
-      "end_card": "WHAT WAS LEFT GLOWING ON THE SCREEN?",
-      "description": "A polar bear's coat is nearly as cold as the snow, so infrared sees little more than its face; find out what was still glowing on Doug's screen in the full episode."
+      "tease_asset": "polar_bear_standing",
+      "end_card": "HOW CLOSE DID THAT NOSE GET?",
+      "description": "A polar bear's coat is nearly as cold as the snow, so infrared sees little more than its face; find out how close that nose got to Doug in the full episode.",
+      "duration_s": 41.4
     },
     {
       "id": "short02",
@@ -20,9 +21,10 @@
       "title": "This Polar Bear Held Its Breath 3 Minutes and Still Missed",
       "outro": "So Doug dressed as a seal and lay on a floe edge, right where the bear comes up. Full video below.",
       "tease_from": "s101",
-      "tease_asset": "polar_bear_lunge",
+      "tease_asset": "polar_bear_swimming",
       "end_card": "DID THE BEAR MISS DOUG TOO?",
-      "description": "A Svalbard polar bear swam an Olympic pool's length underwater to stalk three seals and missed them all; see whether Doug, dressed as a seal, gets that lucky in the full episode."
+      "description": "A Svalbard polar bear swam an Olympic pool's length underwater to stalk three seals and missed them all; see whether Doug, dressed as a seal, gets that lucky in the full episode.",
+      "duration_s": 52.4
     },
     {
       "id": "short03",
@@ -31,11 +33,12 @@
       "title": "Canada Has a Polar Bear Jail, and It Serves No Food",
       "hook": "Canada has a jail for polar bears. Nobody feeds the prisoners.",
       "hook_scene_from": "s141",
-      "outro": "Doug took the rubbish out in that same town. There was a bear in the stairwell. Full video below.",
-      "tease_from": "s151",
-      "tease_asset": "polar_bear_standing",
-      "end_card": "WHO WAS WAITING IN THE STAIRWELL?",
-      "description": "Churchill, Canada locks problem polar bears in a holding facility with air-conditioned cells and no food; find out who was waiting for Doug in the stairwell in the full episode."
+      "outro": "Doug took the rubbish out in that same town, and something was waiting in the stairwell. Where Doug ended up is in the full video below.",
+      "tease_from": "s152",
+      "tease_asset": "polar_bear",
+      "end_card": "WHERE DID DOUG END UP?",
+      "description": "Churchill, Canada locks problem polar bears in a holding facility with air-conditioned cells and no food; find out where Doug ended up in the full episode.",
+      "duration_s": 43.7
     }
   ]
 }

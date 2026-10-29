@@ -86,3 +86,43 @@ All three pass policy. They show no gore or blood: the dark-red open mouths are 
 19. **Thumbnail C:** in the Tent tile, the bear's head poking through the tent reads as a white cone at feed size. Show more head (ear plus eye) or swap in the s173 "nose presses into the tent" framing. The "Tent" label ends at about x=1110, close to the YouTube duration badge. Nudge the bottom row labels up about 10 px.
 
 The keyframes are approved for render. Post-render screening (samples, qc.json, Shorts) is still to do.
+
+## Post-render screening (round 1)
+
+Inputs: `build/samples/f_001..f_023` (one frame every 30 s, about 15 s into each 30 s window), `build/qc.json`, `metadata.json`, all three thumbnails plus their `_small` versions, and the three Shorts (previews, plus frames at 1, 5, 15 and 25 s and at -9, -6, -3 and -1 s from the end of each mp4).
+
+### Main video
+- `qc.json`: duration 694.6 s, `problems: []`.
+- I mapped all 23 samples to shots through `timing.json`. None is black, blank, glitched or frozen. Every picture matches its line, for example f_009/s088 "out of sight", f_018/s180 "MINUS 1 KG A DAY", f_021/s211 "LOWEST ICE" and f_023/s233 "NOV" with the cap.
+- Chapter header, death counter (246 to 253) and bear tracker (1 KM to 500 M to 100 M to 20 M to 10 M to 0) all advance in the right order across the samples.
+- Doug is on-model in every frame he appears in. There's no gore, the tone isn't kids' show, and no text is cropped or overlapping.
+- **Thumbnails A, B and C:** they pass, and the round 1 polish has landed. B's forearm now droops over Doug and he holds the binoculars. C's Tent tile now shows the bear's ear and eye. A (DINNER TIME) is still the strongest at 168x94. All three complement the title and none is misleading.
+- **Polish (non-blocking, director):**
+  - s211: the big left oval has no label, so the shrink reads only through the narration. Add a "SUMMER ICE 1979" or "BEFORE" tag under it.
+  - s084 to s093: the brown `bearded_seal`s are accurate for the 2014 Svalbard dive. At 640 px their white whiskers read a little like walrus tusks. Leave as is unless the illustrator is already in that asset.
+
+VERDICT (main): PASS
+
+### Shorts
+All three Shorts pass on legibility and framing. The titles are readable, the 16:9 scene sits full-width with nothing cut off at the sides, the subtitles are legible, and the end-card arrow points down. The cliffhanger end cards fail on all three:
+
+1. **short01: unreadable silhouette that doesn't match the question.** Route to the director (`shorts.json`).
+   - The end card applies the silhouette treatment to `thermal_bear_face`, which is built from spray dots. The result is a dithered red disc with no red outline. It runs past the right edge (x about 1050 of 1080), and "???" sits on the eyes. It isn't recognisable as anything.
+   - It also teases the wrong thing. In the episode, what's "left glowing on the screen" is Doug's cap (s052/s053). The bear face was already shown in this Short (s046 to s051).
+   - Fix: set `tease_asset: "polar_bear_standing"` (a solid shape) and `end_card: "HOW CLOSE DID THAT NOSE GET?"`.
+   - Set `outro: "The nose on Doug's screen kept getting closer. How close it got is in the full video below."`
+   - Keep `tease_from: "s052"`.
+2. **short02: unreadable silhouette.** Route to the director (`shorts.json`).
+   - `polar_bear_lunge` renders as a tilted diagonal blob with the head buried under "???". It doesn't read as a bear.
+   - The question "DID THE BEAR MISS DOUG TOO?" and the outro are fine: they're specific and unanswered in the Short.
+   - Fix: set `tease_asset: "polar_bear_swimming"`, a side-profile bear that matches the "comes up at the floe edge" setup. `polar_bear` also works.
+3. **short03: the outro answers its own question, and the silhouette covers the question.** Route to the director (`shorts.json`).
+   - The outro says "There was a bear in the stairwell", then the card asks "WHO WAS WAITING IN THE STAIRWELL?" and shows a bear.
+   - The tall `polar_bear_standing` silhouette rises into the question text and blacks out "ELL" of STAIRWELL.
+   - Fix: set `outro: "Doug took the rubbish out in that same town, and something was waiting in the stairwell. Where Doug ended up is in the full video below."`
+   - Set `end_card: "WHERE DID DOUG END UP?"`. The payoff is s152: locked in the polar bear jail by mistake, which ties back to this Short's title.
+   - Set `tease_asset: "polar_bear"`. It's a lower four-legged profile, so it clears the two-line question. If `shorts.json` supports a tease scale or offset, the director can keep `polar_bear_standing` and shrink it below the text instead.
+
+After the edits, re-render the Shorts only (`shorts render`) and re-screen the last 8 s of each.
+
+VERDICT (shorts): FAIL

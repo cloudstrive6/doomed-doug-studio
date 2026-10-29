@@ -48,3 +48,15 @@
 6. **Test & Compare:** run A/B/C. Like the screener, I expect A to win and C to trail. If C wins, log it for the growth memo, because it would be our first grid win on a single-animal T9.
 
 - 2026-10-29 showrunner: rounds — script 3 (screener PASS r3; Flesch band widened to 60-80 by CD), art assets 1, keyframes 2 (art-director + visual-screener PASS r2), thumbnails 2 (A/B/C approved). Risks: editor lowered global voice.speaking_rate 1.15 -> 1.12 in config/channel.yaml (206.8 -> 196.3 wpm), affects future episodes; boss montage ~12 s spoken (not <10 s); owner should check YouTube Studio for a channel notice (all long videos lost reach 10-25); run thumbnails A/B/C in Test & Compare.
+
+## 2026-10-29, creative director: final package gate
+1. **Title kept:** "Why the Polar Bear Is the Scariest Animal That Hunts Doug" (57 chars). The script and the boss deliver it: the opener is Wilder 2017's predatory-attack finding, the video runs the full hunt sequence, and the boss runs the seal hunt on Doug.
+   - Alt 1 ("Kills Doug Like He's a Seal") is not clearly stronger. It would also repeat 029's "How the Leopard Seal Kills Doug" shape and seal wording two uploads later. The other alts drop Doug or reuse 027's "Every Reason" read. No swap.
+2. **Thumbnail A (DINNER TIME, cabin window):** approved. At 168x94 the text reads first and there is one focal point: the predatory bear nose to the glass, with Doug unaware. It is cartoon only (dark-red mouth, no blood), and nothing in it echoes 029. The round 1 polish on B and C has landed. Run A/B/C in Test & Compare.
+3. **Description:** approved. The first line restates the sourced stake. Every teased stop is in the video: the 1 km nose, the thermal fur, the record dive, Belushya Guba, the Churchill holding facility, and bears spending longer on land. The chapters match `build/chapters.txt` (0:00 start, 10 stops, all longer than 10 s). Key sources are linked, the disclaimer and the AI-use note are present, and nothing is aimed at children.
+4. **First 60 s:** the cold open matches the thumbnail and the sourced stake is the first sentence. The payoff promise lands by about 0:08, "The Nose" arrives within 35 words, and its twist (the roof slam) comes inside 45 s. Samples f_001 and f_002 are clean, with the counter at 246 and the BEAR 1 KM readout in place. QC duration is 694.6 s with `problems: []`. Visual screener post-render main verdict: PASS.
+5. **Not blocking the long video:** the visual screener FAILED the three Shorts' end cards (unreadable silhouettes, and short03 answers its own question). The director must apply the screener's `shorts.json` fixes, then `shorts render` and re-screen the last 8 s of each, before any Short uploads. The s211 "BEFORE" tag and the bearded-seal whiskers are polish only and stay as they are.
+FINAL: APPROVED
+
+- 2026-10-29 showrunner final review: QC exit 0 on re-run (no problems), main PASS, shorts FAIL (end cards) -> shorts.json fixed (end cards, descriptions, short03 tease_from s152), .rerender=shorts requested. CD approved package.
+FINAL: APPROVED
