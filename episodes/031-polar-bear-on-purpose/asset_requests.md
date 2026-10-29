@@ -314,3 +314,12 @@ Reused from the library (no request): `basketball`, `bathroom_scale`, `big_water
 - Notes: Small (0.5) on the cream data card.
 - Shots: s187 (1 shot)
 - **Done** (illustrator, 2026-10-29): `assets/library/whale_carcass.json`, preview `assets/previews/031-polar-bear-on-purpose-assets-b.png`.
+
+## Keyframe round 1 fixes (art_review fix 1, visual_review 2 and 14)
+- `paw_print_icon_light`: same shapes, cream `#f4f1e4` pads, `#1a1a1a` outline. Same anchor/bbox as `paw_print_icon` (centre, x -50..50, y -50..50), so it is a straight name swap at the same x/y/scale. Checked at 0.3 beside the BEAR label on `#000000`, `#4a5670`, `#1b2f5a`, `#2a2a2e`.
+  - **Done** (illustrator, 2026-10-29): `assets/library/paw_print_icon_light.json`.
+- `seal_costume_prone` (new; the upright `seal_costume` is unchanged because s100's LAST TIME inset and episodes 008/021/029 use it): side-on ringed-seal body, grey with ring spots, darker back, pale belly, small front flipper, paired hind flippers past the feet, a zipper on the back seam, and a hood band around the back of the head and the chin with whiskers either side. Head, face and cap stay clear. Stored pre-rotated for the old prone placement, so only the name changes: in s099, s101, s102, s103, s104 and s221 (and s100's main figure), set `seal_costume` with `rotate: -90` to `seal_costume_prone`, keeping x 718, y 518, scale 0.6 and rotate -90. Do not change the s100 inset (1500, 560, no rotate).
+  - **Done** (illustrator, 2026-10-29): `assets/library/seal_costume_prone.json`.
+- `berry_bush` redrawn in place (same name, bottom-centre anchor, ~300x160): separate red, orange and amber leaf clumps on visible stems, big bright-blue berries with highlights, no brown mound. `berry_bowl`: berries brightened to blue with highlights, plus one orange leaf on the right. Anchor/bbox unchanged.
+  - **Done** (illustrator, 2026-10-29).
+- Previews: `assets/previews/031-polar-bear-on-purpose-fixes-r1.png` (asset sheet; the prone costume shows upright there because it is stored pre-rotated) and `assets/previews/031-polar-bear-on-purpose-fixes-r1-context.png` (paw on four dark backgrounds, bush at 0.45/1.0, bowl, costume on Doug on_back).

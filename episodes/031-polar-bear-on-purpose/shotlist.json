@@ -3411,51 +3411,81 @@
     "elements": [
      {
       "type": "rect",
-      "x": -10,
-      "y": -10,
-      "w": 1940,
-      "h": 1100,
-      "fill": "#eef4f8",
-      "color": "#eef4f8",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 560,
+      "fill": "#cfe9ff",
+      "color": "#cfe9ff",
       "width": 0,
       "boil": 0,
       "outline": false
      },
      {
-      "type": "line",
+      "type": "rect",
+      "x": 0,
+      "y": 560,
+      "w": 1920,
+      "h": 520,
+      "fill": "#f7fbff",
+      "color": "#f7fbff",
+      "width": 0,
+      "boil": 0,
+      "outline": false
+     },
+     {
+      "type": "poly",
       "points": [
        [
-        140,
-        260
+        0,
+        560
        ],
        [
-        420,
-        300
+        90,
+        534
        ],
        [
-        520,
-        420
+        170,
+        552
+       ],
+       [
+        260,
+        526
+       ],
+       [
+        340,
+        560
        ]
       ],
+      "fill": "#e4eef6",
       "color": "#9fb8cc",
       "width": 3
      },
      {
-      "type": "line",
+      "type": "poly",
       "points": [
        [
-        1300,
-        820
+        1380,
+        560
        ],
        [
-        1500,
-        760
+        1470,
+        530
+       ],
+       [
+        1540,
+        548
+       ],
+       [
+        1640,
+        520
        ],
        [
         1760,
-        800
+        560
        ]
       ],
+      "fill": "#e4eef6",
       "color": "#9fb8cc",
       "width": 3
      },
@@ -3463,87 +3493,117 @@
       "type": "line",
       "points": [
        [
-        220,
-        900
+        0,
+        560
        ],
        [
-        480,
+        1920,
+        560
+       ]
+      ],
+      "color": "#9fb8cc",
+      "width": 4
+     },
+     {
+      "type": "spray",
+      "x": 520,
+      "y": 780,
+      "r": 260,
+      "color": "#dff4ff",
+      "density": 0.12
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 880,
+      "r": 300,
+      "color": "#dff4ff",
+      "density": 0.12
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        300,
+        740
+       ],
+       [
+        430,
+        732
+       ]
+      ],
+      "color": "#9fb8cc",
+      "width": 2
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1180,
+        820
+       ],
+       [
+        1330,
+        810
+       ]
+      ],
+      "color": "#9fb8cc",
+      "width": 2
+     },
+     {
+      "type": "asset",
+      "name": "polar_bear_running",
+      "x": 760,
+      "y": 920,
+      "scale": 0.75
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        150,
+        720
+       ],
+       [
+        380,
+        720
+       ]
+      ],
+      "color": "#9fb8cc",
+      "width": 6,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        150,
+        790
+       ],
+       [
+        380,
+        790
+       ]
+      ],
+      "color": "#9fb8cc",
+      "width": 6,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        150,
+        860
+       ],
+       [
+        380,
         860
        ]
       ],
       "color": "#9fb8cc",
-      "width": 3
-     },
-     {
-      "type": "asset",
-      "name": "polar_bear",
-      "x": 960,
-      "y": 900,
-      "scale": 0.18
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        960,
-        840
-       ],
-       [
-        960,
-        300
-       ]
-      ],
-      "color": "#e0201b",
       "width": 6,
-      "dash": [
-       14,
-       12
-      ]
-     },
-     {
-      "type": "arrow",
-      "from": [
-       180,
-       380
-      ],
-      "to": [
-       620,
-       380
-      ],
-      "bend": 0,
-      "color": "#3a7fc0",
-      "width": 8,
-      "head": 30
-     },
-     {
-      "type": "arrow",
-      "from": [
-       180,
-       600
-      ],
-      "to": [
-       620,
-       600
-      ],
-      "bend": 0,
-      "color": "#3a7fc0",
-      "width": 8,
-      "head": 30
-     },
-     {
-      "type": "arrow",
-      "from": [
-       180,
-       820
-      ],
-      "to": [
-       620,
-       820
-      ],
-      "bend": 0,
-      "color": "#3a7fc0",
-      "width": 8,
-      "head": 30
+      "appear": 0.15
      },
      {
       "type": "label",
@@ -3554,13 +3614,79 @@
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
-      "appear": 0.15
+      "appear": 0.1
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1480,
+        940
+       ],
+       [
+        1480,
+        560
+       ]
+      ],
+      "color": "#4a4f56",
+      "width": 7,
+      "appear": 0.3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1484,
+        566
+       ],
+       [
+        1700,
+        604
+       ],
+       [
+        1694,
+        640
+       ],
+       [
+        1484,
+        626
+       ]
+      ],
+      "fill": "#e0201b",
+      "color": "#1a1a1a",
+      "width": 4,
+      "appear": 0.3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1556,
+        579
+       ],
+       [
+        1628,
+        591
+       ],
+       [
+        1626,
+        636
+       ],
+       [
+        1556,
+        633
+       ]
+      ],
+      "fill": "#ffffff",
+      "color": "#1a1a1a",
+      "width": 3,
+      "appear": 0.3
      },
      {
       "type": "label",
       "text": "WIND UNDER 36 KM/H",
-      "x": 1380,
-      "y": 860,
+      "x": 1480,
+      "y": 480,
       "size": 34,
       "bold": true,
       "boil": 0.3,
@@ -3570,9 +3696,9 @@
      {
       "type": "wordart",
       "text": "MOVING FAST",
-      "x": 1380,
-      "y": 520,
-      "size": 72,
+      "x": 760,
+      "y": 380,
+      "size": 76,
       "boil": 0,
       "appear": 0.65
      },
@@ -3890,7 +4016,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1491.9,
       "y": 238,
       "scale": 0.3
@@ -3972,12 +4098,12 @@
      {
       "type": "arrow",
       "from": [
-       180,
-       380
+       640,
+       250
       ],
       "to": [
-       620,
-       380
+       1000,
+       250
       ],
       "bend": 0,
       "color": "#3a7fc0",
@@ -3987,27 +4113,12 @@
      {
       "type": "arrow",
       "from": [
-       180,
-       600
+       640,
+       990
       ],
       "to": [
-       620,
-       600
-      ],
-      "bend": 0,
-      "color": "#3a7fc0",
-      "width": 8,
-      "head": 30
-     },
-     {
-      "type": "arrow",
-      "from": [
-       180,
-       820
-      ],
-      "to": [
-       620,
-       820
+       1000,
+       990
       ],
       "bend": 0,
       "color": "#3a7fc0",
@@ -4016,8 +4127,18 @@
      },
      {
       "type": "ellipse",
-      "x": 420,
-      "y": 330,
+      "x": 720,
+      "y": 360,
+      "rx": 46,
+      "ry": 26,
+      "fill": "#ffffff",
+      "color": "#5f7d94",
+      "width": 3
+     },
+     {
+      "type": "ellipse",
+      "x": 860,
+      "y": 580,
       "rx": 46,
       "ry": 26,
       "fill": "#ffffff",
@@ -4027,17 +4148,7 @@
      {
       "type": "ellipse",
       "x": 700,
-      "y": 560,
-      "rx": 46,
-      "ry": 26,
-      "fill": "#ffffff",
-      "color": "#5f7d94",
-      "width": 3
-     },
-     {
-      "type": "ellipse",
-      "x": 560,
-      "y": 780,
+      "y": 820,
       "rx": 46,
       "ry": 26,
       "fill": "#ffffff",
@@ -4048,20 +4159,20 @@
       "type": "curve",
       "points": [
        [
-        460,
-        330
+        760,
+        360
        ],
        [
-        680,
-        310
-       ],
-       [
-        940,
+        1020,
         340
        ],
        [
-        1220,
-        320
+        1280,
+        370
+       ],
+       [
+        1620,
+        350
        ]
       ],
       "color": "#8a6fb0",
@@ -4070,26 +4181,54 @@
        10,
        8
       ],
-      "appear": 0.2
+      "appear": 0.1
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        900,
+        580
+       ],
+       [
+        1160,
+        560
+       ],
+       [
+        1420,
+        590
+       ],
+       [
+        1760,
+        570
+       ]
+      ],
+      "color": "#8a6fb0",
+      "width": 5,
+      "dash": [
+       10,
+       8
+      ],
+      "appear": 0.1
      },
      {
       "type": "curve",
       "points": [
        [
         740,
-        560
+        820
        ],
        [
-        960,
-        540
+        1000,
+        800
        ],
        [
-        1220,
-        570
+        1260,
+        830
        ],
        [
-        1500,
-        550
+        1600,
+        810
        ]
       ],
       "color": "#8a6fb0",
@@ -4098,53 +4237,41 @@
        10,
        8
       ],
-      "appear": 0.2
-     },
-     {
-      "type": "curve",
-      "points": [
-       [
-        600,
-        780
-       ],
-       [
-        820,
-        760
-       ],
-       [
-        1080,
-        790
-       ],
-       [
-        1360,
-        770
-       ]
-      ],
-      "color": "#8a6fb0",
-      "width": 5,
-      "dash": [
-       10,
-       8
-      ],
-      "appear": 0.2
+      "appear": 0.1
      },
      {
       "type": "asset",
       "name": "polar_bear",
-      "x": 1300,
-      "y": 960,
+      "x": 1450,
+      "y": 1010,
       "scale": 0.16
      },
      {
       "type": "line",
       "points": [
        [
-        1300,
-        900
+        1450,
+        960
        ],
        [
-        1300,
-        200
+        1370,
+        860
+       ],
+       [
+        1530,
+        740
+       ],
+       [
+        1370,
+        620
+       ],
+       [
+        1530,
+        500
+       ],
+       [
+        1400,
+        360
        ]
       ],
       "color": "#e0201b",
@@ -4153,14 +4280,152 @@
        14,
        12
       ],
+      "appear": 0.3
+     },
+     {
+      "type": "ellipse",
+      "x": 1450,
+      "y": 578,
+      "rx": 16,
+      "ry": 16,
+      "fill": "#8a6fb0",
+      "color": "#000000",
+      "width": 3,
       "appear": 0.45
+     },
+     {
+      "type": "ellipse",
+      "x": 1460,
+      "y": 812,
+      "rx": 16,
+      "ry": 16,
+      "fill": "#8a6fb0",
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.5
+     },
+     {
+      "type": "ellipse",
+      "x": 1455,
+      "y": 350,
+      "rx": 16,
+      "ry": 16,
+      "fill": "#8a6fb0",
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.55
+     },
+     {
+      "type": "rect",
+      "x": 60,
+      "y": 330,
+      "w": 470,
+      "h": 400,
+      "fill": "#cfe9ff",
+      "color": "#1a1a1a",
+      "width": 6,
+      "boil": 0,
+      "appear": 0.2
+     },
+     {
+      "type": "rect",
+      "x": 66,
+      "y": 600,
+      "w": 458,
+      "h": 124,
+      "fill": "#f7fbff",
+      "color": "#f7fbff",
+      "width": 0,
+      "boil": 0,
+      "outline": false,
+      "appear": 0.2
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        66,
+        600
+       ],
+       [
+        524,
+        600
+       ]
+      ],
+      "color": "#9fb8cc",
+      "width": 3,
+      "appear": 0.2
+     },
+     {
+      "type": "asset",
+      "name": "polar_bear_sniffing",
+      "x": 270,
+      "y": 640,
+      "scale": 0.42,
+      "appear": 0.2
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        524,
+        430
+       ],
+       [
+        484,
+        448
+       ],
+       [
+        444,
+        462
+       ],
+       [
+        408,
+        472
+       ]
+      ],
+      "color": "#8a6fb0",
+      "width": 4,
+      "dash": [
+       8,
+       6
+      ],
+      "appear": 0.3
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        524,
+        474
+       ],
+       [
+        484,
+        478
+       ],
+       [
+        444,
+        478
+       ],
+       [
+        408,
+        472
+       ]
+      ],
+      "color": "#8a6fb0",
+      "width": 4,
+      "dash": [
+       8,
+       6
+      ],
+      "appear": 0.3
      },
      {
       "type": "wordart",
       "text": "THE MOST SCENT",
-      "x": 1500,
-      "y": 680,
-      "size": 66,
+      "x": 1060,
+      "y": 700,
+      "size": 62,
       "boil": 0,
       "appear": 0.65
      },
@@ -6489,6 +6754,16 @@
       "scale": 0.85
      },
      {
+      "type": "label",
+      "text": "BLACK SKIN",
+      "x": 1440,
+      "y": 940,
+      "size": 40,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff"
+     },
+     {
       "type": "wordart",
       "text": "NOT WHITE",
       "x": 480,
@@ -8797,7 +9072,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1486.5,
       "y": 238,
       "scale": 0.3
@@ -9100,7 +9375,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1486.5,
       "y": 238,
       "scale": 0.3
@@ -9220,7 +9495,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1486.5,
       "y": 238,
       "scale": 0.3
@@ -9333,7 +9608,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1486.5,
       "y": 238,
       "scale": 0.3
@@ -10069,7 +10344,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1486.5,
       "y": 238,
       "scale": 0.3
@@ -10098,7 +10373,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1486.5,
       "y": 238,
       "scale": 0.3,
@@ -10189,7 +10464,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1486.5,
       "y": 238,
       "scale": 0.3
@@ -12866,7 +13141,7 @@
       "type": "asset",
       "name": "scientist",
       "x": 180,
-      "y": 1000,
+      "y": 920,
       "scale": 0.5
      },
      {
@@ -13297,7 +13572,7 @@
       "type": "asset",
       "name": "scientist",
       "x": 1700,
-      "y": 1000,
+      "y": 920,
       "scale": 0.5
      },
      {
@@ -21255,7 +21530,7 @@
      },
      {
       "type": "asset",
-      "name": "seal_costume",
+      "name": "seal_costume_prone",
       "x": 718.0,
       "y": 518.0,
       "scale": 0.6,
@@ -21424,7 +21699,7 @@
      },
      {
       "type": "asset",
-      "name": "seal_costume",
+      "name": "seal_costume_prone",
       "x": 718.0,
       "y": 518.0,
       "scale": 0.6,
@@ -21678,7 +21953,7 @@
      },
      {
       "type": "asset",
-      "name": "seal_costume",
+      "name": "seal_costume_prone",
       "x": 718.0,
       "y": 518.0,
       "scale": 0.6,
@@ -21881,7 +22156,7 @@
      },
      {
       "type": "asset",
-      "name": "seal_costume",
+      "name": "seal_costume_prone",
       "x": 718.0,
       "y": 518.0,
       "scale": 0.6,
@@ -22070,7 +22345,7 @@
      },
      {
       "type": "asset",
-      "name": "seal_costume",
+      "name": "seal_costume_prone",
       "x": 718.0,
       "y": 518.0,
       "scale": 0.6,
@@ -22246,7 +22521,7 @@
      },
      {
       "type": "asset",
-      "name": "seal_costume",
+      "name": "seal_costume_prone",
       "x": 718.0,
       "y": 518.0,
       "scale": 0.6,
@@ -22283,16 +22558,16 @@
      {
       "type": "asset",
       "name": "dinner_plate",
-      "x": 1500,
-      "y": 380,
-      "scale": 0.5,
+      "x": 1010,
+      "y": 556,
+      "scale": 0.42,
       "appear": 0.35
      },
      {
       "type": "wordart",
       "text": "HAS TO EAT",
       "x": 1500,
-      "y": 500,
+      "y": 420,
       "size": 72,
       "boil": 0,
       "appear": 0.6
@@ -22475,9 +22750,103 @@
       "width": 2
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        1690,
+        560
+       ],
+       [
+        1930,
+        560
+       ],
+       [
+        1930,
+        1090
+       ],
+       [
+        1600,
+        1090
+       ],
+       [
+        1640,
+        880
+       ],
+       [
+        1610,
+        760
+       ]
+      ],
+      "fill": "#3a9ad9",
+      "color": "#5f7d94",
+      "width": 4
+     },
+     {
+      "type": "spray",
+      "x": 1800,
+      "y": 820,
+      "r": 140,
+      "color": "#6fc1ee",
+      "density": 0.08
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        1660,
+        700
+       ],
+       [
+        1720,
+        680
+       ],
+       [
+        1780,
+        700
+       ],
+       [
+        1840,
+        680
+       ],
+       [
+        1900,
+        700
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 4
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        1650,
+        960
+       ],
+       [
+        1710,
+        940
+       ],
+       [
+        1770,
+        960
+       ],
+       [
+        1830,
+        940
+       ],
+       [
+        1900,
+        960
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 4
+     },
+     {
       "type": "asset",
       "name": "polar_bear",
-      "x": 1450,
+      "x": 1400,
       "y": 900,
       "scale": 0.6,
       "flip": true
@@ -22499,7 +22868,7 @@
         860
        ],
        [
-        1200,
+        1180,
         860
        ]
       ],
@@ -22509,7 +22878,7 @@
        14,
        12
       ],
-      "appear": 0.3
+      "appear": 0.2
      },
      {
       "type": "label",
@@ -22520,14 +22889,75 @@
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
-      "appear": 0.4
+      "appear": 0.3
+     },
+     {
+      "type": "ellipse",
+      "x": 910,
+      "y": 980,
+      "rx": 130,
+      "ry": 34,
+      "fill": "#3a9ad9",
+      "color": "#2a6f9f",
+      "width": 4,
+      "appear": 0.45
+     },
+     {
+      "type": "ellipse",
+      "x": 910,
+      "y": 980,
+      "rx": 70,
+      "ry": 16,
+      "fill": null,
+      "color": "#ffffff",
+      "width": 3,
+      "appear": 0.45
+     },
+     {
+      "type": "ellipse",
+      "x": 910,
+      "y": 980,
+      "rx": 108,
+      "ry": 26,
+      "fill": null,
+      "color": "#bfe6ff",
+      "width": 2,
+      "appear": 0.45
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        820,
+        946
+       ],
+       [
+        865,
+        928
+       ],
+       [
+        910,
+        946
+       ],
+       [
+        955,
+        928
+       ],
+       [
+        1000,
+        946
+       ]
+      ],
+      "color": "#2a6f9f",
+      "width": 5,
+      "appear": 0.45
      },
      {
       "type": "asset",
       "name": "red_x",
-      "x": 1450,
-      "y": 720,
-      "scale": 0.4,
+      "x": 910,
+      "y": 960,
+      "scale": 0.42,
       "appear": 0.65
      },
      {
@@ -22542,7 +22972,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -22780,7 +23210,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -23026,7 +23456,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -23284,7 +23714,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -23490,7 +23920,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -23698,7 +24128,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -23936,7 +24366,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -24091,7 +24521,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -24244,7 +24674,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -24398,7 +24828,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -24646,7 +25076,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -24738,7 +25168,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -24827,7 +25257,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -24853,95 +25283,278 @@
     "elements": [
      {
       "type": "rect",
-      "x": -10,
-      "y": -10,
-      "w": 1940,
-      "h": 1100,
-      "fill": "#d9e8f1",
-      "color": "#d9e8f1",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 700,
+      "fill": "#b8c8d8",
+      "color": "#b8c8d8",
+      "width": 0,
+      "boil": 0,
+      "outline": false
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 740,
+      "w": 1920,
+      "h": 340,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
       "width": 0,
       "boil": 0,
       "outline": false
      },
      {
       "type": "spray",
-      "x": 960,
-      "y": 540,
-      "r": 700,
-      "color": "#c6dbe8",
-      "density": 0.08
+      "x": 1300,
+      "y": 920,
+      "r": 360,
+      "color": "#6fc1ee",
+      "density": 0.06
+     },
+     {
+      "type": "rect",
+      "x": 0,
+      "y": 700,
+      "w": 1920,
+      "h": 40,
+      "fill": "#e6f0f6",
+      "color": "#e6f0f6",
+      "width": 0,
+      "boil": 0,
+      "outline": false
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        0,
+        700
+       ],
+       [
+        1920,
+        700
+       ]
+      ],
+      "color": "#8aa3b8",
+      "width": 4
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        0,
+        740
+       ],
+       [
+        1920,
+        740
+       ]
+      ],
+      "color": "#5f7d94",
+      "width": 3
      },
      {
       "type": "asset",
-      "name": "polar_bear_paw",
-      "x": 960,
-      "y": 480,
-      "scale": 1.4
+      "name": "polar_bear",
+      "x": 1250,
+      "y": 700,
+      "scale": 1.0
      },
      {
-      "type": "line",
-      "points": [
-       [
-        300,
-        800
-       ],
-       [
-        520,
-        760
-       ],
-       [
-        640,
-        840
-       ]
-      ],
-      "color": "#4f6b84",
-      "width": 3,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
+      "type": "curve",
       "points": [
        [
         1300,
-        820
+        704
        ],
        [
-        1500,
-        760
+        1360,
+        717.2
        ],
        [
-        1650,
-        860
+        1420,
+        704
        ]
       ],
-      "color": "#4f6b84",
-      "width": 3,
+      "color": "#3a7fc0",
+      "width": 4,
+      "dash": [
+       10,
+       8
+      ],
+      "appear": 0.2
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        1250,
+        704
+       ],
+       [
+        1360,
+        728.2
+       ],
+       [
+        1470,
+        704
+       ]
+      ],
+      "color": "#3a7fc0",
+      "width": 4,
+      "dash": [
+       10,
+       8
+      ],
       "appear": 0.3
      },
      {
-      "type": "line",
+      "type": "curve",
       "points": [
        [
-        700,
-        900
+        1200,
+        704
        ],
        [
-        900,
-        960
+        1360,
+        739.2
+       ],
+       [
+        1520,
+        704
        ]
       ],
-      "color": "#4f6b84",
+      "color": "#3a7fc0",
+      "width": 4,
+      "dash": [
+       10,
+       8
+      ],
+      "appear": 0.4
+     },
+     {
+      "type": "asset",
+      "name": "water_splash_small",
+      "x": 395,
+      "y": 706,
+      "scale": 0.35,
+      "appear": 0.45
+     },
+     {
+      "type": "asset",
+      "name": "water_splash_small",
+      "x": 525,
+      "y": 706,
+      "scale": 0.35,
+      "appear": 0.45
+     },
+     {
+      "type": "doug",
+      "x": 460,
+      "y": 714.6,
+      "scale": 0.45,
+      "pose": "arms_up",
+      "expression": "shock",
+      "facing": "right",
+      "appear": 0.45
+     },
+     {
+      "type": "rect",
+      "x": 380,
+      "y": 702,
+      "w": 160,
+      "h": 40,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
+      "width": 0,
+      "boil": 0,
+      "outline": false,
+      "appear": 0.45
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        372,
+        700
+       ],
+       [
+        392,
+        712
+       ],
+       [
+        380,
+        742
+       ],
+       [
+        366,
+        742
+       ]
+      ],
+      "fill": "#e6f0f6",
+      "color": "#5f7d94",
       "width": 3,
+      "appear": 0.45
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        548,
+        700
+       ],
+       [
+        530,
+        716
+       ],
+       [
+        544,
+        742
+       ],
+       [
+        556,
+        742
+       ]
+      ],
+      "fill": "#e6f0f6",
+      "color": "#5f7d94",
+      "width": 3,
+      "appear": 0.45
+     },
+     {
+      "type": "rect",
+      "x": 360,
+      "y": 742,
+      "w": 200,
+      "h": 120,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
+      "width": 0,
+      "boil": 0,
+      "outline": false,
+      "appear": 0.45
+     },
+     {
+      "type": "label",
+      "text": "THIN ICE",
+      "x": 960,
+      "y": 860,
+      "size": 40,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
       "appear": 0.3
      },
      {
       "type": "wordart",
       "text": "SNOWSHOES",
       "x": 960,
-      "y": 920,
+      "y": 220,
       "size": 80,
       "boil": 0,
-      "appear": 0.5
+      "appear": 0.6
      },
      {
       "type": "label",
@@ -24955,7 +25568,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -25072,7 +25685,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -25124,15 +25737,32 @@
      },
      {
       "type": "asset",
+      "name": "silver_fish",
+      "x": 1183.0,
+      "y": 560,
+      "scale": 1.3,
+      "appear": 0.3
+     },
+     {
+      "type": "asset",
       "name": "polar_bear_paw",
-      "x": 960,
-      "y": 480,
-      "scale": 1.4
+      "x": 760,
+      "y": 520,
+      "scale": 1.3
+     },
+     {
+      "type": "wordart",
+      "text": "SLIPPERY",
+      "x": 1280,
+      "y": 400,
+      "size": 76,
+      "boil": 0,
+      "appear": 0.5
      },
      {
       "type": "doug",
-      "x": 1600,
-      "y": 919.2,
+      "x": 1650,
+      "y": 939.2,
       "scale": 0.4,
       "pose": "fall",
       "expression": "shock",
@@ -25140,15 +25770,7 @@
       "gear": [
        "sweat"
       ],
-      "appear": 0.35
-     },
-     {
-      "type": "asset",
-      "name": "warning_triangle",
-      "x": 300,
-      "y": 860,
-      "scale": 0.45,
-      "appear": 0.6
+      "appear": 0.65
      },
      {
       "type": "label",
@@ -25162,7 +25784,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -25373,7 +25995,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -25589,7 +26211,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -25781,7 +26403,7 @@
      {
       "type": "wordart",
       "text": "OVERHEAT",
-      "x": 1400,
+      "x": 1460,
       "y": 820,
       "size": 80,
       "boil": 0,
@@ -25799,7 +26421,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -26023,7 +26645,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -26289,7 +26911,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -26567,7 +27189,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -26855,7 +27477,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -27074,7 +27696,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -27333,7 +27955,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 20 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -27521,7 +28143,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -27673,7 +28295,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -27791,7 +28413,7 @@
       "type": "label",
       "text": "FEB 2019",
       "x": 800,
-      "y": 165,
+      "y": 140,
       "size": 48,
       "bold": true,
       "boil": 0.3,
@@ -27810,7 +28432,7 @@
       "type": "wordart",
       "text": "STATE OF EMERGENCY",
       "x": 800,
-      "y": 260,
+      "y": 225,
       "size": 72,
       "boil": 0,
       "appear": 0.6
@@ -27847,7 +28469,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -27935,7 +28557,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -28075,7 +28697,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -28212,7 +28834,7 @@
       "type": "label",
       "text": "6 TO 10",
       "x": 960,
-      "y": 330,
+      "y": 250,
       "size": 48,
       "bold": true,
       "boil": 0.3,
@@ -28241,7 +28863,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -28405,7 +29027,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -28545,7 +29167,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -28707,8 +29329,8 @@
      {
       "type": "wordart",
       "text": "MASS INVASION",
-      "x": 1300,
-      "y": 450,
+      "x": 700,
+      "y": 205,
       "size": 76,
       "boil": 0,
       "appear": 0.6
@@ -28735,7 +29357,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -28833,7 +29455,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -28944,8 +29566,8 @@
      {
       "type": "wordart",
       "text": "CAUGHT",
-      "x": 960,
-      "y": 420,
+      "x": 760,
+      "y": 205,
       "size": 84,
       "boil": 0,
       "appear": 0.55
@@ -28982,7 +29604,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -29095,7 +29717,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -29719,7 +30341,7 @@
      },
      {
       "type": "doug",
-      "x": 1400,
+      "x": 1520,
       "y": 979.2,
       "scale": 0.4,
       "pose": "point",
@@ -29983,6 +30605,17 @@
       "bold": true,
       "boil": 0,
       "max_width": 160,
+      "appear": 0.6
+     },
+     {
+      "type": "label",
+      "text": "NO FOOD",
+      "x": 1100,
+      "y": 330,
+      "size": 40,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
       "appear": 0.6
      },
      {
@@ -30281,8 +30914,8 @@
      {
       "type": "wordart",
       "text": "COMES BACK",
-      "x": 960,
-      "y": 420,
+      "x": 760,
+      "y": 205,
       "size": 80,
       "boil": 0,
       "appear": 0.65
@@ -30309,7 +30942,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1494.2,
       "y": 238,
       "scale": 0.3
@@ -30625,92 +31258,168 @@
       "y": -10,
       "w": 1940,
       "h": 1100,
-      "fill": "#6d737a",
-      "color": "#6d737a",
+      "fill": "#a3a8ae",
+      "color": "#a3a8ae",
       "width": 0,
       "boil": 0,
       "outline": false
      },
      {
-      "type": "rect",
-      "x": 0,
-      "y": 900,
-      "w": 1920,
-      "h": 180,
-      "fill": "#8d9096",
-      "color": "#8d9096",
-      "width": 0,
-      "boil": 0,
-      "outline": false
+      "type": "spray",
+      "x": 960,
+      "y": 400,
+      "r": 500,
+      "color": "#9399a0",
+      "density": 0.1
      },
      {
-      "type": "asset",
-      "name": "holding_cell",
-      "x": 480,
-      "y": 960,
-      "scale": 1.0
+      "type": "line",
+      "points": [
+       [
+        0,
+        300
+       ],
+       [
+        1920,
+        300
+       ]
+      ],
+      "color": "#8d9399",
+      "width": 3
      },
      {
-      "type": "asset",
-      "name": "holding_cell",
-      "x": 1100,
-      "y": 960,
-      "scale": 1.0
-     },
-     {
-      "type": "asset",
-      "name": "holding_cell",
-      "x": 1720,
-      "y": 960,
-      "scale": 1.0
+      "type": "line",
+      "points": [
+       [
+        0,
+        620
+       ],
+       [
+        1920,
+        620
+       ]
+      ],
+      "color": "#8d9399",
+      "width": 3
      },
      {
       "type": "doug",
-      "x": 1100,
-      "y": 876.4,
-      "scale": 0.55,
-      "pose": "stand",
+      "x": 960,
+      "y": 1000.0,
+      "scale": 1.8,
+      "pose": "hands_hips",
       "expression": "flat",
       "facing": "right"
      },
      {
-      "type": "asset",
-      "name": "polar_bear_lying",
-      "x": 1720,
-      "y": 950,
-      "scale": 0.4
+      "type": "rect",
+      "x": 81,
+      "y": -10,
+      "w": 18,
+      "h": 1100,
+      "fill": "#3a3f46",
+      "color": "#000000",
+      "width": 3,
+      "boil": 0
      },
      {
-      "type": "asset",
-      "name": "cell_bars",
-      "x": 1100,
-      "y": 960,
-      "scale": 1.0
+      "type": "rect",
+      "x": 291,
+      "y": -10,
+      "w": 18,
+      "h": 1100,
+      "fill": "#3a3f46",
+      "color": "#000000",
+      "width": 3,
+      "boil": 0
      },
      {
-      "type": "asset",
-      "name": "cell_bars",
-      "x": 480,
-      "y": 960,
-      "scale": 1.0
+      "type": "rect",
+      "x": 501,
+      "y": -10,
+      "w": 18,
+      "h": 1100,
+      "fill": "#3a3f46",
+      "color": "#000000",
+      "width": 3,
+      "boil": 0
      },
      {
-      "type": "asset",
-      "name": "cell_bars",
-      "x": 1720,
+      "type": "rect",
+      "x": 711,
+      "y": -10,
+      "w": 18,
+      "h": 1100,
+      "fill": "#3a3f46",
+      "color": "#000000",
+      "width": 3,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 1191,
+      "y": -10,
+      "w": 18,
+      "h": 1100,
+      "fill": "#3a3f46",
+      "color": "#000000",
+      "width": 3,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 1401,
+      "y": -10,
+      "w": 18,
+      "h": 1100,
+      "fill": "#3a3f46",
+      "color": "#000000",
+      "width": 3,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 1611,
+      "y": -10,
+      "w": 18,
+      "h": 1100,
+      "fill": "#3a3f46",
+      "color": "#000000",
+      "width": 3,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 1821,
+      "y": -10,
+      "w": 18,
+      "h": 1100,
+      "fill": "#3a3f46",
+      "color": "#000000",
+      "width": 3,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": -10,
       "y": 960,
-      "scale": 1.0
+      "w": 1940,
+      "h": 22,
+      "fill": "#3a3f46",
+      "color": "#000000",
+      "width": 3,
+      "boil": 0
      },
      {
       "type": "label",
       "text": "DOUG IS FINE",
-      "x": 600,
-      "y": 330,
+      "x": 500,
+      "y": 400,
       "size": 44,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
-      "appear": 0.35
+      "appear": 0.45
      },
      {
       "type": "label",
@@ -30775,27 +31484,13 @@
      {
       "type": "asset",
       "name": "holding_cell",
-      "x": 480,
-      "y": 960,
-      "scale": 1.0
-     },
-     {
-      "type": "asset",
-      "name": "holding_cell",
-      "x": 1100,
-      "y": 960,
-      "scale": 1.0
-     },
-     {
-      "type": "asset",
-      "name": "holding_cell",
-      "x": 1720,
+      "x": 760,
       "y": 960,
       "scale": 1.0
      },
      {
       "type": "doug",
-      "x": 1100,
+      "x": 760,
       "y": 876.4,
       "scale": 0.55,
       "pose": "stand",
@@ -30804,48 +31499,101 @@
      },
      {
       "type": "asset",
-      "name": "dinner_plate",
-      "x": 1220,
-      "y": 950,
-      "scale": 0.35,
-      "appear": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "polar_bear_lying",
-      "x": 1720,
-      "y": 950,
-      "scale": 0.4
-     },
-     {
-      "type": "asset",
       "name": "cell_bars",
-      "x": 1100,
+      "x": 760,
       "y": 960,
       "scale": 1.0
      },
      {
-      "type": "asset",
-      "name": "cell_bars",
-      "x": 480,
-      "y": 960,
-      "scale": 1.0
+      "type": "poly",
+      "points": [
+       [
+        1270.0,
+        930.0
+       ],
+       [
+        1490.0,
+        930.0
+       ],
+       [
+        1460.0,
+        1000.0
+       ],
+       [
+        1420.0,
+        1010
+       ],
+       [
+        1340.0,
+        1010
+       ],
+       [
+        1300.0,
+        1000.0
+       ]
+      ],
+      "fill": "#3f6fb0",
+      "color": "#1a1a1a",
+      "width": 4.0,
+      "appear": 0.25
      },
      {
-      "type": "asset",
-      "name": "cell_bars",
-      "x": 1720,
-      "y": 960,
-      "scale": 1.0
+      "type": "ellipse",
+      "x": 1380,
+      "y": 930.0,
+      "rx": 110.0,
+      "ry": 22.0,
+      "fill": "#e8eef2",
+      "color": "#1a1a1a",
+      "width": 4.0,
+      "appear": 0.25
+     },
+     {
+      "type": "ellipse",
+      "x": 1380,
+      "y": 934.0,
+      "rx": 80.0,
+      "ry": 13.0,
+      "fill": "#cfd8e0",
+      "color": "#cfd8e0",
+      "width": 1,
+      "appear": 0.25
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1310.0,
+        960.0
+       ],
+       [
+        1450.0,
+        960.0
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3.0,
+      "appear": 0.25
+     },
+     {
+      "type": "label",
+      "text": "NO FOOD",
+      "x": 1380,
+      "y": 860,
+      "size": 40,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
+      "appear": 0.4
      },
      {
       "type": "wordart",
       "text": "NOT BEING FED",
-      "x": 700,
-      "y": 330,
-      "size": 72,
+      "x": 1400,
+      "y": 560,
+      "size": 66,
       "boil": 0,
-      "appear": 0.5
+      "appear": 0.55
      },
      {
       "type": "label",
@@ -30931,9 +31679,9 @@
      {
       "type": "doug",
       "x": 1100,
-      "y": 876.4,
-      "scale": 0.55,
-      "pose": "stand",
+      "y": 868.8,
+      "scale": 0.6,
+      "pose": "point",
       "expression": "flat",
       "facing": "right"
      },
@@ -30966,9 +31714,25 @@
       "scale": 1.0
      },
      {
+      "type": "arrow",
+      "from": [
+       1260,
+       600
+      ],
+      "to": [
+       1480,
+       300
+      ],
+      "bend": -50,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.3
+     },
+     {
       "type": "wordart",
       "text": "STILL 250",
-      "x": 700,
+      "x": 640,
       "y": 330,
       "size": 80,
       "boil": 0,
@@ -31027,7 +31791,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -31039,12 +31803,18 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1494.2,
       "y": 238,
       "scale": 0.3,
       "appear": 0.6
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 1590,
+    "y": 200,
+    "zoom": 1.08
    }
   },
   {
@@ -31070,23 +31840,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -31098,19 +31868,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -31122,19 +31892,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -31146,31 +31916,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -31182,19 +31952,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -31206,15 +31976,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -31368,7 +32138,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 10 M",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -31379,7 +32149,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1494.2,
       "y": 238,
       "scale": 0.3
      }
@@ -31411,23 +32181,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -31439,19 +32209,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -31463,19 +32233,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -31487,31 +32257,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -31523,19 +32293,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -31547,15 +32317,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -31710,7 +32480,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -31721,7 +32491,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -31753,23 +32523,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -31781,19 +32551,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -31805,19 +32575,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -31829,31 +32599,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -31865,19 +32635,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -31889,15 +32659,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -32086,7 +32856,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -32097,7 +32867,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -32127,23 +32897,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -32155,19 +32925,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -32179,19 +32949,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -32203,31 +32973,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -32239,19 +33009,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -32263,15 +33033,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -32459,7 +33229,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -32470,7 +33240,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -32554,7 +33324,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -32565,7 +33335,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -32646,7 +33416,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -32657,7 +33427,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -32703,9 +33473,9 @@
      {
       "type": "wordart",
       "text": "RECOMMENDS",
-      "x": 1450,
-      "y": 600,
-      "size": 76,
+      "x": 1600,
+      "y": 640,
+      "size": 64,
       "boil": 0,
       "appear": 0.35
      },
@@ -32730,7 +33500,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -32741,7 +33511,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -32771,23 +33541,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -32799,19 +33569,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -32823,19 +33593,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -32847,31 +33617,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -32883,19 +33653,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -32907,15 +33677,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -33067,7 +33837,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -33078,7 +33848,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -33108,23 +33878,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -33136,19 +33906,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -33160,19 +33930,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -33184,31 +33954,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -33220,19 +33990,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -33244,15 +34014,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -33501,7 +34271,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -33512,7 +34282,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -33542,23 +34312,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -33570,19 +34340,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -33594,19 +34364,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -33618,31 +34388,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -33654,19 +34424,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -33678,15 +34448,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -33875,7 +34645,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -33886,7 +34656,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -33916,23 +34686,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -33944,19 +34714,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -33968,19 +34738,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -33992,31 +34762,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -34028,19 +34798,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -34052,15 +34822,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -34330,7 +35100,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -34341,7 +35111,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -34371,23 +35141,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -34399,19 +35169,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -34423,19 +35193,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -34447,31 +35217,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -34483,19 +35253,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -34507,15 +35277,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -34673,7 +35443,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -34684,7 +35454,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -34808,7 +35578,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -34819,7 +35589,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -34849,23 +35619,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -34877,19 +35647,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -34901,19 +35671,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -34925,31 +35695,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -34961,19 +35731,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -34985,15 +35755,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -35178,7 +35948,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -35189,7 +35959,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -35219,23 +35989,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -35247,19 +36017,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -35271,19 +36041,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -35295,31 +36065,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -35331,19 +36101,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -35355,15 +36125,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -35564,7 +36334,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -35575,7 +36345,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -35605,23 +36375,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -35633,19 +36403,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -35657,19 +36427,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -35681,31 +36451,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -35717,19 +36487,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -35741,15 +36511,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -35911,7 +36681,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -35922,7 +36692,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -35952,23 +36722,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -35980,19 +36750,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -36004,19 +36774,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -36028,31 +36798,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -36064,19 +36834,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -36088,15 +36858,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -36265,7 +37035,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -36276,7 +37046,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -36307,23 +37077,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -36335,19 +37105,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -36359,19 +37129,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -36383,31 +37153,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -36419,19 +37189,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -36443,15 +37213,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -36633,7 +37403,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -36644,7 +37414,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -36676,23 +37446,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -36704,19 +37474,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -36728,19 +37498,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -36752,31 +37522,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -36788,19 +37558,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -36812,15 +37582,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -36998,23 +37768,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -37027,19 +37797,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -37052,19 +37822,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -37077,31 +37847,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -37114,19 +37884,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -37139,15 +37909,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -37316,7 +38086,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 3 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -37327,7 +38097,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      },
@@ -37357,7 +38127,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -37369,7 +38139,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3,
       "appear": 0.65
@@ -37403,23 +38173,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -37431,19 +38201,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -37455,19 +38225,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -37479,31 +38249,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -37515,19 +38285,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -37539,15 +38309,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -37732,7 +38502,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -37743,7 +38513,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -37773,23 +38543,23 @@
       "points": [
        [
         -10,
-        600
+        600.0
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         330,
-        420
+        519.0
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         760,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -37801,19 +38571,19 @@
       "points": [
        [
         130,
-        390
+        505.5
        ],
        [
         180,
-        330
+        478.5
        ],
        [
         240,
-        380
+        501.0
        ],
        [
         200,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -37825,19 +38595,19 @@
       "points": [
        [
         450,
-        330
+        478.5
        ],
        [
         520,
-        280
+        456.0
        ],
        [
         590,
-        340
+        483.0
        ],
        [
         540,
-        350
+        487.5
        ]
       ],
       "fill": "#f7fbff",
@@ -37849,31 +38619,31 @@
       "points": [
        [
         980,
-        600
+        600.0
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1300,
-        430
+        523.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1700,
-        420
+        519.0
        ],
        [
         1930,
-        340
+        483.0
        ],
        [
         1930,
-        600
+        600.0
        ]
       ],
       "fill": "#b9cde0",
@@ -37885,19 +38655,19 @@
       "points": [
        [
         1420,
-        350
+        487.5
        ],
        [
         1480,
-        300
+        465.0
        ],
        [
         1540,
-        345
+        485.2
        ],
        [
         1490,
-        360
+        492.0
        ]
       ],
       "fill": "#f7fbff",
@@ -37909,15 +38679,15 @@
       "points": [
        [
         1130,
-        410
+        514.5
        ],
        [
         1180,
-        360
+        492.0
        ],
        [
         1230,
-        400
+        510.0
        ]
       ],
       "fill": "#f7fbff",
@@ -38103,7 +38873,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -38114,7 +38884,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -38271,7 +39041,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -38282,7 +39052,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -38443,7 +39213,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -38454,7 +39224,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -38614,7 +39384,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -38625,7 +39395,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -38724,7 +39494,7 @@
      {
       "type": "asset",
       "name": "grass_tuft",
-      "x": 1760,
+      "x": 1880,
       "y": 1000,
       "scale": 0.7
      },
@@ -38816,7 +39586,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -38827,7 +39597,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -39063,7 +39833,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -39074,7 +39844,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -39243,7 +40013,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -39254,7 +40024,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -39353,7 +40123,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -39364,7 +40134,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -39658,7 +40428,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -39669,7 +40439,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -39827,7 +40597,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -39838,7 +40608,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -40330,7 +41100,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -40341,7 +41111,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -40846,7 +41616,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -40857,7 +41627,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -40941,7 +41711,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -40952,7 +41722,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -41115,7 +41885,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -41126,7 +41896,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -41280,7 +42050,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -41291,7 +42061,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -41405,7 +42175,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -41416,7 +42186,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -41431,160 +42201,118 @@
     "elements": [
      {
       "type": "rect",
-      "x": 0,
-      "y": 0,
-      "w": 1920,
-      "h": 1080,
-      "fill": "#3a9ad9",
-      "color": "#3a9ad9",
+      "x": -10,
+      "y": -10,
+      "w": 1940,
+      "h": 1100,
+      "fill": "#f4f1dc",
+      "color": "#f4f1dc",
       "width": 0,
       "boil": 0,
       "outline": false
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        -10,
-        -10
-       ],
-       [
-        420,
-        -10
-       ],
-       [
-        470,
-        1090
-       ],
-       [
-        -10,
-        1090
-       ]
-      ],
-      "fill": "#a08a4a",
-      "color": "#5a4b2e",
-      "width": 5
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        520,
-        -10
-       ],
-       [
-        1930,
-        -10
-       ],
-       [
-        1930,
-        1090
-       ],
-       [
-        560,
-        1090
-       ]
-      ],
-      "fill": "#f3f8fb",
-      "color": "#5f7d94",
-      "width": 4
-     },
-     {
       "type": "label",
       "text": "1979",
-      "x": 900,
-      "y": 420,
-      "size": 44,
+      "x": 280,
+      "y": 520,
+      "size": 48,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff"
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        470,
-        -10
-       ],
-       [
-        1930,
-        -10
-       ],
-       [
-        1930,
-        1090
-       ],
-       [
-        500,
-        1090
-       ]
-      ],
+      "type": "rect",
+      "x": 420,
+      "y": 470,
+      "w": 640,
+      "h": 100,
       "fill": "#3a9ad9",
-      "color": "#3a9ad9",
-      "width": 0,
-      "appear": 0.45
+      "color": "#1a1a1a",
+      "width": 5,
+      "boil": 0
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        1100,
-        -10
-       ],
-       [
-        1930,
-        -10
-       ],
-       [
-        1930,
-        1090
-       ],
-       [
-        1150,
-        1090
-       ]
-      ],
-      "fill": "#f3f8fb",
-      "color": "#5f7d94",
-      "width": 4,
-      "appear": 0.45
+      "type": "label",
+      "text": "ICE-FREE",
+      "x": 740,
+      "y": 520,
+      "size": 36,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff"
      },
      {
       "type": "line",
       "points": [
        [
-        540,
-        300
+        1060,
+        440
        ],
        [
-        560,
-        1080
+        1060,
+        880
        ]
       ],
-      "color": "#ffffff",
-      "width": 4,
+      "color": "#2b2b2b",
+      "width": 3,
       "dash": [
-       14,
-       12
+       10,
+       8
       ],
-      "appear": 0.45
-     },
-     {
-      "type": "label",
-      "text": "1979",
-      "x": 640,
-      "y": 420,
-      "size": 40,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff",
       "appear": 0.45
      },
      {
       "type": "label",
       "text": "2015",
-      "x": 1400,
-      "y": 600,
+      "x": 280,
+      "y": 780,
+      "size": 48,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
+      "appear": 0.25
+     },
+     {
+      "type": "rect",
+      "x": 420,
+      "y": 730,
+      "w": 640,
+      "h": 100,
+      "fill": "#3a9ad9",
+      "color": "#1a1a1a",
+      "width": 5,
+      "boil": 0,
+      "appear": 0.25
+     },
+     {
+      "type": "label",
+      "text": "ICE-FREE",
+      "x": 740,
+      "y": 780,
+      "size": 36,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
+      "appear": 0.25
+     },
+     {
+      "type": "rect",
+      "x": 1060,
+      "y": 730,
+      "w": 230,
+      "h": 100,
+      "fill": "#e0201b",
+      "color": "#1a1a1a",
+      "width": 5,
+      "boil": 0,
+      "appear": 0.45
+     },
+     {
+      "type": "label",
+      "text": "+3 WEEKS",
+      "x": 1175,
+      "y": 680,
       "size": 44,
       "bold": true,
       "boil": 0.3,
@@ -41592,30 +42320,14 @@
       "appear": 0.5
      },
      {
-      "type": "arrow",
-      "from": [
-       620,
-       720
-      ],
-      "to": [
-       1060,
-       720
-      ],
-      "bend": 0,
-      "color": "#e0201b",
-      "width": 9,
-      "head": 36,
-      "appear": 0.6
-     },
-     {
       "type": "doug",
-      "x": 240,
-      "y": 839.2,
-      "scale": 0.4,
+      "x": 1400,
+      "y": 754.0,
+      "scale": 0.5,
       "pose": "stand",
       "expression": "gritted",
-      "facing": "right",
-      "appear": 0.7
+      "facing": "left",
+      "appear": 0.65
      },
      {
       "type": "label",
@@ -41629,7 +42341,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -41640,7 +42352,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -41808,7 +42520,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -41819,7 +42531,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -41970,7 +42682,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -41981,7 +42693,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -42056,7 +42768,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -42067,7 +42779,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -42140,7 +42852,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -42151,7 +42863,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -42319,7 +43031,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -42330,7 +43042,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -42496,7 +43208,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -42507,7 +43219,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -42682,7 +43394,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -42693,7 +43405,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -42968,7 +43680,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 1 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -42979,7 +43691,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1502.0,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      },
@@ -43009,7 +43721,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -43021,7 +43733,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1490.4,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3,
       "appear": 0.65
@@ -43181,7 +43893,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -43192,7 +43904,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1490.4,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -43351,7 +44063,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -43362,7 +44074,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1490.4,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -43592,7 +44304,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -43603,7 +44315,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1490.4,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -43784,7 +44496,7 @@
      {
       "type": "asset",
       "name": "polar_bear",
-      "x": 1600,
+      "x": 1660,
       "y": 462,
       "scale": 0.2,
       "silhouette": true,
@@ -43808,7 +44520,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -43818,8 +44530,8 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1490.4,
+      "name": "paw_print_icon_light",
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -44538,6 +45250,150 @@
       "width": 2,
       "boil": 0,
       "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "J",
+      "x": 375,
+      "y": 765,
+      "size": 52,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 90,
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "F",
+      "x": 485,
+      "y": 765,
+      "size": 52,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 90,
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "M",
+      "x": 595,
+      "y": 765,
+      "size": 52,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 90,
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "A",
+      "x": 705,
+      "y": 765,
+      "size": 52,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 90,
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "M",
+      "x": 815,
+      "y": 765,
+      "size": 52,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 90,
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "J",
+      "x": 925,
+      "y": 765,
+      "size": 52,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 90,
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "J",
+      "x": 1035,
+      "y": 765,
+      "size": 52,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 90,
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "A",
+      "x": 1145,
+      "y": 765,
+      "size": 52,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 90,
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "S",
+      "x": 1255,
+      "y": 765,
+      "size": 52,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 90,
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "O",
+      "x": 1365,
+      "y": 765,
+      "size": 52,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 90,
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "N",
+      "x": 1475,
+      "y": 765,
+      "size": 52,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 90,
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "D",
+      "x": 1585,
+      "y": 765,
+      "size": 52,
+      "color": "#ffffff",
+      "bold": true,
+      "boil": 0,
+      "max_width": 90,
+      "appear": 0.5
      }
     ]
    }
@@ -44870,7 +45726,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -44880,8 +45736,8 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1490.4,
+      "name": "paw_print_icon_light",
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -45086,7 +45942,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -45096,8 +45952,8 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1490.4,
+      "name": "paw_print_icon_light",
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -45289,7 +46145,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -45299,8 +46155,8 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1490.4,
+      "name": "paw_print_icon_light",
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -45497,11 +46353,19 @@
       "appear": 0.2
      },
      {
-      "type": "asset",
-      "name": "red_x",
-      "x": 1300,
-      "y": 660,
-      "scale": 0.6,
+      "type": "line",
+      "points": [
+       [
+        1200,
+        662
+       ],
+       [
+        1400,
+        656
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 9,
       "appear": 0.45
      },
      {
@@ -45525,7 +46389,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -45535,8 +46399,8 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1490.4,
+      "name": "paw_print_icon_light",
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -45773,7 +46637,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -45783,8 +46647,8 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1490.4,
+      "name": "paw_print_icon_light",
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -46005,7 +46869,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -46016,7 +46880,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1490.4,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -46068,7 +46932,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -46078,8 +46942,8 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1490.4,
+      "name": "paw_print_icon_light",
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -46269,7 +47133,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -46280,7 +47144,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1490.4,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -46412,7 +47276,7 @@
      },
      {
       "type": "asset",
-      "name": "seal_costume",
+      "name": "seal_costume_prone",
       "x": 718,
       "y": 518,
       "scale": 0.6,
@@ -46445,7 +47309,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -46456,7 +47320,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1490.4,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -46649,7 +47513,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -46660,7 +47524,7 @@
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 1490.4,
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -46880,7 +47744,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -46890,8 +47754,8 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1490.4,
+      "name": "paw_print_icon_light",
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -47084,7 +47948,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -47094,8 +47958,8 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1490.4,
+      "name": "paw_print_icon_light",
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -47288,7 +48152,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -47298,8 +48162,8 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1490.4,
+      "name": "paw_print_icon_light",
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -47527,7 +48391,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -47537,8 +48401,8 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1490.4,
+      "name": "paw_print_icon_light",
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      }
@@ -47625,7 +48489,7 @@
      },
      {
       "type": "label",
-      "text": "BEAR: 0.5 M",
+      "text": "BEAR: 0",
       "x": 1606,
       "y": 238,
       "size": 28,
@@ -47635,8 +48499,8 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1490.4,
+      "name": "paw_print_icon_light",
+      "x": 1517.6,
       "y": 238,
       "scale": 0.3
      },
@@ -47677,7 +48541,7 @@
      },
      {
       "type": "asset",
-      "name": "paw_print_icon",
+      "name": "paw_print_icon_light",
       "x": 1517.6,
       "y": 238,
       "scale": 0.3,
@@ -47947,14 +48811,6 @@
      },
      {
       "type": "asset",
-      "name": "dinner_plate",
-      "x": 1150,
-      "y": 950,
-      "scale": 0.4,
-      "appear": 0.3
-     },
-     {
-      "type": "asset",
       "name": "cell_bars",
       "x": 960,
       "y": 960,
@@ -47970,6 +48826,86 @@
       "bold": true,
       "boil": 0,
       "max_width": 220
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        835.0,
+        930.0
+       ],
+       [
+        1165.0,
+        930.0
+       ],
+       [
+        1120.0,
+        1035.0
+       ],
+       [
+        1060.0,
+        1050
+       ],
+       [
+        940.0,
+        1050
+       ],
+       [
+        880.0,
+        1035.0
+       ]
+      ],
+      "fill": "#3f6fb0",
+      "color": "#1a1a1a",
+      "width": 6.0,
+      "appear": 0.25
+     },
+     {
+      "type": "ellipse",
+      "x": 1000,
+      "y": 930.0,
+      "rx": 165.0,
+      "ry": 33.0,
+      "fill": "#e8eef2",
+      "color": "#1a1a1a",
+      "width": 6.0,
+      "appear": 0.25
+     },
+     {
+      "type": "ellipse",
+      "x": 1000,
+      "y": 936.0,
+      "rx": 120.0,
+      "ry": 19.5,
+      "fill": "#cfd8e0",
+      "color": "#cfd8e0",
+      "width": 1,
+      "appear": 0.25
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        895.0,
+        975.0
+       ],
+       [
+        1105.0,
+        975.0
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 4.5,
+      "appear": 0.25
+     },
+     {
+      "type": "wordart",
+      "text": "NOT FED",
+      "x": 1560,
+      "y": 600,
+      "size": 72,
+      "boil": 0,
+      "appear": 0.5
      },
      {
       "type": "label",
@@ -48048,13 +48984,6 @@
      },
      {
       "type": "asset",
-      "name": "dinner_plate",
-      "x": 1150,
-      "y": 950,
-      "scale": 0.4
-     },
-     {
-      "type": "asset",
       "name": "cell_bars",
       "x": 960,
       "y": 960,
@@ -48072,15 +49001,191 @@
       "max_width": 220
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        835.0,
+        930.0
+       ],
+       [
+        1165.0,
+        930.0
+       ],
+       [
+        1120.0,
+        1035.0
+       ],
+       [
+        1060.0,
+        1050
+       ],
+       [
+        940.0,
+        1050
+       ],
+       [
+        880.0,
+        1035.0
+       ]
+      ],
+      "fill": "#3f6fb0",
+      "color": "#1a1a1a",
+      "width": 6.0
+     },
+     {
+      "type": "ellipse",
+      "x": 1000,
+      "y": 930.0,
+      "rx": 165.0,
+      "ry": 33.0,
+      "fill": "#e8eef2",
+      "color": "#1a1a1a",
+      "width": 6.0
+     },
+     {
+      "type": "ellipse",
+      "x": 1000,
+      "y": 936.0,
+      "rx": 120.0,
+      "ry": 19.5,
+      "fill": "#cfd8e0",
+      "color": "#cfd8e0",
+      "width": 1
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        895.0,
+        975.0
+       ],
+       [
+        1105.0,
+        975.0
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 4.5
+     },
+     {
+      "type": "asset",
+      "name": "wildlife_official",
+      "x": 1540,
+      "y": 880,
+      "scale": 0.6,
+      "flip": true,
+      "appear": 0.2
+     },
+     {
+      "type": "asset",
+      "name": "why_clipboard",
+      "x": 1650,
+      "y": 840,
+      "scale": 0.4,
+      "appear": 0.35
+     },
+     {
+      "type": "text",
+      "text": "POLICY",
+      "x": 1650,
+      "y": 766.0,
+      "size": 30,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0,
+      "max_width": 140,
+      "appear": 0.35
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1590,
+        796.0
+       ],
+       [
+        1710,
+        796.0
+       ]
+      ],
+      "color": "#9a9a9a",
+      "width": 3,
+      "appear": 0.35
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1590,
+        816.0
+       ],
+       [
+        1710,
+        816.0
+       ]
+      ],
+      "color": "#9a9a9a",
+      "width": 3,
+      "appear": 0.35
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1590,
+        836.0
+       ],
+       [
+        1710,
+        836.0
+       ]
+      ],
+      "color": "#9a9a9a",
+      "width": 3,
+      "appear": 0.35
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1590,
+        856.0
+       ],
+       [
+        1710,
+        856.0
+       ]
+      ],
+      "color": "#9a9a9a",
+      "width": 3,
+      "appear": 0.35
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1590,
+        876.0
+       ],
+       [
+        1710,
+        876.0
+       ]
+      ],
+      "color": "#9a9a9a",
+      "width": 3,
+      "appear": 0.35
+     },
+     {
       "type": "label",
       "text": "NO FOOD",
       "x": 1550,
-      "y": 560,
+      "y": 470,
       "size": 44,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
-      "appear": 0.3
+      "appear": 0.55
      },
      {
       "type": "label",

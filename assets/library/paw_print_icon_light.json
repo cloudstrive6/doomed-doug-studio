@@ -1,0 +1,230 @@
+{
+ "name": "paw_print_icon_light",
+ "description": "Light variant of paw_print_icon for dark backgrounds (#000, #2a2a2e, navy #1b2f5a, slate #3b4a6b/#4a5670): identical shapes (bean palm pad, five oval toe pads, claw dots), cream #f4f1e4 pads with a #1a1a1a outline. Centre anchor, 100x100 (x -50..50, y -50..50), drop-in swap for paw_print_icon (same x/y/scale, BEAR readout at 0.3).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "031",
+  "dark-bg",
+  "icon",
+  "light",
+  "paw print",
+  "polar bear",
+  "track"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -38,
+     10
+    ],
+    [
+     -28,
+     0
+    ],
+    [
+     -13,
+     2
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     13,
+     2
+    ],
+    [
+     28,
+     0
+    ],
+    [
+     38,
+     10
+    ],
+    [
+     40,
+     28
+    ],
+    [
+     30,
+     42
+    ],
+    [
+     12,
+     47
+    ],
+    [
+     -12,
+     47
+    ],
+    [
+     -30,
+     42
+    ],
+    [
+     -40,
+     28
+    ]
+   ],
+   "fill": "#f4f1e4",
+   "color": "#1a1a1a",
+   "width": 7
+  },
+  {
+   "type": "ellipse",
+   "x": -36.9,
+   "y": -15.6,
+   "rx": 7.5,
+   "ry": 9.5,
+   "fill": "#f4f1e4",
+   "color": "#1a1a1a",
+   "width": 6
+  },
+  {
+   "type": "circle",
+   "x": -43.6,
+   "y": -23.2,
+   "r": 7,
+   "fill": "#1a1a1a",
+   "color": "#1a1a1a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -43.6,
+   "y": -23.2,
+   "r": 4,
+   "fill": "#f4f1e4",
+   "color": "#1a1a1a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -19.2,
+   "y": -25.4,
+   "rx": 7.5,
+   "ry": 9.5,
+   "fill": "#f4f1e4",
+   "color": "#1a1a1a",
+   "width": 6
+  },
+  {
+   "type": "circle",
+   "x": -22.8,
+   "y": -39.7,
+   "r": 7,
+   "fill": "#1a1a1a",
+   "color": "#1a1a1a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -22.8,
+   "y": -39.7,
+   "r": 4,
+   "fill": "#f4f1e4",
+   "color": "#1a1a1a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0.0,
+   "y": -28.0,
+   "rx": 7.5,
+   "ry": 9.5,
+   "fill": "#f4f1e4",
+   "color": "#1a1a1a",
+   "width": 6
+  },
+  {
+   "type": "circle",
+   "x": 0.0,
+   "y": -44.0,
+   "r": 7,
+   "fill": "#1a1a1a",
+   "color": "#1a1a1a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 0.0,
+   "y": -44.0,
+   "r": 4,
+   "fill": "#f4f1e4",
+   "color": "#1a1a1a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 19.2,
+   "y": -25.4,
+   "rx": 7.5,
+   "ry": 9.5,
+   "fill": "#f4f1e4",
+   "color": "#1a1a1a",
+   "width": 6
+  },
+  {
+   "type": "circle",
+   "x": 22.8,
+   "y": -39.7,
+   "r": 7,
+   "fill": "#1a1a1a",
+   "color": "#1a1a1a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 22.8,
+   "y": -39.7,
+   "r": 4,
+   "fill": "#f4f1e4",
+   "color": "#1a1a1a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 36.9,
+   "y": -15.6,
+   "rx": 7.5,
+   "ry": 9.5,
+   "fill": "#f4f1e4",
+   "color": "#1a1a1a",
+   "width": 6
+  },
+  {
+   "type": "circle",
+   "x": 43.6,
+   "y": -23.2,
+   "r": 7,
+   "fill": "#1a1a1a",
+   "color": "#1a1a1a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 43.6,
+   "y": -23.2,
+   "r": 4,
+   "fill": "#f4f1e4",
+   "color": "#1a1a1a",
+   "width": 0,
+   "outline": false
+  }
+ ]
+}
