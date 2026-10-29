@@ -46,3 +46,5 @@
    - A: the lone lower tooth (screener item 17).
    None of these changes the click decision.
 6. **Test & Compare:** run A/B/C. Like the screener, I expect A to win and C to trail. If C wins, log it for the growth memo, because it would be our first grid win on a single-animal T9.
+
+- 2026-10-29 showrunner: rounds — script 3 (screener PASS r3; Flesch band widened to 60-80 by CD), art assets 1, keyframes 2 (art-director + visual-screener PASS r2), thumbnails 2 (A/B/C approved). Risks: editor lowered global voice.speaking_rate 1.15 -> 1.12 in config/channel.yaml (206.8 -> 196.3 wpm), affects future episodes; boss montage ~12 s spoken (not <10 s); owner should check YouTube Studio for a channel notice (all long videos lost reach 10-25); run thumbnails A/B/C in Test & Compare.

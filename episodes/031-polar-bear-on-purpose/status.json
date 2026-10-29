@@ -34,7 +34,12 @@
       "stage": "art_approved",
       "at": "2026-10-29T18:13:44+00:00",
       "note": "keyframes passed art-director and visual-screener round 2; thumbnails approved"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-10-29T18:23:44+00:00",
+      "note": "narrated, pacing pass, validate OK"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
