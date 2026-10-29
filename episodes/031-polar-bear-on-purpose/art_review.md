@@ -95,3 +95,83 @@ asset gate only. Keyframes get their own review once the director's fix is in an
 
 ## Overall
 **PASS: 35/35 assets approved.** The asset side is ready for `art_approved` once D1 is applied and the keyframes pass their review.
+
+---
+
+# Keyframe review, round 1 (art director, 2026-10-29)
+
+**Verdict: FAIL (minor, 10 fixes).** The style is consistent across all 233 shots (s001 is waiting for the thumbnail and was not reviewed). Doug is on-model
+everywhere. The bear family, the zone colours and the death grammar are all correct. Every fix below is a composition or
+readability fix, plus one small asset variant. Nothing structural needs to change. Re-run `keyframes` on the listed shots, and
+I'll re-check only those.
+
+## How I reviewed
+- I went through all 20 contact sheets (`build/contact/sheet_01..20.png`), shot by shot, against style bible section 7 (Art Director rules 1-9) and the art bible.
+- I re-rendered 16 doubtful shots at 1080p and cropped them (s044, s047, s065, s067, s104, s120, s123, s132, s135, s138, s139,
+  s145, s162, s178, s213, s223). Scratch files are in `/tmp/ak031/` and were not kept.
+- I checked the element coordinates in `shotlist.json` for every shot flagged below.
+
+## What passes
+- **Doug:** on-model in every shot. He has the round head with the crescent, oval eyes, thin lines and the cap.
+  - He auto-inks white on the dark thermal and night shots (s044, s047, s053, s139, s232), as he should.
+  - All the expressions come from the allowed set.
+  - The seal costume callback (s099-s104, s221) leaves his head, face and cap fully visible.
+  - Every death beat keeps the cap in frame and ticks the counter: s026 shelter, s052 thermal, s079 binoculars, s129 cap with speed lines, s174 tent, s200 bowl, s227/s228 detained cap.
+  - The ghosts keep the cap. The counter stays flat at 250 through The Town (s152-s155) and at 253 to the end, which matches the series bible.
+- **Two-tier rendering:** every bear is in the approved family. The scientist, sprinter and officer are crude-tier humans. There are no cubs and nothing gory. The s151 bear's red mouth reads as a snarl, not blood. The s178 berry pile reads as berries, not a carcass.
+- **Zone colours:** the bands step correctly from `#cfe9ff` (1 km) to `#c4dcee` (100 m) to `#b8c8d8` (10 m), and the boss is on slate `#4a5670`. The Town is a night street (logged). Sub-ice water stays at `#3a9ad9`. The olive Thin Bear ground uses the white-to-yellow WordArt override every time (s177-s203).
+  The montage (s218-s222) brings back each stop's original colours.
+- **Reveals:** the silhouette with red glow comes first, every time: s003, s025, s082, s177, s190, s203, s204.
+- **Text:** every caption bar matches its item name. Labels are short, and the second meter sits correctly under the counter.
+  The flat-looking wordart on dark shots is the known effect of the dark outline vanishing on a dark background (art bible, boss row). It is acceptable.
+- **Variety:** layouts rotate well between field, cutaway, diagram, map, card, thermal screen and cell. The build-up runs stay within the rule:
+  lair s006-s013, paw s116-s120, cell s228-s231, and the sober data cards s205-s212.
+
+## Fixes
+
+**For the illustrator (asset)**
+1. **`paw_print_icon` disappears on dark backgrounds.** It is a flat `#1a1a1a` fill, so on `#000`/`#2a2a2e` it is invisible, and on `#1b2f5a`/`#3b4a6b`/`#4a5670` it is only a smudge.
+   - Add a variant `paw_print_icon_light`: the same shapes, `#f4f1e4` pads with a thin `#1a1a1a` outline.
+   - Render a preview at 0.3 next to the BEAR label on `#000000` and on `#4a5670`.
+
+**For the director (composition)**
+2. **Swap the BEAR readout icon** (the one at y 238) to `paw_print_icon_light` once fix 1 lands. Same x/y/scale. The shots are s044, s046, s047, s048, s052, s053, s130-s141 (all), s149, s204, s213-s217, s219, s223-s227. Leave s129 as it is: its frame is light at the keyframe.
+3. **s065, s067: the scientist's feet are cut off at the bottom edge.** The asset's feet sit at local +149, so at scale 0.5 they land at y 1074.
+   Set the `scientist` y from 1000 to **920**, which puts the feet at y 994, level with Doug. In s065, move the telescope down with it if
+   it no longer lines up with his eye.
+4. **Camp backdrop, s156-s176: the titles and wordart cross the mountain ridges.** The peaks reach y 280-300, and the text sits at y 320-420 (art bible "find clear sky").
+   - **Fix:** lower the range in every shot of the set. Keep the base at y 600 and recompute each peak and snowcap point as
+     `y' = 600 - (600 - y) * 0.45`. That puts the highest peak at about y 456.
+   - **Then check:**
+     - s157 "ZERO." and s158 "THE TENT" (y 380, sizes 160/150): glyph bottoms must stay above about y 450. If they touch, drop the size to 140.
+     - s156 CAMPING, s159 THE RULES, s164 GREAT DISTANCES, s166 MOST INTERESTING, s170 MADE OF FABRIC, s172 FIRM and s176 NOT READING: keep the wordart y ≤ 400.
+     - The s173 bubble tail and the s169 warning triangle move with nothing.
+   - Changing the backdrop the same way in all 17 shots keeps the build-up seamless.
+5. **Town street, wordart and labels sitting on the buildings.** The roofs of `arctic_town_block` (x 520, y 650, scale 1.0) are at about y 410 (left) and y 470 (right).
+   - s132: "STATE OF EMERGENCY" (y 260) touches the left roof snow. Move it to **y 225** and move "FEB 2019" to **y 140**. Both still clear the counter, since x stays under 1300.
+   - s135: "6 TO 10" (960, 330) sits on the left building's roof corner. Move it to **(960, 250)**, the clear sky between the buildings.
+   - s138: "MASS INVASION" (1300, 450) runs across the right building's windows. Move it to **(900, 300)** at size 76.
+   - s140: "CAUGHT" (960, 420) straddles both roof edges. Move it to **(960, 330)**.
+   - s149: "COMES BACK" (960, 420), the same problem. Move it to **(960, 330)**.
+6. **s162: "RECOMMENDS" (1450, 600) overlaps the sign's right post and board corner.** Move it to **(1560, 760)**, below the board and right of the
+   post, or set size 64 at (1600, 640). Keep it clear of Doug at x 1780.
+7. **s105-s107: the same composition three times in a row.** All three are Doug on the left, a dashed "10 M" and the bear on the right. The s106/s107 band and title pair is
+   house format, so change **s105**. Show the swim being cut: the bear standing at the floe edge (`polar_bear`, x 1450) with a small water ripple
+   under a red X, in place of the X over the bear's back. An X on the bear reads as "no bear", and the line says "doesn't need to *swim*".
+   Keep s105 on the `#b8c8d8` sky.
+8. **s145: Doug stands on the right cell's outline** (x 1400, art bible: never put Doug's x on a prop edge), and the bars run through his head.
+   Move him to **x 1520**, the open middle of the right cell, or bring him forward at scale 0.5 so the cap and head stand clear of the bars.
+9. **s180: a grass tuft touches Doug's feet** at the right edge (Doug x 1700 at 0.4, tuft at about x 1760). Move the tuft to x 1880 or remove it (art bible: keep
+   Doug off busy props).
+10. **s123: "OVERHEAT" touches the running bear's front paw.** Move the wordart **60 px right** (or about 40 px up) so there's
+   a clear gap between the "O" and the paw.
+
+**Not blocking (optional)**
+- s104: at 1080p, `dinner_plate` at (1500, 380) reads as a plate, but at phone size it is a floating white ellipse. Option: add the `fork`/knife pair
+  if the library has one, or drop the plate and let "HAS TO EAT" carry the beat.
+- s147: the "NO FOOD" tag on the cell is small at phone size. Optionally add a `label` "NO FOOD" (size 40) beside the cell, as in s231.
+
+## Overall
+**FAIL, round 1.** Fix 1 goes to the illustrator. Fixes 2-10 go to the director. After that, re-run
+`python -m studio keyframes 031-polar-bear-on-purpose --shots` on the affected shots: s044-s053, s065, s067, s105, s123, s129-s141,
+s145, s149, s156-s176, s180, s204, s213-s227. Round 2 only checks those. Everything else is approved as it stands.

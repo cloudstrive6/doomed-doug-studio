@@ -1,0 +1,137 @@
+{
+ "_note": "Variant A (hero close-up, Archetype C; video opening image s001 via scene_ref; brief section 8 A): flat night-navy #14213d field; small lit cabin window (yellow glass, brown frame, warm spray glow) on the left with tiny red-capped Doug inside reading his field guide, unaware; a huge polar_bear_standing head (flipped, scale 3.5) fills the right ~60% with its black nose against the window frame, heavy brow, hard eye and open snarl (white fangs, dark-red mouth interior, no blood, no contact). Adult predator, not plush; no cubs, no real person. Text DINNER TIME (Arimo bold, white, black outline): no title/alt word; tested against IT SMELLED HIM at 168x94, DINNER TIME reads larger and cleaner. Not 029's floe-and-shadow composition.",
+ "background": "#14213d",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "spray",
+   "x": 330,
+   "y": 400,
+   "r": 330,
+   "color": "#ffd23f",
+   "density": 0.07
+  },
+  {
+   "type": "rect",
+   "x": 90,
+   "y": 190,
+   "w": 400,
+   "h": 380,
+   "fill": "#5a3418",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 115,
+   "y": 215,
+   "w": 350,
+   "h": 330,
+   "fill": "#ffe066",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 290,
+   "y": 380,
+   "r": 150,
+   "color": "#fff6c2",
+   "density": 0.1
+  },
+  {
+   "type": "doug",
+   "x": 240,
+   "y": 525,
+   "scale": 0.6,
+   "pose": "stand",
+   "expression": "neutral",
+   "facing": "left",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "field_guide",
+   "x": 170,
+   "y": 490,
+   "scale": 0.42,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     290,
+     215
+    ],
+    [
+     290,
+     545
+    ]
+   ],
+   "color": "#5a3418",
+   "width": 10,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     115,
+     300
+    ],
+    [
+     465,
+     300
+    ]
+   ],
+   "color": "#5a3418",
+   "width": 10,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 70,
+   "y": 560,
+   "w": 440,
+   "h": 52,
+   "fill": "#5a3418",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "polar_bear_standing",
+   "x": 1150,
+   "y": 3140,
+   "scale": 3.5,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "DINNER TIME",
+   "x": 370,
+   "y": 95,
+   "size": 104,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

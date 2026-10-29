@@ -1,0 +1,283 @@
+{
+ "_note": "Variant C (list-format control, Archetype A): 6 big tiles in a 3x2 grid on white, chapter labels under each tile (ComicNeue-Bold via tile label): Nose, Fur, Stalk, Charge, Town, Tent (none is a title/alt word). Nose: sniffing bear + shocked Doug; Fur: thermal_bear_face on the dark thermal field; Stalk: lying still-hunt bear behind Doug with binoculars; Charge: galloping bear chasing running Doug; Town: bear at the Arctic apartment block; Tent: the dented tent with the bear muzzle pushing in. Doug's red cap visible in Nose, Stalk and Charge. No cubs, no real person, no blood. 2 fonts total.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 30,
+   "y": 12,
+   "w": 392,
+   "h": 246,
+   "fill": "#ffd23f",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Nose",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 20,
+     "y": 212,
+     "w": 412,
+     "h": 66,
+     "fill": "#f4fbff",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "polar_bear_sniffing",
+     "x": 180,
+     "y": 227,
+     "scale": 0.47,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 365,
+     "y": 172,
+     "scale": 0.3,
+     "pose": "stand",
+     "expression": "shock",
+     "facing": "left",
+     "gear": [
+      "sweat"
+     ],
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 444,
+   "y": 12,
+   "w": 392,
+   "h": 246,
+   "fill": "#1a0f2e",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Fur",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "thermal_bear_face",
+     "x": 640,
+     "y": 132,
+     "scale": 1.15,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 858,
+   "y": 12,
+   "w": 392,
+   "h": 246,
+   "fill": "#8ac926",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Stalk",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 848,
+     "y": 197,
+     "w": 412,
+     "h": 81,
+     "fill": "#f4fbff",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "polar_bear_lying",
+     "x": 993,
+     "y": 217,
+     "scale": 0.36,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 1178,
+     "y": 152,
+     "scale": 0.33,
+     "pose": "arms_up",
+     "expression": "hopeful",
+     "facing": "right",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "binoculars",
+     "x": 1216.94,
+     "y": 84.35,
+     "scale": 0.27489,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 30,
+   "y": 352,
+   "w": 392,
+   "h": 246,
+   "fill": "#ff5a3c",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Charge",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 20,
+     "y": 552,
+     "w": 412,
+     "h": 66,
+     "fill": "#f4fbff",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "polar_bear_running",
+     "x": 280,
+     "y": 567,
+     "scale": 0.42,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 100,
+     "y": 502,
+     "scale": 0.3,
+     "pose": "run1",
+     "expression": "shock",
+     "facing": "left",
+     "gear": [
+      "sweat"
+     ],
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 444,
+   "y": 352,
+   "w": 392,
+   "h": 246,
+   "fill": "#3a5bd9",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Town",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 434,
+     "y": 557,
+     "w": 412,
+     "h": 61,
+     "fill": "#e8f0f8",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "arctic_town_block",
+     "x": 584,
+     "y": 567,
+     "scale": 0.42,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "polar_bear",
+     "x": 734,
+     "y": 577,
+     "scale": 0.33,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 858,
+   "y": 352,
+   "w": 392,
+   "h": 246,
+   "fill": "#2ec4f1",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Tent",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 848,
+     "y": 562,
+     "w": 412,
+     "h": 56,
+     "fill": "#f4fbff",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "tent",
+     "x": 1008,
+     "y": 580,
+     "scale": 0.6,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "tent_dented",
+     "x": 1008,
+     "y": 580,
+     "scale": 0.6,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

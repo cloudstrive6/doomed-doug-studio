@@ -1,0 +1,124 @@
+{
+ "_note": "Variant B (Doug in peril, brief section 8 B): bright cyan sky over white ice; Doug (red cap, hopeful smile) scans the horizon to the right through binoculars, unaware; right behind him the snarling polar_bear_standing (scale 0.74) towers with forelegs and claws reaching over his cap, its grey-blue shadow already falling across his feet (closer than he thinks). Text BEHIND YOU (Arimo bold, white, black outline): no title word; 'behind', not 029's 'below'. No contact, no blood, no red on the snow.",
+ "background": "#2ec4f1",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 470,
+   "w": 1300,
+   "h": 260,
+   "fill": "#ffffff",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     880,
+     470
+    ],
+    [
+     990,
+     442
+    ],
+    [
+     1080,
+     462
+    ],
+    [
+     1180,
+     440
+    ],
+    [
+     1290,
+     470
+    ]
+   ],
+   "fill": "#e4eef6",
+   "color": "#000000",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     300,
+     672
+    ],
+    [
+     590,
+     672
+    ],
+    [
+     920,
+     600
+    ],
+    [
+     900,
+     560
+    ],
+    [
+     500,
+     600
+    ]
+   ],
+   "fill": "#9fb8cc",
+   "color": "#9fb8cc",
+   "width": 2,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "polar_bear_standing",
+   "x": 440,
+   "y": 690,
+   "scale": 0.74,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 730,
+   "y": 520,
+   "scale": 0.85,
+   "pose": "arms_up",
+   "expression": "hopeful",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "binoculars",
+   "x": 830.3,
+   "y": 345.75,
+   "scale": 0.70805,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "BEHIND YOU",
+   "x": 975,
+   "y": 90,
+   "size": 84,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
