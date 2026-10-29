@@ -175,3 +175,91 @@ I'll re-check only those.
 **FAIL, round 1.** Fix 1 goes to the illustrator. Fixes 2-10 go to the director. After that, re-run
 `python -m studio keyframes 031-polar-bear-on-purpose --shots` on the affected shots: s044-s053, s065, s067, s105, s123, s129-s141,
 s145, s149, s156-s176, s180, s204, s213-s227. Round 2 only checks those. Everything else is approved as it stands.
+
+---
+
+# Keyframe review, round 2 + thumbnails (art director, 2026-10-29)
+
+**Verdict: keyframes PASS. Thumbnails A and B PASS; thumbnail C FAIL (2 fixes, both for the graphic designer).** C is the
+grid variant, which is a Test & Compare challenger and not the opening frame, so it does not block `art_approved` for the
+episode video. It must be fixed before it is uploaded as a test variant.
+
+## How I reviewed
+- I went through all 11 round-2 contact sheets (`build/contact/sheet_01..11.png`), shot by shot, against the round 1 fix list.
+- I cropped the 1080p keyframes for the BEAR readout on four dark grounds (s044 `#2a2a2e`, s053 `#000`, s139 `#1b2f5a`,
+  s213 `#4a5670`), for s145 (Doug against the bars), and for s157/s158 (the title against the lowered ridges).
+- Thumbnails: `build/thumbnail.png`, `thumbnail_b.png` and `thumbnail_c.png` at 1280x720, plus all three `*_small.png` at
+  168x94 (viewed at 2x). I also cropped Doug in A and B and the Stalk and Tent tiles in C, and I rendered `polar_bear_lying`
+  at 1.3 to check its rear end. Scratch files are in `/tmp/ar031r2/` and were not kept.
+
+## Round 1 fixes: re-check
+| # | Fix | Result |
+|---|---|---|
+| 1 | `paw_print_icon_light` | PASS. Cream pads with a thin dark outline. It reads clearly at 0.3 on `#000`, `#2a2a2e`, `#1b2f5a` and `#4a5670`. Same anchor as the dark icon, no shift. |
+| 2 | Readout icon swap | PASS. The light icon is on every dark shot I listed (s044-s053, s130-s141, s149, s204, s213-s227). The light shots keep the dark icon, and s129 is unchanged. |
+| 3 | s065 / s067 scientist | PASS. Feet are level with Doug and inside the frame. In s065 the telescope still lines up with his eye. |
+| 4 | Camp ridges s156-s176 | PASS. The range is lowered in all 17 shots, with the same profile each time, so the build-up is seamless. "ZERO." and "THE TENT" clear the highest peak (about 15 px at THE TENT; legible). All the wordart sits in clear sky. |
+| 5 | Town text | PASS. s132 STATE OF EMERGENCY / FEB 2019, s135 "6 TO 10", s138 MASS INVASION, s140 CAUGHT and s149 COMES BACK are all in clear sky now. None of them touches a roof, a window or the counter. |
+| 6 | s162 RECOMMENDS | PASS. Uses the size-64 option at about (1600, 640). It is clear of the post, the board and Doug. |
+| 7 | s105 | PASS. Bear at the floe edge with open water behind it, and the red X sits on a water ripple. It reads as "no swim needed", and it is now clearly different from s106/s107. |
+| 8 | s145 | PASS. Doug is at x 1520, in the open middle of the right cell. His head and cap draw over the bars and stand clear. |
+| 9 | s180 tuft | PASS. The tuft is at about x 1875, well clear of Doug's feet. |
+| 10 | s123 OVERHEAT | PASS. There is a clear gap between the "O" and the front paw. |
+| D1 | s173 / s174 tent muzzle | PASS. A flipped `polar_bear` body behind the tent joins the muzzle, so there is no floating snout. |
+
+Also checked in passing (from the visual review round):
+- `seal_costume_prone` in s099-s104 and s221: Doug's head, face and cap stay clear, and it lines up on the floe.
+- The s100 LAST TIME inset still uses the upright costume, as it should.
+- The redrawn `berry_bush` / `berry_bowl` read as berries on the olive tundra at every scale (s178-s202).
+- s147: the NO FOOD label is in.
+
+None of these changes introduces a new layout repeat. Doug is on-model in every re-rendered shot.
+Not blocking, still open: the s104 `dinner_plate` (optional in round 1). It is fine to leave.
+
+## Thumbnails
+**A, `thumbnail.png` (lead, also s001): PASS.**
+- Doug is on-model: round head with the crescent, oval eyes, thin lines, red cap. He is neutral and unaware, and he reads
+  as Doug at 168x94 (the red cap carries it).
+- `polar_bear_standing` at 3.5 is clearly the episode's bear: hard eye, heavy brow, long head, dark-red `#7a0d0d` mouth with white
+  fangs. It is predatory, not plush, and has no blood.
+- The window glow and the navy field are on-palette. DINNER TIME is the house white-with-black-outline Arimo, in the safe area,
+  and it is the biggest thing that reads at feed size. The bottom-right timestamp corner holds only bear body, no text.
+- Optional: the field guide stands beside Doug rather than in his hands (the brief says "reading"). It is fine as it is.
+
+**B, `thumbnail_b.png`: PASS.**
+- Doug is on-model, with the hopeful smile and arms up, facing away from the bear.
+- The bear is the approved `polar_bear_standing`. It towers behind him with its forelegs over his cap. There is no contact and the
+  claws stay clear of him (brief: no claws *in* Doug). It reads as a predator at 168x94.
+- BEHIND YOU is in the safe area and legible small. The composition is clearly not 029's floe-and-shadow.
+- Note for the creative director: the brief asked for the flat stalking bear here. The towering bear is a stronger silhouette
+  at feed size, so I accept it on style grounds.
+- Optional: drop the binoculars about 10 px (y 346 to 356) so the whole cap brim shows above them. At 168x94 the brim
+  partly merges into the binoculars and the cap reads a little like a dome. Not blocking.
+
+**C, `thumbnail_c.png` (grid): FAIL, 2 fixes (graphic designer, `thumbnail_test_c.json`).**
+- Pass: Nose, Fur, Charge and Town. Doug is on-model in Nose and Charge. The tile colours are the house grid brights, the
+  labels are ComicNeue, and there are no cubs and no title words.
+
+1. **Tent tile: the floating severed muzzle is back.** This is the round 1 D1 problem: `tent_dented` alone, so the ragged back end of
+   the muzzle sits in open sky. At 168x94 it reads as a white blob or a cut-off snout. Use the s173 fix, scaled to the tile:
+   - Set `tent` + `tent_dented` to **(960, 575), scale 0.5**.
+   - Add a flipped **`polar_bear` at (1196, 618), scale 0.54, `flip: true`**, placed in the element list *before* the tent, as s173
+     does (same offset +330/+60 and ratio 1.07 to the tent scale as s173).
+   - Check that the bear's feet land on the snow strip (y 562-598) and that the muzzle joins the head behind the dent. The tile
+     clips the bear's hindquarters at the right edge, which is fine.
+2. **Stalk tile: the bear faces away from Doug, and its rear end reads as a cut stump.** `polar_bear_lying` faces left while Doug
+   faces right, so there is no "closer than he thinks". The bear just looks like it is resting. Its hind-paw sole at the right end
+   (a dark oval in a cream square) reads as a severed log end at feed size.
+   - Set `polar_bear_lying` to **`flip: true`** (same x 993, y 217, scale 0.36). Its nose then points at Doug's back, about 60 px
+     behind his feet.
+   - Cover the hind paw, now at the tile's left edge (about x 875, y 210), with a low snow drift, as s063 does: an
+     `ellipse` at (885, 212), rx 48, ry 22, fill `#f4fbff`, with no outline, or a `#94adc2` 3 px top edge to match the drift lines.
+   - Re-check at 168x94: the bear must read as lying low and *aimed at* Doug, with no stump end.
+
+Re-render with `python -m studio thumbnail 031-polar-bear-on-purpose` (variant C) and send me `thumbnail_c.png` and
+`thumbnail_c_small.png`. I will check only those two tiles.
+
+## Overall
+**Keyframes: PASS. Every round 1 fix landed, and art is approved for the episode video.**
+Thumbnail A (lead/opening frame) and B: PASS. Thumbnail C: FAIL until fixes C1 and C2 go in. Route them to the graphic designer. No
+asset or director work is outstanding.

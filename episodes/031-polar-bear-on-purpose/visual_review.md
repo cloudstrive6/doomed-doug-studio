@@ -49,3 +49,40 @@ It fails on one continuity error the viewer can see and hear (the distance track
 - The red-outlined black bear silhouette as a threat or tease (s003, s025, s082, s177, s190, s203, s204). The red-outlined "bubbles" on s082 are bubbles, not blood.
 - Recap montage s218 to s222 reuses earlier compositions on purpose. That's fine.
 - Endslate: the arrow points to the next-video slot and the subscribe circle is clear.
+
+## Round 2: keyframe fixes and thumbnails (2026-10-29)
+
+I re-checked the re-rendered keyframes (build/keyframes/ and contact sheets sheet_01 to sheet_11, which cover the changed shots) against every round 1 fix. I also screened build/thumbnail.png, thumbnail_b.png and thumbnail_c.png at full size and at 168x94 (`*_small.png`).
+
+VERDICT: PASS
+
+### Round 1 required fixes
+1. **Tracker vs narration: fixed.** s080 to s104 read `BEAR: 20 M`. s105 to s156 read `BEAR: 10 M`, so the "Ten meters." card at s106 matches. s157 onward reads `BEAR: 0`, so "Zero." matches. The 3 M, 1 M and 0.5 M steps are gone.
+2. **Seal suit: fixed.** s099 to s104 and s221 now show a side-profile grey ringed seal with ring spots, a tapered body and rear flippers. There's a whisker hood, and Doug's head and cap stay fully visible. It reads as a seal without the caption.
+3. **Crosswind run: fixed.** s018 is now a trotting mid-shot with speed lines and a wind sock labelled WIND UNDER 36 KM/H. s020 is now top-down, with the zig-zag path through three scent plumes and a sniffing inset. The run is broken.
+4. **Paw run: fixed.** s118 shows the bear on thin ice with cracks and Doug sinking. s120 shows the claws hooked into a fish with no wound, and Doug slipping.
+5. **Three-cell run: fixed.** s153 is a close-up of Doug through the bars. s154 is a single cell with an empty bowl and a NO FOOD tag. s155 adds a red arrow up to the counter with STILL 250.
+6. **Single-cell run: fixed.** s230 adds the empty bowl. s231 adds the official with a POLICY clipboard.
+7. **s192: fixed.** It now shows two horizontal season bars: 1979, and 2015 with a red +3 WEEKS extension, with Doug at the end. It reads in one second.
+8. **s210: fixed.** The squares are now labelled J F M A M J J A S O N D with July to December in red, and the 88% headline is kept. It reads as a calendar.
+9. **s105: fixed.** The X sits on a water-ripple icon and the bear is unmarked.
+
+### Round 1 polish
+10 (s149 and s132 captions), 11 (the s204 silhouette is clear of the "E"), 12 (the paw icon now has a white fill and reads on navy and black; checked on s019, s044, s046 and s219), 13 (s216 uses a single strike line and PEOPLE is readable), 14 (the berry pile is now bright red and blue berries on s178, s180 and s185), 15 (the s104 plate is on the floe) and 16 (s031 has the BLACK SKIN tag) are all done.
+
+### New checks on the re-rendered shots
+No new defects. Doug is on-model and readable everywhere. There's no gore. The new props (fish, bowl, official, wind sock, season bars) are recognisable. No run of 4 or more near-identical compositions is left: s228/s229 and s230/s231 are pairs only.
+
+### Thumbnails
+All three pass policy. They show no gore or blood: the dark-red open mouths are cartoon mouths. No cubs, no real people, and nothing reads as a kids' show. Each pairs Doug with the bear threat and avoids every title and alt word. None is misleading: bears entering buildings and stalking a distracted person are both in the video.
+
+- **A (thumbnail.png): "DINNER TIME", the strongest. Recommend it as the primary.** One clear focal point: a huge bear's head nose-to-glass at a lit cabin window, with tiny Doug unaware inside holding a FIELD GUIDE. At 168x94 the text, the bear and the warm window all read instantly. The yellow-on-navy contrast is strong. It complements "...That Hunts Doug" without repeating it.
+- **B (thumbnail_b.png): "BEHIND YOU", passes.** The upright bear with raised claws looms over Doug, who smiles and looks the other way with binoculars. At feed size the text and the two figures read clearly against the cyan sky.
+- **C (thumbnail_c.png): six-tile chapter grid, passes as the test variant.** This is the format's grid archetype. At 168x94 it has no single focal point: the tiles become small swatches, though the labels stay legible. Expect it to lose the A/B test against A. Nothing in it blocks.
+
+### Polish (non-blocking; graphic designer)
+17. **Thumbnail A:** the lone lower tooth floats as a white triangle on the white lower jaw, below the red mouth. Move it up so it sits on the red mouth edge and points up, like the upper fangs. That way the jaw reads as one mouth, not a separate lump.
+18. **Thumbnail B:** the bear's near hind leg starts mid-belly as a separate rectangle, and the forearm is a flat horizontal tube, so the pose reads a little "man in a bear suit". Join the leg into the body contour and give the forearm a downward droop over Doug's cap. That keeps the menace heavy rather than goofy. Also put the binoculars in Doug's raised hand. Right now they float beside his face.
+19. **Thumbnail C:** in the Tent tile, the bear's head poking through the tent reads as a white cone at feed size. Show more head (ear plus eye) or swap in the s173 "nose presses into the tent" framing. The "Tent" label ends at about x=1110, close to the YouTube duration badge. Nudge the bottom row labels up about 10 px.
+
+The keyframes are approved for render. Post-render screening (samples, qc.json, Shorts) is still to do.

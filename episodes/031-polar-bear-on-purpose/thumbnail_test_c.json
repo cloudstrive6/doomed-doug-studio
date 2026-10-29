@@ -1,5 +1,5 @@
 {
- "_note": "Variant C (list-format control, Archetype A): 6 big tiles in a 3x2 grid on white, chapter labels under each tile (ComicNeue-Bold via tile label): Nose, Fur, Stalk, Charge, Town, Tent (none is a title/alt word). Nose: sniffing bear + shocked Doug; Fur: thermal_bear_face on the dark thermal field; Stalk: lying still-hunt bear behind Doug with binoculars; Charge: galloping bear chasing running Doug; Town: bear at the Arctic apartment block; Tent: the dented tent with the bear muzzle pushing in. Doug's red cap visible in Nose, Stalk and Charge. No cubs, no real person, no blood. 2 fonts total.",
+ "_note": "Variant C (list-format control, Archetype A): 6 big tiles in a 3x2 grid on white, chapter labels under each tile (ComicNeue-Bold via tile label): Nose, Fur, Stalk, Charge, Town, Tent (none is a title/alt word). Nose: sniffing bear + shocked Doug; Fur: thermal_bear_face on the dark thermal field; Stalk: lying still-hunt bear behind Doug with binoculars; Charge: galloping bear chasing running Doug; Town: bear at the Arctic apartment block; Tent: the dented tent with the bear muzzle pushing in. Doug's red cap visible in Nose, Stalk and Charge. No cubs, no real person, no blood. 2 fonts total. Round 2 fixes (2026-10-29): Tent tile uses the s173 framing (flipped polar_bear behind the dented tent, muzzle joined, ear+eye visible); Stalk bear flipped to aim at Doug, hind end under a snow drift; bottom row raised 10 px so labels clear the duration badge.",
  "background": "#ffffff",
  "size": [
   1280,
@@ -111,6 +111,45 @@
      "y": 217,
      "scale": 0.36,
      "boil": 0,
+     "wobble": 0,
+     "flip": true
+    },
+    {
+     "type": "ellipse",
+     "x": 885,
+     "y": 212,
+     "rx": 48,
+     "ry": 22,
+     "fill": "#f4fbff",
+     "width": 0,
+     "color": "#000000",
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       839,
+       206
+      ],
+      [
+       862,
+       191
+      ],
+      [
+       900,
+       190
+      ],
+      [
+       932,
+       206
+      ]
+     ],
+     "width": 3,
+     "color": "#94adc2",
+     "boil": 0,
      "wobble": 0
     },
     {
@@ -140,7 +179,7 @@
   {
    "type": "tile",
    "x": 30,
-   "y": 352,
+   "y": 332,
    "w": 392,
    "h": 246,
    "fill": "#ff5a3c",
@@ -152,7 +191,7 @@
     {
      "type": "rect",
      "x": 20,
-     "y": 552,
+     "y": 532,
      "w": 412,
      "h": 66,
      "fill": "#f4fbff",
@@ -164,7 +203,7 @@
      "type": "asset",
      "name": "polar_bear_running",
      "x": 280,
-     "y": 567,
+     "y": 547,
      "scale": 0.42,
      "flip": true,
      "boil": 0,
@@ -173,7 +212,7 @@
     {
      "type": "doug",
      "x": 100,
-     "y": 502,
+     "y": 482,
      "scale": 0.3,
      "pose": "run1",
      "expression": "shock",
@@ -191,7 +230,7 @@
   {
    "type": "tile",
    "x": 444,
-   "y": 352,
+   "y": 332,
    "w": 392,
    "h": 246,
    "fill": "#3a5bd9",
@@ -203,7 +242,7 @@
     {
      "type": "rect",
      "x": 434,
-     "y": 557,
+     "y": 537,
      "w": 412,
      "h": 61,
      "fill": "#e8f0f8",
@@ -215,7 +254,7 @@
      "type": "asset",
      "name": "arctic_town_block",
      "x": 584,
-     "y": 567,
+     "y": 547,
      "scale": 0.42,
      "boil": 0,
      "wobble": 0
@@ -224,7 +263,7 @@
      "type": "asset",
      "name": "polar_bear",
      "x": 734,
-     "y": 577,
+     "y": 557,
      "scale": 0.33,
      "flip": true,
      "boil": 0,
@@ -237,7 +276,7 @@
   {
    "type": "tile",
    "x": 858,
-   "y": 352,
+   "y": 332,
    "w": 392,
    "h": 246,
    "fill": "#2ec4f1",
@@ -249,9 +288,9 @@
     {
      "type": "rect",
      "x": 848,
-     "y": 562,
+     "y": 532,
      "w": 412,
-     "h": 56,
+     "h": 66,
      "fill": "#f4fbff",
      "width": 5,
      "boil": 0,
@@ -259,19 +298,29 @@
     },
     {
      "type": "asset",
-     "name": "tent",
-     "x": 1008,
+     "name": "polar_bear",
+     "x": 1196,
      "y": 580,
-     "scale": 0.6,
+     "scale": 0.54,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "tent",
+     "x": 960,
+     "y": 537,
+     "scale": 0.5,
      "boil": 0,
      "wobble": 0
     },
     {
      "type": "asset",
      "name": "tent_dented",
-     "x": 1008,
-     "y": 580,
-     "scale": 0.6,
+     "x": 960,
+     "y": 537,
+     "scale": 0.5,
      "boil": 0,
      "wobble": 0
     }
@@ -279,5 +328,6 @@
    "boil": 0,
    "wobble": 0
   }
- ]
+ ],
+ "_bottom_row_shifted": true
 }
