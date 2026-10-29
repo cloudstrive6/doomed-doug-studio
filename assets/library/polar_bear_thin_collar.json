@@ -1,0 +1,119 @@
+{
+ "name": "polar_bear_thin_collar",
+ "description": "Overlay for polar_bear_thin only: dark grey #2b2b2b GPS collar around the neck with a small black camera box (blue lens dot) under the throat. Transparent elsewhere. Same anchor/facing/scale as polar_bear_thin (draw at the same x/y/scale on top).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "overlay",
+  "collar",
+  "camera",
+  "polar bear",
+  "science",
+  "031"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     166,
+     -260
+    ],
+    [
+     182,
+     -256
+    ],
+    [
+     192,
+     -186
+    ],
+    [
+     176,
+     -181
+    ]
+   ],
+   "fill": "#2b2b2b",
+   "width": 4,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     175,
+     -250
+    ],
+    [
+     184,
+     -192
+    ]
+   ],
+   "width": 2,
+   "color": "#555555"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     184,
+     -184
+    ],
+    [
+     184,
+     -174
+    ]
+   ],
+   "width": 4,
+   "color": "#2b2b2b"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     168,
+     -176
+    ],
+    [
+     200,
+     -176
+    ],
+    [
+     200,
+     -146
+    ],
+    [
+     168,
+     -146
+    ]
+   ],
+   "fill": "#111111",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "ellipse",
+   "x": 189,
+   "y": -161,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#3a8ee0",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 188,
+   "y": -163,
+   "rx": 2,
+   "ry": 2,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

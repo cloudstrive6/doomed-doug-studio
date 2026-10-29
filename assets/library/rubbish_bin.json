@@ -1,0 +1,393 @@
+{
+ "name": "rubbish_bin",
+ "description": "Communal wheeled rubbish bin / small dumpster, dark blue-grey (#4a5568), lid propped open behind, two black bin bags poking out, wheels. Bottom-centre anchor, ~260x200 (x -130..130, y -200..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "rubbish",
+  "bin",
+  "dumpster",
+  "town",
+  "031"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -118,
+     -132
+    ],
+    [
+     -130,
+     -196
+    ],
+    [
+     96,
+     -200
+    ],
+    [
+     118,
+     -136
+    ]
+   ],
+   "fill": "#343c4a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100,
+     -150
+    ],
+    [
+     -110,
+     -186
+    ]
+   ],
+   "width": 3,
+   "color": "#6a768a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -150
+    ],
+    [
+     -16,
+     -192
+    ]
+   ],
+   "width": 3,
+   "color": "#6a768a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     80,
+     -142
+    ],
+    [
+     84,
+     -192
+    ]
+   ],
+   "width": 3,
+   "color": "#6a768a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90,
+     -126
+    ],
+    [
+     -80,
+     -156
+    ],
+    [
+     -40,
+     -166
+    ],
+    [
+     -10,
+     -140
+    ],
+    [
+     -20,
+     -124
+    ]
+   ],
+   "fill": "#2b2b2b",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -20,
+     -124
+    ],
+    [
+     0,
+     -162
+    ],
+    [
+     40,
+     -172
+    ],
+    [
+     70,
+     -150
+    ],
+    [
+     80,
+     -124
+    ]
+   ],
+   "fill": "#2b2b2b",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -70,
+     -150
+    ],
+    [
+     -50,
+     -156
+    ]
+   ],
+   "width": 2,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     20,
+     -160
+    ],
+    [
+     44,
+     -162
+    ]
+   ],
+   "width": 2,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "ellipse",
+   "x": 36,
+   "y": -176,
+   "rx": 6,
+   "ry": 5,
+   "fill": "#2b2b2b",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -124,
+     -128
+    ],
+    [
+     124,
+     -128
+    ],
+    [
+     112,
+     -22
+    ],
+    [
+     -112,
+     -22
+    ]
+   ],
+   "fill": "#4a5568",
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     60,
+     -128
+    ],
+    [
+     124,
+     -128
+    ],
+    [
+     112,
+     -22
+    ],
+    [
+     56,
+     -22
+    ]
+   ],
+   "fill": "#343c4a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": -70,
+   "r": 40,
+   "color": "#6a768a",
+   "density": 0.12
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -70,
+     -112
+    ],
+    [
+     -66.5,
+     -36
+    ]
+   ],
+   "width": 3,
+   "color": "#343c4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     -112
+    ],
+    [
+     -19.0,
+     -36
+    ]
+   ],
+   "width": 3,
+   "color": "#343c4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -112
+    ],
+    [
+     28.5,
+     -36
+    ]
+   ],
+   "width": 3,
+   "color": "#343c4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     80,
+     -112
+    ],
+    [
+     76.0,
+     -36
+    ]
+   ],
+   "width": 3,
+   "color": "#343c4a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -124,
+     -128
+    ],
+    [
+     124,
+     -128
+    ],
+    [
+     112,
+     -22
+    ],
+    [
+     -112,
+     -22
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "rect",
+   "x": -130,
+   "y": -138,
+   "w": 260,
+   "h": 16,
+   "fill": "#343c4a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -112,
+   "y": -100,
+   "w": 20,
+   "h": 30,
+   "fill": null,
+   "width": 3,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "ellipse",
+   "x": -86,
+   "y": -14,
+   "rx": 15,
+   "ry": 14,
+   "fill": "#1a1a1a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -86,
+   "y": -14,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#8a8f96",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 86,
+   "y": -14,
+   "rx": 15,
+   "ry": 14,
+   "fill": "#1a1a1a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 86,
+   "y": -14,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#8a8f96",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

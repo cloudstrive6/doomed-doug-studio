@@ -1,0 +1,992 @@
+{
+ "name": "berry_bowl",
+ "description": "Small wooden bowl heaped with dark blue berries (crowberry/blueberry). Centre anchor, ~180x90 (x -89..89, y -49..44); top of the berry heap at (0,-45), where doug_cap sits.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "food",
+  "berries",
+  "bowl",
+  "wood",
+  "031"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -88,
+     -4
+    ],
+    [
+     -86.7,
+     4.3
+    ],
+    [
+     -82.7,
+     12.4
+    ],
+    [
+     -76.2,
+     20.0
+    ],
+    [
+     -67.4,
+     26.9
+    ],
+    [
+     -56.6,
+     32.8
+    ],
+    [
+     -44.0,
+     37.6
+    ],
+    [
+     -30.1,
+     41.1
+    ],
+    [
+     -15.3,
+     43.3
+    ],
+    [
+     0.0,
+     44.0
+    ],
+    [
+     15.3,
+     43.3
+    ],
+    [
+     30.1,
+     41.1
+    ],
+    [
+     44.0,
+     37.6
+    ],
+    [
+     56.6,
+     32.8
+    ],
+    [
+     67.4,
+     26.9
+    ],
+    [
+     76.2,
+     20.0
+    ],
+    [
+     82.7,
+     12.4
+    ],
+    [
+     86.7,
+     4.3
+    ],
+    [
+     88,
+     -4
+    ]
+   ],
+   "fill": "#a0522d",
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     20,
+     43
+    ],
+    [
+     50,
+     36
+    ],
+    [
+     72,
+     22
+    ],
+    [
+     84,
+     6
+    ],
+    [
+     86,
+     -2
+    ],
+    [
+     70,
+     -2
+    ],
+    [
+     62,
+     16
+    ],
+    [
+     40,
+     30
+    ],
+    [
+     10,
+     38
+    ]
+   ],
+   "fill": "#7a3b1f",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -70,
+     6
+    ],
+    [
+     -56,
+     24
+    ],
+    [
+     -30,
+     32
+    ]
+   ],
+   "width": 3,
+   "color": "#c27a4a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     10
+    ],
+    [
+     -32,
+     26
+    ]
+   ],
+   "width": 2,
+   "color": "#6a3018"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     10,
+     10
+    ],
+    [
+     18,
+     26
+    ]
+   ],
+   "width": 2,
+   "color": "#6a3018"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     48,
+     10
+    ],
+    [
+     56,
+     26
+    ]
+   ],
+   "width": 2,
+   "color": "#6a3018"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -88,
+     -4
+    ],
+    [
+     -86.7,
+     4.3
+    ],
+    [
+     -82.7,
+     12.4
+    ],
+    [
+     -76.2,
+     20.0
+    ],
+    [
+     -67.4,
+     26.9
+    ],
+    [
+     -56.6,
+     32.8
+    ],
+    [
+     -44.0,
+     37.6
+    ],
+    [
+     -30.1,
+     41.1
+    ],
+    [
+     -15.3,
+     43.3
+    ],
+    [
+     0.0,
+     44.0
+    ],
+    [
+     15.3,
+     43.3
+    ],
+    [
+     30.1,
+     41.1
+    ],
+    [
+     44.0,
+     37.6
+    ],
+    [
+     56.6,
+     32.8
+    ],
+    [
+     67.4,
+     26.9
+    ],
+    [
+     76.2,
+     20.0
+    ],
+    [
+     82.7,
+     12.4
+    ],
+    [
+     86.7,
+     4.3
+    ],
+    [
+     88,
+     -4
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -4,
+   "rx": 88,
+   "ry": 11,
+   "fill": "#5a2a14",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -70.4,
+   "y": -5.0,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -73.4,
+   "y": -8.0,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -51.6,
+   "y": -4.2,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -54.6,
+   "y": -7.2,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -34.1,
+   "y": -4.3,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -37.1,
+   "y": -7.3,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -20.6,
+   "y": -6.1,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -23.6,
+   "y": -9.1,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 2.7,
+   "y": -5.4,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -0.3,
+   "y": -8.4,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 20.2,
+   "y": -7.5,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 17.2,
+   "y": -10.5,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 35.4,
+   "y": -7.0,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 32.4,
+   "y": -10.0,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 53.6,
+   "y": -5.7,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 50.6,
+   "y": -8.7,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 68.2,
+   "y": -7.1,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 65.2,
+   "y": -10.1,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -62.6,
+   "y": -14.3,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -65.6,
+   "y": -17.3,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -42.2,
+   "y": -17.4,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -45.2,
+   "y": -20.4,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -24.5,
+   "y": -17.4,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -27.5,
+   "y": -20.4,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -8.0,
+   "y": -17.5,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -11.0,
+   "y": -20.5,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 5.8,
+   "y": -14.5,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 2.8,
+   "y": -17.5,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 24.5,
+   "y": -17.1,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 21.5,
+   "y": -20.1,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 46.6,
+   "y": -14.5,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 43.6,
+   "y": -17.5,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 60.0,
+   "y": -14.2,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 57.0,
+   "y": -17.2,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -47.8,
+   "y": -24.3,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -50.8,
+   "y": -27.3,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -33.8,
+   "y": -23.2,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -36.8,
+   "y": -26.2,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -14.9,
+   "y": -23.1,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -17.9,
+   "y": -26.1,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 2.4,
+   "y": -25.8,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -0.6,
+   "y": -28.8,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 15.2,
+   "y": -26.3,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 12.2,
+   "y": -29.3,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 29.9,
+   "y": -26.7,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 26.9,
+   "y": -29.7,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 46.8,
+   "y": -24.6,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 43.8,
+   "y": -27.6,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -35.0,
+   "y": -32.3,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -38.0,
+   "y": -35.3,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -17.0,
+   "y": -33.8,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -20.0,
+   "y": -36.8,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 1.9,
+   "y": -33.1,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -1.1,
+   "y": -36.1,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 14.9,
+   "y": -33.1,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 11.9,
+   "y": -36.1,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 33.2,
+   "y": -34.8,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 30.2,
+   "y": -37.8,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -11.8,
+   "y": -41.9,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -14.8,
+   "y": -44.9,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 1.5,
+   "y": -38.6,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": -1.5,
+   "y": -41.6,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 11.8,
+   "y": -38.8,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#26305a",
+   "width": 2,
+   "color": "#0d0f1f"
+  },
+  {
+   "type": "ellipse",
+   "x": 8.8,
+   "y": -41.8,
+   "rx": 2.5,
+   "ry": 2.5,
+   "fill": "#8a9ad0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -45,
+   "rx": 1,
+   "ry": 1,
+   "fill": "#26305a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

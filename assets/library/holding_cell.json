@@ -1,0 +1,679 @@
+{
+ "name": "holding_cell",
+ "description": "Front view into one bare concrete holding cell (back layer): grey #a3a8ae back wall (x -210..210, y -480..-120) with block lines and a small high vent at (0,-444), side walls and ceiling in perspective, grey floor strip y -120..0. Empty: draw contents, then cell_bars on top. Anchor bottom-centre; 600x560 (x -300..300, y -560..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "place",
+  "cell",
+  "prison",
+  "holding facility",
+  "concrete",
+  "interior",
+  "031"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -300,
+     -560
+    ],
+    [
+     300,
+     -560
+    ],
+    [
+     210,
+     -480
+    ],
+    [
+     -210,
+     -480
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#7f858c"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -300,
+     -560
+    ],
+    [
+     -210,
+     -480
+    ],
+    [
+     -210,
+     -120
+    ],
+    [
+     -300,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#8e949a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     300,
+     -560
+    ],
+    [
+     210,
+     -480
+    ],
+    [
+     210,
+     -120
+    ],
+    [
+     300,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#8e949a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -210,
+     -120
+    ],
+    [
+     210,
+     -120
+    ],
+    [
+     300,
+     0
+    ],
+    [
+     -300,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#8a8f94"
+  },
+  {
+   "type": "rect",
+   "x": -210,
+   "y": -480,
+   "w": 420,
+   "h": 360,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#a3a8ae"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -300,
+     -560
+    ],
+    [
+     -255,
+     -520
+    ],
+    [
+     -255,
+     -60
+    ],
+    [
+     -300,
+     0
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#80868c",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     300,
+     -560
+    ],
+    [
+     255,
+     -520
+    ],
+    [
+     255,
+     -60
+    ],
+    [
+     300,
+     0
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#80868c",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -208,
+     -420
+    ],
+    [
+     208,
+     -420
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -90,
+     -420
+    ],
+    [
+     -90,
+     -360
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -420
+    ],
+    [
+     30,
+     -360
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     150,
+     -420
+    ],
+    [
+     150,
+     -360
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -208,
+     -360
+    ],
+    [
+     208,
+     -360
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -360
+    ],
+    [
+     -150,
+     -300
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -360
+    ],
+    [
+     -30,
+     -300
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     90,
+     -360
+    ],
+    [
+     90,
+     -300
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -208,
+     -300
+    ],
+    [
+     208,
+     -300
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -90,
+     -300
+    ],
+    [
+     -90,
+     -240
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -300
+    ],
+    [
+     30,
+     -240
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     150,
+     -300
+    ],
+    [
+     150,
+     -240
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -208,
+     -240
+    ],
+    [
+     208,
+     -240
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -240
+    ],
+    [
+     -150,
+     -180
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -240
+    ],
+    [
+     -30,
+     -180
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     90,
+     -240
+    ],
+    [
+     90,
+     -180
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -208,
+     -180
+    ],
+    [
+     208,
+     -180
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -90,
+     -180
+    ],
+    [
+     -90,
+     -120
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -180
+    ],
+    [
+     30,
+     -120
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     150,
+     -180
+    ],
+    [
+     150,
+     -120
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -208,
+     -420
+    ],
+    [
+     208,
+     -420
+    ]
+   ],
+   "width": 2,
+   "color": "#8f949a"
+  },
+  {
+   "type": "spray",
+   "x": -120,
+   "y": -200,
+   "r": 70,
+   "color": "#959aa0",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 140,
+   "y": -330,
+   "r": 60,
+   "color": "#959aa0",
+   "density": 0.2
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": -140,
+   "r": 90,
+   "color": "#9a9fa5",
+   "density": 0.2
+  },
+  {
+   "type": "spray",
+   "x": -60,
+   "y": -55,
+   "r": 45,
+   "color": "#7d8287",
+   "density": 0.2
+  },
+  {
+   "type": "spray",
+   "x": 90,
+   "y": -70,
+   "r": 40,
+   "color": "#7d8287",
+   "density": 0.2
+  },
+  {
+   "type": "spray",
+   "x": -200,
+   "y": -60,
+   "r": 50,
+   "color": "#777c81",
+   "density": 0.2
+  },
+  {
+   "type": "spray",
+   "x": 200,
+   "y": -60,
+   "r": 50,
+   "color": "#777c81",
+   "density": 0.2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -210,
+     -120
+    ],
+    [
+     210,
+     -120
+    ]
+   ],
+   "width": 3,
+   "color": "#5e6369"
+  },
+  {
+   "type": "ellipse",
+   "x": 60,
+   "y": -50,
+   "rx": 22,
+   "ry": 7,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#55595e"
+  },
+  {
+   "type": "rect",
+   "x": -45,
+   "y": -462,
+   "w": 90,
+   "h": 36,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#5b6066"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -38,
+     -454
+    ],
+    [
+     38,
+     -454
+    ]
+   ],
+   "width": 3,
+   "color": "#3a3e43"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -38,
+     -444
+    ],
+    [
+     38,
+     -444
+    ]
+   ],
+   "width": 3,
+   "color": "#3a3e43"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -38,
+     -434
+    ],
+    [
+     38,
+     -434
+    ]
+   ],
+   "width": 3,
+   "color": "#3a3e43"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -150,
+     -30
+    ],
+    [
+     -120,
+     -45
+    ],
+    [
+     -90,
+     -40
+    ]
+   ],
+   "width": 2,
+   "color": "#6e7378"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     150,
+     -250
+    ],
+    [
+     162,
+     -230
+    ],
+    [
+     156,
+     -205
+    ]
+   ],
+   "width": 2,
+   "color": "#80858b"
+  },
+  {
+   "type": "rect",
+   "x": -300,
+   "y": -560,
+   "w": 600,
+   "h": 560,
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}

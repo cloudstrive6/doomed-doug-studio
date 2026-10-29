@@ -1,0 +1,522 @@
+{
+ "name": "stick_sprinter",
+ "description": "Crude-tier stick-man sprinter (scientist tier: 5 px lines, big round white head with grey crescent, short hair, no red cap, focused face), mid-stride leaning forward, plain white running vest with a blank race bib. Generic, no likeness, no flags, no logos. auto_ink. Bottom-centre anchor (back toe on y=0), ~300x470 (x -118..122, y -472..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "character",
+  "human",
+  "stick man",
+  "sprinter",
+  "runner",
+  "athlete",
+  "031"
+ ],
+ "auto_ink": true,
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -150
+    ],
+    [
+     -46,
+     -82
+    ],
+    [
+     -118,
+     -14
+    ],
+    [
+     -104,
+     0
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -150
+    ],
+    [
+     78,
+     -170
+    ],
+    [
+     72,
+     -84
+    ],
+    [
+     96,
+     -80
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -308
+    ],
+    [
+     -26,
+     -250
+    ],
+    [
+     -66,
+     -282
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     -320
+    ],
+    [
+     58,
+     -314
+    ],
+    [
+     18,
+     -150
+    ],
+    [
+     -38,
+     -158
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 5,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     20,
+     -318
+    ],
+    [
+     32,
+     -296
+    ],
+    [
+     44,
+     -316
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -8,
+     -262
+    ],
+    [
+     42,
+     -254
+    ],
+    [
+     38,
+     -206
+    ],
+    [
+     -14,
+     -214
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false,
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": -6,
+   "y": -258,
+   "rx": 2,
+   "ry": 2,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": 38,
+   "y": -251,
+   "rx": 2,
+   "ry": 2,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     -308
+    ],
+    [
+     86,
+     -270
+    ],
+    [
+     110,
+     -318
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 58,
+   "y": -392,
+   "rx": 64,
+   "ry": 64,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     36.1,
+     -331.9
+    ],
+    [
+     26.0,
+     -336.6
+    ],
+    [
+     16.9,
+     -343.0
+    ],
+    [
+     9.0,
+     -350.9
+    ],
+    [
+     2.6,
+     -360.0
+    ],
+    [
+     -2.1,
+     -370.1
+    ],
+    [
+     -5.0,
+     -380.9
+    ],
+    [
+     -6.0,
+     -392.0
+    ],
+    [
+     -5.0,
+     -403.1
+    ],
+    [
+     -2.1,
+     -413.9
+    ],
+    [
+     2.6,
+     -424.0
+    ],
+    [
+     9.0,
+     -433.1
+    ],
+    [
+     16.9,
+     -441.0
+    ],
+    [
+     26.0,
+     -447.4
+    ],
+    [
+     36.1,
+     -452.1
+    ],
+    [
+     54.2,
+     -446.5
+    ],
+    [
+     45.0,
+     -442.2
+    ],
+    [
+     36.7,
+     -436.4
+    ],
+    [
+     29.6,
+     -429.3
+    ],
+    [
+     23.8,
+     -421.0
+    ],
+    [
+     19.5,
+     -411.8
+    ],
+    [
+     16.9,
+     -402.1
+    ],
+    [
+     16.0,
+     -392.0
+    ],
+    [
+     16.9,
+     -381.9
+    ],
+    [
+     19.5,
+     -372.2
+    ],
+    [
+     23.8,
+     -363.0
+    ],
+    [
+     29.6,
+     -354.7
+    ],
+    [
+     36.7,
+     -347.6
+    ],
+    [
+     45.0,
+     -341.8
+    ],
+    [
+     54.2,
+     -337.5
+    ]
+   ],
+   "fill": "#d6d6d6",
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "outline": false,
+   "boil": 0.5
+  },
+  {
+   "type": "ellipse",
+   "x": 58,
+   "y": -392,
+   "rx": 64,
+   "ry": 64,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     -446
+    ],
+    [
+     14,
+     -462
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     -454
+    ],
+    [
+     36,
+     -470
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -456
+    ],
+    [
+     60,
+     -472
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     80,
+     -452
+    ],
+    [
+     86,
+     -468
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     6,
+     -432
+    ],
+    [
+     -6,
+     -444
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 74,
+   "y": -394,
+   "rx": 9,
+   "ry": 12,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true,
+   "boil": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": 77,
+   "y": -392,
+   "rx": 4.5,
+   "ry": 4.5,
+   "fill": "#000000",
+   "width": 1,
+   "color": "#000000",
+   "keep_ink": true,
+   "boil": 0.2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     62,
+     -414
+    ],
+    [
+     84,
+     -408
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": 102,
+   "y": -394,
+   "rx": 9,
+   "ry": 12,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true,
+   "boil": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": 105,
+   "y": -392,
+   "rx": 4.5,
+   "ry": 4.5,
+   "fill": "#000000",
+   "width": 1,
+   "color": "#000000",
+   "keep_ink": true,
+   "boil": 0.2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     90,
+     -414
+    ],
+    [
+     112,
+     -408
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     80,
+     -354
+    ],
+    [
+     102,
+     -354
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  }
+ ]
+}

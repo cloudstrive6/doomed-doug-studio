@@ -1,0 +1,518 @@
+{
+ "name": "snow_shelter_broken",
+ "description": "Doug's snow shelter collapsed into a low heap of broken snow blocks with a few blocks tumbled to the sides, no body. Flat top block at (0,-140) where doug_cap sits. Anchor bottom-centre; x -300..300, y -140..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "snow",
+  "igloo",
+  "shelter",
+  "arctic",
+  "broken",
+  "death aftermath",
+  "031"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -250,
+     0
+    ],
+    [
+     -230,
+     -40
+    ],
+    [
+     -170,
+     -80
+    ],
+    [
+     -90,
+     -108
+    ],
+    [
+     0,
+     -112
+    ],
+    [
+     90,
+     -106
+    ],
+    [
+     170,
+     -78
+    ],
+    [
+     230,
+     -40
+    ],
+    [
+     250,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": true,
+   "fill": "#e6eef5"
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": -60,
+   "r": 50,
+   "color": "#d6e2ec",
+   "density": 0.2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -233.9,
+     -40.2
+    ],
+    [
+     -155.7,
+     -56.8
+    ],
+    [
+     -146.1,
+     -11.8
+    ],
+    [
+     -224.3,
+     4.8
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#f7fbff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -149.2,
+     -69.8
+    ],
+    [
+     -64.1,
+     -57.8
+    ],
+    [
+     -70.8,
+     -10.2
+    ],
+    [
+     -155.9,
+     -22.2
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#e9f0f6"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -73.9,
+     -50.2
+    ],
+    [
+     9.7,
+     -57.6
+    ],
+    [
+     13.9,
+     -9.8
+    ],
+    [
+     -69.7,
+     -2.4
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#dde8f1"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     21.8,
+     -65.1
+    ],
+    [
+     106.5,
+     -50.2
+    ],
+    [
+     98.2,
+     -2.9
+    ],
+    [
+     13.5,
+     -17.8
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#f7fbff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     107.2,
+     -43.2
+    ],
+    [
+     186.4,
+     -54.3
+    ],
+    [
+     192.8,
+     -8.8
+    ],
+    [
+     113.6,
+     2.3
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#e9f0f6"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -194.4,
+     -77.8
+    ],
+    [
+     -122.1,
+     -107.0
+    ],
+    [
+     -105.6,
+     -66.2
+    ],
+    [
+     -177.9,
+     -37.0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#dde8f1"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -103.5,
+     -115.0
+    ],
+    [
+     -25.9,
+     -95.7
+    ],
+    [
+     -36.5,
+     -53.0
+    ],
+    [
+     -114.1,
+     -72.3
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#f7fbff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     35.5,
+     -90.1
+    ],
+    [
+     112.4,
+     -112.2
+    ],
+    [
+     124.5,
+     -69.9
+    ],
+    [
+     47.6,
+     -47.8
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#e9f0f6"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     132.9,
+     -91.8
+    ],
+    [
+     199.5,
+     -70.2
+    ],
+    [
+     187.1,
+     -32.2
+    ],
+    [
+     120.5,
+     -53.8
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#dde8f1"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -55.0,
+     -140.0
+    ],
+    [
+     55.0,
+     -140.0
+    ],
+    [
+     55.0,
+     -104.0
+    ],
+    [
+     -55.0,
+     -104.0
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#f7fbff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -296.1,
+     -32.3
+    ],
+    [
+     -244.8,
+     -59.5
+    ],
+    [
+     -227.9,
+     -27.7
+    ],
+    [
+     -279.2,
+     -0.5
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#f7fbff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     243.3,
+     -54.9
+    ],
+    [
+     294.5,
+     -32.1
+    ],
+    [
+     280.7,
+     -1.1
+    ],
+    [
+     229.5,
+     -23.9
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#e9f0f6"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -243.1,
+     -32.9
+    ],
+    [
+     -203.9,
+     -24.6
+    ],
+    [
+     -208.9,
+     -1.1
+    ],
+    [
+     -248.1,
+     -9.4
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#dde8f1"
+  },
+  {
+   "type": "ellipse",
+   "x": -210,
+   "y": -4,
+   "rx": 6,
+   "ry": 4.199999999999999,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#f7fbff"
+  },
+  {
+   "type": "ellipse",
+   "x": 205,
+   "y": -4,
+   "rx": 7,
+   "ry": 4.8999999999999995,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#f7fbff"
+  },
+  {
+   "type": "ellipse",
+   "x": -120,
+   "y": -4,
+   "rx": 5,
+   "ry": 3.5,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#f7fbff"
+  },
+  {
+   "type": "ellipse",
+   "x": 120,
+   "y": -3,
+   "rx": 5,
+   "ry": 3.5,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#f7fbff"
+  },
+  {
+   "type": "ellipse",
+   "x": 290,
+   "y": -4,
+   "rx": 4,
+   "ry": 2.8,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#f7fbff"
+  },
+  {
+   "type": "ellipse",
+   "x": -295,
+   "y": -4,
+   "rx": 4,
+   "ry": 2.8,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#f7fbff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -58
+    ],
+    [
+     -136,
+     -50
+    ]
+   ],
+   "width": 2,
+   "color": "#c9d6e2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -58
+    ],
+    [
+     -46,
+     -50
+    ]
+   ],
+   "width": 2,
+   "color": "#c9d6e2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -58
+    ],
+    [
+     44,
+     -50
+    ]
+   ],
+   "width": 2,
+   "color": "#c9d6e2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     110,
+     -58
+    ],
+    [
+     124,
+     -50
+    ]
+   ],
+   "width": 2,
+   "color": "#c9d6e2"
+  }
+ ]
+}

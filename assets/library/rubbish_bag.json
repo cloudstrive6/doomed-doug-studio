@@ -1,0 +1,249 @@
+{
+ "name": "rubbish_bag",
+ "description": "Black bin bag (#2b2b2b) tied at the top with a knot and two tie ears, lumpy, grey highlights. Anchor (0,0) = the knot (held in Doug's hand); bag hangs below, x -60..60, y -8..140.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "rubbish",
+  "bag",
+  "bin bag",
+  "town",
+  "031"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -8,
+     10
+    ],
+    [
+     -26,
+     22
+    ],
+    [
+     -48,
+     46
+    ],
+    [
+     -58,
+     80
+    ],
+    [
+     -56,
+     112
+    ],
+    [
+     -40,
+     134
+    ],
+    [
+     -12,
+     140
+    ],
+    [
+     14,
+     138
+    ],
+    [
+     42,
+     134
+    ],
+    [
+     58,
+     110
+    ],
+    [
+     60,
+     76
+    ],
+    [
+     50,
+     46
+    ],
+    [
+     28,
+     22
+    ],
+    [
+     8,
+     10
+    ]
+   ],
+   "fill": "#2b2b2b",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     96
+    ],
+    [
+     -20,
+     86
+    ],
+    [
+     0,
+     98
+    ]
+   ],
+   "width": 3,
+   "color": "#111111"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     10,
+     70
+    ],
+    [
+     30,
+     62
+    ],
+    [
+     46,
+     74
+    ]
+   ],
+   "width": 3,
+   "color": "#111111"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     56
+    ],
+    [
+     -48,
+     84
+    ],
+    [
+     -42,
+     110
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     20,
+     92
+    ],
+    [
+     34,
+     100
+    ],
+    [
+     40,
+     118
+    ]
+   ],
+   "width": 2,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -18,
+     30
+    ],
+    [
+     -28,
+     42
+    ]
+   ],
+   "width": 2,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -4,
+     4
+    ],
+    [
+     -24,
+     -6
+    ],
+    [
+     -30,
+     4
+    ],
+    [
+     -12,
+     12
+    ]
+   ],
+   "fill": "#2b2b2b",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     4
+    ],
+    [
+     22,
+     -8
+    ],
+    [
+     30,
+     2
+    ],
+    [
+     12,
+     12
+    ]
+   ],
+   "fill": "#2b2b2b",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 6,
+   "rx": 9,
+   "ry": 7,
+   "fill": "#2b2b2b",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -4,
+     4
+    ],
+    [
+     4,
+     8
+    ]
+   ],
+   "width": 2,
+   "color": "#6a6a6a"
+  }
+ ]
+}
