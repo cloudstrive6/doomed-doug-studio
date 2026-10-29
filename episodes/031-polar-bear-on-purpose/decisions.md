@@ -28,3 +28,21 @@
    - Flesch is now a sanity check against padded or jargon-heavy prose. It must never be "fixed" by merging punch lines or swapping in longer words.
    - Above 80, the screener should flag it as advisory and check for choppy runs. That is not an automatic FAIL.
 5. **Series bible updated:** the counter is now 253, and the 031 episode log row and lore are added (the "hi friend?" bubble crossed out to "oh.", and the cap detained in Churchill).
+
+## 2026-10-29, creative director: art and thumbnail gate
+1. **Approved.** Art director round 2: keyframes PASS. Visual screener round 2: PASS. I spot-checked contact sheets 01, 06 and 10.
+   - The tracker matches the bands (1 KM / 500 M / 100 M, then 10 M through the Town, then 0 from s157).
+   - The thermal Fur sequence reads, and the counter is flat at 250 through the jail.
+   - The recap montage (s218-s221) is one beat per stop, as the script gate asked.
+   - Nothing echoes 029: no under-ice shots. s221's water-edge lunge is the aquatic stalk callback, seen from the side, not from below.
+2. **Thumbnail A ("DINNER TIME", cabin window): the lead and the s001 opening image.** I would click it. At 168x94 there is one focal point (bear nose to the lit glass, with unaware Doug), the text reads first, and the bear is a predator, not a plush toy.
+3. **Thumbnail B ("BEHIND YOU"): approved as the challenger.** The towering bear replaces the brief's flat stalker. I accept that on silhouette grounds, and the behind/below irony stays distinct from 029.
+4. **Thumbnail C (grid): approved as the third test variant. I re-checked the art director's C1 and C2 fixes myself, and both landed:**
+   - **Tent:** the flipped `polar_bear` now joins the dented muzzle, so the floating severed snout is gone. At feed size it reads as a bear pushing into the tent.
+   - **Stalk:** the bear is flipped and lies low with its nose aimed at Doug's back, and the drift covers the hind-paw stump. It reads as "closer than he thinks".
+5. **Polish not done, not blocking (graphic designer, only if there is time before upload):**
+   - B: the binoculars float beside Doug's face and are not in his hand.
+   - B: the forearm is a flat tube, which gives it a slight "bear suit" read (screener item 18).
+   - A: the lone lower tooth (screener item 17).
+   None of these changes the click decision.
+6. **Test & Compare:** run A/B/C. Like the screener, I expect A to win and C to trail. If C wins, log it for the growth memo, because it would be our first grid win on a single-animal T9.

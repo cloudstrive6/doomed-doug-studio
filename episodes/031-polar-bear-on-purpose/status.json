@@ -29,7 +29,12 @@
       "stage": "shotlisted",
       "at": "2026-10-29T17:12:09+00:00",
       "note": "director: 234 shots (~11.2 min est.), Doug in 67%, counter 246->253 + BEAR readout 1 KM->0 (paw icon), 4 silent cut-to-black death beats + 3 more on narrated shots, boss montage 5 beats with no pauses; 35 assets requested in asset_requests.md; shorts.json 3 picks (Fur, Swim, Town) awaiting titles; thumbnail.json pending (s001 scene_ref)"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-10-29T18:13:44+00:00",
+      "note": "keyframes passed art-director and visual-screener round 2; thumbnails approved"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }
