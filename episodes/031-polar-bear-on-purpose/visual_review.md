@@ -126,3 +126,38 @@ All three Shorts pass on legibility and framing. The titles are readable, the 16
 After the edits, re-render the Shorts only (`shorts render`) and re-screen the last 8 s of each.
 
 VERDICT (shorts): FAIL
+
+## Post-render screening (round 2)
+
+Inputs: `build/final.mp4` is unchanged since round 1 (mtime 18:32). I re-checked `build/samples/f_001..f_023` (re-extracted 18:46), `build/qc.json`, all three thumbnails at feed size, and `metadata.json`. I also checked the re-rendered Shorts (18:42 to 18:45, built from the edited `shorts.json`): the previews, plus frames at -8, -6, -4, -2.5, -1 and -0.3 s from the end of each mp4, and a full-res crop of each end card.
+
+### Main video
+- `qc.json`: 694.6 s, `problems: []`.
+- All 23 samples are clean. There are no black, blank, frozen or glitched frames, and the chapter header, death counter (246 to 253) and bear tracker all advance in order.
+- Thumbnails A (DINNER TIME), B (BEHIND YOU) and C (the grid) all read at feed size, each with one focal point. Doug and the bear are obvious and the packaging is not misleading. A is still the strongest.
+- The round 1 polish notes (s211 label, bearded seal whiskers) are optional and don't block.
+
+VERDICT (main): PASS
+
+### Shorts
+The previews and body frames are fine. The titles are legible, the scene fills the width without side crop, the subtitles are legible, and the end-card arrow points down. The round 1 fixes landed:
+
+- **short03: PASS.**
+  - The outro no longer answers itself: "...something was waiting in the stairwell. Where Doug ended up is in the full video below."
+  - The card asks "WHERE DID DOUG END UP?". The Short doesn't answer it; the payoff is the s152 jail.
+  - The `polar_bear` silhouette is a clean, instantly recognisable four-legged bear with a red outline. It sits fully below the two-line question.
+- **short02: PASS.**
+  - The `polar_bear_swimming` silhouette is a solid red-outlined swimming bear. It is flat, but you can tell it's a bear in the water: head and ear at the right, legs trailing. It matches the "comes up at the floe edge" setup.
+  - "DID THE BEAR MISS DOUG TOO?" is specific, unanswered and fully legible.
+- **short01: FAIL.**
+  - The tease is right: "HOW CLOSE DID THAT NOSE GET?" with the outro "How close it got is in the full video below."
+  - The problem is the tall `polar_bear_standing` silhouette (head at about x 690-800, y 870-960 of 1080x1920). It rises into the second line of the question and blacks out "ET?", so the card reads "HOW CLOSE DID / THAT NOSE G_ _". This is the same collision round 1 caught on short03.
+  - The standing silhouette also reads ambiguously, as bear or gorilla, with the "???" on its legs.
+
+Fix (one line, director, `shorts.json` short01):
+1. Set `tease_asset: "polar_bear"`. It's the low four-legged profile that already clears the text cleanly on short03, and it suits "how close did that nose get". `polar_bear_swimming` is the second choice.
+2. Then run `shorts render` for short01 only. No other change is needed.
+
+Upload decision: **short02 and short03 are acceptable to upload as rendered.** **Do not upload short01 as rendered.** Its end-card question is visibly cut off, which looks broken on the last frame viewers see before the CTA. Hold it until the one-line fix above is rendered, or drop it from this episode's set.
+
+VERDICT (shorts): FAIL (short01 only; short02 PASS, short03 PASS)

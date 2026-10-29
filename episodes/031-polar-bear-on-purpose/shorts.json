@@ -9,10 +9,10 @@
       "hook_scene_from": "s042",
       "outro": "The nose on Doug's screen kept getting closer. How close it got is in the full video below.",
       "tease_from": "s052",
-      "tease_asset": "polar_bear_standing",
+      "tease_asset": "polar_bear",
       "end_card": "HOW CLOSE DID THAT NOSE GET?",
       "description": "A polar bear's coat is nearly as cold as the snow, so infrared sees little more than its face; find out how close that nose got to Doug in the full episode.",
-      "duration_s": 41.4
+      "duration_s": 39.3
     },
     {
       "id": "short02",
@@ -38,7 +38,7 @@
       "tease_asset": "polar_bear",
       "end_card": "WHERE DID DOUG END UP?",
       "description": "Churchill, Canada locks problem polar bears in a holding facility with air-conditioned cells and no food; find out where Doug ended up in the full episode.",
-      "duration_s": 43.7
+      "duration_s": 44.4
     }
   ]
 }

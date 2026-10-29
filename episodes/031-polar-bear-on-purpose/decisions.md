@@ -60,3 +60,6 @@ FINAL: APPROVED
 
 - 2026-10-29 showrunner final review: QC exit 0 on re-run (no problems), main PASS, shorts FAIL (end cards) -> shorts.json fixed (end cards, descriptions, short03 tease_from s152), .rerender=shorts requested. CD approved package.
 FINAL: APPROVED
+
+- 2026-10-29 showrunner final review, round 2: QC exit 0 (no problems), main PASS, shorts: short02/short03 PASS, short01 FAIL (standing-bear silhouette covers end-card question). No further re-render allowed this run; short01 `tease_asset` set to `polar_bear` in shorts.json, short01 must be re-rendered (`shorts render`) and re-screened before it is uploaded. Long video approved -> qc_passed.
+FINAL: APPROVED
