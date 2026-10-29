@@ -17679,8 +17679,8 @@
      {
       "type": "wordart",
       "text": "AQUATIC STALK",
-      "x": 1400,
-      "y": 360,
+      "x": 1150,
+      "y": 310,
       "size": 80,
       "boil": 0,
       "appear": 0.3
@@ -27618,9 +27618,9 @@
      {
       "type": "text",
       "text": "THE TOWN",
-      "x": 960,
-      "y": 380,
-      "size": 150,
+      "x": 880,
+      "y": 200,
+      "size": 136,
       "color": "#e0201b",
       "outline": "#000000",
       "outline_width": 8,
@@ -27790,8 +27790,8 @@
      {
       "type": "label",
       "text": "FEB 2019",
-      "x": 960,
-      "y": 330,
+      "x": 800,
+      "y": 165,
       "size": 48,
       "bold": true,
       "boil": 0.3,
@@ -27809,8 +27809,8 @@
      {
       "type": "wordart",
       "text": "STATE OF EMERGENCY",
-      "x": 960,
-      "y": 450,
+      "x": 800,
+      "y": 260,
       "size": 72,
       "boil": 0,
       "appear": 0.6
@@ -30127,8 +30127,8 @@
      {
       "type": "wordart",
       "text": "DEPEND ON PEOPLE",
-      "x": 520,
-      "y": 330,
+      "x": 560,
+      "y": 220,
       "size": 66,
       "boil": 0,
       "appear": 0.7
@@ -36585,6 +36585,15 @@
      },
      {
       "type": "asset",
+      "name": "polar_bear",
+      "x": 1680,
+      "y": 960,
+      "scale": 0.75,
+      "flip": true,
+      "appear": 0.35
+     },
+     {
+      "type": "asset",
       "name": "tent",
       "x": 1350,
       "y": 900,
@@ -36945,7 +36954,7 @@
      },
      {
       "type": "asset",
-      "name": "tent_dented",
+      "name": "tent",
       "x": 1350,
       "y": 900,
       "scale": 0.7
@@ -47594,7 +47603,7 @@
       "type": "text",
       "text": "NO",
       "x": 1121.0,
-      "y": 749.75,
+      "y": 840,
       "size": 92.0,
       "color": "#e0201b",
       "bold": true,
@@ -47856,8 +47865,8 @@
      {
       "type": "wordart",
       "text": "THE BAY FREEZES",
-      "x": 1630,
-      "y": 640,
+      "x": 960,
+      "y": 230,
       "size": 56,
       "boil": 0,
       "appear": 0.6
