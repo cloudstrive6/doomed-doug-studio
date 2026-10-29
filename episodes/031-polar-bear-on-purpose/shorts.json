@@ -1,0 +1,41 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s042",
+      "to": "s051",
+      "title": "",
+      "hook": "Point a thermal camera at a polar bear and it almost disappears.",
+      "hook_scene_from": "s042",
+      "outro": "Doug's camera worked perfectly. What was still glowing on that screen a second later is in the full video below.",
+      "tease_from": "s052",
+      "tease_asset": "thermal_bear_face",
+      "end_card": "WHAT WAS LEFT GLOWING ON THE SCREEN?",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s084",
+      "to": "s098",
+      "title": "",
+      "outro": "So Doug dressed as a seal and lay on a floe edge, right where the bear comes up. Full video below.",
+      "tease_from": "s101",
+      "tease_asset": "polar_bear_lunge",
+      "end_card": "DID THE BEAR MISS DOUG TOO?",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s139",
+      "to": "s149",
+      "title": "",
+      "hook": "Canada has a jail for polar bears. Nobody feeds the prisoners.",
+      "hook_scene_from": "s141",
+      "outro": "Doug took the rubbish out in that same town. There was a bear in the stairwell. Full video below.",
+      "tease_from": "s151",
+      "tease_asset": "polar_bear_standing",
+      "end_card": "WHO WAS WAITING IN THE STAIRWELL?",
+      "description": ""
+    }
+  ]
+}
