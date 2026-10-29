@@ -168,7 +168,7 @@ He uses four thumbnail archetypes. Share by era: 2023-24 is mostly archetype D, 
 \*Older captions have no punctuation, so sentence stats are invalid for those rows.
 
 **Targets for us:** 190-205 WPM (median 197). About 17 words per sentence, but mix 5-word punches with 25-word
-mechanism sentences. Flesch 60-70 (US grade 8-9). About 2,800-3,300 words for 15-17 minutes.
+mechanism sentences. Flesch 60-70 (US grade 8-9) is what PE measures; our writer band is 60-80 (rule 9, 2026-10-29). About 2,800-3,300 words for 15-17 minutes.
 
 ### 3.2 (a) The first 30-60 seconds
 
@@ -488,7 +488,10 @@ first sentence and starts on a strong item; the worst (ep 21: 52%) starts on the
    (for example "Midnight zone.") are allowed.
 8. Each item needs at least one concrete scale analogy using everyday objects.
 9. Average sentence length must be 14-19 words. At least one sentence of 6 words or fewer per item. No sentence over
-   35 words. Flesch Reading Ease must be 60-72.
+   35 words. Flesch Reading Ease must be 60-80 (textstat dictionary count). The sentence-length limits are the hard
+   gate; Flesch is a sanity check against padded or jargon-heavy prose and is never fixed by merging punch lines or
+   by swapping in longer words. (Widened from 60-72 by the creative director, 2026-10-29, after 030 at 75.4 and 031 at
+   76.8 both met the 14-19 average: at our ~1.34 syllables per word, 72 needs ~21-word sentences, which breaks the band.)
 10. Humor: at most one joke line per 60 seconds. Deadpan only. No gross-out, no gore, and no crude sexual or bathroom humor.
 11. Every factual claim needs a source URL in facts.md. Claims that can't be sourced must be cut, not hedged.
 12. The ending must be the final item's kicker, then an outro of 30 words or fewer (death counter plus one CTA).

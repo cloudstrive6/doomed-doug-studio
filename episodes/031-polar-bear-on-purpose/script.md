@@ -316,7 +316,7 @@ It smells you from far away, crossing the wind, and on a thermal camera, it's mo
 
 [Doug on open ice, cap on, facing away. Behind him, very close, the bear.]
 
-None of that was aimed at seals in particular, but at whatever stays still long enough. Most polar bears will never meet a person. The bear isn't evil. It's hungry, and it is very good at its job.
+Most polar bears will never meet a person. The bear isn't evil. It's hungry, and it is very good at its job.
 
 [Doug turns round. Speech bubble: "hi friend?" A red line crosses it out. A new bubble: "oh."]
 
@@ -332,4 +332,5 @@ The cap has been picked up and held for the season, and it will be released when
 
 Doug deaths: two hundred and fifty-three. The cap gets out in November. The next place Doug really shouldn't go is right there on screen.
 
+<!-- CD gate edit 2026-10-29: cut "None of that was aimed at seals in particular, but at whatever stays still long enough." from On Purpose (unsourced generalisation, awkward read); spoken total now about 2,055 words, about 10:32. On Purpose about 258 words. -->
 <!-- words: 2072 (spoken narration only: cold open, spoken band headers, item names and outro included; markdown headings, HTML comments and stage directions excluded; regex word count) · est. runtime 10:38 at 195 wpm (brief target 1,950-2,350) · draft 3 (2026-10-29) · 9 items · "The Nose." at spoken words 32-33 · twist marker "Here's the problem." at spoken word 144 · per item: Nose 226, Fur 239, Stalk 217, Swim 213, Charge 207, Town 235, Tent 213, Thin Bear 216, On Purpose 275 · 137 sentences, average 15.1 words (rule 9 band 14-19), longest 34 · Flesch about 75.6 (heuristic), still above 72: handed to the creative director per the 030 A2 precedent rather than cutting punch lines -->
