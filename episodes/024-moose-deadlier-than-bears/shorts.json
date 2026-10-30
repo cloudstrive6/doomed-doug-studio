@@ -93,7 +93,26 @@
       "publish_at": "2026-10-30T13:00:00Z",
       "related_video": "bACeD2HtavQ",
       "related_set": true,
-      "uploaded_at": "2026-10-21T22:01:52+00:00"
+      "uploaded_at": "2026-10-21T22:01:52+00:00",
+      "social": {
+        "instagram": {
+          "id": "18115422257584322",
+          "url": "https://www.instagram.com/reel/DfHpD4AB--3/"
+        },
+        "facebook": {
+          "id": "1299297712318301",
+          "url": "https://www.facebook.com/reel/1299297712318301"
+        },
+        "tiktok": {
+          "id": "v_pub_file~v2-1.7702445661266151444",
+          "url": "https://www.tiktok.com/@doomeddoug"
+        },
+        "instagram_story_tries": 1,
+        "instagram_story_error": "Meta API 500: b'{\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"AeAi-PoVqt6ksUUsip2n2yG\"}}'",
+        "facebook_story": {
+          "id": "2348553722215289"
+        }
+      }
     },
     {
       "id": "short04",
