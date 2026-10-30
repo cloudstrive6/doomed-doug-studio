@@ -4,7 +4,27 @@
       "stage": "idea",
       "at": "2026-10-30T16:06:17+00:00",
       "note": "created"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-10-30T16:24:00+00:00",
+      "note": "draft 1"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-10-30T16:34:26+00:00",
+      "note": "draft 2"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-10-30T16:38:41+00:00",
+      "note": "draft 3"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-30T16:41:13+00:00",
+      "note": "CD approved draft 3: screener PASS; opening/twist inside limits, all contested readings attributed with ?, juveniles bones-only; director notes in decisions.md"
     }
   ],
-  "stage": "idea"
+  "stage": "script_approved"
 }
