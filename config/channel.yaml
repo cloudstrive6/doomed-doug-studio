@@ -46,6 +46,9 @@ voice:                       # Google Cloud TTS, Chirp 3: HD
     - {phrase: "Belone", ipa: "bɛˈloʊni"}
     - {phrase: "Linguamyrmex", ipa: "ˈlɪŋɡwəˈmɜrmɛks"}
     - {phrase: "Rothera", ipa: "ˈrɒθərə"}
+    - {phrase: "brevirostris", ipa: "ˌbrɛvɪˈrɒstrɪs"}
+    - {phrase: "Blumenschine", ipa: "ˈbluːmənʃaɪn"}
+    - {phrase: "Njau", ipa: "ənˈdʒaʊ"}
   fallback_wpm: 197          # only used for dry runs without an API key
 
 video:

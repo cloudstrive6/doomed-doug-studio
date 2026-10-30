@@ -30047,14 +30047,6 @@
             "scale": 1.3
           },
           {
-            "type": "asset",
-            "name": "red_x",
-            "x": 1250,
-            "y": 640,
-            "scale": 0.8,
-            "appear": 0.5
-          },
-          {
             "type": "doug",
             "x": 420,
             "y": 804.0,
@@ -30301,6 +30293,21 @@
             "x": 1420,
             "y": 664.0,
             "scale": 0.5
+          },
+          {
+            "type": "asset",
+            "name": "stone_tool",
+            "x": 1750,
+            "y": 700,
+            "scale": 0.8
+          },
+          {
+            "type": "asset",
+            "name": "red_x",
+            "x": 1750,
+            "y": 700,
+            "scale": 0.5,
+            "appear": 0.4
           },
           {
             "type": "label",

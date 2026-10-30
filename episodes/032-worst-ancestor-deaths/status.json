@@ -39,7 +39,12 @@
       "stage": "art_approved",
       "at": "2026-10-30T18:01:17+00:00",
       "note": "art + keyframes approved"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-10-30T18:13:15+00:00",
+      "note": "narrated, paced"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
