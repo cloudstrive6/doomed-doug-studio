@@ -123,3 +123,49 @@ VERDICT: PASS (keyframes)
   It honestly previews the listicle title. As a grid it still has six equal focal points, which makes it the weakest of the three for click-through. Test it last, or not at all. Optional (graphic designer): at feed size the liver reads as a brown bean, so a slightly lighter red-brown with a visible lobe line would help.
 
 Routing (all optional, none blocking): director s116 X timing; graphic designer A hyena ears/muzzle and C liver.
+
+## Round 4 (post-render: final.mp4, thumbnails, Shorts, 2026-10-30)
+
+Scope: all 23 `build/samples/f_*.png`, extra frames from `final.mp4` at 629–655 s (the s199–s208 stretch, which includes the one black sample), `build/qc.json`, `build/thumbnail*.png` (with the `_small` versions), `metadata.json`, the three `build/shorts/*_preview.png`, and 8 frames per Short, 6 of them from the last ~12 s, plus the end cards at full resolution.
+
+VERDICT (main): PASS
+VERDICT (shorts): FAIL
+
+### Main video
+- The samples show no glitches, no frozen shots, no cropped text and no off-model Doug. All 8 chapter headers, the HUD counters (deaths 253 to 260, case file 0/8 to 8/8) and the green WordArt captions are legible and consistent. No gore. The skull and bone cards stay as diagrams.
+- f_022 is an all-black frame with only the HUD. It comes from s205 ("Doug has died. Again."), the planned death blackout of about 2.9 s, and s206's case-file card follows straight after. It is intended, not a render fault.
+- f_011 (Taung skull, "ABOUT 12 KG") is a front-facing fossil skull with eye sockets. It was cleared at the keyframe stage, it reads as a fossil and not as a child, and the frame is fine.
+- Minor, not blocking: in f_008 and f_013 the HUD sits a few px off its usual spot during camera moves. In f_010 (eagle nest) the tree canopy runs under the case-file folder icon.
+- Technical checks I ran myself:
+  - Duration: 689.2 s (11.5 min). The QC window is 8–18 min (`target_minutes` [10, 12]: ×0.8 low, ×1.5 high), so it passes.
+  - Video: 1920×1080, with video and audio streams.
+  - Narration: `real_voice: true`, 191.7 wpm (allowed 185–215).
+  - Loudness: integrated -14.3 LUFS.
+  - Captions: `captions.srt` has 243 cues ending at 11:18. Thumbnail is 1280×720 at 35 KB.
+- Thumbnails:
+  - **A (LEFTOVERS + hyena):** PASS. One focal point, with Doug and the threat obvious at 168 px.
+  - **B (ANKLE DEEP + crocodile):** PASS, still the strongest.
+  - **C (grid):** PASS, all labels legible at small size.
+  - All three are honest about the T5 title. The Round 3 optional notes (A hyena ears, C liver colour) still stand.
+
+### QC exit status "1"
+`build/qc.json` (written 18:28, after the Shorts render) has `problems: []`, and `cmd_qc` exits 0 when problems is empty. So the last QC run exited 0. Note that `produce.yml` passes `QC exit status: ${QC_OK}`, where **QC_OK=1 means QC passed** (`studio qc && QC_OK=1 || QC_OK=0`). The reported "1" is almost certainly this success flag, not a process exit code of 1. Everything QC checks passes on re-check:
+- duration
+- 1920×1080 at the configured fps
+- video and audio streams
+- real voice
+- wpm
+- static stretches (none listed)
+- thumbnail and captions present
+
+Loudness is not checked by QC. Nothing needs fixing here.
+
+### Shorts
+All three: the title is readable, subtitles are legible (4-word chunks), drawings fit inside the 9:16 crop, and the arrow on the end card points down. Durations are 48.4, 49.7 and 53.9 s. The "hyen" cut in `short03_preview.png` only happens in the preview still (the preview code truncates the caption to 40 characters). The video shows the full word.
+- **short01 (leopard fangs): PASS.** It pays off its title (the fangs fit the SK 54 holes). The outro (the prey disguise under the tree) is not answered in the clip. One weakness: the `leopard_lying` silhouette has its head hidden under "???", so it reads as a lumpy animal with a hanging tail, and only the question text says "leopard". Optional (director): `tease_asset: "leopard"` (standing pose) so the head and legs show either side of the "???".
+- **short02 (man-eating crocodile): FAIL.**
+  1. (director, `shorts.json` short02) The silhouette can't be recognised. `horned_crocodile` is long and flat, so in the 500×430 box it becomes a thin red sliver about 60 px tall, and the 150 px "???" covers about 70% of it. On the end card it reads as a smear, not a crocodile. Change it to `tease_asset: "horned_crocodile_open"`, or `croc_head_rising` / `croc_jaws_open`, any tall jaws-up pose that fills the box. If it has to be the horned crocodile, use `horned_crocodile_open` and keep `tease_from: "s157"`.
+  2. (director/titler, `shorts.json` short02) The cliffhanger answers itself. After 45 s about a man-eating crocodile in that lake, "WHAT WAS UNDER THE WATER?" has an obvious answer. Ask about the one thing the Short does not show, Doug's outcome. For example, change `end_card` to "DID DOUG GET HIS FOOT BACK?" or "HOW LONG DID DOUG LAST?". The outro can stay as it is.
+- **short03 (giant hyena den): PASS.** It pays off its title. The `pachycrocuta` silhouette is clearly a hyena (sloping back, mane, round ears), even with the "???". The question ("WHO CAME HOME TO THE DEN?") points at the mother, who is not shown in the clip, so it holds up as a cliffhanger. It is close to answering itself in the same way as short02; if the director reworks short02, "WHAT DID THE MOTHER DO?" would be sharper. Optional.
+
+Routing: director, short02 (`tease_asset` and `end_card` in `shorts.json`), which needs only `shorts render` for short02 and no long-video re-render. Optional: director short01 `tease_asset`, graphic designer A/C notes from Round 3. The main video and thumbnails are cleared for upload.
