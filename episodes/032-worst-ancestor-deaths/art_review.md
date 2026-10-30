@@ -239,3 +239,38 @@ A. **`sk54_skull_cap` (illustrator), policy:**
 
 **Final verdict: FAIL.** The only open item is fix A (the SK 54 asset plus fang re-alignment). Everything else on the keyframes
 passes.
+
+## Round 3 (2026-10-30)
+
+### Assets
+- **`sk54_skull_cap` (side profile): PASS.** This closes fix A by its alternative. The face points left, the missing face and jaw are a
+  light dashed outline, and the solid fossil covers only the back-top of the vault. The two holes sit on the upper back of the vault
+  at slightly different sizes. The break edge is irregular, with no tooth row. Face test: I covered the labels and checked full size,
+  contact size and the 1/8 feed thumbnail. It reads as a skull fragment and never as a face. It has the detailed tier (grain speckle,
+  shaded rim, crack lines) and is on-palette.
+- **`leopard_jaw`: PASS.** The upper jaw in front view has two long canines. It is bold, readable at 1/8 size, and its bone tones
+  match the skull. It is a front view over a profile skull, but it works as a diagrammatic "fangs line up with holes" read, so I
+  accept it.
+
+### Re-staged keyframes (s108, s109, s114-s118)
+- **s108:** the fangs hover above the holes. The red arrows end on the holes, and there is no stabbed-eye or face read. PASS.
+- **s109 / s118:** the fang tips sit in the holes, and "PERFECT FIT" / "THE FANGS FIT" are clear. The default WordArt on a white card
+  is allowed. PASS.
+- **s114 / s115:** the "33 MM" label has a small red dimension tick above the vault. On a profile this cannot read as a unibrow. The two
+  fingers on s115 are a clear scale cue. PASS.
+- **s116:** the profile skull lies on the ground next to the crossed-out stone tool. The face points away from the camera, so the
+  "critter peeking out" read is gone. The -22 tilt is no longer needed. PASS.
+- **s117:** the jaw, skull and Bob Brain (capless lab coat, clearly not Doug) are distinct. PASS.
+- **Variety:** the board layout repeats in pairs at most (s108-s109, s114-s115, s117-s118), broken up by the tree (s110),
+  chalkboard (s113) and ground scene (s116). Doug is on-model in every shot, the item colours are consistent, and the counter zone
+  and safe area are clear.
+
+### Thumbnail C, top-caption-bar labels: deviation APPROVED
+The labels sit in a white band at the top of each tile instead of under it, in UPPERCASE. This is still the archetype-A labelled
+tile grid and the chapter names are unchanged. At 168x94 every label is legible ("LUCY'S FALL" to "GIANT HYENA"), which fixes the
+Round 2 problem. The grid now fills the canvas with no blank band. The eagle is clear of its tile edge. Doug is in tile 1 and in
+the Giant Hyena payoff tile. No label repeats a title word. I added this as an approved variant to `channel/art_bible.md`
+(Recurring layouts). A stays the primary and B the A/B variant. C is now a usable alternate, and the creative director chooses
+whether to use it.
+
+**Final verdict: PASS.** No fixes are open.

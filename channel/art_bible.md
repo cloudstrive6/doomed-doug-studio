@@ -275,6 +275,10 @@ is the reference). Side-margin labels next to a map: centre at x about 1680, siz
 lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008 s251).
 
 ## Recurring layouts
+- **Tile-grid thumbnail, top-bar labels (approved 032 thumbnail C)**: a variant of style bible archetype A. Each label goes
+  in a white band across the top of its own rounded tile (bold, black, UPPERCASE, 1-3 words) instead of under the tile.
+  The tiles must fill the 1280x720 canvas with no blank band. Labels must read at 168x94. Put Doug (red cap) in at least one
+  tile, ideally the payoff tile. No label word may repeat a title word (style bible 7.7).
 - **Depth meter**: tall canvas + `pan_down`, zone bands, white `label` depth markers at left.
 - **Death counter**: `label` "DOUG DEATHS: N" top-right, appears on each death shot. Its zone (about
   x 1300-1860, y 110-230 at 1080p) is reserved: no sun, moon, creature, tree crown, arrow or other label may touch it. On death

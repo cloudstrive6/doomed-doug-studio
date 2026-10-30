@@ -89,3 +89,37 @@ VERDICT: FAIL (keyframes). One policy item is still open (SK 54 reads as a face)
   (d) Doug appears only as a tiny figure in tile 1. Consider putting him in the Giant Hyena tile, the payoff, so the variant still has "Doug + threat".
 
 Routing: illustrator 1 (asset); director 1 (s114–s116 overlays/staging), 2–4; graphic designer C (and optional A). Re-screen s108–s118 and s005/s024 after the fix. Everything else is cleared.
+
+## Round 3 (pre-render keyframes + thumbnails, 2026-10-30)
+
+Scope: the re-rendered `build/contact/sheet_01..18.png` and full-size keyframes for every shot changed since Round 2 (s005, s024, s108, s109, s114–s118, s124, s204), the sheets for every shot that uses a changed asset (`sk54_skull_cap`, `leopard_jaw`, `pachycrocuta`: s003, s183–s204), and all three thumbnails plus their `_small` versions.
+
+VERDICT: PASS (keyframes)
+
+### SK 54 skull (s108, s109, s114–s118): FIXED (policy item closed)
+- The skull is now a left-facing side profile. The face and jaw are a faint dashed outline, and the solid fossil piece covers only the back-top of the vault. The two holes sit small on the upper back (parietal). Nothing looks at the camera, so it no longer reads as a face, a critter or a hurt child, either full size or at contact-sheet size. The "young relative" is an abstract fossil diagram, with no child-face cues.
+- s108/s109/s117/s118: the leopard jaw sits above the skull with its fangs lined up on the holes, and in s109/s118 the fangs seat into them. The bite mechanism is clear in 1 second. There is no blood or wound, so it stays a diagram.
+- s114/s115: the 33 mm measure is a red dimension line with end ticks and dashed leaders, sitting above the skull outline. It no longer joins the holes and does not read as a brow or glasses. The two-finger comparison reads well.
+- s116: a small profile skull on the ground next to a crossed-out rock. It reads as "skull vs. weapon" and not as a face. Optional (director): the red X on the rock lands one line early, because the narration here is "The first guess was a weapon." Show the rock clean on s116 and bring the X in on s117. Not blocking.
+- Variety: the skull cards are s108–s109, s114–s115 and s117–s118, broken up by s110–s113 and s116. No run reaches 4.
+
+### Other Round 2 items
+- 2 s005: FIXED. "LUCY'S FALL" sits in clear sky, well away from the canopy.
+- 3 s024: FIXED. "WEIGHT OF ROCK" is to the right of the skeleton and no longer crosses any bones.
+- 4 s124: FIXED. "BROUGHT IN" is well clear of the canopy.
+
+### Regression check
+- s003, s183–s204 (pachycrocuta asset changed): the hyena is on-model and consistent across s186/s192–s195/s198, the silhouettes in s003/s185/s191 still read as hyena, and s204 (red-outlined mother) is unchanged and fine.
+- No new text overlaps, stray lines, cropping or off-model Doug on the sheets checked. HUD, death counter and case-file counters are consistent.
+
+### Thumbnails
+- **A, `thumbnail.png` (LEFTOVERS + hyena head): PASS.** Unchanged since Round 2. At 168 px the word, Doug and a big toothy predator on the red disc all read. The optional Round 2 note still stands for the graphic designer: tall pointed ears and a thin snout lean "rat" at feed size, so shorter round ears and a blunter muzzle would help. Not blocking.
+- **B, `thumbnail_b.png` (ANKLE DEEP + crocodile): PASS.** Unchanged. Still the strongest variant: one focal point (open jaws next to Doug) and a two-word hook that pays off in s154.
+- **C, `thumbnail_c.png` (2×3 grid, top caption bars): PASS.** All four Round 2 fixes are done:
+  (a) the grid now fills the canvas with no blank band;
+  (b) the labels are bold uppercase in caption bars above the art, and all six (LUCY'S FALL, EAGLE, LEOPARD, CROCODILE, BAD LIVER, GIANT HYENA) are legible in `thumbnail_c_small.png`;
+  (c) the eagle sits fully inside its tile;
+  (d) Doug now appears in the Giant Hyena tile with the red-disc threat, plus in the Lucy tile.
+  It honestly previews the listicle title. As a grid it still has six equal focal points, which makes it the weakest of the three for click-through. Test it last, or not at all. Optional (graphic designer): at feed size the liver reads as a brown bean, so a slightly lighter red-brown with a visible lobe line would help.
+
+Routing (all optional, none blocking): director s116 X timing; graphic designer A hyena ears/muzzle and C liver.
