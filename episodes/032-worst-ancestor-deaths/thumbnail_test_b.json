@@ -1,0 +1,76 @@
+{
+ "_note": "Variant B (Doug in peril): lemon savanna sky, blue river; Doug (red cap, shock, panic2) stands ankle-deep at the water's edge facing a huge open-jawed croc_jaws_open rising on the left, teeth inches from him (no contact, no blood). Text ANKLE DEEP (Arimo bold, white, black outline): the contradiction gag, no title word. No hominin or juvenile.",
+ "background": "#ffd23f",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "asset",
+   "name": "savanna_bush",
+   "x": 1180,
+   "y": 590,
+   "scale": 0.8,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 585,
+   "w": 1300,
+   "h": 20,
+   "fill": "#b8862f",
+   "width": 0,
+   "color": "#b8862f",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 900,
+   "y": 520,
+   "scale": 0.75,
+   "pose": "panic2",
+   "expression": "shock",
+   "facing": "left",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "croc_jaws_open",
+   "x": 400,
+   "y": 640,
+   "scale": 1.25,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 600,
+   "w": 1300,
+   "h": 130,
+   "fill": "#2a8fbf",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "ANKLE DEEP",
+   "x": 935,
+   "y": 95,
+   "size": 92,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

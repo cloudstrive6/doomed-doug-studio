@@ -1,0 +1,193 @@
+{
+ "_note": "Variant C (list-format control): 6 big tiles, 3x2 on white, labels via tile label (Comic Neue): Lucy's Fall (tree + falling Doug, red cap), Eagle, Leopard, Crocodile (horned), Bad Liver, Giant Hyena (red glow). Each tile shows the killer/hazard only; no victim, no juvenile, no bones. Labels drop 'The' from the chapter names so no label repeats a title word. 2 fonts total.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 30,
+   "y": 12,
+   "w": 392,
+   "h": 246,
+   "fill": "#8fd3ff",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Lucy's Fall",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "tall_savanna_tree",
+     "x": 105,
+     "y": 268,
+     "scale": 0.28,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 300,
+     "y": 165,
+     "scale": 0.42,
+     "pose": "fall",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 444,
+   "y": 12,
+   "w": 392,
+   "h": 246,
+   "fill": "#ff5a3c",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Eagle",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "crowned_eagle",
+     "x": 640,
+     "y": 250,
+     "scale": 0.56,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 858,
+   "y": 12,
+   "w": 392,
+   "h": 246,
+   "fill": "#8ac926",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Leopard",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "leopard",
+     "x": 1050,
+     "y": 240,
+     "scale": 0.56,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 30,
+   "y": 332,
+   "w": 392,
+   "h": 246,
+   "fill": "#2ec4f1",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Crocodile",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "horned_crocodile",
+     "x": 165,
+     "y": 540,
+     "scale": 0.5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 20,
+     "y": 515,
+     "w": 412,
+     "h": 80,
+     "fill": "#1f7fb0",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 444,
+   "y": 332,
+   "w": 392,
+   "h": 246,
+   "fill": "#ffd23f",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Bad Liver",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "liver_plate",
+     "x": 640,
+     "y": 470,
+     "scale": 1.2,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 858,
+   "y": 332,
+   "w": 392,
+   "h": 246,
+   "fill": "#2b2f36",
+   "radius": 20,
+   "frame_width": 7,
+   "label": "Giant Hyena",
+   "label_size": 62,
+   "elements": [
+    {
+     "type": "circle",
+     "x": 1060,
+     "y": 470,
+     "r": 125,
+     "fill": "#c81d25",
+     "color": "#c81d25",
+     "width": 2,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "pachycrocuta",
+     "x": 1030,
+     "y": 560,
+     "scale": 0.47,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

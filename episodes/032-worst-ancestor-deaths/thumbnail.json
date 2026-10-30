@@ -1,0 +1,64 @@
+{
+ "_note": "Variant A (hero close-up; video opening image s001 via scene_ref): night field #1b1f2a with a flat red glow disc; the boss pachycrocuta (giant hyena, flipped, scale 3.2) fills the right ~60% as a head close-up, brow down, canines showing (no blood, no contact). Tiny red-capped Doug (panic, shock) on the left facing it. Text LEFTOVERS (Arimo bold, white, black outline): adds the 'stored as food' payoff, no title/alt/description-label word. No victim, no hominin, no juvenile, no skull: the brief's SK 54 'PERFECT FIT' hero was dropped because the skull cap is a juvenile's remains.",
+ "background": "#1b1f2a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "spray",
+   "x": 930,
+   "y": 380,
+   "r": 470,
+   "color": "#e0201b",
+   "density": 0.08
+  },
+  {
+   "type": "circle",
+   "x": 930,
+   "y": 380,
+   "r": 400,
+   "fill": "#c81d25",
+   "color": "#c81d25",
+   "width": 2,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "pachycrocuta",
+   "x": 1880,
+   "y": 1110,
+   "scale": 3.2,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 250,
+   "y": 545,
+   "scale": 0.6,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "LEFTOVERS",
+   "x": 345,
+   "y": 110,
+   "size": 100,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
