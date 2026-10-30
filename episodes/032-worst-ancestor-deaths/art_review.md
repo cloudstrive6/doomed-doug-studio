@@ -109,3 +109,64 @@ assets only; keyframes get their own review after the full `keyframes` run.
 | 44 | `four_story_building` | APPROVED | |
 | 45 | `ten_story_building` | APPROVED | |
 | 46 | `shipping_crate` | APPROVED | |
+
+---
+
+# 032-worst-ancestor-deaths: art review, keyframes (art director, 2026-10-30)
+
+**Verdict: PASS (after my fixes).** I reviewed all 214 keyframes (s001-s213 and the endslate) on the 18 contact sheets, and opened
+individual frames where I needed a closer look. I found 13 shotlist issues, all small: 10 text collisions, one arrow that missed
+its target, one cap-continuity slip, and one evidence-panel run that was too long. I fixed all of them in `shotlist.json` (position, size and gear only; no narration or
+timing changes), validated the shotlist (OK), and re-ran the full `keyframes` pass, so the contact sheets are current. Nothing
+goes to the illustrator or the director.
+
+## House check
+- **Style:** consistent across all 8 items. Doug is crude, and creatures and fossils are the detailed tier. Each item has its own
+  zone colour, and the colour holds across the item: savanna blue/sand, sinkhole green/soil, cave grey-blue/brown, eagle sage/forest,
+  leopard sunset orange, crocodile tan/green water, liver beige, hyena night/cave. Every death beat is black or near-black.
+- **Doug:** on-model in every frame: round head, shading crescent, oval eyes, red cap. The cap-off frames are approved story beats:
+  s101-s105 (the eagle takes the cap) and the deaths, where the cap lies on its own. The hard hat sits over the cap (s075-s078),
+  and the costume and bib leave his face and cap clear.
+- **HUD:** the topbar, `DOUG DEATHS` (253 to 260, one step per death) and `CASE FILE` (0/8 to 8/8) are in the same place in every
+  frame and inside the safe area. Title cards are red WordArt and keyword labels are green WordArt. There are at most 2 labels per
+  frame. The case-file ledger grows one line at a time, and its newest line is red.
+- **Reveals:** silhouette plus red glow before the reveal: s003/s185 (giant hyena), s079 (eagle), s106 (leopard), s133 (croc),
+  s191, s204. Full reveals follow 1-3 beats later.
+- **Arrows:** checked against their targets: s007, s010-s011, s028, s031-s033, s035, s039, s055, s063-s068, s082, s089, s092,
+  s108, s120, s124, s129, s137, s144, s154, s170, s195, s200. All land on their targets except s043 (fixed).
+- **Variety:** layouts rotate between the white evidence panel, wide scenes, cutaways, maps, the time machine, the case file,
+  black death frames and big-word cards. One run broke the rule: s112-s119 was 8 evidence panels in a row (fix 13). After the
+  fix, the longest panel runs are 4 (s010-s013, s063-s066, s112-s115, s141-s144), and the contents change inside each one.
+- **Gore:** none. Damage is shown only as red cracks or dark holes on bone. Deaths are a cap left on water, a plate, rocks or the
+  cave floor, a black frame, or the crossed-out counter.
+
+## Fixes applied (by me, in `shotlist.json`)
+1. **s006:** `BROKEN BONES` ran over the panel's right edge. Size 70 → 60, x 1300 → 1310, y 820 → 810. It now sits inside the
+   panel, clear of the legs.
+2. **s008:** `ABOUT 3.2 MILLION YEARS AGO` overlapped the tree's top branch. x 1330 → 1420.
+3. **s043:** the arrow ran under the `STILL TOGETHER` label and stopped short of the bones. Label moved to (1470, 790). The arrow
+   now runs (1240, 800) → (1450, 962) with bend 30 and lands on the bones.
+4. **s046:** `2 MILLION YEARS` sat across the sinkhole shaft. x 600 → 1350, into the empty soil.
+5. **s069:** `HELP FROM OTHERS` covered the skeleton's legs. Skeleton x 960 → 720, `ERIK TRINKAUS` x → 1300, heart → (1250, 540),
+   WordArt → (1210, 760) at size 52.
+6. **s085:** `FIRST IN AFRICA` covered the bottom of the map and the panel edge. Moved under the Taung skull, at (760, 820) and
+   size 56.
+7. **s086:** `20 YEARS` straddled the calendar edges. Moved below the calendar stack, at (1030, 830).
+8. **s107:** the `THE LEOPARD` title covered the leopard on its branch. Moved to (1420, 620), clear of both the tree and the
+   safe-area edge.
+9. **s110:** `ABOUT 1.8 MILLION YEARS AGO` and `SK 54` sat on the tree canopy. Moved right, to x 1490 at y 360 and 450, and the
+   date label shrank to size 40 to stay inside the safe area.
+10. **s120:** `UP A TREE` touched the canopy. x 520 → 395.
+11. **s124:** `BROUGHT IN` overlapped the canopy. x 520 → 400.
+12. **s104-s105, cap continuity:** the eagle took the cap in s101, but Doug wore it again in s104-s105. Both frames now use gear
+    `cap_off`. In s105 the stolen cap (`doug_cap`, scale 0.4) sits at the eagle's feet on its branch. The cap stays in frame, and
+    "wanted something smaller" now reads.
+13. **s116, layout variety:** 8 evidence panels ran in a row (s112-s119). I took the white panel out of s116 ("The first guess
+    was a weapon."), so it is now a wide sunset scene: Doug (think, confused) beside the `sk54_skull_cap` at 0.55 resting on the
+    ground, and `stone_tool` at 1.3 crossed out with `red_x`. The skull is small and grounded, so it does not bring back the
+    face-read.
+
+## Notes, no change needed
+- s139: the croc stacked over the family car reads as a length comparison, and the croc is clearly longer.
+- s205: the full black "Doug has died. Again." frame is intentional and matches the other death beats.
+- s179: the black leopard silhouette is a "memory" of the s130 death. It is acceptable on a light background.

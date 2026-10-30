@@ -41,6 +41,7 @@ Reused from the library (no request): `africa_map`, `bathroom_scale`, `beehive`,
 - Notes: Used at 0.55-1.1, often as a black silhouette with a red glow on night backgrounds (`#2b2f36`): give it a mid-tone fill so it reads at night, and a clean silhouette.
 - Shots: s003, s183, s185, s186, s191, s192, s193, s194, s195, s204 (10 shots)
 - **Done** (illustrator, 2026-10-30): `assets/library/pachycrocuta.json`, preview `assets/previews/032-worst-ancestor-deaths-assets-a.png`.
+- **Fixed** (illustrator, 2026-10-30): Hyena cues added after visual review round 1 (item 22 / thumbnail reads as bear): bristly dark mane ridge, darker spots incl. head/neck/legs, tall upright rounded ears, longer paler muzzle with black nose tip. Shoulder and jaw points unchanged; ears now reach y -356, nose x +421. Preview `assets/previews/032-worst-ancestor-deaths-assets-fixes.png` (dark: `-fixes-dark.png`).
 
 ## `crowned_eagle`
 **Creature (The Eagle).**
@@ -86,6 +87,7 @@ Reused from the library (no request): `africa_map`, `bathroom_scale`, `beehive`,
 - Notes: Used at 1.0 on a white card. Sensitivity: young individual, bone only.
 - Shots: s108, s109, s112, s113, s114, s115, s116, s117, s118 (9 shots)
 - **Done** (illustrator, 2026-10-30): `assets/library/sk54_skull_cap.json`, preview `assets/previews/032-worst-ancestor-deaths-assets-a.png`.
+- **Fixed** (illustrator, 2026-10-30): Redrawn after visual review round 1 (item 2): asymmetric broken fossil fragment with sagittal/lambdoid sutures, puncture holes drawn as holes (crushed rims, shadowed walls) not dots, small side-view skull key + 'BACK VIEW' caption along the bottom. Holes unchanged at (-55,+40)/(+55,+40). Preview `assets/previews/032-worst-ancestor-deaths-assets-fixes.png` (dark: `-fixes-dark.png`).
 
 ## `leopard_jaw`
 **Fossil (SK 349 leopard lower jaw).**
@@ -149,6 +151,7 @@ Reused from the library (no request): `africa_map`, `bathroom_scale`, `beehive`,
 - Notes: Used at 1.2 on a white card.
 - Shots: s141, s142, s143, s144, s148, s149 (6 shots)
 - **Done** (illustrator): `assets/library/foot_skeleton.json`, preview `assets/previews/032-worst-ancestor-deaths-assets-b1.png`
+- **Fixed** (illustrator, 2026-10-30): Redrawn after visual review round 1 (item 13): side-on heel, talus, tarsal blocks and sloping metatarsals inside a faint dashed foot outline (missing toes dashed), bite pits scattered. Arrow targets unchanged. Preview `assets/previews/032-worst-ancestor-deaths-assets-fixes.png` (dark: `-fixes-dark.png`).
 
 ## `small_table`
 **Prop (Doug's dinner table).**
@@ -202,6 +205,7 @@ Reused from the library (no request): `africa_map`, `bathroom_scale`, `beehive`,
 - Notes: Used at 0.75, 0.45 and 0.25 as it flies away. Only cap in the frame (Doug is `cap_off`).
 - Shots: s101, s102, s103 (3 shots)
 - **Done** (illustrator): `assets/library/crowned_eagle_flying_cap.json`, preview `assets/previews/032-worst-ancestor-deaths-assets-b2.png`
+- **Fixed** (illustrator, 2026-10-30): Recoloured after visual review round 1 (item 16): slate-grey wings with barred grey flight feathers and a banded fanned tail (the old grey block tail is gone), bigger double crest. Cap position unchanged. Preview `assets/previews/032-worst-ancestor-deaths-assets-fixes.png` (dark: `-fixes-dark.png`).
 
 ## `hyena_cub`
 **Creature ("hi friend?").**
@@ -211,6 +215,7 @@ Reused from the library (no request): `africa_map`, `bathroom_scale`, `beehive`,
 - Notes: Flipped to face Doug; on night ground, so keep the outline readable on `#3a2e28`.
 - Shots: s199, s200, s202, s203, s204 (5 shots)
 - **Done** (illustrator): `assets/library/hyena_cub.json`, preview `assets/previews/032-worst-ancestor-deaths-assets-b2.png`
+- **Fixed** (illustrator, 2026-10-30): Redrawn after visual review round 1 (item 3): dark spotted hyena pup standing, sloped back, round ears, dark muzzle, tail tuft. Height now 168 (y -166..0), same anchor. Preview `assets/previews/032-worst-ancestor-deaths-assets-fixes.png` (dark: `-fixes-dark.png`).
 
 ## `pachycrocuta_sleeping`
 **Creature (den cross-section).**
@@ -309,6 +314,7 @@ Reused from the library (no request): `africa_map`, `bathroom_scale`, `beehive`,
 - Notes: On a shelf on a sober dark card `#1a1d22`.
 - Shots: s207, s209 (2 shots)
 - **Done** (illustrator, 2026-10-30): `assets/library/plaster_skull_cast.json`, preview `assets/previews/032-worst-ancestor-deaths-assets-c.png` (fitted sheet `032-worst-ancestor-deaths-assets-c-fit.png`).
+- **Fixed** (illustrator, 2026-10-30): Redrawn after visual review round 1 (item 14): skullcap in profile (low vault, brow ridge, sutures) with a faint dashed ghost of the missing face/jaw, no sockets; on post + plinth. Now x -114..136, plinth narrower (x -104..100). Preview `assets/previews/032-worst-ancestor-deaths-assets-fixes.png` (dark: `-fixes-dark.png`).
 
 ## `coat_hook`
 **Prop (closing image).**
@@ -414,3 +420,10 @@ Reused from the library (no request): `africa_map`, `bathroom_scale`, `beehive`,
 - Notes: Sober card, no jokes.
 - Shots: s208 (1 shot)
 - **Done** (illustrator, 2026-10-30): `assets/library/shipping_crate.json`, preview `assets/previews/032-worst-ancestor-deaths-assets-c.png` (fitted sheet `032-worst-ancestor-deaths-assets-c-fit.png`).
+
+## `horned_crocodile_open`
+**Creature (thumbnail variant of `horned_crocodile`, jaws open).**
+
+- Look: Same horned crocodile body with the head tilted up from the jaw hinge and the lower jaw dropped: pale cream mouth lining, white teeth on both jaws, no blood.
+- Facing / anchor / size: Bottom-centre anchor (feet on y=0), x -505..505, y -245..0. Jaw hinge (268,-74); horns now at about (+251,-174); upper snout tip (+478,-174); lower jaw tip (+492,0).
+- **Done** (illustrator, 2026-10-30): `assets/library/horned_crocodile_open.json`, preview `assets/previews/032-worst-ancestor-deaths-assets-fixes.png`.
