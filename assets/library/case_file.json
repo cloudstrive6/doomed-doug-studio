@@ -1,0 +1,162 @@
+{
+ "name": "case_file",
+ "description": "Closed manila CASE FILE folder icon, front view: buff-yellow cover, darker tab top-left, white paper corner peeking top-right, bold black outline, no text (reads at 66 px). Centre anchor, 300x220 (x -150..150, y -110..110).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "folder",
+  "case file",
+  "icon",
+  "meter",
+  "032"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -84
+    ],
+    [
+     -142,
+     -110
+    ],
+    [
+     -40,
+     -110
+    ],
+    [
+     -26,
+     -84
+    ]
+   ],
+   "width": 7,
+   "color": "#000000",
+   "fill": "#c9a24a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -84
+    ],
+    [
+     150,
+     -84
+    ],
+    [
+     150,
+     110
+    ],
+    [
+     -150,
+     110
+    ]
+   ],
+   "width": 7,
+   "color": "#000000",
+   "fill": "#c9a24a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     -104
+    ],
+    [
+     128,
+     -112
+    ],
+    [
+     136,
+     -40
+    ],
+    [
+     16,
+     -40
+    ]
+   ],
+   "width": 6,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     34,
+     -86
+    ],
+    [
+     112,
+     -91
+    ]
+   ],
+   "width": 5,
+   "color": "#9fb3c8"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -58
+    ],
+    [
+     150,
+     -66
+    ],
+    [
+     150,
+     110
+    ],
+    [
+     -150,
+     110
+    ]
+   ],
+   "width": 8,
+   "color": "#000000",
+   "fill": "#e8c87a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -146,
+     78
+    ],
+    [
+     146,
+     74
+    ],
+    [
+     146,
+     106
+    ],
+    [
+     -146,
+     106
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#d6b261",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 110,
+   "y": 80,
+   "r": 40,
+   "color": "#c9a24a",
+   "density": 0.12
+  }
+ ]
+}

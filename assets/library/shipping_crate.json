@@ -1,0 +1,504 @@
+{
+ "name": "shipping_crate",
+ "description": "Plain closed wooden shipping crate, nailed shut: horizontal planks, corner posts, top and bottom rails, diagonal brace, nail heads, a little straw poking out of the top seam. No text, no stencils, nothing peeking out. Bottom-centre anchor, 400x260 (x -200..200, y -260..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "crate",
+  "shipping",
+  "wartime",
+  "museum",
+  "032"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -230
+    ],
+    [
+     -170,
+     -260
+    ],
+    [
+     196,
+     -260
+    ],
+    [
+     200,
+     -230
+    ]
+   ],
+   "fill": "#9a6834",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -180,
+     -246
+    ],
+    [
+     196,
+     -246
+    ]
+   ],
+   "width": 2,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "rect",
+   "x": -200,
+   "y": -230,
+   "w": 400,
+   "h": 230,
+   "fill": "#b07a3e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -200,
+     -184
+    ],
+    [
+     200,
+     -184
+    ]
+   ],
+   "width": 3,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -200,
+     -138
+    ],
+    [
+     200,
+     -138
+    ]
+   ],
+   "width": 3,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -200,
+     -92
+    ],
+    [
+     200,
+     -92
+    ]
+   ],
+   "width": 3,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -200,
+     -46
+    ],
+    [
+     200,
+     -46
+    ]
+   ],
+   "width": 3,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "spray",
+   "x": -120,
+   "y": -60,
+   "r": 50,
+   "color": "#8a5a2a",
+   "density": 0.12
+  },
+  {
+   "type": "spray",
+   "x": 110,
+   "y": -170,
+   "r": 50,
+   "color": "#e0b47a",
+   "density": 0.15
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -78,
+     -208
+    ],
+    [
+     -60,
+     -204
+    ],
+    [
+     -42,
+     -208
+    ]
+   ],
+   "width": 2,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     22,
+     -160
+    ],
+    [
+     40,
+     -156
+    ],
+    [
+     58,
+     -160
+    ]
+   ],
+   "width": 2,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -138,
+     -116
+    ],
+    [
+     -120,
+     -112
+    ],
+    [
+     -102,
+     -116
+    ]
+   ],
+   "width": 2,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     72,
+     -70
+    ],
+    [
+     90,
+     -66
+    ],
+    [
+     108,
+     -70
+    ]
+   ],
+   "width": 2,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -38,
+     -24
+    ],
+    [
+     -20,
+     -20
+    ],
+    [
+     -2,
+     -24
+    ]
+   ],
+   "width": 2,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     112,
+     -206
+    ],
+    [
+     130,
+     -202
+    ],
+    [
+     148,
+     -206
+    ]
+   ],
+   "width": 2,
+   "color": "#8a5a2a"
+  },
+  {
+   "type": "rect",
+   "x": -200,
+   "y": -230,
+   "w": 34,
+   "h": 230,
+   "fill": "#cf9a5c",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 166,
+   "y": -230,
+   "w": 34,
+   "h": 230,
+   "fill": "#cf9a5c",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -166,
+   "y": -230,
+   "w": 332,
+   "h": 26,
+   "fill": "#cf9a5c",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -166,
+   "y": -26,
+   "w": 332,
+   "h": 26,
+   "fill": "#cf9a5c",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -166,
+     -42
+    ],
+    [
+     -140,
+     -26
+    ],
+    [
+     166,
+     -190
+    ],
+    [
+     140,
+     -204
+    ]
+   ],
+   "fill": "#cf9a5c",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -183,
+   "y": -216,
+   "r": 3.5,
+   "fill": "#3a3a3a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -183,
+   "y": -14,
+   "r": 3.5,
+   "fill": "#3a3a3a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 183,
+   "y": -216,
+   "r": 3.5,
+   "fill": "#3a3a3a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 183,
+   "y": -14,
+   "r": 3.5,
+   "fill": "#3a3a3a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -150,
+   "y": -217,
+   "r": 3.5,
+   "fill": "#3a3a3a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 150,
+   "y": -217,
+   "r": 3.5,
+   "fill": "#3a3a3a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -150,
+   "y": -13,
+   "r": 3.5,
+   "fill": "#3a3a3a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 150,
+   "y": -13,
+   "r": 3.5,
+   "fill": "#3a3a3a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -183,
+   "y": -116,
+   "r": 3.5,
+   "fill": "#3a3a3a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 183,
+   "y": -116,
+   "r": 3.5,
+   "fill": "#3a3a3a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -140,
+   "y": -40,
+   "r": 3.5,
+   "fill": "#3a3a3a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 140,
+   "y": -190,
+   "r": 3.5,
+   "fill": "#3a3a3a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     120,
+     -232
+    ],
+    [
+     132.0,
+     -250
+    ]
+   ],
+   "width": 2,
+   "color": "#e8c84a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     128,
+     -232
+    ],
+    [
+     129.2,
+     -250
+    ]
+   ],
+   "width": 2,
+   "color": "#e8c84a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     136,
+     -232
+    ],
+    [
+     150.4,
+     -250
+    ]
+   ],
+   "width": 2,
+   "color": "#e8c84a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     144,
+     -232
+    ],
+    [
+     147.6,
+     -250
+    ]
+   ],
+   "width": 2,
+   "color": "#e8c84a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     110,
+     -232
+    ],
+    [
+     118.4,
+     -250
+    ]
+   ],
+   "width": 2,
+   "color": "#e8c84a"
+  }
+ ]
+}

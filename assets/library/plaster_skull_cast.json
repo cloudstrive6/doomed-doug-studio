@@ -1,0 +1,434 @@
+{
+ "name": "plaster_skull_cast",
+ "description": "White plaster cast (Peking Man) of a long, low, heavy-browed Homo erectus skull cap, side view facing right, no face or jaw, on a small square wooden plinth with a tiny blank paper label. Chalky white #f2efe6 with grey shading. Bottom-centre anchor (plinth on y=0), 300x200 (x -150..150, y -200..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "fossil",
+  "cast",
+  "skull",
+  "peking man",
+  "homo erectus",
+  "museum",
+  "032"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -112,
+     -52
+    ],
+    [
+     -96,
+     -64
+    ],
+    [
+     112,
+     -64
+    ],
+    [
+     112,
+     -52
+    ]
+   ],
+   "fill": "#b07a4a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -112,
+   "y": -52,
+   "w": 224,
+   "h": 52,
+   "fill": "#8a5a34",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     112,
+     -64
+    ],
+    [
+     128,
+     -52
+    ],
+    [
+     128,
+     0
+    ],
+    [
+     112,
+     0
+    ]
+   ],
+   "fill": "#6a4426",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -104,
+     -26
+    ],
+    [
+     104,
+     -24
+    ]
+   ],
+   "width": 2,
+   "color": "#6a4426"
+  },
+  {
+   "type": "rect",
+   "x": -30,
+   "y": -40,
+   "w": 60,
+   "h": 22,
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -8,
+   "y": -88,
+   "w": 16,
+   "h": 26,
+   "fill": "#4a4a4a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -132,
+     -96
+    ],
+    [
+     -140,
+     -118
+    ],
+    [
+     -128,
+     -142
+    ],
+    [
+     -90,
+     -166
+    ],
+    [
+     -30,
+     -178
+    ],
+    [
+     30,
+     -176
+    ],
+    [
+     78,
+     -166
+    ],
+    [
+     108,
+     -148
+    ],
+    [
+     126,
+     -132
+    ],
+    [
+     146,
+     -122
+    ],
+    [
+     150,
+     -108
+    ],
+    [
+     136,
+     -100
+    ],
+    [
+     110,
+     -104
+    ],
+    [
+     86,
+     -96
+    ],
+    [
+     50,
+     -88
+    ],
+    [
+     0,
+     -86
+    ],
+    [
+     -50,
+     -88
+    ],
+    [
+     -100,
+     -90
+    ]
+   ],
+   "fill": "#f2efe6",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": -145,
+   "r": 28,
+   "color": "#ffffff",
+   "density": 0.2
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": -106,
+   "r": 18,
+   "color": "#c9c5bb",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": -60,
+   "y": -104,
+   "r": 15,
+   "color": "#c9c5bb",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": -116,
+   "y": -116,
+   "r": 18,
+   "color": "#c9c5bb",
+   "density": 0.2
+  },
+  {
+   "type": "spray",
+   "x": 120,
+   "y": -116,
+   "r": 12,
+   "color": "#b5b1a6",
+   "density": 0.25
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     100,
+     -128
+    ],
+    [
+     126,
+     -124
+    ],
+    [
+     146,
+     -116
+    ]
+   ],
+   "width": 3,
+   "color": "#a8a49a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -138,
+     -122
+    ],
+    [
+     -120,
+     -114
+    ],
+    [
+     -100,
+     -110
+    ]
+   ],
+   "width": 3,
+   "color": "#a8a49a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -150
+    ],
+    [
+     -20,
+     -136
+    ],
+    [
+     30,
+     -140
+    ],
+    [
+     60,
+     -128
+    ]
+   ],
+   "width": 2,
+   "color": "#bdb9ae"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     96,
+     -98
+    ],
+    [
+     118,
+     -104
+    ],
+    [
+     138,
+     -101
+    ],
+    [
+     124,
+     -92
+    ],
+    [
+     104,
+     -90
+    ]
+   ],
+   "fill": "#5a5850",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": -78,
+   "y": -98,
+   "rx": 9,
+   "ry": 7,
+   "fill": "#5a5850",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -80,
+     -168
+    ],
+    [
+     -60,
+     -152
+    ],
+    [
+     -40,
+     -172
+    ]
+   ],
+   "width": 2,
+   "color": "#bdb9ae"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -132,
+     -96
+    ],
+    [
+     -140,
+     -118
+    ],
+    [
+     -128,
+     -142
+    ],
+    [
+     -90,
+     -166
+    ],
+    [
+     -30,
+     -178
+    ],
+    [
+     30,
+     -176
+    ],
+    [
+     78,
+     -166
+    ],
+    [
+     108,
+     -148
+    ],
+    [
+     126,
+     -132
+    ],
+    [
+     146,
+     -122
+    ],
+    [
+     150,
+     -108
+    ],
+    [
+     136,
+     -100
+    ],
+    [
+     110,
+     -104
+    ],
+    [
+     86,
+     -96
+    ],
+    [
+     50,
+     -88
+    ],
+    [
+     0,
+     -86
+    ],
+    [
+     -50,
+     -88
+    ],
+    [
+     -100,
+     -90
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}

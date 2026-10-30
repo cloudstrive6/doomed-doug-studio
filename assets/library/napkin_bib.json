@@ -1,0 +1,159 @@
+{
+ "name": "napkin_bib",
+ "description": "White napkin tucked in at Doug's neck, hanging over his chest as a triangle with two small corner points sticking up at the collar; thin grey outline, faint fold. Worn prop: anchor = Doug's x/y (hips) in the `sit` / `sit_thumbs_up` pose at the same scale, drawn after Doug. Top edge sits just under the chin (y -69), tip at y -8; corners at (+/-64,-94) stay clear of the face.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "worn",
+  "doug",
+  "napkin",
+  "dinner",
+  "032"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -64,
+     -94
+    ],
+    [
+     -46,
+     -80
+    ],
+    [
+     -24,
+     -72
+    ],
+    [
+     0,
+     -69
+    ],
+    [
+     24,
+     -72
+    ],
+    [
+     46,
+     -80
+    ],
+    [
+     64,
+     -94
+    ],
+    [
+     58,
+     -70
+    ],
+    [
+     0,
+     -8
+    ],
+    [
+     -58,
+     -70
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#8a8a8a",
+   "smooth": false,
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     -58
+    ],
+    [
+     0,
+     -14
+    ],
+    [
+     14,
+     -30
+    ],
+    [
+     -10,
+     -58
+    ]
+   ],
+   "fill": "#eef0f3",
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -66
+    ],
+    [
+     0,
+     -24
+    ]
+   ],
+   "width": 2,
+   "color": "#c8c8c8"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -64,
+     -94
+    ],
+    [
+     -46,
+     -80
+    ],
+    [
+     -24,
+     -72
+    ],
+    [
+     0,
+     -69
+    ],
+    [
+     24,
+     -72
+    ],
+    [
+     46,
+     -80
+    ],
+    [
+     64,
+     -94
+    ],
+    [
+     58,
+     -70
+    ],
+    [
+     0,
+     -8
+    ],
+    [
+     -58,
+     -70
+    ]
+   ],
+   "fill": null,
+   "width": 3,
+   "color": "#8a8a8a",
+   "smooth": false,
+   "keep_ink": true
+  }
+ ]
+}

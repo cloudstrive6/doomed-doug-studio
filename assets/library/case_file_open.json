@@ -1,0 +1,398 @@
+{
+ "name": "case_file_open",
+ "description": "Big open manila CASE FILE folder with a blank white sheet clipped on the front (silver clip top-centre). Tab top-left printed CASE FILE. Blank text zone x -380..380, y -230..300 (only #e4ecf4 rules at line centre +26). Centre anchor, 940x680 (x -470..470, y -340..340).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "folder",
+  "case file",
+  "episode device",
+  "list",
+  "032"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -462,
+     -298
+    ],
+    [
+     -446,
+     -340
+    ],
+    [
+     -130,
+     -340
+    ],
+    [
+     -108,
+     -298
+    ]
+   ],
+   "width": 6,
+   "color": "#000000",
+   "fill": "#c9a24a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -470,
+     -300
+    ],
+    [
+     462,
+     -300
+    ],
+    [
+     470,
+     340
+    ],
+    [
+     -462,
+     340
+    ]
+   ],
+   "width": 6,
+   "color": "#000000",
+   "fill": "#c9a24a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -450,
+     -286
+    ],
+    [
+     450,
+     -286
+    ],
+    [
+     456,
+     326
+    ],
+    [
+     -456,
+     326
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#e8c87a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -286
+    ],
+    [
+     0,
+     -262
+    ]
+   ],
+   "width": 4,
+   "color": "#b8913a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     318
+    ],
+    [
+     0,
+     326
+    ]
+   ],
+   "width": 4,
+   "color": "#b8913a"
+  },
+  {
+   "type": "spray",
+   "x": -420,
+   "y": 290,
+   "r": 50,
+   "color": "#d6b261",
+   "density": 0.15
+  },
+  {
+   "type": "spray",
+   "x": 420,
+   "y": -250,
+   "r": 50,
+   "color": "#d6b261",
+   "density": 0.15
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -404,
+     -256
+    ],
+    [
+     424,
+     -256
+    ],
+    [
+     428,
+     330
+    ],
+    [
+     -400,
+     330
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#b8913a",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -418,
+     -268
+    ],
+    [
+     414,
+     -268
+    ],
+    [
+     414,
+     318
+    ],
+    [
+     -418,
+     318
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -396,
+     -144
+    ],
+    [
+     392,
+     -144
+    ]
+   ],
+   "width": 2,
+   "color": "#e4ecf4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -396,
+     -86
+    ],
+    [
+     392,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#e4ecf4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -396,
+     -28
+    ],
+    [
+     392,
+     -28
+    ]
+   ],
+   "width": 2,
+   "color": "#e4ecf4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -396,
+     30
+    ],
+    [
+     392,
+     30
+    ]
+   ],
+   "width": 2,
+   "color": "#e4ecf4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -396,
+     88
+    ],
+    [
+     392,
+     88
+    ]
+   ],
+   "width": 2,
+   "color": "#e4ecf4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -396,
+     146
+    ],
+    [
+     392,
+     146
+    ]
+   ],
+   "width": 2,
+   "color": "#e4ecf4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -396,
+     204
+    ],
+    [
+     392,
+     204
+    ]
+   ],
+   "width": 2,
+   "color": "#e4ecf4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -396,
+     262
+    ],
+    [
+     392,
+     262
+    ]
+   ],
+   "width": 2,
+   "color": "#e4ecf4"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -78,
+     -300
+    ],
+    [
+     78,
+     -300
+    ],
+    [
+     70,
+     -244
+    ],
+    [
+     -70,
+     -244
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#c0c6cc"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -66,
+     -292
+    ],
+    [
+     66,
+     -292
+    ],
+    [
+     62,
+     -280
+    ],
+    [
+     -62,
+     -280
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e4e8ec",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -44,
+     -300
+    ],
+    [
+     -40,
+     -326
+    ],
+    [
+     40,
+     -326
+    ],
+    [
+     44,
+     -300
+    ]
+   ],
+   "width": 6,
+   "color": "#8d949b"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -264,
+   "rx": 8,
+   "ry": 8,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#8d949b"
+  },
+  {
+   "type": "text",
+   "text": "CASE FILE",
+   "x": -280,
+   "y": -318,
+   "size": 36,
+   "color": "#000000",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0.3
+  }
+ ]
+}

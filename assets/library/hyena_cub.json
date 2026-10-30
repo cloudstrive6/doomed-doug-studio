@@ -1,0 +1,575 @@
+{
+ "name": "hyena_cub",
+ "description": "Giant-hyena cub sitting on its haunches, facing right: dark chocolate-brown fluffy coat (#6e5040, darker #4e372b, mid-tone so it reads on night ground #3a2e28), big head with a blunt dark muzzle, big rounded ears set back, long front legs, small dark eye under a brow, neutral wary look (no shine, no smile). Anchor bottom-centre, 220x200 (x -110..110, y -200..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "animal",
+  "mammal",
+  "hyena",
+  "cub",
+  "ice age",
+  "032"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -4
+    ],
+    [
+     -104,
+     -40
+    ],
+    [
+     -88,
+     -76
+    ],
+    [
+     -50,
+     -104
+    ],
+    [
+     0,
+     -128
+    ],
+    [
+     36,
+     -134
+    ],
+    [
+     58,
+     -108
+    ],
+    [
+     62,
+     -60
+    ],
+    [
+     60,
+     -6
+    ],
+    [
+     30,
+     0
+    ],
+    [
+     -60,
+     0
+    ]
+   ],
+   "fill": "#6e5040",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -96,
+     -40
+    ],
+    [
+     -80,
+     -74
+    ],
+    [
+     -40,
+     -100
+    ],
+    [
+     -40,
+     -60
+    ],
+    [
+     -70,
+     -14
+    ]
+   ],
+   "fill": "#4e372b",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -94,
+     -8
+    ],
+    [
+     -90,
+     -50
+    ],
+    [
+     -54,
+     -64
+    ],
+    [
+     -24,
+     -40
+    ],
+    [
+     -30,
+     -6
+    ]
+   ],
+   "fill": "#6e5040",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -34,
+     -8
+    ],
+    [
+     8,
+     -10
+    ],
+    [
+     14,
+     0
+    ],
+    [
+     -34,
+     0
+    ]
+   ],
+   "fill": "#4e372b",
+   "width": 4,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     9,
+     -84
+    ],
+    [
+     30,
+     -84
+    ],
+    [
+     29,
+     -10
+    ],
+    [
+     40,
+     -6
+    ],
+    [
+     40,
+     0
+    ],
+    [
+     8,
+     0
+    ]
+   ],
+   "fill": "#4e372b",
+   "width": 5,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     35,
+     -84
+    ],
+    [
+     56,
+     -84
+    ],
+    [
+     55,
+     -10
+    ],
+    [
+     66,
+     -6
+    ],
+    [
+     66,
+     0
+    ],
+    [
+     34,
+     0
+    ]
+   ],
+   "fill": "#6e5040",
+   "width": 5,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "spray",
+   "x": 26,
+   "y": -100,
+   "r": 20,
+   "color": "#86654f",
+   "density": 0.3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100,
+     -50
+    ],
+    [
+     -112,
+     -56
+    ],
+    [
+     -98,
+     -64
+    ],
+    [
+     -106,
+     -74
+    ],
+    [
+     -90,
+     -80
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 14,
+   "y": -182,
+   "rx": 16,
+   "ry": 20,
+   "fill": "#4e372b",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 14,
+   "y": -180,
+   "rx": 8,
+   "ry": 12,
+   "fill": "#2a1e18",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 46,
+   "y": -182,
+   "rx": 16,
+   "ry": 20,
+   "fill": "#4e372b",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 46,
+   "y": -180,
+   "rx": 8,
+   "ry": 12,
+   "fill": "#2a1e18",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -132
+    ],
+    [
+     -14,
+     -144
+    ]
+   ],
+   "width": 4,
+   "color": "#2a1e18"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     -123
+    ],
+    [
+     -26,
+     -135
+    ]
+   ],
+   "width": 4,
+   "color": "#2a1e18"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -32,
+     -114
+    ],
+    [
+     -38,
+     -126
+    ]
+   ],
+   "width": 4,
+   "color": "#2a1e18"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -44,
+     -105
+    ],
+    [
+     -50,
+     -117
+    ]
+   ],
+   "width": 4,
+   "color": "#2a1e18"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -56,
+     -96
+    ],
+    [
+     -62,
+     -108
+    ]
+   ],
+   "width": 4,
+   "color": "#2a1e18"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     -148
+    ],
+    [
+     10,
+     -176
+    ],
+    [
+     40,
+     -192
+    ],
+    [
+     70,
+     -184
+    ],
+    [
+     88,
+     -166
+    ],
+    [
+     110,
+     -158
+    ],
+    [
+     112,
+     -136
+    ],
+    [
+     98,
+     -122
+    ],
+    [
+     60,
+     -118
+    ],
+    [
+     24,
+     -122
+    ]
+   ],
+   "fill": "#6e5040",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     80,
+     -164
+    ],
+    [
+     110,
+     -158
+    ],
+    [
+     112,
+     -136
+    ],
+    [
+     98,
+     -122
+    ],
+    [
+     74,
+     -124
+    ]
+   ],
+   "fill": "#33241c",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 108,
+   "y": -150,
+   "rx": 6,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     86,
+     -128
+    ],
+    [
+     102,
+     -128
+    ]
+   ],
+   "width": 3,
+   "color": "#111111"
+  },
+  {
+   "type": "ellipse",
+   "x": 60,
+   "y": -158,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     48,
+     -168
+    ],
+    [
+     70,
+     -166
+    ]
+   ],
+   "width": 5,
+   "color": "#111111"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     -148
+    ],
+    [
+     10,
+     -176
+    ],
+    [
+     40,
+     -192
+    ],
+    [
+     70,
+     -184
+    ],
+    [
+     88,
+     -166
+    ],
+    [
+     110,
+     -158
+    ],
+    [
+     112,
+     -136
+    ],
+    [
+     98,
+     -122
+    ],
+    [
+     60,
+     -118
+    ],
+    [
+     24,
+     -122
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -138
+    ],
+    [
+     2,
+     -148
+    ],
+    [
+     12,
+     -154
+    ],
+    [
+     4,
+     -164
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}

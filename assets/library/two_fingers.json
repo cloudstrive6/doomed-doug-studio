@@ -1,0 +1,537 @@
+{
+ "name": "two_fingers",
+ "description": "Two human fingers (index and middle) held together pointing up, seen from the back with nails showing, skin #f2c9a5 with darker #d9a27f side and knuckle creases, cut off flat at the bottom by a blue shirt cuff (no hand or arm). Same tier as fingertip. Centre anchor, 160x340 (x -80..80, y -170..170). The two fingers together are exactly 110 units wide (x -55..55).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "scale",
+  "fingers",
+  "hand",
+  "comparison",
+  "032"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -55,
+     110
+    ],
+    [
+     -55,
+     -110
+    ],
+    [
+     -51,
+     -130
+    ],
+    [
+     -27.5,
+     -140
+    ],
+    [
+     -4,
+     -130
+    ],
+    [
+     0,
+     -110
+    ],
+    [
+     0,
+     110
+    ]
+   ],
+   "fill": "#f2c9a5",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -12,
+     110
+    ],
+    [
+     -10,
+     -110
+    ],
+    [
+     -4,
+     -128
+    ],
+    [
+     0,
+     -110
+    ],
+    [
+     0,
+     110
+    ]
+   ],
+   "fill": "#d9a27f",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -45.1,
+     -90
+    ],
+    [
+     -45.1,
+     -118
+    ],
+    [
+     -27.5,
+     -128
+    ],
+    [
+     -9.9,
+     -118
+    ],
+    [
+     -9.9,
+     -90
+    ],
+    [
+     -27.5,
+     -84
+    ]
+   ],
+   "fill": "#f6c4c4",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -41.2,
+     -118
+    ],
+    [
+     -27.5,
+     -124
+    ],
+    [
+     -13.8,
+     -118
+    ]
+   ],
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -42.9,
+     -30
+    ],
+    [
+     -27.5,
+     -34
+    ],
+    [
+     -12.1,
+     -30
+    ]
+   ],
+   "width": 2,
+   "color": "#b07a5a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -42.9,
+     -20
+    ],
+    [
+     -27.5,
+     -24
+    ],
+    [
+     -12.1,
+     -20
+    ]
+   ],
+   "width": 2,
+   "color": "#b07a5a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -42.9,
+     60
+    ],
+    [
+     -27.5,
+     56
+    ],
+    [
+     -12.1,
+     60
+    ]
+   ],
+   "width": 2,
+   "color": "#b07a5a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -42.9,
+     68
+    ],
+    [
+     -27.5,
+     64
+    ],
+    [
+     -12.1,
+     68
+    ]
+   ],
+   "width": 2,
+   "color": "#b07a5a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -55,
+     110
+    ],
+    [
+     -55,
+     -110
+    ],
+    [
+     -51,
+     -130
+    ],
+    [
+     -27.5,
+     -140
+    ],
+    [
+     -4,
+     -130
+    ],
+    [
+     0,
+     -110
+    ],
+    [
+     0,
+     110
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     110
+    ],
+    [
+     0,
+     -138
+    ],
+    [
+     4,
+     -158
+    ],
+    [
+     27.5,
+     -168
+    ],
+    [
+     51,
+     -158
+    ],
+    [
+     55,
+     -138
+    ],
+    [
+     55,
+     110
+    ]
+   ],
+   "fill": "#f2c9a5",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     43,
+     110
+    ],
+    [
+     45,
+     -138
+    ],
+    [
+     51,
+     -156
+    ],
+    [
+     55,
+     -138
+    ],
+    [
+     55,
+     110
+    ]
+   ],
+   "fill": "#d9a27f",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     9.9,
+     -118
+    ],
+    [
+     9.9,
+     -146
+    ],
+    [
+     27.5,
+     -156
+    ],
+    [
+     45.1,
+     -146
+    ],
+    [
+     45.1,
+     -118
+    ],
+    [
+     27.5,
+     -112
+    ]
+   ],
+   "fill": "#f6c4c4",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     13.8,
+     -146
+    ],
+    [
+     27.5,
+     -152
+    ],
+    [
+     41.2,
+     -146
+    ]
+   ],
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     12.1,
+     -58
+    ],
+    [
+     27.5,
+     -62
+    ],
+    [
+     42.9,
+     -58
+    ]
+   ],
+   "width": 2,
+   "color": "#b07a5a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     12.1,
+     -48
+    ],
+    [
+     27.5,
+     -52
+    ],
+    [
+     42.9,
+     -48
+    ]
+   ],
+   "width": 2,
+   "color": "#b07a5a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     12.1,
+     32
+    ],
+    [
+     27.5,
+     28
+    ],
+    [
+     42.9,
+     32
+    ]
+   ],
+   "width": 2,
+   "color": "#b07a5a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     12.1,
+     40
+    ],
+    [
+     27.5,
+     36
+    ],
+    [
+     42.9,
+     40
+    ]
+   ],
+   "width": 2,
+   "color": "#b07a5a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     110
+    ],
+    [
+     0,
+     -138
+    ],
+    [
+     4,
+     -158
+    ],
+    [
+     27.5,
+     -168
+    ],
+    [
+     51,
+     -158
+    ],
+    [
+     55,
+     -138
+    ],
+    [
+     55,
+     110
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": -30,
+   "y": -40,
+   "r": 14,
+   "color": "#f9dcc2",
+   "density": 0.2
+  },
+  {
+   "type": "rect",
+   "x": -80,
+   "y": 104,
+   "w": 160,
+   "h": 66,
+   "fill": "#3f5f8f",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -80,
+     120
+    ],
+    [
+     80,
+     120
+    ]
+   ],
+   "width": 2,
+   "color": "#2c4468"
+  },
+  {
+   "type": "circle",
+   "x": 56,
+   "y": 140,
+   "r": 7,
+   "fill": "#e8e2d0",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -70,
+     162
+    ],
+    [
+     70,
+     162
+    ]
+   ],
+   "width": 2,
+   "color": "#5677a8"
+  }
+ ]
+}

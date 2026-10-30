@@ -1,0 +1,563 @@
+{
+ "name": "telephone_pole",
+ "description": "Plain wooden telephone pole: brown #7a5a3a pole with grain lines and step bolts, one crossbar near the top with braces, three small green glass insulators (two on the crossbar, one on top), short wire stubs. No signs. Bottom-centre anchor, 240x900 (x -120..120, y -900..0), exactly as tall as tall_savanna_tree.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "scale",
+  "pole",
+  "height",
+  "032"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -22,
+     0
+    ],
+    [
+     -17,
+     -862
+    ],
+    [
+     17,
+     -862
+    ],
+    [
+     22,
+     0
+    ]
+   ],
+   "fill": "#7a5a3a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     6,
+     0
+    ],
+    [
+     5,
+     -860
+    ],
+    [
+     16,
+     -860
+    ],
+    [
+     21,
+     0
+    ]
+   ],
+   "fill": "#5e4428",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -10,
+     -40
+    ],
+    [
+     -7,
+     -170.0
+    ],
+    [
+     -11,
+     -300
+    ]
+   ],
+   "width": 2,
+   "color": "#4a3420"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -4,
+     -220
+    ],
+    [
+     -1,
+     -370.0
+    ],
+    [
+     -5,
+     -520
+    ]
+   ],
+   "width": 2,
+   "color": "#4a3420"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -12,
+     -480
+    ],
+    [
+     -9,
+     -620.0
+    ],
+    [
+     -13,
+     -760
+    ]
+   ],
+   "width": 2,
+   "color": "#4a3420"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     2,
+     -600
+    ],
+    [
+     5,
+     -730.0
+    ],
+    [
+     1,
+     -860
+    ]
+   ],
+   "width": 2,
+   "color": "#4a3420"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -8,
+     -120
+    ],
+    [
+     -5,
+     -160.0
+    ],
+    [
+     -9,
+     -200
+    ]
+   ],
+   "width": 2,
+   "color": "#4a3420"
+  },
+  {
+   "type": "ellipse",
+   "x": -6,
+   "y": -380,
+   "rx": 4,
+   "ry": 9,
+   "fill": "#4a3420",
+   "width": 2,
+   "color": "#4a3420"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -300
+    ],
+    [
+     -36,
+     -300
+    ]
+   ],
+   "width": 4,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -380
+    ],
+    [
+     -36,
+     -380
+    ]
+   ],
+   "width": 4,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -460
+    ],
+    [
+     -36,
+     -460
+    ]
+   ],
+   "width": 4,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -540
+    ],
+    [
+     -36,
+     -540
+    ]
+   ],
+   "width": 4,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -620
+    ],
+    [
+     -36,
+     -620
+    ]
+   ],
+   "width": 4,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "rect",
+   "x": -118,
+   "y": -812,
+   "w": 236,
+   "h": 22,
+   "fill": "#7a5a3a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -116,
+     -794
+    ],
+    [
+     116,
+     -794
+    ]
+   ],
+   "width": 2,
+   "color": "#5e4428"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -70,
+     -790
+    ],
+    [
+     -16,
+     -740
+    ]
+   ],
+   "width": 4,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     -790
+    ],
+    [
+     16,
+     -740
+    ]
+   ],
+   "width": 4,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -96,
+     -812
+    ],
+    [
+     -96,
+     -822
+    ]
+   ],
+   "width": 4,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -109,
+     -820
+    ],
+    [
+     -105,
+     -840
+    ],
+    [
+     -100,
+     -846
+    ],
+    [
+     -92,
+     -846
+    ],
+    [
+     -87,
+     -840
+    ],
+    [
+     -83,
+     -820
+    ]
+   ],
+   "fill": "#8fd0c8",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100,
+     -840
+    ],
+    [
+     -102,
+     -826
+    ]
+   ],
+   "width": 2,
+   "color": "#d8f4f0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     96,
+     -812
+    ],
+    [
+     96,
+     -822
+    ]
+   ],
+   "width": 4,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     83,
+     -820
+    ],
+    [
+     87,
+     -840
+    ],
+    [
+     92,
+     -846
+    ],
+    [
+     100,
+     -846
+    ],
+    [
+     105,
+     -840
+    ],
+    [
+     109,
+     -820
+    ]
+   ],
+   "fill": "#8fd0c8",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     92,
+     -840
+    ],
+    [
+     90,
+     -826
+    ]
+   ],
+   "width": 2,
+   "color": "#d8f4f0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -862
+    ],
+    [
+     0,
+     -872
+    ]
+   ],
+   "width": 4,
+   "color": "#4a4a4a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -13,
+     -870
+    ],
+    [
+     -9,
+     -890
+    ],
+    [
+     -4,
+     -896
+    ],
+    [
+     4,
+     -896
+    ],
+    [
+     9,
+     -890
+    ],
+    [
+     13,
+     -870
+    ]
+   ],
+   "fill": "#8fd0c8",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -4,
+     -890
+    ],
+    [
+     -6,
+     -876
+    ]
+   ],
+   "width": 2,
+   "color": "#d8f4f0"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -96,
+     -830
+    ],
+    [
+     -108,
+     -826
+    ],
+    [
+     -120,
+     -820
+    ]
+   ],
+   "width": 2,
+   "color": "#222222"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     96,
+     -830
+    ],
+    [
+     108,
+     -826
+    ],
+    [
+     120,
+     -820
+    ]
+   ],
+   "width": 2,
+   "color": "#222222"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -880
+    ],
+    [
+     -14,
+     -874
+    ],
+    [
+     -28,
+     -866
+    ]
+   ],
+   "width": 2,
+   "color": "#222222"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -880
+    ],
+    [
+     14,
+     -874
+    ],
+    [
+     28,
+     -866
+    ]
+   ],
+   "width": 2,
+   "color": "#222222"
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "name": "coat_hook",
+ "description": "Simple wooden coat-hook board: short #a0522d plank with two screws and two black metal J hooks. Centre anchor, 200x160 (x -100..100, y -80..80). Cap hang point (+40,+30) on the right hook's bend.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "home",
+  "hook",
+  "closing",
+  "032"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -100,
+   "y": -66,
+   "w": 200,
+   "h": 50,
+   "fill": "#a0522d",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -96,
+     -48
+    ],
+    [
+     96,
+     -50
+    ]
+   ],
+   "width": 2,
+   "color": "#7a3e20"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -90,
+     -32
+    ],
+    [
+     -40,
+     -30
+    ],
+    [
+     10,
+     -34
+    ],
+    [
+     90,
+     -30
+    ]
+   ],
+   "width": 2,
+   "color": "#7a3e20"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -96,
+     -62
+    ],
+    [
+     96,
+     -62
+    ]
+   ],
+   "width": 2,
+   "color": "#c47048"
+  },
+  {
+   "type": "circle",
+   "x": -86,
+   "y": -41,
+   "r": 4,
+   "fill": "#555555",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 86,
+   "y": -41,
+   "r": 4,
+   "fill": "#555555",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -49,
+   "y": -54,
+   "w": 18,
+   "h": 26,
+   "fill": "#2a2a2a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     -36
+    ],
+    [
+     -40,
+     0
+    ],
+    [
+     -42,
+     22
+    ],
+    [
+     -32,
+     34
+    ],
+    [
+     -20,
+     28
+    ],
+    [
+     -16,
+     14
+    ]
+   ],
+   "width": 8,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "circle",
+   "x": -16,
+   "y": 12,
+   "r": 5,
+   "fill": "#1a1a1a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -42,
+     -26
+    ],
+    [
+     -42,
+     6
+    ]
+   ],
+   "width": 2,
+   "color": "#777777"
+  },
+  {
+   "type": "rect",
+   "x": 31,
+   "y": -54,
+   "w": 18,
+   "h": 26,
+   "fill": "#2a2a2a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     40,
+     -36
+    ],
+    [
+     40,
+     0
+    ],
+    [
+     38,
+     22
+    ],
+    [
+     48,
+     34
+    ],
+    [
+     60,
+     28
+    ],
+    [
+     64,
+     14
+    ]
+   ],
+   "width": 8,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "circle",
+   "x": 64,
+   "y": 12,
+   "r": 5,
+   "fill": "#1a1a1a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     38,
+     -26
+    ],
+    [
+     38,
+     6
+    ]
+   ],
+   "width": 2,
+   "color": "#777777"
+  }
+ ]
+}

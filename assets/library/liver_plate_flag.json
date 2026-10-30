@@ -1,0 +1,402 @@
+{
+ "name": "liver_plate_flag",
+ "description": "liver_plate plus a cocktail-stick flag stuck in the liver: small white paper flag reading LEOPARD in black block capitals. Anchor centre, 300x245 (x -150..150, y -200..45); plate bottom at y +45. Keep upright (text does not rotate).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "food",
+  "liver",
+  "plate",
+  "flag",
+  "032"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 5,
+   "rx": 148,
+   "ry": 40,
+   "fill": "#c9ced6",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -3,
+   "rx": 150,
+   "ry": 42,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -3,
+   "rx": 136,
+   "ry": 36,
+   "fill": null,
+   "width": 4,
+   "color": "#2a5bd7"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -1,
+   "rx": 100,
+   "ry": 25,
+   "fill": "#f1f3f6",
+   "width": 2,
+   "color": "#b8bec8"
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": 4,
+   "r": 30,
+   "color": "#dfe3ea",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -110,
+     -26
+    ],
+    [
+     -70,
+     -34
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -3,
+   "rx": 150,
+   "ry": 42,
+   "fill": null,
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90,
+     4
+    ],
+    [
+     90,
+     4
+    ],
+    [
+     80,
+     16
+    ],
+    [
+     -80,
+     16
+    ]
+   ],
+   "fill": "#c9ced6",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -96,
+     -14
+    ],
+    [
+     -84,
+     -42
+    ],
+    [
+     -50,
+     -56
+    ],
+    [
+     -10,
+     -50
+    ],
+    [
+     14,
+     -38
+    ],
+    [
+     40,
+     -56
+    ],
+    [
+     78,
+     -54
+    ],
+    [
+     98,
+     -32
+    ],
+    [
+     92,
+     -6
+    ],
+    [
+     60,
+     10
+    ],
+    [
+     10,
+     12
+    ],
+    [
+     -40,
+     12
+    ],
+    [
+     -80,
+     6
+    ]
+   ],
+   "fill": "#7a2a22",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90,
+     -4
+    ],
+    [
+     -40,
+     4
+    ],
+    [
+     10,
+     2
+    ],
+    [
+     60,
+     -2
+    ],
+    [
+     92,
+     -12
+    ],
+    [
+     88,
+     -2
+    ],
+    [
+     60,
+     10
+    ],
+    [
+     10,
+     12
+    ],
+    [
+     -40,
+     12
+    ],
+    [
+     -80,
+     6
+    ]
+   ],
+   "fill": "#561a14",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     14,
+     -36
+    ],
+    [
+     8,
+     -14
+    ],
+    [
+     0,
+     6
+    ]
+   ],
+   "width": 3,
+   "color": "#561a14"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -96,
+     -14
+    ],
+    [
+     -84,
+     -42
+    ],
+    [
+     -50,
+     -56
+    ],
+    [
+     -10,
+     -50
+    ],
+    [
+     14,
+     -38
+    ],
+    [
+     40,
+     -56
+    ],
+    [
+     78,
+     -54
+    ],
+    [
+     98,
+     -32
+    ],
+    [
+     92,
+     -6
+    ],
+    [
+     60,
+     10
+    ],
+    [
+     10,
+     12
+    ],
+    [
+     -40,
+     12
+    ],
+    [
+     -80,
+     6
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -70,
+     -36
+    ],
+    [
+     -48,
+     -46
+    ],
+    [
+     -24,
+     -44
+    ]
+   ],
+   "width": 6,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     48,
+     -46
+    ],
+    [
+     70,
+     -46
+    ]
+   ],
+   "width": 5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": -30,
+   "r": 18,
+   "color": "#b05a4e",
+   "density": 0.25
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -30
+    ],
+    [
+     -30,
+     -200
+    ]
+   ],
+   "width": 4,
+   "color": "#c8a26a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -28,
+     -200
+    ],
+    [
+     146,
+     -200
+    ],
+    [
+     146,
+     -146
+    ],
+    [
+     -28,
+     -146
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "text",
+   "text": "LEOPARD",
+   "x": 59,
+   "y": -173,
+   "size": 31,
+   "color": "#000000",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

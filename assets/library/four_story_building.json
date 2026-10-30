@@ -1,0 +1,528 @@
+{
+ "name": "four_story_building",
+ "description": "Plain four-storey concrete block, same family as six_story_building: light concrete, flat roof with parapet, exactly four rows of four blue windows, floor lines. Anchor bottom-centre, 312x400 (x -156..156, y -400..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "building",
+  "scale",
+  "city",
+  "032"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -396,
+   "w": 300,
+   "h": 396,
+   "fill": "#d9d5cc",
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": -90,
+   "y": -200.0,
+   "r": 80,
+   "color": "#c4bfb4",
+   "density": 0.08
+  },
+  {
+   "type": "spray",
+   "x": 80,
+   "y": -80.0,
+   "r": 60,
+   "color": "#c4bfb4",
+   "density": 0.08
+  },
+  {
+   "type": "spray",
+   "x": 60,
+   "y": -312.0,
+   "r": 60,
+   "color": "#c4bfb4",
+   "density": 0.08
+  },
+  {
+   "type": "spray",
+   "x": -70,
+   "y": -352.0,
+   "r": 60,
+   "color": "#c4bfb4",
+   "density": 0.08
+  },
+  {
+   "type": "rect",
+   "x": -156,
+   "y": -400,
+   "w": 312,
+   "h": 18,
+   "fill": "#b9b4aa",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -128,
+   "y": -361.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -315.0
+    ],
+    [
+     -98,
+     -351.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -361.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -54,
+     -315.0
+    ],
+    [
+     -32,
+     -351.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 4,
+   "y": -361.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     -315.0
+    ],
+    [
+     34,
+     -351.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 70,
+   "y": -361.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     -315.0
+    ],
+    [
+     100,
+     -351.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -285.0
+    ],
+    [
+     150,
+     -285.0
+    ]
+   ],
+   "width": 2,
+   "color": "#a59f93"
+  },
+  {
+   "type": "rect",
+   "x": -128,
+   "y": -271.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -225.0
+    ],
+    [
+     -98,
+     -261.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -271.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -54,
+     -225.0
+    ],
+    [
+     -32,
+     -261.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 4,
+   "y": -271.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     -225.0
+    ],
+    [
+     34,
+     -261.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 70,
+   "y": -271.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     -225.0
+    ],
+    [
+     100,
+     -261.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -195.0
+    ],
+    [
+     150,
+     -195.0
+    ]
+   ],
+   "width": 2,
+   "color": "#a59f93"
+  },
+  {
+   "type": "rect",
+   "x": -128,
+   "y": -181.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -135.0
+    ],
+    [
+     -98,
+     -171.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -181.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -54,
+     -135.0
+    ],
+    [
+     -32,
+     -171.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 4,
+   "y": -181.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     -135.0
+    ],
+    [
+     34,
+     -171.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 70,
+   "y": -181.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     -135.0
+    ],
+    [
+     100,
+     -171.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -105.0
+    ],
+    [
+     150,
+     -105.0
+    ]
+   ],
+   "width": 2,
+   "color": "#a59f93"
+  },
+  {
+   "type": "rect",
+   "x": -128,
+   "y": -91.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     -45.0
+    ],
+    [
+     -98,
+     -81.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": -62,
+   "y": -91.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -54,
+     -45.0
+    ],
+    [
+     -32,
+     -81.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 4,
+   "y": -91.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     -45.0
+    ],
+    [
+     34,
+     -81.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "rect",
+   "x": 70,
+   "y": -91.0,
+   "w": 46,
+   "h": 56,
+   "fill": "#8fb3cf",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     -45.0
+    ],
+    [
+     100,
+     -81.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d7e8f4"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -9
+    ],
+    [
+     150,
+     -9
+    ]
+   ],
+   "width": 2,
+   "color": "#a59f93"
+  }
+ ]
+}
