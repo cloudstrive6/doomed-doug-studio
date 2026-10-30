@@ -1,5 +1,5 @@
 {
- "_note": "Variant C (list-format control): 6 big tiles, 3x2 on white, labels via tile label (Comic Neue): Lucy's Fall (tree + falling Doug, red cap), Eagle, Leopard, Crocodile (horned), Bad Liver, Giant Hyena (red glow). Each tile shows the killer/hazard only; no victim, no juvenile, no bones. Labels drop 'The' from the chapter names so no label repeats a title word. 2 fonts total.",
+ "_note": "Variant C (list-format control): 6 big tiles, 3x2 on white, labels via tile label (Comic Neue): Lucy's Fall (tree + falling Doug, red cap), Eagle, Leopard, Crocodile (horned_crocodile_open, jaws up out of the water), Bad Liver, Giant Hyena (red glow). Each tile shows the killer/hazard only; no victim, no juvenile, no bones. Labels drop 'The' from the chapter names so no label repeats a title word. 2 fonts total. Round 2: row 1 tiles 214 tall and row 2 moved up 30 px (y 302) so the bottom labels clear YouTube's length badge.",
  "background": "#ffffff",
  "size": [
   1280,
@@ -11,7 +11,7 @@
    "x": 30,
    "y": 12,
    "w": 392,
-   "h": 246,
+   "h": 214,
    "fill": "#8fd3ff",
    "radius": 20,
    "frame_width": 7,
@@ -22,7 +22,7 @@
      "type": "asset",
      "name": "tall_savanna_tree",
      "x": 105,
-     "y": 268,
+     "y": 244,
      "scale": 0.28,
      "boil": 0,
      "wobble": 0
@@ -30,7 +30,7 @@
     {
      "type": "doug",
      "x": 300,
-     "y": 165,
+     "y": 141,
      "scale": 0.42,
      "pose": "fall",
      "expression": "shock",
@@ -47,7 +47,7 @@
    "x": 444,
    "y": 12,
    "w": 392,
-   "h": 246,
+   "h": 214,
    "fill": "#ff5a3c",
    "radius": 20,
    "frame_width": 7,
@@ -58,7 +58,7 @@
      "type": "asset",
      "name": "crowned_eagle",
      "x": 640,
-     "y": 250,
+     "y": 226,
      "scale": 0.56,
      "boil": 0,
      "wobble": 0
@@ -72,7 +72,7 @@
    "x": 858,
    "y": 12,
    "w": 392,
-   "h": 246,
+   "h": 214,
    "fill": "#8ac926",
    "radius": 20,
    "frame_width": 7,
@@ -83,7 +83,7 @@
      "type": "asset",
      "name": "leopard",
      "x": 1050,
-     "y": 240,
+     "y": 216,
      "scale": 0.56,
      "boil": 0,
      "wobble": 0
@@ -95,7 +95,7 @@
   {
    "type": "tile",
    "x": 30,
-   "y": 332,
+   "y": 302,
    "w": 392,
    "h": 246,
    "fill": "#2ec4f1",
@@ -106,19 +106,20 @@
    "elements": [
     {
      "type": "asset",
-     "name": "horned_crocodile",
-     "x": 165,
-     "y": 540,
-     "scale": 0.5,
+     "name": "horned_crocodile_open",
+     "x": 45,
+     "y": 548,
+     "scale": 0.74,
+     "rotate": -15,
      "boil": 0,
      "wobble": 0
     },
     {
      "type": "rect",
      "x": 20,
-     "y": 515,
+     "y": 468,
      "w": 412,
-     "h": 80,
+     "h": 100,
      "fill": "#1f7fb0",
      "width": 5,
      "boil": 0,
@@ -131,7 +132,7 @@
   {
    "type": "tile",
    "x": 444,
-   "y": 332,
+   "y": 302,
    "w": 392,
    "h": 246,
    "fill": "#ffd23f",
@@ -144,7 +145,7 @@
      "type": "asset",
      "name": "liver_plate",
      "x": 640,
-     "y": 470,
+     "y": 440,
      "scale": 1.2,
      "boil": 0,
      "wobble": 0
@@ -156,7 +157,7 @@
   {
    "type": "tile",
    "x": 858,
-   "y": 332,
+   "y": 302,
    "w": 392,
    "h": 246,
    "fill": "#2b2f36",
@@ -168,7 +169,7 @@
     {
      "type": "circle",
      "x": 1060,
-     "y": 470,
+     "y": 440,
      "r": 125,
      "fill": "#c81d25",
      "color": "#c81d25",
@@ -180,7 +181,7 @@
      "type": "asset",
      "name": "pachycrocuta",
      "x": 1030,
-     "y": 560,
+     "y": 530,
      "scale": 0.47,
      "boil": 0,
      "wobble": 0
