@@ -14,3 +14,12 @@ Screener draft 3: PASS (facts 0 items, policy clean, hook 9, structure 8, voice 
 6. **Length/rule 9:** do not trim. The average sentence length is at the 14.0 floor.
 7. **Series bible updated:** the counter goes to 260, with a 032 log row (CASE FILE device, liver death, death 260 flat).
 APPROVED
+
+## 2026-10-30, director: shotlist
+213 shots (s001 = thumbnail), all 2,009 spoken words once and in order, Doug in 88% of shots, about 11.2 min at 195 wpm. 46 new drawings requested in `asset_requests.md`.
+1. **CD note a (The Cave Ceiling):** the arrows match what is spoken: face (eye socket), right arm, ears. No leg arrow. The HEALED beat ticks those three.
+2. **CD note b (The Bad Liver):** the LEOPARD-flag liver plate is on the item title card (s160), so it lands at the top of the item, and it comes back for Doug's dinner (s179). The calendar flip, greyer Doug and the cut to black with death 259 all sit in one shot (s182): a black cover and the 259 counter pop in at 0.62 of the line.
+3. **CD notes c/d:** no juvenile is drawn anywhere except as a skull or bone on a white card. The eagle's nest beats show bones only. The Sinkhole victims are two plain `fossil_bone_pale` bones. Nothing falls on screen (Lucy's fall is a dotted line). The leopard on its branch carries nothing.
+4. **CASE FILE:** a small closed folder plus a `CASE FILE: n/8` label under the death counter on every shot (013 second-meter layout, so title tops and wordart stay at y >= 290 near the counter). The open file is its own shot on the clause that states each cause; the new line is red and older lines are grey (026 clipboard rule, hold 0.4-1.0). The final line "DOUG, 2026. CAUSE: HE WENT." is read aloud (s206).
+5. **Capless Doug (one-off, logged per the art bible):** at The Eagle (s101-s103), Doug is `cap_off` while the eagle holds the cap (one cap per frame). The cap is back on his head in s104 ("The narrator had already written the line"), next to a crossed-out "DOUG DEATHS: 257".
+6. **Shorts:** the picks are The Leopard (s108-s119, tease s130), The Crocodile (s133-s145, tease s157) and The Giant Hyena (s186-s199, tease s204). All three use a Doug's-fate loop. The titler fills in the titles.
