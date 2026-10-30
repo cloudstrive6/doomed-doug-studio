@@ -131,7 +131,26 @@
       "publish_at": "2026-10-30T23:00:00Z",
       "related_video": "bACeD2HtavQ",
       "related_set": true,
-      "uploaded_at": "2026-10-21T22:01:54+00:00"
+      "uploaded_at": "2026-10-21T22:01:54+00:00",
+      "social": {
+        "instagram": {
+          "id": "18091620065253121",
+          "url": "https://www.instagram.com/reel/DfItvOLtGfp/"
+        },
+        "facebook": {
+          "id": "28462263660118739",
+          "url": "https://www.facebook.com/reel/28462263660118739"
+        },
+        "tiktok": {
+          "id": "v_pub_file~v2-1.7702600134152079381",
+          "url": "https://www.tiktok.com/@doomeddoug"
+        },
+        "instagram_story_tries": 1,
+        "instagram_story_error": "Command '['gh', 'release', 'upload', 'public-media', '--repo', 'cloudstrive6/doomed-doug-studio', '--clobber', '/home/runner/work/doomed-doug-studio/doomed-doug-studio/episodes/024-moose-deadlier-than-bears/build/shorts/024-short04.mp4']' returned non-zero exit status 1.",
+        "facebook_story": {
+          "id": "1460573096256590"
+        }
+      }
     }
   ]
 }
