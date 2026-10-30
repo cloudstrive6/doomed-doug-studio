@@ -146,9 +146,11 @@
           "url": "https://www.tiktok.com/@doomeddoug"
         },
         "instagram_story_tries": 1,
-        "instagram_story_error": "Command '['gh', 'release', 'upload', 'public-media', '--repo', 'cloudstrive6/doomed-doug-studio', '--clobber', '/home/runner/work/doomed-doug-studio/doomed-doug-studio/episodes/024-moose-deadlier-than-bears/build/shorts/024-short04.mp4']' returned non-zero exit status 1.",
         "facebook_story": {
           "id": "1460573096256590"
+        },
+        "instagram_story": {
+          "id": "18024193955983842"
         }
       }
     }
