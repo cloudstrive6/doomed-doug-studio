@@ -169,3 +169,22 @@ All three: the title is readable, subtitles are legible (4-word chunks), drawing
 - **short03 (giant hyena den): PASS.** It pays off its title. The `pachycrocuta` silhouette is clearly a hyena (sloping back, mane, round ears), even with the "???". The question ("WHO CAME HOME TO THE DEN?") points at the mother, who is not shown in the clip, so it holds up as a cliffhanger. It is close to answering itself in the same way as short02; if the director reworks short02, "WHAT DID THE MOTHER DO?" would be sharper. Optional.
 
 Routing: director, short02 (`tease_asset` and `end_card` in `shorts.json`), which needs only `shorts render` for short02 and no long-video re-render. Optional: director short01 `tease_asset`, graphic designer A/C notes from Round 3. The main video and thumbnails are cleared for upload.
+
+## Round 5 (post-render re-check after the Shorts fixes, 2026-10-30)
+
+Scope: all 23 `build/samples/f_*.png` (re-extracted 18:37; `final.mp4` is unchanged since 18:21), `build/qc.json` (`problems: []`, 689.2 s), the three thumbnails and their `_small` versions, `metadata.json`, `shorts.json`, and 6 frames per Short (2 s, 20 s, and end −10/−7/−4/−1.5 s), plus the short01 and short02 end cards at full 1080×1920.
+
+### Main video and thumbnails: PASS (no change from Round 4)
+- The samples match Round 4: no glitches, no frozen shots, no cropped text and no gore. The HUD runs from 253 to 260 deaths and from 0/8 to 8/8 case files. f_022 is the planned s205 death blackout.
+- Thumbnails A (LEFTOVERS), B (ANKLE DEEP) and C (grid) all still read at feed size and are honest about the T5 title.
+
+### Shorts
+- **short01 (leopard): PASS.** It now uses `tease_asset: "leopard"` (standing). The red silhouette shows the head with ears on the right, four legs and a curled tail on the left. With "???" over the back, it reads clearly as a big cat. "DID THE LEOPARD FALL FOR DOUG?" is a specific question the clip does not answer, and the outro (Doug disguised as prey under the tree) sets it up. The title, subtitles and the down arrow are all fine.
+- **short02 (crocodile): FAIL.** The end card question is fixed. "DID DOUG GET HIS FOOT BACK?" is specific, matches the outro ("put in just one foot"), and the clip does not answer it. The silhouette is still not recognisable:
+  1. (director, `shorts.json` short02 `tease_asset`) `horned_crocodile_open` has the same 4:1 body as `horned_crocodile` (1000×250, per its asset description). On the end card it renders as a strip about 360×80 px. The 150 px "???" covers its middle, so only the thin pointed tail tip on the left and the gaping jaws on the right show. At phone size the forked open jaws read as a **fish or shark tail**, and the whole shape reads as a fish, not a crocodile. Change it to `tease_asset: "croc_jaws_open"` (630×430, side-view head with jaws wide open: tall enough to fill the box, with the toothed jaw outline clear above and below the "???"). `croc_head_rising` (about 570×380) is the second choice. Keep `tease_from: "s157"` and the current `end_card`. Then re-run `python -m studio shorts render` for short02 only. No long-video re-render is needed.
+- **short03 (giant hyena): PASS** (unchanged). The `pachycrocuta` silhouette clearly reads as a hyena: sloping back, mane, round ears. "WHO CAME HOME TO THE DEN?" still holds up as a cliffhanger. The Round 4 optional note ("WHAT DID THE MOTHER DO?") still stands but does not block.
+
+Routing: director, short02 `tease_asset` only, then re-render short02. Optional notes for the graphic designer from Round 3 (A hyena ears and muzzle, C liver colour) still stand.
+
+VERDICT (main): PASS
+VERDICT (shorts): FAIL

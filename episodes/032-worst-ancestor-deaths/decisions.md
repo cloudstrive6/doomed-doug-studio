@@ -38,3 +38,7 @@ Screener round 4: main PASS (689.2 s, 191.7 wpm, -14.3 LUFS, QC `problems: []`).
 5. **Policy: clean.** Cartoon deaths only. Juvenile fossils appear as bones/skulls only and never in the thumbnail. Not made for kids. No paid promotion.
 6. Series bible log row 032 updated to its final title and package approval.
 FINAL: APPROVED
+
+## 2026-10-30, showrunner: final review round 2
+QC exit 0 (`problems: []`). Visual screener round 5: VERDICT (main): PASS; VERDICT (shorts): FAIL (short02 end-card `horned_crocodile_open` reads as a fish; fix: `tease_asset: croc_jaws_open`, then re-render short02 only). No further re-render requested in round 2: the Shorts are held back, the long video is not. Creative director's package approval stands.
+FINAL: APPROVED
