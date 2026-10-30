@@ -1,6 +1,6 @@
 {
  "name": "leopard_jaw",
- "description": "Fossil SK 349 leopard lower jaw held upside-down (Brain's demonstration), front view: cream-grey chunky chin with the two jaw halves running out to the sides, rami and condyles at the ends, two long canines pointing DOWN, small incisors between and cheek teeth beside. Centre anchor, 380x200 (x -190..190, y -100..100); jaw body y -100..+40; canine tips (-55,+95) and (+55,+95), matching the SK 54 holes.",
+ "description": "Fossil SK 349 leopard lower jaw held upside-down (Brain's demonstration), front view: cream-grey chunky chin with the two jaw halves running out to the sides, rami and condyles at the ends, two long canines pointing DOWN, small incisors between and cheek teeth beside. Centre anchor, 380 wide (x -190..190); jaw body y -100..+40; canine tips (-54,+100) and (+54,+112), matching the SK 54 holes (-54,-140) and (+54,-128): jaw at the skull's x, y = skull_y - 240 x scale.",
  "anchor": [
   0,
   0
@@ -369,32 +369,32 @@
    "type": "poly",
    "points": [
     [
-     -73,
+     -70,
      0
     ],
     [
-     -37,
+     -34,
      0
     ],
     [
-     -43,
-     40
+     -40,
+     42.0
     ],
     [
-     -50,
-     76
+     -46,
+     80.0
     ],
     [
-     -55,
-     95
+     -54,
+     100
     ],
     [
-     -61,
-     74
+     -58,
+     78.0
     ],
     [
-     -68,
-     38
+     -65,
+     40.0
     ]
    ],
    "width": 4,
@@ -406,12 +406,12 @@
    "type": "line",
    "points": [
     [
-     -61,
+     -58,
      8
     ],
     [
-     -58,
-     60
+     -55,
+     63
     ]
    ],
    "width": 3,
@@ -421,20 +421,20 @@
    "type": "poly",
    "points": [
     [
-     -48,
+     -45,
      20
     ],
     [
-     -44,
-     40
+     -41,
+     42
     ],
     [
-     -51,
-     76
+     -48,
+     80
     ],
     [
-     -53,
-     60
+     -50,
+     63
     ]
    ],
    "width": 0,
@@ -446,32 +446,32 @@
    "type": "poly",
    "points": [
     [
-     37,
+     34,
      0
     ],
     [
-     73,
+     70,
      0
     ],
     [
-     67,
-     40
+     64,
+     47.0
     ],
     [
-     60,
-     76
+     58,
+     89.6
     ],
     [
-     55,
-     95
+     54,
+     112
     ],
     [
-     49,
-     74
+     46,
+     87.4
     ],
     [
-     42,
-     38
+     39,
+     44.8
     ]
    ],
    "width": 4,
@@ -483,12 +483,12 @@
    "type": "line",
    "points": [
     [
-     49,
+     46,
      8
     ],
     [
-     52,
-     60
+     49,
+     71
     ]
    ],
    "width": 3,
@@ -498,20 +498,20 @@
    "type": "poly",
    "points": [
     [
-     62,
+     59,
      20
     ],
     [
-     66,
-     40
+     63,
+     47
     ],
     [
-     59,
-     76
+     56,
+     90
     ],
     [
-     57,
-     60
+     54,
+     71
     ]
    ],
    "width": 0,

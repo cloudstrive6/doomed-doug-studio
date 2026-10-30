@@ -1084,7 +1084,7 @@
           {
             "type": "asset",
             "name": "tall_savanna_tree",
-            "x": 760,
+            "x": 560,
             "y": 870,
             "scale": 0.75
           },
@@ -1103,7 +1103,7 @@
           },
           {
             "type": "doug",
-            "x": 1150,
+            "x": 1000,
             "y": 794.0,
             "scale": 0.5,
             "pose": "point",
@@ -6891,9 +6891,9 @@
           {
             "type": "wordart",
             "text": "WEIGHT OF ROCK",
-            "x": 960,
-            "y": 830,
-            "size": 66,
+            "x": 1320,
+            "y": 720,
+            "size": 46,
             "boil": 0,
             "appear": 0.55
           },
@@ -27828,28 +27828,28 @@
             "type": "asset",
             "name": "sk54_skull_cap",
             "x": 960,
-            "y": 640,
+            "y": 700,
             "scale": 1.0
           },
           {
             "type": "asset",
             "name": "leopard_jaw",
             "x": 960,
-            "y": 390,
+            "y": 410,
             "scale": 1.0,
             "appear": 0.6
           },
           {
             "type": "arrow",
             "from": [
-              560,
-              820
+              600,
+              470
             ],
             "to": [
-              885,
-              690
+              893,
+              553
             ],
-            "bend": -40,
+            "bend": -30,
             "color": "#e0201b",
             "width": 9,
             "head": 36,
@@ -27858,14 +27858,14 @@
           {
             "type": "arrow",
             "from": [
-              1360,
-              820
+              1330,
+              470
             ],
             "to": [
-              1035,
-              690
+              1026,
+              565
             ],
-            "bend": 40,
+            "bend": 30,
             "color": "#e0201b",
             "width": 9,
             "head": 36,
@@ -28102,14 +28102,14 @@
             "type": "asset",
             "name": "sk54_skull_cap",
             "x": 960,
-            "y": 640,
+            "y": 700,
             "scale": 1.0
           },
           {
             "type": "asset",
             "name": "leopard_jaw",
             "x": 960,
-            "y": 585.0,
+            "y": 460,
             "scale": 1.0,
             "appear": 0.45
           },
@@ -28165,7 +28165,7 @@
       "camera": {
         "move": "zoom_in",
         "x": 960,
-        "y": 560,
+        "y": 600,
         "zoom": 1.06
       }
     },
@@ -29373,35 +29373,103 @@
             "type": "asset",
             "name": "sk54_skull_cap",
             "x": 960,
-            "y": 640,
+            "y": 700,
             "scale": 1.0
           },
           {
             "type": "line",
             "points": [
               [
-                905.0,
-                680.0
+                906,
+                500
               ],
               [
-                1015.0,
-                680.0
+                1014,
+                500
               ]
             ],
-            "color": "#2b2b2b",
-            "width": 4,
+            "color": "#e0201b",
+            "width": 6,
+            "appear": 0.25
+          },
+          {
+            "type": "line",
+            "points": [
+              [
+                906,
+                486
+              ],
+              [
+                906,
+                514
+              ]
+            ],
+            "color": "#e0201b",
+            "width": 6,
+            "appear": 0.25
+          },
+          {
+            "type": "line",
+            "points": [
+              [
+                1014,
+                486
+              ],
+              [
+                1014,
+                514
+              ]
+            ],
+            "color": "#e0201b",
+            "width": 6,
+            "appear": 0.25
+          },
+          {
+            "type": "line",
+            "points": [
+              [
+                906,
+                514
+              ],
+              [
+                906,
+                544
+              ]
+            ],
+            "color": "#e0201b",
+            "width": 3,
             "dash": [
               8,
-              6
+              8
             ],
-            "appear": 0.15
+            "appear": 0.25
+          },
+          {
+            "type": "line",
+            "points": [
+              [
+                1014,
+                514
+              ],
+              [
+                1014,
+                558
+              ]
+            ],
+            "color": "#e0201b",
+            "width": 3,
+            "dash": [
+              8,
+              8
+            ],
+            "appear": 0.25
           },
           {
             "type": "label",
             "text": "33 MM",
             "x": 960,
-            "y": 820,
-            "size": 48,
+            "y": 440,
+            "size": 44,
             "bold": true,
             "boil": 0.4,
             "fill": "#ffffff",
@@ -29448,7 +29516,7 @@
       "camera": {
         "move": "zoom_in",
         "x": 960,
-        "y": 680,
+        "y": 600,
         "zoom": 1.08
       }
     },
@@ -29644,35 +29712,98 @@
             "type": "asset",
             "name": "sk54_skull_cap",
             "x": 960,
-            "y": 640,
+            "y": 700,
             "scale": 1.0
           },
           {
             "type": "line",
             "points": [
               [
-                905.0,
-                680.0
+                906,
+                500
               ],
               [
-                1015.0,
-                680.0
+                1014,
+                500
               ]
             ],
-            "color": "#2b2b2b",
-            "width": 4,
+            "color": "#e0201b",
+            "width": 6
+          },
+          {
+            "type": "line",
+            "points": [
+              [
+                906,
+                486
+              ],
+              [
+                906,
+                514
+              ]
+            ],
+            "color": "#e0201b",
+            "width": 6
+          },
+          {
+            "type": "line",
+            "points": [
+              [
+                1014,
+                486
+              ],
+              [
+                1014,
+                514
+              ]
+            ],
+            "color": "#e0201b",
+            "width": 6
+          },
+          {
+            "type": "line",
+            "points": [
+              [
+                906,
+                514
+              ],
+              [
+                906,
+                544
+              ]
+            ],
+            "color": "#e0201b",
+            "width": 3,
             "dash": [
               8,
-              6
+              8
+            ]
+          },
+          {
+            "type": "line",
+            "points": [
+              [
+                1014,
+                514
+              ],
+              [
+                1014,
+                558
+              ]
             ],
-            "appear": 0.15
+            "color": "#e0201b",
+            "width": 3,
+            "dash": [
+              8,
+              8
+            ]
           },
           {
             "type": "label",
             "text": "33 MM",
             "x": 960,
-            "y": 820,
-            "size": 48,
+            "y": 440,
+            "size": 44,
             "bold": true,
             "boil": 0.4,
             "fill": "#ffffff"
@@ -29680,8 +29811,8 @@
           {
             "type": "asset",
             "name": "two_fingers",
-            "x": 1380,
-            "y": 640,
+            "x": 1360,
+            "y": 660,
             "scale": 1.0,
             "appear": 0.2
           },
@@ -29904,9 +30035,9 @@
           {
             "type": "asset",
             "name": "sk54_skull_cap",
-            "x": 760,
-            "y": 800,
-            "scale": 0.55
+            "x": 780,
+            "y": 786,
+            "scale": 0.75
           },
           {
             "type": "asset",
@@ -30154,14 +30285,14 @@
             "type": "asset",
             "name": "sk54_skull_cap",
             "x": 960,
-            "y": 640,
+            "y": 700,
             "scale": 1.0
           },
           {
             "type": "asset",
             "name": "leopard_jaw",
             "x": 960,
-            "y": 390,
+            "y": 410,
             "scale": 1.0
           },
           {
@@ -30413,14 +30544,14 @@
             "type": "asset",
             "name": "sk54_skull_cap",
             "x": 960,
-            "y": 640,
+            "y": 700,
             "scale": 1.0
           },
           {
             "type": "asset",
             "name": "leopard_jaw",
             "x": 960,
-            "y": 585.0,
+            "y": 460,
             "scale": 1.0
           },
           {
@@ -30436,9 +30567,9 @@
           {
             "type": "wordart",
             "text": "THE FANGS FIT",
-            "x": 960,
-            "y": 830,
-            "size": 72,
+            "x": 1350,
+            "y": 790,
+            "size": 46,
             "boil": 0,
             "appear": 0.6
           },
@@ -30483,7 +30614,7 @@
       "camera": {
         "move": "zoom_in",
         "x": 960,
-        "y": 560,
+        "y": 600,
         "zoom": 1.06
       }
     },
@@ -32004,9 +32135,9 @@
           {
             "type": "wordart",
             "text": "BROUGHT IN",
-            "x": 400,
+            "x": 360,
             "y": 360,
-            "size": 76,
+            "size": 70,
             "boil": 0,
             "appear": 0.55
           },
@@ -52630,7 +52761,11 @@
             "silhouette": true,
             "flip": true,
             "appear": 0.3,
-            "glow_r": 0
+            "glow_r": 0,
+            "rim": {
+              "color": "#e0201b",
+              "px": 4
+            }
           },
           {
             "type": "doug",

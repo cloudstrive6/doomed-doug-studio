@@ -170,3 +170,72 @@ goes to the illustrator or the director.
 - s139: the croc stacked over the family car reads as a length comparison, and the croc is clearly longer.
 - s205: the full black "Doug has died. Again." frame is intentional and matches the other death beats.
 - s179: the black leopard silhouette is a "memory" of the s130 death. It is acceptable on a light background.
+
+---
+
+## Round 2 (art director, 2026-10-30)
+
+**Verdict: FAIL.** One item is still open: the SK 54 asset still reads as a face (a policy item, routed to the illustrator). Everything else is
+fixed or was fixed by me. I re-checked all 18 contact sheets (s001-s213 + endslate) against visual_review.md Round 1, after the illustrator
+redrew `sk54_skull_cap`, `hyena_cub`, `pachycrocuta`, `foot_skeleton`, `plaster_skull_cast` and `crowned_eagle_flying_cap`, and after
+the director's shotlist fixes. I opened individual frames where I needed a closer look, and I cross-checked against visual_review.md
+Round 2. I made the shotlist fixes below, validated (OK) and re-ran the full `keyframes` pass, so the contact sheets are current.
+
+### Round 1 items, re-checked
+- **1 Taung sockets (s082, s092):** fixed. The arrows stop at the lower rim, and only a thin red ring sits on each socket floor. There is
+  no stabbed-eye read.
+- **2 SK 54 (s108, s109, s114-s118):** **NOT FIXED** (fix A below). The back-view dome, "BACK VIEW" tag and side-skull inset were
+  added, but the two holes are still level and low (±55, +40) and sit right above a regular zig-zag break. At playback size it reads
+  as two eyes and a toothy grin. Any overlay between or near the holes makes it worse. The grey dashed line joining them read as
+  glasses, my red bracket above them read as a unibrow, and a red bar under them read as a mouth. I tested all three and removed them.
+- **3 Hyena cub (s202-s203):** fixed. It is a dark, spotted pup, and the bubble is a deadpan "Hello.".
+- **4-9 Text:** s006, s069, s107, s110 and s120 are clear. I fixed s005, s024 and s124 (fixes 1-3).
+- **10-11 Invisible:** s183 and s079 are fixed with the red rim. s204 had the same problem, and I fixed it (fix 5).
+- **12-17:** two skeletons lie together (s033, s042-s046). The foot skeleton is side-on in a dashed outline (s141-s149). The
+  skullcap cast with brow ridge sits on a stand (s207/s209). Doug is capless in s104. The flying eagle matches the grey crowned eagle
+  and carries only the cap (s101-s103). s180 shows the empty plate. All fixed.
+- **18-20 Variety:** fixed. No panel run is longer than 4.
+- **21-22:** s053 has three rocks. The s001 hyena has spots and a ridge, and it passes.
+
+### Fixes applied (by me, in `shotlist.json`)
+1. **s005:** `LUCY'S FALL` overlapped the branch's leaf clump. I moved the tree from x 760 to 560 and Doug from x 1150 to 1000 (still
+   pointing at the tree). The title now has clear sky around it.
+2. **s024:** `WEIGHT OF ROCK` crossed the leg bones. I moved it into the empty right half of the card, at (1320, 720) and size 46. The
+   skeleton is unchanged.
+3. **s124:** `BROUGHT IN` touched the canopy. x 400 → 360, size 76 → 70.
+4. **s114, s115:** I removed the dashed line between the holes. The "33 MM" label, and the two fingers on s115, carry the measurement.
+   Do not add any line or bracket near the holes again.
+5. **s204:** the mother hyena was a black silhouette on the black shadow wedge, so she was invisible. I added
+   `rim: {color: #e0201b, px: 4}` (house reveal style, as on s133/s183).
+6. **s116:** the skull is at scale 0.7, rotate -22, y 790, to break the level eye-pair. Re-check this after fix A.
+
+### Required fix (open)
+A. **`sk54_skull_cap` (illustrator), policy:**
+   - Move the two holes up into the upper third of the dome, on the parietals either side of the sagittal suture, at roughly (-50, -60)
+     and (+58, -68). Keep the spacing about 110 so "33 mm" still holds. Make them slightly different sizes (r 14 and r 12), not a
+     mirrored pair.
+   - Make the lower break edge irregular and gentle (low amplitude, uneven spacing), so it reads as a broken edge and not as a row of
+     teeth.
+   - Enlarge the side-view key to at least 200 px wide, with a black outline and the holes marked in red. Put "BACK OF SKULL" in a white
+     label box outside the dome.
+   - Then the director re-aligns the leopard fang tips to the new hole positions on s108, s109, s117 and s118 (move them up by about
+     100 x scale), and the red arrows on s108.
+   - Re-screen s108-s118 at contact-sheet size. The test: cover the label, and if you see a face, it fails.
+   - Alternative if this still reads as a face: switch to a side profile (face to the left, dashed outline for the missing face and
+     jaw, holes on the upper back of the vault), as visual_review.md Round 2 suggests.
+
+### Thumbnail click test (feed size 168x94, title "The Worst Deaths Scientists Have Found in Our Ancestors' Bones")
+- **A, `thumbnail.png` "LEFTOVERS" (giant hyena):** one huge threat face on a red disc against near-black. It has the highest contrast
+  and the most distinctive look in the feed. "LEFTOVERS" opens a curiosity gap that the title answers (our ancestors were the food),
+  and it is the s001 opening frame, so the click and the first second match. Weaknesses: Doug is small (about 1/3 of the height, so his
+  face is hard to read at 168 px), and the long snout with tall ears drifts toward rat or kangaroo. Optional for the graphic designer:
+  enlarge Doug about 1.4x, and give the head a blunter, deeper muzzle with shorter round ears.
+- **B, `thumbnail_b.png` "ANKLE DEEP" (crocodile):** bright and clean, with open jaws next to a big readable Doug. It reads fastest of
+  the three, and the screener rates it highest. But it says "croc attack", not "ancestors' bones", so it under-sells this title
+  and looks like every other nature channel. It is a strong A/B alternate.
+- **C, `thumbnail_c.png` (2x3 grid):** fail. The labels are illegible at 168 px, six equal focal points compete, there is almost no Doug,
+  and a blank band of about 100 px runs along the bottom. It reads as a marathon card.
+- **I'd approve A** as the primary, with B as the YouTube A/B test variant. C is not used for this episode.
+
+**Final verdict: FAIL.** The only open item is fix A (the SK 54 asset plus fang re-alignment). Everything else on the keyframes
+passes.

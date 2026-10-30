@@ -45,3 +45,47 @@ What works: Doug is on-model (red cap, white head) and readable in every shot he
 22. **s001 (graphic designer):** The opening/thumbnail hyena head has round ears, no spots and a bear-like muzzle, so it reads as a bear. Add hyena spots and a sloped mane ridge so it matches the giant hyena in s186/s193.
 
 Routing summary: director 4–12, 15, 17–20; illustrator 1–3, 10, 12–14, 16, 21; graphic designer 22. Re-screen after fixes, focusing on the policy items 1–3.
+
+## Round 2 (pre-render keyframes + thumbnails, 2026-10-30)
+
+Scope: re-rendered `build/contact/sheet_01..18.png` and keyframes, checked against each Round 1 item, plus `build/thumbnail{,_b,_c}.png` and their `_small` versions.
+Note: the working-tree `shotlist.json` has uncommitted edits to s114, s115, s116 and s204 that are newer than the contact sheets. I rendered those four from the working tree with `studio art` into /tmp and judged both versions. The verdict is the same either way.
+
+VERDICT: FAIL (keyframes). One policy item is still open (SK 54 reads as a face) plus two text overlaps that were not fixed.
+
+### Round 1 items: status
+- 1 Taung arrows (s082, s092): **FIXED.** The arrows now stop at the cheek / lower rim and the sockets carry only thin red rings. No stabbed-eye read. (Optional: the black hole inside each ring looks a little like a pupil, so dropping the ring's inner fill would be cleaner. Not required.)
+- 2 SK 54 skull (s108, s109, s114–s118): **NOT FIXED.** See fix 1 below.
+- 3 Hyena cub (s202–s203): **FIXED.** It is now a spotted pup with a dark muzzle and round ears, and the bubble reads a deadpan "Hello." It no longer has a nursery tone.
+- 4 s006: fixed. 5 s069: fixed. 6 s107: fixed. 7 s120: fixed. **s005: not fixed** (fix 2). s124: passes, though "BROUGHT IN" now butts against the canopy edge. 8 **s024: not fixed** (fix 3). 9 s110: fixed.
+- 10 s183: fixed (red-outlined hyena). 11 s079: fixed (red rim eagle).
+- 12 "Together" (s033, s042–s046): fixed, with two skeletons side by side.
+- 13 Foot bones (s141–s149): fixed. It reads as a side-on foot inside a dashed outline.
+- 14 Plaster cast (s207, s209): fixed. It reads as a skullcap with a brow and no face toward camera.
+- 15 s104 capless: fixed. 16 Flying eagle now matches the grey crowned eagle and carries only the cap: fixed. 17 s180 empty plate + "ALL OF IT": fixed.
+- 18–20 Variety: fixed. s012 and s016 are Doug shots, s064 and s066 are Doug mimes, and s112 (tree), s113 (chalkboard) and s116 (ground scene) break the skull run.
+- 21 s053: fixed (three rocks). 22 s001 hyena: spots and a dark ridge were added. It passes, but see thumbnail A note.
+- s204 (working tree): the mother hyena is now a red-outlined silhouette, which reads well. OK.
+
+### Required fixes
+1. **SK 54 skull reads as a face (illustrator, asset `sk54_skull_cap`; director for s114/s115/s116). POLICY, must fix.** The holes are still centred low and side by side (±55, +40) under a wide dome. The new jagged lower break now reads as a row of teeth. At contact-sheet size, s108/s109/s114/s115/s117/s118 look like a round creature with two eyes and a toothy mouth, and s116 (skull lying on the ground) looks like a cute critter peeking out. Neither the "BACK VIEW" caption (about 20 px, thin grey, overlapping the broken edge) nor the side-view key (about 80 px, faint grey) is readable at playback size. Overlays make it worse:
+   - committed keyframes s114/s115: a black dashed line joins the two holes like a pair of glasses;
+   - working-tree s114/s115: the red bracket sits above the holes like a unibrow.
+   Change it to one of these (preferred first):
+   a. **Switch the hero view to a side profile** of a young skull: face pointing left, light dashed outline for the missing face and jaw, and the solid fossil piece covering only the back-top. Put the two holes on the upper back of the vault (parietal) and keep them small. A profile cannot read as a face looking at the camera. Draw the leopard jaw in s108/s109/s117/s118 coming from behind/above, lined up with the holes.
+   b. If the back view stays: move the holes up into the top third of the dome, at different heights and sizes as on the real fossil (not mirror-symmetric). Replace the toothed lower break with a smooth or irregular flat break, with no regular zig-zag. Add a large solid-line side-view key (at least 200 px, black outline, holes marked in red) and put a "BACK OF SKULL" label in a white box outside the drawing.
+   For the 33 mm measure (s114/s115), use a red dimension line *below* the holes with end ticks, never a line joining the holes and never a bar above them. On s116, do not lay the skull on the ground facing camera. Show the stone tool vs. a small side-profile skull, or keep it on the card.
+2. **s005 (director):** "LUCY'S FALL" (x 1380, size 130) still touches the right-hand branch's leaf clump. Move it to y ≈ 250 and x ≈ 1450, or cut it to size 110, so there is clear sky between the text and the canopy.
+3. **s024 (director):** "WEIGHT OF ROCK" (wordart y 830) still crosses Lucy's lower leg bones. Move the skeleton up (y 560, scale 0.7) or the word to y 850 at size 54 so it sits under the feet.
+4. **s124 (director, minor):** shift "BROUGHT IN" about 40 px left so it no longer touches the canopy.
+
+### Thumbnails
+- **A, `thumbnail.png` (LEFTOVERS + hyena head): PASS.** At 168 px the word, Doug (red cap) and a large toothy predator are all clear, with a strong red disc focal point. Not misleading: the giant hyena is the last chapter. Optional (graphic designer): the tall pointed ears and long thin snout still read slightly as a rat or kangaroo at feed size. Shorter round ears and a blunter, deeper muzzle would make "hyena" obvious and match s186/s193.
+- **B, `thumbnail_b.png` (ANKLE DEEP + crocodile): PASS.** It is the strongest of the three: one clear focal point (open jaws next to Doug), Doug readable at feed size, and a two-word hook that pays off in s154. Nothing to fix.
+- **C, `thumbnail_c.png` (2×3 grid): FAIL (graphic designer).**
+  (a) The grid ends at about y 620, leaving a blank white band of about 100 px (14% of the frame). Scale the tiles up to fill the canvas.
+  (b) At 168 px the mixed-case labels are about 6 px tall and hard to read, and tile art plus labels make six equal focal points. Enlarge the tiles. Use bold uppercase labels in the channel's label style, or drop the labels and rely on the art.
+  (c) The eagle's head touches the top of its tile. Scale the eagle to about 85% and centre it.
+  (d) Doug appears only as a tiny figure in tile 1. Consider putting him in the Giant Hyena tile, the payoff, so the variant still has "Doug + threat".
+
+Routing: illustrator 1 (asset); director 1 (s114–s116 overlays/staging), 2–4; graphic designer C (and optional A). Re-screen s108–s118 and s005/s024 after the fix. Everything else is cleared.
