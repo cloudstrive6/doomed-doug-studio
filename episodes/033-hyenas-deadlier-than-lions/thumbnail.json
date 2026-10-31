@@ -1,5 +1,5 @@
 {
- "_note": "Variant A (hero; video opening image s001 via scene_ref): night navy field, tiny red-capped Doug (shock) aims a torch whose wide beam lands on one huge, sloped spotted hyena (spotted_hyena_giggle, flipped, scale 1.55, jaws open, tense not smiling) filling the right ~60%; pairs of yellow-green eyeshine in the dark around him; a male lion turned away to the left, leaving. Text NOT SCAVENGERS (Arimo bold, white, black outline): contradicts the hyena-as-scavenger myth, no title/alt word, not LEFTOVERS. No disc, no cub, no blood.",
+ "_note": "Variant A (hero; video opening image s001 via scene_ref): night navy field, tiny red-capped Doug (shock) aims a torch whose wide beam lands on one huge, sloped spotted hyena (spotted_hyena_giggle, flipped, scale 1.55, jaws open, tense not smiling) filling the right ~60%; pairs of yellow-green eyeshine low in the dark near the ground line; a lioness (lioness_walking, no mane; the script says lions only keep the kill when a male is there) turned away to the left, leaving. Text NOT SCAVENGERS (Arimo bold, white, black outline): contradicts the hyena-as-scavenger myth, no title/alt word, not LEFTOVERS. No disc, no cub, no blood.",
  "background": "#142446",
  "size": [
   1280,
@@ -55,7 +55,7 @@
   {
    "type": "spray",
    "x": 93,
-   "y": 170,
+   "y": 420,
    "r": 34,
    "color": "#d8ff5a",
    "density": 0.05
@@ -63,7 +63,7 @@
   {
    "type": "circle",
    "x": 80,
-   "y": 170,
+   "y": 420,
    "r": 9,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -74,7 +74,7 @@
   {
    "type": "circle",
    "x": 106,
-   "y": 170,
+   "y": 420,
    "r": 9,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -84,27 +84,16 @@
   },
   {
    "type": "spray",
-   "x": 210,
-   "y": 200,
+   "x": 230,
+   "y": 360,
    "r": 27,
    "color": "#d8ff5a",
    "density": 0.05
   },
   {
    "type": "circle",
-   "x": 200,
-   "y": 200,
-   "r": 7,
-   "fill": "#d8ff5a",
-   "color": "#d8ff5a",
-   "width": 1,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "circle",
    "x": 220,
-   "y": 200,
+   "y": 360,
    "r": 7,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -113,29 +102,10 @@
    "wobble": 0
   },
   {
-   "type": "spray",
-   "x": 411,
-   "y": 250,
-   "r": 30,
-   "color": "#d8ff5a",
-   "density": 0.05
-  },
-  {
    "type": "circle",
-   "x": 400,
-   "y": 250,
-   "r": 8,
-   "fill": "#d8ff5a",
-   "color": "#d8ff5a",
-   "width": 1,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "circle",
-   "x": 423,
-   "y": 250,
-   "r": 8,
+   "x": 240,
+   "y": 360,
+   "r": 7,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
    "width": 1,
@@ -145,45 +115,75 @@
   {
    "type": "spray",
    "x": 280,
-   "y": 330,
+   "y": 455,
+   "r": 30,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 269,
+   "y": 455,
+   "r": 8,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 292,
+   "y": 455,
+   "r": 8,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 130,
+   "y": 250,
    "r": 27,
    "color": "#d8ff5a",
    "density": 0.05
   },
   {
    "type": "circle",
-   "x": 270,
-   "y": 330,
+   "x": 120,
+   "y": 250,
    "r": 7,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
    "width": 1,
    "boil": 0,
    "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 140,
+   "y": 250,
+   "r": 7,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 300,
+   "y": 250,
+   "r": 27,
+   "color": "#d8ff5a",
+   "density": 0.05
   },
   {
    "type": "circle",
    "x": 290,
-   "y": 330,
-   "r": 7,
-   "fill": "#d8ff5a",
-   "color": "#d8ff5a",
-   "width": 1,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "spray",
-   "x": 70,
-   "y": 300,
-   "r": 27,
-   "color": "#d8ff5a",
-   "density": 0.05
-  },
-  {
-   "type": "circle",
-   "x": 60,
-   "y": 300,
+   "y": 250,
    "r": 7,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -193,8 +193,8 @@
   },
   {
    "type": "circle",
-   "x": 80,
-   "y": 300,
+   "x": 310,
+   "y": 250,
    "r": 7,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -204,16 +204,16 @@
   },
   {
    "type": "spray",
-   "x": 569,
-   "y": 330,
+   "x": 600,
+   "y": 585,
    "r": 23,
    "color": "#d8ff5a",
    "density": 0.05
   },
   {
    "type": "circle",
-   "x": 560,
-   "y": 330,
+   "x": 591,
+   "y": 585,
    "r": 6,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -223,8 +223,8 @@
   },
   {
    "type": "circle",
-   "x": 578,
-   "y": 330,
+   "x": 609,
+   "y": 585,
    "r": 6,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -234,7 +234,7 @@
   },
   {
    "type": "asset",
-   "name": "lion_male",
+   "name": "lioness_walking",
    "x": 200,
    "y": 690,
    "scale": 0.5,

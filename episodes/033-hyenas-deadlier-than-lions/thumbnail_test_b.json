@@ -1,5 +1,5 @@
 {
- "_note": "Variant B (Doug in peril): night, a ring of yellow-green eyeshine and two open-jawed spotted hyenas (spotted_hyena_giggle, tense, not smiling) closing in from both edges; a male lion in the middle turns to face one of them; red-capped Doug cowers (gritted, sweat) behind the lion, the wrong place to hide. Text WRONG CHOICE (Arimo bold, white, black outline; 2 words per the B rule, shortened from the brief HE CHOSE WRONG); no title/alt word. No kill carcass drawn (no gore), no cub, no disc.",
+ "_note": "Variant B (Doug in peril): night, a ring of yellow-green eyeshine and two open-jawed spotted hyenas (spotted_hyena_giggle, tense, not smiling) closing in from both edges; a lioness (no mane, scaled ~15% smaller so the open-jawed hyenas stay the focal threat) in the middle turns to face one of them; with no male there, hiding behind her is the wrong choice by the video's own fact; red-capped Doug cowers (gritted, sweat) behind the lion, the wrong place to hide. Text WRONG CHOICE (Arimo bold, white, black outline; 2 words per the B rule, shortened from the brief HE CHOSE WRONG); no title/alt word. No kill carcass drawn (no gore), no cub, no disc.",
  "background": "#101a33",
  "size": [
   1280,
@@ -51,16 +51,16 @@
   },
   {
    "type": "spray",
-   "x": 260,
-   "y": 120,
+   "x": 200,
+   "y": 230,
    "r": 27,
    "color": "#d8ff5a",
    "density": 0.05
   },
   {
    "type": "circle",
-   "x": 250,
-   "y": 120,
+   "x": 190,
+   "y": 230,
    "r": 7,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -70,8 +70,8 @@
   },
   {
    "type": "circle",
-   "x": 270,
-   "y": 120,
+   "x": 210,
+   "y": 230,
    "r": 7,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -370,17 +370,17 @@
   },
   {
    "type": "asset",
-   "name": "lion_male",
+   "name": "lioness",
    "x": 600,
    "y": 620,
-   "scale": 0.6,
+   "scale": 0.51,
    "flip": true,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "doug",
-   "x": 870,
+   "x": 815,
    "y": 555,
    "scale": 0.55,
    "pose": "cower",

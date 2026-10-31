@@ -51,3 +51,76 @@ blocker. Two optional polish notes are at the end.
    It is on screen for only two shots (s129, s131) and reads well enough as a dive, so it stays approved.
 2. `hyena_goalie`: the blocker pads read a bit like milk cartons. Squarer pads with a coloured stripe would sell "goalie"
    faster. It is a one-shot gag (s177).
+
+---
+
+# 033-hyenas-deadlier-than-lions: art review (keyframes + thumbnails)
+
+Reviewer: art director, 2026-10-31
+Scope: `build/contact/sheet_01..17` (s001-s202 + endslate), full-size checks on `build/keyframes/s003, s110, s171, s174, s197`,
+and the three thumbnails `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` (+ the 168x94 `_small` versions).
+
+## Keyframes verdict: FAIL (4 required fixes, all composition, route to director; no asset goes back to the illustrator)
+
+What is right, and must stay: the night ramp darkens cleanly hour by hour (dusk `#8a6a8a`/`#e59a5e` -> 8 PM `#4a3f5e` ->
+9 PM `#3b3550` -> 11 PM `#1b2f5a` -> 12 AM `#142446` -> 1 AM `#101c38` -> 3-4 AM `#0b1020`/`#0c1424` -> 5 AM grey `#4a4f5e` ->
+dawn sunset), and every death beat drops to the near-black `#0b0f14` card. The HUD (moon clock, DOUG DEATHS, LION | HYENA
+board) is in the same place in every shot and is left off the sober cards (s160, s165, s181), which matches the bible. Doug is on-model in all
+203 frames: red cap visible everywhere, ghost Doug included, and his expressions stay inside the fixed set. Doug auto-inks white on the dark grounds.
+Crude humans (Kruuk, scientist, hyena man) and the detailed animals keep the two tiers apart. There is no gore anywhere. The
+dark-red jaws read as mouths, and the remains (s120) are grey and bloodless. Red-rim silhouettes come before reveals (s071, s134, s164, s166).
+Layouts vary well: field, diagram card, map, calendar grid, bus, pyramid, split screen, chalkboard, track, rink, wall/gate.
+No run of 5 shots repeats the same composition.
+
+### Required fixes (director)
+1. **s048, s049, s069, s090, s091, s116, s132, s155, s171, s197: the field guide's NO stamps collide.** The stamps are
+   placed at 35.75 px steps at size 28.6 (scale 0.55), and at 84.5 px steps at size 67.6 in s197. A bold "NO" is wider than
+   that step, so each row prints as one word: "NONO", "NONONO", and in the s197 close-up "NCNCNCNO / NCNCNO". From
+   s116 on, the 4th column also runs off the right edge of the page. This is the episode's running device and right now it reads as a typo.
+   Fix: keep every stamp inside the right page's writing area (asset x +40..+250) with at most 3 per row. Use size
+   = 21 x (scale/0.55) and step = 1.8 x size horizontally, 1.25 x size vertically, starting under MAYBE. That gives
+   size 21 / step 38 at scale 0.55, and size 50 / step 90 at scale 1.3. Rows of 3 fit all 7 NOs in 3 rows. Re-render
+   s197 full size and confirm every NO stands on its own and inside the page.
+2. **s174, s175, s178, s190, s191, s192, s193, s194, s198: the standing `lioness` is drawn on top of the two `lioness_crouched`.**
+   Its legs straddle the near lioness's back, so the group reads as one lion standing on (or mounting) another, not a pride on a
+   kill. Fix: draw the standing `lioness` before both crouched ones, so it sits behind them and the near pair hides its legs. Keep its y at 880.
+   Or move it clear to one side (x ≈ 620 in s174). Apply the same element order in every shot that reuses this group.
+3. **s003 (cold-open promise "Doug hides behind lions"):** Doug crouches nose-to-nose with the lioness's face and
+   smiles, so he is in front of her, not hiding. Fix: move Doug to around x 700, behind her body, and draw him before the lioness so her
+   torso covers his legs. Put his head and cap just above her back line, expression gritted or shock. That also sets up the s190 payoff.
+4. **s167:** the thought bubble's tail goes to (1700, 780), the small lion silhouette, so the lion seems to be
+   picturing a lion. The line is "Lions are what people picture". Fix: point the tail at Doug's head (around 300, 640), or at the
+   house, and keep the far silhouette.
+
+### Optional polish (non-blocking)
+1. **s171 / s172:** Doug's cap floats at y 630, well above the LIONS: NO sign and the ground. Hang it on the sign's
+   top edge or drop it to the mat line (y ≈ 885). Keep the mat in s171 so it follows on from s170.
+2. **s110:** the narrator's sleeve covers the whole HYENA column of the chalkboard. Shorten or raise the arm so the hand
+   is only at the LION column and the hyena tallies stay visible.
+3. **s111:** the bubble tail ends at Doug's legs (620, 820). Aim it at his head (about 520, 640).
+4. **s144:** "PORRIDGE" at y 1050 is outside title-safe. Move it to y ≈ 1015 or put it beside the bowl. **s009:** "TAKEAWAY"
+   touches the right safe margin. Shift it about 40 px left.
+5. **s100:** the left bus touches the frame edge and the pair sits left of centre. Centre the two buses.
+
+## Thumbnails (creative gate)
+
+- **A, `thumbnail.png` (archetype C hero, "NOT SCAVENGERS"): PASS, I'd click.** A huge hyena with open jaws fills 60% of the
+  frame. The small red-capped Doug's torch beam lands on it, and the lion walking out of frame tells the whole premise
+  without the title. The text is 2 words and does not repeat a word from the title. It still reads at 168x94 (hyena, beam, cap, text). Polish (optional): the
+  eyeshine pairs float high in the sky (y 160-330) and look a little like fireflies. Drop a few of them lower toward the
+  ground line so they read as animals in the dark.
+- **B, `thumbnail_b.png` ("WRONG CHOICE"): PASS, I'd click.** It is symmetric and readable. Doug hides behind a male lion
+  inside the torch pool with mirrored hyena heads closing in from both edges. The joke (he picked the lion) works at feed size. Polish
+  (optional): one eyeshine pair sits under the W of WRONG. Move it clear of the text.
+- **C, `thumbnail_c.png` (archetype A, 6 tiles): FAIL, I would not click it.** It is technically valid: 6 tiles, chapter
+  labels, 1 font, readable at 168x94. As packaging it is the weakest: 5 of 6 tiles show the same sandy hyena on a flat colour,
+  so at feed size it is a row of tan blobs. Nothing in it sets hyena against lion, which is the whole title. Doug appears only as a tiny runner in
+  CHASE, and there is no stakes image. Fixes, if it stays in the A/B/C test (graphic designer): (a) LIE becomes a lion with a THIEF sign,
+  (b) BITE becomes the six stick men on the jaw (`jaw_top` + `stick_man_plain`), which is a scale gag that reads small,
+  (c) MOB becomes a lion walking away from many eyeshine pairs, (d) CLAN becomes the two school buses. Re-check at 168x94.
+  If those changes are not made, test only A vs B.
+
+## Summary
+Keyframes: **FAIL**. Fix s048/s049/s069/s090/s091/s116/s132/s155/s171/s197 (NO stamps), s174/s175/s178/s190-s194/s198
+(lioness stack), s003 (hide behind the lion) and s167 (bubble tail), then re-render those keyframes for a re-check. Style, Doug and the zone ramp
+otherwise pass. Thumbnails: **A PASS, B PASS, C FAIL**.

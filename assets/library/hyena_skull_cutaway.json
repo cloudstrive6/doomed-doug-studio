@@ -1,6 +1,6 @@
 {
  "name": "hyena_skull_cutaway",
- "description": "Side-view spotted hyena skull diagram, school-chart look: clean cream #efe2c0 bone with brown outline, high domed forehead and sagittal crest, big eye orbit, zygomatic arch, deep lower jaw, incisors and canines white, and the heavy bone-cracking cheek teeth (premolars) highlighted in red #e0201b around (+80,+60). Clean and clinical, not a fossil (no rock, no cracks). Anchor centre, ~610x360.",
+ "description": "Side-view spotted hyena skull diagram, school-chart look: clean cream #efe2c0 bone with brown outline, high domed forehead and sagittal crest, big eye orbit, zygomatic arch, deep lower jaw, incisors and canines white, and the heavy bone-cracking cheek teeth (premolars) highlighted with a bone-yellow #f6e2a0 fill and thick red #e0201b outline (no red fill, avoids a bloody-teeth read) around (+80,+60). Clean and clinical, not a fossil (no rock, no cracks). Anchor centre, ~610x360.",
  "anchor": [
   0,
   0
@@ -383,9 +383,9 @@
      64.0
     ]
    ],
-   "fill": "#e0201b",
-   "width": 4,
-   "color": "#6b4a2a"
+   "fill": "#f6e2a0",
+   "width": 5,
+   "color": "#e0201b"
   },
   {
    "type": "poly",
@@ -411,9 +411,9 @@
      77.5
     ]
    ],
-   "fill": "#e0201b",
-   "width": 4,
-   "color": "#6b4a2a"
+   "fill": "#f6e2a0",
+   "width": 5,
+   "color": "#e0201b"
   },
   {
    "type": "poly",
@@ -439,9 +439,9 @@
      83.5
     ]
    ],
-   "fill": "#e0201b",
-   "width": 4,
-   "color": "#6b4a2a"
+   "fill": "#f6e2a0",
+   "width": 5,
+   "color": "#e0201b"
   },
   {
    "type": "poly",
@@ -467,9 +467,9 @@
      70.0
     ]
    ],
-   "fill": "#e0201b",
-   "width": 4,
-   "color": "#6b4a2a"
+   "fill": "#f6e2a0",
+   "width": 5,
+   "color": "#e0201b"
   },
   {
    "type": "poly",
@@ -551,9 +551,9 @@
      44.1
     ]
    ],
-   "fill": "#e0201b",
-   "width": 4,
-   "color": "#6b4a2a"
+   "fill": "#f6e2a0",
+   "width": 5,
+   "color": "#e0201b"
   },
   {
    "type": "poly",
@@ -579,9 +579,9 @@
      32.5
     ]
    ],
-   "fill": "#e0201b",
-   "width": 4,
-   "color": "#6b4a2a"
+   "fill": "#f6e2a0",
+   "width": 5,
+   "color": "#e0201b"
   },
   {
    "type": "poly",
@@ -607,9 +607,9 @@
      30.1
     ]
    ],
-   "fill": "#e0201b",
-   "width": 4,
-   "color": "#6b4a2a"
+   "fill": "#f6e2a0",
+   "width": 5,
+   "color": "#e0201b"
   },
   {
    "type": "poly",
@@ -635,9 +635,9 @@
      40.1
     ]
    ],
-   "fill": "#e0201b",
-   "width": 4,
-   "color": "#6b4a2a"
+   "fill": "#f6e2a0",
+   "width": 5,
+   "color": "#e0201b"
   },
   {
    "type": "poly",

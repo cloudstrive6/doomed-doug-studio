@@ -144,6 +144,19 @@ item by item from bright midday to night. The sober cards are the darkest step a
 | Night falling (Roll) | `#3b3550`; diagram card `#2a3040` | `#2f3a2a` |
 | Sober cards (Legend, Menu) | near-black `#15181a` / `#1a1d22`, white `label`s, white title | maps in muted `#2a3440` sea / `#4a5a48` land |
 | Night river / city (Menu Doug beats, Comeback) | `#0b0f14`, city night `#0b1020` | `#0d1410` / `#0f1e1c`; history cards sepia `#e9dcc0` |
+**Savanna one-night ramp (from 033; reuse for any "dusk to dawn" episode).** Items darken by the hour. Death beats go to
+`#0b0f14` / ground `#141a14`, and diagram cards stay cream `#f4f1dc`. HUD: moon clock top left, counter + LION | HYENA board top right.
+| Hour | Sky | Ground |
+|---|---|---|
+| Dusk (7 PM) | `#8a6a8a` over `#e59a5e`; late dusk `#4a3f5e` over `#6a4a5a` | `#b8913a`; `#3a3428` |
+| 8 PM / 9 PM | `#4a3f5e` / `#3b3550` | `#33302a` / `#2f3a2a` |
+| 11 PM / 12 AM / 1 AM | `#1b2f5a` / `#142446` / `#101c38` | `#2b3d33` / `#22332b` / `#1d2b25` |
+| 3-4 AM | `#0b1020` / `#0c1424` | town sand `#a8987a`; field `#141e1a` |
+| 5 AM grey light | `#4a4f5e` over `#6a6a72` | `#2a2e28` |
+| Dawn | `#f2a24a` over `#f6c45a` | `#c9a24a` |
+**Stamp rows on a prop (from 033):** repeated text stamps such as NO need a step of ≥ 1.8 x size, at most 3 per row, and must stay inside the
+page or prop. Tighter steps merge into one word ("NONONO").
+
 **Open-jaw head cut edge (from 027):** `croc_jaws_open` ends in a flat vertical back edge. Never place it with that edge mid-frame (it
 reads as a severed head). Push the back edge past the frame edge (flip it if needed), or use an asset whose neck runs off-frame.
 
