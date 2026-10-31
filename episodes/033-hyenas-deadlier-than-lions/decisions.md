@@ -58,3 +58,7 @@ Inputs: metadata.json, build/thumbnail.png (A, lead), build/chapters.txt, build/
 4. **Description: approved.** Every hook claim maps to the script: 80%+ (line 1), about 5 km chases (Kruuk), clans of about 130, hand feeding in Harar, the lions leaving. Six sources, disclaimer, AI-use note, no safety advice. Chapters start at 0:00, there are 10 entries, and "Intro" is 11 s. Tags and the `animals` playlist are fine.
 5. **Not made for kids**: adult-coded tone throughout and no nursery signals. Shorts (short03 re-render) are outside this gate.
 FINAL: APPROVED
+
+## 2026-10-31, showrunner: post-render round 2
+QC re-run exits 0 (no problems). Visual screener: main PASS, shorts PASS (short03 outro fixed). CD package approval stands.
+FINAL: APPROVED

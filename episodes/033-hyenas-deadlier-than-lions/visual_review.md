@@ -174,3 +174,35 @@ Inputs: `build/samples/f_001..f_023` (every 30 s of the 678.2 s final), `build/q
 
 VERDICT (main): PASS
 VERDICT (shorts): FAIL
+
+## Round 4: post-render round 2 (Shorts re-render re-check) (2026-10-31)
+
+What I checked: `build/samples/f_001..f_023` (taken again at 18:06 from the 17:56 final.mp4, 678.2 s), `build/qc.json` (problems: none),
+`build/thumbnail*.png`, `metadata.json`, `shorts.json`, and the re-rendered `build/shorts/short01-03.mp4` and
+`_preview.png`. I pulled 6 frames from each Short: two from the body, then at -8, -5, -3 and -1 s. I also looked at short03's final frame at full size.
+
+### Main video
+- The samples match round 3. There are no black, blank, frozen or glitched frames. The HUD goes in order (7 PM to 5 AM,
+  DOUG DEATHS 260 to 266, LION|HYENA 0|0 to 2|8). Text is legible and uncropped, with no gore read. Thumbnails A, B and C are
+  unchanged since round 3 and still read at feed size. They are honest to "Why Hyenas Are Deadlier to Doug Than Lions" and repeat no
+  title word. Nothing has regressed.
+
+### Shorts
+- All three are 1080x1920 (32.2 s, 50.5 s, 43.3 s). Title band, subtitles, @DoomedDoug and the down-arrow end card are all
+  intact. The 16:9 picture isn't cut off at the sides.
+- **short03 (fixed)**: the reworded outro in shorts.json ("Two hours later, Doug hid behind a pride of lionesses for
+  safety. Then the lions got up and walked away from him. Full video below.") is the one that's spoken and subtitled
+  ("of lionesses for safety." / "Then the lions got" / "from him. Full video"). The cause (the whooping clan) is no
+  longer given away, so WHY DID THE LIONS LEAVE DOUG? stays open. The silhouette is a red-outlined big cat with a
+  long body and tail, which reads as a lioness, and it matches the question. The body still pays off the title (HARAR wall, hole,
+  porridge, RITUAL). PASS.
+- **short01**: unchanged and still passes (skeleton, meat/bone/hair, 4,500 NEWTONS; the walking-stick tease stays
+  unanswered; the hyena silhouette is recognisable).
+- **short02**: unchanged and still passes (whoop rings, Berkeley; "Doug counted to twelve" stays unanswered).
+- Advisory from round 3 still applies, but neither point blocks: the "???" on short01/02 covers the silhouette's head, and short01/02 use
+  near-identical hyena poses.
+
+No required fixes.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
