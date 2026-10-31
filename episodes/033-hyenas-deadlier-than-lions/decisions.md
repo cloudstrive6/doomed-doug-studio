@@ -45,3 +45,4 @@ Feed-size screen (168x94): WRONG CHOICE is legible, the red cap is clearly visib
 Advisory (not blocking, only if cheap on a later pass): Doug is drawn on top of her rump. Putting him one layer under the lioness so her haunch covers his shoulder would make "behind" literal.
 **B: APPROVED** as a Test & Compare variant with A (lead) and C.
 Stage not changed.
+- 2026-10-31: packaged. Rounds: script 2 (screener FAIL then PASS), assets 1, keyframes 2 (art+visual PASS r2), thumbnails A/C approved, B revised once. Runtime ~11.3 min. Risks: day-7 gate on 024 (judged 11-02), 032 hyena overlap (thumbnails differ).
