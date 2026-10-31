@@ -1,5 +1,5 @@
 {
- "_note": "Variant B (Doug in peril): night, a ring of yellow-green eyeshine and two open-jawed spotted hyenas (spotted_hyena_giggle, tense, not smiling) closing in from both edges; a lioness (no mane, scaled ~15% smaller so the open-jawed hyenas stay the focal threat) in the middle turns to face one of them; with no male there, hiding behind her is the wrong choice by the video's own fact; red-capped Doug cowers (gritted, sweat) behind the lion, the wrong place to hide. Text WRONG CHOICE (Arimo bold, white, black outline; 2 words per the B rule, shortened from the brief HE CHOSE WRONG); no title/alt word. No kill carcass drawn (no gore), no cub, no disc.",
+ "_note": "Variant B (Doug in peril): night, a ring of yellow-green eyeshine and two open-jawed spotted hyenas (spotted_hyena_giggle, tense, not smiling) closing in from both edges; a lioness (no mane, scaled ~15% smaller so the open-jawed hyenas stay the focal threat) in the middle turns to face one of them; with no male there, hiding behind her is the wrong choice by the video's own fact; red-capped Doug (white ink) crouches low (gritted, sweat) behind the lioness's rump, overlapping her, the wrong place to hide. Text WRONG CHOICE (Arimo bold, white, black outline; 2 words per the B rule, shortened from the brief HE CHOSE WRONG); no title/alt word. No kill carcass drawn (no gore), no cub, no disc.",
  "background": "#101a33",
  "size": [
   1280,
@@ -231,16 +231,16 @@
   },
   {
    "type": "spray",
-   "x": 309,
-   "y": 300,
+   "x": 330,
+   "y": 380,
    "r": 23,
    "color": "#d8ff5a",
    "density": 0.05
   },
   {
    "type": "circle",
-   "x": 300,
-   "y": 300,
+   "x": 321,
+   "y": 380,
    "r": 6,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -250,8 +250,8 @@
   },
   {
    "type": "circle",
-   "x": 318,
-   "y": 300,
+   "x": 339,
+   "y": 380,
    "r": 6,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -261,16 +261,16 @@
   },
   {
    "type": "spray",
-   "x": 1009,
-   "y": 260,
+   "x": 950,
+   "y": 370,
    "r": 23,
    "color": "#d8ff5a",
    "density": 0.05
   },
   {
    "type": "circle",
-   "x": 1000,
-   "y": 260,
+   "x": 941,
+   "y": 370,
    "r": 6,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -280,8 +280,8 @@
   },
   {
    "type": "circle",
-   "x": 1018,
-   "y": 260,
+   "x": 959,
+   "y": 370,
    "r": 6,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -291,16 +291,16 @@
   },
   {
    "type": "spray",
-   "x": 429,
-   "y": 170,
+   "x": 470,
+   "y": 330,
    "r": 23,
    "color": "#d8ff5a",
    "density": 0.05
   },
   {
    "type": "circle",
-   "x": 420,
-   "y": 170,
+   "x": 461,
+   "y": 330,
    "r": 6,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -310,8 +310,8 @@
   },
   {
    "type": "circle",
-   "x": 438,
-   "y": 170,
+   "x": 479,
+   "y": 330,
    "r": 6,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -321,16 +321,16 @@
   },
   {
    "type": "spray",
-   "x": 789,
-   "y": 160,
+   "x": 820,
+   "y": 320,
    "r": 23,
    "color": "#d8ff5a",
    "density": 0.05
   },
   {
    "type": "circle",
-   "x": 780,
-   "y": 160,
+   "x": 811,
+   "y": 320,
    "r": 6,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -340,8 +340,8 @@
   },
   {
    "type": "circle",
-   "x": 798,
-   "y": 160,
+   "x": 829,
+   "y": 320,
    "r": 6,
    "fill": "#d8ff5a",
    "color": "#d8ff5a",
@@ -352,18 +352,18 @@
   {
    "type": "asset",
    "name": "spotted_hyena_giggle",
-   "x": -10,
+   "x": 50,
    "y": 730,
-   "scale": 0.92,
+   "scale": 1.0,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "asset",
    "name": "spotted_hyena_giggle",
-   "x": 1300,
+   "x": 1240,
    "y": 730,
-   "scale": 0.92,
+   "scale": 1.0,
    "flip": true,
    "boil": 0,
    "wobble": 0
@@ -380,17 +380,18 @@
   },
   {
    "type": "doug",
-   "x": 815,
-   "y": 555,
+   "x": 760,
+   "y": 620,
    "scale": 0.55,
-   "pose": "cower",
+   "pose": "crouch",
    "expression": "gritted",
    "facing": "left",
    "gear": [
     "sweat"
    ],
    "boil": 0,
-   "wobble": 0
+   "wobble": 0,
+   "ink": "#ffffff"
   },
   {
    "type": "text",
