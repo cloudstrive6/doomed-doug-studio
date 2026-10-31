@@ -77,3 +77,43 @@ render: two packaging/accuracy problems, one picture that contradicts its line, 
 
 Re-run `python -m studio keyframes 033-hyenas-deadlier-than-lions --shots s001,s030,s031,s032,s167,s172,s190,s191,s192,s193,s194`
 and `python -m studio thumbnail 033-hyenas-deadlier-than-lions` after the fixes, then send them back for round 2.
+
+## Round 2: re-check of fixes 1-6 (2026-10-31)
+
+Scope: regenerated `build/contact/sheet_01..17.png` and full-res `build/keyframes/` for s001, s030-s032, s167, s172,
+s189-s196, plus `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` and their 168x94 `_small` versions.
+
+VERDICT: PASS
+
+### Required fixes, status
+
+1. **Thumbnail A / s001: FIXED.** `lion_male` is gone. A lioness now walks out of frame to the left, away from Doug,
+   which matches s179 and the climax. At 168x94 the focal point is still the open-jawed hyena in the torch beam,
+   Doug and his red cap read, and NOT SCAVENGERS is legible.
+2. **Thumbnail B: FIXED.** A lioness replaces the male lion, so "WRONG CHOICE" now agrees with the video's own fact.
+   She is smaller, and at feed size the two red open-jawed hyenas framing the shot read as the threat.
+3. **s172: FIXED.** The lion silhouette is gone. The frame is just the LIONS: NO sign and Doug's cap, which matches
+   "no lions came".
+4. **s030-s032 skull: FIXED.** The cheek teeth now have a pale yellow fill with a red outline, so there's no blood
+   read. In s032 the red arrow still points straight at them.
+5. **s190-s194 variety: FIXED.** The run is broken: s190 is the wide pile plus HIDING, s191 a big push-in on Doug's
+   hopeful thumbs-up with the lioness in the foreground, s192 a high wide shot with the whoop rings closing on a small
+   pile, s193 a low wide shot with two big black hyena silhouettes in the foreground, and s194 the pile flanked by
+   the clan. s190 and s194 still share the pile framing, but they aren't consecutive.
+6. **s167: FIXED.** The thought-bubble tail now ends just above Doug's head (he has the "?"), so Doug is the one
+   picturing the lion.
+
+### Advisory (not blocking)
+
+- **s193 → illustrator/director:** the foreground silhouettes are solid black. The round ears and sloped back make
+  them hyenas, but adding a pair of yellow eyeshine dots to each would make them read in under a second and tie
+  them to the eyes on the horizon.
+- **Thumbnail B → graphic designer:** both edge hyenas are still cut off at the frame edge. That's acceptable, but
+  pulling each one about 40 px inward would show more of the snout and teeth at feed size.
+- **s167 → director:** there's a small notch where the tail meets the bubble (about x=565-605, y=485-495). It's
+  cosmetic.
+- The round-1 advisories that weren't picked up (chalkboard paw icon at the right edge in s019/s020/s062/s110/s186,
+  the glove covering the tally in s062/s110, s037, s043, the Tanzania/Serengeti labels in s183-s185, and the s009
+  arrow) still apply if they're cheap. None of them block.
+
+Cleared for render. Post-render screening (samples, qc.json, Shorts) is still required.

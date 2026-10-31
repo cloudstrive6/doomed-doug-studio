@@ -124,3 +124,55 @@ No run of 5 shots repeats the same composition.
 Keyframes: **FAIL**. Fix s048/s049/s069/s090/s091/s116/s132/s155/s171/s197 (NO stamps), s174/s175/s178/s190-s194/s198
 (lioness stack), s003 (hide behind the lion) and s167 (bubble tail), then re-render those keyframes for a re-check. Style, Doug and the zone ramp
 otherwise pass. Thumbnails: **A PASS, B PASS, C FAIL**.
+
+---
+
+# 033-hyenas-deadlier-than-lions: art review round 2 (keyframes + thumbnails)
+
+Reviewer: art director, 2026-10-31
+Scope: re-rendered `build/contact/sheet_01..17` and `build/keyframes/*` (17:39), and the three re-done thumbnails
+`build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` (+ `_small`). Method: full-size checks on s003, s167, s174 and s197;
+a 3x crop montage of the field guide in s048, s049, s069, s090, s091, s116, s132, s155 and s171; crops of the lion group in s175, s178,
+s190-s194 and s198; and element order and coordinates read from `shotlist.json`.
+
+## Keyframes verdict: PASS (all 4 required fixes resolved)
+
+1. **NO stamps (s048, s049, s069, s090, s091, s116, s132, s155, s171, s197): FIXED.** Size 21, step 38 at scale 0.55, size 19.1 at
+   scale 0.5 (s155), and size 49.6, step 89 at scale 1.3 (s197). Rows of 3 sit under MAYBE. Every NO stands on its own and inside the
+   right page. The count builds 2, 2, 3, 3+MAYBE, 3+MAYBE, then erased MAYBE with 4, 5, 5 (s155), 6 and 7 (s197). The s197 close-up
+   reads "NO NO NO / NO NO NO / NO" with the MAYBE erased, which is the intended payoff.
+2. **Lioness stack (s174, s175, s178, s190-s194, s198): FIXED.** The standing `lioness` is now drawn before both `lioness_crouched` at
+   y 880. Its legs are hidden behind the near pair, so the group reads as a pride on a kill. Nothing reads as mounting. s191 (the close-up)
+   only has one crouched lioness and is fine.
+3. **s003: FIXED.** Doug (x 800, drawn first, shock) is behind the lioness. Only his head and cap clear her back line, which sets up s190.
+4. **s167: FIXED.** The thought-bubble tail now ends at Doug's head (about 330, 640). The far lion silhouette stays.
+
+Optional polish from round 1: s110 (the arm now stops at the LION column) and s111 (the tail now points at Doug's head) are done.
+s171/s172 are done too, with the cap on the mat line at y 885.
+Still open and non-blocking: s009 "TAKEAWAY" still touches the right safe margin. I did not re-check s100 or s144.
+
+No regressions in the sheets I re-checked (01, 10, 15, 17). The HUD, the zone ramp, the tier split, Doug on-model and the death cards
+are all unchanged from round 1.
+
+### New optional polish (non-blocking, director)
+1. **s116, s132, s155, s171, s197:** the MAYBE eraser `spray` is drawn after the NOs, so it speckles the middle NO of row 1. Move the
+   eraser ellipse and spray before the NO texts in the element list, or cut the spray radius to about 0.6x. In s197 the ellipse also leaves
+   two small dark stubs from MAYBE's outline at its left and right ends. Widen rx by about 10% to cover them.
+2. **s003:** with his legs fully hidden, Doug is just a head on the lioness's back. It reads, but you could add his `peek` hand on her back
+   (or move him 20 px up) so he reads as a man ducking behind her rather than a head resting on her.
+
+## Thumbnails (round 2)
+
+- **A, `thumbnail.png`: PASS.** The eyeshine pairs are now spread lower (one at the ground line by the beam) and no longer read as fireflies.
+  It still reads at 168x94.
+- **B, `thumbnail_b.png`: PASS.** The eyeshine pair has moved out from under the W. One tiny speck still touches the bottom of the
+  final E (about 975, 115). Nudge it about 30 px down if anyone is in the file anyway.
+- **C, `thumbnail_c.png`: PASS (was FAIL).** All four changes are made. LIE is a lioness with a THIEF sign, BITE is six stick men on the jaw
+  (Doug with his cap is 6th), CLAN is the two school buses, and MOB is a lion leaving with eyeshine closing on Doug. The tiles now set lion
+  against hyena, Doug appears in 3 tiles, and the colours differ tile to tile. At 168x94 the THIEF sign, the jaw row, the buses and the
+  red caps all still read. It is eligible for the A/B/C test. Optional: in MOB the lion's head is cropped at the tile edge. Show its head
+  turning away so "walking off" reads faster.
+
+## Summary
+Keyframes: **PASS** (round 1 fixes 1-4 all verified; the remaining notes are optional). Thumbnails: **A PASS, B PASS, C PASS**.
+Cleared for `art_approved` from the art side.
