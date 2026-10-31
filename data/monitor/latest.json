@@ -1,5 +1,5 @@
 {
- "at": "2026-10-31T18:01:40+00:00",
+ "at": "2026-10-31T18:46:18+00:00",
  "issues": [
   {
    "key": "related_pending",
@@ -15,8 +15,8 @@
    "key": "end_screens_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "5 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
-   "detail": "028-megalodon-every-era https://studio.youtube.com/video/YogqSPAjkA4/editor\n029-leopard-seal-under-the-ice https://studio.youtube.com/video/HiXaeCRS0fw/editor\n030-trapped-in-amber https://studio.youtube.com/video/StupfMPSmTw/editor\n031-polar-bear-on-purpose https://studio.youtube.com/video/Gv3q0CRIxDQ/editor\n032-worst-ancestor-deaths https://studio.youtube.com/video/Z4iE_cKclmw/editor",
+   "summary": "6 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "detail": "028-megalodon-every-era https://studio.youtube.com/video/YogqSPAjkA4/editor\n029-leopard-seal-under-the-ice https://studio.youtube.com/video/HiXaeCRS0fw/editor\n030-trapped-in-amber https://studio.youtube.com/video/StupfMPSmTw/editor\n031-polar-bear-on-purpose https://studio.youtube.com/video/Gv3q0CRIxDQ/editor\n032-worst-ancestor-deaths https://studio.youtube.com/video/Z4iE_cKclmw/editor\n033-hyenas-deadlier-than-lions https://studio.youtube.com/video/DipC3jfwExY/editor",
    "route": "",
    "fixed": false,
    "extra": {}
@@ -25,8 +25,8 @@
    "key": "thumb_tests_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "5 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
-   "detail": "028-megalodon-every-era https://studio.youtube.com/video/YogqSPAjkA4/edit\n029-leopard-seal-under-the-ice https://studio.youtube.com/video/HiXaeCRS0fw/edit\n030-trapped-in-amber https://studio.youtube.com/video/StupfMPSmTw/edit\n031-polar-bear-on-purpose https://studio.youtube.com/video/Gv3q0CRIxDQ/edit\n032-worst-ancestor-deaths https://studio.youtube.com/video/Z4iE_cKclmw/edit",
+   "summary": "6 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "detail": "028-megalodon-every-era https://studio.youtube.com/video/YogqSPAjkA4/edit\n029-leopard-seal-under-the-ice https://studio.youtube.com/video/HiXaeCRS0fw/edit\n030-trapped-in-amber https://studio.youtube.com/video/StupfMPSmTw/edit\n031-polar-bear-on-purpose https://studio.youtube.com/video/Gv3q0CRIxDQ/edit\n032-worst-ancestor-deaths https://studio.youtube.com/video/Z4iE_cKclmw/edit\n033-hyenas-deadlier-than-lions https://studio.youtube.com/video/DipC3jfwExY/edit",
    "route": "",
    "fixed": false,
    "extra": {}
