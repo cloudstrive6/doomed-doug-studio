@@ -46,3 +46,15 @@ Advisory (not blocking, only if cheap on a later pass): Doug is drawn on top of 
 **B: APPROVED** as a Test & Compare variant with A (lead) and C.
 Stage not changed.
 - 2026-10-31: packaged. Rounds: script 2 (screener FAIL then PASS), assets 1, keyframes 2 (art+visual PASS r2), thumbnails A/C approved, B revised once. Runtime ~11.3 min. Risks: day-7 gate on 024 (judged 11-02), 032 hyena overlap (thumbnails differ).
+
+## 2026-10-31, showrunner: post-render
+QC ok; visual screener main PASS, shorts FAIL (short03 outro gave away the answer). Outro reworded; shorts re-render requested.
+
+## 2026-10-31, creative director: final package gate
+Inputs: metadata.json, build/thumbnail.png (A, lead), build/chapters.txt, build/samples/f_001-f_004 (plus f_022/f_023 to confirm the ending), script.md opening, visual_review.md round 3 (main PASS; QC problems: none; 678 s, about 11.3 min).
+1. **Title: approved as is.** "Why Hyenas Are Deadlier to Doug Than Lions" (42 chars). It is honest because of "to Doug": the board ends LION 2 / HYENA 9, Doug dies to hyenas 7 times and to lions 0 times, and the script (line 374) and the description both say plainly that lions kill more people. T9 was last used on 031, two uploads back, and 032 was T5, so it is not a back-to-back repeat. No alt swap: none of the alts is clearly stronger. Alt 4 ("The Most Disturbing Thing Scientists Learned...") overlaps 030/032 phrasing and stays a fallback only.
+2. **Thumbnail A: approved** (already gated). NOT SCAVENGERS shares no word with the title, it pays off as The Lie in the first 35 words, the lioness leaving frame matches the promise, and there is no gore and no cub. B and C stay as the Test & Compare variants.
+3. **Opening 60 s: approved.** Concrete sentence 1 (Kruuk via SDZWA), the payoff promise "Doug hides behind lions, and the lions leave" by about 0:09 (delivered in The Mob, f_022: lionesses walk off as the clan closes), "The Lie." at word 35, THIEF sign / FAMOUS flip (f_001), and death 261 by f_004 (1:30 sample, HUD 261 and HYENA 1). f_002's empty panels are a build-in, not missing art. The HUD runs 260 to 267 / HYENA 9 in the shotlist after the last 30 s sample; end card (f_023) is clean.
+4. **Description: approved.** Every hook claim maps to the script: 80%+ (line 1), about 5 km chases (Kruuk), clans of about 130, hand feeding in Harar, the lions leaving. Six sources, disclaimer, AI-use note, no safety advice. Chapters start at 0:00, there are 10 entries, and "Intro" is 11 s. Tags and the `animals` playlist are fine.
+5. **Not made for kids**: adult-coded tone throughout and no nursery signals. Shorts (short03 re-render) are outside this gate.
+FINAL: APPROVED

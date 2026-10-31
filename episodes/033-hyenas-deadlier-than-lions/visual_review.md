@@ -117,3 +117,60 @@ VERDICT: PASS
   arrow) still apply if they're cheap. None of them block.
 
 Cleared for render. Post-render screening (samples, qc.json, Shorts) is still required.
+
+## Round 3: post-render (final.mp4, thumbnails, Shorts) (2026-10-31)
+
+Inputs: `build/samples/f_001..f_023` (every 30 s of the 678.2 s final), `build/qc.json` (problems: none),
+`build/thumbnail*.png` + `_small`, `metadata.json`, `build/shorts/short01-03.mp4` + `_preview.png`
+(8 frames pulled per Short, 4 from the last ~9 s).
+
+### Main video
+- No black, blank or glitched frames. f_008 (9 PM, black field with only Doug's cap on the ground) is the chase
+  death beat, and the HUD is still drawn, so it's not a dropout. f_022/f_023 are the end card (DOUG'S NEXT DEATH
+  plus the subscribe slot) and render cleanly.
+- The HUD (chapter tag, clock 7 PM to 5 AM, DOUG DEATHS 260 to 266, LION|HYENA tally to 2|8) progresses in
+  order across all the samples. Nothing freezes; every sample is a different composition.
+- The round-2 fixes held in the final: no gore read anywhere. f_013's brown ellipse reads as a dirt patch, not blood.
+  The lionesses leave in f_021 (s195) while the hyena clan closes in, which matches the title and the thumbnail.
+- Text is legible and nothing is cropped. In f_014 the red X over "BACK" in COME BACK LATER is intentional.
+- f_002's empty panels 2 and 3 are a mid-build reveal (the panels fill in), not a missing asset.
+
+### Thumbnails
+- **A (thumbnail.png)**: one focal point (the open-jawed hyena in the torch beam), Doug with his red cap and
+  screaming face is obvious, and the lioness walks away left. NOT SCAVENGERS reads at 168x94. Honest to the title.
+- **B (thumbnail_b.png, CD pick)**: WRONG CHOICE is crisp at feed size, Doug's grimace and cap read, and the two
+  red-mouthed hyenas plus eyeshine make the threat clear. Honest: the lioness doesn't protect him.
+- **C (grid)**: the six labels are legible at feed size and every panel is recognisable. It's the busiest at
+  168x94 but acceptable as the test variant.
+- All three complement "Why Hyenas Are Deadlier to Doug Than Lions" and none of them repeat a title word.
+
+### Shorts
+- All three: 1080x1920, the title is readable in the top band, the 16:9 picture isn't cut off at the sides,
+  subtitles are large and legible, @DoomedDoug is present, and the end-card arrow points down to the link.
+- **short01** (bones/hair, 32.2 s): pays off the title (skull, 4,500 N gauge, teeth tray). The outro ("It wanted
+  his walking stick instead") opens one specific question that the clip doesn't answer: what it did with the stick
+  (s046-s047). The end-card silhouette is a red-outlined hyena with round ears and a sloped back, which is
+  recognisable. PASS.
+- **short02** (laugh/status, 50.5 s): pays off the title (pitch graph, OFF A KILL, WHOOP rings). The outro
+  "Doug counted to twelve" leads to the question WHAT HAPPENED AFTER DOUG COUNTED TWELVE? (s115-s116), which stays
+  unanswered. The hyena silhouette is recognisable. PASS.
+- **short03** (Harar, 44.8 s): pays off the title (wall, holes, scraps, hyena men). The lioness silhouette is
+  recognisable. **However, the outro answers its own cliffhanger.** "Then the whooping started, and the lions
+  left" tells the viewer the cause (the hyena clan arrived) right before the card asks WHY DID THE LIONS LEAVE
+  DOUG?. FAIL.
+
+### Required fixes
+1. **short03 outro → director (`shorts.json`, short03 `outro`)**: remove the cause. Suggested wording: "Two hours
+   later, Doug hid behind a pride of lionesses for safety. Then the lions got up and walked away from him. Full
+   video below." Keep `tease_from: s195`, `tease_asset: lioness_walking` and the end card text. Re-render
+   short03 only (`python -m studio shorts render`), then re-check its last 8 s.
+
+### Advisory (not blocking)
+- short01: the "???" sits over the hyena's body and head. Moving it about 60 px up (above the back) would show
+  more of the silhouette.
+- short01/short02 use nearly identical hyena silhouettes on their end cards. That's fine on its own, but a
+  different pose (e.g. a whooping, head-up hyena for short02) would help when they appear on the Shorts shelf side
+  by side.
+
+VERDICT (main): PASS
+VERDICT (shorts): FAIL
