@@ -16,7 +16,8 @@ Befriending: "still?" (3), Doug laughing back (4), "wait" (boss). -->
 8. The Sleepers: no numbers of victims, no places with dates, no incidents. The general lines are: many records of attacks on sleeping people (CyberTracker), in one Mozambique reserve, 7 of 13 recorded hyena attacks were on people sleeping in the open (Begg, Begg and Muemedi 2007, read in the PDF), and the 300 m flight distance (Kruuk 1972). Draft 2 cut the September line and the tent joke. The brief's Malawi hot-season line is cut, because the only text I found has no citation. The sober card is used.
 9. No "The Den".
 -->
-<!-- Pronunciation for the editor: Harar = "hah-RAHR"; Harar Jugol = "hah-RAHR JOO-gol"; Mekelle = "meh-KEL-leh"; Ngorongoro = "ng-GOR-ong-GOR-oh"; Masai Mara = "MAH-sigh MAH-rah"; Kruuk = "KROOK"; Serengeti = as usual; Malawi = "mah-LAH-wee". -->
+<!-- Pronunciation for the editor: Harar = "hah-RAHR"; Harar Jugol = "hah-RAHR JOO-gol"; Mekelle = "meh-KEL-leh"; Ngorongoro = "ng-GOR-ong-GOR-oh"; Masai Mara = "MAH-sigh MAH-rah"; Kruuk = "KROOK"; Serengeti = as usual; Malawi = "mah-LAH-wee"; UNESCO = "yoo-NES-koh" (check on the narration pass). Editor: keep the thumbnail hold at about 1.5 s so death 261 lands by about 1:16. -->
+<!-- CD edits 2026-10-31 (advisories A1, A3, A4): Mekelle line now "donkey hair in more than twice as many of the hyenas' droppings"; whoop sentence reordered ("and it carries"); Mob line "with dawn still an hour away" replaces the repeated "for the last hour of the night". First three sentences untouched: "The Lie." is still word 35. -->
 
 [Open on thumbnail A, 1.5 to 4 seconds. Night, dark navy field. Tiny red-capped Doug holds up a torch, and the beam lands on one heavy, sloped spotted hyena. Around it in the dark are many pairs of glowing eyes. In the corner, a lion walks out of frame, away from him. Text: "THE LIONS LEFT". DOUG DEATHS: 260. Beside the counter is a cracked chalkboard "LION | HYENA" with paw icons and both columns empty. A small night clock shows a sinking moon.]
 
@@ -180,7 +181,7 @@ But the giggle is not the sound to worry about.
 
 [A hyena with its head low, giving a long rising call. Rings spread out across a map of the savanna. Label: "UP TO 5 KM".]
 
-That's the whoop, a long-range call that hyenas use to recruit the rest of the clan, which carries up to about five kilometers. That's nearly fifty soccer fields laid end to end.
+That's the whoop, a long-range call that hyenas use to recruit the rest of the clan, and it carries up to about five kilometers. That's nearly fifty soccer fields laid end to end.
 
 [Doug laughs back, mouth wide, hand on his belly. The giggling gets louder and higher. One low-ranking hyena backs off, ears flat, and slinks away.]
 
@@ -298,7 +299,7 @@ In the evenings, men known as the hyena men feed wild hyenas by hand. Each year,
 
 [A map of northern Ethiopia with a red dot at Mekelle. A butcher's bin, then a calendar showing "55 DAYS", then a donkey with a red "!" above it.]
 
-Further north, around the city of Mekelle, hyenas mostly scavenge waste from butchers and households. During the fifty-five-day fast before Easter, when Orthodox Christians stop eating meat, researchers found twice as much donkey in the hyenas' droppings.
+Further north, around the city of Mekelle, hyenas mostly scavenge waste from butchers and households. During the fifty-five-day fast before Easter, when Orthodox Christians stop eating meat, researchers found donkey hair in more than twice as many of the hyenas' droppings.
 
 The remarkable part is what all of this says about hyenas.
 
@@ -378,7 +379,7 @@ But this scoreboard was never about people in general, because it's about Doug, 
 
 [Doug crouched behind three lionesses on their kill, hopeful smile, cap on.]
 
-So for the last hour of the night, Doug hides behind a pride of lionesses on their kill, because lions are the scary ones.
+So, with dawn still an hour away, Doug hides behind a pride of lionesses on their kill, because lions are the scary ones.
 
 [Whoop rings fill the sky from every direction. Eyes, then shapes, then a ring of hyenas, many more than the lions.]
 

@@ -9,7 +9,12 @@
       "stage": "scripted",
       "at": "2026-10-31T16:28:58+00:00",
       "note": "draft"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-10-31T16:42:29+00:00",
+      "note": "CD approved"
     }
   ],
-  "stage": "scripted"
+  "stage": "script_approved"
 }

@@ -1,146 +1,133 @@
-# Script review: 033 Why Hyenas Are Deadlier to Doug Than Lions (draft 1)
+# Script review: 033 Why Hyenas Are Deadlier to Doug Than Lions (draft 2)
 
-Screener, 2026-10-31. I read the style bible (section 3, the section 7 retention update, Script Writer rules 1-14), the series bible, brief.md, script.md and facts.md.
+Screener, 2026-10-31 (re-screen). I re-read the style bible (the section 7 retention update, Script Writer rules 1-14), brief.md, script.md (draft 2) and facts.md (draft 2), then checked every fix from the draft 1 review.
 Spoken-text stats are my own count: comments, `[staging]` and headers stripped.
 
 | Check | Result |
 |---|---|
-| 1. Facts | **FAIL**: 1 claim not supported by its cited source, 1 overstated, 1 implied unsourced claim |
-| 2. Opening / hook | **8 / 10**. Rules 2 and 6 met. Rule 8 violated (The Sleepers) |
-| 3. Structure & pacing | **8 / 10** |
-| 4. Voice & humour | **7 / 10** |
-| 5. TTS readiness | Pass, with 1 small fix |
-| 6. Policy | No hard policy items. 1 tone and safety-adjacent fix (The Sleepers tent line) |
-| 7. Length | **2,048 words**, about 10.5 min at 195 wpm. Inside 1,950-2,350. Pass |
+| 1. Facts | **Pass.** All 3 draft 1 fact items are fixed. 4 new claims and comparisons verified. 1 precision advisory (Mekelle) |
+| 2. Opening / hook | **8 / 10**. Every retention test met. No rule violations |
+| 3. Structure & pacing | **8 / 10**. One segment is 12 words under its band (advisory) |
+| 4. Voice & humour | **8 / 10** |
+| 5. TTS readiness | Pass |
+| 6. Policy | Pass. The tent joke after the sober card is gone |
+| 7. Length | **2,007 words**, about 10.3 min at 195 wpm. Inside 1,950-2,350. Pass |
 
 ---
+
+## Draft 1 fixes
+
+| Fix | Status | Evidence |
+|---|---|---|
+| 1. Sleepers September and bush fires (F21) | **Fixed** | Line cut. It is replaced by "In one reserve in Mozambique, more than half of the recorded hyena attacks happened while people were sleeping in the open." I re-extracted the Begg, Begg & Muemedi 2007 PDF (Wayback). It says: "Seven of the 13 attacks occurred when people were sleeping in the open, either in the mashambas or on the veranda of a house in the village." 7/13 = 54%, so "more than half" holds. The sober card matches, and the facts.md row is Fetched with the Wayback URL |
+| 2. Mekelle "turned to donkeys" (F18) | **Fixed** | Now "twice as much donkey in the hyenas' droppings". ScienceDaily (re-fetched): 14.8% of droppings had donkey hair before Lent, 33.1% during it, a ratio of 2.24. See advisory A1 for one precision point |
+| 3. Clan "got to twelve" kicker | **Fixed** | The new kicker is "The clan sat down to eat, and the narrator went to fetch a stopwatch." It has no number and leads into The Stomach. "Twelve" is now only Doug's eye count (fiction), and twelve eyes is six hyenas, so it doesn't clash with the source |
+| 4. Tent line and rule 8 in The Sleepers | **Fixed** | The tent joke and its panel are cut. Its new analogy is the 300 m flight distance as "roughly the height of the Eiffel Tower, laid on its side" (verified, see below). No joke comes near the sober card now |
+| 5. Death 261 timing | **Fixed** | Item 1 is down from 250 to 228 words. "Doug has died. Again." ends at word 242, which is about 1:14.5 of speech plus a 1.5 s hold, so about 1:16. That meets "about 1:15". The editor must keep the thumbnail hold at about 1.5 s, not 4 s |
+| 6. Night clock | **Fixed** | "Midnight." now comes after The Laugh's kicker, The Laugh's clock stays at 11 PM, and The Clan's is midnight. The header comment matches |
+| 7. TTS and clarity | **Fixed** | The sign reads "Lions: no" in the spoken text. The open now says "eight in ten of the meals", and "for safety" is cut, so "The Lie." is at word 35. Still no slack: **any edit to the first three sentences must be recounted** |
+| A1-A5 advisories | **All taken** | The marker is "Here's where the picture flips." Markers now rotate (Clan "Now do the arithmetic.", Sleepers "Here's who is actually out there in the dark."). The digest line is cut. The Laugh's twist is now the whoop. Soccer fields appear once (The Laugh), and The Town uses Vatican City |
 
 ## 1. Facts
 
-I re-opened 24 claims, including all 5 FLAG rows and every surprising number.
+I re-opened the new and changed claims, plus a sample of carried-over numbers.
 
 | # | Claim (script) | What I checked | Result |
 |---|---|---|---|
-| F1 | "more than eight in ten meals lions were seen eating had been killed by hyenas" | SDZWA Behavior: "Over 80% of observed lion feedings are hyena kills" (Kruuk 1972, near Ngorongoro) | OK |
-| F2 | **FLAG 1**: Ngorongoro "about ten to one" | hyaenidae.org still fails DNS for me, and there is no Wayback snapshot. A search snippet again shows the exact sentence ("outnumbered lions ten to one … lions usually scavenged"). It fits the Hyena Project's figures (up to 550 hyenas and 25-40 adult lions, which is 14:1 or more today) | **Plausible, accepted.** The writer's fallback "far outnumbered" is still available if the CD wants zero search-only rows |
-| F3 | Masai Mara, about 95% killed themselves | SDZWA Diet: "c. 95% of the annual food biomass for a Masai Mara population" (Cooper et al. 1999) | OK |
-| F4 | **FLAG 2**: 4,500 N, one captive hyena, wild ones probably higher | SDZWA Characteristics: "Maximum bite force c.4500 N, one captive individual; likely higher in the wild" | OK, worded exactly to the source |
-| F5 | Droppings white; 1,000-20,000 times the calcium and phosphorus of the soil | Inside Science (AIP), word for word | OK |
-| F6 | Hyenas wait for lions to abandon the remains | SDZWA Diet (Bearder 1977) | OK |
-| F7 | Lions: charge from within 30 m, 100-200 m stamina, give up after a miss, 17-19% success | LionAlert, all four quoted on the page | OK |
-| F8 | 5 km wildebeest chases at up to 60 km/h | Wikipedia "Feeding behavior…" (Kruuk 1972) | OK (secondary) |
-| F9 | Kalahari chases of 0.5-2.5 km | SDZWA Diet: "500 to 2500 m, typically" (Mills 1984b) | OK |
-| F10 | Giggle pitch drops with age; steady when dominant, variable when subordinate; individual voice; frustration | Berkeley News 2010, all quoted | OK. "Hundreds of giggles" is safe (SciAm: about 250 bouts) |
-| F11 | **FLAG 3**: whoop is a recruitment call, up to 5 km | Lehmann et al. 2022 abstract (search): "long-range (up to 5 km range) recruitment vocalization"; SDZWA ">5 km" | OK |
-| F12 | Clans of about 130 at the Mara and Ngorongoro; rank inherited from the mother | MSU EEB page | OK |
-| F13 | Up to 550 hyenas and 25-40 adult lions | Hyena Project "Conflict with lions" | OK |
-| F14 | 35 hyenas eat a zebra in 36 min; at least 14.5 kg a meal; compete by speed of eating | Wikipedia (Kruuk pp. 124-128) | OK |
-| F15 | 100 kg yearling wildebeest gone in under 15 min; 12 s underwater | SDZWA Diet | OK |
-| F16 | **FLAG 5**: Harar has 16 hyena holes, 500+ years, porridge ritual | Notre Dame Magazine: "six main gates and 16 hyena holes"; the ritual "ensures that no people will be attacked in the following year" | OK |
-| F17 | Harar Jugol is 48 ha | UNESCO list/1189 maps and data sheet (search) | OK |
-| F18 | Mekelle: 55-day fast, and the hyenas "turned to donkeys instead" | ScienceDaily: donkey hair in droppings went from 14.8% before Lent to **33.1%** during it. Donkeys were "an alternative food source" | **OVERSTATED.** See fix 2 |
-| F19 | Up to 300 m flight distance, the highest of any African carnivore | Wikipedia "Spotted hyena" (Kruuk pp. 144-145) | OK |
-| F20 | Prey on people sleeping outdoors; break into huts and tents | Notre Dame Magazine | OK |
-| F21 | **FLAG 4**: "attacks are most common in September, when many people sleep outdoors… bush fires" | Wikipedia cites Begg, Begg & Muemedi 2007 plus Kruuk 2002. **I extracted the Begg PDF (Wayback copy): it never mentions September, months, seasons or bush fires.** Its finding is "Seven of the 13 attacks occurred when people were sleeping in the open" (Niassa reserve, Mozambique). Kruuk 2002 pp. 64-65 can't be read, and a search turns up nothing for it. The script also drops the place and states it as a continent-wide fact | **FAIL.** See fix 1 |
-| F22 | Six times as many hyenas take a kill; an adult male lion always keeps it; lions are the main cause of hyena deaths in the crater | Hyena Project, all three quoted | OK |
-| F23 | Lions killed more than 560 Tanzanians, 1990-2004 | BioEd/Nature News "more than 563 … since 1990"; Packer 2005 Fig. 1 runs to Sep 2004 | OK |
-| F24 | Eastern Serengeti: lions caused most attacks, then leopards, then hyenas | Mbise 2021 abstract (search) | OK (search only) |
+| N1 | Mozambique reserve, more than half of recorded attacks were on people sleeping in the open | Begg PDF text extracted myself: "Seven of the 13 attacks occurred when people were sleeping in the open". The summary says: "In these attacks sleeping in the open is the risk factor" | OK |
+| N2 | Mekelle, twice as much donkey during the 55-day fast | ScienceDaily: 14.8% to 33.1% of droppings had donkey hair. The 55-day fast and "alternative food source" are both quoted | OK (precision advisory A1) |
+| N3 | 300 m is roughly the Eiffel Tower's height | The official toureiffel.paris "From 300 to 330 meters" page: 300 m when it was built, 330 m today with antennas. Wikipedia gives an architectural height of 300 m | OK, because the script says "roughly" |
+| N4 | Harar Jugol is 48 ha, about the size of Vatican City, the smallest country | UNESCO data sheet (via search): 48 ha core zone. Vatican City is 49 ha (Wikipedia, current) or 44 ha (older sources), and it is the smallest state by area | OK |
+| N5 | Clan hunting groups of about 8 to 25 for big prey | SDZWA Diet (re-fetched): "Requires larger, cooperative packs, c. 8-25" (Kruuk 1972) | OK |
+| N6 | 100 kg young wildebeest gone in under 15 min; 12 s under water | SDZWA Diet (re-fetched): "completely consumed in less than 15 minutes"; "staying under up to 12 seconds" | OK |
+| N7 | Masai Mara about 95%; hyenas wait for lions to abandon remains | SDZWA Diet (re-fetched): "c. 95% of the annual food biomass"; "Typically wait for lions to abandon remains" (Bearder 1977) | OK |
+| N8 | Females outrank all males | SDZWA Behavior row ("Females dominate all males") | OK (row Fetched) |
+| N9 | Many records of attacks on sleeping people | CyberTracker row | OK |
+| N10 | Hockey team of six, goalie included | IIHF rule: six players, one goalkeeper and five skaters | OK |
+| N11 | Comparisons: 130 hyenas over a 72-seat bus; about 128 quarter-pounders; nearly 50 soccer fields in 5 km; six men about 4,500 N | I checked the arithmetic in facts.md: 130 > 72 and < 144; 14,500 / 113.4 = 128; 5,000 / 105 = 47.6; 459 kg is about 6 x 77 kg | OK |
+| C | Carried over from draft 1 unchanged (F1-F17, F19, F20, F22-F24) | Verified in the draft 1 review. The wording is unchanged | OK |
 
-Also, **The Clan kicker** "Doug got to twelve, which is about how long anything lasts once a clan sits down to eat" sounds like a number with no unit (twelve minutes?). It also clashes with the sourced 36 min and 15 min one item later. facts.md calls it a joke, but a viewer will hear it as a claim (rule 11). See fix 3.
+Every spoken claim has a row in facts.md. No claim is contradicted by a source.
 
 ## 2. Opening, the retention test: 8 / 10
 
-- First sentence: concrete, with a number ("eight in ten"). **Pass.** The syntax is heavy for the ear, though: "eight in ten meals lions were seen eating had been killed" is a garden-path clause. See fix 7.
-- Payoff promise "By the end, Doug hides behind lions for safety, and the lions leave." It is specific and unresolved, and it lands at about words 20-32, which is **about 0:10 plus the thumbnail hold**. Pass. The editor should keep the hold near 1.5 s, not 4 s.
-- Item 1 "The Lie" is the myth flip and the competitor's 5.25M engine, so it is among the strongest three. Its first two sentences carry its best fact (95%). **Pass.**
-- Item 1's name is at words 34-35 (limit 35), and nothing comes before it except the fact, the promise and "Dusk.". **Pass, with no slack.**
-- Item 1's twist: the marker comes at word 120 and the payoff sentence ends around word 150. **Pass.**
-- The weakness, not a fail: sentence 1 already gives away item 1's twist. "Here's the part nobody expected" at about 0:40 then rings false, because the viewer was told it at 0:03. Also, "nobody expected" is a house tic already used in 11 earlier scripts. See advisory A1.
-- **Death 261 lands at word 260, about 1:20-1:24 with the hold.** The brief's checklist (e) asks for about 1:15. Item 1 has about 45 words of chalkboard and thesis setup (script lines 63-67) between the twist and the Doug beat. See fix 5.
+- **Sentence 1:** "In one African crater, more than eight in ten of the meals lions were seen eating had been killed by hyenas." It is concrete, has a number, and now reads cleanly. **Pass.**
+- **Promise:** "By the end, Doug hides behind lions, and the lions leave." It is specific and unresolved, and it lands at about word 30, so about 0:09 of speech plus the thumbnail hold. **Pass.**
+- **Item 1:** the myth flip is among the strongest three, and its first sentence carries the 95% fact. **Pass.**
+- **Item name:** "The Lie." is at word 35, with nothing before it but the fact, the promise and "Dusk.". **Pass, with no slack.**
+- **Twist:** the marker is at word 125, and the twist content ("the hyenas had made the kill and the lions had strolled in afterwards") ends at about word 150. That is about 0:46. **Pass, borderline.** The sentence ends on the flip, so it holds.
+- **What keeps this at 8:** sentence 1 still gives away item 1's twist. The new marker "Here's where the picture flips." handles this honestly, but item 1's twist does not surprise anyone who heard sentence 1.
 
-**Script Writer rules (section 7), violated:**
-- **Rule 8** (a scale analogy with everyday objects in every item). **The Sleepers has none.** "A tent is basically a raincoat with a zip" is a joke, not a scale comparison, and the 300 m number is left bare. The brief waived this, but the bible says "must". See fix 4.
-- Rules 1 and 3 (length 2,800-3,500, item count 9-14) are overridden by the retention update. The script meets both of the updated bands (2,048 words, 9 items).
-- Rule 13 is technically met. But "The [adjective] part is…" is the twist marker in five items (Chase, Laugh, Clan, Town, Sleepers), and three of them come in a row. See advisory A2.
-- Rules 2, 4, 5, 6, 7, 9 (average 14.4 words a sentence, longest 32, Flesch 71.5 by textstat, a sentence of 6 words or fewer in every item), 10, 11 (apart from F18, F21 and the "twelve" line), 12 (outro 21 words) and 14: met.
+**Script Writer rules (section 7):** **none violated.**
+- Rules 1 and 3 are overridden by the retention update: 2,007 words, 9 items. Met.
+- Rule 4: every item has a name, a frame, a mechanism, a marker, a kicker of 8-25 words and a Doug beat of 15-30 words.
+- Rule 8 is now met in every item: takeaway meals, six men, park run and running track, soccer fields, school bus, burgers, Vatican City, Eiffel Tower, hockey.
+- Rule 9: 143 sentences, average 14.0 words. That is inside 14-19, but only just: **do not shorten sentences further.** The longest is 32 words. Flesch is 72.2. Every item has a sentence of 6 words or fewer.
+- Rule 13: "actually" is used 2 times and "however" 1 time. No marker is used twice in a row.
+- Rules 2, 5, 6, 7, 10, 11, 12 (outro 21 words) and 14 are also met.
 
 ## 3. Structure and pacing: 8 / 10
 
-| Item | Words | Brief band | Deaths |
+| Item | Words | Band | Deaths |
 |---|---|---|---|
 | Open | 33 | about 30 | |
-| The Lie | 250 | 220-260 | 261 |
-| The Bite | 217 | 200-240 | 262 |
-| The Chase | 224 | 200-240 | 263 |
-| The Laugh | 219 | 200-240 | survives |
-| The Clan | 208 | 200-240 | 264 |
+| The Lie | 228 | 220-260 | 261 |
+| The Bite | 221 | 200-240 | 262 |
+| The Chase | 223 | 200-240 | 263 |
+| The Laugh | 211 | 200-240 | survives |
+| The Clan | 202 | 200-240 | 264 |
 | The Stomach | 202 | 200-240 | 265 |
-| The Town | 223 | 200-240 | survives |
-| The Sleepers | 203 | 200-240 | 266 |
+| The Town | 230 | 200-240 | survives |
+| The Sleepers | **188** | 200-240 | 266 |
 | The Mob (+ closing and outro) | 269 | 260-300 | 267 |
 
-- The axis is declared in the header and runs one way. The danger rises (from food, to body, to people, to the mob), and the boss is the payoff. Every kicker leans into the next stop (rule 6). The counter runs 260 to 267, the scoreboard ends LION 2, HYENA 9, and the field guide matches the brief. Both callbacks are in, one sentence each. The honesty line is there, correctly scoped to Tanzania and the Serengeti.
-- **Staging mismatch:** the narrator says "Midnight." before The Laugh, but The Laugh's night clock reads "about 11 PM", and midnight is The Clan. See fix 6.
-- Death 261 is late (see section 2, fix 5).
+- The axis is still clean, and it runs one way, from dusk to dawn. The counter goes from 260 to 267, the scoreboard ends at LION 2, HYENA 9, both callbacks are in, and the honesty line is present.
+- **The Sleepers is 12 words under the 200-260 band** (retention update rule 1). It runs about 58 s, which is not a viewer-facing problem. This is the sensitive item, and the bible says "never pad", so I am not blocking on it. See advisory A2.
+- Every kicker leans forward (rule 6).
 
-## 4. Voice and humour: 7 / 10
+## 4. Voice and humour: 8 / 10
 
-- The register is right: deadpan, adult, science first, then a dry Doug line. The lines that land are "The lion eats the meal. The hyena eats the plate it came on.", "Doug is always tired.", "That did not help.", the hockey team, and the final cap line.
-- **Logic slip:** "The cap is the only thing in this video a hyena hasn't tried to digest". Two lines earlier we were told "Nobody touched the leftovers", and the chew bone was ignored too. See advisory A3.
-- **The Laugh twist is a repeat.** "The strange part is the sound everyone calls laughing, because it's really a hyena having a bad night" restates the item's first sentence ("A hyena's laugh isn't laughter."). The twist slot adds nothing. See advisory A4.
-- **Soccer fields twice** (The Laugh, 5 km; The Town, 48 ha). See advisory A5.
-- The joke density runs above 1 per 60 s in The Bite (three joke lines in about 67 s), which is borderline for rule 10. I'm not blocking on it.
-- I found no competitor wording ("Oldest Lie" is avoided, with no PE triads or titles).
+- This is up from 7. The logic slip (the digest line) and the repeated Laugh twist are both gone. The new Laugh twist ("But the giggle is not the sound to worry about.") adds real information and sets up the kicker well. "The narrator went to fetch a stopwatch" is a better kicker than the old number.
+- Joke density is within rule 10. The register is deadpan and adult throughout.
+- **Minor:** "for the last hour of the night" is used twice in a row, in the Sleepers kicker and again in the Mob's Doug beat. See advisory A3.
+- **Minor ear issue:** "a long-range call that hyenas use to recruit the rest of the clan, which carries up to about five kilometers." Heard aloud, "which" attaches to "the clan". See advisory A4.
+- I found no competitor wording.
 
-## 5. TTS readiness: pass, with 1 fix
+## 5. TTS readiness: pass
 
-- Numbers are spelled out, and the only digits are in `[staging]`. There are no abbreviations, no parentheses and no symbols in the spoken text. The pronunciation notes for Kruuk, Ngorongoro, Harar and Mekelle are in the header, and the editor should apply them.
-- The spoken text has `"LIONS: NO"` in capitals with a colon, and Chirp may spell the capitals out or pause oddly. See fix 7.
+- There are no digits, symbols, parentheses or abbreviations in the spoken text. "Lions: no" is fixed.
+- "UNESCO" is the only all-caps token. Chirp normally says it as a word ("yoo-NES-koh"). The editor should add it to the pronunciation note and check it on the narration pass.
 
-## 6. Policy
+## 6. Policy: pass
 
-- **Advertiser-friendly:** no gore, nothing drawn being eaten, all deaths cut to black, no profanity. Pass.
-- **Made for kids:** no Lion King material, no cubs, no "kids", a deadpan adult narrator. "Giggle" is the science term. Pass.
-- **Inauthentic or repetitive content:** a distinct narrative (one night, the scoreboard thesis) with original commentary. Pass. Mild repetition signals: the tent beat comes five days after 031's whole "The Tent" item, and "nobody expected" is a house tic.
-- **Misleading title:** "to Doug" is honoured, and the Mob honesty line says lions are the bigger danger to people. Pass.
-- **Safety and tone (fix 4):** "And sleeping in a tent doesn't change much, because a tent is basically a raincoat with a zip." comes **right after the sober card about real attacks on sleeping people**. It is a joke riffing on real human-attack data (the channel's sober-card precedent is "no Doug, no joke"). It also reads as a factual safety claim (tents don't protect you) that goes beyond the source ("sometimes break into huts and tents").
+- **Advertiser-friendly:** no gore, all deaths cut to black, and nothing is drawn being eaten. The sober card is now followed only by sourced, sober lines.
+- **Made for kids:** adult-coded throughout, with no cubs and no Lion King material.
+- **Inauthentic content:** the script has a distinct one-night narrative and original commentary.
+- **Safety advice:** none. The tent line was the only safety-adjacent line, and it is cut.
+- **Title:** the "to Doug" framing is honoured, and the honesty line says lions are the bigger danger to people.
+
+## 7. Length: pass
+2,007 spoken words, which is about 10.3 minutes.
 
 ---
 
-## VERDICT: FAIL
+## VERDICT: PASS
 
-The scores (hook 8, structure 8, voice 7) clear the bar, and there are no hard policy items. The fails are the fact items. Draft 2 should be a quick pass.
+There are zero fact errors and zero policy items. The scores are hook 8, structure 8 and voice 8. All 7 required fixes and all 5 advisories from draft 1 are in.
 
-**Required fixes**
+**Advisories (optional, for the writer or CD; none blocks approval)**
 
-1. **The Sleepers, F21 (fact).** The cited Begg 2007 report does not contain September or bush fires, and the Kruuk 2002 page is unverified. Replace "The records show attacks are most common in September, when many people sleep outdoors in the heat, and bush fires make wild prey harder for hyenas to hunt." with the verified Begg finding, scoped to its place. For example: "In one reserve in Mozambique, more than half of the recorded hyena attacks happened while people were sleeping in the open." (Begg, Begg & Muemedi 2007: 7 of 13.) Update the sober card's second line to match (for example "MOZAMBIQUE RESERVE: 7 OF 13 ATTACKS ON PEOPLE SLEEPING OUTSIDE"). Update the facts.md row to Fetched, quoting the PDF, and cite the Wayback URL.
-2. **The Town, F18 (fact precision).** "researchers found the hyenas turned to donkeys instead" overstates the result: donkey went from 14.8% to 33.1% of droppings. Change it to something like "researchers found twice as much donkey in the hyenas' droppings." Mirror the change in the facts.md row.
-3. **The Clan kicker (implied claim, rule 11).** The kicker "Doug got to twelve, which is about how long anything lasts once a clan sits down to eat." is a bare number that sounds like a duration and clashes with the 36 and 15 minutes in the next item. Replace it with a kicker that has no number and leans into The Stomach (for example, the clan sitting down to eat, with no figure attached).
-4. **The Sleepers tent line (tone and safety, plus rule 8).** Cut "And sleeping in a tent doesn't change much, because a tent is basically a raincoat with a zip." and its `[tent = raincoat]` panel. In its place, give the item its required scale analogy on a sourced number already in the item. For example, the 300 m flight distance as "about three soccer fields", but not soccer if A5 is taken. A running track's 400 m lap was already used in The Chase. "About as far as three city blocks" would also work if it is sourced.
-5. **The Lie pacing (brief checklist e).** Death 261 lands at about 1:22, against about 1:15. Trim about 25 words from script lines 63-67 without losing the judgement line. For example, merge "The question tonight is which animal is worse for Doug to be near, alone and on foot, from dusk until dawn." into "Tonight's question is which one is worse to be near, on foot, until dawn.". Or cut "and the moose won that one too" down to "The narrator has used this chalkboard before."
-6. **Night clock (staging).** The spoken "Midnight." comes before The Laugh, but The Laugh's clock says "about 11 PM". Set The Laugh to about midnight and The Clan to about 12:30 AM, or move "Midnight." to after The Laugh's kicker, before "The Clan.". Update the header comment to match.
-7. **TTS and clarity.** (a) In the spoken text, write the sign as `"Lions: no"` (the drawing can keep its capitals). (b) Cold open: "more than eight in ten meals lions were seen eating" should become "more than eight in ten of the meals lions were seen eating". That adds two words, and the item name currently sits at word 35, so you must also cut two words from the opening to keep "The Lie." within 35. For example, change "By the end, Doug hides behind lions for safety" to "By the end, Doug hides behind lions" (the boss shows why), then recount.
+- A1. **Mekelle precision.** The study measured the share of droppings that contained donkey hair, not the amount of donkey eaten. A more exact wording is "researchers found donkey hair in more than twice as many of the hyenas' droppings". It is the same length and avoids implying a measured amount.
+- A2. **The Sleepers length (188 words, band 200-260).** If the writer touches the item, add about 12 words of already-sourced material. For example, the Begg summary's "sleeping in the open is the risk factor" could become one plain sentence. Do not add victim counts or incidents.
+- A3. **Repeated phrase.** Change one of the two uses of "for the last hour of the night" (the Sleepers kicker or the Mob's Doug beat), for example "so before dawn, Doug went out to find some."
+- A4. **The whoop sentence.** Reorder it so "which" can't attach to "the clan", for example "That's the whoop, a long-range call that carries up to about five kilometers, and hyenas use it to recruit the rest of the clan."
+- A5. **For the editor:** keep the thumbnail hold at about 1.5 s so death 261 lands by about 1:16, and add "UNESCO" to the pronunciation notes. Recount if any of the first three sentences change, because "The Lie." sits exactly at word 35.
 
-**Advisories (recommended, not blocking)**
-
-- A1. Sentence 1 already gives away item 1's twist, so swap "Here's the part nobody expected." for a marker that is true for this viewer (for example "Here's where the picture flips."). That also drops a tic used in 11 earlier scripts.
-- A2. Vary at least two of the five "The [adjective] part is…" markers (for example, The Clan "Now do the arithmetic." and The Sleepers "Here's who is actually out there.").
-- A3. Fix the digest line, for example "The cap is the one thing tonight a hyena hasn't tried to eat. Yet, so Doug decided to run." Or acknowledge the plate: "…apart from the leftovers, which were beneath it."
-- A4. The Laugh: make the twist new information, not a restatement. The whoop-recruits-the-clan fact is the natural twist ("The giggle is the hyena having a bad night. The whoop is the one that brings the others."), and the kicker then becomes the far-off whoop.
-- A5. Swap one of the two soccer-field analogies (The Town's 48 ha could be "about the size of a large city park" or another sourced object).
-
-## Sources opened by the screener
-- SDZWA Behavior, Diet and Characteristics fact sheets: https://ielc.libguides.com/sdzg/factsheets/spottedhyena/behavior-ecology, …/diet-feeding, …/characteristics-page
-- Begg, Begg & Muemedi 2007 (Wayback PDF): https://web.archive.org/web/20111226170051/http://www.selous-niassa-corridor.org/fileadmin/publications/2007-Human-Carnivore_Crocodile_Conflict_-NNR.pdf
-- Wikipedia "Spotted hyena" and "Feeding behavior of spotted hyenas" (raw wikitext)
-- Ngorongoro Hyena Project: https://hyena-project.com/research-topics/conflict-with-lions/
-- Notre Dame Magazine: https://magazine.nd.edu/news/63340
-- ScienceDaily (Yirga 2012): https://www.sciencedaily.com/releases/2012/04/120405075232.htm
-- Berkeley News 2010: https://news.berkeley.edu/2010/03/30/giggle-call-hyenas/
-- Lehmann et al. 2022 (search): https://kops.uni-konstanz.de/handle/123456789/58144
-- Inside Science (AIP): https://www.aip.org/inside-science/hyenas-bone-crunching-helps-recycle-nutrients
-- LionAlert: https://lionalert.org/predatory-behaviour/
-- MSU EEB: https://eeb.msu.edu/news/hyenas-are-getting-the-last-laugh.aspx
-- BioEd / Nature News (Packer 2005): https://www.bioedonline.org/news/nature-news-archive/lion-attacks-rise/
-- UNESCO Harar Jugol (search): https://whc.unesco.org/en/list/1189/maps/
-- hyaenidae.org (FLAG 1): could not be reached (DNS failure, no Wayback copy). Seen only as a search snippet.
+## Sources opened by the screener (this pass)
+- Begg, Begg & Muemedi 2007 (Wayback PDF, text extracted): https://web.archive.org/web/20111226170051/http://www.selous-niassa-corridor.org/fileadmin/publications/2007-Human-Carnivore_Crocodile_Conflict_-NNR.pdf
+- ScienceDaily (Yirga et al. 2012): https://www.sciencedaily.com/releases/2012/04/120405075232.htm
+- SDZWA Diet & Feeding: https://ielc.libguides.com/sdzg/factsheets/spottedhyena/diet-feeding
+- Eiffel Tower official, "From 300 to 330 meters" (search): https://www.toureiffel.paris/en/news/history-and-culture/300-330-meters-story-towers-height
+- Vatican City area (search, Wikipedia-derived): https://en.wikipedia.org/wiki/Outline_of_Vatican_City
+- UNESCO Harar Jugol maps and data (search): https://whc.unesco.org/en/list/1189/maps/
+- The draft 1 review's sources still apply to the carried-over rows.
