@@ -1,12 +1,22 @@
 {
- "at": "2026-10-31T15:01:30+00:00",
+ "at": "2026-10-31T16:01:40+00:00",
  "issues": [
+  {
+   "key": "queue_low",
+   "severity": "medium",
+   "owner": "auto",
+   "summary": "Queue 3/4 and no production running: started a production run",
+   "detail": "",
+   "route": "dispatch produce.yml",
+   "fixed": true,
+   "extra": {}
+  },
   {
    "key": "related_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "15 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
-   "detail": "The Largest Spider Fossil Ever Found Wasn't a Spider -> When Earth Had So Much Oxygen That Bugs Could Kill Doug\nA Fallen Cliff Revealed a Millipede as Big as a Car -> When Earth Had So Much Oxygen That Bugs Could Kill Doug\nSix Meters of Sea Scorpion Footprints Were Found on Land -> When Earth Had So Much Oxygen That Bugs Could Kill Doug\nThis Giant Dragonfly Ruled a Sky With No Birds in It -> When Earth Had So Much Oxygen That Bugs Could Kill Doug\nNobody Filmed a Live Colossal Squid for 100 Years -> Why the Deep Sea Grows Giants Big Enough to Kill Doug\nThis Shark Was Born Around the Time of the Mayflower -> Why the Deep Sea Grows Giants Big Enough to Kill Doug\nThe Giant Isopod That Didn't Eat for Five Years -> Why the Deep Sea Grows Giants Big Enough to Kill Doug\nThe Earthquake Fish of Japan Predicts Nothing -> Why the Deep Sea Grows Giants Big Enough to Kill Doug\nA Crocodile's Face Is More Sensitive Than Your Fingertip -> Every Reason the Saltwater Crocodile Is the Scariest Reptile\nThis Crocodile Swam 411 Kilometers Home in 20 Days -> Every Reason the Saltwater Crocodile Is the Scariest Reptile\nCassius the Crocodile Was Thought to Be Over 110 Years Old -> Every Reason the Saltwater Crocodile Is the Scariest Reptile\nThis Saltwater Crocodile Stayed Underwater for 11.5 Hours -> Every Reason the Saltwater Crocodile Is the Scariest Reptile\nAn 11-Year-Old Found a Sea Reptile as Big as a Blue Whale -> Could Megalodon Survive Every Era Before and After It Died?\nThese Orcas Eat Sharks and Wear Their Teeth to the Gums -> Could Megalodon Survive Every Era Before and After It Died?\nThe Teeth That Made Megalodon Seem Modern Were Ancient -> Could Megalodon Survive Every Era Before and After It Died?",
+   "summary": "18 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "detail": "The Largest Spider Fossil Ever Found Wasn't a Spider -> When Earth Had So Much Oxygen That Bugs Could Kill Doug\nA Fallen Cliff Revealed a Millipede as Big as a Car -> When Earth Had So Much Oxygen That Bugs Could Kill Doug\nSix Meters of Sea Scorpion Footprints Were Found on Land -> When Earth Had So Much Oxygen That Bugs Could Kill Doug\nThis Giant Dragonfly Ruled a Sky With No Birds in It -> When Earth Had So Much Oxygen That Bugs Could Kill Doug\nNobody Filmed a Live Colossal Squid for 100 Years -> Why the Deep Sea Grows Giants Big Enough to Kill Doug\nThis Shark Was Born Around the Time of the Mayflower -> Why the Deep Sea Grows Giants Big Enough to Kill Doug\nThe Giant Isopod That Didn't Eat for Five Years -> Why the Deep Sea Grows Giants Big Enough to Kill Doug\nThe Earthquake Fish of Japan Predicts Nothing -> Why the Deep Sea Grows Giants Big Enough to Kill Doug\nA Crocodile's Face Is More Sensitive Than Your Fingertip -> Every Reason the Saltwater Crocodile Is the Scariest Reptile\nThis Crocodile Swam 411 Kilometers Home in 20 Days -> Every Reason the Saltwater Crocodile Is the Scariest Reptile\nCassius the Crocodile Was Thought to Be Over 110 Years Old -> Every Reason the Saltwater Crocodile Is the Scariest Reptile\nThis Saltwater Crocodile Stayed Underwater for 11.5 Hours -> Every Reason the Saltwater Crocodile Is the Scariest Reptile\nAn 11-Year-Old Found a Sea Reptile as Big as a Blue Whale -> Could Megalodon Survive Every Era Before and After It Died?\nThese Orcas Eat Sharks and Wear Their Teeth to the Gums -> Could Megalodon Survive Every Era Before and After It Died?\nThe Teeth That Made Megalodon Seem Modern Were Ancient -> Could Megalodon Survive Every Era Before and After It Died?\nA Leopard Seal Moved Into Auckland and Wrecked Dinghies -> How the Leopard Seal Kills Doug From Under the Ice\nA Leopard Seal Spent Four Days Trying to Feed a Photographer -> How the Leopard Seal Kills Doug From Under the Ice\nLeopard Seals Ate 7 in 10 Fur Seal Pups on This Beach -> How the Leopard Seal Kills Doug From Under the Ice",
    "route": "",
    "fixed": false,
    "extra": {}
