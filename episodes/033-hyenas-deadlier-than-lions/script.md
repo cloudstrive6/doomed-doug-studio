@@ -1,5 +1,5 @@
-<!-- axis: one night on the savanna, dusk to dawn. Each stop is a later hour and a worse trait, with severity measured against a lion. Spoken bands: "Dusk." (cold open, before item 1), "Midnight." (before item 4), "Before dawn." (before item 7). The night clock (about 7 PM, 8 PM, 9 PM, 11 PM, midnight, 1 AM, 3 AM, 4 AM, 5 AM, then dawn) is staging only and is never spoken as science. -->
-<!-- Episode 033, draft 1 (2026-10-31, script writer). Written to the 2026-10-27 retention update. The first sentence is the Ngorongoro fact (Kruuk 1972, via the San Diego Zoo Wildlife Alliance fact sheet: "Over 80% of observed lion feedings are hyena kills"). The payoff promise lands by 0:10. Item 1 is the myth flip, the hook fact comes first in every item, and every kicker leans into the next stop.
+<!-- axis: one night on the savanna, dusk to dawn. Each stop is a later hour and a worse trait, with severity measured against a lion. Spoken bands: "Dusk." (cold open, before item 1), "Midnight." (after item 4, before item 5), "Before dawn." (before item 7). The night clock (about 7 PM, 8 PM, 9 PM, 11 PM, midnight, 1 AM, 3 AM, 4 AM, 5 AM, then dawn) is staging only and is never spoken as science. -->
+<!-- Episode 033, draft 2 (2026-10-31, script writer; fixes 1-7 and advisories A1-A5 from script_review.md). Written to the 2026-10-27 retention update. The first sentence is the Ngorongoro fact (Kruuk 1972, via the San Diego Zoo Wildlife Alliance fact sheet: "Over 80% of observed lion feedings are hyena kills"). The payoff promise lands by 0:10. Item 1 is the myth flip, the hook fact comes first in every item, and every kicker leans into the next stop.
 Counter on screen at 260 from the first shot and ends at 267. Seven deaths: 261 The Lie, 262 The Bite, 263 The Chase, 264 The Clan, 265 The Stomach, 266 The Sleepers, 267 The Mob. All are played flat. Doug survives The Laugh and The Town ("Doug is fine."). "Doug did not agree to this." is used once, in item 1.
 LION | HYENA scoreboard: HYENA ticks after every item. LION ticks only at the two ties (The Chase, The Clan). It ends at LION 2, HYENA 9. The judgement line is said once, in item 1.
 Field guide: SPOTTED HYENA page FRIEND? empty, "NO" at death 261, "MAYBE" pencilled at The Laugh, erased at The Clan. The LION page on the facing page stays empty all episode. A lion never kills Doug and never attacks anything on screen.
@@ -13,18 +13,18 @@ Befriending: "still?" (3), Doug laughing back (4), "wait" (boss). -->
 5. The Laugh: "frustration" is attributed as the Berkeley team's reading. The whoop is a "long-range recruitment call" with a range of up to 5 km (Lehmann et al. 2022, Proc. R. Soc. B).
 6. The Stomach: no "store food in water" claim, because I couldn't source it. Instead the item uses Kruuk's observation of hyenas diving under floating carcasses (up to 12 s under water, SDZWA). The 14.5 kg figure stands (Kruuk 1972, p. 124).
 7. The Mob: the ratio is the Ngorongoro Hyena Project's "at least six times" more hyenas than lions. Cooper 1991's "four" is only reported secondhand, so it is not used. The IUCN "most abundant large carnivore" wording could not be found and is cut. For the honesty line, there is no continent-wide count, so it uses Packer et al. 2005 (Tanzania) and Mbise 2021 (eastern Serengeti: lions caused most reported attacks, ahead of leopards and hyenas).
-8. The Sleepers: no numbers of victims, no places with dates, no incidents. The general lines are: many records of attacks on sleeping people (CyberTracker), attacks most common in September when people sleep outdoors (Wikipedia, citing Begg et al. 2007 and Kruuk 2002), and the 300 m flight distance (Kruuk 1972). The brief's Malawi hot-season line is cut, because the only text I found has no citation. The sober card is used.
+8. The Sleepers: no numbers of victims, no places with dates, no incidents. The general lines are: many records of attacks on sleeping people (CyberTracker), in one Mozambique reserve, 7 of 13 recorded hyena attacks were on people sleeping in the open (Begg, Begg and Muemedi 2007, read in the PDF), and the 300 m flight distance (Kruuk 1972). Draft 2 cut the September line and the tent joke. The brief's Malawi hot-season line is cut, because the only text I found has no citation. The sober card is used.
 9. No "The Den".
 -->
 <!-- Pronunciation for the editor: Harar = "hah-RAHR"; Harar Jugol = "hah-RAHR JOO-gol"; Mekelle = "meh-KEL-leh"; Ngorongoro = "ng-GOR-ong-GOR-oh"; Masai Mara = "MAH-sigh MAH-rah"; Kruuk = "KROOK"; Serengeti = as usual; Malawi = "mah-LAH-wee". -->
 
 [Open on thumbnail A, 1.5 to 4 seconds. Night, dark navy field. Tiny red-capped Doug holds up a torch, and the beam lands on one heavy, sloped spotted hyena. Around it in the dark are many pairs of glowing eyes. In the corner, a lion walks out of frame, away from him. Text: "THE LIONS LEFT". DOUG DEATHS: 260. Beside the counter is a cracked chalkboard "LION | HYENA" with paw icons and both columns empty. A small night clock shows a sinking moon.]
 
-In one African crater, more than eight in ten meals lions were seen eating had been killed by hyenas.
+In one African crater, more than eight in ten of the meals lions were seen eating had been killed by hyenas.
 
 [Hard cut. A lion crouched over a carcass shape, drawn as an outline only. A red arrow points from it back to a hyena sitting off to one side. Label: "HYENA KILL".]
 
-By the end, Doug hides behind lions for safety, and the lions leave.
+By the end, Doug hides behind lions, and the lions leave.
 
 [Doug peeking out from behind a lioness, hopeful smile. A big red "?" pops above the lioness.]
 
@@ -48,7 +48,7 @@ For decades, the accepted picture was simple: lions did the hunting, and hyenas 
 
 [Night. A stick-figure scientist in a jeep, binoculars up, headlights off.]
 
-Here's the part nobody expected.
+Here's where the picture flips.
 
 [A three-panel strip. Panel 1: hyenas bring down a wildebeest silhouette. Panel 2: a lion strolls in. Panel 3: the hyenas back off and the lion eats. A red arrow runs from panel 1 to panel 3.]
 
@@ -60,11 +60,11 @@ The thief in the famous picture was the lion.
 
 [The cracked LION | HYENA chalkboard fills the frame. The narrator's hand holds the chalk.]
 
-The narrator has used this chalkboard before, and the moose won that one too. Every tick on it is the narrator's call from the facts, not the result of a study.
+The narrator has used this chalkboard before. Every tick is the narrator's call, not a study.
 
 [Doug's field guide opens to a two-page spread. Left: LION, FRIEND? empty. Right: SPOTTED HYENA, FRIEND? empty.]
 
-The question tonight is which animal is worse for Doug to be near, alone and on foot, from dusk until dawn.
+Tonight's question is which one is worse to be near, on foot, until dawn.
 
 Doug did not agree to this.
 
@@ -118,7 +118,7 @@ Doug has brought the hyena a gift, a chew bone from a pet shop, with a bow on it
 
 Doug has died.
 
-The cap is the only thing in this video a hyena hasn't tried to digest, so Doug decided to run.
+The hyena turned down the leftovers and the gift, and broke the stick. Doug decided to run before it got round to the cap.
 
 ## The Chase
 
@@ -160,8 +160,6 @@ Doug has died. Again.
 
 The cap kept rolling for a while, and then, somewhere out in the dark, something started laughing.
 
-Midnight.
-
 ## The Laugh
 
 The Laugh.
@@ -178,11 +176,11 @@ Researchers at the University of California, Berkeley, recorded hundreds of gigg
 
 They giggle in tense moments, like a squabble over food or when lions chase them off a kill, and the researchers think the wobble in the call carries frustration.
 
+But the giggle is not the sound to worry about.
+
 [A hyena with its head low, giving a long rising call. Rings spread out across a map of the savanna. Label: "UP TO 5 KM".]
 
-Then there's the whoop, a long-range call that hyenas use to recruit the rest of the clan, which carries up to about five kilometers. That's nearly fifty soccer fields laid end to end.
-
-The strange part is the sound everyone calls laughing, because it's really a hyena having a bad night.
+That's the whoop, a long-range call that hyenas use to recruit the rest of the clan, which carries up to about five kilometers. That's nearly fifty soccer fields laid end to end.
 
 [Doug laughs back, mouth wide, hand on his belly. The giggling gets louder and higher. One low-ranking hyena backs off, ears flat, and slinks away.]
 
@@ -197,6 +195,8 @@ He has no idea what he said to it, and the narrator, watching from a safe distan
 [Far off on the dark horizon, one hyena lifts its head and whoops. Rings spread.]
 
 The hyena that left was whooping now, and that is the call that brings the others.
+
+Midnight.
 
 ## The Clan
 
@@ -214,7 +214,7 @@ A hundred and thirty hyenas wouldn't fit on a school bus rated for seventy-two p
 
 Every one of them has a rank, and the rank is inherited, so young hyenas take their place in the order from their mother. Females outrank all the males, and to bring down big prey, a clan hunts in groups of roughly eight to twenty-five.
 
-The scary part is the arithmetic.
+Now do the arithmetic.
 
 [Map of the Ngorongoro Crater, a ring of hills. On one side, a dense crowd of hyena dots. On the other, a small cluster of lion dots. Labels: "UP TO 550" and "25 TO 40".]
 
@@ -240,7 +240,7 @@ Doug counts the eyes in his torch beam, gets to twelve, and gives up.
 
 Doug has died. Again.
 
-Doug got to twelve, which is about how long anything lasts once a clan sits down to eat.
+The clan sat down to eat, and the narrator went to fetch a stopwatch.
 
 ## The Stomach
 
@@ -290,7 +290,7 @@ The old walled city of Harar, in Ethiopia, has holes in its wall for hyenas. Six
 
 [A crude map of the walled town with sixteen small red dots around its edge.]
 
-Spotted hyenas have roamed Harar's streets for at least five hundred years, coming and going through those openings and cleaning up the city's scraps. The old town, Harar Jugol, is a UNESCO World Heritage Site covering forty-eight hectares, about the size of sixty-seven soccer fields.
+Spotted hyenas have roamed Harar's streets for at least five hundred years, coming and going through those openings and cleaning up the city's scraps. The old town, Harar Jugol, is a UNESCO World Heritage Site covering forty-eight hectares, about the size of Vatican City, the smallest country in the world.
 
 [A simple, respectful drawing. A man sits on a low stool, holding out a strip of meat, and a hyena takes it gently. Lamplight.]
 
@@ -298,7 +298,7 @@ In the evenings, men known as the hyena men feed wild hyenas by hand. Each year,
 
 [A map of northern Ethiopia with a red dot at Mekelle. A butcher's bin, then a calendar showing "55 DAYS", then a donkey with a red "!" above it.]
 
-Further north, around the city of Mekelle, hyenas mostly scavenge waste from butchers and households. During the fifty-five-day fast before Easter, when Orthodox Christians stop eating meat, researchers found the hyenas turned to donkeys instead.
+Further north, around the city of Mekelle, hyenas mostly scavenge waste from butchers and households. During the fifty-five-day fast before Easter, when Orthodox Christians stop eating meat, researchers found twice as much donkey in the hyenas' droppings.
 
 The remarkable part is what all of this says about hyenas.
 
@@ -324,17 +324,15 @@ Lions are the animal people fear in the dark, but there are many records of spot
 
 [A hyena standing far off at the edge of the village, with a long dotted line showing the distance it keeps.]
 
-Hyenas are usually shy around people, and they can run from a person at up to three hundred meters, further than any other African carnivore. Even so, they can prey on people who are sleeping outdoors, and they sometimes break into huts and tents.
+Hyenas are usually shy around people, and they can run from a person at up to three hundred meters, further than any other African carnivore. That's roughly the height of the Eiffel Tower, laid on its side.
 
-[Sober card: white text on black, no drawings. "MANY RECORDS OF ATTACKS ON SLEEPING PEOPLE" / "MOST COMMON: SEPTEMBER, PEOPLE SLEEPING OUTSIDE".]
+Even so, they can prey on people who are sleeping outdoors, and they sometimes break into huts and tents.
 
-The records show attacks are most common in September, when many people sleep outdoors in the heat, and bush fires make wild prey harder for hyenas to hunt.
+[Sober card: white text on black, no drawings. "MANY RECORDS OF ATTACKS ON SLEEPING PEOPLE" / "MOZAMBIQUE RESERVE: 7 OF 13 ATTACKS ON PEOPLE SLEEPING OUTSIDE".]
 
-[A tent, with a raincoat on a hanger beside it and a red "=" sign between them.]
+In one reserve in Mozambique, more than half of the recorded hyena attacks happened while people were sleeping in the open.
 
-And sleeping in a tent doesn't change much, because a tent is basically a raincoat with a zip.
-
-The uncomfortable part is who's actually out there in the dark.
+Here's who is actually out there in the dark.
 
 [A town edge at night: a rubbish heap, a butcher's bin and a hyena silhouette walking past a doorway. A lion silhouette is far off in the bush, small.]
 
@@ -342,7 +340,7 @@ Lions are what people picture, but hyenas are the ones that come right into town
 
 [Doug lying on a mat outside under the stars, cap on, smiling. A hand-painted sign beside him: "LIONS: NO". His torch rolls slowly away into the dark and goes out.]
 
-Doug is sleeping outside because of the heat, on a mat, beside a hand-painted sign that says "LIONS: NO", and in the night his torch rolls away.
+Doug is sleeping outside because of the heat, on a mat, beside a hand-painted sign that says "Lions: no", and in the night his torch rolls away.
 
 [Cut to black. The cap sits on top of the sign. DOUG DEATHS: 266. Chalkboard: HYENA 8.]
 
@@ -404,4 +402,4 @@ The cap is heading to Harar, where someone will feed it by hand.
 
 Doug deaths: two hundred and sixty-seven. Killed by lions: none. The next place Doug isn't welcome is on your screen now.
 
-<!-- words: 2048 (spoken narration only; about 10.5 min at 195 wpm; average sentence 14.3 words, longest 32; Flesch about 78 by the writer's own syllable count) -->
+<!-- words: 2007 (draft 2, spoken narration only; about 10.3 min at 195 wpm. "The Lie." ends at word 35; death 261 at about word 240, about 1:14 plus the thumbnail hold) -->
