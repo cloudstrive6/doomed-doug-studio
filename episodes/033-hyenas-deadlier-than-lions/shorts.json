@@ -1,0 +1,37 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s030",
+      "to": "s036",
+      "title": "",
+      "outro": "Later, Doug offered it a pet-shop chew bone with a bow on it. It wanted his walking stick instead. The full video is below.",
+      "tease_from": "s047",
+      "tease_asset": "spotted_hyena",
+      "end_card": "WHAT HAPPENED TO DOUG'S WALKING STICK?",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s073",
+      "to": "s085",
+      "title": "",
+      "outro": "That whoop is how a clan of up to a hundred and thirty finds you. Doug counted to twelve. It's in the full video below.",
+      "tease_from": "s115",
+      "tease_asset": "spotted_hyena_plain",
+      "end_card": "WHAT HAPPENED AFTER DOUG COUNTED TWELVE?",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s137",
+      "to": "s145",
+      "title": "",
+      "outro": "Two hours later, Doug hid behind a pride of lionesses for safety. Then the whooping started, and the lions left. Full video below.",
+      "tease_from": "s195",
+      "tease_asset": "lioness_walking",
+      "end_card": "WHY DID THE LIONS LEAVE DOUG?",
+      "description": ""
+    }
+  ]
+}
