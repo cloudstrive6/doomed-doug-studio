@@ -273,20 +273,20 @@
       "density": 0.02
      },
      {
+      "type": "doug",
+      "x": 800,
+      "y": 752.0,
+      "scale": 0.5,
+      "pose": "stand",
+      "expression": "shock",
+      "facing": "right"
+     },
+     {
       "type": "asset",
       "name": "lioness",
       "x": 900,
       "y": 900,
       "scale": 0.75
-     },
-     {
-      "type": "doug",
-      "x": 1240,
-      "y": 784.0,
-      "scale": 0.5,
-      "pose": "crouch",
-      "expression": "hopeful",
-      "facing": "left"
      },
      {
       "type": "asset",
@@ -2282,12 +2282,12 @@
      {
       "type": "arrow",
       "from": [
-       1650,
-       980
+       1640,
+       900
       ],
       "to": [
        1500,
-       760
+       770
       ],
       "bend": 50,
       "color": "#e0201b",
@@ -2298,8 +2298,8 @@
      {
       "type": "wordart",
       "text": "TAKEAWAY",
-      "x": 1680,
-      "y": 920,
+      "x": 1640,
+      "y": 965,
       "size": 64,
       "boil": 0,
       "appear": 0.7
@@ -7257,9 +7257,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 360.25,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -7462,9 +7462,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 360.25,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -13655,9 +13655,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 360.25,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -13667,9 +13667,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 396.0,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 409.8,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -13886,9 +13886,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 360.25,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -13898,9 +13898,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 396.0,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 409.8,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -19716,11 +19716,12 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1009,
-      "y": 591,
+      "x": 605,
+      "y": 640,
       "scale": 1.0,
-      "rotate": 40,
-      "appear": 0.3
+      "rotate": -40,
+      "appear": 0.55,
+      "flip": true
      },
      {
       "type": "wordart",
@@ -22676,9 +22677,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 360.25,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -22688,9 +22689,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 396.0,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 409.8,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -22700,9 +22701,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 431.75,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 447.6,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -31374,9 +31375,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 360.25,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -31386,9 +31387,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 396.0,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 409.8,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -31398,9 +31399,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 431.75,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 447.6,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -31868,9 +31869,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 360.25,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -31880,9 +31881,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 396.0,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 409.8,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -31892,9 +31893,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 431.75,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 447.6,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -41908,11 +41909,12 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 679,
-      "y": 591,
+      "x": 628,
+      "y": 640,
       "scale": 1.0,
-      "rotate": 40,
-      "appear": 0.55
+      "rotate": -40,
+      "appear": 0.55,
+      "flip": true
      },
      {
       "type": "doug",
@@ -44981,9 +44983,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 360.25,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -44993,9 +44995,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 396.0,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 409.8,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -45005,9 +45007,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 431.75,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 447.6,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -45017,9 +45019,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 467.5,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 922.8,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -51539,9 +51541,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 360.25,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -51551,9 +51553,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 396.0,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 409.8,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -51563,9 +51565,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 431.75,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 447.6,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -51575,9 +51577,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 467.5,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 922.8,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -51587,9 +51589,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 360.25,
-      "y": 937.75,
-      "size": 28.6,
+      "x": 409.8,
+      "y": 922.8,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -60347,9 +60349,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 357.5,
-      "y": 920.0,
-      "size": 26.0,
+      "x": 368.1,
+      "y": 915.0,
+      "size": 19.1,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -60359,9 +60361,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 390.0,
-      "y": 920.0,
-      "size": 26.0,
+      "x": 402.5,
+      "y": 915.0,
+      "size": 19.1,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -60371,9 +60373,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 422.5,
-      "y": 920.0,
-      "size": 26.0,
+      "x": 436.9,
+      "y": 915.0,
+      "size": 19.1,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -60383,9 +60385,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 455.0,
-      "y": 920.0,
-      "size": 26.0,
+      "x": 368.1,
+      "y": 938.9,
+      "size": 19.1,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -60395,9 +60397,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 357.5,
-      "y": 952.5,
-      "size": 26.0,
+      "x": 402.5,
+      "y": 938.9,
+      "size": 19.1,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -65111,14 +65113,14 @@
      },
      {
       "type": "speech",
-      "x": 1500,
-      "y": 520,
+      "x": 600,
+      "y": 420,
       "w": 300,
       "h": 180,
       "text": "",
       "tail": [
-       1700,
-       780
+       330,
+       640
       ],
       "size": 40,
       "appear": 0.2
@@ -65126,8 +65128,8 @@
      {
       "type": "asset",
       "name": "lioness",
-      "x": 1500,
-      "y": 570,
+      "x": 600,
+      "y": 470,
       "scale": 0.15,
       "appear": 0.25
      },
@@ -66726,8 +66728,8 @@
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 960,
-      "y": 630,
+      "x": 1160,
+      "y": 885,
       "scale": 0.5
      },
      {
@@ -66751,9 +66753,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 360.25,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -66763,9 +66765,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 396.0,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 409.8,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -66775,9 +66777,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 431.75,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 447.6,
+      "y": 896.5,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -66787,9 +66789,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 467.5,
-      "y": 902.0,
-      "size": 28.6,
+      "x": 371.9,
+      "y": 922.8,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -66799,9 +66801,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 360.25,
-      "y": 937.75,
-      "size": 28.6,
+      "x": 409.8,
+      "y": 922.8,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -66811,9 +66813,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 396.0,
-      "y": 937.75,
-      "size": 28.6,
+      "x": 447.6,
+      "y": 922.8,
+      "size": 21.0,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -67027,20 +67029,9 @@
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 960,
-      "y": 630,
+      "x": 1160,
+      "y": 885,
       "scale": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "lioness_walking",
-      "x": 1700,
-      "y": 880,
-      "scale": 0.18,
-      "flip": true,
-      "silhouette": true,
-      "glow_r": 0,
-      "appear": 0.4
      },
      {
       "type": "rect",
@@ -67681,6 +67672,13 @@
      },
      {
       "type": "asset",
+      "name": "lioness",
+      "x": 1020,
+      "y": 880,
+      "scale": 0.405
+     },
+     {
+      "type": "asset",
       "name": "lioness_crouched",
       "x": 900,
       "y": 905,
@@ -67693,13 +67691,6 @@
       "y": 915,
       "scale": 0.405,
       "flip": true
-     },
-     {
-      "type": "asset",
-      "name": "lioness",
-      "x": 1020,
-      "y": 880,
-      "scale": 0.405
      },
      {
       "type": "ellipse",
@@ -67925,6 +67916,13 @@
      },
      {
       "type": "asset",
+      "name": "lioness",
+      "x": 1020,
+      "y": 880,
+      "scale": 0.45
+     },
+     {
+      "type": "asset",
       "name": "lioness_crouched",
       "x": 900,
       "y": 905,
@@ -67937,13 +67935,6 @@
       "y": 915,
       "scale": 0.45,
       "flip": true
-     },
-     {
-      "type": "asset",
-      "name": "lioness",
-      "x": 1020,
-      "y": 880,
-      "scale": 0.45
      },
      {
       "type": "ellipse",
@@ -68743,6 +68734,13 @@
      },
      {
       "type": "asset",
+      "name": "lioness",
+      "x": 1060,
+      "y": 880,
+      "scale": 0.45
+     },
+     {
+      "type": "asset",
       "name": "lioness_crouched",
       "x": 940,
       "y": 905,
@@ -68755,13 +68753,6 @@
       "y": 915,
       "scale": 0.45,
       "flip": true
-     },
-     {
-      "type": "asset",
-      "name": "lioness",
-      "x": 1060,
-      "y": 880,
-      "scale": 0.45
      },
      {
       "type": "asset",
@@ -71308,6 +71299,15 @@
       "density": 0.02
      },
      {
+      "type": "doug",
+      "x": 1140,
+      "y": 815.0,
+      "scale": 0.5,
+      "pose": "crouch",
+      "expression": "hopeful",
+      "facing": "left"
+     },
+     {
       "type": "asset",
       "name": "carcass_outline",
       "x": 800,
@@ -71316,34 +71316,25 @@
      },
      {
       "type": "asset",
+      "name": "lioness",
+      "x": 860.0,
+      "y": 880.0,
+      "scale": 0.495
+     },
+     {
+      "type": "asset",
       "name": "lioness_crouched",
-      "x": 740,
+      "x": 740.0,
       "y": 905,
       "scale": 0.55
      },
      {
       "type": "asset",
       "name": "lioness_crouched",
-      "x": 1040,
-      "y": 915,
-      "scale": 0.49500000000000005,
+      "x": 1040.0,
+      "y": 915.0,
+      "scale": 0.495,
       "flip": true
-     },
-     {
-      "type": "asset",
-      "name": "lioness",
-      "x": 860,
-      "y": 880,
-      "scale": 0.49500000000000005
-     },
-     {
-      "type": "doug",
-      "x": 1280,
-      "y": 784.0,
-      "scale": 0.5,
-      "pose": "crouch",
-      "expression": "hopeful",
-      "facing": "left"
      },
      {
       "type": "arrow",
@@ -71352,8 +71343,8 @@
        520
       ],
       "to": [
-       1320,
-       640
+       1165,
+       670
       ],
       "bend": -40,
       "color": "#e0201b",
@@ -71538,49 +71529,28 @@
       "density": 0.02
      },
      {
-      "type": "asset",
-      "name": "carcass_outline",
-      "x": 800,
-      "y": 905,
-      "scale": 0.66
-     },
-     {
-      "type": "asset",
-      "name": "lioness_crouched",
-      "x": 740,
-      "y": 905,
-      "scale": 0.55
-     },
-     {
-      "type": "asset",
-      "name": "lioness_crouched",
-      "x": 1040,
-      "y": 915,
-      "scale": 0.49500000000000005,
-      "flip": true
-     },
-     {
-      "type": "asset",
-      "name": "lioness",
-      "x": 860,
-      "y": 880,
-      "scale": 0.49500000000000005
-     },
-     {
       "type": "doug",
-      "x": 1280,
-      "y": 784.0,
-      "scale": 0.5,
+      "x": 1180,
+      "y": 900.0,
+      "scale": 1.3,
       "pose": "thumbs_up",
       "expression": "hopeful",
       "facing": "left"
      },
      {
       "type": "asset",
+      "name": "lioness_crouched",
+      "x": 760,
+      "y": 1200,
+      "scale": 1.7,
+      "flip": true
+     },
+     {
+      "type": "asset",
       "name": "question_mark",
-      "x": 800,
-      "y": 480,
-      "scale": 0.45,
+      "x": 1400,
+      "y": 470,
+      "scale": 0.6,
       "appear": 0.35
      },
      {
@@ -71669,6 +71639,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 1180,
+    "y": 560,
+    "zoom": 1.08
    }
   },
   {
@@ -71682,7 +71658,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 473.00000000000006,
+      "h": 308.0,
       "fill": "#4a4f5e",
       "color": "#4a4f5e",
       "width": 0,
@@ -71692,9 +71668,9 @@
      {
       "type": "rect",
       "x": 0,
-      "y": 473.00000000000006,
+      "y": 308.0,
       "w": 1920,
-      "h": 388.0,
+      "h": 253.0,
       "fill": "#6a6a72",
       "color": "#6a6a72",
       "width": 0,
@@ -71704,9 +71680,9 @@
      {
       "type": "rect",
       "x": 0,
-      "y": 860,
+      "y": 560,
       "w": 1920,
-      "h": 220,
+      "h": 520,
       "fill": "#2a2e28",
       "color": "#2a2e28",
       "width": 0,
@@ -71718,23 +71694,23 @@
       "points": [
        [
         -20,
-        860
+        560
        ],
        [
         400,
-        854
+        554
        ],
        [
         900,
-        864
+        564
        ],
        [
         1400,
-        855
+        555
        ],
        [
         1940,
-        862
+        562
        ]
       ],
       "color": "#000000",
@@ -71743,54 +71719,54 @@
      {
       "type": "spray",
       "x": 960,
-      "y": 980,
-      "r": 900,
+      "y": 820.0,
+      "r": 1000,
       "color": "#22261f",
       "density": 0.02
      },
      {
-      "type": "asset",
-      "name": "carcass_outline",
-      "x": 800,
-      "y": 905,
-      "scale": 0.66
-     },
-     {
-      "type": "asset",
-      "name": "lioness_crouched",
-      "x": 740,
-      "y": 905,
-      "scale": 0.55
-     },
-     {
-      "type": "asset",
-      "name": "lioness_crouched",
-      "x": 1040,
-      "y": 915,
-      "scale": 0.49500000000000005,
-      "flip": true
-     },
-     {
-      "type": "asset",
-      "name": "lioness",
-      "x": 860,
-      "y": 880,
-      "scale": 0.49500000000000005
-     },
-     {
       "type": "doug",
-      "x": 1280,
-      "y": 784.0,
-      "scale": 0.5,
+      "x": 1100,
+      "y": 729.0,
+      "scale": 0.22,
       "pose": "crouch",
       "expression": "confused",
       "facing": "left"
      },
      {
-      "type": "circle",
-      "x": 150,
+      "type": "asset",
+      "name": "carcass_outline",
+      "x": 960,
       "y": 760,
-      "r": 90,
+      "scale": 0.288
+     },
+     {
+      "type": "asset",
+      "name": "lioness",
+      "x": 986.1818181818181,
+      "y": 749.0909090909091,
+      "scale": 0.216
+     },
+     {
+      "type": "asset",
+      "name": "lioness_crouched",
+      "x": 933.8181818181819,
+      "y": 760,
+      "scale": 0.24
+     },
+     {
+      "type": "asset",
+      "name": "lioness_crouched",
+      "x": 1064.7272727272727,
+      "y": 764.3636363636364,
+      "scale": 0.216,
+      "flip": true
+     },
+     {
+      "type": "circle",
+      "x": -120,
+      "y": 700,
+      "r": 180,
       "fill": "none",
       "color": "#fff3b0",
       "width": 5,
@@ -71798,9 +71774,9 @@
      },
      {
       "type": "circle",
-      "x": 150,
-      "y": 760,
-      "r": 200,
+      "x": -120,
+      "y": 700,
+      "r": 340,
       "fill": "none",
       "color": "#fff3b0",
       "width": 5,
@@ -71808,9 +71784,9 @@
      },
      {
       "type": "circle",
-      "x": 150,
-      "y": 760,
-      "r": 320,
+      "x": -120,
+      "y": 700,
+      "r": 500,
       "fill": "none",
       "color": "#fff3b0",
       "width": 5,
@@ -71818,9 +71794,9 @@
      },
      {
       "type": "circle",
-      "x": 1780,
-      "y": 760,
-      "r": 90,
+      "x": 2040,
+      "y": 700,
+      "r": 180,
       "fill": "none",
       "color": "#fff3b0",
       "width": 5,
@@ -71828,9 +71804,9 @@
      },
      {
       "type": "circle",
-      "x": 1780,
-      "y": 760,
-      "r": 200,
+      "x": 2040,
+      "y": 700,
+      "r": 340,
       "fill": "none",
       "color": "#fff3b0",
       "width": 5,
@@ -71838,9 +71814,9 @@
      },
      {
       "type": "circle",
-      "x": 1780,
-      "y": 760,
-      "r": 320,
+      "x": 2040,
+      "y": 700,
+      "r": 500,
       "fill": "none",
       "color": "#fff3b0",
       "width": 5,
@@ -71849,8 +71825,8 @@
      {
       "type": "circle",
       "x": 960,
-      "y": 500,
-      "r": 90,
+      "y": 1250,
+      "r": 180,
       "fill": "none",
       "color": "#fff3b0",
       "width": 5,
@@ -71859,8 +71835,8 @@
      {
       "type": "circle",
       "x": 960,
-      "y": 500,
-      "r": 200,
+      "y": 1250,
+      "r": 340,
       "fill": "none",
       "color": "#fff3b0",
       "width": 5,
@@ -71869,8 +71845,8 @@
      {
       "type": "circle",
       "x": 960,
-      "y": 500,
-      "r": 320,
+      "y": 1250,
+      "r": 500,
       "fill": "none",
       "color": "#fff3b0",
       "width": 5,
@@ -72042,47 +72018,9 @@
       "density": 0.02
      },
      {
-      "type": "asset",
-      "name": "carcass_outline",
-      "x": 800,
-      "y": 905,
-      "scale": 0.66
-     },
-     {
-      "type": "asset",
-      "name": "lioness_crouched",
-      "x": 740,
-      "y": 905,
-      "scale": 0.55
-     },
-     {
-      "type": "asset",
-      "name": "lioness_crouched",
-      "x": 1040,
-      "y": 915,
-      "scale": 0.49500000000000005,
-      "flip": true
-     },
-     {
-      "type": "asset",
-      "name": "lioness",
-      "x": 860,
-      "y": 880,
-      "scale": 0.49500000000000005
-     },
-     {
-      "type": "doug",
-      "x": 1280,
-      "y": 784.0,
-      "scale": 0.5,
-      "pose": "crouch",
-      "expression": "gritted",
-      "facing": "left"
-     },
-     {
       "type": "ellipse",
       "x": 139.0,
-      "y": 830,
+      "y": 790,
       "rx": 7,
       "ry": 5,
       "fill": "#fff36b",
@@ -72094,7 +72032,7 @@
      {
       "type": "ellipse",
       "x": 161.0,
-      "y": 830,
+      "y": 790,
       "rx": 7,
       "ry": 5,
       "fill": "#fff36b",
@@ -72106,7 +72044,7 @@
      {
       "type": "ellipse",
       "x": 289.0,
-      "y": 850,
+      "y": 810,
       "rx": 7,
       "ry": 5,
       "fill": "#fff36b",
@@ -72118,7 +72056,7 @@
      {
       "type": "ellipse",
       "x": 311.0,
-      "y": 850,
+      "y": 810,
       "rx": 7,
       "ry": 5,
       "fill": "#fff36b",
@@ -72130,7 +72068,7 @@
      {
       "type": "ellipse",
       "x": 1589.0,
-      "y": 840,
+      "y": 800,
       "rx": 7,
       "ry": 5,
       "fill": "#fff36b",
@@ -72142,7 +72080,7 @@
      {
       "type": "ellipse",
       "x": 1611.0,
-      "y": 840,
+      "y": 800,
       "rx": 7,
       "ry": 5,
       "fill": "#fff36b",
@@ -72154,7 +72092,7 @@
      {
       "type": "ellipse",
       "x": 1769.0,
-      "y": 820,
+      "y": 780,
       "rx": 7,
       "ry": 5,
       "fill": "#fff36b",
@@ -72166,7 +72104,7 @@
      {
       "type": "ellipse",
       "x": 1791.0,
-      "y": 820,
+      "y": 780,
       "rx": 7,
       "ry": 5,
       "fill": "#fff36b",
@@ -72176,11 +72114,49 @@
       "appear": 0.1
      },
      {
+      "type": "doug",
+      "x": 1170,
+      "y": 826.0,
+      "scale": 0.35,
+      "pose": "crouch",
+      "expression": "gritted",
+      "facing": "left"
+     },
+     {
+      "type": "asset",
+      "name": "carcass_outline",
+      "x": 900,
+      "y": 880,
+      "scale": 0.456
+     },
+     {
+      "type": "asset",
+      "name": "lioness",
+      "x": 941.4545454545455,
+      "y": 862.7272727272727,
+      "scale": 0.342
+     },
+     {
+      "type": "asset",
+      "name": "lioness_crouched",
+      "x": 858.5454545454545,
+      "y": 880,
+      "scale": 0.38
+     },
+     {
+      "type": "asset",
+      "name": "lioness_crouched",
+      "x": 1065.8181818181818,
+      "y": 886.9090909090909,
+      "scale": 0.342,
+      "flip": true
+     },
+     {
       "type": "asset",
       "name": "spotted_hyena_plain",
-      "x": 200,
-      "y": 960,
-      "scale": 0.4,
+      "x": 330,
+      "y": 1230,
+      "scale": 1.15,
       "silhouette": true,
       "glow_r": 0,
       "appear": 0.45
@@ -72188,9 +72164,9 @@
      {
       "type": "asset",
       "name": "spotted_hyena_plain",
-      "x": 1720,
-      "y": 970,
-      "scale": 0.4,
+      "x": 1620,
+      "y": 1250,
+      "scale": 1.15,
       "flip": true,
       "silhouette": true,
       "glow_r": 0,
@@ -72362,6 +72338,15 @@
       "density": 0.02
      },
      {
+      "type": "doug",
+      "x": 1140,
+      "y": 815.0,
+      "scale": 0.5,
+      "pose": "cower",
+      "expression": "gritted",
+      "facing": "left"
+     },
+     {
       "type": "asset",
       "name": "carcass_outline",
       "x": 800,
@@ -72370,34 +72355,25 @@
      },
      {
       "type": "asset",
+      "name": "lioness",
+      "x": 860.0,
+      "y": 880.0,
+      "scale": 0.495
+     },
+     {
+      "type": "asset",
       "name": "lioness_crouched",
-      "x": 740,
+      "x": 740.0,
       "y": 905,
       "scale": 0.55
      },
      {
       "type": "asset",
       "name": "lioness_crouched",
-      "x": 1040,
-      "y": 915,
-      "scale": 0.49500000000000005,
+      "x": 1040.0,
+      "y": 915.0,
+      "scale": 0.495,
       "flip": true
-     },
-     {
-      "type": "asset",
-      "name": "lioness",
-      "x": 860,
-      "y": 880,
-      "scale": 0.49500000000000005
-     },
-     {
-      "type": "doug",
-      "x": 1280,
-      "y": 784.0,
-      "scale": 0.5,
-      "pose": "cower",
-      "expression": "gritted",
-      "facing": "left"
      },
      {
       "type": "asset",
@@ -73125,9 +73101,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 1031.5,
-      "y": 672.0,
-      "size": 67.60000000000001,
+      "x": 1059.2,
+      "y": 659.0,
+      "size": 49.6,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -73137,9 +73113,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 1116.0,
-      "y": 672.0,
-      "size": 67.60000000000001,
+      "x": 1148.5,
+      "y": 659.0,
+      "size": 49.6,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -73149,9 +73125,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 1200.5,
-      "y": 672.0,
-      "size": 67.60000000000001,
+      "x": 1237.8,
+      "y": 659.0,
+      "size": 49.6,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -73161,9 +73137,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 1285.0,
-      "y": 672.0,
-      "size": 67.60000000000001,
+      "x": 1059.2,
+      "y": 721.0,
+      "size": 49.6,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -73173,9 +73149,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 1031.5,
-      "y": 756.5,
-      "size": 67.60000000000001,
+      "x": 1148.5,
+      "y": 721.0,
+      "size": 49.6,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -73185,9 +73161,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 1116.0,
-      "y": 756.5,
-      "size": 67.60000000000001,
+      "x": 1237.8,
+      "y": 721.0,
+      "size": 49.6,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -73197,9 +73173,9 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 1200.5,
-      "y": 756.5,
-      "size": 67.60000000000001,
+      "x": 1059.2,
+      "y": 783.1,
+      "size": 49.6,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -73432,6 +73408,13 @@
      },
      {
       "type": "asset",
+      "name": "lioness",
+      "x": 480,
+      "y": 880,
+      "scale": 0.405
+     },
+     {
+      "type": "asset",
       "name": "lioness_crouched",
       "x": 360,
       "y": 905,
@@ -73444,13 +73427,6 @@
       "y": 915,
       "scale": 0.405,
       "flip": true
-     },
-     {
-      "type": "asset",
-      "name": "lioness",
-      "x": 480,
-      "y": 880,
-      "scale": 0.405
      },
      {
       "type": "asset",
