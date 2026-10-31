@@ -3718,9 +3718,9 @@
      {
       "type": "wordart",
       "text": "HYENAS MADE THE KILL",
-      "x": 960,
+      "x": 800,
       "y": 200,
-      "size": 70,
+      "size": 62,
       "boil": 0,
       "appear": 0.55
      },
@@ -35195,7 +35195,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 200,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35203,7 +35203,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 315,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35211,7 +35211,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 430,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35219,7 +35219,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 545,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35227,7 +35227,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 660,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35235,7 +35235,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 775,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35243,7 +35243,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 890,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35251,7 +35251,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1005,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35259,7 +35259,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1120,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35267,7 +35267,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1235,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35275,7 +35275,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1350,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35283,7 +35283,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1465,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35291,7 +35291,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1580,
-      "y": 330,
+      "y": 300,
       "scale": 0.45,
       "appear": 0.05
      },
@@ -35299,7 +35299,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 200,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35307,7 +35307,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 315,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35315,7 +35315,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 430,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35323,7 +35323,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 545,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35331,7 +35331,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 660,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35339,7 +35339,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 775,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35347,7 +35347,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 890,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35355,7 +35355,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1005,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35363,7 +35363,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1120,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35371,7 +35371,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1235,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35379,7 +35379,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1350,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35387,7 +35387,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1465,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35395,7 +35395,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1580,
-      "y": 400,
+      "y": 360,
       "scale": 0.45,
       "appear": 0.11
      },
@@ -35403,7 +35403,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 200,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35411,7 +35411,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 315,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35419,7 +35419,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 430,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35427,7 +35427,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 545,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35435,7 +35435,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 660,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35443,7 +35443,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 775,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35451,7 +35451,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 890,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35459,7 +35459,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1005,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35467,7 +35467,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1120,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35475,7 +35475,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1235,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35483,7 +35483,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1350,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35491,7 +35491,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1465,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35499,7 +35499,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1580,
-      "y": 470,
+      "y": 420,
       "scale": 0.45,
       "appear": 0.17
      },
@@ -35507,7 +35507,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 200,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35515,7 +35515,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 315,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35523,7 +35523,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 430,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35531,7 +35531,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 545,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35539,7 +35539,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 660,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35547,7 +35547,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 775,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35555,7 +35555,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 890,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35563,7 +35563,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1005,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35571,7 +35571,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1120,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35579,7 +35579,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1235,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35587,7 +35587,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1350,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35595,7 +35595,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1465,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35603,7 +35603,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1580,
-      "y": 540,
+      "y": 480,
       "scale": 0.45,
       "appear": 0.23
      },
@@ -35611,7 +35611,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 200,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35619,7 +35619,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 315,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35627,7 +35627,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 430,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35635,7 +35635,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 545,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35643,7 +35643,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 660,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35651,7 +35651,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 775,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35659,7 +35659,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 890,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35667,7 +35667,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1005,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35675,7 +35675,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1120,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35683,7 +35683,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1235,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35691,7 +35691,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1350,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35699,7 +35699,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1465,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35707,7 +35707,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1580,
-      "y": 610,
+      "y": 540,
       "scale": 0.45,
       "appear": 0.29
      },
@@ -35715,7 +35715,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 200,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35723,7 +35723,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 315,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35731,7 +35731,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 430,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35739,7 +35739,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 545,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35747,7 +35747,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 660,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35755,7 +35755,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 775,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35763,7 +35763,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 890,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35771,7 +35771,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1005,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35779,7 +35779,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1120,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35787,7 +35787,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1235,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35795,7 +35795,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1350,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35803,7 +35803,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1465,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35811,7 +35811,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1580,
-      "y": 680,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.35
      },
@@ -35819,7 +35819,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 200,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35827,7 +35827,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 315,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35835,7 +35835,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 430,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35843,7 +35843,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 545,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35851,7 +35851,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 660,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35859,7 +35859,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 775,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35867,7 +35867,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 890,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35875,7 +35875,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1005,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35883,7 +35883,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1120,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35891,7 +35891,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1235,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35899,7 +35899,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1350,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35907,7 +35907,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1465,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35915,7 +35915,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1580,
-      "y": 750,
+      "y": 660,
       "scale": 0.45,
       "appear": 0.41
      },
@@ -35923,7 +35923,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 200,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -35931,7 +35931,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 315,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -35939,7 +35939,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 430,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -35947,7 +35947,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 545,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -35955,7 +35955,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 660,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -35963,7 +35963,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 775,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -35971,7 +35971,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 890,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -35979,7 +35979,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1005,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -35987,7 +35987,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1120,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -35995,7 +35995,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1235,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -36003,7 +36003,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1350,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -36011,7 +36011,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1465,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -36019,7 +36019,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1580,
-      "y": 820,
+      "y": 720,
       "scale": 0.45,
       "appear": 0.47
      },
@@ -36027,7 +36027,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 200,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36035,7 +36035,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 315,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36043,7 +36043,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 430,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36051,7 +36051,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 545,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36059,7 +36059,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 660,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36067,7 +36067,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 775,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36075,7 +36075,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 890,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36083,7 +36083,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1005,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36091,7 +36091,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1120,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36099,7 +36099,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1235,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36107,7 +36107,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1350,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36115,7 +36115,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1465,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36123,7 +36123,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1580,
-      "y": 890,
+      "y": 780,
       "scale": 0.45,
       "appear": 0.53
      },
@@ -36131,7 +36131,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 200,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36139,7 +36139,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 315,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36147,7 +36147,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 430,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36155,7 +36155,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 545,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36163,7 +36163,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 660,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36171,7 +36171,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 775,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36179,7 +36179,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 890,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36187,7 +36187,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1005,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36195,7 +36195,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1120,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36203,7 +36203,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1235,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36211,7 +36211,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1350,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36219,7 +36219,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1465,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36227,7 +36227,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1580,
-      "y": 960,
+      "y": 840,
       "scale": 0.45,
       "appear": 0.59
      },
@@ -36235,7 +36235,7 @@
       "type": "wordart",
       "text": "130",
       "x": 960,
-      "y": 1000,
+      "y": 955,
       "size": 110,
       "boil": 0,
       "appear": 0.7
@@ -47937,12 +47937,12 @@
       "type": "line",
       "points": [
        [
-        560,
-        700
+        520,
+        895
        ],
        [
-        480,
-        700
+        440,
+        895
        ]
       ],
       "color": "#ffffff",
@@ -47953,12 +47953,12 @@
       "type": "line",
       "points": [
        [
-        1360,
-        700
+        1400,
+        895
        ],
        [
-        1440,
-        700
+        1480,
+        895
        ]
       ],
       "color": "#ffffff",
@@ -63658,7 +63658,7 @@
      {
       "type": "asset",
       "name": "spotted_hyena_plain",
-      "x": 1700,
+      "x": 1560,
       "y": 920,
       "scale": 0.3
      },
@@ -63667,11 +63667,11 @@
       "points": [
        [
         330,
-        830
+        840
        ],
        [
-        1560,
-        830
+        1480,
+        840
        ]
       ],
       "color": "#ffffff",
@@ -63684,17 +63684,17 @@
      {
       "type": "asset",
       "name": "eiffel_tower",
-      "x": 960,
-      "y": 800,
-      "scale": 2.4,
+      "x": 400,
+      "y": 560,
+      "scale": 2.0,
       "rotate": 90,
       "appear": 0.35
      },
      {
       "type": "label",
       "text": "EIFFEL TOWER",
-      "x": 960,
-      "y": 560,
+      "x": 1150,
+      "y": 380,
       "size": 40,
       "bold": true,
       "boil": 0.3,
@@ -64265,9 +64265,9 @@
      },
      {
       "type": "text",
-      "text": "MANY RECORDS OF ATTACKS ON SLEEPING PEOPLE",
+      "text": "MOZAMBIQUE RESERVE",
       "x": 960,
-      "y": 420,
+      "y": 440,
       "size": 56,
       "color": "#ffffff",
       "bold": true,
@@ -64276,9 +64276,9 @@
      },
      {
       "type": "text",
-      "text": "MOZAMBIQUE RESERVE: 7 OF 13 ATTACKS",
+      "text": "7 OF 13 ATTACKS:",
       "x": 960,
-      "y": 600,
+      "y": 580,
       "size": 56,
       "color": "#ffffff",
       "bold": true,
@@ -64288,9 +64288,9 @@
      },
      {
       "type": "text",
-      "text": "ON PEOPLE SLEEPING OUTSIDE",
+      "text": "PEOPLE SLEEPING OUTSIDE",
       "x": 960,
-      "y": 680,
+      "y": 660,
       "size": 56,
       "color": "#ffffff",
       "bold": true,
@@ -69373,7 +69373,7 @@
      },
      {
       "type": "text",
-      "text": "LIONS ARE THE MAIN CAUSE",
+      "text": "LIONS ARE THE #1 KILLER",
       "x": 960,
       "y": 560,
       "size": 60,
@@ -69384,7 +69384,7 @@
      },
      {
       "type": "text",
-      "text": "OF DEATH FOR HYENAS",
+      "text": "OF HYENAS",
       "x": 960,
       "y": 640,
       "size": 60,

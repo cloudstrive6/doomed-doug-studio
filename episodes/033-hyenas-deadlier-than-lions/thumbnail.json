@@ -1,0 +1,291 @@
+{
+ "_note": "Variant A (hero; video opening image s001 via scene_ref): night navy field, tiny red-capped Doug (shock) aims a torch whose wide beam lands on one huge, sloped spotted hyena (spotted_hyena_giggle, flipped, scale 1.55, jaws open, tense not smiling) filling the right ~60%; pairs of yellow-green eyeshine in the dark around him; a male lion turned away to the left, leaving. Text NOT SCAVENGERS (Arimo bold, white, black outline): contradicts the hyena-as-scavenger myth, no title/alt word, not LEFTOVERS. No disc, no cub, no blood.",
+ "background": "#142446",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 610,
+   "w": 1280,
+   "h": 110,
+   "fill": "#0c1426",
+   "color": "#0c1426",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     500,
+     478
+    ],
+    [
+     660,
+     150
+    ],
+    [
+     1280,
+     110
+    ],
+    [
+     1280,
+     720
+    ],
+    [
+     820,
+     720
+    ],
+    [
+     500,
+     496
+    ]
+   ],
+   "fill": "#f3df8a",
+   "color": "#f3df8a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 93,
+   "y": 170,
+   "r": 34,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 80,
+   "y": 170,
+   "r": 9,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 106,
+   "y": 170,
+   "r": 9,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 210,
+   "y": 200,
+   "r": 27,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 200,
+   "y": 200,
+   "r": 7,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 220,
+   "y": 200,
+   "r": 7,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 411,
+   "y": 250,
+   "r": 30,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 400,
+   "y": 250,
+   "r": 8,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 423,
+   "y": 250,
+   "r": 8,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 280,
+   "y": 330,
+   "r": 27,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 270,
+   "y": 330,
+   "r": 7,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 290,
+   "y": 330,
+   "r": 7,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 70,
+   "y": 300,
+   "r": 27,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 60,
+   "y": 300,
+   "r": 7,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 80,
+   "y": 300,
+   "r": 7,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 569,
+   "y": 330,
+   "r": 23,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 560,
+   "y": 330,
+   "r": 6,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 578,
+   "y": 330,
+   "r": 6,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "lion_male",
+   "x": 200,
+   "y": 690,
+   "scale": 0.5,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "spotted_hyena_giggle",
+   "x": 1020,
+   "y": 700,
+   "scale": 1.55,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 420,
+   "y": 545,
+   "scale": 0.5,
+   "pose": "point",
+   "expression": "shock",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "torch",
+   "x": 425,
+   "y": 495,
+   "scale": 0.28,
+   "rotate": -10,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "NOT SCAVENGERS",
+   "x": 640,
+   "y": 72,
+   "size": 104,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

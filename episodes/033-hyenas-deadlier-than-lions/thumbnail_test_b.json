@@ -1,0 +1,410 @@
+{
+ "_note": "Variant B (Doug in peril): night, a ring of yellow-green eyeshine and two open-jawed spotted hyenas (spotted_hyena_giggle, tense, not smiling) closing in from both edges; a male lion in the middle turns to face one of them; red-capped Doug cowers (gritted, sweat) behind the lion, the wrong place to hide. Text WRONG CHOICE (Arimo bold, white, black outline; 2 words per the B rule, shortened from the brief HE CHOSE WRONG); no title/alt word. No kill carcass drawn (no gore), no cub, no disc.",
+ "background": "#101a33",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 640,
+   "y": 600,
+   "rx": 420,
+   "ry": 110,
+   "fill": "#3a4a6e",
+   "color": "#3a4a6e",
+   "width": 0,
+   "outline": false,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 73,
+   "y": 180,
+   "r": 34,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 60,
+   "y": 180,
+   "r": 9,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 86,
+   "y": 180,
+   "r": 9,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 260,
+   "y": 120,
+   "r": 27,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 250,
+   "y": 120,
+   "r": 7,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 270,
+   "y": 120,
+   "r": 7,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 970,
+   "y": 110,
+   "r": 27,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 960,
+   "y": 110,
+   "r": 7,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 980,
+   "y": 110,
+   "r": 7,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 1163,
+   "y": 190,
+   "r": 34,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 1150,
+   "y": 190,
+   "r": 9,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 1176,
+   "y": 190,
+   "r": 9,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 51,
+   "y": 300,
+   "r": 30,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 40,
+   "y": 300,
+   "r": 8,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 63,
+   "y": 300,
+   "r": 8,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 1191,
+   "y": 300,
+   "r": 30,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 1180,
+   "y": 300,
+   "r": 8,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 1203,
+   "y": 300,
+   "r": 8,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 569,
+   "y": 250,
+   "r": 23,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 560,
+   "y": 250,
+   "r": 6,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 578,
+   "y": 250,
+   "r": 6,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 309,
+   "y": 300,
+   "r": 23,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 300,
+   "y": 300,
+   "r": 6,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 318,
+   "y": 300,
+   "r": 6,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 1009,
+   "y": 260,
+   "r": 23,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 1000,
+   "y": 260,
+   "r": 6,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 1018,
+   "y": 260,
+   "r": 6,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 429,
+   "y": 170,
+   "r": 23,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 420,
+   "y": 170,
+   "r": 6,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 438,
+   "y": 170,
+   "r": 6,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 789,
+   "y": 160,
+   "r": 23,
+   "color": "#d8ff5a",
+   "density": 0.05
+  },
+  {
+   "type": "circle",
+   "x": 780,
+   "y": 160,
+   "r": 6,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 798,
+   "y": 160,
+   "r": 6,
+   "fill": "#d8ff5a",
+   "color": "#d8ff5a",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "spotted_hyena_giggle",
+   "x": -10,
+   "y": 730,
+   "scale": 0.92,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "spotted_hyena_giggle",
+   "x": 1300,
+   "y": 730,
+   "scale": 0.92,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "lion_male",
+   "x": 600,
+   "y": 620,
+   "scale": 0.6,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 870,
+   "y": 555,
+   "scale": 0.55,
+   "pose": "cower",
+   "expression": "gritted",
+   "facing": "left",
+   "gear": [
+    "sweat"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "WRONG CHOICE",
+   "x": 640,
+   "y": 72,
+   "size": 104,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

@@ -1,0 +1,446 @@
+{
+ "_note": "Variant C (list-format control): 6 big tiles, 3x2, filling the frame, approved 032 C top-bar label layout (bold UPPERCASE Comic Neue on a white band at the top of each tile; nothing textual in the length-badge corner). Chapters minus The: LIE (lion with a red question mark), BITE (open-jawed hyena head crop, tense, no blood), CHASE (loping hyena behind a running red-capped Doug), CLAN (12 hyena head icons), TOWN (hyena walking past a night skyline, no people), MOB (lioness ringed by four hyena heads). No title/alt word, no cub, no skull or bones, no real people, one font.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 16,
+   "y": 10,
+   "w": 400,
+   "h": 338,
+   "fill": "#ffd23f",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "lion_male",
+     "x": 186,
+     "y": 345,
+     "scale": 0.42,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "question_mark",
+     "x": 361,
+     "y": 185,
+     "scale": 0.45,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 6,
+     "y": 0,
+     "w": 420,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "LIE",
+     "x": 216.0,
+     "y": 50,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 10,
+   "w": 400,
+   "h": 338,
+   "fill": "#ff5a3c",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "spotted_hyena_giggle",
+     "x": 420,
+     "y": 530,
+     "scale": 1.0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 430,
+     "y": 0,
+     "w": 420,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "BITE",
+     "x": 640.0,
+     "y": 50,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 864,
+   "y": 10,
+   "w": 400,
+   "h": 338,
+   "fill": "#8ac926",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "spotted_hyena_running",
+     "x": 984,
+     "y": 340,
+     "scale": 0.42,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 1184,
+     "y": 278,
+     "scale": 0.36,
+     "pose": "run1",
+     "expression": "shock",
+     "facing": "right",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 854,
+     "y": 0,
+     "w": 420,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "CHASE",
+     "x": 1064.0,
+     "y": 50,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 16,
+   "y": 366,
+   "w": 400,
+   "h": 338,
+   "fill": "#3fb8ff",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 86,
+     "y": 506,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 186,
+     "y": 496,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 286,
+     "y": 506,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 366,
+     "y": 516,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 56,
+     "y": 596,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 146,
+     "y": 591,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 236,
+     "y": 601,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 326,
+     "y": 596,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 396,
+     "y": 606,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 106,
+     "y": 676,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 206,
+     "y": 681,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 306,
+     "y": 676,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 6,
+     "y": 356,
+     "w": 420,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "CLAN",
+     "x": 216.0,
+     "y": 406,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 366,
+   "w": 400,
+   "h": 338,
+   "fill": "#1a2238",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "city_skyline_night",
+     "x": 640,
+     "y": 706,
+     "scale": 0.55,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "spotted_hyena_plain",
+     "x": 630,
+     "y": 701,
+     "scale": 0.5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 430,
+     "y": 356,
+     "w": 420,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "TOWN",
+     "x": 640.0,
+     "y": 406,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 864,
+   "y": 366,
+   "w": 400,
+   "h": 338,
+   "fill": "#c77dff",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "lioness",
+     "x": 1064,
+     "y": 696,
+     "scale": 0.36,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 914,
+     "y": 536,
+     "scale": 0.75,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 1214,
+     "y": 536,
+     "scale": 0.75,
+     "boil": 0,
+     "wobble": 0,
+     "flip": true
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 904,
+     "y": 656,
+     "scale": 0.75,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "hyena_head_icon",
+     "x": 1224,
+     "y": 656,
+     "scale": 0.75,
+     "boil": 0,
+     "wobble": 0,
+     "flip": true
+    },
+    {
+     "type": "rect",
+     "x": 854,
+     "y": 356,
+     "w": 420,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "MOB",
+     "x": 1064.0,
+     "y": 406,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
