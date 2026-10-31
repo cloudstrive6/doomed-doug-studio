@@ -34,3 +34,14 @@ Screener: visual_review.md round 2 PASS (lioness swap done in A and B). Checked 
 Re-run `python -m studio thumbnail 033-hyenas-deadlier-than-lions` and return B with its _small for a CD re-check. A and C need no further changes.
 
 Stage not changed (art_approved stays; package gate pending B).
+
+## 2026-10-31, creative director: thumbnail B re-check (after the 4 changes)
+Checked `build/thumbnail_b.png` (1280x720) and `build/thumbnail_b_small.png` (168x94, also viewed at 4x nearest-neighbour) against the four changes above and the visual-screener criteria.
+1. **Doug readable: DONE.** White ink (`"ink": "#ffffff"`). At 168x94 the stick body and bent legs now read against the spotlight ellipse, so he is no longer a floating head.
+2. **Threat brought in: DONE.** Hyenas are at x 50 / 1240, scale 1.0. Snouts, red mouths and teeth are fully in frame and aimed at the lioness and Doug, and at feed size the two hyenas win the glance over the lioness.
+3. **Hiding readable: DONE.** Doug is in `crouch` (gritted, sweat), low at the lioness's rump and overlapping her by about 30 px, so the read is "ducking behind the lion". The lioness faces the left hyena while the right hyena's open jaw is about 150 px from Doug, which makes the "wrong choice" visible.
+4. **Empty band used: DONE.** Four eye pairs moved down to y 320-380, next to the hyenas, so the ring closes on the spotlight. The text is unchanged.
+Feed-size screen (168x94): WRONG CHOICE is legible, the red cap is clearly visible, and Doug, the lioness and both hyenas are all identifiable. There is no gore: the red is the open-mouth interior with white teeth, as in A, and there is no carcass and no blood. Nothing kid-coded, no cub, no title word repeated.
+Advisory (not blocking, only if cheap on a later pass): Doug is drawn on top of her rump. Putting him one layer under the lioness so her haunch covers his shoulder would make "behind" literal.
+**B: APPROVED** as a Test & Compare variant with A (lead) and C.
+Stage not changed.
