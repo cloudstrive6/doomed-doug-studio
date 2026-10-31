@@ -1,0 +1,809 @@
+{
+ "name": "field_guide_lion_hyena",
+ "description": "Doug's field guide (field_guide_open: same 560x360 book, spine x=0, coffee ring low on the LEFT page, red ribbon, dog-ears) open on a two-page spread. Left page: LION printed bold at (-140,-140), FRIEND? at (-190,-80) with an empty 44x44 tick box at (-75,-80), rest blank (ruled). Right page: SPOTTED HYENA bold at (+140,-140), FRIEND? at (+90,-80) with an empty tick box at (+205,-80). Kept clear: MAYBE zone around (+150,-20) and the NO stamp grid x +20..+280, y +10..+140. Centre anchor.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "device",
+  "book",
+  "field guide",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -280,
+     -172
+    ],
+    [
+     -150,
+     -180
+    ],
+    [
+     0,
+     -170
+    ],
+    [
+     150,
+     -180
+    ],
+    [
+     280,
+     -170
+    ],
+    [
+     276,
+     0
+    ],
+    [
+     280,
+     172
+    ],
+    [
+     150,
+     180
+    ],
+    [
+     0,
+     172
+    ],
+    [
+     -150,
+     180
+    ],
+    [
+     -280,
+     172
+    ],
+    [
+     -276,
+     0
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "fill": "#5b3a22"
+  },
+  {
+   "type": "spray",
+   "x": -268,
+   "y": 120,
+   "r": 10,
+   "color": "#7a5236",
+   "density": 0.4
+  },
+  {
+   "type": "spray",
+   "x": 268,
+   "y": -120,
+   "r": 10,
+   "color": "#7a5236",
+   "density": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -266,
+     -158
+    ],
+    [
+     -140,
+     -166
+    ],
+    [
+     -4,
+     -156
+    ],
+    [
+     -4,
+     166
+    ],
+    [
+     -140,
+     168
+    ],
+    [
+     -266,
+     162
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#e9dfc2"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     -156
+    ],
+    [
+     140,
+     -166
+    ],
+    [
+     266,
+     -158
+    ],
+    [
+     266,
+     162
+    ],
+    [
+     140,
+     168
+    ],
+    [
+     4,
+     166
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#e9dfc2"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -262,
+     -162
+    ],
+    [
+     -140,
+     -170
+    ],
+    [
+     -30,
+     -163
+    ],
+    [
+     -6,
+     -150
+    ],
+    [
+     -6,
+     160
+    ],
+    [
+     -30,
+     154
+    ],
+    [
+     -140,
+     162
+    ],
+    [
+     -262,
+     156
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#fdf6e3"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     6,
+     -150
+    ],
+    [
+     30,
+     -163
+    ],
+    [
+     140,
+     -170
+    ],
+    [
+     248,
+     -164
+    ],
+    [
+     262,
+     -146
+    ],
+    [
+     262,
+     156
+    ],
+    [
+     140,
+     162
+    ],
+    [
+     30,
+     154
+    ],
+    [
+     6,
+     160
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#fdf6e3"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -246,
+     -120
+    ],
+    [
+     -20,
+     -119
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     -119
+    ],
+    [
+     250,
+     -120
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -246,
+     -90
+    ],
+    [
+     -20,
+     -89
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     -89
+    ],
+    [
+     250,
+     -90
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -246,
+     -60
+    ],
+    [
+     -20,
+     -59
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     -59
+    ],
+    [
+     250,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -246,
+     -30
+    ],
+    [
+     -20,
+     -29
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     -29
+    ],
+    [
+     250,
+     -30
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -246,
+     0
+    ],
+    [
+     -20,
+     1
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     1
+    ],
+    [
+     250,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -246,
+     30
+    ],
+    [
+     -20,
+     31
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     31
+    ],
+    [
+     250,
+     30
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -246,
+     60
+    ],
+    [
+     -20,
+     61
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     61
+    ],
+    [
+     250,
+     60
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -246,
+     90
+    ],
+    [
+     -20,
+     91
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     91
+    ],
+    [
+     250,
+     90
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -246,
+     120
+    ],
+    [
+     -20,
+     121
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     121
+    ],
+    [
+     250,
+     120
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -246,
+     150
+    ],
+    [
+     -20,
+     151
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     151
+    ],
+    [
+     250,
+     150
+    ]
+   ],
+   "width": 2,
+   "color": "#a9c4e8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -228,
+     -158
+    ],
+    [
+     -228,
+     156
+    ]
+   ],
+   "width": 2,
+   "color": "#e8a0a0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     -158
+    ],
+    [
+     40,
+     156
+    ]
+   ],
+   "width": 2,
+   "color": "#e8a0a0"
+  },
+  {
+   "type": "spray",
+   "x": -16,
+   "y": 0,
+   "r": 26,
+   "color": "#cbbf9e",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 16,
+   "y": 0,
+   "r": 26,
+   "color": "#cbbf9e",
+   "density": 0.35
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -156
+    ],
+    [
+     0,
+     164
+    ]
+   ],
+   "width": 4,
+   "color": "#3e2716"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     262,
+     -146
+    ],
+    [
+     248,
+     -164
+    ],
+    [
+     230,
+     -128
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#fffbef"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     262,
+     -146
+    ],
+    [
+     230,
+     -128
+    ],
+    [
+     236,
+     -118
+    ],
+    [
+     262,
+     -122
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e9dfc2",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -262,
+     156
+    ],
+    [
+     -230,
+     134
+    ],
+    [
+     -240,
+     160
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#fffbef"
+  },
+  {
+   "type": "ellipse",
+   "x": -150,
+   "y": 95,
+   "rx": 42,
+   "ry": 38,
+   "start": 10,
+   "end": 345,
+   "width": 4,
+   "color": "#a77a4c"
+  },
+  {
+   "type": "ellipse",
+   "x": -147,
+   "y": 97,
+   "rx": 35,
+   "ry": 31,
+   "start": 40,
+   "end": 300,
+   "width": 2,
+   "color": "#c79a6a"
+  },
+  {
+   "type": "spray",
+   "x": -118,
+   "y": 125,
+   "r": 10,
+   "color": "#a77a4c",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": -200,
+   "y": -20,
+   "r": 30,
+   "color": "#e2d6b4",
+   "density": 0.15
+  },
+  {
+   "type": "text",
+   "text": "LION",
+   "x": -140,
+   "y": -140,
+   "size": 44,
+   "color": "#2b2b2b",
+   "font": "default",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "FRIEND?",
+   "x": -190,
+   "y": -80,
+   "size": 30,
+   "color": "#000000",
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": -97,
+   "y": -102,
+   "w": 44,
+   "h": 44,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000",
+   "boil": 0.4
+  },
+  {
+   "type": "text",
+   "text": "SPOTTED HYENA",
+   "x": 140,
+   "y": -140,
+   "size": 25,
+   "color": "#2b2b2b",
+   "font": "default",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "FRIEND?",
+   "x": 90,
+   "y": -80,
+   "size": 30,
+   "color": "#000000",
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": 183,
+   "y": -102,
+   "w": 44,
+   "h": 44,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000",
+   "boil": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -6,
+     150
+    ],
+    [
+     8,
+     150
+    ],
+    [
+     16,
+     196
+    ],
+    [
+     6,
+     188
+    ],
+    [
+     -4,
+     202
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "fill": "#d0201b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     2,
+     156
+    ],
+    [
+     6,
+     190
+    ]
+   ],
+   "width": 2,
+   "color": "#8a1010"
+  }
+ ]
+}

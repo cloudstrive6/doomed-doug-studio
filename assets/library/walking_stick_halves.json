@@ -1,0 +1,190 @@
+{
+ "name": "walking_stick_halves",
+ "description": "The walking_stick snapped in two halves lying on the ground slightly apart, clean splintered pale break ends facing each other, knob on the left half, rubber tip on the right. Anchor bottom-centre, ~450x45.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "stick",
+  "broken",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -200,
+     -18
+    ],
+    [
+     -24,
+     -18
+    ]
+   ],
+   "width": 28,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -200,
+     -18
+    ],
+    [
+     -24,
+     -18
+    ]
+   ],
+   "width": 18,
+   "color": "#8a5a2e"
+  },
+  {
+   "type": "ellipse",
+   "x": -212,
+   "y": -20,
+   "rx": 20,
+   "ry": 18,
+   "fill": "#8a5a2e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -28,
+     -28
+    ],
+    [
+     -8,
+     -24
+    ],
+    [
+     -22,
+     -18
+    ],
+    [
+     -6,
+     -12
+    ],
+    [
+     -28,
+     -8
+    ]
+   ],
+   "fill": "#d9a66a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -160,
+     -20
+    ],
+    [
+     -100,
+     -20
+    ]
+   ],
+   "width": 2,
+   "color": "#5e3a1c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     26,
+     -16
+    ],
+    [
+     200,
+     -14
+    ]
+   ],
+   "width": 28,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     26,
+     -16
+    ],
+    [
+     200,
+     -14
+    ]
+   ],
+   "width": 18,
+   "color": "#8a5a2e"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     28,
+     -26
+    ],
+    [
+     10,
+     -22
+    ],
+    [
+     24,
+     -16
+    ],
+    [
+     8,
+     -10
+    ],
+    [
+     28,
+     -6
+    ]
+   ],
+   "fill": "#d9a66a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 204,
+   "y": -14,
+   "rx": 7,
+   "ry": 10,
+   "fill": "#3a2a1a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     70,
+     -15
+    ],
+    [
+     140,
+     -14
+    ]
+   ],
+   "width": 2,
+   "color": "#5e3a1c"
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": -6,
+   "r": 18,
+   "color": "#c8a070",
+   "density": 0.15
+  }
+ ]
+}

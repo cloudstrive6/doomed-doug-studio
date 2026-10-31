@@ -1,0 +1,187 @@
+{
+ "name": "meat_strip",
+ "description": "Small strip of cartoon meat #c96a5a with a pale fat edge along the top and a darker grain line, no blood. Centre anchor, ~145x50. Also the Harar hyena men's offering.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "food",
+  "meat",
+  "icon",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     -8
+    ],
+    [
+     -40,
+     -20
+    ],
+    [
+     0,
+     -14
+    ],
+    [
+     40,
+     -22
+    ],
+    [
+     70,
+     -12
+    ],
+    [
+     66,
+     14
+    ],
+    [
+     30,
+     22
+    ],
+    [
+     -10,
+     16
+    ],
+    [
+     -50,
+     24
+    ],
+    [
+     -68,
+     12
+    ]
+   ],
+   "fill": "#c96a5a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -66,
+     -6
+    ],
+    [
+     -40,
+     -18
+    ],
+    [
+     0,
+     -12
+    ],
+    [
+     40,
+     -20
+    ],
+    [
+     66,
+     -10
+    ],
+    [
+     64,
+     -2
+    ],
+    [
+     40,
+     -10
+    ],
+    [
+     0,
+     -2
+    ],
+    [
+     -40,
+     -8
+    ],
+    [
+     -64,
+     2
+    ]
+   ],
+   "fill": "#f2d8c8",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     6
+    ],
+    [
+     -10,
+     2
+    ],
+    [
+     20,
+     8
+    ],
+    [
+     50,
+     2
+    ]
+   ],
+   "width": 2,
+   "color": "#a24e40"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     -8
+    ],
+    [
+     -40,
+     -20
+    ],
+    [
+     0,
+     -14
+    ],
+    [
+     40,
+     -22
+    ],
+    [
+     70,
+     -12
+    ],
+    [
+     66,
+     14
+    ],
+    [
+     30,
+     22
+    ],
+    [
+     -10,
+     16
+    ],
+    [
+     -50,
+     24
+    ],
+    [
+     -68,
+     12
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}

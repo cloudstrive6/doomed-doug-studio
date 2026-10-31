@@ -1,0 +1,749 @@
+{
+ "name": "safari_jeep",
+ "description": "1960s open-top field jeep, side view facing right: khaki #b8a46a body with panel lines, open tub with a seat back (a seated figure's hips go at about (+60,-180)), steering wheel, upright windscreen frame, spare wheel on the back, headlights off (dark lens), black wheels with grey hubs. Anchor bottom-centre (tyres on y=0), ~750x365.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "vehicle",
+  "jeep",
+  "safari",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": -350,
+   "y": -168,
+   "rx": 26,
+   "ry": 62,
+   "fill": "#1e1e1e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -346,
+   "y": -168,
+   "rx": 12,
+   "ry": 34,
+   "fill": "#5a5a5a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     4,
+     -310
+    ],
+    [
+     40,
+     -310
+    ],
+    [
+     44,
+     -236
+    ],
+    [
+     8,
+     -236
+    ]
+   ],
+   "fill": "#5e4a30",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     120,
+     -238
+    ],
+    [
+     150,
+     -280
+    ]
+   ],
+   "width": 6,
+   "color": "#2b2b2b"
+  },
+  {
+   "type": "ellipse",
+   "x": 152,
+   "y": -282,
+   "rx": 22,
+   "ry": 7,
+   "fill": null,
+   "width": 6,
+   "color": "#2b2b2b"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     160,
+     -240
+    ],
+    [
+     186,
+     -362
+    ],
+    [
+     214,
+     -358
+    ],
+    [
+     190,
+     -240
+    ]
+   ],
+   "fill": "#cfe6f2",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     172,
+     -250
+    ],
+    [
+     196,
+     -352
+    ]
+   ],
+   "width": 4,
+   "color": "#97854f"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     186,
+     -300
+    ],
+    [
+     206,
+     -296
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -340,
+     -246
+    ],
+    [
+     130,
+     -246
+    ],
+    [
+     150,
+     -214
+    ],
+    [
+     340,
+     -210
+    ],
+    [
+     360,
+     -196
+    ],
+    [
+     364,
+     -120
+    ],
+    [
+     350,
+     -96
+    ],
+    [
+     -340,
+     -96
+    ]
+   ],
+   "fill": "#b8a46a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -336,
+     -242
+    ],
+    [
+     126,
+     -242
+    ],
+    [
+     140,
+     -224
+    ],
+    [
+     -336,
+     -224
+    ]
+   ],
+   "fill": "#d2c08a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -340,
+     -232
+    ],
+    [
+     130,
+     -232
+    ]
+   ],
+   "width": 3,
+   "color": "#97854f"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     150,
+     -214
+    ],
+    [
+     150,
+     -100
+    ]
+   ],
+   "width": 3,
+   "color": "#97854f"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -240
+    ],
+    [
+     -150,
+     -100
+    ]
+   ],
+   "width": 3,
+   "color": "#97854f"
+  },
+  {
+   "type": "rect",
+   "x": -120,
+   "y": -190,
+   "w": 50,
+   "h": 10,
+   "fill": "#97854f",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -312.0,
+     -75.0
+    ],
+    [
+     -310.6,
+     -91.0
+    ],
+    [
+     -306.5,
+     -106.5
+    ],
+    [
+     -299.7,
+     -121.0
+    ],
+    [
+     -290.5,
+     -134.1
+    ],
+    [
+     -279.1,
+     -145.5
+    ],
+    [
+     -266.0,
+     -154.7
+    ],
+    [
+     -251.5,
+     -161.5
+    ],
+    [
+     -236.0,
+     -165.6
+    ],
+    [
+     -220.0,
+     -167.0
+    ],
+    [
+     -204.0,
+     -165.6
+    ],
+    [
+     -188.5,
+     -161.5
+    ],
+    [
+     -174.0,
+     -154.7
+    ],
+    [
+     -160.9,
+     -145.5
+    ],
+    [
+     -149.5,
+     -134.1
+    ],
+    [
+     -140.3,
+     -121.0
+    ],
+    [
+     -133.5,
+     -106.5
+    ],
+    [
+     -129.4,
+     -91.0
+    ],
+    [
+     -128.0,
+     -75.0
+    ]
+   ],
+   "fill": "#5e5236",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     138.0,
+     -75.0
+    ],
+    [
+     139.4,
+     -91.0
+    ],
+    [
+     143.5,
+     -106.5
+    ],
+    [
+     150.3,
+     -121.0
+    ],
+    [
+     159.5,
+     -134.1
+    ],
+    [
+     170.9,
+     -145.5
+    ],
+    [
+     184.0,
+     -154.7
+    ],
+    [
+     198.5,
+     -161.5
+    ],
+    [
+     214.0,
+     -165.6
+    ],
+    [
+     230.0,
+     -167.0
+    ],
+    [
+     246.0,
+     -165.6
+    ],
+    [
+     261.5,
+     -161.5
+    ],
+    [
+     276.0,
+     -154.7
+    ],
+    [
+     289.1,
+     -145.5
+    ],
+    [
+     300.5,
+     -134.1
+    ],
+    [
+     309.7,
+     -121.0
+    ],
+    [
+     316.5,
+     -106.5
+    ],
+    [
+     320.6,
+     -91.0
+    ],
+    [
+     322.0,
+     -75.0
+    ]
+   ],
+   "fill": "#5e5236",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     340,
+     -210
+    ],
+    [
+     364,
+     -200
+    ],
+    [
+     366,
+     -112
+    ],
+    [
+     352,
+     -96
+    ],
+    [
+     340,
+     -96
+    ]
+   ],
+   "fill": "#97854f",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 348,
+   "y": -174,
+   "rx": 16,
+   "ry": 18,
+   "fill": "#2b2b2b",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 344,
+   "y": -178,
+   "rx": 5,
+   "ry": 6,
+   "fill": "#555555",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     352,
+     -150
+    ],
+    [
+     362,
+     -150
+    ]
+   ],
+   "width": 3,
+   "color": "#2b2b2b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     352,
+     -136
+    ],
+    [
+     362,
+     -136
+    ]
+   ],
+   "width": 3,
+   "color": "#2b2b2b"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     352,
+     -122
+    ],
+    [
+     362,
+     -122
+    ]
+   ],
+   "width": 3,
+   "color": "#2b2b2b"
+  },
+  {
+   "type": "rect",
+   "x": 352,
+   "y": -116,
+   "w": 26,
+   "h": 16,
+   "fill": "#4a4a4a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -360,
+   "y": -112,
+   "w": 24,
+   "h": 14,
+   "fill": "#4a4a4a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -220,
+   "y": -75,
+   "rx": 75,
+   "ry": 75,
+   "fill": "#1e1e1e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -220,
+   "y": -75,
+   "rx": 40,
+   "ry": 40,
+   "fill": "#6a6a6a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -220,
+   "y": -75,
+   "rx": 12,
+   "ry": 12,
+   "fill": "#2b2b2b",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -192.0,
+   "y": -75.0,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2b2b2b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -206.0,
+   "y": -50.8,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2b2b2b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -234.0,
+   "y": -50.8,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2b2b2b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -248.0,
+   "y": -75.0,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2b2b2b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -234.0,
+   "y": -99.2,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2b2b2b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -206.0,
+   "y": -99.2,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2b2b2b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 230,
+   "y": -75,
+   "rx": 75,
+   "ry": 75,
+   "fill": "#1e1e1e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 230,
+   "y": -75,
+   "rx": 40,
+   "ry": 40,
+   "fill": "#6a6a6a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 230,
+   "y": -75,
+   "rx": 12,
+   "ry": 12,
+   "fill": "#2b2b2b",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 258.0,
+   "y": -75.0,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2b2b2b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 244.0,
+   "y": -50.8,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2b2b2b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 216.0,
+   "y": -50.8,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2b2b2b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 202.0,
+   "y": -75.0,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2b2b2b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 216.0,
+   "y": -99.2,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2b2b2b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 244.0,
+   "y": -99.2,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#2b2b2b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -100,
+   "y": -150,
+   "r": 60,
+   "color": "#97854f",
+   "density": 0.12
+  },
+  {
+   "type": "spray",
+   "x": 250,
+   "y": -160,
+   "r": 40,
+   "color": "#97854f",
+   "density": 0.12
+  }
+ ]
+}

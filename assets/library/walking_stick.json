@@ -1,0 +1,133 @@
+{
+ "name": "walking_stick",
+ "description": "Plain wooden walking stick standing vertical with a rounded knob on top and a dark rubber tip. Centre anchor, ~45x420 (knob top -212, tip +211).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "stick",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -186
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     -1,
+     206
+    ]
+   ],
+   "width": 28,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -186
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     -1,
+     206
+    ]
+   ],
+   "width": 18,
+   "color": "#8a5a2e"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -192,
+   "rx": 22,
+   "ry": 20,
+   "fill": "#8a5a2e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -8,
+     -200
+    ],
+    [
+     4,
+     -206
+    ]
+   ],
+   "width": 3,
+   "color": "#b07a46"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -3,
+     -150
+    ],
+    [
+     -1,
+     -90
+    ]
+   ],
+   "width": 2,
+   "color": "#5e3a1c"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     3,
+     -40
+    ],
+    [
+     4,
+     30
+    ]
+   ],
+   "width": 2,
+   "color": "#5e3a1c"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -2,
+     80
+    ],
+    [
+     -1,
+     150
+    ]
+   ],
+   "width": 2,
+   "color": "#5e3a1c"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 205,
+   "rx": 10,
+   "ry": 6,
+   "fill": "#3a2a1a",
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}

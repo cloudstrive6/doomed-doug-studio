@@ -1,0 +1,300 @@
+{
+ "name": "thief_sign",
+ "description": "Crude torn-cardboard sign #c9a46a with a darker edge and THIEF in black marker capitals, hung on two strings that meet at the cord apex. Anchor = cord apex (0,0): put it on the animal's neck point; card x -110..110, y +40..+150.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "device",
+  "sign",
+  "prop",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -92,
+     50
+    ]
+   ],
+   "width": 4,
+   "color": "#4a3a28"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     92,
+     50
+    ]
+   ],
+   "width": 4,
+   "color": "#4a3a28"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -107,
+     48
+    ],
+    [
+     -77,
+     44
+    ],
+    [
+     -37,
+     50
+    ],
+    [
+     3,
+     44
+    ],
+    [
+     43,
+     49
+    ],
+    [
+     83,
+     43
+    ],
+    [
+     113,
+     48
+    ],
+    [
+     109,
+     84
+    ],
+    [
+     115,
+     116
+    ],
+    [
+     107,
+     154
+    ],
+    [
+     63,
+     150
+    ],
+    [
+     23,
+     155
+    ],
+    [
+     -17,
+     149
+    ],
+    [
+     -57,
+     154
+    ],
+    [
+     -101,
+     151
+    ],
+    [
+     -107,
+     114
+    ],
+    [
+     -101,
+     82
+    ]
+   ],
+   "fill": "#8a6a3a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     44
+    ],
+    [
+     -80,
+     40
+    ],
+    [
+     -40,
+     46
+    ],
+    [
+     0,
+     40
+    ],
+    [
+     40,
+     45
+    ],
+    [
+     80,
+     39
+    ],
+    [
+     110,
+     44
+    ],
+    [
+     106,
+     80
+    ],
+    [
+     112,
+     112
+    ],
+    [
+     104,
+     150
+    ],
+    [
+     60,
+     146
+    ],
+    [
+     20,
+     151
+    ],
+    [
+     -20,
+     145
+    ],
+    [
+     -60,
+     150
+    ],
+    [
+     -104,
+     147
+    ],
+    [
+     -110,
+     110
+    ],
+    [
+     -104,
+     78
+    ]
+   ],
+   "fill": "#c9a46a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -96,
+     132
+    ],
+    [
+     -40,
+     138
+    ],
+    [
+     30,
+     134
+    ],
+    [
+     96,
+     138
+    ]
+   ],
+   "width": 3,
+   "color": "#a8844c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     52
+    ],
+    [
+     -30,
+     60
+    ]
+   ],
+   "width": 2,
+   "color": "#a8844c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     136
+    ],
+    [
+     80,
+     132
+    ]
+   ],
+   "width": 2,
+   "color": "#a8844c"
+  },
+  {
+   "type": "spray",
+   "x": 70,
+   "y": 70,
+   "r": 22,
+   "color": "#b08a52",
+   "density": 0.2
+  },
+  {
+   "type": "ellipse",
+   "x": -92,
+   "y": 52,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#4a3a28",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 92,
+   "y": 52,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#4a3a28",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#4a3a28",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "text",
+   "text": "THIEF",
+   "x": 0,
+   "y": 98,
+   "size": 60,
+   "color": "#000000",
+   "font": "ComicNeue-Bold",
+   "bold": true,
+   "boil": 0.3
+  }
+ ]
+}

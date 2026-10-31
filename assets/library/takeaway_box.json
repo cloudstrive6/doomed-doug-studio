@@ -1,0 +1,174 @@
+{
+ "name": "takeaway_box",
+ "description": "White Chinese-style takeaway box (tapered body, folded top flaps, right side shaded) with a grey wire handle and a small red logo blob, no text. Centre anchor, ~120x140.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "food",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     -30
+    ],
+    [
+     -30,
+     -62
+    ],
+    [
+     0,
+     -72
+    ],
+    [
+     30,
+     -62
+    ],
+    [
+     40,
+     -30
+    ]
+   ],
+   "width": 3,
+   "color": "#7a7a7a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -54,
+     -26
+    ],
+    [
+     40,
+     -26
+    ],
+    [
+     32,
+     64
+    ],
+    [
+     -44,
+     64
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -26
+    ],
+    [
+     60,
+     -36
+    ],
+    [
+     52,
+     52
+    ],
+    [
+     32,
+     64
+    ]
+   ],
+   "fill": "#dfe2e6",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -54,
+     -26
+    ],
+    [
+     -40,
+     -52
+    ],
+    [
+     26,
+     -52
+    ],
+    [
+     40,
+     -26
+    ]
+   ],
+   "fill": "#f4f4f4",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -26
+    ],
+    [
+     26,
+     -52
+    ],
+    [
+     46,
+     -60
+    ],
+    [
+     60,
+     -36
+    ]
+   ],
+   "fill": "#e6e8ec",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -40
+    ],
+    [
+     16,
+     -40
+    ]
+   ],
+   "width": 2,
+   "color": "#c9ccd2"
+  },
+  {
+   "type": "ellipse",
+   "x": -8,
+   "y": 18,
+   "rx": 16,
+   "ry": 13,
+   "fill": "#e0201b",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -8,
+   "y": 18,
+   "rx": 6,
+   "ry": 5,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

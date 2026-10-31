@@ -1,0 +1,343 @@
+{
+ "name": "lion_head_icon",
+ "description": "Small flat side-view lioness head icon facing right (no mane): tawny head, dark ear backs, pale muzzle, dark nose, amber eye under a heavy brow, thick outline. Reads at 0.8-1.4 next to hyena_head_icon. Centre anchor, ~140x120.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "icon",
+  "lion",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "group",
+   "x": -36.1,
+   "y": 6.9,
+   "elements": [
+    {
+     "type": "ellipse",
+     "x": -10,
+     "y": -40,
+     "rx": 0.1,
+     "ry": 0.1,
+     "fill": null,
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "ellipse",
+     "x": -4,
+     "y": -66,
+     "rx": 16,
+     "ry": 15,
+     "fill": "#a8763a",
+     "width": 5.6,
+     "color": "#000000"
+    },
+    {
+     "type": "ellipse",
+     "x": 26,
+     "y": -72,
+     "rx": 15,
+     "ry": 14,
+     "fill": "#c9964a",
+     "width": 5.6,
+     "color": "#000000"
+    },
+    {
+     "type": "ellipse",
+     "x": 26,
+     "y": -70,
+     "rx": 7,
+     "ry": 6,
+     "fill": "#5a3a22",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -34,
+       -42
+      ],
+      [
+       2,
+       -70
+      ],
+      [
+       62,
+       -66
+      ],
+      [
+       92,
+       -42
+      ],
+      [
+       116,
+       -10
+      ],
+      [
+       116,
+       20
+      ],
+      [
+       92,
+       40
+      ],
+      [
+       42,
+       46
+      ],
+      [
+       -8,
+       32
+      ],
+      [
+       -32,
+       -2
+      ]
+     ],
+     "fill": "#c9964a",
+     "width": 7.0,
+     "color": "#000000",
+     "smooth": true
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -24,
+       -40
+      ],
+      [
+       4,
+       -64
+      ],
+      [
+       60,
+       -62
+      ],
+      [
+       84,
+       -44
+      ],
+      [
+       40,
+       -40
+      ],
+      [
+       0,
+       -30
+      ]
+     ],
+     "fill": "#a8763a",
+     "width": 0,
+     "color": "#000000",
+     "smooth": true,
+     "outline": false
+    },
+    {
+     "type": "ellipse",
+     "x": 86,
+     "y": 14,
+     "rx": 30,
+     "ry": 20,
+     "fill": "#ecd3a0",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -34,
+       -42
+      ],
+      [
+       2,
+       -70
+      ],
+      [
+       62,
+       -66
+      ],
+      [
+       92,
+       -42
+      ],
+      [
+       116,
+       -10
+      ],
+      [
+       116,
+       20
+      ],
+      [
+       92,
+       40
+      ],
+      [
+       42,
+       46
+      ],
+      [
+       -8,
+       32
+      ],
+      [
+       -32,
+       -2
+      ]
+     ],
+     "fill": null,
+     "width": 7.0,
+     "color": "#000000",
+     "smooth": true
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       104,
+       -12
+      ],
+      [
+       120,
+       -8
+      ],
+      [
+       114,
+       4
+      ]
+     ],
+     "fill": "#3a2a20",
+     "width": 2,
+     "color": "#000000"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       114,
+       4
+      ],
+      [
+       106,
+       24
+      ],
+      [
+       80,
+       30
+      ]
+     ],
+     "width": 3,
+     "color": "#000000"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       78,
+       30
+      ],
+      [
+       66,
+       34
+      ]
+     ],
+     "width": 3,
+     "color": "#000000"
+    },
+    {
+     "type": "ellipse",
+     "x": 56,
+     "y": -24,
+     "rx": 10,
+     "ry": 6,
+     "fill": "#e09a1a",
+     "width": 3,
+     "color": "#000000"
+    },
+    {
+     "type": "ellipse",
+     "x": 58,
+     "y": -24,
+     "rx": 2.5,
+     "ry": 5,
+     "fill": "#000000",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       38,
+       -38
+      ],
+      [
+       72,
+       -32
+      ]
+     ],
+     "width": 7.0,
+     "color": "#000000"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       24,
+       -10
+      ],
+      [
+       32,
+       8
+      ]
+     ],
+     "width": 3,
+     "color": "#a8763a"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       88,
+       18
+      ],
+      [
+       116,
+       22
+      ]
+     ],
+     "width": 2,
+     "color": "#3a2a20"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       88,
+       18
+      ],
+      [
+       116,
+       30
+      ]
+     ],
+     "width": 2,
+     "color": "#3a2a20"
+    }
+   ],
+   "scale": 0.86
+  }
+ ]
+}

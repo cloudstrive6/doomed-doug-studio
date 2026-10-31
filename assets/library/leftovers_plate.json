@@ -1,0 +1,457 @@
+{
+ "name": "leftovers_plate",
+ "description": "dinner_plate heaped with cold leftovers: a few chips, half a sandwich, peas and a spoon of mash. Nothing with a bone, nothing raw. Anchor centre, ~320x130.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "food",
+  "plate",
+  "prop",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 25,
+   "rx": 148,
+   "ry": 40,
+   "fill": "#c9ced6",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 17,
+   "rx": 150,
+   "ry": 42,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 17,
+   "rx": 136,
+   "ry": 36,
+   "fill": null,
+   "width": 4,
+   "color": "#2a5bd7"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 19,
+   "rx": 100,
+   "ry": 25,
+   "fill": "#f1f3f6",
+   "width": 2,
+   "color": "#b8bec8"
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": 24,
+   "r": 30,
+   "color": "#dfe3ea",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -110,
+     -6
+    ],
+    [
+     -70,
+     -14
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 17,
+   "rx": 150,
+   "ry": 42,
+   "fill": null,
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     8
+    ],
+    [
+     -40,
+     12
+    ],
+    [
+     -70,
+     -58
+    ]
+   ],
+   "fill": "#e8c88a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -102,
+     4
+    ],
+    [
+     -48,
+     7
+    ],
+    [
+     -72,
+     -46
+    ]
+   ],
+   "fill": "#f6ecd2",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100,
+     4
+    ],
+    [
+     -70,
+     -44
+    ]
+   ],
+   "width": 4,
+   "color": "#6fae3e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -96,
+     6
+    ],
+    [
+     -66,
+     -38
+    ]
+   ],
+   "width": 3,
+   "color": "#d86a6a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     8
+    ],
+    [
+     -40,
+     12
+    ],
+    [
+     -70,
+     -58
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     14
+    ],
+    [
+     0,
+     -10
+    ],
+    [
+     20,
+     -32
+    ],
+    [
+     50,
+     -38
+    ],
+    [
+     75,
+     -24
+    ],
+    [
+     86,
+     0
+    ],
+    [
+     78,
+     16
+    ]
+   ],
+   "fill": "#f3e7c2",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     25,
+     -14
+    ],
+    [
+     45,
+     -22
+    ],
+    [
+     62,
+     -12
+    ]
+   ],
+   "width": 2,
+   "color": "#d8c890"
+  },
+  {
+   "type": "ellipse",
+   "x": 48,
+   "y": -28,
+   "rx": 6,
+   "ry": 4,
+   "fill": "#ffe680",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60.2,
+     14.6
+    ],
+    [
+     -3.9,
+     -5.9
+    ],
+    [
+     0.2,
+     5.4
+    ],
+    [
+     -56.1,
+     25.9
+    ]
+   ],
+   "fill": "#f2c14e",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -37.4,
+     -11.6
+    ],
+    [
+     20.5,
+     4.0
+    ],
+    [
+     17.4,
+     15.6
+    ],
+    [
+     -40.5,
+     0.0
+    ]
+   ],
+   "fill": "#f2c14e",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -29.8,
+     -37.0
+    ],
+    [
+     0.2,
+     15.0
+    ],
+    [
+     -10.2,
+     21.0
+    ],
+    [
+     -40.2,
+     -31.0
+    ]
+   ],
+   "fill": "#f2c14e",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     71.0,
+     15.8
+    ],
+    [
+     123.0,
+     -14.2
+    ],
+    [
+     129.0,
+     -3.8
+    ],
+    [
+     77.0,
+     26.2
+    ]
+   ],
+   "fill": "#f2c14e",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     83.5,
+     2.9
+    ],
+    [
+     142.6,
+     13.3
+    ],
+    [
+     140.5,
+     25.1
+    ],
+    [
+     81.4,
+     14.7
+    ]
+   ],
+   "fill": "#f2c14e",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": 22,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#5aa83c",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -38,
+   "y": 26,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#5aa83c",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -60,
+   "y": 28,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#5aa83c",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -44,
+   "y": 32,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#5aa83c",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -28,
+   "y": 24,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#5aa83c",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 60,
+   "y": 26,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#5aa83c",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 72,
+   "y": 22,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#5aa83c",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 84,
+   "y": 28,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#5aa83c",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 96,
+   "y": 26,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#5aa83c",
+   "width": 2,
+   "color": "#000000"
+  }
+ ]
+}

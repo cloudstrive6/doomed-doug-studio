@@ -1,0 +1,477 @@
+{
+ "name": "carcass_outline",
+ "description": "Gore-free 'kill' shape: a wildebeest-sized animal lying on its side as a pale flat shape #d9cfb8 with a #6b6358 width-4 outline only: body on the ground, legs tucked under (one hind leg stretched back), neck and head flat on the ground at the right with one curved horn; a single silhouette with no interior lines. No eye, no ribs, no wounds, no blood. Reads on sunset ground, night ground and near-black. Anchor bottom-centre, x -262..260, y -155..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "carcass",
+  "outline",
+  "africa",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "group",
+   "x": 6,
+   "y": 0,
+   "elements": [
+    {
+     "type": "curve",
+     "points": [
+      [
+       214,
+       -92
+      ],
+      [
+       218,
+       -128
+      ],
+      [
+       246,
+       -142
+      ],
+      [
+       262,
+       -128
+      ]
+     ],
+     "width": 10,
+     "color": "#6b6358"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       214,
+       -92
+      ],
+      [
+       218,
+       -128
+      ],
+      [
+       246,
+       -142
+      ],
+      [
+       262,
+       -128
+      ]
+     ],
+     "width": 3,
+     "color": "#d9cfb8"
+    },
+    {
+     "type": "ellipse",
+     "x": -30,
+     "y": -88,
+     "rx": 205,
+     "ry": 74,
+     "fill": "#d9cfb8",
+     "width": 8,
+     "color": "#6b6358"
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -200,
+       -70
+      ],
+      [
+       -262,
+       -40
+      ],
+      [
+       -284,
+       -14
+      ],
+      [
+       -272,
+       -2
+      ],
+      [
+       -248,
+       -18
+      ],
+      [
+       -185,
+       -40
+      ]
+     ],
+     "fill": "#d9cfb8",
+     "width": 8,
+     "color": "#6b6358",
+     "smooth": true
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -175,
+       -50
+      ],
+      [
+       -158,
+       -6
+      ],
+      [
+       -60,
+       -2
+      ],
+      [
+       -52,
+       -16
+      ],
+      [
+       -130,
+       -34
+      ],
+      [
+       -140,
+       -60
+      ]
+     ],
+     "fill": "#d9cfb8",
+     "width": 8,
+     "color": "#6b6358",
+     "smooth": true
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       110,
+       -50
+      ],
+      [
+       130,
+       -4
+      ],
+      [
+       40,
+       -2
+      ],
+      [
+       34,
+       -16
+      ],
+      [
+       92,
+       -26
+      ],
+      [
+       80,
+       -60
+      ]
+     ],
+     "fill": "#d9cfb8",
+     "width": 8,
+     "color": "#6b6358",
+     "smooth": true
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       120,
+       -130
+      ],
+      [
+       196,
+       -100
+      ],
+      [
+       218,
+       -56
+      ],
+      [
+       170,
+       -24
+      ],
+      [
+       120,
+       -44
+      ]
+     ],
+     "fill": "#d9cfb8",
+     "width": 8,
+     "color": "#6b6358",
+     "smooth": true
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       190,
+       -100
+      ],
+      [
+       226,
+       -96
+      ],
+      [
+       262,
+       -54
+      ],
+      [
+       268,
+       -22
+      ],
+      [
+       254,
+       -4
+      ],
+      [
+       206,
+       -4
+      ],
+      [
+       180,
+       -40
+      ]
+     ],
+     "fill": "#d9cfb8",
+     "width": 8,
+     "color": "#6b6358",
+     "smooth": true
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -228,
+       -96
+      ],
+      [
+       -258,
+       -78
+      ],
+      [
+       -262,
+       -70
+      ],
+      [
+       -226,
+       -84
+      ]
+     ],
+     "fill": "#d9cfb8",
+     "width": 8,
+     "color": "#6b6358",
+     "smooth": true
+    },
+    {
+     "type": "ellipse",
+     "x": -30,
+     "y": -88,
+     "rx": 205,
+     "ry": 74,
+     "fill": "#d9cfb8",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -200,
+       -70
+      ],
+      [
+       -262,
+       -40
+      ],
+      [
+       -284,
+       -14
+      ],
+      [
+       -272,
+       -2
+      ],
+      [
+       -248,
+       -18
+      ],
+      [
+       -185,
+       -40
+      ]
+     ],
+     "fill": "#d9cfb8",
+     "width": 0,
+     "color": "#000000",
+     "smooth": true,
+     "outline": false
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -175,
+       -50
+      ],
+      [
+       -158,
+       -6
+      ],
+      [
+       -60,
+       -2
+      ],
+      [
+       -52,
+       -16
+      ],
+      [
+       -130,
+       -34
+      ],
+      [
+       -140,
+       -60
+      ]
+     ],
+     "fill": "#d9cfb8",
+     "width": 0,
+     "color": "#000000",
+     "smooth": true,
+     "outline": false
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       110,
+       -50
+      ],
+      [
+       130,
+       -4
+      ],
+      [
+       40,
+       -2
+      ],
+      [
+       34,
+       -16
+      ],
+      [
+       92,
+       -26
+      ],
+      [
+       80,
+       -60
+      ]
+     ],
+     "fill": "#d9cfb8",
+     "width": 0,
+     "color": "#000000",
+     "smooth": true,
+     "outline": false
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       120,
+       -130
+      ],
+      [
+       196,
+       -100
+      ],
+      [
+       218,
+       -56
+      ],
+      [
+       170,
+       -24
+      ],
+      [
+       120,
+       -44
+      ]
+     ],
+     "fill": "#d9cfb8",
+     "width": 0,
+     "color": "#000000",
+     "smooth": true,
+     "outline": false
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       190,
+       -100
+      ],
+      [
+       226,
+       -96
+      ],
+      [
+       262,
+       -54
+      ],
+      [
+       268,
+       -22
+      ],
+      [
+       254,
+       -4
+      ],
+      [
+       206,
+       -4
+      ],
+      [
+       180,
+       -40
+      ]
+     ],
+     "fill": "#d9cfb8",
+     "width": 0,
+     "color": "#000000",
+     "smooth": true,
+     "outline": false
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -228,
+       -96
+      ],
+      [
+       -258,
+       -78
+      ],
+      [
+       -262,
+       -70
+      ],
+      [
+       -226,
+       -84
+      ]
+     ],
+     "fill": "#d9cfb8",
+     "width": 0,
+     "color": "#000000",
+     "smooth": true,
+     "outline": false
+    }
+   ],
+   "scale": 0.93
+  }
+ ]
+}

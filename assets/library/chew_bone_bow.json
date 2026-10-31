@@ -1,0 +1,288 @@
+{
+ "name": "chew_bone_bow",
+ "description": "White pet-shop chew bone (dog-bone shape) with a red ribbon bow (two loops, knot, two tails) tied round the middle. Centre anchor, ~220x95.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "bone",
+  "gift",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -75.0,
+   "y": -18.0,
+   "w": 150.0,
+   "h": 36,
+   "fill": "#ffffff",
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -75.0,
+   "y": -20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#ffffff",
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -75.0,
+   "y": 20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#ffffff",
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 75.0,
+   "y": -20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#ffffff",
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 75.0,
+   "y": 20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#ffffff",
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -75.0,
+   "y": -18.0,
+   "w": 150.0,
+   "h": 36,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -75.0,
+   "y": -20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -75.0,
+   "y": 20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 75.0,
+   "y": -20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 75.0,
+   "y": 20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -8
+    ],
+    [
+     0,
+     -12
+    ],
+    [
+     60,
+     -8
+    ]
+   ],
+   "width": 3,
+   "color": "#d9dde3"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -6,
+     -18
+    ],
+    [
+     -14,
+     40
+    ],
+    [
+     -28,
+     44
+    ],
+    [
+     -16,
+     -14
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     6,
+     -18
+    ],
+    [
+     20,
+     38
+    ],
+    [
+     8,
+     44
+    ],
+    [
+     -2,
+     -14
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -12,
+   "y": -20,
+   "w": 24,
+   "h": 40,
+   "fill": "#e0201b",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -4
+    ],
+    [
+     -48,
+     -40
+    ],
+    [
+     -56,
+     -10
+    ],
+    [
+     -40,
+     18
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -4
+    ],
+    [
+     48,
+     -40
+    ],
+    [
+     56,
+     -10
+    ],
+    [
+     40,
+     18
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -2,
+   "rx": 12,
+   "ry": 12,
+   "fill": "#b0100d",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     -24
+    ],
+    [
+     -24,
+     -10
+    ]
+   ],
+   "width": 2,
+   "color": "#8a0a0a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     40,
+     -24
+    ],
+    [
+     24,
+     -10
+    ]
+   ],
+   "width": 2,
+   "color": "#8a0a0a"
+  }
+ ]
+}

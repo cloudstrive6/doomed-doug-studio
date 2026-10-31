@@ -1,0 +1,241 @@
+{
+ "name": "hyena_head_icon",
+ "description": "Small flat side-view spotted hyena head icon facing right: round ears with dark insides, sandy-grey head, dark muzzle, three dark spots, small eye under a heavy brow, thick outline. Built to read at scale 0.35-0.45 in crowds, bus windows and the rank pyramid. Centre anchor, ~120x100.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "icon",
+  "hyena",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "group",
+   "x": -37.4,
+   "y": 15.0,
+   "elements": [
+    {
+     "type": "ellipse",
+     "x": 5,
+     "y": -65,
+     "rx": 18,
+     "ry": 20,
+     "fill": "#b5a079",
+     "width": 8.3,
+     "color": "#000000"
+    },
+    {
+     "type": "ellipse",
+     "x": 6,
+     "y": -63,
+     "rx": 8,
+     "ry": 10,
+     "fill": "#3a2e24",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -30,
+       -27
+      ],
+      [
+       5,
+       -61
+      ],
+      [
+       53,
+       -57
+      ],
+      [
+       87,
+       -27
+      ],
+      [
+       123,
+       -9
+      ],
+      [
+       135,
+       21
+      ],
+      [
+       120,
+       41
+      ],
+      [
+       67,
+       49
+      ],
+      [
+       20,
+       43
+      ],
+      [
+       -15,
+       20
+      ]
+     ],
+     "fill": "#b5a079",
+     "width": 10.4,
+     "color": "#000000",
+     "smooth": true
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       83,
+       -23
+      ],
+      [
+       123,
+       -9
+      ],
+      [
+       135,
+       21
+      ],
+      [
+       120,
+       41
+      ],
+      [
+       87,
+       45
+      ],
+      [
+       77,
+       11
+      ]
+     ],
+     "fill": "#3a2e24",
+     "width": 0,
+     "color": "#000000",
+     "smooth": true,
+     "outline": false
+    },
+    {
+     "type": "ellipse",
+     "x": 27,
+     "y": -67,
+     "rx": 20,
+     "ry": 22,
+     "fill": "#b5a079",
+     "width": 8.3,
+     "color": "#000000"
+    },
+    {
+     "type": "ellipse",
+     "x": 28,
+     "y": -65,
+     "rx": 9,
+     "ry": 11,
+     "fill": "#3a2e24",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "ellipse",
+     "x": 63,
+     "y": -23,
+     "rx": 9,
+     "ry": 9,
+     "fill": "#ffffff",
+     "width": 6.2,
+     "color": "#000000"
+    },
+    {
+     "type": "ellipse",
+     "x": 65,
+     "y": -23,
+     "rx": 4,
+     "ry": 4,
+     "fill": "#000000",
+     "width": 2.1,
+     "color": "#000000"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       47,
+       -37
+      ],
+      [
+       77,
+       -27
+      ]
+     ],
+     "width": 10.4,
+     "color": "#000000"
+    },
+    {
+     "type": "ellipse",
+     "x": 127,
+     "y": 3,
+     "rx": 5,
+     "ry": 4,
+     "fill": "#000000",
+     "width": 2.1,
+     "color": "#000000"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       87,
+       42
+      ],
+      [
+       127,
+       37
+      ]
+     ],
+     "width": 8.3,
+     "color": "#000000"
+    },
+    {
+     "type": "ellipse",
+     "x": 20,
+     "y": -22,
+     "rx": 9,
+     "ry": 7,
+     "fill": "#4e3d2b",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "ellipse",
+     "x": -2,
+     "y": 5,
+     "rx": 8,
+     "ry": 6,
+     "fill": "#4e3d2b",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "ellipse",
+     "x": 35,
+     "y": 8,
+     "rx": 7,
+     "ry": 6,
+     "fill": "#4e3d2b",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    }
+   ],
+   "scale": 0.72
+  }
+ ]
+}

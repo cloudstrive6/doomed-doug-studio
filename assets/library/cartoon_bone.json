@@ -1,0 +1,148 @@
+{
+ "name": "cartoon_bone",
+ "description": "Cream #efe2c0 cartoon dog-bone shaped bone (shaft with two round knobs at each end), black outline, light shading. Clean, no meat. Centre anchor, ~220x90.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "icon",
+  "bone",
+  "food",
+  "033"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -75.0,
+   "y": -18.0,
+   "w": 150.0,
+   "h": 36,
+   "fill": "#efe2c0",
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -75.0,
+   "y": -20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#efe2c0",
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -75.0,
+   "y": 20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#efe2c0",
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 75.0,
+   "y": -20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#efe2c0",
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 75.0,
+   "y": 20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#efe2c0",
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -75.0,
+   "y": -18.0,
+   "w": 150.0,
+   "h": 36,
+   "fill": "#efe2c0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -75.0,
+   "y": -20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#efe2c0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -75.0,
+   "y": 20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#efe2c0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 75.0,
+   "y": -20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#efe2c0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 75.0,
+   "y": 20.8,
+   "rx": 26,
+   "ry": 26,
+   "fill": "#efe2c0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -8
+    ],
+    [
+     0,
+     -12
+    ],
+    [
+     60,
+     -8
+    ]
+   ],
+   "width": 3,
+   "color": "#d6c69c"
+  },
+  {
+   "type": "spray",
+   "x": 30,
+   "y": 6,
+   "r": 20,
+   "color": "#d6c69c",
+   "density": 0.2
+  }
+ ]
+}
