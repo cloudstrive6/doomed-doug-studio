@@ -58,3 +58,49 @@ viewed, and the suspect shots were checked at full size.
 VERDICT: FAIL
 Required: fix 1 (s105 clock) and fix 2 (visitor figures in s113/s116/s117/s194). Fixes 3-6 are minor and should go in the same pass.
 After the changes, run the full `python -m studio keyframes 034-every-bison-reason`, not `--shots`, which deletes the other sheets.
+
+## Round 2: pre-render keyframes after director fixes (visual screener, 2026-11-01)
+
+**Inputs.** Full rerender `build/contact/sheet_01..18` (209 shots + endslate), every tile viewed, suspect shots checked at
+full size from `build/keyframes/`. Camera end-frames for s009, s021, s107 and s203 judged from `/tmp/patch034/cam.png`
+(render_still + camera_rect at u=1, s009 at u=0). I re-rendered trial crops of s021 and s107 at other zoom levels to confirm the fixes below.
+
+### Round 1 fixes: status
+1. s105 clock: FIXED. The face is upright (12 at top, 3 right, 6 bottom, 9 left) and a red hand shows time passing.
+2. s113, s116, s117, s194 visitors: FIXED. They are now 8-10 stick figures with arms and legs, and they read as people.
+3. s061 TOSS panel: MOSTLY FIXED. The bison head and a tossed figure are now there, but see minor fix A.
+4. s127 card: FIXED. The last line is "THE BISON DID NOT MOVE".
+5. s203 push-in: FIXED. At the end of the zoom (1.75) the PLANT EATER note is big and centred, and it lands on "plant eater".
+6. s032 arrows: FIXED. Both arrows start below their labels, and no letters are crossed.
+
+### Camera shots
+- s009: fine. The "?" over the black wolves is visible and the HUD is intact.
+- s203: fine (see above).
+- s021 and s107: at the end of the zoom, the in-scene HUD is cut by the top edge of the frame. In s021 the calendar icon and "JAN"
+  are sliced in half and the death counter is gone. In s107 only a sliver of the calendar/"JUN" box shows at the very top.
+  It reads as a glitch on the held frame (see minor fix B).
+
+### Rest of the episode
+- No new problems. Doug is on-model everywhere. The counter runs 267 -> 274 with seven deaths. Text is clean. There is no gore.
+  Variety is unchanged from round 1 (good).
+- The optional notes from round 1 (s166 dog reads a little cat-like; RUT -> WALLOW -> RUT topbar) still apply and are still optional.
+
+### Minor fixes (non-blocking, apply before the final render)
+A. **s061 (director): the tossed figure sits on the panel border and the arrow goes through the bison's face.** The `stick_man_plain`
+   at (1380,500) has its head poking above the top edge of the TOSS box (y=450), and the arrow at x=1360 runs straight up through the
+   bison_head_icon at (1340,690). Change: move `bison_head_icon` to (1300,690). Move the arrow to `from` [1420,690] and `to` [1420,580],
+   so it rises off the horns beside the face. Move `stick_man_plain` to (1440,560) at scale 0.2 and keep rotate 30, so it sits inside
+   the box above the arrowhead.
+B. **s021 and s107 (director): the zoom end-frames slice the calendar/counter HUD.**
+   - s021: set camera `zoom` 1.35 (it is 1.25 now) and keep x 1260, y 760. I rendered this: the HUD leaves the frame cleanly, and
+     "12", "13" and Doug in the costume all stay fully in frame. Do not go to 1.4, because that crops the "12" label at the left edge.
+   - s107: set camera `zoom` 1.4 (it is 1.3 now). I rendered this: the HUD leaves the frame cleanly, and the bison and "!" are centred.
+     Doug leaves the frame, which is fine for "until it does".
+
+### Still pending (post-render round)
+- s001 "(thumbnail pending)", the three thumbnails, the final-video samples/qc.json, and the Shorts.
+
+VERDICT: PASS
+Both required fixes from round 1 are in, along with minor fixes 4-6. Fix 3 is mostly done. Minor fixes A and B take one line each. Apply them before
+`render --final`. They do not need a full keyframe re-screen: a still of s061 and a camera end-frame of s021/s107 (the cam.py method)
+is enough.

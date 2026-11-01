@@ -131,3 +131,63 @@ Exempt from rule 4 (diagram text, same as the 017/021 case-file ledger): the BUT
 Re-render only the changed shots (`--shots s008,s009,s012,s020,s021,s040,s047,s054,s055,s066,s087,s107,s165,s180,s203`). They need art-director sign-off, not a full re-review.
 
 **FAIL**
+
+---
+
+# Round 3 (final): full keyframe re-review after the director's round-2 fixes
+
+Reviewer: art director, 2026-11-01
+Scope: all 209 keyframes on `build/contact/sheet_01..18.png` (full run, 18:22), plus `/tmp/patch034/cam.png` for the camera
+end-frames of s009, s021, s107 and s203 (keyframes ignore camera). Test renders of the fixes below: `/tmp/ad034/t.png`, `/tmp/ad034/s040crop.png`.
+
+## Round-2 fixes: status
+| # | Shot | Status |
+|---|---|---|
+| 1 | s087 calf | Done. `bison_calf` is on the far bank with a red arrow from "THE SMALLEST BISON". It is small, but small is the point. |
+| 2 | s009 wolves | Done. The black wolf silhouettes trail off the left edge with the "?", and the duplicate wordart is gone. The zoom_out at 1.1 is fine. |
+| 3 | s021 "13" | Composition done. The camera needs a fix (see fix 2). |
+| 4 | s066 PRACTICE card | Done. The cream card with snowplow → charging and one arc arrow breaks the s065-s069 run. |
+| 5 | s107 "!" | Composition done. The camera needs a fix (see fix 2). |
+| 6 | s165 mirrored bellow | Done. It reads as a fresh shot after s164. |
+| 7 | s203 PLANT EATER | Needs a fix (see fix 2). |
+| 8 | s012 labels | Done (MOST DIFFICULT + 9 TO 13). |
+| 9 | s054 / s055 | Done. s054 has MALE/FEMALE with arrows to the horns. s055 has MALE + SLIGHTLY LONGER. |
+| 10 | s040 / s180 | s180 is done. s040 needs a fix: the X hides the H (see fix 1). |
+| 11 | s047 portrait | Done. The portrait and "36,000 YEARS" sit to the left of the book, and the pencil arm comes in over open sky. |
+
+The visual screener's round-1 items also look done in the keyframes: s105 clock face is upright with a moving hand,
+s113/s116/s117/s194 use `stick_man_plain` visitors, s061 TOSS has the head and a tossed figure, and s127 reads THE BISON DID NOT MOVE.
+That is for the screener to confirm.
+
+Everything else from round 2 still holds: two-tier style, Doug on-model with his cap in every frame, the Yellowstone month ramp, the HUD position,
+no gore, and good layout variety.
+
+## Verdict: FAIL (2 fixes for the director, both quick; no asset fixes)
+
+### Fixes (director)
+1. **s040: the red X hides the "H" of HUNTING.** The `red_x` at (520, 400) sits on the space between the words, so the label reads
+   "ANGRY? UNTING?". Delete the `red_x` element and add one red strikethrough across the whole label in its place:
+   `{"type": "line", "points": [[262, 402], [778, 398]], "color": "#e0201b", "width": 7, "appear": 0.45}`.
+   Tested: both words stay readable and are clearly crossed out (`/tmp/ad034/s040crop.png`).
+2. **s021, s107, s203: my round-2 zooms were too strong. That was my error, so do not follow those numbers.** The pushes of 1.25, 1.3 and 1.75 break editor
+   rule 4 in the style bible (push-in of 10% at most). They also crop `DOUG DEATHS` and the month tag out of frame at the end of the move,
+   because those are scene elements and the camera crops them. Only the chapter topbar is overlaid after the camera. For example, the s107 end rect is y 249..1080, while the counter sits at y ~135-190.
+   Set all three to `"camera": {"move": "zoom_in", "x": 960, "y": 491, "zoom": 1.1}` (top-anchored, so the HUD stays in frame). Tested.
+   - s021 and s107 are then valid build-up beats on the same background (style bible editor rule 2). s021 is set apart by the "12"/"13"
+     pop-ins with no wordart, and s107 by the "!". No further change.
+   - s203 needs a new element to set it apart from s202. Add a red ring around the sticky note:
+     `{"type": "ellipse", "x": 799, "y": 594, "rx": 150, "ry": 110, "color": "#e0201b", "width": 8, "appear": 0.3}`.
+     Tested: "PLANT EATER." becomes the clear focus with the HUD intact. This also replaces the visual screener's fix 5 (zoom 1.8),
+     which has the same rule-4 and HUD problem. Please tell the screener.
+   - s009 (zoom_out from 1.1 at 960, 540) keeps the HUD in frame. Leave it.
+
+After these two fixes, re-render only s040, s021, s107 and s203 by a camera-aware still (like `/tmp/patch034/cam.py`) or by
+`python -m studio keyframes 034-every-bison-reason`. Do not use `--shots`, which wipes the other sheets. Art-director sign-off on those four frames is then all that is needed. No further full review.
+
+### Not blocking (unchanged)
+- s001 "(thumbnail pending)" belongs to the graphic designer at the packaged stage.
+- s200 is a full black impact frame with only the HUD. This is intentional (a cut to black on the hit), and s201 is the ghost beat.
+
+**FAIL**
+
+Stage not advanced. This round is a FAIL, and `visual_review.md` is also still at VERDICT: FAIL (round 1), so `art_approved` waits for both.
