@@ -139,3 +139,99 @@ keeps the push within the style bible's 10% limit. I accept this fix.
 
 VERDICT: PASS
 All five shots are cleared for `render --final`. No further keyframe changes are needed.
+
+## Round 4: thumbnails A, B and C (visual screener, 2026-11-01)
+
+**Inputs.** `build/thumbnail.png` (A, from `thumbnail.json`), `build/thumbnail_b.png` (`thumbnail_test_b.json`),
+`build/thumbnail_c.png` (`thumbnail_test_c.json`), all 1280x720, plus their `_small.png` at 168x94. I viewed the smalls at 1x and
+at 3x nearest-neighbour, and made zoom crops of B's Doug and C's HUMP tile (`/tmp/vs034t/`). I checked them against the title
+"Every Reason the Bison Is Yellowstone's Most Terrifying Animal", the four alts and the `thumbnail_brief` bans.
+
+**Brief bans (all variants).** No variant uses a title or alt word: IT'S BEHIND YOU, REFEREE, SPEED, HUMP, SNOWPLOW, WALLOW,
+JAM and RUT are all clean. None has a distance number (23 M / 25 YARDS), safety wording, a calf, a real person or a horn
+touching Doug. Doug is on-model (red cap, white head) in all three.
+
+### A (hero, also s001): PASS
+- At 168x94 the focal point is clear: a huge charging bull fills the left two-thirds, and tiny red-capped Doug smiles into a
+  selfie stick on the right. "IT'S BEHIND YOU" is readable in the feed. The words are tight but whole, with no clipping at
+  either edge.
+- The text clears the top of the hump by a few px with no overlap. The horn tip and the nose are about 60 px from Doug. It shows
+  the threat without contact.
+- It is honest. The video's selfie-stick beat (script line 264) and the s001 open match it. It complements the title, since the
+  title names the animal and the picture shows the peril. It has no gore and no nursery tone.
+- Cropping: the bull's rump bleeds off the left edge on purpose. The head, hump, beard and front legs are whole.
+
+### B (rut / REFEREE): PASS
+- At 168x94 the striped shirt and red cap pop dead centre between two dark bulls. It reads as "Doug is about to be crushed" in
+  under a second. REFEREE is big and fully legible.
+- The whistle is at Doug's mouth and his shock face reads. Both horns stay clear of Doug's body. It matches the payoff promised
+  at 0:10 and the rut beat (script lines 26 and 400), so it is not misleading.
+- Cosmetic, no change needed: Doug's arms are thin lines that mostly hide behind the shirt, and the two brown motion arcs in the
+  top corners (about x200-310 and x1045-1120, y130-210) read as faint noise at feed size. Neither hurts the read.
+
+### C (6-tile list control): FAIL
+1. **HUMP tile (`thumbnail_test_c.json` elements[1], `fill` `#ff5a3c`). Route: graphic designer.** The `bison_hump_cutaway` puts a
+   pink muscle band with ivory spines on a red-orange tile. Full size, it is a clean diagram (cleared for s032-s033 in round 1).
+   At 168x94, though, the pink patch on red reads as an open wound on the bull's back. It is the brightest, most eye-catching
+   spot in the grid, and the thumbnail is the surface that gets the strictest advertiser review. Fix: change the tile `fill` to a
+   cool colour that no other tile uses, e.g. `#9b5de5` (purple). Keep the asset as it is. Then re-render `thumbnail_c.png` and
+   `_small`. The red tile is the only problem: with a cool background the pink reads as a diagram, not an injury.
+- Everything else passes. All six labels (Comic Neue Bold on white bands) are readable at 168x94 and none is cropped. Every
+  drawing is recognisable: charge, snow, legs-up wallow on brown dirt, car jam, locked bulls. Doug appears small in JAM only,
+  which is acceptable for the approved 032-style list control. Advisory, no change needed: the legs-up WALLOW pose could read as a
+  dead bison at feed size. The dirt patch under it carries the meaning, and it is not gore.
+
+VERDICT: FAIL (A: PASS, B: PASS, C: FAIL, 1 fix)
+A and B are cleared for upload and the Studio A/B test. C must have fix 1 before it enters the test. Re-screening C needs only
+the new `thumbnail_c_small.png`.
+
+## Round 5: thumbnails A, B and C re-check (visual screener, 2026-11-01)
+
+**Inputs.** `build/thumbnail.png`, `thumbnail_b.png` and `thumbnail_c.png` (1280x720, rendered 18:35) and their `_small.png`
+(168x94), viewed at 1x and 3x nearest-neighbour, with zoom crops of A's hindquarters and C's WALLOW tile (`/tmp/vs034r2/`).
+Checked against the title, the four alts, the `thumbnail_brief` bans and the script. This round I also judged each one as the
+creative director would: would I click it, and is it honest?
+
+**Brief bans (all variants).** The text is clean: IT'S BEHIND YOU, REFEREE, WOLVES, SNOWPLOW, SPEED, WALLOW, JAM and RUT use
+no title or alt word. There are no distance numbers, no safety wording, no calf, no real people and no horn touching Doug. Doug
+is on-model wherever he appears.
+
+### A (hero, also s001): PASS
+- **Does it read as a charge? Yes.** The head is down below the shoulder line, the near foreleg reaches far forward and the
+  hind leg drives back, so the bull is mid-stride. The tail is raised (cropped at the top-left edge) and three speed lines trail
+  off the back on the correct (rear) side. Dust puffs sit at the hooves. At 168x94 the pose alone carries the motion: it reads
+  as "lunging at him", not "grazing". The dust is faint at feed size, but it isn't needed.
+- The single focal point is clear. A huge dark bull fills the left two-thirds, and tiny white-headed, red-capped Doug smiles
+  into the selfie stick at right. That contrast makes the joke in under a second. The nose is about 40-50 px from Doug and the
+  horn about 90 px, so the threat is close but there is no contact.
+- The text is whole, readable at 168x94 and clears the hump. Cropping is deliberate: the rump and tail bleed off the left
+  edge, and the head, hump, beard and forelegs are whole. No stray lines.
+- **Click test: yes.** The dramatic irony ("he doesn't know") is the strongest hook of the three. It pairs well with the
+  title: the title names the animal and the picture shows why. The selfie beat is in the video, so it is honest.
+
+### B (rut / REFEREE): PASS (unchanged from round 4)
+- The striped shirt, red cap and shock face sit dead centre between two mirrored bulls in a dust cloud. REFEREE is big and
+  legible. It is honest (the 0:10 payoff promise and the rut beat). Cosmetic only, no change: the two thin brown arcs in the top
+  corners are faint noise at feed size.
+- **Click test: yes.** It is a strong "what is he doing there" image and a good challenger to A.
+
+### C (6-tile list control, rebuilt): PASS
+- Round 4's fix 1 is resolved by the rebuild. The HUMP tile and its pink muscle band are gone, so nothing in the grid reads as
+  a wound. The tiles now run WOLVES / SNOWPLOW / SPEED over WALLOW / JAM / RUT, with six distinct background colours (pale blue,
+  lilac, yellow, teal, green, orange) and no repeats.
+- All six labels are readable at 168x94 and none is cropped. All six match script items (The Wolves, The Snowplow, The Speed,
+  The Wallow, The Jam, The Rut), so the grid is honest.
+- **Does the wallow read as a live bull? Yes.** It is lying down with its legs tucked under it, not legs-up, and its head is
+  raised with horns up and an open, alert eye. It sits on a dirt patch inside a speckled dust cloud. Nothing suggests death:
+  no X eyes, no tongue, no belly-up pose. At 168x94 it is the softest tile (a brown lump with a head on the right, and the dust
+  speckle mostly washes into the teal), but it reads as "resting bison", not a carcass. Advisory only, no change required: if
+  the designer touches C again, a few bolder dust puffs or a tilted, mid-roll body would make "wallow" more active.
+- Other tiles: the WOLVES line-up reads as grey wolves with tiny Doug at the back. SNOWPLOW's snow-capped head is clear, SPEED's
+  raised tail and lunge are clear, JAM's red car against the bull is the brightest read, and RUT's locked heads are clear.
+- **Click test: yes, for list-format viewers.** It promises a variety of reasons, and that fits "Every Reason" well. It is
+  weaker than A at a glance because it has no single focal point, which is expected of the list control.
+
+VERDICT: PASS (A: PASS, B: PASS, C: PASS)
+All three variants are cleared for upload and the Studio A/B/C test, with A as the lead. **Creative-director-level approval is
+recommended:** A reads as a charge and is the strongest click, B is a strong challenger, and C's wallow reads as a live bull.
+No packaging fixes are outstanding. Still pending for the post-render round: `build/samples/*.png`, `qc.json` and the Shorts.

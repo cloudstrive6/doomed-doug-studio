@@ -17,7 +17,7 @@ Deviations from the brief, all fact-driven (see facts.md, "Brief checks"):
 11. "Several hundred tonnes of animal" is cut (no herd-size source); the wallow twist says "a crowd of very large animals". -->
 <!-- Pronunciation for the editor: Lamar = "luh-MAR" (now spoken in The Jam); Hayden = "HAY-den"; Madison = as usual. Editor: keep the thumbnail hold near 1.5 s so death 268 lands by about 1:15. -->
 
-[Open on thumbnail A, 1.5 to 4 seconds. A bison mid-charge, head low, filling two-thirds of the frame. Tiny red-capped Doug in the foreground, back to it, holding up a selfie stick and smiling. Text: "TOO CLOSE". DOUG DEATHS: 267. Beside the counter, a tear-off wall calendar on JAN.]
+[Open on thumbnail A, 1.5 to 4 seconds. A bison mid-charge, head low, filling two-thirds of the frame. Tiny red-capped Doug in the foreground, back to it, holding up a selfie stick and smiling. Text: "IT'S BEHIND YOU". DOUG DEATHS: 267. Beside the counter, a tear-off wall calendar on JAN.]
 
 In Yellowstone, bison have injured more people than any other animal, bears included.
 

@@ -1,0 +1,110 @@
+{
+ "_note": "Variant B (Doug in peril, rut scene): flat sunset orange sky over trampled ground, a big dust_plume behind; two american_bison_charging bulls (scale 1.0) thundering in from left and right, heads low, converging on the gap where Doug stands in the referee_shirt (whistle at his mouth), arms up, shock face, red cap. Horns stay clear of Doug. Text REFEREE (Arimo bold, white, black outline). No title/alt word, no numbers, no calf, no real people.",
+ "background": "#f2a24a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 650,
+   "w": 1280,
+   "h": 70,
+   "fill": "#b8913a",
+   "color": "#b8913a",
+   "width": 0,
+   "outline": false,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -10,
+     650
+    ],
+    [
+     400,
+     646
+    ],
+    [
+     900,
+     654
+    ],
+    [
+     1290,
+     648
+    ]
+   ],
+   "color": "#000000",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "dust_plume",
+   "x": 640,
+   "y": 430,
+   "scale": 1.45,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "american_bison_charging",
+   "x": 225,
+   "y": 672,
+   "scale": 1.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "american_bison_charging",
+   "x": 1055,
+   "y": 672,
+   "scale": 1.0,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 640,
+   "y": 545,
+   "scale": 0.7,
+   "pose": "arms_up",
+   "expression": "shock",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "referee_shirt",
+   "x": 640,
+   "y": 545,
+   "scale": 0.7,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "REFEREE",
+   "x": 640,
+   "y": 78,
+   "size": 120,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

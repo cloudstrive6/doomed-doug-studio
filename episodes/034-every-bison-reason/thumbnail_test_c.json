@@ -1,0 +1,573 @@
+{
+ "_note": "Variant C (list-format control, round 2): 6 big tiles 3x2 in episode-year order, approved 032 C top-bar label layout (bold UPPERCASE Comic Neue on a white band). Top: WOLVES (4 grey_wolf facing one standing bull on a pale blue tile, tiny worried Doug at left), SNOWPLOW (bull ploughing snow, lilac), SPEED (charging bull, yellow). Bottom: WALLOW (bull side-on, sunk in a dust bank with legs half folded, teal), JAM (bull, stopped car, bored Doug), RUT (two bulls locked, orange, the worst). No pink/red-orange fill behind anatomy; no hump cutaway; no calf, no numbers, no real people, no title words.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 16,
+   "y": 10,
+   "w": 400,
+   "h": 338,
+   "fill": "#bfe3ff",
+   "radius": 20,
+   "frame_width": 7,
+   "boil": 0,
+   "wobble": 0,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 16,
+     "y": 332,
+     "w": 400,
+     "h": 40,
+     "fill": "#f7fbff",
+     "color": "#f7fbff",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "american_bison",
+     "x": 404,
+     "y": 340,
+     "scale": 0.33,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "grey_wolf",
+     "x": 138,
+     "y": 300,
+     "scale": 0.17,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "grey_wolf",
+     "x": 213,
+     "y": 300,
+     "scale": 0.17,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "grey_wolf",
+     "x": 103,
+     "y": 340,
+     "scale": 0.2,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "grey_wolf",
+     "x": 183,
+     "y": 340,
+     "scale": 0.2,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 56,
+     "y": 282,
+     "scale": 0.25,
+     "pose": "cower",
+     "expression": "worried",
+     "facing": "right",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 6,
+     "y": 0,
+     "w": 420,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "WOLVES",
+     "x": 216.0,
+     "y": 50,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 10,
+   "w": 400,
+   "h": 338,
+   "fill": "#b79cff",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 440,
+     "y": 310,
+     "w": 400,
+     "h": 40,
+     "fill": "#f7fbff",
+     "color": "#f7fbff",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "american_bison_snowplow",
+     "x": 635,
+     "y": 332,
+     "scale": 0.56,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 430,
+     "y": 0,
+     "w": 420,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "SNOWPLOW",
+     "x": 640.0,
+     "y": 50,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 864,
+   "y": 10,
+   "w": 400,
+   "h": 338,
+   "fill": "#ffd23f",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "american_bison_charging",
+     "x": 1074,
+     "y": 332,
+     "scale": 0.52,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 854,
+     "y": 0,
+     "w": 420,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "SPEED",
+     "x": 1064.0,
+     "y": 50,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 16,
+   "y": 366,
+   "w": 400,
+   "h": 338,
+   "fill": "#2ec4b6",
+   "radius": 20,
+   "frame_width": 7,
+   "boil": 0,
+   "wobble": 0,
+   "elements": [
+    {
+     "type": "spray",
+     "x": 161,
+     "y": 606,
+     "r": 170,
+     "color": "#e2d3b0",
+     "density": 0.35
+    },
+    {
+     "type": "asset",
+     "name": "american_bison",
+     "x": 201,
+     "y": 738,
+     "scale": 0.44,
+     "rotate": -5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 16,
+     "y": 666,
+     "w": 400,
+     "h": 60,
+     "fill": "#a07a4a",
+     "color": "#a07a4a",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       6,
+       666
+      ],
+      [
+       426,
+       666
+      ]
+     ],
+     "color": "#000000",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       271,
+       636
+      ],
+      [
+       279,
+       660
+      ],
+      [
+       329,
+       660
+      ]
+     ],
+     "color": "#000000",
+     "width": 24,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       271,
+       636
+      ],
+      [
+       279,
+       660
+      ],
+      [
+       329,
+       660
+      ]
+     ],
+     "color": "#4a2f1e",
+     "width": 15,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "circle",
+     "x": 329,
+     "y": 660,
+     "r": 9,
+     "fill": "#2a1a10",
+     "color": "#000000",
+     "width": 4,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       141,
+       636
+      ],
+      [
+       131,
+       660
+      ],
+      [
+       83,
+       660
+      ]
+     ],
+     "color": "#000000",
+     "width": 24,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       141,
+       636
+      ],
+      [
+       131,
+       660
+      ],
+      [
+       83,
+       660
+      ]
+     ],
+     "color": "#4a2f1e",
+     "width": 15,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "circle",
+     "x": 83,
+     "y": 660,
+     "r": 9,
+     "fill": "#2a1a10",
+     "color": "#000000",
+     "width": 4,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "spray",
+     "x": 51,
+     "y": 646,
+     "r": 75,
+     "color": "#c8b58a",
+     "density": 0.5
+    },
+    {
+     "type": "spray",
+     "x": 101,
+     "y": 576,
+     "r": 60,
+     "color": "#c8b58a",
+     "density": 0.5
+    },
+    {
+     "type": "spray",
+     "x": 401,
+     "y": 651,
+     "r": 45,
+     "color": "#c8b58a",
+     "density": 0.5
+    },
+    {
+     "type": "spray",
+     "x": 181,
+     "y": 671,
+     "r": 70,
+     "color": "#c8b58a",
+     "density": 0.5
+    },
+    {
+     "type": "spray",
+     "x": 261,
+     "y": 671,
+     "r": 55,
+     "color": "#c8b58a",
+     "density": 0.5
+    },
+    {
+     "type": "rect",
+     "x": 6,
+     "y": 356,
+     "w": 420,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "WALLOW",
+     "x": 216.0,
+     "y": 406,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 440,
+   "y": 366,
+   "w": 400,
+   "h": 338,
+   "fill": "#8ac926",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 440,
+     "y": 666,
+     "w": 400,
+     "h": 40,
+     "fill": "#6b6b6b",
+     "color": "#6b6b6b",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "small_car",
+     "x": 605,
+     "y": 671,
+     "scale": 0.44,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "american_bison",
+     "x": 770,
+     "y": 671,
+     "scale": 0.36,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 490,
+     "y": 621,
+     "scale": 0.34,
+     "pose": "hands_hips",
+     "expression": "flat",
+     "facing": "right",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 430,
+     "y": 356,
+     "w": 420,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "JAM",
+     "x": 640.0,
+     "y": 406,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 864,
+   "y": 366,
+   "w": 400,
+   "h": 338,
+   "fill": "#ff9f1c",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "bison_bulls_locked",
+     "x": 1064,
+     "y": 684,
+     "scale": 0.33,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 854,
+     "y": 356,
+     "w": 420,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "RUT",
+     "x": 1064.0,
+     "y": 406,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

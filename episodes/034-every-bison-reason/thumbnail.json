@@ -1,0 +1,166 @@
+{
+ "_note": "Variant A (hero; video opening image s001 via scene_ref): flat lemon field over a prairie strip; one huge american_bison_charging bull (scale 1.5, head low, hump and beard clear) filling the left two-thirds, galloping right (bull x470 so the kicked hind leg enters from the edge as body; dust puffs at hind and front hooves, 3 motion lines behind the hump) toward tiny red-capped Doug, who stands in the right foreground with his back to it, smiling into a raised selfie stick. Clear gap between horns and Doug. Text IT'S BEHIND YOU (Arimo bold, white, black outline) per the brief; no title/alt word, no distance number, no safety wording, no calf, no real people.",
+ "background": "#ffd23f",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 640,
+   "w": 1280,
+   "h": 80,
+   "fill": "#8cb84f",
+   "color": "#8cb84f",
+   "width": 0,
+   "outline": false,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -10,
+     640
+    ],
+    [
+     400,
+     636
+    ],
+    [
+     900,
+     644
+    ],
+    [
+     1290,
+     638
+    ]
+   ],
+   "color": "#000000",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 120,
+   "y": 660,
+   "r": 110,
+   "color": "#c9a46a",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 330,
+   "y": 670,
+   "r": 80,
+   "color": "#c9a46a",
+   "density": 0.25
+  },
+  {
+   "type": "asset",
+   "name": "american_bison_charging",
+   "x": 470,
+   "y": 665,
+   "scale": 1.5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "spray",
+   "x": 860,
+   "y": 655,
+   "r": 70,
+   "color": "#c9a46a",
+   "density": 0.25
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     240,
+     128
+    ],
+    [
+     330,
+     128
+    ]
+   ],
+   "color": "#000000",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     190,
+     153
+    ],
+    [
+     300,
+     153
+    ]
+   ],
+   "color": "#000000",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     130,
+     178
+    ],
+    [
+     230,
+     178
+    ]
+   ],
+   "color": "#000000",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 1020,
+   "y": 548,
+   "scale": 0.6,
+   "pose": "point",
+   "expression": "hopeful",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "selfie_stick_phone",
+   "x": 1092,
+   "y": 464,
+   "scale": 0.5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "IT'S BEHIND YOU",
+   "x": 640,
+   "y": 70,
+   "size": 96,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

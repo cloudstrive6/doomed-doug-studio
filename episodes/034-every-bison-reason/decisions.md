@@ -45,3 +45,43 @@ APPROVED
 - f. Wolves never kill: the wolves stand, back away or run off; "bison have killed wolves" is an `!` over a standing bison while a wolf retreats (s019). Doug's death 268 happens off screen (s024 arrow, then black).
 - Deaths are all off screen + black + ghost Doug + cap. No horn ever touches Doug; the referee impact cuts to black at 50% of s200.
 - Shorts: Snowplow (s029-s036), Speed (s096-s107), Rut (s178-s186); none use the calf, the sober card or a real incident, and none package the 23 m distance. Titles and descriptions are filled.
+
+## 2026-11-01, creative director: thumbnail gate (A, B, C)
+Inputs: `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` and their `_small` (168x94) versions; `thumbnail.json`,
+`thumbnail_test_b.json`, `thumbnail_test_c.json`; brief section 8. **No visual-screener thumbnail report exists yet**
+(visual_review.md round 3 lists "all three thumbnails" as still pending), so no variant can clear the package gate today.
+The verdicts below are the creative call; the gate opens only after a visual-screener PASS on the revised set.
+Checked on all three: no title/alt word on the image, no BISON/YELLOWSTONE/TERRIFYING, no distance numbers or safety wording,
+no horn touches Doug, no calf, no real people, bulls keep hump and beard at 168x94, no gore. All pass those hard rules.
+
+**A (lead, "IT'S BEHIND YOU"): REVISE (small).** The concept is the click: tiny smiling Doug, selfie stick up, a bull filling
+the frame behind him. At 168x94 the bison and the text read. But the bull reads as a bow or a stretch, not a charge, and that
+undersells the text.
+1. Sell the charge: raise both existing `spray` dust puffs (x120 and x330) to density 0.25, and add a third `spray` at the front
+   hooves (x 860, y 655, r 70, color #c9a46a, density 0.25). Add 3 short black motion lines (width 6) behind the hump, around
+   x 250-330 and y 140-260.
+2. The kicked-back hind leg cut by the left edge (about x 0-110, y 320-400) reads as a loose tube. Move the bull to x 470
+   (keep scale 1.5) so the leg comes in from the edge as part of the body, or re-angle it. Keep the horn-to-Doug gap at 60 px or more.
+3. Keep the text, colours, Doug's pose and expression as they are. Script s001 now says "IT'S BEHIND YOU" (script.md line 20,
+   a stage direction only, no spoken words changed).
+
+**B (challenger, "REFEREE"): APPROVE (creative).** This is the strongest of the three. It is the payoff promise as an image,
+Doug's shock face plus a whistle reads at feed size, and the symmetry makes the danger instant. Two optional polish notes, not blocking:
+- a. Doug's `arms_up` arms read as two crossed sticks behind the shirt. If the referee_shirt sleeves can sit on the raised
+  arms, do that. Otherwise leave it.
+- b. The dust_plume's inner contour lines are busy. If the asset has a lighter version, use it. Otherwise leave it.
+
+**C (grid control): REVISE.** The grid deviates from the brief (Wolves, Snowplow, Calf, Speed, Record, Rut). Dropping Calf and
+Record is correct (calf risk, and the sober record should not be packaged), but item 1 is missing, and two tiles misread at 168x94.
+1. Replace HUMP with **WOLVES** (item 1, the hook item the opening pays off first): a line of 4-5 `grey_wolf` facing one standing
+   `american_bison` on a pale blue tile. At feed size the pink `bison_hump_cutaway` reads as raw meat or a brain. It is fine in the
+   video, but not on the thumbnail.
+2. Keep the WALLOW label but change the art. At feed size a bull on its back with all four legs up reads as a dead animal.
+   Show the bull on its side with its legs half folded, inside a big dust spray (`dust_cloud` or a dense `spray`), so it
+   clearly reads as rolling.
+3. Reorder the tiles along the episode year: WOLVES, SNOWPLOW, SPEED (top row); WALLOW, JAM, RUT (bottom row). RUT stays bottom-right as the worst.
+4. Put Doug in 2 tiles, not 1, so the channel's hook shows: tiny worried Doug beside the wolves line, plus the JAM Doug as he is.
+   Keep him small (scale 0.25 or less in tile) per style bible 2 ("one tile among many").
+
+Next: graphic designer applies A 1-3 and C 1-4 (B as is, a/b optional), re-renders all three plus `_small` versions, then the
+visual screener runs the thumbnail check. Back to me only if the screener changes anything beyond these notes.
