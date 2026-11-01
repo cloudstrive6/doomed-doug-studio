@@ -2039,6 +2039,39 @@
      {
       "type": "asset",
       "name": "grey_wolf",
+      "x": -40,
+      "y": 860,
+      "scale": 0.24,
+      "flip": false,
+      "silhouette": true,
+      "glow_r": 0,
+      "appear": 0.1
+     },
+     {
+      "type": "asset",
+      "name": "grey_wolf",
+      "x": 60,
+      "y": 860,
+      "scale": 0.24,
+      "flip": false,
+      "silhouette": true,
+      "glow_r": 0,
+      "appear": 0.18
+     },
+     {
+      "type": "asset",
+      "name": "grey_wolf",
+      "x": 160,
+      "y": 860,
+      "scale": 0.24,
+      "flip": false,
+      "silhouette": true,
+      "glow_r": 0,
+      "appear": 0.26
+     },
+     {
+      "type": "asset",
+      "name": "grey_wolf",
       "x": 290,
       "y": 860,
       "scale": 0.24,
@@ -2135,27 +2168,19 @@
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1290,
-      "y": 640,
+      "x": 190,
+      "y": 620,
       "scale": 0.35,
       "appear": 0.3
      },
      {
       "type": "doug",
-      "x": 110,
+      "x": 1360,
       "y": 802.2,
       "scale": 0.38,
       "pose": "shrug",
       "expression": "confused",
-      "facing": "right"
-     },
-     {
-      "type": "wordart",
-      "text": "9 TO 13",
-      "x": 790,
-      "y": 400,
-      "size": 110,
-      "boil": 0
+      "facing": "left"
      },
      {
       "type": "label",
@@ -2185,6 +2210,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_out",
+    "x": 960,
+    "y": 540,
+    "zoom": 1.1
    }
   },
   {
@@ -2960,16 +2991,6 @@
       "x": 480,
       "y": 860,
       "scale": 0.55
-     },
-     {
-      "type": "label",
-      "text": "2 TO 6",
-      "x": 480,
-      "y": 300,
-      "size": 46,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff"
      },
      {
       "type": "asset",
@@ -5578,6 +5599,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 1260,
+    "y": 760,
+    "zoom": 1.25
    }
   },
   {
@@ -8440,7 +8467,7 @@
       "type": "arrow",
       "from": [
        720,
-       400
+       425
       ],
       "to": [
        1000,
@@ -8466,8 +8493,8 @@
      {
       "type": "arrow",
       "from": [
-       1400,
-       340
+       1440,
+       355
       ],
       "to": [
        1150,
@@ -10006,8 +10033,8 @@
      },
      {
       "type": "label",
-      "text": "ANGRY",
-      "x": 480,
+      "text": "ANGRY? HUNTING?",
+      "x": 520,
       "y": 400,
       "size": 50,
       "bold": true,
@@ -10017,34 +10044,15 @@
      {
       "type": "asset",
       "name": "red_x",
-      "x": 480,
+      "x": 520,
       "y": 400,
-      "scale": 0.35,
-      "appear": 0.2
-     },
-     {
-      "type": "label",
-      "text": "HUNTING",
-      "x": 480,
-      "y": 540,
-      "size": 50,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff",
-      "appear": 0.3
-     },
-     {
-      "type": "asset",
-      "name": "red_x",
-      "x": 480,
-      "y": 540,
-      "scale": 0.35,
-      "appear": 0.5
+      "scale": 0.9,
+      "appear": 0.45
      },
      {
       "type": "wordart",
       "text": "BUSY",
-      "x": 480,
+      "x": 520,
       "y": 700,
       "size": 110,
       "boil": 0,
@@ -11778,14 +11786,14 @@
      {
       "type": "asset",
       "name": "field_guide_open",
-      "x": 760,
+      "x": 1020,
       "y": 600,
       "scale": 1.05
      },
      {
       "type": "text",
       "text": "AMERICAN BISON",
-      "x": 613.0,
+      "x": 873.0,
       "y": 482.4,
       "size": 27.3,
       "color": "#2b2b2b",
@@ -11795,7 +11803,7 @@
      {
       "type": "text",
       "text": "MAYBE",
-      "x": 907.0,
+      "x": 1167.0,
       "y": 545.4,
       "size": 48.3,
       "color": "#e07b00",
@@ -11808,7 +11816,7 @@
      {
       "type": "text",
       "text": "NO",
-      "x": 828.2,
+      "x": 1088.2,
       "y": 610.5,
       "size": 46.2,
       "color": "#e0201b",
@@ -11820,14 +11828,14 @@
      {
       "type": "asset",
       "name": "narrator_hand_pencil",
-      "x": 967.0,
+      "x": 1227.0,
       "y": 565.4,
       "scale": 0.7,
       "appear": 0.2
      },
      {
       "type": "rect",
-      "x": 1380,
+      "x": 90,
       "y": 480,
       "w": 420,
       "h": 300,
@@ -11840,7 +11848,7 @@
      {
       "type": "asset",
       "name": "steppe_bison",
-      "x": 1590,
+      "x": 300,
       "y": 740,
       "scale": 0.55,
       "appear": 0.55
@@ -11848,7 +11856,7 @@
      {
       "type": "label",
       "text": "36,000 YEARS",
-      "x": 1590,
+      "x": 300,
       "y": 830,
       "size": 36,
       "bold": true,
@@ -13729,13 +13737,36 @@
       "appear": 0.35
      },
      {
-      "type": "wordart",
-      "text": "BOTH HAVE THEM",
-      "x": 960,
-      "y": 330,
-      "size": 90,
-      "boil": 0,
+      "type": "arrow",
+      "from": [
+       700,
+       500
+      ],
+      "to": [
+       805,
+       615
+      ],
+      "bend": -40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
       "appear": 0.6
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1420,
+       550
+      ],
+      "to": [
+       1488,
+       668
+      ],
+      "bend": 40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.7
      },
      {
       "type": "label",
@@ -14000,16 +14031,6 @@
       "text": "MALE",
       "x": 600,
       "y": 470,
-      "size": 44,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff"
-     },
-     {
-      "type": "label",
-      "text": "FEMALE",
-      "x": 1350,
-      "y": 520,
       "size": 44,
       "bold": true,
       "boil": 0.3,
@@ -14988,6 +15009,14 @@
       "fill": "#ffffff"
      },
      {
+      "type": "asset",
+      "name": "bison_head_icon",
+      "x": 1340,
+      "y": 690,
+      "scale": 1.0,
+      "appear": 0.15
+     },
+     {
       "type": "arrow",
       "from": [
        1360,
@@ -15002,6 +15031,15 @@
       "width": 14,
       "head": 48,
       "appear": 0.15
+     },
+     {
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 1380,
+      "y": 500,
+      "scale": 0.18,
+      "rotate": 30,
+      "appear": 0.3
      },
      {
       "type": "label",
@@ -16334,261 +16372,72 @@
       "y": 0,
       "w": 1920,
       "h": 1080,
-      "fill": "#c9d3dc",
-      "color": "#c9d3dc",
+      "fill": "#f4f1dc",
+      "color": "#f4f1dc",
       "width": 0,
       "boil": 0,
       "outline": false
      },
      {
-      "type": "poly",
+      "type": "line",
       "points": [
        [
-        -20,
-        860
+        160,
+        820
        ],
        [
-        0,
-        640
-       ],
-       [
-        260,
-        560
-       ],
-       [
-        520,
-        650
-       ],
-       [
-        820,
-        590
-       ],
-       [
-        1120,
-        660
-       ],
-       [
-        1420,
-        575
-       ],
-       [
-        1700,
-        640
-       ],
-       [
-        1920,
-        600
-       ],
-       [
-        1940,
-        860
-       ]
-      ],
-      "fill": "#aab6c2",
-      "color": "#5a6878",
-      "width": 3,
-      "smooth": false
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        200,
-        605
-       ],
-       [
-        260,
-        560
-       ],
-       [
-        320,
-        605
-       ]
-      ],
-      "fill": "#e6ecf0",
-      "color": "#5a6878",
-      "width": 2
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        760,
-        635
-       ],
-       [
-        820,
-        590
-       ],
-       [
-        880,
-        635
-       ]
-      ],
-      "fill": "#e6ecf0",
-      "color": "#5a6878",
-      "width": 2
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        1360,
-        620
-       ],
-       [
-        1420,
-        575
-       ],
-       [
-        1480,
-        620
-       ]
-      ],
-      "fill": "#e6ecf0",
-      "color": "#5a6878",
-      "width": 2
-     },
-     {
-      "type": "rect",
-      "x": 0,
-      "y": 860,
-      "w": 1920,
-      "h": 220,
-      "fill": "#d6d9d2",
-      "color": "#d6d9d2",
-      "width": 0,
-      "boil": 0,
-      "outline": false
-     },
-     {
-      "type": "curve",
-      "points": [
-       [
-        -20,
-        860
-       ],
-       [
-        400,
-        854
-       ],
-       [
-        900,
-        864
-       ],
-       [
-        1400,
-        855
-       ],
-       [
-        1940,
-        862
+        1760,
+        820
        ]
       ],
       "color": "#000000",
       "width": 4
      },
      {
-      "type": "ellipse",
-      "x": 240,
-      "y": 940,
-      "rx": 120,
-      "ry": 26,
-      "fill": "#8a7a5a",
-      "color": "#6b5b4b",
-      "width": 3
-     },
-     {
-      "type": "ellipse",
-      "x": 760,
-      "y": 1010,
-      "rx": 160,
-      "ry": 30,
-      "fill": "#8a7a5a",
-      "color": "#6b5b4b",
-      "width": 3
-     },
-     {
-      "type": "ellipse",
-      "x": 1300,
-      "y": 930,
-      "rx": 140,
-      "ry": 22,
-      "fill": "#8a7a5a",
-      "color": "#6b5b4b",
-      "width": 3
-     },
-     {
-      "type": "ellipse",
-      "x": 1720,
-      "y": 1000,
-      "rx": 130,
-      "ry": 28,
-      "fill": "#8a7a5a",
-      "color": "#6b5b4b",
-      "width": 3
-     },
-     {
-      "type": "spray",
-      "x": 960,
-      "y": 980,
-      "r": 900,
-      "color": "#bfc3bb",
-      "density": 0.015
+      "type": "asset",
+      "name": "american_bison_snowplow",
+      "x": 520,
+      "y": 820,
+      "scale": 0.55
      },
      {
       "type": "asset",
-      "name": "american_bison_snowplow",
-      "x": 1000,
-      "y": 860,
-      "scale": 0.9
-     },
-     {
-      "type": "spray",
-      "x": 1280,
-      "y": 780,
-      "r": 150,
-      "color": "#f7fbff",
-      "density": 0.3
-     },
-     {
-      "type": "curve",
-      "points": [
-       [
-        1250,
-        860
-       ],
-       [
-        1420,
-        760
-       ],
-       [
-        1560,
-        820
-       ]
-      ],
-      "color": "#e0201b",
-      "width": 6,
-      "dash": [
-       18,
-       14
-      ],
+      "name": "american_bison_charging",
+      "x": 1400,
+      "y": 820,
+      "scale": 0.55,
       "appear": 0.3
+     },
+     {
+      "type": "arrow",
+      "from": [
+       700,
+       690
+      ],
+      "to": [
+       1585,
+       665
+      ],
+      "bend": -170,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.45
      },
      {
       "type": "wordart",
       "text": "PRACTICE",
-      "x": 1350,
-      "y": 360,
+      "x": 960,
+      "y": 380,
       "size": 100,
       "boil": 0,
-      "appear": 0.6
+      "appear": 0.65
      },
      {
       "type": "doug",
-      "x": 260,
-      "y": 791.6,
-      "scale": 0.45,
+      "x": 960,
+      "y": 1003,
+      "scale": 0.32,
       "pose": "think",
       "expression": "flat",
       "facing": "right"
@@ -20793,6 +20642,14 @@
       "smooth": true
      },
      {
+      "type": "asset",
+      "name": "bison_calf",
+      "x": 1180,
+      "y": 782,
+      "scale": 0.35,
+      "appear": 0.2
+     },
+     {
       "type": "label",
       "text": "THE SMALLEST BISON",
       "x": 960,
@@ -20802,6 +20659,22 @@
       "boil": 0.3,
       "fill": "#ffffff",
       "appear": 0.45
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1060,
+       450
+      ],
+      "to": [
+       1170,
+       700
+      ],
+      "bend": -50,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.6
      },
      {
       "type": "label",
@@ -24147,12 +24020,43 @@
       "rotate": 0
      },
      {
+      "type": "arrow",
+      "from": [
+       480,
+       470
+      ],
+      "to": [
+       549,
+       430
+      ],
+      "bend": 0,
+      "color": "#e0201b",
+      "width": 8,
+      "head": 26
+     },
+     {
       "type": "asset",
       "name": "clock",
       "x": 480,
       "y": 470,
       "scale": 1.0,
-      "rotate": 120,
+      "rotate": 0,
+      "appear": 0.3
+     },
+     {
+      "type": "arrow",
+      "from": [
+       480,
+       470
+      ],
+      "to": [
+       480,
+       550
+      ],
+      "bend": 0,
+      "color": "#e0201b",
+      "width": 8,
+      "head": 26,
       "appear": 0.3
      },
      {
@@ -24161,7 +24065,23 @@
       "x": 480,
       "y": 470,
       "scale": 1.0,
-      "rotate": 240,
+      "rotate": 0,
+      "appear": 0.55
+     },
+     {
+      "type": "arrow",
+      "from": [
+       480,
+       470
+      ],
+      "to": [
+       411,
+       430
+      ],
+      "bend": 0,
+      "color": "#e0201b",
+      "width": 8,
+      "head": 26,
       "appear": 0.55
      },
      {
@@ -24486,8 +24406,8 @@
      {
       "type": "asset",
       "name": "exclamation_mark",
-      "x": 1300,
-      "y": 430,
+      "x": 1370,
+      "y": 590,
       "scale": 0.5,
       "appear": 0.6
      },
@@ -24531,9 +24451,9 @@
    },
    "camera": {
     "move": "zoom_in",
-    "x": 1150,
-    "y": 640,
-    "zoom": 1.06
+    "x": 1260,
+    "y": 780,
+    "zoom": 1.3
    }
   },
   {
@@ -25629,445 +25549,84 @@
       "scale": 0.6
      },
      {
-      "type": "circle",
-      "x": 120,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 130,
+      "y": 860,
+      "scale": 0.3,
+      "flip": false,
       "appear": 0.3
      },
      {
-      "type": "line",
-      "points": [
-       [
-        120,
-        790
-       ],
-       [
-        120,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 226,
+      "y": 860,
+      "scale": 0.3,
+      "flip": true,
       "appear": 0.3
      },
      {
-      "type": "circle",
-      "x": 168,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 322,
+      "y": 860,
+      "scale": 0.3,
+      "flip": false,
       "appear": 0.3
      },
      {
-      "type": "line",
-      "points": [
-       [
-        168,
-        790
-       ],
-       [
-        168,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 418,
+      "y": 860,
+      "scale": 0.3,
+      "flip": false,
       "appear": 0.3
      },
      {
-      "type": "circle",
-      "x": 216,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 514,
+      "y": 860,
+      "scale": 0.3,
+      "flip": true,
       "appear": 0.3
      },
      {
-      "type": "line",
-      "points": [
-       [
-        216,
-        790
-       ],
-       [
-        216,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 610,
+      "y": 860,
+      "scale": 0.3,
+      "flip": false,
       "appear": 0.3
      },
      {
-      "type": "circle",
-      "x": 264,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 706,
+      "y": 860,
+      "scale": 0.3,
+      "flip": false,
       "appear": 0.3
      },
      {
-      "type": "line",
-      "points": [
-       [
-        264,
-        790
-       ],
-       [
-        264,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 802,
+      "y": 860,
+      "scale": 0.3,
+      "flip": true,
       "appear": 0.3
      },
      {
-      "type": "circle",
-      "x": 312,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        312,
-        790
-       ],
-       [
-        312,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "circle",
-      "x": 360,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        360,
-        790
-       ],
-       [
-        360,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "circle",
-      "x": 408,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        408,
-        790
-       ],
-       [
-        408,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "circle",
-      "x": 456,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        456,
-        790
-       ],
-       [
-        456,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "circle",
-      "x": 504,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        504,
-        790
-       ],
-       [
-        504,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "circle",
-      "x": 552,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        552,
-        790
-       ],
-       [
-        552,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "circle",
-      "x": 600,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        600,
-        790
-       ],
-       [
-        600,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "circle",
-      "x": 648,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        648,
-        790
-       ],
-       [
-        648,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "circle",
-      "x": 696,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        696,
-        790
-       ],
-       [
-        696,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "circle",
-      "x": 744,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        744,
-        790
-       ],
-       [
-        744,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "circle",
-      "x": 792,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        792,
-        790
-       ],
-       [
-        792,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "circle",
-      "x": 840,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        840,
-        790
-       ],
-       [
-        840,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "circle",
-      "x": 888,
-      "y": 770,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        888,
-        790
-       ],
-       [
-        888,
-        824
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 898,
+      "y": 860,
+      "scale": 0.3,
+      "flip": false,
       "appear": 0.3
      },
      {
@@ -26863,316 +26422,68 @@
       "scale": 0.6
      },
      {
-      "type": "circle",
+      "type": "asset",
+      "name": "stick_man_plain",
       "x": 160,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
+      "y": 900,
+      "scale": 0.3,
+      "flip": false
      },
      {
-      "type": "line",
-      "points": [
-       [
-        160,
-        850
-       ],
-       [
-        160,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 242,
+      "y": 900,
+      "scale": 0.3,
+      "flip": true
      },
      {
-      "type": "circle",
-      "x": 208,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 324,
+      "y": 900,
+      "scale": 0.3,
+      "flip": false
      },
      {
-      "type": "line",
-      "points": [
-       [
-        208,
-        850
-       ],
-       [
-        208,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 406,
+      "y": 900,
+      "scale": 0.3,
+      "flip": false
      },
      {
-      "type": "circle",
-      "x": 256,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 488,
+      "y": 900,
+      "scale": 0.3,
+      "flip": true
      },
      {
-      "type": "line",
-      "points": [
-       [
-        256,
-        850
-       ],
-       [
-        256,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 570,
+      "y": 900,
+      "scale": 0.3,
+      "flip": false
      },
      {
-      "type": "circle",
-      "x": 304,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 652,
+      "y": 900,
+      "scale": 0.3,
+      "flip": false
      },
      {
-      "type": "line",
-      "points": [
-       [
-        304,
-        850
-       ],
-       [
-        304,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 352,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        352,
-        850
-       ],
-       [
-        352,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 400,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        400,
-        850
-       ],
-       [
-        400,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 448,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        448,
-        850
-       ],
-       [
-        448,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 496,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        496,
-        850
-       ],
-       [
-        496,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 544,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        544,
-        850
-       ],
-       [
-        544,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 592,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        592,
-        850
-       ],
-       [
-        592,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 640,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        640,
-        850
-       ],
-       [
-        640,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 688,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        688,
-        850
-       ],
-       [
-        688,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 736,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        736,
-        850
-       ],
-       [
-        736,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 734,
+      "y": 900,
+      "scale": 0.3,
+      "flip": true
      },
      {
       "type": "doug",
@@ -27492,316 +26803,68 @@
       "boil": 0
      },
      {
-      "type": "circle",
+      "type": "asset",
+      "name": "stick_man_plain",
       "x": 160,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
+      "y": 900,
+      "scale": 0.3,
+      "flip": false
      },
      {
-      "type": "line",
-      "points": [
-       [
-        160,
-        850
-       ],
-       [
-        160,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 242,
+      "y": 900,
+      "scale": 0.3,
+      "flip": true
      },
      {
-      "type": "circle",
-      "x": 208,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 324,
+      "y": 900,
+      "scale": 0.3,
+      "flip": false
      },
      {
-      "type": "line",
-      "points": [
-       [
-        208,
-        850
-       ],
-       [
-        208,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 406,
+      "y": 900,
+      "scale": 0.3,
+      "flip": false
      },
      {
-      "type": "circle",
-      "x": 256,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 488,
+      "y": 900,
+      "scale": 0.3,
+      "flip": true
      },
      {
-      "type": "line",
-      "points": [
-       [
-        256,
-        850
-       ],
-       [
-        256,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 570,
+      "y": 900,
+      "scale": 0.3,
+      "flip": false
      },
      {
-      "type": "circle",
-      "x": 304,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 652,
+      "y": 900,
+      "scale": 0.3,
+      "flip": false
      },
      {
-      "type": "line",
-      "points": [
-       [
-        304,
-        850
-       ],
-       [
-        304,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 352,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        352,
-        850
-       ],
-       [
-        352,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 400,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        400,
-        850
-       ],
-       [
-        400,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 448,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        448,
-        850
-       ],
-       [
-        448,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 496,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        496,
-        850
-       ],
-       [
-        496,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 544,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        544,
-        850
-       ],
-       [
-        544,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 592,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        592,
-        850
-       ],
-       [
-        592,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 640,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        640,
-        850
-       ],
-       [
-        640,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 688,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        688,
-        850
-       ],
-       [
-        688,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "circle",
-      "x": 736,
-      "y": 830,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        736,
-        850
-       ],
-       [
-        736,
-        884
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 734,
+      "y": 900,
+      "scale": 0.3,
+      "flip": true
      },
      {
       "type": "doug",
@@ -29154,7 +28217,7 @@
      },
      {
       "type": "text",
-      "text": "PARK RULE: 23 M",
+      "text": "THE BISON DID NOT MOVE",
       "x": 960,
       "y": 780,
       "size": 56,
@@ -38358,58 +37421,59 @@
      {
       "type": "asset",
       "name": "american_bison_bellowing",
-      "x": 760,
+      "x": 1160,
       "y": 860,
-      "scale": 0.9
+      "scale": 0.9,
+      "flip": true
      },
      {
       "type": "ellipse",
-      "x": 1048.0,
+      "x": 872.0,
       "y": 590.0,
       "rx": 80,
       "ry": 80,
-      "start": -50,
-      "end": 50,
+      "start": 130,
+      "end": 230,
       "color": "#000000",
       "width": 6
      },
      {
       "type": "ellipse",
-      "x": 1048.0,
+      "x": 872.0,
       "y": 590.0,
       "rx": 170,
       "ry": 170,
-      "start": -50,
-      "end": 50,
+      "start": 130,
+      "end": 230,
       "color": "#000000",
       "width": 6
      },
      {
       "type": "ellipse",
-      "x": 1048.0,
+      "x": 872.0,
       "y": 590.0,
       "rx": 260,
       "ry": 260,
-      "start": -50,
-      "end": 50,
+      "start": 130,
+      "end": 230,
       "color": "#000000",
       "width": 6
      },
      {
       "type": "ellipse",
-      "x": 1048.0,
+      "x": 872.0,
       "y": 590.0,
       "rx": 350,
       "ry": 350,
-      "start": -50,
-      "end": 50,
+      "start": 130,
+      "end": 230,
       "color": "#000000",
       "width": 6
      },
      {
       "type": "asset",
       "name": "warning_triangle",
-      "x": 1500,
+      "x": 420,
       "y": 460,
       "scale": 0.55,
       "appear": 0.2
@@ -38417,20 +37481,20 @@
      {
       "type": "wordart",
       "text": "HIGH AGGRESSION",
-      "x": 560,
-      "y": 400,
+      "x": 1250,
+      "y": 330,
       "size": 84,
       "boil": 0,
       "appear": 0.5
      },
      {
       "type": "doug",
-      "x": 1720,
+      "x": 260,
       "y": 791.6,
       "scale": 0.45,
       "pose": "cower",
       "expression": "gritted",
-      "facing": "left"
+      "facing": "right"
      },
      {
       "type": "label",
@@ -39370,8 +38434,8 @@
       "type": "line",
       "points": [
        [
-        1180,
-        640
+        1165,
+        690
        ],
        [
         700,
@@ -40962,36 +40026,14 @@
      },
      {
       "type": "label",
-      "text": "GUARDING",
-      "x": 360,
-      "y": 520,
+      "text": "GUARDING, BELLOWING, FIGHTING",
+      "x": 500,
+      "y": 470,
       "size": 42,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
       "appear": 0.45
-     },
-     {
-      "type": "label",
-      "text": "BELLOWING",
-      "x": 360,
-      "y": 620,
-      "size": 42,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff",
-      "appear": 0.6
-     },
-     {
-      "type": "label",
-      "text": "FIGHTING",
-      "x": 360,
-      "y": 720,
-      "size": 42,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff",
-      "appear": 0.75
      },
      {
       "type": "doug",
@@ -43077,341 +42119,84 @@
       "flip": true
      },
      {
-      "type": "circle",
+      "type": "asset",
+      "name": "stick_man_plain",
       "x": 200,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
+      "y": 860,
+      "scale": 0.3,
+      "flip": false,
       "appear": 0.2
      },
      {
-      "type": "line",
-      "points": [
-       [
-        200,
-        820
-       ],
-       [
-        200,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 272,
+      "y": 860,
+      "scale": 0.3,
+      "flip": true,
       "appear": 0.2
      },
      {
-      "type": "circle",
-      "x": 248,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        248,
-        820
-       ],
-       [
-        248,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "circle",
-      "x": 296,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        296,
-        820
-       ],
-       [
-        296,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "circle",
+      "type": "asset",
+      "name": "stick_man_plain",
       "x": 344,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
+      "y": 860,
+      "scale": 0.3,
+      "flip": false,
       "appear": 0.2
      },
      {
-      "type": "line",
-      "points": [
-       [
-        344,
-        820
-       ],
-       [
-        344,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 416,
+      "y": 860,
+      "scale": 0.3,
+      "flip": false,
       "appear": 0.2
      },
      {
-      "type": "circle",
-      "x": 392,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        392,
-        820
-       ],
-       [
-        392,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "circle",
-      "x": 440,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        440,
-        820
-       ],
-       [
-        440,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "circle",
+      "type": "asset",
+      "name": "stick_man_plain",
       "x": 488,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
+      "y": 860,
+      "scale": 0.3,
+      "flip": true,
       "appear": 0.2
      },
      {
-      "type": "line",
-      "points": [
-       [
-        488,
-        820
-       ],
-       [
-        488,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 560,
+      "y": 860,
+      "scale": 0.3,
+      "flip": false,
       "appear": 0.2
      },
      {
-      "type": "circle",
-      "x": 536,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        536,
-        820
-       ],
-       [
-        536,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "circle",
-      "x": 584,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        584,
-        820
-       ],
-       [
-        584,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "circle",
+      "type": "asset",
+      "name": "stick_man_plain",
       "x": 632,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
+      "y": 860,
+      "scale": 0.3,
+      "flip": false,
       "appear": 0.2
      },
      {
-      "type": "line",
-      "points": [
-       [
-        632,
-        820
-       ],
-       [
-        632,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
+      "type": "asset",
+      "name": "stick_man_plain",
+      "x": 704,
+      "y": 860,
+      "scale": 0.3,
+      "flip": true,
       "appear": 0.2
      },
      {
-      "type": "circle",
-      "x": 680,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        680,
-        820
-       ],
-       [
-        680,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "circle",
-      "x": 728,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        728,
-        820
-       ],
-       [
-        728,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "circle",
+      "type": "asset",
+      "name": "stick_man_plain",
       "x": 776,
-      "y": 800,
-      "r": 20,
-      "fill": "#ffffff",
-      "color": "#000000",
-      "width": 4,
-      "appear": 0.2
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        776,
-        820
-       ],
-       [
-        776,
-        854
-       ]
-      ],
-      "color": "#000000",
-      "width": 4,
+      "y": 860,
+      "scale": 0.3,
+      "flip": false,
       "appear": 0.2
      },
      {
@@ -45146,9 +43931,9 @@
    },
    "camera": {
     "move": "zoom_in",
-    "x": 799.0,
-    "y": 600,
-    "zoom": 1.1
+    "x": 799,
+    "y": 594,
+    "zoom": 1.75
    },
    "hold": 0.3
   },
@@ -45760,12 +44545,34 @@
       "scale": 0.8
      },
      {
+      "type": "circle",
+      "x": 1150,
+      "y": 640,
+      "r": 55,
+      "fill": "#f4f1dc",
+      "color": "#000000",
+      "width": 4,
+      "boil": 0,
+      "appear": 0.1
+     },
+     {
       "type": "asset",
       "name": "bison_head_icon",
       "x": 1150,
       "y": 640,
       "scale": 0.6,
       "appear": 0.1
+     },
+     {
+      "type": "circle",
+      "x": 1280,
+      "y": 640,
+      "r": 55,
+      "fill": "#f4f1dc",
+      "color": "#000000",
+      "width": 4,
+      "boil": 0,
+      "appear": 0.18
      },
      {
       "type": "asset",
@@ -45776,12 +44583,34 @@
       "appear": 0.18
      },
      {
+      "type": "circle",
+      "x": 1410,
+      "y": 640,
+      "r": 55,
+      "fill": "#f4f1dc",
+      "color": "#000000",
+      "width": 4,
+      "boil": 0,
+      "appear": 0.26
+     },
+     {
       "type": "asset",
       "name": "bison_head_icon",
       "x": 1410,
       "y": 640,
       "scale": 0.6,
       "appear": 0.26
+     },
+     {
+      "type": "circle",
+      "x": 1540,
+      "y": 640,
+      "r": 55,
+      "fill": "#f4f1dc",
+      "color": "#000000",
+      "width": 4,
+      "boil": 0,
+      "appear": 0.34
      },
      {
       "type": "asset",
@@ -45792,6 +44621,17 @@
       "appear": 0.34
      },
      {
+      "type": "circle",
+      "x": 1150,
+      "y": 760,
+      "r": 55,
+      "fill": "#f4f1dc",
+      "color": "#000000",
+      "width": 4,
+      "boil": 0,
+      "appear": 0.42
+     },
+     {
       "type": "asset",
       "name": "bison_head_icon",
       "x": 1150,
@@ -45800,12 +44640,34 @@
       "appear": 0.42
      },
      {
+      "type": "circle",
+      "x": 1280,
+      "y": 760,
+      "r": 55,
+      "fill": "#f4f1dc",
+      "color": "#000000",
+      "width": 4,
+      "boil": 0,
+      "appear": 0.5
+     },
+     {
       "type": "asset",
       "name": "bison_head_icon",
       "x": 1280,
       "y": 760,
       "scale": 0.6,
       "appear": 0.5
+     },
+     {
+      "type": "circle",
+      "x": 1410,
+      "y": 760,
+      "r": 55,
+      "fill": "#f4f1dc",
+      "color": "#000000",
+      "width": 4,
+      "boil": 0,
+      "appear": 0.58
      },
      {
       "type": "asset",

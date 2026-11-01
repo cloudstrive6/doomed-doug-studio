@@ -77,3 +77,57 @@ cream diagram colours exactly, and every river stays surface `#3a9ad9`. Bison re
   the icon on any `#0b0f14` death beat.
 
 The ramp, the bison hide colours and the icon-on-dark rule are now in `channel/art_bible.md` ("Yellowstone calendar ramp", from 034).
+
+---
+
+# Round 2: revised assets + keyframes (s001-s208 + end slate)
+
+Reviewer: art director, 2026-11-01
+Scope: `american_bison_charging` r2 and `american_bison_face` r2 (`assets/previews/034-every-bison-reason-assets-r2.png`,
+`-charging-r2-checks.png`, `-face-r2-context.png`), then all 209 keyframes on contact sheets `build/contact/sheet_01..18.png`.
+Note: the contact folder held only `sheet_01` (a single-shot run had overwritten the set), so I re-ran
+`python -m studio keyframes 034-every-bison-reason` against the current shotlist (which already includes the s207 cream discs) to get all 18 sheets.
+
+## Revised assets: both APPROVED
+| Asset | Verdict | Notes |
+|---|---|---|
+| `american_bison_charging` | APPROVE | Fix 1 is done. The near foreleg reaches out past the muzzle and the far foreleg is folded under the chest. The hind legs push back and the tail is up. It reads as a gallop in colour at 1.0 and 0.32, and as an engine silhouette with red glow, flipped and rotated. Extents are x -346..+325 (inside +340, so the director does not need to re-place anything). In context it works in s097 (charge), s101 (jump), s146 (ram) and s199 (head-to-head). The horns are clear and nothing is on them. |
+| `american_bison_face` | APPROVE | Fix 2 is done: the mouth is a short flat line, so it reads as calm and faintly unimpressed with no grin. Fix 3 is done: the hump and chest run to y +340, and at s039, s040, s049 and s053 the body runs off the bottom of frame with no plinth edge. Nothing above y +240 moved. |
+
+The episode palette fix B is also in: the s207 end-slate icons sit on cream discs and read at once.
+
+## Keyframes: what holds
+- **Style:** the two tiers stay consistent across all 208 shots. Bison, wolves, elk, grizzly and props have interior shading, and Doug and the scientist stay crude stick figures. There is no gore anywhere. The ram (s146), the bulls locked (s185-s186) and the toss (s069) are cartoon physics, and every death cuts to the standard ghost beat. The calf death (s085-s086) is a sober grey card with black silhouettes and no HUD gag, which is the right tone.
+- **Doug:** on-model in every frame. His expressions come from the fixed set, the red cap is always visible (ghost Doug, wolf costume s020-s024, on his back in the wallow s170-s175, referee shirt s195-s199), and his ink turns white on the death beats. Every death beat keeps the cap in frame, and the cap ends up on the bull in s204-s205.
+- **Zone colours:** every month matches the bible's Yellowstone ramp (checked against the shotlist fills): JAN/FEB snow, MAR slush and mud, MAY/JUN green, JUL boardwalk, sinter and road, AUG dry dirt and wallow, the rut at dusk, cream diagram cards, `#4a4f5e` honesty cards (s191-s193) and the `#2a2030` end slate.
+- **HUD:** the caption bar, `DOUG DEATHS` (267 to 274, one step per death) and the calendar month tag sit in the same place and inside the safe area in every segment frame. The season cards (WINTER., SPRING., SUMMER., THE RUT.) drop the caption bar the same way every time.
+- **Reveals and annotations:** bison are shown first as a silhouette with red glow (s002, s003, s169) and only then revealed. Every item has at least one annotation.
+- **Layout variety is good overall:** split screens, scales, chalkboards, a pie chart, a calendar grid, maps, tennis-court distance lines, the field-guide gag and the text-build cards all appear.
+
+## Verdict: FAIL (11 composition fixes, all for the director; no asset fixes)
+
+The art is approved. Eleven shots break rule 4 (more than 2 keyword labels on screen), repeat the previous shot's composition, or are missing their subject. All of these are quick shotlist edits.
+
+### Fixes (director)
+1. **s087: the shot has no subject.** "THE SMALLEST BISON" labels an empty river meadow. Add `bison_calf` at about (1180, 860), scale 0.35, and point a red curved arrow from the label to it. Keep the label at (960, 420).
+2. **s008 to s009: near-duplicate.** s009 is the same line of wolves, the same bison and the same "9 TO 13" wordart in the same place. For "and possibly more": remove the repeated wordart, add two or three extra `grey_wolf` at 0.24 as black silhouettes trailing off the left edge (x -40..200, so the line runs out of frame), keep the red "?" over them, and add `camera: {move: "zoom_out", zoom: 1.1}`.
+3. **s020 to s021: same composition.** Keep the pop-in labels "12" and "13" and add `camera: {move: "zoom_in", x: 1260, y: 760, zoom: 1.25}` so the "13" beat lands on costumed Doug.
+4. **s065-s069: five shots in a row with the same composition** (the snowplow bull in the same place on the same March ground). Change s066 ("practice for it") to a cream `#f4f1dc` diagram card: `american_bison_snowplow` at the left (x 520, scale 0.55) and `american_bison_charging` at the right (x 1400, scale 0.55), with one red curved arrow from the head swing to the charge, and the "PRACTICE" wordart centred above. Add no extra labels.
+5. **s106 to s107: near-duplicate** (and s104-s107 is four shots of the same grazing bull). The s107 zoom of 1.06 does not read. Make it `zoom: 1.3` centred on the head (1260, 780), and keep the "!" inside the zoomed frame (move it to about (1240, 560)).
+6. **s164 to s165: same composition** (same bull, same rings, same Doug). Mirror s165: `american_bison_bellowing` with `flip: true` at x 1160, the rings from its mouth on the left side (and their arcs mirrored), Doug cowering at x 260, the warning triangle at (420, 460), and the "HIGH AGGRESSION" wordart at about (1250, 330).
+7. **s202 to s203: near-duplicate.** The 1.1 zoom is too weak for the punchline. Make it `zoom: 1.6` centred on the sticky note (799, 598), so "PLANT EATER." fills the frame.
+8. **s012: 3 labels (rule 4).** Remove the left "2 TO 6" label (s011 already set it up). Keep the "MOST DIFFICULT" wordart and the "9 TO 13" label.
+9. **s054 and s055: 3 labels each.** In s054, replace the "BOTH HAVE THEM" wordart with two red curved arrows, one to each animal's horns, and keep MALE and FEMALE. In s055, remove the FEMALE label and keep MALE and "SLIGHTLY LONGER".
+10. **s040 and s180: 3 and 4 labels.** In s040, merge ANGRY and HUNTING into one label "ANGRY? HUNTING?" with a single red X, and keep "BUSY". In s180, replace the three stacked labels with one label "GUARDING, BELLOWING, FIGHTING" at (500, 470), and keep "12%".
+11. **s047: the narrator's arm crosses the "36,000 YEARS" portrait.** The pencil arm comes in from the right at about y 555 and cuts through the framed painting. Move the portrait and its label to the left of the book (frame centre about x 300, label under it), and shift `field_guide_open` and its texts right by about +260, so the arm comes in over open sky.
+
+Exempt from rule 4 (diagram text, same as the 017/021 case-file ledger): the BUTT/HOOK/TOSS tally panels (s059-s061), the s123 distance chart axis labels, the honesty-card text builds (s124-s127), and the map captions.
+
+### Not blocking
+- s001 still shows "(thumbnail pending)". That belongs to the graphic designer at the packaged stage, not this review.
+- s156 "THE RUT." (season card) and s177 "THE RUT" (chapter card) use the same words 20 shots apart. This comes from the script, and the season card style keeps them distinct, so it is acceptable. Mention it to the editor only if the rut feels repetitive in the draft.
+- s135 and s136 (the car line plus the bison) are similar, but the camera framing and Doug's placement change, so this is acceptable.
+
+Re-render only the changed shots (`--shots s008,s009,s012,s020,s021,s040,s047,s054,s055,s066,s087,s107,s165,s180,s203`). They need art-director sign-off, not a full re-review.
+
+**FAIL**
