@@ -12,7 +12,7 @@ channel:
 voice:                       # Google Cloud TTS, Chirp 3: HD
   name: "en-US-Chirp3-HD-Charon"   # chosen 2026-09-29: neutral, informative, deadpan (closest to the format)
   language: en-US
-  speaking_rate: 1.12         # editor calibrates so timing.json wpm_speech lands at 190-205 (style bible)
+  speaking_rate: 1.085        # editor calibrates so timing.json wpm_speech lands at 190-205 (style bible)
   pronunciations:             # custom IPA for Chirp 3 HD (only applied to lines containing the phrase)
     - {phrase: "Mech", ipa: "mitʃ"}
     - {phrase: "Bojophlebia", ipa: "ˈbɔɪoʊˈflibiə"}
@@ -33,6 +33,8 @@ voice:                       # Google Cloud TTS, Chirp 3: HD
     - {phrase: "eurypterid", ipa: "jʊˈrɪptərɪd"}
     - {phrase: "Lothian", ipa: "ˈloʊðiən"}
     - {phrase: "Owha", ipa: "ˈoʊfɑ"}
+    - {phrase: "Lamar", ipa: "ləˈmɑr"}
+    - {phrase: "Hayden", ipa: "ˈheɪdən"}
     - {phrase: "Whangarei", ipa: "ˌfɑŋɑˈreɪ"}
     - {phrase: "Orde-Lees", ipa: "ˈɔrd ˈliz"}
     - {phrase: "Shirreff", ipa: "ˈʃɪrɪf"}

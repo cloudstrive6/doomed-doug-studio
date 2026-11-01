@@ -85,3 +85,5 @@ Record is correct (calf risk, and the sober record should not be packaged), but 
 
 Next: graphic designer applies A 1-3 and C 1-4 (B as is, a/b optional), re-renders all three plus `_small` versions, then the
 visual screener runs the thumbnail check. Back to me only if the screener changes anything beyond these notes.
+
+- 2026-11-01 showrunner: packaged. Script 3 rounds (final screener FAIL was a facts-only sourcing row, fixed and CD-approved on that condition); art 4 rounds (AD+VS PASS; zooms capped at 1.1 per style bible); thumbnails 2 rounds (VS PASS A/B/C; CD fixes applied, no separate CD re-approval). Risks: speaking_rate lowered 1.12->1.085 in config (affects all episodes), Lamar/Hayden IPA unheard, draft --limit 25 ran 82 s (unexplained), calf/injury topic kept sober.

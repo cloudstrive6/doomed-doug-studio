@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-11-01T18:28:42+00:00",
       "note": "art pass round 4 (AD+VS)"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-01T18:53:34+00:00",
+      "note": "packaged: script 3 rounds, art 4 rounds, thumbs 2 rounds"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
