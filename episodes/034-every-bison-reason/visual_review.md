@@ -104,3 +104,38 @@ VERDICT: PASS
 Both required fixes from round 1 are in, along with minor fixes 4-6. Fix 3 is mostly done. Minor fixes A and B take one line each. Apply them before
 `render --final`. They do not need a full keyframe re-screen: a still of s061 and a camera end-frame of s021/s107 (the cam.py method)
 is enough.
+
+## Round 3: check of the round 2 minor fixes before the final render (visual screener, 2026-11-01)
+
+**Inputs.** I rendered the current `shotlist.json` with `render_still`, with all elements visible (t=None). The zoom shots got
+camera-aware end-frames: `camera_rect` at u=0 and u=1, then `fit_frame` at 1920x1080 (the cam.py method). s040 and s061 got full
+stills. I checked crops at 2x. Files are in `/tmp/vs034/`.
+
+The director used a different fix from the one I asked for. s021, s107 and s203 are now `zoom_in` 1.1, anchored at (960,491), not my
+1.35/1.4. At u=1 the crop rect is (87, 0, 1833, 982). The top edge stays at y=0, so the top-right HUD never leaves the frame and
+is never cut. This fixes the problem behind minor fix B another way: the HUD now stays in, where my fix pushed it out. It also
+keeps the push within the style bible's 10% limit. I accept this fix.
+
+### Shots
+- **s021: PASS.** On the held end-frame, "DOUG DEATHS: 267" and the calendar with "JAN" are whole. The box's right edge is about 20 px
+  from the frame edge. Nothing is sliced. All 12 wolves, the "12" and "13" cards, and Doug in the wolf costume (red cap, white head)
+  are fully in frame.
+- **s107: PASS.** On the end-frame, "DOUG DEATHS: 270" and "JUN" are whole. The confused Doug (left), the grazing bison and the red "!"
+  are all in frame. The bison is the clear subject on "until it does."
+- **s203: PASS.** The 1.1 push is much softer than the old 1.75. The new red ring around the yellow PLANT EATER note gives it a clear
+  focal point within a second. The ring stays on the left page, and "AMERICAN BISON" above it is not crossed. The HUD with "274" and
+  the red "RUT" is whole. The ring sits over the coffee stain, which is harmless.
+- **s040: PASS.** The red strike-through crosses both words of "ANGRY? HUNTING?" at mid-cap height, and all the text stays readable.
+  It appears at 0.45, after "not hunting you", and then BUSY lands. It overshoots the box's right edge by about 2 px, which is
+  not visible at viewing size.
+- **s061: PASS (fix A applied as written).** The tossed `stick_man_plain` now sits fully inside the TOSS box, above the arrowhead.
+  The arrow rises beside the bison's face, not through it. Butt, hook and toss read left to right. Cosmetic note only: the TOSS
+  bison's flat base rests on the panel's bottom border, while in the BUTT and HOOK panels it floats mid-panel. It reads as standing
+  on the panel floor, so no change is needed.
+
+### Still pending (post-render round)
+- s001 "(thumbnail pending)", all three thumbnails and their `_small` versions, `build/samples/*.png` and `qc.json` from final.mp4,
+  and the Shorts (previews, frames, cliffhanger end cards).
+
+VERDICT: PASS
+All five shots are cleared for `render --final`. No further keyframe changes are needed.

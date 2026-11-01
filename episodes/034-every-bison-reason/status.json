@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-11-01T17:48:06+00:00",
       "note": "director: 208 shots, 17 asset requests, 3 shorts (Snowplow, Speed, Rut); thumbnail.json and the new bison assets pending"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-01T18:28:42+00:00",
+      "note": "art pass round 4 (AD+VS)"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

@@ -191,3 +191,25 @@ After these two fixes, re-render only s040, s021, s107 and s203 by a camera-awar
 **FAIL**
 
 Stage not advanced. This round is a FAIL, and `visual_review.md` is also still at VERDICT: FAIL (round 1), so `art_approved` waits for both.
+
+---
+
+# Round 4 (sign-off): round-3 fixes plus the visual screener's s061 fix
+
+Reviewer: art director, 2026-11-01
+Scope: s021, s040, s061, s107 and s203 only, rendered from the current `shotlist.json` with `render_still` plus `camera_rect`/`fit_frame`
+(camera-aware). The zooms were checked at the start (u=0) and the end (u=1) of the move. Renders: `/tmp/ad034r4/sheet.png` and `/tmp/ad034r4/*_cam1.png`.
+
+| Shot | Check | Status |
+|---|---|---|
+| s040 | The `red_x` is gone and one red strikethrough runs across "ANGRY? HUNTING?". | Done. Both words read in full and are clearly crossed out. "BUSY" and the bison face are unchanged. |
+| s021 | `zoom_in` at (960, 491), 1.1 | Done. The end frame keeps DOUG DEATHS: 267 and JAN in frame, the "12"/"13" pop-ins stay inside, and costumed Doug has his cap on and is on-model. |
+| s107 | `zoom_in` at (960, 491), 1.1 | Done. The HUD and JUN are in frame at the end. The "!" over the grazing head is inside the frame, and confused Doug is on-model. |
+| s203 | `zoom_in` at (960, 491), 1.1 + red ring | Done. The red ring around the sticky note sets it apart from s202. "PLANT EATER." is the clear focus, and the HUD and the red RUT tag are intact. The ring does not touch "AMERICAN BISON". |
+| s061 | TOSS panel (screener fix) | Done. The bison head is low-left, with a bold red up-arrow and a small tilted `stick_man_plain` visitor in the air. It reads as a toss, it is not gory, and the visitor is clearly not Doug (no cap). BUTT/HOOK/TOSS stay consistent, and shocked Doug is on-model at the right. |
+
+### Not blocking
+- At the end of the 1.1 pushes the "DOUG DEATHS" box's right edge sits about 20 px from the frame edge. That is inside the frame and fully legible, so it is fine for this episode. Next time, the director could anchor top-right zooms slightly left, or the HUD could move about 40 px inward. This is an art-bible follow-up for a later episode.
+- The visual screener still owns its own verdict on s061 and s203 (it now has the ring in place of the 1.8 zoom).
+
+**PASS**
