@@ -34,3 +34,14 @@ Screener round 2 (script_review.md): the written verdict is FAIL on one facts.md
    - f. Wolves never kill anything on screen.
 6. **Series bible updated:** the counter goes to 274, with a 034 log row.
 APPROVED
+
+## 2026-11-01, director: shotlist
+208 shots (s001 thumbnail hold, 1.5 s on "In Yellowstone,"); all 2,115 spoken words in order; Doug in 81% of shots; 9 chapters; counter 267 to 274; calendar HUD (icon + month label under the counter, red RUT from s195). How the CD's notes 5a-f are staged:
+- a. The Hump: Doug goes up out of the top of the frame on a dotted arc (s069) with no contact; s070 holds on empty sky while the cap floats down; then black (s071).
+- b. BUTT / HOOK / TOSS (s059-s061): `bison_head_icon` plus red arrows in empty boxes, no people.
+- c. The Calf: the calf is only ever distant (scale 0.28-0.35) or a black silhouette; the cow fills the frame in s076 and s091; s085-s086 are a plain grey card (no figures, no counter); s087-s088 hold on the empty riverbank with no joke.
+- d. AUGUST 2022 (s145-s147): an empty glazed car rocks (rotate -5, shake); no person in or near it; Doug is not in these shots.
+- e. Sober card (s124-s127): white text on `#15181a`, numbers only, no Doug, no counter.
+- f. Wolves never kill: the wolves stand, back away or run off; "bison have killed wolves" is an `!` over a standing bison while a wolf retreats (s019). Doug's death 268 happens off screen (s024 arrow, then black).
+- Deaths are all off screen + black + ghost Doug + cap. No horn ever touches Doug; the referee impact cuts to black at 50% of s200.
+- Shorts: Snowplow (s029-s036), Speed (s096-s107), Rut (s178-s186); none use the calf, the sober card or a real incident, and none package the 23 m distance. Titles and descriptions are filled.
