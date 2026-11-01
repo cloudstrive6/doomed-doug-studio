@@ -1,0 +1,482 @@
+{
+ "name": "forklift",
+ "description": "Simple yellow warehouse forklift in side view, facing right: yellow #f2c12e body with a darker counterweight, black overhead guard, empty seat and steering wheel (nobody in the cab), grey mast at the front, two forks sticking forward at about y -40 with their tips at x +330, black tyres with grey hubs. Anchor bottom-centre, x -200..+330, y -330..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "forklift",
+  "vehicle",
+  "warehouse",
+  "prop"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     -60
+    ],
+    [
+     322,
+     -58
+    ],
+    [
+     322,
+     -48
+    ],
+    [
+     150,
+     -46
+    ]
+   ],
+   "fill": "#5f6368",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -110,
+     -170
+    ],
+    [
+     -118,
+     -318
+    ]
+   ],
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     -150
+    ],
+    [
+     90,
+     -318
+    ]
+   ],
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -130,
+     -318
+    ],
+    [
+     100,
+     -318
+    ]
+   ],
+   "width": 12,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     -318
+    ],
+    [
+     -36,
+     -300
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -176
+    ],
+    [
+     -76,
+     -260
+    ],
+    [
+     -56,
+     -262
+    ],
+    [
+     -50,
+     -190
+    ],
+    [
+     0,
+     -186
+    ],
+    [
+     0,
+     -168
+    ],
+    [
+     -80,
+     -166
+    ]
+   ],
+   "fill": "#3a3a3a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     -168
+    ],
+    [
+     24,
+     -228
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 22,
+   "y": -232,
+   "rx": 18,
+   "ry": 6,
+   "fill": "#3a3a3a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -40
+    ],
+    [
+     -200,
+     -150
+    ],
+    [
+     -170,
+     -176
+    ],
+    [
+     40,
+     -176
+    ],
+    [
+     70,
+     -130
+    ],
+    [
+     120,
+     -118
+    ],
+    [
+     124,
+     -40
+    ]
+   ],
+   "fill": "#f2c12e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -196,
+     -60
+    ],
+    [
+     120,
+     -60
+    ],
+    [
+     120,
+     -44
+    ],
+    [
+     -196,
+     -44
+    ]
+   ],
+   "fill": "#c99a18",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -150
+    ],
+    [
+     -170,
+     -176
+    ],
+    [
+     -130,
+     -176
+    ],
+    [
+     -130,
+     -44
+    ],
+    [
+     -200,
+     -44
+    ]
+   ],
+   "fill": "#c99a18",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -188,
+     -130
+    ],
+    [
+     -142,
+     -130
+    ]
+   ],
+   "width": 3,
+   "color": "#8a6a10"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -188,
+     -108
+    ],
+    [
+     -142,
+     -108
+    ]
+   ],
+   "width": 3,
+   "color": "#8a6a10"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -188,
+     -86
+    ],
+    [
+     -142,
+     -86
+    ]
+   ],
+   "width": 3,
+   "color": "#8a6a10"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     -150
+    ],
+    [
+     40,
+     -150
+    ]
+   ],
+   "width": 3,
+   "color": "#8a6a10"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     128,
+     -330
+    ],
+    [
+     156,
+     -330
+    ],
+    [
+     156,
+     -14
+    ],
+    [
+     128,
+     -14
+    ]
+   ],
+   "fill": "#8d9096",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     142,
+     -320
+    ],
+    [
+     142,
+     -24
+    ]
+   ],
+   "width": 3,
+   "color": "#5f6368"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     124,
+     -96
+    ],
+    [
+     128,
+     -96
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     152,
+     -120
+    ],
+    [
+     172,
+     -120
+    ],
+    [
+     172,
+     -24
+    ],
+    [
+     152,
+     -24
+    ]
+   ],
+   "fill": "#5f6368",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     160,
+     -110
+    ],
+    [
+     176,
+     -110
+    ],
+    [
+     176,
+     -46
+    ],
+    [
+     330,
+     -44
+    ],
+    [
+     330,
+     -32
+    ],
+    [
+     160,
+     -30
+    ]
+   ],
+   "fill": "#8d9096",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -120,
+   "y": -42,
+   "rx": 42,
+   "ry": 42,
+   "fill": "#1a1a1a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -120,
+   "y": -42,
+   "rx": 18.9,
+   "ry": 18.9,
+   "fill": "#8d9096",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -120,
+   "y": -42,
+   "rx": 6.3,
+   "ry": 6.3,
+   "fill": "#1a1a1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 76,
+   "y": -40,
+   "rx": 40,
+   "ry": 40,
+   "fill": "#1a1a1a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 76,
+   "y": -40,
+   "rx": 18.0,
+   "ry": 18.0,
+   "fill": "#8d9096",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 76,
+   "y": -40,
+   "rx": 6.0,
+   "ry": 6.0,
+   "fill": "#1a1a1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

@@ -157,6 +157,22 @@ item by item from bright midday to night. The sober cards are the darkest step a
 **Stamp rows on a prop (from 033):** repeated text stamps such as NO need a step of ≥ 1.8 x size, at most 3 per row, and must stay inside the
 page or prop. Tighter steps merge into one word ("NONONO").
 
+**Yellowstone calendar ramp (from 034; reuse for any "one year in a park" or seasonal land episode).** One month per item, light
+winter to dusk rut. HUD: counter top right with the library `calendar` + month label under it. Death beats `#0b0f14` / `#141a14`,
+diagram cards cream `#f4f1dc`, sober cards `#15181a` (white text), honesty card `#4a4f5e` (white text; brown animals still read on it).
+| Month | Sky | Ground |
+|---|---|---|
+| JAN (deep snow) | `#cfe9ff`, mountains `#b9cde0`, caps `#f7fbff` | snow `#f7fbff` |
+| FEB (late snow) | `#dbe6ee` | snow `#f2f6fa`; rivers stay surface `#3a9ad9` |
+| MAR (thaw) | overcast `#c9d3dc` | slush `#d6d9d2`, mud `#8a7a5a` |
+| MAY / JUN (green) | `#8fd3ff`, hills `#6fb24f` / `#8cb84f` | grass `#7cc25a` / `#9cc25a` (green: wordart in the sky, white/yellow override) |
+| JUL (geyser basin / road) | `#cfe9ff` or `#8fd3ff`, hills `#b9c8d6` / `#a8b06a` | sinter `#ece4d0`, boardwalk `#a0522d`; verge `#c9c46a`, road `#6a6a6a` + `#ffe24a` dashes |
+| AUG (dry) | `#f6dcae`, hills `#e2b86a` | dirt `#d9b45a`, wallow `#a07a4a` |
+| AUG rut (dusk) | `#f2a24a` over `#e88a4a`, hills `#c97a4a` | `#b8913a`; end slate `#2a2030` |
+**Bison hide (from 034):** cape `#4a2f1e`, body `#6b4a2f`, hindquarters `#8a6a4a`, horns `#2a2a2a` tipped grey, calf `#c8642a`.
+Mid-tone on purpose: it reads on snow white, dusk orange and the honesty grey. Dark-brown icons (`bison_head_icon`) on near-black
+(`#2a2030`, `#0b0f14`) lose their outline: put them on a cream `#f4f1dc` disc or tile there.
+
 **Open-jaw head cut edge (from 027):** `croc_jaws_open` ends in a flat vertical back edge. Never place it with that edge mid-frame (it
 reads as a severed head). Push the back edge past the frame edge (flip it if needed), or use an asset whose neck runs off-frame.
 

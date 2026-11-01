@@ -1,0 +1,651 @@
+{
+ "name": "bison_calf",
+ "description": "Newborn American bison 'red dog' calf standing, facing right, distant and plain: bright orange-red coat #c8642a (shade #a84e1e), no hump, no horns, short legs, stubby dark muzzle, small ear, plain dot eye (no shine, no smile). Use at 0.28-0.35 only or as a silhouette. Anchor bottom-centre, x -112..+122, y -168..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "bison",
+  "american bison",
+  "yellowstone",
+  "creature",
+  "mammal",
+  "calf",
+  "baby"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     -56,
+     -70
+    ],
+    [
+     -62,
+     -36
+    ],
+    [
+     -60,
+     -10
+    ]
+   ],
+   "width": 25,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -56,
+     -70
+    ],
+    [
+     -62,
+     -36
+    ],
+    [
+     -60,
+     -10
+    ]
+   ],
+   "width": 15,
+   "color": "#a84e1e"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -68.5,
+     -20
+    ],
+    [
+     -51.5,
+     -20
+    ],
+    [
+     -48.5,
+     0
+    ],
+    [
+     -70.5,
+     0
+    ]
+   ],
+   "fill": "#1e1510",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -58.0,
+     -16
+    ],
+    [
+     -57,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#5a4a3a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     50,
+     -74
+    ],
+    [
+     52,
+     -38
+    ],
+    [
+     54,
+     -10
+    ]
+   ],
+   "width": 25,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     50,
+     -74
+    ],
+    [
+     52,
+     -38
+    ],
+    [
+     54,
+     -10
+    ]
+   ],
+   "width": 15,
+   "color": "#a84e1e"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     45.5,
+     -20
+    ],
+    [
+     62.5,
+     -20
+    ],
+    [
+     65.5,
+     0
+    ],
+    [
+     43.5,
+     0
+    ]
+   ],
+   "fill": "#1e1510",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     56.0,
+     -16
+    ],
+    [
+     57,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#5a4a3a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -98,
+     -104
+    ],
+    [
+     -110,
+     -84
+    ],
+    [
+     -108,
+     -70
+    ]
+   ],
+   "width": 12,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -98,
+     -104
+    ],
+    [
+     -110,
+     -84
+    ],
+    [
+     -108,
+     -70
+    ]
+   ],
+   "width": 6,
+   "color": "#c8642a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -104,
+     -104
+    ],
+    [
+     -60,
+     -116
+    ],
+    [
+     0,
+     -128
+    ],
+    [
+     50,
+     -142
+    ],
+    [
+     86,
+     -130
+    ],
+    [
+     98,
+     -96
+    ],
+    [
+     76,
+     -68
+    ],
+    [
+     -40,
+     -64
+    ],
+    [
+     -94,
+     -70
+    ],
+    [
+     -108,
+     -88
+    ]
+   ],
+   "fill": "#c8642a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 10,
+   "y": -108,
+   "r": 18,
+   "color": "#a84e1e",
+   "density": 0.3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     62.4,
+     -125.4
+    ],
+    [
+     58.5,
+     -117.8
+    ]
+   ],
+   "width": 2,
+   "color": "#a84e1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -26.1,
+     -93.9
+    ],
+    [
+     -24.7,
+     -86.8
+    ]
+   ],
+   "width": 2,
+   "color": "#a84e1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30.1,
+     -109.5
+    ],
+    [
+     30.2,
+     -102.0
+    ]
+   ],
+   "width": 2,
+   "color": "#a84e1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -62.5,
+     -86.1
+    ],
+    [
+     -65.9,
+     -79.0
+    ]
+   ],
+   "width": 2,
+   "color": "#a84e1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     57.6,
+     -117.6
+    ],
+    [
+     55.4,
+     -110.6
+    ]
+   ],
+   "width": 2,
+   "color": "#a84e1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     9.2,
+     -110.2
+    ],
+    [
+     5.3,
+     -101.3
+    ]
+   ],
+   "width": 2,
+   "color": "#a84e1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -13.2,
+     -125.2
+    ],
+    [
+     -11.7,
+     -114.7
+    ]
+   ],
+   "width": 2,
+   "color": "#a84e1e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -103.4,
+     -93.1
+    ],
+    [
+     -108.2,
+     -84.0
+    ]
+   ],
+   "width": 2,
+   "color": "#a84e1e"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -78,
+     -74
+    ],
+    [
+     -84,
+     -38
+    ],
+    [
+     -82,
+     -10
+    ]
+   ],
+   "width": 26,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -78,
+     -74
+    ],
+    [
+     -84,
+     -38
+    ],
+    [
+     -82,
+     -10
+    ]
+   ],
+   "width": 16,
+   "color": "#c8642a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -91.0,
+     -20
+    ],
+    [
+     -73.0,
+     -20
+    ],
+    [
+     -70.0,
+     0
+    ],
+    [
+     -93.0,
+     0
+    ]
+   ],
+   "fill": "#1e1510",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -80.0,
+     -16
+    ],
+    [
+     -79,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#5a4a3a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     70,
+     -78
+    ],
+    [
+     74,
+     -40
+    ],
+    [
+     72,
+     -10
+    ]
+   ],
+   "width": 26,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     70,
+     -78
+    ],
+    [
+     74,
+     -40
+    ],
+    [
+     72,
+     -10
+    ]
+   ],
+   "width": 16,
+   "color": "#c8642a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     63.0,
+     -20
+    ],
+    [
+     81.0,
+     -20
+    ],
+    [
+     84.0,
+     0
+    ],
+    [
+     61.0,
+     0
+    ]
+   ],
+   "fill": "#1e1510",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     74.0,
+     -16
+    ],
+    [
+     75,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#5a4a3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     78,
+     -132
+    ],
+    [
+     48,
+     -140
+    ],
+    [
+     72,
+     -120
+    ]
+   ],
+   "fill": "#a84e1e",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     66,
+     -136
+    ],
+    [
+     92,
+     -148
+    ],
+    [
+     112,
+     -136
+    ],
+    [
+     122,
+     -108
+    ],
+    [
+     126,
+     -80
+    ],
+    [
+     114,
+     -66
+    ],
+    [
+     94,
+     -70
+    ],
+    [
+     74,
+     -94
+    ]
+   ],
+   "fill": "#c8642a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     112,
+     -94
+    ],
+    [
+     126,
+     -88
+    ],
+    [
+     124,
+     -70
+    ],
+    [
+     110,
+     -68
+    ]
+   ],
+   "fill": "#7a3a16",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 120,
+   "y": -84,
+   "rx": 2.5,
+   "ry": 3,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 100,
+   "y": -116,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

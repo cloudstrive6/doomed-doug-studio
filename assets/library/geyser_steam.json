@@ -1,0 +1,1003 @@
+{
+ "name": "geyser_steam",
+ "description": "Yellowstone thermal vent: low pale sinter mound #e8e4da with grey-white crust lines and a blue-green #6fb7a8 pool rim at the top, and a tall soft white steam plume (white billows shaded #d6e2ec, pale grey-blue outline) drifting slightly right. Steam only, no eruption jet. Anchor bottom-centre (mound base on y=0), x -200..+200, y -600..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "geyser",
+  "steam",
+  "yellowstone",
+  "thermal",
+  "place"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": -14.9,
+   "y": -90.0,
+   "rx": 34.0,
+   "ry": 30.6,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": -12.3,
+   "y": -127.5,
+   "rx": 37.8,
+   "ry": 34.1,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 9.2,
+   "y": -165.0,
+   "rx": 41.7,
+   "ry": 37.5,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 42.6,
+   "y": -173.6,
+   "rx": 29.2,
+   "ry": 26.2,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": -19.9,
+   "y": -164.3,
+   "rx": 27.1,
+   "ry": 24.4,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 8.7,
+   "y": -202.5,
+   "rx": 45.5,
+   "ry": 41.0,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 7.6,
+   "y": -240.0,
+   "rx": 49.3,
+   "ry": 44.4,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 47.1,
+   "y": -239.9,
+   "rx": 34.5,
+   "ry": 31.1,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": -26.9,
+   "y": -249.3,
+   "rx": 32.1,
+   "ry": 28.9,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 25.6,
+   "y": -277.5,
+   "rx": 53.2,
+   "ry": 47.9,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 23.0,
+   "y": -315.0,
+   "rx": 57.0,
+   "ry": 51.3,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 68.6,
+   "y": -323.2,
+   "rx": 39.9,
+   "ry": 35.9,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": -16.9,
+   "y": -316.5,
+   "rx": 37.1,
+   "ry": 33.3,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 51.7,
+   "y": -352.5,
+   "rx": 60.8,
+   "ry": 54.8,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 39.5,
+   "y": -390.0,
+   "rx": 64.7,
+   "ry": 58.2,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 91.2,
+   "y": -395.5,
+   "rx": 45.3,
+   "ry": 40.7,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": -5.8,
+   "y": -387.5,
+   "rx": 42.0,
+   "ry": 37.8,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 70.0,
+   "y": -427.5,
+   "rx": 68.5,
+   "ry": 61.6,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 67.2,
+   "y": -465.0,
+   "rx": 72.3,
+   "ry": 65.1,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 125.0,
+   "y": -467.1,
+   "rx": 50.6,
+   "ry": 45.6,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 16.5,
+   "y": -455.5,
+   "rx": 47.0,
+   "ry": 42.3,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 59.8,
+   "y": -502.5,
+   "rx": 76.2,
+   "ry": 68.5,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 90.0,
+   "y": -540.0,
+   "rx": 80.0,
+   "ry": 72.0,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 154.0,
+   "y": -544.2,
+   "rx": 56.0,
+   "ry": 50.4,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": 34.0,
+   "y": -547.1,
+   "rx": 52.0,
+   "ry": 46.8,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#9fb0c0"
+  },
+  {
+   "type": "ellipse",
+   "x": -14.9,
+   "y": -90.0,
+   "rx": 31.0,
+   "ry": 27.6,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -12.3,
+   "y": -127.5,
+   "rx": 34.8,
+   "ry": 31.1,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 9.2,
+   "y": -165.0,
+   "rx": 38.7,
+   "ry": 34.5,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 42.6,
+   "y": -173.6,
+   "rx": 26.2,
+   "ry": 23.2,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -19.9,
+   "y": -164.3,
+   "rx": 24.1,
+   "ry": 21.4,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 8.7,
+   "y": -202.5,
+   "rx": 42.5,
+   "ry": 38.0,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 7.6,
+   "y": -240.0,
+   "rx": 46.3,
+   "ry": 41.4,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 47.1,
+   "y": -239.9,
+   "rx": 31.5,
+   "ry": 28.1,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -26.9,
+   "y": -249.3,
+   "rx": 29.1,
+   "ry": 25.9,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 25.6,
+   "y": -277.5,
+   "rx": 50.2,
+   "ry": 44.9,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 23.0,
+   "y": -315.0,
+   "rx": 54.0,
+   "ry": 48.3,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 68.6,
+   "y": -323.2,
+   "rx": 36.9,
+   "ry": 32.9,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -16.9,
+   "y": -316.5,
+   "rx": 34.1,
+   "ry": 30.3,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 51.7,
+   "y": -352.5,
+   "rx": 57.8,
+   "ry": 51.8,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 39.5,
+   "y": -390.0,
+   "rx": 61.7,
+   "ry": 55.2,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 91.2,
+   "y": -395.5,
+   "rx": 42.3,
+   "ry": 37.7,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -5.8,
+   "y": -387.5,
+   "rx": 39.0,
+   "ry": 34.8,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 70.0,
+   "y": -427.5,
+   "rx": 65.5,
+   "ry": 58.6,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 67.2,
+   "y": -465.0,
+   "rx": 69.3,
+   "ry": 62.1,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 125.0,
+   "y": -467.1,
+   "rx": 47.6,
+   "ry": 42.6,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 16.5,
+   "y": -455.5,
+   "rx": 44.0,
+   "ry": 39.3,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 59.8,
+   "y": -502.5,
+   "rx": 73.2,
+   "ry": 65.5,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 90.0,
+   "y": -540.0,
+   "rx": 77.0,
+   "ry": 69.0,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 154.0,
+   "y": -544.2,
+   "rx": 53.0,
+   "ry": 47.4,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 34.0,
+   "y": -547.1,
+   "rx": 49.0,
+   "ry": 43.8,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -26.8,
+   "y": -78.1,
+   "r": 18.7,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -25.5,
+   "y": -114.3,
+   "r": 20.8,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -5.4,
+   "y": -150.4,
+   "r": 22.9,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 32.4,
+   "y": -163.3,
+   "r": 16.0,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -29.4,
+   "y": -154.8,
+   "r": 14.9,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -7.2,
+   "y": -186.6,
+   "r": 25.0,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -9.6,
+   "y": -222.7,
+   "r": 27.1,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 35.0,
+   "y": -227.8,
+   "r": 19.0,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -38.1,
+   "y": -238.0,
+   "r": 17.6,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 7.0,
+   "y": -258.9,
+   "r": 29.2,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 3.0,
+   "y": -295.1,
+   "r": 31.4,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 54.6,
+   "y": -309.2,
+   "r": 21.9,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -29.9,
+   "y": -303.5,
+   "r": 20.4,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 30.4,
+   "y": -331.2,
+   "r": 33.5,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 16.8,
+   "y": -367.4,
+   "r": 35.6,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 75.4,
+   "y": -379.7,
+   "r": 24.9,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -20.5,
+   "y": -372.7,
+   "r": 23.1,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 46.1,
+   "y": -403.5,
+   "r": 37.7,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 41.8,
+   "y": -439.7,
+   "r": 39.8,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 107.3,
+   "y": -449.3,
+   "r": 27.8,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 0.1,
+   "y": -439.0,
+   "r": 25.9,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 33.1,
+   "y": -475.8,
+   "r": 41.9,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 62.0,
+   "y": -512.0,
+   "r": 44.0,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 134.4,
+   "y": -524.6,
+   "r": 30.8,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 15.8,
+   "y": -528.9,
+   "r": 28.6,
+   "color": "#d6e2ec",
+   "density": 0.35
+  },
+  {
+   "type": "ellipse",
+   "x": 9.2,
+   "y": -165.0,
+   "rx": 25.0,
+   "ry": 25.0,
+   "start": 110,
+   "end": 200,
+   "width": 3,
+   "color": "#b9c9d8",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 8.7,
+   "y": -202.5,
+   "rx": 27.3,
+   "ry": 27.3,
+   "start": 110,
+   "end": 200,
+   "width": 3,
+   "color": "#b9c9d8",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": -26.9,
+   "y": -249.3,
+   "rx": 19.2,
+   "ry": 19.2,
+   "start": 110,
+   "end": 200,
+   "width": 3,
+   "color": "#b9c9d8",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 68.6,
+   "y": -323.2,
+   "rx": 23.9,
+   "ry": 23.9,
+   "start": 110,
+   "end": 200,
+   "width": 3,
+   "color": "#b9c9d8",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 39.5,
+   "y": -390.0,
+   "rx": 38.8,
+   "ry": 38.8,
+   "start": 110,
+   "end": 200,
+   "width": 3,
+   "color": "#b9c9d8",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 70.0,
+   "y": -427.5,
+   "rx": 41.1,
+   "ry": 41.1,
+   "start": 110,
+   "end": 200,
+   "width": 3,
+   "color": "#b9c9d8",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 16.5,
+   "y": -455.5,
+   "rx": 28.2,
+   "ry": 28.2,
+   "start": 110,
+   "end": 200,
+   "width": 3,
+   "color": "#b9c9d8",
+   "fill": null
+  },
+  {
+   "type": "ellipse",
+   "x": 154.0,
+   "y": -544.2,
+   "rx": 33.6,
+   "ry": 33.6,
+   "start": 110,
+   "end": 200,
+   "width": 3,
+   "color": "#b9c9d8",
+   "fill": null
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     0
+    ],
+    [
+     -170,
+     -24
+    ],
+    [
+     -110,
+     -50
+    ],
+    [
+     -50,
+     -66
+    ],
+    [
+     50,
+     -66
+    ],
+    [
+     110,
+     -50
+    ],
+    [
+     170,
+     -24
+    ],
+    [
+     200,
+     0
+    ]
+   ],
+   "fill": "#e8e4da",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": -120,
+   "y": -20,
+   "r": 40,
+   "color": "#d6d0c2",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 120,
+   "y": -20,
+   "r": 40,
+   "color": "#d6d0c2",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -160,
+     -10
+    ],
+    [
+     -120,
+     -30
+    ],
+    [
+     -80,
+     -36
+    ]
+   ],
+   "width": 3,
+   "color": "#bdb6a6"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -14
+    ],
+    [
+     -20,
+     -26
+    ],
+    [
+     30,
+     -22
+    ]
+   ],
+   "width": 3,
+   "color": "#bdb6a6"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     60,
+     -36
+    ],
+    [
+     110,
+     -32
+    ],
+    [
+     150,
+     -14
+    ]
+   ],
+   "width": 3,
+   "color": "#bdb6a6"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -110,
+     -44
+    ],
+    [
+     -70,
+     -52
+    ]
+   ],
+   "width": 3,
+   "color": "#bdb6a6"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     80,
+     -50
+    ],
+    [
+     120,
+     -42
+    ]
+   ],
+   "width": 3,
+   "color": "#bdb6a6"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -64,
+   "rx": 56,
+   "ry": 11,
+   "fill": "#6fb7a8",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -66,
+   "rx": 38,
+   "ry": 6,
+   "fill": "#9fd6cb",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}
