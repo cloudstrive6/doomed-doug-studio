@@ -107,7 +107,7 @@ Browse traffic they kept .53 / .46 at 30 s. 020 opened on a concrete impossible 
   instead of opening on it. The brief names the cold-open fact and its source.
 - Band headers that promise mildness ("Harmless.", "Snacks.") are not allowed before item 1. They may appear later.
 - The style bible timing rules still apply: item 1's name within 35 words, its twist by 0:45.
-- Status: 027 is the one-variable test (memo section 4). Success is .65 or better at 30 s and .35 or better at 10%, judged 11-09. If it misses, this
+- Status: 027 is the one-variable test (memo section 4). Success is .65 or better at 30 s and .35 or better at 10%, judged on day 7, 11-05 (moved up from 11-09; growth memo 2026-11-01). If it misses, this
   section is revisited; the style-bible "item 1 second-strongest" rule stays either way.
 
 ## Series / playlists (config `youtube.playlists`)
