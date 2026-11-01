@@ -29,7 +29,17 @@
       "stage": "packaged",
       "at": "2026-11-01T18:53:34+00:00",
       "note": "packaged: script 3 rounds, art 4 rounds, thumbs 2 rounds"
+    },
+    {
+      "stage": "built",
+      "at": "2026-11-01T19:01:46+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "qc_passed",
+      "at": "2026-11-01T19:10:29+00:00",
+      "note": "final approved"
     }
   ],
-  "stage": "packaged"
+  "stage": "qc_passed"
 }

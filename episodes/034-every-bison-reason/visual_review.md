@@ -235,3 +235,62 @@ VERDICT: PASS (A: PASS, B: PASS, C: PASS)
 All three variants are cleared for upload and the Studio A/B/C test, with A as the lead. **Creative-director-level approval is
 recommended:** A reads as a charge and is the strongest click, B is a strong challenger, and C's wallow reads as a live bull.
 No packaging fixes are outstanding. Still pending for the post-render round: `build/samples/*.png`, `qc.json` and the Shorts.
+
+## Post-render review (2026-11-01)
+Inputs viewed: `build/samples/f_001`-`f_023.png` (640x360, every 30 s across final.mp4), extra 1080p grabs around 6:26-6:34,
+`build/qc.json`, `build/thumbnail.png` plus all three `_small` versions, `metadata.json`, `shorts.json`,
+`build/shorts/short0{1,2,3}_preview.png` and 10 frames from each Short mp4 (4 from the body, 6 from the last ~8 s), with
+full-res crops of the three end-card silhouettes. Nothing was re-rendered.
+
+### Main video
+- qc.json: 689.3 s (11:29), `problems: []`. No black, blank, glitched or frozen samples. The only dark frame is the deliberate
+  RECORD stat card (f_013: "YELLOWSTONE, 2000 TO 2015 / 25 PEOPLE HURT BY BISON / ALL WITHIN 6 M / 8 IN 10 HAD WALKED UP TO
+  IT"). All four lines are legible.
+- Continuity: the topbar runs through the chapters in order (WOLVES, SNOWPLOW, HUMP, CALF, SPEED, RECORD, JAM, WALLOW, RUT).
+  The death counter climbs monotonically from 267 to 273, the month badge runs JAN to AUG and then RUT, and every sample has the
+  counter and badge. Doug is on-model (red cap, white head) and readable in every frame that has him, including the wolf costume
+  (f_003) and the referee shirt (f_021).
+- Drawings: wolves, elk, bison bull, cow, calf, cars, scales, the US map and the stopwatch all read in under a second. The hump
+  cutaway (f_004, s032/s033) is the textbook diagram cleared in round 1, with arrows starting at the label edges. It is not a wound.
+- Text: CHAPTER labels, MUSCLE / LONG BONES, the struck-through "ANGRY? HUNTING?" over BUSY, 12 OF 25, MANY TIMES, 1.5 M,
+  BEST VIEW / FINISH LINE, EVERY 2 WEEKS, -90 KG / 1 DOUG and DOUG'S NEXT DEATH are all spelled correctly, uncropped and clear
+  of the drawings.
+- Policy: cartoon only, with no blood, no gore and no contact shown. The tone is adult and dry, not nursery.
+- Variety: consecutive samples change composition, background colour or scale, and there is no run of near-identical frames.
+- Advisory only (no change required):
+  - s136: the question_mark floats in the sky over the 3rd car, so it does not clearly belong to anyone. If touched, move it
+    over Doug's head (about x 1840, y 860).
+  - s169: the wallow silhouettes' red outlines double up on the legs and look slightly jittery at 640 px. They read fine at 1080p.
+
+### Thumbnails / packaging
+- `thumbnail.png` (A, IT'S BEHIND YOU), the lead, matches the round-5 approval: one focal point (the charging bull), tiny
+  red-capped Doug with the selfie stick, and no contact. At 168x94 the text and the joke both read. B (REFEREE) and C (6-tile
+  list) at 168x94 are unchanged from round 5 and still read.
+- They complement "Every Reason the Bison Is Yellowstone's Most Terrifying Animal" without repeating a title word. They are
+  honest: the selfie beat (s129), the referee beat (s197) and all six list tiles are in the video.
+
+VERDICT (main): PASS
+
+### Shorts
+| Short | Title payoff | Cliffhanger (outro / end card) | Silhouette | Verdict |
+|---|---|---|---|---|
+| short01 (34.0 s) "A Bull Bison Plows Snow With Its Face (Up to 900 kg)" | Yes: the head-swing snowplow with the arrow, the hump, and the 900 kg scale vs pianos | "Doug went and stood exactly where the snow used to be" / WHAT DID THAT SWING DO TO DOUG? Specific and unanswered | american_bison_snowplow: head-down hump-and-beard bison, red outline, recognisable | PASS |
+| short02 (49.2 s) "This Sofa With a Beard Can Run at 55 km/h" | Yes: SOFA WITH A BEARD wordart with the sofa, 55 KM/H (s097) | "timed one with a stopwatch, standing on the finish line" / WHAT DID DOUG'S STOPWATCH READ? Unanswered (the payoff "finishes before Doug presses start" is s110, outside the clip) | american_bison_charging: raised tail, lunge, recognisable | PASS |
+| short03 (35.6 s) "A Bison Bull Can Lose Nearly 90 kg in One Rut" | Yes: the -90 KG scale, 12%, TENDING, the threat and the dust fight | "Doug stepped between them with a whistle to referee" / WHAT HAPPENED WHEN DOUG BLEW THE WHISTLE? Unanswered | american_bison_charging, recognisable | PASS |
+
+- All three: the title is legible, red on the top band. Burned-in subtitles are large and white with an outline. No drawing is
+  cut at the sides (the 9:16 crops keep Doug, the bison and the topbar in frame). The end-card arrow points straight down
+  between Doug and the silhouette. @DoomedDoug is legible.
+- Advisory only (no change required):
+  1. short01 title wraps as "...(Up to 900 / kg)", which leaves the unit orphaned on line 3. If the titler revises it, use
+     "A 900 kg Bull Bison Plows Snow With Its Face" (fits on 2 lines) **(youtube-titler, shorts.json `title`)**.
+  2. short02 shows the s099 "1.5 S" stopwatch (tennis-court time) before asking what Doug's stopwatch read. It does not answer
+     the question, because the real answer is "he never pressed start", but a viewer may guess "1.5 s". It is acceptable as a
+     red herring.
+  3. short02 and short03 use the same `american_bison_charging` end-card silhouette. For variety on back-to-back Shorts, the
+     director could set short03 `tease_asset` to `bison_bulls_locked` (in the library), which matches the whistle/referee
+     question better. Check that its silhouette still reads before swapping.
+  4. The "???" sits across the silhouette's body and the red glow under it. Both read as the channel's standard tease
+     treatment, not as blood.
+
+VERDICT (shorts): PASS

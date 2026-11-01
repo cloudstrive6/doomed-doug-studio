@@ -87,3 +87,15 @@ Next: graphic designer applies A 1-3 and C 1-4 (B as is, a/b optional), re-rende
 visual screener runs the thumbnail check. Back to me only if the screener changes anything beyond these notes.
 
 - 2026-11-01 showrunner: packaged. Script 3 rounds (final screener FAIL was a facts-only sourcing row, fixed and CD-approved on that condition); art 4 rounds (AD+VS PASS; zooms capped at 1.1 per style bible); thumbnails 2 rounds (VS PASS A/B/C; CD fixes applied, no separate CD re-approval). Risks: speaking_rate lowered 1.12->1.085 in config (affects all episodes), Lamar/Hayden IPA unheard, draft --limit 25 ran 82 s (unexplained), calf/injury topic kept sober.
+
+## 2026-11-01, creative director: final package gate
+Inputs: `build/thumbnail.png` + `thumbnail_small.png`, metadata.json (title, alts, description, tags, playlist), `build/chapters.txt`, `build/samples/f_001`-`f_003` (first ~60 s), script.md opening, visual_review.md (main PASS, shorts PASS), qc.json (689.3 s, 0 problems).
+
+1. **Title: keep "Every Reason the Bison Is Yellowstone's Most Terrifying Animal".** None of the alts is clearly stronger. Alt (a) "Scariest Animal" is the best Studio A/B challenger, so run it as the test, not the launch. Alt (d) "Kills Doug in Every Season" is weaker because two of the nine items are survivals. The title is honest: the first spoken sentence is the NPS injury record, and the honesty line says bears kill more.
+2. **Thumbnail A: approved.** My round-1 notes are applied. Motion lines and dust now sell a charge, not a bow, and the cut hind leg reads as part of the body. The horn-to-Doug gap is clear and there is no contact. At 168x94 the text and the selfie joke both read. No title words, no distance numbers, no safety wording. It is also the opening image (script s001), so the click is paid off in second 1. B (REFEREE) stays the A/B challenger.
+3. **First 60 s: passes.** Concrete sentence 1 ("bison have injured more people than any other animal, bears included"), the referee promise by about 0:10, "The Wolves." at word 35, chapter 0:12. The samples show the item-1 beats on a clean pale-blue winter (counter 267, JAN calendar, wolf/elk, 1995 card, Doug in the wolf costume). Doug is on screen and the frames vary.
+4. **Description: approved as is.** Sources are linked for every key claim, with the AI-use and cartoon disclaimer, and no safety advice or distance. Note for future packages, not blocking: "the animal the park's own records worry about most" is editorial. Prefer the plain claim ("injures more people than any other animal in the park").
+5. **Chapters: valid.** 0:00 start, 10 chapters, all longer than 10 s, and the labels match the script items. Tags and playlist `animals` are fine.
+6. **Shorts:** the screener passed them. Advisory 1 (short01 title, "A 900 kg Bull Bison Plows Snow With Its Face") is recommended to the titler if shorts.json is still open. It is not blocking.
+
+FINAL: APPROVED
