@@ -82,3 +82,28 @@ I viewed build/thumbnail.png, thumbnail_b.png and thumbnail_c.png at 1280x720, t
 - Boot-like front flippers on the library walruses: these are clearly visible in the FIGHT panel and slightly visible in TUSKS, where the fore-flippers look like tall boots. At 168x94 they cannot be seen, and the tusks, whiskers and body shape carry the walrus read, so I judge them **acceptable for this episode**. Follow-up for the art director/illustrator (not blocking): redraw the walrus fore-flipper in the library assets as a broad, splayed paddle angled outward from the chest, with no vertical "shin", before the asset is reused in later episodes.
 
 VERDICT: PASS (A, B and C all pass. s001 is in sync with A.)
+
+## Post-render, 2026-11-02
+
+Sources checked: build/qc.json (duration 718.1 s, `problems: []`), all 24 frames in build/samples/ (taken every 30 s), build/thumbnail.png, thumbnail_b.png and thumbnail_c.png plus their `_small` versions (checked at 3x nearest-neighbour; the files were regenerated at 19:17), metadata.json, shorts.json, build/shorts/short0{1,2,3}_preview.png, and 6 ffmpeg frames per Short (at 1 s, 8 s, the midpoint, end-8 s, end-5 s and end-1.5 s), plus a crop of each end card. Nothing was rendered.
+
+**Main video: PASS**
+- Black or blank frames: none. f_022 is the intended black "ICY CAPE, ALASKA." title card. f_024 is the end-screen card; its dark box is the end-screen video slot. No glitches, and none of the samples are frozen or repeated. Chapter tags (SEAL EATER, SUCTION, TUSKS, BOAT, FIGHT, SLEEP, POLAR BEAR, HAULOUT, STAMPEDE), DOUG DEATHS (274 to 279) and WALRUS COUNT (1, 2, about 300, about 35,000) all increase in order and are legible.
+- Doug is on-model and readable in every frame where he appears. Every walrus shows tusks and whiskers. No gore: deaths are shown as an empty cap (f_013) or are off-screen. Nothing looks like a kids' show. The compositions vary well across the frames.
+- Note (no change needed): in s081 (f_009) the "GEOGRAPHICAL SOCIETY" label floats in open water with nothing under it. The narration covers it, but next time the director could pin it to a second boat or to the shore.
+
+**Thumbnails: PASS**
+- A, "WRONG BOAT": one focal point. The tusks are hooked over the tipping boat and the mouth is shut, which fits "Without a Single Bite". Doug and the threat are obvious at 168x94, and the text has a margin on every side.
+- B, "35,000": the motion-dash "floating tusks" from round 2 are gone and dust clouds now show the stampede. Doug is cornered at the water's edge and reads clearly at feed size.
+- C, 2x2 grid: all four labels are legible and Doug is in every panel.
+- None of the three is misleading against the title or description.
+
+**Shorts: PASS**
+- short01 (36.4 s, "A Walrus Mouth Pulls Nearly a Vacuum, With Its Tongue"): the clip shows the payoff (pressure sensor, "out almost nine tenths"). The outro asks one specific question ("what came back in Doug's hand") and the Short does not answer it. The end card's red-outlined walrus_swimming silhouette has tusks showing, "???", and "WHAT CAME BACK IN DOUG'S HAND?". The arrow points down.
+- short02 (52.8 s, "A Walrus Mother Sank a Russian Navy Boat"): the clip shows the payoff (mother and calf, the boat going down, "and the navy lost."). The tease is the dinghy, which the Short does not answer. The walrus_head_rising silhouette has tusks showing and is clearly a walrus. "WHAT DID SHE DO TO DOUG'S DINGHY?" matches it, and the arrow points down.
+- short03 (48.4 s, "35,000 Walruses Crowded Onto One Alaska Beach"): the clip shows the payoff (the herd on the beach, the aerial survey, why they haul out). The tease is the stampede, which the Short does not show. The walrus_cow silhouette has tusks showing, and "WHAT HAPPENS WHEN 35,000 WALRUSES RUN?" matches it. The arrow points down.
+- In all three: the titles are readable and not cropped, the subtitles are large and legible, and the drawings are not cut off at the sides. The 16:9 scene band makes the HUD small, which is the house format.
+- Note (no change needed): in the short01 silhouette the "???" covers most of the body and the flipper looks a bit like a fish tail. The tusks keep it reading as a walrus.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS

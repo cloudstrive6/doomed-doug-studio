@@ -66,3 +66,14 @@ CHANGES (B only); A and C APPROVED, pending screener PASS
 ## 2026-11-02 showrunner summary
 Rounds: script 2 (screener FAIL→PASS, CD approved), assets 2, keyframes 2 (+ s124/s169 fix accepted per AD), thumbnails 3 (final B/C motion-line fix not re-screened; the removal addresses the screener's only note). Runtime ~11.97 min, just under the 12 min target.
 Risks: editor raised global `voice.speaking_rate` 1.085→1.125 in config/channel.yaml (affects future narrations; revisit). Library walrus front flippers look boot-like. Use 35,000, never 40,000. No harmless-to-people claims.
+
+## 2026-11-02, creative director: final package gate
+Inputs: qc.json (718.1 s, no problems), visual_review.md post-render (main PASS, thumbnails A/B/C PASS, Shorts PASS), build/thumbnail.png, metadata.json, build/chapters.txt, samples f_001 to f_003, and the opening of script.md.
+
+**Title: KEEP** "How the Walrus Kills Doug Without a Single Bite". The video delivers it: all six deaths (275 to 280) are hug/crush, tusks, boat, fight, haulout and stampede, and none is a bite. "Clams-eater that kills you anyway" is a real curiosity gap, and the T9 "How" formula is different from 033 ("Why Hyenas...") and 034 ("Every Reason..."). None of the alt titles is clearly stronger. "Every Size of Walrus Crowd" is the proven formula, but it is clunky and drops the hook that thumbnail A pays off.
+**Thumbnail A: APPROVE.** It shows the method (tusks over a tipping dinghy, mouth shut), so it complements the title and does not repeat it. Doug reads clearly with the oar raised, the bull is scarred and does not look like a cute seal, and the text has full margins. A/B order stays A, B, C.
+**Description: APPROVE.** The hook in the first line matches the cold open. The count is 35,000 (never 40,000), and nothing claims walruses are harmless. Each claim has a source, and the disclaimer and AI-use lines are present. The chapters start at 0:00, the first one runs over 10 s, all 9 items are there in order, and the names match the on-screen tags.
+**First 60 s: APPROVE.** It opens on thumbnail A, then the 2019 Navy boat fact, then the payoff promise (Doug between 35,000 walruses and the sea), then "The Seal Eater." well inside 35 words. The twist (predation, not scavenging, about 1 in 9) lands by about 0:30. Samples f_001 to f_003 are clean, with HUD counter 274 and WALRUS COUNT 1. The deadpan Doug close-up on f_003 is adult-coded with no gore.
+Lore: series_bible episode log row 035 updated to "package approved". The death total of 280 was already recorded.
+Non-blocking follow-ups: redraw the library walrus fore-flipper (it looks like a boot). Revisit the global `voice.speaking_rate` 1.125 before the next narration.
+FINAL: APPROVED
