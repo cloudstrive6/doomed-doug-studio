@@ -64,3 +64,21 @@ I viewed build/thumbnail.png, thumbnail_b.png and thumbnail_c.png at full size (
 - Note: at feed size this is the weakest of the three, because the 2x2 tiles are small and FIGHT has no Doug. That is acceptable for a test variant.
 
 VERDICT: FAIL (variant A only, one fix, routed to the graphic designer. B and C pass.)
+
+## Thumbnails round 2, 2026-11-02
+
+I viewed build/thumbnail.png, thumbnail_b.png and thumbnail_c.png at 1280x720, the three `_small` files (168x94, checked at 4x nearest-neighbour), and build/keyframes/s001.png (1920x1080).
+
+**Variant A (thumbnail.png, "WRONG BOAT"): PASS**
+- Round 1 fix 1 is resolved. The text outline now spans x=697 to 1225 and y=53 to 296, which leaves a 54 px right margin and a 53 px top margin. Nothing is cropped in either the thumbnail or s001, and s001 matches variant A.
+- The walrus reads as a walrus: it has tusks, a whisker pad and a scowling brow, with no smile and no seal ambiguity. Its tusks are hooked over the tipping boat and its mouth is shut, so the picture shows the "without a single bite" method. Doug is on-model and readable against the cyan sky. The text is crisp at feed size, and there is one focal point. There is no gore and no cute tone.
+
+**Variant B (thumbnail_b.png, "35,000"): PASS**
+- The text has a 30 px left margin and a 42 px top margin, with nothing cropped. The count matches the script, and Doug, cornered on the shoreline, is the clear threat read at 168x94.
+- Note (no change required): the motion-line dashes in the mid-herd have a white fill and an outline, so at full size they look like floating tusks or bones. At feed size they read as grey dashes. For future use, the graphic designer could make them thin single-colour lines.
+
+**Variant C (thumbnail_c.png, 2x2 TUSKS / BOAT / FIGHT / STAMPEDE): PASS**
+- Doug is now in all four panels (FIGHT has been fixed). The labels are spelled correctly and legible at 168x94, nothing is cropped at the panel edges, and every walrus shows tusks and whiskers. There is no gore.
+- Boot-like front flippers on the library walruses: these are clearly visible in the FIGHT panel and slightly visible in TUSKS, where the fore-flippers look like tall boots. At 168x94 they cannot be seen, and the tusks, whiskers and body shape carry the walrus read, so I judge them **acceptable for this episode**. Follow-up for the art director/illustrator (not blocking): redraw the walrus fore-flipper in the library assets as a broad, splayed paddle angled outward from the chest, with no vertical "shin", before the asset is reused in later episodes.
+
+VERDICT: PASS (A, B and C all pass. s001 is in sync with A.)
