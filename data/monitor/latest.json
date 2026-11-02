@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T19:01:46+00:00",
+ "at": "2026-11-02T20:01:42+00:00",
  "issues": [
   {
    "key": "related_pending",
@@ -15,8 +15,8 @@
    "key": "end_screens_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "7 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
-   "detail": "028-megalodon-every-era https://studio.youtube.com/video/YogqSPAjkA4/editor\n029-leopard-seal-under-the-ice https://studio.youtube.com/video/HiXaeCRS0fw/editor\n030-trapped-in-amber https://studio.youtube.com/video/StupfMPSmTw/editor\n031-polar-bear-on-purpose https://studio.youtube.com/video/Gv3q0CRIxDQ/editor\n032-worst-ancestor-deaths https://studio.youtube.com/video/Z4iE_cKclmw/editor\n033-hyenas-deadlier-than-lions https://studio.youtube.com/video/DipC3jfwExY/editor\n034-every-bison-reason https://studio.youtube.com/video/nBsi6g0hgQ4/editor",
+   "summary": "8 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "detail": "028-megalodon-every-era https://studio.youtube.com/video/YogqSPAjkA4/editor\n029-leopard-seal-under-the-ice https://studio.youtube.com/video/HiXaeCRS0fw/editor\n030-trapped-in-amber https://studio.youtube.com/video/StupfMPSmTw/editor\n031-polar-bear-on-purpose https://studio.youtube.com/video/Gv3q0CRIxDQ/editor\n032-worst-ancestor-deaths https://studio.youtube.com/video/Z4iE_cKclmw/editor\n033-hyenas-deadlier-than-lions https://studio.youtube.com/video/DipC3jfwExY/editor\n034-every-bison-reason https://studio.youtube.com/video/nBsi6g0hgQ4/editor\n035-walrus-without-a-bite https://studio.youtube.com/video/CTty9H6pwac/editor",
    "route": "",
    "fixed": false,
    "extra": {}
@@ -25,8 +25,8 @@
    "key": "thumb_tests_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "7 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
-   "detail": "028-megalodon-every-era https://studio.youtube.com/video/YogqSPAjkA4/edit\n029-leopard-seal-under-the-ice https://studio.youtube.com/video/HiXaeCRS0fw/edit\n030-trapped-in-amber https://studio.youtube.com/video/StupfMPSmTw/edit\n031-polar-bear-on-purpose https://studio.youtube.com/video/Gv3q0CRIxDQ/edit\n032-worst-ancestor-deaths https://studio.youtube.com/video/Z4iE_cKclmw/edit\n033-hyenas-deadlier-than-lions https://studio.youtube.com/video/DipC3jfwExY/edit\n034-every-bison-reason https://studio.youtube.com/video/nBsi6g0hgQ4/edit",
+   "summary": "8 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "detail": "028-megalodon-every-era https://studio.youtube.com/video/YogqSPAjkA4/edit\n029-leopard-seal-under-the-ice https://studio.youtube.com/video/HiXaeCRS0fw/edit\n030-trapped-in-amber https://studio.youtube.com/video/StupfMPSmTw/edit\n031-polar-bear-on-purpose https://studio.youtube.com/video/Gv3q0CRIxDQ/edit\n032-worst-ancestor-deaths https://studio.youtube.com/video/Z4iE_cKclmw/edit\n033-hyenas-deadlier-than-lions https://studio.youtube.com/video/DipC3jfwExY/edit\n034-every-bison-reason https://studio.youtube.com/video/nBsi6g0hgQ4/edit\n035-walrus-without-a-bite https://studio.youtube.com/video/CTty9H6pwac/edit",
    "route": "",
    "fixed": false,
    "extra": {}
