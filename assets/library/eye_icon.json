@@ -1,0 +1,122 @@
+{
+ "name": "eye_icon",
+ "description": "Bold flat icon: a single cartoon eye (white, blue iris, big black pupil, lash line) on a white disc with a black outline. Set with ear_icon / nose_icon. Centre anchor; x -80..+80, y -60..+60.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "icon",
+  "sense",
+  "sight",
+  "035"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 78,
+   "ry": 58,
+   "fill": "#ffffff",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     0
+    ],
+    [
+     -30,
+     -24
+    ],
+    [
+     0,
+     -30
+    ],
+    [
+     30,
+     -24
+    ],
+    [
+     56,
+     0
+    ],
+    [
+     30,
+     24
+    ],
+    [
+     0,
+     30
+    ],
+    [
+     -30,
+     24
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 22,
+   "ry": 22,
+   "fill": "#3a8fd0",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 11,
+   "ry": 11,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -7,
+   "y": -8,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -46,
+     -24
+    ],
+    [
+     -20,
+     -40
+    ],
+    [
+     20,
+     -40
+    ],
+    [
+     46,
+     -24
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

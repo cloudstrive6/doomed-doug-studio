@@ -1,0 +1,166 @@
+{
+ "name": "nose_icon",
+ "description": "Bold flat icon: a cartoon human nose, front view (skin #f2c6a0, two nostrils) on a white disc with a black outline. Set with eye_icon / ear_icon. Centre anchor; x -80..+80, y -60..+60.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "icon",
+  "sense",
+  "smell",
+  "035"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 78,
+   "ry": 58,
+   "fill": "#ffffff",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -6,
+     -48
+    ],
+    [
+     6,
+     -42
+    ],
+    [
+     16,
+     -6
+    ],
+    [
+     34,
+     14
+    ],
+    [
+     36,
+     30
+    ],
+    [
+     22,
+     40
+    ],
+    [
+     0,
+     40
+    ],
+    [
+     -20,
+     38
+    ],
+    [
+     -34,
+     28
+    ],
+    [
+     -30,
+     12
+    ],
+    [
+     -12,
+     -4
+    ],
+    [
+     -14,
+     -36
+    ]
+   ],
+   "fill": "#f2c6a0",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": -14,
+   "y": 30,
+   "rx": 7,
+   "ry": 4,
+   "fill": "#5a3a2a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 16,
+   "y": 30,
+   "rx": 7,
+   "ry": 4,
+   "fill": "#5a3a2a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -30,
+     20
+    ],
+    [
+     -36,
+     30
+    ],
+    [
+     -28,
+     38
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     30,
+     20
+    ],
+    [
+     36,
+     30
+    ],
+    [
+     28,
+     38
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 10,
+   "y": 0,
+   "r": 10,
+   "color": "#d9a07a",
+   "density": 0.4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -2,
+     -30
+    ],
+    [
+     2,
+     4
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  }
+ ]
+}

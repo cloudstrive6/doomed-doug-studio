@@ -1,0 +1,153 @@
+{
+ "name": "ear_icon",
+ "description": "Bold flat icon: a cartoon human ear (skin #f2c6a0, black inner curls) on a white disc with a black outline. Set with eye_icon / nose_icon. Centre anchor; x -80..+80, y -60..+60.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "icon",
+  "sense",
+  "hearing",
+  "035"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 78,
+   "ry": 58,
+   "fill": "#ffffff",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     -46
+    ],
+    [
+     16,
+     -50
+    ],
+    [
+     34,
+     -36
+    ],
+    [
+     38,
+     -12
+    ],
+    [
+     30,
+     10
+    ],
+    [
+     16,
+     24
+    ],
+    [
+     12,
+     42
+    ],
+    [
+     -4,
+     50
+    ],
+    [
+     -20,
+     42
+    ],
+    [
+     -14,
+     26
+    ],
+    [
+     -4,
+     12
+    ],
+    [
+     -20,
+     0
+    ],
+    [
+     -30,
+     -20
+    ],
+    [
+     -26,
+     -38
+    ]
+   ],
+   "fill": "#f2c6a0",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -12,
+     -30
+    ],
+    [
+     8,
+     -36
+    ],
+    [
+     24,
+     -24
+    ],
+    [
+     24,
+     -4
+    ],
+    [
+     12,
+     10
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -6,
+     -14
+    ],
+    [
+     6,
+     -18
+    ],
+    [
+     12,
+     -6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     -8,
+     2
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": -14,
+   "y": -16,
+   "r": 12,
+   "color": "#d9a07a",
+   "density": 0.4
+  }
+ ]
+}

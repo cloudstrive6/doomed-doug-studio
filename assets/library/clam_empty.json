@@ -1,0 +1,321 @@
+{
+ "name": "clam_empty",
+ "description": "An open, empty clam shell: two pale off-white #e9e4d6 valves hinged at the left and gaping, growth lines, clean pale #f8f5ec interiors with nothing inside, grey shadow under. Same family as `clam`. Anchor bottom-centre; x -88..+88, y -82..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "clam",
+  "bivalve",
+  "shell",
+  "empty",
+  "035"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -4,
+   "rx": 88,
+   "ry": 7,
+   "fill": "#6f6f6f",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -84,
+     -30
+    ],
+    [
+     -70,
+     -12
+    ],
+    [
+     -40,
+     -3
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     40,
+     -3
+    ],
+    [
+     70,
+     -12
+    ],
+    [
+     86,
+     -30
+    ],
+    [
+     60,
+     -28
+    ],
+    [
+     0,
+     -26
+    ],
+    [
+     -60,
+     -28
+    ]
+   ],
+   "fill": "#e9e4d6",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -30
+    ],
+    [
+     -40,
+     -38
+    ],
+    [
+     0,
+     -40
+    ],
+    [
+     40,
+     -38
+    ],
+    [
+     82,
+     -30
+    ],
+    [
+     40,
+     -20
+    ],
+    [
+     0,
+     -18
+    ],
+    [
+     -40,
+     -20
+    ]
+   ],
+   "fill": "#f8f5ec",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -28
+    ],
+    [
+     0,
+     -24
+    ],
+    [
+     60,
+     -28
+    ]
+   ],
+   "width": 2,
+   "color": "#d8d2c2"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40.0,
+     -33.9
+    ],
+    [
+     0,
+     -4.2
+    ],
+    [
+     40.0,
+     -33.9
+    ]
+   ],
+   "width": 2,
+   "color": "#a59d88"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60.0,
+     -29.4
+    ],
+    [
+     0,
+     -3.2
+    ],
+    [
+     60.0,
+     -29.4
+    ]
+   ],
+   "width": 2,
+   "color": "#a59d88"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -84.0,
+     -30.0
+    ],
+    [
+     -52.5,
+     -68.2
+    ],
+    [
+     -18.7,
+     -87.2
+    ],
+    [
+     19.2,
+     -93.5
+    ],
+    [
+     69.6,
+     -79.9
+    ],
+    [
+     25.1,
+     -75.4
+    ],
+    [
+     -11.6,
+     -65.5
+    ],
+    [
+     -46.6,
+     -50.1
+    ]
+   ],
+   "fill": "#e9e4d6",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -79.2,
+     -33.6
+    ],
+    [
+     -47.2,
+     -52.0
+    ],
+    [
+     -12.2,
+     -67.3
+    ],
+    [
+     24.5,
+     -77.2
+    ],
+    [
+     63.6,
+     -80.0
+    ],
+    [
+     26.3,
+     -71.8
+    ],
+    [
+     -9.9,
+     -60.1
+    ],
+    [
+     -45.4,
+     -46.5
+    ]
+   ],
+   "fill": "#f8f5ec",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -73.1,
+     -39.5
+    ],
+    [
+     -40.2,
+     -61.2
+    ],
+    [
+     4.4,
+     -77.7
+    ],
+    [
+     53.4,
+     -80.6
+    ]
+   ],
+   "width": 2,
+   "color": "#a59d88"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -73.1,
+     -39.5
+    ],
+    [
+     -42.1,
+     -67.2
+    ],
+    [
+     2.4,
+     -83.7
+    ],
+    [
+     53.0,
+     -81.7
+    ]
+   ],
+   "width": 2,
+   "color": "#a59d88"
+  },
+  {
+   "type": "spray",
+   "x": -20,
+   "y": -62,
+   "r": 10,
+   "color": "#ffffff",
+   "density": 0.35
+  },
+  {
+   "type": "ellipse",
+   "x": -80,
+   "y": -34,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#c2bba6",
+   "width": 2,
+   "color": "#7a7262"
+  }
+ ]
+}
