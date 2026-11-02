@@ -48,3 +48,17 @@ All three pass the hard lines: no bite shown or implied, no gore, no harmlessnes
 
 Order of preference for the A/B test: A (hero, opening image), then B. C is the third test slot only after its fixes. Graphic designer applies; visual screener runs the thumbnail round on the fixed versions before `packaged`.
 CHANGES
+
+## 2026-11-02, creative director: package gate round 2 (thumbnails A, B, C)
+Checked the r2 PNGs at 1280x720 and *_small against my round-1 list. Note: the "Thumbnails, 2026-11-02" round in visual_review.md was run on the r1 renders (it cites "WRONG" at x=1279 and FIGHT without Doug, both now fixed). The screener has not run a round on r2 yet, so every approval below is **conditional on a visual-screener PASS on the r2 files** before `packaged`.
+
+**Thumbnail A ("WRONG BOAT"): APPROVE.** All 4 fixes landed. 1. Text block now ends at x=1225, top at y=53 (55 px right margin, inside the 40 px screener rule and my 50 px). 2. Dinghy tilts down into the tusks with a splash at the low gunwale, so it reads as being tipped. 3. Doug holds the oar raised toward the bull, scream face kept. 4. Pale scar lines on the forehead and cheeks; still no smile and no moustache gag. Hero variant and opening image.
+
+**Thumbnail B ("35,000"): CHANGES (minor, 2 items).** Depth, the horizon band of humps, the overlap, the dust and the herd facing Doug all landed; flippers are now hidden behind the dust. It reads as a mass at 168x94. Two things are left:
+1. The white motion lines are drawn *on the walruses' backs* (left half of the herd), and they read as loose tusks or sticks lying on the bodies. Move them onto the grey ground behind the rumps of the front 3-4 walruses (short, 3 per walrus, horizontal) or delete them. The dust puffs already carry the motion.
+2. The front two rows still repeat the same pose at even spacing. Stagger every other walrus in those two rows by 30-60 px in x and vary its scale by about ±10%, so the front edge is ragged and not a fence. Keep everything else, including "35,000" exactly as is.
+
+**Thumbnail C (4-panel grid): APPROVE.** FIGHT is re-staged as asked: bulls reared and angled, tusks raised mid-swing and not crossed, Doug between them looking up, background dark grey-blue. All four panels now have Doug, and the grid no longer reads as pastel. If the STAMPEDE panel uses the same herd layer as B, carry over B fix 1 (motion lines off the backs). That is not blocking.
+
+A/B test order: A, then B (after its fixes), then C. Graphic designer applies B 1-2. Visual screener then runs a thumbnail round on all three r2/r3 files. With a PASS, the stage can move to `packaged` without returning to me, unless the screener finds something new.
+CHANGES (B only); A and C APPROVED, pending screener PASS
