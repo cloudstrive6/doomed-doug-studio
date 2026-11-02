@@ -43,6 +43,7 @@ Reused from the library (no request): `ringed_seal`, `bearded_seal`, `polar_bear
 - Shots: s005, s006, s007, s011, s013, s014, s018, s019, s023 (rotated +12 while rolling), s057, s058, s066, s077, s096 (on a dinghy), s108, s109, s111, s112, s113, s115, s144-s162 (herd), s164, s179, s180 (40 shots)
 
 ## `walrus_cow`
+**ROUND 2 FIXED (illustrator, 2026-11-02)**: tusks `silhouette_keep` (ivory on the black herd) and widened +4 (still shorter than the bull's); lighter whisker pad #c99a80 with longer pale bristles. Tip y unchanged; x -258..+273. preview assets/previews/035-walrus-without-a-bite-assets-r2.png (framed colour/silhouette/rim tiles: -r2-silhouettes.png). Checked s003/s004.
 **DONE (illustrator, 2026-11-02)**: `assets/library/walrus_cow.json`, preview assets/previews/035-walrus-without-a-bite-assets.png (context: -context.png, -hug.png). tusk tips (+234..+250,-22); outline 6.
 **Creature (females, crowds, the cow that lies down on Doug's gap).**
 - Look: Adult female walrus hauled out, side view facing right, same family as `walrus_bull` but visibly smaller and smoother: no bosses, slimmer neck, fewer scars, **shorter, thinner tusks** (still clearly tusks), chest propped on front flippers, head level. Same palette.
@@ -67,6 +68,7 @@ Reused from the library (no request): `ringed_seal`, `bearded_seal`, `polar_bear
 - Shots: s024, s025 (2 shots)
 
 ## `walrus_bull_rearing`
+**ROUND 2 FIXED (illustrator, 2026-11-02)**: tusks `silhouette_keep`, tips swung forward ~30 to (+258..+284,-258), clear of the front-flipper column; lighter pad and longer bristles. x -224..+288. preview assets/previews/035-walrus-without-a-bite-assets-r2.png (framed colour/silhouette/rim tiles: -r2-silhouettes.png). Checked s103 (silhouette pair) and s119 (Doug still clear of the tusks).
 **DONE (illustrator, 2026-11-02)**: `assets/library/walrus_bull_rearing.json`, preview assets/previews/035-walrus-without-a-bite-assets.png (context: -context.png, -hug.png). tusk tips (+228..+252,-252); head top (+150,-560).
 **Creature (The Fight).**
 - Look: Bull walrus reared up on its front flippers in a threat display, chest high, neck stretched, head lifted and turned slightly down, tusks swung forward and down like two spears. Bosses and scars clearly visible on the neck. Mouth closed, small eyes, no blood, no wounds.
@@ -83,6 +85,7 @@ Reused from the library (no request): `ringed_seal`, `bearded_seal`, `polar_bear
 - Shots: s083, s086, s087, s088, s091, s092, s093, s097, s098, s099, s102 (11 shots)
 
 ## `walrus_swimming`
+**ROUND 2 FIXED (illustrator, 2026-11-02)**: tusks lengthened to ~110 from the root, tips (+222..+240,+170), outside the body outline, `silhouette_keep`; throat y +80..+98 left clear; lighter pad and longer bristles (walrus_feeding unchanged). y now -116..+176. preview assets/previews/035-walrus-without-a-bite-assets-r2.png (framed colour/silhouette/rim tiles: -r2-silhouettes.png). Checked s029, s070 and s128.
 **DONE (illustrator, 2026-11-02)**: `assets/library/walrus_swimming.json`, preview assets/previews/035-walrus-without-a-bite-assets.png (context: -context.png, -hug.png). tusk tips (+215..+232,+126); throat underside at y ~+90..+98 between x +150..+206.
 **Creature (underwater: The Suction, the pool study, the bell songs).**
 - Look: Walrus swimming underwater, side view facing right, body stretched out, front flippers back along the sides, rear flippers trailing, tusks pointing down and slightly back, whisker pad forward. Same palette, slightly bluer shading for the underwater light.
@@ -146,6 +149,7 @@ Reused from the library (no request): `ringed_seal`, `bearded_seal`, `polar_bear
 - Shots: s031, s032 (2 shots)
 
 ## `walrus_top_view`
+**ROUND 2 FIXED (illustrator, 2026-11-02)**: ivory tusk tips with a #6a5a4a outline poke to x ~+186 (~11 wide at the tip); neck pinch at x ~+90; bigger front flippers swept sideways/back (y ±94); rear flippers trimmed to x -138 so the tusks don't touch the next tile at the shotlist's 100 px / 0.3 spacing. preview assets/previews/035-walrus-without-a-bite-assets-r2.png (framed colour/silhouette/rim tiles: -r2-silhouettes.png). Checked s167 and s187.
 **DONE (illustrator, 2026-11-02)**: `assets/library/walrus_top_view.json`, preview assets/previews/035-walrus-without-a-bite-assets.png (context: -context.png, -hug.png). tusk tips poke to x +164.
 **Creature (aerial crowds: The Haulout, The Stampede).**
 - Look: A walrus seen from directly above: an elongated brown oval body with a slightly narrower head end at the right, the two front flippers and the paired rear flippers as small stubs, the two tusk tips just visible poking forward past the head. A few fold lines. Simple and bold.
