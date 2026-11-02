@@ -1,4 +1,5 @@
 <!-- axis: head count. How many walruses are around Doug, from one to about thirty-five thousand. Each stop has more walruses and a worse reason; the most extreme is last (a stampede of thousands). Spoken bands: "One walrus." (before item 1), "Two." (before item 4), "Hundreds." (before item 6), "Thirty-five thousand." (before item 8). -->
+<!-- Draft 2 (2026-11-02): screener fixes 1-6 applied. 1) Vacuum cleaner line and drawing cut; item 2's analogy is now arithmetic against normal air pressure (NOAA JetStream 1013.25 hPa): 87.9 / 101.3 is almost nine tenths, shown as a sealed jam jar. 2) Point Lay now uses the 2020 census, 330 people, about a hundred walruses per person. 3) Honesty line now reads "the ones in danger are the walruses". 4) The Boat: "She was protecting her calf, the boat was in the way". 5) The Sleep: "hanging off the ice by their tusks, resting". 6) Rule 14: "the part that should bother you". Recommended items also applied: "The noise of" dropped; female weight now "twelve hundred and fifty at most" (SeaWorld). No sentences were split. The number thirty-five thousand / ABOUT 35,000 is used everywhere; forty thousand appears nowhere in narration or labels. -->
 <!-- Episode 035, draft 1 (2026-11-02, script writer). Written to the 2026-10-27 retention update. First sentence: the 2019 Navy boat (Barents Observer). Payoff promise by 0:10 (Doug between the herd and the sea). Item 1 (The Seal Eater) is a hook item; the hook fact comes first in every item and every kicker leans into the next stop.
 Counter on screen at 274 from the first shot and ends at 280. Six deaths: 275 The Seal Eater, 276 The Tusks, 277 The Boat, 278 The Fight, 279 The Haulout, 280 The Stampede (flat, no milestone bit). No death involves a bite. Doug survives The Suction, The Sleep and The Polar Bear ("Doug is fine.", a different narrator reaction each time). "Doug did not agree to this." once (item 1). "hi friend?" once (The Suction). One callback (031, item 7, after 0:30).
 Field guide WALRUS page: FRIEND? empty; "NO" at death 275; "MAYBE" pencilled at The Suction, erased at The Boat; six NOs at the closing plus the sticky note "EATS CLAMS."
@@ -99,9 +100,9 @@ An adult can eat three thousand to six thousand clams in a single feeding sessio
 
 The disturbing part is how hard it pulls. Researchers had a captive walrus suck on a pressure sensor, and in air its mouth reached almost eighty-eight kilopascals below normal air pressure, which they described as almost a vacuum. Underwater, sucking on a mackerel, it went lower still.
 
-[A household vacuum cleaner next to the walrus. Label under the vacuum: "ABOUT 20". Label under the walrus: "ABOUT 88".]
+[A sealed jam jar with a walrus mouth clamped on the lid. Ten little air dots inside; nine of them vanish. Label: "9 OUT OF 10".]
 
-A typical household vacuum cleaner is rated at around twenty, so the walrus manages about four times that, with its tongue.
+Normal air pressure is about a hundred and one kilopascals, so if that mouth were clamped on a sealed jam jar, it would have pulled out almost nine tenths of the air inside, with its tongue.
 
 [Doug, underwater in a dive mask, holds out a clam on his open palm. Speech bubble: "hi friend?". WALRUS COUNT: 1.]
 
@@ -193,7 +194,7 @@ A grown female can weigh more than a tonne, which is more than a dairy cow, comi
 
 [Split screen. The navy boat going under; the calf bobbing safely on the mother's back.]
 
-But that's not the strange part. She was not hunting the boat, because it was simply between her and her calf, and the navy lost.
+But that's not the strange part. She was not hunting the boat. She was protecting her calf, the boat was in the way, and the navy lost.
 
 [A small harbor full of moored boats. A large walrus has climbed onto one; another is half sunk. Label: "2021".]
 
@@ -225,9 +226,9 @@ Male walruses fight each other with their tusks.
 
 When bulls compete for females, they threaten each other and fight, and they can stab each other with those tusks, so these fights often end with somebody hurt.
 
-[A bull and a cow side by side on a scale. Labels: "UP TO 1,700 KG" and "OVER 1 TONNE".]
+[A bull and a cow side by side on a scale. Labels: "UP TO 1,700 KG" and "UP TO 1,250 KG".]
 
-The bulls doing this are the biggest walruses there are, up to seventeen hundred kilograms against a female's one tonne and a bit.
+The bulls doing this are the biggest walruses there are, up to seventeen hundred kilograms against a female's twelve hundred and fifty at most.
 
 [Cross-section of a bull's neck. The skin layer is shaded thick. Label: "2 TO 4 CM".]
 
@@ -287,7 +288,7 @@ Males also have air sacs that open off the throat, and they use them to make bel
 
 [Wide shot: hundreds of hanging sleepers. A green tick appears in the corner.]
 
-The weird part is how peaceful this is. Hundreds of tusked adults hanging off the ice asleep are the safest thing in this entire video.
+The weird part is how peaceful this is. Walruses hanging off the ice by their tusks, resting, are the safest thing in this entire video.
 
 [Doug, in orange inflatable armbands, floats among the sleeping walruses. He yawns. WALRUS COUNT: ABOUT 300.]
 
@@ -357,9 +358,9 @@ In September twenty fourteen, about thirty-five thousand walruses came ashore on
 
 They were spotted by the federal government's yearly aerial survey of Arctic marine mammals, and four days earlier the same survey had seen only about fifteen hundred.
 
-[A tiny village of a few houses at one end of the beach. Label: "UNDER 250 PEOPLE".]
+[A tiny village of a few houses at one end of the beach. Label: "330 PEOPLE IN 2020".]
 
-Point Lay is a village of just under two hundred and fifty people, which works out at about a hundred and forty walruses for every person in town.
+At the twenty twenty census, Point Lay had three hundred and thirty people, which works out at about a hundred walruses for every person in town.
 
 [Map: the sea ice edge slides north, off a shallow shelf shaded light blue, over deep water shaded navy. Walrus icons drop off the ice onto the coast.]
 
@@ -417,11 +418,11 @@ In September two thousand nine, near Icy Cape, Alaska, researchers counted one h
 
 [Hold the card in silence for one beat.]
 
-The danger on these beaches is not to people but to the walruses, and mostly to the youngest ones.
+On these beaches, the ones in danger are the walruses, and mostly the youngest ones.
 
 [The packed beach again, calm. A small plane appears at the edge of the sky.]
 
-But the most disturbing thing is how little it takes. The noise of one plane, one boat, or one bear on the ridge can turn thousands of resting animals into a single wave heading for the sea.
+But the part that should bother you is how little it takes. One plane, one boat, or one bear on the ridge can turn thousands of resting animals into a single wave heading for the sea.
 
 [Doug stands at the waterline, back to the sea, holding a hand-painted sign: "QUIET PLEASE". Behind him, the sea. In front of him, the whole beach. WALRUS COUNT: ABOUT 35,000.]
 
@@ -449,4 +450,4 @@ The cap is on a beach under a sleeping walrus, and nobody is going to ask for it
 
 Doug deaths: two hundred and eighty. Not one of them was a bite. Doug's next mistake is on your screen now.
 
-<!-- words: 2171 (draft 1, spoken narration only, spoken band headers included; headings, comments and stage directions excluded). About 11.1 min at 195 wpm. "The Seal Eater." is words 31-33; twist marker "Here's the problem" at word 146 (about 0:45 plus the thumbnail hold); death 275 at word 240 (about 1:14). Average sentence about 14.1 words, longest 34; every item has a sentence of 6 words or fewer. Flesch about 75 by my syllable estimate (textstat not installed). Outro 22 words. Item counts: opening 30, Seal Eater 236, Suction 256, Tusks 212, Boat 234, Fight 204, Sleep 224, Polar Bear 221, Haulout 231, Stampede 323 including closing and outro. -->
+<!-- words: 2182 (draft 2, spoken narration only, spoken band headers included; headings, comments and stage directions excluded). About 11.2 min at 195 wpm. Opening, item 1 positions, twist marker and outro unchanged from draft 1. -->
