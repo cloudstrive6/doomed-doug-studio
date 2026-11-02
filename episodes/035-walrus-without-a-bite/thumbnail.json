@@ -1,0 +1,211 @@
+{
+ "background": "#29c4f0",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 640,
+   "w": 1300,
+   "h": 90,
+   "fill": "#1d5f9e",
+   "color": "#1d5f9e",
+   "width": 0,
+   "outline": false,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_head_rising",
+   "x": 330,
+   "y": 665,
+   "scale": 1.7,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     640
+    ],
+    [
+     1290,
+     640
+    ]
+   ],
+   "color": "#0d2f55",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     190,
+     168
+    ],
+    [
+     268,
+     192
+    ]
+   ],
+   "color": "#2a1a10",
+   "width": 10,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     470,
+     168
+    ],
+    [
+     392,
+     192
+    ]
+   ],
+   "color": "#2a1a10",
+   "width": 10,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 730,
+   "y": 530,
+   "scale": 0.55,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "left",
+   "rotate": -15,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "rowboat",
+   "x": 520,
+   "y": 655,
+   "scale": 1.3,
+   "flip": true,
+   "rotate": -15,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     242,
+     630
+    ],
+    [
+     278,
+     622
+    ],
+    [
+     282,
+     662
+    ],
+    [
+     270,
+     682
+    ],
+    [
+     254,
+     674
+    ],
+    [
+     248,
+     652
+    ]
+   ],
+   "fill": "#efe6cf",
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     398,
+     590
+    ],
+    [
+     434,
+     582
+    ],
+    [
+     438,
+     622
+    ],
+    [
+     426,
+     642
+    ],
+    [
+     410,
+     634
+    ],
+    [
+     404,
+     612
+    ]
+   ],
+   "fill": "#efe6cf",
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "water_splash_small",
+   "x": 110,
+   "y": 680,
+   "scale": 0.8,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "WRONG",
+   "x": 1010,
+   "y": 95,
+   "size": 140,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "BOAT",
+   "x": 1010,
+   "y": 235,
+   "size": 140,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ],
+ "_note": "Variant A (hero close-up; video opening image s001 via scene_ref): saturated cyan sky over dark-blue sea; one huge scarred bull walrus head (walrus_head_rising x1.7, heavy brows, no smile, whiskers + tusks so it never reads as a seal) rising out of the water and filling the left half; its tusks hooked over the near gunwale of Doug's tipping rowboat (left end dragged down, splash), tiny red-capped Doug in the raised stern, panic + shock. Method shown is climbing/tipping, no bite, no mouth open. Text WRONG BOAT (Arimo bold, white, black outline); no title word (WALRUS/KILLS/BITE), no count."
+}

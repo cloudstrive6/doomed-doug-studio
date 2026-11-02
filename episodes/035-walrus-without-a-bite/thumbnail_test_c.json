@@ -1,0 +1,461 @@
+{
+ "_note": "Variant C (list-format control): 4 big tiles 2x2 in episode order, 034/032 top-bar label layout (Comic Neue bold on white band). TUSKS (bull hauling out on ice, Doug cowering on the floe, pale blue), BOAT (walrus head rising beside Doug's tipping rowboat, yellow), FIGHT (two bulls rearing, no contact with Doug, lilac), STAMPEDE (packed beach rows heading for the sea, Doug at the waterline, orange). No seal, no calf, no blood, no numbers, no title words.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 16,
+   "y": 16,
+   "w": 616,
+   "h": 336,
+   "fill": "#bfe3ff",
+   "radius": 20,
+   "frame_width": 7,
+   "boil": 0,
+   "wobble": 0,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 16,
+     "y": 290,
+     "w": 616,
+     "h": 62,
+     "fill": "#1d5f9e",
+     "color": "#1d5f9e",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       346,
+       306
+      ],
+      [
+       366,
+       266
+      ],
+      [
+       642,
+       261
+      ],
+      [
+       642,
+       306
+      ]
+     ],
+     "fill": "#f7fbff",
+     "color": "#9fb8cc",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_hauling_out",
+     "x": 376,
+     "y": 271,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 556,
+     "y": 216,
+     "scale": 0.3,
+     "pose": "cower",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 6,
+     "y": 6,
+     "w": 636,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "TUSKS",
+     "x": 324.0,
+     "y": 54,
+     "size": 62,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 648,
+   "y": 16,
+   "w": 616,
+   "h": 336,
+   "fill": "#ffd23f",
+   "radius": 20,
+   "frame_width": 7,
+   "boil": 0,
+   "wobble": 0,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 648,
+     "y": 290,
+     "w": 616,
+     "h": 62,
+     "fill": "#1d5f9e",
+     "color": "#1d5f9e",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_head_rising",
+     "x": 848,
+     "y": 336,
+     "scale": 0.65,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 1078,
+     "y": 266,
+     "scale": 0.3,
+     "pose": "panic1",
+     "expression": "shock",
+     "facing": "left",
+     "rotate": -15,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "rowboat",
+     "x": 1028,
+     "y": 316,
+     "scale": 0.6,
+     "flip": true,
+     "rotate": -15,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 638,
+     "y": 6,
+     "w": 636,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "BOAT",
+     "x": 956.0,
+     "y": 54,
+     "size": 62,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 16,
+   "y": 368,
+   "w": 616,
+   "h": 336,
+   "fill": "#b79cff",
+   "radius": 20,
+   "frame_width": 7,
+   "boil": 0,
+   "wobble": 0,
+   "elements": [
+    {
+     "type": "poly",
+     "points": [
+      [
+       6,
+       668
+      ],
+      [
+       642,
+       668
+      ],
+      [
+       642,
+       714
+      ],
+      [
+       6,
+       714
+      ]
+     ],
+     "fill": "#f7fbff",
+     "color": "#9fb8cc",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull_rearing",
+     "x": 231,
+     "y": 686,
+     "scale": 0.33,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull_rearing",
+     "x": 416,
+     "y": 686,
+     "scale": 0.33,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 6,
+     "y": 358,
+     "w": 636,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "FIGHT",
+     "x": 324.0,
+     "y": 406,
+     "size": 62,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 648,
+   "y": 368,
+   "w": 616,
+   "h": 336,
+   "fill": "#ff8c42",
+   "radius": 20,
+   "frame_width": 7,
+   "boil": 0,
+   "wobble": 0,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 648,
+     "y": 548,
+     "w": 616,
+     "h": 336,
+     "fill": "#8f8a80",
+     "color": "#8f8a80",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull",
+     "x": 628,
+     "y": 583,
+     "scale": 0.17,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull",
+     "x": 718,
+     "y": 583,
+     "scale": 0.17,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull",
+     "x": 808,
+     "y": 583,
+     "scale": 0.17,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull",
+     "x": 898,
+     "y": 583,
+     "scale": 0.17,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull",
+     "x": 988,
+     "y": 583,
+     "scale": 0.17,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull",
+     "x": 588,
+     "y": 628,
+     "scale": 0.24,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull",
+     "x": 718,
+     "y": 628,
+     "scale": 0.24,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull",
+     "x": 848,
+     "y": 628,
+     "scale": 0.24,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull",
+     "x": 978,
+     "y": 628,
+     "scale": 0.24,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull",
+     "x": 568,
+     "y": 693,
+     "scale": 0.34,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull",
+     "x": 758,
+     "y": 693,
+     "scale": 0.34,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "walrus_bull",
+     "x": 948,
+     "y": 693,
+     "scale": 0.34,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       1168,
+       714
+      ],
+      [
+       1208,
+       548
+      ],
+      [
+       1274,
+       548
+      ],
+      [
+       1274,
+       714
+      ]
+     ],
+     "fill": "#1d5f9e",
+     "color": "#0d2f55",
+     "width": 4,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 1148,
+     "y": 628,
+     "scale": 0.32,
+     "pose": "arms_up",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 638,
+     "y": 358,
+     "w": 636,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "STAMPEDE",
+     "x": 956.0,
+     "y": 406,
+     "size": 62,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,379 @@
+{
+ "_note": "Variant B (Doug in peril, the boss): flat sunset-orange sky over a grey gravel beach packed edge to edge with walrus_bull rows (small at the back, big at the front) all surging right toward the sea; tiny red-capped Doug cornered on the shoreline between the herd and the water, arms up, shock face. Text 35,000 (NOAA 2014 Point Lay count; never 40,000). No calves, no carcasses, no contact, no title words.",
+ "background": "#ff8c42",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 330,
+   "w": 1300,
+   "h": 400,
+   "fill": "#8f8a80",
+   "color": "#8f8a80",
+   "width": 0,
+   "outline": false,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     1040,
+     730
+    ],
+    [
+     1120,
+     330
+    ],
+    [
+     1290,
+     330
+    ],
+    [
+     1290,
+     730
+    ]
+   ],
+   "fill": "#1d5f9e",
+   "color": "#0d2f55",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     330
+    ],
+    [
+     1120,
+     330
+    ]
+   ],
+   "color": "#3a352f",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": -21,
+   "y": 343,
+   "scale": 0.17,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 77,
+   "y": 344,
+   "scale": 0.17,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 177,
+   "y": 350,
+   "scale": 0.17,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 282,
+   "y": 350,
+   "scale": 0.17,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 377,
+   "y": 347,
+   "scale": 0.17,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 452,
+   "y": 346,
+   "scale": 0.17,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 551,
+   "y": 342,
+   "scale": 0.17,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 646,
+   "y": 339,
+   "scale": 0.17,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 749,
+   "y": 341,
+   "scale": 0.17,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 827,
+   "y": 344,
+   "scale": 0.17,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 917,
+   "y": 342,
+   "scale": 0.17,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": -23,
+   "y": 385,
+   "scale": 0.24,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 109,
+   "y": 387,
+   "scale": 0.24,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 223,
+   "y": 395,
+   "scale": 0.24,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 343,
+   "y": 390,
+   "scale": 0.24,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 465,
+   "y": 386,
+   "scale": 0.24,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 608,
+   "y": 396,
+   "scale": 0.24,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 734,
+   "y": 386,
+   "scale": 0.24,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 872,
+   "y": 396,
+   "scale": 0.24,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": -36,
+   "y": 453,
+   "scale": 0.33,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 147,
+   "y": 451,
+   "scale": 0.33,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 315,
+   "y": 446,
+   "scale": 0.33,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 479,
+   "y": 444,
+   "scale": 0.33,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 649,
+   "y": 456,
+   "scale": 0.33,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 819,
+   "y": 446,
+   "scale": 0.33,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": -35,
+   "y": 528,
+   "scale": 0.45,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 207,
+   "y": 527,
+   "scale": 0.45,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 456,
+   "y": 534,
+   "scale": 0.45,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 708,
+   "y": 527,
+   "scale": 0.45,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": -10,
+   "y": 645,
+   "scale": 0.62,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 323,
+   "y": 640,
+   "scale": 0.62,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "walrus_bull",
+   "x": 659,
+   "y": 634,
+   "scale": 0.62,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 1060,
+   "y": 560,
+   "scale": 0.6,
+   "pose": "arms_up",
+   "expression": "shock",
+   "facing": "left",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "35,000",
+   "x": 330,
+   "y": 120,
+   "size": 190,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
