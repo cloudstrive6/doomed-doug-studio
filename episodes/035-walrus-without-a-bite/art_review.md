@@ -55,3 +55,33 @@ s126, s167 and s183 against the current shotlist.
 
 Keep every anchor and the other extents unchanged, so no re-placement is needed in the shotlist. Re-preview and send back
 for a re-check of these four only. Everything else is approved.
+
+## Keyframes round 1, 2026-11-02 (s001-s217 + endslate, sheets 01-19)
+
+**Verdict: FAIL. Director, 5 composition fixes. There are no asset fixes, and nothing fails on style or policy.**
+
+### Asset round-2 re-check (illustrator fixes): all 4 APPROVED
+- `walrus_cow`: in the s003/s004 silhouette herd the ivory tusks now show on every tile, so it reads as walruses, not seals (checked at 1080p).
+- `walrus_bull_rearing`: in the s103 red-rim pair the tusks clear the flipper column. In s104-s107 and s118-s119 there is no tusk contact with Doug.
+- `walrus_swimming`: in the s029 and s070 silhouettes the long tusks sit clearly outside the outline. In colour (s030, s035, s041, s128-s135) they read well, and the s133 air sacs are clear.
+- `walrus_top_view`: in s167 and s187-s189 the tiles show tusk tips, a neck pinch and side flippers. They read as walruses on gravel and no longer look like grubs.
+
+### Passed checks
+- **Style:** the two tiers stay consistent across all 217 shots, with crude Doug and detailed walruses, bears, ships and cows. The caption bar and the DOUG DEATHS / WALRUS COUNT HUD sit in the same position on every frame. The counter steps 274 to 280 on the six death cards (s026, s075, s101, s120, s185, s211). Doug is on-model everywhere. The ghost Doug is white on near-black with the cap kept, and `sunburn` (s141-s143) is approved gear.
+- **Zones and colour:** each item keeps its own sky key (ice blue, then cream diagrams, then grey sea, then dusk orange, then purple dusk, then overcast gravel, then the stampede slate). The s173-s176 shelf diagram goes from light shallow blue to navy deep water, which is correct.
+- **Policy:** no blood and no wounds. s107 is spoken only, with an arrow and a triangle. The s193 trampling is a dust cloud. s201-s203 are plain, sober text cards. The s025 heart is the hug joke and does not tip into cute. The calf stays plain and nothing is kid-coded.
+- **Reveals:** every item title uses the red-rim silhouette (s006, s029, s054, s078, s103) or a full-colour title card.
+
+### Required fixes (route: director)
+1. **s018-s024: seven near-identical wide floe frames in a row** (same floe, same camera, walrus left, Doug right). Recompose **s020** (Doug sunbathing) as a push-in or close two-shot on Doug and the towel. Recompose **s022** ("Doug did not agree") as a tight reaction close-up on Doug's face. Keep s023/s024 wide for the roll-over payoff.
+2. **s061, s062, s063 reuse the front snout close-up 3 times in a row**, and it has already appeared in s052, s053 and s056. Change the base layout for **s062** (fend off predators): use the bull facing the polar bear, as in s148. Change it for **s063** (settle arguments): use a small `walrus_bull_rearing` pair. s061 can keep the head with the breathing hole.
+3. **s137 repeats s136** (the same hanging row, with only the label changed). It also matches s122-s125. Recompose **s137** ("safest thing in this entire video") on the s126 side-view `walrus_hanging_asleep` with the green check, or as a push-in on one hanging head.
+4. **s107: the "SOMEBODY HURT" wordart is at y 1000 (size 88)**, which is outside title-safe, over the bulls' flippers, and under a `shake` camera. Move it up to about (560, 260), clear of the caption bar and the HUD.
+5. **More than 2 keyword labels on screen at once (rule 7.4):** **s009** has STOMACH SAMPLES + HUNTED + FOUND DEAD. Drop the carried-over STOMACH SAMPLES header. **s011** has LARGE MALES + RINGED + BEARDED. Drop LARGE MALES; the arrow already does that job. **s147** has SIZE + HIDE + TUSKS (+ VS). Drop HIDE, or merge it into one "SIZE, HIDE, TUSKS" list label. Region labels on diagrams (SHALLOW SHELF / DEEP WATER, the s128 pool states) count as annotations and are accepted.
+
+### Notes (not blocking)
+- s013: the BLUBBER wordart sits over the bull's head and whisker pad. If you are already editing, nudge it up into the sky band.
+- s068 and s071 use the same framing. A slow push-in on s071 would give the s072 tusk reveal a fresher frame.
+- s001 is still "thumbnail pending". That belongs to the graphic designer, not the keyframes.
+
+Re-render only the shots above (`python -m studio keyframes 035-walrus-without-a-bite --shots s009,s011,s020,s022,s062,s063,s107,s137,s147`) and send them back for a round-2 check.

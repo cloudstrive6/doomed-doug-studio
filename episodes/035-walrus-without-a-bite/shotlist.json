@@ -1524,21 +1524,343 @@
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "clipboard",
+      "type": "group",
       "x": 860,
       "y": 600,
-      "scale": 3.2
-     },
-     {
-      "type": "label",
-      "text": "STOMACH SAMPLES",
-      "x": 860,
-      "y": 290,
-      "size": 52,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff"
+      "scale": 3.2,
+      "elements": [
+       {
+        "type": "poly",
+        "points": [
+         [
+          -60,
+          -86
+         ],
+         [
+          60,
+          -86
+         ],
+         [
+          62,
+          84
+         ],
+         [
+          -62,
+          86
+         ]
+        ],
+        "fill": "#a0522d",
+        "width": 5
+       },
+       {
+        "type": "poly",
+        "points": [
+         [
+          -56,
+          74
+         ],
+         [
+          58,
+          72
+         ],
+         [
+          58,
+          80
+         ],
+         [
+          -56,
+          82
+         ]
+        ],
+        "fill": "#7a3c20",
+        "width": 0,
+        "outline": false
+       },
+       {
+        "type": "poly",
+        "points": [
+         [
+          -48,
+          -64
+         ],
+         [
+          50,
+          -66
+         ],
+         [
+          50,
+          70
+         ],
+         [
+          -48,
+          72
+         ]
+        ],
+        "fill": "#ffffff",
+        "width": 3
+       },
+       {
+        "type": "curve",
+        "points": [
+         [
+          -36.0,
+          -41
+         ],
+         [
+          -26.8,
+          -35
+         ],
+         [
+          -17.5,
+          -41
+         ],
+         [
+          -8.2,
+          -35
+         ],
+         [
+          1.0,
+          -41
+         ],
+         [
+          10.2,
+          -35
+         ],
+         [
+          19.5,
+          -41
+         ],
+         [
+          28.8,
+          -35
+         ],
+         [
+          38.0,
+          -41
+         ]
+        ],
+        "width": 3,
+        "color": "#555555"
+       },
+       {
+        "type": "curve",
+        "points": [
+         [
+          -36.0,
+          -21
+         ],
+         [
+          -26.8,
+          -15
+         ],
+         [
+          -17.5,
+          -21
+         ],
+         [
+          -8.2,
+          -15
+         ],
+         [
+          1.0,
+          -21
+         ],
+         [
+          10.2,
+          -15
+         ],
+         [
+          19.5,
+          -21
+         ],
+         [
+          28.8,
+          -15
+         ],
+         [
+          38.0,
+          -21
+         ]
+        ],
+        "width": 3,
+        "color": "#555555"
+       },
+       {
+        "type": "curve",
+        "points": [
+         [
+          -36.0,
+          -1
+         ],
+         [
+          -26.8,
+          5
+         ],
+         [
+          -17.5,
+          -1
+         ],
+         [
+          -8.2,
+          5
+         ],
+         [
+          1.0,
+          -1
+         ],
+         [
+          10.2,
+          5
+         ],
+         [
+          19.5,
+          -1
+         ],
+         [
+          28.8,
+          5
+         ],
+         [
+          38.0,
+          -1
+         ]
+        ],
+        "width": 3,
+        "color": "#555555"
+       },
+       {
+        "type": "curve",
+        "points": [
+         [
+          -36.0,
+          19
+         ],
+         [
+          -26.8,
+          25
+         ],
+         [
+          -17.5,
+          19
+         ],
+         [
+          -8.2,
+          25
+         ],
+         [
+          1.0,
+          19
+         ],
+         [
+          10.2,
+          25
+         ],
+         [
+          19.5,
+          19
+         ],
+         [
+          28.8,
+          25
+         ],
+         [
+          38.0,
+          19
+         ]
+        ],
+        "width": 3,
+        "color": "#555555"
+       },
+       {
+        "type": "curve",
+        "points": [
+         [
+          -36.0,
+          39
+         ],
+         [
+          -30.9,
+          45
+         ],
+         [
+          -25.8,
+          39
+         ],
+         [
+          -20.6,
+          45
+         ],
+         [
+          -15.5,
+          39
+         ],
+         [
+          -10.4,
+          45
+         ],
+         [
+          -5.2,
+          39
+         ],
+         [
+          -0.1,
+          45
+         ],
+         [
+          5.0,
+          39
+         ]
+        ],
+        "width": 3,
+        "color": "#555555"
+       },
+       {
+        "type": "poly",
+        "points": [
+         [
+          -30,
+          -96
+         ],
+         [
+          30,
+          -96
+         ],
+         [
+          34,
+          -62
+         ],
+         [
+          -34,
+          -62
+         ]
+        ],
+        "fill": "#c0c6cc",
+        "width": 4
+       },
+       {
+        "type": "line",
+        "points": [
+         [
+          -26,
+          -70
+         ],
+         [
+          26,
+          -70
+         ]
+        ],
+        "width": 2,
+        "color": "#ffffff"
+       },
+       {
+        "type": "circle",
+        "x": 0,
+        "y": -84,
+        "fill": "#a0522d",
+        "width": 3,
+        "r": 6
+       }
+      ]
      },
      {
       "type": "line",
@@ -1563,12 +1885,32 @@
      {
       "type": "label",
       "text": "HUNTED",
-      "x": 960,
-      "y": 520,
+      "x": 1190,
+      "y": 505,
       "size": 44,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
+      "appear": 0.25
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1075,
+        505
+       ],
+       [
+        990,
+        505
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 4,
+      "dash": [
+       10,
+       8
+      ],
       "appear": 0.25
      },
      {
@@ -1582,8 +1924,8 @@
      {
       "type": "label",
       "text": "FOUND DEAD",
-      "x": 980,
-      "y": 720,
+      "x": 1250,
+      "y": 725,
       "size": 44,
       "bold": true,
       "boil": 0.3,
@@ -1591,8 +1933,28 @@
       "appear": 0.62
      },
      {
+      "type": "line",
+      "points": [
+       [
+        1075,
+        725
+       ],
+       [
+        990,
+        725
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 4,
+      "dash": [
+       10,
+       8
+      ],
+      "appear": 0.62
+     },
+     {
       "type": "doug",
-      "x": 1420,
+      "x": 1660,
       "y": 808.8,
       "scale": 0.6,
       "pose": "stand",
@@ -1975,17 +2337,6 @@
       "width": 9,
       "head": 36,
       "appear": 0.15
-     },
-     {
-      "type": "label",
-      "text": "LARGE MALES",
-      "x": 420,
-      "y": 380,
-      "size": 44,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff",
-      "appear": 0.1
      },
      {
       "type": "asset",
@@ -2391,11 +2742,27 @@
      {
       "type": "wordart",
       "text": "BLUBBER",
-      "x": 1350,
-      "y": 450,
-      "size": 100,
+      "x": 600,
+      "y": 190,
+      "size": 96,
       "boil": 0,
       "appear": 0.75
+     },
+     {
+      "type": "arrow",
+      "from": [
+       790,
+       230
+      ],
+      "to": [
+       930,
+       330
+      ],
+      "bend": -40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.78
      },
      {
       "type": "doug",
@@ -3198,7 +3565,7 @@
       "x": -10,
       "y": -10,
       "w": 1940,
-      "h": 530,
+      "h": 340,
       "fill": "#cfe9ff",
       "color": "#cfe9ff",
       "width": 0,
@@ -3208,9 +3575,9 @@
      {
       "type": "rect",
       "x": -10,
-      "y": 520,
+      "y": 320,
       "w": 1940,
-      "h": 570,
+      "h": 780,
       "fill": "#3a9ad9",
       "color": "#3a9ad9",
       "width": 0,
@@ -3222,46 +3589,38 @@
       "points": [
        [
         -10,
-        520
+        320
        ],
        [
         1930,
-        520
+        320
        ]
       ],
       "color": "#2a6f9e",
       "width": 3
      },
      {
-      "type": "spray",
-      "x": 960,
-      "y": 800,
-      "r": 900,
-      "color": "#6fc1ee",
-      "density": 0.012
-     },
-     {
       "type": "poly",
       "points": [
        [
-        180,
-        780
+        -30,
+        860
        ],
        [
-        260,
-        650
+        -30,
+        575
        ],
        [
-        970,
-        634
+        900,
+        560
        ],
        [
-        1680,
-        648
+        1950,
+        572
        ],
        [
-        1760,
-        780
+        1950,
+        860
        ]
       ],
       "fill": "#f7fbff",
@@ -3272,20 +3631,20 @@
       "type": "poly",
       "points": [
        [
-        180,
-        780
+        -30,
+        860
        ],
        [
-        1760,
-        780
+        1950,
+        860
        ],
        [
-        1736,
-        836
+        1950,
+        960
        ],
        [
-        206,
-        836
+        -30,
+        960
        ]
       ],
       "fill": "#bcd8ec",
@@ -3294,40 +3653,40 @@
      },
      {
       "type": "spray",
-      "x": 970,
-      "y": 710,
-      "r": 526,
+      "x": 960,
+      "y": 720,
+      "r": 700,
       "color": "#dff4ff",
-      "density": 0.1
+      "density": 0.08
      },
      {
       "type": "asset",
       "name": "walrus_sleeping",
-      "x": 720,
-      "y": 735,
-      "scale": 0.75
+      "x": 470,
+      "y": 760,
+      "scale": 1.5
      },
      {
       "type": "asset",
       "name": "beach_towel",
-      "x": 1200,
+      "x": 1440,
       "y": 720,
-      "scale": 0.6
+      "scale": 1.2
      },
      {
       "type": "doug",
-      "x": 1180,
-      "y": 695.0,
-      "scale": 0.5,
+      "x": 1400,
+      "y": 670,
+      "scale": 1.0,
       "pose": "on_back",
       "expression": "hopeful",
       "facing": "right"
      },
      {
       "type": "circle",
-      "x": 1640,
-      "y": 330,
-      "r": 70,
+      "x": 1700,
+      "y": 420,
+      "r": 80,
       "fill": "#ffe24a",
       "color": "#c9a800",
       "width": 4,
@@ -3336,8 +3695,8 @@
      {
       "type": "wordart",
       "text": "SUNBATHING",
-      "x": 720,
-      "y": 380,
+      "x": 820,
+      "y": 250,
       "size": 96,
       "boil": 0,
       "appear": 0.45
@@ -3596,7 +3955,7 @@
       "x": -10,
       "y": -10,
       "w": 1940,
-      "h": 530,
+      "h": 430,
       "fill": "#cfe9ff",
       "color": "#cfe9ff",
       "width": 0,
@@ -3606,9 +3965,9 @@
      {
       "type": "rect",
       "x": -10,
-      "y": 520,
+      "y": 420,
       "w": 1940,
-      "h": 570,
+      "h": 780,
       "fill": "#3a9ad9",
       "color": "#3a9ad9",
       "width": 0,
@@ -3620,46 +3979,34 @@
       "points": [
        [
         -10,
-        520
+        420
        ],
        [
         1930,
-        520
+        420
        ]
       ],
       "color": "#2a6f9e",
       "width": 3
      },
      {
-      "type": "spray",
-      "x": 960,
-      "y": 800,
-      "r": 900,
-      "color": "#6fc1ee",
-      "density": 0.012
-     },
-     {
       "type": "poly",
       "points": [
        [
-        180,
-        780
+        -30,
+        1100
        ],
        [
-        260,
-        650
+        -30,
+        520
        ],
        [
-        970,
-        634
+        1950,
+        500
        ],
        [
-        1680,
-        648
-       ],
-       [
-        1760,
-        780
+        1950,
+        1100
        ]
       ],
       "fill": "#f7fbff",
@@ -3667,59 +4014,44 @@
       "width": 4
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        180,
-        780
-       ],
-       [
-        1760,
-        780
-       ],
-       [
-        1736,
-        836
-       ],
-       [
-        206,
-        836
-       ]
-      ],
-      "fill": "#bcd8ec",
-      "color": "#9fb8cc",
-      "width": 4
-     },
-     {
       "type": "spray",
-      "x": 970,
-      "y": 710,
-      "r": 526,
+      "x": 960,
+      "y": 800,
+      "r": 700,
       "color": "#dff4ff",
-      "density": 0.1
+      "density": 0.08
      },
      {
       "type": "asset",
       "name": "walrus_sleeping",
-      "x": 720,
-      "y": 735,
-      "scale": 0.75
+      "x": -700,
+      "y": 820,
+      "scale": 3.0
      },
      {
       "type": "asset",
       "name": "beach_towel",
-      "x": 1200,
-      "y": 720,
-      "scale": 0.6
+      "x": 1650,
+      "y": 760,
+      "scale": 3.9
      },
      {
       "type": "doug",
-      "x": 1180,
-      "y": 695.0,
-      "scale": 0.5,
+      "x": 1520,
+      "y": 560,
+      "scale": 3.2,
       "pose": "on_back",
       "expression": "flat",
       "facing": "right"
+     },
+     {
+      "type": "wordart",
+      "text": "DID NOT AGREE",
+      "x": 680,
+      "y": 200,
+      "size": 90,
+      "boil": 0,
+      "appear": 0.35
      },
      {
       "type": "label",
@@ -3752,9 +4084,9 @@
    },
    "camera": {
     "move": "zoom_in",
-    "x": 1100,
-    "y": 640,
-    "zoom": 1.1
+    "x": 900,
+    "y": 560,
+    "zoom": 1.05
    },
    "hold": 0.3
   },
@@ -8369,8 +8701,8 @@
      {
       "type": "wordart",
       "text": "TEETH",
-      "x": 1350,
-      "y": 560,
+      "x": 860,
+      "y": 880,
       "size": 100,
       "boil": 0,
       "appear": 0.55
@@ -9686,68 +10018,137 @@
       "x": -10,
       "y": -10,
       "w": 1940,
-      "h": 1100,
-      "fill": "#f4f1dc",
-      "color": "#f4f1dc",
+      "h": 530,
+      "fill": "#cfe9ff",
+      "color": "#cfe9ff",
       "width": 0,
       "boil": 0,
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "walrus_snout_closeup",
-      "x": 860,
-      "y": 360,
-      "scale": 0.75
-     },
-     {
-      "type": "ellipse",
-      "x": 380,
-      "y": 760,
-      "rx": 150,
-      "ry": 50,
+      "type": "rect",
+      "x": -10,
+      "y": 520,
+      "w": 1940,
+      "h": 570,
       "fill": "#3a9ad9",
-      "color": "#9fb8cc",
-      "width": 6
+      "color": "#3a9ad9",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
-      "type": "label",
-      "text": "BREATHING HOLES",
-      "x": 380,
-      "y": 900,
-      "size": 40,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff"
+      "type": "line",
+      "points": [
+       [
+        -10,
+        520
+       ],
+       [
+        1930,
+        520
+       ]
+      ],
+      "color": "#2a6f9e",
+      "width": 3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        120,
+        860
+       ],
+       [
+        200,
+        700
+       ],
+       [
+        960,
+        684
+       ],
+       [
+        1720,
+        698
+       ],
+       [
+        1800,
+        860
+       ]
+      ],
+      "fill": "#f7fbff",
+      "color": "#9fb8cc",
+      "width": 4
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        120,
+        860
+       ],
+       [
+        1800,
+        860
+       ],
+       [
+        1776,
+        916
+       ],
+       [
+        146,
+        916
+       ]
+      ],
+      "fill": "#bcd8ec",
+      "color": "#9fb8cc",
+      "width": 4
+     },
+     {
+      "type": "asset",
+      "name": "walrus_bull",
+      "x": 560,
+      "y": 820,
+      "scale": 0.8
      },
      {
       "type": "asset",
       "name": "polar_bear",
-      "x": 1380,
-      "y": 520,
-      "scale": 0.42,
+      "x": 1260,
+      "y": 820,
+      "scale": 0.62,
+      "flip": true,
       "appear": 0.1
      },
      {
       "type": "arrow",
       "from": [
-       1180,
-       640
+       840,
+       790
       ],
       "to": [
-       1300,
-       520
+       1060,
+       720
       ],
-      "bend": -40,
+      "bend": 40,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
       "appear": 0.4
      },
      {
+      "type": "wordart",
+      "text": "PREDATORS",
+      "x": 900,
+      "y": 300,
+      "size": 100,
+      "boil": 0,
+      "appear": 0.5
+     },
+     {
       "type": "doug",
-      "x": 1650,
-      "y": 905.3,
+      "x": 1680,
+      "y": 725,
       "scale": 0.36,
       "pose": "stand",
       "expression": "shock",
@@ -9802,49 +10203,56 @@
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "walrus_snout_closeup",
-      "x": 860,
-      "y": 360,
-      "scale": 0.75
-     },
-     {
-      "type": "ellipse",
-      "x": 380,
-      "y": 760,
-      "rx": 150,
-      "ry": 50,
-      "fill": "#3a9ad9",
-      "color": "#9fb8cc",
-      "width": 6
-     },
-     {
-      "type": "asset",
-      "name": "polar_bear",
-      "x": 1380,
-      "y": 520,
-      "scale": 0.42
+      "type": "line",
+      "points": [
+       [
+        -10,
+        905
+       ],
+       [
+        1930,
+        905
+       ]
+      ],
+      "color": "#9a9286",
+      "width": 4
      },
      {
       "type": "asset",
-      "name": "walrus_head_icon",
-      "x": 1380,
-      "y": 760,
-      "scale": 1.0,
-      "appear": 0.15
+      "name": "walrus_bull_rearing",
+      "x": 700,
+      "y": 900,
+      "scale": 0.55
+     },
+     {
+      "type": "asset",
+      "name": "walrus_bull_rearing",
+      "x": 1080,
+      "y": 900,
+      "scale": 0.55,
+      "flip": true
      },
      {
       "type": "asset",
       "name": "exclamation_mark",
-      "x": 1500,
-      "y": 690,
+      "x": 890,
+      "y": 520,
       "scale": 0.35,
       "appear": 0.45
      },
      {
+      "type": "wordart",
+      "text": "ARGUMENTS",
+      "x": 890,
+      "y": 300,
+      "size": 100,
+      "boil": 0,
+      "appear": 0.3
+     },
+     {
       "type": "doug",
       "x": 1650,
-      "y": 905.3,
+      "y": 835,
       "scale": 0.36,
       "pose": "stand",
       "expression": "gritted",
@@ -15884,8 +16292,8 @@
      {
       "type": "label",
       "text": "BREEDING SEASON",
-      "x": 960,
-      "y": 330,
+      "x": 560,
+      "y": 200,
       "size": 52,
       "bold": true,
       "boil": 0.3,
@@ -16070,7 +16478,7 @@
       "type": "wordart",
       "text": "SOMEBODY HURT",
       "x": 560,
-      "y": 1000,
+      "y": 190,
       "size": 88,
       "boil": 0,
       "appear": 0.7
@@ -18752,120 +19160,29 @@
      {
       "type": "asset",
       "name": "walrus_hanging_front",
-      "x": 60,
+      "x": 360,
       "y": 820,
-      "scale": 0.32
+      "scale": 0.9
      },
      {
       "type": "asset",
       "name": "walrus_hanging_front",
-      "x": 180,
+      "x": 1560,
       "y": 820,
-      "scale": 0.32
+      "scale": 0.9
      },
      {
       "type": "asset",
       "name": "walrus_hanging_front",
-      "x": 300,
+      "x": 960,
       "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 420,
-      "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 540,
-      "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 660,
-      "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 780,
-      "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 900,
-      "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1020,
-      "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1140,
-      "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1260,
-      "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1380,
-      "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1500,
-      "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1620,
-      "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1740,
-      "y": 820,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1860,
-      "y": 820,
-      "scale": 0.32
+      "scale": 1.7
      },
      {
       "type": "text",
       "text": "THE SLEEP",
       "x": 960,
-      "y": 380,
+      "y": 230,
       "size": 130,
       "color": "#e0201b",
       "bold": true,
@@ -19418,8 +19735,8 @@
      {
       "type": "label",
       "text": "BODY BELOW",
-      "x": 520,
-      "y": 900,
+      "x": 330,
+      "y": 800,
       "size": 44,
       "bold": true,
       "boil": 0.3,
@@ -19429,12 +19746,12 @@
      {
       "type": "arrow",
       "from": [
-       620,
+       500,
        840
       ],
       "to": [
-       760,
-       900
+       640,
+       880
       ],
       "bend": 30,
       "color": "#e0201b",
@@ -20913,7 +21230,7 @@
       "x": -10,
       "y": -10,
       "w": 1940,
-      "h": 280,
+      "h": 300,
       "fill": "#f2a24a",
       "color": "#f2a24a",
       "width": 0,
@@ -20923,9 +21240,9 @@
      {
       "type": "rect",
       "x": -10,
-      "y": 260,
+      "y": 280,
       "w": 1940,
-      "h": 270,
+      "h": 370,
       "fill": "#e88a4a",
       "color": "#e88a4a",
       "width": 0,
@@ -20935,9 +21252,9 @@
      {
       "type": "rect",
       "x": -10,
-      "y": 520,
+      "y": 640,
       "w": 1940,
-      "h": 570,
+      "h": 450,
       "fill": "#3a9ad9",
       "color": "#3a9ad9",
       "width": 0,
@@ -20945,58 +21262,46 @@
       "outline": false
      },
      {
+      "type": "spray",
+      "x": 960,
+      "y": 860,
+      "r": 900,
+      "color": "#6fc1ee",
+      "density": 0.012
+     },
+     {
       "type": "line",
       "points": [
        [
         -10,
-        520
+        640
        ],
        [
         1930,
-        520
+        640
        ]
       ],
       "color": "#2a6f9e",
       "width": 3
      },
      {
-      "type": "spray",
-      "x": 960,
-      "y": 800,
-      "r": 900,
-      "color": "#6fc1ee",
-      "density": 0.012
-     },
-     {
       "type": "poly",
       "points": [
        [
-        -20,
-        820
-       ],
-       [
-        400,
-        814
-       ],
-       [
         900,
-        824
-       ],
-       [
-        1400,
-        816
+        600
        ],
        [
         1940,
-        822
+        596
        ],
        [
         1940,
-        1100
+        740
        ],
        [
-        -20,
-        1100
+        910,
+        740
        ]
       ],
       "fill": "#f7fbff",
@@ -21004,123 +21309,17 @@
       "width": 4
      },
      {
-      "type": "spray",
-      "x": 960,
-      "y": 960,
-      "r": 700,
-      "color": "#dff4ff",
-      "density": 0.08
-     },
-     {
       "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 60,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 190,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 320,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 450,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 580,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 710,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 840,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 970,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1100,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1230,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1360,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1490,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1620,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1750,
-      "y": 820,
-      "scale": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "walrus_hanging_front",
-      "x": 1880,
-      "y": 820,
-      "scale": 0.36
+      "name": "walrus_hanging_asleep",
+      "x": 900,
+      "y": 600,
+      "scale": 1.0
      },
      {
       "type": "doug",
-      "x": 1600,
-      "y": 1014.8,
-      "scale": 0.36,
+      "x": 1480,
+      "y": 560,
+      "scale": 0.4,
       "pose": "sit",
       "expression": "hopeful",
       "facing": "left"
@@ -21129,27 +21328,27 @@
       "type": "line",
       "points": [
        [
-        200,
-        330
+        240,
+        430
        ],
        [
-        250,
-        390
+        300,
+        500
        ],
        [
-        350,
-        260
+        420,
+        340
        ]
       ],
       "color": "#2fae3a",
-      "width": 16,
+      "width": 18,
       "appear": 0.55
      },
      {
       "type": "wordart",
       "text": "SAFEST",
-      "x": 760,
-      "y": 360,
+      "x": 1220,
+      "y": 400,
       "size": 110,
       "boil": 0,
       "appear": 0.6
@@ -21182,6 +21381,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 900,
+    "y": 560,
+    "zoom": 1.06
    }
   },
   {
@@ -23164,17 +23369,6 @@
      },
      {
       "type": "label",
-      "text": "HIDE",
-      "x": 600,
-      "y": 420,
-      "size": 40,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff",
-      "appear": 0.35
-     },
-     {
-      "type": "label",
       "text": "TUSKS",
       "x": 860,
       "y": 900,
@@ -24558,8 +24752,8 @@
      {
       "type": "label",
       "text": "FEMALES AND YOUNG",
-      "x": 1240,
-      "y": 1000,
+      "x": 1520,
+      "y": 1005,
       "size": 40,
       "bold": true,
       "boil": 0.3,
@@ -29665,8 +29859,8 @@
      {
       "type": "label",
       "text": "AERIAL SURVEY",
-      "x": 760,
-      "y": 420,
+      "x": 1160,
+      "y": 250,
       "size": 40,
       "bold": true,
       "boil": 0.3,
@@ -43123,7 +43317,7 @@
      },
      {
       "type": "doug",
-      "x": 1340,
+      "x": 1350,
       "y": 784.0,
       "scale": 0.5,
       "pose": "point",
@@ -43133,16 +43327,16 @@
      {
       "type": "asset",
       "name": "placard",
-      "x": 1309,
-      "y": 754,
-      "scale": 0.8
+      "x": 1268,
+      "y": 725,
+      "scale": 0.95
      },
      {
       "type": "text",
       "text": "QUIET",
-      "x": 1309,
-      "y": 530,
-      "size": 40,
+      "x": 1268,
+      "y": 440,
+      "size": 38,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -43151,9 +43345,9 @@
      {
       "type": "text",
       "text": "PLEASE",
-      "x": 1309,
-      "y": 574,
-      "size": 40,
+      "x": 1268,
+      "y": 484,
+      "size": 38,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -43440,7 +43634,7 @@
      },
      {
       "type": "doug",
-      "x": 1340,
+      "x": 1350,
       "y": 784.0,
       "scale": 0.5,
       "pose": "point",
@@ -43450,16 +43644,16 @@
      {
       "type": "asset",
       "name": "placard",
-      "x": 1309,
-      "y": 754,
-      "scale": 0.8
+      "x": 1268,
+      "y": 725,
+      "scale": 0.95
      },
      {
       "type": "text",
       "text": "QUIET",
-      "x": 1309,
-      "y": 530,
-      "size": 40,
+      "x": 1268,
+      "y": 440,
+      "size": 38,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -43468,9 +43662,9 @@
      {
       "type": "text",
       "text": "PLEASE",
-      "x": 1309,
-      "y": 574,
-      "size": 40,
+      "x": 1268,
+      "y": 484,
+      "size": 38,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -43770,7 +43964,7 @@
      },
      {
       "type": "doug",
-      "x": 1340,
+      "x": 1350,
       "y": 784.0,
       "scale": 0.5,
       "pose": "point",
@@ -43780,16 +43974,16 @@
      {
       "type": "asset",
       "name": "placard",
-      "x": 1309,
-      "y": 754,
-      "scale": 0.8
+      "x": 1268,
+      "y": 725,
+      "scale": 0.95
      },
      {
       "type": "text",
       "text": "QUIET",
-      "x": 1309,
-      "y": 530,
-      "size": 40,
+      "x": 1268,
+      "y": 440,
+      "size": 38,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -43798,9 +43992,9 @@
      {
       "type": "text",
       "text": "PLEASE",
-      "x": 1309,
-      "y": 574,
-      "size": 40,
+      "x": 1268,
+      "y": 484,
+      "size": 38,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -44150,7 +44344,7 @@
      },
      {
       "type": "doug",
-      "x": 1340,
+      "x": 1350,
       "y": 784.0,
       "scale": 0.5,
       "pose": "point",
@@ -44160,15 +44354,15 @@
      {
       "type": "asset",
       "name": "placard",
-      "x": 1309,
-      "y": 754,
-      "scale": 0.8
+      "x": 1268,
+      "y": 725,
+      "scale": 0.95
      },
      {
       "type": "text",
       "text": "nope",
-      "x": 1309,
-      "y": 550,
+      "x": 1268,
+      "y": 459,
       "size": 56,
       "color": "#e0201b",
       "bold": true,
