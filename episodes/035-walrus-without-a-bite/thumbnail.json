@@ -31,15 +31,95 @@
    "type": "line",
    "points": [
     [
-     -10,
-     640
+     286,
+     98
     ],
     [
-     1290,
-     640
+     340,
+     126
+    ],
+    [
+     372,
+     124
     ]
    ],
-   "color": "#0d2f55",
+   "color": "#d8b494",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     420,
+     118
+    ],
+    [
+     452,
+     100
+    ]
+   ],
+   "color": "#d8b494",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     116,
+     324
+    ],
+    [
+     146,
+     348
+    ],
+    [
+     168,
+     384
+    ]
+   ],
+   "color": "#d8b494",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     528,
+     430
+    ],
+    [
+     552,
+     404
+    ],
+    [
+     580,
+     392
+    ]
+   ],
+   "color": "#d8b494",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     462,
+     258
+    ],
+    [
+     504,
+     286
+    ]
+   ],
+   "color": "#d8b494",
    "width": 5,
    "boil": 0,
    "wobble": 0
@@ -86,18 +166,582 @@
    "pose": "panic1",
    "expression": "shock",
    "facing": "left",
-   "rotate": -15,
+   "rotate": -14,
    "boil": 0,
    "wobble": 0
   },
   {
-   "type": "asset",
-   "name": "rowboat",
-   "x": 520,
-   "y": 655,
+   "type": "group",
+   "x": 505,
+   "y": 640,
    "scale": 1.3,
    "flip": true,
-   "rotate": -15,
+   "rotate": -14,
+   "elements": [
+    {
+     "type": "line",
+     "points": [
+      [
+       60,
+       -98
+      ],
+      [
+       -170,
+       6
+      ]
+     ],
+     "width": 8,
+     "color": "#000000"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       60,
+       -98
+      ],
+      [
+       -170,
+       6
+      ]
+     ],
+     "width": 4,
+     "color": "#c9a46a"
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -150,
+       -6
+      ],
+      [
+       -215,
+       20
+      ],
+      [
+       -228,
+       36
+      ],
+      [
+       -205,
+       34
+      ],
+      [
+       -140,
+       8
+      ]
+     ],
+     "fill": "#c9a46a",
+     "width": 4,
+     "smooth": true
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -210,
+       -82
+      ],
+      [
+       -170,
+       -60
+      ],
+      [
+       0,
+       -52
+      ],
+      [
+       160,
+       -58
+      ],
+      [
+       210,
+       -80
+      ],
+      [
+       204,
+       -40
+      ],
+      [
+       170,
+       10
+      ],
+      [
+       0,
+       34
+      ],
+      [
+       -160,
+       14
+      ],
+      [
+       -200,
+       -30
+      ]
+     ],
+     "fill": "#d9b27a",
+     "width": 0,
+     "outline": false,
+     "smooth": true
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -196,
+       -20
+      ],
+      [
+       0,
+       -6
+      ],
+      [
+       200,
+       -24
+      ],
+      [
+       170,
+       10
+      ],
+      [
+       0,
+       34
+      ],
+      [
+       -160,
+       14
+      ]
+     ],
+     "fill": "#b88a52",
+     "width": 0,
+     "outline": false,
+     "smooth": true
+    },
+    {
+     "type": "spray",
+     "x": 0,
+     "y": 10,
+     "r": 20,
+     "color": "#9a6e3a",
+     "density": 0.25
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       -200,
+       -56
+      ],
+      [
+       0,
+       -30
+      ],
+      [
+       204,
+       -58
+      ]
+     ],
+     "width": 2,
+     "color": "#7a5228"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       -200,
+       -34
+      ],
+      [
+       0,
+       -4
+      ],
+      [
+       204,
+       -36
+      ]
+     ],
+     "width": 2,
+     "color": "#7a5228"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       -208,
+       -79
+      ],
+      [
+       -170,
+       -57
+      ],
+      [
+       0,
+       -49
+      ],
+      [
+       160,
+       -55
+      ],
+      [
+       208,
+       -77
+      ]
+     ],
+     "width": 8,
+     "color": "#f0dcb0"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       -200,
+       -78
+      ],
+      [
+       -196,
+       -20
+      ]
+     ],
+     "width": 6,
+     "color": "#8a5a30"
+    },
+    {
+     "type": "rect",
+     "x": -30,
+     "y": -48,
+     "w": 60,
+     "h": 10,
+     "fill": "#a87a44",
+     "width": 3
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       20,
+       -56
+      ],
+      [
+       20,
+       -74
+      ]
+     ],
+     "width": 5
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -210,
+       -82
+      ],
+      [
+       -170,
+       -60
+      ],
+      [
+       0,
+       -52
+      ],
+      [
+       160,
+       -58
+      ],
+      [
+       210,
+       -80
+      ],
+      [
+       204,
+       -40
+      ],
+      [
+       170,
+       10
+      ],
+      [
+       0,
+       34
+      ],
+      [
+       -160,
+       14
+      ],
+      [
+       -200,
+       -30
+      ]
+     ],
+     "fill": null,
+     "width": 5,
+     "smooth": true
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     697.096303272796,
+     497.16075275247056
+    ],
+    [
+     561.6507787011512,
+     323.7983869589917
+    ]
+   ],
+   "color": "#000000",
+   "width": 11,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     697.096303272796,
+     497.16075275247056
+    ],
+    [
+     561.6507787011512,
+     323.7983869589917
+    ]
+   ],
+   "color": "#e3c38a",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     572.5354579760482,
+     327.984525643105
+    ],
+    [
+     562.7337320059523,
+     297.57192680632113
+    ],
+    [
+     516.559121356528,
+     238.47112028581694
+    ],
+    [
+     498.23764674260843,
+     242.63327933749935
+    ],
+    [
+     489.76675573389946,
+     259.40361044688933
+    ],
+    [
+     535.9413663833238,
+     318.50441696739347
+    ],
+    [
+     563.0793289327675,
+     335.3724633470129
+    ]
+   ],
+   "fill": "#e3c38a",
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     475.1629385452137,
+     278.9373653663531
+    ],
+    [
+     455.1629385452137,
+     266.9373653663531
+    ]
+   ],
+   "color": "#000000",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     527.1629385452137,
+     226.93736536635313
+    ],
+    [
+     543.1629385452137,
+     210.93736536635313
+    ]
+   ],
+   "color": "#000000",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     640
+    ],
+    [
+     0,
+     638
+    ],
+    [
+     40,
+     646
+    ],
+    [
+     80,
+     638
+    ],
+    [
+     120,
+     646
+    ],
+    [
+     160,
+     638
+    ],
+    [
+     200,
+     646
+    ],
+    [
+     240,
+     638
+    ],
+    [
+     280,
+     646
+    ],
+    [
+     320,
+     638
+    ],
+    [
+     360,
+     646
+    ],
+    [
+     400,
+     638
+    ],
+    [
+     440,
+     646
+    ],
+    [
+     480,
+     638
+    ],
+    [
+     520,
+     646
+    ],
+    [
+     560,
+     638
+    ],
+    [
+     600,
+     646
+    ],
+    [
+     640,
+     638
+    ],
+    [
+     680,
+     646
+    ],
+    [
+     720,
+     638
+    ],
+    [
+     760,
+     646
+    ],
+    [
+     800,
+     638
+    ],
+    [
+     840,
+     646
+    ],
+    [
+     880,
+     638
+    ],
+    [
+     920,
+     646
+    ],
+    [
+     960,
+     638
+    ],
+    [
+     1000,
+     646
+    ],
+    [
+     1040,
+     638
+    ],
+    [
+     1080,
+     646
+    ],
+    [
+     1120,
+     638
+    ],
+    [
+     1160,
+     646
+    ],
+    [
+     1200,
+     638
+    ],
+    [
+     1240,
+     646
+    ],
+    [
+     1280,
+     638
+    ],
+    [
+     1290,
+     640
+    ],
+    [
+     1290,
+     730
+    ],
+    [
+     -10,
+     730
+    ]
+   ],
+   "fill": "#1d5f9e",
+   "color": "#0d2f55",
+   "width": 5,
    "boil": 0,
    "wobble": 0
   },
@@ -106,27 +750,27 @@
    "points": [
     [
      242,
-     630
+     610.5267453326773
     ],
     [
      278,
-     622
+     602.5267453326773
     ],
     [
      282,
-     662
+     642.5267453326773
     ],
     [
      270,
-     682
+     662.5267453326773
     ],
     [
      254,
-     674
+     654.5267453326773
     ],
     [
      248,
-     652
+     632.5267453326773
     ]
    ],
    "fill": "#efe6cf",
@@ -140,27 +784,27 @@
    "points": [
     [
      398,
-     590
+     587.1464104203346
     ],
     [
      434,
-     582
+     579.1464104203346
     ],
     [
      438,
-     622
+     619.1464104203346
     ],
     [
      426,
-     642
+     639.1464104203346
     ],
     [
      410,
-     634
+     631.1464104203346
     ],
     [
      404,
-     612
+     609.1464104203346
     ]
    ],
    "fill": "#efe6cf",
@@ -171,19 +815,71 @@
   },
   {
    "type": "asset",
+   "name": "water_splash",
+   "x": 330,
+   "y": 652,
+   "scale": 0.42,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
    "name": "water_splash_small",
-   "x": 110,
-   "y": 680,
-   "scale": 0.8,
+   "x": 205,
+   "y": 658,
+   "scale": 0.6,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     380,
+     650
+    ],
+    [
+     460,
+     640
+    ],
+    [
+     540,
+     652
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     560,
+     660
+    ],
+    [
+     620,
+     652
+    ],
+    [
+     690,
+     662
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 4,
    "boil": 0,
    "wobble": 0
   },
   {
    "type": "text",
    "text": "WRONG",
-   "x": 1010,
-   "y": 95,
-   "size": 140,
+   "x": 965,
+   "y": 110,
+   "size": 130,
    "color": "#ffffff",
    "outline": "#000000",
    "outline_width": 12,
@@ -195,9 +891,9 @@
   {
    "type": "text",
    "text": "BOAT",
-   "x": 1010,
-   "y": 235,
-   "size": 140,
+   "x": 965,
+   "y": 237,
+   "size": 130,
    "color": "#ffffff",
    "outline": "#000000",
    "outline_width": 12,
@@ -207,5 +903,5 @@
    "wobble": 0
   }
  ],
- "_note": "Variant A (hero close-up; video opening image s001 via scene_ref): saturated cyan sky over dark-blue sea; one huge scarred bull walrus head (walrus_head_rising x1.7, heavy brows, no smile, whiskers + tusks so it never reads as a seal) rising out of the water and filling the left half; its tusks hooked over the near gunwale of Doug's tipping rowboat (left end dragged down, splash), tiny red-capped Doug in the raised stern, panic + shock. Method shown is climbing/tipping, no bite, no mouth open. Text WRONG BOAT (Arimo bold, white, black outline); no title word (WALRUS/KILLS/BITE), no count."
+ "_note": "Variant A (hero close-up; video opening image s001 via scene_ref): saturated cyan sky over dark-blue sea; one huge old scarred bull walrus head (walrus_head_rising x1.7, heavy brows, extra pale scars on forehead/cheeks, no smile, whiskers + tusks so it never reads as a seal) rising out of the water and filling the left half; its tusks hooked over the near gunwale of Doug's rowboat, which is tipped 14 deg down toward the walrus (low end under the waterline, splash at the gunwale, bow up). Tiny red-capped Doug in the raised end brandishing one oar at the bull (useless weapon), shock face. Method shown is tipping, no bite, mouth shut. Text WRONG BOAT (Arimo bold, white, black outline, >=40 px margins); no title word (WALRUS/KILLS/BITE), no count."
 }

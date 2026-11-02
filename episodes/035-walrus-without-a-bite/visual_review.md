@@ -45,3 +45,22 @@ Nothing new is broken. Doug is on-model in all the changed shots. Labels are leg
 Minor note (no change required): s123 ("Hundreds.") has no chapter tag, and s122 still shows "THE FIGHT" with WALRUS COUNT: 2 just before the count jumps to about 300. This is acceptable as the build-up into the s124 chapter card.
 
 VERDICT: PASS
+
+## Thumbnails, 2026-11-02
+
+I viewed build/thumbnail.png, thumbnail_b.png and thumbnail_c.png at full size (1280x720) and their 168x94 `_small` versions, both at 1:1 and at 3x nearest-neighbour. I re-rendered s001 with `keyframes --shots s001`. It now shows variant A at 1920x1080 through `scene_ref: thumbnail`, and the old "thumbnail pending" placeholder is gone.
+
+**Variant A (thumbnail.png, hero "WRONG BOAT"): FAIL**
+- Good: one clear focal point. The bull's head reads as a walrus, not a seal: it has tusks, a whisker pad, a scowling brow and no smile. The tusks are hooked over the gunwale of the tilting boat, with a splash. Doug is on-model (red cap, white head, shocked face) and easy to read against the cyan sky. This matches the title ("without a single bite"): the mouth is shut and the picture shows the method. There is no gore and nothing that looks like a kids' show. "WRONG BOAT" is readable at 168x94.
+- Defect: the "G" in "WRONG" runs into the right edge of the frame. Text pixels reach x=1279 of 1280, so the right side of the black outline is cut off. You can see this at full size and in s001.
+1. **Graphic designer, thumbnail.json (WRONG and BOAT text layers):** pull the text inside the frame with a margin of at least 40 px. For example, set x 1010 to 975 and size 140 to 130 on both layers, so "WRONG" ends at about x=1235. Then re-run `thumbnail` and `keyframes --shots s001`. Nothing else needs to change.
+
+**Variant B (thumbnail_b.png, "35,000" herd): PASS**
+- The count is huge and readable at feed size, and it matches the brief and the script (about 35,000). The herd reads as walruses because the tusks and whisker pads are visible on the front rows. Doug is on-model and isolated on the right against grey, so he reads at once. The threat (Doug trapped between the herd and the water) is clear. There is no gore.
+- Note (no change required): the cloned walruses look like brown slugs at 168x94, and only the front three show tusks clearly. It would be better to make the front-right bull's tusks a little bigger.
+
+**Variant C (thumbnail_c.png, 2x2 grid TUSKS / BOAT / FIGHT / STAMPEDE): PASS**
+- This follows the channel's labelled-grid grammar. All four labels are spelled correctly and are still legible at 168x94, though small. Every panel shows a walrus with tusks, and none could be mistaken for a seal. Doug is on-model in 3 of the 4 panels. Nothing is cropped, and there is no gore.
+- Note: at feed size this is the weakest of the three, because the 2x2 tiles are small and FIGHT has no Doug. That is acceptable for a test variant.
+
+VERDICT: FAIL (variant A only, one fix, routed to the graphic designer. B and C pass.)
