@@ -24,7 +24,7 @@ first sentence, the payoff promise by 0:10, and item 1 among the three strongest
     **036 must not be `animals`** (see the note at the end of this brief: the memo's #84 chimp is `animals`).
   - **Formula:** T9, the "How" variant. The last "How" title was 029, six slots back. It breaks the "Why ..." run (031, 033) and avoids a second T8 straight after 034.
   - **Axis:** 034 used a calendar, 033 one night, 032 severity of death, 031 distance, 029 position (on, in a boat, in, under the ice).
-    **035 uses head count: how many walruses are around Doug, from one to about forty thousand.** We have never used a count axis.
+    **035 uses head count: how many walruses are around Doug, from one to about thirty-five thousand.** We have never used a count axis.
     Do not reuse 029's position bands. The boat appears here as one item, not as a band.
   - **Biome:** Arctic sea ice and gravel beaches. 029 (Antarctic) was six slots back and 031 (Hudson Bay) four slots back. Draw no penguins and keep Churchill out of it.
 
@@ -43,18 +43,18 @@ first sentence, the payoff promise by 0:10, and item 1 among the three strongest
     - "Why X Is ... to Doug Than ..." (024 and 033 used it).
     - "Deadliest Animal": false.
     - "Drown": not a dread word under titler rule 4, and Doug does not drown on screen.
-- **Delivers what it promises:** every Doug death is caused by tusks, weight, a boat or the herd, and never by a bite. The boat sinking (item 4) and the 40,000-walrus beach (items 8-9) both happen on screen.
-  The honesty line (item 9) says plainly that walruses very rarely hurt people, and that in a stampede the animals in danger are the walruses themselves.
+- **Delivers what it promises:** every Doug death is caused by tusks, weight, a boat or the herd, and never by a bite. The boat sinking (item 4) and the 35,000-walrus beach (items 8-9) both happen on screen.
+  The honesty line (item 9) says that on these beaches the ones in danger are the walruses, mostly the youngest (CD 11-02: "walruses very rarely hurt people" is cut, no source; item 4's "nobody was hurt" carries the people side).
 
 ## 2. Escalation axis and items
 **Axis: head count, meaning how many walruses are around Doug. Each stop has more walruses and a worse reason.** The boss is the most extreme: a stampede of thousands.
-- Spoken bands: **"One walrus." / "Two." / "Hundreds." / "Forty thousand."**
+- Spoken bands: **"One walrus." / "Two." / "Hundreds." / "Thirty-five thousand."**
   - These are counts, not promises that things are mild, so "One walrus." may come before item 1 (series bible "Openings").
-  - "Forty thousand." is said as "about forty thousand" in the item text if the source gives about 35,000-40,000.
+  - "Thirty-five thousand." (CD 11-02: NOAA's 2014 Point Lay count was 35,036; no source for 40,000 was found. **Use 35,000 everywhere: narration, labels, thumbnail, title, description, Shorts. Never 40,000.**)
 - 9 items, 200-250 words each.
 
 ### Episode devices
-- **WALRUS COUNT** (new, simple): a crude tally sign beside the death counter. Values: 1, 1, 1, 2, 2, ABOUT 300, ABOUT 300, ABOUT 40,000, ABOUT 40,000. The numbers only ever go up.
+- **WALRUS COUNT** (new, simple): a crude tally sign beside the death counter. Values: 1, 1, 1, 2, 2, ABOUT 300, ABOUT 300, ABOUT 35,000, ABOUT 35,000. The numbers only ever go up.
   - The middle "about 300" is staging, a typical herd on ice. If the writer has a source for a herd size on a floe, use that number.
   - The final number must match the source used in item 8.
   - It is not spoken. Its last value is stamped in red at the boss.
@@ -159,17 +159,17 @@ Every number below is a lead. The writer verifies each one in `facts.md`. **If a
   - This bear walks straight past Doug. It wants the herd to move, and Doug is not worth the effort.
   - "Doug is fine." The narrator thinks he should be more offended.
   - **No calf is caught on screen.** The bear walks off out of frame.
-  - Re-hook into "Forty thousand.": "The bear wanted them to run. On a beach, they don't need a bear."
+  - Re-hook into "Thirty-five thousand.": "The bear wanted them to run. On a beach, they don't need a bear."
 
-### Forty thousand.
+### Thirty-five thousand.
 
 **8. The Haulout** (death 279)
 - Facts:
   - In years when the sea ice pulls back far from the coast, Pacific walruses come ashore in huge haulouts. Point Lay, Alaska, has had tens of thousands at once
-    (about 35,000 in 2014 and about 40,000 in 2015; NOAA/USFWS/USGS aerial counts; **verify the year and the figure**).
+    (about 35,000 in September 2014, NOAA aerial survey count 35,036; the 2015 figure was also about 35,000. CD 11-02: the earlier "about 40,000" lead was unsourced and is withdrawn).
   - The shift onto land is linked to the summer sea ice retreating past the shallow feeding grounds (USGS; Jay et al.).
     **One plain sentence, no lecture.**
-- Analogy: 40,000 walruses at about a tonne each weigh more than [an everyday sum the writer checks, for example a fully loaded cruise ship's passengers × N, or a big stadium crowd several times over]. Use real arithmetic, sourced on both sides.
+- Analogy: 35,000 walruses at about a tonne each weigh more than [an everyday sum the writer checks, for example a fully loaded cruise ship's passengers × N, or a big stadium crowd several times over]. Use real arithmetic, sourced on both sides.
 - Twist: on the ice there was room to spread out. On the beach they lie on top of each other.
 - Doug beat: Doug looks for a space to lie down on the beach. A cow lies down on the space, and Doug is in it. Death 279, played flat.
   The cap rides on her back. Death 280 is the boss.
@@ -182,9 +182,9 @@ Every number below is a lead. The writer verifies each one in `facts.md`. **If a
   - Because of this, the agencies ask planes to keep high and far from haulouts, and the community of Point Lay asks visitors and media to stay away when the walruses are ashore
     (USFWS/FAA guidance, Point Lay requests; verify).
     **State it once as what the agencies and the town do, not as advice to the viewer.**
-- **Honesty line, required:** walruses very rarely hurt people. In a stampede, the walruses are the ones in danger. Give it in plain words, sourced to USFWS/NOAA.
+- **Honesty line, required:** on these beaches the ones in danger are the walruses, mostly the youngest (USFWS guidelines; USGS Icy Cape). CD 11-02: "walruses very rarely hurt people" is cut (no agency source; ADF&G and FWS say the opposite). No packaging may claim walruses are harmless to people.
 - **Sober card (required, before Doug's beat):** white on black, the Icy Cape number and the year only. No Doug, no joke, no drawing of young walruses dying.
-- Twist (the promise paid off): Doug is standing between about forty thousand walruses and the sea when something in the sky startles them, and they all leave at once.
+- Twist (the promise paid off): Doug is standing between about thirty-five thousand walruses and the sea when something in the sky startles them, and they all leave at once.
 - Doug beat:
   - Doug stands at the waterline with a hand-painted sign: "QUIET PLEASE".
   - The narrator's survey plane passes overhead, too low. The beach rises.
@@ -205,9 +205,9 @@ Every number below is a lead. The writer verifies each one in `facts.md`. **If a
 - **First sentence (0-5 s), the cold-open fact:** "In 2019, a walrus sank a Russian Navy boat."
   - Source: WWF Russia and the Barents Observer, September 2019. Make it more specific only if the sources agree.
   - It is item 4's fact, used as the single cold-open sentence that the series bible allows. Item 4 tells it in full later, so the writer doesn't repeat the sentence word for word.
-- **Payoff promise by 0:10:** "By the end of this, Doug stands between forty thousand walruses and the sea when they all leave at once." It names the boss without resolving it.
+- **Payoff promise by 0:10:** "By the end of this, Doug stands between thirty-five thousand walruses and the sea when they all leave at once." It names the boss without resolving it.
 - Draft beat (the writer may rewrite; **the item name must land within 35 words**, and this draft does it at word 34):
-  > "In 2019, a walrus sank a Russian Navy boat. By the end of this, Doug stands between forty thousand walruses and the sea when they all leave at once. One walrus. The Seal Eater."
+  > "In 2019, a walrus sank a Russian Navy boat. By the end of this, Doug stands between thirty-five thousand walruses and the sea when they all leave at once. One walrus. The Seal Eater."
 - **Item 1 opens on its hook fact in its first two sentences:** some walruses kill and eat seals. The species intro comes later, if at all.
 - **First-60-s checklist:**
   - (a) the stake is in sentence 1
@@ -279,7 +279,7 @@ Every number below is a lead. The writer verifies each one in `facts.md`. **If a
   - **Probably new:**
     - a Pacific walrus bull (resting, hugging with its flippers, rising with its tusks over a floe edge, tusks hooked over a gunwale, fighting, hanging asleep by its tusks)
     - a cow with a distant calf on her back
-    - a dense haulout crowd that can tile to "forty thousand"
+    - a dense haulout crowd that can tile to "thirty-five thousand"
     - a gravel beach with a sea background
     - the WALRUS COUNT sign
     - the WALRUS field-guide page
@@ -289,7 +289,7 @@ The graphic designer delivers **three variants for Test & Compare**, all checked
 Follow the 11-02 memo: one creature, one Doug, one threat, ≤3 words (the 027 grammar). If the 031 Test & Compare winner is read (11-09) before 035 publishes, apply it.
 - **A, archetype C hero (lead, the 11-01 memo's idea):** a bull walrus rising out of dark water, tusks hooked over the side of a tiny dinghy, which is tipping.
   Tiny red-capped Doug in the dinghy holds an oar. Text ≤3 words, no title words: **"WRONG BOAT"** or **"IT'S CLIMBING IN"** (the designer tests both).
-- **B, archetype C hero (challenger):** a beach packed edge to edge with walruses all facing the viewer, with tiny Doug at the waterline holding the QUIET PLEASE sign. Text: **"40,000"**.
+- **B, archetype C hero (challenger):** a beach packed edge to edge with walruses all facing the viewer, with tiny Doug at the waterline holding the QUIET PLEASE sign. Text: **"35,000"** (never 40,000).
 - **C, archetype A grid (3x2):** Seal Eater, Tusks, Boat, Fight, Sleep, Stampede. No dead animals, no seal being eaten, no calf close-up, and no tile repeats a title word.
 - **Hard fails:**
   - a walrus that reads as a seal, a sea lion or an elephant seal at feed size (keep the tusks and the whiskers big)
