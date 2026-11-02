@@ -19,7 +19,12 @@
       "stage": "script_approved",
       "at": "2026-11-02T17:31:43+00:00",
       "note": "CD approved"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-11-02T17:53:05+00:00",
+      "note": "director"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }
