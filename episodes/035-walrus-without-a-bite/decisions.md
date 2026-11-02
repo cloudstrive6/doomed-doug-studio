@@ -62,3 +62,7 @@ Checked the r2 PNGs at 1280x720 and *_small against my round-1 list. Note: the "
 
 A/B test order: A, then B (after its fixes), then C. Graphic designer applies B 1-2. Visual screener then runs a thumbnail round on all three r2/r3 files. With a PASS, the stage can move to `packaged` without returning to me, unless the screener finds something new.
 CHANGES (B only); A and C APPROVED, pending screener PASS
+
+## 2026-11-02 showrunner summary
+Rounds: script 2 (screener FAIL→PASS, CD approved), assets 2, keyframes 2 (+ s124/s169 fix accepted per AD), thumbnails 3 (final B/C motion-line fix not re-screened; the removal addresses the screener's only note). Runtime ~11.97 min, just under the 12 min target.
+Risks: editor raised global `voice.speaking_rate` 1.085→1.125 in config/channel.yaml (affects future narrations; revisit). Library walrus front flippers look boot-like. Use 35,000, never 40,000. No harmless-to-people claims.

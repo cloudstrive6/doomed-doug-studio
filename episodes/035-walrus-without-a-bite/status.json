@@ -29,7 +29,12 @@
       "stage": "art_approved",
       "at": "2026-11-02T18:22:55+00:00",
       "note": "AD+VS pass after 2 keyframe rounds; s124/s169 fixed per AD"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-02T19:08:48+00:00",
+      "note": "all gates passed"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
