@@ -45,26 +45,17 @@ Pick **3 Shorts** (config `shorts.per_episode`), each from a different item, fro
 with 25–55 s of narration, starting on a strong first line (ideally the item name or a shocking number).
 Prefer the most surprising items, not item 1; one famous creature/fact + a hard number makes the best Short.
 
-**Every Short ends on a cliffhanger** (growth memo 2026-10-09: Shorts bring ~99% of our views but almost nobody
-clicks through to the full episode). Rules:
-1. **Pay off the title first.** The clip must deliver the fact its title promises; never withhold that.
-2. **Then open ONE specific loop that only the full video closes**, either:
-   - *Doug's fate*: end `to` on the twist, just BEFORE the item's Doug death/beat shot; the outro says how he dies
-     is in the full video ("Doug had about four seconds to decide. He chose badly. Full video below."); or
-   - *A worse thing later*: name something concrete and more extreme from a later item without resolving it
-     ("And at zero metres, the hippo stops being a warning. Doug went anyway. It's linked below.").
-   Specific beats vague: never "what happens next is even worse".
-3. `outro`: 8–28 spoken words, deadpan, ends by pointing below (the Related-video link).
-4. `tease_from`: the shot id that resolves the loop (a shot the Short does NOT show). `tease_asset`: the creature/thing
-   in that shot to show on the end card as a black silhouette with a red outline and "???" (pick the recognisable
-   one, not a prop or map).
-5. `end_card`: a specific question about the teased thing, ≤ 8 words, all caps ("WHAT HAPPENS AT ZERO METRES?").
+**Every Short ends on its payoff** (measured 2026-11-03: Shorts that withheld the payoff behind a cliffhanger
+and a "???" teaser card got ~5x fewer views, were watched less, and sent fewer viewers to the episode). So:
+1. The clip delivers the fact its title promises and ends on the item's kicker or Doug beat, a satisfying stop.
+2. `outro`: one short line, ≤ 14 words, pointing to the episode ("Doug's other eight deaths are in the full video below.").
+3. `end_card`: the simple card ("FULL VIDEO: TAP BELOW" or similar, ≤ 6 words). No `tease_from`/`tease_asset`.
 Format (see `studio/shorts.py`): `{"shorts": [{"id": "short01", "from": "s145", "to": "s155", "title": "",
-"outro": "...", "tease_from": "s171", "tease_asset": "hippo_yawn", "end_card": "WHAT HAPPENS AT ZERO METRES?",
+"outro": "Doug's other eight deaths are in the full video below.", "end_card": "FULL VIDEO: TAP BELOW",
 "description": ""}, ...]}` (ids short01, short02, short03). Leave `title`/`description` for the youtube-titler.
 Optional `hook`: one extra spoken opening line (≤ 12 words) if the first shot doesn't hook on its own, with
 `hook_scene_from` = the shot whose drawing matches that line (it's shown static).
-Then `python -m studio shorts validate <id>` (it enforces the cliffhanger fields).
+Then `python -m studio shorts validate <id>`.
 
 ## Missing drawings
 For every creature/prop/place not in `assets/library/`, write a request in `episodes/<id>/asset_requests.md`:

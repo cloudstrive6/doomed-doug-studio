@@ -67,22 +67,14 @@ def validate(ep: Path) -> list[str]:
             probs.append(f"{s['id']}: ~{secs:.0f}s of narration; keep Shorts 25-55 s")
         if len(s["title"]) > 60:
             probs.append(f"{s['id']}: title over 60 chars")
-        # cliffhanger (growth memo 2026-10-09: Shorts bring 99% of views but almost nobody clicks through):
-        # the outro opens one specific loop that only the full video closes, and the end card shows it
-        out, card = s.get("outro", ""), s.get("end_card", "")
-        if not s.get("tease_from"):
-            probs.append(f"{s['id']}: missing tease_from (shot id of the teased thing, shown as a silhouette on the end card)")
-        elif s["tease_from"] not in ids:
-            probs.append(f"{s['id']}: tease_from {s['tease_from']} not in shotlist")
-        elif s["tease_from"] in {x["id"] for x in _shot_slice(sl, s["from"], s["to"])}:
-            probs.append(f"{s['id']}: tease_from must be a shot the Short does NOT show (cut before it, or later)")
-        if not 8 <= len(out.split()) <= 28:
-            probs.append(f"{s['id']}: outro must be 8-28 words (cliffhanger + where to find the answer)")
-        generic = ("what happens next", "the full video is linked below", "the full dive is linked below")
-        if any(g in out.lower() for g in generic[1:]) and len(out.split()) < 14:
-            probs.append(f"{s['id']}: outro is generic; name the specific thing the full video reveals")
-        if not card or len(card.split()) > 8 or card.upper().startswith("WHAT HAPPENS NEXT"):
-            probs.append(f"{s['id']}: end_card must be a specific question about the teased thing, <= 8 words")
+        # Measured 2026-11-03: cliffhanger endings (Doug's fate withheld + "???" teaser card) got a median 206 views in 3 days
+        # vs 998 for Shorts that pay off and simply point below, watched 47% vs 58%, and sent FEWER viewers to the long
+        # videos (33/week -> 5-7/week). Shorts end on their payoff; the teaser card is off.
+        if s.get("tease_from"):
+            probs.append(f"{s['id']}: remove tease_from/tease_asset: cliffhanger endings cut Shorts reach ~5x (2026-11-03)")
+        out = s.get("outro", "")
+        if len(out.split()) > 14:
+            probs.append(f"{s['id']}: outro must be short (<= 14 words): payoff first, then 'the full video is linked below'")
     return probs
 
 
