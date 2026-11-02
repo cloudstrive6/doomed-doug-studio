@@ -85,3 +85,27 @@ for a re-check of these four only. Everything else is approved.
 - s001 is still "thumbnail pending". That belongs to the graphic designer, not the keyframes.
 
 Re-render only the shots above (`python -m studio keyframes 035-walrus-without-a-bite --shots s009,s011,s020,s022,s062,s063,s107,s137,s147`) and send them back for a round-2 check.
+
+## Keyframes round 2, 2026-11-02 (re-rendered: s009, s011, s013, s020, s022, s052, s062, s063, s106, s107, s124, s127, s137, s147, s154, s169, s207-s210)
+
+**Verdict: FAIL. Director, 2 small composition fixes (both are counter-zone collisions in re-rendered shots). There are no asset fixes, and nothing fails on style or policy. All 5 round-1 fixes are resolved.**
+
+I opened every re-rendered keyframe at full size and checked the neighbours on a strip (s018-s024, s060-s064, s121-s127, s134-s140, s147/s148).
+
+### Round-1 fixes: all resolved
+1. **s018-s024 run:** s020 is now a low push-in on Doug and the towel with the sun. s022 is a tight reaction close-up (flat mouth, side-eye), with only the snout and tusk edging in. s023/s024 stay wide for the payoff. The run now reads wide, push, wide, close, wide. Doug is on-model at close-up scale (the shading crescent, the cap and the ink weight all scale correctly).
+2. **s061-s063:** s062 is the bull facing the polar bear on the floe with a red arrow. s063 is a facing `walrus_bull_rearing` pair on cream with a red !. The three shots now use three different layouts.
+3. **s137:** it uses the s126 side-view `walrus_hanging_asleep` with the green check, SAFEST, and Doug sitting on the floe. It no longer repeats s136/s138.
+4. **s107:** SOMEBODY HURT is now at the top left (about x 170-950, y 150-220), in the sky, clear of the HUD and the bulls, and inside safe even under `shake`. The arrow and the warning triangle carry the beat, and there is still no wound.
+5. **Label count (7.4):** s009 now shows HUNTED + FOUND DEAD only, outside the paper, with no stray tick. s011 shows RINGED + BEARDED only. s147 shows SIZE + TUSKS + VS.
+- Notes: s013 BLUBBER now sits in the sky with a red arrow to the stained patch. The visual-screener items (s052 TEETH, s106, s127, s154, s207-s210 QUIET PLEASE sign with the post on Doug's hand side and his face clear) all read correctly.
+
+### Required fixes (route: director)
+1. **s169: the AERIAL SURVEY label collides with the WALRUS COUNT HUD.** The label is at (1160, 250) and runs to about x 1335, touching the walrus head icon at x ~1340 inside the reserved counter zone (art bible, Recurring layouts). Move it to the left of the plane, for example (300, 250). The plane's left edge is at about x 530, and the dashed sight lines stay clear.
+2. **s124: THE SLEEP title (size 130, centred at x 960) runs to about x 1325 at y 180-280.** That is inside the counter zone and about 40 px from the HUD icon. Shift it left and/or shrink it so the right edge is at or below x 1280 (for example x 860, size 115). Keep it clear of the centre head (top at about y 410).
+
+### Notes (not blocking)
+- s154: the FEMALES AND YOUNG box bottom is at about y 1036, right at the safe edge. If you are already editing, raise it about 20 px.
+- s126/s127 share the side cutaway framing back to back (HOOKED ON, then HEAD UP / BODY BELOW). The labels change the beat, so I accept it.
+
+Re-render only s124 and s169 (`python -m studio keyframes 035-walrus-without-a-bite --shots s124,s169`). Once those two are clean, the art is approved with no further full review needed.

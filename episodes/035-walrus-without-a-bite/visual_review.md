@@ -25,3 +25,23 @@ Notes (no change required):
 - s015 "2.5 COWS": the half cow is made by the frame edge cutting it off, so it can read as a cropping error. Consider drawing an explicit half cow fully inside the frame.
 - s141 to s143: Doug's whole head is pink-red, but the narration says "sunburnt on one side". Tinting only half the face would fit the line better and keep him readable against the orange sky. This is for the art director, optional.
 - s003 and s004, then s207 to s209: the hook mirrors the payoff by design. That is fine.
+
+## Round 2: keyframes (pre-render), 2026-11-02
+
+I opened the re-rendered keyframes at full size: s009, s011, s013, s020, s022, s052, s062, s063, s106, s107, s124, s127, s137, s147, s154, s169 and s207 to s210. I also checked the neighbouring shots for the variety runs (s019, s021, s122, s123, s125, s126, s136, s138, s139). s001 still shows "thumbnail pending" and I did not review it, as instructed.
+
+Round 1 fixes:
+1. **s009**: resolved. There is one tick (HUNTED) and one X (FOUND DEAD), and no stray mark. Both labels sit outside the paper with dashed leaders, and the paper is clean.
+2. **s106**: resolved. "BREEDING SEASON" is in the sky at the top left, and both bulls' faces and eyes are clear.
+3. **s013**: resolved. "BLUBBER" is in the sky, and a red arrow points to the shoulder patch. The eye, face and whiskers are clear.
+4. **s052**: resolved. "TEETH" is below the tusk tips, and neither arrow crosses it.
+5. **s169**: resolved. "AERIAL SURVEY" is beside the plane's nose, and the sight lines start at the skids, below the label.
+6. **s207 to s210**: resolved. The sign board is taller and "QUIET PLEASE" has a margin all round. The post is on Doug's hand side, so his cap and face are clear. s209 adds the low plane and "!" over the herd, which matches the narration. s210 ("nope") matches the layout.
+7. **s127**: resolved. "BODY BELOW" is to the left of the body, with an arrow pointing in. **s154**: resolved. "FEMALES AND YOUNG" is at the bottom right, clear of all five walruses in the water.
+8. **Variety**: resolved. s020 and s022 are now close Doug-and-walrus shots ("SUNBATHING", "DID NOT AGREE"). This breaks the s019 to s022 run, and s022 adds a new beat. s124 (a close-up of the sleeping heads on the chapter card) and s126 (the cutaway) break s122 to s125. s137 (the cutaway with "SAFEST" and Doug sitting on the floe) breaks s136 to s139.
+
+Nothing new is broken. Doug is on-model in all the changed shots. Labels are legible and spelled correctly. There is no gore, and the counters are unchanged (274 to 279, then 1, 2, about 300, about 35,000).
+
+Minor note (no change required): s123 ("Hundreds.") has no chapter tag, and s122 still shows "THE FIGHT" with WALRUS COUNT: 2 just before the count jumps to about 300. This is acceptable as the build-up into the s124 chapter card.
+
+VERDICT: PASS

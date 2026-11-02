@@ -24,7 +24,12 @@
       "stage": "shotlisted",
       "at": "2026-11-02T17:53:05+00:00",
       "note": "director"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-02T18:22:55+00:00",
+      "note": "AD+VS pass after 2 keyframe rounds; s124/s169 fixed per AD"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }
