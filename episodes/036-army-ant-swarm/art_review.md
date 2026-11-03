@@ -94,3 +94,46 @@ After my direct fixes I re-rendered the full set, so sheets 01-19 are current.
 - **s135:** the tiny queen silhouette on cream has no glow (`glow_r` 0). That is fine as an icon, but it is not a reveal (her reveal is s139 and then s172).
 - **s217:** the "DOUG DEATHS: 287" wordart repeats s216's big text. "A SHORT WALK" alone would be cleaner.
 - **`army_ant_soldier_head` close-ups (s071, s081):** these read correctly now. The illustrator still needs to regenerate the ants preview sheet (round 1 note).
+
+---
+
+# Round 3: keyframe re-review (director's Round 2 fixes)
+
+Reviewer: art director, 2026-11-03
+Scope: every shot changed since Round 2 (I diffed the shotlist: s002-s028 sign format, s031, s053-s054, s063-s064, s104, s106, s117-s120, s125, s169-s170, s173, s176-s180, s184, s197), plus s001/thumbnail. Camera shots (s063, s104, s125, s180) were also checked at their **end** frame, because keyframes on a 1920 canvas show the frame with no camera move applied.
+
+## Verdict: PASS (after 2 direct fixes by the art director, listed below)
+
+## Per shot
+| Shot | Result | Notes |
+|---|---|---|
+| s001 / thumbnail | OK | Archetype C: hero soldier, tiny Doug, 2 words, flat teal. Reads at 168x94 as a giant hooked bug over a hammock. Text right edge at x 1855, just inside the 1856 safe line. Optional polish for the designer: a stray antenna fragment is cropped at the top edge (about x 640-700); nudge the ant down or crop it fully. |
+| s002-s028 | OK | Distance sign is now "DISTANCE TO QUEEN: 200 M" everywhere, so the label width no longer jumps at s029. |
+| s008 | OK | Textured carpet with a 15 M+ dimension line sits beside the bus with no overlap, and the comparison reads. |
+| s020 | OK | The swarm is now an ant-textured strip in the detailed tier. |
+| s031 | OK | Three offset ruled sheets read as a stack of notes. |
+| s053-s054 | OK | The nest now holds chicks, which matches "nestling birds". |
+| s062-s065 | OK | s063 adds a sun arc and ends on a 1.35 zoom on Doug's face (wordart left edge about x 84 at the end, inside the safe area). s064 is the wide shot with the pencil hand. The run no longer reads as four copies. |
+| s104 | OK | Ends at 1.8 on Doug's hopeful face and cap; VOLUNTEERED stays in frame. |
+| s106 | OK | Wide shot with small Doug and the column running out both sides, so the time-lapse reads as a different picture. |
+| s117-s118 | OK | Restaged on the top-down dirt card, with the naturalist at the frame edge and the tape measure. The ring now reads as lying on the ground. |
+| s119-s120 | OK | The open red arc, the "!" in the gap and ALMOST 1 LAP make s120 add information. |
+| s125 | OK | A 1.35 zoom on the ring turns it into a beat. |
+| s169-s170 | **Ruling: undo. Fixed directly.** | See fix 1. |
+| s173 | OK | Doug in shock at the right, clear of the egg piles. |
+| s176 | OK | Cream diagram card with the queen side-on, the calendar, the egg label and arrow, and Doug pointing. Doug sits at x 1450 rather than 1650, which is fine. |
+| s177 | OK | Three AGAIN calendars, a small queen and FOR YEARS: a new layout, with two distinct label texts. |
+| s178 | OK | Doug points, and a single curved arrow runs to the blue dot. |
+| s179 | OK | Doug `flat` at the right. |
+| s180 | **Fixed directly** | See fix 2. |
+| s184 | OK on art; **I agree with visual review Round 2 fix 1** | VOTE now reads in full. But the screener is right that a small X inside the card reads as a completed ballot, which is the opposite of "doesn't get a vote". Either of the screener's options (a red prohibition sign or a large corner-to-corner X over the whole card) is on-style, and I don't need to re-review it. |
+| s197 | OK | New York is built from the building family with no palms, and Doug stands at ground level clear of the skyline. |
+
+Doug is on-model in every changed shot, the zone colours are unchanged, and there is no gore.
+
+## Fixed directly by the art director (shotlist edited, keyframes s169/s170/s180 re-rendered, contact sheets rebuilt)
+1. **s169-s170 capless ghost: not approved, `cap_taken` removed from both ghosts.** The capless ghost breaks style bible 7 rule 2 ("the red cap is always visible, including on ghost Doug") and the art bible ghost rule ("the ghost cap is death grammar, not a second real cap"). s169 was worse: the nest is a silhouette, so the death card had **no cap anywhere in frame** ("never a death beat with no cap"), and the small capless ghost read as an anonymous stick man. This episode already uses the same grammar in s027 (a capped ghost plus the real cap as cargo), so s170 (a capped ghost plus the real cap on the ground under the nest) is consistent. "The cap came back out" still lands on the ground cap. The decisions.md exception is withdrawn.
+2. **s180: my Round 2 camera spec was wrong.** Zoom 1.4 at (1500,700) ended with **two** queens in frame on "only one young queen makes it". The fix is now `camera: {move: "zoom_in", x: 1560, y: 680, zoom: 2.0}`, with the middle queen moved from x 960 to 760 (she has fallen behind) and NEW NEST moved to (1560, 560). The end frame shows only the winning queen, NEW NEST and the arrow. I verified this with an end-frame render.
+
+## Tooling note (for whoever owns `studio/assemble.py`)
+`python -m studio keyframes <ep> --shots ...` deletes every contact sheet and rebuilds them from only the shots it rendered. After a partial re-render, the sheets have to be rebuilt from all keyframes (`contact_sheets(ep, sl, all_paths)`). I have done that here, so sheets 01-19 are complete and current.

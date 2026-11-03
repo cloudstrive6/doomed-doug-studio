@@ -22153,6 +22153,46 @@
       "scale": 0.125
      },
      {
+      "type": "curve",
+      "points": [
+       [
+        80,
+        560
+       ],
+       [
+        200,
+        420
+       ],
+       [
+        480,
+        280
+       ],
+       [
+        760,
+        230
+       ],
+       [
+        1020,
+        290
+       ],
+       [
+        1220,
+        420
+       ],
+       [
+        1330,
+        560
+       ]
+      ],
+      "dash": [
+       14,
+       12
+      ],
+      "color": "#e0201b",
+      "width": 5,
+      "appear": 0.15
+     },
+     {
       "type": "circle",
       "x": 200,
       "y": 420,
@@ -33386,10 +33426,7 @@
       "expression": "dead",
       "facing": "right",
       "ghost": true,
-      "appear": 0.45,
-      "gear": [
-       "cap_taken"
-      ]
+      "appear": 0.45
      },
      {
       "type": "label",
@@ -33569,10 +33606,7 @@
       "pose": "float",
       "expression": "dead",
       "facing": "right",
-      "ghost": true,
-      "gear": [
-       "cap_taken"
-      ]
+      "ghost": true
      },
      {
       "type": "label",
@@ -35733,39 +35767,47 @@
       "points": [
        [
         960,
-        850
+        840
        ],
        [
-        300,
-        1000
+        960,
+        900
        ]
       ],
-      "dash": [
-       18,
-       14
-      ],
-      "color": "#e8c07a",
+      "color": "#e0201b",
       "width": 8,
       "appear": 0.55
      },
      {
-      "type": "line",
-      "points": [
-       [
-        960,
-        850
-       ],
-       [
-        1620,
-        1000
-       ]
+      "type": "arrow",
+      "from": [
+       960,
+       900
       ],
-      "dash": [
-       18,
-       14
+      "to": [
+       560,
+       1000
       ],
-      "color": "#e8c07a",
+      "bend": 30,
+      "color": "#e0201b",
       "width": 8,
+      "head": 34,
+      "appear": 0.55
+     },
+     {
+      "type": "arrow",
+      "from": [
+       960,
+       900
+      ],
+      "to": [
+       1360,
+       1000
+      ],
+      "bend": -30,
+      "color": "#e0201b",
+      "width": 8,
+      "head": 34,
       "appear": 0.6
      },
      {
@@ -35948,7 +35990,7 @@
      {
       "type": "asset",
       "name": "army_ant_queen",
-      "x": 960,
+      "x": 760,
       "y": 700,
       "scale": 0.45
      },
@@ -35978,8 +36020,8 @@
      {
       "type": "label",
       "text": "NEW NEST",
-      "x": 1500,
-      "y": 470,
+      "x": 1560,
+      "y": 560,
       "size": 44,
       "bold": true,
       "boil": 0.3,
@@ -36010,9 +36052,9 @@
    },
    "camera": {
     "move": "zoom_in",
-    "x": 1500,
-    "y": 700,
-    "zoom": 1.4
+    "x": 1560,
+    "y": 680,
+    "zoom": 2.0
    }
   },
   {
@@ -36667,11 +36709,44 @@
       "appear": 0.25
      },
      {
-      "type": "asset",
-      "name": "red_x",
+      "type": "circle",
       "x": 1410,
-      "y": 705,
-      "scale": 0.38,
+      "y": 650,
+      "r": 200,
+      "color": "#e0201b",
+      "width": 14,
+      "appear": 0.6
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1269,
+        509
+       ],
+       [
+        1551,
+        791
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 14,
+      "appear": 0.6
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1000,
+       560
+      ],
+      "to": [
+       1180,
+       620
+      ],
+      "bend": -30,
+      "color": "#e0201b",
+      "width": 8,
+      "head": 30,
       "appear": 0.6
      },
      {

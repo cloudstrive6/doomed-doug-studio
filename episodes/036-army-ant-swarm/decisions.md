@@ -54,3 +54,9 @@ Reviewed build/thumbnail.png, thumbnail_b.png and thumbnail_c.png at full size a
 6. Keep 4 tiles (a deliberate departure from the 6-16 of style bible archetype A, for feed-size legibility) and keep the tile colours as they are.
 
 Next: the graphic designer applies 1-6 and re-renders A and C (and their _small versions). Then the visual-screener checks all three. If it passes, the set goes to Test & Compare with the same title.
+- **Art director, round 3:** the s169-s170 capless ghost is **not approved**. Both ghosts wear the cap again (standard ghost grammar, as in s027). s180's zoom was re-aimed so only the winning queen ends in frame. See art_review.md Round 3.
+
+## 2026-11-03, graphic designer: thumbnails round 2 (CD round 1 notes 1-6)
+- **A:** soldier moved to x 262, y 356, scale 3.35→3.1. The lowest point of the jaw hook now hangs about 35-40 px above Doug's cap, and the hook tips stay about 35 px clear of DON'T SLEEP. Doug is 0.4→0.55 and the hammock 0.55→0.76, re-seated at (1030,630). The hammock is now drawn before the soldier so the jaws pass in front of the left palm. The antenna club is fully in frame (about 15 px from the top edge).
+- **C:** labels are now SWARM FRONT / DEATH SPIRAL / LIVING NEST / THE QUEEN. The queen is an inline `group` copy of `army_ant_queen` (the library file is unchanged), with the pale gaster membrane `#efe2c0`→`#a8643f` and scale 0.66→0.76. Doug moved to x 1205. 4 tiles, colours unchanged.
+- B unchanged. All three re-rendered and checked at 168x94. Next: the visual-screener.
