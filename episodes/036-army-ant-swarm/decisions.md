@@ -60,3 +60,16 @@ Next: the graphic designer applies 1-6 and re-renders A and C (and their _small 
 - **A:** soldier moved to x 262, y 356, scale 3.35→3.1. The lowest point of the jaw hook now hangs about 35-40 px above Doug's cap, and the hook tips stay about 35 px clear of DON'T SLEEP. Doug is 0.4→0.55 and the hammock 0.55→0.76, re-seated at (1030,630). The hammock is now drawn before the soldier so the jaws pass in front of the left palm. The antenna club is fully in frame (about 15 px from the top edge).
 - **C:** labels are now SWARM FRONT / DEATH SPIRAL / LIVING NEST / THE QUEEN. The queen is an inline `group` copy of `army_ant_queen` (the library file is unchanged), with the pale gaster membrane `#efe2c0`→`#a8643f` and scale 0.66→0.76. Doug moved to x 1205. 4 tiles, colours unchanged.
 - B unchanged. All three re-rendered and checked at 168x94. Next: the visual-screener.
+
+## 2026-11-03, creative director: thumbnails A/C, round 2
+Re-reviewed build/thumbnail.png and thumbnail_c.png at full size and at 168 px (*_small.png). B stays approved as is.
+
+**A (DON'T SLEEP): approved creatively.** Notes 1-3 are all met. The jaw hook now hangs right over the hammock, so at feed size it reads as "this is about to happen". Doug at 0.55 reads (red cap, white head, closed eyes). The antenna is in frame, and DON'T SLEEP is clear of the jaws. It stays the primary and the s001 opening image.
+
+**C (grid): one last small round, queen tile only.** Note 4 (chapter labels) is met, and the other three tiles are good. Note 5 is not met. Darkening the membrane made it worse: the gaster is still a near-circle split by vertical bands into plank-like panels, so at 168 px it reads as a wooden barrel lying on its side, not as an abdomen. Doug is still a sliver at the tile edge. Changes:
+1. Gaster shape: make it an elongated oval, about 1.8-2:1 (wider than tall), not a circle. Keep the left end at about the current x, and narrow it vertically so the top sits about 30 px below the tile's label bar.
+2. Gaster fill: one body colour (the same red-brown as the thorax, as in the library queen's plates) with **3-4 thin pale membrane bands at most** (#efe2c0 is fine again, at 6-10 px each), running across the oval and following its curve. No rectangular panel or plank pattern. The 4-6 band "slat" look is what makes it a barrel.
+3. Doug: scale 0.24→about 0.30, placed at about x 1215, feet on the same baseline as the queen's legs, shock face toward her. If the queen has to shrink about 5% to fit both, that's fine. The size contrast still sells "one huge ant".
+4. Leave everything else as it is.
+
+This is the last CD round on C. If 1-3 are applied, C is approved without another CD look, subject to the visual-screener. If the queen still reads as a barrel to the screener at 168 px, C is dropped from Test & Compare and A/B run as a two-way test. Next: the graphic designer fixes the C queen tile, then the visual-screener checks A, B and C (package approval needs that PASS).

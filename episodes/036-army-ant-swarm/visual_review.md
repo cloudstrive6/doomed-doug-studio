@@ -124,3 +124,63 @@ VERDICT: FAIL (one required fix, s184)
 ### Next
 Re-render s184 (and s179/s180 if changed) with `--shots`. After that, keyframes pass. Post-render checks (samples,
 qc.json, three thumbnails, Shorts) are still to come.
+
+## Round 3: s184/s179/s106 re-check and thumbnails A/B/C (2026-11-03)
+
+Screened: full-size keyframes `build/keyframes/s184.png`, `s179.png`, `s106.png`; `build/thumbnail.png`,
+`thumbnail_b.png`, `thumbnail_c.png` at 1280x720 and their `*_small.png` at 168x94 (all three renders 18:44 UTC,
+i.e. after the graphic designer's round 2 and before the CD's round 2 queen-tile notes in decisions.md).
+
+### Keyframes: VERDICT: PASS
+- **s184** fixed. The small X is gone; a red prohibition circle plus slash now covers the whole VOTE card, and a red
+  arrow runs from the queen's head to it. It reads as "she gets no vote" in one second. The slash crosses the "V" but
+  VOTE is still legible. Doug is on-model at the right edge, the counter is 286 and the tracker is 0 M.
+- **s179** fixed. A red fork under the three queens (one stem splitting into left and right arrows) plus "SPLITS IN
+  TWO" makes the split obvious. The three queens read as "a handful of young queens".
+- **s106** fixed. The sun discs are joined by a dashed red arc that runs off both ends, so it reads as one sun
+  crossing the sky. Non-blocking nit for the director: the leftmost (dawn) disc is the same full yellow as the noon
+  disc, and the pale one sits second. If it's touched again, make the first disc orange like the last one, so the
+  sequence reads dawn > morning > noon > dusk. Don't re-render for this alone.
+- Doug is on-model in all three. No text is cropped, there's no gore and no regressions. Keyframes pass, and the
+  episode can go to render.
+
+### Thumbnails
+Title: "Why Army Ants Only Kill What Can't Run Away, Like Doug".
+
+**A (`thumbnail.png`, DON'T SLEEP): VERDICT: PASS.**
+At 168x94 there is one focal point: a giant hooked-jaw soldier whose jaw hangs over a red-capped Doug asleep in a
+hammock, with DON'T SLEEP in clean white-on-black at the top right. Doug and the threat are both obvious. It
+complements the title without repeating it (sleeping = can't run away). It isn't misleading, because the hammock is
+item 1's death and the s001 opening image. The pale soldier head is accurate for *E. burchellii*. There's no face on
+the ant and no gore. The colours are bright, but with no cute faces or nursery framing it isn't kid-coded. The antenna
+is now fully in frame.
+Optional polish (graphic designer, not blocking): at full size Doug's limbs float as a zigzag above the hammock
+fabric rather than lying in it. Lower the limb points about 15 px so they rest on the hammock's top edge.
+
+**B (`thumbnail_b.png`, SURROUNDED): VERDICT: PASS.**
+This is the strongest at 168x94: one word, flat amber, a big shocked Doug on a stump, and a carpet that reads as a
+mass of insects. Doug + threat are obvious in under a second, and it matches "can't run away" without repeating it.
+It isn't misleading (Doug stands in the swarm repeatedly in the video, and the stump is staging). There's no gore,
+the ants have no faces, and it isn't kid-coded.
+
+**C (`thumbnail_c.png`, 4-tile grid): VERDICT: FAIL.**
+Three tiles read at 168x94 (SWARM FRONT, DEATH SPIRAL with a cartoon X-eyed Doug, which is fine and not gore, and
+LIVING NEST). The labels are legible. The **THE QUEEN** tile still fails at feed size: the gaster is a near-circle
+cut into vertical plank panels, so it reads as a barrel or wooden cage lying on its side, not an ant abdomen. Doug in
+that tile is a sliver at the right edge and doesn't read as Doug. The CD's round 2 notes have not been applied
+(thumbnail_test_c.json and the render pre-date them). Fixes (graphic designer, `thumbnail_test_c.json`, queen tile
+only):
+1. Redraw the queen's gaster as an elongated oval about 1.8-2:1 (wider than tall). Keep the left end at its current
+   x and narrow it vertically, so its top sits about 30 px below the tile's label bar (label bar bottom about y 445).
+2. Fill the gaster with the thorax red-brown, with at most 3-4 thin pale bands (#efe2c0, 6-10 px) that follow the
+   oval's curve. Remove the rectangular panel/slat pattern entirely.
+3. Scale Doug from 0.24 to about 0.30 at x about 1215, feet on the queen's leg baseline, shock face toward her. Shrink
+   the queen up to 5% if needed to fit both.
+4. Re-render `thumbnail_c.png` and `thumbnail_c_small.png`. Then re-screen. Pass condition: at 168x94 the tile reads
+   as "one huge ant + small Doug", not a barrel. If it still reads as a barrel, drop C (CD's rule) and run A/B as a
+   two-way Test & Compare.
+
+### Next
+Keyframes: PASS. Thumbnails: A PASS, B PASS, C FAIL (queen tile only). A/B are cleared for packaging now. C needs one
+designer pass and a screener re-check before it joins the test. Post-render checks (samples, qc.json, Shorts) are
+still to come after the final render.
