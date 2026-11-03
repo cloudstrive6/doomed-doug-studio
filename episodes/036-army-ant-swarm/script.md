@@ -1,5 +1,5 @@
 <!-- axis: distance to the queen. Doug starts at the front of a raid, about two hundred meters out, and walks back along the raid toward the queen in the living nest; the boss jumps to a colony about twenty to thirty times bigger (African driver ants). Spoken bands: "The front." (before item 1), "The trail." (before item 5), "The nest." (before item 8), "The bigger nest." (before item 10). -->
-<!-- Episode 036, draft 1 (2026-11-03, script writer). Written to the 2026-10-27 retention update. First sentence: three thousand animals an hour, virtually blind (Science News, Couzin). Payoff promise by 0:10 (twenty million ants in Central Africa). Item 1 (The Swarm Front) is a hook item; the hook fact comes first in every item and every kicker leans into the next stop.
+<!-- Episode 036, draft 2 (2026-11-03, script writer; fixes F1-F4 and rule 8 from script_review.md). Written to the 2026-10-27 retention update. First sentence: three thousand animals an hour, virtually blind (Science News, Couzin). Payoff promise by 0:10 (twenty million ants in Central Africa). Item 1 (The Swarm Front) is a hook item; the hook fact comes first in every item and every kicker leans into the next stop.
 Counter on screen at 280 from the first shot and ends at 287. Seven deaths: 281 The Swarm Front, 282 The Menu, 283 The Road Crew, 284 The Death Spiral, 285 The Night Move, 286 The Living Nest, 287 The Queen (flat). Survivals: The Followers, The Soldiers (022 ankle bandage), The Driver Ants (boss; narrator quietly disappointed). "Doug did not agree to this." once (item 1). "hi friend?" once (The Followers, to an antbird). Costume gag once (The Menu).
 Field guide ARMY ANT page: FRIEND? empty; "NO" at death 281; "MAYBE" pencilled at The Followers; NOs keep stacking; closing sticky note "JUST WALK AWAY."
 DISTANCE TO QUEEN sign (unspoken staging): ABOUT 200 M, 200 M, 150 M, 100 M, 50 M, 30 M, 10 M, 0 M, 0 M, then struck through, "AFRICA".
@@ -7,11 +7,11 @@ The cap as cargo: carried off along the trail after death 281, found on the bivo
 Deviations from the brief, all fact-driven (see facts.md, "Brief checks"):
 1. Cold open uses "about three thousand animals an hour" (Science News: "some 3,000 invertebrates each hour" over a ten-hour workday). No source states a daily total of 30,000, so no daily figure is spoken.
 2. The Menu: the brief's twist ("keeping still is the worst plan") is the opposite of the source. Schneirla, quoted in Holldobler and Wilson: the swarm reacts to movement in particular, and a motionless insect has some chance. The twist now says that, and Doug dies because he gives a thumbs up. The costume is a grasshopper, not a katydid, because the sourced prey list names grasshoppers.
-3. The Soldiers: no source for hooked jaws being "hard to pull out" or for jaw-to-body proportions. Kept: soldiers walk the edges, serve almost only as defence, do not catch or carry prey; American army ant jaws have no cutting edge; workers have a well-developed sting. Analogy is shape only (coat hooks).
-4. Bivouac temperature: no figures could be opened. The item says only what the 2019 Ecography abstract says (metabolic heating, site choice, pupal bivouacs warmer than larval ones).
+3. The Soldiers: no source for hooked jaws being "hard to pull out" or for jaw-to-body proportions. Kept: soldiers walk the edges, serve almost only as defence, do not catch or carry prey; American army ant jaws have no cutting edge; workers have a well-developed sting. Shape analogy coat hooks; scale analogy two grains of rice, about twelve millimeters (ADW 3 to 12 mm worker range; USA Rice 6 to 8 mm kernels). The "built to grip" phrase was cut (F4).
+4. Bivouac temperature: no figures could be opened. The item says only what the 2019 Ecography abstract says: metabolic heating, and pupal bivouacs warmer than larval ones when ambient temperature is low; the energy-saving reason is given as "scientists think it may" (F3).
 5. The Queen: "much bigger than any worker" not sourced as a number; the item uses the sourced swelling (55,000 to 66,000 eggs within a week) and the 100,000 to 300,000 burst. Queen choice told as Schneirla's "sealing off", as summarised in Holldobler and Wilson.
 6. Driver ants: Dorylus wilverthi up to twenty-two million (Raignier and van Boven via Holldobler and Wilson); queens thirty-nine to fifty millimeters or more. Farmer pest-clearing anecdote cut (no peer-reviewed source opened). The camp-chair line is the honesty payoff. -->
-<!-- Pronunciation for the editor: Eciton = "EH-sih-ton"; burchellii = "bur-CHEL-ee-eye"; Dorylus = "DOR-ih-lus"; wilverthi = "wil-VER-tee"; siafu not spoken. -->
+<!-- Pronunciation for the editor: Eciton = "EH-sih-ton"; burchellii = "bur-CHEL-ee-eye"; Dorylus = "DOR-ih-lus"; wilverthi = "wil-VER-tee" (none of these four is spoken). Spoken and added to config voice.pronunciations: Rettenmeyer = "RET-en-my-er"; Beebe = "BEE-bee"; Guiana = "gee-AH-nuh". -->
 
 [Open on thumbnail A, 1.5 seconds: a giant army ant soldier head with sickle jaws, no face, filling half the frame; tiny red-capped Doug asleep in a low hammock below; a dark carpet of ants coming in from the edge. DOUG DEATHS: 280. Beside the counter, a crude wooden trail sign: DISTANCE TO QUEEN: ABOUT 200 M.]
 
@@ -75,17 +75,21 @@ The ants have taken the cap as cargo, and they aren't even the strangest thing i
 
 The Followers.
 
-[A wide shot above the swarm: birds on low branches, flies hovering, a butterfly or two. Label: "557 SPECIES".]
+[A wide shot above the swarm: birds on low branches, flies hovering, a butterfly or two.]
 
 About three hundred kinds of animals depend on this one army ant species to survive.
 
-[Two crude researchers with notebooks and a growing stack of index cards.]
+[Two crude researchers with notebooks and a growing stack of index cards. Label "557 SPECIES" lands on the spoken "five hundred and fifty-seven".]
 
 Carl and Marian Rettenmeyer spent decades cataloguing everything that travels with these raids, and counted five hundred and fifty-seven species in total.
 
 [Antbirds on low perches, watching the front. A cricket leaps out of the carpet and a bird snaps it up.]
 
 The best known are the antbirds, which perch just above the front and snatch the insects that leap out of its way, and some of them get around half of their food like this.
+
+[An ocellated antbird on a perch, a pencil laid beside it. Same length. Label: "ABOUT 19 CM".]
+
+One of them, the ocellated antbird, is about the length of a pencil.
 
 [A fly hovering ahead of the swarm drops a tiny egg onto a fleeing cockroach.]
 
@@ -167,6 +171,10 @@ The biggest ants in the swarm catch nothing and carry nothing.
 
 Soldiers have oversized heads and long curved jaws, shaped like two coat hooks bolted to the front of the head.
 
+[A soldier lying beside two grains of rice placed end to end. Same length. Label: "ABOUT 12 MM".]
+
+The whole soldier is about twelve millimeters long, roughly two grains of rice end to end.
+
 [The column from above. Small workers race down the middle. Soldiers walk along both edges.]
 
 They walk along the edges of the column, partly because they're too clumsy to keep their footing in the crowd in the middle.
@@ -179,7 +187,7 @@ They weren't. The soldiers have almost no say over anyone, and they serve almost
 
 The small and medium workers do everything else, from catching and carrying the prey to choosing the nest sites and looking after the queen and the young.
 
-But that isn't the strange part. Even those enormous jaws can't cut, because the jaws of these American army ants are built to grip.
+But that isn't the strange part. Even those enormous jaws can't cut, unlike the jaws of their African relatives.
 
 [A small worker, with a tiny sting at its tail, highlighted.]
 
@@ -210,6 +218,10 @@ Army ants fill the potholes in their own trail by lying down in them.
 [Holes of different sizes. A big ant passes a small hole and leaves it to a small ant.]
 
 Each worker picks a hole its body fits, a big ant will leave a small hole for a smaller one, and then the traffic runs straight over the top.
+
+[The smallest ant in the smallest hole. A sesame seed beside it. Label: "3 MM".]
+
+The workers range from about three millimeters long to twelve, so the smallest plug is about the size of a sesame seed.
 
 [Ants hooked together in a chain across a gap between two twigs. The chain slides sideways to a shorter spot.]
 
@@ -253,9 +265,9 @@ Every ant simply follows the scent of the ant in front of it, and on a normal da
 
 But if a group gets cut off from the main raid, and the front of the line ends up behind its own tail, the circle closes and they run until they die of exhaustion.
 
-[A crude 1920s explorer with a tape measure. Label: "BRITISH GUIANA, 1921".]
+[A crude 1920s explorer with a tape measure. Label: "BRITISH GUIANA".]
 
-In nineteen twenty-one, the naturalist William Beebe found a ring of army ants in British Guiana and measured it at twelve hundred feet around.
+About a century ago, the naturalist William Beebe found a ring of army ants in British Guiana and measured it at twelve hundred feet around.
 
 [The ring overlaid on an athletics track. It nearly fills one lap. Label: "ABOUT 365 M".]
 
@@ -349,7 +361,7 @@ Somewhere in the middle are the young, and the queen.
 
 The ants control the climate inside by opening and sealing airways, and they warm it with the heat of their own bodies.
 
-The unsettling part is that the heating runs on a budget, because when the young inside are pupae, the colony keeps the nest warmer than when they are larvae.
+The unsettling part is who gets the heat. In cool weather, the colony keeps the nest warmer when the young inside are pupae than when they are larvae. Scientists think it may be saving energy on the larvae.
 
 [The red cap, stuck on the outside of the mass. Doug reaches for it.]
 
@@ -381,7 +393,11 @@ Wembley Stadium holds ninety thousand people, so her biggest batch could fill it
 
 [Her abdomen swelling. Label: "55,000 TO 66,000 EGGS".]
 
-Within a week of the colony settling down, her abdomen is already swollen with tens of thousands of eggs, and one marked queen turned up again four and a half years later.
+Within a week of the colony settling down, her abdomen is already swollen with tens of thousands of eggs.
+
+[A calendar flipping through months, then years. The queen, a small paint dot on her back, still in the middle of her workers. Label: "4.5 YEARS".]
+
+And she does it again every few weeks, for years. One marked queen was found again four and a half years later.
 
 [Several young queens, each surrounded by clusters of workers. Two trails lead away from the old nest.]
 
@@ -459,10 +475,10 @@ The narrator would like that noted.
 
 [Field guide ARMY ANT page: a column of red NOs. A yellow sticky note pressed on beside them: "JUST WALK AWAY."]
 
-The biggest swarm on Earth only catches what can't get out of its way.
+The biggest army ant colonies on Earth only catch what can't get out of their way.
 
 [End slate. Doug walking off into the forest, cap on. DOUG DEATHS: 287.]
 
 Doug deaths: two hundred and eighty-seven. Every single one of them could have been a short walk. Doug's next mistake is on your screen now.
 
-<!-- words: 2101 (draft 1, spoken narration only, spoken band headers included; headings, comments and stage directions excluded). About 10.8 min at 195 wpm. 147 sentences, average 14.3 words, longest 34; Flesch 78.2 (textstat). Item 1 name at word 35, its twist marker at word 140. -->
+<!-- words: 2168 (draft 2, spoken narration only, spoken band headers included; headings, comments and stage directions excluded). About 11.1 min at 195 wpm. 154 sentences, average 14.1 words, longest 34. Opening untouched: item 1 name still at word 35, its twist marker at word 140. Segments: Front 231, Followers 204, Menu 194, Soldiers 209, Road Crew 199, Spiral 223, Night Move 195, Living Nest 211, Queen 211, Driver Ants 257. -->
