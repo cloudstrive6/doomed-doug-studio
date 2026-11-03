@@ -29,7 +29,17 @@
       "stage": "packaged",
       "at": "2026-11-03T18:56:53+00:00",
       "note": "all gates passed; narrated 11.6 min"
+    },
+    {
+      "stage": "built",
+      "at": "2026-11-03T19:13:03+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "qc_passed",
+      "at": "2026-11-03T19:23:44+00:00",
+      "note": "final approved"
     }
   ],
-  "stage": "packaged"
+  "stage": "qc_passed"
 }

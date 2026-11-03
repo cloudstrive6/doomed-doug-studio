@@ -75,3 +75,17 @@ Re-reviewed build/thumbnail.png and thumbnail_c.png at full size and at 168 px (
 This is the last CD round on C. If 1-3 are applied, C is approved without another CD look, subject to the visual-screener. If the queen still reads as a barrel to the screener at 168 px, C is dropped from Test & Compare and A/B run as a two-way test. Next: the graphic designer fixes the C queen tile, then the visual-screener checks A, B and C (package approval needs that PASS).
 
 - 2026-11-03 showrunner: packaged. Rounds: script 3 (2 screener FAILs on facts, PASS draft 3), art assets 2 (feet chain redraw), keyframes 3 (art-director + visual-screener), thumbnails 3 (A/B/C all PASS). Risks: kid-appeal of ant topic (no faces, no "vs"); animals playlist is the 4th big-animal slot in a row; tool bug: `keyframes --shots` wipes contact sheets (rebuild with full run).
+
+## 2026-11-03, visual-screener: post-render QA (round 5)
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+## 2026-11-03, creative director: final package approval
+Reviewed: title and alt_titles, build/thumbnail.png (A), the metadata.json description, build/chapters.txt, the script opening and samples f_001-f_003. Gates: QC passed (698.5 s, no problems) and visual-screener round 5 PASS (main and shorts).
+1. **Title: kept as "Why Army Ants Only Kill What Can't Run Away, Like Doug".** The video delivers it: at about 0:50 the script says the front moves only 20 m an hour and "a grown person can simply walk away", then Doug dies asleep in the hammock, and the closing note is "JUST WALK AWAY." None of the alternates is clearly stronger. "How Army Ants Kill Doug Without Ever Seeing Him" would repeat 035's "How X Kills Doug Without..." formula back to back, and "The Creepiest Things Scientists Have Learned" is too close to 032's formula.
+2. **Thumbnail A (DON'T SLEEP): approved.** It is unchanged since the round-2 approval and the screener's PASS. The jaws hang over the sleeping Doug, the swarm comes in from the left, and the 2-word text complements the title. A/B/C go to Test & Compare as planned.
+3. **Description: approved.** The first two lines carry the hook (3,000 an hour, nearly blind) and the payoff (twenty million driver ants). There are 6 real sources and the disclaimer and AI-use blocks are present. `{{CHAPTERS}}` is filled from chapters.txt at upload (studio/youtube.py). The chapters start at 0:00 and there are 11 of them, all at least 10 s long.
+4. **First 60 s: approved.** Thumbnail open, then the 3,000-an-hour cold open and the twenty-million payoff promise by about 0:10. Item 1's name lands at about word 33, and its twist (you can just walk away) comes inside 45 s. The samples show a clean HUD (DOUG DEATHS 280, DISTANCE TO QUEEN 200 M), Doug on-model, the swarm carpet clearly ants, and nothing cute or gory.
+5. Carry-over (not blocking): art director to apply the thumbnail-C oval-gaster fix to the library `army_ant_queen` (screener advisory). The series bible already has the 7 deaths (total 287); its episode log row is now marked final approved. Next pick should leave the animals playlist (this is the 4th big-animal slot in a row).
+
+FINAL: APPROVED

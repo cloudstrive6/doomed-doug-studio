@@ -216,3 +216,36 @@ feed size. Nudging Doug about 10 px right would separate them.
 ### Final
 Thumbnails: **A PASS, B PASS, C PASS.** All three are cleared for the three-way Test & Compare. Post-render checks
 (samples, qc.json, Shorts) are still to come after the final render.
+
+## Round 5: post-render (final.mp4, thumbnails, Shorts) (2026-11-03)
+
+**Main video.** qc.json: 698.5 s, no problems. I viewed all 23 samples (f_001-f_023, mapped to shots s006, s015,
+s025 ... s216) and pulled full-res frames at 252 s (s080), 436 s (s140) and 555 s (s177).
+- There are no black, blank, frozen or glitched frames. Chapter labels, the DOUG DEATHS counter (280→287) and DISTANCE TO
+  QUEEN (200 M→0 M→AFRICA) are legible and stay inside the frame in every sample.
+- Doug is on-model everywhere he appears (red cap, white head). The ghost/absent-Doug beats work: the cap alone on the
+  trail in s149, and only legs under the bivouac in s167. He reads against the dark night and nest backgrounds.
+- The drawings are recognisable: swarm carpet, antbirds, soldier with jaws, potholes plug, mill ring, athletics track, bivouac,
+  queen, suitcase, stopwatch. The silhouette queen in s080/s140 is a deliberate reveal and reads as a large ant. The
+  s101 bar chart shows one bar at the sample time because the WITHOUT bar appears in s102, so that is fine.
+- No gore and nothing kids-show. Every death is off-screen or a cartoon.
+- Advisory only (art director, next time the asset is touched): in the video, the library `army_ant_queen` gaster
+  (s175-s191) still has the slatted pale-band look that the CD flagged on thumbnail C. It reads as a striped barrel
+  at small sizes. In context it is labelled THE QUEEN and attached to an ant body, so it does not block this episode.
+  Please apply the thumbnail-C fix (oval gaster, 3-4 thin bands) to the library asset for future episodes.
+
+**Thumbnails.** A/B/C and the 168x94 versions are unchanged since the Round 4 PASS and were re-viewed. Each has one clear
+focal point, Doug and the threat are obvious, and each complements the title. PASS.
+
+**Shorts.** I viewed the previews and frames at 5/30/60/85/98.5% of each mp4 (1080x1920).
+- short01 (death circle, 48 s), short02 (workers choose the queen, 44 s), short03 (20M driver ants, 34.5 s): the
+  title band is readable (red on white stroke, 2-3 lines). Subtitles are large and legible, and mid-word cuts in stills
+  are only the word-by-word reveal. No drawing is cut at the sides. At about 13 s into short02, the leftmost queen sits about 15 px
+  from the left edge, which is tight but complete. The end card reads FULL VIDEO: TAP BELOW with Doug pointing and a red
+  arrow pointing down.
+- Each pays off its title on screen: the mill and track comparison plus Doug counting laps, the CHOSEN queen and THE LOSERS
+  left behind, and UP TO 22,000,000 plus the camp chair and DOUG MOVED. There is no "???" teaser and no withheld payoff.
+- Minor and non-blocking: the HUD (DOUG DEATHS / DISTANCE) is small in the 9:16 crop, but it is secondary.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
