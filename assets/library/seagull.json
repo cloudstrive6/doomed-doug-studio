@@ -1,0 +1,368 @@
+{
+ "name": "seagull",
+ "description": "Herring-type gull in flight, facing right, wings raised in an M: white body and head, pale grey wings with black tips (white spot), yellow bill with a red spot, small dark eye. Centre anchor, x -120..120, y -60..60.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "animal",
+  "bird",
+  "gull",
+  "seagull",
+  "coast"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     18,
+     2
+    ],
+    [
+     52,
+     -42
+    ],
+    [
+     82,
+     -52
+    ],
+    [
+     120,
+     -30
+    ],
+    [
+     88,
+     -30
+    ],
+    [
+     60,
+     -14
+    ],
+    [
+     36,
+     10
+    ]
+   ],
+   "fill": "#aab4c0",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     96,
+     -48
+    ],
+    [
+     120,
+     -30
+    ],
+    [
+     100,
+     -31
+    ],
+    [
+     88,
+     -36
+    ]
+   ],
+   "fill": "#1a1a1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     14
+    ],
+    [
+     -84,
+     8
+    ],
+    [
+     -92,
+     21
+    ],
+    [
+     -84,
+     34
+    ],
+    [
+     -40,
+     28
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62,
+     18
+    ],
+    [
+     -30,
+     2
+    ],
+    [
+     20,
+     -2
+    ],
+    [
+     55,
+     6
+    ],
+    [
+     60,
+     22
+    ],
+    [
+     20,
+     32
+    ],
+    [
+     -30,
+     30
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 26,
+   "r": 22,
+   "color": "#c8d0d8",
+   "density": 0.35
+  },
+  {
+   "type": "ellipse",
+   "x": 62,
+   "y": 4,
+   "rx": 18,
+   "ry": 16,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 68,
+   "y": 0,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#111",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     76,
+     4
+    ],
+    [
+     104,
+     8
+    ],
+    [
+     98,
+     14
+    ],
+    [
+     76,
+     12
+    ]
+   ],
+   "fill": "#f2c42a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 96,
+   "y": 12,
+   "rx": 3,
+   "ry": 2,
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -14,
+     6
+    ],
+    [
+     -30,
+     -34
+    ],
+    [
+     -52,
+     -54
+    ],
+    [
+     -80,
+     -58
+    ],
+    [
+     -120,
+     -40
+    ],
+    [
+     -92,
+     -32
+    ],
+    [
+     -62,
+     -24
+    ],
+    [
+     -30,
+     -6
+    ],
+    [
+     12,
+     14
+    ]
+   ],
+   "fill": "#aab4c0",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": -60,
+   "y": -40,
+   "r": 16,
+   "color": "#8d98a6",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -96,
+     -52
+    ],
+    [
+     -120,
+     -40
+    ],
+    [
+     -96,
+     -36
+    ],
+    [
+     -84,
+     -40
+    ]
+   ],
+   "fill": "#1a1a1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -104,
+   "y": -44,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -24
+    ],
+    [
+     -12,
+     8
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     -44
+    ],
+    [
+     -20,
+     -10
+    ]
+   ],
+   "color": "#8d98a6",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -14,
+     6
+    ],
+    [
+     -30,
+     -34
+    ],
+    [
+     -52,
+     -54
+    ],
+    [
+     -80,
+     -58
+    ],
+    [
+     -120,
+     -40
+    ],
+    [
+     -92,
+     -32
+    ],
+    [
+     -62,
+     -24
+    ],
+    [
+     -30,
+     -6
+    ],
+    [
+     12,
+     14
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

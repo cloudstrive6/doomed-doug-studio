@@ -1,0 +1,364 @@
+{
+ "name": "ant_larva",
+ "description": "Army-ant larva: plump white #fbf6e6 C-curved grub, faint segment lines, soft cream shading, grey outline, small head capsule at the lower right, no face. Centre anchor, x -60..60, y -30..30. Reads at 0.33 carried above workers and at 1.2 as a diagram icon.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "ant",
+  "larva",
+  "insect",
+  "036"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     14
+    ],
+    [
+     -56,
+     -6
+    ],
+    [
+     -44,
+     -22
+    ],
+    [
+     -20,
+     -30
+    ],
+    [
+     8,
+     -30
+    ],
+    [
+     32,
+     -24
+    ],
+    [
+     50,
+     -10
+    ],
+    [
+     58,
+     6
+    ],
+    [
+     54,
+     22
+    ],
+    [
+     40,
+     28
+    ],
+    [
+     28,
+     26
+    ],
+    [
+     24,
+     18
+    ],
+    [
+     14,
+     12
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     -14,
+     12
+    ],
+    [
+     -26,
+     20
+    ],
+    [
+     -34,
+     28
+    ],
+    [
+     -48,
+     28
+    ]
+   ],
+   "fill": "#fbf6e6",
+   "width": 4,
+   "color": "#7a7a7a",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     20
+    ],
+    [
+     -30,
+     12
+    ],
+    [
+     -10,
+     6
+    ],
+    [
+     10,
+     6
+    ],
+    [
+     30,
+     14
+    ],
+    [
+     46,
+     22
+    ],
+    [
+     40,
+     28
+    ],
+    [
+     22,
+     22
+    ],
+    [
+     0,
+     16
+    ],
+    [
+     -24,
+     22
+    ],
+    [
+     -40,
+     28
+    ]
+   ],
+   "fill": "#e6dcc0",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -6,
+   "y": -18,
+   "r": 10,
+   "color": "#ffffff",
+   "density": 0.6
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -48,
+     -14
+    ],
+    [
+     -46.0,
+     2.0
+    ],
+    [
+     -38,
+     18
+    ]
+   ],
+   "width": 2,
+   "color": "#c9bea4"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -32,
+     -25
+    ],
+    [
+     -31.0,
+     -6.5
+    ],
+    [
+     -24,
+     12
+    ]
+   ],
+   "width": 2,
+   "color": "#c9bea4"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -14,
+     -29
+    ],
+    [
+     -15.0,
+     -10.5
+    ],
+    [
+     -10,
+     8
+    ]
+   ],
+   "width": 2,
+   "color": "#c9bea4"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     4,
+     -29
+    ],
+    [
+     1.0,
+     -10.5
+    ],
+    [
+     4,
+     8
+    ]
+   ],
+   "width": 2,
+   "color": "#c9bea4"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     22,
+     -26
+    ],
+    [
+     17.0,
+     -7.0
+    ],
+    [
+     18,
+     12
+    ]
+   ],
+   "width": 2,
+   "color": "#c9bea4"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     38,
+     -18
+    ],
+    [
+     31.0,
+     -1.0
+    ],
+    [
+     30,
+     16
+    ]
+   ],
+   "width": 2,
+   "color": "#c9bea4"
+  },
+  {
+   "type": "ellipse",
+   "x": 44,
+   "y": 22,
+   "rx": 9,
+   "ry": 7,
+   "fill": "#efe4c8",
+   "width": 2,
+   "color": "#7a7a7a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     14
+    ],
+    [
+     -56,
+     -6
+    ],
+    [
+     -44,
+     -22
+    ],
+    [
+     -20,
+     -30
+    ],
+    [
+     8,
+     -30
+    ],
+    [
+     32,
+     -24
+    ],
+    [
+     50,
+     -10
+    ],
+    [
+     58,
+     6
+    ],
+    [
+     54,
+     22
+    ],
+    [
+     40,
+     28
+    ],
+    [
+     28,
+     26
+    ],
+    [
+     24,
+     18
+    ],
+    [
+     14,
+     12
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     -14,
+     12
+    ],
+    [
+     -26,
+     20
+    ],
+    [
+     -34,
+     28
+    ],
+    [
+     -48,
+     28
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#7a7a7a",
+   "smooth": true
+  }
+ ]
+}

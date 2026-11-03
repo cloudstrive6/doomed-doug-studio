@@ -1,0 +1,255 @@
+{
+ "name": "sesame_seed",
+ "description": "One cream sesame seed: flat teardrop, rounded end left, tiny pointed tip right, faint centre ridge, pale highlight and darker lower edge. Centre anchor, x -180..180, y -105..105 (360 long, matches army_ant_worker at the same scale).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "food",
+  "seed",
+  "sesame",
+  "scale comparison",
+  "tiny"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -178,
+     0
+    ],
+    [
+     -168,
+     -55
+    ],
+    [
+     -120,
+     -98
+    ],
+    [
+     -40,
+     -104
+    ],
+    [
+     60,
+     -80
+    ],
+    [
+     130,
+     -40
+    ],
+    [
+     170,
+     0
+    ],
+    [
+     130,
+     40
+    ],
+    [
+     60,
+     80
+    ],
+    [
+     -40,
+     104
+    ],
+    [
+     -120,
+     98
+    ],
+    [
+     -168,
+     55
+    ]
+   ],
+   "fill": "#f2e6c2",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     40
+    ],
+    [
+     -60,
+     80
+    ],
+    [
+     40,
+     76
+    ],
+    [
+     130,
+     34
+    ],
+    [
+     140,
+     40
+    ],
+    [
+     60,
+     80
+    ],
+    [
+     -40,
+     104
+    ],
+    [
+     -120,
+     98
+    ],
+    [
+     -168,
+     55
+    ]
+   ],
+   "fill": "#dccb9c",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -80,
+   "y": 60,
+   "r": 60,
+   "color": "#c9b582",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -60,
+   "y": -50,
+   "r": 50,
+   "color": "#fffaea",
+   "density": 0.4
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -150,
+     4
+    ],
+    [
+     -60,
+     0
+    ],
+    [
+     40,
+     -2
+    ],
+    [
+     150,
+     0
+    ]
+   ],
+   "color": "#c4ae7c",
+   "width": 3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -140,
+     -30
+    ],
+    [
+     -40,
+     -58
+    ],
+    [
+     80,
+     -40
+    ]
+   ],
+   "color": "#fffdf2",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     158,
+     -8
+    ],
+    [
+     181,
+     0
+    ],
+    [
+     158,
+     8
+    ]
+   ],
+   "fill": "#e2d2a4",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -178,
+     0
+    ],
+    [
+     -168,
+     -55
+    ],
+    [
+     -120,
+     -98
+    ],
+    [
+     -40,
+     -104
+    ],
+    [
+     60,
+     -80
+    ],
+    [
+     130,
+     -40
+    ],
+    [
+     170,
+     0
+    ],
+    [
+     130,
+     40
+    ],
+    [
+     60,
+     80
+    ],
+    [
+     -40,
+     104
+    ],
+    [
+     -120,
+     98
+    ],
+    [
+     -168,
+     55
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}

@@ -1,0 +1,595 @@
+{
+ "name": "ground_beetle",
+ "description": "Ground beetle (carabid), side view facing right: dark metallic blue-black ridged wing cases with a blue sheen, pronotum, small head with mandibles, short antennae, six jointed legs. Mid-tone navy fill so it reads on dark litter. Centre anchor, x -150..150, y -80..80.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "animal",
+  "insect",
+  "beetle",
+  "rainforest",
+  "prey"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     20
+    ],
+    [
+     -72,
+     40
+    ],
+    [
+     -95,
+     76
+    ]
+   ],
+   "color": "#000",
+   "width": 9
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     20
+    ],
+    [
+     -72,
+     40
+    ],
+    [
+     -95,
+     76
+    ]
+   ],
+   "color": "#3a4258",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     25
+    ],
+    [
+     -6,
+     50
+    ],
+    [
+     -5,
+     78
+    ]
+   ],
+   "color": "#000",
+   "width": 9
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     25
+    ],
+    [
+     -6,
+     50
+    ],
+    [
+     -5,
+     78
+    ]
+   ],
+   "color": "#3a4258",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     22
+    ],
+    [
+     104,
+     38
+    ],
+    [
+     120,
+     76
+    ]
+   ],
+   "color": "#000",
+   "width": 9
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     22
+    ],
+    [
+     104,
+     38
+    ],
+    [
+     120,
+     76
+    ]
+   ],
+   "color": "#3a4258",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -148,
+     8
+    ],
+    [
+     -130,
+     -38
+    ],
+    [
+     -60,
+     -62
+    ],
+    [
+     20,
+     -60
+    ],
+    [
+     55,
+     -42
+    ],
+    [
+     60,
+     18
+    ],
+    [
+     20,
+     36
+    ],
+    [
+     -80,
+     34
+    ],
+    [
+     -135,
+     24
+    ]
+   ],
+   "fill": "#2e3d62",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -140,
+     20
+    ],
+    [
+     -60,
+     30
+    ],
+    [
+     40,
+     28
+    ],
+    [
+     55,
+     18
+    ],
+    [
+     20,
+     36
+    ],
+    [
+     -80,
+     34
+    ]
+   ],
+   "fill": "#1c2540",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -128,
+     -24.4
+    ],
+    [
+     -60,
+     -50
+    ],
+    [
+     40,
+     -48.0
+    ]
+   ],
+   "color": "#5a72a6",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -128,
+     -16.0
+    ],
+    [
+     -60,
+     -35
+    ],
+    [
+     40,
+     -33.5
+    ]
+   ],
+   "color": "#5a72a6",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -128,
+     -7.6
+    ],
+    [
+     -60,
+     -20
+    ],
+    [
+     40,
+     -19.0
+    ]
+   ],
+   "color": "#5a72a6",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -128,
+     0.8
+    ],
+    [
+     -60,
+     -5
+    ],
+    [
+     40,
+     -4.5
+    ]
+   ],
+   "color": "#5a72a6",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -128,
+     9.2
+    ],
+    [
+     -60,
+     10
+    ],
+    [
+     40,
+     10.0
+    ]
+   ],
+   "color": "#5a72a6",
+   "width": 2
+  },
+  {
+   "type": "spray",
+   "x": -40,
+   "y": -25,
+   "r": 26,
+   "color": "#6c8cc8",
+   "density": 0.2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -115,
+     -38
+    ],
+    [
+     -60,
+     -56
+    ],
+    [
+     10,
+     -55
+    ]
+   ],
+   "color": "#9ab4e6",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     52,
+     -40
+    ],
+    [
+     100,
+     -42
+    ],
+    [
+     112,
+     -10
+    ],
+    [
+     100,
+     18
+    ],
+    [
+     55,
+     20
+    ]
+   ],
+   "fill": "#2e3d62",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 80,
+   "y": -28,
+   "r": 16,
+   "color": "#6c8cc8",
+   "density": 0.4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     -36
+    ],
+    [
+     80,
+     14
+    ]
+   ],
+   "color": "#1c2540",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     108,
+     -30
+    ],
+    [
+     132,
+     -28
+    ],
+    [
+     142,
+     -8
+    ],
+    [
+     132,
+     10
+    ],
+    [
+     108,
+     10
+    ]
+   ],
+   "fill": "#1c2540",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 122,
+   "y": -16,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#0a0a10",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     138,
+     0
+    ],
+    [
+     152,
+     4
+    ],
+    [
+     140,
+     14
+    ]
+   ],
+   "fill": "#111",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     134,
+     -26
+    ],
+    [
+     150,
+     -55
+    ],
+    [
+     170,
+     -72
+    ]
+   ],
+   "color": "#000",
+   "width": 5
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     126,
+     -28
+    ],
+    [
+     132,
+     -60
+    ],
+    [
+     140,
+     -80
+    ]
+   ],
+   "color": "#000",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     28
+    ],
+    [
+     -88,
+     46
+    ],
+    [
+     -110,
+     80
+    ]
+   ],
+   "color": "#000",
+   "width": 9
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     28
+    ],
+    [
+     -88,
+     46
+    ],
+    [
+     -110,
+     80
+    ]
+   ],
+   "color": "#3a4258",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     15,
+     30
+    ],
+    [
+     40,
+     50
+    ],
+    [
+     30,
+     80
+    ]
+   ],
+   "color": "#000",
+   "width": 9
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     15,
+     30
+    ],
+    [
+     40,
+     50
+    ],
+    [
+     30,
+     80
+    ]
+   ],
+   "color": "#3a4258",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     95,
+     14
+    ],
+    [
+     132,
+     36
+    ],
+    [
+     142,
+     78
+    ]
+   ],
+   "color": "#000",
+   "width": 9
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     95,
+     14
+    ],
+    [
+     132,
+     36
+    ],
+    [
+     142,
+     78
+    ]
+   ],
+   "color": "#3a4258",
+   "width": 5
+  }
+ ]
+}

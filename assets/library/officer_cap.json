@@ -1,0 +1,361 @@
+{
+ "name": "officer_cap",
+ "description": "Peaked military officer's cap, side view facing right: dark navy #24305a crown, black band with two gold stripes and a gold chin cord, gold badge on the front, glossy black peak jutting right. Centre anchor, x -100..100, y -55..55. Used tiny on a soldier ant in a thought bubble.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "hat",
+  "military",
+  "036"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     -18
+    ],
+    [
+     -96,
+     -36
+    ],
+    [
+     -70,
+     -50
+    ],
+    [
+     0,
+     -54
+    ],
+    [
+     70,
+     -48
+    ],
+    [
+     98,
+     -34
+    ],
+    [
+     84,
+     -12
+    ],
+    [
+     60,
+     -2
+    ],
+    [
+     -70,
+     -2
+    ]
+   ],
+   "fill": "#24305a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90,
+     -22
+    ],
+    [
+     -88,
+     -36
+    ],
+    [
+     -60,
+     -46
+    ],
+    [
+     20,
+     -50
+    ],
+    [
+     60,
+     -46
+    ],
+    [
+     30,
+     -38
+    ],
+    [
+     -40,
+     -34
+    ],
+    [
+     -80,
+     -26
+    ]
+   ],
+   "fill": "#3a4a80",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -20,
+   "y": -42,
+   "r": 14,
+   "color": "#6070a8",
+   "density": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     -18
+    ],
+    [
+     -96,
+     -36
+    ],
+    [
+     -70,
+     -50
+    ],
+    [
+     0,
+     -54
+    ],
+    [
+     70,
+     -48
+    ],
+    [
+     98,
+     -34
+    ],
+    [
+     84,
+     -12
+    ],
+    [
+     60,
+     -2
+    ],
+    [
+     -70,
+     -2
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -72,
+     -4
+    ],
+    [
+     62,
+     -4
+    ],
+    [
+     64,
+     20
+    ],
+    [
+     -70,
+     20
+    ]
+   ],
+   "fill": "#151a2e",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -68,
+     2
+    ],
+    [
+     60,
+     2
+    ]
+   ],
+   "width": 4,
+   "color": "#d9a62a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -68,
+     14
+    ],
+    [
+     60,
+     14
+    ]
+   ],
+   "width": 4,
+   "color": "#d9a62a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     8
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     52,
+     8
+    ]
+   ],
+   "width": 3,
+   "color": "#f2c94a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     26,
+     -32
+    ],
+    [
+     36,
+     -40
+    ],
+    [
+     46,
+     -32
+    ],
+    [
+     46,
+     -16
+    ],
+    [
+     36,
+     -8
+    ],
+    [
+     26,
+     -16
+    ]
+   ],
+   "fill": "#f2c94a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 36,
+   "y": -24,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#b07a10",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     14,
+     -26
+    ],
+    [
+     22,
+     -20
+    ],
+    [
+     24,
+     -12
+    ]
+   ],
+   "width": 3,
+   "color": "#d9a62a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     58,
+     -26
+    ],
+    [
+     50,
+     -20
+    ],
+    [
+     48,
+     -12
+    ]
+   ],
+   "width": 3,
+   "color": "#d9a62a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     20,
+     12
+    ],
+    [
+     64,
+     6
+    ],
+    [
+     98,
+     22
+    ],
+    [
+     100,
+     34
+    ],
+    [
+     70,
+     34
+    ],
+    [
+     20,
+     24
+    ]
+   ],
+   "fill": "#111111",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     44,
+     14
+    ],
+    [
+     74,
+     16
+    ],
+    [
+     94,
+     26
+    ]
+   ],
+   "width": 3,
+   "color": "#5a5a5a"
+  }
+ ]
+}

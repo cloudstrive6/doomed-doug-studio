@@ -1,0 +1,687 @@
+{
+ "name": "road_worker_lying",
+ "description": "Crude-tier road worker (stick man, Doug's line, no red cap) lying flat on his back with his head at the LEFT: yellow hard hat, orange hi-vis vest with silver reflective stripes, calm resigned flat-mouthed face looking up. Centre anchor, x -210..210, y -55..55. auto_ink.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "human",
+  "crude tier",
+  "road",
+  "036"
+ ],
+ "auto_ink": true,
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     22
+    ],
+    [
+     120,
+     26
+    ],
+    [
+     196,
+     30
+    ]
+   ],
+   "width": 11,
+   "color": "#f2f2f2",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     22
+    ],
+    [
+     118,
+     38
+    ],
+    [
+     194,
+     44
+    ]
+   ],
+   "width": 11,
+   "color": "#f2f2f2",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     196,
+     30
+    ],
+    [
+     208,
+     14
+    ]
+   ],
+   "width": 11,
+   "color": "#f2f2f2",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     194,
+     44
+    ],
+    [
+     210,
+     30
+    ]
+   ],
+   "width": 11,
+   "color": "#f2f2f2",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -112,
+     16
+    ],
+    [
+     40,
+     22
+    ]
+   ],
+   "width": 11,
+   "color": "#f2f2f2",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -84,
+     30
+    ],
+    [
+     -20,
+     44
+    ],
+    [
+     30,
+     46
+    ]
+   ],
+   "width": 11,
+   "color": "#f2f2f2",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     22
+    ],
+    [
+     120,
+     26
+    ],
+    [
+     196,
+     30
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     22
+    ],
+    [
+     118,
+     38
+    ],
+    [
+     194,
+     44
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     196,
+     30
+    ],
+    [
+     208,
+     14
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     194,
+     44
+    ],
+    [
+     210,
+     30
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -112,
+     16
+    ],
+    [
+     40,
+     22
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     2
+    ],
+    [
+     -60,
+     -6
+    ],
+    [
+     30,
+     0
+    ],
+    [
+     36,
+     40
+    ],
+    [
+     -60,
+     44
+    ],
+    [
+     -100,
+     34
+    ]
+   ],
+   "fill": "#ff7a1a",
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     2
+    ],
+    [
+     -60,
+     -6
+    ],
+    [
+     -20,
+     -4
+    ],
+    [
+     -60,
+     6
+    ],
+    [
+     -96,
+     14
+    ]
+   ],
+   "fill": "#ffa040",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62,
+     -3
+    ],
+    [
+     -48,
+     -2
+    ],
+    [
+     -44,
+     42
+    ],
+    [
+     -58,
+     42
+    ]
+   ],
+   "fill": "#e8ecf0",
+   "width": 2,
+   "color": "#7a7a7a",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -14,
+     -3
+    ],
+    [
+     0,
+     -2
+    ],
+    [
+     4,
+     42
+    ],
+    [
+     -10,
+     42
+    ]
+   ],
+   "fill": "#e8ecf0",
+   "width": 2,
+   "color": "#7a7a7a",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100,
+     20
+    ],
+    [
+     34,
+     22
+    ]
+   ],
+   "width": 7,
+   "color": "#e8ecf0",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100,
+     18
+    ],
+    [
+     34,
+     20
+    ]
+   ],
+   "width": 2,
+   "color": "#7a7a7a",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     2
+    ],
+    [
+     -60,
+     -6
+    ],
+    [
+     30,
+     0
+    ],
+    [
+     36,
+     40
+    ],
+    [
+     -60,
+     44
+    ],
+    [
+     -100,
+     34
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -84,
+     30
+    ],
+    [
+     -20,
+     44
+    ],
+    [
+     30,
+     46
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 36,
+   "y": 46,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -160,
+   "y": 0,
+   "rx": 46,
+   "ry": 46,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -183.0,
+     41.3
+    ],
+    [
+     -192.6,
+     36.5
+    ],
+    [
+     -200.7,
+     29.4
+    ],
+    [
+     -206.8,
+     20.7
+    ],
+    [
+     -210.7,
+     10.6
+    ],
+    [
+     -212.0,
+     0.0
+    ],
+    [
+     -210.7,
+     -10.6
+    ],
+    [
+     -206.8,
+     -20.7
+    ],
+    [
+     -200.7,
+     -29.4
+    ],
+    [
+     -192.6,
+     -36.5
+    ],
+    [
+     -183.0,
+     -41.3
+    ],
+    [
+     -164.3,
+     -33.8
+    ],
+    [
+     -172.1,
+     -29.8
+    ],
+    [
+     -178.8,
+     -24.1
+    ],
+    [
+     -183.8,
+     -16.9
+    ],
+    [
+     -186.9,
+     -8.7
+    ],
+    [
+     -188.0,
+     0.0
+    ],
+    [
+     -186.9,
+     8.7
+    ],
+    [
+     -183.8,
+     16.9
+    ],
+    [
+     -178.8,
+     24.1
+    ],
+    [
+     -172.1,
+     29.8
+    ],
+    [
+     -164.3,
+     33.8
+    ]
+   ],
+   "fill": "#d6d6d6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -160,
+   "y": 0,
+   "rx": 46,
+   "ry": 46,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -164,
+   "y": -16,
+   "rx": 7,
+   "ry": 10,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": -164,
+   "y": -20,
+   "rx": 3.5,
+   "ry": 3.5,
+   "fill": "#000000",
+   "width": 1,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": -142,
+   "y": -16,
+   "rx": 7,
+   "ry": 10,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": -142,
+   "y": -20,
+   "rx": 3.5,
+   "ry": 3.5,
+   "fill": "#000000",
+   "width": 1,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -162,
+     14
+    ],
+    [
+     -142,
+     14
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -190,
+     -44
+    ],
+    [
+     -210,
+     -26
+    ],
+    [
+     -216,
+     0
+    ],
+    [
+     -210,
+     26
+    ],
+    [
+     -190,
+     44
+    ],
+    [
+     -186,
+     36
+    ],
+    [
+     -190,
+     0
+    ],
+    [
+     -186,
+     -36
+    ]
+   ],
+   "fill": "#f7c21b",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true,
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -190,
+     -50
+    ],
+    [
+     -190,
+     50
+    ]
+   ],
+   "width": 7,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -190,
+     -48
+    ],
+    [
+     -190,
+     48
+    ]
+   ],
+   "width": 3,
+   "color": "#f2b400",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -206,
+     -20
+    ],
+    [
+     -212,
+     0
+    ],
+    [
+     -206,
+     20
+    ]
+   ],
+   "width": 3,
+   "color": "#c98a00",
+   "keep_ink": true
+  }
+ ]
+}

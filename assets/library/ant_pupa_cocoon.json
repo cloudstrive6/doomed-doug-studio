@@ -1,0 +1,193 @@
+{
+ "name": "ant_pupa_cocoon",
+ "description": "Army-ant pupa in its silk cocoon: pale tan #e8d8b0 oval with a darker tan end at the left, soft white highlight, faint silk lines, brown outline. Centre anchor, x -65..65, y -30..30.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "ant",
+  "pupa",
+  "cocoon",
+  "insect",
+  "036"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 63,
+   "ry": 28,
+   "fill": "#e8d8b0",
+   "width": 4,
+   "color": "#5a4630"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     20
+    ],
+    [
+     0,
+     25
+    ],
+    [
+     35,
+     22
+    ],
+    [
+     55,
+     10
+    ],
+    [
+     40,
+     18
+    ],
+    [
+     0,
+     20
+    ]
+   ],
+   "fill": "#d6c28e",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": 0,
+   "rx": 12,
+   "ry": 20,
+   "fill": "#bfa36a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -52,
+   "y": 2,
+   "r": 12,
+   "color": "#9e8450",
+   "density": 0.5
+  },
+  {
+   "type": "spray",
+   "x": 8,
+   "y": -12,
+   "r": 16,
+   "color": "#fffaf0",
+   "density": 0.6
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -22,
+     -18
+    ],
+    [
+     6,
+     -21
+    ],
+    [
+     30,
+     -16
+    ]
+   ],
+   "width": 3,
+   "color": "#fffaf0"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -28,
+     -24
+    ],
+    [
+     -25,
+     0
+    ],
+    [
+     -28,
+     24
+    ]
+   ],
+   "width": 2,
+   "color": "#cdb98a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -6,
+     -24
+    ],
+    [
+     -3,
+     0
+    ],
+    [
+     -6,
+     24
+    ]
+   ],
+   "width": 2,
+   "color": "#cdb98a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     16,
+     -24
+    ],
+    [
+     19,
+     0
+    ],
+    [
+     16,
+     24
+    ]
+   ],
+   "width": 2,
+   "color": "#cdb98a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     36,
+     -24
+    ],
+    [
+     39,
+     0
+    ],
+    [
+     36,
+     24
+    ]
+   ],
+   "width": 2,
+   "color": "#cdb98a"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 63,
+   "ry": 28,
+   "fill": null,
+   "width": 4,
+   "color": "#5a4630"
+  }
+ ]
+}

@@ -1,0 +1,777 @@
+{
+ "name": "ocellated_antbird",
+ "description": "Ocellated antbird (Phaenostictus mcleannani), perched side view facing right: bright blue bare-skin eye patch, black throat, rufous-chestnut neck and breast, buff-olive back and wing covered in black buff-ringed 'eye' spots, long grey legs, slim dark bill, medium tail. Small dark eye, no smile. Bottom-centre anchor = feet on perch (0,0); bill tip to tail tip x -225..225 (450 long, = pencil), y -230..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "animal",
+  "bird",
+  "rainforest",
+  "antbird",
+  "army ants",
+  "panama"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -95,
+     -118
+    ],
+    [
+     -225,
+     -82
+    ],
+    [
+     -222,
+     -62
+    ],
+    [
+     -90,
+     -92
+    ]
+   ],
+   "fill": "#6e5432",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -110,
+     -100
+    ],
+    [
+     -215,
+     -73
+    ]
+   ],
+   "color": "#4e3a22",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -70
+    ],
+    [
+     -22,
+     -36
+    ],
+    [
+     -8,
+     0
+    ]
+   ],
+   "color": "#000000",
+   "width": 10
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -70
+    ],
+    [
+     -22,
+     -36
+    ],
+    [
+     -8,
+     0
+    ]
+   ],
+   "color": "#8f7f7a",
+   "width": 6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     -68
+    ],
+    [
+     14,
+     -34
+    ],
+    [
+     20,
+     0
+    ]
+   ],
+   "color": "#000000",
+   "width": 10
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     -68
+    ],
+    [
+     14,
+     -34
+    ],
+    [
+     20,
+     0
+    ]
+   ],
+   "color": "#8f7f7a",
+   "width": 6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     2
+    ],
+    [
+     14,
+     2
+    ]
+   ],
+   "color": "#000000",
+   "width": 6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -28,
+     1
+    ],
+    [
+     12,
+     1
+    ]
+   ],
+   "color": "#8f7f7a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -2,
+     2
+    ],
+    [
+     42,
+     2
+    ]
+   ],
+   "color": "#000000",
+   "width": 6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     1
+    ],
+    [
+     40,
+     1
+    ]
+   ],
+   "color": "#8f7f7a",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -105,
+     -112
+    ],
+    [
+     -80,
+     -150
+    ],
+    [
+     -20,
+     -172
+    ],
+    [
+     50,
+     -175
+    ],
+    [
+     110,
+     -160
+    ],
+    [
+     135,
+     -125
+    ],
+    [
+     120,
+     -85
+    ],
+    [
+     70,
+     -62
+    ],
+    [
+     0,
+     -58
+    ],
+    [
+     -60,
+     -75
+    ]
+   ],
+   "fill": "#9a7c4a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -170
+    ],
+    [
+     100,
+     -168
+    ],
+    [
+     132,
+     -130
+    ],
+    [
+     122,
+     -86
+    ],
+    [
+     75,
+     -63
+    ],
+    [
+     20,
+     -62
+    ],
+    [
+     30,
+     -100
+    ]
+   ],
+   "fill": "#a8481e",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 70,
+   "y": -95,
+   "r": 40,
+   "color": "#7a2e12",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 10,
+   "y": -75,
+   "r": 35,
+   "color": "#6a5030",
+   "density": 0.25
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -110
+    ],
+    [
+     -60,
+     -150
+    ],
+    [
+     10,
+     -162
+    ],
+    [
+     60,
+     -150
+    ],
+    [
+     55,
+     -115
+    ],
+    [
+     0,
+     -92
+    ],
+    [
+     -70,
+     -95
+    ]
+   ],
+   "fill": "#7f6236",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": -60,
+   "y": -130,
+   "rx": 11,
+   "ry": 8,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -59,
+   "y": -131,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -30,
+   "y": -142,
+   "rx": 11,
+   "ry": 8,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -29,
+   "y": -143,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -148,
+   "rx": 11,
+   "ry": 8,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 1,
+   "y": -149,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 30,
+   "y": -142,
+   "rx": 11,
+   "ry": 8,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 31,
+   "y": -143,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -40,
+   "y": -110,
+   "rx": 11,
+   "ry": 8,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -39,
+   "y": -111,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -10,
+   "y": -120,
+   "rx": 11,
+   "ry": 8,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -9,
+   "y": -121,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 20,
+   "y": -120,
+   "rx": 11,
+   "ry": 8,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 21,
+   "y": -121,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -75,
+   "y": -110,
+   "rx": 11,
+   "ry": 8,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -74,
+   "y": -111,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 45,
+   "y": -128,
+   "rx": 11,
+   "ry": 8,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 46,
+   "y": -129,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 8,
+   "y": -100,
+   "rx": 11,
+   "ry": 8,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 9,
+   "y": -101,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -25,
+   "y": -100,
+   "rx": 11,
+   "ry": 8,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -24,
+   "y": -101,
+   "rx": 7,
+   "ry": 5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -70,
+   "y": -150,
+   "rx": 8,
+   "ry": 6,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -70,
+   "y": -151,
+   "rx": 5,
+   "ry": 4,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -40,
+   "y": -164,
+   "rx": 8,
+   "ry": 6,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -40,
+   "y": -165,
+   "rx": 5,
+   "ry": 4,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 60,
+   "y": -165,
+   "rx": 8,
+   "ry": 6,
+   "fill": "#e2c88a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 60,
+   "y": -166,
+   "rx": 5,
+   "ry": 4,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -150
+    ],
+    [
+     10,
+     -162
+    ],
+    [
+     60,
+     -150
+    ]
+   ],
+   "color": "#5a4222",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 145,
+   "y": -170,
+   "rx": 46,
+   "ry": 42,
+   "fill": "#6a5a44",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     128,
+     -150
+    ],
+    [
+     175,
+     -152
+    ],
+    [
+     178,
+     -138
+    ],
+    [
+     150,
+     -112
+    ],
+    [
+     128,
+     -110
+    ],
+    [
+     120,
+     -130
+    ]
+   ],
+   "fill": "#161616",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 145,
+   "y": -170,
+   "rx": 46,
+   "ry": 42,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 160,
+   "y": -178,
+   "rx": 22,
+   "ry": 17,
+   "fill": "#2f9be6",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 158,
+   "y": -182,
+   "r": 14,
+   "color": "#8fd0ff",
+   "density": 0.2
+  },
+  {
+   "type": "ellipse",
+   "x": 164,
+   "y": -178,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#0a0a0a",
+   "width": 1,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     184,
+     -176
+    ],
+    [
+     225,
+     -164
+    ],
+    [
+     186,
+     -156
+    ]
+   ],
+   "fill": "#2a2a2a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     188,
+     -165
+    ],
+    [
+     218,
+     -164
+    ]
+   ],
+   "color": "#5a5a5a",
+   "width": 2
+  }
+ ]
+}
