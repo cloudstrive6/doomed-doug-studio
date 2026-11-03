@@ -31,3 +31,9 @@
    Road Crew was the first choice but runs about 56 s with an outro, over the 55 s cap. Titles and descriptions are left for the youtube-titler.
 8. **Layout check:** keyframes were rendered with temporary stand-in boxes at the exact requested extents (removed afterwards). Fixed: props, wordart and bubbles in the counter/sign zone (s042, s044, s048, s070, s076, s102, s154, s187, s192, s203, s205), the hanging-nest log crossing the HUD (now x 800, scale 1.15), the egg piles (now drawn eggs instead of spray), the bridge-Doug geometry and the field-guide NO rows (4+3 at 32 units).
    A real keyframe pass is still needed once the 33 drawings exist.
+
+## Keyframe review fixes (director, 2026-11-03)
+- **Capless ghost, s169-s170 (logged one-off, visual review item 10):** the ghost Doug wears `gear: ["cap_taken"]`. The real cap is stuck in the bivouac (s166) and comes back out in s170 ("The cap came back out"), so a capped ghost would put two caps in the frame and muddle the punchline. This departs from the art bible's "a ghost Doug keeps his cap as always" for these two shots only.
+- s197: New York is built from the library building family (`empire_state_building` + `four/five/six/eight/ten_story_building`) instead of `city_skyline_small` (Darwin, palms). No new asset needed.
+- s117-s118 restaged on the top-down dirt card used in s109-s116 (visual review option b). No `army_ant_mill_side` asset needed.
+- Distance sign: one format all episode ("DISTANCE TO QUEEN: 200 M"; "ABOUT" dropped in s002-s028).

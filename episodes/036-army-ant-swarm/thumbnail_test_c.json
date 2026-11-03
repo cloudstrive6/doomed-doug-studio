@@ -1,0 +1,267 @@
+{
+ "_note": "Variant C (list-format control): 4 big tiles 2x2 in episode order with real item names (034/035 top-band label layout, Comic Neue bold on white): FRONT (swarm carpet rolling toward panicking Doug, lime), SPIRAL (the ant mill from above with Doug walking it with X eyes, cyan), NEST (the living bivouac hanging under a log, Doug pointing, violet), QUEEN (the huge-gaster queen, Doug cowering, yellow). Red cap in every tile. No title words, no counts, no gore.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 16,
+   "y": 16,
+   "w": 616,
+   "h": 336,
+   "fill": "#9be15d",
+   "radius": 20,
+   "frame_width": 7,
+   "boil": 0,
+   "wobble": 0,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 16,
+     "y": 300,
+     "w": 616,
+     "h": 120,
+     "fill": "#7a5230",
+     "color": "#7a5230",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "army_ant_carpet",
+     "x": -150,
+     "y": 304,
+     "scale": 0.42,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "army_ant_carpet",
+     "x": 150,
+     "y": 304,
+     "scale": 0.42,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 540,
+     "y": 262,
+     "scale": 0.3,
+     "pose": "panic1",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 6,
+     "y": 6,
+     "w": 636,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "FRONT",
+     "x": 324,
+     "y": 54,
+     "size": 62,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 648,
+   "y": 16,
+   "w": 616,
+   "h": 336,
+   "fill": "#29c4f0",
+   "radius": 20,
+   "frame_width": 7,
+   "boil": 0,
+   "wobble": 0,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "army_ant_mill",
+     "x": 956,
+     "y": 226,
+     "scale": 0.34,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 956,
+     "y": 236,
+     "scale": 0.24,
+     "pose": [
+      "walk1"
+     ],
+     "expression": "dead",
+     "facing": "right",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 638,
+     "y": 6,
+     "w": 636,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "SPIRAL",
+     "x": 956,
+     "y": 54,
+     "size": 62,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 16,
+   "y": 368,
+   "w": 616,
+   "h": 336,
+   "fill": "#c46be0",
+   "radius": 20,
+   "frame_width": 7,
+   "boil": 0,
+   "wobble": 0,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "fallen_log",
+     "x": 250,
+     "y": 530,
+     "scale": 0.62,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "ant_bivouac",
+     "x": 250,
+     "y": 450,
+     "scale": 0.42,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 520,
+     "y": 632,
+     "scale": 0.3,
+     "pose": "point",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 6,
+     "y": 358,
+     "w": 636,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "NEST",
+     "x": 324,
+     "y": 406,
+     "size": 62,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  },
+  {
+   "type": "tile",
+   "x": 648,
+   "y": 368,
+   "w": 616,
+   "h": 336,
+   "fill": "#ffd23f",
+   "radius": 20,
+   "frame_width": 7,
+   "boil": 0,
+   "wobble": 0,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "army_ant_queen",
+     "x": 880,
+     "y": 590,
+     "scale": 0.66,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 1170,
+     "y": 608,
+     "scale": 0.28,
+     "pose": "cower",
+     "expression": "shock",
+     "facing": "left",
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 638,
+     "y": 358,
+     "w": 636,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "QUEEN",
+     "x": 956,
+     "y": 406,
+     "size": 62,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ]
+  }
+ ]
+}

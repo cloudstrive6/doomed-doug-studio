@@ -1,0 +1,115 @@
+{
+ "background": "#0e7c6b",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 640,
+   "w": 1300,
+   "h": 100,
+   "fill": "#6b4a2a",
+   "color": "#6b4a2a",
+   "width": 0,
+   "outline": false,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     640
+    ],
+    [
+     1290,
+     640
+    ]
+   ],
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "army_ant_soldier",
+   "x": 70,
+   "y": 330,
+   "scale": 3.35,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "army_ant_carpet",
+   "x": -150,
+   "y": 722,
+   "scale": 0.6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "army_ant_carpet",
+   "x": 380,
+   "y": 722,
+   "scale": 0.6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "hammock",
+   "x": 1060,
+   "y": 588,
+   "scale": 0.55,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 1080,
+   "y": 560,
+   "scale": 0.4,
+   "pose": "on_back",
+   "expression": "sleepy",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "DON'T",
+   "x": 1080,
+   "y": 80,
+   "size": 98,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "SLEEP",
+   "x": 1080,
+   "y": 180,
+   "size": 98,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ],
+ "_note": "Variant A (hero close-up; video opening image s001 via scene_ref): saturated deep-teal field over a dark forest-floor strip; one giant Eciton soldier (army_ant_soldier x3.35, cropped so the pale faceless head and long sickle jaws fill the left two-thirds, body running off the left edge; the front-view army_ant_soldier_head was tried first and read as a potato on legs at feed size, the side profile reads as an ant instantly) with its jaw hooks hanging right over tiny red-capped Doug asleep (on_back, sleepy) in a low striped hammock bottom-right; the dark swarm carpet pours in from the left edge under the legs, ragged leading edge toward the hammock. Text DON'T / SLEEP stacked top-right (adds the why to the title; no title words, no counts)."
+}
