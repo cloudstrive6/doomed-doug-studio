@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-11-03T18:50:14+00:00",
       "note": "art-director R3 PASS, visual-screener keyframes R3 PASS, thumbnails A/B/C PASS, CD approved"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-03T18:56:53+00:00",
+      "note": "all gates passed; narrated 11.6 min"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

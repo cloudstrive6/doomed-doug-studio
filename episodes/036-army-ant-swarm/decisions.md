@@ -73,3 +73,5 @@ Re-reviewed build/thumbnail.png and thumbnail_c.png at full size and at 168 px (
 4. Leave everything else as it is.
 
 This is the last CD round on C. If 1-3 are applied, C is approved without another CD look, subject to the visual-screener. If the queen still reads as a barrel to the screener at 168 px, C is dropped from Test & Compare and A/B run as a two-way test. Next: the graphic designer fixes the C queen tile, then the visual-screener checks A, B and C (package approval needs that PASS).
+
+- 2026-11-03 showrunner: packaged. Rounds: script 3 (2 screener FAILs on facts, PASS draft 3), art assets 2 (feet chain redraw), keyframes 3 (art-director + visual-screener), thumbnails 3 (A/B/C all PASS). Risks: kid-appeal of ant topic (no faces, no "vs"); animals playlist is the 4th big-animal slot in a row; tool bug: `keyframes --shots` wipes contact sheets (rebuild with full run).
