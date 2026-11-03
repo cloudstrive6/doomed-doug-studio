@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T19:01:58+00:00",
+ "at": "2026-11-03T20:02:00+00:00",
  "issues": [
   {
    "key": "related_pending",
@@ -7,6 +7,26 @@
    "owner": "owner",
    "summary": "3 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "detail": "A Leopard's Fangs Fit the Holes in This Ancient Skull -> The Worst Deaths Scientists Have Found in Our Ancestors' Bones\nThis Ancient Crocodile's Name Means Man-Eating -> The Worst Deaths Scientists Have Found in Our Ancestors' Bones\nA Giant Hyena Turned Peking Man's Cave Into Its Den -> The Worst Deaths Scientists Have Found in Our Ancestors' Bones",
+   "route": "",
+   "fixed": false,
+   "extra": {}
+  },
+  {
+   "key": "end_screens_pending",
+   "severity": "low",
+   "owner": "owner",
+   "summary": "1 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor",
+   "route": "",
+   "fixed": false,
+   "extra": {}
+  },
+  {
+   "key": "thumb_tests_pending",
+   "severity": "low",
+   "owner": "owner",
+   "summary": "1 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit",
    "route": "",
    "fixed": false,
    "extra": {}
