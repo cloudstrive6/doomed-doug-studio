@@ -1,5 +1,16 @@
 {
- "at": "2026-11-03T16:01:43+00:00",
- "issues": [],
+ "at": "2026-11-03T17:01:59+00:00",
+ "issues": [
+  {
+   "key": "related_pending",
+   "severity": "low",
+   "owner": "owner",
+   "summary": "3 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "detail": "A Leopard's Fangs Fit the Holes in This Ancient Skull -> The Worst Deaths Scientists Have Found in Our Ancestors' Bones\nThis Ancient Crocodile's Name Means Man-Eating -> The Worst Deaths Scientists Have Found in Our Ancestors' Bones\nA Giant Hyena Turned Peking Man's Cave Into Its Den -> The Worst Deaths Scientists Have Found in Our Ancestors' Bones",
+   "route": "",
+   "fixed": false,
+   "extra": {}
+  }
+ ],
  "resolved_since_last": []
 }

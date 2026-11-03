@@ -10,14 +10,13 @@
    "resolved": "2026-10-31T16:01:40+00:00"
   },
   "related_pending": {
-   "first_seen": "2026-10-27T16:37:50+00:00",
+   "first_seen": "2026-11-03T17:01:59+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-02T23:01:54+00:00",
-   "summary": "24 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "last_seen": "2026-11-03T17:01:59+00:00",
+   "summary": "3 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
-   "alerted_at": "2026-11-02T19:01:46+00:00",
-   "resolved": "2026-11-03T00:01:42+00:00"
+   "alerted_at": "2026-11-03T17:01:59+00:00"
   },
   "end_screens_pending": {
    "first_seen": "2026-10-27T09:38:26+00:00",
