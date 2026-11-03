@@ -4957,13 +4957,13 @@
      {
       "type": "text",
       "text": "THE FOLLOWERS",
-      "x": 960,
-      "y": 330,
-      "size": 130,
+      "x": 760,
+      "y": 275,
+      "size": 110,
       "color": "#e0201b",
       "bold": true,
       "boil": 0.3,
-      "max_width": 1600,
+      "max_width": 1300,
       "outline": "#000000",
       "outline_width": 6
      },
@@ -11806,8 +11806,8 @@
      {
       "type": "wordart",
       "text": "GOES WELL",
-      "x": 1100,
-      "y": 300,
+      "x": 640,
+      "y": 330,
       "size": 96,
       "boil": 0,
       "top": "#ffffff",
@@ -18916,18 +18916,18 @@
       "type": "ellipse",
       "x": 560,
       "y": 720,
-      "rx": 170,
-      "ry": 46,
+      "rx": 155,
+      "ry": 40,
       "fill": "#3a3a3a",
       "color": "#000000",
       "width": 4
      },
      {
       "type": "ellipse",
-      "x": 1360,
+      "x": 1300,
       "y": 720,
-      "rx": 170,
-      "ry": 46,
+      "rx": 155,
+      "ry": 40,
       "fill": "#3a3a3a",
       "color": "#000000",
       "width": 4
@@ -18936,16 +18936,16 @@
       "type": "asset",
       "name": "road_worker_lying",
       "x": 560,
-      "y": 740,
-      "scale": 0.75,
+      "y": 734,
+      "scale": 0.45,
       "appear": 0.4
      },
      {
       "type": "asset",
       "name": "road_worker_lying",
-      "x": 1360,
-      "y": 740,
-      "scale": 0.75,
+      "x": 1300,
+      "y": 734,
+      "scale": 0.45,
       "appear": 0.55
      },
      {
@@ -18958,7 +18958,7 @@
      },
      {
       "type": "doug",
-      "x": 1760,
+      "x": 1800,
       "y": 999.2,
       "scale": 0.4,
       "pose": "stand",
@@ -19143,18 +19143,18 @@
       "type": "ellipse",
       "x": 560,
       "y": 720,
-      "rx": 170,
-      "ry": 46,
+      "rx": 155,
+      "ry": 40,
       "fill": "#3a3a3a",
       "color": "#000000",
       "width": 4
      },
      {
       "type": "ellipse",
-      "x": 1360,
+      "x": 1300,
       "y": 720,
-      "rx": 170,
-      "ry": 46,
+      "rx": 155,
+      "ry": 40,
       "fill": "#3a3a3a",
       "color": "#000000",
       "width": 4
@@ -19163,30 +19163,30 @@
       "type": "asset",
       "name": "road_worker_lying",
       "x": 560,
-      "y": 740,
-      "scale": 0.75
+      "y": 734,
+      "scale": 0.45
      },
      {
       "type": "asset",
       "name": "road_worker_lying",
-      "x": 1360,
-      "y": 740,
-      "scale": 0.75
+      "x": 1300,
+      "y": 734,
+      "scale": 0.45
      },
      {
       "type": "asset",
       "name": "small_car",
-      "x": 600,
-      "y": 760,
-      "scale": 0.9,
+      "x": 560,
+      "y": 736,
+      "scale": 1.45,
       "appear": 0.1
      },
      {
       "type": "asset",
       "name": "city_bus",
-      "x": 1320,
-      "y": 760,
-      "scale": 0.55,
+      "x": 1355,
+      "y": 728,
+      "scale": 1.0,
       "appear": 0.45
      },
      {
@@ -19198,7 +19198,7 @@
      },
      {
       "type": "doug",
-      "x": 1760,
+      "x": 1800,
       "y": 999.2,
       "scale": 0.4,
       "pose": "stand",
@@ -28343,9 +28343,9 @@
      {
       "type": "rect",
       "x": 80,
-      "y": 260,
+      "y": 295,
       "w": 560,
-      "h": 640,
+      "h": 605,
       "fill": "#46523f",
       "color": "#000000",
       "width": 6,
@@ -28380,9 +28380,9 @@
      {
       "type": "rect",
       "x": 680,
-      "y": 260,
+      "y": 295,
       "w": 560,
-      "h": 640,
+      "h": 605,
       "fill": "#46523f",
       "color": "#000000",
       "width": 6,
@@ -28405,7 +28405,7 @@
       "name": "rainforest_tree",
       "x": 960,
       "y": 900,
-      "scale": 0.68
+      "scale": 0.64
      },
      {
       "type": "asset",
@@ -28417,9 +28417,9 @@
      {
       "type": "rect",
       "x": 1280,
-      "y": 260,
+      "y": 295,
       "w": 560,
-      "h": 640,
+      "h": 605,
       "fill": "#46523f",
       "color": "#000000",
       "width": 6,
@@ -28442,9 +28442,9 @@
      {
       "type": "rect",
       "x": 1320,
-      "y": 280,
+      "y": 300,
       "w": 50,
-      "h": 620,
+      "h": 600,
       "fill": "#7a4f2c",
       "color": "#7a4f2c",
       "width": 0,
@@ -36852,7 +36852,7 @@
       "type": "wordart",
       "text": "LARGEST ANT",
       "x": 960,
-      "y": 300,
+      "y": 345,
       "size": 110,
       "boil": 0,
       "appear": 0.45
