@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-11-03T17:58:44+00:00",
       "note": "218 shots, narration = script (2,163 words), Doug 72%; 33 asset requests; shorts: spiral s117-s129, queen s179-s191, driver ants s205-s213; awaiting illustrator + thumbnail.json"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-03T18:50:14+00:00",
+      "note": "art-director R3 PASS, visual-screener keyframes R3 PASS, thumbnails A/B/C PASS, CD approved"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

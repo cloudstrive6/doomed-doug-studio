@@ -184,3 +184,35 @@ only):
 Keyframes: PASS. Thumbnails: A PASS, B PASS, C FAIL (queen tile only). A/B are cleared for packaging now. C needs one
 designer pass and a screener re-check before it joins the test. Post-render checks (samples, qc.json, Shorts) are
 still to come after the final render.
+
+## Round 4: thumbnails A/B/C re-screen after designer fixes (2026-11-03)
+
+Screened: `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` (1280x720) and their `*_small.png` (168x94).
+All renders are from 18:49 UTC, after the queen-tile fix and the Doug drop on A. I also looked at enlarged crops of
+A's hammock and of C's queen tile at feed size.
+
+**A (`thumbnail.png`, DON'T SLEEP): VERDICT: PASS.**
+Doug now lies in the hammock. His head rests on the striped fabric, and his bent legs and arms sit along its top
+edge instead of floating above it. The zigzag knees still rise slightly above the fabric, but that reads as a sleeper
+with his knees up, which is fine. At 168x94 the giant hooked-jaw soldier, the sleeping red-capped Doug and DON'T SLEEP
+are still one clear read. There are no regressions: the antenna is in frame, the text is clean, there's no gore and
+nothing is kid-coded.
+Non-blocking nit (graphic designer, only if A is touched again): a faint brown dither speckle sits under the hammock
+at the middle (about x 1000-1060, y 620-670). Remove it or make it a solid shadow.
+
+**B (`thumbnail_b.png`, SURROUNDED): VERDICT: PASS.**
+B is unchanged from round 3 and is still the strongest at feed size.
+
+**C (`thumbnail_c.png`, 4-tile grid): VERDICT: PASS. It no longer reads as a barrel.**
+The THE QUEEN tile is fixed. The gaster is now an elongated red-brown oval (about 2:1) with three thin pale curved
+bands, and the plank or slat panels are gone. At 168x94 the tile reads as "one huge ant with a swollen abdomen + a
+small Doug": you can see the petiole nodes, the thorax, the legs and the hooked antennae. Doug is larger, fully inside
+the tile and recognisable (red cap, white head, shock face toward the queen). The other three tiles are unchanged and
+still read. All four labels are legible and nothing is cropped. The X-eyed Doug in DEATH SPIRAL is a cartoon death,
+with no gore.
+Non-blocking nit (graphic designer, only if C is touched again): Doug's cap brim touches the queen's mandible tip at
+feed size. Nudging Doug about 10 px right would separate them.
+
+### Final
+Thumbnails: **A PASS, B PASS, C PASS.** All three are cleared for the three-way Test & Compare. Post-render checks
+(samples, qc.json, Shorts) are still to come after the final render.
