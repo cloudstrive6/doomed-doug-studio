@@ -1,6 +1,6 @@
 {
  "name": "ocellated_antbird",
- "description": "Ocellated antbird (Phaenostictus mcleannani), perched side view facing right: bright blue bare-skin eye patch, black throat, rufous-chestnut neck and breast, buff-olive back and wing covered in black buff-ringed 'eye' spots, long grey legs, slim dark bill, medium tail. Small dark eye, no smile. Bottom-centre anchor = feet on perch (0,0); bill tip to tail tip x -225..225 (450 long, = pencil), y -230..0.",
+ "description": "Ocellated antbird (Phaenostictus mcleannani), perched side view facing right: bright blue bare-skin eye patch, black throat, rufous-chestnut neck and breast, buff-olive back and wing covered in black buff-ringed 'eye' spots, long grey legs, slim dark bill, medium tail with a darker underside stripe. Small dark eye, no smile. Bottom-centre anchor = feet on perch (0,0); bill tip to tail tip x -225..225 (450 long, = pencil), y -230..0.",
  "anchor": [
   0,
   0
@@ -37,6 +37,31 @@
    "fill": "#6e5432",
    "width": 5,
    "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -97,
+     -103
+    ],
+    [
+     -221,
+     -73
+    ],
+    [
+     -220,
+     -66
+    ],
+    [
+     -93,
+     -95
+    ]
+   ],
+   "fill": "#4e3a22",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
   },
   {
    "type": "line",

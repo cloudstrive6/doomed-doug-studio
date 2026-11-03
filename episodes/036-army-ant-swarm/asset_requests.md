@@ -71,6 +71,7 @@ The shotlist draws these with primitives: the pie chart, the football pitches, t
 - Notes: s071 sets it beside `coat_hook` at 1.8 with an "=" sign, so the J-hook resemblance must be obvious. The graphic designer may also want it for the thumbnail (brief section 8: "giant soldier head, sickle jaws, no face").
 - Shots: s071, s081-s082
 - **DONE (illustrator)**: `assets/library/army_ant_soldier_head.json`. Preview: assets/previews/036-army-ant-swarm-ants.png (in context: assets/previews/036-army-ant-swarm-ants-context.png). No eyes or mouth. Jaw tips about (+-56,+268). Antennae are short feelers at the upper sides (x to +-290).
+- Sheet `assets/previews/036-army-ant-swarm-ants.png` regenerated with the art director's raised notch (JSON unchanged by the illustrator).
 
 ## `army_ant_soldier_top`
 **A soldier seen from directly above (for the overhead column diagram).**
@@ -126,6 +127,7 @@ The shotlist draws these with primitives: the pie chart, the football pitches, t
 - Facing / anchor / size: **centre anchor, x -350..350, y -225..225.** One clearly visible claw at about (+250,-30) for the red arrow.
 - Shots: s154
 - **Done (illustrator):** `assets/library/ant_feet_chain.json`, preview `assets/previews/036-army-ant-swarm-assets-illustrator2.png`. Six legs in three layers; each tarsus ends in a double hook wrapped round the next leg. The arrow claw grips at (+250,-33).
+- **Revised (illustrator, per art_review fix 1):** redrawn so no leg end is free: every femur runs out of a band of packed ant bodies (`#3a160c` mass, side-view gaster/thorax/head shapes with `#a0583a` rims, no faces) along the top and bottom edges, with a thorax and coxa over each leg root. Legs are tapered (femur 27->21, tibia 18->12, five-bead tarsus about 10), with oval knee knuckles, hair ticks and a tibial spur. Double hooked claws kept (now larger), chain T1->B1->T2->B2->T3->B3 in three fill layers. Same extents (bands to about +-230); the arrow claw grips at (+250,-33). Preview `assets/previews/036-army-ant-swarm-feet-chain.png`, cream vs `#46523f` check `assets/previews/036-army-ant-swarm-feet-chain-check.png`; s154 re-rendered.
 
 ## `ant_larva` and `ant_pupa_cocoon`
 - `ant_larva`: a plump white `#fbf6e6` curved grub with faint segment lines and a grey outline. No face. **Centre anchor, x -60..60, y -30..30.**
@@ -166,6 +168,7 @@ The shotlist draws these with primitives: the pie chart, the football pitches, t
 - Notes: perched on `tree_branch` (feet at the branch top) at 0.42-0.75, and flipped.
 - Shots: s028-s030, s033-s036, s040-s046
 - **Done (illustrator):** `assets/library/ocellated_antbird.json`, preview `assets/previews/036-army-ant-swarm-assets-a.png` (dark-ground check `assets/previews/036-army-ant-swarm-assets-dark-check.png`).
+- **Polish (illustrator, per art_review #17):** added a darker `#4e3a22` underside stripe to the tail. Preview `assets/previews/036-army-ant-swarm-feet-chain.png` and `-feet-chain-check.png`.
 
 ## `grasshopper`
 - Look: a green rainforest grasshopper, side view. Long body, big folded hind jumping legs, short antennae, a darker green back with a pale belly, and a small dark eye. Plain, not cute.
