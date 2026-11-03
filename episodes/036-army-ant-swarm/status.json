@@ -14,7 +14,12 @@
       "stage": "script_approved",
       "at": "2026-11-03T17:34:26+00:00",
       "note": "CD approved draft 3 (screener PASS); boss tag line replaced to avoid 011 reuse"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-11-03T17:58:44+00:00",
+      "note": "218 shots, narration = script (2,163 words), Doug 72%; 33 asset requests; shorts: spiral s117-s129, queen s179-s191, driver ants s205-s213; awaiting illustrator + thumbnail.json"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }
