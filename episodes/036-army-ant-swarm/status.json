@@ -9,7 +9,12 @@
       "stage": "scripted",
       "at": "2026-11-03T17:17:05+00:00",
       "note": "draft 1"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-11-03T17:34:26+00:00",
+      "note": "CD approved draft 3 (screener PASS); boss tag line replaced to avoid 011 reuse"
     }
   ],
-  "stage": "scripted"
+  "stage": "script_approved"
 }

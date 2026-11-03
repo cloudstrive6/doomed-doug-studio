@@ -471,7 +471,7 @@ For the first time in this episode, Doug moved.
 
 Doug survived.
 
-The narrator would like that noted.
+The narrator will be reviewing the footage.
 
 [Field guide ARMY ANT page: a column of red NOs. A yellow sticky note pressed on beside them: "JUST WALK AWAY."]
 
@@ -481,4 +481,4 @@ The biggest army ant colonies on Earth only catch what can't get out of their wa
 
 Doug deaths: two hundred and eighty-seven. Every single one of them could have been a short walk. Doug's next mistake is on your screen now.
 
-<!-- words: 2162 (draft 2, F5 fix applied, spoken narration only, spoken band headers included; headings, comments and stage directions excluded). About 11.1 min at 195 wpm. 154 sentences, average 14.1 words, longest 34. Opening untouched: item 1 name still at word 35, its twist marker at word 140. Segments: Front 231, Followers 204, Menu 194, Soldiers 209, Road Crew 193, Spiral 223, Night Move 195, Living Nest 211, Queen 211, Driver Ants 257. -->
+<!-- words: 2163 (draft 3 + CD line edit 2026-11-03: "The narrator would like that noted." replaced with "The narrator will be reviewing the footage." to avoid echoing 011's used-once line; Driver Ants 258; spoken narration only, spoken band headers included; headings, comments and stage directions excluded). About 11.1 min at 195 wpm. 154 sentences, average 14.1 words, longest 34. Opening untouched: item 1 name still at word 35, its twist marker at word 140. Segments: Front 231, Followers 204, Menu 194, Soldiers 209, Road Crew 193, Spiral 223, Night Move 195, Living Nest 211, Queen 211, Driver Ants 257. -->

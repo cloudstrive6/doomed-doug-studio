@@ -1,14 +1,22 @@
-# 036 Army Ant Swarm: script review (draft 2)
+# 036 Army Ant Swarm: script review (draft 3)
 
 Script screener, 2026-11-03, re-screen. Read: style bible (retention update 2026-10-27, 3.2, 3.3, section 7), series bible, brief.md, script.md (draft 2), facts.md (draft 2), decisions.md, and the draft 1 to draft 2 diff, including config/channel.yaml.
 
-**VERDICT: FAIL**
+**VERDICT: PASS**
+
+**Draft 3 re-check (2026-11-03):** The only things changed from draft 2 are L222, L224 and the facts.md row at about L85 (checked with git diff). F5 is **FIXED**:
+- L224 now reads "The smallest workers are only about three millimeters long, about the size of a sesame seed." This compares worker size only and makes no claim about plugs. ADW gives workers of 3-12 mm, and the sesame sources give about 3-4 mm and a mean of 3.08-3.33 mm.
+- The L222 stage direction now reads "A small worker ant next to a sesame seed. Label: \"3 MM\"." It no longer shows the ant in a hole.
+- The facts.md row no longer says "smallest plug" and keeps the ADW and sesame sources.
+- The writer's word count is now 2,162 (Road Crew 193), which is still inside the length band and the segment range.
+
+Now 0 fact items and 0 policy items. Hook 8, structure 8, voice 8. Everything below is the draft 2 report, kept for the record.
 
 Draft 2 fixes all four draft 1 fact items and the rule 8 gap. Hook, structure, voice and policy are unchanged and still clear the PASS bar. One fact item remains, and it was introduced by the new Road Crew analogy (F5). It is a one-sentence fix. Once it is in, this script passes.
 
 | Check | Result |
 |---|---|
-| Facts | **1 FAIL item** (F5, new). F1-F4 from draft 1 are fixed. |
+| Facts | Pass (F5 fixed in draft 3; F1-F4 fixed in draft 2) |
 | Hook / opening | **8 / 10** (unchanged; item 1's name still at word 35) |
 | Structure and pacing | **8 / 10** |
 | Voice and humour | **8 / 10** |
@@ -33,7 +41,7 @@ Draft 2 fixes all four draft 1 fact items and the rule 8 gap. Hook, structure, v
 |---|---|---|---|
 | L92 | Ocellated antbird about the length of a pencil | Wikipedia, re-fetched: "17.5 to 20 cm long" and an "obligate ant follower" of *Eciton burchellii* swarms. A standard unsharpened pencil is about 19 cm (7.5 in), which falls inside the bird's range. The label "ABOUT 19 CM" is fine. | **VERIFIED** |
 | L176 | Soldier about 12 mm, roughly two grains of rice end to end | ADW, re-fetched: "worker sizes range from 3mm to 12mm". Soldiers are the largest caste. Wikipedia gives the same range, and one hobbyist site says 14 mm, so "about" is right. Long-grain rice is 6-8 mm, so two grains are 12-16 mm and "roughly" covers it. | **VERIFIED** (the soldier length is inferred from the top of the worker range; this is acceptable with "about") |
-| L224 | "The workers range from about three millimeters long to twelve, so the smallest plug is about the size of a sesame seed." | The size range (ADW) and a sesame seed of about 3-4 mm are both fine. **The "so the smallest plug" step is not sourced.** Powell & Franks 2007, the Bristol release, NatGeo and Science News all say only that pluggers size-match to holes and that a big ant leaves a small hole "for a smaller comrade". They also say plugging is done by "a minority of ant workers". No source says the 3 mm minims plug holes, or gives any plug size. | **FAIL (F5)** |
+| L224 | "The workers range from about three millimeters long to twelve, so the smallest plug is about the size of a sesame seed." | The size range (ADW) and a sesame seed of about 3-4 mm are both fine. **The "so the smallest plug" step is not sourced.** Powell & Franks 2007, the Bristol release, NatGeo and Science News all say only that pluggers size-match to holes and that a big ant leaves a small hole "for a smaller comrade". They also say plugging is done by "a minority of ant workers". No source says the 3 mm minims plug holes, or gives any plug size. | **FAIL (F5)**, FIXED in draft 3 |
 | L400 | "And she does it again every few weeks, for years." | The laying burst comes once per statary phase, in a cycle of about 2-3 weeks statary plus 2-3 weeks nomadic (H&W). "For years" rests on the 4.5-year marked queen. | **VERIFIED** |
 | L400 | Marked queen found again 4.5 years later | Split out as recommended. Same H&W source. | **VERIFIED** |
 
@@ -75,7 +83,7 @@ None of the changes affects advertiser-friendliness, the made-for-kids signals, 
 
 ---
 
-## Required fix
+## Required fix (draft 2; done in draft 3)
 1. **F5, L224 (and L222).** Replace "The workers range from about three millimeters long to twelve, so the smallest plug is about the size of a sesame seed." with a line that compares worker size only and makes no claim about the plugs. For example: "The smallest workers are only about three millimeters long, about the size of a sesame seed." Change the L222 stage direction to match: show a small worker beside a sesame seed, labelled "3 MM", **not** "the smallest ant in the smallest hole". Update the facts.md row to drop "smallest plug" and keep the ADW and sesame sources.
 
 After that, the script needs only a quick check of that line. Everything else meets the PASS thresholds.
