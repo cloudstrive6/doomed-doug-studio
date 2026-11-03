@@ -1,125 +1,83 @@
-# 036 Army Ant Swarm: script review (draft 1)
+# 036 Army Ant Swarm: script review (draft 2)
 
-Script screener, 2026-11-03. Read: style bible (retention update 2026-10-27, 3.2, 3.3, section 7), series bible, brief.md, script.md, facts.md, decisions.md.
+Script screener, 2026-11-03, re-screen. Read: style bible (retention update 2026-10-27, 3.2, 3.3, section 7), series bible, brief.md, script.md (draft 2), facts.md (draft 2), decisions.md, and the draft 1 to draft 2 diff, including config/channel.yaml.
 
 **VERDICT: FAIL**
 
-This is a strong draft that misses on facts. The opening, structure, voice and policy all clear the bar, and the writer's own fact work is good: every flagged item holds up, and the brief's katydid twist and 30,000-a-day lead were correctly thrown out. The FAIL comes from four fact items. One is a wrong date, one is a false superlative in the final kicker, one overstates a study, and one is a phrase with no source. All four are one-line fixes. Fix 5 below (rule 8) is the only one that needs any writing.
+Draft 2 fixes all four draft 1 fact items and the rule 8 gap. Hook, structure, voice and policy are unchanged and still clear the PASS bar. One fact item remains, and it was introduced by the new Road Crew analogy (F5). It is a one-sentence fix. Once it is in, this script passes.
 
 | Check | Result |
 |---|---|
-| Facts | **4 FAIL items** (F1-F4). All 5 writer flags cleared. |
-| Hook / opening | **8 / 10** |
+| Facts | **1 FAIL item** (F5, new). F1-F4 from draft 1 are fixed. |
+| Hook / opening | **8 / 10** (unchanged; item 1's name still at word 35) |
 | Structure and pacing | **8 / 10** |
 | Voice and humour | **8 / 10** |
-| TTS readiness | Pass (pronunciation additions below) |
+| TTS readiness | Pass |
 | Policy | Pass (0 items) |
-| Length | 2,101 spoken words (about 10.8 min), inside 1,950-2,350. Pass. |
+| Length | 2,168 spoken words (my count; about 11.1 min), inside 1,950-2,350. Pass. |
 
 ---
 
 ## 1. Facts
 
-### Writer's flagged items (top of facts.md)
-| # | Claim | Screener check | Result |
+### Draft 1 items: verification of the fixes
+| # | Draft 2 line | Check | Result |
 |---|---|---|---|
-| 1 | "three thousand animals an hour" | Science News re-fetched: "some 3,000 invertebrates each hour" over a "10-hour workday", and it gives no daily total. **There is also a primary source:** Couzin & Franks 2003, *Proc. R. Soc. B* 270: 139-146, abstract: colonies "transport more than 3000 prey items per hour" (Konstanz repository, https://kops.uni-konstanz.de/entities/publication/c505c71f-7270-438e-9858-fe0474b767b1). | **VERIFIED.** Add the Couzin & Franks row to facts.md. "Animals" is fair, because prey items are invertebrates and brood. |
-| 2 | Walking 20 m in "under twenty seconds" | 20 m at the MUTCD 1.07 m/s is 18.7 s. Normal adult pace (about 1.3-1.4 m/s) gives about 15 s, so the claim is conservative. | **ACCEPTED.** It is only a Search-level source. Fetch one page if you can, but this doesn't block. |
-| 3 | Wembley 90,000 | This is the stadium's standard published capacity. 300,000 / 90,000 = 3.3, so "more than three times" is right. | **ACCEPTED** |
-| 4 | Greater New York about 20 million | 2020 Census, New York-Newark-Jersey City MSA: 20,081,990 (citypopulation.de, from the Census table). ACS 2024: 19.94M. | **VERIFIED** |
-| 5 | City bus 12 m | EU rigid-bus maximum is 12.00 m. A US 40 ft bus is 12.2 m. 15 m or more is wider than either. | **ACCEPTED** |
+| F1 | L270 "About a century ago, the naturalist William Beebe found a ring..." and label "BRITISH GUIANA" (L268) | The book was published in 1921 and the observation came before that, around 1916-1920 (Kalacoon or Kartabo). That is 106-110 years ago, so "about a century ago" holds whichever station it was. No year is on the label. The stage direction "1920s explorer" describes a costume style and is not spoken, so it is acceptable. | **FIXED** |
+| F2 | L478 "The biggest army ant colonies on Earth only catch what can't get out of their way." | H&W: *D. wilverthi* up to 22 million is the largest army ant colony; driver ants kill creatures "too sluggish to get out of the way". The claim is now scoped correctly. | **FIXED** |
+| F3 | L364 "In cool weather, the colony keeps the nest warmer when the young inside are pupae than when they are larvae. Scientists think it may be saving energy on the larvae." | This matches the Baudier 2019 abstract ("When ambient temperature was low ... pupal bivouacs were warmer"; "potentially conserved energy by investing less metabolic heating in larval brood"). The condition is present and the cause is framed as a hypothesis. | **FIXED** |
+| F4 | L190 "Even those enormous jaws can't cut, unlike the jaws of their African relatives." | This is H&W nearly word for word ("lacking a cutting or shearing edge ... unlike their African relatives the 'driver ants'"). It also sets up the L452 callback ("these jaws do cut") cleanly. | **FIXED** |
 
-### Sample verification (my own fetches, 22 claims)
-Verified against the source text (H&W ch. 16 via the Wayback copy, Beebe's Project Gutenberg text, Science News x2, NatGeo, ADW, Couzin & Franks abstract, the Baudier 2019 abstract):
-- 15 m or more wide, "many tens of thousands"
-- up to 200,000 at dawn
-- column over 200 m
-- up to 20 m an hour (Eciton column; Dorylus frontal swarm "about 20 m per hour")
-- prey list
-- "motionless insect has some chance"
-- soldiers clumsier and on the flanks; Belt's "officers"; "relatively little control"
-- Eciton jaws have no cutting edge, unlike driver ants
-- about 300 species dependent, 557 associated
-- antbirds get about half their food this way
-- harpoon eggs at cockroaches
-- 30% drop in catch without potholes plugged
-- big ant leaves a small hole for a smaller ant
-- Beebe: 1,200 ft circumference, about 2.5 h per lap, afternoon to the next morning, broken by a straggler
-- column 2-3 cm, widening to 15 cm; queen moves 8-10 pm, usually done by midnight
-- emigration timing is unconnected to food
-- 150,000-700,000 workers, up to 1 m across, up to 20 m high
-- 100,000-300,000 eggs; 55,000-66,000 eggs; queen recovered after 4.5 years
-- "sealed off" virgin queens; old queen sometimes superseded
-- *D. wilverthi* up to 22 million; over 20 kg
-- Dorylus queens 39-50 mm, "largest of all ants"; 1-2 million eggs a month; nests 1-4 m deep
-- "too sluggish to get out of the way"
-- the camp chair
+### New and changed lines
+| Line | Claim | Screener check | Result |
+|---|---|---|---|
+| L92 | Ocellated antbird about the length of a pencil | Wikipedia, re-fetched: "17.5 to 20 cm long" and an "obligate ant follower" of *Eciton burchellii* swarms. A standard unsharpened pencil is about 19 cm (7.5 in), which falls inside the bird's range. The label "ABOUT 19 CM" is fine. | **VERIFIED** |
+| L176 | Soldier about 12 mm, roughly two grains of rice end to end | ADW, re-fetched: "worker sizes range from 3mm to 12mm". Soldiers are the largest caste. Wikipedia gives the same range, and one hobbyist site says 14 mm, so "about" is right. Long-grain rice is 6-8 mm, so two grains are 12-16 mm and "roughly" covers it. | **VERIFIED** (the soldier length is inferred from the top of the worker range; this is acceptable with "about") |
+| L224 | "The workers range from about three millimeters long to twelve, so the smallest plug is about the size of a sesame seed." | The size range (ADW) and a sesame seed of about 3-4 mm are both fine. **The "so the smallest plug" step is not sourced.** Powell & Franks 2007, the Bristol release, NatGeo and Science News all say only that pluggers size-match to holes and that a big ant leaves a small hole "for a smaller comrade". They also say plugging is done by "a minority of ant workers". No source says the 3 mm minims plug holes, or gives any plug size. | **FAIL (F5)** |
+| L400 | "And she does it again every few weeks, for years." | The laying burst comes once per statary phase, in a cycle of about 2-3 weeks statary plus 2-3 weeks nomadic (H&W). "For years" rests on the 4.5-year marked queen. | **VERIFIED** |
+| L400 | Marked queen found again 4.5 years later | Split out as recommended. Same H&W source. | **VERIFIED** |
 
-All correct as scripted, apart from the four items below.
+Unchanged claims were verified against sources in the draft 1 review (22 claims, plus the 5 writer flags) and still stand.
 
-### FAIL items
-- **F1. Beebe's date is wrong (line 258 and the stage label at line 256).** "In nineteen twenty-one, the naturalist William Beebe found a ring..." 1921 is the publication date of *Edge of the Jungle*. It is not the date of the observation. Beebe's own text puts the ring at the Kartabo station, where he says the same army returned "eighteen months later" after an earlier study. The station's work began in 1919, so the ring was seen around 1920. No source in facts.md supports "found ... in 1921". The label "BRITISH GUIANA, 1921" has the same error.
-- **F2. "The biggest swarm on Earth" is false (line 462, the closing kicker).** Locust swarms (Albert's swarm of 1875, roughly 500,000 km²), krill superswarms and other insect swarms are far bigger than a 22-million-ant colony. The source only supports "the largest army ant colonies known". This line closes the video, so it has to be right.
-- **F3. The bivouac-heating claim goes beyond its source (line 352).** "the heating runs on a budget, because when the young inside are pupae, the colony keeps the nest warmer than when they are larvae." The Baudier et al. 2019 abstract says pupal bivouacs were warmer **"when ambient temperature was low"**. It calls the energy-saving explanation something bivouacs "potentially" do, which is a hypothesis. The script states it as an unconditional fact with a cause attached.
-- **F4. "built to grip" is unsourced (line 182).** "...the jaws of these American army ants are built to grip." facts.md sources only the missing cutting edge (H&W, ADW). Nothing quoted supports "built to grip". Rule 11 says to cut it or source it.
+### FAIL item
+- **F5. L224 and the stage direction at L222.** "...so the smallest plug is about the size of a sesame seed." This is the writer's inference, not a sourced fact, and the "3 MM" label on "the smallest ant in the smallest hole" depends on it. (My draft 1 suggestion for this item said "only from a sourced length". No sourced plugger length exists.)
 
 ---
 
-## 2. Opening (retention update first, then 3.2 and rules 2 and 6): 8 / 10
-| Test | Result |
-|---|---|
-| First sentence concrete, with a number or death stake | Pass. "One army ant colony can catch three thousand animals an hour, and its ants can barely see." (17 words) |
-| Specific payoff promise by ~0:10 | Pass. "By the end, Doug lies in the path of twenty million ants in Central Africa." It ends at word 32 (about 0:10) and does not resolve the outcome. |
-| Item 1 among the three strongest, opening on its best fact | Pass. The swarm carpet "fifteen meters wide or more" comes first, and the geography follows inside the same sentence. |
-| Item 1's name within 35 words | **Borderline pass.** "The Swarm Front." takes up words 35-37. If even one word is added before it, this fails. |
-| No greeting, channel name, "in this video" or subscribe ask first | Pass |
-| Item 1's twist within ~145 words | Pass. "Here's the problem." is at word 140 (about 0:43). |
-| Re-hook every ~90 s (retention rule 6) | Pass. Every kicker leans into the next stop. |
-
-Why 8 and not higher: the second half of the first sentence ("its ants can barely see") is a weaker stake than the number in the first half, and item 1's name only just makes the 35-word cutoff. Neither blocks.
+## 2. Opening: 8 / 10 (unchanged)
+The first 37 spoken words are unchanged from draft 1. The concrete first sentence with a number, the payoff promise at word 32, item 1's name at words 35-37, no greeting, and the twist marker at word 140 all still pass. The risk is the same as before: one more word ahead of "The Swarm Front." pushes the name past 35.
 
 ### Script Writer rules 1-14
-- Rule 1: replaced by the retention update. The length passes.
-- Rules 2, 3, 4, 5, 6, 7, 9, 11*, 12, 13: pass. Measured: 147 sentences, average 14.3 words, longest 34, Flesch 78.2. Every item has a sentence of 6 words or fewer. "However" appears 0 times and "actually" once. Twist markers rotate with no repeats. *Rule 11 fails only for F1-F4.
-- **Rule 8 (a concrete everyday-object scale analogy in every item): VIOLATED** in The Followers (gulls behind a boat describes a process, not scale), The Soldiers (coat hooks describe shape only), and The Road Crew (the motorway describes a process). The Menu's sofa is borderline but acceptable.
-- **Rule 10 (at most one joke line per 60 s):** The Road Crew stacks "Doug volunteered." / "keeps taking him up on it" / "Doug became infrastructure." inside about 20 s. This doesn't block, because channel precedent allows a dense Doug beat, but it is the heaviest spot in the script.
-- Rule 14: no PE wording found. The 3-word check against PE transcripts could not be run, because `pe/` is not in the repo.
+- **Rule 8: now met in every item.** The Followers has the pencil, The Soldiers has the rice, and The Road Crew has the sesame seed (the analogy survives the F5 fix, see below).
+- Rule 11: violated only by F5.
+- Rule 13: the twist markers still rotate. "The surprising part" (L234) is new wording and repeats none of the others.
+- Sentence stats (my count): 154 sentences, average 14.1 words, longest 34. No new sentence is over 30 words.
+- Every other rule passes, as in draft 1.
 
 ## 3. Structure and pacing: 8 / 10
-- Axis: distance to the queen, declared in the header, with spoken bands at items 1, 5, 8 and 10. The boss (22-million *Dorylus*) is the most extreme item. Pass.
-- Items: 10 (the band is 8-10). Deaths 281-287 match the brief, and the counter is continuous.
-- Segment words: Front 231, Followers 192, Menu 194, Soldiers 198, Road Crew **177**, Spiral 222, Night Move 195, Living Nest 201, Queen 202, Driver Ants 255. None is over the 260 maximum. Road Crew is under both the brief's 190 and the retention band's 200. Do not pad it. The rule 8 fix (fix 5) will add a few words there anyway.
-- Running gags: "Doug did not agree to this." (item 1), the cap as cargo (paid off at items 8, 9 and 10), the costume gag once, "hi friend?" once, "Doug is fine." twice, the field guide, the bandage, and a boss survival with the narrator's response. All present.
-- Ending: the final kicker, then a 25-word outro. Pass. Note: "Every single one of them could have been a short walk." edges toward a moral. It is acceptable as a joke, but don't stretch it further.
+- Segment words (my count): Front 231, Followers 205, Menu 194, Soldiers 209, Road Crew 199, Spiral 223, Night Move 195, Living Nest 210, Queen 211, Driver Ants 257. None is over the 260 maximum. Menu, Night Move and Road Crew are 1-6 words under the retention band's 200. These were not flagged in draft 1 and are not blocking. Do not pad them.
+- The axis, escalation, death counter (281-287), running gags and ending are unchanged and all pass.
 
 ## 4. Voice and humour: 8 / 10
-- Deadpan, and the jokes land: "the soldier keeps the stick", "Doug became infrastructure", "Doug has died. He is still walking."
-- The narrator persona is consistent.
-- Line 384 is awkward. It joins two unrelated facts with "and" (the egg swelling, then "one marked queen turned up again four and a half years later"), and it reads like an appended fact. Consider splitting it (recommended, not required).
-- Line 458, "The narrator would like that noted.", echoes the used-once 011 line "He would like that noted." (series bible), and it reads as pleased rather than "quietly disappointed". The brief prescribed it, so the creative director should decide. Not blocking.
+- The new lines are flat-factual and fit the narrator's deadpan voice. The Queen split reads better than draft 1 did.
+- L364's "Scientists think it may be saving energy on the larvae." is a slightly limp end to the twist, but it is accurate. It doesn't block.
+- "The narrator would like that noted." (L474) is still the creative director's decision, as in draft 1.
 
 ## 5. TTS readiness: pass
-No digits, symbols, parentheses or abbreviations in the spoken text. Add these to `voice.pronunciations` if Chirp gets them wrong: Rettenmeyer ("RET-en-my-er"), Beebe ("BEE-bee"), Guiana ("gee-AH-nuh"), wilverthi (not spoken, so this can be dropped). *Eciton*, *burchellii* and *Dorylus* are not spoken anywhere, so those header notes are moot.
+- No digits, symbols, parentheses or abbreviations are in the spoken text.
+- Rettenmeyer, Beebe and Guiana are now in `config/channel.yaml` `voice.pronunciations`, with correct IPA.
 
 ## 6. Policy: pass (0 items)
-- Advertiser-friendly: no gore. Deaths are a cut to black, X eyes, a flat costume, or an empty tent or hammock. No profanity.
-- Made-for-kids: adult-coded throughout. The stage directions keep the ants faceless. There is no "vs" or ant-army framing.
-- Inauthentic content: this is an original narrative with a distinct throughline (walk away vs. Doug) and the cap-cargo story.
-- No medical advice. "A grown person can simply walk away" is said once as the honesty line the brief requires, and it is backed by H&W ("not really the terror of the jungle", the camp chair).
-- The title promise is delivered by the boss.
+None of the changes affects advertiser-friendliness, the made-for-kids signals, originality, advice or the title promise.
 
 ## 7. Length: pass
-2,101 spoken words (my count matches the writer's), about 10.8 min at 195 WPM.
+2,168 spoken words, about 11.1 min at 195 WPM.
 
 ---
 
-## Required fixes
-1. **F1, lines 256 and 258.** Change "In nineteen twenty-one, the naturalist William Beebe found a ring of army ants in British Guiana" to wording the source supports, for example "About a century ago, the naturalist William Beebe found..." or "In a book published in nineteen twenty-one, William Beebe described...". Change the stage label "BRITISH GUIANA, 1921" to match (for example "BRITISH GUIANA, ABOUT 1920" with the Kartabo text cited, or drop the year). Update the facts.md row.
-2. **F2, line 462.** "The biggest swarm on Earth only catches what can't get out of its way." Replace "biggest swarm on Earth" with a claim the source supports, for example "the biggest army ant colonies on Earth" / "even twenty million army ants". Update the facts.md "Framing" row.
-3. **F3, line 352.** Add the source's condition and drop the stated cause. For example: "...on cool nights, when the young inside are pupae, the colony keeps the nest warmer than when they are larvae." Cut "runs on a budget, because", or turn it into an explicit "scientists think" hypothesis.
-4. **F4, line 182.** Cut "because the jaws of these American army ants are built to grip", leaving "Even those enormous jaws can't cut." plus the sourced "unlike their African relatives" idea. Or add a source that says the jaws are built to grip.
-5. **Rule 8, The Followers / The Soldiers / The Road Crew.** Add one everyday-object scale analogy to each, sourced or stated as approximate. Examples: a sourced size for an antbird or a *Stylogaster* fly; soldier size against a grain of rice or a paperclip (only from a sourced length); pothole-plug ant size against a sesame seed. If no sourced size exists for The Soldiers, the creative director may waive it there, since the brief's proportion analogy was cut for lack of a source.
+## Required fix
+1. **F5, L224 (and L222).** Replace "The workers range from about three millimeters long to twelve, so the smallest plug is about the size of a sesame seed." with a line that compares worker size only and makes no claim about the plugs. For example: "The smallest workers are only about three millimeters long, about the size of a sesame seed." Change the L222 stage direction to match: show a small worker beside a sesame seed, labelled "3 MM", **not** "the smallest ant in the smallest hole". Update the facts.md row to drop "smallest plug" and keep the ADW and sesame sources.
 
-Not required: split line 384; creative director to decide on "The narrator would like that noted."; director to place the "557 SPECIES" label (line 78) on the spoken "five hundred and fifty-seven", about one sentence later than marked.
+After that, the script needs only a quick check of that line. Everything else meets the PASS thresholds.
 
-Once fixes 1-5 are in, re-screen the changed lines only. Hook, structure, voice and policy already meet the PASS thresholds.
+Sources checked this pass: https://en.wikipedia.org/wiki/Ocellated_antbird, https://animaldiversity.org/accounts/Eciton_burchellii/, https://www.bristol.ac.uk/news/2007/5465.html, https://www.nationalgeographic.com/science/article/army-ants-plug-potholes-with-their-own-bodies, Crossref record for doi 10.1016/j.anbehav.2006.11.005 (no abstract available).

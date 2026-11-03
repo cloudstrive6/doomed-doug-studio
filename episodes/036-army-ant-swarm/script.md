@@ -219,9 +219,9 @@ Army ants fill the potholes in their own trail by lying down in them.
 
 Each worker picks a hole its body fits, a big ant will leave a small hole for a smaller one, and then the traffic runs straight over the top.
 
-[The smallest ant in the smallest hole. A sesame seed beside it. Label: "3 MM".]
+[A small worker ant next to a sesame seed. Label: "3 MM".]
 
-The workers range from about three millimeters long to twelve, so the smallest plug is about the size of a sesame seed.
+The smallest workers are only about three millimeters long, about the size of a sesame seed.
 
 [Ants hooked together in a chain across a gap between two twigs. The chain slides sideways to a shorter spot.]
 
@@ -481,4 +481,4 @@ The biggest army ant colonies on Earth only catch what can't get out of their wa
 
 Doug deaths: two hundred and eighty-seven. Every single one of them could have been a short walk. Doug's next mistake is on your screen now.
 
-<!-- words: 2168 (draft 2, spoken narration only, spoken band headers included; headings, comments and stage directions excluded). About 11.1 min at 195 wpm. 154 sentences, average 14.1 words, longest 34. Opening untouched: item 1 name still at word 35, its twist marker at word 140. Segments: Front 231, Followers 204, Menu 194, Soldiers 209, Road Crew 199, Spiral 223, Night Move 195, Living Nest 211, Queen 211, Driver Ants 257. -->
+<!-- words: 2162 (draft 2, F5 fix applied, spoken narration only, spoken band headers included; headings, comments and stage directions excluded). About 11.1 min at 195 wpm. 154 sentences, average 14.1 words, longest 34. Opening untouched: item 1 name still at word 35, its twist marker at word 140. Segments: Front 231, Followers 204, Menu 194, Soldiers 209, Road Crew 193, Spiral 223, Night Move 195, Living Nest 211, Queen 211, Driver Ants 257. -->
