@@ -37,3 +37,20 @@
 - s197: New York is built from the library building family (`empire_state_building` + `four/five/six/eight/ten_story_building`) instead of `city_skyline_small` (Darwin, palms). No new asset needed.
 - s117-s118 restaged on the top-down dirt card used in s109-s116 (visual review option b). No `army_ant_mill_side` asset needed.
 - Distance sign: one format all episode ("DISTANCE TO QUEEN: 200 M"; "ABOUT" dropped in s002-s028).
+
+## 2026-11-03, creative director: thumbnails A/B/C, round 1
+Reviewed build/thumbnail.png, thumbnail_b.png and thumbnail_c.png at full size and the *_small.png feed-size versions, against brief section 8 and the title "Why Army Ants Only Kill What Can't Run Away, Like Doug". No visual-screener report on the thumbnails exists yet, so nothing here is final package approval. That waits for a screener PASS on the revised set.
+
+**B (SURROUNDED): approved creatively, no changes.** It is the strongest of the three at feed size: the amber field, one word, a big red-capped Doug and a carpet that reads as a mass of insects even at 168 px. It complements the title rather than repeating it ("can't run away" plus SURROUNDED), and it delivers: Doug stands in the swarm several times in the video. The stump itself is not a scene in the video, but it is a staging device, not a promised event. It is adult-coded enough (nothing cute, no faces on the ants, no "vs" and no count).
+
+**A (DON'T SLEEP): changes required.** The concept is right and it stays the primary and the s001 opening image (the hammock is item 1's death and the boss setup). At feed size, though, the threat and the victim don't meet:
+1. Bring the sickle jaw tips to within about 40 px above Doug's head. Right now they end over the left palm (about x 860), about 130 px short of him, so the picture reads as "ant and a man in a hammock" instead of "this is about to happen". Either move the soldier right (x 70 to about 190) or move the hammock and Doug left. Keep DON'T SLEEP clear of the jaws.
+2. Doug scale goes from 0.4 to about 0.55, with the hammock scaled to match. At 168 px he is currently a red dot. The cap and closed eyes need to read.
+3. Fix the clipped antenna at the top edge (about x 640-700, y 0-20). It shows as a stray black blob at feed size. Keep it fully in frame or crop it cleanly through the shaft.
+
+**C (grid): changes required.**
+4. Use the chapter names as labels: SWARM FRONT / DEATH SPIRAL / LIVING NEST / THE QUEEN. "FRONT" on its own means nothing at feed size. "Death Spiral" and "Living Nest" are the curiosity gaps the grid exists to sell. (This overrides the one-word leads in my brief.)
+5. Queen tile: at feed size the pale-banded gaster reads as a barrel or a cage, not an abdomen. Narrow the pale bands, or darken them toward the body colour, and make the queen about 15% larger so it reads as one huge ant next to a small Doug.
+6. Keep 4 tiles (a deliberate departure from the 6-16 of style bible archetype A, for feed-size legibility) and keep the tile colours as they are.
+
+Next: the graphic designer applies 1-6 and re-renders A and C (and their _small versions). Then the visual-screener checks all three. If it passes, the set goes to Test & Compare with the same title.
