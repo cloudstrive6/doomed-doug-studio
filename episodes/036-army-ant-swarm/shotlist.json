@@ -1513,16 +1513,6 @@
       "density": 0.2
      },
      {
-      "type": "label",
-      "text": "SWARM",
-      "x": 1600,
-      "y": 870,
-      "size": 40,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff"
-     },
-     {
       "type": "circle",
       "x": 140,
       "y": 330,
@@ -1667,16 +1657,6 @@
       "r": 190,
       "color": "#a0583a",
       "density": 0.2
-     },
-     {
-      "type": "label",
-      "text": "SWARM",
-      "x": 1600,
-      "y": 870,
-      "size": 40,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff"
      },
      {
       "type": "line",
@@ -12886,17 +12866,6 @@
       "appear": 0.1
      },
      {
-      "type": "label",
-      "text": "WORKER",
-      "x": 1460,
-      "y": 880,
-      "size": 44,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff",
-      "appear": 0.15
-     },
-     {
       "type": "wordart",
       "text": "CATCH NOTHING",
       "x": 960,
@@ -19330,16 +19299,6 @@
       "boil": 0
      },
      {
-      "type": "label",
-      "text": "WITH PLUGS",
-      "x": 690,
-      "y": 960,
-      "size": 40,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff"
-     },
-     {
       "type": "rect",
       "x": 960,
       "y": 480,
@@ -19953,7 +19912,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 380,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2,
       "appear": 0.1
      },
@@ -19961,7 +19920,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 470,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2,
       "appear": 0.14
      },
@@ -19969,7 +19928,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 560,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2,
       "appear": 0.18
      },
@@ -19977,7 +19936,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 650,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2,
       "appear": 0.22
      },
@@ -19985,7 +19944,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 740,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2,
       "appear": 0.26
      },
@@ -19993,7 +19952,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 830,
-      "y": 626.0,
+      "y": 604.0,
       "scale": 0.2,
       "appear": 0.3
      },
@@ -20001,7 +19960,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 920,
-      "y": 626.0,
+      "y": 650.0,
       "scale": 0.2,
       "appear": 0.34
      },
@@ -20009,7 +19968,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1010,
-      "y": 626.0,
+      "y": 680.0,
       "scale": 0.2,
       "appear": 0.38
      },
@@ -20017,7 +19976,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1100,
-      "y": 626.0,
+      "y": 700.0,
       "scale": 0.2,
       "appear": 0.42
      },
@@ -20025,7 +19984,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1190,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2,
       "appear": 0.46
      },
@@ -20033,7 +19992,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1280,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2,
       "appear": 0.5
      },
@@ -20041,7 +20000,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1370,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2,
       "appear": 0.54
      },
@@ -20049,7 +20008,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1460,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2,
       "appear": 0.58
      },
@@ -20057,7 +20016,7 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1550,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2,
       "appear": 0.62
      },
@@ -20237,98 +20196,98 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 380,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 470,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 560,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 650,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 740,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 830,
-      "y": 626.0,
+      "y": 604.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 920,
-      "y": 626.0,
+      "y": 650.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1010,
-      "y": 626.0,
+      "y": 680.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1100,
-      "y": 626.0,
+      "y": 700.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1190,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1280,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1370,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1460,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1550,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
@@ -20546,98 +20505,98 @@
       "type": "asset",
       "name": "army_ant_worker",
       "x": 380,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 470,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 560,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 650,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 740,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 830,
-      "y": 626.0,
+      "y": 604.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 920,
-      "y": 626.0,
+      "y": 650.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1010,
-      "y": 626.0,
+      "y": 680.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1100,
-      "y": 626.0,
+      "y": 700.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1190,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1280,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1370,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1460,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
       "type": "asset",
       "name": "army_ant_worker",
       "x": 1550,
-      "y": 626.0,
+      "y": 712.0,
       "scale": 0.2
      },
      {
@@ -29874,17 +29833,6 @@
       "y": 600,
       "scale": 0.7,
       "appear": 0.7
-     },
-     {
-      "type": "label",
-      "text": "WARMER",
-      "x": 480,
-      "y": 330,
-      "size": 52,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff",
-      "appear": 0.4
      },
      {
       "type": "label",

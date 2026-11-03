@@ -54,3 +54,43 @@ Ant palette: all 16 ant drawings use the director's ramp exactly (`#6e2e1c` body
 
 ## Note for the director (composition, not blocking the assets)
 - s100: the car and the bus sit on top of `road_worker_lying`, wheels on his body. It is cartoon, but it reads as a person being run over. Consider sizing the pothole and car so the wheels straddle the pothole edges and his body shows between them, as "the traffic drives over them" rather than "runs them over". This is your call at the keyframe review.
+
+---
+
+# Round 2: keyframes (s001-s218 + end slate)
+
+Reviewer: art director, 2026-11-03
+Scope: all 219 keyframes on `build/contact/sheet_01..19.png`, checked against `channel/art_bible.md` and style bible 7 (Art Director rules 1-9).
+After my direct fixes I re-rendered the full set, so sheets 01-19 are current.
+
+## What holds
+- **Two tiers:** ants, birds, props and places carry interior shading. Doug, the scientists, the naturalist and the road workers stay crude. There is no gore anywhere, and every death is cartoon only: 281 ghost on black, 282 the flat costume, 283 X eyes on the logs, 284 still walking the mill, 285 the empty tent, 286 the nest silhouette plus ghost, 287 a small `on_back` on black.
+- **Doug:** on-model in every frame, expressions from the fixed set, ink white on the black cards. Caps: the ghost cap plus the cap as cargo or on the ground (s027, s149, s170) follows the "one cap per frame" ghost rule. Capless s166-s168 is the logged exception, and the cap is in frame in s166.
+- **Zone colours:** the director's distance ramp holds in every shot: pale front `#dde8cc`, followers and menu mid-greens, the soldiers and road crew `#9db085`, the brown mill floor, night `#1b2f4a`, dusk purple, nest `#46523f`/`#3a4535`, and dawn-orange Africa. The cream diagram cards are consistent.
+- **HUD:** the caption bar, `DOUG DEATHS` (280 to 287, one tick per death) and the `DISTANCE TO QUEEN` sign sit in the same place everywhere, inside the safe area. The section header cards (THE FRONT., THE TRAIL., THE NEST., THE BIGGER NEST.) are white with an outline and have no top bar, as the bible requires. Item title cards are red.
+- **Reveals and annotations:** silhouette-then-colour works for the soldier, the queen, the living nest and the driver queen. Every item has arrows, "?"/"!", X marks or a warning triangle.
+- **Variety:** mostly good. The episode uses maps, a bus scale, tennis-pitch and athletics-track scales, a pie chart, a bar chart, calendars, a stadium, a thumb, a banknote, a cutaway, split cards, the field guide and the hammock callback.
+
+## Fixed directly by the art director (shotlist edited, keyframes re-rendered)
+1. **Rule 4 (max 2 labels):** s010 dropped the `SWARM` label, so NEST and 200,000 remain. s011 dropped `SWARM` (NEST and 200 M remain). s069 dropped `WORKER` (SOLDIER and CATCH NOTHING remain). s102 dropped `WITH PLUGS`, since s101 sets up the tall bar one beat earlier (WITHOUT and UP TO 30% LESS remain). s164 dropped `WARMER`, because the thermometers carry it (PUPAE and LARVAE remain).
+2. **s105-s107 ant column:** the ants were a straight row at y 626, floating about 90 px above the log tops and crossing Doug's cap brim at eye height. They now walk on the log tops (y 712), go over the cap crown (y 604), along his body line (650/680/700), and back onto the far log. Nothing crosses his face. This is now an art bible rule ("Creatures walking over Doug").
+
+## Verdict: FAIL (5 composition fixes for the director; no asset fixes)
+
+### Fixes (director)
+1. **s031: the notes stack is three plain white rectangles** (known). It reads as blank boxes, not decades of notes. Draw each sheet the way s032's page is drawn: white fill, 3 px black outline, and grey `#8a8a8a` width-2 rule lines every 20 px. Offset the three sheets so they read as a stack (x 1172 / 1188 / 1180, each 8-10 px lower than the one above), and give the lower two a `#ece8d6` fill. Keep the appear timings.
+2. **s172-s178: the same queen composition five times** (queen at (960,680) scale 1.1-1.2 on the nest green, with the same flanking workers). **Doug is also absent from s173 to s182** except for s174-s175. Doug should be in at least s173, s176 and s178:
+   - **s173:** add Doug `stand`, `shock`, facing left, at x 1720, feet on the ground line (scale 0.5), `appear` 0.5, so he reacts to the egg piles. Keep the egg piles clear of him.
+   - **s176:** change it to a cream `#f4f1dc` diagram card: the queen side-on at x 760, scale 0.9, the "55,000 TO 66,000 EGGS" label above her gaster, the `1 WEEK` calendar kept at the top left, and Doug `point` at x 1650 aimed at the gaster. Remove the 1.06 zoom, which does not read.
+   - **s177:** use a different layout from s176. Put three calendars in a row across the upper middle (x 560 / 960 / 1360, scale 0.6, each labelled AGAIN, which is one repeated label in a single row), with the queen small (0.6) centred below them. Keep it to two distinct label texts.
+   - **s178:** add Doug `point`, `hopeful`, facing left, at x 1700 on the ground line. Put a red curved arrow from his hand to the blue paint dot, replacing the current top arrow so there is one arrow, not two. Keep the 4.5 YEARS wordart.
+3. **s179 to s180: near-duplicate** (three small queens in the same places). In s180, add `camera: {move: "zoom_in", x: 1500, y: 700, zoom: 1.4}` so the one queen that makes it fills the frame, and move NEW NEST to about (1500, 470) so it stays in the zoomed frame. In s179, add Doug `stand`, `flat`, facing left, at x 1780 on the ground line. That gives Doug a beat in the run without crowding s180.
+4. **s119 to s120: near-duplicate** (the same track, ellipse and ABOUT 365 M label; only Doug's pose changes). For "almost one full lap", replace the closed red ellipse in s120 with a red `curve` that follows the same oval but stops about 60 px short of where it starts, at the finish line. Put a red "!" in the gap, and change the label to `ALMOST 1 LAP` at the same spot.
+5. **s062 to s063: near-duplicate** (the same Doug and carpet; only the GOES WELL wordart is added). Add `camera: {move: "zoom_in", x: 1100, y: 640, zoom: 1.3}` to s063 so "for a while it goes well" plays on Doug's face. The wordart at (640, 330) stays in frame.
+
+### Not blocking (director's call)
+- **s008, s020:** the swarm front is a flat brown slab or blob with no ant texture, while the same swarm in s010-s012 has ant columns. A `#4a1e10` spray (density about 0.25) plus a row of `army_ant_carpet` at about 0.3 along the leading edge would keep it in the detailed tier.
+- **Death cards vary:** the big "DOUG DEATHS: N" text is at the top in s026, absent in s066 and s191, and at the bottom in s169. Pick one (top, as in s026) or drop it, since the counter is already on screen.
+- **s135:** the tiny queen silhouette on cream has no glow (`glow_r` 0). That is fine as an icon, but it is not a reveal (her reveal is s139 and then s172).
+- **s217:** the "DOUG DEATHS: 287" wordart repeats s216's big text. "A SHORT WALK" alone would be cleaner.
+- **`army_ant_soldier_head` close-ups (s071, s081):** these read correctly now. The illustrator still needs to regenerate the ants preview sheet (round 1 note).

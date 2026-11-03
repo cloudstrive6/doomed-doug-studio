@@ -251,6 +251,9 @@ reads as a severed head). Push the back edge past the frame edge (flip it if nee
   draws the strings across his face (014 s139, s140).
 - **Paths through Doug** (a worm's route, a nerve): draw the dashed path *before* the `doug`, so his white head covers it and
   the line never crosses his eyes (014 s192). Shadow or dust sprays near Doug also go before him (014 s194).
+- **Creatures walking over Doug** (036 "Doug became infrastructure"): the line of walkers follows a real surface (log tops, then
+  the cap crown, then his body line), never floating above it and never across his face. A straight row at one y floats in mid-air
+  and crosses his eyes (036 s105-s107).
 - **Creatures and places: the detailed tier**: cleaner cartoon illustrations with layered fills, interior shading
   (`spray`, darker back / lighter belly), texture strokes at 2–3, outlines 3–5. The contrast is part of the joke.
 
