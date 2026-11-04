@@ -14,7 +14,17 @@
       "stage": "scripted",
       "at": "2026-11-04T17:34:49+00:00",
       "note": "draft 2"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-11-04T17:37:23+00:00",
+      "note": "CD go: draft 2, screener PASS, 2148 words, counter 287-294"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-11-04T17:53:29+00:00",
+      "note": "231 shots, 13 asset requests, 3 Shorts picked"
     }
   ],
-  "stage": "scripted"
+  "stage": "shotlisted"
 }
