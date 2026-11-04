@@ -1,0 +1,224 @@
+{
+ "name": "dentist_mirror",
+ "description": "Dentist's hand mirror: knurled thin steel grip, thinner neck, small round pale-blue mirror with white glint at about (+150,-40). Anchor = grip end (0,0) for Doug's hand; x -4..174, y -68..8.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "dentist",
+  "tool",
+  "037"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     -18
+    ],
+    [
+     128,
+     -34
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     -18
+    ],
+    [
+     128,
+     -34
+    ]
+   ],
+   "width": 2,
+   "color": "#c8ced6"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -4,
+     -8
+    ],
+    [
+     76,
+     -26
+    ],
+    [
+     80,
+     -12
+    ],
+    [
+     2,
+     8
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#a8b0ba"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     8,
+     -12.2
+    ],
+    [
+     12,
+     3.8
+    ]
+   ],
+   "width": 2,
+   "color": "#5a6068"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     18,
+     -14.4
+    ],
+    [
+     22,
+     1.5999999999999996
+    ]
+   ],
+   "width": 2,
+   "color": "#5a6068"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     28,
+     -16.6
+    ],
+    [
+     32,
+     -0.5999999999999996
+    ]
+   ],
+   "width": 2,
+   "color": "#5a6068"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     38,
+     -18.8
+    ],
+    [
+     42,
+     -2.8000000000000007
+    ]
+   ],
+   "width": 2,
+   "color": "#5a6068"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     48,
+     -21.0
+    ],
+    [
+     52,
+     -5.0
+    ]
+   ],
+   "width": 2,
+   "color": "#5a6068"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     58,
+     -23.2
+    ],
+    [
+     62,
+     -7.199999999999999
+    ]
+   ],
+   "width": 2,
+   "color": "#5a6068"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     68,
+     -25.4
+    ],
+    [
+     72,
+     -9.4
+    ]
+   ],
+   "width": 2,
+   "color": "#5a6068"
+  },
+  {
+   "type": "ellipse",
+   "x": 150,
+   "y": -40,
+   "rx": 24,
+   "ry": 28,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#cfe9ff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     132,
+     -46
+    ],
+    [
+     140,
+     -62
+    ],
+    [
+     150,
+     -64
+    ],
+    [
+     144,
+     -54
+    ],
+    [
+     138,
+     -40
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffffff",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 160,
+   "y": -28,
+   "r": 4,
+   "width": 1,
+   "color": "#ffffff",
+   "fill": "#ffffff"
+  }
+ ]
+}
