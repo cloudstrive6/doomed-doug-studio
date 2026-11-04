@@ -53,7 +53,7 @@
   {"type": "spray", "x": -118, "y": 125, "r": 10, "color": "#a77a4c", "density": 0.25},
   {"type": "spray", "x": -200, "y": -20, "r": 30, "color": "#e2d6b4", "density": 0.15},
   {"type": "spray", "x": 210, "y": 120, "r": 26, "color": "#e2d6b4", "density": 0.15},
-  {"type": "text", "text": "FRIEND?", "x": 90, "y": -115, "size": 34, "color": "#000000", "boil": 0, "font": "ComicNeue-Bold", "bold": true},
+  {"type": "text", "text": "FRIEND?", "x": 90, "y": -115, "size": 40, "color": "#000000", "boil": 0, "font": "ComicNeue-Bold", "bold": true},
   {"type": "rect", "x": 183, "y": -137, "w": 44, "h": 44, "fill": "#ffffff", "width": 4, "color": "#000000", "boil": 0.4},
   {"type": "poly", "points": [[-6, 150], [8, 150], [16, 196], [6, 188], [-4, 202]], "width": 3, "color": "#000000", "fill": "#d0201b"},
   {"type": "line", "points": [[2, 156], [6, 190]], "width": 2, "color": "#8a1010"}

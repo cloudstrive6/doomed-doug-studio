@@ -42,3 +42,37 @@ All whale assets share the `sperm_whale` grey, white scar rings and light unders
 
 ## Routing
 Illustrator: nothing outstanding. Director: the two optional framing notes above.
+
+---
+
+# Keyframe review (art director, 2026-11-04)
+
+**Verdict: PASS** (after the fixes below, which I applied to `shotlist.json` and re-rendered; all 20 contact sheets
+re-built from the full 232-shot run).
+
+Checked: sheets 01-20 (s001-s231 + endslate). Doug on-model throughout (red cap, round head, oval eyes; white ink on
+every navy/black ground, black on cream/sky/pink); the squid costume, scuba, torch and clipboard gear all read. Counter
+287 -> 294 ticks exactly on the seven death beats (s030, s077, s102, s149, s172, s198, s226) and nowhere else. Depth
+meter steps 0 / 15 / 200 / 500 / 700 / 900 / 1,134 / 1,500 / 2,000+ / 1,000 (ascent) / 0 with matching backgrounds
+darkening one step per chapter. Chapter chip, counter and meter never collide with titles, wordart or creatures. No gore:
+every death is cap/X-eyes/splash only. Whale assets consistent with the approved set.
+
+## Fixes applied (shotlist)
+1. **s004** (cold open, #050a1f, "two kilometers down"): meter read `DEPTH: 0 M`. Now `DEPTH: MORE THAN 2,000 M` (icon x 1336).
+2. **s012**: `JUNK` label floated under the jaw pointing at nothing. Added a red arrow from the label into the lower (junk) chamber.
+3. **s044**: s044-s048 were five near-identical "row of vertical whales" frames in a row. s044 is now a cream diagram card
+   (one sleeping whale, stepped Z labels, `DEEPLY` wordart, Doug confused) so the run breaks before the boat beat (s045-s047).
+4. **s186**: the "two Dougs on one fingernail" were 0.18 scale and unreadable. Now 0.26, spread on the nail; label moved to y 270.
+5. **s189**: Doug + torch overlapped the last skeleton card. Moved +100/+80 clear of the grid.
+6. **s213-s215**: background was sober-card charcoal `#1a1d22` (art bible: sober cards have no Doug and no counter) in the middle
+   of the 2 km zone. Now the zone colour `#050a1f` like s211/s212.
+
+## Notes (no change required)
+- s001 shows "(thumbnail pending)": graphic designer's thumbnail is still missing (`validate` flags `scene_ref 'thumbnail'`). Must exist before build.
+- Two-shot "build" pairs (s025/26, s040/41, s073/74, s082/83, s086/87, s091/92, s169/70, s100/101) and the three-shot cutaway
+  label build s011-s013 are accepted: each second frame adds the new element on narration.
+- s220 uses `sperm_whale_head_rising` rotated 90 deg at 2 km; its water runs read as motion streaks. Acceptable.
+- `build/gen_shotlist.py` exists: director, if you regenerate the shotlist, carry fixes 1-6 into the generator or they will be lost.
+
+## Routing
+Illustrator: nothing. Director: carry the six fixes into any regeneration. Graphic designer: thumbnail for s001.
