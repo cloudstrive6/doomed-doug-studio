@@ -1,0 +1,121 @@
+{
+ "_note": "Variant B (Doug in peril): saturated teal water; the huge scarred sperm_whale_jaw_open comes in from the left, lower jaw of ivory cone teeth hanging open under Doug; red-capped Doug (scuba, panic, shock) points his dive light back at it, right over the teeth with his dive light, bubbles rising. Text HEARD YOU (the whale finds him by sound in the dark; no title word). No contact, no blood.",
+ "background": "#00838f",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "bands",
+   "bands": [
+    {
+     "y0": 0,
+     "y1": 360,
+     "color": "#00838f"
+    },
+    {
+     "y0": 360,
+     "y1": 720,
+     "color": "#005f6b"
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "sperm_whale_jaw_open",
+   "x": 560,
+   "y": 300,
+   "scale": 1.45,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 760,
+   "y": 500,
+   "scale": 0.45,
+   "pose": "point",
+   "expression": "shock",
+   "facing": "left",
+   "gear": [
+    "scuba"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "torch",
+   "x": 706.0,
+   "y": 440.6,
+   "scale": 0.24750000000000003,
+   "flip": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 780,
+   "y": 360,
+   "r": 12,
+   "fill": null,
+   "color": "#bfe6ff",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 800,
+   "y": 320,
+   "r": 9,
+   "fill": null,
+   "color": "#bfe6ff",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 770,
+   "y": 285,
+   "r": 7,
+   "fill": null,
+   "color": "#bfe6ff",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "HEARD",
+   "x": 1060,
+   "y": 380,
+   "size": 110,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "YOU",
+   "x": 1060,
+   "y": 490,
+   "size": 110,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

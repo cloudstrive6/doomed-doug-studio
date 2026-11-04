@@ -1,0 +1,348 @@
+{
+ "_note": "Variant C (list-format control): 4 big tiles 2x2, caption bars at the TOP (clear of the length badge), Comic Neue only. Loudest Click (whale + yellow click rings + red-capped Doug), Giant Squid, Ship Rammer (Essex: head_rising vs ship), Cable Trap (whale snagged on a deep cable). No title words.",
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "tile",
+   "x": 16,
+   "y": 16,
+   "w": 616,
+   "h": 336,
+   "fill": "#e91e63",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "sperm_whale",
+     "x": 230,
+     "y": 250,
+     "scale": 0.55,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       490.0,
+       200
+      ],
+      [
+       510,
+       240
+      ],
+      [
+       490.0,
+       280
+      ]
+     ],
+     "color": "#ffeb3b",
+     "width": 9,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       510.0,
+       160
+      ],
+      [
+       550,
+       240
+      ],
+      [
+       510.0,
+       320
+      ]
+     ],
+     "color": "#ffeb3b",
+     "width": 9,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       530.0,
+       120
+      ],
+      [
+       590,
+       240
+      ],
+      [
+       530.0,
+       360
+      ]
+     ],
+     "color": "#ffeb3b",
+     "width": 9,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 570,
+     "y": 290,
+     "scale": 0.26,
+     "pose": "panic1",
+     "expression": "shock",
+     "facing": "left",
+     "gear": [
+      "scuba"
+     ],
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 6,
+     "y": 6,
+     "w": 636,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "LOUDEST CLICK",
+     "x": 324,
+     "y": 54,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 648,
+   "y": 16,
+   "w": 616,
+   "h": 336,
+   "fill": "#ff9800",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "giant_squid",
+     "x": 960,
+     "y": 230,
+     "scale": 0.8,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 638,
+     "y": 6,
+     "w": 636,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "GIANT SQUID",
+     "x": 956,
+     "y": 54,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 16,
+   "y": 368,
+   "w": 616,
+   "h": 336,
+   "fill": "#29b6f6",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 16,
+     "y": 620,
+     "w": 616,
+     "h": 90,
+     "fill": "#1565c0",
+     "color": "#1565c0",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "mayflower_ship",
+     "x": 470,
+     "y": 610,
+     "scale": 0.42,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "sperm_whale_head_rising",
+     "x": 190,
+     "y": 740,
+     "scale": 0.42,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 6,
+     "y": 358,
+     "w": 636,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "SHIP RAMMER",
+     "x": 324,
+     "y": 406,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 648,
+   "y": 368,
+   "w": 616,
+   "h": 336,
+   "fill": "#8bc34a",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "sperm_whale",
+     "x": 960,
+     "y": 590,
+     "scale": 0.55,
+     "flip": true,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       660,
+       470
+      ],
+      [
+       820,
+       560
+      ],
+      [
+       940,
+       620
+      ],
+      [
+       1060,
+       540
+      ],
+      [
+       1270,
+       600
+      ]
+     ],
+     "color": "#000000",
+     "width": 12,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       660,
+       470
+      ],
+      [
+       820,
+       560
+      ],
+      [
+       940,
+       620
+      ],
+      [
+       1060,
+       540
+      ],
+      [
+       1270,
+       600
+      ]
+     ],
+     "color": "#ffd600",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 638,
+     "y": 358,
+     "w": 636,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "CABLE TRAP",
+     "x": 956,
+     "y": 406,
+     "size": 60,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
