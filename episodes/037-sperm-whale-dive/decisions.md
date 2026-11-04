@@ -66,3 +66,26 @@ labels are now legible at 168 px. The screener should judge the fixed C as a gri
 Next: the designer fixes C's DEEP tile. Then the visual screener runs a thumbnail pass on A, B and C. A/B/C test order is A primary, then B, then C.
 
 - 2026-11-04 Showrunner: packaged. Script 2 rounds (draft 1 FAIL on facts/hook; draft 2 PASS), art 3 rounds (keyframes fixes x2, thumbnails x3 incl. C grid rebuild). Risks: s004 Doug small (advisory), thumbnail C DEEP tile slightly bottle-like at feed size (non-blocking), Nap pacing unverified in a draft render, shared field_guide_open.json "FRIEND?" size raised 34->40.
+
+## 2026-11-04: final package gate (post-render)
+Creative director. Reviewed: metadata.json (title, alt_titles, description, tags, playlist), build/chapters.txt, build/thumbnail.png (A),
+build/samples f_001-f_002 (the first 60 s), the script opening, visual_review.md post-render (main PASS, Shorts PASS) and build/qc.json
+(711-712 s, problems: none).
+
+**Title: kept** "Why the Sperm Whale Gets Deadlier the Deeper Doug Follows It" (T6 gradient on a T9 single animal, 61 chars, 11 words,
+one dread word, no thumbnail word repeated). It is the depth gradient that gave 020 our best early retention, and the video delivers it: the gauge
+only goes down (0 to more than 2,000 m), and every stop is the whale getting more dangerous. None of the alternatives is clearly stronger. The two
+"Deadliest/Kills" alts lose the gradient promise, "Scariest Hunter in the Dark" is vaguer, and "Creepiest Things Scientists Found" repeats 030's formula.
+**Thumbnail A: approved** as primary. "2 KM DOWN" fits the title and the spoken "more than two kilometers" without claiming a record depth. The whale is
+huge, Doug is tiny, and there is no red or gore on the whale. It reads at feed size. B and C stay as the test variants (order A, B, C).
+**Description: approved.** The first two lines carry the search terms (sperm whale, giant squid, two kilometres down) and the promise. Sources are
+listed. The disclaimer and AI-use notes are in place. Not made for kids. Chapters start at 0:00, every chapter is at least 10 s long, and they match the on-screen tabs.
+**First 60 s: approved.** The thumbnail is the opening image. The first sentence carries the stakes (the 9 kg brain). The payoff promise lands by about 0:09
+("two kilometers down in total darkness, hunted by sound"). Item 1 is named at word 33, and the Essex twist lands at about 0:39. Frames f_001 and f_002 match the
+narration (SHIPS SUNK: 2, the ship and the whale) with the HUD at 287 / 0 M.
+Advisories, carried forward and not blocking: s085 has a tiny supermarket cart, and Doug is small in the s004 hook frame (director, next episode).
+Note for 038: 031, 033, 036 and 037 all open with "Why". The next title must not start with "Why".
+
+Lore: series bible updated (counter 294, 037 log row).
+
+FINAL: APPROVED
