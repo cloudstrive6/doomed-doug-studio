@@ -41,3 +41,26 @@ The jaw-and-teeth framing is the strongest single image of the three. The proble
 5. Reuse the squid in The Scars tile (sucker scars and squid arms) so the squid art isn't lost.
 
 Order for the A/B test once fixed: A is primary, with B and C as test variants. Bring all three back for one more look with a visual-screener thumbnail pass.
+
+## 2026-11-04: thumbnails round 2, A APPROVE, B APPROVE, C FIX (stage unchanged)
+Creative director. Re-reviewed the revised build/thumbnail.png (A), thumbnail_b.png (B), thumbnail_c.png (C) at 1280x720 and in
+build/smalls.png / smalls_x3.png. Gate note: visual_review.md (round 2, written 18:18) predates these renders (18:22), so its thumbnail
+verdicts are for the old versions. The art gate is NOT clear until the visual screener re-runs a thumbnail pass on these files.
+
+**A (hero, "2 KM DOWN"): APPROVE.** Both round-1 fixes landed: the water is near-black navy and darker at the bottom, and the beam lands on the face
+with a warm lit patch. Main thumbnail. Optional polish only: the step at y about 500 reads as a seafloor line, which is fine. A soft edge on the lit
+patch would make it look less like a tan box at feed size.
+
+**B (open jaw, "IT HEARD YOU"): APPROVE.** All 3 fixes landed: the text parses at feed size, the water is dark, Doug's torch has a beam, and the stray
+blob at the left edge is gone. Test variant 1.
+
+**C (grid): FIX, 1 change.** The 2x3 grid, the escalation order, the impact on the ship tile and the squid in Scars all landed, and the labels read at feed size.
+1. The DEEP tile draws the whale as a red outline with a red speckle spray on black. At 168 px it reads as a blood splatter or a red wire, not a whale, which
+   is a gore signal and misses the depth payoff. Redraw the whale as a dark grey/navy silhouette (no red anywhere in the tile), dimly lit only where Doug's
+   cone hits it, with the rest fading into black. Keep the black tile and Doug's light as they are.
+Accepted deviation: the labels are short all-caps words above the tiles (HEAD ... DEEP) rather than the bible's Title Case chapter names under the tiles.
+They read better at feed size, so keep them.
+Screener conflict: round 2 asked for C to become a single-focal composition. I'm overruling that. The grid is our default archetype (style bible 2.A) and the
+labels are now legible at 168 px. The screener should judge the fixed C as a grid on legibility and policy.
+
+Next: the designer fixes C's DEEP tile. Then the visual screener runs a thumbnail pass on A, B and C. A/B/C test order is A primary, then B, then C.

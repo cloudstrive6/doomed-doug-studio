@@ -1,56 +1,47 @@
 # 037 Sperm Whale Dive: Visual Review
 
-## Round 2: keyframe fixes + thumbnails (2026-11-04)
+## Round 3: revised thumbnails (2026-11-04)
 
-VERDICT: FAIL (keyframes PASS; thumbnail C fails at feed size)
+Checked build/thumbnail.png, thumbnail_b.png, thumbnail_c.png at 1280x720, their _small versions at 168x94,
+build/smalls.png (side by side) and build/c_small_x3.png. Title: "Why the Sperm Whale Gets Deadlier the Deeper Doug Follows It".
+Keyframes already passed in Round 2 (all 13 items fixed; s004 Doug scale is advisory only) and were not re-checked here.
 
-### Round 1 items checked against the individual keyframes in build/keyframes/
+VERDICT: FAIL (A PASS, B PASS, C FAIL on one tile)
 
-| # | Shot | Status |
-|---|---|---|
-| 1 | s001 | FIXED. It now opens on thumbnail A (2 KM DOWN, whale head, Doug with a dive light). |
-| 2 | s159 | FIXED. The Burj tip sits at about 72% of the 0 to 1,134 M span (828/1,134 = 73%), and the red ABOUT 300 M bracket runs from the tip to the 1,134 M line, so the gap reads. |
-| 3 | s024 | FIXED. Harpoons are on both bows, a WHALERS label sits over them, and a balance icon sells "to be fair". |
-| 4 | s043 | FIXED. The court is now a green court with white lines and a net, drawn at the whale's height, with a HALF bracket and a HALF A COURT caption. |
-| 5 | s044-s047 | FIXED. s044 is a single sleeper with Zs (DEEPLY), s045 is the six whales with the boat, s046 circles three whales with a 3 OF 6 label, and s047 is a close crop of the boat bumping the head with an impact star. The run no longer repeats. |
-| 6 | s166-s168 | FIXED. s166 is the splice-box close-up, s167 shows the slack coil, and s168 has Doug walking in with a clipboard. Only s168-s170 share a layout, and s169/s170 are the intended joke pair. |
-| 7 | s208 | FIXED. Doug and the whale are both on the 2 KM line, the AVERAGE whale is ghosted on the 1 KM line, and a TWICE arrow spans the gap. |
-| 8 | s004 | HALF FIXED. The HUD now reads MORE THAN 2,000 M and HUNTED BY SOUND fits the line, but Doug is still tiny. This is advisory only. |
-| 9 | s006 | FIXED. The title is clear of the whale. |
-| 10 | s161 | FIXED. One loop sits on the tail stock and one on the flipper. |
-| 11 | s138 | FIXED. The shot is pushed in tight on one big scar with an OLD SCAR label. |
-| 12 | field guide (s031, s054, s078, s124, s174, s200) | FIXED. SPERM WHALE / FRIEND? and NO / MAYBE are legible. |
-| 13 | s216 | FIXED. A faint whale outline and large click arcs close on Doug. |
-
-No gore and no kids-show framing anywhere. Doug is on-model in every checked shot, and the HUD and death counter are consistent.
-
-### Thumbnails (1280x720 and the 168x94 _small versions)
-
-- **A, thumbnail.png (2 KM DOWN)**: PASS. One focal point (the scarred head), Doug and his light are readable at 168 px,
-  and the text is big. Cartoon only, nothing cutesy. It matches the title and doesn't mislead.
-- **B, thumbnail_b.png (HEARD YOU)**: PASS. The open lower jaw and teeth are the threat, Doug sits in front of them, and HEARD YOU
-  is legible at 168 px. Cartoon teeth, no blood.
-- **C, thumbnail_c.png (4-panel grid)**: FAIL. At 168x94 the panel labels (LOUDEST CLICK, GIANT SQUID, SHIP RAMMER, CABLE
-  TRAP) are about 5 px tall and can't be read. There are four competing subjects and no single focal point, and Doug is a speck in one
-  panel, so "Doug + threat" doesn't read. It also doesn't pay off the title's "the deeper Doug follows it".
+- **A, thumbnail.png (2 KM DOWN)**: PASS. The background is now near-black navy, so it reads as deep water, and the warm beam
+  lands on a lit patch on the head. There is one focal point (the scarred head over two-thirds of the frame). Doug is on-model
+  (red cap, white head, goggles, tank) and his light reads at 168 px. The text is the biggest element and is legible at feed size.
+  Cartoon teeth, no gore, nothing cutesy. It pays off "deeper" and doesn't mislead.
+- **B, thumbnail_b.png (IT HEARD YOU)**: PASS. IT HEARD YOU now parses at 168 px. The water is dark, Doug is lit by his short beam
+  and sits clearly between the open jaw and the head, and the stray blob on the left is gone (the left edge is now plainly the head
+  with its eye). One focal point (the jaw), no blood, adult horror tone. Doug is on-model.
+- **C, thumbnail_c.png (2x3 chapter grid)**: FAIL. The CD's structure is met: six tiles, one-word chapter labels in escalation
+  order (HEAD, CLICK, JAW, SCARS, CABLE, DEEP), the head hits the bow with an impact star, and the squid is reused on SCARS.
+  **The labels read at 168x94.** Each is about 9-10 px tall, black on a white bar, and all six words are legible in the _small and
+  in c_small_x3. Doug is on-model in every tile. The one failure is the DEEP tile, which is the payoff tile for the title: the
+  whale is a thick red outline in a cloud of red spray dots on black. At feed size it reads as a red smear, or a blood cloud, rather
+  than a whale silhouette in the dark. The outline's shape (flat top, notched tail) is not recognisable as a sperm whale, and it
+  is horizontal, so there is no "diving deeper" cue. The red-spray gore read is the policy-risk part, since the click and jaw
+  tiles already say "danger".
 
 ### Required fixes
 
-1. **thumbnail_c (graphic designer)**: replace the 4-panel grid with a single-focal depth composition that is distinct from A and B.
-   One option is a vertical depth strip: the whale diving down into black water at right, tiny Doug with a dive light following it
-   lower-left, and no more than 2 big words (e.g. "TOO DEEP" or "KEEP GOING"; never DEADLIER/DEEPER/WHALE/SPERM/DOUG, no exact
-   record depth). If a grid is kept, cut it to 2 panels at most, with labels at least 90 px tall at 1280 width and Doug large in each.
-   Re-check the _small at 168x94.
+1. **thumbnail_c, DEEP tile (graphic designer)**: remove the red spray-dot cloud completely and drop the red outline. Draw the
+   `sperm_whale` asset as a dark silhouette (about #1b2436 fill) with a thin pale rim light (about #9fb3c8, 3-4 px), rotated about
+   30-40 degrees nose-down so it is diving toward the bottom-right corner. Keep its square head inside Doug's beam so the beam
+   lands on the blunt head (the same lit-patch treatment as A). Keep the tile black and keep Doug and his torch where they are.
+   Re-export thumbnail_c_small.png and smalls.png and re-check that the whale shape reads at 168x94.
 
-### Advisory (fix if cheap)
+### Advisory (not blocking)
 
-2. **s004 (director)**: scale Doug up (about 0.3) so the cold-open "two kilometers down... hunted" has a visible victim.
-3. **thumbnail A (graphic designer)**: the water is mid-blue, which reads shallow against "2 KM DOWN". A darker navy/black
-   background would sell depth (the brief says "black water") and make the yellow light pop. s001 would pick this up automatically.
-4. **s124/s174/s200 (illustrator)**: the field guide drops the orange MAYBE that s054/s078 showed. If that's intentional, fine;
-   otherwise keep MAYBE crossed out so the page keeps its continuity.
+2. **thumbnail_c, CABLE tile (graphic designer)**: the yellow cable ends in Doug's hand, so it reads as Doug lassoing the whale
+   rather than the whale being snagged. End the cable off the tile edge, or at a seabed splice box, instead of at Doug.
+3. **s004 (director)**: carried over from Round 2. Scale Doug up (about 0.3).
 
-## Round 1: keyframes (2026-11-04)
+Order once fixed: A is primary, with B and C as test variants (per the CD).
 
-Superseded by Round 2 above (13 items: s001, s159, s024, s043, s044-s047, s166-s170, s208, s004, s006, s161, s132-s138,
-field-guide headings, s216).
+## Rounds 1-2: keyframes (2026-11-04)
+
+Keyframes: PASS as of Round 2. All Round 1 items (s001, s159, s024, s043, s044-s047, s166-s168, s208, s006, s161, s138,
+field guide s031/s054/s078/s124/s174/s200, s216) were fixed. s004 Doug scale and the field-guide MAYBE continuity are advisory only.
+No gore and no kids-show framing. Doug is on-model and the HUD and death counter are consistent.
