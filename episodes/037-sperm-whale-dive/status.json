@@ -24,7 +24,12 @@
       "stage": "shotlisted",
       "at": "2026-11-04T17:53:29+00:00",
       "note": "231 shots, 13 asset requests, 3 Shorts picked"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-04T18:27:02+00:00",
+      "note": "art-director PASS, visual-screener PASS (3 rounds), CD approved thumbs A/B, C pending screener pass -> PASS"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }
