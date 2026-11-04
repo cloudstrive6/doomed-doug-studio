@@ -10,3 +10,34 @@ Notes carried forward (non-blocking, for director/editor):
 2. Screener advisories (line 21 "only a corner", line 223 bent-jaw joint) are optional polish; not required.
 3. Thumbnail text "2 KM DOWN" is delivered by the boss ("more than two kilometers"); the titler must not promise an exact record depth.
 4. Series bible episode log and the 294 total get written at final approval, not now.
+
+## 2026-11-04: thumbnails A/B/C, NO-GO (fixes below; stage unchanged)
+Creative director. Reviewed build/thumbnail.png (A), thumbnail_b.png (B), thumbnail_c.png (C) at 1280x720 and at 168x94 feed size,
+against the title "Why the Sperm Whale Gets Deadlier the Deeper Doug Follows It" and brief section 8. No thumbnail screener report exists yet
+(visual_review.md only flags s001 "thumbnail pending"), so none of these can be approved yet. Visual screener: run a thumbnail pass after the fixes.
+No variant repeats a title word, all are cartoon only, none read as a kids' show. Good.
+
+**A (hero, "2 KM DOWN"): FIX, 2 changes. Closest to approval; this should be the main thumbnail.**
+Composition is right: the head fills about two-thirds of the frame, Doug is tiny, the text reads at feed size, and the beam leads the eye to the whale.
+1. The water is bright mid-blue with a lighter band behind Doug, which looks like the shallows and goes against "2 KM DOWN" and the brief's "black water".
+   Make the background near-black navy (about #050c1a to #0a1630, darker at the bottom) and remove the horizon band. The dive-light cone should be the
+   only bright thing besides the text, so the whale's face is lit where the beam hits it and fades into black at the top and right edges.
+2. Make the beam hit the whale's face (warmer, more opaque where it lands, with a soft lit patch on the head). Right now it is a flat yellow wedge that stops at the outline.
+
+**B (open jaw, "HEARD YOU"): FIX, 3 changes.**
+The jaw-and-teeth framing is the strongest single image of the three. The problems are the text and the depth.
+1. "HEARD YOU" has no subject, so at feed size it doesn't parse. Change it to "IT HEARD YOU" (3 words; the boss delivers this with "hunted by sound").
+2. The water is bright teal, which reads as the surface. Darken it to near-black like A, and give Doug's torch a short beam so he is lit.
+3. The dark grey shape cut off at the left edge (about x 0-80, y 290-400) reads as a stray blob. Either draw it as a clear pectoral fin or remove it.
+
+**C (grid): FIX, rebuild.**
+1. Four tiles is below the grid rule (style bible 2.A: 6-16 tiles). Make it a 2x3 grid.
+2. The labels must be the chapter names (style bible 2.A). "Giant Squid", "Ship Rammer", "Cable Trap" and "Loudest Click" aren't chapters.
+   Use these six in escalation order: The Head, The Click, The Jaw, The Scars, The Cable, The Deepest Dive.
+3. The last tile (The Deepest Dive) must be the extreme item: a black tile with the whale's silhouette and Doug's tiny light, matching the title promise.
+   At the moment the grid never shows depth or darkness, so it sells a whale-facts video, not "deadlier the deeper".
+4. The ship tile shows an upright whale beside a ship that isn't touching it, which reads as a spyhop. If The Head keeps the ship, draw the head
+   hitting the bow with an impact mark.
+5. Reuse the squid in The Scars tile (sucker scars and squid arms) so the squid art isn't lost.
+
+Order for the A/B test once fixed: A is primary, with B and C as test variants. Bring all three back for one more look with a visual-screener thumbnail pass.

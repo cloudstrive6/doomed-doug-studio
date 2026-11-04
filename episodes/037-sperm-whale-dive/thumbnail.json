@@ -1,6 +1,6 @@
 {
- "_note": "Variant A (hero close-up; video opening image s001 via scene_ref): saturated royal-blue depth bands; the dark, scarred sperm_whale_head_rising (scale 1.25) inlined as a group without the surface-water drips (we are 2 km down), flipped and rotated -90 so the blunt square front charges at Doug from the right, underslung toothed jaw below, enlarged eye with a hard brow; fills the right ~60% of the frame, white sucker-scar rings and wrinkles. Tiny red-capped Doug in scuba gear (point, shock) on the left aims his dive light; a flat pale-yellow beam hits the whale's face. Text 2 KM / DOWN (Arimo bold, white, black outline): titler's suggestion, no exact record depth, no title word. No contact, no blood.",
- "background": "#0d47a1",
+ "_note": "Variant A (hero close-up; video opening image s001 via scene_ref): near-black navy water (#0a1630 to #050c1a, no horizon), the scarred sperm_whale_head_rising inlined as a dark group (flipped, rotated -90) filling the right ~60%, its blunt front charging at Doug; the body fades into the black at the top and right. Tiny red-capped scuba Doug (point, shock) aims his dive light: a warm cone that lands on the whale's face as a lit patch (scars bright only inside the light). Text 2 KM / DOWN (Arimo bold, white, black outline): no exact record depth, no title word. No contact, no blood.",
+ "background": "#050c1a",
  "size": [
   1280,
   720
@@ -11,18 +11,18 @@
    "bands": [
     {
      "y0": 0,
-     "y1": 240,
-     "color": "#1565c0"
+     "y1": 260,
+     "color": "#0a1630"
     },
     {
-     "y0": 240,
-     "y1": 480,
-     "color": "#0d47a1"
+     "y0": 260,
+     "y1": 500,
+     "color": "#081228"
     },
     {
-     "y0": 480,
+     "y0": 500,
      "y1": 720,
-     "color": "#082f6e"
+     "color": "#050c1a"
     }
    ],
    "boil": 0,
@@ -32,24 +32,50 @@
    "type": "poly",
    "points": [
     [
-     376.90000000000003,
-     518.64
+     374,
+     517
     ],
     [
-     520,
-     300
+     482,
+     292
     ],
     [
-     520,
-     640
+     482,
+     676
     ],
     [
-     376.90000000000003,
-     534.64
+     374,
+     537
     ]
    ],
-   "fill": "#fff59d",
-   "color": "#fff59d",
+   "fill": "#ffd96b",
+   "color": "#ffd96b",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     374,
+     522
+    ],
+    [
+     482,
+     410
+    ],
+    [
+     482,
+     600
+    ],
+    [
+     374,
+     532
+    ]
+   ],
+   "fill": "#fff1b8",
+   "color": "#fff1b8",
    "width": 0,
    "boil": 0,
    "wobble": 0
@@ -124,7 +150,7 @@
      ],
      "width": 0,
      "color": "#000000",
-     "fill": "#5b6470",
+     "fill": "#2b3139",
      "smooth": true,
      "outline": false
     },
@@ -178,7 +204,7 @@
      ],
      "width": 0,
      "color": "#000000",
-     "fill": "#454c56",
+     "fill": "#1d2228",
      "smooth": true,
      "outline": false
     },
@@ -220,7 +246,7 @@
      ],
      "width": 0,
      "color": "#000000",
-     "fill": "#7d8794",
+     "fill": "#373e47",
      "smooth": true,
      "outline": false
     },
@@ -270,9 +296,101 @@
      ],
      "width": 0,
      "color": "#000000",
-     "fill": "#6e7884",
+     "fill": "#343b44",
      "smooth": true,
      "outline": false
+    },
+    {
+     "type": "poly",
+     "smooth": true,
+     "width": 0,
+     "color": "#6f6a58",
+     "fill": "#6f6a58",
+     "outline": false,
+     "points": [
+      [
+       -110,
+       -614
+      ],
+      [
+       -20,
+       -621
+      ],
+      [
+       80,
+       -621
+      ],
+      [
+       178,
+       -600
+      ],
+      [
+       185,
+       -540
+      ],
+      [
+       150,
+       -480
+      ],
+      [
+       80,
+       -455
+      ],
+      [
+       0,
+       -455
+      ],
+      [
+       -70,
+       -480
+      ],
+      [
+       -110,
+       -540
+      ]
+     ]
+    },
+    {
+     "type": "poly",
+     "smooth": true,
+     "width": 0,
+     "color": "#a69a78",
+     "fill": "#a69a78",
+     "outline": false,
+     "points": [
+      [
+       -20,
+       -620
+      ],
+      [
+       50,
+       -621
+      ],
+      [
+       120,
+       -614
+      ],
+      [
+       140,
+       -585
+      ],
+      [
+       120,
+       -545
+      ],
+      [
+       60,
+       -528
+      ],
+      [
+       0,
+       -535
+      ],
+      [
+       -25,
+       -575
+      ]
+     ]
     },
     {
      "type": "curve",
@@ -299,7 +417,7 @@
       ]
      ],
      "width": 3,
-     "color": "#8f99a6"
+     "color": "#4a525c"
     },
     {
      "type": "curve",
@@ -330,7 +448,7 @@
       ]
      ],
      "width": 3,
-     "color": "#3c434c"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -361,7 +479,7 @@
       ]
      ],
      "width": 3,
-     "color": "#3c434c"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -392,7 +510,7 @@
       ]
      ],
      "width": 3,
-     "color": "#3c434c"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -423,7 +541,7 @@
       ]
      ],
      "width": 3,
-     "color": "#3c434c"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -454,7 +572,7 @@
       ]
      ],
      "width": 3,
-     "color": "#3c434c"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -485,7 +603,7 @@
       ]
      ],
      "width": 3,
-     "color": "#3c434c"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -504,7 +622,7 @@
       ]
      ],
      "width": 2,
-     "color": "#4a525c"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -523,7 +641,7 @@
       ]
      ],
      "width": 2,
-     "color": "#4a525c"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -542,7 +660,7 @@
       ]
      ],
      "width": 2,
-     "color": "#4a525c"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -561,7 +679,7 @@
       ]
      ],
      "width": 2,
-     "color": "#4a525c"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -580,14 +698,14 @@
       ]
      ],
      "width": 2,
-     "color": "#4a525c"
+     "color": "#15191e"
     },
     {
      "type": "spray",
      "x": -20,
      "y": -420,
      "r": 120,
-     "color": "#6b7582",
+     "color": "#373e47",
      "density": 0.12
     },
     {
@@ -595,7 +713,7 @@
      "x": -110,
      "y": -250,
      "r": 60,
-     "color": "#3a4049",
+     "color": "#1d2228",
      "density": 0.12
     },
     {
@@ -644,7 +762,7 @@
      "y": -400,
      "r": 12,
      "width": 3,
-     "color": "#f2f2f2"
+     "color": "#59616b"
     },
     {
      "type": "circle",
@@ -652,7 +770,7 @@
      "y": -440,
      "r": 9,
      "width": 3,
-     "color": "#f2f2f2"
+     "color": "#59616b"
     },
     {
      "type": "circle",
@@ -660,7 +778,7 @@
      "y": -420,
      "r": 14,
      "width": 3,
-     "color": "#f2f2f2"
+     "color": "#59616b"
     },
     {
      "type": "circle",
@@ -668,7 +786,7 @@
      "y": -380,
      "r": 18,
      "width": 3,
-     "color": "#f2f2f2"
+     "color": "#59616b"
     },
     {
      "type": "circle",
@@ -676,7 +794,7 @@
      "y": -330,
      "r": 12,
      "width": 3,
-     "color": "#f2f2f2"
+     "color": "#59616b"
     },
     {
      "type": "circle",
@@ -684,7 +802,7 @@
      "y": -300,
      "r": 17,
      "width": 3,
-     "color": "#f2f2f2"
+     "color": "#59616b"
     },
     {
      "type": "circle",
@@ -692,7 +810,7 @@
      "y": -300,
      "r": 10,
      "width": 3,
-     "color": "#f2f2f2"
+     "color": "#59616b"
     },
     {
      "type": "circle",
@@ -700,7 +818,7 @@
      "y": -470,
      "r": 8,
      "width": 3,
-     "color": "#f2f2f2"
+     "color": "#59616b"
     },
     {
      "type": "circle",
@@ -735,7 +853,7 @@
       ]
      ],
      "width": 2,
-     "color": "#c9ced6"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -754,7 +872,7 @@
       ]
      ],
      "width": 2,
-     "color": "#c9ced6"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -769,7 +887,7 @@
       ]
      ],
      "width": 2,
-     "color": "#c9ced6"
+     "color": "#15191e"
     },
     {
      "type": "curve",
@@ -843,7 +961,7 @@
      ],
      "width": 4,
      "color": "#000000",
-     "fill": "#d8dde3",
+     "fill": "#7a828c",
      "smooth": true
     },
     {
@@ -1096,7 +1214,7 @@
       ]
      ],
      "width": 2,
-     "color": "#3c434c"
+     "color": "#15191e"
     },
     {
      "type": "poly",
@@ -1189,7 +1307,7 @@
    "y": 490,
    "r": 12,
    "fill": null,
-   "color": "#bfe6ff",
+   "color": "#7fa6c8",
    "width": 4,
    "boil": 0,
    "wobble": 0
@@ -1200,7 +1318,7 @@
    "y": 450,
    "r": 9,
    "fill": null,
-   "color": "#bfe6ff",
+   "color": "#7fa6c8",
    "width": 4,
    "boil": 0,
    "wobble": 0
@@ -1211,7 +1329,7 @@
    "y": 416,
    "r": 7,
    "fill": null,
-   "color": "#bfe6ff",
+   "color": "#7fa6c8",
    "width": 4,
    "boil": 0,
    "wobble": 0

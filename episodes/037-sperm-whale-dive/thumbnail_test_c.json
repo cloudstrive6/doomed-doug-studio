@@ -1,5 +1,5 @@
 {
- "_note": "Variant C (list-format control): 4 big tiles 2x2, caption bars at the TOP (clear of the length badge), Comic Neue only. Loudest Click (whale + yellow click rings + red-capped Doug), Giant Squid, Ship Rammer (Essex: head_rising vs ship), Cable Trap (whale snagged on a deep cable). No title words.",
+ "_note": "Variant C (list-format control): 2x3 grid of the chapter names cut to one big word each (style bible 2.A, 6 tiles), white caption bars at the TOP of each tile (clear of the length badge), Comic Neue only, escalation order: HEAD (Essex: head hits the bow, impact star, Doug thrown off), CLICK (yellow click rings hit Doug), JAW (open toothed jaw under Doug), SCARS (giant squid on the scarred head), CABLE (whale snagged in a deep cable), DEEP (black tile, red-rimmed whale silhouette diving, Doug's tiny light). Red-capped Doug in every tile. No title words.",
  "background": "#ffffff",
  "size": [
   1280,
@@ -8,10 +8,165 @@
  "elements": [
   {
    "type": "tile",
-   "x": 16,
-   "y": 16,
-   "w": 616,
-   "h": 336,
+   "x": 12,
+   "y": 12,
+   "w": 410,
+   "h": 342,
+   "fill": "#29b6f6",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 12,
+     "y": 274,
+     "w": 410,
+     "h": 342,
+     "fill": "#1565c0",
+     "color": "#1565c0",
+     "width": 0,
+     "outline": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "mayflower_ship",
+     "x": 107,
+     "y": 274,
+     "scale": 0.36,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "sperm_whale",
+     "x": 312,
+     "y": 292,
+     "scale": 0.36,
+     "flip": true,
+     "rotate": 8,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       270.0,
+       252.0
+      ],
+      [
+       244.5,
+       259.7
+      ],
+      [
+       257.1,
+       283.1
+      ],
+      [
+       233.7,
+       270.5
+      ],
+      [
+       226.0,
+       296.0
+      ],
+      [
+       218.3,
+       270.5
+      ],
+      [
+       194.9,
+       283.1
+      ],
+      [
+       207.5,
+       259.7
+      ],
+      [
+       182.0,
+       252.0
+      ],
+      [
+       207.5,
+       244.3
+      ],
+      [
+       194.9,
+       220.9
+      ],
+      [
+       218.3,
+       233.5
+      ],
+      [
+       226.0,
+       208.0
+      ],
+      [
+       233.7,
+       233.5
+      ],
+      [
+       257.1,
+       220.9
+      ],
+      [
+       244.5,
+       244.3
+      ]
+     ],
+     "fill": "#ffeb3b",
+     "color": "#000000",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 357,
+     "y": 217,
+     "scale": 0.27,
+     "pose": "fall",
+     "expression": "shock",
+     "facing": "left",
+     "gear": [],
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 6,
+     "y": 6,
+     "w": 422,
+     "h": 118,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "HEAD",
+     "x": 217.0,
+     "y": 70.0,
+     "size": 100,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 435,
+   "y": 12,
+   "w": 410,
+   "h": 342,
    "fill": "#e91e63",
    "radius": 20,
    "frame_width": 7,
@@ -19,9 +174,9 @@
     {
      "type": "asset",
      "name": "sperm_whale",
-     "x": 230,
-     "y": 250,
-     "scale": 0.55,
+     "x": 565,
+     "y": 257,
+     "scale": 0.34,
      "boil": 0,
      "wobble": 0
     },
@@ -29,16 +184,37 @@
      "type": "curve",
      "points": [
       [
-       490.0,
-       200
+       715,
+       213
       ],
       [
-       510,
-       240
+       729,
+       247
       ],
       [
-       490.0,
-       280
+       715,
+       281
+      ]
+     ],
+     "color": "#000000",
+     "width": 17,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       715,
+       213
+      ],
+      [
+       729,
+       247
+      ],
+      [
+       715,
+       281
       ]
      ],
      "color": "#ffeb3b",
@@ -50,16 +226,37 @@
      "type": "curve",
      "points": [
       [
-       510.0,
-       160
+       741,
+       187
       ],
       [
-       550,
-       240
+       761,
+       247
       ],
       [
-       510.0,
-       320
+       741,
+       307
+      ]
+     ],
+     "color": "#000000",
+     "width": 17,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       741,
+       187
+      ],
+      [
+       761,
+       247
+      ],
+      [
+       741,
+       307
       ]
      ],
      "color": "#ffeb3b",
@@ -71,16 +268,37 @@
      "type": "curve",
      "points": [
       [
-       530.0,
-       120
+       767,
+       161
       ],
       [
-       590,
-       240
+       793,
+       247
       ],
       [
-       530.0,
-       360
+       767,
+       333
+      ]
+     ],
+     "color": "#000000",
+     "width": 17,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       767,
+       161
+      ],
+      [
+       793,
+       247
+      ],
+      [
+       767,
+       333
       ]
      ],
      "color": "#ffeb3b",
@@ -90,9 +308,9 @@
     },
     {
      "type": "doug",
-     "x": 570,
-     "y": 290,
-     "scale": 0.26,
+     "x": 810,
+     "y": 292,
+     "scale": 0.3,
      "pose": "panic1",
      "expression": "shock",
      "facing": "left",
@@ -104,10 +322,10 @@
     },
     {
      "type": "rect",
-     "x": 6,
+     "x": 429,
      "y": 6,
-     "w": 636,
-     "h": 88,
+     "w": 422,
+     "h": 118,
      "fill": "#ffffff",
      "width": 7,
      "boil": 0,
@@ -115,10 +333,10 @@
     },
     {
      "type": "text",
-     "text": "LOUDEST CLICK",
-     "x": 324,
-     "y": 54,
-     "size": 60,
+     "text": "CLICK",
+     "x": 640.0,
+     "y": 70.0,
+     "size": 100,
      "color": "#000000",
      "font": "ComicNeue-Bold",
      "boil": 0,
@@ -130,29 +348,1275 @@
   },
   {
    "type": "tile",
-   "x": 648,
-   "y": 16,
-   "w": 616,
-   "h": 336,
-   "fill": "#ff9800",
+   "x": 858,
+   "y": 12,
+   "w": 410,
+   "h": 342,
+   "fill": "#e53935",
    "radius": 20,
    "frame_width": 7,
    "elements": [
     {
-     "type": "asset",
-     "name": "giant_squid",
-     "x": 960,
-     "y": 230,
-     "scale": 0.8,
+     "type": "group",
+     "x": 1018,
+     "y": 227,
+     "scale": 0.5,
+     "elements": [
+      {
+       "type": "poly",
+       "points": [
+        [
+         -330,
+         -14
+        ],
+        [
+         -130,
+         -22
+        ],
+        [
+         -112,
+         14
+        ],
+        [
+         -132,
+         52
+        ],
+        [
+         -168,
+         80
+        ],
+        [
+         -300,
+         8
+        ]
+       ],
+       "width": 3,
+       "color": "#000000",
+       "fill": "#e8d8d0",
+       "smooth": true
+      },
+      {
+       "type": "spray",
+       "x": -230,
+       "y": 0,
+       "r": 50,
+       "color": "#d6c0b6",
+       "density": 0.25
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -318.0,
+         -11.5
+        ],
+        [
+         -59.2,
+         140.3
+        ],
+        [
+         173.6,
+         277.0
+        ],
+        [
+         200.8,
+         301.9
+        ],
+        [
+         191.2,
+         312.6
+        ],
+        [
+         163.8,
+         306.0
+        ],
+        [
+         -78.2,
+         173.2
+        ],
+        [
+         -314.0,
+         41.6
+        ],
+        [
+         -340.4,
+         3.3
+        ]
+       ],
+       "width": 5,
+       "color": "#000000",
+       "fill": "#6f7884",
+       "smooth": true
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -295.0,
+         8.7
+        ],
+        [
+         -61.2,
+         143.7
+        ],
+        [
+         171.6,
+         280.5
+        ],
+        [
+         167.6,
+         287.4
+        ],
+        [
+         -66.2,
+         152.4
+        ],
+        [
+         -300.0,
+         17.4
+        ]
+       ],
+       "width": 0,
+       "color": "#000000",
+       "fill": "#d8dde3",
+       "smooth": true,
+       "outline": false
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -281.0,
+         44.5
+        ],
+        [
+         -75.2,
+         168.0
+        ],
+        [
+         161.6,
+         297.8
+        ],
+        [
+         -77.2,
+         171.4
+        ],
+        [
+         -285.0,
+         51.4
+        ]
+       ],
+       "width": 0,
+       "color": "#000000",
+       "fill": "#4f5761",
+       "smooth": true,
+       "outline": false
+      },
+      {
+       "type": "circle",
+       "x": -226.1,
+       "y": 69.3,
+       "r": 5,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "circle",
+       "x": -122.2,
+       "y": 129.3,
+       "r": 5,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "circle",
+       "x": -18.2,
+       "y": 189.3,
+       "r": 5,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "circle",
+       "x": 85.7,
+       "y": 249.3,
+       "r": 5,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -144.3,
+         95.7
+        ],
+        [
+         -112.2,
+         54.2
+        ],
+        [
+         -110.2,
+         46.2
+        ],
+        [
+         -123.5,
+         107.7
+        ]
+       ],
+       "width": 3,
+       "color": "#000000",
+       "fill": "#efe6d0"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         -127.7,
+         103.0
+        ],
+        [
+         -116.9,
+         74.6
+        ]
+       ],
+       "width": 2,
+       "color": "#c8bfa8"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -110.6,
+         115.2
+        ],
+        [
+         -78.4,
+         73.7
+        ],
+        [
+         -76.4,
+         65.7
+        ],
+        [
+         -89.8,
+         127.2
+        ]
+       ],
+       "width": 3,
+       "color": "#000000",
+       "fill": "#efe6d0"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         -94.0,
+         122.5
+        ],
+        [
+         -83.1,
+         94.1
+        ]
+       ],
+       "width": 2,
+       "color": "#c8bfa8"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -76.8,
+         134.7
+        ],
+        [
+         -44.6,
+         93.2
+        ],
+        [
+         -42.6,
+         85.2
+        ],
+        [
+         -56.0,
+         146.7
+        ]
+       ],
+       "width": 3,
+       "color": "#000000",
+       "fill": "#efe6d0"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         -60.2,
+         142.0
+        ],
+        [
+         -49.3,
+         113.6
+        ]
+       ],
+       "width": 2,
+       "color": "#c8bfa8"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -43.0,
+         154.2
+        ],
+        [
+         -10.8,
+         112.7
+        ],
+        [
+         -8.8,
+         104.7
+        ],
+        [
+         -22.2,
+         166.2
+        ]
+       ],
+       "width": 3,
+       "color": "#000000",
+       "fill": "#efe6d0"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         -26.4,
+         161.5
+        ],
+        [
+         -15.6,
+         133.1
+        ]
+       ],
+       "width": 2,
+       "color": "#c8bfa8"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -9.2,
+         173.7
+        ],
+        [
+         22.9,
+         132.2
+        ],
+        [
+         24.9,
+         124.2
+        ],
+        [
+         11.6,
+         185.7
+        ]
+       ],
+       "width": 3,
+       "color": "#000000",
+       "fill": "#efe6d0"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         7.4,
+         181.0
+        ],
+        [
+         18.2,
+         152.6
+        ]
+       ],
+       "width": 2,
+       "color": "#c8bfa8"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         24.5,
+         193.2
+        ],
+        [
+         56.7,
+         151.7
+        ],
+        [
+         58.7,
+         143.7
+        ],
+        [
+         45.3,
+         205.2
+        ]
+       ],
+       "width": 3,
+       "color": "#000000",
+       "fill": "#efe6d0"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         41.1,
+         200.5
+        ],
+        [
+         52.0,
+         172.1
+        ]
+       ],
+       "width": 2,
+       "color": "#c8bfa8"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         58.3,
+         212.7
+        ],
+        [
+         90.5,
+         171.2
+        ],
+        [
+         92.5,
+         163.2
+        ],
+        [
+         79.1,
+         224.7
+        ]
+       ],
+       "width": 3,
+       "color": "#000000",
+       "fill": "#efe6d0"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         74.9,
+         220.0
+        ],
+        [
+         85.8,
+         191.6
+        ]
+       ],
+       "width": 2,
+       "color": "#c8bfa8"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         92.1,
+         232.2
+        ],
+        [
+         124.3,
+         190.7
+        ],
+        [
+         126.3,
+         182.7
+        ],
+        [
+         112.9,
+         244.2
+        ]
+       ],
+       "width": 3,
+       "color": "#000000",
+       "fill": "#efe6d0"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         108.7,
+         239.5
+        ],
+        [
+         119.5,
+         211.1
+        ]
+       ],
+       "width": 2,
+       "color": "#c8bfa8"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         125.9,
+         251.7
+        ],
+        [
+         158.0,
+         210.2
+        ],
+        [
+         160.0,
+         202.2
+        ],
+        [
+         146.7,
+         263.7
+        ]
+       ],
+       "width": 3,
+       "color": "#000000",
+       "fill": "#efe6d0"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         142.5,
+         259.0
+        ],
+        [
+         153.3,
+         230.6
+        ]
+       ],
+       "width": 2,
+       "color": "#c8bfa8"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         159.6,
+         271.2
+        ],
+        [
+         191.8,
+         229.7
+        ],
+        [
+         193.8,
+         221.7
+        ],
+        [
+         180.4,
+         283.2
+        ]
+       ],
+       "width": 3,
+       "color": "#000000",
+       "fill": "#efe6d0"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         176.2,
+         278.5
+        ],
+        [
+         187.1,
+         250.1
+        ]
+       ],
+       "width": 2,
+       "color": "#c8bfa8"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -400,
+         -170
+        ],
+        [
+         -300,
+         -200
+        ],
+        [
+         -150,
+         -228
+        ],
+        [
+         50,
+         -240
+        ],
+        [
+         250,
+         -238
+        ],
+        [
+         350,
+         -224
+        ],
+        [
+         392,
+         -190
+        ],
+        [
+         400,
+         -120
+        ],
+        [
+         396,
+         -40
+        ],
+        [
+         376,
+         -22
+        ],
+        [
+         200,
+         -24
+        ],
+        [
+         0,
+         -24
+        ],
+        [
+         -200,
+         -20
+        ],
+        [
+         -300,
+         -10
+        ],
+        [
+         -400,
+         0
+        ]
+       ],
+       "width": 0,
+       "color": "#000000",
+       "fill": "#5b6470",
+       "smooth": true,
+       "outline": false
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -400,
+         -170
+        ],
+        [
+         -300,
+         -200
+        ],
+        [
+         -150,
+         -228
+        ],
+        [
+         50,
+         -240
+        ],
+        [
+         250,
+         -238
+        ],
+        [
+         350,
+         -224
+        ],
+        [
+         250,
+         -222
+        ],
+        [
+         50,
+         -222
+        ],
+        [
+         -150,
+         -210
+        ],
+        [
+         -400,
+         -150
+        ]
+       ],
+       "width": 0,
+       "color": "#000000",
+       "fill": "#454c56",
+       "smooth": true,
+       "outline": false
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -400,
+         -16
+        ],
+        [
+         -300,
+         -30
+        ],
+        [
+         0,
+         -46
+        ],
+        [
+         200,
+         -46
+        ],
+        [
+         376,
+         -40
+        ],
+        [
+         376,
+         -22
+        ],
+        [
+         200,
+         -24
+        ],
+        [
+         0,
+         -24
+        ],
+        [
+         -200,
+         -20
+        ],
+        [
+         -300,
+         -10
+        ],
+        [
+         -400,
+         0
+        ]
+       ],
+       "width": 0,
+       "color": "#000000",
+       "fill": "#7d8794",
+       "smooth": true,
+       "outline": false
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         -380,
+         -160
+        ],
+        [
+         -250,
+         -180
+        ],
+        [
+         -100,
+         -174
+        ],
+        [
+         50,
+         -184
+        ],
+        [
+         200,
+         -176
+        ],
+        [
+         330,
+         -182
+        ]
+       ],
+       "width": 3,
+       "color": "#3c434c"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         -380,
+         -120
+        ],
+        [
+         -250,
+         -140
+        ],
+        [
+         -100,
+         -134
+        ],
+        [
+         50,
+         -144
+        ],
+        [
+         200,
+         -136
+        ],
+        [
+         330,
+         -142
+        ]
+       ],
+       "width": 3,
+       "color": "#3c434c"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         -380,
+         -80
+        ],
+        [
+         -250,
+         -100
+        ],
+        [
+         -100,
+         -94
+        ],
+        [
+         50,
+         -104
+        ],
+        [
+         200,
+         -96
+        ],
+        [
+         330,
+         -102
+        ]
+       ],
+       "width": 3,
+       "color": "#3c434c"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         -380,
+         -50
+        ],
+        [
+         -250,
+         -70
+        ],
+        [
+         -100,
+         -64
+        ],
+        [
+         50,
+         -74
+        ],
+        [
+         200,
+         -66
+        ],
+        [
+         330,
+         -72
+        ]
+       ],
+       "width": 3,
+       "color": "#3c434c"
+      },
+      {
+       "type": "spray",
+       "x": 240,
+       "y": -130,
+       "r": 90,
+       "color": "#6b7582",
+       "density": 0.12
+      },
+      {
+       "type": "circle",
+       "x": 160,
+       "y": -180,
+       "r": 14,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "circle",
+       "x": 220,
+       "y": -110,
+       "r": 10,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "circle",
+       "x": 280,
+       "y": -170,
+       "r": 16,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "circle",
+       "x": 330,
+       "y": -110,
+       "r": 12,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "circle",
+       "x": 100,
+       "y": -120,
+       "r": 9,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "circle",
+       "x": 360,
+       "y": -190,
+       "r": 8,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "circle",
+       "x": 40,
+       "y": -190,
+       "r": 11,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "circle",
+       "x": -60,
+       "y": -150,
+       "r": 8,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "circle",
+       "x": 250,
+       "y": -60,
+       "r": 9,
+       "width": 3,
+       "color": "#f2f2f2"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         120,
+         -90
+        ],
+        [
+         200,
+         -150
+        ],
+        [
+         260,
+         -140
+        ]
+       ],
+       "width": 2,
+       "color": "#c9ced6"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         -380,
+         -140
+        ],
+        [
+         -200,
+         -186
+        ],
+        [
+         0,
+         -214
+        ]
+       ],
+       "width": 3,
+       "color": "#8f99a6"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -300,
+         -10
+        ],
+        [
+         -200,
+         -20
+        ],
+        [
+         0,
+         -24
+        ],
+        [
+         376,
+         -22
+        ],
+        [
+         370,
+         -32
+        ],
+        [
+         0,
+         -36
+        ],
+        [
+         -200,
+         -32
+        ]
+       ],
+       "width": 0,
+       "color": "#000000",
+       "fill": "#d8dde3",
+       "outline": false
+      },
+      {
+       "type": "ellipse",
+       "x": -60,
+       "y": -22,
+       "rx": 11,
+       "ry": 6,
+       "width": 2,
+       "color": "#000000",
+       "fill": "#2a2228"
+      },
+      {
+       "type": "ellipse",
+       "x": -20,
+       "y": -22,
+       "rx": 11,
+       "ry": 6,
+       "width": 2,
+       "color": "#000000",
+       "fill": "#2a2228"
+      },
+      {
+       "type": "ellipse",
+       "x": 20,
+       "y": -22,
+       "rx": 11,
+       "ry": 6,
+       "width": 2,
+       "color": "#000000",
+       "fill": "#2a2228"
+      },
+      {
+       "type": "ellipse",
+       "x": 60,
+       "y": -22,
+       "rx": 11,
+       "ry": 6,
+       "width": 2,
+       "color": "#000000",
+       "fill": "#2a2228"
+      },
+      {
+       "type": "ellipse",
+       "x": 100,
+       "y": -22,
+       "rx": 11,
+       "ry": 6,
+       "width": 2,
+       "color": "#000000",
+       "fill": "#2a2228"
+      },
+      {
+       "type": "ellipse",
+       "x": 140,
+       "y": -22,
+       "rx": 11,
+       "ry": 6,
+       "width": 2,
+       "color": "#000000",
+       "fill": "#2a2228"
+      },
+      {
+       "type": "ellipse",
+       "x": 180,
+       "y": -22,
+       "rx": 11,
+       "ry": 6,
+       "width": 2,
+       "color": "#000000",
+       "fill": "#2a2228"
+      },
+      {
+       "type": "ellipse",
+       "x": 220,
+       "y": -22,
+       "rx": 11,
+       "ry": 6,
+       "width": 2,
+       "color": "#000000",
+       "fill": "#2a2228"
+      },
+      {
+       "type": "ellipse",
+       "x": 260,
+       "y": -22,
+       "rx": 11,
+       "ry": 6,
+       "width": 2,
+       "color": "#000000",
+       "fill": "#2a2228"
+      },
+      {
+       "type": "ellipse",
+       "x": 300,
+       "y": -22,
+       "rx": 11,
+       "ry": 6,
+       "width": 2,
+       "color": "#000000",
+       "fill": "#2a2228"
+      },
+      {
+       "type": "ellipse",
+       "x": -290,
+       "y": -40,
+       "rx": 9,
+       "ry": 7,
+       "width": 3,
+       "color": "#000000",
+       "fill": "#ffffff"
+      },
+      {
+       "type": "circle",
+       "x": -287,
+       "y": -40,
+       "r": 4,
+       "width": 1,
+       "color": "#000000",
+       "fill": "#000000"
+      },
+      {
+       "type": "curve",
+       "points": [
+        [
+         -304,
+         -50
+        ],
+        [
+         -290,
+         -56
+        ],
+        [
+         -276,
+         -50
+        ]
+       ],
+       "width": 3,
+       "color": "#000000"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -400,
+         -170
+        ],
+        [
+         -300,
+         -200
+        ],
+        [
+         -150,
+         -228
+        ],
+        [
+         50,
+         -240
+        ],
+        [
+         250,
+         -238
+        ],
+        [
+         350,
+         -224
+        ],
+        [
+         392,
+         -190
+        ],
+        [
+         400,
+         -120
+        ],
+        [
+         396,
+         -40
+        ],
+        [
+         376,
+         -22
+        ],
+        [
+         200,
+         -24
+        ],
+        [
+         0,
+         -24
+        ],
+        [
+         -200,
+         -20
+        ],
+        [
+         -300,
+         -10
+        ],
+        [
+         -400,
+         0
+        ]
+       ],
+       "width": 5,
+       "color": "#000000",
+       "smooth": true
+      }
+     ],
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 1158,
+     "y": 302,
+     "scale": 0.3,
+     "pose": "panic1",
+     "expression": "shock",
+     "facing": "left",
+     "gear": [
+      "scuba"
+     ],
      "boil": 0,
      "wobble": 0
     },
     {
      "type": "rect",
-     "x": 638,
+     "x": 852,
      "y": 6,
-     "w": 636,
-     "h": 88,
+     "w": 422,
+     "h": 118,
      "fill": "#ffffff",
      "width": 7,
      "boil": 0,
@@ -160,10 +1624,10 @@
     },
     {
      "type": "text",
-     "text": "GIANT SQUID",
-     "x": 956,
-     "y": 54,
-     "size": 60,
+     "text": "JAW",
+     "x": 1063.0,
+     "y": 70.0,
+     "size": 100,
      "color": "#000000",
      "font": "ComicNeue-Bold",
      "boil": 0,
@@ -175,77 +1639,10 @@
   },
   {
    "type": "tile",
-   "x": 16,
-   "y": 368,
-   "w": 616,
-   "h": 336,
-   "fill": "#29b6f6",
-   "radius": 20,
-   "frame_width": 7,
-   "elements": [
-    {
-     "type": "rect",
-     "x": 16,
-     "y": 620,
-     "w": 616,
-     "h": 90,
-     "fill": "#1565c0",
-     "color": "#1565c0",
-     "width": 0,
-     "outline": false,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "asset",
-     "name": "mayflower_ship",
-     "x": 470,
-     "y": 610,
-     "scale": 0.42,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "asset",
-     "name": "sperm_whale_head_rising",
-     "x": 190,
-     "y": 740,
-     "scale": 0.42,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "rect",
-     "x": 6,
-     "y": 358,
-     "w": 636,
-     "h": 88,
-     "fill": "#ffffff",
-     "width": 7,
-     "boil": 0,
-     "wobble": 0
-    },
-    {
-     "type": "text",
-     "text": "SHIP RAMMER",
-     "x": 324,
-     "y": 406,
-     "size": 60,
-     "color": "#000000",
-     "font": "ComicNeue-Bold",
-     "boil": 0,
-     "wobble": 0
-    }
-   ],
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "tile",
-   "x": 648,
-   "y": 368,
-   "w": 616,
-   "h": 336,
+   "x": 12,
+   "y": 366,
+   "w": 410,
+   "h": 342,
    "fill": "#8bc34a",
    "radius": 20,
    "frame_width": 7,
@@ -253,77 +1650,42 @@
     {
      "type": "asset",
      "name": "sperm_whale",
-     "x": 960,
-     "y": 590,
-     "scale": 0.55,
-     "flip": true,
+     "x": 162,
+     "y": 636,
+     "scale": 0.44,
      "boil": 0,
      "wobble": 0
     },
     {
-     "type": "curve",
-     "points": [
-      [
-       660,
-       470
-      ],
-      [
-       820,
-       560
-      ],
-      [
-       940,
-       620
-      ],
-      [
-       1060,
-       540
-      ],
-      [
-       1270,
-       600
-      ]
-     ],
-     "color": "#000000",
-     "width": 12,
+     "type": "asset",
+     "name": "giant_squid",
+     "x": 267,
+     "y": 561,
+     "scale": 0.36,
+     "rotate": -12,
      "boil": 0,
      "wobble": 0
     },
     {
-     "type": "curve",
-     "points": [
-      [
-       660,
-       470
-      ],
-      [
-       820,
-       560
-      ],
-      [
-       940,
-       620
-      ],
-      [
-       1060,
-       540
-      ],
-      [
-       1270,
-       600
-      ]
+     "type": "doug",
+     "x": 387,
+     "y": 666,
+     "scale": 0.27,
+     "pose": "point",
+     "expression": "shock",
+     "facing": "left",
+     "gear": [
+      "scuba"
      ],
-     "color": "#ffd600",
-     "width": 5,
      "boil": 0,
      "wobble": 0
     },
     {
      "type": "rect",
-     "x": 638,
-     "y": 358,
-     "w": 636,
-     "h": 88,
+     "x": 6,
+     "y": 360,
+     "w": 422,
+     "h": 118,
      "fill": "#ffffff",
      "width": 7,
      "boil": 0,
@@ -331,10 +1693,251 @@
     },
     {
      "type": "text",
-     "text": "CABLE TRAP",
+     "text": "SCARS",
+     "x": 217.0,
+     "y": 424.0,
+     "size": 100,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 435,
+   "y": 366,
+   "w": 410,
+   "h": 342,
+   "fill": "#1e88e5",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "sperm_whale",
+     "x": 600,
+     "y": 616,
+     "scale": 0.36,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       425,
+       541
+      ],
+      [
+       525,
+       596
+      ],
+      [
+       610,
+       666
+      ],
+      [
+       725,
+       621
+      ],
+      [
+       773,
+       616
+      ]
+     ],
+     "color": "#000000",
+     "width": 16,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       425,
+       541
+      ],
+      [
+       525,
+       596
+      ],
+      [
+       610,
+       666
+      ],
+      [
+       725,
+       621
+      ],
+      [
+       773,
+       616
+      ]
+     ],
+     "color": "#ffd600",
+     "width": 8,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "ellipse",
+     "x": 485,
+     "y": 614,
+     "rx": 14,
+     "ry": 34,
+     "color": "#000000",
+     "width": 15,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "ellipse",
+     "x": 485,
+     "y": 614,
+     "rx": 14,
+     "ry": 34,
+     "color": "#ffd600",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 800,
+     "y": 656,
+     "scale": 0.3,
+     "pose": "point",
+     "expression": "shock",
+     "facing": "left",
+     "gear": [
+      "scuba"
+     ],
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 429,
+     "y": 360,
+     "w": 422,
+     "h": 118,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "CABLE",
+     "x": 640.0,
+     "y": 424.0,
+     "size": 100,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 858,
+   "y": 366,
+   "w": 410,
+   "h": 342,
+   "fill": "#000000",
+   "radius": 20,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "sperm_whale",
+     "x": 1113,
+     "y": 616,
+     "scale": 0.34,
+     "rotate": 22,
+     "silhouette": true,
+     "glow_r": 330,
+     "rim": {
+      "color": "#e0201b",
+      "px": 8
+     },
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       986.24,
+       556
+      ],
+      [
+       1046.24,
+       542
+      ],
+      [
+       1046.24,
+       582
+      ],
+      [
+       986.24,
+       568
+      ]
+     ],
+     "fill": "#fff59d",
+     "color": "#fff59d",
+     "width": 0,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "torch",
      "x": 956,
-     "y": 406,
-     "size": 60,
+     "y": 562,
+     "scale": 0.12,
+     "flip": false,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "doug",
+     "x": 916,
+     "y": 616,
+     "scale": 0.26,
+     "pose": "point",
+     "expression": "shock",
+     "facing": "right",
+     "gear": [
+      "scuba"
+     ],
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 852,
+     "y": 360,
+     "w": 422,
+     "h": 118,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "DEEP",
+     "x": 1063.0,
+     "y": 424.0,
+     "size": 100,
      "color": "#000000",
      "font": "ComicNeue-Bold",
      "boil": 0,

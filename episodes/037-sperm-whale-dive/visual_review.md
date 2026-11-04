@@ -1,53 +1,56 @@
 # 037 Sperm Whale Dive: Visual Review
 
-## Round 1: keyframes (2026-11-04, contact sheets 01-20, s001-s231 + endslate)
+## Round 2: keyframe fixes + thumbnails (2026-11-04)
 
-VERDICT: FAIL
+VERDICT: FAIL (keyframes PASS; thumbnail C fails at feed size)
 
-Overall the episode is in good shape: Doug is on-model in every shot (red cap, white head, scuba gear consistent from s072),
-the death counter runs 287 to 294 with ticks exactly on the seven death shots (s030, s077, s102, s149, s172, s198, s226),
-the depth HUD rises monotonically and matches each band, all text is spelled right and uncropped, and all deaths are
-cartoon (splash + floating cap, flat costume, crumpled tank). No gore, no kid-show framing; the giant squid eye (s142),
-skeletons (s176-s196) and fingernail (s185-s186) are fine. The fixes below are about picture/narration mismatch, one
-wrong-scale fact graphic, two stale runs, and the missing opening image.
+### Round 1 items checked against the individual keyframes in build/keyframes/
+
+| # | Shot | Status |
+|---|---|---|
+| 1 | s001 | FIXED. It now opens on thumbnail A (2 KM DOWN, whale head, Doug with a dive light). |
+| 2 | s159 | FIXED. The Burj tip sits at about 72% of the 0 to 1,134 M span (828/1,134 = 73%), and the red ABOUT 300 M bracket runs from the tip to the 1,134 M line, so the gap reads. |
+| 3 | s024 | FIXED. Harpoons are on both bows, a WHALERS label sits over them, and a balance icon sells "to be fair". |
+| 4 | s043 | FIXED. The court is now a green court with white lines and a net, drawn at the whale's height, with a HALF bracket and a HALF A COURT caption. |
+| 5 | s044-s047 | FIXED. s044 is a single sleeper with Zs (DEEPLY), s045 is the six whales with the boat, s046 circles three whales with a 3 OF 6 label, and s047 is a close crop of the boat bumping the head with an impact star. The run no longer repeats. |
+| 6 | s166-s168 | FIXED. s166 is the splice-box close-up, s167 shows the slack coil, and s168 has Doug walking in with a clipboard. Only s168-s170 share a layout, and s169/s170 are the intended joke pair. |
+| 7 | s208 | FIXED. Doug and the whale are both on the 2 KM line, the AVERAGE whale is ghosted on the 1 KM line, and a TWICE arrow spans the gap. |
+| 8 | s004 | HALF FIXED. The HUD now reads MORE THAN 2,000 M and HUNTED BY SOUND fits the line, but Doug is still tiny. This is advisory only. |
+| 9 | s006 | FIXED. The title is clear of the whale. |
+| 10 | s161 | FIXED. One loop sits on the tail stock and one on the flipper. |
+| 11 | s138 | FIXED. The shot is pushed in tight on one big scar with an OLD SCAR label. |
+| 12 | field guide (s031, s054, s078, s124, s174, s200) | FIXED. SPERM WHALE / FRIEND? and NO / MAYBE are legible. |
+| 13 | s216 | FIXED. A faint whale outline and large click arcs close on Doug. |
+
+No gore and no kids-show framing anywhere. Doug is on-model in every checked shot, and the HUD and death counter are consistent.
+
+### Thumbnails (1280x720 and the 168x94 _small versions)
+
+- **A, thumbnail.png (2 KM DOWN)**: PASS. One focal point (the scarred head), Doug and his light are readable at 168 px,
+  and the text is big. Cartoon only, nothing cutesy. It matches the title and doesn't mislead.
+- **B, thumbnail_b.png (HEARD YOU)**: PASS. The open lower jaw and teeth are the threat, Doug sits in front of them, and HEARD YOU
+  is legible at 168 px. Cartoon teeth, no blood.
+- **C, thumbnail_c.png (4-panel grid)**: FAIL. At 168x94 the panel labels (LOUDEST CLICK, GIANT SQUID, SHIP RAMMER, CABLE
+  TRAP) are about 5 px tall and can't be read. There are four competing subjects and no single focal point, and Doug is a speck in one
+  panel, so "Doug + threat" doesn't read. It also doesn't pay off the title's "the deeper Doug follows it".
 
 ### Required fixes
 
-1. **s001 (graphic designer)**: tile still reads "(thumbnail pending)". The thumbnail is also the opening image; render
-   `build/thumbnail.png` (`python -m studio thumbnail 037-sperm-whale-dive`) before the final render, then re-run keyframes for s001.
-2. **s159 (director)**: the scale graphic is wrong and contradicts the line "with about three hundred meters to spare". The
-   inverted Burj Khalifa tip reaches about y=905 against the 1,134 M line at y=1000, so it looks ~95% as deep. Scale it so the
-   tip sits at about y=808 (828/1,134 of the 290-1000 span; roughly `scale` 0.8 instead of 1.05, check the asset height), and
-   move the red "ABOUT 300 M" bracket from x=560 to directly under the tip (x≈760, y 808 to 1000) so the gap reads.
-3. **s024 (director)**: "both ships were there to hunt them" shows two neutral sailing ships, a "?" and a shrug, so nothing
-   says *hunting*. Add a harpoon (or harpoon + rope) on each ship's bow, or a "WHALERS" label over both, and swap the "?" for
-   something that sells "to be fair" (e.g. a small balance/scale icon or "FAIR" label).
-4. **s043 (illustrator)**: `tennis_court_side` rotated -90 reads as a thin green-white stripe, not a tennis court. A viewer
-   won't get "half a tennis court standing on its end" in a second. Redraw as a recognisable court (green rectangle with white
-   lines + net and posts at mid-length), drawn at the same height as the whale, with a "HALF" bracket on it.
-5. **s044-s047 (director)**: four near-identical frames in a row (the same six upright whales, same framing; only the orange
-   boat and a "!" change), coming right after the same layout at s033-s035. Break it up: s044 push in on two sleepers (eyes
-   closed), s046 put "3 OF 6" ticks on three specific whales, and s047 crop close on the boat bumping one whale's head with an
-   impact mark, so the touch is the subject instead of a tiny "!".
-6. **s166-s170 (director)**: five consecutive near-identical cable-hump compositions (s166 OLD REPAIR, s167 SLACK, s168
-   INSPECTION, s169 VOLUNTEERED, s170 WAS VOLUNTEERED). Keep s169/s170 as the joke pair, but change s166-s168: e.g. s166
-   close-up of the repair splice box with the label, s167 a wide shot with the slack coil, s168 Doug walking up with clipboard
-   (a different camera from s169).
-7. **s208 (director)**: Doug is on the 1 KM line and the whale on the 2 KM line, the reverse of s207 (Doug at 2 KM) and of
-   the HUD ("MORE THAN 2,000 M"). Put Doug on the 2 KM line next to the whale and the "average" whale ghosted on the 1 KM
-   line, so "twice a normal day's work" reads as the gap between the lines.
+1. **thumbnail_c (graphic designer)**: replace the 4-panel grid with a single-focal depth composition that is distinct from A and B.
+   One option is a vertical depth strip: the whale diving down into black water at right, tiny Doug with a dive light following it
+   lower-left, and no more than 2 big words (e.g. "TOO DEEP" or "KEEP GOING"; never DEADLIER/DEEPER/WHALE/SPERM/DOUG, no exact
+   record depth). If a grid is kept, cut it to 2 panels at most, with labels at least 90 px tall at 1280 width and Doug large in each.
+   Re-check the _small at 168x94.
 
 ### Advisory (fix if cheap)
 
-8. **s004 (director)**: cold-open teaser says "two kilometers down" but the HUD shows "DEPTH: 0 M" and Doug is tiny and dim.
-   Hide the depth HUD on s004 (or show "MORE THAN 2,000 M") and scale Doug up (~0.3).
-9. **s006 (director)**: the red "THE HEAD" title runs into the whale's left edge. Move the title left ~60 px or the whale right.
-10. **s161 (illustrator/director)**: "around the tail and flippers": one loop floats detached to the left of the tail. Put
-    the loop on the tail stock/flukes.
-11. **s132-s138 (director)**: the skin close-up layout appears five times in seven shots (s132, s134, s135, s136, s138).
-    Consider pushing in tighter on the single big scar for s138 "OLD SCAR" so it reads as a new beat.
-12. **s031, s054, s078, s124, s174, s200 (illustrator)**: the field-guide headings "SPERM WHALE" / "FRIEND?" are too small to
-    read at this size. Fine as a recurring prop, since s222 is the legible payoff close-up, but bumping the page-heading
-    size would help at 1080p.
-13. **s216 (director)**: "the whale at its most dangerous" is a near-empty black frame with a tiny click arc. Intentional
-    suspense is OK, but a faint whale outline or larger click arcs closing on Doug would give it a subject.
+2. **s004 (director)**: scale Doug up (about 0.3) so the cold-open "two kilometers down... hunted" has a visible victim.
+3. **thumbnail A (graphic designer)**: the water is mid-blue, which reads shallow against "2 KM DOWN". A darker navy/black
+   background would sell depth (the brief says "black water") and make the yellow light pop. s001 would pick this up automatically.
+4. **s124/s174/s200 (illustrator)**: the field guide drops the orange MAYBE that s054/s078 showed. If that's intentional, fine;
+   otherwise keep MAYBE crossed out so the page keeps its continuity.
+
+## Round 1: keyframes (2026-11-04)
+
+Superseded by Round 2 above (13 items: s001, s159, s024, s043, s044-s047, s166-s170, s208, s004, s006, s161, s132-s138,
+field-guide headings, s216).
