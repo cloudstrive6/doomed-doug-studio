@@ -64,3 +64,5 @@ Screener conflict: round 2 asked for C to become a single-focal composition. I'm
 labels are now legible at 168 px. The screener should judge the fixed C as a grid on legibility and policy.
 
 Next: the designer fixes C's DEEP tile. Then the visual screener runs a thumbnail pass on A, B and C. A/B/C test order is A primary, then B, then C.
+
+- 2026-11-04 Showrunner: packaged. Script 2 rounds (draft 1 FAIL on facts/hook; draft 2 PASS), art 3 rounds (keyframes fixes x2, thumbnails x3 incl. C grid rebuild). Risks: s004 Doug small (advisory), thumbnail C DEEP tile slightly bottle-like at feed size (non-blocking), Nap pacing unverified in a draft render, shared field_guide_open.json "FRIEND?" size raised 34->40.

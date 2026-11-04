@@ -29,7 +29,12 @@
       "stage": "art_approved",
       "at": "2026-11-04T18:27:02+00:00",
       "note": "art-director PASS, visual-screener PASS (3 rounds), CD approved thumbs A/B, C pending screener pass -> PASS"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-04T18:30:27+00:00",
+      "note": "narrated 11:52, 196 wpm, validated"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
