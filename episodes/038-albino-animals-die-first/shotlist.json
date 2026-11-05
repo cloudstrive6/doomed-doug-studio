@@ -135,7 +135,7 @@
      },
      {
       "type": "label",
-      "text": "TIME LEFT:",
+      "text": "TIME LEFT: ?",
       "x": 1580,
       "y": 238,
       "size": 28,
@@ -264,7 +264,7 @@
       "type": "spray",
       "x": 960,
       "y": 640,
-      "r": 120,
+      "r": 190,
       "color": "#e8e8d0",
       "density": 0.25
      },
@@ -272,7 +272,7 @@
       "type": "doug",
       "x": 960,
       "y": 640,
-      "scale": 0.2,
+      "scale": 0.34,
       "pose": "float",
       "expression": "hopeful",
       "facing": "right"
@@ -282,29 +282,17 @@
       "name": "white_hatchling_costume",
       "x": 960,
       "y": 640,
-      "scale": 0.2
-     },
-     {
-      "type": "rect",
-      "x": 916,
-      "y": 640,
-      "w": 88,
-      "h": 38,
-      "fill": "#0f1e1c",
-      "color": "#0f1e1c",
-      "width": 0,
-      "boil": 0,
-      "outline": false
+      "scale": 0.34
      },
      {
       "type": "line",
       "points": [
        [
-        916.0,
+        885.2,
         640
        ],
        [
-        1004.0,
+        1034.8,
         640
        ]
       ],
@@ -335,7 +323,7 @@
      },
      {
       "type": "label",
-      "text": "TIME LEFT:",
+      "text": "TIME LEFT: ?",
       "x": 1580,
       "y": 238,
       "size": 28,
@@ -464,7 +452,7 @@
       "type": "spray",
       "x": 960,
       "y": 640,
-      "r": 120,
+      "r": 190,
       "color": "#e8e8d0",
       "density": 0.25
      },
@@ -472,7 +460,7 @@
       "type": "doug",
       "x": 960,
       "y": 640,
-      "scale": 0.2,
+      "scale": 0.34,
       "pose": "float",
       "expression": "hopeful",
       "facing": "right"
@@ -482,29 +470,17 @@
       "name": "white_hatchling_costume",
       "x": 960,
       "y": 640,
-      "scale": 0.2
-     },
-     {
-      "type": "rect",
-      "x": 916,
-      "y": 640,
-      "w": 88,
-      "h": 38,
-      "fill": "#0f1e1c",
-      "color": "#0f1e1c",
-      "width": 0,
-      "boil": 0,
-      "outline": false
+      "scale": 0.34
      },
      {
       "type": "line",
       "points": [
        [
-        916.0,
+        885.2,
         640
        ],
        [
-        1004.0,
+        1034.8,
         640
        ]
       ],
@@ -574,7 +550,7 @@
      },
      {
       "type": "label",
-      "text": "TIME LEFT:",
+      "text": "TIME LEFT: ?",
       "x": 1580,
       "y": 238,
       "size": 28,
@@ -680,7 +656,7 @@
      },
      {
       "type": "label",
-      "text": "TIME LEFT:",
+      "text": "TIME LEFT: DECADES",
       "x": 1580,
       "y": 238,
       "size": 28,
@@ -9191,6 +9167,23 @@
      },
      {
       "type": "asset",
+      "name": "snowflake_face",
+      "x": 480,
+      "y": 620,
+      "scale": 0.75
+     },
+     {
+      "type": "label",
+      "text": "1: ALBINO",
+      "x": 480,
+      "y": 960,
+      "size": 34,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff"
+     },
+     {
+      "type": "asset",
       "name": "white_lioness_face",
       "x": 1440,
       "y": 640,
@@ -9198,7 +9191,7 @@
      },
      {
       "type": "wordart",
-      "text": "LEUCISTIC",
+      "text": "2: LEUCISTIC",
       "x": 1440,
       "y": 330,
       "size": 80,
@@ -9207,9 +9200,9 @@
      },
      {
       "type": "doug",
-      "x": 700,
-      "y": 860,
-      "scale": 0.4,
+      "x": 170,
+      "y": 980,
+      "scale": 0.36,
       "pose": "think",
       "expression": "confused",
       "facing": "right"
@@ -12887,7 +12880,7 @@
       "type": "asset",
       "name": "question_mark",
       "x": 480,
-      "y": 470,
+      "y": 380,
       "scale": 0.35,
       "appear": 0.6
      },
@@ -27918,8 +27911,8 @@
      },
      {
       "type": "spray",
-      "x": 140,
-      "y": 860,
+      "x": 330,
+      "y": 900,
       "r": 160,
       "color": "#e0201b",
       "density": 0.4
@@ -27927,29 +27920,37 @@
      {
       "type": "asset",
       "name": "coyote",
-      "x": 140,
-      "y": 1020,
-      "scale": 0.5,
-      "silhouette": true,
-      "glow_r": 0
-     },
-     {
-      "type": "spray",
-      "x": 1760,
-      "y": 860,
-      "r": 160,
-      "color": "#e0201b",
-      "density": 0.4
-     },
-     {
-      "type": "asset",
-      "name": "coyote",
-      "x": 1760,
-      "y": 1020,
+      "x": 330,
+      "y": 990,
       "scale": 0.5,
       "silhouette": true,
       "glow_r": 0,
-      "flip": true
+      "rim": {
+       "color": "#e0201b",
+       "px": 4
+      }
+     },
+     {
+      "type": "spray",
+      "x": 1590,
+      "y": 900,
+      "r": 160,
+      "color": "#e0201b",
+      "density": 0.4
+     },
+     {
+      "type": "asset",
+      "name": "coyote",
+      "x": 1590,
+      "y": 990,
+      "scale": 0.5,
+      "silhouette": true,
+      "glow_r": 0,
+      "flip": true,
+      "rim": {
+       "color": "#e0201b",
+       "px": 4
+      }
      },
      {
       "type": "doug",
@@ -37601,7 +37602,7 @@
       "type": "wordart",
       "text": "BANNED",
       "x": 1450,
-      "y": 470,
+      "y": 340,
       "size": 72,
       "boil": 0,
       "appear": 0.5
@@ -37873,7 +37874,7 @@
       "type": "wordart",
       "text": "STOPPED",
       "x": 380,
-      "y": 420,
+      "y": 300,
       "size": 64,
       "boil": 0,
       "appear": 0.6
@@ -38679,8 +38680,8 @@
      {
       "type": "text",
       "text": "WHITE SQUIRREL:",
-      "x": 998.0,
-      "y": 379.0,
+      "x": 975,
+      "y": 520,
       "size": 34.0,
       "color": "#2b2b2b",
       "bold": true,
@@ -38690,8 +38691,8 @@
      {
       "type": "text",
       "text": "ALBINO",
-      "x": 998.0,
-      "y": 426.6,
+      "x": 975,
+      "y": 568,
       "size": 34.0,
       "color": "#e0201b",
       "bold": true,
@@ -42313,7 +42314,7 @@
       "text": "-2 DAYS",
       "x": 1400,
       "y": 580,
-      "size": 40,
+      "size": 28,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
@@ -43469,25 +43470,10 @@
       "appear": 0.3
      },
      {
-      "type": "line",
-      "points": [
-       [
-        1650,
-        1000
-       ],
-       [
-        1650,
-        640
-       ]
-      ],
-      "color": "#5a4030",
-      "width": 14
-     },
-     {
       "type": "asset",
       "name": "seagull",
-      "x": 1650,
-      "y": 600,
+      "x": 1180,
+      "y": 560,
       "scale": 0.6,
       "appear": 0.5
      },
@@ -50035,7 +50021,7 @@
      },
      {
       "type": "asset",
-      "name": "white_hatchling_costume",
+      "name": "white_hatchling_costume_crouch",
       "x": 960,
       "y": 640,
       "scale": 0.36
@@ -50746,7 +50732,7 @@
      },
      {
       "type": "asset",
-      "name": "white_hatchling_costume",
+      "name": "white_hatchling_costume_cower",
       "x": 960,
       "y": 640,
       "scale": 0.36
