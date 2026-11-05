@@ -54,26 +54,26 @@
    "y": 14,
    "w": 619,
    "h": 339,
-   "fill": "#7a2232",
+   "fill": "#d99a1e",
    "radius": 22,
    "frame_width": 7,
    "elements": [
     {
-     "type": "group",
-     "x": -252.77,
-     "y": -1.18,
-     "scale": 1.2649,
-     "elements": [
-      {
-       "type": "asset",
-       "name": "white_lioness_face",
-       "x": 946.0,
-       "y": 162,
-       "scale": 0.62,
-       "boil": 0,
-       "wobble": 0
-      }
-     ],
+     "type": "spray",
+     "x": 956,
+     "y": 190,
+     "r": 260,
+     "color": "#f0c24a",
+     "density": 0.12,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "white_lioness",
+     "x": 956,
+     "y": 338,
+     "scale": 0.8,
      "boil": 0,
      "wobble": 0
     }
@@ -1139,9 +1139,9 @@
       },
       {
        "type": "spray",
-       "x": 735,
-       "y": 558,
-       "r": 70,
+       "x": 752,
+       "y": 545,
+       "r": 92,
        "color": "#e8e8d0",
        "density": 0.12,
        "boil": 0,
@@ -1149,9 +1149,9 @@
       },
       {
        "type": "doug",
-       "x": 735,
+       "x": 752,
        "y": 558,
-       "scale": 0.3,
+       "scale": 0.39,
        "pose": "cower",
        "expression": "shock",
        "facing": "right",
@@ -1161,9 +1161,9 @@
       {
        "type": "asset",
        "name": "white_hatchling_costume_cower",
-       "x": 735,
+       "x": 752,
        "y": 558,
-       "scale": 0.3,
+       "scale": 0.39,
        "boil": 0,
        "wobble": 0
       }

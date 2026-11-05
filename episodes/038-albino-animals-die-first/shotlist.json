@@ -6956,22 +6956,11 @@
       "scale": 0.75
      },
      {
-      "type": "spray",
-      "x": 1460,
-      "y": 590,
-      "r": 120,
-      "color": "#1b4f86",
-      "density": 0.4,
-      "appear": 0.25
-     },
-     {
       "type": "asset",
       "name": "humpback_whale",
-      "x": 1460,
-      "y": 590,
-      "scale": 0.28,
-      "silhouette": true,
-      "glow_r": 0,
+      "x": 820,
+      "y": 950,
+      "scale": 0.3,
       "appear": 0.25
      },
      {
@@ -6994,24 +6983,24 @@
      {
       "type": "arrow",
       "from": [
-       1280,
-       860
+       1180,
+       880
       ],
       "to": [
-       1420,
-       640
+       985,
+       945
       ],
       "color": "#e0201b",
       "width": 8,
       "head": 34,
-      "bend": -60,
+      "bend": -40,
       "appear": 0.6
      },
      {
       "type": "wordart",
       "text": "THE CALVES",
-      "x": 1150,
-      "y": 900,
+      "x": 1420,
+      "y": 880,
       "size": 64,
       "boil": 0,
       "appear": 0.65
@@ -7710,7 +7699,7 @@
      },
      {
       "type": "asset",
-      "name": "american_football",
+      "name": "soccer_ball",
       "x": 1500,
       "y": 700,
       "scale": 0.6,
@@ -35942,7 +35931,7 @@
      {
       "type": "label",
       "text": "ON PURPOSE",
-      "x": 1150,
+      "x": 1000,
       "y": 470,
       "size": 44,
       "bold": true,
@@ -38392,16 +38381,20 @@
       "type": "curve",
       "points": [
        [
-        1450,
-        560
+        1440,
+        565
        ],
        [
-        1350,
-        660
+        1300,
+        700
        ],
        [
-        1100,
-        990
+        1150,
+        830
+       ],
+       [
+        985,
+        830
        ]
       ],
       "color": "#7a2e18",
@@ -38422,25 +38415,6 @@
       "x": 960,
       "y": 779,
       "scale": 0.4
-     },
-     {
-      "type": "curve",
-      "points": [
-       [
-        1100,
-        990
-       ],
-       [
-        1070,
-        1000
-       ],
-       [
-        1050,
-        985
-       ]
-      ],
-      "color": "#7a2e18",
-      "width": 4
      },
      {
       "type": "wordart",
@@ -39304,7 +39278,7 @@
      },
      {
       "type": "label",
-      "text": "39% THICKER",
+      "text": "~40% THICKER",
       "x": 1460,
       "y": 400,
       "size": 44,
@@ -41860,125 +41834,97 @@
       "density": 0.03
      },
      {
-      "type": "circle",
-      "x": 300,
-      "y": 170,
-      "r": 60,
-      "color": "#c9c08a",
-      "width": 4,
-      "fill": "#fff3b0"
-     },
-     {
       "type": "ellipse",
-      "x": 900,
-      "y": 840,
-      "rx": 130,
-      "ry": 42,
+      "x": 760,
+      "y": 830,
+      "rx": 340,
+      "ry": 110,
       "fill": "#2e261e",
       "color": "#000000",
-      "width": 3
-     },
-     {
-      "type": "asset",
-      "name": "white_turtle_hatchling",
-      "x": 900,
-      "y": 820,
-      "scale": 0.8
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        840,
-        800
-       ],
-       [
-        980,
-        600
-       ]
-      ],
-      "color": "#3e332a",
-      "width": 4,
-      "dash": [
-       10,
-       10
-      ]
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        880,
-        800
-       ],
-       [
-        1070,
-        600
-       ]
-      ],
-      "color": "#3e332a",
-      "width": 4,
-      "dash": [
-       10,
-       10
-      ]
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        920,
-        800
-       ],
-       [
-        1160,
-        600
-       ]
-      ],
-      "color": "#3e332a",
-      "width": 4,
-      "dash": [
-       10,
-       10
-      ]
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        960,
-        800
-       ],
-       [
-        1250,
-        600
-       ]
-      ],
-      "color": "#3e332a",
-      "width": 4,
-      "dash": [
-       10,
-       10
-      ]
+      "width": 4
      },
      {
       "type": "line",
       "points": [
        [
         1000,
-        800
+        780
        ],
        [
-        1340,
-        600
+        1250,
+        575
        ]
       ],
       "color": "#3e332a",
-      "width": 4,
+      "width": 6,
       "dash": [
-       10,
-       10
+       16,
+       14
       ]
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1040,
+        795
+       ],
+       [
+        1420,
+        575
+       ]
+      ],
+      "color": "#3e332a",
+      "width": 6,
+      "dash": [
+       16,
+       14
+      ]
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1080,
+        810
+       ],
+       [
+        1590,
+        575
+       ]
+      ],
+      "color": "#3e332a",
+      "width": 6,
+      "dash": [
+       16,
+       14
+      ]
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1110,
+        825
+       ],
+       [
+        1760,
+        575
+       ]
+      ],
+      "color": "#3e332a",
+      "width": 6,
+      "dash": [
+       16,
+       14
+      ]
+     },
+     {
+      "type": "asset",
+      "name": "white_turtle_hatchling",
+      "x": 760,
+      "y": 790,
+      "scale": 2.0
      },
      {
       "type": "label",
@@ -41993,9 +41939,9 @@
      },
      {
       "type": "doug",
-      "x": 1650,
-      "y": 871,
-      "scale": 0.32,
+      "x": 1700,
+      "y": 960,
+      "scale": 0.26,
       "pose": "stand",
       "expression": "sad",
       "facing": "left"
@@ -42114,35 +42060,34 @@
       "fill": "#fff3b0"
      },
      {
+      "type": "asset",
+      "name": "scientist_woman",
+      "x": 480,
+      "y": 800,
+      "scale": 1.15
+     },
+     {
       "type": "ellipse",
-      "x": 900,
-      "y": 840,
-      "rx": 130,
-      "ry": 42,
+      "x": 1150,
+      "y": 930,
+      "rx": 230,
+      "ry": 70,
       "fill": "#2e261e",
       "color": "#000000",
-      "width": 3
+      "width": 4
      },
      {
       "type": "asset",
       "name": "white_turtle_hatchling",
-      "x": 900,
-      "y": 820,
-      "scale": 0.8
-     },
-     {
-      "type": "asset",
-      "name": "scientist_woman",
-      "x": 1350,
-      "y": 960,
-      "scale": 0.45,
-      "flip": true
+      "x": 1150,
+      "y": 900,
+      "scale": 1.4
      },
      {
       "type": "wordart",
       "text": "JUST WHITE",
-      "x": 900,
-      "y": 330,
+      "x": 1150,
+      "y": 480,
       "size": 72,
       "boil": 0,
       "appear": 0.6
@@ -42261,11 +42206,29 @@
       "fill": "#fff3b0"
      },
      {
-      "type": "ellipse",
+      "type": "asset",
+      "name": "calendar",
       "x": 900,
-      "y": 840,
-      "rx": 130,
-      "ry": 42,
+      "y": 640,
+      "scale": 2.0
+     },
+     {
+      "type": "text",
+      "text": "-2 DAYS",
+      "x": 900,
+      "y": 660,
+      "size": 96,
+      "color": "#e0201b",
+      "bold": true,
+      "boil": 0,
+      "appear": 0.3
+     },
+     {
+      "type": "ellipse",
+      "x": 1420,
+      "y": 930,
+      "rx": 90,
+      "ry": 28,
       "fill": "#2e261e",
       "color": "#000000",
       "width": 3
@@ -42273,31 +42236,13 @@
      {
       "type": "asset",
       "name": "white_turtle_hatchling",
-      "x": 900,
-      "y": 820,
-      "scale": 0.8
-     },
-     {
-      "type": "asset",
-      "name": "calendar",
-      "x": 1400,
-      "y": 560,
-      "scale": 0.7
-     },
-     {
-      "type": "text",
-      "text": "-2 DAYS",
-      "x": 1400,
-      "y": 580,
-      "size": 28,
-      "color": "#e0201b",
-      "bold": true,
-      "boil": 0,
-      "appear": 0.3
+      "x": 1420,
+      "y": 915,
+      "scale": 0.5
      },
      {
       "type": "doug",
-      "x": 400,
+      "x": 330,
       "y": 871,
       "scale": 0.32,
       "pose": "stand",
@@ -45171,10 +45116,10 @@
      },
      {
       "type": "ellipse",
-      "x": 900,
-      "y": 840,
-      "rx": 130,
-      "ry": 42,
+      "x": 1250,
+      "y": 880,
+      "rx": 170,
+      "ry": 55,
       "fill": "#2e261e",
       "color": "#000000",
       "width": 3
@@ -45182,34 +45127,26 @@
      {
       "type": "asset",
       "name": "white_turtle_hatchling",
-      "x": 900,
-      "y": 820,
-      "scale": 0.8
-     },
-     {
-      "type": "arrow",
-      "from": [
-       1250,
-       560
-      ],
-      "to": [
-       990,
-       780
-      ],
-      "color": "#e0201b",
-      "width": 8,
-      "head": 34,
-      "bend": 60,
-      "appear": 0.3
+      "x": 1250,
+      "y": 855,
+      "scale": 1.05
      },
      {
       "type": "doug",
-      "x": 1650,
-      "y": 871,
-      "scale": 0.32,
-      "pose": "stand",
+      "x": 620,
+      "y": 700,
+      "scale": 0.6,
+      "pose": "point",
       "expression": "gritted",
-      "facing": "left"
+      "facing": "right"
+     },
+     {
+      "type": "asset",
+      "name": "exclamation_mark",
+      "x": 1250,
+      "y": 620,
+      "scale": 1.0,
+      "appear": 0.3
      },
      {
       "type": "label",
@@ -45232,6 +45169,12 @@
       "fill": "#e8c07a"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 1000,
+    "y": 760,
+    "zoom": 1.08
    }
   },
   {

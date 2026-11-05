@@ -127,9 +127,9 @@
   {
    "type": "asset",
    "name": "alligator_hatchling",
-   "x": 980,
+   "x": 1010,
    "y": 600,
-   "scale": 0.9,
+   "scale": 1.5,
    "boil": 0,
    "wobble": 0
   },
@@ -137,12 +137,12 @@
    "type": "line",
    "points": [
     [
-     870,
-     628
+     790,
+     660
     ],
     [
-     1100,
-     628
+     1250,
+     660
     ]
    ],
    "color": "#1c302b",
