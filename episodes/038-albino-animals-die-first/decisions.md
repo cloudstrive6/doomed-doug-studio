@@ -27,3 +27,48 @@ Notes carried downstream (not blocking):
 - **Survival (Migaloo):** no field guide stamp. The narrator's pencil taps the WHITE WHALE line.
 - **Shorts:** short01 s160-s172 (the boss: 24 hours, ending "almost never gets to grow up outside a zoo"), short02 s050-s058 (white lions, ending on the hunting study), short03 s096-s100 (the $750 squirrel fine, ending on the bottle-of-water line). Titles are left blank for the titler.
 - **Thumbnail:** s001 is `scene_ref: thumbnail`, so `thumbnail.json` is still needed from the graphic designer.
+
+## 2026-11-05: thumbnail gate (A/B/C): A CHANGES, B APPROVE, C CHANGES
+Creative director. Read metadata.json (title "Why Nature Kills Albino Animals First, Then Doug", thumbnail_brief), visual_review.md
+round 1 (A PASS, B PASS, C FAIL), the round 3 thumbnail.json/test diffs, and looked at all three PNGs at 1280x720 and 168x94.
+Rendered 18:32, after art round 3. Screener's C fix 4 is applied (the lioness is now full-body on gold, so no polar-bear read). The A heron
+was moved down and enlarged. There has been no visual-screener re-check since then, so this verdict is mine alone.
+
+Shared checks: none of the three reads as being about people, and none uses the forbidden words. There is no gore and no fluffy baby animal.
+Doug is on-model with the red cap readable at feed size in A and B.
+
+### B (`thumbnail_b.png`, "SPOTTED"): APPROVE. Recommended as the primary test slot.
+This is the clearest version of the episode's thesis at feed size. The heron's beak points straight at the glowing white "hatchling" (Doug),
+and the normal dark hatchling goes unnoticed. The picture shows *why* white dies first, and the title adds the "then Doug" turn. The tone
+is adult-coded (a predator's eye view, Doug's shock), not cute. I'd click it.
+Advisory, not blocking: at 168x94 the dark hatchling still reads a little like a striped caterpillar. If the designer takes another
+pass, scale it up about 1.3x and sink its belly into the waterline.
+
+### A (`thumbnail.png`, "NO HIDING"): CHANGES (small)
+The giant pink-eyed white jaw is a strong stop. The changes:
+1. **Move the text clear of the duration badge.** "NO HIDING" runs to x≈1115 with its baseline at y≈665, so the "NG" sits under YouTube's
+   bottom-right timestamp and progress bar. Move it up to a baseline around y 600 and left (or centre it under the jaw, between x≈470 and
+   x≈1010) so the whole word survives the overlay.
+2. **Make the heron read as a bird, or cut it.** At 168x94 it is still a black hook inside a red speckled blob. The red spray halo around a pointed
+   beak reads as a blood splash at feed size, which is the wrong signal for advertisers. Swap the red halo for the yellow or white glow used
+   on Doug, and show the eye and the beak tip clearly (B's heron drawing reads well). If it still doesn't read, drop it. The jaw carries the
+   threat on its own.
+3. (Story note) With the heron unclear, the albino animal is the *predator* in this picture, which works against "Nature Kills Albino
+   Animals First". Fix 2 is what restores "the white one is being seen". Don't change the jaw.
+
+### C (`thumbnail_c.png`, grid): CHANGES
+The lioness fix landed. As a whole, though, it reads as a flat animal flashcard set: three calm white animals on purple, orange and navy, and only one
+panel with any danger in it. With no labels, that is the most kid-coded package of the three, and it gives a viewer no reason to click.
+1. **Put death pressure in every panel**, one cue each and no gore. Gorilla: a hard sun disc and glare in the corner (the sun is what killed
+   Snowflake). Lioness: dark lion or hunter silhouettes in the tall grass, or her body standing out bright against a dusk savanna.
+   Squirrel: a cat silhouette or cat eyes in the dark behind it. Keep the gator and Doug panel as it is.
+2. **Gorilla face**: the pink, flat face with blue eyes and brows reads half-human at full size. Darken the face edges, widen the nostrils and the
+   muzzle, add a heavier brow ridge, and drop the eyebrow strokes so it is unmistakably an ape. A white humanoid in an "albino ... die
+   first" thumbnail is exactly the people-read we must avoid.
+3. **Squirrel**: drop the raised "begging" paws pose, which is the cute read. Use a side-on alert crouch with the same pink eye.
+4. Optional: mute the purple and navy fields toward the episode's night/swamp darks, so the grid feels like a horror ToC rather than
+   a nursery palette.
+C re-enters the test only after a visual-screener re-check of fixes 1 to 3.
+
+Routing: graphic designer applies A fixes 1-2 and C fixes 1-3. The visual screener re-checks A and C at 1280x720 and 168x94. If A is not
+fixed before packaging, ship B as `thumbnail.png`.

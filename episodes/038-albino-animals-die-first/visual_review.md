@@ -1,84 +1,65 @@
 # 038 visual review (visual screener)
 
-## Round 1: keyframes + thumbnails (2026-11-05)
+## Round 2: re-screen after fixes (2026-11-05)
 
-Checked: contact sheets 01-16 (all 184 shots + endslate). I reviewed them after the 18:20 keyframe re-render, so the
-redrawn deer are included. I also checked full-size crops of s089, s099 and s111, plus thumbnail.png, thumbnail_b.png and
-thumbnail_c.png and their 168x94 `_small` versions.
+Checked: the freshly rendered contact sheets 01-16 (18:34, all 184 shots plus the endslate) and full-size keyframes s037,
+s099, s139, s140 and s141. I also checked thumbnail.png, thumbnail_b.png and thumbnail_c.png with their 168x94 `_small`
+versions (18:32).
 
 | Item | Verdict |
 |---|---|
-| Keyframes | **FAIL** (3 required fixes, all small) |
-| Thumb A (`thumbnail.png`, hero) | **PASS** (advisories) |
-| Thumb B (`thumbnail_b.png`, Doug in peril) | **PASS** (advisories) |
-| Thumb C (`thumbnail_c.png`, grid) | **FAIL** (1 required fix) |
+| Keyframes | **PASS** |
+| Thumb A (`thumbnail.png`, hero) | **PASS** |
+| Thumb B (`thumbnail_b.png`, Doug in peril) | **PASS** (one advisory carried over) |
+| Thumb C (`thumbnail_c.png`, grid) | **PASS** |
 
-**VERDICT: FAIL** (keyframes fixes 1-3 and thumbnail C fix 4. No gore, kid-appeal or off-model problems anywhere.)
+**VERDICT: PASS**
 
-### What passes
-- **Gore/violence:** none. Every death is the field-guide card plus ghost Doug with X eyes (s026, s069, s092, s114, s133,
-  s156, s180) or the floating cap gag (s070, s182-s184). The predators never touch prey on screen. The sunburn beat (s024-s028) is cartoon only.
-- **Doug:** on-model in every shot. The red cap is always visible, the head is white, the ink is white on dark swamp/night/death cards,
-  and he stays readable inside all the costumes (gorilla, whale, deer, squirrel, bird, turtle, hatchling).
-- **Deer (AD fix 1):** the re-rendered s072-s093 deer now have sideways ears and a longer head. They read as deer/does, not rabbits.
-- **Text:** the caption bar, DOUG DEATHS counter (294 → 301) and TIME LEFT tag are present, spelled right and inside the frame on every
-  segment shot. I found no cropped wordart.
-- **Kid-appeal:** acceptable. The cute animals (squirrel, songbird, hatchlings) sit inside adult framing (inbreeding, "hi friend?",
-  deaths). There is no nursery tone.
-- **Opening (s001-s012):** the hook pictures match the narration. s003/s004 now read clearly (bigger Doug + glow).
+### Round 1 required fixes: status
+1. **s099, label over the roof: FIXED.** "ON PURPOSE" now sits at x ~840-1160, clear of the right-hand roof (starts x ~1260)
+   and well above the car. "$750" and "ON PURPOSE" read as a pair in the sky gap.
+2. **s137-s141 (+s148), the near-identical run: FIXED.** s137/s138 stay as the wide establishing beach, then the run breaks.
+   s139 is a big push-in on the nest with tracks leading to the water, s140 has the volunteer large in the left third with the
+   hatchling in the foreground, and s141 is a calendar close-up with a large red "-2 DAYS" and the hatchling small beside it.
+   s148 has Doug large on the left and a red "!" over the nest, so it no longer repeats s137. No run of 4 or more near-identical
+   frames is left anywhere in the episode.
+3. **s037, the calf doesn't read: FIXED.** The calf is now a small humpback (same body, knobs and long pectoral fin, about 0.35
+   scale) in dark grey with a white flipper, and the arrow lands on it. The two black orca fins on the surface are clearly
+   the threat, so the calf no longer reads as an orca.
+4. **Thumb C, the polar-bear panel: FIXED.** See below.
 
-### Required fixes: keyframes
-1. **s099, text overlapping a drawing (director).** The "ON PURPOSE" label box covers the left slope of the right-hand house roof
-   (frame px ~1150-1300, y ~400-470). Move the label left so it clears the roof by at least 30 px (e.g. centre it
-   at x ~1300 → ~1080, or put it under "$750" at y ~620 in the sky gap). Keep it off the car.
-2. **s137-s141, run of 5 near-identical compositions (director).** Five consecutive shots use the same night beach, the same centred
-   white hatchling in the nest and the same moon, with only a small overlay changing each time (arrow, dashed lines, volunteer, calendar). s148
-   repeats it again. Break the run:
-   - s139: push in on the nest (camera zoom ~1.8x on the hatchling) with the siblings' tracks leading to the water.
-   - s140: make the volunteer the subject, kneeling large in the left third and looking into the nest, with the hatchling in the foreground.
-   - s141: a calendar close-up, with "-2 DAYS" big (size ≥ 60) as the key subject and the hatchling small beside it.
-3. **s037, the key subject doesn't read (illustrator/director).** "THE CALVES" points at a solid black whale shape with a blue glow.
-   At a glance this reads as an orca, or as the attacker, not as a humpback calf. Draw the calf as a small humpback (same
-   white_humpback shape at ~0.35 scale, or a grey-toned calf), tuck it under the adult's flipper, and aim the arrow at it. Keep the two
-   orca fins on the surface as the threat.
+### Round 1 advisories picked up
+- s042: the football is now a soccer ball. Fixed.
+- s113: the lead now runs from the cat to Doug. Fixed.
+- s120: the label now reads "~40% THICKER". Fixed.
+- Thumb A: the heron is reshaped and "NO HIDING" is raised off the bottom edge. Fixed (see below).
+- Still open, non-blocking: the s089-s091 deer hood has no antler or nose cue, the s145 "FISH" are dark ovals, the s172
+  crossed-out ellipse is unclear, and the s176-s179 eggshell reads like a crown. None of these misleads the viewer.
 
-### Advisory: keyframes (non-blocking)
-- s089-s091 deer costume: the ears are fixed, but the hood still has no deer-only cue, so the white hood with big ears is still a little bunny-ish.
-  Two short antler nubs or a dark nose tip on the hood would settle it (illustrator).
-- s042: the "5 PITCHES" icon is an American football, but the narration and the Australian setting mean soccer pitches. Use a soccer ball or a
-  small pitch rectangle (illustrator/director).
-- s113: the long lead runs off to the bottom edge and doesn't reach Doug, so the "very long lead" gag doesn't land. Run the lead from the cat to
-  Doug's ankle (director).
-- s172: the crossed-out dark ellipse ("OUTSIDE A ZOO") doesn't say what it is. Use the s173 glass tank icon with an X, or a small grown-alligator
-  silhouette with an X (director).
-- s176-s179: the broken eggshell reads like a paper crown/boat at a glance. A yellowed shell edge or one shell fragment on the bank would help
-  (illustrator).
-- s145: the "FISH" are dark ovals that read as shadows. Use the s163 fish asset (director).
-- s120: the label "39% THICKER" vs the spoken "about forty percent". The match is fine, but "~40% THICKER" mirrors the voice.
+### Nothing new broke
+- **Text:** the caption bar, the DOUG DEATHS counter (294 → 301, stepping only on the death cards s026/s069/s092/s114/s133/s156/s180)
+  and the TIME LEFT tag are present, spelled right and uncropped on every segment shot. I found no new text over a drawing.
+- **Doug:** on-model in every shot (red cap, white head, white ink on the dark death cards), including s141 and s148.
+- **Gore/kid-appeal:** none. Deaths are still the field-guide card plus ghost Doug, or the floating cap. The s140 volunteer is an
+  adult in a lab coat, not cutesy.
+- **New advisory (director, non-blocking):** in s086 ("KEPT OUT") the red X sits on the middle white deer inside the fence, so for a
+  beat it reads as "the deer are out" rather than "the coyotes are kept out". Moving the X onto the fence line in front of
+  a coyote, or onto the coyote nearest the fence, would make it exact.
 
 ### Thumb A (`thumbnail.png`): PASS
-At 168x94 there is one clear focal point (the white alligator jaw with its pink eye), and Doug in his hatchling costume with the red cap is readable bottom-left.
-"NO HIDING" is legible, and the black-green swamp gives strong contrast. It fits the title ("...Kills Albino Animals First, Then Doug").
-Advisories (graphic designer):
-- The heron in the top-left corner is cropped to a black and red hook. At feed size it reads as an abstract claw/blade, not a heron. Either
-  show more of the head and beak (move it ~80 px down and right so the eye and beak tip are clearly a bird's), or drop it.
-  The alligator already carries the threat.
-- "NO HIDING" sits ~10 px from the bottom edge (baseline y 662, size 104), where the watched-progress bar draws.
-  Raise it to y ~630.
+At 168x94 the white alligator jaw with its pink eye is the single focal point. Doug (red cap, hatchling costume) is clear on
+the bank, and "NO HIDING" now sits at a safe height above the progress-bar zone. The heron is now a black head and beak with a red
+outline and a yellow eye, angled down at Doug. At full size it reads as a bird's head. At feed size it is still mostly a red
+hook, but it now points at Doug and adds menace rather than confusion. It fits the title and isn't misleading.
 
 ### Thumb B (`thumbnail_b.png`): PASS
-This is the strongest feed read. "SPOTTED" is big and clear, the heron beak points straight at Doug, Doug is large, shocked and in his cap, and the
-ripples and glow isolate him. There is one focal story at 168x94.
-Advisories (graphic designer):
-- At 168x94 the dark hatchling at right (alligator_hatchling, x 980) reads as a striped caterpillar/bee. Either scale it up ~1.4x and
-  put it partly in the water, or remove it. The point "the white one is the one that gets seen" still lands through the glow.
+This is still the strongest feed read: "SPOTTED", a large shocked Doug in his cap, and the heron beak aimed at him.
+Advisory carried over (graphic designer, non-blocking): at 168x94 the dark hatchling at the bottom right still reads as a striped
+caterpillar. Scale it up ~1.4x and sink it partly into the water, or drop it.
 
-### Thumb C (`thumbnail_c.png`): FAIL
-4. **Top-right panel reads as a polar bear (graphic designer).** The white_lioness_face bust has round ears, a blunt muzzle and no mane, on a
-   flat red field. At 168x94 it is a white bear. A polar bear is a naturally white animal, so in an "albino animals"
-   grid it undercuts the premise and mis-signals the topic. Replace it with the full-body white_lioness on a savanna gold
-   ground (as in s049), or swap in a clearer subject (white_humpback breaching on blue, or the white deer). Also scale Doug up in
-   the bottom-right panel (currently ~12 px tall at feed size) so the cap is a clear red dot. Push him to ~1.3x his current scale and crop the
-   jaw rather than Doug.
-Everything else in C is fine. The gorilla, squirrel (the tail reads as a squirrel) and gator+Doug panels are clear, the colour fields
-separate the panels, and the grid has no text, as the brief asks.
+### Thumb C (`thumbnail_c.png`): PASS
+The top-right panel is now a full-body white lioness (tufted tail, cat head) on a savanna-gold field. It no longer reads as a
+polar bear, so the grid shows four clearly albino/white wild animals. Doug in the bottom-right panel is bigger and his cap is a clear red
+dot at feed size. The jaw is cropped instead of Doug. The colour fields separate the panels, and there is no text, as the brief asks.
+Minor (non-blocking): the lioness's legs are long and stiff, so at feed size she reads as "white big cat/dog". That is acceptable inside
+the grid.

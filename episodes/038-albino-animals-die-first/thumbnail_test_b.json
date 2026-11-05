@@ -127,9 +127,35 @@
   {
    "type": "asset",
    "name": "alligator_hatchling",
-   "x": 1010,
-   "y": 600,
-   "scale": 1.5,
+   "x": 985,
+   "y": 632,
+   "scale": 1.95,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     760,
+     650
+    ],
+    [
+     1280,
+     650
+    ],
+    [
+     1280,
+     720
+    ],
+    [
+     760,
+     720
+    ]
+   ],
+   "fill": "#0f1e1c",
+   "color": "#0f1e1c",
+   "width": 0,
    "boil": 0,
    "wobble": 0
   },
@@ -137,15 +163,15 @@
    "type": "line",
    "points": [
     [
-     790,
-     660
+     780,
+     652
     ],
     [
      1250,
-     660
+     652
     ]
    ],
-   "color": "#1c302b",
+   "color": "#2f4a3e",
    "width": 4,
    "boil": 0,
    "wobble": 0
