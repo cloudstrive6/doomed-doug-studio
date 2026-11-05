@@ -109,3 +109,30 @@ The lioness and gator/Doug panels pass. C stays out of the A/B/C test until fixe
 
 **Round summary: A PASS, B PASS, C FAIL.** Packaging can proceed with A as `thumbnail.png` and B as the test variant. C needs the
 gorilla redraw (and ideally the squirrel tail) plus a re-check.
+
+## Thumbnail C round 3: re-check after gorilla swap and squirrel redraw (2026-11-05)
+Viewed only `build/thumbnail_c.png` (1280x720) and `build/thumbnail_c_small.png` (168x94, also upscaled 4x), with crops of the deer and
+squirrel panels at full size. The title "Why Nature Kills Albino Animals First, Then Doug" is unchanged.
+
+### Thumb C (`thumbnail_c.png`, grid): PASS
+- Round 2 fixes 1 and 2 (gorilla people-read, face colour): **resolved by removal.** The gorilla tile is gone. The top-left is now a white
+  deer on a dark forest-green field, with a black coyote silhouette and a yellow eye at the left edge. Nothing in the frame reads as a
+  person or a costume. The deer is long-necked, has big ears and a black nose, stands on thin legs and has a white tail flag. At full size it reads
+  as a deer. At 168x94 it reads as a white deer/goat-like grazer with a dark canine facing it, which is enough. The brown eye is
+  correct: the script and field guide call the Seneca white deer leucistic, and facts.md backs the coyote threat (Mental Floss).
+- Round 2 fix 3 (squirrel species read): **done.** The tail is now a big jagged-edged plume, wider toward the tip, and the ears have
+  pointed tips with tufts. The squirrel keeps its pink eye (correct for a true albino, per Smithsonian). It reads as a white squirrel at both sizes,
+  not a lab rat. The black cat with a green eye still looms on the right, and its whiskers touch the tail, so the threat reads.
+- Round 2 item 4 (nursery-looking purple and rayed sun): **gone** with the gorilla tile. The four fields are now dark green, burnt
+  orange, navy and charcoal. The package reads as adult nature horror, not a kids' show.
+- Feed read: the 2x2 grid has one consistent idea (a glowing white animal and a dark predator in each tile). The gator jaw and pink eye
+  with Doug's red cap (bottom right) are the strongest element at 168x94. No text, so there are no banned words and no legibility risk.
+- Gore: none. The gator mouth is dark-red gum with white teeth, with no drip or splash. No realistic violence.
+- Human-read: none in any tile.
+
+Advisories (graphic designer, non-blocking):
+1. Top-left deer: at 168x94 the head and ears are small enough that some viewers will see a goat. If it is cheap to do, scale the
+   deer about 1.15x and lengthen the ears slightly. Do not hold the test for this.
+2. The squirrel's head and torso are a bit boxy (a hard step at the neck). A rounder skull would look more polished, but it already reads.
+
+**Round summary: C PASS.** C can enter the A/B/C thumbnail test alongside A and B.
