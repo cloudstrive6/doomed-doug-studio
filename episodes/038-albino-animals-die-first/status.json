@@ -4,7 +4,22 @@
       "stage": "idea",
       "at": "2026-11-05T17:05:49+00:00",
       "note": "created"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-11-05T17:21:47+00:00",
+      "note": "Draft 1: 8 items, 1,995 words (~10.2 min), axis time left (Decades/Years/Days), deaths 295-301, whale survives. Facts in facts.md with 6 flags for the screener (lion hunting study is a 2023 thesis; Migaloo albino per Polanowski 2012; 'Days.' band replaces unsourced 'Minutes.')."
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-11-05T17:32:48+00:00",
+      "note": "screener fixes R1/R2 applied; pending CD sign-off"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-11-05T17:32:53+00:00",
+      "note": "reverting: CD approval not yet given"
     }
   ],
-  "stage": "idea"
+  "stage": "scripted"
 }
