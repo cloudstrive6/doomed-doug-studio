@@ -26,7 +26,15 @@
         "instagram_story_tries": 3,
         "instagram_story_error": "Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"Ag2U-hRbQ3AwNKiyB7wh7Jm\"}}'",
         "facebook_story_tries": 3,
-        "facebook_story_error": "Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AsP7_fIM-LUQx6bHE5mJvGd\"}}'"
+        "facebook_story_error": "Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AsP7_fIM-LUQx6bHE5mJvGd\"}}'",
+        "instagram": {
+          "id": "18137583703565996",
+          "url": "https://www.instagram.com/reel/DfYBK6TBEMn/"
+        },
+        "facebook": {
+          "id": "1435261251471884",
+          "url": "https://www.facebook.com/reel/1435261251471884"
+        }
       }
     },
     {
