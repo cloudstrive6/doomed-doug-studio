@@ -1,11 +1,11 @@
 {
- "at": "2026-11-05T19:01:40+00:00",
+ "at": "2026-11-05T20:01:49+00:00",
  "issues": [
   {
    "key": "crosspost:027-every-saltwater-croc-reason:short03:instagram",
    "severity": "medium",
    "owner": "owner",
-   "summary": "027-every-saltwater-croc-reason short03 not on instagram 5 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
+   "summary": "027-every-saltwater-croc-reason short03 not on instagram 6 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
    "detail": "",
    "route": "owner: renew the token/connection",
    "fixed": false,
@@ -15,7 +15,7 @@
    "key": "crosspost:027-every-saltwater-croc-reason:short03:facebook",
    "severity": "medium",
    "owner": "owner",
-   "summary": "027-every-saltwater-croc-reason short03 not on facebook 5 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
+   "summary": "027-every-saltwater-croc-reason short03 not on facebook 6 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
    "detail": "",
    "route": "owner: renew the token/connection",
    "fixed": false,
@@ -25,7 +25,7 @@
    "key": "crosspost:034-every-bison-reason:long:facebook_video",
    "severity": "medium",
    "owner": "owner",
-   "summary": "034-every-bison-reason long not on facebook_video 2 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
+   "summary": "034-every-bison-reason long not on facebook_video 3 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
    "detail": "",
    "route": "owner: renew the token/connection",
    "fixed": false,
@@ -45,8 +45,8 @@
    "key": "end_screens_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "2 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
-   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/editor",
+   "summary": "3 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/editor\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/editor",
    "route": "",
    "fixed": false,
    "extra": {}
@@ -55,8 +55,8 @@
    "key": "thumb_tests_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "2 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
-   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/edit",
+   "summary": "3 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/edit\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/edit",
    "route": "",
    "fixed": false,
    "extra": {}
