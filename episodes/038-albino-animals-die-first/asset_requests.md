@@ -127,14 +127,14 @@ The shotlist draws these with primitives: the chain-link fence, pigment swatches
 - **Look:** a recolour of `deer`, same pose. White coat `#f4f2ec` with grey-tan shading `#d6d0c4`, **normal dark brown eyes**, black nose, dark hooves, pinkish-grey inner ears. Change the tail to a white-tailed deer tail (white, not black-topped).
 - **Size/anchor:** same as `deer`: bottom-centre, x -146..208, y -340..0.
 - **Shots:** s072, s073, s076-s081, s085-s088, s093 (often 3 deer behind the fence, plus 24 small ones in s080).
-- **Done (illustrator):** `assets/library/white_deer.json`, preview `assets/previews/038-albino-animals-die-first-assets-2.png`.
+- **Done (illustrator):** `assets/library/white_deer.json`, preview `assets/previews/038-albino-animals-die-first-assets-2.png`. **Redrawn 2026-11-05 (AD fix 1, read as rabbits):** broad leaf ears in a wide V at about half the old length, long wedge head with dark nose tip, ringed eye, thicker neck, raised flag tail; preview `assets/previews/038-albino-animals-die-first-deer-fix.png`, keyframes s072-s093 re-rendered.
 
 ### `albino_deer`
 - **What:** a true albino white-tailed deer.
 - **Look:** the same drawing as `white_deer`, but with **pink eyes, squinting**, a pink nose, and pink inner ears and hooves. Unsmiling.
 - **Size/anchor:** same as `white_deer`.
 - **Shots:** s082, s084.
-- **Done (illustrator):** `assets/library/albino_deer.json`, preview `assets/previews/038-albino-animals-die-first-assets-2.png`.
+- **Done (illustrator):** `assets/library/albino_deer.json`, preview `assets/previews/038-albino-animals-die-first-assets-2.png`. **Redrawn 2026-11-05 (AD fix 1, read as rabbits):** broad leaf ears in a wide V at about half the old length, long wedge head with dark nose tip, ringed eye, thicker neck, raised flag tail; preview `assets/previews/038-albino-animals-die-first-deer-fix.png`, keyframes s072-s093 re-rendered.
 
 ### `coyote`
 - **What:** a coyote, the predator the Seneca fence keeps out.
@@ -149,7 +149,7 @@ The shotlist draws these with primitives: the chain-link fence, pigment swatches
 - **Fit:** `walk1`, `walk2`, `stand` (like `moose_costume` / `cat_costume`).
 - **Size/anchor:** Doug's hips, x -150..150, y -340..160.
 - **Shots:** s089, s090, s091 (dark forest; Doug auto-inks white, so keep the suit's outline dark grey `#3a3a3a`, not black, and the suit still reads on `#10200f`).
-- **Done (illustrator):** `assets/library/white_deer_costume.json`, preview `assets/previews/038-albino-animals-die-first-assets-2.png`. No boots: fixed boots would float off Doug's feet in the walk loop, so his legs stay his own (like `moose_costume`); hoof mitts are on the sleeves. Outline #3a3a3a.
+- **Done (illustrator):** `assets/library/white_deer_costume.json`, preview `assets/previews/038-albino-animals-die-first-assets-2.png`. **Redrawn 2026-11-05 (AD fix 1, read as rabbits):** broad leaf ears in a wide V at about half the old length, long wedge head with dark nose tip, ringed eye, thicker neck, raised flag tail; preview `assets/previews/038-albino-animals-die-first-deer-fix.png`, keyframes s072-s093 re-rendered. No boots: fixed boots would float off Doug's feet in the walk loop, so his legs stay his own (like `moose_costume`); hoof mitts are on the sleeves. Outline #3a3a3a.
 
 ## 5. The White Squirrel
 

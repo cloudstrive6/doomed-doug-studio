@@ -1231,9 +1231,9 @@
    "type": "spray",
    "x": 165,
    "y": 160,
-   "r": 138,
+   "r": 165,
    "color": "#e0201b",
-   "density": 0.18,
+   "density": 0.3,
    "boil": 0,
    "wobble": 0
   },
@@ -1258,7 +1258,7 @@
     ]
    ],
    "color": "#e0201b",
-   "width": 55,
+   "width": 74,
    "boil": 0,
    "wobble": 0
   },
@@ -1266,8 +1266,8 @@
    "type": "ellipse",
    "x": 165,
    "y": 160,
-   "rx": 61,
-   "ry": 46,
+   "rx": 69,
+   "ry": 54,
    "fill": "#e0201b",
    "color": "#e0201b",
    "width": 1,
@@ -1292,7 +1292,7 @@
    ],
    "fill": "#e0201b",
    "color": "#e0201b",
-   "width": 12,
+   "width": 28,
    "boil": 0,
    "wobble": 0
   },
