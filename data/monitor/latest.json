@@ -1,11 +1,11 @@
 {
- "at": "2026-11-05T17:01:52+00:00",
+ "at": "2026-11-05T18:01:37+00:00",
  "issues": [
   {
    "key": "crosspost:027-every-saltwater-croc-reason:short03:instagram",
    "severity": "medium",
    "owner": "owner",
-   "summary": "027-every-saltwater-croc-reason short03 not on instagram 3 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
+   "summary": "027-every-saltwater-croc-reason short03 not on instagram 4 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
    "detail": "",
    "route": "owner: renew the token/connection",
    "fixed": false,
@@ -15,7 +15,7 @@
    "key": "crosspost:027-every-saltwater-croc-reason:short03:facebook",
    "severity": "medium",
    "owner": "owner",
-   "summary": "027-every-saltwater-croc-reason short03 not on facebook 3 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
+   "summary": "027-every-saltwater-croc-reason short03 not on facebook 4 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
    "detail": "",
    "route": "owner: renew the token/connection",
    "fixed": false,

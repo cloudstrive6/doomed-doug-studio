@@ -12,7 +12,7 @@
   "related_pending": {
    "first_seen": "2026-11-05T17:01:52+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-05T17:01:52+00:00",
+   "last_seen": "2026-11-05T18:01:37+00:00",
    "summary": "3 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -21,7 +21,7 @@
   "end_screens_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-05T17:01:52+00:00",
+   "last_seen": "2026-11-05T18:01:37+00:00",
    "summary": "2 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -30,7 +30,7 @@
   "thumb_tests_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-05T17:01:52+00:00",
+   "last_seen": "2026-11-05T18:01:37+00:00",
    "summary": "2 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
    "owner": "owner",
    "severity": "low",
@@ -59,8 +59,8 @@
   "crosspost:027-every-saltwater-croc-reason:short03:instagram": {
    "first_seen": "2026-11-05T17:01:52+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-05T17:01:52+00:00",
-   "summary": "027-every-saltwater-croc-reason short03 not on instagram 3 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
+   "last_seen": "2026-11-05T18:01:37+00:00",
+   "summary": "027-every-saltwater-croc-reason short03 not on instagram 4 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
    "owner": "owner",
    "severity": "medium",
    "alerted_at": "2026-11-05T17:01:52+00:00"
@@ -68,8 +68,8 @@
   "crosspost:027-every-saltwater-croc-reason:short03:facebook": {
    "first_seen": "2026-11-05T17:01:52+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-05T17:01:52+00:00",
-   "summary": "027-every-saltwater-croc-reason short03 not on facebook 3 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
+   "last_seen": "2026-11-05T18:01:37+00:00",
+   "summary": "027-every-saltwater-croc-reason short03 not on facebook 4 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
    "owner": "owner",
    "severity": "medium",
    "alerted_at": "2026-11-05T17:01:52+00:00"
