@@ -136,3 +136,51 @@ Advisories (graphic designer, non-blocking):
 2. The squirrel's head and torso are a bit boxy (a hard step at the neck). A rounder skull would look more polished, but it already reads.
 
 **Round summary: C PASS.** C can enter the A/B/C thumbnail test alongside A and B.
+
+## Post-render final check (2026-11-05)
+Viewed all 22 samples in `build/samples/` (every 30 s of `final.mp4`, 661.9 s), plus extra full-res frames at 199.5 s (s056), 288 s (s080),
+556.3 s (s158) and 659/661.5 s (end screen). `build/qc.json` lists no problems. Also viewed all three thumbnails with their `_small` versions,
+`metadata.json`, the three Shorts previews, and 8 frames from each Short at 5/20/40/60/80/90/97/99.5% of its length.
+
+### Main video: PASS
+- No black, blank, frozen or glitched frames. Every sample shows a full scene with the chapter chip, the death counter (294 to 301,
+  going up one per chapter) and the TIME LEFT tag (DECADES, then YEARS, then ?, then ABOUT A DAY), all legible.
+- The pictures match the narration in every sample. Snowflake and the gorilla grid (s007/s022), the genome double helix with
+  "ONE LETTER, TWO COPIES" (s014), Migaloo with the Australia map circled at Queensland (s031/s039), the lioness on grass vs
+  printer paper on carpet (s056), the fenced Seneca herd (s073/s088), the Olney street with "RIGHT OF WAY" (s098), squirrel sun glare (s106),
+  the leucistic duck with "DARK EYES" (s123), the volunteer with the white turtle (s140), the hatchling rows (s149), the swamp herons
+  (s158), the hatchling glowing next to a dark sibling (s166), and the museum gator behind glass, "1995 TO 2025" (s175).
+- Three samples land early in a build-up and look sparse at that instant: s056 (the brown half is still empty), s080 (one deer)
+  and s158 (no caption yet). In the full-res frames later in each shot, these complete as intended: PRINTER PAPER with sheet and
+  arrow, ABOUT 200 with a 3x8 herd, and FULL OF BIRDS. Not defects.
+- Doug is on-model (red cap, white head) in every shot he appears in, including the bird costume (s131), and readable against each background.
+- Ending: s184 shows the death with Doug's red cap floating in the dark swamp and a heron standing over it. "The cap is red. Nothing out
+  here wants red." It is a cartoon death with no gore, and it pays off the "...Then Doug" title. Then comes a clean end screen ("DOUG'S NEXT DEATH" plus
+  end-screen slots and SUBSCRIBE). There is no "???" teaser card and no withheld payoff.
+- Gore/kid-appeal: none. The palette across chapters is muted savanna, forest, dusk and black swamp, so the video reads as adult nature horror.
+- Variety: chapters change background, palette and subject. There is no run of 4 or more near-identical compositions in the samples.
+
+Advisory (director, non-blocking): s158 opens the alligator story but still carries the "THE WHITE TURTLE" chapter chip for ~3.7 s
+because s159 is the chapter card. This is acceptable as a bridge. If cheap, swap the chip on s158 to "THE WHITE ALLIGATOR".
+
+### Thumbnails: PASS (unchanged since rounds 2/3)
+A (gator jaw + heron + Doug in a hatchling costume, "NO HIDING"), B (Doug in the water with a heron beak and a dark gator, "SPOTTED") and C (2x2 grid)
+all read at 168x94 with one focal point and an obvious Doug + threat. They fit "Why Nature Kills Albino Animals First, Then Doug"
+and are not misleading, because the gator chapter and the Doug death are both in the video. No banned words.
+
+### Shorts: PASS
+- short01 (50.1 s, "Most Albino Alligators Born in the Wild Die Within a Day"), short02 (40.2 s, "White Lions Aren't Albino, and They
+  Still Hunt Fine"), short03 (26.3 s, "This Town Fines You $750 for Harassing a White Squirrel"). All are 1080x1920 with audio.
+- Titles are readable at the top in red with a black outline, and none are cropped. Subtitles are large, white and centred in the lower third, and
+  legible in every frame. (The previews catch the word reveal mid-word, e.g. "that br". In playback, frames show whole words.)
+- The 16:9 scene fits across the full width, and no drawing is cut off at the sides. Each Short pays off its own title on screen: the hatchling is
+  spotted next to a dark sibling and a big gator; white lion vs golden lion in the fenced reserve, both with green "hunting OK" bars; the $750 sign
+  with RIGHT OF WAY cars.
+- The end card "FULL VIDEO: TAP BELOW" has the red arrow pointing straight down, with Doug beside it. Outros point to the full video and do not
+  withhold the Short's payoff. There is no "???" card.
+
+Advisory (director, non-blocking, for future Shorts templates): in short01 the hatchling is only ~10% of the frame width in its
+letterboxed band, and the counter labels are tiny. A 1.3x crop-zoom on the centre of s160-s172 would make the subject pop on phones.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS

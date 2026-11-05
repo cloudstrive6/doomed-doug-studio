@@ -73,3 +73,26 @@ C re-enters the test only after a visual-screener re-check of fixes 1 to 3.
 Routing: graphic designer applies A fixes 1-2 and C fixes 1-3. The visual screener re-checks A and C at 1280x720 and 168x94. If A is not
 fixed before packaging, ship B as `thumbnail.png`.
 - 2026-11-05: script 3 drafts (2 screener rounds + CD), art 3 rounds + thumbnail 3 rounds (C swapped gorilla tile for deer), 11.0 min. Risks: albinism-of-people framing avoided; kid-appeal on white animals; thumbnail C weaker.
+
+## 2026-11-05: Final package approval (creative director)
+Reviewed: title and alt_titles, `build/thumbnail.png` + `_small` (A, "NO HIDING"), metadata description and tags, `build/chapters.txt`,
+`build/samples/f_001-f_003`, the opening of `script.md`, and the post-render visual review (main PASS, shorts PASS; `qc.json` no problems).
+
+- **Title: keep** "Why Nature Kills Albino Animals First, Then Doug". It's the only option with both the curiosity gap and the Doug turn, and the
+  video delivers both: the 1-day alligator boss and Doug's death 301. Alts 1-3 are flatter variants of the same T9 shape. Alt 4 ("The Deadliest
+  Thing...") promises a single cause the video doesn't give, so no swap. Note for the titler: 036, 037 and 038 all open with "Why". The next episode
+  should use a different formula (T6 gradient, "What it feels like", or a ranking).
+- **Thumbnail A: approve.** Both round-2 fixes landed. "NO HIDING" now sits clear of the duration badge, and the heron reads as a bird (yellow
+  glow, eye and beak) aimed at Doug, so the picture says "the white one gets seen". At 168x94 it reads as jaw, heron and red cap. It's not gore and
+  not kid-coded. B stays the A/B alternative.
+- **Description/chapters:** the chapters match `chapters.txt` (0:11 is the first chapter, and 1:36 is corrected). The six sources cover every item
+  that isn't the whale. The AI-use and cartoon-death disclaimers are present. Tags are on-topic.
+- **First 60 s:** the gorilla fact is the first sentence, the payoff promise (the white-alligator Doug and the herons) is sentence two, and
+  "The White Gorilla." lands within word 35. The twist (22 babies, none white, then the one-letter genome) arrives well within 45 s. The counter is at
+  294 and the TIME LEFT sign reads DECADES. Snowflake reads as an ape, not a person.
+- Advisories carried forward, non-blocking: the s158 chapter chip, and the 1.3x crop-zoom for Shorts.
+
+Lore for the series bible: the counter goes from 294 to 301 (7 deaths, total 301). The White Whale is survived ("Doug is fine.").
+Death 300 (The White Turtle) is played flat. Death 301 is the boss (The White Alligator, a heron finds him). Closing: the red cap floats in the swamp, and a heron looks at it and walks away.
+
+FINAL: APPROVED
