@@ -1,56 +1,6 @@
 {
- "at": "2026-11-05T21:01:38+00:00",
+ "at": "2026-11-05T22:01:41+00:00",
  "issues": [
-  {
-   "key": "crosspost:027-every-saltwater-croc-reason:short03:instagram",
-   "severity": "medium",
-   "owner": "owner",
-   "summary": "027-every-saltwater-croc-reason short03 not on instagram 7 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
-   "detail": "",
-   "route": "owner: renew the token/connection",
-   "fixed": false,
-   "extra": {}
-  },
-  {
-   "key": "crosspost:027-every-saltwater-croc-reason:short03:facebook",
-   "severity": "medium",
-   "owner": "owner",
-   "summary": "027-every-saltwater-croc-reason short03 not on facebook 7 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
-   "detail": "",
-   "route": "owner: renew the token/connection",
-   "fixed": false,
-   "extra": {}
-  },
-  {
-   "key": "crosspost:030-trapped-in-amber:short01:instagram",
-   "severity": "medium",
-   "owner": "owner",
-   "summary": "030-trapped-in-amber short01 not on instagram 2 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
-   "detail": "",
-   "route": "owner: renew the token/connection",
-   "fixed": false,
-   "extra": {}
-  },
-  {
-   "key": "crosspost:030-trapped-in-amber:short01:facebook",
-   "severity": "medium",
-   "owner": "owner",
-   "summary": "030-trapped-in-amber short01 not on facebook 2 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
-   "detail": "",
-   "route": "owner: renew the token/connection",
-   "fixed": false,
-   "extra": {}
-  },
-  {
-   "key": "crosspost:034-every-bison-reason:long:facebook_video",
-   "severity": "medium",
-   "owner": "owner",
-   "summary": "034-every-bison-reason long not on facebook_video 4 h after going live: Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password",
-   "detail": "",
-   "route": "owner: renew the token/connection",
-   "fixed": false,
-   "extra": {}
-  },
   {
    "key": "related_pending",
    "severity": "low",
@@ -82,5 +32,11 @@
    "extra": {}
   }
  ],
- "resolved_since_last": []
+ "resolved_since_last": [
+  "crosspost:027-every-saltwater-croc-reason:short03:instagram",
+  "crosspost:027-every-saltwater-croc-reason:short03:facebook",
+  "crosspost:034-every-bison-reason:long:facebook_video",
+  "crosspost:030-trapped-in-amber:short01:instagram",
+  "crosspost:030-trapped-in-amber:short01:facebook"
+ ]
 }
