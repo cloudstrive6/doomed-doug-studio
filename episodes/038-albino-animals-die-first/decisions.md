@@ -72,3 +72,4 @@ C re-enters the test only after a visual-screener re-check of fixes 1 to 3.
 
 Routing: graphic designer applies A fixes 1-2 and C fixes 1-3. The visual screener re-checks A and C at 1280x720 and 168x94. If A is not
 fixed before packaging, ship B as `thumbnail.png`.
+- 2026-11-05: script 3 drafts (2 screener rounds + CD), art 3 rounds + thumbnail 3 rounds (C swapped gorilla tile for deer), 11.0 min. Risks: albinism-of-people framing avoided; kid-appeal on white animals; thumbnail C weaker.
