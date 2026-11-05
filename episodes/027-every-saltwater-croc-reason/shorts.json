@@ -97,8 +97,8 @@
       "related_set": true,
       "uploaded_at": "2026-10-26T19:49:44+00:00",
       "social": {
-        "instagram_error": "Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"A1_pKx-Ncv5kikGiJkg059O\"}}'",
-        "facebook_error": "Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"An_exZngRlnsZV1G6-VPXEE\"}}'",
+        "instagram_error": "Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"Ad7EG00mEgiRDzqG_zBhGcf\"}}'",
+        "facebook_error": "Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"ADv06dV8y0bflLYAUpsEKwl\"}}'",
         "tiktok_error": "TikTok (Post for Me) failed: \"Failed to post to TikTok\"",
         "instagram_story_tries": 3,
         "instagram_story_error": "Meta API 400: b'{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AbNXJ4MZVW_VEdebmdCnM50\"}}'",
