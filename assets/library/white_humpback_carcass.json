@@ -1,0 +1,20 @@
+{"name": "white_humpback_carcass", "description": "Dead white humpback (the 2022 Victoria stranding): an off-white whale lying on its side on the sand, back shading #d6d2c8, pale throat grooves, closed eye, long white flipper lying flat. Clean: no ribs, no bones, no red, no flesh, no birds. Based on `whale_carcass` without its bony patch. Bottom-centre anchor, x -300..300, y -170..0.", "anchor": [0, 0], "tags": ["whale", "humpback", "white", "carcass", "beach", "038"], "elements": [
+  {"type": "poly", "points": [[-213.0, -32.1], [-252.8, -32.1], [-298.2, -21.4], [-284.0, -8.6], [-301.0, 0.0], [-213.0, 0.0], [-198.8, -10.7]], "fill": "#d6d2c8", "width": 4, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-227.2, -21.4], [-170.4, -64.2], [-85.2, -117.7], [14.2, -158.4], [113.6, -169.1], [198.8, -149.8], [261.3, -111.3], [292.5, -64.2], [295.4, -32.1], [281.2, -8.6], [255.6, 0.0], [-213.0, 0.0], [-230.0, -8.6]], "fill": "#f2efe6", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-213.0, -25.7], [-170.4, -64.2], [-85.2, -117.7], [14.2, -158.4], [113.6, -169.1], [198.8, -149.8], [261.3, -111.3], [213.0, -119.8], [127.8, -134.8], [28.4, -126.3], [-71.0, -94.2], [-156.2, -51.4]], "fill": "#d6d2c8", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-198.8, -4.3], [-85.2, -23.5], [85.2, -32.1], [227.2, -27.8], [284.0, -25.7], [269.8, -6.4], [249.9, 0.0], [-213.0, 0.0]], "fill": "#e4e0d6", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "spray", "x": 0.0, "y": -85.6, "r": 74.7, "color": "#cfcac0", "density": 0.15},
+  {"type": "spray", "x": 170.4, "y": -85.6, "r": 49.8, "color": "#cfcac0", "density": 0.15},
+  {"type": "curve", "points": [[170.4, -15.0], [235.7, -19.3], [272.6, -27.8]], "width": 2, "color": "#a8a398"},
+  {"type": "curve", "points": [[170.4, -23.5], [235.7, -27.8], [272.6, -36.4]], "width": 2, "color": "#a8a398"},
+  {"type": "poly", "points": [[-227.2, -21.4], [-170.4, -64.2], [-85.2, -117.7], [14.2, -158.4], [113.6, -169.1], [198.8, -149.8], [261.3, -111.3], [292.5, -64.2], [295.4, -32.1], [281.2, -8.6], [255.6, 0.0], [-213.0, 0.0], [-230.0, -8.6]], "fill": null, "width": 5, "color": "#000000", "smooth": true},
+  {"type": "curve", "points": [[244.2, -66.3], [258.4, -62.1], [269.8, -66.3]], "width": 3, "color": "#1a1a1a"},
+  {"type": "poly", "points": [[60, -30], [120, -22], [190, -14], [250, -8], [292, -6], [296, 0], [240, 2], [170, 2], [100, -2], [54, -10]], "fill": "#f6f4ee", "width": 4, "color": "#000000", "smooth": true},
+  {"type": "curve", "points": [[110, -10], [180, -6], [250, -3]], "width": 2, "color": "#bdb8ae"},
+  {"type": "ellipse", "x": 130, "y": -11.0, "rx": 4, "ry": 3, "fill": "#e0dcd2", "width": 2, "color": "#8a857a"},
+  {"type": "ellipse", "x": 180, "y": -9.0, "rx": 4, "ry": 3, "fill": "#e0dcd2", "width": 2, "color": "#8a857a"},
+  {"type": "ellipse", "x": 230, "y": -7.0, "rx": 4, "ry": 3, "fill": "#e0dcd2", "width": 2, "color": "#8a857a"},
+  {"type": "ellipse", "x": 210, "y": -100, "rx": 5, "ry": 4, "fill": "#d6d2c8", "width": 2, "color": "#5a554c"},
+  {"type": "ellipse", "x": 230, "y": -88, "rx": 5, "ry": 4, "fill": "#d6d2c8", "width": 2, "color": "#5a554c"},
+  {"type": "ellipse", "x": 250, "y": -76, "rx": 5, "ry": 4, "fill": "#d6d2c8", "width": 2, "color": "#5a554c"}
+]}

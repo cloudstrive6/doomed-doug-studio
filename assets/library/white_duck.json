@@ -1,0 +1,21 @@
+{"name": "white_duck", "description": "Leucistic white mallard-type duck swimming on a park pond, facing right: white body #f6f6f2 with grey shading and folded wing feather lines, upturned tail, orange bill, small dark eye (leucistic, eyes normal) under a grey brow line. Calm adult, not a duckling. Anchor (0,0) on the waterline (a thin ripple line is drawn there), x -190..186, y -200..26.", "anchor": [0, 0], "tags": ["duck", "bird", "white", "leucistic", "pond", "038"], "elements": [
+  {"type": "poly", "points": [[-150, -50], [-192, -84], [-172, -38]], "fill": "#f6f6f2", "width": 4, "color": "#000000"},
+  {"type": "poly", "points": [[40, -60], [56, -112], [68, -142], [116, -142], [112, -104], [106, -50]], "fill": "#f6f6f2", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-176, -40], [-150, -70], [-80, -86], [0, -84], [60, -72], [98, -46], [112, -14], [98, 14], [30, 24], [-110, 22], [-160, 4]], "fill": "#f6f6f2", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "spray", "x": -40, "y": -24, "r": 40, "color": "#d4d4cc", "density": 0.4},
+  {"type": "spray", "x": 60, "y": -10, "r": 26, "color": "#d4d4cc", "density": 0.35},
+  {"type": "poly", "points": [[54, -152], [62, -186], [92, -202], [126, -196], [142, -172], [136, -148], [106, -136], [70, -136]], "fill": "#f6f6f2", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "spray", "x": 80, "y": -160, "r": 18, "color": "#d4d4cc", "density": 0.35},
+  {"type": "poly", "points": [[134, -170], [178, -164], [186, -152], [176, -146], [136, -150]], "fill": "#e88a1a", "width": 4, "color": "#000000", "smooth": true},
+  {"type": "line", "points": [[138, -159], [182, -155]], "width": 2, "color": "#8a4a0a"},
+  {"type": "ellipse", "x": 166, "y": -164, "rx": 2.5, "ry": 2, "fill": "#8a4a0a", "width": 0, "color": "#000000", "outline": false},
+  {"type": "ellipse", "x": 110, "y": -176, "rx": 5, "ry": 5, "fill": "#1a1a1a", "width": 0, "color": "#000000", "outline": false},
+  {"type": "curve", "points": [[99, -183], [110, -186], [121, -183]], "width": 3, "color": "#5a5a54"},
+  {"type": "poly", "points": [[-160, -46], [-110, -64], [-40, -74], [20, -64], [42, -46], [0, -30], [-80, -28]], "fill": "#eceae2", "width": 4, "color": "#000000"},
+  {"type": "spray", "x": -50, "y": -46, "r": 26, "color": "#d4d4cc", "density": 0.45},
+  {"type": "curve", "points": [[-80, -58], [-110, -32]], "width": 2, "color": "#b4b4ac"},
+  {"type": "curve", "points": [[-50, -58], [-80, -32]], "width": 2, "color": "#b4b4ac"},
+  {"type": "curve", "points": [[-20, -58], [-50, -32]], "width": 2, "color": "#b4b4ac"},
+  {"type": "curve", "points": [[10, -58], [-20, -32]], "width": 2, "color": "#b4b4ac"},
+  {"type": "curve", "points": [[-190, 2], [-120, 4], [-40, 0], [40, 4], [120, 0], [184, 2]], "width": 3, "color": "#4a7aa0"}
+]}

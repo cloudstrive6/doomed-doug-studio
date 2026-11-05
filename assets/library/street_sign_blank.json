@@ -1,0 +1,9 @@
+{"name": "street_sign_blank", "description": "Blank US street sign for the Olney squirrel right-of-way rule: white rectangular board with a black border (outer + inner line) on a grey metal pole with a small foot. Text is overlaid by the shotlist (text area centred on (0,-430)). Bottom-centre anchor (pole foot on y=0). Board x -230..230, y -500..-360.", "anchor": [0, 0], "tags": ["sign", "street sign", "town", "blank", "038"], "elements": [
+  {"type": "poly", "points": [[-10, -362], [10, -362], [10, 0], [-10, 0]], "fill": "#9a9a9a", "width": 4, "color": "#000000"},
+  {"type": "line", "points": [[-4, -356], [-4, -6]], "width": 3, "color": "#c8c8c8"},
+  {"type": "poly", "points": [[-26, -8], [26, -8], [30, 0], [-30, 0]], "fill": "#7a7a7a", "width": 3, "color": "#000000"},
+  {"type": "poly", "points": [[-230, -500], [230, -500], [230, -360], [-230, -360]], "fill": "#ffffff", "width": 6, "color": "#000000"},
+  {"type": "poly", "points": [[-218, -488], [218, -488], [218, -372], [-218, -372]], "fill": null, "width": 4, "color": "#000000"},
+  {"type": "ellipse", "x": 0, "y": -494, "rx": 3, "ry": 3, "fill": "#8a8a8a", "width": 1, "color": "#000000"},
+  {"type": "ellipse", "x": 0, "y": -366, "rx": 3, "ry": 3, "fill": "#8a8a8a", "width": 1, "color": "#000000"}
+]}

@@ -1,0 +1,17 @@
+{"name": "gorilla_icon", "description": "Small flat icon of a normal dark western lowland gorilla, head and shoulders, front view: near-black #2a2a2a fur, charcoal #4a4a4a face, heavy black brow ridge, sagittal crest, small dark eyes (no shine), broad nose, flat closed mouth. Thick black outline with mid-grey rim highlight strokes so it reads on cream. Centre anchor, x -60..60, y -60..60. Not cute.", "anchor": [0, 0], "tags": ["gorilla", "icon", "ape", "038"], "elements": [
+  {"type": "poly", "points": [[-60, 60], [-58, 26], [-44, 8], [44, 8], [58, 26], [60, 60]], "fill": "#2a2a2a", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-36, 22], [-40, -8], [-32, -38], [-8, -56], [4, -59], [30, -40], [40, -8], [36, 22], [0, 32]], "fill": "#2a2a2a", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "curve", "points": [[-52, 50], [-50, 26], [-38, 14]], "width": 3, "color": "#8a8a8a"},
+  {"type": "curve", "points": [[52, 50], [50, 26], [38, 14]], "width": 3, "color": "#8a8a8a"},
+  {"type": "curve", "points": [[-31, -6], [-28, -34], [-6, -51]], "width": 3, "color": "#8a8a8a"},
+  {"type": "curve", "points": [[31, -6], [28, -34], [8, -50]], "width": 3, "color": "#8a8a8a"},
+  {"type": "poly", "points": [[-24, -20], [24, -20], [26, -2], [22, 18], [0, 28], [-22, 18], [-26, -2]], "fill": "#4a4a4a", "width": 3, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-30, -16], [-24, -28], [-10, -30], [0, -24], [10, -30], [24, -28], [30, -16], [14, -18], [0, -14], [-14, -18]], "fill": "#1a1a1a", "width": 3, "color": "#000000", "smooth": true},
+  {"type": "ellipse", "x": -11, "y": -6, "rx": 3.5, "ry": 3, "fill": "#0a0a0a", "width": 0, "color": "#000000", "outline": false},
+  {"type": "ellipse", "x": 11, "y": -6, "rx": 3.5, "ry": 3, "fill": "#0a0a0a", "width": 0, "color": "#000000", "outline": false},
+  {"type": "curve", "points": [[-6, -10], [-10, 6]], "width": 2, "color": "#2a2a2a"},
+  {"type": "curve", "points": [[6, -10], [10, 6]], "width": 2, "color": "#2a2a2a"},
+  {"type": "ellipse", "x": -5, "y": 7, "rx": 2.5, "ry": 2, "fill": "#111111", "width": 0, "color": "#000000", "outline": false},
+  {"type": "ellipse", "x": 5, "y": 7, "rx": 2.5, "ry": 2, "fill": "#111111", "width": 0, "color": "#000000", "outline": false},
+  {"type": "line", "points": [[-9, 18], [9, 18]], "width": 3, "color": "#111111"}
+]}
