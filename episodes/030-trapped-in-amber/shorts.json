@@ -89,7 +89,27 @@
       "publish_at": "2026-11-06T19:00:00Z",
       "related_video": "StupfMPSmTw",
       "related_set": true,
-      "uploaded_at": "2026-10-28T17:45:13+00:00"
+      "uploaded_at": "2026-10-28T17:45:13+00:00",
+      "social": {
+        "instagram": {
+          "id": "17981912193134613",
+          "url": "https://www.instagram.com/reel/DfaT1Z0BkQd/"
+        },
+        "facebook": {
+          "id": "1709966230750175",
+          "url": "https://www.facebook.com/reel/1709966230750175"
+        },
+        "tiktok": {
+          "id": "v_pub_file~v2-1.7705135938997012500",
+          "url": "https://www.tiktok.com/@doomeddoug"
+        },
+        "instagram_story": {
+          "id": "18644600554053334"
+        },
+        "facebook_story": {
+          "id": "1061183983612904"
+        }
+      }
     }
   ]
 }
