@@ -1,15 +1,20 @@
 {
- "at": "2026-11-06T20:02:24+00:00",
+ "at": "2026-11-06T21:41:33+00:00",
  "issues": [
   {
-   "key": "queue_low",
-   "severity": "medium",
-   "owner": "auto",
-   "summary": "Queue 3/4 and no production running: started a production run",
-   "detail": "",
-   "route": "dispatch produce.yml",
-   "fixed": true,
-   "extra": {}
+   "key": "produce_failing",
+   "severity": "high",
+   "owner": "agent",
+   "summary": "Last 2 production runs failed",
+   "detail": "2026-11-06T20:02:21Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42284871061\n2026-11-06T17:01:12Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42257734728",
+   "route": "diagnose the run logs, route to the agent that owns the failing stage",
+   "fixed": false,
+   "extra": {
+    "run_ids": [
+     42284871061,
+     42257734728
+    ]
+   }
   },
   {
    "key": "related_pending",
