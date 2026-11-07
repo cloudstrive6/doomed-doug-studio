@@ -1,5 +1,5 @@
 {
- "at": "2026-11-07T12:01:41+00:00",
+ "at": "2026-11-07T13:01:35+00:00",
  "issues": [
   {
    "key": "schedule_gap",
@@ -60,7 +60,5 @@
    "extra": {}
   }
  ],
- "resolved_since_last": [
-  "queue_low"
- ]
+ "resolved_since_last": []
 }
