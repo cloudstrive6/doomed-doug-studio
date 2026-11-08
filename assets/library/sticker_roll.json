@@ -1,0 +1,138 @@
+{
+ "name": "sticker_roll",
+ "description": "A small roll of blank travel stickers on a wooden spool (040, ~160x120, anchor centre): white backing roll with ring lines, brown core, a tail of backing running right with two red-edged blank stickers, two more peeking from the roll's edge.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "sticker",
+  "travel",
+  "040"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     20
+    ],
+    [
+     80,
+     20
+    ],
+    [
+     80,
+     52
+    ],
+    [
+     10,
+     52
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 20,
+   "y": 24,
+   "w": 24,
+   "h": 24,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#e0201b"
+  },
+  {
+   "type": "rect",
+   "x": 50,
+   "y": 24,
+   "w": 24,
+   "h": 24,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#e0201b"
+  },
+  {
+   "type": "ellipse",
+   "x": -10,
+   "y": 0,
+   "rx": 56,
+   "ry": 56,
+   "fill": "#ffffff",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": -30,
+   "y": 25,
+   "r": 30,
+   "color": "#d8d8d0",
+   "density": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": -10,
+   "y": 0,
+   "rx": 44,
+   "ry": 44,
+   "fill": null,
+   "width": 2,
+   "color": "#b8b8b0"
+  },
+  {
+   "type": "ellipse",
+   "x": -10,
+   "y": 0,
+   "rx": 32,
+   "ry": 32,
+   "fill": null,
+   "width": 2,
+   "color": "#b8b8b0"
+  },
+  {
+   "type": "ellipse",
+   "x": -10,
+   "y": 0,
+   "rx": 20,
+   "ry": 20,
+   "fill": "#a0522d",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -10,
+   "y": 0,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#3b2a17",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 22,
+   "y": -48,
+   "w": 18,
+   "h": 14,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#e0201b"
+  },
+  {
+   "type": "rect",
+   "x": 38,
+   "y": -30,
+   "w": 16,
+   "h": 14,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#e0201b"
+  }
+ ]
+}

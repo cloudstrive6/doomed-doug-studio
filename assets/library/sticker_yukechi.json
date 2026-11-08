@@ -1,0 +1,119 @@
+{
+ "name": "sticker_yukechi",
+ "description": "Travel sticker for YUKECHI, Yakutia (040, ~112x60, anchor centre, sticker_naica family): lilac-grey rectangle with a small blue lake shape top-left, bold dark-purple caps. Peeled bottom-right corner.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "040",
+  "yukechi",
+  "yakutia",
+  "siberia",
+  "permafrost",
+  "lake",
+  "virus"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -30
+    ],
+    [
+     50,
+     -30
+    ],
+    [
+     56,
+     -24
+    ],
+    [
+     56,
+     16
+    ],
+    [
+     42,
+     30
+    ],
+    [
+     -50,
+     30
+    ],
+    [
+     -56,
+     24
+    ],
+    [
+     -56,
+     -24
+    ]
+   ],
+   "fill": "#b8aac4",
+   "width": 4,
+   "color": "#4a3a5a"
+  },
+  {
+   "type": "ellipse",
+   "x": -34,
+   "y": -12,
+   "rx": 15,
+   "ry": 7,
+   "fill": "#3a9ad9",
+   "width": 2,
+   "color": "#1b4f86"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -42,
+     -13
+    ],
+    [
+     -30,
+     -13
+    ]
+   ],
+   "width": 2,
+   "color": "#8fd3ff"
+  },
+  {
+   "type": "text",
+   "text": "YUKECHI",
+   "x": 0,
+   "y": 8,
+   "size": 16,
+   "color": "#3a2a4a",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     42,
+     30
+    ],
+    [
+     56,
+     16
+    ],
+    [
+     40,
+     13
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#4a3a5a"
+  }
+ ]
+}

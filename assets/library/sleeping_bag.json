@@ -1,0 +1,287 @@
+{
+ "name": "sleeping_bag",
+ "description": "Rolled-out mummy sleeping bag, empty (040, ~420x120, anchor centre, hood at the right): dark green quilted bag with darker underside, baffle lines, a grey zip line, hood opening with an orange lining edge.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "camping",
+  "sleeping bag",
+  "040"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -20
+    ],
+    [
+     -150,
+     -46
+    ],
+    [
+     0,
+     -56
+    ],
+    [
+     130,
+     -60
+    ],
+    [
+     190,
+     -50
+    ],
+    [
+     214,
+     -10
+    ],
+    [
+     206,
+     34
+    ],
+    [
+     170,
+     56
+    ],
+    [
+     0,
+     56
+    ],
+    [
+     -150,
+     46
+    ],
+    [
+     -206,
+     20
+    ]
+   ],
+   "fill": "#2f5a3a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -190,
+     14
+    ],
+    [
+     -150,
+     30
+    ],
+    [
+     0,
+     40
+    ],
+    [
+     160,
+     42
+    ],
+    [
+     200,
+     30
+    ],
+    [
+     180,
+     52
+    ],
+    [
+     0,
+     54
+    ],
+    [
+     -150,
+     44
+    ]
+   ],
+   "fill": "#1f4028",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -150,
+     -30
+    ],
+    [
+     -140,
+     30
+    ]
+   ],
+   "width": 3,
+   "color": "#1d3a24"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -90,
+     -44
+    ],
+    [
+     -84,
+     46
+    ]
+   ],
+   "width": 3,
+   "color": "#1d3a24"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -50
+    ],
+    [
+     -26,
+     50
+    ]
+   ],
+   "width": 3,
+   "color": "#1d3a24"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -52
+    ],
+    [
+     32,
+     52
+    ]
+   ],
+   "width": 3,
+   "color": "#1d3a24"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     90,
+     -54
+    ],
+    [
+     92,
+     52
+    ]
+   ],
+   "width": 3,
+   "color": "#1d3a24"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -190,
+     4
+    ],
+    [
+     -60,
+     6
+    ],
+    [
+     120,
+     4
+    ]
+   ],
+   "width": 3,
+   "color": "#c0c6cc"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -190,
+     4
+    ],
+    [
+     -60,
+     6
+    ],
+    [
+     120,
+     4
+    ]
+   ],
+   "width": 1,
+   "color": "#000000",
+   "dash": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     116,
+     -2
+    ],
+    [
+     126,
+     -2
+    ],
+    [
+     126,
+     14
+    ],
+    [
+     116,
+     14
+    ]
+   ],
+   "fill": "#c0c6cc",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 168,
+   "y": -4,
+   "rx": 34,
+   "ry": 38,
+   "fill": "#f08a2a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 172,
+   "y": -4,
+   "rx": 22,
+   "ry": 26,
+   "fill": "#1a1a1a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     140,
+     -30
+    ],
+    [
+     160,
+     -38
+    ]
+   ],
+   "width": 2,
+   "color": "#ffb36b"
+  }
+ ]
+}

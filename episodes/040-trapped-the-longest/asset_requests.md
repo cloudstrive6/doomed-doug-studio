@@ -71,3 +71,12 @@ cutaway under the drift, the Hoyo Negro chamber, the sinkhole, the sediment core
 Script line 16 is outdated (CD, 2026-11-08 and brief section 8): if Hero A is used, the awake worm goes in a **permafrost**
 cutaway; a seafloor cutaway gets microbe dots, not a worm. s001 carries the words "Utah sealed a cave," so a Hero B cave image
 also works as the opener.
+
+## Status (illustrator, 2026-11-08): all done
+- Stickers (7): done, previews `assets/previews/040-props-1.png` (3x), `040-props-3.png` (0.8x). `sticker_south_pacific_gyre` is 130 wide.
+- `sticker_roll`, `ice_pick`, `pneumatic_drill`, `longbow_broken`, `trophy_cup` (bottom anchor), `snowmobile` (bottom anchor), `sleeping_bag`: done, `assets/previews/040-props-2.png`.
+- `permafrost_nematode`, `permafrost_nematode_active`, `pandoravirus`, `acanthamoeba`, `mammoth_pelvis`: done, `assets/previews/040-micro-final.png` (0.3x check `040-micro-1s.png`).
+- `mammoth_dig_layout`: done (1500x800), `assets/previews/040-micro-3.png`.
+- `giant_ground_sloth`, `gomphothere`, `columbian_mammoth`, `woolly_mammoth`, `short_faced_bear`: done, `assets/previews/040-mega-full.png`, silhouettes with red rim `040-mega-sil.png`, dark bg `040-mega-dark.png`.
+  Note: wider than requested because of the tusks: gomphothere and columbian_mammoth ~720, woolly_mammoth ~600 local units. Scale down about 0.75-0.8 to fit the requested footprint.
+- `neanderthal`, `mammoth_costume` (suitcase loop at local (150,138)), `amoeba_costume`, `amoeba_costume_flat`: done, `assets/previews/040-costume-test.png` (over stand/walk1/walk2, neanderthal on dark), `040-costume-assets.png`.

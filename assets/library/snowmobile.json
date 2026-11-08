@@ -1,0 +1,358 @@
+{
+ "name": "snowmobile",
+ "description": "Dark slate snowmobile, side view facing right (040, ~420x210, anchor bottom-centre on the snow): rider-less black seat, red side stripe, small pale-blue windscreen, handlebar, black track with grey bogie wheels, front ski, yellow headlight.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "vehicle",
+  "snow",
+  "snowmobile",
+  "040"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     40,
+     -6
+    ],
+    [
+     190,
+     -6
+    ],
+    [
+     214,
+     -20
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     40,
+     -6
+    ],
+    [
+     190,
+     -6
+    ],
+    [
+     214,
+     -20
+    ]
+   ],
+   "width": 4,
+   "color": "#9aa2aa"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     120,
+     -8
+    ],
+    [
+     130,
+     -50
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -64
+    ],
+    [
+     40,
+     -64
+    ],
+    [
+     60,
+     -36
+    ],
+    [
+     40,
+     -6
+    ],
+    [
+     -200,
+     -6
+    ],
+    [
+     -216,
+     -34
+    ]
+   ],
+   "fill": "#1e1e22",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -170,
+   "y": -34,
+   "rx": 18,
+   "ry": 18,
+   "fill": "#5a5f66",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -110,
+   "y": -34,
+   "rx": 18,
+   "ry": 18,
+   "fill": "#5a5f66",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": -34,
+   "rx": 18,
+   "ry": 18,
+   "fill": "#5a5f66",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 12,
+   "y": -34,
+   "rx": 18,
+   "ry": 18,
+   "fill": "#5a5f66",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -196,
+     -8
+    ],
+    [
+     38,
+     -8
+    ]
+   ],
+   "width": 3,
+   "color": "#4a4a50",
+   "dash": [
+    8,
+    8
+   ]
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -210,
+     -70
+    ],
+    [
+     -180,
+     -110
+    ],
+    [
+     40,
+     -110
+    ],
+    [
+     110,
+     -150
+    ],
+    [
+     190,
+     -100
+    ],
+    [
+     200,
+     -60
+    ],
+    [
+     150,
+     -50
+    ],
+    [
+     -200,
+     -50
+    ]
+   ],
+   "fill": "#3a4250",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -66
+    ],
+    [
+     180,
+     -66
+    ],
+    [
+     196,
+     -58
+    ],
+    [
+     150,
+     -52
+    ],
+    [
+     -196,
+     -54
+    ]
+   ],
+   "fill": "#2a3038",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     40,
+     -100
+    ],
+    [
+     120,
+     -136
+    ],
+    [
+     180,
+     -96
+    ]
+   ],
+   "width": 6,
+   "color": "#e0201b"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -180,
+     -110
+    ],
+    [
+     -160,
+     -134
+    ],
+    [
+     20,
+     -134
+    ],
+    [
+     40,
+     -110
+    ]
+   ],
+   "fill": "#1a1a1e",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -126
+    ],
+    [
+     10,
+     -126
+    ]
+   ],
+   "width": 2,
+   "color": "#4a4a50"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     90,
+     -142
+    ],
+    [
+     110,
+     -210
+    ],
+    [
+     150,
+     -196
+    ],
+    [
+     130,
+     -136
+    ]
+   ],
+   "fill": "#bfe6ff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     108,
+     -150
+    ],
+    [
+     122,
+     -194
+    ]
+   ],
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -130
+    ],
+    [
+     66,
+     -160
+    ],
+    [
+     92,
+     -160
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 186,
+   "y": -84,
+   "rx": 10,
+   "ry": 8,
+   "fill": "#fff36b",
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}

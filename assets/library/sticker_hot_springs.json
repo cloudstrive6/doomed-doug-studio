@@ -1,0 +1,141 @@
+{
+ "name": "sticker_hot_springs",
+ "description": "Travel sticker for HOT SPRINGS, South Dakota (040, ~112x60, anchor centre, sticker_naica family): ochre rectangle with a small green-teal steaming pond at left, two-line bold brown caps. Peeled bottom-right corner.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "040",
+  "hot springs",
+  "south dakota",
+  "mammoth site",
+  "sinkhole"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -30
+    ],
+    [
+     50,
+     -30
+    ],
+    [
+     56,
+     -24
+    ],
+    [
+     56,
+     16
+    ],
+    [
+     42,
+     30
+    ],
+    [
+     -50,
+     30
+    ],
+    [
+     -56,
+     24
+    ],
+    [
+     -56,
+     -24
+    ]
+   ],
+   "fill": "#e0a83a",
+   "width": 4,
+   "color": "#6a4a10"
+  },
+  {
+   "type": "ellipse",
+   "x": -38,
+   "y": 12,
+   "rx": 12,
+   "ry": 7,
+   "fill": "#3aa59a",
+   "width": 2,
+   "color": "#1f6a62"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -42,
+     2
+    ],
+    [
+     -44,
+     -8
+    ],
+    [
+     -40,
+     -18
+    ]
+   ],
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -34,
+     2
+    ],
+    [
+     -32,
+     -8
+    ],
+    [
+     -36,
+     -18
+    ]
+   ],
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "HOT\nSPRINGS",
+   "x": 12,
+   "y": -3,
+   "size": 14,
+   "color": "#4a2e00",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0,
+   "line_spacing": 1.1
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     42,
+     30
+    ],
+    [
+     56,
+     16
+    ],
+    [
+     40,
+     13
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#6a4a10"
+  }
+ ]
+}

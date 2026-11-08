@@ -1,0 +1,118 @@
+{
+ "name": "sticker_kolyma",
+ "description": "Travel sticker for KOLYMA, Siberia (040, ~112x60, anchor centre, sticker_naica family): brown-grey permafrost rectangle with a white ice-wedge stripe tapering down from the top edge, bold white caps with a thin dark outline. Peeled bottom-right corner.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "040",
+  "kolyma",
+  "siberia",
+  "permafrost",
+  "ice wedge"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -30
+    ],
+    [
+     50,
+     -30
+    ],
+    [
+     56,
+     -24
+    ],
+    [
+     56,
+     16
+    ],
+    [
+     42,
+     30
+    ],
+    [
+     -50,
+     30
+    ],
+    [
+     -56,
+     24
+    ],
+    [
+     -56,
+     -24
+    ]
+   ],
+   "fill": "#8a7c6c",
+   "width": 4,
+   "color": "#3a3028"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -30
+    ],
+    [
+     -14,
+     -30
+    ],
+    [
+     -20,
+     0
+    ],
+    [
+     -24,
+     0
+    ]
+   ],
+   "fill": "#f4f8fb",
+   "width": 2,
+   "color": "#cfd8de"
+  },
+  {
+   "type": "text",
+   "text": "KOLYMA",
+   "x": 4,
+   "y": 6,
+   "size": 17,
+   "color": "#ffffff",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0,
+   "outline": "#3a3028",
+   "outline_width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     42,
+     30
+    ],
+    [
+     56,
+     16
+    ],
+    [
+     40,
+     13
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#3a3028"
+  }
+ ]
+}

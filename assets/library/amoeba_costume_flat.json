@@ -1,0 +1,385 @@
+{
+ "name": "amoeba_costume_flat",
+ "description": "Doug's amoeba suit deflated flat on a slide (040 death beat, s145/s146): grey #a9adb3 felt puddle ~420x130 with a flopped pseudopod lobe, flattened dark nucleus patch with stitch ring, squashed vacuole dots, deflation wrinkles, an empty dark neck-hole collar at the left. Cap NOT included (place doug_cap separately). Anchor centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "costume",
+  "prop",
+  "amoeba",
+  "flat",
+  "death",
+  "040"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -200,
+     10
+    ],
+    [
+     -190,
+     -22
+    ],
+    [
+     -150,
+     -34
+    ],
+    [
+     -120,
+     -60
+    ],
+    [
+     -80,
+     -50
+    ],
+    [
+     -40,
+     -58
+    ],
+    [
+     0,
+     -46
+    ],
+    [
+     40,
+     -60
+    ],
+    [
+     80,
+     -48
+    ],
+    [
+     110,
+     -70
+    ],
+    [
+     150,
+     -56
+    ],
+    [
+     160,
+     -30
+    ],
+    [
+     200,
+     -20
+    ],
+    [
+     210,
+     10
+    ],
+    [
+     190,
+     36
+    ],
+    [
+     150,
+     44
+    ],
+    [
+     110,
+     64
+    ],
+    [
+     70,
+     50
+    ],
+    [
+     20,
+     62
+    ],
+    [
+     -30,
+     52
+    ],
+    [
+     -80,
+     66
+    ],
+    [
+     -130,
+     50
+    ],
+    [
+     -176,
+     48
+    ]
+   ],
+   "fill": "#a9adb3",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -180,
+     30
+    ],
+    [
+     -120,
+     40
+    ],
+    [
+     -40,
+     40
+    ],
+    [
+     60,
+     44
+    ],
+    [
+     150,
+     34
+    ],
+    [
+     196,
+     20
+    ],
+    [
+     180,
+     40
+    ],
+    [
+     100,
+     58
+    ],
+    [
+     0,
+     56
+    ],
+    [
+     -120,
+     52
+    ]
+   ],
+   "fill": "#868b92",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -60,
+     -40
+    ],
+    [
+     0,
+     -36
+    ],
+    [
+     60,
+     -44
+    ],
+    [
+     30,
+     -20
+    ],
+    [
+     -30,
+     -22
+    ]
+   ],
+   "fill": "#c4c8cd",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -150,
+   "y": -6,
+   "rx": 34,
+   "ry": 12,
+   "fill": "#4e5258",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": 30,
+   "y": 4,
+   "rx": 58,
+   "ry": 22,
+   "fill": "#62676e",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": 42,
+   "y": 0,
+   "rx": 16,
+   "ry": 7,
+   "fill": "#3e4248",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 30,
+   "y": 4,
+   "rx": 48,
+   "ry": 16,
+   "fill": null,
+   "width": 2,
+   "color": "#c4c8cd",
+   "dash": [
+    6,
+    6
+   ]
+  },
+  {
+   "type": "ellipse",
+   "x": -80,
+   "y": -14,
+   "rx": 12.6,
+   "ry": 6.3,
+   "fill": "#dfe2e5",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": 120,
+   "y": -20,
+   "rx": 11.2,
+   "ry": 5.6,
+   "fill": "#dfe2e5",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": 110,
+   "y": 30,
+   "rx": 9.799999999999999,
+   "ry": 4.8999999999999995,
+   "fill": "#dfe2e5",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": -40,
+   "y": 26,
+   "rx": 9.799999999999999,
+   "ry": 4.8999999999999995,
+   "fill": "#dfe2e5",
+   "width": 3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -110,
+     -30
+    ],
+    [
+     -96,
+     -10
+    ],
+    [
+     -104,
+     14
+    ]
+   ],
+   "width": 3,
+   "color": "#5e636a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -20,
+     -40
+    ],
+    [
+     -30,
+     -20
+    ],
+    [
+     -18,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#5e636a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     150,
+     -40
+    ],
+    [
+     140,
+     -16
+    ],
+    [
+     156,
+     10
+    ]
+   ],
+   "width": 3,
+   "color": "#5e636a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     30
+    ],
+    [
+     -40,
+     44
+    ]
+   ],
+   "width": 3,
+   "color": "#5e636a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     90,
+     40
+    ],
+    [
+     120,
+     50
+    ]
+   ],
+   "width": 3,
+   "color": "#5e636a"
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     170,
+     -10
+    ],
+    [
+     214,
+     -40
+    ],
+    [
+     232,
+     -20
+    ],
+    [
+     206,
+     8
+    ]
+   ],
+   "fill": "#a9adb3",
+   "width": 4
+  }
+ ]
+}

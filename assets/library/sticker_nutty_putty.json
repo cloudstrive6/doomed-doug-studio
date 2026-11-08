@@ -1,0 +1,178 @@
+{
+ "name": "sticker_nutty_putty",
+ "description": "Travel sticker for NUTTY PUTTY cave, Utah (040, ~112x60, anchor centre, same family as sticker_naica / sticker_lechuguilla): sandy tan rectangle with a small dark crack icon at left, two-line bold brown caps. Peeled bottom-right corner.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "040",
+  "nutty putty",
+  "utah",
+  "cave"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -30
+    ],
+    [
+     50,
+     -30
+    ],
+    [
+     56,
+     -24
+    ],
+    [
+     56,
+     16
+    ],
+    [
+     42,
+     30
+    ],
+    [
+     -50,
+     30
+    ],
+    [
+     -56,
+     24
+    ],
+    [
+     -56,
+     -24
+    ]
+   ],
+   "fill": "#e2c48a",
+   "width": 4,
+   "color": "#6a4a1a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -24
+    ],
+    [
+     -30,
+     -24
+    ],
+    [
+     -30,
+     24
+    ],
+    [
+     -50,
+     24
+    ]
+   ],
+   "fill": "#cfa866",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -42,
+     -26
+    ],
+    [
+     -36,
+     -14
+    ],
+    [
+     -44,
+     -4
+    ],
+    [
+     -34,
+     8
+    ],
+    [
+     -40,
+     18
+    ],
+    [
+     -37,
+     26
+    ]
+   ],
+   "width": 4,
+   "color": "#3a2410"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -36,
+     -14
+    ],
+    [
+     -30,
+     -12
+    ]
+   ],
+   "width": 2,
+   "color": "#3a2410"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -34,
+     8
+    ],
+    [
+     -28,
+     10
+    ]
+   ],
+   "width": 2,
+   "color": "#3a2410"
+  },
+  {
+   "type": "text",
+   "text": "NUTTY\nPUTTY",
+   "x": 7,
+   "y": -2,
+   "size": 19,
+   "color": "#4a2e0a",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0,
+   "line_spacing": 1.05
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     42,
+     30
+    ],
+    [
+     56,
+     16
+    ],
+    [
+     40,
+     13
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#6a4a1a"
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "name": "ice_pick",
+ "description": "Classic mountaineering ice axe (040, ~300x200 after tilt, anchor centre): grey steel head with a long curved pick and a short adze, wooden shaft with grain strokes, steel spike, red wrist loop. Drawn tilted 35 degrees.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "tool",
+  "mountaineering",
+  "ice",
+  "otzi",
+  "040"
+ ],
+ "elements": [
+  {
+   "type": "group",
+   "x": 0,
+   "y": 0,
+   "rotate": 35,
+   "elements": [
+    {
+     "type": "poly",
+     "points": [
+      [
+       -11,
+       -80
+      ],
+      [
+       11,
+       -80
+      ],
+      [
+       9,
+       140
+      ],
+      [
+       -9,
+       140
+      ]
+     ],
+     "fill": "#b07a3a",
+     "width": 4,
+     "color": "#000000"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       -3,
+       -60
+      ],
+      [
+       -2,
+       0
+      ],
+      [
+       -4,
+       60
+      ],
+      [
+       -2,
+       120
+      ]
+     ],
+     "width": 2,
+     "color": "#7a4a1a"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       4,
+       -40
+      ],
+      [
+       5,
+       30
+      ]
+     ],
+     "width": 2,
+     "color": "#d49a5a"
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -10,
+       136
+      ],
+      [
+       10,
+       136
+      ],
+      [
+       0,
+       180
+      ]
+     ],
+     "fill": "#9aa2aa",
+     "width": 4,
+     "color": "#000000"
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -16,
+       -112
+      ],
+      [
+       20,
+       -112
+      ],
+      [
+       120,
+       -96
+      ],
+      [
+       175,
+       -70
+      ],
+      [
+       120,
+       -82
+      ],
+      [
+       20,
+       -80
+      ],
+      [
+       -16,
+       -80
+      ]
+     ],
+     "fill": "#9aa2aa",
+     "width": 4,
+     "color": "#000000",
+     "smooth": false
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -16,
+       -110
+      ],
+      [
+       -90,
+       -114
+      ],
+      [
+       -96,
+       -94
+      ],
+      [
+       -80,
+       -92
+      ],
+      [
+       -16,
+       -84
+      ]
+     ],
+     "fill": "#9aa2aa",
+     "width": 4,
+     "color": "#000000"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       30,
+       -104
+      ],
+      [
+       120,
+       -90
+      ]
+     ],
+     "width": 2,
+     "color": "#e4e8ec"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       -80,
+       -108
+      ],
+      [
+       -30,
+       -106
+      ]
+     ],
+     "width": 2,
+     "color": "#e4e8ec"
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -14,
+       -116
+      ],
+      [
+       14,
+       -116
+      ],
+      [
+       14,
+       -76
+      ],
+      [
+       -14,
+       -76
+      ]
+     ],
+     "fill": "#6f767e",
+     "width": 4,
+     "color": "#000000"
+    },
+    {
+     "type": "ellipse",
+     "x": 0,
+     "y": -96,
+     "rx": 4,
+     "ry": 4,
+     "fill": "#2a2a2a",
+     "width": 0,
+     "color": "#000000",
+     "outline": false
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       9,
+       40
+      ],
+      [
+       40,
+       60
+      ],
+      [
+       34,
+       90
+      ],
+      [
+       8,
+       74
+      ]
+     ],
+     "width": 3,
+     "color": "#e0201b"
+    }
+   ]
+  }
+ ]
+}

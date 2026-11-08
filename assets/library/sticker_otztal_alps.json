@@ -1,0 +1,147 @@
+{
+ "name": "sticker_otztal_alps",
+ "description": "Travel sticker for the \u00d6TZTAL ALPS (040, ~112x60, anchor centre, sticker_naica family): pale ice-blue rectangle with a white mountain peak icon at left, two-line bold navy caps with a clear \u00d6 umlaut. Peeled bottom-right corner.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "sticker",
+  "travel",
+  "places",
+  "suitcase",
+  "040",
+  "otztal",
+  "alps",
+  "otzi",
+  "glacier",
+  "ice"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -30
+    ],
+    [
+     50,
+     -30
+    ],
+    [
+     56,
+     -24
+    ],
+    [
+     56,
+     16
+    ],
+    [
+     42,
+     30
+    ],
+    [
+     -50,
+     30
+    ],
+    [
+     -56,
+     24
+    ],
+    [
+     -56,
+     -24
+    ]
+   ],
+   "fill": "#cfe6f5",
+   "width": 4,
+   "color": "#3a5a7a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     22
+    ],
+    [
+     -38,
+     0
+    ],
+    [
+     -33,
+     6
+    ],
+    [
+     -26,
+     -12
+    ],
+    [
+     -14,
+     22
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#4f6b84"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     22
+    ],
+    [
+     -14,
+     22
+    ],
+    [
+     -14,
+     25
+    ],
+    [
+     -50,
+     25
+    ]
+   ],
+   "fill": "#9fc3dc",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "text",
+   "text": "\u00d6TZTAL\nALPS",
+   "x": 18,
+   "y": -2,
+   "size": 15,
+   "color": "#1f3a5a",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0,
+   "line_spacing": 1.1
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     42,
+     30
+    ],
+    [
+     56,
+     16
+    ],
+    [
+     40,
+     13
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#3a5a7a"
+  }
+ ]
+}

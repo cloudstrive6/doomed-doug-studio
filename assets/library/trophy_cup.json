@@ -1,0 +1,315 @@
+{
+ "name": "trophy_cup",
+ "description": "Plain gold trophy cup (040, ~260x320, anchor bottom-centre on the ground): two-handled gold bowl with shading and a highlight streak, gold stem, dark wooden base with a blank cream plaque.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "trophy",
+  "award",
+  "winner",
+  "040"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90,
+     -64
+    ],
+    [
+     90,
+     -64
+    ],
+    [
+     100,
+     0
+    ],
+    [
+     -100,
+     0
+    ]
+   ],
+   "fill": "#3a2a22",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -50
+    ],
+    [
+     50,
+     -50
+    ],
+    [
+     52,
+     -16
+    ],
+    [
+     -52,
+     -16
+    ]
+   ],
+   "fill": "#e9dcc0",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     -84
+    ],
+    [
+     70,
+     -84
+    ],
+    [
+     80,
+     -64
+    ],
+    [
+     -80,
+     -64
+    ]
+   ],
+   "fill": "#2a1e18",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -16,
+     -150
+    ],
+    [
+     16,
+     -150
+    ],
+    [
+     22,
+     -84
+    ],
+    [
+     -22,
+     -84
+    ]
+   ],
+   "fill": "#f2c230",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -150,
+   "rx": 26,
+   "ry": 12,
+   "fill": "#f2c230",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -82,
+     -290
+    ],
+    [
+     -130,
+     -290
+    ],
+    [
+     -128,
+     -220
+    ],
+    [
+     -70,
+     -190
+    ]
+   ],
+   "width": 12,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -82,
+     -290
+    ],
+    [
+     -130,
+     -290
+    ],
+    [
+     -128,
+     -220
+    ],
+    [
+     -70,
+     -190
+    ]
+   ],
+   "width": 6,
+   "color": "#f2c230"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     82,
+     -290
+    ],
+    [
+     130,
+     -290
+    ],
+    [
+     128,
+     -220
+    ],
+    [
+     70,
+     -190
+    ]
+   ],
+   "width": 12,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     82,
+     -290
+    ],
+    [
+     130,
+     -290
+    ],
+    [
+     128,
+     -220
+    ],
+    [
+     70,
+     -190
+    ]
+   ],
+   "width": 6,
+   "color": "#f2c230"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -96,
+     -310
+    ],
+    [
+     96,
+     -310
+    ],
+    [
+     88,
+     -240
+    ],
+    [
+     50,
+     -180
+    ],
+    [
+     0,
+     -162
+    ],
+    [
+     -50,
+     -180
+    ],
+    [
+     -88,
+     -240
+    ]
+   ],
+   "fill": "#f2c230",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     -300
+    ],
+    [
+     84,
+     -300
+    ],
+    [
+     76,
+     -240
+    ],
+    [
+     40,
+     -190
+    ],
+    [
+     20,
+     -180
+    ],
+    [
+     50,
+     -240
+    ]
+   ],
+   "fill": "#c8961e",
+   "width": 0,
+   "color": "#000000",
+   "outline": false,
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -66,
+     -292
+    ],
+    [
+     -60,
+     -240
+    ],
+    [
+     -38,
+     -204
+    ]
+   ],
+   "width": 6,
+   "color": "#fff3a0"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -310,
+   "rx": 96,
+   "ry": 14,
+   "fill": "#c8961e",
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}
