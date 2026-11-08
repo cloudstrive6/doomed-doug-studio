@@ -1,43 +1,13 @@
 {
- "at": "2026-11-08T04:01:32+00:00",
+ "at": "2026-11-08T05:01:44+00:00",
  "issues": [
   {
    "key": "schedule_gap",
    "severity": "medium",
    "owner": "auto",
-   "summary": "No long video scheduled for Wed 11 Nov 6:00 AM NZDT",
+   "summary": "No long video scheduled for Wed 11 Nov 6:00 AM NZDT, Thu 12 Nov 6:00 AM NZDT",
    "detail": "{\"uploaded_total\": 38, \"queued\": 2, \"target\": 4, \"phase\": \"weekly\", \"in_progress\": [\"039-chimp-family-tree\"], \"need_episode\": true, \"later_scheduled\": []}",
    "route": "production run",
-   "fixed": false,
-   "extra": {}
-  },
-  {
-   "key": "produce_failing",
-   "severity": "high",
-   "owner": "agent",
-   "summary": "Last 7 production runs failed",
-   "detail": "2026-11-07T20:46:05Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42412623805\n2026-11-07T17:01:04Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42394175143\n2026-11-07T11:25:26Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42368117798\n2026-11-07T05:01:03Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42340896789\n2026-11-06T21:59:24Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42301149029\n2026-11-06T20:02:21Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42284871061\n2026-11-06T17:01:12Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42257734728",
-   "route": "diagnose the run logs, route to the agent that owns the failing stage",
-   "fixed": false,
-   "extra": {
-    "run_ids": [
-     42412623805,
-     42394175143,
-     42368117798,
-     42340896789,
-     42301149029,
-     42284871061,
-     42257734728
-    ]
-   }
-  },
-  {
-   "key": "queue_low",
-   "severity": "medium",
-   "owner": "auto",
-   "summary": "Queue 2/4 and no production running",
-   "detail": "",
-   "route": "dispatch produce.yml",
    "fixed": false,
    "extra": {}
   },
@@ -72,5 +42,8 @@
    "extra": {}
   }
  ],
- "resolved_since_last": []
+ "resolved_since_last": [
+  "queue_low",
+  "produce_failing"
+ ]
 }

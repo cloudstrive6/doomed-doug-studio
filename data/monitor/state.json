@@ -6,12 +6,13 @@
    "last_seen": "2026-11-08T04:01:32+00:00",
    "summary": "Queue 2/4 and no production running",
    "owner": "auto",
-   "severity": "medium"
+   "severity": "medium",
+   "resolved": "2026-11-08T05:01:44+00:00"
   },
   "related_pending": {
    "first_seen": "2026-11-05T17:01:52+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-08T04:01:32+00:00",
+   "last_seen": "2026-11-08T05:01:44+00:00",
    "summary": "9 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -20,7 +21,7 @@
   "end_screens_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-08T04:01:32+00:00",
+   "last_seen": "2026-11-08T05:01:44+00:00",
    "summary": "3 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -29,7 +30,7 @@
   "thumb_tests_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-08T04:01:32+00:00",
+   "last_seen": "2026-11-08T05:01:44+00:00",
    "summary": "3 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
    "owner": "owner",
    "severity": "low",
@@ -38,8 +39,8 @@
   "schedule_gap": {
    "first_seen": "2026-11-07T05:01:37+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-08T04:01:32+00:00",
-   "summary": "No long video scheduled for Wed 11 Nov 6:00 AM NZDT",
+   "last_seen": "2026-11-08T05:01:44+00:00",
+   "summary": "No long video scheduled for Wed 11 Nov 6:00 AM NZDT, Thu 12 Nov 6:00 AM NZDT",
    "owner": "auto",
    "severity": "medium"
   },
@@ -50,7 +51,8 @@
    "summary": "Last 7 production runs failed",
    "owner": "agent",
    "severity": "high",
-   "agent_at": "2026-11-08T01:01:51+00:00"
+   "agent_at": "2026-11-08T01:01:51+00:00",
+   "resolved": "2026-11-08T05:01:44+00:00"
   },
   "crosspost:027-every-saltwater-croc-reason:short03:instagram": {
    "first_seen": "2026-11-05T17:01:52+00:00",
