@@ -1,5 +1,5 @@
 <!-- axis: duration trapped. How long nature held each thing, from about a day to about a hundred million years, on a rough log scale. Spoken bands: "Hours." (before item 1), "Months." (before item 2), "Thousands of years." (before item 3), "Tens of thousands of years." (before item 5), "Hundreds of thousands of years." (before item 7), "A hundred million years." (before item 8). -->
-<!-- Episode 040, draft 1 (2026-11-08, script writer). Written to the 2026-10-27 retention update. First sentence: the sealed Nutty Putty Cave. Payoff promise is sentence two (about 0:09). "Nutty Putty Cave." starts at word 34. Item 1 twist marker ("Here's the problem.") at word 97 (about 0:30). Hook fact first in every item; every kicker or Doug beat leans into the next stop.
+<!-- Episode 040, draft 2 (2026-11-08, script writer; screener fixes 1-2 and all recommendations applied: "mostly took mammoths" twice, AFP source for the energy line, item 1 sober bridge, "only person who walked out", yedoma pronunciation). Draft 1 2026-11-08. Written to the 2026-10-27 retention update. First sentence: the sealed Nutty Putty Cave. Payoff promise is sentence two (about 0:09). "Nutty Putty Cave." starts at word 34. Item 1 twist marker ("Here's the problem.") at word 97 (about 0:30). Hook fact first in every item; every kicker or Doug beat leans into the next stop.
 Counter on screen at 308 from the first shot and ends at 315. Seven deaths: 309 Nutty Putty Cave, 310 Ötzi's Hollow (flat), 311 Hoyo Negro, 312 The Permafrost Worms, 313 The Permafrost Virus, 314 The Mammoth Sinkhole, 315 The Seafloor. Survival: The Snowbound Car ("Doug is fine.", narrator disappointed, no sticker). "Doug did not agree to this." once (item 1). Costume gag twice (amoeba at item 6, mammoth at item 7, logic line varied).
 TIME TRAPPED readout (unspoken staging, beside the counter, only goes up): ABOUT 27 HOURS / ABOUT 2 MONTHS / ABOUT 5,300 YEARS / ABOUT 12,000 YEARS / ABOUT 46,000 YEARS / MORE THAN 48,500 YEARS / 160,000 TO 232,000 YEARS / 101.5 MILLION YEARS (last value stamped red). Every value is in facts.md.
 Suitcase stickers in order: NUTTY PUTTY, ÖTZTAL ALPS, HOYO NEGRO, KOLYMA, YUKECHI, HOT SPRINGS, SOUTH PACIFIC GYRE.
@@ -11,7 +11,7 @@ Deviations from the brief, all fact-driven (details in facts.md, "Brief checks")
 5. Seafloor: the sediment is oxic, oxygen reaches all the way down (Morono 2020; URI release), so the brief's "almost no oxygen" is reversed in the script. The day analogy computes to about four and a half seconds for written history, not a fraction of a second.
 6. Worms: no sourced body length, so the analogy is the depth (forty meters, deeper than a ten-storey building is tall). Reproduction is "without males" (paper: parthenogenetic) and "more than a hundred generations" (paper).
 7. Hoyo Negro: the chamber is sixty-one meters across (sci.news summary of Chatters 2014), used for the football-field analogy; no fall height is spoken because depth figures conflict. -->
-<!-- Pronunciation for the editor: Ötzi = "URT-see"; Ötztal = "URTS-tahl"; Hoyo Negro = "OY-oh NEH-groh"; Yucatán = "yoo-kah-TAHN"; Kolyma = "koh-LEE-mah"; Yukechi = "yoo-KEH-chee"; gomphothere = "GOM-foh-theer"; Pandoravirus = "pan-DOR-uh-vy-rus"; Umeå = "OO-meh-oh"; Cretaceous = "krih-TAY-shus"; gyre = "JIRE". -->
+<!-- Pronunciation for the editor: Ötzi = "URT-see"; Ötztal = "URTS-tahl"; Hoyo Negro = "OY-oh NEH-groh"; Yucatán = "yoo-kah-TAHN"; Kolyma = "koh-LEE-mah"; Yukechi = "yoo-KEH-chee"; gomphothere = "GOM-foh-theer"; Pandoravirus = "pan-DOR-uh-vy-rus"; yedoma = "YED-oh-mah" (added to voice.pronunciations); Umeå = "OO-meh-oh"; Cretaceous = "krih-TAY-shus"; gyre = "JIRE". -->
 
 [Open on thumbnail A, 1.5 seconds: a cutaway of dark layered seafloor mud, a small sealed pocket with tiny Doug inside, cap on, looking up. A huge curled worm, clearly awake, beside him. Red arrow. Text: "IT WOKE UP". DOUG DEATHS: 308. Beside the counter, a crude MS Paint stopwatch labelled TIME TRAPPED, blank. Doug's suitcase, no stickers.]
 
@@ -67,6 +67,10 @@ The real caver was stuck for about twenty-seven hours, and in the end the strain
 
 Bringing him out was judged too dangerous, so his family and the landowner agreed to leave him where he was. Within a week, the cave was sealed with explosives and cement.
 
+[The grey card holds. TIME TRAPPED ticks from HOURS toward MONTHS.]
+
+That cave held him for about a day. The next trap took months to let go.
+
 Months.
 
 ## The Snowbound Car
@@ -109,7 +113,7 @@ The suitcase stays empty, which was not the plan.
 
 [The cap sits on the car roof in the snow.]
 
-Two months is the longest any person on this list was held and walked out. After this, the longer nature holds on, the stranger the thing that comes back out.
+He is the only person on this list who walked out, after two months. After this, the longer nature holds on, the stranger the thing that comes back out.
 
 Thousands of years.
 
@@ -293,7 +297,7 @@ It only infects amoebae, which is exactly why Doug is now dressed as one. Doug h
 
 [The flattened costume in the dish, cap on top.]
 
-The next trap was picky too. It only took mammoths, and mostly the young males.
+The next trap was picky too. It mostly took mammoths, and mostly the young males.
 
 Hundreds of thousands of years.
 
@@ -329,7 +333,7 @@ Researchers have suggested that young males who had left their family herds had 
 
 [Doug in a mammoth costume, flat and unsmiling, red cap on top, suitcase in his trunk, walks confidently to the edge for a drink. Cut to black. DOUG DEATHS: 314. Sticker "HOT SPRINGS".]
 
-The sinkhole only took mammoths, so Doug went as one, young, male and unsupervised. Doug has died. Again.
+The sinkhole mostly took mammoths, so Doug went as one, young, male and unsupervised. Doug has died. Again.
 
 [The cap at the edge of the pit. The ground below turns to dark seafloor mud.]
 
@@ -383,4 +387,4 @@ The longest trap on this list held them for a hundred million years, and all it 
 
 Doug deaths: three hundred and fifteen. The suitcase still has room. Tell us in the comments where it should go next.
 
-<!-- words: 2003 (draft 1, spoken narration only; spoken band headers and item-name sentences included; headings, comments and stage directions excluded). About 10.3 min at 195 wpm. 140 sentences, average 14.3 words, longest 33. Item 1 name starts at word 34, twist marker at word 97. Item lengths 252 / 243 / 262 / 241 / 234 / 227 / 242 / 268. Outro 18 words. -->
+<!-- words: 2017 (draft 2, spoken narration only; spoken band headers and item-name sentences included; headings, comments and stage directions excluded). About 10.3 min at 195 wpm. 142 sentences, average 14.2 words, longest 33. Item 1 name starts at word 34, twist marker at word 97. Outro 18 words. -->

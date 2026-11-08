@@ -1,4 +1,4 @@
-# Facts: 040 The Most Horrifying Things Nature Kept Trapped the Longest (draft 1)
+# Facts: 040 The Most Horrifying Things Nature Kept Trapped the Longest (draft 2)
 
 Every factual claim in script.md is listed here with its source. Checked 2026-11-08.
 
@@ -18,7 +18,16 @@ The screener should re-open the **Search** rows and the FLAGS first.
 6. **Worm dating has a critic.** Byron Adams (BYU) told Scientific American the authors had not ruled out surface contamination; co-author Kurzchalia defends the sterile procedures. The script says this in one line.
 7. **Hoyo Negro chamber width** (61 m) is from sci.news's summary of Chatters 2014, not the paper text (paywalled). La Nación reports 62 m from later 3D mapping. Depth figures conflict (40 m below sea level for the remains; 55-60 m for the pit in other sources), so no fall height is spoken.
 8. **Seafloor oxygen.** The brief said "almost no oxygen"; the sources say the opposite (oxygen was present in all cores; the paper's title is about *oxic* sediment). The script says oxygen seeps all the way down.
-9. **"Energy millions of times lower"** is Morono's quoted statement as reported in search-result text; I did not fetch the page that carries the quote.
+9. **"Energy millions of times lower"** is Morono's quote in the AFP wire story (Vietnam News, fetched 2026-11-08); it is not in the URI/EurekAlert release.
+10. **Thumbnail note for the graphic designer.** Hero A as briefed puts the awake worm in *seafloor* mud. The worms came from Siberian permafrost; the seafloor item is microbes. Either set the worm in a permafrost cutaway, or keep the seafloor and swap the worm for microbe dots, so the opening image matches what the script pays off.
+
+## Draft 2 corrections (screener review of draft 1)
+- Item 6 kicker and item 7 Doug beat: "only took mammoths" changed to "mostly took mammoths" (the pit also held giant short-faced bears and other animals, row "Giant short-faced bears").
+- Item 8 energy line: AFP/Vietnam News URL added (FLAG 9).
+- Item 1: sober bridge line added before "Months." ("That cave closed in about a day. The next trap took months to let go."). Not a new claim: it restates the 27-hour figure.
+- Item 2: re-hook reworded to "He is the only person on this list who walked out, after two months." (items 1, 3, 4 are the other people; none survived).
+- Pronunciation: yedoma added to the script comment and config/channel.yaml voice.pronunciations.
+- Thumbnail mismatch noted (FLAG 10, and brief section 8).
 
 ## Opening and item 1: Nutty Putty Cave
 | Claim in script | Source | Check |
@@ -135,7 +144,7 @@ The screener should re-open the **Search** rows and the FLAGS first.
 | South Pacific Gyre, nearly 6 km of water, about 100 m into the seafloor | EurekAlert ("nearly 6,000 meters below the ocean's surface"; "100 meters below the seafloor"); https://www.sci.news/biology/cretaceous-microbes-08686.html | Fetched |
 | Cretaceous; large dinosaurs alive | EurekAlert ("since large dinosaurs prowled the planet"); 101.5 Ma falls in the Cretaceous, 145-66 Ma (https://www.britannica.com/science/Cretaceous-Period) | Fetched / general reference |
 | Fewest nutrients; mud piles up very slowly; oxygen seeps all the way down | EurekAlert ("lowest productivity and fewest nutrients"; "oxygen was present in all of the cores"); slow accumulation lets oxygen seep deep (search text quoting the release) | Fetched |
-| Microbes there get millions of times less energy than surface microbes | Morono, quoted: energy levels "are million of times lower than that of surface microbes" (search text, FLAG 9) | Search |
+| Microbes there get millions of times less energy than surface microbes | Morono, quoted in the AFP wire story: energy levels "are million of times lower than that of surface microbes": https://vietnamnews.vn/life-style/770283/scientists-revive-microbes-from-100-million-years-ago.html (not in the URI/EurekAlert release) | Fetched |
 | One-day clock: written history = last 4.5 seconds; Ötzi about 4.5 seconds ago | Writing first used about 3400-3200 BC (https://www.worldhistory.org/cuneiform/ , search text), i.e. 5,200-5,400 years. Arithmetic: 86,400 s × 5,300 / 101,500,000 = 4.5 s (5,200 gives 4.4 s; 5,400 gives 4.6 s). Ötzi 5,300 years = 4.5 s | Search + arithmetic |
 | Given food, they ate and divided | Paper abstract (DOAJ https://doaj.org/article/60168f65ac9e4caf9cbce09bff711b44): microbes "could take up carbon and nitrogen substrates and divide"; EurekAlert ("capable of growing and dividing") | Fetched / Search |
 | TIME TRAPPED: 101.5 MILLION YEARS | Paper | Fetched |
@@ -143,4 +152,4 @@ The screener should re-open the **Search** rows and the FLAGS first.
 ## Not claims (jokes, Doug beats, staging)
 - Every Doug beat (one more passage, the drift, lying in the hollow, the torch, thawed in a dish, the amoeba and mammoth costumes, drilled out of the core), "Doug is fine.", "Possibly in the Cretaceous.", the stickers, the cap, the outro.
 - "The longest trap on this list held them for a hundred million years, and all it took to get out was lunch": restates the Morono result.
-- "Two months is the longest any person on this list was held and walked out": comparison across items 1-4 (items 1, 3 and 4 did not survive).
+- "He is the only person on this list who walked out": comparison across items 1-4 (items 1, 3 and 4 did not survive).

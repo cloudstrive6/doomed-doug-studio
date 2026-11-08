@@ -256,6 +256,7 @@ Every number below is a lead. The writer verifies each one in `facts.md`. **If a
   a "trapped" deep-time image).
 - **Hero A:** a cutaway of dark layered seafloor or permafrost. Deep in it is a small sealed pocket with tiny Doug inside (cap on, looking up, alive).
   A huge magnified nematode, curled and clearly awake, takes up a third of the frame beside him, and a red arrow points at it. Text: "IT WOKE UP".
+- **Script writer note (2026-11-08, from the screener):** in Hero A the worm sits in seafloor mud, but the worms came from Siberian permafrost and the seafloor item is microbes. Set the worm in a permafrost cutaway, or keep the seafloor and show microbe dots instead, so the opening image matches the script.
 - **B:** a vertical cave cross-section, narrowing to a crack. Doug's red cap sits at the crack mouth, and a dark gap goes down. Text: "STILL DOWN
   THERE". It must not depict the real person: Doug's cap only, no human figure in the crack. Feed-size check required.
 - **Never:** a drawn body or bones (except a clean museum dig), a real victim, a skull, a virus drawn as a spiky "pandemic" ball, "ZOMBIE", blood, or
