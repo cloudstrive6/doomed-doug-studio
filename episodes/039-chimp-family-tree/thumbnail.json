@@ -161,8 +161,8 @@
    "type": "asset",
    "name": "chimpanzee_standing",
    "x": 830,
-   "y": 1060,
-   "scale": 1.95,
+   "y": 920,
+   "scale": 1.7,
    "boil": 0,
    "wobble": 0,
    "flip": true
@@ -170,18 +170,126 @@
   {
    "type": "asset",
    "name": "chimp_spear",
-   "x": 615,
-   "y": 580,
+   "x": 612,
+   "y": 530,
    "scale": 1.1,
    "boil": 0,
    "wobble": 0,
    "rotate": -100
   },
   {
+   "type": "group",
+   "x": 830,
+   "y": 920,
+   "scale": 1.7,
+   "flip": true,
+   "elements": [
+    {
+     "type": "poly",
+     "points": [
+      [
+       95,
+       -168.6
+      ],
+      [
+       120.2,
+       -175.9
+      ],
+      [
+       137,
+       -164.4
+      ],
+      [
+       135.9,
+       -143.4
+      ],
+      [
+       116,
+       -137.1
+      ],
+      [
+       97.1,
+       -145.5
+      ]
+     ],
+     "fill": "#8d7560",
+     "width": 4,
+     "color": "#000000",
+     "smooth": true
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       107.6,
+       -158.1
+      ],
+      [
+       109.6,
+       -140.2
+      ]
+     ],
+     "width": 2,
+     "color": "#000000"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       118.1,
+       -158.1
+      ],
+      [
+       120.1,
+       -140.2
+      ]
+     ],
+     "width": 2,
+     "color": "#000000"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       128.6,
+       -158.1
+      ],
+      [
+       130.6,
+       -140.2
+      ]
+     ],
+     "width": 2,
+     "color": "#000000"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       96,
+       -150
+      ],
+      [
+       104,
+       -160
+      ],
+      [
+       118,
+       -162
+      ]
+     ],
+     "width": 3,
+     "color": "#000000"
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
    "type": "doug",
-   "x": 300,
-   "y": 540,
-   "scale": 0.5,
+   "x": 290,
+   "y": 522,
+   "scale": 0.625,
    "pose": "stand",
    "expression": "shock",
    "facing": "right",
@@ -194,9 +302,9 @@
   {
    "type": "asset",
    "name": "chimp_costume",
-   "x": 300,
-   "y": 540,
-   "scale": 0.5,
+   "x": 290,
+   "y": 522,
+   "scale": 0.625,
    "boil": 0,
    "wobble": 0
   },

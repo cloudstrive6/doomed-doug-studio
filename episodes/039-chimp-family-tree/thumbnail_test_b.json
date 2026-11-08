@@ -131,16 +131,6 @@
    "wobble": 0
   },
   {
-   "type": "asset",
-   "name": "chimpanzee",
-   "x": 900,
-   "y": 690,
-   "scale": 0.55,
-   "boil": 0,
-   "wobble": 0,
-   "flip": true
-  },
-  {
    "type": "doug",
    "x": 690,
    "y": 578,
@@ -171,6 +161,16 @@
    "x": 185,
    "y": 700,
    "scale": 1.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "chimpanzee",
+   "x": 1055,
+   "y": 692,
+   "scale": 0.86,
+   "flip": true,
    "boil": 0,
    "wobble": 0
   },

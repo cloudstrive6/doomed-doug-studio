@@ -32,3 +32,25 @@ Edited shotlist.json directly (fur_legs and s091 changes kept). 54 shots re-rend
 - Variety: s041 is now a branch of 9 colobus with 8 red Xs (89%), FIRST RECORDED and Doug. s045 is a 1.8x push-in on Doug and the three colobus males.
 - Smaller fixes: in s046 Doug sits alone and sad (no lone cap). In s042 SAFEST SPOT and in s132 WRONG SIDE moved into clear sky. In s054 the tallies and 2014-2018 moved into the sky right of the tree. In s087 PATHS was dropped. In s100/s101 there are now small BONOBO labels. In s009 YOUR ARM sits at Doug's pointing hand. s174's paper crown is now 0.5. s012's "?" shifted up and left. In s018 Doug is at x 1180 (0.36) with the spear carriers moved right.
 - Kept as designed: s199 endangered card with no caption bar or HUD (a deliberate sombre card, see the shotlist decision above). s044 is unchanged because the s045 push-in breaks the branch run.
+
+## 2026-11-08 Creative director: thumbnail gate (A/B/C)
+No thumbnail screener report exists yet (visual_review defers s001 and `thumbnail_b`/`_c` to the post-render round), so this is a provisional decision: each thumbnail still has to pass the visual screener at feed size.
+- **A `thumbnail.png`: APPROVED.** The brief's hero, read at feed size: one huge male chimp with hair on end, a bitten spear that points up and touches nothing, tiny Doug in costume with the cap on top, and "HE'S FAMILY" (no title word). The sunburst frames the threat. I'd click it. It's also the s001 opening image.
+- **B `thumbnail_b.png`: APPROVED WITH ONE MUST-FIX.**
+  1. The small quadruped chimp in the middle reads as a juvenile/baby at feed size, and the brief says "never a baby chimp". Scale it to adult size (similar to the left chimp) or remove it. Keep the spear's gap from Doug's head at least as wide as it is now (no contact).
+- **C `thumbnail_c.png`: REJECTED (not a click as it stands).** Four neutral animals standing still: no threat, and no gap.
+  1. Use the style bible 2A grammar: 6 tiles (2x3) on white, with the chapter names as labels in the bible's comic font, ending on THE SPLIT.
+  2. The BONOBO tile is a black blob at `_small` size. Lighten the face, or give it a lighter tile colour so it reads.
+  3. The BUSHBABY's eyes read as sunglasses (meme/kid tone). Draw open, round, reflective eyes.
+  4. The last tile needs stakes: Doug between two chimps facing opposite ways (the split), with the red split line on the ground (not through Doug) and a red "?" or arrow on Doug.
+  5. Re-run `_small` and send it to the visual screener.
+
+## 2026-11-08 Director: keyframe round 2 fixes applied (art_review round 2 + visual_review round-2 leftovers)
+Edited shotlist.json directly. Narration, splits and shorts ranges are unchanged. Re-rendered s077, s140, s143, s183, s185, s186 and s204 only. `validate shotlist` and `shorts validate` both OK. Thumbnail files were not touched.
+- s140 (blob run s138-s143): re-staged as a day scene. A line of 4 knuckle-walking `chimpanzee` crosses a dashed boundary from green NGOGO ground onto the dark northeast ground. The lead chimp pops in at 0.3, a red curved arrow points onward, Doug (shock) stands on the dark side, and "2009" sits in clear sky at (620, 440).
+- s143: 1.8x push-in (group, as in s045) on shocked Doug with the "!". The pitch grid is dropped, and only the edge of the grown blob shows for context.
+- s185 (crowd run s182-s186): re-staged as two detailed `chimpanzee_sitting` (0.75) turned away from each other at x 560 (flipped) and 1360, with a wide gap. "2015" sits in the sky, and the "?" and Doug in costume (shrug, confused) are in the gap. This differs from s191, where the chimps face each other across the dashed line.
+- s183 and s186: Doug and the costume are raised 40 px (y 957 and 980). His feet are now at about y 1003 and 1020, which is inside the y 1040 limit. In s186 he is still between WESTERN and CENTRAL.
+- s204: the SAME GROUP stamp box moved 17 px right (x 847), so it is about 31 px clear of the trunk.
+- s077: the "!" moved from the empty space to the right of the CHIMP/HUMAN fork (1150, 720).
+- s009 arm: not done. The locked rig's `point` arm is about 120 x scale long, so a 600 px arm under the ruler would need a scale of about 5 or an off-model arm. That is the art director's call (a new pose). YOUR ARM stays beside the pointing hand.

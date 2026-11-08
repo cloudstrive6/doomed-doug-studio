@@ -113,3 +113,48 @@ x 1090-1228, y 98-266.
 - After fixes, re-render only the affected shots (`keyframes 039-chimp-family-tree --shots ...`) and send the sheets back for a
   quick recheck. The shot ids to re-render are s003, s004, s005, s029, s051, s077, s078, s079, s085, s086, s103, s111, s112,
   s113, s122, s131, s145, s157, s160, s162, s167-s172, s174, s183, s196, s197, s198, s200, s201 and s202, plus any of 7-13 that are taken.
+
+---
+
+# 039-chimp-family-tree: keyframe review, round 2 (art director, 2026-11-08)
+
+**Verdict: FAIL (keyframes).** All 6 round-1 blocking fixes and the should-fix items the director took are done and hold up.
+The skim of all 18 sheets turned up 2 more variety runs I should have caught in round 1, and 2 Doug-position slips in the
+re-rendered SPLIT shots. All 3 fixes go to the **director**. They are small, and no asset changes are needed.
+
+Checked: 1080p renders of every round-1 shot (s003-s005, s029, s051, s077-s079, s085, s086, s103, s111-s113, s122, s131, s145,
+s157, s160, s162, s167-s172, s174, s183, s196-s198, s200-s202, s204) plus s018, s041, s042, s046, s054, s087, s132, s184 and
+s186. I also checked all 18 contact sheets and s001 (the thumbnail frame). Pixel checks were made at 1080p.
+
+## Round-1 fixes: verified
+1. Split line through Doug: fixed. In s003, s004 and s200-s202 the line now runs only on the ground, below his feet. In s122 it
+   stops above his cap, and his feet are at about y 994.
+2. BONOBO tag: fixed. In s111-s113 it sits on his lap and chest and his face is clear. In s111 the arrow ends on the tag.
+3. Maps under the HUD: fixed. In s029, s051, s085, s086 and s103 the frame's right edge is at about x 880-960.
+4. Text against the HUD panel: fixed in s131, s145, s160, s162, s174 and s183. Every glyph and box top is now at y ≥ 290 where it overlaps the panel.
+5. Chalkboard run: fixed. s170 is now the 5-calendar timeline and s172 the night ridge scene, so the longest board run is s167-s169 (3 shots).
+6. Labels cut by lines: fixed. Labels are clear in s005, s157, s077-s079 and s196-s198, and the s204 stamp no longer touches the trunk.
+- Should-fix items 7-11 and 13 are done (s046, s184-s186 icons, s042, s132, s054, s087, s041, s018). For item 12, s199 is kept
+  as a deliberate bare card. Accepted.
+
+## Blocking fixes (director)
+
+1. **Territory-blob run, s138-s143: 6 shots of the same composition in a row.** All six are the cream card with the NGOGO
+   blob. They differ only by an added X, arrow, merge, pitch grid or "!". s147-s149 then return to the same blob. **Re-stage s140**
+   ("and in 2009, Ngogo moved in") as a scene shot: a patrol line of chimps (`chimpanzee_walk`/`chimpanzee_standing`) crossing
+   onto the dark ground, with the 2009 label in clear sky. Recommended in the same pass: make s143 ("Here's what makes it
+   disturbing. It paid off.") a 1.8x push-in on Doug with the "!", as in the s045 model, so that s141-s149 is not mostly blob.
+2. **Crowd-cluster run, s182-s186: 5 shots of the same composition in a row** (head icons on the navy night set; s181's title card
+   breaks the run before s182). **Re-stage s185** ("in 2015 two clusters started avoiding each other") as a scene shot. Use two
+   detailed `chimpanzee_sitting` turned away from each other with a gap between them, plus the 2015 label and the "?". Keep it
+   different from s191, which shows two chimps *facing* each other across the dashed line.
+3. **Doug below the safe area: s183, s186.** His feet render at about y 1045 (s183) and about y 1062 (s186). The limit is
+   y ≤ 1040, as in the s122 fix. Raise Doug and the chimp costume about 40 px in both shots (s186: element y 1020 → about 975;
+   s183: 997 → about 975). Keep him between WESTERN and CENTRAL in s186.
+
+## Notes (non-blocking)
+- s001 (graphic designer): the frame is on-model. Doug in the chimp costume, cap clear, shock face, against a detailed-tier
+  spear chimp. Bold, readable, no gore. The top of "HE'S" is at y 32, just above the y 40 line. That is fine for a thumbnail, but drop the
+  wordart about 10 px if it is edited again. Feed-size and `_small` checks are left to the visual-screener's post-render round.
+- s030 and s041 are both rows of colobus with red Xs, 11 shots apart. Acceptable, since the run between them varies.
+- After the fixes, re-render s140, s143 (if taken), s183, s185 and s186 only. I will recheck those 5 shots and do not need full sheets.
