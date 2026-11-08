@@ -1,23 +1,13 @@
 {
- "at": "2026-11-08T21:01:29+00:00",
+ "at": "2026-11-08T22:01:31+00:00",
  "issues": [
   {
    "key": "schedule_gap",
    "severity": "medium",
    "owner": "auto",
-   "summary": "No long video scheduled for Wed 11 Nov 6:00 AM NZDT, Thu 12 Nov 6:00 AM NZDT",
-   "detail": "{\"uploaded_total\": 38, \"queued\": 1, \"target\": 4, \"phase\": \"weekly\", \"in_progress\": [\"039-chimp-family-tree\"], \"need_episode\": true, \"later_scheduled\": []}",
+   "summary": "No long video scheduled for Thu 12 Nov 6:00 AM NZDT",
+   "detail": "{\"uploaded_total\": 39, \"queued\": 2, \"target\": 4, \"phase\": \"weekly\", \"in_progress\": [], \"need_episode\": true, \"later_scheduled\": []}",
    "route": "production run",
-   "fixed": false,
-   "extra": {}
-  },
-  {
-   "key": "episode_stuck:039-chimp-family-tree",
-   "severity": "high",
-   "owner": "agent",
-   "summary": "039-chimp-family-tree has been in production for 51 h (stage packaged)",
-   "detail": "[{\"stage\": \"scripted\", \"at\": \"2026-11-08T19:20:00+00:00\", \"note\": \"draft 1\"}, {\"stage\": \"scripted\", \"at\": \"2026-11-08T19:28:57+00:00\", \"note\": \"draft 2\"}, {\"stage\": \"scripted\", \"at\": \"2026-11-08T19:34:23+00:00\", \"note\": \"draft 3\"}, {\"stage\": \"scripted\", \"at\": \"2026-11-08T19:37:54+00:00\", \"note\": \"draft 4\"}, {\"stage\": \"script_approved\", \"at\": \"2026-11-08T19:39:22+00:00\", \"note\": \"CD approved\"}, {\"stage\": \"shotlisted\", \"at\": \"2026-11-08T20:05:39+00:00\", \"note\": \"Director: shotlist.json (208 shots, 9 chapters, FAMILY TREE HUD, field guide CHIMPANZEE page), asset_requests.md (24 new drawings incl. 5 costumes), shorts.json (3 picks: Gorilla, Neighbours, Split). validate: only thumbnail + illustrator assets missing; stand-in contact sheets checked.\"}, {\"stage\": \"art_approved\", \"at\": \"2026-11-08T20:52:37+00:00\", \"note\": \"AD+VS keyframes pass r3; thumbs A/B pass, C improved after r3\"}, {\"stage\": \"packaged\", \"at\": \"2026-11-08T20:57:51+00:00\", \"note\": \"narrated, paced\"}]",
-   "route": "showrunner / the agent owning that stage",
    "fixed": false,
    "extra": {}
   },
@@ -35,8 +25,8 @@
    "key": "end_screens_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "3 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
-   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/editor\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/editor",
+   "summary": "4 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/editor\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/editor\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/editor",
    "route": "",
    "fixed": false,
    "extra": {}
@@ -45,12 +35,14 @@
    "key": "thumb_tests_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "3 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
-   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/edit\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/edit",
+   "summary": "4 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/edit\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/edit\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/edit",
    "route": "",
    "fixed": false,
    "extra": {}
   }
  ],
- "resolved_since_last": []
+ "resolved_since_last": [
+  "episode_stuck:039-chimp-family-tree"
+ ]
 }
