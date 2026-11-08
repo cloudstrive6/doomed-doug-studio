@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T13:01:30+00:00",
+ "at": "2026-11-08T13:53:09+00:00",
  "issues": [
   {
    "key": "schedule_gap",
@@ -37,9 +37,19 @@
    "key": "episode_stuck:039-chimp-family-tree",
    "severity": "high",
    "owner": "agent",
-   "summary": "039-chimp-family-tree has been in production for 43 h (stage idea)",
+   "summary": "039-chimp-family-tree has been in production for 44 h (stage idea)",
    "detail": "[{\"stage\": \"idea\", \"at\": \"2026-11-06T17:05:46+00:00\", \"note\": \"created\"}]",
    "route": "showrunner / the agent owning that stage",
+   "fixed": false,
+   "extra": {}
+  },
+  {
+   "key": "queue_low",
+   "severity": "medium",
+   "owner": "auto",
+   "summary": "Queue 2/4 and no production running",
+   "detail": "",
+   "route": "dispatch produce.yml",
    "fixed": false,
    "extra": {}
   },
