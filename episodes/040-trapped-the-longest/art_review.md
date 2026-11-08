@@ -57,3 +57,39 @@ Note for the director: the tusks of both mammoths and the gomphothere reach the 
 inside the frame when you place them.
 
 Asset gate cleared. Ready for keyframes.
+
+---
+
+## Keyframe review (art director, 2026-11-08): FAIL, 5 composition fixes (director)
+
+Reviewed: `build/contact/sheet_01.png` to `sheet_17.png` (s002-s202 and the endslate; s001 waits for the thumbnail).
+
+Doug is on-model in almost every shot, including the hard hat (s021), the amoeba and mammoth costumes (s144, s167-s168) and the
+ghost beats. The approved assets read cleanly in context. The counter and TIME TRAPPED furniture is consistent, and the timer turns red
+from s173. The death count runs 308 to 315, which matches the tally on s196. Reveals use silhouettes with a red glow (s087-s089,
+s126, s147). The sober place-and-date cards with no Doug counter (s024-s029, s082-s083) follow the brief and are approved as a
+deliberate exception. Nothing is gory. The remains are never drawn.
+
+### Required fixes (director)
+1. **s022: Doug has no red cap on screen** (style bible 7.2). Only the two boots stick out of the hole. Put the `doug_cap` asset at
+   the passage mouth, as in s023 and the brief ("the cap is left at the passage mouth").
+2. **s200-s202: two caps on screen.** Doug stands with his cap on, and a second `doug_cap` lies beside the suitcase. Follow the brief
+   ("end on the full suitcase and the cap"): either drop Doug from these three shots, or keep him and give him gear `cap_off`. Do
+   not show both.
+3. **Item titles cross scenery** (art bible, Text). s006 runs over the cave passage, s031 over the ridge and trees, s054 over the
+   mountain ridges, s127 over the lake and borehole, and s149 over the fossil grid. Move each title into clear sky or onto a plain
+   band (y about 340-360, clear of the counter zone), or shrink the scenery under it.
+4. **Repeated composition, s007 and s009-s014.** The same full cave cross-section appears in 7 of 8 consecutive shots, and only the
+   arrows change. Reframe at least two of them. For example, push in on the downward crack with Doug head-down in it for s011
+   ("Here's the problem") and s013 ("pushing uphill, head-down"), so the squeeze reads at close range.
+5. **s197: the T. rex silhouette has a purple halo, not a red glow** (style bible 7.7). Use the red spray (`#ff2a1a`) as in s178,
+   or set `glow_r`.
+
+### Minor (non-blocking)
+- s081: the red arrow points at an empty pit floor while the narration says "found a skeleton". Since remains are never drawn, end
+  the arrow on a small red-glow spray spot, or drop the arrow.
+- s121: the small blue circle with a red X next to the worm is unreadable at size. Make it bigger or remove it.
+- s130-s145: 16 shots of the same lavender lab layout with Doug at right. s138/s139 and s142/s143 are near-twins. If time allows,
+  add one close-up or a split framing in the middle of the run.
+
+Re-render s006, s007, s009-s014, s022, s031, s054, s127, s149, s197 and s200-s202 as keyframes, then send them back for re-review.

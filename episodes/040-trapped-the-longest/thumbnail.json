@@ -1,0 +1,255 @@
+{
+ "background": "#4a382e",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "bands",
+   "bands": [
+    {
+     "y0": 0,
+     "y1": 34,
+     "color": "#f7fbff"
+    },
+    {
+     "y0": 34,
+     "y1": 190,
+     "color": "#6b5444"
+    },
+    {
+     "y0": 190,
+     "y1": 370,
+     "color": "#5a4538"
+    },
+    {
+     "y0": 370,
+     "y1": 550,
+     "color": "#4a382e"
+    },
+    {
+     "y0": 550,
+     "y1": 720,
+     "color": "#3a2c24"
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     34
+    ],
+    [
+     1280,
+     34
+    ]
+   ],
+   "color": "#000000",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     190
+    ],
+    [
+     300,
+     182
+    ],
+    [
+     700,
+     196
+    ],
+    [
+     1000,
+     184
+    ],
+    [
+     1280,
+     194
+    ]
+   ],
+   "color": "#2a1e18",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     370
+    ],
+    [
+     300,
+     362
+    ],
+    [
+     700,
+     376
+    ],
+    [
+     1000,
+     364
+    ],
+    [
+     1280,
+     374
+    ]
+   ],
+   "color": "#2a1e18",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     550
+    ],
+    [
+     300,
+     542
+    ],
+    [
+     700,
+     556
+    ],
+    [
+     1000,
+     544
+    ],
+    [
+     1280,
+     554
+    ]
+   ],
+   "color": "#2a1e18",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     36
+    ],
+    [
+     92,
+     36
+    ],
+    [
+     66,
+     330
+    ]
+   ],
+   "fill": "#efe6d0",
+   "color": "#9a9a9a",
+   "width": 3,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     1190,
+     36
+    ],
+    [
+     1242,
+     36
+    ],
+    [
+     1216,
+     330
+    ]
+   ],
+   "fill": "#efe6d0",
+   "color": "#9a9a9a",
+   "width": 3,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "permafrost_nematode_active",
+   "x": 835,
+   "y": 440,
+   "scale": 2.25,
+   "rotate": -8,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "ellipse",
+   "x": 190,
+   "y": 560,
+   "rx": 165,
+   "ry": 138,
+   "fill": "#cfe3ef",
+   "color": "#000000",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 190,
+   "y": 585,
+   "scale": 0.46,
+   "pose": "stand",
+   "expression": "shock",
+   "facing": "right",
+   "ink": "#000000",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "arrow",
+   "from": [
+    1070,
+    150
+   ],
+   "to": [
+    965,
+    300
+   ],
+   "bend": -30,
+   "color": "#e0201b",
+   "width": 14,
+   "head": 48,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "IT WOKE UP",
+   "x": 520,
+   "y": 108,
+   "size": 122,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 820,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
