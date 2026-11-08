@@ -96,7 +96,7 @@ The chimpanzee community at Ngogo is the largest ever recorded, and most of its 
 
 [Three big adult colobus males line up on a branch, facing down at the chimps. Red "!" over them.]
 
-The colobus do fight back, because when chimps attack, the adult colobus males gather to defend the group, and bigger groups have more defenders, which makes them harder to hunt.
+The colobus do fight back, and when chimps attack, the adult colobus males gather to defend the group, and bigger groups have more defenders, which makes them harder to hunt.
 
 [A census clipboard with tally marks. A line graph drops steeply. Label: "ABOUT 89% GONE".]
 
@@ -360,7 +360,7 @@ Genetic evidence suggests splits like this happen about once every five hundred 
 
 [The FAMILY TREE sign zooms in: every branch below CHIMP goes dim; the very top twig, SAME GROUP, glows red.]
 
-The worst part is who they kill. A chimp's closest relative is the one it grew up with, and that's the one it kills.
+The worst part is who they kill. A chimp's closest relative is the one it grew up with, and here, that's the one it kills.
 
 [A small plain card, no Doug: "CHIMPANZEE: ENDANGERED. HUNTING. LOST FOREST. DISEASE."]
 
@@ -368,14 +368,14 @@ Chimpanzees are listed as Endangered, mostly because of hunting, lost forest and
 
 [Doug in the chimp costume stands exactly on the chalk line, waving at both sides. Both groups look at him. Each turns to the other, as if he is theirs to deal with. Speech bubble: "wait".]
 
-Doug wants to stay friends with everyone, so he's standing exactly on the line. Both sides look at him, and both have decided he belongs to the other one.
+Doug wants to stay friends with everyone, so he's standing exactly on the line. Both sides look at him. Each has decided he belongs to the other one.
 
 [Cut to black, quietly. DOUG DEATHS: 308. The FAMILY TREE sign gets its red stamp: "SAME GROUP".]
 
-The family tree doesn't protect anyone; it just tells you who's next.
+The family tree doesn't protect anyone, it just tells you who's next.
 
 [End slate. The cap sits on the chalk line between the two groups. Neither side moves. Field guide CHIMPANZEE page, sticky note: "RELATED.". DOUG DEATHS: 308.]
 
 Doug deaths: three hundred and eight. Doug's next mistake is on your screen now. The cap stays on the line. Nobody crosses for it, because it belongs to both sides.
 
-<!-- words: 2076 (draft 3, spoken narration only, spoken band headers and item-name sentences included; headings, comments and stage directions excluded). About 10.7 min at 195 wpm. 147 sentences, average 14.1 words, longest 30. Item 1 name at word 34, first twist marker at about word 122. Item lengths 255 / 243 / 244 / 260 / 173 / 205 / 195 / 210 / 259. Doug beats all 30 words or fewer. Outro 30 words. -->
+<!-- words: 2076 (draft 4, spoken narration only, spoken band headers and item-name sentences included; headings, comments and stage directions excluded). About 10.7 min at 195 wpm. 148 sentences, average 14.03 words, longest 30, no semicolons. Item 1 name at word 34, first twist marker at about word 122. Item lengths 255 / 243 / 244 / 260 / 173 / 205 / 195 / 210 / 259. Doug beats all 30 words or fewer. Outro 30 words. -->
