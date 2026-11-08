@@ -1,18 +1,17 @@
 {
  "issues": {
   "queue_low": {
-   "first_seen": "2026-11-08T13:53:09+00:00",
+   "first_seen": "2026-11-08T19:10:07+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-08T16:01:42+00:00",
-   "summary": "Queue 2/4 and no production running",
+   "last_seen": "2026-11-08T19:10:07+00:00",
+   "summary": "Queue 1/4 and no production running",
    "owner": "auto",
-   "severity": "medium",
-   "resolved": "2026-11-08T17:01:33+00:00"
+   "severity": "medium"
   },
   "related_pending": {
    "first_seen": "2026-11-05T17:01:52+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-08T19:01:36+00:00",
+   "last_seen": "2026-11-08T19:10:07+00:00",
    "summary": "12 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -21,7 +20,7 @@
   "end_screens_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-08T19:01:36+00:00",
+   "last_seen": "2026-11-08T19:10:07+00:00",
    "summary": "3 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -30,7 +29,7 @@
   "thumb_tests_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-08T19:01:36+00:00",
+   "last_seen": "2026-11-08T19:10:07+00:00",
    "summary": "3 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
    "owner": "owner",
    "severity": "low",
@@ -39,7 +38,7 @@
   "schedule_gap": {
    "first_seen": "2026-11-07T05:01:37+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-08T19:01:36+00:00",
+   "last_seen": "2026-11-08T19:10:07+00:00",
    "summary": "No long video scheduled for Wed 11 Nov 6:00 AM NZDT, Thu 12 Nov 6:00 AM NZDT",
    "owner": "auto",
    "severity": "medium"
@@ -47,7 +46,7 @@
   "produce_failing": {
    "first_seen": "2026-11-08T18:01:36+00:00",
    "agent_attempts": 1,
-   "last_seen": "2026-11-08T19:01:36+00:00",
+   "last_seen": "2026-11-08T19:10:07+00:00",
    "summary": "Last 10 production runs failed",
    "owner": "agent",
    "severity": "high",
@@ -106,8 +105,8 @@
   "episode_stuck:039-chimp-family-tree": {
    "first_seen": "2026-11-08T06:01:30+00:00",
    "agent_attempts": 2,
-   "last_seen": "2026-11-08T19:01:36+00:00",
-   "summary": "039-chimp-family-tree has been in production for 49 h (stage idea)",
+   "last_seen": "2026-11-08T19:10:07+00:00",
+   "summary": "039-chimp-family-tree has been in production for 50 h (stage idea)",
    "owner": "agent",
    "severity": "high",
    "agent_at": "2026-11-08T13:01:42+00:00"
