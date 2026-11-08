@@ -80,3 +80,11 @@ also works as the opener.
 - `giant_ground_sloth`, `gomphothere`, `columbian_mammoth`, `woolly_mammoth`, `short_faced_bear`: done, `assets/previews/040-mega-full.png`, silhouettes with red rim `040-mega-sil.png`, dark bg `040-mega-dark.png`.
   Note: wider than requested because of the tusks: gomphothere and columbian_mammoth ~720, woolly_mammoth ~600 local units. Scale down about 0.75-0.8 to fit the requested footprint.
 - `neanderthal`, `mammoth_costume` (suitcase loop at local (150,138)), `amoeba_costume`, `amoeba_costume_flat`: done, `assets/previews/040-costume-test.png` (over stand/walk1/walk2, neanderthal on dark), `040-costume-assets.png`.
+
+## Fixes after art review (illustrator, 2026-11-08): done, preview `assets/previews/040-fixes.png`
+1. `mammoth_pelvis`: redrawn as a wide, flat hip girdle (broad iliac wings); obturator openings are tall slanted mid-tan teardrops set low, acetabula are side-facing cups on the outer edges, and the sacrum and dark holes are gone. Shown at 1.2x, 0.3x and 0.3x magnified.
+2. `short_faced_bear`: the ears are now two rounded bumps on the head's top silhouette, and the head/body outlines are clipped so nothing crosses the shoulder.
+3. `columbian_mammoth`: the body, head and trunk outlines are clipped to the outer silhouette, so there are no double lines across the face or neck. Also checked flipped on a dark background.
+4. `woolly_mammoth`: same outline clipping; the ear is now a soft dark patch with no black ring.
+5. `sticker_south_pacific_gyre`: still 130 wide. "SOUTH PACIFIC" is at size 15 across the full width, "GYRE" is at size 21 and the swirl is a small icon beside GYRE. 0.3x (and 5x magnified) next to `sticker_kolyma` 0.3x.
+- Optional: `gomphothere` now has one clean, slightly upturned tusk pair (no crack lines, no seam).
