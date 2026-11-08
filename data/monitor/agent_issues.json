@@ -1,1 +1,22 @@
-[]
+[
+ {
+  "key": "produce_failing",
+  "severity": "high",
+  "owner": "agent",
+  "summary": "Last 7 production runs failed",
+  "detail": "2026-11-07T20:46:05Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42412623805\n2026-11-07T17:01:04Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42394175143\n2026-11-07T11:25:26Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42368117798\n2026-11-07T05:01:03Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42340896789\n2026-11-06T21:59:24Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42301149029\n2026-11-06T20:02:21Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42284871061\n2026-11-06T17:01:12Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42257734728",
+  "route": "diagnose the run logs, route to the agent that owns the failing stage",
+  "fixed": false,
+  "extra": {
+   "run_ids": [
+    42412623805,
+    42394175143,
+    42368117798,
+    42340896789,
+    42301149029,
+    42284871061,
+    42257734728
+   ]
+  }
+ }
+]
