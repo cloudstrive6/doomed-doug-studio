@@ -46,11 +46,12 @@
   },
   "produce_failing": {
    "first_seen": "2026-11-08T06:01:30+00:00",
-   "agent_attempts": 0,
+   "agent_attempts": 1,
    "last_seen": "2026-11-08T06:01:30+00:00",
    "summary": "Last 8 production runs failed",
    "owner": "agent",
-   "severity": "high"
+   "severity": "high",
+   "agent_at": "2026-11-08T06:01:36+00:00"
   },
   "crosspost:027-every-saltwater-croc-reason:short03:instagram": {
    "first_seen": "2026-11-05T17:01:52+00:00",
@@ -104,11 +105,12 @@
   },
   "episode_stuck:039-chimp-family-tree": {
    "first_seen": "2026-11-08T06:01:30+00:00",
-   "agent_attempts": 0,
+   "agent_attempts": 1,
    "last_seen": "2026-11-08T06:01:30+00:00",
    "summary": "039-chimp-family-tree has been in production for 36 h (stage idea)",
    "owner": "agent",
-   "severity": "high"
+   "severity": "high",
+   "agent_at": "2026-11-08T06:01:36+00:00"
   }
  }
 }
