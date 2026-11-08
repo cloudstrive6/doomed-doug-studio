@@ -1,12 +1,12 @@
 {
- "at": "2026-11-08T22:01:31+00:00",
+ "at": "2026-11-08T23:01:40+00:00",
  "issues": [
   {
    "key": "schedule_gap",
    "severity": "medium",
    "owner": "auto",
    "summary": "No long video scheduled for Thu 12 Nov 6:00 AM NZDT",
-   "detail": "{\"uploaded_total\": 39, \"queued\": 2, \"target\": 4, \"phase\": \"weekly\", \"in_progress\": [], \"need_episode\": true, \"later_scheduled\": []}",
+   "detail": "{\"uploaded_total\": 39, \"queued\": 2, \"target\": 4, \"phase\": \"weekly\", \"in_progress\": [\"040-trapped-the-longest\"], \"need_episode\": true, \"later_scheduled\": []}",
    "route": "production run",
    "fixed": false,
    "extra": {}
@@ -42,7 +42,5 @@
    "extra": {}
   }
  ],
- "resolved_since_last": [
-  "episode_stuck:039-chimp-family-tree"
- ]
+ "resolved_since_last": []
 }
