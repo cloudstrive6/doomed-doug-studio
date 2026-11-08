@@ -45,12 +45,12 @@
   },
   "produce_failing": {
    "first_seen": "2026-11-07T18:01:44+00:00",
-   "agent_attempts": 1,
+   "agent_attempts": 2,
    "last_seen": "2026-11-08T01:01:44+00:00",
    "summary": "Last 7 production runs failed",
    "owner": "agent",
    "severity": "high",
-   "agent_at": "2026-11-07T18:01:51+00:00"
+   "agent_at": "2026-11-08T01:01:51+00:00"
   },
   "crosspost:027-every-saltwater-croc-reason:short03:instagram": {
    "first_seen": "2026-11-05T17:01:52+00:00",
