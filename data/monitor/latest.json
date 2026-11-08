@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T20:01:36+00:00",
+ "at": "2026-11-08T21:01:29+00:00",
  "issues": [
   {
    "key": "schedule_gap",
@@ -15,8 +15,8 @@
    "key": "episode_stuck:039-chimp-family-tree",
    "severity": "high",
    "owner": "agent",
-   "summary": "039-chimp-family-tree has been in production for 50 h (stage idea)",
-   "detail": "[{\"stage\": \"idea\", \"at\": \"2026-11-06T17:05:46+00:00\", \"note\": \"created\"}]",
+   "summary": "039-chimp-family-tree has been in production for 51 h (stage packaged)",
+   "detail": "[{\"stage\": \"scripted\", \"at\": \"2026-11-08T19:20:00+00:00\", \"note\": \"draft 1\"}, {\"stage\": \"scripted\", \"at\": \"2026-11-08T19:28:57+00:00\", \"note\": \"draft 2\"}, {\"stage\": \"scripted\", \"at\": \"2026-11-08T19:34:23+00:00\", \"note\": \"draft 3\"}, {\"stage\": \"scripted\", \"at\": \"2026-11-08T19:37:54+00:00\", \"note\": \"draft 4\"}, {\"stage\": \"script_approved\", \"at\": \"2026-11-08T19:39:22+00:00\", \"note\": \"CD approved\"}, {\"stage\": \"shotlisted\", \"at\": \"2026-11-08T20:05:39+00:00\", \"note\": \"Director: shotlist.json (208 shots, 9 chapters, FAMILY TREE HUD, field guide CHIMPANZEE page), asset_requests.md (24 new drawings incl. 5 costumes), shorts.json (3 picks: Gorilla, Neighbours, Split). validate: only thumbnail + illustrator assets missing; stand-in contact sheets checked.\"}, {\"stage\": \"art_approved\", \"at\": \"2026-11-08T20:52:37+00:00\", \"note\": \"AD+VS keyframes pass r3; thumbs A/B pass, C improved after r3\"}, {\"stage\": \"packaged\", \"at\": \"2026-11-08T20:57:51+00:00\", \"note\": \"narrated, paced\"}]",
    "route": "showrunner / the agent owning that stage",
    "fixed": false,
    "extra": {}
@@ -52,8 +52,5 @@
    "extra": {}
   }
  ],
- "resolved_since_last": [
-  "queue_low",
-  "produce_failing"
- ]
+ "resolved_since_last": []
 }
