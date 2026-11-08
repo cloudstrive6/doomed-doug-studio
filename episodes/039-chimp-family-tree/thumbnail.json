@@ -1,0 +1,219 @@
+{
+ "background": "#c2410c",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "bands",
+   "bands": [
+    {
+     "y0": 0,
+     "y1": 720,
+     "color": "#c2410c"
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 800,
+   "y": 300,
+   "r": 470,
+   "fill": "#ea580c",
+   "color": "#ea580c",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 800,
+   "y": 290,
+   "r": 330,
+   "fill": "#f59e0b",
+   "color": "#f59e0b",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     230,
+     0
+    ],
+    [
+     200,
+     140
+    ],
+    [
+     250,
+     260
+    ],
+    [
+     190,
+     420
+    ],
+    [
+     240,
+     560
+    ],
+    [
+     200,
+     720
+    ],
+    [
+     0,
+     720
+    ]
+   ],
+   "fill": "#14261a",
+   "color": "#14261a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     1280,
+     0
+    ],
+    [
+     1140,
+     0
+    ],
+    [
+     1170,
+     180
+    ],
+    [
+     1110,
+     330
+    ],
+    [
+     1180,
+     480
+    ],
+    [
+     1130,
+     720
+    ],
+    [
+     1280,
+     720
+    ]
+   ],
+   "fill": "#14261a",
+   "color": "#14261a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     640
+    ],
+    [
+     300,
+     610
+    ],
+    [
+     640,
+     630
+    ],
+    [
+     1000,
+     600
+    ],
+    [
+     1280,
+     625
+    ],
+    [
+     1280,
+     720
+    ],
+    [
+     0,
+     720
+    ]
+   ],
+   "fill": "#0e1a12",
+   "color": "#0e1a12",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "chimpanzee_standing",
+   "x": 830,
+   "y": 1060,
+   "scale": 1.95,
+   "boil": 0,
+   "wobble": 0,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "chimp_spear",
+   "x": 615,
+   "y": 580,
+   "scale": 1.1,
+   "boil": 0,
+   "wobble": 0,
+   "rotate": -100
+  },
+  {
+   "type": "doug",
+   "x": 300,
+   "y": 540,
+   "scale": 0.5,
+   "pose": "stand",
+   "expression": "shock",
+   "facing": "right",
+   "gear": [
+    "fur_legs"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "chimp_costume",
+   "x": 300,
+   "y": 540,
+   "scale": 0.5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "HE'S FAMILY",
+   "x": 330,
+   "y": 125,
+   "size": 118,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 700,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

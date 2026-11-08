@@ -1,0 +1,202 @@
+{
+ "background": "#1fa37a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "bands",
+   "bands": [
+    {
+     "y0": 0,
+     "y1": 720,
+     "color": "#1fa37a"
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 700,
+   "y": 420,
+   "r": 330,
+   "fill": "#5fd3a6",
+   "color": "#5fd3a6",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     150,
+     0
+    ],
+    [
+     120,
+     200
+    ],
+    [
+     160,
+     420
+    ],
+    [
+     110,
+     720
+    ],
+    [
+     0,
+     720
+    ]
+   ],
+   "fill": "#0e3b2a",
+   "color": "#0e3b2a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     1280,
+     0
+    ],
+    [
+     1170,
+     0
+    ],
+    [
+     1200,
+     260
+    ],
+    [
+     1150,
+     480
+    ],
+    [
+     1190,
+     720
+    ],
+    [
+     1280,
+     720
+    ]
+   ],
+   "fill": "#0e3b2a",
+   "color": "#0e3b2a",
+   "width": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     670
+    ],
+    [
+     400,
+     655
+    ],
+    [
+     900,
+     668
+    ],
+    [
+     1280,
+     650
+    ],
+    [
+     1280,
+     720
+    ],
+    [
+     0,
+     720
+    ]
+   ],
+   "fill": "#0e3b2a",
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "chimpanzee",
+   "x": 900,
+   "y": 690,
+   "scale": 0.55,
+   "boil": 0,
+   "wobble": 0,
+   "flip": true
+  },
+  {
+   "type": "doug",
+   "x": 690,
+   "y": 578,
+   "scale": 0.72,
+   "pose": "arms_up",
+   "expression": "shock",
+   "facing": "left",
+   "gear": [
+    "fur_legs",
+    "sweat"
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "chimp_costume",
+   "x": 690,
+   "y": 578,
+   "scale": 0.72,
+   "boil": 0,
+   "wobble": 0,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "chimpanzee_spear_jab",
+   "x": 185,
+   "y": 700,
+   "scale": 1.0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "chimpanzee_standing",
+   "x": 1080,
+   "y": 720,
+   "scale": 1.05,
+   "boil": 0,
+   "wobble": 0,
+   "flip": true
+  },
+  {
+   "type": "text",
+   "text": "NEXT",
+   "x": 640,
+   "y": 105,
+   "size": 170,
+   "color": "#ffe24a",
+   "outline": "#000000",
+   "outline_width": 13,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

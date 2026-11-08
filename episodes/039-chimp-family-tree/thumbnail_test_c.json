@@ -1,0 +1,290 @@
+{
+ "background": "#ffffff",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "bands",
+   "bands": [
+    {
+     "y0": 0,
+     "y1": 720,
+     "color": "#ffffff"
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 14,
+   "y": 14,
+   "w": 619,
+   "h": 339,
+   "fill": "#ffd23f",
+   "radius": 22,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 4,
+     "y": 298,
+     "w": 639,
+     "h": 70,
+     "fill": "#3f7d2a",
+     "color": "#000000",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       4,
+       314
+      ],
+      [
+       643,
+       296
+      ]
+     ],
+     "color": "#5a3a22",
+     "width": 18,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "bushbaby",
+     "x": 323.5,
+     "y": 306,
+     "scale": 0.82,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 4,
+     "y": 4,
+     "w": 639,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "BUSHBABY",
+     "x": 323.5,
+     "y": 54,
+     "size": 62,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 647,
+   "y": 14,
+   "w": 619,
+   "h": 339,
+   "fill": "#2ec4f1",
+   "radius": 22,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 637,
+     "y": 298,
+     "w": 639,
+     "h": 70,
+     "fill": "#2f6f3a",
+     "color": "#000000",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "silverback_gorilla",
+     "x": 956.5,
+     "y": 333,
+     "scale": 0.42,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 637,
+     "y": 4,
+     "w": 639,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "GORILLA",
+     "x": 956.5,
+     "y": 54,
+     "size": 62,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 14,
+   "y": 367,
+   "w": 619,
+   "h": 339,
+   "fill": "#ff4fa3",
+   "radius": 22,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 4,
+     "y": 651,
+     "w": 639,
+     "h": 70,
+     "fill": "#2f6f3a",
+     "color": "#000000",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "bonobo",
+     "x": 323.5,
+     "y": 686,
+     "scale": 0.6,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 4,
+     "y": 357,
+     "w": 639,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "BONOBO",
+     "x": 323.5,
+     "y": 407,
+     "size": 62,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "tile",
+   "x": 647,
+   "y": 367,
+   "w": 619,
+   "h": 339,
+   "fill": "#ff5a3c",
+   "radius": 22,
+   "frame_width": 7,
+   "elements": [
+    {
+     "type": "rect",
+     "x": 637,
+     "y": 651,
+     "w": 639,
+     "h": 70,
+     "fill": "#2f6f3a",
+     "color": "#000000",
+     "width": 5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "chimpanzee_standing",
+     "x": 1077,
+     "y": 688,
+     "scale": 0.47,
+     "boil": 0,
+     "wobble": 0,
+     "flip": true
+    },
+    {
+     "type": "doug",
+     "x": 867,
+     "y": 613,
+     "scale": 0.5,
+     "pose": "stand",
+     "expression": "shock",
+     "facing": "right",
+     "gear": [
+      "fur_legs"
+     ],
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "asset",
+     "name": "chimp_costume",
+     "x": 867,
+     "y": 613,
+     "scale": 0.5,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "rect",
+     "x": 637,
+     "y": 357,
+     "w": 639,
+     "h": 88,
+     "fill": "#ffffff",
+     "width": 7,
+     "boil": 0,
+     "wobble": 0
+    },
+    {
+     "type": "text",
+     "text": "THE SPLIT",
+     "x": 956.5,
+     "y": 407,
+     "size": 62,
+     "color": "#000000",
+     "font": "ComicNeue-Bold",
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
