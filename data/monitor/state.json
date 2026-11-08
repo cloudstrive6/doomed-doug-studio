@@ -104,12 +104,12 @@
   },
   "episode_stuck:039-chimp-family-tree": {
    "first_seen": "2026-11-08T06:01:30+00:00",
-   "agent_attempts": 2,
+   "agent_attempts": 3,
    "last_seen": "2026-11-08T19:10:07+00:00",
    "summary": "039-chimp-family-tree has been in production for 50 h (stage idea)",
    "owner": "agent",
    "severity": "high",
-   "agent_at": "2026-11-08T13:01:42+00:00"
+   "agent_at": "2026-11-08T19:10:15+00:00"
   }
  }
 }
