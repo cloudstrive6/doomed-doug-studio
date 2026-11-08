@@ -1,12 +1,1 @@
-[
- {
-  "key": "episode_stuck:039-chimp-family-tree",
-  "severity": "high",
-  "owner": "agent",
-  "summary": "039-chimp-family-tree has been in production for 50 h (stage idea)",
-  "detail": "[{\"stage\": \"idea\", \"at\": \"2026-11-06T17:05:46+00:00\", \"note\": \"created\"}]",
-  "route": "showrunner / the agent owning that stage",
-  "fixed": false,
-  "extra": {}
- }
-]
+[]

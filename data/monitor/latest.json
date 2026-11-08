@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T19:10:07+00:00",
+ "at": "2026-11-08T20:01:36+00:00",
  "issues": [
   {
    "key": "schedule_gap",
@@ -12,45 +12,12 @@
    "extra": {}
   },
   {
-   "key": "produce_failing",
-   "severity": "high",
-   "owner": "agent",
-   "summary": "Last 10 production runs failed",
-   "detail": "2026-11-08T17:01:04Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42502798789\n2026-11-08T11:38:01Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42476603678\n2026-11-08T05:01:03Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42449077879\n2026-11-07T20:46:05Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42412623805\n2026-11-07T17:01:04Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42394175143\n2026-11-07T11:25:26Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42368117798\n2026-11-07T05:01:03Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42340896789\n2026-11-06T21:59:24Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42301149029\n2026-11-06T20:02:21Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42284871061\n2026-11-06T17:01:12Z failure https://github.com/cloudstrive6/doomed-doug-studio/actions/runs/42257734728",
-   "route": "diagnose the run logs, route to the agent that owns the failing stage",
-   "fixed": false,
-   "extra": {
-    "run_ids": [
-     42502798789,
-     42476603678,
-     42449077879,
-     42412623805,
-     42394175143,
-     42368117798,
-     42340896789,
-     42301149029,
-     42284871061,
-     42257734728
-    ]
-   }
-  },
-  {
    "key": "episode_stuck:039-chimp-family-tree",
    "severity": "high",
    "owner": "agent",
    "summary": "039-chimp-family-tree has been in production for 50 h (stage idea)",
    "detail": "[{\"stage\": \"idea\", \"at\": \"2026-11-06T17:05:46+00:00\", \"note\": \"created\"}]",
    "route": "showrunner / the agent owning that stage",
-   "fixed": false,
-   "extra": {}
-  },
-  {
-   "key": "queue_low",
-   "severity": "medium",
-   "owner": "auto",
-   "summary": "Queue 1/4 and no production running",
-   "detail": "",
-   "route": "dispatch produce.yml",
    "fixed": false,
    "extra": {}
   },
@@ -85,5 +52,8 @@
    "extra": {}
   }
  ],
- "resolved_since_last": []
+ "resolved_since_last": [
+  "queue_low",
+  "produce_failing"
+ ]
 }
