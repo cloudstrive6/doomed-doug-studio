@@ -54,9 +54,13 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 
 ---
 
+## Illustrator status
+All 24 drawn into `assets/library/` and previewed (light, dusk, night, red-rim silhouette, thumbnail scale; costumes on Doug in every listed pose). Spot-checked in keyframes s002, s011, s022, s042, s061, s070, s091, s111, s152, s175. Generators: `build/illustrator/` (scratch).
+
 ## Creatures
 
 ### `bushbaby`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-creatures.png`.
 - **What:** lesser bushbaby (Senegal galago, *Galago senegalensis*), a small nocturnal prosimian; adult.
 - **Look:** sitting upright on a branch, three-quarter view facing right. Soft grey-brown fur `#9a8a74` with a paler cream-grey belly
   `#d8cdb8`, darker eye rings. **Very large, thin, rounded ears** (pinkish-grey insides `#c9aea0`, translucent look via a lighter centre),
@@ -67,6 +71,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 - **Shots:** s012 (silhouette), s019-s021, s047-s048, s074-s075, s098-s099, s102, s196-s198, s204.
 
 ### `red_colobus`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-creatures.png`.
 - **What:** an adult male Ugandan red colobus (*Piliocolobus tephrosceles*), a true monkey.
 - **Look:** seated on a branch, facing right. **Red-brown crown and cap of fur** `#b0482a` on the head, dark charcoal-grey back and shoulders
   `#4a4440`, pale grey-cream belly and limbs `#c8beb0`, dark bare face with a short muzzle, small eyes (no shine), no thumb visible. A
@@ -76,6 +81,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 - **Shots:** s027-s032, s035-s036, s043-s045, s047-s048, s074-s075, s098-s099, s102, s196-s198, s204 (also small 0.26-0.32 in rows/groups).
 
 ### `bonobo`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-creatures.png`.
 - **What:** an adult bonobo (*Pan paniscus*).
 - **Look:** seated on the ground, facing right. Slimmer than `chimpanzee_sitting`, longer legs. Black coat `#1f1b18` with dark-brown hair
   strokes, **black face** (not grey-tan), small ears, **hair parted down the middle on top of the head** (long side whiskers), reddish-pink
@@ -85,6 +91,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 - **Shots:** s100-s102, s104, s112-s114, s196-s198, s204.
 
 ### `chimp_head_icon`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-creatures.png`.
 - **What:** small flat icon of an adult chimp head and shoulders, front view (crowds, counts, the classroom, the football team, the 200-strong community).
 - **Look:** black-brown fur `#2e2620`, grey-tan face `#b8a48a`, heavy brow, big round ears out to the sides, small dark eyes (no shine),
   closed flat mouth. Thick black outline with a mid-brown rim highlight so it reads on cream, green, dusk and near-black. Same family as `gorilla_icon`.
@@ -92,6 +99,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 - **Shots:** s033, s056, s058, s063, s069-s071 (silhouette on the ridge), s077-s079, s090, s124-s125, s180, s182-s183, s194-s195.
 
 ### `chimpanzee_standing`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-creatures.png`.
 - **What:** the same adult male as `chimpanzee.json`, **standing upright on two legs** in a display posture.
 - **Look:** upright, slightly hunched, long arms hanging to the knees, **hair standing on end** along the shoulders and arms (bristling
   outline), heavy brow, flat stare. No raised fist, no open mouth, no weapon.
@@ -101,6 +109,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
   (mostly silhouettes with a grey or red rim).
 
 ### `chimpanzee_old_male` (Foudouko)
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-creatures.png`. Head moved forward so its top is at about (+100,-368); checked with the crown in s175.
 - **What:** Foudouko, Fongoli's former alpha male, older, sitting alone at the woodland edge.
 - **Look:** built on `chimpanzee_sitting` (same pose and footprint), but older: **grey-white hairs on the chin and lower back**, thinning
   hair and a balding brow ridge, thinner arms, a slightly drooping lower lip (closed). Flat, tired stare. Not frail-pitiful, not cute.
@@ -110,6 +119,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 - **Shots:** s155 (silhouette), s158 (silhouette), s160, s162, s173-s176, s179.
 
 ### `chimpanzee_spear_bite`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-creatures.png`.
 - **What:** the cold-open image: an adult chimp shaping a spear with its teeth (Fongoli).
 - **Look:** seated, facing right, holding a straight stripped stick (about 75 cm, pale peeled wood `#c9a87a`) in both hands, the **tip held
   between the front teeth**, eyes looking down along the stick. Same coat and face as `chimpanzee.json`.
@@ -117,6 +127,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 - **Shots:** s002.
 
 ### `chimpanzee_spear_jab`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-creatures.png`.
 - **What:** an adult chimp jabbing a spear into a tree hollow.
 - **Look:** standing upright, facing right, both hands gripping the stick and thrusting it forward and slightly up; **spear tip at about
   local (+350, -300)**. Focused, flat expression. The tip ends in clear air (the shotlist places the hollow beyond it).
@@ -124,6 +135,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 - **Shots:** s011.
 
 ### `chimpanzee_spear_carry`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-creatures.png`.
 - **What:** a smaller female/adolescent chimp walking to a hunt with her spear.
 - **Look:** knuckle-walking on three limbs, facing right, one hand holding the stick so it rests along her shoulder and points forward.
   Slimmer and smaller-headed than the male (we place her at 0.5-0.9). Adult female, not a baby.
@@ -133,6 +145,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 ## Doug costumes (5)
 
 ### `chimp_costume`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-costumes-props.png (on Doug: assets/previews/039-chimp-family-tree-costumes-on-doug.png)`. Note: legs stay Doug's own (shaggy fur shorts to y +76, no leg sleeves) so one drawing fits stand/walk1/walk2/point/wave; the vest is open on the front side so his front arm is free in every pose (bbox x -130..120, y -320..76).
 - **What:** Doug's chimp costume for items 5-9, played straight.
 - **Look:** dark brown-black shaggy bodysuit `#3a2c22` with lighter brown fur ticks `#6a5440` and a **mid-brown outline highlight** so it
   reads on night blue and near-black; pale tan chest patch; **hood as a C round the back of the head and under the chin, with two big
@@ -143,11 +156,13 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 - **Shots:** s115-s119, s121-s122, s128, s130-s134, s137, s150-s152, s156-s162, s173-s176, s179-s184, s186, s191, s195, s200-s202.
 
 ### `chimp_costume_sit`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-costumes-props.png (on Doug: assets/previews/039-chimp-family-tree-costumes-on-doug.png)`. Front of the torso trimmed so his forearm shows; plain tan chest at the tag spot.
 - **What:** the same chimp costume fitted to the `sit` pose (hip drop 70), for the bonobo group.
 - **Size:** bbox about x -110..170, y -260..115. The shotlist pins a small white `BONOBO` name-tag label on the chest at about (+15, -40) x scale; keep that area plain.
 - **Shots:** s111-s113.
 
 ### `gorilla_suit_dark`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-costumes-props.png (on Doug: assets/previews/039-chimp-family-tree-costumes-on-doug.png)`.
 - **What:** Doug's **dark** gorilla suit for The Gorilla. The art director may make it a recolour of `white_gorilla_suit` (same geometry), but it must read **dark**, never white.
 - **Look:** charcoal `#3a3a3a` shaggy felt with grey fur ticks `#6a6a6a`, a lighter grey saddle patch on the back (silverback joke),
   hood C and small crest with brow ridge on the cap dome as in the white suit. Grey `#8a8a8a` outline highlight so it reads on the olive forest.
@@ -156,6 +171,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 - **Shots:** s068-s071, s089-s091.
 
 ### `bushbaby_costume_sit`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-costumes-props.png (on Doug: assets/previews/039-chimp-family-tree-costumes-on-doug.png)`.
 - **What:** Doug's bushbaby costume, asleep curled in the tree hollow.
 - **Look:** grey-brown fur onesie `#9a8a74` with a cream belly, fitted to `sit`; hood C round the head with **two huge round thin ears**
   standing up behind the cap (pink-grey insides); a long bushy tail curling round in front of his feet. **No eyes on the hood, nothing cute.**
@@ -163,6 +179,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 - **Shots:** s022-s023 (Doug at scale 0.34 inside the hollow, expression `sleepy`).
 
 ### `red_colobus_costume_sit`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-costumes-props.png (on Doug: assets/previews/039-chimp-family-tree-costumes-on-doug.png)`.
 - **What:** Doug's red colobus costume, sitting on a branch behind three big colobus males.
 - **Look:** dark charcoal-grey suit with pale grey-cream limbs and belly, a **red-brown fur ruff round the cap** (the colobus crown, around
   the cap, never over it), hood C, and a **very long thin tail hanging straight down** to about y +400.
@@ -173,6 +190,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 ## Places and props
 
 ### `hollow_tree`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-costumes-props.png`.
 - **What:** a thick savanna woodland tree trunk with a day-roost hollow (Fongoli).
 - **Look:** grey-brown bark `#7a6650` with vertical bark strokes, **broken-off top at y -640 (no crown, so it stays clear of the HUD)**,
   two short stub branches. One **dark oval hollow** centred at (0,-360), rx 90, ry 110 (spans y -470..-250), interior `#1a120c` with a
@@ -181,6 +199,7 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 - **Shots:** s005-s006, s010-s012, s022-s024 (s024 as a dim silhouette), s159.
 
 ### `leafy_stick` / `stripped_stick` / `chimp_spear`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-costumes-props.png`. (all three stick stages)
 - **What:** the three stages of a Fongoli spear, about 75 cm each, horizontal, pointing right.
 - **Look:** `leafy_stick`: a freshly snapped branch with side twigs and green leaves. `stripped_stick`: the same stick with twigs and
   leaves removed, pale peeled wood `#c9a87a`, small knot scars. `chimp_spear`: the stripped stick with the **right end chewed to a rough point**
@@ -189,36 +208,42 @@ calendars grids, football pitches, the playground, the river cross-section, soun
 - **Shots:** leafy/stripped s007-s008; `chimp_spear` s008-s009, s023, s157, s159 (rotated -75 leaning on a tree).
 
 ### `fruit_tree`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-places.png`.
 - **What:** a big rainforest fruit tree at Loango where chimps and gorillas both feed.
 - **Look:** thick buttressed grey-brown trunk, a broad dark-green crown with clumps of **round yellow-orange fruit** (generic, not figs, not bananas).
 - **Size/anchor:** bottom-centre; x -360..360, y -720..0 (crown y -720..-380, trunk clear below it so apes can sit at its foot).
 - **Shots:** s053-s055, s065, s067-s071, s072 (dim silhouette), s147-s148 (tiny, 0.3, on the territory map).
 
 ### `maize_stalk`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-places.png`.
 - **What:** one mature maize plant at the edge of a Guinean farm.
 - **Look:** tall green stalk with long drooping leaves, a tassel on top, one husked cob half-showing on the side.
 - **Size/anchor:** bottom-centre; x -70..70, y -420..0. Used in rows of five at 0.8-0.85.
 - **Shots:** s084, s087-s088, s093-s094.
 
 ### `maize_sack`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-places.png`.
 - **What:** Doug's sack of maize (crop context of the Bossou attacks).
 - **Look:** tan burlap sack (like `burlap_sack`) tied at the neck, with **three yellow maize cobs poking out of the top**.
 - **Size/anchor:** centre; x -90..90, y -100..100. Carried behind Doug's shoulder at 0.45 and lying on the track at 0.8-0.9 (the cap sits on top).
 - **Shots:** s093-s095, s097.
 
 ### `leaf_nest`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-places.png`.
 - **What:** Doug's "tidy leaf nest" in the taken territory (a chimp-style sleeping nest of bent leafy branches, here on the ground).
 - **Look:** an oval bowl of interwoven green leafy branches `#3f7a32`, darker inside, a few twig ends, neat. Top surface at y -100.
 - **Size/anchor:** bottom-centre; x -210..210, y -140..0.
 - **Shots:** s150-s154 (s153 has `doug_cap` sitting in it; s154 as a dim silhouette).
 
 ### `chimp_hand_reach`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-places.png`.
 - **What:** a large adult chimp arm and hand entering **horizontally from the right edge** and gripping the top of Doug's sign.
 - **Look:** black-brown hairy forearm, grey-tan bare fingers and palm, fingers curled over (grip point at the anchor). The arm runs off to the right.
 - **Size/anchor:** anchor (0,0) = grip point; x -60..520 (arm to the right, off-frame), y -110..70. Must stay clear of the HUD (it enters at y ~670).
 - **Shots:** s152.
 
 ### `armwrestle_photo`
+- **DONE (illustrator, 2026-11-08):** preview `assets/previews/039-chimp-family-tree-places.png`.
 - **What:** the 011 callback: a small framed photo of Doug losing an arm-wrestle to a chimp.
 - **Look:** wooden frame with glass glare (like `family_photo_frame`), inside: crude Doug (red cap, gritted teeth) and an adult chimp at a
   small table, hands locked, Doug's arm clearly going down, the chimp's face flat and bored. Crude-tier Doug, detailed-tier chimp.
