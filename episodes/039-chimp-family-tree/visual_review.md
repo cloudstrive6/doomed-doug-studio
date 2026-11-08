@@ -152,3 +152,69 @@ crouching chimp about 40 px left.
 
 Policy, all three: no gore, no blood, no realistic violence, no kids-show framing, and no title words repeated on the image.
 None promise anything the video does not deliver.
+
+## Round 3: thumbnail and keyframe recheck (2026-11-08)
+
+Checked: `build/thumbnail.png`, `thumbnail_b.png` and `thumbnail_c.png` at 1280x720, their `_small` versions at 168x94
+(also viewed at 3x nearest-neighbour), the 1080p keyframes s001, s077, s140, s143, s183, s185, s186 and s204, and
+`build/contact/sheet_01.png`.
+
+### Part (a): thumbnails
+
+**Thumbnail A (`thumbnail.png`, "HE'S FAMILY"): VERDICT: PASS.** Round-2 fix 1 is done. The chimp's near hand now closes
+around the shaft at about x 590-670, y 625-690 (1280 scale), and the shaft runs through the fist, so the spear is held and no
+longer floats. Doug is larger (about 35 px tall at 168x94) and still on the left third, with the cap and shock face readable.
+At feed size the text is the first read, the chimp against the sun is the one focal point, and the threat is obvious. No title
+words appear on the image, there is no gore, and nothing is misleading. s001 matches it pixel for pixel.
+
+**Thumbnail B (`thumbnail_b.png`, "NEXT"): VERDICT: PASS.** The creative director's must-fix is done. The middle chimp is now an
+adult-sized crouching male (head about the same size as the left chimp's), set behind the big male, so nothing reads as a baby.
+The spear tip stops well short of Doug's head (about 70 px gap at 1280) and does not touch it. Doug is still the centred, largest
+Doug of the three. The crouching chimp's body is mostly hidden behind the big male's legs. It reads as a second chimp and is
+acceptable.
+
+**Thumbnail C (`thumbnail_c.png`, 6-tile grid): VERDICT: FAIL.** The grid now follows Archetype A: 6 tiles in a 2x3 grid on
+white, black rounded frames, comic labels under each tile, chapter names as labels, ending on THE SPLIT. The bushbaby has round
+eyes. Three defects remain, all visible at 168x94:
+1. **(illustrator / graphic designer) THE BONOBO and THE OLD KING are the same drawing.** Both bottom-left tiles use the same
+   crouched, knees-up dark ape facing right at the same scale. The only difference is the crown, so at feed size they read as a
+   copy-paste. The bonobo is also still a black silhouette with no readable face (the round-2 and creative-director item
+   is not done; only the tile colour changed). Fix: in THE BONOBO, use a standing or side-on bonobo with a lit face (pink lips,
+   centre-parted hair) at about 1.2x, so the head sits in the upper half of the tile. Keep the sitting chimp only for THE OLD KING.
+2. **(graphic designer) THE SPLIT still has no threat.** Both chimps stand neutral with their arms down, which is the same pose
+   as THE HUMAN tile. Give one of them the bitten spear raised toward Doug, or turn both so they face Doug with their mouths open.
+   The tile has to carry the "killing" half of the title, because it is the only Doug-in-danger tile.
+3. **(graphic designer) The red ground mark in THE SPLIT reads as a stray "S" or a squiggle** (at about x 1040-1080, y 600-640),
+   not as a split line. Replace it with a straight or jagged red crack that runs the full width of the tile's ground strip
+   between the two chimps' feet (clear of Doug's feet, as the brief says), or remove it.
+
+Ranking for the A/B test: B is the strongest at feed size, and A is close. If C cannot be fixed this round, drop it and run A
+against B. Neither A nor B blocks.
+
+### Part (b): keyframe recheck (s001, s077, s140, s143, s183, s185, s186, s204). VERDICT: PASS
+
+- **s001:** identical to thumbnail A, with the spear held. On-model. Pass.
+- **s077:** the "!" now sits beside the CHIMP/HUMAN fork (about x 1150, y 720), so it attaches to the point it is about. The
+  labels are clear of the branches. Pass. (Round-2 note closed.)
+- **s140:** this re-stage breaks the s138-s143 blob run. Four knuckle-walking chimps cross the dashed line from the green NGOGO
+  ground onto the dark ground, with a red arrow onward, "2009" in clear sky and shocked Doug on the far side. It matches "Ngogo
+  moved in" in under a second. Pass.
+- **s143:** a 1.8x push-in on shocked Doug with the "!", with the edge of the grown territory top left. It reads as a reaction beat
+  for "It paid off" and is different from s141 and s142. The NGOGO label is cropped out, which is fine for a punch-in. Pass.
+- **s183:** Doug's feet are at about y 1003, inside the safe area. "SINCE 2018", the arrow and the two clusters are clear of
+  the HUD. Pass.
+- **s185:** this re-stage breaks the s182-s186 crowd run. Two detailed sitting chimps face away from each other with a wide gap,
+  "2015" is in the sky, and the "?" and confused Doug in costume are in the gap. It is clearly different from s191 (where the
+  chimps face each other). Pass.
+- **s186:** Doug's feet are at about y 1020, and he stays between WESTERN and CENTRAL with no label overlap. Pass.
+- **s204:** the "SAME GROUP" stamp's left edge is at about x 845, about 30 px clear of the trunk. All four perches, the empty cap
+  on the branch and the HUD read cleanly. Pass.
+
+Variety: s182-s186 now runs icons, icons, icons, scene, icons, so no run is 4 or longer. s138-s143 is broken by s140 and s143.
+
+Still open, not blocking (carried from round 2):
+- **s009 (art director):** Doug's arm still does not line up under the 75 cm ruler. The director deferred this because it needs
+  a long-arm pose. Either add the pose, or shorten the ruler graphic to Doug's arm length and keep the "75 cm" label.
+- **s204 (illustrator, optional):** at 1080p the small `bushbaby` has heavy-lidded dark eyes that read as sunglasses (the same
+  issue the creative director flagged on thumbnail C). If the round-eyed version made for thumbnail C is a library variant,
+  swap it in here as well.

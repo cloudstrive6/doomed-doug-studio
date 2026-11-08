@@ -158,3 +158,28 @@ s186. I also checked all 18 contact sheets and s001 (the thumbnail frame). Pixel
   wordart about 10 px if it is edited again. Feed-size and `_small` checks are left to the visual-screener's post-render round.
 - s030 and s041 are both rows of colobus with red Xs, 11 shots apart. Acceptable, since the run between them varies.
 - After the fixes, re-render s140, s143 (if taken), s183, s185 and s186 only. I will recheck those 5 shots and do not need full sheets.
+
+---
+
+# 039-chimp-family-tree: keyframe review, round 3 (art director, 2026-11-08)
+
+**Verdict: PASS (keyframes and thumbnails).** All 3 round-2 blocking fixes hold. No new issues.
+
+Checked at 1080p: s140, s143, s183, s185, s186, s077, s204, s009, s001, plus `build/thumbnail.png`, `thumbnail_b.png`
+and `thumbnail_c.png`.
+
+## Round-2 fixes: verified
+1. Territory-blob run: fixed. s140 is now a scene shot. Four `chimpanzee_walk` cross from the green NGOGO ground onto the dark
+   ground, with 2009 in clear sky. Doug auto-inks white on the dark ground and is on-model. s143 is a push-in on Doug with the
+   "!" and only a corner of the blob in frame, so s138-s149 no longer reads as one composition.
+2. Crowd-cluster run: fixed. s185 shows two detailed `chimpanzee_sitting` turned away from each other with a clear gap, plus the 2015 label
+   and the "?". It is distinct from s191 (facing). The run is now s182-s184 plus s186, broken by s185.
+3. Doug in the safe area: fixed. His feet are at about y 1000 in s183 and about y 1020 in s186, both within y ≤ 1040. In s186 he stays between WESTERN and CENTRAL.
+
+## Other checks
+- s077 and s204 still hold after the re-render. Labels are clear of the branches, and the s204 stamp is clear of the trunk.
+- s009: accepted as-is. The short straight arm pointing at "YOUR ARM" reads as a cartoon point. No new pose needed.
+- s001 / thumbnail A: on-model, bold, no gore. Thumbnail B (NEXT, spear chimp plus two chimps around costumed Doug) and C (6-panel
+  chapter grid) are on-palette and use the detailed tier vs crude Doug. All read at full size. The feed-size `_small` check stays
+  with the visual-screener.
+- Non-blocking: s185 has a second small "?" over Doug's cap next to the big red "?". Harmless, so leave it unless it is touched again.
