@@ -218,3 +218,41 @@ Still open, not blocking (carried from round 2):
 - **s204 (illustrator, optional):** at 1080p the small `bushbaby` has heavy-lidded dark eyes that read as sunglasses (the same
   issue the creative director flagged on thumbnail C). If the round-eyed version made for thumbnail C is a library variant,
   swap it in here as well.
+
+## Round 4: post-render check (2026-11-08)
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+### Main video (final.mp4, 11:24; qc.json: no problems)
+- I checked all 23 samples (one every 30 s, starting at 0:15). None are black, blank, frozen or glitched. The chapter pill,
+  CHIMP tree tracker, DOUG DEATHS counter (301 to 307) and SPLIT label are all readable and update in step with the chapters.
+- Each sampled picture matches its narration. Examples: 0:15 Fongoli branch stripped of twigs; 2:15 SMALLEST arrow on the
+  gorilla line-up; 4:45 genome books with "BIGGER CHUNKS"; 6:45 the silent patrol at the EDGE; 9:45 THE SPLIT title card;
+  10:45 the Endangered card. Doug is on-model in every sample (red cap, white head, and the chimp costume when the script calls for it).
+- No gore. The deaths are off-screen or shown as cartoons (a red cap under a black tree, X marks).
+- The end screen (sample at 11:15, about 9 s before the end) has empty slots for the end-screen elements, as normal.
+
+### Thumbnails
+- **A (thumbnail.png):** pass. The spear-holding chimp with hair on end is the focal point. Shocked Doug in costume is on the
+  left. "HE'S FAMILY" reads at 168 px and works with the title without repeating it. Not misleading.
+- **B (thumbnail_b.png):** pass. "NEXT" plus a spear aimed at Doug reads well at feed size.
+- **C (thumbnail_c.png):** pass. All three round-3 items are fixed. The bonobo now has a lit face with pink lips. In THE SPLIT
+  the left chimp aims the spear at Doug and the right chimp's mouth is open. The red ground mark is now a full-width jagged crack.
+  The bushbaby has round eyes. At 168 px this is the busiest of the three, but the tiles still read.
+
+### Shorts (all 1080x1920: short01 50.4 s, short02 47.1 s, short03 37.1 s)
+I checked each preview and 10 frames per Short, including the last 3.5 s.
+- The titles are readable, with outlines on light backgrounds and plain red on dark ones. Subtitles are legible and clear of the art.
+  The end card "FULL VIDEO: TAP BELOW" has a red arrow pointing straight down. There is no "???" card.
+- Each Short pays off its title before the outro. short01: both attacks are shown, along with the smallest-gorilla beat and Doug's death.
+  short02: the 15 vs 37 baby bar chart. short03: the split, the killings card (7 adult males, 17 of the smallest) and the
+  "friendly terms" sting. The outros point to the full video without holding back the Short's own payoff.
+
+Not blocking (fix if the scene is touched again):
+1. **s187 (director):** in short03 the auto-fit crop cuts the playground rectangle's left border by about 20 px, because the rect
+   spans x 140-1780 and the Shorts safe band is 260-1660. Change the rect to `x: 280, w: 1360` (line stays at 960) so it sits
+   fully inside the Shorts crop. The main video is unaffected.
+2. **s091 (illustrator, optional):** at 640 px the discarded `gorilla_suit_dark_empty` (scale 0.5, rotated -80) reads as a
+   grey lump. Scale it up to 0.7, or rotate it less so the suit's face shows.
+3. Carry-over from round 3, still open: s009 ruler vs Doug's arm (art director), and the s204 bushbaby eyes (illustrator).
