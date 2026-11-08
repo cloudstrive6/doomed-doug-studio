@@ -39,7 +39,12 @@
       "stage": "art_approved",
       "at": "2026-11-08T20:52:37+00:00",
       "note": "AD+VS keyframes pass r3; thumbs A/B pass, C improved after r3"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-08T20:57:51+00:00",
+      "note": "narrated, paced"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

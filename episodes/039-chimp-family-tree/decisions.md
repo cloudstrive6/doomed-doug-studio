@@ -54,3 +54,5 @@ Edited shotlist.json directly. Narration, splits and shorts ranges are unchanged
 - s204: the SAME GROUP stamp box moved 17 px right (x 847), so it is about 31 px clear of the trunk.
 - s077: the "!" moved from the empty space to the right of the CHIMP/HUMAN fork (1150, 720).
 - s009 arm: not done. The locked rig's `point` arm is about 120 x scale long, so a 600 px arm under the ruler would need a scale of about 5 or an off-model arm. That is the art director's call (a new pose). YOUR ARM stays beside the pointing hand.
+
+- 2026-11-08 (showrunner): script 4 rounds (draft 4 PASS, CD approved), art 3 rounds (AD+VS keyframes PASS; thumbs A/B pass, C test improved but not re-screened at feed size), voice speaking_rate 1.125->1.175 (196 wpm). Runtime ~11.4 min. Risks: Ngogo adult death count varies by outlet (script uses 7); 7th animals-playlist video in a row; new assets bonobo_standing, fur_legs gear.
