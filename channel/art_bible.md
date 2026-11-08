@@ -379,6 +379,10 @@ halo, and a halo on a living Doug muddles the death grammar (012 cave shots). Ha
 above the foot; it follows the leg in every pose (walk loop, run, sit, `on_back`) and stays white with grey line on night scenes.
 Survival marker for a bite he walked away from: never red, never a wound.
 `cap_taken` (026): see "One cap per frame".
+`fur_legs` (039): shaggy fur leg sleeves (`#3a2c22` felt, `#8a6a50` inner rim, `#6a5440` ticks, literal black outline that does
+not flip to white on night scenes) drawn along both legs in every upright pose (stand/walk/run/point/wave/sit/crouch; skipped on
+`on_back` and ghost). Pair it with `chimp_costume` so one costume drawing gets leg sleeves in every pose; any future full-body
+fur suit can reuse it instead of drawing per-pose legs.
 Pose `elbows_out` (026): upper arms straight out sideways, forearms hanging straight down (a squared "goalpost down"). For
 mimicry gags (copying the bigfin squid's elbowed arms). Works with `cable_harness` (the strop crosses the back arm, which reads
 as behind him). Not with `sit` props or hats.

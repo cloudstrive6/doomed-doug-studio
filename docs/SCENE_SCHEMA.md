@@ -51,7 +51,7 @@ Common keys: `color` (outline, default `#000000`), `fill`, `width` (line px, def
 
 | type | keys |
 |---|---|
-| `doug` | `x`,`y` (hips), `scale` (1 ≈ 450 px tall), `pose` (or list to loop), `expression` (or list), `gear` [`scuba`,`mask`,`tank`,`helmet`,`sweat`,`sunburn`], `facing` `right`/`left`, `rotate` (deg; tilts only, never for lying down, see "Doug lying down" below), `ink` (auto-white on dark backgrounds) |
+| `doug` | `x`,`y` (hips), `scale` (1 ≈ 450 px tall), `pose` (or list to loop), `expression` (or list), `gear` [`scuba`,`mask`,`tank`,`helmet`,`sweat`,`sunburn`,`bandage`,`cap_off`,`cap_taken`,`fur_legs`], `facing` `right`/`left`, `rotate` (deg; tilts only, never for lying down, see "Doug lying down" below), `ink` (auto-white on dark backgrounds) |
 | `asset` | `name` (file in `assets/library/`), `x`,`y`, `scale`, `flip`, `rotate` |
 | `line` / `curve` | `points` [[x,y],...]; curve is smoothed |
 | `arrow` | `from`, `to`, `head` |

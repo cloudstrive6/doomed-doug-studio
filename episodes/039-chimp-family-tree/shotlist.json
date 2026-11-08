@@ -29035,7 +29035,7 @@
      },
      {
       "type": "asset",
-      "name": "gorilla_suit_dark",
+      "name": "gorilla_suit_dark_empty",
       "x": 520,
       "y": 830,
       "scale": 0.5,
@@ -37366,7 +37366,10 @@
       "pose": "stand",
       "expression": "gritted",
       "facing": "right",
-      "appear": 0.7
+      "appear": 0.7,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -37662,7 +37665,10 @@
       "pose": "stand",
       "expression": "gritted",
       "facing": "right",
-      "appear": 0.3
+      "appear": 0.3,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "label",
@@ -37974,7 +37980,10 @@
       "scale": 0.42,
       "pose": "stand",
       "expression": "hopeful",
-      "facing": "left"
+      "facing": "left",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -38569,7 +38578,10 @@
       "pose": "stand",
       "expression": "gritted",
       "facing": "left",
-      "appear": 0.6
+      "appear": 0.6,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -38912,7 +38924,10 @@
       "pose": "stand",
       "expression": "confused",
       "facing": "left",
-      "appear": 0.6
+      "appear": 0.6,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -39615,7 +39630,10 @@
       "pose": "stand",
       "expression": "flat",
       "facing": "right",
-      "appear": 0.8
+      "appear": 0.8,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -40197,7 +40215,10 @@
       "pose": "stand",
       "expression": "confused",
       "facing": "right",
-      "appear": 0.75
+      "appear": 0.75,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -42437,7 +42458,10 @@
       "pose": "stand",
       "expression": "confused",
       "facing": "right",
-      "appear": 0.85
+      "appear": 0.85,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -43105,7 +43129,10 @@
       "pose": "stand",
       "expression": "flat",
       "facing": "right",
-      "appear": 0.55
+      "appear": 0.55,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -43505,7 +43532,10 @@
        "walk2"
       ],
       "expression": "hopeful",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -43932,7 +43962,10 @@
        "walk2"
       ],
       "expression": "hopeful",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -44276,7 +44309,10 @@
        "walk2"
       ],
       "expression": "hopeful",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -44692,7 +44728,10 @@
       "scale": 0.45,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -45679,7 +45718,10 @@
       "scale": 0.45,
       "pose": "stand",
       "expression": "hopeful",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -50511,7 +50553,10 @@
       "scale": 0.48,
       "pose": "stand",
       "expression": "hopeful",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -50832,7 +50877,10 @@
       "scale": 0.48,
       "pose": "point",
       "expression": "smirk",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -51160,7 +51208,10 @@
       "scale": 0.48,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -52442,7 +52493,10 @@
       "pose": "stand",
       "expression": "gritted",
       "facing": "right",
-      "appear": 0.3
+      "appear": 0.3,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -52770,7 +52824,10 @@
       "scale": 0.42,
       "pose": "stand",
       "expression": "flat",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -53123,7 +53180,10 @@
       "pose": "stand",
       "expression": "sad",
       "facing": "left",
-      "appear": 0.8
+      "appear": 0.8,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -53444,7 +53504,10 @@
       "pose": "point",
       "expression": "flat",
       "facing": "left",
-      "appear": 0.6
+      "appear": 0.6,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -53760,7 +53823,10 @@
       "pose": "stand",
       "expression": "hopeful",
       "facing": "left",
-      "appear": 0.6
+      "appear": 0.6,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -54094,7 +54160,10 @@
       "pose": "stand",
       "expression": "gritted",
       "facing": "left",
-      "appear": 0.8
+      "appear": 0.8,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -54445,7 +54514,10 @@
       "pose": "stand",
       "expression": "sad",
       "facing": "right",
-      "appear": 0.75
+      "appear": 0.75,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -57774,7 +57846,10 @@
       "pose": "stand",
       "expression": "gritted",
       "facing": "left",
-      "appear": 0.75
+      "appear": 0.75,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -58078,7 +58153,10 @@
       "scale": 0.48,
       "pose": "stand",
       "expression": "hopeful",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -58399,7 +58477,10 @@
       "scale": 0.48,
       "pose": "point",
       "expression": "smirk",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -58710,7 +58791,10 @@
       "scale": 0.48,
       "pose": "point",
       "expression": "shock",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -59685,7 +59769,10 @@
       "pose": "stand",
       "expression": "flat",
       "facing": "left",
-      "appear": 0.6
+      "appear": 0.6,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -60407,7 +60494,10 @@
       "pose": "stand",
       "expression": "shock",
       "facing": "left",
-      "appear": 0.7
+      "appear": 0.7,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -60727,7 +60817,10 @@
       "scale": 0.42,
       "pose": "stand",
       "expression": "gritted",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -61648,7 +61741,10 @@
       "pose": "stand",
       "expression": "shock",
       "facing": "left",
-      "appear": 0.6
+      "appear": 0.6,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -62170,7 +62266,10 @@
       "pose": "stand",
       "expression": "gritted",
       "facing": "right",
-      "appear": 0.7
+      "appear": 0.7,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -64462,7 +64561,10 @@
       "pose": "stand",
       "expression": "shock",
       "facing": "left",
-      "appear": 0.6
+      "appear": 0.6,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -69059,7 +69161,10 @@
       "pose": "stand",
       "expression": "confused",
       "facing": "right",
-      "appear": 0.8
+      "appear": 0.8,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -74469,7 +74574,10 @@
       "pose": "stand",
       "expression": "sad",
       "facing": "left",
-      "appear": 0.8
+      "appear": 0.8,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -75955,7 +76063,10 @@
       "pose": "stand",
       "expression": "gritted",
       "facing": "left",
-      "appear": 0.6
+      "appear": 0.6,
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -77836,7 +77947,10 @@
       "scale": 0.45,
       "pose": "wave",
       "expression": "hopeful",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -78211,7 +78325,10 @@
       "scale": 0.45,
       "pose": "wave",
       "expression": "hopeful",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",
@@ -78632,7 +78749,10 @@
       "scale": 0.45,
       "pose": "stand",
       "expression": "shock",
-      "facing": "right"
+      "facing": "right",
+      "gear": [
+       "fur_legs"
+      ]
      },
      {
       "type": "asset",

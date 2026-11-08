@@ -192,6 +192,12 @@ def doug_elements(el: dict, variant: int = 0):
             knee, foot = (k_[0], k_[1] + drop), (f_[0], f_[1] + drop)
         body += _bandage(knee, foot)
 
+    if "fur_legs" in gear and not ghost and not flat:  # 039 chimp_costume: shaggy fur leg sleeves on both legs
+        for key in ("leg_b", "leg_f"):
+            a1, a2 = pose[key]
+            pts = [(p[0], p[1] + drop) for p in _limb(HIP, a1 - lean, a1 + a2 - lean, THIGH, SHIN)]
+            body += _fur_leg(pts)
+
     if "tank" in gear or "scuba" in gear:
         if flat:  # tank under his back
             body.insert(0, {"type": "rect", "x": -120, "y": 4, "w": 90, "h": 26, "fill": "#f2c21b", "width": 4})
@@ -240,6 +246,29 @@ def _thumb(x, y, ink, skin):
     """Crude MS Paint thumbs-up at the hand point (x, y): a small round fist with a stubby thumb pointing up."""
     return [{"type": "circle", "x": x, "y": y - 4, "r": 15, "fill": skin, "width": 4, "color": ink, "boil": 0.3},
             {"type": "line", "points": [(x - 3, y - 16), (x - 3, y - 42)], "width": 10, "color": ink, "boil": 0.3}]
+
+
+FUR = "#3a2c22"        # `fur_legs` gear (039 chimp_costume): same felt as the costume vest
+FUR_RIM = "#8a6a50"    # mid-brown inner highlight so the sleeves read on night blue / near-black
+FUR_TICK = "#6a5440"
+
+
+def _fur_leg(pts):
+    """`fur_legs` gear: a thick dark fur sleeve following hip -> knee -> foot in any upright pose. Black outline is a
+    literal (not Doug's ink) so it matches the costume asset on dark backgrounds instead of flipping to white."""
+    hip, knee, foot = pts
+    out = [{"type": "line", "points": pts, "width": 34, "color": "#000000", "boil": 0.3},
+           {"type": "line", "points": pts, "width": 26, "color": FUR_RIM, "boil": 0.3},
+           {"type": "line", "points": pts, "width": 20, "color": FUR, "boil": 0.3}]
+    for j in (knee, foot):  # round the joints so the thick lines don't notch
+        out.append({"type": "circle", "x": j[0], "y": j[1], "r": 13, "fill": FUR, "width": 4, "color": "#000000",
+                    "boil": 0.3})
+    out.append({"type": "circle", "x": knee[0], "y": knee[1], "r": 10, "fill": FUR, "width": 0, "outline": False})
+    for (a, b) in ((hip, knee), (knee, foot)):  # a few fur ticks
+        for t in (0.35, 0.7):
+            cx, cy = a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t
+            out.append({"type": "line", "points": [(cx - 3, cy - 5), (cx + 2, cy + 5)], "width": 3, "color": FUR_TICK})
+    return out
 
 
 BANDAGE = "#ffffff"
