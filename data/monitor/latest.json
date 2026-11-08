@@ -1,5 +1,5 @@
 {
- "at": "2026-11-08T15:01:30+00:00",
+ "at": "2026-11-08T16:01:42+00:00",
  "issues": [
   {
    "key": "schedule_gap",
@@ -37,7 +37,7 @@
    "key": "episode_stuck:039-chimp-family-tree",
    "severity": "high",
    "owner": "agent",
-   "summary": "039-chimp-family-tree has been in production for 45 h (stage idea)",
+   "summary": "039-chimp-family-tree has been in production for 46 h (stage idea)",
    "detail": "[{\"stage\": \"idea\", \"at\": \"2026-11-06T17:05:46+00:00\", \"note\": \"created\"}]",
    "route": "showrunner / the agent owning that stage",
    "fixed": false,
