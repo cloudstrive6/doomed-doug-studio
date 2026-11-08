@@ -14,7 +14,12 @@
       "stage": "script_approved",
       "at": "2026-11-08T21:52:01+00:00",
       "note": "approved"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-11-08T22:10:40+00:00",
+      "note": "202 shots, 30 asset requests (7 stickers), 3 Shorts picked; validate clean except missing assets + thumbnail"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }
