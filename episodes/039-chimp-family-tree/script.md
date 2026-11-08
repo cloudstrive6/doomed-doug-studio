@@ -14,7 +14,8 @@ Deviations from the brief, all fact-driven (details in facts.md, "Brief checks")
 8. Item 8: no date for the exile is spoken; only "about five years" (ScienceDaily/Iowa State) and 2013 for the killing. The reason line uses the male-biased sex ratio and the younger males' fear of a comeback, both from the Iowa State release; scarce food is not in the press sources, so it is cut.
 9. Item 9: the Ngogo split paper is Sandel et al., Science, 9 April 2026 (verified: UT Austin/EurekAlert, University of Arizona, Scientific American). The infant victims are "seventeen of the smallest", one plain clause. "War" is used only for Gombe's Four-Year War. Lead author Sandel cautions against "civil war", so the script never says it.
 2026-11-08 completion pass: facts.md written; ten fact fixes and sentence merges applied (listed in facts.md, "Corrections made in this pass").
-Draft 2 (2026-11-08): screener fixes 1-6 and both optional tidy-ups applied (listed in facts.md, "Draft 2 corrections"). Payoff promise now carries the lethal stake; item 1 name at word 34. -->
+Draft 2 (2026-11-08): screener fixes 1-6 and both optional tidy-ups applied (listed in facts.md, "Draft 2 corrections"). Payoff promise now carries the lethal stake; item 1 name at word 34.
+Draft 3 (2026-11-08): screener draft 2 fixes 1-3 applied. Thirteen non-punch connective merges (average sentence 13.0 to 14.1, longest 30); item 3 and item 9 kickers are now single sentences of 22 and 12 words; line "Size didn't decide the fight." fixes the item 3 contradiction. Outro 30 words. Patrol-rate citation in facts.md now leads with ScienceDaily 2005. -->
 <!-- Pronunciation for the editor: Fongoli = "fon-GOH-lee"; Ngogo = "n-GOH-go"; Kibale = "kih-BAH-lay"; Loango = "loh-AHNG-go"; Foudouko = "foo-DOO-koh"; Kahama = "kah-HAH-mah"; Bossou = "boh-SOO"; colobus = "KOL-uh-bus"; Gombe = "GOM-bay". -->
 
 [Open on thumbnail A, 1.5 to 4 seconds: an adult male chimpanzee, hair on end, holding a stick bitten to a point, filling two thirds of a dark forest frame and looking straight out; tiny Doug in a chimp costume, red cap on top, looking up. DOUG DEATHS: 301. Beside the counter, a crude MS Paint FAMILY TREE sign, CHIMP at the top branch tip, a red dot at the bottom of the trunk.]
@@ -75,7 +76,7 @@ Doug has died, which is unusual, because more than nine in ten spear hunts miss.
 
 [Silhouettes of large male chimps moving through tall trees. A small red-and-black monkey icon above them.]
 
-That's the small chimps with a stick. The big males hunt in teams, and they go after monkeys.
+That's the small chimps with a stick, while the big males hunt in teams and go after monkeys.
 
 ## The Monkey Hunt
 
@@ -95,7 +96,7 @@ The chimpanzee community at Ngogo is the largest ever recorded, and most of its 
 
 [Three big adult colobus males line up on a branch, facing down at the chimps. Red "!" over them.]
 
-The colobus do fight back. When chimps attack, the adult colobus males gather to defend the group, and bigger groups have more defenders, which makes them harder to hunt.
+The colobus do fight back, because when chimps attack, the adult colobus males gather to defend the group, and bigger groups have more defenders, which makes them harder to hunt.
 
 [A census clipboard with tally marks. A line graph drops steeply. Label: "ABOUT 89% GONE".]
 
@@ -139,7 +140,7 @@ The gorillas fought back, and in the first meeting the silverback charged and kn
 
 [Red "?" over the gorilla group. No small gorilla is drawn.]
 
-The disturbing part is which gorilla they went for. Size didn't decide it. Numbers did. Both times, the gorilla that died was one of the smallest in its group.
+The disturbing part is which gorilla they went for. Size didn't decide the fight. Numbers did. Both times, the gorilla that died was one of the smallest in its group.
 
 [A fruit tree with three silhouettes reaching for it: chimp, gorilla, forest elephant. Label: "FRUIT SCARCE".]
 
@@ -147,7 +148,7 @@ The researchers suggest it may be competition, because both attacks came in mont
 
 [Doug in a dark gorilla suit, cap on top, sits proudly between two silverbacks under the fruit tree. On the ridge behind, chimp silhouettes appear in three bursts: ten, twenty, twenty-seven.]
 
-Doug, in a dark gorilla suit, sits proudly between two silverbacks. Chimps appear on the ridge. Ten. Twenty. Twenty-seven. The silverbacks stand up. Doug is the smallest gorilla here.
+Doug, in a dark gorilla suit, sits proudly between two silverbacks. Chimps appear on the ridge: ten, twenty, twenty-seven, and the silverbacks stand up. Doug is the smallest gorilla here.
 
 [Cut to black. DOUG DEATHS: 303. The cap lies under the fruit tree. Field guide: another "NO".]
 
@@ -155,7 +156,7 @@ Doug has died, in a gorilla suit.
 
 [Family tree: the gorilla branch, and above it, a newer branch with a tiny red cap on it.]
 
-The gorilla line split from the chimp line about eight to ten million years ago, and the next relative split later. It wears a red cap.
+Gorillas split from chimps about eight to ten million years ago, and the next relative to branch off wears a red cap.
 
 ## The Human
 
@@ -187,7 +188,7 @@ Here's the uncomfortable part. The gorilla Doug was dressed as a minute ago is a
 
 [A small framed photo from 011: Doug and a chimp at an arm-wrestling table.]
 
-Doug has already lost an arm-wrestle to one of these. Today he walks a farm track at the forest edge, carrying a sack of maize and waving at the trees.
+Doug has already lost an arm-wrestle to one of these, and today he walks a farm track at the forest edge with a sack of maize, waving at the trees.
 
 [Doug, no costume, walks the farm track with the maize sack on his shoulder. He waves at the trees. Speech bubble: "cousin?". Cut to black. DOUG DEATHS: 304. The cap sits on the maize sack.]
 
@@ -319,7 +320,7 @@ When he came back in twenty thirteen, nobody saw what happened next.
 
 [A chalkboard: "MOST CHIMP KILLINGS: BETWEEN GROUPS". Below it, small: "INSIDE A GROUP: EXTREMELY RARE".]
 
-That's what makes this one unusual. Most chimp violence is between communities, and killing a member of your own is extremely rare. Nobody had ever recorded an exile this long, either.
+That's what makes this one unusual. Most chimp violence is between communities, and killing a member of your own is extremely rare, and nobody had ever recorded an exile this long.
 
 [A chalkboard: the "MALES" column longer than the "FEMALES" column. Younger males glance at Foudouko.]
 
@@ -343,7 +344,7 @@ The largest chimpanzee community ever known has split in two, and since twenty e
 
 [The circle stretches into two lobes, then pinches apart. Labels: "2015" at the stretch, "2018" at the break, "WESTERN" and "CENTRAL" on each side.]
 
-Ngogo had about two hundred members. In twenty fifteen, two clusters started avoiding each other, and by twenty eighteen they were separate groups with separate land.
+Ngogo had about two hundred members, and in twenty fifteen two clusters started avoiding each other, and by twenty eighteen they were separate groups with separate land.
 
 [A crude school playground with a chalk line down the middle; two hundred tiny heads sort themselves to either side.]
 
@@ -355,11 +356,11 @@ Between twenty eighteen and twenty twenty-four, the Western group killed seven a
 
 [A stamp: "ABOUT ONCE EVERY 500 YEARS". Then a map of Tanzania, "GOMBE", and one circle splitting into two, the smaller labelled "KAHAMA".]
 
-Genetic evidence suggests splits like this happen about once every five hundred years. The only other case on record was at Gombe, in Tanzania, in the nineteen seventies. The breakaway males were killed or vanished one by one, in what primatologists call the Four-Year War.
+Genetic evidence suggests splits like this happen about once every five hundred years, and the only other case on record was at Gombe, in Tanzania, in the nineteen seventies. The breakaway males were killed or vanished one by one, in what primatologists call the Four-Year War.
 
 [The FAMILY TREE sign zooms in: every branch below CHIMP goes dim; the very top twig, SAME GROUP, glows red.]
 
-The worst part is who they kill. A chimp's closest relative is the one it grew up with, and that's the one it ends up killing.
+The worst part is who they kill. A chimp's closest relative is the one it grew up with, and that's the one it kills.
 
 [A small plain card, no Doug: "CHIMPANZEE: ENDANGERED. HUNTING. LOST FOREST. DISEASE."]
 
@@ -371,10 +372,10 @@ Doug wants to stay friends with everyone, so he's standing exactly on the line. 
 
 [Cut to black, quietly. DOUG DEATHS: 308. The FAMILY TREE sign gets its red stamp: "SAME GROUP".]
 
-The family tree doesn't protect anyone. It just tells you who's next.
+The family tree doesn't protect anyone; it just tells you who's next.
 
 [End slate. The cap sits on the chalk line between the two groups. Neither side moves. Field guide CHIMPANZEE page, sticky note: "RELATED.". DOUG DEATHS: 308.]
 
-Doug deaths: three hundred and eight. Doug's next mistake is on your screen now. The cap stays on the line. Nobody will cross for it. It belongs to both sides.
+Doug deaths: three hundred and eight. Doug's next mistake is on your screen now. The cap stays on the line. Nobody crosses for it, because it belongs to both sides.
 
-<!-- words: 2077 (draft 2, spoken narration only, spoken band headers and item-name sentences included; headings, comments and stage directions excluded). About 10.7 min at 195 wpm. 160 sentences, average 13.0 words, longest 30. Item 1 name at word 34, first twist marker at about word 122. Item lengths 255 / 242 / 246 / 260 / 173 / 205 / 195 / 210 / 259. Doug beats all 30 words or fewer. Outro 30 words. -->
+<!-- words: 2076 (draft 3, spoken narration only, spoken band headers and item-name sentences included; headings, comments and stage directions excluded). About 10.7 min at 195 wpm. 147 sentences, average 14.1 words, longest 30. Item 1 name at word 34, first twist marker at about word 122. Item lengths 255 / 243 / 244 / 260 / 173 / 205 / 195 / 210 / 259. Doug beats all 30 words or fewer. Outro 30 words. -->
