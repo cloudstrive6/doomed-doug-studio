@@ -1,0 +1,393 @@
+{
+ "name": "ground_sloth_rearing",
+ "description": "Ice Age giant ground sloth rearing up on its hind legs, propped on its thick tail, facing RIGHT: shaggy brown #7a5636 pear-shaped body, small blunt head on top, one arm raised high and one hanging forward, each hand with long pale hooked claws, no trunk. Drawn for the red-rim silhouette reveal (040 s087-s089): the upright, clawed outline reads as a ground sloth, not a tortoise or elephant. Anchor bottom-centre (feet on y=0), ~470x470 (x -235..232, y -468..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "ice age",
+  "megafauna",
+  "sloth",
+  "silhouette"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -120
+    ],
+    [
+     -80,
+     -90
+    ],
+    [
+     -150,
+     -12
+    ],
+    [
+     -232,
+     0
+    ],
+    [
+     -236,
+     -12
+    ],
+    [
+     -170,
+     -42
+    ]
+   ],
+   "fill": "#5e412a",
+   "color": "#000000",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -120,
+     -90
+    ],
+    [
+     -150,
+     -200
+    ],
+    [
+     -130,
+     -310
+    ],
+    [
+     -80,
+     -380
+    ],
+    [
+     -10,
+     -410
+    ],
+    [
+     45,
+     -390
+    ],
+    [
+     70,
+     -320
+    ],
+    [
+     80,
+     -220
+    ],
+    [
+     70,
+     -120
+    ],
+    [
+     30,
+     -80
+    ],
+    [
+     -60,
+     -70
+    ]
+   ],
+   "fill": "#7a5636",
+   "color": "#000000",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -110
+    ],
+    [
+     -20,
+     -110
+    ],
+    [
+     0,
+     -40
+    ],
+    [
+     50,
+     -16
+    ],
+    [
+     55,
+     0
+    ],
+    [
+     -90,
+     0
+    ],
+    [
+     -95,
+     -50
+    ]
+   ],
+   "fill": "#5e412a",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -395
+    ],
+    [
+     15,
+     -440
+    ],
+    [
+     55,
+     -465
+    ],
+    [
+     100,
+     -462
+    ],
+    [
+     140,
+     -445
+    ],
+    [
+     150,
+     -425
+    ],
+    [
+     120,
+     -412
+    ],
+    [
+     70,
+     -405
+    ],
+    [
+     35,
+     -385
+    ]
+   ],
+   "fill": "#7a5636",
+   "color": "#000000",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "circle",
+   "x": 42,
+   "y": -452,
+   "r": 10,
+   "fill": "#5e412a",
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": 102,
+   "y": -445,
+   "r": 5,
+   "fill": "#000000",
+   "color": "#000000",
+   "width": 1
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     -370
+    ],
+    [
+     90,
+     -402
+    ],
+    [
+     160,
+     -452
+    ],
+    [
+     182,
+     -438
+    ],
+    [
+     120,
+     -375
+    ],
+    [
+     60,
+     -330
+    ]
+   ],
+   "fill": "#7a5636",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     172,
+     -452
+    ],
+    [
+     210,
+     -472
+    ],
+    [
+     232,
+     -448
+    ],
+    [
+     212,
+     -456
+    ]
+   ],
+   "fill": "#efe6cf",
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     178,
+     -442
+    ],
+    [
+     215,
+     -450
+    ],
+    [
+     230,
+     -424
+    ],
+    [
+     212,
+     -438
+    ]
+   ],
+   "fill": "#efe6cf",
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     178,
+     -432
+    ],
+    [
+     208,
+     -428
+    ],
+    [
+     218,
+     -400
+    ],
+    [
+     202,
+     -420
+    ]
+   ],
+   "fill": "#efe6cf",
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -300
+    ],
+    [
+     95,
+     -250
+    ],
+    [
+     122,
+     -170
+    ],
+    [
+     100,
+     -165
+    ],
+    [
+     70,
+     -235
+    ],
+    [
+     25,
+     -270
+    ]
+   ],
+   "fill": "#7a5636",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     100,
+     -170
+    ],
+    [
+     108,
+     -130
+    ],
+    [
+     126,
+     -116
+    ],
+    [
+     118,
+     -140
+    ],
+    [
+     120,
+     -170
+    ]
+   ],
+   "fill": "#efe6cf",
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     112,
+     -172
+    ],
+    [
+     128,
+     -140
+    ],
+    [
+     148,
+     -130
+    ],
+    [
+     134,
+     -152
+    ],
+    [
+     128,
+     -174
+    ]
+   ],
+   "fill": "#efe6cf",
+   "color": "#000000",
+   "width": 3
+  }
+ ]
+}

@@ -1,0 +1,403 @@
+{
+ "name": "smilodon_body",
+ "description": "Smilodon (sabre-toothed cat), full body side view facing RIGHT, standing: tawny #c9944a, high muscular shoulders sloping to the rump, low long head with two rounded cat ears, two long cream sabre canines hanging well below the chin (clear of the chest and legs), short bobtail (accurate for Smilodon), four thick cat legs with broad paws. Drawn for the red-rim silhouette reveal (040 s087-s089): the outline alone reads as a sabre-toothed cat. Anchor bottom-centre (feet on y=0), ~580x280 (x -274..308, y -279..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "ice age",
+  "megafauna",
+  "cat",
+  "silhouette"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -225,
+     -170
+    ],
+    [
+     -262,
+     -156
+    ],
+    [
+     -274,
+     -126
+    ],
+    [
+     -252,
+     -124
+    ],
+    [
+     -224,
+     -146
+    ]
+   ],
+   "fill": "#c9944a",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -140
+    ],
+    [
+     -95,
+     -130
+    ],
+    [
+     -92,
+     -50
+    ],
+    [
+     -72,
+     -14
+    ],
+    [
+     -70,
+     0
+    ],
+    [
+     -138,
+     0
+    ],
+    [
+     -132,
+     -60
+    ]
+   ],
+   "fill": "#a8742f",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -130
+    ],
+    [
+     92,
+     -130
+    ],
+    [
+     94,
+     -30
+    ],
+    [
+     114,
+     -12
+    ],
+    [
+     116,
+     0
+    ],
+    [
+     40,
+     0
+    ],
+    [
+     46,
+     -40
+    ]
+   ],
+   "fill": "#a8742f",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -232,
+     -125
+    ],
+    [
+     -222,
+     -182
+    ],
+    [
+     -150,
+     -198
+    ],
+    [
+     -40,
+     -203
+    ],
+    [
+     60,
+     -222
+    ],
+    [
+     130,
+     -234
+    ],
+    [
+     172,
+     -205
+    ],
+    [
+     166,
+     -140
+    ],
+    [
+     120,
+     -104
+    ],
+    [
+     20,
+     -98
+    ],
+    [
+     -120,
+     -98
+    ],
+    [
+     -212,
+     -104
+    ]
+   ],
+   "fill": "#c9944a",
+   "color": "#000000",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -236,
+     -160
+    ],
+    [
+     -150,
+     -170
+    ],
+    [
+     -128,
+     -110
+    ],
+    [
+     -148,
+     -60
+    ],
+    [
+     -122,
+     -14
+    ],
+    [
+     -118,
+     0
+    ],
+    [
+     -198,
+     0
+    ],
+    [
+     -198,
+     -50
+    ],
+    [
+     -224,
+     -100
+    ]
+   ],
+   "fill": "#c9944a",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     94,
+     -150
+    ],
+    [
+     160,
+     -150
+    ],
+    [
+     166,
+     -34
+    ],
+    [
+     192,
+     -14
+    ],
+    [
+     196,
+     0
+    ],
+    [
+     98,
+     0
+    ],
+    [
+     104,
+     -40
+    ]
+   ],
+   "fill": "#c9944a",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "circle",
+   "x": 178,
+   "y": -252,
+   "r": 17,
+   "fill": "#a8742f",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "circle",
+   "x": 206,
+   "y": -262,
+   "r": 17,
+   "fill": "#c9944a",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     256,
+     -198
+    ],
+    [
+     276,
+     -198
+    ],
+    [
+     268,
+     -116
+    ]
+   ],
+   "fill": "#f3ead2",
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     -222
+    ],
+    [
+     172,
+     -252
+    ],
+    [
+     220,
+     -266
+    ],
+    [
+     268,
+     -256
+    ],
+    [
+     302,
+     -234
+    ],
+    [
+     308,
+     -206
+    ],
+    [
+     290,
+     -190
+    ],
+    [
+     245,
+     -184
+    ],
+    [
+     192,
+     -180
+    ],
+    [
+     160,
+     -194
+    ]
+   ],
+   "fill": "#c9944a",
+   "color": "#000000",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     276,
+     -196
+    ],
+    [
+     296,
+     -196
+    ],
+    [
+     289,
+     -122
+    ]
+   ],
+   "fill": "#f3ead2",
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": 250,
+   "y": -232,
+   "r": 8,
+   "fill": "#f0c040",
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": 252,
+   "y": -232,
+   "r": 3,
+   "fill": "#000000",
+   "color": "#000000",
+   "width": 1
+  },
+  {
+   "type": "ellipse",
+   "x": 303,
+   "y": -226,
+   "rx": 8,
+   "ry": 6,
+   "fill": "#3a2a1a",
+   "color": "#000000",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     180,
+     -150
+    ],
+    [
+     220,
+     -190
+    ]
+   ],
+   "color": "#8a5a20",
+   "width": 3
+  }
+ ]
+}
