@@ -12,7 +12,7 @@
   "related_pending": {
    "first_seen": "2026-11-05T17:01:52+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-09T05:01:40+00:00",
+   "last_seen": "2026-11-09T06:01:37+00:00",
    "summary": "14 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -21,7 +21,7 @@
   "end_screens_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-09T05:01:40+00:00",
+   "last_seen": "2026-11-09T06:01:37+00:00",
    "summary": "5 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -30,7 +30,7 @@
   "thumb_tests_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-09T05:01:40+00:00",
+   "last_seen": "2026-11-09T06:01:37+00:00",
    "summary": "5 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
    "owner": "owner",
    "severity": "low",
@@ -39,20 +39,18 @@
   "schedule_gap": {
    "first_seen": "2026-11-09T05:01:40+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-09T05:01:40+00:00",
+   "last_seen": "2026-11-09T06:01:37+00:00",
    "summary": "No long video scheduled for Fri 13 Nov 6:00 AM NZDT",
    "owner": "auto",
    "severity": "medium"
   },
   "produce_failing": {
-   "first_seen": "2026-11-08T18:01:36+00:00",
-   "agent_attempts": 1,
-   "last_seen": "2026-11-08T19:10:07+00:00",
-   "summary": "Last 10 production runs failed",
+   "first_seen": "2026-11-09T06:01:37+00:00",
+   "agent_attempts": 0,
+   "last_seen": "2026-11-09T06:01:37+00:00",
+   "summary": "Last 2 production runs failed",
    "owner": "agent",
-   "severity": "high",
-   "agent_at": "2026-11-08T18:01:43+00:00",
-   "resolved": "2026-11-08T20:01:36+00:00"
+   "severity": "high"
   },
   "crosspost:027-every-saltwater-croc-reason:short03:instagram": {
    "first_seen": "2026-11-05T17:01:52+00:00",
