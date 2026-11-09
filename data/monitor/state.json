@@ -1,18 +1,18 @@
 {
  "issues": {
   "queue_low": {
-   "first_seen": "2026-11-08T19:10:07+00:00",
+   "first_seen": "2026-11-09T01:01:39+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-08T19:10:07+00:00",
-   "summary": "Queue 1/4 and no production running",
+   "last_seen": "2026-11-09T01:01:39+00:00",
+   "summary": "Queue 2/4 and no production running: started a production run",
    "owner": "auto",
    "severity": "medium",
-   "resolved": "2026-11-08T20:01:36+00:00"
+   "resolved": "2026-11-09T01:01:39+00:00"
   },
   "related_pending": {
    "first_seen": "2026-11-05T17:01:52+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-09T00:01:32+00:00",
+   "last_seen": "2026-11-09T01:01:39+00:00",
    "summary": "12 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -21,7 +21,7 @@
   "end_screens_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-09T00:01:32+00:00",
+   "last_seen": "2026-11-09T01:01:39+00:00",
    "summary": "4 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -30,7 +30,7 @@
   "thumb_tests_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-09T00:01:32+00:00",
+   "last_seen": "2026-11-09T01:01:39+00:00",
    "summary": "4 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
    "owner": "owner",
    "severity": "low",
@@ -39,7 +39,7 @@
   "schedule_gap": {
    "first_seen": "2026-11-07T05:01:37+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-09T00:01:32+00:00",
+   "last_seen": "2026-11-09T01:01:39+00:00",
    "summary": "No long video scheduled for Thu 12 Nov 6:00 AM NZDT",
    "owner": "auto",
    "severity": "medium"
