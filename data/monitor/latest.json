@@ -1,32 +1,12 @@
 {
- "at": "2026-11-09T01:01:39+00:00",
+ "at": "2026-11-09T02:01:31+00:00",
  "issues": [
-  {
-   "key": "schedule_gap",
-   "severity": "medium",
-   "owner": "auto",
-   "summary": "No long video scheduled for Thu 12 Nov 6:00 AM NZDT",
-   "detail": "{\"uploaded_total\": 39, \"queued\": 2, \"target\": 4, \"phase\": \"weekly\", \"in_progress\": [\"040-trapped-the-longest\"], \"need_episode\": true, \"later_scheduled\": []}",
-   "route": "production run",
-   "fixed": false,
-   "extra": {}
-  },
-  {
-   "key": "queue_low",
-   "severity": "medium",
-   "owner": "auto",
-   "summary": "Queue 2/4 and no production running: started a production run",
-   "detail": "",
-   "route": "dispatch produce.yml",
-   "fixed": true,
-   "extra": {}
-  },
   {
    "key": "related_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "12 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
-   "detail": "A Bull Bison Plows Snow With Its Face (Up to 900 kg) -> Every Reason the Bison Is Yellowstone's Most Terrifying Animal\nThis Sofa With a Beard Can Run at 55 km/h -> Every Reason the Bison Is Yellowstone's Most Terrifying Animal\nA Bison Bull Can Lose Nearly 90 kg in One Rut -> Every Reason the Bison Is Yellowstone's Most Terrifying Animal\nA Walrus Mouth Pulls Nearly a Vacuum, With Its Tongue -> How the Walrus Kills Doug Without a Single Bite\nA Walrus Mother Sank a Russian Navy Boat -> How the Walrus Kills Doug Without a Single Bite\n35,000 Walruses Crowded Onto One Alaska Beach -> How the Walrus Kills Doug Without a Single Bite\nArmy Ants Can March in a Circle Until They All Die -> Why Army Ants Only Kill What Can't Run Away, Like Doug\nIn Army Ant Colonies, the Workers Choose the Queen -> Why Army Ants Only Kill What Can't Run Away, Like Doug\nA Swarm of 20 Million Driver Ants Moves 20 Meters an Hour -> Why Army Ants Only Kill What Can't Run Away, Like Doug\nThe Loudest Animal on Earth Clicks Through Its Nose -> Why the Sperm Whale Gets Deadlier the Deeper Doug Follows It\nThe Man Swallowed by a Sperm Whale Never Existed -> Why the Sperm Whale Gets Deadlier the Deeper Doug Follows It\nA Sperm Whale Got Tangled in a Cable a Kilometer Down -> Why the Sperm Whale Gets Deadlier the Deeper Doug Follows It",
+   "summary": "14 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "detail": "A Hyena's Laugh Isn't Laughter, It's a Status Report -> Why Hyenas Are Deadlier to Doug Than Lions\nThis Ethiopian City Has 16 Holes in Its Wall for Hyenas -> Why Hyenas Are Deadlier to Doug Than Lions\nA Bull Bison Plows Snow With Its Face (Up to 900 kg) -> Every Reason the Bison Is Yellowstone's Most Terrifying Animal\nThis Sofa With a Beard Can Run at 55 km/h -> Every Reason the Bison Is Yellowstone's Most Terrifying Animal\nA Bison Bull Can Lose Nearly 90 kg in One Rut -> Every Reason the Bison Is Yellowstone's Most Terrifying Animal\nA Walrus Mouth Pulls Nearly a Vacuum, With Its Tongue -> How the Walrus Kills Doug Without a Single Bite\nA Walrus Mother Sank a Russian Navy Boat -> How the Walrus Kills Doug Without a Single Bite\n35,000 Walruses Crowded Onto One Alaska Beach -> How the Walrus Kills Doug Without a Single Bite\nArmy Ants Can March in a Circle Until They All Die -> Why Army Ants Only Kill What Can't Run Away, Like Doug\nIn Army Ant Colonies, the Workers Choose the Queen -> Why Army Ants Only Kill What Can't Run Away, Like Doug\nA Swarm of 20 Million Driver Ants Moves 20 Meters an Hour -> Why Army Ants Only Kill What Can't Run Away, Like Doug\nThe Loudest Animal on Earth Clicks Through Its Nose -> Why the Sperm Whale Gets Deadlier the Deeper Doug Follows It\nThe Man Swallowed by a Sperm Whale Never Existed -> Why the Sperm Whale Gets Deadlier the Deeper Doug Follows It\nA Sperm Whale Got Tangled in a Cable a Kilometer Down -> Why the Sperm Whale Gets Deadlier the Deeper Doug Follows It",
    "route": "",
    "fixed": false,
    "extra": {}
@@ -35,8 +15,8 @@
    "key": "end_screens_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "4 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
-   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/editor\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/editor\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/editor",
+   "summary": "5 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/editor\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/editor\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/editor\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/editor",
    "route": "",
    "fixed": false,
    "extra": {}
@@ -45,12 +25,14 @@
    "key": "thumb_tests_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "4 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
-   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/edit\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/edit\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/edit",
+   "summary": "5 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/edit\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/edit\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/edit\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/edit",
    "route": "",
    "fixed": false,
    "extra": {}
   }
  ],
- "resolved_since_last": []
+ "resolved_since_last": [
+  "schedule_gap"
+ ]
 }

@@ -12,8 +12,8 @@
   "related_pending": {
    "first_seen": "2026-11-05T17:01:52+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-09T01:01:39+00:00",
-   "summary": "12 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "last_seen": "2026-11-09T02:01:31+00:00",
+   "summary": "14 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
    "alerted_at": "2026-11-08T19:01:36+00:00"
@@ -21,8 +21,8 @@
   "end_screens_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-09T01:01:39+00:00",
-   "summary": "4 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "last_seen": "2026-11-09T02:01:31+00:00",
+   "summary": "5 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
    "owner": "owner",
    "severity": "low",
    "alerted_at": "2026-11-08T23:01:40+00:00"
@@ -30,8 +30,8 @@
   "thumb_tests_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-09T01:01:39+00:00",
-   "summary": "4 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "last_seen": "2026-11-09T02:01:31+00:00",
+   "summary": "5 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
    "owner": "owner",
    "severity": "low",
    "alerted_at": "2026-11-08T23:01:40+00:00"
@@ -42,7 +42,8 @@
    "last_seen": "2026-11-09T01:01:39+00:00",
    "summary": "No long video scheduled for Thu 12 Nov 6:00 AM NZDT",
    "owner": "auto",
-   "severity": "medium"
+   "severity": "medium",
+   "resolved": "2026-11-09T02:01:31+00:00"
   },
   "produce_failing": {
    "first_seen": "2026-11-08T18:01:36+00:00",
