@@ -63,3 +63,5 @@ The ranked titles are fine. All three are honest to the script (no venom, the sq
   at feed size; on PASS, art is approved without another CD pass unless the screener raises new issues.
 - Before the final render (editor): confirm the subtitle font draws "ú" in "Jesús" (s007, screener carry-over #8). It
   would be nice, but not required, to close the s066/s067/s069 jaw-to-capybara gap.
+
+2026-11-09 Showrunner: script 3 rounds (facts fixes: species-split dispute, human-fatality wording, caiman line); art 3 rounds (boa assets, repetitions, s068); thumbnails A/C redone once (A thumbs-up misread, C frog look), all three screened PASS; B is strongest at feed size. Risks: 2024 anaconda species split disputed (hedged in script); human-fatality line "very few, hard to verify"; thumbnail C weakest. Narration 10.9 min, validate OK.

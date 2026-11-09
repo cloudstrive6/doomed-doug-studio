@@ -39,6 +39,16 @@
       "stage": "packaged",
       "at": "2026-11-09T18:45:28+00:00",
       "note": "pending editor"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-09T18:45:32+00:00",
+      "note": "revert: premature packaged; editor timing pass pending"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-09T18:49:58+00:00",
+      "note": "narration + validate OK"
     }
   ],
   "stage": "packaged"
