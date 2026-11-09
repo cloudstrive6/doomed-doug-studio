@@ -1,0 +1,70 @@
+name: Remake scheduled Shorts (one-off)
+
+# Owner-approved 2026-11-09: re-render still-scheduled cliffhanger Shorts with payoff endings, upload them into the same
+# slots (or the next free slot when the old one is < 18 h away), set the originals private + unscheduled.
+# pipeline/remake_shorts.py never touches a public video and never deletes anything.
+on:
+  workflow_dispatch:
+    inputs:
+      jobs:
+        description: "Space-separated <ep>:<short ids>, e.g. '034:short01,short02,short03 035:short01'"
+        required: true
+      dry_run:
+        description: "Render and print the plan, no upload or YouTube changes"
+        type: boolean
+        default: false
+
+concurrency:
+  group: remake-shorts
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  remake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q -r requirements.txt
+          git config user.name "doomed-doug-bot"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
+      - name: Restore narration cache (read only; production owns saving it)
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/tts
+          key: tts-remake-${{ github.run_id }}
+          restore-keys: tts-
+      - name: Remake, upload, unschedule originals
+        run: |
+          for job in ${{ inputs.jobs }}; do
+            ep="${job%%:*}"; ids="${job#*:}"
+            echo "::group::$ep $ids"
+            python pipeline/remake_shorts.py "$ep" "$ids" ${{ inputs.dry_run && '--dry-run' || '' }}
+            if [ "${{ inputs.dry_run }}" != "true" ]; then
+              python -m studio social release "$ep" || python -m studio notify "Remade Shorts for $ep could not replace the draft-release media; cross-posts may use the old cut."
+            fi
+            echo "::endgroup::"
+          done
+      - name: Save state
+        if: ${{ always() && !inputs.dry_run }}
+        run: |
+          git add episodes/*/shorts.json && (git commit -m "shorts: payoff remakes of scheduled cliffhanger Shorts" || true) && git pull --rebase -X theirs && git push

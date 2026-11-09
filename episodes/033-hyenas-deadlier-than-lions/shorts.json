@@ -40,36 +40,50 @@
     {
       "id": "short02",
       "from": "s073",
-      "to": "s085",
+      "to": "s090",
       "title": "A Hyena's Laugh Isn't Laughter, It's a Status Report",
-      "outro": "That whoop is how a clan of up to a hundred and thirty finds you. Doug counted to twelve. It's in the full video below.",
-      "tease_from": "s115",
-      "tease_asset": "spotted_hyena_plain",
-      "end_card": "WHAT HAPPENED AFTER DOUG COUNTED TWELVE?",
+      "outro": "The full video is linked below.",
+      "end_card": "FULL VIDEO: TAP BELOW",
       "description": "A hyena's giggle tells listeners its age and rank, but the whoop is the call that brings the clan, and what happened after Doug counted twelve is in the full episode.",
       "duration_s": 50.5,
       "youtube_id": "wHlOxxUWh7U",
       "publish_at": "2026-11-09T14:00:00Z",
       "related_video": "DipC3jfwExY",
       "related_set": true,
-      "uploaded_at": "2026-10-31T18:09:58+00:00"
+      "uploaded_at": "2026-10-31T18:09:58+00:00",
+      "cliffhanger_original": {
+        "from": "s073",
+        "to": "s085",
+        "outro": "That whoop is how a clan of up to a hundred and thirty finds you. Doug counted to twelve. It's in the full video below.",
+        "end_card": "WHAT HAPPENED AFTER DOUG COUNTED TWELVE?",
+        "tease_from": "s115",
+        "tease_asset": "spotted_hyena_plain",
+        "duration_s": 50.5
+      }
     },
     {
       "id": "short03",
       "from": "s137",
       "to": "s145",
       "title": "This Ethiopian City Has 16 Holes in Its Wall for Hyenas",
-      "outro": "Two hours later, Doug hid behind a pride of lionesses for safety. Then the lions got up and walked away from him. Full video below.",
-      "tease_from": "s195",
-      "tease_asset": "lioness_walking",
-      "end_card": "WHY DID THE LIONS LEAVE DOUG?",
+      "outro": "The full video is linked below.",
+      "end_card": "FULL VIDEO: TAP BELOW",
       "description": "Wild hyenas have walked the streets of Harar for at least 500 years, and why the lions left Doug is answered in the full episode.",
       "duration_s": 43.3,
       "youtube_id": "FynWs3j3454",
       "publish_at": "2026-11-09T19:00:00Z",
       "related_video": "DipC3jfwExY",
       "related_set": true,
-      "uploaded_at": "2026-10-31T18:10:00+00:00"
+      "uploaded_at": "2026-10-31T18:10:00+00:00",
+      "cliffhanger_original": {
+        "from": "s137",
+        "to": "s145",
+        "outro": "Two hours later, Doug hid behind a pride of lionesses for safety. Then the lions got up and walked away from him. Full video below.",
+        "end_card": "WHY DID THE LIONS LEAVE DOUG?",
+        "tease_from": "s195",
+        "tease_asset": "lioness_walking",
+        "duration_s": 43.3
+      }
     }
   ]
 }

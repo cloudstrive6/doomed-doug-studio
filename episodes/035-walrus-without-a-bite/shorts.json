@@ -3,55 +3,78 @@
     {
       "id": "short01",
       "from": "s037",
-      "to": "s044",
+      "to": "s051",
       "title": "A Walrus Mouth Pulls Nearly a Vacuum, With Its Tongue",
-      "hook": "A walrus eats a clam without ever opening it.",
-      "hook_scene_from": "s030",
-      "outro": "Then Doug held out a clam to that mouth, on his open palm. What came back is in the full video below.",
-      "tease_from": "s047",
-      "tease_asset": "walrus_swimming",
-      "end_card": "WHAT CAME BACK IN DOUG'S HAND?",
+      "outro": "The full video is linked below.",
+      "end_card": "FULL VIDEO: TAP BELOW",
       "description": "A captive walrus sucking on a pressure sensor pulled almost 88 kilopascals below normal air pressure, close to a vacuum, and what that mouth did to Doug's open palm is in the full episode linked below.",
       "duration_s": 36.4,
       "youtube_id": "vM2uXH4fhxU",
       "publish_at": "2026-11-11T00:00:00Z",
       "related_video": "CTty9H6pwac",
       "related_set": false,
-      "uploaded_at": "2026-11-02T19:27:03+00:00"
+      "uploaded_at": "2026-11-02T19:27:03+00:00",
+      "cliffhanger_original": {
+        "from": "s037",
+        "to": "s044",
+        "hook": "A walrus eats a clam without ever opening it.",
+        "hook_scene_from": "s030",
+        "outro": "Then Doug held out a clam to that mouth, on his open palm. What came back is in the full video below.",
+        "end_card": "WHAT CAME BACK IN DOUG'S HAND?",
+        "tease_from": "s047",
+        "tease_asset": "walrus_swimming",
+        "duration_s": 36.4
+      }
     },
     {
       "id": "short02",
       "from": "s079",
       "to": "s093",
       "title": "A Walrus Mother Sank a Russian Navy Boat",
-      "outro": "Doug then rowed a tiny dinghy past a mother with a calf on her back, and waved. Full video below.",
-      "tease_from": "s099",
-      "tease_asset": "walrus_head_rising",
-      "end_card": "WHAT DID SHE DO TO DOUG'S DINGHY?",
+      "outro": "The full video is linked below.",
+      "end_card": "FULL VIDEO: TAP BELOW",
       "description": "In 2019 a walrus protecting her calf sank a Northern Fleet landing boat at Franz Josef Land, and what she did to Doug's dinghy is in the full episode linked below.",
       "duration_s": 52.8,
       "youtube_id": "Ux2-Qew9XvE",
       "publish_at": "2026-11-11T14:00:00Z",
       "related_video": "CTty9H6pwac",
       "related_set": false,
-      "uploaded_at": "2026-11-02T19:27:05+00:00"
+      "uploaded_at": "2026-11-02T19:27:05+00:00",
+      "cliffhanger_original": {
+        "from": "s079",
+        "to": "s093",
+        "outro": "Doug then rowed a tiny dinghy past a mother with a calf on her back, and waved. Full video below.",
+        "end_card": "WHAT DID SHE DO TO DOUG'S DINGHY?",
+        "tease_from": "s099",
+        "tease_asset": "walrus_head_rising",
+        "duration_s": 52.8
+      }
     },
     {
       "id": "short03",
-      "from": "s168",
-      "to": "s178",
+      "from": "s171",
+      "to": "s185",
       "title": "35,000 Walruses Crowded Onto One Alaska Beach",
-      "outro": "And when one low plane spooks all thirty-five thousand at once, Doug is standing between them and the sea. It's linked below.",
-      "tease_from": "s210",
-      "tease_asset": "walrus_cow",
-      "end_card": "WHAT HAPPENS WHEN 35,000 WALRUSES RUN?",
+      "outro": "Full video linked below.",
+      "end_card": "FULL VIDEO: TAP BELOW",
       "description": "In September 2014 about 35,000 walruses hauled out near Point Lay, Alaska, roughly a hundred for every person in town, and what happens when they all run for the sea is in the full episode linked below.",
       "duration_s": 48.4,
       "youtube_id": "Taaa15IoYB8",
       "publish_at": "2026-11-11T19:00:00Z",
       "related_video": "CTty9H6pwac",
       "related_set": false,
-      "uploaded_at": "2026-11-02T19:27:08+00:00"
+      "uploaded_at": "2026-11-02T19:27:08+00:00",
+      "cliffhanger_original": {
+        "from": "s168",
+        "to": "s178",
+        "outro": "And when one low plane spooks all thirty-five thousand at once, Doug is standing between them and the sea. It's linked below.",
+        "end_card": "WHAT HAPPENS WHEN 35,000 WALRUSES RUN?",
+        "tease_from": "s210",
+        "tease_asset": "walrus_cow",
+        "duration_s": 48.4
+      },
+      "hook": "Thirty-five thousand walruses once hauled out near Point Lay, Alaska.",
+      "hook_scene_from": "s168"
     }
   ]
 }
