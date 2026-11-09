@@ -99,3 +99,26 @@ C1. **thumbnail_c.png (illustrator + graphic designer).** The "two bumps" are tw
 - Nothing is misleading against the title, and there is no gore or kids-show tone in any of the three.
 
 Re-screen needed: thumbnail_c.png (+ _small) only.
+
+# 042 anaconda-no-venom: visual review, thumbnail C (round 5, 2026-11-09)
+
+VERDICT: PASS (thumbnail C). Thumbnails A and B and keyframe s001 already passed in round 4 and were not re-screened.
+
+Scope: build/thumbnail_c.png at 1280x720 and build/thumbnail_c_small.png at 168x94.
+
+## C1 status: FIXED
+- The two separate frog domes are gone. There is now one long, low, wedge-shaped head lying flat at the waterline. Two eye bumps sit on top of it, there are nostril bumps at the snout tip, and a red forked tongue flicks toward Doug. Both pupils are now matching vertical slits. The head no longer reads as a frog or as googly meme eyes.
+- The underwater body is lifted and has black anaconda spots. It runs from the head to the right edge of the frame, so the threat reads as a big spotted snake.
+- The head is bigger and closer, and the tongue nearly reaches Doug's ripple ring, which gives the image tension.
+- Doug is on-model (red cap, white head), with a gritted-teeth, sweating, scared face. The moon disc behind him makes him readable.
+- "TWO BUMPS" is legible, spelled correctly, uncropped and clear of the drawing.
+- No gore and no kids-show tone. Against the title the image is not misleading.
+
+## Feed size (168x94)
+Doug, the moon and "TWO BUMPS" read instantly. The snake reads as a green spotted shape coming at Doug, with the tongue just visible. The head itself is small at this size, but this does not block.
+
+## Notes (non-blocking)
+N1. **Graphic designer / illustrator.** The long, flat head with its raised eye ridges leans a little toward a crocodile at full size. The forked tongue and the spotted body settle it as a snake, so this is optional. A slightly shorter, rounder snout would help.
+N2. **Creative director.** C is still the weakest of the three as a lead: it is dark, the threat is small, and the text is abstract. It is fine as a test arm. B remains the recommended primary.
+
+Re-screen needed: none.

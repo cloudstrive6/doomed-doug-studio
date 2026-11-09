@@ -29,7 +29,17 @@
       "stage": "shotlisted",
       "at": "2026-11-09T17:48:48+00:00",
       "note": ""
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-09T18:45:28+00:00",
+      "note": "art-director r3 PASS, visual-screener PASS (keyframes + thumbs A/B/C), CD thumbnail changes applied"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-09T18:45:28+00:00",
+      "note": "pending editor"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "packaged"
 }
