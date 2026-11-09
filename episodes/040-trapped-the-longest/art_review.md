@@ -93,3 +93,36 @@ deliberate exception. Nothing is gory. The remains are never drawn.
   add one close-up or a split framing in the middle of the run.
 
 Re-render s006, s007, s009-s014, s022, s031, s054, s127, s149, s197 and s200-s202 as keyframes, then send them back for re-review.
+
+---
+
+## Keyframe re-review, round 2 (art director, 2026-11-09): FAIL, 1 composition fix (director), s022 only
+
+Reviewed: `build/contact/sheet_01.png` to `sheet_04.png` (the 39 re-rendered keyframes listed in decisions.md), plus full-size
+checks of s006, s013, s022, s088, s164, s191 and s197. The shots that were not re-rendered are unchanged from round 1 and were
+approved then, so I did not need to run any extra keyframes.
+
+### Round 1 required fixes
+1. s022 cap: fixed. A `doug_cap` lies at the passage mouth next to the suitcase.
+2. s200-s202 two caps: fixed. Doug is `cap_off` and there is one cap beside the suitcase. Ending on the full suitcase and the cap matches the brief.
+3. Item titles over scenery: fixed. s006, s031 and s054 now sit in clear sky, s127 sits above the lake in the sky band, and s149 sits above the dig frame.
+4. s006-s014 repetition: fixed. s011 and s013 are tight push-ins on the crack, so the run now alternates wide, close, wide, close.
+   No figure appears in the real case, which is correct.
+5. s197 glow: fixed. The red spray reads clearly behind the black T. rex, with no purple.
+
+### Round 1 minor items and the visual review changes: all good
+s081 ends on a red glow spot. s121 is now a curled worm with DRY FIRST and reads well. s036 has a larger crossed plate. s057 places
+5,300 YEARS clear of RECENT?. s164 shows one large pelvis with a PELVIS label, and it reads as a bone. s147 has no topbar. s050 shows
+the hand with the sticker. In s051 Doug walks out with the suitcase. s118 and s120 are a worm close-up and a family tree of dishes.
+s189 and s191 are a feeding close-up and Doug's shocked close-up, which is on-model with the cap, crescent and oval eyes.
+s088/s089 now show the sabre fangs on the cat, which has legs and so cannot be a walrus, and the upright clawed sloth, which has no trunk.
+s145 shows the red cap on the amoeba. s201 has one room box. The run variety is now good across s117-s121 and s188-s192.
+
+### Required fix (director)
+1. **s022: there are stray red marks on the clipboard that read as blood drips.** The clipboard asset's red marks show outside
+   the white cover rect, at about (545, 665) and (495, 725), as red drops under ONE MORE PASSAGE. This is a death beat next to
+   a real fatality, so it must not carry anything that looks like blood (no gore). Enlarge the white cover rect so it covers the
+   whole paper (about `x 288, y 465, w 272, h 295`) or use a clipboard without the red checks. Then re-render s022 only.
+
+The rest of the episode is approved. Once s022 is re-rendered without the red marks, art is approved, and no further art director
+pass is needed beyond a glance at that one frame.

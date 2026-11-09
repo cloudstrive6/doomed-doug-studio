@@ -47,3 +47,41 @@ tags and labels legible and spelled right; nothing cropped. Fixes below are clar
 - s147: chapter tag still reads THE PERMAFROST VIRUS over a mammoth image (transition shot); OK if intended.
 - Contact-sheet captions drop the "Ö" in "Ötzi" (s054, s187). On-screen art is fine; editor should confirm
   the subtitle/Shorts caption font renders Ö.
+
+## Round 2: keyframes (2026-11-09)
+Scope: 4 contact sheets of the 39 re-rendered keyframes (s006-s014, s022, s031, s036, s050, s051, s054, s057, s081,
+s087-s089, s117-s121, s127, s145-s147, s149, s164, s188-s192, s197, s200-s202), checked against round 1 fixes.
+
+VERDICT: FAIL (one illustrator fix left; everything else passes)
+
+Round 1 fixes checked:
+1. s050: fixed. Suitcase with an empty "?" slot, an arrow to the SNOWBOUND CAR sticker with a red X, and the narrator hand. Reads in 1 s.
+2. s051: fixed. Doug (cap on, smiling) walks out of the drift with the suitcase, footprints behind him. No lone cap.
+3. s117-s120: fixed. s118 is a full-frame worm close-up and s120 a dish family tree labelled "100+ GENERATIONS". s121 (fridge -80°C, curled worm, DRY FIRST) is clear too.
+4. s188-s192: fixed. s189 is the food-falling close-up and s191 a big shocked-Doug close-up with NOT over a struck-through DEAD. The run now alternates.
+5. s006-s014: fixed. The s011 and s013 push-ins (DEAD END / HEAD-DOWN + UPHILL) break up the cross-section run.
+6. s006/s149 titles (plus s031, s054, s127): fixed. Titles now sit in the sky band or above the drawing and are fully legible.
+7. s088/s089: partly fixed. The ground sloth now reads (upright, hooked claws, no trunk) and the gomphothere reads as an
+   elephant relative. **The sabre-toothed cat still reads as a walrus** (see below).
+8. s145: fixed. The red cap is on the amoeba in the eyepiece and SPECIMEN 313 is legible. s146 matches.
+9. s201: fixed. There is one red box only, in the empty space right of the gyre sticker.
+
+Advisories from round 1: s036 plate enlarged (OK), s057 "5,300 YEARS" clear of RECENT? (OK), s164 single pelvis + PELVIS label
+(OK), s081 arrow ends on a red glow spot with no skeleton drawn (sober, OK), s147 topbar dropped (OK). s197 T. rex silhouette
+now reads against the red glow; ghost Doug and the fallen cap are clear. s022 upturned boots + cap at the passage mouth is a clean cartoon death.
+No gore and no kids-show tone. HUD and labels are legible and spelled right throughout.
+
+### Required fixes
+1. **s087, s088, s089: `smilodon_body`** (illustrator): the head is a blunt rounded dome with no muzzle and no visible ears.
+   The two fangs hang straight down from the front of it, which is the walrus-tusk silhouette. s087 ("She wasn't
+   alone") shows it alone with no narration naming it, so viewers will read "walrus". Change: add two clear pointed
+   cat ears on top of the skull, and give it a longer, lower cat muzzle with an open-jaw notch so the sabres come out of the
+   upper jaw behind the nose tip. Make the legs slimmer, with the front legs slightly forward (stalking stance). Keep the bobtail and the red rim.
+   Re-render s087-s089 only.
+
+### Advisory (non-blocking)
+- s011/s013: the zoomed cave branch runs behind the TIME TRAPPED label and the chapter tag (s013). Both are in white boxes and
+  still legible, so this is fine as is.
+- s200-s202: Doug is `cap_off` with the cap beside the suitcase, as the art review asked. That's OK for the final death-count beat. He is
+  still recognisable from the red cap in frame.
+- The contact-sheet caption still drops the "Ö" in "Ötzi" (s054). The editor should confirm that subtitles and Shorts captions render Ö.
