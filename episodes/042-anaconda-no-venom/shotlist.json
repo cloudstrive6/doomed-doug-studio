@@ -28078,15 +28078,26 @@
       "type": "asset",
       "name": "calendar",
       "x": 360,
-      "y": 420,
-      "scale": 0.9
+      "y": 440,
+      "scale": 1.2
      },
      {
       "type": "text",
-      "text": "DRY SEASON",
+      "text": "DRY",
       "x": 360,
-      "y": 438,
-      "size": 29.8,
+      "y": 440,
+      "size": 56,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0,
+      "appear": 0.1
+     },
+     {
+      "type": "text",
+      "text": "SEASON",
+      "x": 360,
+      "y": 505,
+      "size": 56,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -33570,8 +33581,8 @@
      {
       "type": "asset",
       "name": "anaconda_head_open",
-      "x": 640,
-      "y": 780,
+      "x": 700,
+      "y": 835,
       "scale": 0.6
      },
      {
@@ -33628,14 +33639,14 @@
      {
       "type": "asset",
       "name": "water_splash_small",
-      "x": 640,
+      "x": 700,
       "y": 795,
       "scale": 0.5
      },
      {
       "type": "asset",
       "name": "capybara",
-      "x": 900,
+      "x": 880,
       "y": 860,
       "scale": 0.7
      },
@@ -33739,8 +33750,8 @@
      {
       "type": "asset",
       "name": "anaconda_head_open",
-      "x": 640,
-      "y": 780,
+      "x": 700,
+      "y": 835,
       "scale": 0.6
      },
      {
@@ -33795,16 +33806,70 @@
       "boil": 0.5
      },
      {
+      "type": "curve",
+      "points": [
+       [
+        700,
+        790
+       ],
+       [
+        760,
+        860
+       ],
+       [
+        900,
+        915
+       ],
+       [
+        1080,
+        890
+       ],
+       [
+        1250,
+        935
+       ],
+       [
+        1400,
+        965
+       ]
+      ],
+      "color": "#5d6b45",
+      "width": 50,
+      "boil": 0.3,
+      "appear": 0.25
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        1400,
+        965
+       ],
+       [
+        1450,
+        975
+       ],
+       [
+        1500,
+        990
+       ]
+      ],
+      "color": "#5d6b45",
+      "width": 26,
+      "boil": 0.3,
+      "appear": 0.25
+     },
+     {
       "type": "asset",
       "name": "water_splash_small",
-      "x": 640,
+      "x": 700,
       "y": 795,
       "scale": 0.5
      },
      {
       "type": "asset",
       "name": "capybara",
-      "x": 900,
+      "x": 880,
       "y": 860,
       "scale": 0.7
      },
@@ -33847,19 +33912,10 @@
       "fill": "#ffffff"
      },
      {
-      "type": "asset",
-      "name": "green_anaconda",
-      "x": 1200,
-      "y": 900,
-      "scale": 0.8,
-      "flip": true,
-      "appear": 0.25
-     },
-     {
       "type": "label",
       "text": "WRAP",
-      "x": 1300,
-      "y": 560,
+      "x": 1250,
+      "y": 600,
       "size": 56,
       "bold": true,
       "boil": 0.3,
@@ -33869,14 +33925,14 @@
      {
       "type": "arrow",
       "from": [
-       1400,
-       760
+       1420,
+       880
       ],
       "to": [
-       1100,
-       760
+       1130,
+       820
       ],
-      "bend": -60,
+      "bend": -40,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
@@ -33934,8 +33990,8 @@
      {
       "type": "asset",
       "name": "anaconda_head_open",
-      "x": 640,
-      "y": 780,
+      "x": 700,
+      "y": 835,
       "scale": 0.6
      },
      {
@@ -33992,14 +34048,14 @@
      {
       "type": "asset",
       "name": "water_splash_small",
-      "x": 640,
+      "x": 700,
       "y": 795,
       "scale": 0.5
      },
      {
       "type": "asset",
       "name": "capybara",
-      "x": 900,
+      "x": 880,
       "y": 860,
       "scale": 0.7
      },
@@ -55043,7 +55099,7 @@
       "text": "CAIMAN",
       "x": 940,
       "y": 572,
-      "size": 34,
+      "size": 48,
       "color": "#ffffff",
       "bold": true,
       "boil": 0,
@@ -55552,7 +55608,7 @@
       "text": "CAIMAN",
       "x": 540,
       "y": 572,
-      "size": 34,
+      "size": 48,
       "color": "#ffffff",
       "bold": true,
       "boil": 0
@@ -60730,17 +60786,17 @@
      {
       "type": "asset",
       "name": "calendar",
-      "x": 1500,
-      "y": 420,
-      "scale": 0.7,
+      "x": 1480,
+      "y": 470,
+      "scale": 1.0,
       "appear": 0.2
      },
      {
       "type": "text",
       "text": "MONTHS",
-      "x": 1500,
-      "y": 434,
-      "size": 32,
+      "x": 1480,
+      "y": 490,
+      "size": 50,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
