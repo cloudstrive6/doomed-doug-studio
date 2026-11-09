@@ -1,0 +1,147 @@
+{
+ "background": "#1d2c6e",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#1d2c6e",
+   "color": "#1d2c6e",
+   "width": 0,
+   "boil": 0,
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 330,
+   "y": 250,
+   "r": 150,
+   "fill": "#fff4c2",
+   "color": "#fff4c2",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 430,
+   "w": 1280,
+   "h": 290,
+   "fill": "#0a1414",
+   "color": "#0a1414",
+   "width": 0,
+   "boil": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     430
+    ],
+    [
+     1280,
+     430
+    ]
+   ],
+   "color": "#3a5a8a",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 330,
+   "y": 420,
+   "scale": 0.62,
+   "pose": "walk1",
+   "expression": "gritted",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0,
+   "gear": [
+    "sweat"
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 430,
+   "w": 1280,
+   "h": 290,
+   "fill": "#0a1414",
+   "color": "#0a1414",
+   "width": 0,
+   "boil": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     430
+    ],
+    [
+     1280,
+     430
+    ]
+   ],
+   "color": "#3a5a8a",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     260,
+     432
+    ],
+    [
+     400,
+     432
+    ]
+   ],
+   "color": "#9fb8d8",
+   "width": 4,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "anaconda_eyes_water",
+   "x": 880,
+   "y": 515,
+   "scale": 4.0,
+   "flip": false,
+   "rotate": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "TWO BUMPS",
+   "x": 640,
+   "y": 640,
+   "size": 124,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1200,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

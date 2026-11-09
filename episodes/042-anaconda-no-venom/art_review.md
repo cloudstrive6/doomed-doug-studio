@@ -115,3 +115,35 @@ the red mouth interiors and the throat cutaway are all flat cartoon.
 - s074/s143 have thought-bubble episode tags ("010", "027") at about 20 px. They are fine as easter eggs, but they don't need to be read.
 
 Note: I re-rendered the full keyframe set (172 frames) after the fixes, so `build/contact/` reflects the current shotlist.
+
+---
+
+# 042 art review, round 3: boa assets + keyframe re-review (art director, 2026-11-09)
+
+## Verdict: PASS (4 new assets approved; all 4 round-2 keyframe fixes done)
+
+## New assets: PASS (`assets/previews/042-assets-boa.png`, with `anaconda_coiled` beside them for comparison)
+- `boa_constrictor_coiled`: tan with dark red-brown saddles and pale ringed spots. It has the same coil footprint as `anaconda_coiled`
+  but is clearly a different snake. This is the detailed tier (belly band, scale ticks, layered shading). Approved.
+- `boa_wrap_back` / `boa_wrap_front`: the pair lines up and matches the coiled boa's palette. They read as a boa on the rat at 0.45 too. Approved.
+- `boa_body_side`: a clean diagram body with saddles, rib lines and a red-brown tail. It works with the cuff (s104) and the rib highlight (s105). Approved.
+- None of them are gory, and all of them are on-palette.
+
+## Round-2 fixes, checked on the re-rendered contact sheets (s001 skipped, thumbnail placeholder)
+1. Breeding-ball repetition: fixed. s043 is now a close crop with Doug peeking in, s045 is a cream diagram with 13 males and "USUALLY 3"
+   circled, and s054 is a cream calendar, coiled female and plate with a red "?". The run no longer repeats the same frame.
+2. Boa vs anaconda: fixed. s081-s084, s096-s099 and s106 use the boa, and s089 puts the tan "BOAS" next to the green "ANACONDAS INCLUDED", so the difference is visible.
+3. s159/s160: fixed. s159 shows the strike at 2 field assistants in night palette, and s160 shows the clipboards with a red "?", Doug, and "VERY FEW, HARD TO VERIFY".
+4. s109: fixed. The flatline is now on a `heart_monitor`.
+
+## Fixed by the art director this round (shotlist.json, re-rendered, verified)
+1. **s080**: the "BOA CONSTRICTOR" label sat over the green anaconda wrap. I swapped it to `boa_wrap_back`/`boa_wrap_front`.
+2. **s085**: the small coil beside the "4x SLOWER" monitor (the 2015 boa study) is now `boa_wrap_*`.
+3. **s118 / s119**: the throat cutaway looked like a floating eyeball (a lens shape with a round brown pupil). I added a spotted olive neck
+   with a pale belly band, running off the left edge behind the head. It now reads as a snake's head with a full mouth.
+
+Full keyframe set re-rendered (172 frames), so `build/contact/` is current.
+
+### Notes (not blocking)
+- At the s118/s119 cutaway, a thin black seam shows where the neck joins the head. It isn't visible at playback size.
+- s158 is still a single text-only grey card ("THE HONEST PART"). That's fine as a one-beat pause.
