@@ -74,6 +74,344 @@
    "wobble": 0
   },
   {
+   "type": "group",
+   "x": 1430,
+   "y": 780,
+   "scale": 1.75,
+   "flip": true,
+   "_note": "softened cheek ruff over amur_tiger (visual review 041 round 1)",
+   "elements": [
+    {
+     "type": "group",
+     "x": 238,
+     "y": -228,
+     "elements": [
+      {
+       "type": "poly",
+       "points": [
+        [
+         -46,
+         -26
+        ],
+        [
+         -74,
+         -14
+        ],
+        [
+         -90,
+         10
+        ],
+        [
+         -84,
+         36
+        ],
+        [
+         -58,
+         52
+        ],
+        [
+         -26,
+         50
+        ],
+        [
+         0,
+         40
+        ],
+        [
+         4,
+         30
+        ],
+        [
+         -24,
+         14
+        ],
+        [
+         -40,
+         -4
+        ]
+       ],
+       "fill": "#fbf4e6",
+       "width": 4,
+       "color": "#000000",
+       "smooth": true
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         -66,
+         10
+        ],
+        [
+         -44,
+         14
+        ]
+       ],
+       "width": 2,
+       "color": "#c9b9a0"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         -62,
+         30
+        ],
+        [
+         -36,
+         28
+        ]
+       ],
+       "width": 2,
+       "color": "#c9b9a0"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         34,
+         -6
+        ],
+        [
+         58,
+         -14
+        ],
+        [
+         72,
+         2
+        ],
+        [
+         68,
+         22
+        ],
+        [
+         46,
+         32
+        ],
+        [
+         28,
+         20
+        ]
+       ],
+       "fill": "#fbf4e6",
+       "width": 0,
+       "color": "#000000",
+       "smooth": true,
+       "outline": false
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         -62,
+         -25
+        ],
+        [
+         -42,
+         -54
+        ],
+        [
+         -6,
+         -64
+        ],
+        [
+         30,
+         -58
+        ],
+        [
+         52,
+         -40
+        ],
+        [
+         66,
+         -18
+        ],
+        [
+         72,
+         4
+        ],
+        [
+         64,
+         24
+        ],
+        [
+         42,
+         34
+        ],
+        [
+         10,
+         40
+        ],
+        [
+         -25,
+         42
+        ],
+        [
+         -55,
+         30
+        ],
+        [
+         -68,
+         5
+        ]
+       ],
+       "fill": null,
+       "width": 6,
+       "color": "#000000",
+       "smooth": true
+      },
+      {
+       "type": "ellipse",
+       "x": 26,
+       "y": -36,
+       "rx": 17,
+       "ry": 8,
+       "fill": "#fbf4e6",
+       "width": 0,
+       "color": "#000000",
+       "outline": false
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         16,
+         -27
+        ],
+        [
+         29,
+         -33
+        ],
+        [
+         42,
+         -28
+        ],
+        [
+         29,
+         -23
+        ]
+       ],
+       "fill": "#d8a21a",
+       "width": 3,
+       "color": "#000000",
+       "smooth": false
+      },
+      {
+       "type": "ellipse",
+       "x": 30,
+       "y": -28,
+       "rx": 2.5,
+       "ry": 4,
+       "fill": "#1a1a1a",
+       "width": 0,
+       "color": "#000000",
+       "outline": false
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         14,
+         -36
+        ],
+        [
+         44,
+         -38
+        ]
+       ],
+       "width": 4,
+       "color": "#000000"
+      },
+      {
+       "type": "poly",
+       "points": [
+        [
+         56,
+         -15
+        ],
+        [
+         73,
+         -11
+        ],
+        [
+         68,
+         -2
+        ]
+       ],
+       "fill": "#c46a6a",
+       "width": 3,
+       "color": "#000000",
+       "smooth": false
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         68,
+         -2
+        ],
+        [
+         67,
+         12
+        ]
+       ],
+       "width": 3,
+       "color": "#000000"
+      },
+      {
+       "type": "line",
+       "points": [
+        [
+         67,
+         12
+        ],
+        [
+         46,
+         20
+        ]
+       ],
+       "width": 3,
+       "color": "#000000"
+      },
+      {
+       "type": "ellipse",
+       "x": 48,
+       "y": 6,
+       "rx": 1.8,
+       "ry": 1.8,
+       "fill": "#1a1a1a",
+       "width": 0,
+       "color": "#000000",
+       "outline": false
+      },
+      {
+       "type": "ellipse",
+       "x": 54,
+       "y": 10,
+       "rx": 1.8,
+       "ry": 1.8,
+       "fill": "#1a1a1a",
+       "width": 0,
+       "color": "#000000",
+       "outline": false
+      },
+      {
+       "type": "ellipse",
+       "x": 48,
+       "y": 14,
+       "rx": 1.8,
+       "ry": 1.8,
+       "fill": "#1a1a1a",
+       "width": 0,
+       "color": "#000000",
+       "outline": false
+      }
+     ],
+     "scale": 1.22
+    }
+   ]
+  },
+  {
    "type": "poly",
    "points": [
     [
@@ -134,7 +472,7 @@
   },
   {
    "type": "doug",
-   "x": 790,
+   "x": 760,
    "y": 545,
    "scale": 0.55,
    "pose": "arms_up",

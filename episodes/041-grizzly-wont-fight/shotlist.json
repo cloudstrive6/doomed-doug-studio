@@ -3948,150 +3948,18 @@
      },
      {
       "type": "asset",
-      "name": "stick_man_plain",
-      "x": 560,
-      "y": 850,
-      "scale": 0.32,
-      "appear": 0.0
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 645,
-      "y": 850,
-      "scale": 0.32,
-      "appear": 0.04
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 730,
-      "y": 850,
-      "scale": 0.32,
-      "appear": 0.08
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 815,
-      "y": 850,
-      "scale": 0.32,
-      "appear": 0.12
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 900,
-      "y": 850,
-      "scale": 0.32,
-      "appear": 0.16
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 985,
-      "y": 850,
-      "scale": 0.32,
-      "appear": 0.2
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 560,
-      "y": 800,
-      "scale": 0.32,
-      "appear": 0.24
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 645,
-      "y": 800,
-      "scale": 0.32,
-      "appear": 0.28
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 730,
-      "y": 800,
-      "scale": 0.32,
-      "appear": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 815,
-      "y": 800,
-      "scale": 0.32,
-      "appear": 0.36
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 900,
-      "y": 800,
-      "scale": 0.32,
-      "appear": 0.4
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 985,
-      "y": 800,
-      "scale": 0.32,
-      "appear": 0.44
-     },
-     {
-      "type": "asset",
-      "name": "small_table",
+      "name": "pizza_table_twelve",
       "x": 780,
-      "y": 960,
-      "scale": 1.2
+      "y": 980,
+      "scale": 1.0
      },
      {
       "type": "asset",
       "name": "pizza_box",
       "x": 780,
-      "y": 590,
-      "scale": 0.7,
-      "appear": 0.35
-     },
-     {
-      "type": "asset",
-      "name": "paring_knife",
-      "x": 560,
-      "y": 720,
-      "scale": 0.3,
-      "rotate": -30,
-      "appear": 0.55
-     },
-     {
-      "type": "asset",
-      "name": "paring_knife",
-      "x": 730,
-      "y": 720,
-      "scale": 0.3,
-      "rotate": -30,
-      "appear": 0.55
-     },
-     {
-      "type": "asset",
-      "name": "paring_knife",
-      "x": 900,
-      "y": 720,
-      "scale": 0.3,
-      "rotate": -30,
-      "appear": 0.55
-     },
-     {
-      "type": "asset",
-      "name": "paring_knife",
-      "x": 1070,
-      "y": 720,
-      "scale": 0.3,
-      "rotate": -30,
-      "appear": 0.55
+      "y": 635,
+      "scale": 0.6,
+      "appear": 0.3
      },
      {
       "type": "wordart",
@@ -4100,11 +3968,11 @@
       "y": 380,
       "size": 96,
       "boil": 0,
-      "appear": 0.7
+      "appear": 0.6
      },
      {
       "type": "doug",
-      "x": 1560,
+      "x": 1600,
       "y": 895.3,
       "scale": 0.36,
       "pose": "stand",
@@ -4162,101 +4030,17 @@
      },
      {
       "type": "asset",
-      "name": "stick_man_plain",
-      "x": 560,
-      "y": 850,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 645,
-      "y": 850,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 730,
-      "y": 850,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 815,
-      "y": 850,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 900,
-      "y": 850,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 985,
-      "y": 850,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 560,
-      "y": 800,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 645,
-      "y": 800,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 730,
-      "y": 800,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 815,
-      "y": 800,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 900,
-      "y": 800,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "stick_man_plain",
-      "x": 985,
-      "y": 800,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "small_table",
+      "name": "pizza_table_twelve",
       "x": 780,
-      "y": 960,
-      "scale": 1.2
+      "y": 980,
+      "scale": 1.0
      },
      {
       "type": "asset",
       "name": "pizza_box",
       "x": 780,
-      "y": 590,
-      "scale": 0.7
+      "y": 635,
+      "scale": 0.6
      },
      {
       "type": "asset",
@@ -4269,15 +4053,23 @@
      },
      {
       "type": "rect",
-      "x": 600,
-      "y": 520,
-      "w": 360,
-      "h": 150,
+      "x": 560,
+      "y": 440,
+      "w": 440,
+      "h": 300,
       "fill": "#f4f1dc",
       "color": "#f4f1dc",
       "width": 0,
       "boil": 0,
       "outline": false,
+      "appear": 0.42
+     },
+     {
+      "type": "asset",
+      "name": "pizza_table_twelve",
+      "x": 780,
+      "y": 980,
+      "scale": 1.0,
       "appear": 0.42
      },
      {
@@ -4296,14 +4088,6 @@
       "size": 100,
       "boil": 0,
       "appear": 0.6
-     },
-     {
-      "type": "asset",
-      "name": "question_mark",
-      "x": 1080,
-      "y": 300,
-      "scale": 0.4,
-      "appear": 0.75
      },
      {
       "type": "label",
@@ -4490,20 +4274,128 @@
       "type": "rect",
       "x": 0,
       "y": 0,
-      "w": 960,
+      "w": 1920,
       "h": 1080,
-      "fill": "#f4f1dc",
-      "color": "#f4f1dc",
+      "fill": "#cfe9ff",
+      "color": "#cfe9ff",
       "width": 0,
       "boil": 0,
       "outline": false
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        -20,
+        600
+       ],
+       [
+        0,
+        460
+       ],
+       [
+        260,
+        380
+       ],
+       [
+        520,
+        470
+       ],
+       [
+        820,
+        410
+       ],
+       [
+        1120,
+        480
+       ],
+       [
+        1420,
+        395
+       ],
+       [
+        1700,
+        460
+       ],
+       [
+        1920,
+        420
+       ],
+       [
+        1940,
+        600
+       ]
+      ],
+      "fill": "#b9cde0",
+      "color": "#5a6878",
+      "width": 3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        200,
+        425
+       ],
+       [
+        260,
+        380
+       ],
+       [
+        320,
+        425
+       ]
+      ],
+      "fill": "#f7fbff",
+      "color": "#5a6878",
+      "width": 2
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        760,
+        455
+       ],
+       [
+        820,
+        410
+       ],
+       [
+        880,
+        455
+       ]
+      ],
+      "fill": "#f7fbff",
+      "color": "#5a6878",
+      "width": 2
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1360,
+        440
+       ],
+       [
+        1420,
+        395
+       ],
+       [
+        1480,
+        440
+       ]
+      ],
+      "fill": "#f7fbff",
+      "color": "#5a6878",
+      "width": 2
+     },
+     {
       "type": "rect",
-      "x": 960,
-      "y": 0,
-      "w": 960,
-      "h": 1080,
+      "x": 0,
+      "y": 600,
+      "w": 1920,
+      "h": 480,
       "fill": "#f7fbff",
       "color": "#f7fbff",
       "width": 0,
@@ -4511,91 +4403,120 @@
       "outline": false
      },
      {
-      "type": "line",
+      "type": "curve",
       "points": [
        [
-        960,
-        60
+        -20,
+        600
        ],
        [
-        960,
-        1080
+        400,
+        594
+       ],
+       [
+        900,
+        604
+       ],
+       [
+        1400,
+        595
+       ],
+       [
+        1940,
+        602
        ]
       ],
       "color": "#000000",
-      "width": 6
+      "width": 4
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 860,
+      "r": 900,
+      "color": "#dce8f2",
+      "density": 0.015
      },
      {
       "type": "asset",
       "name": "carcass_outline",
-      "x": 520,
-      "y": 820,
-      "scale": 0.5
+      "x": 920,
+      "y": 880,
+      "scale": 0.55
      },
      {
       "type": "asset",
-      "name": "grizzly_bear",
-      "x": 380,
-      "y": 800,
-      "scale": 0.5
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        636.0,
-        470
-       ],
-       [
-        684.0,
-        524.4
-       ],
-       [
-        780.0,
-        390.0
-       ]
-      ],
-      "color": "#2fae3a",
-      "width": 25.6
-     },
-     {
-      "type": "asset",
-      "name": "grizzly_running",
-      "x": 1320,
-      "y": 820,
-      "scale": 0.42
-     },
-     {
-      "type": "asset",
-      "name": "grey_wolf",
-      "x": 1680,
+      "name": "grey_wolf_sitting",
+      "x": 260,
       "y": 820,
       "scale": 0.28
      },
      {
       "type": "asset",
-      "name": "red_x",
-      "x": 1460,
-      "y": 680,
-      "scale": 1.0
+      "name": "grey_wolf_sitting",
+      "x": 420,
+      "y": 900,
+      "scale": 0.28
+     },
+     {
+      "type": "asset",
+      "name": "grey_wolf_sitting",
+      "x": 220,
+      "y": 990,
+      "scale": 0.28
+     },
+     {
+      "type": "asset",
+      "name": "carcass_outline",
+      "x": 880,
+      "y": 900,
+      "scale": 0.45
+     },
+     {
+      "type": "asset",
+      "name": "grizzly_bear",
+      "x": 1220,
+      "y": 900,
+      "scale": 0.5
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        520,
+        940
+       ],
+       [
+        700,
+        920
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 5,
+      "dash": [
+       14,
+       12
+      ],
+      "appear": 0.25
      },
      {
       "type": "wordart",
       "text": "LEAVES THEM",
-      "x": 480,
-      "y": 250,
+      "x": 960,
+      "y": 420,
       "size": 90,
       "boil": 0,
       "appear": 0.4
      },
      {
       "type": "doug",
-      "x": 860,
+      "x": 1700,
       "y": 944.4,
       "scale": 0.3,
       "pose": "shrug",
       "expression": "flat",
-      "facing": "right"
+      "facing": "left",
+      "appear": 0.65
      },
      {
       "type": "label",
@@ -12307,9 +12228,9 @@
      {
       "type": "asset",
       "name": "grizzly_paw",
-      "x": 1360,
+      "x": 1450,
       "y": 720,
-      "scale": 0.8,
+      "scale": 1.2,
       "appear": 0.15
      },
      {
@@ -16677,16 +16598,26 @@
      },
      {
       "type": "asset",
-      "name": "moose_front_leg",
+      "name": "moose_bull_rearing",
+      "x": 620,
+      "y": 1010,
+      "scale": 1.3
+     },
+     {
+      "type": "ellipse",
       "x": 800,
-      "y": 580,
-      "scale": 1.0
+      "y": 390,
+      "rx": 190,
+      "ry": 120,
+      "color": "#e0201b",
+      "width": 8,
+      "appear": 0.25
      },
      {
       "type": "label",
       "text": "FRONT LEGS",
-      "x": 800,
-      "y": 960,
+      "x": 1250,
+      "y": 560,
       "size": 48,
       "bold": true,
       "boil": 0.3,
@@ -16694,8 +16625,24 @@
       "appear": 0.4
      },
      {
+      "type": "arrow",
+      "from": [
+       1080,
+       540
+      ],
+      "to": [
+       990,
+       430
+      ],
+      "bend": -30,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.4
+     },
+     {
       "type": "doug",
-      "x": 1500,
+      "x": 1650,
       "y": 905.3,
       "scale": 0.36,
       "pose": "stand",
@@ -16753,20 +16700,29 @@
      },
      {
       "type": "asset",
-      "name": "moose_front_leg",
+      "name": "moose_bull_rearing",
+      "x": 620,
+      "y": 1010,
+      "scale": 1.3
+     },
+     {
+      "type": "ellipse",
       "x": 800,
-      "y": 580,
-      "scale": 1.0
+      "y": 390,
+      "rx": 190,
+      "ry": 120,
+      "color": "#e0201b",
+      "width": 8
      },
      {
       "type": "arrow",
       "from": [
-       900,
-       760
+       930,
+       300
       ],
       "to": [
-       900,
-       440
+       930,
+       90
       ],
       "bend": 0,
       "color": "#e0201b",
@@ -16777,12 +16733,12 @@
      {
       "type": "arrow",
       "from": [
-       880,
-       780
+       950,
+       360
       ],
       "to": [
-       1180,
-       700
+       1260,
+       330
       ],
       "bend": -40,
       "color": "#e0201b",
@@ -16793,12 +16749,12 @@
      {
       "type": "arrow",
       "from": [
-       760,
-       800
+       980,
+       430
       ],
       "to": [
-       460,
-       800
+       1250,
+       560
       ],
       "bend": 40,
       "color": "#e0201b",
@@ -16809,36 +16765,36 @@
      {
       "type": "arrow",
       "from": [
-       1000,
-       300
+       1010,
+       450
       ],
       "to": [
-       960,
+       1010,
        760
       ],
-      "bend": 50,
+      "bend": 0,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
       "appear": 0.7
      },
      {
+      "type": "wordart",
+      "text": "EVERY WAY",
+      "x": 1420,
+      "y": 800,
+      "size": 90,
+      "boil": 0,
+      "appear": 0.85
+     },
+     {
       "type": "doug",
-      "x": 1500,
+      "x": 1720,
       "y": 905.3,
       "scale": 0.36,
       "pose": "stand",
       "expression": "shock",
       "facing": "left"
-     },
-     {
-      "type": "wordart",
-      "text": "EVERY WAY",
-      "x": 1460,
-      "y": 360,
-      "size": 90,
-      "boil": 0,
-      "appear": 0.85
      },
      {
       "type": "label",
@@ -17336,7 +17292,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1050,
       "y": 600,
       "scale": 0.9,
@@ -17344,7 +17300,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1210,
       "y": 600,
       "scale": 0.9,
@@ -17352,7 +17308,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1370,
       "y": 600,
       "scale": 0.9,
@@ -17360,7 +17316,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1530,
       "y": 600,
       "scale": 0.9,
@@ -17445,28 +17401,28 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1050,
       "y": 600,
       "scale": 0.9
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1210,
       "y": 600,
       "scale": 0.9
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1370,
       "y": 600,
       "scale": 0.9
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1530,
       "y": 600,
       "scale": 0.9
@@ -17780,7 +17736,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 420,
       "y": 440,
       "scale": 0.6,
@@ -17788,7 +17744,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 540,
       "y": 440,
       "scale": 0.6,
@@ -17796,7 +17752,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 660,
       "y": 440,
       "scale": 0.6,
@@ -17804,7 +17760,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 780,
       "y": 440,
       "scale": 0.6,
@@ -17812,7 +17768,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 900,
       "y": 440,
       "scale": 0.6,
@@ -17820,7 +17776,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1020,
       "y": 440,
       "scale": 0.6,
@@ -17828,7 +17784,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1140,
       "y": 440,
       "scale": 0.6,
@@ -17836,7 +17792,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1260,
       "y": 440,
       "scale": 0.6,
@@ -17844,7 +17800,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 420,
       "y": 550,
       "scale": 0.6,
@@ -17852,7 +17808,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 540,
       "y": 550,
       "scale": 0.6,
@@ -17860,7 +17816,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 660,
       "y": 550,
       "scale": 0.6,
@@ -17868,7 +17824,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 780,
       "y": 550,
       "scale": 0.6,
@@ -17876,7 +17832,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 900,
       "y": 550,
       "scale": 0.6,
@@ -17884,7 +17840,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1020,
       "y": 550,
       "scale": 0.6,
@@ -17892,7 +17848,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1140,
       "y": 550,
       "scale": 0.6,
@@ -17900,7 +17856,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1260,
       "y": 550,
       "scale": 0.6,
@@ -17908,7 +17864,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 420,
       "y": 660,
       "scale": 0.6,
@@ -17916,7 +17872,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 540,
       "y": 660,
       "scale": 0.6,
@@ -17924,7 +17880,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 660,
       "y": 660,
       "scale": 0.6,
@@ -17932,7 +17888,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 780,
       "y": 660,
       "scale": 0.6,
@@ -17940,7 +17896,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 900,
       "y": 660,
       "scale": 0.6,
@@ -17948,7 +17904,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1020,
       "y": 660,
       "scale": 0.6,
@@ -17956,7 +17912,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1140,
       "y": 660,
       "scale": 0.6,
@@ -17964,7 +17920,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 1260,
       "y": 660,
       "scale": 0.6,
@@ -17972,7 +17928,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 420,
       "y": 770,
       "scale": 0.6,
@@ -17980,7 +17936,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 540,
       "y": 770,
       "scale": 0.6,
@@ -17988,7 +17944,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 660,
       "y": 770,
       "scale": 0.6,
@@ -17996,7 +17952,7 @@
      },
      {
       "type": "asset",
-      "name": "moose_icon",
+      "name": "moose_cow_icon",
       "x": 780,
       "y": 770,
       "scale": 0.6,
@@ -20340,7 +20296,14 @@
       "name": "carcass_outline",
       "x": 960,
       "y": 900,
-      "scale": 0.7
+      "scale": 0.7,
+      "ink": "#000000"
+     },
+     {
+      "type": "fill",
+      "x": 1000,
+      "y": 840,
+      "color": "#4a2f1e"
      },
      {
       "type": "poly",
@@ -20597,7 +20560,14 @@
       "name": "carcass_outline",
       "x": 960,
       "y": 900,
-      "scale": 0.7
+      "scale": 0.7,
+      "ink": "#000000"
+     },
+     {
+      "type": "fill",
+      "x": 1000,
+      "y": 840,
+      "color": "#4a2f1e"
      },
      {
       "type": "poly",
@@ -22498,7 +22468,7 @@
      },
      {
       "type": "label",
-      "text": "DISEASE · RUT",
+      "text": "DISEASE \u00b7 RUT",
       "x": 1400,
       "y": 820,
       "size": 44,
@@ -23248,7 +23218,7 @@
       "text": "MARCH",
       "x": 1400,
       "y": 580,
-      "size": 56,
+      "size": 44,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -26148,6 +26118,14 @@
      },
      {
       "type": "asset",
+      "name": "grizzly_cub",
+      "x": 1340,
+      "y": 905,
+      "scale": 0.4,
+      "flip": true
+     },
+     {
+      "type": "asset",
       "name": "grizzly_bear",
       "x": 1100,
       "y": 900,
@@ -26158,13 +26136,13 @@
       "type": "arrow",
       "from": [
        640,
-       500
+       470
       ],
       "to": [
-       980,
-       760
+       1320,
+       780
       ],
-      "bend": -50,
+      "bend": -140,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
@@ -26173,8 +26151,8 @@
      {
       "type": "label",
       "text": "9 IN 10: ADULT MALES",
-      "x": 1200,
-      "y": 420,
+      "x": 960,
+      "y": 250,
       "size": 44,
       "bold": true,
       "boil": 0.3,
@@ -26183,7 +26161,7 @@
      },
      {
       "type": "doug",
-      "x": 1600,
+      "x": 1700,
       "y": 879.4,
       "scale": 0.3,
       "pose": "stand",
@@ -26740,6 +26718,15 @@
      },
      {
       "type": "asset",
+      "name": "grizzly_cub",
+      "x": 1640,
+      "y": 745,
+      "scale": 0.45,
+      "flip": true,
+      "appear": 0.2
+     },
+     {
+      "type": "asset",
       "name": "grizzly_bear",
       "x": 1340,
       "y": 740,
@@ -26748,30 +26735,26 @@
       "appear": 0.2
      },
      {
-      "type": "line",
-      "points": [
-       [
-        880,
-        640
-       ],
-       [
-        1120,
-        640
-       ]
+      "type": "arrow",
+      "from": [
+       860,
+       540
       ],
-      "color": "#2b2b2b",
-      "width": 5,
-      "dash": [
-       14,
-       12
+      "to": [
+       1590,
+       650
       ],
+      "bend": -90,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
       "appear": 0.35
      },
      {
       "type": "wordart",
       "text": "NOT HIS",
       "x": 960,
-      "y": 380,
+      "y": 240,
       "size": 100,
       "boil": 0,
       "appear": 0.5
@@ -33952,6 +33935,30 @@
       "scale": 0.5
      },
      {
+      "type": "asset",
+      "name": "amur_tiger_stalking",
+      "x": 330,
+      "y": 960,
+      "scale": 0.6,
+      "appear": 0.15
+     },
+     {
+      "type": "arrow",
+      "from": [
+       560,
+       850
+      ],
+      "to": [
+       760,
+       720
+      ],
+      "bend": -40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.3
+     },
+     {
       "type": "label",
       "text": "HUNTS BEARS: TIGER",
       "x": 960,
@@ -35414,37 +35421,92 @@
       "outline": false
      },
      {
+      "type": "line",
+      "points": [
+       [
+        300,
+        880
+       ],
+       [
+        1400,
+        880
+       ]
+      ],
+      "color": "#000000",
+      "width": 5,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 420,
+      "y": 320,
+      "w": 260,
+      "h": 560,
+      "fill": "#8a5a3a",
+      "color": "#000000",
+      "width": 4
+     },
+     {
       "type": "asset",
-      "name": "usa_map",
-      "x": 880,
-      "y": 600,
-      "scale": 1.2
+      "name": "bear_face_icon",
+      "x": 550,
+      "y": 260,
+      "scale": 0.9
      },
      {
-      "type": "ellipse",
-      "x": 581.2,
-      "y": 402.0,
-      "rx": 26,
-      "ry": 20,
-      "fill": "#8a5a3a",
-      "color": "#000000",
-      "width": 3
-     },
-     {
-      "type": "ellipse",
-      "x": 518.8,
-      "y": 309.6,
-      "rx": 22,
-      "ry": 18,
-      "fill": "#8a5a3a",
-      "color": "#000000",
-      "width": 3
+      "type": "text",
+      "text": "1800",
+      "x": 550,
+      "y": 930,
+      "size": 48,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0
      },
      {
       "type": "label",
-      "text": "1975: 700 TO 800",
-      "x": 960,
-      "y": 980,
+      "text": "50,000",
+      "x": 550,
+      "y": 600,
+      "size": 52,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff"
+     },
+     {
+      "type": "rect",
+      "x": 1000,
+      "y": 871,
+      "w": 260,
+      "h": 9,
+      "fill": "#8a5a3a",
+      "color": "#000000",
+      "width": 4,
+      "appear": 0.2
+     },
+     {
+      "type": "asset",
+      "name": "bear_face_icon",
+      "x": 1130,
+      "y": 820,
+      "scale": 0.9,
+      "appear": 0.2
+     },
+     {
+      "type": "text",
+      "text": "1975",
+      "x": 1130,
+      "y": 930,
+      "size": 48,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0
+     },
+     {
+      "type": "label",
+      "text": "700 TO 800",
+      "x": 1130,
+      "y": 550,
       "size": 52,
       "bold": true,
       "boil": 0.3,
@@ -35452,10 +35514,26 @@
       "appear": 0.3
      },
      {
+      "type": "arrow",
+      "from": [
+       720,
+       330
+      ],
+      "to": [
+       990,
+       820
+      ],
+      "bend": -40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.45
+     },
+     {
       "type": "doug",
-      "x": 1700,
+      "x": 1650,
       "y": 957.4,
-      "scale": 0.28,
+      "scale": 0.32,
       "pose": "stand",
       "expression": "sad",
       "facing": "left",
@@ -35512,37 +35590,90 @@
       "outline": false
      },
      {
+      "type": "line",
+      "points": [
+       [
+        300,
+        880
+       ],
+       [
+        1400,
+        880
+       ]
+      ],
+      "color": "#000000",
+      "width": 5,
+      "boil": 0
+     },
+     {
+      "type": "rect",
+      "x": 420,
+      "y": 320,
+      "w": 260,
+      "h": 560,
+      "fill": "#8a5a3a",
+      "color": "#000000",
+      "width": 4
+     },
+     {
       "type": "asset",
-      "name": "usa_map",
-      "x": 880,
-      "y": 600,
-      "scale": 1.2
+      "name": "bear_face_icon",
+      "x": 550,
+      "y": 260,
+      "scale": 0.9
      },
      {
-      "type": "ellipse",
-      "x": 581.2,
-      "y": 402.0,
-      "rx": 26,
-      "ry": 20,
-      "fill": "#8a5a3a",
-      "color": "#000000",
-      "width": 3
-     },
-     {
-      "type": "ellipse",
-      "x": 518.8,
-      "y": 309.6,
-      "rx": 22,
-      "ry": 18,
-      "fill": "#8a5a3a",
-      "color": "#000000",
-      "width": 3
+      "type": "text",
+      "text": "1800",
+      "x": 550,
+      "y": 930,
+      "size": 48,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0
      },
      {
       "type": "label",
-      "text": "1975: 700 TO 800",
-      "x": 960,
-      "y": 980,
+      "text": "50,000",
+      "x": 550,
+      "y": 600,
+      "size": 52,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff"
+     },
+     {
+      "type": "rect",
+      "x": 1000,
+      "y": 871,
+      "w": 260,
+      "h": 9,
+      "fill": "#8a5a3a",
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "asset",
+      "name": "bear_face_icon",
+      "x": 1130,
+      "y": 820,
+      "scale": 0.9
+     },
+     {
+      "type": "text",
+      "text": "1975",
+      "x": 1130,
+      "y": 930,
+      "size": 48,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0
+     },
+     {
+      "type": "label",
+      "text": "700 TO 800",
+      "x": 1130,
+      "y": 690,
       "size": 52,
       "bold": true,
       "boil": 0.3,
@@ -35552,21 +35683,22 @@
       "type": "text",
       "text": "THREATENED",
       "x": 960,
-      "y": 600,
-      "size": 110,
+      "y": 480,
+      "size": 120,
       "color": "#e0201b",
       "bold": true,
       "boil": 0,
       "outline": "#000000",
       "outline_width": 4,
-      "appear": 0.3
+      "appear": 0.3,
+      "rotate": -8
      },
      {
       "type": "doug",
-      "x": 1700,
+      "x": 1650,
       "y": 957.4,
-      "scale": 0.28,
-      "pose": "stand",
+      "scale": 0.32,
+      "pose": "cower",
       "expression": "sad",
       "facing": "left"
      },
@@ -35622,30 +35754,32 @@
      },
      {
       "type": "asset",
-      "name": "usa_map",
+      "name": "usa_map_grizzly_1800",
       "x": 880,
-      "y": 600,
+      "y": 580,
       "scale": 1.2
      },
      {
       "type": "ellipse",
       "x": 581.2,
-      "y": 402.0,
+      "y": 382.0,
       "rx": 46,
       "ry": 34,
-      "fill": "#8a5a3a",
+      "fill": "#ffd23a",
       "color": "#000000",
-      "width": 3
+      "width": 4,
+      "appear": 0.15
      },
      {
       "type": "ellipse",
       "x": 518.8,
-      "y": 309.6,
+      "y": 289.6,
       "rx": 40,
       "ry": 30,
-      "fill": "#8a5a3a",
+      "fill": "#ffd23a",
       "color": "#000000",
-      "width": 3
+      "width": 4,
+      "appear": 0.15
      },
      {
       "type": "label",
@@ -35659,11 +35793,27 @@
       "appear": 0.15
      },
      {
+      "type": "arrow",
+      "from": [
+       560,
+       205
+      ],
+      "to": [
+       555,
+       330
+      ],
+      "bend": 40,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.55
+     },
+     {
       "type": "label",
-      "text": "6% OF THE RANGE",
-      "x": 1680,
-      "y": 620,
-      "size": 36,
+      "text": "6% OF THE OLD RANGE",
+      "x": 420,
+      "y": 180,
+      "size": 40,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
@@ -35709,6 +35859,12 @@
       "text_color": "#e0201b"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 700,
+    "y": 500,
+    "zoom": 1.08
    }
   },
   {
@@ -35732,45 +35888,44 @@
      {
       "type": "asset",
       "name": "usa_map",
-      "x": 880,
-      "y": 600,
-      "scale": 1.2
+      "x": 1725,
+      "y": 1169,
+      "scale": 3.0
      },
      {
       "type": "ellipse",
-      "x": 581.2,
-      "y": 402.0,
-      "rx": 46,
-      "ry": 34,
+      "x": 978.0,
+      "y": 674.0,
+      "rx": 115,
+      "ry": 85,
       "fill": "#8a5a3a",
       "color": "#000000",
-      "width": 3
+      "width": 4
      },
      {
       "type": "ellipse",
-      "x": 518.8,
-      "y": 309.6,
-      "rx": 40,
-      "ry": 30,
+      "x": 822.0,
+      "y": 443.0,
+      "rx": 100,
+      "ry": 75,
       "fill": "#8a5a3a",
       "color": "#000000",
-      "width": 3
+      "width": 4
      },
      {
       "type": "circle",
-      "x": 581.2,
-      "y": 402.0,
-      "r": 70,
+      "x": 978.0,
+      "y": 674.0,
+      "r": 130,
       "color": "#e0201b",
-      "width": 7,
-      "fill": null,
+      "width": 8,
       "appear": 0.1
      },
      {
       "type": "label",
       "text": "YELLOWSTONE: ~1,000",
-      "x": 560,
-      "y": 980,
+      "x": 1038.0,
+      "y": 904.0,
       "size": 44,
       "bold": true,
       "boil": 0.3,
@@ -35779,19 +35934,18 @@
      },
      {
       "type": "circle",
-      "x": 518.8,
-      "y": 309.6,
-      "r": 64,
+      "x": 822.0,
+      "y": 443.0,
+      "r": 115,
       "color": "#e0201b",
-      "width": 7,
-      "fill": null,
+      "width": 8,
       "appear": 0.55
      },
      {
       "type": "label",
       "text": "MONTANA ROCKIES",
-      "x": 1320,
-      "y": 980,
+      "x": 802.0,
+      "y": 243.0,
       "size": 44,
       "bold": true,
       "boil": 0.3,
@@ -35800,10 +35954,10 @@
      },
      {
       "type": "doug",
-      "x": 1700,
-      "y": 720.5,
-      "scale": 0.26,
-      "pose": "stand",
+      "x": 1600,
+      "y": 957.4,
+      "scale": 0.3,
+      "pose": "point",
       "expression": "flat",
       "facing": "left"
      },
@@ -39289,36 +39443,37 @@
      },
      {
       "type": "asset",
-      "name": "grizzly_bear",
-      "x": 1560,
+      "name": "grizzly_running",
+      "x": 520,
       "y": 760,
-      "scale": 0.42
+      "scale": 0.4,
+      "flip": true
+     },
+     {
+      "type": "asset",
+      "name": "exclamation_mark",
+      "x": 520,
+      "y": 560,
+      "scale": 0.6,
+      "appear": 0.25
      },
      {
       "type": "doug",
-      "x": 800,
-      "y": 931.6,
-      "scale": 0.45,
-      "pose": "stand",
+      "x": 1300,
+      "y": 860,
+      "scale": 0.62,
+      "pose": "arms_up",
       "expression": "hopeful",
-      "facing": "right"
+      "facing": "left"
      },
      {
       "type": "wordart",
       "text": "SCARIEST ANIMAL",
       "x": 960,
-      "y": 400,
+      "y": 330,
       "size": 96,
       "boil": 0,
-      "appear": 0.4
-     },
-     {
-      "type": "asset",
-      "name": "exclamation_mark",
-      "x": 1620,
-      "y": 520,
-      "scale": 0.7,
-      "appear": 0.6
+      "appear": 0.45
      },
      {
       "type": "label",
@@ -39364,18 +39519,6 @@
       "y": 0,
       "w": 1920,
       "h": 1080,
-      "fill": "#e88a4a",
-      "color": "#e88a4a",
-      "width": 0,
-      "boil": 0,
-      "outline": false
-     },
-     {
-      "type": "rect",
-      "x": 0,
-      "y": 0,
-      "w": 1920,
-      "h": 330,
       "fill": "#f2a24a",
       "color": "#f2a24a",
       "width": 0,
@@ -39383,126 +39526,20 @@
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "pine_tree",
-      "x": 90,
-      "y": 650,
-      "scale": 0.6
-     },
-     {
-      "type": "asset",
-      "name": "pine_tree",
-      "x": 330,
-      "y": 650,
-      "scale": 0.45
-     },
-     {
-      "type": "asset",
-      "name": "pine_tree",
-      "x": 1600,
-      "y": 650,
-      "scale": 0.45
-     },
-     {
-      "type": "asset",
-      "name": "pine_tree",
-      "x": 1840,
-      "y": 650,
-      "scale": 0.6
-     },
-     {
-      "type": "rect",
-      "x": 0,
-      "y": 640,
-      "w": 1920,
-      "h": 440,
-      "fill": "#b8913a",
-      "color": "#b8913a",
-      "width": 0,
-      "boil": 0,
-      "outline": false
-     },
-     {
-      "type": "curve",
-      "points": [
-       [
-        -20,
-        640
-       ],
-       [
-        400,
-        634
-       ],
-       [
-        900,
-        644
-       ],
-       [
-        1400,
-        635
-       ],
-       [
-        1940,
-        642
-       ]
-      ],
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        700,
-        1090
-       ],
-       [
-        880,
-        640
-       ],
-       [
-        1040,
-        640
-       ],
-       [
-        1260,
-        1090
-       ]
-      ],
-      "fill": "#d9b45a",
-      "color": "#8a6a3a",
-      "width": 3
-     },
-     {
-      "type": "spray",
-      "x": 960,
-      "y": 880,
-      "r": 900,
-      "color": "#a8813a",
-      "density": 0.02
-     },
-     {
-      "type": "asset",
-      "name": "grizzly_bear",
-      "x": 1640,
-      "y": 740,
-      "scale": 0.36
-     },
-     {
       "type": "doug",
-      "x": 800,
-      "y": 924.0,
-      "scale": 0.5,
+      "x": 1050,
+      "y": 1010,
+      "scale": 1.7,
       "pose": "hands_hips",
-      "expression": "angry",
-      "facing": "right"
+      "expression": "flat",
+      "facing": "left"
      },
      {
       "type": "wordart",
       "text": "OFFENDED",
-      "x": 960,
-      "y": 400,
-      "size": 100,
+      "x": 470,
+      "y": 480,
+      "size": 110,
       "boil": 0,
       "appear": 0.3
      },

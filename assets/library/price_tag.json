@@ -1,6 +1,6 @@
 {
  "name": "price_tag",
- "description": "Small blank white paper price tag (030): clipped point at the left with a punched, reinforced hole and a loop of brown string, faint grey shadow along the bottom edge. Anchor centre, ~120x70 (x -62..60, y -30..30).",
+ "description": "Small blank white paper price tag (030; 041 fix): long clipped point at the left with a punched, reinforced hole set far left (x -44) and a loop of brown string, so text centred at x>=+8 clears the hole; faint grey shadow along the bottom edge. Writable area x -30..58. Anchor centre, ~122x56 (x -64..58, y -27..27) plus string to x -78.",
  "anchor": [
   0,
   0
@@ -17,27 +17,27 @@
    "type": "curve",
    "points": [
     [
-     -28,
+     -44,
      0
     ],
     [
-     -44,
-     -26
-    ],
-    [
      -60,
-     -22
+     -24
     ],
     [
-     -60,
-     4
+     -78,
+     -20
     ],
     [
-     -46,
+     -78,
+     6
+    ],
+    [
+     -62,
      18
     ],
     [
-     -28,
+     -44,
      0
     ]
    ],
@@ -48,7 +48,7 @@
    "type": "poly",
    "points": [
     [
-     -24,
+     -32,
      -26
     ],
     [
@@ -60,11 +60,11 @@
      26
     ],
     [
-     -24,
+     -32,
      27
     ],
     [
-     -46,
+     -64,
      0
     ]
    ],
@@ -76,7 +76,7 @@
    "type": "poly",
    "points": [
     [
-     -24,
+     -32,
      20
     ],
     [
@@ -88,12 +88,12 @@
      26
     ],
     [
-     -24,
+     -32,
      27
     ],
     [
-     -38,
-     9
+     -56,
+     8
     ]
    ],
    "fill": "#e2e2dc",
@@ -105,7 +105,7 @@
    "type": "line",
    "points": [
     [
-     -24,
+     -32,
      -26
     ],
     [
@@ -117,15 +117,15 @@
      26
     ],
     [
-     -24,
+     -32,
      27
     ],
     [
-     -46,
+     -64,
      0
     ],
     [
-     -24,
+     -32,
      -26
     ]
    ],
@@ -133,19 +133,21 @@
    "color": "#000000"
   },
   {
-   "type": "circle",
-   "x": -27,
+   "type": "ellipse",
+   "x": -44,
    "y": 0,
-   "r": 8,
+   "rx": 7,
+   "ry": 7,
    "fill": "#d6d0c4",
    "width": 3,
    "color": "#7a7a72"
   },
   {
-   "type": "circle",
-   "x": -27,
+   "type": "ellipse",
+   "x": -44,
    "y": 0,
-   "r": 3.5,
+   "rx": 3,
+   "ry": 3,
    "fill": "#5a5a52",
    "width": 0,
    "color": "#000000",
@@ -155,16 +157,16 @@
    "type": "curve",
    "points": [
     [
-     -27,
+     -44,
      0
     ],
     [
-     -36,
+     -52,
      -12
     ],
     [
-     -46,
-     -24
+     -62,
+     -22
     ]
    ],
    "width": 3,

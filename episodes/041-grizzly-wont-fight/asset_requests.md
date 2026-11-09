@@ -234,3 +234,17 @@ tell the director.
 - Shots: s172 (at scale 1.2, centred at (880, 600)). The 1975 and today maps are drawn in the shotlist as small brown patches on
 - **DONE** (illustrator, 2026-11-09): preview assets/previews/041-grizzly-wont-fight-assets-props-maps-2.png (range clipped at 100W = x -69)
   `usa_map` (Greater Yellowstone at local (-249,-165), Northern Continental Divide at (-301,-242)).
+
+## Visual review round 1 fixes (illustrator, 2026-11-09)
+
+### moose_cow_icon (review #2)
+- **DONE**: antlerless twin of `moose_icon`, with the same body polygon, centre anchor and footprint (x -66..66, y -57..57), facing right. It swaps 1:1 at the same x/y/scale. Preview: assets/previews/041-fix-r2.png
+
+### pizza_table_twelve (review #1, s016/s017)
+- **DONE**: new asset; `small_table` and `stick_man_plain` are unchanged. One long cloth table with 6 people seated behind it (faces and torsos above the tabletop) and 6 on a near bench seen from behind. Each person holds a raised knife. The cloth is complete, so the director can drop the 12 `stick_man_plain`, `small_table`, the separate `paring_knife` elements and the s017 cover rect. Anchor bottom-centre, x -480..480, y -585..0. Put `pizza_box` centred at local (0,-345) at 0.6 x the table's scale. Preview: assets/previews/041-fix-test.png
+
+### bison_calf (review #5, s115)
+- **DONE**: redrawn about 2x larger in local units (x -246..296, y -352..0, still bottom-centre), so s115 at scale 0.45 now shows it at about 2x the old size. Reddish-tan, shoulder hump, darker forequarters, low blocky head with a dark muzzle, horn nub, sturdy legs. Preview: assets/previews/041-fix-keyframes.png (s115)
+
+### price_tag (review #9, s004/s077)
+- **DONE**: the point is longer and the grommet moved to local x -44 (was -27), so text centred at the tag's +9 offset clears it. Extents x -64..58 plus the string to -78. Previews: assets/previews/041-fix-keyframes.png (s004, s077)
