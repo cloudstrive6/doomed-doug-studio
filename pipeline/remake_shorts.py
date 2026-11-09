@@ -137,8 +137,12 @@ def main(argv: list[str]) -> int:
         keep = {k: st[k] for k in ("embeddable", "license", "publicStatsViewable", "selfDeclaredMadeForKids") if k in st}
         api.videos().update(part="status", body={"id": old, "status": {**keep, "privacyStatus": "private",
                                                                          "publishAt": None}}).execute()
-        chk = api.videos().list(part="status", id=old).execute()["items"][0]["status"]
-        ok = chk.get("privacyStatus") == "private" and not chk.get("publishAt")
+        for _ in range(6):   # the API can return the old publishAt for a few seconds after the update
+            time.sleep(10)
+            chk = api.videos().list(part="status", id=old).execute()["items"][0]["status"]
+            ok = chk.get("privacyStatus") == "private" and not chk.get("publishAt")
+            if ok:
+                break
         s["replaced_cliffhanger"] = {"youtube_id": old, "publish_at": s.get("publish_at"),
                                      "uploaded_at": s.get("uploaded_at"), "related_set": s.get("related_set"),
                                      "unscheduled": ok, "note": "cliffhanger original; private, unscheduled; owner deletes in Studio"}

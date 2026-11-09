@@ -30,7 +30,7 @@
         "publish_at": "2026-11-11T00:00:00Z",
         "uploaded_at": "2026-11-02T19:27:03+00:00",
         "related_set": false,
-        "unscheduled": false,
+        "unscheduled": true,
         "note": "cliffhanger original; private, unscheduled; owner deletes in Studio"
       },
       "remade_at": "2026-11-09"
@@ -63,7 +63,7 @@
         "publish_at": "2026-11-11T14:00:00Z",
         "uploaded_at": "2026-11-02T19:27:05+00:00",
         "related_set": false,
-        "unscheduled": false,
+        "unscheduled": true,
         "note": "cliffhanger original; private, unscheduled; owner deletes in Studio"
       },
       "remade_at": "2026-11-09"
@@ -98,7 +98,7 @@
         "publish_at": "2026-11-11T19:00:00Z",
         "uploaded_at": "2026-11-02T19:27:08+00:00",
         "related_set": false,
-        "unscheduled": false,
+        "unscheduled": true,
         "note": "cliffhanger original; private, unscheduled; owner deletes in Studio"
       },
       "remade_at": "2026-11-09"
