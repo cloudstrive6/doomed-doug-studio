@@ -71,3 +71,31 @@ T3. **C (graphic designer, note).** Doug stands on a thin blue line on the water
 T4. **B (note).** B is the strongest at feed size: one focal point, Doug in a coil plus "IT SQUEEZES", and an X'd bottle that stands for "no venom". The bottle label is blank, but adding "VENOM" would break the brief's no-VENOM-on-image rule, so leave it.
 
 Re-screen needed: thumbnail A and s001 after T1.
+
+# 042 anaconda-no-venom: visual review, thumbnails + s001 (round 4, 2026-11-09)
+
+VERDICT: FAIL (thumbnail C only). Thumbnail A, thumbnail B and keyframe s001 pass.
+
+Scope: build/thumbnail.png, thumbnail_b.png and thumbnail_c.png, all 1280x720 and rendered at 18:42. Their _small versions are 168x94. I also checked build/keyframes/s001.png at 1920x1080. The A head and the C bumps were checked at 3x zoom.
+
+## Round-1 items: status
+| # | Item | Status |
+|---|---|---|
+| T1 | A/s001 thumbs_up read as a middle finger | FIXED. Doug now uses `point`: a straight horizontal arm aimed right at the head and "NOT A LOG", with a smiling, oblivious face. There is no hand shape left to misread. s001 matches A exactly at 1920, and the text is not cropped. |
+| T2 | Anaconda head reads as frog/turtle | A: FIXED. The head now has a low wedge with a pointed snout, a nostril dot and a red forked tongue, so it reads as a reptile and a snake. The eye ridge still leans a little crocodile, which is not blocking. C: NOT FIXED and now worse, see C1. |
+| T3 | C: Doug stands on a bare line | FIXED. There is now a ripple ring under his feet. |
+| T4 | B | Unchanged. PASS. |
+
+## Required fix (blocking)
+C1. **thumbnail_c.png (illustrator + graphic designer).** The "two bumps" are two separate round green domes. Each has a large yellow eye, and the two pupils don't match: the left one is a round dot and the right one is a crescent. That reads as a frog, or as googly meme eyes peeking out of the water, not as a snake. Nothing on the image says "snake": there is no snout, no tongue and no pattern, and the only cue is the dim underwater silhouette. At 168x94 the bumps are two small dark-green blobs on a near-black lake, so the threat is barely visible at all. Fix:
+   - Use one low, flat, wedge-shaped head breaking the surface, like A's head but mostly submerged. Put two small eye bumps on top of that single head, nostril bumps at the snout tip, and a short red forked tongue flick. Keep only the top third above the waterline.
+   - Make both pupils matching vertical slits.
+   - Move the head about 120 px closer to Doug and scale it up about 1.3x. Lift the underwater body silhouette a little, or add a few black anaconda spots to it, so the threat holds at feed size.
+
+## Creative-director check: clickability
+- **B: strongest.** One focal point, a panicked Doug fully wrapped, and "IT SQUEEZES" paired with an X'd bottle. With the title, that reads as "no venom, it squeezes" in under a second, and the colour pops on yellow. If the A/B/C test lets you choose a lead, B should be the primary.
+- **A: clickable.** The dramatic irony works: smiling Doug stands on the snake and points at "NOT A LOG". Orange on teal stands out in a feed. Weak spot: at 168x94 the body is a long spotted hump that could read as a crocodile until you spot the tongue. The title carries "anaconda", so this is acceptable.
+- **C: weakest, even after C1.** It is dark, the threat is small, and "TWO BUMPS" means nothing without the picture. Once fixed it is a fine test arm, but it should not be the lead.
+- Nothing is misleading against the title, and there is no gore or kids-show tone in any of the three.
+
+Re-screen needed: thumbnail_c.png (+ _small) only.

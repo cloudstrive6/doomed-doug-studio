@@ -1,0 +1,537 @@
+{
+ "name": "anaconda_head_submerged",
+ "description": "Green anaconda ambush head, facing right, side view, mostly submerged: ONE low flat wedge head (only the top third above water) tapering to a blunt snout, two small eye bumps on top (far one darker, behind), both yellow eyes with matching vertical slit pupils, two small nostril bumps at the snout tip, short red forked tongue flick, dark-orange eye stripe, a few black spots, pale ripple arcs. Water not drawn. Anchor on the waterline (y=0), ~265x38 (x -125..140, y -30..8). Use flip to face left. Pair with a spotted underwater body. Made for 042 thumbnail C (replaces anaconda_bumps_water there; not a frog: one head, slit pupils).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "creature",
+  "reptile",
+  "snake",
+  "anaconda",
+  "green anaconda",
+  "042",
+  "water",
+  "head",
+  "eyes",
+  "ambush",
+  "bumps",
+  "submerged"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 4,
+   "rx": 125,
+   "ry": 12,
+   "start": 195,
+   "end": 255,
+   "color": "#e8f2ec",
+   "width": 3,
+   "silhouette_keep": true
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 4,
+   "rx": 125,
+   "ry": 12,
+   "start": 285,
+   "end": 345,
+   "color": "#e8f2ec",
+   "width": 3,
+   "silhouette_keep": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -9.0,
+     -10.0
+    ],
+    [
+     -8.7,
+     -14.0
+    ],
+    [
+     -7.7,
+     -17.7
+    ],
+    [
+     -6.1,
+     -21.2
+    ],
+    [
+     -4.0,
+     -24.1
+    ],
+    [
+     -1.5,
+     -26.5
+    ],
+    [
+     1.4,
+     -28.1
+    ],
+    [
+     4.4,
+     -28.9
+    ],
+    [
+     7.6,
+     -28.9
+    ],
+    [
+     10.6,
+     -28.1
+    ],
+    [
+     13.5,
+     -26.5
+    ],
+    [
+     16.0,
+     -24.1
+    ],
+    [
+     18.1,
+     -21.2
+    ],
+    [
+     19.7,
+     -17.7
+    ],
+    [
+     20.7,
+     -14.0
+    ],
+    [
+     21.0,
+     -10.0
+    ]
+   ],
+   "fill": "#4a5f22",
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -95,
+     2
+    ],
+    [
+     -90,
+     -6.0
+    ],
+    [
+     -60,
+     -11.4
+    ],
+    [
+     -10,
+     -13.2
+    ],
+    [
+     40,
+     -12.0
+    ],
+    [
+     80,
+     -7.8
+    ],
+    [
+     104,
+     -3.6
+    ],
+    [
+     112,
+     0
+    ],
+    [
+     0,
+     2
+    ]
+   ],
+   "fill": "#5f7a2e",
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -85,
+     -7.2
+    ],
+    [
+     -50,
+     -11.4
+    ],
+    [
+     0,
+     -12.6
+    ],
+    [
+     50,
+     -10.8
+    ],
+    [
+     60,
+     -9.6
+    ],
+    [
+     0,
+     -9.6
+    ],
+    [
+     -50,
+     -8.4
+    ]
+   ],
+   "fill": "#4a5f22",
+   "color": "#4a5f22",
+   "width": 1,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     22,
+     -8
+    ],
+    [
+     -30,
+     -6
+    ],
+    [
+     -80,
+     -4
+    ]
+   ],
+   "color": "#9a6a2a",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": -60,
+   "y": -9,
+   "r": 3,
+   "fill": "#1a220c",
+   "color": "#1a220c",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": -38,
+   "y": -10,
+   "r": 3,
+   "fill": "#1a220c",
+   "color": "#1a220c",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": -70,
+   "y": -4,
+   "r": 3,
+   "fill": "#1a220c",
+   "color": "#1a220c",
+   "width": 1
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     17.0,
+     -10.0
+    ],
+    [
+     17.3,
+     -14.2
+    ],
+    [
+     18.3,
+     -18.1
+    ],
+    [
+     19.9,
+     -21.8
+    ],
+    [
+     22.0,
+     -24.9
+    ],
+    [
+     24.5,
+     -27.3
+    ],
+    [
+     27.4,
+     -29.0
+    ],
+    [
+     30.4,
+     -29.9
+    ],
+    [
+     33.6,
+     -29.9
+    ],
+    [
+     36.6,
+     -29.0
+    ],
+    [
+     39.5,
+     -27.3
+    ],
+    [
+     42.0,
+     -24.9
+    ],
+    [
+     44.1,
+     -21.8
+    ],
+    [
+     45.7,
+     -18.1
+    ],
+    [
+     46.7,
+     -14.2
+    ],
+    [
+     47.0,
+     -10.0
+    ]
+   ],
+   "fill": "#5f7a2e",
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": 6,
+   "y": -19,
+   "r": 7,
+   "fill": "#d9bf3c",
+   "color": "#000000",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 6,
+   "y": -19,
+   "rx": 1.6,
+   "ry": 6,
+   "fill": "#000000",
+   "color": "#000000",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 32,
+   "y": -19,
+   "r": 7,
+   "fill": "#f2d64a",
+   "color": "#000000",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 32,
+   "y": -19,
+   "rx": 1.6,
+   "ry": 6,
+   "fill": "#000000",
+   "color": "#000000",
+   "width": 1
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     83.0,
+     -4.5
+    ],
+    [
+     83.3,
+     -6.2
+    ],
+    [
+     84.2,
+     -7.7
+    ],
+    [
+     85.5,
+     -8.8
+    ],
+    [
+     87.1,
+     -9.4
+    ],
+    [
+     88.9,
+     -9.4
+    ],
+    [
+     90.5,
+     -8.8
+    ],
+    [
+     91.8,
+     -7.7
+    ],
+    [
+     92.7,
+     -6.2
+    ],
+    [
+     93.0,
+     -4.5
+    ]
+   ],
+   "fill": "#5f7a2e",
+   "color": "#000000",
+   "width": 2
+  },
+  {
+   "type": "circle",
+   "x": 88,
+   "y": -6.5,
+   "r": 1.5,
+   "fill": "#000000",
+   "color": "#000000",
+   "width": 1
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     94.0,
+     -4.5
+    ],
+    [
+     94.3,
+     -6.2
+    ],
+    [
+     95.2,
+     -7.7
+    ],
+    [
+     96.5,
+     -8.8
+    ],
+    [
+     98.1,
+     -9.4
+    ],
+    [
+     99.9,
+     -9.4
+    ],
+    [
+     101.5,
+     -8.8
+    ],
+    [
+     102.8,
+     -7.7
+    ],
+    [
+     103.7,
+     -6.2
+    ],
+    [
+     104.0,
+     -4.5
+    ]
+   ],
+   "fill": "#5f7a2e",
+   "color": "#000000",
+   "width": 2
+  },
+  {
+   "type": "circle",
+   "x": 99,
+   "y": -6.5,
+   "r": 1.5,
+   "fill": "#000000",
+   "color": "#000000",
+   "width": 1
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     110,
+     -2
+    ],
+    [
+     60,
+     -4
+    ],
+    [
+     0,
+     -3
+    ]
+   ],
+   "color": "#2b3810",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     111,
+     -2
+    ],
+    [
+     128,
+     -4
+    ]
+   ],
+   "color": "#d0282a",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     128,
+     -4
+    ],
+    [
+     138,
+     -11
+    ]
+   ],
+   "color": "#d0282a",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     128,
+     -4
+    ],
+    [
+     139,
+     1
+    ]
+   ],
+   "color": "#d0282a",
+   "width": 4
+  }
+ ]
+}
