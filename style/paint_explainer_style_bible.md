@@ -449,7 +449,9 @@ Each rule is written so it can be checked. "Must" means a rejection if it fails.
 6. "in N Minutes" is banned. Leading list counts ("The 7 ...") are banned.
 7. Titles must not include a word that appears as a label on the thumbnail (no duplication).
 8. Sequels are allowed only if Pt. 1 is at least 2x the channel median at day 28. Format: "<Pt. 1 title> (Pt. 2)".
-9. Produce 5 candidate titles, labelled by skeleton ID, with the chosen one first.
+9. Produce 10 candidate titles, labelled by skeleton ID, each paired with its 1-3 thumbnail words, in
+   `title_candidates.json`; `python -m studio package <id> rank` ranks them and keeps the top 3 (packaging gate
+   D4, 2026-11-09; was 5 candidates with the chosen one first).
 10. Titles must never reuse a Paint Explainer title verbatim, or with only a noun swapped.
 
 ### Retention update (2026-10-27): these rules OVERRIDE the length and opening rules below

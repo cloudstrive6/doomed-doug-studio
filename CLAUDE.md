@@ -30,7 +30,8 @@ Progress: `python -m studio ypp` (data/ypp/).
 | `data/` | `ideas.md` backlog, `analytics/`, `competitors/`, `insights/` memos |
 
 ## Commands (`python -m studio <cmd>`, from this folder)
-`status` · `new <slug>` · `stage <ep> <stage>` · `validate <ep> [shotlist|metadata]` · `keyframes <ep> [--shots s001,s002]`
+`status` · `new <slug>` · `stage <ep> <stage>` · `validate <ep> [shotlist|metadata|packaging]` · `keyframes <ep> [--shots s001,s002]`
+· `topics` (idea shortlist with the lane rule) · `package <ep> rank|check [--dry-run]` (packaging gate D4: 10 titles ranked, top 3 paired with thumbnails A/B/C)
 · `asset-preview <name...>` · `thumbnail <ep>` · `art <scene.json> <out.png>` · `narrate <ep>` ·
 `render <ep> [--limit N] [--final]` · `qc <ep>` · `upload <ep> [--dry-run]` · `analytics` · `notify "<text>" [--photo p]`
 · `voices` · `auth` · `branding` · `queue` · `actions-usage` · `shorts validate|render|upload <ep>` · `shorts pending` · `shorts mark-related <shortYouTubeId>` · `auth-meta` · `social release <ep>` · `social publish-due [--dry-run]` · `signals "<query>"...` · `competitors` · `gate <ep>` · `health [--fix] [--alert]` · `ypp [--notify]`

@@ -24,12 +24,21 @@ each to a share of viewers and keeps the one with the most watch time, and the r
   contradiction: "VEGETARIAN", "NOT ME?", "97% FATAL"), saturated flat background with strong contrast.
 - **`thumbnail_test_b.json` = B. Doug in peril:** a scene, not a portrait: Doug mid-predicament (falling, swallowed,
   sinking, cornered) with the threat closing in, reaction face readable, 0–2 words.
-- **`thumbnail_test_c.json` = C. Simple grid:** at most 4–6 BIG tiles (never 9–16), each one creature, labels ≤ 2 words,
-  or a 3–4 band pyramid for layered topics. The list-format control.
+- **`thumbnail_test_c.json` = C. Second shock:** a second close-up built on a different creature or item from the
+  episode (the runner-up shock), same grammar as A. A grid (at most 4 BIG tiles) only when the list itself is the
+  hook, and then the whole image still carries at most 3 words (unlabelled tiles plus one word line).
 Rules for all three: cartoon only, never gore; no title text; ≤ 2 fonts; never repeat a title word; Doug's red cap
 visible in every variant (brand recognition in the feed); test every variant at 168x94 (`build/*_small.png`): if
 the subject or the words don't read at that size, simplify. Variants must differ in concept, not just colour.
-Render: `python -m studio thumbnail <id>` → `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` (+ `_small`).
+
+**Packaging gate (D4, 2026-11-09): the words are fixed by the ranking.** `metadata.json` → `packaging.variants`
+pairs each variant file with a ranked title and its `thumb_text` (1–3 words) plus a `thumb_idea`. Put exactly
+those words on that file (A = `thumbnail.json`, B = `thumbnail_test_b.json`, C = `thumbnail_test_c.json`) and no
+other words (tile labels count). If the words cannot work on the image, ask the titler to change the candidate
+and re-rank (`python -m studio package <id> rank`); never edit the words in only one place.
+Render: `python -m studio thumbnail <id>` → `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` (+ `_small`),
+then `python -m studio package <id> check` must print OK (words match the ranking, at most 3 words, no title
+word repeated, Doug with his cap in every variant).
 
 ## Channel branding (in `channel/`)
 `banner.json` → `banner.png` (2560x1440; all key art inside the central 1546x423 safe area), `avatar.json` →

@@ -23,6 +23,12 @@ signals, repetitive or misleading packaging).
 ## Job 1: choose the next episode and write `episodes/<id>/brief.md`
 Pick the highest-ranked idea that (a) has a proven outlier engine (a competitor video with 1M+ views on the
 same formula), (b) hasn't been done by us, (c) keeps the channel lane-locked to nature horror.
+**Lane rule (owner-approved 2026-11-09, experiment D4):** run `python -m studio topics` and pick from the top of its
+list. It blocks the prehistoric "every era" / deep-time lane (023 hippo every era 1.70% CTR, 025 oxygen 21 views at
+day 7, 028 megalodon every era 1.26% CTR) and adds +0.5 to single famous animals and parasites/body horror (021
+orcas 4.3% CTR, 027 saltwater croc 10.5K impressions, 002 parasites 6.5%, 014 brain parasites 5.1%). Do not write a
+brief whose axis is "every era / period / prehistoric era" or "when Earth was/had ..."; `validate` fails it. When the
+last two episodes were in the same playlist, the best parasites/body horror pick it prints is the default alternative.
 Early in the channel's life, prefer the strongest proven formulas: depth gradients ("every layer / the deeper
 you go"), "what it feels like to die in/from every X", "surviving one night in every X", ranking lists.
 The brief contains:

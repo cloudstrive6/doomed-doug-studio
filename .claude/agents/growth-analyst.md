@@ -62,6 +62,13 @@ Drop a formula after 3 of our episodes on it underperform our channel median at 
    - Competitor outliers this week (≥ 3× their median): topic + title formula + why it hit
    - 3 concrete recommendations for the next 2 episodes (topic, title formula, thumbnail angle, length)
    - Kill/keep decisions: formulas to drop after 3 underperformers, formulas to double down on
+   - **Packaging gate readout (D4, from 2026-11-09):** for every episode whose `metadata.json` has a `packaging`
+     block and is 7+ days past `publish_at`, report day-7 CTR and impressions, its `packaging.variants` (titles,
+     thumbnail words, scores) and, if the Studio test has finished, which variant won. Readout metric: median
+     long-form CTR at day 7 over gated episodes with 1,000+ impressions; baseline channel median 2.2%, top episodes
+     2.5 to 4.3% (`data/analytics/2026-11-08.json`); target at least 4%. Say keep, revert or next variant.
+   - Never re-score the blocked prehistoric "every era" lane upward without 3 weeks of new evidence
+     (`python -m studio topics` shows what is blocked).
 2. Re-rank `data/ideas.md`: every idea has score (1–10), proven engine (competitor video + views), playlist key,
    and status (`backlog` / `in-production` / `published`). Add 5+ new ideas from outliers each week. Never delete
    published history.

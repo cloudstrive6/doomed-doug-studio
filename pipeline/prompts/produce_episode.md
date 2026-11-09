@@ -32,7 +32,9 @@ round on the opening minute (the retention cliff) and on the thumbnail and title
 
 ## 1. Brief: creative-director
 Ask it to pick the next episode from `data/ideas.md` and create it: `python -m studio new <slug>` then write
-`brief.md`, mark the idea `in-production`. Stage stays `idea`.
+`brief.md`, mark the idea `in-production`. Stage stays `idea`. It picks from the top of `python -m studio topics`
+(the backlog with the lane rule: the prehistoric "every era" lane is blocked, single famous animals and
+parasites/body horror are favoured); `python -m studio validate <id>` fails an episode in the blocked lane.
 
 ## 2. Script: script-writer ⇄ script-screener (max 4 rounds)
 Writer produces `script.md` + `facts.md` → stage `scripted`. Screener writes `script_review.md`.
@@ -41,7 +43,10 @@ changes: counts as a round) → stage `script_approved`. If still failing after 
 to either simplify the brief and retry once, or abort (then notify and stop).
 
 ## 3. Packaging text + shotlist (can run in parallel)
-- **youtube-titler** → `metadata.json`.
+- **youtube-titler** → `title_candidates.json` (10 title + thumbnail-word pairs), then
+  `python -m studio package <id> rank` (packaging gate D4: ranks all 10, keeps the top 3 for thumbnail variants
+  A/B/C, writes `title`, `alt_titles` and the `packaging` block) → rest of `metadata.json`. `GATE FAIL` means
+  the titler writes better candidates and re-ranks.
 - **director** → `shotlist.json` + `asset_requests.md` → stage `shotlisted`.
 
 ## 4. Art: illustrator ⇄ art-director (max 3 rounds)
@@ -52,8 +57,10 @@ re-render keyframes for changed shots (`--shots s012,s013`), re-review. Max 3 ro
 
 ## 5. Thumbnail: graphic-designer → creative-director → visual-screener
 Designer makes the three thumbnail variants (`thumbnail.json` = hero close-up, `thumbnail_test_b.json` = Doug in
-peril, `thumbnail_test_c.json` = simple grid; see `.claude/agents/graphic-designer.md`); the creative director
-approves all three (each must be one they'd click); visual-screener checks all three at feed size (168x94).
+peril, `thumbnail_test_c.json` = second shock; see `.claude/agents/graphic-designer.md`), each carrying exactly the
+words `packaging.variants` assigns to it, and `python -m studio package <id> check` must print OK; the creative
+director approves all three (each must be one they'd click, paired with its ranked title); visual-screener checks
+all three at feed size (168x94).
 
 ## 6. Timing: editor
 Make sure `shorts.json` exists (director picks, titler titles) and `python -m studio shorts validate <id>` is OK.
