@@ -1,136 +1,125 @@
-# 041 Script review (draft 1): Why Even a Grizzly Bear Won't Try to Kill These Animals
+# 041 Script review (draft 2): Why Even a Grizzly Bear Won't Try to Kill These Animals
 
-Screener, 2026-11-09. Read: style bible (retention update 2026-10-27, 3.2-3.5, writer rules 1-14), series bible, brief, script.md, facts.md.
+Screener, 2026-11-09. Read: style bible (retention update 2026-10-27, writer rules 1-14), series bible (counter 315), brief, script.md (draft 2),
+facts.md (draft 2). Checked against the draft 1 review (8 required fixes).
 
-**VERDICT: FAIL**
+**VERDICT: PASS**
 
 | Check | Result |
 |---|---|
-| Facts | 4 FAIL items (fixes 2, 3, 4, 5), plus 1 title-honesty item (fix 6) |
-| Hook | **7 / 10** (needs 8) |
-| Structure and pacing | 7 / 10 |
+| Facts | 0 errors. 14 claims re-checked by me (Fetched or Searched), including Dahle 2013 and the NPS bison page |
+| Hook | **8 / 10** |
+| Structure and pacing | 8 / 10 |
 | Voice and humour | 8 / 10 |
 | TTS readiness | PASS |
-| Policy | 1 item (fix 8, kid-coded image); title honesty (fix 6) |
-| Length | 1,996 spoken words, about 10.2 min. PASS, but only 46 words above the 1,950 floor |
+| Policy | 0 items |
+| Length | 2,108 spoken words, about 10.8 min. PASS (inside 1,950-2,350) |
 
 ---
+
+## 0. Draft 1 fixes: what changed
+
+| # | Draft 1 fix | Draft 2 | Status |
+|---|---|---|---|
+| 1 | Item 1 opened on the cold-open fact and then 1995 background; first sentence had no number | Line 13 now says "One three-hundred-kilo grizzly..." (has a number). Item 1 opens on the June 2001 six-wolf siege (line 29), and the 1995 line is cut | Fixed |
+| 2 | "most of them over food or over young" | "Wherever the two meet, most fights are over food or over young." (general, matches the literature summary) | Fixed |
+| 3 | Unsourced motive "because a pack is fast..." | "It takes the food and leaves the pack alone." (NPS "usually avoid each other") | Fixed |
+| 4 | "for its size" | Deleted. Also adds "biggest weasel on land" (Nat Geo "largest body") | Fixed |
+| 5 | Wolverine killed by "a bear" | "a black bear", "So a bear can win. One did, once.", label KILLED BY A BLACK BEAR | Fixed (ScienceDaily title confirmed) |
+| 6 | Bull Moose had no source for "won't try to kill" a bull | Rebuilt on Boertje 1988 plus Dahle 2013. The somersault boar is now "had come for her calf". The rut premise is cut. The Doug beat is 20 words | Fixed (see Dahle check below) |
+| 7 | False bison bridge | "So far, the bear has only risked a meal, a face full of quills or a broken bone." (true) | Fixed |
+| 8 | Classroom with a bear at a desk | Twenty-two cars in a car park, one left (50,000 / 2,314 = 21.6) | Fixed, adult-coded |
+| Rec. | Tiger 1.2% / 1.0%, OpenAlex URL, "has decided" repeated, "finally got to fish" | All four done | Done |
 
 ## 1. Facts
 
-### The three things I was asked to check first
+### New claims (asked for)
 
-**Tiger numbers (FLAG 1).** I found the full abstract of Seryodkin, Miquelle, Goodrich, Kostyria & Petrunenko 2018 on OpenAlex
-(`https://api.openalex.org/works/doi:10.1134/S1062359018080149`, Fetched). Add this URL to facts.md; it replaces the 403 page.
-- 763 kills: **confirmed** ("763 kills were located and identified").
-- 1992-2013, "more than twenty years": **confirmed**.
-- Bears 2.2% of all kills: **confirmed**.
-- 8.4% of scats, "roughly one in twelve": **confirmed**.
-- 1.2% brown and 1.0% black: **not in the abstract.** It shows up only in search snippets. It adds up to 2.2%, so nothing contradicts it,
-  but it is weaker than the rest. Recommended, not required: "about two in every hundred was a bear, brown or black", which rests on the fetched number.
-- 17.6% (62 of 353), "about one in every six", and "at least 8 cases" of bears displacing tigers (Seryodkin, Petrunenko & Miquelle, WCS PUB15720):
-  two separate searches returned the abstract text word for word ("62 kills (17.6%) were used by bears ... in at least 8 cases (12.9%) bears displaced
-  tigers from a kill"). I accept these. The 2018 paper gives a similar 16.7% of 427 kills, so "about one in six" holds either way.
-- Toronto Zoo's 180-306 kg range supports "180 to 300 kg".
+**Dahle et al. 2013, Wildlife Biology 19(2) (BioOne full text, Fetched)**
+- "We necropsied 32 adult moose that were verified as killed by brown bears ... 1995-1997": **confirmed**. This supports line 193, "thirty-two adult moose".
+- "Among older moose, females were killed more often than males (88% of the killed adults, compared to 60% females [in the population])". "Older" means
+  2 years or more. The line "Among the older moose, almost nine in ten were female" is **confirmed** and correctly qualified.
+- "Bears killed 0.8% of radio-collared adult female moose ... annually and no male moose (≥ 1 year old)": **confirmed** for "not one of the male moose
+  the researchers had radio-collared was killed by a bear". The paper doesn't say how many males were collared, and the female rate was only
+  0.8% a year, so a zero for males partly reflects a small sample. The sentence is true as written.
+- The paper also says yearlings were more prone to bear predation (30% of kills, 16% of the population). Nothing in the script contradicts this.
 
-**Piano weight (FLAG 4).** Mover and retail guides agree: a tall upright (48-60 in) weighs about 500-800 lb, and some reach 1,000 lb (227-363+ kg).
-Kawai K-500 is 525 lb (manufacturer listing). A 318 kg male falls inside that range. This is an analogy and it is sourced. **Keep it.**
+**NPS Yellowstone "Bison" (Fetched)**
+- Bulls up to 2,000 lb: **confirmed** (line 221, "about nine hundred kilograms").
+- "Wolves and grizzly bears are the only large predators of adult bison": **confirmed**.
+- "Bison usually face their attackers and defend themselves as a group": **confirmed**.
+- 35 mph (55 kph), "pivot quickly", jump "about 5 feet (1.5 m)": **confirmed**. Note: the same page also says "up to 30 miles per hour" in another
+  section, so NPS contradicts itself. The script's figure is on the page. See recommendation R2.
+- "wolves and grizzly bears can kill bison calves": **confirmed** (line 235).
 
-**Single-observation anecdotes.**
+### Other claims re-checked by me
 
-| Anecdote | Labelled in script? | Problem |
+| Claim | Source | Result |
 |---|---|---|
-| Cow moose sends a boar somersaulting (Boertje, ADF&G art. 939) | Yes, "an Alaska biologist watched", and on screen "ONE BIOLOGIST SAW THIS" | Verified: a boar of about 300-350 lb, mid-1980s. But the same passage says the boar "was on the calf immediately thereafter". The bear was hunting moose. See fix 6. |
-| Healed wolf skull (Adams, art. 939) | Yes, "one biologist found" | OK |
-| Six wolves besiege a mother and cubs (Gunther & Smith 2004, Obs. 3) | Yes, "In one fight researchers watched" | Line 51 turns this one fight into the general reason bears don't hunt wolves. See fix 3. |
-| Wolverine killed by a bear (WCS 2003) | Partly, "a radio-collared wolverine" | The release's title is "First-known killing of a wolverine by a **black bear**". The script's "So the bear can win, and has" reads as the grizzly. See fix 5. |
-| Two cougars died after hunting porcupines (Elbroch 2016) | Study result, 2 of 59 deaths | OK. Verified: subadults, Southern Yellowstone Ecosystem, 2001-2015. |
+| Male grizzly up to about 318 kg; spring diet elk, bison, ungulates, winter-killed; wolves and grizzlies "usually avoid each other"; wolves kill "usually only cubs" | NPS Yellowstone Bear Ecology (Fetched) | Confirmed |
+| Wolves relinquish kills to bears, especially after first feeding | Mech & Boitani 2003 caption (Searched, wording matches) | Confirmed. Tallian 2017/2021 add nuance (wolves sometimes wait it out) but don't contradict "tend to back off" |
+| Wolverine killed by a black bear, Greater Yellowstone, tried to drag the elk away | ScienceDaily / WCS 2003 (Fetched) | Confirmed |
+| Bears get almost all their bison meat by scavenging; "too big, too well-armed ... to kill outright"; starvation, disease, rut injuries | Mattson 2017 (Fetched) | Confirmed |
+| 30,000 quills, not thrown, come off easily, 1 mm an hour, 9 kg | Smithsonian National Zoo (Fetched) | Confirmed |
+| 59 cougar deaths 2001-2015, Southern Yellowstone, 2 subadults died after hunting porcupines | Elbroch et al. 2016 abstract (Fetched) | Confirmed |
+| 35% annual cub mortality, 92% or more infanticide, early May to mid-July, about 85% in season, 783 m vs 1,213 m, adult males avoid humans | Steyaert 2016 (Fetched) | Confirmed |
+| 17,171 reports; bears were neutral or fled in most; attacks uncommon | Gunther et al. 2024 (Searched) | Confirmed (grizzly and black bears together; the script says "bears", which is correct) |
+| 50,000 before 1800; shot, poisoned, trapped; bounties; 700-800 by 1975 | USFWS species page (Fetched) | Confirmed |
 
-### Other claims checked (Fetched or Searched by me)
+Tiger rows (OpenAlex) and the piano weight were confirmed in draft 1 and haven't changed beyond the collapse to "two in every hundred".
+Every spoken claim has a row and a URL in facts.md.
 
-| Claim | Result |
-|---|---|
-| About 30,000 quills; wet barbs swell and work the quill in; quills found in coyote, cougar, bear, fisher; predators bite the head or flip the porcupine (HWW) | Confirmed |
-| Boertje 1988: males kill 3.3-3.9 adult moose a year; at least 5.4 calves per bear; highest rates are males killing cows at calving | Confirmed (OpenAlex abstract) |
-| Moose kick up, forward, out to the side, and down onto the head or shoulder (Crouse, ADF&G 939) | Confirmed |
-| Wolves die of moose kicks "pretty uncommon[ly]" (2 of 23 translocated) | Confirmed |
-| Steyaert 2016: 35% annual cub mortality; at least 92% from infanticide; mating season early May to mid-July; about 85% of deaths in the season; 783 m vs 1,213 m; adult males avoid humans | Confirmed |
-| Wolverine "heaviest skull, thickest jaws, biggest teeth" (Nat Geo) | **Source has no "for its size"**. See fix 4. |
-| Wolverine-drives-off-bears stories are "unverified reports" (Nat Geo) | Confirmed |
-| About 6% of historical range (USFWS SSA v2.2, 2024); 2,314 bears in 2023 | Confirmed |
-| Gunther & Smith 2004: 96 interactions, Obs. 3 details | I could not re-open the PDF (archive fetch blocked, PDF fonts encoded). Search snippets confirm the siege ("wolves completely stopped the bears' progress ... whirled around to face the circling wolves"). I accept the writer's Fetched rows, except fix 2. |
-
----
-
-## 2. Opening: retention test (score 7 / 10)
+## 2. Opening: retention test (score 8 / 10)
 
 | Test | Result |
 |---|---|
-| Concrete first sentence with a number or death stake | Borderline. "...and rarely tries to kill a wolf" has a kill stake but no number, and it ends on a hedge about something that doesn't happen. It is softer than the brief's draft. |
-| Specific payoff promise by about 0:10 | PASS ("By the end, Doug stands between a brown bear and a tiger that hunts bears.", about 0:08) |
+| Concrete first sentence with a number or death stake | PASS. "One three-hundred-kilo grizzly can take an elk from a whole Yellowstone wolf pack, and they usually let it." It has a number and a surprise. There's no death stake, but the rule asks for one or the other |
+| Specific payoff promise by about 0:10 | PASS, but just. It runs from words 20 to 33, about 0:07-0:11 counting the 1.5 s thumbnail. Keep the thumbnail hold at 1.5 s or less |
 | Item 1 among the 3 strongest | PASS (wolves) |
-| Item 1's name within 35 words, nothing before it | PASS ("The Wolf Pack." at word 33) |
-| Item 1's twist by about 145 words | PASS (word 130) |
-| **Item 1 opens on its best fact (retention rule 5)** | **FAIL.** Sentence 1 of the item (line 37) repeats the cold-open fact. Sentence 2 (line 41) is background ("Wolves came back to the park in nineteen ninety-five"). This is the 0:09-0:19 cliff the update was written for. See fix 1. |
+| Item 1's name within 35 words, nothing before it | PASS. "The Wolf Pack." starts at word 35, the very limit. Don't add a word before it |
+| Item 1's twist by about 145 words | PASS ("Here's the strange part." at word 138) |
+| Item 1 opens on its best fact | PASS. It opens on the six-wolf siege, which is new information, and it contrasts with the cold open |
 
-**Section 7 Script Writer rules violated:** rule 4 (The Bull Moose's Doug beat is 9 words, minimum 15) and rule 11 (unsourced claims in lines 51 and 197; see fixes 3 and 6).
-Rules 1 and 3 (length and item count) are overridden by the retention update and the brief, and 8 items is within 8-10. Rules 2, 5-10 and 12-14 pass.
-Average sentence is 14.8 words, longest 34. I found no PE wording.
+Section 7 Script Writer rules: **no violations.** Rules 1 and 3 are overridden by the retention update (8 items, 10-12 min). Average sentence is 14.1
+words (inside 14-19, near the floor). The longest is 33. Every item has a sentence of 6 words or fewer. Twist markers rotate with no repeats. There are
+no tic phrases. The outro is 22 words. I couldn't run Flesch (textstat isn't installed); the writer should report it.
 
-## 3. Structure and pacing (score 7 / 10)
-- The axis (DINNER, FACE, BONES, CUBS, LIFE) is declared, the band headers are spoken once each, and the boss is the most extreme item. Running gags
-  match the brief (agree, fine, costume, "hi friend?", field guide, cap). The ending follows the bible (22-word outro).
-- Segment words: Wolf Pack 278, Wolverine 239, Porcupine 231, Moose 237, Bison 226, Big Male 243, Tiger 236, Human 272. The Wolf Pack and The Human
-  are over the 200-260 band but inside the brief's allowance (about 300). Trim The Wolf Pack while doing fix 1.
-- The moose item does not deliver the title (fix 6), and the bison bridge says something false (fix 7). Both drag the score down.
+## 3. Structure and pacing (score 8 / 10)
+- The axis is declared and the spoken bands are each used once. The BEAR'S COST tag only goes up. The boss is the most extreme item. The ending
+  follows the bible.
+- The moose item now delivers the title honestly: "The bear eats moose. It mostly leaves the bulls alone." The draft 1 premise problem is gone.
+- Segment words, kicker included: Wolf Pack 275, Wolverine 257, Porcupine 238, Bull Moose 271, Bull Bison 253, Big Male 257, Tiger 241, Human 282.
+  The Bull Moose is 11 over the 260 band, and the brief does not exempt it (R1). Wolf Pack and Human are within the brief's allowance of about 300.
+- Running gags appear once each as the brief asks. The counter runs 315 to 322 (matches the series bible). Death 320 is flat.
 
 ## 4. Voice and humour (score 8 / 10)
-- Deadpan and consistent. The strongest lines: "a pincushion that bites back by holding still", "a small car that has decided you are the road",
-  "It was a fair fight, and Doug lost it.", "The cap has been avoided. It is taking it personally."
-- "...has decided you are the road" (bison) and "...has decided the fridge is food" (tiger) use the same frame three items apart. Vary one (recommended).
-- Most items have 2-3 gag lines in about 70 seconds, which is at the edge of rule 10. That is acceptable at the channel's past density, but don't add more.
+- The deadpan is consistent, and the new lines land: "That was a cow.", "One did, once.", "a big touring motorbike, and it is still a cat".
+  Only one "has decided" remains.
+- The Bull Moose Doug beat (line 199) is a little hard to follow: why would a bull want a calf costume? It works as Doug-logic, but it's the weakest
+  beat (R3).
+- I found no wording from competitors.
 
 ## 5. TTS: PASS
-There are no digits, symbols or abbreviations in the narration, and the pronunciation note covers Sikhote-Alin.
+There are no digits, symbols, abbreviations or parentheses in the narration. The Sikhote-Alin pronunciation note is in the header.
 
-## 6. Policy
-- Advertiser-friendly: PASS. No gore, every death cuts to black, infanticide is stated in one clinical clause.
-- Medical and safety advice: PASS. No encounter advice. "Attacks on people are rare" is a statistic.
-- Inauthentic content: PASS. The narrative and commentary are original.
-- **Made-for-kids: one item (fix 8).**
-- **Title honesty: one item (fix 6).**
+## 6. Policy: PASS
+- Advertiser-friendly: no gore, every death is a cut to black, and infanticide gets one clinical clause.
+- Made-for-kids: the classroom is gone. The car park image and the piano line ("wants your kids gone") read as adult.
+- Inauthentic content: the narrative and commentary are original and specific to this episode.
+- No safety advice. "Attacks on people are rare" is a statistic. The title promise is now delivered by every item.
+
+## 7. Length: PASS
+2,108 words, about 10.8 min.
 
 ---
 
-## Required fixes
-
-1. **Item 1 opening (retention rule 5).** Lines 37-41: "When a grizzly walks up to a wolf kill in Yellowstone, the wolves usually back off and let it eat..." and then
-   "Wolves came back to the park in nineteen ninety-five...". This restates line 21 and then gives background. Open The Wolf Pack on a fact the viewer
-   hasn't heard yet (for example the ninety-six run-ins in eight years, or the six-wolf siege). Move the 1995 date after it, or cut it. Also sharpen
-   line 21 so it carries a number or a harder stake than "rarely tries to kill a wolf" (for example a sourced count). The hook must reach 8.
-2. **Line 41, "most of them over food or over young".** facts.md itself says the source sentence is Gunther & Smith's *literature summary*, not a
-   breakdown of the 96 Yellowstone run-ins. Either source a breakdown of the 96, or move the clause so it is general ("wherever the two meet,
-   most fights are over food or young").
-3. **Line 51, "because a pack is fast, there are a lot of them, and they bite from behind."** This is a motive with no source, built on one observed
-   fight (rule 11). Cut the "because" clause, or turn it into a lead-in to the observation ("and when a pack does fight back, it bites from behind").
-   Don't state it as the reason bears never hunt wolves.
-4. **Line 85, "But for its size, the wolverine has the heaviest skull..."** The source (Nat Geo) gives an absolute ranking among land mustelids, with
-   no "for its size". Delete "for its size".
-5. **Lines 97-99, "a radio-collared wolverine that had been killed by a bear ... So the bear can win, and has."** WCS names it as the first known
-   killing of a wolverine by a **black bear**. In a grizzly episode, "the bear" means the grizzly. Say "a black bear". Change "So the bear can win, and
-   has" to something true, for example "So a bear can win. One did, once." Fix the on-screen label "KILLED BY A BEAR" to match.
-6. **The Bull Moose, title honesty (lines 175-197).** The only sourced study says grizzlies *do* kill adult moose (3.3-3.9 a year per male). The
-   hook anecdote's boar was hunting the calf. The item's premise ("the bull in the rut is a very different conversation") has no source; facts.md
-   cut the rut-aggression claim. So nothing on record says grizzlies won't try to kill a bull. Either (a) source that grizzly kills of adult moose
-   are cows, calves or weakened animals and rarely healthy bulls, and state that plainly, or (b) reframe the item around what the record actually
-   shows, or replace it. Also lengthen the Doug beat ("Doug brings the bull a calf costume, for diplomacy.", 9 words) to 15-30 words (rule 4).
-7. **Line 249, "So far, every animal here has made the grizzly wait".** This is false. The bear takes the wolves' dinner at once, and it leaves the
-   wolverine and the porcupine. Rewrite the bridge so it stays true (for example "So far, the danger has been to the bear's dinner and bones.").
-8. **Lines 357-359 (made-for-kids risk).** "[A classroom with twenty-two desks ... One has a small bear in it.]" and "a classroom of twenty-two kids,
-   today there would be one kid left." A small bear at a school desk is the cute, kids'-book image the brief bans (sec 7, kid appeal: medium), and
-   "one kid left" lands right after the infanticide item. Replace it with an adult-coded ratio and image (for example 22 parked cars down to 1).
-   Keep the 22:1 arithmetic.
-
-**Recommended (not blocking):** collapse the tiger's 1.2% and 1.0% into "about two in every hundred was a bear" (fetched source); add the OpenAlex URL to
-facts.md; vary one "has decided" analogy; at line 275, say "spent more time fishing" instead of "finally got to fish" (Nevin & Gilbert is Search-only
-and says "high proportions of time fishing"). Watch the word count: fixes 1 and 3 cut words, and the script is only 46 over the 1,950 floor.
+## Recommended (not blocking)
+- **R1.** Trim The Bull Moose by about 10-15 words to get inside 260. For example, cut "Every year" from line 175, or "when the calves are brand new" from line 189.
+- **R2.** Line 221 "about fifty-five kilometers an hour": the NPS page also says 30 mph. "about fifty kilometers an hour" holds under both figures.
+- **R3.** Line 199, the Doug beat: make the logic land, for example "...since bears mostly go after cows and calves, he brings the bull a moose-calf
+  costume, so the bull can see how it feels" (keep it 15-30 words). Optional.
+- **R4.** Line 357 "car park": the voice is en-US (`config/channel.yaml`) and the audience is mostly US. Say "parking lot" (and in the stage
+  directions on lines 355 and 361).
+- **R5.** On-screen label at line 191, "88% FEMALE": add the qualifier to match the line, for example "OLDER KILLS: 88% COWS". Optionally say the
+  population baseline in narration ("even though only six in ten were cows"), which makes the point stronger and stays true to Dahle.
+- **R6.** Add the Dahle 60% population baseline and the yearling note to facts.md for the record.

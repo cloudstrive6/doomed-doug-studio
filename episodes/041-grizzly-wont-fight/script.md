@@ -1,28 +1,20 @@
 <!-- axis: severity, meaning what the fight would cost the grizzly. Spoken bands, once each, the first time we enter the band: "Its dinner." (before item 1), "Its face." (before item 3), "Its bones." (before item 4), "Its cubs." (before item 6), "Its life." (before item 7; the boss stays in this band). The BEAR'S COST tag (DINNER, FACE, BONES, CUBS, LIFE) is staging only, never read aloud, and only moves up; LIFE is stamped red at item 7. -->
-<!-- Episode 041, draft 1 (2026-11-09, script writer). Written to the 2026-10-27 retention update: 10-12 min, 8 items. First sentence is the Yellowstone carcass fact; payoff promise (Doug between a brown bear and a tiger) by about 0:08; "The Wolf Pack." starts at word 35; the item 1 twist marker lands at about word 120 (about 0:37). Hook fact first in every item; every kicker leans into the next item.
+<!-- Episode 041, draft 2 (2026-11-09, script writer), revised against script_review.md (draft 1 FAIL). Written to the 2026-10-27 retention update: 10-12 min, 8 items. First sentence carries a number (a three-hundred-kilo grizzly takes a whole pack's elk); payoff promise (Doug between a bear and a tiger that eats bears) by about 0:08; "The Wolf Pack." starts at word 35; item 1 opens on the six-wolf siege (new fact, not a restatement of the cold open) and its twist marker lands at about word 137 (about 0:42). Hook fact first in every item; every kicker leans into the next item.
+Draft 2 fixes: (1) new first sentence with a number; item 1 opens on the siege, 1995 background cut, item trimmed. (2) "most fights are over food or young" is general ("Wherever the two meet"). (3) No motive clause: the bear "takes the food and leaves the pack alone". (4) "for its size" deleted. (5) Wolverine killed by "a black bear"; "So a bear can win. One did, once."; label KILLED BY A BLACK BEAR. (6) Bull Moose rebuilt on the record: the somersault boar was after the calf; Alaska kill rates are highest on cows at calving; Sweden (Dahle et al. 2013): about nine in ten older moose killed by brown bears were female and no radio-collared male was killed; Doug beat now 21 words; unsourced rut premise and wolf-skull aside cut. (7) Bison-to-cubs bridge rewritten so it is true. (8) Classroom replaced with twenty-two cars in a car park (same 22:1 arithmetic). Recommended items also done: tiger bears collapsed to "two in every hundred, brown or black"; tiger "has decided" analogy replaced (motorbike); "spent more of their time fishing".
 Counter on screen at 315 from the first shot, ends at 322. Seven deaths: 316 The Wolf Pack, 317 The Porcupine, 318 The Bull Moose, 319 The Bull Bison, 320 The Big Male (flat, no milestone), 321 The Amur Tiger, 322 The Human (flat, cut to black). Survival: The Wolverine ("Doug is fine.").
 Running gags, once each: "Doug did not agree to this." (item 1); "Doug is fine." (item 2); costume gag (item 3, porcupine, quills inward); "hi friend?" (item 8, speech bubble). Callbacks: 024 (item 4, one line), 034 (item 5, one line), 031 (item 8, one line).
 Field guide GRIZZLY BEAR page: "NO" at death 316, "MAYBE" pencilled at The Wolverine, rubbed out at The Big Male, closing sticky note "AVOIDS YOU."
 Cap: wolf tracks, wolverine's carcass, one quill, moose antler, bison's back, sedge meadow edge, tiger prints in the snow, BEAR COUNTRY sign.
-Deviations from the brief, all fact-driven (details in facts.md, "Brief checks"):
-1. Opening line says the grizzly "rarely tries to kill a wolf", not "will not try to kill a single one": both species occasionally kill each other (Gunther & Smith 2004).
-2. Gunther & Smith 2004 is about mothers with cubs, who usually LOST carcasses to wolves (3 of 5). The "bear usually takes the carcass" line is sourced to Smith et al. 2003 and the Wyoming Game and Fish carnivore specialist instead; the 2004 paper supplies the 96 interactions, the bites from behind, and the two cubs.
-3. No source says wolves have killed an adult grizzly; the script only says wolves have killed cubs.
-4. Wolverine: the only documented bear kill I found was a black bear (WCS, Greater Yellowstone). The script says "a bear". ADF&G says wolverines usually avoid bears and wolves, so the myth check lands harder than the brief: the legend is mostly unverified reports.
-5. Porcupine: no source for grizzlies specifically eating porcupines or carrying quills, so the script says "bears" (Hinterland Who's Who) and uses the Yellowstone-area cougar deaths (Elbroch et al. 2016).
-6. Moose: Boertje et al. 1988 shows grizzlies DO kill adult moose (adult males 3.3-3.9 a year), mostly cows around calving. That is the honesty line. The rut-aggression-toward-bears claim had no source and is cut; "four times a second" is cut from the analogy.
-7. Big male: Steyaert et al. 2016 (not 2013) is the human-shield paper. Cannibalism is cut: the only recent Katmai case is a female, which would muddy "the big male". Nevin and Gilbert 2005 is coastal British Columbia, not Katmai or McNeil River.
-8. Tiger: I found no on-record source that bears kill tigers; the script says bears push tigers off kills (at least 8 cases). Tiger and bear shares are from Seryodkin et al.; both abstracts were read only through search snippets (flagged).
-9. Human: USFWS gives "at least 1,923" on the species page and 2,314 (2023) in the January 2025 proposed rule. The script says "a little over two thousand". Range is "about six percent" (USFWS SSA 2024). The stadium/gym analogy is replaced by a classroom ratio (fifty thousand to about twenty-three hundred is about twenty-two to one). The honesty line is the historical record (shot, poisoned, trapped), not a modern mortality percentage, because the only breakdown I found is marked not for citation. -->
+Deviations from the brief, all fact-driven (details in facts.md, "Brief checks"): no source says wolves have killed an adult grizzly (only cubs); no source says bears kill tigers (only that they push tigers off kills); grizzlies do kill adult moose, so The Bull Moose says so and shows the kills fall mostly on cows and calves; the human-shield paper is Steyaert 2016; Nevin and Gilbert 2005 is coastal British Columbia; the lower-48 number is "a little over two thousand" (2,314 in 2023). -->
 <!-- Pronunciation for the editor: Sikhote-Alin = "see-KHO-teh ah-LEEN"; Ursus arctos is not spoken. Editor: hold the thumbnail 1.5 s or less so "The Wolf Pack." lands by about 0:11. -->
 
 [Open on thumbnail A, 1.5 seconds or less. A big grizzly side-on, leaning back on its haunches, ears flat, backing away. In the corner, half-hidden in snow, a tiger's striped face. Tiny red-capped Doug stands between them. Text: "EVEN BEARS RUN". DOUG DEATHS: 315. Beside the counter, a torn paper tag on a string: BEAR'S COST: DINNER.]
 
-In Yellowstone, one grizzly can walk up to a pack of wolves, take the elk they killed, and the wolves will usually let it.
+One three-hundred-kilo grizzly can take an elk from a whole Yellowstone wolf pack, and they usually let it.
 
-[Hard cut. A snowy valley. A grizzly walks toward an elk carcass. Five wolves step back from it in a half circle. Label: "1 BEAR. 1 PACK. THEIR DINNER".]
+[Hard cut. A snowy valley. A grizzly walks toward an elk carcass. Five wolves step back from it in a half circle. Label: "1 BEAR. 1 PACK. THEIR DINNER". Small tag on the bear: "300 KG".]
 
-By the end, Doug stands between a brown bear and a tiger that hunts bears.
+By the end, Doug stands between a bear and a tiger that eats bears.
 
 [Doug in the snow, hopeful smile, between a dark bear silhouette and a dark striped silhouette, both with a red glow. A big red "?" pops above him.]
 
@@ -56,11 +48,11 @@ Picture twelve people sharing a pizza, every one of them holding a knife, and on
 
 [Split screen. Left: the bear eating, a green tick. Right: the bear chasing a wolf, a red X.]
 
-The bear wins the dinner, and it still doesn't go after the wolves. Taking the food is one thing. Starting a fight with a pack that bites from behind is another.
+The bear wins the dinner, and it still doesn't go after the wolves. It takes the food and leaves the pack alone.
 
 [Two small cub-shaped outlines in grey, no detail. Label: "2 CUBS, 2001".]
 
-Where the two live together, each side has occasionally killed the other, and in Yellowstone wolves have killed grizzly cubs. A grown bear wants the elk, not the wolves.
+Where the two live together, each side has occasionally killed the other, and in Yellowstone wolves have killed grizzly cubs.
 
 [Doug picks up an elk leg from the carcass, hopeful smile, and carries it toward the wolves. The bear looks up. The wolves look up.]
 
@@ -86,7 +78,7 @@ The internet says a wolverine can chase a grizzly off its dinner, and on paper t
 
 [A side-by-side: a wolverine skull next to a dog skull, the wolverine's jaw much thicker. Label: "THICKEST JAWS".]
 
-A big male wolverine weighs up to about eighteen kilograms, and a big male grizzly can weigh more than fifteen times that. But for its size, the wolverine has the heaviest skull, the thickest jaws and the biggest teeth of any weasel on land, and it can crack bones and frozen meat.
+A big male wolverine weighs up to about eighteen kilograms, and a big male grizzly can weigh more than fifteen times that. But the wolverine has the heaviest skull, the thickest jaws and the biggest teeth of any weasel on land, and it can crack bones and frozen meat. It is the biggest weasel on land, and it is still only about the size of a medium dog.
 
 [A crude sandwich on a plate next to a running chainsaw. A stick hand reaches for the sandwich. Label: "NO".]
 
@@ -98,9 +90,9 @@ Here's the problem.
 
 The stories of wolverines driving bears off carcasses are mostly unverified reports. Wildlife biologists in Alaska say wolverines usually keep well away from bears and wolves, because a meeting with either one can kill the wolverine, and wolves are the main animal that does.
 
-[A radio collar icon blinks red. Label: "KILLED BY A BEAR".]
+[A radio collar icon blinks red. Label: "KILLED BY A BLACK BEAR".]
 
-In the Yellowstone area, researchers found a radio-collared wolverine that had been killed by a bear, next to an elk it had tried to drag away. So the bear can win, and has. Even so, a fight with an animal that does not stop is a lot of trouble for one dinner.
+In the Yellowstone area, researchers found a radio-collared wolverine that had been killed by a black bear, next to an elk it had tried to drag away. So a bear can win. One did, once. Even so, a fight with an animal that does not stop is a lot of trouble for one dinner.
 
 [Doug stands next to the wolverine on the carcass, arms crossed, cap on, trying to look tough. The grizzly looks at the wolverine. Then at Doug. Then back at the wolverine. It turns and walks off.]
 
@@ -144,11 +136,11 @@ The worst part is how far that goes.
 
 [A row of animal outlines: coyote, cougar, bear, fisher. Each gets a small red "!" on the nose. No detail.]
 
-Quills have been found stuck in coyotes, cougars, bears and fishers. In the southern Yellowstone area, researchers who tracked how cougars died found two young cats that had hunted porcupines and died from the quills afterwards.
+Quills have been found stuck in coyotes, cougars, bears and fishers. In the southern Yellowstone area, researchers who tracked fifty-nine cougar deaths over fifteen years found two young cats that had hunted porcupines and died from the quills afterwards.
 
 [A fisher flips a porcupine onto its back. The bear watches from a distance.]
 
-The predators that do eat porcupines have to go for the face or flip them over, and some predators simply learn to leave them alone. Some learn once.
+The best-known porcupine hunter is the fisher, and even it has to go for the face or flip the porcupine over. Other predators simply learn to leave them alone. Some learn once.
 
 [Doug zipped into a porcupine costume, deadpan, the red cap on top. The bear sniffs, sees the quills, and leaves.]
 
@@ -176,11 +168,11 @@ The Bull Moose.
 
 [A cow moose rears up and strikes with both front hooves. A grizzly tumbles backwards in a full somersault. Label: "ONE BIOLOGIST SAW THIS".]
 
-In the nineteen eighties, an Alaska biologist watched a cow moose box a male grizzly so hard that the bear went somersaulting backwards. That was a cow.
+In the nineteen eighties, an Alaska biologist watched a cow moose box a male grizzly so hard that the bear went somersaulting backwards. The bear had come for her calf. That was a cow.
 
 [A bull moose with a huge rack. Label: "UP TO 700 KG".]
 
-A large bull weighs up to about seven hundred kilograms. Every year in late September and early October, it spends the rut shoving other bulls with a rack it grew in a single summer.
+A large bull weighs up to about seven hundred kilograms. In the fall rut, it shoves other bulls with a rack it grew in a single summer.
 
 [Diagram of a moose front leg with red arrows: up, forward, sideways, down.]
 
@@ -190,19 +182,21 @@ Moose mostly kick with their front legs, and the hoof can come straight up, swin
 
 A bull moose kick is a vending machine falling on you from shoulder height.
 
-[A wolf skull with a small healed crack. Label: "HEALED".]
-
-Wolves have died from moose kicks, though not often, and one biologist found a wolf skull with a healed injury that looked a lot like a kick.
-
 But that's not the whole picture.
 
 [A tally board: "3 TO 4 ADULT MOOSE A YEAR".]
 
-Grizzlies do kill moose. In one Alaska study, each adult male grizzly killed three or four adult moose a year, and each bear killed at least five calves. But the highest kill rates came from males killing cows at calving time, and the bull in the rut is a very different conversation.
+Grizzlies do kill moose. In one Alaska study, each adult male grizzly killed three or four adult moose a year, and each bear killed at least five calves. The highest kill rates came from males killing cows at calving time.
+
+[A pie chart, almost all one colour: "OLDER KILLS: 88% COWS". Beside it, a row of collared bull moose, each with a green tick.]
+
+In Sweden, researchers checked thirty-two adult moose killed by brown bears. Among the older moose, almost nine in ten were female, and not one of the male moose the researchers had radio-collared was killed by a bear.
+
+The bear eats moose. It mostly leaves the bulls alone.
 
 [Doug walks up to the bull holding out a moose-calf costume on a hanger, hopeful smile. The bull looks at it.]
 
-Doug brings the bull a calf costume, for diplomacy.
+Doug has read the numbers, so he brings the bull a moose-calf costume, so it can see how the calves feel.
 
 We have met this moose before. It has not changed.
 
@@ -224,7 +218,7 @@ Yellowstone's grizzlies eat a lot of bison, and almost all of that meat comes fr
 
 [A bull bison. Label: "UP TO 900 KG". Beside it, eleven Doug outlines in a row.]
 
-A bull weighs up to about nine hundred kilograms, more than eleven Dougs. Wolves and grizzlies are the only large predators of adult bison in the park, and bison usually turn and face an attacker together, as a group.
+A bull weighs up to about nine hundred kilograms, more than eleven Dougs. Wolves and grizzlies are the only large predators of adult bison in the park, and bison usually turn and face an attacker together, as a group. A bull can run about fifty kilometers an hour, spin around fast, and jump about one and a half meters.
 
 [A small car with horns and a beard, facing the viewer.]
 
@@ -250,7 +244,7 @@ Bison still have right of way.
 
 [A sedge meadow by a river. A mother bear with two cubs eats grass near a road with parked cars. She keeps glancing over her shoulder.]
 
-So far, every animal here has made the grizzly wait, but the next one is what a mother grizzly fears most.
+So far, the bear has only risked a meal, a face full of quills or a broken bone. The next animal is what a mother grizzly fears most.
 
 Its cubs.
 
@@ -276,7 +270,7 @@ But here's the clever part.
 
 [A map. A red dot for the mother, a cluster of houses, a dotted line between them. Label: "ABOUT 780 M".]
 
-In the Swedish study, the mothers that kept their cubs stayed closer to people. Their typical distance from houses was about seven hundred and eighty meters, against about twelve hundred for the mothers that lost them. Adult males there avoid people. In British Columbia, bear viewing pushed big males away from a river, and the mothers with cubs finally got to fish.
+In the Swedish study, the mothers that kept their cubs stayed closer to people. Their typical distance from houses was about seven hundred and eighty meters, against about twelve hundred for the mothers that lost them. Adult males there generally avoid people, so a house nearby works on them like a locked door. In British Columbia, bear viewing pushed big males away from a river, and the mothers with cubs spent more of their time fishing.
 
 [The mother bear sits right beside a line of tourists with cameras. The big male stops at the treeline.]
 
@@ -306,11 +300,11 @@ In the Russian Far East, tigers kill and eat brown bears, the same species as th
 
 [The tiger. Label: "180 TO 300 KG".]
 
-A male Amur tiger weighs about one hundred and eighty to three hundred kilograms, so at the top end it is a three-hundred-kilo house cat that has decided the fridge is food.
+A male Amur tiger weighs about one hundred and eighty to three hundred kilograms. At the top end, that is a big touring motorbike, and it is still a cat.
 
 [A map of the Russian Far East with one area highlighted: "SIKHOTE-ALIN". A tally board counts up to "763 KILLS".]
 
-Over more than twenty years in the Sikhote-Alin reserve, researchers found seven hundred and sixty-three animals killed by tigers. About one in every hundred was a brown bear, and about one in every hundred was an Asiatic black bear.
+Over more than twenty years, from nineteen ninety-two to two thousand thirteen, in and around the Sikhote-Alin reserve, researchers found seven hundred and sixty-three animals killed by tigers. About two in every hundred were bears, brown or black.
 
 [A row of twelve tiger droppings, cartoon brown blobs. One gets a small bear-face icon.]
 
@@ -324,7 +318,7 @@ Bears there regularly feed at tiger kills, about one kill in every six in one st
 
 [Doug stands in the snow between the brown bear and the tiger, one arm out toward each, like a referee. Hopeful smile.]
 
-Doug stands between them in the snow, to keep it a fair fight.
+Doug stands between them in the snow, one arm out toward each, to make sure that it stays a fair fight.
 
 [The tiger and the bear both look at Doug. Cut to black. DOUG DEATHS: 321. The red cap sits in a tiger print in the snow.]
 
@@ -358,13 +352,13 @@ People shot, poisoned and trapped them wherever they were found, sometimes for g
 
 Today there are a little over two thousand, on about six percent of their old range. About a thousand of them live in and around Yellowstone, and most of the rest live in the northern Rockies of Montana.
 
-[A classroom with twenty-two desks. Twenty-one are empty. One has a small bear in it.]
+[A big parking lot with twenty-two marked spaces. Twenty-one are empty. One battered pickup truck sits in the last space.]
 
-If the old grizzlies were a classroom of twenty-two kids, today there would be one kid left.
+If the old grizzlies were twenty-two cars in a parking lot, today there would be one car left, and it would be parked at the far end.
 
 Here's the honest part.
 
-[The single bear in the classroom looks at the door. A red-capped figure stands in it.]
+[The empty parking lot at dusk. A grizzly silhouette stands beside the last pickup, looking toward the gate. A red-capped figure stands in it.]
 
 The animal grizzlies avoid most is the one that took nearly all of their land, and it is the only one on this list that ever came close to finishing them off. Attacks on people are rare, and for most of history the danger has run the other way.
 
@@ -388,4 +382,4 @@ The cap has been avoided. It is taking it personally.
 
 Doug deaths: three hundred and twenty-two. Tell us in the comments which animal you would want standing between you and a bear.
 
-<!-- words: 1996 (draft 1, spoken narration only; band headers and item-name sentences included; headings, comments and stage directions excluded). About 10.2 min at 195 wpm. 135 sentences, average 14.8 words, longest 34. Flesch 77.0 (textstat). "The Wolf Pack." starts at word 35, its twist marker at word 131 (about 0:40). Outro 22 words. -->
+<!-- CD light edits 2026-11-09 (R1-R6): Bull Moose trimmed to 257, bison "about fifty kilometers an hour", car park to parking lot, 88% label qualified as OLDER KILLS: 88% COWS, Doug moose beat clarified. Words now about 2,094 (about 10.7 min). Previous count: words: 2108 (draft 2, spoken narration only; band headers and item-name sentences included; headings, comments and stage directions excluded). About 10.8 min at 195 wpm. 149 sentences, average 14.1 words, longest 33. "The Wolf Pack." starts at word 35, its twist marker at word 138 (about 0:42). Outro 22 words. -->
