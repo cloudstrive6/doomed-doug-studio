@@ -1,19 +1,19 @@
 <!-- axis: severity, meaning how far one anaconda hunt has gone. Spoken bands, once each, the first time we enter the band: "Watched." (before item 1), "Bitten." (before item 4), "Squeezed." (before item 5), "Swallowed." (before item 7), "Kept." (before item 9). The HUNT STAGE swamp post (WATCHED, BITTEN, SQUEEZED, SWALLOWED, KEPT) is staging only, never read aloud, and the red pointer only moves down; KEPT is stamped red at item 9. -->
-<!-- Episode 042, draft 2 (2026-11-09, script writer), revised against script_review.md (draft 1 FAIL): fixes 1-7 and all four recommended edits applied. Written to the 2026-10-27 retention update: 10-12 min, 9 items. First sentence carries a number, the average-man comparison and the kill stake (97.5 kg, more than the average man, kills without venom); 97.5 kg is no longer repeated in item 1; payoff promise (barefoot night swamp, the biggest one) by about 0:10; "The Female." covers words 34-35; item 1 opens on the record and the male-female gap, and its twist marker lands at word 133 (about 0:41). Hook fact first in every item; every kicker or Doug beat leans into the next item.
+<!-- Episode 042, draft 3 (2026-11-09, script writer), revised against script_review.md (draft 2 FAIL): fixes 1-5 and both recommended edits applied (on-screen card, spectacled caimans, checklist wording on the split, "every giant anaconda", sentence-1 tense; payoff line trimmed by one word so "The Female." keeps its position). Draft 2 notes follow: fixes 1-7 and all four recommended edits applied. Written to the 2026-10-27 retention update: 10-12 min, 9 items. First sentence carries a number, the average-man comparison and the kill stake (97.5 kg, more than the average man, kills without venom); 97.5 kg is no longer repeated in item 1; payoff promise (barefoot night swamp, the giant) by about 0:10; "The Female." covers words 34-35; item 1 opens on the record and the male-female gap, and its twist marker lands at word 133 (about 0:41). Hook fact first in every item; every kicker or Doug beat leans into the next item.
 Counter on screen at 322 from the first shot, ends at 329. Seven deaths: 323 The Female, 324 The Nostrils, 325 The Teeth, 326 The Coils (flat), 327 The Heartbeat, 328 The Jaws, 329 The Biggest One. Survivals: The Breeding Ball ("Doug is fine.") and The Caiman (narrator quietly disappointed, no "Doug is fine.").
 Running gags, once each: "Doug did not agree to this." (item 1); "Doug is fine." (item 3); costume gag (item 7, capybara suit, deadpan, cap on top); "hi friend?" (item 7, speech bubble). Callbacks: 010 (item 4, one line), 027 (item 8, one line). The optional 022 callback is not used.
 Field guide GREEN ANACONDA page: "NO" at death 323, "MAYBE" pencilled at The Breeding Ball, rubbed out at The Coils, closing sticky note "NO VENOM. NO NEED."
 Cap: on the tape measure, floating by "the log", on top of the breeding ball, on the antivenom box, hooked on a reed, on the lump, on the caiman's back, floating on the two bumps at dawn.
-Deviations from the brief, all fact-driven (details in facts.md): jaguar predation on green anacondas is cut (only yellow-anaconda or genus-level records found; caimans carry item 8 alone, from Rivas et al. 1999); the Fawcett line is cut (no strong source fetched); the 2024 split is told as the team's argument with "Not every scientist accepts it yet" because two 2024 Bionomina papers dispute it; constriction and heartbeat findings are framed as boa studies ("a close relative"); the human-fatality line now says reports of a killing are "very few, and hard to verify" (Murphy & Crutchfield 2019 report two fatal 1956 attacks; Rivas 1999 documents two non-fatal strikes). -->
+Deviations from the brief, all fact-driven (details in facts.md): jaguar predation on green anacondas is cut (only yellow-anaconda or genus-level records found; caimans carry item 8 alone, from Rivas et al. 1999); the Fawcett line is cut (no strong source fetched); the 2024 split is told as the team's argument, and the script says the main reptile checklist still counts them as one species (Reptile Database: "preliminarily considered a synonym"; two 2024 Bionomina papers dispute the split); constriction and heartbeat findings are framed as boa studies ("a close relative"); the human-fatality line now says reports of a killing are "very few, and hard to verify" (Murphy & Crutchfield 2019 report two fatal 1956 attacks; Rivas 1999 documents two non-fatal strikes). -->
 <!-- Pronunciation for the editor: Jesús Rivas = "heh-SOOS REE-vahs"; capybara = "kap-ee-BAR-ah"; caiman = "KAY-man"; Llanos is not spoken (script says "the plains of Venezuela"). No Latin names are spoken. Editor: hold the thumbnail 1.5 s or less so "The Female." lands by about 0:11. -->
 
 [Open on thumbnail A, 1.5 seconds or less. One huge olive-green anaconda coil fills two thirds of the frame, the head low in dark water with two eye bumps. Tiny red-capped Doug stands on the coil. Text: "NO VENOM NEEDED". DOUG DEATHS: 322. Beside the counter, a crude wooden swamp post: HUNT STAGE, red pointer at WATCHED.]
 
-One wild anaconda weighed ninety-seven and a half kilos, more than the average man, and kills without venom.
+One wild anaconda weighed ninety-seven and a half kilos, more than the average man, and it kills without venom.
 
 [Hard cut. A hanging scale with a coiled snake in a sling. The dial reads "97.5 KG". A red-crossed venom bottle beside it.]
 
-By the end, Doug wades a night swamp barefoot, feeling for the biggest one.
+By the end, Doug wades a night swamp barefoot, feeling for the giant.
 
 [Night swamp, black water, tiny Doug up to his knees, barefoot, cap on. Two olive-sized bumps on the water behind him. A big red "?" pops above him.]
 
@@ -25,7 +25,7 @@ The Female.
 
 [A grid of seven hundred and eighty tiny snake icons. Label: "780 CAUGHT, 7 YEARS". One fat icon glows red.]
 
-That anaconda was a female, and so is every giant snake you have ever pictured. Over seven years in Venezuela, the biologist Jesús Rivas and his team caught and measured seven hundred and eighty wild anacondas.
+That anaconda was a female, and so is every giant anaconda you have ever pictured. Over seven years in Venezuela, the biologist Jesús Rivas and his team caught and measured seven hundred and eighty wild anacondas.
 
 [Split screen. Left: a huge female coil, tag "97.5 KG". Right: a thin male, tag "17 KG". A stick man for scale between them, tag "AVERAGE MAN, 90 KG".]
 
@@ -45,7 +45,7 @@ In twenty twenty-four, a team led by Rivas compared anaconda genes from nine cou
 
 [A small "?" stamp on the red line.]
 
-Not every scientist accepts the split yet, but if it holds, the heaviest snake on Earth was quietly two different snakes, and scientists are still arguing about her name.
+For now, the main reptile checklist still counts them as one species. If the split holds, the heaviest snake on Earth was quietly two different snakes, and scientists are still arguing about her name.
 
 [Doug on the riverbank with a yellow tape measure, hopeful smile, holding the end out toward the water. A big female slides up out of the shallows toward the tape.]
 
@@ -291,7 +291,7 @@ The Caiman.
 
 [A riverbank. A big anaconda and a spectacled caiman face each other. Label: "SAME POOL".]
 
-Anacondas eat caimans, the smaller crocodilian relatives of alligators that share their pools.
+Anacondas eat spectacled caimans, small crocodilian relatives of alligators that share their pools.
 
 [A thick coil around a caiman. The caiman's tail sticks out at an angle.]
 
@@ -337,13 +337,13 @@ For decades, the New York Zoological Society offered a reward for any live, heal
 
 Nobody ever tried to claim it.
 
-[Two minivans parked bumper to bumper, with a tape measure along them reading "9 M". A single minivan beside them, labeled "5.21 M, THE REAL ONE".]
+[Two minivans parked bumper to bumper, with a tape measure along them reading "9 M"; the tape ends just short of the second van's back bumper. A single minivan beside them, labeled "5.21 M, THE REAL ONE".]
 
 Thirty feet would be almost two minivans parked end to end. The longest anaconda Rivas caught, out of seven hundred and eighty, was just over five meters, about one minivan. In his thesis, he asked why he had never found one anywhere near nine meters, and suggested the really big ones near people may have been killed off long before.
 
 Here's the honest part.
 
-[A sober card, plain text on beige: "PREDATORY STRIKES ON 2 RESEARCHERS. DOCUMENTED KILLINGS OF PEOPLE: NONE."]
+[A sober card, plain text on beige: "STRIKES ON 2 FIELD ASSISTANTS. KILLINGS OF PEOPLE: VERY FEW, HARD TO VERIFY."]
 
 Rivas documented anacondas striking at two of his own field assistants as if they were prey, but reports of one actually killing a person are very few, and hard to verify.
 
@@ -357,7 +357,7 @@ Doug has come to claim the prize, so he shuffles his feet through the mud, and h
 
 [The HUNT STAGE pointer drops to KEPT. A red stamp slams down: "KEPT". Cut to black. DOUG DEATHS: 329.]
 
-Doug has died. Again. He may now be the exception that nobody can verify either.
+Doug has died. Again. He may now be one of the very few that nobody can verify either.
 
 [A smooth, still lump in the water at night. Nothing else moves.]
 
@@ -371,4 +371,4 @@ The cap was not swallowed. She has standards.
 
 Doug deaths: three hundred and twenty-nine. Tell us in the comments which animal Doug should never be allowed to measure.
 
-<!-- words: 2064 (draft 2; spoken narration only; band headers and item-name sentences included; headings, comments and stage directions excluded). About 10.6 min at 195 wpm. 146 sentences, average 14.1 words, longest 34. Flesch reading ease 77.0 (textstat). "The Female." covers words 34-35, its twist marker at word 133. Items 212-260 words each. Outro 20 words. Tic words: However 0, actually 1, essentially 0, incredibly 0. Draft 1 count was 2,051. -->
+<!-- words: 2072 (draft 3; spoken narration only; band headers and item-name sentences included; headings, comments and stage directions excluded; same counting method gives 2064 for draft 2). About 10.6 min at 195 wpm. 147 sentences, average 14.1 words, longest 34. "The Female." still covers words 34-35 (sentence 1 gained "it", the payoff line lost one word); the twist marker position is unchanged. Outro 20 words. Tic words: However 0, actually 1, essentially 0, incredibly 0. -->
