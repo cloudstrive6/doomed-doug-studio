@@ -45,12 +45,12 @@
       "outro": "The full video is linked below.",
       "end_card": "FULL VIDEO: TAP BELOW",
       "description": "A hyena's giggle tells listeners its age and rank, but the whoop is the call that brings the clan, and what happened after Doug counted twelve is in the full episode.",
-      "duration_s": 50.5,
-      "youtube_id": "wHlOxxUWh7U",
-      "publish_at": "2026-11-09T14:00:00Z",
+      "duration_s": 60.5,
+      "youtube_id": "SpTs-QO7MR4",
+      "publish_at": "2026-11-17T00:00:00Z",
       "related_video": "DipC3jfwExY",
-      "related_set": true,
-      "uploaded_at": "2026-10-31T18:09:58+00:00",
+      "related_set": false,
+      "uploaded_at": "2026-11-09T01:47:44+00:00",
       "cliffhanger_original": {
         "from": "s073",
         "to": "s085",
@@ -59,7 +59,16 @@
         "tease_from": "s115",
         "tease_asset": "spotted_hyena_plain",
         "duration_s": 50.5
-      }
+      },
+      "replaced_cliffhanger": {
+        "youtube_id": "wHlOxxUWh7U",
+        "publish_at": "2026-11-09T14:00:00Z",
+        "uploaded_at": "2026-10-31T18:09:58+00:00",
+        "related_set": true,
+        "unscheduled": false,
+        "note": "cliffhanger original; private, unscheduled; owner deletes in Studio"
+      },
+      "remade_at": "2026-11-09"
     },
     {
       "id": "short03",
@@ -69,12 +78,12 @@
       "outro": "The full video is linked below.",
       "end_card": "FULL VIDEO: TAP BELOW",
       "description": "Wild hyenas have walked the streets of Harar for at least 500 years, and why the lions left Doug is answered in the full episode.",
-      "duration_s": 43.3,
-      "youtube_id": "FynWs3j3454",
-      "publish_at": "2026-11-09T19:00:00Z",
+      "duration_s": 37.1,
+      "youtube_id": "ULjMtf6IkDY",
+      "publish_at": "2026-11-17T14:00:00Z",
       "related_video": "DipC3jfwExY",
-      "related_set": true,
-      "uploaded_at": "2026-10-31T18:10:00+00:00",
+      "related_set": false,
+      "uploaded_at": "2026-11-09T01:47:47+00:00",
       "cliffhanger_original": {
         "from": "s137",
         "to": "s145",
@@ -83,7 +92,16 @@
         "tease_from": "s195",
         "tease_asset": "lioness_walking",
         "duration_s": 43.3
-      }
+      },
+      "replaced_cliffhanger": {
+        "youtube_id": "FynWs3j3454",
+        "publish_at": "2026-11-09T19:00:00Z",
+        "uploaded_at": "2026-10-31T18:10:00+00:00",
+        "related_set": true,
+        "unscheduled": false,
+        "note": "cliffhanger original; private, unscheduled; owner deletes in Studio"
+      },
+      "remade_at": "2026-11-09"
     }
   ]
 }
