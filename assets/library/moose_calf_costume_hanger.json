@@ -1,6 +1,6 @@
 {
  "name": "moose_calf_costume_hanger",
- "description": "Reddish-brown (#8a5a3a) moose calf onesie on a grey wire coat hanger: hood hanging flat as a long moose-calf face (eye dots, dark droopy muzzle with nostrils), two big leaf ears, long knobbly arm and leg sleeves ending in dark split-hoof cuffs, grey dashed zip, no antlers. Hook at the top (y ~-192). Anchor centre, ~255x380 (x -128..128, y -192..190). Same family as moose_calf / moose_costume.",
+ "description": "Reddish-brown (#8a5a3a) moose calf onesie on a grey wire coat hanger (outlined grey wire shoulders visible on the onesie shoulders, outlined hook and stem above the hood): hood hanging flat as a long moose-calf face (eye dots, dark droopy muzzle with nostrils, flat mouth (no smile)), two big leaf ears, long knobbly arm and leg sleeves ending in dark split-hoof cuffs, grey dashed zip, no antlers. Hook at the top (y ~-207). Anchor centre, ~255x380 (x -128..128, y -207..190). Same family as moose_calf / moose_costume.",
  "anchor": [
   0,
   0
@@ -14,36 +14,6 @@
   "041"
  ],
  "elements": [
-  {
-   "type": "line",
-   "points": [
-    [
-     -60,
-     -100
-    ],
-    [
-     -96,
-     -84
-    ]
-   ],
-   "width": 5,
-   "color": "#5a5f66"
-  },
-  {
-   "type": "line",
-   "points": [
-    [
-     60,
-     -100
-    ],
-    [
-     96,
-     -84
-    ]
-   ],
-   "width": 5,
-   "color": "#5a5f66"
-  },
   {
    "type": "poly",
    "points": [
@@ -1197,6 +1167,66 @@
    "color": "#5a3a22"
   },
   {
+   "type": "line",
+   "points": [
+    [
+     -34,
+     -128
+    ],
+    [
+     -92,
+     -92
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -34,
+     -128
+    ],
+    [
+     -92,
+     -92
+    ]
+   ],
+   "width": 4,
+   "color": "#b4bac2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     34,
+     -128
+    ],
+    [
+     92,
+     -92
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     34,
+     -128
+    ],
+    [
+     92,
+     -92
+    ]
+   ],
+   "width": 4,
+   "color": "#b4bac2"
+  },
+  {
    "type": "poly",
    "points": [
     [
@@ -1616,19 +1646,19 @@
    "outline": false
   },
   {
-   "type": "curve",
+   "type": "line",
    "points": [
     [
-     -14,
-     -98
+     -12,
+     -97
     ],
     [
      0,
-     -94
+     -97
     ],
     [
-     14,
-     -98
+     12,
+     -97
     ]
    ],
    "width": 2,
@@ -1643,22 +1673,48 @@
     ],
     [
      0,
-     -170
+     -178
     ]
    ],
-   "width": 5,
-   "color": "#5a5f66"
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -150
+    ],
+    [
+     0,
+     -178
+    ]
+   ],
+   "width": 4,
+   "color": "#b4bac2"
   },
   {
    "type": "ellipse",
-   "x": -14,
-   "y": -178,
-   "rx": 16,
-   "ry": 14,
+   "x": -16,
+   "y": -192,
+   "rx": 17,
+   "ry": 15,
    "start": 330,
    "end": 540,
-   "width": 5,
-   "color": "#5a5f66"
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -16,
+   "y": -192,
+   "rx": 17,
+   "ry": 15,
+   "start": 330,
+   "end": 540,
+   "width": 4,
+   "color": "#b4bac2"
   }
  ]
 }

@@ -1,0 +1,165 @@
+{
+ "background": "#3fa9e8",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#3fa9e8",
+   "color": "#3fa9e8",
+   "width": 0,
+   "boil": 0,
+   "outline": false
+  },
+  {
+   "type": "asset",
+   "name": "grizzly_sitting",
+   "x": 290,
+   "y": 700,
+   "scale": 1.55,
+   "flip": false,
+   "rotate": -15,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -20,
+     720
+    ],
+    [
+     -20,
+     640
+    ],
+    [
+     300,
+     610
+    ],
+    [
+     640,
+     640
+    ],
+    [
+     1300,
+     600
+    ],
+    [
+     1300,
+     720
+    ]
+   ],
+   "fill": "#ffffff",
+   "color": "#000000",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "amur_tiger",
+   "x": 1430,
+   "y": 780,
+   "scale": 1.75,
+   "flip": true,
+   "rotate": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     640,
+     720
+    ],
+    [
+     640,
+     642
+    ],
+    [
+     880,
+     600
+    ],
+    [
+     1000,
+     640
+    ],
+    [
+     1300,
+     580
+    ],
+    [
+     1300,
+     720
+    ]
+   ],
+   "fill": "#ffffff",
+   "color": "#ffffff",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     640,
+     642
+    ],
+    [
+     880,
+     600
+    ],
+    [
+     1000,
+     640
+    ],
+    [
+     1300,
+     580
+    ]
+   ],
+   "color": "#000000",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 790,
+   "y": 545,
+   "scale": 0.55,
+   "pose": "arms_up",
+   "expression": "shock",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0,
+   "gear": [
+    "sweat"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "NOT WORTH IT",
+   "x": 790,
+   "y": 70,
+   "size": 104,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 13,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 960,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

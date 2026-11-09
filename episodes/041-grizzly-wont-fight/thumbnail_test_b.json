@@ -1,0 +1,129 @@
+{
+ "background": "#f2c230",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#f2c230",
+   "color": "#f2c230",
+   "width": 0,
+   "boil": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 590,
+   "w": 1280,
+   "h": 130,
+   "fill": "#e6e0d2",
+   "color": "#e6e0d2",
+   "width": 0,
+   "boil": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     590
+    ],
+    [
+     1280,
+     590
+    ]
+   ],
+   "color": "#000000",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "grizzly_bear",
+   "x": 1010,
+   "y": 640,
+   "scale": 1.2,
+   "flip": true,
+   "rotate": 8,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "porcupine",
+   "x": 470,
+   "y": 640,
+   "scale": 1.15,
+   "flip": false,
+   "rotate": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 190,
+   "y": 540,
+   "scale": 0.8,
+   "pose": "stand",
+   "expression": "gritted",
+   "facing": "right",
+   "boil": 0,
+   "wobble": 0,
+   "gear": [
+    "sweat"
+   ]
+  },
+  {
+   "type": "asset",
+   "name": "porcupine_costume",
+   "x": 190,
+   "y": 540,
+   "scale": 0.8,
+   "flip": false,
+   "rotate": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "arrow",
+   "from": [
+    600,
+    200
+   ],
+   "to": [
+    520,
+    400
+   ],
+   "bend": 25,
+   "color": "#e0201b",
+   "width": 16,
+   "head": 54,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "TOO COSTLY",
+   "x": 420,
+   "y": 80,
+   "size": 116,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 13,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1000,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

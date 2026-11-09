@@ -212,6 +212,11 @@ tell the director.
 - Shots: s137, s138, s139 (a row of 2-4 bear-viewing tourists by a river).
 - **DONE** (illustrator, 2026-11-09): preview assets/previews/041-grizzly-wont-fight-assets-props-maps-2.png, assets/previews/041-grizzly-wont-fight-assets-props-maps-3-dark.png (~486 tall incl. hat)
 
+### moose_front_leg
+- One long moose front leg with a cloven hoof, same colours as library `moose`, no gore. Anchor centre, about 260x620.
+- Shots: s085, s086 (at (800,580) scale 1.0).
+- **DONE** (illustrator, 2026-11-09): preview assets/previews/041-grizzly-wont-fight-assets-leg.png; checked in keyframes s085/s086 (top ends in a shaggy fur fringe, not a cut; hoof bottom at y +310)
+
 ## Maps
 
 ### russia_far_east_map

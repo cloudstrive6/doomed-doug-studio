@@ -1,0 +1,165 @@
+{
+ "background": "#7ac943",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#e8463a",
+   "color": "#e8463a",
+   "width": 0,
+   "boil": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 600,
+   "w": 1280,
+   "h": 120,
+   "fill": "#5a8a32",
+   "color": "#5a8a32",
+   "width": 0,
+   "boil": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     600
+    ],
+    [
+     1280,
+     600
+    ]
+   ],
+   "color": "#000000",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "asset",
+   "name": "grizzly_bear",
+   "x": 470,
+   "y": 690,
+   "scale": 1.55,
+   "flip": true,
+   "rotate": 0,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 1060,
+   "y": 560,
+   "scale": 0.8,
+   "pose": "wave",
+   "expression": "hopeful",
+   "facing": "left",
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     1000,
+     260
+    ],
+    [
+     1040,
+     260
+    ],
+    [
+     1020,
+     330
+    ]
+   ],
+   "fill": "#ffffff",
+   "color": "#000000",
+   "width": 5,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "ellipse",
+   "x": 1040,
+   "y": 205,
+   "rx": 120,
+   "ry": 75,
+   "fill": "#ffffff",
+   "color": "#000000",
+   "width": 6,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 1018,
+   "y": 192,
+   "r": 24,
+   "fill": "#e0201b",
+   "color": "#e0201b",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "circle",
+   "x": 1062,
+   "y": 192,
+   "r": 24,
+   "fill": "#e0201b",
+   "color": "#e0201b",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     996,
+     202
+    ],
+    [
+     1084,
+     202
+    ],
+    [
+     1040,
+     250
+    ]
+   ],
+   "fill": "#e0201b",
+   "color": "#e0201b",
+   "width": 1,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "IT FEARS US?",
+   "x": 560,
+   "y": 80,
+   "size": 118,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 13,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1000,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
