@@ -14,3 +14,9 @@ Cause: every produce.yml run since 2026-11-06 fails within ~1 min. Claude stages
 Changed: nothing (re-dispatching now would only fail again; no quality gates touched). Episodes up to 038 are uploaded, the queue runs through Tue 10 Nov.
 Verification: run 42502798789 log shows both is_error results.
 Needs owner: top up Anthropic API credit (console billing) so the backup key works; subscription limit resets 19:00 UTC today, after which the next scheduled produce run should resume 039. If it doesn't, run `gh workflow run produce.yml`.
+
+## 2026-11-09 06:02 UTC — produce failing: Claude credits/limit exhausted
+- Cause: runs 42559498936 and 42564882471 failed at stage A. The API key reported "Credit balance is too low", and the subscription fallback reported "5-hour limit, resets 5:10am UTC". This was not a code bug.
+- Change: no code changes. Re-dispatched produce.yml at 06:02 UTC, after the subscription limit reset.
+- Verification: new run started. Check that it passes stage A.
+- Needs owner: top up the Anthropic API credit (console.anthropic.com > Billing). Without it, production only has the subscription 5-hour limit and will keep failing whenever that is hit.
