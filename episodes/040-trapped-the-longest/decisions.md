@@ -71,3 +71,29 @@ Summary: B GO now; C GO after small cleanup; A NO-GO until fixes 1-5 are done. B
 
 ## 2026-11-09 Showrunner: report
 Resumed at shotlisted. Art: 3 rounds (art-director + visual-screener PASS in round 3). Thumbnails: 1 fix round, all three approved. Editor lowered config voice.speaking_rate 1.175 -> 1.14 (was 206 wpm, now 197.8 wpm_speech); this is a global setting, so it affects later episodes too. Runtime ~11.0 min. Risks: weekly memo says long-video CTR is weak, so title/thumbnail test A/B/C matters; Ö glyph in rendered captions not verified on an actual frame.
+
+## 2026-11-09 Creative Director: final package gate
+Reviewed: metadata.json (title, alt_titles, description, tags, playlist), build/chapters.txt, build/thumbnail.png and
+thumbnail_small.png (168x94), samples f_001-f_003 (first ~90 s), the script opening through item 1, visual_review.md
+post-render (PASS main + Shorts) and qc.json (no problems, 658 s).
+
+- **Title: keep "The Most Disturbing Things Nature Kept Trapped the Longest"** (58 chars, T4, last T4 was 030 ten slots ago).
+  It is honest: every item is held by a natural trap, in ascending duration, and the back half delivers things coming back out.
+  None of the alts is clearly stronger: "How Doug Would Die in Every Trap That Never Let Go" is untrue (Doug survives the snowbound
+  car, and that trap did let go); "Why Nature's Traps Get Creepier..." is a vaguer gradient; "Most Disturbing Discoveries in Each..."
+  is clunkier; "Scariest Things Scientists Found Nature Had Sealed Away" loses the "longest" axis that drives the click.
+- **Thumbnail A: GO.** Permafrost now reads (ice lenses, crack lines, ice spikes, frost pocket), Doug is big enough with a clear
+  shocked look, arrow on the worm's head, IT WOKE UP is legible at 168x94 and adds to the title instead of repeating it. Paid off
+  by The Permafrost Worms chapter (5:26). B and C stay in Test & compare as approved earlier.
+- **Description/chapters: GO.** First line restates the search question; "27 hours to 101.5 million years" matches the readout;
+  sources cover every item (Mammoth Site re-date via USGS + facts.md). Chapters start 0:00, eight items, all segments >10 s.
+  No "zombie virus", no named victim, AI-use disclosure present.
+- **First 60 s: GO.** Concrete first line (the sealed cave), payoff promise by ~0:09, "Nutty Putty Cave" by word 34, twist
+  ("Here's the problem") ~0:30. Item 1 is handled soberly (no name, no injury detail, the death is off-screen as cap + suitcase).
+  HUD clean; TIME TRAPPED fills in at item end as designed.
+- Non-blocking: script.md's first stage direction still says "seafloor mud" for thumbnail A (stale note; render uses the
+  permafrost A). Shorts preview-still caption truncation is cosmetic (studio/shorts.py), editor may fix later.
+
+Series bible updated: death counter 308 -> 315 (7 deaths, the snowbound car is a survival), 040 row added to the episode log.
+
+FINAL: APPROVED

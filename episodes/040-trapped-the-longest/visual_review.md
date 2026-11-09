@@ -180,3 +180,42 @@ No gore and no kids-show tone on any of the three. None repeats a title word.
 - C: maybe. It is a clean list control, but the pandoravirus "egg" and the "pickle" microbes give it no emotional hook. It is weaker than A and B, but acceptable as the third test arm.
 
 Advisory (non-blocking): in A, Doug's pocket kisses the left canvas edge (a 1-2 px blue sliver at x 0 near y 410). It is not visible at feed size.
+
+---
+
+## Post-render check (visual screener, 2026-11-09)
+
+I rendered nothing. I viewed all 22 samples from final.mp4 (one every 30 s, 658 s total), `qc.json` (problems: none), thumbnails A/B/C
+at full size and `_small` 168x94, `metadata.json`, and the three Shorts (1080x1920; previews, the first frame, frames at 15/30/35/55/75/90/98.5 %,
+and a dense caption-strip sample of short02).
+
+**Main video: clean.**
+- There are no black, blank or frozen frames and no glitches. f_003 (Nutty Putty) is dark on purpose: the cap, the suitcase and the hole read clearly against near-black.
+- The HUD is legible and correct on every sample. The death counter climbs 308 to 314, TIME TRAPPED escalates to "101.5 MILLION YEARS" (in red on the seafloor), and
+  the chapter labels are spelled correctly.
+- The Ö glyph renders correctly in "ÖTZI'S HOLLOW" (f_007, f_008). `captions.srt` is UTF-8 and has "Ötzi" intact (lines 243, 875).
+- Doug is on-model wherever he appears (red cap, white head). On f_010 he is in the engine's locked `scuba` gear (mask, no cap), which is established gear and fine.
+  The s200-s202 single-cap ending was fixed earlier.
+- The Hoyo Negro silhouettes (f_011: sabre-tooth, ground sloth, gomphothere) are recognisable. The pandoravirus "Doug" (f_016) is a cap on a grey residue: a cartoon death, no gore.
+- The ending pays off: the 101.5-million-year microbes come back "NOT DEAD" (f_021), and then the standard end screen (DOUG'S NEXT DEATH + SUBSCRIBE slot).
+  There is no "???" teaser and no withheld payoff.
+- There is no kids-show tone anywhere.
+
+**Thumbnails: unchanged since the PASS above.** A/B/C still read at 168x94, each has one focal point, and none is misleading against the title.
+
+**Shorts: clean.**
+- short01 (32.3 s), short02 (44.2 s) and short03 (29.1 s) are all 1080x1920.
+- The titles are legible in 3 lines and not cropped. "Ötzi" renders correctly in the short02 title.
+- The drawings are not cut at the sides. The HUD stays in frame and readable.
+- The subtitles are large, white with a black outline, in 4-word chunks, and legible on both the light and the dark backgrounds.
+- Each end card reads "FULL VIDEO: TAP BELOW", and its red arrow points straight down.
+- Each Short pays off its title before the end card: microbes feeding ("WAITING FOR A MEAL"), 5,300 YEARS -> 4 DAYS, and the worm "family" across generations.
+
+### Advisory (non-blocking)
+1. The `*_preview.png` subtitles stop mid-word ("ice sat on t", "drying out a li"). This comes from `studio/shorts.py` line 319 (`mid[4][:40]`) and affects the
+   preview still only. The real video frames show whole 4-word chunks. If you want, the editor can make the preview cut at word boundaries.
+2. short02 opens on the Ötzi discovery wide shot (s055) with no Doug in the first second. It is still a clear hook, because the title carries it. Optional: start
+   from a shot with Doug in it.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
