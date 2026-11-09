@@ -46,3 +46,27 @@ All round 1 blockers are resolved. Nothing left blocks the render.
 - The tone stays adult, with no nursery framing. The endslate arrow points to the video slot.
 
 Post-render checks (samples, qc.json, Shorts previews and frames) are still to do once final.mp4 and the Shorts exist.
+
+## Post-render review (2026-11-09)
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+### Main video (final.mp4, 657.8 s; 22 samples; qc.json problems: none)
+- I found no black, blank, frozen or glitched frames in f_001 to f_022. Every sample has a clear subject, the HUD (deaths 315 to 321, bear's-cost tag DINNER, FACE, BONES, CUBS, LIFE) is legible, and the chapter tabs are correct.
+- Doug is on-model (red cap, white head) in every scene sample. The death and tone content is cartoon only, with no gore and no nursery framing.
+- The endslate (f_022) shows Doug pointing at the end-screen video slot, with "DOUG'S NEXT DEATH" legible.
+- The thumbnails are unchanged from the art-approved round. A "NOT WORTH IT" reads at 168x94 (bear, Doug, tiger), and B and C are also fine. None of them is misleading against "Why a 300 kg Grizzly Still Won't Try to Kill These Animals".
+
+Minor notes (not blocking; carried over or new):
+1. **s175 (director).** "THREATENED" still overlaps the top of the 50,000 bar (f_020). It is legible because of the outline. If it is touched again, move it up to y of about 380.
+2. **s079 (illustrator).** At playback size the rearing cow moose (`moose_bull_rearing` pose) reads more like a rearing horse or donkey, and its front legs look like human arms. The "1980s" label and the narration carry it. If the asset is revisited, lengthen the drooping muzzle, add a dewlap, and bend the forelegs at the knee.
+3. **s161/s162 area (director).** In f_018 the red arc arrow between the tiger and the bear ends in empty sky. If it is touched again, end it at the bear's shoulder.
+
+### Shorts (3x 1080x1920; 41.2 s, 40.9 s, 32.3 s)
+I checked the previews plus frames at 1, 8, 16 and 24 s, end minus 4 s, and end minus 0.5 s for each Short.
+- **short01 "Tigers in Russia Kill and Eat Brown Bears":** The title is readable and the scene is not cropped at the sides. It pays off the title: a tiger is shown with the bear and "A LOT OF BEAR", then the tiger and the carcass. The death card is cartoon only.
+- **short02 "Porcupine Quills Have Killed Cougars":** It pays off the title with cougar silhouettes and "2 FROM QUILLS". The death is cartoon only (a quill with Doug's cap).
+- **short03 "A Moose Boxed a Grizzly So Hard It Somersaulted":** It pays off the title. The somersaulting bear appears at about 8 s (s080), and the vending-machine shoulder-height gag lands.
+- **All three:** The subtitles are large, white with an outline, and legible. The partial words in the previews are the word-by-word reveal, not truncation. Each one ends cleanly on the "FULL VIDEO: TAP BELOW" card, with the red arrow pointing straight down. There is no "???" teaser and no withheld payoff.
+- Minor note: in the vertical frame Doug is small (about 45 px tall at 1080 wide). He is still identifiable by the red cap, and this is the standard Shorts layout, so it is not blocking.

@@ -52,3 +52,22 @@ Notes for the director and editor:
 - 33 missing drawings are listed in `asset_requests.md`. I rendered the 101 shots that need no new art (keyframes) and fixed what I found:
   the counter-zone title collisions (titles now at y 380), the big male's ridge moved left, tag-card layout, and sign text size.
 - 2026-11-09 (showrunner): script 2 rounds (FAIL then PASS), art 3 rounds (visual-screener PASS r2, art-director fixes verified), thumbnails A/B/C ok. Risks: pacing pass (long-shot/pop-in check, draft render of first 60s) not completed by editor; opening already at word limit before 'The Wolf Pack.'; price_tag asset edited (ep 030 s198 checked ok); shotlist.json is authoritative, build/gen.py stale.
+
+## 2026-11-09 Creative director: final package approval
+Reviewed: title, thumbnail A (build/thumbnail.png), metadata.json description and tags, build/chapters.txt, opening of script.md,
+sample frames f_001/f_002, visual_review.md (post-render PASS main + shorts), qc.json (no problems, 657.8 s).
+- **Title kept:** "Why a 300 kg Grizzly Still Won't Try to Kill These Animals" (58 chars, T9). The number gives scale and the
+  "still" sets up the curiosity gap; no alt title is clearly stronger. The video delivers it: every item is something a grizzly avoids
+  fighting, and the script is honest where bears do kill (adult moose, mostly cows; the chapter is the bull). Formula differs from
+  039 (Every Reason) and 040 (The Most).
+- **Thumbnail A:** bear, Doug and tiger read at feed size; "NOT WORTH IT" complements the title without repeating it. No gore, no
+  cubs, adult-coded. (The script's stage direction still says "EVEN BEARS RUN"; stale text only, the render uses the approved A.)
+- **Description:** promise matches the content, six key sources linked, AI-use and disclaimer present, {{CHAPTERS}} is filled at
+  upload (studio/youtube.py). Chapters start 0:00, item 1 at 0:10, eight item chapters.
+- **First 60 s:** number in the first sentence, payoff promise (Doug between a bear and a tiger that eats bears) by about 0:08,
+  "The Wolf Pack." at about 0:10, twist ("Here's the strange part.") inside 45 s. Frames are clean, HUD legible.
+- Non-blocking notes carried from the visual screener (s175 label overlap, s079 moose reads horse-like, s161 arrow) are logged for
+  asset revisits, not this upload.
+- Series bible updated: counter 315 to 322, deaths 320 and 322 flat, 041 log row added.
+
+FINAL: APPROVED
