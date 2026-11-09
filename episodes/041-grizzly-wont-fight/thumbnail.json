@@ -131,9 +131,10 @@
         ]
        ],
        "fill": "#fbf4e6",
-       "width": 4,
+       "width": 0,
        "color": "#000000",
-       "smooth": true
+       "smooth": true,
+       "outline": false
       },
       {
        "type": "line",
@@ -200,12 +201,8 @@
        "outline": false
       },
       {
-       "type": "poly",
+       "type": "curve",
        "points": [
-        [
-         -62,
-         -25
-        ],
         [
          -42,
          -54
@@ -243,22 +240,13 @@
          40
         ],
         [
-         -25,
+         -20,
          42
-        ],
-        [
-         -55,
-         30
-        ],
-        [
-         -68,
-         5
         ]
        ],
-       "fill": null,
        "width": 6,
        "color": "#000000",
-       "smooth": true
+       "_note": "open face outline: no line between ruff and face (art review 041 r2)"
       },
       {
        "type": "ellipse",

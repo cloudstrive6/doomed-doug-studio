@@ -98,3 +98,64 @@ resolved: the asset is now in the library and s085/s086 render. s001 renders fro
 
 Routing: no illustrator fixes are needed. The director should keep the `gen.py` edits above if the shotlist is regenerated (gen.py is
 the authoritative source but sits in git-ignored build/, so the committed `shotlist.json` carries the fixes).
+
+---
+
+# 041 art review, round 2 (art director, 2026-11-09)
+
+Reviewed: the re-rendered contact sheets 01-17 (s001-s194 + endslate, rendered 06:55), full-res keyframes s017, s086, s093,
+s115 and s123, the four new or changed assets (previews `assets/previews/041-fix-r2.png`, `041-fix-test.png`,
+`041-fix-keyframes.png`), the 030 re-check of `price_tag` (in-scene render of 030 s198), and thumbnails A/B/C at
+1280x720 and 168x94.
+
+## Verdict: FAIL. All 4 assets PASS, and the round-1 visual-review fixes are in. Three small composition/thumbnail fixes remain (below).
+
+### Assets: PASS (4/4)
+- **`moose_cow_icon`**: an exact antlerless twin of `moose_icon` (same body, footprint and anchor). It reads as a cow next to the bull
+  icon at row size. s090/s091 now show cows, s093 shows 28 cows + 4 bulls (matches "almost nine in ten"), and s095 keeps
+  the 4 antlered bulls. On-palette.
+- **`pizza_table_twelve`**: 6 people face us behind the cloth and 6 sit with their backs to us on the near bench. Every head is clear of the table
+  edge, every knife is raised, and the cloth is whole. It reads in s016 and s017, and the "two-headed figures" problem is gone. Crude tier for the people,
+  which is correct (they are Doug-tier extras, not detailed props).
+- **`bison_calf`**: it now reads as a bison calf (reddish-tan, small hump, darker forequarters, dark muzzle), not a dog or piglet.
+  At s115 it is clearly smaller than and different from the adult bison in s116. Detailed tier, bold silhouette.
+- **`price_tag`**: the grommet now clears the text on all five COST cards (DINNER/FACE/BONES/CUBS/LIFE) and on the HUD mini tag.
+  **Other episodes:** only **030** uses it (s198, the amber market stall; 032 and 034 do not reference `price_tag`). I re-rendered 030
+  s198 with the new geometry. The tag is blank there, sits on the amber tray at 0.9, and the longer point and string read fine
+  (the string loop overlaps one amber bead, which is harmless). No change is needed in 030.
+
+### Round-1 visual-review fixes: verified in the re-render
+s016/s017 pizza table (single "?", knives kept, box cleanly removed), s057 forearm runs off frame, s085/s086 show the whole
+rearing bull (no loose leg), s090-s093 cow icons, s103/s104 dark bison carcass, s114 MARCH fits, s115 calf, s121/s122/s128/s138
+Doug on the grass, s126/s130 cub as the arrow target (no contact), s134/s135 label and frame, s165 tiger added, s172-s177 now a
+map → bounty map → bar chart → zoomed range sequence (no five-in-a-row repeats), and s186-s189 broken up by the s188 close-up and the
+s189 bear disappearing into the trees. Doug is on-model everywhere, the counter runs 315→322, the cost tag and zone colours are unchanged, and nothing is gory.
+
+### Required fixes
+1. **s086 (director): the "EVERY WAY" wordart runs into Doug.** The final "Y" (wordart centre x 1420, size 90, ends at about x 1685)
+   touches Doug's cap brim at (1720, ~815). Move the wordart to **x 1330, y 860** (or Doug to x 1790). Keep ≥ 40 px clear. Also, the
+   "straight up" arrow `[930,300]→[930,90]` ends with its head touching the bottom of the chapter tag (tag bottom ≈ y 83). Shorten it to
+   **`[930,300]→[930,140]`**.
+2. **s017 (director): the large man's pizza box floats.** The box (`pizza_box` x 1330, y 620, scale 0.6) sits about 50 px above the large
+   man's two arm lines (y ≈ 730-775), so it hovers in front of his face instead of resting on his arms. Move it to **y 680** so the box's
+   bottom edge sits on the arms. The fix is in the final frame (`appear` 0.42), so check the keyframe.
+3. **Thumbnail A (graphic designer): the tiger's cheek ruff still reads as a cone collar or bandage at 168x94.** The softened ruff group is
+   in, but it still has a 6 px black outline running all the way round the inside edge (between the ruff and the orange face), so at feed
+   size it reads as a white band strapped round the jaw. Drop the inner outline (`width` 0 or no-outline on the face-side edge) and let
+   the ruff blend into the cheek as two or three spiky white tufts that break the silhouette. Keep the outer edge. The bear, Doug, title and cap gap
+   (now about 25 px to the nose) are fine.
+
+### Thumbnails
+- **A "NOT WORTH IT"**: needs fix 3 only. Otherwise it is the strongest of the three and on-palette.
+- **B "TOO COSTLY"**: PASS. The quill-suit Doug and the porcupine are now separated by background (about 40 px), and they read as two shapes at 168x94.
+- **C "IT FEARS US?"**: PASS. One focal point, the heart bubble reads small, and the bear's slight left crop is fine.
+
+### Optional (non-blocking)
+- s176 → s177: the two surviving populations are **yellow** ovals in s176 and **brown** blobs (with red rings) in s177. Use one colour
+  for both (brown matches the range colour on the 1800 map).
+- s126: Doug stands on a grass tuft (x ≈ 1845). Nudge him 60 px left.
+- s115: "APRIL" at 56 px fills the calendar page edge to edge. 52 px would give it breathing room.
+- The tiger ruff and tiger scat notes from the asset review still stand (scat reads acceptably).
+
+Routing: fixes 1-2 → director (gen.py and shotlist.json, then `keyframes --shots s017,s086`). Fix 3 → graphic designer
+(`thumbnail.json`, then `thumbnail`). No illustrator work. Re-review only s017, s086 and thumbnail A. If those three are clean, art is PASS.
