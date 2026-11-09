@@ -118,6 +118,11 @@ eyes and nostrils on TOP of the head. Small mean eye, round pupil, no fangs.
 ### caiman_holding_snake  **DONE** (illustrator 2026-11-09, preview `assets/previews/042-assets-snakes.png`)
 - The spectacled caiman holding a limp small anaconda crosswise in its jaws (no blood, the snake's eye an X), side view facing right.
 - Anchor bottom-centre, ~800x260. Shots: s136, s137.
+- **REDRAWN** (illustrator 2026-11-09, art_review fix 1): snake now clamped crosswise between the jaws at (+334,-52) (end-on
+  section under three upper teeth), one limp U drapes down behind the chin and trails left, the other drapes down in front and its
+  head lies on the ground with a 30-unit X eye (width 5). Bbox x -380..+522, y -109..+3, feet on y=0. Previews:
+  `assets/previews/042-caiman-fix-s136-0.85.png` (in the s136 layout at 0.85), `assets/previews/042-caiman-fix-zoom.png` (detail),
+  `assets/previews/042-assets-caiman-fix.png` (preview tile; the 800 px tile crops the head at 0.85).
 
 ### anaconda_constricting_caiman  **DONE** (illustrator 2026-11-09, preview `assets/previews/042-assets-snakes.png`)
 - An anaconda wrapped in three loops around a spectacled caiman; the caiman's tail sticks out at an angle on the left, its head
