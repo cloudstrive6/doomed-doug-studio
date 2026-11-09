@@ -1,0 +1,317 @@
+{
+ "name": "bear_face_icon",
+ "description": "Small flat brown bear head icon, front view: broad brown (#7a4f2e) head, small round ears, tan muzzle, black nose, small dot eyes under flat brows, straight flat mouth (no smile, not teddy-like), thin black outline. Anchor centre, ~120x112 (x -57..57, y -55..52).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "icon",
+  "bear",
+  "041"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": -36,
+   "y": -38,
+   "rx": 15,
+   "ry": 14,
+   "fill": "#7a4f2e",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -36,
+   "y": -37,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#5e3b21",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 36,
+   "y": -38,
+   "rx": 15,
+   "ry": 14,
+   "fill": "#7a4f2e",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 36,
+   "y": -37,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#5e3b21",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -44
+    ],
+    [
+     0,
+     -50
+    ],
+    [
+     30,
+     -44
+    ],
+    [
+     50,
+     -20
+    ],
+    [
+     54,
+     10
+    ],
+    [
+     44,
+     36
+    ],
+    [
+     24,
+     50
+    ],
+    [
+     0,
+     54
+    ],
+    [
+     -24,
+     50
+    ],
+    [
+     -44,
+     36
+    ],
+    [
+     -54,
+     10
+    ],
+    [
+     -50,
+     -20
+    ]
+   ],
+   "fill": "#7a4f2e",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     22,
+     -42
+    ],
+    [
+     46,
+     -18
+    ],
+    [
+     50,
+     14
+    ],
+    [
+     36,
+     40
+    ],
+    [
+     34,
+     4
+    ]
+   ],
+   "fill": "#5e3b21",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -44
+    ],
+    [
+     0,
+     -50
+    ],
+    [
+     30,
+     -44
+    ],
+    [
+     50,
+     -20
+    ],
+    [
+     54,
+     10
+    ],
+    [
+     44,
+     36
+    ],
+    [
+     24,
+     50
+    ],
+    [
+     0,
+     54
+    ],
+    [
+     -24,
+     50
+    ],
+    [
+     -44,
+     36
+    ],
+    [
+     -54,
+     10
+    ],
+    [
+     -50,
+     -20
+    ]
+   ],
+   "fill": null,
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -18,
+     8
+    ],
+    [
+     18,
+     8
+    ],
+    [
+     24,
+     30
+    ],
+    [
+     16,
+     46
+    ],
+    [
+     0,
+     50
+    ],
+    [
+     -16,
+     46
+    ],
+    [
+     -24,
+     30
+    ]
+   ],
+   "fill": "#c9a37a",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 18,
+   "rx": 10,
+   "ry": 6,
+   "fill": "#1a1a1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     38
+    ],
+    [
+     8,
+     38
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -26,
+     -12
+    ],
+    [
+     -10,
+     -12
+    ]
+   ],
+   "width": 3,
+   "color": "#3a2416"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     26,
+     -12
+    ],
+    [
+     10,
+     -12
+    ]
+   ],
+   "width": 3,
+   "color": "#3a2416"
+  },
+  {
+   "type": "ellipse",
+   "x": -18,
+   "y": -3,
+   "rx": 3.5,
+   "ry": 3.5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 18,
+   "y": -3,
+   "rx": 3.5,
+   "ry": 3.5,
+   "fill": "#111111",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

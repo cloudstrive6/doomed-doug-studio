@@ -1,0 +1,795 @@
+{
+ "name": "grizzly_paw",
+ "description": "One grizzly forepaw and forearm reaching in from the right toward the left: brown fur with grizzled pale tips on top, darker underside, rounded paw with toe creases and four long pale curved claws hooking down-left. The arm continues off the right edge (x to +420, no end outline) so it can be pushed off-frame. Anchor centre, visible part ~300x200 (paw x -175..0, arm to +420, y -96..60).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "creature",
+  "mammal",
+  "bear",
+  "grizzly",
+  "paw",
+  "claws",
+  "close-up",
+  "041"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     -56
+    ],
+    [
+     40,
+     -62
+    ],
+    [
+     140,
+     -66
+    ],
+    [
+     260,
+     -80
+    ],
+    [
+     420,
+     -96
+    ],
+    [
+     420,
+     60
+    ],
+    [
+     260,
+     46
+    ],
+    [
+     140,
+     40
+    ],
+    [
+     40,
+     40
+    ],
+    [
+     -30,
+     36
+    ]
+   ],
+   "fill": "#7a4f2c",
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     20
+    ],
+    [
+     140,
+     22
+    ],
+    [
+     260,
+     30
+    ],
+    [
+     420,
+     44
+    ],
+    [
+     420,
+     60
+    ],
+    [
+     260,
+     46
+    ],
+    [
+     140,
+     40
+    ],
+    [
+     40,
+     40
+    ]
+   ],
+   "fill": "#4e321c",
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 150,
+   "y": 20,
+   "r": 40,
+   "color": "#4e321c",
+   "density": 0.2
+  },
+  {
+   "type": "spray",
+   "x": 300,
+   "y": -60,
+   "r": 40,
+   "color": "#d8bf90",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": 120,
+   "y": -50,
+   "r": 30,
+   "color": "#d8bf90",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     -56
+    ],
+    [
+     40,
+     -62
+    ],
+    [
+     140,
+     -66
+    ],
+    [
+     260,
+     -80
+    ],
+    [
+     420,
+     -96
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     420,
+     60
+    ],
+    [
+     260,
+     46
+    ],
+    [
+     140,
+     40
+    ],
+    [
+     40,
+     40
+    ],
+    [
+     -30,
+     36
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     -64.0
+    ],
+    [
+     48,
+     -76.0
+    ]
+   ],
+   "width": 3,
+   "color": "#d8bf90"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     66,
+     -65.3
+    ],
+    [
+     74,
+     -77.3
+    ]
+   ],
+   "width": 3,
+   "color": "#d8bf90"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     92,
+     -66.6
+    ],
+    [
+     100,
+     -78.6
+    ]
+   ],
+   "width": 3,
+   "color": "#d8bf90"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     118,
+     -67.9
+    ],
+    [
+     126,
+     -79.9
+    ]
+   ],
+   "width": 3,
+   "color": "#d8bf90"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     144,
+     -69.2
+    ],
+    [
+     152,
+     -81.2
+    ]
+   ],
+   "width": 3,
+   "color": "#d8bf90"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     170,
+     -70.5
+    ],
+    [
+     178,
+     -82.5
+    ]
+   ],
+   "width": 3,
+   "color": "#d8bf90"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     196,
+     -71.8
+    ],
+    [
+     204,
+     -83.8
+    ]
+   ],
+   "width": 3,
+   "color": "#d8bf90"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     222,
+     -73.1
+    ],
+    [
+     230,
+     -85.1
+    ]
+   ],
+   "width": 3,
+   "color": "#d8bf90"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     248,
+     -74.4
+    ],
+    [
+     256,
+     -86.4
+    ]
+   ],
+   "width": 3,
+   "color": "#d8bf90"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     274,
+     -75.7
+    ],
+    [
+     282,
+     -87.7
+    ]
+   ],
+   "width": 3,
+   "color": "#d8bf90"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     300,
+     -77.0
+    ],
+    [
+     308,
+     -89.0
+    ]
+   ],
+   "width": 3,
+   "color": "#d8bf90"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     326,
+     -78.3
+    ],
+    [
+     334,
+     -90.3
+    ]
+   ],
+   "width": 3,
+   "color": "#d8bf90"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -20
+    ],
+    [
+     50,
+     -12
+    ]
+   ],
+   "width": 2,
+   "color": "#4e321c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     94,
+     -10
+    ],
+    [
+     84,
+     -2
+    ]
+   ],
+   "width": 2,
+   "color": "#4e321c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     128,
+     0
+    ],
+    [
+     118,
+     8
+    ]
+   ],
+   "width": 2,
+   "color": "#4e321c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     162,
+     -20
+    ],
+    [
+     152,
+     -12
+    ]
+   ],
+   "width": 2,
+   "color": "#4e321c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     196,
+     -10
+    ],
+    [
+     186,
+     -2
+    ]
+   ],
+   "width": 2,
+   "color": "#4e321c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     230,
+     0
+    ],
+    [
+     220,
+     8
+    ]
+   ],
+   "width": 2,
+   "color": "#4e321c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     264,
+     -20
+    ],
+    [
+     254,
+     -12
+    ]
+   ],
+   "width": 2,
+   "color": "#4e321c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     298,
+     -10
+    ],
+    [
+     288,
+     -2
+    ]
+   ],
+   "width": 2,
+   "color": "#4e321c"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     -70
+    ],
+    [
+     -40,
+     -74
+    ],
+    [
+     -80,
+     -64
+    ],
+    [
+     -104,
+     -40
+    ],
+    [
+     -110,
+     -6
+    ],
+    [
+     -100,
+     22
+    ],
+    [
+     -70,
+     40
+    ],
+    [
+     -30,
+     46
+    ],
+    [
+     10,
+     40
+    ]
+   ],
+   "fill": "#7a4f2c",
+   "width": 6,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     10
+    ],
+    [
+     -96,
+     24
+    ],
+    [
+     -70,
+     40
+    ],
+    [
+     -30,
+     46
+    ],
+    [
+     10,
+     40
+    ],
+    [
+     0,
+     26
+    ],
+    [
+     -40,
+     30
+    ],
+    [
+     -80,
+     20
+    ]
+   ],
+   "fill": "#4e321c",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -96,
+     -46
+    ],
+    [
+     -80,
+     -38
+    ],
+    [
+     -60,
+     -36
+    ]
+   ],
+   "width": 3,
+   "color": "#4e321c"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -96,
+     -20
+    ],
+    [
+     -80,
+     -12
+    ],
+    [
+     -60,
+     -10
+    ]
+   ],
+   "width": 3,
+   "color": "#4e321c"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -96,
+     6
+    ],
+    [
+     -80,
+     14
+    ],
+    [
+     -60,
+     16
+    ]
+   ],
+   "width": 3,
+   "color": "#4e321c"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -88,
+     -58
+    ],
+    [
+     -133.2,
+     -54
+    ],
+    [
+     -158,
+     -32
+    ],
+    [
+     -130.1,
+     -40
+    ],
+    [
+     -90,
+     -42
+    ]
+   ],
+   "fill": "#ece2c6",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -98,
+     -32
+    ],
+    [
+     -140.8,
+     -28
+    ],
+    [
+     -164,
+     -6
+    ],
+    [
+     -137.9,
+     -14
+    ],
+    [
+     -100,
+     -16
+    ]
+   ],
+   "fill": "#ece2c6",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -6
+    ],
+    [
+     -140.4,
+     -2
+    ],
+    [
+     -162,
+     20
+    ],
+    [
+     -137.7,
+     12
+    ],
+    [
+     -102,
+     10
+    ]
+   ],
+   "fill": "#ece2c6",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -92,
+     18
+    ],
+    [
+     -130.0,
+     22
+    ],
+    [
+     -150,
+     44
+    ],
+    [
+     -127.5,
+     36
+    ],
+    [
+     -94,
+     34
+    ]
+   ],
+   "fill": "#ece2c6",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     -70
+    ],
+    [
+     -40,
+     -74
+    ],
+    [
+     -80,
+     -64
+    ],
+    [
+     -104,
+     -40
+    ],
+    [
+     -110,
+     -6
+    ],
+    [
+     -100,
+     22
+    ],
+    [
+     -70,
+     40
+    ],
+    [
+     -30,
+     46
+    ],
+    [
+     10,
+     40
+    ]
+   ],
+   "fill": null,
+   "width": 6,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}

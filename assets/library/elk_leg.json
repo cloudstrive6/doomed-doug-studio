@@ -1,0 +1,699 @@
+{
+ "name": "elk_leg",
+ "description": "An elk's lower leg for Doug to carry (041 s023-s025): slim tan-brown #a8805a fur leg, darker brown from the cannon down (as on a real elk), knobbly joint at the top, fetlock with dark dewclaws at the back, and a dark cloven hoof with the toe pointing right. Gore-free: the top end is wrapped in white butcher paper tied with a brown string bow, so no cut edge shows. Anchor centre, about 150x390 (x -62..82, y -198..190), long axis vertical; used rotated -15.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "elk",
+  "food",
+  "leg"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     -120
+    ],
+    [
+     40,
+     -120
+    ],
+    [
+     44,
+     -84
+    ],
+    [
+     34,
+     -50
+    ],
+    [
+     28,
+     0
+    ],
+    [
+     28,
+     60
+    ],
+    [
+     34,
+     92
+    ],
+    [
+     44,
+     112
+    ],
+    [
+     58,
+     132
+    ],
+    [
+     68,
+     150
+    ],
+    [
+     -4,
+     152
+    ],
+    [
+     -22,
+     128
+    ],
+    [
+     -36,
+     104
+    ],
+    [
+     -34,
+     70
+    ],
+    [
+     -28,
+     20
+    ],
+    [
+     -30,
+     -40
+    ],
+    [
+     -44,
+     -84
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "smooth": true,
+   "fill": "#a8805a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -28,
+     30
+    ],
+    [
+     28,
+     30
+    ],
+    [
+     28,
+     60
+    ],
+    [
+     34,
+     92
+    ],
+    [
+     44,
+     112
+    ],
+    [
+     58,
+     132
+    ],
+    [
+     -4,
+     140
+    ],
+    [
+     -22,
+     128
+    ],
+    [
+     -36,
+     104
+    ],
+    [
+     -34,
+     70
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "fill": "#7a5a3c",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     90
+    ],
+    [
+     34,
+     92
+    ],
+    [
+     58,
+     132
+    ],
+    [
+     -4,
+     140
+    ],
+    [
+     -22,
+     128
+    ],
+    [
+     -36,
+     104
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "fill": "#4e3826",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -22,
+   "y": -70,
+   "r": 18,
+   "color": "#7a5a3c",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 18,
+   "y": -96,
+   "r": 16,
+   "color": "#c9a47a",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 10,
+   "y": 10,
+   "r": 12,
+   "color": "#7a5a3c",
+   "density": 0.3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -26,
+     -96
+    ],
+    [
+     -22,
+     -80
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3826"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -18,
+     -50
+    ],
+    [
+     -14,
+     -34
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3826"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     0
+    ],
+    [
+     -16,
+     16
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3826"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     18,
+     -70
+    ],
+    [
+     22,
+     -54
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3826"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     -20
+    ],
+    [
+     16,
+     -4
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3826"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     14,
+     44
+    ],
+    [
+     18,
+     60
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3826"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -16,
+     56
+    ],
+    [
+     -12,
+     72
+    ]
+   ],
+   "width": 2,
+   "color": "#4e3826"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     8,
+     100
+    ],
+    [
+     12,
+     116
+    ]
+   ],
+   "width": 2,
+   "color": "#2a2018"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     -120
+    ],
+    [
+     40,
+     -120
+    ],
+    [
+     44,
+     -84
+    ],
+    [
+     34,
+     -50
+    ],
+    [
+     28,
+     0
+    ],
+    [
+     28,
+     60
+    ],
+    [
+     34,
+     92
+    ],
+    [
+     44,
+     112
+    ],
+    [
+     58,
+     132
+    ],
+    [
+     68,
+     150
+    ],
+    [
+     -4,
+     152
+    ],
+    [
+     -22,
+     128
+    ],
+    [
+     -36,
+     104
+    ],
+    [
+     -34,
+     70
+    ],
+    [
+     -28,
+     20
+    ],
+    [
+     -30,
+     -40
+    ],
+    [
+     -44,
+     -84
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -34,
+     104
+    ],
+    [
+     -54,
+     112
+    ],
+    [
+     -52,
+     126
+    ],
+    [
+     -30,
+     122
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "smooth": true,
+   "fill": "#2a2420"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -8,
+     140
+    ],
+    [
+     52,
+     140
+    ],
+    [
+     70,
+     162
+    ],
+    [
+     88,
+     188
+    ],
+    [
+     -14,
+     188
+    ],
+    [
+     -16,
+     164
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#2a2420"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     34,
+     142
+    ],
+    [
+     44,
+     188
+    ]
+   ],
+   "width": 3,
+   "color": "#6a625a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     152
+    ],
+    [
+     66,
+     150
+    ]
+   ],
+   "width": 2,
+   "color": "#4a443e"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     -192
+    ],
+    [
+     -20,
+     -198
+    ],
+    [
+     22,
+     -194
+    ],
+    [
+     54,
+     -190
+    ],
+    [
+     60,
+     -150
+    ],
+    [
+     52,
+     -108
+    ],
+    [
+     20,
+     -102
+    ],
+    [
+     -20,
+     -104
+    ],
+    [
+     -52,
+     -106
+    ],
+    [
+     -62,
+     -150
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "smooth": true,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -48,
+     -192
+    ],
+    [
+     44,
+     -190
+    ],
+    [
+     10,
+     -176
+    ],
+    [
+     -30,
+     -178
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#e6e6e2"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -170
+    ],
+    [
+     -36,
+     -118
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdb6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     -168
+    ],
+    [
+     30,
+     -116
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdb6"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -6,
+     -186
+    ],
+    [
+     0,
+     -112
+    ]
+   ],
+   "width": 2,
+   "color": "#d0d0ca"
+  },
+  {
+   "type": "spray",
+   "x": -36,
+   "y": -130,
+   "r": 16,
+   "color": "#d8d8d2",
+   "density": 0.3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -134
+    ],
+    [
+     50,
+     -136
+    ]
+   ],
+   "width": 4,
+   "color": "#b07a3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -136
+    ],
+    [
+     -22,
+     -150
+    ],
+    [
+     -24,
+     -126
+    ]
+   ],
+   "width": 3,
+   "color": "#b07a3a",
+   "smooth": false,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -136
+    ],
+    [
+     22,
+     -152
+    ],
+    [
+     24,
+     -126
+    ]
+   ],
+   "width": 3,
+   "color": "#b07a3a",
+   "smooth": false,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -136
+    ],
+    [
+     -10,
+     -110
+    ]
+   ],
+   "width": 3,
+   "color": "#b07a3a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -136
+    ],
+    [
+     12,
+     -112
+    ]
+   ],
+   "width": 3,
+   "color": "#b07a3a"
+  }
+ ]
+}

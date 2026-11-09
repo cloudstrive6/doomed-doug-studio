@@ -1,0 +1,369 @@
+{
+ "name": "radio_collar",
+ "description": "A wildlife GPS/VHF radio collar (041 s042, s043, s095): thick dark grey-brown #5a4c40 strap loop seen at a slight angle (darker back half), grey rivet plates on both sides, a boxy grey transmitter housing at the bottom with a battery pack and bolts, and a short black whip antenna rising from the box to a small tip at local (+42,-86), right where the shotlist draws the red blink light at (+40,-90). Anchor centre, about 240x210 (x -116..116, y -105..104).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "science",
+  "collar",
+  "tracking"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -10,
+   "rx": 100,
+   "ry": 80,
+   "width": 38,
+   "color": "#000000",
+   "start": 180,
+   "end": 360
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -10,
+   "rx": 100,
+   "ry": 80,
+   "width": 30,
+   "color": "#3a3028",
+   "start": 180,
+   "end": 360
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -10,
+   "rx": 100,
+   "ry": 80,
+   "width": 38,
+   "color": "#000000",
+   "start": 0,
+   "end": 180
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -10,
+   "rx": 100,
+   "ry": 80,
+   "width": 30,
+   "color": "#5a4c40",
+   "start": 0,
+   "end": 180
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -10,
+   "rx": 100,
+   "ry": 80,
+   "width": 3,
+   "color": "#7a6a5a",
+   "start": 20,
+   "end": 160
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -112,
+     -26
+    ],
+    [
+     -86,
+     -26
+    ],
+    [
+     -86,
+     6
+    ],
+    [
+     -112,
+     6
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#9aa0a6"
+  },
+  {
+   "type": "ellipse",
+   "x": -99,
+   "y": -18,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -99,
+   "y": -2,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     86,
+     -26
+    ],
+    [
+     112,
+     -26
+    ],
+    [
+     112,
+     6
+    ],
+    [
+     86,
+     6
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#9aa0a6"
+  },
+  {
+   "type": "ellipse",
+   "x": 99,
+   "y": -18,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 99,
+   "y": -2,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     34,
+     56
+    ],
+    [
+     40,
+     -10
+    ],
+    [
+     42,
+     -84
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     34,
+     56
+    ],
+    [
+     40,
+     -10
+    ],
+    [
+     42,
+     -84
+    ]
+   ],
+   "width": 3,
+   "color": "#8a8a8a"
+  },
+  {
+   "type": "ellipse",
+   "x": 42,
+   "y": -86,
+   "rx": 6,
+   "ry": 6,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#3a3a3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     46
+    ],
+    [
+     56,
+     46
+    ],
+    [
+     62,
+     54
+    ],
+    [
+     62,
+     100
+    ],
+    [
+     -62,
+     100
+    ],
+    [
+     -62,
+     54
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#5e6266"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     46
+    ],
+    [
+     56,
+     46
+    ],
+    [
+     62,
+     54
+    ],
+    [
+     -62,
+     54
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#868b90"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62,
+     86
+    ],
+    [
+     62,
+     86
+    ],
+    [
+     62,
+     100
+    ],
+    [
+     -62,
+     100
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#44484c",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -62,
+     86
+    ],
+    [
+     62,
+     86
+    ]
+   ],
+   "width": 2,
+   "color": "#2a2a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     62
+    ],
+    [
+     10,
+     62
+    ],
+    [
+     10,
+     78
+    ],
+    [
+     -40,
+     78
+    ]
+   ],
+   "width": 2,
+   "color": "#000000",
+   "smooth": false,
+   "fill": "#3a3e42"
+  },
+  {
+   "type": "ellipse",
+   "x": 30,
+   "y": 70,
+   "rx": 6,
+   "ry": 6,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#9aa0a6"
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": 93,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 50,
+   "y": 93,
+   "rx": 3,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#000000",
+   "outline": false
+  }
+ ]
+}

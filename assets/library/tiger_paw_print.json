@@ -1,0 +1,395 @@
+{
+ "name": "tiger_paw_print",
+ "description": "One big tiger pug mark in snow, toes up: wide three-lobed palm pad and four round toe pads (no claw marks), blue-grey (#9fb3c6) inside shading, crisp black outline, on a pale snow patch (#f7fbff) so it reads on snow #c9d3dc and night ground #2a3240. Like moose_track. Centre anchor, ~196x196 (x -98..98, y -98..98).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "object",
+  "track",
+  "footprint",
+  "tiger",
+  "snow",
+  "041"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 0,
+   "rx": 98,
+   "ry": 98,
+   "fill": "#f7fbff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 0,
+   "r": 94,
+   "color": "#dfe9f3",
+   "density": 0.25
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -58,
+     6
+    ],
+    [
+     -30,
+     0
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     30,
+     0
+    ],
+    [
+     58,
+     6
+    ],
+    [
+     70,
+     40
+    ],
+    [
+     60,
+     70
+    ],
+    [
+     38,
+     66
+    ],
+    [
+     22,
+     80
+    ],
+    [
+     0,
+     72
+    ],
+    [
+     -22,
+     80
+    ],
+    [
+     -38,
+     66
+    ],
+    [
+     -60,
+     70
+    ],
+    [
+     -70,
+     40
+    ]
+   ],
+   "fill": "#9fb3c6",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     40
+    ],
+    [
+     -20,
+     30
+    ],
+    [
+     20,
+     30
+    ],
+    [
+     50,
+     40
+    ],
+    [
+     44,
+     62
+    ],
+    [
+     20,
+     70
+    ],
+    [
+     0,
+     62
+    ],
+    [
+     -20,
+     70
+    ],
+    [
+     -44,
+     62
+    ]
+   ],
+   "fill": "#7d93aa",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 50,
+   "r": 30,
+   "color": "#6f85a0",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -58,
+     6
+    ],
+    [
+     -30,
+     0
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     30,
+     0
+    ],
+    [
+     58,
+     6
+    ],
+    [
+     70,
+     40
+    ],
+    [
+     60,
+     70
+    ],
+    [
+     38,
+     66
+    ],
+    [
+     22,
+     80
+    ],
+    [
+     0,
+     72
+    ],
+    [
+     -22,
+     80
+    ],
+    [
+     -38,
+     66
+    ],
+    [
+     -60,
+     70
+    ],
+    [
+     -70,
+     40
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": -64,
+   "y": -30,
+   "rx": 19,
+   "ry": 25,
+   "fill": "#9fb3c6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -61,
+   "y": -23,
+   "rx": 12,
+   "ry": 16,
+   "fill": "#7d93aa",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -64,
+   "y": -30,
+   "rx": 19,
+   "ry": 25,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -24,
+   "y": -62,
+   "rx": 20,
+   "ry": 27,
+   "fill": "#9fb3c6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -21,
+   "y": -55,
+   "rx": 13,
+   "ry": 18,
+   "fill": "#7d93aa",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -24,
+   "y": -62,
+   "rx": 20,
+   "ry": 27,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 22,
+   "y": -66,
+   "rx": 20,
+   "ry": 27,
+   "fill": "#9fb3c6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 25,
+   "y": -59,
+   "rx": 13,
+   "ry": 18,
+   "fill": "#7d93aa",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 22,
+   "y": -66,
+   "rx": 20,
+   "ry": 27,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 64,
+   "y": -38,
+   "rx": 19,
+   "ry": 25,
+   "fill": "#9fb3c6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 67,
+   "y": -31,
+   "rx": 12,
+   "ry": 16,
+   "fill": "#7d93aa",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 64,
+   "y": -38,
+   "rx": 19,
+   "ry": 25,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -84,
+     60
+    ],
+    [
+     -76,
+     82
+    ]
+   ],
+   "width": 2,
+   "color": "#c9d8e4"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     84,
+     58
+    ],
+    [
+     76,
+     82
+    ]
+   ],
+   "width": 2,
+   "color": "#c9d8e4"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -40,
+     -92
+    ],
+    [
+     -20,
+     -96
+    ]
+   ],
+   "width": 2,
+   "color": "#c9d8e4"
+  }
+ ]
+}
