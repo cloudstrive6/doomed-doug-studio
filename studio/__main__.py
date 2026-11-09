@@ -70,8 +70,71 @@ def cmd_validate(a):
     probs = validate_shotlist(ep) if a.what in ("shotlist", "all") else []
     if a.what in ("metadata", "all"):
         probs += validate_metadata(ep)
+    if a.what in ("packaging", "all"):  # D4 packaging gate + topic lane (2026-11-09)
+        probs += _packaging_problems(ep)
     print("\n".join(probs) if probs else "OK")
     sys.exit(1 if probs else 0)
+
+
+def _packaging_problems(ep: Path) -> list[str]:
+    from .packaging import thumbnail_problems
+    from .topics import episode_lane_problem
+    mp = ep / "metadata.json"
+    if not mp.exists():
+        return []  # validate_metadata already reports it
+    m = json.loads(mp.read_text(encoding="utf-8"))
+    probs = thumbnail_problems(ep)
+    lane = episode_lane_problem(m.get("title", ""), m.get("playlist", ""))
+    return probs + ([lane] if lane else [])
+
+
+def cmd_package(a):
+    """D4 packaging gate: rank 10 title + thumbnail-text candidates, keep the top 3 for the 3-way thumbnail test."""
+    from . import packaging as pk
+    ep = episode_dir(a.episode)
+    if a.action == "check":
+        probs = _packaging_problems(ep)
+        print("\n".join(probs) if probs else "OK")
+        sys.exit(1 if probs else 0)
+    src = Path(a.candidates) if a.candidates else ep / "title_candidates.json"
+    if not src.exists():
+        raise SystemExit(f"{src} missing: the titler writes 10 candidates there (see .claude/agents/youtube-titler.md)")
+    cands, names = pk.load_candidates(src)
+    res = pk.rank(cands, names)
+    print(pk.report(res).encode("ascii", "replace").decode())
+    probs = pk.candidate_problems(cands)
+    if len(res["variants"]) < 3:
+        probs.append(f"only {len(res['variants'])} candidates pass the blocking rules (length, caps, thumbnail words, "
+                     "no repeated words); write better candidates and re-rank")
+    if probs:
+        print("\n".join(["GATE FAIL:"] + probs))
+        sys.exit(1)
+    if a.dry_run:
+        print("(dry run: metadata.json not changed)")
+        return
+    pk.apply(ep, res)
+    print(f"metadata.json updated: title = variant A, packaging block written ({len(res['candidates'])} scored)")
+
+
+def cmd_topics(a):
+    """Creative director's shortlist: data/ideas.md backlog with the lane rule (weak 'every era' lane blocked)."""
+    from .topics import LANE_BONUS, parse_ideas, shortlist
+    ok, blocked = shortlist(parse_ideas(ROOT / "data" / "ideas.md"))
+    if a.json:
+        print(json.dumps({"shortlist": ok[:a.top], "blocked": blocked}, indent=1, ensure_ascii=False))
+        return
+    print(f"Backlog with the lane rule (+{LANE_BONUS} single famous animal or parasites/body horror; "
+          "prehistoric 'every era' lane blocked):")
+    for r in ok[:a.top]:
+        print(f"  #{r['id']:>4} {r['adjusted']:4} ({r['score']}) {r['lane']:13} {r['playlist']:12} {r['title']}"
+              .encode("ascii", "replace").decode())
+    bh = next((r for r in ok if r["lane"] == "body-horror"), None)
+    if bh and bh not in ok[:a.top]:
+        print(f"  Best parasites/body horror pick: #{bh['id']} {bh['adjusted']} {bh['title']}"
+              .encode("ascii", "replace").decode())
+    if blocked:
+        print("Blocked (weak lane): " + ", ".join(f"#{r['id']} {r['title']}" for r in blocked)
+              .encode("ascii", "replace").decode())
 
 
 def cmd_keyframes(a):
@@ -458,7 +521,12 @@ def main():
     x = s.add_parser("status"); x.set_defaults(f=cmd_status)
     x = s.add_parser("stage"); x.add_argument("episode"); x.add_argument("stage"); x.add_argument("--note"); x.set_defaults(f=cmd_stage)
     x = s.add_parser("validate"); x.add_argument("episode"); x.add_argument("what", nargs="?", default="all",
-                                                                           choices=["shotlist", "metadata", "all"]); x.set_defaults(f=cmd_validate)
+                                                                           choices=["shotlist", "metadata", "packaging", "all"]); x.set_defaults(f=cmd_validate)
+    x = s.add_parser("package"); x.add_argument("episode"); x.add_argument("action", nargs="?", default="rank",
+                                                                         choices=["rank", "check"])
+    x.add_argument("--candidates"); x.add_argument("--dry-run", action="store_true"); x.set_defaults(f=cmd_package)
+    x = s.add_parser("topics"); x.add_argument("--top", type=int, default=15); x.add_argument("--json", action="store_true")
+    x.set_defaults(f=cmd_topics)
     x = s.add_parser("keyframes"); x.add_argument("episode"); x.add_argument("--shots"); x.set_defaults(f=cmd_keyframes)
     x = s.add_parser("thumbnail"); x.add_argument("episode"); x.set_defaults(f=cmd_thumbnail)
     x = s.add_parser("art"); x.add_argument("scene"); x.add_argument("out"); x.set_defaults(f=cmd_art)
