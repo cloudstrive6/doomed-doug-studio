@@ -29,7 +29,12 @@
       "stage": "art_approved",
       "at": "2026-11-09T06:59:21+00:00",
       "note": "Art 3 rounds; art-director + visual-screener PASS (final s017/s086/thumb A fixes verified)"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-09T07:10:52+00:00",
+      "note": "All gates passed"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

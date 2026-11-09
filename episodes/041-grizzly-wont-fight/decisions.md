@@ -51,3 +51,4 @@ Notes for the director and editor:
   The titler adds the titles.
 - 33 missing drawings are listed in `asset_requests.md`. I rendered the 101 shots that need no new art (keyframes) and fixed what I found:
   the counter-zone title collisions (titles now at y 380), the big male's ridge moved left, tag-card layout, and sign text size.
+- 2026-11-09 (showrunner): script 2 rounds (FAIL then PASS), art 3 rounds (visual-screener PASS r2, art-director fixes verified), thumbnails A/B/C ok. Risks: pacing pass (long-shot/pop-in check, draft render of first 60s) not completed by editor; opening already at word limit before 'The Wolf Pack.'; price_tag asset edited (ep 030 s198 checked ok); shotlist.json is authoritative, build/gen.py stale.
