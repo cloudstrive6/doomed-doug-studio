@@ -8,12 +8,12 @@
       "outro": "The full video is linked below.",
       "end_card": "FULL VIDEO: TAP BELOW",
       "description": "A Yellowstone bison clears winter snow by swinging its head side to side, powered by a hump of muscle on a bull that can weigh about 900 kg, and what that swing did to Doug is in the full episode.",
-      "duration_s": 34.0,
-      "youtube_id": "x1-di3lSB6U",
+      "duration_s": 52.4,
+      "youtube_id": "D3NlJfGXK4c",
       "publish_at": "2026-11-10T00:00:00Z",
       "related_video": "nBsi6g0hgQ4",
       "related_set": false,
-      "uploaded_at": "2026-11-01T19:10:59+00:00",
+      "uploaded_at": "2026-11-09T01:41:09+00:00",
       "cliffhanger_original": {
         "from": "s029",
         "to": "s036",
@@ -24,7 +24,16 @@
         "duration_s": 34.0
       },
       "hook": "A bull bison plows snow with its face.",
-      "hook_scene_from": "s029"
+      "hook_scene_from": "s029",
+      "replaced_cliffhanger": {
+        "youtube_id": "x1-di3lSB6U",
+        "publish_at": "2026-11-10T00:00:00Z",
+        "uploaded_at": "2026-11-01T19:10:59+00:00",
+        "related_set": false,
+        "unscheduled": false,
+        "note": "cliffhanger original; private, unscheduled; owner deletes in Studio"
+      },
+      "remade_at": "2026-11-09"
     },
     {
       "id": "short02",
@@ -34,12 +43,12 @@
       "outro": "Full video linked below.",
       "end_card": "FULL VIDEO: TAP BELOW",
       "description": "A bison spends nine to eleven hours a day with its head down eating, then runs at up to about 55 km/h, and what Doug's stopwatch read is in the full episode.",
-      "duration_s": 49.2,
-      "youtube_id": "ZF8Ie4tU008",
+      "duration_s": 55.5,
+      "youtube_id": "y3fI3FLKWR8",
       "publish_at": "2026-11-10T14:00:00Z",
       "related_video": "nBsi6g0hgQ4",
       "related_set": false,
-      "uploaded_at": "2026-11-01T19:11:02+00:00",
+      "uploaded_at": "2026-11-09T01:41:12+00:00",
       "cliffhanger_original": {
         "from": "s096",
         "to": "s107",
@@ -48,7 +57,16 @@
         "tease_from": "s110",
         "tease_asset": "american_bison_charging",
         "duration_s": 49.2
-      }
+      },
+      "replaced_cliffhanger": {
+        "youtube_id": "ZF8Ie4tU008",
+        "publish_at": "2026-11-10T14:00:00Z",
+        "uploaded_at": "2026-11-01T19:11:02+00:00",
+        "related_set": false,
+        "unscheduled": false,
+        "note": "cliffhanger original; private, unscheduled; owner deletes in Studio"
+      },
+      "remade_at": "2026-11-09"
     },
     {
       "id": "short03",
@@ -58,12 +76,12 @@
       "outro": "Bears have killed more people in Yellowstone than bison. Full video below.",
       "end_card": "FULL VIDEO: TAP BELOW",
       "description": "During the rut a Yellowstone bull can lose almost 90 kg guarding, bellowing and fighting, and what happened when Doug tried to referee two of them is in the full episode.",
-      "duration_s": 35.6,
-      "youtube_id": "VX3AQo0JCZQ",
+      "duration_s": 31.5,
+      "youtube_id": "3inoq0SVJb4",
       "publish_at": "2026-11-10T19:00:00Z",
       "related_video": "nBsi6g0hgQ4",
       "related_set": false,
-      "uploaded_at": "2026-11-01T19:11:04+00:00",
+      "uploaded_at": "2026-11-09T01:41:15+00:00",
       "cliffhanger_original": {
         "from": "s178",
         "to": "s186",
@@ -72,7 +90,16 @@
         "tease_from": "s199",
         "tease_asset": "american_bison_charging",
         "duration_s": 35.6
-      }
+      },
+      "replaced_cliffhanger": {
+        "youtube_id": "VX3AQo0JCZQ",
+        "publish_at": "2026-11-10T19:00:00Z",
+        "uploaded_at": "2026-11-01T19:11:04+00:00",
+        "related_set": false,
+        "unscheduled": false,
+        "note": "cliffhanger original; private, unscheduled; owner deletes in Studio"
+      },
+      "remade_at": "2026-11-09"
     }
   ]
 }
