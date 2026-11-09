@@ -17,3 +17,17 @@ SCRIPT: APPROVED
   "Again." is a DEATHS THIS TRIP tally card (7 marks), then "Possibly in the Cretaceous." on a T. rex silhouette. No AGAIN stamp (no repeat site).
 - Thumbnail note passed on in asset_requests.md: the worm belongs in permafrost, the seafloor gets microbes (brief section 8).
 - Shorts: seafloor microbes (s188-s199 + hook), Ötzi's recovery twist (s055-s066), permafrost worms (s117-s124 + hook). Titles are the titler's.
+
+## 2026-11-09 Director: art round 2 fixes (keyframe review + visual review round 1)
+- Art review required: s022 `doug_cap` at the passage mouth; s200-s202 one cap only (Doug `cap_off`, cap beside the suitcase); item titles moved
+  into clear sky / above the drawing (s006, s031, s054, s127, s149); s011 and s013 reframed as tight push-ins on the downward crack (head-down /
+  uphill arrows) to break up the s006-s014 cross-section run; s197 T. rex glow now red spray `#ff2a1a`, `glow_r: 0`.
+- Visual review required: s050 open-suitcase sticker slot + narrator hand holding the SNOWBOUND CAR sticker with red X; s051 Doug walks out of the
+  drift with the suitcase (lone cap removed); s118 worm close-up filling the frame, s120 dish family tree "100+ GENERATIONS"; s189 close-up of food
+  falling on microbes, s191 Doug shocked close-up + NOT / struck-through DEAD; s088/s089 new assets `smilodon_body` (sabre fangs, cat ears, short
+  bobtail kept: Smilodon really had one) and `ground_sloth_rearing` (upright, claws, no trunk), red rim; s145 red `doug_cap` placed on the
+  amoeba costume in-shot; s201 single room box right of the gyre sticker.
+- Minor/advisory applied: s081 arrow ends on a red glow spot; s121 unreadable circle replaced by a curled worm + DRY FIRST; s036 bigger crossed
+  plate; s057 "5,300 YEARS" moved clear of RECENT?; s164 one scaled-up pelvis + PELVIS label; s147 topbar dropped for the transition.
+  Not done: extra close-up inside the s130-s145 lab run (optional).
+- Re-rendered 39 keyframes (changed shots plus neighbours); `validate shotlist` OK.

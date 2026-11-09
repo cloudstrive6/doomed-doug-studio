@@ -3572,78 +3572,77 @@
   }
  },
  "fossils": {
-  "at": "2026-10-09T00:58:27.378307+00:00",
+  "at": "2026-11-09T01:06:30.485367+00:00",
   "data": {
    "demand": {
-    "score": 9,
+    "score": 10,
     "suggestions": [
      "fossils",
      "fossils for kids",
+     "fossils and archeology mod",
+     "fossils dun dun dun",
+     "fossils carnival of the animals",
      "fossils and foxes",
      "fossils and archeology revival",
-     "fossils dun dun dun",
-     "fossils and archeology refreshed",
-     "fossils carnival of the animals",
      "fossils song",
      "fossils and archeology",
-     "fossils tell of long ago read aloud",
-     "fossils cobblemon",
-     "everything about fossils"
+     "fossils 101 national geographic",
+     "fossils magic school bus",
+     "every disturbing fossils"
     ]
    },
    "saturation": {
-    "copies_100k": 8,
+    "copies_100k": 7,
     "channels": [
      "ABCmouse",
-     "Fossil",
      "KIDS2KIDS",
+     "New Scientist",
      "Papa Joel",
      "Spinosnack",
      "Tagliafico3",
-     "WolfeyVGC",
-     "हिंदी - Genevieve's Playhouse"
+     "Yorkshire Fossils"
     ],
-    "vph_median": 1137.9,
-    "vph_best": 7614.6,
+    "vph_median": 1205.0,
+    "vph_best": 2328.4,
     "top": [
-     {
-      "title": "How Long You’d Last in Every Prehistoric Era",
-      "channel": "Fossil",
-      "views": 10820117,
-      "age_days": 59.2,
-      "vph": 7614.6,
-      "id": "nAWpLtG-kNs"
-     },
      {
       "title": "Dinosaur Fossils for Kids Adventure",
       "channel": "Papa Joel",
-      "views": 3326314,
-      "age_days": 47.6,
-      "vph": 2912.8,
+      "views": 4391656,
+      "age_days": 78.6,
+      "vph": 2328.4,
       "id": "VBg-oh-9tmM"
+     },
+     {
+      "title": "The Deeper You Look Into Fossils, The Scarier It Gets - The Movie",
+      "channel": "Spinosnack",
+      "views": 1505702,
+      "age_days": 37.3,
+      "vph": 1684.0,
+      "id": "Jt7M7LG8S3k"
+     },
+     {
+      "title": "This Fossil Is Forcing A Rewrite Of Human History",
+      "channel": "New Scientist",
+      "views": 1457088,
+      "age_days": 46.3,
+      "vph": 1310.2,
+      "id": "54AK8kIGkms"
      },
      {
       "title": "Kids Pretend 🦖 ISABEL WANTS A PET - DINOSAUR FOSSIL DIG!",
       "channel": "KIDS2KIDS",
-      "views": 647691,
-      "age_days": 20.6,
-      "vph": 1311.2,
+      "views": 1491884,
+      "age_days": 51.6,
+      "vph": 1205.0,
       "id": "TqABEltYb5M"
-     },
-     {
-      "title": "100 Extinct Creatures So BIZZARE They Look Fake",
-      "channel": "Spinosnack",
-      "views": 2084205,
-      "age_days": 69.2,
-      "vph": 1254.1,
-      "id": "SbZhqxm07z4"
      },
      {
       "title": "¿QUÉ NOS TOCÓ? POKÉMON box fossil 1st edition ‘99 ft. Giuli Simeone",
       "channel": "Tagliafico3",
-      "views": 1205710,
-      "age_days": 49.2,
-      "vph": 1021.8,
+      "views": 1424221,
+      "age_days": 80.2,
+      "vph": 740.2,
       "id": "ERRgbtjJtM8"
      }
     ]
@@ -5172,48 +5171,57 @@
   }
  },
  "orcas": {
-  "at": "2026-10-17T16:04:42.380815+00:00",
+  "at": "2026-11-09T01:06:30.485367+00:00",
   "data": {
    "demand": {
     "score": 9,
     "suggestions": [
      "orcas",
-     "orcas hunting",
      "orcas island",
-     "orcas attacking boats",
+     "orcas hunting",
+     "orcas hunting seals",
+     "orcas ramming sunfish",
+     "orcas and humans",
      "orcas for kids",
+     "orcas island washington",
      "orcas documentary",
-     "orcas seaworld",
+     "orcas island aliens",
      "orcas in the wild",
-     "orcas hunting great white sharks",
-     "orcas are terrifying",
-     "orcas imitating human speech",
      "everything about orcas"
     ]
    },
    "saturation": {
-    "copies_100k": 2,
+    "copies_100k": 3,
     "channels": [
+     "AJ+ كبريت",
      "Homosapiens",
      "Kairus "
     ],
-    "vph_median": 2830.0,
-    "vph_best": 3770.8,
+    "vph_median": 2704.0,
+    "vph_best": 2777.8,
     "top": [
      {
       "title": "Por que o predador mais letal dos oceanos se recusa a nos matar",
       "channel": "Kairus ",
-      "views": 4506451,
-      "age_days": 49.8,
-      "vph": 3770.8,
+      "views": 4811473,
+      "age_days": 72.2,
+      "vph": 2777.8,
       "id": "2_7HuE4hrrE"
+     },
+     {
+      "title": "الدحيح | انتقام الحوت القاتل",
+      "channel": "AJ+ كبريت",
+      "views": 3783174,
+      "age_days": 58.3,
+      "vph": 2704.0,
+      "id": "BCoyfKHVy8Y"
      },
      {
       "title": "¿Por qué el Mayor Depredador del Océano Se Niega a Matarnos?",
       "channel": "Homosapiens",
-      "views": 2984150,
-      "age_days": 65.8,
-      "vph": 1889.2,
+      "views": 3407412,
+      "age_days": 88.2,
+      "vph": 1609.9,
       "id": "vJfsAojW4O8"
      }
     ]
@@ -5374,67 +5382,58 @@
   }
  },
  "rabies": {
-  "at": "2026-10-17T16:04:42.380815+00:00",
+  "at": "2026-11-09T01:06:30.485367+00:00",
   "data": {
    "demand": {
     "score": 9,
     "suggestions": [
      "rabies",
      "rabies in humans",
+     "rabies ronnie",
      "rabies in animals",
+     "rabies baby bugs",
      "rabies patient",
      "rabies hydrophobia",
-     "rabies survivor",
      "rabies dog",
+     "rabies survivor",
      "rabies shot",
-     "rabies song",
-     "rabies ronnie",
-     "rabies tyler childers",
-     "every dog have rabies"
+     "rabies symptoms",
+     "every dog has rabies"
     ]
    },
    "saturation": {
-    "copies_100k": 4,
+    "copies_100k": 3,
     "channels": [
      "Golukajal vlogs",
-     "KinNoKage",
      "Mr. Death",
      "Roanoke Gaming"
     ],
-    "vph_median": 326.4,
-    "vph_best": 1605.6,
+    "vph_median": 307.3,
+    "vph_best": 1213.5,
     "top": [
      {
       "title": "🐶 आज तो कैश को इंजेक्शन लगाया 😭💉 | Rabies Vaccine Vlog @golu008 @kajalsoni ",
       "channel": "Golukajal vlogs",
-      "views": 2214108,
-      "age_days": 57.5,
-      "vph": 1605.6,
+      "views": 2324981,
+      "age_days": 79.8,
+      "vph": 1213.5,
       "id": "OzeYj3faL4k"
      },
      {
       "title": "What Dying from Rabies Feels Like",
       "channel": "Mr. Death",
-      "views": 613192,
-      "age_days": 62.0,
-      "vph": 412.4,
+      "views": 622081,
+      "age_days": 84.3,
+      "vph": 307.3,
       "id": "1507nxH2c4E"
      },
      {
       "title": "Rabies But make it ACTUALLY FAST: This is Not A Test",
       "channel": "Roanoke Gaming",
-      "views": 380978,
-      "age_days": 66.0,
-      "vph": 240.5,
+      "views": 408970,
+      "age_days": 88.4,
+      "vph": 192.8,
       "id": "oNevsDniv9w"
-     },
-     {
-      "title": "This Is What Rabies Feels Like",
-      "channel": "KinNoKage",
-      "views": 301624,
-      "age_days": 66.2,
-      "vph": 189.7,
-      "id": "giYQ-Rpo1gE"
      }
     ]
    }
@@ -7285,7 +7284,7 @@
   }
  },
  "sperm whale": {
-  "at": "2026-10-29T16:05:57.049536+00:00",
+  "at": "2026-11-09T01:06:30.485367+00:00",
   "data": {
    "demand": {
     "score": 7,
@@ -7293,68 +7292,69 @@
      "sperm whale",
      "sperm whale vs giant squid",
      "sperm whale sounds",
-     "sperm whale vs orca",
-     "sperm whale eats giant squid",
-     "sperm whale clicks",
-     "sperm whale documentary",
      "sperm whale sleeping",
-     "sperm whale hunting orca",
+     "sperm whale clicks",
+     "sperm whale vs orca",
+     "sperm whale documentary",
      "sperm whale hunting",
-     "sperm whale vs colossal squid"
+     "sperm whale hunting giant squid",
+     "sperm whale movie",
+     "sperm whale encounter"
     ]
    },
    "saturation": {
-    "copies_100k": 6,
+    "copies_100k": 7,
     "channels": [
-     "Apex Paleo",
-     "BeyondTheBlue",
-     "KPassionate",
+     "Acontece no Mundo",
+     "Depth Theory",
+     "Fossil",
      "LivingZoo",
+     "Squidium",
      "Wild Lore",
      "Zem TV"
     ],
-    "vph_median": 665.6,
-    "vph_best": 1580.9,
+    "vph_median": 3240.3,
+    "vph_best": 22227.8,
     "top": [
+     {
+      "title": "Why You'd Never Want To Meet A Sperm Whale",
+      "channel": "Depth Theory",
+      "views": 6637240,
+      "age_days": 12.4,
+      "vph": 22227.8,
+      "id": "fGcgWaswMns"
+     },
+     {
+      "title": "Os Únicos 3 Animais Que Fazem as Orcas Fugirem",
+      "channel": "Acontece no Mundo",
+      "views": 3273567,
+      "age_days": 16.0,
+      "vph": 8550.0,
+      "id": "vudsj2SdhkI"
+     },
+     {
+      "title": "Would Orcas Dominate Every Prehistoric Ocean?",
+      "channel": "Fossil",
+      "views": 4017924,
+      "age_days": 32.2,
+      "vph": 5192.8,
+      "id": "UNPK8PNCCmQ"
+     },
+     {
+      "title": "Why Orcas are Terrified of the Humpback Whales",
+      "channel": "Squidium",
+      "views": 2423066,
+      "age_days": 31.2,
+      "vph": 3240.3,
+      "id": "QHZkEWWPHy0"
+     },
      {
       "title": "What’s Hidden Inside a Sperm Whale?",
       "channel": "Zem TV",
-      "views": 1633984,
-      "age_days": 43.1,
-      "vph": 1580.9,
+      "views": 1657828,
+      "age_days": 53.4,
+      "vph": 1292.6,
       "id": "Ny9MwC8V7hc"
-     },
-     {
-      "title": "Marine Biologist Reacts to WHALEFALL | Can a Whale Swallow a Human?",
-      "channel": "KPassionate",
-      "views": 1001646,
-      "age_days": 32.9,
-      "vph": 1268.4,
-      "id": "ZMXuzoMTx4s"
-     },
-     {
-      "title": "The Science Behind What Happens When A Whale Swallows You",
-      "channel": "LivingZoo",
-      "views": 1314972,
-      "age_days": 58.8,
-      "vph": 932.0,
-      "id": "YdatV07adyc"
-     },
-     {
-      "title": "Why Orcas are Terrified of Walruses",
-      "channel": "BeyondTheBlue",
-      "views": 990582,
-      "age_days": 62.0,
-      "vph": 665.6,
-      "id": "1FZUKhqdnc4"
-     },
-     {
-      "title": "This Sperm Whale's Disgusting Trick Beat 30 Hunting Orcas | Animal Documentary",
-      "channel": "Wild Lore",
-      "views": 895321,
-      "age_days": 76.8,
-      "vph": 485.7,
-      "id": "rsJ1jTT7fgc"
      }
     ]
    }
@@ -8285,7 +8285,7 @@
   }
  },
  "grizzly bear": {
-  "at": "2026-10-25T14:05:47.715236+00:00",
+  "at": "2026-11-09T01:06:16.699870+00:00",
   "data": {
    "demand": {
     "score": 8,
@@ -8294,67 +8294,67 @@
      "grizzly bear attack",
      "grizzly bear fight",
      "grizzly bear hunting",
-     "grizzly bear two weeks",
      "grizzly bear encounter",
      "grizzly bear roar",
      "grizzly bear sounds",
-     "grizzly bear documentary",
-     "grizzly bear band",
-     "grizzly bear vs polar bear",
+     "grizzly bear two weeks",
+     "grizzly bear with rabies",
+     "grizzly bear live",
+     "grizzly bear cartoon",
      "everyone i know grizzly bear"
     ]
    },
    "saturation": {
     "copies_100k": 5,
     "channels": [
-     "Baby Lemmings",
+     "Buzzbible Video",
      "Grizzy & les Lemmings",
      "Grizzy & the Lemmings Retro",
-     "JoBlo Movie Clips",
-     "MURPHYS DIESEL"
+     "MURPHYS DIESEL",
+     "We Bare Bears Hindi"
     ],
-    "vph_median": 20961.1,
-    "vph_best": 42662.1,
+    "vph_median": 19077.3,
+    "vph_best": 51015.6,
     "top": [
      {
-      "title": "Double Trouble | Grizzy & the Lemmings | 35' Compilation | 🐻🐹 Cartoon for Kids",
+      "title": "Chemical Lemmings | Grizzy & the Lemmings | 35' Compilation | 🐻🐹 Nostalgic Cartoon",
+      "channel": "Grizzy & the Lemmings Retro",
+      "views": 4392253,
+      "age_days": 3.6,
+      "vph": 51015.6,
+      "id": "2n-VpD8mCT4"
+     },
+     {
+      "title": "A Grizzly’s Desperate Stand Against a Wall of Goats",
+      "channel": "Buzzbible Video",
+      "views": 4997347,
+      "age_days": 5.5,
+      "vph": 37616.4,
+      "id": "9Dqb7WYggx8"
+     },
+     {
+      "title": "Lemming Gum | Grizzy & the Lemmings | 35' Compilation | 🐻🐹 Cartoon for Kids",
       "channel": "Grizzy & les Lemmings",
-      "views": 2221421,
-      "age_days": 2.2,
-      "vph": 42662.1,
-      "id": "c2flin7DzrQ"
+      "views": 7009262,
+      "age_days": 9.6,
+      "vph": 30462.0,
+      "id": "ChTG8R2asTA"
+     },
+     {
+      "title": "Lemmings Indigestion | Grizzy & the Lemmings | 35' Compilation | 🐻🐹 Nostalgic Cartoon",
+      "channel": "Grizzy & the Lemmings Retro",
+      "views": 3308664,
+      "age_days": 5.6,
+      "vph": 24675.0,
+      "id": "125TUVZAab4"
      },
      {
       "title": "Cocoa Tree Spread | Grizzy & the Lemmings | 35' Compilation | 🐻🐹 Nostalgic Cartoon",
       "channel": "Grizzy & the Lemmings Retro",
-      "views": 12251637,
-      "age_days": 17.2,
-      "vph": 29730.0,
+      "views": 17922359,
+      "age_days": 31.6,
+      "vph": 23609.8,
       "id": "GxsBbahXMq0"
-     },
-     {
-      "title": "Substitute Egg | Grizzy & the Lemmings | 35' Compilation | 🐻🐹 Nostalgic Cartoon",
-      "channel": "Grizzy & the Lemmings Retro",
-      "views": 4977905,
-      "age_days": 7.2,
-      "vph": 28926.3,
-      "id": "5UmL7eFwPZU"
-     },
-     {
-      "title": "Monstrous Costumes | Grizzy & the Lemmings | 50' Compilation | 🐻🐹 Nostalgic Cartoon",
-      "channel": "Grizzy & the Lemmings Retro",
-      "views": 3307439,
-      "age_days": 5.2,
-      "vph": 26652.6,
-      "id": "2Np4Sag5wN4"
-     },
-     {
-      "title": "Fountain Of Bear Youth | Grizzy & the Lemmings | 35' Compilation | 🐻🐹 Cartoon for Kids",
-      "channel": "Grizzy & les Lemmings",
-      "views": 2233289,
-      "age_days": 4.2,
-      "vph": 22314.4,
-      "id": "IOD2AraPN0A"
      }
     ]
    }
@@ -8933,7 +8933,7 @@
   }
  },
  "great white shark": {
-  "at": "2026-10-25T14:05:47.715236+00:00",
+  "at": "2026-11-09T01:06:30.485367+00:00",
   "data": {
    "demand": {
     "score": 9,
@@ -8942,40 +8942,58 @@
      "great white shark attack",
      "great white shark encounter",
      "great white shark breaching",
-     "great white sharks cheer",
-     "great white shark osrs",
-     "great white shark for kids",
-     "great white shark in aquarium",
-     "great white shark documentary",
      "great white shark fishing",
+     "great white shark for kids",
+     "great white shark documentary",
+     "great white shark in aquarium",
+     "great white sharks cheer",
      "great white shark vs orca",
-     "great white shark facts"
+     "great white shark osrs",
+     "great white shark song"
     ]
    },
    "saturation": {
-    "copies_100k": 2,
+    "copies_100k": 4,
     "channels": [
      "60 Minutes Australia",
+     "Granny Funny",
+     "SHARK BYTES",
      "TheMalibuArtist"
     ],
-    "vph_median": 688.6,
-    "vph_best": 895.1,
+    "vph_median": 5234.6,
+    "vph_best": 9703.8,
     "top": [
+     {
+      "title": "Minke Whale Chases a Great White Shark — Then This Happens",
+      "channel": "TheMalibuArtist",
+      "views": 1699204,
+      "age_days": 7.3,
+      "vph": 9703.8,
+      "id": "S84wfL6fk6I"
+     },
+     {
+      "title": "Why Great Whites Don't Cross This Huge Underwater Mountain",
+      "channel": "SHARK BYTES",
+      "views": 1632284,
+      "age_days": 7.2,
+      "vph": 9484.4,
+      "id": "8MNK5YThaPk"
+     },
+     {
+      "title": "Squid Doll Army vs Great White Shark in Granny House | Funny Horror Animation",
+      "channel": "Granny Funny",
+      "views": 1926600,
+      "age_days": 81.5,
+      "vph": 984.8,
+      "id": "fsIenbSZpUY"
+     },
      {
       "title": "The fearless fight for survival in the face of a vicious great white shark | 60 Minutes Australia",
       "channel": "60 Minutes Australia",
-      "views": 1206042,
-      "age_days": 56.1,
-      "vph": 895.1,
+      "views": 1264364,
+      "age_days": 70.6,
+      "vph": 746.2,
       "id": "p4ZmET6g_Bc"
-     },
-     {
-      "title": "Swimmer Waves Off Lifeguards With 6 Great White Sharks Nearby",
-      "channel": "TheMalibuArtist",
-      "views": 913245,
-      "age_days": 78.9,
-      "vph": 482.1,
-      "id": "5GRp7NoCWiA"
      }
     ]
    }
@@ -15189,6 +15207,927 @@
       "age_days": 60.1,
       "vph": 4.6,
       "id": "LpQesViVq3o"
+     }
+    ]
+   }
+  }
+ },
+ "lions": {
+  "at": "2026-11-09T01:06:16.699870+00:00",
+  "data": {
+   "demand": {
+    "score": 10,
+    "suggestions": [
+     "lions vs dolphins",
+     "lions",
+     "lions game",
+     "lions football",
+     "lions game live",
+     "lions highlights",
+     "lions live",
+     "lions game today",
+     "lions football game",
+     "lions vs panthers",
+     "lions vs saints",
+     "every lions touchdown 2025"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 4,
+    "channels": [
+     "Buzzbible Video",
+     "NFL",
+     "National Geographic",
+     "Wild Echo"
+    ],
+    "vph_median": 4161.7,
+    "vph_best": 8145.9,
+    "top": [
+     {
+      "title": "This Lioness Walked Her Cubs Into a Baboon Army",
+      "channel": "Buzzbible Video",
+      "views": 2448703,
+      "age_days": 12.5,
+      "vph": 8145.9,
+      "id": "mSOZfhOuK78"
+     },
+     {
+      "title": "Detroit Lions vs Buffalo Bills Game Highlights | 2026 NFL Season Week 2",
+      "channel": "NFL",
+      "views": 5317687,
+      "age_days": 51.9,
+      "vph": 4271.0,
+      "id": "ULjOfKcZl4o"
+     },
+     {
+      "title": "Three Lions Attacked the Wrong Gorilla",
+      "channel": "Wild Echo",
+      "views": 3135993,
+      "age_days": 31.4,
+      "vph": 4161.7,
+      "id": "F0dNdiB0kWQ"
+     },
+     {
+      "title": "Detroit Lions vs Carolina Panthers Game Highlights | 2026 NFL Season Week 4",
+      "channel": "NFL",
+      "views": 2109713,
+      "age_days": 34.9,
+      "vph": 2520.9,
+      "id": "sD0WZLGybRw"
+     },
+     {
+      "title": "Lion: Rise of a King | A Prince is Born (Full Episode) | National Geographic",
+      "channel": "National Geographic",
+      "views": 1955381,
+      "age_days": 80.5,
+      "vph": 1012.0,
+      "id": "alMenZeGN1c"
+     }
+    ]
+   }
+  }
+ },
+ "animals lions are afraid of": {
+  "at": "2026-11-09T01:06:16.699870+00:00",
+  "data": {
+   "demand": {
+    "score": 1,
+    "suggestions": [
+     "animals that lions are afraid of"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 0,
+    "channels": [],
+    "vph_median": 0.1,
+    "vph_best": 0.1,
+    "top": [
+     {
+      "title": "10 Animals That Lions Are Afraid to Fight 🦁 — Even the King Backs Down",
+      "channel": "Wildlife Documentaries ",
+      "views": 124,
+      "age_days": 35.0,
+      "vph": 0.1,
+      "id": "Uefdjf-JIAg"
+     }
+    ]
+   }
+  }
+ },
+ "tragic fossils": {
+  "at": "2026-11-09T01:06:16.699870+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 1,
+    "channels": [
+     "ExtinctZoo "
+    ],
+    "vph_median": 0.5,
+    "vph_best": 22633.7,
+    "top": [
+     {
+      "title": "The Most Tragic Fossils Ever Discovered",
+      "channel": "ExtinctZoo ",
+      "views": 239879,
+      "age_days": 0.4,
+      "vph": 22633.7,
+      "id": "NF42pH3oXZw"
+     },
+     {
+      "title": "5 Fossils Frozen in a Dramatic Moment",
+      "channel": "Extinctorium",
+      "views": 321,
+      "age_days": 27.7,
+      "vph": 0.5,
+      "id": "2V0jseeB0j8"
+     },
+     {
+      "title": "The Most Brutal Deaths Ever Preserved in Fossils and Earth History",
+      "channel": "Lost World",
+      "views": 33,
+      "age_days": 49.1,
+      "vph": 0.0,
+      "id": "EBjZ73SlE2w"
+     }
+    ]
+   }
+  }
+ },
+ "most tragic fossils ever discovered": {
+  "at": "2026-11-09T01:06:16.699870+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 1,
+    "channels": [
+     "ExtinctZoo "
+    ],
+    "vph_median": 11316.9,
+    "vph_best": 22633.3,
+    "top": [
+     {
+      "title": "The Most Tragic Fossils Ever Discovered",
+      "channel": "ExtinctZoo ",
+      "views": 239879,
+      "age_days": 0.4,
+      "vph": 22633.3,
+      "id": "NF42pH3oXZw"
+     },
+     {
+      "title": "Worst Human Deaths Ever Discovered in Fossils",
+      "channel": "Dorothy Elletson",
+      "views": 824,
+      "age_days": 78.1,
+      "vph": 0.4,
+      "id": "5x2nlfDqM20"
+     }
+    ]
+   }
+  }
+ },
+ "blue whale": {
+  "at": "2026-11-09T01:06:16.699870+00:00",
+  "data": {
+   "demand": {
+    "score": 8,
+    "suggestions": [
+     "blue whale",
+     "blue whale sounds",
+     "blue whale encounter",
+     "blue whale documentary",
+     "blue whale size",
+     "blue whale eating",
+     "blue whale milk",
+     "blue whale breaching",
+     "blue whale frank ocean",
+     "blue whale for kids",
+     "blue whale song",
+     "blue whale size comparison"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 5,
+    "channels": [
+     "Axtro Explainer",
+     "Fossil",
+     "Ninly Anime",
+     "Sameer MD : Horror",
+     "Zem TV"
+    ],
+    "vph_median": 1222.2,
+    "vph_best": 5192.8,
+    "top": [
+     {
+      "title": "Would Orcas Dominate Every Prehistoric Ocean?",
+      "channel": "Fossil",
+      "views": 4017924,
+      "age_days": 32.2,
+      "vph": 5192.8,
+      "id": "UNPK8PNCCmQ"
+     },
+     {
+      "title": "What’s Hidden Inside a Sperm Whale?",
+      "channel": "Zem TV",
+      "views": 1657828,
+      "age_days": 53.4,
+      "vph": 1292.6,
+      "id": "Ny9MwC8V7hc"
+     },
+     {
+      "title": "Whale Species and Monsters Sizes Ranked",
+      "channel": "Axtro Explainer",
+      "views": 471880,
+      "age_days": 16.1,
+      "vph": 1222.2,
+      "id": "PhpO5rnKiPI"
+     },
+     {
+      "title": "🌊 Ek Jadui Whale Par Jaaga... Aur Bana Diya Apna Samundari Samrajya! 😱",
+      "channel": "Ninly Anime",
+      "views": 947042,
+      "age_days": 73.8,
+      "vph": 534.6,
+      "id": "JUA7NuM15tc"
+     },
+     {
+      "title": "The Hauntings of ಬ್ಲೂ ವೇಲ್ Game | Sameer MD",
+      "channel": "Sameer MD : Horror",
+      "views": 975230,
+      "age_days": 85.4,
+      "vph": 475.8,
+      "id": "9xIeOlHYl0E"
+     }
+    ]
+   }
+  }
+ },
+ "why nothing hunts adult blue whales": {
+  "at": "2026-11-09T01:06:16.699870+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 1,
+    "channels": [
+     "BeyondTheBlue"
+    ],
+    "vph_median": 0.6,
+    "vph_best": 706.6,
+    "top": [
+     {
+      "title": "Why Orcas are Terrified of Blue Whales",
+      "channel": "BeyondTheBlue",
+      "views": 579841,
+      "age_days": 34.2,
+      "vph": 706.6,
+      "id": "7aOnBsvI6IE"
+     },
+     {
+      "title": "The Predator Even the Blue Whale Fears!",
+      "channel": "Sunken Fin",
+      "views": 666,
+      "age_days": 7.1,
+      "vph": 3.9,
+      "id": "wOFJeVIDDDc"
+     },
+     {
+      "title": "Biologists Finally Know What's Attacking the Sperm Whales in Pacific — And It Shouldn't Be Possible",
+      "channel": "Blackwater America",
+      "views": 3012,
+      "age_days": 64.5,
+      "vph": 1.9,
+      "id": "FqVDPeGedaw"
+     },
+     {
+      "title": "Why Killer Whales Go Silent the Moment They Hear This",
+      "channel": "Hadalogy",
+      "views": 113,
+      "age_days": 8.3,
+      "vph": 0.6,
+      "id": "bQbN4IA3mFg"
+     },
+     {
+      "title": "Orcas Hunt Great Whites… But Leave Us Alone",
+      "channel": "Darkwater Facts",
+      "views": 90,
+      "age_days": 6.7,
+      "vph": 0.6,
+      "id": "JIuNX572aQ0"
+     }
+    ]
+   }
+  }
+ },
+ "diseases from animals": {
+  "at": "2026-11-09T01:06:16.699870+00:00",
+  "data": {
+   "demand": {
+    "score": 1,
+    "suggestions": [
+     "diseases from animals",
+     "diseases from wild animals"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 0,
+    "channels": [],
+    "vph_median": 29.9,
+    "vph_best": 46.9,
+    "top": [
+     {
+      "title": "8 Doenças ANIMAIS Que Você NUNCA VAI QUERER VER",
+      "channel": "Professor Zezé",
+      "views": 27164,
+      "age_days": 24.1,
+      "vph": 46.9,
+      "id": "FHf-pEouoyE"
+     },
+     {
+      "title": "ESSAS DOENÇAS DEIXAM OS ANIMAIS IRRECONHECÍVEIS 😭 - Wilton Reage",
+      "channel": "Mr.Wilton Lives",
+      "views": 61351,
+      "age_days": 57.5,
+      "vph": 44.5,
+      "id": "4jgbDfq6sGQ"
+     },
+     {
+      "title": "10 Medieval Diseases That Jumped From Animals to Humans",
+      "channel": "Explainer Medieval History",
+      "views": 27533,
+      "age_days": 74.4,
+      "vph": 15.4,
+      "id": "BLEbytNraA8"
+     },
+     {
+      "title": "The 7 Levels of Diseases Spread by Animals",
+      "channel": "Pack Vibes",
+      "views": 14609,
+      "age_days": 86.2,
+      "vph": 7.1,
+      "id": "KB43CNfz048"
+     }
+    ]
+   }
+  }
+ },
+ "what dying from every disease feels like": {
+  "at": "2026-11-09T01:06:16.699870+00:00",
+  "data": {
+   "demand": {
+    "score": 1,
+    "suggestions": [
+     "what dying from every disease feels like"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 6,
+    "channels": [
+     "Dusty Trail Diaries",
+     "Explainer Medieval History",
+     "KinNoKage",
+     "Mr. Death",
+     "Simple Paint",
+     "quack doc"
+    ],
+    "vph_median": 101.9,
+    "vph_best": 1350.1,
+    "top": [
+     {
+      "title": "What Dying From Every Deadly Parasite Feels Like",
+      "channel": "quack doc",
+      "views": 100041,
+      "age_days": 3.1,
+      "vph": 1350.1,
+      "id": "Ux-uLIPzf6k"
+     },
+     {
+      "title": "This Is What Dying Feels Like",
+      "channel": "KinNoKage",
+      "views": 1153620,
+      "age_days": 65.5,
+      "vph": 733.5,
+      "id": "CJxGjAglMdc"
+     },
+     {
+      "title": "What Dying From Every Deadly Genetic Disease Feels Like",
+      "channel": "quack doc",
+      "views": 776408,
+      "age_days": 45.1,
+      "vph": 716.8,
+      "id": "eARFDBf09hg"
+     },
+     {
+      "title": "What Dying From Every Poison Feels Like",
+      "channel": "Simple Paint",
+      "views": 509075,
+      "age_days": 42.4,
+      "vph": 500.5,
+      "id": "m1rkb7mmTGk"
+     },
+     {
+      "title": "What Dying From Every Deadly Genetic Disease Feels Like - Part 2",
+      "channel": "quack doc",
+      "views": 229348,
+      "age_days": 19.1,
+      "vph": 499.6,
+      "id": "8lin8DFNcrY"
+     }
+    ]
+   }
+  }
+ },
+ "only animals grizzly bears fear": {
+  "at": "2026-11-09T01:06:16.699870+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 1,
+    "channels": [
+     "Abyssal Tether"
+    ],
+    "vph_median": 1.2,
+    "vph_best": 576.7,
+    "top": [
+     {
+      "title": "WILD KAMCHATKA | Why Even the Forest's Giant Fears Hunting a Moose | Wildlife Documentary",
+      "channel": "Abyssal Tether",
+      "views": 171965,
+      "age_days": 12.4,
+      "vph": 576.7,
+      "id": "a1Xb6BcWHJk"
+     },
+     {
+      "title": "🚨 FORGET Grizzlies: The DEADLIEST Animal in America Is HIDING HERE, Right Where You Drive Every Day",
+      "channel": "Du du Hack",
+      "views": 452,
+      "age_days": 15.3,
+      "vph": 1.2,
+      "id": "zIYrKR6X4yc"
+     },
+     {
+      "title": "Why Grizzly Bears Fear Nothing (Except One Animal)",
+      "channel": "Fang and Claw TV",
+      "views": 463,
+      "age_days": 17.7,
+      "vph": 1.1,
+      "id": "geDLowREoMs"
+     }
+    ]
+   }
+  }
+ },
+ "animals trapped": {
+  "at": "2026-11-09T01:06:16.699870+00:00",
+  "data": {
+   "demand": {
+    "score": 5,
+    "suggestions": [
+     "animals trapped in amber",
+     "animals trapped",
+     "animals trapped in plastic",
+     "animals trapped in ice",
+     "animals trapped in cages",
+     "animals trapped in zoo",
+     "animals trapped in fence"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 3,
+    "channels": [
+     "New Hollywood Film",
+     "Nick Kratka",
+     "Wild Heartbeats"
+    ],
+    "vph_median": 4767.2,
+    "vph_best": 20743.1,
+    "top": [
+     {
+      "title": "I Caught Every Exotic Ocean Animal!",
+      "channel": "Nick Kratka",
+      "views": 21616494,
+      "age_days": 43.4,
+      "vph": 20743.1,
+      "id": "4TcKGZeg9AI"
+     },
+     {
+      "title": "The Rock Trapped on Rope Bridge by Wild Monkeys!  | Jumanji The Next Level | New Hollywood Movies",
+      "channel": "New Hollywood Film",
+      "views": 7709627,
+      "age_days": 67.4,
+      "vph": 4767.2,
+      "id": "6j2ET8aoquc"
+     },
+     {
+      "title": "When 10 Wild Dogs Trapped a Sleeping Giant Anteater (Fatal Mistake!)",
+      "channel": "Wild Heartbeats",
+      "views": 2573403,
+      "age_days": 64.2,
+      "vph": 1670.4,
+      "id": "AmrUy-owUjU"
+     }
+    ]
+   }
+  }
+ },
+ "most horrifying ways animals got trapped": {
+  "at": "2026-11-09T01:06:16.699870+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 0,
+    "channels": [],
+    "vph_median": 0.0,
+    "vph_best": 0.0,
+    "top": [
+     {
+      "title": "The Most Terrifying Ways Animals Got Trapped.",
+      "channel": "Survivor-e9z",
+      "views": 8,
+      "age_days": 27.0,
+      "vph": 0.0,
+      "id": "-7tZG7ntfY8"
+     }
+    ]
+   }
+  }
+ },
+ "the only animals that make orcas run away": {
+  "at": "2026-11-09T01:06:30.485367+00:00",
+  "data": {
+   "demand": {
+    "score": 1,
+    "suggestions": [
+     "the only animals that make orcas run away"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 3,
+    "channels": [
+     "Acontece no Mundo",
+     "ApexMorph",
+     "BeyondTheBlue"
+    ],
+    "vph_median": 1.4,
+    "vph_best": 9726.7,
+    "top": [
+     {
+      "title": "The Only Animals That Make Orcas Run Away",
+      "channel": "ApexMorph",
+      "views": 3189678,
+      "age_days": 13.7,
+      "vph": 9726.7,
+      "id": "Tm8PtCTt2j8"
+     },
+     {
+      "title": "Os Únicos 3 Animais Que Fazem as Orcas Fugirem",
+      "channel": "Acontece no Mundo",
+      "views": 3273567,
+      "age_days": 16.0,
+      "vph": 8550.0,
+      "id": "vudsj2SdhkI"
+     },
+     {
+      "title": "The Only 3 Animals That Make Orcas Run Away",
+      "channel": "BeyondTheBlue",
+      "views": 358193,
+      "age_days": 2.5,
+      "vph": 5959.8,
+      "id": "OMcUjiSiDJs"
+     },
+     {
+      "title": "الحيوانات الوحيدة التي تجعل الحيتان القاتلة تهرب...",
+      "channel": "Wararak 0801427824",
+      "views": 660,
+      "age_days": 2.4,
+      "vph": 11.6,
+      "id": "4--KT-Opkvs"
+     },
+     {
+      "title": "The Only Prehistoric Animals That Could Make Orcas Run Away (No Ai)",
+      "channel": "Fathomis",
+      "views": 481,
+      "age_days": 3.4,
+      "vph": 5.9,
+      "id": "K3--uGk5vHk"
+     }
+    ]
+   }
+  }
+ },
+ "what are great white sharks afraid of": {
+  "at": "2026-11-09T01:06:30.485367+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 4,
+    "channels": [
+     "60 Minutes Australia",
+     "Fossil Fruw – After Dark",
+     "The Sealed Record",
+     "Universal Pictures"
+    ],
+    "vph_median": 259.9,
+    "vph_best": 1072.3,
+    "top": [
+     {
+      "title": "9 Sea Animals Scientists Are Terrified to Cage",
+      "channel": "Fossil Fruw – After Dark",
+      "views": 1909836,
+      "age_days": 74.2,
+      "vph": 1072.3,
+      "id": "DwJ3YNcOSPg"
+     },
+     {
+      "title": "The fearless fight for survival in the face of a vicious great white shark | 60 Minutes Australia",
+      "channel": "60 Minutes Australia",
+      "views": 1264364,
+      "age_days": 70.6,
+      "vph": 746.2,
+      "id": "p4ZmET6g_Bc"
+     },
+     {
+      "title": "A Deep-Sea Camera Filmed a Great White Refuse to Rise at 2,000 Feet — Something Was Above It",
+      "channel": "The Sealed Record",
+      "views": 29030,
+      "age_days": 2.4,
+      "vph": 495.3,
+      "id": "0NOTN1yRkdM"
+     },
+     {
+      "title": "A Deep-Sea Camera Filmed a Great White Shark Hiding From Something at 2,000 Feet",
+      "channel": "The Sealed Record",
+      "views": 468711,
+      "age_days": 41.4,
+      "vph": 471.3,
+      "id": "l-e50ESoIQo"
+     },
+     {
+      "title": "Jaws: The Revenge | Great White Shark Attacks Kids On A Banana Boat in 4K HDR",
+      "channel": "Universal Pictures",
+      "views": 444540,
+      "age_days": 71.3,
+      "vph": 259.9,
+      "id": "6TSo_ZB27C4"
+     }
+    ]
+   }
+  }
+ },
+ "zoonotic diseases": {
+  "at": "2026-11-09T01:06:30.485367+00:00",
+  "data": {
+   "demand": {
+    "score": 7,
+    "suggestions": [
+     "zoonotic diseases",
+     "zoonotic diseases microbiology",
+     "zoonotic diseases documentary",
+     "zoonotic diseases explained",
+     "zoonotic diseases lecture",
+     "zoonotic diseases dr binocs",
+     "zoonotic diseases in veterinary practice",
+     "zoonotic diseases m for microbiology",
+     "zoonotic diseases in community health nursing",
+     "zoonotic diseases in hindi",
+     "zoonotic diseases psm"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 0,
+    "channels": [],
+    "vph_median": 6.7,
+    "vph_best": 169.0,
+    "top": [
+     {
+      "title": "First Human Case of Shamonda Virus | Symptoms, Risks & Zoonotic Diseases | Drishti IAS",
+      "channel": "Drishti IAS",
+      "views": 66606,
+      "age_days": 16.4,
+      "vph": 169.0,
+      "id": "putj19x53xY"
+     },
+     {
+      "title": "Shamonda Virus Explained: First Human Case & Death in France | UPSC | Drishti IAS English",
+      "channel": "Drishti IAS : English",
+      "views": 22176,
+      "age_days": 16.8,
+      "vph": 55.2,
+      "id": "RHteWY6vAzQ"
+     },
+     {
+      "title": "Por que as doenças dos indígenas não destruíram a Europa?",
+      "channel": "Diário Nada Normal",
+      "views": 8480,
+      "age_days": 7.1,
+      "vph": 49.9,
+      "id": "r5c1X93U2bA"
+     },
+     {
+      "title": "Shamonda Virus: First Human Case Reported!",
+      "channel": "OnlyIAS हिंदी माध्यम",
+      "views": 8170,
+      "age_days": 15.5,
+      "vph": 22.0,
+      "id": "mXK3PUuiWMY"
+     },
+     {
+      "title": "10 Medieval Diseases That Jumped From Animals to Humans",
+      "channel": "Explainer Medieval History",
+      "views": 27530,
+      "age_days": 74.4,
+      "vph": 15.4,
+      "id": "BLEbytNraA8"
+     }
+    ]
+   }
+  }
+ },
+ "why great white sharks are terrifying": {
+  "at": "2026-11-09T01:07:13.372601+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 9,
+    "channels": [
+     "60 Minutes Australia",
+     "7NEWS Australia",
+     "Ambrose Discovery",
+     "Fossil Fruw – After Dark",
+     "Good Morning Britain",
+     "KPTV FOX 12 Oregon",
+     "Novella",
+     "Obscure Encounters",
+     "The Sealed Record"
+    ],
+    "vph_median": 382.3,
+    "vph_best": 1322.3,
+    "top": [
+     {
+      "title": "Scientist Finally Solved the Mystery of the Missing Great White — The Predator Is Terrifying",
+      "channel": "Future Original Discovery",
+      "views": 73614,
+      "age_days": 2.3,
+      "vph": 1322.3,
+      "id": "mEU_FZ5WHDQ"
+     },
+     {
+      "title": "9 Sea Animals Scientists Are Terrified to Cage",
+      "channel": "Fossil Fruw – After Dark",
+      "views": 1909836,
+      "age_days": 74.2,
+      "vph": 1072.3,
+      "id": "DwJ3YNcOSPg"
+     },
+     {
+      "title": "Marine Biologists Finally Solved the Mystery of the Missing Great White — The Predator Is Terrifying",
+      "channel": "Ambrose Discovery",
+      "views": 616790,
+      "age_days": 26.3,
+      "vph": 977.3,
+      "id": "wKPIrGT7APM"
+     },
+     {
+      "title": "The fearless fight for survival in the face of a vicious great white shark | 60 Minutes Australia",
+      "channel": "60 Minutes Australia",
+      "views": 1264364,
+      "age_days": 70.6,
+      "vph": 746.2,
+      "id": "p4ZmET6g_Bc"
+     },
+     {
+      "title": "Fatal great white shark attack at Sorrento beach | 7NEWS",
+      "channel": "7NEWS Australia",
+      "views": 835450,
+      "age_days": 51.6,
+      "vph": 674.7,
+      "id": "Ge6USTzkJoo"
+     }
+    ]
+   }
+  }
+ },
+ "most horrifying ways people got trapped": {
+  "at": "2026-11-09T01:07:13.372601+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 5,
+    "channels": [
+     "MoreBeckBros",
+     "Paint Simples",
+     "RICHLEV",
+     "Simple Paint",
+     "YXL Salah"
+    ],
+    "vph_median": 29.8,
+    "vph_best": 4062.9,
+    "top": [
+     {
+      "title": "The Most Horrifying Ways People Got Trapped (Pt. 2)",
+      "channel": "Simple Paint",
+      "views": 325440,
+      "age_days": 3.3,
+      "vph": 4062.9,
+      "id": "VBsjm7EoV8I"
+     },
+     {
+      "title": "The Most Horrifying Ways People Got Trapped",
+      "channel": "Simple Paint",
+      "views": 3176682,
+      "age_days": 38.4,
+      "vph": 3448.8,
+      "id": "BmCDQHzWb9w"
+     },
+     {
+      "title": "The Worst Places People Have Ever Been Trapped",
+      "channel": "MoreBeckBros",
+      "views": 354183,
+      "age_days": 20.1,
+      "vph": 735.1,
+      "id": "8Dw2ZnVQf-o"
+     },
+     {
+      "title": "MOST HORRIFYING Ways People Got TRAPPED!!",
+      "channel": "AnythingAlexia",
+      "views": 24808,
+      "age_days": 2.2,
+      "vph": 469.2,
+      "id": "9ZqhER0rChA"
+     },
+     {
+      "title": "Pessoas que Ficaram Presas de Formas ATERRORIZANTES",
+      "channel": "Paint Simples",
+      "views": 230013,
+      "age_days": 28.3,
+      "vph": 339.2,
+      "id": "SOqTVu7eFn0"
+     }
+    ]
+   }
+  }
+ },
+ "animals that kill their own family": {
+  "at": "2026-11-09T01:07:13.372601+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 1,
+    "channels": [
+     "WILD NATURE - Nature animal documentary"
+    ],
+    "vph_median": 86.6,
+    "vph_best": 324.1,
+    "top": [
+     {
+      "title": "I Was Reborn as a Noble Son, and My Destiny Skill Shows Me the Future",
+      "channel": "KAI Manhwa Recap",
+      "views": 3442,
+      "age_days": 0.4,
+      "vph": 324.1,
+      "id": "hffyxW55DtE"
+     },
+     {
+      "title": "Lion Attack | First Blood in the Fight for Territory (Full Episode) | Wildlife Documentary",
+      "channel": "WILD NATURE - Nature animal documentary",
+      "views": 184272,
+      "age_days": 88.7,
+      "vph": 86.6,
+      "id": "x_9ZnleGLhk"
+     },
+     {
+      "title": "Scientists Finally Know Why Captive Orcas Kill Their Trainers",
+      "channel": "Deep Dwellers",
+      "views": 298,
+      "age_days": 86.1,
+      "vph": 0.1,
+      "id": "kEWPJDNOZsY"
      }
     ]
    }
