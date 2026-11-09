@@ -65,3 +65,9 @@ with ascending ages are a clean list control, and the 101 MILLION tile with Doug
    so the climb reads as one axis.
 
 Summary: B GO now; C GO after small cleanup; A NO-GO until fixes 1-5 are done. Back to the graphic designer.
+
+## 2026-11-09 Visual screener: thumbnail re-check
+- **APPROVED.** Thumbnails A (IT WOKE UP), B (NO EXIT) and C (grid) and keyframe s001 pass. Every earlier fix is in, all three read at 168x94, and the click test is A yes, B yes, C maybe (fine as the control). Details are in visual_review.md.
+
+## 2026-11-09 Showrunner: report
+Resumed at shotlisted. Art: 3 rounds (art-director + visual-screener PASS in round 3). Thumbnails: 1 fix round, all three approved. Editor lowered config voice.speaking_rate 1.175 -> 1.14 (was 206 wpm, now 197.8 wpm_speech); this is a global setting, so it affects later episodes too. Runtime ~11.0 min. Risks: weekly memo says long-video CTR is weak, so title/thumbnail test A/B/C matters; Ö glyph in rendered captions not verified on an actual frame.

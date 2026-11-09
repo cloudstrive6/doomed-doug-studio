@@ -148,3 +148,35 @@ repeating it. It is accurate to the Mammoth Site sinkhole. No change needed.
   but that is acceptable for a list control whose job is the numbers. B is my pick for the strongest feed read, and A will be
   close behind once fixed.
 - A: the two ice spikes are thin at feed size. They are harmless as framing, so they can stay.
+
+---
+
+## Thumbnail re-check + click test (visual screener, 2026-11-09): VERDICT: PASS
+
+I re-rendered with `python -m studio thumbnail 040-trapped-the-longest` and `keyframes --shots s001`. The output was byte-identical to the
+committed build. I viewed A, B and C at 1280x720, the `_small` 168x94 versions (also blown up 4x) and s001 at 1920x1080.
+
+**A (IT WOKE UP), also s001: PASS.** All of my fixes and the creative director's fixes 1-5 are in.
+- The top strip is gone, and there is no off-white band or black line. The top edge is strata brown on all three samples.
+- The ground now reads as frozen. It has pale ice lenses, blue crack lines, white crystal flecks and ice-blue spikes, so it no longer reads as mud or teeth.
+- Doug is bigger, in a frost-blue pocket. He is on-model (red cap, white head), faces the worm and has a shocked open mouth.
+  His red cap is readable at 168x94.
+- The worm is flipped, so its blunt head is about 50 px from the pocket and faces Doug. The speed lines trail off the tapered tail, and
+  the wiggle lines sit at the head, so it reads as the worm coming at Doug, not the bubble moving.
+- The red arrow ends on the worm's head.
+- s001 is the same composition at 1080p and is clean.
+
+**B (NO EXIT): PASS.** The three fall lines above the mammoth make the tilt read as falling. They clear the NO EXIT text and are still visible at feed size.
+
+**C (grid): PASS.** The black slivers above the top tiles are gone (the tiles are now at y 24). The tile-1 worm and its motion lines sit fully
+inside the frame. All four labels now carry YRS ("101M YRS"), so they read as one rising axis.
+
+No gore and no kids-show tone on any of the three. None repeats a title word.
+
+**Click test (as the creative director asked):**
+- A: yes. It has one focal line (Doug, then the arrow, then the worm), and "IT WOKE UP" opens a curiosity gap that the title's "trapped the longest" sets up.
+  It is accurate: nematodes were revived from 46,000-year-old permafrost. It is the strongest hook.
+- B: yes. It is the most immediate predicament read at feed size, and it's a strong A/B challenger.
+- C: maybe. It is a clean list control, but the pandoravirus "egg" and the "pickle" microbes give it no emotional hook. It is weaker than A and B, but acceptable as the third test arm.
+
+Advisory (non-blocking): in A, Doug's pocket kisses the left canvas edge (a 1-2 px blue sliver at x 0 near y 410). It is not visible at feed size.
