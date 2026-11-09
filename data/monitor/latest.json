@@ -1,16 +1,6 @@
 {
- "at": "2026-11-09T07:01:37+00:00",
+ "at": "2026-11-09T08:01:39+00:00",
  "issues": [
-  {
-   "key": "schedule_gap",
-   "severity": "medium",
-   "owner": "auto",
-   "summary": "No long video scheduled for Fri 13 Nov 6:00 AM NZDT",
-   "detail": "{\"uploaded_total\": 40, \"queued\": 3, \"target\": 4, \"phase\": \"weekly\", \"in_progress\": [\"041-grizzly-wont-fight\"], \"need_episode\": true, \"later_scheduled\": []}",
-   "route": "production run",
-   "fixed": false,
-   "extra": {}
-  },
   {
    "key": "related_pending",
    "severity": "low",
@@ -25,8 +15,8 @@
    "key": "end_screens_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "5 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
-   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/editor\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/editor\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/editor\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/editor",
+   "summary": "6 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/editor\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/editor\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/editor\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/editor\n041-grizzly-wont-fight https://studio.youtube.com/video/6l0vPcKl-dU/editor",
    "route": "",
    "fixed": false,
    "extra": {}
@@ -35,14 +25,14 @@
    "key": "thumb_tests_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "5 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
-   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/edit\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/edit\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/edit\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/edit",
+   "summary": "6 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/edit\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/edit\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/edit\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/edit\n041-grizzly-wont-fight https://studio.youtube.com/video/6l0vPcKl-dU/edit",
    "route": "",
    "fixed": false,
    "extra": {}
   }
  ],
  "resolved_since_last": [
-  "produce_failing"
+  "schedule_gap"
  ]
 }
