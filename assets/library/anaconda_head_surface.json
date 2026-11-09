@@ -1,0 +1,323 @@
+{
+ "name": "anaconda_head_surface",
+ "description": "Green anaconda head breaking the surface, facing right, side view: low flat-topped olive head tapering to a blunt pointed snout with a small red forked tongue flick, two nostril dots on the snout tip, one small round black eye with a yellow glint on a low eye bump (no lids, no brows), thin dark-orange stripe back from the eye, closed dark-olive mouth line just above the water, pale ripple arcs. Water not drawn. Anchor on the waterline (y=0), ~270x50 (x -115..153, y -48..8). Made for 042 thumbnail A (not a frog: no orange lip, no big eyes).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "creature",
+  "reptile",
+  "snake",
+  "anaconda",
+  "green anaconda",
+  "042",
+  "water",
+  "head",
+  "surface"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 4,
+   "rx": 130,
+   "ry": 14,
+   "start": 195,
+   "end": 255,
+   "color": "#e8f2ec",
+   "width": 3,
+   "silhouette_keep": true
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 4,
+   "rx": 130,
+   "ry": 14,
+   "start": 285,
+   "end": 345,
+   "color": "#e8f2ec",
+   "width": 3,
+   "silhouette_keep": true
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -115,
+     2
+    ],
+    [
+     -105,
+     -26
+    ],
+    [
+     -70,
+     -40
+    ],
+    [
+     -20,
+     -44
+    ],
+    [
+     30,
+     -42
+    ],
+    [
+     70,
+     -32
+    ],
+    [
+     100,
+     -20
+    ],
+    [
+     116,
+     -8
+    ],
+    [
+     118,
+     0
+    ],
+    [
+     0,
+     2
+    ]
+   ],
+   "fill": "#5f7a2e",
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -100,
+     -28
+    ],
+    [
+     -60,
+     -40
+    ],
+    [
+     0,
+     -44
+    ],
+    [
+     50,
+     -38
+    ],
+    [
+     60,
+     -34
+    ],
+    [
+     0,
+     -36
+    ],
+    [
+     -60,
+     -32
+    ]
+   ],
+   "fill": "#4a5f22",
+   "color": "#4a5f22",
+   "width": 1,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     18,
+     -30
+    ],
+    [
+     -30,
+     -24
+    ],
+    [
+     -80,
+     -20
+    ]
+   ],
+   "color": "#9a6a2a",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     9.0,
+     -36.0
+    ],
+    [
+     9.4,
+     -38.5
+    ],
+    [
+     10.5,
+     -40.9
+    ],
+    [
+     12.2,
+     -43.1
+    ],
+    [
+     14.6,
+     -44.9
+    ],
+    [
+     17.5,
+     -46.4
+    ],
+    [
+     20.7,
+     -47.4
+    ],
+    [
+     24.2,
+     -47.9
+    ],
+    [
+     27.8,
+     -47.9
+    ],
+    [
+     31.3,
+     -47.4
+    ],
+    [
+     34.5,
+     -46.4
+    ],
+    [
+     37.4,
+     -44.9
+    ],
+    [
+     39.8,
+     -43.1
+    ],
+    [
+     41.5,
+     -40.9
+    ],
+    [
+     42.6,
+     -38.5
+    ],
+    [
+     43.0,
+     -36.0
+    ]
+   ],
+   "fill": "#5f7a2e",
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "circle",
+   "x": 26,
+   "y": -36,
+   "r": 6,
+   "fill": "#000000",
+   "color": "#000000",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 28,
+   "y": -38,
+   "r": 2,
+   "fill": "#f2d64a",
+   "color": "#f2d64a",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 104,
+   "y": -17,
+   "r": 3,
+   "fill": "#000000",
+   "color": "#000000",
+   "width": 1
+  },
+  {
+   "type": "circle",
+   "x": 94,
+   "y": -21,
+   "r": 3,
+   "fill": "#000000",
+   "color": "#000000",
+   "width": 1
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     114,
+     -6
+    ],
+    [
+     60,
+     -8
+    ],
+    [
+     -10,
+     -7
+    ]
+   ],
+   "color": "#2b3810",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     116,
+     -6
+    ],
+    [
+     140,
+     -8
+    ]
+   ],
+   "color": "#d0282a",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     140,
+     -8
+    ],
+    [
+     152,
+     -16
+    ]
+   ],
+   "color": "#d0282a",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     140,
+     -8
+    ],
+    [
+     153,
+     -2
+    ]
+   ],
+   "color": "#d0282a",
+   "width": 4
+  }
+ ]
+}

@@ -33,3 +33,41 @@ Scope: I re-checked all 15 contact sheets, which were re-rendered at 18:34 after
 9. **s001 (graphic designer).** This must be re-screened once the thumbnail exists.
 
 Re-screen needed after fixes: s068 (and s001 once the thumbnail lands).
+
+# 042 anaconda-no-venom: visual review, keyframes (round 3, 2026-11-09)
+
+VERDICT: PASS (keyframes). s001 has to inherit the thumbnail A fix below.
+
+Scope: I re-checked the contact sheets (re-rendered 18:38). At full resolution I checked s067, s068, s069 and s001. s066 was checked on sheet_06.
+
+## Round-2 items: status
+| # | Shot(s) | Status |
+|---|---|---|
+| 1 | s068 two anacondas | FIXED. There is now one snake. The strike head bites from the splash, and the rest of the body is a dark underwater silhouette trailing right to the bank. The arrow and "WRAP" match "the rest of the snake arrives". |
+| 2 | s066/s067/s069 bite gap | FIXED. In s067-s069 the jaws now overlap the capybara's rump. In s066 the strike is at empty water, which is fine for "not what the bite is for". |
+| 9 | s001 | The thumbnail has landed, and s001 equals thumbnail A. See thumbnails fix T1. |
+
+## Notes (non-blocking)
+- s068 (director): Doug is absent, while he is on the bank in s067 and s069. That is a small continuity blip. Optionally put him back at (1650, 940).
+- Round-2 should-fix items 3-8 (s118/s119, s040, s042/s166, s143/s144, s148/s164, s007 "ú") were not re-checked this round and are still open as non-blocking.
+
+# 042 anaconda-no-venom: visual review, thumbnails (round 1, 2026-11-09)
+
+VERDICT: FAIL (thumbnail A only; B and C pass)
+
+All three are 1280x720, and the _small versions are 168x94. The text is readable at feed size on all three. None has gore, blood, a prey lump or a capybara. None has a kids-show tone. Doug is on-model in all three (red cap, white head, stick body).
+
+## Required fixes (blocking)
+T1. **thumbnail.png (A) and keyframe s001 (graphic designer).** Doug's `thumbs_up` hand reads as a raised middle finger. A single vertical stroke comes straight up from the centre of a round fist, and the hand is raised to head height facing camera (crop at 1280: hand at about (365, 95-125)). On the watch page and in frame 1 at 1920, viewers and ad-suitability reviewers can read this as an obscene gesture. On the main thumbnail of a channel chasing YPP, that is not worth the risk. Fix it with one of these:
+   - change the pose to `point` aimed at "NOT A LOG";
+   - or use the `thumbs_up_hand` asset from 001, which has a fist with knuckles and the thumb clearly off to one side;
+   - or rotate the arm so the thumb sits at the side of the fist rather than on top.
+
+   Re-render the thumbnail and s001 together.
+
+## Should fix (non-blocking)
+T2. **A and C (illustrator/graphic designer).** The surfaced anaconda head (two eye bumps plus an orange mouth line) reads as a frog or turtle at full size. A pointed snout tip, nostril dots and a forked tongue flick would make it a snake without breaking the "two bumps" idea. In A the coil stack still reads as a big spotted snake at 168x94, so this is not blocking there. C depends more on the head, but the title supplies "anaconda".
+T3. **C (graphic designer, note).** Doug stands on a thin blue line on the water, so it is unclear what he stands on. That is acceptable in a cartoon, but a raft or ripple ring would read better.
+T4. **B (note).** B is the strongest at feed size: one focal point, Doug in a coil plus "IT SQUEEZES", and an X'd bottle that stands for "no venom". The bottle label is blank, but adding "VENOM" would break the brief's no-VENOM-on-image rule, so leave it.
+
+Re-screen needed: thumbnail A and s001 after T1.
