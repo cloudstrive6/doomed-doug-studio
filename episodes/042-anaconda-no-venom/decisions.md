@@ -65,3 +65,30 @@ The ranked titles are fine. All three are honest to the script (no venom, the sq
   would be nice, but not required, to close the s066/s067/s069 jaw-to-capybara gap.
 
 2026-11-09 Showrunner: script 3 rounds (facts fixes: species-split dispute, human-fatality wording, caiman line); art 3 rounds (boa assets, repetitions, s068); thumbnails A/C redone once (A thumbs-up misread, C frog look), all three screened PASS; B is strongest at feed size. Risks: 2024 anaconda species split disputed (hedged in script); human-fatality line "very few, hard to verify"; thumbnail C weakest. Narration 10.9 min, validate OK.
+
+## 2026-11-09: final package approval (creative director)
+Reviewed: build/thumbnail.png (full size and _small), thumbnail_b.png, metadata.json title/alt_titles/description/tags,
+build/chapters.txt, script.md opening (to the item-1 twist), build/samples f_001-f_003, visual_review_final.md (main PASS,
+shorts PASS, no re-screen), qc.json (656.6 s, no problems).
+
+- **Title: kept** "Every Reason a 97.5 kg Anaconda Doesn't Need Venom to Kill". Honest to the video (no venom, ambush,
+  teeth, circulatory-arrest squeeze, swallow, caiman kills, the giant). No alt is clearly stronger. The "Why a 97.5 kg..."
+  alts would repeat 041's "Why a 300 kg Grizzly..." opener back-to-back, so they stay out of the primary slot. 97.5 kg is
+  sourced (Rivas 2000).
+- **Thumbnail A (NOT A LOG): approved as primary.** The fixes landed: one long half-submerged body, head where the body
+  enters the water, forked tongue, no frog face, no gesture misread. It's legible at feed size. It also stays primary
+  because it is the burned-in opening image (s001), and swapping would mean a re-render. B (IT SQUEEZES) is still the
+  strongest at feed size and runs in the A/B/C test. If B wins the day-7 CTR readout, lead with that grammar (Doug in peril +
+  2-word mechanism) on the next animal episode.
+- **Description: one fix applied.** "the squeeze that stops the blood before the breath" presented a boa finding as an
+  anaconda measurement. It now reads "the squeeze that (in studies on its cousin, the boa) stops the blood before the breath",
+  which matches the script's hedge and Boback 2012/2015. Sources, disclaimer and AI-use disclosure are present. The
+  {{CHAPTERS}} placeholder is filled at upload from build/chapters.txt.
+- **Chapters:** 0:00 Intro, then 9 items. Each is more than 10 s long and they ascend correctly. OK.
+- **First 60 s:** the number, the average-man comparison and the no-venom stake are in sentence 1. The barefoot-night-swamp
+  payoff promise comes by about 0:10. "The Female." lands at about 0:12, and the twist marker comes at about 0:41. The
+  frames match the narration, and the counter and hunt-stage badge are legible. There's no gore and the tone is adult-coded.
+- Carry-overs (non-blocking, from the screener): short03 hook subject too small at phone size (N1); retire the "standards"
+  closer after this episode.
+
+FINAL: APPROVED

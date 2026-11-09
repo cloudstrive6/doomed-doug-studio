@@ -49,7 +49,17 @@
       "stage": "packaged",
       "at": "2026-11-09T18:49:58+00:00",
       "note": "narration + validate OK"
+    },
+    {
+      "stage": "built",
+      "at": "2026-11-09T18:55:03+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "qc_passed",
+      "at": "2026-11-09T19:01:52+00:00",
+      "note": "final approved"
     }
   ],
-  "stage": "packaged"
+  "stage": "qc_passed"
 }
