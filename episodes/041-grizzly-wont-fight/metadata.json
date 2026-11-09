@@ -1,0 +1,192 @@
+{
+ "title": "Why a 300 kg Grizzly Still Won't Try to Kill These Animals",
+ "alt_titles": [
+  "Why Even a Grizzly Bear Won't Try to Kill These Animals",
+  "Every Animal That Would Cost a Grizzly Bear Too Much to Kill",
+  "Every Animal a Grizzly Bear Won't Try to Kill, and Why",
+  "Why Grizzlies Steal From Wolves but Never Try to Kill Them"
+ ],
+ "packaging": {
+  "gate": "D4 packaging gate v1 (2026-11-09)",
+  "ranked_at": "2026-11-09T06:16:33Z",
+  "names": [
+   "grizzly",
+   "grizzly bear",
+   "grizzlies",
+   "brown bear",
+   "wolverine",
+   "porcupine",
+   "bull moose",
+   "bull bison",
+   "Amur tiger",
+   "Yellowstone"
+  ],
+  "candidates": [
+   {
+    "title": "Why a 300 kg Grizzly Still Won't Try to Kill These Animals",
+    "thumb_text": "NOT WORTH IT",
+    "concept": "A big grizzly side-on, leaning back on its haunches, ears flat, backing away from a half-hidden striped tiger face in the snow; tiny Doug between them, cap on",
+    "formula": "T9",
+    "chars": 58,
+    "score": 100,
+    "raw": 120,
+    "issues": []
+   },
+   {
+    "title": "Why Even a Grizzly Bear Won't Try to Kill These Animals",
+    "thumb_text": "TOO COSTLY",
+    "concept": "The grizzly backing away from a single porcupine, red arrow on the quills, tiny Doug in an inward-quill porcupine suit beside it",
+    "formula": "T9",
+    "chars": 55,
+    "score": 100,
+    "raw": 116,
+    "issues": []
+   },
+   {
+    "title": "Every Animal That Would Cost a Grizzly Bear Too Much to Kill",
+    "thumb_text": "IT FEARS US?",
+    "concept": "The grizzly walking away from tiny Doug, whose speech bubble says hi friend?",
+    "formula": "T8",
+    "chars": 60,
+    "score": 100,
+    "raw": 116,
+    "issues": []
+   },
+   {
+    "title": "Every Animal a Grizzly Bear Won't Try to Kill, and Why",
+    "thumb_text": "NOPE.",
+    "concept": "The grizzly backing off a lone porcupine with a red arrow on it",
+    "formula": "T8",
+    "chars": 54,
+    "score": 100,
+    "raw": 116,
+    "issues": []
+   },
+   {
+    "title": "Why Grizzlies Steal From Wolves but Never Try to Kill Them",
+    "thumb_text": "BAD TRADE",
+    "concept": "A grizzly on an elk carcass, five wolves in a half circle, Doug holding the elk leg",
+    "formula": "T9",
+    "chars": 58,
+    "score": 100,
+    "raw": 116,
+    "issues": []
+   },
+   {
+    "title": "The Animals a Grizzly Bear Would Rather Not Try to Kill",
+    "thumb_text": "TOO RISKY",
+    "concept": "The grizzly turning away from a small snarling wolverine on a carcass, tiny Doug standing beside it for backup",
+    "formula": "T4",
+    "chars": 55,
+    "score": 100,
+    "raw": 116,
+    "issues": []
+   },
+   {
+    "title": "Why Grizzlies Walk Away From Animals They Could Kill",
+    "thumb_text": "THE PRICE",
+    "concept": "The grizzly backing away from a wolverine on a carcass, Doug beside it for backup",
+    "formula": "T9",
+    "chars": 52,
+    "score": 100,
+    "raw": 116,
+    "issues": []
+   },
+   {
+    "title": "Why Even Grizzly Bears Won't Try to Kill a Bull Bison",
+    "thumb_text": "RIGHT OF WAY",
+    "concept": "A grizzly stepping off a trail as a bull bison walks through, Doug on the bison's side",
+    "formula": "T9",
+    "chars": 53,
+    "score": 100,
+    "raw": 116,
+    "issues": []
+   },
+   {
+    "title": "The Scariest Animal a Grizzly Avoids Is Reading This",
+    "thumb_text": "IT'S YOU",
+    "concept": "The grizzly walking away from Doug",
+    "formula": "T4",
+    "chars": 52,
+    "score": 100,
+    "raw": 116,
+    "issues": []
+   },
+   {
+    "title": "Why Grizzly Mothers Hide From the Bears That Kill Cubs",
+    "thumb_text": "NEAR PEOPLE",
+    "concept": "A mother grizzly feeding beside a parking lot while a huge male watches from the treeline; no cubs drawn",
+    "formula": "T9",
+    "chars": 54,
+    "score": 100,
+    "raw": 116,
+    "issues": []
+   }
+  ],
+  "variants": [
+   {
+    "variant": "A",
+    "file": "thumbnail.json",
+    "png": "build/thumbnail.png",
+    "title": "Why a 300 kg Grizzly Still Won't Try to Kill These Animals",
+    "thumb_text": "NOT WORTH IT",
+    "concept": "hero close-up",
+    "thumb_idea": "A big grizzly side-on, leaning back on its haunches, ears flat, backing away from a half-hidden striped tiger face in the snow; tiny Doug between them, cap on",
+    "score": 100,
+    "raw": 120,
+    "issues": []
+   },
+   {
+    "variant": "B",
+    "file": "thumbnail_test_b.json",
+    "png": "build/thumbnail_b.png",
+    "title": "Why Even a Grizzly Bear Won't Try to Kill These Animals",
+    "thumb_text": "TOO COSTLY",
+    "concept": "Doug in peril",
+    "thumb_idea": "The grizzly backing away from a single porcupine, red arrow on the quills, tiny Doug in an inward-quill porcupine suit beside it",
+    "score": 100,
+    "raw": 116,
+    "issues": []
+   },
+   {
+    "variant": "C",
+    "file": "thumbnail_test_c.json",
+    "png": "build/thumbnail_c.png",
+    "title": "Every Animal That Would Cost a Grizzly Bear Too Much to Kill",
+    "thumb_text": "IT FEARS US?",
+    "concept": "second shock",
+    "thumb_idea": "The grizzly walking away from tiny Doug, whose speech bubble says hi friend?",
+    "score": 100,
+    "raw": 116,
+    "issues": []
+   }
+  ],
+  "readout": {
+   "metric": "long-form CTR at day 7",
+   "min_impressions": 1000,
+   "baseline_median": 0.022,
+   "baseline_top": [
+    0.025,
+    0.043
+   ],
+   "target_median": 0.04,
+   "baseline_source": "data/analytics/2026-11-08.json"
+  }
+ },
+ "title_formula": "T9",
+ "thumbnail_brief": "One big grizzly side-on at feed size, leaning back on its haunches with ears flat and backing away from a tiger's striped face half-hidden in the snow, tiny red-capped Doug standing between them, with the words NOT WORTH IT, so the title gives the bear's size and the thumbnail gives its verdict (no GRIZZLY, BEAR, KILL or ANIMALS on the image; no blood, wounds, cubs or cute eyes).",
+ "description": "Why won't a grizzly bear try to kill a wolf pack, a porcupine or a bull bison? Doug follows a 300 kg grizzly through everything that would cost it a dinner, a face, its bones, its cubs or its life, from Yellowstone wolves to the Amur tiger that eats brown bears, and finally the animal grizzlies avoid most of all.\n\nWhere should we send Doug next? Tell us in the comments.\nSubscribe so you don't miss Doug's next bad decision.\n\n— TIMESTAMPS —\n{{CHAPTERS}}\n\n— KEY SOURCES —\nGunther & Smith (2004), Ursus, wolves and grizzly mothers with cubs in Yellowstone: https://web.archive.org/web/2010id_/http://nrmsc.usgs.gov/files/norock/products/Ursus-15-02-Gunther_Smith.pdf\nSmithsonian's National Zoo, North American porcupine: https://www.nationalzoo.si.edu/node/6871\nDahle et al. (2013), Wildlife Biology, predation on adult moose by European brown bears: https://bioone.org/journals/wildlife-biology/volume-19/issue-2/10-113/Predation-on-adult-moose-Alces-alces-by-European-brown-bears/10.2981/10-113.full\nSteyaert et al. (2016), Proc. R. Soc. B, human shields and infanticide in brown bears: https://pmc.ncbi.nlm.nih.gov/articles/PMC4936045\nSeryodkin et al. (2018), Biology Bulletin, Amur tigers and brown bears in the Russian Far East: https://api.openalex.org/works/doi:10.1134/S1062359018080149\nUSFWS, grizzly bear population and listing in the lower 48: https://www.fws.gov/species/grizzly-bear-ursus-arctos-horribilis\n\n— DISCLAIMER —\nEducational entertainment. Every death in this video is a cartoon depiction of a stick figure; the science is real and sourced above.\n\n— AI USE —\nThe narration is an AI text-to-speech voice. Scripts are researched and written with AI assistance and fact-checked against the sources above. All drawings are original.\n\n#DoomedDoug #GrizzlyBear #Wildlife",
+ "tags": [
+  "what grizzly bears are afraid of",
+  "grizzly bear vs wolves",
+  "grizzly bear vs tiger",
+  "animals grizzly bears avoid",
+  "brown bear vs amur tiger",
+  "yellowstone wolves and grizzlies",
+  "porcupine quills",
+  "grizzly bear facts",
+  "stick figure animation"
+ ],
+ "playlist": "animals",
+ "paid_promotion": false
+}

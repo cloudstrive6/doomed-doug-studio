@@ -19,7 +19,12 @@
       "stage": "script_approved",
       "at": "2026-11-09T06:14:44+00:00",
       "note": "CD approved draft 2 (screener PASS, hook 8/10). Light edits R1-R6 applied: Bull Moose trimmed to 257 words, bison ~50 km/h, parking lot, OLDER KILLS: 88% COWS label, moose Doug beat clarified, Dahle baseline in facts.md. ~2,094 spoken words (~10.7 min)."
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-11-09T06:31:06+00:00",
+      "note": "director: 194 shots (~10.7 min est.), narration = script (2,094 words), Doug in 88%, counter 315->322 + BEAR'S COST tag (DINNER/FACE/BONES/CUBS/LIFE), s001 thumbnail <=1.5 s ('One three-hundred-kilo grizzly'), silent flat death 320 at s144; 33 assets requested in asset_requests.md; shorts.json 3 picks (Amur Tiger s155-s164, Porcupine s064-s074, Bull Moose s079-s087) awaiting titles; thumbnail.json pending (s001 scene_ref)"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }

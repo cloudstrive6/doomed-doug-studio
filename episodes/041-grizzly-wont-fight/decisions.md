@@ -24,3 +24,30 @@ Notes for the director and editor:
 - Hold the thumbnail 1.5 s or less, and don't add a word before "The Wolf Pack.". It is at the 35-word limit.
 - Death 320 stays flat, and so does 322.
 - The series bible counter (315 to 322) and the 041 log row get updated at the final gate, as with 040.
+
+## 2026-11-09 Director: shotlist
+- **194 shots**, and the narration matches the approved script word for word (2,094 words). Doug is in 88% of shots, no shot runs over
+  45 words, and on a 195 wpm estimate no stretch goes longer than about 4.6 s without a pop-in.
+- **Opening:** s001 is `scene_ref: thumbnail` and carries only "One three-hundred-kilo grizzly" (about 1.3 s, `pause_after` 0.05), so the
+  hold stays at 1.5 s or less. Nothing is added before "The Wolf Pack." (s005). `thumbnail.json` belongs to the graphic designer, so that
+  validate error is expected until it exists.
+- **HUD:** "DOUG DEATHS: N" at (1590,162) plus a BEAR'S COST tag (library `price_tag` icon + size-28 label at y 238) on every shot after
+  s001. It moves DINNER, FACE, BONES, CUBS, LIFE on the spoken band shots (s004, s052, s077, s123, s147). Each band shot is a big torn tag
+  card with the old word struck out. LIFE uses a pink label with red text. The tag is never read aloud.
+- **Backdrops by band** (luminance falls toward the boss): Wolf Pack = Yellowstone January snow (034 JAN). Wolverine = late snow
+  `#dbe6ee` with snowy firs. Porcupine = pale forest floor. Bull Moose = overcast willow flats (green, so wordart uses the white/yellow
+  override). Bull Bison = March thaw (034 MAR). Big Male = sedge meadow (green override). Tiger = Sikhote-Alin snow at dusk `#4a4f5e`.
+  Human = Montana trail at dusk plus a dusk parking lot. Diagram cards are cream `#f4f1dc`, sober cards `#15181a`, and death beats
+  `#0b0f14` (snow-night ground `#232a36` / `#2a3240` for the snow items).
+- **Deaths:** 316 cap in wolf tracks + ghost + field guide NO; 317 cap on one quill + ghost; 318 bull silhouette (pale rim) walking off
+  with the cap on an antler; 319 cap on the bison's back, the folded deck chair left behind; 320 a **silent** shot (`narration: ""`,
+  1.8 s, like 031) with the cap at the meadow edge and MAYBE rubbed out, played flat; 321 cap in a tiger print + ghost; 322 flat
+  (cap at the treeline, no ghost). Survival at The Wolverine: thumbs-up, the counter stays at 316, and MAYBE is pencilled in.
+  No `on_back` bodies and no gore. Cubs are never shown hurt: the infanticide beats use a pie chart, silhouettes and a dotted line.
+- **Reveals:** wolverine (silhouette s027, colour s029), porcupine (s050/s051), moose (s075-s076/s078), bison humps (s101/s102),
+  big male (s122, s124/s127), tiger (s003, s146/s148).
+- **Shorts:** short01 Amur Tiger s155-s164 (hook from s149, ends on the fair-fight death); short02 Porcupine s064-s074 (hook from s054,
+  ends on the quills-inward death); short03 Bull Moose s079-s087 (opens on the somersaulting bear, ends on the vending-machine kicker).
+  The titler adds the titles.
+- 33 missing drawings are listed in `asset_requests.md`. I rendered the 101 shots that need no new art (keyframes) and fixed what I found:
+  the counter-zone title collisions (titles now at y 380), the big male's ridge moved left, tag-card layout, and sign text size.
