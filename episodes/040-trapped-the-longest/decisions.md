@@ -31,3 +31,37 @@ SCRIPT: APPROVED
   plate; s057 "5,300 YEARS" moved clear of RECENT?; s164 one scaled-up pelvis + PELVIS label; s147 topbar dropped for the transition.
   Not done: extra close-up inside the s130-s145 lab run (optional).
 - Re-rendered 39 keyframes (changed shots plus neighbours); `validate shotlist` OK.
+
+## 2026-11-09 Creative Director: thumbnail gate (A/B/C for Test & compare)
+Rendered with `python -m studio thumbnail 040-trapped-the-longest`; checked full size and all three `_small` (168x94).
+
+**B. Doug in peril (`thumbnail_test_b.json`): GO.** The strongest of the three, and I'd click it. A mammoth tumbles into a
+steep-walled pit onto a shocked Doug standing in the water, with NO EXIT above. One focal moment, the cap and face read at 168x94,
+the words don't repeat the title, and the video delivers it (the Mammoth Sinkhole, death 314). Optional: two or three short fall
+lines above the mammoth's back so its tilt reads as falling, not floating.
+
+**A. Hero (`thumbnail.json`, also the opening image s001): NO-GO, fix and resubmit.** The worm plus IT WOKE UP reads well at feed size,
+but the brief asked for permafrost and this looks like a brown mud cave with fangs. That's the "never seafloor mud" problem again.
+1. Remove the `#f7fbff` band at y 0-34. At full size it looks like a cropping bug. Either run the top strata band to y 0, or make it
+   a thin frozen surface line with snow on top, at least 60 px tall so it reads as intentional.
+2. Make the ground read as frozen. Cool the strata toward the art bible's frozen-ground look (keep the browns, but add pale ice
+   veins/lenses `#cfe3ef` with `#4f6b84` crack lines across each band, plus a scatter of small white ice-crystal flecks). Change the two
+   cream spikes from `#efe6d0` to ice `#dfe7ee` with a `#4f6b84` outline, or replace them with ice lenses. As drawn they read as teeth or stalactites.
+3. Make Doug bigger and give him the brief's reaction. Raise the scale from 0.46 to about 0.7 inside a slightly bigger ice pocket (rx ~190, ry ~160,
+   frost-blue outline instead of plain black). Face him toward the worm with his eyes up, so the viewer's eye goes from Doug to the worm.
+   At 168x94 he's currently a speck.
+4. Move the motion lines so they don't hit Doug's pocket. Right now they sit between the worm's tail and the bubble, as if the bubble is moving.
+   Put 2-3 wiggle lines at the worm's head end (right, by the bulb) so it's the worm that's moving/awake.
+5. Re-aim the red arrow at the worm's head end (the bulb near x ~1240, y ~450), not at the middle of its back.
+After the fixes, s001 must be re-rendered from the new A.
+
+**C. Simple grid (`thumbnail_test_c.json`): GO once fixes 1-3 are in (cosmetic, re-render and check, no new gate).** Four big tiles
+with ascending ages are a clean list control, and the 101 MILLION tile with Doug is a good curiosity end point.
+1. Remove the black slivers above the two top tiles (y 0-8, they look like a tile frame/shadow clipping at the canvas edge).
+   Move both top tiles to y 20 (and the bottom row to y 360) or fix the clip.
+2. Tile 1: the worm asset's built-in wiggle lines are cut off by the tile's left edge (three black stubs at x ~20-50). Shift the worm
+   right (x ~350) or scale it to ~1.3 so the lines sit inside the tile, or drop them.
+3. Label consistency: "101 MILLION" is the only label without the unit. Use "101M YRS" (or "101 MILLION YRS" if it fits at 68 px)
+   so the climb reads as one axis.
+
+Summary: B GO now; C GO after small cleanup; A NO-GO until fixes 1-5 are done. Back to the graphic designer.

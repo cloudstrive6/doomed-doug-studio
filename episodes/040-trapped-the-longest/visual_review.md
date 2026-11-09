@@ -102,3 +102,49 @@ Viewed at full size: `build/keyframes/s022.png`, `s087.png`, `s088.png`, `s089.p
    The HUD and title are legible.
 
 Advisory (non-blocking): the smilodon's muzzle tip is still a little blunt. The ears and legs carry the read, so no change is needed.
+
+---
+
+## Thumbnail check (visual screener, 2026-11-09): VERDICT: FAIL
+
+I rendered all three with `python -m studio thumbnail 040-trapped-the-longest` and viewed each at 1280x720 and at 168x94
+(`build/*_small.png`, also blown up 4x). Title: "The Most Disturbing Things Nature Kept Trapped the Longest". None of the
+three repeats a title word. Doug's red cap is visible in A, B and C.
+
+**Gore / kid-appeal: clean on all three.** There is no blood and no injury. The nematode's visible gut and veins look
+anatomical, not gory, and at feed size it reads as a pink worm. B's falling mammoth is a cartoon predicament. Nothing has a
+nursery or baby-show tone: no smiling creatures, no pastel cute framing.
+
+**B (NO EXIT): PASS.** This is the strongest of the three at 168x94. There is one clear scene: a mammoth tumbling into the
+sinkhole, with a big, shocked Doug waist-deep in the water. NO EXIT is readable at feed size and adds to "trapped" without
+repeating it. It is accurate to the Mammoth Site sinkhole. No change needed.
+
+**A (IT WOKE UP): FAIL.** At feed size the text is readable and the worm reads as a worm, but two things are wrong:
+- The red arrow lands on the middle of the worm's back (on nothing). The worm's blunt head points away from Doug, and its
+  "active" motion lines sit next to Doug's pocket. Because of that, the lines look like they come off the bubble, and the worm
+  seems to be leaving rather than "awake and coming for Doug". The brief's payoff does not land.
+- The 34 px off-white strip at the top (band 0-34 `#f7fbff` plus the black line at y=34) reads as a cropped letterbox edge
+  at 168x94, not as a snow surface.
+
+**C (grid): FAIL.**
+- There is a render defect. Both top tiles sit at `y: 8`, so a black bar of frame/shadow is clipped against the top edge of
+  the canvas above each tile. It is visible at full size and as a black line at feed size.
+- In tile 1, the nematode's motion lines are cut off by the left frame edge, which leaves stray black dashes.
+- "101 MILLION" is the only label without YRS, so it reads as a count, not an age.
+
+### Required fixes (all graphic designer; I test-rendered each one, and they read correctly at 168x94)
+1. **thumbnail.json (A):** on the `permafrost_nematode_active` asset, set `"flip": true, "rotate": 8, "x": 790, "scale": 2.0`
+   so the blunt head is about 50 px from Doug's pocket, facing him, with the motion lines trailing off the tail on the right.
+   Change the arrow to `"from": [330, 215], "to": [430, 420], "bend": 15` so it ends on the worm's head. Remove the top
+   white strip: set band 0 (`y0 0`-`y1 34`) to `#6b5444` and delete the black line at y=34. Keep the text, the Doug pocket and
+   the ice spikes as they are.
+2. **thumbnail_test_c.json (C):** set both top tiles to `"y": 24, "h": 235` (this removes the clipped black bars). In tile 1,
+   set the nematode asset to `"x": 345.0, "scale": 1.35` so its motion lines sit fully inside the frame. Change the tile 4 label
+   from "101 MILLION" to "101M YRS".
+3. Re-render with `python -m studio thumbnail 040-trapped-the-longest` and re-check the `_small` versions.
+
+### Advisory (non-blocking)
+- C: the pandoravirus reads as a purple egg or jellybean, and the microbes look like pickles. No viewer will know what they are,
+  but that is acceptable for a list control whose job is the numbers. B is my pick for the strongest feed read, and A will be
+  close behind once fixed.
+- A: the two ice spikes are thin at feed size. They are harmless as framing, so they can stay.

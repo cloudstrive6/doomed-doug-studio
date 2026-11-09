@@ -20,9 +20,9 @@
   {
    "type": "tile",
    "x": 20,
-   "y": 8,
+   "y": 24,
    "w": 610,
-   "h": 245,
+   "h": 235,
    "fill": "#6b5444",
    "radius": 22,
    "frame_width": 7,
@@ -32,9 +32,9 @@
     {
      "type": "asset",
      "name": "permafrost_nematode_active",
-     "x": 325.0,
+     "x": 345.0,
      "y": 140.5,
-     "scale": 1.45,
+     "scale": 1.35,
      "boil": 0,
      "wobble": 0
     }
@@ -45,9 +45,9 @@
   {
    "type": "tile",
    "x": 650,
-   "y": 8,
+   "y": 24,
    "w": 610,
-   "h": 245,
+   "h": 235,
    "fill": "#ffe24a",
    "radius": 22,
    "frame_width": 7,
@@ -113,7 +113,7 @@
    "fill": "#0b2447",
    "radius": 22,
    "frame_width": 7,
-   "label": "101 MILLION",
+   "label": "101M YRS",
    "label_size": 68,
    "elements": [
     {

@@ -143,6 +143,57 @@
    "wobble": 0
   },
   {
+   "type": "line",
+   "points": [
+    [
+     900,
+     22
+    ],
+    [
+     900,
+     77
+    ]
+   ],
+   "color": "#000000",
+   "width": 8,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     950,
+     10
+    ],
+    [
+     950,
+     65
+    ]
+   ],
+   "color": "#000000",
+   "width": 8,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1000,
+     28
+    ],
+    [
+     1000,
+     83
+    ]
+   ],
+   "color": "#000000",
+   "width": 8,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
    "type": "asset",
    "name": "columbian_mammoth",
    "x": 940,
