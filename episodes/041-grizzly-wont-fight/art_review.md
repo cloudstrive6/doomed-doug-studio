@@ -50,3 +50,51 @@ miscount. The shotlist also uses one asset that was never requested (see Blocker
 - `amur_tiger`: the white chin ruff's lower notch reads a little like a bow tie at 1.0. Rounding it into a single cheek tuft would
   be cleaner on the next pass. It's invisible in the silhouette shots.
 - `tiger_scat`: three round lumps can read as pebbles. A slightly longer, joined log would read better in the s156 row of 12.
+
+---
+
+# 041 keyframe review (art director, 2026-11-09)
+
+Reviewed all 17 contact sheets (s001-s194 + endslate, 195 frames) in `build/contact/`. The `moose_front_leg` blocker above is
+resolved: the asset is now in the library and s085/s086 render. s001 renders from `thumbnail.json`.
+
+## Verdict: PASS (after 7 art-director fixes, applied in `build/gen.py` and regenerated into `shotlist.json`, keyframes re-rendered)
+
+### What holds up
+- **Doug is on-model in every frame**: red cap, big head with grey crescent, thin lines. Ghost/dead/float, cower, referee,
+  porcupine-costume, deckchair and arms_up variants all read. Ink goes white correctly on the six dark death cards
+  (s026, s074, s100, s120, s164, s190).
+- **Zone colours are consistent per chapter** and distinct between chapters: Yellowstone snow (wolf pack), snowy pines
+  (wolverine), dry porcupine ground with pines, sage willow meadow (moose), cold bison flats, river sedge meadow (big male),
+  dusk taiga (tiger), orange Montana trail (human). Cream explainer cards, dark map/death cards and the parking lot
+  break up each chapter.
+- **HUD**: the chapter tag, `DOUG DEATHS: N` and the BEAR'S COST tag are in the same place in every frame. The counter
+  runs 315→322 and steps on each death card. The cost tag changes DINNER/FACE/BONES/CUBS/LIFE on each COST card (s004, s052,
+  s077, s123, s147), and LIFE is red as intended.
+- **Variety**: no run of the same composition. Every chapter mixes title card, silhouette tease, comparison, scale gag
+  (Doug rows, pie, calendar, map, ruler), Doug-in-scene gag and a death card.
+- **Never gory**: the quill cutaway, the moose kick and the tiger death are all off-screen or symbolic (cap, paw prints, ghost).
+
+### Fixed by the art director
+1. **s086 (kick arrows):** the "straight up" arrow (x 840) rode the right edge of the leg and read as part of the leg. Moved it to
+   **x 900** (`ARR([900, 760], [900, 440])`). It is now clear of the hoof, and the four directions read separately.
+2. **Big Male river shots (s121, s122, s123, s126, s127, s128, s132, s138): Doug stood in the river.** His ground was 980-1000
+   but the water starts at y≈940. He now stands on y 920-930 grass. In s121, s128 and s138 he was also moved off the grass tufts
+   (x 1560/1640/1560).
+3. **s129:** the "SEXUALLY SELECTED INFANTICIDE" label overlapped the bear's back. Moved it up to y 300.
+4. **s134/s135:** the "ABOUT 780 M" label covered the second house. Moved it to (1000, 560), right of the houses and above the red dot.
+5. **s133-s135:** the map frame's top edge ran behind the counter/cost tag. Moved the frame top from 180 to 290. "CLOSER TO
+   PEOPLE" moved to y 380 to stay inside it.
+6. **s140/s141:** "BABYSITTER" ran off both edges of the placard. The placard is now 0.65 at x 1180 and the text is 27 px, so it fits
+   inside the board and reads at 1080p.
+7. `validate shotlist` is OK after the changes: narration is unchanged (2,094 words) and Doug's share is 0.88.
+
+### Notes (non-blocking, no change needed)
+- The chapter tag still names the previous chapter during each "the next animal..." tease (s027-s028, s050-s051, s075-s076,
+  s101, s121-s122, s145-s146), and the background stays on the old zone. This is consistent across all chapters and works
+  as a bridge, so it stays.
+- s128: Doug stands close to the piano bench at 0.28. It is readable and fine.
+- The asset optional notes above (tiger ruff, tiger scat) still stand. Scat reads acceptably in s156.
+
+Routing: no illustrator fixes are needed. The director should keep the `gen.py` edits above if the shotlist is regenerated (gen.py is
+the authoritative source but sits in git-ignored build/, so the committed `shotlist.json` carries the fixes).
