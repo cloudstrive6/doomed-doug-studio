@@ -1,0 +1,456 @@
+{
+ "name": "reward_poster",
+ "description": "Old yellowed paper poster (#efe0b0) with torn corners, stains, fold creases, a thin brown double border and nails at the top corners. Centre left blank for overlaid text (keep text within x -260..260, y -340..340). Anchor centre, x -330..330, y -420..420.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "poster",
+  "reward",
+  "wanted",
+  "paper",
+  "042"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -300,
+     -420
+    ],
+    [
+     -260,
+     -404
+    ],
+    [
+     -220,
+     -418
+    ],
+    [
+     300,
+     -420
+    ],
+    [
+     316,
+     -396
+    ],
+    [
+     330,
+     -380
+    ],
+    [
+     328,
+     380
+    ],
+    [
+     310,
+     396
+    ],
+    [
+     318,
+     420
+    ],
+    [
+     -276,
+     420
+    ],
+    [
+     -300,
+     404
+    ],
+    [
+     -312,
+     412
+    ],
+    [
+     -330,
+     388
+    ],
+    [
+     -330,
+     -380
+    ],
+    [
+     -318,
+     -396
+    ],
+    [
+     -326,
+     -404
+    ]
+   ],
+   "fill": "#efe0b0",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": -270,
+   "y": -360,
+   "r": 60,
+   "color": "#d8c48a",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 270,
+   "y": -360,
+   "r": 60,
+   "color": "#d8c48a",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -270,
+   "y": 360,
+   "r": 60,
+   "color": "#d8c48a",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 270,
+   "y": 360,
+   "r": 60,
+   "color": "#d8c48a",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 300,
+   "y": 0,
+   "r": 40,
+   "color": "#d8c48a",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -300,
+   "y": 60,
+   "r": 40,
+   "color": "#d8c48a",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 200,
+   "y": 300,
+   "r": 34,
+   "color": "#cdb57a",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -230,
+   "y": -150,
+   "r": 24,
+   "color": "#d8c48a",
+   "density": 0.3
+  },
+  {
+   "type": "rect",
+   "x": -286,
+   "y": -376,
+   "w": 572,
+   "h": 752,
+   "fill": null,
+   "width": 4,
+   "color": "#8a6a3a"
+  },
+  {
+   "type": "rect",
+   "x": -272,
+   "y": -362,
+   "w": 544,
+   "h": 724,
+   "fill": null,
+   "width": 2,
+   "color": "#8a6a3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -252,
+     -326
+    ],
+    [
+     -242,
+     -342
+    ],
+    [
+     -252,
+     -358
+    ],
+    [
+     -262,
+     -342
+    ]
+   ],
+   "fill": "#8a6a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -252,
+     326
+    ],
+    [
+     -242,
+     342
+    ],
+    [
+     -252,
+     358
+    ],
+    [
+     -262,
+     342
+    ]
+   ],
+   "fill": "#8a6a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     252,
+     -326
+    ],
+    [
+     262,
+     -342
+    ],
+    [
+     252,
+     -358
+    ],
+    [
+     242,
+     -342
+    ]
+   ],
+   "fill": "#8a6a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     252,
+     326
+    ],
+    [
+     262,
+     342
+    ],
+    [
+     252,
+     358
+    ],
+    [
+     242,
+     342
+    ]
+   ],
+   "fill": "#8a6a3a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -325,
+     6
+    ],
+    [
+     325,
+     -2
+    ]
+   ],
+   "width": 2,
+   "color": "#d6c38f"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     4,
+     -415
+    ],
+    [
+     -2,
+     415
+    ]
+   ],
+   "width": 2,
+   "color": "#d6c38f"
+  },
+  {
+   "type": "circle",
+   "x": -262,
+   "y": -388,
+   "r": 10,
+   "fill": "#6f7378",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -264,
+   "y": -390,
+   "r": 3,
+   "fill": "#c3c8cd",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 262,
+   "y": -388,
+   "r": 10,
+   "fill": "#6f7378",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 260,
+   "y": -390,
+   "r": 3,
+   "fill": "#c3c8cd",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -268,
+   "y": 390,
+   "r": 5,
+   "fill": "#3a2a14",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 266,
+   "y": 392,
+   "r": 5,
+   "fill": "#3a2a14",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     330,
+     -380
+    ],
+    [
+     316,
+     -396
+    ],
+    [
+     300,
+     -420
+    ],
+    [
+     296,
+     -384
+    ]
+   ],
+   "fill": "#e2cf98",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -300,
+     -420
+    ],
+    [
+     -260,
+     -404
+    ],
+    [
+     -220,
+     -418
+    ],
+    [
+     300,
+     -420
+    ],
+    [
+     316,
+     -396
+    ],
+    [
+     330,
+     -380
+    ],
+    [
+     328,
+     380
+    ],
+    [
+     310,
+     396
+    ],
+    [
+     318,
+     420
+    ],
+    [
+     -276,
+     420
+    ],
+    [
+     -300,
+     404
+    ],
+    [
+     -312,
+     412
+    ],
+    [
+     -330,
+     388
+    ],
+    [
+     -330,
+     -380
+    ],
+    [
+     -318,
+     -396
+    ],
+    [
+     -326,
+     -404
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}

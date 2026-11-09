@@ -1,0 +1,321 @@
+{
+ "name": "bare_foot_step",
+ "description": "Crude-tier (Doug line weight) bare foot and lower leg of a researcher stepping down from the top into frame, side view, toes to the right: white leg and foot with black outline, toe lines and ankle bump, rolled-up blue-grey trouser cuff at the top. Sole flat on y=0. auto_ink (outlines go white on dark backdrops; interior detail lines keep_ink). Anchor = sole bottom-centre, ~200x400 (x -80..120, y -400..0).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "human",
+  "foot",
+  "researcher",
+  "crude tier",
+  "042"
+ ],
+ "auto_ink": true,
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62,
+     -332
+    ],
+    [
+     -58,
+     -200
+    ],
+    [
+     -56,
+     -110
+    ],
+    [
+     -70,
+     -60
+    ],
+    [
+     -80,
+     -26
+    ],
+    [
+     -78,
+     -2
+    ],
+    [
+     -40,
+     0
+    ],
+    [
+     40,
+     0
+    ],
+    [
+     90,
+     0
+    ],
+    [
+     114,
+     -4
+    ],
+    [
+     120,
+     -16
+    ],
+    [
+     108,
+     -30
+    ],
+    [
+     60,
+     -46
+    ],
+    [
+     20,
+     -70
+    ],
+    [
+     4,
+     -110
+    ],
+    [
+     6,
+     -200
+    ],
+    [
+     10,
+     -332
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     100,
+     -26
+    ],
+    [
+     98,
+     -10
+    ],
+    [
+     104,
+     -2
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     86,
+     -30
+    ],
+    [
+     84,
+     -12
+    ],
+    [
+     88,
+     -2
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     73,
+     -36
+    ],
+    [
+     72,
+     -16
+    ],
+    [
+     74,
+     -2
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     112,
+     -12
+    ],
+    [
+     116,
+     -8
+    ]
+   ],
+   "width": 2,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -36,
+     -84
+    ],
+    [
+     -28,
+     -76
+    ],
+    [
+     -34,
+     -66
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -66,
+     -40
+    ],
+    [
+     -56,
+     -30
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "spray",
+   "x": -20,
+   "y": -18,
+   "r": 14,
+   "color": "#d6d6d6",
+   "density": 0.4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -74,
+     -400
+    ],
+    [
+     22,
+     -400
+    ],
+    [
+     24,
+     -330
+    ],
+    [
+     20,
+     -312
+    ],
+    [
+     -70,
+     -312
+    ],
+    [
+     -76,
+     -330
+    ]
+   ],
+   "fill": "#7a8aa6",
+   "width": 5,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -78,
+     -350
+    ],
+    [
+     26,
+     -350
+    ],
+    [
+     28,
+     -312
+    ],
+    [
+     -80,
+     -312
+    ]
+   ],
+   "fill": "#93a2bc",
+   "width": 5,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -340
+    ],
+    [
+     -40,
+     -322
+    ]
+   ],
+   "width": 2,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -338
+    ],
+    [
+     14,
+     -324
+    ]
+   ],
+   "width": 2,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -392
+    ],
+    [
+     -24,
+     -360
+    ]
+   ],
+   "width": 2,
+   "color": "#000000",
+   "keep_ink": true
+  }
+ ]
+}

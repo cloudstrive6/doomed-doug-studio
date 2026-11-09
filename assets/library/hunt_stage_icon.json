@@ -1,0 +1,125 @@
+{
+ "name": "hunt_stage_icon",
+ "description": "Tiny HUD icon of the hunt-stage post: brown post, five blank tan planks, red pointer on the left at the middle plank, mud at the foot. Thick lines for use at scale ~0.32. Anchor centre, x -76..52, y -80..83.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "icon",
+  "hud",
+  "meter",
+  "post",
+  "042"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 4,
+   "y": 74,
+   "rx": 46,
+   "ry": 9,
+   "fill": "#5a4630",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -8,
+     74
+    ],
+    [
+     -9,
+     -72
+    ],
+    [
+     0,
+     -80
+    ],
+    [
+     9,
+     -72
+    ],
+    [
+     8,
+     74
+    ]
+   ],
+   "fill": "#a0522d",
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -44,
+   "y": -66,
+   "w": 96,
+   "h": 20,
+   "fill": "#d29a5c",
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -44,
+   "y": -38,
+   "w": 96,
+   "h": 20,
+   "fill": "#d29a5c",
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -44,
+   "y": -10,
+   "w": 96,
+   "h": 20,
+   "fill": "#d29a5c",
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -44,
+   "y": 18,
+   "w": 96,
+   "h": 20,
+   "fill": "#d29a5c",
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -44,
+   "y": 46,
+   "w": 96,
+   "h": 20,
+   "fill": "#d29a5c",
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -76,
+     -20
+    ],
+    [
+     -76,
+     20
+    ],
+    [
+     -46,
+     0
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}
