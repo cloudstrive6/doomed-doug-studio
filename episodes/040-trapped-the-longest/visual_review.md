@@ -85,3 +85,20 @@ No gore and no kids-show tone. HUD and labels are legible and spelled right thro
 - s200-s202: Doug is `cap_off` with the cap beside the suitcase, as the art review asked. That's OK for the final death-count beat. He is
   still recognisable from the red cap in frame.
 - The contact-sheet caption still drops the "Ö" in "Ötzi" (s054). The editor should confirm that subtitles and Shorts captions render Ö.
+
+---
+
+## Round 3 spot check (visual screener, 2026-11-09): VERDICT: PASS
+
+Viewed at full size: `build/keyframes/s022.png`, `s087.png`, `s088.png`, `s089.png`. I also looked at a 3x crop of the s087 head and a 320 px feed-size version.
+
+1. s087-s089 `smilodon_body`: fixed. It now has two pointed cat ears, a lower muzzle with a red open-jaw notch, and the sabres
+   come out of the upper jaw behind the nose. It has a long, low body with four separate legs in a stalking stance and a bobtail.
+   The walrus read is gone, and at 320 px it still reads as a fanged cat. s087 ("She wasn't alone") works without a label. In s088
+   and s089 the cat, the upright clawed sloth and the gomphothere are three distinct silhouettes. "26+ ANIMALS" in s089 is legible and
+   does not overlap any drawing. Doug is on-model (red cap, white head) in all three shots.
+2. s022: clean. The clipboard paper is fully white with the wavy line and ONE MORE PASSAGE, and there are no red drops or marks
+   outside the text. The upturned boots, the cap at the passage mouth and the suitcase make a clean cartoon death with no gore.
+   The HUD and title are legible.
+
+Advisory (non-blocking): the smilodon's muzzle tip is still a little blunt. The ears and legs carry the read, so no change is needed.

@@ -126,3 +126,16 @@ s145 shows the red cap on the amoeba. s201 has one room box. The run variety is 
 
 The rest of the episode is approved. Once s022 is re-rendered without the red marks, art is approved, and no further art director
 pass is needed beyond a glance at that one frame.
+
+---
+
+## Round 3 spot check (visual screener on behalf of the art director, 2026-11-09): PASS
+
+Open item from round 2. **s022: stray red marks on the clipboard: RESOLVED.** In the re-rendered `build/keyframes/s022.png`
+the clipboard paper is solid white from the clip to the bottom edge, and the only red is the ONE MORE PASSAGE text. Nothing
+reads as drips or blood. The `doug_cap` at the passage mouth, the boots and the suitcase are unchanged.
+
+Also checked: s087-s089 `smilodon_body` is redrawn with cat ears, a muzzle and an open-jaw notch, upper-jaw sabres and slimmer
+stalking legs. It reads as a sabre-toothed cat, not a walrus, and stays on-style (black silhouette with a red rim).
+
+No open art items remain. Art is approved for the episode.

@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-11-08T22:10:40+00:00",
       "note": "202 shots, 30 asset requests (7 stickers), 3 Shorts picked; validate clean except missing assets + thumbnail"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-09T01:13:58+00:00",
+      "note": "art-director + visual-screener PASS round 3"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }
