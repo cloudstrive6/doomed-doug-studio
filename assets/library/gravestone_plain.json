@@ -1,0 +1,75 @@
+{
+ "name": "gravestone_plain",
+ "description": "Plain cartoon gravestone reading 'RIP DOUG', no cap (use when Doug's real cap is elsewhere in frame, one cap per frame). Grass strip at the base. ~300x335, anchor centre like gravestone.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "death",
+  "doug"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "smooth": true,
+   "points": [
+    [
+     -110,
+     150
+    ],
+    [
+     -110,
+     -60
+    ],
+    [
+     -80,
+     -130
+    ],
+    [
+     0,
+     -160
+    ],
+    [
+     80,
+     -130
+    ],
+    [
+     110,
+     -60
+    ],
+    [
+     110,
+     150
+    ]
+   ],
+   "fill": "#9a9a9a",
+   "width": 7
+  },
+  {
+   "type": "text",
+   "text": "RIP",
+   "x": 0,
+   "y": -60,
+   "size": 64,
+   "bold": true
+  },
+  {
+   "type": "text",
+   "text": "DOUG",
+   "x": 0,
+   "y": 20,
+   "size": 50,
+   "bold": true
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": 145,
+   "w": 300,
+   "h": 30,
+   "fill": "#6b8f3a",
+   "width": 6
+  }
+ ]
+}
