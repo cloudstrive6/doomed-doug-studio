@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-11-10T20:49:08+00:00",
       "note": "178 shots, 9 chapters, Doug 65%; 32 asset requests; 3 Shorts picked (titles pending)"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-10T21:19:57+00:00",
+      "note": "CD art gate: keyframes (AD+VS R2 PASS) and thumbnails A/B/C approved with their ranked titles"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

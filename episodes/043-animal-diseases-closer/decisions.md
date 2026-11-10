@@ -38,3 +38,10 @@
   (s079-s082, one cap per frame); `cap_taken` on the death bodies whose cap sits on a prop (s025, s041, s098, s133, s151).
 - Shorts: short01 Burger s105-s114, short02 Goat Dust s071-s082 (+ hook), short03 Cat s141-s151 (+ hook). All end on the payoff, simple
   end card. Titles are left for the youtube-titler.
+
+## 2026-11-10, creative director: art gate (APPROVED, art_approved)
+- Art director R2 PASS and visual screener R2 PASS read. Thumbnails reviewed full size against the ranked pairings in metadata.json packaging.
+- A "UP TO 88%" + "The Deadliest Diseases Bats, Cats and Dogs Can Give Humans": the strongest of the three. One huge bat, a scared Doug and a torch beam all pull the eye to the number. 88% is the WHO upper Marburg CFR and the video delivers it as item 1. Would click.
+- B "ON THE COUCH" + "Rabies and the Most Disturbing Diseases Animals Give Humans": the dog is ordinary and asleep, and Doug's grimace plus the warning triangle keep it adult-coded, not cosy. It matches the boss. Would click.
+- C "HOW CLOSE?" + "The Deadliest Diseases a Bat, a Cat or a Dog Can Give You": the growing tiles and arrow make the axis readable at a glance, and the tiles match the title's animals. It is not the 3x3 grid in the brief, but this version reads better at 168 px. Accepted.
+- Non-blocking: carry over the screener advisories (s057 bandage position, s170 bubble tail, s145 droplet grey) if those shots are touched again. Script line 10 still reads "88% FATAL", but thumbnail A ("UP TO 88%") is the opening image and is the one that counts.

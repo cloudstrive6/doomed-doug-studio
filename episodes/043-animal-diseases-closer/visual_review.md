@@ -83,3 +83,33 @@ and s093 has 8 Dougs. The fixes below are the blocking ones, followed by a short
 Next round: after the fixes, re-run `python -m studio keyframes 043-animal-diseases-closer --shots
 s018,s022,s023,s024,s055,s056,s057,s058,s059,s068,s069,s079,s080,s081,s082,s098,s102,s130,s171,s172` and
 `python -m studio thumbnail 043-animal-diseases-closer`, and send the screener the new sheets and thumbnail C.
+
+## Round 2 (2026-11-10)
+
+**VERDICT: PASS**
+
+Re-checked keyframes s003, s006, s013, s018, s022-s024, s038, s042, s045, s054-s061, s066-s069, s079-s082, s087,
+s097, s098, s102, s127, s130, s145, s158, s160, s170-s172 and s176 (rendered 21:17, after the shotlist edit at 21:16),
+plus all three thumbnails at 168x94.
+
+Round 1 blocking fixes:
+1. s098: FIXED. The milking stall, cow and pail are back, with the cap on the floor and the ghost above. The counter reads 332.
+2. s171/s172: FIXED. The WEEK 4 couch is now on s170, s171 is the death frame with the counter at 336, and s172 adds "AGAIN".
+3. s022-s024: FIXED. The torch is in Doug's hand and has a yellow beam. s023 now has a scatter of flying bats with motion ticks, so it is clearly a different picture from s022.
+4. s080-s082: FIXED. The sunburn is gone and the white head is back. The cap stays on the ground in s080, s081 and s082, so continuity holds.
+5. s068/s069/s079: FIXED. The dust plume is now a visible tan stipple trail from the barn to the house, and the bacteria speck shows in the s068 magnifier.
+6. s130: FIXED. The whole continent is shown, the pin is in southern Chile/Argentina, and the "!" sits inside the frame.
+7. s055-s060: FIXED. The shots now vary: s055 is the wide shot, s056 is the selfie two-shot, s057 is a close bite two-shot, s058/s059 are close on the chart, and s060 is wide again.
+8. s102: FIXED. The calendar is removed, and the booth, burger and PRION label carry the shot.
+9. s018: FIXED. The stipple blotch is gone, and hanging bats and Dougs line the ceiling over the stadium.
+10. Thumbnail C: FIXED. The bat tile is now light blue and the bat is large, so it reads clearly as a bat at 168 px.
+
+The round 1 advisories for s003, s006, s013, s042, s054 and s127 are all resolved.
+
+Thumbnails at 168x94: A (UP TO 88%), B (ON THE COUCH) and C (HOW CLOSE?) all PASS. Each has one focal point,
+readable text and a visible Doug, and each matches its paired title.
+
+### Advisories (non-blocking, fix only if cheap)
+- s057 (illustrator/director): the `bandage` sits on Doug's shin, but the monkey bites at his hand and face. Move it to his raised hand or forearm, or drop it.
+- s170 (director): the tail on the "hi friend?" speech bubble is a loose, broken double line. Redraw it as a closed wedge pointing at Doug.
+- s145 (illustrator): the droplet puffs are still pale on cream. A darker grey would help, but the DROPLETS label already carries the shot.
