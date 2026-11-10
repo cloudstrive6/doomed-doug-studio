@@ -231,7 +231,7 @@ Britain has recorded one hundred and seventy-eight cases of the human disease, t
 
 Doug ordered his burger well done, to be safe.
 
-[A wall calendar flips through years: 1990, 1991, 1992, 1993. Doug sits in the same seat, smiling, the whole time. Cut to black. DOUG DEATHS: 333. The cap lies on the diner table next to an empty plate. HOW CLOSE adds a shorter plank: PLATE.]
+[A wall calendar flips through years: 1990, 1991, 1992, 1993, 1994, 1995. Doug sits in the same seat, smiling, the whole time. Cut to black. DOUG DEATHS: 333. The cap lies on the diner table next to an empty plate. HOW CLOSE adds a shorter plank: PLATE.]
 
 Doug has died. Again. It took years, and he never once complained about the food.
 
@@ -305,7 +305,7 @@ The cat came in through the flap, very proud of itself, and dropped a present ri
 
 [Cut to black. DOUG DEATHS: 335. The cap sits beside the cat's present on the doormat. The cat, unbothered, licks a paw. HOW CLOSE adds a short plank: CAT FLAP.]
 
-The cat is fine. The last animal on this list doesn't need a flea, because it only needs Doug to love it.
+The cat has no comment. The last animal on this list doesn't need a flea, because it only needs Doug to love it.
 
 ## The Dog
 
