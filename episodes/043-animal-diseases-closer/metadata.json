@@ -1,0 +1,209 @@
+{
+  "title": "The Deadliest Diseases Bats, Cats and Dogs Can Give Humans",
+  "alt_titles": [
+    "Rabies and the Most Disturbing Diseases Animals Give Humans",
+    "The Deadliest Diseases a Bat, a Cat or a Dog Can Give You",
+    "The Most Disturbing Diseases Bats and Dogs Pass to Humans",
+    "The Deadliest Diseases Your Dog, Cat and Chickens Carry"
+  ],
+  "packaging": {
+    "gate": "D4 packaging gate v1 (2026-11-09)",
+    "ranked_at": "2026-11-10T20:25:52Z",
+    "names": [
+      "rabies",
+      "Marburg",
+      "Nipah",
+      "plague",
+      "hantavirus",
+      "bird flu",
+      "mad cow",
+      "Q fever",
+      "bat",
+      "fruit bat",
+      "dog",
+      "cat",
+      "chicken",
+      "goat",
+      "monkey",
+      "macaque",
+      "mouse",
+      "mice"
+    ],
+    "candidates": [
+      {
+        "title": "The Deadliest Diseases Bats, Cats and Dogs Can Give Humans",
+        "thumb_text": "UP TO 88%",
+        "concept": "One huge Egyptian fruit bat hanging upside down filling two thirds of a dark cave, eyes in shadow; tiny red-capped Doug below with a torch",
+        "formula": "T4",
+        "chars": 58,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Rabies and the Most Disturbing Diseases Animals Give Humans",
+        "thumb_text": "ON THE COUCH",
+        "concept": "A plain, not-cute dog asleep on a couch under a red warning triangle, tiny Doug sitting beside it, cap on; nothing sick or foaming",
+        "formula": "T4",
+        "chars": 59,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Deadliest Diseases a Bat, a Cat or a Dog Can Give You",
+        "thumb_text": "HOW CLOSE?",
+        "concept": "Archetype A 3x3 grid: bat, palm pot, macaque, goat, chicken, burger, mouse, cat, dog, labelled with the chapter names; tiny Doug in the last tile",
+        "formula": "T4",
+        "chars": 57,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Most Disturbing Diseases Bats and Dogs Pass to Humans",
+        "thumb_text": "IT MOVED IN",
+        "concept": "Split frame: a dark bat cave on the left, a living room with a dog on the right, tiny Doug walking between",
+        "formula": "T4",
+        "chars": 57,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Deadliest Diseases Your Dog, Cat and Chickens Carry",
+        "thumb_text": "THE FARM",
+        "concept": "A chicken coop and a milking cow side by side, tiny Doug between them, cap on",
+        "formula": "T4",
+        "chars": 55,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Marburg and the Deadliest Diseases Bats Can Pass to Humans",
+        "thumb_text": "40 YEARS",
+        "concept": "One fruit bat hanging over a small German town skyline, tiny Doug with a torch",
+        "formula": "T4",
+        "chars": 58,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Rabies Is the Deadliest Disease Animals Give Humans",
+        "thumb_text": "ALMOST 100%",
+        "concept": "A dog on a couch beside a calendar flipping weeks, tiny Doug, no sickness shown",
+        "formula": "T6",
+        "chars": 55,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Deadliest Animal Diseases, From a Bat Cave to Your Couch",
+        "thumb_text": "CLOSER EACH TIME",
+        "concept": "Crude wooden HOW CLOSE fingerpost, planks shrinking from CAVE to a red-stamped COUCH, tiny Doug at its foot",
+        "formula": "T4",
+        "chars": 60,
+        "score": 98,
+        "raw": 98,
+        "issues": [
+          "mobile: a mobile feed shows about \"The Deadliest Animal Diseases, From a...\" and loses the subject"
+        ]
+      },
+      {
+        "title": "Why the Deadliest Animal Diseases Get Closer to Your Couch",
+        "thumb_text": "UP TO 88%",
+        "concept": "A bat in a cave in the corner, a dog on a couch filling the frame, arrow between them",
+        "formula": "T6",
+        "chars": 58,
+        "score": 80,
+        "raw": 80,
+        "issues": [
+          "mobile: a mobile feed shows about \"Why the Deadliest Animal Diseases Get...\" and loses the subject",
+          "no-number: no number, date or name, the most reliable single fix"
+        ]
+      },
+      {
+        "title": "The Deadliest Animal Diseases, Ranked by How Close They Live",
+        "thumb_text": "THE COUCH",
+        "concept": "The HOW CLOSE fingerpost with COUCH stamped red, a dog asleep beside it, tiny Doug",
+        "formula": "T4",
+        "chars": 60,
+        "score": 80,
+        "raw": 80,
+        "issues": [
+          "mobile: a mobile feed shows about \"The Deadliest Animal Diseases, Ranked...\" and loses the subject",
+          "no-number: no number, date or name, the most reliable single fix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "variant": "A",
+        "file": "thumbnail.json",
+        "png": "build/thumbnail.png",
+        "title": "The Deadliest Diseases Bats, Cats and Dogs Can Give Humans",
+        "thumb_text": "UP TO 88%",
+        "concept": "hero close-up",
+        "thumb_idea": "One huge Egyptian fruit bat hanging upside down filling two thirds of a dark cave, eyes in shadow; tiny red-capped Doug below with a torch",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "variant": "B",
+        "file": "thumbnail_test_b.json",
+        "png": "build/thumbnail_b.png",
+        "title": "Rabies and the Most Disturbing Diseases Animals Give Humans",
+        "thumb_text": "ON THE COUCH",
+        "concept": "Doug in peril",
+        "thumb_idea": "A plain, not-cute dog asleep on a couch under a red warning triangle, tiny Doug sitting beside it, cap on; nothing sick or foaming",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "variant": "C",
+        "file": "thumbnail_test_c.json",
+        "png": "build/thumbnail_c.png",
+        "title": "The Deadliest Diseases a Bat, a Cat or a Dog Can Give You",
+        "thumb_text": "HOW CLOSE?",
+        "concept": "second shock",
+        "thumb_idea": "Archetype A 3x3 grid: bat, palm pot, macaque, goat, chicken, burger, mouse, cat, dog, labelled with the chapter names; tiny Doug in the last tile",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      }
+    ],
+    "readout": {
+      "metric": "long-form CTR at day 7",
+      "min_impressions": 1000,
+      "baseline_median": 0.022,
+      "baseline_top": [
+        0.025,
+        0.043
+      ],
+      "target_median": 0.04,
+      "baseline_source": "data/analytics/2026-11-08.json"
+    }
+  },
+  "title_formula": "T4",
+  "thumbnail_brief": "One huge Egyptian fruit bat hanging upside down fills two thirds of a dark cave with tiny red-capped Doug and his torch below, text UP TO 88% (WHO's Marburg upper bound), so the title names the animals and the thumbnail shows how deadly the first one is; no blood, no sick animals.",
+  "description": "Nine of the deadliest zoonotic diseases, the ones animals pass to humans, and every stop is closer to Doug's front door: Marburg in a bat cave, Nipah in a cup of date palm sap, bird flu on the farm, plague through the cat flap, and rabies on the couch.\n\nWhere should we send Doug next? Tell us in the comments.\nSubscribe so you don't miss Doug's next bad decision.\n\n— TIMESTAMPS —\n{{CHAPTERS}}\n\n— KEY SOURCES —\nWHO fact sheet, Marburg virus disease: https://www.who.int/news-room/fact-sheets/detail/marburg-virus-disease\nTowner et al. (2009), PLoS Pathogens, Marburg virus in Egyptian fruit bats: https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1000536\nWHO fact sheet, Nipah virus: https://www.who.int/news-room/fact-sheets/detail/nipah-virus\nCDC, Q fever: https://www.cdc.gov/q-fever/about/index.html\nCDC, plague FAQ: https://www.cdc.gov/plague/faq/\nWHO fact sheet, rabies: https://www.who.int/news-room/fact-sheets/detail/rabies\n\n— DISCLAIMER —\nEducational entertainment, not medical advice. Every death in this video is a cartoon depiction of a stick figure; the science is real and sourced above.\n\n— AI USE —\nThe narration is an AI text-to-speech voice. Scripts are researched and written with AI assistance and fact-checked against the sources above. All drawings are original.\n\n#DoomedDoug #ZoonoticDiseases #Rabies",
+  "tags": [
+    "diseases animals pass to humans",
+    "zoonotic diseases",
+    "deadliest animal diseases",
+    "rabies",
+    "Marburg virus",
+    "Nipah virus",
+    "bird flu H5N1",
+    "plague in cats",
+    "hantavirus",
+    "Doomed Doug"
+  ],
+  "playlist": "parasites",
+  "paid_promotion": false
+}

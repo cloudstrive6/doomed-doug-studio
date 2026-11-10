@@ -21,3 +21,20 @@
 - For the director and art: no symptom imagery anywhere; the dog, cat, macaque and bats look healthy and ordinary (not cute); germs
   stay faceless blobs. Optional screener note O1 (Pasteur's earlier 1885 patients) goes in facts.md only; the script is unchanged.
 - Series bible updated: counter 336, death 330 played flat, HOW CLOSE device and the disease-episode visual rules, episode log row.
+
+## 2026-11-10, director: shotlist
+- 178 shots, all 2,064 spoken words in order (s001 = thumbnail, "A bat the weight of a phone"); 9 chapters; Doug in 65% of shots.
+  Generator: build/gen_shotlist.py (scratch), so layout fixes stay re-runnable.
+- HUD: counter (1590,162) + "HOW CLOSE: <stop>" size-28 label at (1590,238) with a small primitive fingerpost icon; the reserved zone
+  runs down to y 260. The big fingerpost (primitives, planks 560 to 224 px wide) appears on each item's kicker shot with the new plank
+  popping in; COUCH is stamped red at s173, and the HUD stop turns red from there.
+- Sober cards (#15181a, white text, no Doug, no HUD) carry every real death toll: Marburg 1967, Python Cave 2007-08, Malaysia, B virus
+  2021 plus the CDC 50/21 chart, Netherlands, H5N1 chart, vCJD, Four Corners, hantavirus 38%, the Black Death range, rabies 44,000 and
+  1 every 12 min, and the rabies survivors. The hydrophobia line (s160) shows only a blank month calendar.
+- Item kickers with no "Doug has died." line carry the death beat instead: s041 (date palm, "The next animal isn't after Doug's
+  breakfast,"), s098 ("The cow is not safer."), s133 ("and they were still home."), s151 ("The cat has no comment."). Burger and Dog
+  tick the counter mid-shot (s113, s171-s172 calendar flips, then cut to black).
+- Logged cap exceptions: `cap_off` on upright Doug while the macaque holds the cap (s055-s059) and while the cap lies on the farm lane
+  (s079-s082, one cap per frame); `cap_taken` on the death bodies whose cap sits on a prop (s025, s041, s098, s133, s151).
+- Shorts: short01 Burger s105-s114, short02 Goat Dust s071-s082 (+ hook), short03 Cat s141-s151 (+ hook). All end on the payoff, simple
+  end card. Titles are left for the youtube-titler.
