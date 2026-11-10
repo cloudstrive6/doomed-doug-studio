@@ -113,3 +113,32 @@ readable text and a visible Doug, and each matches its paired title.
 - s057 (illustrator/director): the `bandage` sits on Doug's shin, but the monkey bites at his hand and face. Move it to his raised hand or forearm, or drop it.
 - s170 (director): the tail on the "hi friend?" speech bubble is a loose, broken double line. Redraw it as a closed wedge pointing at Doug.
 - s145 (illustrator): the droplet puffs are still pale on cream. A darker grey would help, but the DROPLETS label already carries the shot.
+
+## Round 3: post-render (2026-11-10)
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+What I checked: `build/final.mp4` (686.4 s, rendered 21:41), all 23 samples in `build/samples/` (f_001-f_023), `build/qc.json`
+(no problems), the extra frames I pulled from the last 36 s (s172 to the endslate), all three thumbnails at full size and
+at `_small` size, `metadata.json`, the three `build/shorts/*_preview.png` files, and 17 frames from each of
+short01/02/03.mp4 (1080x1920, 60 fps), including the last 6 s of each.
+
+### Main video
+- There are no black, blank, glitched or frozen frames. f_007 (s050, "2021.") is a black card on purpose, with white text that is easy to read.
+- Every sample matches its narration. The round 2 fixes all survived the render: s059 shows the CDC chart with the pointing hand, s068 has the dust trail and the magnifier speck, s130 shows the full continent with the pin in the south, and s171/s172 have the counter at 336 and "AGAIN".
+- Doug is on-model (red cap, white head) wherever he appears. The capless figures are correct. In s055-s059 his cap is off on purpose (`cap_off`, the macaque has it). In s068 and s146 the figure is `stick_man_plain` ("people"), not Doug.
+- Some samples caught a shot mid-reveal: s093 shows 4 of the 8 Dougs, s123 has the scale before the nickels and FOUR NICKELS appear, and s162 is the same. I checked the shotlist, and every missing element appears later in its shot. None of these is a defect.
+- The deaths are cartoon only (ghost Dougs, a cap left on the plate, a floating soul). There is no gore and nothing reads as a kids' show.
+- The ending pays off cleanly. The counter reaches 336, the "HOW CLOSE: COUCH" sign turns red, there's a comment prompt, and the endslate reads "DOUG'S NEXT DEATH" with end-screen slots, an arrow and SUBSCRIBE. There is no "???" teaser card.
+- Thumbnails A/B/C are unchanged from round 2 and still PASS at feed size. Each has one focal point, readable text, and a visible Doug and threat. A goes with the title in `metadata.json` ("The Deadliest Diseases Bats, Cats and Dogs Can Give Humans"), and the bat plus "UP TO 88%" is honest about the Marburg fatality range.
+
+### Shorts
+- **short01** ("Cooking Can't Be Trusted to Kill Mad Cow Disease", 48.6 s): the title is readable, nothing is cut off at the sides, and the subtitles are legible on both the cream and the black cards. The payoff lands: the oven gauge, 350 °C, the CJD card, Doug's well-done burger, then his death in the booth with "NEVER COMPLAINED". The end card reads "FULL VIDEO: TAP BELOW" with a red arrow pointing straight down, and it ends cleanly.
+- **short02** ("You Can Catch Q Fever Just by Living Downwind of Goats", 49.5 s): the hook (s065, "without ever touching it") opens on Doug, a goat and a red X, which is a strong first second. The 2 km ring sits inside the frame and isn't cropped. The payoff is Doug walking past downwind with no symptoms. The end card is correct, and "Doug's seven deaths" matches the 329 to 336 count.
+- **short03** ("Your Pet Cat Can Give You the Plague", 42.0 s): the hook (s136, the medieval town, 1347) works, and the cat, squirrel and Doug all read clearly. The payoff is that the cat's gift kills Doug (counter at 335). The end card is correct.
+
+### Advisories (non-blocking)
+1. short01 (director/editor): this is the only Short without a `hook`. Its first second is a static UK map filling the left 40% of the frame, with no Doug, cow or burger, and the voice starts on "In Britain in the...". The title overlay carries the promise, but for a better swipe-stop, add `"hook": "Cooking can't be relied on to destroy it.", "hook_scene_from": "s108"` (or open on s109/s110, the oven-vs-350 °C gauge) in `shorts.json`, then re-render the short.
+2. Thumbnail A (graphic designer): the bottom of "88%" nearly touches the top of Doug's cap. Next time A is regenerated, nudge Doug down or left about 15 px. It reads fine at 168 px as is.
+3. The round 2 advisories still stand (s057 bandage placement, s170 speech-bubble tail, s145 pale droplets). None of them is visible enough in the render to block.

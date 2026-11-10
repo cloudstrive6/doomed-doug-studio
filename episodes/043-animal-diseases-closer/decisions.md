@@ -46,3 +46,20 @@
 - C "HOW CLOSE?" + "The Deadliest Diseases a Bat, a Cat or a Dog Can Give You": the growing tiles and arrow make the axis readable at a glance, and the tiles match the title's animals. It is not the 3x3 grid in the brief, but this version reads better at 168 px. Accepted.
 - Non-blocking: carry over the screener advisories (s057 bandage position, s170 bubble tail, s145 droplet grey) if those shots are touched again. Script line 10 still reads "88% FATAL", but thumbnail A ("UP TO 88%") is the opening image and is the one that counts.
 - 2026-11-10: 043 packaged. Script 2 rounds, art 2 rounds, thumbnails approved first pass. Editor lowered voice.speaking_rate 1.14->1.09 (config/channel.yaml, global) to hit 195 wpm; runtime 11.4 min. Risk: most policy-sensitive medical topic; minor optional notes s057 bandage, s170 bubble tail, s145 droplets.
+
+## 2026-11-10, creative director: final package gate (APPROVED)
+- Read: visual_review.md round 3 (main PASS, shorts PASS), build/qc.json (no problems, 686.4 s), `validate metadata` OK and `validate packaging` OK,
+  build/thumbnail.png at full size, metadata.json (title, description, tags, playlist), build/chapters.txt, build/samples f_001-f_003, and the script opening.
+- Title kept: "The Deadliest Diseases Bats, Cats and Dogs Can Give Humans" (58 chars, T4, no "Doug", experiment ep 3 of 3). It names three
+  animals the video really delivers (bat: Marburg and Nipah; cat: plague; dog: rabies boss), and it pairs with thumbnail A. No alt_title is clearly
+  stronger: the rabies-led alt gives the boss away up front, and "Your Dog, Cat and Chickens" drops the bat that the thumbnail shows. No swap.
+- Thumbnail A: one huge bat, torch beam leading to Doug, "UP TO 88%" (WHO's Marburg upper bound, delivered as item 1). No blood, no sick animal,
+  adult-coded. Would click.
+- Opening: thumbnail as the opening image, payoff promise ("asleep on Doug's couch") by about 0:09, "Marburg." at word 35, German-town twist about 0:36.
+  Frames match the narration (Europe map with the Marburg pin, the 1967-2007 calendar, the cave bat with Doug at 329). Sober cards carry the real
+  tolls (1967: 31 ill, 7 died, consistent with WHO). Would keep watching.
+- Description: honest summary of the axis, WHO/CDC/PLoS sources, a not-medical-advice disclaimer and AI-use disclosure; no instructions. Chapters: 10
+  entries, 0:00 start, first chapter 10 s, and the names match the item order. Playlist `parasites` is correct for the lane rule.
+- Non-blocking, carried forward: short01 has no `hook` (visual screener advisory 1); the editor can add the s108 hook and re-render that Short before
+  its slot without touching the main package. Thumbnail A 88%/cap spacing and the s057/s170/s145 notes stay open for any later regeneration.
+FINAL: APPROVED
