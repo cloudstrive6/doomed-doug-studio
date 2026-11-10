@@ -62,3 +62,71 @@ Per the brief, the carriers look ordinary and calm, not cute: small dark eyes wi
 ## Note for the graphic designer
 - T1. Thumbnail hero (fruit_bat_hanging): at 168x94 on #3b2a17 the wings sink into the background. Use a flatter, lighter background
   (Archetype C), or add `"rim": {"color": "#ffffff", "px": 4}`, so the silhouette pops in the feed.
+
+---
+
+# 043 art review: keyframes (art director, 2026-11-10)
+
+**Verdict: FAIL** (7 required fixes, all director/composition; no asset redraws needed).
+
+Checked: all 15 contact sheets (s001-s178 + endslate). Most of the episode is on-model and on-bible. Doug is crude, 3-4 px, with his cap
+in every live frame. Death grammar is correct at all 7 deaths (329 to 336; X eyes, ghost with cap, cap on a prop). The caption bar matches
+the script item names. Band headers ("THE WILD." / "THE FARM." / "THE HOUSE.") are white with an outline and have no top bar. Sober cards are
+#15181a with no Doug, no counter and no names. The HOW CLOSE fingerpost only moves toward the house and the last plank is stamped red.
+The zone ramp reads as intended: cave brown, night palm, temple sky, farm sky and grass, diner cream, shed, then the house interior.
+Carriers are calm and ordinary everywhere (bats, pig, macaque, goat, cow, chickens, mouse, cat, dog); none look sick or cute. Asset note D3
+is resolved: the colony reads on #3b2a17. The failures are the 043 disease rules (series bible: no symptom imagery, germs are faceless blobs
+under a magnifying glass) plus two series-continuity misses.
+
+## Required fixes (director)
+1. **s160 (symptom imagery).** Doug cowers in shock from the water bottle, which acts out hydrophobia, a rabies symptom. Remove the Doug
+   element, or make him `stand` with a `flat` expression at least 400 px from the bottle. Keep the bottle, the "!" and FEAR OF WATER.
+2. **s158 (germs on a body).** Three `virus_blob`s travel down the stick person's face and neck from a bite point. That shows infection on
+   a human body. Keep the person and the dashed purple path, which is enough for "moves inside the nerves". Delete the three blobs, then put
+   one `virus_blob` inside a magnifying glass beside the NERVES label.
+3. **s080, s081, s082 (reads as fever).** The `sunburn` gear turns Doug's face and arms red during the Q fever item. That reads as a flushed,
+   feverish Doug, and it contradicts s081's "no symptoms". Drop `sunburn` from all three. Doug's thumbs-up and the cap on the path carry the gag.
+4. **Loose germs (magnifier rule).** These shots show germ icons floating free, with no magnifying glass. In each, remove the icons or
+   enclose one in a magnifying glass:
+   - s006: the blob on the Africa inset. The red arrow and the AFRICAN CAVES label already carry the beat.
+   - s013: the free blob next to UGANDA.
+   - s038: the blob trail leaving the pig. Run the dashed line out of frame and put a single magnifier on it.
+   - s054: the blob on the dashed line. Use a magnifier at the line's start; the red X stays.
+   - s087: the two loose purple blobs over the chickens. The magnifier is already there.
+   - s127: both blobs in the dust. The spray cloud alone reads as "droplets in the air".
+   - s061, s066, s067, s068: the free green bacteria specks over the animals, barn and dust. Keep the plain dust/spray clouds; s064's magnifier
+     has already shown what the specks are.
+   s101 (crossed-out blob, "NOT A GERM") may stay as it is. It is a negation and reads as one.
+5. **s058, s059, s060 (bandage continuity).** Doug is bitten at s057 and survives. Series bible (022 gear) says the white ankle bandage is the
+   survival marker for a bite he walks away from, so add `"bandage"` to `gear` on s058-s060 alongside `cap_off` (s058, s059). Doug's
+   gear list on s060 currently has no entries.
+6. **s176 (one cap per frame).** The RIP DOUG gravestone wears a red cap while the real cap sits in the UNDER OBSERVATION box. The ghost's cap
+   is allowed; the gravestone cap is a second real cap. Remove the cap from the gravestone and keep the stone plain.
+7. **Composition variety.**
+   - s022-s024: three near-identical frames in a row (Doug lower-left, colony ceiling, wordart right). Make s023 a wide, low shot looking up at
+     `bat_ceiling_colony_stir` with Doug small at the bottom. Keep s024 as the flying-bats beat.
+   - s043-s045: the same temple wide three times in a row. Make s045 (DEADLIEST) a push-in on one macaque, about the s046 framing,
+     or the triangle alone on cream.
+   - The **torch** in s022-s024 has no beam. Rotated -50, it reads as a microphone. Aim it up at the ceiling (rotate about -20) and add the
+     pale-yellow beam poly (`#fff7a0`) used in s001, so "walked in with a torch" reads.
+
+## Minor fixes (director, do in the same pass)
+- m1. **s069**: the dust puffs are pale blue on the #8fd3ff sky and almost invisible. Tint them tan #c9a87a, as in s068.
+- m2. **s127**: the brown wedge poly on the left, (0,200)-(700,900), doesn't read as anything. Delete it, or make it a clear open-door light
+  shaft in #5a4a38.
+- m3. **s130**: the red "!" sits on the map's bottom frame line. Move it up about 60 px, inside the map, next to the pin.
+- m4. **s081**: the capped icon in the grid is Doug, so the full Doug at the right is a second cap. Drop the full Doug, or drop the cap
+  from the icon.
+
+## Notes (non-blocking)
+- N1. The red silhouette glow on the light-grey fingerpost background renders as a pink speckle disc (s026, s042, s083, s115, s134, s152).
+  It is consistent across every fingerpost shot, so it is accepted as this episode's look. It would read better with the s015 treatment
+  (darker `#8a1a1a` glow), so do that on the next reuse.
+- N2. s171 shows a living Doug on "Doug has died."; the death image lands on s172 ("Again."). That is accepted: it suits the rabies "nothing
+  seemed wrong" beat, and s172 follows within about a second.
+- N3. In s036 and s138 three data labels share the screen (BATS/PIGS/PEOPLE, PLAGUE/GROUND SQUIRREL/PRAIRIE DOG). These are diagram callouts,
+  not keyword labels, so they are fine, but don't add more.
+- N4. The HOW CLOSE HUD text is about 18 px at 1080p. It is legible full-screen and illegible on mobile, which is fine because it is staging
+  and never read aloud.
+
+Re-render only the shots listed (`python -m studio keyframes 043-animal-diseases-closer --shots ...`). I will re-check those shots only.
