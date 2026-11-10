@@ -1650,8 +1650,8 @@
      {
       "type": "asset",
       "name": "fruit_bat_hanging",
-      "x": 1300,
-      "y": 140,
+      "x": 1100,
+      "y": 200,
       "scale": 1.0
      },
      {
@@ -1666,7 +1666,7 @@
      {
       "type": "asset",
       "name": "exclamation_mark",
-      "x": 1000,
+      "x": 880,
       "y": 420,
       "scale": 1.0,
       "appear": 0.3
@@ -5497,7 +5497,7 @@
      {
       "type": "wordart",
       "text": "IN THE DARK",
-      "x": 560,
+      "x": 420,
       "y": 330,
       "size": 70,
       "boil": 0,
@@ -8158,7 +8158,7 @@
       "type": "text",
       "text": "THE TEMPLE MONKEY",
       "x": 620,
-      "y": 400,
+      "y": 250,
       "size": 120,
       "color": "#e0201b",
       "bold": true,
@@ -27618,9 +27618,9 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1150,
-      "y": 600,
-      "scale": 0.8,
+      "x": 1250,
+      "y": 860,
+      "scale": 0.72,
       "appear": 0.2
      },
      {
@@ -27953,7 +27953,7 @@
      },
      {
       "type": "doug",
-      "x": 1180,
+      "x": 950,
       "y": 924.0,
       "scale": 0.5,
       "pose": "stand",
@@ -42763,8 +42763,8 @@
      {
       "type": "wordart",
       "text": "WRONG SHAPE",
-      "x": 1550,
-      "y": 600,
+      "x": 760,
+      "y": 270,
       "size": 80,
       "boil": 0,
       "appear": 0.7
@@ -47495,7 +47495,7 @@
       "type": "wordart",
       "text": "WELL DONE",
       "x": 600,
-      "y": 380,
+      "y": 250,
       "size": 90,
       "boil": 0,
       "appear": 0.45
@@ -49625,8 +49625,8 @@
      {
       "type": "wordart",
       "text": "FOUR NICKELS",
-      "x": 1180,
-      "y": 400,
+      "x": 950,
+      "y": 310,
       "size": 80,
       "boil": 0,
       "appear": 0.6
@@ -50789,8 +50789,8 @@
      {
       "type": "wordart",
       "text": "KNOWN RISK",
-      "x": 1500,
-      "y": 360,
+      "x": 460,
+      "y": 330,
       "size": 80,
       "boil": 0,
       "appear": 0.6
@@ -56969,176 +56969,103 @@
       "outline": false
      },
      {
-      "type": "rect",
-      "x": 580,
+      "type": "asset",
+      "name": "big_water_bottle",
+      "x": 760,
+      "y": 900,
+      "scale": 1.0
+     },
+     {
+      "type": "doug",
+      "x": 1250,
+      "y": 900,
+      "scale": 0.7,
+      "pose": "cower",
+      "expression": "shock",
+      "facing": "left",
+      "appear": 0.15
+     },
+     {
+      "type": "asset",
+      "name": "exclamation_mark",
+      "x": 1250,
+      "y": 420,
+      "scale": 0.8,
+      "appear": 0.4
+     },
+     {
+      "type": "wordart",
+      "text": "FEAR OF WATER",
+      "x": 900,
       "y": 300,
-      "w": 760,
-      "h": 580,
+      "size": 90,
+      "appear": 0.6
+     },
+     {
+      "type": "label",
+      "text": "DOUG DEATHS: 335",
+      "x": 1590,
+      "y": 162,
+      "size": 44,
+      "bold": true,
+      "boil": 0.4,
+      "fill": "#ffffff"
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1376,
+        264
+       ],
+       [
+        1376,
+        212
+       ]
+      ],
+      "color": "#5a3a1e",
+      "width": 6,
+      "boil": 0.3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1356,
+        214
+       ],
+       [
+        1392,
+        214
+       ],
+       [
+        1400,
+        223
+       ],
+       [
+        1392,
+        232
+       ],
+       [
+        1356,
+        232
+       ]
+      ],
+      "fill": "#c48a4a",
+      "color": "#5a3a1e",
+      "width": 3,
+      "boil": 0.3
+     },
+     {
+      "type": "label",
+      "text": "HOW CLOSE: COUCH",
+      "x": 1554.88,
+      "y": 238,
+      "size": 28,
+      "bold": true,
+      "boil": 0.3,
       "fill": "#ffffff",
-      "color": "#2b2b2b",
-      "width": 4,
-      "boil": 0
-     },
-     {
-      "type": "rect",
-      "x": 580,
-      "y": 300,
-      "w": 760,
-      "h": 90,
-      "fill": "#e0201b",
-      "color": "#2b2b2b",
-      "width": 4,
-      "boil": 0
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        688.6,
-        390
-       ],
-       [
-        688.6,
-        880
-       ]
-      ],
-      "color": "#2b2b2b",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        797.2,
-        390
-       ],
-       [
-        797.2,
-        880
-       ]
-      ],
-      "color": "#2b2b2b",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        905.8,
-        390
-       ],
-       [
-        905.8,
-        880
-       ]
-      ],
-      "color": "#2b2b2b",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1014.4,
-        390
-       ],
-       [
-        1014.4,
-        880
-       ]
-      ],
-      "color": "#2b2b2b",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1123.0,
-        390
-       ],
-       [
-        1123.0,
-        880
-       ]
-      ],
-      "color": "#2b2b2b",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1231.6,
-        390
-       ],
-       [
-        1231.6,
-        880
-       ]
-      ],
-      "color": "#2b2b2b",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        580,
-        488
-       ],
-       [
-        1340,
-        488
-       ]
-      ],
-      "color": "#2b2b2b",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        580,
-        586
-       ],
-       [
-        1340,
-        586
-       ]
-      ],
-      "color": "#2b2b2b",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        580,
-        684
-       ],
-       [
-        1340,
-        684
-       ]
-      ],
-      "color": "#2b2b2b",
-      "width": 3
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        580,
-        782
-       ],
-       [
-        1340,
-        782
-       ]
-      ],
-      "color": "#2b2b2b",
-      "width": 3
+      "color": "#000000"
      }
     ]
    }
@@ -58425,7 +58352,7 @@
      {
       "type": "wordart",
       "text": "A BAT",
-      "x": 1500,
+      "x": 1590,
       "y": 420,
       "size": 90,
       "boil": 0,
