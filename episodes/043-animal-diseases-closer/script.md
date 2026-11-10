@@ -1,5 +1,5 @@
 <!-- axis: distance, meaning how close the animal that carries each disease lives to Doug's front door (a cave in Uganda to his own couch). Spoken bands, once each, the first time we enter the band: "The wild." (before item 1), "The farm." (before item 4), "The house." (before item 7). The HOW CLOSE fingerpost (CAVE, PALM TREE, TEMPLE, FIELD, BARN, PLATE, SHED, CAT FLAP, COUCH; planks get shorter each stop, COUCH stamped red at item 9) is staging only, never read aloud. -->
-<!-- Episode 043, draft 1 (2026-11-10, script writer). Written to the 2026-10-27 retention update: 10-12 min, 9 items. Sentence 1 carries the number and the death stake (88 in every 100, a phone-weight bat); payoff promise (the deadliest animal asleep on Doug's couch) by about 0:09; "Marburg." is word 35. Item 1 opens on its hook fact (a jungle virus named after a German town) and its twist marker lands at word 117 (about 0:36). Hook fact first in every item; every kicker or Doug beat leans into the next item.
+<!-- Episode 043, draft 2 (2026-11-10, script writer; screener fixes F1-F3, rule 14 markers, R1-R4 applied). Written to the 2026-10-27 retention update: 10-12 min, 9 items. Sentence 1 carries the number and the death stake (88 in every 100, a phone-weight bat); payoff promise (the deadliest animal asleep on Doug's couch) by about 0:09; "Marburg." is word 35. Item 1 opens on its hook fact (a jungle virus named after a German town) and its twist marker lands at word 117 (about 0:36). Hook fact first in every item; every kicker or Doug beat leans into the next item.
 Counter on screen at 329 from the first shot, ends at 336. Seven deaths: 330 Marburg (flat), 331 The Date Palm, 332 The Chicken, 333 The Burger, 334 The Shed, 335 The Cat, 336 The Dog. Survivals: The Temple Monkey (narrator checks the chart twice, no "Doug is fine.") and The Goat Dust ("Doug is fine.").
 Running gags, once each: "Doug did not agree to this." (item 1); "Doug is fine." (item 4); "thank you?" (item 8, speech bubble); "hi friend?" (item 9, speech bubble). Callbacks: 002 (item 2, one line); in-episode bat callback at the boss. No costume gag.
 Cap: on a stalagmite, hung on the sap pot, taken by the macaque and returned, blown down the farm lane, in the coop nest, on the diner table, on the shed broom, beside the cat's present, in the UNDER OBSERVATION: 10 DAYS box.
@@ -13,7 +13,7 @@ A bat the weight of a phone carries a virus that has killed up to eighty-eight i
 
 [Hard cut. A kitchen scale with a hanging bat on one side and a smartphone on the other. They balance.]
 
-By the end, the deadliest one is asleep on Doug's couch.
+By the end, the deadliest animal is asleep on Doug's couch.
 
 [Doug's living room. A plain brown dog asleep on a couch. A red "?" pops above it. Tiny Doug in the doorway, cap on.]
 
@@ -129,7 +129,7 @@ The narrator has now checked the chart twice, and Doug is still on the right sid
 
 The monkey gave the cap back, because it didn't want it.
 
-The next one doesn't bite at all. It floats.
+The next one doesn't bite at all. It floats in on the wind.
 
 The farm.
 
@@ -167,7 +167,7 @@ Doug held his breath the whole way past the farm, and the wind was going his way
 
 Doug is fine. Most people who catch it have no symptoms, or only mild ones, and Doug is one of them. The narrator would have preferred that he noticed.
 
-He'll notice the next one.
+He will definitely notice the next one, because it lives in the coop.
 
 ## The Chicken
 
@@ -179,9 +179,9 @@ Since two thousand three, about a thousand people have been reported to the Worl
 
 [A chicken coop. Faceless blobs under a magnifying glass, hovering near the chickens.]
 
-Most of those people caught it through close contact with infected birds or the places where they live. It is a bird virus, and for a long time it looked like it would stay in birds.
+Most of those people caught it through close contact with infected birds or the places where they live. It is a bird virus, and before two thousand twenty-four, it had never been found in dairy cows.
 
-What nobody expected was the cow.
+Then came the cow.
 
 [A date card: "MARCH 2024". A Holstein cow in a milking stall. A milk bucket with a faceless blob floating in it.]
 
@@ -195,11 +195,11 @@ Most of the people infected in the United States so far have had mild illness, w
 
 [Doug walks into the coop with a clipboard, cap on, to check on the chickens. A chicken stares at him. He backs out quickly and goes next door to the milking stall. He pats the cow.]
 
-Doug went into the coop to check on the chickens, then left for the milking stall, for safety. The cow is not safer.
+Doug went into the coop with a clipboard to check on the chickens, then hurried next door to the milking stall, for safety. The cow is not safer.
 
 [Cut to black. DOUG DEATHS: 332. The cap sits in the coop nest with three eggs. HOW CLOSE adds a shorter plank: BARN.]
 
-On the next farm, the killer isn't even alive.
+On the next farm, the killer isn't even alive, and it's on the menu.
 
 ## The Burger
 
@@ -217,7 +217,7 @@ Prion diseases happen when proteins that are normally in the body fold into the 
 
 In Britain in the late nineteen eighties, a prion disease spread through cattle, and people called it mad cow disease. In nineteen ninety-six, doctors recognised a new human version, linked to eating beef from infected cows.
 
-The insane part is the heat.
+The heat is where it gets worse.
 
 [A kitchen oven dial at its top setting, then a thermometer climbing far past it. Label: "350 °C".]
 
@@ -245,7 +245,7 @@ The Shed.
 
 [A wooden shed at the edge of a yard. The door is shut. A date card: "MAY 1993".]
 
-In the United States, the most dangerous part of meeting a deer mouse can happen long after the mouse has left the room.
+In the United States, the most dangerous part of meeting a deer mouse doesn't involve touching the mouse at all.
 
 [The Four Corners: a crude map where four state outlines meet, with a red dot in the middle.]
 
@@ -261,7 +261,7 @@ According to the Centers for Disease Control and Prevention, thirty-eight percen
 
 The disturbing part is the housework.
 
-[Inside the dark shed. Old droppings and nest material on the floor. When the door opens, dust lifts off the floor into the air.]
+[Inside the dark shed. Fresh droppings and a mouse nest on the floor; a mouse peeks out. When the door opens, dust lifts off the floor into the air.]
 
 People can catch it when fresh mouse urine, droppings or nesting material get stirred up, and tiny droplets carrying the virus float into the air. Opening up sheds and cabins that sat closed all winter is a known risk, especially out in the country.
 
@@ -269,7 +269,7 @@ In the United States, this strain doesn't spread from person to person, although
 
 [Doug opens the shed in spring, cap on, wearing an apron, holding a broom high like a trophy. He sweeps with huge enthusiasm. A giant dust cloud fills the doorway.]
 
-Doug opened the shed for spring cleaning and swept with real enthusiasm. The mice had moved out months ago, and they didn't need to stay.
+Doug opened the shed for spring cleaning and swept with real enthusiasm. The mice had spent the whole winter in there, and they were still home.
 
 [Cut to black. DOUG DEATHS: 334. The cap hangs on the broom handle. HOW CLOSE adds a shorter plank: SHED.]
 
@@ -301,7 +301,7 @@ The cat is not doing this on purpose, and neither are the squirrels. They are ca
 
 [Night. The cat flap swings open. The cat walks in with a cartoon ground squirrel, perfectly intact, and drops it at Doug's feet. Doug looks down. Speech bubble: "thank you?"]
 
-The cat came in through the flap and brought Doug a present.
+The cat came in through the flap, very proud of itself, and dropped a present right at Doug's feet.
 
 [Cut to black. DOUG DEATHS: 335. The cap sits beside the cat's present on the doormat. The cat, unbothered, licks a paw. HOW CLOSE adds a short plank: CAT FLAP.]
 
@@ -321,13 +321,13 @@ The World Health Organization's latest estimate is about forty-four thousand dea
 
 [A clock face. One stick figure goes grey every time the minute hand passes twelve.]
 
-That works out to about one person every twelve minutes, which is roughly how long you have been watching this video.
+That works out to about one person every twelve minutes, a little longer than this video has been playing.
 
 [A crude nerve line running from a hand to a head. A faceless blob moves slowly along it.]
 
 The virus usually gets in through a bite and then moves inside the nerves toward the brain. That trip usually takes two to three months, but it can be as short as a week or as long as a year. Later on, one of the signs can be a fear of water.
 
-The most disturbing part is the timing.
+The cruel part is the timing.
 
 [A calendar with weeks crossed off. Nothing on any of the days.]
 
@@ -335,13 +335,13 @@ While the virus travels, a person feels nothing at all, and by the time they fee
 
 [A date card: "PASTEUR, 1885".]
 
-The World Health Organization calls rabies vaccine-preventable, and the first rabies vaccine was given in eighteen eighty-five.
+The World Health Organization calls rabies vaccine-preventable, and the first rabies vaccine was given to a person in eighteen eighty-five.
 
 [A bat silhouette flies past a US map.]
 
 In the United States, where dog rabies has been eliminated, most people who catch it now get it from a bat. The list ends exactly where it started.
 
-[Doug opens his front door. The stray dog walks in and climbs onto the couch. Doug sits beside it, smiling. Speech bubble: "hi friend?"]
+[Setting deliberately unplaced: Doug meets the stray on a generic street with no flags, signs, landmarks or prairie, and the couch room has no shed or cat flap in view. No US cues in this scene. Doug opens his front door. The stray dog walks in and climbs onto the couch. Doug sits beside it, smiling. Speech bubble: "hi friend?"]
 
 Doug brought home a stray and shared the couch.
 
@@ -351,10 +351,10 @@ Doug has died. Again. Nothing seemed wrong until the very end, which is how it w
 
 [A cardboard box on a shelf. The red cap sits inside. A label on the box: "UNDER OBSERVATION: 10 DAYS".]
 
-In the United States, a healthy dog that bites someone can be watched for ten days. The cap is being watched for ten days. Doug was not that lucky.
+In the United States, a healthy dog that bites someone can be watched for ten days. The cap is being watched for ten days. Doug was not that lucky, and nobody thought to watch him.
 
 [End slate. HOW CLOSE: COUCH in red. DOUG DEATHS: 336.]
 
 Doug deaths: three hundred and thirty-six. Tell us in the comments which animal should never be allowed on Doug's couch.
 
-<!-- words: 2031 (draft 1; spoken narration only; band headers and item-name sentences included; headings, comments and stage directions excluded). About 10.4 min at 195 wpm. 141 sentences, average 14.4 words, longest 35. Flesch 72.8 (textstat). "Marburg." is word 35. Outro 20 words. Tic words: However 0, actually 0, essentially 0, incredibly 0. -->
+<!-- words: 2063 (draft 2; spoken narration only; band headers and item-name sentences included; headings, comments and stage directions excluded). About 10.6 min at 195 wpm. "Marburg." is word 35. Outro 20 words. Item lengths: Chicken 201, Burger 217, Cat 204, Dog 288 (boss). Tic words: However 0, actually 0, essentially 0, incredibly 0. -->

@@ -1,4 +1,4 @@
-# Facts: 043 The Most Disturbing Diseases Animals Can Pass to Humans (draft 1)
+# Facts: 043 The Most Disturbing Diseases Animals Can Pass to Humans (draft 2)
 
 Every factual claim in script.md is listed here with its source. The script writer checked them on 2026-11-10.
 
@@ -80,6 +80,7 @@ How each source was checked:
 | About 1,000 cases since 2003 reported to WHO, nearly half died | WHO WPRO Avian Influenza Weekly Updates 2026: 997 cases / 478 deaths to 31 Mar 2026; 1,000 cases, 479 fatal (CFR 47.9%) https://cdn.who.int/media/docs/default-source/wpro---documents/emergency/surveillance/avian-influenza/ai_20260814.pdf ; WHO cumulative table March 2026 https://cdn.who.int/media/docs/default-source/influenza/h5n1-human-case-cumulative-table/2026_table_h5n1_march.pdf | Search |
 | Most human infections came from close contact with infected birds or contaminated environments | WHO fact sheet, Influenza (avian and other zoonotic) https://www.who.int/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic) | Search (screener: please fetch) |
 | March 2024, found in US dairy cattle; high levels in raw milk; 52 herds in 9 states by 22 May 2024 | CDC MMWR 73(21), 2024 https://www.cdc.gov/mmwr/volumes/73/wr/mm7321e1.htm | Search |
+| Before 2024 it had never been found in dairy cows ("Then came the cow.") | USDA APHIS/FDA/CDC joint announcement, 25 March 2024: "the first time that HPAI has been identified as affecting dairy cattle" (two Texas and two Kansas herds) https://www.aphis.usda.gov/news/agency-announcements/federal-state-veterinary-public-health-agencies-share-update-hpai ; also MMWR 73(21) above. Later work suggests undetected spread from late 2023, so the script says "never been found", not "never infected" | Search |
 | Most US human cases have had mild illness | CDC MMWR 73(21): the first three patients had mild illness; CDC MMWR 74(8), California 2024 cases mostly mild https://www.cdc.gov/mmwr/volumes/74/wr/mm7408a1.htm | Search |
 | A Holstein is about 680 kg, about eight Dougs | Holstein Association USA fact sheet: mature cow about 1,500 lb (680 kg) https://www2.holsteinusa.com/pdf/fact_sheet_cattle.pdf ; Doug is 80 kg (series lore, 032). 680/80 = 8.5 | Search |
 
@@ -103,6 +104,7 @@ How each source was checked:
 | Sin Nombre = Spanish for "without a name" | Same CDC history / Britannica "Sin Nombre virus" https://www.britannica.com/science/hantavirus | Search |
 | The deer mouse is the main US carrier | CDC: "The most common hantavirus that causes HPS in the United States is spread by the deer mouse." https://www.cdc.gov/hantavirus/about/index.html | Fetched |
 | A deer mouse weighs about 20 g, four nickels | EOL/ADW 10-24 g, adult average about 21 g https://animaldiversity.org/accounts/Peromyscus_maniculatus/ ; US Mint nickel 5.000 g https://www.usmint.gov/learn/coins-and-medals/circulating-coins/nickel | Search |
+| Mice still living in the shed; fresh droppings and nest (draft 2 fix F1: no claim that old contamination is the danger) | CDC transmission page (row below): risk is from fresh urine, droppings or nesting material; archived CDC technical page: virus survives only several days outside a host | Search |
 | 38% of people who develop respiratory symptoms may die | CDC: "Thirty-eight percent of people who develop respiratory symptoms may die from the disease." https://www.cdc.gov/hantavirus/about/index.html | Fetched |
 | Infection when fresh urine, droppings or nesting material are stirred up and droplets get into the air; opening sheds and cabins closed over winter is a risk, especially in rural areas | CDC "How People Get HPS": "When fresh rodent urine, droppings, or nesting materials are stirred up, tiny droplets containing the virus get into the air"; "Opening or cleaning cabins, sheds, and outbuildings ... closed during the winter is a potential risk ..., especially in rural settings" https://www.cdc.gov/hantavirus/hps/transmission.html | Search |
 | US strain not person to person; Andes virus can | CDC: "The Andes virus is the only type of hantavirus that is known to spread person-to-person." https://www.cdc.gov/hantavirus/about/index.html | Fetched |
@@ -124,18 +126,21 @@ How each source was checked:
 | About 44,000 deaths a year (latest estimate); "tens of thousands" | WHO: "rabies causes 44 203 annual deaths" (2021 GHE); "tens of thousands of deaths annually" | Fetched |
 | Mostly in Asia and Africa | WHO: "mainly in Asia and Africa" | Fetched |
 | Dogs in up to 99% of human cases | WHO: "In up to 99% of the human rabies cases, dogs are responsible for virus transmission." | Fetched |
-| About one person every twelve minutes | 525,600 min / 44,203 = 11.9. Arithmetic | n/a |
+| About one person every twelve minutes, a little longer than this video has been playing | 525,600 min / 44,203 = 11.9. The line falls at about spoken word 1,830 of 2,063, about 9.4 min at 195 wpm, so twelve minutes is a little longer. Arithmetic | n/a |
 | Usually through a bite; moves inside the nerves to the brain | WHO: spread via saliva, "usually through bites"; CDC (archived) "The Path of the Virus": "travels from the site of the bite to the brain by moving within nerves" https://webarchive.library.unt.edu/web/20120927095345/http://www.cdc.gov/rabies/transmission/body.html | Fetched (WHO) / Search (CDC) |
 | Incubation usually 2-3 months, 1 week to 1 year | WHO: "typically 2-3 months but may vary from one week to one year" | Fetched |
 | Fear of water can be a sign | WHO: "hydrophobia (fear of water)" | Fetched |
 | Feels nothing while it travels | CDC (archived): during incubation the animal "does not appear ill" | Search |
 | A few dozen survivors at most after symptoms | StatPearls, Rabies: "only a few dozen cases of survival after the onset of rabies symptoms" https://www.ncbi.nlm.nih.gov/books/NBK448076/ | Search (see FLAG 3) |
 | WHO calls rabies vaccine-preventable | WHO: "Rabies is a vaccine-preventable, zoonotic, viral disease" | Fetched |
-| First rabies vaccine given in 1885 (Pasteur) | Institut Pasteur, July 6, 1885 https://www.pasteur.fr/en/institut-pasteur/history ; WHO Rabies Bulletin Europe https://who-rabies-bulletin.org/news/milestone-medical-history-was-reached-140-years-ago | Search |
+| First rabies vaccine given to a person in 1885 (Pasteur, Joseph Meister, 6 July 1885; not named on screen) | Institut Pasteur, July 6, 1885 https://www.pasteur.fr/en/institut-pasteur/history ; WHO Rabies Bulletin Europe https://who-rabies-bulletin.org/news/milestone-medical-history-was-reached-140-years-ago | Search |
 | US: dog rabies eliminated; most US-acquired human cases now from bats | CDC Vital Signs, MMWR 68(23), 2019: canine rabies virus variant eliminated; 62 of 89 US-acquired cases 1960-2018 (70%) from bats https://www.cdc.gov/mmwr/volumes/68/wr/mm6823e1.htm | Search |
 | A healthy dog that bites someone can be watched for 10 days (US) | CDC Information for Veterinarians: a healthy dog, cat or ferret that bites a person should be confined and observed daily for 10 days https://www.cdc.gov/rabies/hcp/veterinarians/index.html | Search |
 
 ## Not used (cut or not sourced)
+- H5N1 "for a long time it looked like it would stay in birds" and "What nobody expected was the cow": unsourced (screener F2), cut in draft 2.
+- "Roughly how long you have been watching this video" (twelve minutes): false at that point (screener F3), replaced in draft 2.
+- "The mice had moved out months ago" / "long after the mouse has left the room": contradicts CDC (fresh material, virus lasts days), cut in draft 2.
 - 59,000 rabies deaths and "one every nine minutes": replaced, see FLAG 1.
 - "A single bacterium" for Q fever: replaced with 1-10.
 - Nipah "pot the size of a kettle": pot size unsourced, so I used bat weight instead.
