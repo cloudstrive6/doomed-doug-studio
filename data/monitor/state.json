@@ -1,27 +1,27 @@
 {
  "issues": {
   "queue_low": {
-   "first_seen": "2026-11-09T04:01:39+00:00",
+   "first_seen": "2026-11-10T20:01:50+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-09T04:01:39+00:00",
+   "last_seen": "2026-11-10T20:01:50+00:00",
    "summary": "Queue 3/4 and no production running: started a production run",
    "owner": "auto",
    "severity": "medium",
-   "resolved": "2026-11-09T04:01:39+00:00"
+   "resolved": "2026-11-10T20:01:50+00:00"
   },
   "related_pending": {
    "first_seen": "2026-11-05T17:01:52+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-10T19:01:38+00:00",
+   "last_seen": "2026-11-10T20:01:50+00:00",
    "summary": "20 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
    "owner": "owner",
    "severity": "low",
-   "alerted_at": "2026-11-09T19:01:47+00:00"
+   "alerted_at": "2026-11-10T20:01:50+00:00"
   },
   "end_screens_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-10T19:01:38+00:00",
+   "last_seen": "2026-11-10T20:01:50+00:00",
    "summary": "7 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
    "owner": "owner",
    "severity": "low",
@@ -30,7 +30,7 @@
   "thumb_tests_pending": {
    "first_seen": "2026-11-03T20:02:00+00:00",
    "agent_attempts": 0,
-   "last_seen": "2026-11-10T19:01:38+00:00",
+   "last_seen": "2026-11-10T20:01:50+00:00",
    "summary": "7 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
    "owner": "owner",
    "severity": "low",
