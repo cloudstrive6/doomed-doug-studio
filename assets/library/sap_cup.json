@@ -1,0 +1,162 @@
+{
+ "name": "sap_cup",
+ "description": "Small plain terracotta cup of pale cloudy raw date-palm sap (#f2ead2). Bottom-centre anchor, about 150x126; sap surface ellipse at (0,-112), rx 62.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "cup",
+  "clay",
+  "sap",
+  "drink",
+  "date palm",
+  "nipah"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -72,
+     -112
+    ],
+    [
+     72,
+     -112
+    ],
+    [
+     54,
+     -8
+    ],
+    [
+     46,
+     0
+    ],
+    [
+     -46,
+     0
+    ],
+    [
+     -54,
+     -8
+    ]
+   ],
+   "fill": "#b8643a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     20,
+     -110
+    ],
+    [
+     70,
+     -110
+    ],
+    [
+     52,
+     -8
+    ],
+    [
+     44,
+     -2
+    ],
+    [
+     20,
+     -2
+    ]
+   ],
+   "fill": "#9a5030",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 40,
+   "y": -50,
+   "r": 26,
+   "color": "#7a3a20",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56,
+     -96
+    ],
+    [
+     -40,
+     -96
+    ],
+    [
+     -34,
+     -20
+    ],
+    [
+     -44,
+     -20
+    ]
+   ],
+   "fill": "#d88a5a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -64,
+     -70
+    ],
+    [
+     0,
+     -64
+    ],
+    [
+     64,
+     -70
+    ]
+   ],
+   "color": "#8a4426",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -112,
+   "rx": 73,
+   "ry": 14,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#c8744a"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -112,
+   "rx": 62,
+   "ry": 10,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#f2ead2"
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": -113,
+   "rx": 12,
+   "ry": 3,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#ffffff",
+   "outline": false
+  }
+ ]
+}

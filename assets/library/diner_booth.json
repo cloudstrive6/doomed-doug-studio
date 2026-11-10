@@ -1,0 +1,307 @@
+{
+ "name": "diner_booth",
+ "description": "Side-view diner booth: red vinyl bench on the left with tufted backrest, seat surface at (-200,-170) (x -330..-100), chrome trim; a white table with a chrome edge on the right, table top at y -260 (x -60..300), on a single chrome pedestal. Bottom-centre anchor, about 760x460.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "diner",
+  "booth",
+  "restaurant",
+  "furniture",
+  "table"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -370,
+   "y": -110,
+   "w": 260,
+   "h": 110,
+   "fill": "#6a5a5a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -370,
+   "y": -14,
+   "w": 260,
+   "h": 14,
+   "fill": "#c0c6cc",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -380,
+     -150
+    ],
+    [
+     -380,
+     -420
+    ],
+    [
+     -372,
+     -448
+    ],
+    [
+     -345,
+     -460
+    ],
+    [
+     -320,
+     -452
+    ],
+    [
+     -306,
+     -425
+    ],
+    [
+     -300,
+     -150
+    ]
+   ],
+   "fill": "#c8262a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -330,
+     -440
+    ],
+    [
+     -310,
+     -430
+    ],
+    [
+     -304,
+     -160
+    ],
+    [
+     -326,
+     -160
+    ]
+   ],
+   "fill": "#8e1a1e",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -360,
+     -420
+    ],
+    [
+     -360,
+     -175
+    ]
+   ],
+   "color": "#8e1a1e",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -340,
+     -420
+    ],
+    [
+     -340,
+     -175
+    ]
+   ],
+   "color": "#8e1a1e",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -320,
+     -420
+    ],
+    [
+     -320,
+     -175
+    ]
+   ],
+   "color": "#8e1a1e",
+   "width": 3
+  },
+  {
+   "type": "spray",
+   "x": -370,
+   "y": -300,
+   "r": 24,
+   "color": "#ff7a7a",
+   "density": 0.2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -334,
+     -170
+    ],
+    [
+     -110,
+     -170
+    ],
+    [
+     -96,
+     -158
+    ],
+    [
+     -96,
+     -116
+    ],
+    [
+     -110,
+     -106
+    ],
+    [
+     -334,
+     -106
+    ]
+   ],
+   "fill": "#c8262a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -330,
+     -132
+    ],
+    [
+     -98,
+     -132
+    ],
+    [
+     -98,
+     -116
+    ],
+    [
+     -110,
+     -108
+    ],
+    [
+     -330,
+     -108
+    ]
+   ],
+   "fill": "#8e1a1e",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -310,
+     -162
+    ],
+    [
+     -120,
+     -162
+    ]
+   ],
+   "color": "#ff8a8a",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -334,
+   "y": -106,
+   "w": 238,
+   "h": 8,
+   "fill": "#dfe4e8",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 110,
+   "y": -240,
+   "w": 26,
+   "h": 228,
+   "fill": "#c0c6cc",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     118,
+     -230
+    ],
+    [
+     118,
+     -30
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": 123,
+   "y": -10,
+   "rx": 80,
+   "ry": 12,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#a8b0b8"
+  },
+  {
+   "type": "rect",
+   "x": -60,
+   "y": -260,
+   "w": 360,
+   "h": 22,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -60,
+   "y": -244,
+   "w": 360,
+   "h": 10,
+   "fill": "#c0c6cc",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -254
+    ],
+    [
+     280,
+     -254
+    ]
+   ],
+   "color": "#e4eeec",
+   "width": 2
+  }
+ ]
+}

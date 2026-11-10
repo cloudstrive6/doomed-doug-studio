@@ -1,0 +1,530 @@
+{
+ "name": "deer_mouse",
+ "description": "North American deer mouse (Peromyscus maniculatus), side view facing right: brown-grey back (#8a6a4a) with darker shading and fur ticks, crisp white belly and white feet, large rounded ears with pink inner, big dark eye with no shine (calm, not cute), grey whiskers, long sharply bicoloured tail (dark top, white underside). Bottom-centre anchor (feet on y 0), about 310x115.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "mouse",
+  "rodent",
+  "hantavirus",
+  "deer mouse",
+  "animal"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     -55.0,
+     -30.0
+    ],
+    [
+     -100.0,
+     -34.0
+    ],
+    [
+     -115.0,
+     -30.0
+    ],
+    [
+     -150.0,
+     -18.0
+    ]
+   ],
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -55.0,
+     -29.0
+    ],
+    [
+     -100.0,
+     -33.0
+    ],
+    [
+     -115.0,
+     -29.0
+    ],
+    [
+     -150.0,
+     -17.0
+    ]
+   ],
+   "width": 6,
+   "color": "#fbfaf6"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -55.0,
+     -32.0
+    ],
+    [
+     -100.0,
+     -36.0
+    ],
+    [
+     -115.0,
+     -32.0
+    ],
+    [
+     -150.0,
+     -20.0
+    ]
+   ],
+   "width": 3,
+   "color": "#5e4632"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30.0,
+     -6.0
+    ],
+    [
+     0.0,
+     -4.0
+    ],
+    [
+     4.0,
+     0.0
+    ],
+    [
+     -28.0,
+     0.0
+    ]
+   ],
+   "fill": "#fbfaf6",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60.0,
+     -30.0
+    ],
+    [
+     -50.0,
+     -70.0
+    ],
+    [
+     -10.0,
+     -88.0
+    ],
+    [
+     40.0,
+     -86.0
+    ],
+    [
+     75.0,
+     -70.0
+    ],
+    [
+     95.0,
+     -45.0
+    ],
+    [
+     90.0,
+     -22.0
+    ],
+    [
+     60.0,
+     -8.0
+    ],
+    [
+     0.0,
+     -4.0
+    ],
+    [
+     -45.0,
+     -10.0
+    ]
+   ],
+   "fill": "#8a6a4a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50.0,
+     -22.0
+    ],
+    [
+     -10.0,
+     -10.0
+    ],
+    [
+     50.0,
+     -12.0
+    ],
+    [
+     88.0,
+     -26.0
+    ],
+    [
+     80.0,
+     -36.0
+    ],
+    [
+     40.0,
+     -30.0
+    ],
+    [
+     0.0,
+     -28.0
+    ],
+    [
+     -40.0,
+     -34.0
+    ]
+   ],
+   "fill": "#fbfaf6",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -10,
+   "y": -62,
+   "r": 16,
+   "color": "#5e4632",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 30,
+   "y": -64,
+   "r": 13,
+   "color": "#5e4632",
+   "density": 0.3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30.0,
+     -62.0
+    ],
+    [
+     -36.0,
+     -56.0
+    ]
+   ],
+   "width": 2,
+   "color": "#5e4632"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0.0,
+     -70.0
+    ],
+    [
+     -6.0,
+     -64.0
+    ]
+   ],
+   "width": 2,
+   "color": "#5e4632"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30.0,
+     -66.0
+    ],
+    [
+     24.0,
+     -60.0
+    ]
+   ],
+   "width": 2,
+   "color": "#5e4632"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40.0,
+     -46.0
+    ],
+    [
+     -46.0,
+     -40.0
+    ]
+   ],
+   "width": 2,
+   "color": "#5e4632"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10.0,
+     -50.0
+    ],
+    [
+     4.0,
+     -44.0
+    ]
+   ],
+   "width": 2,
+   "color": "#5e4632"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     55.0,
+     -58.0
+    ],
+    [
+     49.0,
+     -52.0
+    ]
+   ],
+   "width": 2,
+   "color": "#5e4632"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     55.0,
+     -70.0
+    ],
+    [
+     80.0,
+     -82.0
+    ],
+    [
+     110.0,
+     -70.0
+    ],
+    [
+     132.0,
+     -46.0
+    ],
+    [
+     134.0,
+     -38.0
+    ],
+    [
+     120.0,
+     -32.0
+    ],
+    [
+     90.0,
+     -30.0
+    ],
+    [
+     66.0,
+     -40.0
+    ]
+   ],
+   "fill": "#8a6a4a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     90.0,
+     -36.0
+    ],
+    [
+     120.0,
+     -36.0
+    ],
+    [
+     132.0,
+     -40.0
+    ],
+    [
+     118.0,
+     -31.0
+    ],
+    [
+     94.0,
+     -30.0
+    ]
+   ],
+   "fill": "#fbfaf6",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 134,
+   "y": -41,
+   "rx": 4,
+   "ry": 4,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#c98a8a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     128.0,
+     -40.0
+    ],
+    [
+     160.0,
+     -53.0
+    ]
+   ],
+   "width": 1,
+   "color": "#555555"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     128.0,
+     -40.0
+    ],
+    [
+     160.0,
+     -44.0
+    ]
+   ],
+   "width": 1,
+   "color": "#555555"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     128.0,
+     -40.0
+    ],
+    [
+     160.0,
+     -35.0
+    ]
+   ],
+   "width": 1,
+   "color": "#555555"
+  },
+  {
+   "type": "ellipse",
+   "x": 105,
+   "y": -58,
+   "rx": 8,
+   "ry": 8,
+   "width": 2,
+   "color": "#000000",
+   "fill": "#141414"
+  },
+  {
+   "type": "ellipse",
+   "x": 78,
+   "y": -90,
+   "rx": 20,
+   "ry": 23,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#a88a70"
+  },
+  {
+   "type": "ellipse",
+   "x": 80,
+   "y": -89,
+   "rx": 11,
+   "ry": 13,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e8b8b0",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -45.0,
+     -12.0
+    ],
+    [
+     -10.0,
+     -6.0
+    ],
+    [
+     -6.0,
+     0.0
+    ],
+    [
+     -46.0,
+     0.0
+    ]
+   ],
+   "fill": "#fbfaf6",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     62.0,
+     -12.0
+    ],
+    [
+     76.0,
+     -10.0
+    ],
+    [
+     84.0,
+     0.0
+    ],
+    [
+     60.0,
+     0.0
+    ]
+   ],
+   "fill": "#fbfaf6",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     80.0,
+     -14.0
+    ],
+    [
+     82.0,
+     -2.0
+    ]
+   ],
+   "width": 2,
+   "color": "#bbbbbb"
+  }
+ ]
+}

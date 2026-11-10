@@ -1,0 +1,532 @@
+{
+ "name": "clay_sap_pot",
+ "description": "Close-up of a round terracotta date-palm sap pot: round body, narrow neck with a dark opening, two turns of rope tied round the neck with a knot and hanging end, bamboo spout entering top-left. Centre anchor, about 260x290, rim top at (0,-130).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "pot",
+  "clay",
+  "sap",
+  "date palm",
+  "nipah",
+  "bangladesh"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 30,
+   "rx": 122,
+   "ry": 118,
+   "width": 5,
+   "color": "#000000",
+   "fill": "#b8643a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     -80
+    ],
+    [
+     60,
+     -70
+    ],
+    [
+     105,
+     -20
+    ],
+    [
+     118,
+     40
+    ],
+    [
+     100,
+     100
+    ],
+    [
+     50,
+     140
+    ],
+    [
+     20,
+     146
+    ],
+    [
+     70,
+     100
+    ],
+    [
+     90,
+     40
+    ],
+    [
+     80,
+     -20
+    ]
+   ],
+   "fill": "#9a5030",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 55,
+   "y": 50,
+   "r": 40,
+   "color": "#7a3a20",
+   "density": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": -55,
+   "y": -15,
+   "rx": 26,
+   "ry": 16,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#d88a5a",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -68,
+   "y": -22,
+   "rx": 9,
+   "ry": 6,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#f0b080",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -110,
+     10
+    ],
+    [
+     -60,
+     22
+    ],
+    [
+     0,
+     26
+    ],
+    [
+     60,
+     22
+    ],
+    [
+     112,
+     10
+    ]
+   ],
+   "color": "#8a4426",
+   "width": 3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -100,
+     80
+    ],
+    [
+     -50,
+     94
+    ],
+    [
+     0,
+     98
+    ],
+    [
+     50,
+     94
+    ],
+    [
+     102,
+     80
+    ]
+   ],
+   "color": "#8a4426",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -42,
+     -122
+    ],
+    [
+     42,
+     -122
+    ],
+    [
+     38,
+     -95
+    ],
+    [
+     48,
+     -82
+    ],
+    [
+     -48,
+     -82
+    ],
+    [
+     -38,
+     -95
+    ]
+   ],
+   "fill": "#b8643a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     10,
+     -120
+    ],
+    [
+     40,
+     -120
+    ],
+    [
+     36,
+     -95
+    ],
+    [
+     44,
+     -84
+    ],
+    [
+     12,
+     -84
+    ]
+   ],
+   "fill": "#9a5030",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -122,
+   "rx": 50,
+   "ry": 10,
+   "width": 5,
+   "color": "#000000",
+   "fill": "#c8744a"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -122,
+   "rx": 36,
+   "ry": 6,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#3a1a0e"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -46,
+     -100
+    ],
+    [
+     -20,
+     -94
+    ],
+    [
+     20,
+     -94
+    ],
+    [
+     46,
+     -100
+    ]
+   ],
+   "color": "#000000",
+   "width": 9
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -46,
+     -100
+    ],
+    [
+     -20,
+     -94
+    ],
+    [
+     20,
+     -94
+    ],
+    [
+     46,
+     -100
+    ]
+   ],
+   "color": "#d9b87a",
+   "width": 5
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -45,
+     -90
+    ],
+    [
+     -20,
+     -84
+    ],
+    [
+     20,
+     -84
+    ],
+    [
+     45,
+     -90
+    ]
+   ],
+   "color": "#000000",
+   "width": 9
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -45,
+     -90
+    ],
+    [
+     -20,
+     -84
+    ],
+    [
+     20,
+     -84
+    ],
+    [
+     45,
+     -90
+    ]
+   ],
+   "color": "#d9b87a",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -98
+    ],
+    [
+     -24,
+     -90
+    ]
+   ],
+   "color": "#9a7a40",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -98
+    ],
+    [
+     -4,
+     -90
+    ]
+   ],
+   "color": "#9a7a40",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -98
+    ],
+    [
+     16,
+     -90
+    ]
+   ],
+   "color": "#9a7a40",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -98
+    ],
+    [
+     36,
+     -90
+    ]
+   ],
+   "color": "#9a7a40",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 46,
+   "y": -94,
+   "rx": 9,
+   "ry": 8,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#d9b87a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     50,
+     -90
+    ],
+    [
+     62,
+     -60
+    ],
+    [
+     58,
+     -35
+    ]
+   ],
+   "color": "#000000",
+   "width": 8
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     50,
+     -90
+    ],
+    [
+     62,
+     -60
+    ],
+    [
+     58,
+     -35
+    ]
+   ],
+   "color": "#d9b87a",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -130,
+     -150
+    ],
+    [
+     -122,
+     -168
+    ],
+    [
+     -8,
+     -126
+    ],
+    [
+     -14,
+     -110
+    ]
+   ],
+   "fill": "#c9b060",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -128,
+     -154
+    ],
+    [
+     -12,
+     -116
+    ],
+    [
+     -14,
+     -110
+    ],
+    [
+     -130,
+     -150
+    ]
+   ],
+   "fill": "#a89040",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -103,
+     -154.9
+    ],
+    [
+     -97,
+     -138.9
+    ]
+   ],
+   "color": "#6a5a20",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -63,
+     -140.1
+    ],
+    [
+     -57,
+     -124.1
+    ]
+   ],
+   "color": "#6a5a20",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": -126,
+   "y": -159,
+   "rx": 5,
+   "ry": 10,
+   "width": 3,
+   "color": "#000000",
+   "fill": "#e8d8a0"
+  }
+ ]
+}

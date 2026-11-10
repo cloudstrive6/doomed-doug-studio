@@ -1,0 +1,271 @@
+{
+ "name": "flour_bag",
+ "description": "Cream paper flour sack (#efe6d0) with a folded-down top, side shading, creases and a plain label reading FLOUR in dark letters. Bottom-centre anchor, about 220x300.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "flour",
+  "sack",
+  "bag",
+  "kitchen",
+  "food"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -250
+    ],
+    [
+     100,
+     -250
+    ],
+    [
+     108,
+     -150
+    ],
+    [
+     110,
+     -40
+    ],
+    [
+     104,
+     -6
+    ],
+    [
+     80,
+     0
+    ],
+    [
+     -80,
+     0
+    ],
+    [
+     -104,
+     -6
+    ],
+    [
+     -110,
+     -40
+    ],
+    [
+     -108,
+     -150
+    ]
+   ],
+   "fill": "#efe6d0",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     60,
+     -246
+    ],
+    [
+     100,
+     -250
+    ],
+    [
+     108,
+     -150
+    ],
+    [
+     110,
+     -40
+    ],
+    [
+     104,
+     -6
+    ],
+    [
+     80,
+     0
+    ],
+    [
+     60,
+     0
+    ],
+    [
+     82,
+     -60
+    ],
+    [
+     84,
+     -160
+    ]
+   ],
+   "fill": "#d8cdb0",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -70,
+   "y": -30,
+   "r": 30,
+   "color": "#d8cdb0",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -96,
+     -300
+    ],
+    [
+     96,
+     -300
+    ],
+    [
+     104,
+     -256
+    ],
+    [
+     -104,
+     -256
+    ]
+   ],
+   "fill": "#e4d9bd",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100,
+     -278
+    ],
+    [
+     100,
+     -278
+    ]
+   ],
+   "color": "#b8ac8a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -298
+    ],
+    [
+     -54,
+     -280
+    ]
+   ],
+   "color": "#b8ac8a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -298
+    ],
+    [
+     -4,
+     -280
+    ]
+   ],
+   "color": "#b8ac8a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     -298
+    ],
+    [
+     46,
+     -280
+    ]
+   ],
+   "color": "#b8ac8a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -80,
+     -230
+    ],
+    [
+     -60,
+     -200
+    ]
+   ],
+   "color": "#c9bd9a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     -40
+    ],
+    [
+     86,
+     -14
+    ]
+   ],
+   "color": "#c9bd9a",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -86,
+     -60
+    ],
+    [
+     -70,
+     -20
+    ]
+   ],
+   "color": "#c9bd9a",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -84,
+   "y": -176,
+   "w": 168,
+   "h": 74,
+   "fill": "#f8f3e6",
+   "width": 3,
+   "color": "#6a5a3a"
+  },
+  {
+   "type": "text",
+   "text": "FLOUR",
+   "x": 0,
+   "y": -139,
+   "size": 50,
+   "color": "#3a3226",
+   "wobble": 0,
+   "boil": 0,
+   "font": "default",
+   "bold": true
+  }
+ ]
+}

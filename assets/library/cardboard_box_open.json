@@ -1,0 +1,291 @@
+{
+ "name": "cardboard_box_open",
+ "description": "Brown cardboard box in front 3/4 view with the top open: blank front face (x -150..150, y -200..0) for an overlaid label, right side face, dark interior, back flap and two side flaps folded outward. Inner back rim at y -250 (x -110..190). Bottom-centre anchor, about 386x280.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "box",
+  "cardboard",
+  "quarantine",
+  "observation",
+  "dog",
+  "rabies"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -250
+    ],
+    [
+     190,
+     -250
+    ],
+    [
+     200,
+     -282
+    ],
+    [
+     -96,
+     -280
+    ]
+   ],
+   "fill": "#d8a46a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -60,
+     -262
+    ],
+    [
+     150,
+     -264
+    ]
+   ],
+   "color": "#a8743e",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -200
+    ],
+    [
+     150,
+     -200
+    ],
+    [
+     190,
+     -250
+    ],
+    [
+     -110,
+     -250
+    ]
+   ],
+   "fill": "#2e1c0e",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -250
+    ],
+    [
+     190,
+     -250
+    ],
+    [
+     186,
+     -230
+    ],
+    [
+     -118,
+     -234
+    ]
+   ],
+   "fill": "#6a4422",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -250
+    ],
+    [
+     -118,
+     -230
+    ],
+    [
+     -146,
+     -202
+    ],
+    [
+     -150,
+     -200
+    ]
+   ],
+   "fill": "#6a4422",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     -200
+    ],
+    [
+     190,
+     -250
+    ],
+    [
+     190,
+     -50
+    ],
+    [
+     150,
+     0
+    ]
+   ],
+   "fill": "#a8743e",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     170,
+     -220
+    ],
+    [
+     170,
+     -30
+    ]
+   ],
+   "color": "#8a5a2e",
+   "width": 2
+  },
+  {
+   "type": "rect",
+   "x": -150,
+   "y": -200,
+   "w": 300,
+   "h": 200,
+   "fill": "#c8945a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 110,
+   "y": -100,
+   "r": 40,
+   "color": "#b07e48",
+   "density": 0.25
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -140,
+     -12
+    ],
+    [
+     -100,
+     -12
+    ]
+   ],
+   "color": "#a8743e",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -200
+    ],
+    [
+     -110,
+     -250
+    ],
+    [
+     -186,
+     -262
+    ],
+    [
+     -190,
+     -214
+    ]
+   ],
+   "fill": "#d8a46a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -160,
+     -214
+    ],
+    [
+     -130,
+     -248
+    ]
+   ],
+   "color": "#a8743e",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     -200
+    ],
+    [
+     190,
+     -250
+    ],
+    [
+     190,
+     -246
+    ],
+    [
+     190,
+     -250
+    ]
+   ],
+   "fill": "#a8743e",
+   "width": 1,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     190,
+     -250
+    ],
+    [
+     150,
+     -200
+    ],
+    [
+     196,
+     -172
+    ],
+    [
+     210,
+     -226
+    ]
+   ],
+   "fill": "#d8a46a",
+   "width": 4,
+   "color": "#000000"
+  }
+ ]
+}

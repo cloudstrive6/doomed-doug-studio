@@ -1,0 +1,365 @@
+{
+ "name": "virus_blob",
+ "description": "Faceless cartoon virus germ: round muted-purple blob #9a7ab8, dark #4a3460 outline, 10 short stubby spikes with round knob ends, three lighter inner dots. No face. Centre anchor, ~142 across. Reads at scale 0.25.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "germ",
+  "virus",
+  "microbe",
+  "disease",
+  "faceless"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     43.9,
+     2.3
+    ],
+    [
+     59.9,
+     3.1
+    ]
+   ],
+   "width": 7,
+   "color": "#4a3460"
+  },
+  {
+   "type": "ellipse",
+   "x": 62.9,
+   "y": 3.3,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#b89ad2",
+   "width": 4,
+   "color": "#4a3460"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     28.9,
+     33.2
+    ],
+    [
+     39.4,
+     45.3
+    ]
+   ],
+   "width": 7,
+   "color": "#4a3460"
+  },
+  {
+   "type": "ellipse",
+   "x": 41.3,
+   "y": 47.5,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#b89ad2",
+   "width": 4,
+   "color": "#4a3460"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     11.4,
+     42.5
+    ],
+    [
+     15.5,
+     58.0
+    ]
+   ],
+   "width": 7,
+   "color": "#4a3460"
+  },
+  {
+   "type": "ellipse",
+   "x": 16.3,
+   "y": 60.9,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#b89ad2",
+   "width": 4,
+   "color": "#4a3460"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22.7,
+     37.7
+    ],
+    [
+     -30.9,
+     51.4
+    ]
+   ],
+   "width": 7,
+   "color": "#4a3460"
+  },
+  {
+   "type": "ellipse",
+   "x": -32.4,
+   "y": 54.0,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#b89ad2",
+   "width": 4,
+   "color": "#4a3460"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -36.9,
+     24.0
+    ],
+    [
+     -50.3,
+     32.7
+    ]
+   ],
+   "width": 7,
+   "color": "#4a3460"
+  },
+  {
+   "type": "ellipse",
+   "x": -52.8,
+   "y": 34.3,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#b89ad2",
+   "width": 4,
+   "color": "#4a3460"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -42.9,
+     -9.9
+    ],
+    [
+     -58.5,
+     -13.5
+    ]
+   ],
+   "width": 7,
+   "color": "#4a3460"
+  },
+  {
+   "type": "ellipse",
+   "x": -61.4,
+   "y": -14.2,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#b89ad2",
+   "width": 4,
+   "color": "#4a3460"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -34.2,
+     -27.7
+    ],
+    [
+     -46.6,
+     -37.8
+    ]
+   ],
+   "width": 7,
+   "color": "#4a3460"
+  },
+  {
+   "type": "ellipse",
+   "x": -49.0,
+   "y": -39.6,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#b89ad2",
+   "width": 4,
+   "color": "#4a3460"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -3.8,
+     -43.8
+    ],
+    [
+     -5.2,
+     -59.8
+    ]
+   ],
+   "width": 7,
+   "color": "#4a3460"
+  },
+  {
+   "type": "ellipse",
+   "x": -5.5,
+   "y": -62.8,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#b89ad2",
+   "width": 4,
+   "color": "#4a3460"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     15.8,
+     -41.1
+    ],
+    [
+     21.5,
+     -56.0
+    ]
+   ],
+   "width": 7,
+   "color": "#4a3460"
+  },
+  {
+   "type": "ellipse",
+   "x": 22.6,
+   "y": -58.8,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#b89ad2",
+   "width": 4,
+   "color": "#4a3460"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40.5,
+     -17.2
+    ],
+    [
+     55.2,
+     -23.4
+    ]
+   ],
+   "width": 7,
+   "color": "#4a3460"
+  },
+  {
+   "type": "ellipse",
+   "x": 58.0,
+   "y": -24.6,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#b89ad2",
+   "width": 4,
+   "color": "#4a3460"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     50.0,
+     0.0
+    ],
+    [
+     45.0,
+     24.0
+    ],
+    [
+     25.1,
+     41.6
+    ],
+    [
+     0.0,
+     48.0
+    ],
+    [
+     -24.7,
+     41.6
+    ],
+    [
+     -44.9,
+     24.0
+    ],
+    [
+     -50.8,
+     0.0
+    ],
+    [
+     -41.8,
+     -24.0
+    ],
+    [
+     -24.5,
+     -41.6
+    ],
+    [
+     -0.0,
+     -48.0
+    ],
+    [
+     25.7,
+     -41.6
+    ],
+    [
+     42.1,
+     -24.0
+    ]
+   ],
+   "fill": "#9a7ab8",
+   "width": 5,
+   "color": "#4a3460",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 14,
+   "y": 16,
+   "r": 30,
+   "color": "#7a5a9a",
+   "density": 0.35
+  },
+  {
+   "type": "ellipse",
+   "x": -16,
+   "y": -14,
+   "rx": 9,
+   "ry": 7,
+   "fill": "#c4a8dc",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 10,
+   "y": -24,
+   "rx": 6,
+   "ry": 5,
+   "fill": "#c4a8dc",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": 14,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#c4a8dc",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}
