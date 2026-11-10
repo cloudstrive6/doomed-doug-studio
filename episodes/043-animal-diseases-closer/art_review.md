@@ -130,3 +130,32 @@ under a magnifying glass) plus two series-continuity misses.
   and never read aloud.
 
 Re-render only the shots listed (`python -m studio keyframes 043-animal-diseases-closer --shots ...`). I will re-check those shots only.
+
+---
+
+# 043 art review: keyframes, Round 2 (art director, 2026-11-10)
+
+**Verdict: PASS.** All 7 required fixes and all 4 minor fixes from Round 1 are in. No new rule breaks.
+
+Re-checked at full size: s003, s006, s013, s018, s022-s024, s038, s042, s043-s045, s054, s056-s061, s066-s069, s079-s082, s087, s098,
+s102, s127, s130, s145, s158, s160, s170-s172, s176.
+
+## Round 1 fixes verified
+1. s160: Doug now `stand`/`flat`, about 580 px from the bottle; the bottle, "!" and FEAR OF WATER are kept. No hydrophobia acting.
+2. s158: no blobs on the body. The dashed purple path stays, and one `virus_blob` sits in a magnifier beside NERVES.
+3. s080-s082: `sunburn` is gone. Doug's skin is white and the thumbs-up and cap-on-path gag carry the beat.
+4. Loose germs: s006, s013, s127 have none. s038, s054, s087 have a single magnifier each (s038's dashed line runs out of frame).
+   s061, s066, s067, s069 have plain clouds only. s068 now encloses the bacterium in a magnifier, which is an allowed alternative.
+5. Bandage: white ankle bandage on s058, s059, s060 (and already on s057, at the bite).
+6. s176: the gravestone is plain. The only caps are the ghost's (allowed) and the real one in the UNDER OBSERVATION box.
+7. Variety: s022 (close, torch), s023 (wide and low, colony stir, Doug small), s024 (flying bats) now read as three different frames.
+   s045 is the triangle on cream with one macaque, which breaks up the temple run. The torch now aims up with the #fff7a0 beam.
+- m1 s069: the dust is tan and visible. m2 s127: the wedge is gone. m3 s130: the "!" is inside the map. m4 s081: the icon has no cap
+  and the cap is on the floor beside Doug.
+
+## Notes (non-blocking)
+- R2-1. s171/s172 are now the same death frame, with AGAIN added on s172. That is fine for a sub-second "Again." beat. It also
+  supersedes N2: the death now lands on "Doug has died."
+- R2-2. s170: the speech-bubble tail is a thin stray line ending in empty space between Doug and the dog. A short wedge tail pointing
+  at Doug would read better. Fix it if the director touches the shot again.
+- R2-3. s042: the pink speckle glow is still there (N1, accepted for this episode).
