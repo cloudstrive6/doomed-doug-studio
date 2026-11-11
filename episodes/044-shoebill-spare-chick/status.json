@@ -4,7 +4,17 @@
       "stage": "idea",
       "at": "2026-11-11T17:07:00+00:00",
       "note": "created"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-11-11T17:17:23+00:00",
+      "note": "draft 1"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-11-11T17:32:40+00:00",
+      "note": "CD go: draft 3 PASS; R1 applied (sentence 1 'raises'->'hatches'); R2 director note: parent's gaze off Doug in Water Bucket pour shot"
     }
   ],
-  "stage": "idea"
+  "stage": "script_approved"
 }
