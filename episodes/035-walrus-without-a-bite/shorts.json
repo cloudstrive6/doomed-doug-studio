@@ -141,7 +141,27 @@
         "unscheduled": true,
         "note": "cliffhanger original; private, unscheduled; owner deletes in Studio"
       },
-      "remade_at": "2026-11-09"
+      "remade_at": "2026-11-09",
+      "social": {
+        "instagram": {
+          "id": "18011314853782311",
+          "url": "https://www.instagram.com/reel/DfnL4qyBegy/"
+        },
+        "facebook": {
+          "id": "1455771582762483",
+          "url": "https://www.facebook.com/reel/1455771582762483"
+        },
+        "tiktok": {
+          "id": "v_pub_file~v2-1.7706991484473575445",
+          "url": "https://www.tiktok.com/@doomeddoug"
+        },
+        "instagram_story": {
+          "id": "17967425333986064"
+        },
+        "facebook_story": {
+          "id": "2617975878651333"
+        }
+      }
     }
   ]
 }
