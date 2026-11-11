@@ -145,3 +145,38 @@ What already passes:
 
 Re-review scope: 1-9 are blocking. Send me s006, s025, s041-s047, s079-s081, s103, s117-s119, s123, s125, s133-s194 (after the chick asset is redrawn) and
 any shots changed under 10-18.
+
+---
+
+# 044 keyframe review, round 2 (art director, 2026-11-11)
+
+**Verdict: PASS.** All 9 blocking fixes from round 1 are resolved. No new blocking issues.
+
+What I checked: contact sheets 01-17 (rendered 18:16, after the round 1 fixes commit, so they include the redrawn chick), with a close look at sheets 03, 04,
+07 and 09-17. s001 is "thumbnail pending" by design.
+
+## Round 1 blocking fixes
+1. **The spare chick (s164-s177): FIXED.** A second, clearly smaller chick (0.41 vs 0.75) sits on the right half of the nest from s164 to s177.
+   The orange goldfish is gone and replaced by silver fish. In s166 "ONLY ONE" points at the big chick and "EMPTY" is gone. In s176 the "peep peep"
+   comes from the small chick, with the parent looking away.
+2. **s123, two shoebills: FIXED.** Only the statue looms over Doug (hatchling costume). The death reads on the cut to s124.
+3. **s025, Doug not in frame: FIXED.** The collapse is at mid-frame, and Doug's head and cap (lungfish costume) pop up in the splash. "GASP" is on his side.
+4. **s079-s081, wrong prey: FIXED.** A Nile monitor hangs from the bill. The clock goes 0 to 10+ MIN to 10:32.
+5. **s041-s047, repeated composition: FIXED.** The shots now run wide, Doug face close-up (4 SECONDS), statue head close-up, wide (NOT FOOD),
+   Doug alone on cream, eyeline (DOUG), then bill close-up.
+6. **s103, Doug on open water: FIXED.** He is on the left mat piece, gritted. s104 follows on.
+7. **s047, pentagon bill: FIXED.** The bill is now `shoebill_head_profile` with a small Doug standing inside its outline. It reads as "fits in its bill".
+8. **Off-ramp skies, s117-s119 and s125: FIXED.** All four are on swamp overcast. The python silhouette and the reveal read on it. s120 stays cream.
+9. **`shoebill_chick_big` reading as ears: FIXED.** The bill points forward-right in horn/tan with a dark hook. It reads as a lumpy shoebill chick at
+   0.75 (nest), 0.41 (spare), the s148/s157 close-ups and the 0.16-ish tally icons (s179, s195). No ears or horns at any scale.
+
+The round 1 non-blocking items I could see were also handled: s133/s134 and s137/s138 are varied, s138 is the cream eggs-to-chick card, s140's stream
+lands on Doug's cap, s148/s157 are low close-ups, the tally fish are silver, and s194 has the red NO stamp.
+
+Still holding: Doug is on-model and the cap is visible in every shot. Ticks are 336 to 343 on s026, s066, s085, s104, s124, s161 and s191. The zone ramp
+runs blue day, overcast swamp, hot pale day, dusk, night, then black for the boss death. There is no gore. All text is inside the safe area and clear of the counter.
+
+## Optional polish (non-blocking, director's call)
+- **s193 "It already has a spare."** The small chick was last seen in s177. From s188 Doug takes its place in the nest, so the punchline frame shows only
+  the big chick and Doug's cap. If the line means the real spare, put the small chick (0.41) back on the right half, next to the cap.
+- **s187** is pure black under "MOST SPARES". Black is held for the boss death at s191. Night `#3b3550` would keep s191's cut-to-black stronger.
