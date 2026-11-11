@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-11-11T17:50:28+00:00",
       "note": "195 shots (~10.9 min est), 2014/2014 words in order, Doug 63%, counter 336->343, 29 new assets requested; 3 Shorts (s164-s177 Spare, s107-s115 Baby Croc, s128-s141 Water Bucket); only open validate issue: thumbnail.json (graphic designer)"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-11T18:18:05+00:00",
+      "note": "keyframes PASS round 2 (art-director + visual-screener)"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }
