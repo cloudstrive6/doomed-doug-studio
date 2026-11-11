@@ -20,15 +20,18 @@ Reused from the library (no request): `croc_egg` (as the shoebill egg, rotated 9
 ---
 
 ## Shoebill (the star; 7 drawings, all the same bird)
+> Illustrator note: all 9 drawn from one shared head/bill (same scale 0.42 in every full-body pose), so the bird is identical.
+> Night check: `assets/previews/044-shoebill-keypoints-night.png`. In `shoebill_looking_down` the crown is at about
+> (+200,-457), so a cap placed at (+200,-430) sits slightly into the head; use y about -455 to perch it on top.
 
-### `shoebill_statue`  (THE STATUE, ~80 shots: the most important drawing in the episode)
+### `shoebill_statue`  (THE STATUE, ~80 shots: the most important drawing in the episode) **DONE (illustrator, 2026-11-11)**: `assets/previews/044-shoebill-spare-chick-assets.png`; key points/bbox check `assets/previews/044-shoebill-keypoints.png`
 Adult shoebill standing dead still, body in 3/4 view, **head turned to face the viewer**, the huge bill pointing
 **down onto its chest**, both pale eyes staring straight into the camera. Wings folded, legs straight, feet flat.
 It must read as the same unblinking bird in every item, from 0.28 to 1.05 scale.
 - Anchor bottom-centre (feet on y = 0). Bbox x -170..170, y -640..0 (head top about -640, bill tip about (0,-430)).
 - Shots: every item (s005-s194), full frame in s028-s047.
 
-### `shoebill_side`
+### `shoebill_side` **DONE (illustrator, 2026-11-11)**: `assets/previews/044-shoebill-spare-chick-assets.png`; key points/bbox check `assets/previews/044-shoebill-keypoints.png`
 Same bird in profile facing right, standing upright, neck in a gentle S, bill held forward and slightly down.
 - Anchor bottom-centre (feet). Bbox x -200..+260, y -640..0. Bill tip about (+250,-470).
 - **Grip point (+200,-470)**: prey (catfish, croc hatchling, fish + weeds) is drawn on top here, crosswise, so leave
@@ -36,26 +39,26 @@ Same bird in profile facing right, standing upright, neck in a gentle S, bill he
 - Also used flipped (facing left) and walking away. Shots: s002, s013-s014, s032, s054-s057, s078-s081, s089,
   s101-s103, s114, s132-s134, s141, s158, s174-s177, s186, s190, s193.
 
-### `shoebill_collapse`
+### `shoebill_collapse` **DONE (illustrator, 2026-11-11)**: `assets/previews/044-shoebill-spare-chick-assets.png`; key points/bbox check `assets/previews/044-shoebill-keypoints.png`
 The strike: whole bird pitching forward and down, **wings flung open above the body**, neck straight, bill first into
 the water at the right. Legs trailing up-left. Comic, sudden, no prey visible, no blood.
 - Anchor (0,0) = waterline under the body centre. Bbox x -380..+380, y -300..+60; bill tip enters the water about (+330,+40).
 - Shots: s015-s018, s025, s040, s065, s084, s123.
 
-### `shoebill_looking_down`
+### `shoebill_looking_down` **DONE (illustrator, 2026-11-11)**: `assets/previews/044-shoebill-spare-chick-assets.png`; key points/bbox check `assets/previews/044-shoebill-keypoints.png`
 Profile facing right, neck bent so the head and **bill point down-forward at the ground/nest** just in front of it,
 bill very slightly open. The eye looks down along the bill (never at the viewer: director's note, Water Bucket).
 - Anchor bottom-centre (feet). Bbox x -200..+320, y -520..0. **Bill tip (+300,-180)** (water is poured from here),
   **head top (+200,-430)** (a cap is balanced here in s160).
 - Shots: s127-s137, s140, s149-s153, s156, s160, s192.
 
-### `shoebill_gulp`
+### `shoebill_gulp` **DONE (illustrator, 2026-11-11)**: `assets/previews/044-shoebill-spare-chick-assets.png`; key points/bbox check `assets/previews/044-shoebill-keypoints.png`
 Profile facing right, head tipped straight up, bill pointing at the sky, throat with a cartoon bulge, a small grey
 **tilapia tail fin** poking out of the bill tip. Swallowed whole, no blood.
 - Anchor bottom-centre (feet). Bbox x -200..+200, y -700..0.
 - Shots: s115, s151, s159.
 
-### `shoebill_head_profile`
+### `shoebill_head_profile` **DONE (illustrator, 2026-11-11)**: `assets/previews/044-shoebill-spare-chick-assets.png`; key points/bbox check `assets/previews/044-shoebill-keypoints.png`
 Big close-up of the head and the whole bill in profile for the size shots. The bill is the hero: shoe-shaped, broad,
 with a sharp edge line and a clear **hook at the tip**, blotchy horn colour; small pale eye.
 - **Anchor (0,0) = where the top of the bill meets the face.** The bill runs right to the hooked tip at **(+460,+40)**
@@ -64,20 +67,20 @@ with a sharp edge line and a clear **hook at the tip**, blotchy horn colour; sma
   about y +520** (no cut edge, so it can sit mid-frame).
 - Shots: s048-s051, s053, s061 (small), s050 (small, podium).
 
-### `shoebill_chick_big`
+### `shoebill_chick_big` **DONE (illustrator, 2026-11-11)**: `assets/previews/044-shoebill-spare-chick-assets.png`; key points/bbox check `assets/previews/044-shoebill-keypoints.png`
 The older chick: a **big, scruffy, grey downy shape**, sitting in the nest, short bill up and slightly open, begging.
 Shoebill-chick-ugly, not cute: lumpy grey fluff `#8f8f8f`/`#a8a8a8`, dark bill, no shine in the eye. (CD: "the older
 chick is only a big grey shape".) No pecking, no injury, no second chick in the drawing.
 - Anchor bottom-centre. Bbox x -150..150, y -300..0; bill tip about (+30,-300).
 - Shots: s146-s163, s164-s194 (many), tally icons at scale 0.16.
 
-### `shoebill_nest`
+### `shoebill_nest` **DONE (illustrator, 2026-11-11)**: `assets/previews/044-shoebill-spare-chick-assets.png`; key points/bbox check `assets/previews/044-shoebill-keypoints.png`
 Flattened platform of trampled reeds and grass at water level, seen low 3/4: wide flat oval top, stems sticking out of
 the rim, dark wet underside meeting the water. Must read on hot-day, dusk, night and cream backgrounds.
 - Anchor = centre of the top surface. Bbox x -420..420, y -60..+80; eggs and chicks sit on y about -10.
 - Shots: ~65 (s002, s003, s056, Water Bucket, First Egg, Spare, tally icons at 0.2).
 
-### `shoebill_egg_hatched`
+### `shoebill_egg_hatched` **DONE (illustrator, 2026-11-11)**: `assets/previews/044-shoebill-spare-chick-assets.png`; key points/bbox check `assets/previews/044-shoebill-keypoints.png`
 Bottom half of a chalky white egg (matching `croc_egg`, lightly stained) with a zigzag broken rim, plus the top shell
 piece lying beside it to the right.
 - Anchor centre. Bottom half x -80..80, **rim at y -60**, base y +110; loose top piece about (+130,+80).
@@ -90,63 +93,77 @@ piece lying beside it to the right.
 Marbled lungfish: long eel-like body, olive-brown with darker **marbled blotches**, pale belly, small eye, and the
 **thin thread-like paired fins** (two pairs) that make it a lungfish; tail tapers to a point.
 - Anchor centre, ~460x110 (x -230..230, y -55..55). Shots: s004, s006, s009-s015, s027, s076, s109, s112-s113.
+- **Done** (illustrator, 2026-11-11): `assets/library/lungfish.json`, preview `assets/previews/044-animals.png`.
 
 ### `lungfish_cocoon`
 Cross-section cutaway of dry cracked mud with a **lungfish curled in a U inside a brown mud cocoon** (oval chamber,
 slightly darker lining, a small breathing tube to the top). For the "waiting for rain" beat.
 - Anchor centre, ~360x200. Shots: s005-s008.
+- **Done** (illustrator, 2026-11-11): `assets/library/lungfish_cocoon.json`, preview `assets/previews/044-animals.png`.
 
 ### `catfish`
 Large African sharptooth catfish: long, dark grey-olive back, paler grey sides, **broad flat head with long whisker
 barbels**, long dorsal fin, rounded tail.
 - Anchor centre, ~520x170 (x -260..260, y -85..85); hold point about (-60,0). Shots: s004, s063, s076, s079-s081.
+- **Done** (illustrator, 2026-11-11): `assets/library/catfish.json`, preview `assets/previews/044-animals.png`.
 
 ### `nile_monitor`
 Nile monitor lizard, side view on the ground: long and heavy, **dark olive-black with yellow spotted bands**, long
 forked tongue optional, strong claws, very long keeled tail to the left. Calm adult.
 - Anchor bottom-centre (ground y 0). Bbox x -360..360 (tail to the left), y -150..0. Also used as a black silhouette.
 - Shots: s067, s069-s074, s084, s109.
+- **Done** (illustrator, 2026-11-11): `assets/library/nile_monitor.json`, preview `assets/previews/044-animals.png`.
 
 ### `water_snake`
 Small slim water snake swimming in an S curve, olive-brown with a dark stripe, pale belly, small head facing right.
 - Anchor centre, ~380x80. Shots: s072-s076, s109, s112-s113.
+- **Done** (illustrator, 2026-11-11): `assets/library/water_snake.json`, preview `assets/previews/044-animals.png`.
 
 ### `hamerkop`
 Hamerkop: small dull brown wading bird, **hammer-shaped head** (long crest backward balancing a stout dark bill),
 medium legs. About 0.4 of the shoebill's height in the shots.
 - Anchor bottom-centre, ~260x300. Shots: s061-s062.
+- **Done** (illustrator, 2026-11-11): `assets/library/hamerkop.json`, preview `assets/previews/044-animals.png`.
 
 ## Doug's costumes (worn props: anchor = Doug's hips, listed after Doug at the same x/y/scale; head, face and cap stay visible)
 
 ### `lungfish_costume` (stand pose)
+**DONE** (illustrator 2026-11-11): `assets/library/lungfish_costume.json`, preview `assets/previews/044-costumes.png`.
 Homemade felt lungfish onesie: olive-brown with sewn darker marbling, two pairs of floppy thread fins on the sides, long
 tapering felt tail out of the lower back to about (-200,+60). Bbox about x -200..+110, y -180..+90. Shots: s022-s025.
 
 ### `catfish_costume` (stand pose, also arms_up)
+**DONE** (illustrator 2026-11-11): `assets/library/catfish_costume.json`, preview `assets/previews/044-costumes.png`.
 Grey-olive felt catfish suit, flat felt head-flap over the chest with **long drooping whisker barbels** hanging down,
 felt dorsal fin on the back, tail to the left. Bbox about x -200..+110, y -180..+90. Shots: s063-s065.
 
 ### `monitor_costume` (stand pose)
+**DONE** (illustrator 2026-11-11): `assets/library/monitor_costume.json`, preview `assets/previews/044-costumes.png`.
 Dark olive felt lizard suit with yellow sewn spots, claw mitts, a long felt tail out of the back to about (-300,+100).
 Bbox about x -300..+110, y -180..+100. Shots: s082-s084.
 
 ### `monitor_costume_empty`
+**DONE** (illustrator 2026-11-11): `assets/library/monitor_costume_empty.json`, preview `assets/previews/044-costumes.png`.
 The same lizard suit lying flat and empty on the bank (death beat). Anchor bottom-centre, ~520x90 (x -260..260, y -90..0).
 **Tail tip at (-250,-20)**: the cap sits there in s085.
 
 ### `croc_hatchling_costume` (sit pose)
+**DONE** (illustrator 2026-11-11): `assets/library/croc_hatchling_costume.json`, preview `assets/previews/044-costumes.png`.
 Small green felt crocodile-hatchling suit (green `#5f8a3a`, darker sewn scute bands, felt snout visor on the chest,
 stubby legs, tail out to the left to about (-300,+80)). Not white (that is the 2025 white alligator suit).
 Bbox about x -300..+110, y -180..+80. Shots: s121-s123.
 
 ### `croc_hatchling_costume_empty`
+**DONE** (illustrator 2026-11-11): `assets/library/croc_hatchling_costume_empty.json`, preview `assets/previews/044-costumes.png`.
 The same suit lying empty on the bank. Anchor bottom-centre, ~420x110 (x -210..210, y -110..0); **cap point (0,-110)**. Shot: s124.
 
 ### `tilapia_costume` (stand pose)
+**DONE** (illustrator 2026-11-11): `assets/library/tilapia_costume.json`, preview `assets/previews/044-costumes.png`.
 Grey-silver felt tilapia (a deep-bodied perch-like fish) suit with faint vertical bars, spiny felt dorsal fin on the
 back, fan tail to the left. Bbox about x -200..+110, y -180..+90. Shot: s158.
 
 ### `shoebill_chick_costume` (stand pose)
+**DONE** (illustrator 2026-11-11): `assets/library/shoebill_chick_costume.json`, preview `assets/previews/044-costumes.png`.
 Doug's grey, scruffy, **deadpan** shoebill-chick suit: lumpy grey felt fluff body, a short felt chick bill on the chest
 (not over the face), no cute features. Bbox about x -120..+100, y -180..+100. Shots: s188-s190.
 
@@ -157,24 +174,30 @@ Floating mat of tangled grass, papyrus stems and weed in open water, flat-topped
 ripples round it. Must look like it could hold a 5 kg bird and not an 80 kg man.
 - **Anchor = centre of the top surface on the waterline (0,0).** Bbox x -330..330, y -40..+30; standing surface y -20.
 - Shots: s066, s086-s105 (19 shots).
+- **Done** (illustrator, 2026-11-11): `assets/library/floating_mat.json`, preview `assets/previews/044-props.png`.
 
 ### `wooden_spoon`
 Plain wooden kitchen spoon, horizontal, bowl to the right. Anchor centre, ~220x50. Shots: s064, s066.
+- **Done** (illustrator, 2026-11-11): `assets/library/wooden_spoon.json`, preview `assets/previews/044-props.png`.
 
 ### `garden_hose_claws`
 A coiled green garden hose lying on a lawn with **small lizard claws** along it and one end turned up as a head with
 an **annoyed face** (heavy lid, flat mouth). Anchor bottom-centre, ~520x200. Shot: s077.
+- **Done** (illustrator, 2026-11-11): `assets/library/garden_hose_claws.json`, preview `assets/previews/044-props.png`.
 
 ### `wooden_clog`
 A big wooden shoe (Dutch clog), pale wood, side view, toe right. Anchor bottom-centre, ~360x160. Shot: s051.
+- **Done** (illustrator, 2026-11-11): `assets/library/wooden_clog.json`, preview `assets/previews/044-props.png`.
 
 ### `watering_can`
 Classic metal garden watering can, side view, spout to the right with a rose. Anchor bottom-centre, ~300x220. Shots: s135-s136.
+- **Done** (illustrator, 2026-11-11): `assets/library/watering_can.json`, preview `assets/previews/044-props.png`.
 
 ### `spare_tyre_boot`
 Rear view of a small car with the boot open, a **spare tyre** lying in the boot well. Leave clear space at the
 lower right of the tyre for a grey "IN CASE" tag (we overlay it at about (+250,+160)). Anchor centre, ~640x420.
 Shots: s169-s170.
+- **Done** (illustrator, 2026-11-11): `assets/library/spare_tyre_boot.json`, preview `assets/previews/044-props.png`.
 
 ## Exact shot usage (generated from shotlist.json; this list wins over the shot numbers above)
 - `catfish`: s004, s063, s076, s079, s080, s081

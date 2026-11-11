@@ -1,0 +1,387 @@
+{
+ "name": "watering_can",
+ "description": "Classic galvanised metal garden watering can, side view: tapered cylinder body with shading, highlight stripe and seams, big arched handle at the back, long spout to the right ending in a rose with holes. Anchor bottom-centre, ~290x220 (x -138..152, y -216..8).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "garden",
+  "watering can",
+  "rain",
+  "metal"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     -96,
+     -60
+    ],
+    [
+     -128,
+     -110
+    ],
+    [
+     -110,
+     -176
+    ],
+    [
+     -50,
+     -208
+    ],
+    [
+     10,
+     -190
+    ],
+    [
+     30,
+     -150
+    ]
+   ],
+   "color": "#000000",
+   "width": 18
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -96,
+     -60
+    ],
+    [
+     -128,
+     -110
+    ],
+    [
+     -110,
+     -176
+    ],
+    [
+     -50,
+     -208
+    ],
+    [
+     10,
+     -190
+    ],
+    [
+     30,
+     -150
+    ]
+   ],
+   "color": "#a9b5bd",
+   "width": 10
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     -40
+    ],
+    [
+     118,
+     -150
+    ],
+    [
+     128,
+     -142
+    ],
+    [
+     54,
+     -20
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#a9b5bd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     48,
+     -32
+    ],
+    [
+     120,
+     -146
+    ]
+   ],
+   "color": "#e2e8ec",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     114,
+     -152
+    ],
+    [
+     132,
+     -168
+    ],
+    [
+     150,
+     -150
+    ],
+    [
+     130,
+     -136
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#a9b5bd"
+  },
+  {
+   "type": "ellipse",
+   "x": 141,
+   "y": -160,
+   "rx": 10,
+   "ry": 20,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#c7d0d6",
+   "rotate": 0
+  },
+  {
+   "type": "ellipse",
+   "x": 138,
+   "y": -170,
+   "rx": 1.5,
+   "ry": 1.5,
+   "width": 1,
+   "color": "#000000",
+   "fill": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 143,
+   "y": -162,
+   "rx": 1.5,
+   "ry": 1.5,
+   "width": 1,
+   "color": "#000000",
+   "fill": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 139,
+   "y": -154,
+   "rx": 1.5,
+   "ry": 1.5,
+   "width": 1,
+   "color": "#000000",
+   "fill": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 144,
+   "y": -148,
+   "rx": 1.5,
+   "ry": 1.5,
+   "width": 1,
+   "color": "#000000",
+   "fill": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 141,
+   "y": -176,
+   "rx": 1.5,
+   "ry": 1.5,
+   "width": 1,
+   "color": "#000000",
+   "fill": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 146,
+   "y": -156,
+   "rx": 1.5,
+   "ry": 1.5,
+   "width": 1,
+   "color": "#000000",
+   "fill": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -140
+    ],
+    [
+     50,
+     -140
+    ],
+    [
+     60,
+     0
+    ],
+    [
+     -110,
+     0
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#a9b5bd",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -140
+    ],
+    [
+     -70,
+     -140
+    ],
+    [
+     -74,
+     0
+    ],
+    [
+     -110,
+     0
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7c8890",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     -140
+    ],
+    [
+     50,
+     -140
+    ],
+    [
+     60,
+     0
+    ],
+    [
+     36,
+     0
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#7c8890",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -140
+    ],
+    [
+     -12,
+     -140
+    ],
+    [
+     -12,
+     0
+    ],
+    [
+     -32,
+     0
+    ]
+   ],
+   "width": 0,
+   "color": "#000000",
+   "fill": "#e2e8ec",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -105.1,
+     -104
+    ],
+    [
+     56.5,
+     -104
+    ]
+   ],
+   "color": "#6c777e",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -107.1,
+     -36
+    ],
+    [
+     61.3,
+     -36
+    ]
+   ],
+   "color": "#6c777e",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -140
+    ],
+    [
+     50,
+     -140
+    ],
+    [
+     60,
+     0
+    ],
+    [
+     -110,
+     0
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -25,
+   "y": -140,
+   "rx": 76,
+   "ry": 13,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#59636a"
+  },
+  {
+   "type": "ellipse",
+   "x": -25,
+   "y": 0,
+   "rx": 85,
+   "ry": 8,
+   "width": 5,
+   "color": "#000000",
+   "start": 0,
+   "end": 180
+  }
+ ]
+}

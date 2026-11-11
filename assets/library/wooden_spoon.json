@@ -1,0 +1,143 @@
+{
+ "name": "wooden_spoon",
+ "description": "Plain wooden kitchen spoon lying horizontal, bowl to the right: pale wood with grain lines and a darker hollow in the bowl. Anchor centre, ~222x50 (x -112..112, y -25..25).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "kitchen",
+  "spoon",
+  "wood"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -5
+    ],
+    [
+     -100,
+     -7
+    ],
+    [
+     20,
+     -6
+    ],
+    [
+     30,
+     -8
+    ],
+    [
+     30,
+     8
+    ],
+    [
+     20,
+     6
+    ],
+    [
+     -100,
+     7
+    ],
+    [
+     -110,
+     5
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "fill": "#d9a866",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 66,
+   "y": 0,
+   "rx": 46,
+   "ry": 23,
+   "width": 4,
+   "color": "#000000",
+   "fill": "#d9a866"
+  },
+  {
+   "type": "ellipse",
+   "x": 70,
+   "y": 0,
+   "rx": 34,
+   "ry": 15,
+   "width": 0,
+   "color": "#000000",
+   "fill": "#b98648",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 76,
+   "y": -4,
+   "r": 10,
+   "color": "#e8c088",
+   "density": 0.4
+  },
+  {
+   "type": "ellipse",
+   "x": 70,
+   "y": 0,
+   "rx": 34,
+   "ry": 15,
+   "width": 2,
+   "color": "#8a5a28"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -96,
+     -2
+    ],
+    [
+     -40,
+     -1.4
+    ],
+    [
+     10,
+     -2
+    ]
+   ],
+   "color": "#a87238",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -96,
+     2
+    ],
+    [
+     -40,
+     2.6
+    ],
+    [
+     10,
+     2
+    ]
+   ],
+   "color": "#a87238",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": -96,
+   "y": 0,
+   "rx": 3,
+   "ry": 2.4,
+   "width": 1,
+   "color": "#000000",
+   "fill": "#6a4520"
+  }
+ ]
+}
