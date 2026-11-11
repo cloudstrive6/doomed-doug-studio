@@ -54,3 +54,4 @@ No changes. (If the analyst later sees C win Test & compare, the hero-profile-pl
 Back to the graphic designer for A and B, then `package check`, then the visual screener's thumbnail round. A and B come back to me only if the
 fixes change the concept; a cosmetic pass with the screener's PASS is enough.
 THUMBNAILS: A REVISE, B REVISE, C APPROVED
+- 2026-11-11 showrunner: script 3 rounds (2 FAIL fact/structure), art assets 1 round (+chick redraw), keyframes 2 rounds, thumbnails 2 rounds (A/B revised, red arrow removed per bible). Risks: kid appeal of baby-bird ending, siblicide wording must stay 'let die'; title omits 'Doug' (no-Doug test, exclude from comparison); thumbnail A is also opening image.
