@@ -63,3 +63,85 @@ gulp are bloodless, and the empty costumes stand in for the deaths.
 - s147/s160/s188 must be re-rendered with the new chick bill before contact sheets are judged.
 - In the test frames the wordart sits well clear of the death counter and the caption bar. I will run the full safe-area and variety
   checks at keyframe review.
+
+---
+
+# 044 keyframe review (art director, 2026-11-11)
+
+**Verdict: FAIL.** 9 blocking fixes: 8 for the director and 1 asset fix for the illustrator. 9 more non-blocking fixes are listed after them.
+Re-render the listed shots with `python -m studio keyframes 044-shoebill-spare-chick --shots ...` and send them back for a delta review.
+
+What I checked: all 195 shots plus the endslate on contact sheets 01-17. I looked at full-res crops of s025, s047, s067, s079, s103, s123, s140,
+s147, s158, s160, s164 and s176.
+
+What already passes:
+- Doug is on-model in every shot. The cap is visible on ghost Doug and on all six costumes.
+- The two tiers hold: the birds, animals and props are detailed and Doug is crude.
+- There is no gore. Every death is cartoon: ghost, empty costume, cap left behind, or a cut to black at s191.
+- The counter is correct from 336 to 343, with exactly 7 ticks (s026, s066, s085, s104, s124, s161, s191).
+- Caption bars match the item names. Item title cards are red, and section headers (FISH. / REPTILES. / FAMILY.) are white.
+- The olive swamp chapters use the white-to-yellow WordArt override. No WordArt sits on green ground.
+- Nothing touches the counter zone, and all text stays inside the safe area.
+- Silhouette reveals are right: the monitor at s067 then s069, the croc at s106 then s107, the python at s118 then s119. On the brown bank the glow is the
+  purple speckle, as the bible requires.
+- D1 is resolved: the cap now sits on the crown of `shoebill_looking_down` (s160).
+- The day ramp reads well: blue day, overcast swamp, hot pale day, dusk, night, then black for the boss death.
+
+## Blocking fixes
+
+### Director (`build/gen_shotlist.py`)
+1. **s164-s177 (THE SPARE): the spare chick never appears.** The chapter is about the second chick, but the nest shows only the big chick. The other half
+   holds an orange goldfish (s164-s173) or an "EMPTY" tag (s166). In s176 the "peep peep" begging comes from empty nest. Put a second, visibly smaller
+   chick (`shoebill_chick_big` at about 0.55x the big chick's scale, facing the parent) on the right half in s165, s166, s171-s174, s176 and s177.
+   Remove the goldfish. In s166, change "ONLY ONE" so it points at the big chick, and drop "EMPTY". In s176, start the "peep" text from the small chick's bill.
+2. **s123: two shoebills in one frame.** `shoebill_collapse` lands on Doug while `shoebill_statue` stands behind him, so the viewer sees two birds.
+   Keep only the statue, looming right over Doug ("So is the shoebill" means it is waiting too). The death reads on the cut to s124.
+   Alternatively keep only the collapse, but never both.
+3. **s025: Doug is not in the frame.** The collapse happens at the waterline in the top-left corner, with a brown sliver under the wing. The viewer can't tell
+   it hit Doug. Bring the collapse down to mid-frame and show Doug's head and cap (lungfish costume) popping up into the splash. Keep "GASP" on Doug's side,
+   clear of the wing.
+4. **s079-s081 (THE MONITOR): wrong prey.** The bird is "handling" a **catfish** for ten minutes in the monitor chapter. Put `nile_monitor`
+   (scaled to fit, tail hanging from the bill) or `water_snake` in the bill. The clock progression across the three shots can stay.
+5. **s041-s047: the same composition 7 times** (Doug on the log at left, statue at right). s042, s043, s044 and s045 are almost identical frames. Vary them:
+   - s042: tight close-up on Doug's face with the "4 SECONDS" label (he blinks).
+   - s043: big statue head close-up (`shoebill_statue` about 1.4, cropped at the chest).
+   - s044: keep the wide shot with "NOT FOOD".
+   - s045: Doug alone, `flat` expression, on cream.
+6. **s103: Doug stands on open water.** The mat splits but Doug isn't on either piece. Put him on the left mat piece, tilted with it, `gritted`,
+   so s104 ("the mat kept Doug") follows on.
+7. **s047: the "bill" is an unreadable pentagon.** The red-outlined beige shape reads as a road sign. Use `shoebill_head_profile` large, with a small Doug
+   drawn on top of the bill between the hook and the base, sized to fit inside its outline, so it reads "fits in its bill".
+8. **s117-s119 and s125: off-ramp sky colours inside THE BABY CROCODILE.** s117-s119 use savanna night navy `#1b2f5a`, and s125 uses the dusk orange that
+   belongs to THE FIRST EGG. That spends night and dusk before the Family chapters and breaks "every shot of an item stays on its item colour".
+   Keep s117-s119 on the swamp overcast (`#b9c4a8` / `#5d6b45`). The python's red glow still reads on it, or use the purple glow. Put s125 on the
+   swamp overcast too. s120 stays cream (diagram card).
+
+### Illustrator (asset)
+9. **`shoebill_chick_big` still reads as ears.** Even after my fix, the bill at shot scale (s147-s193, 30+ shots) is a dark upright wedge plus a dark
+   gape, and on the contact sheets it still reads as two dark ears or horns. Make two changes:
+   - Turn the bill to point **forward-right, about 15-25° above horizontal** (like the adult's profile), not up.
+   - Recolour the mandibles to the adults' horn/tan bill tones with a darker tip and hook, keeping the dark gape small.
+
+   Keep the anchor, bbox and the cap/feeding point the shots use, or give the director the new bill-tip point. Preview it at 0.6 and 0.16 on dusk `#e88a4a`
+   and night `#3b3550`, then send it back to me.
+
+## Non-blocking (director)
+10. **Variety in the nest chapters.** The same wide nest framing carries about 30 of the shots from s127 to s177.
+    - s133/s134 and s137/s138 are identical pairs. Make s134 a close-up on the bill pouring and s138 a cream card with 2 eggs, then 1 chick.
+    - In s145-s150 and s155-s157, use a low close-up of the big chick next to the egg for s148 (size gap) and s157 (SECOND).
+11. **s140: the water misses Doug.** The stream rises from the nest and lands on the egg, and Doug's head gets a grey speckle cloud that reads as flies or dust.
+    Run the stream from the bill tip onto Doug's cap, with a small `water_splash` on his head.
+12. **s139:** the narration says "sits down", so use the `sit` pose on the nest rim.
+13. **s071:** the label "AFRICA'S BIGGEST LIZARD, NEARLY 2 M" has 6 words, and the limit is 4. Use "NEARLY 2 M" on the dashed length line plus
+    a "BIGGEST LIZARD" label (only 2 labels on screen).
+14. **Orange goldfish** in s030, s035, s037 and s039 (the tally icons): this is an aquarium fish in an African swamp, and it is also the prop that confuses fix 1.
+    Swap it for the silver fish used in s143/s152, or for `lungfish` / `catfish`.
+15. **s062:** the "NOT A STORK." sticky note is unreadable at guide scale 0.55. Drop it here (s180 carries it at hero scale), or show the guide at 1.1.
+16. **s194 (count beat):** the field guide is the outcome card, so add the bible's red "NO" stamp at (+140,+50), 110 units (Doug died).
+    The sticky notes can stay, clear of the spine and coffee ring.
+17. **s006:** the swimming lungfish floats in the sky over the dry mud. Put it at the left edge on the last puddle line, or drop it and keep only the arrow
+    from "NO OPEN WATER" to the cocoon. s005-s008 also repeat one layout 4 times, so make s008 a closer crop on the cocoon under the cloud.
+18. **s009/s010, s013/s014, s061/s062:** these are near-duplicate neighbours. Push one of each pair in closer (bird close-up, or Doug close-up).
+
+Re-review scope: 1-9 are blocking. Send me s006, s025, s041-s047, s079-s081, s103, s117-s119, s123, s125, s133-s194 (after the chick asset is redrawn) and
+any shots changed under 10-18.

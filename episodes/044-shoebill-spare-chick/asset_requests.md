@@ -68,6 +68,7 @@ with a sharp edge line and a clear **hook at the tip**, blotchy horn colour; sma
 - Shots: s048-s051, s053, s061 (small), s050 (small, podium).
 
 ### `shoebill_chick_big` **DONE (illustrator, 2026-11-11)**: `assets/previews/044-shoebill-spare-chick-assets.png`; key points/bbox check `assets/previews/044-shoebill-keypoints.png`
+**REDRAWN (illustrator, 2026-11-11, AD fix 9 / VS fix 1):** bill now big, horizontal, clog-shaped, horn-grey `#9a958a`, dark hooked nail, pointing right at eye height; eye just above the bill base. Anchor and bbox unchanged (x -147..156, y -300..0); **bill tip moved to ~(+155,-210)**. Previews: `assets/previews/044-chick-redraw.png`, `assets/previews/044-chick-redraw-bgs.png` (0.75/0.6/0.16 on dusk and night), `assets/previews/044-chick-redraw-shots.png` (s162, s189, s165, s188, s184, s195).
 The older chick: a **big, scruffy, grey downy shape**, sitting in the nest, short bill up and slightly open, begging.
 Shoebill-chick-ugly, not cute: lumpy grey fluff `#8f8f8f`/`#a8a8a8`, dark bill, no shine in the eye. (CD: "the older
 chick is only a big grey shape".) No pecking, no injury, no second chick in the drawing.
