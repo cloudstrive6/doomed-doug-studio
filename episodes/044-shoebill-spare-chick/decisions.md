@@ -55,3 +55,23 @@ Back to the graphic designer for A and B, then `package check`, then the visual 
 fixes change the concept; a cosmetic pass with the screener's PASS is enough.
 THUMBNAILS: A REVISE, B REVISE, C APPROVED
 - 2026-11-11 showrunner: script 3 rounds (2 FAIL fact/structure), art assets 1 round (+chick redraw), keyframes 2 rounds, thumbnails 2 rounds (A/B revised, red arrow removed per bible). Risks: kid appeal of baby-bird ending, siblicide wording must stay 'let die'; title omits 'Doug' (no-Doug test, exclude from comparison); thumbnail A is also opening image.
+- 2026-11-11 visual screener (post-render): VERDICT (main): PASS · VERDICT (shorts): PASS. Details in visual_review.md "Post-render". Advisory only: s065 collapse sprite hides Doug's head/cap for ~1.2 s (shift shoebill_collapse to x~900 if the shot is ever re-cut).
+
+## 2026-11-11, creative director: final package gate (APPROVED)
+- Read: metadata.json (title, alt_titles, description, tags, playlist, packaging), build/chapters.txt, build/thumbnail.png + thumbnail_small.png,
+  build/samples/f_001-f_003 (15/45/75 s), the script opening through item 1, qc.json (0 problems, 662.7 s) and visual_review.md "Post-render"
+  (main PASS, shorts PASS).
+- Title kept: "Why the Shoebill Hatches Two Chicks and Lets One Die" (52 chars, T9, full subject visible on mobile). No alt is clearly stronger:
+  "Why Shoebill Parents Let Their Second Chick Die" is the same promise with less detail; the "creepiest bird" alts are vaguer and sit on B/C
+  in Test & compare already. The promise is delivered at item 9 The Spare, and "lets one die" matches the script's "usually let die" and the AEWA source.
+  No "Doug" in the title is consistent with the 2026-11-09 insight (no-Doug titles 2.76% vs 1.9% day 1-3 CTR).
+- Thumbnail A (revised): arrow gone, nest enlarged. At 168x94 the pale stare, the big chick with the fish, Doug alone with his cap, and THE SPARE
+  each read. The words add to the title without repeating any of them. No pecking, injury or cute chick. I would click it.
+- Opening: frame 0 is thumbnail A; sentence 1 gives the height and the spare-chick stake, the payoff promise ("Doug hatches into its nest as the
+  spare") lands by about 0:08, The Lungfish at 0:11, the twist ("Here's the problem." / the collapse) well inside 45 s. Samples at 15/45/75 s match
+  the narration (cocoon cutaway, low-oxygen swamp, field guide FRIEND? box), the counter shows 336, Doug is on model.
+- Description: honest, sources listed with links, disclaimer and AI-use disclosure present, 3 hashtags, {{CHAPTERS}} filled at upload from
+  chapters.txt (10 chapters, starts 0:00, all >= 10 s). Tags and playlist `animals` fine.
+- Non-blocking: the s065 advisory (collapse sprite covers Doug's head ~1.2 s) stays a director note for any re-cut; it does not hold the upload.
+- Series bible updated: counter 336 -> 343 (7 deaths), flat deaths 340/342/343 noted, 044 row added to the episode log.
+FINAL: APPROVED

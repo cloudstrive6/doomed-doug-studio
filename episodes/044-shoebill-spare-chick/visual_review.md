@@ -102,3 +102,41 @@ VERDICT: PASS (A PASS, B PASS, C PASS)
 ### C: "IT WAITS": PASS (unchanged from round 1)
 
 All three variants are cleared for the packaging gate.
+
+## Post-render (2026-11-11)
+Checked: `build/final.mp4` (1920x1080, 60 fps, 662.7 s), all 22 `build/samples/` frames (t = 15 s + 30 s steps, mapped to shots via
+`timing.json`), full-res extracts at 1 s / 135 s / 225 s / 577 s / 591 s / 645-661 s, a 3.5 s sweep of the 560-646 s ending, and `qc.json`
+(no problems). I also checked all three thumbnails at full size and as `_small` versions (168x94, 3x nearest-neighbour), plus the three
+Shorts: previews, a frame every 4 s from each mp4 (1080x1920), the last 3 s and the final frame, and a full-res crop of the title area.
+
+### Main video + thumbnail
+- There are no black or blank frames, glitches or frozen shots. The 0 s opening frame is thumbnail A as intended. The death-counter path
+  336 -> 343 (seven deaths) is consistent with the title and the end. The one dark frame (~633 s, black with only Doug's cap) is the
+  s191 death-cut gag and lasts under 2 s.
+- Pictures match the narration across all samples. The s040 split frame looks empty in its sample (135 s), but that is the mid-reveal
+  state; the right half builds to the statue, THE ACTUAL HUNT and the stopwatch by 138 s.
+- Payoff: the title promise (two chicks, one let die) is delivered in THE SPARE chapter. That covers siblicide, IGNORED, "They let it
+  happen", and Doug hatching in as the second chick and dying. The ending is clean: s194 recap, s195 BABYSIT? comment prompt, end slate.
+  There is no withheld payoff and no "???" teaser card.
+- Policy: no gore, blood or injured chicks. Deaths are cartoon (ghost Doug, cap left in the nest). The tone is not kid-coded; the chick
+  drawings are scruffy, not cute.
+- Thumbnails A/B/C: unchanged since thumbnail round 2 PASS. A (the live thumbnail) still reads at 168x94: the adult's pale stare, the
+  big chick with the fish, Doug alone at the nest edge, and THE SPARE. It fits the title and is not misleading.
+- Advisory, not blocking (director): **s065** "It is not a greeting the shoebill returns." When `shoebill_collapse` appears
+  (appear 0.55, x 760, scale 0.8), it covers Doug's head and cap for the last ~1.2 s. The sliver of cap then reads as a red eye on the
+  bird. If s065 is touched again, move `shoebill_collapse` to x ~900 (or raise Doug's layer above it) so his face and cap stay visible
+  as the bird lands beside him. It is too short and does not affect the story, so it does not hold the upload.
+
+### Shorts
+- short01 (47.1 s, s164-s177), short02 (37.9 s, s107-s115), short03 (51.0 s, s128-s141) are all 1080x1920.
+- The red titles with a black outline are readable on every background, including the dark purple of short01. The full 16:9 scene is
+  letterboxed to width, so nothing is cut off at the sides (map, truck, nest and scale are all whole). The white subtitles with outline
+  are legible in the lower third. @DoomedDoug is present.
+- End cards: FULL VIDEO: TAP BELOW, Doug waving, and a red arrow pointing straight down in all three. The outros match shorts.json
+  ("other six deaths" in short02, death 340, is correct).
+- Each clip delivers its own title (spare/insurance; 80 g croc, swallowed whole; bill-watering of both eggs). No teaser card and no gore.
+- Minor, not blocking: the in-scene DOUG DEATHS label shrinks to ~28 px tall at 1080 wide. It is readable but small; this is the
+  existing Shorts layout, not specific to this episode.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
