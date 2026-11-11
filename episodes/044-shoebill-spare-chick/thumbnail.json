@@ -1,0 +1,101 @@
+{
+ "background": "#2bb3c9",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#2bb3c9",
+   "color": "#2bb3c9",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 420,
+   "y": 260,
+   "r": 340,
+   "fill": "#6fd6e4",
+   "color": "#6fd6e4",
+   "width": 1
+  },
+  {
+   "type": "asset",
+   "name": "shoebill_statue",
+   "x": 330,
+   "y": 1250,
+   "scale": 1.95,
+   "silhouette": true,
+   "glow_r": 0,
+   "rim": {
+    "color": "#ffffff",
+    "px": 6
+   }
+  },
+  {
+   "type": "asset",
+   "name": "shoebill_statue",
+   "x": 330,
+   "y": 1250,
+   "scale": 1.95
+  },
+  {
+   "type": "asset",
+   "name": "shoebill_nest",
+   "x": 905,
+   "y": 645,
+   "scale": 1.0
+  },
+  {
+   "type": "asset",
+   "name": "shoebill_chick_big",
+   "x": 770,
+   "y": 637,
+   "scale": 0.95
+  },
+  {
+   "type": "asset",
+   "name": "silver_fish",
+   "x": 950,
+   "y": 448,
+   "scale": 0.55,
+   "rotate": -10
+  },
+  {
+   "type": "doug",
+   "x": 1165,
+   "y": 548,
+   "scale": 0.56,
+   "pose": "stand",
+   "expression": "flat",
+   "facing": "left"
+  },
+  {
+   "type": "asset",
+   "name": "shoebill_chick_costume",
+   "x": 1165,
+   "y": 548,
+   "scale": 0.56,
+   "flip": true
+  },
+  {
+   "type": "text",
+   "text": "THE SPARE",
+   "x": 985,
+   "y": 150,
+   "size": 118,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 560
+  }
+ ]
+}

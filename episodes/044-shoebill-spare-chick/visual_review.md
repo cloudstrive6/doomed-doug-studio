@@ -34,3 +34,71 @@ The s097 pair is still fairly close together but reads as two birds. No other ac
 
 ### Next
 The thumbnail (s001), sample frames, QC, the A/B/C thumbnails and the Shorts get screened in the post-render round.
+
+## Thumbnails round 1 (2026-11-11)
+I screened `build/thumbnail.png`, `thumbnail_b.png` and `thumbnail_c.png` at 1280x720, and their `_small` versions at 168x94
+(also viewed at 4x nearest-neighbour). I also checked a full-res crop of Doug in A.
+All three are free of gore (no blood, no injured animals, the croc hatchling in B is intact) and none of them has a kids'-show tone.
+Doug is on-model in all three: red cap, white head, cartoon expressions in our own lines. The text is spelled correctly, is not cropped,
+and does not repeat any word from its paired title.
+
+VERDICT: FAIL (A FAIL, B FAIL, C PASS)
+
+### A: "THE SPARE" / "Why the Shoebill Hatches Two Chicks and Lets One Die": FAIL
+1. **Graphic designer:** delete the red `arrow` element in `thumbnail.json` (from [1180,250] to [1170,365]). Style bible §2 grammar
+   says "no red arrows, no circles" on thumbnails. Arrows belong inside the video.
+2. **Graphic designer:** once the arrow is gone, Doug must work as the second focal point on his own. At 168x94 he is about 10 px tall,
+   grey costume on a grey/tan nest. Raise `shoebill_chick_costume` scale from 0.42 to about 0.60 and keep him alone in the right
+   half of the nest (about x 1130, feet on the nest rim). The red cap and white head then read at feed size without help. The empty gap
+   between him and the big chick is the story, so keep it.
+- Advisory (no change required): the front-on bill reads more like a tan mask than a shoe at feed size. The pale stare still sells it.
+  A three-quarter turn showing the bill's length would read faster. The big chick is fine.
+
+### B: "EATS BABY CROCS" / "Why the Shoebill Is the Creepiest Bird on Earth": FAIL
+3. **Graphic designer / illustrator:** the croc hatchling is the hook of this variant, but at 168x94 it reads as a brown twig or fern frond
+   crossing the bill. Fixes: (a) give it a clear crocodile silhouette, meaning a long snout with a visible tooth row, four splayed legs
+   and a tapering tail, in a greener olive (around #6b7a2e) that separates from the tan bill; (b) scale it up about 1.3x and angle it
+   about 30 degrees off vertical so the snout end clearly points down and out of the bill. Keep it intact, with no blood.
+- Advisory: the body is a round, pigeon-like oval. A taller, more upright stance with the neck showing would read more as a shoebill.
+  The orange field, the text and Doug in the reeds all read well at feed size. The cattail tops behind "BABY"/"CROCS" are acceptable
+  because the outlined text stays legible.
+
+### C: "IT WAITS" / "Every Reason the Shoebill Is the Creepiest Bird Alive": PASS
+The strongest of the three. The profile head and huge bill make the subject obvious in under a second at 168x94, and the bill tip hanging
+just over Doug's cap is the threat. His gritted-teeth face reads, and the text is large and clean. It is not misleading: the shoebill's
+motionless wait-and-strike hunting is in the script. Advisory only: the lungfish costume reads as a brown lump at feed size. That is fine
+because Doug's head carries the moment.
+
+### Advisories for all three (art director, no change required this round)
+- Speckle/dither shading on the bird bodies is visible at full size. The style bible says thumbnails should look clean, and at feed size
+  it disappears, so this is not blocking.
+- Yellow (A, C) and white (B) outlined text differs from the style bible's "black on white / white on flat". This is accepted
+  channel practice and reads well.
+
+### Re-check needed
+A after fixes 1-2 and B after fix 3: re-render with `python -m studio thumbnail 044-shoebill-spare-chick` and re-screen the full-size and `_small` files.
+
+## Thumbnails round 2 (2026-11-11)
+I re-screened `build/thumbnail.png` and `thumbnail_b.png` (rendered 18:21) at 1280x720, their `_small` versions at 168x94 (also at
+4x nearest-neighbour), and a full-res crop of B's croc. C is unchanged and its small version still reads, so its round-1 PASS stands.
+There is still no gore and no kids'-show tone, the text is spelled correctly and not cropped, and Doug is on-model in all three.
+
+VERDICT: PASS (A PASS, B PASS, C PASS)
+
+### A: "THE SPARE": PASS
+1. **Fix 1 is done.** `thumbnail.json` has no `arrow` element, and there are no arrows or circles anywhere in the frame.
+2. **Fix 2 is done.** Doug is now about 2x larger, alone on the right end of the nest with his feet on the rim. At 168x94 the red cap
+   and white head stand out against the teal sky. The empty gap between him and the big chick (which has the fish in its bill)
+   tells the "spare" story without help. There are two clear focal points, the adult's pale stare and Doug, and nothing collides with
+   the text.
+
+### B: "EATS BABY CROCS": PASS
+3. **Fix 3 is done.** The hatchling now has a clear crocodile silhouette: an olive body (separate from the tan bill), dark bands,
+   splayed legs, a long snout and a tapering tail, plus a white rim. At 168x94 it reads as a croc in under a second. It is intact
+   and there is no blood. It crosses the closed bill, so it reads as prey held crosswise, which matches the text.
+- Advisory (not blocking): the snout points up and out rather than down as suggested, and only two legs show. Neither hurts readability.
+  The round-1 advisory about the round, pigeon-like body still applies.
+
+### C: "IT WAITS": PASS (unchanged from round 1)
+
+All three variants are cleared for the packaging gate.

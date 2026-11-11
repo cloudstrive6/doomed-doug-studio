@@ -1,0 +1,106 @@
+{
+ "background": "#1e8a5a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#1e8a5a",
+   "color": "#1e8a5a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 610,
+   "w": 1280,
+   "h": 110,
+   "fill": "#2d5c6e",
+   "color": "#2d5c6e",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     610
+    ],
+    [
+     1280,
+     610
+    ]
+   ],
+   "color": "#000000",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "reeds",
+   "x": 1180,
+   "y": 640,
+   "scale": 0.9
+  },
+  {
+   "type": "asset",
+   "name": "shoebill_head_profile",
+   "x": 420,
+   "y": 330,
+   "scale": 1.55,
+   "silhouette": true,
+   "glow_r": 0,
+   "rim": {
+    "color": "#ffffff",
+    "px": 6
+   }
+  },
+  {
+   "type": "asset",
+   "name": "shoebill_head_profile",
+   "x": 420,
+   "y": 330,
+   "scale": 1.55
+  },
+  {
+   "type": "doug",
+   "x": 1000,
+   "y": 590,
+   "scale": 0.58,
+   "pose": "stand",
+   "expression": "gritted",
+   "facing": "left",
+   "gear": [
+    "sweat"
+   ]
+  },
+  {
+   "type": "asset",
+   "name": "lungfish_costume",
+   "x": 1000,
+   "y": 590,
+   "scale": 0.58,
+   "flip": true
+  },
+  {
+   "type": "text",
+   "text": "IT WAITS",
+   "x": 900,
+   "y": 110,
+   "size": 150,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 700
+  }
+ ]
+}
