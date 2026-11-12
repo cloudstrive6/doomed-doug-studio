@@ -180,3 +180,15 @@ Anchor bottom-centre (the lowest hoof on y 0), about 720 x 520. Shots: s006-s008
 `-assets-snakes.png`, `-assets-creatures.png`, `-assets-thumbs.png` (168x94 read test), `-in-context.png` (coiled mamba on the mound
 top, `doug_cap` at y -510, hood silhouette) and `-costume-horse-on-doug.png` (the costume on stand/walk Doug, Doug `sit` in the saddle).
 The generator scripts are in `build/art/` (git-ignored scratch).
+
+---
+
+## Art-review fixes (illustrator, 2026-11-12)
+**DONE:** all 5 fixes from `art_review.md`. Previews are `assets/previews/045-black-mamba-warnings-assets-fixes.png` (sheet; tall drawings are cropped there as before) and
+`assets/previews/045-black-mamba-warnings-fixes-closeup.png` (close-up `studio art` render). Anchors are unchanged and the bboxes stay within the requested sizes.
+1. `brown_snake_eagle`, `_glide`, `_carrying_mamba`: the far eye is now about 60% size and drawn behind the head, so it peeks out over the front contour just above the bill base (3/4 view). It no longer touches the bill. The near eye and brow are unchanged. The costume hood is untouched.
+2. `mongoose`: four slim tapered legs. The hind legs have a forward knee and a backward hock, the front legs have an elbow bend, and all four have small dark paws with toe ticks.
+3. `snake_eagle_costume_off`: now one overlapping heap. The tabard is slumped with its top folded over, and shows the neck hole, a flopped shoulder strap with buckle, and the scalloped rows and hem. One cardboard wing lies diagonally across it, with a scalloped feathered trailing edge, feather slots, a crease where the outer panel bends up, and a dangling arm strap. The hood lies on its side against the right of the pile.
+4. `cobra_hooded`: the head is in profile, about 0.4 of the hood width, set in front of the hood's top centre. Its snout and eye point left, it has a straight closed mouth and a heavy brow, and the snout tapers.
+5. `mamba_combat_pair`: the necks are pressed together and lean inward. The right male arches over and bears down across the left male's neck (head facing left, snout tilted down). The left male shoves up under its jaw (head facing right). Both mouths are closed, and the heads sit at y about -416 and -358.
+Generators: `episodes/045-black-mamba-warnings/build/art/{birds,creatures,more,mambas}.py`.

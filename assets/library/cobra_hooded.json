@@ -1,6 +1,6 @@
 {
  "name": "cobra_hooded",
- "description": "Generic African cobra (Cape cobra colouring: yellow-brown #c9963a, darker rim, pale throat with a dark throat band and scute lines) reared up FACING LEFT, with a WIDE spread hood (about 200 wide, centred about (0,-320)), clearly broader than a mamba's narrow flap. Small head in profile on top of the hood, mouth closed, small dark eye under a brow. Loose coils on the ground. Anchor bottom-centre; bbox about x -150..+150, y -440..0.",
+ "description": "Generic African cobra (Cape cobra colouring: yellow-brown #c9963a, darker rim, pale throat with a dark throat band and scute lines) reared up FACING LEFT, with a WIDE spread hood (about 200 wide, centred about (0,-320)), clearly broader than a mamba's narrow flap. Head in profile (about a third of the hood width) set in front of the hood's top centre, snout pointing left, mouth closed, small dark eye under a brow. Loose coils on the ground. Anchor bottom-centre; bbox about x -150..+150, y -440..0.",
  "anchor": [
   0,
   0
@@ -4859,40 +4859,44 @@
    "type": "poly",
    "points": [
     [
-     20,
-     -434
+     36.8,
+     -396.9
     ],
     [
-     -4,
-     -437
+     16.6,
+     -407.9
     ],
     [
-     -26,
-     -436
+     -11.0,
+     -408.8
     ],
     [
-     -46,
-     -430
+     -27.6,
+     -404.2
     ],
     [
-     -56,
-     -420
+     -42.3,
+     -395.0
     ],
     [
-     -54,
-     -410
+     -53.4,
+     -385.8
     ],
     [
-     -36,
-     -403
+     -49.7,
+     -377.6
     ],
     [
-     -6,
-     -400
+     -22.1,
+     -370.2
     ],
     [
-     20,
-     -400
+     12.9,
+     -369.3
+    ],
+    [
+     35.0,
+     -374.8
     ]
    ],
    "fill": "#c9963a",
@@ -4903,28 +4907,36 @@
    "type": "poly",
    "points": [
     [
-     16,
-     -431
+     33.1,
+     -395.0
     ],
     [
-     -6,
-     -434
+     14.7,
+     -406.1
     ],
     [
-     -36,
-     -431
+     -11.0,
+     -407.0
     ],
     [
-     -48,
-     -424
+     -29.4,
+     -402.4
     ],
     [
-     -26,
-     -424
+     -40.5,
+     -395.0
     ],
     [
-     14,
-     -422
+     -18.4,
+     -396.0
+    ],
+    [
+     5.5,
+     -393.2
+    ],
+    [
+     27.6,
+     -387.7
     ]
    ],
    "fill": "#9c6f24",
@@ -4933,31 +4945,95 @@
    "outline": false
   },
   {
+   "type": "poly",
+   "points": [
+    [
+     27.6,
+     -376.6
+    ],
+    [
+     -0.0,
+     -375.7
+    ],
+    [
+     -27.6,
+     -376.6
+    ],
+    [
+     -42.3,
+     -378.5
+    ],
+    [
+     -36.8,
+     -373.9
+    ],
+    [
+     -14.7,
+     -371.1
+    ],
+    [
+     12.9,
+     -371.1
+    ]
+   ],
+   "fill": "#efd896",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 7.4,
+   "y": -389.5,
+   "r": 10,
+   "color": "#d9ad5a",
+   "density": 0.25
+  },
+  {
    "type": "line",
    "points": [
     [
-     -53,
-     -413
+     5.5,
+     -402.4
     ],
     [
-     -12,
-     -410
+     -3.7,
+     -395.0
+    ],
+    [
+     -12.9,
+     -402.4
+    ]
+   ],
+   "width": 2,
+   "color": "#7a5418"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50.6,
+     -380.3
+    ],
+    [
+     3.7,
+     -377.6
     ]
    ],
    "width": 4
   },
   {
    "type": "circle",
-   "x": -24,
-   "y": -422,
-   "r": 6,
+   "x": -20.2,
+   "y": -389.5,
+   "r": 6.5,
    "fill": "#151515",
    "width": 3
   },
   {
    "type": "circle",
-   "x": -25.5,
-   "y": -423.5,
+   "x": -21.6,
+   "y": -390.9,
    "r": 1.6,
    "fill": "#8a8f96",
    "width": 0,
@@ -4967,25 +5043,25 @@
    "type": "line",
    "points": [
     [
-     -12,
-     -429
+     -7.4,
+     -396.9
     ],
     [
-     -24,
-     -433
+     -20.2,
+     -400.6
     ],
     [
-     -36,
-     -430
+     -33.1,
+     -396.9
     ]
    ],
    "width": 4
   },
   {
    "type": "circle",
-   "x": -49,
-   "y": -422,
-   "r": 1.8,
+   "x": -46.0,
+   "y": -387.7,
+   "r": 2,
    "fill": "#000000",
    "width": 0,
    "outline": false
