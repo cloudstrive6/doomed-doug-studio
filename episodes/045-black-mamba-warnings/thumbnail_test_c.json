@@ -49,23 +49,49 @@
   },
   {
    "type": "asset",
-   "name": "hospital_building",
-   "x": 1190,
-   "y": 360,
-   "scale": 0.22
+   "name": "round_hut",
+   "x": 1160,
+   "y": 410,
+   "scale": 0.45
+  },
+  {
+   "type": "rect",
+   "x": 1110,
+   "y": 255,
+   "w": 100,
+   "h": 100,
+   "fill": "#ffffff",
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "rect",
+   "x": 1147,
+   "y": 266,
+   "w": 26,
+   "h": 78,
+   "fill": "#e0201b",
+   "color": "#e0201b",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 1121,
+   "y": 292,
+   "w": 78,
+   "h": 26,
+   "fill": "#e0201b",
+   "color": "#e0201b",
+   "width": 0,
+   "outline": false
   },
   {
    "type": "asset",
    "name": "black_mamba_reared",
    "x": 170,
    "y": 720,
-   "scale": 1.15,
-   "silhouette": true,
-   "glow_r": 0,
-   "rim": {
-    "color": "#e0201b",
-    "px": 8
-   }
+   "scale": 1.15
   },
   {
    "type": "asset",
@@ -85,7 +111,7 @@
   },
   {
    "type": "text",
-   "text": "FLAT TYRE",
+   "text": "FLAT TIRE",
    "x": 780,
    "y": 95,
    "size": 120,

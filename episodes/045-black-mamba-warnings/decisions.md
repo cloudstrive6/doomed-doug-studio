@@ -64,3 +64,21 @@ SCRIPT: APPROVED
   4. The snake still bites no one, and the bike and Doug stay the focal point.
 - After the A and C fixes: the visual screener re-checks A and C at 168x94, and then I give the final package approval. B does not need re-review.
 PACKAGE: B APPROVED; A, C CHANGES REQUIRED
+
+## 2026-11-12, creative director: package re-review (thumbnails A and C, round 2)
+- Read: the diffs to thumbnail.json, thumbnail_test_c.json, metadata.json and title_candidates.json; build/thumbnail.png, thumbnail_c.png and both
+  `_small` (168x94) versions. `package check --dry-run` OK, `validate packaging` OK. No visual screener round-3 entry is in visual_review.md yet (see below).
+- A, "IT'S GOING HOME": APPROVE. All three notes are applied.
+  1. Doug is now at scale 0.65 in the mound doorway. At 168 px the cap and the shock face both read, and the text sits on the mound top without touching him.
+  2. The snake is `black_mamba_hood_gape`, scale 2.1, tilted so the inky open mouth is aimed straight at Doug. The frame is now scary, which fits "scariest".
+  3. The arrow (mouth to hole), the text and the sun are kept, so the "it just wants to go home" twist still reads.
+  Non-blocking: Doug is wider than the hole, so he reads as standing in front of the doorway rather than inside it. That is fine at feed size, so leave it.
+- C, "FLAT TIRE": APPROVE. All four notes are applied.
+  1. The text and the metadata/title_candidates thumb_text now say en-US "FLAT TIRE". The narration keeps "flat tyre" (script lines 17/357/359). The TTS sounds the same, so there is no change.
+  2. The mamba is the green unsilhouetted `black_mamba_reared`, the same creature look as A/B. The A/B/C test now varies packaging only.
+  3. The clinic is a thatched hut with a large red-cross board at the far right end of the dashed route. It reads at 168 px, and "a day's ride" reads as distance.
+  4. Nobody is bitten. The bike, the flat front tire and Doug's shock face are the focal point.
+- Policy: no blood, wounds or fangs in flesh. Adult-coded deadpan, not kid-coded. Each thumbnail is delivered by its paired title and by the script.
+- Sequencing (per the 2026-11-12 package entry): the visual screener re-checks A and C at 168x94 and logs round 3 in visual_review.md before the stage moves to
+  `packaged`. If the screener passes, this approval stands with no further CD pass. If it fails, the fixes come back to me.
+PACKAGE: APPROVED (A, B, C), pending the visual screener round-3 PASS on A and C

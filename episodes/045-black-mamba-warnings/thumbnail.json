@@ -39,50 +39,52 @@
   {
    "type": "asset",
    "name": "termite_mound",
-   "x": 1070,
-   "y": 665,
-   "scale": 0.72
+   "x": 1060,
+   "y": 700,
+   "scale": 1.0
   },
   {
    "type": "doug",
-   "x": 1070,
-   "y": 610,
-   "scale": 0.42,
+   "x": 1060,
+   "y": 560,
+   "scale": 0.65,
    "pose": "panic1",
    "expression": "shock",
    "facing": "left"
   },
   {
    "type": "asset",
-   "name": "black_mamba_hood",
-   "x": 300,
-   "y": 770,
-   "scale": 1.6,
+   "name": "black_mamba_hood_gape",
+   "x": 120,
+   "y": 1040,
+   "scale": 2.1,
    "silhouette": true,
    "glow_r": 0,
    "rim": {
     "color": "#ffffff",
     "px": 6
-   }
+   },
+   "rotate": 16
   },
   {
    "type": "asset",
-   "name": "black_mamba_hood",
-   "x": 300,
-   "y": 770,
-   "scale": 1.6
+   "name": "black_mamba_hood_gape",
+   "x": 120,
+   "y": 1040,
+   "scale": 2.1,
+   "rotate": 16
   },
   {
    "type": "arrow",
    "from": [
-    600,
-    330
+    740,
+    420
    ],
    "to": [
-    990,
-    600
+    965,
+    610
    ],
-   "bend": -60,
+   "bend": -40,
    "color": "#e0201b",
    "width": 12
   },

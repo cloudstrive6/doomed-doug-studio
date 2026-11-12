@@ -83,3 +83,22 @@ VERDICT: PASS
 - B, "DOUG IGNORED THEM" (Warns You Three Times): readable. The crossed-out tally of 3 plus the open-mouthed mamba next to Doug make the threat obvious. Doug's sweat-drop smile reads as ironic, not cutesy. The bottom text touches the snake's tail. That's minor and needs no change.
 - C, "FLAT TYRE" (A Day's Ride From Help): readable. The bike and Doug are the focal point and the snake is on the left. The hospital is too small to read at 168 px, but the dashed route still implies distance. Advisory only: the black-with-red-outline mamba is styled differently from the green mamba in A and B.
 - Policy: no blood, bite wounds or gore. Not kid-coded. None of the three is misleading against its paired title.
+
+## Round 3: revised thumbnails A and C (2026-11-12, visual screener)
+
+Checked build/thumbnail.png, thumbnail_c.png and their 168x94 `_small` versions against the creative director's package notes (decisions.md, 2026-11-12).
+
+VERDICT: PASS
+
+### A, "IT'S GOING HOME" / "Every Reason the Black Mamba Is Africa's Scariest Snake"
+- CD fix 1 (Doug about 0.65 in the doorway): done. Doug stands in front of the mound hole with his shock face. At 168x94 the red cap and white face with the open mouth are clearly visible. Text clears Doug's cap.
+- CD fix 2 (threat): done. The `black_mamba_hood_gape` head is now the largest element, with an inky open mouth, white eye and small fangs, and it aims at Doug/the mound rather than at empty sky. At feed size it reads as a snake about to strike, which carries "scariest". There is no drip, blood or wound.
+- CD fix 3: the arrow (snake -> hole), the text and the sun are all kept. The focal path is head -> arrow -> Doug in the doorway.
+- Advisory (youtube-titler, internal only): `metadata.json` `thumbnail_brief` still says "mouth closed, narrow hood". Update it to match the approved gape version.
+
+### C, "FLAT TIRE" / "Why Black Mamba Bites Are Deadliest a Day's Ride From Help"
+- CD fix 1: the text reads "FLAT TIRE" (en-US). It's readable at 168x94.
+- CD fix 2: the mamba is the green unsilhouetted reared drawing, so it now matches A and B.
+- CD fix 3: the hospital block is replaced by a thatched hut with a large red-cross sign at the far end of the dashed route. The red cross reads at feed size, and so does the idea of distance.
+- CD fix 4: no bite is shown. The bike, the flat front tyre and shocked Doug are the focal point, with the snake rearing beside them as the threat.
+- Policy: no gore and no kid-coding. Not misleading against the paired title.
