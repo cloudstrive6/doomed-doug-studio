@@ -102,3 +102,29 @@ VERDICT: PASS
 - CD fix 3: the hospital block is replaced by a thatched hut with a large red-cross sign at the far end of the dashed route. The red cross reads at feed size, and so does the idea of distance.
 - CD fix 4: no bite is shown. The bike, the flat front tyre and shocked Doug are the focal point, with the snake rearing beside them as the threat.
 - Policy: no gore and no kid-coding. Not misleading against the paired title.
+
+## Round 4: post-render (2026-11-12, visual screener)
+
+I checked build/samples f_001-f_023 (final.mp4, 684.2 s), build/qc.json (no problems), the three thumbnails with their 168x94 `_small` versions, metadata.json, the three Shorts previews, and 8 frames from each Short (spread through the clip plus the last 3 s). I also pulled extra full-resolution frames around s003, s014, s028, s057, s083-s089, s174 and s200-endslate.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+### Main video
+- No black or blank frames, no frozen shots and no garbled drawings. The chapter cards match the description timestamps (THE SPEED through THE LONG RIDE). The DOUG DEATHS counter steps 343 -> 350 in order, and WARNINGS LEFT goes 3 -> 2 -> 1 -> 0, green to red.
+- Round 1 fixes I saw in the final render: the s085 HEAD UP / MOUTH / HOOD row and the s173 hospital with a red X. I did not pull frames for s091, s172 or s179 in this round.
+- Doug is on-model (red cap, white head) and readable in every sampled frame. The only deaths are cartoon ones (X-eyes, floating), with no blood or wounds. Nothing reads as a kids' show.
+- The ending is clean. s200-s206 recap the warnings (boot, umbrella, stick), and the notebook payoff reads "LET IT LEAVE." with DOUG DEATHS: 350. The endslate is the standard "DOUG'S NEXT DEATH" end-screen with video and subscribe slots. There is no withheld payoff and no "???" card.
+- Non-blocking, so only apply it if anything else forces a re-render:
+  1. (director) s083 "Here's the twist.": the `zoom_in` camera (x 900, y 680, zoom 1.08) pushes the scene-drawn HUD past the right edge in the last ~0.5 s. "DOUG DEATHS: 345" gets clipped to "DOUG DEATHS: 34" (visible in sample f_009). Fix: set camera x to 1020, or zoom to 1.04.
+  2. (art director, engine) The HUD labels are scene elements, so every zoom shot (s003, s014, s028, s057, s083, s089) makes the counter drift and grow. Consider drawing the HUD as a screen-fixed overlay after the camera transform.
+
+### Thumbnails
+- The files are unchanged since the round 3 PASS (A "IT'S GOING HOME", B "DOUG IGNORED THEM", C "FLAT TIRE"). All three are readable at 168x94, each has one focal path, Doug and the mamba are obvious, and none is misleading against its paired title in `packaging.variants`. There is no gore.
+- Advisory, still open from round 3 (youtube-titler): `metadata.json` `thumbnail_brief` and `packaging.candidates[0].concept` / `variants[0].thumb_idea` still say "mouth closed, narrow hood". The approved A shows an open gape with small fangs, so update the text to match.
+
+### Shorts
+- short01 (s051-s059, 30.9 s), "This Bird Hunts Black Mambas Longer Than a Bed": the title is readable and the eagle, snake, Doug and bed all stay inside the 1080 crop. The payoff (eagle carrying the snake past the bed) is shown before the end card.
+- short02 (s160-s175, 58.7 s), "Black Mamba Venom Hides a Painkiller as Strong as Morphine": the MAMBALGIN = MORPHINE vial/bottle, the mice, NOT TOXIC and MICE ONLY are all legible. The s174 nerve diagram, "+" and the PAIN DOWN meter fit inside the crop. The payoff and the "mice only" caveat are both delivered.
+- short03 (s072-s078, 24.5 s), "A Black Mamba Can Strike Up to a Meter High": the reared mamba next to the 1 M kitchen counter pays off the title.
+- On all three, subtitles are large, white with an outline, and legible. The HUD is small but secondary. The end card reads "FULL VIDEO: TAP BELOW", and Doug points to a red arrow that points straight down. There is no teaser card.

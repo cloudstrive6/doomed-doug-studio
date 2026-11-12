@@ -83,3 +83,21 @@ PACKAGE: B APPROVED; A, C CHANGES REQUIRED
   `packaged`. If the screener passes, this approval stands with no further CD pass. If it fails, the fixes come back to me.
 PACKAGE: APPROVED (A, B, C), pending the visual screener round-3 PASS on A and C
 - 2026-11-12 showrunner: script 2 rounds (+CD), art 2 rounds, thumbnails 2 rounds (A,C revised). Editor raised voice.speaking_rate 1.09->1.15 (wpm 193.9); watch next episode's pace. Runtime 11.4 min. Risks: antivenom 1962 figures via Wikipedia; Benin delay data is all-snakebite.
+
+## 2026-11-12, creative director: final package approval (post-render)
+- Read: metadata.json (title, alt_titles, description, tags, packaging), build/chapters.txt, build/thumbnail.png, build/samples f_001-f_003,
+  script.md opening, visual_review.md round 4 (main PASS, shorts PASS), status `built`, QC passed.
+- Title: keep "Every Reason the Black Mamba Is Africa's Scariest Snake" (55 chars, search-friendly, T8). No alt swap: the strongest alt
+  ("Why the Black Mamba Warns You Three Times Before It Kills") already runs as test variant B with its own thumbnail, so swapping would collapse the A/B/C test.
+- Thumbnail A: the open inky gape aimed at Doug in the mound doorway carries "scariest", and the arrow carries the twist. Matches the opening frame and the title.
+- Description: chapters match build/chapters.txt exactly (9 items, 0:00 to 9:41, all at least 10 s apart). Sources are listed, plus the cartoon/not-medical-advice
+  disclaimer and the AI-use note. Every promise (the 20 km/h "chase", going home, the bite a day's ride from antivenom) is delivered.
+- First 60 s: "The Speed." lands at spoken words 34-35, the twist "Here's the problem." comes at about 0:33, and the payoff promise is in sentence 2. Frames: horse
+  legend, SHY at 40 m, counter 343 -> 344 by the mound. HUD, counter and WARNINGS LEFT 3 read clearly. Cartoon death only, adult deadpan, no kid-coding.
+- Text-only fix made: in metadata.json `thumbnail_brief`, `packaging.candidates[0].concept`, `packaging.variants[0].thumb_idea` and title_candidates.json,
+  "mouth closed" is now "inky-black mouth open with small fangs aimed at Doug" and "no fangs" is now "no dripping fangs", so the text matches the approved image.
+  Re-ran `validate metadata`, `validate packaging` and `package check --dry-run`: all OK.
+- Accepted as non-blocking (no re-render): the s083 zoom clips "DOUG DEATHS: 345" to "34" for about 0.5 s. Director: next episode, keep HUD-bearing zooms at 1.04
+  or below. Art director: move the HUD to a screen-fixed overlay (engine backlog).
+- Stale stage direction: script.md still describes thumbnail A as "mouth closed". It is never spoken, so it has no effect on the output and is left as is.
+FINAL: APPROVED
