@@ -192,3 +192,11 @@ The generator scripts are in `build/art/` (git-ignored scratch).
 4. `cobra_hooded`: the head is in profile, about 0.4 of the hood width, set in front of the hood's top centre. Its snout and eye point left, it has a straight closed mouth and a heavy brow, and the snout tapers.
 5. `mamba_combat_pair`: the necks are pressed together and lean inward. The right male arches over and bears down across the left male's neck (head facing left, snout tilted down). The left male shoves up under its jaw (head facing right). Both mouths are closed, and the heads sit at y about -416 and -358.
 Generators: `episodes/045-black-mamba-warnings/build/art/{birds,creatures,more,mambas}.py`.
+
+## Visual review round 1 fixes (illustrator, 2026-11-12) - DONE
+- (1) `black_mamba_gape` redrawn head: Pac-Man mouth wedge notched open at the front, pale lip lines, white cartoon eye,
+  fangs; eye/lips/fangs are `silhouette_keep` so the `silhouette: true` shots (s091, s137) read as an open-mouthed snake.
+  Same treatment on `black_mamba_hood_gape`; `black_mamba_reared` (s125) gets the white eye. Anchors/bboxes unchanged.
+  Preview: `assets/previews/045-mamba-gape-fix.png` (keyframes s091/s125/s137 re-rendered).
+- (8) New `euro_banknote_50` (orange) and `euro_banknote_20` (blue), same footprint as `banknote` (which stays generic,
+  used by 036). Director: swap the two `banknote` names in s198. Preview: `assets/previews/045-euro-notes.png`.

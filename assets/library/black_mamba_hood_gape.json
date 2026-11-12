@@ -1,6 +1,6 @@
 {
  "name": "black_mamba_hood_gape",
- "description": "Black mamba (Dendroaspis polylepis) reared in the warning pose, facing right: about forty percent of the olive-grey (#7f8865) body rises nearly vertically out of loose flat ground coils (x -260..+60, y -60..0), darker back, pale cream belly with scute lines, long coffin-shaped head held level with a heavy brow and a small dark eye. Anchor bottom-centre where the coils touch the ground; bbox about x -262..+200, y -450..0; head at about (+140,-420), eye (+152,-430). Same geometry as black_mamba_reared / _hood / _hood_gape (only the neck and mouth change). Narrow neck flap spread, jaws gaping wide to show the inky blue-black mouth lining (#0b0f2a, the only black part) and two small pale fangs; mouth centre about (+150,-415). No drool, no venom.",
+ "description": "Black mamba (Dendroaspis polylepis) reared in the warning pose, facing right: about forty percent of the olive-grey (#7f8865) body rises nearly vertically out of loose flat ground coils (x -260..+60, y -60..0), darker back, pale cream belly with scute lines, long coffin-shaped head held level with a heavy brow and a small dark eye. Anchor bottom-centre where the coils touch the ground; bbox about x -262..+200, y -450..0; head at about (+140,-420), eye (+152,-430). Same geometry as black_mamba_reared / _hood / _hood_gape (only the neck and mouth change). Narrow neck flap spread, jaws gaping wide to show the inky blue-black mouth lining (#0b0f2a, the only black part) and two small pale fangs; mouth centre about (+150,-415). No drool, no venom. White cartoon eye, pale lip lines and fangs are silhouette_keep (readable as an open mouth under silhouette: true).",
  "anchor": [
   0,
   0
@@ -6284,8 +6284,16 @@
      -456.6
     ],
     [
-     193.3,
-     -454.1
+     172,
+     -436
+    ],
+    [
+     164,
+     -421
+    ],
+    [
+     172,
+     -404
     ],
     [
      193.2,
@@ -6303,16 +6311,16 @@
    "type": "curve",
    "points": [
     [
-     139.5,
-     -425.9
+     132,
+     -420
     ],
     [
-     168.8,
-     -420.0
+     150,
+     -421
     ],
     [
-     140.6,
-     -412.9
+     160,
+     -420
     ]
    ],
    "width": 3,
@@ -6605,7 +6613,8 @@
     ]
    ],
    "fill": "#f4f1e0",
-   "width": 2
+   "width": 2,
+   "silhouette_keep": true
   },
   {
    "type": "poly",
@@ -6624,24 +6633,8 @@
     ]
    ],
    "fill": "#f4f1e0",
-   "width": 2
-  },
-  {
-   "type": "circle",
-   "x": 144.0,
-   "y": -442.3,
-   "r": 6.0,
-   "fill": "#151515",
-   "width": 3
-  },
-  {
-   "type": "circle",
-   "x": 144.7,
-   "y": -444.1,
-   "r": 1.5,
-   "fill": "#8a8f96",
-   "width": 0,
-   "outline": false
+   "width": 2,
+   "silhouette_keep": true
   },
   {
    "type": "line",
@@ -6669,6 +6662,71 @@
    "fill": "#000000",
    "width": 0,
    "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     118,
+     -420
+    ],
+    [
+     146,
+     -436
+    ],
+    [
+     171,
+     -446
+    ],
+    [
+     195,
+     -456
+    ]
+   ],
+   "color": "#d9dcb8",
+   "width": 6,
+   "silhouette_keep": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     138,
+     -414
+    ],
+    [
+     172,
+     -395
+    ],
+    [
+     194,
+     -385
+    ]
+   ],
+   "color": "#d9dcb8",
+   "width": 6,
+   "silhouette_keep": true
+  },
+  {
+   "type": "circle",
+   "x": 144,
+   "y": -442.3,
+   "r": 9,
+   "fill": "#ffffff",
+   "color": "#000000",
+   "width": 3,
+   "silhouette_keep": true
+  },
+  {
+   "type": "circle",
+   "x": 145.6,
+   "y": -442.3,
+   "r": 4,
+   "fill": "#000000",
+   "color": "#000000",
+   "width": 0,
+   "outline": false,
+   "silhouette_keep": true
   }
  ]
 }
