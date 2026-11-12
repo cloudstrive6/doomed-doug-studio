@@ -57,3 +57,29 @@ Six shots must change before the render.
 - s182-s185 sober text cards without Doug or counter are appropriate.
 - s001 (the thumbnail as the opening image): the wordart touches the mound top by design. Readable, one focal arrow.
 - Variety outside s143-s149 is fine. No other run of 4 or more near-identical compositions.
+
+## Round 2: keyframe fixes + thumbnails (2026-11-12, visual screener)
+
+Screened at full size: s027, s028, s029, s091, s095, s100, s137, s172; grid view: s062, s085, s143-s149, s179, s198.
+Thumbnails: build/thumbnail.png, thumbnail_b.png, thumbnail_c.png and their 168x94 `_small` versions.
+
+VERDICT: PASS
+
+### Round 1 fixes, verified
+1. s091: fixed. The mamba now has a white eye, fangs and a wide-open jaw with a light outline around the black interior. It reads as an open snake mouth, not a lamp.
+2. s137: fixed. Yellow impact lines sit around the raised head in the sky. There is no red on the ground.
+3. s172: fixed. The red X is on a MAMBALGIN vial under "NOT A MEDICINE". The morphine bottle is gone.
+4. s027 / s028 / s029: fixed. "NEITHER DID IT" sits above the mound, "FRONT DOOR" is in the left sky, and "THE HOME" is clear of the snake on the mound top.
+5. s100: fixed. The card now reads "6. STRIKE".
+6. s095: fixed. The snake's mouth is open and the EPISODE 10 arrow points to it.
+7. s143-s149: fixed. s148 cuts to a glued doorbell panel with a glue tube, and s149 shows a bell with a STOP box and an UNPLUGGED plug. This breaks up the diagram run.
+8. s198: fixed. The notes are euro notes (50 and 20 with the € mark) under "~128 EUROS".
+9. s179: fixed. Doug walks out through the open doorway.
+10. s062: fixed. Doug stands on the ground at the end of the predator queue.
+11. s085: fixed. Doug is in from the corner, at ground level and at normal scale.
+
+### Thumbnails (feed size, 168x94)
+- A, "IT'S GOING HOME" (main title): readable. The large snake and the arrow to the mound hole give one clear focal path. Doug in the doorway is tiny at feed size (a red dot with a face), but the brief asks for that and the arrow carries it. It matches the title's twist without spoiling it.
+- B, "DOUG IGNORED THEM" (Warns You Three Times): readable. The crossed-out tally of 3 plus the open-mouthed mamba next to Doug make the threat obvious. Doug's sweat-drop smile reads as ironic, not cutesy. The bottom text touches the snake's tail. That's minor and needs no change.
+- C, "FLAT TYRE" (A Day's Ride From Help): readable. The bike and Doug are the focal point and the snake is on the left. The hospital is too small to read at 168 px, but the dashed route still implies distance. Advisory only: the black-with-red-outline mamba is styled differently from the green mamba in A and B.
+- Policy: no blood, bite wounds or gore. Not kid-coded. None of the three is misleading against its paired title.

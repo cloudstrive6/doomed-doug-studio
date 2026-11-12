@@ -91,3 +91,37 @@ and Doug's model are consistent on all of these sheets. No gore.
   An optional polish, not required: hide the HUD `WARNINGS LEFT: 0` badge in this shot only, because the board already says it and the duplicate text competes with it.
 
 After the fixes, re-run `python -m studio keyframes 045-black-mamba-warnings --shots s062,s100,s154,s155,s156,s172,s203,s204` and return them for a quick re-check.
+
+# 045 keyframe re-check, round 2 (art director, 2026-11-12)
+
+**Verdict: PASS** (20/20 changed shots approved). No asset or composition fixes are required.
+Scope: full-size `build/keyframes/` for s027, s028, s029, s062, s085, s091, s095, s100, s125, s137, s148, s149, s154, s155, s156,
+s172, s179, s198, s203 and s204, plus `build/contact/sheet_13.png` for variety. The HUD, chapter tab, zone colours and Doug's model are
+consistent throughout. There is one cap per frame, and nothing is gory.
+
+## Round 1 fixes: status
+1. **s172**: fixed. The red X and "NOT A MEDICINE" sit on the MAMBALGIN vial, and the morphine bottle is out of the shot. It is factually clean.
+2. **s203/s204**: fixed. s203 has the ghost at a readable size above the mound, `3 WARNINGS`, and a red dotted `HEAD START` arrow, with the mound cap removed.
+   s204 is a new layout: three warnings, each with a curved arrow to the costume heap, the umbrella and the stick, under the "SOMETHING ELSE" wordart, with the ghost on the right.
+3. **s154-s156**: fixed. s154 shows a tiny Doug next to a doorbell box that is bigger than he is, labelled `SHRUNK`. s155 is a tight shot with his hands in the glue
+   and a sweat drop. s156 pulls back wide with `shock` and a red `!`, and the ring lines stay clear of his body. Sheet 13 now varies its layouts (diagram, doorbell
+   metaphor, lab, close-up, wide).
+4. **s100**: fixed. "6. STRIKE" sits up top, and a gaping mamba with red speed lines fills the card. It is no longer an empty frame.
+5. **s062**: fixed. All four predators face the eggs, and Doug queues at the back on the ground band, facing left with a flat expression.
+
+## Visual-screener items: status
+- **s091**: the mamba reads as a snake with a white eye, a light-outlined open jaw and fangs, and the black interior shows. **s125/s137** use the same treatment and are consistent.
+- **s137**: the red ground spray is gone, replaced by yellow impact lines around the raised head. Nothing red sits on the ground.
+- **s027/s028/s029**: the labels and titles are clear of the mound peak and the coiled snake.
+- **s095**: the gape is on screen for the episode 10 callback. **s085**: Doug is in from the corner at a normal scale.
+- **s148/s149**: a real doorbell (glue tube, glued button) and a bell with a pulled plug break the diagram run.
+- **s179**: Doug walks out through the open doorway. **s198**: blue/orange euro notes with a € mark.
+
+## Optional polish (not required, do only if cheap)
+- s085 / s203: at this scale the `HOOD` mamba is almost identical to the `HEAD UP` one, because the narrow mamba hood is accurate but subtle. The label carries it.
+  If the director touches these shots again, scaling the hood icon to about 1.3x would help.
+- s203: the ghost's cap brim comes within about 40 px of the counter box. Nudging the ghost about 80 px left would give it some air.
+- s156: the red `!` touches the top of Doug's cap. Lift it about 15 px.
+- s100: the speed lines float a little above and behind the head. Lowering them about 40 px would put them on the lunge line.
+
+Keyframes are approved for 045. The episode can move to `art_approved`.
