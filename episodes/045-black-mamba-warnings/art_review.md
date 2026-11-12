@@ -56,3 +56,38 @@ I checked `assets/previews/045-black-mamba-warnings-fixes-closeup.png` with zoom
 5. **mamba_combat_pair**: fixed. The heads press together, one head over the other's neck, and the mouths are closed. It no longer reads as a caduceus, a heart or a hug.
 
 All 045 assets are approved. Next: the keyframe review after shotlist build.
+
+# 045 keyframe review: director's remaining concerns (art director, 2026-11-12)
+
+**Verdict: FAIL** (5 shot groups need fixes, 1 approved). All fixes are composition fixes and go to the **director**. No asset fixes.
+Scope: `build/contact/sheet_06, 09, 11, 13, 15, 17` (s062, s100, s126, s154-156, s172, s203/s204), with zoomed crops. HUD, caption bar, zone colours
+and Doug's model are consistent on all of these sheets. No gore.
+
+## Required fixes (director)
+1. **s172: the red X is on the wrong object (factual misread).** The `red_x` (x 1450) and the "NOT A MEDICINE" label (x 1300) sit on the pill bottle
+   labelled MORPHINE, so the frame says "morphine is not a medicine". Move the `red_x` onto the mambalgin `vial` (x 1100, y ~680) and centre the
+   label over the vial. Either drop the pill bottle or keep it un-crossed as the "real medicine" comparison, with a small label MEDICINE.
+2. **s203/s204: two identical frames back to back.** The only change is the text on the field guide, which is about 12 px tall at 1080p and illegible. The
+   ghost Doug at scale 0.35 is too small for his X eyes to read. There are also two caps in frame (the ghost's and the `doug_cap` on the mound).
+   - s203: remove the mound `doug_cap`. Scale the ghost up to ~0.6 and move him above the mound. Remove the field guide here, and add the beat the line names:
+     three small warning icons (hood, gape, "hsss" bubble) in a row with a label `3 WARNINGS`, plus a red dotted arrow away from the mound labelled `HEAD START`.
+   - s204: a different composition. Cut wide to the same three icons, each with a red curved arrow pointing at what Doug spent it on (eagle
+     costume / umbrella / long stick: reuse the 045 assets), and ghost Doug shrugging. Hold the field guide back for s205/s206, where it is already shown large and legible.
+3. **s154-s156: "shrunk down" does not read, and three near-identical frames in a row.** Doug is at scale 0.4, the same as the
+   diagram shots before them, and 9 of the 12 shots on sheet 13 use the same neuron layout.
+   - s154: show the shrink. Scale the diagram up (asset ~2.4, framed on the doorbell box, with the neuron body off-frame left) and keep Doug at ~0.3, so he is tiny next to
+     a doorbell that is taller than he is. Add a small label `SHRUNK`.
+   - s155: a tight frame on Doug's hands on the glued (yellow) button. Use pose push/arms_up so his hands overlap the glue ellipse (they currently stop short of it).
+   - s156: pull back wide. Keep the ring/burst lines clear of Doug's body (they currently cross his torso and head in s155/s156). Doug gets `shock` expression,
+     with hands over his ears if a pose exists. Otherwise add a red `!`.
+4. **s100: the final frame is an empty card.** After the cover wipe, only "6 STRIKE" and a small orphan `!` remain, with no snake. Replace `exclamation_mark` with
+   `black_mamba_hood_gape` at ~0.8 scale, lunging at x 960 / y ~1000, with 2-3 red speed lines behind the head. Move "6 STRIKE" up to y ~330. Keep the wipe.
+5. **s062: the queue faces away from the eggs, and Doug floats on the horizon.** All four predators face right, away from the eggs at the left, so it reads as
+   them leaving. Set `flip: true` on the eagle, mongoose, monitor and jackal so they face the eggs. Move Doug from the horizon (y 547) down into the ground band at the
+   back of the queue (x ~1820, feet y ~905, `facing: left`, flat expression). The joke is that Doug is queuing too, and he no longer stands on the horizon line.
+
+## Approved
+- **s126**: approved. The chalkboard card reads at thumbnail size. The salmon `0` on green is legible, and it is a different layout from s125 and s127.
+  An optional polish, not required: hide the HUD `WARNINGS LEFT: 0` badge in this shot only, because the board already says it and the duplicate text competes with it.
+
+After the fixes, re-run `python -m studio keyframes 045-black-mamba-warnings --shots s062,s100,s154,s155,s156,s172,s203,s204` and return them for a quick re-check.
