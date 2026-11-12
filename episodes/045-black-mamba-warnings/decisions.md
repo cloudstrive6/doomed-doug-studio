@@ -41,3 +41,26 @@ SCRIPT: APPROVED
   on in both, so we avoid two more capless one-offs. The 010 callback uses grey paint spray only (s110-s111), with no sign.
 - Shorts (shorts.json, titles left for the titler): short01 s051-s059 The Snake Eagle (~33 s), short02 s160-s175 The Painkiller (~55 s),
   short03 s072-s078 The Head Lift (~26 s). Each one ends on its payoff, with a short outro and the simple end card.
+
+## 2026-11-12, creative director: package (thumbnails A/B/C + ranked titles)
+- Read: metadata.json `packaging` (D4 gate, 10 ranked, top 3 paired), visual_review.md round 2 (thumbnails PASS at 168x94, policy clean),
+  `package check --dry-run` OK, and all three PNGs at full size and feed size.
+- B, "Why the Black Mamba Warns You Three Times Before It Kills" + "DOUG IGNORED THEM": APPROVE. It is the strongest of the three. The crossed-out
+  tally of 3, the open black mouth (the namesake and the episode's real fact) and the oblivious sweat-drop Doug tell the whole story at feed size. The title is
+  delivered by the script's three-warning axis. No gore, and the irony is adult-coded.
+- A, "Every Reason the Black Mamba Is Africa's Scariest Snake" + "IT'S GOING HOME": CHANGES REQUIRED. This is the launch variant, and at 168 px it reads as
+  a calm green snake in profile next to a mound. The title says "scariest", but nothing in the frame is scary, and Doug, who is the joke (he is standing in its doorway),
+  shows up as a red dot.
+  1. Doug: scale 0.42 -> about 0.65, still standing in the hole/doorway, with his shock face readable at 168x94. Shift the mound and text as needed. The text may overlap the mound top, but not Doug.
+  2. Snake threat: the head is the hero. Swap `black_mamba_hood` for `black_mamba_hood_gape` (the inky-black mouth, no fangs dripping), or at minimum enlarge the
+     head so it is about 1.5x its current size and aim it at Doug/the hole, not at empty sky. Keep the "it just wants to go home" twist with the arrow.
+  3. Keep the arrow, the text and the orange sun. Re-check the small version.
+- C, "Why Black Mamba Bites Are Deadliest a Day's Ride From Help" + "FLAT TYRE": CHANGES REQUIRED.
+  1. Text: the channel language is en-US (config), so it should read "FLAT TIRE". Keep the British spelling in the narration only if the script already has it.
+  2. Mamba: drop the black silhouette with the red rim. It looks like a cut-out, not a black mamba, and it breaks the A/B creature look. Use the green
+     `black_mamba_reared` (or `_gape`) unsilhouetted, as in A/B, so the three variants test packaging, not two different snakes.
+  3. Help: the hospital is a grey block at feed size. Replace it with a small clinic hut with a large red cross, about 2x the current icon height,
+     still at the far right end of the dashed route, so "a day's ride" reads as distance and not as a city.
+  4. The snake still bites no one, and the bike and Doug stay the focal point.
+- After the A and C fixes: the visual screener re-checks A and C at 168x94, and then I give the final package approval. B does not need re-review.
+PACKAGE: B APPROVED; A, C CHANGES REQUIRED
