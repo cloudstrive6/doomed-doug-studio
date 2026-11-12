@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T18:01:36+00:00",
+ "at": "2026-11-12T19:01:57+00:00",
  "issues": [
   {
    "key": "related_pending",
@@ -15,8 +15,8 @@
    "key": "end_screens_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "9 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
-   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/editor\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/editor\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/editor\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/editor\n041-grizzly-wont-fight https://studio.youtube.com/video/6l0vPcKl-dU/editor\n042-anaconda-no-venom https://studio.youtube.com/video/aypDFxtjAi0/editor\n043-animal-diseases-closer https://studio.youtube.com/video/mSKlABKubRU/editor\n044-shoebill-spare-chick https://studio.youtube.com/video/FLV5sEBx10M/editor",
+   "summary": "10 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/editor\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/editor\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/editor\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/editor\n041-grizzly-wont-fight https://studio.youtube.com/video/6l0vPcKl-dU/editor\n042-anaconda-no-venom https://studio.youtube.com/video/aypDFxtjAi0/editor\n043-animal-diseases-closer https://studio.youtube.com/video/mSKlABKubRU/editor\n044-shoebill-spare-chick https://studio.youtube.com/video/FLV5sEBx10M/editor\n045-black-mamba-warnings https://studio.youtube.com/video/AKpg4FqlXNc/editor",
    "route": "",
    "fixed": false,
    "extra": {}
@@ -25,8 +25,8 @@
    "key": "thumb_tests_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "9 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
-   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/edit\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/edit\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/edit\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/edit\n041-grizzly-wont-fight https://studio.youtube.com/video/6l0vPcKl-dU/edit\n042-anaconda-no-venom https://studio.youtube.com/video/aypDFxtjAi0/edit\n043-animal-diseases-closer https://studio.youtube.com/video/mSKlABKubRU/edit\n044-shoebill-spare-chick https://studio.youtube.com/video/FLV5sEBx10M/edit",
+   "summary": "10 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/edit\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/edit\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/edit\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/edit\n041-grizzly-wont-fight https://studio.youtube.com/video/6l0vPcKl-dU/edit\n042-anaconda-no-venom https://studio.youtube.com/video/aypDFxtjAi0/edit\n043-animal-diseases-closer https://studio.youtube.com/video/mSKlABKubRU/edit\n044-shoebill-spare-chick https://studio.youtube.com/video/FLV5sEBx10M/edit\n045-black-mamba-warnings https://studio.youtube.com/video/AKpg4FqlXNc/edit",
    "route": "",
    "fixed": false,
    "extra": {}
