@@ -1,0 +1,318 @@
+{
+ "name": "umbrella_folded",
+ "description": "Plain black umbrella, closed and furled with its strap, vertical: #2b2b2b furled canopy with grey fold lines, black strap with a silver popper, silver tip, curved wooden hook handle. About 90 x 580. Anchor (0,0) at the bottom of the handle; stands upright. Same umbrella as umbrella_open.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "umbrella",
+  "metaphor"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -150
+    ],
+    [
+     0,
+     -120
+    ]
+   ],
+   "width": 9
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -150
+    ],
+    [
+     0,
+     -120
+    ]
+   ],
+   "width": 5,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -548
+    ],
+    [
+     14,
+     -520
+    ],
+    [
+     30,
+     -420
+    ],
+    [
+     40,
+     -300
+    ],
+    [
+     36,
+     -200
+    ],
+    [
+     16,
+     -144
+    ],
+    [
+     -16,
+     -144
+    ],
+    [
+     -36,
+     -200
+    ],
+    [
+     -40,
+     -300
+    ],
+    [
+     -30,
+     -420
+    ],
+    [
+     -14,
+     -520
+    ]
+   ],
+   "fill": "#2b2b2b",
+   "width": 6,
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -7.2,
+     -520
+    ],
+    [
+     -24,
+     -340
+    ],
+    [
+     -14.4,
+     -170
+    ]
+   ],
+   "width": 3,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -2.4,
+     -520
+    ],
+    [
+     -8,
+     -340
+    ],
+    [
+     -4.8,
+     -170
+    ]
+   ],
+   "width": 2,
+   "color": "#454545"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     2.4,
+     -520
+    ],
+    [
+     8,
+     -340
+    ],
+    [
+     4.8,
+     -170
+    ]
+   ],
+   "width": 3,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     7.2,
+     -520
+    ],
+    [
+     24,
+     -340
+    ],
+    [
+     14.4,
+     -170
+    ]
+   ],
+   "width": 2,
+   "color": "#454545"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     -320
+    ],
+    [
+     40,
+     -330
+    ],
+    [
+     40,
+     -306
+    ],
+    [
+     -40,
+     -296
+    ]
+   ],
+   "fill": "#1a1a1a",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": 28,
+   "y": -318,
+   "r": 5,
+   "fill": "#c9ced4",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -6,
+     -546
+    ],
+    [
+     6,
+     -546
+    ],
+    [
+     2,
+     -578
+    ],
+    [
+     -2,
+     -578
+    ]
+   ],
+   "fill": "#c9ced4",
+   "width": 3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -150
+    ],
+    [
+     0,
+     -56
+    ],
+    [
+     2,
+     -26
+    ],
+    [
+     16,
+     -6
+    ],
+    [
+     38,
+     -2
+    ],
+    [
+     56,
+     -12
+    ],
+    [
+     62,
+     -32
+    ],
+    [
+     56,
+     -46
+    ]
+   ],
+   "width": 20
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -150
+    ],
+    [
+     0,
+     -56
+    ],
+    [
+     2,
+     -26
+    ],
+    [
+     16,
+     -6
+    ],
+    [
+     38,
+     -2
+    ],
+    [
+     56,
+     -12
+    ],
+    [
+     62,
+     -32
+    ],
+    [
+     56,
+     -46
+    ]
+   ],
+   "width": 12,
+   "color": "#a0522d"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -3,
+     -140
+    ],
+    [
+     -3,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#c97a4a"
+  }
+ ]
+}

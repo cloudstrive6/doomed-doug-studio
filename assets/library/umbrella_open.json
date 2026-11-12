@@ -1,0 +1,499 @@
+{
+ "name": "umbrella_open",
+ "description": "Plain black umbrella, open, side view: #2b2b2b canopy about 520 wide spread over grey rib lines with silver rib tips and a silver top tip (canopy top at y -560), vertical grey shaft, curved wooden hook handle at the bottom. Anchor (0,0) at the bottom of the handle; stands upright. Same umbrella as umbrella_folded.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "umbrella",
+  "metaphor"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -560
+    ],
+    [
+     0,
+     -150
+    ]
+   ],
+   "width": 9
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -560
+    ],
+    [
+     0,
+     -150
+    ]
+   ],
+   "width": 5,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -260,
+     -400
+    ],
+    [
+     -240,
+     -470
+    ],
+    [
+     -180,
+     -530
+    ],
+    [
+     -100,
+     -556
+    ],
+    [
+     0,
+     -562
+    ],
+    [
+     100,
+     -556
+    ],
+    [
+     180,
+     -530
+    ],
+    [
+     240,
+     -470
+    ],
+    [
+     260,
+     -400
+    ],
+    [
+     215.0,
+     -434.0
+    ],
+    [
+     170,
+     -420
+    ],
+    [
+     129.0,
+     -449.0
+    ],
+    [
+     88,
+     -430
+    ],
+    [
+     44.0,
+     -455.0
+    ],
+    [
+     0,
+     -432
+    ],
+    [
+     -44.0,
+     -455.0
+    ],
+    [
+     -88,
+     -430
+    ],
+    [
+     -129.0,
+     -449.0
+    ],
+    [
+     -170,
+     -420
+    ],
+    [
+     -215.0,
+     -434.0
+    ],
+    [
+     -260,
+     -400
+    ]
+   ],
+   "fill": "#2b2b2b",
+   "width": 6
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -470
+    ],
+    [
+     -150,
+     -520
+    ],
+    [
+     -80,
+     -545
+    ],
+    [
+     -110,
+     -500
+    ],
+    [
+     -160,
+     -450
+    ]
+   ],
+   "fill": "#454545",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -560
+    ],
+    [
+     -93.5,
+     -519.6
+    ],
+    [
+     -170,
+     -420
+    ]
+   ],
+   "width": 3,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -560
+    ],
+    [
+     -48.4,
+     -529.4
+    ],
+    [
+     -88,
+     -430
+    ]
+   ],
+   "width": 3,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -560
+    ],
+    [
+     0.0,
+     -540.0
+    ],
+    [
+     0,
+     -432
+    ]
+   ],
+   "width": 3,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -560
+    ],
+    [
+     48.4,
+     -529.4
+    ],
+    [
+     88,
+     -430
+    ]
+   ],
+   "width": 3,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -560
+    ],
+    [
+     93.5,
+     -519.6
+    ],
+    [
+     170,
+     -420
+    ]
+   ],
+   "width": 3,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "circle",
+   "x": -260,
+   "y": -400,
+   "r": 5,
+   "fill": "#c9ced4",
+   "width": 2
+  },
+  {
+   "type": "circle",
+   "x": -170,
+   "y": -420,
+   "r": 5,
+   "fill": "#c9ced4",
+   "width": 2
+  },
+  {
+   "type": "circle",
+   "x": -88,
+   "y": -430,
+   "r": 5,
+   "fill": "#c9ced4",
+   "width": 2
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -432,
+   "r": 5,
+   "fill": "#c9ced4",
+   "width": 2
+  },
+  {
+   "type": "circle",
+   "x": 88,
+   "y": -430,
+   "r": 5,
+   "fill": "#c9ced4",
+   "width": 2
+  },
+  {
+   "type": "circle",
+   "x": 170,
+   "y": -420,
+   "r": 5,
+   "fill": "#c9ced4",
+   "width": 2
+  },
+  {
+   "type": "circle",
+   "x": 260,
+   "y": -400,
+   "r": 5,
+   "fill": "#c9ced4",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -6,
+     -562
+    ],
+    [
+     6,
+     -562
+    ],
+    [
+     2,
+     -592
+    ],
+    [
+     -2,
+     -592
+    ]
+   ],
+   "fill": "#c9ced4",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -7,
+   "y": -380,
+   "w": 14,
+   "h": 24,
+   "fill": "#8a8f96",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -372
+    ],
+    [
+     -153.0,
+     -410
+    ]
+   ],
+   "width": 2,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -372
+    ],
+    [
+     153.0,
+     -410
+    ]
+   ],
+   "width": 2,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -372
+    ],
+    [
+     -79.2,
+     -420
+    ]
+   ],
+   "width": 2,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -372
+    ],
+    [
+     79.2,
+     -420
+    ]
+   ],
+   "width": 2,
+   "color": "#8a8f96"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -150
+    ],
+    [
+     0,
+     -56
+    ],
+    [
+     2,
+     -26
+    ],
+    [
+     16,
+     -6
+    ],
+    [
+     38,
+     -2
+    ],
+    [
+     56,
+     -12
+    ],
+    [
+     62,
+     -32
+    ],
+    [
+     56,
+     -46
+    ]
+   ],
+   "width": 20
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -150
+    ],
+    [
+     0,
+     -56
+    ],
+    [
+     2,
+     -26
+    ],
+    [
+     16,
+     -6
+    ],
+    [
+     38,
+     -2
+    ],
+    [
+     56,
+     -12
+    ],
+    [
+     62,
+     -32
+    ],
+    [
+     56,
+     -46
+    ]
+   ],
+   "width": 12,
+   "color": "#a0522d"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -3,
+     -140
+    ],
+    [
+     -3,
+     -60
+    ]
+   ],
+   "width": 2,
+   "color": "#c97a4a"
+  }
+ ]
+}
