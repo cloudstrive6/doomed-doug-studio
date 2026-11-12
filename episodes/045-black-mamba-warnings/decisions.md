@@ -82,3 +82,4 @@ PACKAGE: B APPROVED; A, C CHANGES REQUIRED
 - Sequencing (per the 2026-11-12 package entry): the visual screener re-checks A and C at 168x94 and logs round 3 in visual_review.md before the stage moves to
   `packaged`. If the screener passes, this approval stands with no further CD pass. If it fails, the fixes come back to me.
 PACKAGE: APPROVED (A, B, C), pending the visual screener round-3 PASS on A and C
+- 2026-11-12 showrunner: script 2 rounds (+CD), art 2 rounds, thumbnails 2 rounds (A,C revised). Editor raised voice.speaking_rate 1.09->1.15 (wpm 193.9); watch next episode's pace. Runtime 11.4 min. Risks: antivenom 1962 figures via Wikipedia; Benin delay data is all-snakebite.
