@@ -9201,7 +9201,7 @@
       "name": "black_mamba_coiled",
       "x": 1300,
       "y": 536.0,
-      "scale": 0.45
+      "scale": 0.55
      },
      {
       "type": "doug",
@@ -11168,7 +11168,7 @@
       "name": "black_mamba_coiled",
       "x": 1450,
       "y": 632.0,
-      "scale": 0.35
+      "scale": 0.55
      },
      {
       "type": "doug",
@@ -11283,7 +11283,7 @@
       "name": "black_mamba_coiled",
       "x": 1450,
       "y": 632.0,
-      "scale": 0.35
+      "scale": 0.55
      },
      {
       "type": "spray",
@@ -11423,7 +11423,7 @@
       "name": "black_mamba_coiled",
       "x": 1450,
       "y": 576.0,
-      "scale": 0.45,
+      "scale": 0.55,
       "appear": 0.45
      },
      {
@@ -11551,7 +11551,7 @@
       "name": "black_mamba_coiled",
       "x": 1450,
       "y": 576.0,
-      "scale": 0.45
+      "scale": 0.55
      },
      {
       "type": "line",
@@ -11570,19 +11570,19 @@
      },
      {
       "type": "doug",
-      "x": 1000,
-      "y": 931.6,
+      "x": 1760,
+      "y": 891.6,
       "scale": 0.45,
       "pose": "shrug",
       "expression": "smirk",
-      "facing": "right",
+      "facing": "left",
       "appear": 0.2
      },
      {
       "type": "wordart",
       "text": "SAME SPOT",
-      "x": 960,
-      "y": 870,
+      "x": 1440,
+      "y": 450,
       "size": 90,
       "boil": 0,
       "appear": 0.4
@@ -14078,9 +14078,9 @@
      {
       "type": "asset",
       "name": "black_mamba_coiled",
-      "x": 1240,
-      "y": 860,
-      "scale": 0.4
+      "x": 1260,
+      "y": 875,
+      "scale": 0.55
      },
      {
       "type": "doug",
@@ -14500,7 +14500,7 @@
       "name": "black_mamba_coiled",
       "x": 1200,
       "y": 440,
-      "scale": 0.5
+      "scale": 0.55
      },
      {
       "type": "asset",
@@ -14828,71 +14828,17 @@
       "boil": 0.5
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        450,
-        900
-       ],
-       [
-        462,
-        380
-       ],
-       [
-        498,
-        380
-       ],
-       [
-        510,
-        900
-       ]
-      ],
-      "fill": "#6b5040",
-      "color": "#000000",
-      "width": 4
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        480,
-        400
-       ],
-       [
-        820,
-        360
-       ]
-      ],
-      "color": "#6b5040",
-      "width": 22
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        480,
-        520
-       ],
-       [
-        260,
-        430
-       ]
-      ],
-      "color": "#6b5040",
-      "width": 16
-     },
-     {
       "type": "asset",
       "name": "brown_snake_eagle",
-      "x": 700,
-      "y": 372,
-      "scale": 0.75
+      "x": 960,
+      "y": 900,
+      "scale": 1.0
      },
      {
       "type": "label",
       "text": "BROWN SNAKE EAGLE",
-      "x": 1300,
-      "y": 700,
+      "x": 1450,
+      "y": 720,
       "size": 40,
       "bold": true,
       "boil": 0.3,
@@ -15677,7 +15623,7 @@
       "type": "label",
       "text": "ADULT MAMBAS",
       "x": 1250,
-      "y": 640,
+      "y": 470,
       "size": 40,
       "bold": true,
       "boil": 0.3,
@@ -27786,32 +27732,11 @@
      },
      {
       "type": "asset",
-      "name": "black_mamba",
-      "x": 900,
-      "y": 825.0,
-      "scale": 0.6,
-      "flip": false
-     },
-     {
-      "type": "asset",
       "name": "black_mamba_reared",
       "x": 1050,
       "y": 900,
       "scale": 0.85,
-      "appear": 0.35
-     },
-     {
-      "type": "rect",
-      "x": 500,
-      "y": 520,
-      "w": 480,
-      "h": 340,
-      "fill": "#f2a24a",
-      "color": "#f2a24a",
-      "width": 0,
-      "boil": 0,
-      "outline": false,
-      "appear": 0.35
+      "appear": 0.2
      },
      {
       "type": "line",
@@ -45869,7 +45794,7 @@
       "text": "THE GAPE AND THE HOOD",
       "x": 960,
       "y": 380,
-      "size": 130,
+      "size": 100,
       "color": "#e0201b",
       "bold": true,
       "boil": 0.3,
@@ -59195,7 +59120,7 @@
      {
       "type": "doug",
       "x": 1600,
-      "y": 999.2,
+      "y": 929.2,
       "scale": 0.4,
       "pose": "stand",
       "expression": "neutral",
@@ -60970,12 +60895,12 @@
      },
      {
       "type": "doug",
-      "x": 1280,
-      "y": 652.0,
-      "scale": 0.25,
-      "pose": "stand",
+      "x": 1130,
+      "y": 484.2,
+      "scale": 0.4,
+      "pose": "point",
       "expression": "confused",
-      "facing": "left",
+      "facing": "right",
       "appear": 0.3
      },
      {
@@ -61046,12 +60971,12 @@
      },
      {
       "type": "doug",
-      "x": 1360,
-      "y": 652.0,
-      "scale": 0.25,
-      "pose": "crouch",
+      "x": 1130,
+      "y": 484.2,
+      "scale": 0.4,
+      "pose": "arms_up",
       "expression": "gritted",
-      "facing": "left",
+      "facing": "right",
       "gear": [
        "sweat"
       ]
@@ -61518,15 +61443,15 @@
      },
      {
       "type": "doug",
-      "x": 1360,
-      "y": 652.0,
-      "scale": 0.25,
+      "x": 1130,
+      "y": 484.2,
+      "scale": 0.4,
       "pose": [
        "panic1",
        "panic2"
       ],
       "expression": "shock",
-      "facing": "left"
+      "facing": "right"
      },
      {
       "type": "label",
@@ -71457,9 +71382,9 @@
      {
       "type": "asset",
       "name": "black_mamba_coiled",
-      "x": 1100,
-      "y": 940,
-      "scale": 0.4
+      "x": 1090,
+      "y": 965,
+      "scale": 0.55
      },
      {
       "type": "group",
@@ -71856,9 +71781,9 @@
      {
       "type": "asset",
       "name": "black_mamba_coiled",
-      "x": 1100,
-      "y": 940,
-      "scale": 0.4
+      "x": 1090,
+      "y": 965,
+      "scale": 0.55
      },
      {
       "type": "group",

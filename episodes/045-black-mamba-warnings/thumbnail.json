@@ -1,0 +1,103 @@
+{
+ "background": "#ffb000",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#ffb000",
+   "color": "#ffb000",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 560,
+   "y": 250,
+   "r": 330,
+   "fill": "#ffd84a",
+   "color": "#ffd84a",
+   "width": 1
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 640,
+   "w": 1280,
+   "h": 80,
+   "fill": "#c97a3a",
+   "color": "#c97a3a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "asset",
+   "name": "termite_mound",
+   "x": 1070,
+   "y": 665,
+   "scale": 0.72
+  },
+  {
+   "type": "doug",
+   "x": 1070,
+   "y": 610,
+   "scale": 0.42,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "left"
+  },
+  {
+   "type": "asset",
+   "name": "black_mamba_hood",
+   "x": 300,
+   "y": 770,
+   "scale": 1.6,
+   "silhouette": true,
+   "glow_r": 0,
+   "rim": {
+    "color": "#ffffff",
+    "px": 6
+   }
+  },
+  {
+   "type": "asset",
+   "name": "black_mamba_hood",
+   "x": 300,
+   "y": 770,
+   "scale": 1.6
+  },
+  {
+   "type": "arrow",
+   "from": [
+    600,
+    330
+   ],
+   "to": [
+    990,
+    600
+   ],
+   "bend": -60,
+   "color": "#e0201b",
+   "width": 12
+  },
+  {
+   "type": "text",
+   "text": "IT'S GOING HOME",
+   "x": 1035,
+   "y": 180,
+   "size": 100,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 500
+  }
+ ]
+}

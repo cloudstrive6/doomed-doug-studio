@@ -1,0 +1,100 @@
+{
+ "background": "#e9d39a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#e9d39a",
+   "color": "#e9d39a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     60,
+     560
+    ],
+    [
+     300,
+     470
+    ],
+    [
+     560,
+     520
+    ],
+    [
+     820,
+     400
+    ],
+    [
+     1180,
+     365
+    ]
+   ],
+   "color": "#8a5a2a",
+   "width": 14,
+   "dash": [
+    30,
+    22
+   ]
+  },
+  {
+   "type": "asset",
+   "name": "hospital_building",
+   "x": 1190,
+   "y": 360,
+   "scale": 0.22
+  },
+  {
+   "type": "asset",
+   "name": "black_mamba_reared",
+   "x": 170,
+   "y": 720,
+   "scale": 1.15,
+   "silhouette": true,
+   "glow_r": 0,
+   "rim": {
+    "color": "#e0201b",
+    "px": 8
+   }
+  },
+  {
+   "type": "asset",
+   "name": "bicycle_flat_tyre",
+   "x": 640,
+   "y": 700,
+   "scale": 1.12
+  },
+  {
+   "type": "doug",
+   "x": 539,
+   "y": 340,
+   "scale": 0.75,
+   "pose": "sit",
+   "expression": "shock",
+   "facing": "right"
+  },
+  {
+   "type": "text",
+   "text": "FLAT TYRE",
+   "x": 780,
+   "y": 95,
+   "size": 120,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 760
+  }
+ ]
+}
