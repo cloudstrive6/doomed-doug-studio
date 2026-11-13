@@ -88,3 +88,4 @@ PACKAGE THUMBNAILS: A, C APPROVED; B REVISE (designer: layout; titler: thumb_tex
   spot at the centre of the patch, and that is enough for this concept. A and C carry the readable-face Doug.
 
 PACKAGE THUMBNAILS: A, B, C APPROVED
+- 2026-11-13: packaged. Script 2 rounds (screener FAIL on hook/facts, then PASS); art 3 rounds (map border + label overlaps); thumbnails 5 rounds (B redrawn repeatedly; CD and screener disagreed on Doug size, final B follows screener's fixes, Doug ~225px). Risk: weakest proven-outlier evidence in recent briefs; no-'Doug' title experiment, readout day 7. Optional unaddressed: balance-scale tilt s097/s127, black blobs in rhizomorph_web drawing.
