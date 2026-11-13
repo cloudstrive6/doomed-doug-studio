@@ -1,0 +1,54 @@
+# 046-biggest-fungus-forest: art review, new assets (art director, 2026-11-13)
+
+**Verdict: PASS.** All 34 requested assets exist; the request lists 34, not 35. Every one is **APPROVE**. Two small fixes were made in place, and two notes go to the director.
+
+Method: each asset was rendered fitted to frame. Costumes were checked worn by Doug in `stand`. The assets were also checked in context in 16 keyframes: s003 s026 s041 s050 s070 s087 s108 s109 s111 s130 s143 s151 s152 s171 s179 s180. Those keyframes cover dark soil, the foxfire card, night, grey dusk, the silhouette beats and the small-scale uses. Checked against the art bible (fungus rules, zone colours) and style bible sec 7 (rules 1, 7 and 8).
+Note: `haustorium_collar` and `tomato_costume_flat` have uncommitted illustrator revisions made after commit e8e89980. Those revised versions are the ones reviewed and approved.
+
+## Per asset
+| # | Asset | Verdict | Notes |
+|---|---|---|---|
+| 1 | rafflesia_flower | APPROVE | Warty brick-red lobes, dark cup with a spiked rim. Still reads as a giant ugly flower at 0.35 on the belly (s026). |
+| 2 | rafflesia_bud | APPROVE | Cabbage-like bracts with a woody collar. |
+| 3 | tetrastigma_vine | APPROVE | Woody liana with compound leaves. |
+| 4 | vine_cells_diagram | APPROVE | Green cells with purple-pink threads woven through. |
+| 5 | vine_costume | APPROVE | Spiral coil, cap and face clear, plain belly coil for the bloom. |
+| 6 | dodder_hedge | APPROVE | Reads as orange string dumped on a hedge. |
+| 7 | dodder_seedling | APPROVE | Leaning thread with a hooked tip. Silhouette-safe. |
+| 8 | tomato_plant | APPROVE | Straight central stem for the coils. It is about 616 tall against the 520 in the request, which is fine in the frames checked. |
+| 9 | wheat_plant | APPROVE | |
+| 10 | dodder_on_stem | APPROVE | Tight coils with haustoria bumps and a withered grey root at the left. |
+| 11 | haustoria_diagram | APPROVE | Pegs clearly reach the blue vessels (s041). |
+| 12 | tomato_costume | APPROVE | Deadpan felt tomato with a calyx collar. Arms and legs come out of it. |
+| 13 | tomato_costume_flat | APPROVE | Empty and tangled. `doug_cap` sits correctly on top (s050). |
+| 14 | perch_fish | APPROVE | Bars, spiny dorsal fin with its spot, orange fins. |
+| 15 | pike_fish | APPROVE | Bean spots, duck-bill snout, dorsal fin set far back. |
+| 16 | nuytsia_tree | APPROVE | Golden crown. The silhouette reads (s070). |
+| 17 | haustorium_collar | APPROVE | The y -14..+14 gap is kept and the blade reads. |
+| 18 | gum_tree | APPROVE | |
+| 19 | phone_handset | APPROVE (fixed) | The cord coil was 3 px and read as a little white puff at large scale. I widened it to 4 px. |
+| 20 | aspen_tree | APPROVE | Slim and repeatable in rows (s108/s109). |
+| 21 | aspen_sprout | APPROVE | |
+| 22 | aspen_sprout_bitten | APPROVE | Flat bitten top. The cap sits on it (s108). |
+| 23 | aspen_sprout_costume | APPROVE | The leaves on wires do not cover the cap. |
+| 24 | deer_fence | APPROVE | The mesh is see-through. |
+| 25 | rhizomorph_web | APPROVE | The tan rim reads on `#665244` (s111) and near-black (s003). The silhouette works (s109). |
+| 26 | honey_mushroom_cluster | APPROVE | Readable on the dark Oregon ground (s171/s180). White rings, no faces. |
+| 27 | oak_tree | APPROVE | |
+| 28 | red_oak_costume | APPROVE | The crown hat rim sits on the cap and the cap stays fully visible (s130). |
+| 29 | conifer_dead | APPROVE | Lighter than the dusk sky, so it reads well next to `pine_tree` (s171). |
+| 30 | bark_cutaway | APPROVE | Off-white fungus fan between bark and wood. The BARK/WOOD label space is clear (s143). |
+| 31 | pine_costume | APPROVE | Mid-tone felt. Works with white-inked Doug at night (s151). |
+| 32 | pine_costume_fuzz | APPROVE (fixed) | Ten grey arc "speckles", four of them on the head, read as closed eyes and a frown, which breaks the no-face rule. I turned them into round speckle dots. The head is now faceless (s152). |
+| 33 | douglas_fir_costume | APPROVE | Drooping tiers and bract cones. Reads on grey dusk (s179). |
+| 34 | douglas_fir_costume_fallen | APPROVE | Empty and lying horizontal (s180). |
+
+## Fixes made by the art director
+1. `assets/library/pine_costume_fuzz.json`: 10 `#b8b8b0` arc curves were turned into round speckle dots, so no face-like marks are left.
+2. `assets/library/phone_handset.json`: the cord stub width went from 3 to 4.
+
+## For the director (composition, not blocking asset approval)
+1. s087: the handset (0.5) overlaps Doug's cap brim. Move it about 40 px right or up so the cap stays clean.
+2. s152: the green glow in the shot is a large spray disc that covers the whole lower frame. The asset already carries its own faint base glow, so think about shrinking or dropping the shot-level glow.
+
+Full keyframe review follows at the art_approved gate.
