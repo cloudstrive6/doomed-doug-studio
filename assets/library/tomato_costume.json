@@ -1,0 +1,627 @@
+{
+ "name": "tomato_costume",
+ "description": "Doug's tomato suit (worn prop, stand pose; anchor = Doug's hips, list after Doug at the same x/y/scale): a big round red #e0402a felt tomato from the shoulders (y -150) to mid-thigh (y +44) with a lighter highlight, stitched lobe seams, a green star calyx collar round his neck, short black arms sticking out of the sides; his legs show below. Head, face and cap stay fully visible. Deadpan.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "costume",
+  "prop",
+  "tomato",
+  "dodder",
+  "046"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -112,
+     -78
+    ],
+    [
+     -138,
+     -40
+    ],
+    [
+     -146,
+     0
+    ]
+   ],
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     112,
+     -78
+    ],
+    [
+     138,
+     -40
+    ],
+    [
+     146,
+     0
+    ]
+   ],
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -128,
+     -60
+    ],
+    [
+     -118,
+     -118
+    ],
+    [
+     -70,
+     -150
+    ],
+    [
+     -18,
+     -140
+    ],
+    [
+     0,
+     -146
+    ],
+    [
+     18,
+     -140
+    ],
+    [
+     70,
+     -150
+    ],
+    [
+     118,
+     -118
+    ],
+    [
+     128,
+     -60
+    ],
+    [
+     118,
+     0
+    ],
+    [
+     70,
+     36
+    ],
+    [
+     0,
+     44
+    ],
+    [
+     -70,
+     36
+    ],
+    [
+     -118,
+     0
+    ]
+   ],
+   "fill": "#e0402a",
+   "width": 6,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 60,
+   "y": -20,
+   "r": 50,
+   "color": "#a8241a",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 90,
+   "y": -70,
+   "r": 30,
+   "color": "#a8241a",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": 10,
+   "y": 10,
+   "r": 28,
+   "color": "#a8241a",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -95
+    ],
+    [
+     -80,
+     -125
+    ],
+    [
+     -45,
+     -128
+    ],
+    [
+     -55,
+     -100
+    ],
+    [
+     -85,
+     -70
+    ]
+   ],
+   "fill": "#ff8a6a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -72,
+   "y": -108,
+   "rx": 14,
+   "ry": 8,
+   "fill": "#ffd0c0",
+   "width": 0,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -140
+    ],
+    [
+     -85,
+     -60
+    ],
+    [
+     -55,
+     30
+    ]
+   ],
+   "color": "#b8301e",
+   "width": 3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     60,
+     -140
+    ],
+    [
+     85,
+     -60
+    ],
+    [
+     55,
+     30
+    ]
+   ],
+   "color": "#b8301e",
+   "width": 3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -2,
+     -138
+    ],
+    [
+     0,
+     -50
+    ],
+    [
+     0,
+     42
+    ]
+   ],
+   "color": "#b8301e",
+   "width": 3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -50,
+     -136
+    ],
+    [
+     -74,
+     -60
+    ],
+    [
+     -46,
+     28
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 2,
+   "dash": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     50,
+     -136
+    ],
+    [
+     74,
+     -60
+    ],
+    [
+     46,
+     28
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 2,
+   "dash": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -128,
+     -60
+    ],
+    [
+     -118,
+     -118
+    ],
+    [
+     -70,
+     -150
+    ],
+    [
+     -18,
+     -140
+    ],
+    [
+     0,
+     -146
+    ],
+    [
+     18,
+     -140
+    ],
+    [
+     70,
+     -150
+    ],
+    [
+     118,
+     -118
+    ],
+    [
+     128,
+     -60
+    ],
+    [
+     118,
+     0
+    ],
+    [
+     70,
+     36
+    ],
+    [
+     0,
+     44
+    ],
+    [
+     -70,
+     36
+    ],
+    [
+     -118,
+     0
+    ]
+   ],
+   "fill": null,
+   "width": 6,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -25.9,
+     -146
+    ],
+    [
+     -62.0,
+     -141.0
+    ],
+    [
+     -103.4,
+     -119.0
+    ],
+    [
+     -56.9,
+     -125.0
+    ],
+    [
+     -20.7,
+     -138
+    ]
+   ],
+   "fill": "#2f7a2a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -25.9,
+     -146
+    ],
+    [
+     -103.4,
+     -119.0
+    ]
+   ],
+   "color": "#7fbf5a",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -18.2,
+     -146
+    ],
+    [
+     -43.7,
+     -119.8
+    ],
+    [
+     -72.8,
+     -97.8
+    ],
+    [
+     -40.0,
+     -103.8
+    ],
+    [
+     -14.6,
+     -138
+    ]
+   ],
+   "fill": "#2f7a2a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -18.2,
+     -146
+    ],
+    [
+     -72.8,
+     -97.8
+    ]
+   ],
+   "color": "#7fbf5a",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -6.0,
+     -146
+    ],
+    [
+     -14.4,
+     -117.4
+    ],
+    [
+     -23.9,
+     -95.4
+    ],
+    [
+     -13.2,
+     -101.4
+    ],
+    [
+     -4.8,
+     -138
+    ]
+   ],
+   "fill": "#2f7a2a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -6.0,
+     -146
+    ],
+    [
+     -23.9,
+     -95.4
+    ]
+   ],
+   "color": "#7fbf5a",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     6.0,
+     -146
+    ],
+    [
+     14.4,
+     -117.4
+    ],
+    [
+     23.9,
+     -95.4
+    ],
+    [
+     13.2,
+     -101.4
+    ],
+    [
+     4.8,
+     -138
+    ]
+   ],
+   "fill": "#2f7a2a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     6.0,
+     -146
+    ],
+    [
+     23.9,
+     -95.4
+    ]
+   ],
+   "color": "#7fbf5a",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     18.2,
+     -146
+    ],
+    [
+     43.7,
+     -119.8
+    ],
+    [
+     72.8,
+     -97.8
+    ],
+    [
+     40.0,
+     -103.8
+    ],
+    [
+     14.6,
+     -138
+    ]
+   ],
+   "fill": "#2f7a2a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     18.2,
+     -146
+    ],
+    [
+     72.8,
+     -97.8
+    ]
+   ],
+   "color": "#7fbf5a",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     25.9,
+     -146
+    ],
+    [
+     62.0,
+     -141.0
+    ],
+    [
+     103.4,
+     -119.0
+    ],
+    [
+     56.9,
+     -125.0
+    ],
+    [
+     20.7,
+     -138
+    ]
+   ],
+   "fill": "#2f7a2a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     25.9,
+     -146
+    ],
+    [
+     103.4,
+     -119.0
+    ]
+   ],
+   "color": "#7fbf5a",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -146,
+   "rx": 30,
+   "ry": 11,
+   "fill": "#2f7a2a",
+   "width": 5,
+   "color": "#000000"
+  }
+ ]
+}

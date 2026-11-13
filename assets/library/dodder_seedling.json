@@ -1,0 +1,229 @@
+{
+ "name": "dodder_seedling",
+ "description": "Dodder seedling: one leafless pale orange-yellow #f6b04a thread (noodle-thick) rising from a small soil mound and leaning/curving to the right with a hooked searching tip at about (118,-282). Silhouette reads as a leaning thread. Anchor bottom-centre (mound base on y 0), ~160x320 (x -40..120, y -320..0). Flip to lean left.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "plant",
+  "dodder",
+  "parasite",
+  "seedling",
+  "046"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     0
+    ],
+    [
+     -28.0,
+     -19.5
+    ],
+    [
+     0.0,
+     -26
+    ],
+    [
+     28.0,
+     -19.5
+    ],
+    [
+     40,
+     0
+    ]
+   ],
+   "fill": "#7a5a3a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 12.0,
+   "y": -9.1,
+   "r": 7.8,
+   "color": "#5a3e26",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -12.0,
+   "y": -13.0,
+   "r": 6.5,
+   "color": "#9a7a52",
+   "density": 0.25
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -14
+    ],
+    [
+     -4,
+     -90
+    ],
+    [
+     6,
+     -170
+    ],
+    [
+     34,
+     -240
+    ],
+    [
+     72,
+     -288
+    ],
+    [
+     102,
+     -308
+    ],
+    [
+     116,
+     -300
+    ],
+    [
+     118,
+     -282
+    ]
+   ],
+   "color": "#000000",
+   "width": 15
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -14
+    ],
+    [
+     -4,
+     -90
+    ],
+    [
+     6,
+     -170
+    ],
+    [
+     34,
+     -240
+    ],
+    [
+     72,
+     -288
+    ],
+    [
+     102,
+     -308
+    ],
+    [
+     116,
+     -300
+    ],
+    [
+     118,
+     -282
+    ]
+   ],
+   "color": "#f6b04a",
+   "width": 9
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     -14
+    ],
+    [
+     -4,
+     -90
+    ],
+    [
+     6,
+     -170
+    ],
+    [
+     34,
+     -240
+    ],
+    [
+     72,
+     -288
+    ]
+   ],
+   "color": "#ffd88a",
+   "width": 3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     10,
+     -170
+    ],
+    [
+     36,
+     -236
+    ],
+    [
+     70,
+     -282
+    ]
+   ],
+   "color": "#d9862a",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 118,
+   "y": -280,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#f6b04a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -22,
+     0
+    ],
+    [
+     -10,
+     -16
+    ],
+    [
+     12,
+     -18
+    ],
+    [
+     26,
+     0
+    ]
+   ],
+   "fill": "#7a5a3a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 4,
+   "y": -8,
+   "r": 7,
+   "color": "#5a3e26",
+   "density": 0.35
+  }
+ ]
+}
