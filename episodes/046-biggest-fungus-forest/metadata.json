@@ -1,0 +1,201 @@
+{
+  "title": "A Fungus Under Oregon Has Been Killing Trees for 2,400 Years",
+  "alt_titles": [
+    "Scientists Found a Fungus Killing Trees Across 965 Hectares",
+    "The 2,400-Year-Old Fungus Quietly Killing an Oregon Forest",
+    "The Biggest Fungus Ever Found Is Killing a Forest From Below",
+    "How the Biggest Fungus Ever Found Kills Trees From Below"
+  ],
+  "packaging": {
+    "gate": "D4 packaging gate v1 (2026-11-09)",
+    "ranked_at": "2026-11-13T17:22:19Z",
+    "names": [
+      "fungus",
+      "fungi",
+      "Armillaria",
+      "Oregon",
+      "Oregon's",
+      "Malheur",
+      "Blue Mountains",
+      "Rafflesia",
+      "corpse flower",
+      "flower",
+      "dodder",
+      "Pando",
+      "tapeworm"
+    ],
+    "candidates": [
+      {
+        "title": "A Fungus Under Oregon Has Been Killing Trees for 2,400 Years",
+        "thumb_text": "ALL ONE THING",
+        "concept": "Hero A cross-section: a thin strip of grey, dead conifers on top; a huge white web of bootlace rhizomorphs fills the lower two thirds and runs out of every edge; tiny Doug in a Douglas-fir costume on top, cap on",
+        "formula": "T4",
+        "chars": 60,
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      },
+      {
+        "title": "Scientists Found a Fungus Killing Trees Across 965 Hectares",
+        "thumb_text": "1,350 PITCHES",
+        "concept": "Aerial view: the forest with a red outline round a town-sized patch of grey dead trees, tiny Doug at the centre so the scale reads",
+        "formula": "T4",
+        "chars": 59,
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      },
+      {
+        "title": "The 2,400-Year-Old Fungus Quietly Killing an Oregon Forest",
+        "thumb_text": "IT'S UNDERNEATH",
+        "concept": "Surface view: Doug in a Douglas-fir costume, cap on, standing calmly among grey dying trees while honey mushrooms ring his feet; a faint glow under the soil",
+        "formula": "T4",
+        "chars": 58,
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      },
+      {
+        "title": "The Biggest Fungus Ever Found Is Killing a Forest From Below",
+        "thumb_text": "STILL THERE",
+        "concept": "Night aerial view of the forest with the dead patch outlined; Doug's cap on a honey-mushroom cluster with a faint foxfire glow under it",
+        "formula": "T4",
+        "chars": 60,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "How the Biggest Fungus Ever Found Kills Trees From Below",
+        "thumb_text": "2,400+ YEARS",
+        "concept": "Doug in a Douglas-fir costume, roots reaching down into black bootlaces and a white fan creeping up under the bark; calendar pages flying",
+        "formula": "T4",
+        "chars": 56,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Most Disturbing Fungus on Earth Is Bigger Than a Town",
+        "thumb_text": "KILLING TREES",
+        "concept": "A crude town map (houses, roads) overlaid on a grey dying forest, all of it sitting on one white fungal web; tiny Doug on the road",
+        "formula": "T4",
+        "chars": 57,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Biggest Fungus Ever Found Glows While It Kills a Forest",
+        "thumb_text": "FOXFIRE",
+        "concept": "Night: dark pine forest, the ground around the roots glowing faint green; tiny Doug in a pine costume, cap on, waving at the glow",
+        "formula": "T4",
+        "chars": 59,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Creepiest Flower on Earth Has No Leaves, Stem or Roots",
+        "thumb_text": "INSIDE A VINE",
+        "concept": "Hero C: a huge red-brown Rafflesia filling the frame, flies over it, tiny Doug in a vine costume beneath it",
+        "formula": "T4",
+        "chars": 58,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Creepiest Part of the Biggest Fungus Is the Dead Trees",
+        "thumb_text": "IT'S UNDERGROUND",
+        "concept": "A grey dying forest above, honey mushrooms at the tree bases, the fungal web glowing faintly below; tiny pine-costume Doug looking down",
+        "formula": "T4",
+        "chars": 58,
+        "score": 98,
+        "raw": 98,
+        "issues": [
+          "mobile: a mobile feed shows about \"The Creepiest Part of the Biggest...\" and loses the subject"
+        ]
+      },
+      {
+        "title": "Why the Deadliest Giants in Nature Hide Under a Forest",
+        "thumb_text": "965 HECTARES",
+        "concept": "Size ladder left to right: Rafflesia, dodder, tape measure, aspen sprout, then a vast white fungal web under a grey forest; tiny Doug at the end",
+        "formula": "T6",
+        "chars": 54,
+        "score": 80,
+        "raw": 80,
+        "issues": [
+          "mobile: a mobile feed shows about \"Why the Deadliest Giants in Nature Hide...\" and loses the subject",
+          "no-number: no number, date or name, the most reliable single fix"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "variant": "A",
+        "file": "thumbnail.json",
+        "png": "build/thumbnail.png",
+        "title": "A Fungus Under Oregon Has Been Killing Trees for 2,400 Years",
+        "thumb_text": "ALL ONE THING",
+        "concept": "hero close-up",
+        "thumb_idea": "Hero A cross-section: a thin strip of grey, dead conifers on top; a huge white web of bootlace rhizomorphs fills the lower two thirds and runs out of every edge; tiny Doug in a Douglas-fir costume on top, cap on",
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      },
+      {
+        "variant": "B",
+        "file": "thumbnail_test_b.json",
+        "png": "build/thumbnail_b.png",
+        "title": "Scientists Found a Fungus Killing Trees Across 965 Hectares",
+        "thumb_text": "1,350 PITCHES",
+        "concept": "Doug in peril",
+        "thumb_idea": "Aerial view: the forest with a red outline round a town-sized patch of grey dead trees, tiny Doug at the centre so the scale reads",
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      },
+      {
+        "variant": "C",
+        "file": "thumbnail_test_c.json",
+        "png": "build/thumbnail_c.png",
+        "title": "The 2,400-Year-Old Fungus Quietly Killing an Oregon Forest",
+        "thumb_text": "IT'S UNDERNEATH",
+        "concept": "second shock",
+        "thumb_idea": "Surface view: Doug in a Douglas-fir costume, cap on, standing calmly among grey dying trees while honey mushrooms ring his feet; a faint glow under the soil",
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      }
+    ],
+    "readout": {
+      "metric": "long-form CTR at day 7",
+      "min_impressions": 1000,
+      "baseline_median": 0.022,
+      "baseline_top": [
+        0.025,
+        0.043
+      ],
+      "target_median": 0.04,
+      "baseline_source": "data/analytics/2026-11-08.json"
+    }
+  },
+  "title_formula": "T4",
+  "thumbnail_brief": "A cross-section with a thin strip of grey, dead conifers on top and a huge white web of bootlace fungus filling the lower two thirds and running out of every edge, tiny red-capped Doug in a Douglas-fir costume standing on top, and the words ALL ONE THING, so the title says what it does (killing trees for 2,400 years) and the thumbnail shows the twist that the whole hidden web is a single organism (no FUNGUS, OREGON, TREES, KILLING or YEARS on the image; no rot or decay on Doug, no cute mushroom faces).",
+  "description": "The biggest fungus ever found is a single honey fungus in Oregon's Malheur National Forest: about 965 hectares, at least 2,400 years old, and killing conifers from the roots up while almost all of it stays hidden. Doug works up to it through the giant things that live inside something else or under the ground: the corpse flower, dodder, a ten-meter tapeworm, a tree that cuts cables, Pando and the humongous fungus.\n\nWhich one would you least like to stand on? Tell us in the comments.\nSubscribe so you don't miss Doug's next bad decision.\n\n— TIMESTAMPS —\n{{CHAPTERS}}\n\n— KEY SOURCES —\nGuinness World Records, largest fungus (Malheur National Forest, Oregon): https://www.guinnessworldrecords.com/world-records/66481-largest-fungi\nUSDA Forest Service, Armillaria Root Disease (Forest Insect & Disease Leaflet 188): https://www.fs.usda.gov/foresthealth/docs/fidls/FIDL-188-ArmillariaRootDisease.pdf\nAnderson et al. (2018), Proc. R. Soc. B, the Michigan Armillaria gallica individual: https://pmc.ncbi.nlm.nih.gov/articles/PMC6304041\nRogers & McAvoy (2018), PLOS ONE, mule deer browsing and the Pando aspen clone: https://pmc.ncbi.nlm.nih.gov/articles/PMC6192553\nCDC DPDx, Diphyllobothriasis (broad fish tapeworm): https://www.cdc.gov/dpdx/diphyllobothriasis/index.html\nRoyal Botanic Gardens, Kew, Plants of the World Online, Rafflesia arnoldii: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:316069-1/general-information\n\n— DISCLAIMER —\nEducational entertainment. Every death in this video is a cartoon depiction of a stick figure; this is not medical or safety advice, and the science is real and sourced above.\n\n— AI USE —\nThe narration is an AI text-to-speech voice. Scripts are researched and written with AI assistance and fact-checked against the sources above. All drawings are original.\n\n#DoomedDoug #Fungus #Parasites",
+  "tags": [
+    "biggest fungus in the world",
+    "humongous fungus",
+    "armillaria ostoyae",
+    "honey fungus",
+    "largest organism on earth",
+    "pando aspen",
+    "rafflesia corpse flower",
+    "parasitic plants",
+    "dodder plant",
+    "stick figure animation"
+  ],
+  "playlist": "parasites",
+  "paid_promotion": false
+}
