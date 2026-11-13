@@ -80,3 +80,11 @@ PACKAGE THUMBNAILS: A, C APPROVED; B REVISE (designer: layout; titler: thumb_tex
 - **B overall: still REVISE**, because the text must change to "1,350 FOOTBALL PITCHES". It is waiting on the youtube-titler, who
   edits thumb_text and re-runs `package 046-biggest-fungus-forest rank`. Then the designer swaps the text at about 95 px and re-renders.
   Once that is done and `package check` prints OK, B is approved. A layout pass is not needed.
+
+## 2026-11-13, creative director: thumbnail gate, round 4 (B text + Doug size)
+- **B: APPROVED.** The text "1,350 FOOTBALL PITCHES" fits on one line, is clear at 168 px, and is no longer ambiguous. `package check` prints OK.
+- **Doug size:** I accept about 110 px instead of the ~225 px I asked for in round 2, following the visual-screener. B sells scale, so a
+  small Doug on the bare-soil disc is the point. At 168 px his face doesn't read, but the red cap does, as a clear speck in the clean
+  spot at the centre of the patch, and that is enough for this concept. A and C carry the readable-face Doug.
+
+PACKAGE THUMBNAILS: A, B, C APPROVED
