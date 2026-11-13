@@ -1,5 +1,5 @@
 {
- "background": "#7a3fd0",
+ "background": "#4e2596",
  "size": [
   1280,
   720
@@ -11,8 +11,8 @@
    "y": 0,
    "w": 1280,
    "h": 720,
-   "fill": "#7a3fd0",
-   "color": "#7a3fd0",
+   "fill": "#4e2596",
+   "color": "#4e2596",
    "width": 0,
    "outline": false
   },
@@ -28,24 +28,33 @@
    "outline": false
   },
   {
-   "type": "ellipse",
-   "x": 640,
-   "y": 620,
-   "rx": 360,
-   "ry": 55,
-   "fill": "#3f9a3a",
-   "color": "#3f9a3a",
-   "width": 1
+   "type": "asset",
+   "name": "rhizomorph_web",
+   "x": 290,
+   "y": 638,
+   "scale": 0.62,
+   "silhouette": true,
+   "glow": "#7dff5a",
+   "glow_r": 14,
+   "rim": {
+    "color": "#9dff6a",
+    "px": 4
+   }
   },
   {
-   "type": "ellipse",
-   "x": 640,
-   "y": 620,
-   "rx": 210,
-   "ry": 30,
-   "fill": "#a8ff80",
-   "color": "#a8ff80",
-   "width": 1
+   "type": "asset",
+   "name": "rhizomorph_web",
+   "x": 990,
+   "y": 642,
+   "scale": 0.62,
+   "flip": true,
+   "silhouette": true,
+   "glow": "#7dff5a",
+   "glow_r": 14,
+   "rim": {
+    "color": "#9dff6a",
+    "px": 4
+   }
   },
   {
    "type": "rect",

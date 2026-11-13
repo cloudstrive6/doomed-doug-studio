@@ -94,3 +94,47 @@ shotlist change (18:04:41 vs 18:04:19).
 No new issues. Round 2 nice-to-haves 13 (s028) and 14 (s097/s127) remain optional.
 
 VERDICT: PASS
+
+## Round 4: thumbnails A/B/C (2026-11-13)
+
+Scope: build/thumbnail.png, thumbnail_b.png, thumbnail_c.png and their 168x94 `_small` versions, checked against
+the paired titles in metadata.json packaging.variants.
+
+### A: "ALL ONE THING" / "A Fungus Under Oregon Has Been Killing Trees for 2,400 Years"
+- Feed size: text fully readable; the white root web filling the lower two thirds is the clear focal mass; Doug's
+  red cap and white head pop against the orange sky even at 168 px. Strong "something huge is under him" read.
+- Doug on-model (red cap, white head, shock face) in the Douglas-fir costume; small, which sells the scale.
+- No gore, not kid-coded. Complements the title (Under Oregon, killing trees) without repeating it.
+- Minor, non-blocking: the black filled blobs with white bristle tufts in the web (about (380,370), (510,440),
+  (960,440), (450,690)) read at full size like ticks/bugs rather than root swellings. Invisible at feed size.
+- **VERDICT A: PASS** (optional: illustrator drops the bristle tufts or makes the swellings white like the strands).
+
+### B: "1,350 PITCHES" / "Scientists Found a Fungus Killing Trees Across 965 Hectares"
+- Feed size: text readable, red ring and Doug readable. Doug on-model (cap, white head, sweat drop, shock).
+- Problems:
+  - No fungus anywhere in frame: it is a grey/brown patch of tree-tops in a green canopy. The threat is not
+    obvious; it reads as "clearing" or "dead patch", not "a fungus did this".
+  - Scale is wrong for the concept: Doug is about 280 px tall, roughly a third of the ring's height, so the
+    "town-sized" patch reads as a yard. The concept asked for tiny Doug.
+  - "PITCHES" without "football" is ambiguous (baseball pitches, sales pitches, tent pitches); a cold viewer
+    cannot decode the number in one second.
+- **VERDICT B: FAIL**
+
+### C: "IT'S UNDERNEATH" / "The 2,400-Year-Old Fungus Quietly Killing an Oregon Forest"
+- Feed size: text readable; Doug's big head/cap is the focal point; mushroom clusters and dying trees read.
+- Doug on-model, calm/deadpan face fits "quietly"; honey mushrooms are recognisable. No gore, not kid-coded.
+- Minor, non-blocking: the green "glow under the soil" ellipse reads as a lawn/pond at feed size and is mostly
+  hidden by the text; a few faint white root lines running down from the mushrooms into the dark soil would
+  sell "underneath" better.
+- **VERDICT C: PASS**
+
+### Required fixes
+1. **Thumbnail B** (graphic designer): shrink Doug to about 90-110 px tall (head about 40 px) at the ring's
+   centre, keeping cap and shock face, so the ring reads as enormous around him.
+2. **Thumbnail B** (graphic designer): show the culprit: a few white rhizomorph strands / honey-mushroom clusters
+   inside and creeping out past the red ring edge, so "fungus" reads in one second.
+3. **Thumbnail B** (graphic designer): replace "1,350 PITCHES" with unambiguous text, e.g. "ONE FUNGUS"
+   or "THIS IS ONE FUNGUS" (pairs with the 965-hectare title without repeating the number); if a number is kept,
+   it must name the unit ("1,350 FOOTBALL FIELDS" is too long at feed size, so prefer the word option).
+
+VERDICT: FAIL (A PASS, B FAIL, C PASS)
