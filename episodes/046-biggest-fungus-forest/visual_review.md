@@ -138,3 +138,77 @@ the paired titles in metadata.json packaging.variants.
    it must name the unit ("1,350 FOOTBALL FIELDS" is too long at feed size, so prefer the word option).
 
 VERDICT: FAIL (A PASS, B FAIL, C PASS)
+
+## Thumbnail round 3 (2026-11-13): final check A / B (revised) / C
+
+### A: "ALL ONE THING": unchanged, still reads at 168x94 (cap + white head on orange, white web below, text clear).
+- **VERDICT A: PASS**
+
+### B (revised): "1,350 FOOTBALL PITCHES" / "Scientists Found a Fungus Killing Trees Across 965 Hectares"
+- Text fix works: the unit is named, spelled right, not cropped, and you can still read it at 168 px (it's thin, but OK).
+- The rhizomorph strands now show up inside the ring and run out past it. Fungus fix done at full size.
+- Fails at feed size (checked thumbnail_b_small.png at 168x94 and blown up 5x):
+  - Doug at ~110 px full size is ~14 px tall in the feed, with a head of ~4 px. He shows up only as a red dot. The
+    viewer can't see Doug or his reaction, so the thumbnail has no character and nothing to look at first.
+  - The grey dead-crown "snowflakes" read as snowflakes or frost, not dead trees. Together with the black-and-white
+    strands, the patch looks like a cracked brown blob. You can't tell in 1 second that a fungus killed this patch.
+- Doug size: I'd go with the creative director's ~225 px (at least 200 px, so his head is ~8 px or more in the feed).
+  At 110 px he disappears. Don't use Doug's size to show scale. Let the patch show it: push the red ring to bleed off
+  the left, right and bottom edges so the patch has no visible end.
+- **VERDICT B: FAIL**
+
+### C: "IT'S UNDERNEATH": the glowing green root lines under the soil now sell "underneath" even at feed size. Doug's
+head and cap are the focal point and he is on-model. No gore, not kid-coded.
+- **VERDICT C: PASS**
+
+### Required fixes (graphic designer)
+1. **Thumbnail B**: make Doug ~225 px tall (head ~80 px) at ring centre with the shock face and cap. Keep the dark
+   clearing behind him so he stands out.
+2. **Thumbnail B**: enlarge the red ring/patch so it bleeds off the left, right and bottom frame edges. Scale comes
+   from the patch having no end, not from Doug being tiny.
+3. **Thumbnail B**: swap the grey snowflake crowns for solid grey/brown dead-crown blobs (like the canopy circles
+   but grey), or remove them. Keep the white rhizomorph strands as the only light linework so "fungus" reads.
+
+VERDICT: FAIL (A PASS, B FAIL, C PASS)
+
+## Thumbnail round 4 (2026-11-13): re-check B after the 3 round-3 fixes
+
+### B: "1,350 FOOTBALL PITCHES" / "Scientists Found a Fungus Killing Trees Across 965 Hectares"
+Checked build/thumbnail_b.png (1280x720) and build/thumbnail_b_small.png (168x94, also blown up 5x).
+- Fix 1 (Doug ~225 px): **done.** Doug is ~225 px tall with a ~80 px head, centred on the dark clearing. He is
+  on-model (red cap, white head, sweat drop, shock face). At feed size the cap and white head are the first thing you see.
+- Fix 2 (ring bleeds off the edges): **done.** The brown patch runs off the left, right and bottom edges with no
+  visible end, so the scale now comes from the patch. Text is spelled right, not cropped, and readable at 168 px.
+- Fix 3 (snowflake crowns): **not done as asked, and it causes a new misread.** The crowns are now solid *black*
+  blobs that still have the white bristle tufts on top, and they sit where the strands end. Also, the strands changed
+  from white to thick black with a thin white halo, so dark linework now dominates the patch. At full size and in the
+  feed, the blobs look like ticks or spiders sitting on a black web or on cracks in the ground. It doesn't read as
+  fungus, and a viewer could expect a spider/insect video (a packaging-mismatch risk).
+- **VERDICT B: FAIL**
+
+### Required fixes (graphic designer)
+1. **Thumbnail B, dead-crown blobs**: remove all the white bristle tufts. Either make the blobs grey-brown
+   (e.g. #6b5a48 with a dark outline) so they read as dead tree crowns or stumps, or delete them.
+2. **Thumbnail B, rhizomorph strands**: switch back to white-dominant strands (white/cream core about 10-14 px with a
+   thin 3-4 px black outline), keeping the current layout. That way the web reads as pale fungus threads, not as
+   black cracks or a spider web. Keep everything else (Doug, clearing, ring bleed, text) unchanged.
+
+VERDICT: FAIL (B: Doug and scale fixed; blob tufts and black strands read as spiders/web)
+
+## Thumbnail round 5 (2026-11-13): re-check B after the 2 round-4 fixes
+
+### B: "1,350 FOOTBALL PITCHES" / "Scientists Found a Fungus Killing Trees Across 965 Hectares"
+Checked build/thumbnail_b.png (1280x720), a 2x crop around Doug, and build/thumbnail_b_small.png (168x94, blown up 5x).
+- Fix 1 (blob tufts): **done.** The bristle tufts and the black crown blobs are gone. All that's left is a small dark
+  ring cap on some strand tips. It reads as the cut end of a root or tube, not as a creature, and it is barely
+  visible at feed size. No tick/spider read remains.
+- Fix 2 (white-dominant strands): **done.** The strands are now a cream core with a thin black outline, in the same
+  layout. At full size and in the feed they read as pale fungal threads spreading through the soil, not as cracks or a web.
+- Kept from round 4: Doug is on-model and centred on the dark clearing (red cap, white head, sweat drop, shock face),
+  and he is the first thing you see at 168 px. The patch bleeds off three edges, so the scale sells the title. The text
+  is spelled right, not cropped, and legible small. No gore, not kid-coded, and it matches the title (fungus across a
+  huge area).
+- Minor, not blocking: at feed size Doug's thin white limbs fade into the clearing, but the cap and head carry him.
+- **VERDICT B: PASS**
+
+VERDICT: PASS (B)
