@@ -1,0 +1,152 @@
+{
+ "background": "#ff8a00",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#ff8a00",
+   "color": "#ff8a00",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 275,
+   "w": 1280,
+   "h": 445,
+   "fill": "#2a1238",
+   "color": "#2a1238",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "asset",
+   "name": "rhizomorph_web",
+   "x": 330,
+   "y": 450,
+   "scale": 1.15,
+   "flip": false,
+   "silhouette": true,
+   "glow_r": 0,
+   "rim": {
+    "color": "#ffffff",
+    "px": 7
+   }
+  },
+  {
+   "type": "asset",
+   "name": "rhizomorph_web",
+   "x": 960,
+   "y": 500,
+   "scale": 1.15,
+   "flip": true,
+   "silhouette": true,
+   "glow_r": 0,
+   "rim": {
+    "color": "#ffffff",
+    "px": 7
+   }
+  },
+  {
+   "type": "asset",
+   "name": "rhizomorph_web",
+   "x": 640,
+   "y": 670,
+   "scale": 1.2,
+   "flip": false,
+   "silhouette": true,
+   "glow_r": 0,
+   "rim": {
+    "color": "#ffffff",
+    "px": 7
+   }
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 275,
+   "fill": "#ff8a00",
+   "color": "#ff8a00",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 267,
+   "w": 1280,
+   "h": 16,
+   "fill": "#3a1a0a",
+   "color": "#3a1a0a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "asset",
+   "name": "conifer_dead",
+   "x": 80,
+   "y": 275,
+   "scale": 0.27
+  },
+  {
+   "type": "asset",
+   "name": "conifer_dead",
+   "x": 260,
+   "y": 275,
+   "scale": 0.27
+  },
+  {
+   "type": "asset",
+   "name": "conifer_dead",
+   "x": 1020,
+   "y": 275,
+   "scale": 0.27
+  },
+  {
+   "type": "asset",
+   "name": "conifer_dead",
+   "x": 1200,
+   "y": 275,
+   "scale": 0.27
+  },
+  {
+   "type": "doug",
+   "x": 640,
+   "y": 189.88,
+   "scale": 0.56,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "right"
+  },
+  {
+   "type": "asset",
+   "name": "douglas_fir_costume",
+   "x": 640,
+   "y": 189.88,
+   "scale": 0.56
+  },
+  {
+   "type": "text",
+   "text": "ALL ONE THING",
+   "x": 640,
+   "y": 600,
+   "size": 130,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1200
+  }
+ ]
+}
