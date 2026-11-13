@@ -52,3 +52,45 @@ VERDICT: FAIL
 14. **s097, s127** (illustrator): balance scales hang level with weight on one pan only; tip the loaded pan down.
 15. **s175** (director): 965 HA square vs the "20X" rectangle is ~48x in area; resize to ~20x (e.g. big rectangle
     ~ 300x200 px vs a 55x55 px square).
+
+## Round 2: keyframes (2026-11-13)
+
+Scope: re-screen of all 16 contact sheets against round 1 fixes 1-15.
+
+Fixed and confirmed: 1 (s076 X on crown), 2 (s099 X removed, arrow + shoots), 4 (s167 tan roots + arrow, reads
+clearly), 5 (s147/s149 foxfire now visibly green), 6 (s003), 7 (s074/s075 wordart on clear sky), 8 (s093),
+9 (s096), 10 (s112; s072 now only grazes the crown, acceptable), 11 (s070), 12 (s123 recomposed with outline and
+SAME ONE), 15 (s175 now ~20x). Not done, still nice-to-have only: 13 (s028), 14 (s097/s127 level scales).
+
+Map (fix 3): the new `pnw_map_states` works. The dashed WA/OR border along the Columbia plus WA/OR/ID/MT labels
+make the states read instantly, and at s135 the Mount Adams circle now sits correctly in south-central Washington
+just north of the border. Keeping the circles in place was acceptable for Mount Adams. The Oregon end is not:
+because the map's bottom edge cuts Oregon off just south of the Columbia, the Malheur/Blue Mountains marker is
+drawn on the map's black bottom frame line, half outside the map, in s154 (circle), s158 (trophy end point) and
+s166 (circle at end of the dashed line). This is the key subject of all three shots and reads as "off the map".
+
+VERDICT: FAIL
+
+### Required fixes
+1. **s154, s158, s166** (director): move the Blue Mountains marker inside the map, about 60-70 px up and slightly
+   right, to roughly (790, 745) in frame coordinates (inside the Oregon strip, west of the Snake River/ID line), so
+   the whole circle/trophy sits on green below the dashed border. In s154 move the "OREGON" label off that spot
+   (e.g. drop it, since the map already says OR, or place it below the map next to "965 HECTARES"). Keep the s158
+   trophy arrow and s166 dashed link ending on the new position.
+
+## Round 3: keyframes (2026-11-13)
+
+Scope: s154, s158, s166 after the Blue Mountains marker move to (790, 745). Keyframes re-rendered after the
+shotlist change (18:04:41 vs 18:04:19).
+
+- **s154**: red circle now sits fully on green inside the Oregon strip, below the dashed WA/OR border and west of
+  the Snake/ID line, well clear of the bottom frame. The extra "OREGON" label is gone (map's OR label suffices).
+  "965 HECTARES" and Doug (shock, right) read cleanly. Fixed.
+- **s158**: arrow runs from the WA trophy to the new spot; the 1998 trophy sits on the circle inside the map. The
+  cup's rim just touches the dashed border and covers most of the circle, but the trophy's base is clearly in
+  Oregon and the "record moved from WA to OR" reads in one second. Acceptable.
+- **s166**: both circles inside the map; the white dashed link ends on the new Oregon circle. Fixed.
+
+No new issues. Round 2 nice-to-haves 13 (s028) and 14 (s097/s127) remain optional.
+
+VERDICT: PASS

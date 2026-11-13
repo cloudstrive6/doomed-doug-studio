@@ -95,3 +95,43 @@ Sheets checked: `build/contact/sheet_01..16.png` (s001-s184 and the endslate).
 20. s061 and s062: the same clipboard composition. A small change is enough, such as pushing in on s062 or dropping the clipboard and keeping only Doug with "NO SYMPTOMS".
 
 Re-render the affected shots (`python -m studio keyframes 046-biggest-fungus-forest --shots s003,s005,s031,s036,s043,s072,s074,s075,s092,s093,s096,s111,s112,s114,s121,s123,s139,s143,s147,s149,s165,s062,s172`). I re-check these only.
+
+---
+
+# Keyframe review, round 2 (art director, 2026-11-13)
+
+Scope: the 23 re-rendered shots from round 1 (s003 s005 s031 s036 s043 s062 s072 s074 s075 s092 s093 s096 s111 s112 s114 s121 s123 s139 s143 s147 s149 s165 s172), their neighbours (s061 s091 s122 s164), and the map shots changed for the visual screener (s135 s154 s158). I checked them on `build/keyframes/*.png`, which were rendered after the last shotlist change, with a 90% title-safe overlay.
+
+## Round 1 fixes
+| # | Shot | Result |
+|---|---|---|
+| 1 | s003 | Fixed. "1,000 PITCHES" is in the sky band, clear of the strands. |
+| 2 | s031 | Fixed. The wordart is right of the stem. |
+| 3 | s043 | Fixed. The plant is moved left and the text sits on clear sky. |
+| 4 | s093 | Fixed. The centre trunks are gone, both lines sit in the window, and Doug's head is clear. |
+| 5 | s096 | Fixed. The grid is 10 columns and "ONE TREE" sits clear on the right. |
+| 6 | s147 | Fixed. "FOXFIRE" is top-left, off the web, and the green glow now reads. |
+| 7 | s114 / s149 | Fixed. Both are in the sky and inside title-safe. |
+| 8 | s111 | Fixed. The text is in the sky band. |
+| 9 | s036 | Fixed. |
+| 10 | s072 / s112 | Fixed. The titles sit on sky and the art is below them. |
+| 11 | s074 / s075 | Fixed. The text is in the right third. In s075 "GOLDEN-ORANGE" ends at about x 1820, just inside safe (1824). That is tight but acceptable. |
+| 12 | s139 | Fixed. |
+| 13 | s143 | Fixed. Doug is moved right and the text is clear of his cap. |
+| 14 | s172 | Fixed. The text is off the centre conifer (see note 1). |
+| 15 | s121 | Fixed. The tree is clear of the chip. |
+| 16 | s005 | Fixed. The extra line is gone. |
+| 17 | s091-s093 | Fixed. s092 is now a single big trunk with the title and small sprouts, so the three frames differ. |
+| 18 | s122-s123 | Fixed. s123 has a wide dashed "one individual" outline with DNA and "SAME ONE", so it is clearly a new picture. |
+| 19 | s164-s165 | Fixed. s165 is a two-calendar size comparison (2,400 vs 8,650). |
+| 20 | s061-s062 | Fixed. s062 drops the clipboard: Doug alone with "NO SYMPTOMS". |
+
+## Maps (s135, s154, s158, using `pnw_map_states`)
+The new map reads well. It has a dashed WA/OR border along the Columbia and WA/OR/ID/MT labels, and stays on-palette (green land, blue water). In s135 the Mount Adams circle is in Washington just north of the border. In s154 the Blue Mountains circle is in Oregon. With the border drawn, the director's kept circle positions are correct, and I accept them on art grounds. The visual screener's item 3 is theirs to close.
+
+## Non-blocking notes for the director (optional, do not re-review)
+1. s172: the tip of the right dead conifer goes under the HOW BIG chip, and "ONLY PART" sits about 10 px under the chip. The chip draws on top, so nothing is illegible. If the shot is touched again, move the conifer about 100 px left and lower the wordart about 30 px.
+2. s158: the end trophy sits on the bottom frame line of the map. Raising it about 20 px would look tidier.
+3. s154: "OREGON" next to the map's own "OR" label repeats it. It is harmless.
+
+## Verdict: PASS
