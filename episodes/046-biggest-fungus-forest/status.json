@@ -29,7 +29,17 @@
       "stage": "packaged",
       "at": "2026-11-13T18:22:34+00:00",
       "note": "all gates passed: script 2 rounds, art 3 rounds, thumbnails 5 rounds"
+    },
+    {
+      "stage": "built",
+      "at": "2026-11-13T18:30:24+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "qc_passed",
+      "at": "2026-11-13T18:38:30+00:00",
+      "note": "final approved"
     }
   ],
-  "stage": "packaged"
+  "stage": "qc_passed"
 }

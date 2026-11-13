@@ -89,3 +89,22 @@ PACKAGE THUMBNAILS: A, C APPROVED; B REVISE (designer: layout; titler: thumb_tex
 
 PACKAGE THUMBNAILS: A, B, C APPROVED
 - 2026-11-13: packaged. Script 2 rounds (screener FAIL on hook/facts, then PASS); art 3 rounds (map border + label overlaps); thumbnails 5 rounds (B redrawn repeatedly; CD and screener disagreed on Doug size, final B follows screener's fixes, Doug ~225px). Risk: weakest proven-outlier evidence in recent briefs; no-'Doug' title experiment, readout day 7. Optional unaddressed: balance-scale tilt s097/s127, black blobs in rhizomorph_web drawing.
+
+## 2026-11-13, creative director: final package gate
+- Read: metadata.json (title, alt_titles, description, tags, playlist), build/chapters.txt, build/thumbnail.png (A, primary),
+  script opening, build/samples f_001-f_002, build/contact/sheet_01, visual_review.md (main PASS, shorts PASS), build/qc.json (no problems, 644 s).
+- **Title: kept** "A Fungus Under Oregon Has Been Killing Trees for 2,400 Years". It is concrete (place, number, verb) and honest:
+  2,400 years is the Guinness lower bound (facts.md, up to 8,650), and the fungus owns the last ~4.5 min (6:21 to the end, three
+  chapters). None of the alt_titles is clearly stronger. "Biggest Fungus Ever Found" is the closest, but it drops the number and
+  Oregon, and the A/B/C test already covers the 965-hectare and 2,400-year angles.
+- **Thumbnail A** pairs well: the title says what it does, ALL ONE THING says the twist, and the web says it at feed size. The tufted
+  blobs stay as a known, non-blocking issue.
+- **Description/chapters:** the summary matches the video, the sources are primary, and the disclaimer and AI-use lines are present.
+  The chapters start at 0:00, there are 9 of them, and each is at least 10 s apart. "Intro" lasts 14 s, so it is fine. Playlist parasites, tags on-lane.
+- **First 60 s:** the opening line names the item and gives its twist within the first sentence ("no leaves, stem or roots"). The payoff promise
+  (Doug standing on a fungus bigger than a thousand pitches) is shown on screen by 0:07, and the chapter card is at 0:14. The death
+  counter and "Doug did not agree to this" both land in the first band. Cartoon tone, nothing kid-coded, no gore.
+- Risk carried forward (not blocking): the title's subject arrives at 6:21, so retention in the first half depends on the promise line.
+  Watch the AVD curve around 1:30-3:00 at day 7 together with the A/B/C CTR readout.
+
+FINAL: APPROVED

@@ -212,3 +212,50 @@ Checked build/thumbnail_b.png (1280x720), a 2x crop around Doug, and build/thumb
 - **VERDICT B: PASS**
 
 VERDICT: PASS (B)
+
+## Post-render round 1 (2026-11-13): final.mp4, thumbnails, Shorts
+
+### Main video (build/final.mp4, 1920x1080, 644.4 s; qc.json: no problems)
+Checked all 21 samples (build/samples/f_001-f_021, every 30 s), plus frames at 0/2/5 s (opener) and 638/641/643.5 s (ending).
+- Opener: frame 0 is thumbnail A ("ALL ONE THING", Doug in a Douglas-fir costume over the white rhizomorph web), so
+  the click is paid off immediately. By 5 s it cuts to the corpse flower with "NO ROOTS", which matches the narration.
+- No black or blank frames, no glitches, and no frozen holds in the samples. Every segment changes card and background
+  (corpse flower, dodder, tapeworm, cable-cutting tree, Pando, Humongous Fungus, glowing forest, Blue Mountains), so
+  there is no run of near-identical compositions.
+- Doug is on-model in every frame he appears in (red cap, white head), including both Douglas-fir costume shots.
+  The death counter climbs cleanly from 350 to 355/356. Labels are spelled right and none are cropped.
+- Deaths are cartoon only (RIP headstone and giant hand, cap left on the mushrooms, cap left by the phone).
+  No gore, and nothing reads as a kids' show.
+- Ending: s180-s184 pay off the title ("It has been eating this forest for thousands of years... The fungus is still
+  there."), then a 15 s "DOUG'S NEXT DEATH" end slate with end-screen placeholders and SUBSCRIBE. It ends cleanly,
+  with no withheld payoff and no "???" teaser.
+- Minor, not blocking: in f_013 (s109-s110, Pando shot) and in thumbnail A, the rhizomorph_web drawing still has
+  black blobs with bristle tufts. They are small at 1080p and the narration says "something else under the ground",
+  so they pass. This is the same optional illustrator note as thumbnail round 4. Also minor: the HOW BIG scale icon
+  next to the HUD box is too small to read at any size.
+
+### Thumbnails (A is primary for "A Fungus Under Oregon Has Been Killing Trees for 2,400 Years")
+Re-checked thumbnail.png, thumbnail_b.png and thumbnail_c.png with their _small versions. They are unchanged from the
+approved round 3 (A, C) and round 5 (B). Each has one focal point, Doug and the threat are readable at 168x94, the
+text is legible, and none is misleading against its paired title. A's tufted blobs are as noted above (not blocking).
+
+VERDICT (main): PASS
+
+### Shorts (build/shorts/short01-03.mp4, 1080x1920; previews plus 8 frames each)
+- short01 "47,000 Tree Trunks in Utah Are One Living Thing" (50.1 s): the hook card shows "47,000 TRUNKS / ONE LIVING
+  THING" over a Pando aspen row, and the payoff comes in the first seconds. The deer and cut-stump beats read. Doug's
+  death (cap left by the deer) is cartoon.
+- short02 "This Christmas Tree Cuts Through Underground Phone Cables" (42.9 s): the WA map with a red ring, the collar
+  clamping the "CABLE"/"PHONE LINES" line underground, and the death gag (black frame with the handset and Doug's cap)
+  are clear. The title stays readable on the black shot.
+- short03 "The Biggest Fungus Ever Found Covers 1,350 Football Pitches" (36.1 s): the OR/WA/ID/MT map with a red
+  ring and "965 HECTARES" pays off the title. The Shark Bay comparison and the Douglas-fir death are clear.
+- All three: the title is red with a black outline, 2-3 lines, fully inside the frame. Captions are white, bold and
+  centred, with no overlap. The drawings are not cut off at the sides (the full 16:9 panel is letterboxed). The end
+  card "FULL VIDEO: TAP BELOW" has a red arrow pointing straight down and Doug pointing toward it. Each short ends on
+  the end card with no "???" teaser, and the outro line matches the episode.
+- Minor, not blocking: because the 16:9 panel is letterboxed, Doug and the HUD are small on a phone (the HOW BIG text
+  is about 12 px, unreadable). The *_preview.png stills catch the captions mid-reveal ("have stopped rep", "undergr");
+  they are cosmetic and are not the uploaded video.
+
+VERDICT (shorts): PASS
