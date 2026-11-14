@@ -39,3 +39,25 @@ SCRIPT: APPROVED
   silhouette, no new asset); tag enlarged so "200,000 KR" clears the hole. s145 is now a den-chamber close-up (WARM inside vs
   COLD outside) and s146 a surface view of the den mound, breaking the s143-s146 cross-section run. s175 shows the wolverine
   going over the top with no cap on the summit (cap first appears s176/s177); s177 is a closer framing on the cap.
+
+## 2026-11-14: package gate (thumbnails A/B/C), creative director
+Read visual_review.md Rounds 3-5 and all three thumbnails at 1280x720 and at 168x94, each with its paired title.
+Round 3 failed all three. The CD made the fixes directly with `/tmp/thumbgen/gen_ab_cdfix.py` and
+`/tmp/thumbgen/gen_c_cdfix.py 860 438 3.0 1138`. Use those, not the old gen.py, which would undo the fixes.
+Screener Round 5: PASS on all three.
+
+- **A, "IT DOESN'T SINK" / "Why a 16 kg Wolverine Can Kill a Reindeer Six Times Heavier": APPROVED.** The reindeer
+  is now clearly bigger than the wolverine (the old drawing reversed the "six times heavier" claim) and is fully in
+  frame. The reindeer and Doug sit behind a snow lip with cracks, Doug sunk to his eyes. The wolverine stands on the
+  crust and casts a paw shadow. The caption is nudged away from the duration badge.
+- **B, "IT CLIMBS" / "Why the Wolverine Is the Scariest Small Predator Alive": APPROVED.** Doug is moved off the
+  left edge onto the face at a bigger scale (0.67), screaming up at the wolverine on the summit.
+- **C, "PER LITTER" / "Why Sweden Pays for the Wolverines That Kill Its Reindeer": APPROVED after the fix.** The
+  tag was blank, so the joke was missing (the designer had also flagged this). The tag is now a large upright tag
+  with "200,000" in bold black (facts.md: SEK 200,000 per documented reproduction). The US-looking banknote is gone,
+  and Doug is smaller and clear of the tag. The thumb text was re-ranked through `package rank` as
+  "200,000 PER LITTER". Ranking and pairings are unchanged; `package check` and `validate packaging` return OK.
+- Not done (non-blocking screener notes): in C, the string loop hides the wolverine's eye; in B, Doug uses a
+  standing scream pose rather than a climbing pose.
+
+PACKAGE (THUMBNAILS): APPROVED

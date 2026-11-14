@@ -8,7 +8,7 @@
   ],
   "packaging": {
     "gate": "D4 packaging gate v1 (2026-11-09)",
-    "ranked_at": "2026-11-14T17:30:35Z",
+    "ranked_at": "2026-11-14T18:20:02Z",
     "names": [
       "wolverine",
       "wolverines",
@@ -45,8 +45,8 @@
       },
       {
         "title": "Why Sweden Pays for the Wolverines That Kill Its Reindeer",
-        "thumb_text": "PER LITTER",
-        "concept": "A wolverine with a crude paper price tag tied round its neck (no flags or national symbols); Doug in the reindeer costume holding a cheque, confused",
+        "thumb_text": "200,000 PER LITTER",
+        "concept": "A wolverine with a big paper price tag hanging from its jaw reading 200,000 (no flags or national symbols); confused Doug in the reindeer costume beside it; caption PER LITTER",
         "formula": "T9",
         "chars": 57,
         "score": 100,
@@ -156,9 +156,9 @@
         "file": "thumbnail_test_c.json",
         "png": "build/thumbnail_c.png",
         "title": "Why Sweden Pays for the Wolverines That Kill Its Reindeer",
-        "thumb_text": "PER LITTER",
+        "thumb_text": "200,000 PER LITTER",
         "concept": "second shock",
-        "thumb_idea": "A wolverine with a crude paper price tag tied round its neck (no flags or national symbols); Doug in the reindeer costume holding a cheque, confused",
+        "thumb_idea": "A wolverine with a big paper price tag hanging from its jaw reading 200,000 (no flags or national symbols); confused Doug in the reindeer costume beside it; caption PER LITTER",
         "score": 100,
         "raw": 116,
         "issues": []

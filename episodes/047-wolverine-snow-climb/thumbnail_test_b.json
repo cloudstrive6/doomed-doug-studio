@@ -1,0 +1,227 @@
+{
+ "background": "#ff7a00",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#ff7a00",
+   "color": "#ff7a00",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     720
+    ],
+    [
+     250,
+     385
+    ],
+    [
+     330,
+     345
+    ],
+    [
+     620,
+     339
+    ],
+    [
+     720,
+     375
+    ],
+    [
+     960,
+     720
+    ]
+   ],
+   "fill": "#7a6a58",
+   "color": "#000000",
+   "width": 6
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     515,
+     365
+    ],
+    [
+     720,
+     375
+    ],
+    [
+     960,
+     720
+    ],
+    [
+     700,
+     720
+    ]
+   ],
+   "fill": "#5a4b3d",
+   "color": "#5a4b3d",
+   "width": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     150,
+     560
+    ],
+    [
+     300,
+     520
+    ]
+   ],
+   "color": "#5a4b3d",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     110,
+     640
+    ],
+    [
+     260,
+     610
+    ]
+   ],
+   "color": "#5a4b3d",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     600,
+     500
+    ],
+    [
+     760,
+     470
+    ]
+   ],
+   "color": "#4a3d31",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     225,
+     430
+    ],
+    [
+     250,
+     385
+    ],
+    [
+     330,
+     345
+    ],
+    [
+     620,
+     339
+    ],
+    [
+     720,
+     375
+    ],
+    [
+     760,
+     440
+    ],
+    [
+     700,
+     415
+    ],
+    [
+     640,
+     445
+    ],
+    [
+     560,
+     405
+    ],
+    [
+     470,
+     440
+    ],
+    [
+     390,
+     400
+    ],
+    [
+     300,
+     445
+    ]
+   ],
+   "fill": "#f7fbff",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "asset",
+   "name": "wolverine",
+   "x": 470,
+   "y": 349,
+   "scale": 1.15,
+   "flip": true
+  },
+  {
+   "type": "doug",
+   "x": 265,
+   "y": 575,
+   "scale": 0.67,
+   "pose": "arms_up",
+   "expression": "shock",
+   "facing": "right",
+   "gear": [
+    "sweat"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "IT",
+   "x": 1015,
+   "y": 270,
+   "size": 118,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1240,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "CLIMBS",
+   "x": 1015,
+   "y": 400,
+   "size": 118,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1240,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
