@@ -1,0 +1,195 @@
+{
+  "title": "Why a 16 kg Wolverine Can Kill a Reindeer Six Times Heavier",
+  "alt_titles": [
+    "Why the Wolverine Is the Scariest Small Predator Alive",
+    "Why Sweden Pays for the Wolverines That Kill Its Reindeer",
+    "The Wolverine's Deadliest Weapon Was Never Its Teeth",
+    "The Scariest Thing About Wolverines Is How Fast They Climb"
+  ],
+  "packaging": {
+    "gate": "D4 packaging gate v1 (2026-11-09)",
+    "ranked_at": "2026-11-14T17:30:35Z",
+    "names": [
+      "wolverine",
+      "wolverines",
+      "wolverine's",
+      "Gulo gulo",
+      "reindeer",
+      "Sweden",
+      "Mount Cleveland",
+      "Glacier National Park",
+      "M3",
+      "M56",
+      "Colorado"
+    ],
+    "candidates": [
+      {
+        "title": "Why a 16 kg Wolverine Can Kill a Reindeer Six Times Heavier",
+        "thumb_text": "IT DOESN'T SINK",
+        "concept": "A wolverine standing on top of crusted snow beside a reindeer sunk to its belly; tiny reindeer-costume Doug sunk to his cap",
+        "formula": "T9",
+        "chars": 59,
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      },
+      {
+        "title": "Why the Wolverine Is the Scariest Small Predator Alive",
+        "thumb_text": "IT CLIMBS",
+        "concept": "Hero A: a wolverine low and wide on a snowy summit ridge, teeth just showing, staring at the viewer; tiny red-capped Doug far below on the face",
+        "formula": "T9",
+        "chars": 54,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Sweden Pays for the Wolverines That Kill Its Reindeer",
+        "thumb_text": "PER LITTER",
+        "concept": "A wolverine with a crude paper price tag tied round its neck (no flags or national symbols); Doug in the reindeer costume holding a cheque, confused",
+        "formula": "T9",
+        "chars": 57,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Wolverine's Deadliest Weapon Was Never Its Teeth",
+        "thumb_text": "IT'S THE SNOW",
+        "concept": "Split: a wolverine trotting on top of the snow, Doug sunk to the cap beside its tracks",
+        "formula": "T4",
+        "chars": 52,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Scariest Thing About Wolverines Is How Fast They Climb",
+        "thumb_text": "1,500 M UP",
+        "concept": "A sheer snowy face with a wolverine near the summit and a dotted line of tracks below it; tiny Doug at the bottom in backwards crampons",
+        "formula": "T4",
+        "chars": 58,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "How a Wolverine Kills Reindeer Far Bigger Than Itself",
+        "thumb_text": "IT USES SNOW",
+        "concept": "A wolverine on top of soft snow, a reindeer floundering chest-deep beside it; tiny Doug in the reindeer costume sunk to the antlers",
+        "formula": "T2",
+        "chars": 53,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why the Wolverine Kills Reindeer Six Times Its Weight",
+        "thumb_text": "DOG-SIZED",
+        "concept": "A dog-sized wolverine beside a huge reindeer, tiny Doug in a reindeer costume between them",
+        "formula": "T9",
+        "chars": 53,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Every Reason the Wolverine Is the Scariest Small Predator",
+        "thumb_text": "IT GOES UP",
+        "concept": "Altitude stake beside a wolverine on the summit, Doug's cap blowing past the summit flag",
+        "formula": "T8",
+        "chars": 57,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why the Wolverine Is the Scariest Weasel Alive",
+        "thumb_text": "KILLS REINDEER",
+        "concept": "A wolverine standing over a reindeer-costume Doug lying flat with X eyes, cap on the antlers",
+        "formula": "T9",
+        "chars": 46,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why the Wolverine Is the Most Terrifying Small Predator Alive",
+        "thumb_text": "IT CLIMBS",
+        "concept": "Same as hero A: wolverine on a summit ridge, tiny Doug far below",
+        "formula": "T9",
+        "chars": 61,
+        "score": 98,
+        "raw": 98,
+        "issues": [
+          "length: 61 characters, desktop search cuts near 60"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "variant": "A",
+        "file": "thumbnail.json",
+        "png": "build/thumbnail.png",
+        "title": "Why a 16 kg Wolverine Can Kill a Reindeer Six Times Heavier",
+        "thumb_text": "IT DOESN'T SINK",
+        "concept": "hero close-up",
+        "thumb_idea": "A wolverine standing on top of crusted snow beside a reindeer sunk to its belly; tiny reindeer-costume Doug sunk to his cap",
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      },
+      {
+        "variant": "B",
+        "file": "thumbnail_test_b.json",
+        "png": "build/thumbnail_b.png",
+        "title": "Why the Wolverine Is the Scariest Small Predator Alive",
+        "thumb_text": "IT CLIMBS",
+        "concept": "Doug in peril",
+        "thumb_idea": "Hero A: a wolverine low and wide on a snowy summit ridge, teeth just showing, staring at the viewer; tiny red-capped Doug far below on the face",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "variant": "C",
+        "file": "thumbnail_test_c.json",
+        "png": "build/thumbnail_c.png",
+        "title": "Why Sweden Pays for the Wolverines That Kill Its Reindeer",
+        "thumb_text": "PER LITTER",
+        "concept": "second shock",
+        "thumb_idea": "A wolverine with a crude paper price tag tied round its neck (no flags or national symbols); Doug in the reindeer costume holding a cheque, confused",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      }
+    ],
+    "readout": {
+      "metric": "long-form CTR at day 7",
+      "min_impressions": 1000,
+      "baseline_median": 0.022,
+      "baseline_top": [
+        0.025,
+        0.043
+      ],
+      "target_median": 0.04,
+      "baseline_source": "data/analytics/2026-11-08.json"
+    }
+  },
+  "title_formula": "T9",
+  "thumbnail_brief": "A wolverine standing on top of crusted snow while a reindeer beside it has sunk to its belly and tiny red-capped Doug in a reindeer costume has sunk to his cap, with the words IT DOESN'T SINK, so the title gives the numbers (16 kg, six times heavier) and the thumbnail shows the reason, the snow (no WOLVERINE, REINDEER, KILL or KG on the image; no blood, no carcass, no Marvel-like claws, no cute wolverine). Variant B: wolverine on a summit ridge, Doug far below, IT CLIMBS. Variant C: wolverine with a crude paper price tag, PER LITTER.",
+  "description": "A wolverine weighs about 16 kg, yet it can kill a reindeer up to six times heavier. Doug follows the wolverine from the forest floor to the summit of Mount Cleveland, Glacier National Park's highest peak: the glutton legend, frozen food caches, raided traplines, a nose that finds dinner under almost two meters of snow, an 800 km walk to Colorado, snow dens, and a 1,500 m climb in about 90 minutes.\n\nWhich animal should Doug follow next? Tell us in the comments.\nSubscribe so you don't miss Doug's next bad decision.\n\n— TIMESTAMPS —\n{{CHAPTERS}}\n\n— KEY SOURCES —\nNatural Resources Institute Finland, wolverine reindeer damages: https://www.largecarnivores.fi/large-carnivores-and-us/damages/reindeer-damages.html\nPersson et al. (2015), Conservation Letters, Sweden's payments for wolverine reproductions: https://doi.org/10.1111/conl.12171\nWildlife Conservation Society, M56 and the first wolverine in Colorado in 90 years: https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/4656/After-90-Years-Wolverine-Returns-to-Colorado.aspx\nCopeland et al. (2010), Canadian Journal of Zoology, wolverine dens and persistent spring snow: https://research.fs.usda.gov/treesearch/34712\nScience News, Jeff Copeland on M3's climb of Mount Cleveland: https://www.sciencenews.org/blog/science-the-public/wolverine-climate-warming-threatens-comeback\nUS Fish and Wildlife Service (2023), wolverine listed as threatened: https://www.fws.gov/press-release/2023-11/north-american-wolverine-receives-federal-protection-threatened-species-under\n\n— DISCLAIMER —\nEducational entertainment. Every death in this video is a cartoon depiction of a stick figure; wolverines are not known to attack people, and this is not safety advice.\n\n— AI USE —\nThe narration is an AI text-to-speech voice. Scripts are researched and written with AI assistance and fact-checked against the sources above. All drawings are original.\n\n#DoomedDoug #Wolverine #Animals",
+  "tags": [
+    "wolverine",
+    "wolverine facts",
+    "why wolverines are terrifying",
+    "wolverine vs reindeer",
+    "wolverine climbing mountain",
+    "gulo gulo",
+    "glacier national park wolverine",
+    "animal documentary",
+    "stick figure animation"
+  ],
+  "playlist": "animals",
+  "paid_promotion": false
+}
