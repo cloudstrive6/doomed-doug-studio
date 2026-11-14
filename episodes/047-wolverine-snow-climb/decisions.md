@@ -34,3 +34,8 @@ SCRIPT: APPROVED
 - Shorts: short01 s157-s167 (M3's climb, ends "It was a shortcut."), short02 s101-s109 (M56's 800 km walk), short03 s082-s089
   (smelling a carcass through two meters of snow). Titles/descriptions left for the titler.
 - 24 new drawings requested in asset_requests.md (geometry pinned; `mount_cleveland` faces and `twin_pines` gap are load-bearing).
+- Visual review round 1 fixes (director, 2026-11-14): s015 shows the kit only as a small featureless black silhouette lying at
+  the den mouth with the tag string tied to it (screener asked for a blind kit; brief sec 7 keeps kit faces off-screen, so
+  silhouette, no new asset); tag enlarged so "200,000 KR" clears the hole. s145 is now a den-chamber close-up (WARM inside vs
+  COLD outside) and s146 a surface view of the den mound, breaking the s143-s146 cross-section run. s175 shows the wolverine
+  going over the top with no cap on the summit (cap first appears s176/s177); s177 is a closer framing on the cap.

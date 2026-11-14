@@ -351,6 +351,9 @@ lines. A label centred at x 1720 with 12+ characters runs to the frame edge (008
   (the Lake Nyos exception aside).
 - **Narrator hand** (`narrator_hand`): it enters from a side edge below y 120 and never crosses the caption bar or the counter zone (020
   s207/s208 came in through the top bar). Wordart and labels stay clear of the hand and the arm.
+  `narrator_hand_pencil`'s sleeve ends at local x 740, so below scale ~1.25 it stops mid-frame and the arm floats. Either scale it
+  up or carry the sleeve to the edge with a `#a4a4a8` rect plus black top and bottom lines from x tip + 735 x scale (047 s008, s021;
+  helper `SLEEVE` in that episode's generator). Nothing else (Doug, ghost, labels) sits on the arm's path.
 - **Stop title card**: zone/creature name as a big `label` + Doug reacting.
 - **Scale comparison**: Doug next to the creature, both at true relative size, a `label` with the size.
 - **Time machine** (`time_machine`, from 003, time-travel episodes only): teal booth (`#2a9d8f`, dark `#1b6f66`),

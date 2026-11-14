@@ -963,8 +963,8 @@
      {
       "type": "wordart",
       "text": "FINLAND",
-      "x": 984,
-      "y": 300,
+      "x": 1480,
+      "y": 420,
       "size": 90,
       "boil": 0,
       "appear": 0.4
@@ -972,19 +972,19 @@
      {
       "type": "asset",
       "name": "wolverine",
-      "x": 1480,
-      "y": 820,
+      "x": 1400,
+      "y": 990,
       "scale": 0.5,
       "appear": 0.6
      },
      {
       "type": "arrow",
       "from": [
-       1340,
-       760
+       1300,
+       850
       ],
       "to": [
-       1080,
+       1090,
        600
       ],
       "bend": 40,
@@ -995,7 +995,7 @@
      },
      {
       "type": "doug",
-      "x": 1560,
+      "x": 1760,
       "y": 921.6,
       "scale": 0.45,
       "pose": "point",
@@ -1366,6 +1366,70 @@
       "appear": 0.05
      },
      {
+      "type": "rect",
+      "x": 1171.0,
+      "y": 467.5,
+      "w": 789.0,
+      "h": 51.60000000000002,
+      "fill": "#a4a4a8",
+      "color": "#a4a4a8",
+      "width": 0,
+      "boil": 0,
+      "outline": false,
+      "appear": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1171.0,
+        467.5
+       ],
+       [
+        1960,
+        467.5
+       ]
+      ],
+      "color": "#000000",
+      "width": 3,
+      "boil": 0,
+      "appear": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1171.0,
+        519.1
+       ],
+       [
+        1960,
+        519.1
+       ]
+      ],
+      "color": "#000000",
+      "width": 3,
+      "boil": 0,
+      "appear": 0.05
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1191.0,
+        497.5
+       ],
+       [
+        1960,
+        496.3
+       ]
+      ],
+      "color": "#86868c",
+      "width": 2,
+      "boil": 0,
+      "appear": 0.05
+     },
+     {
       "type": "asset",
       "name": "reindeer",
       "x": 1370,
@@ -1376,8 +1440,8 @@
      {
       "type": "label",
       "text": "EARLY SPRING",
-      "x": 1370,
-      "y": 520,
+      "x": 1500,
+      "y": 380,
       "size": 40,
       "bold": true,
       "boil": 0.3,
@@ -1893,8 +1957,8 @@
      {
       "type": "wordart",
       "text": "SWEDEN",
-      "x": 616,
-      "y": 300,
+      "x": 1420,
+      "y": 380,
       "size": 90,
       "boil": 0,
       "appear": 0.3
@@ -2815,38 +2879,99 @@
       "appear": 0.1
      },
      {
+      "type": "ellipse",
+      "x": 1046,
+      "y": 938,
+      "rx": 8,
+      "ry": 8,
+      "fill": "#0b0f14",
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.25
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        935,
+        952
+       ],
+       [
+        912,
+        942
+       ],
+       [
+        906,
+        926
+       ]
+      ],
+      "color": "#0b0f14",
+      "width": 12,
+      "appear": 0.25
+     },
+     {
+      "type": "ellipse",
+      "x": 982,
+      "y": 952,
+      "rx": 54,
+      "ry": 22,
+      "fill": "#0b0f14",
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.25
+     },
+     {
+      "type": "ellipse",
+      "x": 1040,
+      "y": 952,
+      "rx": 19,
+      "ry": 16,
+      "fill": "#0b0f14",
+      "color": "#000000",
+      "width": 3,
+      "appear": 0.25
+     },
+     {
+      "type": "curve",
+      "points": [
+       [
+        1068,
+        762
+       ],
+       [
+        1066,
+        840
+       ],
+       [
+        1044,
+        900
+       ],
+       [
+        1030,
+        944
+       ]
+      ],
+      "color": "#8a6a4a",
+      "width": 4,
+      "appear": 0.45
+     },
+     {
       "type": "asset",
       "name": "price_tag",
-      "x": 1180,
+      "x": 1260,
       "y": 760,
-      "scale": 1.6,
+      "scale": 2.4,
       "appear": 0.45
      },
      {
       "type": "text",
       "text": "200,000 KR",
-      "x": 1150,
+      "x": 1293,
       "y": 760,
-      "size": 24,
+      "size": 34,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
-      "appear": 0.45
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        1060,
-        780
-       ],
-       [
-        1010,
-        850
-       ]
-      ],
-      "color": "#5a4c40",
-      "width": 4,
       "appear": 0.45
      },
      {
@@ -3697,11 +3822,9 @@
      {
       "type": "asset",
       "name": "wolverine_trotting",
-      "x": 300,
-      "y": 960,
-      "scale": 0.4,
-      "silhouette": true,
-      "glow_r": 0,
+      "x": 420,
+      "y": 990,
+      "scale": 0.6,
       "appear": 0.6
      },
      {
@@ -4086,9 +4209,73 @@
       "appear": 0.15
      },
      {
+      "type": "rect",
+      "x": 1436.75,
+      "y": 539.3,
+      "w": 523.25,
+      "h": 51.60000000000002,
+      "fill": "#a4a4a8",
+      "color": "#a4a4a8",
+      "width": 0,
+      "boil": 0,
+      "outline": false,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1436.75,
+        539.3
+       ],
+       [
+        1960,
+        539.3
+       ]
+      ],
+      "color": "#000000",
+      "width": 3,
+      "boil": 0,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1436.75,
+        590.9
+       ],
+       [
+        1960,
+        590.9
+       ]
+      ],
+      "color": "#000000",
+      "width": 3,
+      "boil": 0,
+      "appear": 0.15
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1456.75,
+        569.3
+       ],
+       [
+        1960,
+        568.0999999999999
+       ]
+      ],
+      "color": "#86868c",
+      "width": 2,
+      "boil": 0,
+      "appear": 0.15
+     },
+     {
       "type": "doug",
-      "x": 1560,
-      "y": 640,
+      "x": 1330,
+      "y": 860,
       "scale": 0.4,
       "pose": "float",
       "expression": "flat",
@@ -7293,16 +7480,16 @@
      {
       "type": "wordart",
       "text": "WIDE ENOUGH",
-      "x": 1350,
-      "y": 400,
-      "size": 96,
+      "x": 1420,
+      "y": 360,
+      "size": 80,
       "boil": 0,
       "appear": 0.3
      },
      {
       "type": "asset",
       "name": "exclamation_mark",
-      "x": 1150,
+      "x": 1180,
       "y": 560,
       "scale": 0.5,
       "appear": 0.6
@@ -24035,11 +24222,11 @@
       "type": "arrow",
       "from": [
        1300,
-       300
+       390
       ],
       "to": [
-       1560,
-       300
+       1540,
+       390
       ],
       "bend": -40,
       "color": "#e0201b",
@@ -32559,7 +32746,7 @@
       "type": "asset",
       "name": "reindeer",
       "x": 1250,
-      "y": 860,
+      "y": 900,
       "scale": 0.62
      },
      {
@@ -32596,6 +32783,46 @@
       ],
       "color": "#5a6878",
       "width": 5
+     },
+     {
+      "type": "ellipse",
+      "x": 1120,
+      "y": 694,
+      "rx": 58,
+      "ry": 24,
+      "fill": "#f7fbff",
+      "color": "#5a6878",
+      "width": 3
+     },
+     {
+      "type": "ellipse",
+      "x": 1210,
+      "y": 694,
+      "rx": 58,
+      "ry": 24,
+      "fill": "#f7fbff",
+      "color": "#5a6878",
+      "width": 3
+     },
+     {
+      "type": "ellipse",
+      "x": 1300,
+      "y": 694,
+      "rx": 58,
+      "ry": 24,
+      "fill": "#f7fbff",
+      "color": "#5a6878",
+      "width": 3
+     },
+     {
+      "type": "ellipse",
+      "x": 1390,
+      "y": 694,
+      "rx": 58,
+      "ry": 24,
+      "fill": "#f7fbff",
+      "color": "#5a6878",
+      "width": 3
      },
      {
       "type": "asset",
@@ -32890,7 +33117,7 @@
       "type": "asset",
       "name": "reindeer",
       "x": 1250,
-      "y": 860,
+      "y": 900,
       "scale": 0.62
      },
      {
@@ -32927,6 +33154,46 @@
       ],
       "color": "#5a6878",
       "width": 5
+     },
+     {
+      "type": "ellipse",
+      "x": 1120,
+      "y": 694,
+      "rx": 58,
+      "ry": 24,
+      "fill": "#f7fbff",
+      "color": "#5a6878",
+      "width": 3
+     },
+     {
+      "type": "ellipse",
+      "x": 1210,
+      "y": 694,
+      "rx": 58,
+      "ry": 24,
+      "fill": "#f7fbff",
+      "color": "#5a6878",
+      "width": 3
+     },
+     {
+      "type": "ellipse",
+      "x": 1300,
+      "y": 694,
+      "rx": 58,
+      "ry": 24,
+      "fill": "#f7fbff",
+      "color": "#5a6878",
+      "width": 3
+     },
+     {
+      "type": "ellipse",
+      "x": 1390,
+      "y": 694,
+      "rx": 58,
+      "ry": 24,
+      "fill": "#f7fbff",
+      "color": "#5a6878",
+      "width": 3
      },
      {
       "type": "asset",
@@ -34036,15 +34303,15 @@
       "type": "line",
       "points": [
        [
-        1040,
+        1190,
         704
        ],
        [
-        1000,
+        1150,
         740
        ],
        [
-        1050,
+        1200,
         770
        ]
       ],
@@ -34056,15 +34323,15 @@
       "type": "line",
       "points": [
        [
-        1460,
+        1320,
         704
        ],
        [
-        1500,
+        1360,
         744
        ],
        [
-        1450,
+        1310,
         780
        ]
       ],
@@ -34249,7 +34516,7 @@
       "points": [
        [
         960,
-        0
+        92
        ],
        [
         960,
@@ -36938,7 +37205,7 @@
       "type": "asset",
       "name": "world_map",
       "x": 760,
-      "y": 760,
+      "y": 720,
       "scale": 0.5,
       "appear": 0.3
      },
@@ -36986,8 +37253,8 @@
       "type": "wordart",
       "text": "SNOW COVER",
       "x": 760,
-      "y": 1010,
-      "size": 90,
+      "y": 1000,
+      "size": 80,
       "boil": 0,
       "appear": 0.6
      },
@@ -37728,9 +37995,9 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 470,
-      "fill": "#b8cde2",
-      "color": "#b8cde2",
+      "h": 290,
+      "fill": "#8fa9c9",
+      "color": "#8fa9c9",
       "width": 0,
       "boil": 0,
       "outline": false
@@ -37740,7 +38007,7 @@
       "points": [
        [
         -20,
-        470
+        290
        ],
        [
         0,
@@ -37768,7 +38035,7 @@
        ],
        [
         1940,
-        470
+        290
        ]
       ],
       "fill": "#b9cde0",
@@ -37778,9 +38045,9 @@
      {
       "type": "rect",
       "x": 0,
-      "y": 470,
+      "y": 290,
       "w": 1920,
-      "h": 610,
+      "h": 790,
       "fill": "#e6eef5",
       "color": "#e6eef5",
       "width": 0,
@@ -37792,19 +38059,19 @@
       "points": [
        [
         -20,
-        620
+        440
        ],
        [
         500,
-        612
+        432
        ],
        [
         1100,
-        626
+        446
        ],
        [
         1940,
-        616
+        436
        ]
       ],
       "color": "#c9d6e2",
@@ -37816,19 +38083,19 @@
       "points": [
        [
         -20,
-        780
+        600
        ],
        [
         500,
-        772
+        592
        ],
        [
         1100,
-        786
+        606
        ],
        [
         1940,
-        776
+        596
        ]
       ],
       "color": "#c9d6e2",
@@ -37840,19 +38107,19 @@
       "points": [
        [
         -20,
-        940
+        760
        ],
        [
         500,
-        932
+        752
        ],
        [
         1100,
-        946
+        766
        ],
        [
         1940,
-        936
+        756
        ]
       ],
       "color": "#c9d6e2",
@@ -37899,19 +38166,19 @@
       "points": [
        [
         -20,
-        470
+        290
        ],
        [
         500,
-        465
+        285
        ],
        [
         1100,
-        475
+        295
        ],
        [
         1940,
-        468
+        288
        ]
       ],
       "color": "#5a6878",
@@ -37920,33 +38187,362 @@
      {
       "type": "asset",
       "name": "wolverine_den_cutaway",
-      "x": 900,
-      "y": 470,
-      "scale": 1.0
+      "x": 984,
+      "y": 290,
+      "scale": 1.6
      },
      {
       "type": "asset",
       "name": "wolverine",
       "x": 760,
       "y": 770,
-      "scale": 0.32
+      "scale": 0.5
+     },
+     {
+      "type": "spray",
+      "x": 760,
+      "y": 690,
+      "r": 230,
+      "color": "#ffd9a0",
+      "density": 0.05,
+      "appear": 0.15
      },
      {
       "type": "asset",
       "name": "thermometer",
-      "x": 1080,
-      "y": 750,
-      "scale": 0.4,
-      "appear": 0.2
+      "x": 1110,
+      "y": 690,
+      "scale": 0.5,
+      "appear": 0.15
+     },
+     {
+      "type": "label",
+      "text": "WARM",
+      "x": 1110,
+      "y": 850,
+      "size": 40,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
+      "appear": 0.15
+     },
+     {
+      "type": "doug",
+      "x": 300,
+      "y": 244.4,
+      "scale": 0.3,
+      "pose": "stand",
+      "expression": "gritted",
+      "facing": "right",
+      "appear": 0.3
+     },
+     {
+      "type": "label",
+      "text": "COLD",
+      "x": 470,
+      "y": 200,
+      "size": 36,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        160,
+        150
+       ],
+       [
+        180,
+        150
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        170,
+        140
+       ],
+       [
+        170,
+        160
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        163,
+        143
+       ],
+       [
+        177,
+        157
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        163,
+        157
+       ],
+       [
+        177,
+        143
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        410,
+        120
+       ],
+       [
+        430,
+        120
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        420,
+        110
+       ],
+       [
+        420,
+        130
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        413,
+        113
+       ],
+       [
+        427,
+        127
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        413,
+        127
+       ],
+       [
+        427,
+        113
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        590,
+        230
+       ],
+       [
+        610,
+        230
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        600,
+        220
+       ],
+       [
+        600,
+        240
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        593,
+        223
+       ],
+       [
+        607,
+        237
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        593,
+        237
+       ],
+       [
+        607,
+        223
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        220,
+        250
+       ],
+       [
+        240,
+        250
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        230,
+        240
+       ],
+       [
+        230,
+        260
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        223,
+        243
+       ],
+       [
+        237,
+        257
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        223,
+        257
+       ],
+       [
+        237,
+        243
+       ]
+      ],
+      "color": "#ffffff",
+      "width": 3,
+      "boil": 0.5,
+      "appear": 0.3
      },
      {
       "type": "wordart",
       "text": "BLANKET",
-      "x": 520,
-      "y": 300,
+      "x": 1450,
+      "y": 560,
       "size": 90,
       "boil": 0,
-      "appear": 0.45
+      "appear": 0.5
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1230,
+       520
+      ],
+      "to": [
+       1010,
+       340
+      ],
+      "bend": -30,
+      "color": "#e0201b",
+      "width": 9,
+      "head": 36,
+      "appear": 0.55
      },
      {
       "type": "label",
@@ -37957,17 +38553,7 @@
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
-      "appear": 0.65
-     },
-     {
-      "type": "doug",
-      "x": 1700,
-      "y": 415.3,
-      "scale": 0.36,
-      "pose": "stand",
-      "expression": "hopeful",
-      "facing": "left",
-      "appear": 0.8
+      "appear": 0.75
      },
      {
       "type": "label",
@@ -38021,7 +38607,7 @@
       "x": 0,
       "y": 0,
       "w": 1920,
-      "h": 470,
+      "h": 1080,
       "fill": "#b8cde2",
       "color": "#b8cde2",
       "width": 0,
@@ -38033,49 +38619,149 @@
       "points": [
        [
         -20,
-        470
+        600
        ],
        [
         0,
-        330
+        400
        ],
        [
-        340,
+        300,
+        280
+       ],
+       [
+        640,
+        420
+       ],
+       [
+        960,
         250
        ],
        [
-        700,
-        330
+        1250,
+        410
        ],
        [
-        1100,
-        240
-       ],
-       [
-        1500,
-        320
+        1560,
+        300
        ],
        [
         1940,
-        260
+        420
        ],
        [
         1940,
-        470
+        600
        ]
       ],
-      "fill": "#b9cde0",
-      "color": "#5a6878",
+      "fill": "#8d99a6",
+      "color": "#4f5b68",
       "width": 3
      },
      {
+      "type": "poly",
+      "points": [
+       [
+        190,
+        360
+       ],
+       [
+        300,
+        280
+       ],
+       [
+        410,
+        360
+       ],
+       [
+        350,
+        346
+       ],
+       [
+        300,
+        370
+       ],
+       [
+        250,
+        346
+       ]
+      ],
+      "fill": "#f7fbff",
+      "color": "#4f5b68",
+      "width": 2
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        850,
+        330
+       ],
+       [
+        960,
+        250
+       ],
+       [
+        1070,
+        330
+       ],
+       [
+        1010,
+        316
+       ],
+       [
+        960,
+        340
+       ],
+       [
+        910,
+        316
+       ]
+      ],
+      "fill": "#f7fbff",
+      "color": "#4f5b68",
+      "width": 2
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1450,
+        380
+       ],
+       [
+        1560,
+        300
+       ],
+       [
+        1670,
+        380
+       ],
+       [
+        1610,
+        366
+       ],
+       [
+        1560,
+        390
+       ],
+       [
+        1510,
+        366
+       ]
+      ],
+      "fill": "#f7fbff",
+      "color": "#4f5b68",
+      "width": 2
+     },
+     {
       "type": "rect",
       "x": 0,
-      "y": 470,
+      "y": 600,
       "w": 1920,
-      "h": 610,
-      "fill": "#e6eef5",
-      "color": "#e6eef5",
+      "h": 480,
+      "fill": "#f7fbff",
+      "color": "#f7fbff",
       "width": 0,
       "boil": 0,
       "outline": false
@@ -38085,196 +38771,144 @@
       "points": [
        [
         -20,
-        620
+        600
        ],
        [
-        500,
-        612
+        400,
+        595
        ],
        [
-        1100,
-        626
+        900,
+        604
        ],
        [
-        1940,
-        616
-       ]
-      ],
-      "color": "#c9d6e2",
-      "width": 4,
-      "boil": 0.4
-     },
-     {
-      "type": "curve",
-      "points": [
-       [
-        -20,
-        780
-       ],
-       [
-        500,
-        772
-       ],
-       [
-        1100,
-        786
+        1400,
+        596
        ],
        [
         1940,
-        776
+        602
        ]
       ],
-      "color": "#c9d6e2",
-      "width": 4,
-      "boil": 0.4
+      "color": "#5a6878",
+      "width": 4
      },
      {
-      "type": "curve",
-      "points": [
-       [
-        -20,
-        940
-       ],
-       [
-        500,
-        932
-       ],
-       [
-        1100,
-        946
-       ],
-       [
-        1940,
-        936
-       ]
-      ],
-      "color": "#c9d6e2",
-      "width": 4,
-      "boil": 0.4
+      "type": "spray",
+      "x": 960,
+      "y": 860,
+      "r": 900,
+      "color": "#dde8f2",
+      "density": 0.012
      },
      {
-      "type": "rect",
-      "x": 0,
-      "y": 1000,
-      "w": 1920,
-      "h": 80,
-      "fill": "#6b5b4b",
-      "color": "#6b5b4b",
-      "width": 0,
-      "boil": 0,
-      "outline": false
-     },
-     {
-      "type": "curve",
-      "points": [
-       [
-        -20,
-        1000
-       ],
-       [
-        700,
-        994
-       ],
-       [
-        1300,
-        1004
-       ],
-       [
-        1940,
-        998
-       ]
-      ],
-      "color": "#3a2e24",
+      "type": "ellipse",
+      "x": 760,
+      "y": 860,
+      "rx": 420,
+      "ry": 150,
+      "fill": "#f7fbff",
+      "color": "#5a6878",
       "width": 4
      },
      {
       "type": "curve",
       "points": [
        [
-        -20,
-        470
+        400,
+        830
        ],
        [
-        500,
-        465
+        560,
+        760
        ],
        [
-        1100,
-        475
+        760,
+        740
        ],
        [
-        1940,
-        468
+        960,
+        760
+       ],
+       [
+        1120,
+        830
        ]
       ],
-      "color": "#5a6878",
+      "color": "#c9d6e2",
       "width": 5
      },
      {
-      "type": "asset",
-      "name": "wolverine_den_cutaway",
-      "x": 900,
-      "y": 470,
-      "scale": 1.0
-     },
-     {
-      "type": "asset",
-      "name": "wolverine",
-      "x": 760,
-      "y": 770,
-      "scale": 0.32
+      "type": "ellipse",
+      "x": 930,
+      "y": 860,
+      "rx": 80,
+      "ry": 46,
+      "fill": "#2a3240",
+      "color": "#000000",
+      "width": 4
      },
      {
       "type": "asset",
       "name": "calendar",
-      "x": 300,
+      "x": 1420,
       "y": 560,
-      "scale": 0.55,
-      "appear": 0.15
+      "scale": 0.85,
+      "appear": 0.1
      },
      {
       "type": "label",
       "text": "FEB - MAY",
-      "x": 300,
+      "x": 1420,
       "y": 580,
-      "size": 34,
+      "size": 44,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
-      "appear": 0.15
+      "appear": 0.1
+     },
+     {
+      "type": "wordart",
+      "text": "THE ROOF",
+      "x": 560,
+      "y": 400,
+      "size": 96,
+      "boil": 0,
+      "appear": 0.45
      },
      {
       "type": "arrow",
       "from": [
-       1250,
-       330
+       560,
+       470
       ],
       "to": [
-       1050,
-       460
+       700,
+       730
       ],
-      "bend": -40,
+      "bend": -30,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
       "appear": 0.5
      },
      {
-      "type": "wordart",
-      "text": "THE ROOF",
-      "x": 1100,
-      "y": 300,
-      "size": 90,
-      "boil": 0,
-      "appear": 0.55
-     },
-     {
       "type": "asset",
       "name": "warning_triangle",
-      "x": 1450,
-      "y": 380,
-      "scale": 0.4,
-      "appear": 0.75
+      "x": 1050,
+      "y": 600,
+      "scale": 0.45,
+      "appear": 0.7
+     },
+     {
+      "type": "doug",
+      "x": 1720,
+      "y": 956.2,
+      "scale": 0.42,
+      "pose": "stand",
+      "expression": "flat",
+      "facing": "left",
+      "appear": 0.8
      },
      {
       "type": "label",
@@ -41729,19 +42363,19 @@
       "name": "wolverine_climbing",
       "x": 460,
       "y": 1310,
-      "scale": 0.5
+      "scale": 0.65
      },
      {
       "type": "arrow",
       "from": [
-       300,
-       1900
+       610,
+       1170
       ],
       "to": [
-       300,
-       500
+       905,
+       440
       ],
-      "bend": -40,
+      "bend": -20,
       "color": "#e0201b",
       "width": 9,
       "head": 36
@@ -41749,9 +42383,9 @@
      {
       "type": "wordart",
       "text": "STRAIGHT UP",
-      "x": 360,
-      "y": 1250,
-      "size": 100,
+      "x": 1470,
+      "y": 560,
+      "size": 76,
       "boil": 0
      },
      {
@@ -44232,110 +44866,101 @@
       "scale": 0.95
      },
      {
-      "type": "line",
-      "points": [
-       [
-        1150,
-        247
-       ],
-       [
-        1150,
-        155
-       ]
-      ],
-      "color": "#5a5a5a",
-      "width": 5
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        1150,
-        155
-       ],
-       [
-        1220,
-        175
-       ],
-       [
-        1150,
-        195
-       ]
-      ],
-      "fill": "#e0201b",
-      "color": "#000000",
-      "width": 3
+      "type": "doug",
+      "x": 928,
+      "y": 623.4,
+      "scale": 0.32,
+      "pose": "stand",
+      "expression": "shock",
+      "facing": "right",
+      "rotate": -15
      },
      {
       "type": "asset",
-      "name": "doug_cap",
-      "x": 990,
-      "y": 205,
-      "scale": 0.32
+      "name": "crampons",
+      "x": 928,
+      "y": 623.4,
+      "scale": 0.32,
+      "rotate": -15
      },
      {
-      "type": "line",
-      "points": [
-       [
-        780,
-        175
-       ],
-       [
-        920,
-        175
-       ]
-      ],
-      "color": "#5a6878",
-      "width": 5,
-      "boil": 0.6
+      "type": "asset",
+      "name": "paw_print_icon",
+      "x": 971,
+      "y": 581,
+      "scale": 0.14,
+      "boil": 0,
+      "appear": 0.1
      },
      {
-      "type": "line",
-      "points": [
-       [
-        780,
-        201
-       ],
-       [
-        920,
-        201
-       ]
-      ],
-      "color": "#5a6878",
-      "width": 5,
-      "boil": 0.6
+      "type": "asset",
+      "name": "paw_print_icon",
+      "x": 1030,
+      "y": 496,
+      "scale": 0.14,
+      "boil": 0,
+      "appear": 0.1
      },
      {
-      "type": "line",
-      "points": [
-       [
-        780,
-        227
-       ],
-       [
-        920,
-        227
-       ]
-      ],
-      "color": "#5a6878",
-      "width": 5,
-      "boil": 0.6
+      "type": "asset",
+      "name": "paw_print_icon",
+      "x": 1056,
+      "y": 410,
+      "scale": 0.14,
+      "boil": 0,
+      "appear": 0.1
+     },
+     {
+      "type": "asset",
+      "name": "paw_print_icon",
+      "x": 1115,
+      "y": 324,
+      "scale": 0.14,
+      "boil": 0,
+      "appear": 0.1
+     },
+     {
+      "type": "asset",
+      "name": "paw_print_icon",
+      "x": 1183,
+      "y": 315,
+      "scale": 0.14,
+      "boil": 0,
+      "appear": 0.2
+     },
+     {
+      "type": "asset",
+      "name": "wolverine_trotting",
+      "x": 1223,
+      "y": 365,
+      "scale": 0.2,
+      "rotate": 50,
+      "appear": 0.2
      },
      {
       "type": "arrow",
       "from": [
-       896,
-       592
+       1030,
+       215
       ],
       "to": [
-       950,
-       255
+       1303,
+       405
       ],
-      "bend": -40,
+      "bend": -50,
       "color": "#e0201b",
       "width": 9,
       "head": 36,
-      "appear": 0.15
+      "appear": 0.3
+     },
+     {
+      "type": "wordart",
+      "text": "OVER",
+      "x": 1483,
+      "y": 420,
+      "size": 100,
+      "boil": 0,
+      "appear": 0.35
      },
      {
       "type": "label",
@@ -44689,94 +45314,54 @@
      {
       "type": "asset",
       "name": "mount_cleveland",
-      "x": 960,
-      "y": 1160,
-      "scale": 1.0
+      "x": 704,
+      "y": 1677,
+      "scale": 1.8
      },
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 763,
-      "y": 632,
-      "scale": 0.13,
+      "x": 730,
+      "y": 112,
+      "scale": 0.22,
       "boil": 0
      },
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 815,
-      "y": 560,
-      "scale": 0.13,
+      "x": 837,
+      "y": 241,
+      "scale": 0.22,
       "boil": 0
      },
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 835,
-      "y": 488,
-      "scale": 0.13,
+      "x": 888,
+      "y": 371,
+      "scale": 0.22,
       "boil": 0
      },
      {
       "type": "asset",
       "name": "paw_print_icon",
-      "x": 887,
-      "y": 416,
-      "scale": 0.13,
-      "boil": 0
-     },
-     {
-      "type": "asset",
-      "name": "paw_print_icon",
-      "x": 907,
-      "y": 344,
-      "scale": 0.13,
-      "boil": 0
-     },
-     {
-      "type": "asset",
-      "name": "paw_print_icon",
-      "x": 974,
-      "y": 290,
-      "scale": 0.13,
-      "boil": 0
-     },
-     {
-      "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1034,
-      "y": 362,
-      "scale": 0.13,
-      "boil": 0
-     },
-     {
-      "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1062,
-      "y": 434,
-      "scale": 0.13,
-      "boil": 0
-     },
-     {
-      "type": "asset",
-      "name": "paw_print_icon",
-      "x": 1122,
-      "y": 506,
-      "scale": 0.13,
+      "x": 995,
+      "y": 501,
+      "scale": 0.22,
       "boil": 0
      },
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 1158,
-      "y": 570,
-      "scale": 0.3
+      "x": 1060,
+      "y": 616,
+      "scale": 0.54
      },
      {
       "type": "wordart",
       "text": "363",
-      "x": 420,
-      "y": 560,
+      "x": 330,
+      "y": 420,
       "size": 140,
       "boil": 0,
       "appear": 0.2
@@ -44784,12 +45369,12 @@
      {
       "type": "arrow",
       "from": [
-       1378,
-       744
+       1360,
+       860
       ],
       "to": [
-       1198,
-       594
+       1130,
+       660
       ],
       "bend": 40,
       "color": "#e0201b",
