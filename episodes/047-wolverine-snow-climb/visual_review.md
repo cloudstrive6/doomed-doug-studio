@@ -1,5 +1,55 @@
 # 047 Wolverine Snow Climb: Visual Review
 
+## Round 7: post-render (final.mp4, thumbnails, Shorts) (2026-11-14)
+
+Scope: all 24 `build/samples/f_*.png` (every 30 s, 707 s total), `build/qc.json` (no problems), thumbnails A/B/C and
+their `_small` versions, `metadata.json` (title "Why a 16 kg Wolverine Can Kill a Reindeer Six Times Heavier"), the
+three `build/shorts/*_preview.png`, and 6-10 frames extracted from each short (1080x1920; 48.4 s / 45.4 s / 36.7 s).
+Nothing was rendered.
+
+### Main video
+- No black, blank, frozen or glitched frames in the samples. Each frame has a different composition, and the chapter
+  tag steps through REINDEER, GLUTTON, FRIDGE, TRAPLINE, NOSE, RANGE, SNOWSHOES, SNOW DEN and CLIMB in order.
+- The HUD counter climbs 356 -> 362, and altitude goes FOREST -> TREELINE -> SNOW -> SUMMIT. Both are always legible.
+- Doug is on-model wherever he appears (red cap, white head), and that includes the reindeer costume (f_003). The
+  wolverine reads at once in every frame. Carcasses are pale cartoon shapes with no blood. There is no gore and nothing
+  looks like a kids' show.
+- The end screen (f_024) has the standard blank end-screen slots, the SUBSCRIBE circle and "DOUG'S NEXT DEATH". It ends
+  cleanly.
+- The Round 2 advisory A4 is still visible in the render: in f_019, the altitude stake sits on the den entrance. This
+  is cosmetic and does not block.
+
+### Thumbnails
+- **A** (live, IT DOESN'T SINK): the caption is readable at 168 px, the wolverine stands on the crust and the reindeer is
+  sunk. It explains the title (why the small animal wins) and is not misleading. Advisory: at feed size the sunk Doug is
+  only a red dot, and the reindeer is bigger than the wolverine, so it pulls the eye. If the designer revisits this,
+  scale the wolverine up about 15%.
+- **B** (IT CLIMBS): the strongest at feed size. It has one focal point, a terrified Doug, and an obvious threat.
+- **C** (200,000 / PER LITTER): readable at 168 px and fits alt title 3. Doug in the costume is small but recognisable.
+
+### Shorts
+- In all three, the title (red, 3 lines) is fully inside the frame. Subtitles are large and high-contrast, and the
+  @DoomedDoug tag is clear. Drawings are not cut at the sides (side labels such as FOUR and DIDN'T STOP sit at about
+  x 20 px or more, which is safe).
+- **short01**: pays off its title on screen (90 MINUTES stopwatch, 4x stacked towers for 1,500 m, the wolverine over the
+  summit, DIDN'T STOP).
+- **short02**: has the 800 KM map, the I-80 crossing, a NEW YORK TO DETROIT comparison and Doug with the snacks.
+- **short03**: has the carcass buried under snow, the wolverine on the surface, and a dashed line showing it digging
+  straight down to the carcass. The payoff is shown, not withheld.
+- In all three, the end card reads FULL VIDEO: TAP BELOW and the red arrow points straight down. Doug is on-model and
+  there is no "???" teaser.
+- Advisory (editor): subtitles reveal letter by letter, so a paused frame can show half a word (the short02 preview
+  reads "one of the bu"). That is fine in motion. Advisory (director, later episodes): the 16:9 artwork band makes Doug
+  very small in the 9:16 frame (about 40 px tall in short02/short03). A tighter crop on Doug-centred shots would help
+  retention.
+
+No required fixes.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+---
+
 ## Round 6: thumbnail C re-screen after the Round 5 fix (2026-11-14)
 
 Scope: `build/thumbnail_c.png` and `thumbnail_c_small.png` (PNG 18:21:58Z, newer than `thumbnail_test_c.json` at

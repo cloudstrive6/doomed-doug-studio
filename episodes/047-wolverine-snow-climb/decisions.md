@@ -62,3 +62,26 @@ Screener Round 5: PASS on all three.
 
 PACKAGE (THUMBNAILS): APPROVED
 - 2026-11-14: script 3 rounds, art 2 rounds (visual 2), thumbnails 3 screener rounds (C tag size; CD edited), packaged. Risks: global speaking_rate changed 1.15->1.10 by editor (wpm 197); title A resembles 041 formula; M3 name sourced from news/guide pages.
+
+## 2026-11-14: final package gate, creative director
+Reviewed: metadata.json (title, alt_titles, description, tags, playlist), build/thumbnail.png (A), build/chapters.txt,
+script opening, samples f_001-f_003 (0:00-1:00), visual_review.md Round 7 (PASS main + Shorts), build/qc.json (no
+problems). `validate metadata` and `package check --dry-run` return OK. Nothing rendered.
+
+- **Title: keep A**, "Why a 16 kg Wolverine Can Kill a Reindeer Six Times Heavier" (59 chars). It is concrete, the
+  claim is delivered in the first sentence and backed by facts.md (about 16 kg vs a cow up to 100 kg), and it is the
+  title paired with live thumbnail A in the D4 test. Alt B ("Scariest Small Predator Alive") is good but vaguer and
+  belongs to thumbnail B; swapping is not clearly stronger. The "Why a [N kg] [Animal]..." formula echoes 041, but
+  041 was six episodes back and 043-046 all use different formulas, so it is not back-to-back.
+- **Thumbnail A**: caption readable, the cause (wolverine on the crust, reindeer and Doug sunk) is shown, no gore, no
+  cute styling. Not misleading. Screener advisory (wolverine about 15% bigger at feed size) left for a future revisit.
+- **Opening**: the wolverine and the reindeer are named in the first sentence (well under 35 words), the payoff
+  promise (Mount Cleveland, 90-minute climb) is in the second, and the Sweden bounty twist lands inside 45 s. Frames
+  0:00-1:00 are clean: map, 1996 payment, Doug in the reindeer costume, HUD legible, on-model.
+- **Chapters**: start at 0:00, 10 entries, all at least 10 s, matching the 9 script items plus intro. The
+  `{{CHAPTERS}}` placeholder is filled by studio/youtube.py at upload.
+- **Description**: sourced (6 links), disclaimer and AI-use disclosure present, adult-coded, no safety advice.
+  Playlist `animals`.
+- Non-blocking: f_019 altitude stake overlaps the den entrance (cosmetic).
+
+FINAL: APPROVED
