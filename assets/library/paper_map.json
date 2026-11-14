@@ -1,0 +1,545 @@
+{
+ "name": "paper_map",
+ "description": "Doug's folded paper hiking map, no text: cream #efe6cc sheet with accordion fold creases, green and brown contour blobs, a blue stream and a red dotted trail that runs right off the right edge of the paper. Centre anchor, ~400x280.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "map",
+  "paper",
+  "hiking",
+  "trail",
+  "prop"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -140
+    ],
+    [
+     200,
+     -140
+    ],
+    [
+     200,
+     140
+    ],
+    [
+     -200,
+     140
+    ]
+   ],
+   "fill": "#efe6cc",
+   "width": 5,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -100,
+     -138
+    ],
+    [
+     0,
+     -138
+    ],
+    [
+     0,
+     138
+    ],
+    [
+     -100,
+     138
+    ]
+   ],
+   "fill": "#ddd2b2",
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     100,
+     -138
+    ],
+    [
+     198,
+     -138
+    ],
+    [
+     198,
+     138
+    ],
+    [
+     100,
+     138
+    ]
+   ],
+   "fill": "#ddd2b2",
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -170,
+     -110
+    ],
+    [
+     -90,
+     -125
+    ],
+    [
+     -40,
+     -90
+    ],
+    [
+     -60,
+     -40
+    ],
+    [
+     -130,
+     -30
+    ],
+    [
+     -180,
+     -60
+    ]
+   ],
+   "fill": "#a8cf86",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -145,
+     -90
+    ],
+    [
+     -90,
+     -98
+    ],
+    [
+     -70,
+     -70
+    ],
+    [
+     -110,
+     -52
+    ],
+    [
+     -150,
+     -62
+    ]
+   ],
+   "fill": "#86b866",
+   "width": 2,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     -120
+    ],
+    [
+     130,
+     -125
+    ],
+    [
+     180,
+     -70
+    ],
+    [
+     150,
+     -10
+    ],
+    [
+     70,
+     -20
+    ],
+    [
+     20,
+     -70
+    ]
+   ],
+   "fill": "#c9a476",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     60,
+     -100
+    ],
+    [
+     125,
+     -100
+    ],
+    [
+     150,
+     -65
+    ],
+    [
+     120,
+     -35
+    ],
+    [
+     70,
+     -45
+    ],
+    [
+     50,
+     -75
+    ]
+   ],
+   "fill": "#b88a5a",
+   "width": 2,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     85,
+     -82
+    ],
+    [
+     120,
+     -82
+    ],
+    [
+     125,
+     -60
+    ],
+    [
+     95,
+     -55
+    ]
+   ],
+   "fill": "#8f6640",
+   "width": 2,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -160,
+     40
+    ],
+    [
+     -60,
+     30
+    ],
+    [
+     -10,
+     80
+    ],
+    [
+     -50,
+     125
+    ],
+    [
+     -150,
+     120
+    ],
+    [
+     -185,
+     85
+    ]
+   ],
+   "fill": "#a8cf86",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -130,
+     60
+    ],
+    [
+     -70,
+     55
+    ],
+    [
+     -50,
+     85
+    ],
+    [
+     -90,
+     105
+    ],
+    [
+     -135,
+     95
+    ]
+   ],
+   "fill": "#86b866",
+   "width": 2,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     40,
+     40
+    ],
+    [
+     110,
+     30
+    ],
+    [
+     150,
+     80
+    ],
+    [
+     110,
+     120
+    ],
+    [
+     50,
+     105
+    ]
+   ],
+   "fill": "#a8cf86",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -200,
+     10
+    ],
+    [
+     -120,
+     0
+    ],
+    [
+     -40,
+     20
+    ],
+    [
+     20,
+     -5
+    ],
+    [
+     60,
+     10
+    ]
+   ],
+   "width": 4,
+   "color": "#5aa0d8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100,
+     -140
+    ],
+    [
+     -100,
+     140
+    ]
+   ],
+   "width": 2,
+   "color": "#b0a27e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -140
+    ],
+    [
+     0,
+     140
+    ]
+   ],
+   "width": 2,
+   "color": "#b0a27e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     100,
+     -140
+    ],
+    [
+     100,
+     140
+    ]
+   ],
+   "width": 2,
+   "color": "#b0a27e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -200,
+     0
+    ],
+    [
+     200,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#b0a27e"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -160,
+     115
+    ],
+    [
+     -110,
+     70
+    ],
+    [
+     -30,
+     60
+    ],
+    [
+     10,
+     20
+    ],
+    [
+     70,
+     -10
+    ],
+    [
+     130,
+     10
+    ],
+    [
+     175,
+     -30
+    ],
+    [
+     200,
+     -50
+    ]
+   ],
+   "width": 6,
+   "color": "#e0201b",
+   "dash": [
+    12,
+    10
+   ]
+  },
+  {
+   "type": "circle",
+   "x": -160,
+   "y": 115,
+   "r": 9,
+   "fill": "#e0201b",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -140
+    ],
+    [
+     200,
+     -140
+    ],
+    [
+     200,
+     140
+    ],
+    [
+     -200,
+     140
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     170,
+     140
+    ],
+    [
+     200,
+     110
+    ],
+    [
+     200,
+     140
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     170,
+     140
+    ],
+    [
+     200,
+     110
+    ],
+    [
+     178,
+     118
+    ]
+   ],
+   "fill": "#d6caa6",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  }
+ ]
+}
