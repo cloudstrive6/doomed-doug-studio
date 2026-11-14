@@ -61,3 +61,4 @@ Screener Round 5: PASS on all three.
   standing scream pose rather than a climbing pose.
 
 PACKAGE (THUMBNAILS): APPROVED
+- 2026-11-14: script 3 rounds, art 2 rounds (visual 2), thumbnails 3 screener rounds (C tag size; CD edited), packaged. Risks: global speaking_rate changed 1.15->1.10 by editor (wpm 197); title A resembles 041 formula; M3 name sourced from news/guide pages.
