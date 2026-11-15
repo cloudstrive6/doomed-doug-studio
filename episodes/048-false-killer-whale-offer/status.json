@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-11-15T21:13:34+00:00",
       "note": "art + keyframes approved"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-15T21:17:12+00:00",
+      "note": "Narrated (real voice) 11.3 min, 195.9 wpm; Lanai/Galapagos/Mar del Plata IPA set; chapters via {{CHAPTERS}} from shotlist at render; validate + shorts validate OK"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

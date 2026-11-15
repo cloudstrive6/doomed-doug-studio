@@ -108,3 +108,4 @@ My approval below stands unless that check fails.
 
 A/B/C test order unchanged: A primary, B and C as test variants. The package gate is cleared on the creative side. Next: the
 Round 2 visual screen (keyframe fixes plus a re-confirmation of the revised B and C), then the build.
+2026-11-15: rounds - script 2 drafts (1 FAIL fix, PASS), art 2 rounds, thumbnails 2 rounds, keyframes 2 rounds. Risks: Kona/BC offer details rest on Baird book via Civil Beat/BI (flagged in facts.md); 10 shots >6s; Lanai/Galapagos/Mar del Plata pronunciation unchecked by ear.
