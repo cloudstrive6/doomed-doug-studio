@@ -109,3 +109,72 @@ My approval below stands unless that check fails.
 A/B/C test order unchanged: A primary, B and C as test variants. The package gate is cleared on the creative side. Next: the
 Round 2 visual screen (keyframe fixes plus a re-confirmation of the revised B and C), then the build.
 2026-11-15: rounds - script 2 drafts (1 FAIL fix, PASS), art 2 rounds, thumbnails 2 rounds, keyframes 2 rounds. Risks: Kona/BC offer details rest on Baird book via Civil Beat/BI (flagged in facts.md); 10 shots >6s; Lanai/Galapagos/Mar del Plata pronunciation unchecked by ear.
+
+## Visual screen: post-render (2026-11-15)
+Scope: build/qc.json (11:19.6, no problems), all 23 samples (f_001..f_023, every 30 s), thumbnail A/B/C at full size and
+168x94 `_small`, metadata title, and the 3 Shorts (preview PNGs plus 6 extracted frames each, end card included).
+
+**Main video: no black, blank, frozen or glitched frames.** Every sample has its chapter label, the death counter
+(362 -> 367, going up in order) and the distance-to-Doug tag (1 km -> 0 m), all legible. Doug is on-model wherever he
+appears (red cap, white head). Shots I checked against the shotlist:
+- s098: the capless figure is the intended `stick_man_plain` (the slice-taker); Doug enters at 0.8.
+- s132: only the "SEEN AT SEA" bar shows because the sample lands before "STRANDED" appears at 0.45.
+- s138: Doug holds his cap at his chest (gear `cap_off`), which reads as respectful at the stranding.
+
+No gore anywhere: the s046 death is a cartoon X-eyes float and nothing bleeds. The tone is not a kids' show. Pictures
+match the narration, and the McSweeney tuna offer (s165-s180) lands clearly. The end slate (f_023) is clean.
+
+**Thumbnails: PASS (Round 2 re-confirmation done).**
+- A "IT'S A GIFT": one focal action, and whale, tuna and Doug all read at 168x94.
+- B "FOR ME?": the revised B reads at feed size. The light water makes the charcoal head pop, and the crop of the body
+  off the right edge looks intentional.
+- C "30+ KG TUNA": the hot pink stands out the most in a feed, and the tag reads as a tag.
+
+All three fit "False Killer Whales Hunt Like Orcas, Then Hand Us Their Kill" and none is misleading. The advisories from
+the last round (B back ticks, C string anchor) are still invisible at feed size, so no rework is needed.
+
+**Shorts: PASS.**
+- All three are 1080x1920. Each title is 3 lines, red on black outline, and legible.
+- Subtitles are 4-word chunks, legible, and never cut off in the video.
+- The auto-fit window keeps whole drawings, with nothing cut at the sides.
+- Each Short pays off its title:
+  - short01: the Kona map, then the tuna pushed toward McSweeney ("MOMENTUM").
+  - short02: the salmon is dropped, "LET GO", then grabbed back.
+  - short03: two whales pinning the swordfish at about 6 s.
+- Every end card reads "FULL VIDEO: TAP BELOW", Doug points, and the red arrow points down. There is no "???" teaser and
+  no withheld payoff.
+
+Tooling note (not an episode defect): the `*_preview.png` stills cut the subtitle at 40 characters (`mid[4][:40]` in
+studio/shorts.py), so they show "the speed of the wh" and "have been recorde". The rendered mp4s show full words. If
+someone wants cleaner previews, they could use the first `_chunks` group instead. Separately, the main-video samples are
+only 640x360, so fine-detail checks there have limited resolution.
+
+No fixes required.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+## Final package approval: Creative Director (2026-11-15)
+I reviewed the title, the A/B/C thumbnails (full size and 168x94), metadata.json (description, sources, tags, playlist),
+build/chapters.txt, build/qc.json (11:19.6, no problems), samples f_001 to f_002, and the script opening.
+
+- **Title: keep A**, "False Killer Whales Hunt Like Orcas, Then Hand Us Their Kill" (60 chars, T9 contradiction). The
+  video delivers it: the hunting comes first (sperm whale harassment, the swordfish, prey sharing) and the 1984 Kona tuna
+  offer comes last, with sources (Cascadia, Baird 2018, Hana Hou). None of the alt_titles is clearly stronger. "Offer
+  Humans Tuna" is flatter, and "A Dolphin That..." hides the name people search for. The formula is also different from
+  047's "Why a 16 kg..." so there's no back-to-back repeat.
+- **Thumbnail A, "IT'S A GIFT":** one focal action, and the whale, the tuna and the capped Doug all read at feed size.
+  There is no blood, and the text fills a gap the title leaves instead of repeating it. Unlike 021, there's no boat or rail.
+  B and C stay as test variants.
+- **Description:** it matches the video and names the year and place of the payoff. Six real sources, plus the disclaimer
+  and the AI-use notes. The chapters start at 0:00 and are in order, with 9 named items. The playlist is `animals`, and
+  paid_promotion is false.
+- **First 60 s:** "sperm whales" is in the first sentence (item 1 inside 35 words). The payoff promise ("more than thirty
+  kilos of tuna... and lets go") is in line 2. The chapter card arrives at 0:13. f_001 and f_002 are clean, with the
+  counter at 362 and the 1 KM distance tag. The tone is adult-coded, not a kids' show, and the deaths are cartoon only.
+- Note, no rework: "Their fight." before the first chapter is the first of the episode's planned spoken bands (fight,
+  dinner, family, Doug's share). It's a little clipped on its own, but it pays off as the bands repeat.
+- Residual risk (accepted, already flagged): some Kona details rest on Baird's book as quoted in the press, along with
+  McSweeney's own account. The description cites the primary account.
+
+FINAL: APPROVED
