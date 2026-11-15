@@ -62,3 +62,38 @@ reads as a mouth, not a wound.
   The claim "30+ KG" is accurate (34-45 kg per the sources).
 
 Recommended A/B/C order is unchanged: A first.
+
+## Round 2 (2026-11-15): keyframe fixes + thumbnails re-screen
+
+Looked at: full-res `build/keyframes/` s041, s043, s044, s129, s131, s133, s158, s171, s173, s178; the regenerated
+`build/contact/sheet_04.png` and `sheet_15.png`; all three thumbnails at full size and the three `*_small.png`
+(168x94, viewed upscaled side by side).
+
+### Keyframes: VERDICT: PASS
+
+All 7 round-1 fixes are in:
+1. **s170-s174 run: fixed.** s171 is now a close-up: the whale is large and cropped at the left edge, the "LET GO"
+   tag sits above the released tuna, and the "A COUPLE OF METERS" dimension line is kept. s173 is now a cream reaction
+   beat with McSweeney large and centred under a red "!", and the whale is left out. The longest run of near-identical
+   framings is now two shots (s172, s174).
+2. **s178: fixed.** Doug is on the right panel next to `stick_man_plain`, clear of the divider.
+3. **s041: fixed.** Doug is on the Cocos side (x~1100) and keeps the shrug. The divider is clean.
+4. **s129: fixed.** The stray brown curve is gone.
+5. **s042-s044 signboard: fixed.** "COCOS ISLAND" now fits on one line inside the board in all three shots.
+6. **s131/s133: fixed.** A row of intact dark-grey whale silhouettes lies along the waterline. In s133 they follow the
+   dashed "ABOUT 4 KM" line. There is no injury or gore. Doug's sad face and the cap held at his chest land the beat.
+7. **s158: fixed.** The label reads "1 SECOND".
+
+No new problems were introduced. Advisory only: in s044 the third fin overlaps the front of the island, which reads
+fine as depth.
+
+### Thumbnails: VERDICT: PASS
+
+- **A ("IT'S A GIFT"):** unchanged and still the strongest. It reads instantly at 168x94.
+- **B ("FOR ME?"):** the blunt tail stub is gone. The whale is now cropped mid-body at the right edge and the dorsal
+  fin runs off the top, so the crop reads as intentional and the head is bigger. At feed size Doug, the tuna and the
+  mouth all read clearly. The dark-red mouth interior still reads as a mouth, not blood.
+- **C ("30+ KG TUNA"):** the tag is legible at feed size. The tuna and Doug's shock are obvious, and the whale
+  reads as the sender. Very minor: the "3" sits close to the tag's left edge. This is not blocking.
+
+All three still match the title and are not misleading. Recommended order is unchanged: A, B, C.

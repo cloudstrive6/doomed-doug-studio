@@ -76,3 +76,35 @@ not edited.
 
 Next: the graphic designer applies the B and C changes. Then the visual screener reviews all three (feed size, policy, badge
 area). Then I re-review B and C. A needs no rework.
+
+## 2026-11-15, creative director: package gate re-review (thumbnails A/B/C, after designer round 1)
+Viewed build/thumbnail.png, thumbnail_b.png and thumbnail_c.png at 1280x720 and the three *_small.png (168x94), each next to
+its paired title. Thumbnails were not edited. Screener: visual_review.md Round 1 gives the thumbnails **PASS**, but that pass was
+on the pre-rework B and C (it still mentions the B tail stub). The rework only rescales and reframes, and adds no new policy
+risk. Even so, the Round 2 visual screen (already due for the keyframe fixes) must re-confirm the revised B and C at feed size.
+My approval below stands unless that check fails.
+
+- **A, "IT'S A GIFT": APPROVED (confirmed, unchanged).** Still the primary. It reads at feed size, there is no blood and no
+  boat, and the tuna is about Doug's height (at the limit of my earlier advisory, so do not make it bigger).
+- **B, "FOR ME?": APPROVED.** All four notes were applied.
+  1. The water is now a light cyan with a pale sky band, and the charcoal whale pops at 168x94.
+  2. The stub is gone. The body runs cleanly off the right edge, with the dorsal fin cropped at the top right, and the crop
+     reads as intentional.
+  3. The concept is now different from A. The head fills about the right 55% of the frame, the mouth is open with teeth, the
+     tuna is mid-release, and a small goggled Doug has his arms up. It is a "Doug in peril" close-up, not a side-on mirror of
+     A. I would click it.
+  4. "FOR ME?" is bottom-centre and clear of the badge area. The pectoral fin ends at about x 1030.
+  Advisory (no rework): the short dark tick marks on the whale's back at about (880, 215) read as a stray scribble at full
+  size. They are invisible in the feed. Clean them up only if the designer touches B again.
+- **C, "30+ KG TUNA": APPROVED.** All five notes were applied.
+  1. The tuna is now about 2/3 of Doug's height and the full-body whale is clearly the largest thing in frame. "30+ KG" no
+     longer comes with a fish that looks oversized.
+  2. The tag is tilted and has a string down to the tuna's tail, so it reads as a tag.
+  3. There are three motion lines between the whale's snout and the tuna, so the push is clear.
+  4. Doug's feet end at about y 535, well clear of the duration badge.
+  5. The hot-pink background is kept. It is still the most distinct of the three in a feed.
+  Advisory (no rework): the string leaves the tag's bottom edge, not the punched hole at about (905, 145). Only fix this if C
+  is re-rendered for another reason.
+
+A/B/C test order unchanged: A primary, B and C as test variants. The package gate is cleared on the creative side. Next: the
+Round 2 visual screen (keyframe fixes plus a re-confirmation of the revised B and C), then the build.

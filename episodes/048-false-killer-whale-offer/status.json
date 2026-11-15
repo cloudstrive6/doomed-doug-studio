@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-11-15T20:48:25+00:00",
       "note": "186 shots, 15 asset requests, 3 Shorts"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-15T21:13:34+00:00",
+      "note": "art + keyframes approved"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

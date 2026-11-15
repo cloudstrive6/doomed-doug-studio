@@ -58,3 +58,26 @@ What passes: the style holds across all 186 frames, with the detailed creatures 
 - s097: the back-row party heads and knives come within about 20 px of the HUD plate. Lower `pizza_table_twelve` by about 50 px to give it some room.
 - s100/s101 and s124/s125 are near-identical consecutive frames: only the "?"/"!" changes, or the fins leave. Consider a small camera change (push in or reframe) on s101 and s125.
 - s161 (repeated from the earlier review): scale the death sketch to about 1.8x under "368?".
+
+---
+
+# 048 keyframe re-review, round 2 (art director, 2026-11-15)
+
+**Verdict: PASS.** All 8 round-1 fixes are in. I found one leftover problem in s123 and fixed it myself (details below). Checked against full-res `build/keyframes/` s041, s075, s107, s123, s131, s133, s138-s143, s171, s173, s178 and s184, plus the regenerated contact sheets.
+
+1. **s041 / s178: fixed.** In s041 Doug is on the Cocos side (x ~1100), and in s178 he is on the right panel. The divider is clean and nothing crosses his body.
+2. **s139-s141: fixed.** The water is now Beach `#1a4f80`. The cream sky stays as a diagram card, and the whales read well on the darker blue.
+3. **s142: fixed.** It is now a close-up of Doug (left third, cap held at his hips) with the stranded row along the waterline and the "?" above. It differs from s138 and s143.
+4. **s184: fixed.** The sticky sits off the book to its right. The coffee ring and spine are clear.
+5. **s075: fixed.** Doug is at x ~1800, clear of the hook grid.
+6. **s133: fixed.** The dashed 4 km line stops at x ~1700 at Doug's feet.
+7. **s123: partly fixed, finished by the art director.** The bubble had been raised, but the tail tip (962, 262) landed on Doug's raised waving hand. The long, thin wedge read as a stick held in his hand. I changed the speech to `y 140, tail [978, 214]`, so the tail now ends at the top of his cap and stays clear of the arm. The bubble is still clear of the title card and the HUD plate. Keyframe re-rendered.
+8. **s107: fixed.** The middle arrow runs under the mahi-costumed Doug, and the costume and Doug moved together.
+
+Also checked:
+- **s131 / s133:** the row of intact dark-grey whale silhouettes reads as a mass stranding. It is sober, with no damage and no gore. There is one cap, held at hip height (Beach one-off rule).
+- **s171:** the close-up of the open mouth uses the approved `false_killer_whale_open` asset (maroon interior, no red). "LET GO" and the dimension line are legible and inside the safe area.
+- **s173:** a cream reaction card with McSweeney (the `diver` asset, not Doug, so no cap is needed), large under a red "!". This breaks up the s170-s174 run.
+- HUD continuity holds (367 to 368, TO DOUG 0 M) on all re-rendered frames.
+
+Optional items from round 1 (s097 table, s101/s125 reframes, s161 sketch scale) remain non-blocking.
