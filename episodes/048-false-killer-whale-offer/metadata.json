@@ -1,0 +1,199 @@
+{
+  "title": "False Killer Whales Hunt Like Orcas, Then Hand Us Their Kill",
+  "alt_titles": [
+    "False Killer Whales Kill Like Orcas, Then Offer Humans Tuna",
+    "A Dolphin That Hunts Like an Orca Offers Humans Its Kill",
+    "Why False Killer Whales Kill Like Orcas but Offer Us Tuna",
+    "False Killer Whales Kill Like Orcas, Then Share With Divers"
+  ],
+  "packaging": {
+    "gate": "D4 packaging gate v1 (2026-11-09)",
+    "ranked_at": "2026-11-15T20:29:22Z",
+    "names": [
+      "false killer whale",
+      "false killer whales",
+      "orca",
+      "orcas",
+      "dolphin",
+      "1-tonne dolphin",
+      "Kona",
+      "Hawaii",
+      "sperm whale",
+      "tuna"
+    ],
+    "candidates": [
+      {
+        "title": "False Killer Whales Hunt Like Orcas, Then Hand Us Their Kill",
+        "thumb_text": "IT'S A GIFT",
+        "concept": "Hero close-up: one black false killer whale holding a big tuna out toward tiny red-capped Doug treading water (no boat, no blood)",
+        "formula": "T9",
+        "chars": 60,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "False Killer Whales Kill Like Orcas, Then Offer Humans Tuna",
+        "thumb_text": "FOR ME?",
+        "concept": "Doug in peril: the whale stopped a couple of meters from snorkelling Doug, mouth open, tuna mid-release, Doug holding out both arms",
+        "formula": "T9",
+        "chars": 59,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "A Dolphin That Hunts Like an Orca Offers Humans Its Kill",
+        "thumb_text": "30+ KG TUNA",
+        "concept": "The whale pushing a tuna as big as Doug toward him, a crude 30+ KG tag on the fish",
+        "formula": "T4",
+        "chars": 56,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why False Killer Whales Kill Like Orcas but Offer Us Tuna",
+        "thumb_text": "IT LET GO",
+        "concept": "The whale's open mouth a couple of meters from Doug, the tuna sliding out toward him on its own momentum",
+        "formula": "T9",
+        "chars": 57,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "False Killer Whales Kill Like Orcas, Then Share With Divers",
+        "thumb_text": "TAKE IT",
+        "concept": "Snorkelling Doug face to face with the whale, which offers him a salmon; Doug hesitating",
+        "formula": "T9",
+        "chars": 59,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why False Killer Whales Hunt Like Orcas but Hand Us the Kill",
+        "thumb_text": "HE ACCEPTED",
+        "concept": "Doug with arms open as a big tuna arrives at whale speed, the whale behind it",
+        "formula": "T9",
+        "chars": 60,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The False Killer Whale Kills Like an Orca, Then Feeds Divers",
+        "thumb_text": "A 1-TONNE GIFT",
+        "concept": "Huge black whale beside tiny Doug, a gift bow on the tuna in its mouth",
+        "formula": "T4",
+        "chars": 60,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why a 1-Tonne Dolphin Kills Like an Orca, Then Offers You Tuna",
+        "thumb_text": "IT MEANT WELL",
+        "concept": "Second shock: Doug flat on the water with X eyes under a huge tuna, the false killer whale looking on politely",
+        "formula": "T9",
+        "chars": 62,
+        "score": 100,
+        "raw": 102,
+        "issues": [
+          "length: 62 characters, desktop search cuts near 60"
+        ]
+      },
+      {
+        "title": "Why a False Killer Whale Kills Like an Orca but Offers You Fish",
+        "thumb_text": "DON'T TAKE IT",
+        "concept": "Doug reaching for a tuna held out by the whale while the narrator's hand points at the incoming momentum",
+        "formula": "T9",
+        "chars": 63,
+        "score": 98,
+        "raw": 98,
+        "issues": [
+          "length: 63 characters, desktop search cuts near 60"
+        ]
+      },
+      {
+        "title": "False Killer Whales Kill Like Orcas but Hand People Their Tuna",
+        "thumb_text": "SHARING?",
+        "concept": "A pod passing a tuna nose to nose, the last whale turning to hold it out to Doug",
+        "formula": "T9",
+        "chars": 62,
+        "score": 98,
+        "raw": 98,
+        "issues": [
+          "length: 62 characters, desktop search cuts near 60"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "variant": "A",
+        "file": "thumbnail.json",
+        "png": "build/thumbnail.png",
+        "title": "False Killer Whales Hunt Like Orcas, Then Hand Us Their Kill",
+        "thumb_text": "IT'S A GIFT",
+        "concept": "hero close-up",
+        "thumb_idea": "Hero close-up: one black false killer whale holding a big tuna out toward tiny red-capped Doug treading water (no boat, no blood)",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "variant": "B",
+        "file": "thumbnail_test_b.json",
+        "png": "build/thumbnail_b.png",
+        "title": "False Killer Whales Kill Like Orcas, Then Offer Humans Tuna",
+        "thumb_text": "FOR ME?",
+        "concept": "Doug in peril",
+        "thumb_idea": "Doug in peril: the whale stopped a couple of meters from snorkelling Doug, mouth open, tuna mid-release, Doug holding out both arms",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "variant": "C",
+        "file": "thumbnail_test_c.json",
+        "png": "build/thumbnail_c.png",
+        "title": "A Dolphin That Hunts Like an Orca Offers Humans Its Kill",
+        "thumb_text": "30+ KG TUNA",
+        "concept": "second shock",
+        "thumb_idea": "The whale pushing a tuna as big as Doug toward him, a crude 30+ KG tag on the fish",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      }
+    ],
+    "readout": {
+      "metric": "long-form CTR at day 7",
+      "min_impressions": 1000,
+      "baseline_median": 0.022,
+      "baseline_top": [
+        0.025,
+        0.043
+      ],
+      "target_median": 0.04,
+      "baseline_source": "data/analytics/2026-11-08.json"
+    }
+  },
+  "title_formula": "T9",
+  "thumbnail_brief": "One black false killer whale holding a big tuna out toward tiny red-capped Doug treading water, with the words IT'S A GIFT, so the title gives the contradiction (hunts like an orca, hands us its kill) and the thumbnail shows the offer itself (no WHALE, ORCA, KILL or HUMANS on the image; no boat and no fish over a rail, which is 021's image; no blood, no hearts, no cute faces). Variant B: the whale stopped a couple of meters from snorkelling Doug, mouth open, tuna mid-release, Doug's arms out, FOR ME?. Variant C: the whale pushing a tuna as big as Doug toward him, a crude tag on the fish, 30+ KG TUNA.",
+  "description": "False killer whales are dolphins that hunt like orcas: they harass sperm whales, pin three-meter swordfish and share every big catch with the pod. And sometimes they offer that catch to people. Doug follows one from a kilometer away to zero, ending at Kona, Hawaii, in 1984, when a false killer whale swam up to a researcher in the water and let go of a tuna.\n\nWhich animal should Doug get too close to next? Tell us in the comments.\nSubscribe and watch Doug's death counter keep climbing.\n\n— TIMESTAMPS —\n{{CHAPTERS}}\n\n— KEY SOURCES —\nNOAA Fisheries, false killer whale species page (size, prey, depredation, Endangered listing): https://www.fisheries.noaa.gov/species/false-killer-whale\nPalacios & Mate (1996), Marine Mammal Science, false killer whales attacking sperm whales off the Galápagos: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1748-7692.1996.tb00070.x\nZaeschmar et al. (2013), Marine Mammal Science, false killer whales and bottlenose dolphins off New Zealand: https://doi.org/10.1111/mms.12065\nCascadia Research Collective, false killer whales in Hawaii (prey sharing, offers to people, population): https://cascadiaresearch.org/hawaii-species/false-killer-whales-hawaii/\nBaird (2018), Encyclopedia of Marine Mammals, false killer whale entry: https://cascadiaresearch.org/files/Baird_2018_False_Killer_Whale_EMM3.pdf\nHana Hou (2011), Dan McSweeney's account of the 1984 Kona tuna offer: https://cascadiaresearch.org/files/Hanahou2011_V15N5.pdf\n\n— DISCLAIMER —\nEducational entertainment. Every death in this video is a cartoon depiction of a stick figure; false killer whales are not known to harm people, and this is not safety advice.\n\n— AI USE —\nThe narration is an AI text-to-speech voice. Scripts are researched and written with AI assistance and fact-checked against the sources above. All drawings are original.\n\n#DoomedDoug #FalseKillerWhale #Animals",
+  "tags": [
+    "false killer whale",
+    "false killer whale facts",
+    "false killer whale offers fish to humans",
+    "false killer whale vs sperm whale",
+    "dolphins that hunt like orcas",
+    "pseudorca",
+    "whale gives diver a fish",
+    "hawaii false killer whale",
+    "animal documentary",
+    "stick figure animation"
+  ],
+  "playlist": "animals",
+  "paid_promotion": false
+}

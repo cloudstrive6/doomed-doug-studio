@@ -20,3 +20,21 @@
   3. Director/editor: The Share's twist and The Swimmer's first sentence both state that false killer whales offer fish to people. Pace The Swimmer's opening fast (a single shot, no hold) so it plays as a reminder and not as news.
   4. Titler: keep both halves of the title; no "Doug" in it (041-043 test); no OctoLab wording.
 - Series bible: the counter header is now 368 and the 048 log row has been added.
+
+## 2026-11-15, director: shotlist
+- 186 shots (s001 thumbnail + 185), narration matches the approved script word for word (2,043 words), 9 chapters, Doug in 72% of shots,
+  no static stretch over ~4.3 s at 195 wpm. 15 new drawings requested in `asset_requests.md`.
+- HUD on every shot except the sober cards and the outro: DOUG DEATHS at (1590, 162), `dougs_plate` at (1180, 166) scale 0.42 (empty
+  until s182, then a small tuna), and a TO DOUG meter (size-28 label at (1622, 238) with `false_killer_whale_fin` at 0.16) carrying the
+  date-card distances: ABOUT 1 KM / 500 M / 200 M / 100 M / 50 M / 20 M / 10 M (beach, from the brief) / 5 M / 0 M.
+- Colour ramp: one water step darker per item (`#3a9ad9` -> `#14365e`), no depth-zone hexes except the two dive diagrams (s059-s060,
+  s094) where the zones are the point. The Beach and the boss use the regional-ramp dusk sky.
+- CD notes applied: the swordfish never touches Doug (s067 bill-first with ~300 px clear, cut to s068 death); no wounds, blood or
+  stranded whales anywhere; "for me?" and the cap pass are deadpan with no hearts; DOUG'S PLATE stays empty until s182 (SERVED stamp).
+  The Swimmer's first sentence is one shot with `pause_after` 0.05 and no hold.
+- One-offs to log: field guide name is "FALSE KILLER WHALE" (3 words, wrapped to two lines at size 28 instead of the 2-word rule);
+  The Beach uses upright Doug with `cap_off` holding a `doug_cap` (script: "cap in his hands"; exactly one cap in frame); s161 shows the
+  narrator's pre-drawn death as a small sketch on a white card (no counter tick; the counter stays 367 until s181).
+- Shorts (`shorts.json`, validator OK): short01 s164-s175 The Offer (Kona 1984, ~51 s), short02 s150-s160 The Swimmer (salmon taken
+  back, ends "Doug is fine.", ~39 s), short03 s050-s061 The Swordfish (Lanai 2024, ~46 s). Titles are director placeholders because the
+  validator requires one; the titler should replace titles and fill descriptions.
