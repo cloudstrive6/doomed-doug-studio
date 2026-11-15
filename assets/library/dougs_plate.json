@@ -1,0 +1,22 @@
+{
+ "name": "dougs_plate",
+ "description": "DOUG'S PLATE (048 HUD device): an empty white dinner plate (dinner_plate: low 3/4 view, thin blue rim line, shallow well) with a plain steel fork on the left and a table knife on the right (grey #c9ced4, black outline). No food. Anchor centre; plate 300x90 at the centre, cutlery out to x -218..+204, y -60..+58. Rock-steady (low wobble) for HUD use; put a small tuna on top for the served state.",
+ "anchor": [0, 0],
+ "tags": ["prop", "plate", "kitchen", "hud", "food", "048"],
+ "elements": [
+  {"type": "poly", "points": [[-201, 58], [-189, 58], [-190, 4], [-187, -14], [-180, -26], [-180, -56], [-185, -56], [-186, -30], [-190, -30], [-191, -58], [-196, -58], [-197, -30], [-201, -30], [-202, -58], [-207, -58], [-208, -30], [-212, -30], [-213, -56], [-218, -56], [-218, -26], [-211, -14], [-200, 4]], "fill": "#c9ced4", "width": 3, "color": "#000000", "smooth": false, "wobble": 0.5, "boil": 0.5},
+  {"type": "line", "points": [[-196, 52], [-195, 8]], "width": 2, "color": "#ffffff", "wobble": 0.5, "boil": 0.5},
+  {"type": "line", "points": [[-208, -20], [-186, -20]], "width": 2, "color": "#9aa1a9", "wobble": 0.5, "boil": 0.5},
+  {"type": "poly", "points": [[189, 58], [201, 58], [200, 6], [190, 6]], "fill": "#c9ced4", "width": 3, "color": "#000000", "smooth": false, "wobble": 0.5, "boil": 0.5},
+  {"type": "poly", "points": [[188, 8], [203, 8], [204, -30], [200, -50], [193, -60], [186, -58], [186, -30]], "fill": "#c9ced4", "width": 3, "color": "#000000", "smooth": true, "wobble": 0.5, "boil": 0.5},
+  {"type": "line", "points": [[195, 52], [195, 12]], "width": 2, "color": "#ffffff", "wobble": 0.5, "boil": 0.5},
+  {"type": "curve", "points": [[200, 0], [201, -36], [195, -52]], "width": 2, "color": "#9aa1a9", "wobble": 0.5, "boil": 0.5},
+  {"type": "ellipse", "x": 0, "y": 5, "rx": 148, "ry": 40, "fill": "#c9ced6", "width": 4, "color": "#000000", "wobble": 0.5, "boil": 0.5},
+  {"type": "ellipse", "x": 0, "y": -3, "rx": 150, "ry": 42, "fill": "#ffffff", "width": 4, "color": "#000000", "wobble": 0.5, "boil": 0.5},
+  {"type": "ellipse", "x": 0, "y": -3, "rx": 136, "ry": 36, "fill": null, "width": 4, "color": "#2a5bd7", "wobble": 0.5, "boil": 0.5},
+  {"type": "ellipse", "x": 0, "y": -1, "rx": 100, "ry": 25, "fill": "#f1f3f6", "width": 2, "color": "#b8bec8", "wobble": 0.5, "boil": 0.5},
+  {"type": "spray", "x": -40, "y": 4, "r": 30, "color": "#dfe3ea", "density": 0.3, "wobble": 0.5, "boil": 0.5},
+  {"type": "curve", "points": [[-110, -26], [-70, -34]], "width": 4, "color": "#ffffff", "wobble": 0.5, "boil": 0.5},
+  {"type": "ellipse", "x": 0, "y": -3, "rx": 150, "ry": 42, "fill": null, "width": 4, "color": "#000000", "wobble": 0.5, "boil": 0.5}
+ ]
+}

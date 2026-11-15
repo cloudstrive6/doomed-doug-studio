@@ -8,6 +8,7 @@ baby animals. No blood or wounds anywhere (CD notes, decisions.md 2026-11-15).
 ## Creatures
 
 ### `false_killer_whale` (84 shots: the episode's star)
+- **DONE** (illustrator, 2026-11-15): `assets/library/false_killer_whale.json`, preview `assets/previews/048-false-killer-whale-offer-assets-1.png`.
 - What: false killer whale (*Pseudorca crassidens*), a large all-dark dolphin. Side view, **facing right**.
 - Real look: slender, torpedo body, **almost black** (use charcoal `#2e3138` with a lighter `#4a4f58` back highlight and
   shading so it reads on every water colour, down to the boss navy `#14365e`); **rounded, beakless, overhanging melon
@@ -23,6 +24,7 @@ baby animals. No blood or wounds anywhere (CD notes, decisions.md 2026-11-15).
   (flip and rotate are used; rotate up to about +-30, and -60 in s116).
 
 ### `false_killer_whale_open` (9 shots)
+- **DONE** (illustrator, 2026-11-15): `assets/library/false_killer_whale_open.json`, preview `assets/previews/048-false-killer-whale-offer-assets-1.png`. Mouth point ~(+290,+14), lower jaw tip (306,38).
 - What: same whale, same anchor/size/facing, **mouth open** (jaws parted about 30 degrees) and empty, for "let the fish go".
 - Look: rows of simple white conical teeth on both jaws, mouth interior dark maroon `#5a2a2a` (not red, no tongue detail).
   Calm eye, no aggression lines.
@@ -30,12 +32,14 @@ baby animals. No blood or wounds anywhere (CD notes, decisions.md 2026-11-15).
 - Used in: s154, s155, s158, s171-s174, s179, s180.
 
 ### `false_killer_whale_tuna` (6 shots + thumbnail direction)
+- **DONE** (illustrator, 2026-11-15): `assets/library/false_killer_whale_tuna.json`, preview `assets/previews/048-false-killer-whale-offer-assets-1.png`. Nests `yellowfin_tuna` at (405,12) scale 0.62 (front to x ~+566).
 - What: same whale and anchor, carrying **most of a yellowfin tuna** crosswise in its jaws (the boss image).
 - Look: the tuna (see `yellowfin_tuna`) held by its middle, its front half sticking forward out of the mouth to about
   x +560, tail end tucked into the jaw near x +250; tuna y range about -40..+60. Clean, intact fish: no bite marks, no red.
 - Used in: s003, s077, s162 (as `silhouette` with red rim), s165, s170, s178.
 
 ### `false_killer_whale_fin` (182 shots: HUD icon + surface fins)
+- **DONE** (illustrator, 2026-11-15): `assets/library/false_killer_whale_fin.json`, preview `assets/previews/048-false-killer-whale-offer-assets-1.png`. Fin tip ~(+18,-172).
 - What: the whale's dorsal fin and a short strip of back breaking the surface.
 - Look: dark charcoal falcate fin (back-curved tip), mid-grey leading-edge highlight so it reads at tiny size,
   a little white waterline ripple at the base. Clearly lower and more curved than `orca_fin`.
@@ -45,6 +49,7 @@ baby animals. No blood or wounds anywhere (CD notes, decisions.md 2026-11-15).
   s181, ...). Photo-ID board (s110-s111) uses it inside small photo frames.
 
 ### `false_killer_whale_skull` (4 shots)
+- **DONE** (illustrator, 2026-11-15): `assets/library/false_killer_whale_skull.json`, preview `assets/previews/048-false-killer-whale-offer-assets-1.png`. 9 teeth per jaw row; y -92..+72.
 - What: false killer whale skull, side view facing right (the 1846 Stamford subfossil and the "skull looks like a
   killer whale's" beat).
 - Look: aged bone `#e6dcc4` with `#b8a888` shading, long low cranium with a short broad rostrum, large rounded orbit,
@@ -54,6 +59,7 @@ baby animals. No blood or wounds anywhere (CD notes, decisions.md 2026-11-15).
 - Used in: s008, s134, s135 (on a mud rect), s136.
 
 ### `yellowfin_tuna` (27 shots)
+- **DONE** (illustrator, 2026-11-15): `assets/library/yellowfin_tuna.json`, preview `assets/previews/048-false-killer-whale-offer-assets-1.png`.
 - What: yellowfin tuna, side view facing right.
 - Look: dark metallic blue back `#1f3f7a`, silver-white belly, a **golden-yellow lateral stripe**, long **yellow
   sickle-shaped second dorsal and anal fins**, row of small yellow finlets to the tail, deep crescent tail, big round eye.
@@ -62,6 +68,7 @@ baby animals. No blood or wounds anywhere (CD notes, decisions.md 2026-11-15).
   (scale 0.3), and lying on top of dead Doug (s181, rotate -4).
 
 ### `mahi_mahi` (17 shots)
+- **DONE** (illustrator, 2026-11-15): `assets/library/mahi_mahi.json`, preview `assets/previews/048-false-killer-whale-offer-assets-2.png`.
 - What: mahi-mahi (dolphinfish), side view facing right.
 - Look: vivid green-gold back fading to yellow sides with small blue spots, **steep blunt forehead** (bull), one long
   dorsal fin running the full back, deeply forked tail.
@@ -69,12 +76,14 @@ baby animals. No blood or wounds anywhere (CD notes, decisions.md 2026-11-15).
 - Used in: s048, s055, s062-s063, s089-s094, s100-s103, s122, s145, s152 (held at the whale's snout at scale ~0.25-0.45).
 
 ### `golden_retriever` (1 shot)
+- **DONE** (illustrator, 2026-11-15): `assets/library/golden_retriever.json`, preview `assets/previews/048-false-killer-whale-offer-assets-2.png`. Faces right; x -182..+202, y -230..0.
 - What: adult golden retriever standing, side view facing left or right (we flip as needed), calm.
 - Look: golden coat `#d9a04a` with feathered tail and legs, floppy ears, dark nose. Adult only.
 - Anchor bottom-centre (feet on y=0), about 320 x 240.
 - Used in: s169 (tuna "as heavy as a golden retriever").
 
 ### `sperm_whale_fluke` (1 shot)
+- **DONE** (illustrator, 2026-11-15): `assets/library/sperm_whale_fluke.json`, preview `assets/previews/048-false-killer-whale-offer-assets-2.png`. y -438..+22 (ripple just below the waterline).
 - What: a sperm whale's tail flukes raised high out of the water (the defensive circle, death 363).
 - Look: same dark grey as `sperm_whale`, broad triangular flukes with a notch and wrinkled trailing edge, tail stock
   rising from the water, pale-blue `#bfe6ff` water streaming off the edges (no white zigzags).
@@ -84,6 +93,7 @@ baby animals. No blood or wounds anywhere (CD notes, decisions.md 2026-11-15).
 ## Doug props (worn; art director to approve)
 
 ### `mahi_mahi_costume` (4 shots)
+- **DONE** (illustrator, 2026-11-15): `assets/library/mahi_mahi_costume.json`, preview `assets/previews/048-false-killer-whale-offer-assets-3.png`. Forehead hood reaches y -406 (above the cap dome).
 - What: Doug's felt mahi-mahi suit for the upright `float` pose, same construction as `dolphin_costume`: anchor = Doug's
   hips, listed after Doug at the same x/y/scale.
 - Look: green-gold felt body with blue spot patches and visible stitching/zipper, the blunt mahi forehead as a hood over
@@ -92,12 +102,14 @@ baby animals. No blood or wounds anywhere (CD notes, decisions.md 2026-11-15).
 - Used in: s104-s107 (float pose, scale 0.55 and 0.3).
 
 ### `mahi_mahi_costume_flat` (2 shots)
+- **DONE** (illustrator, 2026-11-15): `assets/library/mahi_mahi_costume_flat.json`, preview `assets/previews/048-false-killer-whale-offer-assets-3.png`. Tail reaches x +272; hood not drawn (head left clear).
 - What: the mahi suit gone flat with Doug in it (death 367). Same convention as `reindeer_costume_flat` (047): listed
   after an `on_back` Doug at the same x/y/scale, **no rotate**; suit over torso and legs (about x -140..+186, y -58..+74),
   tail flopped at the feet end, face, X eyes and cap (head centre (-218, 0)) left clear.
 - Used in: s108, s109 (Doug floating on the water surface, scale 0.55).
 
 ### `dolphin_costume_flat` (1 shot)
+- **DONE** (illustrator, 2026-11-15): `assets/library/dolphin_costume_flat.json`, preview `assets/previews/048-false-killer-whale-offer-assets-3.png`. Flukes reach x +274.
 - What: `dolphin_costume` gone flat with Doug in it (death 364). Same convention as `reindeer_costume_flat`: after an
   `on_back` Doug, same x/y/scale, no rotate; grey felt suit over torso/legs, flukes flopped past the feet, the felt dorsal
   fin folded over; face, X eyes and cap clear.
@@ -106,6 +118,7 @@ baby animals. No blood or wounds anywhere (CD notes, decisions.md 2026-11-15).
 ## Props
 
 ### `dougs_plate` (181 shots: episode HUD device)
+- **DONE** (illustrator, 2026-11-15): `assets/library/dougs_plate.json`, preview `assets/previews/048-false-killer-whale-offer-assets-2.png`. Cutlery x -218..+204, y -60..+58.
 - What: DOUG'S PLATE, the episode-only device from the brief: an **empty** white dinner plate with a **fork on the left
   and a knife on the right**, seen in the same low 3/4 view as `dinner_plate`. Must not look like 021's MENU card.
 - Look: white plate with a thin blue rim line and shallow well; plain steel fork and table knife (grey `#c9ced4`, black
@@ -115,6 +128,7 @@ baby animals. No blood or wounds anywhere (CD notes, decisions.md 2026-11-15).
   (900, 700)) with `yellowfin_tuna` landing on it and a red SERVED stamp. From s182 on the HUD plate carries a small tuna.
 
 ### `tuna_head_hook` (1 shot)
+- **DONE** (illustrator, 2026-11-15): `assets/library/tuna_head_hook.json`, preview `assets/previews/048-false-killer-whale-offer-assets-2.png`. Hook bend to y ~+92.
 - What: a longline branch line's hook with only a tuna head left on it (depredation beat, cartoon only).
 - Look: grey steel J hook, the tuna head (dark blue top, silver cheek, big eye) hanging from it; the back edge is a clean
   **scalloped bite outline in the same body colours**, no pink or red flesh, no bones, no drips. Reads as a cartoon
@@ -123,6 +137,7 @@ baby animals. No blood or wounds anywhere (CD notes, decisions.md 2026-11-15).
 - Used in: s080 (scale 0.6).
 
 ### `hawaii_map` (8 shots)
+- **DONE** (illustrator, 2026-11-15): `assets/library/hawaii_map.json`, preview `assets/previews/048-false-killer-whale-offer-assets-2.png`.
 - What: main Hawaiian Islands map in the `world_map` style (flat green islands, dark green outline, light-blue sea
   `#bfe6ff`, white wave ticks, black frame, no labels): Niihau, Kauai, Oahu, Molokai, Lanai, Maui, Kahoolawe, Hawaii (Big Island).
 - Projection: x = (lon + 157.5) x 160, y = -(lat - 20.6) x 160; frame x -500..+500, y -320..+320 (lon -160.6..-154.4,

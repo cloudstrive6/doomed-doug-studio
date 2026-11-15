@@ -1,0 +1,27 @@
+{
+ "name": "tuna_head_hook",
+ "description": "Longline branch-line J hook (grey steel) with only a yellowfin tuna's head left on it, hanging snout-up: dark blue top, silver cheek, gill cover line, big eye; the bottom edge is a clean cartoon scalloped bite outline in the same body colours (no flesh, bones or red). Anchor = line tie point at the hook eye (0,0); hook to y ~+92; head x -88..+88, y +62..+220.",
+ "anchor": [0, 0],
+ "tags": ["hook", "tuna", "longline", "depredation", "fishing", "prop", "048"],
+ "elements": [
+  {"type": "poly", "points": [[6, 60], [30, 74], [56, 104], [76, 146], [88, 190], [86, 200], [81.0, 212], [72.0, 220], [63.0, 212], [58, 198.9], [53.0, 212], [44.0, 220], [35.0, 212], [30, 197.5], [24.0, 212], [15.0, 220], [6.0, 212], [0, 196.0], [-6.0, 212], [-15.0, 220], [-24.0, 212], [-30, 197.5], [-35.0, 212], [-44.0, 220], [-53.0, 212], [-58, 198.9], [-63.0, 212], [-72.0, 220], [-81.0, 212], [-86, 200.3], [-88, 190], [-82, 160], [-62, 124], [-34, 90]], "fill": "#e3e8ee", "width": 0, "color": "#000000", "smooth": false, "outline": false},
+  {"type": "poly", "points": [[6, 60], [-34, 90], [-62, 124], [-82, 160], [-88, 190], [-86, 198], [-50, 200], [-34, 160], [-18, 120], [-4, 84]], "fill": "#1f3f7a", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-34, 90], [-62, 124], [-82, 160], [-88, 190], [-74, 160], [-52, 120]], "fill": "#152c58", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-40, 196], [-20, 150], [0, 116], [-12, 160], [-24, 198]], "fill": "#ffd21f", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "spray", "x": 46, "y": 160, "r": 30, "color": "#c3ccd6", "density": 0.25},
+  {"type": "curve", "points": [[-30, 196], [10, 150], [44, 138], [70, 150]], "width": 3, "color": "#0f2148"},
+  {"type": "curve", "points": [[30, 130], [46, 150], [52, 172]], "width": 2, "color": "#8a96a6"},
+  {"type": "poly", "points": [[6, 60], [30, 74], [56, 104], [76, 146], [88, 190], [86, 200], [81.0, 212], [72.0, 220], [63.0, 212], [58, 198.9], [53.0, 212], [44.0, 220], [35.0, 212], [30, 197.5], [24.0, 212], [15.0, 220], [6.0, 212], [0, 196.0], [-6.0, 212], [-15.0, 220], [-24.0, 212], [-30, 197.5], [-35.0, 212], [-44.0, 220], [-53.0, 212], [-58, 198.9], [-63.0, 212], [-72.0, 220], [-81.0, 212], [-86, 200.3], [-88, 190], [-82, 160], [-62, 124], [-34, 90]], "fill": null, "width": 5, "color": "#000000", "smooth": false},
+  {"type": "curve", "points": [[8, 62], [26, 90], [40, 112], [56, 120]], "width": 3, "color": "#000000"},
+  {"type": "ellipse", "x": -4, "y": 112, "rx": 13, "ry": 13, "fill": "#ffffff", "width": 4, "color": "#000000"},
+  {"type": "ellipse", "x": -3, "y": 113, "rx": 7, "ry": 7, "fill": "#000000", "width": 0, "color": "#000000", "outline": false},
+  {"type": "ellipse", "x": -1, "y": 110, "rx": 2.5, "ry": 2.5, "fill": "#ffffff", "width": 0, "color": "#000000", "outline": false},
+  {"type": "ellipse", "x": 0, "y": 6, "rx": 7, "ry": 7, "fill": null, "width": 4, "color": "#5a6068"},
+  {"type": "line", "points": [[0, 13], [0, 70]], "width": 7, "color": "#000000"},
+  {"type": "line", "points": [[0, 13], [0, 70]], "width": 4, "color": "#9aa1a9"},
+  {"type": "curve", "points": [[0, 66], [4, 86], [20, 92], [32, 80], [32, 62]], "width": 7, "color": "#000000"},
+  {"type": "curve", "points": [[0, 66], [4, 86], [20, 92], [32, 80], [32, 62]], "width": 4, "color": "#9aa1a9"},
+  {"type": "poly", "points": [[32, 56], [26, 70], [38, 70]], "fill": "#9aa1a9", "width": 3, "color": "#000000", "smooth": false},
+  {"type": "line", "points": [[-3, -2], [3, -2]], "width": 3, "color": "#5a6068"}
+ ]
+}
