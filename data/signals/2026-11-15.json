@@ -1357,5 +1357,560 @@
     }
    ]
   }
+ },
+ "fin whale": {
+  "demand": {
+   "score": 7,
+   "suggestions": [
+    "fin whale",
+    "fin whale fisch",
+    "fin whale sounds",
+    "fin whale breaching",
+    "fin whale migration fisch",
+    "fin whale feeding",
+    "fin whale migration",
+    "fin whale documentary",
+    "fin whale fish",
+    "fin whale vs blue whale",
+    "fin whale speed"
+   ]
+  },
+  "saturation": {
+   "copies_100k": 5,
+   "channels": [
+    "ApexMorph",
+    "BeyondTheBlue",
+    "Nature with Taha",
+    "OctoLab",
+    "YouKids - Kids Songs"
+   ],
+   "vph_median": 316.7,
+   "vph_best": 6498.8,
+   "top": [
+    {
+     "title": "Why Orcas Are Terrified Of Humpback whales",
+     "channel": "ApexMorph",
+     "views": 2899511,
+     "age_days": 18.6,
+     "vph": 6498.8,
+     "id": "foi5WtXV7E0"
+    },
+    {
+     "title": "Why Nobody Talks About The Second Biggest Animal on Earth",
+     "channel": "OctoLab",
+     "views": 815761,
+     "age_days": 53.0,
+     "vph": 640.9,
+     "id": "pnY8QJGMCEk"
+    },
+    {
+     "title": "Why Sperm Whales are the Most Feared Animal in the Ocean",
+     "channel": "BeyondTheBlue",
+     "views": 505568,
+     "age_days": 36.0,
+     "vph": 584.4,
+     "id": "jqv3RPjHNkY"
+    },
+    {
+     "title": "Why Nobody Talks about the Whale We have Only Seen Once?",
+     "channel": "Nature with Taha",
+     "views": 342431,
+     "age_days": 32.4,
+     "vph": 440.9,
+     "id": "R8klwwzEWss"
+    },
+    {
+     "title": "Why Orcas are Terrified of Humpback Whales",
+     "channel": "BeyondTheBlue",
+     "views": 183875,
+     "age_days": 24.2,
+     "vph": 316.7,
+     "id": "fHeeVUmWAc0"
+    }
+   ]
+  }
+ },
+ "why fin whales are terrifying": {
+  "demand": {
+   "score": 0,
+   "suggestions": []
+  },
+  "saturation": {
+   "copies_100k": 5,
+   "channels": [
+    "AbyssLab",
+    "ApexMorph",
+    "BeyondTheBlue",
+    "OctoLab",
+    "Squidium"
+   ],
+   "vph_median": 16.8,
+   "vph_best": 8502.1,
+   "top": [
+    {
+     "title": "False Killer Whales Are Terrifying...Here's Why",
+     "channel": "OctoLab",
+     "views": 235050,
+     "age_days": 1.2,
+     "vph": 8502.1,
+     "id": "fQY5Kjob5Io"
+    },
+    {
+     "title": "Why Orcas Are Terrified Of Humpback whales",
+     "channel": "ApexMorph",
+     "views": 2899511,
+     "age_days": 18.6,
+     "vph": 6498.8,
+     "id": "foi5WtXV7E0"
+    },
+    {
+     "title": "Why Orcas are Terrified of the Humpback Whales",
+     "channel": "Squidium",
+     "views": 2430752,
+     "age_days": 37.9,
+     "vph": 2670.1,
+     "id": "QHZkEWWPHy0"
+    },
+    {
+     "title": "Why Orcas are Terrified of Blue Whales",
+     "channel": "BeyondTheBlue",
+     "views": 585529,
+     "age_days": 41.0,
+     "vph": 595.6,
+     "id": "7aOnBsvI6IE"
+    },
+    {
+     "title": "Why Sperm Whales are the Most Feared Animal in the Ocean",
+     "channel": "BeyondTheBlue",
+     "views": 505568,
+     "age_days": 36.0,
+     "vph": 584.4,
+     "id": "jqv3RPjHNkY"
+    }
+   ]
+  }
+ },
+ "giant virus permafrost": {
+  "demand": {
+   "score": 0,
+   "suggestions": []
+  },
+  "saturation": {
+   "copies_100k": 1,
+   "channels": [
+    "CdeCiencia"
+   ],
+   "vph_median": 9.1,
+   "vph_best": 116.5,
+   "top": [
+    {
+     "title": "Algo sale del hielo siberiano, y no es bueno",
+     "channel": "CdeCiencia",
+     "views": 235328,
+     "age_days": 84.1,
+     "vph": 116.5,
+     "id": "GRSjVJ1O_DQ"
+    },
+    {
+     "title": "What if the next pandemic isn't from the future — it's from 30,000 years ago, and it's waking up now",
+     "channel": "Genius Chimpanzee",
+     "views": 20526,
+     "age_days": 30.6,
+     "vph": 27.9,
+     "id": "eYHkGkLZdL4"
+    },
+    {
+     "title": "Why Are Scientists Terrified of What’s Thawing Out of the Permafrost?",
+     "channel": "Paleo Pete",
+     "views": 6056,
+     "age_days": 25.1,
+     "vph": 10.1,
+     "id": "YmhcU-aH9AM"
+    },
+    {
+     "title": "10 Prehistoric Viruses Still Frozen in the Ice Today",
+     "channel": "Prehistoric Dude",
+     "views": 18677,
+     "age_days": 85.3,
+     "vph": 9.1,
+     "id": "PSqoZhFPhQs"
+    },
+    {
+     "title": "8 Brutal Prehistoric Infections Scientists Fear Will Return",
+     "channel": "Prehistoric Matt",
+     "views": 7957,
+     "age_days": 44.1,
+     "vph": 7.5,
+     "id": "JuG-rzaMd-I"
+    }
+   ]
+  }
+ },
+ "zombie virus permafrost": {
+  "demand": {
+   "score": 1,
+   "suggestions": [
+    "zombie virus permafrost"
+   ]
+  },
+  "saturation": {
+   "copies_100k": 1,
+   "channels": [
+    "CdeCiencia"
+   ],
+   "vph_median": 4.4,
+   "vph_best": 222.1,
+   "top": [
+    {
+     "title": "12 การค้นพบสุดสยองใต้ดินเยือกแข็งไซบีเรีย ที่ทำให้ทั้งโลกขนลุก",
+     "channel": "เปิดโลกชนเผ่า",
+     "views": 34000,
+     "age_days": 6.4,
+     "vph": 222.1,
+     "id": "WGikTupCRLU"
+    },
+    {
+     "title": "Algo sale del hielo siberiano, y no es bueno",
+     "channel": "CdeCiencia",
+     "views": 235328,
+     "age_days": 84.1,
+     "vph": 116.5,
+     "id": "GRSjVJ1O_DQ"
+    },
+    {
+     "title": "12 Découvertes Terrifiantes du Permafrost Sibérien Qui Ont Effrayé le Monde",
+     "channel": "Horizon Frances",
+     "views": 17510,
+     "age_days": 49.3,
+     "vph": 14.8,
+     "id": "7jVrD9a0PPo"
+    },
+    {
+     "title": "¡El hielo oculta megavirus! Científicos advierten de \"virus zombi\" tras muerte de científica rusa",
+     "channel": "El Heraldo de México",
+     "views": 5877,
+     "age_days": 29.7,
+     "vph": 8.2,
+     "id": "Ccm5ycY6EYw"
+    },
+    {
+     "title": "12 Terrifying Discoveries In Siberia’s Permafrost Scientists Can’t Explain",
+     "channel": "Echo Tomb",
+     "views": 9001,
+     "age_days": 56.7,
+     "vph": 6.6,
+     "id": "aJ7Lsjj5Vdk"
+    }
+   ]
+  }
+ },
+ "mantis shrimp": {
+  "demand": {
+   "score": 9,
+   "suggestions": [
+    "mantis shrimp punch",
+    "mantis shrimp",
+    "mantis shrimp vs crab",
+    "mantis shrimp vs pistol shrimp",
+    "mantis shrimp punch human",
+    "mantis shrimp vs",
+    "mantis shrimp vs octopus",
+    "mantis shrimp punch crab",
+    "mantis shrimp punch glass",
+    "mantis shrimp vs lobster",
+    "mantis shrimp fight",
+    "smarter every day mantis shrimp"
+   ]
+  },
+  "saturation": {
+   "copies_100k": 2,
+   "channels": [
+    "Paul Cuffaro",
+    "水ラーメン"
+   ],
+   "vph_median": 432.3,
+   "vph_best": 3500.3,
+   "top": [
+    {
+     "title": "スーパーに売っていた瀕死のシャコを飼育すると…",
+     "channel": "水ラーメン",
+     "views": 3063281,
+     "age_days": 36.5,
+     "vph": 3500.3,
+     "id": "vnFu81sejVw"
+    },
+    {
+     "title": "Ordering MOST DANGEROUS CREATURE for My NEW TANK!!",
+     "channel": "Paul Cuffaro",
+     "views": 425159,
+     "age_days": 41.0,
+     "vph": 432.3,
+     "id": "XjjM0XD0160"
+    },
+    {
+     "title": "Giant Smashing Mantis Shrimp VS Giant Crabs #aquarium #shorts #mantisshrimp",
+     "channel": "Mantis Power",
+     "views": 33796,
+     "age_days": 70.1,
+     "vph": 20.1,
+     "id": "wuuoNBOagFU"
+    }
+   ]
+  }
+ },
+ "why mantis shrimp punch": {
+  "demand": {
+   "score": 2,
+   "suggestions": [
+    "why do mantis shrimp punch so hard",
+    "how hard does a mantis shrimp punch",
+    "how fast is a mantis shrimp punch"
+   ]
+  },
+  "saturation": {
+   "copies_100k": 0,
+   "channels": [],
+   "vph_median": 0,
+   "vph_best": 0,
+   "top": []
+  }
+ },
+ "tiger shark": {
+  "demand": {
+   "score": 10,
+   "suggestions": [
+    "tiger shark",
+    "tiger shark monster truck",
+    "tiger shark attack",
+    "tiger shark song",
+    "tiger shark attacks kayak",
+    "tiger sharks cartoon",
+    "tiger shark hawaii",
+    "tiger shark vs bull shark",
+    "tiger shark encounter",
+    "tiger shark kayak",
+    "tiger shark documentary",
+    "tiger shark vs great white"
+   ]
+  },
+  "saturation": {
+   "copies_100k": 5,
+   "channels": [
+    "Amazing Z Experiments",
+    "Dash",
+    "Drift",
+    "Novella",
+    "SHARK BYTES"
+   ],
+   "vph_median": 342.1,
+   "vph_best": 479.0,
+   "top": [
+    {
+     "title": "How to Make a Giant TIGER SHARK with Giant Coca Cola, Sprite, 7up, Pepsi, Fanta in Undergound",
+     "channel": "Amazing Z Experiments",
+     "views": 175866,
+     "age_days": 15.3,
+     "vph": 479.0,
+     "id": "hWFhQpDO9Q0"
+    },
+    {
+     "title": "The Most Incredible Shark Encounters Ever Captured on Camera",
+     "channel": "Novella",
+     "views": 439498,
+     "age_days": 51.3,
+     "vph": 357.1,
+     "id": "w_FrE0rGN_c"
+    },
+    {
+     "title": "Tiger Sharks Have Taken Over This Island (Because Of Us)",
+     "channel": "SHARK BYTES",
+     "views": 402146,
+     "age_days": 49.0,
+     "vph": 342.1,
+     "id": "y_IqR2Eoa-Q"
+    },
+    {
+     "title": "TIGER and SHARK FORBIDDEN BABY!",
+     "channel": "Drift",
+     "views": 333580,
+     "age_days": 45.1,
+     "vph": 308.4,
+     "id": "g1KE2BKJd-w"
+    },
+    {
+     "title": "I Pretended to be BABY TIGER SHARK on a One RAFT!",
+     "channel": "Dash",
+     "views": 506323,
+     "age_days": 81.2,
+     "vph": 259.7,
+     "id": "X22PEoLA1a8"
+    }
+   ]
+  }
+ },
+ "why tiger sharks eat everything": {
+  "demand": {
+   "score": 0,
+   "suggestions": []
+  },
+  "saturation": {
+   "copies_100k": 0,
+   "channels": [],
+   "vph_median": 0.1,
+   "vph_best": 3.8,
+   "top": [
+    {
+     "title": "Why Even Great Whites Never Want To Meet The Tiger Shark",
+     "channel": "Apex Files",
+     "views": 461,
+     "age_days": 5.1,
+     "vph": 3.8,
+     "id": "kam6viGqyag"
+    },
+    {
+     "title": "Why Tiger Sharks Eat Birds That Never Touch The Sea",
+     "channel": "The Deep Reason",
+     "views": 25,
+     "age_days": 1.2,
+     "vph": 0.9,
+     "id": "hi9THLWVt7g"
+    },
+    {
+     "title": "The Only Animals Sharks Refuse To Eat",
+     "channel": "Ocean Wildora",
+     "views": 78,
+     "age_days": 5.3,
+     "vph": 0.6,
+     "id": "oRTRI04aEd4"
+    },
+    {
+     "title": "Why Don’t We Eat Tiger Shark?",
+     "channel": "Habit Lantern",
+     "views": 277,
+     "age_days": 46.3,
+     "vph": 0.2,
+     "id": "wqWH5Rp2CSw"
+    },
+    {
+     "title": "Squalo Tigre Perché Mangia Prede Così Diverse  Documentario",
+     "channel": "Scenario Impossibile",
+     "views": 13,
+     "age_days": 10.0,
+     "vph": 0.1,
+     "id": "TaR3n3K3yTY"
+    }
+   ]
+  }
+ },
+ "goliath birdeater": {
+  "demand": {
+   "score": 8,
+   "suggestions": [
+    "goliath birdeater",
+    "goliath birdeater spider",
+    "goliath birdeater tarantula",
+    "goliath birdeater hissing",
+    "goliath birdeater bite",
+    "goliath birdeater pet",
+    "goliath birdeater feeding",
+    "goliath birdeater handling",
+    "goliath birdeater eating",
+    "goliath birdeater enclosure",
+    "goliath birdeater eating bird",
+    "goliath birdeater care"
+   ]
+  },
+  "saturation": {
+   "copies_100k": 3,
+   "channels": [
+    "Benny Goes Wild",
+    "MyWildBackyard",
+    "Steve Backshall"
+   ],
+   "vph_median": 78.2,
+   "vph_best": 2845.7,
+   "top": [
+    {
+     "title": "6 Spiders You Really Don't Want to Mess With",
+     "channel": "Steve Backshall",
+     "views": 1172854,
+     "age_days": 17.2,
+     "vph": 2845.7,
+     "id": "RfrGeRcJ6A4"
+    },
+    {
+     "title": "From the Most Harmless House Spider to the One That Can Bite Through Your Shoe",
+     "channel": "Benny Goes Wild",
+     "views": 615990,
+     "age_days": 39.2,
+     "vph": 655.5,
+     "id": "tffvolxtukQ"
+    },
+    {
+     "title": "The World's Largest Arachnid Isn't On Land",
+     "channel": "MyWildBackyard",
+     "views": 331495,
+     "age_days": 63.9,
+     "vph": 216.1,
+     "id": "dS3ByBWh0ew"
+    },
+    {
+     "title": "Feeding the GIANT Theraphosa collection",
+     "channel": "Dave's Little Beasties",
+     "views": 16309,
+     "age_days": 6.6,
+     "vph": 103.4,
+     "id": "U1T5UJ7Pc-M"
+    },
+    {
+     "title": "Goliath Birdeater From Birth to a New Generation #goliathbirdeater #amazon #spiderman #wildlife",
+     "channel": "Whispers-Wild",
+     "views": 10524,
+     "age_days": 8.3,
+     "vph": 53.1,
+     "id": "AdLaE_anbKc"
+    }
+   ]
+  }
+ },
+ "why goliath birdeater is terrifying": {
+  "demand": {
+   "score": 0,
+   "suggestions": []
+  },
+  "saturation": {
+   "copies_100k": 1,
+   "channels": [
+    "Lindsay Nikole"
+   ],
+   "vph_median": 30.2,
+   "vph_best": 1899.8,
+   "top": [
+    {
+     "title": "Spiders Getting Increasingly More Heinous | Lindsay Nikole",
+     "channel": "Lindsay Nikole",
+     "views": 1959969,
+     "age_days": 43.0,
+     "vph": 1899.8,
+     "id": "sd8i4Q6PFZI"
+    },
+    {
+     "title": "From the Cutest Spider to the Most Feared Spider on Earth",
+     "channel": "Facts Run",
+     "views": 3086,
+     "age_days": 4.3,
+     "vph": 30.2,
+     "id": "GvQ3cxc7GtQ"
+    },
+    {
+     "title": "SPIDERS THAT SHOULDN’T EXIST THE LAST ONE IS TERRIFYING",
+     "channel": "Dor Universe",
+     "views": 179,
+     "age_days": 21.3,
+     "vph": 0.3,
+     "id": "zgUHOrPpA5U"
+    }
+   ]
+  }
  }
 }
