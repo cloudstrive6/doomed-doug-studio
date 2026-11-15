@@ -38,3 +38,41 @@
 - Shorts (`shorts.json`, validator OK): short01 s164-s175 The Offer (Kona 1984, ~51 s), short02 s150-s160 The Swimmer (salmon taken
   back, ends "Doug is fine.", ~39 s), short03 s050-s061 The Swordfish (Lanai 2024, ~46 s). Titles are director placeholders because the
   validator requires one; the titler should replace titles and fill descriptions.
+
+## 2026-11-15, creative director: package gate (thumbnails A/B/C)
+Viewed build/thumbnail.png, thumbnail_b.png and thumbnail_c.png at 1280x720 and at 168x94 (the *_small.png files), each with
+its paired title from metadata.json `packaging.variants`. `package check --dry-run` returns OK. **There is no visual_review.md
+for 048 yet**, so this is the creative verdict only. Nothing ships until the visual screener passes all three. Thumbnails were
+not edited.
+
+- **A, "IT'S A GIFT" / "False Killer Whales Hunt Like Orcas, Then Hand Us Their Kill": APPROVED (pending screener).** I would
+  click it. It reads at feed size: yellow sky, cyan water, a black toothed whale, a bright tuna pointed at a small screaming
+  Doug. The open mouth with teeth sells "hunts like an orca", and the tuna held by its tail toward Doug sells "hand us their
+  kill". The caption adds tone and does not repeat the title. No blood, no boat (021 rule kept). The bottom-right badge area is
+  empty water. Advisory, not a blocker: the tuna is about Doug's height. A 34-45 kg yellowfin is about 1.2-1.4 m, so do not make
+  it any bigger.
+- **B, "FOR ME?" / "False Killer Whales Kill Like Orcas, Then Offer Humans Tuna": CHANGES.** At 168x94 it is the weakest of the
+  three. It is also nearly a mirror of A, so the test would mostly compare background colours.
+  1. The dark royal blue background swallows the charcoal whale at feed size. Use a clearly lighter blue (about the cyan in A
+     or one step darker), or a two-tone surface and depth split like A, so the whale's silhouette pops.
+  2. There is a black stub cut off at the right edge (x about 1270, y about 390), the remains of the tail. Either fit the whole
+     fluke in frame or crop the body cleanly with no stray shape.
+  3. Make the concept "Doug in peril" so it differs from A. Scale the whale's head up so it fills the right 55-60% of the frame,
+     mouth open, stopped about a tuna length from Doug. The upper right is currently about 40% empty blue. Keep Doug at his
+     current size with goggles. Bigger whale plus small Doug is the click.
+  4. Keep "FOR ME?" bottom-centre, clear of the duration badge (it is clear now).
+- **C, "30+ KG TUNA" / "A Dolphin That Hunts Like an Orca Offers Humans Its Kill": CHANGES.** At feed size the tuna is the hero
+  and the whale reads as a small grey fish. That undersells "hunts like an orca" and inverts the scale.
+  1. Scale. The tuna is about 1.5x Doug's height and as big as the visible whale. Per facts.md the fish is 34-45 kg (about
+     1.2-1.4 m, so about 2/3 of Doug) and the whale is up to 6 m and over a tonne. Shrink the tuna to about 2/3 of Doug's height
+     and show more of the whale so it is clearly the largest thing in frame. The "30+ KG" must not be paired with a fish that
+     looks 200 kg (packaging must not overstate the video).
+  2. The concept calls for a tag on the fish, but it is drawn as a floating banner. Run a string from the tag's hole to the
+     tuna's tail and tilt the tag a little more, so it reads as a price or luggage tag (the 047 C "200,000" tag grammar).
+  3. Show the push: add 2-3 short motion lines behind the tuna, pointed at Doug. The tuna's momentum is the joke of The Offer.
+  4. Move Doug up and left so his feet clear the bottom-right duration badge (about x 1130-1270, y 670-710). Right now his feet
+     sit in it.
+  5. Keep the hot-pink background. It is the most distinct of the three in a feed and fits the saturated-flat archetype.
+
+Next: the graphic designer applies the B and C changes. Then the visual screener reviews all three (feed size, policy, badge
+area). Then I re-review B and C. A needs no rework.

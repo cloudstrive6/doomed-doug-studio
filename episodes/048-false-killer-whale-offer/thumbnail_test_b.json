@@ -1,5 +1,5 @@
 {
- "background": "#0f5fb0",
+ "background": "#2aa8e0",
  "size": [
   1280,
   720
@@ -11,32 +11,78 @@
    "y": 0,
    "w": 1280,
    "h": 720,
-   "fill": "#0f5fb0",
-   "color": "#0f5fb0",
+   "fill": "#2aa8e0",
+   "color": "#2aa8e0",
    "width": 0,
    "outline": false
   },
   {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 150,
+   "fill": "#9be6ff",
+   "color": "#9be6ff",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     150
+    ],
+    [
+     220,
+     142
+    ],
+    [
+     440,
+     156
+    ],
+    [
+     660,
+     144
+    ],
+    [
+     880,
+     156
+    ],
+    [
+     1100,
+     144
+    ],
+    [
+     1280,
+     152
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 8
+  },
+  {
    "type": "asset",
    "name": "false_killer_whale_open",
-   "x": 940,
+   "x": 1330,
    "y": 400,
-   "scale": 1.25,
+   "scale": 2.4,
    "flip": true
   },
   {
    "type": "asset",
    "name": "yellowfin_tuna",
-   "x": 400,
+   "x": 430,
    "y": 430,
-   "scale": 0.55,
+   "scale": 0.5,
    "flip": true,
    "rotate": 8
   },
   {
    "type": "doug",
-   "x": 135,
-   "y": 420,
+   "x": 150,
+   "y": 380,
    "scale": 0.8,
    "pose": "arms_up",
    "expression": "shock",
@@ -48,7 +94,7 @@
   {
    "type": "text",
    "text": "FOR ME?",
-   "x": 640,
+   "x": 560,
    "y": 640,
    "size": 150,
    "color": "#ffe23a",

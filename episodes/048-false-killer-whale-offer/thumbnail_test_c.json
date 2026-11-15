@@ -19,36 +19,81 @@
   {
    "type": "asset",
    "name": "false_killer_whale",
-   "x": 165,
-   "y": 475,
-   "scale": 0.9
+   "x": 405,
+   "y": 450,
+   "scale": 1.2
   },
   {
    "type": "asset",
    "name": "yellowfin_tuna",
-   "x": 715,
-   "y": 470,
-   "scale": 1.05
-  },
-  {
-   "type": "doug",
-   "x": 1170,
-   "y": 560,
-   "scale": 0.8,
-   "pose": "panic1",
-   "expression": "shock",
-   "facing": "left"
+   "x": 955,
+   "y": 450,
+   "scale": 0.45,
+   "rotate": -4
   },
   {
    "type": "line",
    "points": [
     [
-     470,
+     800,
+     410
+    ],
+    [
+     842,
+     410
+    ]
+   ],
+   "color": "#000000",
+   "width": 7
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     795,
+     455
+    ],
+    [
+     842,
+     455
+    ]
+   ],
+   "color": "#000000",
+   "width": 7
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     800,
+     500
+    ],
+    [
+     842,
+     500
+    ]
+   ],
+   "color": "#000000",
+   "width": 7
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     905,
+     165
+    ],
+    [
+     935,
+     290
+    ],
+    [
+     860,
      380
     ],
     [
-     430,
-     322
+     842,
+     440
     ]
    ],
    "color": "#000000",
@@ -58,20 +103,20 @@
    "type": "poly",
    "points": [
     [
-     140,
-     120
+     230,
+     105
     ],
     [
-     1050,
-     100
+     940,
+     60
     ],
     [
-     1070,
-     290
+     960,
+     215
     ],
     [
-     160,
-     320
+     250,
+     265
     ]
    ],
    "fill": "#ffffff",
@@ -80,20 +125,29 @@
   },
   {
    "type": "ellipse",
-   "x": 180,
-   "y": 220,
-   "rx": 16,
-   "ry": 16,
+   "x": 905,
+   "y": 145,
+   "rx": 15,
+   "ry": 15,
    "fill": "#ff4fa0",
    "color": "#000000",
    "width": 5
   },
   {
+   "type": "doug",
+   "x": 1150,
+   "y": 420,
+   "scale": 0.8,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "left"
+  },
+  {
    "type": "text",
    "text": "30+ KG TUNA",
-   "x": 620,
-   "y": 210,
-   "size": 125,
+   "x": 545,
+   "y": 165,
+   "size": 92,
    "color": "#000000",
    "outline": "#000000",
    "outline_width": 2,

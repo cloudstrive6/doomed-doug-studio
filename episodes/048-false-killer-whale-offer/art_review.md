@@ -35,3 +35,26 @@ No gore, nothing cute and no smiles on any creature. Every creature is in the de
 
 ## Optional (director)
 - s169 and other short meter readings: "TO DOUG: 0 M" centred at 1622 leaves a ~70 px gap after the fin icon at 1418. Either move the label so its left edge sits about 30 px right of the icon, or move the icon to the label's left edge minus 34 (night-clock rule).
+
+---
+
+# 048 keyframe review: contact sheets 01-16 (art director, 2026-11-15)
+
+**Verdict: FAIL.** There are 8 composition fixes, all routed to the **director**. No asset fixes are needed. Re-render the listed shots and resubmit only those sheets.
+
+What passes: the style holds across all 186 frames, with the detailed creatures set against crude Doug. Doug is on-model everywhere, and the cap rule holds: exactly one cap per frame on the Beach, the cap stays in frame on all 6 death beats, and the counter runs 362 to 368 with one tick per death. The HUD (counter, plate, TO DOUG meter) is consistent and stays clear of titles and wordart. The regional water ramp darkens item by item as logged (`#3a9ad9` to `#14365e`), apart from fix 2. Text is legible and inside the safe area. There is no gore and nothing cute, and the reveals use a red rim with a dark glow underwater. Layout variety is good overall, with maps, cards, timelines, split screens and HUD scenes mixed in.
+
+## Required fixes (director)
+1. **s041 and s178: the split-screen divider runs straight through Doug** (white line at x 960, and Doug is at x 960). It reads as a skewer through his body. End the line above his head: s041 `points [[960,260],[960,800]]`, s178 `[[960,260],[960,820]]`. Alternatively, keep the line and move Doug at least 60 px to one side.
+2. **s139-s141 use `#3a9ad9` water inside The Beach.** That is item 1's colour, and it breaks the "every shot of an item stays on its item colour" rule (The Pod is `#1f5a94`, and the Beach sea band is `#1a4f80`). Recolour the water to `#1a4f80`. In s141 this is the full background. The cream sky in s139/s140 may stay as a diagram card, or switch to the Beach dusk bands. Check that the whales still read; they did on `#1f5a94`.
+3. **s142 is a duplicate of s138.** The element lists are identical (same Doug, cap, "?" and beach), and s143 is the same frame again with a title added. Recompose s142 so that it differs from both. For example, use a close-up of Doug (scale ~0.8, left third) looking down at the cap he holds with a "?", or an empty beach with the 4 km dashed line, without Doug.
+4. **s184: the yellow "IT MEANT WELL." sticky covers the field guide's coffee ring** (the field guide rule is that nothing crosses the spine or the ring). Move the sticky off the book to its right: rect x 500, y 830, w 137.5, h 68.2, with the text centred at (568.75, 864). That is clear of the book edge at x 484.
+5. **s075: Doug overlaps the last hook of row 4** (hook at x 1590-1620, y 880-920, and Doug is at x 1700). Move Doug to x 1800, or delete the hook at (1620, 880).
+6. **s133: the 4 km dashed line runs through Doug's legs and hip** (it ends at x 1800, and Doug is at x 1760, hip y 724). End the line at x 1700 so it stops at his feet.
+7. **s123: the speech-bubble tail points into the dinghy bow, not at Doug.** The bubble's lower edge also sits on the gunwale, and there is a stray dot at the tail tip. Raise the bubble about 60 px so it clears the boat, and aim the tail at Doug's mouth.
+8. **s107: the middle red arrow (930 to 1140 at y 520) passes through the mahi-costumed Doug.** Drop that arrow to y 560 under the costume tail, or raise Doug and the costume together to y 410 (move the worn prop with him).
+
+## Optional (non-blocking)
+- s097: the back-row party heads and knives come within about 20 px of the HUD plate. Lower `pizza_table_twelve` by about 50 px to give it some room.
+- s100/s101 and s124/s125 are near-identical consecutive frames: only the "?"/"!" changes, or the fins leave. Consider a small camera change (push in or reframe) on s101 and s125.
+- s161 (repeated from the earlier review): scale the death sketch to about 1.8x under "368?".
