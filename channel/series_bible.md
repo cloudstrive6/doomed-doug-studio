@@ -114,6 +114,16 @@ Browse traffic they kept .53 / .46 at 30 s. 020 opened on a concrete impossible 
 - Status: 027 is the one-variable test (memo section 4). Success is .65 or better at 30 s and .35 or better at 10%, judged on day 7, 11-05 (moved up from 11-09; growth memo 2026-11-01). If it misses, this
   section is revisited; the style-bible "item 1 second-strongest" rule stays either way.
 
+## Outro (rule added 2026-11-15, growth memo 2026-11-15)
+037 sperm whale got 1,445 views (1,411 from Browse) and **0 subscribers**; long videos gained 0 subs on 11-09..11-12. The outros
+used a comment prompt, and 036–047 have no end screen set in Studio (`end_screen_set` missing), so the 15 s end slate pointed at nothing.
+- From 048: the outro (≤30 words, after the boss kicker) is the death counter plus **one deadpan subscribe line tied to the counter**, e.g.
+  "Doug deaths: [N]. Subscribe and you can watch it go up." No comment prompt in the same line (one CTA only). The line changes every
+  episode; never beg, never "smash", never a bell.
+- Never ask before or during the items: the opening rules above and style bible writer rule 2 stay unchanged.
+- Every uploaded episode gets its Studio end screen (next video + Subscribe) set within the review window; 036–047 are backfilled first, 037 first.
+- Measure: subs gained per 1,000 long views on 048–054 vs 036–047. Revisit if still ~0 after 7 episodes.
+
 ## Series / playlists (config `youtube.playlists`)
 - `ocean`: Doug vs. the Ocean (layers, trenches, creatures by depth)
 - `parasites`: Doug vs. Parasites
