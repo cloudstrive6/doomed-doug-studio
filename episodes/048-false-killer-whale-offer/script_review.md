@@ -1,9 +1,41 @@
-# 048 script review (draft 1)
+# 048 script review (draft 2 re-screen)
 
-Script screener, 2026-11-15. Inputs: style bible (retention update 2026-10-27 first, 3.2, 3.3, section 7), series bible
-(Openings, Outro rule from 048, used-once lines), brief.md, script.md, facts.md, config `video.target_minutes`.
+Script screener, 2026-11-15. This re-screen covers the draft 1 to draft 2 diff (commit 14d7cb90): item 1's twist paragraph and three
+twist-marker lines. Nothing else changed. I re-ran the counts on the whole script.
 
-**VERDICT: FAIL** (1 fact item, a one-sentence fix. Every other gate passes. Re-screen should take minutes.)
+VERDICT: PASS
+
+| Check | Draft 2 result |
+|---|---|
+| Facts | **0 items.** Fix 1 is resolved. The one new attribution has been verified (below) |
+| Hook / opening | **9/10**, up from 8. The weak 0:19-cliff sentence is gone, and the twist now lands at word 114, down from about 131 |
+| Structure & pacing | **8/10**. Item 1 is now 219 words, and every item is still within 200 to 260 |
+| Voice & humour | **8/10**. "The ___ part" now appears only twice ("strange", "hardest"), so the skeleton no longer shows |
+| TTS readiness | Passes. No new numbers or symbols. The Lanai lexicon note still applies |
+| Policy | **0 items.** No new content that carries policy risk |
+| Length | **Passes** at 2,043 spoken words, about 10.5 min at 195 WPM (band 1,950 to 2,350). 143 sentences, average 14.3, max 30, Flesch 75.3 |
+
+### Fix 1 verification
+- The draft 2 line reads: "Scientists have also recorded false killer whales harassing sperm whales and then eating the squid that the sperm whales threw up." It is undated and makes no time-order claim, which matches Baird 2018 EMM. Facts.md line 67 now marks it **Undated**. **Resolved.**
+
+### New claim from the fold-in
+- "The nineteen ninety-six paper could not say what the attack was actually for, so its authors laid out three options: hunting, competing for food, or simple robbery." This now credits the three options to Palacios & Mate rather than to Baird. I re-extracted the text of Baird 2025 *Whalewatcher*, p.64: "Palacios and Mate (1996) reported an apparently aggressive interaction … and they discussed three possible explanations (predation, food competition, and kleptoparasitism, or food robbery). There wasn't enough evidence to conclude which option was the motivation." **OK.**
+- Advisory, not blocking: "The nineteen ninety-six paper" is the first mention of any paper. It reads fine after "scientists watched", but "Their nineteen ninety-six paper" would tie it to them more directly.
+
+### Changed twist lines
+- "Now look closely at that menu." (Swordfish), "Then, in the middle of that long life, something unusual happens." (Pod) and "The offer came with a catch." (Swimmer). None of them adds a fact, and none matches a competitor's wording. "Here's the strange part." still has no twin later in the script.
+
+### Carry-over notes for downstream (unchanged from draft 1, still advisory)
+- **Editor:** at 2,043 words, narration alone runs 9:58 at 205 WPM. **Keep the measured WPM at or below 200** so narration alone stays at 10:00 or more. Cards and holds add to the total runtime, but do not rely on them. Add "Lanai" (lah-NAH-ee) to the lexicon.
+- **Director:** the swordfish death cuts before contact. Do not draw the sperm whales as unhurt and smiling (note C). The "for me?" beat and the cap pass stay deadpan.
+- **Titler and graphic designer:** two chapter names changed, to "The Dolphin Friends" and "The Swordfish".
+- Optional: drop the day from the Mar del Plata date (note A).
+
+---
+
+# Draft 1 review (kept for the record)
+
+**Draft 1 result: did not pass** (1 fact item, a one-sentence fix. Every other gate passes. Re-screen should take minutes.)
 
 | Check | Result |
 |---|---|
