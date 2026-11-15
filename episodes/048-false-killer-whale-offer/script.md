@@ -1,6 +1,6 @@
 <!-- axis: distance to Doug, how close the false killer whale's hunting gets to him, from about a kilometer off (the sperm whale fight) to zero (the tuna lands on him); distances are staging values on the date card, never spoken -->
 
-# 048: Why the False Killer Whale Hunts Like an Orca, Then Offers Its Kill to Humans (draft 1)
+# 048: Why the False Killer Whale Hunts Like an Orca, Then Offers Its Kill to Humans (draft 2)
 
 [Thumbnail held 1.5 s: one black false killer whale holding a big tuna out toward tiny Doug in the water. Then cut. DOUG DEATHS: 362 beside DOUG'S PLATE, an empty white plate with a knife and fork. Staging only, never read aloud.]
 
@@ -20,9 +20,7 @@ The attackers were false killer whales, and despite the name, they are not orcas
 
 A big male can reach six meters and weigh about one and a third tonnes. A female sperm whale can be about twelve meters long, the length of a city bus, and weigh around thirteen tonnes.
 
-Two researchers published the encounter in nineteen ninety-six, and the word they put in the title was attack.
-
-Here's the strange part. Nobody could say what the attack was actually for, so the researchers laid out three options: hunting, competing for food, or simple robbery. Since then, false killer whales have been recorded harassing sperm whales and then eating the squid that the sperm whales threw up.
+Here's the strange part. The nineteen ninety-six paper could not say what the attack was actually for, so its authors laid out three options: hunting, competing for food, or simple robbery. Scientists have also recorded false killer whales harassing sperm whales and then eating the squid that the sperm whales threw up.
 
 There is no evidence that any sperm whale died. They were not after the whale. They were after its lunch.
 
@@ -74,7 +72,7 @@ Around the main Hawaiian Islands, scientists have watched them take ten differen
 
 They do not only hunt at the surface, either. Satellite tags on Hawaiian false killer whales have recorded dives deeper than twelve hundred meters, and prey caught down there gets carried back up to the surface. Every so often, one of them hurls a fish clear of the water.
 
-The unsettling part is the menu itself. Tuna, swordfish, mahi-mahi and wahoo are the same fish that people catch, sell and order for dinner, so this whale is not mainly competing with sharks for its food. It is competing with us.
+Now look closely at that menu. Tuna, swordfish, mahi-mahi and wahoo are the same fish that people catch, sell and order for dinner, so this whale is not mainly competing with sharks for its food. It is competing with us.
 
 [Doug in the water, a measuring tape stretched out, labelled BAIT FOR SCALE.]
 
@@ -148,7 +146,7 @@ These are not passing groups. The whales around the main Hawaiian Islands belong
 
 They also live a long time. Females can reach their early sixties, males have been aged at up to fifty-eight, and a mother usually waits six or seven years between calves.
 
-The odd part is what happens in the middle of that long life. Females stop having calves in their early forties, and then keep living for roughly another twenty years. They are still in the group, still part of the hunt, and still part of the share.
+Then, in the middle of that long life, something unusual happens. Females stop having calves in their early forties, and then keep living for roughly another twenty years. They are still in the group, still part of the hunt, and still part of the share.
 
 [Doug in a dinghy, waving. Bubble: "hi friends?". The pod passes without turning.]
 
@@ -190,7 +188,7 @@ They often approach boats to ride the bow wave, and they tend to be openly curio
 
 In British Columbia and Washington, a lone false killer whale, far from where its kind usually lives, repeatedly caught large salmon and offered them to people on boats. In Hawaii, they have offered fish to snorkelers and divers too.
 
-The weird part is how it made the offer. According to Baird's account, the whale would let the salmon go right beside the boat, and then grab it back as soon as it started to sink. It was a gift with a very short time limit.
+The offer came with a catch. According to Baird's account, the whale would let the salmon go right beside the boat, and then grab it back as soon as it started to sink. It was a gift with a very short time limit.
 
 [Field guide page. The narrator's hand pencils "MAYBE" under the NO.]
 
@@ -232,4 +230,4 @@ The cap has been shared. Everyone got a turn.
 
 Doug deaths: three hundred and sixty-eight. Subscribe, and you will be here when it reaches three hundred and sixty-nine.
 
-<!-- words: 2064 (spoken narration incl. opening and outro; ~10.6 min at 195 wpm; 144 sentences, avg 14.33, max 30; Flesch 75.4; "The Sperm Whales." at words 33-35; item 1 twist at word ~131; draft 1) -->
+<!-- words: 2043 (spoken narration incl. opening and outro; ~10.5 min at 195 wpm; "The Sperm Whales." at words 33-35; item 1 twist at word ~113; draft 2: 1996 background sentence folded into the twist, "Since then" made undated, three twist markers varied) -->

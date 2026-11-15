@@ -55,6 +55,7 @@ voice:                       # Google Cloud TTS, Chirp 3: HD
     - {phrase: "Beebe", ipa: "ˈbiːbi"}
     - {phrase: "Guiana", ipa: "ɡiˈɑːnə"}
     - {phrase: "yedoma", ipa: "ˈjɛdoʊmə"}
+    - {phrase: "Lanai", ipa: "lɑˈnɑi"}
   fallback_wpm: 197          # only used for dry runs without an API key
 
 video:

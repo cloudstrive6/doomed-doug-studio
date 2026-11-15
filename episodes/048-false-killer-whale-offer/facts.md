@@ -1,4 +1,4 @@
-# 048 facts (draft 1)
+# 048 facts (draft 2)
 
 Every spoken claim in script.md maps to a source here. Tags: **Fetched** = page/PDF read directly (PDFs text-extracted);
 **Search** = confirmed from search-result text only (weaker; screener may want to re-fetch). **NEWS-ONLY** = the specific detail
@@ -60,11 +60,11 @@ Not used: Towers et al. 2025 (orcas offering prey) and the Costa Rica 2023 dive 
 - Male up to six meters, about one and a third tonnes: NOAA, males "20 feet", adults "up to about 3,000 pounds" (Fetched); Baird 2018 EMM longest recorded male 5.96 m (Fetched).
 - Female sperm whale about twelve meters, around thirteen tonnes: NOAA sperm whale page "40 feet (females)", "15 tons (females)" (Fetched). 40 ft = 12.2 m.
 - City bus analogy: a standard transit bus is 35-40 ft, about 11-12 m. https://en.wikipedia.org/wiki/Transit_bus (Search); 40-ft class = 12.2 m, National Academies https://nap.nationalacademies.org/read/21947/chapter/8 (Search).
-- Published 1996, "attack" in the title: Palacios & Mate 1996 above.
+- "The nineteen ninety-six paper" (draft 2 folds the year into the twist; the "attack in the title" line is cut): Palacios & Mate 1996 above.
 - Three options (predation, food competition, kleptoparasitism/"food robbery"); "no evidence that any sperm whales were actually killed": Baird, R.W. (2025). "False killer whales are
   dolphin predators? Not so fast..." *Whalewatcher* 45(1): 63-65, American Cetacean Society. https://cascadiaresearch.org/files/Baird_2025_Pseudorca-dolphin-predators_Whalewatcher.pdf (Fetched)
 - Harassing sperm whales and eating squid the sperm whales regurgitated: Baird 2018 EMM, "documented harassing sperm whales, most likely as a form of kleptoparasitism, feeding on
-  squid that the sperm whales regurgitated." (Fetched). Script: "They were after its lunch" is the narrator's summary of kleptoparasitism.
+  squid that the sperm whales regurgitated." (Fetched). **Undated**: the source gives no date or place for these observations and does not place them after 1996, so the script says "Scientists have also recorded" with no time order (draft 1's "Since then" removed per script_review fix 1). Script: "They were after its lunch" is the narrator's summary of kleptoparasitism.
 - Doug beat callback to 037 (one line, allowed by brief).
 
 ## 2. The Dolphin Friends
@@ -130,8 +130,8 @@ Not used: Towers et al. 2025 (orcas offering prey) and the Costa Rica 2023 dive 
 - "Roughly another twenty years": early 40s to early 60s. Writer's arithmetic.
 
 ## 7. The Beach (sober card)
-- 10 October 1946, estimated 835 stranded near Mar del Plata, Argentina, largest known mass stranding of the species: Baird 2009 MMC review citing Marelli 1953 (Fetched); Baird 2018 EMM "largest mass stranding
-  recorded involving an estimated 835 individuals" (Fetched). Date varies in press (9 or 10 October); script uses the MMC review's 10 October.
+- 10 October 1946 (some sources say the ninth), estimated 835 stranded near Mar del Plata, Argentina, largest known mass stranding of the species: Baird 2009 MMC review citing Marelli 1953 (Fetched); Baird 2018 EMM "largest mass stranding
+  recorded involving an estimated 835 individuals" (Fetched). Date: 10 October 1946 per the 2009 MMC review and La Capital; Wikipedia and most press say 9 October. Script and date card use the tenth; if challenged, the answer is "10 October 1946 (some sources say the ninth)".
 - Stranded groups larger than groups seen at sea: Baird 2009 MMC review, "group sizes from strandings were significantly larger (Ferreira 2008)" (Fetched).
 - "Roughly four kilometers" nose to tail: 835 x about 4.5-6 m adult length (NOAA 16-20 ft) = 3.8-5.0 km. Writer's calculation.
 - Described 1846 by Owen from a subfossil skull from the Lincolnshire Fens near Stamford: https://en.wikipedia.org/wiki/False_killer_whale citing Owen 1846, *A History of British Fossil Mammals and Birds*,
