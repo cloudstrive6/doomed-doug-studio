@@ -1,0 +1,108 @@
+{
+ "background": "#12b8d8",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#12b8d8",
+   "color": "#12b8d8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 290,
+   "fill": "#ffd21a",
+   "color": "#ffd21a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "asset",
+   "name": "false_killer_whale_tuna",
+   "x": 300,
+   "y": 470,
+   "scale": 1.3,
+   "rotate": -6
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     290
+    ],
+    [
+     200,
+     282
+    ],
+    [
+     420,
+     296
+    ],
+    [
+     640,
+     284
+    ],
+    [
+     860,
+     296
+    ],
+    [
+     1060,
+     284
+    ],
+    [
+     1280,
+     292
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 8
+  },
+  {
+   "type": "doug",
+   "x": 1140,
+   "y": 400,
+   "scale": 0.7,
+   "pose": "arms_up",
+   "expression": "shock",
+   "facing": "left"
+  },
+  {
+   "type": "ellipse",
+   "x": 1140,
+   "y": 292,
+   "rx": 70,
+   "ry": 10,
+   "fill": null,
+   "color": "#ffffff",
+   "width": 5
+  },
+  {
+   "type": "text",
+   "text": "IT'S A GIFT",
+   "x": 510,
+   "y": 150,
+   "size": 140,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1240,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

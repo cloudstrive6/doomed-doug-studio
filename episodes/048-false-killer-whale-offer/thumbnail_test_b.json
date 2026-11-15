@@ -1,0 +1,64 @@
+{
+ "background": "#0f5fb0",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#0f5fb0",
+   "color": "#0f5fb0",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "asset",
+   "name": "false_killer_whale_open",
+   "x": 940,
+   "y": 400,
+   "scale": 1.25,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "yellowfin_tuna",
+   "x": 400,
+   "y": 430,
+   "scale": 0.55,
+   "flip": true,
+   "rotate": 8
+  },
+  {
+   "type": "doug",
+   "x": 135,
+   "y": 420,
+   "scale": 0.8,
+   "pose": "arms_up",
+   "expression": "shock",
+   "facing": "right",
+   "gear": [
+    "mask"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "FOR ME?",
+   "x": 640,
+   "y": 640,
+   "size": 150,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1240,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
