@@ -72,3 +72,25 @@ and are still sourced and delivered.
   PASS with polish notes only, this approval stands and the package doesn't need to come back to me. If it is a FAIL, the package comes back
   to me after the fixes.
 - 2026-11-16 showrunner: script 3 rounds (writer/screener, CD approved), art 3 rounds (art-director+visual-screener), thumbnails 2 rounds (C redesigned). Risks: title numbers per 1995 NYT (kill count varies by source, 5k-25k in ABJ); Japan deaths stated as 'about 20/yr'; short03 title near-duplicates alt title B. Mistake: stage briefly set to packaged early and reverted to art_approved.
+
+## 2026-11-16, creative director: final package approval
+I reviewed the title, thumbnail A (`build/thumbnail.png`), the description and tags in `metadata.json`, `build/chapters.txt`, the opening of
+`script.md`, samples f_001-f_002, and the post-render report in `visual_review.md`. Thumbnails and Shorts got a PASS. The main video's only FAIL
+is the counter clipping in 5 shots. That is a render issue, not a packaging one. I checked `shotlist.json`: s006/s011/s041/s110/s176 now have
+`camera.x` 960, and `.rerender` lists final + shorts. The visual screener still has to re-check those 5 last frames in the new `final.mp4` before
+upload.
+- **Title: keep "Why 30 Giant Hornets Can Kill 30,000 Bees in an Afternoon".** It is sourced (NYT 1995: 20-30 hornets, 30,000 bees, 3 h) and the
+  first spoken line delivers it, in under 20 words. None of the alt titles is clearly stronger. "40 Bees a Minute" is the B test arm and nearly
+  duplicates short03's title, so it can't be the primary.
+- **Thumbnail A:** one focal point (jaws), the hornet reads as a hornet at feed size, the bees are whole and X-eyed with no gore, and Doug's
+  scream gives the scale. It doesn't repeat the title's numbers. It is also the s001 opening image. I'd click.
+- **First 60 s:** the thumbnail is held 1.5 s, then the promise and the payoff line (the Washington tree, ~200 queens). "The Hunter." lands at
+  words 34-35. Item 1's twist (the hornet doesn't eat the bee; the larvae feed the adults) comes well within 45 s. f_002 (larva cells,
+  confused Doug) is clean.
+- **Description:** the first two lines restate the hook with no overpromise. The sources are listed, the AI-use and cartoon-death disclaimers
+  are present, there are 3 hashtags, and it says nothing for kids. **Chapters:** 10 entries starting at 0:00, each ≥10 s, and the last one
+  (9:32) falls inside the 11:20 runtime. Camera-only fixes don't change the timing, so the chapters stay valid after the re-render.
+- `validate metadata` and `validate packaging`: OK. Playlist `animals`, so 050 must leave `animals` (brief decision).
+- Series bible: deaths 369-374 are logged when the episode ships, as decided at script approval.
+FINAL: APPROVED
+- 2026-11-16 showrunner final review round 1: visual VERDICT (main) FAIL (DOUG DEATHS counter clipped in s006,s011,s041,s110,s176); camera.x set to 960; .rerender final+shorts requested. Shorts PASS. CD package approved. Stage left unchanged pending round 2.

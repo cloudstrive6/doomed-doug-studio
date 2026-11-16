@@ -181,3 +181,62 @@ I viewed the revised `build/thumbnail.png`, `thumbnail_c.png` and their `_small`
 
 **s001 check: OK.** `shotlist.json` s001 ("Twenty or thirty giant hornets") is `scene_ref: "thumbnail"`, which
 resolves to the revised `thumbnail.json` (variant A), so the video opens on the new A image.
+
+### Post-render check (2026-11-16)
+
+VERDICT (main): FAIL
+VERDICT (shorts): PASS
+
+I viewed all 23 samples in `build/samples/` (one every 30 s, starting at 15 s, through 680.5 s; `qc.json` reports 0
+problems) and the last frame of every shot that zooms in off centre, pulled from `final.mp4`. I also viewed the
+thumbnails A/B/C with their `_small` versions, `metadata.json`, and the three Shorts (preview png plus 7 frames each
+from the mp4).
+
+**Main video: clean except for one repeated framing bug.**
+- No black, blank, frozen or glitched frames. Text in the samples is spelled right and legible. Doug is on-model in
+  every sample (red cap, white head, bee costume through the bee chapters and plain after s131). Drawings read
+  clearly: hornet side and front views, the hive, the heat ball, the larva cells, the maps, the tree and nest
+  cut-away. The deaths are cartoon only, with no blood or parts. Nothing reads as a kids' show. The s145
+  "SHAANXI, CHINA, 2013" card looks empty in f_016, but that is only the reveal timing; "42 DEAD" and "STATE NEWS
+  AGENCY" are on screen by the end of the shot. The end slate is clean.
+- **Defect: the death counter is cropped off the right edge in 5 shots.** Each of these shots uses a `zoom_in`
+  camera centred left of x = 960. By the end of the zoom, the "DOUG DEATHS: N" label (x = 1590) is pushed past
+  1920, so the running gag's number is cut off. I confirmed each one on the final frame of the shot:
+  - s006: shows "DOUG DEATHS: 36" (sample f_001)
+  - s011: shows "DOUG DEATHS: 36"
+  - s041: the last digit of "369" is cut in half
+  - s110: shows "DOUG DEATHS: 37"
+  - s176: shows "DOUG DEATHS: 37", and "TARGET: NORTH AMERICA" is clipped at the edge
+  - s184 and s199 (x 960, zoom 1.1), s029 and s061 (zoom 1.06), and all other zoom shots keep the counter fully
+    in frame.
+
+**Thumbnails: PASS (unchanged since round 2).** A "ONE BY ONE", B "IT BRINGS FRIENDS" and C "BABY FOOD" each still
+have one focal point. Doug and the hornet are obvious at 168 px and the text is legible. They match the title "Why
+30 Giant Hornets Can Kill 30,000 Bees in an Afternoon", and none of them is misleading. There is no gore (whole bees
+with X eyes, and a bundle with no parts).
+
+**Shorts: PASS.**
+- short01 "Japanese Honeybees Can Cook a Giant Hornet Alive" (56.3 s), short02 "A Tree in Washington Was Hiding a
+  Nest Full of Hornet Queens" (54.1 s) and short03 "One Giant Hornet Can Kill Up to 40 Bees a Minute" (45.6 s) all
+  pass the same checks.
+- The title band is legible and nothing is cut off at the sides. Subtitles are large, white and legible.
+- None of the 5 cropped shots appears in a Short: the ranges are s093-s107, s175-s187 with the s178 hook, and
+  s049-s059. s176 is inside short02's range, but the counter was fully visible in every short02 frame I pulled.
+  Re-check short02 after fix 5 anyway.
+- Each Short pays off its title before the outro: the heat ball at 46 C vs the 50 C limit, the tree with 85 hornets
+  vacuumed out and 108 capped cells, and the mass attack with 30,000 bees.
+- The end card "FULL VIDEO: TAP BELOW" has a red arrow pointing straight down, and there is no "???" teaser.
+- Optional polish, not blocking: in short03's s058-s059 frame, the "30,000 BEES" label sits under the row of hornets
+  rather than next to the small bees, so for a moment it reads as labelling the hornets.
+
+**Required fixes (director, shotlist.json camera only; then re-render the affected shots and the final):**
+1. s006: change `camera.x` from 860 to 960, keeping `y` and `zoom`. Otherwise set `zoom` to 1.03.
+2. s011: change `camera.x` from 820 to 960.
+3. s041: change `camera.x` from 900 to 960.
+4. s110: change `camera.x` from 850 to 960.
+5. s176: change `camera.x` from 860 to 960.
+   - s038 already uses x 960 at zoom 1.08 and keeps the counter in frame, so x 960 is known to be safe.
+   - Rule for the editor and director: any `zoom_in` with zoom ≥ 1.06 must have `camera.x` ≥ 940 whenever the
+     death counter is on screen.
+
+Re-check needed: the last frame of s006, s011, s041, s110 and s176 in the new `final.mp4`.

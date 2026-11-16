@@ -44,7 +44,12 @@
       "stage": "packaged",
       "at": "2026-11-16T18:21:45+00:00",
       "note": "all gates passed; narration 11.4 min"
+    },
+    {
+      "stage": "built",
+      "at": "2026-11-16T18:29:36+00:00",
+      "note": "final render"
     }
   ],
-  "stage": "packaged"
+  "stage": "built"
 }
