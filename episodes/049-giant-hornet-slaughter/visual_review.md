@@ -152,3 +152,32 @@ versions, checked against the variant titles in `metadata.json` > `packaging.var
   the title ("Feed Their Young" leads to "BABY FOOD").
 
 Re-check needed: C only, after fixes 1-3.
+
+### Thumbnails re-check, round 2 (2026-11-16)
+
+VERDICT: PASS (A, B, C)
+
+I viewed the revised `build/thumbnail.png`, `thumbnail_c.png` and their `_small` versions, all re-rendered at
+18:16 from `thumbnail.json` and `thumbnail_test_c.json`. I also looked at B again.
+
+- **A "ONE BY ONE": PASS, polish applied.** The striped abdomen now shows behind the head-on hornet, and the
+  head has dark eye lobes and black toothed mandibles. At 168 px it reads as a hornet, not a fly or a
+  bumblebee, and it is still the one focal point. Doug (red cap, white head, bee costume) reads at the edge of
+  the pile. The dead bees are whole with X eyes, and there is no gore. The wordart is legible at feed size.
+  Drawings that run off the frame edge are bees and the abdomen tip, not text.
+- **B "IT BRINGS FRIENDS": PASS, unchanged.** It is still the clearest of the three.
+- **C "BABY FOOD": PASS, all 3 fixes done.**
+  1. The text margin is fixed. The yellow fill ends at x = 1204 and the outline at about 1215, which leaves a
+     margin of about 60 px. Nothing is cropped.
+  2. The larvae now read as grubs. They are segmented white bodies coming out of hex cells, with dark
+     open-jawed heads turned up toward the hornet. They look hungry and grim, not like eggs or dumplings, and
+     they have no eyes or smiles.
+  3. The bundle now hangs below and in front of the mandibles, with background showing between it and the
+     head, so it no longer merges with the head. It is a single round striped wad with no parts and no blood.
+  - The new dark nest-wall/comb setting also removes the hot-pink nursery risk.
+  - Polish (graphic designer, optional): at 168 px the hornet's dark thorax blends into the dark brown wall,
+    and Doug at the far right is small. A lighter rim or a 2 px pale outline on the thorax, or moving Doug
+    about 40 px inward and scaling him up about 15%, would sharpen it. This does not block.
+
+**s001 check: OK.** `shotlist.json` s001 ("Twenty or thirty giant hornets") is `scene_ref: "thumbnail"`, which
+resolves to the revised `thumbnail.json` (variant A), so the video opens on the new A image.
