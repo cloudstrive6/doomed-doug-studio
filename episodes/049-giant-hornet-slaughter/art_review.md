@@ -1,6 +1,42 @@
-# 049 art review (art director, 2026-11-16)
+# 049 art review
 
-## Verdict: FAIL (assets PASS, keyframes FAIL on composition)
+## Round 2 (art director, 2026-11-16): FAIL (1 fix, s066 only)
+
+I re-checked the r2 render: every changed shot on the contact sheets, plus full-size frames of s003, s061, s065, s066, s116, s152, s158 and s191. Items 2-7 are fixed. Item 1 is fixed in s065 but not in s066.
+Once s066 is re-rendered with the fix below, this round is a PASS. I only need to see s066 again, not the full set.
+
+### Required fix (director)
+1. **s066: the narrator's sleeve stops short of the left edge.** `narrator_hand` at (875, 860), scale 0.8, rotate -40: the grey sleeve
+   ends at about x 60, so a cut-off arm floats in mid-frame. The art bible says the hand enters from a side edge. In s065 the same
+   hand at x 820 runs off the frame correctly. Move it to about x 815 (keep y 860) or raise the scale to 0.9 so the sleeve runs past x 0.
+   Keep the glove on Doug's costume and clear of "EVEN UP".
+
+### Round-1 items checked
+- 1 Narrator hand: s065 PASS (arm comes in from the left edge, horizontal, below y 700, clear of "BEE COSTUME"). s066: see fix 1.
+- 2 Counter zone: PASS. s116 "BEEKEEPER'S SUIT" now sits at y 340 on the fabric strip, below the meter. s074 "FAT" ends about x 1240, clear
+  of the target icon. s195 "HALF" glyph tops are now below y 290.
+- 3 Map frames: PASS. s154 map is smaller and lower, and the header is in clear navy. s158 map is raised, and "FIRST TIME" sits clear below
+  the frame.
+- 4 Composition runs: PASS. s029 is a cream diagram (red circle at the abdomen tip, GLAND label, scent puffs). s030/s031 are wide
+  tree-to-hive scent-ribbon shots, and s031 adds hornets following the ribbon. The longest hive-centre run is now 2 (s032-s033). In s058-s063,
+  s061 is a front-on hornet close-up flicking a bee aside, and s062 is a low ground-level shot with the hive small in the background.
+  Both runs are broken.
+- 5 Costume continuity: PASS. The bee costume is on in all listed shots (s007, s012, s013, s019, s020, s034-s037, s050, s053-s056,
+  s081-s083, s085-s087, s094, s105-s107). s088 crouch reads. Doug is plain only in s003 and s064, as intended. Cap and face are clear in every shot.
+- 6 Pre-dawn legs: PASS. s003, s191 and s192 have a `#3a4a40` torch pool, and the legs read clearly. In s003/s191 the hand still meets the right half's cut edge.
+- 7 Zone colour: PASS. s152/s153 are sober `#15181a`, and the navy starts at s154. The ASIA / 2019 labels sit inside the map, so that is fine.
+- The zipper on `bee_costume_flat` / `hornet_costume_flat` reads as an empty suit in s068, s111, s112 and s131 at contact-sheet size.
+- Recommended 8 (s199 radio tag): taken, and the cap and tag now read. Recommended 10 (s091 glow) was not taken. It still passes as a silhouette tease.
+- Style is consistent across the set, Doug is on-model, nothing is gory, and all text is inside the safe area.
+
+### Not mine (unchanged)
+- s001 still shows "(thumbnail pending)" (graphic designer).
+
+---
+
+## Round 1 (art director, 2026-11-16)
+
+### Verdict: FAIL (assets PASS, keyframes FAIL on composition)
 
 The new library drawings are good and approved. The keyframes are on-style, the zone ramp is coherent (it is now in the art bible
 as the "insect-raid afternoon to pre-dawn" ramp), and nothing is gory. Doug is on-model and the cap shows in every shot. The TARGET HUD
@@ -8,7 +44,7 @@ icon reads at 40 px. The fixes below are layout-rule breaks (narrator hand, coun
 two runs of near-identical hive compositions, and costume continuity. They are all director fixes in `build/gen_shotlist.py`. Re-render
 only the listed shots, then send them back to me.
 
-## Assets (all new files in commit 79642ab): PASS
+### Assets (all new files in commit 79642ab): PASS
 Previews: `assets/previews/049-giant-hornet-slaughter-assets.png`, `049-giant-hornet-slaughter-places.png`, `049-b1.png`.
 - Two-tier rendering is correct. Creatures, props and places are the detailed tier (layered fills, spray shading, outlines 3-5).
   `hiker`, `hornet_crew_member` and `gloved_hand` are crude tier. The costumes keep Doug's face and cap clear in every pose (checked in
@@ -22,7 +58,7 @@ Previews: `assets/previews/049-giant-hornet-slaughter-assets.png`, `049-giant-ho
   s131 pick this up on re-render; nothing else changes). The illustrator can refresh the preview sheet whenever convenient.
 - Note for later: `honeybee_dead` is slimmer than the "round and chunky" spec. The X eyes still read at 0.26-0.32 (s002, s052), so it passes.
 
-## Keyframes: FAIL. Required fixes (director)
+### Keyframes: FAIL. Required fixes (director)
 1. **Narrator hand enters through the top edge (s065, s066).** `narrator_hand` at (1000, 500) and (1010, 620), flipped, scale 0.9-1.0: the
    arm comes down from the top-left corner. Art bible rule: it enters from a **side** edge below y 120. Bring it in from the left edge
    (arm horizontal or angled up from below about y 400), and keep it clear of the "BEE COSTUME" / "EVEN UP" wordart.
@@ -55,7 +91,7 @@ Previews: `assets/previews/049-giant-hornet-slaughter-assets.png`, `049-giant-ho
 7. **Zone colour (s152, s153).** These two shots are captioned THE TOLL but already use the Hitchhiker navy `#1b2f5a`. Keep them on the sober
    `#15181a` until the "ONE CONTINENT." card (s154). The art bible says every shot of an item stays on its item colour.
 
-## Recommended (not blocking)
+### Recommended (not blocking)
 8. s199 (closing image): the radio tag on the cap is about 10 px at `doug_cap_radio_tag` scale 0.6, which is the kicker's whole joke. Raise
    it to 0.9-1.0 (cap centre about (960, 630)), or add a small label "RADIO TAG" left of the hollow.
 9. s142: four tile captions (GIANT HORNET / HORNET / WASP / BEE) exceed the 2-label cap. I accept them as a legend row on a sober card. If
@@ -65,11 +101,11 @@ Previews: `assets/previews/049-giant-hornet-slaughter-assets.png`, `049-giant-ho
 11. Wordart bottoms in s101, s162 and s197 land at about y 1030. They are inside the safe area, but only just. Raise them by 20 px when
     re-rendering nearby shots.
 
-## Not mine
+### Not mine
 - s001 shows "(thumbnail pending)". The graphic designer owns the thumbnail and opening image (brief section 1: huge hornet over an X-eyed
   bee pile, tiny Doug in the bee costume, no gore).
 
-## Re-render list
+### Re-render list
 s003, s007, s012, s013, s019, s020, s029, s030, s031, s034-s037, s050, s053-s056, s061, s062, s065, s066, s068, s074, s081-s083,
 s085-s087, s094, s105-s107, s111, s112, s116, s131, s152, s153, s154, s158, s191, s192, s195 (plus s091 and s199 if you take the
 recommendations).

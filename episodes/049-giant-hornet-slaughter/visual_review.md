@@ -68,3 +68,46 @@ things block the render.
 - Death beats (s022-s024, s068, s110-s112, s134-s135, s193, s199) are clear and cartoonish, with no blood
   or exposed anatomy.
 - The endslate has the next-video placeholder and the subscribe circle. Nothing is teased or withheld.
+
+## Round 2: pre-render keyframes after fixes (2026-11-16)
+
+Scope: all 17 contact sheets again (s001-s202 + endslate), and every shot that changed since round 1. The
+shotlist diff shows 52 changed shots. Full-size checks: s003, s053, s085, s121, s158, s166, s172, s197, s199.
+I did not review the thumbnail (s001 placeholder), as instructed. It is still pending with the graphic designer.
+
+VERDICT: PASS
+
+### Round 1 items
+1. **s158: fixed.** The red dot sits on the BC/Washington coast where the 49th parallel meets the Pacific,
+   with the "!" beside it. At whole-continent scale that reads as the Vancouver Island area and matches
+   s156/s157. "FIRST TIME" now sits fully below the map frame.
+2. **s003: fixed.** "200 QUEENS" clears the split tree completely, and the floating "?" is gone. Doug's legs
+   now read on the torch-light pool, and his hand reaches the right plank.
+3. **s172: fixed.** The hornet flies off past the booth with a dashed flight path from Doug's body, so the
+   death has a visible cause and "Hornets don't carry passports" lands.
+4. **s001: thumbnail still pending.** Out of scope for this round. It must be in place before the final render.
+5. **s028-s033 variety: fixed.** s029 is now a gland close-up on cream with no hive, and s030/s031 are wide
+   tree-to-hive scent trails. The run is broken up.
+6. **s147-s150 variety: fixed.** s148 adds the blamed hornet, and s149 is the year bar chart (USUAL vs a tall
+   red 2013 with "?"). It reads instantly and keeps the sober tone.
+7. **s051-s052: fixed.** The hornet grid clears the hive lid in both shots.
+8. **s191: fixed.** The "for science" tail now points at Doug's head.
+9. **s121: fixed.** The stinger is drawn as a barbed shaft with a torn base, linked to the bee by a dashed
+   line and labelled STINGER. It reads.
+10. **Costume continuity: fixed.** Doug stays in the bee costume on the cream diagram cards (s007, s012, s013,
+    s019, s020, s034-s037, s050, s053-s056, s081-s087, s094, s105-s107). He is plain only in s003 and the
+    s064 flashback, as the brief intends.
+
+### Other changed shots, checked and OK
+- s091: the heat-ball tease glow now shows on the purple. s152/s153 are on the sober Toll background.
+  s142 is down to two labels. s199: the radio tag on the cap is now large and readable, so the kicker lands.
+- Death counter still correct: 368 > 369 (s022) > 370 (s068) > 371 (s111) > 372 (s134) > 373 (s172) >
+  374 (s193).
+- No new text collisions, cropping, gore or kid-show framing. No run of 4 or more near-identical
+  compositions remains.
+
+### Polish (optional, non-blocking)
+- s053 (director): the left edge of "30,000 TO 50,000" touches the hive lid at about x 905. Nudge the
+  wordart right by about 40 px if s053 gets re-rendered for any other reason.
+- s197 / s166 (director): the bottom of the wordart sits at about y 1005-1025. That is inside the safe
+  area, but still low. The art director's "raise by 20 px" note was not applied. Optional.
