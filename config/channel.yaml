@@ -38,6 +38,9 @@ voice:                       # Google Cloud TTS, Chirp 3: HD
     - {phrase: "Whangarei", ipa: "ˌfɑŋɑˈreɪ"}
     - {phrase: "Orde-Lees", ipa: "ˈɔrd ˈliz"}
     - {phrase: "Shirreff", ipa: "ˈʃɪrɪf"}
+    - {phrase: "Nanaimo", ipa: "nəˈnaɪmoʊ"}
+    - {phrase: "Shaanxi", ipa: "ʃɑnˈʃi"}
+    - {phrase: "Riken", ipa: "ˈrikɛn"}
     - {phrase: "Deinocroton", ipa: "ˈdaɪnoʊˈkroʊtɒn"}
     - {phrase: "Xiaophis", ipa: "ˈʃaʊˈoʊfɪs"}
     - {phrase: "Oculudentavis", ipa: "ˈɒkjʊluˈdɛntˈeɪvɪs"}

@@ -5530,7 +5530,6 @@
   {
    "id": "s042",
    "narration": "and Doug said the only thing he ever says to things that are about to kill him.",
-   "hold": 0.6,
    "scene": {
     "background": "#ffffff",
     "elements": [
@@ -14012,7 +14011,7 @@
      },
      {
       "type": "wordart",
-      "text": "46°C",
+      "text": "46\u00b0C",
       "x": 1400,
       "y": 960,
       "size": 110,
@@ -14121,7 +14120,7 @@
      },
      {
       "type": "label",
-      "text": "NEVER ABOVE 40°C",
+      "text": "NEVER ABOVE 40\u00b0C",
       "x": 900,
       "y": 380,
       "size": 52,
@@ -14233,7 +14232,7 @@
      },
      {
       "type": "label",
-      "text": "40°C",
+      "text": "40\u00b0C",
       "x": 520,
       "y": 480,
       "size": 52,
@@ -14257,7 +14256,7 @@
      },
      {
       "type": "label",
-      "text": "46°C",
+      "text": "46\u00b0C",
       "x": 1250,
       "y": 340,
       "size": 52,
@@ -14757,7 +14756,7 @@
      },
      {
       "type": "label",
-      "text": "46°C",
+      "text": "46\u00b0C",
       "x": 600,
       "y": 900,
       "size": 52,
@@ -14784,7 +14783,7 @@
      },
      {
       "type": "label",
-      "text": "50°C",
+      "text": "50\u00b0C",
       "x": 1300,
       "y": 900,
       "size": 52,
@@ -14868,7 +14867,7 @@
      },
      {
       "type": "label",
-      "text": "46°C",
+      "text": "46\u00b0C",
       "x": 600,
       "y": 900,
       "size": 52,
@@ -14885,7 +14884,7 @@
      },
      {
       "type": "label",
-      "text": "50°C",
+      "text": "50\u00b0C",
       "x": 1300,
       "y": 900,
       "size": 52,
@@ -22046,6 +22045,24 @@
       ],
       "color": "#e0201b",
       "width": 12
+     },
+     {
+      "type": "wordart",
+      "text": "2022",
+      "x": 1450,
+      "y": 380,
+      "size": 96,
+      "boil": 0.4,
+      "appear": 0.2
+     },
+     {
+      "type": "wordart",
+      "text": "RENAMED",
+      "x": 400,
+      "y": 330,
+      "size": 80,
+      "boil": 0.4,
+      "appear": 0.4
      },
      {
       "type": "label",

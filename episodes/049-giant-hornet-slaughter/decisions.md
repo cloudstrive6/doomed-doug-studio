@@ -71,3 +71,4 @@ and are still sourced and delivered.
   must re-check A and C (feed size, crop, policy) and record PASS in `visual_review.md` before the stage moves to `packaged`. If the result is a
   PASS with polish notes only, this approval stands and the package doesn't need to come back to me. If it is a FAIL, the package comes back
   to me after the fixes.
+- 2026-11-16 showrunner: script 3 rounds (writer/screener, CD approved), art 3 rounds (art-director+visual-screener), thumbnails 2 rounds (C redesigned). Risks: title numbers per 1995 NYT (kill count varies by source, 5k-25k in ABJ); Japan deaths stated as 'about 20/yr'; short03 title near-duplicates alt title B. Mistake: stage briefly set to packaged early and reverted to art_approved.
