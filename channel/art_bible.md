@@ -176,6 +176,26 @@ Mid-tone on purpose: it reads on snow white, dusk orange and the honesty grey. D
 **Open-jaw head cut edge (from 027):** `croc_jaws_open` ends in a flat vertical back edge. Never place it with that edge mid-frame (it
 reads as a severed head). Push the back edge past the frame edge (flip it if needed), or use an asset whose neck runs off-frame.
 
+**Insect-raid "afternoon to pre-dawn" ramp (from 049; reuse for any swarm/insect "target size" episode).** One step per item, the light
+falls from midday to the pre-dawn raid. Diagram cards cream `#f4f1dc`, nest interiors paper `#d8cfbd`, comb close-ups amber `#e9b64a`.
+| Item | Sky | Ground |
+|---|---|---|
+| Item 1 (hook, midday) | `#cfe9ff` | grass `#7cc25a` (wordart in the sky or the white/yellow override) |
+| Item 2 | `#8fd3ff` | `#6fb24f` |
+| Slaughter (afternoon) | amber `#f6c45a`; one analogy card may break to maroon `#6a2a3a` / `#4a1a28` | `#b8913a` |
+| Occupation (late afternoon) | `#e88a4a` | `#9a7a4a` |
+| Heat Ball (dusk) | `#8a6a8a`; in-ball close-ups `#5a4b3d` full-frame | `#5a4b3d` |
+| Sting (overcast) | `#b9c4a8` | `#5d6b45` |
+| Toll (sober cards) | `#15181a`, white cards, red numbers, maps unchanged | — |
+| Hitchhiker (night) | `#1b2f5a`; sea `#3a9ad9` | `#2b3d33` |
+| Nest / boss (pre-dawn) | `#0b1020` | `#141e1a` |
+**Costume continuity (from 049):** once an episode puts Doug in a costume for a run of items, every Doug in those items wears it, diagram
+cards included; it only comes off on a scripted beat. Flat empty costumes (`bee_costume_flat`, `hornet_costume_flat`) carry printed X eyes and a
+zipper so they read as a suit, never as a headless animal. **Episode HUD icon** (`the_target`, 049): 0.2 scale left of the size-28 meter label,
+icon right edge ~30 px left of the label box; it may turn red-on-pink `#ffd2cc` / `#e0201b` at the boss like the 009 clock.
+**Doug on a lit prop over night ground:** when Doug stands in front of a pale prop (cut wood, a booth) his ink stays black, so his legs vanish
+on `#141e1a`. Put a torch-light pool (`#3a4a40` ellipse) under him or move his feet onto the prop's base (049 s003, s191, s192).
+
 ## Two-tier rendering (style bible 4.3)
 - **Doug and humans: crude** MS Paint stick men: uniform thin lines (Doug's rig: 5 at scale 1 ≈ 4–5 px), big round
   head with grey shading crescent, oval eyes, meme faces.
