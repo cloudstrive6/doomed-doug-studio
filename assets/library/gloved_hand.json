@@ -1,0 +1,425 @@
+{
+ "name": "gloved_hand",
+ "description": "Crude-tier forearm and hand in a purple nitrile glove entering horizontally from the right, fingertips (thumb + index) pinching a loop of white dental floss at the anchor (0,0). White lab-coat sleeve runs right to x +780 (y -8..100). auto_ink.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "human",
+  "hand",
+  "glove",
+  "prop",
+  "049"
+ ],
+ "auto_ink": true,
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     230,
+     -8
+    ],
+    [
+     780,
+     -8
+    ],
+    [
+     780,
+     100
+    ],
+    [
+     230,
+     98
+    ]
+   ],
+   "fill": "#f2f2f0",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     230,
+     60
+    ],
+    [
+     780,
+     64
+    ],
+    [
+     780,
+     100
+    ],
+    [
+     230,
+     98
+    ]
+   ],
+   "fill": "#d4d6d8",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     230,
+     98
+    ],
+    [
+     780,
+     100
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     400,
+     10
+    ],
+    [
+     460,
+     40
+    ],
+    [
+     420,
+     80
+    ]
+   ],
+   "width": 3,
+   "color": "#b0b4b8",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     600,
+     12
+    ],
+    [
+     650,
+     50
+    ]
+   ],
+   "width": 3,
+   "color": "#b0b4b8",
+   "keep_ink": true
+  },
+  {
+   "type": "rect",
+   "x": 206,
+   "y": -14,
+   "w": 34,
+   "h": 118,
+   "fill": "#e4e4e2",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     120,
+     2
+    ],
+    [
+     210,
+     -8
+    ],
+    [
+     210,
+     100
+    ],
+    [
+     120,
+     88
+    ]
+   ],
+   "fill": "#7a5ac8",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     140,
+     0
+    ],
+    [
+     140,
+     90
+    ]
+   ],
+   "width": 3,
+   "color": "#5a3ea0",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     36,
+     12
+    ],
+    [
+     80,
+     -4
+    ],
+    [
+     130,
+     0
+    ],
+    [
+     136,
+     50
+    ],
+    [
+     124,
+     92
+    ],
+    [
+     70,
+     98
+    ],
+    [
+     40,
+     72
+    ]
+   ],
+   "fill": "#7a5ac8",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     80,
+     50
+    ],
+    [
+     36,
+     50
+    ],
+    [
+     28,
+     62
+    ],
+    [
+     36,
+     74
+    ],
+    [
+     80,
+     74
+    ]
+   ],
+   "fill": "#7a5ac8",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     92,
+     68
+    ],
+    [
+     48,
+     68
+    ],
+    [
+     40,
+     80
+    ],
+    [
+     48,
+     92
+    ],
+    [
+     92,
+     92
+    ]
+   ],
+   "fill": "#7a5ac8",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     60,
+     -6
+    ],
+    [
+     20,
+     -10
+    ],
+    [
+     2,
+     -6
+    ],
+    [
+     -2,
+     2
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     24,
+     10
+    ],
+    [
+     60,
+     14
+    ]
+   ],
+   "fill": "#7a5ac8",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     70,
+     40
+    ],
+    [
+     30,
+     36
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     6,
+     6
+    ],
+    [
+     16,
+     4
+    ],
+    [
+     40,
+     20
+    ],
+    [
+     80,
+     22
+    ]
+   ],
+   "fill": "#a48ae0",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 90,
+   "y": 30,
+   "r": 30,
+   "color": "#5a3ea0",
+   "density": 0.3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     24,
+     -2
+    ],
+    [
+     24,
+     6
+    ]
+   ],
+   "width": 2,
+   "color": "#5a3ea0",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     2
+    ],
+    [
+     -30,
+     40
+    ],
+    [
+     -12,
+     90
+    ],
+    [
+     24,
+     70
+    ],
+    [
+     6,
+     30
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "width": 5,
+   "color": "#8a8a8a",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     0,
+     2
+    ],
+    [
+     -30,
+     40
+    ],
+    [
+     -12,
+     90
+    ],
+    [
+     24,
+     70
+    ],
+    [
+     6,
+     30
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff",
+   "keep_ink": true
+  }
+ ]
+}

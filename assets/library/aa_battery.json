@@ -1,0 +1,323 @@
+{
+ "name": "aa_battery",
+ "description": "Plain AA battery lying horizontally, no brand: black body with a copper-orange end band, silver positive nub at the right, a small + mark. Anchor centre, 400x100 (x -210..196).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "battery",
+  "size",
+  "049"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -40
+    ],
+    [
+     166,
+     -40
+    ],
+    [
+     174,
+     -32
+    ],
+    [
+     174,
+     32
+    ],
+    [
+     166,
+     40
+    ],
+    [
+     -200,
+     40
+    ],
+    [
+     -204,
+     32
+    ],
+    [
+     -204,
+     -32
+    ]
+   ],
+   "fill": "#1e1e1e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     60,
+     -40
+    ],
+    [
+     166,
+     -40
+    ],
+    [
+     174,
+     -32
+    ],
+    [
+     174,
+     32
+    ],
+    [
+     166,
+     40
+    ],
+    [
+     60,
+     40
+    ]
+   ],
+   "fill": "#c87533",
+   "width": 0,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     60,
+     -40
+    ],
+    [
+     174,
+     -40
+    ],
+    [
+     174,
+     -20
+    ],
+    [
+     60,
+     -20
+    ]
+   ],
+   "fill": "#e8a060",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -36
+    ],
+    [
+     60,
+     -36
+    ],
+    [
+     60,
+     -22
+    ],
+    [
+     -200,
+     -22
+    ]
+   ],
+   "fill": "#4a4a4a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     60,
+     22
+    ],
+    [
+     174,
+     22
+    ],
+    [
+     174,
+     40
+    ],
+    [
+     60,
+     40
+    ]
+   ],
+   "fill": "#9a5420",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     24
+    ],
+    [
+     60,
+     24
+    ],
+    [
+     60,
+     40
+    ],
+    [
+     -200,
+     40
+    ]
+   ],
+   "fill": "#0c0c0c",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -40
+    ],
+    [
+     60,
+     40
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -36
+    ],
+    [
+     -150,
+     36
+    ]
+   ],
+   "width": 2,
+   "color": "#3a3a3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     -40
+    ],
+    [
+     166,
+     -40
+    ],
+    [
+     174,
+     -32
+    ],
+    [
+     174,
+     32
+    ],
+    [
+     166,
+     40
+    ],
+    [
+     -200,
+     40
+    ],
+    [
+     -204,
+     32
+    ],
+    [
+     -204,
+     -32
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 174,
+   "y": -16,
+   "w": 22,
+   "h": 32,
+   "fill": "#c8ccd2",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     178,
+     -10
+    ],
+    [
+     192,
+     -10
+    ]
+   ],
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": -210,
+   "y": -30,
+   "w": 8,
+   "h": 60,
+   "fill": "#b8bcc2",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     98,
+     0
+    ],
+    [
+     124,
+     0
+    ]
+   ],
+   "width": 5,
+   "color": "#5a2a08"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     111,
+     -13
+    ],
+    [
+     111,
+     13
+    ]
+   ],
+   "width": 5,
+   "color": "#5a2a08"
+  }
+ ]
+}

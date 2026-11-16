@@ -1,0 +1,324 @@
+{
+ "name": "passport",
+ "description": "Small generic passport booklet: navy cover, gold round emblem and gold lines, no country and no words. Anchor centre, ~160x220.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "passport",
+  "travel",
+  "border",
+  "049"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -110
+    ],
+    [
+     74,
+     -110
+    ],
+    [
+     80,
+     -104
+    ],
+    [
+     80,
+     104
+    ],
+    [
+     74,
+     110
+    ],
+    [
+     -80,
+     110
+    ]
+   ],
+   "fill": "#1f2f5a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -80,
+   "y": -110,
+   "w": 14,
+   "h": 220,
+   "fill": "#16224a",
+   "width": 0,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -66,
+     -108
+    ],
+    [
+     -66,
+     108
+    ]
+   ],
+   "width": 2,
+   "color": "#0c1430"
+  },
+  {
+   "type": "spray",
+   "x": 30,
+   "y": -60,
+   "r": 50,
+   "color": "#33467a",
+   "density": 0.25
+  },
+  {
+   "type": "spray",
+   "x": -10,
+   "y": 70,
+   "r": 50,
+   "color": "#141e40",
+   "density": 0.25
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -44,
+     -82
+    ],
+    [
+     56,
+     -82
+    ]
+   ],
+   "width": 4,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -34,
+     -70
+    ],
+    [
+     46,
+     -70
+    ]
+   ],
+   "width": 3,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "ellipse",
+   "x": 6,
+   "y": -4,
+   "rx": 36,
+   "ry": 36,
+   "fill": null,
+   "width": 4,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "ellipse",
+   "x": 6,
+   "y": -4,
+   "rx": 24,
+   "ry": 24,
+   "fill": null,
+   "width": 3,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30.0,
+     -4.0
+    ],
+    [
+     40.0,
+     -4.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     23.0,
+     13.0
+    ],
+    [
+     30.0,
+     20.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     6.0,
+     20.0
+    ],
+    [
+     6.0,
+     30.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -11.0,
+     13.0
+    ],
+    [
+     -18.0,
+     20.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -18.0,
+     -4.0
+    ],
+    [
+     -28.0,
+     -4.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -11.0,
+     -21.0
+    ],
+    [
+     -18.0,
+     -28.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     6.0,
+     -28.0
+    ],
+    [
+     6.0,
+     -38.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     23.0,
+     -21.0
+    ],
+    [
+     30.0,
+     -28.0
+    ]
+   ],
+   "width": 2,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     6,
+     -16
+    ],
+    [
+     14,
+     2
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     -2,
+     2
+    ]
+   ],
+   "fill": "#d9b24a",
+   "width": 2,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -34,
+     60
+    ],
+    [
+     46,
+     60
+    ]
+   ],
+   "width": 3,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -44,
+     74
+    ],
+    [
+     56,
+     74
+    ]
+   ],
+   "width": 4,
+   "color": "#d9b24a"
+  },
+  {
+   "type": "rect",
+   "x": 30,
+   "y": 86,
+   "w": 30,
+   "h": 14,
+   "fill": null,
+   "width": 2,
+   "color": "#d9b24a"
+  }
+ ]
+}

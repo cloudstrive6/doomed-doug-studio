@@ -9784,8 +9784,8 @@
       "type": "asset",
       "name": "brood_comb",
       "x": 960,
-      "y": 560,
-      "scale": 1.2
+      "y": 610,
+      "scale": 1.0
      },
      {
       "type": "doug",
@@ -9911,8 +9911,8 @@
      {
       "type": "wordart",
       "text": "EVEN UP",
-      "x": 500,
-      "y": 760,
+      "x": 1450,
+      "y": 960,
       "size": 96,
       "boil": 0,
       "appear": 0.6
@@ -9974,8 +9974,8 @@
       "type": "asset",
       "name": "brood_comb",
       "x": 960,
-      "y": 560,
-      "scale": 1.2
+      "y": 610,
+      "scale": 1.0
      },
      {
       "type": "doug",
@@ -10468,27 +10468,27 @@
       "name": "beehive",
       "x": 960,
       "y": 930,
-      "scale": 1.3
+      "scale": 1.0
      },
      {
       "type": "asset",
       "name": "asian_giant_hornet_front",
       "x": 960,
-      "y": 470,
+      "y": 544,
       "scale": 0.4
      },
      {
       "type": "asset",
       "name": "asian_giant_hornet",
       "x": 780,
-      "y": 500,
+      "y": 585,
       "scale": 0.3
      },
      {
       "type": "asset",
       "name": "asian_giant_hornet",
       "x": 1150,
-      "y": 500,
+      "y": 585,
       "scale": 0.3,
       "flip": true
      },
@@ -10770,9 +10770,9 @@
      {
       "type": "wordart",
       "text": "10 DAYS OR MORE",
-      "x": 600,
+      "x": 560,
       "y": 820,
-      "size": 80,
+      "size": 72,
       "boil": 0,
       "appear": 0.6
      },
@@ -10846,14 +10846,14 @@
       "type": "asset",
       "name": "brood_comb",
       "x": 960,
-      "y": 600,
-      "scale": 1.25
+      "y": 640,
+      "scale": 1.1
      },
      {
       "type": "wordart",
       "text": "THE BROOD",
       "x": 960,
-      "y": 330,
+      "y": 270,
       "size": 110,
       "boil": 0,
       "appear": 0.3
@@ -10943,14 +10943,14 @@
       "type": "asset",
       "name": "brood_comb",
       "x": 960,
-      "y": 600,
-      "scale": 1.25
+      "y": 640,
+      "scale": 1.1
      },
      {
       "type": "wordart",
       "text": "PROTEIN",
       "x": 600,
-      "y": 330,
+      "y": 270,
       "size": 96,
       "boil": 0,
       "appear": 0.2
@@ -10958,8 +10958,8 @@
      {
       "type": "wordart",
       "text": "FAT",
-      "x": 1300,
-      "y": 330,
+      "x": 1250,
+      "y": 270,
       "size": 96,
       "boil": 0,
       "appear": 0.55
@@ -11033,8 +11033,8 @@
       "type": "asset",
       "name": "brood_comb",
       "x": 960,
-      "y": 600,
-      "scale": 1.25
+      "y": 640,
+      "scale": 1.1
      },
      {
       "type": "asset",
@@ -11071,7 +11071,7 @@
       "type": "wordart",
       "text": "PASTE",
       "x": 600,
-      "y": 330,
+      "y": 270,
       "size": 100,
       "boil": 0,
       "appear": 0.4
@@ -12562,7 +12562,7 @@
      },
      {
       "type": "asset",
-      "name": "bee_costume",
+      "name": "bee_costume_crouch",
       "x": 700,
       "y": 838.8,
       "scale": 0.6
@@ -13033,7 +13033,7 @@
       "type": "label",
       "text": "JAPANESE HONEYBEES",
       "x": 1150,
-      "y": 330,
+      "y": 460,
       "size": 40,
       "bold": true,
       "boil": 0.3,
@@ -13057,7 +13057,7 @@
      {
       "type": "wordart",
       "text": "COOK ALIVE",
-      "x": 600,
+      "x": 540,
       "y": 420,
       "size": 100,
       "boil": 0,
@@ -14682,8 +14682,8 @@
       "type": "wordart",
       "text": "4 DEGREES",
       "x": 950,
-      "y": 420,
-      "size": 110,
+      "y": 680,
+      "size": 84,
       "boil": 0,
       "appear": 0.4
      },
@@ -14843,8 +14843,8 @@
      {
       "type": "wordart",
       "text": "NO DEFENCE",
-      "x": 600,
-      "y": 400,
+      "x": 560,
+      "y": 560,
       "size": 96,
       "boil": 0,
       "appear": 0.55
@@ -21698,16 +21698,16 @@
      {
       "type": "asset",
       "name": "placard",
-      "x": 840,
-      "y": 900,
+      "x": 560,
+      "y": 930,
       "scale": 0.8,
       "appear": 0.35
      },
      {
       "type": "text",
       "text": "NO HORNETS",
-      "x": 840,
-      "y": 676,
+      "x": 560,
+      "y": 706,
       "size": 40,
       "color": "#000000",
       "bold": true,
@@ -21842,8 +21842,8 @@
       "type": "wordart",
       "text": "ONE AT A TIME",
       "x": 960,
-      "y": 330,
-      "size": 90,
+      "y": 260,
+      "size": 84,
       "boil": 0,
       "appear": 0.45
      },
@@ -22202,7 +22202,7 @@
       "name": "nest_tree",
       "x": 960,
       "y": 930,
-      "scale": 0.9
+      "scale": 0.75
      },
      {
       "type": "doug",
@@ -22543,8 +22543,8 @@
      {
       "type": "label",
       "text": "HOME",
-      "x": 1400,
-      "y": 330,
+      "x": 1620,
+      "y": 620,
       "size": 44,
       "bold": true,
       "boil": 0.3,
@@ -22796,7 +22796,7 @@
      {
       "type": "label",
       "text": "OCTOBER 24, BEFORE DAWN",
-      "x": 760,
+      "x": 640,
       "y": 360,
       "size": 44,
       "bold": true,
@@ -22923,7 +22923,7 @@
      {
       "type": "wordart",
       "text": "WRAPPED",
-      "x": 760,
+      "x": 680,
       "y": 400,
       "size": 90,
       "boil": 0,
@@ -23290,9 +23290,9 @@
      {
       "type": "wordart",
       "text": "85 HORNETS",
-      "x": 1580,
-      "y": 420,
-      "size": 84,
+      "x": 1530,
+      "y": 540,
+      "size": 72,
       "boil": 0,
       "appear": 0.5
      },
@@ -23761,9 +23761,9 @@
      {
       "type": "wordart",
       "text": "108 CAPPED CELLS",
-      "x": 1440,
-      "y": 900,
-      "size": 84,
+      "x": 1350,
+      "y": 980,
+      "size": 76,
       "boil": 0,
       "appear": 0.45
      },
@@ -24962,28 +24962,28 @@
      {
       "type": "asset",
       "name": "nest_tree",
-      "x": 400,
+      "x": 620,
       "y": 930,
       "scale": 0.45
      },
      {
       "type": "asset",
       "name": "nest_tree",
-      "x": 960,
+      "x": 1100,
       "y": 930,
       "scale": 0.45
      },
      {
       "type": "asset",
       "name": "nest_tree",
-      "x": 1520,
+      "x": 1580,
       "y": 930,
       "scale": 0.45
      },
      {
       "type": "asset",
       "name": "red_x",
-      "x": 400,
+      "x": 620,
       "y": 760,
       "scale": 0.4,
       "appear": 0.2
@@ -24991,7 +24991,7 @@
      {
       "type": "asset",
       "name": "red_x",
-      "x": 960,
+      "x": 1100,
       "y": 760,
       "scale": 0.4,
       "appear": 0.35
@@ -24999,7 +24999,7 @@
      {
       "type": "asset",
       "name": "red_x",
-      "x": 1520,
+      "x": 1580,
       "y": 760,
       "scale": 0.4,
       "appear": 0.5
@@ -25850,12 +25850,12 @@
      {
       "type": "arrow",
       "from": [
-       1560,
-       700
+       1700,
+       760
       ],
       "to": [
-       1600,
-       380
+       1720,
+       400
       ],
       "color": "#e0201b",
       "width": 8,

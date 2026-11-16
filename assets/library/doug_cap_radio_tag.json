@@ -1,0 +1,317 @@
+{
+ "name": "doug_cap_radio_tag",
+ "description": "`doug_cap` (red cap, brim right) with the same tiny black radio tag as `hornet_radio_tagged` tied to the cap button with loops of white dental floss and a short antenna wire. Anchor centre, ~220x110.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "cap",
+  "prop",
+  "radio tag",
+  "049"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -98,
+     21.4
+    ],
+    [
+     -64.0,
+     34.4
+    ],
+    [
+     8.0,
+     34.4
+    ],
+    [
+     42,
+     21.4
+    ]
+   ],
+   "fill": "#8a0f0c",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -98,
+     21.4
+    ],
+    [
+     -89.2,
+     -13.2
+    ],
+    [
+     -53.2,
+     -36.2
+    ],
+    [
+     -6.4,
+     -36.2
+    ],
+    [
+     31.0,
+     -13.2
+    ],
+    [
+     42,
+     21.4
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     29.6,
+     12.8
+    ],
+    [
+     98.0,
+     21.4
+    ],
+    [
+     94.4,
+     35.8
+    ],
+    [
+     28.2,
+     34.4
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": -30,
+   "y": -38,
+   "rx": 8,
+   "ry": 5,
+   "fill": "#a8140f",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -72,
+     -14
+    ],
+    [
+     -50,
+     -40
+    ],
+    [
+     -30,
+     -50
+    ],
+    [
+     -10,
+     -40
+    ],
+    [
+     6,
+     -14
+    ]
+   ],
+   "width": 5,
+   "color": "#8a8a8a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -72,
+     -14
+    ],
+    [
+     -50,
+     -40
+    ],
+    [
+     -30,
+     -50
+    ],
+    [
+     -10,
+     -40
+    ],
+    [
+     6,
+     -14
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -62,
+     -4
+    ],
+    [
+     -40,
+     -36
+    ],
+    [
+     -20,
+     -38
+    ],
+    [
+     0,
+     -4
+    ]
+   ],
+   "width": 5,
+   "color": "#8a8a8a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -62,
+     -4
+    ],
+    [
+     -40,
+     -36
+    ],
+    [
+     -20,
+     -38
+    ],
+    [
+     0,
+     -4
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -48,
+     -58
+    ],
+    [
+     -70,
+     -66
+    ],
+    [
+     -104,
+     -54
+    ],
+    [
+     -118,
+     -70
+    ]
+   ],
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -68
+    ],
+    [
+     -10,
+     -68
+    ],
+    [
+     -10,
+     -44
+    ],
+    [
+     -50,
+     -44
+    ]
+   ],
+   "fill": "#2a2a2e",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -44,
+     -63
+    ],
+    [
+     -22,
+     -63
+    ]
+   ],
+   "width": 2,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "ellipse",
+   "x": -17,
+   "y": -51,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -56,
+     -54
+    ],
+    [
+     -30,
+     -46
+    ],
+    [
+     -4,
+     -54
+    ]
+   ],
+   "width": 5,
+   "color": "#8a8a8a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -56,
+     -54
+    ],
+    [
+     -30,
+     -46
+    ],
+    [
+     -4,
+     -54
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  }
+ ]
+}

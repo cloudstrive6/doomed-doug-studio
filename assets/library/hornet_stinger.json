@@ -1,0 +1,479 @@
+{
+ "name": "hornet_stinger",
+ "description": "Diagram close-up of a giant hornet's stinger: the last two banded abdomen segments (dark brown and yellow-orange) at the left (x -350..+44) and a long, straight, dark brown, sharply pointed stinger from x +40 to the tip at (+400,0), with a faint highlight. No venom, no red. Anchor centre, ~750x245.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "diagram",
+  "insect",
+  "hornet",
+  "stinger",
+  "049"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     20,
+     -16
+    ],
+    [
+     200,
+     -8
+    ],
+    [
+     400,
+     0
+    ],
+    [
+     200,
+     8
+    ],
+    [
+     20,
+     16
+    ]
+   ],
+   "fill": "#3a2410",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     -9
+    ],
+    [
+     330,
+     -2
+    ]
+   ],
+   "width": 2,
+   "color": "#9a7a5a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -330,
+     -100
+    ],
+    [
+     -250,
+     -122
+    ],
+    [
+     -140,
+     -104
+    ],
+    [
+     -120,
+     0
+    ],
+    [
+     -140,
+     104
+    ],
+    [
+     -250,
+     122
+    ],
+    [
+     -330,
+     100
+    ],
+    [
+     -358,
+     0
+    ]
+   ],
+   "fill": "#f2a51a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -330,
+     -100
+    ],
+    [
+     -250,
+     -122
+    ],
+    [
+     -210,
+     -116
+    ],
+    [
+     -206,
+     116
+    ],
+    [
+     -250,
+     122
+    ],
+    [
+     -330,
+     100
+    ],
+    [
+     -358,
+     0
+    ]
+   ],
+   "fill": "#3a2410",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -318,
+     -96
+    ],
+    [
+     -334,
+     0
+    ],
+    [
+     -318,
+     96
+    ]
+   ],
+   "width": 3,
+   "color": "#1a0c04"
+  },
+  {
+   "type": "spray",
+   "x": -260,
+   "y": -60,
+   "r": 60,
+   "color": "#5a3a20",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -170,
+   "y": -40,
+   "r": 40,
+   "color": "#ffd98a",
+   "density": 0.3
+  },
+  {
+   "type": "spray",
+   "x": -180,
+   "y": 70,
+   "r": 40,
+   "color": "#c07a10",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -206,
+     -114
+    ],
+    [
+     -196,
+     0
+    ],
+    [
+     -206,
+     114
+    ]
+   ],
+   "width": 3,
+   "color": "#1a0c04"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -330,
+     -100
+    ],
+    [
+     -250,
+     -122
+    ],
+    [
+     -140,
+     -104
+    ],
+    [
+     -120,
+     0
+    ],
+    [
+     -140,
+     104
+    ],
+    [
+     -250,
+     122
+    ],
+    [
+     -330,
+     100
+    ],
+    [
+     -358,
+     0
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -96
+    ],
+    [
+     -60,
+     -82
+    ],
+    [
+     20,
+     -48
+    ],
+    [
+     44,
+     0
+    ],
+    [
+     20,
+     48
+    ],
+    [
+     -60,
+     82
+    ],
+    [
+     -150,
+     96
+    ],
+    [
+     -132,
+     0
+    ]
+   ],
+   "fill": "#f2a51a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -96
+    ],
+    [
+     -80,
+     -86
+    ],
+    [
+     -74,
+     86
+    ],
+    [
+     -150,
+     96
+    ],
+    [
+     -132,
+     0
+    ]
+   ],
+   "fill": "#3a2410",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -30,
+   "y": -30,
+   "r": 40,
+   "color": "#ffd98a",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -10,
+   "y": 50,
+   "r": 40,
+   "color": "#c07a10",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -80,
+     -84
+    ],
+    [
+     -70,
+     0
+    ],
+    [
+     -80,
+     84
+    ]
+   ],
+   "width": 3,
+   "color": "#1a0c04"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -96
+    ],
+    [
+     -60,
+     -82
+    ],
+    [
+     20,
+     -48
+    ],
+    [
+     44,
+     0
+    ],
+    [
+     20,
+     48
+    ],
+    [
+     -60,
+     82
+    ],
+    [
+     -150,
+     96
+    ],
+    [
+     -132,
+     0
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -300,
+     -60
+    ],
+    [
+     -292,
+     -64
+    ]
+   ],
+   "width": 2,
+   "color": "#6a4a24"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -280,
+     40
+    ],
+    [
+     -272,
+     36
+    ]
+   ],
+   "width": 2,
+   "color": "#6a4a24"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -250,
+     -10
+    ],
+    [
+     -242,
+     -14
+    ]
+   ],
+   "width": 2,
+   "color": "#6a4a24"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100,
+     -40
+    ],
+    [
+     -92,
+     -44
+    ]
+   ],
+   "width": 2,
+   "color": "#6a4a24"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     30
+    ],
+    [
+     -32,
+     26
+    ]
+   ],
+   "width": 2,
+   "color": "#6a4a24"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -120,
+     60
+    ],
+    [
+     -112,
+     56
+    ]
+   ],
+   "width": 2,
+   "color": "#6a4a24"
+  }
+ ]
+}
