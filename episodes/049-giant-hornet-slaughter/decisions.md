@@ -96,3 +96,5 @@ FINAL: APPROVED
 - 2026-11-16 showrunner final review round 1: visual VERDICT (main) FAIL (DOUG DEATHS counter clipped in s006,s011,s041,s110,s176); camera.x set to 960; .rerender final+shorts requested. Shorts PASS. CD package approved. Stage left unchanged pending round 2.
 - 2026-11-16 showrunner final review round 2: round-1 counters (s006,s011,s041,s110,s176) fixed, Shorts PASS, thumbnails PASS. visual VERDICT (main) FAIL: s029 and s061 (zoom 1.06, camera.x 900) still clip the DOUG DEATHS counter (s061 also clips Doug's bee-suit). Fix: camera.x 900 -> 960 in both. Round 2, so no further re-render requested here; stage left at built. Needs a manual or next-run shotlist fix + re-render.
 FINAL: REJECTED visual screener main FAIL (counter clipped in s029, s061; camera.x 900 -> 960)
+- 2026-11-16 showrunner final review (round 3 prompt): s029/s061 were still camera.x 900 in shotlist.json; set both to 960 (y, zoom unchanged). .rerender = final (Shorts unaffected, PASS). Stage left at built; needs round-4 visual re-check of s029/s061 last frames.
+FINAL: REJECTED visual screener main FAIL pending re-render (s029, s061 camera.x fixed to 960 in shotlist)
