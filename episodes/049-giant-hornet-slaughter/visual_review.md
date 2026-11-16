@@ -111,3 +111,44 @@ VERDICT: PASS
   wordart right by about 40 px if s053 gets re-rendered for any other reason.
 - s197 / s166 (director): the bottom of the wordart sits at about y 1005-1025. That is inside the safe
   area, but still low. The art director's "raise by 20 px" note was not applied. Optional.
+
+## Thumbnails (2026-11-16)
+
+VERDICT: FAIL (A and B pass; C has one hard error)
+
+Viewed `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` at 1280x720 and their `_small` 168x94
+versions, checked against the variant titles in `metadata.json` > `packaging.variants`.
+
+### A "ONE BY ONE" / "Why 30 Giant Hornets Can Kill 30,000 Bees in an Afternoon": PASS
+- At feed size the huge head-on hornet with black mandibles is the one focal point. Doug's red cap and white
+  head read at the edge of the X-eyed bee pile, and the yellow wordart is legible at 168 px.
+- The dead bees are whole and cartoonish, with no blood or parts. Nothing about it looks like a kids' show.
+  The text adds to the title instead of repeating its numbers.
+- Polish (graphic designer, optional): seen head-on with no striped abdomen, the hornet could pass for a
+  bumblebee or a fly at 168 px, and its orange-brown matches the dead bees. A darker brown thorax, or a hint
+  of the striped abdomen behind the head, would make it clearly a hornet.
+
+### B "IT BRINGS FRIENDS" / "Why One Giant Hornet Can Kill 40 Bees a Minute": PASS
+- This is the clearest of the three at feed size. The hornet reads instantly in profile, the line of incoming
+  hornets supports the text, the deadpan Doug in the bee costume is readable at the hive, and the bottom
+  wordart is fully legible. It pairs well with "One Giant Hornet" in the title. No gore, no kid-appeal risk.
+- Polish (optional): the brief asked for arms folded, but Doug's arms are hidden by the costume. That is fine
+  as it stands.
+
+### C "BABY FOOD" / "Why Giant Hornets Can Kill 30,000 Bees to Feed Their Young": FAIL
+1. **Thumbnail C, text crop (graphic designer, required).** The black outline of the "D" in "BABY FOOD" runs
+   to x = 1279, so it touches the right edge of the frame and is cut off. Shrink the wordart by about 6%, or
+   move it about 30 px left, to leave a margin of at least 24 px on the right.
+2. **Thumbnail C, larvae read as eggs (illustrator/graphic designer, required).** At 168 px the three
+   `hornet_larva_cell` drawings look like white eggs or dumplings in hexagons, not hungry larvae. The
+   "open-mouthed larvae" in the brief are missing. Draw a dark open mouth on each brown head, turned up
+   toward the hornet. Keep them faceless otherwise, with no eyes and no smiles. Together with "BABY FOOD" on
+   hot pink, cute blank blobs risk a nursery look. Open mouths make the image read as hungry and grim.
+3. **Thumbnail C, bundle merges with head (graphic designer, recommended).** The brown meat ball overlaps
+   the hornet's head and mandibles, so at feed size the two become one brown mass. Move the ball about 40 px
+   down and right so it hangs clearly from the mandibles, with pink background showing between it and the
+   head. Keep it a plain round bundle with no parts.
+- Otherwise OK: no blood or body parts, Doug is on-model and readable at the left, and the text complements
+  the title ("Feed Their Young" leads to "BABY FOOD").
+
+Re-check needed: C only, after fixes 1-3.

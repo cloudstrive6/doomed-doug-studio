@@ -28,3 +28,22 @@
   372 `on_back` dead + `beekeeper_suit_on_back`; 373 `on_back` dead behind the NO HORNETS sign; 374 empty hollow + vacuum hose + ghost.
 - Shorts: short01 Heat Ball s093-s107 (ends on the 4-degree margin), short02 Nest s175-s187 with hook (ends on "nearly two hundred queens"),
   short03 Slaughter s049-s059 (ends "killed one by one"). Titles/descriptions left to the titler.
+
+## 2026-11-16, creative director: package review (thumbnails A/B/C + ranked titles), CHANGES REQUIRED
+Titles: all three are sourced (NYT 1995 Ono group: 20-30 hornets / 30,000 bees / 3 h / up to 40 bees a minute; WSU FS347E: larvae fed the paste),
+and the script delivers each one (lines 29, 77, 109). No misleading promise.
+No visual-screener report covers the thumbnails yet (visual_review.md only lists s001 as "pending"), so the package can't be approved until one exists.
+- **A ("Why 30 Giant Hornets Can Kill 30,000 Bees in an Afternoon" / ONE BY ONE): I'd click. Approved.** The jaws are the hook, the X-eyed pile is
+  cartoon-safe, and Doug's scream sells the scale. Non-blocking: the head-on hornet reads a little like a bumblebee. A small amount of black/orange
+  abdomen striping showing behind the head would help.
+- **B ("Why One Giant Hornet Can Kill 40 Bees a Minute" / IT BRINGS FRIENDS): I'd click. Approved.** This is the best Doug-in-peril image of the set:
+  his deadpan face next to the side-on hornet, with the arriving line as the payoff. Text is legible at feed size.
+- **C ("Why Giant Hornets Can Kill 30,000 Bees to Feed Their Young" / BABY FOOD): I wouldn't click. Required changes:**
+  1. The larvae read as eggs or dumplings wearing brown hats. Draw them as grubs with their heads out of uncapped cells, mouths open and facing the hornet.
+  2. The bundle reads as a potato or rock. Give it a bee-striped, chewed texture so it reads as "bees" with no visible parts (keep it gore-free).
+  3. The hot pink background plus cute grubs plus "BABY FOOD" leans nursery. Switch to the nest-interior/dusk palette (`#d8cfbd` / `#9a7a4a` from the
+     shotlist) so the tone stays adult-coded.
+  4. Doug is a bystander. Put him in the bee costume next in line, with one larva turned toward him (the "you're next" joke). Keep the cap on.
+  5. The bundle hides the hornet's face. Move it lower so the head and jaws are clear.
+- Next: the graphic designer revises C, then the visual screener checks A/B/C (feed size and policy), then the package comes back to me. A and B
+  don't need to come back unless the screener flags them.
