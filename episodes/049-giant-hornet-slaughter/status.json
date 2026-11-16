@@ -19,7 +19,12 @@
       "stage": "script_approved",
       "at": "2026-11-16T17:26:52+00:00",
       "note": "approved after 3 rounds"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-11-16T17:42:00+00:00",
+      "note": "202 shots, 9 chapters, Doug in 82%; 32 asset requests in asset_requests.md; shorts.json (3, untitled) written"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }
