@@ -1,16 +1,6 @@
 {
- "at": "2026-11-16T21:01:44+00:00",
+ "at": "2026-11-16T22:01:31+00:00",
  "issues": [
-  {
-   "key": "queue_low",
-   "severity": "medium",
-   "owner": "auto",
-   "summary": "Queue 3/4 and no production running: started a production run",
-   "detail": "",
-   "route": "dispatch produce.yml",
-   "fixed": true,
-   "extra": {}
-  },
   {
    "key": "related_pending",
    "severity": "low",
@@ -25,8 +15,8 @@
    "key": "end_screens_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "13 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
-   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/editor\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/editor\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/editor\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/editor\n041-grizzly-wont-fight https://studio.youtube.com/video/6l0vPcKl-dU/editor\n042-anaconda-no-venom https://studio.youtube.com/video/aypDFxtjAi0/editor\n043-animal-diseases-closer https://studio.youtube.com/video/mSKlABKubRU/editor\n044-shoebill-spare-chick https://studio.youtube.com/video/FLV5sEBx10M/editor\n045-black-mamba-warnings https://studio.youtube.com/video/AKpg4FqlXNc/editor\n046-biggest-fungus-forest https://studio.youtube.com/video/c5JuRQDsnBs/editor\n047-wolverine-snow-climb https://studio.youtube.com/video/5UiZFKr80zY/editor\n048-false-killer-whale-offer https://studio.youtube.com/video/LKdf1LVFtek/editor",
+   "summary": "14 episode(s) need their end screen in Studio (ask Claude to add them in Chrome)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/editor\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/editor\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/editor\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/editor\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/editor\n041-grizzly-wont-fight https://studio.youtube.com/video/6l0vPcKl-dU/editor\n042-anaconda-no-venom https://studio.youtube.com/video/aypDFxtjAi0/editor\n043-animal-diseases-closer https://studio.youtube.com/video/mSKlABKubRU/editor\n044-shoebill-spare-chick https://studio.youtube.com/video/FLV5sEBx10M/editor\n045-black-mamba-warnings https://studio.youtube.com/video/AKpg4FqlXNc/editor\n046-biggest-fungus-forest https://studio.youtube.com/video/c5JuRQDsnBs/editor\n047-wolverine-snow-climb https://studio.youtube.com/video/5UiZFKr80zY/editor\n048-false-killer-whale-offer https://studio.youtube.com/video/LKdf1LVFtek/editor\n049-giant-hornet-slaughter https://studio.youtube.com/video/0aUfvArLSDo/editor",
    "route": "",
    "fixed": false,
    "extra": {}
@@ -35,8 +25,8 @@
    "key": "thumb_tests_pending",
    "severity": "low",
    "owner": "owner",
-   "summary": "13 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
-   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/edit\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/edit\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/edit\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/edit\n041-grizzly-wont-fight https://studio.youtube.com/video/6l0vPcKl-dU/edit\n042-anaconda-no-venom https://studio.youtube.com/video/aypDFxtjAi0/edit\n043-animal-diseases-closer https://studio.youtube.com/video/mSKlABKubRU/edit\n044-shoebill-spare-chick https://studio.youtube.com/video/FLV5sEBx10M/edit\n045-black-mamba-warnings https://studio.youtube.com/video/AKpg4FqlXNc/edit\n046-biggest-fungus-forest https://studio.youtube.com/video/c5JuRQDsnBs/edit\n047-wolverine-snow-climb https://studio.youtube.com/video/5UiZFKr80zY/edit\n048-false-killer-whale-offer https://studio.youtube.com/video/LKdf1LVFtek/edit",
+   "summary": "14 episode(s) need their thumbnail Test & compare set in Studio (ask Claude)",
+   "detail": "036-army-ant-swarm https://studio.youtube.com/video/UREGQMHFQqs/edit\n037-sperm-whale-dive https://studio.youtube.com/video/cwAYVjq3DqI/edit\n038-albino-animals-die-first https://studio.youtube.com/video/0-T703DL8XI/edit\n039-chimp-family-tree https://studio.youtube.com/video/hLQCTf5pnc4/edit\n040-trapped-the-longest https://studio.youtube.com/video/JJHDuDSaRzY/edit\n041-grizzly-wont-fight https://studio.youtube.com/video/6l0vPcKl-dU/edit\n042-anaconda-no-venom https://studio.youtube.com/video/aypDFxtjAi0/edit\n043-animal-diseases-closer https://studio.youtube.com/video/mSKlABKubRU/edit\n044-shoebill-spare-chick https://studio.youtube.com/video/FLV5sEBx10M/edit\n045-black-mamba-warnings https://studio.youtube.com/video/AKpg4FqlXNc/edit\n046-biggest-fungus-forest https://studio.youtube.com/video/c5JuRQDsnBs/edit\n047-wolverine-snow-climb https://studio.youtube.com/video/5UiZFKr80zY/edit\n048-false-killer-whale-offer https://studio.youtube.com/video/LKdf1LVFtek/edit\n049-giant-hornet-slaughter https://studio.youtube.com/video/0aUfvArLSDo/edit",
    "route": "",
    "fixed": false,
    "extra": {}
