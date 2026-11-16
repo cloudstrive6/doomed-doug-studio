@@ -240,3 +240,56 @@ with X eyes, and a bundle with no parts).
      death counter is on screen.
 
 Re-check needed: the last frame of s006, s011, s041, s110 and s176 in the new `final.mp4`.
+
+### Post-render check, round 2 (2026-11-16, final.mp4 re-rendered 18:46 UTC)
+
+VERDICT (main): FAIL
+VERDICT (shorts): PASS
+
+**Round 1 fixes: all 5 verified.** I pulled the last frame of each shot from the new final.mp4. Every counter is now
+fully in frame with its border intact:
+- s006: "DOUG DEATHS: 368"
+- s011: "DOUG DEATHS: 368"
+- s041: "DOUG DEATHS: 369"
+- s110: "DOUG DEATHS: 370"
+- s176: "DOUG DEATHS: 373", and "TARGET: NORTH AMERICA" is now complete
+
+The numbering is continuous with the neighbouring shots.
+
+**New finding: two shots round 1 missed break the same rule.** s029 and s061 are `zoom_in` 1.06 with `camera.x` 900,
+and they were the only shots left that break the "zoom ≥ 1.06 needs x ≥ 940" rule. On their last frames (t≈87.7 s and
+t≈192.8 s):
+- The right border of the "DOUG DEATHS: 369" box is cut off at x = 1920, and the "9" runs right to the frame edge.
+- In s061, Doug's bee-suit abdomen is also cut off at the right edge.
+
+The number can still be read, but the counter is visibly cropped, which is the same defect that failed round 1. Every
+other zoom shot has x ≥ 940.
+
+**Samples f_001 to f_023:** no black, blank, frozen or glitched frames.
+- f_014 (s125, x 960) puts the counter furthest right of any sample, but its end frame is fully inside the frame.
+- f_016 (s145) looks like an empty card, but that is a mid-reveal frame. "42 DEAD" and "STATE NEWS AGENCY" pop in
+  by the end of the shot.
+- f_023 is the end slate with its placeholders, which is fine.
+- There is no gore. The death in s110 is shown as a cap with steam on the heat ball.
+
+**qc.json:** problems `[]`. I re-ran `python -m studio qc` (58 s, no render) and it exited 0, with duration 680.5 s
+and 1920x1080. The code only exits 1 when problems is non-empty, and that run writes qc.json first. So the earlier
+exit 1 came from a run before the 18:46 re-render whose qc.json has since been overwritten, or from a different
+command. It did not come from the current final.mp4. The stage is still `built`.
+
+**Thumbnails: PASS (unchanged).** A, B and C are still readable at feed size, each with one focal point. They match
+the title "Why 30 Giant Hornets Can Kill 30,000 Bees in an Afternoon".
+
+**Shorts: PASS.** short01 (56.3 s), short02 (54.1 s) and short03 (45.6 s) are all 1080x1920.
+- I checked 5 frames from each. The title bands are legible, nothing is clipped at the sides, and the subtitles are
+  legible.
+- The counter is in frame in every frame I checked, including s176 in short02.
+- Each Short pays off its title before the end card. The end card reads "FULL VIDEO: TAP BELOW" with a red arrow
+  pointing down, and there is no "???" card.
+- s029 and s061 are not in any Short's range, so fixing them does not require re-rendering the Shorts.
+
+**Required fixes (director, shotlist.json camera only; then re-render the 2 shots and the final, and run qc again):**
+1. s029: change `camera.x` from 900 to 960, keeping `y` 600 and `zoom` 1.06.
+2. s061: change `camera.x` from 900 to 960, keeping `y` 640 and `zoom` 1.06.
+
+Re-check needed: the last frame of s029 and s061 in the new final.mp4.
