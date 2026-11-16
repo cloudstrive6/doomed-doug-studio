@@ -1,0 +1,176 @@
+{
+ "background": "#12b8d8",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#12b8d8",
+   "color": "#12b8d8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 850,
+   "y": 330,
+   "rx": 430,
+   "ry": 400,
+   "fill": "#ffffff",
+   "color": "#ffffff",
+   "width": 0
+  },
+  {
+   "type": "asset",
+   "name": "asian_giant_hornet_front",
+   "x": 850,
+   "y": 300,
+   "scale": 1.38
+  },
+  {
+   "type": "asset",
+   "name": "honeybee_dead",
+   "x": 47,
+   "y": 715,
+   "scale": 0.8,
+   "rotate": -1,
+   "flip": false
+  },
+  {
+   "type": "asset",
+   "name": "honeybee_dead",
+   "x": 245,
+   "y": 720,
+   "scale": 0.8,
+   "rotate": 11,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "honeybee_dead",
+   "x": 426,
+   "y": 712,
+   "scale": 0.8,
+   "rotate": -10,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "honeybee_dead",
+   "x": 616,
+   "y": 720,
+   "scale": 0.8,
+   "rotate": -7,
+   "flip": false
+  },
+  {
+   "type": "asset",
+   "name": "honeybee_dead",
+   "x": 824,
+   "y": 713,
+   "scale": 0.8,
+   "rotate": 4,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "honeybee_dead",
+   "x": 995,
+   "y": 711,
+   "scale": 0.8,
+   "rotate": 9,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "honeybee_dead",
+   "x": 1198,
+   "y": 716,
+   "scale": 0.8,
+   "rotate": -4,
+   "flip": false
+  },
+  {
+   "type": "asset",
+   "name": "honeybee_dead",
+   "x": 463,
+   "y": 654,
+   "scale": 0.74,
+   "rotate": 5,
+   "flip": false
+  },
+  {
+   "type": "asset",
+   "name": "honeybee_dead",
+   "x": 656,
+   "y": 655,
+   "scale": 0.74,
+   "rotate": 8,
+   "flip": false
+  },
+  {
+   "type": "asset",
+   "name": "honeybee_dead",
+   "x": 834,
+   "y": 648,
+   "scale": 0.74,
+   "rotate": 6,
+   "flip": false
+  },
+  {
+   "type": "asset",
+   "name": "honeybee_dead",
+   "x": 997,
+   "y": 650,
+   "scale": 0.74,
+   "rotate": 3,
+   "flip": false
+  },
+  {
+   "type": "asset",
+   "name": "honeybee_dead",
+   "x": 1185,
+   "y": 646,
+   "scale": 0.74,
+   "rotate": 1,
+   "flip": false
+  },
+  {
+   "type": "doug",
+   "x": 395,
+   "y": 535,
+   "scale": 0.6,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "right"
+  },
+  {
+   "type": "asset",
+   "name": "bee_costume",
+   "x": 395,
+   "y": 535,
+   "scale": 0.6
+  },
+  {
+   "type": "text",
+   "text": "ONE\nBY\nONE",
+   "x": 175,
+   "y": 205,
+   "size": 112,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1240,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

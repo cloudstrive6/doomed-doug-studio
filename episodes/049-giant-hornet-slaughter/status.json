@@ -34,7 +34,12 @@
       "stage": "packaged",
       "at": "2026-11-16T18:11:31+00:00",
       "note": "x"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-16T18:11:36+00:00",
+      "note": "reverted: premature 'packaged' stage set by showrunner mistake; thumbnail/shorts/narration still pending"
     }
   ],
-  "stage": "packaged"
+  "stage": "art_approved"
 }
