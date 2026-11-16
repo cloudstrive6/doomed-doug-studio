@@ -293,3 +293,33 @@ the title "Why 30 Giant Hornets Can Kill 30,000 Bees in an Afternoon".
 2. s061: change `camera.x` from 900 to 960, keeping `y` 640 and `zoom` 1.06.
 
 Re-check needed: the last frame of s029 and s061 in the new final.mp4.
+
+## Post-render round 2 (re-render after s029/s061 camera fix), 2026-11-16
+
+final.mp4 (21:21) is newer than shotlist.json (21:13). In the shotlist, s006, s011, s029, s041, s061, s110 and s176 all have camera.x 960 (s029 y600 z1.06, s061 y640 z1.06).
+
+**Counter check: last frame of each shot in final.mp4, taken 0.08 s before the shot ends (from timing.json)**
+- s006 (15.58 s): "DOUG DEATHS: 368" box fully inside the frame.
+- s011 (31.83 s): 368, fully inside.
+- s029 (87.66 s): "DOUG DEATHS: 369" box right border at about x=1865, so about 55 px of margin. FIXED. Doug in the bee suit is fully in frame.
+- s041 (128.51 s): 369, fully inside.
+- s061 (192.79 s): 369, right border at about x=1865. FIXED. Doug's bee-suit abdomen is now fully in frame (about x=1880).
+- s110 (358.48 s): 370, fully inside. The death is shown as a cap with steam, with no gore.
+- s176 (582.81 s): 373, fully inside.
+No counter is cropped in any of these frames.
+
+**Samples f_001 to f_023:** no black, blank, frozen or glitched frames. These are the same as round 1. f_016 is a mid-reveal frame and f_023 is the end slate. There is no gore. qc.json problems: [].
+
+**Thumbnails A/B/C and their small versions:** unchanged and still PASS. Each has one focal point, Doug and the hornet are clear at 168x94, and none conflicts with the title.
+
+**Shorts:** short01 (56.3 s), short02 (54.1 s) and short03 (45.6 s) are all 1080x1920. For each I checked the preview plus 6 frames, including the last 0.3 s.
+- The title bands are legible.
+- Nothing important is clipped at the sides, and the counter is in frame throughout.
+- The subtitles are legible.
+- Each Short pays off its title before the end card. The end card reads "FULL VIDEO: TAP BELOW" with a red arrow pointing down.
+- There is no "???" card.
+
+No fixes required.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS

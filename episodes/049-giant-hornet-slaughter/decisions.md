@@ -98,3 +98,13 @@ FINAL: APPROVED
 FINAL: REJECTED visual screener main FAIL (counter clipped in s029, s061; camera.x 900 -> 960)
 - 2026-11-16 showrunner final review (round 3 prompt): s029/s061 were still camera.x 900 in shotlist.json; set both to 960 (y, zoom unchanged). .rerender = final (Shorts unaffected, PASS). Stage left at built; needs round-4 visual re-check of s029/s061 last frames.
 FINAL: REJECTED visual screener main FAIL pending re-render (s029, s061 camera.x fixed to 960 in shotlist)
+
+## 2026-11-16, creative director: final package approval, round 2 (after the s029/s061 re-render)
+Since my first approval, only camera.x changed (s029 and s061 are now 960 in `shotlist.json`, and I confirmed that). That can't affect packaging or timing.
+- Visual screener post-render round 2: VERDICT (main) PASS, VERDICT (shorts) PASS. The DOUG DEATHS counter has about 55 px of margin in s029/s061, and the bee suit is fully in frame. `qc.json` problems: [], and the duration is 680.506 s (11:20.5).
+- **Title** "Why 30 Giant Hornets Can Kill 30,000 Bees in an Afternoon": unchanged, sourced, and the first spoken line delivers it. Keep.
+- **Thumbnail A** (`build/thumbnail.png`): unchanged. One focal point (the jaws), whole X-eyed cartoon bees with no gore, Doug for scale, and "ONE BY ONE" doesn't repeat the title. I'd click.
+- **Description:** unchanged. The hook has no overpromise, 6 sources, the cartoon-death and AI-use disclaimers, 3 hashtags, and nothing kid-directed.
+- **Chapters** (`build/chapters.txt`): 10 entries starting at 0:00. The last one, "9:32 The Nest" (572 s), runs about 108 s to the 680.5 s end. Every chapter is ≥10 s and all fall inside the runtime.
+- **First 60 s:** the thumbnail is held 1.5 s, then the promise line and the payoff line (the Washington tree, ~200 queens). "The Hunter." is at words 34-35, and the twist (no eating, a meat ball for the larvae) lands well inside 45 s. In f_001 the hornet is labelled NORTHERN GIANT HORNET with LARGEST below it, Doug is on-model in the bee suit, and the counter reads 368. f_002 shows the larva cells, the meat ball and a confused Doug. Both are clean and adult-toned.
+FINAL: APPROVED
