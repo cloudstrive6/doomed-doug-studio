@@ -47,3 +47,27 @@ No visual-screener report covers the thumbnails yet (visual_review.md only lists
   5. The bundle hides the hornet's face. Move it lower so the head and jaws are clear.
 - Next: the graphic designer revises C, then the visual screener checks A/B/C (feed size and policy), then the package comes back to me. A and B
   don't need to come back unless the screener flags them.
+
+## 2026-11-16, creative director: package re-review (revised C, tweaked A, B unchanged): CREATIVE APPROVAL, gate still waits on the screener
+I looked at all three at 1280x720 and at feed size (168 px), each next to its title. The titles have not changed since the last review
+and are still sourced and delivered.
+- **A ("Why 30 Giant Hornets Can Kill 30,000 Bees in an Afternoon" / ONE BY ONE): approved.** My non-blocking note is done. The black/orange
+  striped abdomen now shows behind the head, so at 168 px it reads as a hornet, not a bumblebee. The jaws are still the focal point, the X-eyed
+  pile is still whole cartoon bees, and Doug is still screaming at the edge. I'd click.
+- **B ("Why One Giant Hornet Can Kill 40 Bees a Minute" / IT BRINGS FRIENDS): approved, unchanged.**
+- **C ("Why Giant Hornets Can Kill 30,000 Bees to Feed Their Young" / BABY FOOD): approved. All 5 of my changes are done, and so are the screener's.**
+  1. The larvae are now segmented white grubs coming out of uncapped cells, with dark open mouths. They read as hungry, not as eggs. Done.
+  2. The bundle is a chewed lump with bee stripes and no visible parts. It reads as "bees" and stays gore-free. Done.
+  3. The hot pink is gone. The dark nest-wall brown over a brown comb is darker than the `#d8cfbd` I asked for, but that serves the intent
+     better: grim and adult-coded, with no nursery read even with "BABY FOOD". Done.
+  4. Doug is in the bee costume with the cap on, sweating, at the end of the row, and the third larva is turned toward him. The "you're next"
+     joke lands. Done.
+  5. The bundle hangs below the mandibles with background between them, so the head and jaws are clear. Done (this also covers screener item 3).
+  - Screener item 1 (crop): I measured the yellow fill of "BABY FOOD". It ends at x 1204, which leaves about 60 px of right margin even with
+    the outline. Fixed.
+  - I'd click this now. "Feed Their Young" leads into "BABY FOOD" and on to the grub looking at Doug, which is the strongest curiosity gap of the three.
+- Order stays as ranked: A is the primary title and thumbnail, and B/C are the test arms.
+- **Gate condition:** the last visual-screener verdict on thumbnails is FAIL (on the old C), and A has changed since then. The visual screener
+  must re-check A and C (feed size, crop, policy) and record PASS in `visual_review.md` before the stage moves to `packaged`. If the result is a
+  PASS with polish notes only, this approval stands and the package doesn't need to come back to me. If it is a FAIL, the package comes back
+  to me after the fixes.
