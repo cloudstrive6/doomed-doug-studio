@@ -364,9 +364,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -515,9 +627,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -681,9 +905,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -841,9 +1177,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -1040,9 +1488,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -1229,9 +1789,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -1410,9 +2082,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -1612,9 +2396,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -1870,9 +2766,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -2050,9 +3058,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -2238,9 +3358,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -2424,9 +3656,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -2836,9 +4180,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -2922,7 +4378,7 @@
      },
      {
       "type": "asset",
-      "name": "goatfish_costume",
+      "name": "goatfish_costume_swim",
       "x": 520,
       "y": 600,
       "scale": 0.5,
@@ -3027,9 +4483,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -3179,9 +4747,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -3359,9 +5039,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -3527,9 +5319,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -3714,9 +5618,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -3875,9 +5891,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 970,
+      "r": 140,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 950,
-      "r": 900,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1150,
+      "r": 200,
+      "color": "#d4a960",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1150,
+      "r": 200,
       "color": "#d4a960",
       "density": 0.04
      },
@@ -4027,9 +6155,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -4198,9 +6438,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -4358,9 +6710,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -4531,9 +6995,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -4696,9 +7272,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -4860,9 +7548,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -5230,9 +8030,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -5420,9 +8332,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -5610,9 +8634,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -5876,9 +9012,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -6031,9 +9279,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -6220,9 +9580,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -6547,9 +10019,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -6703,9 +10287,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -6907,9 +10603,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -7086,9 +10894,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -7252,9 +11172,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -7463,9 +11495,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -7623,9 +11767,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 990,
+      "r": 140,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 970,
-      "r": 900,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1170,
+      "r": 200,
+      "color": "#dcbc7a",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1170,
+      "r": 200,
       "color": "#dcbc7a",
       "density": 0.04
      },
@@ -7776,9 +12032,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -7947,9 +12315,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -8100,9 +12580,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -8266,9 +12858,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -8552,9 +13256,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -8719,9 +13535,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -8877,9 +13805,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -9042,9 +14082,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -9216,9 +14368,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -9458,9 +14722,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -9635,9 +15011,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -9926,9 +15414,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -10074,9 +15674,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -10258,9 +15970,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -10431,9 +16255,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -10647,9 +16583,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -10812,9 +16860,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -10973,9 +17133,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -11141,9 +17413,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -11291,9 +17675,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -11449,9 +17945,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -11598,9 +18206,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -11748,9 +18468,121 @@
      },
      {
       "type": "spray",
+      "x": 60,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1060,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1260,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1460,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1660,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1860,
+      "y": 980,
+      "r": 140,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 160,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 560,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
       "x": 960,
-      "y": 960,
-      "r": 900,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1360,
+      "y": 1160,
+      "r": 200,
+      "color": "#bfa979",
+      "density": 0.04
+     },
+     {
+      "type": "spray",
+      "x": 1760,
+      "y": 1160,
+      "r": 200,
       "color": "#bfa979",
       "density": 0.04
      },
@@ -14921,9 +21753,9 @@
      {
       "type": "text",
       "text": "THE GLASS OCTOPUS",
-      "x": 760,
+      "x": 680,
       "y": 420,
-      "size": 110,
+      "size": 92,
       "color": "#e0201b",
       "bold": true,
       "boil": 0.3,
@@ -15335,8 +22167,8 @@
      {
       "type": "wordart",
       "text": "TWILIGHT ZONE",
-      "x": 960,
-      "y": 400,
+      "x": 480,
+      "y": 420,
       "size": 76,
       "boil": 0,
       "appear": 0.2
@@ -17554,8 +24386,8 @@
        420
       ],
       "to": [
-       1000,
-       470
+       1045,
+       455
       ],
       "color": "#e0201b",
       "width": 8,
@@ -23332,7 +30164,7 @@
      {
       "type": "doug",
       "x": 560,
-      "y": 738,
+      "y": 730,
       "scale": 0.6,
       "pose": "on_back",
       "expression": "dead",
@@ -23346,14 +30178,14 @@
       "type": "asset",
       "name": "doug_beard_lying",
       "x": 560,
-      "y": 738,
+      "y": 730,
       "scale": 0.6
      },
      {
       "type": "asset",
       "name": "doug_cap",
       "x": 600,
-      "y": 712,
+      "y": 704,
       "scale": 0.45
      },
      {
@@ -28619,7 +35451,7 @@
      {
       "type": "doug",
       "x": 960,
-      "y": 690,
+      "y": 662,
       "scale": 0.48,
       "pose": "sit",
       "expression": "hopeful",
@@ -28630,9 +35462,9 @@
      },
      {
       "type": "asset",
-      "name": "diving_suit",
+      "name": "diving_suit_sit",
       "x": 960,
-      "y": 690,
+      "y": 662,
       "scale": 0.48
      },
      {
@@ -28772,7 +35604,7 @@
      {
       "type": "doug",
       "x": 960,
-      "y": 690,
+      "y": 662,
       "scale": 0.48,
       "pose": "sit",
       "expression": "gritted",
@@ -28783,9 +35615,9 @@
      },
      {
       "type": "asset",
-      "name": "diving_suit",
+      "name": "diving_suit_sit",
       "x": 960,
-      "y": 690,
+      "y": 662,
       "scale": 0.48
      },
      {
@@ -29844,7 +36676,7 @@
       "type": "asset",
       "name": "research_ship",
       "x": 960,
-      "y": 120,
+      "y": 225,
       "scale": 0.4
      },
      {
@@ -29852,7 +36684,7 @@
       "points": [
        [
         960,
-        140
+        265
        ],
        [
         960,
@@ -31421,12 +38253,12 @@
      {
       "type": "arrow",
       "from": [
-       1100,
+       1150,
        600
       ],
       "to": [
-       1100,
-       180
+       1150,
+       270
       ],
       "color": "#e0201b",
       "width": 8,
@@ -31437,8 +38269,8 @@
      {
       "type": "asset",
       "name": "research_ship",
-      "x": 1350,
-      "y": 110,
+      "x": 1170,
+      "y": 200,
       "scale": 0.35,
       "appear": 0.3
      },

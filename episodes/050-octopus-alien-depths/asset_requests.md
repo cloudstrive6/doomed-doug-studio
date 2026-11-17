@@ -220,7 +220,7 @@ draw for it unless they want one.
   a broad web, soft saggy mantle, small eyes. Looks heavy and jelly-like.
 - Anchor centre, about 800 x 700. Used at 0.35-1.0, silhouette in s116.
 
-### `seven_arm_octopus_male` (s121-s122) **DONE** (`assets/previews/050-glass-sevenarm-assets.png`)
+### `seven_arm_octopus_male` (s121-s122) **DONE** (`assets/previews/050-glass-sevenarm-assets.png`); **REDRAWN 2026-11-17 per art_review item 1** (`assets/previews/050-sac-fix.png`, in context `assets/previews/050-s121-sac-fix.png`): closed bulging lilac sac `#e9dcef` centred (+114,-100) bulging past the outline, white highlight arc, 4 px black outline, wine-red coiled tube arm (~1.5 turns, dark edge, 4 sucker dots); no rings, no red centre
 - Same animal (smaller and slimmer), with the **eighth arm coiled tight inside a pale sac under the right eye**, clearly
   visible as a little spiral in a bulge. Seven arms hang free. Sac at about **local (+100, -100)** (the arrow in s121
   points there). Anchor centre, about 800 x 700. Used at 1.0.
