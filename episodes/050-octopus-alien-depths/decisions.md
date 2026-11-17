@@ -53,3 +53,4 @@
   small size (Doug's face is small) but the 53 MONTHS text carries it.
 - Policy: cartoon only, no gore, no kid-coded cuteness, titles promise what the video delivers (depth gradient to 6,957 m, the punch,
   the 53-month brooder are all in the script).
+- 2026-11-17: packaged. Script 2 rounds (fact fixes), art 3 rounds (arm sac redraw, keyframe fixes), thumbnails approved after A Doug upscale. Risks: sourcing partly via press releases; no-Doug title test continues.

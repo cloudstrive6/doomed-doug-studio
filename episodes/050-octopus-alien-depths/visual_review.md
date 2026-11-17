@@ -35,3 +35,26 @@ VERDICT: PASS
 
 ### Optional polish
 1. **s112, s114** (illustrator/art director): point the pupils the same way as the cap brim (left) so the look-direction is unambiguous.
+
+## Round 3: thumbnails A/B/C (2026-11-17)
+
+Screened build/thumbnail.png, thumbnail_b.png, thumbnail_c.png and their 168x94 _small versions (files stamped 18:12:37). Doug crops viewed at full res.
+
+- **A "IT PUNCHES"**: the text is legible at 168 px, the octopus is the clear focal point, and the speed lines sell the punch. **Problem:** Doug in the goatfish costume is about 170 px tall at full size and about 10 px at feed size, where he reads as a pink blob with a red dot. The arm tip disappears into his torso, so no fist reads.
+- **B "IT LIVES HERE"**: passes. There is strong contrast, a yellow sub against the navy background, and a pale dumbo octopus with fins and no mascot face. Doug is small, but the red cap in the porthole still reads at 168 px. The hull cracks are visible.
+- **C "53 MONTHS"**: passes. The brooding mother over her eggs reads clearly, and Doug's beard, stool and torn calendars land the joke. The fate is not drawn. Minor: Doug has no visible arms or legs (the beard runs straight down to the stool), and there is a stray white line off the right edge of the stool.
+- All three: spelled right, not cropped, no gore, not kid-coded, nothing misleading. Each one complements the title "...Every Depth, Down to 6,957 Meters" without repeating it.
+
+VERDICT: FAIL (A only; B and C pass)
+
+1. **Thumbnail A** (graphic designer): scale Doug and the costume up to about 1.6-1.8x (at least 280 px tall at 1280 wide, so he is 20 px or more at 168 px). Move him in from x≈100 to about x≈180-220. Draw the arm tip as a visible curled fist in front of the costume rather than hidden behind it.
+2. *Optional* **Thumbnail C** (graphic designer): show Doug's legs or knees below the beard sitting on the stool, and delete the stray white lines at about x 285-330, y 550-595.
+
+### Round 3b: re-check of A after the creative director's Doug-scale tweak (files stamped 18:13:10)
+
+- Doug is now about 2x larger, at x≈100-280. At 168x94 his white head, red cap and open-mouth face read clearly, with the octopus arm hitting him. Doug and the threat are obvious, so Fix 1 is resolved on scale.
+- Remaining nits (not blocking): the costume is cropped at the bottom edge. The arm tip ends behind the cap brim and face, so there is still no visible fist. It reads as a face punch, which is fine.
+
+VERDICT: PASS (A, B, C)
+
+Optional (graphic designer): on A, draw a small curled fist at the arm tip in front of Doug's face, and lower the brim so it doesn't merge with the arm. On C, apply the optional item 2 above.
