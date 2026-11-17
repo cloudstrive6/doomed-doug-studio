@@ -1,5 +1,27 @@
 # 050 art review
 
+## Round 3 (art director, 2026-11-17)
+
+### Keyframes (re-rendered shots, `build/contact/sheet_01-03.png`): PASS
+All 11 Round-2 fixes are verified at full resolution:
+1. s037: the umbrella's right edge is at about x 1260, clear of the counter zone.
+2. s211, s212: the TV's right edge is at about x 1245, clear of the depth meter.
+3. Headlines are clear of the creatures in s018, s075, s098, s104, s105, s118 and s124 (s124 now labels below the mantle).
+4. s144: the Olympic rings are replaced by two plain "GAMES" calendar pages with the 4-year bar. No protected mark remains.
+5. s122: labels 1-7 sit under the tips at x 621-1155, about 89 px apart.
+6. s125: Doug stands in the right pan, and the beam tilts down on his side.
+7. s124: the "grown man" is a plain capless stick man at the octopus's height. It no longer reads as a snowman.
+8. s067-s071: s067 and s069 are wide, s068 punches in on Doug in the silt puff, and s070 is a close-up of his "fine" face. The run is varied.
+9. s137: a push-in on Doug in the bowl, with the head looming and an alarmed face. There is no beak contact.
+10. s174: the bar is banded `#3a9ad9` / `#1b4f86` / `#0b2447`. There is no white, and the whale and Doug depths are unchanged.
+11. s095, s096: the HUD reads "ABOUT 500 M", matching the twilight ground and s097.
+
+The s002/s003 HUD now reads "DEPTH: 6,957 M" in the red alert style, which matches s211/s212 and the cold-open framing. Approved.
+
+Optional polish, not blocking: in s125 the pan's centre hanger line runs through Doug's body. Drop it for that pan if it's easy.
+
+Art gate: PASS. Stage `art_approved` once visual-screener also passes.
+
 ## Round 2 (art director, 2026-11-17)
 
 ### Asset re-check: PASS (`seven_arm_octopus_male`, s121/s122)
