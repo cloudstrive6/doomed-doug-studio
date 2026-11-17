@@ -58,3 +58,36 @@ VERDICT: FAIL (A only; B and C pass)
 VERDICT: PASS (A, B, C)
 
 Optional (graphic designer): on A, draw a small curled fist at the arm tip in front of Doug's face, and lower the brim so it doesn't merge with the arm. On C, apply the optional item 2 above.
+
+## Round 4: post-render (final.mp4, thumbnails, Shorts) (2026-11-17)
+
+**Main video** (24 samples, 717 s, qc.json clean). No black, blank, frozen or glitched frames. Every sample shows a
+clear subject that matches its chapter: the punch, mimic, thrower, blanket, glass octopus, seven arms, brooder,
+garden and deepest chapters, then the end screen. Doug stays on-model (red cap, white head) in every frame he
+appears in, including the goatfish and man-of-war costumes, the sub porthole and the pressure suit. The HUD
+(DOUG DEATHS 374→379, DEPTH, ARMS) is legible and never covers a drawing. Chapter tabs are legible and spelled
+correctly. No gore, no realistic violence, nothing nursery-coded. The dumbo octopus has a droopy eye and no
+smile. The "SPECIES: ???" label in THE DEEPEST is a factual "undescribed" tag, not a teaser card. The video
+ends cleanly on the end screen, and the dark rectangle there is the end-screen video slot.
+Nits, not blocking:
+- f_004 (THE MIMIC): the red "?" and "!" float far from both Doug and the octopus. This is probably mid-pop.
+- f_020 (THE GARDEN, thermometer): there is a faint grey speck cluster at the right edge.
+
+**Thumbnails A/B/C** (full size and _small): no change from Round 3. All three read at 168x94. Each has one
+focal creature, Doug in peril and short yellow text that complements the title without repeating it. None is
+misleading, since each image is drawn from the video. The Round 3 optional notes still stand: A has no
+visible fist, and C's Doug is small at feed size.
+
+**Shorts** (short01 50.5 s, short02 45.9 s, short03 45.9 s; previews plus frames at 1/10/25/38 s and the end):
+- The titles are legible: red text with an outline at the top, in 2 to 3 lines. short03 wraps to an orphan "Meters" line, which is acceptable.
+- The hooks land at 0 to 1 s over the correct drawing: the brooder (01), the blanket octopus (02) and the 6,957 m dumbo (03).
+- No drawing is cut off at the sides. The maps, depth bar and brooder all sit inside the 9:16 safe area.
+- The subtitles are large, white with an outline, and legible on dark, blue and cream backgrounds.
+- Each payoff is delivered before the end card: 53 months, the 10,000x size gap and 6,957 m. No "???" teaser card appears.
+- Each end card reads "FULL VIDEO: TAP BELOW", with Doug pointing and a red arrow pointing down.
+- Note: the preview PNG cuts its subtitle mid-word ("hundre") because `_compose` truncates it with `[:40]`. This happens only in the preview, not in the mp4.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+No required fixes.

@@ -54,3 +54,14 @@
 - Policy: cartoon only, no gore, no kid-coded cuteness, titles promise what the video delivers (depth gradient to 6,957 m, the punch,
   the 53-month brooder are all in the script).
 - 2026-11-17: packaged. Script 2 rounds (fact fixes), art 3 rounds (arm sac redraw, keyframe fixes), thumbnails approved after A Doug upscale. Risks: sourcing partly via press releases; no-Doug title test continues.
+
+## 2026-11-17, creative director: final package approval
+- Inputs: visual-screener PASS (main + shorts, no required fixes), qc.json clean (717 s, no problems), chapters 0:00-10:20 (9 items + intro, all >10 s, ascending).
+- Title kept: "The Creepiest Octopus at Every Depth, Down to 6,957 Meters" (58 chars, T3 depth gradient, subject in the first 4 words on mobile). Alt titles reviewed; none clearly stronger, no swap. The video delivers it: 9 octopuses on a monotonic depth axis, 5 m to 6,957 m.
+- Thumbnail A: the fist-arm lands on Doug's face, IT PUNCHES complements the title, half-lidded eyes, no smile (eerie, not cute). Reads at 168 px. B and C remain the A/B/C test variants.
+- Description: hook sentence matches the opening, 6 primary/press sources incl. Jamieson & Vecchione 2020 and Robison et al. 2014, cartoon-death disclaimer, AI-use disclosure, chapters filled from build/chapters.txt. Not made for kids; paid_promotion false.
+- First 60 s: thumbnail held as opening image, item 1 (octopuses punching fish) in the first sentence, payoff promise ("almost seven kilometers down, face to face with the deepest octopus anyone has ever filmed") by the second line, the punch twist (octopus decides when the group moves, punches the freeloaders) well inside 45 s. Sample frames f_001-f_003 on-model, HUD legible, labels clear.
+- Nits accepted (non-blocking): f_004 floating "?"/"!" mid-pop; f_020 faint speck at right edge.
+- Series bible: 050 row to be updated with the final title and status; deaths 6 (375-380), total 380.
+
+FINAL: APPROVED
