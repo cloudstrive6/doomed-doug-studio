@@ -1,0 +1,69 @@
+{
+ "background": "#12b8d8",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#12b8d8",
+   "color": "#12b8d8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 820,
+   "y": 470,
+   "rx": 520,
+   "ry": 330,
+   "fill": "#7fe3f2",
+   "color": "#7fe3f2",
+   "width": 0
+  },
+  {
+   "type": "asset",
+   "name": "day_octopus_punch",
+   "x": 840,
+   "y": 690,
+   "scale": 1.4,
+   "flip": true
+  },
+  {
+   "type": "doug",
+   "x": 185,
+   "y": 640,
+   "scale": 0.8,
+   "pose": "float",
+   "expression": "shock",
+   "facing": "right"
+  },
+  {
+   "type": "asset",
+   "name": "goatfish_costume",
+   "x": 185,
+   "y": 640,
+   "scale": 0.8
+  },
+  {
+   "type": "text",
+   "text": "IT PUNCHES",
+   "x": 640,
+   "y": 95,
+   "size": 130,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1240,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

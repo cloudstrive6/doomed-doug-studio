@@ -39,3 +39,17 @@
 - Shorts: short01 Brooder s146-s157 with hook (53 months, ends "Doug ran out first."), short02 Blanket s083-s094 with hook
   (size gap, ends on the death payoff), short03 Deepest s192-s201 (6,957 m opener, ends on 700 kg per thumbnail). Titles and
   descriptions are left blank for the youtube-titler.
+
+## 2026-11-17, creative director: package approved (thumbnails A/B/C + ranked titles)
+- `validate packaging` OK, `package check` OK. Pairings: A "The Creepiest Octopus at Every Depth, Down to 6,957 Meters" + IT PUNCHES;
+  B "Why Octopuses Get Creepier All the Way Down to 6,957 Meters" + IT LIVES HERE; C "Every Reason the Octopus Is the Ocean's Creepiest Animal" + 53 MONTHS.
+  Each text adds to its title rather than repeating it (no OCTOPUS/CREEPIEST/DEPTH/6,957 on the images).
+- **A fixed by CD before approval:** Doug + goatfish costume scaled 0.42 -> 0.80 and moved to (185, 640) in `thumbnail.json`, re-rendered.
+  At 168 px Doug was a speck; now the cap, shocked face and costume read, and the octopus's arm tip lands on his face, so "IT PUNCHES"
+  is shown, not just said. Octopus eyes are half-lidded and menacing, no smile: eerie, not cute.
+- B: approved as is. Yellow sub against black reads instantly at feed size, dent cracks visible, red cap in the porthole, the dumbo is
+  pale and blank-eyed (no mascot face). Strongest peril image of the three.
+- C: approved as is. Beard + calendar pages tell the waiting joke at a glance; the mother's fate is not drawn. Weakest of the three at
+  small size (Doug's face is small) but the 53 MONTHS text carries it.
+- Policy: cartoon only, no gore, no kid-coded cuteness, titles promise what the video delivers (depth gradient to 6,957 m, the punch,
+  the 53-month brooder are all in the script).
