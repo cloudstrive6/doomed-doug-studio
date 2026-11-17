@@ -1,5 +1,51 @@
 # 050 art review
 
+## Round 2 (art director, 2026-11-17)
+
+### Asset re-check: PASS (`seven_arm_octopus_male`, s121/s122)
+The redrawn sac reads as a closed, bulging pouch. It has a lilac fill, a white highlight arc and a black outline, and holds a wine-red
+coiled tube with a darker edge, pale sucker dots and a rounded tip. It no longer reads as a cut cross-section or a sore. The s121 arrow
+lands on the coil, not the eye. All 54 assets are now approved.
+
+Round-1 composition notes 2-5 are closed: the reef water is clean in s019-s025, Doug sits on the floor line in s187/s188, the s157
+beard sits on the floor, and the s121 arrow is on target.
+
+### Keyframes (`build/contact/sheet_01-18.png`, 214 shots + endslate): FAIL (11 fixes, all for the director)
+Style, Doug and palette are consistent. The zone ramp holds from 5 m to 6,957 m, Doug auto-inks correctly on dark grounds, and there
+is no gore. These are the fixes:
+
+1. **s037: the umbrella crosses the reserved counter zone.** The canopy runs under "DOUG DEATHS" and over the depth icon. Move the
+   umbrella so its rendered right edge is ≤ x 1280, or drop it below y 330.
+2. **s211, s212: the TV frame sits under the depth meter.** The TV is an inset frame, so its rendered right edge must be ≤ x 1280
+   (bible "Death counter" rule). Shrink it or shift it left.
+3. **Headline text collides with the creature.** Move each word clear of the drawing, with about 30 px of space:
+   - s018 "TWO THIRDS" on the octopus head
+   - s075 "THE BLANKET" on the cape
+   - s098 "SEE-THROUGH", s104 "ALONE" and s105 "THE EYES" on the glass octopus mantle
+   - s118 "THE SEVEN ARMS" on the mantle
+   - s124 "75 KG" on the mantle
+4. **s144: replace the Olympic rings.** They are a protected IOC mark, which is a policy and ad-suitability risk. Use two generic
+   torches or two plain calendar pages marked "GAMES" with the 4-year bar between them. Ask the illustrator if you need a torch.
+5. **s122: the number labels 1-7 don't line up with the arm tips.** The labels run from x 520 to 1270, but the tips sit at about
+   625-1155. Put one label under each tip, at a pitch of about 88 px.
+6. **s125: Doug hangs under the right pan.** Stand him in the pan with his feet on the pan line, and tilt the beam slightly down on
+   his side (80 kg > 75 kg).
+7. **s124: the "grown man" reads as a snowman** (two white discs). Use a plain stick man without a cap at the same height as the
+   octopus, or Doug himself.
+8. **s067-s071: the same wide shot five times in a row.** Each one shows Doug sitting at the centre of the shell bed between two
+   octopuses. Vary them: punch s068 in on Doug inside the silt puff, make s070 a close-up of Doug's "fine" face, and keep s067/s069
+   wide.
+9. **s136 → s137: the two shots are nearly identical** (only "!" is added). Make s137 a push-in on Doug in the "bowl", with the
+   octopus head looming and an alarmed expression. Show no beak contact.
+10. **s174: the depth bar's lower half is white**, which reads as ice or surface. Band it with the zone ramp instead (`#3a9ad9`
+    0-200, `#1b4f86` to 1,000, `#0b2447` below). Keep the whale at 2,000 m and Doug at 3,200 m.
+11. **s095, s096: the HUD says "ABOUT 20 M"** but the ground is twilight `#1b4f86`. Switch the depth label to "ABOUT 500 M" from
+    s095, matching s097.
+
+After fixing, re-render only the affected shots
+(`keyframes 050-octopus-alien-depths --shots s018,s037,s067,s068,s070,s075,s095,s096,s098,s104,s105,s118,s122,s124,s125,s137,s144,s174,s211,s212`)
+and send them back to me.
+
 ## Asset review (art director, 2026-11-17): FAIL (1 asset fix; 53 of 54 approved)
 
 I checked the five sheets in `assets/previews/050-*.png` and the illustrator's notes in `asset_requests.md`. I also rendered 44 keyframes in
