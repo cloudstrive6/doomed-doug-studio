@@ -18,3 +18,24 @@
   rule; do not stage a retrieval). Seven Arms death cuts on "started at the top": no bite shown. The Deepest sub crumples with no Doug visible.
   No cute eyes or smiles on any octopus (kid-appeal risk on an octopus episode is higher than usual).
 - Playlist `ocean` (playlist reset after three `animals`). Counter 374 -> 380.
+
+## 2026-11-17, director: shotlist (214 shots), asset requests (53), Shorts picks
+- HUD on every story shot: DOUG DEATHS (1590,162), `depth_icon` + DEPTH label (1590,238, stamped red-on-pink at item 9),
+  and an episode-only "ARMS: 8" size-28 label at (1590,284). The reserved zone therefore runs to y ~300 (wordart and labels
+  over x 1300-1860 stay at glyph top ≥ 312; checked in the generator). The ARMS edit is a full-frame cream card at s120
+  ("has eight arms."): 8 struck out, "7?" written, "7?" struck out, 8 rewritten, with `narrator_hand_pencil`; the HUD stays 8.
+- Backgrounds follow the ocean ramp: items 1-4 surface `#3a9ad9` (reef / open sand / shell bed / blue open water with a
+  sky strip), item 5 twilight `#1b4f86`, item 6 `#0f2a4f` (037's ~1,000 m step), items 7-8 midnight `#0b2447` (canyon wall,
+  then seamount slope), item 9 hadal `#020308`. s190 ("more than twice as deep") is a tall 1920x2700 `pan_down` from 3,200 M to 6,957 M.
+- Section headers ("The reef." / "Open water." / "The deep." / "The bottom.") are white 140 px header cards, `topbar: false`.
+- Cap continuity, logged one-offs: s072 Doug sits capless (`cap_off`) while `doug_cap` sits on the shell pile (one cap per
+  frame); the cap is simply back from item 4 (CD note). s157 brooder death: `on_back` with `cap_taken` and `doug_cap` on his chest
+  (the script's "cap on his chest"). Death images: goatfish / man-of-war / jelly / suit costumes flat with printed X eye and the cap on
+  top (375, 376, 377, 379); 378 Doug `on_back` dead; 380 crumpled sub with no Doug visible, then ghost Doug at the LIVE monitor.
+- Seven Arms death cuts on "started at the top": s137 is the hold with shake, s138 ("Doug has died. Again.") is the flat costume. No bite.
+- Garden: shimmer over cracks is pale blue `#8fb8d8` wavy lines, no steam, no boiling (CD note).
+- Sober beats s158-s160 on `#15181a`: no Doug, no counter, white "53 MONTHS", the empty egg cases, the optic-gland diagram.
+- s001 `scene_ref: thumbnail` waits for the graphic designer's thumbnail.json (validate flags it until then).
+- Shorts: short01 Brooder s146-s157 with hook (53 months, ends "Doug ran out first."), short02 Blanket s083-s094 with hook
+  (size gap, ends on the death payoff), short03 Deepest s192-s201 (6,957 m opener, ends on 700 kg per thumbnail). Titles and
+  descriptions are left blank for the youtube-titler.
