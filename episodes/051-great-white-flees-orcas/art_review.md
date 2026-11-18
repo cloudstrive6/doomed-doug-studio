@@ -121,3 +121,25 @@ C. **s067 arrowhead covers the gills.** Stop the arrow at the suit's right edge 
   hidden-arm pose under the costume would be cleaner.
 
 Re-check: re-render s055-s057, s062 and s067. Round 3 covers only fixes A-C.
+
+## Round 3 (art director, 2026-11-18): PASS
+
+Checked: full-res keyframes s055-s057, s062, s067, s166, s023 and s160, and contact sheets 02, 05, 06, 08, 14, 16, 17 and 18.
+
+1. Fix A (`shark_costume_sevengill` description): **PASS.** It now reads belly panel x -46..0, gill lines x +8..+113 / y -82..+12,
+   bbox x -196..+156, which matches the drawing.
+2. Fix B (kelp tuft): **PASS.** In s055-s057 the diver and Doug are now under the frond tuft, in open water, with the head and cap
+   fully clear. In s062 the orca silhouette sits under the tuft, and its bent fin curls back over open water and reads clearly.
+3. Fix C (s067 arrow): **PASS.** The arrowhead stops at the suit's right edge, and all 7 gill lines can be counted.
+4. Visual-screener re-stages checked for style: s023, the push-in through the cage bars, is on-model (gritted face, red cap,
+   seal-suit collar) and breaks the s022-s026 run. s160, the side-on coastline with tagged whites swimming east, breaks the map run
+   and uses the shallow-coast zone colours. Both are on-palette, and the HUD is clear.
+5. s166 (round 2 note): the arrow tail now starts inside the map frame.
+
+### Non-blocking notes
+- s055-s057: Doug/diver at x 330 overlaps the right stipe of the left kelp pair (x ~370-400). The gun arm and the cap brim cross it.
+  It still reads, but x ~265 would centre him in the gap between the stipes.
+- s166: the red arrowhead lands on the first tagged-shark icon (~630, 840). Ending it at about x 590 would keep the icon clean.
+- s068 note from round 2 (Doug's arm poking out of the costume) still stands as optional.
+
+Art approved from the art-director side. Stage to `art_approved` only once the visual-screener's round also passes.

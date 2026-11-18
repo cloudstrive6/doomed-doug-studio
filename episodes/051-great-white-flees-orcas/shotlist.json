@@ -7573,7 +7573,7 @@
      {
       "type": "asset",
       "name": "diver",
-      "x": 330,
+      "x": 265,
       "y": 790,
       "scale": 0.4
      },
@@ -7783,7 +7783,7 @@
      {
       "type": "asset",
       "name": "diver",
-      "x": 330,
+      "x": 265,
       "y": 790,
       "scale": 0.4
      },
@@ -8011,7 +8011,7 @@
      },
      {
       "type": "doug",
-      "x": 330,
+      "x": 265,
       "y": 790,
       "scale": 0.42,
       "pose": "float",
@@ -9671,7 +9671,7 @@
       "x": 960,
       "y": 600,
       "scale": 0.45,
-      "pose": "float",
+      "pose": "stand",
       "expression": "hopeful",
       "facing": "right"
      },
@@ -12428,8 +12428,8 @@
       "h": 90,
       "text": "GREAT WHITE!",
       "tail": [
-       470,
-       280
+       445,
+       235
       ],
       "appear": 0.45
      },
@@ -12563,9 +12563,9 @@
      },
      {
       "type": "spray",
-      "x": 420,
-      "y": 290,
-      "r": 70,
+      "x": 470,
+      "y": 215,
+      "r": 28,
       "color": "#ffffff",
       "density": 0.5,
       "appear": 0.3
@@ -14456,8 +14456,8 @@
       "h": 110,
       "text": "NOT A SINGLE SHARK.",
       "tail": [
-       1450,
-       560
+       1530,
+       630
       ],
       "appear": 0.45
      },
@@ -22730,23 +22730,23 @@
      {
       "type": "arrow",
       "from": [
-       674.8600000000001,
-       895.608
+       720,
+       866
       ],
       "to": [
-       667.664,
-       856.568
+       990,
+       846
       ],
       "color": "#e0201b",
       "width": 8,
-      "bend": -40,
+      "bend": -15,
       "appear": 0.4
      },
      {
       "type": "label",
       "text": "EAST",
-      "x": 667.664,
-      "y": 726.568,
+      "x": 1060,
+      "y": 790,
       "size": 40,
       "bold": true,
       "boil": 0.3,
@@ -23669,7 +23669,7 @@
      {
       "type": "asset",
       "name": "great_white_shark",
-      "x": 627.12,
+      "x": 707.12,
       "y": 842.24,
       "scale": 0.06,
       "flip": false,
@@ -23677,7 +23677,7 @@
      },
      {
       "type": "circle",
-      "x": 623.12,
+      "x": 703.12,
       "y": 832.24,
       "r": 6,
       "fill": "#ffe24a",
@@ -23688,7 +23688,7 @@
      {
       "type": "asset",
       "name": "great_white_shark",
-      "x": 687.12,
+      "x": 767.12,
       "y": 842.24,
       "scale": 0.06,
       "flip": false,
@@ -23696,7 +23696,7 @@
      },
      {
       "type": "circle",
-      "x": 683.12,
+      "x": 763.12,
       "y": 832.24,
       "r": 6,
       "fill": "#ffe24a",
@@ -23707,7 +23707,7 @@
      {
       "type": "asset",
       "name": "great_white_shark",
-      "x": 747.12,
+      "x": 827.12,
       "y": 842.24,
       "scale": 0.06,
       "flip": false,
@@ -23715,7 +23715,7 @@
      },
      {
       "type": "circle",
-      "x": 743.12,
+      "x": 823.12,
       "y": 832.24,
       "r": 6,
       "fill": "#ffe24a",
@@ -23726,7 +23726,7 @@
      {
       "type": "asset",
       "name": "great_white_shark",
-      "x": 807.12,
+      "x": 887.12,
       "y": 842.24,
       "scale": 0.06,
       "flip": false,
@@ -23734,7 +23734,7 @@
      },
      {
       "type": "circle",
-      "x": 803.12,
+      "x": 883.12,
       "y": 832.24,
       "r": 6,
       "fill": "#ffe24a",
@@ -25365,25 +25365,15 @@
      {
       "type": "asset",
       "name": "small_car",
-      "x": 400,
-      "y": 1000,
-      "scale": 0.8
-     },
-     {
-      "type": "label",
-      "text": "SHARKS?",
-      "x": 380,
-      "y": 790,
-      "size": 26,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff"
+      "x": 150,
+      "y": 1060,
+      "scale": 1.6
      },
      {
       "type": "doug",
-      "x": 800,
-      "y": 724,
-      "scale": 0.5,
+      "x": 960,
+      "y": 825.2,
+      "scale": 1.15,
       "pose": "thumbs_up",
       "expression": "flat",
       "facing": "right"
@@ -26406,14 +26396,14 @@
      },
      {
       "type": "speech",
-      "x": 720,
-      "y": 140,
-      "w": 720,
+      "x": 920,
+      "y": 160,
+      "w": 740,
       "h": 90,
       "text": "GREATEST PLACE ON EARTH",
       "tail": [
-       1160,
-       236
+       1175,
+       232
       ],
       "appear": 0.3
      },
@@ -27405,15 +27395,25 @@
      },
      {
       "type": "speech",
-      "x": 900,
-      "y": 560,
+      "x": 640,
+      "y": 470,
       "w": 330,
       "h": 100,
       "text": "EXCITING!",
       "tail": [
-       560,
-       615
+       540,
+       585
       ],
+      "appear": 0.3
+     },
+     {
+      "type": "circle",
+      "x": 647,
+      "y": 512,
+      "r": 6,
+      "fill": "#ffffff",
+      "color": "#ffffff",
+      "width": 0,
       "appear": 0.3
      },
      {
@@ -28135,8 +28135,8 @@
      {
       "type": "spray",
       "x": 407.0,
-      "y": 951.5,
-      "r": 44.0,
+      "y": 948.75,
+      "r": 27.500000000000004,
       "color": "#b8b8b0",
       "density": 0.25,
       "appear": 0.5
@@ -28597,8 +28597,8 @@
      {
       "type": "spray",
       "x": 407.0,
-      "y": 951.5,
-      "r": 44.0,
+      "y": 948.75,
+      "r": 27.500000000000004,
       "color": "#b8b8b0",
       "density": 0.25
      },
