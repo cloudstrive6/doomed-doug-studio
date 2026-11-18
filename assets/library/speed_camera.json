@@ -1,0 +1,284 @@
+{
+ "name": "speed_camera",
+ "description": "Roadside speed camera: grey box housing facing right with a dark lens window and hood, small white flash panel on top, tall grey pole, concrete foot. No text, no brand. Anchor bottom-centre (foot on the verge); x -90..90, y -598..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "speed camera",
+  "road",
+  "traffic",
+  "051"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -56.0,
+     0.0
+    ],
+    [
+     -46.0,
+     -32.0
+    ],
+    [
+     46.0,
+     -32.0
+    ],
+    [
+     56.0,
+     0.0
+    ]
+   ],
+   "fill": "#b8b4aa",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 10.0,
+   "y": -14.0,
+   "r": 24,
+   "color": "#9a968c",
+   "density": 0.3
+  },
+  {
+   "type": "rect",
+   "x": -12.0,
+   "y": -470.0,
+   "w": 24.0,
+   "h": 440.0,
+   "fill": "#8f969d",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     4.0,
+     -460.0
+    ],
+    [
+     4.0,
+     -40.0
+    ]
+   ],
+   "width": 3,
+   "color": "#b9c0c6"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90.0,
+     -566.0
+    ],
+    [
+     60.0,
+     -566.0
+    ],
+    [
+     82.0,
+     -552.0
+    ],
+    [
+     82.0,
+     -462.0
+    ],
+    [
+     -90.0,
+     -462.0
+    ]
+   ],
+   "fill": "#7b838b",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -88.0,
+     -470.0
+    ],
+    [
+     78.0,
+     -470.0
+    ],
+    [
+     80.0,
+     -464.0
+    ],
+    [
+     -88.0,
+     -464.0
+    ]
+   ],
+   "fill": "#5c636a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     60.0,
+     -564.0
+    ],
+    [
+     80.0,
+     -552.0
+    ],
+    [
+     80.0,
+     -464.0
+    ],
+    [
+     60.0,
+     -464.0
+    ]
+   ],
+   "fill": "#5c636a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -30.0,
+   "y": -520.0,
+   "r": 40,
+   "color": "#959da4",
+   "density": 0.25
+  },
+  {
+   "type": "rect",
+   "x": 48.0,
+   "y": -544.0,
+   "w": 30.0,
+   "h": 60.0,
+   "fill": "#16191c",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 63.0,
+   "y": -514.0,
+   "r": 11.0,
+   "fill": "#2c3a4a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 60.0,
+   "y": -518.0,
+   "r": 3.0,
+   "fill": "#9fd0ee",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     44.0,
+     -548.0
+    ],
+    [
+     90.0,
+     -552.0
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -60.0,
+   "y": -598.0,
+   "w": 76.0,
+   "h": 32.0,
+   "fill": "#9aa1a8",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -52.0,
+   "y": -592.0,
+   "w": 60.0,
+   "h": 20.0,
+   "fill": "#f4f6f0",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40.0,
+     -590.0
+    ],
+    [
+     -40.0,
+     -574.0
+    ]
+   ],
+   "width": 1,
+   "color": "#b0b4b8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -28.0,
+     -590.0
+    ],
+    [
+     -28.0,
+     -574.0
+    ]
+   ],
+   "width": 1,
+   "color": "#b0b4b8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -16.0,
+     -590.0
+    ],
+    [
+     -16.0,
+     -574.0
+    ]
+   ],
+   "width": 1,
+   "color": "#b0b4b8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -4.0,
+     -590.0
+    ],
+    [
+     -4.0,
+     -574.0
+    ]
+   ],
+   "width": 1,
+   "color": "#b0b4b8"
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "name": "oil_drop",
+ "description": "Fat cartoon droplet of golden amber oil #e8a33a with a honey highlight, darker lower edge, white shine and a thick dark outline. No face. Anchor centre; x -56..56, y -80..80.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "icon",
+  "oil",
+  "drop",
+  "liquid",
+  "051"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     0.0,
+     -80.0
+    ],
+    [
+     18.0,
+     -50.0
+    ],
+    [
+     42.0,
+     -14.0
+    ],
+    [
+     56.0,
+     22.0
+    ],
+    [
+     50.0,
+     56.0
+    ],
+    [
+     26.0,
+     76.0
+    ],
+    [
+     0.0,
+     80.0
+    ],
+    [
+     -26.0,
+     76.0
+    ],
+    [
+     -50.0,
+     56.0
+    ],
+    [
+     -56.0,
+     22.0
+    ],
+    [
+     -42.0,
+     -14.0
+    ],
+    [
+     -18.0,
+     -50.0
+    ]
+   ],
+   "fill": "#e8a33a",
+   "width": 5,
+   "color": "#3a2410",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0.0,
+     -66.0
+    ],
+    [
+     10.0,
+     -44.0
+    ],
+    [
+     -4.0,
+     -10.0
+    ],
+    [
+     -30.0,
+     20.0
+    ],
+    [
+     -40.0,
+     10.0
+    ],
+    [
+     -30.0,
+     -16.0
+    ],
+    [
+     -12.0,
+     -46.0
+    ]
+   ],
+   "fill": "#f6c86a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 26.0,
+   "y": 50.0,
+   "r": 22,
+   "color": "#c47f1e",
+   "density": 0.35
+  },
+  {
+   "type": "ellipse",
+   "x": -26.0,
+   "y": 20.0,
+   "rx": 9.0,
+   "ry": 16.0,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -10.0,
+   "y": -14.0,
+   "r": 5.0,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0.0,
+     -80.0
+    ],
+    [
+     18.0,
+     -50.0
+    ],
+    [
+     42.0,
+     -14.0
+    ],
+    [
+     56.0,
+     22.0
+    ],
+    [
+     50.0,
+     56.0
+    ],
+    [
+     26.0,
+     76.0
+    ],
+    [
+     0.0,
+     80.0
+    ],
+    [
+     -26.0,
+     76.0
+    ],
+    [
+     -50.0,
+     56.0
+    ],
+    [
+     -56.0,
+     22.0
+    ],
+    [
+     -42.0,
+     -14.0
+    ],
+    [
+     -18.0,
+     -50.0
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#3a2410",
+   "smooth": true
+  }
+ ]
+}

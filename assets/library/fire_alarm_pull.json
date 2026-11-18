@@ -1,0 +1,201 @@
+{
+ "name": "fire_alarm_pull",
+ "description": "Classic red wall fire-alarm pull station: red #e0201b box with a darker side face, a blank white stripe at the top (no text), a dark recess with a white T-shaped pull handle pulled DOWN (motion ticks), two screws. Anchor centre, x -80..90, y -118..128.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "fire alarm",
+  "alarm",
+  "emergency",
+  "051"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     70.0,
+     -118.0
+    ],
+    [
+     90.0,
+     -100.0
+    ],
+    [
+     90.0,
+     126.0
+    ],
+    [
+     70.0,
+     118.0
+    ]
+   ],
+   "fill": "#9e1410",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80.0,
+     118.0
+    ],
+    [
+     -70.0,
+     128.0
+    ],
+    [
+     90.0,
+     128.0
+    ],
+    [
+     70.0,
+     118.0
+    ]
+   ],
+   "fill": "#7a0e0b",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -80.0,
+   "y": -118.0,
+   "w": 150.0,
+   "h": 236.0,
+   "fill": "#e0201b",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": -40.0,
+   "y": 60.0,
+   "r": 40,
+   "color": "#c81a16",
+   "density": 0.2
+  },
+  {
+   "type": "rect",
+   "x": -66.0,
+   "y": -104.0,
+   "w": 122.0,
+   "h": 22.0,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -44.0,
+   "y": -60.0,
+   "w": 80.0,
+   "h": 110.0,
+   "fill": "#5a0a08",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -14.0,
+   "y": -52.0,
+   "w": 20.0,
+   "h": 64.0,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -52.0,
+   "y": 12.0,
+   "w": 96.0,
+   "h": 26.0,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50.0,
+     34.0
+    ],
+    [
+     40.0,
+     34.0
+    ]
+   ],
+   "width": 2,
+   "color": "#bdbdbd"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -70.0,
+     52.0
+    ],
+    [
+     -70.0,
+     72.0
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -56.0,
+     60.0
+    ],
+    [
+     -56.0,
+     78.0
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     52.0,
+     52.0
+    ],
+    [
+     52.0,
+     72.0
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -64.0,
+   "y": 102.0,
+   "r": 5.0,
+   "fill": "#c0c0c0",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 54.0,
+   "y": 102.0,
+   "r": 5.0,
+   "fill": "#c0c0c0",
+   "width": 2,
+   "color": "#000000"
+  }
+ ]
+}
