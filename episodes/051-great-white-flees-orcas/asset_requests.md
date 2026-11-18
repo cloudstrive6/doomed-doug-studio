@@ -71,7 +71,7 @@ red `#ffd2cc` / `#e0201b` at The Empty Bay). It's a relabel, so nothing needs dr
   (+200, -120).
 
 ### `sevengill_shark` (s052, s054-s060, s062-s063, s065, s068-s069, s142-s144)
-- **Done (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets.png`; x -404..398, y -104..126.
+- **Done, round 2 (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets-r2.png`; mouth now straight and down-turned at the corner. x -404..398, y -104..126.
 - Broadnose sevengill shark (*Notorynchus cepedianus*), side view facing right. It needs to look clearly different from
   `great_white_shark`:
   - a broad, blunt, rounded snout with small eyes;
@@ -84,7 +84,7 @@ red `#ffd2cc` / `#e0201b` at The Empty Bay). It's a relabel, so nothing needs dr
   as the hero. Keep a clean outer outline: it's also used as a silhouette with a red rim (s052, s142).
 
 ### `bronze_whaler` (s137-s142, s148-s149, s151-s154)
-- **Done (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets.png`; x -372..380, y -128..128.
+- **Done, round 2 (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets-r2.png`; mouth now straight and down-turned. x -372..380, y -128..128.
 - Bronze whaler or copper shark (*Carcharhinus brachyurus*), side view facing right. It's a slender requiem shark:
   - a **bronze to olive-grey back with a coppery sheen** fading to a white belly;
   - a bluntly pointed snout and a round dark eye;
@@ -95,7 +95,7 @@ red `#ffd2cc` / `#e0201b` at The Empty Bay). It's a relabel, so nothing needs dr
   swarms of 3-5 at 0.4.
 
 ### `kelp_stalk` (s053-s057, s061-s069, s071)
-- **Done (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets.png`; float bulb at (-12,-588); fronds stream right to x +90.
+- **Done, round 2 (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets-r2.png`; olive 40x60 bulb at (-12,-606), S-bend stipe, 7 ribbon fronds streaming +x only. **New bbox x -80..+398, y -732..0** (fronds now reach ~+320 at 0.8 to the right of each anchor).
 - One stand of False Bay sea-bamboo kelp (*Ecklonia maxima*): a rock holdfast at the bottom, a long, smooth, olive-brown
   hollow stipe rising nearly straight with a gentle bend, a gas float bulb near the top, and a tuft of long, flat,
   strap-like fronds streaming to one side. Use darker and lighter olive-brown shading.
@@ -187,7 +187,7 @@ red `#ffd2cc` / `#e0201b` at The Empty Bay). It's a relabel, so nothing needs dr
 ## 3. The Cousins
 
 ### `shark_costume_sevengill` (s067-s069)
-- **Done (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets.png`; gill lines x 14..79 (they run over the belly panel edge so all seven show).
+- **Done, round 2 (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets-r2.png`; belly panel now x -46..0, torso widened on the right to ~+122 (**bbox x -196..+156**, y -336..+70); 7 gill lines (width 5, gaps >= 12) at x +8..+113, y -82..+12, centre about local (+60, -35) = (936, 559) for the s067 arrow at 0.6. Countable at 0.45.
 - Doug's library `shark_costume` (same felt suit, fit, anchor = hips, bbox about x -196..+124, y -336..+70), with
   **seven** hand-drawn black marker gill lines instead of three (slightly wobbly, unevenly spaced, so they're clearly
   drawn on) and a scatter of small black marker dots on the grey felt for the spots.
@@ -200,7 +200,7 @@ red `#ffd2cc` / `#e0201b` at The Empty Bay). It's a relabel, so nothing needs dr
 ## 5. The Seals
 
 ### `elephant_seal_bull` (s112-s113)
-- **Done (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets.png`; faces left; x -446..462, y -406..0.
+- **Done, round 2 (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets-r2.png`; stray whisker replaced by 3 short ticks, proboscis seam removed, short mouth line added. Faces left; bbox x -430..462, y -406..0.
 - An adult male northern elephant seal, hauled out side-on and facing left toward Doug (who lies to its left). It's
   enormous and heavy:
   - a grey-brown body;
@@ -212,7 +212,7 @@ red `#ffd2cc` / `#e0201b` at The Empty Bay). It's a relabel, so nothing needs dr
   (with a purple `#5e4670` glow, because it's on brown rock) and then in full colour.
 
 ### `elephant_seal_bull_flat` (s114-s115)
-- **Done (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets.png`; faces left, head at the left end, under y -120 from x -450 to -165; x -474..462.
+- **Done, round 2 (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets-r2.png`; chest shield moved to the front underside behind the head (x -348..-222, down to the ground line), scallops only, no speckle. Faces left, head at the left end, under y -120 from x -450 to -165; bbox x -462..474, y -240..0.
 - The same bull, now lying fully flat and relaxed on its belly, head down on the rock, eyes shut and content, with its
   bulk spread wide. It's the "rolled onto him" image: the shotlist puts `seal_costume_flat` (drawn first) sticking out from under its
   left end (it ends at about local x -165, so keep the bull's left edge low and flat there) and `doug_cap` on a rock further left.

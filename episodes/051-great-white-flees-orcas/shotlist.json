@@ -2107,34 +2107,26 @@
      {
       "type": "asset",
       "name": "elephant_seal_pup",
-      "x": 1000,
-      "y": 285,
-      "scale": 0.3,
+      "x": 1215,
+      "y": 326,
+      "scale": 0.23,
       "appear": 0.0
      },
      {
       "type": "asset",
       "name": "elephant_seal_pup",
-      "x": 1090,
-      "y": 285,
-      "scale": 0.3,
+      "x": 1297,
+      "y": 326,
+      "scale": 0.23,
       "appear": 0.1
      },
      {
       "type": "asset",
       "name": "elephant_seal_pup",
-      "x": 1180,
-      "y": 285,
-      "scale": 0.3,
+      "x": 1379,
+      "y": 326,
+      "scale": 0.23,
       "appear": 0.2
-     },
-     {
-      "type": "asset",
-      "name": "elephant_seal_pup",
-      "x": 1270,
-      "y": 285,
-      "scale": 0.3,
-      "appear": 0.30000000000000004
      },
      {
       "type": "asset",
@@ -9477,11 +9469,11 @@
       "type": "arrow",
       "from": [
        1250,
-       380
+       400
       ],
       "to": [
-       960,
-       450
+       935,
+       560
       ],
       "color": "#e0201b",
       "width": 8,
@@ -11811,7 +11803,7 @@
       "name": "orca_fin_bent",
       "x": 424.86000000000007,
       "y": 875.608,
-      "scale": 0.1,
+      "scale": 0.16,
       "appear": 0.4
      },
      {
@@ -13076,37 +13068,23 @@
      {
       "type": "asset",
       "name": "elephant_seal_pup",
-      "x": 880,
-      "y": 285,
-      "scale": 0.32
+      "x": 1165,
+      "y": 326,
+      "scale": 0.23
      },
      {
       "type": "asset",
       "name": "elephant_seal_pup",
-      "x": 990,
-      "y": 285,
-      "scale": 0.32
+      "x": 1247,
+      "y": 326,
+      "scale": 0.23
      },
      {
       "type": "asset",
       "name": "elephant_seal_pup",
-      "x": 1100,
-      "y": 285,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "elephant_seal_pup",
-      "x": 1210,
-      "y": 285,
-      "scale": 0.32
-     },
-     {
-      "type": "asset",
-      "name": "elephant_seal_pup",
-      "x": 1320,
-      "y": 285,
-      "scale": 0.32
+      "x": 1329,
+      "y": 326,
+      "scale": 0.23
      },
      {
       "type": "asset",
@@ -23570,14 +23548,14 @@
       "name": "orca_fin_bent",
       "x": 408.68399999999997,
       "y": 864.6640000000001,
-      "scale": 0.12
+      "scale": 0.16
      },
      {
       "type": "asset",
       "name": "orca_fin_bent",
       "x": 464.86000000000007,
       "y": 885.608,
-      "scale": 0.12
+      "scale": 0.16
      },
      {
       "type": "asset",
@@ -24536,7 +24514,7 @@
       "name": "orca_fin_bent",
       "x": 587.664,
       "y": 876.568,
-      "scale": 0.12,
+      "scale": 0.16,
       "appear": 0.35
      },
      {
