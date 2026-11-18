@@ -1,0 +1,230 @@
+{
+ "background": "#ff5a1f",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#ff5a1f",
+   "color": "#ff5a1f",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 330,
+   "w": 1280,
+   "h": 390,
+   "fill": "#1f6fc0",
+   "color": "#1f6fc0",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     330
+    ],
+    [
+     1280,
+     330
+    ]
+   ],
+   "color": "#0b3a6e",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "shark_fin",
+   "x": 70,
+   "y": 332,
+   "scale": 0.5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     125,
+     294.0
+    ],
+    [
+     205,
+     294.0
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     125,
+     318.0
+    ],
+    [
+     205,
+     318.0
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "shark_fin",
+   "x": 260,
+   "y": 332,
+   "scale": 0.42
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     306,
+     300.08
+    ],
+    [
+     373,
+     300.08
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     306,
+     320.24
+    ],
+    [
+     373,
+     320.24
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "shark_fin",
+   "x": 440,
+   "y": 332,
+   "scale": 0.36
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     479,
+     304.64
+    ],
+    [
+     536,
+     304.64
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     479,
+     321.92
+    ],
+    [
+     536,
+     321.92
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 6
+  },
+  {
+   "type": "ellipse",
+   "x": 770,
+   "y": 452,
+   "rx": 420,
+   "ry": 34,
+   "fill": "#ffffff",
+   "color": "#ffffff",
+   "width": 0
+  },
+  {
+   "type": "ellipse",
+   "x": 770,
+   "y": 452,
+   "rx": 440,
+   "ry": 40,
+   "color": "#bfe8ff",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "orca",
+   "x": 760,
+   "y": 560,
+   "scale": 1.0,
+   "rotate": -6
+  },
+  {
+   "type": "doug",
+   "x": 980,
+   "y": 385,
+   "scale": 0.5,
+   "pose": "float",
+   "expression": "shock",
+   "facing": "left"
+  },
+  {
+   "type": "asset",
+   "name": "shark_costume",
+   "x": 980,
+   "y": 385,
+   "scale": 0.5,
+   "flip": true
+  },
+  {
+   "type": "text",
+   "text": "!",
+   "x": 1060,
+   "y": 215,
+   "size": 120,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 12,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "GONE ALL SEASON",
+   "x": 640,
+   "y": 85,
+   "size": 118,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1240,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

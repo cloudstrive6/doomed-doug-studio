@@ -108,3 +108,49 @@ VERDICT: PASS
 - **s057 (director):** the top of the "LARGEST ON EARTH" caption touches the lowest sevengill's belly and fins (about 600-820, 925). The caption is still fully legible. If someone touches this shot again, nudge that shark up about 30 px or move it right of the caption.
 
 No gore, no kids'-show tone, and Doug is on-model in every shot checked. Visual screening for art_approved is passed.
+
+## Round 4: thumbnail screen, variants A/B/C (2026-11-18)
+
+Scope: `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` at 1280x720 and their `_small` versions at 168x94 (viewed at 1x and at 3x nearest-neighbour), checked against the top 3 packaging candidates in `metadata.json`. Thumb-text claims were checked in `facts.md`. "IN MINUTES" is the Farallones "within minutes" finding (MBA release). "ZERO IN 2019" comes from the Shark Spotters 2019 annual report. "GONE ALL SEASON" fits the "up to a year" and Months band.
+
+VERDICT: FAIL (B blocks; A has one cheap fix; C passes)
+
+### Variant A: "IN MINUTES" / "Why the Deadliest Shark Flees Orcas for Up to a Year" — PASS after fix 1
+At feed size the great white reads instantly, and it is fleeing left, away from the orcas, with speed lines. Doug is on-model (red cap, white head, shock face, shark costume) and readable against the blue water. The text is legible and spelled right. No gore or kid tone, and it fits the title.
+1. **(graphic designer) thumbnail.json:** the tip of the left orca fin's hooked top runs into the black outline of the final "S" (about x 975-1060, y 105-145). At 168x94 the first fin merges into the letter, so the threat stops reading as a separate shape. Move both orca fins down about 40 px and right about 30 px (or shift the text block about 40 px left) so there is a clear gap of at least 20 px between the fin and the outline.
+
+### Variant B: "GONE ALL SEASON" / "Why Great White Sharks Flee the One Animal That Kills Them" — FAIL
+2. **(graphic designer) thumbnail_test_b.json, gore risk:** the orca is drawn as a silhouette with an 8 px red rim. Its dither texture comes out as a red speckle spray drifting off the body into the water (about x 80-600, y 540-720). Against blue water, a red mist around a black predator reads as blood in the water. That breaks the no-gore rule and is an advertiser-friendliness risk. Remove the red rim and red texture completely. Outline in black or white only (for example a 6 px white rim), with no red particles anywhere in the water.
+3. **(graphic designer) thumbnail_test_b.json, unreadable threat:** with `silhouette: true` and `rotate: -30`, the orca is a featureless black hump with a stub fin cut off at the bottom of the frame. There is no white eye patch, saddle or tall dorsal fin, so at 168x94 it reads as a rock or blob. The title's "One Animal That Kills Them" therefore has no visible animal. Draw the normal orca asset (not a silhouette), unrotated or tilted no more than 10 degrees, large enough that the white eye patch and dorsal fin are on-frame (keep the dorsal fin above y 600). Keep Doug riding it in shock.
+4. **(graphic designer, optional):** the brief's concept for B was the three-panel grid (full bay, orcas arrive, empty bay with Doug's floating cap). That is a valid alternative to fixes 2-3, and it would make "GONE ALL SEASON" literal. If you use it, keep the panels to 3 and the cap at least 25 px tall at feed size.
+Doug in B is on-model and the text is legible. Those parts can stay.
+
+### Variant C: "ZERO IN 2019" / "Why the Scariest Sharks Gave Up False Bay to Orcas" — PASS
+The crossed-out great white fin is the clear focal point and reads at feed size. The two bent orca fins on the horizon and Doug (on-model, gritted teeth, shark costume) between them read as threat and victim. The text is legible and the claim is sourced. No gore or kid tone.
+- Non-blocking: the fin tip tucks behind "ZERO". It still reads as a fin, but dropping the fin about 25 px would give it a clean silhouette. The orca fins are small at 168x94 (about 12 px). They still read, but scaling them about 1.2x would help.
+
+Re-check for round 5: re-render `thumbnail.png` and `thumbnail_b.png` and their smalls. C needs no re-check unless it is touched.
+
+## Round 5: thumbnail re-screen, variants A/B/C (2026-11-18)
+
+Scope: `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` at 1280x720 and their `_small` versions at 168x94 (viewed at 1x and at 3x nearest-neighbour). The renders are current: they share an 18:30 timestamp with `thumbnail.json`, `thumbnail_test_b.json` and `thumbnail_test_c.json`. I compared each against its top-3 title in `metadata.json`.
+
+VERDICT: PASS (A PASS, B PASS, C PASS)
+
+### Variant A: "IN MINUTES" / "Why the Deadliest Shark Flees Orcas for Up to a Year" — PASS
+- Round 4 fix 1 is resolved. Both orca fins sit lower and further right. The nearest fin edge is about 25-35 px from the final "S" outline, and at 168x94 the two fins read as separate shapes from the text.
+- The new worried brow and the two sweat drops on the great white read as "scared shark" at full size. At feed size the shark still reads as fleeing left, helped by the speed lines on the tail side.
+- Doug is on-model: red cap, white head, shocked mouth, shark costume. The text is legible and there is no gore.
+
+### Variant B: "GONE ALL SEASON" / "Why Great White Sharks Flee the One Animal That Kills Them" — PASS
+- Round 4 fix 2 (gore risk) is resolved. The red rim and red speckle are gone, and there is no red anywhere in the water.
+- Round 4 fix 3 (unreadable threat) is resolved. The orca is now the full asset, only slightly tilted. Its white eye patch, saddle, belly and tall dorsal fin are all on-frame, and it reads as an orca immediately at 168x94. The title's "One Animal" is now visible.
+- Three shark fins with speed lines leave along the horizon, which makes "GONE" literal.
+- The new yellow "!" (black outline) is legible at full size and still visible at feed size. It sits clear of Doug's head and just above his costume fin tip, without touching it. Doug is on-model and in shock, standing on the orca's back. The white text on orange is crisp.
+- Non-blocking (graphic designer): the white splash ellipse behind the orca is a large flat disc. At feed size it reads a little like an ice floe or plate. Thinning it to a ring or shrinking it about 30% would make it read as wake. Not required.
+
+### Variant C: "ZERO IN 2019" / "Why the Scariest Sharks Gave Up False Bay to Orcas" — PASS
+- C is unchanged from round 4 and still passes. The crossed-out fin is the focal point, the orca fins and Doug read, and there is no gore.
+- The round 4 non-blocking notes still apply and remain optional: drop the fin tip clear of "ZERO", and scale the orca fins about 1.2x.
+
+No required fixes. All three variants are cleared for the packaging gate.

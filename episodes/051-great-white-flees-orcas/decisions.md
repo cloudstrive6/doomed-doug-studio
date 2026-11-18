@@ -62,3 +62,52 @@ and in order. Choices for the art director and editor:
   - short02 is The Year, s118-s127.
   - short03 is The Empty Bay, s182-s191.
   - Each one ends on its own payoff line. Titles and descriptions are left for the titler.
+
+## 2026-11-18: package A/B/C, CD gate: CHANGES REQUESTED (B only; not staged)
+I reviewed `build/thumbnail.png`, `thumbnail_b.png` and `thumbnail_c.png` at full size and feed size (`*_small.png`), paired with
+their titles in `metadata.json` `packaging.variants`. `package check --dry-run` returns OK. There is no visual-screener report on
+the thumbnails yet (`visual_review.md` round 3 covers keyframes only and skipped s001). Staging `packaged` needs that screener PASS too.
+
+- **A: APPROVED.** Title "Why the Deadliest Shark Flees Orcas for Up to a Year" with the text "IN MINUTES".
+  - The text and title work as a pair: it leaves in minutes and stays away up to a year. Both claims are sourced (MBA release on Jorgensen et al. 2019).
+  - The image reads at feed size: a big shark bolting left, two bent fins, and Doug left behind. I would click it.
+  - Optional polish, not blocking: give the shark a worried eye or a sweat drop so it reads as afraid as well as fast.
+- **C: APPROVED.** Title "Why the Scariest Sharks Gave Up False Bay to Orcas" with the text "ZERO IN 2019".
+  - The crossed-out fin, Doug alone and the fins on the horizon tell the whole story at small size.
+  - "ZERO IN 2019" is sourced (Shark Spotters Annual Report 2019) and the video pays it off at The Empty Bay. I would click it.
+- **B: CHANGES REQUESTED.** Title "Why Great White Sharks Flee the One Animal That Kills Them" with the text "GONE ALL SEASON".
+  - I accept the designer's single scene in place of the three-panel grid. Doug in the shark costume standing on a surfacing orca,
+    unaware, is a stronger peril image than the grid, and it keeps B different from A and C.
+  - The current render does not deliver that image yet. Required changes:
+  1. The orca does not read as an orca. The rotated silhouette shows no dorsal fin, no eye patch and no white belly, so at feed size
+     it is a black hill. Draw it as the normal (not silhouette) `orca`, or add `orca_fin_bent` rising right behind Doug, plus a visible
+     white eye patch. The bent fin is the episode's visual signature in A and C, and B needs it too.
+  2. Remove the red speckle spray and the red rim. A red glow and red spatter on a black body in water reads as blood in a
+     shark-and-orca predation episode. That is gore-adjacent, and we do not want it on a thumbnail. Use a white water break or foam
+     line around the back instead.
+  3. Pay off "GONE ALL SEASON" in the picture. Right now nothing in the frame is gone. Add two or three small great white fins on the
+     horizon heading out of frame left with speed lines, or one fin with a small "BYE" arrow. Keep them small so Doug and the orca stay the hero.
+  4. Anchor the exclamation mark to Doug (just above his head, near the cap) or drop it. At (1130, 300) it floats in empty sky
+     and reads as a stray element.
+  5. Keep the orange sky and white text. That is a good contrast with A (yellow) and C (cyan). Check the result at 168 px after the changes.
+  - Re-render `build/thumbnail_b.png` and `_small.png`, then have the visual screener check all three variants. If B passes both the
+    screener and the four points above, the CD will approve it without another full round.
+
+## 2026-11-18: package A/B/C re-check, CD gate: APPROVED (all three; staging still waits on visual-screener round 5)
+I reviewed the re-rendered `build/thumbnail.png`, `thumbnail_b.png` and `thumbnail_c.png` at full size and at feed size (`*_small.png`).
+
+- **B: APPROVED.** All four required changes are in.
+  1. The orca now reads as an orca at 168 px: the normal asset with only a slight tilt, a tall dorsal fin, a white eye patch, a grey saddle
+     and a white belly. It reads as an orca, not a black hill. A straight fin instead of the bent fin is acceptable here, because the eye patch carries the read.
+  2. There is no red anywhere in the water. The JSON has no red rim or red texture, and a white foam ring sits around the back. The gore-adjacent risk is gone.
+  3. "GONE ALL SEASON" now pays off in the picture: three small great white fins on the horizon head out of frame left with speed lines.
+     They stay small, so Doug and the orca are still the heroes.
+  4. The "!" now sits just above Doug's head beside the costume fin, so it belongs to him.
+  5. The orange sky and white text are kept, and the contrast with A (yellow text, amber sky) and C (cyan) still holds at feed size.
+  Doug standing on the orca's back in the shark costume, shocked, is a peril image I would click.
+- **A: APPROVED.** The orca fins have moved clear of the final "S" and are now separate shapes at feed size (the screener's round 4
+  fix 1). The sweat drops and worried brow I asked for as optional polish are in, so the shark reads as afraid as well as fast.
+- **C: APPROVED.** It is unchanged. The fin tip under "ZERO" is still the screener's non-blocking note and is not required.
+
+Condition: do not stage `packaged` until the visual screener's round 5 check of A and B passes. Round 4 failed and no round 5
+report exists in `visual_review.md` yet. If round 5 passes with no new blocking item, this approval stands without another CD round.

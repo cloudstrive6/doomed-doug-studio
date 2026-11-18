@@ -1,0 +1,217 @@
+{
+ "background": "#ffb21e",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#ffb21e",
+   "color": "#ffb21e",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 300,
+   "w": 1280,
+   "h": 420,
+   "fill": "#1f6fc0",
+   "color": "#1f6fc0",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     300
+    ],
+    [
+     1280,
+     300
+    ]
+   ],
+   "color": "#0b3a6e",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "great_white_shark",
+   "x": 470,
+   "y": 590,
+   "scale": 1.3,
+   "flip": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     92,
+     522
+    ],
+    [
+     30,
+     506
+    ]
+   ],
+   "color": "#000000",
+   "width": 8
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     118,
+     470
+    ],
+    [
+     104,
+     500
+    ],
+    [
+     110,
+     512
+    ],
+    [
+     126,
+     512
+    ],
+    [
+     132,
+     500
+    ]
+   ],
+   "fill": "#bfe8ff",
+   "color": "#000000",
+   "width": 4,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     500
+    ],
+    [
+     140,
+     520
+    ],
+    [
+     144,
+     530
+    ],
+    [
+     156,
+     530
+    ],
+    [
+     160,
+     520
+    ]
+   ],
+   "fill": "#bfe8ff",
+   "color": "#000000",
+   "width": 4,
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1010,
+     470
+    ],
+    [
+     1270,
+     470
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 12
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1040,
+     540
+    ],
+    [
+     1280,
+     540
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 12
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1000,
+     610
+    ],
+    [
+     1240,
+     610
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 12
+  },
+  {
+   "type": "asset",
+   "name": "orca_fin_bent",
+   "x": 1100,
+   "y": 340,
+   "scale": 0.75
+  },
+  {
+   "type": "asset",
+   "name": "orca_fin_bent",
+   "x": 1235,
+   "y": 350,
+   "scale": 0.6
+  },
+  {
+   "type": "doug",
+   "x": 850,
+   "y": 405,
+   "scale": 0.4,
+   "pose": "float",
+   "expression": "shock",
+   "facing": "right"
+  },
+  {
+   "type": "asset",
+   "name": "shark_costume",
+   "x": 850,
+   "y": 405,
+   "scale": 0.4
+  },
+  {
+   "type": "text",
+   "text": "IN MINUTES",
+   "x": 610,
+   "y": 90,
+   "size": 140,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1240,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

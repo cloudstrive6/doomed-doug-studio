@@ -1,0 +1,105 @@
+{
+ "background": "#2fd0e0",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#2fd0e0",
+   "color": "#2fd0e0",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 430,
+   "w": 1280,
+   "h": 290,
+   "fill": "#1f6fc0",
+   "color": "#1f6fc0",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     430
+    ],
+    [
+     1280,
+     430
+    ]
+   ],
+   "color": "#0b3a6e",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "shark_fin",
+   "x": 310,
+   "y": 570,
+   "scale": 3.0
+  },
+  {
+   "type": "asset",
+   "name": "red_x",
+   "x": 310,
+   "y": 435,
+   "scale": 1.2
+  },
+  {
+   "type": "asset",
+   "name": "orca_fin_bent",
+   "x": 1050,
+   "y": 430,
+   "scale": 0.66
+  },
+  {
+   "type": "asset",
+   "name": "orca_fin_bent",
+   "x": 1200,
+   "y": 435,
+   "scale": 0.54
+  },
+  {
+   "type": "doug",
+   "x": 790,
+   "y": 550,
+   "scale": 0.45,
+   "pose": "float",
+   "expression": "gritted",
+   "facing": "right"
+  },
+  {
+   "type": "asset",
+   "name": "shark_costume",
+   "x": 790,
+   "y": 550,
+   "scale": 0.45
+  },
+  {
+   "type": "text",
+   "text": "ZERO IN 2019",
+   "x": 640,
+   "y": 95,
+   "size": 140,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "max_width": 1240,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
