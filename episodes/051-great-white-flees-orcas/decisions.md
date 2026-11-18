@@ -111,3 +111,4 @@ I reviewed the re-rendered `build/thumbnail.png`, `thumbnail_b.png` and `thumbna
 
 Condition: do not stage `packaged` until the visual screener's round 5 check of A and B passes. Round 4 failed and no round 5
 report exists in `visual_review.md` yet. If round 5 passes with no new blocking item, this approval stands without another CD round.
+- 2026-11-18: 051 packaged. Script 4 rounds (facts, sentence avg, CD reveal fix), art 3 rounds (+1 visual pass), thumbnails 2 rounds (B reworked), editor narrate+validate OK. Risks: 'up to a year' must stay literal; 101 bronze whaler 'sightings'; 11.6 min runtime; opening minute not eyeballed in draft.
