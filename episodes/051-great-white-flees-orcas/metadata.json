@@ -1,0 +1,192 @@
+{
+  "title": "Why the Deadliest Shark Flees Orcas for Up to a Year",
+  "alt_titles": [
+    "Why Great White Sharks Flee the One Animal That Kills Them",
+    "Why the Scariest Sharks Gave Up False Bay to Orcas",
+    "The Scariest Shark Leaves Within Minutes of Seeing Orcas",
+    "Orcas Swim Past and the Deadliest Shark Leaves for a Season"
+  ],
+  "packaging": {
+    "gate": "D4 packaging gate v1 (2026-11-09)",
+    "ranked_at": "2026-11-18T17:34:33Z",
+    "names": [
+      "great white",
+      "great whites",
+      "great white sharks",
+      "white shark",
+      "shark",
+      "sharks",
+      "orcas",
+      "Farallon",
+      "False Bay",
+      "Gansbaai"
+    ],
+    "candidates": [
+      {
+        "title": "Why the Deadliest Shark Flees Orcas for Up to a Year",
+        "thumb_text": "IN MINUTES",
+        "concept": "Brief's hero (also the opening image): a huge great white fills the left two-thirds fleeing out of frame with crude speed lines, two bent orca dorsal fins break the water on the right, tiny Doug in the shark costume (cap on top) left between them facing the fins",
+        "formula": "T9",
+        "chars": 52,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Great White Sharks Flee the One Animal That Kills Them",
+        "thumb_text": "GONE ALL SEASON",
+        "concept": "Grid fallback: three panels, a bay full of great white fins, two bent orca fins arriving, then the same bay empty except Doug's red cap floating",
+        "formula": "T9",
+        "chars": 58,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why the Scariest Sharks Gave Up False Bay to Orcas",
+        "thumb_text": "ZERO IN 2019",
+        "concept": "Empty bay: Seal Island under a grey sky, a Shark Spotters flag pole and tally board crossed out, tiny Doug alone in the shark costume (cap on top) as two bent fins approach from the horizon",
+        "formula": "T9",
+        "chars": 50,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Scariest Shark Leaves Within Minutes of Seeing Orcas",
+        "thumb_text": "GONE ALL SEASON",
+        "concept": "Hero variant: the great white mid-turn with speed lines, a giant stopwatch reading ABOUT 5 MIN behind it, two bent fins on the right",
+        "formula": "T4",
+        "chars": 56,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Orcas Swim Past and the Deadliest Shark Leaves for a Season",
+        "thumb_text": "JUST PASSING",
+        "concept": "Two bent orca fins cruising calmly across the frame, a great white bolting the other way, Doug in the shark cage in the seal costume looking at both",
+        "formula": "T4",
+        "chars": 59,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Great White Sharks Fear One Thing, and It Kills Them",
+        "thumb_text": "IN MINUTES",
+        "concept": "A great white seen from the side, sweating cartoon drops, staring at two bent fins; Doug in the shark costume floats beside it, cap on top",
+        "formula": "T4",
+        "chars": 52,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Even the Deadliest Shark Gives Up Its Hunt to Orcas",
+        "thumb_text": "STILL NOT BACK",
+        "concept": "Seal colony on rocks relaxing, a great white fin leaving with a suitcase-free speed trail, orca fins offshore, Doug in the seal costume waving",
+        "formula": "T9",
+        "chars": 55,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Great Whites Stay Away Longer Every Time Orcas Kill",
+        "thumb_text": "WEEKS, THEN MONTHS",
+        "concept": "Gansbaai cage-diving boat with an empty cage, a calendar with pages flying off, two bent fins in the distance, Doug in the shark costume alone in the cage",
+        "formula": "T9",
+        "chars": 55,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why the Deadliest Shark Flees Orcas That Are Just Passing",
+        "thumb_text": "IT LEFT HIM",
+        "concept": "Hero variant: the great white exiting frame left, Doug in the shark costume left behind facing two bent fins, a small arrow pointing at Doug",
+        "formula": "T9",
+        "chars": 57,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Great Whites Hide From the Deadliest Hunter in the Sea",
+        "thumb_text": "IT LEFT HIM",
+        "concept": "A great white peeking out from behind a kelp stalk too thin to hide it, two bent fins passing in the background, Doug in the shark costume in the open",
+        "formula": "T9",
+        "chars": 58,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      }
+    ],
+    "variants": [
+      {
+        "variant": "A",
+        "file": "thumbnail.json",
+        "png": "build/thumbnail.png",
+        "title": "Why the Deadliest Shark Flees Orcas for Up to a Year",
+        "thumb_text": "IN MINUTES",
+        "concept": "hero close-up",
+        "thumb_idea": "Brief's hero (also the opening image): a huge great white fills the left two-thirds fleeing out of frame with crude speed lines, two bent orca dorsal fins break the water on the right, tiny Doug in the shark costume (cap on top) left between them facing the fins",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "variant": "B",
+        "file": "thumbnail_test_b.json",
+        "png": "build/thumbnail_b.png",
+        "title": "Why Great White Sharks Flee the One Animal That Kills Them",
+        "thumb_text": "GONE ALL SEASON",
+        "concept": "Doug in peril",
+        "thumb_idea": "Grid fallback: three panels, a bay full of great white fins, two bent orca fins arriving, then the same bay empty except Doug's red cap floating",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "variant": "C",
+        "file": "thumbnail_test_c.json",
+        "png": "build/thumbnail_c.png",
+        "title": "Why the Scariest Sharks Gave Up False Bay to Orcas",
+        "thumb_text": "ZERO IN 2019",
+        "concept": "second shock",
+        "thumb_idea": "Empty bay: Seal Island under a grey sky, a Shark Spotters flag pole and tally board crossed out, tiny Doug alone in the shark costume (cap on top) as two bent fins approach from the horizon",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      }
+    ],
+    "readout": {
+      "metric": "long-form CTR at day 7",
+      "min_impressions": 1000,
+      "baseline_median": 0.022,
+      "baseline_top": [
+        0.025,
+        0.043
+      ],
+      "target_median": 0.04,
+      "baseline_source": "data/analytics/2026-11-08.json"
+    }
+  },
+  "title_formula": "T9",
+  "thumbnail_brief": "A huge great white fills the left two-thirds fleeing out of frame with crude speed lines, two bent orca dorsal fins break the water on the right, and tiny Doug in the shark costume (red cap on top) is left between them facing the fins, with the words IN MINUTES, so the title gives the length of the absence (up to a year) and the thumbnail gives the speed of the exit; no blood, no wounds, no cute orca faces, and no SHARK, ORCAS, YEAR or JAWS on the image. Variant B: three-panel grid (bay full of white shark fins / two bent orca fins arrive / empty bay with Doug's cap floating), GONE ALL SEASON. Variant C: empty False Bay with Seal Island, Doug alone in the shark costume as two bent fins approach, ZERO IN 2019.",
+  "description": "When orcas swim past, great white sharks leave their hunting grounds within minutes, and at California's Farallon Islands they stayed away for up to a year. Doug follows the great white from the Farallones to Gansbaai and False Bay in South Africa, where the most feared shark in the sea started disappearing after orcas arrived.\n\nWhere should we send Doug next? Tell us in the comments.\nSubscribe and watch Doug's death counter keep climbing.\n\n— TIMESTAMPS —\n{{CHAPTERS}}\n\n— KEY SOURCES —\nJorgensen et al. (2019), Scientific Reports, killer whales and white sharks at the Farallon Islands (Monterey Bay Aquarium release): https://www.eurekalert.org/news-releases/717413\nTowner et al. (2022), African Journal of Marine Science, \"Fear at the top\", white shark absence at Gansbaai: https://doi.org/10.2989/1814232X.2022.2066723\nEngelbrecht, Kock & O'Riain (2019), Ecosphere, orcas and sevengill sharks in False Bay: https://doi.org/10.1002/ecs2.2531\nHammerschlag et al. (2022), Biology Letters, seal stress after the white sharks left False Bay: https://doi.org/10.1098/rsbl.2021.0476\nGennari et al. (2024), Ecological Indicators, the debate over South Africa's white shark numbers: https://www.eurekalert.org/news-releases/1036555\nShark Spotters annual reports 2019-2020, False Bay sightings: https://sharkspotters.org.za/wp-content/uploads/2024/11/2019-2020-ANNUAL-REPORTS-with-outputs.pdf\n\n— DISCLAIMER —\nEducational entertainment. Every death in this video is a cartoon depiction of a stick figure; the science is real and sourced above.\n\n— AI USE —\nThe narration is an AI text-to-speech voice. Scripts are researched and written with AI assistance and fact-checked against the sources above. All drawings are original.\n\n#DoomedDoug #GreatWhiteShark #Orca",
+  "tags": [
+    "great white shark",
+    "orcas vs great white shark",
+    "why great white sharks fear orcas",
+    "orca hunting sharks",
+    "false bay great white sharks",
+    "farallon islands sharks",
+    "gansbaai sharks",
+    "shark facts",
+    "stick figure animation"
+  ],
+  "playlist": "animals",
+  "paid_promotion": false
+}

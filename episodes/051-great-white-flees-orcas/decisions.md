@@ -27,3 +27,38 @@ Screener PASS on the delta check (8/8/8, 2,049 words, about 10.5 min, 0 new fact
 3. Polish 2 (line 157 "because") was not taken. That is acceptable and the writer's call.
 Death counter 380 to 386 (six deaths, items 1, 3, 4, 5, 7, 9). Series bible to be updated at upload.
 Titler reminder: say "Up to a Year" or leave out the duration. Do not use a flat "for a Year".
+
+## 2026-11-18: shotlist (director)
+207 shots, 9 chapters, Doug in 77% of shots, deaths 380 to 386 (s027, s070, s093, s116, s155, s200), every spoken word once
+and in order. Choices for the art director and editor:
+- **Item palette (021 regional ramp, darkening toward the boss):**
+  - The Exit and The Liver: `#3a9ad9`.
+  - The Cousins: kelp `#4f8a7f` (a green ground, so the wordart uses the white/yellow override).
+  - Then one step darker per item: The Empty Cages `#2f7fbf`, The Seals `#2a6aa6`, The Year `#1f5a94`, The Replacements
+    `#1a4a7c`, The Move `#17426f`.
+  - The Empty Bay: dusk `#14365e` under the `#e88a4a` / `#f2a24a` sky.
+  - "Used to be" cards at The Empty Bay (s184-s186, s196) use the old-map history colours: sea `#3f6f86`, sky `#e9dcc0`.
+  - No depth-ramp hex is used anywhere.
+- **SHARKS GONE meter** (relabelled `wait_stopwatch`, staging only):
+  - It's "--" until The Exit. It changes where the script's stage directions put it: ABOUT 5 MIN (s006), HOURS (s038),
+    WEEKS (s068), MONTHS (s096), ABOUT 1 YEAR (s117), YEARS (s136, at the "Years." header), and turns red at The Empty Bay
+    (s181).
+  - It only goes up.
+- **Costumes:** Doug is plain between costume beats.
+  - Seal costume: s022-s026, The Seals beat, and the 008 callback s196.
+  - Shark costume: The Liver beat, The Empty Cages beat, The Year, The Replacements beat, The Empty Bay.
+  - Sevengill costume: s067-s069.
+  - At The Move the costume is "on the back seat" (script), so that Doug is plain.
+- **Field guide (GREAT WHITE):**
+  - empty at s021;
+  - NO written by the narrator's hand at s028;
+  - MAYBE pencilled at s133;
+  - MAYBE rubbed out at s199;
+  - the "AFRAID OF ONE THING." sticky note at s203.
+- **No gore:** the beached sharks are clean outlines with X eyes, the liver is an icon or a cutaway shape, and every death is
+  a splash, a cut to black or a flat costume with the cap in frame.
+- **Shorts:**
+  - short01 is The Liver, s031-s040, with a hook.
+  - short02 is The Year, s118-s127.
+  - short03 is The Empty Bay, s182-s191.
+  - Each one ends on its own payoff line. Titles and descriptions are left for the titler.

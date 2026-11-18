@@ -1,0 +1,15 @@
+{
+  "names": ["great white", "great whites", "great white sharks", "white shark", "shark", "sharks", "orcas", "Farallon", "False Bay", "Gansbaai"],
+  "candidates": [
+    {"title": "Why the Deadliest Shark Flees Orcas for Up to a Year", "thumb_text": "IN MINUTES", "concept": "Brief's hero (also the opening image): a huge great white fills the left two-thirds fleeing out of frame with crude speed lines, two bent orca dorsal fins break the water on the right, tiny Doug in the shark costume (cap on top) left between them facing the fins", "formula": "T9"},
+    {"title": "Why Great White Sharks Flee the One Animal That Kills Them", "thumb_text": "GONE ALL SEASON", "concept": "Grid fallback: three panels, a bay full of great white fins, two bent orca fins arriving, then the same bay empty except Doug's red cap floating", "formula": "T9"},
+    {"title": "Why the Scariest Sharks Gave Up False Bay to Orcas", "thumb_text": "ZERO IN 2019", "concept": "Empty bay: Seal Island under a grey sky, a Shark Spotters flag pole and tally board crossed out, tiny Doug alone in the shark costume (cap on top) as two bent fins approach from the horizon", "formula": "T9"},
+    {"title": "The Scariest Shark Leaves Within Minutes of Seeing Orcas", "thumb_text": "GONE ALL SEASON", "concept": "Hero variant: the great white mid-turn with speed lines, a giant stopwatch reading ABOUT 5 MIN behind it, two bent fins on the right", "formula": "T4"},
+    {"title": "Orcas Swim Past and the Deadliest Shark Leaves for a Season", "thumb_text": "JUST PASSING", "concept": "Two bent orca fins cruising calmly across the frame, a great white bolting the other way, Doug in the shark cage in the seal costume looking at both", "formula": "T4"},
+    {"title": "Great White Sharks Fear One Thing, and It Kills Them", "thumb_text": "IN MINUTES", "concept": "A great white seen from the side, sweating cartoon drops, staring at two bent fins; Doug in the shark costume floats beside it, cap on top", "formula": "T4"},
+    {"title": "Why Even the Deadliest Shark Gives Up Its Hunt to Orcas", "thumb_text": "STILL NOT BACK", "concept": "Seal colony on rocks relaxing, a great white fin leaving with a suitcase-free speed trail, orca fins offshore, Doug in the seal costume waving", "formula": "T9"},
+    {"title": "Why Great Whites Stay Away Longer Every Time Orcas Kill", "thumb_text": "WEEKS, THEN MONTHS", "concept": "Gansbaai cage-diving boat with an empty cage, a calendar with pages flying off, two bent fins in the distance, Doug in the shark costume alone in the cage", "formula": "T9"},
+    {"title": "Why the Deadliest Shark Flees Orcas That Are Just Passing", "thumb_text": "IT LEFT HIM", "concept": "Hero variant: the great white exiting frame left, Doug in the shark costume left behind facing two bent fins, a small arrow pointing at Doug", "formula": "T9"},
+    {"title": "Why Great Whites Hide From the Deadliest Hunter in the Sea", "thumb_text": "IT LEFT HIM", "concept": "A great white peeking out from behind a kelp stalk too thin to hide it, two bent fins passing in the background, Doug in the shark costume in the open", "formula": "T9"}
+  ]
+}
