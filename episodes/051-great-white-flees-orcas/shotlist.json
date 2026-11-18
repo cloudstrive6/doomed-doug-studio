@@ -2760,14 +2760,26 @@
      },
      {
       "type": "text",
-      "text": "GREAT WHITE",
-      "x": 253.0,
-      "y": 819.5,
-      "size": 15.400000000000002,
+      "text": "GREAT",
+      "x": 256.3,
+      "y": 815.1,
+      "size": 26,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
-      "max_width": 137.5,
+      "max_width": 97.078125,
+      "appear": 0.5
+     },
+     {
+      "type": "text",
+      "text": "WHITE",
+      "x": 256.3,
+      "y": 842.4,
+      "size": 26,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0,
+      "max_width": 97.078125,
       "appear": 0.5
      },
      {
@@ -2972,19 +2984,7 @@
       "x": -10,
       "y": -10,
       "w": 1940,
-      "h": 315,
-      "fill": "#cfe9ff",
-      "color": "#cfe9ff",
-      "width": 0,
-      "boil": 0,
-      "outline": false
-     },
-     {
-      "type": "rect",
-      "x": -10,
-      "y": 300,
-      "w": 1940,
-      "h": 800,
+      "h": 1100,
       "fill": "#3a9ad9",
       "color": "#3a9ad9",
       "width": 0,
@@ -2992,55 +2992,18 @@
       "outline": false
      },
      {
-      "type": "line",
-      "points": [
-       [
-        -10,
-        300
-       ],
-       [
-        1930,
-        300
-       ]
-      ],
-      "color": "#2a6f9e",
-      "width": 3
-     },
-     {
       "type": "spray",
       "x": 960,
-      "y": 690,
-      "r": 900,
+      "y": 540,
+      "r": 1150,
       "color": "#6fc1ee",
       "density": 0.012
      },
      {
-      "type": "asset",
-      "name": "tour_boat",
-      "x": 680,
-      "y": 300,
-      "scale": 0.7
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        760,
-        310
-       ],
-       [
-        760,
-        560.5
-       ]
-      ],
-      "color": "#3a3a3a",
-      "width": 4
-     },
-     {
       "type": "doug",
-      "x": 760,
-      "y": 874.3599999999999,
-      "scale": 0.47,
+      "x": 975,
+      "y": 1010,
+      "scale": 1.6,
       "pose": "stand",
       "expression": "gritted",
       "facing": "right"
@@ -3048,26 +3011,89 @@
      {
       "type": "asset",
       "name": "seal_costume",
+      "x": 975,
+      "y": 1010,
+      "scale": 1.6
+     },
+     {
+      "type": "rect",
+      "x": 330,
+      "y": -10,
+      "w": 26,
+      "h": 1100,
+      "fill": "#8c939a",
+      "color": "#3a3a3a",
+      "width": 4,
+      "boil": 0,
+      "outline": true
+     },
+     {
+      "type": "rect",
       "x": 760,
-      "y": 874.3599999999999,
-      "scale": 0.47
+      "y": -10,
+      "w": 26,
+      "h": 1100,
+      "fill": "#8c939a",
+      "color": "#3a3a3a",
+      "width": 4,
+      "boil": 0,
+      "outline": true
+     },
+     {
+      "type": "rect",
+      "x": 1190,
+      "y": -10,
+      "w": 26,
+      "h": 1100,
+      "fill": "#8c939a",
+      "color": "#3a3a3a",
+      "width": 4,
+      "boil": 0,
+      "outline": true
+     },
+     {
+      "type": "rect",
+      "x": 1620,
+      "y": -10,
+      "w": 26,
+      "h": 1100,
+      "fill": "#8c939a",
+      "color": "#3a3a3a",
+      "width": 4,
+      "boil": 0,
+      "outline": true
+     },
+     {
+      "type": "rect",
+      "x": -10,
+      "y": 330,
+      "w": 1940,
+      "h": 26,
+      "fill": "#8c939a",
+      "color": "#3a3a3a",
+      "width": 4,
+      "boil": 0,
+      "outline": true
+     },
+     {
+      "type": "rect",
+      "x": -10,
+      "y": 930,
+      "w": 1940,
+      "h": 26,
+      "fill": "#8c939a",
+      "color": "#3a3a3a",
+      "width": 4,
+      "boil": 0,
+      "outline": true
      },
      {
       "type": "asset",
-      "name": "shark_cage",
-      "x": 760,
-      "y": 960,
-      "scale": 0.85
-     },
-     {
-      "type": "label",
-      "text": "BAIT",
-      "x": 950,
-      "y": 630,
-      "size": 40,
-      "bold": true,
-      "boil": 0.3,
-      "fill": "#ffffff"
+      "name": "exclamation_mark",
+      "x": 1400,
+      "y": 420,
+      "scale": 0.45,
+      "appear": 0.5
      },
      {
       "type": "label",
@@ -3101,9 +3127,9 @@
    },
    "camera": {
     "move": "zoom_in",
-    "x": 760,
-    "y": 720,
-    "zoom": 1.08
+    "x": 960,
+    "y": 560,
+    "zoom": 1.05
    }
   },
   {
@@ -3587,6 +3613,25 @@
       "scale": 0.4
      },
      {
+      "type": "asset",
+      "name": "water_splash",
+      "x": 1000,
+      "y": 300,
+      "scale": 0.45,
+      "appear": 0.68
+     },
+     {
+      "type": "doug",
+      "x": 1150,
+      "y": 520,
+      "scale": 0.35,
+      "pose": "float",
+      "expression": "dead",
+      "facing": "right",
+      "ghost": true,
+      "appear": 0.75
+     },
+     {
       "type": "label",
       "text": "DOUG DEATHS: 380",
       "x": 1590,
@@ -3595,6 +3640,17 @@
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff"
+     },
+     {
+      "type": "label",
+      "text": "DOUG DEATHS: 381",
+      "x": 1590,
+      "y": 162,
+      "size": 44,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffd2cc",
+      "appear": 0.7
      },
      {
       "type": "asset",
@@ -3631,7 +3687,7 @@
       "x": -10,
       "y": -10,
       "w": 1940,
-      "h": 315,
+      "h": 1100,
       "fill": "#cfe9ff",
       "color": "#cfe9ff",
       "width": 0,
@@ -3639,97 +3695,41 @@
       "outline": false
      },
      {
-      "type": "rect",
-      "x": -10,
-      "y": 300,
-      "w": 1940,
-      "h": 800,
-      "fill": "#3a9ad9",
-      "color": "#3a9ad9",
-      "width": 0,
-      "boil": 0,
-      "outline": false
+      "type": "asset",
+      "name": "south_africa_map",
+      "x": 700,
+      "y": 560,
+      "scale": 0.68
      },
      {
-      "type": "line",
-      "points": [
-       [
-        -10,
-        300
-       ],
-       [
-        1930,
-        300
-       ]
-      ],
-      "color": "#2a6f9e",
-      "width": 3
-     },
-     {
-      "type": "spray",
-      "x": 960,
-      "y": 690,
-      "r": 900,
-      "color": "#6fc1ee",
-      "density": 0.012
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        760,
-        310
-       ],
-       [
-        760,
-        560.5
-       ]
-      ],
-      "color": "#3a3a3a",
+      "type": "circle",
+      "x": 454.86000000000007,
+      "y": 825.608,
+      "r": 14,
+      "fill": "#e0201b",
+      "color": "#000000",
       "width": 4
      },
      {
-      "type": "asset",
-      "name": "shark_cage",
-      "x": 760,
-      "y": 960,
-      "scale": 0.85
-     },
-     {
-      "type": "asset",
-      "name": "water_splash",
-      "x": 1000,
-      "y": 300,
-      "scale": 0.45
-     },
-     {
-      "type": "asset",
-      "name": "doug_cap",
-      "x": 1080,
-      "y": 300,
-      "scale": 0.32,
-      "appear": 0.35
-     },
-     {
-      "type": "doug",
-      "x": 1150,
-      "y": 520,
-      "scale": 0.35,
-      "pose": "float",
-      "expression": "dead",
-      "facing": "right",
-      "ghost": true,
-      "appear": 0.5
-     },
-     {
       "type": "label",
-      "text": "DOUG DEATHS: 380",
-      "x": 1590,
-      "y": 162,
+      "text": "SOUTH AFRICA",
+      "x": 700,
+      "y": 300,
       "size": 44,
       "bold": true,
       "boil": 0.3,
-      "fill": "#ffffff"
+      "fill": "#ffffff",
+      "appear": 0.2
+     },
+     {
+      "type": "doug",
+      "x": 1620,
+      "y": 700,
+      "scale": 0.42,
+      "pose": "float",
+      "expression": "dead",
+      "facing": "left",
+      "ghost": true
      },
      {
       "type": "label",
@@ -3739,8 +3739,7 @@
       "size": 44,
       "bold": true,
       "boil": 0.3,
-      "fill": "#ffd2cc",
-      "appear": 0.3
+      "fill": "#ffffff"
      },
      {
       "type": "asset",
@@ -3791,7 +3790,7 @@
      {
       "type": "text",
       "text": "GREAT WHITE",
-      "x": 599.0,
+      "x": 605.9,
       "y": 433.5,
       "size": 32.199999999999996,
       "color": "#2b2b2b",
@@ -7575,7 +7574,7 @@
       "type": "asset",
       "name": "diver",
       "x": 330,
-      "y": 600,
+      "y": 790,
       "scale": 0.4
      },
      {
@@ -7744,8 +7743,8 @@
      {
       "type": "asset",
       "name": "sevengill_shark",
-      "x": 600,
-      "y": 800,
+      "x": 700,
+      "y": 905,
       "scale": 0.3,
       "flip": false
      },
@@ -7776,8 +7775,8 @@
      {
       "type": "asset",
       "name": "sevengill_shark",
-      "x": 520,
-      "y": 560,
+      "x": 560,
+      "y": 780,
       "scale": 0.3,
       "flip": false
      },
@@ -7785,7 +7784,7 @@
       "type": "asset",
       "name": "diver",
       "x": 330,
-      "y": 600,
+      "y": 790,
       "scale": 0.4
      },
      {
@@ -7962,8 +7961,8 @@
      {
       "type": "asset",
       "name": "sevengill_shark",
-      "x": 600,
-      "y": 800,
+      "x": 700,
+      "y": 905,
       "scale": 0.3,
       "flip": false
      },
@@ -7994,8 +7993,8 @@
      {
       "type": "asset",
       "name": "sevengill_shark",
-      "x": 520,
-      "y": 560,
+      "x": 560,
+      "y": 780,
       "scale": 0.3,
       "flip": false
      },
@@ -8013,7 +8012,7 @@
      {
       "type": "doug",
       "x": 330,
-      "y": 600,
+      "y": 790,
       "scale": 0.42,
       "pose": "float",
       "expression": "shock",
@@ -8658,8 +8657,8 @@
      },
      {
       "type": "spray",
-      "x": 330,
-      "y": 520,
+      "x": 360,
+      "y": 720,
       "r": 260,
       "color": "#2f5a52",
       "density": 0.3
@@ -8667,8 +8666,8 @@
      {
       "type": "asset",
       "name": "orca_bent_fin",
-      "x": 330,
-      "y": 520,
+      "x": 360,
+      "y": 720,
       "scale": 0.4,
       "silhouette": true,
       "glow_r": 0,
@@ -9472,8 +9471,8 @@
        400
       ],
       "to": [
-       935,
-       560
+       985,
+       545
       ],
       "color": "#e0201b",
       "width": 8,
@@ -10089,14 +10088,25 @@
      },
      {
       "type": "text",
-      "text": "GREAT WHITE",
-      "x": 253.0,
-      "y": 819.5,
-      "size": 15.400000000000002,
+      "text": "GREAT",
+      "x": 256.3,
+      "y": 815.1,
+      "size": 26,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
-      "max_width": 137.5
+      "max_width": 97.078125
+     },
+     {
+      "type": "text",
+      "text": "WHITE",
+      "x": 256.3,
+      "y": 842.4,
+      "size": 26,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0,
+      "max_width": 97.078125
      },
      {
       "type": "text",
@@ -12377,14 +12387,14 @@
       "type": "asset",
       "name": "tourist_camera",
       "x": 420,
-      "y": 310,
+      "y": 368,
       "scale": 0.4
      },
      {
       "type": "asset",
       "name": "tourist_camera",
       "x": 260,
-      "y": 310,
+      "y": 368,
       "scale": 0.4
      },
      {
@@ -12418,8 +12428,8 @@
       "h": 90,
       "text": "GREAT WHITE!",
       "tail": [
-       480,
-       250
+       470,
+       280
       ],
       "appear": 0.45
      },
@@ -12518,14 +12528,14 @@
       "type": "asset",
       "name": "tourist_camera",
       "x": 420,
-      "y": 310,
+      "y": 368,
       "scale": 0.4
      },
      {
       "type": "asset",
       "name": "tourist_camera",
       "x": 260,
-      "y": 310,
+      "y": 368,
       "scale": 0.4
      },
      {
@@ -12837,6 +12847,25 @@
       "appear": 0.2
      },
      {
+      "type": "asset",
+      "name": "water_splash",
+      "x": 1000,
+      "y": 430,
+      "scale": 0.45,
+      "appear": 0.68
+     },
+     {
+      "type": "doug",
+      "x": 1000,
+      "y": 300,
+      "scale": 0.32,
+      "pose": "float",
+      "expression": "dead",
+      "facing": "right",
+      "ghost": true,
+      "appear": 0.75
+     },
+     {
       "type": "label",
       "text": "DOUG DEATHS: 382",
       "x": 1590,
@@ -12845,6 +12874,17 @@
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff"
+     },
+     {
+      "type": "label",
+      "text": "DOUG DEATHS: 383",
+      "x": 1590,
+      "y": 162,
+      "size": 44,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffd2cc",
+      "appear": 0.7
      },
      {
       "type": "asset",
@@ -12881,7 +12921,7 @@
       "x": -10,
       "y": -10,
       "w": 1940,
-      "h": 445,
+      "h": 1100,
       "fill": "#cfe9ff",
       "color": "#cfe9ff",
       "width": 0,
@@ -12889,89 +12929,41 @@
       "outline": false
      },
      {
-      "type": "rect",
-      "x": -10,
-      "y": 430,
-      "w": 1940,
-      "h": 670,
-      "fill": "#2f7fbf",
-      "color": "#2f7fbf",
-      "width": 0,
-      "boil": 0,
-      "outline": false
-     },
-     {
-      "type": "line",
-      "points": [
-       [
-        -10,
-        430
-       ],
-       [
-        1930,
-        430
-       ]
-      ],
-      "color": "#10304f",
-      "width": 3
-     },
-     {
-      "type": "spray",
-      "x": 960,
-      "y": 755,
-      "r": 900,
-      "color": "#5a9fd6",
-      "density": 0.012
-     },
-     {
       "type": "asset",
-      "name": "shark_cage",
+      "name": "central_california_map",
       "x": 760,
-      "y": 720,
-      "scale": 0.8
+      "y": 600,
+      "scale": 0.85
      },
      {
-      "type": "asset",
-      "name": "doug_cap",
-      "x": 1150,
-      "y": 430,
-      "scale": 0.32
-     },
-     {
-      "type": "arrow",
-      "from": [
-       1250,
-       390
-      ],
-      "to": [
-       1050,
-       390
-      ],
-      "color": "#e0201b",
-      "width": 8,
-      "bend": -20,
-      "appear": 0.3
-     },
-     {
-      "type": "doug",
-      "x": 900,
-      "y": 300,
-      "scale": 0.32,
-      "pose": "float",
-      "expression": "dead",
-      "facing": "right",
-      "ghost": true,
-      "appear": 0.4
+      "type": "circle",
+      "x": 624.0,
+      "y": 532.0,
+      "r": 16,
+      "fill": "#e0201b",
+      "color": "#000000",
+      "width": 4
      },
      {
       "type": "label",
-      "text": "DOUG DEATHS: 382",
-      "x": 1590,
-      "y": 162,
-      "size": 44,
+      "text": "FARALLONES",
+      "x": 644.0,
+      "y": 462.0,
+      "size": 36,
       "bold": true,
       "boil": 0.3,
-      "fill": "#ffffff"
+      "fill": "#ffffff",
+      "appear": 0.2
+     },
+     {
+      "type": "doug",
+      "x": 1600,
+      "y": 700,
+      "scale": 0.42,
+      "pose": "float",
+      "expression": "dead",
+      "facing": "left",
+      "ghost": true
      },
      {
       "type": "label",
@@ -12981,8 +12973,7 @@
       "size": 44,
       "bold": true,
       "boil": 0.3,
-      "fill": "#ffd2cc",
-      "appear": 0.1
+      "fill": "#ffffff"
      },
      {
       "type": "asset",
@@ -14461,7 +14452,7 @@
       "type": "speech",
       "x": 1150,
       "y": 330,
-      "w": 520,
+      "w": 640,
       "h": 110,
       "text": "NOT A SINGLE SHARK.",
       "tail": [
@@ -15918,8 +15909,8 @@
       "h": 100,
       "text": "hi friends?",
       "tail": [
-       760,
-       560
+       790,
+       650
       ],
       "appear": 0.5
      },
@@ -16666,14 +16657,25 @@
      },
      {
       "type": "text",
-      "text": "GREAT WHITE",
-      "x": 1480.0,
-      "y": 875.0,
-      "size": 14.0,
+      "text": "GREAT",
+      "x": 1483.0,
+      "y": 871.0,
+      "size": 26,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
-      "max_width": 125.0
+      "max_width": 97.078125
+     },
+     {
+      "type": "text",
+      "text": "WHITE",
+      "x": 1483.0,
+      "y": 898.3,
+      "size": 26,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0,
+      "max_width": 97.078125
      },
      {
       "type": "text",
@@ -19332,14 +19334,25 @@
      },
      {
       "type": "text",
-      "text": "GREAT WHITE",
-      "x": 253.0,
-      "y": 819.5,
-      "size": 15.400000000000002,
+      "text": "GREAT",
+      "x": 256.3,
+      "y": 815.1,
+      "size": 26,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
-      "max_width": 137.5
+      "max_width": 97.078125
+     },
+     {
+      "type": "text",
+      "text": "WHITE",
+      "x": 256.3,
+      "y": 842.4,
+      "size": 26,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0,
+      "max_width": 97.078125
      },
      {
       "type": "text",
@@ -22791,7 +22804,7 @@
       "x": -10,
       "y": -10,
       "w": 1940,
-      "h": 1100,
+      "h": 445,
       "fill": "#cfe9ff",
       "color": "#cfe9ff",
       "width": 0,
@@ -22799,120 +22812,216 @@
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "south_africa_map",
-      "x": 700,
-      "y": 560,
-      "scale": 0.68
+      "type": "rect",
+      "x": -10,
+      "y": 430,
+      "w": 1940,
+      "h": 670,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
+      "width": 0,
+      "boil": 0,
+      "outline": false
      },
      {
       "type": "line",
       "points": [
        [
-        454.86000000000007,
-        845.608
+        -10,
+        430
        ],
        [
-        587.664,
-        831.568
-       ],
-       [
-        757.12,
-        823.24
+        1930,
+        430
        ]
       ],
-      "color": "#e0201b",
-      "width": 6,
-      "dash": [
-       18,
-       14
+      "color": "#2a6f9e",
+      "width": 3
+     },
+     {
+      "type": "spray",
+      "x": 960,
+      "y": 755,
+      "r": 900,
+      "color": "#6fc1ee",
+      "density": 0.012
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        -10,
+        430
+       ],
+       [
+        -10,
+        250
+       ],
+       [
+        120,
+        230
+       ],
+       [
+        300,
+        300
+       ],
+       [
+        420,
+        430
+       ]
       ],
+      "fill": "#6b9a4a",
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        640,
+        430
+       ],
+       [
+        760,
+        320
+       ],
+       [
+        900,
+        290
+       ],
+       [
+        1060,
+        340
+       ],
+       [
+        1160,
+        430
+       ]
+      ],
+      "fill": "#6b9a4a",
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1420,
+        430
+       ],
+       [
+        1540,
+        330
+       ],
+       [
+        1700,
+        300
+       ],
+       [
+        1820,
+        360
+       ],
+       [
+        1930,
+        340
+       ],
+       [
+        1930,
+        430
+       ]
+      ],
+      "fill": "#6b9a4a",
+      "color": "#000000",
+      "width": 4
+     },
+     {
+      "type": "asset",
+      "name": "great_white_shark",
+      "x": 500,
+      "y": 640,
+      "scale": 0.32
+     },
+     {
+      "type": "circle",
+      "x": 487,
+      "y": 599,
+      "r": 10,
+      "fill": "#ffe24a",
+      "color": "#000000",
+      "width": 3
+     },
+     {
+      "type": "asset",
+      "name": "great_white_shark",
+      "x": 900,
+      "y": 800,
+      "scale": 0.3,
+      "appear": 0.2
+     },
+     {
+      "type": "circle",
+      "x": 888,
+      "y": 762,
+      "r": 10,
+      "fill": "#ffe24a",
+      "color": "#000000",
+      "width": 3,
       "appear": 0.2
      },
      {
       "type": "asset",
       "name": "great_white_shark",
-      "x": 627.12,
-      "y": 842.24,
-      "scale": 0.06,
-      "flip": false,
-      "appear": 0.5
+      "x": 1300,
+      "y": 660,
+      "scale": 0.3,
+      "appear": 0.4
      },
      {
       "type": "circle",
-      "x": 623.12,
-      "y": 832.24,
-      "r": 6,
+      "x": 1288,
+      "y": 622,
+      "r": 10,
       "fill": "#ffe24a",
       "color": "#000000",
-      "width": 2,
+      "width": 3,
+      "appear": 0.4
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1500,
+       860
+      ],
+      "to": [
+       1820,
+       860
+      ],
+      "color": "#e0201b",
+      "width": 8,
       "appear": 0.5
      },
      {
-      "type": "asset",
-      "name": "great_white_shark",
-      "x": 687.12,
-      "y": 842.24,
-      "scale": 0.06,
-      "flip": false,
-      "appear": 0.5
-     },
-     {
-      "type": "circle",
-      "x": 683.12,
-      "y": 832.24,
-      "r": 6,
-      "fill": "#ffe24a",
-      "color": "#000000",
-      "width": 2,
-      "appear": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "great_white_shark",
-      "x": 747.12,
-      "y": 842.24,
-      "scale": 0.06,
-      "flip": false,
-      "appear": 0.5
-     },
-     {
-      "type": "circle",
-      "x": 743.12,
-      "y": 832.24,
-      "r": 6,
-      "fill": "#ffe24a",
-      "color": "#000000",
-      "width": 2,
-      "appear": 0.5
-     },
-     {
-      "type": "asset",
-      "name": "great_white_shark",
-      "x": 807.12,
-      "y": 842.24,
-      "scale": 0.06,
-      "flip": false,
-      "appear": 0.5
-     },
-     {
-      "type": "circle",
-      "x": 803.12,
-      "y": 832.24,
-      "r": 6,
-      "fill": "#ffe24a",
-      "color": "#000000",
-      "width": 2,
-      "appear": 0.5
+      "type": "label",
+      "text": "EAST",
+      "x": 1660,
+      "y": 950,
+      "size": 44,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
+      "appear": 0.55
      },
      {
       "type": "doug",
-      "x": 1620,
-      "y": 840,
-      "scale": 0.42,
-      "pose": "stand",
+      "x": 200,
+      "y": 820,
+      "scale": 0.38,
+      "pose": [
+       "swim1",
+       "swim2"
+      ],
       "expression": "neutral",
-      "facing": "left"
+      "facing": "right"
      },
      {
       "type": "label",
@@ -23636,8 +23745,8 @@
      {
       "type": "arrow",
       "from": [
-       514.8600000000001,
-       905.608
+       520,
+       875
       ],
       "to": [
        657.12,
@@ -26277,34 +26386,34 @@
      {
       "type": "asset",
       "name": "seal_island",
-      "x": 600,
+      "x": 560,
       "y": 430,
       "scale": 0.8
      },
      {
       "type": "asset",
       "name": "fishing_boat",
-      "x": 1400,
+      "x": 1150,
       "y": 430,
       "scale": 0.6
      },
      {
       "type": "asset",
       "name": "scientist",
-      "x": 1440,
+      "x": 1190,
       "y": 330,
       "scale": 0.32
      },
      {
       "type": "speech",
-      "x": 850,
-      "y": 190,
-      "w": 820,
-      "h": 100,
+      "x": 720,
+      "y": 140,
+      "w": 720,
+      "h": 90,
       "text": "GREATEST PLACE ON EARTH",
       "tail": [
-       1380,
-       250
+       1160,
+       236
       ],
       "appear": 0.3
      },
@@ -27302,8 +27411,8 @@
       "h": 100,
       "text": "EXCITING!",
       "tail": [
-       650,
-       560
+       560,
+       615
       ],
       "appear": 0.3
      },
@@ -27968,14 +28077,25 @@
      },
      {
       "type": "text",
-      "text": "GREAT WHITE",
-      "x": 253.0,
-      "y": 819.5,
-      "size": 15.400000000000002,
+      "text": "GREAT",
+      "x": 256.3,
+      "y": 815.1,
+      "size": 26,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
-      "max_width": 137.5
+      "max_width": 97.078125
+     },
+     {
+      "type": "text",
+      "text": "WHITE",
+      "x": 256.3,
+      "y": 842.4,
+      "size": 26,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0,
+      "max_width": 97.078125
      },
      {
       "type": "text",
@@ -28420,14 +28540,25 @@
      },
      {
       "type": "text",
-      "text": "GREAT WHITE",
-      "x": 253.0,
-      "y": 819.5,
-      "size": 15.400000000000002,
+      "text": "GREAT",
+      "x": 256.3,
+      "y": 815.1,
+      "size": 26,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
-      "max_width": 137.5
+      "max_width": 97.078125
+     },
+     {
+      "type": "text",
+      "text": "WHITE",
+      "x": 256.3,
+      "y": 842.4,
+      "size": 26,
+      "color": "#2b2b2b",
+      "bold": true,
+      "boil": 0,
+      "max_width": 97.078125
      },
      {
       "type": "text",
@@ -28475,20 +28606,20 @@
       "type": "poly",
       "points": [
        [
-        192.5,
-        863.5
+        163.171875,
+        872.88
        ],
        [
-        313.5,
-        860.2
+        342.828125,
+        866.88
        ],
        [
-        315.7,
-        942.7
+        346.828125,
+        953.12
        ],
        [
-        194.7,
-        944.9
+        167.171875,
+        957.12
        ]
       ],
       "fill": "#fff36b",
@@ -28500,8 +28631,8 @@
       "type": "text",
       "text": "AFRAID OF",
       "x": 253.0,
-      "y": 889.9,
-      "size": 18.700000000000003,
+      "y": 895.88,
+      "size": 26,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -28511,8 +28642,8 @@
       "type": "text",
       "text": "ONE THING.",
       "x": 253.0,
-      "y": 916.3,
-      "size": 18.700000000000003,
+      "y": 928.12,
+      "size": 26,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -28748,24 +28879,23 @@
      {
       "type": "asset",
       "name": "great_white_shark",
-      "x": 1300,
+      "x": 1150,
       "y": 800,
-      "scale": 0.4,
-      "flip": true
+      "scale": 0.4
      },
      {
       "type": "arrow",
       "from": [
-       1050,
+       1400,
        800
       ],
       "to": [
-       500,
-       820
+       1750,
+       780
       ],
       "color": "#e0201b",
       "width": 8,
-      "bend": 30,
+      "bend": -30,
       "appear": 0.3
      },
      {

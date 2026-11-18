@@ -188,7 +188,7 @@ red `#ffd2cc` / `#e0201b` at The Empty Bay). It's a relabel, so nothing needs dr
 
 ### `shark_costume_sevengill` (s067-s069)
 - **Done, round 2 (illustrator, 2026-11-18):** `assets/previews/051-great-white-flees-orcas-assets-r2.png`; belly panel now x -46..0, torso widened on the right to ~+122 (**bbox x -196..+156**, y -336..+70); 7 gill lines (width 5, gaps >= 12) at x +8..+113, y -82..+12, centre about local (+60, -35) = (936, 559) for the s067 arrow at 0.6. Countable at 0.45.
-- Doug's library `shark_costume` (same felt suit, fit, anchor = hips, bbox about x -196..+124, y -336..+70), with
+- Doug's library `shark_costume` (same felt suit, fit, anchor = hips; as drawn: belly panel x -46..0, gills x +8..+113 / y -82..+12, bbox x -196..+156, y -336..+70), with
   **seven** hand-drawn black marker gill lines instead of three (slightly wobbly, unevenly spaced, so they're clearly
   drawn on) and a scatter of small black marker dots on the grey felt for the spots.
 - Everything else is unchanged: the dorsal fin, the felt teeth, the stitched belly panel and the tail. Head, face and cap

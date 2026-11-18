@@ -69,3 +69,55 @@ The illustrator's flags, resolved:
 
 Re-check: after fixes 1-5, re-run `python -m studio asset-preview` for those 6 assets and re-render keyframes s016, s053, s067,
 s084, s112-s114. Rounds 2+ only cover these items.
+
+## Round 2 (art director, 2026-11-18): FAIL (1 asset fix, 2 composition fixes, all small)
+
+Checked: `assets/previews/051-great-white-flees-orcas-assets-r2.png` (6 redrawn assets), the 18 contact sheets, and full-res keyframes
+s016, s053-s057, s062-s069, s071, s084, s094-s097, s112-s114, s122, s130-s133, s137, s142, s166, s173.
+
+### Round 1 items
+1. `kelp_stalk`: **PASS.** It's no longer a palm. The S-bend stipe, the stipe-coloured elongated bulb and the 7 ribbon fronds
+   streaming +x (none drooping back down) read as kelp in a current, on every Cousins shot. The wider frond spread caused a placement
+   regression in nearby shots (fix B below).
+2. `shark_costume_sevengill`: **PASS.** The panel ends at local x 0 and the felt band carries 7 separate marker lines. I counted all
+   seven at 0.6 (s067) and at 0.45 (s068). The widened right side keeps Doug's legs inside the suit's footprint and his head sits
+   cleanly on top, so it stays on-model. The asset's `description` is stale (fix A).
+3. `elephant_seal_bull`: **PASS.** The s112 silhouette is clean with no spike. The proboscis seam is gone and the mouth line is in.
+4. `elephant_seal_bull_flat`: **PASS.** The shield now sits at the front underside, reaches the ground line, matches the upright bull,
+   and has no speckle. It reads as a chest, not a sore.
+5. `sevengill_shark`, `bronze_whaler`: **PASS.** Both mouths are straight or slightly down-turned, with no smile.
+6. Pups on the terrace: **PASS.** In s016 and s094 they sit on the ledge line (y 326), stay inside it, and are clear of the
+   lighthouse. Correction to round 1: s095, s097, s122 and s130-s133 have no pups on the island, so nothing was needed there.
+7. `orca_fin_bent` at 0.16: **PASS.** The bend reads clearly in s084 and s166. s173 is on a smaller map but still reads.
+8. s067 arrow: **re-aimed correctly, but the arrowhead now covers the thing it points at.** The tip at (935, 560) puts the ~45 px red
+   head over gill lines 4-6, so the "7" can't be counted in the very shot that counts them (fix C).
+
+### Required fixes
+#### Illustrator
+A. **`shark_costume_sevengill` description is stale.** It still says "gill lines x 14..79, running over the belly panel edge" and
+   "bbox about x -196..+124". Update it to match the drawing: belly panel x -46..0, 7 gill lines on the felt band x +8..+113,
+   y -82..+12, bbox x -196..+156. Other shotlists place it from this text. This is metadata only; the drawing doesn't change.
+
+#### Director
+B. **The widened kelp fronds swallow Doug and the orca on the left kelp pair.** The fronds of the kelp stalks at x 150/380 (scale 0.8)
+   now fill roughly x 90-700, y 414-560.
+   - s055, s056: the diver's head sits inside the frond tuft.
+   - s057: Doug's head and cap sit inside it, with a sevengill crossing him.
+   - s062: the orca silhouette's bent fin, the subject of the shot, lies on top of the fronds.
+
+   Move these subjects below the tuft, onto the clear water between the fronds and the floor:
+   - s055-s057: Doug/diver (330, 600) to (330, 790).
+   - s056-s057: the sevengill at (520, 560) to (560, 780), if it's meant to stay beside him.
+   - s062: `orca_bent_fin` (330, 520) to (360, 720).
+
+   Check that the bent fin's tip ends up on open water, not over a stipe.
+C. **s067 arrowhead covers the gills.** Stop the arrow at the suit's right edge so the head sits outside the lines. Set `to` to about
+   (985, 545) and leave `from` (1250, 400) as is. All 7 lines must stay visible once the arrow appears.
+
+### Non-blocking notes
+- s166: the red migration arrow starts at (515, 905), below the map frame's bottom edge (y ~893), so its tail pokes out of the map.
+  Starting it inside the frame, about (520, 875), would be tidier.
+- s068: in the `float` pose, Doug's right arm pokes out past the costume's top-right corner as a thin stick. Using `stand` or a
+  hidden-arm pose under the costume would be cleaner.
+
+Re-check: re-render s055-s057, s062 and s067. Round 3 covers only fixes A-C.
