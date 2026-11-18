@@ -154,3 +154,34 @@ VERDICT: PASS (A PASS, B PASS, C PASS)
 - The round 4 non-blocking notes still apply and remain optional: drop the fin tip clear of "ZERO", and scale the orca fins about 1.2x.
 
 No required fixes. All three variants are cleared for the packaging gate.
+
+## Round 6: post-render screen of final.mp4, thumbnails and Shorts (2026-11-18)
+
+Scope: `build/samples/f_001..f_023.png` (every 30 s of `final.mp4`, 697.9 s), `build/qc.json` (no problems), `build/thumbnail*.png` and their `_small` versions, `metadata.json`, `build/shorts/short01..03_preview.png`, and ffmpeg frames from each `short0N.mp4` at 0, 1, 3, 5, 7, 10, 20 and 30 s and at end-3 s and end-0.5 s (all 1080x1920). Nothing was rendered.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+### Main video
+- All 23 samples are clean. There are no black, blank or frozen frames and no glitches. The chapter tag, the DOUG DEATHS counter (380 to 386) and the SHARKS GONE tracker are legible on every frame and never overlap the drawings.
+- Doug is on-model wherever he appears: red cap, white head, readable on every background. The shark-costume variant (f_005) matches the thumbnails.
+- The pictures match their beats: Farallon map, beached shark ("HOURS."), 2009 map, sevengill cousins, empty cage-diving boats, seal colony, the four-season wheel, the Año Nuevo move, the 300+ vs 4 bar chart, and the RIP DOUG end. The BAKERY sign (s081) is the narrated "bakery running out of bread" analogy, and the red car (s175-s177) is the "Doug followed the sharks east" beat. Both are on-script.
+- There is no gore. The beached shark has X eyes and no blood, and the removed liver is a plain yellow bean with no red. The tone is not kid-coded.
+- The episode ends cleanly on the death-counter tombstone. There is no "???" teaser card.
+
+### Thumbnails (A/B/C)
+The renders are unchanged from the round 5 PASS (same 18:41 build). All three read at 168x94 and have one focal point. Doug and the threat are obvious in each, and each matches its paired title in `metadata.json`. No new issues.
+
+### Shorts
+- The titles are legible in red with a black outline, and no drawing is clipped at the sides. Doug stays inside the frame. In short01 he enters from the left edge at t=0 and is fully in frame by 3 s.
+- The burned-in subtitles in the mp4s are whole words and legible. The cut-off text in the `_preview.png` files ("one org", "hunting s") comes from the preview builder, which truncates to 40 characters (`studio/shorts.py`, `mid[4][:40]`). It is not in the videos.
+- Each Short pays off its title. short01 reaches THE LIVER (the x-ray liver plus beached sharks), short02 reaches the season calendar and the Año Nuevo move, and short03 reaches the sightings line crashing to zero. The end card on each reads "FULL VIDEO: TAP BELOW" with a red arrow pointing straight down. There is no teaser card.
+- There is no gore. The liver x-ray is a flat yellow organ silhouette.
+
+### Non-blocking notes (optional)
+1. Director, Shorts: the in-frame HUD (DOUG DEATHS / SHARKS GONE) is very small in the 9:16 crop and sits within about 10 px of the right edge in short01 at about 7 s. Hiding the HUD in Shorts shots, or moving it about 40 px inward, would tidy this.
+2. Director, short01: the chapter tag "THE LIVER" and the big red "THE LIVER" caption appear together (0-3 s). Dropping one would reduce clutter.
+3. Director, short01 end card: the outro says "Then Doug dressed as a great white", but the end card shows plain Doug. Using the shark-costume Doug on that end card would land the line.
+4. Engine (not a shot fix): the preview still truncates the subtitle at 40 characters mid-word. This affects only the screener's preview.
+
+No required fixes.

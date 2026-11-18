@@ -112,3 +112,28 @@ I reviewed the re-rendered `build/thumbnail.png`, `thumbnail_b.png` and `thumbna
 Condition: do not stage `packaged` until the visual screener's round 5 check of A and B passes. Round 4 failed and no round 5
 report exists in `visual_review.md` yet. If round 5 passes with no new blocking item, this approval stands without another CD round.
 - 2026-11-18: 051 packaged. Script 4 rounds (facts, sentence avg, CD reveal fix), art 3 rounds (+1 visual pass), thumbnails 2 rounds (B reworked), editor narrate+validate OK. Risks: 'up to a year' must stay literal; 101 bronze whaler 'sightings'; 11.6 min runtime; opening minute not eyeballed in draft.
+
+## 2026-11-18: final package approval, CD gate: APPROVED
+Inputs: `build/qc.json` (no problems, 697.9 s), `visual_review.md` round 6 (main PASS, Shorts PASS, no required fixes), `build/thumbnail.png`,
+`metadata.json`, `build/chapters.txt`, `build/samples/f_001..f_003`, and the script opening.
+
+- **Title: kept** "Why the Deadliest Shark Flees Orcas for Up to a Year" (T9, 52 chars). The video delivers it literally: the first spoken line is
+  "Great whites flee orcas within minutes, and stay gone up to a year", and The Year chapter states the sourced Jorgensen/MBA "up to a year".
+  "Deadliest shark" is the standard ISAF framing (white sharks lead recorded unprovoked fatal bites) and is not contradicted in the video.
+  No alt is clearly stronger. "...the One Animal That Kills Them" is inaccurate, because the video itself says nets and fishing kill white sharks.
+  "Gave Up False Bay" names a place the cold audience doesn't know. The others are weaker re-phrasings of A. A/B/C test titles stay as approved.
+- **Thumbnail A:** one focal point (a fleeing, sweating great white), two bent fins, and Doug in the shark costume stranded between them. Yellow
+  "IN MINUTES" reads at feed size, adds to the title rather than repeating it, and is paid off by the SHARKS GONE: ABOUT 5 MIN stopwatch from 0:10.
+  No blood, no cute orcas. I would click it.
+- **First 60 s:** the item 1 premise is in the first sentence, and the payoff promise ("Doug is the last great white in a bay the real ones
+  gave up on, and the orcas come back") is delivered at The Empty Bay. The Exit is named at about word 35, and its twist ("the orcas were
+  not always staying ... The sharks left anyway") arrives at about 0:41. The samples are clean: Farallon map with HUD, Doug at the island with
+  fins and the "1+ MONTH" calendar, then the "HOURS." beach with an X-eyed shark and no gore. Death 381 lands inside the first minute.
+- **Description/chapters:** the hook sentence matches the video. Six key sources are linked, plus the disclaimer and AI-use disclosure. The
+  `{{CHAPTERS}}` placeholder resolves from `chapters.txt` (nine chapters, starting at 0:00, all at least 10 s apart, last at 9:52). Tags are on-topic,
+  playlist `animals` (050 was `ocean`), no kid signals.
+- Non-blocking, for next time: put an ISAF species source in the description whenever a title uses "deadliest". The visual screener's
+  Shorts notes 1-3 (HUD margin, double LIVER caption, end-card costume) go to the director as optional polish.
+- Series bible updated: counter 380 to 386, 051 episode-log row added.
+
+FINAL: APPROVED
