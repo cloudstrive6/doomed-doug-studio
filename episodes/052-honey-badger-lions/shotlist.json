@@ -28678,6 +28678,14 @@
       "scale": 0.9
      },
      {
+      "type": "asset",
+      "name": "honey_badger_digging",
+      "x": 900,
+      "y": 975,
+      "scale": 0.45,
+      "appear": 0.4
+     },
+     {
       "type": "doug",
       "x": 560,
       "y": 946.2,
@@ -28687,35 +28695,14 @@
       "facing": "right"
      },
      {
-      "type": "asset",
-      "name": "honey_badger_digging",
-      "x": 860,
-      "y": 960,
-      "scale": 0.5,
-      "appear": 0.4
-     },
-     {
-      "type": "rect",
-      "x": 640,
-      "y": 900,
-      "w": 260,
-      "h": 150,
-      "fill": "#6a5440",
-      "color": "#6a5440",
-      "width": 0,
-      "boil": 0,
-      "outline": false,
-      "appear": 0.6
-     },
-     {
       "type": "arrow",
       "from": [
        780,
-       880
+       860
       ],
       "to": [
-       880,
-       960
+       850,
+       950
       ],
       "color": "#e0201b",
       "width": 8,
