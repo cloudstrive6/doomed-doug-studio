@@ -1,0 +1,217 @@
+{
+ "name": "toxin_key",
+ "description": "Cobra-type nerve toxin as a lumpy purple (#8a4fbf) blob with a key-shaped prong (notched key bit) sticking down, the shape that fits the receptor keyhole. No face. Anchor centre. Footprint x -92..92, y -80..80.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "diagram",
+  "toxin",
+  "venom",
+  "key",
+  "052"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -15,
+     14
+    ],
+    [
+     15,
+     14
+    ],
+    [
+     15,
+     30
+    ],
+    [
+     34,
+     30
+    ],
+    [
+     34,
+     44
+    ],
+    [
+     15,
+     44
+    ],
+    [
+     15,
+     54
+    ],
+    [
+     28,
+     54
+    ],
+    [
+     28,
+     66
+    ],
+    [
+     15,
+     66
+    ],
+    [
+     15,
+     78
+    ],
+    [
+     -15,
+     78
+    ]
+   ],
+   "fill": "#8a4fbf",
+   "width": 4,
+   "color": "#000000",
+   "boil": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -15,
+     16
+    ],
+    [
+     -6,
+     16
+    ],
+    [
+     -6,
+     76
+    ],
+    [
+     -15,
+     76
+    ]
+   ],
+   "fill": "#a877d6",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -88,
+     -20
+    ],
+    [
+     -80,
+     -52
+    ],
+    [
+     -50,
+     -74
+    ],
+    [
+     -10,
+     -66
+    ],
+    [
+     20,
+     -78
+    ],
+    [
+     58,
+     -66
+    ],
+    [
+     86,
+     -40
+    ],
+    [
+     90,
+     -6
+    ],
+    [
+     70,
+     18
+    ],
+    [
+     20,
+     22
+    ],
+    [
+     -20,
+     20
+    ],
+    [
+     -66,
+     16
+    ]
+   ],
+   "fill": "#8a4fbf",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true,
+   "boil": 0.4
+  },
+  {
+   "type": "spray",
+   "x": -30,
+   "y": -44,
+   "r": 30,
+   "color": "#b48ae0",
+   "density": 0.4
+  },
+  {
+   "type": "spray",
+   "x": 40,
+   "y": 2,
+   "r": 30,
+   "color": "#5e2e8e",
+   "density": 0.35
+  },
+  {
+   "type": "ellipse",
+   "x": -44,
+   "y": -48,
+   "rx": 12,
+   "ry": 7,
+   "fill": "#d6bff0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 30,
+   "y": -40,
+   "rx": 9,
+   "ry": 9,
+   "fill": "#6a3a9a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -60,
+   "y": -4,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#6a3a9a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 62,
+   "y": -30,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#6a3a9a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

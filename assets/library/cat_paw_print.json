@@ -1,0 +1,24 @@
+{
+ "name": "cat_paw_print",
+ "description": "One big-cat (leopard) track pressed into sand, toes up: four oval toe pads (slightly asymmetric, no claw marks) and a three-lobed palm pad in dark brown #6b4a2a on a darker sand rim. Reads on dusk ground #9a7a4a. Anchor = centre; ~120x120.",
+ "anchor": [0, 0],
+ "tags": ["track", "paw print", "leopard", "big cat", "icon", "052"],
+ "elements": [
+  {"type": "spray", "x": 0, "y": 4, "r": 62, "color": "#86683e", "density": 0.55},
+  {"type": "ellipse", "x": 0, "y": 6, "rx": 50, "ry": 50, "fill": "#8a6c40", "width": 0, "outline": false},
+  {"type": "spray", "x": 0, "y": 6, "r": 52, "color": "#7a5c34", "density": 0.3},
+  {"type": "ellipse", "x": -20, "y": 30, "rx": 17, "ry": 16, "fill": "#6b4a2a", "width": 3, "color": "#4a3018"},
+  {"type": "ellipse", "x": 0, "y": 34, "rx": 17, "ry": 16, "fill": "#6b4a2a", "width": 3, "color": "#4a3018"},
+  {"type": "ellipse", "x": 20, "y": 30, "rx": 17, "ry": 16, "fill": "#6b4a2a", "width": 3, "color": "#4a3018"},
+  {"type": "ellipse", "x": 0, "y": 14, "rx": 30, "ry": 20, "fill": "#6b4a2a", "width": 3, "color": "#4a3018"},
+  {"type": "ellipse", "x": -20, "y": 30, "rx": 15, "ry": 14, "fill": "#6b4a2a", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 0, "y": 34, "rx": 15, "ry": 14, "fill": "#6b4a2a", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 20, "y": 30, "rx": 15, "ry": 14, "fill": "#6b4a2a", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 0, "y": 18, "rx": 28, "ry": 18, "fill": "#6b4a2a", "width": 0, "outline": false},
+  {"type": "ellipse", "x": -40, "y": -12, "rx": 11, "ry": 15, "fill": "#6b4a2a", "width": 3, "color": "#4a3018"},
+  {"type": "ellipse", "x": -15, "y": -36, "rx": 11, "ry": 15, "fill": "#6b4a2a", "width": 3, "color": "#4a3018"},
+  {"type": "ellipse", "x": 14, "y": -40, "rx": 11, "ry": 15, "fill": "#6b4a2a", "width": 3, "color": "#4a3018"},
+  {"type": "ellipse", "x": 40, "y": -20, "rx": 11, "ry": 15, "fill": "#6b4a2a", "width": 3, "color": "#4a3018"},
+  {"type": "spray", "x": 0, "y": 20, "r": 16, "color": "#5a3c20", "density": 0.3}
+ ]
+}

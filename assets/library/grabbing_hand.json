@@ -1,0 +1,27 @@
+{
+ "name": "grabbing_hand",
+ "description": "Crude-tier arm entering horizontally from the LEFT: white hand (keep_ink) closed in a pinch-grip fist, thumb pressed down onto the curled index finger at the front, on a plain grey sleeve with a darker cuff running left to x -1200 so it always reaches the frame edge. Anchor (0,0) = grip point. ~1260x100. auto_ink.",
+ "anchor": [0, 0],
+ "tags": ["human", "crude tier", "hand", "arm", "grab", "prop", "052"],
+ "auto_ink": true,
+ "elements": [
+  {"type": "poly", "points": [[-1200, -34], [-130, -34], [-130, 34], [-1200, 34]], "fill": "#8c8c8c", "width": 5},
+  {"type": "line", "points": [[-1200, 18], [-130, 18]], "width": 3, "color": "#777777"},
+  {"type": "curve", "points": [[-1000, -24], [-976, -12], [-950, -18]], "width": 3, "color": "#5e5e5e"},
+  {"type": "curve", "points": [[-970, 10], [-940, 22]], "width": 3, "color": "#5e5e5e"},
+  {"type": "curve", "points": [[-760, -24], [-736, -12], [-710, -18]], "width": 3, "color": "#5e5e5e"},
+  {"type": "curve", "points": [[-730, 10], [-700, 22]], "width": 3, "color": "#5e5e5e"},
+  {"type": "curve", "points": [[-520, -24], [-496, -12], [-470, -18]], "width": 3, "color": "#5e5e5e"},
+  {"type": "curve", "points": [[-490, 10], [-460, 22]], "width": 3, "color": "#5e5e5e"},
+  {"type": "curve", "points": [[-300, -24], [-276, -12], [-250, -18]], "width": 3, "color": "#5e5e5e"},
+  {"type": "curve", "points": [[-270, 10], [-240, 22]], "width": 3, "color": "#5e5e5e"},
+  {"type": "poly", "points": [[-150, -44], [-100, -44], [-100, 44], [-150, 44]], "fill": "#5e5e5e", "width": 5},
+  {"type": "poly", "points": [[-104, -24], [-70, -38], [-20, -44], [24, -40], [46, -26], [52, -6], [48, 14], [36, 34], [0, 42], [-50, 38], [-104, 26]], "fill": "#ffffff", "width": 5, "smooth": true, "keep_ink": true},
+  {"type": "curve", "points": [[10, -40], [16, -20], [14, 0]], "width": 3, "color": "#000000", "keep_ink": true},
+  {"type": "curve", "points": [[-14, -42], [-10, -20], [-12, 6]], "width": 3, "color": "#000000", "keep_ink": true},
+  {"type": "curve", "points": [[-38, -40], [-34, -18], [-36, 8]], "width": 3, "color": "#000000", "keep_ink": true},
+  {"type": "poly", "points": [[-50, -20], [-10, -6], [30, -2], [52, 0], [54, 10], [30, 12], [-14, 10], [-52, 4]], "fill": "#ffffff", "width": 4, "smooth": true, "keep_ink": true},
+  {"type": "curve", "points": [[44, 2], [50, 6]], "width": 3, "color": "#000000", "keep_ink": true},
+  {"type": "curve", "points": [[-60, 30], [-20, 34], [20, 28]], "width": 2, "color": "#bdbdbd", "keep_ink": true}
+ ]
+}

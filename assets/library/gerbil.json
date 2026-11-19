@@ -1,0 +1,27 @@
+{
+ "name": "gerbil",
+ "description": "Kalahari hairy-footed gerbil running, facing right: sandy orange-buff back, white belly, pale hairy hind feet stretched back, big dark eye, pink ear, long tail with a dark tuft, speed ticks. Anchor = bottom-centre; ~200x90.",
+ "anchor": [0, 0],
+ "tags": ["creature", "mammal", "rodent", "gerbil", "kalahari", "prey", "052"],
+ "elements": [
+  {"type": "curve", "points": [[-30, -44], [-60, -50], [-80, -66], [-92, -84]], "width": 5, "color": "#000000"},
+  {"type": "curve", "points": [[-30, -44], [-60, -50], [-80, -66], [-92, -84]], "width": 2, "color": "#c98a48"},
+  {"type": "poly", "points": [[-84, -78], [-100, -90], [-96, -72]], "fill": "#5a3a20", "width": 3, "smooth": true},
+  {"type": "poly", "points": [[-26, -36], [-50, -20], [-74, -12], [-76, -4], [-46, -8], [-14, -26]], "fill": "#efd9b8", "width": 4, "smooth": true},
+  {"type": "poly", "points": [[40, -30], [56, -14], [66, -6], [60, -2], [48, -8], [32, -24]], "fill": "#e0c8a8", "width": 3, "smooth": true},
+  {"type": "poly", "points": [[-36, -46], [-20, -70], [20, -76], [52, -66], [64, -44], [50, -22], [10, -14], [-26, -22]], "fill": "#d9964f", "width": 5, "smooth": true},
+  {"type": "poly", "points": [[-26, -24], [10, -16], [50, -24], [58, -36], [30, -30], [-6, -30], [-28, -34]], "fill": "#f6f0e4", "width": 0, "smooth": true, "outline": false},
+  {"type": "spray", "x": 10, "y": -62, "r": 22, "color": "#b8763a", "density": 0.35},
+  {"type": "poly", "points": [[40, -62], [60, -80], [84, -76], [100, -58], [96, -46], [70, -40], [48, -44]], "fill": "#d9964f", "width": 5, "smooth": true},
+  {"type": "poly", "points": [[70, -44], [92, -48], [96, -46], [76, -40]], "fill": "#f6f0e4", "width": 0, "outline": false},
+  {"type": "ellipse", "x": 56, "y": -80, "rx": 9, "ry": 11, "fill": "#e7a77a", "width": 3},
+  {"type": "ellipse", "x": 98, "y": -54, "rx": 4, "ry": 4, "fill": "#5a2a2a", "width": 2},
+  {"type": "ellipse", "x": 78, "y": -63, "rx": 6.5, "ry": 7, "fill": "#111111", "width": 2},
+  {"type": "curve", "points": [[96, -50], [110, -54]], "width": 2, "color": "#5a3a20"},
+  {"type": "curve", "points": [[96, -48], [110, -44]], "width": 2, "color": "#5a3a20"},
+  {"type": "poly", "points": [[44, -34], [64, -24], [80, -14], [76, -8], [60, -12], [40, -24]], "fill": "#efd9b8", "width": 4, "smooth": true},
+  {"type": "poly", "points": [[-36, -46], [-20, -60], [0, -48], [-6, -30], [-28, -26]], "fill": "#d9964f", "width": 4, "smooth": true},
+  {"type": "curve", "points": [[-40, -56], [-58, -58]], "width": 2, "color": "#8a6a40"},
+  {"type": "curve", "points": [[-38, -30], [-54, -26]], "width": 2, "color": "#8a6a40"}
+ ]
+}
