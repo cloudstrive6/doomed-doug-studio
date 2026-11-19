@@ -45,26 +45,96 @@
   {
    "type": "asset",
    "name": "lion_male_leaning_back",
-   "x": 400,
+   "x": 380,
    "y": 700,
-   "scale": 1.32
-  },
-  {
-   "type": "asset",
-   "name": "honey_badger",
-   "x": 960,
-   "y": 680,
-   "scale": 1.1,
-   "flip": true
+   "scale": 1.32,
+   "rotate": -8
   },
   {
    "type": "doug",
-   "x": 1200,
+   "x": 1218,
    "y": 600,
-   "scale": 0.42,
-   "pose": "cower",
-   "expression": "gritted",
+   "scale": 0.72,
+   "pose": "scared",
+   "expression": "shock",
    "facing": "left"
+  },
+  {
+   "type": "asset",
+   "name": "honey_badger_snarl",
+   "x": 840,
+   "y": 690,
+   "scale": 1.4,
+   "flip": true
+  },
+  {
+   "type": "group",
+   "x": 585,
+   "y": 262,
+   "scale": 1.0,
+   "rotate": -10,
+   "elements": [
+    {
+     "type": "ellipse",
+     "x": 0,
+     "y": 0,
+     "rx": 62,
+     "ry": 70,
+     "fill": "#c9964a",
+     "color": "#000000",
+     "width": 6
+    },
+    {
+     "type": "ellipse",
+     "x": 0,
+     "y": 22,
+     "rx": 32,
+     "ry": 26,
+     "fill": "#6b3a2a",
+     "color": "#000000",
+     "width": 0
+    },
+    {
+     "type": "ellipse",
+     "x": -38,
+     "y": -30,
+     "rx": 13,
+     "ry": 16,
+     "fill": "#6b3a2a",
+     "color": "#000000",
+     "width": 0
+    },
+    {
+     "type": "ellipse",
+     "x": -13,
+     "y": -48,
+     "rx": 13,
+     "ry": 16,
+     "fill": "#6b3a2a",
+     "color": "#000000",
+     "width": 0
+    },
+    {
+     "type": "ellipse",
+     "x": 13,
+     "y": -48,
+     "rx": 13,
+     "ry": 16,
+     "fill": "#6b3a2a",
+     "color": "#000000",
+     "width": 0
+    },
+    {
+     "type": "ellipse",
+     "x": 38,
+     "y": -30,
+     "rx": 13,
+     "ry": 16,
+     "fill": "#6b3a2a",
+     "color": "#000000",
+     "width": 0
+    }
+   ]
   },
   {
    "type": "text",

@@ -1,5 +1,5 @@
 {
- "background": "#ff5a1f",
+ "background": "#ffc21e",
  "size": [
   1280,
   720
@@ -11,19 +11,19 @@
    "y": 0,
    "w": 1280,
    "h": 720,
-   "fill": "#ff5a1f",
-   "color": "#ff5a1f",
+   "fill": "#ffc21e",
+   "color": "#ffc21e",
    "width": 0,
    "outline": false
   },
   {
    "type": "rect",
    "x": 0,
-   "y": 330,
+   "y": 230,
    "w": 1280,
-   "h": 390,
-   "fill": "#d9a45a",
-   "color": "#d9a45a",
+   "h": 490,
+   "fill": "#8e9b45",
+   "color": "#8e9b45",
    "width": 0,
    "outline": false
   },
@@ -40,11 +40,11 @@
     ],
     [
      1280,
-     380
+     520
     ],
     [
      0,
-     520
+     600
     ]
    ],
    "fill": "#a8743c",
@@ -56,11 +56,11 @@
    "points": [
     [
      0,
-     330
+     230
     ],
     [
      1280,
-     330
+     230
     ]
    ],
    "color": "#6b4320",
@@ -69,62 +69,60 @@
   {
    "type": "asset",
    "name": "lion_male",
-   "x": 640,
-   "y": 430,
-   "scale": 0.27,
-   "flip": true
-  },
-  {
-   "type": "asset",
-   "name": "lioness",
-   "x": 745,
-   "y": 430,
-   "scale": 0.27,
-   "flip": false
-  },
-  {
-   "type": "asset",
-   "name": "lioness",
-   "x": 860,
-   "y": 430,
-   "scale": 0.27,
-   "flip": true
-  },
-  {
-   "type": "asset",
-   "name": "lion_male",
-   "x": 975,
-   "y": 430,
-   "scale": 0.27,
-   "flip": false
+   "x": 690,
+   "y": 330,
+   "scale": 0.3
   },
   {
    "type": "asset",
    "name": "lioness",
    "x": 1090,
-   "y": 430,
-   "scale": 0.27,
+   "y": 330,
+   "scale": 0.3,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "lioness_sitting",
+   "x": 650,
+   "y": 445,
+   "scale": 0.36,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "lion_male",
+   "x": 1010,
+   "y": 445,
+   "scale": 0.36,
    "flip": true
   },
   {
    "type": "asset",
    "name": "lioness",
-   "x": 1200,
-   "y": 430,
-   "scale": 0.27,
-   "flip": false
+   "x": 760,
+   "y": 570,
+   "scale": 0.42,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "lioness_walking",
+   "x": 1050,
+   "y": 570,
+   "scale": 0.42
   },
   {
    "type": "asset",
    "name": "honey_badger_charging",
-   "x": 560,
-   "y": 690,
-   "scale": 1.25
+   "x": 380,
+   "y": 700,
+   "scale": 1.05
   },
   {
    "type": "doug",
-   "x": 130,
-   "y": 690,
+   "x": 110,
+   "y": 705,
    "scale": 0.5,
    "pose": "run1",
    "expression": "shock",

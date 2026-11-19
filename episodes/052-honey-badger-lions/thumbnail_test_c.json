@@ -50,21 +50,38 @@
    "scale": 1.6
   },
   {
-   "type": "asset",
-   "name": "honey_badger_turned",
-   "x": 785.0,
-   "y": 505.0,
-   "scale": 1.25,
-   "flip": true
-  },
-  {
    "type": "doug",
    "x": 1160,
-   "y": 580,
-   "scale": 0.55,
+   "y": 600,
+   "scale": 0.6,
    "pose": "panic1",
    "expression": "shock",
    "facing": "left"
+  },
+  {
+   "type": "group",
+   "x": 740,
+   "y": 530,
+   "rotate": 16,
+   "elements": [
+    {
+     "type": "asset",
+     "name": "honey_badger_turned",
+     "x": 0,
+     "y": 0,
+     "scale": 1.25,
+     "flip": true
+    },
+    {
+     "type": "asset",
+     "name": "lion_paw_grip",
+     "x": -137.5,
+     "y": -212.5,
+     "scale": 1.25,
+     "flip": true,
+     "rotate": 35
+    }
+   ]
   },
   {
    "type": "text",
