@@ -1,0 +1,98 @@
+{
+ "background": "#ffb21e",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#ffb21e",
+   "color": "#ffb21e",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 560,
+   "w": 1280,
+   "h": 160,
+   "fill": "#c8873a",
+   "color": "#c8873a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     560
+    ],
+    [
+     1280,
+     560
+    ]
+   ],
+   "color": "#6b4320",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "lion_male_leaning_back",
+   "x": 400,
+   "y": 700,
+   "scale": 1.32
+  },
+  {
+   "type": "asset",
+   "name": "honey_badger",
+   "x": 960,
+   "y": 680,
+   "scale": 1.1,
+   "flip": true
+  },
+  {
+   "type": "doug",
+   "x": 1200,
+   "y": 600,
+   "scale": 0.42,
+   "pose": "cower",
+   "expression": "gritted",
+   "facing": "left"
+  },
+  {
+   "type": "text",
+   "text": "TOO MUCH",
+   "x": 975,
+   "y": 95,
+   "size": 96,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "x": 975,
+   "y": 215,
+   "size": 128,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

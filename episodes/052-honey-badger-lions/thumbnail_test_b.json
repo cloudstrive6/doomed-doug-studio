@@ -1,0 +1,148 @@
+{
+ "background": "#ff5a1f",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#ff5a1f",
+   "color": "#ff5a1f",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 330,
+   "w": 1280,
+   "h": 390,
+   "fill": "#d9a45a",
+   "color": "#d9a45a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     720
+    ],
+    [
+     1280,
+     720
+    ],
+    [
+     1280,
+     380
+    ],
+    [
+     0,
+     520
+    ]
+   ],
+   "fill": "#a8743c",
+   "color": "#6b4320",
+   "width": 5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     330
+    ],
+    [
+     1280,
+     330
+    ]
+   ],
+   "color": "#6b4320",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "lion_male",
+   "x": 640,
+   "y": 430,
+   "scale": 0.27,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "lioness",
+   "x": 745,
+   "y": 430,
+   "scale": 0.27,
+   "flip": false
+  },
+  {
+   "type": "asset",
+   "name": "lioness",
+   "x": 860,
+   "y": 430,
+   "scale": 0.27,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "lion_male",
+   "x": 975,
+   "y": 430,
+   "scale": 0.27,
+   "flip": false
+  },
+  {
+   "type": "asset",
+   "name": "lioness",
+   "x": 1090,
+   "y": 430,
+   "scale": 0.27,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "lioness",
+   "x": 1200,
+   "y": 430,
+   "scale": 0.27,
+   "flip": false
+  },
+  {
+   "type": "asset",
+   "name": "honey_badger_charging",
+   "x": 560,
+   "y": 690,
+   "scale": 1.25
+  },
+  {
+   "type": "doug",
+   "x": 130,
+   "y": 690,
+   "scale": 0.5,
+   "pose": "run1",
+   "expression": "shock",
+   "facing": "right"
+  },
+  {
+   "type": "text",
+   "text": "IT CHARGED",
+   "x": 640,
+   "y": 85,
+   "size": 132,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

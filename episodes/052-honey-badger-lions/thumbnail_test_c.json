@@ -1,0 +1,84 @@
+{
+ "background": "#2fb7e8",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#2fb7e8",
+   "color": "#2fb7e8",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 600,
+   "w": 1280,
+   "h": 120,
+   "fill": "#c8873a",
+   "color": "#c8873a",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     600
+    ],
+    [
+     1280,
+     600
+    ]
+   ],
+   "color": "#6b4320",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "lion_male",
+   "x": -200,
+   "y": 780,
+   "scale": 1.6
+  },
+  {
+   "type": "asset",
+   "name": "honey_badger_turned",
+   "x": 785.0,
+   "y": 505.0,
+   "scale": 1.25,
+   "flip": true
+  },
+  {
+   "type": "doug",
+   "x": 1160,
+   "y": 580,
+   "scale": 0.55,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "left"
+  },
+  {
+   "type": "text",
+   "text": "IT BITES BACK",
+   "x": 640,
+   "y": 85,
+   "size": 120,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
