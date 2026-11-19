@@ -605,7 +605,7 @@
       "type": "text",
       "text": "THE PUFF ADDER",
       "x": 760,
-      "y": 350,
+      "y": 500,
       "size": 130,
       "color": "#e0201b",
       "bold": true,
@@ -2867,9 +2867,9 @@
      {
       "type": "wordart",
       "text": "SUGAR",
-      "x": 1720,
-      "y": 640,
-      "size": 70,
+      "x": 1380,
+      "y": 450,
+      "size": 64,
       "appear": 0.8
      },
      {
@@ -3160,7 +3160,7 @@
       "type": "text",
       "text": "FOR SCIENCE",
       "x": 1620,
-      "y": 557.5,
+      "y": 488,
       "size": 34,
       "color": "#2b2b2b",
       "bold": true,
@@ -3339,7 +3339,7 @@
       "type": "text",
       "text": "FOR SCIENCE",
       "x": 1620,
-      "y": 557.5,
+      "y": 488,
       "size": 34,
       "color": "#2b2b2b",
       "bold": true,
@@ -9581,9 +9581,9 @@
      {
       "type": "rect",
       "x": 160,
-      "y": 300,
+      "y": 340,
       "w": 1100,
-      "h": 640,
+      "h": 600,
       "fill": "#e8c07a",
       "color": "#e8c07a",
       "width": 0,
@@ -9595,11 +9595,11 @@
       "points": [
        [
         160,
-        300
+        340
        ],
        [
         1260,
-        300
+        340
        ],
        [
         1260,
@@ -9611,7 +9611,7 @@
        ],
        [
         160,
-        300
+        340
        ]
       ],
       "color": "#000000",
@@ -9620,8 +9620,8 @@
      {
       "type": "spray",
       "x": 710,
-      "y": 620,
-      "r": 520,
+      "y": 640,
+      "r": 480,
       "color": "#d6a85a",
       "density": 0.0
      },
@@ -9669,7 +9669,7 @@
       "type": "label",
       "text": "UP TO 27 KM A DAY",
       "x": 710,
-      "y": 380,
+      "y": 410,
       "size": 38,
       "bold": true,
       "boil": 0.3,
@@ -10780,6 +10780,32 @@
       "appear": 0.1
      },
      {
+      "type": "arrow",
+      "from": [
+       1150,
+       620
+      ],
+      "to": [
+       1240,
+       780
+      ],
+      "color": "#e0201b",
+      "width": 8,
+      "bend": 30,
+      "appear": 0.3
+     },
+     {
+      "type": "label",
+      "text": "GERBIL",
+      "x": 1130,
+      "y": 580,
+      "size": 36,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
+      "appear": 0.3
+     },
+     {
       "type": "doug",
       "x": 320,
       "y": 911.6,
@@ -10825,8 +10851,8 @@
      {
       "type": "spray",
       "x": 380,
-      "y": 680,
-      "r": 110,
+      "y": 820,
+      "r": 90,
       "color": "#a08a6a",
       "density": 0.5,
       "appear": 0.6
@@ -10834,8 +10860,8 @@
      {
       "type": "spray",
       "x": 330,
-      "y": 640,
-      "r": 70,
+      "y": 800,
+      "r": 60,
       "color": "#7a5a3a",
       "density": 0.5,
       "appear": 0.7
@@ -11190,7 +11216,7 @@
      {
       "type": "text",
       "text": "MAYBE",
-      "x": 897.0,
+      "x": 870.0,
       "y": 887.5,
       "size": 35.2,
       "color": "#e07b00",
@@ -11203,16 +11229,16 @@
      {
       "type": "asset",
       "name": "narrator_hand_pencil",
-      "x": 897.0,
+      "x": 940.0,
       "y": 871.0,
       "scale": 0.6,
       "appear": 0.3
      },
      {
       "type": "rect",
-      "x": 1338.0,
+      "x": 1381.0,
       "y": 871.0,
-      "w": 622.0,
+      "w": 579.0,
       "h": 51.6,
       "fill": "#a4a4a8",
       "color": "#a4a4a8",
@@ -11225,7 +11251,7 @@
       "type": "line",
       "points": [
        [
-        1338.0,
+        1381.0,
         871.0
        ],
        [
@@ -11242,7 +11268,7 @@
       "type": "line",
       "points": [
        [
-        1338.0,
+        1381.0,
         922.6
        ],
        [
@@ -11259,7 +11285,7 @@
       "type": "line",
       "points": [
        [
-        1358.0,
+        1401.0,
         901.0
        ],
        [
@@ -13011,7 +13037,7 @@
       "type": "asset",
       "name": "hyena_head_icon",
       "x": 1250,
-      "y": 320,
+      "y": 430,
       "scale": 1.0,
       "appear": 0.7
      },
@@ -24896,49 +24922,49 @@
       "type": "asset",
       "name": "lioness",
       "x": 260,
-      "y": 420,
+      "y": 560,
       "scale": 0.3
      },
      {
       "type": "asset",
       "name": "lion_male",
       "x": 540,
-      "y": 420,
+      "y": 560,
       "scale": 0.3
      },
      {
       "type": "asset",
       "name": "lioness_walking",
       "x": 820,
-      "y": 420,
+      "y": 560,
       "scale": 0.3
      },
      {
       "type": "asset",
       "name": "lioness",
       "x": 1100,
-      "y": 420,
+      "y": 560,
       "scale": 0.3
      },
      {
       "type": "asset",
       "name": "lioness_sitting",
       "x": 1380,
-      "y": 420,
+      "y": 560,
       "scale": 0.3
      },
      {
       "type": "asset",
       "name": "lioness",
       "x": 1660,
-      "y": 420,
+      "y": 560,
       "scale": 0.3
      },
      {
       "type": "label",
       "text": "~126 KG = 13 BADGERS = 13 BUCKETS",
       "x": 960,
-      "y": 540,
+      "y": 650,
       "size": 36,
       "bold": true,
       "boil": 0.3,
@@ -24949,7 +24975,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 240,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.5
      },
@@ -24957,7 +24983,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 350,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.5
      },
@@ -24965,7 +24991,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 460,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.5
      },
@@ -24973,7 +24999,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 570,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.5
      },
@@ -24981,7 +25007,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 680,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.5
      },
@@ -24989,7 +25015,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 790,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.6
      },
@@ -24997,7 +25023,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 900,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.6
      },
@@ -25005,7 +25031,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 1010,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.6
      },
@@ -25013,7 +25039,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 1120,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.6
      },
@@ -25021,7 +25047,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 1230,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.6
      },
@@ -25029,7 +25055,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 1340,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.7
      },
@@ -25037,7 +25063,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 1450,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.7
      },
@@ -25045,7 +25071,7 @@
       "type": "asset",
       "name": "bucket",
       "x": 1560,
-      "y": 760,
+      "y": 850,
       "scale": 0.6,
       "appear": 0.7
      },
@@ -25053,7 +25079,7 @@
       "type": "asset",
       "name": "honey_badger",
       "x": 960,
-      "y": 960,
+      "y": 1010,
       "scale": 0.5,
       "appear": 0.8
      },
