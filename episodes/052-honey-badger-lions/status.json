@@ -39,7 +39,17 @@
       "stage": "packaged",
       "at": "2026-11-19T18:54:05+00:00",
       "note": "narration done (644 s, 197 wpm, 168 shots, no static stretch >5 s); shorts titles/descriptions complete; validate OK"
+    },
+    {
+      "stage": "built",
+      "at": "2026-11-19T18:58:58+00:00",
+      "note": "final render"
+    },
+    {
+      "stage": "qc_passed",
+      "at": "2026-11-19T19:05:29+00:00",
+      "note": "final approved"
     }
   ],
-  "stage": "packaged"
+  "stage": "qc_passed"
 }

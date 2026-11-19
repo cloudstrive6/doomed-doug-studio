@@ -115,3 +115,28 @@ It cannot be approved yet only because the last screener verdict on C is FAIL an
 3. Optional, not blocking: drop the faint grey C-marks on the badger's side; the scruff fold already sells "turning in its skin".
 - Thumbnail C approved via screener round 3 PASS + CD conditional approval (2026-11-19).
 2026-11-19: 052 packaged. Rounds: script 3 (screener fail x2, narrow pass), assets 1 + redraw, keyframes 3, thumbnails 3 (C approved after round 3). Risks: lion in thumbnail A upright not leaning; title lacks dread adjective (style rule 4, CD guidance); lede facts rest on Kapama ranger blogs.
+
+## 2026-11-19 · Final package approval (creative director)
+
+Reviewed: `metadata.json` (title, alt_titles, description, tags, playlist), `build/chapters.txt`, `build/thumbnail.png`,
+`build/samples/f_001..f_003.png`, the opening of `script.md`, `build/qc.json` (problems: none) and `visual_review.md` round 4
+(main, thumbnails and Shorts PASS, nits only). `python -m studio validate 052-honey-badger-lions metadata`: OK.
+
+- **Title: kept** "Every Reason Lions Think Twice About a 9 kg Honey Badger" (56 chars, T6). It is honest: the script and
+  description both say lions *can* kill a badger, and "9 kg" matches the sourced ~9.4 kg Kalahari male (no 12 kg, no "usually").
+  None of the alt_titles is clearly stronger: "Six Lions Lost Interest" is the B test arm already; "Before Killing" is C's arm;
+  "Why Even Lions" and "The 9 kg Animal" lose the list promise that drives watch time. Formula differs from 050 (depth) and 051
+  (Why ... flees), so no back-to-back repeat.
+- **Thumbnail A: approved** as before. Stop-paw + closed eyes + snarling badger + panicking Doug read instantly; TOO MUCH WORK
+  adds the lion's verdict rather than repeating the title; cartoon teeth only, no blood. It is the opening image.
+- **Opening:** item 1 (puff adder) named in the first sentence, its twist (back hunting snakes five hours after a face bite,
+  Begg's own account) inside the first ten seconds, payoff promise (Doug behind the badger facing six lions) immediately after,
+  then straight into the chapter. f_001..f_003 are clean: counter at 386, WEIGH-IN scale labelled ~9 kg / up to ~6 kg, Doug on
+  model, the FOR SCIENCE sign gag. No hook padding. I would keep watching.
+- **Description/chapters:** lede is accurate and not overclaiming; 9 chapters from 0:00, all over 10 s, matching the script's
+  escalation (puff adder to the pride); six sources, including the archived Kapama blog for the six-lion story; cartoon-death
+  disclaimer and AI-use disclosure present. Tags on topic; playlist `animals` correct.
+- **Policy:** no gore, no medical/safety advice, adult-coded deadpan, not made for kids, every headline claim sourced.
+- Residual risk (accepted): the lion/pride items rest on ranger-blog accounts; the script attributes them and does not generalise.
+
+FINAL: APPROVED

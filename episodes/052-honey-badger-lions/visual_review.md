@@ -136,3 +136,48 @@ To re-screen: `python -m studio keyframes 052-honey-badger-lions --shots s159` a
 ### Routing summary
 - Nothing required. All visual gates for keyframes and packaging are clear for this episode. Post-render screening
   (samples, qc.json, Shorts) is still to come after `render --final`.
+
+## Round 4 (2026-11-19): post-render (final.mp4 samples, thumbnails, Shorts)
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+### Main video (`build/samples/f_001..f_021.png`, `build/qc.json`)
+- `qc.json`: duration 644.1 s, `problems: []`. The samples fall at 15 s + 30 s·k, mapped to shots through `build/timing.json`.
+- None of the 21 samples is black, blank, glitched or frozen. Every chapter card (THE PUFF ADDER / HIVE / JACKAL / SKIN /
+  LEOPARD / BEEKEEPER / LION / PRIDE), the death counter (386 to 391, rising in order) and the scale labels are legible,
+  spelled right and not cropped.
+- Doug is on-model wherever he appears (red cap, white head), including the beekeeper-suit shots s043 and s114/s122.
+  He is absent in s059, s092 and s131, which is intended (animal-only beats).
+- Pictures match the narration. s006 shows the lock and key for the receptor, s021 the "other end of the snake, for science",
+  s052 the ~8 KG / ~9 KG pair, s107 the knocked-over hives in the Western Cape, s114 the raised and strapped hive, s122 the broken stand
+  ("beaten by furniture"), s146 the lions playing in a dust cloud on the road, and s163 the cap left by the hole (THE CAP arrow).
+- I checked the mid-reveal moments from frames I pulled out of final.mp4. s043: the empty thought bubble fills with the badger at
+  appear 0.6, so it resolves. s131: the stink cloud, arrow and STENCH resolve at 0.5 to 0.7. s084: the grabbing_hand (art-director
+  approved) holds the scruff and the turned badger bites back, with teeth but no blood.
+- Policy: no gore, wounds or blood. Deaths are offscreen or cartoon. The tone is deadpan adult, not nursery.
+- Nits, not blocking:
+  1. (director, optional) s131 says "Her brother had already caught a young badger", but no badger is in frame. You could add a
+     small `honey_badger` at scale 0.3 under the lion's forepaw near (980, 930). Nothing graphic is needed.
+  2. (illustrator, optional) In `honey_badger_digging` (s059), the hind legs are very long and blocky compared with the body.
+     It still reads as "badger digging".
+
+### Thumbnails (`build/thumbnail{,_b,_c}.png` and `_small.png`)
+- These are unchanged from round 3 and still PASS. Each has one focal clash, Doug and the threat are obvious at 168x94, and the text
+  (TOO MUCH WORK / IT CHARGED / IT BITES BACK) is legible and doesn't repeat the title. Each matches its paired title in
+  `metadata.json` packaging A/B/C, and none is misleading (the video shows the lion walking off, the six-lion charge and the scruff turn-round).
+
+### Shorts (`build/shorts/short01..03.mp4` + `_preview.png`, 8 frames each pulled with ffmpeg)
+- All three are 1080x1920 at 60 fps, 57.6 s, 49.7 s and 49.1 s long. The red title block is readable in every frame, and the
+  word-chunk subtitles are large and legible in the lower third with no collisions. The @DoomedDoug tag is present.
+- The drawings fit the width. In short03 the six lions and the jeep are inside the frame, and short01's branch running off the
+  left edge is intentional. Doug is on-model.
+- End cards: FULL VIDEO: TAP BELOW, with a red arrow pointing straight down. There is no "???" teaser card.
+- Payoffs land before the end card. short01 ends on "nobody has proved it" plus Doug's death, short02 on the stench and skin
+  reasons plus "and left", and short03 shows the charge through the middle and the badger's first plan (leave). short03's
+  "Then Doug tried to follow it" is a plug for the full video after the title has already paid off, so it is acceptable.
+- Nit (editor, optional): in the 9:16 crop, the death counter and scale labels shrink to about 10 px text. They are decorative here,
+  so this doesn't block.
+
+### Routing summary
+- Nothing is required. The main video, the thumbnails and the Shorts all clear post-render screening.
