@@ -1,6 +1,6 @@
 {
  "name": "badger_skin_cutaway",
- "description": "Honey badger head and neck in profile facing right (library honey_badger look: blunt black face, tiny eye, silver-white mantle from crown to nape, loose skin fold bunched at the scruff), with a crude jagged cutaway window over the neck and throat: a thick pale-pink skin band (~32 units) along the throat at about (+80,+20) tapering to a thin skin line on the belly edge at about (-60,+140), over a flat darker body layer. Cartoon anatomy, flat colours. Anchor = centre; ~600x370.",
+ "description": "Honey badger head and neck in profile facing right (library honey_badger look: blunt black face, tiny eye, silver-white mantle from crown to nape, loose skin fold bunched at the scruff), with a crude jagged cutaway window over the neck and throat: a thick pale-pink skin band (~32 units) along the throat at about (+80,+20) tapering to a thin skin line on the belly edge at about (-60,+140), over a flat cartoon-pink body layer (#e79aa0, art bible flesh interior; no dark speckle so it never reads as meat). Cartoon anatomy, flat colours. Anchor = centre; ~600x370.",
  "anchor": [0, 0],
  "tags": ["creature", "mammal", "honey badger", "diagram", "cutaway", "anatomy", "052"],
  "elements": [
@@ -40,11 +40,9 @@
   {"type": "curve", "points": [[200, -120], [186, -96], [190, -70]], "width": 2, "color": "#4a4a4a"},
   {"type": "spray", "x": 150, "y": -40, "r": 50, "color": "#3a3a3a", "density": 0.25},
   {"type": "spray", "x": -200, "y": 80, "r": 70, "color": "#3a3a3a", "density": 0.2},
-  {"type": "poly", "points": [[170, -2], [140, 10], [110, -2], [80, 10], [50, 0], [20, 20], [-10, 10], [-40, 36], [-70, 30], [-100, 58], [-130, 52], [-160, 80], [-160, 185], [-120, 180], [-90, 170], [-60, 152], [-30, 122], [0, 94], [40, 70], [80, 54], [120, 46], [160, 38], [170, 41.0]], "fill": "#9a4a56", "width": 0, "outline": false},
-  {"type": "spray", "x": 30, "y": 40, "r": 40, "color": "#7a3440", "density": 0.25},
-  {"type": "spray", "x": -90, "y": 100, "r": 40, "color": "#7a3440", "density": 0.25},
+  {"type": "poly", "points": [[170, -2], [140, 10], [110, -2], [80, 10], [50, 0], [20, 20], [-10, 10], [-40, 36], [-70, 30], [-100, 58], [-130, 52], [-160, 80], [-160, 185], [-120, 180], [-90, 170], [-60, 152], [-30, 122], [0, 94], [40, 70], [80, 54], [120, 46], [160, 38], [170, 41.0]], "fill": "#e79aa0", "width": 0, "outline": false},
   {"type": "poly", "points": [[170, 41.0], [160, 38], [120, 46], [80, 54], [40, 70], [0, 94], [-30, 122], [-60, 152], [-90, 170], [-120, 180], [-160, 185], [-160, 179], [-120, 174], [-90, 164], [-60, 146], [-30, 112.8], [0, 75.0], [40, 38], [80, 22], [120, 14], [160, 6], [170, 9.0]], "fill": "#f4c6c4", "width": 0, "outline": false},
-  {"type": "curve", "points": [[170, 9.0], [160, 6], [120, 14], [80, 22], [40, 38], [0, 75.0], [-30, 112.8], [-60, 146], [-90, 164], [-120, 174], [-160, 179]], "width": 3, "color": "#b86a6e"},
+  {"type": "curve", "points": [[170, 9.0], [160, 6], [120, 14], [80, 22], [40, 38], [0, 75.0], [-30, 112.8], [-60, 146], [-90, 164], [-120, 174], [-160, 179]], "width": 3, "color": "#a8505a"},
   {"type": "curve", "points": [[140, 22], [160, 19]], "width": 2, "color": "#e3a3a1"},
   {"type": "curve", "points": [[100, 30], [120, 27]], "width": 2, "color": "#e3a3a1"},
   {"type": "curve", "points": [[60, 38], [80, 35]], "width": 2, "color": "#e3a3a1"},

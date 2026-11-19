@@ -193,6 +193,12 @@ falls from midday to the pre-dawn raid. Diagram cards cream `#f4f1dc`, nest inte
 cards included; it only comes off on a scripted beat. Flat empty costumes (`bee_costume_flat`, `hornet_costume_flat`) carry printed X eyes and a
 zipper so they read as a suit, never as a headless animal. **Episode HUD icon** (`the_target`, 049): 0.2 scale left of the size-28 meter label,
 icon right edge ~30 px left of the label box; it may turn red-on-pink `#ffd2cc` / `#e0201b` at the boss like the 009 clock.
+**THE WEIGH-IN (from 052; reuse for any "small animal vs bigger attackers" episode).** Library `platform_scale` at 0.36-0.4 left of
+two stacked size-28 labels under the counter: the subject's fixed weight on top (`BADGER: ~9 kg`), the current attacker under it. A
+small red needle line on the dial steps up each item and hits the end stop at the climax, where only the attacker label turns red-on-pink
+`#ffd2cc` / `#e0201b`. HUD labels use lower-case `kg` on every shot; the big on-screen callouts may use `KG`.
+**Anatomy cutaways on an animal (from 052 `badger_skin_cutaway`):** the inside layer is cartoon pink `#e79aa0` (or grey anatomy) under the
+`#f4c6c4` skin band, with flat fills and no dark-red fill or speckle. Maroon under a jagged window reads as torn meat.
 **Doug on a lit prop over night ground:** when Doug stands in front of a pale prop (cut wood, a booth) his ink stays black, so his legs vanish
 on `#141e1a`. Put a torch-light pool (`#3a4a40` ellipse) under him or move his feet onto the prop's base (049 s003, s191, s192).
 

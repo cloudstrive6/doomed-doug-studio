@@ -1,6 +1,6 @@
 {
  "name": "receptor_lock_diagram",
- "description": "Crude MS Paint biology card (transparent background): a block of cartoon-pink muscle (#f4c6c4, top surface y -40) with darker striation lines across the bottom half; a lilac nerve ending sweeping in from the top to a rounded terminal bulb at (0,-232) with pale vesicle dots; a big grey keyhole receptor socket (120 x 180, dark keyhole) standing in the muscle's top surface, keyhole centre about (0,-55). Gap y -195..-125 between bulb and socket is left clear for the toxin. Anchor centre. Footprint x -450..450, y -284..270.",
+ "description": "Crude MS Paint biology card (transparent background): a block of cartoon-pink muscle (#f4c6c4, top surface y -40) with darker striation lines across the bottom half; a lilac nerve ending sweeping in from the top to a rounded terminal bulb at (0,-232) with pale vesicle dots; a big grey keyhole receptor socket (120 x 180, dark keyhole) standing in the muscle's top surface, keyhole centre about (0,-55). Gap y -195..-125 between bulb and socket is left clear for the toxin. Anchor centre. Footprint x -450..450, y -430..270 (nerve stalk runs up off the card to y -430 so the bulb never reads as a floating blob).",
  "anchor": [
   0,
   0
@@ -2393,11 +2393,11 @@
    "points": [
     [
      -22,
-     -284
+     -430
     ],
     [
      22,
-     -284
+     -430
     ],
     [
      20,
@@ -2428,11 +2428,11 @@
    "points": [
     [
      -20,
-     -284
+     -430
     ],
     [
      20,
-     -284
+     -430
     ],
     [
      18,
@@ -2453,7 +2453,11 @@
    "points": [
     [
      -22,
-     -284
+     -430
+    ],
+    [
+     -24,
+     -340
     ],
     [
      -20,
@@ -2472,7 +2476,11 @@
    "points": [
     [
      22,
-     -284
+     -430
+    ],
+    [
+     18,
+     -340
     ],
     [
      20,
@@ -2491,7 +2499,7 @@
    "points": [
     [
      6,
-     -282
+     -420
     ],
     [
      6,
