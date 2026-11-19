@@ -52,7 +52,7 @@ the honey badger venom-resistance sentence) and the 041 script (cost framing, BE
     Alone" is allowed only with "Usually", and only if item 7 sources the "usually".
 - **Alternates for the titler (leads):**
   - "Why Even Lions Usually Leave the Honey Badger Alone" (T9, only if item 7's source supports "usually");
-  - "The 12 kg Animal That Lions Would Rather Not Fight" (needs a sourced mass and a sourced lion encounter);
+  - ~~"The 12 kg Animal That Lions Would Rather Not Fight"~~ (struck 2026-11-19, CD: 12 kg is unsourced; see decisions.md for the settled title guidance);
   - "Every Reason the Honey Badger Is So Hard to Kill".
 - **Banned in the title:**
   - OctoLab's "Terrifying... Here's Why" and "Weirdest Apex Predator" skeletons;
@@ -64,7 +64,7 @@ the honey badger venom-resistance sentence) and the 041 script (cost framing, BE
   - A huge male lion fills the left two-thirds, leaning back with one paw lifted, unimpressed.
   - A small honey badger stands its ground on the right, with its white back stripe clear.
   - Tiny Doug hides behind the badger, cap visible.
-  - Text ≤3 words, e.g. "TOO MUCH WORK" or "12 KG". Do not use "NOT WORTH IT": it was 041's variant A.
+  - Text ≤3 words, e.g. "TOO MUCH WORK" (never "12 KG"; see decisions.md 2026-11-19). Do not use "NOT WORTH IT": it was 041's variant A.
   - Test a grid fallback (B): three panels, SNAKE / LEOPARD / LION, each with the badger.
   - No blood, no wounds, no snarling gore mouths, no cute cartoon faces.
   - The thumbnail is the opening image.
