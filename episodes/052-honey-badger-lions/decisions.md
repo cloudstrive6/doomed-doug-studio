@@ -114,3 +114,4 @@ It cannot be approved yet only because the last screener verdict on C is FAIL an
 2. If the screener requests a change, the designer applies it and C comes back to me.
 3. Optional, not blocking: drop the faint grey C-marks on the badger's side; the scruff fold already sells "turning in its skin".
 - Thumbnail C approved via screener round 3 PASS + CD conditional approval (2026-11-19).
+2026-11-19: 052 packaged. Rounds: script 3 (screener fail x2, narrow pass), assets 1 + redraw, keyframes 3, thumbnails 3 (C approved after round 3). Risks: lion in thumbnail A upright not leaning; title lacks dread adjective (style rule 4, CD guidance); lede facts rest on Kapama ranger blogs.
