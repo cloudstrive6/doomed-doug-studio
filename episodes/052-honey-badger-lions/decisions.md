@@ -82,3 +82,34 @@ layout error rather than "it turns round inside its own skin". The concept in `t
 All three titles are honest and approved as written. A and C share "Every Reason Lions Think Twice ...", so the A/B/C test is mostly a
 thumbnail test; that is acceptable. If any variant cannot be fixed, the fallback for its slot is A's composition with B's title. Re-submit
 all three with a visual-screener pass (feed-size readability of the lions in B and the grip in C especially).
+
+## 2026-11-19 · Thumbnail re-review (creative director): A APPROVE, B APPROVE, C REVISE (screener gate only)
+
+Re-reviewed the round-2/3 renders `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` (and `_small.png`) against my REVISE
+notes above and the visual screener's round 2 (`visual_review.md`: A PASS, B PASS, C FAIL; C was redrawn after that report in
+d79c0d70 and has not been re-screened). Policy on all three still clean: cartoon snarls only, no blood, no wound, no claws in skin,
+no banned words on the image, titles honest and paid off.
+
+### A · "Every Reason Lions Think Twice About a 9 kg Honey Badger" + TOO MUCH WORK: **APPROVE**
+Screener PASS. My points 1-4 are done: the paw is a palm-out "stop" aimed at the badger, the gap is closed (badger nose under the
+paw), the badger has an eye, a cartoon teeth-out snarl and a head-up stance, and Doug's cap and face read at feed size. Point 5
+(horizon) is covered by the ground band. The lion still sits upright rather than leaning back; the closed eyes and stop-paw carry
+"can't be bothered" on their own, so I am not holding it for that. I'd click it. This stays the opening image.
+
+### B · "Every Reason Six Lions Lost Interest in One Honey Badger" + IT CHARGED: **APPROVE**
+Screener PASS. Six heads are countable at 168 px, the pride is about a third of the frame, the sky band is cut and turned
+yellow-orange so the red cap and the white-outlined text pop, and the badger charge is unchanged (teeth, speed lines, low body).
+Mixed head directions (the right-hand male faces back across the group) give enough "who's going first" for the title. The
+screener's optional Doug tweak (hind leg over his body) stays optional; do it only if the designer is already touching the file.
+I'd click it; it is the strongest promise of the three.
+
+### C · "Every Reason Lions Think Twice Before Killing a Honey Badger" + IT BITES BACK: **REVISE (gate only, no art changes)**
+Creative verdict: the round-3 redraw fixes what killed it. The grip is the lion's own foreleg coming out of the mane, shaded like
+the body, with a padded paw closed on the white scruff fold and no claws; the badger's head is twisted back with teeth toward the
+lion's face; it reads as "a lion is holding a badger and regrets it" at feed size. I waive my earlier points 2 (dangling legs: the
+lifted feet are enough) and 3 (HOW TO HOLD A BADGER card: panicking Doug is enough). I would click it.
+It cannot be approved yet only because the last screener verdict on C is FAIL and the current render has not been re-screened.
+1. **Visual screener:** run round 3 on `thumbnail_c.png` / `_small.png` only. If it PASSES with no blocking changes, C is
+   **approved by this entry**, no further CD round needed; record the PASS in `visual_review.md`.
+2. If the screener requests a change, the designer applies it and C comes back to me.
+3. Optional, not blocking: drop the faint grey C-marks on the badger's side; the scruff fold already sells "turning in its skin".
