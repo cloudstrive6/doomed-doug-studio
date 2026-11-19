@@ -1,29 +1,29 @@
-<!-- axis: weight of the attacker the honey badger faces, monotonic on the sourced typical weights: puff adder (a few kg) / the hive (colony, no kg: unsourced, scale shows COLONY only) / black-backed jackal (about 8 kg) / its own size (about 9 kg, the grabbed-by-the-scruff item) / leopard (Kruger male mean 58 kg) / Doug (80 kg) / lion (lioness 126 kg, male 190 kg) / the pride (six lions). Spoken bands: none before item 1, then "Smaller." / "Its size." / "Bigger." / "Lions." -->
-<!-- Episode 052, draft 1 (2026-11-19, script writer). Counter 386 to 391: five deaths (items 1, 2, 4, 5, 8); survivals at The Jackal (narrator quietly disappointed), The Beekeeper (plain "Doug is fine.") and The Lion (narrator quietly disappointed). -->
+<!-- axis: weight of the attacker the honey badger faces, monotonic on the sourced typical weights: puff adder (up to about 6 kg, Mpala; Britannica 4.5 to 6.8 kg) / the hive (colony, no kg: unsourced, scale shows COLONY only) / black-backed jackal (about 8 kg) / its own size (about 9 kg, the grabbed-by-the-scruff item) / leopard (Kruger male mean 58 kg) / Doug (80 kg) / lion (lioness 126 kg, male 190 kg) / the pride (six lions). Spoken bands: none before item 1, then "Smaller." / "Its size." / "Bigger." / "Lions." -->
+<!-- Episode 052, draft 2 (2026-11-19, script writer; screener draft-1 fixes 1-11 and all four optional notes applied). Counter 386 to 391: five deaths (items 1, 2, 4, 5, 8); survivals at The Jackal (narrator quietly disappointed), The Beekeeper (plain "Doug is fine.") and The Lion (narrator quietly disappointed). -->
 <!-- DEVIATIONS FROM THE BRIEF, for the CD: (1) 12 kg is NOT supported. The sourced Kalahari means are male 9.4 kg, female 6.2 kg (Begg et al. 2003b via San Diego Zoo factsheet); ADW gives 8 to 12 kg for the species. The script says "nine kilogram". WEIGH-IN fixed line should read "BADGER: ~9 kg"; the titler and the thumbnail must not use "12 kg". (2) The puff adder collapse record: the only citable account is Colleen Begg's own (BBC Wildlife / Discover Wildlife): bitten on the face, large swelling, "up and chasing snakes again just five hours later". No source says it collapsed or went back to eating that same snake, so the opener uses Begg's wording. (3) The Pride uses a real multi-lion encounter (Kapama ranger blog, 2012: six lions, the badger ran through the pride into a hole, the lions lost interest), so no standoff is invented. The Lion uses a second Kapama ranger report (a young lioness tried for an adult badger and quickly gave up; a male lion left his meal after the scent glands). Neither is Kalahari, so no line says Kalahari there. (4) "Usually" is NOT sourced as a frequency for lions; the script says lions "have to want it", never "usually". Titler: do not use "Usually Leave ... Alone". (5) No caracal (no non-clip source), no groin-bite line (unsourced), no "stung to death" line (only weak sources), no stand height (no source for one metre). (6) Item 4's scale reads "ITS OWN SIZE ~9 kg", and the hive's scale shows "COLONY" with no number. -->
 <!-- Pronunciation for the editor: Mellivora not spoken; Kapama = "ka-PAH-ma"; Sparrman = "SPAR-mun"; Kalahari = "ka-la-HAH-ree"; Yao = "YOW"; "brrr-hm" = a rolled trill then a short grunt; Begg = "BEG". -->
 
 [Open on the thumbnail, 1.5 to 4 seconds: a huge male lion fills the left two-thirds, leaning back with one paw lifted, unimpressed; a small honey badger stands its ground on the right, white back stripe clear; tiny Doug hides behind the badger, cap visible. Cut. DOUG DEATHS: 386 beside THE WEIGH-IN platform scale, fixed line "BADGER: ~9 kg", attacker side empty. Staging only, never read aloud.]
 
-A puff adder bit a honey badger on the face. Five hours later, it was hunting snakes again.
+A puff adder bit a honey badger on the face. Five hours later, it hunted snakes again.
 
-Doug ends up behind one, facing six lions. The badger's plan doesn't include him.
+Doug ends up behind a honey badger, facing six lions. Its plan doesn't include him.
 
 ## The Puff Adder
 
 The Puff Adder.
 
-[A puff adder coiled in the sand beside a crude baseball bat for length. WEIGH-IN attacker side: "PUFF ADDER: A FEW KG".]
+[Crude cutaway of a muscle with a nerve ending. A keyhole-shaped receptor. A toxin blob tries to fit. A red plus sign sits in the keyhole. Label: "+". WEIGH-IN attacker side: "PUFF ADDER: UP TO ~6 KG".]
 
-A puff adder is a heavy African viper that sits and waits in ambush, about as long as a baseball bat, and honey badgers dig them out and eat them.
+A honey badger's muscles have a lock that cobra-type nerve toxins can't easily open. Those toxins work by gripping a receptor that muscles use to take orders from nerves. In the honey badger, one small part of that receptor carries a positive charge, so the toxin struggles to hold on.
 
-[Field guide HONEY BADGER page. FRIEND? box empty.]
+[Field guide HONEY BADGER page. FRIEND? box empty. Beside it, the badger with one swollen cheek, already looking for the next snake.]
 
-That bite was watched by Colleen Begg, who spent years following wild honey badgers in the southern Kalahari, and the badger's cheek swelled up badly before it went back to work.
+Colleen Begg, who spent years following wild honey badgers, came across the bitten badger with its cheek badly swollen.
 
-[Crude cutaway of a muscle with a nerve ending. A keyhole-shaped receptor. A toxin blob tries to fit. A red plus sign sits in the keyhole. Label: "+".]
+[A puff adder coiled in the sand beside a crude baseball bat for length.]
 
-The usual explanation is in its muscles. Cobra-type nerve toxins work by locking onto a receptor that muscles use to take orders from nerves. In the honey badger, one small part of that receptor carries a positive charge, so the toxin struggles to get a grip.
+A puff adder is a heavy African viper that waits in ambush, about as long as a baseball bat, and honey badgers hunt them and eat them.
 
 Here's the problem.
 
@@ -55,7 +55,7 @@ The Hive.
 
 [A greater honeyguide on a branch, a honey badger below it, a dotted line from bird to badger to a bees' nest in a tree. A big red "?" stamps the dotted line. WEIGH-IN attacker side: "COLONY".]
 
-For more than two hundred years, people have told a story about a bird that leads honey badgers to bees' nests, and scientists still have no solid record of it ever happening.
+For more than two hundred years, people have told a story about a bird that leads honey badgers to bees' nests, and scientists still have no solid record of it.
 
 [The badger halfway up a tree trunk, paws in a wild bees' nest. A small bee cloud. A thought bubble shows larvae, not honey.]
 
@@ -63,21 +63,21 @@ Honey badgers really do raid bees' nests and will climb trees to reach them, and
 
 [The honeyguide beside a crude egg for size.]
 
-The bird is the greater honeyguide, a small brown bird that weighs about as much as an egg. In the story, it finds a nest, calls a badger over and leads it there, and once the badger has broken in, the bird eats the wax.
+The bird is the greater honeyguide, a brown bird that weighs about as much as an egg. In the story, it leads a badger to a nest and eats the wax once the badger breaks in.
 
 Here is the strange part.
 
 [An old-looking book page: "SPARRMAN, 1785. HEARD IT FROM SOMEONE."]
 
-The story goes back to a traveller called Anders Sparrman in seventeen eighty-five, and he never saw it himself, only heard it from local people. In nineteen ninety, three researchers went looking for real evidence and found almost none.
+The story goes back to a traveller called Anders Sparrman in seventeen eighty-five, and he never saw it himself, only heard it from local people.
 
 [A crude map of Africa with nine countries shaded. Label: "394 HONEY-HUNTERS".]
 
-In two thousand twenty-three, a team interviewed three hundred and ninety-four honey-hunters across nine African countries. Most had never seen it, although many in some Tanzanian communities said they had, and the team's best guess is that it happens but is rare, very local, or both.
+In two thousand twenty-three, a team interviewed three hundred and ninety-four honey-hunters across nine African countries. Most had never seen it, though many in some Tanzanian communities had, and the team's best guess is that it is rare, very local, or both.
 
 [A Yao honey-hunter cupping his hands to call. Speech text: "brrr-hm". The honeyguide flies toward him.]
 
-The bird does guide one animal for certain. In Mozambique, Yao honey-hunters call it with a loud trill and a short grunt, and in an experiment that call doubled their chance of being guided by a honeyguide.
+The bird does guide one animal for certain. In Mozambique, Yao honey-hunters call it with a loud trill and a short grunt, and in an experiment that call doubled their chance of being guided.
 
 [Doug in the beekeeper suit, cap on top, following the honeyguide through the bush. Speech bubble: "hi friend?"]
 
@@ -111,7 +111,7 @@ The odd part is how little the badger does about it.
 
 [A pie chart, crude: a thin slice labelled "5%".]
 
-With the hawks, the badger lost nothing anyone could measure, and the jackals cost it only about five percent of the prey it catches above ground, so it mostly just keeps digging.
+With the hawks, the badger lost nothing anyone could measure. The jackals cost it about five percent of its prey overall, all of it caught above ground, so it mostly just keeps digging.
 
 [Doug crouched behind the badger with a small bowl, cap on. A gerbil bolts out of the hole. The jackal catches it. A spray of dirt hits Doug in the face.]
 
@@ -175,7 +175,7 @@ In the southern Kalahari, the Beggs recorded lions, leopards and probably spotte
 
 [A crude bucket of water labelled "10 L = 10 KG" beside the badger, slightly bigger than it. A bracket: "LEOPARD'S FAVOURITE: 10 TO 40 KG".]
 
-A male leopard in Kruger National Park averages about fifty-eight kilograms, six times a badger. Leopards prefer prey between ten and forty kilograms. A nine kilogram badger weighs a little less than a full ten-litre bucket of water, just under the size they like best.
+A male leopard in Kruger National Park averages about fifty-eight kilograms. Leopards prefer prey between ten and forty kilograms. A nine kilogram badger weighs a little less than a full ten-litre bucket of water, just under the size they like best.
 
 [A bar chart: "WHO WINS? BIGGER ONE." The bars line up neatly by body size.]
 
@@ -209,9 +209,9 @@ In one survey of beekeepers in South Africa's Western Cape, about half admitted 
 
 About four in five said badgers had caused them problems, because badgers climb, they break hives open, and an unprotected apiary is a row of easy meals.
 
-[Doug in the beekeeper suit beside eight honey badger outlines on a balance.]
+[Doug in the beekeeper suit on a balance against eight crude ten-litre buckets of water.]
 
-A beekeeper is the heaviest attacker yet, since Doug weighs eighty kilograms, about eight honey badgers, and the badgers were still winning.
+A beekeeper is the heaviest attacker yet, since Doug weighs eighty kilograms, about eight full buckets of water, and the badgers were still winning.
 
 Here is the twist.
 
@@ -221,11 +221,11 @@ The fix was not a weapon. In two thousand two, the Endangered Wildlife Trust and
 
 [A honey jar with a crude sticker: "BADGER FRIENDLY".]
 
-It grew into a national accreditation, and Woolworths, a big South African retailer, now requires its honey suppliers to meet badger-friendly standards that are checked independently. Raising and securing hives can cut losses significantly, and nobody has to fight anything.
+It grew into a national accreditation, and Woolworths, a big South African retailer, put its honey under a badger-friendly code of practice. Raising and securing hives can cut losses significantly, and nobody has to fight anything.
 
-[Doug, in the beekeeper suit, building a hive stand with crude MS Paint legs, wobbling. He sets the hive on top.]
+[Doug, in the beekeeper suit, building a hive stand with crude wobbly legs. He sets the hive on top.]
 
-Doug built a hive stand with legs that only an MS Paint artist could love, and the badger walked under it, sniffed once, and left.
+Doug built a hive stand with legs that only a cartoonist could love, and the badger walked under it, sniffed once, and left.
 
 [Doug gives a thumbs up under the stand, cap on top of the suit.]
 
@@ -243,13 +243,13 @@ The Lion.
 
 At Kapama, a private reserve in South Africa, a ranger watched a young lioness go for an adult honey badger, get nowhere, and quickly give up.
 
-[Thirteen to nineteen crude buckets lined up beside one lion.]
+[One lion beside a long line of crude buckets, thirteen to twenty of them.]
 
 A lioness averages about one hundred and twenty-six kilograms and a male about one hundred and ninety, which is thirteen to twenty badgers, or a long line of full buckets.
 
-[The rangers' vehicle. A green cartoon cloud drifts across the grass toward it. A young male lion walks away from the bushes, nose wrinkled. Nothing behind the bushes is shown.]
+[The ranger's vehicle. A green cartoon cloud drifts across the grass toward it. A young male lion walks away from the bushes, nose wrinkled. Nothing behind the bushes is shown.]
 
-The same morning showed why a lion might not bother. Her brother had already caught a young badger, and then a stench reached the rangers' vehicle, and the male lion stopped eating and walked away from his own meal.
+The same morning showed why a lion might not bother. Her brother had already caught a young badger, and then a stench reached the vehicle, and the male lion stopped eating and walked away from his own meal.
 
 [A crude honey badger tail, a small green cloud. A dotted line to a stick figure holding its nose, far away. Beside the line, an Olympic swimming pool for length: "45 M".]
 
@@ -273,13 +273,13 @@ It works on one lion, but the next stop has six of them.
 
 The Pride.
 
-[A dirt road on the reserve, morning. Six lions spread across the road. One honey badger running straight at them, teeth bared. WEIGH-IN attacker side: "THE PRIDE: 6 LIONS". The needle slams into the end stop. The pride's weight is stamped red.]
+[A dirt road on the reserve, morning. Six lions spread across the road. One honey badger running straight at them, teeth bared. WEIGH-IN attacker side: "THE PRIDE: 6 LIONS", no kg figure. The needle slams into the end stop. "6 LIONS" is stamped red.]
 
 In two thousand twelve, a ranger at Kapama watched one honey badger run straight at six lions.
 
-[Six crude lions, each with a bucket tally above it; together they dwarf a single bucket beside the badger.]
+[Six crude lions in a row. One adult lioness is labelled "~126 KG = 13 BADGERS". The badger stands alone in front of them.]
 
-Six lionesses alone would weigh more than seven hundred kilograms, about seventy-five full buckets against one.
+Six lions, and one adult lioness alone weighs about as much as thirteen badgers.
 
 [From the ranger's vehicle, the lions look like they are playing. Then the badger, mid-charge.]
 
@@ -309,8 +309,8 @@ Doug has died. Again. The badger was never planning to share the hole.
 
 [Closing: morning. The badger climbs out of the burrow. The red cap lies on the sand beside the hole. The badger sniffs the cap, then walks off. Sticky note on the field guide: "IT LEFT. DOUG DIDN'T."]
 
-In the morning, the badger came out of the hole and found the cap lying on the sand. This animal has eaten puff adders, robbed bees' nests and run through six lions, and the cap, it let off with a sniff.
+In the morning, the badger came out of the hole and found the cap lying on the sand. It sniffed the cap once, decided it was not worth the trouble, and left it there.
 
 Doug deaths: three hundred and ninety-one. Subscribe, and see which animal decides Doug is worth the trouble next.
 
-<!-- words: 2017 (spoken narration incl. opening, band headers, item-name sentences, closing and outro; headings, comments and stage directions excluded) · est. runtime 10.3 min at 195 wpm · draft 1 (2026-11-19) · 8 items · 138 sentences, avg 14.6, max 34 · Flesch about 76 (approximate syllable count; textstat not installed) · opener 32 words; "The Puff Adder." at words 33-35; item 1 twist marker "Here's the problem." at word 143 (about 0:44) · items: Puff Adder 268, Hive 292 incl. "Smaller.", Jackal 255, Skin 230 incl. "Its size.", Leopard 219 incl. "Bigger.", Beekeeper 205, Lion 222 incl. "Lions.", Pride 294 incl. closing and 18-word outro · deaths 387-391 at items 1, 2, 4, 5, 8; survivals 3, 6, 7 -->
+<!-- words: 1957 (spoken narration incl. opening, band headers, item-name sentences, closing and outro; headings, comments and stage directions excluded) · est. runtime 10.0 min at 195 wpm · draft 2 (2026-11-19) · 8 items · 138 sentences, avg 14.2, max 34 · Flesch about 77 (approximate syllable count; textstat not installed) · opener 32 words; "The Puff Adder." at words 33-35; item 1 twist marker "Here's the problem." at word 132 (about 0:41) · items: Puff Adder 257, Hive 260 incl. "Smaller.", Jackal 256, Skin 230 incl. "Its size.", Leopard 215 incl. "Bigger.", Beekeeper 201, Lion 221 incl. "Lions.", Pride 285 incl. closing and 18-word outro · deaths 387-391 at items 1, 2, 4, 5, 8; survivals 3, 6, 7 -->
