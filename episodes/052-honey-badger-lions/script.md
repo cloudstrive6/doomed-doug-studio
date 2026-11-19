@@ -277,13 +277,13 @@ The Pride.
 
 In two thousand twelve, a ranger at Kapama watched one honey badger run straight at six lions.
 
-[Six crude lions in a row. One adult lioness is labelled "~126 KG = 13 BADGERS". The badger stands alone in front of them.]
+[Six crude lions in a row. One adult lioness is labelled "~126 KG = 13 BADGERS = 13 BUCKETS", with a short row of thirteen water buckets under her. The badger stands alone in front of them.]
 
-Six lions, and one adult lioness alone weighs about as much as thirteen badgers.
+Six lions, and one adult lioness alone weighs about as much as thirteen badgers, or thirteen full buckets of water.
 
 [From the ranger's vehicle, the lions look like they are playing. Then the badger, mid-charge.]
 
-He had gone out looking for lions and found them on the road, apparently playing with each other. They were not playing. A male honey badger was charging straight at them, teeth showing, growling the whole way.
+He had gone out looking for lions and found them on the road, apparently playing with each other. They were not playing. A male honey badger was charging straight at them, teeth showing, groaning as it came.
 
 [The badger runs through the middle of the pride. At a young male lion, it growls and swings a front paw at his face. The lions look at each other.]
 
@@ -313,4 +313,4 @@ In the morning, the badger came out of the hole and found the cap lying on the s
 
 Doug deaths: three hundred and ninety-one. Subscribe, and see which animal decides Doug is worth the trouble next.
 
-<!-- words: 1957 (spoken narration incl. opening, band headers, item-name sentences, closing and outro; headings, comments and stage directions excluded) · est. runtime 10.0 min at 195 wpm · draft 2 (2026-11-19) · 8 items · 138 sentences, avg 14.2, max 34 · Flesch about 77 (approximate syllable count; textstat not installed) · opener 32 words; "The Puff Adder." at words 33-35; item 1 twist marker "Here's the problem." at word 132 (about 0:41) · items: Puff Adder 257, Hive 260 incl. "Smaller.", Jackal 256, Skin 230 incl. "Its size.", Leopard 215 incl. "Bigger.", Beekeeper 201, Lion 221 incl. "Lions.", Pride 285 incl. closing and 18-word outro · deaths 387-391 at items 1, 2, 4, 5, 8; survivals 3, 6, 7 -->
+<!-- words: 1963 (spoken narration incl. opening, band headers, item-name sentences, closing and outro; headings, comments and stage directions excluded) · est. runtime 10.0 min at 195 wpm · draft 3 (2026-11-19) · 8 items · 138 sentences, avg 14.2, max 34 · Flesch about 77 (approximate syllable count; textstat not installed) · opener 32 words; "The Puff Adder." at words 33-35; item 1 twist marker "Here's the problem." at word 132 (about 0:41) · items: Puff Adder 257, Hive 260 incl. "Smaller.", Jackal 256, Skin 230 incl. "Its size.", Leopard 215 incl. "Bigger.", Beekeeper 201, Lion 221 incl. "Lions.", Pride 291 incl. closing and 18-word outro · deaths 387-391 at items 1, 2, 4, 5, 8; survivals 3, 6, 7 -->
