@@ -29,7 +29,12 @@
       "stage": "shotlisted",
       "at": "2026-11-19T17:57:27+00:00",
       "note": ""
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-19T18:49:50+00:00",
+      "note": "AD+VS keyframes pass (round 3), thumbnails A/B/C approved"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }
