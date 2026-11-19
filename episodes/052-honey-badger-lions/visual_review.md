@@ -1,117 +1,108 @@
 # 052 honey badger: visual review
 
-## Round 1: pre-render (keyframes + thumbnails), 2026-11-19
+## Round 2: pre-render re-screen (keyframes + thumbnails), 2026-11-19
 
-Inputs: `build/contact/sheet_01..14.png` (168 tiles, s001-s167 + endslate), full-res `build/keyframes/*.png` for
-zooms, `build/thumbnail{,_b,_c}.png` and `_small.png`, titles from `metadata.json` packaging variants.
+Inputs: the full regenerated set `build/contact/sheet_01..14.png` (168 tiles, s001-s167 + endslate), full-res
+`build/keyframes/*.png` crops for the shots that changed, end-state renders of every shot that uses a masking `rect`
+(s024, s067, s076, s084, s140, s157, s159), `build/thumbnail{,_b,_c}.png` and `_small.png`, and the titles in
+`metadata.json`.
 
 ### Scorecard
 
 | Item | Verdict | Note |
 |---|---|---|
-| Keyframes (s001-s167, endslate) | **FAIL** | 2 blockers: shots that could read as gore (red glow, skin cut-away), plus a count error and label overlaps |
-| Thumbnail A `thumbnail.png` (TOO MUCH WORK) | **PASS** | Reads at feed size: one big lion, badger, text. Doug only shows as a red cap at 168 px, as the brief intends |
-| Thumbnail B `thumbnail_b.png` (IT CHARGED) | **FAIL** | The six lions blur into one tan smear at feed size, and the right-hand lion is cut off by the frame |
-| Thumbnail C `thumbnail_c.png` (IT BITES BACK) | **FAIL** | Nothing is holding the badger, so it floats in mid-air and the raised scruff looks like a shark fin |
+| Keyframes (s001-s167, endslate) | **FAIL** | All 8 round-1 blockers and the recommended fixes are done. 1 blocker left: a masking rect cuts a square chunk out of the burrow on s159 |
+| Thumbnail A `thumbnail.png` (TOO MUCH WORK) | **PASS** | Better than round 1: the stop-paw reads at once and Doug's face now shows at feed size |
+| Thumbnail B `thumbnail_b.png` (IT CHARGED) | **PASS** | You can now count six separate lions at 168 px and all of them sit inside the frame. One optional Doug tweak below |
+| Thumbnail C `thumbnail_c.png` (IT BITES BACK) | **FAIL** | The gripping arm comes in from the top-right edge and isn't joined to the lion on the left. It reads as a wooden plank or a second, off-screen giant |
 
-What works across the cut: Doug is on-model in every shot (red cap, white head) and shows up where expected. The death
-counter goes 386 > 391 at the right beats. Chapter cards and wordart are spelled right and readable. All the
-creatures are recognisable (adder, honeyguide, jackal, goshawk, leopard, lions, gerbil). Nothing has a kids-show
-tone. Deaths are cartoon only (ghost Doug, cap on the ground, X eyes, tombstone). The ending pays off the title (the
-badger takes the hole, and the lions lose interest in it and in Doug) and ends cleanly on the end slate, with no
-"???" teaser. Variety: no run of 4 or more near-identical shots. The longest are 3, at s037-s039 (map), s049-s051
-(dig + jackal) and s139-s141 (Doug behind the badger).
+### Round-1 fixes: verified
 
-### VERDICT: FAIL
+1. s142: FIXED. The red ground glows are gone. Six black silhouettes now sit under SIX (standing, male, standing,
+   sitting, standing, lying), and the lit ONE lion stands apart at the right with no overlap.
+2. s048: FIXED. The jackal silhouette has no red spray, and no red glow sits on the ground anywhere. The glow behind the
+   leopard on s087 stays in the orange sky band, which is acceptable.
+3. s072, s073, s074, s079: FIXED. The cut-away is now a whole badger with a round magnifier inset that shows a grey skin
+   layer over a beige body layer. There is no pink and no tear, so nothing reads as a wound. The 6 MM arrow lands on
+   the skin layer, BELLY: THIN points at the bottom of the inset, and SOME is clear.
+4. s144: FIXED. `2012` now sits in the sky band, clear of the lions.
+5. s148: FIXED. GROAN has moved above the badger, with an arrow to the mouth, so the teeth are clear. The label just
+   touches the lying lioness's tail, which is fine.
+6. s002, s003, s004: FIXED. The HUD shows only `BADGER: ~9 kg` until s005 adds the puff adder line.
+7. s002: FIXED. The `!` now sits just above the badger's head.
+8. s110: FIXED. The beam tips down on Doug's side and s111 stays level.
+9. s017, s091, s141: FIXED. Each one uses a single red strike-through, so IMMUNE, NOTHING HUNTS IT and LION stay
+   readable.
+10. s158: FIXED. The coffee ring has moved to the lower-left corner and PLAN B: FIGHT is clean.
+11. s160: FIXED. TOO BIG no longer touches the lioness.
+12. s025, s026: FIXED. The HUD second line reads COLONY.
+13. s134: FIXED. The capless stick man is gone and Doug stands at the pool edge.
 
-Required fixes (blockers first):
+Still good across the cut: Doug is on-model in every shot, including the beekeeper-suit shots s043-s047 and s105-s121.
+The death counter goes 386 > 391 at the right beats. Cartoon deaths only (ghost Doug, cap on the ground, tombstone).
+Nothing has a kids-show tone. The ending pays off the title (the badger takes the hole and the lions wander off), and
+the clip ends cleanly on the end slate with no "???" card. Variety: no run of 4 or more near-identical shots. The
+longest runs are 3: s072-s074 (skin diagram) and s139-s141 (Doug behind the badger). The road-and-pride layout comes
+back at s143/s144, s148, s150 and s159/s160, but other shots break it up between those.
 
-1. **s142: change, owner: director.** Each silhouette has a red `glow_r: 360` glow. On the brown ground these read as
-   four **blood pools under the animals**. The shot also says **SIX** but shows only 4 silhouettes plus the ONE lit
-   lion (5 animals), and the sitting silhouette overlaps the ONE lion's hind leg.
-   - Remove `glow_r` from all four silhouettes, or use a dark grey or desaturated purple halo that sits in the sky band
-     only.
-   - Show **six** silhouettes, with the separate lit lion under ONE. For example, shrink them to scale 0.4 and space
-     them about 230 px apart across x 200-1500, then move the lit lion to x 1650 so nothing overlaps.
-2. **s048: change, owner: director.** The jackal silhouette's red `glow_r: 320` spray falls on the brown ground under
-   it and reads as a blood splatter next to a digging animal. Drop the glow, or make it a dim, non-red rim. The same
-   threat glow on s087 (leopard over the sky band) is acceptable. Don't put a red ground glow on any other shot.
-3. **s072, s073, s074, s079: change, owner: illustrator (asset) and art director (style).** The skin cut-away is a
-   chopped-off front half of a badger with a **jagged pink tear** in its side. It reads as a torn-open wound or
-   butchered meat, not a diagram.
-   - Redraw the cut-away as a clean diagram: a whole badger in side view, with a neat straight or circular inset (a
-     "magnifier" circle) showing a thick black/grey skin layer over a plain body layer.
-   - The body layer should be a neutral colour (light grey or beige), not flesh pink, with no zig-zag tear.
-   - Keep the 6 MM, BELLY: THIN and SOME labels and arrows pointing at the skin layer.
-4. **s144: change, owner: director.** The `2012` label (260, 640) covers the first lioness's head and front legs.
-   Move it to the clear sky band, for example (200, 470), or put it on the jeep's door.
-5. **s148: change, owner: director.** The `GROAN` label covers the charging badger's face and teeth, which are the key
-   detail ("teeth showing"). Move it about 120 px up and in front of the snout, for example (1000, 900) with an arrow
-   to the mouth, or make it a speech-tail label above the head.
-6. **s002, s003, s004: change, owner: director.** The scale HUD's second line reads **`VS: --`**. It looks like
-   unfinished placeholder text. Change it to `VS: ?`. Better: drop the second line until
-   s005, when `PUFF ADDER: UP TO ~6 kg` arrives.
-7. **s002: change, owner: director.** The `exclamation_mark` at (1000, 520) floats alone in the sky, about 240 px
-   from the badger, and looks like a stray mark. Move it to just above the badger's head, about (880, 740).
-8. **s110: change, owner: director or illustrator.** Doug (80 kg) is on the left pan and the right pan is empty, but
-   the beam is level. Tip the beam down on Doug's side (rotate the beam and drop the left pan). s111 can stay level,
-   because 8 buckets is about 80 kg.
+### VERDICT: FAIL (keyframes)
 
-Recommended fixes (not blocking, but do them if they are cheap):
+Required fix:
 
-9. **s017, s091, s141: change, owner: director.** The red X sits on the middle letters, so the words being struck out
-   (IMMUNE, NOTHING HUNTS IT, LION) can't be read in one second. Use a single red strike-through line, like the field
-   guide's FEARLESS on s102 and s154, so the word stays readable.
-10. **s158: change, owner: director.** The coffee-ring stain sits on `PLAN B: FIGHT` and hides the I. Move the ring
-    to the lower-left page corner, as on s155.
-11. **s160: change, owner: director.** The `TOO BIG` label touches the lying lioness's back leg. Nudge it about
-    40 px right and down.
-12. **s025, s026: change, owner: director.** The topbar and HUD still say THE PUFF ADDER / PUFF ADDER: UP TO ~6 kg
-    while the narration has moved on to the stingers. This is fine as a bridge, but switch the HUD second line to
-    `COLONY` from s025 so it matches the picture.
-13. **s134: change, owner: director.** The capless `stick_man_plain` at the pool edge reads as off-model Doug at a
-    glance. Give him a different hat or a field shirt, or place Doug beside him reacting to the smell.
-14. **s001: note, owner: director.** The opening image is the thumbnail (lion + badger) while the line is "A puff
-    adder bit a honey badger on the face." This follows the opening-image rule and lasts about 2 s before s002 shows
-    the adder, so keep it. If the editor has room, an `appear` of a small puff adder at the badger's face would tie
-    picture and line together.
+1. **s159: change, owner: director.** The erase `rect` (x 640, y 900, w 260, h 150, fill `#6a5440`,
+   `appear: 0.6`) is drawn on top of `badger_burrow`. It cuts a hard square notch out of the left half of the mound,
+   and it chops the diving badger into a stub with a straight edge. In the video the notch pops in at 60 % of the
+   shot, which looks like a render glitch. This was already there in round 1 and I missed it.
+   - Delete that `rect`.
+   - Show the badger going down the hole by drawing `honey_badger_digging` at about (900, 940) **before**
+     `badger_burrow` in the element order, so the mound's front lip hides its head and only the rump and hind legs
+     show, as on s152.
+   - Or, if a second state is wanted at 0.6, swap in a "just the tail tip in the hole" version instead of masking.
+   - Keep the red arrow pointing into the hole.
+
+Re-render only s159 (`python -m studio keyframes 052-honey-badger-lions --shots s159`). If it reads cleanly, keyframes
+PASS. No other shot needs to change.
 
 ### Thumbnails
 
 **A `thumbnail.png` / `_small.png`: PASS** (title: *Every Reason Lions Think Twice About a 9 kg Honey Badger*)
-- At 168 px: TOO MUCH WORK is readable. The big sitting lion is the single focal point and the black-and-white badger
-  stands out against the orange. It pairs well with the title (the title gives the reasons, the image gives the lion's
-  verdict) and is not misleading.
-- Optional (graphic designer): at feed size Doug is only a red dot behind the badger's rump. Raise him about 20 px or
-  scale him 0.42 > 0.5 so his face shows over the badger's back. Optional, not required.
+- At 168 px, TOO MUCH WORK is readable. The lion's lifted "stop" paw and its half-closed eyes give the verdict in one
+  look. The black-and-white badger stands out against the orange, and Doug's red cap and white face now show behind
+  the badger's rump.
+- The badger's dark-red open mouth is a cartoon snarl: no blood, no wound. It is not misleading and pairs well with the
+  title.
 
-**B `thumbnail_b.png` / `_small.png`: FAIL** (title: *Every Reason Six Lions Lost Interest in One Honey Badger*)
-- The six lions (scale 0.27, about 110 px apart, alternately flipped) overlap tail-to-tail into one tan band. At feed
-  size you can't count them or tell they are lions, and the lion at x 1200 runs off the right edge. The threat (six
-  lions) is the point of this title and it doesn't read.
-- **Fix (graphic designer), `thumbnail_test_b.json`:**
-  - Scale the lions to about 0.34 and space them about 120-130 px apart over x 520-1180 so every lion is fully inside
-    the frame.
-  - Have all of them face left toward the badger (no alternating flips), or give each a small gap so there is no
-    overlap.
-  - Optionally raise the horizon about 40 px so the lions sit larger against the orange sky.
-- Keep IT CHARGED, the charging badger and Doug as they are; they read well.
+**B `thumbnail_b.png` / `_small.png`: PASS** (title: *Every Reason Six Lions Lost Interest in One Honey Badger*)
+- At feed size you can count six separate lions (2 males, 3 standing lionesses and 1 sitting), and every lion is fully
+  in frame. IT CHARGED, the long charging badger and the threat all read, and the image matches the title's "six
+  lions".
+- Optional (graphic designer, `thumbnail_test_b.json`): the badger's black hind leg is drawn over Doug's body, so up
+  close Doug looks like a head stuck to the badger's rump. Move the badger to about x 470, or move Doug about 40 px up
+  and left (x 80, y 670), so his stick body is clear behind the tail. Not blocking: at 168 px he still reads as a red
+  cap behind the badger.
 
 **C `thumbnail_c.png` / `_small.png`: FAIL** (title: *Every Reason Lions Think Twice Before Killing a Honey Badger*)
-- The concept is "a lion holding the badger by its loose scruff as it turns round inside its skin". Nothing in the
-  image holds the badger. It hangs in mid-air with its feet off the ground, and the pulled-up scruff looks like a
-  shark fin. At feed size it reads as a flying badger. The brief's HOW TO HOLD A BADGER card for Doug is also missing.
-- **Fix (graphic designer), `thumbnail_test_c.json`:**
-  - Add the lion's grip on the scruff fin, either the lion's front paw clamped on it (no claws in skin, no blood) or
-    the lion's jaw closed on the loose fold. This explains the raised skin and why the badger is lifted.
-  - Keep the badger's head twisted back with teeth toward the lion's nose, and keep it clear of the grip.
-  - Optionally put the HOW TO HOLD A BADGER card in Doug's hand, small enough that it doesn't compete with the text.
-- Text, colours and the lion's crop are fine.
+- The new `lion_paw_grip` does explain the raised scruff, but the forearm enters from the top-right corner (x 1240,
+  y 40) while the lion is at the far left. The limb isn't joined to any body. Its light tan, wood-grain shading and
+  straight edges make it read as a wooden beam or a cricket bat swinging into the badger. At 168 px the image reads as
+  "something is hitting a badger", not "a lion is holding a badger".
+- The paw's white curved claws hook into the white scruff fold. Up close, that edges toward "claws in skin", which the
+  brief rules out.
+- **Fix (graphic designer, using the illustrator if the asset needs redrawing), `thumbnail_test_c.json`:**
+  1. Join the grip to the lion on the left. Run the lion's own foreleg from its chest or mane (about x 330, y 470) up
+     and right to the scruff at about (740, 250), with the paw closed on top of the fold. Delete the arm from the
+     top-right.
+  2. Shade the leg like the lion's body: same tan, with fur strokes instead of grain lines. A rounded outline, not a
+     straight-edged slab.
+  3. Draw the paw as a padded grip with no visible claws, or with the claw tips hidden behind the fold.
+  4. Keep the badger's head twisted back with teeth toward the lion, clear of the paw. Keep IT BITES BACK, the sky,
+     the ground and Doug as they are.
 
 ### Routing summary
-- **director:** fixes 1, 2, 4, 5, 6, 7, 8 (+ 9-14 recommended)
-- **illustrator / art director:** fix 3 (skin cut-away asset used by s072, s073, s074, s079), s110 beam if it's in the asset
-- **graphic designer:** thumbnail B and C fixes (A optional)
+- **director:** keyframe fix 1 (s159)
+- **graphic designer (+ illustrator for the `lion_paw_grip` foreleg):** thumbnail C fixes 1-4. Thumbnail B Doug tweak
+  is optional.
+- **art director:** nothing this round
 
-To re-screen: re-run `python -m studio keyframes 052-honey-badger-lions --shots s002,s003,s004,s048,s072,s073,s074,s079,s110,s142,s144,s148`
-and `python -m studio thumbnail 052-honey-badger-lions`. I'll append Round 2 here.
+To re-screen: `python -m studio keyframes 052-honey-badger-lions --shots s159` and
+`python -m studio thumbnail 052-honey-badger-lions`. I'll write the Round 3 section here.
