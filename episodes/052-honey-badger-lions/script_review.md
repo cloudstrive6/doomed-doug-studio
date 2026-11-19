@@ -88,3 +88,18 @@ No abbreviations or symbols are spoken, and the 312 inversion is gone. The pronu
 - If space allows, change item 1's second sentence from mechanism to stakes. Not required.
 
 Route: script writer for the two line edits. Then a narrow re-check of L280-286 and the word count; on those two lines this is a PASS.
+
+---
+
+# Round 3 (draft 3, narrow re-check of L278-290 and word count, 2026-11-19)
+
+| # | Fix | Check | Result |
+|---|---|---|---|
+| 1 | L282 rule 8 analogy | "...about as much as thirteen badgers, or thirteen full buckets of water." 126 kg / 10 kg per ten-litre bucket = 12.6, about 13 (USGS 1 kg/L, SDZ 126 kg); facts.md row updated. No combined pride weight. L280 label "~126 KG = 13 BADGERS = 13 BUCKETS" matches the spoken line. Buckets repeat items 5-7, which is allowed (a fresh object was only preferred). | DONE |
+| 2 | L286 "growling the whole way" | Now "teeth showing, groaning as it came", which matches Du Plessis ("showing its teeth and groaning"). "Growled" appears only at the young male (L290), as in the report. facts.md row annotated. | DONE |
+| - | Word count | Independent recount (comments, stage directions and headings excluded): 1,963, matching the header (draft 2 was 1,957, +6). Within 1,950-2,350. Pride is 291 incl. closing and outro; the item body is about 240, within 200-260. | OK |
+| - | TTS / policy on changed lines | No symbols or abbreviations spoken; no new policy exposure. | OK |
+
+Scores carried from round 2: hook 8, structure 8, voice 8. Fact errors 0, policy items 0.
+
+VERDICT: PASS
