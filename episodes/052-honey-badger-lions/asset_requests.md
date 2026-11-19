@@ -198,6 +198,7 @@ attacker label turns red `#ffd2cc` / `#e0201b`). Nothing needs drawing for it.
 
 ### `badger_skin_cutaway` (s072-s074, s079)
 - **DONE** (illustrator, 2026-11-19): `assets/library/badger_skin_cutaway.json`, anchor and footprint as requested. Preview: `assets/previews/052-honey-badger-lions-assets-c.png`.
+- **REDRAWN round 2** (illustrator, 2026-11-19, visual_review fix 3): now a clean diagram. A whole honey badger in side view with a round magnifier inset (centre (15,40), r 115). Inside it are flat layers: fur, a thick dark-grey skin band (y -30..+22), a neutral beige body layer, a thin grey belly skin line (y +126..+135) and belly fur. No pink and no tear. The anchor (centre) and the footprint (x -300..300, y -104..187) are unchanged. The s073 arrow still lands on the thick skin at (+83,0) and the s074 arrow on the thin belly line at (-50,+133). Preview: `assets/previews/052-honey-badger-lions-assets-r2.png` (light/dark: `-r2-light.png`, `-r2-dark.png`).
 - The badger's head and neck in profile facing right, with a crude cutaway window over the neck and throat. It shows a thick
   pale-pink skin band (about 30 units thick) over a darker body layer, and a loose fold of skin at the scruff.
 - Put the thick throat skin at about (+80, +20), where my "6 MM" arrow lands. Put a visibly thin skin line on the belly edge at about
@@ -285,3 +286,8 @@ attacker label turns red `#ffd2cc` / `#e0201b`). Nothing needs drawing for it.
   the apron pale.
 - It is NOT the library `burrow`, which is a wasp burrow.
 - **DONE** (illustrator, 2026-11-19): `assets/library/badger_burrow.json`, anchor and footprint as requested. Preview: `assets/previews/052-honey-badger-lions-assets-badger.png` (dark/mid ground check: `-badger-bg1.png`, `-badger-bg2.png`).
+
+### `lion_paw_grip` (thumbnail C, visual_review round 1)
+- A big tawny lion forepaw reaching down, with its forearm running off the top (y -480, open end). The toes wrap a pale loose skin fold and the claws pinch its waist. Claw tips only touch: no blood, no wound. The fold flares and is open at the bottom so it sits over `honey_badger_turned`'s scruff.
+- Anchor = grip point (0,0). Footprint x -280..125, y -480..90.
+- **DONE** (illustrator, 2026-11-19): `assets/library/lion_paw_grip.json`. Over `honey_badger_turned` with `flip: true`, put it at the badger's grip point: badger x - 110*s, y - 170*s. With `flip: true, rotate: 35` the paw stays clear of the turned-back head and teeth. Preview: `assets/previews/052-honey-badger-lions-assets-r2.png` (composite on light/dark: `-r2-light.png`, `-r2-dark.png`).
