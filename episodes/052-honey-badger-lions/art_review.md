@@ -139,3 +139,49 @@ night grounds, and the cap stays in frame on every death beat (s023, s046, s086,
 
 Re-render the fixed shots (`python -m studio keyframes 052-honey-badger-lions --shots s002,s004,s012,s033,s050,s059,s063,s067,s106,s107,s109,s112,s116,s119,s132,s134,s147,s149,s150,s152,s153,s159,s160`)
 and send them back for a quick re-check. Everything else is approved.
+
+### Round 2 re-check (art director, 2026-11-19)
+
+**Verdict: FAIL. One fix remains (s159), for the director.** Fourteen of the fifteen round-1 fixes landed cleanly. s159 now has a
+new mask artefact. Fix it and I will re-check s159 alone. No other shot needs to be re-rendered.
+
+How I checked: I re-rendered all 168 keyframes from the committed `shotlist.json` (`python -m studio keyframes 052-honey-badger-lions`),
+so none of the frames were stale. I looked at every fixed shot at half size and cropped s159 at full size. I also checked the other
+shots the director touched (s001, s048, s091, s102, s110, s115, s141-s144, s148, s158) for regressions, and went through
+`sheet_05` (jackal) and `sheet_13` (pride) for variety.
+
+| # | Shot(s) | Result |
+|---|---|---|
+| 1 | s033 | Fixed. Only the climbing badger is left. |
+| 2 | s159 | **Not fixed. Regression, see R1.** |
+| 3 | s150 | Fixed. The badger runs in the clear road and the dashed path passes between the lions. |
+| 4 | s067 | Fixed. The jackal sits at the upper right, clear of the sleeve. |
+| 5 | s004 | Fixed. There are now two separate lions. |
+| 6 | s153 | Fixed. The male is at the far right and the arrow is on the ground. |
+| 7 | s132 | Fixed. The arrow is on the ground under the paws. |
+| 8 | s116 | Fixed. NATIONAL sits beside the hive. |
+| 9 | s160 | Fixed. TOO BIG sits at the lower right on the clear road. |
+| 10 | s002 / s050 / s012 | Fixed. The "!" is over the badger, the arrow runs from the jackal to the badger, and the arrow runs from the nose to the adder. |
+| 11 | s106 / s107 / s109 / s112 / s119 | Fixed. All wordart is in clear sky, off the ridge and snowcaps, and clear of the WEIGH-IN zone. |
+| 12 | s134 | Fixed. The capless stick man is gone. Doug, with his cap, reads on the right. |
+| 13 | pride run | Fixed. s147 is a tight push-in, s149 is a low close-up with "?" marks and the badger entering, s152 shows the burrow and badger with the lion above, and s153 is a new layout. The run no longer repeats. |
+| 14 | jackal run | Fixed. s059 is a face-in-dirt close-up and s063 is a wide high shot with the hawk on the acacia. |
+| 15 | s112 | Fixed. One hive in close-up with a "?". |
+
+The round-1 notes on s102, s115, s158 and s024 are all addressed. Doug is on-model in every shot I checked. Style, zone colours,
+HUD placement and safe area are unchanged from round 1. No gore.
+
+#### Required fix (director)
+R1. **s159: a road-coloured mask rect cuts a hard box through the burrow and the badger.** The `rect` at (640, 900), 260 x 150,
+    `#6a5440`, `appear 0.6`, paints over the left half of `badger_burrow`. From 0.6 on, the frame shows a straight-edged notch in the
+    mound with half a badger in it. The badger at (860, 960) also sits right under the crouched lioness's paws, and the arrow lies
+    across its back. To fix it:
+    - Delete that `rect`.
+    - Move `honey_badger_digging` to **(900, 975), scale 0.45**. Its head goes into the hole and its rump stays out on the mound,
+      clear of the lioness. I tested this with `python -m studio art` and it reads cleanly.
+    - Re-aim the arrow to come down to the left of the body, from about (780, 860) to (850, 950), so it does not cross the badger.
+
+#### Notes (not blocking)
+- s060 is still the same layout as s051 (tree + goshawk, digging badger, jackal, Doug). They are nine shots apart and s052-s059
+  vary in between, so it can stay. If you touch it anyway, drop the tree and push in on the jackal watching the hole.
+- s149: the right-hand "?" (about (1250, 340)) sits close under the WEIGH-IN labels. It is legal, but nudge it down 30 if you are in the file.
