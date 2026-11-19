@@ -34,7 +34,12 @@
       "stage": "art_approved",
       "at": "2026-11-19T18:49:50+00:00",
       "note": "AD+VS keyframes pass (round 3), thumbnails A/B/C approved"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-19T18:54:05+00:00",
+      "note": "narration done (644 s, 197 wpm, 168 shots, no static stretch >5 s); shorts titles/descriptions complete; validate OK"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

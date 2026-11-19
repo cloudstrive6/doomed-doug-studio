@@ -113,3 +113,4 @@ It cannot be approved yet only because the last screener verdict on C is FAIL an
    **approved by this entry**, no further CD round needed; record the PASS in `visual_review.md`.
 2. If the screener requests a change, the designer applies it and C comes back to me.
 3. Optional, not blocking: drop the faint grey C-marks on the badger's side; the scruff fold already sells "turning in its skin".
+- Thumbnail C approved via screener round 3 PASS + CD conditional approval (2026-11-19).
