@@ -106,3 +106,33 @@ PASS. No other shot needs to change.
 
 To re-screen: `python -m studio keyframes 052-honey-badger-lions --shots s159` and
 `python -m studio thumbnail 052-honey-badger-lions`. I'll write the Round 3 section here.
+
+## Round 3 (2026-11-19): s159 keyframe + thumbnail C re-check
+
+**VERDICT: PASS** (keyframes PASS; thumbnails A, B, C all PASS)
+
+### Keyframe s159 (re-rendered with `python -m studio keyframes 052-honey-badger-lions --shots s159`)
+- The masking `rect` is gone. The mound is whole, with no square notch and no hard-edged stub, so the render
+  glitch can't come back at 60 %.
+- `honey_badger_digging` at (900, 975) x0.45 sits in the hole mouth: head down inside, black-and-white back and
+  rump arched up, hind legs on the rim. It reads as "badger going down the hole" in about 1 s and matches the
+  narration. The red arrow (appear 0.5) points into the hole. Doug (red cap, white head, gritted) stands clearly on
+  the left, and all six lions and the labels are in frame and legible.
+- Nit, not blocking (illustrator, optional): the asset's little tan dirt clod at the front-left of the hole (around
+  x 815, y 970) looks a bit like a separate pebble. Fine as kicked-up dirt.
+
+### Thumbnail C `thumbnail_c.png` / `_small.png`: PASS (title: *Every Reason Lions Think Twice Before Killing a Honey Badger*)
+- The forearm now comes out of the lion's own chest and mane and runs up to the scruff. The detached top-right arm
+  is gone, and the limb is the lion's tan with rounded edges, so it no longer reads as a beam or bat.
+- The paw is a padded grip (pad plus four toes) closed over the white scruff fold, with no claws visible. Nothing
+  suggests "claws in skin", and there is no blood or wound.
+- The badger's head twists back with its teeth bared at the lion's foreleg, and the paw doesn't touch it. That
+  pays off IT BITES BACK and the title's "think twice".
+- At 168 px it all reads: IT BITES BACK is legible, there is one clear clash (lion holding badger by the scruff, badger
+  biting back), and Doug's red cap and white face show at the right. Not misleading.
+- Nit, not blocking: the small tan fur tufts under the foreleg are fine. The leg is long and fairly straight, but
+  it is clearly attached and on-palette.
+
+### Routing summary
+- Nothing required. All visual gates for keyframes and packaging are clear for this episode. Post-render screening
+  (samples, qc.json, Shorts) is still to come after `render --final`.
