@@ -84,3 +84,4 @@
 - Designer applies 1 (and 2), re-renders the thumbnails and the small versions → visual screener reviews all three thumbnails,
   plus s001, in round 2 → if PASS, the package is approved with no new CD pass, as long as nothing beyond items 1-3 changes.
   If the screener asks for anything that changes the concept or text, send it back to me.
+- 2026-11-20: script 3 rounds (draft 3 PASS), art 1 round + fixes, thumbnails 3 rounds. Risks: s001 thumbnail/narration mismatch (by design); speech 188 wpm slightly under target; plant-safety framing (no advice, verified).
