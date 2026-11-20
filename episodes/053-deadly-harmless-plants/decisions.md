@@ -34,3 +34,53 @@
 - **Banned:** "Deadliest Plant on Earth" (unless attributed), "kills on touch", "the rain will kill you", "How to Survive", "Never Touch",
   any safety or foraging phrasing, "?", ALL CAPS, Simple Paint's "Every Poison" skeleton.
 - **Thumbnail:** "WRONG TREE" (as the script's first frame). No blisters, rashes or burns; flat cartoon pink at most.
+
+## 2026-11-20 · Package gate (creative director): CHANGES REQUESTED (1 required, 2 small), then visual screener
+
+- **Checked:** `validate packaging` OK and `package check --dry-run` OK (10 ranked, top 3 paired A/B/C, no title/thumb word
+  duplication). I looked at all three PNGs at 1280x720 and the 168x94 renders. **There is no visual-screener report on the
+  thumbnails yet.** visual_review.md round 1 left s001 and the thumbnail for later. So this gate stays open until the
+  screener passes the thumbnails as well; my notes are below.
+
+### Would I click each pairing
+- **A: "The Deadliest Plants That Look Completely Harmless" + WRONG TREE (lead): yes.** The image is the title's promise: a
+  sunny-rain beach tree that looks harmless, a smiling Doug under it, and two words saying something is off. The red trunk band
+  and the red cap both read at 168 px. It works as a curiosity gap without any injury. Weak spot: Doug is small (about 90 px of
+  head at full size, a dot in the feed).
+- **B: "...That Don't Even Need You to Touch Them" + JUST RAIN (test): yes, and the strongest click.** The shocked pink Doug,
+  white sap drops and dark storm sky sell the boss, and the title/text pair makes one sentence. It stays a test variant only
+  (my 11-20 guidance: most items are eaten, so it must not lead). The rain and smoke in the boss deliver it honestly.
+- **C: "How Doug Would Die From Plants That Look Harmless" + NOT PARSNIP (test): yes for a curious viewer, the weakest of the
+  three.** The beige roots in the basket read as parsnips, so NOT PARSNIP lands as a joke, and the purple-blotched stem is
+  accurate. At 168 px it is a cheerful campfire scene with little danger. That is acceptable for a test arm, and it is the only
+  arm with Doug in the title, so it also gives us a read on the "Doug" variable.
+
+### Decisions
+- **s001 (thumbnail A as the opening frame under the hemlock line): KEPT, no change.** Style bible 3.2 / rule 3 says open on the
+  thumbnail. The very next line (s002, about 3 s later) says "By the end, Doug sits under a tree in the rain", so the image is
+  framed as the payoff promise right away, and "Water Hemlock." still lands at words 28-29. Moving the tree line ahead of the
+  hemlock line would bury the approved hook fact. Keep s001 at its natural line length (min 2.0 s) and do not extend the hold.
+  If C or B wins the test, the opening still uses A. That is fine, because the boss tree is the payoff in every arm.
+- **Thumbnail C without the EDIBLE? tick: ACCEPTED, do not add it.** A 44 px tick box can't be read at feed size and would
+  clutter the right third. NOT PARSNIP plus the parsnip-looking roots already carry the "mistaken for food" idea. The EDIBLE?
+  device stays an in-video staging gag.
+
+### Change requests (numbered)
+1. **REQUIRED, graphic designer (thumbnail_test_b.json):** remove the three white peel flakes on Doug's cheek, which come from
+   the `sunburn` gear. At 1280 px they read as blistering or peeling skin on the "touch" variant, and the brief and my 11-20
+   guidance allow flat cartoon pink at most. Cover them with a small flat `#ff8a7a` patch (no outline) or, if the art director
+   prefers, add a thumbnail-only no-peel option to the gear. Keep the pink head, red arms, shock face and white sap drops as
+   they are. In-video sunburn shots (s138, s142-s143, s183-s188) stay as the art director passed them.
+2. **Recommended, graphic designer (thumbnail.json, A):** scale Doug from 0.62 to about 0.8 and move him about 40 px left so
+   he sits under the canopy edge with the three drips clearly falling from the leaves onto his cap. He should read as a figure,
+   not a dot, at 168 px. Do not let him overlap the red band or the WRONG TREE text. Remove the grainy speckle along the top
+   edge of the canopy (about x 180-520, y 0-60) if it comes from a spray/glow element. It looks like the "dirt" glow flagged in
+   visual_review #13.
+3. **Small, youtube-titler (metadata.json):** variant C's `thumb_idea`, candidate 3's `concept` and the C sentence in
+   `thumbnail_brief` still say "the field guide's EDIBLE? box ticked YES". Make them match the delivered image (Doug stirring
+   soup by a campfire, water hemlock beside him, parsnip-like roots in the basket). Do not change the titles or the order.
+
+### Next
+- Designer applies 1 (and 2), re-renders the thumbnails and the small versions → visual screener reviews all three thumbnails,
+  plus s001, in round 2 → if PASS, the package is approved with no new CD pass, as long as nothing beyond items 1-3 changes.
+  If the screener asks for anything that changes the concept or text, send it back to me.

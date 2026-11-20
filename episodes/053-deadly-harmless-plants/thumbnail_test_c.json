@@ -47,61 +47,53 @@
   },
   {
    "type": "asset",
-   "name": "water_hemlock",
-   "x": 250,
-   "y": 860,
-   "scale": 1.25
-  },
-  {
-   "type": "asset",
    "name": "campfire",
-   "x": 760,
-   "y": 650,
-   "scale": 1.0
+   "x": 320,
+   "y": 700,
+   "scale": 1.6
   },
   {
    "type": "asset",
    "name": "soup_pot",
-   "x": 760,
-   "y": 560,
-   "scale": 0.62
-  },
-  {
-   "type": "asset",
-   "name": "water_hemlock_roots",
-   "x": 1150,
-   "y": 520,
-   "scale": 0.45,
-   "rotate": 180
+   "x": 320,
+   "y": 556,
+   "scale": 1.0
   },
   {
    "type": "asset",
    "name": "picnic_basket",
-   "x": 1150,
-   "y": 680,
-   "scale": 0.85
+   "x": 1050,
+   "y": 705,
+   "scale": 1.3
+  },
+  {
+   "type": "asset",
+   "name": "water_hemlock_roots",
+   "x": 1050,
+   "y": 345,
+   "scale": 1.15
   },
   {
    "type": "line",
    "points": [
     [
-     905,
-     486
+     560,
+     580
     ],
     [
-     790,
-     418
+     420,
+     370
     ]
    ],
    "color": "#8a5a2b",
-   "width": 9,
+   "width": 14,
    "boil": 0
   },
   {
    "type": "doug",
-   "x": 960,
-   "y": 560,
-   "scale": 0.55,
+   "x": 660,
+   "y": 690,
+   "scale": 0.88,
    "pose": "point",
    "expression": "hopeful",
    "facing": "left"
