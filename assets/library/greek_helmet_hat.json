@@ -1,0 +1,421 @@
+{
+ "name": "greek_helmet_hat",
+ "description": "Worn prop (hard_hat convention): a crude bronze Greek helmet with a red horsehair crest perched on top of Doug's cap. Anchor = Doug's hips at scale 1 (upright poses only), list after Doug at the same x/y/scale/flip; bottom rim at y -294 so the cap dome and brim stay visible below; small neck guard at the back. x -110..110, y -400..-270.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "worn prop",
+  "hat",
+  "helmet",
+  "greek",
+  "053"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -96,
+     -330
+    ],
+    [
+     -104,
+     -366
+    ],
+    [
+     -70,
+     -392
+    ],
+    [
+     -10,
+     -400
+    ],
+    [
+     50,
+     -390
+    ],
+    [
+     82,
+     -364
+    ],
+    [
+     66,
+     -352
+    ],
+    [
+     14,
+     -368
+    ],
+    [
+     -44,
+     -364
+    ],
+    [
+     -80,
+     -342
+    ]
+   ],
+   "fill": "#c0302a",
+   "color": "#000000",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -80,
+     -364
+    ],
+    [
+     -76,
+     -376.4
+    ]
+   ],
+   "color": "#8a1e1a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -64,
+     -364
+    ],
+    [
+     -60,
+     -378.3
+    ]
+   ],
+   "color": "#8a1e1a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -48,
+     -364
+    ],
+    [
+     -44,
+     -380.2
+    ]
+   ],
+   "color": "#8a1e1a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -32,
+     -370
+    ],
+    [
+     -28,
+     -382.2
+    ]
+   ],
+   "color": "#8a1e1a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -16,
+     -370
+    ],
+    [
+     -12,
+     -384.1
+    ]
+   ],
+   "color": "#8a1e1a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -370
+    ],
+    [
+     4,
+     -386.0
+    ]
+   ],
+   "color": "#8a1e1a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     16,
+     -370
+    ],
+    [
+     20,
+     -384.1
+    ]
+   ],
+   "color": "#8a1e1a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     32,
+     -370
+    ],
+    [
+     36,
+     -382.2
+    ]
+   ],
+   "color": "#8a1e1a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     48,
+     -364
+    ],
+    [
+     52,
+     -380.2
+    ]
+   ],
+   "color": "#8a1e1a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     64,
+     -364
+    ],
+    [
+     68,
+     -378.3
+    ]
+   ],
+   "color": "#8a1e1a",
+   "width": 2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -104,
+     -294
+    ],
+    [
+     -100,
+     -322
+    ],
+    [
+     -80,
+     -350
+    ],
+    [
+     -40,
+     -366
+    ],
+    [
+     10,
+     -368
+    ],
+    [
+     52,
+     -356
+    ],
+    [
+     84,
+     -330
+    ],
+    [
+     100,
+     -306
+    ],
+    [
+     102,
+     -294
+    ]
+   ],
+   "fill": "#c8913a",
+   "color": "#000000",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -102,
+     -296
+    ],
+    [
+     -98,
+     -322
+    ],
+    [
+     -80,
+     -346
+    ],
+    [
+     -62,
+     -330
+    ],
+    [
+     -60,
+     -296
+    ]
+   ],
+   "fill": "#9a6a22",
+   "color": "#000000",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -6,
+   "y": -344,
+   "r": 20,
+   "color": "#e8c070",
+   "density": 0.45
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -104,
+     -294
+    ],
+    [
+     -100,
+     -322
+    ],
+    [
+     -80,
+     -350
+    ],
+    [
+     -40,
+     -366
+    ],
+    [
+     10,
+     -368
+    ],
+    [
+     52,
+     -356
+    ],
+    [
+     84,
+     -330
+    ],
+    [
+     100,
+     -306
+    ],
+    [
+     102,
+     -294
+    ]
+   ],
+   "fill": null,
+   "color": "#000000",
+   "width": 5,
+   "smooth": true
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -372,
+   "w": 20,
+   "h": 10,
+   "fill": "#9a6a22",
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -108,
+     -306
+    ],
+    [
+     104,
+     -306
+    ],
+    [
+     110,
+     -294
+    ],
+    [
+     -110,
+     -294
+    ]
+   ],
+   "fill": "#9a6a22",
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -110,
+     -300
+    ],
+    [
+     -90,
+     -298
+    ],
+    [
+     -92,
+     -272
+    ],
+    [
+     -108,
+     -270
+    ]
+   ],
+   "fill": "#c8913a",
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -320
+    ],
+    [
+     0,
+     -326
+    ],
+    [
+     70,
+     -318
+    ]
+   ],
+   "color": "#9a6a22",
+   "width": 3
+  }
+ ]
+}

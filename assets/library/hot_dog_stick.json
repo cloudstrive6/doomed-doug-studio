@@ -1,0 +1,357 @@
+{
+ "name": "hot_dog_stick",
+ "description": "Long thin fresh green-brown oleander twig used as a roasting stick: three narrow leaves near the handle end (left), one plain sausage skewered near the right tip (+140,0). No bun. Anchor centre; x -200..200, y -70..70.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "food",
+  "plant",
+  "toxic",
+  "campfire",
+  "053",
+  "oleander"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -140.0,
+     8.0
+    ],
+    [
+     -156.3,
+     5.3
+    ],
+    [
+     -175.5,
+     -5.0
+    ],
+    [
+     -190.2,
+     -19.2
+    ],
+    [
+     -193.7,
+     -23.0
+    ],
+    [
+     -188.6,
+     -21.9
+    ],
+    [
+     -169.0,
+     -16.2
+    ],
+    [
+     -150.5,
+     -4.8
+    ]
+   ],
+   "fill": "#2f6a3a",
+   "color": "#000000",
+   "width": 2,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -120.0,
+     6.0
+    ],
+    [
+     -111.9,
+     -8.4
+    ],
+    [
+     -95.7,
+     -22.9
+    ],
+    [
+     -77.3,
+     -31.9
+    ],
+    [
+     -72.5,
+     -33.9
+    ],
+    [
+     -75.3,
+     -29.5
+    ],
+    [
+     -87.3,
+     -12.9
+    ],
+    [
+     -104.4,
+     0.5
+    ]
+   ],
+   "fill": "#3f7a44",
+   "color": "#000000",
+   "width": 2,
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -95.0,
+     4.0
+    ],
+    [
+     -78.9,
+     8.1
+    ],
+    [
+     -60.8,
+     20.0
+    ],
+    [
+     -47.4,
+     35.4
+    ],
+    [
+     -44.2,
+     39.6
+    ],
+    [
+     -49.2,
+     38.0
+    ],
+    [
+     -68.3,
+     30.7
+    ],
+    [
+     -85.7,
+     17.7
+    ]
+   ],
+   "fill": "#2f6a3a",
+   "color": "#000000",
+   "width": 2,
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -196,
+     10
+    ],
+    [
+     -60,
+     5
+    ],
+    [
+     60,
+     1
+    ],
+    [
+     196,
+     -4
+    ]
+   ],
+   "color": "#000000",
+   "width": 15
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -196,
+     10
+    ],
+    [
+     -60,
+     5
+    ],
+    [
+     60,
+     1
+    ],
+    [
+     196,
+     -4
+    ]
+   ],
+   "color": "#7a7a3a",
+   "width": 7
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -190,
+     7
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     150,
+     -4
+    ]
+   ],
+   "color": "#a6a660",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": -196,
+   "y": 10,
+   "rx": 3,
+   "ry": 7,
+   "fill": "#d8d0a0",
+   "color": "#000000",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 140,
+   "y": -2,
+   "rx": 46,
+   "ry": 21,
+   "fill": "#c0603a",
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     100,
+     6
+    ],
+    [
+     180,
+     6
+    ],
+    [
+     170,
+     16
+    ],
+    [
+     110,
+     16
+    ]
+   ],
+   "fill": "#9a4428",
+   "color": "#000000",
+   "width": 0,
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     108,
+     -10
+    ],
+    [
+     140,
+     -15
+    ],
+    [
+     168,
+     -10
+    ]
+   ],
+   "color": "#e89a6a",
+   "width": 4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     113,
+     10
+    ],
+    [
+     123,
+     -12
+    ]
+   ],
+   "color": "#5a2814",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     135,
+     10
+    ],
+    [
+     145,
+     -12
+    ]
+   ],
+   "color": "#5a2814",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     157,
+     10
+    ],
+    [
+     167,
+     -12
+    ]
+   ],
+   "color": "#5a2814",
+   "width": 3
+  },
+  {
+   "type": "ellipse",
+   "x": 140,
+   "y": -2,
+   "rx": 46,
+   "ry": 21,
+   "fill": null,
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     186,
+     -4
+    ],
+    [
+     198,
+     -4
+    ]
+   ],
+   "color": "#000000",
+   "width": 11
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     186,
+     -4
+    ],
+    [
+     198,
+     -4
+    ]
+   ],
+   "color": "#7a7a3a",
+   "width": 5
+  }
+ ]
+}

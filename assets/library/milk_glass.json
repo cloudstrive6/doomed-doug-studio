@@ -1,0 +1,200 @@
+{
+ "name": "milk_glass",
+ "description": "The water_glass tumbler filled with opaque white milk (#fbfbf5, pale grey shading on the right, a meniscus near the top), thick glass base. Anchor centre; x -55..55, y -92..90.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "glass",
+  "milk",
+  "drink",
+  "053"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -55,
+     -85
+    ],
+    [
+     55,
+     -85
+    ],
+    [
+     43,
+     85
+    ],
+    [
+     -43,
+     85
+    ]
+   ],
+   "fill": "#eef4f6",
+   "color": "#000000",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -53,
+     -62
+    ],
+    [
+     53,
+     -62
+    ],
+    [
+     43,
+     78
+    ],
+    [
+     -43,
+     78
+    ]
+   ],
+   "fill": "#fbfbf5",
+   "color": "#000000",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     22,
+     -62
+    ],
+    [
+     53,
+     -62
+    ],
+    [
+     43,
+     78
+    ],
+    [
+     16,
+     78
+    ]
+   ],
+   "fill": "#e6e6de",
+   "color": "#000000",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 28,
+   "y": 20,
+   "r": 26,
+   "color": "#d6d6ce",
+   "density": 0.15
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -62,
+   "rx": 53,
+   "ry": 8,
+   "fill": "#f2f2ea",
+   "color": "#b9b9b0",
+   "width": 3
+  },
+  {
+   "type": "rect",
+   "x": -43,
+   "y": 70,
+   "w": 86,
+   "h": 15,
+   "fill": "#d6e4ea",
+   "color": "#000000",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -43,
+     70
+    ],
+    [
+     43,
+     70
+    ]
+   ],
+   "color": "#8aa0aa",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     -80
+    ],
+    [
+     -45,
+     -70
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -38,
+     -50
+    ],
+    [
+     -31,
+     58
+    ]
+   ],
+   "color": "#c9d6dc",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -55,
+     -85
+    ],
+    [
+     55,
+     -85
+    ],
+    [
+     43,
+     85
+    ],
+    [
+     -43,
+     85
+    ]
+   ],
+   "fill": null,
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -85,
+   "rx": 55,
+   "ry": 7,
+   "fill": null,
+   "color": "#000000",
+   "width": 3
+  }
+ ]
+}

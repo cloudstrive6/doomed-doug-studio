@@ -1,0 +1,406 @@
+{
+ "name": "soup_pot",
+ "description": "Steel camping pot (billy can) with the wire bail handle up (peak y -312), sooty bottom, pale beige soup surface ellipse centred (0,-200) rx 140 ry 26 with a few orange vegetable chunks only near the rim; the middle of the surface is clear for Doug's floating cap. No steam. Anchor bottom-centre; body x -167..167, y -230..0; the bail handle rises to y -312 (above the requested footprint).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "pot",
+  "cooking",
+  "camping",
+  "soup",
+  "053"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     -158,
+     -178
+    ],
+    [
+     -150,
+     -250
+    ],
+    [
+     -100,
+     -298
+    ],
+    [
+     0,
+     -312
+    ],
+    [
+     100,
+     -298
+    ],
+    [
+     150,
+     -250
+    ],
+    [
+     158,
+     -178
+    ]
+   ],
+   "color": "#000000",
+   "width": 9
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -158,
+     -178
+    ],
+    [
+     -150,
+     -250
+    ],
+    [
+     -100,
+     -298
+    ],
+    [
+     0,
+     -312
+    ],
+    [
+     100,
+     -298
+    ],
+    [
+     150,
+     -250
+    ],
+    [
+     158,
+     -178
+    ]
+   ],
+   "color": "#9aa0a6",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -200
+    ],
+    [
+     150,
+     -200
+    ],
+    [
+     146,
+     -40
+    ],
+    [
+     138,
+     -14
+    ],
+    [
+     110,
+     -2
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     -110,
+     -2
+    ],
+    [
+     -138,
+     -14
+    ],
+    [
+     -146,
+     -40
+    ]
+   ],
+   "fill": "#b9bec4",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     70,
+     -196
+    ],
+    [
+     148,
+     -196
+    ],
+    [
+     144,
+     -40
+    ],
+    [
+     134,
+     -16
+    ],
+    [
+     100,
+     -6
+    ],
+    [
+     78,
+     -6
+    ]
+   ],
+   "fill": "#8d939a",
+   "color": "#000000",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -128,
+     -194
+    ],
+    [
+     -96,
+     -194
+    ],
+    [
+     -94,
+     -14
+    ],
+    [
+     -124,
+     -18
+    ]
+   ],
+   "fill": "#e2e6ea",
+   "color": "#000000",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -90,
+   "y": -30,
+   "r": 34,
+   "color": "#4a4d52",
+   "density": 0.18
+  },
+  {
+   "type": "spray",
+   "x": -20,
+   "y": -26,
+   "r": 36,
+   "color": "#4a4d52",
+   "density": 0.18
+  },
+  {
+   "type": "spray",
+   "x": 60,
+   "y": -28,
+   "r": 34,
+   "color": "#4a4d52",
+   "density": 0.18
+  },
+  {
+   "type": "spray",
+   "x": 110,
+   "y": -36,
+   "r": 26,
+   "color": "#4a4d52",
+   "density": 0.18
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -148,
+     -150
+    ],
+    [
+     148,
+     -150
+    ]
+   ],
+   "color": "#8d939a",
+   "width": 3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -200
+    ],
+    [
+     150,
+     -200
+    ],
+    [
+     146,
+     -40
+    ],
+    [
+     138,
+     -14
+    ],
+    [
+     110,
+     -2
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     -110,
+     -2
+    ],
+    [
+     -138,
+     -14
+    ],
+    [
+     -146,
+     -40
+    ]
+   ],
+   "fill": null,
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "circle",
+   "x": -158,
+   "y": -178,
+   "r": 9,
+   "fill": "#8d939a",
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": 158,
+   "y": -178,
+   "r": 9,
+   "fill": "#8d939a",
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -200,
+   "rx": 152,
+   "ry": 30,
+   "fill": "#9aa0a6",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -200,
+   "rx": 140,
+   "ry": 26,
+   "fill": "#ecdcb4",
+   "color": "#b8a478",
+   "width": 3
+  },
+  {
+   "type": "spray",
+   "x": 0,
+   "y": -200,
+   "r": 60,
+   "color": "#f6ead0",
+   "density": 0.25
+  },
+  {
+   "type": "ellipse",
+   "x": -112,
+   "y": -208,
+   "rx": 13,
+   "ry": 7,
+   "fill": "#f08a2a",
+   "color": "#9a4a10",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": -88,
+   "y": -184,
+   "rx": 11,
+   "ry": 6,
+   "fill": "#f08a2a",
+   "color": "#9a4a10",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 104,
+   "y": -210,
+   "rx": 12,
+   "ry": 7,
+   "fill": "#f08a2a",
+   "color": "#9a4a10",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 92,
+   "y": -186,
+   "rx": 13,
+   "ry": 6,
+   "fill": "#f08a2a",
+   "color": "#9a4a10",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": 118,
+   "y": -196,
+   "rx": 9,
+   "ry": 5,
+   "fill": "#f08a2a",
+   "color": "#9a4a10",
+   "width": 2
+  },
+  {
+   "type": "ellipse",
+   "x": -124,
+   "y": -194,
+   "rx": 9,
+   "ry": 5,
+   "fill": "#f08a2a",
+   "color": "#9a4a10",
+   "width": 2
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -216
+    ],
+    [
+     -20,
+     -221
+    ],
+    [
+     30,
+     -219
+    ]
+   ],
+   "color": "#fbf3e2",
+   "width": 3
+  }
+ ]
+}

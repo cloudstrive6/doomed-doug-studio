@@ -1,0 +1,374 @@
+{
+ "name": "metronome",
+ "description": "Classic wooden pyramid metronome, front view: dark plinth, tapered wooden body with lighter left edge, cream scale panel with ticks, steel pendulum arm straight up (tip at (0,-230)) with a small brass sliding weight. Anchor bottom-centre; x -90..90, y -230..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "music",
+  "metronome",
+  "053"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -90,
+   "y": -22,
+   "w": 180,
+   "h": 22,
+   "fill": "#7a3b1f",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -76,
+     -22
+    ],
+    [
+     76,
+     -22
+    ],
+    [
+     26,
+     -206
+    ],
+    [
+     -26,
+     -206
+    ]
+   ],
+   "fill": "#a0522d",
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     -22
+    ],
+    [
+     76,
+     -22
+    ],
+    [
+     26,
+     -206
+    ],
+    [
+     12,
+     -206
+    ]
+   ],
+   "fill": "#7f3f20",
+   "color": "#000000",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60,
+     -30
+    ],
+    [
+     -48,
+     -30
+    ],
+    [
+     -20,
+     -196
+    ],
+    [
+     -24,
+     -196
+    ]
+   ],
+   "fill": "#c06a3a",
+   "color": "#000000",
+   "width": 0,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -76,
+     -22
+    ],
+    [
+     76,
+     -22
+    ],
+    [
+     26,
+     -206
+    ],
+    [
+     -26,
+     -206
+    ]
+   ],
+   "fill": null,
+   "color": "#000000",
+   "width": 5
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -12,
+     -206
+    ],
+    [
+     12,
+     -206
+    ],
+    [
+     0,
+     -224
+    ]
+   ],
+   "fill": "#7a3b1f",
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -50
+    ],
+    [
+     30,
+     -50
+    ],
+    [
+     14,
+     -180
+    ],
+    [
+     -14,
+     -180
+    ]
+   ],
+   "fill": "#f4e6c4",
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -62
+    ],
+    [
+     12,
+     -62
+    ]
+   ],
+   "color": "#7a5a3a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -75
+    ],
+    [
+     8,
+     -75
+    ]
+   ],
+   "color": "#7a5a3a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -88
+    ],
+    [
+     12,
+     -88
+    ]
+   ],
+   "color": "#7a5a3a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -101
+    ],
+    [
+     8,
+     -101
+    ]
+   ],
+   "color": "#7a5a3a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -114
+    ],
+    [
+     12,
+     -114
+    ]
+   ],
+   "color": "#7a5a3a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -127
+    ],
+    [
+     8,
+     -127
+    ]
+   ],
+   "color": "#7a5a3a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -140
+    ],
+    [
+     12,
+     -140
+    ]
+   ],
+   "color": "#7a5a3a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -153
+    ],
+    [
+     8,
+     -153
+    ]
+   ],
+   "color": "#7a5a3a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -12,
+     -166
+    ],
+    [
+     12,
+     -166
+    ]
+   ],
+   "color": "#7a5a3a",
+   "width": 2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -44
+    ],
+    [
+     0,
+     -230
+    ]
+   ],
+   "color": "#000000",
+   "width": 9
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -44
+    ],
+    [
+     0,
+     -230
+    ]
+   ],
+   "color": "#c9ced3",
+   "width": 4
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -15,
+     -160
+    ],
+    [
+     15,
+     -160
+    ],
+    [
+     11,
+     -136
+    ],
+    [
+     -11,
+     -136
+    ]
+   ],
+   "fill": "#c9a24a",
+   "color": "#000000",
+   "width": 4
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -44,
+   "r": 9,
+   "fill": "#d9b45a",
+   "color": "#000000",
+   "width": 3
+  },
+  {
+   "type": "spray",
+   "x": -34,
+   "y": -70,
+   "r": 16,
+   "color": "#c47a4a",
+   "density": 0.3
+  }
+ ]
+}
