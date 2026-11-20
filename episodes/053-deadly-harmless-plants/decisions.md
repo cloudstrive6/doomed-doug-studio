@@ -85,3 +85,28 @@
   plus s001, in round 2 → if PASS, the package is approved with no new CD pass, as long as nothing beyond items 1-3 changes.
   If the screener asks for anything that changes the concept or text, send it back to me.
 - 2026-11-20: script 3 rounds (draft 3 PASS), art 1 round + fixes, thumbnails 3 rounds. Risks: s001 thumbnail/narration mismatch (by design); speech 188 wpm slightly under target; plant-safety framing (no advice, verified).
+
+## 2026-11-20: final package approval (creative director)
+Read: metadata.json (title, alt_titles, description, tags, playlist, packaging), build/chapters.txt, build/thumbnail.png (A),
+build/samples f_001-f_002, script.md opening, visual_review.md Round 4 (main PASS, shorts PASS), QC exit 0 with `problems: []`.
+
+- **Title: kept, "The Deadliest Plants That Look Completely Harmless" (T4, 50 chars).** It is the strongest search-and-browse
+  title of the set, and the whole video pays it off (nine plants that look ordinary). None of the alt_titles is clearly stronger.
+  "Don't Even Need You to Touch Them" overstates an episode where most items are eaten, so it stays test arm B only, as decided
+  on 11-20. The other three alts are list-shaped and weaker in the feed.
+- **Thumbnail A (WRONG TREE): approved.** It has one focal point, Doug reads as a figure at feed size with the drips on his cap,
+  and the red band and yellow text are clear. It shows no injury and promises the boss honestly. Test arms B and C stay as approved.
+  B's missing trunk band is an optional nit, not blocking.
+- **First 60 s: approved.** The video opens on the thumbnail, then the hook fact. The payoff promise lands about 3 s in,
+  and "Water Hemlock." falls within the first 35 words. The twist (the carrot family and the soup mix) arrives well inside 45 s.
+  The counter starts at 391 and the CONTACT dial is legible. The tone is deadpan and adult, not a nursery tone.
+- **Description and chapters: approved.** It has 9 chapters starting at 0:00, every chapter is at least 10 s, and the labels match
+  the script. Six sources are listed. The not-foraging/not-medical-advice disclaimer and the AI-use disclosure are both present.
+  Tags are on-lane.
+- **Playlist: `parasites` kept on purpose, no edit.** No playlist in config is about plants. `parasites` (Doug vs. Parasites) is
+  the channel's body-horror shelf, and 046 (fungus) already sits there. `places` would break its suitcase lane and `animals`
+  is wrong by definition. This also breaks the run of two `animals` episodes, as the brief planned. If plant or fungus episodes
+  recur (a third one), propose a dedicated `nature`/`plants` playlist in config rather than stretching `parasites` further.
+- **Series bible:** the episode log row and death counter (391 to 396) are updated when the episode is logged after upload.
+
+FINAL: APPROVED
