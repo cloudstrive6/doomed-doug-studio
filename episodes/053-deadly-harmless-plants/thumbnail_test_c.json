@@ -1,0 +1,138 @@
+{
+ "background": "#7a3fd8",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 720,
+   "fill": "#7a3fd8",
+   "color": "#7a3fd8",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 600,
+   "w": 1280,
+   "h": 120,
+   "fill": "#5aa83a",
+   "color": "#5aa83a",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     600
+    ],
+    [
+     1280,
+     600
+    ]
+   ],
+   "color": "#2f6a20",
+   "width": 6,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "water_hemlock",
+   "x": 250,
+   "y": 860,
+   "scale": 1.25
+  },
+  {
+   "type": "asset",
+   "name": "campfire",
+   "x": 760,
+   "y": 650,
+   "scale": 1.0
+  },
+  {
+   "type": "asset",
+   "name": "soup_pot",
+   "x": 760,
+   "y": 560,
+   "scale": 0.62
+  },
+  {
+   "type": "asset",
+   "name": "water_hemlock_roots",
+   "x": 1150,
+   "y": 520,
+   "scale": 0.45,
+   "rotate": 180
+  },
+  {
+   "type": "asset",
+   "name": "picnic_basket",
+   "x": 1150,
+   "y": 680,
+   "scale": 0.85
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     905,
+     486
+    ],
+    [
+     790,
+     418
+    ]
+   ],
+   "color": "#8a5a2b",
+   "width": 9,
+   "boil": 0
+  },
+  {
+   "type": "doug",
+   "x": 960,
+   "y": 560,
+   "scale": 0.55,
+   "pose": "point",
+   "expression": "hopeful",
+   "facing": "left"
+  },
+  {
+   "type": "text",
+   "text": "NOT",
+   "x": 860,
+   "y": 110,
+   "size": 140,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "PARSNIP",
+   "x": 860,
+   "y": 240,
+   "size": 140,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
