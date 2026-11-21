@@ -120,3 +120,73 @@ Final ramp (sky / ground): 1 Dagga Boy `#fff3c0` / `#c9a24a` (mud `#8a6a4a`) · 
 ## Art bible updates I made (channel/art_bible.md)
 Cape buffalo hide; Savanna midday-to-dusk ramp; crowd and herd asset rules (broken skyline, ragged ends); no red glow on the ground under
 a lying-animal silhouette; HEAD COUNT board layout (with icon disc).
+
+---
+
+# Round 2: redrawn assets + keyframe gate (art director, 2026-11-21)
+
+## Verdict: FAIL (assets PASS; keyframes need 8 composition fixes from the director, then a spot re-check)
+
+What I checked: the re-preview (`python -m studio asset-preview cape_buffalo_wallowing cape_buffalo_head_boss buffalo_herd_resting buffalo_megaherd`,
+plus `assets/previews/054-assets-r1.png`), each asset again in context at full 1080p (s004, s026/s027/s030, s091/s092, s180/s185/s193/s202),
+and all 18 contact sheets (210 keyframes incl. endslate). I checked round-1 fixes A-E in the keyframes as well.
+
+## 1. Redrawn assets: all 4 PASS
+| Asset | Verdict | Notes |
+|---|---|---|
+| `cape_buffalo_wallowing` | **PASS** | The streaks are now 5 short, uneven drips off the back line, and some of them slant. The shoulder hump rises behind the head and the rump is rounded, so it reads as the top of a bull and no longer as a grub (s004-s008, s019-s022). The mud lip is soft. |
+| `cape_buffalo_head_boss` | **PASS** | The boss now has wavy transverse ridges with a darker rim, with no grid and no flat cap, and reads as a helmet (s027 "HELMET"). The shoulders run off-frame in s026/s027/s030, so no cut edge shows anywhere. |
+| `buffalo_herd_resting` | **PASS** | There are 8 animals with every head up, clear air round the horns, staggered backs, and a mix of bull and cow horns (s092 at full size). As a silhouette at 0.52 it still reads as a low row, though the horns are faint (see K3, which is about staging and not the drawing). |
+| `buffalo_megaherd` | **PASS** | It has a broken horn skyline, ends that step down, five perspective rows, and dust only behind the far rows. In s193 it reads as "thousands", and in s185/s186/s199 as a herd mound, not a bar. |
+
+## 2. Round-1 shotlist fixes
+- A (Vote sky `#f6d07a` / `#b8913a`, s092-s111): **done**. The ramp now runs forward without breaks from item 1 to the closing shot.
+- B1/B2 (icon disc, board 1370-1810, icon at 1330,239): **done** on every shot, and the icon now reads on the death beats, the honesty cards and the outro.
+- C (s115/s116 fence on 21 E / 22 S): **done**.
+- D (s075/s079/s082 glow): **done**. No speckle reaches the ground under the lying bull.
+- E (s091/s113 body-centre glow): s113 **done**. s091 is **not done**: see K3.
+
+## 3. Consistency pass: what's good
+Doug is on-model in all 210 frames: crescent head, red cap always visible (including the ghost and the cow suit), and auto-white on dark grounds.
+The crude tier vs. the detailed tier holds throughout. The caption bar, counter and HEAD COUNT board stay in the same position on every segment
+frame, and the board's values only go up (1 → DOZENS → HUNDREDS → 1,000+, red from s203). Death beats are cartoon (cap left
+behind, ghost, suit flat with printed X eyes). There's no gore anywhere. The lion kills are silhouettes (s146/s147) or off-screen. The text is legible
+and inside the safe area.
+
+## 4. Fixes I made myself (trivial, re-rendered and verified)
+- **s010**: the "BLACK DEATH" wordart collided with the "RANKING" label and sat on the book's edge. I moved RANKING under the clipboard (y 380 → 790) and moved the
+  wordart to x 1020.
+- **s177**: Doug (x 700) stood inside the herd wall's left edge, so his body flipped to white ink over the buffalo and a horn appeared to grow
+  from his head. I moved Doug and his INTERN badge 170 px left (Doug x 530). He's now clear of the wall.
+
+## 5. Required fixes (director), by shot id
+Composition variety. The rule is that no layout repeats 5 or more times in a row and each shot must differ visibly from the previous one:
+- **K1. s040-s046** (7 shots of the same full-width acacia, tree centre-left, Doug on the branch). Re-frame at least two of them:
+  **s042** as a tight shot of Doug + the DAY 2 calendar on the branch (scale ~1.6, bull's horns just entering the bottom), and **s044** as a
+  low shot of the lying bull filling the lower frame, with the branch and Doug's legs dangling at the top. s045/s046 may stay wide.
+- **K2. s064-s069** (6 identical shots of the herd row + BUFFALO sign + prone Doug). Re-frame **s066** as a close-up of Doug's face and cap with
+  the oxpecker standing on the cap (scale ~1.8, herd out of frame), and **s068** ("Doug is fine.") with the herd at right and Doug + the field
+  guide at centre-left, or push in.
+- **K3. s091** (Doug's death 398). (a) The glow is six equal sprays at y 830, which makes a flat-topped red fog block with square ends. It
+  isn't a glow around the animals. Put one spray per animal, centred on each body (about y 870, r 110, density ~0.5), so the glow follows the
+  head bumps, and raise the silhouette to scale ~0.62 so the horns read. (b) The cap on a lone green stem reads as a red tulip.
+  Either make the stem an obvious reed (thin, cattail head, 2-3 more reeds beside it) or drop the cap on the trampled ground like s112/s203.
+- **K4. s092 → s093**: back-to-back title cards with the same centred herd row. Re-stage **s093 "The Vote"**: 2-3 standing cows at scale ~1.2 with
+  their heads up, staring left, and Doug small at right (or the herd at the right third with the title at left).
+- **K5. Item 5 herd repeats (s097-s101, s104, s107, s108)**: the same mid-distance herd composition appears 8 times. Re-frame **s098** as a
+  close-up of one standing cow's head (cow asset at scale ~2, cropped at the shoulders) with the white dashed gaze line, and **s104** ("Here's the
+  uncomfortable part.") as a tight shot of Doug standing among the lying cows, low camera, with the herd's horns towering behind him.
+- **K6. s172-s174** (3 identical intern line-ups). Re-frame **s173** as a close-up of Doug's head + INTERN badge, with the sitting lioness's
+  head entering frame left.
+- **K7. s199 → s200**: identical frames (only the arrow changes). Re-frame **s200** tighter on Doug + the badge, with the megaherd's front
+  row looming larger behind (scale it up or move it nearer), so that "then at the small man" lands visibly.
+- **K8. s137 → s138**: same frame with the herd wall and the crouching lioness. Shift **s138** so the herd wall dominates (scale ~1.1, lioness
+  smaller at the far left).
+
+Nits (optional): s034/s035 and s154/s155 are near-duplicate pairs, so a small push-in on the second shot of each would help. The dust cloud is
+the subject in s181-s183 and s190-s192. That's acceptable as the megaherd motif, but s191 could include Doug's tiny silhouette for scale.
+
+## Routing
+- Director: K1-K8, then `python -m studio keyframes 054-cape-buffalo-black-death --shots s042,s044,s066,s068,s091,s093,s098,s104,s138,s173,s200`
+  and rebuild the full contact sheets. I re-check only those shots. Everything else is signed off.
+- Illustrator: nothing outstanding.
