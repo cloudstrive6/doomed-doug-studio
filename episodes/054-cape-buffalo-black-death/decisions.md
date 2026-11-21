@@ -62,3 +62,26 @@ doesn't land on a repeated still.
 
 Next: the series bible lore update (counter 396 to 402, the 054 log row) at final approval, as planned.
 - 2026-11-21: packaged. Script 3 screener rounds (R1 9 fixes, R2 file-sync glitch, R3 one sign fix), CD approved. Art: asset review + 3 keyframe rounds, AD and visual-screener PASS. Thumbnails A/B/C approved. Risks: 21 shots >5s (all have pop-ins); s008/s012 camera moves untested until final render; B/A titles similar (narrow A/B test).
+
+## 2026-11-21: final package approval (post-render), creative director: APPROVED
+
+Read: metadata.json (title, alt_titles, description, tags, playlist), build/chapters.txt, build/thumbnail.png (A), build/samples f_001-f_002,
+script.md opening (lines 1-60), build/captions.srt opening, reviews/visual_review_post_render.md (main PASS, Shorts PASS), build/qc.json (problems: []).
+Nothing re-rendered.
+
+- **Title kept:** "Why the 800 kg Cape Buffalo That Kills Lions Only Eats Grass" (60 chars). No alt_title is clearly stronger: B and C are already
+  in the A/B/C thumbnail test, and swapping now would break the paired variant A. Every claim is delivered: 800+ kg (ADW, script "more than eight
+  hundred kilograms"), "kills the lion" (script line 272, Africa Geographic), grazer throughout.
+- **Thumbnail A (BLACK DEATH):** a single focal point (the bored stare plus the boss), the text is legible, and the red-cap Doug reads as secondary.
+  It adds the nickname rather than repeating the title. No gore, no kids' tone.
+- **Description:** the first line is the hook (nickname vs grass). Six named sources, educational disclaimer, AI-use disclosure, 3 hashtags.
+  `{{CHAPTERS}}` is filled at upload (studio/youtube.py:174). Chapters: starts at 0:00, 10 entries, all at least 10 s, the last at 9:38 of 11:27,
+  and the names match the on-screen chapter cards.
+- **First 60 s:** the thumbnail is the opening image. Captions: nickname plus paradox at 0:00-0:05, payoff promise ("a thousand buffalo beside a lion,
+  and the lion runs") at about 0:06-0:10, and "The Dagga Boy" at about 0:10 (word 32). The retired twist is at about 0:40, and the first death (397)
+  is at about 1:16. The frames are clean: the HUD reads 396 / BUFFALO VS DOUG: 1, and the RETIRED card is legible.
+- **Lore check:** the counter ends at 402 (script line 352/360). The post-render review saw up to 401 only because its samples stop before the final death card.
+  The series bible update (396 to 402, 054 log row) is left to the showrunner per this task's instruction.
+- Minor, not blocking: the "1 M+" label spacing on f_004. Leave it.
+
+FINAL: APPROVED
