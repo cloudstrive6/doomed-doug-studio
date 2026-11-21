@@ -1,0 +1,117 @@
+{
+ "background": "#ffb21e",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#ff9a2e",
+   "color": "#ff9a2e",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "dust_plume",
+   "x": 640,
+   "y": 230,
+   "scale": 2.6
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 560,
+   "w": 1300,
+   "h": 170,
+   "fill": "#c8873a",
+   "color": "#c8873a",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "ellipse",
+   "x": 640,
+   "y": 660,
+   "rx": 330,
+   "ry": 45,
+   "fill": "#5aa0c8",
+   "color": "#3a2a1a",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "buffalo_herd_wall",
+   "x": 640,
+   "y": 600,
+   "scale": 1.0
+  },
+  {
+   "type": "asset",
+   "name": "lioness_running",
+   "x": 930,
+   "y": 712,
+   "scale": 0.42
+  },
+  {
+   "type": "doug",
+   "x": 230,
+   "y": 630,
+   "scale": 0.5,
+   "pose": "panic1",
+   "expression": "shock",
+   "facing": "right"
+  },
+  {
+   "type": "rect",
+   "x": 216,
+   "y": 590,
+   "w": 46,
+   "h": 22,
+   "fill": "#ffffff",
+   "color": "#ffffff",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": 216,
+   "y": 590,
+   "w": 46,
+   "h": 22,
+   "fill": "#ffffff",
+   "color": "#000000",
+   "width": 3,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "lion_head_icon",
+   "x": 239,
+   "y": 601,
+   "scale": 0.17
+  },
+  {
+   "type": "text",
+   "text": "1,000+",
+   "x": 640,
+   "y": 95,
+   "size": 150,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 16,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

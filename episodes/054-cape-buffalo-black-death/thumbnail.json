@@ -1,0 +1,97 @@
+{
+ "background": "#ff8a1e",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#ff8a1e",
+   "color": "#ff8a1e",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 800,
+   "y": 330,
+   "r": 470,
+   "color": "#ffd23a",
+   "density": 0.05,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "cape_buffalo_head_boss",
+   "x": 815,
+   "y": 345,
+   "scale": 1.12,
+   "boil": 0.3
+  },
+  {
+   "type": "asset",
+   "name": "reeds",
+   "x": 190,
+   "y": 735,
+   "scale": 0.62
+  },
+  {
+   "type": "doug",
+   "x": 180,
+   "y": 610,
+   "scale": 0.55,
+   "pose": "crouch",
+   "expression": "hopeful",
+   "facing": "left"
+  },
+  {
+   "type": "asset",
+   "name": "compact_camera",
+   "x": 118,
+   "y": 560,
+   "scale": 0.55,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "reeds",
+   "x": 285,
+   "y": 745,
+   "scale": 0.45
+  },
+  {
+   "type": "text",
+   "text": "BLACK",
+   "x": 215,
+   "y": 105,
+   "size": 118,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 16,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "DEATH",
+   "x": 215,
+   "y": 235,
+   "size": 118,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 16,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

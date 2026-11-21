@@ -1,0 +1,100 @@
+{
+ "background": "#ffc21e",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#ffc21e",
+   "color": "#ffc21e",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 500,
+   "w": 1300,
+   "h": 230,
+   "fill": "#c9a24a",
+   "color": "#c9a24a",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     500
+    ],
+    [
+     1290,
+     500
+    ]
+   ],
+   "color": "#6b4320",
+   "width": 6,
+   "boil": 0
+  },
+  {
+   "type": "ellipse",
+   "x": 470,
+   "y": 625,
+   "rx": 640,
+   "ry": 125,
+   "fill": "#8a6a4a",
+   "color": "#4a3a2a",
+   "width": 6
+  },
+  {
+   "type": "asset",
+   "name": "cape_buffalo_wallowing",
+   "x": 450,
+   "y": 640,
+   "scale": 1.8
+  },
+  {
+   "type": "doug",
+   "x": 1160,
+   "y": 555,
+   "scale": 0.72,
+   "pose": "crouch",
+   "expression": "shock",
+   "facing": "left",
+   "gear": [
+    "sweat"
+   ]
+  },
+  {
+   "type": "asset",
+   "name": "compact_camera",
+   "x": 1073,
+   "y": 480,
+   "scale": 0.7,
+   "flip": true
+  },
+  {
+   "type": "text",
+   "text": "HE'S RETIRED",
+   "x": 640,
+   "y": 92,
+   "size": 138,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 16,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
