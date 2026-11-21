@@ -190,3 +190,46 @@ the subject in s181-s183 and s190-s192. That's acceptable as the megaherd motif,
 - Director: K1-K8, then `python -m studio keyframes 054-cape-buffalo-black-death --shots s042,s044,s066,s068,s091,s093,s098,s104,s138,s173,s200`
   and rebuild the full contact sheets. I re-check only those shots. Everything else is signed off.
 - Illustrator: nothing outstanding.
+
+---
+
+# Round 3: K1-K8 spot re-check (art director, 2026-11-21)
+
+## Verdict: FAIL (K1-K8 all done; 3 small HUD and safe-area fixes from the new framings, then a 3-shot re-check)
+
+What I checked: the re-rendered keyframes s042, s044, s066, s068, s091, s093, s098, s104, s134, s135, s138, s141, s148, s154, s173 and s200 at
+1920x1080, each against its neighbours, and contact sheets 03, 04, 06, 08, 09, 12, 13, 15 and 17 for runs of the same layout. I test-rendered
+the three fixes below with `python -m studio art` (scratch copies in /tmp, shotlist not edited) to confirm the numbers clear.
+
+## 1. Round-2 fixes
+| # | Shots | Verdict | Notes |
+|---|---|---|---|
+| K1 | s042, s044 | **PASS** (s044 see R3) | s042 is a tight shot of Doug and the DAY 2 calendar on the branch, with the bull's boss and horns entering below. s044 is a low frame with the lying bull filling the bottom half. The s040-s046 run now reads wide / wide / tight / wide / low / wide / wide. |
+| K2 | s066, s068 | s066 **PASS**, s068 see R1 | s066 is a close-up of Doug's face with the oxpecker on his cap and his eyes rolled up at it. The dashed boots-to-cap trail reads well. s068's push-in on Doug and the field guide is a clearly different shot, but the herd now sits behind the HUD board. |
+| K3 | s091 | **PASS** | There is one glow per animal, so the glow follows the bodies. At 1080p the horns read black on red. The cap now lies on the ground, as in s112/s203, so there is no more tulip. No speckle pools under the bodies. At thumbnail size the domes still look a little like red shrubs, but s091 now matches s113, which is signed off. |
+| K4 | s093 | **PASS** | Two standing cows with their heads up stare left along a red gaze line, the title sits at the left and Doug is small at the right. It's clearly different from s092. Nit for the illustrator, next time `cape_buffalo_cow` goes above scale ~1.0: the trunk is long for its leg height and reads slightly sausage-like at 1.2. It's fine at 0.62, where all the other shots use it. |
+| K5 | s098, s104 | **PASS** | s098 is a big cow head cropped by the frame, with a thick red gaze line that starts at the eye (this also clears the screener's faint-stare nit). s104 puts Doug between two lying cows that face him, low camera, herd behind. Item 5 is no longer 8 versions of the same herd shot. |
+| K6 | s173 | **PASS** | Close-up of Doug's head with the INTERN badge, and the sitting lioness's head enters from the left. The s172-s174 trio now reads wide / close / wide. |
+| K7 | s200 | **PASS** (see R2) | Tighter on Doug and his badge, with the megaherd's front row looming behind and the arrow running from the herd to Doug. "Then at the small man" lands, but the herd's back rows rise into the HUD. |
+| K8 | s138 | **PASS** | The herd wall dominates at ~1.1 and the lioness is small at the far left. It's clearly different from s137. |
+
+Other shots in the batch: s134, s135, s141, s148 and s154 are fine. The cow suit is flat with printed X eyes, the ghost is clear of the counter
+zone, and s141's lionesses only nose the cow (no bite, no wound). s154 → s155 is still a near-duplicate pair (an optional nit from round 2).
+Doug is on-model in every frame I checked, the ramp colours match the art bible, and nothing is gory.
+
+## 2. Required fixes (director)
+Art bible, Recurring layouts > Death counter: the counter + board zone (x 1300-1860, y 110-266 with the second meter) must not touch any
+creature, and labels/wordart must stay inside x 64-1856.
+- **R1. s068**: the push-in group (y -660, scale 1.5) puts the herd row's heads and horns at y ~190-280, directly behind the HEAD COUNT
+  board and the icon disc (a buffalo head peeks out from behind the disc). Set **both** group `y` values (the scene group and the MAYBE
+  group) to **-550**. The horns then top out at about y 300, and Doug, the guide and MAYBE move down 110 px and stay well inside frame. I test-rendered it, and it clears.
+- **R2. s200**: the megaherd's back rows and dust reach y ~245-290 under the board and the disc at x 1300-1920. Set the group `y` from -676 to
+  **-616**, and move the arrow to `from [1480,390]`, `to [1060,620]` so it still ends at Doug's cap. Test-rendered: the dust tops out at about y 295,
+  and Doug's feet (y ~980) and the lioness's paws (~995) stay inside frame.
+- **R3. s044**: the "NEW ADDRESS" wordart (x 1560, size 84) runs to x ~1873, past the 1856 safe edge. Move it to **x 1530, y 600**. That puts the right
+  edge at about 1843 and also keeps the "N" off the green leaf on the hanging twig at (1295, 525).
+
+## Routing
+- Director: R1-R3, then `python -m studio keyframes 054-cape-buffalo-black-death --shots s044,s068,s200` and rebuild the contact sheets. I re-check only
+  those three shots. Everything else in the episode is signed off for art.
+- Illustrator: nothing blocking. The `cape_buffalo_cow` proportion nit is for future reuse only.
