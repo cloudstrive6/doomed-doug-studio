@@ -233,3 +233,32 @@ creature, and labels/wordart must stay inside x 64-1856.
 - Director: R1-R3, then `python -m studio keyframes 054-cape-buffalo-black-death --shots s044,s068,s200` and rebuild the contact sheets. I re-check only
   those three shots. Everything else in the episode is signed off for art.
 - Illustrator: nothing blocking. The `cape_buffalo_cow` proportion nit is for future reuse only.
+
+---
+
+# Round 4: final check, R1-R3 + s091 + thumbnails (art director, 2026-11-21)
+
+## Verdict: PASS (art approved for 054. One trivial thumbnail-A fix made by me and re-rendered.)
+
+What I checked: the re-rendered keyframes s044, s068, s091 and s200 at 1920x1080 against the shotlist values. Thumbnails A/B/C at 1280x720 and at
+feed size (`build/thumbnail*_small.png`).
+
+## 1. Round-3 fixes
+| # | Shot | Verdict | Notes |
+|---|---|---|---|
+| R1 | s068 | **PASS** | Both groups are at y -550. The horns top out at about y 300, clear of the HEAD COUNT board and the icon disc (bottom y 266), and nothing peeks from behind the disc. Doug, the guide and MAYBE are well inside frame. |
+| R2 | s200 | **PASS** | The group is at y -616. The megaherd dust tops out at about y 295, clear of the board. The arrow runs (1480,390) → (1060,620) and lands on Doug's cap brim. Doug's feet (~980) and the lioness's paws (~995) are in frame. |
+| R3 | s044 | **PASS** | NEW ADDRESS is at (1530, 600). The right edge is at about 1843, inside the 1856 safe edge, and the "N" is clear of the twig leaf. |
+| - | s091 glow | **PASS** | Meets the art bible's "Silhouette glow sizing" and "Red glow behind a lying animal" rules: `glow_r: 0`, with per-body sprays placed before the silhouette at density 0.5 on near-black. The glow is clipped by a ground-colour rect at the ground line (y 900), so there is no speckle under the bodies (no blood-pool read). The glow follows the head and horn bumps, and the cap lies on the ground. The glow colour `#ff2a1a` is on the reveal-glow ramp. |
+
+## 2. Thumbnails
+| Var | Verdict | Notes |
+|---|---|---|
+| A "BLACK DEATH" | **PASS after fix** | The horn tip touched the K's black outline (gap about 2 px at x 458-460, y 130-160), so at feed size the horn seemed to grow out of the K. **Fixed:** `cape_buffalo_head_boss` x 815 → **845** in `thumbnail.json`, re-rendered. The gap is now about 32 px, the right horn tip ends at about x 1232 (48 px margin), and the face is still centred in the right two-thirds. Doug with the camera in the reeds is on-model and reads at feed size. |
+| B "HE'S RETIRED" | **PASS** | The text is clear of the horns (over 90 px). The wallowing bull reads instantly, and the body streaks read as mud (brown), not blood. Doug is on-model (crouch, sweat drop, camera) and clear of the head. |
+| C "1,000+" | **PASS** | The herd wall fills the frame with a broken horn line on top, as the herd rule requires, and the number sits clear above the horns. Doug is small but his cap and badge read at feed size. The lioness is mid-run with no contact, and nothing is gory. |
+
+All three are on-palette and in the detailed tier against crude Doug, and each has a different layout (close-up head / wallow side-on / wall + number).
+
+## Routing
+- Nobody: art is signed off for 054. Director/editor can proceed to `art_approved`. The thumbnail.json change needs committing with this review.
