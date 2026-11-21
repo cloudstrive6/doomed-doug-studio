@@ -32,3 +32,33 @@ used lines, episode log 032/034/051/053).
 4. HEAD COUNT board: art director signs it off at the art gate. It is staging only and never read aloud.
 
 The series bible gets its lore update (counter 396 to 402 and the 054 log row) at final approval, as for 051-053.
+
+## 2026-11-21: package + art gate (thumbnails A/B/C, opening minute, overall art), creative director: APPROVED
+
+Read: metadata.json packaging (10 ranked titles, variants A/B/C, readout), the three thumbnails at full size and at feed size,
+visual_review.md round 3 (PASS), art_review.md round 4 (PASS, plus the art director's horn/K gap fix on A), contact sheets 01-02 (s001-s024 = 0:00-1:21)
+and the shotlist timings. `python -m studio package 054 check --dry-run`: OK.
+
+- **A, "Why the 800 kg Cape Buffalo That Kills Lions Only Eats Grass" + BLACK DEATH (hero close-up):** I'd click it. The bull's flat, bored stare
+  plus BLACK DEATH, next to a title about a grass-eater, is the whole contradiction, and the thumbnail adds the nickname instead of repeating the title.
+  The face and boss are the one focal point at 168 px, and Doug in the reeds shows as a red-cap dot. Delivered: 800+ kg (ADW, over 835 kg), lions killed
+  by buffalo (Africa Geographic, script lines 272/286), grazer throughout. This is the strongest of the three.
+- **B, "How an 800 kg Cape Buffalo Kills Without Ever Eating Meat" + HE'S RETIRED (wallow, Doug creeping):** I'd click it. The title says killer and
+  the thumbnail says pensioner, and that mismatch is the curiosity gap. It is the item 1 twist (about 0:42), so the video pays it off early. The mud streaks
+  read as mud, not blood. It is the weakest of the three because the lying bull is less threatening than A's stare, but it is a fair test of the
+  "Doug in peril" concept. Ranked title #2 ("Worst Ways ... One Bull to 1,000") shares BLACK DEATH with A, so using #3 here is correct.
+- **C, "Why the Cape Buffalo Gets Deadlier the Bigger the Herd" + 1,000+ (herd wall, lion fleeing):** I'd click it. It is the clearest number-plus-mass read in the feed, and
+  the fleeing lioness plus Doug's intern badge tells the story without words. The tan blocks on the bodies are the episode's dried-mud crust motif
+  (as in s002/s009), and in context they read as mud. Matches "All of them." and s200.
+- **Opening minute (s001-s024):** this is up to standard. The thumbnail is the opening image (s001). The payoff promise comes at about 0:10 (s003). "The Dagga Boy" lands at
+  about 0:10 and the retired twist at about 0:42. s013-s018 (painting, bachelor group, fence and "GET OFF MY GRASS", horns/bad back/car) are the best
+  run in the opening. The first death is at about 1:16 (397), the cap lies in the mud and the blurry photo is the button. Cartoon only.
+- **Overall art:** art director + visual screener PASS after 3-4 rounds. Doug is on-model, nothing gory, nothing reads as made for kids, and the
+  buffalo set is fresh (no 034 bison, no 022 water buffalo). The cap sits on the back among the oxpeckers at the close, per my script-gate notes.
+
+**Optional for the editor (not blocking):** the wallow base composition shows up in s004, s005, s008 and s012 inside the first 40 s, and
+s008/s012 are static. Give s008 a slow pan (to the thermometer) and s012 ("Here's the strange part.") a fast punch-in on the "!" so the re-hook
+doesn't land on a repeated still.
+
+Next: the series bible lore update (counter 396 to 402, the 054 log row) at final approval, as planned.
+- 2026-11-21: packaged. Script 3 screener rounds (R1 9 fixes, R2 file-sync glitch, R3 one sign fix), CD approved. Art: asset review + 3 keyframe rounds, AD and visual-screener PASS. Thumbnails A/B/C approved. Risks: 21 shots >5s (all have pop-ins); s008/s012 camera moves untested until final render; B/A titles similar (narrow A/B test).

@@ -29,7 +29,12 @@
       "stage": "art_approved",
       "at": "2026-11-21T18:49:19+00:00",
       "note": "art-director + visual-screener PASS (3 rounds)"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-21T18:54:25+00:00",
+      "note": "all gates passed; script 3 rounds, art 3 rounds"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
