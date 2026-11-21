@@ -1,0 +1,187 @@
+{
+  "title": "Why the 800 kg Cape Buffalo That Kills Lions Only Eats Grass",
+  "alt_titles": [
+    "How an 800 kg Cape Buffalo Kills Without Ever Eating Meat",
+    "Why the Cape Buffalo Gets Deadlier the Bigger the Herd",
+    "The Worst Ways to Meet Cape Buffalo, From One Bull to 1,000",
+    "Why Lions Hunting Cape Buffalo Can Get Killed by Dinner"
+  ],
+  "packaging": {
+    "gate": "D4 packaging gate v1 (2026-11-09)",
+    "ranked_at": "2026-11-21T17:31:03Z",
+    "names": [
+      "Cape buffalo",
+      "buffalo",
+      "dagga boy",
+      "lion"
+    ],
+    "candidates": [
+      {
+        "title": "Why the 800 kg Cape Buffalo That Kills Lions Only Eats Grass",
+        "thumb_text": "BLACK DEATH",
+        "concept": "Hero close-up: one huge black bull, head low, horn boss centre, staring out, mud on its flanks; tiny Doug in the reeds with a camera, looking the wrong way",
+        "formula": "T9",
+        "chars": 60,
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      },
+      {
+        "title": "The Worst Ways to Meet Cape Buffalo, From One Bull to 1,000",
+        "thumb_text": "BLACK DEATH",
+        "concept": "Hero close-up of the old bull's stare and boss; tiny Doug in the reeds with a camera",
+        "formula": "T5",
+        "chars": 59,
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      },
+      {
+        "title": "How an 800 kg Cape Buffalo Kills Without Ever Eating Meat",
+        "thumb_text": "HE'S RETIRED",
+        "concept": "The old bull glaring out of the mud wallow, Doug creeping to the edge with his camera",
+        "formula": "T9",
+        "chars": 57,
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      },
+      {
+        "title": "Why the Cape Buffalo Gets Deadlier the Bigger the Herd",
+        "thumb_text": "1,000+",
+        "concept": "Second shock: a wall of buffalo heads under a dust cloud at a shrinking waterhole; Doug in a lion intern badge beside a lion that is already turning to run",
+        "formula": "T6",
+        "chars": 54,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Lions Hunting Cape Buffalo Can Get Killed by Dinner",
+        "thumb_text": "IT FIGHTS BACK",
+        "concept": "Doug in a lion-pride name badge, the herd turned round and facing him, horns down",
+        "formula": "T9",
+        "chars": 55,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Deadliest Cape Buffalo Is a Retired Old Bull",
+        "thumb_text": "OFF MY LAWN",
+        "concept": "The old bull glaring over a garden fence, Doug on the other side with a camera",
+        "formula": "T4",
+        "chars": 48,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Guides Say Cape Buffalo Get Deadlier When They Retire",
+        "thumb_text": "BLACK DEATH",
+        "concept": "Hero close-up of the mud-caked old bull, Doug tiny in the reeds",
+        "formula": "T6",
+        "chars": 57,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why the Deadliest Cape Buffalo Is the Old Bull Living Alone",
+        "thumb_text": "OFF MY LAWN",
+        "concept": "One bull alone in a mud wallow, the herd far behind him; Doug at the edge of the mud",
+        "formula": "T9",
+        "chars": 59,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Every Reason the Cape Buffalo Is the Scariest Grass-Eater",
+        "thumb_text": "BLACK DEATH",
+        "concept": "Grid fallback: 3x3 tiles of the items, the boss tile with a red X",
+        "formula": "T8",
+        "chars": 57,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "The Deadliest Cape Buffalo Weapon Never Touches Anyone",
+        "thumb_text": "ONE TICK",
+        "concept": "Doug in a cow costume grazing beside the herd, one tick circled in red on his leg",
+        "formula": "T4",
+        "chars": 54,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      }
+    ],
+    "variants": [
+      {
+        "variant": "A",
+        "file": "thumbnail.json",
+        "png": "build/thumbnail.png",
+        "title": "Why the 800 kg Cape Buffalo That Kills Lions Only Eats Grass",
+        "thumb_text": "BLACK DEATH",
+        "concept": "hero close-up",
+        "thumb_idea": "Hero close-up: one huge black bull, head low, horn boss centre, staring out, mud on its flanks; tiny Doug in the reeds with a camera, looking the wrong way",
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      },
+      {
+        "variant": "B",
+        "file": "thumbnail_test_b.json",
+        "png": "build/thumbnail_b.png",
+        "title": "How an 800 kg Cape Buffalo Kills Without Ever Eating Meat",
+        "thumb_text": "HE'S RETIRED",
+        "concept": "Doug in peril",
+        "thumb_idea": "The old bull glaring out of the mud wallow, Doug creeping to the edge with his camera",
+        "score": 100,
+        "raw": 120,
+        "issues": []
+      },
+      {
+        "variant": "C",
+        "file": "thumbnail_test_c.json",
+        "png": "build/thumbnail_c.png",
+        "title": "Why the Cape Buffalo Gets Deadlier the Bigger the Herd",
+        "thumb_text": "1,000+",
+        "concept": "second shock",
+        "thumb_idea": "Second shock: a wall of buffalo heads under a dust cloud at a shrinking waterhole; Doug in a lion intern badge beside a lion that is already turning to run",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      }
+    ],
+    "readout": {
+      "metric": "long-form CTR at day 7",
+      "min_impressions": 1000,
+      "baseline_median": 0.022,
+      "baseline_top": [
+        0.025,
+        0.043
+      ],
+      "target_median": 0.04,
+      "baseline_source": "data/analytics/2026-11-08.json"
+    }
+  },
+  "title_formula": "T9",
+  "thumbnail_brief": "One huge black Cape buffalo bull fills the frame, head low, the fused horn boss front and centre, mud caked on its flanks, staring straight out, while tiny Doug in his red cap crouches in the reeds in the foreground with a camera, looking the wrong way, with the words BLACK DEATH, so the title gives the paradox (a grass-eater that kills lions) and the thumbnail gives the nickname and the stare; no wounds, blood, goring or injured lions, and no BUFFALO, LION, GRASS or KG on the image. Variant B: the old bull glaring up out of a mud wallow as Doug creeps to its edge with his camera, HE'S RETIRED. Variant C: a wall of buffalo heads under a dust cloud at a shrinking waterhole, Doug in a lion-pride intern badge beside a lion already turning to run, 1,000+.",
+  "description": "Hunters call the Cape buffalo the Black Death, yet it only eats grass. Doug follows one African buffalo, then a whole herd, then a dry-season megaherd of a thousand or more, from the retired dagga boy in his mud wallow to the herd that turns around and chases the lions.\n\nWhere should we send Doug next? Tell us in the comments.\nSubscribe and watch Doug's death counter keep climbing.\n\n— TIMESTAMPS —\n{{CHAPTERS}}\n\n— KEY SOURCES —\nAnimal Diversity Web (University of Michigan), Syncerus caffer: weight, the boss, herds: https://animaldiversity.org/accounts/Syncerus_caffer/\nWeeks (2000), Behavioral Ecology, red-billed oxpeckers: vampires or tickbirds?: https://academic.oup.com/beheco/article/11/2/154/202383\nConradt & Roper (2003), Nature, group decision-making in animals (buffalo \"voting\"): https://www.nature.com/articles/nature01294\nUniversity of Pretoria Anipedia, Corridor disease from buffalo-derived Theileria parva: https://anipedia.up.ac.za/resources/corridor-disease/1142.html\nFunston, Mills & Biggs (2001), Journal of Zoology, lions hunting buffalo in Kruger: https://www.cambridge.org/core/journals/journal-of-zoology/article/factors-affecting-the-hunting-success-of-male-and-female-lions-in-the-kruger-national-park/AAAF9B3CB2FE853D7AC3769F5F71BF53\nLondolozi, why Cape buffalo herds swell in the dry season: https://blog.londolozi.com/2025/09/16/buffalo-in-the-dust-why-cape-buffalo-herds-swell-in-the-dry-season/\n\n— DISCLAIMER —\nEducational entertainment, not safari or safety advice. Every death in this video is a cartoon depiction of a stick figure; the science is real and sourced above.\n\n— AI USE —\nThe narration is an AI text-to-speech voice. Scripts are researched and written with AI assistance and fact-checked against the sources above. All drawings are original.\n\n#DoomedDoug #CapeBuffalo #Wildlife",
+  "tags": [
+    "cape buffalo",
+    "african buffalo",
+    "black death buffalo",
+    "dagga boy",
+    "buffalo vs lion",
+    "battle at kruger",
+    "oxpeckers",
+    "buffalo herd",
+    "african wildlife",
+    "stick figure animation"
+  ],
+  "playlist": "animals",
+  "paid_promotion": false
+}

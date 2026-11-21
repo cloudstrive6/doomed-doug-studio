@@ -19,7 +19,12 @@
       "stage": "script_approved",
       "at": "2026-11-21T17:28:07+00:00",
       "note": "screener fixed sign; hook 8; creative-director approval pending"
+    },
+    {
+      "stage": "shotlisted",
+      "at": "2026-11-21T17:54:07+00:00",
+      "note": "209 shots, narration = script word-for-word (2,115), Doug in 92%, 9 chapters; HEAD COUNT board composed in shotlist (1/DOZENS/HUNDREDS/1,000+, monotonic) for art-director sign-off; 32 asset requests (fresh Cape buffalo set, page-a-day calendar, oxpeckers); cap on buffalo back among oxpeckers at close; shorts s048-s063, s097-s112, s145-s156 validate OK; awaiting thumbnail.json + assets for keyframes"
     }
   ],
-  "stage": "script_approved"
+  "stage": "shotlisted"
 }

@@ -1,0 +1,35 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s048",
+      "to": "s063",
+      "title": "The Birds on a Buffalo's Back Are Not Its Friends",
+      "outro": "Doug's six deaths are in the full video below.",
+      "end_card": "FULL VIDEO: TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s097",
+      "to": "s112",
+      "hook": "A buffalo herd decides where to go next by holding a vote.",
+      "hook_scene_from": "s094",
+      "title": "Buffalo Herds Vote on Where to Go. Doug Voted Wrong",
+      "outro": "Doug's other five deaths are in the full video below.",
+      "end_card": "FULL VIDEO: TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s145",
+      "to": "s156",
+      "hook": "Lions caught a buffalo calf. Then the herd came back.",
+      "hook_scene_from": "s148",
+      "title": "Lions Caught a Buffalo Calf. Then the Herd Came Back",
+      "outro": "Doug's six deaths are in the full video below.",
+      "end_card": "FULL VIDEO: TAP BELOW",
+      "description": ""
+    }
+  ]
+}
