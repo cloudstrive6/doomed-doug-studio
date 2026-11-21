@@ -4,7 +4,22 @@
       "stage": "idea",
       "at": "2026-11-21T17:04:57+00:00",
       "note": "created"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-11-21T17:17:23+00:00",
+      "note": "draft 1"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-11-21T17:25:26+00:00",
+      "note": "draft 2"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-11-21T17:28:07+00:00",
+      "note": "screener fixed sign; hook 8; creative-director approval pending"
     }
   ],
-  "stage": "idea"
+  "stage": "script_approved"
 }
