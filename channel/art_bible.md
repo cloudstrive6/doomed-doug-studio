@@ -173,6 +173,40 @@ diagram cards cream `#f4f1dc`, sober cards `#15181a` (white text), honesty card 
 Mid-tone on purpose: it reads on snow white, dusk orange and the honesty grey. Dark-brown icons (`bison_head_icon`) on near-black
 (`#2a2030`, `#0b0f14`) lose their outline: put them on a cream `#f4f1dc` disc or tile there.
 
+**Cape buffalo hide (from 054; never reuse a bison or `water_buffalo` drawing for a Cape buffalo).** Bull hide mid-charcoal `#4a4440`,
+shading `#34302d`, highlights `#6a625c`; dried-mud crust plates `#9a8462` with `#7a6a4a` crack lines (bulls only); cows `#5a4a42` (no
+mud, no boss, a gap of hair between thinner horn bases); calf red-brown `#7a4a2a`; horns and boss `#2a2a2a` with ridge strokes, tips grey
+`#8a8a8a`; ears `#7a6058`. Mid-tone on purpose, like the bison: it reads on the dusk oranges (`#e88a4a`, `#c9663a`), dust tan and sky blue.
+The boss is drawn with curved transverse ridges and grooves (a ridged shield), never a crosshatch grid (it reads as a tweed flat cap,
+which fights Doug's cap). `buffalo_head_icon` is `#4a4440` with black outline, so on near-black, slate (`#2a2030`) and the honesty grey
+(`#4a4f5e`) it vanishes: it always sits on a cream disc in the HUD (see HEAD COUNT board).
+
+**Savanna midday-to-dusk ramp (from 054; reuse for any "one animal, then the herd, then all of them" savanna episode).** One step per
+item, from hot midday to dusty dusk as the count grows; never spend dusk (purple bands, `#8a6a8a`) before the last third. Death beats
+`#0b0f14` / `#141a14`, diagram cards cream `#f4f1dc`, honesty cards `#4a4f5e` (white text), outro `#2a2030`.
+| Item | Sky | Ground |
+|---|---|---|
+| 1 (hot sun, wallow) | `#fff3c0` | `#c9a24a`, mud `#8a6a4a` |
+| 2 | `#cfe9ff` | `#d9b45a`; suburban lawn `#7cc25a` (wordart in the sky) |
+| 3 | `#8fd3ff` | `#c9a24a` |
+| 4 (heat of the day, thicket) | `#f6dcae` | `#b8913a` |
+| 5 (late afternoon) | `#f6d07a` | `#b8913a` |
+| 6 (afternoon amber) | `#f6c45a` | `#b8913a` |
+| 7 | `#f2a24a` over `#f6c45a` | `#9a7a4a` |
+| 8 (dusk) | `#b8573a` over `#e88a4a` | `#8a6a3a` |
+| 9 (boss, dust) | `#9a4a32` over `#c9663a` | `#7a5a3a`; dust `#c8b58a` / `#e2d3b0` |
+| Closing | `#c9663a` over `#e59a5e` | `#8a6a4a` |
+
+**Crowd and herd assets (from 054).** A crowd drawn as repeated heads must keep a broken top edge: the back rows' horns and heads
+punch above the mass so the silhouette reads as animals, not a bar. Ends are ragged (staggered heads, a smaller animal or a gap at
+each side), never a straight vertical cut, because a rectangular block reads as a wall or a train at small scale. Dust may soften the
+far rows but must not cover the horn line. Lying herds show every head with clear air round the horns; a row of backs without heads
+reads as logs in silhouette.
+
+**Red glow behind a lying animal (from 054).** A `silhouette` of a lying or wallowing animal must not have red speckle on the ground
+under it (it reads as a pool of blood under a downed animal). Clip the glow at the ground line (ground-colour `rect` after the spray,
+as in 003 s146), or use the purple `#5e4670`.
+
 **Open-jaw head cut edge (from 027):** `croc_jaws_open` ends in a flat vertical back edge. Never place it with that edge mid-frame (it
 reads as a severed head). Push the back edge past the frame edge (flip it if needed), or use an asset whose neck runs off-frame.
 
@@ -197,6 +231,13 @@ icon right edge ~30 px left of the label box; it may turn red-on-pink `#ffd2cc` 
 two stacked size-28 labels under the counter: the subject's fixed weight on top (`BADGER: ~9 kg`), the current attacker under it. A
 small red needle line on the dial steps up each item and hits the end stop at the climax, where only the attacker label turns red-on-pink
 `#ffd2cc` / `#e0201b`. HUD labels use lower-case `kg` on every shot; the big on-screen callouts may use `KG`.
+**HEAD COUNT board (from 054; reuse for any "how many of them" episode).** Under the counter: a cream `#e8dcc0` board, rect x 1370-1810
+(w 440), y 212-266, brown `#5a3a1e` 5 px frame, bold `#2b2b2b` size-25 text centred at (1590,239) ("BUFFALO VS DOUG: <n>"; the longest
+value, HUNDREDS, is 397 px, so keep text under ~410 px). The episode icon (`buffalo_head_icon` at 0.3) sits at (1330,239) on a cream
+`#e8dcc0` disc r 30 with a 4 px `#5a3a1e` rim, drawn before the icon on **every** shot (a charcoal icon disappears on death beats and
+honesty cards). Values only go up; a number the script says that would go down goes on a label beside the subject instead. At the boss
+death the board turns red-on-pink `#ffd2cc` / `#e0201b` with a large red number stamp mid-frame, and stays red to the end. Staging only,
+never read aloud. Reserved zone: x 1300-1860, y 110-275.
 **Anatomy cutaways on an animal (from 052 `badger_skin_cutaway`):** the inside layer is cartoon pink `#e79aa0` (or grey anatomy) under the
 `#f4c6c4` skin band, with flat fills and no dark-red fill or speckle. Maroon under a jagged window reads as torn meat.
 **Doug on a lit prop over night ground:** when Doug stands in front of a pale prop (cut wood, a booth) his ink stays black, so his legs vanish

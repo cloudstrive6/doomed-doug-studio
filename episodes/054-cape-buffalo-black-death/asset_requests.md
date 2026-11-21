@@ -68,7 +68,8 @@ then curl up at the tips. Mud on the chest and legs. The hard stare is the point
   red dotted line between them at that height.
 - Shots: s017-s018, s031, s039, s157, s159, s161, s167-s169.
 
-### `cape_buffalo_wallowing` **DONE** (assets/previews/054-assets-a.png)
+### `cape_buffalo_wallowing` **DONE, revised after art review fix 1** (assets/previews/054-assets-r1.png)
+_Revision: the full-height bands are now 5 short irregular mud drips (some slanting) off the back line. The back has a shoulder rise behind the head and a rounded rump. The mud lip, the anchor and the boss at (+200,-170) are unchanged; drawn x -345..345 (the lip, as before)._
 The old bull lying in a mud wallow up to his shoulders: only the top of the back, the head, the boss, the horns and the stare are
 above the mud. Wet dark mud streaks on the visible hide.
 - **Anchor = the mud surface line (0,0). Footprint x -330..330, y -230..+10.** Head on the right, boss at about (+200,-170).
@@ -83,7 +84,8 @@ A bull lying down on his belly (sternal), legs folded under, head up, side view 
 - Used as `silhouette: true` (glow_r 0) in s075, s079, s082.
 - Shots: s015-s016, s041-s044, s074-s075, s079, s082, s102.
 
-### `cape_buffalo_head_boss` **DONE** (assets/previews/054-assets-a2.png)
+### `cape_buffalo_head_boss` **DONE, revised after art review fix 2** (assets/previews/054-assets-r1.png)
+_Revision: the boss grid is now broken wavy transverse ridges following the dome, plus short cracks and a dark hair edge. The neck widens into shoulders that run down to local y +380. Nothing above y +200 moved. **NEW FOOTPRINT x -360..360, y -260..+380** (director: s026 bottom y 1101, s027/s030 bottom y 1096, all off-frame)._
 A close-up of a bull's head in 3/4 front view, from the neck up: the boss as a thick ridged helmet across the top of the skull
 (clearly one continuous shield), horns sweeping out of it, ears below, a flat hard stare, mud specks. This is the "helmet" hero
 drawing, so give the boss texture plenty of detail (ridges, grooves, a darker edge where it meets the hair).
@@ -133,14 +135,16 @@ the front row lower and larger.
   which is fine at that small size).
 - Shots: s111, s113, s135-s139, s141-s143, s148-s153, s175-s177, s179, s196-s197, s204.
 
-### `buffalo_herd_resting` **DONE** (assets/previews/054-assets-a2.png)
+### `buffalo_herd_resting` **DONE, revised after art review fix 3** (assets/previews/054-assets-r1.png)
+_Revision: 8 animals, every head up at 1.3x with clear air round each pair of horns. The back four (facing right) sit at ground y -32/-60/-34/-62; the front four (facing left) have raised heads; small gaps between rumps; bulls and cows mixed. The silhouette shows 8 horned heads. Footprint unchanged._
 A herd lying down in grass at rest, side-on: a long row of about eight lying buffalo with overlapping backs and heads, horns of
 different sizes (cows and a bull or two), some heads up and some down, all calm. It must read as "dozens of identical buffalo".
 - **Anchor bottom-centre. Footprint x -750..750, y -280..0.**
 - Used as `silhouette: true` (glow_r 0) in s091.
 - Shots: s005, s064-s069, s091-s101, s104, s107-s109, s131-s135.
 
-### `buffalo_megaherd` **DONE** (assets/previews/054-assets-a2.png)
+### `buffalo_megaherd` **DONE, revised after art review fix 4** (assets/previews/054-assets-r1.png)
+_Revision: 5 rows at 1.0/0.7/0.5/0.35/0.25 with no backing rectangles. Each row's horns and bosses stand above the row in front, so the skyline is broken horns. The rows narrow toward the back and step down at both ends, with a lone animal past a gap on each side. Dust sits only behind and between the far rows. Checked as a silhouette with glow_r 0 at 0.33. Anchor and footprint box unchanged, but the drawn extent is now about **x -790..870, y -375..0**, a mound that is lower at the ends, no longer a full-width bar._
 The dry-season super-herd: a dense mass of buffalo heads and backs filling a wide strip, with the front rows larger and the back rows
 smaller toward the horizon, where the top edge fades into tan dust (`#c8b58a` / `#e2d3b0`). It should read as a thousand or more
 buffalo at a glance. Repeated identical heads are fine.
