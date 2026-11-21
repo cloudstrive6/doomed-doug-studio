@@ -1,0 +1,184 @@
+{
+ "name": "calendar_page_flying",
+ "description": "One torn-off page-a-day calendar page in mid-air (054): white, thin red header strip, torn top edge, curled bottom-right corner, three motion ticks on the left. Blank. Anchor centre, footprint x -76..50, y -44..42.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "calendar",
+  "time",
+  "054"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     -36
+    ],
+    [
+     -30,
+     -42
+    ],
+    [
+     -14,
+     -36
+    ],
+    [
+     2,
+     -42
+    ],
+    [
+     18,
+     -36
+    ],
+    [
+     34,
+     -40
+    ],
+    [
+     46,
+     -34
+    ],
+    [
+     50,
+     0
+    ],
+    [
+     44,
+     30
+    ],
+    [
+     30,
+     40
+    ],
+    [
+     -10,
+     36
+    ],
+    [
+     -40,
+     40
+    ],
+    [
+     -48,
+     6
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -44,
+     -34
+    ],
+    [
+     46,
+     -32
+    ],
+    [
+     47,
+     -20
+    ],
+    [
+     -46,
+     -22
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     -21
+    ],
+    [
+     47,
+     -19
+    ]
+   ],
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     44,
+     30
+    ],
+    [
+     30,
+     40
+    ],
+    [
+     34,
+     22
+    ]
+   ],
+   "fill": "#d8d8d0",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -58,
+     -16
+    ],
+    [
+     -72,
+     -12
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -62,
+     6
+    ],
+    [
+     -76,
+     10
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -56,
+     26
+    ],
+    [
+     -70,
+     30
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}

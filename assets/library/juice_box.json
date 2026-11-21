@@ -1,0 +1,327 @@
+{
+ "name": "juice_box",
+ "description": "Kids'-style fruit-punch juice box (054): red-pink #e8406a carton with a darker side and top, small cartoon cherry pair on the upper front, white bendy straw bent over the top-left corner. Clear front band for text centred about (0,+15) (the shotlist writes DOUG, 22 px white with black outline). Anchor centre; x -40..40, y -60..60.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "drink",
+  "juice box",
+  "054"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     26,
+     -40
+    ],
+    [
+     36,
+     -48
+    ],
+    [
+     36,
+     52
+    ],
+    [
+     26,
+     58
+    ]
+   ],
+   "fill": "#b82a4a",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -40
+    ],
+    [
+     -20,
+     -48
+    ],
+    [
+     36,
+     -48
+    ],
+    [
+     26,
+     -40
+    ]
+   ],
+   "fill": "#f27a92",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -40
+    ],
+    [
+     26,
+     -40
+    ],
+    [
+     26,
+     58
+    ],
+    [
+     -30,
+     58
+    ]
+   ],
+   "fill": "#e8406a",
+   "width": 4,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     40
+    ],
+    [
+     26,
+     40
+    ],
+    [
+     26,
+     58
+    ],
+    [
+     -30,
+     58
+    ]
+   ],
+   "fill": "#c83258",
+   "width": 0,
+   "color": "#000000",
+   "smooth": false,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -18,
+   "y": -20,
+   "r": 10,
+   "color": "#f58aa2",
+   "density": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -4,
+     -34
+    ],
+    [
+     -2,
+     -26
+    ],
+    [
+     -8,
+     -16
+    ]
+   ],
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -4,
+     -34
+    ],
+    [
+     4,
+     -26
+    ],
+    [
+     8,
+     -18
+    ]
+   ],
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -6,
+     -36
+    ],
+    [
+     4,
+     -40
+    ],
+    [
+     6,
+     -34
+    ]
+   ],
+   "fill": "#3aa03a",
+   "width": 2,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "ellipse",
+   "x": -9,
+   "y": -12,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#c0101a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 8,
+   "y": -14,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#c0101a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -11,
+   "y": -14,
+   "rx": 2,
+   "ry": 2,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 6,
+   "y": -16,
+   "rx": 2,
+   "ry": 2,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     -40
+    ],
+    [
+     26,
+     -40
+    ],
+    [
+     26,
+     58
+    ],
+    [
+     -30,
+     58
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -44
+    ],
+    [
+     -10,
+     -56
+    ],
+    [
+     -30,
+     -58
+    ],
+    [
+     -36,
+     -54
+    ]
+   ],
+   "width": 9,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -8,
+     -44
+    ],
+    [
+     -10,
+     -56
+    ],
+    [
+     -30,
+     -58
+    ],
+    [
+     -36,
+     -54
+    ]
+   ],
+   "width": 5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -13,
+     -55
+    ],
+    [
+     -8,
+     -53
+    ]
+   ],
+   "width": 1,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -13,
+     -52
+    ],
+    [
+     -8,
+     -50
+    ]
+   ],
+   "width": 1,
+   "color": "#9a9a9a"
+  }
+ ]
+}

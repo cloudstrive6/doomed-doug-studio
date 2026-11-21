@@ -1,0 +1,384 @@
+{
+ "name": "crash_helmet",
+ "description": "Small full-face motorbike crash helmet facing right (054): glossy white shell, one red racing stripe front-to-back over the dome, dark visor at the front with a chin bar, white highlight arc, dark padded rim. Anchor bottom-centre (rim on y=0); x -95..95, y -140..0. Sits on the roof of small_car.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "helmet",
+  "safety",
+  "054"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -84,
+     -4
+    ],
+    [
+     -92,
+     -60
+    ],
+    [
+     -70,
+     -112
+    ],
+    [
+     -20,
+     -136
+    ],
+    [
+     36,
+     -130
+    ],
+    [
+     78,
+     -98
+    ],
+    [
+     93,
+     -50
+    ],
+    [
+     88,
+     -2
+    ],
+    [
+     50,
+     -4
+    ],
+    [
+     10,
+     -20
+    ],
+    [
+     -40,
+     -14
+    ]
+   ],
+   "fill": "#f6f6f2",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -82,
+     -10
+    ],
+    [
+     -88,
+     -50
+    ],
+    [
+     -60,
+     -40
+    ],
+    [
+     -30,
+     -26
+    ],
+    [
+     10,
+     -26
+    ],
+    [
+     -40,
+     -16
+    ]
+   ],
+   "fill": "#d8d8d2",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -60,
+   "y": -40,
+   "r": 28,
+   "color": "#cfcfc8",
+   "density": 0.25
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -90,
+     -50
+    ],
+    [
+     -70,
+     -102
+    ],
+    [
+     -22,
+     -128
+    ],
+    [
+     36,
+     -120
+    ],
+    [
+     72,
+     -92
+    ],
+    [
+     64,
+     -82
+    ],
+    [
+     30,
+     -106
+    ],
+    [
+     -22,
+     -112
+    ],
+    [
+     -62,
+     -90
+    ],
+    [
+     -80,
+     -46
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     22,
+     -84
+    ],
+    [
+     64,
+     -88
+    ],
+    [
+     88,
+     -60
+    ],
+    [
+     86,
+     -42
+    ],
+    [
+     40,
+     -40
+    ],
+    [
+     18,
+     -56
+    ]
+   ],
+   "fill": "#1e2a36",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     -78
+    ],
+    [
+     58,
+     -82
+    ],
+    [
+     70,
+     -70
+    ],
+    [
+     36,
+     -70
+    ]
+   ],
+   "fill": "#5a6e82",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     46,
+     -60
+    ],
+    [
+     74,
+     -62
+    ]
+   ],
+   "width": 3,
+   "color": "#3a4a5a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     18,
+     -40
+    ],
+    [
+     50,
+     -32
+    ],
+    [
+     88,
+     -36
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 26,
+   "y": -22,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8a8a8a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 40,
+   "y": -20,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#8a8a8a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -58,
+     -100
+    ],
+    [
+     -28,
+     -122
+    ],
+    [
+     8,
+     -126
+    ]
+   ],
+   "width": 6,
+   "color": "#ffffff"
+  },
+  {
+   "type": "ellipse",
+   "x": -62,
+   "y": -82,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -82,
+     -8
+    ],
+    [
+     -40,
+     -16
+    ],
+    [
+     10,
+     -22
+    ],
+    [
+     48,
+     -8
+    ],
+    [
+     86,
+     -4
+    ]
+   ],
+   "width": 7,
+   "color": "#2a2a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -84,
+     -4
+    ],
+    [
+     -92,
+     -60
+    ],
+    [
+     -70,
+     -112
+    ],
+    [
+     -20,
+     -136
+    ],
+    [
+     36,
+     -130
+    ],
+    [
+     78,
+     -98
+    ],
+    [
+     93,
+     -50
+    ],
+    [
+     88,
+     -2
+    ],
+    [
+     50,
+     -4
+    ],
+    [
+     10,
+     -20
+    ],
+    [
+     -40,
+     -14
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  }
+ ]
+}

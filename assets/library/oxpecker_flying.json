@@ -1,0 +1,446 @@
+{
+ "name": "oxpecker_flying",
+ "description": "Red-billed oxpecker in flight facing right: wings raised (near wing high, far wing behind), olive-brown back, buff belly, red bill, red eye in a yellow ring, feet tucked, two white motion ticks. Anchor centre; x -100..100, y -70..70. 054.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "animal",
+  "bird",
+  "oxpecker",
+  "africa",
+  "savanna",
+  "054"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -4,
+     -8
+    ],
+    [
+     -30,
+     -44
+    ],
+    [
+     -58,
+     -66
+    ],
+    [
+     -40,
+     -70
+    ],
+    [
+     -6,
+     -52
+    ],
+    [
+     18,
+     -14
+    ]
+   ],
+   "fill": "#5a4d30",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -38,
+     0
+    ],
+    [
+     -84,
+     -10
+    ],
+    [
+     -90,
+     4
+    ],
+    [
+     -84,
+     18
+    ],
+    [
+     -38,
+     14
+    ]
+   ],
+   "fill": "#5a4d30",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -44,
+     7
+    ],
+    [
+     -84,
+     4
+    ]
+   ],
+   "width": 2,
+   "color": "#3a3020"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -46,
+     4
+    ],
+    [
+     -20,
+     -14
+    ],
+    [
+     20,
+     -18
+    ],
+    [
+     50,
+     -10
+    ],
+    [
+     58,
+     4
+    ],
+    [
+     40,
+     18
+    ],
+    [
+     0,
+     24
+    ],
+    [
+     -30,
+     18
+    ]
+   ],
+   "fill": "#7a6a45",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -30,
+     16
+    ],
+    [
+     0,
+     22
+    ],
+    [
+     38,
+     16
+    ],
+    [
+     52,
+     4
+    ],
+    [
+     30,
+     10
+    ],
+    [
+     0,
+     12
+    ]
+   ],
+   "fill": "#e8d3a0",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -6,
+     22
+    ],
+    [
+     -18,
+     34
+    ]
+   ],
+   "width": 3,
+   "color": "#4a3a2a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     4,
+     22
+    ],
+    [
+     -8,
+     36
+    ]
+   ],
+   "width": 3,
+   "color": "#4a3a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -46,
+     4
+    ],
+    [
+     -20,
+     -14
+    ],
+    [
+     20,
+     -18
+    ],
+    [
+     50,
+     -10
+    ],
+    [
+     58,
+     4
+    ],
+    [
+     40,
+     18
+    ],
+    [
+     0,
+     24
+    ],
+    [
+     -30,
+     18
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 58,
+   "y": -6,
+   "rx": 17,
+   "ry": 16,
+   "fill": "#7a6a45",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     48,
+     6
+    ],
+    [
+     62,
+     9
+    ],
+    [
+     72,
+     2
+    ],
+    [
+     60,
+     4
+    ]
+   ],
+   "fill": "#e8d3a0",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     72,
+     -12
+    ],
+    [
+     98,
+     -4
+    ],
+    [
+     72,
+     1
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "ellipse",
+   "x": 62,
+   "y": -9,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#ffd21a",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 62,
+   "y": -9,
+   "rx": 4,
+   "ry": 4,
+   "fill": "#c0201a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 63,
+   "y": -9,
+   "rx": 1.6,
+   "ry": 1.6,
+   "fill": "#000000",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     18,
+     -10
+    ],
+    [
+     0,
+     -30
+    ],
+    [
+     -16,
+     -56
+    ],
+    [
+     -30,
+     -68
+    ],
+    [
+     -14,
+     -70
+    ],
+    [
+     14,
+     -62
+    ],
+    [
+     34,
+     -40
+    ],
+    [
+     34,
+     -14
+    ]
+   ],
+   "fill": "#625636",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -62
+    ],
+    [
+     8,
+     -22
+    ]
+   ],
+   "width": 2,
+   "color": "#3a3020"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     4,
+     -64
+    ],
+    [
+     20,
+     -24
+    ]
+   ],
+   "width": 2,
+   "color": "#3a3020"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     18,
+     -56
+    ],
+    [
+     28,
+     -20
+    ]
+   ],
+   "width": 2,
+   "color": "#3a3020"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -50,
+     -46
+    ],
+    [
+     -62,
+     -36
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -46,
+     -30
+    ],
+    [
+     -58,
+     -22
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  }
+ ]
+}
