@@ -1420,8 +1420,8 @@
      {
       "type": "wordart",
       "text": "BLACK DEATH",
-      "x": 1020,
-      "y": 359.5,
+      "x": 1150,
+      "y": 355,
       "size": 96,
       "appear": 0.12
      },
@@ -7144,8 +7144,8 @@
      {
       "type": "wordart",
       "text": "NEW ADDRESS",
-      "x": 1560,
-      "y": 560,
+      "x": 1530,
+      "y": 600,
       "size": 84,
       "appear": 0.25
      },
@@ -11883,7 +11883,7 @@
      {
       "type": "group",
       "x": 60.0,
-      "y": -660.0,
+      "y": -550.0,
       "scale": 1.5,
       "elements": [
        {
@@ -11984,7 +11984,7 @@
      {
       "type": "group",
       "x": 60.0,
-      "y": -660.0,
+      "y": -550.0,
       "scale": 1.5,
       "elements": [
        {
@@ -16151,8 +16151,8 @@
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 560,
-      "y": 600,
+      "x": 900,
+      "y": 470,
       "scale": 1.0,
       "appear": 0.3
      },
@@ -16243,63 +16243,127 @@
       "scale": 0.8
      },
      {
-      "type": "speech",
+      "type": "poly",
+      "points": [
+       [
+        1130,
+        465
+       ],
+       [
+        1000,
+        560
+       ],
+       [
+        1175,
+        478
+       ]
+      ],
+      "fill": "#ffffff",
+      "color": "#000000",
+      "width": 4,
+      "boil": 0.3,
+      "appear": 0.2
+     },
+     {
+      "type": "ellipse",
       "x": 1240,
       "y": 420,
-      "w": 400,
-      "h": 130,
+      "rx": 210,
+      "ry": 70,
+      "fill": "#ffffff",
+      "color": "#000000",
+      "width": 4,
+      "boil": 0.3,
+      "appear": 0.2
+     },
+     {
+      "type": "text",
       "text": "AMBUSH PLAN",
-      "tail": [
-       1000,
-       560
-      ],
+      "x": 1240,
+      "y": 420,
+      "size": 44,
+      "color": "#000000",
+      "bold": true,
+      "boil": 0,
       "appear": 0.2
      },
      {
       "type": "line",
       "points": [
        [
-        1075,
-        424
+        1065.5,
+        422
        ],
        [
-        1405,
-        416
+        1414.5,
+        418
        ]
       ],
       "color": "#e0201b",
-      "width": 10,
-      "boil": 0.3,
+      "width": 4,
+      "boil": 0.2,
       "appear": 0.45
      },
      {
-      "type": "speech",
-      "x": 1240,
-      "y": 680,
-      "w": 300,
-      "h": 110,
-      "text": "GRUDGE",
-      "tail": [
-       1040,
-       700
+      "type": "poly",
+      "points": [
+       [
+        1185,
+        655
+       ],
+       [
+        1090,
+        722
+       ],
+       [
+        1215,
+        672
+       ]
       ],
+      "fill": "#ffffff",
+      "color": "#000000",
+      "width": 4,
+      "boil": 0.3,
+      "appear": 0.6
+     },
+     {
+      "type": "ellipse",
+      "x": 1310,
+      "y": 630,
+      "rx": 165,
+      "ry": 60,
+      "fill": "#ffffff",
+      "color": "#000000",
+      "width": 4,
+      "boil": 0.3,
+      "appear": 0.6
+     },
+     {
+      "type": "text",
+      "text": "GRUDGE",
+      "x": 1310,
+      "y": 630,
+      "size": 44,
+      "color": "#000000",
+      "bold": true,
+      "boil": 0,
       "appear": 0.6
      },
      {
       "type": "line",
       "points": [
        [
-        1150,
-        684
+        1201.5,
+        632
        ],
        [
-        1330,
-        676
+        1418.5,
+        628
        ]
       ],
       "color": "#e0201b",
-      "width": 10,
-      "boil": 0.3,
+      "width": 4,
+      "boil": 0.2,
       "appear": 0.78
      },
      {
@@ -39307,7 +39371,7 @@
      {
       "type": "group",
       "x": -288.0,
-      "y": -676.0,
+      "y": -616.0,
       "scale": 1.6,
       "elements": [
        {
@@ -39484,11 +39548,11 @@
       "type": "arrow",
       "from": [
        1480,
-       330
+       390
       ],
       "to": [
        1060,
-       560
+       620
       ],
       "color": "#e0201b",
       "width": 8,
