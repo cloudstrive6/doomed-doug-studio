@@ -72,3 +72,32 @@ screener passes A, B and C at feed size.
 - Condition: the visual screener's r1 PASS covered the old B. Before `packaged`, the screener re-checks the revised B at feed
   size (quick round 2). A and C don't need another review.
 - 2026-11-22: packaged. Script 2 rounds (PASS), art 2 rounds, thumbnails 2 rounds (B redrawn). Risks: costume in 7/9 items (kid-appeal, approved by art director), 35 orcas is high estimate only, gore avoided. Draft ~11.9 min.
+
+## 2026-11-22: final package approval (creative director)
+Checked: metadata.json (title, alt_titles, description, tags, playlist), build/chapters.txt, thumbnail A full size and
+168 px, samples f_001/f_002 (0:30, 1:00), script opening and item 1, facts.md rows for the description claims,
+visual_review.md round 3 (main PASS, shorts PASS), qc.json (711.2 s, 0 problems).
+- **Title kept:** "Why Sperm Whales Circle Their Calves When Orcas Come to Kill" (60 chars). It names a famous animal, adds
+  the predator, and asks a real "why" that the video answers (heads-in ring, calves in the middle, they never dive). No
+  alt is clearly stronger: "What Sperm Whales Do..." is already variant B in the A/B/C test, and the others are narrower
+  ("Hold Their Circle" gives away the answer). The "Why ..." opener follows 054's, which is acceptable because the noun
+  and lane differ (ocean vs savanna), but 056 should open on a different formula.
+- **Thumbnail A:** the daisy ring with Doug-calf at the hub and fins outside reads as one shape at 168 px, and HEADS IN is
+  legible. It is true to the video (the heads really point in), shows no contact or gore, and the dark fins keep it adult.
+  I would click it.
+- **Opening:** t=0 is the thumbnail image. The first two lines name the paradox (a 1 km diver that stays at the surface)
+  and the payoff promise (Doug in the middle, 35 orcas outside). Item 1's title lands at 0:11 and its twist ("Here's the
+  problem: the babies") lands well inside 45 s. At 0:30 and 1:00 the frames show Doug in costume beside the whales, with
+  the dive line and the deep-water bands making the escape the whales refuse. The counter and the ring card are legible.
+- **Description/chapters:** the hook paragraph matches the video. The 1997 / four hours / off California claims match
+  Pitman 2001 (facts.md). There are 6 sources, plus the disclaimer and the AI-use note. 10 chapters, starting at 0:00,
+  with item names that match the script. The 35 figure is told as "could have been" in the narration (Pitman's maximum
+  estimate), so the promise is not misleading. Playlist `ocean` is correct.
+- **Policy:** cartoon deaths only (403-408), no orca ever shown touching a whale or Doug, the injured are shown only as labels.
+  The costume risk was ruled on earlier and the frames don't read as a kids' show. No safety or medical advice.
+- Non-blocking nits for the next re-render only: round 3 nits 1-4. Also the Whitehead source link filename says "1986",
+  but the citation (1996, BES 38) is correct, so leave it. The ring card at 0:30 already shows a dotted ring while item 1
+  calls for an empty card. This is minor staging and not worth a re-render.
+- Series bible: deaths 403-408 (counter ends at 408) to be logged with the episode.
+
+FINAL: APPROVED
