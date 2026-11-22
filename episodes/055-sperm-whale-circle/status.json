@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-11-22T17:49:06+00:00",
       "note": "203 shots; 11 asset requests; 3 Shorts"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-22T18:14:19+00:00",
+      "note": "Art director: keyframes round 2 PASS, all 9 composition fixes verified"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

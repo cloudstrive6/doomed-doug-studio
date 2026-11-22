@@ -85,3 +85,21 @@ Break each run by changing the camera, not just the label.
    fins cover the title. Put a `#14365e` strip across the top 22 px of the tile, behind the title, on every shot, and keep the fins and map below it.
 
 Items 1-7 are re-framings only. Keep the narration splits, labels and timings. Resubmit the full contact sheet for re-review.
+
+---
+
+# Keyframe re-review, round 2 (2026-11-22)
+
+**Verdict: PASS.** All nine fixes from the previous section are verified on the regenerated full contact sheets (`sheet_01`-`sheet_17`, 203 shots + endslate).
+
+1. s099-s109: s101 is now an underwater side view with the hurt whale arrowed, s104 is a Doug close-up between two cropped heads, and s108 is a surface view with Doug in the gap. No run is longer than 3. PASS.
+2. s091 HEADS: cropped close-up of the heads meeting, with no full ring in frame. PASS.
+3. s158 is a surface side view with the whale alongside the fins, and s160 is a close-up on the lead whale with its arrow. PASS.
+4. s166 NEVER is a single adult-whale close-up. That is the visual screener's alternative and is accepted (no gore). s168 is a Doug-shoved-back close-up. PASS.
+5. s187 is a surface side view with the empty gap, and s190 is a cream clock card matching s123/s171. PASS.
+6. s062 is an extreme wide shot with a tiny kayak and a lone bull, and s063 is a close-up of the snow cap with the whale's eye. PASS.
+7. s043 is a cream comparison card (900 KG calf > cow). PASS.
+8. s098: NOSE TO NOSE now clears every bus. PASS.
+9. THE RING tile: the title sits on a navy strip, clear of the map and fins, in s133-s191 (checked at full res on s140, s182 and s188). PASS.
+
+No new style, on-model, palette or policy issues.
