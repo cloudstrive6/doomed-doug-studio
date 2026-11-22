@@ -43,3 +43,20 @@
   legs hanging below the hull, so the line is carried by the speech bubble, which now clears his head. Clipboard rows in s035/s039/s040
   are centred in the ruled rows (y 510/580/640, x +20 off the time column, size 34). Costume Doug lowered 45 px in 15 shots where the
   hood touched THE RING tile (s022 s032 s037 s038 s047 s057 s069 s074 s075 s114 s117-s120 s122). s152 "CONTACT." raised clear of the fins.
+
+## 2026-11-22: thumbnail gate (creative director)
+No visual-screener thumbnail report exists yet (visual_review.md covers keyframes only), so nothing is final until the
+screener passes A, B and C at feed size.
+- **A** `build/thumbnail.png` + "Why Sperm Whales Circle Their Calves When Orcas Come to Kill" / HEADS IN: **approved (creative)**.
+  The flower-shaped ring with Doug in the middle reads instantly and makes you ask "why are they doing that". I would click.
+- **C** `build/thumbnail_c.png` + "Why Sperm Whales Won't Dive Away When Orcas Come to Kill" / CALF INSIDE: **approved (creative)**.
+  The orca below the surface ring is the threat the title promises, and nothing touches anything. I would click.
+- **B** `build/thumbnail_b.png` + "What Sperm Whales Do When Orcas Come to Kill Their Calves" / TAILS OUT: **changes requested**.
+  I would not click. It is Doug in a onesie between two flukes, and there's no ring, so "TAILS OUT" means nothing.
+  1. Redraw to the logged concept: top-down ring with flukes pointing out at the fins and Doug-calf in the centre. Make it
+     clearly different from A by going tighter (3-4 whales filling the frame, flukes at the edges, 2 big fins breaking in).
+  2. Drop the yellow sky. A flat yellow sky plus the costume reads as a kids' show. Use the item-8 ocean palette
+     (`#18497e` water) so the image feels like an attack is coming.
+  3. Doug's face shows dread or a pleased smile that the frame undercuts (concept says "looking pleased"). Right now
+     it's a neutral grimace.
+  4. Keep TAILS OUT, but move it top-left so the bottom-right corner is clear of the duration stamp.
