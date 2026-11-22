@@ -39,3 +39,49 @@ Conditions for keyframes:
   shots and the item 3 break.
 - No costume-only gags in items 2, 4, 6 and 7. The costume is the setting there, and the joke stays on the science or the shift rota.
 - The creative director should log the deviation from the brief in `decisions.md`.
+
+---
+
+# Keyframe review (2026-11-22)
+
+**Verdict: FAIL.** Style, Doug, palette and policy all pass. The fail is on composition variety: six runs of 5 to 11 near-identical
+shots, plus two small text fixes. All fixes go to the director. No asset fixes.
+
+Reviewed: all 203 keyframes plus the endslate in `build/keyframes/`. `build/contact/sheet_01.png` only holds s152 because the last
+partial `--shots` run overwrote it. Re-run the full `keyframes` (no `--shots`) before resubmitting, so the contact sheet covers every shot.
+
+## Passes
+- Doug is on-model in every shot: costume hood, the red cap always visible (including ghost Doug s201-s203), expressions from the fixed set.
+  The kayak run uses the bare rig, and the costume comes off only for item 3, as ruled.
+- Asset-stage fixes are verified. s061: the snow sits on the cap and the legs are inside the hull. s035/s039/s040: the rota rows sit on the ruled lines.
+- The colour ramp matches `decisions.md` per item (sky greys toward the attack, water darkens, first light in item 9, cream cards, black death beats).
+- No gore. Deaths are told with the cap, gaps and a cut to black, and no orca touches a whale or Doug. The silhouette-with-red-glow reveal is used (s046, s067).
+- The caption bar, counter (402 to 408, red-on-pink from 408) and annotations are present. Text is inside the safe area.
+
+## Fixes (to director)
+Rule for all of these: **at most 4 consecutive shots with the same framing** (same top-down rosette scale, same horizon line-up).
+Break each run by changing the camera, not just the label.
+1. **s099-s109 (11 top-down rosettes in a row).** Re-frame at least three of them:
+   - s101 BADLY HURT: underwater side view of the ring, heads in and tails out, with the hurt whale pushed into the middle.
+   - s104: a mid close-up of Doug squeezing between two heads at the rim (whales at about 0.8 scale, cropped by the frame edge).
+   - s108: a surface-level view of the ring of backs on the horizon, with Doug's hood in the gap.
+   - Keep s107, the big close-up.
+2. **s087-s093 (7 top-down).** Make s091 HEADS a cropped close-up of the heads meeting in the centre (whales at about 0.9, no full ring in frame).
+3. **s157-s160 (same ring-left / orcas-right / Doug-bottom-left layout 4 times, inside a 7-shot run).**
+   - s158 ALONGSIDE: a side view at the surface (water `#18497e`, sky `#6a7686`), with a whale swimming beside the fins.
+   - s160 LEADING THE WAY: a close-up on the lead whale and its arrow.
+4. **s164-s170 (7 top-down).**
+   - s166 NEVER: change it to a cream `#f4f1dc` card or to a close-up of a single orca fin at the ring's edge.
+   - s168: a close-up of Doug being shoved back into the middle.
+5. **s186-s191 (6 top-down).**
+   - s187: a side view below the surface, with the ring above and the dashed gap.
+   - s190 (11:00): a cream card with the clock, in the same layout as s123/s171.
+6. **s059-s066 kayak run (s061-s064 are the same frame 4 times).**
+   - s062 LIVES ALONE: an extreme wide shot with a tiny kayak and a lone whale in a big ice-sky frame.
+   - s063: a close-up of Doug's snow-capped head with the whale's eye beside him.
+7. **s041-s046 (6 horizon line-ups in a row).** Make s043 (900 KG) a cream comparison card, with the calf against a familiar object as in s026.
+8. **s098:** "NOSE TO NOSE" overlaps the bottom-right bus. Move the label about 60 px down and right, or move the bus up, so they don't touch.
+9. **THE RING map tile (item 7, s133-s152):** the white "THE RING" title is illegible on the light map. In the fin-count tiles (s180-s191),
+   fins cover the title. Put a `#14365e` strip across the top 22 px of the tile, behind the title, on every shot, and keep the fins and map below it.
+
+Items 1-7 are re-framings only. Keep the narration splits, labels and timings. Resubmit the full contact sheet for re-review.
