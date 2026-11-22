@@ -111,3 +111,26 @@ death 408 on).
   on `#1f5a94` water; white ripple at the waterline. Must look clearly different from `false_killer_whale_fin` (taller,
   narrower) and `orca_fin` (tall and straight).
 - Facing right, anchor bottom-centre on the waterline (y = 0), about 300 x 180 (x -150..150, y -180..+10). Used at 0.25-0.5.
+
+---
+
+## Done (illustrator, 2026-11-22)
+All 11 drawn in `assets/library/`. Previews: `assets/previews/055-sperm-whale-circle-assets.png` (9 tiles),
+`assets/previews/055-sperm-whale-circle-assets-wide.png` (bunker, castle at 0.45), in context:
+`assets/previews/055-sperm-whale-circle-costume-context.png` (costume + headphones at 0.75/0.8/0.3, flipped, on `#8fd3ff`,
+`#2a6aa6`, `#14365e`) and `assets/previews/055-sperm-whale-circle-kayak-context.png` (kayak, cap_snow, frozen kayak, fin comparison).
+
+- [x] 1 `sperm_whale_calf_costume`: deadpan, slit eye only, no smile/teeth. Note: the float hands are actually at (+-102, **-180**), not -138;
+  the flipper mitts cover the whole forearm to there. Box head top reaches y -416 local (x 0.8 = 333 px above the hips).
+- [x] 2 `sperm_whale_calf`: x -212..206, y -64..72 as requested.
+- [x] 3 `big_headphones`: band top at y -428 local; front cup (98,-176), cable ends at (100,-20).
+- [x] 4 `sea_kayak`: yellow hull x -326..326, y -68..+30; coaming top y -52 local.
+- [x] 5 `cap_snow`: fitted to the **sit** head. **s061 (point) needs a fix**: point's head is 70 x scale higher than sit's, so at the
+  same y the snow lands on his face. In s061 set `cap_snow` y = Doug y - 42 (scale 0.6). Also at y 390, point's legs hang ~50 px
+  below the hull: either set Doug y to 432 (and cap_snow 390) so his hip matches sit, or cover the legs with the water band.
+- [x] 6 `doug_frozen_kayak`: same hull, no ice block, cap red with frosted crown.
+- [x] 7 `shift_rota_clipboard`: blank ruled table; rows between y -130 and +190, clip above -206.
+- [x] 8 `bunker_cutaway`: hatch at (+280,0), steep ladder-stair, vent and lid under 62 px.
+- [x] 9 `castle_wall_cannons`: top at y -400, fuses unlit.
+- [x] 10 `hand_bell`: about 210 x 290.
+- [x] 11 `pilot_whale_fin`: low, broad, hooked; checked side by side with `false_killer_whale_fin` and `orca_fin`.

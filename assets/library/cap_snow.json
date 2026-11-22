@@ -1,0 +1,214 @@
+{
+ "name": "cap_snow",
+ "description": "Small heap of snow on top of Doug's cap (worn prop, anchor = Doug's hips, same x/y/scale), fitted to the SIT pose head (centre 0,-148): white mound on the cap crown with pale blue-grey shading and 4 loose flakes. Brim and face clear. For the point/stand poses the head is 70 x scale higher: set y = Doug y - 70 x scale.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "prop",
+  "snow",
+  "cold",
+  "ice",
+  "055"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60,
+     -206
+    ],
+    [
+     -50,
+     -228
+    ],
+    [
+     -26,
+     -246
+    ],
+    [
+     4,
+     -252
+    ],
+    [
+     32,
+     -244
+    ],
+    [
+     52,
+     -228
+    ],
+    [
+     62,
+     -206
+    ],
+    [
+     40,
+     -216
+    ],
+    [
+     12,
+     -224
+    ],
+    [
+     -18,
+     -222
+    ],
+    [
+     -44,
+     -214
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -210
+    ],
+    [
+     -30,
+     -218
+    ],
+    [
+     0,
+     -224
+    ],
+    [
+     30,
+     -218
+    ],
+    [
+     52,
+     -210
+    ],
+    [
+     40,
+     -222
+    ],
+    [
+     10,
+     -230
+    ],
+    [
+     -20,
+     -228
+    ]
+   ],
+   "fill": "#cfd8e0",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -24,
+   "y": -236,
+   "r": 14,
+   "color": "#cfd8e0",
+   "density": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60,
+     -206
+    ],
+    [
+     -50,
+     -228
+    ],
+    [
+     -26,
+     -246
+    ],
+    [
+     4,
+     -252
+    ],
+    [
+     32,
+     -244
+    ],
+    [
+     52,
+     -228
+    ],
+    [
+     62,
+     -206
+    ],
+    [
+     40,
+     -216
+    ],
+    [
+     12,
+     -224
+    ],
+    [
+     -18,
+     -222
+    ],
+    [
+     -44,
+     -214
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": -84,
+   "y": -264,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#6f7e8c"
+  },
+  {
+   "type": "ellipse",
+   "x": 46,
+   "y": -286,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#6f7e8c"
+  },
+  {
+   "type": "ellipse",
+   "x": 86,
+   "y": -244,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#6f7e8c"
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": -298,
+   "rx": 5,
+   "ry": 5,
+   "fill": "#ffffff",
+   "width": 2,
+   "color": "#6f7e8c"
+  }
+ ]
+}

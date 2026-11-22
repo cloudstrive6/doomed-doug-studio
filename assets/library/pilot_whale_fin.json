@@ -1,0 +1,329 @@
+{
+ "name": "pilot_whale_fin",
+ "description": "Surfacing short-finned pilot whale: low, very broad-based, strongly hooked black dorsal fin set forward on a strip of black back, round melon hint at the right, mid-grey leading-edge highlight, white ripple at the waterline. Facing right, anchor bottom-centre on the waterline; about 300 x 160 (x -152..154, y -150..+12), ripple to +-208.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "whale",
+  "pilot whale",
+  "fin",
+  "dolphin",
+  "055"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     96,
+     -46
+    ],
+    [
+     70,
+     -84
+    ],
+    [
+     34,
+     -116
+    ],
+    [
+     -12,
+     -138
+    ],
+    [
+     -64,
+     -150
+    ],
+    [
+     -104,
+     -150
+    ],
+    [
+     -96,
+     -140
+    ],
+    [
+     -76,
+     -126
+    ],
+    [
+     -62,
+     -102
+    ],
+    [
+     -56,
+     -72
+    ],
+    [
+     -64,
+     -46
+    ],
+    [
+     -80,
+     -24
+    ]
+   ],
+   "fill": "#151618",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -152,
+     6
+    ],
+    [
+     -150,
+     -6
+    ],
+    [
+     -90,
+     -24
+    ],
+    [
+     -20,
+     -38
+    ],
+    [
+     60,
+     -46
+    ],
+    [
+     110,
+     -48
+    ],
+    [
+     138,
+     -42
+    ],
+    [
+     152,
+     -24
+    ],
+    [
+     154,
+     6
+    ]
+   ],
+   "fill": "#151618",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     84,
+     -56
+    ],
+    [
+     56,
+     -90
+    ],
+    [
+     18,
+     -120
+    ],
+    [
+     -30,
+     -140
+    ],
+    [
+     -76,
+     -146
+    ]
+   ],
+   "width": 5,
+   "color": "#6b7077"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -120,
+     -16
+    ],
+    [
+     -40,
+     -32
+    ],
+    [
+     40,
+     -42
+    ],
+    [
+     110,
+     -44
+    ],
+    [
+     138,
+     -36
+    ]
+   ],
+   "width": 4,
+   "color": "#6b7077"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     120,
+     -40
+    ],
+    [
+     142,
+     -32
+    ],
+    [
+     148,
+     -16
+    ]
+   ],
+   "width": 3,
+   "color": "#8a9098"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -170,
+     6
+    ],
+    [
+     -150,
+     -2
+    ],
+    [
+     -120,
+     4
+    ],
+    [
+     -80,
+     -2
+    ],
+    [
+     -40,
+     4
+    ],
+    [
+     0,
+     -2
+    ],
+    [
+     40,
+     4
+    ],
+    [
+     80,
+     -2
+    ],
+    [
+     120,
+     4
+    ],
+    [
+     160,
+     -2
+    ],
+    [
+     176,
+     6
+    ],
+    [
+     150,
+     12
+    ],
+    [
+     100,
+     8
+    ],
+    [
+     40,
+     12
+    ],
+    [
+     -20,
+     8
+    ],
+    [
+     -80,
+     12
+    ],
+    [
+     -140,
+     8
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -208.0,
+     2
+    ],
+    [
+     -184.0,
+     2
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     169.0,
+     2
+    ],
+    [
+     191.0,
+     2
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -80.0,
+     18
+    ],
+    [
+     -40.0,
+     18
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     52.0,
+     18
+    ],
+    [
+     88.0,
+     18
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  }
+ ]
+}

@@ -1,0 +1,385 @@
+{
+ "name": "big_headphones",
+ "description": "Enormous padded over-ear headphones (worn prop, anchor = Doug's hips; list after sperm_whale_calf_costume at the same x/y/scale; fitted to the float pose). Thick black band arcs over the whale hood, black cups with grey padding at both sides of the head (back cup on the hood, front cup below the brim), coiled grey cable dropping from the front cup to about (100,-20). Face and cap clear.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "doug",
+  "prop",
+  "headphones",
+  "listening",
+  "hydrophone",
+  "055"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     -98,
+     -250
+    ],
+    [
+     -126,
+     -296
+    ],
+    [
+     -118,
+     -366
+    ],
+    [
+     -60,
+     -414
+    ],
+    [
+     40,
+     -428
+    ],
+    [
+     140,
+     -420
+    ],
+    [
+     206,
+     -384
+    ],
+    [
+     214,
+     -320
+    ],
+    [
+     192,
+     -262
+    ],
+    [
+     158,
+     -224
+    ],
+    [
+     122,
+     -206
+    ]
+   ],
+   "width": 18,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -98,
+     -250
+    ],
+    [
+     -126,
+     -296
+    ],
+    [
+     -118,
+     -366
+    ],
+    [
+     -60,
+     -414
+    ],
+    [
+     40,
+     -428
+    ],
+    [
+     140,
+     -420
+    ],
+    [
+     206,
+     -384
+    ],
+    [
+     214,
+     -320
+    ],
+    [
+     192,
+     -262
+    ],
+    [
+     158,
+     -224
+    ],
+    [
+     122,
+     -206
+    ]
+   ],
+   "width": 10,
+   "color": "#2a2a2a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -118,
+     -366
+    ],
+    [
+     -60,
+     -414
+    ],
+    [
+     40,
+     -428
+    ],
+    [
+     140,
+     -420
+    ],
+    [
+     206,
+     -384
+    ],
+    [
+     214,
+     -320
+    ],
+    [
+     192,
+     -262
+    ]
+   ],
+   "width": 3,
+   "color": "#8a8a8a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     98,
+     -136
+    ],
+    [
+     109,
+     -126
+    ],
+    [
+     87,
+     -116
+    ],
+    [
+     109,
+     -106
+    ],
+    [
+     87,
+     -96
+    ],
+    [
+     109,
+     -86
+    ],
+    [
+     87,
+     -76
+    ],
+    [
+     109,
+     -66
+    ],
+    [
+     87,
+     -56
+    ],
+    [
+     109,
+     -46
+    ],
+    [
+     87,
+     -36
+    ],
+    [
+     100,
+     -20
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     98,
+     -136
+    ],
+    [
+     109,
+     -126
+    ],
+    [
+     87,
+     -116
+    ],
+    [
+     109,
+     -106
+    ],
+    [
+     87,
+     -96
+    ],
+    [
+     109,
+     -86
+    ],
+    [
+     87,
+     -76
+    ],
+    [
+     109,
+     -66
+    ],
+    [
+     87,
+     -56
+    ],
+    [
+     109,
+     -46
+    ],
+    [
+     87,
+     -36
+    ],
+    [
+     100,
+     -20
+    ]
+   ],
+   "width": 3,
+   "color": "#9a9a9a"
+  },
+  {
+   "type": "ellipse",
+   "x": -98,
+   "y": -212,
+   "rx": 28,
+   "ry": 42,
+   "fill": "#1c1c1c",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -104,
+   "y": -222,
+   "rx": 8,
+   "ry": 14,
+   "fill": "#4a4a4a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -76,
+   "y": -212,
+   "rx": 12,
+   "ry": 38,
+   "fill": "#8c8c8c",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -76,
+     -238
+    ],
+    [
+     -72,
+     -212
+    ],
+    [
+     -76,
+     -186
+    ]
+   ],
+   "width": 2,
+   "color": "#5e5e5e"
+  },
+  {
+   "type": "rect",
+   "x": -106,
+   "y": -266,
+   "w": 16,
+   "h": 16,
+   "fill": "#5a5a5a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 98,
+   "y": -176,
+   "rx": 28,
+   "ry": 42,
+   "fill": "#1c1c1c",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 104,
+   "y": -186,
+   "rx": 8,
+   "ry": 14,
+   "fill": "#4a4a4a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 76,
+   "y": -176,
+   "rx": 12,
+   "ry": 38,
+   "fill": "#8c8c8c",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     76,
+     -202
+    ],
+    [
+     72,
+     -176
+    ],
+    [
+     76,
+     -150
+    ]
+   ],
+   "width": 2,
+   "color": "#5e5e5e"
+  },
+  {
+   "type": "rect",
+   "x": 90,
+   "y": -230,
+   "w": 16,
+   "h": 16,
+   "fill": "#5a5a5a",
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}
