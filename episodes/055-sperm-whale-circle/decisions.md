@@ -32,3 +32,14 @@
   so only one cap in frame).
 - Shorts: short01 s094-s107 (Marguerite, hook from s090), short02 s112-s123 (Tail, opens on "five meters"), short03 s161-s170
   (Rescue, hook from s154). Each ends on its payoff. Titles are drafts so `shorts validate` passes; youtube-titler replaces them.
+
+## 2026-11-22: costume count (art director ruling, logged by director)
+- **Deviation from brief, approved:** the calf costume is on in 7 of 9 items (1, 2, 4-9). It comes off only for the scripted item 3
+  kayak run, not the brief's "at most 4". The art director reads "max 4" as a cap on featured costume beats (thumbnail, item 1, item 5,
+  boss), not on the items he wears it in. Costume continuity rule (049) applies, and the costume passed the kid-appeal check. Conditions
+  were checked at keyframes: varied framing (top-down rings, cards without Doug, headphone shots, item 3 break) and no costume-only
+  gags in items 2, 4, 6 and 7.
+- Keyframe fixes: s061 Doug switched to `sit` at y 390 with cap_snow at 390 (matches s060/s062). `point` at y 432 still left his
+  legs hanging below the hull, so the line is carried by the speech bubble, which now clears his head. Clipboard rows in s035/s039/s040
+  are centred in the ruled rows (y 510/580/640, x +20 off the time column, size 34). Costume Doug lowered 45 px in 15 shots where the
+  hood touched THE RING tile (s022 s032 s037 s038 s047 s057 s069 s074 s075 s114 s117-s120 s122). s152 "CONTACT." raised clear of the fins.

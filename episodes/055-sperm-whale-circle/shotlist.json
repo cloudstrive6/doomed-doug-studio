@@ -3480,7 +3480,7 @@
      {
       "type": "doug",
       "x": 1650,
-      "y": 470.9,
+      "y": 515.9,
       "scale": 0.38,
       "pose": "float",
       "expression": "flat",
@@ -3490,7 +3490,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1650,
-      "y": 470.9,
+      "y": 515.9,
       "scale": 0.38,
       "flip": false
      },
@@ -5361,7 +5361,7 @@
      {
       "type": "doug",
       "x": 1780,
-      "y": 469.2,
+      "y": 514.2,
       "scale": 0.35,
       "pose": "float",
       "expression": "flat",
@@ -5372,7 +5372,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1780,
-      "y": 469.2,
+      "y": 514.2,
       "scale": 0.35,
       "flip": true,
       "appear": 0.12
@@ -5853,9 +5853,9 @@
      {
       "type": "text",
       "text": "08:00  GRAN",
-      "x": 760,
-      "y": 520,
-      "size": 36,
+      "x": 780,
+      "y": 510,
+      "size": 34,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -5864,9 +5864,9 @@
      {
       "type": "text",
       "text": "09:00  AUNT",
-      "x": 760,
+      "x": 780,
       "y": 580,
-      "size": 36,
+      "size": 34,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -5875,9 +5875,9 @@
      {
       "type": "text",
       "text": "10:00  SISTER",
-      "x": 760,
+      "x": 780,
       "y": 640,
-      "size": 36,
+      "size": 34,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0,
@@ -6225,7 +6225,7 @@
      {
       "type": "doug",
       "x": 1650,
-      "y": 470.9,
+      "y": 515.9,
       "scale": 0.38,
       "pose": "float",
       "expression": "confused",
@@ -6236,7 +6236,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1650,
-      "y": 470.9,
+      "y": 515.9,
       "scale": 0.38,
       "flip": true,
       "appear": 0.12
@@ -6433,7 +6433,7 @@
      {
       "type": "doug",
       "x": 1650,
-      "y": 470.9,
+      "y": 515.9,
       "scale": 0.38,
       "pose": "float",
       "expression": "flat",
@@ -6444,7 +6444,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1650,
-      "y": 470.9,
+      "y": 515.9,
       "scale": 0.38,
       "flip": true,
       "appear": 0.12
@@ -6573,9 +6573,9 @@
      {
       "type": "text",
       "text": "08:00  GRAN",
-      "x": 640,
-      "y": 520,
-      "size": 36,
+      "x": 660,
+      "y": 510,
+      "size": 34,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0
@@ -6583,9 +6583,9 @@
      {
       "type": "text",
       "text": "09:00  AUNT",
-      "x": 640,
+      "x": 660,
       "y": 580,
-      "size": 36,
+      "size": 34,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0
@@ -6593,9 +6593,9 @@
      {
       "type": "text",
       "text": "10:00  doug",
-      "x": 640,
-      "y": 650,
-      "size": 40,
+      "x": 660,
+      "y": 640,
+      "size": 34,
       "color": "#c0181b",
       "bold": true,
       "boil": 0,
@@ -6743,9 +6743,9 @@
      {
       "type": "text",
       "text": "10:00  doug",
-      "x": 640,
-      "y": 650,
-      "size": 40,
+      "x": 660,
+      "y": 640,
+      "size": 34,
       "color": "#c0181b",
       "bold": true,
       "boil": 0,
@@ -8076,7 +8076,7 @@
      {
       "type": "doug",
       "x": 1600,
-      "y": 468.7,
+      "y": 513.7,
       "scale": 0.34,
       "pose": "float",
       "expression": "flat",
@@ -8087,7 +8087,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1600,
-      "y": 468.7,
+      "y": 513.7,
       "scale": 0.34,
       "flip": true,
       "appear": 0.12
@@ -10382,7 +10382,7 @@
      {
       "type": "doug",
       "x": 1550,
-      "y": 469.8,
+      "y": 514.8,
       "scale": 0.36,
       "pose": "float",
       "expression": "shock",
@@ -10393,7 +10393,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1550,
-      "y": 469.8,
+      "y": 514.8,
       "scale": 0.36,
       "flip": true,
       "appear": 0.12
@@ -11352,7 +11352,7 @@
       "x": 460,
       "y": 390.0,
       "scale": 0.6,
-      "pose": "point",
+      "pose": "sit",
       "expression": "hopeful",
       "facing": "right"
      },
@@ -11372,14 +11372,14 @@
      },
      {
       "type": "speech",
-      "x": 560,
-      "y": 200,
-      "w": 420,
-      "h": 140,
+      "x": 760,
+      "y": 170,
+      "w": 440,
+      "h": 130,
       "text": "ORCAS. FAMILY. NOW.",
       "size": 40,
       "tail": [
-       500,
+       540,
        280
       ],
       "appear": 0.2
@@ -13244,7 +13244,7 @@
      {
       "type": "doug",
       "x": 1500,
-      "y": 470.9,
+      "y": 515.9,
       "scale": 0.38,
       "pose": "float",
       "expression": "flat",
@@ -13255,7 +13255,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1500,
-      "y": 470.9,
+      "y": 515.9,
       "scale": 0.38,
       "flip": true,
       "appear": 0.12
@@ -14653,7 +14653,7 @@
      {
       "type": "doug",
       "x": 1750,
-      "y": 469.2,
+      "y": 514.2,
       "scale": 0.35,
       "pose": "float",
       "expression": "flat",
@@ -14664,7 +14664,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1750,
-      "y": 469.2,
+      "y": 514.2,
       "scale": 0.35,
       "flip": true,
       "appear": 0.12
@@ -14979,7 +14979,7 @@
      {
       "type": "doug",
       "x": 1650,
-      "y": 470.9,
+      "y": 515.9,
       "scale": 0.38,
       "pose": "float",
       "expression": "shock",
@@ -14990,7 +14990,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1650,
-      "y": 470.9,
+      "y": 515.9,
       "scale": 0.38,
       "flip": true,
       "appear": 0.12
@@ -29869,7 +29869,7 @@
      {
       "type": "doug",
       "x": 1500,
-      "y": 468.7,
+      "y": 513.7,
       "scale": 0.34,
       "pose": "float",
       "expression": "flat",
@@ -29880,7 +29880,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1500,
-      "y": 468.7,
+      "y": 513.7,
       "scale": 0.34,
       "flip": true,
       "appear": 0.12
@@ -31217,7 +31217,7 @@
      {
       "type": "doug",
       "x": 1450,
-      "y": 469.8,
+      "y": 514.8,
       "scale": 0.36,
       "pose": "float",
       "expression": "flat",
@@ -31228,7 +31228,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1450,
-      "y": 469.8,
+      "y": 514.8,
       "scale": 0.36,
       "flip": true,
       "appear": 0.12
@@ -31649,7 +31649,7 @@
      {
       "type": "doug",
       "x": 1700,
-      "y": 469.8,
+      "y": 514.8,
       "scale": 0.36,
       "pose": "float",
       "expression": "flat",
@@ -31660,7 +31660,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1700,
-      "y": 469.8,
+      "y": 514.8,
       "scale": 0.36,
       "flip": true,
       "appear": 0.12
@@ -32091,7 +32091,7 @@
      {
       "type": "doug",
       "x": 1700,
-      "y": 469.8,
+      "y": 514.8,
       "scale": 0.36,
       "pose": "float",
       "expression": "confused",
@@ -32102,7 +32102,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1700,
-      "y": 469.8,
+      "y": 514.8,
       "scale": 0.36,
       "flip": true,
       "appear": 0.12
@@ -32512,7 +32512,7 @@
      {
       "type": "doug",
       "x": 1700,
-      "y": 469.8,
+      "y": 514.8,
       "scale": 0.36,
       "pose": "float",
       "expression": "flat",
@@ -32523,7 +32523,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1700,
-      "y": 469.8,
+      "y": 514.8,
       "scale": 0.36,
       "flip": true,
       "appear": 0.12
@@ -33402,7 +33402,7 @@
      {
       "type": "doug",
       "x": 1720,
-      "y": 469.2,
+      "y": 514.2,
       "scale": 0.35,
       "pose": "float",
       "expression": "flat",
@@ -33413,7 +33413,7 @@
       "type": "asset",
       "name": "sperm_whale_calf_costume",
       "x": 1720,
-      "y": 469.2,
+      "y": 514.2,
       "scale": 0.35,
       "flip": true,
       "appear": 0.12
@@ -46860,7 +46860,7 @@
       "type": "text",
       "text": "CONTACT.",
       "x": 860,
-      "y": 200,
+      "y": 150,
       "size": 140,
       "color": "#ffffff",
       "bold": true,
