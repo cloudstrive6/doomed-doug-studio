@@ -1,0 +1,189 @@
+{
+  "title": "Why Sperm Whales Circle Their Calves When Orcas Come to Kill",
+  "alt_titles": [
+    "What Sperm Whales Do When Orcas Come to Kill Their Calves",
+    "Why Sperm Whales Won't Dive Away When Orcas Come to Kill",
+    "Why Sperm Whales Stay at the Surface When Orcas Come to Kill",
+    "Why Sperm Whales Hold Their Circle Even as Orcas Kill"
+  ],
+  "packaging": {
+    "gate": "D4 packaging gate v1 (2026-11-09)",
+    "ranked_at": "2026-11-22T17:27:51Z",
+    "names": [
+      "sperm whale",
+      "sperm whales",
+      "orca",
+      "orcas"
+    ],
+    "candidates": [
+      {
+        "title": "Why Sperm Whales Circle Their Calves When Orcas Come to Kill",
+        "thumb_text": "HEADS IN",
+        "concept": "Top-down ring of grey sperm whales, heads together, tails out like petals; tiny Doug in a calf costume in the middle; black fins outside",
+        "formula": "T9",
+        "chars": 60,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "What Sperm Whales Do When Orcas Come to Kill Their Calves",
+        "thumb_text": "TAILS OUT",
+        "concept": "The ring from above with flukes pointing outward at the fins; Doug in the calf costume in the centre, looking pleased",
+        "formula": "T9",
+        "chars": 57,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Sperm Whales Won't Dive Away When Orcas Come to Kill",
+        "thumb_text": "CALF INSIDE",
+        "concept": "Side cut: dark deep water below, the ring held at the surface, Doug-calf bobbing in the middle, fins closing in",
+        "formula": "T9",
+        "chars": 56,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Sperm Whales Stay at the Surface When Orcas Come to Kill",
+        "thumb_text": "HEADS IN",
+        "concept": "The ring at the surface with an empty dark abyss beneath it; Doug-calf in the middle; fins on the horizon",
+        "formula": "T9",
+        "chars": 60,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Sperm Whales Hold Their Circle Even as Orcas Kill",
+        "thumb_text": "4 HOURS",
+        "concept": "Top-down ring with a gap starting to open, Doug-calf in the middle, ring of black fins around it",
+        "formula": "T9",
+        "chars": 53,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "How Doug Would Die Inside a Sperm Whale Circle Under Attack",
+        "thumb_text": "UP TO 35",
+        "concept": "Ring from above, Doug-calf in the middle, a crowd of black fins outside",
+        "formula": "T2",
+        "chars": 59,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Orcas Come to Kill and Sperm Whales Refuse to Dive Away",
+        "thumb_text": "CALF INSIDE",
+        "concept": "Ring at the surface, Doug-calf in the middle, fins outside, dark escape route below unused",
+        "formula": "T9",
+        "chars": 59,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "Why Sperm Whales Never Leave a Calf When Orcas Come to Kill",
+        "thumb_text": "HEADS IN",
+        "concept": "Top-down ring, heads together, Doug-calf in the centre, black fins outside",
+        "formula": "T9",
+        "chars": 59,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "What Sperm Whales Risk When Orcas Come to Kill One of Them",
+        "thumb_text": "NO DIVING",
+        "concept": "Ring at the surface, one adult sliding out to flank Doug back in; fins outside",
+        "formula": "T9",
+        "chars": 58,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "title": "How Sperm Whales Held a Circle for 4 Hours as Orcas Moved to Kill",
+        "thumb_text": "HEADS IN",
+        "concept": "Ring from above, sun low, many fins outside, Doug-calf in the middle",
+        "formula": "T9",
+        "chars": 65,
+        "score": 100,
+        "raw": 102,
+        "issues": [
+          "length: 65 characters, desktop search cuts near 60"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "variant": "A",
+        "file": "thumbnail.json",
+        "png": "build/thumbnail.png",
+        "title": "Why Sperm Whales Circle Their Calves When Orcas Come to Kill",
+        "thumb_text": "HEADS IN",
+        "concept": "hero close-up",
+        "thumb_idea": "Top-down ring of grey sperm whales, heads together, tails out like petals; tiny Doug in a calf costume in the middle; black fins outside",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "variant": "B",
+        "file": "thumbnail_test_b.json",
+        "png": "build/thumbnail_b.png",
+        "title": "What Sperm Whales Do When Orcas Come to Kill Their Calves",
+        "thumb_text": "TAILS OUT",
+        "concept": "Doug in peril",
+        "thumb_idea": "The ring from above with flukes pointing outward at the fins; Doug in the calf costume in the centre, looking pleased",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
+        "variant": "C",
+        "file": "thumbnail_test_c.json",
+        "png": "build/thumbnail_c.png",
+        "title": "Why Sperm Whales Won't Dive Away When Orcas Come to Kill",
+        "thumb_text": "CALF INSIDE",
+        "concept": "second shock",
+        "thumb_idea": "Side cut: dark deep water below, the ring held at the surface, Doug-calf bobbing in the middle, fins closing in",
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      }
+    ],
+    "readout": {
+      "metric": "long-form CTR at day 7",
+      "min_impressions": 1000,
+      "baseline_median": 0.022,
+      "baseline_top": [
+        0.025,
+        0.043
+      ],
+      "target_median": 0.04,
+      "baseline_source": "data/analytics/2026-11-08.json"
+    }
+  },
+  "title_formula": "T9",
+  "thumbnail_brief": "Top-down view of 7-9 grey sperm whales in a ring on dark-blue water, heads together and tails out like daisy petals, tiny Doug in a grey sperm whale calf costume (cap on top) in the middle, 4-6 black orca fins outside the ring; no blood or wounds, and nothing implying the whales win.",
+  "description": "When orcas come to kill, sperm whales don't dive away. They form a circle at the surface, heads together and tails out, with the young and the hurt in the middle. Doug squeezes into the marguerite in a sperm whale calf costume, from the babysitting shifts to the 1997 attack scientists watched for four hours off California.\n\nWhere should we send Doug next? Tell us in the comments.\nSubscribe and watch Doug's death counter keep climbing.\n\n— TIMESTAMPS —\n{{CHAPTERS}}\n\n— KEY SOURCES —\nPitman et al. (2001), Marine Mammal Science, killer whale predation on sperm whales and the rosette: https://doi.org/10.1111/j.1748-7692.2001.tb01000.x\nWhitehead (1996), Behavioral Ecology and Sociobiology, babysitting and dive timing in sperm whales: http://whitelab.biology.dal.ca/hw/Whitehead_BES_1986.pdf\nGero, Gordon & Whitehead (2013), Proceedings of the Royal Society B, sperm whale family units: https://pmc.ncbi.nlm.nih.gov/articles/PMC3774244/\nDeecke, Ford & Slater (2005), Animal Behaviour, silent hunting by mammal-eating killer whales: https://mmru.ubc.ca/wp-content/pdfs/Deecke2005.pdf\nWatwood et al. (2006), Journal of Animal Ecology, sperm whale dive depths and durations: https://doi.org/10.1111/j.1365-2656.2006.01101.x\nNOAA Fisheries, sperm whale species profile: https://www.fisheries.noaa.gov/species/sperm-whale\n\n— DISCLAIMER —\nEducational entertainment, not wildlife or safety advice. Every death in this video is a cartoon depiction of a stick figure; the science is real and sourced above.\n\n— AI USE —\nThe narration is an AI text-to-speech voice. Scripts are researched and written with AI assistance and fact-checked against the sources above. All drawings are original.\n\n#DoomedDoug #SpermWhale #Orcas",
+  "tags": [
+    "sperm whale",
+    "sperm whales vs orcas",
+    "sperm whale circle",
+    "marguerite formation",
+    "orca attack",
+    "killer whale hunting",
+    "sperm whale calf",
+    "ocean animals",
+    "marine biology",
+    "stick figure animation"
+  ],
+  "playlist": "ocean",
+  "paid_promotion": false
+}
