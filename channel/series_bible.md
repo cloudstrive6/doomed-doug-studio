@@ -121,7 +121,9 @@ used a comment prompt, and 036–047 have no end screen set in Studio (`end_scre
   "Doug deaths: [N]. Subscribe and you can watch it go up." No comment prompt in the same line (one CTA only). The line changes every
   episode; never beg, never "smash", never a bell.
 - Never ask before or during the items: the opening rules above and style bible writer rule 2 stay unchanged.
-- Every uploaded episode gets its Studio end screen (next video + Subscribe) set within the review window; 036–047 are backfilled first, 037 first.
+- Every uploaded episode gets its Studio end screen (next video + Subscribe) set within the review window. **Update 2026-11-22 (growth memo
+  2026-11-22 §1):** `end_screen_set` is still missing for **036–054**. Backfill order: 037, 045, 048, 046, 036, then the rest; 051–054 in
+  their review windows. Studio-only (owner), recorded as `end_screen_set: true` in each `metadata.json` once done.
 - Measure: subs gained per 1,000 long views on 048–054 vs 036–047. Revisit if still ~0 after 7 episodes.
 
 ## Series / playlists (config `youtube.playlists`)

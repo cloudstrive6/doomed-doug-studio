@@ -815,49 +815,40 @@
   }
  },
  "orca": {
-  "at": "2026-10-01T01:05:27.503949+00:00",
+  "at": "2026-11-22T14:06:27.752125+00:00",
   "data": {
    "demand": {
     "score": 10,
     "suggestions": [
      "orca",
-     "orcalero orcala",
-     "orca attack",
      "orca whales",
-     "orca documentary",
-     "orcas hunting",
-     "orca sounds",
-     "orcalero orcala ritual",
-     "orcas hunting seals",
-     "orcalero orcala funk",
+     "orcas island",
      "orca hunting",
-     "orca encounter"
+     "orcas island aliens",
+     "orca documentary",
+     "orca attack",
+     "orca sounds",
+     "orcas hunting seals",
+     "orca rams sunfish",
+     "orca movie",
+     "orca vs great white"
     ]
    },
    "saturation": {
-    "copies_100k": 2,
+    "copies_100k": 1,
     "channels": [
-     "BeyondTheBlue",
-     "OctoLab"
+     "AJ+ كبريت"
     ],
-    "vph_median": 2500.3,
-    "vph_best": 3860.4,
+    "vph_median": 2240.9,
+    "vph_best": 2240.9,
     "top": [
      {
-      "title": "Why The Ocean's Deadliest Predator Refuses To Kill Us",
-      "channel": "OctoLab",
-      "views": 7631944,
-      "age_days": 82.4,
-      "vph": 3860.4,
-      "id": "VtrcKTkhDHU"
-     },
-     {
-      "title": "Why The Deadliest Predator in the Ocean Refuses to Kill Us",
-      "channel": "BeyondTheBlue",
-      "views": 2224492,
-      "age_days": 81.3,
-      "vph": 1140.3,
-      "id": "_wBlfJuC9SM"
+      "title": "الدحيح | انتقام الحوت القاتل",
+      "channel": "AJ+ كبريت",
+      "views": 3863478,
+      "age_days": 71.8,
+      "vph": 2240.9,
+      "id": "BCoyfKHVy8Y"
      }
     ]
    }
@@ -7289,7 +7280,7 @@
   }
  },
  "sperm whale": {
-  "at": "2026-11-09T01:06:30.485367+00:00",
+  "at": "2026-11-22T14:06:27.752125+00:00",
   "data": {
    "demand": {
     "score": 7,
@@ -7297,69 +7288,68 @@
      "sperm whale",
      "sperm whale vs giant squid",
      "sperm whale sounds",
-     "sperm whale sleeping",
-     "sperm whale clicks",
      "sperm whale vs orca",
+     "sperm whale clicks",
+     "sperm whale sleeping",
      "sperm whale documentary",
-     "sperm whale hunting",
-     "sperm whale hunting giant squid",
+     "sperm whale eats giant squid",
      "sperm whale movie",
+     "sperm whale hunting giant squid",
      "sperm whale encounter"
     ]
    },
    "saturation": {
-    "copies_100k": 7,
+    "copies_100k": 6,
     "channels": [
-     "Acontece no Mundo",
+     "ApexMorph",
      "Depth Theory",
-     "Fossil",
+     "KPassionate",
      "LivingZoo",
-     "Squidium",
-     "Wild Lore",
+     "OctoLab",
      "Zem TV"
     ],
-    "vph_median": 3240.3,
-    "vph_best": 22227.8,
+    "vph_median": 2456.0,
+    "vph_best": 15193.7,
     "top": [
      {
       "title": "Why You'd Never Want To Meet A Sperm Whale",
       "channel": "Depth Theory",
-      "views": 6637240,
-      "age_days": 12.4,
-      "vph": 22227.8,
+      "views": 9474784,
+      "age_days": 26.0,
+      "vph": 15193.7,
       "id": "fGcgWaswMns"
      },
      {
-      "title": "Os Únicos 3 Animais Que Fazem as Orcas Fugirem",
-      "channel": "Acontece no Mundo",
-      "views": 3273567,
-      "age_days": 16.0,
-      "vph": 8550.0,
-      "id": "vudsj2SdhkI"
+      "title": "The Only Animals That Make Orcas Run Away",
+      "channel": "ApexMorph",
+      "views": 4051118,
+      "age_days": 27.2,
+      "vph": 6204.5,
+      "id": "Tm8PtCTt2j8"
      },
      {
-      "title": "Would Orcas Dominate Every Prehistoric Ocean?",
-      "channel": "Fossil",
-      "views": 4017924,
-      "age_days": 32.2,
-      "vph": 5192.8,
-      "id": "UNPK8PNCCmQ"
-     },
-     {
-      "title": "Why Orcas are Terrified of the Humpback Whales",
-      "channel": "Squidium",
-      "views": 2423066,
-      "age_days": 31.2,
-      "vph": 3240.3,
-      "id": "QHZkEWWPHy0"
+      "title": "Why Sperm Whales Are The Most Bizarre Deep-Sea Creatures",
+      "channel": "OctoLab",
+      "views": 2219969,
+      "age_days": 23.9,
+      "vph": 3865.4,
+      "id": "MSzzv3AK7f8"
      },
      {
       "title": "What’s Hidden Inside a Sperm Whale?",
       "channel": "Zem TV",
-      "views": 1657828,
-      "age_days": 53.4,
-      "vph": 1292.6,
+      "views": 1682570,
+      "age_days": 67.0,
+      "vph": 1046.6,
       "id": "Ny9MwC8V7hc"
+     },
+     {
+      "title": "Marine Biologist Reacts to WHALEFALL | Can a Whale Swallow a Human?",
+      "channel": "KPassionate",
+      "views": 1069267,
+      "age_days": 56.8,
+      "vph": 784.1,
+      "id": "ZMXuzoMTx4s"
      }
     ]
    }
@@ -17770,6 +17760,1693 @@
       "age_days": 21.3,
       "vph": 0.3,
       "id": "zgUHOrPpA5U"
+     }
+    ]
+   }
+  }
+ },
+ "cuvier's beaked whale": {
+  "at": "2026-11-22T14:05:33.215610+00:00",
+  "data": {
+   "demand": {
+    "score": 2,
+    "suggestions": [
+     "cuvier's beaked whale",
+     "cuvier's beaked whale documentary",
+     "cuvier's beaked whale dive"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 3,
+    "channels": [
+     "KPassionate",
+     "Tillow",
+     "Uncharted Depths"
+    ],
+    "vph_median": 44.7,
+    "vph_best": 1199.1,
+    "top": [
+     {
+      "title": "These Whales Exist... They've Never Been Seen Alive",
+      "channel": "KPassionate",
+      "views": 830651,
+      "age_days": 28.9,
+      "vph": 1199.1,
+      "id": "SJStoGtSfJE"
+     },
+     {
+      "title": "Every BIZZARE Whale Species Explained",
+      "channel": "Tillow",
+      "views": 246608,
+      "age_days": 41.6,
+      "vph": 246.7,
+      "id": "pN_vt-1DXVo"
+     },
+     {
+      "title": "Can Sperm Whales Reach The Mariana Trench?",
+      "channel": "Uncharted Depths",
+      "views": 235496,
+      "age_days": 78.8,
+      "vph": 124.5,
+      "id": "wAJN_JoyfhI"
+     },
+     {
+      "title": "All 12 Types of Whale Explained in 8 Minutes!",
+      "channel": "Xplain WILD",
+      "views": 60752,
+      "age_days": 56.7,
+      "vph": 44.7,
+      "id": "ICMGgvColcc"
+     },
+     {
+      "title": "The Real Reason Megalodon May Have Never Left the Deep And Where It Hides | Real Megalodon Encounter",
+      "channel": "Maritime Incident Files ",
+      "views": 38593,
+      "age_days": 58.7,
+      "vph": 27.4,
+      "id": "LEJtFB4bcrA"
+     }
+    ]
+   }
+  }
+ },
+ "why the beaked whale dives deeper than any mammal": {
+  "at": "2026-11-22T14:05:33.215610+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 2,
+    "channels": [
+     "KPassionate",
+     "Uncharted Depths"
+    ],
+    "vph_median": 5.5,
+    "vph_best": 1199.1,
+    "top": [
+     {
+      "title": "These Whales Exist... They've Never Been Seen Alive",
+      "channel": "KPassionate",
+      "views": 830651,
+      "age_days": 28.9,
+      "vph": 1199.1,
+      "id": "SJStoGtSfJE"
+     },
+     {
+      "title": "Can Sperm Whales Reach The Mariana Trench?",
+      "channel": "Uncharted Depths",
+      "views": 235496,
+      "age_days": 78.8,
+      "vph": 124.5,
+      "id": "wAJN_JoyfhI"
+     },
+     {
+      "title": "The Real Reason Megalodon May Have Never Left the Deep And Where It Hides | Real Megalodon Encounter",
+      "channel": "Maritime Incident Files ",
+      "views": 38593,
+      "age_days": 58.7,
+      "vph": 27.4,
+      "id": "LEJtFB4bcrA"
+     },
+     {
+      "title": "A Deep-Sea Camera Filmed a Beaked Whale Fleeing Something Even Deeper — 9,000 Feet Down",
+      "channel": "The Sealed Record",
+      "views": 12455,
+      "age_days": 49.0,
+      "vph": 10.6,
+      "id": "qp7eJ-CUHvI"
+     },
+     {
+      "title": "How Deep Can a Sperm Whale Dive?",
+      "channel": "OceanExplains",
+      "views": 791,
+      "age_days": 62.9,
+      "vph": 0.5,
+      "id": "DEkoRmzX1fw"
+     }
+    ]
+   }
+  }
+ },
+ "sperm whale orca attack": {
+  "at": "2026-11-22T14:05:33.215610+00:00",
+  "data": {
+   "demand": {
+    "score": 1,
+    "suggestions": [
+     "sperm whale attacks orca",
+     "sperm whale attack orca"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 8,
+    "channels": [
+     "ApexMorph",
+     "BeyondTheBlue",
+     "Depth Theory",
+     "JoBlo Movie Clips",
+     "KPassionate",
+     "LAREX",
+     "OctoLab",
+     "Squidium"
+    ],
+    "vph_median": 587.8,
+    "vph_best": 15194.0,
+    "top": [
+     {
+      "title": "Why You'd Never Want To Meet A Sperm Whale",
+      "channel": "Depth Theory",
+      "views": 9474784,
+      "age_days": 26.0,
+      "vph": 15194.0,
+      "id": "fGcgWaswMns"
+     },
+     {
+      "title": "Чому найдивніша істота океану не хоче нас вбивати?",
+      "channel": "LAREX",
+      "views": 445885,
+      "age_days": 2.0,
+      "vph": 9129.3,
+      "id": "hA4nvShUiYU"
+     },
+     {
+      "title": "The Only Animals That Make Orcas Run Away",
+      "channel": "ApexMorph",
+      "views": 4051118,
+      "age_days": 27.2,
+      "vph": 6204.7,
+      "id": "Tm8PtCTt2j8"
+     },
+     {
+      "title": "Why Orcas Are Terrified Of Humpback whales",
+      "channel": "ApexMorph",
+      "views": 3149695,
+      "age_days": 25.4,
+      "vph": 5175.4,
+      "id": "foi5WtXV7E0"
+     },
+     {
+      "title": "The Only 3 Animals That Make Orcas Run Away",
+      "channel": "BeyondTheBlue",
+      "views": 1395867,
+      "age_days": 16.0,
+      "vph": 3624.8,
+      "id": "OMcUjiSiDJs"
+     }
+    ]
+   }
+  }
+ },
+ "why sperm whales form a circle when orcas attack": {
+  "at": "2026-11-22T14:05:33.215610+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 1,
+    "channels": [
+     "ApexMorph"
+    ],
+    "vph_median": 1.6,
+    "vph_best": 6204.7,
+    "top": [
+     {
+      "title": "The Only Animals That Make Orcas Run Away",
+      "channel": "ApexMorph",
+      "views": 4051118,
+      "age_days": 27.2,
+      "vph": 6204.7,
+      "id": "Tm8PtCTt2j8"
+     },
+     {
+      "title": "The Only Animals Orcas Dare Not Challenge — Even the Ocean's Deadliest Hunters Run Away",
+      "channel": "Animal Frontier",
+      "views": 83519,
+      "age_days": 5.9,
+      "vph": 587.8,
+      "id": "-9AdRvzOreU"
+     },
+     {
+      "title": "Sperm Whale VS Orca Fight: The Killer Whale’s Worst Nightmare!",
+      "channel": "Blondi Foks",
+      "views": 7825,
+      "age_days": 7.9,
+      "vph": 41.1,
+      "id": "qU0bSdEjTks"
+     },
+     {
+      "title": "Why Sperm Whales Are The Most Impossible Creatures In The Deep Sea",
+      "channel": "AbyssLab",
+      "views": 414,
+      "age_days": 5.6,
+      "vph": 3.1,
+      "id": "MMg7BKfgWEY"
+     },
+     {
+      "title": "Even Orcas Are Scared of These 3 Animals",
+      "channel": "Primalverse",
+      "views": 865,
+      "age_days": 14.7,
+      "vph": 2.5,
+      "id": "gSqu0o6IVUg"
+     }
+    ]
+   }
+  }
+ },
+ "fastest animals": {
+  "at": "2026-11-22T14:05:33.215610+00:00",
+  "data": {
+   "demand": {
+    "score": 10,
+    "suggestions": [
+     "fastest animals",
+     "fastest animals in the world",
+     "fastest animals edit",
+     "fastest animals comparison",
+     "fastest animals documentary",
+     "fastest animals in the world edit",
+     "fastest animals race",
+     "fastest animals in the ocean",
+     "fastest animals alive",
+     "fastest animals on the planet",
+     "fastest animals ever",
+     "fastest animals on land"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 4,
+    "channels": [
+     "Fun Learning With Anna (Official Channel)",
+     "Liza Study Class Hindi ",
+     "MoreBeckBros",
+     "Nooblox "
+    ],
+    "vph_median": 180.4,
+    "vph_best": 213.4,
+    "top": [
+     {
+      "title": "Top 10 Fastest Animals on Earth! 🌎  Amazing Animals for Kids",
+      "channel": "Fun Learning With Anna (Official Channel)",
+      "views": 414659,
+      "age_days": 81.0,
+      "vph": 213.4,
+      "id": "tbBgWu3fR84"
+     },
+     {
+      "title": "Racing Fastest Animals For Eggs in Roblox 🥚!!",
+      "channel": "Nooblox ",
+      "views": 265697,
+      "age_days": 58.2,
+      "vph": 190.2,
+      "id": "y77LFp5Uxp0"
+     },
+     {
+      "title": "Who Is the FASTEST Cartoon Character?",
+      "channel": "MoreBeckBros",
+      "views": 312989,
+      "age_days": 76.4,
+      "vph": 170.6,
+      "id": "WO9NvlRrK_Y"
+     },
+     {
+      "title": "20 Fast Animals Names in Hindi and English for Kids | Learn Fast Animals Names with Pictures 🐆🦅🐎",
+      "channel": "Liza Study Class Hindi ",
+      "views": 173595,
+      "age_days": 87.4,
+      "vph": 82.7,
+      "id": "LtulX4efDUE"
+     }
+    ]
+   }
+  }
+ },
+ "every fastest kill in nature": {
+  "at": "2026-11-22T14:05:33.215610+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 0,
+    "channels": [],
+    "vph_median": 0.1,
+    "vph_best": 39.8,
+    "top": [
+     {
+      "title": "What Would Kill You First on Every Planet",
+      "channel": "Mildly Doomed",
+      "views": 47663,
+      "age_days": 49.9,
+      "vph": 39.8,
+      "id": "6lLjb_t9G1k"
+     },
+     {
+      "title": "How Fast Every Prehistoric Era Would Kill You (No Gear)",
+      "channel": "Vanished Earth",
+      "views": 136,
+      "age_days": 3.8,
+      "vph": 1.5,
+      "id": "gs_g6H5pRB4"
+     },
+     {
+      "title": "Every Era of Earth Ranked by How Fast It Would Kill You",
+      "channel": "KQUUBI",
+      "views": 183,
+      "age_days": 14.2,
+      "vph": 0.5,
+      "id": "ewIWP7Xu3_I"
+     },
+     {
+      "title": "Why Don't Every Bite Can Kill ?",
+      "channel": "Forbidden Plate",
+      "views": 275,
+      "age_days": 65.1,
+      "vph": 0.2,
+      "id": "NGfktcsTQog"
+     },
+     {
+      "title": "5 Places. No Weapons. How Fast Can Nature Kill You?",
+      "channel": "TheBiggestThings",
+      "views": 43,
+      "age_days": 47.0,
+      "vph": 0.0,
+      "id": "Ich8EhbcFBQ"
+     }
+    ]
+   }
+  }
+ },
+ "impossible parasites": {
+  "at": "2026-11-22T14:05:33.215610+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 2,
+    "channels": [
+     "Bacterium",
+     "sheptismilk"
+    ],
+    "vph_median": 0.6,
+    "vph_best": 403.9,
+    "top": [
+     {
+      "title": "How I Beat RLCraft's HARDEST Challenge",
+      "channel": "sheptismilk",
+      "views": 859748,
+      "age_days": 88.7,
+      "vph": 403.9,
+      "id": "Xv_9klg2I8Y"
+     },
+     {
+      "title": "Every IMPOSSIBLE Parasite That Actually Exists PART 2",
+      "channel": "Bacterium",
+      "views": 41236,
+      "age_days": 8.1,
+      "vph": 212.5,
+      "id": "QAbacrrb_dI"
+     },
+     {
+      "title": "Every IMPOSSIBLE Parasite That Actually Exists",
+      "channel": "Bacterium",
+      "views": 407791,
+      "age_days": 85.6,
+      "vph": 198.4,
+      "id": "2Zu6Q_GBvDg"
+     },
+     {
+      "title": "Cada Parasita que Parece IMPOSSÍVEL Existir Explicado PARTE 2",
+      "channel": "Bacterium",
+      "views": 23500,
+      "age_days": 36.8,
+      "vph": 26.6,
+      "id": "i9odf6jFWiE"
+     },
+     {
+      "title": "6 Parasites That Can HIJACK Their Host’s Body",
+      "channel": "The Unseen Why",
+      "views": 1340,
+      "age_days": 79.2,
+      "vph": 0.7,
+      "id": "e8RntvFRK6c"
+     }
+    ]
+   }
+  }
+ },
+ "the parasites that shouldn't exist": {
+  "at": "2026-11-22T14:05:33.215610+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 1,
+    "channels": [
+     "Bacterium"
+    ],
+    "vph_median": 1.1,
+    "vph_best": 198.4,
+    "top": [
+     {
+      "title": "Every IMPOSSIBLE Parasite That Actually Exists",
+      "channel": "Bacterium",
+      "views": 407791,
+      "age_days": 85.6,
+      "vph": 198.4,
+      "id": "2Zu6Q_GBvDg"
+     },
+     {
+      "title": "Flesh-Eating Parasite America Eradicated Is Back — And It's Already Spreading",
+      "channel": "Big Sky Wild",
+      "views": 761,
+      "age_days": 28.9,
+      "vph": 1.1,
+      "id": "DI3r2GIXh4E"
+     },
+     {
+      "title": "10 Ice Age Diseases Found Frozen In America That Shouldn't Still Exist",
+      "channel": " Prehistoric Max",
+      "views": 23,
+      "age_days": 51.9,
+      "vph": 0.0,
+      "id": "3-WovLORUUQ"
+     }
+    ]
+   }
+  }
+ },
+ "siberian tiger bear": {
+  "at": "2026-11-22T14:05:33.215610+00:00",
+  "data": {
+   "demand": {
+    "score": 5,
+    "suggestions": [
+     "siberian tiger bear",
+     "siberian tiger bear fight",
+     "siberian tiger vs bear",
+     "siberian tiger attack bear",
+     "siberian tiger vs bear fight",
+     "siberian tiger polar bear",
+     "siberian tiger vs polar bear",
+     "siberian tiger hunting brown bear"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 4,
+    "channels": [
+     "Apex Predator Dominion",
+     "Ranveer Allahbadia",
+     "Wilder America",
+     "Дикая Планета"
+    ],
+    "vph_median": 297.1,
+    "vph_best": 356.0,
+    "top": [
+     {
+      "title": "SIBERIAN TIGERS Hunt the One Animal That Should Kill Them | Wildlife Documentary",
+      "channel": "Apex Predator Dominion",
+      "views": 196108,
+      "age_days": 23.0,
+      "vph": 356.0,
+      "id": "3-d0C985r3g"
+     },
+     {
+      "title": "АМУРСКИЙ ТИГР — единственная кошка, убивающая бурого медведя одним укусом в позвоночник",
+      "channel": "Дикая Планета",
+      "views": 360446,
+      "age_days": 46.0,
+      "vph": 326.8,
+      "id": "4WP17dREqJk"
+     },
+     {
+      "title": "Tigers Keep Being Reported Across Alaska — And No One Can Explain Why",
+      "channel": "Wilder America",
+      "views": 390063,
+      "age_days": 60.8,
+      "vph": 267.4,
+      "id": "Dgc8knVyJHc"
+     },
+     {
+      "title": "Real Life Mowgli On TRS - Living with Tigers, Jungle Stories & Animal Encounters | Hans Dalal",
+      "channel": "Ranveer Allahbadia",
+      "views": 507993,
+      "age_days": 85.1,
+      "vph": 248.8,
+      "id": "GWQBj_tmOm8"
+     }
+    ]
+   }
+  }
+ },
+ "why the siberian tiger hunts bears": {
+  "at": "2026-11-22T14:05:33.215610+00:00",
+  "data": {
+   "demand": {
+    "score": 1,
+    "suggestions": [
+     "siberian tiger hunts bears"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 2,
+    "channels": [
+     "Apex Predator Dominion",
+     "Instinct — Animal Fights"
+    ],
+    "vph_median": 48.0,
+    "vph_best": 356.0,
+    "top": [
+     {
+      "title": "SIBERIAN TIGERS Hunt the One Animal That Should Kill Them | Wildlife Documentary",
+      "channel": "Apex Predator Dominion",
+      "views": 196108,
+      "age_days": 23.0,
+      "vph": 356.0,
+      "id": "3-d0C985r3g"
+     },
+     {
+      "title": "BRUTAL SIBERIA | The Enemy Even the Tiger Cannot Defeat | Nature Animal Documentary",
+      "channel": "Discover Wildlife",
+      "views": 21659,
+      "age_days": 7.2,
+      "vph": 125.1,
+      "id": "MF6E46MnjnU"
+     },
+     {
+      "title": "How Deadly Is the Siberian Tiger Really? The Truth Will Surprise You",
+      "channel": "Deep Wild World",
+      "views": 46585,
+      "age_days": 17.0,
+      "vph": 114.0,
+      "id": "eVj-tig5g2c"
+     },
+     {
+      "title": "The Deadliest Moments Of Tigers Hunting Prey Ever Recorded | Wild Animals",
+      "channel": "Instinct — Animal Fights",
+      "views": 151851,
+      "age_days": 63.1,
+      "vph": 100.2,
+      "id": "VXNqRRxKZXY"
+     },
+     {
+      "title": "Why Siberian Tigers Hunt Brown Bears",
+      "channel": "Deep Wild World",
+      "views": 46780,
+      "age_days": 34.9,
+      "vph": 55.9,
+      "id": "8lxRIEcrr1U"
+     }
+    ]
+   }
+  }
+ },
+ "animals that freeze solid": {
+  "at": "2026-11-22T14:05:33.215610+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 0,
+    "channels": [],
+    "vph_median": 0,
+    "vph_best": 0,
+    "top": []
+   }
+  }
+ },
+ "animals that survive being frozen solid": {
+  "at": "2026-11-22T14:05:33.215610+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 0,
+    "channels": [],
+    "vph_median": 21.4,
+    "vph_best": 21.4,
+    "top": [
+     {
+      "title": "Why Scientists Can't Kill This Microscopic Animal",
+      "channel": "Beyond the Limit",
+      "views": 1528,
+      "age_days": 3.0,
+      "vph": 21.4,
+      "id": "hCWybKWmOAA"
+     }
+    ]
+   }
+  }
+ },
+ "deepest diving animals": {
+  "at": "2026-11-22T14:05:51.131780+00:00",
+  "data": {
+   "demand": {
+    "score": 1,
+    "suggestions": [
+     "deepest diving animals"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 4,
+    "channels": [
+     "Dryfly Outdoors",
+     "Escalate Patrol",
+     "National Geographic",
+     "Uncharted Depths"
+    ],
+    "vph_median": 124.5,
+    "vph_best": 1424.2,
+    "top": [
+     {
+      "title": "Diving Into Deep Sea Mysteries | MEGA EPISODE | National Geographic",
+      "channel": "National Geographic",
+      "views": 307768,
+      "age_days": 9.0,
+      "vph": 1424.2,
+      "id": "QYQAxdlYJFI"
+     },
+     {
+      "title": "Do Giant Fish Actually Live in Deep Water?",
+      "channel": "Dryfly Outdoors",
+      "views": 1744737,
+      "age_days": 78.0,
+      "vph": 932.0,
+      "id": "L4z3JX1uezA"
+     },
+     {
+      "title": "🔴LIVE  Deep diving sea animals 🐙🌊",
+      "channel": "Escalate Patrol",
+      "views": 109921,
+      "age_days": 35.8,
+      "vph": 127.9,
+      "id": "R6g_bQbuFv8"
+     },
+     {
+      "title": "Can Sperm Whales Reach The Mariana Trench?",
+      "channel": "Uncharted Depths",
+      "views": 235496,
+      "age_days": 78.8,
+      "vph": 124.5,
+      "id": "wAJN_JoyfhI"
+     },
+     {
+      "title": "🔴LIVE  Deep diving seafoods animals 🦐",
+      "channel": "Escalate Patrol",
+      "views": 80339,
+      "age_days": 38.0,
+      "vph": 88.0,
+      "id": "0yjaxL527Nw"
+     }
+    ]
+   }
+  }
+ },
+ "every animal by how deep it can dive": {
+  "at": "2026-11-22T14:05:51.131780+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 3,
+    "channels": [
+     "Dhruv Rathee",
+     "National Geographic",
+     "Nick Kratka"
+    ],
+    "vph_median": 4486.4,
+    "vph_best": 18326.7,
+    "top": [
+     {
+      "title": "I Caught Every Exotic Ocean Animal!",
+      "channel": "Nick Kratka",
+      "views": 25054387,
+      "age_days": 57.0,
+      "vph": 18326.7,
+      "id": "4TcKGZeg9AI"
+     },
+     {
+      "title": "Deep Sea Mysteries That Science Can't Explain! | Dhruv Rathee",
+      "channel": "Dhruv Rathee",
+      "views": 19303956,
+      "age_days": 65.1,
+      "vph": 12363.3,
+      "id": "q678XLOueN8"
+     },
+     {
+      "title": "I Caught The 0.1% Rarest Ocean Animals!",
+      "channel": "Nick Kratka",
+      "views": 1623704,
+      "age_days": 9.0,
+      "vph": 7548.7,
+      "id": "3DaPs7fdwFA"
+     },
+     {
+      "title": "Diving Into Deep Sea Mysteries | MEGA EPISODE | National Geographic",
+      "channel": "National Geographic",
+      "views": 307768,
+      "age_days": 9.0,
+      "vph": 1424.2,
+      "id": "QYQAxdlYJFI"
+     },
+     {
+      "title": "How Deep Does the Ocean Go One Dive to the Mariana Trench 4K, 100% Code",
+      "channel": "100% Code",
+      "views": 657,
+      "age_days": 47.5,
+      "vph": 0.6,
+      "id": "UFfj97MxZo8"
+     }
+    ]
+   }
+  }
+ },
+ "king cobra": {
+  "at": "2026-11-22T14:05:51.131780+00:00",
+  "data": {
+   "demand": {
+    "score": 9,
+    "suggestions": [
+     "king cobra",
+     "king cobra jfs",
+     "king cobra growl",
+     "king cobra snake",
+     "king cobra bite",
+     "king cobra vs black mamba",
+     "king cobra vs python",
+     "king cobra kings island",
+     "king cobra documentary",
+     "king cobra firework",
+     "king cobra attack",
+     "every king cobra in cobra kai"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 3,
+    "channels": [
+     "MithunBhaiii",
+     "Snake Trapped",
+     "world snake USA"
+    ],
+    "vph_median": 21587.6,
+    "vph_best": 23016.6,
+    "top": [
+     {
+      "title": "King cobra  Live",
+      "channel": "Snake Trapped",
+      "views": 6782697,
+      "age_days": 12.3,
+      "vph": 23016.6,
+      "id": "vdB9ag1OENw"
+     },
+     {
+      "title": "king Cobra live in punjab",
+      "channel": "world snake USA",
+      "views": 8011531,
+      "age_days": 15.5,
+      "vph": 21587.6,
+      "id": "feB6zTKf68U"
+     },
+     {
+      "title": "**HONEY BADGER VS KING COBRA**#shorts",
+      "channel": "MithunBhaiii",
+      "views": 4310334,
+      "age_days": 27.4,
+      "vph": 6547.6,
+      "id": "MCKXv6-tDT4"
+     }
+    ]
+   }
+  }
+ },
+ "why the king cobra eats other snakes": {
+  "at": "2026-11-22T14:05:51.131780+00:00",
+  "data": {
+   "demand": {
+    "score": 1,
+    "suggestions": [
+     "why king cobra eats other snakes"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 2,
+    "channels": [
+     "Animals Create",
+     "Дикая Планета"
+    ],
+    "vph_median": 194.3,
+    "vph_best": 642.6,
+    "top": [
+     {
+      "title": "Почему Королевская Кобра — Главный Враг Всех Змей",
+      "channel": "Дикая Планета",
+      "views": 117659,
+      "age_days": 7.6,
+      "vph": 642.6,
+      "id": "Kko00bIqKg8"
+     },
+     {
+      "title": "Ular Raja Makannya Ular Derik Berbisa",
+      "channel": "Animals Create",
+      "views": 101288,
+      "age_days": 14.1,
+      "vph": 298.8,
+      "id": "BuNgyDXhj4U"
+     },
+     {
+      "title": "King Cobra Eats Python! ",
+      "channel": "Chandler's Wild Life",
+      "views": 97846,
+      "age_days": 21.0,
+      "vph": 194.3,
+      "id": "5UDd1J3tobw"
+     },
+     {
+      "title": "Most Awesome Godzilla vs Titanoboa and Other Snake Battles by Dazzling Divine",
+      "channel": "Dazzling Divine Cinema",
+      "views": 94911,
+      "age_days": 75.2,
+      "vph": 52.6,
+      "id": "_AISk9vcZKw"
+     },
+     {
+      "title": "Indian King Cobra: The Snake That Eats Snakes",
+      "channel": "Apex Earth",
+      "views": 257,
+      "age_days": 61.8,
+      "vph": 0.2,
+      "id": "cU4Jajehi5k"
+     }
+    ]
+   }
+  }
+ },
+ "male lion takeover": {
+  "at": "2026-11-22T14:05:51.131780+00:00",
+  "data": {
+   "demand": {
+    "score": 1,
+    "suggestions": [
+     "male lion takeover",
+     "male lion pride takeover"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 1,
+    "channels": [
+     "4K Nature Discover"
+    ],
+    "vph_median": 18.0,
+    "vph_best": 447.9,
+    "top": [
+     {
+      "title": "The Old Lion Who Refused to Give Up His Kingdom | Wildlife Documentary",
+      "channel": "4K Nature Discover",
+      "views": 795020,
+      "age_days": 74.0,
+      "vph": 447.9,
+      "id": "0I7ExYxjWP0"
+     },
+     {
+      "title": "When New Males Invade a Lion Pride | Extreme Earth",
+      "channel": "Extreme Earth",
+      "views": 54223,
+      "age_days": 75.9,
+      "vph": 29.8,
+      "id": "Sb8D2g30pRA"
+     },
+     {
+      "title": "This Lion Pride Is Running Out of Safe Ground | Wildlife Documentary",
+      "channel": "4K Nature Discover",
+      "views": 27187,
+      "age_days": 50.0,
+      "vph": 22.7,
+      "id": "lYLktsgMQu0"
+     },
+     {
+      "title": "The Most DANGEROUS Lion Brothers Ever Recorded in Africa | Full Wild Documentary",
+      "channel": "Wild Dominion",
+      "views": 16858,
+      "age_days": 39.0,
+      "vph": 18.0,
+      "id": "oTU98uxpiKo"
+     },
+     {
+      "title": "4 Sư Tử Đực Đoạt Ngôi Vương : Kẻ Đi Săn Trở Thành Con Mồi & Cái Kết Đẫm Máu?",
+      "channel": "Bình Phong TV",
+      "views": 2043,
+      "age_days": 12.6,
+      "vph": 6.8,
+      "id": "LXpLcNcii7Q"
+     }
+    ]
+   }
+  }
+ },
+ "why a new male lion kills every cub": {
+  "at": "2026-11-22T14:05:51.131780+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 1,
+    "channels": [
+     "WILD NATURE - Nature animal documentary"
+    ],
+    "vph_median": 0.6,
+    "vph_best": 473.9,
+    "top": [
+     {
+      "title": "African Lion | Ultimate Predators Survive In Animal Kingdom | FULL EPISODE | Wildlife Documentary",
+      "channel": "WILD NATURE - Nature animal documentary",
+      "views": 184391,
+      "age_days": 16.2,
+      "vph": 473.9,
+      "id": "ryDbVuJIuio"
+     },
+     {
+      "title": "Crocodile Attacks a Male Lion (Full Episode) | Wildlife Documentary",
+      "channel": "WILD NATURE - Nature animal documentary",
+      "views": 106928,
+      "age_days": 85.2,
+      "vph": 52.3,
+      "id": "XeggJSeQZGs"
+     },
+     {
+      "title": "One Father Lion vs Three Invaders and the Deadliest Season of His Life  Full HD | Wild Mothers 4K",
+      "channel": "Wild Mothers 4K",
+      "views": 1617,
+      "age_days": 45.1,
+      "vph": 1.5,
+      "id": "6psUVtJlPmo"
+     },
+     {
+      "title": "What a Father Lion Really Does for His Pride | Full HD 4K Wild mothers",
+      "channel": "Wild Mothers 4K",
+      "views": 586,
+      "age_days": 33.9,
+      "vph": 0.7,
+      "id": "L3E2AADxM6Y"
+     },
+     {
+      "title": "WHY DO LIONS SOMETIMES KILL THEIR OWN CUBS?",
+      "channel": "Wildlife (Animal chronicle)",
+      "views": 1271,
+      "age_days": 84.8,
+      "vph": 0.6,
+      "id": "vi0ETjFKvgs"
+     }
+    ]
+   }
+  }
+ },
+ "pistol shrimp": {
+  "at": "2026-11-22T14:05:51.131780+00:00",
+  "data": {
+   "demand": {
+    "score": 7,
+    "suggestions": [
+     "pistol shrimp",
+     "pistol shrimp vs mantis shrimp",
+     "pistol shrimp sound",
+     "pistol shrimp snap",
+     "pistol shrimp vs crab",
+     "pistol shrimp punch",
+     "pistol shrimp and goby fish",
+     "pistol shrimp and goby",
+     "pistol shrimp shooting",
+     "pistol shrimp hunting",
+     "pistol shrimp kill fish"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 0,
+    "channels": [],
+    "vph_median": 421.2,
+    "vph_best": 619.4,
+    "top": [
+     {
+      "title": "10 Animals With Weapons Built Into Their Bodies (#1 Is as Hot as the Sun)",
+      "channel": "VENÔMICO",
+      "views": 66689,
+      "age_days": 4.5,
+      "vph": 619.4,
+      "id": "n0puud6SE5Q"
+     },
+     {
+      "title": "Tôm Gõ Mõ & Cá Bống: Tôi Đào Nhà, Anh Canh Cửa | Pistol Shrimp & Goby",
+      "channel": "Vũ Trụ Muôn Loài | Animal World",
+      "views": 54231,
+      "age_days": 10.1,
+      "vph": 223.0,
+      "id": "cWOHxlOzXvU"
+     }
+    ]
+   }
+  }
+ },
+ "why the pistol shrimp is louder than a gunshot": {
+  "at": "2026-11-22T14:05:51.131780+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 0,
+    "channels": [],
+    "vph_median": 1.7,
+    "vph_best": 1.7,
+    "top": [
+     {
+      "title": "The Tiny Animal Louder Than a Gunshot | Pistol Shrimp | English Documentary",
+      "channel": "DiscoverMore",
+      "views": 189,
+      "age_days": 4.7,
+      "vph": 1.7,
+      "id": "AUwJsCUfJfY"
+     }
+    ]
+   }
+  }
+ },
+ "bullet ant": {
+  "at": "2026-11-22T14:05:51.131780+00:00",
+  "data": {
+   "demand": {
+    "score": 9,
+    "suggestions": [
+     "bullet ant",
+     "bullet ant sting",
+     "bullet ant glove",
+     "bullet ant coyote peterson",
+     "bullet ant ritual",
+     "bullet ant glove ritual",
+     "bullet ants vs fire ants",
+     "bullet ant colony",
+     "bullet ant vs spider",
+     "bullet antenna install",
+     "bullet ant challenge",
+     "bullet ant box"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 7,
+    "channels": [
+     "Ants Anatomy",
+     "Brave Wilderness",
+     "MDQ Para Todo el Mundo",
+     "Peekaboo Kidz",
+     "SeaDa Toys",
+     "Wild Front",
+     "sacredstuff"
+    ],
+    "vph_median": 1848.4,
+    "vph_best": 5984.1,
+    "top": [
+     {
+      "title": "50,000 Bullet Ants Vs Golden Retriever, Rhino, Goat #live",
+      "channel": "SeaDa Toys",
+      "views": 2946230,
+      "age_days": 20.5,
+      "vph": 5984.1,
+      "id": "g0OyZS5DLvA"
+     },
+     {
+      "title": "500,000 Bullet Ants vs Golden Retriever, Donkey, Kangaroo #live #livestream",
+      "channel": "SeaDa Toys",
+      "views": 2601795,
+      "age_days": 18.5,
+      "vph": 5855.7,
+      "id": "i10rAhN9uR4"
+     },
+     {
+      "title": "1000 Red Ants vs 1000 Black Ants",
+      "channel": "Wild Front",
+      "views": 5234978,
+      "age_days": 48.9,
+      "vph": 4463.1,
+      "id": "Us0h-qt_L2Y"
+     },
+     {
+      "title": "500,000 Bullet Ants vs Golden Retriever, Donkey, Kangaroo #live",
+      "channel": "SeaDa Toys",
+      "views": 1673556,
+      "age_days": 19.5,
+      "vph": 3581.6,
+      "id": "ON_jsFdZxxQ"
+     },
+     {
+      "title": "50,000 Bullet Ants Vs Golden Retriever, King Crab, Ibex, Kangaroo",
+      "channel": "SeaDa Toys",
+      "views": 1254769,
+      "age_days": 22.1,
+      "vph": 2363.6,
+      "id": "CcL4jPwqbM8"
+     }
+    ]
+   }
+  }
+ },
+ "why a bullet ant sting hurts for 24 hours": {
+  "at": "2026-11-22T14:05:51.131780+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 0,
+    "channels": [],
+    "vph_median": 0.0,
+    "vph_best": 0.0,
+    "top": [
+     {
+      "title": "This Ant’s Sting Hurts for 24 Hours Straight",
+      "channel": "Wild Wired",
+      "views": 29,
+      "age_days": 43.6,
+      "vph": 0.0,
+      "id": "MGBCqrYQtDk"
+     }
+    ]
+   }
+  }
+ },
+ "tiger": {
+  "at": "2026-11-22T14:05:51.131780+00:00",
+  "data": {
+   "demand": {
+    "score": 10,
+    "suggestions": [
+     "tiger",
+     "tiger woods",
+     "tiger roar",
+     "tiger attack",
+     "tiger sounds",
+     "tigers highlights",
+     "tiger king",
+     "tiger shroff",
+     "tiger woods highlights",
+     "tiger shark",
+     "tiger army",
+     "tiger shroff attack"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 6,
+    "channels": [
+     "Anirudh Ravichander - Topic",
+     "Blue Paw Print",
+     "Restl",
+     "Secret Stories of Love",
+     "Sun TV",
+     "Ultra Filmy"
+    ],
+    "vph_median": 11637.9,
+    "vph_best": 20795.5,
+    "top": [
+     {
+      "title": "ПРОКАЧАЛ СОНИКА В ТИГРА в ГТА 5 ОНЛАЙН (GTA 5 ONLINE)",
+      "channel": "Restl",
+      "views": 11626731,
+      "age_days": 23.3,
+      "vph": 20795.5,
+      "id": "NVdIb9Dhdxo"
+     },
+     {
+      "title": "Tiger Muthuvel Pandian - Theme | Jailer 2 | Superstar Rajinikanth | Sun Pictures | Nelson | Anirudh",
+      "channel": "Sun TV",
+      "views": 12932363,
+      "age_days": 33.0,
+      "vph": 16337.2,
+      "id": "k1OU4CqguLw"
+     },
+     {
+      "title": "Mahesh Babu's New Blockbuster Movie: The Real Tiger 2 | Kajal Aggarwal, Samantha Prabhu | Full Movie",
+      "channel": "Ultra Filmy",
+      "views": 8555652,
+      "age_days": 29.3,
+      "vph": 12177.2,
+      "id": "7rg1Xhk3Cys"
+     },
+     {
+      "title": "My Rich Family Thought I Brought Home a Cute Pet! Then They Saw My Giant Tiger Walk In!",
+      "channel": "Secret Stories of Love",
+      "views": 7536996,
+      "age_days": 28.3,
+      "vph": 11098.6,
+      "id": "AmrkVLjrqPA"
+     },
+     {
+      "title": "Tiger Muthuvel Pandian (From \"Jailer 2\")",
+      "channel": "Anirudh Ravichander - Topic",
+      "views": 5808232,
+      "age_days": 33.1,
+      "vph": 7300.5,
+      "id": "JFa201BcJvU"
+     }
+    ]
+   }
+  }
+ },
+ "why tigers are the deadliest big cat": {
+  "at": "2026-11-22T14:05:51.131780+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 2,
+    "channels": [
+     "Deep Wild World",
+     "SupremeSpecies"
+    ],
+    "vph_median": 47.8,
+    "vph_best": 645.1,
+    "top": [
+     {
+      "title": "Tigers Are Impossibly Strong... Here’s Why",
+      "channel": "SupremeSpecies",
+      "views": 538900,
+      "age_days": 34.8,
+      "vph": 645.1,
+      "id": "s8F9_-GN8bE"
+     },
+     {
+      "title": "How Deadly Is the Siberian Tiger Really? The Truth Will Surprise You",
+      "channel": "Deep Wild World",
+      "views": 46585,
+      "age_days": 17.0,
+      "vph": 114.0,
+      "id": "eVj-tig5g2c"
+     },
+     {
+      "title": "Why the Siberian Tiger Is the Deadliest Apex Predator in the World",
+      "channel": "Deep Wild World",
+      "views": 134379,
+      "age_days": 84.1,
+      "vph": 66.6,
+      "id": "3mq60b5xa6o"
+     },
+     {
+      "title": "Most Dangerous Big Cats in the World 😨Cat Family के 7 सबसे खतरनाक शिकारी ",
+      "channel": "Fact Telivision",
+      "views": 31255,
+      "age_days": 45.1,
+      "vph": 28.9,
+      "id": "NzVmQaYWFTU"
+     },
+     {
+      "title": "Why Siberian Tigers Are the Deadliest Animals Alive",
+      "channel": "Deep Wild World",
+      "views": 24681,
+      "age_days": 47.9,
+      "vph": 21.5,
+      "id": "k6-Ohw8GP3c"
+     }
+    ]
+   }
+  }
+ },
+ "why you'd never want to meet a sperm whale": {
+  "at": "2026-11-22T14:06:27.752125+00:00",
+  "data": {
+   "demand": {
+    "score": 1,
+    "suggestions": [
+     "why you'd never want to meet a sperm whale"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 2,
+    "channels": [
+     "Depth Theory",
+     "More Wild"
+    ],
+    "vph_median": 54.0,
+    "vph_best": 15193.7,
+    "top": [
+     {
+      "title": "Why You'd Never Want To Meet A Sperm Whale",
+      "channel": "Depth Theory",
+      "views": 9474784,
+      "age_days": 26.0,
+      "vph": 15193.7,
+      "id": "fGcgWaswMns"
+     },
+     {
+      "title": "Why You'd Never Want To Meet Livyatan",
+      "channel": "Depth Theory",
+      "views": 258798,
+      "age_days": 4.6,
+      "vph": 2327.2,
+      "id": "lQq5bcvZSzE"
+     },
+     {
+      "title": "Why You Never Want to Meet a Colossal Squid",
+      "channel": "Depth Theory",
+      "views": 833451,
+      "age_days": 27.2,
+      "vph": 1278.1,
+      "id": "2819-mQEA9M"
+     },
+     {
+      "title": "Why You'd Never Want To Meet A Humpback Whale",
+      "channel": "Depth Theory",
+      "views": 631731,
+      "age_days": 21.5,
+      "vph": 1225.8,
+      "id": "4Mmo_dlsArE"
+     },
+     {
+      "title": "Why You'd Never Want To Meet A Humboldt Squid Swarm",
+      "channel": "Depth Theory",
+      "views": 33836,
+      "age_days": 1.9,
+      "vph": 742.0,
+      "id": "miaIKIhKLNQ"
+     }
+    ]
+   }
+  }
+ },
+ "giant squid": {
+  "at": "2026-11-22T14:06:27.752125+00:00",
+  "data": {
+   "demand": {
+    "score": 9,
+    "suggestions": [
+     "giant squid",
+     "giant squid footage",
+     "giant squid fishing",
+     "giant squid vs sperm whale",
+     "giant squid caught on camera",
+     "giant squidward",
+     "giant squid attack",
+     "giant squid vs colossal squid",
+     "giant squid documentary",
+     "giant squid video",
+     "giant squid caught",
+     "giant squid read aloud"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 6,
+    "channels": [
+     "Abbasssain Gaming 2.0",
+     "Anna Altamirano",
+     "BVIANS",
+     "BeyondTheBlue",
+     "Mundo Ganadero",
+     "NewsNation"
+    ],
+    "vph_median": 1139.8,
+    "vph_best": 4541.4,
+    "top": [
+     {
+      "title": "Tentacled UFO? Experts have explanation for bizarre Alaskan sight",
+      "channel": "NewsNation",
+      "views": 1115356,
+      "age_days": 10.2,
+      "vph": 4541.4,
+      "id": "5l5sAAzoh18"
+     },
+     {
+      "title": "How to Make every Viral GIANT Squishy! ",
+      "channel": "Anna Altamirano",
+      "views": 4197187,
+      "age_days": 89.7,
+      "vph": 1949.0,
+      "id": "0IpX81iZOxw"
+     },
+     {
+      "title": "There's Millions of Colossal Squids. So Why Can't We Find Any?",
+      "channel": "BeyondTheBlue",
+      "views": 936165,
+      "age_days": 34.0,
+      "vph": 1148.5,
+      "id": "jkD5rb0Eyxk"
+     },
+     {
+      "title": "I Made a GIANT Squishy Dumpling to Surprise My Brother!",
+      "channel": "BVIANS",
+      "views": 1174158,
+      "age_days": 43.3,
+      "vph": 1131.1,
+      "id": "GTH0W7MLeCU"
+     },
+     {
+      "title": "Franklin Find Squid Doll Babies From Horror Tung Tung Sahur In Indian Bike Driving 3D:",
+      "channel": "Abbasssain Gaming 2.0",
+      "views": 1861706,
+      "age_days": 72.3,
+      "vph": 1073.5,
+      "id": "Nb9HTabU0l4"
+     }
+    ]
+   }
+  }
+ },
+ "why sperm whales fight giant squid in the dark": {
+  "at": "2026-11-22T14:06:27.752125+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 3,
+    "channels": [
+     "BeyondTheBlue",
+     "Depth Theory",
+     "Never Filmed"
+    ],
+    "vph_median": 86.7,
+    "vph_best": 15193.7,
+    "top": [
+     {
+      "title": "Why You'd Never Want To Meet A Sperm Whale",
+      "channel": "Depth Theory",
+      "views": 9474784,
+      "age_days": 26.0,
+      "vph": 15193.7,
+      "id": "fGcgWaswMns"
+     },
+     {
+      "title": "Why You Never Want to Meet a Colossal Squid",
+      "channel": "Depth Theory",
+      "views": 833451,
+      "age_days": 27.2,
+      "vph": 1278.1,
+      "id": "2819-mQEA9M"
+     },
+     {
+      "title": "There's Millions of Colossal Squids. So Why Can't We Find Any?",
+      "channel": "BeyondTheBlue",
+      "views": 936165,
+      "age_days": 34.0,
+      "vph": 1148.5,
+      "id": "jkD5rb0Eyxk"
+     },
+     {
+      "title": "Sperm Whale vs Giant Squid – The Deep Sea Battle No One Has Ever Seen",
+      "channel": "Animal Frontier",
+      "views": 28395,
+      "age_days": 3.9,
+      "vph": 301.8,
+      "id": "gnrTaWGMVnM"
+     },
+     {
+      "title": "Sperm Whale vs Giant Squid: The Fight No Camera Has Ever Filmed | Wildlife Documentary",
+      "channel": "Never Filmed",
+      "views": 132070,
+      "age_days": 53.2,
+      "vph": 103.5,
+      "id": "X3NWMsNxPEY"
+     }
+    ]
+   }
+  }
+ },
+ "goliath grouper": {
+  "at": "2026-11-22T14:06:27.752125+00:00",
+  "data": {
+   "demand": {
+    "score": 7,
+    "suggestions": [
+     "goliath grouper",
+     "goliath grouper fishing",
+     "goliath grouper eats shark",
+     "goliath grouper catch and cook",
+     "goliath grouper attack",
+     "goliath grouper eating",
+     "goliath grouper bark",
+     "goliath grouper catch",
+     "goliath grouper attacks diver",
+     "goliath grouper cooking",
+     "goliath grouper encounter"
+    ]
+   },
+   "saturation": {
+    "copies_100k": 3,
+    "channels": [
+     "BIBLE BATTLE ARENA ",
+     "BlacktipH",
+     "Finatic"
+    ],
+    "vph_median": 1297.2,
+    "vph_best": 3099.5,
+    "top": [
+     {
+      "title": "DAVID VS GOLIATH — THE FINAL BATTLE | ONE SHEPHERD. ONE STONE. ONE GIANT FALLS",
+      "channel": "BIBLE BATTLE ARENA ",
+      "views": 6615067,
+      "age_days": 88.9,
+      "vph": 3099.5,
+      "id": "1spqWruu064"
+     },
+     {
+      "title": "Who's Stronger? 9x Olympic Gold Medal Swimmer vs. Strongest Game Fish",
+      "channel": "BlacktipH",
+      "views": 3363506,
+      "age_days": 80.9,
+      "vph": 1733.2,
+      "id": "XPr5yDKEu9M"
+     },
+     {
+      "title": "I Caught OCEANS STRONGEST Fish…",
+      "channel": "Finatic",
+      "views": 259402,
+      "age_days": 12.6,
+      "vph": 861.2,
+      "id": "K9YwVogXwrI"
+     },
+     {
+      "title": "We Found a GIANT GROUPER Fish! 🐟😱 Deep Sea Mystery to GIANT Village Feast | Giant World #GiantFish",
+      "channel": "Giant World Squad ",
+      "views": 45318,
+      "age_days": 46.9,
+      "vph": 40.3,
+      "id": "I22JT1rCsKc"
+     }
+    ]
+   }
+  }
+ },
+ "why the goliath grouper swallows sharks whole": {
+  "at": "2026-11-22T14:06:27.752125+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 0,
+    "channels": [],
+    "vph_median": 27.8,
+    "vph_best": 33.3,
+    "top": [
+     {
+      "title": "How Long You'd Survive Inside Every Animal That Could Swallow You",
+      "channel": "Apex Bestiary",
+      "views": 8849,
+      "age_days": 11.1,
+      "vph": 33.3,
+      "id": "A03zRJZqpFI"
+     },
+     {
+      "title": "Every Ocean Animal That Could Swallow You… Only One Actually Could",
+      "channel": "16 Bit Ink",
+      "views": 4255,
+      "age_days": 6.4,
+      "vph": 27.8,
+      "id": "ZpBDlLRhP20"
+     },
+     {
+      "title": "The Fish That Swallows Sharks Whole ??",
+      "channel": "Deep Creatures TV",
+      "views": 416,
+      "age_days": 9.1,
+      "vph": 1.9,
+      "id": "0n5Zo2lzAq8"
+     }
+    ]
+   }
+  }
+ },
+ "what orcas do to a sperm whale calf": {
+  "at": "2026-11-22T14:06:27.752125+00:00",
+  "data": {
+   "demand": {
+    "score": 0,
+    "suggestions": []
+   },
+   "saturation": {
+    "copies_100k": 1,
+    "channels": [
+     "Squidium"
+    ],
+    "vph_median": 29.1,
+    "vph_best": 2267.8,
+    "top": [
+     {
+      "title": "Why Orcas are Terrified of the Humpback Whales",
+      "channel": "Squidium",
+      "views": 2432889,
+      "age_days": 44.7,
+      "vph": 2267.8,
+      "id": "QHZkEWWPHy0"
+     },
+     {
+      "title": "Whale Researchers Saw Orcas Give Up Their Fresh Kill and Fled – Then They Saw What Came After It",
+      "channel": "Below Crush Depth",
+      "views": 59406,
+      "age_days": 6.7,
+      "vph": 371.4,
+      "id": "mgwpqCiBQIA"
+     },
+     {
+      "title": "Why No Predator Attacks a Sperm Whale",
+      "channel": "Ocean Below",
+      "views": 11584,
+      "age_days": 13.6,
+      "vph": 35.4,
+      "id": "Q7XZ66UZST0"
+     },
+     {
+      "title": "30 Orcas Attacked The WRONG Sperm Whales… Look What Happened",
+      "channel": "Aquatic Vault",
+      "views": 36849,
+      "age_days": 67.0,
+      "vph": 22.9,
+      "id": "paxiWqbmHNk"
+     },
+     {
+      "title": "Why Orcas are Terrified of Blue Whales",
+      "channel": "The Animals World",
+      "views": 9284,
+      "age_days": 30.1,
+      "vph": 12.9,
+      "id": "8qUedKSVS1w"
      }
     ]
    }
