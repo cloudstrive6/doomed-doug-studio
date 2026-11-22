@@ -60,3 +60,14 @@ screener passes A, B and C at feed size.
   3. Doug's face shows dread or a pleased smile that the frame undercuts (concept says "looking pleased"). Right now
      it's a neutral grimace.
   4. Keep TAILS OUT, but move it top-left so the bottom-right corner is clear of the duration stamp.
+
+## 2026-11-22: thumbnail gate r2 (creative director): A, B, C approved (creative)
+- **B** `build/thumbnail_b.png` / TAILS OUT, revised: **approved**. All four r1 notes are closed. It is now a top-down ring:
+  3 whales, heads in, flukes at the frame edges, and Doug-calf at the hub. The item-8 `#18497e` water replaced the yellow sky,
+  so it no longer reads as a kids' show. Doug's face shows dread (frown, sweat drop), and TAILS OUT moved top-left. The open
+  quarter with a fin in it reads as "the gap", which is the episode's climax, so keep it. At 168 px the ring, cap and fins
+  still read, and it looks clearly different from A (tight, dark, 3 whales against A's 7-whale bright star). I would click.
+  Keep it paired with the "What Sperm Whales Do..." title, never the "Won't Dive Away" alt (screener r1 note 4).
+- **A** and **C**: the tweaks are fine and my r1 approval stands.
+- Condition: the visual screener's r1 PASS covered the old B. Before `packaged`, the screener re-checks the revised B at feed
+  size (quick round 2). A and C don't need another review.
