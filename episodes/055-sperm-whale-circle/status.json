@@ -4,7 +4,17 @@
       "stage": "idea",
       "at": "2026-11-22T17:03:48+00:00",
       "note": "created"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-11-22T17:17:33+00:00",
+      "note": "draft 1"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-11-22T17:26:28+00:00",
+      "note": "script PASS after 2 rounds (screener passed with last fix applied)"
     }
   ],
-  "stage": "idea"
+  "stage": "script_approved"
 }
