@@ -1,10 +1,10 @@
 {
  "date": "2026-11-22",
  "channel": {
-  "viewCount": "69859",
-  "subscriberCount": "66",
+  "viewCount": "70076",
+  "subscriberCount": "68",
   "hiddenSubscriberCount": false,
-  "videoCount": "195"
+  "videoCount": "197"
  },
  "videos": [
   {
@@ -125,7 +125,7 @@
   },
   {
    "video": "cwAYVjq3DqI",
-   "views": 1441,
+   "views": 1442,
    "estimatedMinutesWatched": 1052,
    "averageViewDuration": 173,
    "averageViewPercentage": 24.33,
@@ -473,10 +473,10 @@
   },
   {
    "video": "Fg3gwcKqTlo",
-   "views": 1046,
-   "estimatedMinutesWatched": 616,
+   "views": 1058,
+   "estimatedMinutesWatched": 619,
    "averageViewDuration": 42,
-   "averageViewPercentage": 102.19,
+   "averageViewPercentage": 102.31000000000002,
    "subscribersGained": 0,
    "likes": 13,
    "comments": 0,
@@ -498,92 +498,92 @@
     [
      0.11,
      1.497,
-     0.557
+     0.558
     ],
     [
      0.16,
-     1.351,
-     0.553
+     1.35,
+     0.554
     ],
     [
      0.21,
-     1.25,
+     1.248,
      0.55
     ],
     [
      0.26,
-     1.195,
-     0.548
-    ],
-    [
-     0.31,
-     1.136,
+     1.193,
      0.549
     ],
     [
+     0.31,
+     1.133,
+     0.55
+    ],
+    [
      0.36,
-     1.089,
-     0.551
+     1.087,
+     0.552
     ],
     [
      0.41,
-     1.044,
-     0.556
+     1.042,
+     0.557
     ],
     [
      0.46,
-     1.028,
-     0.56
-    ],
-    [
-     0.51,
-     1.018,
-     0.563
-    ],
-    [
-     0.56,
-     0.987,
-     0.564
-    ],
-    [
-     0.61,
-     0.955,
-     0.562
-    ],
-    [
-     0.66,
-     0.936,
+     1.027,
      0.561
     ],
     [
+     0.51,
+     1.017,
+     0.564
+    ],
+    [
+     0.56,
+     0.985,
+     0.565
+    ],
+    [
+     0.61,
+     0.953,
+     0.564
+    ],
+    [
+     0.66,
+     0.935,
+     0.564
+    ],
+    [
      0.71,
-     0.913,
-     0.566
+     0.912,
+     0.568
     ],
     [
      0.76,
-     0.861,
-     0.582
+     0.86,
+     0.585
     ],
     [
      0.81,
      0.817,
-     0.612
+     0.615
     ],
     [
      0.86,
      0.785,
-     0.636
+     0.638
     ],
     [
      0.91,
      0.765,
-     0.645
+     0.647
     ],
     [
      0.96,
-     0.654,
-     0.646
+     0.653,
+     0.647
     ]
    ]
   },
@@ -1196,11 +1196,25 @@
    "lifetime_views": 874
   },
   {
+   "video": "73OOMKZmtXg",
+   "views": 711,
+   "estimatedMinutesWatched": 181,
+   "averageViewDuration": 27,
+   "averageViewPercentage": 82.9,
+   "subscribersGained": 1,
+   "likes": 4,
+   "comments": 0,
+   "shares": 0,
+   "title": "A Moose Boxed a Grizzly So Hard It Somersaulted",
+   "published": "2026-11-18T14:00:35Z",
+   "lifetime_views": 715
+  },
+  {
    "video": "wanAjsm7OuE",
-   "views": 698,
+   "views": 699,
    "estimatedMinutesWatched": 92,
    "averageViewDuration": 16,
-   "averageViewPercentage": 56.05,
+   "averageViewPercentage": 55.93,
    "subscribersGained": 1,
    "likes": 5,
    "comments": 0,
@@ -1208,20 +1222,6 @@
    "title": "Worms Frozen Since the Neanderthals Are Still Breeding",
    "published": "2026-11-16T19:00:39Z",
    "lifetime_views": 699
-  },
-  {
-   "video": "73OOMKZmtXg",
-   "views": 691,
-   "estimatedMinutesWatched": 176,
-   "averageViewDuration": 27,
-   "averageViewPercentage": 84.49,
-   "subscribersGained": 1,
-   "likes": 4,
-   "comments": 0,
-   "shares": 0,
-   "title": "A Moose Boxed a Grizzly So Hard It Somersaulted",
-   "published": "2026-11-18T14:00:35Z",
-   "lifetime_views": 713
   },
   {
    "video": "1Kj3sX9415c",
@@ -1235,7 +1235,7 @@
    "shares": 0,
    "title": "Six Meters of Sea Scorpion Footprints Were Found on Land",
    "published": "2026-11-01T14:00:37Z",
-   "lifetime_views": 676
+   "lifetime_views": 677
   },
   {
    "video": "Sw8JGbG4-ew",
@@ -1323,10 +1323,10 @@
   },
   {
    "video": "SVrPCFzjl_A",
-   "views": 412,
-   "estimatedMinutesWatched": 59,
+   "views": 414,
+   "estimatedMinutesWatched": 60,
    "averageViewDuration": 19,
-   "averageViewPercentage": 55.61000000000001,
+   "averageViewPercentage": 55.77000000000001,
    "subscribersGained": 0,
    "likes": 5,
    "comments": 0,
@@ -1490,25 +1490,11 @@
    "lifetime_views": 249
   },
   {
-   "video": "hGkdlMoT2xc",
-   "views": 245,
-   "estimatedMinutesWatched": 46,
-   "averageViewDuration": 27,
-   "averageViewPercentage": 61.529999999999994,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "title": "The Ice Kept Ötzi 5,000 Years, People Damaged Him in 4 Days",
-   "published": "2026-11-16T14:00:12Z",
-   "lifetime_views": 245
-  },
-  {
    "video": "FfiRsbQpl1s",
-   "views": 241,
-   "estimatedMinutesWatched": 23,
+   "views": 247,
+   "estimatedMinutesWatched": 24,
    "averageViewDuration": 17,
-   "averageViewPercentage": 64.62,
+   "averageViewPercentage": 65.11,
    "subscribersGained": 0,
    "likes": 1,
    "comments": 0,
@@ -1516,6 +1502,20 @@
    "title": "This Town Fines You $750 for Harassing a White Squirrel",
    "published": "2026-11-14T19:00:02Z",
    "lifetime_views": 247
+  },
+  {
+   "video": "hGkdlMoT2xc",
+   "views": 245,
+   "estimatedMinutesWatched": 46,
+   "averageViewDuration": 27,
+   "averageViewPercentage": 61.27,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "The Ice Kept Ötzi 5,000 Years, People Damaged Him in 4 Days",
+   "published": "2026-11-16T14:00:12Z",
+   "lifetime_views": 245
   },
   {
    "video": "I_aTiiUJSAs",
@@ -1557,14 +1557,14 @@
    "shares": 0,
    "title": "Orcas Have Been Caught Killing Swimming Moose",
    "published": "2026-10-26T18:00:39Z",
-   "lifetime_views": 215
+   "lifetime_views": 217
   },
   {
    "video": "Qdfq7UzqDXQ",
-   "views": 213,
+   "views": 214,
    "estimatedMinutesWatched": 34,
    "averageViewDuration": 26,
-   "averageViewPercentage": 65.73,
+   "averageViewPercentage": 64.83,
    "subscribersGained": 2,
    "likes": 1,
    "comments": 0,
@@ -1631,7 +1631,7 @@
   },
   {
    "video": "ND56YtfhHS0",
-   "views": 184,
+   "views": 185,
    "estimatedMinutesWatched": 53,
    "averageViewDuration": 36,
    "averageViewPercentage": 61.23,
@@ -1658,20 +1658,6 @@
    "lifetime_views": 180
   },
   {
-   "video": "X0a8DLKfHsU",
-   "views": 169,
-   "estimatedMinutesWatched": 13,
-   "averageViewDuration": 21,
-   "averageViewPercentage": 46.69,
-   "subscribersGained": 0,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "title": "The Smallest Dinosaur Ever Found Turned Out to Be a Lizard",
-   "published": "2026-11-05T19:00:03Z",
-   "lifetime_views": 169
-  },
-  {
    "video": "9YvQjZp2WIg",
    "views": 169,
    "estimatedMinutesWatched": 9,
@@ -1683,6 +1669,20 @@
    "shares": 0,
    "title": "Newfoundland Had No Moose, Now It Has Over 100,000",
    "published": "2026-10-29T13:00:11Z",
+   "lifetime_views": 169
+  },
+  {
+   "video": "X0a8DLKfHsU",
+   "views": 169,
+   "estimatedMinutesWatched": 13,
+   "averageViewDuration": 21,
+   "averageViewPercentage": 46.69,
+   "subscribersGained": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "title": "The Smallest Dinosaur Ever Found Turned Out to Be a Lizard",
+   "published": "2026-11-05T19:00:03Z",
    "lifetime_views": 169
   },
   {
@@ -1738,43 +1738,43 @@
   "rows": [
    [
     "SHORTS",
-    23251,
-    5139
+    23398,
+    5204
    ],
    [
     "SUBSCRIBER",
-    2674,
-    1711
+    2689,
+    1712
    ],
    [
     "YT_SEARCH",
-    1486,
-    320
+    1533,
+    329
    ],
    [
     "RELATED_VIDEO",
-    1183,
-    3401
+    1245,
+    3470
    ],
    [
     "YT_OTHER_PAGE",
-    280,
-    252
+    281,
+    257
    ],
    [
     "YT_CHANNEL",
-    117,
-    243
+    119,
+    255
    ],
    [
     "NO_LINK_OTHER",
-    68,
-    282
+    70,
+    284
    ],
    [
     "EXT_URL",
-    27,
-    21
+    28,
+    22
    ],
    [
     "SHORTS_CONTENT_LINKS",
@@ -1811,11 +1811,11 @@
   "rows": [
    [
     "US",
-    16629
+    16730
    ],
    [
     "PH",
-    1310
+    1333
    ],
    [
     "GB",
