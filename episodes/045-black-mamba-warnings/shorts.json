@@ -83,7 +83,24 @@
       "publish_at": "2026-11-22T14:00:00Z",
       "related_video": "AKpg4FqlXNc",
       "related_set": false,
-      "uploaded_at": "2026-11-12T18:39:19+00:00"
+      "uploaded_at": "2026-11-12T18:39:19+00:00",
+      "social": {
+        "instagram": {
+          "id": "18159894631523685",
+          "url": "https://www.instagram.com/reel/DgC-NJztCLd/"
+        },
+        "facebook": {
+          "id": "1659498045881851",
+          "url": "https://www.facebook.com/reel/1659498045881851"
+        },
+        "tiktok_error": "TikTok (Post for Me) failed: \"Failed to post to TikTok\"",
+        "instagram_story": {
+          "id": "18388327279235371"
+        },
+        "facebook_story": {
+          "id": "1697147288620252"
+        }
+      }
     }
   ]
 }
