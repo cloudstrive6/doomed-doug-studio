@@ -71,3 +71,4 @@ screener passes A, B and C at feed size.
 - **A** and **C**: the tweaks are fine and my r1 approval stands.
 - Condition: the visual screener's r1 PASS covered the old B. Before `packaged`, the screener re-checks the revised B at feed
   size (quick round 2). A and C don't need another review.
+- 2026-11-22: packaged. Script 2 rounds (PASS), art 2 rounds, thumbnails 2 rounds (B redrawn). Risks: costume in 7/9 items (kid-appeal, approved by art director), 35 orcas is high estimate only, gore avoided. Draft ~11.9 min.

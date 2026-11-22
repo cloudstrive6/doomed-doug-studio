@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-11-22T18:14:19+00:00",
       "note": "Art director: keyframes round 2 PASS, all 9 composition fixes verified"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-22T18:24:59+00:00",
+      "note": "all gates passed; script 2 rounds, keyframes 2 rounds, thumbnails 2 rounds"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
