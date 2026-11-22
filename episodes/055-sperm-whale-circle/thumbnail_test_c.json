@@ -58,7 +58,7 @@
   {
    "type": "doug",
    "x": 640,
-   "y": 305,
+   "y": 320,
    "scale": 0.42,
    "pose": "float",
    "expression": "shock",
@@ -68,7 +68,7 @@
    "type": "asset",
    "name": "sperm_whale_calf_costume",
    "x": 640,
-   "y": 305,
+   "y": 320,
    "scale": 0.42,
    "boil": 0,
    "flip": false
@@ -103,8 +103,8 @@
    "type": "text",
    "text": "CALF INSIDE",
    "x": 640,
-   "y": 78,
-   "size": 112,
+   "y": 70,
+   "size": 108,
    "color": "#ffe23a",
    "outline": "#000000",
    "outline_width": 16,

@@ -19,8 +19,8 @@
   },
   {
    "type": "spray",
-   "x": 860,
-   "y": 360,
+   "x": 880,
+   "y": 362,
    "r": 560,
    "color": "#2f86ec",
    "density": 0.03,
@@ -28,9 +28,9 @@
   },
   {
    "type": "spray",
-   "x": 860,
-   "y": 360,
-   "r": 110,
+   "x": 880,
+   "y": 362,
+   "r": 120,
    "color": "#8fd3ff",
    "density": 0.08,
    "boil": 0
@@ -38,71 +38,71 @@
   {
    "type": "asset",
    "name": "sperm_whale_top",
-   "x": 860.0,
-   "y": 148.0,
-   "scale": 0.44,
+   "x": 880.0,
+   "y": 116.1,
+   "scale": 0.493,
    "boil": 0,
    "rotate": 90.0
   },
   {
    "type": "asset",
    "name": "sperm_whale_top",
-   "x": 1025.7,
-   "y": 227.8,
-   "scale": 0.44,
+   "x": 1072.3,
+   "y": 208.7,
+   "scale": 0.493,
    "boil": 0,
    "rotate": 141.4
   },
   {
    "type": "asset",
    "name": "sperm_whale_top",
-   "x": 1066.7,
-   "y": 407.2,
-   "scale": 0.44,
+   "x": 1119.8,
+   "y": 416.7,
+   "scale": 0.493,
    "boil": 0,
    "rotate": 192.9
   },
   {
    "type": "asset",
    "name": "sperm_whale_top",
-   "x": 952.0,
-   "y": 551.0,
-   "scale": 0.44,
+   "x": 986.7,
+   "y": 583.6,
+   "scale": 0.493,
    "boil": 0,
    "rotate": 244.3
   },
   {
    "type": "asset",
    "name": "sperm_whale_top",
-   "x": 768.0,
-   "y": 551.0,
-   "scale": 0.44,
+   "x": 773.3,
+   "y": 583.6,
+   "scale": 0.493,
    "boil": 0,
    "rotate": 295.7
   },
   {
    "type": "asset",
    "name": "sperm_whale_top",
-   "x": 653.3,
-   "y": 407.2,
-   "scale": 0.44,
+   "x": 640.2,
+   "y": 416.7,
+   "scale": 0.493,
    "boil": 0,
    "rotate": 347.1
   },
   {
    "type": "asset",
    "name": "sperm_whale_top",
-   "x": 694.3,
-   "y": 227.8,
-   "scale": 0.44,
+   "x": 687.7,
+   "y": 208.7,
+   "scale": 0.493,
    "boil": 0,
    "rotate": 398.6
   },
   {
    "type": "doug",
-   "x": 860,
-   "y": 392,
-   "scale": 0.33,
+   "x": 880,
+   "y": 370,
+   "scale": 0.37,
    "pose": "float",
    "expression": "gritted",
    "facing": "right"
@@ -110,26 +110,26 @@
   {
    "type": "asset",
    "name": "sperm_whale_calf_costume",
-   "x": 860,
-   "y": 392,
-   "scale": 0.33,
+   "x": 880,
+   "y": 370,
+   "scale": 0.37,
    "boil": 0,
    "flip": false
   },
   {
    "type": "asset",
    "name": "orca_fin",
-   "x": 450,
-   "y": 470,
-   "scale": 0.26,
+   "x": 545,
+   "y": 590,
+   "scale": 0.28,
    "boil": 0,
    "flip": false
   },
   {
    "type": "asset",
    "name": "orca_fin",
-   "x": 1230,
-   "y": 560,
+   "x": 1235,
+   "y": 610,
    "scale": 0.26,
    "boil": 0,
    "flip": true
@@ -137,8 +137,8 @@
   {
    "type": "asset",
    "name": "orca_fin",
-   "x": 1225,
-   "y": 150,
+   "x": 1235,
+   "y": 265,
    "scale": 0.26,
    "boil": 0,
    "flip": true
@@ -146,7 +146,7 @@
   {
    "type": "asset",
    "name": "orca_fin",
-   "x": 640,
+   "x": 590,
    "y": 712,
    "scale": 0.26,
    "boil": 0,
@@ -155,7 +155,7 @@
   {
    "type": "asset",
    "name": "orca_fin",
-   "x": 1080,
+   "x": 1195,
    "y": 712,
    "scale": 0.26,
    "boil": 0,
