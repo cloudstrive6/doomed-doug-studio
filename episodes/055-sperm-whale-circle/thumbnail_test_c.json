@@ -1,0 +1,117 @@
+{
+ "background": "#1d5fb8",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 310,
+   "fill": "#8fd3ff",
+   "color": "#8fd3ff",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 300,
+   "w": 1300,
+   "h": 440,
+   "fill": "#1d5fb8",
+   "color": "#1d5fb8",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 640,
+   "y": 720,
+   "r": 520,
+   "color": "#0f3770",
+   "density": 0.05,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "sperm_whale",
+   "x": 330,
+   "y": 320,
+   "scale": 0.5,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "sperm_whale",
+   "x": 950,
+   "y": 320,
+   "scale": 0.5,
+   "boil": 0,
+   "flip": true
+  },
+  {
+   "type": "doug",
+   "x": 640,
+   "y": 305,
+   "scale": 0.42,
+   "pose": "float",
+   "expression": "shock",
+   "facing": "right"
+  },
+  {
+   "type": "asset",
+   "name": "sperm_whale_calf_costume",
+   "x": 640,
+   "y": 305,
+   "scale": 0.42,
+   "boil": 0,
+   "flip": false
+  },
+  {
+   "type": "asset",
+   "name": "orca",
+   "x": 690,
+   "y": 560,
+   "scale": 0.72,
+   "boil": 0,
+   "flip": true
+  },
+  {
+   "type": "asset",
+   "name": "orca_fin",
+   "x": 70,
+   "y": 305,
+   "scale": 0.32,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "orca_fin",
+   "x": 1215,
+   "y": 305,
+   "scale": 0.32,
+   "boil": 0,
+   "flip": true
+  },
+  {
+   "type": "text",
+   "text": "CALF INSIDE",
+   "x": 640,
+   "y": 78,
+   "size": 112,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 16,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
