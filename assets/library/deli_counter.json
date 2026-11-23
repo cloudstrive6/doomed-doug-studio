@@ -1,0 +1,688 @@
+{
+ "name": "deli_counter",
+ "description": "Empty deli counter, front view: long pale-blue glass display case with highlight streaks and steel frame, empty steel trays inside, pale wood top, steel base cabinet, red ticket-roll dispenser on a short post at the right (top about (+430,-560)). No food, no text. Anchor bottom-centre; bbox x -500..+500, y -560..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "place",
+  "deli",
+  "shop",
+  "056"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -500,
+     -250
+    ],
+    [
+     500,
+     -250
+    ],
+    [
+     500,
+     0
+    ],
+    [
+     -500,
+     0
+    ]
+   ],
+   "fill": "#d8dce2",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -500,
+     -250
+    ],
+    [
+     500,
+     -250
+    ],
+    [
+     500,
+     -220
+    ],
+    [
+     -500,
+     -220
+    ]
+   ],
+   "fill": "#b0b6c0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -420,
+     -200
+    ],
+    [
+     -420,
+     -30
+    ]
+   ],
+   "width": 3,
+   "color": "#a8aeb8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -280,
+     -200
+    ],
+    [
+     -280,
+     -30
+    ]
+   ],
+   "width": 3,
+   "color": "#a8aeb8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -140,
+     -200
+    ],
+    [
+     -140,
+     -30
+    ]
+   ],
+   "width": 3,
+   "color": "#a8aeb8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -200
+    ],
+    [
+     0,
+     -30
+    ]
+   ],
+   "width": 3,
+   "color": "#a8aeb8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     140,
+     -200
+    ],
+    [
+     140,
+     -30
+    ]
+   ],
+   "width": 3,
+   "color": "#a8aeb8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     280,
+     -200
+    ],
+    [
+     280,
+     -30
+    ]
+   ],
+   "width": 3,
+   "color": "#a8aeb8"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     420,
+     -200
+    ],
+    [
+     420,
+     -30
+    ]
+   ],
+   "width": 3,
+   "color": "#a8aeb8"
+  },
+  {
+   "type": "spray",
+   "x": 300,
+   "y": -100,
+   "r": 90,
+   "color": "#c0c6d0",
+   "density": 0.2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -500,
+     -30
+    ],
+    [
+     500,
+     -30
+    ],
+    [
+     500,
+     0
+    ],
+    [
+     -500,
+     0
+    ]
+   ],
+   "fill": "#7a808a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -490,
+     -250
+    ],
+    [
+     -470,
+     -470
+    ],
+    [
+     470,
+     -470
+    ],
+    [
+     490,
+     -250
+    ]
+   ],
+   "fill": "#cfe8f4",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -470,
+     -470
+    ],
+    [
+     470,
+     -470
+    ],
+    [
+     474,
+     -444
+    ],
+    [
+     -474,
+     -444
+    ]
+   ],
+   "fill": "#9aa2ac",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -430,
+     -290
+    ],
+    [
+     -280,
+     -290
+    ],
+    [
+     -290,
+     -262
+    ],
+    [
+     -420,
+     -262
+    ]
+   ],
+   "fill": "#b8bec8",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -418,
+     -284
+    ],
+    [
+     -292,
+     -284
+    ]
+   ],
+   "width": 2,
+   "color": "#e8ecf0"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -258,
+     -290
+    ],
+    [
+     -108,
+     -290
+    ],
+    [
+     -118,
+     -262
+    ],
+    [
+     -248,
+     -262
+    ]
+   ],
+   "fill": "#b8bec8",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -246,
+     -284
+    ],
+    [
+     -120,
+     -284
+    ]
+   ],
+   "width": 2,
+   "color": "#e8ecf0"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -86,
+     -290
+    ],
+    [
+     64,
+     -290
+    ],
+    [
+     54,
+     -262
+    ],
+    [
+     -76,
+     -262
+    ]
+   ],
+   "fill": "#b8bec8",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -74,
+     -284
+    ],
+    [
+     52,
+     -284
+    ]
+   ],
+   "width": 2,
+   "color": "#e8ecf0"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     86,
+     -290
+    ],
+    [
+     236,
+     -290
+    ],
+    [
+     226,
+     -262
+    ],
+    [
+     96,
+     -262
+    ]
+   ],
+   "fill": "#b8bec8",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     98,
+     -284
+    ],
+    [
+     224,
+     -284
+    ]
+   ],
+   "width": 2,
+   "color": "#e8ecf0"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     258,
+     -290
+    ],
+    [
+     408,
+     -290
+    ],
+    [
+     398,
+     -262
+    ],
+    [
+     268,
+     -262
+    ]
+   ],
+   "fill": "#b8bec8",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     270,
+     -284
+    ],
+    [
+     396,
+     -284
+    ]
+   ],
+   "width": 2,
+   "color": "#e8ecf0"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -380,
+     -440
+    ],
+    [
+     -430,
+     -310
+    ]
+   ],
+   "width": 6,
+   "color": "#f4fbff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -340,
+     -440
+    ],
+    [
+     -390,
+     -310
+    ]
+   ],
+   "width": 6,
+   "color": "#f4fbff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -440
+    ],
+    [
+     10,
+     -310
+    ]
+   ],
+   "width": 6,
+   "color": "#f4fbff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     100,
+     -440
+    ],
+    [
+     50,
+     -310
+    ]
+   ],
+   "width": 6,
+   "color": "#f4fbff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     330,
+     -440
+    ],
+    [
+     280,
+     -310
+    ]
+   ],
+   "width": 6,
+   "color": "#f4fbff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -478,
+     -360
+    ],
+    [
+     478,
+     -360
+    ]
+   ],
+   "width": 3,
+   "color": "#9aa2ac"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -500,
+     -470
+    ],
+    [
+     500,
+     -470
+    ],
+    [
+     500,
+     -440
+    ],
+    [
+     -500,
+     -440
+    ]
+   ],
+   "fill": "#e2c494",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -480,
+     -456
+    ],
+    [
+     480,
+     -456
+    ]
+   ],
+   "width": 2,
+   "color": "#c8a670"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -490,
+     -250
+    ],
+    [
+     -470,
+     -470
+    ],
+    [
+     470,
+     -470
+    ],
+    [
+     490,
+     -250
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     424,
+     -470
+    ],
+    [
+     436,
+     -470
+    ],
+    [
+     436,
+     -520
+    ],
+    [
+     424,
+     -520
+    ]
+   ],
+   "fill": "#8a9098",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     394,
+     -560
+    ],
+    [
+     466,
+     -560
+    ],
+    [
+     474,
+     -516
+    ],
+    [
+     386,
+     -516
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 430,
+   "y": -538,
+   "r": 12,
+   "fill": "#a01410",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     418,
+     -516
+    ],
+    [
+     442,
+     -516
+    ],
+    [
+     444,
+     -494
+    ],
+    [
+     416,
+     -494
+    ]
+   ],
+   "fill": "#f4f1e8",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": 410,
+   "y": -548,
+   "r": 10,
+   "color": "#ff6a5a",
+   "density": 0.3
+  }
+ ]
+}

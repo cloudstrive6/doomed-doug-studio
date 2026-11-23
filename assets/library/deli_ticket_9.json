@@ -1,0 +1,311 @@
+{
+ "name": "deli_ticket_9",
+ "description": "Small paper deli queue ticket: off-white #f4f1e8, torn perforated top edge, thin red bands, big bold black 9 drawn as shapes (so it rotates with the ticket). Anchor bottom-centre (the edge Doug's fingers hold); bbox x -40..+40, y -110..0. Reads at 40 px tall; can lie on the ground rotated -70..-80.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "deli",
+  "ticket",
+  "number",
+  "056"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     0
+    ],
+    [
+     -40,
+     -104
+    ],
+    [
+     -35.6,
+     -110
+    ],
+    [
+     -26.7,
+     -106
+    ],
+    [
+     -17.8,
+     -110
+    ],
+    [
+     -8.9,
+     -106
+    ],
+    [
+     0.0,
+     -110
+    ],
+    [
+     8.9,
+     -106
+    ],
+    [
+     17.8,
+     -110
+    ],
+    [
+     26.7,
+     -106
+    ],
+    [
+     35.6,
+     -110
+    ],
+    [
+     40,
+     -104
+    ],
+    [
+     40,
+     0
+    ]
+   ],
+   "fill": "#f4f1e8",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     -94
+    ],
+    [
+     40,
+     -94
+    ],
+    [
+     40,
+     -84
+    ],
+    [
+     -40,
+     -84
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     -14
+    ],
+    [
+     40,
+     -14
+    ],
+    [
+     40,
+     -8
+    ],
+    [
+     -40,
+     -8
+    ]
+   ],
+   "fill": "#e0201b",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 26,
+   "y": -40,
+   "r": 14,
+   "color": "#d8d2c0",
+   "density": 0.3
+  },
+  {
+   "type": "ellipse",
+   "x": -1,
+   "y": -62,
+   "rx": 15,
+   "ry": 15,
+   "fill": null,
+   "width": 12,
+   "color": "#000000",
+   "boil": 0.3
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     14,
+     -64
+    ],
+    [
+     14,
+     -40
+    ],
+    [
+     6,
+     -26
+    ],
+    [
+     -14,
+     -22
+    ]
+   ],
+   "width": 12,
+   "color": "#000000",
+   "boil": 0.3
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40,
+     0
+    ],
+    [
+     -40,
+     -104
+    ],
+    [
+     -35.6,
+     -110
+    ],
+    [
+     -26.7,
+     -106
+    ],
+    [
+     -17.8,
+     -110
+    ],
+    [
+     -8.9,
+     -106
+    ],
+    [
+     0.0,
+     -110
+    ],
+    [
+     8.9,
+     -106
+    ],
+    [
+     17.8,
+     -110
+    ],
+    [
+     26.7,
+     -106
+    ],
+    [
+     35.6,
+     -110
+    ],
+    [
+     40,
+     -104
+    ],
+    [
+     40,
+     0
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": -35,
+   "y": -99,
+   "r": 1.5,
+   "fill": "#b8b2a0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -25,
+   "y": -99,
+   "r": 1.5,
+   "fill": "#b8b2a0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -15,
+   "y": -99,
+   "r": 1.5,
+   "fill": "#b8b2a0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -5,
+   "y": -99,
+   "r": 1.5,
+   "fill": "#b8b2a0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 5,
+   "y": -99,
+   "r": 1.5,
+   "fill": "#b8b2a0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 15,
+   "y": -99,
+   "r": 1.5,
+   "fill": "#b8b2a0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 25,
+   "y": -99,
+   "r": 1.5,
+   "fill": "#b8b2a0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 35,
+   "y": -99,
+   "r": 1.5,
+   "fill": "#b8b2a0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

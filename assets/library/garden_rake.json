@@ -1,0 +1,230 @@
+{
+ "name": "garden_rake",
+ "description": "Garden rake held by Doug: anchor = grip point in his front hand (0,0); brown #a0522d wooden handle runs down and forward to a grey metal tine head at about (+120,+135); tines touch the ground line at y +152 (Doug scale 1 units).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "tool",
+  "garden",
+  "doug",
+  "056"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -28
+    ],
+    [
+     120,
+     132
+    ]
+   ],
+   "width": 11,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -22,
+     -28
+    ],
+    [
+     120,
+     132
+    ]
+   ],
+   "width": 6,
+   "color": "#a0522d"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -12
+    ],
+    [
+     20,
+     24
+    ]
+   ],
+   "width": 2,
+   "color": "#c8784a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     76,
+     130
+    ],
+    [
+     166,
+     130
+    ],
+    [
+     166,
+     139
+    ],
+    [
+     76,
+     139
+    ]
+   ],
+   "fill": "#8a8e94",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     80,
+     139
+    ],
+    [
+     82,
+     152
+    ]
+   ],
+   "width": 4,
+   "color": "#5a5e64"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     94,
+     139
+    ],
+    [
+     96,
+     152
+    ]
+   ],
+   "width": 4,
+   "color": "#5a5e64"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     108,
+     139
+    ],
+    [
+     110,
+     152
+    ]
+   ],
+   "width": 4,
+   "color": "#5a5e64"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     122,
+     139
+    ],
+    [
+     124,
+     152
+    ]
+   ],
+   "width": 4,
+   "color": "#5a5e64"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     136,
+     139
+    ],
+    [
+     138,
+     152
+    ]
+   ],
+   "width": 4,
+   "color": "#5a5e64"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     150,
+     139
+    ],
+    [
+     152,
+     152
+    ]
+   ],
+   "width": 4,
+   "color": "#5a5e64"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     164,
+     139
+    ],
+    [
+     166,
+     152
+    ]
+   ],
+   "width": 4,
+   "color": "#5a5e64"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     80,
+     133
+    ],
+    [
+     160,
+     133
+    ]
+   ],
+   "width": 2,
+   "color": "#c8ccd2"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     112,
+     122
+    ],
+    [
+     128,
+     122
+    ],
+    [
+     126,
+     132
+    ],
+    [
+     114,
+     132
+    ]
+   ],
+   "fill": "#8a8e94",
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}

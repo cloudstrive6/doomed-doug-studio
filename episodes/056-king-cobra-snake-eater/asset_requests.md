@@ -245,3 +245,30 @@ a thin water-shine line at the base. Anchor bottom-centre, bbox **x -320..+320, 
    and shows 10 in the closing. Reserved zone x 1300-1860, y 110-275 (checked for every new asset placement in the generator).
 3. Costume sign-off (base + 5 variants above), the king cobra design (olive, pale chevrons, narrow hood; distinct from 045's mamba
    and `cobra_hooded`), and the hatchlings (not cute).
+
+---
+
+## Illustrator status (2026-11-23): DONE, 40 drawings in `assets/library/` (all except the art director's `all_fours` pose)
+
+Previews (git-ignored, regenerate with `python -m studio asset-preview ...`):
+`assets/previews/056-assets-kingcobra.png` (king cobra family), `assets/previews/056-assets-others.png` (nest family, other
+snakes, lizard, python, dead pair, knot), `assets/previews/056-assets-props.png` (costumes, deli props, rake, rice).
+
+- [x] King cobra: `king_cobra_reared`, `king_cobra_reared_gape`, `king_cobra_crawl`, `king_cobra_strike`, `king_cobra_bulge`,
+  `king_cobra_head_tongue`, `king_cobra_fight`, `king_cobra_hatchling`, `king_cobra_swallowing_krait` / `_rat_snake` / `_naja` /
+  `_viper` / `_king` (kingcobra sheet)
+- [x] Nest: `king_cobra_nest`, `king_cobra_on_nest`, `king_cobra_nest_cutaway`, `king_cobra_nest_cutaway_empty` (others sheet)
+- [x] Others: `banded_krait`, `common_krait`, `krait_swallowing_krait`, `indian_rat_snake`, `indian_rat_snake_puffed`, `indian_cobra`,
+  `pit_viper_green`, `clouded_monitor`, `reticulated_python`, `cobra_python_dead_pair`, `snake_knot_doug` (others sheet)
+- [x] Costumes: `snake_costume_rat`, `_krait`, `_cobra`, `_cobra_droop`, `_python`, `_king`, `snake_costume_rat_flat` (props sheet)
+- [x] Props: `deli_ticket_9`, `deli_counter`, `takeaway_box_krait`, `garden_rake`, `rice_plants` (props sheet)
+
+Notes for the director / art director (things that changed from the brief):
+- `snake_costume_cobra`: the cardboard flaps sit at x ±134..±190 (not ±75..±135), because Doug's cap brim reaches x +128 and the
+  right-hand flap would have covered it. Tape strips run below the chin.
+- Costumes on `cower`: that pose drops Doug's head about 40 units, so the collar overlaps his chin. Place the suit at
+  y + 40 x scale for cower shots (or use another pose).
+- `deli_ticket_9`: the 9 is drawn with shapes, not text, so it turns with the ticket when it's rotated on the ground.
+- Measured bboxes are in each JSON `description`. They differ a little from the brief (for example `king_cobra_crawl` y -86..0,
+  `king_cobra_bulge` bulge top -108, `king_cobra_on_nest` coils to -423, `snake_knot_doug` top -338), but every anchor and key point is as requested.
+- Generator scripts: `episodes/056-king-cobra-snake-eater/build/illus/` (scratch; `python build_all.py [names]` rebuilds them).
