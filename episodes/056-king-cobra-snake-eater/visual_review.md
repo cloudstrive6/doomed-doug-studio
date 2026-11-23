@@ -140,3 +140,25 @@ Two Dozen Pit Vipers" / THEY BITE BACK. This replaces the Round 2 note on B, whi
 
 Optional (graphic designer, does not block): Doug is about 6% of frame width. If cheap, scale him up about 15% to
 make him easier to see on mobile.
+
+## Round 4: post-render (final.mp4 705.9 s, Shorts x3)
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+Main video
+- I viewed all 24 samples (`build/samples/f_001..f_024`, taken at t = 15 s + 30 s·n) and matched them to `timing.json`. In every frame the picture fits the line being narrated: krait/QUIETLY (s007), 4 SECONDS (s024), 35 km+ / 6 MONTHS (s042), up a tree "bye friend?" (s052), the jaw diagram (s062), BLACK MAMBA (s092), the tally on the branch (s104), FINE (s124), THING WITH LEGS (s142), SQUEEZES (s160), the coil death with the cap showing (s168), the 55 cm / 1.5 m nest (s178), GUARDING/HUNTING (s189), STILL ALIVE (s199), 2024 (s208), the bell for "number called" (s218) and the end slate.
+- qc.json lists no problems. My own ffmpeg blackdetect (0.5 s) and freezedetect (8 s) pass over final.mp4 found no black or frozen stretches.
+- Contact sheet (s030, s116, s132, s158, s164, s222, s223): all readable and on-model. The counter runs 408 to 414 without skipping. There is no gore: the deaths are a coil and a gravestone. The ending pays off the title with the deli counter, NOW SERVING 10 and TAKE A TICKET. There is no "???" teaser.
+- Thumbnails A/B/C and their _small versions: each has one focal point at 168x94. A shows the krait tail in the cobra's mouth with Doug in a krait suit holding ticket 9 (NEXT IN LINE). B shows the viper biting the cobra's crown with a 26 tally (THEY BITE BACK). C shows the gaping cobra and Doug in a cobra suit (NOW SERVING 9). All three fit their paired titles. None is misleading, and none has blood.
+
+Shorts (short01 52.8 s, short02 39.2 s, short03 43.8 s; 1080x1920)
+- The titles are legible on all three backgrounds. On the navy background of short03 the red title is a little lower contrast but still reads clearly. The subtitles are large and stay clear of the drawing. The words that look cut off in the previews ("ap", "ov") are just the word-by-word reveal caught mid-animation. The main subjects stay inside the frame. Only background trees are clipped at the edges.
+- Each end card reads FULL VIDEO: TAP BELOW with a red arrow pointing straight down. Doug is on-model and the frame ends cleanly. Each short pays off its title: 26 vipers with the 9-hunts tally; dead within 30 min; filmed swallowing another king cobra alive. There are no teaser cards.
+
+Optional nits (do not block)
+a. s034 (director): "tracked one trail back and forth across a fast stream three times". At the sampled moment only Doug and the stream are on screen. If cheap, add a dashed zig-zag path over the stream like the one in s042.
+b. s134 (director): "In Singapore...". The map has no marker. Add the red circle on Singapore that short03's map already uses.
+c. s114 (director): "then he went back and ate". At the sampled moment Doug stands alone. If cheap, keep the cobra in frame.
+
+Routing: director a-c. No issues for the illustrator, graphic designer or art director.

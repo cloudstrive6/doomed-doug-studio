@@ -84,3 +84,23 @@ cobra gets bitten in nine hunts and still wins). Optional and not blocking: scal
 **A, B and C are all approved.** Stage → art_approved.
 
 - 2026-11-23 showrunner: script 2 rounds (3 factual fixes), art/keyframes 2 rounds (+thumbnail B rework), all gates passed. Editor raised voice.speaking_rate 1.10->1.15 in config/channel.yaml (channel-wide; calibrated to 192.6 wpm, runtime 11.8 min). Risk: title/thumbnails must keep banded krait only; weak spots s110 (viper grip), s182 legs.
+
+## 2026-11-23: final package approval (creative director)
+Checked the title, `build/thumbnail.png` (plus B/C, already approved), the description and tags in metadata.json, `build/chapters.txt`,
+the opening of script.md against `build/timing.json`, the samples `build/samples/f_001..f_003`, QC (`build/qc.json`: 705.9 s, no problems)
+and visual_review.md Round 4 (main and shorts PASS).
+- **Title: keep** "Why King Cobras Hunt the Deadliest Snakes in Asia" (A). None of the alt_titles is clearly stronger. "Two Dozen
+  Pit Vipers" is more specific, but pit vipers are a weaker search and click noun than "deadliest snakes", and it is already running as
+  variant B, so the A/B/C test decides this. The title is honest: the krait and the cobra are two of India's big four (Mohapatra 2011, in the sources), and both
+  are recorded king cobra prey.
+- **Thumbnail A:** I would click. The banded krait tail hangs from the cobra's mouth, and Doug in a krait suit holds ticket 9 under NEXT IN LINE.
+  Title and text don't repeat each other, there is no blood, and it is the opening image.
+- **Opening (style bible 3.2):** "krait" is spoken at word 6, and "The Krait." starts at 0:10.8. The twist ("the king cobra does") lands at 45.1 s,
+  right at the limit, but the hut-krait facts before it carry the clip on their own. The payoff promise (Doug as a king cobra facing the thing that eats king
+  cobras) is delivered at item 9. The samples are on-model, the counter reads 408 and NOW SERVING 1, and the 4 SECONDS label matches the beat.
+- **Description:** the hook sentence matches the video. Six sources are linked and the AI-use and disclaimer blocks are present. `{{CHAPTERS}}` is filled at upload
+  (studio/youtube.py). There are 10 chapters starting at 0:00 and none is shorter than 10 s. The playlist is `animals` (055 was `ocean`). The tags are fine.
+- Non-blocking, for later: the visual screener's director nits a-c (s034 zig-zag path, s134 Singapore marker, s114 cobra in frame). Avoid the title opener "Why ..."
+  plus "Deadliest" in the next couple of episodes (titler note, 2026-11-23).
+- Series bible updated: deaths 409-414, total 414, and the 056 episode-log row.
+FINAL: APPROVED
