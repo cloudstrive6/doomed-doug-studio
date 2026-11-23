@@ -82,3 +82,5 @@ predated this render, so I had the visual screener re-check B on its own: Round 
 I would click: one focal point, a clear bite, and a title and text that don't repeat each other. It is not misleading (script l.134: the
 cobra gets bitten in nine hunts and still wins). Optional and not blocking: scale Doug up about 15% for phones.
 **A, B and C are all approved.** Stage → art_approved.
+
+- 2026-11-23 showrunner: script 2 rounds (3 factual fixes), art/keyframes 2 rounds (+thumbnail B rework), all gates passed. Editor raised voice.speaking_rate 1.10->1.15 in config/channel.yaml (channel-wide; calibrated to 192.6 wpm, runtime 11.8 min). Risk: title/thumbnails must keep banded krait only; weak spots s110 (viper grip), s182 legs.
