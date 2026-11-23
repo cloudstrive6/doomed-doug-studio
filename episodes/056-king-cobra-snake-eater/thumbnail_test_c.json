@@ -1,0 +1,124 @@
+{
+ "background": "#d42c8c",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#d42c8c",
+   "color": "#d42c8c",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 360,
+   "y": 330,
+   "r": 380,
+   "color": "#ff6ab8",
+   "density": 0.05,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 660,
+   "w": 1300,
+   "h": 80,
+   "fill": "#c9c2b0",
+   "color": "#000000",
+   "width": 6,
+   "outline": true,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "king_cobra_reared_gape",
+   "x": 262,
+   "y": 1030,
+   "scale": 1.45,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": 740,
+   "y": 20,
+   "w": 520,
+   "h": 300,
+   "fill": "#1a1a1a",
+   "color": "#000000",
+   "width": 8,
+   "outline": true,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": 756,
+   "y": 36,
+   "w": 488,
+   "h": 268,
+   "fill": "#1a1a1a",
+   "color": "#5a5a5a",
+   "width": 5,
+   "outline": true,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "NOW SERVING",
+   "x": 1000,
+   "y": 92,
+   "size": 68,
+   "color": "#ff3a2a",
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "x": 1000,
+   "y": 215,
+   "size": 200,
+   "color": "#ff3a2a",
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "doug",
+   "x": 600,
+   "y": 555,
+   "scale": 0.66,
+   "pose": "point",
+   "expression": "hopeful",
+   "facing": "right"
+  },
+  {
+   "type": "asset",
+   "name": "snake_costume_king",
+   "x": 600,
+   "y": 555,
+   "scale": 0.66,
+   "flip": false,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "deli_ticket_9",
+   "x": 668,
+   "y": 560,
+   "scale": 0.75,
+   "boil": 0
+  }
+ ]
+}

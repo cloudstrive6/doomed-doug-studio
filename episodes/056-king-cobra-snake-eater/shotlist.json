@@ -2505,12 +2505,12 @@
      {
       "type": "arrow",
       "from": [
-       1050,
-       470
+       960,
+       480
       ],
       "to": [
-       820,
-       400
+       800,
+       410
       ],
       "color": "#e0201b",
       "width": 8,
@@ -6681,15 +6681,15 @@
       "name": "calendar",
       "x": 1600,
       "y": 470,
-      "scale": 0.6,
+      "scale": 0.85,
       "appear": 0.55
      },
      {
       "type": "text",
       "text": "6 MONTHS",
       "x": 1600,
-      "y": 470,
-      "size": 36,
+      "y": 480,
+      "size": 34,
       "color": "#2b2b2b",
       "bold": true,
       "outline": null,
@@ -7344,8 +7344,8 @@
       "x": 1600,
       "y": 776.4,
       "scale": 0.55,
-      "pose": "cower",
-      "expression": "gritted",
+      "pose": "arms_up",
+      "expression": "shock",
       "facing": "left",
       "appear": 0.2
      },
@@ -7356,6 +7356,14 @@
       "y": 776.4,
       "scale": 0.55,
       "flip": true,
+      "appear": 0.2
+     },
+     {
+      "type": "asset",
+      "name": "deli_ticket_9",
+      "x": 1544.5,
+      "y": 681.2,
+      "scale": 0.55,
       "appear": 0.2
      },
      {
@@ -12129,11 +12137,11 @@
       "type": "arrow",
       "from": [
        760,
-       380
+       440
       ],
       "to": [
        1150,
-       440
+       500
       ],
       "color": "#e0201b",
       "width": 8,
@@ -12143,8 +12151,8 @@
      {
       "type": "wordart",
       "text": "A REAL COBRA",
-      "x": 1250,
-      "y": 300,
+      "x": 1100,
+      "y": 370,
       "size": 84,
       "appear": 0.55,
       "top": "#ffffff",
@@ -12306,6 +12314,17 @@
       "boil": 0.3,
       "fill": "#ffffff",
       "appear": 0.1
+     },
+     {
+      "type": "label",
+      "text": "INDIAN COBRA",
+      "x": 1050,
+      "y": 420,
+      "size": 50,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
+      "appear": 0.35
      },
      {
       "type": "asset",
@@ -12564,7 +12583,7 @@
       "x": 1600,
       "y": 776.4,
       "scale": 0.55,
-      "pose": "shrug",
+      "pose": "stand",
       "expression": "confused",
       "facing": "left"
      },
@@ -13554,8 +13573,8 @@
      {
       "type": "wordart",
       "text": "SO LOW",
-      "x": 1400,
-      "y": 650,
+      "x": 1300,
+      "y": 560,
       "size": 96,
       "appear": 0.6,
       "top": "#ffffff",
@@ -13564,10 +13583,10 @@
      },
      {
       "type": "doug",
-      "x": 1720,
+      "x": 1620,
       "y": 791.6,
       "scale": 0.45,
-      "pose": "cower",
+      "pose": "stand",
       "expression": "gritted",
       "facing": "left",
       "appear": 0.2
@@ -13575,10 +13594,18 @@
      {
       "type": "asset",
       "name": "snake_costume_cobra",
-      "x": 1720,
+      "x": 1620,
       "y": 791.6,
       "scale": 0.45,
       "flip": true,
+      "appear": 0.2
+     },
+     {
+      "type": "asset",
+      "name": "deli_ticket_9",
+      "x": 1597.5,
+      "y": 788.0,
+      "scale": 0.45,
       "appear": 0.2
      },
      {
@@ -13875,8 +13902,8 @@
      {
       "type": "wordart",
       "text": "BLACK MAMBA",
-      "x": 960,
-      "y": 250,
+      "x": 800,
+      "y": 330,
       "size": 84,
       "appear": 0.3,
       "top": "#ffffff",
@@ -14329,8 +14356,8 @@
      {
       "type": "wordart",
       "text": "HIS OWN HISS",
-      "x": 1200,
-      "y": 270,
+      "x": 1000,
+      "y": 360,
       "size": 84,
       "appear": 0.45,
       "top": "#ffffff",
@@ -14685,7 +14712,7 @@
       "x": 1250,
       "y": 761.2,
       "scale": 0.65,
-      "pose": "arms_up",
+      "pose": "point",
       "expression": "angry",
       "facing": "left"
      },
@@ -14699,14 +14726,14 @@
      },
      {
       "type": "speech",
-      "x": 1350,
-      "y": 300,
+      "x": 1150,
+      "y": 380,
       "w": 200,
       "h": 90,
       "text": "ssss.",
       "tail": [
-       1250,
-       440
+       1230,
+       520
       ],
       "appear": 0.2
      },
@@ -14869,8 +14896,8 @@
       "x": 1300,
       "y": 761.2,
       "scale": 0.65,
-      "pose": "cower",
-      "expression": "shock",
+      "pose": "stand",
+      "expression": "sad",
       "facing": "left"
      },
      {
@@ -14880,6 +14907,13 @@
       "y": 761.2,
       "scale": 0.65,
       "flip": true
+     },
+     {
+      "type": "asset",
+      "name": "deli_ticket_9",
+      "x": 1267.5,
+      "y": 756.0,
+      "scale": 0.65
      },
      {
       "type": "label",
@@ -20068,8 +20102,8 @@
       "type": "text",
       "text": "2 VIPERS",
       "x": 520,
-      "y": 560,
-      "size": 40,
+      "y": 570,
+      "size": 34,
       "color": "#2b2b2b",
       "bold": true,
       "outline": null,
@@ -20089,8 +20123,8 @@
       "type": "text",
       "text": "2 VIPERS",
       "x": 960,
-      "y": 560,
-      "size": 40,
+      "y": 570,
+      "size": 34,
       "color": "#2b2b2b",
       "bold": true,
       "outline": null,
@@ -20110,8 +20144,8 @@
       "type": "text",
       "text": "2 VIPERS",
       "x": 1400,
-      "y": 560,
-      "size": 40,
+      "y": 570,
+      "size": 34,
       "color": "#2b2b2b",
       "bold": true,
       "outline": null,
@@ -22824,7 +22858,7 @@
       "x": 800,
       "y": 761.2,
       "scale": 0.65,
-      "pose": "crouch",
+      "pose": "all_fours",
       "expression": "hopeful",
       "facing": "right"
      },
@@ -22956,14 +22990,14 @@
       "x": 550,
       "y": 761.2,
       "scale": 0.65,
-      "pose": "crouch",
+      "pose": "all_fours",
       "expression": "hopeful",
       "facing": "right"
      },
      {
       "type": "text",
       "text": "=",
-      "x": 900,
+      "x": 940,
       "y": 700,
       "size": 160,
       "color": "#ffffff",
@@ -23018,7 +23052,7 @@
    },
    "camera": {
     "move": "zoom_in",
-    "x": 900,
+    "x": 940,
     "y": 700,
     "zoom": 1.06
    }
@@ -24509,8 +24543,8 @@
      {
       "type": "wordart",
       "text": "A SOFA",
-      "x": 1500,
-      "y": 330,
+      "x": 1450,
+      "y": 400,
       "size": 96,
       "appear": 0.15
      },
@@ -25159,8 +25193,8 @@
      {
       "type": "wordart",
       "text": "STILL COILED",
-      "x": 1600,
-      "y": 860,
+      "x": 960,
+      "y": 990,
       "size": 72,
       "appear": 0.65
      },
@@ -25789,8 +25823,8 @@
      {
       "type": "wordart",
       "text": "THE HUG",
-      "x": 1300,
-      "y": 330,
+      "x": 1450,
+      "y": 420,
       "size": 96,
       "appear": 0.5
      },
@@ -27641,15 +27675,15 @@
       "name": "calendar",
       "x": 1600,
       "y": 560,
-      "scale": 0.6,
+      "scale": 0.9,
       "appear": 0.2
      },
      {
       "type": "text",
       "text": "75-100 DAYS",
       "x": 1600,
-      "y": 560,
-      "size": 32,
+      "y": 575,
+      "size": 30,
       "color": "#2b2b2b",
       "bold": true,
       "outline": null,
@@ -27782,12 +27816,12 @@
      {
       "type": "arrow",
       "from": [
-       1450,
-       360
+       1350,
+       440
       ],
       "to": [
        1150,
-       470
+       520
       ],
       "color": "#e0201b",
       "width": 8,
@@ -27797,8 +27831,8 @@
      {
       "type": "wordart",
       "text": "THE WHOLE TIME",
-      "x": 1450,
-      "y": 300,
+      "x": 1300,
+      "y": 380,
       "size": 80,
       "appear": 0.4
      },
@@ -29638,7 +29672,7 @@
      {
       "type": "asset",
       "name": "king_cobra_reared",
-      "x": 1250,
+      "x": 1600,
       "y": 866,
       "scale": 0.95
      },
@@ -29646,8 +29680,8 @@
       "type": "text",
       "text": "THE OTHER KING",
       "x": 960,
-      "y": 420,
-      "size": 140,
+      "y": 440,
+      "size": 130,
       "color": "#e0201b",
       "bold": true,
       "outline": "#000000",
@@ -31185,8 +31219,8 @@
       "type": "text",
       "text": "CLOSES 7 PM",
       "x": 700,
-      "y": 600,
-      "size": 46,
+      "y": 654,
+      "size": 40,
       "color": "#2b2b2b",
       "bold": true,
       "outline": null,
