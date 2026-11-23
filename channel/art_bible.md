@@ -291,6 +291,11 @@ on `#141e1a`. Put a torch-light pool (`#3a4a40` ellipse) under him or move his f
 - **Crouch (from 024)**: `pose: "crouch"`, a low squat leaning in with the front hand held out at chest height (greeting a calf, a
   cub, anything small). Feet stay on the same ground line as `stand` (hips at the usual y), so no y change is needed. Not a fear pose:
   for fear use `cower`.
+- **All fours (from 056)**: `pose: "all_fours"`, Doug on hands and knees, body tilted 70 degrees forward, straight arms, shins flat
+  behind him, head up and facing forward so the face and cap stay upright. Hands and knees sit on the `stand` ground line (hips at the
+  usual y), so no y change is needed. About 420 x scale long (shin tips x -87, cap brim x +333; cap top about y -82). For "trying to look like an animal" beats.
+- **Costumes over `cower` (056)**: tube-suit costumes are drawn for upright poses. On `cower` the collar covers his mouth (y + 0) or
+  the hem sinks 40 x scale below the ground (y + 40). Use `stand`/`arms_up` with `gritted`/`shock` instead of `cower` in a costume.
 - **Thumbs up (from 005)**: use `pose: "thumbs_up"` (standing) or `"sit_thumbs_up"` (seated, same hip drop as `sit`).
   The hand point is local (+112, -156) x scale, with the thumb tip about 42 x scale above it, so aim arrows there. Never paste a
   separate hand prop next to Doug, because it reads as off-model. A seated Doug must sit *on* something: put the

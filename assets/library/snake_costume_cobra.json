@@ -1,6 +1,6 @@
 {
  "name": "snake_costume_cobra",
- "description": "Zipped felt tube suit from the neck to the ankles over Doug's rig, both legs in one flared tube (wide enough for walk1/walk2 and arms_up stances), front zipper with pull tab, stitched edges, small arm holes at the shoulders so Doug's own arms show, open neck collar (head, face and red cap fully visible), felt tail trailing on the ground behind him to (-262,+148). Deadpan felt, no snake face. Poses: stand, point, hands_hips, thumbs_up, shrug, arms_up, wave, walk1/walk2. Pose `cower` drops Doug's head ~40 units: place the suit at y + 40*scale for cower or the collar overlaps his chin. Indian cobra suit: brown #7a5a32 felt with cream front panel, plus a homemade cardboard hood #c9a46a: two flat corrugated flaps either side of the head at x +-134..+-190, y -330..-172 (set wider than requested so the right flap clears the cap brim, which reaches x +128), taped to the shoulders with tape strips that pass below the chin, never across the face. Anchor = Doug's hips (0,0), Doug scale-1 units (neck y -150, feet y +152); list after Doug at the same x/y/scale/flip. ",
+ "description": "Zipped felt tube suit from the neck to the ankles over Doug's rig, both legs in one flared tube (wide enough for walk1/walk2 and arms_up stances), front zipper with pull tab, stitched edges, small arm holes at the shoulders so Doug's own arms show, open neck collar (head, face and red cap fully visible), felt tail trailing on the ground behind him to (-262,+148). Deadpan felt, no snake face. Poses: stand, point, hands_hips, thumbs_up, shrug, arms_up, wave, walk1/walk2. Pose `cower` drops Doug's head ~40 units: place the suit at y + 40*scale for cower or the collar overlaps his chin. Indian cobra suit: brown #7a5a32 felt with cream front panel, plus a homemade cardboard hood #c9a46a: two flat corrugated flaps rising from the collar either side of the head, x +-36..+-200, y -288..-138 (art director 2026-11-23: reshaped from floating panels on long tape strips into hood wings joined to the collar; the inner edge stays outside the head and below/outside the cap brim, which reaches x +128 down to y -225; the bottom edge at y -138 leaves the `point` arm at y -122 visible), short tape strips over the collar joints, never across the face, never across the face. Anchor = Doug's hips (0,0), Doug scale-1 units (neck y -150, feet y +152); list after Doug at the same x/y/scale/flip. ",
  "anchor": [
   0,
   0
@@ -4174,32 +4174,40 @@
    "type": "poly",
    "points": [
     [
-     -134,
+     -36,
+     -138
+    ],
+    [
+     -36,
+     -152
+    ],
+    [
+     -62,
      -172
     ],
     [
-     -130,
-     -266.8
+     -132,
+     -236
     ],
     [
-     -145.2,
-     -324
+     -150,
+     -282
     ],
     [
-     -167.6,
-     -330
+     -176,
+     -288
     ],
     [
-     -190,
-     -290.5
+     -198,
+     -250
     ],
     [
-     -194,
-     -219.4
+     -200,
+     -180
     ],
     [
-     -176.0,
-     -172
+     -182,
+     -138
     ]
    ],
    "fill": "#c9a46a",
@@ -4210,12 +4218,12 @@
    "type": "line",
    "points": [
     [
-     -148.0,
-     -316
+     -150,
+     -268
     ],
     [
-     -144.0,
-     -182
+     -148,
+     -148
     ]
    ],
    "width": 2,
@@ -4225,12 +4233,12 @@
    "type": "line",
    "points": [
     [
-     -162.0,
-     -316
+     -166,
+     -276
     ],
     [
-     -158.0,
-     -182
+     -164,
+     -146
     ]
    ],
    "width": 2,
@@ -4240,12 +4248,27 @@
    "type": "line",
    "points": [
     [
-     -176.0,
-     -316
+     -182,
+     -262
     ],
     [
-     -172.0,
-     -182
+     -180,
+     -146
+    ]
+   ],
+   "width": 2,
+   "color": "#a8844a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -110,
+     -200
+    ],
+    [
+     -108,
+     -146
     ]
    ],
    "width": 2,
@@ -4253,9 +4276,9 @@
   },
   {
    "type": "spray",
-   "x": -167.6,
-   "y": -243.1,
-   "r": 22.4,
+   "x": -160,
+   "y": -200,
+   "r": 26,
    "color": "#a8844a",
    "density": 0.25
   },
@@ -4263,20 +4286,20 @@
    "type": "poly",
    "points": [
     [
-     -152.6,
-     -175.5
+     -24,
+     -158
     ],
     [
-     -36.6,
-     -129.5
+     -62,
+     -146
     ],
     [
-     -31.4,
-     -142.5
+     -57,
+     -133
     ],
     [
-     -147.4,
-     -188.5
+     -19,
+     -145
     ]
    ],
    "fill": "#eee6c4",
@@ -4287,32 +4310,40 @@
    "type": "poly",
    "points": [
     [
-     134,
+     36,
+     -138
+    ],
+    [
+     36,
+     -152
+    ],
+    [
+     62,
      -172
     ],
     [
-     130,
-     -266.8
+     132,
+     -236
     ],
     [
-     145.2,
-     -324
+     150,
+     -282
     ],
     [
-     167.6,
-     -330
+     176,
+     -288
     ],
     [
-     190,
-     -290.5
+     198,
+     -250
     ],
     [
-     194,
-     -219.4
+     200,
+     -180
     ],
     [
-     176.0,
-     -172
+     182,
+     -138
     ]
    ],
    "fill": "#c9a46a",
@@ -4323,12 +4354,12 @@
    "type": "line",
    "points": [
     [
-     148.0,
-     -316
+     150,
+     -268
     ],
     [
-     144.0,
-     -182
+     148,
+     -148
     ]
    ],
    "width": 2,
@@ -4338,12 +4369,12 @@
    "type": "line",
    "points": [
     [
-     162.0,
-     -316
+     166,
+     -276
     ],
     [
-     158.0,
-     -182
+     164,
+     -146
     ]
    ],
    "width": 2,
@@ -4353,12 +4384,27 @@
    "type": "line",
    "points": [
     [
-     176.0,
-     -316
+     182,
+     -262
     ],
     [
-     172.0,
-     -182
+     180,
+     -146
+    ]
+   ],
+   "width": 2,
+   "color": "#a8844a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     110,
+     -200
+    ],
+    [
+     108,
+     -146
     ]
    ],
    "width": 2,
@@ -4366,9 +4412,9 @@
   },
   {
    "type": "spray",
-   "x": 167.6,
-   "y": -243.1,
-   "r": 22.4,
+   "x": 160,
+   "y": -200,
+   "r": 26,
    "color": "#a8844a",
    "density": 0.25
   },
@@ -4376,20 +4422,20 @@
    "type": "poly",
    "points": [
     [
-     147.4,
-     -188.5
+     24,
+     -158
     ],
     [
-     31.4,
-     -142.5
+     62,
+     -146
     ],
     [
-     36.6,
-     -129.5
+     57,
+     -133
     ],
     [
-     152.6,
-     -175.5
+     19,
+     -145
     ]
    ],
    "fill": "#eee6c4",
