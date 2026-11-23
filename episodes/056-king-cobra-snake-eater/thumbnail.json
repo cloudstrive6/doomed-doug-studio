@@ -57,6 +57,18 @@
    "boil": 0
   },
   {
+   "type": "rect",
+   "x": 1100,
+   "y": 661,
+   "w": 200,
+   "h": 70,
+   "fill": "#2a8a3a",
+   "color": "#2a8a3a",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
    "type": "asset",
    "name": "indian_cobra",
    "x": 500,

@@ -1,6 +1,6 @@
 {
  "name": "deli_counter",
- "description": "Empty deli counter, front view: long pale-blue glass display case with highlight streaks and steel frame, empty steel trays inside, pale wood top, steel base cabinet, red ticket-roll dispenser on a short post at the right (top about (+430,-560)). No food, no text. Anchor bottom-centre; bbox x -500..+500, y -560..0.",
+ "description": "Empty deli counter, front view: long pale-blue glass display case with highlight streaks and steel frame, empty steel trays inside, pale wood top, steel base cabinet, red ticket-roll dispenser on a short post at the right (top about (+450,-560), x +406..+494; in s207/s222/s223 it sits fully behind the NOW SERVING box). No food, no text. Anchor bottom-centre; bbox x -500..+500, y -560..0.",
  "anchor": [
   0,
   0
@@ -599,19 +599,19 @@
    "type": "poly",
    "points": [
     [
-     424,
+     444,
      -470
     ],
     [
-     436,
+     456,
      -470
     ],
     [
-     436,
+     456,
      -520
     ],
     [
-     424,
+     444,
      -520
     ]
    ],
@@ -623,19 +623,19 @@
    "type": "poly",
    "points": [
     [
-     394,
+     414,
      -560
     ],
     [
-     466,
+     486,
      -560
     ],
     [
-     474,
+     494,
      -516
     ],
     [
-     386,
+     406,
      -516
     ]
    ],
@@ -645,7 +645,7 @@
   },
   {
    "type": "circle",
-   "x": 430,
+   "x": 450,
    "y": -538,
    "r": 12,
    "fill": "#a01410",
@@ -656,19 +656,19 @@
    "type": "poly",
    "points": [
     [
-     418,
+     438,
      -516
     ],
     [
-     442,
+     462,
      -516
     ],
     [
-     444,
+     464,
      -494
     ],
     [
-     416,
+     436,
      -494
     ]
    ],
@@ -678,7 +678,7 @@
   },
   {
    "type": "spray",
-   "x": 410,
+   "x": 430,
    "y": -548,
    "r": 10,
    "color": "#ff6a5a",

@@ -100,3 +100,77 @@ documented in `channel/art_bible.md` and `docs/SCENE_SCHEMA.md`.
 
 I will check items 1-4 at keyframes, along with the NOW SERVING HUD reserved zone (x 1300-1860, y 110-275), which must stay
 clear of every new asset placement.
+
+---
+
+# 056 keyframe review (art director, 2026-11-23)
+
+**Verdict: FAIL.** There are 12 composition fixes, all for the **director**. No illustrator fixes are needed. The style is
+consistent and Doug is on-model, so this is a short re-render: re-run `keyframes --shots` on the listed shots only.
+
+Reviewed: `build/contact/sheet_01..19.png` (s001-s223 + endslate), with full-res crops from `build/keyframes/` for every
+flagged shot.
+
+## What passes
+- **Two-tier style**: this holds in all 224 frames. Doug and the humans are uniform crude ink. Every snake, the lizard, the dog,
+  the nest and the deli counter are detailed tier. Nothing is gory. Every death (s025, s073, s100, s149, s168, s219) is a
+  bulge, a knot, a cap or a cut to black.
+- **Doug on-model**: he is on-model everywhere. The cap is visible in every shot, including the ghosts (s025, s150, s223), the
+  flat suit (s072), the sleeper (s182) and all_fours (s147-s148). Costume continuity matches `decisions.md`. Expressions stay
+  within the fixed set.
+- **Asset-review fixes 1-4 are all done**: `all_fours` is in s147/s148, and the `=` clears the cap brim. The cobra-suit beats
+  have no hidden hands. The cower beats were swapped as asked (s046 `arms_up`+shock, s090 `stand`+gritted, s099 `stand`+sad
+  droop). s080 carries the INDIAN COBRA label.
+- **Zone palette**: it matches the director's severity ramp (night hut, bright day, overcast/canopy, night/dusk, late dusk,
+  boss night, closing slate `#2a2030`). Diagram cards are cream. Title cards are red with a black outline. The stinger cards
+  (s028, s077, s128, s171) have no caption bar on purpose (`topbar: false`), which is fine as a format beat.
+- **Counter + NOW SERVING HUD**: it is consistent on every segment shot and turns red at s218 as specified. Its size-26 text is
+  legible at 1080p.
+
+## Fixes (director)
+1. **s005, s006, s007, s016, s027 (red glow on brown floor/ground reads as a blood pool).** The krait silhouettes lie in red
+   speckle on the hut floor `#5a4b3d` and on `#8a7a5a`. Per the art bible's glow rules for red/brown surfaces, use
+   `"glow": "#5e4670"` (dull purple) on these five, or `glow_r: 0` plus a body-centre spray kept above the ground line (003 s146
+   method). s004/s076/s127 are on cool grounds and are fine.
+2. **s077: "VENOMOUS." crosses the Indian cobra's head.** The text at y 430 sits on the hood. Raise the text to about y 300,
+   or drop the cobra about 120 px.
+3. **s078: "THE COBRA" title covers the king cobra's head.** Only the eye shows through the "H". Move the cobra left/down
+   (head clear of x 560-1700, y 160-280), or move the title to the right/up. The first colour look at the item's creature
+   must show its face.
+4. **s052: the "hi friend?" bubble enters the reserved HUD zone.** Its right edge is about x 1370, y 200-300. Move the bubble
+   left (centre about x 1050) or below y 290.
+5. **s176: "AGAIN AND AGAIN" runs into the HUD zone.** It ends at about x 1360, y 220-290, right against the NOW SERVING box.
+   Use size about 70 centred at x 760, or move it below y 300.
+6. **s190: "NOT A SNAKE" wordart sits on the tree canopy** (green-on-green, against the treeline rule). Move it into the clear
+   band at x 700-1200, y about 330, clear of the cobra's head and the HUD.
+7. **s159: the red swing arrows cross Doug's face, and his red cap sits on the red sofa.** Keep the arrows above the cap crown
+   (arc apex about y 470, ends outside the sofa arms). Change the sofa fill to a non-red colour (e.g. teal `#3f7f86` or
+   mustard) so the signature cap still pops.
+8. **s091: "NATIONAL ZOO" is printed across the sign's top frame edge.** The text is at y 560 but the board face is about
+   y 585-660. Set the text to y about 622 and size about 40 so it sits inside the cream face.
+9. **s207: "DOUG" overflows the `price_tag`** (the G is clipped at the tag edge). Use size 24 and x about 1668.
+10. **s222, s223: the "10" display box covers the red ticket dispenser** on `deli_counter`. Only a red sliver shows at the
+    box's left edge, so the payoff prop is lost. Move the box up so it sits above the dispenser (bottom edge above the
+    dispenser top, about 90 px higher), or put it to the right of the dispenser post.
+11. **Layout variety: the Nest item repeats one composition** (tree at left, nest at centre, Doug at right) in s171-s181
+    (11 shots, broken only by s182) and again in s186-s194 (9 shots). This is more than the 2-6-change beat group. Break each
+    run with at least two different set-ups, for example:
+    - s174 as a low close-up of the female and the leaves (scale 1.3, no tree);
+    - s178 as a cream diagram card (55 cm / 1.5 m on `king_cobra_nest_cutaway`);
+    - s179 as a `king_cobra_nest_cutaway` push-in on the eggs;
+    - s189 as a cream GUARDING / HUNTING card;
+    - s193 framed from the other side, with the tree on the right.
+12. **s182: sleeping Doug floats above the roof** (his body extends in mid-air past the peak), and his black lines nearly
+    vanish on `#7a3b3a`. Lay him along the left roof slope (rotate to match it, body on the shingles), and add a light ink
+    or white outline as on other dark grounds.
+
+## Nits (no re-review needed)
+- s025, s150: the ghost wears its cap and a dropped cap is also in frame. That breaks the director's own "never two caps" note.
+  For s025, I suggest dropping the floor cap and keeping the ticket. s150 can stay, because the cap beside the bulge is the
+  death image from s149.
+- s186-s192: the `garden_rake` reads fine at full size but is thin in the contact sheet. You could scale it up to about 1.1.
+- s209-s213: these are five identical four-cobra line-ups. This is acceptable as build-up because each shot adds a label or a
+  circle, but s213 could push in 8% to close the run.
+
+Once fixes 1-12 are re-rendered, I will re-check those shots only. Composition fixes go to the director. There are no
+asset changes.

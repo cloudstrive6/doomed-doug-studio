@@ -40,10 +40,89 @@
   {
    "type": "asset",
    "name": "pit_viper_green",
-   "x": 800,
-   "y": 250,
-   "scale": 0.8,
-   "rotate": 58,
+   "x": 795,
+   "y": 196,
+   "scale": 1.2,
+   "rotate": 70,
+   "boil": 0,
+   "silhouette": true,
+   "glow_r": 0,
+   "rim": {
+    "color": "#ffffff",
+    "px": 7
+   }
+  },
+  {
+   "type": "asset",
+   "name": "pit_viper_green",
+   "x": 795,
+   "y": 196,
+   "scale": 1.2,
+   "rotate": 70,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     836,
+     308
+    ],
+    [
+     802,
+     294
+    ]
+   ],
+   "color": "#e0201b",
+   "width": 9,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     840,
+     326
+    ],
+    [
+     804,
+     338
+    ]
+   ],
+   "color": "#e0201b",
+   "width": 9,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     908,
+     272
+    ],
+    [
+     930,
+     244
+    ]
+   ],
+   "color": "#e0201b",
+   "width": 9,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     926,
+     279
+    ],
+    [
+     962,
+     262
+    ]
+   ],
+   "color": "#e0201b",
+   "width": 9,
    "boil": 0
   },
   {

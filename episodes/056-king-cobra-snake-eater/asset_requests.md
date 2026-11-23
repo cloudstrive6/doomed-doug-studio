@@ -272,3 +272,32 @@ Notes for the director / art director (things that changed from the brief):
 - Measured bboxes are in each JSON `description`. They differ a little from the brief (for example `king_cobra_crawl` y -86..0,
   `king_cobra_bulge` bulge top -108, `king_cobra_on_nest` coils to -423, `snake_knot_doug` top -338), but every anchor and key point is as requested.
 - Generator scripts: `episodes/056-king-cobra-snake-eater/build/illus/` (scratch; `python build_all.py [names]` rebuilds them).
+
+---
+
+## Round 2 changes (illustrator, 2026-11-23; visual_review.md Round 1 items 5, 8, 13, 16)
+
+Preview: `assets/previews/056-assets-round2.png` (regenerate with `python -m studio asset-preview journal_paper_cobra_python
+king_cobra_swallowing_python king_cobra_crawl_tagged king_cobra_strike_tagged stopwatch_30min deli_counter --out 056-assets-round2.png`).
+Generator: `build/illus/gen_r2.py`. I have not touched shotlist.json; the director needs to make the name swaps below.
+I test-rendered s030, s132, s116, s158, s164 and s222 with these swaps applied and all six read correctly.
+
+- [x] **Item 5, s158**: new **`journal_paper_cobra_python`**. It drops in for `journal_paper` (same centre anchor and 360x480 size).
+  The engraved monitor-lizard plate is replaced by a colour photo of a dusk wetland with a king cobra swallowing a reticulated
+  python. Director: in s158, change `journal_paper` to `journal_paper_cobra_python`. `journal_paper` itself is unchanged, so
+  s133 and other episodes are not affected. If the photo looks small at scale 1.0, scale 1.2-1.3 still clears the
+  WETLAND RESERVE label. There is also a new standalone **`king_cobra_swallowing_python`** (same family and bbox as the other
+  `king_cobra_swallowing_*` drawings) if a full-size shot is wanted.
+- [x] **Item 8, s030 / s132**: new **`king_cobra_crawl_tagged`** and **`king_cobra_strike_tagged`**. They have the same geometry
+  and anchors as `king_cobra_crawl` / `king_cobra_strike`, plus a safety-orange radio collar on the neck (grey transmitter box with
+  a red light, light-grey whip antenna). It reads on navy and on cream.
+  Director: change the cobra asset name and **delete the `radio_collar` element** in both shots.
+  - s030 (crawl at 1340,760 x0.7): the collar sits at about scene (1574,718). Move the RADIO TAG label to about (1574,620), just
+    above it.
+  - s132 (strike at 700,866 x0.8): the collar sits at about scene (776,743). Add a RADIO TAG label at about (600,640) if wanted.
+- [x] **Item 16, s116 / s164**: new **`stopwatch_30min`**. It drops in for `wait_stopwatch` (same anchor and size), with a red
+  hand pointing to 30 and the elapsed half of the face shaded pink. Director: change the name in s116 and s164.
+  `wait_stopwatch` keeps its blank face because 022 overlays text on it.
+- [x] **Item 13, s222 / s223**: **`deli_counter`** is fixed in the library, so no shotlist change is needed. The red ticket
+  dispenser moved +20 (now x +406..+494, top at y -560), so at x=700 it sits fully behind the "10" box (x 1100-1520). In s207,
+  which has no box, it still shows at the right end of the counter.
