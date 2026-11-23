@@ -70,3 +70,73 @@ is clean.
 
 Routing summary: director 1-4, 6, 7, 9-11, 14, 15, 17; illustrator 5, 8, 13, 16; graphic designer 12. No art-director
 style issues found.
+
+## Round 2: re-check of Round 1 fixes (keyframes + thumbnails), 2026-11-23
+
+Checked at full res in `build/keyframes/`: s009, s030, s041, s052, s065, s077, s078, s091, s108-s125, s132, s134,
+s158, s164, s182, s185-s192, s198, s222, s223, plus `build/thumbnail{,_b,_c}.png` and their `_small` versions.
+
+**VERDICT: PASS** (keyframes and thumbnails). Nothing below blocks the render.
+
+Round 1 items, re-checked:
+1. s078 fixed. The king cobra's head is fully clear of the title.
+2. s077 fixed. VENOMOUS. sits above the cobra and the hood is clear.
+3. s091 fixed. NATIONAL ZOO sits inside the board face.
+4. s134 and s198 fixed. The circle is on the southern tip of the peninsula, inside the map.
+5. s158 fixed. The newspaper photo now shows a cobra with a python, not the monitor lizard.
+6. s052 mostly fixed. The bubble reads "bye friend?" and the tear sells it. In the tube suit there is no visible
+   waving arm (see minor note a).
+7. s190 fixed. NOT A SNAKE sits on open sky and the arrow lands on Doug.
+8. s030 and s132 fixed. The radio tag is a collar on the neck with a RADIO TAG label.
+9. s109-s118 run broken. s110 is a close-up, s116 is a cream info card with a stopwatch that has a hand, and s117 is
+   a tight two-shot.
+10. s122-s125 and s186-s191 runs broken. s124 is a Doug/clipboard close-up, s188 is a close-up with the cobra
+    looming, s189 is a cream card, and s191 is a wide walk-off.
+11. s041 fixed. The route is onshore down the south-west.
+12. Thumbnails pass. In B the viper is now larger, white-outlined and clearly biting, and reads as a snake at
+    `_small`. The stray sliver in A is gone. A, B and C each have one focal point, legible text at feed size, and
+    match their paired titles.
+13. s222 and s223 fixed. The dispenser is clear of the NOW SERVING box.
+14. s065 fixed. The FOLDED IN HALF arrow points at the bulge.
+15. s009 fixed. A COMMON KRAIT label sits beside slot 1.
+16. s116 and s164 fixed. The stopwatches have hands.
+
+s182 (newly listed) is fine. Doug is asleep on the house roof and matches the "sleeping on the roof of the nursery"
+line. It is not kids-coded.
+
+### Minor (optional, fix if cheap; does not block)
+
+a. **s110** (director/illustrator): the narration is "grabbed them right behind the head", but the cobra is only
+   tongue-flicking at the viper and its jaws don't touch it. If cheap, overlap the cobra's closed jaws onto the
+   viper's neck, just behind its head, and keep the arrow.
+b. **s052** (director): "waving goodbye", but the tube suit shows no arm. If the rig allows it, add one raised arm
+   or hand at the suit's shoulder (right side, under the bubble tail).
+c. **s188** (director): the rake handle crosses the final "S" of FREEZES. Shift the text about 80 px left, or up
+   to about y=1000.
+d. **s111-s115** (director): these share the same branch set, and s112, s113 and s115 all have the upright cobra
+   in the same spot. The overlays differ (tally, stopwatch, viper on the branch), so this is acceptable. A small
+   push-in on s113 would add some motion.
+
+Routing: director a-d, illustrator a. No graphic-designer or art-director issues.
+
+## Round 3: thumbnail B (render 18:28 UTC)
+
+VERDICT: PASS
+
+Screened `build/thumbnail_b.png` and `build/thumbnail_b_small.png` against "Why One King Cobra Killed and Ate Over
+Two Dozen Pit Vipers" / THEY BITE BACK. This replaces the Round 2 note on B, which described the older render.
+
+- Feed size: at `_small` the bright green viper with its triangular head reads as a snake against the olive cobra
+  and the yellow background. The bite on the cobra's crown is the one clear focal point. THEY BITE BACK is legible.
+- Cropping: nothing is cut off. The viper's tail clears the top edge. The cobra's tail runs off the left edge on
+  purpose. The cobra's body passes below the text block and does not overlap it.
+- Doug: on-model (red cap, white round head, stick body), out of costume, scared face with a sweat drop, holding a
+  clipboard. He is small but you can still pick him out at `_small` by the red cap.
+- Tally: 5 groups of 5 plus 1 makes 26, which matches "over two dozen".
+- Gore and kids: no blood or wounds, only red cartoon impact ticks. Adult-coded, nothing nursery-like.
+- Misleading check: no. The script says "pit vipers bite back, and in nine of those hunts, the cobra appeared to get
+  bitten" (script.md:134), and the cobra still wins per the title. The text and image complement the title without
+  repeating it.
+
+Optional (graphic designer, does not block): Doug is about 6% of frame width. If cheap, scale him up about 15% to
+make him easier to see on mobile.

@@ -47,3 +47,38 @@
 - Shorts: short01 s104-s118 (26 pit vipers, ends on "ate it anyway", ~55 s); short02 s161-s169 (2018 cobra/python double death, hook
   "A king cobra once swallowed a python three quarters its own length." over s154, ends on Doug's knot death, ~46 s); short03 s195-s207
   (king cobras eat king cobras, ends on the deli punchline, ~44 s). Titles/descriptions left for the youtube-titler.
+
+## 2026-11-23: thumbnail A/B/C approval (creative director)
+Checked `build/thumbnail{,_b,_c}.png` and the `_small` versions against the ranked `packaging.variants` in metadata.json and
+visual_review.md round 1 (thumbnails passed, minor note 12). Stage unchanged.
+
+- **A: APPROVE.** "Why King Cobras Hunt the Deadliest Snakes in Asia" + NEXT IN LINE. I would click. The banded krait dangling
+  from the king cobra's mouth is the hook and reads at feed size. Doug in the krait suit with ticket 9 turns "deadliest snakes" into a
+  queue he has joined. The title and the text don't repeat each other, and there is no DEADLIEST/KING/COBRA text. The krait is the
+  banded one, which satisfies the packaging guard. The stray green sliver from note 12 is no longer visible in the current render.
+- **B: CHANGES REQUIRED** ("Why One King Cobra Killed and Ate Over Two Dozen Pit Vipers" + THEY BITE BACK). As it stands I
+  would not click: at `_small` the pit viper reads as a green leaf or pickle, so the one fact the text sells is missing.
+  1. Scale the pit viper up about 1.5x and redraw it so it reads as a snake: a clear triangular viper head, open jaws visibly
+     clamped on the crown of the cobra's head, a dark outline instead of the white sticker glow, and a yellow lip or a pale belly line
+     for contrast against the olive cobra.
+  2. Put Doug out of costume (plain Doug with the clipboard, per the concept and the script's item-5 continuity). At small size the
+     brown tube suit reads as a sleeping bag and confuses the joke. Keep him fully in frame. The tail now runs off the right edge.
+  3. Optional: add a few tally marks (about 26) scratched into the ground or on a stump beside Doug. They carry "two dozen"
+     without repeating any of the title's words.
+  Re-render B and `_small`. The visual screener re-checks only B. A and C don't block on this.
+- **C: APPROVE.** "King Cobras Eat Asia's Deadliest Snakes, Even Each Other" + NOW SERVING 9. I would click. An oblivious
+  Doug in a king cobra suit, holding ticket 9 under a NOW SERVING 9 display, while a real king cobra gapes at him: "Even Each
+  Other" reads in one glance, and every element is legible at `_small`. It is the opener's promised payoff, so it doesn't mislead.
+- Note for the titler (not blocking): "Why ..." (T9) and "Deadliest" have both appeared in recent titles (051, 054, 055). If B is
+  still unfinished at upload, run A against C rather than holding the test.
+
+## 2026-11-23: thumbnail B re-review (creative director): APPROVE
+Checked the 18:28 re-render of `build/thumbnail_b.png` and `_small` against my three required changes. The VS round 2 entry (18:26)
+predated this render, so I had the visual screener re-check B on its own: Round 3, PASS.
+1. **Pit viper: done.** It is bigger and bright green, with a triangular head, a dark outline and yellow lips, and its open jaws are
+   clamped on the cobra's crown. At `_small` it reads as a snake biting a snake, not as a leaf. THEY BITE BACK now sells something visible.
+2. **Doug: done.** He is out of costume, with the clipboard and a shocked face, fully in frame and on-model, which matches the item-5 continuity.
+3. **Tally marks: done.** There are 26 (five groups of five plus one) on the ground. They carry "over two dozen" without repeating the title.
+I would click: one focal point, a clear bite, and a title and text that don't repeat each other. It is not misleading (script l.134: the
+cobra gets bitten in nine hunts and still wins). Optional and not blocking: scale Doug up about 15% for phones.
+**A, B and C are all approved.** Stage → art_approved.

@@ -174,3 +174,38 @@ flagged shot.
 
 Once fixes 1-12 are re-rendered, I will re-check those shots only. Composition fixes go to the director. There are no
 asset changes.
+
+---
+
+# 056 keyframe review, round 2 (art director, 2026-11-23)
+
+**Verdict: PASS.** All 12 round-1 fixes are resolved. No new issues in the 38 re-rendered shots.
+
+Re-checked: the 38 changed shots in `build/keyframes/` (s005 s006 s007 s009 s016 s027 s030 s041 s052 s065 s077 s078 s091
+s110 s116 s117 s124 s132 s134 s158 s159 s164 s174 s176 s178 s179 s181 s182 s188 s189 s190 s191 s193 s198 s207 s213 s222
+s223), with full-res crops against the HUD reserved zone (x 1300-1860, y 110-275), plus a fresh s171-s194 run sheet for the
+layout check.
+
+1. s005/s006/s007/s016/s027: **resolved.** The glow is now dull purple on every brown/hut floor, and nothing reads as a blood pool.
+2. s077: **resolved.** "VENOMOUS." is raised well above the Indian cobra's hood.
+3. s078: **resolved.** "THE COBRA" moved right, and the king cobra's whole head and face are clear. The title also clears Doug's cardboard hood.
+4. s052: **resolved.** The bubble ("bye friend?") ends at about x 1300, y 255, just outside the HUD zone.
+5. s176: **resolved.** "AGAIN AND AGAIN" is smaller, centred left, and ends about x 1080, clear of the HUD.
+6. s190: **resolved.** "NOT A SNAKE" is on the plain maroon band (x about 1140-1710, y about 440), off the canopy, clear of the
+   cobra's head and below the HUD.
+7. s159: **resolved.** The sofa is teal, the cap pops, and the swing arrows arc above the cap crown with their ends outside the sofa arms.
+8. s091: **resolved.** "NATIONAL ZOO" sits inside the cream board face.
+9. s207: **resolved.** "DOUG" fits inside the `price_tag`.
+10. s222/s223: **resolved.** The "10" box is to the right of the dispenser post, so the red dispenser is fully visible, and the box
+    top (about y 300) is below the HUD zone.
+11. Nest layout variety: **resolved.** s174 is a low leaf close-up, s178 is a cream 55 cm / 1.5 m diagram, s179 is a cutaway
+    push-in, s181/s193 are flipped (tree on the right), and s189 is a cream GUARDING / ~~HUNTING~~ card. The longest identical
+    set-up in s171-s194 is now 3 shots.
+12. s182: **resolved.** Doug lies along the left roof slope with his head at the peak and a white ink outline, and he reads on
+    `#7a3b3a`. Crude, but intended.
+
+Other re-rendered shots (s009, s030, s041, s065, s110, s116, s117, s124, s132, s134, s158, s164, s188, s191, s198, s213):
+they are on-model and on-palette, the text is legible and inside the safe area, and the HUD is clear. Doug is auto-white on
+dark grounds (s009), and s213 has the suggested push-in.
+
+Remaining round-1 nits (s025 two caps, rake scale) are optional and do not block.
