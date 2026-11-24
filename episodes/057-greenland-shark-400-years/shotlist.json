@@ -378,11 +378,11 @@
      {
       "type": "arrow",
       "from": [
-       800,
+       850,
        520
       ],
       "to": [
-       800,
+       850,
        700
       ],
       "color": "#e0201b",
@@ -2003,11 +2003,19 @@
       "appear": 0.3
      },
      {
+      "type": "asset",
+      "name": "arctic_map",
+      "x": 1250,
+      "y": 860,
+      "scale": 0.2,
+      "appear": 0.55
+     },
+     {
       "type": "label",
       "text": "WESTERN GREENLAND",
-      "x": 760,
-      "y": 940,
-      "size": 40,
+      "x": 1250,
+      "y": 990,
+      "size": 34,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
@@ -2248,15 +2256,15 @@
      {
       "type": "wordart",
       "text": "100+ YEARS",
-      "x": 1300,
-      "y": 700,
-      "size": 96,
+      "x": 1360,
+      "y": 720,
+      "size": 88,
       "appear": 0.45
      },
      {
       "type": "doug",
-      "x": 1600,
-      "y": 900,
+      "x": 1760,
+      "y": 940,
       "scale": 0.36,
       "pose": "thumbs_up",
       "expression": "hopeful",
@@ -3677,13 +3685,6 @@
       "flip": true
      },
      {
-      "type": "asset",
-      "name": "doug_cap",
-      "x": 560,
-      "y": 150,
-      "scale": 0.4
-     },
-     {
       "type": "doug",
       "x": 560,
       "y": 420,
@@ -4455,7 +4456,7 @@
       "type": "wordart",
       "text": "10 PUPS",
       "x": 860,
-      "y": 340,
+      "y": 290,
       "size": 90,
       "appear": 0.75
      },
@@ -4520,13 +4521,13 @@
      {
       "type": "asset",
       "name": "greenland_shark_pup",
-      "x": 760,
+      "x": 743,
       "y": 560,
-      "scale": 0.9
+      "scale": 1.2
      },
      {
       "type": "asset",
-      "name": "ruler",
+      "name": "ruler_40cm",
       "x": 760,
       "y": 700,
       "scale": 1.25
@@ -4709,7 +4710,7 @@
      },
      {
       "type": "doug",
-      "x": 1620,
+      "x": 1760,
       "y": 860,
       "scale": 0.36,
       "pose": "stand",
@@ -6456,17 +6457,17 @@
      {
       "type": "asset",
       "name": "placard",
-      "x": 900,
-      "y": 760,
-      "scale": 0.6,
-      "rotate": 80
+      "x": 1029.1964019240697,
+      "y": 943.7621025179592,
+      "scale": 0.75,
+      "rotate": 14
      },
      {
       "type": "text",
       "text": "WELCOME",
-      "x": 1060,
-      "y": 720,
-      "size": 40,
+      "x": 1080,
+      "y": 740,
+      "size": 34,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0.2
@@ -6979,9 +6980,9 @@
      {
       "type": "asset",
       "name": "calendar_page_flying",
-      "x": 1100,
-      "y": 300,
-      "scale": 0.45
+      "x": 1500,
+      "y": 360,
+      "scale": 1.0
      },
      {
       "type": "doug",
@@ -7856,7 +7857,7 @@
      {
       "type": "label",
       "text": "4 CM A YEAR",
-      "x": 820,
+      "x": 740,
       "y": 300,
       "size": 50,
       "bold": true,
@@ -7980,7 +7981,7 @@
      {
       "type": "label",
       "text": "4 CM A YEAR",
-      "x": 820,
+      "x": 740,
       "y": 300,
       "size": 50,
       "bold": true,
@@ -8044,8 +8045,8 @@
      {
       "type": "wordart",
       "text": "4X FASTER",
-      "x": 1420,
-      "y": 980,
+      "x": 470,
+      "y": 140,
       "size": 76,
       "appear": 0.6
      },
@@ -9835,19 +9836,7 @@
       "x": -10,
       "y": -10,
       "w": 1940,
-      "h": 450,
-      "fill": "#c9d3dc",
-      "color": "#c9d3dc",
-      "width": 0,
-      "boil": 0,
-      "outline": false
-     },
-     {
-      "type": "rect",
-      "x": -10,
-      "y": 430,
-      "w": 1940,
-      "h": 670,
+      "h": 1100,
       "fill": "#3a9ad9",
       "color": "#3a9ad9",
       "width": 0,
@@ -9857,177 +9846,364 @@
      {
       "type": "spray",
       "x": 960,
-      "y": 784,
-      "r": 900,
+      "y": 600,
+      "r": 1000,
       "color": "#6fc1ee",
       "density": 0.01
      },
      {
-      "type": "poly",
-      "points": [
-       [
-        -10,
-        430
-       ],
-       [
-        1930,
-        430
-       ],
-       [
-        1930,
-        482
-       ],
-       [
-        1790,
-        494
-       ],
-       [
-        1530,
-        480
-       ],
-       [
-        1300,
-        496
-       ],
-       [
-        1000,
-        482
-       ],
-       [
-        700,
-        494
-       ],
-       [
-        400,
-        480
-       ],
-       [
-        150,
-        492
-       ],
-       [
-        -10,
-        484
-       ]
-      ],
-      "fill": "#f7fbff",
-      "color": "#8fb8d6",
-      "width": 3,
-      "boil": 0.4
+      "type": "asset",
+      "name": "greenland_shark_head",
+      "x": 1240,
+      "y": 620,
+      "scale": 0.95
+     },
+     {
+      "type": "asset",
+      "name": "eye_copepod",
+      "x": 1240,
+      "y": 620,
+      "scale": 0.855
      },
      {
       "type": "rect",
-      "x": 700,
-      "y": 428,
-      "w": 160,
-      "h": 72,
-      "fill": "#3a9ad9",
-      "color": "#3a9ad9",
-      "width": 0,
+      "x": 1560,
+      "y": 300,
+      "w": 70,
+      "h": 790,
+      "fill": "#f2d03b",
+      "color": "#2b2b2b",
+      "width": 4,
       "boil": 0,
-      "outline": false
+      "outline": true
      },
      {
       "type": "line",
       "points": [
        [
-        700,
-        430
+        1560,
+        340
        ],
        [
-        706,
-        496
+        1578,
+        340
        ]
       ],
-      "color": "#8fb8d6",
-      "width": 4
+      "color": "#2b2b2b",
+      "width": 3
      },
      {
       "type": "line",
       "points": [
        [
-        860,
-        430
+        1560,
+        380
        ],
        [
-        854,
-        496
+        1578,
+        380
        ]
       ],
-      "color": "#8fb8d6",
-      "width": 4
-     },
-     {
-      "type": "doug",
-      "x": 480,
-      "y": 391.5,
-      "scale": 0.55,
-      "pose": "on_back",
-      "expression": "dead",
-      "gear": [
-       "cap_taken"
-      ]
-     },
-     {
-      "type": "spray",
-      "x": 450,
-      "y": 400,
-      "r": 150,
-      "color": "#ffffff",
-      "density": 0.22
-     },
-     {
-      "type": "asset",
-      "name": "tape_measure",
-      "x": 700,
-      "y": 410,
-      "scale": 0.35
-     },
-     {
-      "type": "asset",
-      "name": "doug_cap",
-      "x": 640,
-      "y": 378,
-      "scale": 0.28,
-      "rotate": -8
-     },
-     {
-      "type": "asset",
-      "name": "greenland_shark",
-      "x": 1100,
-      "y": 800,
-      "scale": 0.55
+      "color": "#2b2b2b",
+      "width": 3
      },
      {
       "type": "line",
       "points": [
        [
-        1360,
-        800
+        1560,
+        420
        ],
        [
-        1380,
-        800
+        1578,
+        420
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        460
+       ],
+       [
+        1594,
+        460
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        500
+       ],
+       [
+        1578,
+        500
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        540
+       ],
+       [
+        1578,
+        540
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        580
+       ],
+       [
+        1578,
+        580
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        620
+       ],
+       [
+        1594,
+        620
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        660
+       ],
+       [
+        1578,
+        660
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        700
+       ],
+       [
+        1578,
+        700
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        740
+       ],
+       [
+        1578,
+        740
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        780
+       ],
+       [
+        1594,
+        780
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        820
+       ],
+       [
+        1578,
+        820
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        860
+       ],
+       [
+        1578,
+        860
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        900
+       ],
+       [
+        1578,
+        900
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        940
+       ],
+       [
+        1594,
+        940
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        980
+       ],
+       [
+        1578,
+        980
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        1020
+       ],
+       [
+        1578,
+        1020
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1560,
+        1060
+       ],
+       [
+        1578,
+        1060
+       ]
+      ],
+      "color": "#2b2b2b",
+      "width": 3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1530,
+        640
+       ],
+       [
+        1660,
+        640
        ]
       ],
       "color": "#e0201b",
-      "width": 5,
-      "dash": [
-       14,
-       12
-      ],
+      "width": 7,
       "appear": 0.3
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        1530,
+        652
+       ],
+       [
+        1660,
+        652
+       ]
+      ],
+      "color": "#e0201b",
+      "width": 7,
+      "appear": 0.4
      },
      {
       "type": "label",
       "text": "LESS THAN 1 CM",
-      "x": 1330,
+      "x": 640,
       "y": 960,
-      "size": 44,
+      "size": 48,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
-      "appear": 0.35
+      "appear": 0.45
      },
      {
       "type": "label",
@@ -10058,6 +10234,12 @@
       "fill": "#ffffff"
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 1500,
+    "y": 640,
+    "zoom": 1.06
    }
   },
   {
@@ -14625,13 +14807,6 @@
       "appear": 0.2
      },
      {
-      "type": "asset",
-      "name": "doug_cap",
-      "x": 520,
-      "y": 150,
-      "scale": 0.35
-     },
-     {
       "type": "label",
       "text": "DOUG DEATHS: 417",
       "x": 1590,
@@ -15196,7 +15371,7 @@
       "text": "REINDEER",
       "x": 760,
       "y": 500,
-      "size": 44,
+      "size": 40,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0.2,
@@ -15311,7 +15486,7 @@
       "text": "REINDEER",
       "x": 760,
       "y": 500,
-      "size": 44,
+      "size": 40,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0.2
@@ -15331,7 +15506,7 @@
       "text": "HORSE (PARTS)",
       "x": 760,
       "y": 625,
-      "size": 44,
+      "size": 40,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0.2,
@@ -15446,7 +15621,7 @@
       "text": "REINDEER",
       "x": 760,
       "y": 500,
-      "size": 44,
+      "size": 40,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0.2
@@ -15465,7 +15640,7 @@
       "text": "HORSE (PARTS)",
       "x": 760,
       "y": 625,
-      "size": 44,
+      "size": 40,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0.2
@@ -15485,7 +15660,7 @@
       "text": "POLAR BEAR (REMAINS)",
       "x": 760,
       "y": 750,
-      "size": 36,
+      "size": 40,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0.2,
@@ -16345,6 +16520,17 @@
        12
       ],
       "appear": 0.2
+     },
+     {
+      "type": "label",
+      "text": "WHALE MEAT",
+      "x": 1050,
+      "y": 560,
+      "size": 38,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
+      "appear": 0.3
      },
      {
       "type": "asset",
@@ -17949,7 +18135,7 @@
       "text": "REINDEER",
       "x": 760,
       "y": 500,
-      "size": 44,
+      "size": 40,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0.2
@@ -17968,7 +18154,7 @@
       "text": "HORSE (PARTS)",
       "x": 760,
       "y": 625,
-      "size": 44,
+      "size": 40,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0.2
@@ -17987,7 +18173,7 @@
       "text": "POLAR BEAR (REMAINS)",
       "x": 760,
       "y": 750,
-      "size": 36,
+      "size": 40,
       "color": "#2b2b2b",
       "bold": true,
       "boil": 0.2
@@ -18007,7 +18193,7 @@
       "text": "PICNIC",
       "x": 760,
       "y": 875,
-      "size": 44,
+      "size": 40,
       "color": "#c0181b",
       "bold": true,
       "boil": 0.2,
@@ -18943,42 +19129,151 @@
       "y": -10,
       "w": 1940,
       "h": 1100,
-      "fill": "#f4f1dc",
-      "color": "#f4f1dc",
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
       "width": 0,
       "boil": 0,
       "outline": false
      },
      {
-      "type": "asset",
-      "name": "dinner_plate",
-      "x": 760,
-      "y": 640,
-      "scale": 1.1
+      "type": "spray",
+      "x": 960,
+      "y": 600,
+      "r": 1000,
+      "color": "#6fc1ee",
+      "density": 0.01
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        -10,
+        -10
+       ],
+       [
+        1930,
+        -10
+       ],
+       [
+        1930,
+        96
+       ],
+       [
+        1700,
+        112
+       ],
+       [
+        1420,
+        92
+       ],
+       [
+        1150,
+        116
+       ],
+       [
+        860,
+        94
+       ],
+       [
+        560,
+        118
+       ],
+       [
+        300,
+        96
+       ],
+       [
+        -10,
+        110
+       ]
+      ],
+      "fill": "#cfe6f3",
+      "color": "#8fb8d6",
+      "width": 3,
+      "boil": 0.4
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        420,
+        118
+       ],
+       [
+        560,
+        118
+       ],
+       [
+        760,
+        1090
+       ],
+       [
+        380,
+        1090
+       ]
+      ],
+      "fill": "#58acdf",
+      "outline": false,
+      "boil": 0.3
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        1180,
+        116
+       ],
+       [
+        1290,
+        112
+       ],
+       [
+        1560,
+        1090
+       ],
+       [
+        1240,
+        1090
+       ]
+      ],
+      "fill": "#58acdf",
+      "outline": false,
+      "boil": 0.3
      },
      {
       "type": "asset",
-      "name": "shark_meat_slab",
-      "x": 760,
-      "y": 610,
-      "scale": 0.5
+      "name": "greenland_shark_face",
+      "x": 820,
+      "y": 600,
+      "scale": 1.0
      },
      {
       "type": "asset",
       "name": "warning_triangle",
-      "x": 760,
-      "y": 380,
-      "scale": 0.5,
+      "x": 1380,
+      "y": 470,
+      "scale": 0.8,
       "appear": 0.35
      },
      {
-      "type": "doug",
-      "x": 1450,
+      "type": "wordart",
+      "text": "A PLAN",
+      "x": 1380,
       "y": 720,
-      "scale": 0.55,
-      "pose": "stand",
+      "size": 90,
+      "appear": 0.5
+     },
+     {
+      "type": "doug",
+      "x": 1700,
+      "y": 900,
+      "scale": 0.36,
+      "pose": "float",
       "expression": "gritted",
-      "facing": "left"
+      "facing": "left",
+      "gear": [
+       "mask"
+      ]
      },
      {
       "type": "label",
@@ -19199,39 +19494,69 @@
      {
       "type": "asset",
       "name": "shark_meat_slab",
-      "x": 760,
-      "y": 640,
-      "scale": 0.9
+      "x": 640,
+      "y": 590,
+      "scale": 2.0
      },
      {
       "type": "label",
       "text": "UREA",
-      "x": 480,
-      "y": 400,
-      "size": 56,
+      "x": 260,
+      "y": 250,
+      "size": 60,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
+      "appear": 0.15
+     },
+     {
+      "type": "arrow",
+      "from": [
+       330,
+       300
+      ],
+      "to": [
+       520,
+       520
+      ],
+      "color": "#e0201b",
+      "width": 9,
+      "bend": -50,
       "appear": 0.2
      },
      {
       "type": "label",
       "text": "TRIMETHYLAMINE OXIDE",
-      "x": 820,
-      "y": 880,
-      "size": 48,
+      "x": 1180,
+      "y": 930,
+      "size": 46,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
+      "appear": 0.45
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1080,
+       880
+      ],
+      "to": [
+       880,
+       680
+      ],
+      "color": "#e0201b",
+      "width": 9,
+      "bend": -50,
       "appear": 0.5
      },
      {
       "type": "doug",
-      "x": 1500,
-      "y": 720,
-      "scale": 0.55,
-      "pose": "shrug",
-      "expression": "confused",
+      "x": 1720,
+      "y": 900,
+      "scale": 0.32,
+      "pose": "stand",
+      "expression": "flat",
       "facing": "left"
      },
      {
@@ -19277,43 +19602,105 @@
       "y": -10,
       "w": 1940,
       "h": 1100,
-      "fill": "#f4f1dc",
-      "color": "#f4f1dc",
+      "fill": "#e9dcc0",
+      "color": "#e9dcc0",
       "width": 0,
       "boil": 0,
       "outline": false
      },
      {
       "type": "asset",
-      "name": "shark_meat_slab",
-      "x": 760,
-      "y": 640,
-      "scale": 0.9
+      "name": "warning_triangle",
+      "x": 1180,
+      "y": 470,
+      "scale": 1.7,
+      "appear": 0.2
+     },
+     {
+      "type": "doug",
+      "x": 560,
+      "y": 760,
+      "scale": 0.7,
+      "pose": "point",
+      "expression": "gritted",
+      "gear": [
+       "sweat"
+      ]
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        644.0,
+        667.6
+       ],
+       [
+        790,
+        640
+       ]
+      ],
+      "color": "#7a7a7a",
+      "width": 8
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        790,
+        626
+       ],
+       [
+        845,
+        611
+       ]
+      ],
+      "color": "#7a7a7a",
+      "width": 5
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        790,
+        640
+       ],
+       [
+        845,
+        625
+       ]
+      ],
+      "color": "#7a7a7a",
+      "width": 5
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        790,
+        654
+       ],
+       [
+        845,
+        639
+       ]
+      ],
+      "color": "#7a7a7a",
+      "width": 5
      },
      {
       "type": "asset",
-      "name": "warning_triangle",
-      "x": 760,
-      "y": 400,
-      "scale": 0.55
+      "name": "shark_meat_slab",
+      "x": 870,
+      "y": 620,
+      "scale": 0.16
      },
      {
       "type": "wordart",
       "text": "HAZARDOUS",
-      "x": 760,
+      "x": 1380,
       "y": 900,
       "size": 96,
-      "appear": 0.3
-     },
-     {
-      "type": "doug",
-      "x": 1450,
-      "y": 720,
-      "scale": 0.55,
-      "pose": "cower",
-      "expression": "gritted",
-      "facing": "left",
-      "appear": 0.5
+      "appear": 0.4
      },
      {
       "type": "label",
@@ -20624,7 +21011,7 @@
      },
      {
       "type": "asset",
-      "name": "newspaper_blank",
+      "name": "journal_paper",
       "x": 700,
       "y": 590,
       "scale": 0.9
@@ -20633,12 +21020,23 @@
       "type": "label",
       "text": "2014",
       "x": 840,
-      "y": 360,
+      "y": 330,
       "size": 52,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
       "appear": 0.2
+     },
+     {
+      "type": "label",
+      "text": "ICELAND GOV.",
+      "x": 700,
+      "y": 880,
+      "size": 44,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
+      "appear": 0.3
      },
      {
       "type": "line",
@@ -21577,27 +21975,26 @@
       "y": 816.4,
       "scale": 0.55,
       "pose": "point",
-      "expression": "hopeful",
+      "expression": "flat",
       "facing": "left"
      },
      {
       "type": "asset",
-      "name": "hakarl_cube",
-      "x": 1314.0,
-      "y": 743.8,
-      "scale": 0.4,
-      "flip": true,
+      "name": "hakarl_plate",
+      "x": 1130,
+      "y": 830,
+      "scale": 0.55,
       "appear": 0.3
      },
      {
       "type": "arrow",
       "from": [
-       1150,
+       900,
        560
       ],
       "to": [
-       1290,
-       760
+       1080,
+       700
       ],
       "color": "#e0201b",
       "width": 9,
@@ -24382,7 +24779,7 @@
      {
       "type": "asset",
       "name": "greenland_shark",
-      "x": 1650,
+      "x": 1570,
       "y": 820,
       "scale": 0.7,
       "flip": true,
@@ -25981,7 +26378,7 @@
      },
      {
       "type": "asset",
-      "name": "heart_monitor",
+      "name": "heart_monitor_slow",
       "x": 760,
       "y": 560,
       "scale": 1.0
@@ -26054,7 +26451,7 @@
      },
      {
       "type": "asset",
-      "name": "heart_monitor",
+      "name": "heart_monitor_slow",
       "x": 560,
       "y": 520,
       "scale": 0.8
@@ -27885,7 +28282,7 @@
       "type": "text",
       "text": "THE OLDEST",
       "x": 700,
-      "y": 330,
+      "y": 190,
       "size": 130,
       "color": "#e0201b",
       "bold": true,
@@ -28281,23 +28678,22 @@
      },
      {
       "type": "asset",
-      "name": "greenland_shark",
-      "x": 980,
-      "y": 640,
-      "scale": 1.85
+      "name": "greenland_shark_head",
+      "x": 1300,
+      "y": 660,
+      "scale": 1.0
      },
      {
       "type": "asset",
       "name": "eye_copepod",
-      "x": 1683.0,
-      "y": 573.4,
-      "scale": 0.5920000000000001,
-      "flip": false
+      "x": 1300,
+      "y": 660,
+      "scale": 0.9
      },
      {
       "type": "doug",
-      "x": 220,
-      "y": 900,
+      "x": 170,
+      "y": 960,
       "scale": 0.3,
       "pose": "float",
       "expression": "shock",
@@ -28308,15 +28704,30 @@
      {
       "type": "text",
       "text": "~392 YEARS",
-      "x": 860,
-      "y": 400,
-      "size": 150,
+      "x": 560,
+      "y": 210,
+      "size": 110,
       "color": "#e0201b",
       "bold": true,
       "boil": 0.2,
       "outline": "#000000",
       "outline_width": 6,
       "appear": 0.3
+     },
+     {
+      "type": "arrow",
+      "from": [
+       900,
+       280
+      ],
+      "to": [
+       1240,
+       590
+      ],
+      "color": "#e0201b",
+      "width": 9,
+      "bend": -40,
+      "appear": 0.45
      },
      {
       "type": "label",
@@ -28359,6 +28770,12 @@
       "appear": 0.3
      }
     ]
+   },
+   "camera": {
+    "move": "zoom_in",
+    "x": 1300,
+    "y": 660,
+    "zoom": 1.05
    }
   },
   {
@@ -28486,23 +28903,22 @@
      },
      {
       "type": "asset",
-      "name": "greenland_shark",
-      "x": 980,
-      "y": 640,
-      "scale": 1.85
+      "name": "greenland_shark_head",
+      "x": 1300,
+      "y": 660,
+      "scale": 1.0
      },
      {
       "type": "asset",
       "name": "eye_copepod",
-      "x": 1683.0,
-      "y": 573.4,
-      "scale": 0.5920000000000001,
-      "flip": false
+      "x": 1300,
+      "y": 660,
+      "scale": 0.9
      },
      {
       "type": "doug",
-      "x": 220,
-      "y": 900,
+      "x": 170,
+      "y": 960,
       "scale": 0.3,
       "pose": "float",
       "expression": "flat",
@@ -28513,9 +28929,9 @@
      {
       "type": "text",
       "text": "~392 YEARS",
-      "x": 860,
-      "y": 400,
-      "size": 150,
+      "x": 560,
+      "y": 210,
+      "size": 110,
       "color": "#e0201b",
       "bold": true,
       "boil": 0.2,
@@ -28525,9 +28941,9 @@
      {
       "type": "wordart",
       "text": "± 120",
-      "x": 860,
-      "y": 600,
-      "size": 110,
+      "x": 1060,
+      "y": 215,
+      "size": 90,
       "appear": 0.3
      },
      {
@@ -29160,44 +29576,44 @@
      {
       "type": "asset",
       "name": "greenland_shark",
-      "x": 300,
+      "x": 231,
       "y": 560,
-      "scale": 0.15
+      "scale": 0.13
      },
      {
       "type": "asset",
       "name": "greenland_shark",
-      "x": 560,
+      "x": 423,
       "y": 560,
-      "scale": 0.22
+      "scale": 0.19
      },
      {
       "type": "asset",
       "name": "greenland_shark",
-      "x": 820,
+      "x": 671,
       "y": 560,
-      "scale": 0.29000000000000004
+      "scale": 0.25
      },
      {
       "type": "asset",
       "name": "greenland_shark",
-      "x": 1080,
+      "x": 973,
       "y": 560,
-      "scale": 0.36
+      "scale": 0.31
      },
      {
       "type": "asset",
       "name": "greenland_shark",
-      "x": 1340,
+      "x": 1330,
       "y": 560,
-      "scale": 0.43000000000000005
+      "scale": 0.37
      },
      {
       "type": "rect",
-      "x": 200,
-      "y": 470,
-      "w": 470,
-      "h": 180,
+      "x": 150,
+      "y": 490,
+      "w": 380,
+      "h": 140,
       "fill": null,
       "color": "#2fae3a",
       "width": 7,
@@ -29206,8 +29622,8 @@
      {
       "type": "label",
       "text": "220 CM OR SHORTER",
-      "x": 430,
-      "y": 760,
+      "x": 360,
+      "y": 720,
       "size": 40,
       "bold": true,
       "boil": 0.3,
@@ -29276,54 +29692,54 @@
      {
       "type": "asset",
       "name": "greenland_shark",
-      "x": 300,
+      "x": 231,
       "y": 560,
-      "scale": 0.15
+      "scale": 0.13
      },
      {
       "type": "asset",
       "name": "greenland_shark",
-      "x": 560,
+      "x": 423,
       "y": 560,
-      "scale": 0.22
+      "scale": 0.19
      },
      {
       "type": "asset",
       "name": "greenland_shark",
-      "x": 820,
+      "x": 671,
       "y": 560,
-      "scale": 0.29000000000000004
+      "scale": 0.25
      },
      {
       "type": "asset",
       "name": "greenland_shark",
-      "x": 1080,
+      "x": 973,
       "y": 560,
-      "scale": 0.36
+      "scale": 0.31
      },
      {
       "type": "asset",
       "name": "greenland_shark",
-      "x": 1340,
+      "x": 1330,
       "y": 560,
-      "scale": 0.43000000000000005
+      "scale": 0.37
      },
      {
       "type": "rect",
-      "x": 200,
-      "y": 470,
-      "w": 470,
-      "h": 180,
+      "x": 150,
+      "y": 490,
+      "w": 380,
+      "h": 140,
       "fill": null,
       "color": "#2fae3a",
       "width": 7
      },
      {
       "type": "rect",
-      "x": 690,
-      "y": 430,
-      "w": 900,
-      "h": 260,
+      "x": 540,
+      "y": 460,
+      "w": 990,
+      "h": 200,
       "fill": null,
       "color": "#e0201b",
       "width": 7,
@@ -29483,7 +29899,7 @@
       "type": "arrow",
       "from": [
        330,
-       900
+       880
       ],
       "to": [
        330,
@@ -29497,8 +29913,8 @@
      {
       "type": "wordart",
       "text": "THE LOW END",
-      "x": 560,
-      "y": 900,
+      "x": 620,
+      "y": 960,
       "size": 70,
       "appear": 0.4
      },
@@ -30727,6 +31143,62 @@
       "width": 4
      },
      {
+      "type": "rect",
+      "x": 470,
+      "y": 422,
+      "w": 335,
+      "h": 80,
+      "fill": "#3a9ad9",
+      "color": "#3a9ad9",
+      "width": 0,
+      "boil": 0,
+      "outline": false
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        470,
+        422
+       ],
+       [
+        805,
+        422
+       ],
+       [
+        805,
+        470
+       ]
+      ],
+      "fill": "#1b2f5a",
+      "outline": false
+     },
+     {
+      "type": "poly",
+      "points": [
+       [
+        470,
+        430
+       ],
+       [
+        800,
+        470
+       ],
+       [
+        800,
+        530
+       ],
+       [
+        470,
+        486
+       ]
+      ],
+      "fill": "#c9d8e6",
+      "color": "#8fb8d6",
+      "width": 3,
+      "boil": 0.4
+     },
+     {
       "type": "spray",
       "x": 750,
       "y": 276,
@@ -30737,41 +31209,19 @@
      {
       "type": "doug",
       "x": 600,
-      "y": 346.4,
+      "y": 362.4,
       "scale": 0.55,
       "pose": "crouch",
-      "expression": "gritted"
+      "expression": "gritted",
+      "rotate": 7
      },
      {
       "type": "asset",
       "name": "birthday_cake_candles",
       "x": 750,
-      "y": 426,
-      "scale": 0.5
-     },
-     {
-      "type": "poly",
-      "points": [
-       [
-        700,
-        432
-       ],
-       [
-        800,
-        432
-       ],
-       [
-        800,
-        442
-       ],
-       [
-        700,
-        438
-       ]
-      ],
-      "fill": "#eaf6ff",
-      "color": "#ffffff",
-      "width": 3
+      "y": 460,
+      "scale": 0.5,
+      "rotate": 7
      },
      {
       "type": "line",
@@ -31039,6 +31489,71 @@
       "boil": 0,
       "outline": false,
       "appear": 0.55
+     },
+     {
+      "type": "asset",
+      "name": "greenland_shark",
+      "x": 1150,
+      "y": 880,
+      "scale": 1.2,
+      "silhouette": true,
+      "glow_r": 0,
+      "rim": {
+       "color": "#5c6b80",
+       "px": 3
+      },
+      "appear": 0.56
+     },
+     {
+      "type": "spray",
+      "x": 760,
+      "y": 600,
+      "r": 110,
+      "color": "#ffe24a",
+      "density": 0.06,
+      "appear": 0.58
+     },
+     {
+      "type": "asset",
+      "name": "birthday_cake_candles",
+      "x": 760,
+      "y": 680,
+      "scale": 0.42,
+      "rotate": 18,
+      "appear": 0.58
+     },
+     {
+      "type": "line",
+      "points": [
+       [
+        760,
+        520
+       ],
+       [
+        820,
+        380
+       ],
+       [
+        780,
+        250
+       ]
+      ],
+      "color": "#5c6b80",
+      "width": 5,
+      "dash": [
+       14,
+       12
+      ],
+      "appear": 0.6
+     },
+     {
+      "type": "asset",
+      "name": "doug_cap",
+      "x": 780,
+      "y": 220,
+      "scale": 0.4,
+      "rotate": -12,
+      "appear": 0.62
      },
      {
       "type": "label",

@@ -1,0 +1,89 @@
+# Visual review: 057-greenland-shark-400-years
+
+## Round 1 (pre-render, keyframes): 2026-11-24
+
+Source: `build/contact/sheet_01..18.png` (fresh full render, s001 to s208 + endslate), spot-checked at full size in
+`build/keyframes/`. s001 thumbnail placeholder ignored as instructed.
+
+**VERDICT: FAIL**
+
+Overall this is strong. Doug is on-model in every shot (red cap, white head) and readable on every background. The
+deaths are all cartoon (cap floats up, ghost Doug, a silhouette sub, the ice tipping) with no gore. Stomach contents are
+black silhouettes inside a cutaway, and the shark in the net is fine. Nothing reads as a kids' show. Most shots make
+their subject obvious within 1 second, the HUD counter runs correctly from 414 to 420 with SHARK AGE tracking the
+chapters, and the "FOUND INSIDE" list gag (s094-s096, then s110 PICNIC) and the TV ending (s205-s206) work well. It fails
+on one blank-looking death frame, several cases of text colliding with drawings or lines, two garbled
+"shark line-ups", one prop too small to read, and three runs of near-identical compositions.
+
+### Required fixes
+
+1. **s204 (director)**: The death keyframe is plain black with only the HUD showing. Under the death blackout, only
+   elements with `appear` draw, and the only one here is the 420 label. The result reads as a dropped or black frame, and
+   QC's black-frame check may flag it. This is the episode's last death, the payoff of the cake promise in s003. Add
+   `appear` elements the way s021 and s183 do: the cap rising on a dashed line, plus the cake (or one lit candle)
+   sinking toward a faint shark silhouette.
+2. **s185, s187, s188 (director)**: The big wordart sits across the shark's back. "THE OLDEST" and "~392 YEARS" overlap
+   the dorsal fins and the body outline (confirmed at full size on s187). Move the wordart up into clear water (y of
+   about 150-180), or drop the shark to y of about 700 and scale it to about 0.9.
+3. **s185-s188 (director, variety)**: There are 4 consecutive near-identical frames: the same giant side-view shark with
+   the copepod eye and tiny Doug at lower left. Keep s186 (the 502 CM measure). Recompose s187 as a close-up on the eye
+   with the copepod and "~392 YEARS" beside it, or as a pull-back. s188's "± 120" can then reuse the s187 layout.
+4. **s061-s065 (director, variety)**: There are 5 consecutive frames with the same ice-hole and tape-measure layout and
+   the same camera. Make s064 ("grew less than a centimeter") an underwater close-up of the shark's nose against the tape,
+   with a tiny red tick showing under 1 cm. Keep s063 and s065 wide.
+5. **s115-s120 (director, variety)**: There are 6 near-identical frames: grey meat slab centre-left, Doug right, beige
+   background (the s117 chapter card is the same layout too). Recompose s116 ("The shark has a plan for that too") as
+   the shark's face with a smug look and a warning sign. Recompose s119 as a big labelled close-up (UREA / TMAO tags on
+   the slab, Doug off-frame or tiny). Keep s118 and s120.
+6. **s192, s193 (director)**: The three largest sharks overlap nose-to-tail into a single merged blob (confirmed at full
+   size), so this doesn't read as "sharks sorted by size". Space them out: shrink the large ones, or stagger them on two
+   rows so no outlines touch. In s193 the red "BORN BEFORE" box then wraps cleanly separate shapes.
+7. **s043 (director)**: The "WELCOME" text is drawn unrotated and spills off both sides of the tipped-over sign. Either
+   rotate the text with the sign or make the sign wider so the word fits inside it.
+8. **s053, s054 (director)**: The vertical divider line runs through the "4 CM A YEAR" label, over the R. Move the
+   label left by about 80 px, or end the divider below the label. In s054 the "4X FASTER" wordart sits under the shark,
+   so it reads as "the shark is 4x faster". Move it to the fingernail side (left), under the nail.
+9. **s028 (illustrator, director)**: "37 CM" is shown over a ruler marked 0-30, and the pup spans only about 20 of those
+   units. The scale contradicts the number. Either relabel the ruler ticks so the pup spans 0-37 (ruler to 40), or drop
+   the numbers from the ruler.
+10. **s137 (illustrator, director)**: The hákarl cube is a tiny toothpick cube tucked under Doug's cap brim. Nobody will
+    see "one cube" at video size. Put a large cube (about 80 px) on a small plate on the counter, with the red arrow
+    pointing at it, and Doug beside it with an uneasy look.
+11. **s046 (director)**: The `calendar_page_flying` asset at (1100, 300), scale 0.45, sits right after "DECADES." at
+    the size of a stray glyph. It reads as an artifact. Scale it to about 1.0 and move it to the open sky on the right
+    (x of about 1500), or remove it.
+12. **s030 (director)**: The "THE ONLY ONE" wordart runs into Doug's head. Move Doug to x of about 1750 or shift the
+    wordart left.
+13. **s027, s015 (director)**: "10 PUPS" sits on the shark's dorsal outline. Lift it about 40 px. In s015,
+    "100+ YEARS" starts on top of the eyeball's pupil. Shift it right or down so it clears the eye diagram.
+14. **s167 (illustrator)**: The `heart_monitor` asset reads as a microwave or oven panel, because its screen is blank.
+    Draw a slow, flat heartbeat trace (one small blip) on the screen in green, so that "SLOW METABOLISM" reads in 1
+    second.
+15. **s131 (director)**: The "2014" tag covers the masthead, so it reads "THE DAILY N". The narration says "government
+    release", not a newspaper. Swap the newspaper for the plain document asset used in s026/s029 with a "2014" tag (or
+    an "ICELAND GOV." label), and keep the flag.
+
+### Minor (fix if cheap)
+
+- **s022, s090 (director)**: The ghost Doug wears his cap and a second loose cap floats right above him, so there are
+  two caps in one frame. Drop the floating `doug_cap` from these post-death shots. The death shots themselves (s021,
+  s089) can keep it.
+- **s203 (director)**: "brought the edge of the ice down" shows only faint crack lines. Tilt the ice slab under Doug and
+  the cake a little (as in s089) so the collapse reads before the cut to black.
+- **s194 (director)**: The red arrow runs through the T of "THE LOW END". Start the arrow above the wordart.
+- **s101 (illustrator)**: The whale-meat chunk reads as a rock or a dead seal. Add a small "WHALE MEAT" label.
+- **s158 (director)**: The shark's tail is cropped at the right frame edge. Pull it in about 60 px unless the crop is
+  meant as "entering".
+- **s013 (director)**: The "WESTERN GREENLAND" label sits under the eyeball diagram, so it reads as a label for the
+  eye. Move it next to the document or a map inset.
+- **Contact caption, s124 (editor, advisory)**: The contact-sheet caption font shows "hákarl" as "h?karl" (missing
+  glyph). The on-frame wordart HÁKARL renders correctly. Confirm the burned-in subtitle font has the á glyph before the
+  final render.
+
+### Checked and fine
+
+The chapter cards (s005, s024, s047, s067, s093, s117, s142, s163, s185) are legible. There are no spelling errors on
+screen ("TRIMETHYLAMINE OXIDE", "HÁKARL", "CONGRATU-/LATIONS" all correct). The maps are readable, with Svalbard and
+Iceland circled. The squid-bait camera, the snail race, the seal napping vertically (s084) and the bomb-pulse curve
+(s191) are recognisable. The 28-shark grid counts out correctly (7x4). The endslate's Subscribe circle and video box are
+clear.

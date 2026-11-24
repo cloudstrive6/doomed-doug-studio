@@ -1,0 +1,223 @@
+{
+ "name": "hakarl_plate",
+ "description": "One big pale cream-yellow cube of hakarl on a small white plate, a wooden toothpick stuck in its top (057, s137). Anchor bottom-centre of the plate (counter y=0). Bbox x -170..170, y -330..0; the cube is ~150 units tall, so scale 0.55 gives an ~80 px cube.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "food",
+  "hakarl",
+  "iceland",
+  "plate",
+  "prop",
+  "shark",
+  "057"
+ ],
+ "elements": [
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -22,
+   "rx": 170,
+   "ry": 30,
+   "fill": "#ffffff",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -26,
+   "rx": 115,
+   "ry": 17,
+   "fill": "#e9edf0",
+   "width": 2,
+   "color": "#b9c0c6"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -115,
+     -180
+    ],
+    [
+     35,
+     -180
+    ],
+    [
+     35,
+     -30
+    ],
+    [
+     -115,
+     -30
+    ]
+   ],
+   "fill": "#e8dcb0",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     35,
+     -180
+    ],
+    [
+     117.5,
+     -232.5
+    ],
+    [
+     117.5,
+     -82.5
+    ],
+    [
+     35,
+     -30
+    ]
+   ],
+   "fill": "#c9b886",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -115,
+     -180
+    ],
+    [
+     -32.5,
+     -232.5
+    ],
+    [
+     117.5,
+     -232.5
+    ],
+    [
+     35,
+     -180
+    ]
+   ],
+   "fill": "#f6efd2",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": -2.5,
+   "y": -67.5,
+   "r": 37.5,
+   "color": "#cdbd8a",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": 76.25,
+   "y": -90.0,
+   "r": 33.0,
+   "color": "#a8966a",
+   "density": 0.3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -97.0,
+     -75.0
+    ],
+    [
+     -40.0,
+     -69.0
+    ],
+    [
+     17.0,
+     -75.0
+    ]
+   ],
+   "width": 3,
+   "color": "#c4b17c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -97.0,
+     -112.5
+    ],
+    [
+     -40.0,
+     -106.5
+    ],
+    [
+     17.0,
+     -112.5
+    ]
+   ],
+   "width": 3,
+   "color": "#c4b17c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -97.0,
+     -147.0
+    ],
+    [
+     -40.0,
+     -141.0
+    ],
+    [
+     17.0,
+     -147.0
+    ]
+   ],
+   "width": 3,
+   "color": "#c4b17c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -100.0,
+     -165.0
+    ],
+    [
+     -62.5,
+     -165.0
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -5.6,
+     -184.8
+    ],
+    [
+     44.4,
+     -294.8
+    ],
+    [
+     38.1,
+     -297.7
+    ],
+    [
+     -11.9,
+     -187.7
+    ]
+   ],
+   "fill": "#e8c07a",
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}

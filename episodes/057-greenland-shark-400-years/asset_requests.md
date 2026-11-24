@@ -139,3 +139,9 @@ toothpick pointing up-left from the grip; about 120x160. Used at 0.4-0.6 in Doug
 A crude trawl net: a long cone of black mesh (cross-hatched lines) with a rope frame mouth at the right and the closed cod end at
 the left, two tow lines leaving the mouth up and right. Empty (the shotlist adds the shark and `silver_fish` on top). Anchor
 centre, about 640x300. Shots: s132, s133, s151, s154, s200.
+
+### visual_review fixes - DONE (illustrator, preview `assets/previews/057-greenland-shark-400-years-assets-fix.png`)
+- `hakarl_cube`: cube enlarged ~2.6x, grip anchor unchanged; new bbox x -195..5, y -305..5 (s124).
+- `hakarl_plate` (new): big cube on a small plate, anchor bottom-centre, 340x330; scale 0.55 = ~80 px cube (s137).
+- `ruler_40cm` (new): 0-40 cm, same 460x70 footprint/anchor as `ruler` (s028). `ruler` left as-is (shared by 15+ episodes).
+- `heart_monitor_slow` (new): `heart_monitor` with a green flat trace + one blip, same 660x460 footprint (s167, s168).

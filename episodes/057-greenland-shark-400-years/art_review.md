@@ -73,3 +73,66 @@ Nit (optional): the small white spray patch in the middle of the belly reads as 
 - Illustrator: fixes 1-4 (`shark_age_icon`) and 7 (`shark_meat_slab`); re-preview both, no anchor changes.
 - Director: fixes 5-6 (s187 double icon, icon gap), plus the s027 womb fill and the s124 cube placement notes for the keyframe pass.
 - Keyframe review follows separately once the full set is rendered.
+
+---
+
+# 057 keyframe review (art director, 2026-11-24)
+
+Reviewed: all 18 contact sheets in `build/contact/` (s001-s208 + endslate, fresh full render, final assets), plus 1:1 crops of the
+full-res keyframes for the HUD icon, s115, s124, s131, s138, s043, s053 and s205. Nothing re-rendered.
+
+## Verdict: FAIL (director: 1 composition fix, 3 text-collision fixes; assets PASS)
+
+Style, Doug and colour are solid across all 208 shots. Doug is on-model in every shot (cap always visible, including the ghosts in
+s021/s089/s184/s205-s208 and the X-eyes in s063-s065), the `sunburn` + `sweat` gear in s137-s139 is the approved gear used correctly, the death
+counter runs 414 → 420 on the right beats (s021, s063, s089, s112, s183, s204), and SHARK AGE runs `?` → 0 → ~10 → ~50 → ~100 → ~150 → ~250 →
+~392 (±120) without a skip. The ocean ramp is correct: surface `#3a9ad9` for all cold/under-ice water (s165-s166 included, which matches the
+bible rule), with the twilight and midnight bands spent only on the descent (s163-s164, s178-s184). Silhouette-then-reveal is used
+correctly (s004, s088, s111, s184, s201-s204). No gore anywhere: the reindeer arrow in s091 points at the animal, not a wound, and every
+death is a cap, a splash or a blackout.
+
+## Asset verification
+
+- **`shark_age_icon`: PASS.** Fixes 1-4 are in. At actual size (checked 1:1 on `#cfe9ff` s002, near-black s021, midnight s183 and grey s205)
+  the yellow flame with black outline now reads on every background, the fin is a clear grey triangle filling the front panel, and the
+  panel text lines and water squiggle are gone. Director fixes 5-6 are in too: s187 now has exactly one icon at x 1367, and the gap to the
+  `~392 (±120)` label matches the earlier values.
+- **`shark_meat_slab`: PASS.** In s115 it now reads as a fish fillet on a plate: an irregular loaf with one thicker end, the angled cut face
+  on the right, and grey W/chevron flake lines on the top face. Pale grey-white, no red, no bone. "THE MENU → THE MEAT" now lands. (Nit, not
+  required: the darker band now runs along the lower side rather than the top back edge. It still reads as skin vs. flesh, so leave it.)
+- Earlier keyframe notes are done: s027 womb oval is pale-filled so the ten pups pop, and in s124 the hákarl cube is now in Doug's hand.
+
+## Required fixes (director, `build/gen_shotlist.py` → shotlist)
+
+1. **s115-s120: the same composition six times in a row** (slab centre-left, Doug right, one sign above, one label below). s118 and s120
+   are near-duplicates. Keep s115-s118 as they are and re-stage the last two:
+   - **s119 (urea / TMAO):** close-up. `shark_meat_slab` at about scale 2.0 filling the left 60 % of frame, cut face visible. Two red
+     curved arrows run into the flesh from `UREA` (upper left) and `TRIMETHYLAMINE OXIDE` (lower right). Doug small, bottom right,
+     `flat`. No warning triangle in this shot.
+   - **s120 (HAZARDOUS):** a different layout. Doug big (scale ~0.7) centre-left, `gritted` + `sweat`, arm out holding a fork with a small
+     slab chunk at arm's length. A big yellow warning triangle behind/right of him, and `HAZARDOUS` WordArt bottom right. No plate.
+2. **s053, s054: the vertical divider line cuts through the "R" of `4 CM A YEAR`.** Move the label left so its right edge clears the divider
+   by ≥ 30 px (or move the divider to x ≥ 1020 in s053's frame coordinates). Same fix in both shots.
+3. **s131: the `2014` date tag covers the newspaper masthead** ("THE DAILY N…"). Move the tag to sit above the paper's top-right corner
+   (as on the 1957/2016/2020 papers in s026, s145, s148), or shorten the masthead so the tag no longer overlaps it.
+4. **s043: the `WELCOME` text is not rotated with the fallen banner.** It sits horizontal and spills off the board's top edge. Rotate the
+   text with the board (same angle, same centre), or make it a separate rotated `text` inside the board.
+
+## Nits (optional, do them if you are already touching the shot)
+
+5. s003: the red down arrow's shaft passes over the final "E" of `BIRTHDAY CAKE`. Move the arrow ~40 px right.
+6. s096, s110: the `POLAR BEAR (REMAINS)` row is a smaller font than the other "FOUND INSIDE" rows. Use one size for all rows (shrink
+   all to fit, or widen the card).
+7. s192 (and s193): the three biggest sharks overlap each other in a pile-up. Widen the x steps or reduce the top scale so each shark
+   has its own space.
+8. s187/s188: `~392 YEARS` crosses the dorsal fins. It is legible because of the black outline, so no fix is required. If you move it,
+   y ≈ 330 clears the fins.
+
+Variety elsewhere is fine. The repeated giant-head shots (s006-s016) are broken up by s007/s009/s012-s015, the reveal build s185-s188
+earns its repetition, and the A/A' hold pairs (s041-s042, s061-s062, s158-s161) are deliberate.
+
+## Routing
+- Director: fixes 1-4 (and nits 5-8 if convenient). Then re-render only `--shots s043,s053,s054,s119,s120,s131`
+  (plus s003,s096,s110,s192,s193 if the nits are taken) and send the new sheets back for a quick re-check.
+- Illustrator: nothing. Both re-drawn assets pass.
+- Graphic designer: s001 is still `(thumbnail pending)`. That is expected at this stage, but it must be filled before the final render.

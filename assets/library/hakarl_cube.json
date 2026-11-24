@@ -1,6 +1,6 @@
 {
  "name": "hakarl_cube",
- "description": "One small pale cream-yellow cube of hakarl (fermented shark) in 3/4 view speared on a plain wooden toothpick (057). ANCHOR = the toothpick's grip end (0,0); the pick points up-left with its tip poking out of the cube's top. ~85x160 (x -81..4, y -157..2). Use 0.4-0.6 in Doug's hand.",
+ "description": "One pale cream-yellow cube of hakarl (fermented shark) in 3/4 view speared on a wooden toothpick (057). ANCHOR = the toothpick's grip end (0,0); pick points up-left, tip pokes out of the cube top. Cube ~185 units wide (was ~70). Bbox x -195..5, y -305..5. Use 0.4-0.6 in Doug's hand.",
  "anchor": [
   0,
   0
@@ -19,20 +19,204 @@
    "type": "poly",
    "points": [
     [
-     4.1,
-     -1.9
+     3.1,
+     -1.6
     ],
     [
-     -68.6,
+     -96.9,
+     -201.6
+    ],
+    [
+     -103.1,
+     -198.4
+    ],
+    [
+     -3.1,
+     1.6
+    ]
+   ],
+   "fill": "#e8c07a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -190,
+     -210
+    ],
+    [
+     -70,
+     -210
+    ],
+    [
+     -70,
+     -90
+    ],
+    [
+     -190,
+     -90
+    ]
+   ],
+   "fill": "#e8dcb0",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     -210
+    ],
+    [
+     -4.0,
+     -252.0
+    ],
+    [
+     -4.0,
+     -132.0
+    ],
+    [
+     -70,
+     -90
+    ]
+   ],
+   "fill": "#c9b886",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -190,
+     -210
+    ],
+    [
+     -124.0,
+     -252.0
+    ],
+    [
+     -4.0,
+     -252.0
+    ],
+    [
+     -70,
+     -210
+    ]
+   ],
+   "fill": "#f6efd2",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": -100.0,
+   "y": -120.0,
+   "r": 30.0,
+   "color": "#cdbd8a",
+   "density": 0.35
+  },
+  {
+   "type": "spray",
+   "x": -37.0,
+   "y": -138.0,
+   "r": 26.4,
+   "color": "#a8966a",
+   "density": 0.3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -175.6,
+     -126.0
+    ],
+    [
+     -130.0,
+     -121.2
+    ],
+    [
+     -84.4,
+     -126.0
+    ]
+   ],
+   "width": 3,
+   "color": "#c4b17c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -175.6,
+     -156.0
+    ],
+    [
+     -130.0,
      -151.2
     ],
     [
-     -71.8,
-     -149.7
+     -84.4,
+     -156.0
+    ]
+   ],
+   "width": 3,
+   "color": "#c4b17c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -175.6,
+     -183.6
     ],
     [
-     -4.1,
-     1.9
+     -130.0,
+     -178.8
+    ],
+    [
+     -84.4,
+     -183.6
+    ]
+   ],
+   "width": 3,
+   "color": "#c4b17c"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -178.0,
+     -198.0
+    ],
+    [
+     -148.0,
+     -198.0
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -116.9,
+     -241.6
+    ],
+    [
+     -146.9,
+     -301.6
+    ],
+    [
+     -153.1,
+     -298.4
+    ],
+    [
+     -123.1,
+     -238.4
     ]
    ],
    "fill": "#e8c07a",
@@ -47,146 +231,12 @@
      0
     ],
     [
-     -21.1,
-     -45.3
+     -30,
+     -60
     ]
    ],
    "width": 2,
    "color": "#c79a52"
-  },
-  {
-   "type": "poly",
-   "points": [
-    [
-     -81.4,
-     -118.5
-    ],
-    [
-     -40.6,
-     -108.3
-    ],
-    [
-     -40.6,
-     -67.5
-    ],
-    [
-     -81.4,
-     -77.7
-    ]
-   ],
-   "fill": "#e8dcb0",
-   "width": 4,
-   "color": "#000000"
-  },
-  {
-   "type": "poly",
-   "points": [
-    [
-     -40.6,
-     -108.3
-    ],
-    [
-     -13.4,
-     -125.3
-    ],
-    [
-     -13.4,
-     -84.5
-    ],
-    [
-     -40.6,
-     -67.5
-    ]
-   ],
-   "fill": "#cfc08e",
-   "width": 4,
-   "color": "#000000"
-  },
-  {
-   "type": "poly",
-   "points": [
-    [
-     -81.4,
-     -118.5
-    ],
-    [
-     -54.2,
-     -135.5
-    ],
-    [
-     -13.4,
-     -125.3
-    ],
-    [
-     -40.6,
-     -108.3
-    ]
-   ],
-   "fill": "#f4ebc8",
-   "width": 4,
-   "color": "#000000"
-  },
-  {
-   "type": "spray",
-   "x": -60.9631721170859,
-   "y": -87.89251167946972,
-   "r": 12,
-   "color": "#d6c792",
-   "density": 0.3
-  },
-  {
-   "type": "line",
-   "points": [
-    [
-     -74.6,
-     -101.5
-    ],
-    [
-     -47.4,
-     -94.7
-    ]
-   ],
-   "width": 2,
-   "color": "#c9b98a"
-  },
-  {
-   "type": "line",
-   "points": [
-    [
-     -71.2,
-     -87.9
-    ],
-    [
-     -50.8,
-     -81.1
-    ]
-   ],
-   "width": 2,
-   "color": "#c9b98a"
-  },
-  {
-   "type": "poly",
-   "points": [
-    [
-     -55.1,
-     -128.8
-    ],
-    [
-     -71.1,
-     -156.6
-    ],
-    [
-     -74.4,
-     -155.1
-    ],
-    [
-     -63.3,
-     -125.0
-    ]
-   ],
-   "fill": "#e8c07a",
-   "width": 3,
-   "color": "#000000"
   }
  ]
 }
