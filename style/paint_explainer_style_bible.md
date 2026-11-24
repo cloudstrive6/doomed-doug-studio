@@ -475,7 +475,8 @@ first sentence and starts on a strong item; the worst (ep 21: 52%) starts on the
    teeth"), never a full stop that invites leaving.
 
 ### Script Writer (script-writer)
-1. Total narration must be 2,800-3,500 words for a 15-18 minute video at 195 WPM. Report the word count and estimated runtime.
+1. Total narration must be 1,950-2,350 words for a 10-12 minute video at 195 WPM (`video.target_minutes` in
+   `config/channel.yaml`; retention update 2026-10-27), 200-260 words per item. Report the word count and estimated runtime.
 2. The first item name must appear within the first 35 words. No greeting, channel name, "in this video" or subscribe
    ask before item 1.
 3. The item count must be 9-14. Every item must start with a standalone name sentence of 1-5 words that exactly
@@ -542,5 +543,7 @@ first sentence and starts on a strong item; the worst (ep 21: 52%) starts on the
    AI assistance). No tags spam; at most 3 hashtags.
 9. Sponsor segments go after item 3-5, at 25-45% of runtime, and last 60 seconds or less. They are bridged by one line
    and followed by a hard cut to the next item name.
-10. The target runtime is 15-18 minutes. Hard limits are 12-22 minutes. After every 3 parts of a series, assemble a
+10. The target runtime is 10-12 minutes (`video.target_minutes` in `config/channel.yaml`; retention update 2026-10-27).
+    Hard limits are the gates' tolerances: `validate` fails a script outside 9.0-13.8 minutes at 195 WPM and `qc` fails
+    a final render outside 8-18 minutes. After every 3 parts of a series, assemble a
     "(Full Series)" compilation.
