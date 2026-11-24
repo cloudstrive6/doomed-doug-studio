@@ -1,0 +1,448 @@
+{
+ "name": "eye_copepod_wave",
+ "description": "Ommatokoita elongata eye copepod (057), WAVING variant: one short pale arm raised with two tiny motion ticks, no face. Same as eye_copepod: a pale cartoon streamer: short stalk, small cream #f3ecd6 segmented body, two long thin trailing egg-sac strings (paler #fbf7ea, outline 3) hanging down and slightly back. No wound, no red, no hooks. ANCHOR = attachment point (0,0) at its top; bbox x -40..30, y 0..170. Overlay on a shark eye (library greenland_shark eye (380,-36) x scale; greenland_shark_head anchor; greenland_shark_face (-230,-60)).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "parasite",
+  "copepod",
+  "greenland shark",
+  "eye",
+  "wave",
+  "057"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -14,
+     62
+    ],
+    [
+     -20,
+     90
+    ],
+    [
+     -24,
+     118
+    ],
+    [
+     -30,
+     146
+    ],
+    [
+     -36,
+     168
+    ],
+    [
+     -28,
+     170
+    ],
+    [
+     -20,
+     146
+    ],
+    [
+     -14,
+     118
+    ],
+    [
+     -8,
+     90
+    ],
+    [
+     -4,
+     64
+    ]
+   ],
+   "fill": "#fbf7ea",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -2,
+     64
+    ],
+    [
+     0,
+     92
+    ],
+    [
+     2,
+     120
+    ],
+    [
+     -2,
+     146
+    ],
+    [
+     -4,
+     168
+    ],
+    [
+     4,
+     168
+    ],
+    [
+     10,
+     146
+    ],
+    [
+     12,
+     120
+    ],
+    [
+     10,
+     92
+    ],
+    [
+     8,
+     62
+    ]
+   ],
+   "fill": "#fbf7ea",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": -17,
+   "y": 84,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#e6dcc0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": 102,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#e6dcc0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -23,
+   "y": 120,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#e6dcc0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -27,
+   "y": 138,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#e6dcc0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -30,
+   "y": 156,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#e6dcc0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 3,
+   "y": 84,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#e6dcc0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 5,
+   "y": 104,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#e6dcc0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 6,
+   "y": 124,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#e6dcc0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 4,
+   "y": 144,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#e6dcc0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 2,
+   "y": 160,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#e6dcc0",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -2,
+     14
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -2,
+     14
+    ]
+   ],
+   "width": 2,
+   "color": "#f3ecd6"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 2,
+   "rx": 6,
+   "ry": 4,
+   "fill": "#f3ecd6",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     10
+    ],
+    [
+     12,
+     22
+    ],
+    [
+     14,
+     44
+    ],
+    [
+     8,
+     66
+    ],
+    [
+     -4,
+     74
+    ],
+    [
+     -14,
+     66
+    ],
+    [
+     -16,
+     42
+    ],
+    [
+     -10,
+     20
+    ]
+   ],
+   "fill": "#f3ecd6",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "spray",
+   "x": 6,
+   "y": 44,
+   "r": 8,
+   "color": "#d8ccaa",
+   "density": 0.4
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -12,
+     30
+    ],
+    [
+     -2,
+     34
+    ],
+    [
+     12,
+     30
+    ]
+   ],
+   "width": 2,
+   "color": "#a8987a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -14,
+     44
+    ],
+    [
+     0,
+     48
+    ],
+    [
+     13,
+     44
+    ]
+   ],
+   "width": 2,
+   "color": "#a8987a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -13,
+     58
+    ],
+    [
+     -2,
+     62
+    ],
+    [
+     10,
+     58
+    ]
+   ],
+   "width": 2,
+   "color": "#a8987a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     34
+    ],
+    [
+     22,
+     22
+    ],
+    [
+     26,
+     6
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     34
+    ],
+    [
+     22,
+     22
+    ],
+    [
+     26,
+     6
+    ]
+   ],
+   "width": 3,
+   "color": "#f3ecd6"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     32,
+     2
+    ],
+    [
+     36,
+     10
+    ],
+    [
+     34,
+     18
+    ]
+   ],
+   "width": 2,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     16,
+     -2
+    ],
+    [
+     24,
+     -6
+    ],
+    [
+     32,
+     -4
+    ]
+   ],
+   "width": 2,
+   "color": "#6a6a6a"
+  }
+ ]
+}

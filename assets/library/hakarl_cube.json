@@ -1,0 +1,192 @@
+{
+ "name": "hakarl_cube",
+ "description": "One small pale cream-yellow cube of hakarl (fermented shark) in 3/4 view speared on a plain wooden toothpick (057). ANCHOR = the toothpick's grip end (0,0); the pick points up-left with its tip poking out of the cube's top. ~85x160 (x -81..4, y -157..2). Use 0.4-0.6 in Doug's hand.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "food",
+  "hakarl",
+  "iceland",
+  "toothpick",
+  "prop",
+  "shark",
+  "057"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     4.1,
+     -1.9
+    ],
+    [
+     -68.6,
+     -151.2
+    ],
+    [
+     -71.8,
+     -149.7
+    ],
+    [
+     -4.1,
+     1.9
+    ]
+   ],
+   "fill": "#e8c07a",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -21.1,
+     -45.3
+    ]
+   ],
+   "width": 2,
+   "color": "#c79a52"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -81.4,
+     -118.5
+    ],
+    [
+     -40.6,
+     -108.3
+    ],
+    [
+     -40.6,
+     -67.5
+    ],
+    [
+     -81.4,
+     -77.7
+    ]
+   ],
+   "fill": "#e8dcb0",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -40.6,
+     -108.3
+    ],
+    [
+     -13.4,
+     -125.3
+    ],
+    [
+     -13.4,
+     -84.5
+    ],
+    [
+     -40.6,
+     -67.5
+    ]
+   ],
+   "fill": "#cfc08e",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -81.4,
+     -118.5
+    ],
+    [
+     -54.2,
+     -135.5
+    ],
+    [
+     -13.4,
+     -125.3
+    ],
+    [
+     -40.6,
+     -108.3
+    ]
+   ],
+   "fill": "#f4ebc8",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "spray",
+   "x": -60.9631721170859,
+   "y": -87.89251167946972,
+   "r": 12,
+   "color": "#d6c792",
+   "density": 0.3
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -74.6,
+     -101.5
+    ],
+    [
+     -47.4,
+     -94.7
+    ]
+   ],
+   "width": 2,
+   "color": "#c9b98a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -71.2,
+     -87.9
+    ],
+    [
+     -50.8,
+     -81.1
+    ]
+   ],
+   "width": 2,
+   "color": "#c9b98a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -55.1,
+     -128.8
+    ],
+    [
+     -71.1,
+     -156.6
+    ],
+    [
+     -74.4,
+     -155.1
+    ],
+    [
+     -63.3,
+     -125.0
+    ]
+   ],
+   "fill": "#e8c07a",
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}
