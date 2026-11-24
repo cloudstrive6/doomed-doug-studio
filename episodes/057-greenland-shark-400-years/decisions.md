@@ -100,3 +100,27 @@ C = Teenager + CONGRATULATIONS? ~150, as requested).
 Gate condition: this becomes APPROVED once C's copepod is fixed and the concurrent visual-screener returns PASS on all three
 (if the screener asks for other fixes, apply those too and send back). No need to send A or B back to me unless they change.
 - 2026-11-24: script 3 rounds (facts/jokes/sandwich fixes); art 3 rounds (keyframes + s137); thumbnails 3 rounds (A/B swapped by CD, C copepod); runtime ~11.2 min. Risks: reindeer claim is 'reportedly' (secondary source); thumbnail text ~150 added to C; shotlist generator in build/ is git-ignored.
+
+## 2026-11-24 · Final package gate (built render): APPROVED
+Creative director. Reviewed metadata.json (title, alt_titles, description, tags, playlist `ocean`), build/chapters.txt,
+build/thumbnail*.png (full and small), build/samples/f_001-f_002, the script opening and visual_review.md
+(main PASS, shorts PASS); qc.json has no problems; `validate metadata` and `validate packaging` both OK.
+
+- **Title: kept** "The Greenland Shark Has the Creepiest Eye Parasite Alive" (A, packaging score 100). It is
+  parasite/body-horror under the lane rule's +0.5, it names the animal in the first three words and survives mobile
+  truncation, and the video pays it off right away: chapter 1 "The Eye" (0:10) is the copepod, and the twist (not blind
+  after all, Fogg et al. 2026) lands inside 45 s. None of the alt_titles is clearly stronger. "Creepiest Fish Alive"
+  is the generic fallback and stays as test B.
+- **Thumbnails:** A (HI FRIEND?) reads at feed size: the eye, the copepod and the lit torch beam pop on dark navy, and it
+  matches the opening frame. C's copepod is now the dangling A version on a half-lidded eye, as asked in round 2. The
+  "~150" card lands. B is unchanged and approved. None show eye damage, a bite or kid-coded imagery.
+- **Description:** the first line delivers the hook (392 ± 120, older than the US), the sources cover every headline
+  claim, and the AI-use disclosure and disclaimer are present. {{CHAPTERS}} is filled at upload (youtube.py), and the
+  chapters start at 0:00 with 10 entries.
+- **First 60 s:** "The Eye" is named at about word 30, and the payoff line (birthday cake for the ~400-year-old shark) is
+  promised in the opening. Death 415 is cartoon (cap + torch on black). The tone stays adult-coded.
+- Advisories from the visual screener (s127 curve, s147 grandchildren, s155 empty axes, s166 thermometer) are
+  non-blocking; carry them to the director/illustrator as lessons for the next episode.
+- At upload: update channel/series_bible.md (counter 414 to 420, the "hi friend?" copepod gag, SHARK AGE card device).
+
+FINAL: APPROVED

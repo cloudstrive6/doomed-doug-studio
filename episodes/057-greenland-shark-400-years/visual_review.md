@@ -236,3 +236,45 @@ misleading against its paired title.
 - s098 (director): The thermometer's red fill still sits at about 60%. The label resolves it. Dropping the fill to the
   bulb would be a nice extra.
 - s137 (illustrator): The Round 3 note about the flag pole bracket still stands if it hasn't been addressed.
+
+## Round 5 (post-render: final.mp4, thumbnails, Shorts): 2026-11-24
+
+**VERDICT: PASS** (main) / **PASS** (shorts)
+
+### Main video (final.mp4, 1920x1080 @ 60 fps, 670.97 s video / 671.00 s audio)
+- `build/qc.json`: no problems. My own ffmpeg pass found no black stretch ≥ 1.5 s (blackdetect) and no frozen picture
+  ≥ 8 s (freezedetect).
+- I mapped all 22 samples (f_001–f_022, at 15 s + 30 s·n) to their shots through timing.json, and every picture matches
+  its line. Spot checks: s006 copepod on the eye, s013 eye cross-section, s021 death beat (cap + torch on black,
+  cartoon), s031 "1957 / ONE NOTE", s049 1930s tagging, s077 Svalbard circled, s085 CHASE crossed out, s096 FOUND INSIDE
+  menu, s105 "140+", s118 POISONOUS, s127 "5 WEEKS / TESTS CAN'T DETECT", s137 HÁKARL with the Icelandic flag, s166
+  thermometer + LIVE SO LONG, s175 DNA with a plaster, s186 "502 CM", s194 272–~392–512 range, s205 LIVE TV with the
+  ghost Doug. Doug is on-model in every frame and the HUD is legible. There's no gore and no kids-show tone.
+- Opening frame (t=0.3 s) is the HI FRIEND? art and matches thumbnail A. The end screen (DOUG'S NEXT DEATH + video
+  and subscribe slots) holds cleanly to the last frame. The payoff (shark at ~392 ± 120, cap ignored) lands before
+  the end card. Nothing is withheld and there's no "???" teaser.
+
+### Thumbnails (A/B/C + _small)
+These are unchanged since Round 4 and still pass. A: HI FRIEND? + eye/copepod is the focal point at 168x94 and pairs
+with "...Creepiest Eye Parasite Alive". B: "392 ± 120 YRS" carries it, cake + Doug read. C: CONGRATULATIONS? + "~150"
+card reads and pairs with the "Teenager" title. None is misleading.
+
+### Shorts (short01 47.6 s, short02 52.2 s, short03 51.6 s; all 1080x1920)
+I checked the previews plus 11 frames per Short (start, every ~6 s, last 6 s). The red title is readable and
+doesn't overlap the art. Subtitles are big, white on a dark outline, and legible. No drawing is cut at the sides (the
+closest are the 2016 paper in short01 and the polar bear in short03, both fully inside). The end card "FULL VIDEO: TAP
+BELOW" has a red arrow pointing straight down, with Doug pointing. Each Short pays off its title before the card:
+short01 gives 392 candles ± 120, short02 says the shark loses to a brisk walk, then seals, then "it waits for
+things", and short03 opens on the whole reindeer. There are no "???" cards.
+
+### Advisory (not blocking, for a future pass)
+1. s127 (director): The red decay curve dips slightly below the x-axis at its right end (f_014). Clamp the end to the
+   axis.
+2. s147 (illustrator): GRANDCHILDREN: OLD shows three young dark-haired stick people, so only the label says "old".
+   Grey hair or canes would let the picture carry the joke.
+3. s155 (director): Opens on bare axes with only "0" for about 2 s (f_017; short01 has the same at "radiocarbon from
+   early"). It builds a moment later, but put an element in on the first frame.
+4. s166 (director): Carried over. The thermometer fill reads warm (about 60%) for near-0 °C water.
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
