@@ -80,3 +80,22 @@ feed size (246 px wide side by side), the brief (section 3 thumbnail, payoff lin
 - Visual-screener: screen all three thumbnails at full size and at 246 px. Check text legibility, the copepod (no eye damage), and
   kid-appeal on C.
 - Then back to me for the package gate. Series bible lore (counter 414 to 420, new gags) is updated at upload, as planned.
+
+## 2026-11-24 · Package gate, round 2 (rebuilt thumbnails A/B/C, title order): CHANGES REQUIRED (one fix, C only)
+Creative director. Viewed build/thumbnail.png, thumbnail_b.png, thumbnail_c.png at full size and the _small versions; checked
+metadata.json (new A is the `title`; order A = eye parasite + HI FRIEND?, B = Why ... Creepiest Fish + 392 ± 120 YRS,
+C = Teenager + CONGRATULATIONS? ~150, as requested).
+
+- **A `HI FRIEND?`: approved.** Fixes 1-3 done: snout oval gone, the copepod's eye has a dark pupil and is unmistakably the eye,
+  the copepod dangles with egg sacs trailing and keeps the wave, torch beam is lit and the water is a dark navy. Would click.
+- **B `392 ± 120 YRS`: approved.** Fixes 4-5 done: wide grim mouth line, no fin hump, Doug and the cake ~1.6x with one bright
+  flame cluster that reads as a birthday cake at feed size; copepod dangles from the left eye. Would click.
+- **C `CONGRATULATIONS? ~150`: one fix.** Fixes 6-8 done (under the ice, no magenta, no candle, big "~150" on the card, shark is
+  the hero with a half-lidded eye). Remaining problem: the copepod here is the old "mummy person" (the problem fix 2 solved on A):
+  the eye reads as its head and its legs run down to the belly with a foot sticking out.
+  1. **Graphic designer:** replace C's copepod with the same dangling copepod used on A, scaled to C's eye (about 0.4x of A's),
+     hanging from the half-lidded eye with the two egg-sac streamers trailing back toward the tail. Keep the eye half-lidded and
+     separate from the copepod. Change nothing else.
+
+Gate condition: this becomes APPROVED once C's copepod is fixed and the concurrent visual-screener returns PASS on all three
+(if the screener asks for other fixes, apply those too and send back). No need to send A or B back to me unless they change.

@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-11-24T17:43:41+00:00",
       "note": "208 shots; 15 asset requests; SHARK AGE + harp seal suit await AD"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-24T18:19:24+00:00",
+      "note": "art-director+visual-screener passed (3 rounds); thumbnails A/B approved, C copepod fixed"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }

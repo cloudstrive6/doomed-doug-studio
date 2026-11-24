@@ -193,3 +193,46 @@ kids-show framing. None of them is misleading against its title.
 
 - s137 (illustrator): Give the flag pole a small wall bracket or a base on the counter.
 - Packaging (graphic designer): A is the strongest of the three at feed size. Keep it as the primary.
+
+## Round 4 (rebuilt thumbnails + s001/s098): 2026-11-24
+
+Viewed: `build/thumbnail.png` (A, HI FRIEND?), `thumbnail_b.png` (B, 392 ± 120 YRS), `thumbnail_c.png`
+(C, CONGRATULATIONS? ~150), all three `_small` versions (168x94), and keyframes s001 and s098. Pairings checked against
+`metadata.json` packaging candidates 1-3 (A = "...Has the Creepiest Eye Parasite Alive", B = "Why the Greenland Shark
+Is the Creepiest Fish Alive", C = "...Creepiest Teenager in the Ocean").
+
+**VERDICT: PASS**
+
+### Round 3 fixes re-checked
+
+1. **Eye parasite thumbnail (Round 3 fix 1, now A)**: Fixed. The thumbnail was rebuilt as a close-up of the snout with
+   one large eye ring and a dark pupil about 200 px behind the snout. The copepod's head attaches to the lower edge of
+   the ring with the pupil still visible, its arm is raised in a wave, and its two egg-sac streamers hang down. The
+   nostril no longer reads as an eye. At 168x94 it reads as "eye, with a white thing hanging off it". Doug (red cap, torch
+   beam lighting the eye) is right of the snout and reads at feed size. There's no eye damage, bite or attack. HI
+   FRIEND? is legible and is the clear focal point together with the eye.
+2. **C card (Round 3 fix 2)**: Fixed. Doug's hands now hold the card at its top corners, the floating candle is gone,
+   and the card face shows a large "~150" that's legible at 168x94. The shark (with its lidded, unimpressed eye) and the
+   text both read.
+3. **Candle flames cut off (Round 3 fix 3, now B)**: Fixed. The new B art (head-on shark under the ice, Doug on the
+   ice holding the candle-covered cake) has no art in row 0. The tallest flame tip is at about y=18 at 1280 px, with
+   only faint glow specks at y=8. "392 / ± 120 / YRS" is the clear focal point at feed size, the copepod streamer on the
+   shark's left eye is visible, and it's accurate (estimate with its range).
+4. **s098 (Round 3 fix 4)**: Fixed. "NEAR 0 °C" now sits under the thermometer, matching s059 and s165. The narration
+   ("near-freezing water"), the shark, Doug, "HUNDREDS OF METERS" and the HUD (417, SHARK AGE ~100) all match.
+5. **s001**: Uses the new HI FRIEND? art at 1920x1080. Nothing is cropped, Doug's free hand is raised in a wave, and it
+   works as the opening image for "Some sharks under the Arctic ice right now".
+
+All three thumbnails are original MS Paint style. None has gore, realistic violence or kids-show framing, and none is
+misleading against its paired title.
+
+### Advisory (not blocking)
+
+- B (graphic designer): At 168x94 the head-on shark, with its downturned mouth line and wide-set eyes, reads more like
+  a generic grumpy big fish than a shark. The number carries the thumbnail, so this is fine. If there's a future
+  revision, a hint of gill slits or a slightly more pointed snout would help.
+- C (graphic designer): Doug's legs run off the bottom edge under the card. This is acceptable since the head, cap and
+  card carry him.
+- s098 (director): The thermometer's red fill still sits at about 60%. The label resolves it. Dropping the fill to the
+  bulb would be a nice extra.
+- s137 (illustrator): The Round 3 note about the flag pole bracket still stands if it hasn't been addressed.
