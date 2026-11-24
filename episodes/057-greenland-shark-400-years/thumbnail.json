@@ -1,5 +1,5 @@
 {
- "background": "#16b4d8",
+ "background": "#082a5e",
  "size": [
   1280,
   720
@@ -11,8 +11,8 @@
    "y": -10,
    "w": 1300,
    "h": 740,
-   "fill": "#16b4d8",
-   "color": "#16b4d8",
+   "fill": "#082a5e",
+   "color": "#082a5e",
    "width": 0,
    "outline": false,
    "boil": 0
@@ -22,19 +22,7 @@
    "x": -10,
    "y": -10,
    "w": 1300,
-   "h": 260,
-   "fill": "#ffd21f",
-   "color": "#ffd21f",
-   "width": 0,
-   "outline": false,
-   "boil": 0
-  },
-  {
-   "type": "rect",
-   "x": -10,
-   "y": 250,
-   "w": 1300,
-   "h": 50,
+   "h": 40,
    "fill": "#eef8ff",
    "color": "#000000",
    "width": 6,
@@ -42,84 +30,598 @@
    "boil": 0
   },
   {
+   "type": "asset",
+   "name": "greenland_shark_head",
+   "x": 560,
+   "y": 330,
+   "scale": 1.75,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 560,
+   "y": 330,
+   "r": 46,
+   "fill": "#6e6a64",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
    "type": "ellipse",
-   "x": 880,
-   "y": 272,
-   "rx": 120,
-   "ry": 18,
-   "fill": "#16b4d8",
-   "color": "#000000",
+   "x": 1011.5,
+   "y": 414.0,
+   "rx": 34,
+   "ry": 24,
+   "fill": "#6e6a64",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "ellipse",
+   "x": 548,
+   "y": 318,
+   "rx": 8,
+   "ry": 5,
+   "fill": "#4f4b46",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "ellipse",
+   "x": 578,
+   "y": 344,
+   "rx": 6,
+   "ry": 6,
+   "fill": "#4f4b46",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     997.5,
+     512.0
+    ],
+    [
+     1018.5,
+     505.0
+    ],
+    [
+     1039.5,
+     494.5
+    ]
+   ],
+   "width": 5,
+   "color": "#1a1a1a",
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 1082,
+   "y": 512,
+   "r": 14,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 1064,
+   "y": 504,
+   "r": 21,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 1047,
+   "y": 495,
+   "r": 28,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 1029,
+   "y": 487,
+   "r": 34,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 1011,
+   "y": 479,
+   "r": 41,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 994,
+   "y": 470,
+   "r": 48,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 976,
+   "y": 462,
+   "r": 55,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 958,
+   "y": 454,
+   "r": 62,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 941,
+   "y": 445,
+   "r": 68,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 923,
+   "y": 437,
+   "r": 75,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 906,
+   "y": 428,
+   "r": 82,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 888,
+   "y": 420,
+   "r": 89,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 870,
+   "y": 412,
+   "r": 95,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 853,
+   "y": 403,
+   "r": 102,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 835,
+   "y": 395,
+   "r": 109,
+   "color": "#fff2a0",
+   "density": 0.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 835,
+   "y": 395,
+   "r": 120,
+   "color": "#fff6c4",
+   "density": 0.22,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 832,
+   "y": 318,
+   "r": 46,
+   "fill": "#c9d0d2",
    "width": 6,
+   "color": "#000000",
    "boil": 0
   },
   {
-   "type": "asset",
-   "name": "greenland_shark_face",
-   "x": 830,
-   "y": 630,
-   "scale": 1.25,
+   "type": "circle",
+   "x": 838,
+   "y": 316,
+   "r": 24,
+   "fill": "#111111",
+   "width": 0,
+   "outline": false,
    "boil": 0
   },
   {
-   "type": "asset",
-   "name": "eye_copepod",
-   "x": 542.5,
-   "y": 555.0,
+   "type": "circle",
+   "x": 846,
+   "y": 307,
+   "r": 6,
+   "fill": "#ffffff",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "group",
+   "x": 828,
+   "y": 356,
    "scale": 1.25,
+   "rotate": 0,
+   "elements": [
+    {
+     "type": "curve",
+     "points": [
+      [
+       -8,
+       62
+      ],
+      [
+       -22,
+       96
+      ],
+      [
+       -52,
+       128
+      ],
+      [
+       -98,
+       150
+      ],
+      [
+       -150,
+       160
+      ]
+     ],
+     "width": 15,
+     "color": "#000000"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       -8,
+       62
+      ],
+      [
+       -22,
+       96
+      ],
+      [
+       -52,
+       128
+      ],
+      [
+       -98,
+       150
+      ],
+      [
+       -150,
+       160
+      ]
+     ],
+     "width": 8,
+     "color": "#fbf7ea"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       4,
+       64
+      ],
+      [
+       0,
+       104
+      ],
+      [
+       -26,
+       146
+      ],
+      [
+       -70,
+       174
+      ],
+      [
+       -120,
+       190
+      ]
+     ],
+     "width": 15,
+     "color": "#000000"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       4,
+       64
+      ],
+      [
+       0,
+       104
+      ],
+      [
+       -26,
+       146
+      ],
+      [
+       -70,
+       174
+      ],
+      [
+       -120,
+       190
+      ]
+     ],
+     "width": 8,
+     "color": "#fbf7ea"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       0,
+       -4
+      ],
+      [
+       -2,
+       14
+      ]
+     ],
+     "width": 6,
+     "color": "#000000"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       0,
+       -4
+      ],
+      [
+       -2,
+       14
+      ]
+     ],
+     "width": 3,
+     "color": "#f3ecd6"
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       0,
+       10
+      ],
+      [
+       12,
+       22
+      ],
+      [
+       14,
+       44
+      ],
+      [
+       8,
+       66
+      ],
+      [
+       -4,
+       74
+      ],
+      [
+       -14,
+       66
+      ],
+      [
+       -16,
+       42
+      ],
+      [
+       -10,
+       20
+      ]
+     ],
+     "fill": "#f3ecd6",
+     "width": 3,
+     "color": "#000000",
+     "smooth": true
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       -12,
+       30
+      ],
+      [
+       -2,
+       34
+      ],
+      [
+       12,
+       30
+      ]
+     ],
+     "width": 2,
+     "color": "#a8987a"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       -14,
+       44
+      ],
+      [
+       0,
+       48
+      ],
+      [
+       13,
+       44
+      ]
+     ],
+     "width": 2,
+     "color": "#a8987a"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       -13,
+       58
+      ],
+      [
+       -2,
+       62
+      ],
+      [
+       10,
+       58
+      ]
+     ],
+     "width": 2,
+     "color": "#a8987a"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       10,
+       34
+      ],
+      [
+       22,
+       22
+      ],
+      [
+       26,
+       6
+      ]
+     ],
+     "width": 7,
+     "color": "#000000"
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       10,
+       34
+      ],
+      [
+       22,
+       22
+      ],
+      [
+       26,
+       6
+      ]
+     ],
+     "width": 3,
+     "color": "#f3ecd6"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       32,
+       2
+      ],
+      [
+       36,
+       10
+      ],
+      [
+       34,
+       18
+      ]
+     ],
+     "width": 2,
+     "color": "#6a6a6a"
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       16,
+       -2
+      ],
+      [
+       24,
+       -6
+      ],
+      [
+       32,
+       -4
+      ]
+     ],
+     "width": 2,
+     "color": "#6a6a6a"
+    }
+   ],
    "boil": 0
   },
   {
    "type": "doug",
-   "x": 1120,
-   "y": 185,
-   "scale": 0.55,
-   "pose": "point",
+   "x": 1150,
+   "y": 580,
+   "scale": 0.48,
+   "pose": "wave",
    "expression": "hopeful",
    "facing": "left"
   },
   {
    "type": "asset",
-   "name": "birthday_cake_candles",
-   "x": 1030,
-   "y": 150,
-   "scale": 0.36,
+   "name": "torch",
+   "x": 1160,
+   "y": 560,
+   "scale": 0.3,
+   "flip": true,
+   "rotate": 30,
    "boil": 0
   },
   {
    "type": "text",
-   "text": "392",
-   "x": 215,
-   "y": 370,
-   "size": 190,
+   "text": "HI FRIEND?",
+   "x": 650,
+   "y": 140,
+   "size": 140,
    "color": "#ffe23a",
-   "outline": "#000000",
-   "outline_width": 16,
-   "font": "Arimo",
-   "bold": true,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "text",
-   "text": "\u00b1 120",
-   "x": 215,
-   "y": 525,
-   "size": 120,
-   "color": "#ffffff",
-   "outline": "#000000",
-   "outline_width": 16,
-   "font": "Arimo",
-   "bold": true,
-   "boil": 0,
-   "wobble": 0
-  },
-  {
-   "type": "text",
-   "text": "YRS",
-   "x": 215,
-   "y": 650,
-   "size": 120,
-   "color": "#ffffff",
    "outline": "#000000",
    "outline_width": 16,
    "font": "Arimo",

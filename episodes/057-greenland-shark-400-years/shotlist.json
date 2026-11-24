@@ -16060,6 +16060,17 @@
       "appear": 0.5
      },
      {
+      "type": "label",
+      "text": "NEAR 0 °C",
+      "x": 1600,
+      "y": 780,
+      "size": 40,
+      "bold": true,
+      "boil": 0.3,
+      "fill": "#ffffff",
+      "appear": 0.55
+     },
+     {
       "type": "doug",
       "x": 700,
       "y": 380,

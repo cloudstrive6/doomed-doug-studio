@@ -133,3 +133,63 @@ s013 "WESTERN GREENLAND" now labels a map inset.
 
 No gore, Doug is on-model throughout, and the HUD counter progression is intact. The keyframes are cleared for the
 final render. Post-render checks (samples, qc.json, thumbnails A/B/C, Shorts) are still to come.
+
+## Round 3 (thumbnails + final fixes): 2026-11-24
+
+Viewed: `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` (1280x720) and their `_small` versions (168x94), plus
+keyframes s001, s137 and s098. Titles checked against `metadata.json` packaging candidates 1-3.
+
+**VERDICT: FAIL** (thumbnail B needs a real fix. The rest are small, quick fixes.)
+
+### Keyframes
+
+- s137: Fixed. The cube sits on a plate on the countertop, the red arrow points at it, and Doug stands beside it,
+  pointing and sad. It reads in 1 second. One advisory note: the Iceland flag pole has no base and floats on the wall.
+- s001: Same art as thumbnail A, so the same notes apply (see fix 3).
+- s098: Mostly fine, with one mismatch (fix 4). Doug, the shark, the HUD counter (417) and "HUNDREDS OF METERS" all
+  read. The narration says "near-freezing water", but the thermometer shows its stock red fill at about 60% with no
+  label, so it reads as warm or normal. s059 ("-2 °C") and s165 ("CLOSE TO FREEZING") label the same drawing. s098
+  doesn't.
+
+### Thumbnails
+
+- **A (392 ± 120 YRS, title "Why the Greenland Shark Is the Creepiest Fish Alive")**: Strong. The text is the clear
+  focal point and stays legible at 168x94. The dorsal fin coming up through the ice hole says "shark", and the copepod
+  streamer on the eye is visible at small size. It's accurate (estimate with its range), has no gore or attack, and
+  isn't misleading. Doug and the cake are small at feed size, with the cake a white blob next to the red cap. That's
+  acceptable because the number carries it. The candle tips are cut off by the top edge (fix 3).
+- **B (HI FRIEND?, title "...Creepiest Eye Parasite Alive")**: Fails on what the title promises. The shark's nostril
+  near the snout (about x=1010, y=420) is a dark oval with a brow stroke over it, so it reads as the shark's eye. The
+  real eye ring (about x=560, y=325) sits mid-body and the copepod's head covers it. At 168x94 the copepod looks like
+  a pale figure stuck on the shark's flank, not a parasite on its eye. The text, Doug (red cap, torch) and policy are
+  fine. The copepod's raised arm stays clear of the eye, so there's no eye damage.
+- **C (CONGRATULATIONS?, title "...Creepiest Teenager in the Ocean")**: The text reads at feed size, and the shark and
+  Doug read clearly. Doug isn't holding the card: it floats about 80 px above his raised hands, and the candle stuck on
+  top of the card is odd. At 168x94 the card reads as an open book. The pink background with arms-up Doug is the
+  closest of the three to a party look, but the unimpressed shark keeps it adult and deadpan. Acceptable.
+
+All three are original, use the channel's MS Paint style, and have no gore, no realistic violence and no
+kids-show framing. None of them is misleading against its title.
+
+### Required fixes
+
+1. **Thumbnail B (graphic designer)**: Make the eye obvious and put the parasite on it. Remove the brow stroke over the
+   nostril and shrink it to a thin dark slit, low on the snout tip. Move the eye ring and the copepod forward, toward the
+   head (eye about 180-250 px behind the snout, about x=800-850). Make the ring slightly bigger with a visible dark
+   pupil, and attach the copepod's head to the ring's lower edge so the pupil still shows. Re-check `_small`: you should
+   see "eye, with a white thing hanging off it".
+2. **Thumbnail C (graphic designer)**: Put the card in Doug's hands. Lower it so its bottom edge sits on both raised
+   hands (about y=480-500), or raise his hands to meet it. Either drop the floating candle or stand it on a cake held in
+   one hand. If you keep it, add a big "150" on the card face so it reads as a birthday or coming-of-age card at feed
+   size instead of a book.
+3. **Thumbnail A / s001 (graphic designer)**: The candle flames on the cake's top tier are cut off by the top edge (62
+   non-background pixels in row 0 at 1920 px). Move the Doug + cake group down about 30 px, or scale it to 0.95, so the
+   tallest flame clears the edge by at least 10 px. Both the thumbnail and the s001 keyframe use this art.
+4. **s098 (director)**: Label the cold. Add a white bold label "NEAR 0 °C" (size about 40, appear 0.55) under the
+   thermometer at about x=1600, y=780. This matches s059 and s165. Optionally, add a white rect over the upper part of
+   the red column so the fill sits at the bulb.
+
+### Advisory (not blocking)
+
+- s137 (illustrator): Give the flag pole a small wall bracket or a base on the counter.
+- Packaging (graphic designer): A is the strongest of the three at feed size. Keep it as the primary.

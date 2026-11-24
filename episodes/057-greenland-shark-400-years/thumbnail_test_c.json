@@ -1,52 +1,392 @@
 {
- "background": "#e2338f",
+ "background": "#3a9ad9",
  "size": [
   1280,
   720
  ],
  "elements": [
   {
-   "type": "rect",
-   "x": -10,
-   "y": -10,
-   "w": 1300,
-   "h": 740,
-   "fill": "#e2338f",
-   "color": "#e2338f",
-   "width": 0,
-   "outline": false,
+   "type": "bands",
+   "bands": [
+    {
+     "y0": 0,
+     "y1": 260,
+     "color": "#3a9ad9"
+    },
+    {
+     "y0": 260,
+     "y1": 420,
+     "color": "#3189c8"
+    },
+    {
+     "y0": 420,
+     "y1": 570,
+     "color": "#2873b0"
+    },
+    {
+     "y0": 570,
+     "y1": 720,
+     "color": "#1b4f86"
+    }
+   ],
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 200,
+   "y": 300,
+   "r": 60,
+   "color": "#6fc1ee",
+   "density": 0.05,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 900,
+   "y": 250,
+   "r": 60,
+   "color": "#6fc1ee",
+   "density": 0.05,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 640,
+   "y": 640,
+   "r": 60,
+   "color": "#6fc1ee",
+   "density": 0.04,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     -10
+    ],
+    [
+     1290,
+     -10
+    ],
+    [
+     1290,
+     58
+    ],
+    [
+     1180,
+     66
+    ],
+    [
+     1060,
+     54
+    ],
+    [
+     930,
+     70
+    ],
+    [
+     790,
+     58
+    ],
+    [
+     640,
+     72
+    ],
+    [
+     500,
+     56
+    ],
+    [
+     360,
+     68
+    ],
+    [
+     220,
+     54
+    ],
+    [
+     90,
+     66
+    ],
+    [
+     -10,
+     58
+    ]
+   ],
+   "fill": "#dff4ff",
+   "width": 6,
+   "color": "#000000",
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     150,
+     30
+    ],
+    [
+     260,
+     24
+    ]
+   ],
+   "width": 3,
+   "color": "#a9cde6",
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     720,
+     26
+    ],
+    [
+     860,
+     32
+    ]
+   ],
+   "width": 3,
+   "color": "#a9cde6",
    "boil": 0
   },
   {
    "type": "asset",
    "name": "greenland_shark",
-   "x": 440,
-   "y": 490,
-   "scale": 1.3,
+   "x": 350,
+   "y": 500,
+   "scale": 1.5,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 920.0,
+   "y": 446.0,
+   "r": 23,
+   "fill": "#c9d0d2",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 924.0,
+   "y": 452.0,
+   "r": 11,
+   "fill": "#1a1a1a",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     894.0,
+     448.0
+    ],
+    [
+     896.0,
+     430.0
+    ],
+    [
+     908.0,
+     419.0
+    ],
+    [
+     932.0,
+     419.0
+    ],
+    [
+     944.0,
+     430.0
+    ],
+    [
+     946.0,
+     448.0
+    ]
+   ],
+   "fill": "#7d7972",
+   "width": 0,
+   "outline": false,
+   "smooth": true,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 920.0,
+   "y": 446.0,
+   "r": 23,
+   "fill": null,
+   "width": 5,
+   "color": "#000000",
+   "boil": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     894.0,
+     450.0
+    ],
+    [
+     920.0,
+     446.0
+    ],
+    [
+     946.0,
+     450.0
+    ]
+   ],
+   "width": 6,
+   "color": "#000000",
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "eye_copepod",
+   "x": 918.0,
+   "y": 467.0,
+   "scale": 0.8,
    "boil": 0
   },
   {
    "type": "doug",
-   "x": 1130,
-   "y": 600,
-   "scale": 0.55,
-   "pose": "arms_up",
+   "x": 1168,
+   "y": 640,
+   "scale": 0.68,
+   "pose": "stand",
    "expression": "hopeful",
    "facing": "left"
   },
   {
-   "type": "asset",
-   "name": "shark_age_icon",
-   "x": 1130,
-   "y": 330,
-   "scale": 1.0,
+   "type": "group",
+   "x": 1150,
+   "y": 612,
+   "scale": 0.68,
+   "rotate": -6,
+   "elements": [
+    {
+     "type": "poly",
+     "points": [
+      [
+       -125,
+       -88
+      ],
+      [
+       125,
+       -96
+      ],
+      [
+       130,
+       88
+      ],
+      [
+       -120,
+       96
+      ]
+     ],
+     "fill": "#fff6dc",
+     "width": 7,
+     "color": "#000000"
+    },
+    {
+     "type": "poly",
+     "points": [
+      [
+       -112,
+       -76
+      ],
+      [
+       112,
+       -83
+      ],
+      [
+       116,
+       76
+      ],
+      [
+       -108,
+       83
+      ]
+     ],
+     "fill": null,
+     "width": 5,
+     "color": "#e0201b"
+    },
+    {
+     "type": "text",
+     "text": "~150",
+     "x": 2,
+     "y": 4,
+     "size": 92,
+     "color": "#000000",
+     "font": "Arimo",
+     "bold": true,
+     "boil": 0,
+     "wobble": 0
+    }
+   ],
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1090,
+     560
+    ],
+    [
+     1068,
+     598
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 1066,
+   "y": 602,
+   "r": 8,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000",
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1205,
+     555
+    ],
+    [
+     1232,
+     586
+    ]
+   ],
+   "width": 5,
+   "color": "#000000",
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 1234,
+   "y": 590,
+   "r": 8,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000",
    "boil": 0
   },
   {
    "type": "text",
    "text": "CONGRATULATIONS?",
    "x": 640,
-   "y": 110,
+   "y": 150,
    "size": 108,
    "color": "#ffffff",
    "outline": "#000000",

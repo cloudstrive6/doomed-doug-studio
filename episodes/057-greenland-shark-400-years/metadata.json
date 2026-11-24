@@ -1,13 +1,13 @@
 {
-  "title": "Why the Greenland Shark Is the Creepiest Fish Alive",
+  "title": "The Greenland Shark Has the Creepiest Eye Parasite Alive",
   "alt_titles": [
-    "The Greenland Shark Has the Creepiest Eye Parasite Alive",
+    "Why the Greenland Shark Is the Creepiest Fish Alive",
     "The Greenland Shark Is the Creepiest Teenager in the Ocean",
     "The Scariest Thing About the Greenland Shark Is Its Age",
     "Why the Creepiest Shark Takes About 150 Years to Grow Up"
   ],
-  "title_formula": "T9",
-  "thumbnail_brief": "A huge, slow grey-brown Greenland shark face under a ceiling of sea ice with a pale cartoon copepod streamer on its dot eye (no eye damage), and Doug in his cap above a hole in the ice holding a birthday cake crowded with candles, so the title's 'creepiest fish alive' gets its reason from the text 392 ± 120 YRS (the estimate with its range; never 400, OLD, SHARK, GREENLAND, FISH or STILL GROWING; no bite, no attack implied).",
+  "title_formula": "T4",
+  "thumbnail_brief": "An extreme close-up of the Greenland shark's dot eye under the sea ice with the pale cartoon copepod streamer hanging off it (no eye damage), and tiny Doug in his cap with a torch waving at the copepod, which waves back, as the shark starts to turn, so the title's 'creepiest eye parasite' gets its twist from the text HI FRIEND? (never PARASITE, EYE, SHARK, GREENLAND or CREEPY; no bite, no attack implied).",
   "description": "The Greenland shark is the longest-living vertebrate known: scientists dated the biggest one at about 392 years old, give or take 120, so some of the sharks under the Arctic ice right now are likely older than the United States. Doug meets Greenland sharks at every stage of that life, from a newborn pup to the oldest one ever dated, with a parasite on its eye, a top speed slower than a walk and a birthday cake.\n\nWhere should we send Doug next? Tell us in the comments.\nSubscribe. Doug's death counter goes up faster than any shark's age.\n\n— TIMESTAMPS —\n{{CHAPTERS}}\n\n— KEY SOURCES —\nNielsen et al. (2016), Science, eye-lens radiocarbon dating of Greenland sharks (392 ± 120 years): https://pubmed.ncbi.nlm.nih.gov/27516602/\nFogg et al. (2026), Nature Communications, Greenland shark vision and the retina in old sharks: https://doi.org/10.1038/s41467-025-67429-6\nNielsen et al. (2020), PLoS ONE, the reproductive biology of the Greenland shark: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238986\nWatanabe et al. (2012), Journal of Experimental Marine Biology and Ecology, \"The slowest fish\": https://doi.org/10.1016/j.jembe.2012.04.021\nNielsen et al. (2019), Frontiers in Marine Science, Greenland shark diet off Greenland: https://www.frontiersin.org/articles/10.3389/fmars.2019.00125/full\nNOAA Ocean Service, Greenland shark facts: https://oceanservice.noaa.gov/facts/greenland-shark.html\n\n— DISCLAIMER —\nEducational entertainment. All animals and deaths are cartoon depictions; no real people were harmed.\n\n— AI USE —\nThe narration is an AI text-to-speech voice. Scripts are researched and written with AI assistance and fact-checked against the sources above. All drawings are original.\n\n#DoomedDoug #GreenlandShark #DeepSea",
   "tags": [
     "greenland shark",
@@ -25,7 +25,7 @@
   "paid_promotion": false,
   "packaging": {
     "gate": "D4 packaging gate v1 (2026-11-09)",
-    "ranked_at": "2026-11-24T17:27:53Z",
+    "ranked_at": "2026-11-24T18:12:31Z",
     "names": [
       "Greenland shark",
       "Greenland sharks",
@@ -35,16 +35,6 @@
       "hákarl"
     ],
     "candidates": [
-      {
-        "title": "Why the Greenland Shark Is the Creepiest Fish Alive",
-        "thumb_text": "392 ± 120 YRS",
-        "concept": "Hero close-up: huge slow grey-brown Greenland shark face under a ceiling of sea ice, pale copepod streamer on a dot eye; through an ice hole above, Doug in his cap holds a birthday cake crowded with candles; text is the 2016 age estimate with its range",
-        "formula": "T9",
-        "chars": 51,
-        "score": 100,
-        "raw": 116,
-        "issues": []
-      },
       {
         "title": "The Greenland Shark Has the Creepiest Eye Parasite Alive",
         "thumb_text": "HI FRIEND?",
@@ -56,8 +46,18 @@
         "issues": []
       },
       {
+        "title": "Why the Greenland Shark Is the Creepiest Fish Alive",
+        "thumb_text": "392 ± 120 YRS",
+        "concept": "Hero close-up: huge slow grey-brown Greenland shark face under a ceiling of sea ice, pale copepod streamer on a dot eye; through an ice hole above, Doug in his cap holds a birthday cake crowded with candles; text is the 2016 age estimate with its range",
+        "formula": "T9",
+        "chars": 51,
+        "score": 100,
+        "raw": 116,
+        "issues": []
+      },
+      {
         "title": "The Greenland Shark Is the Creepiest Teenager in the Ocean",
-        "thumb_text": "CONGRATULATIONS?",
+        "thumb_text": "CONGRATULATIONS? ~150",
         "concept": "Doug under the ice holding a big CONGRATULATIONS card to a 4 m shark that drifts past, unimpressed (about 150 years to grow up)",
         "formula": "T4",
         "chars": 58,
@@ -148,10 +148,10 @@
         "variant": "A",
         "file": "thumbnail.json",
         "png": "build/thumbnail.png",
-        "title": "Why the Greenland Shark Is the Creepiest Fish Alive",
-        "thumb_text": "392 ± 120 YRS",
+        "title": "The Greenland Shark Has the Creepiest Eye Parasite Alive",
+        "thumb_text": "HI FRIEND?",
         "concept": "hero close-up",
-        "thumb_idea": "Hero close-up: huge slow grey-brown Greenland shark face under a ceiling of sea ice, pale copepod streamer on a dot eye; through an ice hole above, Doug in his cap holds a birthday cake crowded with candles; text is the 2016 age estimate with its range",
+        "thumb_idea": "Extreme close-up of the shark's dot eye with the pale copepod streamer hanging off it (no eye damage shown); tiny Doug with a torch under the ice waving at the copepod, which waves back, as the shark starts to turn",
         "score": 100,
         "raw": 116,
         "issues": []
@@ -160,10 +160,10 @@
         "variant": "B",
         "file": "thumbnail_test_b.json",
         "png": "build/thumbnail_b.png",
-        "title": "The Greenland Shark Has the Creepiest Eye Parasite Alive",
-        "thumb_text": "HI FRIEND?",
+        "title": "Why the Greenland Shark Is the Creepiest Fish Alive",
+        "thumb_text": "392 ± 120 YRS",
         "concept": "Doug in peril",
-        "thumb_idea": "Extreme close-up of the shark's dot eye with the pale copepod streamer hanging off it (no eye damage shown); tiny Doug with a torch under the ice waving at the copepod, which waves back, as the shark starts to turn",
+        "thumb_idea": "Hero close-up: huge slow grey-brown Greenland shark face under a ceiling of sea ice, pale copepod streamer on a dot eye; through an ice hole above, Doug in his cap holds a birthday cake crowded with candles; text is the 2016 age estimate with its range",
         "score": 100,
         "raw": 116,
         "issues": []
@@ -173,7 +173,7 @@
         "file": "thumbnail_test_c.json",
         "png": "build/thumbnail_c.png",
         "title": "The Greenland Shark Is the Creepiest Teenager in the Ocean",
-        "thumb_text": "CONGRATULATIONS?",
+        "thumb_text": "CONGRATULATIONS? ~150",
         "concept": "second shock",
         "thumb_idea": "Doug under the ice holding a big CONGRATULATIONS card to a 4 m shark that drifts past, unimpressed (about 150 years to grow up)",
         "score": 100,
