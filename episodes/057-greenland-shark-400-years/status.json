@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-11-24T18:19:24+00:00",
       "note": "art-director+visual-screener passed (3 rounds); thumbnails A/B approved, C copepod fixed"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-24T18:22:09+00:00",
+      "note": "all gates passed"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

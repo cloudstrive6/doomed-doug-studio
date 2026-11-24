@@ -99,3 +99,4 @@ C = Teenager + CONGRATULATIONS? ~150, as requested).
 
 Gate condition: this becomes APPROVED once C's copepod is fixed and the concurrent visual-screener returns PASS on all three
 (if the screener asks for other fixes, apply those too and send back). No need to send A or B back to me unless they change.
+- 2026-11-24: script 3 rounds (facts/jokes/sandwich fixes); art 3 rounds (keyframes + s137); thumbnails 3 rounds (A/B swapped by CD, C copepod); runtime ~11.2 min. Risks: reindeer claim is 'reportedly' (secondary source); thumbnail text ~150 added to C; shotlist generator in build/ is git-ignored.
