@@ -17,3 +17,17 @@ Creative director. Read brief.md, script.md (draft 3), facts.md and script_revie
   SHARK AGE card needs art-director approval; the copepod stays a pale streamer on a dot eye (no eye damage shown).
 - Housekeeping: style bible Script Writer rule 1 and Editor rule 10 updated to the 10-12 min / 1,950-2,350 word targets
   (config `video.target_minutes`), as the screener flagged.
+
+## 2026-11-24 · Shotlist (director)
+- 208 shots (s001 = thumbnail), all 2,105 spoken words once and in order, max 22 words per shot; 9 chapters; Doug in 203/208 shots.
+  Counter 414 to 420 ticks at s021, s063, s089, s112, s183, s204 (boss death and closing red-on-pink).
+- SHARK AGE device: `shark_age_icon` + size-28 label at (1590,238) under the counter, values ? / 0 / ~10 / ~50 / ~100 / ~100 / ~150 /
+  ~250 / ~392 (±120) (red from the reveal s187), `+ 1 MIN` on the LIVE feed. **Pending art-director approval.**
+- Item 4 costume: new `harp_seal_costume_prone` (pale silver, black harp saddle, mask hood) so it reads differently from 051's grey
+  `seal_costume`. **Pending art-director approval.**
+- Item 7: no party hat (facts.md director note); the CONGRATULATIONS card only.
+- Background ramp: sky one step dimmer per item (`#cfe9ff` to polar night `#1b2f5a` at the boss); water under the ice stays `#3a9ad9`
+  (art bible); only The Deep uses the depth ramp (to `#0b2447` at 2,200 m). Closing = LIVE feed (cap on the upturned cake).
+- Shorts: short01 The Oldest (s186-s198), short02 seals / Slowest Shark (s076-s089, hook line), short03 The Menu (s094-s108).
+  Titles and descriptions left for the youtube-titler.
+- Thumbnail (`thumbnail.json`) is still to come from the graphic designer; s001 references it.
