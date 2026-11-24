@@ -1,0 +1,81 @@
+{
+ "background": "#0d3f8a",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#0d3f8a",
+   "color": "#0d3f8a",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 40,
+   "fill": "#eef8ff",
+   "color": "#000000",
+   "width": 6,
+   "outline": true,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "greenland_shark_head",
+   "x": 560,
+   "y": 330,
+   "scale": 1.75,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "eye_copepod_wave",
+   "x": 560,
+   "y": 330,
+   "scale": 1.75,
+   "boil": 0
+  },
+  {
+   "type": "doug",
+   "x": 1130,
+   "y": 560,
+   "scale": 0.48,
+   "pose": "wave",
+   "expression": "hopeful",
+   "facing": "left"
+  },
+  {
+   "type": "asset",
+   "name": "torch",
+   "x": 1150,
+   "y": 575,
+   "scale": 0.3,
+   "boil": 0,
+   "rotate": -20
+  },
+  {
+   "type": "text",
+   "text": "HI FRIEND?",
+   "x": 650,
+   "y": 140,
+   "size": 140,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 16,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

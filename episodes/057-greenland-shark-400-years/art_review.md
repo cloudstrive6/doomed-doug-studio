@@ -136,3 +136,71 @@ earns its repetition, and the A/A' hold pairs (s041-s042, s061-s062, s158-s161) 
   (plus s003,s096,s110,s192,s193 if the nits are taken) and send the new sheets back for a quick re-check.
 - Illustrator: nothing. Both re-drawn assets pass.
 - Graphic designer: s001 is still `(thumbnail pending)`. That is expected at this stage, but it must be filled before the final render.
+
+---
+
+# 057 keyframe review, round 2 (art director, 2026-11-24)
+
+Reviewed: all 18 fresh contact sheets in `build/contact/` (s001-s208 + endslate, rendered 18:06 after commit `51970f2b`), the
+new-asset preview `assets/previews/057-greenland-shark-400-years-assets-fix.png`, and 1:1 crops of s028, s046, s120, s137, s176
+and the s187 HUD from `build/keyframes/`. Checked against round 1 above and `visual_review.md` round 1. Nothing re-rendered.
+
+## Verdict: FAIL (1 required director fix: s137; everything else PASS)
+
+Every round-1 art fix and every visual-review fix I re-checked is in. One new problem: the new plate in s137 sits on the floor
+instead of the counter. It is a one-shot placement fix.
+
+## New assets: PASS (all three)
+
+- **`ruler_40cm`: APPROVED.** Same yellow ruler and footprint as `ruler`, 0-40 cm in 5s, numbers legible at 1:1. In s028 the pup
+  now runs from about 1 to about 37, so "37 CM" matches the drawing. Leaving `ruler` (0-30) alone is correct; s045/s048 use it with
+  no number claim.
+- **`heart_monitor_slow`: APPROVED.** Same body as `heart_monitor` with a green flat trace and one blip on a dark screen. In s167
+  and s168 it reads as a heart monitor straight away. It no longer looks like a microwave.
+- **`hakarl_plate`: APPROVED as a drawing.** Pale cube with flake lines, a toothpick and a white plate, all on-palette. At 0.55 the
+  cube is about 82 px. That is what was asked for, and it reads as one cube of food. (Placement problem in s137: see fix 1.)
+- `hakarl_cube` (enlarged): reads in Doug's hand in s124. Approved.
+
+## Round-1 fixes verified
+
+| Fix | Shot(s) | Result |
+|---|---|---|
+| AD 1: meat run variety | s115-s120 | PASS. s116 is now the shark face + warning, s119 is the UREA / TRIMETHYLAMINE OXIDE close-up (slab about 2.0, Doug tiny bottom right), s120 is Doug big with `gritted` + `sweat`, arm out, chunk on a fork, big triangle, HAZARDOUS. No more than two similar frames in a row. |
+| AD 2 / VR 8: divider vs. label | s053, s054 | PASS. `4 CM A YEAR` clears the divider in both shots. `4X FASTER` is on the fingernail side. |
+| AD 3 / VR 15: 2014 tag | s131 | PASS. Plain document + `ICELAND GOV.` + flag; the tag sits above the top-right corner. |
+| AD 4 / VR 7: WELCOME | s043 | PASS. Text rotated with the fallen board. |
+| Nits 5-8 | s003, s096/s110, s192/s193, s187/s188 | PASS. The arrow clears the E. One font size for all FOUND INSIDE rows. Sharks have their own space, and the BORN BEFORE box wraps separate shapes. The wordart is up in clear water above the fins. |
+| VR 1: last death | s204 | PASS. Cap on a dashed line, cake sinking, faint shark outline, counter 420 in red. No longer a black frame. |
+| VR 3/4: variety | s185-s188, s061-s065 | PASS. s187/s188 are the eye close-up (A/A' pair, deliberate). s064 is the underwater nose-against-tape close-up. |
+| VR 6, 9-14, minors | s192-3, s028, s137, s046, s030, s027, s015, s167, s022/s090, s194, s101, s158, s013, s203 | PASS, except s137 (fix 1). The calendar page in s046 is now readable in the open sky. There is one cap per post-death frame. WHALE MEAT is labelled. The s158 tail is in frame. The map inset sits by WESTERN GREENLAND. The s203 slab tilts. |
+| HUD | all | PASS. Exactly one `shark_age_icon` per shot (s187 checked 1:1). Counter 414 → 420 on s021/s063/s089/s112/s183/s204. SHARK AGE runs ? → 0 → ~10 → ~50 → ~100 → ~150 → ~250 → ~392 (±120) → `+ 1 MIN`. |
+
+Doug is on-model in every shot. The cap is always visible, including the ghosts and the submersible porthole. Zone colours follow
+the bible, with surface `#3a9ad9` under the ice and the depth ramp only in The Deep. There is no gore anywhere.
+
+## Required fix (director, `build/gen_shotlist.py` → shotlist)
+
+1. **s137: the plate is on the floor, not on the counter.** `hakarl_plate` is at (1130, 830). That is floor level, just past the
+   counter's right edge, so the plate overlaps the cupboard door and the cube is level with Doug's knees. "Doug has ordered one cube"
+   needs it served on the worktop. `kitchen_counter` at (760, 900) scale 1.6 has its worktop surface at y ≈ 516 (x 440-1080).
+   - Move `hakarl_plate` to about **(960, 518)**, scale 0.55 unchanged.
+   - The cube top then reaches y ≈ 390, so move the `HÁKARL: TRADITIONAL` label up to **y ≈ 290** and it will not touch the cube.
+     The flag stays where it is.
+   - Re-aim the red arrow so it ends about 20 px from the cube's right face, coming from the right at y ≈ 450-470
+     (e.g. (1210, 470) → (1060, 440)). Do not cross the flagpole or the label.
+   - Optional (VR 10 asked for it): Doug's expression `flat` → `worried` / uneasy.
+   Re-render `--shots s137` only and send the sheet back for a quick look.
+
+## Nits (optional)
+
+2. s098: the `HUNDREDS OF M` label looks cut off. Write `HUNDREDS OF METERS` (it fits at size 40).
+3. s120: the fork reads more like grey tongs, and the speed lines behind the chunk make it look thrown. Drop the speed lines if you
+   are touching the shot anyway. The pose and the warning read fine as they are.
+
+## Still open elsewhere (not art)
+- s001 is still `(thumbnail pending)` (graphic designer; needed before the final render).
+- Contact-caption font shows "h?karl" (editor: confirm the á glyph in the subtitle font). The on-frame HÁKARL is correct.
+
+## Routing
+- Director: fix 1 (plus nits 2-3 if convenient). Re-render `s137` (and `s098`, `s120` if touched).
+- Illustrator: nothing. All three new assets pass.

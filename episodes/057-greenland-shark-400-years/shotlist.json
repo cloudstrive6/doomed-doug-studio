@@ -16042,8 +16042,8 @@
      },
      {
       "type": "label",
-      "text": "HUNDREDS OF M",
-      "x": 300,
+      "text": "HUNDREDS OF METERS",
+      "x": 450,
       "y": 520,
       "size": 40,
       "bold": true,
@@ -21888,7 +21888,7 @@
       "type": "label",
       "text": "HÁKARL: TRADITIONAL",
       "x": 760,
-      "y": 380,
+      "y": 290,
       "size": 44,
       "bold": true,
       "boil": 0.3,
@@ -21975,26 +21975,26 @@
       "y": 816.4,
       "scale": 0.55,
       "pose": "point",
-      "expression": "flat",
+      "expression": "worried",
       "facing": "left"
      },
      {
       "type": "asset",
       "name": "hakarl_plate",
-      "x": 1130,
-      "y": 830,
+      "x": 960,
+      "y": 518,
       "scale": 0.55,
       "appear": 0.3
      },
      {
       "type": "arrow",
       "from": [
-       900,
-       560
+       1210,
+       470
       ],
       "to": [
-       1080,
-       700
+       1060,
+       440
       ],
       "color": "#e0201b",
       "width": 9,

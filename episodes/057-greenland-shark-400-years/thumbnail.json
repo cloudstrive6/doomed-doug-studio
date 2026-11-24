@@ -1,0 +1,131 @@
+{
+ "background": "#16b4d8",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#16b4d8",
+   "color": "#16b4d8",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 260,
+   "fill": "#ffd21f",
+   "color": "#ffd21f",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 250,
+   "w": 1300,
+   "h": 50,
+   "fill": "#eef8ff",
+   "color": "#000000",
+   "width": 6,
+   "outline": true,
+   "boil": 0
+  },
+  {
+   "type": "ellipse",
+   "x": 880,
+   "y": 272,
+   "rx": 120,
+   "ry": 18,
+   "fill": "#16b4d8",
+   "color": "#000000",
+   "width": 6,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "greenland_shark_face",
+   "x": 830,
+   "y": 630,
+   "scale": 1.25,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "eye_copepod",
+   "x": 542.5,
+   "y": 555.0,
+   "scale": 1.25,
+   "boil": 0
+  },
+  {
+   "type": "doug",
+   "x": 1120,
+   "y": 185,
+   "scale": 0.55,
+   "pose": "point",
+   "expression": "hopeful",
+   "facing": "left"
+  },
+  {
+   "type": "asset",
+   "name": "birthday_cake_candles",
+   "x": 1030,
+   "y": 150,
+   "scale": 0.36,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "392",
+   "x": 215,
+   "y": 370,
+   "size": 190,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 16,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "\u00b1 120",
+   "x": 215,
+   "y": 525,
+   "size": 120,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 16,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "YRS",
+   "x": 215,
+   "y": 650,
+   "size": 120,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 16,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

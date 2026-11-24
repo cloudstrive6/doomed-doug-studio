@@ -87,3 +87,49 @@ screen ("TRIMETHYLAMINE OXIDE", "HÁKARL", "CONGRATU-/LATIONS" all correct). The
 Iceland circled. The squid-bait camera, the snail race, the seal napping vertically (s084) and the bomb-pulse curve
 (s191) are recognisable. The 28-shark grid counts out correctly (7x4). The endslate's Subscribe circle and video box are
 clear.
+
+## Round 2 (pre-render, keyframes): 2026-11-24
+
+Source: fresh `build/contact/sheet_01..18.png` and `build/keyframes/` (regenerated 18:06). I checked every shot changed
+since round 1 (s003, s013, s015, s022, s027, s028, s030, s043, s046, s053, s054, s064, s090, s094-s096, s101, s110, s116,
+s119, s120, s131, s137, s158, s167, s168, s185, s187, s188, s192-s194, s203, s204), plus their neighbours, for
+regressions. The s001 thumbnail placeholder was ignored as instructed.
+
+**VERDICT: PASS**
+
+### Required fixes from round 1
+
+1. s204: Fixed. The cap now rises on a dashed line and the lit cake sinks toward a faint shark outline on black, with the
+   420 counter showing. It reads as a death, not a dropped frame.
+2. s185, s187, s188: Fixed. "THE OLDEST", "~392 YEARS" and "± 120" now sit in clear water above the shark.
+3. s185-s188 variety: Fixed. s185 and s186 are full side views. s187 and s188 are a head close-up with the copepod, and
+   in s187 a red arrow points from the wordart to the eye.
+4. s061-s065 variety: Fixed. s064 is an underwater nose close-up against a yellow tape, with a red under-1 cm tick.
+5. s115-s120 variety: Fixed. s116 is the shark's face front-on with a warning sign and "A PLAN". s119 is a large slab
+   with UREA and TRIMETHYLAMINE OXIDE callouts and Doug small. s120 is Doug holding tongs at a big warning sign.
+6. s192, s193: Fixed. The five sharks are spaced out with no outlines touching, and the green and red boxes wrap
+   separate shapes.
+7. s043: Fixed. "WELCOME" now fits inside the tipped sign.
+8. s053, s054: Fixed. The divider no longer crosses "4 CM A YEAR", and "4X FASTER" sits over the fingernail.
+9. s028: Fixed. The new ruler runs 0-40 and the pup spans it, so the scale matches 37 CM.
+10. s137: Fixed. A large cube sits on a plate on the counter, the red arrow points at it, and Doug stands beside it.
+11. s046: Fixed. The calendar page is larger and in the open sky on the right, and no longer reads as an artifact.
+12. s030: Fixed. "THE ONLY ONE" clears Doug.
+13. s027, s015: Fixed. "10 PUPS" clears the dorsal fin (checked at full size), and "100+ YEARS" clears the eye diagram.
+14. s167: Fixed. The monitor shows a green trace with a single blip and reads as a heart monitor.
+15. s131: Fixed. It now uses the plain document with a "2014" tag, an "ICELAND GOV." label and the flag.
+
+### Minor items from round 1
+
+All are addressed. s022 and s090 have no floating second cap. s203's ice slab tilts under Doug and the cake. In s194
+the arrow sits below "THE LOW END" pointing to 272. s101 has a "WHALE MEAT" label. s158's tail is inside the frame. In
+s013 "WESTERN GREENLAND" now labels a map inset.
+
+### New notes (advisory, not blocking)
+
+- s110 (illustrator): The PICNIC row icon in the FOUND INSIDE list is a small black blob that reads as a bag. A tiny
+  basket silhouette matching the basket at Doug's feet would land the gag better. Fix only if cheap.
+- Carried over (editor): Confirm the burned-in subtitle font has the "á" glyph for "hákarl" before the final render.
+
+No gore, Doug is on-model throughout, and the HUD counter progression is intact. The keyframes are cleared for the
+final render. Post-render checks (samples, qc.json, thumbnails A/B/C, Shorts) are still to come.

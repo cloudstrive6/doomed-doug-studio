@@ -1,0 +1,60 @@
+{
+ "background": "#e2338f",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#e2338f",
+   "color": "#e2338f",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "greenland_shark",
+   "x": 440,
+   "y": 490,
+   "scale": 1.3,
+   "boil": 0
+  },
+  {
+   "type": "doug",
+   "x": 1130,
+   "y": 600,
+   "scale": 0.55,
+   "pose": "arms_up",
+   "expression": "hopeful",
+   "facing": "left"
+  },
+  {
+   "type": "asset",
+   "name": "shark_age_icon",
+   "x": 1130,
+   "y": 330,
+   "scale": 1.0,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "CONGRATULATIONS?",
+   "x": 640,
+   "y": 110,
+   "size": 108,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 16,
+   "font": "Arimo",
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
