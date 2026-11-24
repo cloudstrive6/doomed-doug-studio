@@ -227,6 +227,13 @@ falls from midday to the pre-dawn raid. Diagram cards cream `#f4f1dc`, nest inte
 cards included; it only comes off on a scripted beat. Flat empty costumes (`bee_costume_flat`, `hornet_costume_flat`) carry printed X eyes and a
 zipper so they read as a suit, never as a headless animal. **Episode HUD icon** (`the_target`, 049): 0.2 scale left of the size-28 meter label,
 icon right edge ~30 px left of the label box; it may turn red-on-pink `#ffd2cc` / `#e0201b` at the boss like the 009 clock.
+**SHARK AGE (057, episode-only; reuse the pattern for any "how old is it" episode).** `shark_age_icon` (cream card, one candle, shark
+fin) at 0.16 left of the size-28 `SHARK AGE: <n>` label at (1590,238); same icon-gap rule; **exactly one icon per shot** (when the
+label widens, move the icon, never add a second one). Ranges stay on the label (`~392 (±120)`). Red-on-pink from the reveal to the end;
+an extra red size-28 label may stack under it for the closing gag (`+ 1 MIN`). At 32 px only the silhouette, the flame and the fin
+survive: HUD icons carry no interior text lines or water squiggles.
+**Second seal suit (057 `harp_seal_costume_prone`):** pale silver `#d9dcdf` felt with a black stitched horseshoe saddle and a black mask
+hood. It is the harp-seal suit; 051's grey speckled `seal_costume` stays the generic/ringed seal suit. Never mix the two in one episode.
 **THE WEIGH-IN (from 052; reuse for any "small animal vs bigger attackers" episode).** Library `platform_scale` at 0.36-0.4 left of
 two stacked size-28 labels under the counter: the subject's fixed weight on top (`BADGER: ~9 kg`), the current attacker under it. A
 small red needle line on the dial steps up each item and hits the end stop at the climax, where only the attacker label turns red-on-pink

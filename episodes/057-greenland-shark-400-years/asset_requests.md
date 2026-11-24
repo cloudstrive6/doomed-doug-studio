@@ -32,7 +32,7 @@ Greenland shark grey-brown is the library `#6e6a64`; keep every new shark drawin
 
 ## Episode HUD
 
-### `shark_age_icon` - DONE (illustrator, preview `assets/previews/057-greenland-shark-400-years-assets-a.png`) (HUD icon, every shot s002-s206) - needs art-director approval
+### `shark_age_icon` - DONE (illustrator, preview `assets/previews/057-greenland-shark-400-years-assets-a.png`) (HUD icon, every shot s002-s206) - needs art-director approval - AD FIXES 1-4 APPLIED 2026-11-24 (preview `assets/previews/057-greenland-shark-400-years-assets-fix.png`, actual size `assets/previews/057-greenland-shark-400-years-icon-016.png`)
 Tiny crude birthday card: a folded cream `#fff6dc` card standing open in 3/4 view, black outline 6, one red-and-white striped candle
 with a small yellow flame on top, and a tiny grey `#6e6a64` shark fin doodled on the front. Must read at **scale 0.16 (about 32 px)**.
 Anchor centre, bbox about x -100..100, y -100..100. It sits left of the size-28 `SHARK AGE: <n>` label at (1590,238) under the death
@@ -121,7 +121,7 @@ icing smeared out at the base, a few snuffed candles (no flames, a thin grey smo
 
 ## Iceland and fisheries (items 6, 7, 9)
 
-### `shark_meat_slab` - DONE (illustrator, preview `assets/previews/057-greenland-shark-400-years-assets-b.png`)
+### `shark_meat_slab` - DONE (illustrator, preview `assets/previews/057-greenland-shark-400-years-assets-b.png`) - AD FIX 7 APPLIED 2026-11-24 (fillet shape, preview `assets/previews/057-greenland-shark-400-years-assets-fix.png`)
 A plain slab of pale grey-white `#d8d6cf` shark meat with a slightly darker grey `#b8b4aa` skin edge along the top, faint grain
 lines, flat fills. **Not red, not bloody, no bone.** Anchor centre, about 420x200. Sits on `dinner_plate` and on its own under a
 yellow warning triangle. Shots: s115-s120, s122.
