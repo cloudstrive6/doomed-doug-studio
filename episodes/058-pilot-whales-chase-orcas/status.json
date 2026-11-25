@@ -4,7 +4,17 @@
       "stage": "idea",
       "at": "2026-11-25T23:04:51+00:00",
       "note": "created"
+    },
+    {
+      "stage": "scripted",
+      "at": "2026-11-25T23:20:55+00:00",
+      "note": "draft 1"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-11-25T23:28:42+00:00",
+      "note": "CD approved draft 2 + outro fix; item 6 Saedis reversal and dropped 'A Third Their Weight' signed off (see decisions.md)"
     }
   ],
-  "stage": "idea"
+  "stage": "script_approved"
 }
