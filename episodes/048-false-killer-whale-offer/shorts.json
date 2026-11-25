@@ -83,7 +83,27 @@
       "publish_at": "2026-11-25T14:00:00Z",
       "related_video": "LKdf1LVFtek",
       "related_set": false,
-      "uploaded_at": "2026-11-15T21:30:31+00:00"
+      "uploaded_at": "2026-11-15T21:30:31+00:00",
+      "social": {
+        "instagram": {
+          "id": "18080522534454768",
+          "url": "https://www.instagram.com/reel/DgKspH4MS0L/"
+        },
+        "facebook": {
+          "id": "1821584706054376",
+          "url": "https://www.facebook.com/reel/1821584706054376"
+        },
+        "tiktok": {
+          "id": "v_pub_file~v2-1.7712109309148268552",
+          "url": "https://www.tiktok.com/@doomeddoug"
+        },
+        "instagram_story": {
+          "id": "18225113785353567"
+        },
+        "facebook_story": {
+          "id": "2401353857368993"
+        }
+      }
     }
   ]
 }
