@@ -1,0 +1,198 @@
+{
+ "background": "#3a9ad9",
+ "size": [
+  1280,
+  720
+ ],
+ "note": "director placeholder for s001 (brief 1); graphic designer owns the final",
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#3a9ad9",
+   "color": "#3a9ad9",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 640,
+   "y": 400,
+   "r": 700,
+   "color": "#6fc1ee",
+   "density": 0.01,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale",
+   "x": 260,
+   "y": 300,
+   "scale": 0.42,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale",
+   "x": 470,
+   "y": 420,
+   "scale": 0.5,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale",
+   "x": 120,
+   "y": 470,
+   "scale": 0.44,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale",
+   "x": 560,
+   "y": 560,
+   "scale": 0.5,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale",
+   "x": 330,
+   "y": 600,
+   "scale": 0.46,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale",
+   "x": 150,
+   "y": 640,
+   "scale": 0.4,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "orca",
+   "x": 1210,
+   "y": 470,
+   "scale": 0.62,
+   "rotate": -6,
+   "boil": 0
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     1150,
+     250
+    ],
+    [
+     1172,
+     292
+    ],
+    [
+     1162,
+     312
+    ],
+    [
+     1140,
+     312
+    ],
+    [
+     1130,
+     292
+    ]
+   ],
+   "fill": "#bfe6ff",
+   "color": "#000000",
+   "width": 4,
+   "smooth": true,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     870,
+     400
+    ],
+    [
+     770,
+     400
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     870,
+     450
+    ],
+    [
+     770,
+     450
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     870,
+     500
+    ],
+    [
+     770,
+     500
+    ]
+   ],
+   "color": "#ffffff",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "doug",
+   "x": 880,
+   "y": 560,
+   "scale": 0.3,
+   "pose": "float",
+   "expression": "shock",
+   "facing": "left",
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "orca_costume",
+   "x": 880,
+   "y": 560,
+   "scale": 0.3,
+   "flip": true,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "WRONG WAY",
+   "x": 640,
+   "y": 110,
+   "size": 130,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 14,
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
