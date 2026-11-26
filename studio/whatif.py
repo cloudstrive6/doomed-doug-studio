@@ -269,7 +269,13 @@ def cmd_shots(pdir: Path):
                 for key in ("pose", "move", "meg", "fx", "props_add", "hide", "holds"):
                     if key in ov:
                         spec[key] = ov[key]
+                if ov.get("keep_shots"):
+                    spec["keep"] = True
                 shots.append(spec)
+    from .whatif_check import fix_card_shots   # never a science card over a face (review must-fix, 2026-11-27)
+    fixed = fix_card_shots(staging, shots)
+    if fixed:
+        print(f"re-framed {len(fixed)} shots so no card covers a face")
     total = L["total"]
     if "END" in staging.get("scenes", {}):
         shots.append({"t0": round(total, 3), "t1": round(total + 12.0, 3), "scene": "END", "set": staging["scenes"]["END"]["set"],
@@ -470,18 +476,10 @@ def _clamp_cam(cx, cy, z):
     return min(max(cx, hw), 1920 - hw), min(max(cy, hh), 1080 - hh), z   # the world is always 1920x1080
 
 
-def render_frame(ctx: Ctx, spec: dict, t_abs: float, bgcache: dict) -> Image.Image:
-    st = dict(ctx.staging["scenes"][spec["scene"]])
-    for k in ("meg",):
-        if spec.get("meg") and "meg" in st:
-            st["meg"] = {**st["meg"], **spec["meg"]}
-    set_id = spec.get("set") or st.get("set")
-    if vertical() and spec["frame"] in ("meg", "megclose") and "meg" in st:
-        return _vertical_shark_insert(st, set_id, spec, t_abs)
+def camera(st, spec, set_id, f):
+    """World camera (cx, cy, zoom) and ground line for a shot at fraction f (0 to 1) of its length.
+    Shared by the renderer and the pre-review checks (whatif_check.py), so both see the same framing."""
     ground = S.GROUND.get(set_id, 900)
-    dur = spec["t1"] - spec["t0"]
-    t_rel = t_abs - spec["t0"]
-    f = t_rel / max(0.05, dur)
     fr_label = spec["frame"]
     if vertical() and fr_label == "wide" and st.get("chars"):
         fr_label = f"medium:{spec['who']}" if spec["who"] in st["chars"] else f"medium:{next(iter(st['chars']))}"
@@ -491,9 +489,29 @@ def render_frame(ctx: Ctx, spec: dict, t_abs: float, bgcache: dict) -> Image.Ima
     elif spec.get("card_on"):
         cy += 120 / z     # vertical: the card sits low, lift the subject
     cx, cy, z = _fit_heads(cx, cy, z, st, ground, spec["frame"])
-    push = 1.0 + 0.06 * T.ease(f, "inout") * (1 if hash(spec["line"] + spec["frame"]) % 2 else -0.6)
+    push = 1.0 + 0.06 * T.ease(f, "inout") * (1 if _stable_hash(spec["line"] + spec["frame"]) % 2 else -0.6)
     drift = (math.sin(spec["t0"] * 3.1) * 26) * (f - 0.5)
     cx, cy, z = _clamp_cam(cx + drift / z, cy, z * push)
+    return cx, cy, z, ground
+
+
+def _stable_hash(s):
+    """Same value in every process (Python's hash() of a str changes per run, so parts could disagree)."""
+    return sum(ord(c) * (i + 1) for i, c in enumerate(s))
+
+
+def render_frame(ctx: Ctx, spec: dict, t_abs: float, bgcache: dict) -> Image.Image:
+    st = dict(ctx.staging["scenes"][spec["scene"]])
+    for k in ("meg",):
+        if spec.get("meg") and "meg" in st:
+            st["meg"] = {**st["meg"], **spec["meg"]}
+    set_id = spec.get("set") or st.get("set")
+    if vertical() and spec["frame"] in ("meg", "megclose") and "meg" in st:
+        return _vertical_shark_insert(st, set_id, spec, t_abs)
+    dur = spec["t1"] - spec["t0"]
+    t_rel = t_abs - spec["t0"]
+    f = t_rel / max(0.05, dur)
+    cx, cy, z, ground = camera(st, spec, set_id, f)
     shake = 0.0
     if spec["emo"] in ("shock", "shocked", "panic", "scared", "yelling", "loud") or "shake" in (spec.get("fx") or []):
         shake = 7.0 * max(0.0, 1 - t_rel / 0.6)
