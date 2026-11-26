@@ -518,41 +518,100 @@
       "density": 0.008
      },
      {
+      "type": "line",
+      "points": [
+       [
+        190,
+        -10
+       ],
+       [
+        190,
+        664.0
+       ]
+      ],
+      "color": "#2e2e2e",
+      "width": 5
+     },
+     {
       "type": "asset",
-      "name": "pilot_whale",
-      "x": 300,
-      "y": 560,
-      "scale": 0.3,
+      "name": "loudspeaker",
+      "x": 190,
+      "y": 780,
+      "scale": 0.5
+     },
+     {
+      "type": "circle",
+      "x": 220.0,
+      "y": 715.0,
+      "r": 70,
+      "start": -35,
+      "end": 35,
+      "color": "#e0201b",
+      "width": 7,
       "appear": 0.0
      },
      {
-      "type": "asset",
-      "name": "pilot_whale",
-      "x": 570,
-      "y": 680,
-      "scale": 0.3,
+      "type": "circle",
+      "x": 220.0,
+      "y": 715.0,
+      "r": 115,
+      "start": -35,
+      "end": 35,
+      "color": "#e0201b",
+      "width": 7,
       "appear": 0.08
      },
      {
-      "type": "asset",
-      "name": "pilot_whale",
-      "x": 840,
-      "y": 560,
-      "scale": 0.3,
+      "type": "circle",
+      "x": 220.0,
+      "y": 715.0,
+      "r": 160,
+      "start": -35,
+      "end": 35,
+      "color": "#e0201b",
+      "width": 7,
       "appear": 0.16
      },
      {
       "type": "asset",
       "name": "pilot_whale",
-      "x": 1110,
+      "x": 500,
+      "y": 560,
+      "scale": 0.3,
+      "flip": true,
+      "appear": 0.0
+     },
+     {
+      "type": "asset",
+      "name": "pilot_whale",
+      "x": 750,
       "y": 680,
       "scale": 0.3,
+      "flip": true,
+      "appear": 0.08
+     },
+     {
+      "type": "asset",
+      "name": "pilot_whale",
+      "x": 1000,
+      "y": 560,
+      "scale": 0.3,
+      "flip": true,
+      "appear": 0.16
+     },
+     {
+      "type": "asset",
+      "name": "pilot_whale",
+      "x": 1250,
+      "y": 680,
+      "scale": 0.3,
+      "flip": true,
       "appear": 0.24
      },
      {
       "type": "asset",
       "name": "pilot_whale",
-      "x": 1380,
+      "x": 1500,
       "y": 560,
       "scale": 0.3,
       "appear": 0.32
@@ -560,7 +619,7 @@
      {
       "type": "asset",
       "name": "dtag",
-      "x": 320,
+      "x": 480,
       "y": 510,
       "scale": 0.22,
       "appear": 0.0
@@ -568,7 +627,7 @@
      {
       "type": "asset",
       "name": "dtag",
-      "x": 590,
+      "x": 730,
       "y": 630,
       "scale": 0.22,
       "appear": 0.08
@@ -576,7 +635,7 @@
      {
       "type": "asset",
       "name": "dtag",
-      "x": 860,
+      "x": 980,
       "y": 510,
       "scale": 0.22,
       "appear": 0.16
@@ -584,7 +643,7 @@
      {
       "type": "asset",
       "name": "dtag",
-      "x": 1130,
+      "x": 1230,
       "y": 630,
       "scale": 0.22,
       "appear": 0.24
@@ -592,10 +651,70 @@
      {
       "type": "asset",
       "name": "dtag",
-      "x": 1400,
+      "x": 1520,
       "y": 510,
       "scale": 0.22,
       "appear": 0.32
+     },
+     {
+      "type": "arrow",
+      "from": [
+       390,
+       560
+      ],
+      "to": [
+       280,
+       570
+      ],
+      "color": "#e0201b",
+      "width": 7,
+      "bend": -15,
+      "appear": 0.3
+     },
+     {
+      "type": "arrow",
+      "from": [
+       640,
+       680
+      ],
+      "to": [
+       530,
+       690
+      ],
+      "color": "#e0201b",
+      "width": 7,
+      "bend": -15,
+      "appear": 0.35
+     },
+     {
+      "type": "arrow",
+      "from": [
+       890,
+       560
+      ],
+      "to": [
+       780,
+       570
+      ],
+      "color": "#e0201b",
+      "width": 7,
+      "bend": -15,
+      "appear": 0.4
+     },
+     {
+      "type": "arrow",
+      "from": [
+       1140,
+       680
+      ],
+      "to": [
+       1030,
+       690
+      ],
+      "color": "#e0201b",
+      "width": 7,
+      "bend": -15,
+      "appear": 0.45
      },
      {
       "type": "wordart",
@@ -607,11 +726,11 @@
      },
      {
       "type": "doug",
-      "x": 1660,
+      "x": 1650,
       "y": 860,
       "scale": 0.4,
       "pose": "float",
-      "expression": "neutral",
+      "expression": "confused",
       "gear": [
        "mask"
       ],
@@ -9351,49 +9470,49 @@
      {
       "type": "doug",
       "x": 560,
-      "y": 780,
-      "scale": 0.5,
+      "y": 801,
+      "scale": 0.55,
       "pose": [
-       "walk1",
-       "walk2"
+       "push1",
+       "push2"
       ],
       "expression": "hopeful"
      },
      {
       "type": "asset",
       "name": "shopping_trolley",
-      "x": 790,
-      "y": 800,
-      "scale": 0.8
+      "x": 715,
+      "y": 814,
+      "scale": 0.55
      },
      {
       "type": "asset",
       "name": "bread_loaf",
-      "x": 750.0,
-      "y": 708.0,
-      "scale": 0.42,
+      "x": 687,
+      "y": 751,
+      "scale": 0.29,
       "rotate": -8
      },
      {
       "type": "asset",
       "name": "soda_bottle",
-      "x": 840.0,
-      "y": 670.0,
-      "scale": 0.3,
+      "x": 749,
+      "y": 725,
+      "scale": 0.21,
       "rotate": 12
      },
      {
       "type": "asset",
       "name": "silver_fish",
-      "x": 780.0,
-      "y": 680.0,
-      "scale": 0.32,
+      "x": 708,
+      "y": 732,
+      "scale": 0.22,
       "rotate": -15
      },
      {
       "type": "asset",
       "name": "stick_man_plain",
-      "x": 1080,
+      "x": 930,
       "y": 880,
       "scale": 0.5,
       "appear": 0.25
@@ -9402,11 +9521,11 @@
       "type": "line",
       "points": [
        [
-        1080,
+        930,
         760
        ],
        [
-        1040,
+        890,
         705
        ]
       ],
@@ -9416,7 +9535,7 @@
      {
       "type": "asset",
       "name": "bread_loaf",
-      "x": 1035,
+      "x": 885,
       "y": 718,
       "scale": 0.3,
       "rotate": -20,
@@ -13785,43 +13904,43 @@
      {
       "type": "doug",
       "x": 1100,
-      "y": 780,
-      "scale": 0.5,
+      "y": 801,
+      "scale": 0.55,
       "pose": [
-       "walk1",
-       "walk2"
+       "push1",
+       "push2"
       ],
       "expression": "hopeful"
      },
      {
       "type": "asset",
       "name": "shopping_trolley",
-      "x": 1360,
-      "y": 800,
-      "scale": 0.8
+      "x": 1255,
+      "y": 814,
+      "scale": 0.55
      },
      {
       "type": "asset",
       "name": "bread_loaf",
-      "x": 1320.0,
-      "y": 708.0,
-      "scale": 0.42,
+      "x": 1227,
+      "y": 751,
+      "scale": 0.29,
       "rotate": -8
      },
      {
       "type": "asset",
       "name": "soda_bottle",
-      "x": 1410.0,
-      "y": 670.0,
-      "scale": 0.3,
+      "x": 1289,
+      "y": 725,
+      "scale": 0.21,
       "rotate": 12
      },
      {
       "type": "asset",
       "name": "silver_fish",
-      "x": 1350.0,
-      "y": 680.0,
-      "scale": 0.32,
+      "x": 1248,
+      "y": 732,
+      "scale": 0.22,
       "rotate": -15
      },
      {
@@ -18080,10 +18199,10 @@
      },
      {
       "type": "rect",
-      "x": 542.4,
-      "y": 550,
-      "w": 35.2,
-      "h": 160,
+      "x": 532,
+      "y": 545,
+      "w": 56,
+      "h": 168,
       "fill": "#ffffff",
       "color": "#ffffff",
       "width": 0,
@@ -18209,10 +18328,10 @@
      },
      {
       "type": "rect",
-      "x": 542.4,
-      "y": 550,
-      "w": 35.2,
-      "h": 160,
+      "x": 532,
+      "y": 545,
+      "w": 56,
+      "h": 168,
       "fill": "#ffffff",
       "color": "#ffffff",
       "width": 0,
@@ -18736,15 +18855,15 @@
       "type": "arrow",
       "from": [
        1450,
-       500
+       470
       ],
       "to": [
        480,
-       520
+       500
       ],
       "color": "#e0201b",
       "width": 9,
-      "bend": 80,
+      "bend": 260,
       "appear": 0.45
      },
      {
@@ -31840,64 +31959,49 @@
      },
      {
       "type": "asset",
-      "name": "pilot_whale",
-      "x": 672.5,
-      "y": 610.0,
-      "scale": 0.282
+      "name": "pilot_whale_fin",
+      "x": 180,
+      "y": 524,
+      "scale": 0.5
      },
      {
       "type": "asset",
-      "name": "pilot_whale",
-      "x": 305.0,
-      "y": 617.5,
-      "scale": 0.282
+      "name": "pilot_whale_fin",
+      "x": 380,
+      "y": 524,
+      "scale": 0.5
      },
      {
       "type": "asset",
-      "name": "pilot_whale",
-      "x": 500.0,
-      "y": 700.0,
-      "scale": 0.3
+      "name": "pilot_whale_fin",
+      "x": 580,
+      "y": 524,
+      "scale": 0.5
      },
      {
       "type": "asset",
-      "name": "pilot_whale",
-      "x": 110.00000000000006,
-      "y": 707.5,
-      "scale": 0.3
+      "name": "pilot_whale_fin",
+      "x": 780,
+      "y": 524,
+      "scale": 0.5
      },
      {
       "type": "asset",
-      "name": "pilot_whale",
-      "x": 312.5,
-      "y": 790.0,
-      "scale": 0.264
-     },
-     {
-      "type": "asset",
-      "name": "pilot_whale",
-      "x": 657.5,
-      "y": 793.75,
-      "scale": 0.264
-     },
-     {
-      "type": "asset",
-      "name": "orca",
-      "x": 1450,
-      "y": 760,
-      "scale": 0.45,
-      "rotate": -10
+      "name": "orca_fin",
+      "x": 1300,
+      "y": 524,
+      "scale": 0.6
      },
      {
       "type": "line",
       "points": [
        [
-        1180,
-        726.0
+        1210,
+        500
        ],
        [
-        1020,
-        726.0
+        1050,
+        500
        ]
       ],
       "color": "#ffffff",
@@ -31907,31 +32011,23 @@
       "type": "line",
       "points": [
        [
-        1180,
-        760.0
+        1210,
+        530
        ],
        [
-        1020,
-        760.0
+        1050,
+        530
        ]
       ],
       "color": "#ffffff",
       "width": 5
      },
      {
-      "type": "line",
-      "points": [
-       [
-        1180,
-        794.0
-       ],
-       [
-        1020,
-        794.0
-       ]
-      ],
-      "color": "#ffffff",
-      "width": 5
+      "type": "asset",
+      "name": "water_splash_small",
+      "x": 1360,
+      "y": 520,
+      "scale": 0.5
      },
      {
       "type": "text",
@@ -35040,22 +35136,23 @@
      {
       "type": "asset",
       "name": "orca",
-      "x": 800,
-      "y": 560,
-      "scale": 0.9
+      "x": 470,
+      "y": 600,
+      "scale": 0.7
      },
      {
       "type": "asset",
       "name": "pilot_whale",
-      "x": 1450,
-      "y": 880,
-      "scale": 0.35
+      "x": 1130,
+      "y": 640,
+      "scale": 0.65,
+      "flip": true
      },
      {
       "type": "label",
       "text": "10 TONNES",
-      "x": 800,
-      "y": 880,
+      "x": 470,
+      "y": 860,
       "size": 52,
       "bold": true,
       "boil": 0.3,
@@ -35064,9 +35161,9 @@
      {
       "type": "label",
       "text": "2.25 TONNES",
-      "x": 1450,
-      "y": 1003,
-      "size": 40,
+      "x": 1130,
+      "y": 860,
+      "size": 52,
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff",
@@ -35074,14 +35171,15 @@
      },
      {
       "type": "doug",
-      "x": 300,
-      "y": 900,
+      "x": 1650,
+      "y": 880,
       "scale": 0.35,
       "pose": "float",
       "expression": "shock",
       "gear": [
        "mask"
-      ]
+      ],
+      "facing": "left"
      },
      {
       "type": "label",

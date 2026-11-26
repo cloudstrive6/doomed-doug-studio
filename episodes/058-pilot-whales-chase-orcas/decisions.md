@@ -43,3 +43,51 @@ contradicted itself.
   live in `build/lib058.py` (`tick_lines`, `hud`).
 - I rejected the screener's alternative of renaming the header to "WHO BACKED OFF?" / "NOT PILOT WHALES" because it's weaker.
 - CD: please confirm this reading of the device. Thumbnail and packaging don't use the board, so nothing changes there.
+
+## 2026-11-26 · CD sign-off: WHO RAN board change. APPROVED
+Creative director. Checked keyframes s130 (423) and s219 (425) full-res.
+- The new reading is right and funnier: PILOT WHALES stays empty the whole episode; every tick lands under EVERYONE ELSE; at the
+  boss the red ORCAS sits on its own line under the ticks. The board now says the thesis at a glance and no longer contradicts it.
+- Agree with rejecting the "WHO BACKED OFF?" / "NOT PILOT WHALES" rename.
+- Script stage directions (l.2, 40, 216, 250) still say ticks go under PILOT WHALES. Those lines are never spoken and the shotlist
+  is the source of truth; no script edit needed. Series bible: no lore change (episode-only device).
+
+## 2026-11-26 · Package gate: thumbnails A/B/C with ranked titles. A APPROVED · B and C CHANGES
+Checked at full size and at 168 px feed size (`build/*_small.png`). None of the titles or thumbnails uses a weight or size ratio
+or says "adopted"/"raised". Every title is honest against facts.md: Selbmann 2022 and HI news support "abandon feeding events",
+and 425 deaths support "How Doug Would Die". The decision is about the art.
+
+**A. "Why Orcas Give Up Their Kill When Pilot Whales Show Up" + WRONG WAY: APPROVED.** At feed size the wall of round black heads
+pulls the eye. Doug's costume points into the pod while the real orca's tail exits right with a sweat drop, so WRONG WAY lands
+and the title gets its twist. It also works as the opening frame.
+
+**B. "Why Orcas Leave Their Kill to Get Away From Pilot Whales" + THEY CHASE: CHANGES.**
+1. At 168 px the pod (pilot_whale at scale 0.34-0.38) reads as four small grey dolphins in the corner. "THEY" has no visible
+   referent, so the chase doesn't read. Scale the pilot whales to about 0.6, pull them in to x 80-420, and point all of them right,
+   toward Doug and the orca, so the round melon heads read at feed size. Keep the orca at least as large as the biggest pilot whale
+   (raise orca from 0.6 to about 0.7 if needed). The pilot whales must not look bigger than the orca.
+2. (Recommended) The small_fish's black band reads as a bandit mask, not a dropped meal. Use a plain fish, and place it falling
+   behind the orca (about x 980, y 300) so it reads as "dropped".
+
+**C. "How Doug Would Die Dressed as an Orca Among Pilot Whales" + TOO SLOW: CHANGES.**
+1. Scale inversion. pilot_whale_head is at 2.2 and 1.4, against fleeing orcas at 0.20-0.22, so one pilot whale towers about three
+   times over the orcas. That tells the viewer pilot whales are giants, the opposite of the episode's paradox ("the bigger animal,
+   by a long way"), and it breaks the spirit of the 2026-11-25 no-size-ratio rule. At 168 px it also reads as a black rock, not a
+   whale.
+   Fix: replace the two giant heads with a wall of 4-5 pilot_whale_head at scale about 0.8-1.0. Heads stay below about y 250 so
+   they don't run under TOO SLOW. Eyes look at Doug (the script's "the wall of black heads turns toward him").
+   Raise the fleeing orcas to about 0.45-0.5, with the nearer one partly exiting the right edge. Each orca must be visibly longer
+   than any one pilot whale head is tall.
+2. Keep everything else: Doug's grimace, the centimetre-of-air splash, the red sky and the TOO SLOW placement all work.
+
+Re-render B and C (`python -m studio thumbnail` / small previews). Then send all three back to the visual screener and to me.
+A may ship as-is. If B or C can't be fixed in time, ship A and drop the failing variant rather than run it.
+
+## 2026-11-26 · Director: art review round 2 fixes applied (in `build/gen_shotlist.py`)
+- Required: s187 is now the surface fin shot as specced (4 pilot fins, orca_fin at 1300, wake lines, splash). s068/s095 use
+  `push1`/`push2` with trolley/groceries at the AD's coordinates (new `push_groceries()` helper); s068's second man is 150 px left.
+  The s122/s123 mask is widened to x 532, y 545, w 56, h 168.
+- Recommended: s201 shows the orca (0.7) and pilot whale (0.65, facing it) side by side at true relative length, with equal
+  10 TONNES / 2.25 TONNES labels; Doug moved to the right. s125's top arrow (bend 260) now arcs over Doug. s006 has the speaker
+  on the left with waves, 4 tagged whales facing it with short red arrows, the 5th turned away, and a confused Doug.
+- Validate shotlist OK; full keyframes re-run (223).

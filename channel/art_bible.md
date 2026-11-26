@@ -303,6 +303,10 @@ on `#141e1a`. Put a torch-light pool (`#3a4a40` ellipse) under him or move his f
   usual y), so no y change is needed. About 420 x scale long (shin tips x -87, cap brim x +333; cap top about y -82). For "trying to look like an animal" beats.
 - **Costumes over `cower` (056)**: tube-suit costumes are drawn for upright poses. On `cower` the collar covers his mouth (y + 0) or
   the hem sinks 40 x scale below the ground (y + 40). Use `stand`/`arms_up` with `gritted`/`shock` instead of `cower` in a costume.
+- **Push (from 058)**: `pose: ["push1","push2"]`, both arms straight forward at shoulder height, slight lean, legs alternate
+  like walk. Hands sit at local (+130, -98); feet at y +144. For a handle (trolley, pram, wheelbarrow) put Doug and the prop at the
+  **same scale**: `shopping_trolley` grip is local (-151, -128) and its wheels touch y +120, so with both at scale s on a floor at
+  y F: Doug y = F - 144s, trolley y = F - 120s, trolley x = Doug x + 281s. Hands then land on the red grip.
 - **Thumbs up (from 005)**: use `pose: "thumbs_up"` (standing) or `"sit_thumbs_up"` (seated, same hip drop as `sit`).
   The hand point is local (+112, -156) x scale, with the thumb tip about 42 x scale above it, so aim arrows there. Never paste a
   separate hand prop next to Doug, because it reads as off-model. A seated Doug must sit *on* something: put the

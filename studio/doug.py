@@ -52,6 +52,10 @@ POSES = {
     "elbows_out": dict(arm_f=(90, -90), arm_b=(-90, 90), leg_f=(15, 0), leg_b=(-15, 0), lean=0),
     "walk1":    dict(arm_f=(35, 60), arm_b=(-35, -10), leg_f=(30, 0), leg_b=(-30, -20), lean=4),
     "walk2":    dict(arm_f=(-30, -5), arm_b=(30, 60), leg_f=(-25, -20), leg_b=(25, 0), lean=4),
+    # push (058, shopping trolley): both arms straight forward at shoulder height, hands on a handle ~(+118, -122)
+    # at scale 1 (local); legs alternate like walk1/walk2. Cycle ["push1", "push2"].
+    "push1":    dict(arm_f=(85, 5), arm_b=(78, 10), leg_f=(30, 0), leg_b=(-30, -20), lean=6),
+    "push2":    dict(arm_f=(85, 5), arm_b=(78, 10), leg_f=(-25, -20), leg_b=(25, 0), lean=6),
     "run1":     dict(arm_f=(70, 80), arm_b=(-60, -20), leg_f=(70, 0), leg_b=(-50, -110), lean=15),
     "run2":     dict(arm_f=(-60, -20), arm_b=(70, 80), leg_f=(-50, -110), leg_b=(70, 0), lean=15),
     "swim1":    dict(arm_f=(160, -50), arm_b=(-150, -20), leg_f=(20, 40), leg_b=(-20, -40), lean=70),

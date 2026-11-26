@@ -133,34 +133,58 @@
    "type": "asset",
    "name": "orca",
    "x": 1110,
-   "y": 380,
-   "scale": 0.22,
+   "y": 370,
+   "scale": 0.45,
    "boil": 0,
-   "rotate": -25
+   "rotate": -18
   },
   {
    "type": "asset",
    "name": "orca",
-   "x": 1210,
-   "y": 430,
-   "scale": 0.2,
+   "x": 1190,
+   "y": 500,
+   "scale": 0.5,
    "boil": 0,
-   "rotate": -20
+   "rotate": -15
   },
   {
    "type": "asset",
    "name": "pilot_whale_head",
-   "x": 320,
-   "y": 470,
-   "scale": 2.2,
+   "x": 60,
+   "y": 486,
+   "scale": 0.85,
    "boil": 0
   },
   {
    "type": "asset",
    "name": "pilot_whale_head",
-   "x": -60,
-   "y": 500,
-   "scale": 1.4,
+   "x": 500,
+   "y": 482,
+   "scale": 0.9,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale_head",
+   "x": 200,
+   "y": 490,
+   "scale": 1.0,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale_head",
+   "x": 360,
+   "y": 492,
+   "scale": 0.95,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale_head",
+   "x": -70,
+   "y": 494,
+   "scale": 0.95,
    "boil": 0
   },
   {

@@ -49,3 +49,62 @@ safe area, and no element collides with the board. Nothing gory, and the death f
 4. **s147:** the left calf on the Iceland map straddles the map frame and the coast. Move it from screen (400,300) into the open sea south of Snæfellsnes, e.g. screen (380,620), which is map local about (-272,+80).
 
 No illustrator fixes outstanding. Assets are approved for keyframes and packaging.
+
+---
+
+## Round 2: keyframes (art director, 2026-11-26)
+
+### Verdict: FAIL (3 small composition fixes for the director; each one is test-rendered below)
+
+Reviewed: fresh full render, `build/contact/sheet_01..19.png` (00:15-00:16, newer than `shotlist.json` 00:15:34), 223 keyframes.
+I checked every changed shot at full res in `build/keyframes/`.
+
+**Verified fixed:**
+- **WHO RAN board, s002-s219:** every tick is in EVERYONE ELSE and PILOT WHALES stays empty. 7 ticks by the end. The red ORCAS
+  stamp (s216 end, s217-s219) sits on its own line under the ticks, inside the chalk area. It reads correctly at full size and on
+  the sheets. ON-MODEL.
+- **s058:** the side-view pilot whale is a black silhouette with a cyan rim, heading at Doug. It reads as a whale.
+- **s123:** the right thermometer column is continuous down into the bulb.
+- **s126:** Doug is alone in the dinghy, close up, thumbs up. **s127:** white card, NO PARTY balloon. This breaks the s124-s127 run.
+- **s134** (small and far), **s137** (surface boat, clock and 21 MINUTES), **s139** (calf close-up under the orca's belly with a
+  slipstream). This breaks the Sædís run. In s139 the calf's faint fold bands read as documentary at 0.9, not as ribs. OK.
+- **s147:** both pairs are in open sea, each orca beside its calf, off the coast.
+- **s157:** tight on Doug holding out the fish. The dive mask is consistent with s155-s158.
+- **s177** (orca face close-up, sweat drop, ⚠) and **s179** (family-portrait row with labels, small orca in the corner).
+- **s186:** text clears the board and the pod is fully in frame. **s215:** five non-silhouette `pilot_whale_front` heads from the
+  left. **s074/s178:** strike-through lines keep the words readable. **s088:** the diver no longer reads as capless Doug.
+- Style is consistent, zone colours follow the bible, HUD and text are legible and inside the safe area, nothing is gory, and every
+  death frame is clean.
+
+### Required fixes (director, in `build/gen_shotlist.py`)
+
+1. **s187 is a near-copy of s186** (back-to-back: pod on the left, white speed lines, orca on the right, same scale). Rule: each shot
+   must look different from the one before it. Keep the THE CHASE title and the sky/sea split, and make s187 a **surface fin shot**.
+   Remove the pod, the `orca` and the 3 speed lines, then add:
+   `pilot_whale_fin` ×4 at y 524, scale 0.5, x 180/380/580/780 · `orca_fin` at (1300, 524) scale 0.6 · two white wake lines,
+   width 5, from x 1210 to 1050 at y 500 and y 530 · `water_splash_small` at (1360, 520) scale 0.5.
+   I test-rendered this layout at orca x 1380 and it reads well. Moving the orca to 1300 gives the board more room.
+   s192 also uses fins but comes 5 shots later and has Doug and the sun, so that's fine.
+
+2. **s068 / s095: Doug floats ~25 px above the floor and his hand misses the trolley grip** (50-90 px gap). The gag is "pushing it
+   round the store", so he has to be pushing. **I added the pose `push1`/`push2` to `studio/doug.py`** (both arms forward at
+   shoulder height). The art bible's Poses section has the placement formula. Use it with Doug and trolley at the same scale:
+   - s068: doug (560, 801) scale 0.55 pose `["push1","push2"]` · `shopping_trolley` (715, 814) scale 0.55 · `bread_loaf` (687, 751)
+     0.29 · `soda_bottle` (749, 725) 0.21 · `silver_fish` (708, 732) 0.22 · shift the second stick man, his arm line and his bread
+     150 px left (man x 930) so he walks right beside the trolley.
+   - s095: doug (1100, 801) 0.55 `["push1","push2"]` · trolley (1255, 814) 0.55 · bread (1227, 751) · bottle (1289, 725) · fish (1248, 732),
+     same scales as s068.
+   I test-rendered both: feet on the floor line, both hands on the red grip, groceries in the basket.
+
+3. **s122 / s123: stray red slivers in the left (ACTUAL DANGER) thermometer.** The white mask rect is narrower than the boiled red
+   column, so two thin red lines show inside the tube. Widen the mask in both shots from `x 542.4, y 550, w 35.2, h 160` to
+   `x 532, y 545, w 56, h 168`. Test-rendered: the tube is clean and the outline is untouched.
+
+### Recommended (not blocking)
+- s199-s201: the same big orca, Doug and pilot whale frame three times in a row. On s201, cut to the two weight labels side by side
+  with both animals at true relative scale, or flip it.
+- I agree with the screener's recommended items (s006, s202, s064/s067 tuna scale, s115 flip, s125 arrow).
+
+### Re-check
+Change only s068, s095, s122, s123 and s187, then re-run the **full** `keyframes` (`--shots` overwrites `sheet_01`). I'll
+spot-check just those five frames in `build/keyframes/`. If they match the specs above, this is a PASS with no further full review.
