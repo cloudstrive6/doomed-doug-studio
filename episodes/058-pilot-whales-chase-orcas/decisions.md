@@ -118,3 +118,32 @@ Packaging rules re-checked: no weight or size ratio, no "adopted"/"raised", and 
 Next: the visual screener screens A/B/C (the full-size images plus the 168 px small versions). If it passes, the episode can move to `packaged` with A as the primary and B and C as test variants.
 If the screener fails B or C, ship A alone, as the earlier package gate set out.
 - 2026-11-26: rounds: script 2 (+outro fix), art 3, thumbnails 3 (B/C reworked for feed size). Risks: Sædís pronunciation via IPA unverified by ear; chapters ~1-2s late, regenerate from final render; WHO RAN board ticks under EVERYONE ELSE (CD approved); Doug push1/push2 poses added to doug.py by art-director.
+
+## 2026-11-26 · Final package gate (post-render): APPROVED
+Creative director. I reviewed `metadata.json`, `build/thumbnail.png` plus the `_small` version at 168 px, `build/chapters.txt`,
+`build/qc.json` (no problems, 702.4 s), `visual_review.md` (main PASS, Shorts PASS), the first 60 s (frames at 1 s and 45 s pulled
+from `final.mp4`, samples f_001-f_003) and script lines 1-40.
+
+- **Title kept**: "Why Orcas Give Up Their Kill When Pilot Whales Show Up" (54 chars, subject in the first two words on mobile). The
+  video delivers it: script l.238 says the orcas "were often feeding when the pilot whales arrived, so they gave up their meal to
+  leave" (Selbmann 2022; HI news "abandon feeding events"). I swapped in no alt. "Leave Their Kill to Get Away" is the same promise
+  but weaker, "Drop Their Kill and Flee" overclaims speed for every encounter, and the Doug title belongs to variant C's test.
+  The title has no size or weight ratio and doesn't say "adopted" or "raised", so the 2026-11-25 rules hold.
+- **Thumbnail A (WRONG WAY)**: same verdict as the art gate. At 168 px the wall of round heads, Doug's costume pointing into the pod
+  and the orca exiting right with a sweat drop all read. It is the 0-1 s frame of `final.mp4`, so the click and the opening match.
+- **First 60 s**: the death stake is in sentence 1, the payoff promise in sentence 2 ("the real orcas leave without him"), the THE
+  SPEAKER card appears at 0:10, and the twist (4 of 5 swam toward the sound) comes at about 0:15. The 45 s frame (tagged whales
+  converging on the speaker, Doug with a "?") matches the narration. The counter reads 420 and the WHO RAN board is empty, as
+  intended. Pacing is about 198 wpm while speaking.
+- **Description**: it is honest and sourced (six links that match facts.md), with the AI-use and cartoon disclaimers and one CTA.
+  One fix I applied: three timestamps ran 1 s later than the render's `build/chapters.txt` (4:05, 8:12 and 9:35, against 4:04,
+  8:11 and 9:34; the shots start at 244.996, 491.79 and 574.798 s). I copied the render's chapter list over them verbatim, and
+  `validate metadata` passes. Note: `youtube.py` only substitutes `{{CHAPTERS}}`, and this description hardcodes its timestamps, so
+  any re-render must re-sync them by hand.
+- **Policy**: deaths are cartoon cut-aways only, the humour is adult-coded, the playlist is `animals` (057 was `ocean`), and
+  `paid_promotion` is false.
+- **Watch item for the growth analyst**: orcas are a co-star again (051, 055, 058). Their CTR history supports it (021 at 4.3%), but
+  the next 5 episodes should not have orcas in the title.
+- Series bible: 058 added to the episode log (counter 420 to 425).
+
+FINAL: APPROVED
