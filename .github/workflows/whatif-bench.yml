@@ -1,0 +1,84 @@
+name: What If render benchmark
+
+# Manual only. Renders an existing What If episode folder end to end on a standard runner and records how long
+# each step takes, so the new format's production job can be sized before the daily switch (no upload, no posting).
+on:
+  workflow_dispatch:
+    inputs:
+      pilot:
+        description: "Episode folder to render"
+        default: "pilots/w01-pet-megalodon"
+      shorts:
+        description: "Also render the native 9:16 Shorts"
+        type: boolean
+        default: true
+
+concurrency:
+  group: whatif-bench
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  bench:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+      P: ${{ inputs.pilot }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -r requirements.txt
+      - name: Restore narration cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/tts
+          key: tts-whatif-${{ github.run_id }}
+          restore-keys: |
+            tts-whatif-
+            tts-
+      - name: Runner
+        run: |
+          echo "cores: $(nproc)" | tee bench.txt
+          free -g | tee -a bench.txt
+      - name: Episode (16:9)
+        run: |
+          step() { local s=$SECONDS; "$@"; echo "$* : $((SECONDS - s)) s" | tee -a bench.txt; }
+          step python -m studio.whatif voices "$P"
+          step python -m studio.whatif shots "$P"
+          step python -m studio.whatif render "$P" --jobs "$(nproc)"
+          step python -m studio.whatif master "$P"
+          ffprobe -v error -show_entries format=duration -of csv=p=0 "$P/build/final.mp4" | sed 's/^/episode seconds: /' | tee -a bench.txt
+      - name: Shorts (9:16)
+        if: ${{ inputs.shorts }}
+        run: |
+          s=$SECONDS
+          python -m studio.whatif_shorts build "$P"
+          echo "shorts build (all) : $((SECONDS - s)) s" | tee -a bench.txt
+      - name: Summary
+        if: always()
+        run: cat bench.txt >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .cache/tts
+          key: tts-whatif-${{ github.run_id }}
+      - name: Keep the renders for 3 days (private repo only)
+        if: ${{ always() && github.event.repository.private }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: whatif-bench
+          path: |
+            bench.txt
+            ${{ inputs.pilot }}/build/final.mp4
+            ${{ inputs.pilot }}/shorts/*/build/final.mp4
+          retention-days: 3
+          if-no-files-found: ignore

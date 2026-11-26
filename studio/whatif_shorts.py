@@ -12,6 +12,7 @@ Each Short is a complete moment that ends on its payoff (Doug's Shorts rule sinc
 from __future__ import annotations
 
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -86,7 +87,7 @@ def build(pdir: Path, only: list[str] | None = None):
         (d / "build").mkdir(exist_ok=True)
         shutil.rmtree(d / "build" / "parts", ignore_errors=True)   # never reuse parts from an older render
         py = sys.executable
-        for args in (["voices"], ["shots", "--vertical"], ["stills", "--vertical"], ["render", "--jobs", "8", "--vertical"], ["master"]):
+        for args in (["voices"], ["shots", "--vertical"], ["stills", "--vertical"], ["render", "--jobs", str(min(8, os.cpu_count() or 4)), "--vertical"], ["master"]):
             cmd = [py, "-m", "studio.whatif", args[0], str(d)] + args[1:]
             r = subprocess.run(cmd, capture_output=True, text=True)
             print(sh["id"], args[0], (r.stdout.strip().splitlines() or [""])[-1])
