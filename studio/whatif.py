@@ -775,10 +775,15 @@ def draw_overlays(frame, spec, t_abs, ctx, ovc, state):
             n = max(1, math.ceil(len(words) / 4))
             k = min(n - 1, int((t_abs - line["start"]) / max(0.3, line["dur"]) * n))
             chunk = " ".join(words[k * len(words) // n:(k + 1) * len(words) // n]).upper()
+            dd = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+            rows = _wrap(chunk, T.font(64, "RussoOne-Regular"), 900, dd)[:2]   # never wider than the frame
             def cap(p):
-                p.text(500, 70, chunk, 64, "#ffffff", "RussoOne-Regular", stroke=7, stroke_color="#0b1222")
-            img = _ov_sprite("cap_" + chunk, cap, 1000, 140, ovc)
-            T.paste(frame, img, (img.width / 2, img.height / 2), (W / 2, 1640))
+                for r_i, row in enumerate(rows):
+                    p.text(500, 70 + (r_i - (len(rows) - 1) / 2) * 76, row, 64, "#ffffff", "RussoOne-Regular",
+                           stroke=7, stroke_color="#0b1222")
+            img = _ov_sprite("cap_" + chunk, cap, 1000, 220, ovc)
+            card_now = state.get("card") and state["card"]["t1"] > t_abs >= state["card"]["t0"]
+            T.paste(frame, img, (img.width / 2, img.height / 2), (W / 2, 1730 if card_now else 1640))  # clear of the card
     # DAY badge
     day = spec.get("day")
     if short and vertical():
@@ -853,8 +858,9 @@ def draw_overlays(frame, spec, t_abs, ctx, ovc, state):
         wob = math.sin(tin * 18) * 2.5 * max(0, 1 - tin / 0.6)
         cyw = 860 if not state.get("card") or not (state["card"]["t1"] > t_abs >= state["card"]["t0"]) else 930
         cxw = 960 if cyw == 860 else 700
-        if vertical():
-            cxw, cyw = W / 2, 820
+        if vertical():   # keep kinetic words off faces: low band, or high band when a card is up
+            card_up = state.get("card") and state["card"]["t1"] > t_abs >= state["card"]["t0"]
+            cxw, cyw = W / 2, (480 if card_up else 1470)
         _paste_scaled(frame, img, cxw, cyw, (0.35 + 0.65 * sc) * (0.72 if vertical() else 1), rot=-4 + wob)
     # title drop
     tt = state.get("title")

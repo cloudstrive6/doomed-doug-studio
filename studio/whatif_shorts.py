@@ -29,6 +29,26 @@ def _scene_blocks(text: str) -> tuple[str, dict]:
     return head, blocks
 
 
+def _trim(block: str, ref: str) -> str:
+    """'03' keeps the whole scene; '03:0-6' keeps spoken lines 0 to 6 (with their CARD, WORD and stage lines)."""
+    if ":" not in ref:
+        return block
+    a, b = [int(x) for x in ref.split(":")[1].split("-")]
+    out, idx, pending = [], -1, []
+    for ln in block.splitlines():
+        if ln.startswith("## SCENE"):
+            out.append(ln)
+            continue
+        if re.match(r"^[A-Z][A-Z0-9_]*\s*(\[[^\]]*\])?\s*:", ln) and not ln.startswith(("CARD:", "WORD:")):
+            idx += 1
+            if a <= idx <= b:
+                out += pending + [ln]
+            pending = []
+            continue
+        pending.append(ln)
+    return "\n".join(out) + "\n"
+
+
 def build(pdir: Path, only: list[str] | None = None):
     plan = json.loads((pdir / "shorts_plan.json").read_text(encoding="utf-8"))
     text = (pdir / "script.md").read_text(encoding="utf-8")
@@ -39,12 +59,12 @@ def build(pdir: Path, only: list[str] | None = None):
             continue
         d = pdir / "shorts" / sh["id"]
         d.mkdir(parents=True, exist_ok=True)
-        first, last = sh["scenes"][0], sh["scenes"][-1]
+        first, last = sh["scenes"][0].split(":")[0], sh["scenes"][-1].split(":")[0]
         set_of = lambda n: re.search(r"set:\s*([a-z0-9_]+)", blocks[n]).group(1)
         parts = [head.rstrip() + "\n\n"]
         if sh.get("hook"):
             parts.append(f"## SCENE 00 | set: {set_of(first)} | day: -\nNARRATOR: {sh['hook']}\n\n")
-        parts += [blocks[n] + "\n" for n in sh["scenes"]]
+        parts += [_trim(blocks[n.split(":")[0]], n) + "\n" for n in sh["scenes"]]
         parts.append(f"## SCENE 99 | set: {set_of(last)} | day: -\nNARRATOR: {sh['outro']}\n")
         (d / "script.md").write_text("".join(parts), encoding="utf-8")
         st = json.loads(json.dumps(staging))
@@ -56,6 +76,10 @@ def build(pdir: Path, only: list[str] | None = None):
         st["scenes"]["00"] = dict(base_first, lines={"0": {"shots": ["megclose", "wide"] if "meg" in base_first else ["wide"]}})
         st["scenes"]["99"] = dict(base_last, lines={"0": {"word": "FULL VIDEO BELOW", "shots": ["wide"]}})
         st["short"] = {"title": sh["title"]}
+        for scn, lines in (sh.get("overrides") or {}).items():   # per-Short shot choices (open on the hook image)
+            st["scenes"].setdefault(scn, {}).setdefault("lines", {})
+            for li, ov in lines.items():
+                st["scenes"][scn]["lines"].setdefault(li, {}).update(ov)
         (d / "staging.json").write_text(json.dumps(st, indent=1), encoding="utf-8")
         for f in ("voices.json", "cast_looks.json"):
             shutil.copy2(pdir / f, d / f)
