@@ -117,3 +117,4 @@ Creative director. Checked `build/thumbnail_b.png` and `build/thumbnail_c.png` a
 Packaging rules re-checked: no weight or size ratio, no "adopted"/"raised", and every title stays honest against facts.md.
 Next: the visual screener screens A/B/C (the full-size images plus the 168 px small versions). If it passes, the episode can move to `packaged` with A as the primary and B and C as test variants.
 If the screener fails B or C, ship A alone, as the earlier package gate set out.
+- 2026-11-26: rounds: script 2 (+outro fix), art 3, thumbnails 3 (B/C reworked for feed size). Risks: Sædís pronunciation via IPA unverified by ear; chapters ~1-2s late, regenerate from final render; WHO RAN board ticks under EVERYONE ELSE (CD approved); Doug push1/push2 poses added to doug.py by art-director.

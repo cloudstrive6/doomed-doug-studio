@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-11-26T00:26:28+00:00",
       "note": "art-director + visual-screener pass; thumbnails A/B/C pass"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-26T00:31:16+00:00",
+      "note": "packaged: script 2 rounds, art 3 rounds, thumbs A/B/C pass"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }

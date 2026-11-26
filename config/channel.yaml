@@ -58,6 +58,9 @@ voice:                       # Google Cloud TTS, Chirp 3: HD
     - {phrase: "Beebe", ipa: "ˈbiːbi"}
     - {phrase: "Guiana", ipa: "ɡiˈɑːnə"}
     - {phrase: "yedoma", ipa: "ˈjɛdoʊmə"}
+    - {phrase: "Sædís", ipa: "ˈsaɪdis"}
+    - {phrase: "Vestfjord", ipa: "ˈvɛstˌfjɔɹd"}
+    - {phrase: "Selbmann", ipa: "ˈsɛlbmən"}
     - {phrase: "Lanai", ipa: "lɑˈnɑi"}
     - {phrase: "Galápagos", ipa: "ɡəˈlɑːpəɡoʊs"}
     - {phrase: "Mar del Plata", ipa: "mɑɹ dɛl ˈplɑtə"}
