@@ -123,10 +123,11 @@ def next_publish_slot(taken: list[str] | None = None) -> dt.datetime:
     hh, mm = map(int, cfg["publish_time"].split(":"))
     earliest = dt.datetime.now(tz) + dt.timedelta(days=cfg["review_window_days"])
     used = {_parse_utc(t) for t in taken}
+    used_days = {u.astimezone(tz).date() for u in used}   # one long-form a day (Bryce, 2026-11-27)
     d = earliest.date()
     for _ in range(400):
         cand = dt.datetime(d.year, d.month, d.day, hh, mm, tzinfo=tz)
-        if cand.weekday() in wanted and cand >= earliest and cand.astimezone(dt.timezone.utc) not in used:
+        if cand.weekday() in wanted and cand >= earliest and cand.date() not in used_days:
             return cand
         d += dt.timedelta(days=1)
     raise RuntimeError("no publish slot found")
