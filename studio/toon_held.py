@@ -254,7 +254,22 @@ def buyer(pen):
     pen.blob([(-60, -400), (-50, -470), (50, -470), (60, -400)], "#22222c")
 
 
+def melon(pen):
+    pen.ellipse(0, 0, 60, 46, "#3f9a4a")
+    for i in range(-2, 3):
+        pen.curve([(i * 18, -42), (i * 21, 0), (i * 18, 42)], "#2a6a32", 4, n=4)
+
+
+def boathouse(pen, col="#c9d8e6", roof="#4a6fa5"):
+    pen.poly([(-160, 0), (160, 0), (160, -200), (-160, -200)], col)
+    pen.poly([(-185, -200), (0, -300), (185, -200)], roof)
+    pen.rrect(-60, -130, 120, 130, 6, "#6b4a32")
+    pen.rrect(-130, -170, 50, 40, 4, "#ffe9a0")
+
+
 PROP_DRAW.update({
+    "melon": (melon, (-65, -50, 65, 50)),
+    "boathouse": (boathouse, (-190, -305, 190, 5)),
     "kayak": (kayak, (-340, -40, 345, 35)),
     "ute": (ute, (-330, -160, 340, 60)),
     "fish_truck": (fish_truck, (-340, -220, 280, 60)),
