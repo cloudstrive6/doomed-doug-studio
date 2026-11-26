@@ -1,0 +1,33 @@
+{
+ "narrator": {
+  "name": "en-US-Chirp3-HD-Charon",
+  "language": "en-US",
+  "speaking_rate": 1.06
+ },
+ "doug": {
+  "name": "en-US-Chirp3-HD-Puck",
+  "language": "en-US",
+  "speaking_rate": 1.08
+ },
+ "tanner": {
+  "name": "en-US-Chirp3-HD-Fenrir",
+  "language": "en-US",
+  "speaking_rate": 1.12
+ },
+ "wren": {
+  "name": "en-US-Chirp3-HD-Kore",
+  "language": "en-US",
+  "speaking_rate": 1.08
+ },
+ "hobbs": {
+  "name": "en-US-Chirp3-HD-Gacrux",
+  "language": "en-US",
+  "speaking_rate": 0.98
+ },
+ "_pronunciations": [
+  {
+   "phrase": "Adeyemi",
+   "ipa": "ɑˈdɛjɛmi"
+  }
+ ]
+}

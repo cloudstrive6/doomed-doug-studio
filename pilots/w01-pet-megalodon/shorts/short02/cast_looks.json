@@ -1,0 +1,55 @@
+{
+ "tanner": {
+  "skin": "#e8b48c",
+  "hair": [
+   "quiff",
+   "#f0c75a"
+  ],
+  "top": [
+   "jacket",
+   "#8a4fd6"
+  ],
+  "bottom": "#22222c",
+  "shoes": "#f4f1ea",
+  "extras": [
+   "sunglasses"
+  ],
+  "_role": "rival"
+ },
+ "wren": {
+  "skin": "#7a4a30",
+  "hair": [
+   "bun",
+   "#1a1210"
+  ],
+  "top": [
+   "tee",
+   "#3fa37a"
+  ],
+  "bottom": "#3c3a48",
+  "shoes": "#d6d2c8",
+  "extras": [
+   "apron"
+  ],
+  "head_r": 62
+ },
+ "hobbs": {
+  "skin": "#f0c8a4",
+  "hair": [
+   "bob",
+   "#a2a2aa"
+  ],
+  "top": [
+   "uniform",
+   "#2b3b5c"
+  ],
+  "bottom": "#2b3b5c",
+  "shoes": "#1e1d26",
+  "extras": [
+   "officer_cap",
+   "badge"
+  ],
+  "build": 1.15,
+  "head_r": 64
+ }
+}

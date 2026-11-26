@@ -32,6 +32,17 @@ W, H, FPS = 1920, 1080, 30
 SR = 24000
 NAVY, RED, YEL, CREAM = "#1e2a44", "#e0201b", "#f6b73c", "#fff8ea"
 
+def set_canvas(w, h):
+    """1920x1080 for episodes, 1080x1920 for native vertical Shorts (same world, cast and sets)."""
+    global W, H
+    W, H = w, h
+    S.W, S.H = w, h
+
+
+def vertical():
+    return H > W
+
+
 # ------------------------------------------------------------------ script parsing
 
 EMO_MAP = {"delighted": "happy", "hyped": "excited", "flat": "deadpan", "fond": "soft", "panting": "tired",
@@ -269,7 +280,18 @@ def cmd_shots(pdir: Path):
     print(f"{len(shots)} shots, {cuts / (L['total'] / 60):.1f} cuts a minute over {L['total'] / 60:.2f} min")
 
 
+VERTICAL_SHOTS = False
+
+
 def _auto_cover(ln, actors, st, dur, rnd, ov):
+    plan = _auto_cover16(ln, actors, st, dur, rnd, ov)
+    if VERTICAL_SHOTS and actors:
+        who = ln["who"]
+        plan = [(f"medium:{who}" if who in actors else f"medium:{rnd.choice(actors)}") if p == "wide" else p for p in plan]
+    return plan
+
+
+def _auto_cover16(ln, actors, st, dur, rnd, ov):
     """Coverage rules: speakers get a close-up, listeners a reaction, narrator alternates wide / subject.
     Long lines are split so no shot holds more than ~2.4 s (target 25 to 30 cuts a minute)."""
     who = ln["who"]
@@ -357,6 +379,8 @@ def _frame_target(frame, st, ground):
             head_y = gy - (330 if a.get("pose", "") not in ("sit", "sit_talk", "sleep") else 230) * s
             cy = head_y + (95 if z > 2 else 160) * s
             return a["x"] + 40 * a.get("facing", 1) * s, cy, z / max(0.6, s)
+    if frame == "meg" and "meg" in st and H > W:
+        frame = "megclose"   # vertical: shark shots are shark close-ups (the cast is hidden)
     if frame == "megclose" and "meg" in st:
         m = st["meg"]
         s = m.get("scale", 0.5)
@@ -374,9 +398,55 @@ def _frame_target(frame, st, ground):
     return cx, 540, st.get("wide_zoom", 1.06)
 
 
+WATER = {"lagoon": ("#7fe3cf", "#2fb0a6"), "reef_night": ("#123c66", "#050f22"), "sea_night": ("#123c66", "#050f22"),
+         "underwater_mid": ("#3a8fc8", "#0f3f6e"), "underwater": ("#5fd0f0", "#1d7fb4"), "deep_sea": ("#0d2a4e", "#040a1a"),
+         "backyard_night": ("#2a6f9c", "#0c2c4a"), "backyard_storm": ("#2a6f9c", "#0c2c4a")}
+
+
+def _vertical_shark_insert(st, set_id, spec, t_abs):
+    """9:16 shark shot: full-frame water in the set's colour, the shark large and centred, bubbles drifting up."""
+    sid = S._resolve(set_id)
+    c0, c1 = WATER.get(sid, ("#7ad8f6", "#2a9fd0"))
+    frame = Image.new("RGB", (W, H))
+    d = ImageDraw.Draw(frame, "RGBA")   # RGBA drawing on an RGB image blends the translucent shafts
+    a, b = T.rgba(c0), T.rgba(c1)
+    for y in range(0, H, 4):
+        f = y / H
+        d.rectangle([0, y, W, y + 4], fill=tuple(int(a[i] + (b[i] - a[i]) * f) for i in range(4)))
+    for i in range(6):
+        x = (i * 230 + math.sin(t_abs * 0.7 + i) * 60) % (W + 300) - 150
+        d.polygon([(x, 0), (x + 90, 0), (x + 260, H), (x + 120, H)], fill=(255, 255, 255, 18))
+    rnd = random.Random(3)
+    for i in range(26):
+        bx = rnd.uniform(0, W)
+        by = H - ((t_abs * rnd.uniform(60, 140) + rnd.uniform(0, H)) % (H + 100))
+        r = rnd.uniform(5, 14)
+        d.ellipse([bx - r, by - r, bx + r, by + r], outline=(255, 255, 255, 150), width=3)
+    frame = frame.convert("RGBA")
+    m = st["meg"]
+    jaw = m.get("jaw", 0.0)
+    if m.get("chomp"):
+        jaw = max(0.0, math.sin(t_abs * 9)) ** 2
+    scale = W * 0.8 / 490
+    t_rel = t_abs - spec["t0"]
+    push = 1.0 + 0.05 * T.ease(min(1, t_rel / max(0.5, spec["t1"] - spec["t0"])))
+    img, org = T.sprite(lambda p: P.draw_megalodon(p, t=t_abs, swim=m.get("swim", 0.6), jaw=jaw, mood=m.get("mood", "calm"),
+                                                   pup=m.get("pup", 0.0), col=m.get("col", P.SHARK_TOP)),
+                        P.MEG_BBOX, scale * push, flip=m.get("facing", 1) < 0)
+    T.paste(frame, img, org, (W / 2 + math.sin(t_abs * 1.3) * 12, H * 0.5 + math.sin(t_abs * 1.9) * 10))
+    for pr in (spec.get("props_add") or []):
+        if pr.get("id") in ("melon", "fish"):
+            fn, bbox = P.PROP_DRAW[pr["id"]]
+            im2, o2 = T.sprite(lambda p: fn(p), bbox, 2.2)
+            T.paste(frame, im2, o2, (W / 2 + (300 if m.get("facing", 1) > 0 else -300), H * 0.5 - 40))
+    if sid in ("backyard_night", "backyard_storm", "reef_night", "sea_night"):
+        frame.alpha_composite(Image.new("RGBA", frame.size, (8, 12, 40, 70)))
+    return frame
+
+
 def _fit_heads(cx, cy, z, st, ground, frame):
     """No half heads: if a character's head is cut by the top edge of the frame, widen the shot to include it."""
-    if frame.startswith(("close:", "medium:", "megclose")):
+    if frame.startswith(("close:", "medium:", "megclose")) or (frame == "meg" and H > W):
         return cx, cy, z
     for a in st.get("chars", {}).values():
         s = a.get("scale", 1.0)
@@ -395,9 +465,9 @@ def _fit_heads(cx, cy, z, st, ground, frame):
 
 
 def _clamp_cam(cx, cy, z):
-    z = max(1.0, z)
-    hw, hh = W / 2 / z, H / 2 / z
-    return min(max(cx, hw), W - hw), min(max(cy, hh), H - hh), z
+    z = max(1.0, H / 1080, W / 1920, z)
+    hw, hh = W / 2 / z, H / 2 / z          # half the view in world units
+    return min(max(cx, hw), 1920 - hw), min(max(cy, hh), 1080 - hh), z   # the world is always 1920x1080
 
 
 def render_frame(ctx: Ctx, spec: dict, t_abs: float, bgcache: dict) -> Image.Image:
@@ -406,13 +476,20 @@ def render_frame(ctx: Ctx, spec: dict, t_abs: float, bgcache: dict) -> Image.Ima
         if spec.get("meg") and "meg" in st:
             st["meg"] = {**st["meg"], **spec["meg"]}
     set_id = spec.get("set") or st.get("set")
+    if vertical() and spec["frame"] in ("meg", "megclose") and "meg" in st:
+        return _vertical_shark_insert(st, set_id, spec, t_abs)
     ground = S.GROUND.get(set_id, 900)
     dur = spec["t1"] - spec["t0"]
     t_rel = t_abs - spec["t0"]
     f = t_rel / max(0.05, dur)
-    cx, cy, z = _frame_target(spec["frame"], st, ground)
-    if spec.get("card_on"):
+    fr_label = spec["frame"]
+    if vertical() and fr_label == "wide" and st.get("chars"):
+        fr_label = f"medium:{spec['who']}" if spec["who"] in st["chars"] else f"medium:{next(iter(st['chars']))}"
+    cx, cy, z = _frame_target(fr_label, st, ground)
+    if spec.get("card_on") and not vertical():
         cx += 260 / z     # keep the subject left of the science card
+    elif spec.get("card_on"):
+        cy += 120 / z     # vertical: the card sits low, lift the subject
     cx, cy, z = _fit_heads(cx, cy, z, st, ground, spec["frame"])
     push = 1.0 + 0.06 * T.ease(f, "inout") * (1 if hash(spec["line"] + spec["frame"]) % 2 else -0.6)
     drift = (math.sin(spec["t0"] * 3.1) * 26) * (f - 0.5)
@@ -424,12 +501,13 @@ def render_frame(ctx: Ctx, spec: dict, t_abs: float, bgcache: dict) -> Image.Ima
     if set_id not in bgcache:
         bgcache[set_id] = S.background(set_id)
     bg = bgcache[set_id]
-    k = bg.width / W
+    k = bg.width / 1920   # background pixels per world unit (the world is always 1920 wide)
     bw, bh = W / z * k, H / z * k
     x0 = (cx - W / 2 / z) * k + random.uniform(-shake, shake)
     y0 = (cy - H / 2 / z) * k + random.uniform(-shake, shake)
-    x0 = min(max(0, x0), bg.width - bw)
-    y0 = min(max(0, y0), bg.height - bh)
+    bw, bh = min(bw, bg.width), min(bh, bg.height)
+    x0 = max(0.0, min(max(0, x0), bg.width - bw))
+    y0 = max(0.0, min(max(0, y0), bg.height - bh))
     frame = bg.resize((W, H), Image.BILINEAR, box=(x0, y0, x0 + bw, y0 + bh)).convert("RGBA")
     s2w = lambda wx, wy: ((wx - x0 / k) * z, (wy - y0 / k) * z)
     S.animate_layer(set_id, frame, t_abs, s2w, z)
@@ -441,7 +519,7 @@ def render_frame(ctx: Ctx, spec: dict, t_abs: float, bgcache: dict) -> Image.Ima
     # megalodon and characters, sorted by depth (y)
     drawables = []
     hide = set(spec.get("hide") or [])
-    if spec["frame"] == "megclose":
+    if spec["frame"] == "megclose" or (spec["frame"] == "meg" and vertical()):
         hide |= set(st.get("chars", {}))
     if "meg" in st and "meg" not in hide:
         mg = dict(st["meg"])
@@ -679,8 +757,32 @@ def _wrap(text, fnt, maxw, d):
 
 def draw_overlays(frame, spec, t_abs, ctx, ovc, state):
     t_rel = t_abs - spec["t0"]
+    short = ctx.staging.get("short")
+    if short and vertical():
+        def band(p):
+            p.rrect(10, 10, 1000, 230, 34, "#1e2a44", ow=7, ink="#ffffff")
+            words = short["title"].upper().split()
+            mid = (len(words) + 1) // 2
+            l1, l2 = " ".join(words[:mid]), " ".join(words[mid:])
+            size = 66 if max(len(l1), len(l2)) < 22 else 54
+            p.text(510, 80, l1, size, "#ffffff", "RussoOne-Regular")
+            p.text(510, 168, l2, size + 6, YEL, "Bangers-Regular", stroke=5, stroke_color=RED)
+        img = _ov_sprite("shortband", band, 1020, 250, ovc)
+        T.paste(frame, img, (0, 0), (30, 120))
+        line = ctx.lines.get(spec["line"])
+        if line and line["start"] <= t_abs < line["start"] + line["dur"] + 0.1:
+            words = line["text"].split()
+            n = max(1, math.ceil(len(words) / 4))
+            k = min(n - 1, int((t_abs - line["start"]) / max(0.3, line["dur"]) * n))
+            chunk = " ".join(words[k * len(words) // n:(k + 1) * len(words) // n]).upper()
+            def cap(p):
+                p.text(500, 70, chunk, 64, "#ffffff", "RussoOne-Regular", stroke=7, stroke_color="#0b1222")
+            img = _ov_sprite("cap_" + chunk, cap, 1000, 140, ovc)
+            T.paste(frame, img, (img.width / 2, img.height / 2), (W / 2, 1640))
     # DAY badge
     day = spec.get("day")
+    if short and vertical():
+        day = None
     if day is not None:
         def badge(p):
             p.rrect(6, 6, 228, 92, 22, NAVY, ow=5, ink="#ffffff")
@@ -703,7 +805,7 @@ def draw_overlays(frame, spec, t_abs, ctx, ovc, state):
         if t_rel < dur:
             slide = T.ease(min(1, t_rel / 0.3), "out")
             out_f = 1 - T.ease(max(0, (t_rel - dur + 0.3) / 0.3), "in")
-            T.paste(frame, img, (0, 0), (-700 + 760 * slide, 780), alpha=out_f)
+            T.paste(frame, img, (0, 0), (-700 + 760 * slide, 780 if not vertical() else 1130), alpha=out_f)
     # science card
     card = state.get("card")
     if card and card["t1"] > t_abs >= card["t0"]:
@@ -734,7 +836,10 @@ def draw_overlays(frame, spec, t_abs, ctx, ovc, state):
         tin = t_abs - card["t0"]
         tout = card["t1"] - t_abs
         sc = T.ease(min(1, tin / 0.3), "back") * (1 if tout > 0.2 else T.ease(tout / 0.2))
-        _paste_scaled(frame, img, 1450, 470, 0.25 + 0.75 * sc, alpha=min(1, tin / 0.12))
+        if vertical():
+            _paste_scaled(frame, img, W / 2, 1290, (0.25 + 0.75 * sc) * 1.25, alpha=min(1, tin / 0.12))
+        else:
+            _paste_scaled(frame, img, 1450, 470, 0.25 + 0.75 * sc, alpha=min(1, tin / 0.12))
     # kinetic word
     wd = state.get("word")
     if wd and wd["t1"] > t_abs >= wd["t0"]:
@@ -748,7 +853,9 @@ def draw_overlays(frame, spec, t_abs, ctx, ovc, state):
         wob = math.sin(tin * 18) * 2.5 * max(0, 1 - tin / 0.6)
         cyw = 860 if not state.get("card") or not (state["card"]["t1"] > t_abs >= state["card"]["t0"]) else 930
         cxw = 960 if cyw == 860 else 700
-        _paste_scaled(frame, img, cxw, cyw, 0.35 + 0.65 * sc, rot=-4 + wob)
+        if vertical():
+            cxw, cyw = W / 2, 820
+        _paste_scaled(frame, img, cxw, cyw, (0.35 + 0.65 * sc) * (0.72 if vertical() else 1), rot=-4 + wob)
     # title drop
     tt = state.get("title")
     if tt and tt["t1"] > t_abs >= tt["t0"]:
@@ -763,7 +870,8 @@ def draw_overlays(frame, spec, t_abs, ctx, ovc, state):
         tin = t_abs - tt["t0"]
         tout = tt["t1"] - t_abs
         sc = T.ease(min(1, tin / 0.35), "back") * (1 if tout > 0.25 else T.ease(tout / 0.25))
-        _paste_scaled(frame, img, 960, 500, 0.2 + 0.8 * sc, rot=-2 * (1 - sc))
+        _paste_scaled(frame, img, W / 2, 500 if not vertical() else 700, (0.2 + 0.8 * sc) * (0.68 if vertical() else 1),
+                      rot=-2 * (1 - sc))
     # day wipe
     dw = state.get("daywipe")
     if dw and dw["t0"] <= t_abs < dw["t0"] + 0.9:
@@ -782,7 +890,7 @@ def draw_overlays(frame, spec, t_abs, ctx, ovc, state):
                 p.text(500, 130, f"DAY {dw['day']}", 230, YEL, "Bangers-Regular", stroke=10, stroke_color="#0b1222")
             img = _ov_sprite(f"dw{dw['day']}", dwc, 1000, 260, ovc)
             sc = T.ease(min(1, (tin - 0.18) / 0.2), "back")
-            _paste_scaled(frame, img, 960, 540, 0.5 + 0.5 * sc)
+            _paste_scaled(frame, img, W / 2, H / 2, 0.5 + 0.5 * sc)
 
 
 def _size_compare(p):
@@ -870,7 +978,8 @@ def _part_ok(path: Path) -> bool:
 
 def _render_job(args):
     """Render one part; keep a finished part, retry a failed one once (render loops need an attempt cap)."""
-    pdir, i0, i1, out, total = args
+    pdir, i0, i1, out, total, wh = args
+    set_canvas(*wh)
     sh = json.loads((Path(pdir) / "build" / "shots.json").read_text(encoding="utf-8"))["shots"]
     for attempt in range(2):
         if _part_ok(Path(out)):
@@ -895,7 +1004,7 @@ def cmd_render(pdir: Path, jobs=10, limit=None):
     tasks = []
     for k, i0 in enumerate(range(0, n, chunk)):
         i1 = min(n, i0 + chunk)
-        tasks.append((str(pdir), i0, i1 if i1 < n or limit else len(seq), str(parts_dir / f"p{k:03d}.mp4"), total))
+        tasks.append((str(pdir), i0, i1 if i1 < n or limit else len(seq), str(parts_dir / f"p{k:03d}.mp4"), total, (W, H)))
     with ProcessPoolExecutor(max_workers=jobs) as ex:
         for i, out in enumerate(ex.map(_render_job, tasks)):
             print(f"part {i + 1}/{len(tasks)} done", flush=True)
@@ -921,13 +1030,16 @@ def cmd_stills(pdir: Path, every=1):
         state = {"card": _active(cards, t), "word": _active(words, t), "title": _active(titles, t), "daywipe": None,
                  "day_since": day_since}
         draw_overlays(fr, s, t, ctx, ovc, state)
-        im = fr.convert("RGB").resize((480, 270))
+        im = fr.convert("RGB").resize((480, 270) if not vertical() else (270, 480))
         ImageDraw.Draw(im).text((6, 4), f"{s['line']} {s['frame']}", fill=(255, 0, 0))
         thumbs.append(im)
+    tw, th = thumbs[0].size if thumbs else (480, 270)
     for k in range(0, len(thumbs), 20):
-        sheet = Image.new("RGB", (480 * 4, 270 * 5), (0, 0, 0))
+        cols = 4 if tw > th else 7
+        rows = (20 + cols - 1) // cols
+        sheet = Image.new("RGB", (tw * cols, th * rows), (0, 0, 0))
         for j, im in enumerate(thumbs[k:k + 20]):
-            sheet.paste(im, ((j % 4) * 480, (j // 4) * 270))
+            sheet.paste(im, ((j % cols) * tw, (j // cols) * th))
         sheet.save(out / f"sheet_{k // 20:02d}.jpg", quality=85)
     print(f"{len(thumbs)} stills in {(len(thumbs) + 19) // 20} sheets")
 
@@ -1047,12 +1159,16 @@ def cmd_master(pdir: Path, music_db=-25.0):
 
 def main(argv):
     cmd, pdir = argv[0], Path(argv[1]).resolve()
+    if "--vertical" in argv:
+        set_canvas(1080, 1920)
+        global VERTICAL_SHOTS
+        VERTICAL_SHOTS = True
     if cmd == "voices":
         cmd_voices(pdir)
     elif cmd == "shots":
         cmd_shots(pdir)
     elif cmd == "stills":
-        cmd_stills(pdir, int(argv[2]) if len(argv) > 2 else 1)
+        cmd_stills(pdir, int(argv[2]) if len(argv) > 2 and argv[2].isdigit() else 1)
     elif cmd == "render":
         jobs = int(argv[argv.index("--jobs") + 1]) if "--jobs" in argv else 12
         limit = int(argv[argv.index("--limit") + 1]) if "--limit" in argv else None
