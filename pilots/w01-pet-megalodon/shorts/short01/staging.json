@@ -63,8 +63,8 @@
    "lines": {
     "0": {
      "shots": [
-      "pt:1000,820,1.5",
-      "meg"
+      "megclose",
+      "close:doug"
      ],
      "fx": [
       "shake"
@@ -315,10 +315,11 @@
     },
     "6": {
      "meg": {
-      "jaw": 1.0
+      "jaw": 0.55,
+      "mood": "happy"
      },
      "shots": [
-      "meg"
+      "megclose"
      ]
     },
     "7": {

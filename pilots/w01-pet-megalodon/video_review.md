@@ -316,3 +316,92 @@ Nothing new broke in the frames checked. Cuts are 24.2 a minute, inside the 20 t
 ### Verdict
 
 **Ready for owner review, not ready to upload.** No scene is broken any more, and every story beat the narration names is now on screen. What remains is polish: cards covering Wren in five wide shots, the flashback sand layer, edge crops and one-angle backyard coverage. That polish keeps it at 3.5 rather than DOOMPERK's level, and it should be fixed in the same pass as any owner notes before upload.
+
+---
+
+## Shorts (2026-11-27)
+
+Three native 9:16 Shorts cut from w01. Judged from each short's `sheet.jpg` (one frame every 2.5 s), 4 full-size frames per short from `build/final.mp4`, each `script.md` and `build/lines.json`, and `shorts_plan.json`. All three are 1080x1920 (ffprobe), and run 54.3 s, 49.9 s and 54.9 s. Audio was not heard. Channel rule: a complete moment that ends on its payoff, never a cliffhanger, then points to the full video.
+
+| Criterion | short01 | short02 | short03 |
+|---|---|---|---|
+| Hook, first 2 s | 2.5 | 3 | 3 |
+| Readability at phone size | 3.5 | 3 | 3.5 |
+| Framing | 3.5 | 3.5 | 3.5 |
+| Payoff ending | 2.5 | 4 | 4.5 |
+| Title strength | 4 | 3.5 | 4.5 |
+| **Average** | **3.2** | **3.4** | **3.8** |
+| **Upload** | **NO-GO** | **NO-GO until fixed** | **GO** |
+
+All three get the basics right:
+- The two-line title band at the top reads at phone size.
+- Captions are bold white caps inside the safe area, and the science cards are readable.
+- Night scenes are graded dark.
+- Each short ends with a spoken pointer to the full video.
+
+### short01: "A Storm Threw a Baby MEGALODON Into His Pool" (scenes 01 and 03)
+
+- **Hook (2.5):** at 0.3 s the frame is a dark rainy yard with the shark faint in the pool, and Doug off the left edge (only his cap brim shows). No caption until about 1.5 s. The title band does all the work; nothing moves or surprises in the first 2 s.
+- **Readability (3.5):**
+  - The caption at about 47.5 s, "IHTEEN CENTIMETRES. MEATBA...", runs off both sides of the frame.
+  - The FULL VIDEO BELOW word sits on Doug's face at about 52 s.
+- **Framing (3.5):** the cast is fine apart from the 0.3 s opening.
+- **Payoff (2.5):** the strongest joke ("He ate my meatballs.", 20.5 s) lands at the 40% mark. The short then spends 25 s on science cards and ends on "He's got a lovely smile." (48.0 s), which is soft, not a payoff.
+- **Title (4):** clear, visual and searchable.
+- **Top fix:** recut to end on a payoff, for example storm, Tanner, "It's a type of extinct.", BIG TOOTH and "Meatball's are smaller. For now." over a grin close-up. Open on the shark close-up instead of the dark wide. Wrap the 47.5 s caption.
+
+### short02: "His Pet MEGALODON Ate a Watermelon in One Bite" (scenes 09 and 10)
+
+- **Hook (3):** the first frame is a calm underwater shark close-up with no caption (0.3 s). The spoken hook ("Your pet megalodon is nine days old. Your neighbour wants it on a livestream.") is good, but the watermelon does not appear until about 12 s.
+- **Readability (3):**
+  - The countdown caption at 13 s, "...NE WATERMELON. THREE, TW...", is cut off on both sides, on the most important line of the short.
+  - FULL VIDEO BELOW sits on Doug's face at 48.5 s.
+- **Framing (3.5):** Doug and Wren are cut at the side edges in the teeth scene (about 30 to 48 s).
+- **Payoff (4):** CRUNCH at about 15 s, then "He thought it was the moon.", then the teeth gag ends on a real punchline: "For the first time in his career, Tanner's advert is completely true." (43.0 s).
+- **Title (3.5):** clear, and it promises what is shown. It gives away the bite, so it relies on the visual. "Pet MEGALODON" echoes DOOMPERK's "PET Tornado", which the long-form packaging retired.
+- **Top fix:** cap caption width and wrap long lines (the 13 s line). Open on the watermelon at the shark's mouth, so the first frame shows the promise.
+
+### short03: "He Tried to Sell the MEGALODON. It Saved Him" (scenes 22 and 23)
+
+- **Hook (3):** the spoken hook is the best of the three ("Now he is lost at sea, at midnight."), but the first frame (0.3 s) is Doug and Wren calmly sitting in the kayak. Tanner or the fin is not on screen until about 7.5 s.
+- **Readability (3.5):** the FOUND HIM word sits across Doug's face at 48.2 s, on the climax line.
+- **Framing (3.5):** Tanner is cut at the top-right edge near the end (about 50 s). The tinted day 3 flashback (about 25 to 30 s) reads well.
+- **Payoff (4.5):** a complete rescue that ends on its punchline, "Am I the fish?" / "Not tonight." (49.4 to 51.4 s). It explains its own callback (tap tap) through the flashback, so it works without the long video.
+- **Title (4.5):** strong irony and curiosity, with one CAPS word.
+- **Top fix (not blocking):** move FOUND HIM to the empty water below the kayak. Open on Tanner splashing alone in the dark, with the fin passing behind him.
+
+### Shared fixes
+
+1. **Kinetic words land on faces in all three** (short01 about 52 s, short02 48.5 s, short03 48.2 s). Place words in empty space, away from every head box. This is the same rule as the long-form card fix.
+2. **Captions overflow the 1080 px width** (short01 about 47.5 s, short02 13 s). Wrap to two lines, or cut each caption chunk at about 22 characters.
+3. **The outros say "linked below".** On Shorts the reliable link is the related video setting, not the description, so set the related video to the full w01 upload.
+
+### Shorts re-render (2026-11-27)
+
+Re-scored from the regenerated sheets and 4 full-size frames (short01 45.2 s and 48.6 s, short02 16 s, short03 48.3 s). Durations: 52.3 s, 49.9 s and 54.9 s.
+
+| Criterion | short01 | short02 | short03 |
+|---|---|---|---|
+| Hook, first 2 s | 3 (was 2.5) | 4 (was 3) | 3 |
+| Readability at phone size | 3.5 | 3 | 4 (was 3.5) |
+| Framing | 4 (was 3.5) | 3.5 | 3.5 |
+| Payoff ending | 3.5 (was 2.5) | 4 | 4.5 |
+| Title strength | 4 | 3.5 | 4.5 |
+| **Average** | **3.6** (was 3.2) | **3.6** (was 3.4) | **3.9** (was 3.8) |
+| **Upload** | **NO-GO** (one fix) | **NO-GO** (one fix) | **GO** |
+
+What landed:
+- Captions now wrap inside the frame, with no side overflow anywhere.
+- Kinetic words sit clear of faces: FOUND HIM is below the kayak at 48.3 s, CRUNCH is above the card at 16 s, and FULL VIDEO BELOW is above the caption at 48.6 s.
+- short01 opens on the shark and now ends on "Meatball's are smaller. For now." over the toothy grin (42.7 to 47.8 s). That is a real payoff.
+- short02 opens with the watermelon already at the shark's mouth, so the title's promise is in frame 1.
+
+New problem: **two-line captions collide with science cards.** When a caption wraps to two lines while a card is up, its first line slides under the card's bottom edge:
+- short02 at about 15 to 17 s: "THE ADULT MEGALODON / BITE", where the top line is half hidden.
+- short01 at about 45 to 47 s: "EIGHTEEN CENTIMETRES. / MEATBALL'S", where the top line is clipped on the payoff line itself.
+
+short03 has no two-line caption under a card, so it is clear.
+
+Top fix per Short:
+- **short01 and short02 (blocking):** when a card is up, anchor the caption by its first line just below the card (about y 1480) and let the second line grow downward, or shift the card up by one caption line. Re-check 15 to 17 s (short02) and 45 to 47 s (short01). Both become GO once this is clean.
+- **short03 (not blocking):** open on Tanner splashing alone with the fin passing behind him, instead of the calm kayak shot.

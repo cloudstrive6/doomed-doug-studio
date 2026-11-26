@@ -2,24 +2,71 @@
  "shorts": [
   {
    "id": "short01",
-   "scenes": ["01", "03"],
+   "scenes": [
+    "01",
+    "03:0-6"
+   ],
    "outro": "Thirty days with Meatball. The full video is linked below.",
    "title": "A Storm Threw a Baby MEGALODON Into His Pool",
    "description": "A storm drops a two metre megalodon pup into Doug's pool. Megalodon died out about 3.6 million years ago, its name means big tooth, and its biggest teeth reach about 18 centimetres. The full thirty days is linked below.",
-   "schedule_at": "2026-11-28 16:00"
+   "schedule_at": "2026-11-28 16:00",
+   "overrides": {
+    "01": {
+     "0": {
+      "shots": [
+       "megclose",
+       "close:doug"
+      ]
+     }
+    },
+    "03": {
+     "6": {
+      "shots": [
+       "megclose"
+      ],
+      "meg": {
+       "jaw": 0.55,
+       "mood": "happy"
+      }
+     }
+    }
+   }
   },
   {
    "id": "short02",
-   "scenes": ["09", "10"],
+   "scenes": [
+    "09",
+    "10"
+   ],
    "hook": "Your pet megalodon is nine days old. Your neighbour wants it on a livestream.",
    "outro": "The whole thirty days is linked below.",
    "title": "His Pet MEGALODON Ate a Watermelon in One Bite",
    "description": "One model puts the adult megalodon bite at six to ten times a great white's, and sharks shed teeth all their lives. Tanner finds a way to sell them. The full thirty days is linked below.",
-   "schedule_at": "2026-11-29 16:00"
+   "schedule_at": "2026-11-29 16:00",
+   "overrides": {
+    "00": {
+     "0": {
+      "shots": [
+       "megclose",
+       "close:tanner"
+      ],
+      "props_add": [
+       {
+        "id": "melon",
+        "x": 0,
+        "y": 0
+       }
+      ]
+     }
+    }
+   }
   },
   {
    "id": "short03",
-   "scenes": ["22", "23"],
+   "scenes": [
+    "22",
+    "23"
+   ],
    "hook": "You have a pet megalodon. Your neighbour tried to sell it. Now he is lost at sea, at midnight.",
    "outro": "The whole thirty days is linked below.",
    "title": "He Tried to Sell the MEGALODON. It Saved Him",

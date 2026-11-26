@@ -80,7 +80,6 @@ CARD: WHAT THE NAME MEANS | Megalodon means big tooth | SOURCE: Natural History 
 WREN: The name means big tooth. Look at that jaw.
 CARD: BIG TOOTH | The biggest teeth reach about 18 centimetres | SOURCE: Natural History Museum, Smithsonian
 NARRATOR: The biggest megalodon teeth reach about eighteen centimetres. Meatball's are smaller. For now.
-DOUG [fond]: He's got a lovely smile.
 
 ## SCENE 99 | set: backyard_pool | day: -
 NARRATOR: Thirty days with Meatball. The full video is linked below.
