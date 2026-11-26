@@ -1,6 +1,6 @@
 {
  "name": "orca_costume",
- "description": "Doug's cheap homemade orca suit for UPRIGHT poses (float, stand, wave): anchor = Doug's hips, list after Doug at the same x/y/scale/flip. Black felt #25282d tube over torso and upper legs with white belly panel, white flank patch at the back hip and a grey saddle, stitching, visible front zip with pull tab at x +45; tall straight black felt dorsal fin rising behind the head (tip (-112,-330)), round paddle flipper mitts at the suit sides, felt tail stock and flukes behind the legs (to x -200, y +122). Black felt C-hood round the back of the head and under the chin with a big white eye-patch oval on the hood side (-87,-236) and the other one on the hood band under the chin (+28,-136); face and red cap fully visible. Bbox x -200..+150, y -330..+122.",
+ "description": "Doug's cheap homemade orca suit for UPRIGHT poses (float, stand, wave): anchor = Doug's hips, list after Doug at the same x/y/scale/flip. Black felt #25282d tube over torso and upper legs with a white lower-belly panel (lower front only, so it reads orca not penguin), white flank patch at the back hip and a grey saddle, stitching, visible front zip with pull tab at x +45; tall straight black felt dorsal fin rising behind the head (tip (-112,-330)), round paddle flipper mitts at the suit sides, felt tail stock and flukes behind the legs (to x -200, y +122). Black felt C-hood round the back of the head and under the chin with a big white eye-patch oval on the hood side (-87,-236) and the other one on the hood band under the chin (+28,-136); face and red cap fully visible. Bbox x -200..+150, y -330..+122.",
  "anchor": [0, 0],
  "tags": ["costume", "orca", "doug gear", "suit", "058"],
  "elements": [
@@ -17,19 +17,19 @@
   {"type": "curve", "points": [[-96.0, -30.0], [-130.0, 0.0]], "width": 2, "color": "#43474f"},
   {"type": "poly", "points": [[-60.0, -146.0], [0.0, -152.0], [60.0, -146.0], [86.0, -112.0], [90.0, -20.0], [86.0, 40.0], [64.0, 72.0], [0.0, 80.0], [-64.0, 72.0], [-86.0, 40.0], [-90.0, -20.0], [-86.0, -112.0]], "fill": "#25282d", "width": 0, "color": "#000000", "smooth": true, "outline": false},
   {"type": "poly", "points": [[-86.0, -112.0], [-60.0, -146.0], [-30.0, -150.0], [-50.0, -60.0], [-70.0, 20.0], [-86.0, 40.0], [-90.0, -20.0]], "fill": "#43474f", "width": 0, "color": "#000000", "smooth": true, "outline": false},
-  {"type": "poly", "points": [[6.0, -140.0], [52.0, -142.0], [80.0, -104.0], [84.0, 30.0], [60.0, 66.0], [10.0, 74.0], [18.0, 0.0], [10.0, -80.0]], "fill": "#f4f4f0", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[14.0, -40.0], [50.0, -54.0], [80.0, -36.0], [84.0, 30.0], [60.0, 66.0], [10.0, 74.0], [20.0, 20.0]], "fill": "#f4f4f0", "width": 0, "color": "#000000", "smooth": true, "outline": false},
   {"type": "poly", "points": [[60.0, 60.0], [40.0, 70.0], [10.0, 74.0], [30.0, 50.0]], "fill": "#d6d8da", "width": 0, "color": "#000000", "smooth": true, "outline": false},
   {"type": "poly", "points": [[-30.0, 72.0], [-62.0, 66.0], [-82.0, 38.0], [-84.0, 6.0], [-62.0, 24.0], [-36.0, 44.0], [-10.0, 62.0]], "fill": "#f4f4f0", "width": 0, "color": "#000000", "smooth": true, "outline": false},
   {"type": "poly", "points": [[-84.0, -100.0], [-60.0, -120.0], [-40.0, -112.0], [-56.0, -86.0], [-80.0, -76.0]], "fill": "#8a9098", "width": 0, "color": "#000000", "smooth": true, "outline": false},
   {"type": "spray", "x": -40, "y": -40, "r": 30, "color": "#141518", "density": 0.25},
   {"type": "curve", "points": [[-40.0, -140.0], [-48.0, -40.0], [-56.0, 40.0]], "width": 2, "color": "#6a6f78", "dash": [7, 6]},
-  {"type": "curve", "points": [[10.0, -134.0], [20.0, -60.0], [20.0, 10.0], [12.0, 68.0]], "width": 2, "color": "#b0b4b8", "dash": [7, 6]},
+  {"type": "curve", "points": [[16.0, -36.0], [22.0, 10.0], [12.0, 68.0]], "width": 2, "color": "#b0b4b8", "dash": [7, 6]},
   {"type": "line", "points": [[44.0, -146.0], [46.0, 70.0]], "width": 4, "color": "#4a4a4a"},
   {"type": "line", "points": [[44.0, -142.0], [46.0, 66.0]], "width": 2, "color": "#d0d0d0", "dash": [4, 6]},
   {"type": "rect", "x": 39, "y": -100, "w": 12, "h": 20, "fill": "#d0d0d0", "width": 2, "color": "#000000"},
   {"type": "poly", "points": [[-60.0, -146.0], [0.0, -152.0], [60.0, -146.0], [86.0, -112.0], [90.0, -20.0], [86.0, 40.0], [64.0, 72.0], [0.0, 80.0], [-64.0, 72.0], [-86.0, 40.0], [-90.0, -20.0], [-86.0, -112.0]], "fill": null, "width": 5, "color": "#000000", "smooth": true},
   {"type": "poly", "points": [[-97.7, -253.6], [-101.7, -239.6], [-103.7, -225.3], [-103.7, -210.7], [-101.7, -196.4], [-97.7, -182.4], [-91.8, -169.2], [-84.1, -156.9], [-74.8, -145.8], [-64.0, -136.0], [-52.0, -127.9], [-39.0, -121.6], [-25.2, -117.1], [-10.9, -114.6], [3.6, -114.1], [18.1, -115.6], [32.1, -119.1], [30.2, -156.0], [21.3, -152.4], [12.0, -150.0], [2.4, -149.0], [-7.2, -149.4], [-16.7, -151.0], [-25.8, -154.0], [-34.5, -158.2], [-42.5, -163.6], [-49.6, -170.1], [-55.8, -177.4], [-60.9, -185.6], [-64.8, -194.4], [-67.5, -203.7], [-68.8, -213.2], [-68.8, -222.8], [-67.5, -232.3], [-64.8, -241.6]], "fill": "#25282d", "width": 5, "color": "#000000", "smooth": false},
-  {"type": "ellipse", "x": -87.0, "y": -236.0, "rx": 12, "ry": 28, "fill": "#f4f4f0", "width": 3, "color": "#000000"},
+  {"type": "ellipse", "x": -86.0, "y": -226.0, "rx": 15, "ry": 34, "fill": "#f4f4f0", "width": 3, "color": "#000000"},
   {"type": "ellipse", "x": 28.0, "y": -136.0, "rx": 13, "ry": 7, "fill": "#f4f4f0", "width": 3, "color": "#000000"},
   {"type": "curve", "points": [[-90.0, -200.0], [-70.0, -160.0], [-30.0, -142.0]], "width": 2, "color": "#6a6f78", "dash": [6, 6]}
  ]

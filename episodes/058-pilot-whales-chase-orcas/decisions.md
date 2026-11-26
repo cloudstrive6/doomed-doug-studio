@@ -30,3 +30,16 @@ NOAA maxima give about 10 t vs about 2.3 t (roughly a quarter), and comparing ma
 - Editor: check Chirp reads "Sædís" (SIGH-deess); if not, write "Saedis" in narration text.
 - Art director: approve the WHO RAN scoreboard and the orca costume (new gear) before keyframes.
 - Counter 420 to 425 (deaths at items 1, 2, 4, 7, 8). Series bible lore is updated at packaging/upload, not here.
+
+## 2026-11-26 Director: WHO RAN board tallies moved (visual screener round 1, fix #1). FOR CD SIGN-OFF
+The screener flagged the board as reading backwards: header "WHO RAN", but the tally ticks piled up under PILOT WHALES (7 by the end),
+which says "pilot whales ran 7 times", the opposite of the thesis. Meanwhile the red ORCAS stamp sat under EVERYONE ELSE, so the board
+contradicted itself.
+- Change: every tick now lands in the **EVERYONE ELSE** column (s002-s219). The **PILOT WHALES column stays empty all episode**:
+  they never ran, and that's the joke. At the boss (s216 from 0.88, s217-s219) the red **ORCAS** stamp goes on a second line under
+  the ticks, in the same column.
+- Each tick still marks a beat where someone other than the pilot whales backed off (Doug included). No narration changes.
+- The board asset (`who_ran_board`) artwork is unchanged; only its description changed (tally zone usage). The tick and stamp positions
+  live in `build/lib058.py` (`tick_lines`, `hud`).
+- I rejected the screener's alternative of renaming the header to "WHO BACKED OFF?" / "NOT PILOT WHALES" because it's weaker.
+- CD: please confirm this reading of the device. Thumbnail and packaging don't use the board, so nothing changes there.

@@ -1,0 +1,246 @@
+{
+ "background": "#ffd21f",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#ffd21f",
+   "color": "#ffd21f",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 360,
+   "w": 1300,
+   "h": 720,
+   "fill": "#1b7fd0",
+   "color": "#1b7fd0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -20,
+     352
+    ],
+    [
+     40,
+     368
+    ],
+    [
+     100,
+     352
+    ],
+    [
+     160,
+     368
+    ],
+    [
+     220,
+     352
+    ],
+    [
+     280,
+     368
+    ],
+    [
+     340,
+     352
+    ],
+    [
+     400,
+     368
+    ],
+    [
+     460,
+     352
+    ],
+    [
+     520,
+     368
+    ],
+    [
+     580,
+     352
+    ],
+    [
+     640,
+     368
+    ],
+    [
+     700,
+     352
+    ],
+    [
+     760,
+     368
+    ],
+    [
+     820,
+     352
+    ],
+    [
+     880,
+     368
+    ],
+    [
+     940,
+     352
+    ],
+    [
+     1000,
+     368
+    ],
+    [
+     1060,
+     352
+    ],
+    [
+     1120,
+     368
+    ],
+    [
+     1180,
+     352
+    ],
+    [
+     1240,
+     368
+    ],
+    [
+     1300,
+     352
+    ]
+   ],
+   "color": "#000000",
+   "width": 6,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "orca",
+   "x": 1180,
+   "y": 230,
+   "scale": 0.6,
+   "boil": 0,
+   "rotate": -28
+  },
+  {
+   "type": "asset",
+   "name": "water_splash",
+   "x": 1000,
+   "y": 380,
+   "scale": 0.45,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "small_fish",
+   "x": 960,
+   "y": 150,
+   "scale": 0.45,
+   "boil": 0,
+   "rotate": 70
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale",
+   "x": 190,
+   "y": 260,
+   "scale": 0.36,
+   "boil": 0,
+   "rotate": -24
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale",
+   "x": 90,
+   "y": 440,
+   "scale": 0.38,
+   "boil": 0,
+   "rotate": 0
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale",
+   "x": 360,
+   "y": 470,
+   "scale": 0.36,
+   "boil": 0,
+   "rotate": 0
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale",
+   "x": -60,
+   "y": 250,
+   "scale": 0.34,
+   "boil": 0,
+   "rotate": -20
+  },
+  {
+   "type": "asset",
+   "name": "water_splash_small",
+   "x": 280,
+   "y": 372,
+   "scale": 0.6,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "water_splash_small",
+   "x": 20,
+   "y": 372,
+   "scale": 0.6,
+   "boil": 0
+  },
+  {
+   "type": "doug",
+   "x": 680,
+   "y": 380,
+   "scale": 0.75,
+   "pose": "float",
+   "expression": "shock",
+   "facing": "left",
+   "gear": [
+    "sweat"
+   ],
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "orca_costume",
+   "x": 680,
+   "y": 380,
+   "scale": 0.75,
+   "boil": 0,
+   "flip": true
+  },
+  {
+   "type": "text",
+   "text": "THEY CHASE",
+   "x": 640,
+   "y": 640,
+   "size": 130,
+   "color": "#ffffff",
+   "outline": "#000000",
+   "outline_width": 16,
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

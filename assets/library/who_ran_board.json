@@ -1,6 +1,6 @@
 {
  "name": "who_ran_board",
- "description": "058 WHO RAN scoreboard (episode HUD, staging only): small wide chalkboard in the lion_hyena_scoreboard construction (brown wooden frame, dark green #2f5a3a board, ledge with chalk and eraser), no crack, no paw prints. Chalk-white #f4f4ec bold ComicNeue lettering: WHO RAN centred (0,-108); PILOT WHALES centred (-146,-58) and EVERYONE ELSE centred (+146,-58); chalk underline at y -34 (x -280..280); divider x=0 from y -80 to +130. Tally zones left empty: left x -270..-20, right x +20..+270, y -20..+125 (red ORCAS goes about (+150,+58) at the boss). Centre anchor; x -308..+308, y -150..+156. Built to read at scale 0.55.",
+ "description": "058 WHO RAN scoreboard (episode HUD, staging only): small wide chalkboard in the lion_hyena_scoreboard construction (brown wooden frame, dark green #2f5a3a board, ledge with chalk and eraser), no crack, no paw prints. Chalk-white #f4f4ec bold ComicNeue lettering: WHO RAN centred (0,-108); PILOT WHALES (40) centred (-146,-56) and EVERYONE ELSE (36) centred (+146,-56), WHO RAN 62 (art director 2026-11-26: enlarged for legibility at 0.55); chalk underline at y -34 (x -280..280); divider x=0 from y -34 (underline) to +130, so the headers have the full width. Tally zones left empty in the art: left x -270..-20, right x +20..+270, y -20..+125. Usage (058, screener fix 2026-11-26): tally ticks go in the RIGHT (EVERYONE ELSE) zone, upper half y -15..+50; the PILOT WHALES zone stays empty (they never ran); red ORCAS goes on a second line about (+150,+95) at the boss. Centre anchor; x -308..+308, y -150..+156. Built to read at scale 0.55.",
  "anchor": [0, 0],
  "tags": ["device", "scoreboard", "chalkboard", "hud", "058"],
  "elements": [
@@ -22,10 +22,10 @@
   {"type": "rect", "x": -308, "y": 146, "w": 616, "h": 10, "fill": "#7a4220", "width": 4, "color": "#000000"},
   {"type": "rect", "x": -250, "y": 136, "w": 34, "h": 8, "fill": "#ffffff", "width": 2, "color": "#000000"},
   {"type": "rect", "x": 196, "y": 134, "w": 60, "h": 12, "fill": "#c9a06a", "width": 3, "color": "#000000"},
-  {"type": "text", "text": "WHO RAN", "x": 0, "y": -108, "size": 54, "color": "#f4f4ec", "bold": true, "font": "ComicNeue-Bold", "boil": 0.5},
-  {"type": "text", "text": "PILOT WHALES", "x": -146, "y": -58, "size": 34, "color": "#f4f4ec", "bold": true, "font": "ComicNeue-Bold", "boil": 0.5},
-  {"type": "text", "text": "EVERYONE ELSE", "x": 146, "y": -58, "size": 32, "color": "#f4f4ec", "bold": true, "font": "ComicNeue-Bold", "boil": 0.5},
+  {"type": "text", "text": "WHO RAN", "x": 0, "y": -104, "size": 62, "color": "#f4f4ec", "bold": true, "font": "ComicNeue-Bold", "boil": 0.3, "outline": "#f4f4ec", "outline_width": 2},
+  {"type": "text", "text": "PILOT WHALES", "x": -146, "y": -56, "size": 40, "color": "#f4f4ec", "bold": true, "font": "ComicNeue-Bold", "boil": 0.3, "outline": "#f4f4ec", "outline_width": 2},
+  {"type": "text", "text": "EVERYONE ELSE", "x": 146, "y": -56, "size": 36, "color": "#f4f4ec", "bold": true, "font": "ComicNeue-Bold", "boil": 0.3, "outline": "#f4f4ec", "outline_width": 2},
   {"type": "line", "points": [[-280.0, -34.0], [280.0, -34.0]], "width": 4, "color": "#f4f4ec", "boil": 0.5},
-  {"type": "line", "points": [[0.0, -80.0], [0.0, 130.0]], "width": 4, "color": "#f4f4ec", "boil": 0.5}
+  {"type": "line", "points": [[0.0, -34.0], [0.0, 130.0]], "width": 4, "color": "#f4f4ec", "boil": 0.5}
  ]
 }

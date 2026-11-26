@@ -1,0 +1,209 @@
+{
+ "background": "#ff5a3c",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#ff5a3c",
+   "color": "#ff5a3c",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 470,
+   "w": 1300,
+   "h": 720,
+   "fill": "#123f78",
+   "color": "#123f78",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -20,
+     463
+    ],
+    [
+     40,
+     477
+    ],
+    [
+     100,
+     463
+    ],
+    [
+     160,
+     477
+    ],
+    [
+     220,
+     463
+    ],
+    [
+     280,
+     477
+    ],
+    [
+     340,
+     463
+    ],
+    [
+     400,
+     477
+    ],
+    [
+     460,
+     463
+    ],
+    [
+     520,
+     477
+    ],
+    [
+     580,
+     463
+    ],
+    [
+     640,
+     477
+    ],
+    [
+     700,
+     463
+    ],
+    [
+     760,
+     477
+    ],
+    [
+     820,
+     463
+    ],
+    [
+     880,
+     477
+    ],
+    [
+     940,
+     463
+    ],
+    [
+     1000,
+     477
+    ],
+    [
+     1060,
+     463
+    ],
+    [
+     1120,
+     477
+    ],
+    [
+     1180,
+     463
+    ],
+    [
+     1240,
+     477
+    ],
+    [
+     1300,
+     463
+    ]
+   ],
+   "color": "#000000",
+   "width": 6,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "orca",
+   "x": 1110,
+   "y": 380,
+   "scale": 0.22,
+   "boil": 0,
+   "rotate": -25
+  },
+  {
+   "type": "asset",
+   "name": "orca",
+   "x": 1210,
+   "y": 430,
+   "scale": 0.2,
+   "boil": 0,
+   "rotate": -20
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale_head",
+   "x": 320,
+   "y": 470,
+   "scale": 2.2,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "pilot_whale_head",
+   "x": -60,
+   "y": 500,
+   "scale": 1.4,
+   "boil": 0
+  },
+  {
+   "type": "doug",
+   "x": 760,
+   "y": 440,
+   "scale": 0.7,
+   "pose": "swim1",
+   "expression": "gritted",
+   "facing": "right",
+   "boil": 0,
+   "rotate": -12
+  },
+  {
+   "type": "asset",
+   "name": "orca_costume_swim",
+   "x": 760,
+   "y": 440,
+   "scale": 0.7,
+   "boil": 0,
+   "flip": false,
+   "rotate": -12
+  },
+  {
+   "type": "asset",
+   "name": "water_splash_small",
+   "x": 740,
+   "y": 482,
+   "scale": 0.9,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "TOO SLOW",
+   "x": 820,
+   "y": 120,
+   "size": 140,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 16,
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
