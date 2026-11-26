@@ -1,6 +1,16 @@
 {
- "at": "2026-11-26T16:01:55+00:00",
+ "at": "2026-11-26T17:01:43+00:00",
  "issues": [
+  {
+   "key": "related_pending",
+   "severity": "low",
+   "owner": "owner",
+   "summary": "3 Short(s) need their Related video set in Studio (ask Claude to link them in Chrome)",
+   "detail": "Sperm Whales Turn Into a Flower When Orcas Attack -> Why Sperm Whales Circle Their Calves When Orcas Come to Kill\nResearchers Never Saw a Sperm Whale Strike an Orca -> Why Sperm Whales Circle Their Calves When Orcas Come to Kill\nOrcas Pulled One Whale Out. The Family Went Back for It -> Why Sperm Whales Circle Their Calves When Orcas Come to Kill",
+   "route": "",
+   "fixed": false,
+   "extra": {}
+  },
   {
    "key": "end_screens_pending",
    "severity": "low",
