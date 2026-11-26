@@ -1,5 +1,86 @@
 # 058-pilot-whales-chase-orcas: visual review, keyframes (visual screener, 2026-11-26)
 
+## Round 4 (thumbnail re-check after the designer's fixes)
+
+**VERDICT: PASS** for thumbnails A, B and C. All three can run as the A/B/C test (A primary).
+
+Checked the 00:25 re-renders (`build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png`) at 1280x720, and each `_small`
+(168x94) blown up 4x with nearest-neighbour scaling, with a simulated "18:42" duration badge drawn at x 132-164, y 79-90.
+
+- **A: WRONG WAY: PASS** (unchanged). The pilot whale wall is the focal point, Doug's red cap reads between the pod and the
+  orca tail leaving on the right, and the caption is fully legible. The badge covers only the costume's tail fluke and speed lines.
+  The floating sweat drop is still a nit and does not block.
+- **B: THEY CHASE: PASS.** Round 3 fix 1 is done. The caption now ends around x 985, and at feed size the badge sits clear to
+  the right of CHASE, so it reads in full. The pod of three reads as whales chasing right, Doug in shock in the costume is the
+  centre, and the orca leaping off the right edge with the dropped fish reads as fleeing.
+- **C: TOO SLOW: PASS.** Round 3 fix 2 is done. Each head now has a hooked dorsal fin, a white eye aimed at Doug, and wake
+  lines, so at 168 px the row reads as a pod of whales in the water rather than boulders. Doug is bigger (head about 17-18 px
+  wide at 168) and clear of the splash, with the gritted teeth readable. The badge sits on empty dark water. The orcas are still
+  longer than any one head.
+
+### Non-blocking nits (graphic designer, only if re-rendering anyway)
+1. **C**: the upper orca (x 1170, y 360) has its tail stock tucked behind Doug's chin, so at feed size the pointed end can read
+   as an orca nose touching his face. Move it about 60 px right (x ≈ 1230) so the gap between orca and Doug is clear.
+2. **A**: lower the sweat drop about 50 px (y ≈ 280) so it touches the orca's back.
+
+No gore and no kid-show tone. All three thumbnails match the title "Why Orcas Give Up Their Kill When Pilot Whales Show Up"
+honestly and are not misleading.
+
+## Round 3 (thumbnails at feed size + changed keyframes)
+
+**VERDICT: FAIL** for thumbnails B and C only. Thumbnail A and all eight changed keyframes **PASS**.
+
+Checked `build/thumbnail*.png` at 1280x720, the `_small` files at 168x94 (blown up 3x with nearest-neighbour scaling), and the
+168x94 version with a simulated duration badge (bottom-right, about x 132-164, y 79-90). Also checked s006, s068, s095, s122, s123,
+s125, s187 and s201 in `build/keyframes/` against their narration in `shotlist.json`.
+
+### Thumbnails
+- **A: WRONG WAY: PASS.** At 168 px the wall of pilot whale heads is the clear focal point. Doug (red cap) sits between the pod
+  and the orca tail leaving on the right, and WRONG WAY is fully legible. Nothing important sits under the duration badge (only
+  speed lines). It works with the title "Why Orcas Give Up Their Kill When Pilot Whales Show Up". Minor and not blocking: the
+  sweat drop floats about 60 px above the orca's back and could be mistaken for a bubble.
+- **B: THEY CHASE: FAIL.** The CD's round 2 changes landed. The pod is bigger, faces right and reads as whales, and the plain fish
+  now reads as dropped prey. But the caption runs into the duration badge: at feed size the badge hides the "E" and half the "S"
+  of CHASE, so it reads "THEY CHAS".
+- **C: TOO SLOW: FAIL.** The scale inversion is fixed (the orcas are now clearly longer than any one head). But at 168 px the row
+  of five `pilot_whale_head` shapes on the waterline reads as black boulders or a rocky shore. No fins, no flukes and no visible
+  eyes make them read as animals, so the threat isn't obvious. Doug's head is about 13 px tall and half-merged with the splash.
+
+### Thumbnail fixes (graphic designer)
+1. **B (`thumbnail_test_b.json`)**: move the THEY CHASE caption out of the bottom-right badge zone. Either shift it left so it
+   ends by x ≈ 960 (centre ≈ 560), or move it to the top-left of the yellow sky (y ≈ 40-150, x ≈ 40-700, clear of the orca's
+   fin). Keep the size. Re-check `_small` with a 32x12 px badge at the bottom-right.
+2. **C (`thumbnail_test_c.json`)**: make the pod read as whales at 168 px without making them bigger than the orcas. Put a
+   pilot whale dorsal fin (broad, hooked, `pilot_whale` fin shape) behind each head. Give each head a visible white eye
+   catchlight aimed at Doug. Swap the flat white foam strip under the heads for 2-3 short wake lines per head so they read as
+   moving, not beached. Raise Doug's scale about 1.3x (head ≥ 18 px at 168 wide) and nudge him right about 40 px so the splash
+   no longer overlaps his face. Keep the red sky, TOO SLOW and the orca sizes.
+3. If B or C can't be re-rendered before the package gate, ship A alone (per the CD's 2026-11-26 note). Do not run a failing
+   variant.
+
+### Keyframes: all PASS
+- **s006**: Fixed. The speaker is at the left with red arcs, four tagged whales face it with red arrows, the 5th is turned away,
+  and Doug looks confused. 4 OUT OF 5 reads in one second.
+- **s068**: Fixed. Doug's mitten is on the trolley handle and he is clearly pushing while the second man takes the bread.
+  GROCERIES is legible.
+- **s095**: Picture matches the line: a dog trails Doug and his groceries. TAGS ALONG is legible. The tally is at 3.
+- **s122**: Pilot whale next to a low ACTUAL DANGER meter (red in the bulb only) reads as the setup for s123. No masking
+  artefact is left on the thermometer.
+- **s123**: Thermometer fixed: the red column runs unbroken into the bulb. The two meters with labels read clearly.
+  *Nit (director, optional):* the red "!" at x ≈ 1360 points at nothing. Move it to just above the SPERM WHALE REACTION
+  column (x ≈ 1150, y ≈ 370) or remove it.
+- **s125**: Fixed. The top arrow now arcs about 120 px over Doug's cap. Doug, the dinghy, the pilot fins and the sperm whales
+  below all read clearly.
+- **s187**: Now the surface chase as specced: four pilot fins on the left, the orca fin escaping right with a splash, and the
+  tally at 7. The THE CHASE title card repeats the chapter tab, which is fine for a section opener.
+- **s201**: Orca and pilot whale side by side at plausible relative length, with 10 TONNES / 2.25 TONNES matching the narration
+  (s200/s201). Doug reacts at the right and everything is legible.
+- Across these shots there is no gore or kid-show tone, Doug is on-model wherever he appears, and nothing collides with the HUD.
+
+### Next step
+Keyframes stay cleared for the render. Re-render thumbnails B and C with fixes 1-2 and send them back for a feed-size re-check,
+or drop them and ship A.
+
 ## Round 2
 
 **VERDICT: PASS**

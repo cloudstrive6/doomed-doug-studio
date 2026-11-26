@@ -91,3 +91,29 @@ A may ship as-is. If B or C can't be fixed in time, ship A and drop the failing 
   10 TONNES / 2.25 TONNES labels; Doug moved to the right. s125's top arrow (bend 260) now arcs over Doug. s006 has the speaker
   on the left with waves, 4 tagged whales facing it with short red arrows, the 5th turned away, and a confused Doug.
 - Validate shotlist OK; full keyframes re-run (223).
+
+## 2026-11-26 · Package gate re-review: thumbnails B and C (reworked). B APPROVED · C APPROVED (art). Visual screener pass still required
+Creative director. Checked `build/thumbnail_b.png` and `build/thumbnail_c.png` at full size and at 168 px (`*_small.png`), against
+`thumbnail_test_b.json` and `thumbnail_test_c.json` (rendered 00:20). There is no visual-screener report on these renders yet, since
+`visual_review_keyframes.md` covers keyframes only. My approval of both is on the art. Neither variant ships until the visual screener passes them.
+
+**B. THEY CHASE: APPROVED.** Every fix from the earlier package gate is done.
+- Fix 1: the pod is three pilot_whale at 0.58-0.60, at x 120-380, all pointing right toward Doug and the orca, two of them breaching
+  with splashes. At 168 px they read as a pod of round-headed whales in pursuit, so "THEY" now has a referent. The orca was raised
+  to 0.7 and is still the biggest animal in frame. No pilot whale looks larger than it.
+- Fix 2: the banded small_fish was replaced by a plain silver_fish. It tumbles behind the fleeing orca's tail (x 900), so it reads as
+  a dropped meal. Doug in the costume is stuck between the pod and the exit, so the title and image match.
+
+**C. TOO SLOW: APPROVED.** Fix 1 is done and everything I asked to keep was kept.
+- The two giant heads are now a wall of five pilot_whale_head at 0.85-1.0. Their tops stay around y 340, so they sit well clear of
+  TOO SLOW, with the eyes and deadpan lids facing right at Doug.
+- The fleeing orcas are at 0.45/0.5, and the nearer one exits the right edge. Each orca is more than twice as long as one head is
+  tall, so the scale inversion is gone and nothing contradicts "the bigger animal, by a long way".
+- Doug's grimace, the splash, the red sky and the TOO SLOW placement are unchanged.
+- Non-blocking note: at 168 px the wall reads more as "a row of dark humps" than as whales, because the eyes fall below one pixel.
+  The title ("...Among Pilot Whales") carries it, and this is the A/B test variant, so I'm not holding it. If C loses the test
+  badly, the first thing to try next time is a bigger, brighter eye on pilot_whale_head (an art-director call).
+
+Packaging rules re-checked: no weight or size ratio, no "adopted"/"raised", and every title stays honest against facts.md.
+Next: the visual screener screens A/B/C (the full-size images plus the 168 px small versions). If it passes, the episode can move to `packaged` with A as the primary and B and C as test variants.
+If the screener fails B or C, ship A alone, as the earlier package gate set out.

@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-11-25T23:52:28+00:00",
       "note": "222 shots, 20 asset requests (WHO RAN board + orca costume need AD approval), 3 shorts picked; thumbnail.json is a director placeholder"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-26T00:26:28+00:00",
+      "note": "art-director + visual-screener pass; thumbnails A/B/C pass"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }
