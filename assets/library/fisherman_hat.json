@@ -1,0 +1,16 @@
+{
+ "name": "fisherman_hat",
+ "description": "Yellow #ffd21a oilskin sou'wester (rounded crown with seams, long sloping back brim, short front brim, a loose chin strap hanging at the back) worn perched on Doug's cap like sun_hat, fitted to the SIT pose: anchor = Doug's hips at scale 1, rim at y -224 so the red cap dome and brim stay visible below. List after a sitting Doug at the same x/y/scale/flip. Bbox x -154..+98, y -296..-78.",
+ "anchor": [0, 0],
+ "tags": ["hat", "fisherman", "doug gear", "boat", "058"],
+ "elements": [
+  {"type": "curve", "points": [[-110.0, -184.0], [-112.0, -144.0], [-102.0, -108.0], [-108.0, -78.0]], "width": 3, "color": "#7a5a10"},
+  {"type": "poly", "points": [[-60.0, -230.0], [-100.0, -220.0], [-132.0, -198.0], [-154.0, -168.0], [-150.0, -158.0], [-122.0, -174.0], [-84.0, -202.0], [-40.0, -214.0], [20.0, -216.0], [64.0, -214.0], [92.0, -208.0], [98.0, -218.0], [78.0, -230.0], [30.0, -232.0]], "fill": "#ffd21a", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-128.0, -196.0], [-150.0, -166.0], [-146.0, -162.0], [-120.0, -178.0], [-84.0, -204.0], [-50.0, -214.0]], "fill": "#d9a800", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-66.0, -224.0], [-70.0, -254.0], [-54.0, -282.0], [-18.0, -296.0], [24.0, -294.0], [56.0, -278.0], [68.0, -250.0], [66.0, -224.0]], "fill": "#ffd21a", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-56.0, -274.0], [-20.0, -290.0], [10.0, -290.0], [-20.0, -280.0], [-48.0, -260.0]], "fill": "#fff0a0", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[66.0, -228.0], [66.0, -250.0], [56.0, -274.0], [50.0, -244.0], [44.0, -226.0]], "fill": "#d9a800", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "curve", "points": [[-40.0, -284.0], [0.0, -264.0], [40.0, -284.0]], "width": 2, "color": "#c99a00"},
+  {"type": "curve", "points": [[-66.0, -228.0], [0.0, -222.0], [66.0, -228.0]], "width": 3, "color": "#b08800"}
+ ]
+}

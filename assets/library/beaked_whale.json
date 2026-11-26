@@ -1,0 +1,27 @@
+{
+ "name": "beaked_whale",
+ "description": "Cuvier's beaked whale, side view facing right: long spindle-shaped grey-brown #7a7f88 body with darker belly, paler cream-grey head, faint pale scratch lines along the flank, short beak with a short mouth line, small plain dark eye, small hooked dorsal fin far back (tip (-130,-80)), tiny flipper, flukes at the left. Anchor centre; bbox x -276..+280, y -80..+62.",
+ "anchor": [0, 0],
+ "tags": ["beaked whale", "cuvier's beaked whale", "whale", "deep diver", "058"],
+ "elements": [
+  {"type": "poly", "points": [[-206.0, -4.0], [-236.0, -32.0], [-266.0, -56.0], [-276.0, -46.0], [-258.0, -18.0], [-252.0, 0.0], [-258.0, 18.0], [-276.0, 46.0], [-266.0, 56.0], [-236.0, 32.0], [-206.0, 4.0]], "fill": "#7a7f88", "width": 5, "color": "#000000", "smooth": false},
+  {"type": "poly", "points": [[-90.0, -40.0], [-104.0, -64.0], [-122.0, -80.0], [-132.0, -78.0], [-128.0, -60.0], [-130.0, -34.0]], "fill": "#7a7f88", "width": 4, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-212.0, -4.0], [-150.0, -26.0], [-60.0, -50.0], [40.0, -58.0], [130.0, -54.0], [190.0, -42.0], [226.0, -30.0], [246.0, -22.0], [276.0, -10.0], [280.0, 0.0], [270.0, 6.0], [240.0, 10.0], [200.0, 24.0], [120.0, 46.0], [30.0, 54.0], [-60.0, 46.0], [-140.0, 26.0], [-212.0, 6.0]], "fill": "#7a7f88", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[240.0, 10.0], [200.0, 26.0], [120.0, 48.0], [30.0, 56.0], [-60.0, 48.0], [-140.0, 28.0], [-60.0, 32.0], [30.0, 36.0], [120.0, 30.0], [200.0, 14.0]], "fill": "#5f646c", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[130.0, -54.0], [190.0, -42.0], [226.0, -30.0], [246.0, -22.0], [276.0, -10.0], [280.0, 0.0], [270.0, 6.0], [240.0, 10.0], [200.0, 20.0], [186.0, 24.0], [168.0, 4.0], [150.0, -26.0]], "fill": "#cfccc2", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "spray", "x": 150, "y": -10, "r": 24, "color": "#cfccc2", "density": 0.35},
+  {"type": "spray", "x": -60, "y": 0, "r": 70, "color": "#5f646c", "density": 0.12},
+  {"type": "line", "points": [[-150.0, -10.0], [-100.0, -19.0]], "width": 2, "color": "#d8d6ce"},
+  {"type": "line", "points": [[-90.0, 6.0], [-30.0, -4.8]], "width": 2, "color": "#d8d6ce"},
+  {"type": "line", "points": [[-40.0, -28.0], [10.0, -37.0]], "width": 2, "color": "#d8d6ce"},
+  {"type": "line", "points": [[10.0, 10.0], [70.0, -0.8]], "width": 2, "color": "#d8d6ce"},
+  {"type": "line", "points": [[60.0, -30.0], [110.0, -39.0]], "width": 2, "color": "#d8d6ce"},
+  {"type": "line", "points": [[90.0, 20.0], [130.0, 12.8]], "width": 2, "color": "#d8d6ce"},
+  {"type": "line", "points": [[-120.0, 22.0], [-80.0, 14.8]], "width": 2, "color": "#d8d6ce"},
+  {"type": "line", "points": [[20.0, -6.0], [60.0, -13.2]], "width": 2, "color": "#d8d6ce"},
+  {"type": "poly", "points": [[-212.0, -4.0], [-150.0, -26.0], [-60.0, -50.0], [40.0, -58.0], [130.0, -54.0], [190.0, -42.0], [226.0, -30.0], [246.0, -22.0], [276.0, -10.0], [280.0, 0.0], [270.0, 6.0], [240.0, 10.0], [200.0, 24.0], [120.0, 46.0], [30.0, 54.0], [-60.0, 46.0], [-140.0, 26.0], [-212.0, 6.0]], "fill": null, "width": 5, "color": "#000000", "smooth": true},
+  {"type": "curve", "points": [[276.0, 4.0], [258.0, 6.0], [244.0, 2.0]], "width": 3, "color": "#000000"},
+  {"type": "poly", "points": [[150.0, 36.0], [130.0, 54.0], [108.0, 62.0], [118.0, 44.0]], "fill": "#7a7f88", "width": 3, "color": "#000000", "smooth": true},
+  {"type": "ellipse", "x": 214.0, "y": -8.0, "rx": 5, "ry": 5, "fill": "#111111", "width": 0, "color": "#000000", "outline": false}
+ ]
+}

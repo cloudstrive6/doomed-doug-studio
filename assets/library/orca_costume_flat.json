@@ -1,0 +1,32 @@
+{
+ "name": "orca_costume_flat",
+ "description": "The empty orca suit floating flat on the surface after the boss (no Doug inside): crumpled black felt lying horizontally on the waterline, white belly panel along its side, felt eye-patch on the hood end with the felt eye drawn as an X, dorsal fin flopped over to the left on top, limp flukes at the left, a limp flipper mitt, zip half open in a V with the pull tab. No Doug, no bite marks, no tears. Anchor centre on the waterline; bbox x -230..+226, y -66..+40; doug_cap sits on top at local (0,-60).",
+ "anchor": [0, 0],
+ "tags": ["costume", "orca", "doug gear", "suit", "flat", "death", "058"],
+ "elements": [
+  {"type": "poly", "points": [[-130.0, -8.0], [-170.0, -4.0], [-196.0, 4.0], [-200.0, 16.0], [-170.0, 18.0], [-130.0, 16.0]], "fill": "#25282d", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-190.0, 6.0], [-214.0, -6.0], [-230.0, -2.0], [-222.0, 14.0], [-228.0, 34.0], [-214.0, 36.0], [-192.0, 20.0]], "fill": "#25282d", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-150.0, 0.0], [-140.0, -26.0], [-110.0, -40.0], [-70.0, -38.0], [-40.0, -50.0], [0.0, -46.0], [40.0, -52.0], [80.0, -44.0], [120.0, -48.0], [160.0, -40.0], [196.0, -30.0], [220.0, -12.0], [226.0, 8.0], [214.0, 26.0], [170.0, 34.0], [100.0, 30.0], [40.0, 36.0], [-20.0, 30.0], [-80.0, 34.0], [-130.0, 24.0]], "fill": "#25282d", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-140.0, -26.0], [-110.0, -40.0], [-70.0, -38.0], [-40.0, -50.0], [0.0, -46.0], [40.0, -52.0], [80.0, -44.0], [120.0, -48.0], [160.0, -40.0], [130.0, -36.0], [80.0, -32.0], [40.0, -38.0], [0.0, -32.0], [-40.0, -36.0], [-80.0, -26.0], [-120.0, -24.0]], "fill": "#43474f", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-110.0, 18.0], [-60.0, 8.0], [0.0, 12.0], [60.0, 6.0], [120.0, 10.0], [170.0, 14.0], [200.0, 20.0], [170.0, 32.0], [100.0, 28.0], [40.0, 34.0], [-20.0, 28.0], [-80.0, 32.0]], "fill": "#f4f4f0", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "spray", "x": 0, "y": -10, "r": 50, "color": "#141518", "density": 0.2},
+  {"type": "curve", "points": [[-90.0, -34.0], [-80.0, -16.0], [-94.0, 2.0]], "width": 2, "color": "#141518"},
+  {"type": "curve", "points": [[-30.0, -34.0], [-20.0, -16.0], [-34.0, 2.0]], "width": 2, "color": "#141518"},
+  {"type": "curve", "points": [[30.0, -34.0], [40.0, -16.0], [26.0, 2.0]], "width": 2, "color": "#141518"},
+  {"type": "curve", "points": [[90.0, -34.0], [100.0, -16.0], [86.0, 2.0]], "width": 2, "color": "#141518"},
+  {"type": "curve", "points": [[150.0, -34.0], [160.0, -16.0], [146.0, 2.0]], "width": 2, "color": "#141518"},
+  {"type": "line", "points": [[-100.0, 6.0], [40.0, 4.0]], "width": 4, "color": "#4a4a4a"},
+  {"type": "line", "points": [[-96.0, 4.0], [36.0, 2.0]], "width": 2, "color": "#d0d0d0", "dash": [4, 6]},
+  {"type": "line", "points": [[40.0, 4.0], [110.0, -12.0]], "width": 4, "color": "#4a4a4a"},
+  {"type": "line", "points": [[40.0, 4.0], [112.0, 18.0]], "width": 4, "color": "#4a4a4a"},
+  {"type": "poly", "points": [[46.0, 4.0], [106.0, -8.0], [108.0, 14.0]], "fill": "#141518", "width": 0, "color": "#000000", "smooth": false, "outline": false},
+  {"type": "rect", "x": 34, "y": 4, "w": 12, "h": 18, "fill": "#d0d0d0", "width": 2, "color": "#000000"},
+  {"type": "poly", "points": [[-150.0, 0.0], [-140.0, -26.0], [-110.0, -40.0], [-70.0, -38.0], [-40.0, -50.0], [0.0, -46.0], [40.0, -52.0], [80.0, -44.0], [120.0, -48.0], [160.0, -40.0], [196.0, -30.0], [220.0, -12.0], [226.0, 8.0], [214.0, 26.0], [170.0, 34.0], [100.0, 30.0], [40.0, 36.0], [-20.0, 30.0], [-80.0, 34.0], [-130.0, 24.0]], "fill": null, "width": 5, "color": "#000000", "smooth": true},
+  {"type": "ellipse", "x": 186.0, "y": -6.0, "rx": 26, "ry": 14, "fill": "#f4f4f0", "width": 3, "color": "#000000"},
+  {"type": "line", "points": [[176.0, -14.0], [192.0, 2.0]], "width": 4, "color": "#000000"},
+  {"type": "line", "points": [[192.0, -14.0], [176.0, 2.0]], "width": 4, "color": "#000000"},
+  {"type": "poly", "points": [[30.0, -46.0], [6.0, -58.0], [-40.0, -66.0], [-90.0, -64.0], [-104.0, -56.0], [-70.0, -52.0], [-30.0, -50.0], [-6.0, -44.0]], "fill": "#25282d", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "curve", "points": [[20.0, -50.0], [-30.0, -58.0], [-90.0, -60.0]], "width": 2, "color": "#6a6f78", "dash": [6, 6]},
+  {"type": "poly", "points": [[100.0, 26.0], [126.0, 38.0], [150.0, 40.0], [140.0, 30.0], [120.0, 22.0]], "fill": "#25282d", "width": 4, "color": "#000000", "smooth": true}
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "name": "pilot_whale_head",
+ "description": "A long-finned pilot whale's round head surfacing beside a boat, side-on facing right: charcoal #2e3138 melon and top of the head out of the water with grey highlight, blowhole, small plain eye at (+60,-70) with a flat deadpan lid, mouth below the water, white ripple round it at the waterline. Anchor bottom-centre on the waterline; bbox x -150..+150 (head x -122..+124), y -148..+18.",
+ "anchor": [0, 0],
+ "tags": ["pilot whale", "whale", "head", "surface", "058"],
+ "elements": [
+  {"type": "poly", "points": [[-122.0, 2.0], [-108.0, -34.0], [-76.0, -70.0], [-30.0, -100.0], [10.0, -116.0], [40.0, -136.0], [72.0, -148.0], [100.0, -140.0], [120.0, -116.0], [130.0, -82.0], [128.0, -44.0], [118.0, 2.0]], "fill": "#2e3138", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-100.0, -46.0], [-70.0, -86.0], [-24.0, -116.0], [24.0, -134.0], [60.0, -142.0], [88.0, -134.0], [60.0, -128.0], [20.0, -118.0], [-30.0, -98.0], [-70.0, -66.0]], "fill": "#4a4f58", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[70.0, -136.0], [98.0, -124.0], [114.0, -96.0], [116.0, -66.0], [104.0, -96.0], [88.0, -120.0]], "fill": "#5d636d", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "spray", "x": 80, "y": -110, "r": 28, "color": "#6a707a", "density": 0.2},
+  {"type": "spray", "x": -40, "y": -30, "r": 50, "color": "#1f2228", "density": 0.15},
+  {"type": "curve", "points": [[30.0, -126.0], [44.0, -120.0], [54.0, -128.0]], "width": 2, "color": "#1f2228"},
+  {"type": "poly", "points": [[-122.0, 2.0], [-108.0, -34.0], [-76.0, -70.0], [-30.0, -100.0], [10.0, -116.0], [40.0, -136.0], [72.0, -148.0], [100.0, -140.0], [120.0, -116.0], [130.0, -82.0], [128.0, -44.0], [118.0, 2.0]], "fill": null, "width": 5, "color": "#000000", "smooth": true},
+  {"type": "curve", "points": [[-16.0, -104.0], [-6.0, -98.0], [4.0, -106.0]], "width": 3, "color": "#000000"},
+  {"type": "ellipse", "x": 60.0, "y": -70.0, "rx": 7, "ry": 6, "fill": "#0d0d0d", "width": 3, "color": "#000000"},
+  {"type": "line", "points": [[48.0, -82.0], [72.0, -82.0]], "width": 3, "color": "#6a707a"},
+  {"type": "poly", "points": [[-150.0, 6.0], [-130.0, -2.0], [-100.0, 4.0], [-70.0, -2.0], [-40.0, 4.0], [0.0, -2.0], [40.0, 4.0], [70.0, -2.0], [100.0, 4.0], [130.0, -2.0], [150.0, 6.0], [128.0, 12.0], [90.0, 8.0], [40.0, 12.0], [-20.0, 8.0], [-80.0, 12.0], [-128.0, 10.0]], "fill": "#ffffff", "width": 0, "color": "#000000", "smooth": false, "outline": false, "silhouette_keep": true},
+  {"type": "line", "points": [[-142.0, 18.0], [-122.0, 18.0]], "width": 4, "color": "#ffffff", "silhouette_keep": true},
+  {"type": "line", "points": [[-50.0, 18.0], [-14.0, 18.0]], "width": 4, "color": "#ffffff", "silhouette_keep": true},
+  {"type": "line", "points": [[40.0, 18.0], [76.0, 18.0]], "width": 4, "color": "#ffffff", "silhouette_keep": true},
+  {"type": "line", "points": [[118.0, 18.0], [140.0, 18.0]], "width": 4, "color": "#ffffff", "silhouette_keep": true}
+ ]
+}

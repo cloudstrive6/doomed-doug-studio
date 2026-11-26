@@ -1,0 +1,17 @@
+{
+ "name": "dive_mask",
+ "description": "Dive mask pushed up as if on a forehead, seen from the front: oval blue #3a7ad9 frame with nose pocket, pale glass with white glints, black strap ends and buckles at both sides. Anchor centre; bbox x -76..+76, y -36..+40.",
+ "anchor": [0, 0],
+ "tags": ["dive mask", "mask", "diving", "prop", "058"],
+ "elements": [
+  {"type": "curve", "points": [[-72.0, 4.0], [-58.0, 0.0], [-48.0, -2.0]], "width": 10, "color": "#000000"},
+  {"type": "curve", "points": [[72.0, 4.0], [58.0, 0.0], [48.0, -2.0]], "width": 10, "color": "#000000"},
+  {"type": "rect", "x": -70, "y": -4, "w": 8, "h": 14, "fill": "#3a3a3a", "width": 2, "color": "#000000"},
+  {"type": "rect", "x": 62, "y": -4, "w": 8, "h": 14, "fill": "#3a3a3a", "width": 2, "color": "#000000"},
+  {"type": "poly", "points": [[-52.0, -30.0], [0.0, -36.0], [52.0, -30.0], [60.0, -6.0], [54.0, 22.0], [22.0, 30.0], [10.0, 38.0], [0.0, 40.0], [-10.0, 38.0], [-22.0, 30.0], [-54.0, 22.0], [-60.0, -6.0]], "fill": "#3a7ad9", "width": 5, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-40.0, -20.0], [0.0, -24.0], [40.0, -20.0], [44.0, 0.0], [40.0, 16.0], [16.0, 20.0], [0.0, 26.0], [-16.0, 20.0], [-40.0, 16.0], [-44.0, 0.0]], "fill": "#d6eef7", "width": 3, "color": "#000000", "smooth": true},
+  {"type": "line", "points": [[-26.0, -12.0], [-8.0, 6.0]], "width": 4, "color": "#ffffff"},
+  {"type": "line", "points": [[-14.0, -14.0], [-2.0, -2.0]], "width": 3, "color": "#ffffff"},
+  {"type": "poly", "points": [[-52.0, -30.0], [0.0, -36.0], [52.0, -30.0], [40.0, -26.0], [0.0, -30.0], [-40.0, -26.0]], "fill": "#6aa0ee", "width": 0, "color": "#000000", "smooth": true, "outline": false}
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "name": "longline_hook",
+ "description": "Empty grey steel longline J hook (same shape as tuna_head_hook's hook, scaled up): ring eye at the top, straight shank, round bend and barbed point. Anchor = tie point at the top of the hook eye (0,0); hook hangs down to y +122; bbox x -9..+50, y 0..+122. The branch line is drawn by the shotlist above (0,0).",
+ "anchor": [0, 0],
+ "tags": ["hook", "longline", "fishing", "prop", "058"],
+ "elements": [
+  {"type": "ellipse", "x": 0.0, "y": 9.0, "rx": 8, "ry": 8, "fill": null, "width": 5, "color": "#5a6068"},
+  {"type": "line", "points": [[0.0, 17.0], [0.0, 88.0]], "width": 8, "color": "#000000"},
+  {"type": "line", "points": [[0.0, 17.0], [0.0, 88.0]], "width": 5, "color": "#9aa1a9"},
+  {"type": "curve", "points": [[0.0, 84.0], [5.0, 108.0], [26.0, 118.0], [42.0, 102.0], [42.0, 80.0]], "width": 8, "color": "#000000"},
+  {"type": "curve", "points": [[0.0, 84.0], [5.0, 108.0], [26.0, 118.0], [42.0, 102.0], [42.0, 80.0]], "width": 5, "color": "#9aa1a9"},
+  {"type": "poly", "points": [[42.0, 72.0], [34.0, 90.0], [50.0, 90.0]], "fill": "#9aa1a9", "width": 3, "color": "#000000", "smooth": false},
+  {"type": "line", "points": [[2.0, 30.0], [2.0, 76.0]], "width": 2, "color": "#d8dde2"}
+ ]
+}

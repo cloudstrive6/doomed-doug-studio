@@ -1,0 +1,31 @@
+{
+ "name": "who_ran_board",
+ "description": "058 WHO RAN scoreboard (episode HUD, staging only): small wide chalkboard in the lion_hyena_scoreboard construction (brown wooden frame, dark green #2f5a3a board, ledge with chalk and eraser), no crack, no paw prints. Chalk-white #f4f4ec bold ComicNeue lettering: WHO RAN centred (0,-108); PILOT WHALES centred (-146,-58) and EVERYONE ELSE centred (+146,-58); chalk underline at y -34 (x -280..280); divider x=0 from y -80 to +130. Tally zones left empty: left x -270..-20, right x +20..+270, y -20..+125 (red ORCAS goes about (+150,+58) at the boss). Centre anchor; x -308..+308, y -150..+156. Built to read at scale 0.55.",
+ "anchor": [0, 0],
+ "tags": ["device", "scoreboard", "chalkboard", "hud", "058"],
+ "elements": [
+  {"type": "rect", "x": -300, "y": -150, "w": 600, "h": 290, "fill": "#8a4a24", "width": 5, "color": "#000000"},
+  {"type": "rect", "x": -294, "y": -144, "w": 588, "h": 6, "fill": "#a0582d", "width": 0, "color": "#000000", "outline": false},
+  {"type": "curve", "points": [[-280.0, -146.0], [-215.0, -144.0], [-150.0, -146.0]], "width": 2, "color": "#5c2f16"},
+  {"type": "curve", "points": [[-60.0, -147.0], [10.0, -145.0], [80.0, -147.0]], "width": 2, "color": "#5c2f16"},
+  {"type": "curve", "points": [[150.0, -146.0], [215.0, -144.0], [280.0, -146.0]], "width": 2, "color": "#5c2f16"},
+  {"type": "curve", "points": [[-294.0, -120.0], [-292.0, -70.0], [-294.0, -20.0]], "width": 2, "color": "#5c2f16"},
+  {"type": "curve", "points": [[294.0, -120.0], [296.0, -70.0], [294.0, -20.0]], "width": 2, "color": "#5c2f16"},
+  {"type": "curve", "points": [[-294.0, 20.0], [-292.0, 65.0], [-294.0, 110.0]], "width": 2, "color": "#5c2f16"},
+  {"type": "curve", "points": [[294.0, 20.0], [296.0, 65.0], [294.0, 110.0]], "width": 2, "color": "#5c2f16"},
+  {"type": "rect", "x": -286, "y": -138, "w": 572, "h": 270, "fill": "#2f5a3a", "width": 4, "color": "#000000"},
+  {"type": "rect", "x": -283, "y": -135, "w": 566, "h": 8, "fill": "#264c30", "width": 0, "color": "#000000", "outline": false},
+  {"type": "spray", "x": -150, "y": 40, "r": 90, "color": "#4a7556", "density": 0.1},
+  {"type": "spray", "x": 160, "y": 60, "r": 90, "color": "#4d7a59", "density": 0.1},
+  {"type": "spray", "x": 0, "y": -100, "r": 60, "color": "#55836a", "density": 0.08},
+  {"type": "poly", "points": [[-296.0, 132.0], [296.0, 132.0], [308.0, 146.0], [-308.0, 146.0]], "fill": "#a0582d", "width": 4, "color": "#000000", "smooth": false},
+  {"type": "rect", "x": -308, "y": 146, "w": 616, "h": 10, "fill": "#7a4220", "width": 4, "color": "#000000"},
+  {"type": "rect", "x": -250, "y": 136, "w": 34, "h": 8, "fill": "#ffffff", "width": 2, "color": "#000000"},
+  {"type": "rect", "x": 196, "y": 134, "w": 60, "h": 12, "fill": "#c9a06a", "width": 3, "color": "#000000"},
+  {"type": "text", "text": "WHO RAN", "x": 0, "y": -108, "size": 54, "color": "#f4f4ec", "bold": true, "font": "ComicNeue-Bold", "boil": 0.5},
+  {"type": "text", "text": "PILOT WHALES", "x": -146, "y": -58, "size": 34, "color": "#f4f4ec", "bold": true, "font": "ComicNeue-Bold", "boil": 0.5},
+  {"type": "text", "text": "EVERYONE ELSE", "x": 146, "y": -58, "size": 32, "color": "#f4f4ec", "bold": true, "font": "ComicNeue-Bold", "boil": 0.5},
+  {"type": "line", "points": [[-280.0, -34.0], [280.0, -34.0]], "width": 4, "color": "#f4f4ec", "boil": 0.5},
+  {"type": "line", "points": [[0.0, -80.0], [0.0, 130.0]], "width": 4, "color": "#f4f4ec", "boil": 0.5}
+ ]
+}

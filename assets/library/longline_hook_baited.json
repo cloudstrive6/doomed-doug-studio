@@ -1,0 +1,22 @@
+{
+ "name": "longline_hook_baited",
+ "description": "The same grey steel longline J hook as longline_hook with a small silver baitfish (blue-grey back, silver flank, eye) threaded on the bend, the barbed point poking up out of its back. Anchor = tie point at the top of the hook eye (0,0); bbox x -48..+56, y 0..+112. No hooked whales.",
+ "anchor": [0, 0],
+ "tags": ["hook", "longline", "fishing", "bait", "prop", "058"],
+ "elements": [
+  {"type": "ellipse", "x": 0.0, "y": 9.0, "rx": 8, "ry": 8, "fill": null, "width": 5, "color": "#5a6068"},
+  {"type": "line", "points": [[0.0, 17.0], [0.0, 88.0]], "width": 8, "color": "#000000"},
+  {"type": "line", "points": [[0.0, 17.0], [0.0, 88.0]], "width": 8, "color": "#000000"},
+  {"type": "line", "points": [[0.0, 17.0], [0.0, 88.0]], "width": 5, "color": "#9aa1a9"},
+  {"type": "poly", "points": [[-34.0, 96.0], [-48.0, 84.0], [-44.0, 96.0], [-48.0, 108.0]], "fill": "#aab4c0", "width": 3, "color": "#000000", "smooth": false},
+  {"type": "poly", "points": [[-38.0, 96.0], [-20.0, 84.0], [10.0, 80.0], [36.0, 86.0], [54.0, 96.0], [36.0, 106.0], [10.0, 110.0], [-20.0, 106.0]], "fill": "#d4dbe3", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-20.0, 84.0], [10.0, 80.0], [36.0, 86.0], [50.0, 94.0], [20.0, 92.0], [-10.0, 92.0], [-30.0, 94.0]], "fill": "#6f8aa6", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "spray", "x": 10, "y": 100, "r": 14, "color": "#ffffff", "density": 0.3},
+  {"type": "poly", "points": [[-38.0, 96.0], [-20.0, 84.0], [10.0, 80.0], [36.0, 86.0], [54.0, 96.0], [36.0, 106.0], [10.0, 110.0], [-20.0, 106.0]], "fill": null, "width": 3, "color": "#000000", "smooth": true},
+  {"type": "ellipse", "x": 40.0, "y": 94.0, "rx": 3, "ry": 3, "fill": "#111111", "width": 0, "color": "#000000", "outline": false},
+  {"type": "curve", "points": [[28.0, 86.0], [30.0, 96.0], [28.0, 104.0]], "width": 2, "color": "#5a6068"},
+  {"type": "curve", "points": [[42.0, 92.0], [42.0, 76.0]], "width": 8, "color": "#000000"},
+  {"type": "curve", "points": [[42.0, 92.0], [42.0, 76.0]], "width": 5, "color": "#9aa1a9"},
+  {"type": "poly", "points": [[42.0, 68.0], [34.0, 86.0], [50.0, 86.0]], "fill": "#9aa1a9", "width": 3, "color": "#000000", "smooth": false}
+ ]
+}

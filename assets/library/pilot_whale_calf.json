@@ -1,0 +1,24 @@
+{
+ "name": "pilot_whale_calf",
+ "description": "Newborn long-finned pilot whale, side view facing right, drawn plain (documentary, not cute): short stubby paler grey-black #4a4f58 body, small round melon, faint pale fetal-fold bands across the flank, small floppy bent-over dorsal fin, small sickle flipper, flukes at the left, plain small dot eye (no sparkle), short straight closed mouth. Anchor centre; bbox x -160..+155, y -64..+56. Tucks against orca_female's lower flank (orca x -60, y +105 at 0.75).",
+ "anchor": [0, 0],
+ "tags": ["pilot whale", "whale", "calf", "baby", "058"],
+ "elements": [
+  {"type": "poly", "points": [[-112.0, -3.0], [-130.0, -18.0], [-150.0, -36.0], [-160.0, -40.0], [-156.0, -22.0], [-142.0, -6.0], [-138.0, 0.0], [-142.0, 6.0], [-156.0, 22.0], [-160.0, 40.0], [-150.0, 36.0], [-130.0, 18.0], [-112.0, 3.0]], "fill": "#4a4f58", "width": 4, "color": "#000000", "smooth": false},
+  {"type": "curve", "points": [[-118.0, 0.0], [-140.0, 0.0]], "width": 2, "color": "#3a3e46"},
+  {"type": "poly", "points": [[36.0, -42.0], [24.0, -56.0], [6.0, -64.0], [-10.0, -60.0], [-20.0, -52.0], [-8.0, -50.0], [2.0, -46.0], [-4.0, -38.0]], "fill": "#4a4f58", "width": 4, "color": "#000000", "smooth": true},
+  {"type": "poly", "points": [[-120.0, -6.0], [-80.0, -22.0], [-30.0, -36.0], [30.0, -44.0], [80.0, -46.0], [112.0, -44.0], [134.0, -34.0], [150.0, -18.0], [154.0, -2.0], [150.0, 10.0], [138.0, 18.0], [110.0, 28.0], [60.0, 40.0], [0.0, 46.0], [-50.0, 38.0], [-92.0, 20.0], [-120.0, 6.0]], "fill": "#4a4f58", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[138.0, 18.0], [110.0, 30.0], [60.0, 42.0], [0.0, 48.0], [-50.0, 40.0], [-92.0, 20.0], [-40.0, 28.0], [10.0, 32.0], [70.0, 28.0], [120.0, 16.0]], "fill": "#3a3e46", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "poly", "points": [[-80.0, -18.0], [-30.0, -32.0], [30.0, -40.0], [80.0, -42.0], [112.0, -40.0], [130.0, -32.0], [100.0, -34.0], [40.0, -30.0], [-30.0, -22.0]], "fill": "#5d636d", "width": 0, "color": "#000000", "smooth": true, "outline": false},
+  {"type": "curve", "points": [[-52.0, -26.0], [-56.0, 0.0], [-52.0, 26.0]], "width": 3, "color": "#7a8088"},
+  {"type": "curve", "points": [[-22.0, -26.0], [-26.0, 0.0], [-22.0, 26.0]], "width": 3, "color": "#7a8088"},
+  {"type": "curve", "points": [[8.0, -26.0], [4.0, 0.0], [8.0, 26.0]], "width": 3, "color": "#7a8088"},
+  {"type": "curve", "points": [[38.0, -26.0], [34.0, 0.0], [38.0, 26.0]], "width": 3, "color": "#7a8088"},
+  {"type": "curve", "points": [[68.0, -26.0], [64.0, 0.0], [68.0, 26.0]], "width": 3, "color": "#7a8088"},
+  {"type": "spray", "x": 0, "y": 0, "r": 50, "color": "#3a3e46", "density": 0.12},
+  {"type": "poly", "points": [[-120.0, -6.0], [-80.0, -22.0], [-30.0, -36.0], [30.0, -44.0], [80.0, -46.0], [112.0, -44.0], [134.0, -34.0], [150.0, -18.0], [154.0, -2.0], [150.0, 10.0], [138.0, 18.0], [110.0, 28.0], [60.0, 40.0], [0.0, 46.0], [-50.0, 38.0], [-92.0, 20.0], [-120.0, 6.0]], "fill": null, "width": 4, "color": "#000000", "smooth": true},
+  {"type": "line", "points": [[151.0, 7.0], [136.0, 10.0]], "width": 3, "color": "#000000"},
+  {"type": "poly", "points": [[104.0, 26.0], [96.0, 40.0], [78.0, 50.0], [52.0, 56.0], [64.0, 46.0], [82.0, 34.0], [90.0, 26.0]], "fill": "#4a4f58", "width": 3, "color": "#000000", "smooth": true},
+  {"type": "ellipse", "x": 118.0, "y": -8.0, "rx": 4, "ry": 4, "fill": "#0d0d0d", "width": 0, "color": "#000000", "outline": false}
+ ]
+}
