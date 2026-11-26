@@ -711,6 +711,16 @@ def _draw_meg(frame, m, s2w, z, t_abs, spec):
 
 def _draw_prop(frame, pr, s2w, z, t_abs):
     pid = pr["id"]
+    if pid.startswith("lib:"):   # any asset from the episode art library (studio/toon_lib.py)
+        from . import toon_lib
+        img, org = toon_lib.sprite(pid[4:], round(pr.get("scale", 1.0) * z, 3), pr.get("facing", 1) < 0)
+        if pr.get("rot"):
+            img = img.rotate(pr["rot"], resample=Image.BICUBIC, expand=True)
+            org = (img.width / 2, img.height / 2)
+        bob = math.sin(t_abs * pr.get("bob", 0) * 2) * 8 * z if pr.get("bob") else 0
+        px, py = s2w(pr["x"], pr["y"])
+        T.paste(frame, img, org, (px, py + bob))
+        return
     fn, bbox = P.PROP_DRAW.get(pid, (None, None))
     if fn is None:
         fn, bbox = S.EXTRA_PROPS.get(pid, (None, None))

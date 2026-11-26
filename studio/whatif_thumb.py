@@ -125,15 +125,89 @@ def concept_c(looks, label="IT'S A BABY"):
     return img
 
 
+def _prop(img, pid, scale, at, flip=False, rot=0, **kw):
+    if pid.startswith("lib:"):
+        from . import toon_lib
+        spr, org = toon_lib.sprite(pid[4:], scale, flip)
+        if rot:
+            spr = spr.rotate(rot, resample=Image.BICUBIC, expand=True)
+            org = (spr.width / 2, spr.height / 2)
+        T.paste(img, spr, org, at)
+        return
+    fn, bbox = P.PROP_DRAW.get(pid, (None, None))
+    if fn is None:
+        fn, bbox = S.EXTRA_PROPS.get(pid, (None, None))
+    if fn is None:
+        raise SystemExit(f"thumbs.json: unknown prop '{pid}'")
+    spr, org = T.sprite(lambda p: fn(p, **kw), bbox, scale, flip)
+    if rot:
+        spr = spr.rotate(rot, resample=Image.BICUBIC, expand=True)
+        org = (spr.width / 2, spr.height / 2)
+    T.paste(img, spr, org, at)
+
+
+def _layers(img, layers, looks):
+    for L in layers:
+        k = dict(L)
+        t = k.pop("type")
+        if t == "char":
+            who = k.pop("who")
+            _char(img, looks[who], k.pop("pose", "stand"), k.pop("scale", 1.0), tuple(k.pop("at")), k.pop("flip", False),
+                  k.pop("holds", None), **k)
+        elif t == "meg":
+            _meg(img, k.pop("scale", 1.0), tuple(k.pop("at")), k.pop("flip", False), k.pop("rot", 0), **k)
+        elif t == "prop":
+            _prop(img, k.pop("id"), k.pop("scale", 1.0), tuple(k.pop("at")), k.pop("flip", False), k.pop("rot", 0), **k)
+        elif t == "water":
+            _water(img, k["y"], k.get("alpha", 255), k.get("h"))
+        elif t == "tint":
+            img.alpha_composite(Image.new("RGBA", img.size, tuple(k["rgba"])))
+        elif t == "label":
+            _label(img, k["text"], k["x"], k["y"], k.get("size", 150), k.get("rot", -5), k.get("col", YEL), k.get("stroke", NAVY))
+        elif t == "arrow":
+            _arrow(img, tuple(k["p0"]), tuple(k["p1"]), k.get("col", RED))
+        else:
+            raise SystemExit(f"thumbs.json: unknown layer type '{t}'")
+
+
+def from_spec(spec, looks):
+    """One thumbnail from a JSON spec. Either a single scene:
+      {"set": "backyard", "cam": [cx, cy, zoom], "layers": [...]}
+    or a before/after split: {"split": [<half spec>, <half spec>], "layers": [labels drawn over the whole image]}.
+    Layer types: char (who, pose, scale, at [x, y], flip, holds, eyes, brows, mouth), meg (scale, at, flip, rot, jaw,
+    mood, pup, t, swim), prop (id, scale, at, flip, rot), water (y, alpha, h), tint (rgba), label (text, x, y, size,
+    rot, col, stroke), arrow (p0, p1, col). Coordinates are on the 1280x720 canvas."""
+    if "split" in spec:
+        img = Image.new("RGBA", (TW, TH))
+        for i, half in enumerate(spec["split"][:2]):
+            im = _bg(half["set"], *half.get("cam", [960, 540, 1.3]))
+            _layers(im, half.get("layers", []), looks)
+            img.paste(im.crop((TW // 4, 0, TW // 4 + TW // 2, TH)), (i * TW // 2, 0))
+        d = ImageDraw.Draw(img, "RGBA")
+        d.line([(TW // 2, 0), (TW // 2, TH)], fill=T.rgba("#ffffff"), width=14)
+        d.line([(TW // 2, 0), (TW // 2, TH)], fill=T.INK, width=5)
+    else:
+        img = _bg(spec["set"], *spec.get("cam", [960, 540, 1.25]))
+    _layers(img, spec.get("layers", []), looks)
+    return img
+
+
 def main(pdir: Path, labels):
     raw = json.loads((pdir / "cast_looks.json").read_text(encoding="utf-8"))
     looks = {k: T.Look(**{a: b for a, b in v.items() if not a.startswith("_")}) for k, v in raw.items()}
     looks.setdefault("doug", T.CAST_LOOKS["doug"])
     out = pdir / "thumbs"
     out.mkdir(exist_ok=True)
-    la = labels + [None] * 3
-    fns = {"A": lambda: concept_a(looks, la[0] or "MY PET"), "B": lambda: concept_b(looks, la[1] or "DAY 12"),
-           "C": lambda: concept_c(looks, la[2] or "IT'S A BABY")}
+    stg = pdir / "staging.json"
+    if stg.exists():
+        S.register_aliases(json.loads(stg.read_text(encoding="utf-8")).get("aliases", {}))
+    if (pdir / "thumbs.json").exists():   # CI episodes: three variants described as data
+        specs = json.loads((pdir / "thumbs.json").read_text(encoding="utf-8"))
+        fns = {n: (lambda s=specs[n]: from_spec(s, looks)) for n in "ABC"}
+    else:                                 # pilot w01 concepts
+        la = labels + [None] * 3
+        fns = {"A": lambda: concept_a(looks, la[0] or "MY PET"), "B": lambda: concept_b(looks, la[1] or "DAY 12"),
+               "C": lambda: concept_c(looks, la[2] or "IT'S A BABY")}
     for name, fn in fns.items():
         im = fn().convert("RGB")
         im.save(out / f"thumb_{name}.png")

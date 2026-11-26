@@ -13,3 +13,8 @@ compilations/*/build/
 .compilation
 pilots/*/build/
 pilots/*/shorts/*/build/
+whatif/*/build/
+whatif/*/shorts/*/build/
+whatif/*/thumbs/
+.current_whatif
+claude_*.jsonl

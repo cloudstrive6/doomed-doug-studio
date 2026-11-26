@@ -15,6 +15,8 @@ After each major step, commit your progress: `git add -A && git commit -m "<id>:
 (the workflow pushes at the end).
 
 ## 0. Pick up or start
+- Ignore `whatif/` and any episode whose `metadata.json` `format` starts with `what-if`: the What If workflow
+  (`.github/workflows/whatif.yml`) owns them.
 - Run `python -m studio status`. If an episode is at `packaged`, `built` or `qc_passed` (finished creative work
   but not uploaded), do NOT start a new one: write its id to `.current_episode` and end your turn; the workflow
   renders, screens and uploads it next.

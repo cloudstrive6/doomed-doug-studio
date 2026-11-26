@@ -1,0 +1,10 @@
+{
+ "floor": 3.5,
+ "note": "Bryce 2026-11-27: each What If video must score at least the previous one in the independent review, goal 5 of 5. whatif_ci.py gate reads and appends this file.",
+ "episodes": [
+  {"id": "w01-pet-megalodon", "episode": "059-whatif-baby-megalodon-pool", "score": 3.5,
+   "scores": {"hook": 3.5, "clarity": 3.5, "polish": 3.5, "pacing": 3, "story": 4, "packaging": 3.5},
+   "round": 4, "shorts": {"short01": 3.6, "short02": 3.6, "short03": 3.9}, "date": "2026-11-27", "status": "uploaded",
+   "reasons": []}
+ ]
+}

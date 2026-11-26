@@ -229,6 +229,10 @@ def check(pdir: Path) -> dict:
                 f"card '{c['card'].get('head', '')}' is up {c['t1'] - c['t0']:.1f} s")
     # said but not shown
     drawable = set(P.PROP_DRAW) | set(HP.HELD) | set(getattr(S, "EXTRA_PROPS", {}))
+    lib_ids = {p.get("id") for sc in staging["scenes"].values() for p in sc.get("props", []) if str(p.get("id", "")).startswith("lib:")}
+    for lid in lib_ids:   # a library prop counts for its own name ("lib:mosquito" covers "mosquito")
+        PROP_WORDS.setdefault(lid, [lid[4:].replace("_", " ")])
+    drawable |= lib_ids
     for lid, ln in lines.items():
         st = staging["scenes"].get(ln["scene"], {})
         present = {p.get("id") for p in st.get("props", [])}

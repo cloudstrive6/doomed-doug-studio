@@ -1,0 +1,152 @@
+name: Produce What If episode
+
+# New Doomed Doug format (approved 2026-11-27). Manual only until Bryce approves switching the daily tick to it.
+#   create  : agents write, stage and check the episode in whatif/<slug>/ (pipeline/prompts/produce_whatif.md)
+#   round 1 : render, thumbnails, Shorts, independent review, score gate (pipeline/whatif_round.sh)
+#   round 2, 3 : only if the gate held it: fixer, re-render, re-review, gate
+#   upload  : after a passed gate (unless skip_upload); YouTube Test & Compare (A/B/C) is a Studio step, see Telegram
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Resume this whatif/<slug> folder (skips create)"
+        default: ""
+      skip_upload:
+        description: "Stop after the gate (no upload)"
+        type: boolean
+        default: true
+
+concurrency:
+  group: produce          # shared with produce.yml: never two productions at once (episode numbers, queue)
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  GH_TOKEN: ${{ github.token }}
+  CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+  ANTHROPIC_API_KEY_BACKUP: ${{ secrets.ANTHROPIC_API_KEY }}
+  GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+  YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+  YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+  YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+  RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+  SAVE: 'git add -A whatif data channel studio episodes && (git commit -q -m "whatif ${{ github.job }} progress" || true) && git pull -q --rebase -X theirs && git push -q'
+
+jobs:
+  create:
+    if: ${{ inputs.slug == '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    outputs:
+      slug: ${{ steps.a.outputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, ref: main }
+      - uses: ./.github/actions/whatif-setup
+      - id: a
+        name: "Agents write, stage and check the episode"
+        run: |
+          rm -f .current_whatif
+          bash pipeline/claude_run.sh claude_create.jsonl 700 "$(cat pipeline/prompts/produce_whatif.md)"
+          test -s .current_whatif || { echo "the showrunner did not hand over a folder"; exit 1; }
+          echo "slug=$(cat .current_whatif)" >> "$GITHUB_OUTPUT"
+      - name: Save progress
+        if: always()
+        run: eval "$SAVE"
+      - uses: actions/cache/save@v4
+        if: always()
+        with: { path: .cache/tts, key: "tts-whatif-${{ github.run_id }}-create" }
+      - name: Alert on failure
+        if: failure()
+        run: |
+          python -m studio notify "❌ What If create failed. Log: $RUN_URL"
+
+  round1:
+    needs: create
+    if: ${{ always() && (needs.create.result == 'success' || inputs.slug != '') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    outputs:
+      passed: ${{ steps.r.outputs.passed }}
+      episode: ${{ steps.r.outputs.episode }}
+      slug: ${{ steps.s.outputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, ref: main }
+      - uses: ./.github/actions/whatif-setup
+      - id: s
+        run: echo "slug=${{ inputs.slug || needs.create.outputs.slug }}" >> "$GITHUB_OUTPUT"
+      - id: r
+        name: "Round 1: render, review, gate"
+        run: SLUG=${{ steps.s.outputs.slug }} ROUND=1 bash pipeline/whatif_round.sh
+      - name: Upload
+        if: ${{ steps.r.outputs.passed == 'true' && !inputs.skip_upload }}
+        run: bash pipeline/whatif_upload.sh "${{ steps.r.outputs.episode }}"
+      - name: Save progress
+        if: always()
+        run: eval "$SAVE"
+      - uses: actions/cache/save@v4
+        if: always()
+        with: { path: .cache/tts, key: "tts-whatif-${{ github.run_id }}-r1" }
+      - name: Alert on failure
+        if: failure()
+        run: |
+          python -m studio notify "❌ What If round 1 failed (${{ steps.s.outputs.slug }}). Log: $RUN_URL"
+
+  round2:
+    needs: round1
+    if: ${{ always() && needs.round1.result == 'success' && needs.round1.outputs.passed == 'false' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    outputs:
+      passed: ${{ steps.r.outputs.passed }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, ref: main }
+      - uses: ./.github/actions/whatif-setup
+      - id: r
+        name: "Round 2: fix, render, review, gate"
+        run: SLUG=${{ needs.round1.outputs.slug }} ROUND=2 bash pipeline/whatif_round.sh
+      - name: Upload
+        if: ${{ steps.r.outputs.passed == 'true' && !inputs.skip_upload }}
+        run: bash pipeline/whatif_upload.sh "${{ steps.r.outputs.episode }}"
+      - name: Save progress
+        if: always()
+        run: eval "$SAVE"
+      - uses: actions/cache/save@v4
+        if: always()
+        with: { path: .cache/tts, key: "tts-whatif-${{ github.run_id }}-r2" }
+      - name: Alert on failure
+        if: failure()
+        run: |
+          python -m studio notify "❌ What If round 2 failed (${{ needs.round1.outputs.slug }}). Log: $RUN_URL"
+
+  round3:
+    needs: [round1, round2]
+    if: ${{ always() && needs.round2.result == 'success' && needs.round2.outputs.passed == 'false' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0, ref: main }
+      - uses: ./.github/actions/whatif-setup
+      - id: r
+        name: "Round 3 (last): fix, render, review, gate"
+        run: SLUG=${{ needs.round1.outputs.slug }} ROUND=3 bash pipeline/whatif_round.sh
+      - name: Upload
+        if: ${{ steps.r.outputs.passed == 'true' && !inputs.skip_upload }}
+        run: bash pipeline/whatif_upload.sh "${{ steps.r.outputs.episode }}"
+      - name: Hold and tell Bryce
+        if: ${{ steps.r.outputs.passed != 'true' }}
+        run: |
+          python -m studio notify "✋ What If ${{ needs.round1.outputs.slug }} held after 3 review rounds: $(python -c "import json;s=json.load(open('whatif/${{ needs.round1.outputs.slug }}/state.json'));print(s['history'][-1]['note'][:300])"). Nothing uploaded. Log: $RUN_URL"
+      - name: Save progress
+        if: always()
+        run: eval "$SAVE"
+      - uses: actions/cache/save@v4
+        if: always()
+        with: { path: .cache/tts, key: "tts-whatif-${{ github.run_id }}-r3" }
