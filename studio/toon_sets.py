@@ -241,8 +241,12 @@ def b_harbor(view="day"):
     grad(img, 640, 1080, "#2f8fc4", "#1d6a9a")
     p = Pen(img, 0, 0, K * 2)
     cloud(p, 500, 140)
-    for x, h in ((100, 220), (300, 160), (1500, 260), (1700, 190)):
-        p.poly([(x, 500 - h), (x + 160, 500 - h), (x + 160, 500), (x, 500)], "#9aa8c0", ow=3)
+    from .toon_held import boathouse
+    for x, col, roof in ((180, "#c9d8e6", "#4a6fa5"), (560, "#f2e3c6", "#b5473a"), (1420, "#e6f2cf", "#3f7a5a"),
+                         (1760, "#f6d6d6", "#7a4a8a")):
+        p.push(x, 640, scale=0.9)
+        boathouse(p, col, roof)
+        p.pop()
     p.poly([(0, 640), (1920, 640), (1920, 760), (0, 760)], "#b88a5a", ow=4)
     for x in range(0, 1920, 90):
         p.line([(x, 640), (x, 760)], shade("#b88a5a", 0.8), 3, caps=False)
@@ -416,7 +420,7 @@ SETS = {
     "kitchen": (b_room, dict(kind="kitchen", wall_col="#fbe8c4"), 900, None),
     "backyard": (b_yard, dict(), 790, "pool"),
     "backyard_dusk": (b_yard, dict(view="dusk"), 790, "pool"),
-    "backyard_night": (b_yard, dict(view="night"), 790, "pool"),
+    "backyard_night": (b_yard, dict(view="night"), 790, "night"),
     "street": (b_street, dict(), 960, None),
     "beach": (b_beach, dict(), 900, "sea"),
     "beach_dusk": (b_beach, dict(view="dusk"), 900, "sea"),
@@ -431,7 +435,7 @@ SETS = {
     "news": (b_news, dict(), 900, None),
     "plain": (b_plain, dict(), 900, None),
     "backyard_storm": (b_yard, dict(view="night"), 790, "storm"),
-    "harbor_dusk": (b_harbor, dict(view="dusk"), 640, "harbor"),
+    "harbor_dusk": (b_harbor, dict(view="dusk"), 705, "harbor"),
     "reef_night": (b_ocean_surface, dict(view="night", reef=True), 700, "sea_night"),
     "sea_night": (b_ocean_surface, dict(view="night"), 700, "sea_night"),
     "beach_dawn": (b_beach, dict(view="dawn"), 900, "sea"),
@@ -502,7 +506,7 @@ def animate_layer(set_id, frame, t, s2w, z):
             x, y = s2w(wx, wy)
             ln = 40 * z
             d.line([(x, y), (x + ln, y)], fill=(255, 255, 255, 120 if kind != "sea_night" else 50), width=max(2, int(4 * z)))
-    if kind == "pool":
+    if kind in ("pool", "night"):
         for i in range(8):
             wx = 480 + ((i * 131 + t * 30) % 960)
             wy = 860 + (i * 23) % 150
@@ -523,6 +527,8 @@ def animate_layer(set_id, frame, t, s2w, z):
 
 def foreground_layer(set_id, frame, t, s2w, z):
     kind = SETS[_resolve(set_id)][3]
+    if kind in ("night", "storm"):
+        frame.alpha_composite(Image.new("RGBA", frame.size, (12, 18, 50, 95)))
     if kind == "under":
         over = Image.new("RGBA", frame.size, (40, 150, 210, 36))
         d = ImageDraw.Draw(over)

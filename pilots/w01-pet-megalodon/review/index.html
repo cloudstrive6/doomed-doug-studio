@@ -1,0 +1,613 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Doug What If Pilot</title>
+<style>
+:root{--bg:#0f1626;--card:#18233a;--ink:#eef2f8;--mute:#9fb0c8;--acc:#f6b73c;--red:#e0201b}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,Segoe UI,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:16px}
+h1{font-size:28px;margin:8px 0} h2{color:var(--acc);margin-top:32px}
+.card{background:var(--card);border-radius:14px;padding:16px;margin:12px 0}
+video{width:100%;border-radius:12px;background:#000}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.thumbs figure{margin:0} .thumbs img{width:100%;border-radius:10px} figcaption{color:var(--mute);font-size:14px}
+table{border-collapse:collapse;width:100%;font-size:14px} td,th{border-bottom:1px solid #2a3858;padding:6px;text-align:left;vertical-align:top}
+details summary{cursor:pointer;color:var(--acc);font-weight:600} code{color:#ffd28a}
+.ask{border-left:5px solid var(--red)}
+</style></head><body><main>
+<h1>Doomed Doug: What If pilot w01, Pet Megalodon</h1>
+<p style="color:var(--mute)">New format test, 2026-11-26. Nothing uploaded. Branch <code>whatif-pilot</code> of the studio repo.</p>
+<div class="card"><video controls preload="metadata" src="../build/final.mp4" poster="../thumbs/thumb_A.png"></video></div>
+<div class="card ask"><h2 style="margin-top:0">What I need from you</h2>
+<ol><li>Watch the pilot: approve it, or tell me what to change.</li><li>Pick a title and a thumbnail (options below).</li>
+<li>After approval: upload it as a normal episode, then switch the daily pipeline to this format (gate 3).</li></ol></div>
+<h2>Thumbnails</h2><div class="thumbs">
+<figure><img src="../thumbs/thumb_A.png"><figcaption>A: smug Doug, giant shark rising</figcaption></figure>
+<figure><img src="../thumbs/thumb_B.png"><figcaption>B: DAY 1 vs DAY 12 growth split</figcaption></figure>
+<figure><img src="../thumbs/thumb_C.png"><figcaption>C: the baby, with Tanner filming</figcaption></figure></div>
+<div class="card"><figure style="margin:0"><img src="../thumbs/sheet.jpg" style="width:100%;border-radius:10px">
+<figcaption>Bottom row: how they look at phone size</figcaption></figure></div>
+<h2>Titles, description and tags</h2><div class="card"><h3>w01 packaging: title, thumbnail, description, tags</h3>
+<p>Written 2026-11-26 with the yt-package skill (Jakeschincariol/youtube-agent-skill). Every title went through the skill&#x27;s <code>title.py</code> linter, and a word-level edit distance was measured against all 39 DOOMPERK titles in <code>Z:\Bryce-Brain\raw-sources\doomperk-teardown-2026-11\doomperk-videos.txt</code>. The working title &quot;What If You Had a PET Megalodon?&quot; is 1 word off &quot;What If You Had a PET Tornado?&quot; and is retired. The script&#x27;s H1 still carries it; change that line before render if the title card reads it.</p>
+<p>Rules applied: under 60 characters, &quot;What If&quot; question form, exactly one CAPS word, at least 4 words away from every DOOMPERK title, and no &quot;You Had a PET&quot; pattern. Thumbnail labels never repeat a title word.</p>
+<h4>1. Ten title candidates, ranked</h4>
+<p>Scores are 1 to 5. Search fit is measured against &quot;pet megalodon&quot;, &quot;baby megalodon&quot; and &quot;megalodon in pool&quot;. Distance is the word edit distance to the nearest DOOMPERK title (4 or more words off scores 4 at least; a &quot;pet&quot; plus creature echo costs a point).</p>
+<table><tr><th>Rank</th><th>Title</th><th>Chars</th><th>Curiosity</th><th>Clarity</th><th>Search fit</th><th>Distance</th><th>Total</th><th>Nearest DOOMPERK title (words off)</th><th>Linter</th></tr><tr><td>1</td><td>What If a Baby MEGALODON Lived in Your Pool for 30 Days?</td><td>56</td><td>5</td><td>5</td><td>5</td><td>5</td><td>20</td><td>SAITAMA Trained You for 100 Days (8)</td><td>100</td></tr><tr><td>2</td><td>What If a Baby MEGALODON Landed in Your Pool?</td><td>45</td><td>4</td><td>5</td><td>5</td><td>5</td><td>19</td><td>Every Girl Could See YOUR Rating (6)</td><td>84, no number</td></tr><tr><td>3</td><td>What If Your Pet MEGALODON Outgrew Your Pool in 12 Days?</td><td>56</td><td>5</td><td>5</td><td>5</td><td>4</td><td>19</td><td>Your CRUSH Was a Secret AGENT (8)</td><td>100</td></tr><tr><td>4</td><td>What If You Raised a Baby MEGALODON in Your Pool?</td><td>49</td><td>3</td><td>5</td><td>5</td><td>5</td><td>18</td><td>You Had a DOMAIN EXPANSION in Real Life (5)</td><td>84, no number</td></tr><tr><td>5</td><td>What If You Raised a Baby MEGALODON for 30 Days?</td><td>48</td><td>4</td><td>5</td><td>4</td><td>4</td><td>17</td><td>SAITAMA Trained You for 100 Days (6, same &quot;for N Days&quot; ending)</td><td>100</td></tr><tr><td>6</td><td>What If You Woke Up to a MEGALODON in Your Pool?</td><td>48</td><td>4</td><td>5</td><td>4</td><td>4</td><td>17</td><td>You Could CONTROL All Rats in Your City (6)</td><td>84, no number</td></tr><tr><td>7</td><td>What If a Storm Threw a MEGALODON in Your Pool?</td><td>47</td><td>4</td><td>4</td><td>4</td><td>5</td><td>17</td><td>You Could CONTROL All Rats in Your City (6)</td><td>84, no number</td></tr><tr><td>8</td><td>What If You Kept a Baby MEGALODON as a Pet?</td><td>43</td><td>3</td><td>5</td><td>5</td><td>3</td><td>16</td><td>You Had a DOMAIN EXPANSION in Real Life (6; &quot;pet&quot; framing echoes PET Tornado)</td><td>84, no number</td></tr><tr><td>9</td><td>What If Your Pool Shark Was a Baby MEGALODON?</td><td>45</td><td>4</td><td>3</td><td>4</td><td>4</td><td>15</td><td>Your CRUSH Was a Secret AGENT (4)</td><td>84, no number</td></tr><tr><td>10</td><td>What If a MEGALODON Pup Chose You as Its Owner?</td><td>47</td><td>4</td><td>3</td><td>2</td><td>5</td><td>14</td><td>SAITAMA Trained You for 100 Days (7)</td><td>84, no number</td></tr></table>
+<p>Every title runs past the 40 character mobile cut, but in each the subject (baby megalodon, pet megalodon) sits inside the first 40 characters, so the mobile feed still shows what the video is about.</p>
+<h4>2. Top 3 with thumbnails</h4>
+<p>The title and thumbnail are one unit: the label says what the title does not.</p>
+<table><tr><th>Rank</th><th>Title</th><th>Thumbnail</th><th>Label</th><th>Why the pair works</th></tr><tr><td>1</td><td>What If a Baby MEGALODON Lived in Your Pool for 30 Days?</td><td>A: smug Doug waist deep in his pool, the megalodon rising huge behind him</td><td>GOOD BOY</td><td>The title says baby; the image shows the shark is no longer small. The label is Doug&#x27;s proud owner line, and the gap between &quot;good boy&quot; and the teeth behind him is the click. Keep the shark at story scale (about 4 m, filling the pool), not a sea monster, so the thumbnail does not oversell.</td></tr><tr><td>2</td><td>What If a Baby MEGALODON Landed in Your Pool?</td><td>B: split, DAY 1 pup in the pool, DAY 12 the shark too big for the pool, water spilling</td><td>TOO BIG</td><td>The title gives the arrival; the split gives the problem it turns into. &quot;DAY 1&quot; and &quot;DAY 12&quot; stay as small corner tags; the big label is TOO BIG across the right panel.</td></tr><tr><td>3</td><td>What If Your Pet MEGALODON Outgrew Your Pool in 12 Days?</td><td>C: Doug in the pool with the pup while the influencer neighbour films in shock</td><td>FOR SALE</td><td>The title already says it outgrows the pool, so option B would repeat it. C adds the second threat: the neighbour wants to sell it. Put FOR SALE on the ring light phone screen or as a tag hung on the fence.</td></tr></table>
+<p>Thumbnail brief for the winner (A, GOOD BOY): Doug front left, waist deep, chin up, eyes half shut, smug grin, red cap; the shark&#x27;s head and open grin rise out of the water behind his right shoulder, its eyes big and friendly so it reads as a pet and not a kill. Background: bright blue pool and a hot yellow or orange sky, so the grey shark and red cap hold contrast at feed size. Label in heavy white letters with a black outline, top right, clear of the YouTube timestamp corner.</p>
+<h4>3. Description</h4>
+<p>Under 120 words (117).</p>
+<p><code>`</code></p>
+<p>A storm throws a two metre megalodon pup over your back fence and into your swimming pool. Now you have one fisheries officer, a neighbour who wants to sell it, and a shark that will not stop growing.</p>
+<p>What is real: every science card. Megalodon died out about 3.6 million years ago, its name means big tooth, and scientists still argue about its size, its speed and how big its babies were. We show both sides.</p>
+<p>What is invented: a living megalodon, the pool, the deadline and the rescue at sea.</p>
+<p>Shark bites are rare, about 70 unprovoked bites a year worldwide. Swim with a buddy.</p>
+<p>Chapters: [to be added from the final cut]</p>
+<h3>megalodon #whatif #sharks</h3>
+<p><code>`</code></p>
+<h4>4. Tags</h4>
+<p><code>`</code></p>
+<p>pet megalodon, baby megalodon, megalodon in pool, megalodon pup, megalodon facts, what if megalodon was alive, megalodon cartoon, shark story animation, what if, doomed doug</p>
+<p><code>`</code></p>
+<h4>Ship it, or change it?</h4>
+<p>Recommended: rank 1, &quot;What If a Baby MEGALODON Lived in Your Pool for 30 Days?&quot; with thumbnail A and the label GOOD BOY. Nothing here is published; Bryce or the pipeline publishes.</p></div>
+<h2>Checks</h2><div class="card"><table><tr><td>Length (target 11 to 14 min)</td><td>11.65 min PASS</td></tr><tr><td>Picture</td><td>1920x1080 at 30 fps PASS</td></tr><tr><td>Loudness (-14 LUFS plus or minus 1)</td><td>-14.2 LUFS PASS</td></tr><tr><td>True peak (-1 dBTP or lower)</td><td>-1.9 dBTP PASS</td></tr><tr><td>Freezes over 2 s</td><td>0  PASS</td></tr><tr><td>Black frames over 0.5 s</td><td>0 PASS</td></tr><tr><td>Cuts a minute (target 20 to 31)</td><td>24.2 measured by scene change PASS</td></tr><tr><td>Voices</td><td>5 distinct PASS</td></tr><tr><td>Title drop (35 to 90 s, 72 to 153 words)</td><td>39.8 s, word 128 PASS</td></tr><tr><td>Science cards</td><td>24 cards, facts sheet has two sources per claim (screened: 32 OK, 7 fixed)</td></tr><tr><td>Em or en dashes in script</td><td>0 PASS</td></tr><tr><td>Doug dies</td><td>no (rescue and release ending) PASS</td></tr></table></div>
+<details class="card"><summary>Independent review of the video</summary><h3>w01 video review: What If a Baby MEGALODON Lived in Your Pool for 30 Days?</h3>
+<p>Independent review, 2026-11-26. Reviewer did not build this episode. Judged from the 8 contact sheets (one frame every 3 s), extra full-size frames pulled from <code>build/final.mp4</code> at line timings, <code>script.md</code>, <code>build/lines.json</code>, <code>build/shots.json</code>, <code>build/qc.json</code>, <code>packaging.md</code>, <code>thumbs/sheet.jpg</code>, the DOOMPERK reference sheets and the restyle plan. Audio was not heard; anything about voice is from timings only and is marked as such.</p>
+<p>A 5 means it would hold its own next to DOOMPERK&#x27;s top video.</p>
+<h4>Scores</h4>
+<table><tr><th>#</th><th>Criterion</th><th>Score</th></tr><tr><td>1</td><td>Hook (first 30 s)</td><td>3</td></tr><tr><td>2</td><td>Visual clarity</td><td>2</td></tr><tr><td>3</td><td>Look and polish</td><td>2</td></tr><tr><td>4</td><td>Pacing and variety</td><td>2</td></tr><tr><td>5</td><td>Story and comedy</td><td>4</td></tr><tr><td>6</td><td>Packaging</td><td>3</td></tr><tr><td></td><td><b>Average</b></td><td><b>2.7</b></td></tr></table>
+<p>The script is the strongest part and is close to DOOMPERK level. The picture is not: it is clean and consistent in style, but it is full of framing and layering glitches, and many beats the narration names never appear on screen. Fix the picture before upload.</p>
+<h4>1. Hook: 3</h4>
+<p>What works:</p>
+<li>Line 1 at 0.6 s is second person with a number: &quot;Last night, a storm threw a two metre shark over your back fence and into your swimming pool.&quot;</li>
+<li>Rival inside 20 s with a name card and a joke caption: Tanner&#x27;s card &quot;TANNER SLOANE / Neighbour. 41,000 followers. Met four.&quot; is on screen at 0:09, matching the 8.9 s line.</li>
+<li>Four-beat tease from 22.9 s to 39.8 s (pool shrinks, officer with net, neighbour sells, &quot;on night thirty, Tanner is alone in the open sea&quot;), ending on a cliffhanger: &quot;the shark he tried to sell gets to decide what happens next.&quot;</li>
+<li>Title drop at 39.8 s, word 128 (QC: &quot;39.8 s, word 128 PASS&quot;), inside the 35 to 90 s, 72 to 153 word window.</li>
+<p>What holds it back:</p>
+<li>The first frame is weak. At 0:00 and 0:03 Doug&#x27;s head is jammed against the top edge beside the DAY 1 badge, and the shark is already parked in the pool with its eyes shut. The most visual moment in the premise (a shark thrown over the fence by a storm) is told, not shown. DOOMPERK&#x27;s top video opens on the crash itself.</li>
+<li>At 5.6 s the narrator says &quot;it seems to like you&quot; while Meatball&#x27;s eyes are closed arcs (0:00 to 0:06): no grin, no eye contact.</li>
+<li>At 0:13 (&quot;Your neighbour, Tanner Sloane...&quot;) the frame is Doug&#x27;s headless body and a green-tinted pool; Tanner is off frame.</li>
+<li>The tease does not show what it says: &quot;A fisheries officer with a very large net&quot; (22.9 s) shows Hobbs with a clipboard and no net (0:27), with a stray shark fin on the driveway beside her. &quot;Tanner is alone in the open sea&quot; shows Tanner standing upright on top of the water (0:36), which reads as calm, not drowning.</li>
+<li>The title card reads &quot;WHAT IF YOU HAD / A PET MEGALODON?&quot; and the narrator says &quot;So, what if you had a pet megalodon?&quot; (39.8 s). That is the retired working title. <code>packaging.md</code> retired it for being one word off DOOMPERK&#x27;s &quot;What If You Had a PET Tornado?&quot; and asked for it to be changed before render. It also does not match the title viewers clicked.</li>
+<h4>2. Visual clarity: 2</h4>
+<p>Overlays and cards read well at full size (head 30+ px, fact text readable, source line small but legible on desktop). The problem is that what the narration names is often not on screen, and the cards often cover faces.</p>
+<p>Card and WORD checks against <code>lines.json</code>:</p>
+<table><tr><th>Line time</th><th>What is said</th><th>On screen?</th></tr><tr><td>8.9 s</td><td>Tanner intro</td><td>Yes. Name card at 0:09.</td></tr><tr><td>46.6 s</td><td>Wren speaks after her intro at 42.3 s</td><td>Late but yes. &quot;WREN ADEYEMI / Bait shop. Marine biology student.&quot; at 47.5 s, 4 s after the narrator names her.</td></tr><tr><td>51.8 s</td><td>&quot;died out about three point six million years ago&quot;</td><td>Yes. GONE FOR MILLIONS OF YEARS card at 0:51, but it covers Wren&#x27;s head at 0:51 and 0:57.</td></tr><tr><td>143.9 to 146.3 s</td><td>&quot;Found me!&quot; then &quot;Those dark dots on his snout&quot;</td><td>No. The shot tagged close:meg at 143.9 s is a medium pool shot; no snout dots, no hand under sand, Doug&#x27;s head cut off at the top (144.5 s).</td></tr><tr><td>158.1 s</td><td>&quot;Tap, tap, find, fish!&quot;</td><td>Yes. TAP TAP word over Doug holding a fish (158.8 s).</td></tr><tr><td>206.3 to 212.3 s</td><td>&quot;Three, two.&quot; then CRUNCH, then MONSTER BITE card</td><td>Card yes (212.3 s). The bite no: at 209.5 s and 211.8 s the shark sits in the pool showing teeth while Tanner waves a stick; no watermelon in the mouth, no CRUNCH word, no flash, no ring light lost. Doug&#x27;s head is cut off in both frames.</td></tr><tr><td>299.0 s</td><td>Hobbs intro</td><td>Partly. Name card at 300.5 s is truncated: &quot;OFFICER MARLENE HOBB&quot; runs off the red bar.</td></tr><tr><td>328.6 s</td><td>&quot;two weeks to show me a plan&quot;</td><td>Yes. TWO WEEKS word.</td></tr><tr><td>440.6 s</td><td>&quot;Great whites grow to about six metres. Right now, that is still bigger than Meatball.&quot;</td><td>Contradicted. At 448.5 s and 7:21 the great white is drawn clearly smaller than Meatball, who is under the kayak.</td></tr><tr><td>515.1 to 522.0 s</td><td>phone and ring light sink glowing, the boat spins away</td><td>No. SPLASH word over the boat and Meatball (8:36, 520 s); no phone, no ring light, no spin, no Tanner.</td></tr><tr><td>542.4 s</td><td>&quot;Day three. The sand. The hand. Tap, tap, find, fish.&quot;</td><td>No. The flashback reuses a wide daytime pool shot with Doug&#x27;s head cut off (545 s) and a DAY 30 badge; no sand, hand or snout, and no tint to mark it as a memory.</td></tr></table>
+<p>Other named things missing: the empty fridge, frozen turkey and receipts (161 s, 2:42 to 3:03); the PARTNERSHIP contract (drawn as &quot;DEAL&quot;, 3:09); the school of fish on day 22 (6:45 to 6:54); the boat &quot;on the rocks&quot; (sits on sand, 9:45 and 10:00); &quot;lights off&quot; on day 3 (2:15 to 2:39 is lit like day with only a navy sky band).</p>
+<h4>3. Look and polish: 2</h4>
+<p>Good: one consistent flat style, clean outlines, readable silhouettes, Doug&#x27;s red cap and yellow top read at a glance, Wren&#x27;s deadpan half-lidded eyes suit her voice brief, the lagoon set (6:21 onward) and night sea are attractive, the DAY badge, name cards and kinetic words are a coherent design system in Doug&#x27;s colours, and it looks nothing like DOOMPERK&#x27;s 3D ball-heads, as planned.</p>
+<p>Glitches (timestamps from the sheets unless marked s):</p>
+<li><b>Heads and bodies cropped by framing:</b> Doug&#x27;s head cut off at 0:03, 0:12 to 0:13, 0:21, 1:39 to 1:51, 2:24, 140.8 s, 144.5 s, 209.5 s, 211.8 s, 9:03, 545 s; Tanner&#x27;s head at 3:30, 8:00, 8:09, 9:27; at 8:21 the frame is two grey boxes and Tanner&#x27;s feet at the top edge, nobody in shot.</li>
+<li><b>Shark outside the pool:</b> Meatball lies on the grass beside the pool at 4:39 to 4:51 and at 344 s (5:36 to 5:42); his fins and tail poke past the pool rim in most pool shots (0:00, 0:51, 144.5 s, 213 s).</li>
+<li><b>Fins in the wrong place:</b> a shark fin on the driveway or lawn at 0:27 and through the whole Hobbs scene, 5:00 to 5:27 (in front of Hobbs and the ute at 300.5 s).</li>
+<li><b>Characters on top of things they should be in or behind:</b> Doug sits on the shark at 5:39 to 5:45 (deckchair behind the fin); the sand pile floats on top of the shark at 2:12 to 2:39; Tanner stands upright on the water at 0:36, 8:42, 8:45, 8:51, 8:57 and 538 s, on the reef surf at 8:27 to 8:30, on the ute roof at 7:54 (&quot;behind a parked car&quot;), and rides the fin like a surfboard at 9:24 and 562 s.</li>
+<li><b>Text collisions:</b> Hobbs&#x27;s name card truncated (300.5 s); the size diagram&#x27;s MEGALODON label hidden under the shark icon (441 s, and the HOW BIG card at 4:33); TIDE TIMES poster text shows above the SHARK NURSERY card (5:57); BAIT &amp; TACKLE sign cut at the frame edge (5:51); GULL LAGOON sign hidden behind Hobbs&#x27;s head, reading &quot;GUI ... ON&quot; (7:39 to 7:51) and &quot;GOON ... ESE&quot; (10:15).</li>
+<li><b>Cards over faces:</b> Wren&#x27;s face is under a card at 0:51, 0:57, 2:30, 2:54, 2:57 and 3:03.</li>
+<li><b>Placeholder look:</b> the harbour at 8:15 to 8:21 is an orange wall with two plain grey rectangles.</li>
+<li><b>Off-model shark:</b> the honesty segment shark (10:18 to 11:12) and thumbnail A use a great-white style with a small black eye, not Meatball&#x27;s big round eyes and snout dots.</li>
+<li><b>Stray prop:</b> a loose blue stick floats at the bottom of frame at 2:15, 2:21, 2:27, 2:30 and 158.8 s.</li>
+<h4>4. Pacing and variety: 2</h4>
+<p>Measured numbers are fine on paper: QC &quot;Cuts a minute (target 20 to 31): 25.0&quot;; <code>shots.json</code> has 329 shots (28 a minute); 149 speaker changes in 11.4 min of voice (13.1 a minute, above DOOMPERK&#x27;s median of about 8). The picture still feels repetitive:</p>
+<li><b>One camera angle for 41% of the episode.</b> 135 of 329 shots are the backyard (backyard_pool 102, yard_night 20, storm 13), all from the same side-on view of the fence line. No top-down pool shot, no underwater cutaway, no low angle from the water, no over-the-shoulder. DOOMPERK&#x27;s reference sheet uses aerials, close inserts, depth of field and diagram cutaways in the first two minutes alone.</li>
+<li><b>Meatball gets 4 close-ups in 11.6 minutes</b> (<code>frame: close:meg</code> 4 times). The title character is mostly a wide side-view sticker.</li>
+<li><b>Characters barely act.</b> 314 of 329 shots have no pose; only 15 shots have a held prop. Most frames are two people standing at a fence with one arm out (sheet 1, 1:06 to 1:27; sheet 4, 5:00 to 5:27).</li>
+<li><b>Kinetic words: 11 in 11.6 minutes</b> (CONTENT, FOUR THOUSAND BUCKETS, KEEP SWIMMING, TAP TAP, SIGNED, GROWTH SPURT, TWO WEEKS, THE PLAN, NOT THIS TIME, SPLASH, FOUND HIM). DOOMPERK has an overlay on almost every shot.</li>
+<li><b>Dead stretch, 10:18 to 11:12:</b> the honesty segment loops three shots (Doug wide, the off-model shark, Doug close) for 54 seconds. The script asks for an icon per fact (&quot;tooth, jaw, rings, map pin, thermometer, snout dots&quot;); none were built.</li>
+<li><b>Montages are thin:</b> &quot;four thousand buckets&quot; is two shots of Doug and Wren holding buckets at the fence (1:30, 1:33), no beach or dunes.</li>
+<li><b>Voice timing (from <code>lines.json</code>, not heard):</b> 1,954 words in 684 s, 171 words a minute, against DOOMPERK&#x27;s measured 100 to 136. The narrator holds 60% of voiced time, so it is less dialogue-led than the model. No gap between lines is longer than 1.0 s anywhere, so punchlines get no beat (&quot;He has met four of them.&quot; runs straight into &quot;His name is Meatball.&quot;). Several Doug lines look too fast to land: &quot;Hi, buddy!&quot; 0.45 s, &quot;That&#x27;s my boy!&quot; 0.56 s, &quot;Sixty for me?&quot; 0.64 s, &quot;Is that his mum?&quot; 0.64 s, &quot;His name is Meatball.&quot; 0.77 s. Check these by ear.</li>
+<h4>5. Story and comedy: 4</h4>
+<p>The script is the episode&#x27;s real strength.</p>
+<li><b>Arc:</b> arrival, problems solved one by one with real science (salt, swim to breathe, electric sense, warm body), rival betrayal on day 15, a deadline (&quot;You have two weeks to show me a plan&quot;), the nursery plan, the rival&#x27;s midnight heist, a rescue, the rival&#x27;s turn, a release and an honesty close.</li>
+<li><b>Callbacks that pay off:</b> the tap rule is planted at 153.6 s with &quot;Hold on to that.&quot; and returns as the climax at 541.4 s (&quot;Tap, tap.&quot;); &quot;He ate a ring light, Doug.&quot; (416.2 s); &quot;I read the crayon contract, Tanner.&quot; (501.6 s); the running &quot;no form&quot; gag (&quot;I do not have a form for extinct&quot;, &quot;because, again, there is no form&quot;); and the triple &quot;No.&quot; / &quot;No.&quot; / &quot;No.&quot; button at 615.8 s.</li>
+<li><b>Rival turn</b> is earned: &quot;Me. I called you. I tried to sell him. Doug came out for me anyway.&quot; (577.5 s), then &quot;For the first time, Tanner says something without a camera on.&quot;</li>
+<li><b>Good jokes:</b> &quot;It&#x27;s a type of extinct.&quot;, &quot;From what, Doug? Chips?&quot;, &quot;Tanner carried no buckets. He filmed all four thousand.&quot;, &quot;For the first time in his career, Tanner&#x27;s advert is completely true.&quot;</li>
+<li><b>Honesty and safety close</b> matches the format: what was real, what was invented, three real safety rules, then &quot;Tanner broke all three in one night.&quot;</li>
+<p>Why not 5:</p>
+<li>&quot;You&quot; (Doug) has little agency until day 29. Wren solves the salt, swimming, sensing and nursery problems; Doug&#x27;s main contribution is jokes. DOOMPERK&#x27;s &quot;you&quot; is the one with the plan.</li>
+<li>The comment question is not a real split. &quot;Do you take it? Comment Cash or Meatball.&quot; comes after 11 minutes that make the answer obvious, and it rewinds to day 6 instead of asking about the ending. DOOMPERK&#x27;s best (&quot;Which camp do you sleep in? Comment Riker or Rocks.&quot;) splits the audience.</li>
+<li>The tease promises &quot;the shark he tried to sell gets to decide what happens next&quot;, but no beat on screen shows Meatball choosing.</li>
+<h4>6. Packaging: 3</h4>
+<li><b>Title</b> &quot;What If a Baby MEGALODON Lived in Your Pool for 30 Days?&quot; (56 characters) is strong: clear, searchable (&quot;baby megalodon&quot;, &quot;megalodon in pool&quot;), one CAPS word, the subject inside the first 40 characters, and far enough from every DOOMPERK title.</li>
+<li><b>Fit with the video:</b> broken at the title drop. The card and narration say &quot;What if you had a pet megalodon?&quot; (39.8 s), so the promise the viewer clicked is not repeated in the video.</li>
+<li><b>Thumbnail A (GOOD BOY), recommended:</b> the strongest of the three at phone size; the label is legible and the shark reads as a shark. But against its own brief: the shark&#x27;s head and grin, the point of the joke, are cropped at the top and partly under the label; the label is yellow at top left, not white at top right; the sky is pale blue, not hot yellow or orange; Doug&#x27;s face is small (about a fifth of the height), whereas DOOMPERK&#x27;s smug hero face is the biggest thing in the frame; the red arrow points at the house; and the shark is off-model compared with the in-video Meatball.</li>
+<li><b>Thumbnail B:</b> the brief&#x27;s TOO BIG label is missing; at phone size it is two tiny Dougs and a fin.</li>
+<li><b>Thumbnail C (FOR SALE):</b> nothing in the image is visibly for sale; Tanner is small at the right.</li>
+<h4>Must fix before upload (top 5)</h4>
+<li><b>Framing crops heads and leaves empty frames</b> (0:03, 0:12 to 0:13, 1:39 to 1:51, 140.8 s, 144.5 s, 209.5 s, 211.8 s, 3:30, 8:00, 8:09, 8:21, 9:03, 545 s). Fix: frame from each speaker&#x27;s head box, not their feet. For every shot, keep the head of every visible character inside a top safe margin (at least 60 px below the DAY badge), or crop them out fully. Add this as a QC check computed from character boxes in <code>shots.json</code> (fail on any partial head).</li>
+<li><b>Things in the wrong place or on the wrong layer</b>: shark on the grass (4:39 to 4:51, 344 s); fins on the lawn and driveway (0:27, 5:00 to 5:27); Doug sitting on the shark (5:39 to 5:45); sand on top of the shark (2:12 to 2:39); Tanner standing on water, reef, ute and fin (0:36, 7:54, 8:27 to 8:57, 538 s, 562 s). Fix: give each set a water line and mask anyone in the water below it, with a treading-water pose (head and shoulders only, splash ring); clamp the shark to the pool bounds and show day 12 overflow as water slopping over the rim; hide Meatball in the driveway, street and kitchen sets; draw the sand under the shark layer; put Tanner behind the ute.</li>
+<li><b>Story beats named but not shown.</b> Build inserts for: the watermelon bite (stick in, chomp, CRUNCH word, Tanner holding the stub, 206 to 212 s); a snout close-up with glowing dots and the hand under the sand (140 to 146 s, reused in the 542 s flashback with a memory tint); Hobbs&#x27;s giant net (tease at 22.9 s, scene at 299 s); the phone and ring light sinking with the boat spinning off (515 to 522 s); and redraw the great white at about 1.5 times Meatball&#x27;s length (440.6 to 449 s), since the narration says it is bigger.</li>
+<li><b>Wrong title in the video</b> (39.8 s card and line 02_04 &quot;So, what if you had a pet megalodon?&quot;). Fix: re-voice the line as &quot;So, what if a baby megalodon lived in your pool for thirty days?&quot; and set the card to &quot;WHAT IF A BABY / MEGALODON LIVED IN YOUR POOL?&quot; so it matches the packaged title and drops the retired near-copy of &quot;PET Tornado&quot;.</li>
+<li><b>Visual monotony and the dead honesty segment</b> (10:18 to 11:12; the backyard all from one angle). Fix: build the honesty icons the script asks for (tooth, jaw, rings, map pin, thermometer, snout dots), each stamped REAL or MADE UP, plus a still of Meatball on-model. Add at least three backyard angles (top-down pool, underwater cutaway, low angle from the water), at least 12 Meatball close-ups, a kinetic word or HUD beat at least every 30 s, and a pose library (point, shrug, panic, carry, jump) used in at least a third of shots.</li>
+<p>Also fix while in there (smaller, same pass): truncated Hobbs name card (300.5 s); cards over Wren&#x27;s face (0:51, 0:57, 2:30, 2:54 to 3:03), so place cards on the side away from the speaker; the size-diagram label overlap (4:33, 441 s); TIDE TIMES showing above the card (5:57); day 3 &quot;lights off&quot; lit like day (2:15 to 2:39); grey placeholder boxes at the harbour (8:15 to 8:21); the stray blue stick (2:15 to 2:30); and listen to the fast Doug lines listed under Pacing.</p>
+<h4>Nice to have (3)</h4>
+<li><b>Show the storm throw in the first 3 seconds:</b> lightning, Meatball arcing over the fence, a SPLASH word, then a close-up of his open eyes grinning at Doug on &quot;it seems to like you&quot;. This becomes the opening frame and a Shorts hook.</li>
+<li><b>Turn more science cards into diagrams in the scene</b>, as DOOMPERK does with its fresh-water lens: an 18 cm tooth against a ruler, backbone growth rings, the tooth conveyor belt, electric field lines rising from Tanner&#x27;s kicking legs at 550 s. Only 2 of the 24 cards carry art.</li>
+<li><b>Sharpen the close and the click:</b> give Doug the key idea at least once (for example, he invents the tap rule), and end on a real split (&quot;Day 31: set him free or keep him in a sea pen you visit? Comment WILD or HOME&quot;). Rework thumbnail A to its brief: Doug&#x27;s smug face about 40% of the height, front left; Meatball&#x27;s head and grin fully visible behind his shoulder, on-model; hot orange sky; a white GOOD BOY label at top right; no arrow.</li>
+<p>---</p>
+<h4>v2 re-score (2026-11-26)</h4>
+<p>Same rubric and strictness. Judged from the regenerated sheets, 12 extra full-size frames from the v2 <code>final.mp4</code>, the v2 <code>qc.json</code> (11.65 min, 25.9 cuts a minute, title drop 39.8 s at word 128, all PASS), <code>lines.json</code>, <code>shots.json</code> and the new <code>thumbs/sheet.jpg</code>.</p>
+<table><tr><th>#</th><th>Criterion</th><th>v1</th><th>v2</th></tr><tr><td>1</td><td>Hook</td><td>3</td><td>3.5</td></tr><tr><td>2</td><td>Visual clarity</td><td>2</td><td>3</td></tr><tr><td>3</td><td>Look and polish</td><td>2</td><td>2.5</td></tr><tr><td>4</td><td>Pacing and variety</td><td>2</td><td>2.5</td></tr><tr><td>5</td><td>Story and comedy</td><td>4</td><td>4</td></tr><tr><td>6</td><td>Packaging</td><td>3</td><td>3.5</td></tr><tr><td></td><td><b>Average</b></td><td><b>2.7</b></td><td><b>3.2</b></td></tr></table>
+<p>A real step up, but it is not yet at DOOMPERK level. Most fixes landed partly. Two new glitches in the harbour scene are as bad as anything in v1.</p>
+<h5>What the fixes achieved</h5>
+<li><b>Title:</b> the card now reads &quot;WHAT IF A BABY MEGALODON / LIVED IN YOUR POOL?&quot; (0:39 to 0:42), and line 02_04 is &quot;So, what if a baby megalodon lived in your pool for thirty days?&quot; (39.8 s). Fixed. Data nit: that line in <code>lines.json</code> still carries <code>word: PET MEGALODON</code>; the card on screen is correct.</li>
+<li><b>Tease:</b> Hobbs now carries the net (0:27), Tanner is chest deep in the sea (0:36), and a shark eye close-up was added (0:36).</li>
+<li><b>Head crops:</b> gone from the backyard openings (0:00, 0:03, 1:39 to 1:51 now show full figures).</li>
+<li><b>Water:</b> Tanner is chest deep at 8:45 to 8:57.</li>
+<li><b>Shark placement:</b> Meatball stays in the pool on the day 15 night (344 s, 5:36 to 5:42). The scene 12 sitters are drawn in front of the shark (272 s, 4:30 to 4:51).</li>
+<li><b>Name cards:</b> Hobbs&#x27;s card fits (5:00).</li>
+<li><b>Kinetic words:</b> 27 now, up from 12 (CHIPS?, BROKEN?, CRUNCH, LINK IN BIO, NO FORM, PROMISE, NEVER HERE, FIRST FISH, TOMORROW, AM I THE FISH?, STAY WILD, BYE, BUDDY, REAL, MADE UP, UP CLOSE ONLY, and more).</li>
+<li><b>Shark close-ups:</b> 11 <code>megclose</code> shots, up from 4.</li>
+<li><b>Thumbnail A:</b> Doug&#x27;s face is now about 60% of the frame height, Meatball&#x27;s head and teeth are fully in frame, GOOD BOY sits in the water at bottom right, and the arrow is gone. Clearly better at phone size.</li>
+<h5>Still broken</h5>
+<li><b>Beats only half shown:</b></li>
+<li>CRUNCH (214.0 to 217.5 s, 3:30 to 3:33) is a shark close-up with no watermelon, stick or ring light in it.</li>
+<li>The snout close-up (148.0 to 151.6 s, frame 149.5 s) has its pores covered by the sand pile and the SIXTH SENSE card, and no hand is shown.</li>
+<li>The great white comparison (442.3 to 446.9 s, frame 444.5 s) has Meatball hidden behind the GREAT WHITE SIZE card. The surface shots around it still draw the great white smaller than Meatball (7:00, 7:03, 7:09, 7:12, 7:27, 7:39), against the line &quot;that is still bigger than Meatball&quot; (440.6 s).</li>
+<li>The day 3 flashback (542 to 550 s, frame 546 s) is still a wide pool shot with a DAY 30 badge: no sand, hand or snout, and no memory tint.</li>
+<li><b>Sand drawn on top of the shark:</b> all of day 3 (2:15 to 2:36, 149.5 s).</li>
+<li><b>Day 3 &quot;lights off&quot;:</b> still lit like day, with bright grass and a beige house (2:15 to 2:39).</li>
+<li><b>Cards over faces and text:</b></li>
+<li>Wren is behind cards at 0:54, 0:57, 1:00 to 1:06 and 1:57.</li>
+<li>The TIDE TIMES text still shows above the SHARK NURSERY card (6:00).</li>
+<li>The size diagram&#x27;s MEGALODON label is still under the shark icon (4:33 to 4:39).</li>
+<li>The BAIT &amp; TACKLE sign is still cut at the edge (6:09).</li>
+<li><b>Heads still cropped</b> outside the backyard:</li>
+<li>Doug&#x27;s cap and Wren&#x27;s bun stick up from the bottom edge of the map close-up (6:06).</li>
+<li>Hobbs&#x27;s head is cut at the top in the beach scene (9:39, 9:45, 10:00).</li>
+<li>Wren, Hobbs and Doug are cut at 10:15.</li>
+<li>Tanner is cut at 11:21.</li>
+<li><b>Honesty segment (10:18 to 11:12):</b> still the same three-shot loop (Doug wide, the off-model great-white style shark, Doug close). The script&#x27;s icons (tooth, jaw, rings, map pin, thermometer, snout dots) are still missing; only the words REAL, MADE UP and UP CLOSE ONLY were added.</li>
+<li><b>Variety:</b> 135 of 329 shots are still the side-on backyard (backyard_pool 102, yard_night 20, storm 13), and only 11 shots have a pose. The opening still shows the shark parked in the pool with closed eyes (0:00 to 0:06), not the storm throw.</li>
+<li><b>Thumbnail A:</b> the shark is still off-model (a great white with a black eye and an angry brow, not Meatball&#x27;s round eyes), and the sky is still pale. B (no TOO BIG label) and C are unchanged.</li>
+<h5>New in v2</h5>
+<li><b>Empty frame at 489 s (8:09):</b> an orange sky with two grey boxes and nobody in shot. <code>shots.json</code> has a <code>close:doug</code> shot at 488.0 to 490.6 s with <code>hide: [&#x27;doug&#x27;]</code>, so the camera frames a character who is hidden.</li>
+<li><b>Doug floating in the sky at 507.8 s (8:27):</b> his feet dangle from the top of the frame above a cloud, well above the dock.</li>
+<li>Both sit in the harbour scene, which still uses plain grey rectangles as buildings (8:00 to 8:24), and Doug is cut at the right edge at 8:21 and 8:24.</li>
+<h5>Remaining must-fix (v2)</h5>
+<li><b>Harbour scene, 485 to 509 s.</b> Never render a close shot on a hidden character; add a QC check that fails on any shot whose framed character is in <code>hide</code>. Pin Doug to the dock&#x27;s ground line. Replace the grey boxes with a drawn harbour backdrop (boats, sheds, lamp posts).</li>
+<li><b>Finish the half-shown beats.</b></li>
+<li>Put the watermelon on the stick into the CRUNCH close-up (214 s).</li>
+<li>Draw the sand under the shark layer, with Doug&#x27;s hand in it, for all of day 3 and the snout shot (148 s).</li>
+<li>Move the GREAT WHITE SIZE card off Meatball (442 s), and scale the great white above Meatball in every day 24 surface shot.</li>
+<li>Give the 542 s flashback the real day 3 shots (hand, sand, snout) with a tint.</li>
+<li><b>Honesty segment, 10:18 to 11:12.</b> Build the six icons with REAL and MADE UP stamps, and swap the off-model shark for on-model Meatball.</li>
+<li><b>Cards and crops.</b></li>
+<li>Place cards on the side away from the speaker (0:54 to 1:06, 1:57).</li>
+<li>Hide the TIDE TIMES text under the card (6:00), and fix the diagram label (4:33).</li>
+<li>Apply head-safe framing to the bottom edge and to the beach and lagoon sets as well (6:06, 9:39 to 10:00, 10:15, 11:21).</li>
+<li><b>Day 3 night.</b> Use a night grade on yard_night (darker grass, house and fence, lit windows), so &quot;lights off&quot; reads as night (2:15 to 2:39, 542 to 550 s).</li>
+<p>Not re-scored as broken, since they were left to the owner: Doug&#x27;s agency and the Cash or Meatball split. They remain the reason Story is 4 and not 5.</p>
+<p>---</p>
+<h4>v3 re-score (2026-11-26)</h4>
+<p>Same rubric and strictness. Judged from the regenerated sheets, 6 extra full-size frames from the v3 <code>final.mp4</code> (149.5 s, 213 s, 275 s, 444.5 s, 547 s, 650 s), and the QC numbers given with the render (11.65 min, -14.2 LUFS, -1.9 dBTP, 24.1 cuts a minute, 0 freezes). The thumbnails are unchanged since v2.</p>
+<table><tr><th>#</th><th>Criterion</th><th>v1</th><th>v2</th><th>v3</th></tr><tr><td>1</td><td>Hook</td><td>3</td><td>3.5</td><td>3.5</td></tr><tr><td>2</td><td>Visual clarity</td><td>2</td><td>3</td><td>3.5</td></tr><tr><td>3</td><td>Look and polish</td><td>2</td><td>2.5</td><td>3</td></tr><tr><td>4</td><td>Pacing and variety</td><td>2</td><td>2.5</td><td>3</td></tr><tr><td>5</td><td>Story and comedy</td><td>4</td><td>4</td><td>4</td></tr><tr><td>6</td><td>Packaging</td><td>3</td><td>3.5</td><td>3.5</td></tr><tr><td></td><td><b>Average</b></td><td><b>2.7</b></td><td><b>3.2</b></td><td><b>3.4</b></td></tr></table>
+<p>Steady progress. Nothing as bad as the v1 or v2 harbour glitches is left. The remaining faults are placement and polish, not broken scenes. It still would not hold its own next to DOOMPERK, mainly because of one-angle coverage and a few unfinished beats.</p>
+<h5>What the fixes achieved</h5>
+<li><b>Harbour (8:00 to 8:27):</b> no empty frames. Doug stands on the deck at 8:27, and the grey boxes are now drawn boathouses (also in the tease at 0:30).</li>
+<li><b>Watermelon bite:</b> the watermelon sits at the shark&#x27;s mouth during the countdown (213 s, 3:30), then CRUNCH over the chomp (3:33). The beat now reads.</li>
+<li><b>Day 3 sand:</b> the sand sits behind the shark, and the snout pores are visible on the electric sense line (149.5 s, 2:27 to 2:30).</li>
+<li><b>Night sets:</b> all are dark now (0:00 to 0:21, 2:15 to 2:39, 5:36 to 5:48, 9:03 to 9:06). &quot;Lights off&quot; reads as night.</li>
+<li><b>Honesty close:</b> the giant tooth (10:21 to 10:24), the tooth plus coast map (10:27 to 10:33), REAL, MADE UP and UP CLOSE ONLY, and a snout close-up with dots on the electric sense line (650 s).</li>
+<li><b>Card placement:</b></li>
+<li>Science cards over a shark close-up work well at 0:54, 1:54, 4:15, 4:24 to 4:27 and 4:45 to 4:48.</li>
+<li>The bait shop card now frames the tooth, so TIDE TIMES no longer collides (6:00 to 6:03).</li>
+<h5>Still broken</h5>
+<li><b>Great white comparison (442.3 to 446.9 s, frame 444.5 s, 7:21 to 7:24):</b> the GREAT WHITE SIZE card still covers Meatball, so only his snout shows. The point of the shot (the great white is bigger) is still not visible.</li>
+<li><b>Cards still over Wren in wide pool shots:</b></li>
+<li>1:00 to 1:06: only her bun shows above WHAT THE NAME MEANS and BIG TOOTH.</li>
+<li>1:21 to 1:24 (SALT WATER ONLY), 1:57 (SWIM TO BREATHE), 2:33 (SIXTH SENSE).</li>
+<li>3:54 (TOOTH CONVEYOR BELT), and 275 s (HOW BIG, her head behind the card).</li>
+<li>The close-up rule was not applied to these lines.</li>
+<li><b>Flashback (542 to 550 s, frame 547 s, 9:03 to 9:09):</b> still a wide yard shot with the DAY 30 badge, and no hand or memory tint. In this shot the sand pile is drawn over the shark&#x27;s back again.</li>
+<li><b>Heads cropped:</b></li>
+<li>6:06: Doug&#x27;s cap and Wren&#x27;s bun stick up from the bottom of the map close-up.</li>
+<li>8:18 to 8:24: Doug half off the right edge.</li>
+<li>9:39, 9:45 and 10:00: Hobbs&#x27;s head cut at the top.</li>
+<li>10:15: Wren and Hobbs cut.</li>
+<li>11:21: Tanner cut at the right edge.</li>
+<li><b>Sign:</b> BAIT &amp; TACKLE is still cut at the frame edge (6:09).</li>
+<li><b>Honesty segment tail (10:36 to 11:12):</b> still the Doug and great-white-style shark loop for 36 s. Only the first 18 s got icons.</li>
+<li><b>Unchanged since v1:</b></li>
+<li>The opening shows the shark parked with closed eyes, not the storm throw (0:00 to 0:06).</li>
+<li>135 of 329 shots are the side-on backyard.</li>
+<li>Thumbnail A&#x27;s shark is off-model and the sky is pale.</li>
+<h5>New in v3</h5>
+<li><b>HOW BIG card (275 s, 4:33 to 4:39):</b> the smaller size art now sits on top of the SOURCE line. The labels GREAT WHITE and MEGALODON print over &quot;SOURCE: NATURAL HISTORY MUSEUM, DEPAUL UNIVERSITY&quot;, so both are hard to read.</li>
+<li><b>Shark past the rim (275 s):</b> Meatball&#x27;s snout pokes past the right pool rim onto the grass in the scene 12 wide.</li>
+<li><b>Fewer cuts:</b> cuts fell from 25.9 to 24.1 a minute. That is still inside the 20 to 31 target, but it moves away from DOOMPERK&#x27;s 28.</li>
+<h5>Remaining must-fix (v3)</h5>
+<li><b>Great white comparison (442 s):</b> put the card at the top or on the left so both sharks show in full, with the great white visibly longer.</li>
+<li><b>Cards over Wren in wide shots</b> (1:00 to 1:06, 1:21 to 1:24, 1:57, 2:33, 3:54, 275 s): either use the shark close-up for every card line in a pool scene, or place the card on the side away from every visible face. Add a QC check that fails a card box overlapping any head box.</li>
+<li><b>HOW BIG card (4:33 to 4:39, 275 s):</b> give the size art its own row between the fact and the source line. Clamp the shark inside the pool rim in the scene 12 wide.</li>
+<li><b>Flashback (542 to 550 s):</b> frame the snout and the sand at close range with Doug&#x27;s hand in it, add a memory tint, drop or change the DAY badge to &quot;DAY 3&quot;, and keep the sand behind the shark.</li>
+<li><b>Crops and the honesty tail:</b></li>
+<li>Apply head-safe framing to the bottom and side edges and to the beach and harbour sets (6:06, 8:18 to 8:24, 9:39 to 10:00, 10:15, 11:21), and pull BAIT &amp; TACKLE inside the frame (6:09).</li>
+<li>Give the 10:36 to 11:12 lines their own icons (a &quot;fiction&quot; stamp on a living megalodon, a 70 bites counter, a no-feeding sign, a buddy-swim icon).</li>
+<p>Doug&#x27;s agency and the Cash or Meatball split are still left to the owner. They keep Story at 4.</p>
+<p>---</p>
+<h4>v4 re-score (2026-11-27)</h4>
+<p>Same rubric and strictness. Judged from the regenerated sheets, 6 extra full-size frames from the v4 <code>final.mp4</code> (84.5 s, 153 s, 234 s, 258 s, 274 s, 548 s), and the QC numbers given with the render (11.65 min, -14.2 LUFS, -1.9 dBTP, 24.2 cuts a minute, 0 freezes). The thumbnails are unchanged since v2.</p>
+<table><tr><th>#</th><th>Criterion</th><th>v1</th><th>v2</th><th>v3</th><th>v4</th></tr><tr><td>1</td><td>Hook</td><td>3</td><td>3.5</td><td>3.5</td><td>3.5</td></tr><tr><td>2</td><td>Visual clarity</td><td>2</td><td>3</td><td>3.5</td><td>3.5</td></tr><tr><td>3</td><td>Look and polish</td><td>2</td><td>2.5</td><td>3</td><td>3.5</td></tr><tr><td>4</td><td>Pacing and variety</td><td>2</td><td>2.5</td><td>3</td><td>3</td></tr><tr><td>5</td><td>Story and comedy</td><td>4</td><td>4</td><td>4</td><td>4</td></tr><tr><td>6</td><td>Packaging</td><td>3</td><td>3.5</td><td>3.5</td><td>3.5</td></tr><tr><td></td><td><b>Average</b></td><td><b>2.7</b></td><td><b>3.2</b></td><td><b>3.4</b></td><td><b>3.5</b></td></tr></table>
+<h5>What the fixes achieved</h5>
+<li><b>Great white comparison (7:21 to 7:24):</b> the great white is now visibly bigger than the pup, and both are clear of the card. It finally matches the line at 440.6 s.</li>
+<li><b>Card lines open on a shark close-up:</b> 1:00 to 1:06, 1:21, 1:54, 3:54 (234 s), 4:15, 4:24 to 4:27, 4:33 to 4:39, 4:45 to 4:48. The kitchen cards sit over empty wall (3:00 to 3:06).</li>
+<li><b>HOW BIG card (274 s):</b> the size art and its labels now sit above the source line and are readable.</li>
+<li><b>Flashback (9:03 to 9:09, 548 s):</b> warm tint, vignette, no DAY badge, framed on the sand spot and the snout. It now reads as a memory.</li>
+<li><b>Honesty close:</b> the lines now cut between Doug medium, a shark close-up and wides, with the fish icon on the feeding line (11:03 to 11:06). It is no longer a dead loop.</li>
+<h5>Still broken</h5>
+<li><b>Cards over Wren in later shots of a card line.</b> The first shot is now a shark close-up, but when the same line cuts back to a wide, the card stays up and covers Wren:</li>
+<li>0:57, GONE FOR MILLIONS OF YEARS: touches her face.</li>
+<li>1:24 (84.5 s), SALT WATER ONLY: only her legs show.</li>
+<li>1:57, SWIM TO BREATHE.</li>
+<li>2:33 (153 s), SIXTH SENSE: covers her eyes.</li>
+<li>4:18 (258 s), GROWTH RINGS: only her legs show.</li>
+<p>  Fix: apply the rule per shot, not per line, so any shot that shows a card uses the shark close-up or empty background.</p>
+<li><b>Flashback sand:</b> the sand pile is still drawn over the shark&#x27;s head and back (548 s), and Doug&#x27;s hand never appears in it.</li>
+<li><b>Not addressed since v1:</b></li>
+<li>The phone and ring light sinking at 515 to 522 s is never shown.</li>
+<li>The opening still shows the shark parked with closed eyes, not the storm throw (0:00 to 0:06).</li>
+<li>135 of 329 shots are the side-on backyard.</li>
+<li><b>Edge crops and the cut sign:</b></li>
+<li>Edge crops at 6:06, 8:18 to 8:24, 9:39 to 10:00, 10:15 and 11:21, plus BAIT &amp; TACKLE cut at 6:09.</li>
+<li>These are accepted as deliberate or minor, but the 6:06 crop (a cap and a bun at the bottom edge of the map close-up) still looks like a mistake.</li>
+<li><b>Thumbnail A:</b> the shark is still off-model (a great white with a black eye) and the sky is pale.</li>
+<h5>New in v4</h5>
+<p>Nothing new broke in the frames checked. Cuts are 24.2 a minute, inside the 20 to 31 target.</p>
+<h5>Verdict</h5>
+<p><b>Ready for owner review, not ready to upload.</b> No scene is broken any more, and every story beat the narration names is now on screen. What remains is polish: cards covering Wren in five wide shots, the flashback sand layer, edge crops and one-angle backyard coverage. That polish keeps it at 3.5 rather than DOOMPERK&#x27;s level, and it should be fixed in the same pass as any owner notes before upload.</p></details>
+<details class="card"><summary>Fact and policy screen of the script</summary><h3>w01 What If You Had a PET Megalodon? : independent script review</h3>
+<p>Reviewer: independent screener (did not write the script). Date: 2026-11-26.</p>
+<p>Inputs: <code>script.md</code> (1,860 spoken words), <code>facts.md</code>, the restyle plan <code>Z:\Bryce-Brain\wiki\answers\doomed-doug-doomperk-restyle-plan.md</code> (Script anatomy, What to copy and what to change, Policy limits), reference transcripts <code>cOhgKbcx1FA</code> (Pet Tornado) and <code>FXJO5fIHidQ</code> (Infinite IQ island).</p>
+<p>Sources opened on 2026-11-26 by page fetch: Natural History Museum (megalodon page, shark teeth page), ScienceDaily on Boessenecker 2019, UCLA Newsroom 2023, EurekAlert on Cooper 2022, Florida Museum (Shark Biology, Shark Attack FAQ, nursery article, 100 years object page), Shark Trust (anatomy, bull shark), NOAA Fisheries (12 Shark Facts, White Shark), Science News 2021, DePaul 2025 release, Max Planck 2022 release, Discover on Wroe 2008, National Geographic 2025, UF IFAS blog. Smithsonian and Live Science pages return 403; those rows rest on the other source plus search text, as facts.md says.</p>
+<h4>1. Facts</h4>
+<table><tr><th>#</th><th>Claim (spoken or CARD)</th><th>Scene</th><th>Verdict</th><th>Exact fix</th></tr><tr><td>1</td><td>Megalodon died out about 3.6 million years ago</td><td>03, 26</td><td>OK</td><td>NHM and ScienceDaily (PeerJ 2019) both say 3.6</td></tr><tr><td>2</td><td>Older books said 2.6 million; a 2019 fossil study pushed it back</td><td>03</td><td>OK</td><td>NHM and ScienceDaily both give 2.6 as the old date</td></tr><tr><td>3</td><td>The name means big tooth</td><td>03</td><td>OK</td><td>NHM &quot;large tooth&quot;; Smithsonian &quot;big tooth&quot; (search text)</td></tr><tr><td>4</td><td>CARD: &quot;Adult megalodon teeth reached about 18 centimetres&quot;</td><td>03</td><td>FIX</td><td>18 cm is the largest teeth, not a typical adult tooth. Card body: &quot;The biggest teeth reach about 18 centimetres&quot;. The spoken line (&quot;could reach&quot;) is fine</td></tr><tr><td>5</td><td>Sharks keep a careful balance of salt and water</td><td>04</td><td>OK</td><td>Shark Trust bull shark page</td></tr><tr><td>6</td><td>Only a few sharks, like bull sharks, survive long in fresh water</td><td>04</td><td>OK</td><td>Florida Museum (a couple of species), Shark Trust (about 5 percent, most only briefly)</td></tr><tr><td>7</td><td>Many sharks must keep moving to breathe</td><td>06</td><td>OK</td><td>Shark Trust anatomy, NOAA 12 facts</td></tr><tr><td>8</td><td>Nurse sharks can pump water and rest on the bottom</td><td>06</td><td>OK</td><td>Shark Trust, NOAA</td></tr><tr><td>9</td><td>&quot;Every living thing makes a tiny electric field when its muscles work&quot; (Wren) and &quot;Every living thing gives off a faint electric field when its muscles move&quot; (Narrator)</td><td>07, 23</td><td>FIX</td><td>Plants and microbes have no muscles; the Florida Museum says &quot;all living animals&quot;. Change both to &quot;Every animal&quot; (&quot;Every animal makes a tiny electric field when its muscles work. Even yours, somehow.&quot; / &quot;Every animal gives off a faint electric field when its muscles move.&quot;)</td></tr><tr><td>10</td><td>Snout pores sense faint electric fields; sharks use them to find prey under sand</td><td>07</td><td>OK</td><td>Florida Museum (stingrays buried in sand), NOAA (electroreceptors)</td></tr><tr><td>11</td><td>A 2023 tooth study says megalodon ran about 7 degrees warmer than the sea</td><td>08</td><td>OK</td><td>UCLA: about 7 C warmer than the surrounding seawater; PNAS 2023</td></tr><tr><td>12</td><td>Staying warm burns a lot of fuel</td><td>08</td><td>OK</td><td>UCLA (&quot;voracious appetite&quot;), PNAS</td></tr><tr><td>13</td><td>One model: a 16 metre adult needed over 98,000 kilocalories a day</td><td>08</td><td>OK</td><td>EurekAlert and Cooper 2022 both say 16 m, over 98,000 kcal</td></tr><tr><td>14</td><td>CARD header &quot;STRONGEST BITE KNOWN&quot;</td><td>09</td><td>FIX</td><td>Neither source says strongest of any animal; NHM says &quot;one of the most powerful predators&quot;, Discover only compares with T. rex and a lion. Change header to &quot;MONSTER BITE&quot; (body stays)</td></tr><tr><td>15</td><td>One model put the adult bite at six to ten times a great white&#x27;s</td><td>09</td><td>OK</td><td>NHM: 108,514 to 182,201 N against 18,216 N (5.96 to 10.0 times); Discover: 10.8 to 18.2 t against 1.8 t</td></tr><tr><td>16</td><td>Sharks shed teeth constantly; new rows move forward like a conveyor belt</td><td>10</td><td>OK</td><td>NHM teeth page, NOAA</td></tr><tr><td>17</td><td>Some sharks go through 30,000 teeth in a lifetime</td><td>10</td><td>OK</td><td>NHM (30,000), NOAA (sandbar, about 35,000)</td></tr><tr><td>18</td><td>&quot;Real megalodons grew slowly&quot; (Wren)</td><td>11</td><td>FIX</td><td>The growth rate comes from three vertebrae of one shark (Science News). Stated as settled. Change to: &quot;This is weird. The one megalodon we can age grew slowly.&quot;</td></tr><tr><td>19</td><td>Sharks lay down rings in their backbones, a bit like a tree</td><td>11</td><td>OK</td><td>NOAA (with a caveat that bands are not always yearly), The Conversation</td></tr><tr><td>20</td><td>One fossil megalodon grew about 16 centimetres a year</td><td>11</td><td>OK</td><td>Science News, Live Science</td></tr><tr><td>21</td><td>Birth size: one study said 2 metres, a 2025 study said nearly 4</td><td>11, 26</td><td>OK</td><td>Science News (about 2 m), DePaul 2025 (3.6 to 3.9 m), NHM (up to 3.9 m)</td></tr><tr><td>22</td><td>Older estimates said 15 to 18 metres</td><td>12</td><td>OK</td><td>NHM, National Geographic</td></tr><tr><td>23</td><td>The 2025 study said up to 24 metres, slimmer, like a lemon shark</td><td>12</td><td>OK</td><td>DePaul 2025 (24.3 m &quot;largest possible reasonable estimate&quot;, lemon shark), NHM</td></tr><tr><td>24</td><td>Other experts call the slim shape tentative; scientists still disagree</td><td>12, 26</td><td>OK</td><td>National Geographic 2025 quotes Jack Cooper: &quot;tentative at best&quot;; NPR</td></tr><tr><td>25</td><td>CARD: estimates range from about 15 to 24 metres</td><td>12</td><td>OK</td><td>As rows 22 and 23</td></tr><tr><td>26</td><td>No whole megalodon found; cartilage rarely fossilises; mostly teeth and a few backbones</td><td>12</td><td>OK</td><td>NHM teeth page, Science News, DePaul (&quot;no known complete skeletons&quot;)</td></tr><tr><td>27</td><td>&quot;Megalodon babies grew up in nurseries. Shallow coastal water, plenty of food, fewer big predators.&quot; (Wren)</td><td>15</td><td>FIX</td><td>Stated as settled. NHM says &quot;is thought to&quot;, and the Florida Museum notes some scientists argue megalodon did not need nurseries. Change to: &quot;Megalodon babies seem to have grown up in nurseries.&quot;</td></tr><tr><td>28</td><td>Panama: 10 million year old teeth from mostly young megalodons, in a once shallow sea</td><td>15</td><td>OK</td><td>Florida Museum, National Geographic, Pimiento 2010 PLOS ONE</td></tr><tr><td>29</td><td>One model: adult cruising about 5 km/h; newer study 2 to 3.5</td><td>16</td><td>OK</td><td>EurekAlert and Cooper 2022 (1.4 m/s), DePaul 2025 (2.1 to 3.5 km/h)</td></tr><tr><td>30</td><td>Adults ate whales; fossil whale bones carry their bite marks</td><td>17</td><td>OK</td><td>NHM, EurekAlert</td></tr><tr><td>31</td><td>Megalodon was a separate line, not the great white&#x27;s ancestor</td><td>18</td><td>OK</td><td>NHM (different lineage), Florida Museum (&quot;cousin ... not the direct ancestor&quot;)</td></tr><tr><td>32</td><td>Great whites grow to about 6 metres</td><td>18</td><td>OK</td><td>NOAA (about 20 to 21 ft), Smithsonian (search text)</td></tr><tr><td>33</td><td>Some scientists think great white competition helped finish megalodon off</td><td>18</td><td>OK</td><td>Hedged correctly. Max Planck (&quot;may have contributed&quot;, &quot;additional research is needed&quot;), NHM</td></tr><tr><td>34</td><td>Cooling, shrinking nurseries, a costly warm body; nobody is sure which mattered most</td><td>18</td><td>OK</td><td>NHM, UCLA</td></tr><tr><td>35</td><td>Night is when lots of sharks feed; splashing draws attention</td><td>22</td><td>OK</td><td>Florida Museum FAQ, UF IFAS (sunset to sunrise; avoid excessive splashing)</td></tr><tr><td>36</td><td>Scene 23 uses the electric sense to find Tanner across the open sea at night</td><td>22, 23</td><td>FIX</td><td>The card text is true, but the Florida Museum says the sense works &quot;at close range&quot;. The story implies long range. Add it to the made-up list in scene 26 (see must-fix 2)</td></tr><tr><td>37</td><td>About 70 unprovoked shark bites a year worldwide</td><td>26</td><td>OK</td><td>Florida Museum (average of 70), Australian Museum (69 in 2023). Optional: say &quot;on average, about seventy&quot;, since single years vary</td></tr><tr><td>38</td><td>Safety rule: buddy; out of the sea at dawn, dusk and night; away from people fishing</td><td>26</td><td>OK</td><td>Florida Museum FAQ tips 1, 4 and 8; UF IFAS (group, sunset to sunrise, fishermen)</td></tr><tr><td>39</td><td>Story number: four hundred buckets swap a pool&#x27;s water</td><td>05</td><td>FIX (optional)</td><td>Even a small pool holds about 20,000 to 30,000 litres, which is thousands of buckets. Viewers will check. Make it FOUR THOUSAND BUCKETS, &quot;Bucket three thousand nine hundred and ninety nine&quot;, &quot;Bucket four thousand, chat!&quot;, &quot;He filmed all four thousand.&quot;</td></tr></table>
+<p>Count: 39 claims. OK 32, FIX 7, CUT 0. No wrong numbers in the science. Every science row has two real sources. Disagreements (birth size, adult size, body shape, speed, extinction cause, nurseries) are flagged in the script except rows 18 and 27.</p>
+<h4>2. Policy and safety</h4>
+<li><b>Gore and injury:</b> none. Bites hit a watermelon, a ring light and fossil whale bones; nobody is hurt. Pass.</li>
+<li><b>Keeping, feeding or approaching sharks: FAIL as written.</b> The whole story models keeping a wild shark, hand feeding it (scene 07), training it to come to a tap, kayaking beside it, and in scene 25 wading knee deep to a four metre shark and touching it. The climax also shows a shark nudging a swimmer as a friendly act. The close never counters this. It needs a real line and a card, for example:</li>
+<li>NARRATOR: &quot;And never feed, touch or chase a wild shark. Feeding sharks is against the law in places like Hawaii, because it brings sharks and people too close.&quot;</li>
+<li>CARD: &quot;NEVER FEED A SHARK | Feeding wild sharks is banned in places like Hawaii | SOURCE: Hawaii DLNR, Florida Museum&quot;. Sources: Hawaii Revised Statutes 188-40.6 and the DLNR 2018 release (feeding banned to cut &quot;the risk of conflicts with people&quot;); Florida Museum Shark Attack FAQ (&quot;Never feed wildlife!&quot;). Florida also bans shark feeding in state waters (FWC page returns 403 to fetch; confirm in a browser before adding Florida to the card).</li>
+<li>Optional: &quot;If you find a stranded shark, do not touch it. Call your local fisheries or wildlife line.&quot; (NOAA Fisheries Marine Life in Distress; Rhode Island DEM routes shark strandings to NOAA.)</li>
+<li><b>The safety rule at the end:</b> real and correctly stated (row 38). &quot;Tanner broke all three&quot; holds: alone, at night, and he was the one fishing.</li>
+<li><b>Honesty close:</b> says clearly that a living megalodon is made up. Pass. But the made-up list is incomplete: add &quot;a shark that comes when you call, finds you across a dark sea and pushes you to safety; the real electric sense only works up close&quot;, and &quot;every law Officer Hobbs quoted&quot; (scene 24&#x27;s &quot;no law against releasing one&quot; sounds like real legal advice).</li>
+<li><b>Made for kids risk:</b> moderate, manageable. Kid-appeal signals: a cute baby shark named Meatball, toy spade sandpit, crayon contract, &quot;Good boy&quot;, fish fingers. General-audience signals that keep it out of kids content: an adult cast, influencer satire, contract jokes (&quot;pens are for clients&quot;, &quot;somehow, your car&quot;), a fisheries officer, real research cards. Keep the satire, set the audience to &quot;not made for kids&quot;, and keep the thumbnail away from toddler-style cute.</li>
+<h4>3. Format</h4>
+<table><tr><th>Beat</th><th>Result</th></tr><tr><td>Cold open, numbers in sentence one</td><td>Pass: &quot;a storm threw a two metre shark over your back fence&quot;</td></tr><tr><td>Rival named in about 20 s</td><td>Pass: name card after 27 spoken words, narrator names him at word 39 (about 12 s at 195 wpm)</td></tr><tr><td>Time-skip tease</td><td>Pass: four future beats, last one a cliffhanger (&quot;on night thirty&quot;). Only the last beat is dated, which also keeps it clear of DOOMPERK&#x27;s &quot;By day nine... By day 18...&quot; wording</td></tr><tr><td>Title drop between 72 and 153 spoken words</td><td>Pass: the title question runs from word 130 to 137</td></tr><tr><td>Science cards</td><td>Pass: 21 sourced cards</td></tr><tr><td>Callback at the climax</td><td>Pass: tap tap (scene 07) returns in scenes 22, 23 and 25</td></tr><tr><td>Honesty and safety close</td><td>Pass with fixes (see section 2)</td></tr><tr><td>Two-option comment question</td><td>Pass: &quot;Comment Cash or Meatball.&quot; Continuity note: scene 27 says &quot;back to day six&quot; but Tanner offered a contract on day six, not cash. Say &quot;Picture day six again. This time Tanner offers you real money for Meatball.&quot;</td></tr><tr><td>Doug does not die</td><td>Pass</td></tr><tr><td>Length</td><td>Check: 1,860 spoken words is about 9.1 to 9.8 minutes at the plan&#x27;s 190 to 205 wpm, below the 10 to 12 minute target. Time the voiced draft; if under 10 minutes, add one action scene in act two (see retention fix 2) rather than more science lines</td></tr></table>
+<h4>4. Originality (against cOhgKbcx1FA Pet Tornado and FXJO5fIHidQ island)</h4>
+<p>No joke is copied. These lines and structures are copied or near-copied:</p>
+<table><tr><th>Script line</th><th>Reference</th><th>Risk</th><th>Fix</th></tr><tr><td>S21: &quot;The tide is running out through the reef gap. It carries Tanner into open water.&quot; Plus the whole climax: the rival goes out alone at night against the authority&#x27;s rule, the tide through a reef gap carries him out, the hero saves him, the rival confesses</td><td>Island: &quot;The tide ran out through a gap in the reef. It took the raft with it.&quot; and &quot;Now the tide is running out. The water in the lagoon rushes out through the gap in the reef. Same gap, same tide.&quot; The rival sneaks out alone and is saved</td><td>High: near-copy line and the reference&#x27;s own climax device</td><td>Change the mechanism and the words. Example: Tanner&#x27;s net snags Meatball&#x27;s tail fin, the rented boat&#x27;s engine stalls, the wind pushes the drifting boat out past the reef, Tanner falls in reaching for the floating phone. NARRATOR: &quot;The boat drifts one way. The ring light sinks the other. And the wind pushes Tanner out past the reef.&quot;</td></tr><tr><td>S02: &quot;The only one who can find him is the pet he tried to sell.&quot;</td><td>Pet Tornado: &quot;The only thing that can stop it is your pet.&quot;</td><td>Medium</td><td>&quot;And his only hope has fins, and a grudge.&quot; or &quot;And the one who comes for him is the shark he tried to sell.&quot;</td></tr><tr><td>S02: &quot;So, what if you had a pet megalodon?&quot; and the title &quot;What If You Had a PET Megalodon?&quot;</td><td>&quot;So, what if you had a pet tornado?&quot; and DOOMPERK&#x27;s 9.4x hit &quot;What If You Had a PET Tornado?&quot;</td><td>Medium: one word off their title, with the same CAPS word</td><td>Decision for Bryce (the slate is his gate). Option: &quot;What If a Baby MEGALODON Landed in Your Pool?&quot; with the drop &quot;So, what if a baby megalodon landed in your pool?&quot; (still inside 153 words)</td></tr><tr><td>S26: &quot;So, what was real? ... What we made up: ... And one real rule.&quot;</td><td>Pet Tornado: &quot;So is any of this real? ... all real ... we made that up. And the real rule, ...&quot;</td><td>Medium: the format is allowed, the wording is too close</td><td>&quot;So how much of that could happen? ... The parts we invented: ... And one rule worth keeping.&quot;</td></tr><tr><td>S27: back to an early day, the rival&#x27;s offer, &quot;Do you take it? Comment Cash or Meatball.&quot;</td><td>Island: &quot;Day three. Riker has the palms... Which camp do you sleep in? Comment Riker or Rocks.&quot;</td><td>Low</td><td>Keep the two-option question; change the frame as in section 3</td></tr><tr><td>S01: &quot;His name is Meatball.&quot; / &quot;You named a shark Meatball?&quot;</td><td>Pet Tornado: &quot;His name is Spinny.&quot; / &quot;He&#x27;s a tornado, Pia.&quot;</td><td>Low</td><td>&quot;I&#x27;m calling him Meatball.&quot;</td></tr><tr><td>S10 &quot;For the first time in his career&quot;, S24 &quot;For the first time, Tanner says...&quot;</td><td>Both references use &quot;For the first time&quot; as a turn marker</td><td>Low</td><td>Change one: S24 &quot;Tanner says something with no camera on. It is a first.&quot;</td></tr></table>
+<h4>5. TTS readiness</h4>
+<p>Script check run over every spoken line: no digits, no abbreviations, no parentheses, no em or en dashes. Digits appear only on CARD and name-card lines, which are on screen. Two small fixes:</p>
+<li>S20 Tanner: &quot;Come help me with a, uh, night photo shoot.&quot; TTS often reads &quot;uh&quot; badly. Write &quot;Come help me with a... night photo shoot.&quot; or use a pause tag.</li>
+<li>S10 Tanner: &quot;Nine ninety nine each.&quot; Reads fine for a hype voice; &quot;Nine ninety nine a tooth&quot; is clearer.</li>
+<p>Pronunciation hints (British or NZ English):</p>
+<table><tr><th>Word</th><th>IPA</th></tr><tr><td>megalodon, megalodons</td><td>/ˈmɛɡələdɒn/, /ˈmɛɡələdɒnz/</td></tr><tr><td>Adeyemi</td><td>/ˌɑːdeɪˈjɛmi/</td></tr><tr><td>Sloane</td><td>/sləʊn/</td></tr><tr><td>Marlene</td><td>/mɑːˈliːn/</td></tr><tr><td>Wren</td><td>/rɛn/</td></tr><tr><td>kilocalories</td><td>/ˈkɪləʊˌkæləriz/</td></tr><tr><td>cartilage</td><td>/ˈkɑːtɪlɪdʒ/</td></tr><tr><td>fossilises</td><td>/ˈfɒsɪlaɪzɪz/</td></tr><tr><td>livestreams</td><td>/ˈlaɪvstriːmz/ (TTS may say &quot;liv&quot;)</td></tr><tr><td>Panama</td><td>/ˈpænəmɑː/</td></tr><tr><td>lagoon</td><td>/ləˈɡuːn/</td></tr><tr><td>tentative</td><td>/ˈtɛntətɪv/</td></tr><tr><td>chlorine (if voiced)</td><td>/ˈklɔːriːn/</td></tr><tr><td>merch</td><td>/mɜːtʃ/</td></tr><tr><td>Fisheries</td><td>/ˈfɪʃəriz/</td></tr></table>
+<h4>6. Retention: three weakest moments</h4>
+<li><b>Scene 12 (day 12, size debate):</b> two people sit still while the narrator reads three lines of size numbers and cartilage. Fix: make the growth do something (Meatball&#x27;s fin bumps Doug&#x27;s feet off the edge, Tanner measures him with a tape for a &quot;biggest shark&quot; listing) and move the cartilage line to scene 26.</li>
+<li><b>Scene 18 (day 24, great white):</b> a real threat arrives, then four science beats in a row while it only hovers, and it leaves on its own. Fix: keep the cousin and size facts, move the extinction-causes beat to scene 26, and let the great white bump the kayak so Doug has to tap Meatball in behind him (this also adds the action time the runtime needs).</li>
+<li><b>Scene 26 (honesty close, 134 words, longest scene, no cast):</b> the climax is over and a solo narrator reads a list, the classic drop point. Fix: split it across the cast (Wren says what was real, Hobbs gives the safety rules, Tanner gets one joke) and tease the comment question at the start of the scene (&quot;Stay for one choice at the end&quot;).</li>
+<h4>Verdict</h4>
+<p>VERDICT: PASS WITH FIXES</p>
+<p>Must fix before voicing:</p>
+<li>Add a real &quot;never feed, touch or chase a wild shark&quot; line and sourced card to scene 26 (Hawaii DLNR and HRS 188-40.6, Florida Museum); the story models keeping, hand feeding and touching a shark.</li>
+<li>Complete the made-up list in scene 26: a shark that comes when called, senses a person across the open sea and pushes him to safety (the real electric sense works only up close), and the laws Officer Hobbs quoted.</li>
+<li>Rewrite the climax mechanism and the scene 21 line &quot;The tide is running out through the reef gap. It carries Tanner into open water.&quot; It near-copies the island video&#x27;s reef-gap tide climax.</li>
+<li>Rephrase scene 02 &quot;The only one who can find him is the pet he tried to sell.&quot; (near-copy of Pet Tornado).</li>
+<li>Rephrase the scene 26 honesty wording (&quot;So, what was real? ... What we made up ... And one real rule.&quot;) away from Pet Tornado&#x27;s.</li>
+<li>Scene 09 card header &quot;STRONGEST BITE KNOWN&quot; to &quot;MONSTER BITE&quot;.</li>
+<li>Scenes 07 and 23: &quot;Every living thing&quot; to &quot;Every animal&quot;.</li>
+<li>Hedge scene 11 &quot;Real megalodons grew slowly&quot; and scene 15 &quot;Megalodon babies grew up in nurseries&quot;; fix the scene 03 tooth card to &quot;The biggest teeth reach about 18 centimetres&quot;.</li>
+<li>Time the voiced draft; at 1,860 words it may run under the 10 minute floor. If so, add action (retention fix 2), not more lecture.</li>
+<p>Should fix: the title and title drop are one word off DOOMPERK&#x27;s &quot;What If You Had a PET Tornado?&quot; (Bryce&#x27;s call); four hundred buckets to four thousand; scene 27 &quot;back to day six&quot; continuity; &quot;a, uh,&quot; in scene 20; one of the two &quot;For the first time&quot; lines; retention fixes 1 and 3; set the audience to not made for kids.</p></details>
+<details class="card"><summary>Full script</summary><h3>What If a Baby MEGALODON Lived in Your Pool for 30 Days? (working title: What If You Had a PET Megalodon?)</h3>
+<p>&lt;!-- words: 1860 --&gt;</p>
+<h4>CAST</h4>
+<table><tr><th>id</th><th>name</th><th>role</th><th>voice brief</th></tr><tr><td>narrator</td><td>Narrator</td><td>Calm second person storyteller who talks to the viewer as you</td><td>Man, forties, calm, deadpan and dry, warm underneath, unhurried</td></tr><tr><td>doug</td><td>Doug</td><td>You, the viewer: a cheerful, hopeful, slightly gullible pet owner in a red cap</td><td>Man, late twenties, bright and eager, short happy bursts</td></tr><tr><td>tanner</td><td>Tanner Sloane</td><td>Rival: next door neighbour and small time influencer who wants to sell the shark</td><td>Man, mid twenties, loud presenter energy, fast, always performing</td></tr><tr><td>wren</td><td>Wren Adeyemi</td><td>Science sidekick: bait shop worker and marine biology student</td><td>Woman, early twenties, flat, dry and quick, never impressed</td></tr><tr><td>hobbs</td><td>Officer Marlene Hobbs</td><td>Authority: local fisheries officer</td><td>Woman, fifties, low and gravelly, slow, bone dry</td></tr></table>
+<h4>SETS</h4>
+<table><tr><th>id</th><th>description</th></tr><tr><td>backyard_pool_storm</td><td>Night, heavy rain and lightning. A small suburban backyard with a rectangular swimming pool, a low wooden back fence, sand dunes and dark sea beyond the fence, the neighbour&#x27;s lit window on the right</td></tr><tr><td>ocean_title</td><td>Deep blue open ocean seen from underwater, light rays from the surface, a huge dark shark silhouette far below, empty space in the middle for the title</td></tr><tr><td>backyard_pool</td><td>Same backyard in bright morning sun: blue pool, white tiles, deckchair, garden hose, wooden fence with the neighbour&#x27;s house behind, dunes and sea past the back fence</td></tr><tr><td>doug_kitchen</td><td>Small messy kitchen: fridge with the door open and empty shelves, a pile of fish shop receipts on the bench, a window over the sink that looks at the neighbour&#x27;s house</td></tr><tr><td>bait_shop</td><td>Cramped seaside bait shop: fishing rods on the wall, bait buckets, a glass counter, a big paper map of the coast pinned behind the counter</td></tr><tr><td>lagoon_nursery</td><td>Bright shallow lagoon with clear green water, a white sand bottom, a curved reef with one gap to the open sea, a concrete boat ramp and a wooden sign reading GULL LAGOON MARINE RESERVE</td></tr><tr><td>harbour_dock</td><td>Small harbour at dusk: wooden jetty, a few small boats tied up, orange sky, coiled ropes and a lamp post</td></tr><tr><td>reef_edge_night</td><td>Midnight at the reef gap: black sea, white surf on the reef, stars, the lagoon calm behind and open swell in front</td></tr><tr><td>open_sea_night</td><td>Open ocean at night: black water to every edge, a few stars, small waves, no land in sight</td></tr><tr><td>beach_dawn</td><td>Beach at dawn: pink and gold sky, wet sand, the reef in the distance, a small boat stranded on rocks at one end</td></tr><tr><td>honesty_studio</td><td>Clean flat background in Doug&#x27;s colours, red and navy, with space for icons and text to pop in</td></tr></table>
+<h4>PROPS</h4>
+<table><tr><th>id</th><th>description</th></tr><tr><td>meatball_2m</td><td>Megalodon pup, two metres long: chunky grey shark body, pale belly, big round friendly eyes, a wide grin full of small triangle teeth, dark dots on the snout</td></tr><tr><td>meatball_3m</td><td>The same pup at three metres: longer and thicker, same eyes, dots and grin, fills most of the pool</td></tr><tr><td>meatball_4m</td><td>The same shark at four metres: sleeker, slightly more grown up face, same eyes and snout dots</td></tr><tr><td>doug_torch</td><td>Yellow plastic torch with a beam</td></tr><tr><td>ring_light_phone</td><td>Tanner&#x27;s phone on a black gimbal stick with a round white ring light clipped on, red LIVE dot on the screen</td></tr><tr><td>bait_bucket</td><td>White plastic bucket with a handle, sloshing sea water</td></tr><tr><td>tin_of_meatballs</td><td>Open tin of meatballs in sauce with a fork in it</td></tr><tr><td>fishing_rod_fish</td><td>Fishing rod with a silver fish dangling from the line</td></tr><tr><td>kid_sandpit</td><td>Pile of yellow sand tipped into the shallow end of the pool, with a toy spade</td></tr><tr><td>crayon_contract</td><td>One page contract titled PARTNERSHIP, signed in big orange crayon</td></tr><tr><td>watermelon_selfie_stick</td><td>Whole watermelon taped to the end of a long selfie stick</td></tr><tr><td>filter_basket_teeth</td><td>Pool filter basket full of small white triangle shark teeth</td></tr><tr><td>hobbs_ute</td><td>White fisheries ute with a blue stripe and the word FISHERIES on the door</td></tr><tr><td>giant_net</td><td>Huge net on a long pole, longer than the ute</td></tr><tr><td>hobbs_clipboard</td><td>Brown clipboard with a form and a pen on a string</td></tr><tr><td>coast_map</td><td>Paper map of the coast with a lagoon circled in red marker</td></tr><tr><td>fossil_tooth</td><td>Big dark grey fossil megalodon tooth, about hand sized, used as a paperweight</td></tr><tr><td>fish_truck</td><td>Small truck with a big blue water tank on the back and a ramp</td></tr><tr><td>orange_kayak</td><td>Orange inflatable two person kayak with paddles</td></tr><tr><td>great_white</td><td>Great white shark: grey back, white belly, black eyes, tall dorsal fin, bigger than Meatball</td></tr><tr><td>rented_boat</td><td>Small white aluminium motor boat with a RENTAL sticker</td></tr><tr><td>headlamps</td><td>Two head torches with bright white beams</td></tr><tr><td>foil_blanket</td><td>Shiny silver emergency blanket</td></tr><tr><td>fish_snack</td><td>Single silver fish, thrown as a treat</td></tr><tr><td>fish_receipts</td><td>Long curly pile of fish shop receipts</td></tr></table>
+<h4>SCENE 01 | set: backyard_pool_storm | day: 1</h4>
+<p>[Night, rain, lightning. Doug in pyjamas and his red cap stands at the edge of the pool holding doug_torch. A grey fin circles. meatball_2m surfaces and grins at him.]</p>
+<p>NARRATOR: Last night, a storm threw a two metre shark over your back fence and into your swimming pool.</p>
+<p>NARRATOR: It&#x27;s a baby. And it seems to like you.</p>
+<p>DOUG [delighted]: Hi, buddy!</p>
+<p>[Over the fence, a ring light snaps on. Tanner leans over with ring_light_phone. Name card: TANNER SLOANE, 41,000 FOLLOWERS.]</p>
+<p>TANNER [hyped]: Doug! Is that a shark? Don&#x27;t move. This is content.</p>
+<p>WORD: CONTENT</p>
+<p>NARRATOR: Your neighbour, Tanner Sloane. Forty one thousand followers. He has met four of them.</p>
+<p>DOUG [proud]: His name is Meatball.</p>
+<p>TANNER: You named a shark Meatball?</p>
+<p>[Doug holds up tin_of_meatballs, empty.]</p>
+<p>DOUG: He ate my meatballs.</p>
+<h4>SCENE 02 | set: ocean_title | day: -</h4>
+<p>[Flash forwards, one quick image per beat: the pool too small, Hobbs with giant_net, Tanner shaking hands with a shadowy buyer, then black water and a single splash.]</p>
+<p>NARRATOR: Here is your next month. A pool that shrinks every morning. A fisheries officer with a very large net.</p>
+<p>NARRATOR: A neighbour who wants to sell your pet to a stranger.</p>
+<p>NARRATOR: And on night thirty, Tanner is alone in the open sea, in the dark, next to a hungry megalodon.</p>
+<p>NARRATOR: And the shark he tried to sell gets to decide what happens next.</p>
+<p>WORD: PET MEGALODON</p>
+<p>NARRATOR: So, what if a baby megalodon lived in your pool for thirty days?</p>
+<h4>SCENE 03 | set: backyard_pool | day: 1</h4>
+<p>[Morning. Storm over. Wren in a bait shop apron stares into the pool. Doug kneels at the edge. Name card: WREN ADEYEMI, BAIT SHOP, MARINE BIOLOGY STUDENT.]</p>
+<p>NARRATOR: Wren Adeyemi works at the bait shop and is two years into a marine biology degree.</p>
+<p>WREN [flat]: Doug. That&#x27;s a megalodon.</p>
+<p>DOUG: Is that a type of goldfish?</p>
+<p>WREN: It&#x27;s a type of extinct.</p>
+<p>CARD: GONE FOR MILLIONS OF YEARS | Megalodon died out about 3.6 million years ago | SOURCE: Natural History Museum, PeerJ 2019</p>
+<p>NARRATOR: Megalodon died out about three point six million years ago. Older books said two point six, until a twenty nineteen fossil study pushed it back.</p>
+<p>CARD: WHAT THE NAME MEANS | Megalodon means big tooth | SOURCE: Natural History Museum, Smithsonian</p>
+<p>WREN: The name means big tooth. Look at that jaw.</p>
+<p>CARD: BIG TOOTH | The biggest teeth reach about 18 centimetres | SOURCE: Natural History Museum, Smithsonian</p>
+<p>NARRATOR: The biggest megalodon teeth reach about eighteen centimetres. Meatball&#x27;s are smaller. For now.</p>
+<p>DOUG [fond]: He&#x27;s got a lovely smile.</p>
+<h4>SCENE 04 | set: backyard_pool | day: 1</h4>
+<p>[Meatball drifts sideways near the surface, sluggish. A chlorine float bobs past.]</p>
+<p>WREN: Problem. Your pool is fresh water with chlorine in it.</p>
+<p>DOUG [worried]: Is he sad?</p>
+<p>WREN: He&#x27;s a sea animal, Doug. His whole body runs on salt.</p>
+<p>CARD: SALT WATER ONLY | Only a few sharks, like bull sharks, survive fresh water long | SOURCE: Florida Museum, Shark Trust</p>
+<p>NARRATOR: Sharks keep a careful balance of salt and water inside them. Only a few, like bull sharks, survive long in fresh water.</p>
+<p>DOUG: Can I just add salt?</p>
+<p>WREN: From what, Doug? Chips?</p>
+<h4>SCENE 05 | set: backyard_pool | day: 1</h4>
+<p>[Montage: Doug and Wren carry bait_bucket after bait_bucket from the beach, over the dunes, into the pool. Tanner films from a deckchair.]</p>
+<p>NARRATOR: So you swap the pool water for sea water, one bucket at a time.</p>
+<p>WORD: FOUR THOUSAND BUCKETS</p>
+<p>DOUG [panting]: Bucket three thousand, nine hundred and ninety nine.</p>
+<p>TANNER [to phone]: Bucket four thousand, chat! We did it!</p>
+<p>NARRATOR: Tanner carried no buckets. He filmed all four thousand.</p>
+<h4>SCENE 06 | set: backyard_pool | day: 2</h4>
+<p>[Meatball hangs still, staring up at Doug with big eyes, then slowly tilts and sinks towards the pool floor.]</p>
+<p>NARRATOR: Day two. Meatball stops swimming to stare at you. Then he starts to sink.</p>
+<p>DOUG [panicked]: Wren! He&#x27;s broken!</p>
+<p>WREN: Lots of sharks have to keep moving to push water over their gills.</p>
+<p>CARD: SWIM TO BREATHE | Many sharks must keep moving to breathe | SOURCE: Shark Trust, NOAA Fisheries</p>
+<p>NARRATOR: Nurse sharks can pump water and rest on the bottom. Many others must keep swimming, or they cannot breathe.</p>
+<p>WREN: Nobody can test a megalodon, so we treat him like a swimmer.</p>
+<p>[Doug turns the pool jets to full, then walks laps of the pool holding fishing_rod_fish. Meatball follows the fish round and round.]</p>
+<p>NARRATOR: Your fix is the pool pump on full and a fish on a fishing rod. You walk laps until midnight.</p>
+<p>WORD: KEEP SWIMMING</p>
+<p>DOUG [dizzy]: Lap two hundred. He&#x27;s breathing. I&#x27;m not.</p>
+<h4>SCENE 07 | set: backyard_pool | day: 3</h4>
+<p>[Night. Pool light off. kid_sandpit tipped into the shallow end. Doug pushes his hand under the sand. Wren crouches beside him.]</p>
+<p>NARRATOR: Day three. Wren teaches you a game.</p>
+<p>WREN: Bury your hand. Lights off. Don&#x27;t move.</p>
+<p>DOUG [whisper]: He&#x27;ll never find me.</p>
+<p>[Instantly, Meatball&#x27;s snout bumps the exact spot. Close up on the dark dots on his snout.]</p>
+<p>DOUG [delighted]: Found me!</p>
+<p>WREN: Every animal makes a tiny electric field when its muscles work. Even you, somehow.</p>
+<p>CARD: SIXTH SENSE | Pores on a shark&#x27;s snout sense faint electric fields | SOURCE: Florida Museum, NOAA Fisheries</p>
+<p>NARRATOR: Those dark dots on his snout sense faint electric fields. Sharks use them to find prey hidden under sand.</p>
+<p>[Doug taps the surface twice with two fingers. Meatball finds his hand. Doug gives him fish_snack.]</p>
+<p>NARRATOR: So you make it a rule. You tap the water twice. He finds your hand. He gets a fish.</p>
+<p>WORD: TAP TAP</p>
+<p>DOUG: Tap, tap, find, fish!</p>
+<p>NARRATOR: Hold on to that.</p>
+<h4>SCENE 08 | set: doug_kitchen | day: 6</h4>
+<p>[Fridge open and empty. fish_receipts curl across the bench. Doug and Wren stare into the fridge.]</p>
+<p>NARRATOR: Day six. Meatball has eaten everything in your fridge, your freezer, and a frozen turkey you were saving for a special occasion.</p>
+<p>DOUG: He&#x27;s a growing boy.</p>
+<p>WREN: He&#x27;s a furnace. A twenty twenty three study of megalodon teeth says it ran warm.</p>
+<p>CARD: WARM BODIED SHARK | Teeth suggest about 7 degrees warmer than the sea | SOURCE: UCLA, PNAS 2023</p>
+<p>NARRATOR: About seven degrees warmer than the sea around it, the team estimated. Staying warm burns a lot of fuel.</p>
+<p>CARD: A HUNGRY GIANT | Model: an adult needed over 98,000 kilocalories daily | SOURCE: University of Zurich, Science Advances</p>
+<p>NARRATOR: One computer model says a sixteen metre adult needed more than ninety eight thousand kilocalories a day.</p>
+<p>DOUG [counting on his fingers]: How many fish fingers is that?</p>
+<p>WREN: All of them, Doug.</p>
+<p>[Tanner leans in through the window over the sink, holding crayon_contract and an orange crayon.]</p>
+<p>TANNER: Doug, buddy. I can fix your money problem. Partnership. I handle the brand, you handle the buckets. Sixty forty.</p>
+<p>DOUG [eager]: Sixty for me?</p>
+<p>TANNER: Totally.</p>
+<p>WORD: SIGNED</p>
+<p>NARRATOR: It was not sixty for you. You sign it anyway, in crayon, because his pens are for clients.</p>
+<h4>SCENE 09 | set: backyard_pool | day: 9</h4>
+<p>[ring_light_phone on a tripod at the pool edge. Tanner holds watermelon_selfie_stick out over the water. Doug winces.]</p>
+<p>NARRATOR: Day nine. Tanner livestreams feeding time.</p>
+<p>TANNER [presenter voice]: Chat, today we test the bite. One watermelon. Three, two.</p>
+<p>[CRUNCH. Watermelon, selfie stick and ring light vanish in one bite. Tanner holds only the handle.]</p>
+<p>CARD: MONSTER BITE | Estimated 6 to 10 times a great white&#x27;s bite | SOURCE: Natural History Museum, Wroe 2008</p>
+<p>NARRATOR: One model put the adult megalodon bite at six to ten times a great white&#x27;s. Meatball is a baby, and he is practising.</p>
+<p>TANNER: That ring light was sponsored!</p>
+<p>DOUG: He thought it was the moon.</p>
+<h4>SCENE 10 | set: backyard_pool | day: 10</h4>
+<p>[Morning. Doug lifts filter_basket_teeth out of the pool filter and shakes it. Teeth rattle.]</p>
+<p>NARRATOR: Every morning, the pool filter is full of teeth.</p>
+<p>WREN: Sharks shed teeth all the time. New rows slide forward like a conveyor belt.</p>
+<p>CARD: TOOTH CONVEYOR BELT | Some sharks go through 30,000 teeth or more | SOURCE: Natural History Museum, NOAA Fisheries</p>
+<p>NARRATOR: Some sharks go through thirty thousand teeth in a lifetime. Tanner sees a business.</p>
+<p>TANNER [to phone]: Real megalodon teeth. Nine ninety nine each. Link in bio.</p>
+<p>NARRATOR: For the first time in his career, Tanner&#x27;s advert is completely true.</p>
+<h4>SCENE 11 | set: backyard_pool | day: 12</h4>
+<p>[meatball_3m now touches both ends of the pool. Water slops over the edges onto the deckchair.]</p>
+<p>NARRATOR: Day twelve. Meatball is three metres long. The pool is not.</p>
+<p>WREN: This is weird. One fossil says real megalodons grew slowly.</p>
+<p>CARD: GROWTH RINGS | One fossil backbone suggests 16 centimetres a year | SOURCE: Science News, Live Science</p>
+<p>NARRATOR: Sharks lay down rings in their backbones, a bit like a tree. One fossil megalodon grew about sixteen centimetres a year.</p>
+<p>WORD: GROWTH SPURT</p>
+<p>DOUG [proud]: He&#x27;s skipping grades.</p>
+<p>CARD: BIG BABIES | Birth size estimates run from 2 to almost 4 metres | SOURCE: Science News, DePaul University</p>
+<p>NARRATOR: Even the babies are argued about. One study said two metres at birth. A twenty twenty five study said nearly four.</p>
+<h4>SCENE 12 | set: backyard_pool | day: 12</h4>
+<p>[Doug and Wren sit on the pool edge with their feet up out of the water. Meatball&#x27;s fin passes between them.]</p>
+<p>DOUG: How big does he get?</p>
+<p>WREN: Depends which scientist you ask.</p>
+<p>CARD: HOW BIG? NOBODY AGREES | Estimates range from about 15 to 24 metres | SOURCE: Natural History Museum, DePaul University</p>
+<p>NARRATOR: Older estimates said fifteen to eighteen metres. The twenty twenty five study said up to twenty four, and slimmer, like a lemon shark.</p>
+<p>NARRATOR: Other experts call that slim shape tentative. Scientists still disagree.</p>
+<p>CARD: TEETH, NOT SKELETONS | Cartilage rarely fossilises, so mostly teeth survive | SOURCE: Natural History Museum, Science News</p>
+<p>NARRATOR: Why the fight? Nobody has found a whole megalodon. Shark skeletons are cartilage, which rarely fossilises. We mostly have teeth and a few backbones.</p>
+<p>[Meatball&#x27;s tail slaps the water and soaks them both.]</p>
+<p>DOUG [delighted]: He heard twenty four. He&#x27;s very motivated.</p>
+<p>WREN [flat]: I&#x27;m very wet.</p>
+<h4>SCENE 13 | set: backyard_pool | day: 15</h4>
+<p>[hobbs_ute in the driveway. Officer Hobbs in a navy uniform holds hobbs_clipboard, with giant_net over her shoulder. Tanner hovers behind her, phone up. Name card: OFFICER MARLENE HOBBS, FISHERIES.]</p>
+<p>NARRATOR: Day fifteen. Somebody has made a phone call.</p>
+<p>HOBBS [dry]: Marlene Hobbs, Fisheries. I&#x27;ve had a report of a shark in a domestic pool.</p>
+<p>DOUG: He&#x27;s very domestic.</p>
+<p>HOBBS: Species?</p>
+<p>WREN: Megalodon.</p>
+<p>HOBBS: That&#x27;s extinct.</p>
+<p>DOUG [whisper]: Please don&#x27;t tell him.</p>
+<p>HOBBS [writing]: I do not have a form for extinct.</p>
+<p>TANNER [to phone]: For the record, chat, I&#x27;m the one who called it in. Exclusive capture footage, tonight.</p>
+<p>DOUG [quiet]: You called her?</p>
+<p>TANNER: It&#x27;s business, Doug. Read the contract. Oh wait, you signed it in crayon.</p>
+<p>NARRATOR: The contract gives Tanner the film rights, the merch rights, and, somehow, your car.</p>
+<p>HOBBS: That shark cannot live in a pool. You have two weeks to show me a plan, or he goes to a research tank.</p>
+<p>WORD: TWO WEEKS</p>
+<h4>SCENE 14 | set: backyard_pool | day: 15</h4>
+<p>[Night. Doug lies on the deckchair at the pool edge in his red cap, wrapped in a towel. Meatball swims slow laps past him.]</p>
+<p>NARRATOR: That night, you sleep beside the pool.</p>
+<p>DOUG [sleepy]: Research tank sounds like school, buddy. You&#x27;d hate school.</p>
+<p>NARRATOR: Meatball swims past your chair every eleven seconds. You count. You have nothing else to do.</p>
+<p>DOUG: I&#x27;ll find you somewhere big. Promise.</p>
+<h4>SCENE 15 | set: bait_shop | day: 16</h4>
+<p>[Wren behind the counter circles a lagoon on coast_map in red marker. fossil_tooth sits on the counter as a paperweight. Doug leans on the glass.]</p>
+<p>WREN: Some fossils suggest megalodon babies grew up in nurseries. Shallow coastal water, plenty of food, fewer big predators.</p>
+<p>CARD: SHARK NURSERY | Panama fossils show young megalodons in an ancient shallow sea | SOURCE: Florida Museum, PLOS ONE 2010</p>
+<p>NARRATOR: In Panama, scientists found ten million year old teeth from mostly young megalodons, in what was once a shallow sea.</p>
+<p>NARRATOR: It is one old fossil site, not a guarantee. But it is the best plan you have.</p>
+<p>WORD: THE PLAN</p>
+<p>WREN: Gull Lagoon. Shallow, sheltered, full of fish, and it&#x27;s a marine reserve. No fishing allowed.</p>
+<p>DOUG: How do we move a three metre shark?</p>
+<p>WREN: Carefully. And with Officer Hobbs.</p>
+<h4>SCENE 16 | set: lagoon_nursery | day: 20</h4>
+<p>[fish_truck backs down the boat ramp. meatball_3m slides out into clear green water. Doug follows in orange_kayak, Wren in the back seat. Hobbs watches from the ramp.]</p>
+<p>NARRATOR: Day twenty. Hobbs lends you a fish truck, because, again, there is no form.</p>
+<p>HOBBS: I was never here.</p>
+<p>NARRATOR: In the lagoon, Meatball cruises beside your kayak. You can just about keep up.</p>
+<p>CARD: CRUISING SPEED | Estimates run from about 2 to 5 kilometres an hour | SOURCE: University of Zurich, DePaul University</p>
+<p>NARRATOR: One model gives an adult a cruising speed of about five kilometres an hour. A newer study says two to three and a half.</p>
+<p>DOUG [paddling hard]: He&#x27;s showing off!</p>
+<p>WREN: He&#x27;s cruising. You&#x27;re sweating.</p>
+<h4>SCENE 17 | set: lagoon_nursery | day: 22</h4>
+<p>[A school of silver fish flashes across the sand. Meatball darts through it and comes up chewing. Doug cheers from the kayak.]</p>
+<p>NARRATOR: Day twenty two. Meatball catches his first fish on his own.</p>
+<p>DOUG [cheering]: That&#x27;s my boy!</p>
+<p>WREN: Fish now. Adults went for bigger things.</p>
+<p>CARD: WHALE HUNTER | Fossil whale bones carry megalodon bite marks | SOURCE: Natural History Museum, University of Zurich</p>
+<p>NARRATOR: Adult megalodons ate whales. Fossil whale bones still carry their bite marks.</p>
+<p>DOUG: He&#x27;d never hurt a whale.</p>
+<p>WREN: He ate a ring light, Doug.</p>
+<h4>SCENE 18 | set: lagoon_nursery | day: 24</h4>
+<p>[A tall fin slides along the reef gap: great_white. Meatball tucks in behind the kayak, only his eyes showing.]</p>
+<p>NARRATOR: Day twenty four. A visitor at the reef gap.</p>
+<p>DOUG: Is that his mum?</p>
+<p>WREN: That&#x27;s a great white. Not his mum. More like a cousin who wants his lunch.</p>
+<p>CARD: COUSINS, NOT FAMILY | Megalodon was not the great white&#x27;s ancestor | SOURCE: Natural History Museum, Florida Museum</p>
+<p>NARRATOR: Megalodon came from a separate family line. It was not a giant great white, and not its grandparent.</p>
+<p>DOUG [whisper]: Don&#x27;t make eye contact, buddy. Act natural.</p>
+<p>NARRATOR: Meatball acts natural by hiding his entire body behind a plastic kayak.</p>
+<p>CARD: GREAT WHITE SIZE | Adults grow to about 6 metres | SOURCE: NOAA Fisheries, Smithsonian</p>
+<p>NARRATOR: Great whites grow to about six metres. Right now, that is still bigger than Meatball.</p>
+<p>WREN: Some scientists think great whites competing for food helped finish megalodon off.</p>
+<p>CARD: WHY THEY VANISHED | Cooling seas, lost nurseries, maybe great white competition | SOURCE: Natural History Museum, Max Planck Society</p>
+<p>NARRATOR: Add a cooling planet, shrinking coastal nurseries, and a warm body that needed huge meals. Nobody is sure which mattered most.</p>
+<p>[The great white turns and slides back out through the gap.]</p>
+<p>NARRATOR: Today, at least, the cousin swims away.</p>
+<h4>SCENE 19 | set: lagoon_nursery | day: 28</h4>
+<p>[Hobbs stands on the boat ramp with hobbs_clipboard, watching Meatball patrol the shallows. Doug and Wren wait beside her. Tanner lurks behind a parked car, phone up.]</p>
+<p>NARRATOR: Day twenty eight. Inspection.</p>
+<p>HOBBS: Eating on his own?</p>
+<p>WREN: Every day.</p>
+<p>HOBBS: Staying inside the reef?</p>
+<p>DOUG: Mostly. He comes when I tap.</p>
+<p>HOBBS [writing]: Fine. I sign the release tomorrow. Until then, nobody goes near him at night.</p>
+<p>NARRATOR: Behind a parked car, somebody hears the word tomorrow.</p>
+<h4>SCENE 20 | set: harbour_dock | day: 29</h4>
+<p>[Dusk. Tanner stands by rented_boat with giant_net coiled inside it, talking to his phone. Doug walks up behind him carrying a bag of fish.]</p>
+<p>NARRATOR: Day twenty nine. Tomorrow, Hobbs signs off the release. Tanner has a different plan.</p>
+<p>TANNER [to phone]: Midnight. One capture. One private buyer. Biggest stream of my life.</p>
+<p>NARRATOR: He has never driven a boat. He has watched half a video about it.</p>
+<p>TANNER [spotting Doug]: Doug! Perfect. Come help me with a night photo shoot. Seventy thirty. Your way.</p>
+<p>NARRATOR: A month ago, you would have said yes.</p>
+<p>DOUG: No.</p>
+<p>TANNER: Eighty twenty?</p>
+<p>DOUG: I read the crayon contract, Tanner.</p>
+<p>WORD: NOT THIS TIME</p>
+<p>NARRATOR: So you do not get in the boat. You call Wren.</p>
+<h4>SCENE 21 | set: reef_edge_night | day: 30</h4>
+<p>[Midnight. rented_boat drifts at the reef gap, the ring light glowing on the water. Tanner leans far out with giant_net. No life jacket.]</p>
+<p>NARRATOR: Day thirty. Midnight. Tanner, a borrowed net, a ring light, and no life jacket.</p>
+<p>TANNER [whispering to phone]: Chat, he&#x27;s right there. Get ready to.</p>
+<p>[Splash. The phone and ring light sink, glowing, into the dark. The empty boat drifts off.]</p>
+<p>WORD: SPLASH</p>
+<p>NARRATOR: The net snags the motor. The boat spins off into the dark without him.</p>
+<p>NARRATOR: When Tanner comes up, the boat is a tiny light, and the shore is gone.</p>
+<h4>SCENE 22 | set: open_sea_night | day: 30</h4>
+<p>[Black water. Doug and Wren in orange_kayak, headlamps on, two beams sweeping. Somewhere, splashing.]</p>
+<p>TANNER [scared]: Doug? Doug! I can&#x27;t see anything!</p>
+<p>WREN: Night is when lots of sharks feed. And he&#x27;s splashing like a dinner bell.</p>
+<p>NARRATOR: Your headlamp shows you three metres of water. The sea is a lot bigger than three metres.</p>
+<p>DOUG: Meatball can&#x27;t see him either.</p>
+<p>WREN: He doesn&#x27;t need to see.</p>
+<p>DOUG [realising]: Tap, tap.</p>
+<p>[Flash of day three: the sand, the hand, the snout.]</p>
+<p>NARRATOR: Day three. The sand. The hand. Tap, tap, find, fish.</p>
+<h4>SCENE 23 | set: open_sea_night | day: 30</h4>
+<p>[Doug taps the water twice. A big shape glides under the kayak and away into the dark.]</p>
+<p>CARD: SIXTH SENSE | Moving muscles give off faint fields sharks can sense | SOURCE: Florida Museum, Shark Trust</p>
+<p>NARRATOR: Every animal gives off a faint electric field when its muscles move. Tanner&#x27;s muscles are moving a lot.</p>
+<p>TANNER: Something touched my foot. Something huge touched my foot!</p>
+<p>DOUG: Good boy!</p>
+<p>TANNER: That is not a good boy!</p>
+<p>[Meatball rises under Tanner and pushes him, nose first, across the water to the kayak.]</p>
+<p>NARRATOR: He does not bite. He nudges Tanner all the way to your kayak, like a hand under sand.</p>
+<p>WORD: FOUND HIM</p>
+<p>DOUG [tearful]: Fish! He gets a fish!</p>
+<p>TANNER [clinging to the kayak]: Am I the fish?</p>
+<p>WREN: Not tonight.</p>
+<h4>SCENE 24 | set: beach_dawn | day: 31</h4>
+<p>[Dawn. Tanner sits on the sand in foil_blanket. Hobbs holds hobbs_clipboard. Doug and Wren are soaked. rented_boat sits on the rocks.]</p>
+<p>HOBBS: A borrowed net, a rented boat on the rocks, and a man in a foil blanket. Anybody?</p>
+<p>TANNER [quiet]: Me. I called you. I tried to sell him. Doug came out for me anyway.</p>
+<p>NARRATOR: For the first time, Tanner says something without a camera on.</p>
+<p>TANNER: My phone is at the bottom of the reef. Weirdly, I feel great.</p>
+<p>HOBBS: I checked overnight. There is no catch limit for an extinct species. There is also no law against releasing one.</p>
+<p>HOBBS: The lagoon stays a reserve. Nobody fishes in it. That includes you, Mister Sloane.</p>
+<p>DOUG: So he can stay?</p>
+<p>HOBBS: He can stay wild.</p>
+<h4>SCENE 25 | set: lagoon_nursery | day: 31</h4>
+<p>[Morning. Doug wades knee deep at the reef gap. meatball_4m circles once and comes to his hand.]</p>
+<p>NARRATOR: You tap the water twice. He finds your hand one last time.</p>
+<p>NARRATOR: Then he turns for the deep blue, where things his size belong.</p>
+<p>DOUG [waving]: Bye, buddy.</p>
+<p>TANNER: Can I at least film this?</p>
+<p>WREN: No.</p>
+<p>HOBBS: No.</p>
+<p>DOUG: No.</p>
+<h4>SCENE 26 | set: honesty_studio | day: -</h4>
+<p>[Clean background. An icon pops up for each fact as it is named: tooth, jaw, rings, map pin, thermometer, snout dots.]</p>
+<p>NARRATOR: Time to sort the facts from the fiction.</p>
+<p>NARRATOR: Megalodon was real. It vanished about three point six million years ago.</p>
+<p>NARRATOR: The giant teeth, the bite estimates, the growth rings, the Panama nursery, the warm body study and the electric sense all come from real research.</p>
+<p>NARRATOR: So does the arguing. Scientists still disagree about its size, its babies, and its speed.</p>
+<p>NARRATOR: The fiction: a living megalodon, a pup that grows two metres in a month, and a shark that plays hide and seek and comes when you call.</p>
+<p>NARRATOR: A shark&#x27;s electric sense only works up close. No shark could find one swimmer across a dark sea. And Officer Hobbs&#x27;s laws are invented too.</p>
+<p>CARD: BITES ARE RARE | About 70 unprovoked shark bites a year worldwide | SOURCE: Florida Museum, Australian Museum</p>
+<p>NARRATOR: Real shark bites are rare, about seventy unprovoked bites a year worldwide.</p>
+<p>CARD: NEVER FEED SHARKS | Feeding wild sharks is illegal in some places | SOURCE: Hawaii DLNR, Florida Museum</p>
+<p>NARRATOR: But never feed, touch or chase a wild shark. In some places feeding them is against the law, and it can teach them to link people with food.</p>
+<p>CARD: SAFER SWIMMING | Swim with a buddy, avoid dawn, dusk, night and anglers | SOURCE: Florida Museum, University of Florida</p>
+<p>NARRATOR: Swim with a buddy. Stay out of the sea at dawn, dusk and night. And keep away from people fishing.</p>
+<p>NARRATOR: Tanner broke all three in one night.</p>
+<h4>SCENE 27 | set: doug_kitchen | day: 6</h4>
+<p>[Back to the empty fridge. Tanner at the window holds up a fat envelope of cash. Doug looks from the envelope to the pool and back.]</p>
+<p>NARRATOR: One last thing. Go back to day six. Your fridge is empty. This time, Tanner offers you cash for Meatball.</p>
+<p>NARRATOR: Do you take it? Comment Cash or Meatball.</p></details>
+<details class="card"><summary>Facts and sources</summary><h3>w01 What If You Had a PET Megalodon? : fact check</h3>
+<p>Every spoken science claim and every on-screen CARD, with two independent sources. Checked by web search and page fetch on 2026-11-26. Where a page could not be fetched (HTTP 403), the note says the claim was confirmed from the search result text of that page.</p>
+<p>The premise is fiction: megalodon is extinct and no living one exists. The made-up parts are listed in scene 26 of the script and at the bottom of this file.</p>
+<table><tr><th>#</th><th>Claim</th><th>Scene</th><th>Source 1</th><th>Source 2</th><th>Notes on disagreement</th></tr><tr><td>1</td><td>Megalodon died out about 3.6 million years ago; older work said 2.6 million; a 2019 fossil study moved it back</td><td>03, 26</td><td>Natural History Museum, London, &quot;Megalodon: the truth about the largest shark that ever lived&quot; https://www.nhm.ac.uk/discover/megalodon--the-truth-about-the-largest-shark-that-ever-lived.html</td><td>University of Wisconsin Oshkosh release on Boessenecker et al. 2019, PeerJ 7:e6088, via ScienceDaily https://www.sciencedaily.com/releases/2019/02/190213081637.htm</td><td>The 2019 study gives a median of about 3.5 million years with a range of about 3.2 to 4.1 million, and suggests the extinction may not have been at the same time everywhere</td></tr><tr><td>2</td><td>The name megalodon means big tooth</td><td>03</td><td>Natural History Museum, London (same page as 1): &quot;large tooth&quot;</td><td>Smithsonian Ocean Portal, &quot;What the Megalodon Left Behind&quot; https://ocean.si.edu/ocean-life/sharks-rays/what-megalodon-left-behind (&quot;big tooth&quot;; confirmed from search text, page returns 403)</td><td>Britannica and the Florida Museum translate it as &quot;giant tooth&quot;. Same Greek roots, looser wording</td></tr><tr><td>3</td><td>Adult megalodon teeth reached about 18 centimetres</td><td>03</td><td>Natural History Museum, London (same page as 1): &quot;can reach 18 centimetres long&quot;</td><td>Smithsonian Ocean Portal, &quot;The Megalodon&quot; https://ocean.si.edu/ocean-life/sharks-rays/megalodon (&quot;over 7 inches&quot;, about 18 cm; confirmed from search text, page returns 403)</td><td>Britannica gives 17.8 cm for the largest known tooth. &quot;About eighteen&quot; covers both</td></tr><tr><td>4</td><td>Sharks keep a balance of salt and water inside; only a few, like bull sharks, survive long in fresh water</td><td>04</td><td>Florida Museum of Natural History, &quot;Shark Biology&quot; https://www.floridamuseum.ufl.edu/discover-fish/sharks/shark-biology/ (&quot;only a couple shark species&quot;, bull and speartooth)</td><td>Shark Trust, &quot;Creature Feature: Bull Shark&quot; https://www.sharktrust.org/blog/creature-feature-bull-shark (salt and water balance; &quot;only around 5% of shark species can, and most of them only for a short time&quot;)</td><td>Sources differ on the count (a couple of species versus about 5 percent), so the script says only a few</td></tr><tr><td>5</td><td>Many sharks must keep moving to push water over their gills; nurse sharks can pump water and rest on the bottom</td><td>06</td><td>Shark Trust, &quot;Shark Anatomy&quot; https://www.sharktrust.org/discover/shark-anatomy (&quot;many shark species have to remain in constant forward motion&quot;; nurse and zebra sharks pump water while resting)</td><td>Australian Museum, &quot;Shark myths and facts&quot; https://australian.museum/learn/animals/fishes/shark-myths-and-facts/ (some sharks must keep moving; nurse sharks use buccal pumping). Also NOAA Fisheries, &quot;12 Shark Facts That May Surprise You&quot; https://www.fisheries.noaa.gov/feature-story/12-shark-facts-may-surprise-you</td><td>How megalodon breathed is not known, which is why Wren says nobody can test it</td></tr><tr><td>6</td><td>Pores on a shark&#x27;s snout, the ampullae of Lorenzini, sense faint electric fields; sharks use them to find prey hidden under sand</td><td>07</td><td>Florida Museum of Natural History, &quot;Shark Biology&quot; (URL as 4): &quot;can detect weak electric fields&quot;, used to find stingrays buried in sand</td><td>NOAA Fisheries, &quot;12 Shark Facts That May Surprise You&quot; (URL as 5): &quot;special electroreceptor organs&quot;</td><td>None</td></tr><tr><td>7</td><td>Every living animal gives off a faint electric field when its muscles move, and sharks can sense it</td><td>07, 23</td><td>Florida Museum of Natural History, &quot;Shark Biology&quot; (URL as 4): &quot;all living animals emit weak electric fields produced by muscular contractions&quot;</td><td>Shark Trust, &quot;Shark Senses&quot; https://www.sharktrust.org/shark-senses (pores sense &quot;the muscle movements of prey&quot;)</td><td>Finding a person by this sense in open water at night is fiction (see made-up list)</td></tr><tr><td>8</td><td>A 2023 study of megalodon teeth suggests it ran warmer than the sea, about 7 degrees Celsius warmer</td><td>08, 26</td><td>UCLA Newsroom, &quot;Megalodon was warm-blooded&quot; https://newsroom.ucla.edu/releases/megalodon-warm-blooded-extinct-shark (about 7 C warmer than seawater)</td><td>Griffiths et al. 2023, PNAS, full text https://pmc.ncbi.nlm.nih.gov/articles/PMC10318976/ (about 27 C against about 21 C for other sharks, difference 6.9 plus or minus 1.6 C); also DePaul University release https://www.depaul.edu/news/shimada-megalodon-june23</td><td>One site in the paper gives a lower 4 to 6 C offset; the authors call it the low end. Megalodon was probably warm in parts of its body, like great whites, not a fully warm-blooded animal</td></tr><tr><td>9</td><td>Staying warm burns a lot of fuel</td><td>08</td><td>UCLA Newsroom (URL as 8): keeping warm needed a large energy intake</td><td>Griffiths et al. 2023, PNAS (URL as 8): high metabolic cost of elevated body temperature</td><td>None</td></tr><tr><td>10</td><td>One computer model says a 16 metre adult needed more than 98,000 kilocalories a day</td><td>08</td><td>University of Zurich release via EurekAlert, &quot;The extinct megalodon could eat prey the size of orcas&quot; https://www.eurekalert.org/news-releases/961980 (&quot;over 98,000 kilocalories every day&quot;)</td><td>Cooper et al. 2022, Science Advances, full text https://pmc.ncbi.nlm.nih.gov/articles/PMC9385135/ (98,175 kcal a day for a 15.9 m, 61,560 kg model)</td><td>It is a model, not a measurement. The 95 percent range in the paper is about 78,000 to 123,000 kcal</td></tr><tr><td>11</td><td>Megalodon&#x27;s bite was estimated at six to ten times a great white&#x27;s</td><td>09, 26</td><td>Natural History Museum, London (URL as 1): great white 18,216 newtons, megalodon 108,514 to 182,201 newtons</td><td>Discover Magazine on Wroe et al. 2008, Journal of Zoology https://www.discovermagazine.com/ancient-big-tooth-shark-had-the-mightiest-bite-in-history-17417 (great white up to 1.8 tonnes, megalodon 10.8 to 18.2 tonnes)</td><td>Six to ten times is the ratio of these figures. The model only simulated closing the lower jaw, and real bites may differ</td></tr><tr><td>12</td><td>Sharks shed teeth all the time; new rows move forward like a conveyor belt; some sharks go through 30,000 teeth in a lifetime</td><td>10</td><td>Natural History Museum, London, &quot;What can shark teeth tell us?&quot; https://www.nhm.ac.uk/discover/what-can-shark-teeth-tell-us.html (&quot;like a conveyor belt&quot;; &quot;some species of shark can go through 30,000 teeth&quot;)</td><td>NOAA Fisheries, &quot;12 Shark Facts&quot; (URL as 5): &quot;a sandbar shark will have around 35,000 teeth over the course of its lifetime&quot;</td><td>Numbers vary by species, so the card says 30,000 or more</td></tr><tr><td>13</td><td>Sharks lay down growth rings in their backbones, like a tree</td><td>11</td><td>NOAA Fisheries, &quot;12 Shark Facts&quot; (URL as 5): &quot;Band pairs are counted like rings on a tree&quot;</td><td>The Conversation, Tom Fletcher, University of Leicester https://theconversation.com/giant-ancient-sharks-had-enormous-babies-that-ate-their-siblings-in-the-womb-152903 (&quot;Sharks deposit rings of hard tissue on their vertebra each year&quot;)</td><td>None</td></tr><tr><td>14</td><td>One fossil megalodon grew about 16 centimetres a year</td><td>11</td><td>Science News, &quot;Newborn megalodon sharks were larger than most adult humans&quot; https://www.sciencenews.org/article/newborn-megalodon-sharks-fossils-larger-most-adult-humans</td><td>Live Science, &quot;Megalodon shark mamas had human-size cannibal babies&quot; https://www.livescience.com/megalodon-babies-human-size.html (confirmed from search text, page returns 403)</td><td>Based on three vertebrae from one shark (Shimada et al. 2021, Historical Biology), so it may not hold for every megalodon</td></tr><tr><td>15</td><td>One study said megalodon babies were about 2 metres at birth; a 2025 study said nearly 4</td><td>11, 26</td><td>2 m: Science News (URL as 14) and EarthSky https://earthsky.org/earth/megalodon-extinct-giant-shark-enormous-babies/</td><td>Nearly 4 m: DePaul University release, 2025 https://www.depaul.edu/news/megalodon-study-2025 (3.6 to 3.9 m) and UC Riverside News https://news.ucr.edu/articles/2025/03/09/longer-sleeker-super-predator-megalodons-true-form (&quot;nearly 13 feet&quot;)</td><td>A real disagreement, said in the script. Jack Cooper of Swansea University called the fast-growing young idea &quot;highly speculative&quot; (National Geographic)</td></tr><tr><td>16</td><td>Older estimates put megalodon at 15 to 18 metres</td><td>12</td><td>Natural History Museum, London (URL as 1): &quot;between 15 and 18 metres&quot;</td><td>National Geographic, &quot;Maybe megalodon wasn&#x27;t so chonky after all&quot; https://www.nationalgeographic.com/science/article/megalodon-shark-bigger-size-slim-fossil (&quot;around 50 feet (15 meters) max&quot;)</td><td>Cooper et al. 2022 modelled a 16 m adult (row 10)</td></tr><tr><td>17</td><td>A 2025 study said up to 24 metres and slimmer, like a lemon shark</td><td>12, 26</td><td>DePaul University release, 2025 (URL as 15): 24.3 m &quot;the largest possible reasonable estimate&quot;, lemon shark body form</td><td>UC Riverside News (URL as 15): &quot;about 80 feet&quot;, body like a lemon shark; also Natural History Museum (URL as 1) &quot;up to 24.3 metres&quot;</td><td>24.3 m is an upper bound, not a measured animal</td></tr><tr><td>18</td><td>Other experts call the slim shape tentative; scientists still disagree on size</td><td>12, 26</td><td>National Geographic (URL as 16): Jack Cooper, &quot;the support for a slender body form is tentative at best&quot;</td><td>NPR, &quot;That giant extinct shark, Megalodon? Maybe it wasn&#x27;t so mega&quot; https://www.npr.org/2024/01/26/1226649080/that-giant-extinct-shark-megalodon-maybe-it-wasnt-so-mega (a complete skeleton is needed to know for sure)</td><td>This row is the disagreement line itself</td></tr><tr><td>19</td><td>Nobody has found a whole megalodon; shark skeletons are cartilage, which rarely fossilises; mostly teeth and a few backbones survive</td><td>12</td><td>Natural History Museum, London, &quot;What can shark teeth tell us?&quot; (URL as 12): &quot;Cartilage breaks down more easily than bone and doesn&#x27;t fossilise well&quot;</td><td>Science News (URL as 14): megalodon skeletons were mostly cartilage, so the evidence is sparse; also Shimada et al. 2025 note &quot;the lack of any complete skeleton&quot;</td><td>None</td></tr><tr><td>20</td><td>Megalodon young grew up in nurseries: shallow coastal water with food and fewer predators</td><td>15</td><td>Natural History Museum, London (URL as 1): pups born in shallow coastal waters, protected from predators</td><td>Florida Museum, &quot;Megalodon shark nursery discovered&quot; https://www.floridamuseum.ufl.edu/science/megalodon-shark-nursery-discovered/ (&quot;ample food resources and serve as protection for juveniles&quot;)</td><td>Some scientists argue megalodon did not need nurseries (Florida Museum only; that line was cut, see below)</td></tr><tr><td>21</td><td>In Panama, scientists found 10 million year old teeth from mostly young megalodons in what was once a shallow sea</td><td>15, 26</td><td>Florida Museum (URL as 20): 10 million year old Gatun Formation, mostly juveniles, shallow marine deposit</td><td>National Geographic, &quot;Off the prehistoric coast of Panama, a mega-toothed shark nursery&quot; https://www.nationalgeographic.com/science/article/off-the-prehistoric-coast-of-panama-a-mega-toothed-shark-nursery; paper: Pimiento et al. 2010, PLOS ONE https://pmc.ncbi.nlm.nih.gov/articles/PMC2866656</td><td>28 megalodon teeth from one site; the script says it is one fossil site, not a guarantee</td></tr><tr><td>22</td><td>One model gives an adult a cruising speed of about 5 kilometres an hour</td><td>16, 26</td><td>University of Zurich release (URL as 10): about 1.4 metres a second</td><td>Cooper et al. 2022, Science Advances (URL as 10): &quot;1.4 m/s (5 km/hour)&quot;, 95 percent range 0.5 to 4.1 m/s</td><td>Disagrees with row 23</td></tr><tr><td>23</td><td>A newer study says 2 to 3.5 kilometres an hour</td><td>16, 26</td><td>DePaul University release, 2025 (URL as 15): 2.1 to 3.5 km/h, &quot;no faster than a great white&quot;</td><td>Shimada et al. 2025, Palaeontologia Electronica, paper PDF https://palaeo-electronica.org/content/pdfs/1502.pdf (2.1 to 3.5 km/h for a 24.3 m animal; confirmed from search text)</td><td>A real disagreement, said in the script</td></tr><tr><td>24</td><td>Adult megalodons ate whales; fossil whale bones carry their bite marks</td><td>17</td><td>Natural History Museum, London (URL as 1): diet likely included whales, from dolphin sized to humpbacks</td><td>University of Zurich release (URL as 10): &quot;Fossil whales bear megalodon bite marks&quot;</td><td>None</td></tr><tr><td>25</td><td>Megalodon was a separate family line, not a giant great white and not its ancestor</td><td>18</td><td>Natural History Museum, London (URL as 1): separate lineage</td><td>Florida Museum, &quot;Megalodon Shark&quot; https://www.floridamuseum.ufl.edu/100-years/object/megalodon-shark/ (&quot;a cousin to the Great White and not the direct ancestor&quot;)</td><td>Its exact place in the shark family tree is still argued; some researchers group it closest to makos</td></tr><tr><td>26</td><td>Great whites grow to about 6 metres</td><td>18</td><td>NOAA Fisheries, &quot;White Shark&quot; https://www.fisheries.noaa.gov/species/white-shark (&quot;up to about 20 feet&quot;)</td><td>Smithsonian Ocean Portal, &quot;How Big are Great White Sharks?&quot; https://ocean.si.edu/ocean-life/sharks-rays/how-big-are-great-white-sharks (about 20 feet; confirmed from search text, page returns 403)</td><td>Some sources give up to 6.4 m for large females</td></tr><tr><td>27</td><td>Some scientists think great whites competing for food helped push megalodon out</td><td>18</td><td>Max Planck Society release on McCormack et al. 2022, Nature Communications https://www.mpg.de/18712873/0527-evan-megalodon-extinction-150495-x</td><td>Natural History Museum, London (URL as 1): competition with great whites, overlapping diets per a 2022 study</td><td>Tentative; the study says more research is needed</td></tr><tr><td>28</td><td>A cooling planet, shrinking coastal nurseries and a costly warm body may also have mattered; nobody is sure which mattered most</td><td>18</td><td>Natural History Museum, London (URL as 1): global cooling, loss of coastal nurseries</td><td>Griffiths et al. 2023, PNAS (URL as 8) and UCLA Newsroom (URL as 8): metabolic cost of staying warm during Pliocene cooling</td><td>Boessenecker (row 1) favours great white competition but is not certain; Max Planck says there were multiple possible causes</td></tr><tr><td>29</td><td>Night is when many sharks feed</td><td>22</td><td>Florida Museum, &quot;Shark Attack FAQ&quot; https://www.floridamuseum.ufl.edu/discover-fish/sharks/shark-attack-faq/ (&quot;dawn or dusk and at night when many sharks are most active and feeding&quot;)</td><td>University of Florida IFAS blog, &quot;Shark Attacks: Reducing the Risks&quot; https://blogs.ifas.ufl.edu/global/2015/07/06/shark-attacks-reducing-the-risks/ (&quot;most active from sunset to sunrise&quot;)</td><td>None</td></tr><tr><td>30</td><td>Shark bites are rare: about 70 unprovoked bites a year worldwide</td><td>26</td><td>Florida Museum, &quot;Shark Attack FAQ&quot; (URL as 29): &quot;an average of 70 unprovoked shark bites every year&quot;</td><td>Australian Museum, &quot;Shark myths and facts&quot; (URL as 5): 69 unprovoked attacks worldwide in 2023</td><td>None</td></tr><tr><td>31</td><td>Safety rule: swim with a buddy, stay out at dawn, dusk and night, keep away from people fishing</td><td>26</td><td>Florida Museum, &quot;Shark Attack FAQ&quot; (URL as 29): stay with a buddy, avoid dawn, dusk and night, avoid water used by anglers</td><td>University of Florida IFAS blog (URL as 29): stay in a group, avoid sunset to sunrise, do not swim near fishermen</td><td>A James Cook University review notes much shark safety advice rests on limited science; these three points appear in both sources</td></tr></table>
+<h4>Not science claims (story or jokes, no source needed)</h4>
+<p>Two metre pup in a pool, the four hundred buckets, the tap tap game, the pup growing two metres in a month, the contract in crayon, Hobbs&#x27;s forms, there being no catch limit or law for an extinct species, the tide carrying Tanner out, Meatball pushing Tanner to the kayak. The honesty close (scene 26) names the made-up parts.</p>
+<h4>Cut for lack of a second source</h4>
+<li>&quot;Some scientists argue megalodon never needed a nursery&quot; (only the Florida Museum page says this). Replaced with &quot;It is one old fossil site, not a guarantee.&quot;</li>
+<li>Megalodon jaws held 276 teeth (only the Natural History Museum).</li>
+<li>Megalodon pups may have eaten unhatched eggs in the womb (two sources, but both present it as a suggestion; left out to keep the pacing).</li>
+<li>An 8 metre whale could feed an adult for about two months (University of Zurich and the paper agree, but they are one study; left out for length).</li>
+<li>2026 Danish vertebrae study with basking shark stomach contents (DePaul release only).</li></details>
+</main></body></html>

@@ -191,16 +191,16 @@
    "props": [
     {
      "id": "great_white",
-     "x": 1250,
-     "y": 560,
-     "scale": 1.6,
+     "x": 760,
+     "y": 520,
+     "scale": 1.25,
      "facing": -1
     }
    ],
    "meg": {
-    "x": 560,
+    "x": 300,
     "y": 640,
-    "scale": 0.95,
+    "scale": 0.75,
     "pup": 0.8,
     "facing": 1,
     "mood": "curious",
@@ -531,14 +531,13 @@
    "props": [
     {
      "id": "sand_pile",
-     "x": 1300,
-     "y": 900,
-     "scale": 1.1,
-     "front": true
+     "x": 1360,
+     "y": 880,
+     "scale": 0.75
     }
    ],
    "meg": {
-    "x": 700,
+    "x": 1150,
     "y": 945,
     "scale": 1.15,
     "pup": 1.0,
@@ -548,6 +547,21 @@
     "water": 850
    },
    "lines": {
+    "0": {
+     "meg": {
+      "x": 700
+     }
+    },
+    "1": {
+     "meg": {
+      "x": 700
+     }
+    },
+    "2": {
+     "meg": {
+      "x": 700
+     }
+    },
     "3": {
      "shots": [
       "meg",
@@ -559,7 +573,8 @@
       ]
      },
      "meg": {
-      "mood": "happy"
+      "mood": "happy",
+      "x": 700
      }
     },
     "5": {
@@ -717,6 +732,15 @@
      },
      "fx": [
       "shake"
+     ],
+     "props_add": [
+      {
+       "id": "melon",
+       "x": 1150,
+       "y": 880,
+       "scale": 1.0,
+       "front": true
+      }
      ]
     },
     "2": {
@@ -876,7 +900,7 @@
     "0": {
      "move": {
       "meg": [
-       1300
+       1080
       ]
      }
     },
@@ -886,7 +910,7 @@
       "wide"
      ],
      "meg": {
-      "x": 1300
+      "x": 1080
      }
     },
     "5": {
@@ -898,7 +922,7 @@
       "splash"
      ],
      "meg": {
-      "x": 1300
+      "x": 1080
      }
     },
     "6": {
@@ -906,22 +930,22 @@
       "close:wren"
      ],
      "meg": {
-      "x": 1300
+      "x": 1080
      }
     },
     "1": {
      "meg": {
-      "x": 1300
+      "x": 1080
      }
     },
     "3": {
      "meg": {
-      "x": 1300
+      "x": 1080
      }
     },
     "4": {
      "meg": {
-      "x": 1300
+      "x": 1080
      }
     }
    }
@@ -1085,9 +1109,9 @@
    "lines": {
     "1": {
      "shots": [
-      "pt:860,300,2.2",
       "pt:1380,700,2.6"
-     ]
+     ],
+     "keep_shots": true
     },
     "2": {
      "shots": [
@@ -1297,8 +1321,8 @@
     {
      "id": "great_white",
      "x": 1470,
-     "y": 470,
-     "scale": 0.55,
+     "y": 480,
+     "scale": 0.95,
      "facing": -1
     },
     {
@@ -1312,7 +1336,7 @@
    "meg": {
     "x": 900,
     "y": 880,
-    "scale": 1.8,
+    "scale": 1.3,
     "pup": 0.7,
     "facing": 1,
     "mood": "curious",
@@ -1496,8 +1520,7 @@
      },
      "move": {
       "doug": [
-       720,
-       640
+       720
       ]
      }
     },
@@ -1505,8 +1528,7 @@
      "pose": {},
      "move": {
       "doug": [
-       720,
-       640
+       720
       ]
      }
     },
@@ -1514,8 +1536,7 @@
      "pose": {},
      "move": {
       "doug": [
-       720,
-       640
+       720
       ]
      }
     },
@@ -1523,8 +1544,7 @@
      "pose": {},
      "move": {
       "doug": [
-       720,
-       640
+       720
       ]
      }
     }
@@ -1655,12 +1675,14 @@
     },
     "6": {
      "shots": [
-      "07|meg",
-      "07|close:doug"
+      "07|pt:1200,800,1.9",
+      "07|megclose"
      ],
      "fx": [
-      "flash"
-     ]
+      "flash",
+      "flashback"
+     ],
+     "noday": true
     },
     "5": {
      "word": "TAP TAP"
@@ -1977,20 +1999,60 @@
     "1": {
      "shots": [
       "wide",
+      "pt:1300,520,1.8"
+     ],
+     "hide": [
       "meg"
+     ],
+     "props_add": [
+      {
+       "id": "tooth",
+       "x": 1300,
+       "y": 560,
+       "scale": 2.4
+      }
      ],
      "word": "REAL"
     },
     "2": {
      "shots": [
-      "medium:doug",
-      "wide"
+      "wide",
+      "pt:1500,500,1.7"
+     ],
+     "hide": [
+      "meg"
+     ],
+     "props_add": [
+      {
+       "id": "tooth",
+       "x": 1100,
+       "y": 580,
+       "scale": 1.3
+      },
+      {
+       "id": "coast_map",
+       "x": 1550,
+       "y": 500,
+       "scale": 0.9
+      }
      ]
     },
     "3": {
      "shots": [
       "wide",
+      "medium:doug"
+     ],
+     "hide": [
       "meg"
+     ],
+     "props_add": [
+      {
+       "id": "great_white",
+       "x": 1350,
+       "y": 520,
+       "scale": 0.9,
+       "facing": -1
+      }
      ]
     },
     "4": {
@@ -2002,21 +2064,29 @@
     },
     "5": {
      "shots": [
-      "wide",
-      "meg"
+      "megclose",
+      "medium:doug"
      ],
      "word": "UP CLOSE ONLY"
     },
     "6": {
      "shots": [
       "medium:doug",
-      "wide"
+      "megclose"
      ]
     },
     "7": {
      "shots": [
       "wide",
-      "meg"
+      "medium:doug"
+     ],
+     "props_add": [
+      {
+       "id": "fish",
+       "x": 300,
+       "y": 520,
+       "scale": 2.0
+      }
      ]
     },
     "8": {
@@ -2027,8 +2097,8 @@
     },
     "9": {
      "shots": [
-      "wide",
-      "meg"
+      "megclose",
+      "wide"
      ]
     }
    }

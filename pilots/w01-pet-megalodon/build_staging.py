@@ -77,8 +77,8 @@ S["F2"] = {"set": "open_sea_night", "chars": {"tanner": ch(760, 1, y=1000, water
 S["F3"] = {"set": "street", "chars": {"tanner": ch(1150, -1, holds="phone_ring", emo="smug")},
            "props": [{"id": "ute", "x": 980, "y": 930, "scale": 1.1, "front": True}]}
 S["F4"] = {"set": "ocean_title", "chars": {},
-           "props": [{"id": "great_white", "x": 1250, "y": 560, "scale": 1.6, "facing": -1}],
-           "meg": meg(560, 0.95, y=640, pool=False, pup=0.8, mood="curious", facing=1)}
+           "props": [{"id": "great_white", "x": 760, "y": 520, "scale": 1.25, "facing": -1}],
+           "meg": meg(300, 0.75, y=640, pool=False, pup=0.8, mood="curious", facing=1)}
 S["02"] = {"set": "ocean_title", "chars": {},
            "meg": meg(900, 2.6, y=560, pool=False, pup=0.0, mood="calm", col="#2c3e58", facing=1, swim=0.9),
            "lines": {"0": {"shots": ["11|meg", "13|close:hobbs"], "holds": {"hobbs": "net"}},
@@ -123,9 +123,10 @@ S["06"] = {"set": "backyard_pool",
 
 S["07"] = {"set": "yard_night",
            "chars": {"doug": ch(1150, 1), "wren": ch(1600, -1, emo="deadpan")},
-           "props": [{"id": "sand_pile", "x": 1300, "y": 900, "scale": 1.1, "front": True}],
-           "meg": meg(700, 1.15, facing=1, mood="curious"),
-           "lines": {"3": {"shots": ["meg", "close:doug"], "move": {"meg": [1150]}, "meg": {"mood": "happy"}},
+           "props": [{"id": "sand_pile", "x": 1360, "y": 880, "scale": 0.75}],
+           "meg": meg(1150, 1.15, facing=1, mood="curious"),
+           "lines": {"0": {"meg": {"x": 700}}, "1": {"meg": {"x": 700}}, "2": {"meg": {"x": 700}},
+                     "3": {"shots": ["meg", "close:doug"], "move": {"meg": [1150]}, "meg": {"mood": "happy", "x": 700}},
                      "5": {"shots": ["megclose", "close:doug"], "meg": {"x": 1150}},
                      "6": {"meg": {"x": 1150}, "holds": {"doug": "fish"}},
                      "7": {"meg": {"x": 1150, "mood": "happy"}, "holds": {"doug": "fish"}},
@@ -141,7 +142,8 @@ S["08"]["lines"]["10"] = {"holds": {"doug": "crayon"}, "shots": ["close:doug", "
 S["09"] = {"set": "backyard_pool",
            "chars": {"doug": ch(450, 1, emo="worried", idle=["worry"]), "tanner": ch(1350, -1, holds="melon_stick")},
            "meg": meg(900, 1.2, facing=1),
-           "lines": {"1": {"shots": ["close:tanner", "megclose"], "meg": {"chomp": True, "mood": "hungry"}, "fx": ["shake"]},
+           "lines": {"1": {"shots": ["close:tanner", "megclose"], "meg": {"chomp": True, "mood": "hungry"}, "fx": ["shake"],
+                           "props_add": [{"id": "melon", "x": 1150, "y": 880, "scale": 1.0, "front": True}]},
                      "2": {"holds": {"tanner": "handle"}, "shots": ["megclose", "close:tanner"], "word": "CRUNCH",
                            "meg": {"chomp": True, "mood": "hungry"}, "fx": ["flash"]},
                      "3": {"holds": {"tanner": "handle"}},
@@ -162,11 +164,11 @@ S["11"] = {"set": "backyard_pool",
 S["12"] = {"set": "backyard_pool",
            "chars": {"doug": ch(760, 1, pose="sit", y=830), "wren": ch(1180, -1, pose="sit", y=830, emo="deadpan")},
            "meg": meg(650, 1.7, pup=0.7, facing=1, depth=700),
-           "lines": {"0": {"move": {"meg": [1300]}}, "2": {"card_art": "size_compare", "shots": ["wide"]},
-                     "5": {"shots": ["megclose", "close:doug"], "fx": ["splash"], "meg": {"x": 1300}},
-                     "6": {"shots": ["close:wren"], "meg": {"x": 1300}}, "1": {"meg": {"x": 1300}},
-                     "2": {"card_art": "size_compare", "shots": ["wide"], "meg": {"x": 1300}},
-                     "3": {"meg": {"x": 1300}}, "4": {"meg": {"x": 1300}}}}
+           "lines": {"0": {"move": {"meg": [1080]}}, "2": {"card_art": "size_compare", "shots": ["wide"]},
+                     "5": {"shots": ["megclose", "close:doug"], "fx": ["splash"], "meg": {"x": 1080}},
+                     "6": {"shots": ["close:wren"], "meg": {"x": 1080}}, "1": {"meg": {"x": 1080}},
+                     "2": {"card_art": "size_compare", "shots": ["wide"], "meg": {"x": 1080}},
+                     "3": {"meg": {"x": 1080}}, "4": {"meg": {"x": 1080}}}}
 
 S["13"] = {"set": "backyard_pool",
            "chars": {"doug": ch(560, 1), "wren": ch(800, 1, emo="deadpan"), "hobbs": ch(1250, -1, holds="clipboard", emo="deadpan"),
@@ -186,7 +188,7 @@ S["15"] = {"set": "bait_shop",
            "chars": {"wren": ch(1150, -1, holds="", emo="deadpan"), "doug": ch(560, 1)},
            "props": [{"id": "counter", "x": 1150, "y": 925, "scale": 1.0, "front": True},
                      {"id": "fossil_tooth", "x": 1380, "y": 700, "scale": 1.0, "front": True}],
-           "lines": {"1": {"shots": ["pt:860,300,2.2", "pt:1380,700,2.6"]}, "2": {"shots": ["pt:860,300,2.0", "wide"]}}}
+           "lines": {"1": {"shots": ["pt:1380,700,2.6"], "keep_shots": True}, "2": {"shots": ["pt:860,300,2.0", "wide"]}}}
 
 LAG_KAYAK = {"doug": ch(1020, 1, pose="sit", y=820, water=812, holds="paddle"),
              "wren": ch(1240, 1, pose="sit", y=820, water=812, emo="deadpan")}
@@ -210,9 +212,9 @@ S["17"] = {"set": "lagoon_nursery",
 
 S["18"] = {"set": "lagoon_nursery",
            "chars": dict(LAG_KAYAK),
-           "props": [{"id": "great_white", "x": 1470, "y": 470, "scale": 0.55, "facing": -1},
+           "props": [{"id": "great_white", "x": 1470, "y": 480, "scale": 0.95, "facing": -1},
                      {"id": "kayak", "x": 1130, "y": 820, "scale": 1.0, "front": True}],
-           "meg": meg(900, 1.8, y=880, pool=False, water=830, pup=0.7, behind=True, mood="curious", facing=1),
+           "meg": meg(900, 1.3, y=880, pool=False, water=830, pup=0.7, behind=True, mood="curious", facing=1),
            "lines": {"0": {"shots": ["pt:1470,470,2.4", "wide"]}, "2": {"shots": ["pt:1470,470,2.4", "close:wren"]},
                      "4": {"shots": ["close:doug"]},
                      "5": {"shots": ["pt:1130,830,1.8", "wide"], "meg": {"x": 1130, "y": 860, "facing": -1}},
@@ -237,7 +239,7 @@ for k in ("4", "5", "6", "7", "8"):
     S["20"]["chars"]["doug"]["x"] = 380
 S["20"]["lines"]["4"] = {"shots": ["close:doug"], "move": {"doug": [720]}}
 for k in ("5", "6", "7", "8"):
-    S["20"]["lines"][k] = {"pose": {}, "move": {"doug": [720, 640]}}
+    S["20"]["lines"][k] = {"pose": {}, "move": {"doug": [720]}}
 S["20"]["lines"]["5"]["pose"] = {"doug": "arms_cross"}
 
 S["21"] = {"set": "reef_edge_night",
@@ -255,7 +257,7 @@ S["22"] = {"set": "open_sea_night",
            "chars": {**SEA_KAYAK, "tanner": ch(1500, -1, y=1010, water=800, pose=["tread1", "tread2"], emo="scared")},
            "props": [{"id": "kayak", "x": 750, "y": 820, "scale": 1.0, "front": True}],
            "lines": {"0": {"shots": ["close:tanner", "wide"], "fx": ["shake"]},
-                     "6": {"shots": ["07|meg", "07|close:doug"], "fx": ["flash"]}}}
+                     "6": {"shots": ["07|pt:1200,800,1.9", "07|megclose"], "fx": ["flash", "flashback"], "noday": True}}}
 
 S["23"] = {"set": "open_sea_night",
            "chars": {**SEA_KAYAK, "tanner": ch(1500, -1, y=1010, water=800, pose=["tread1", "tread2"], emo="scared")},
@@ -287,6 +289,19 @@ S["26"] = {"set": "honesty_studio",
            "chars": {"doug": ch(520, 1, idle=["explain1", "explain2"], y=900)},
            "meg": meg(1250, 1.0, y=560, pool=False, pup=1.0, mood="happy", facing=-1),
            "lines": {str(i): {"shots": ["wide", "meg"] if i % 2 else ["medium:doug", "wide"]} for i in range(10)}}
+
+S["26"]["lines"]["1"].update(hide=["meg"], shots=["wide", "pt:1300,520,1.8"],
+                             props_add=[{"id": "tooth", "x": 1300, "y": 560, "scale": 2.4}])
+S["26"]["lines"]["2"].update(hide=["meg"], shots=["wide", "pt:1500,500,1.7"],
+                             props_add=[{"id": "tooth", "x": 1100, "y": 580, "scale": 1.3},
+                                        {"id": "coast_map", "x": 1550, "y": 500, "scale": 0.9}])
+S["26"]["lines"]["3"].update(hide=["meg"], shots=["wide", "medium:doug"],
+                             props_add=[{"id": "great_white", "x": 1350, "y": 520, "scale": 0.9, "facing": -1}])
+S["26"]["lines"]["5"].update(shots=["megclose", "medium:doug"])
+S["26"]["lines"]["6"].update(shots=["medium:doug", "megclose"])
+S["26"]["lines"]["7"].update(shots=["wide", "medium:doug"], props_add=[{"id": "fish", "x": 300, "y": 520, "scale": 2.0}])
+S["26"]["lines"]["8"].update(shots=["medium:doug", "wide"])
+S["26"]["lines"]["9"].update(shots=["megclose", "wide"])
 
 S["27"] = {"set": "doug_kitchen",
            "chars": {"doug": ch(700, 1, emo="confused", idle=["think"]), "tanner": ch(1250, -1, holds="envelope", emo="smug")},

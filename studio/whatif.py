@@ -221,7 +221,10 @@ def cmd_shots(pdir: Path):
             t0 = ln["start"] if li else cursor
             t1 = sl[li + 1]["start"] if li + 1 < len(sl) else s_end
             ov = overrides.get(str(li), {})
-            plan = ov.get("shots") or _auto_cover(ln, actors, st, t1 - t0, rnd, ov)
+            vis = [a for a in actors if a not in set(ov.get("hide") or [])]
+            plan = ov.get("shots") or _auto_cover(ln, vis, st, t1 - t0, rnd, ov)
+            if ov.get("shots") and ln.get("card") and "meg" in st and plan[0] in ("meg", "wide") and not ov.get("keep_shots"):
+                plan = ["megclose"] + plan[1:]
             # split the line's time across its planned shots
             k = len(plan)
             bounds = [t0 + (t1 - t0) * j / k for j in range(k + 1)]
@@ -247,6 +250,8 @@ def cmd_shots(pdir: Path):
                     if ov.get("title"):
                         spec["title"] = ov["title"]
                 spec["card_on"] = bool(ln.get("card"))
+                if ov.get("noday"):
+                    spec["day"] = None
                 if ov.get("as_scene"):
                     spec["scene"] = ov["as_scene"]
                     spec["set"] = staging["scenes"][ov["as_scene"]].get("set")
@@ -294,7 +299,8 @@ def _auto_cover(ln, actors, st, dur, rnd, ov):
             plan.append(pick)
     if ln.get("card") and plan and not focus:
         # science cards sit on the right: put the shark or a wide under them, never a speaker's close-up
-        plan[0] = "meg" if has_meg else "wide"
+        left = sorted(actors, key=lambda a: st["chars"][a]["x"])
+        plan[0] = "megclose" if has_meg else (f"medium:{left[0]}" if left else "wide")
     return plan
 
 
@@ -498,6 +504,15 @@ def _fx(frame, spec, st, t_rel, s2w, z):
             d.rounded_rectangle([x, y, x + w, y + h], 18, fill=(20, 32, 60, 255))
         f = T.font(54, "RussoOne-Regular")
         d.text((1380, 110), "WHAT IF YOU... WATCH THIS NEXT", font=T.font(40, "RussoOne-Regular"), fill=(246, 183, 60, 255), anchor="mm")
+    if "flashback" in fx:
+        over = Image.new("RGBA", frame.size, (255, 200, 120, 70))
+        frame.alpha_composite(over)
+        vig = Image.new("L", frame.size, 0)
+        ImageDraw.Draw(vig).ellipse([-200, -160, W + 200, H + 160], fill=255)
+        vig = vig.filter(ImageFilter.GaussianBlur(80))
+        dark = Image.new("RGBA", frame.size, (40, 25, 10, 200))
+        dark.putalpha(vig.point(lambda v: 200 - int(v * 200 / 255)))
+        frame.alpha_composite(dark)
     if "dark" in fx:
         frame.alpha_composite(Image.new("RGBA", frame.size, (10, 15, 40, 110)))
 
@@ -772,20 +787,20 @@ def draw_overlays(frame, spec, t_abs, ctx, ovc, state):
 
 def _size_compare(p):
     """Silhouette strip for the science card: person, great white, megalodon (estimate range)."""
-    base = 330
+    base = 318
     p.line([(40, base), (720, base)], "#9aa3b2", 3, caps=False)
-    p.push(70, base, scale=0.22)
+    p.push(70, base - 20, scale=0.17)
     T.draw_character(p, T.CAST_LOOKS["doug"], T.POSES["stand"])
     p.pop()
-    p.push(200, base - 22, scale=0.2)
+    p.push(200, base - 22, scale=0.16)
     P.draw_megalodon(p, col="#8fa3b8", swim=0)
     p.pop()
-    p.push(510, base - 40, scale=0.62)
+    p.push(520, base - 32, scale=0.42)
     P.draw_megalodon(p, col=P.SHARK_TOP, swim=0)
     p.pop()
-    p.text(70, base + 26, "YOU", 20, "#1e2a44", "RussoOne-Regular")
-    p.text(200, base + 26, "GREAT WHITE", 20, "#1e2a44", "RussoOne-Regular")
-    p.text(510, base + 26, "MEGALODON", 20, "#1e2a44", "RussoOne-Regular")
+    p.text(70, base + 18, "YOU", 16, "#1e2a44", "RussoOne-Regular")
+    p.text(200, base + 18, "GREAT WHITE", 16, "#1e2a44", "RussoOne-Regular")
+    p.text(520, base + 18, "MEGALODON", 16, "#1e2a44", "RussoOne-Regular")
 
 
 def _timeline_state(shots):
