@@ -31,3 +31,31 @@ Advisory (fix if cheap):
 10. **s084** (director): The "NO TEETH" label sits on the fish's belly and fin. Nudge it down or left into open water.
 11. **s010-s013** (director): The four quake-chart frames are acceptable as a build, but s012 would hit harder punched in on the single dashed match line.
 12. **s172** (director): A near-empty black frame comes right before s173, which is also black. Add Doug's two eyes blinking in the dark so the "torch ran out" beat reads.
+
+## Round 2: recheck of the shots the director changed (s003, s004, s012, s072, s073, s084, s091, s114, s130, s151-s153, s158-s160, s169, s172, s175-s177)
+
+VERDICT: PASS
+
+Each Round 1 item, checked against the new keyframes in build/keyframes/:
+1. **s004**: Fixed. Doug is in the gut corridor with his torch, three tapeworms are in the beam, and "NOT ALONE" is clear of everything.
+2. **s159**: Fixed. A red bracket runs along the central hanging worm, and the "15 CM" arrow points at it.
+3. **s072/s073**: Fixed. The arrow no longer touches "PASSENGER", the isopod is about 2x bigger and easy to find, and the fish body is clear of the chapter tag.
+4. **s091**: Fixed. "NO WAY TO HURT" now sits in open water at the bottom left, clear of the fins.
+5. **Variety**: Fixed. s151 is a close-up of the worms in the beam, s152 is a wide shot with Doug small, s158 is the three-worm insert with labels, and s160 is a close-up of Doug's face. The longest run of identical gut-corridor frames is now 3 (s146-s148). s162-s171 is broken up by s163/s164 (doors) and s167-s169 (larva to shark).
+6. **s153**: Fixed. "FURTHER DOWN" sits above the scene, clear of Doug and the beam.
+7. **s003**: Fixed. Doug holds the dropped tail piece while the shortened fish stands upright.
+9. **s114**: Fixed. The "MOST OF IT" arrow goes around Doug to the lower body.
+10. **s084**: Fixed. "NO TEETH" is in open water, clear of the belly and fins.
+11. **s012**: Fixed. The frame is punched in on a single dashed match line with an "A MATCH?" caption.
+12. **s172**: Fixed. Two eyes in the dark, so the "torch ran out" beat reads.
+- **s169**: A clean larva-to-shark arrow, matches "something bigger to eat it".
+- **s175-s177**: Ghost Doug keeps his cap, which follows the art bible rule, so the capless note from Round 1 no longer applies. The cap rides the fin (s175), lies on the seabed (s176), and sits on the RIP DOUG headstone (s177). The counter shows 430 in red.
+
+No gore, nothing kid-coded, and Doug is on-model in every rechecked shot.
+
+Advisory (optional, does not block):
+A. **s072** (director): The red arrow now stops about 100 px short of the isopod. Extend the tip to x of about 570 so it touches the animal.
+B. **s130** (illustrator, `record_book_open`): The grey bar on the left page doesn't read as anything at frame size. Replace it with a tiny oarfish silhouette, or remove it.
+C. **s027** (Round 1 item 8) was not in this recheck set. Confirm the stray rectangle has been removed.
+
+Note: build/contact/ only holds sheet_01 (s160 and s172). The other shots were checked from the individual keyframes and a montage of s144-s174 made for this review.

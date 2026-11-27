@@ -1,5 +1,38 @@
 # 060-oarfish-doomsday-fish: art review (art director, 2026-11-27)
 
+## Re-check 3 (changed shots, build/keyframes): PASS
+
+I re-checked s003 s004 s012 s072 s073 s084 s091 s114 s130 s151 s152 s153 s158 s159 s160 s169 s171 s172 s175 s176 s177, and their
+neighbours for variety (s002, s005, s011, s013, s071, s074, s083, s085, s090, s113, s129, s150, s154, s157, s161, s168, s170, s173, s174).
+My round-2 fixes and the visual-screener round-1 fixes are all in.
+
+| Shot | Result |
+|---|---|
+| s003 | PASS. The ITS OWN BODY keyword ends at about x 1310 and clears the crest (about x 1415). Doug now holds the dropped tail piece, so the teaser reads. |
+| s004 | PASS. Gut corridor with Doug, torch and three tapeworms in the beam. NOT ALONE now matches the line. |
+| s012 | PASS. Accepted as a build: the dashed match line plus A MATCH?. The punch-in was advisory. |
+| s072, s073 | PASS. The arrow leaves PASSENGER from the left and no longer crosses the "P". The isopod is bigger and easy to find, and the fish sits clear of the chapter tag. Nit: the arrow tip stops about 100 px short of the isopod. Extend `to` about 80 px left if it is a one-line change. |
+| s084 | PASS. NO TEETH sits in open water, off the belly and fin. |
+| s091 | PASS. NO WAY TO HURT clears the pelvic streamers. |
+| s114 | PASS. The MOST OF IT arrow goes around Doug's head to the fish body. |
+| s130 | PASS. "8 M" sits completely on the page. |
+| s151 | PASS. The worms-in-beam close-up is a new layout. The torch is held from off-frame, which works for an insert. |
+| s152 | PASS. Wide shot with Doug small. Clearly different from s151 and s153. |
+| s153 | PASS. FURTHER DOWN is above the cone and Doug's legs are clear. |
+| s158 | PASS. **New thorny-headed worm (shapes):** a `worm_icon` body with a pale round proboscis ringed by short maroon spikes. It reads as a different worm from the two roundworms, is on the detailed tier at this size and on-palette (`#f2b8b8`/`#8a3e3e`), is not gory, and isn't cute. The three-column specimen card is a clear layout break inside the gut run, and the labels sit inside the safe area. Nit (optional): make it `~24 TAPEWORMS` so the column labels match ("2 ...", "1 ...") and TWO DOZEN clearly refers to the tapeworms. If the worm comes back in a later episode, the illustrator should save it as a library asset (`thorny_headed_worm`) and not rebuild it from loose shapes. |
+| s159 | PASS. The arrow and the 15 cm bracket are on the central hanging worm. |
+| s160 | PASS. Doug's face close-up is on-model: round head, grey crescent, vertical oval eyes, red cap and goggles. |
+| s169 | PASS. ADULT label restored, so it matches s167/s168. |
+| s171 | PASS. Doug sits with the worms. A new pose in the same plate is fine. |
+| s172 | PASS. Doug's two eyes in the dark set up the "torch ran out" beat and keep it distinct from s173. |
+| s175, s176, s177 | PASS. Ghost Doug keeps his cap. The real cap rides the fin (s175), sits on the seabed (s176) and sits on the gravestone (s177). That makes one real cap per frame. |
+
+Variety: the s150-s160 gut run now goes corridor, close-up, wide, medium, corridor, specimen card, measured worm, face close-up, so
+no 4-in-a-row repeats are left. Style, zone colours (gut pink, `#1b4f86`, cream diagram, dark TV room), the HUD and the safe area are
+consistent. There are no gore or kid-appeal flags.
+
+**Verdict: PASS (art approved). Waiting on the visual-screener pass before staging `art_approved`.**
+
 ## Re-check 2 (keyframes + all 15 contact sheets): FAIL, 4 small director fixes
 
 The previous fixes are all in: `stick_man_arms_up` redraw, s036, s038, s056, s076, s167. All 20 assets are now APPROVED.
