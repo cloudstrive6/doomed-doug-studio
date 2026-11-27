@@ -81,3 +81,22 @@ VERDICT: FAIL (variant B only; A and C pass)
 
 **C, "NEVER GROWS BACK"** (title: "Why the Oarfish Can Cut Off Its Own Body and Not Die"): PASS. The text is readable at feed size, and the healed rounded stump and the dropped piece in Doug's hand are both clear. Bubbles sell the sinking. There is no gore and nothing kid-coded, and the bottom right is clear apart from bubbles.
  Advisory (graphic designer): The brief's "cap floating off" is missing, and Doug looks like he's standing rather than sinking. Tilt him about 15 degrees, or float the cap just above his head. "GROWS BACK" starts about 15 px from the left edge, so give it 30 px or more of margin.
+
+## Round 4: revised thumbnails A/B/C (build/thumbnail*.png, *_small.png at 168x94) and s001 recheck
+
+VERDICT: PASS
+
+**s001**: Re-rendered with `python -m studio keyframes 060-oarfish-doomsday-fish --shots s001`. It now shows the revised thumbnail A and matches build/thumbnail.png.
+
+**A, "IT LET GO"**: PASS. Both Round 3 advisories are fixed. (a) Doug now holds the thin tip of the dropped piece in both fists at arm's length, so nothing reads as touching his mouth. (b) The whole healed stump sits inside the frame (bottom at y of about 520) and the black spike is gone. The tug-and-release story reads at 168x94: upright fish, gap, the dropped piece, a panicked Doug. There is no red on either cut end.
+ Advisory (graphic designer, optional): Doug is only about 12 px tall at feed size, smaller than in Round 3. Scale him up about 1.3x if it doesn't crowd the text. A short black dash crosses the head outline above the eye at about (290,48) and looks like a stray stroke; remove it unless it's meant as a brow. In "LET" the outlines of the letters merge, and the G has a black bump inside its bowl. It still reads, but widen the tracking slightly.
+
+**B, "NO TEETH"**: PASS. All Round 3 fixes are in:
+1. Kid-show tone: the blush is gone, the water is dark navy, the eye is a pale disc with a small off-centre pupil and a flat mouth, and Doug has a nervous teeth-grimace with a sweat drop. It no longer reads as nursery.
+2. The text ends at x of about 700 (top left), so the duration-badge zone is clear of text.
+3. The text sits in open water and nothing overlaps it. The tally of five sits below it.
+4. Doug is about 150 px from the mouth, which is close enough.
+ Advisory (graphic designer, optional): The sweat drop is almost invisible at about (320,510) on the cap edge. Make it larger and lighter, or move it to the side of his head. Two red pelvic-fin lines still poke out under the fish at the bottom edge at x of about 820-860. They're harmless now that the text has moved, but they could be cropped.
+
+**C, "NEVER GROWS BACK"**: PASS. The floating cap is waived (engine limit; cap stays on head). Doug is now tilted and sprawled with bubbles rising, so he reads as sinking. "GROWS BACK" now has about 45 px of left margin. The bottom right is clear.
+ Advisory (graphic designer, optional): The dropped piece is much thinner at its cut end (about 25 px) than the fish's stump (about 90 px). Thicken the cut end toward the stump width so it reads as the same body.
