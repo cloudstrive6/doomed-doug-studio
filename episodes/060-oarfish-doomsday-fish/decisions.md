@@ -82,3 +82,4 @@ Visual screener Round 4 is a PASS (visual_review.md). I re-checked the three ful
 - Labels: verified. metadata.json now lists A as "hero + Doug for scale" and B as "hero close-up" (item 10 of the previous review).
 
 PACKAGE: APPROVED
+- 2026-11-27: script 4 rounds (hook fixes), art 2 rounds, thumbnails 2 rounds. Risks: C thumbnail lacks floating cap (engine); item 8 must label OCEANSIDE; titles B 'did nothing' mildly leans on joke.

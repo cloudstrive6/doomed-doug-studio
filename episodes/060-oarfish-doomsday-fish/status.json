@@ -24,7 +24,12 @@
       "stage": "art_approved",
       "at": "2026-11-27T18:11:19+00:00",
       "note": "AD + visual screener pass, 2 rounds"
+    },
+    {
+      "stage": "packaged",
+      "at": "2026-11-27T18:32:40+00:00",
+      "note": "packaged: script 4 rounds, art 2 rounds, thumbs 2 rounds"
     }
   ],
-  "stage": "art_approved"
+  "stage": "packaged"
 }
