@@ -1,0 +1,135 @@
+{
+ "background": "#1b4f86",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#0b2a55",
+   "color": "#0b2a55",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 950,
+   "y": 100,
+   "r": 620,
+   "color": "#2a5f9a",
+   "density": 0.02,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "oarfish_stump",
+   "x": 1000,
+   "y": 470,
+   "scale": 1.1,
+   "boil": 0,
+   "rotate": 10
+  },
+  {
+   "type": "circle",
+   "x": 1020,
+   "y": 640,
+   "r": 9,
+   "fill": "#bfe6ff",
+   "color": "#ffffff",
+   "width": 4,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 1050,
+   "y": 680,
+   "r": 6,
+   "fill": "#bfe6ff",
+   "color": "#ffffff",
+   "width": 4,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 335,
+   "y": 395,
+   "r": 8,
+   "fill": "#bfe6ff",
+   "color": "#ffffff",
+   "width": 4,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 320,
+   "y": 355,
+   "r": 6,
+   "fill": "#bfe6ff",
+   "color": "#ffffff",
+   "width": 4,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 345,
+   "y": 315,
+   "r": 10,
+   "fill": "#bfe6ff",
+   "color": "#ffffff",
+   "width": 4,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "oarfish_tail_piece",
+   "x": 600,
+   "y": 432,
+   "scale": 0.58,
+   "boil": 0,
+   "flip": true,
+   "rotate": -20
+  },
+  {
+   "type": "doug",
+   "x": 300,
+   "y": 650,
+   "scale": 0.8,
+   "pose": "arms_up",
+   "expression": "screaming",
+   "facing": "right",
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "NEVER",
+   "x": 330,
+   "y": 90,
+   "size": 130,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 16,
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  },
+  {
+   "type": "text",
+   "text": "GROWS BACK",
+   "x": 400,
+   "y": 215,
+   "size": 110,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 16,
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

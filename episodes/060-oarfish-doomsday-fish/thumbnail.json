@@ -1,0 +1,103 @@
+{
+ "background": "#1b4f86",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#1b4f86",
+   "color": "#1b4f86",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 330,
+   "y": 200,
+   "r": 620,
+   "color": "#3a7ab9",
+   "density": 0.02,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "oarfish_stump",
+   "x": 360,
+   "y": 575,
+   "scale": 1.25,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "oarfish_tail_piece",
+   "x": 715,
+   "y": 525,
+   "scale": 0.7,
+   "boil": 0,
+   "rotate": -8
+  },
+  {
+   "type": "circle",
+   "x": 470,
+   "y": 650,
+   "r": 10,
+   "fill": "#bfe6ff",
+   "color": "#ffffff",
+   "width": 4,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 500,
+   "y": 610,
+   "r": 7,
+   "fill": "#bfe6ff",
+   "color": "#ffffff",
+   "width": 4,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 520,
+   "y": 700,
+   "r": 12,
+   "fill": "#bfe6ff",
+   "color": "#ffffff",
+   "width": 4,
+   "boil": 0
+  },
+  {
+   "type": "doug",
+   "x": 1045,
+   "y": 610,
+   "scale": 0.8,
+   "pose": "arms_up",
+   "expression": "shock",
+   "facing": "left",
+   "boil": 0,
+   "gear": [
+    "sweat"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "IT LET GO",
+   "x": 880,
+   "y": 110,
+   "size": 135,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 16,
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

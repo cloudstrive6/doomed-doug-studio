@@ -1,0 +1,142 @@
+{
+ "background": "#1b4f86",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#0f8fd0",
+   "color": "#0f8fd0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 900,
+   "y": 300,
+   "r": 620,
+   "color": "#5ec2f0",
+   "density": 0.02,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "oarfish_head_closeup",
+   "x": 880,
+   "y": 400,
+   "scale": 1.15,
+   "boil": 0,
+   "flip": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     80,
+     70
+    ],
+    [
+     80,
+     190
+    ]
+   ],
+   "color": "#e0201b",
+   "width": 14,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     118,
+     70
+    ],
+    [
+     118,
+     190
+    ]
+   ],
+   "color": "#e0201b",
+   "width": 14,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     156,
+     70
+    ],
+    [
+     156,
+     190
+    ]
+   ],
+   "color": "#e0201b",
+   "width": 14,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     194,
+     70
+    ],
+    [
+     194,
+     190
+    ]
+   ],
+   "color": "#e0201b",
+   "width": 14,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     55,
+     165
+    ],
+    [
+     225,
+     95
+    ]
+   ],
+   "color": "#e0201b",
+   "width": 14,
+   "boil": 0
+  },
+  {
+   "type": "doug",
+   "x": 200,
+   "y": 620,
+   "scale": 0.8,
+   "pose": "wave",
+   "expression": "hopeful",
+   "facing": "right",
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "NO TEETH",
+   "x": 860,
+   "y": 640,
+   "size": 135,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 16,
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
