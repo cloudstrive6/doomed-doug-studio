@@ -1,0 +1,522 @@
+{
+ "name": "ship_cook",
+ "description": "Crude-tier stick-figure ship's cook (060), Doug's tier (5 px lines, big round white head with the grey crescent, no cap): tall white chef's toque (top about y -424), white apron over the stick body, wooden spoon in the back hand, flat unimpressed face. Front hand held out at local (+110,-140) for a separately placed spyglass. Anchor = hips (0,0); feet +150, head top -290 under the toque. Facing right. auto_ink.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "character",
+  "human",
+  "stick man",
+  "cook",
+  "060"
+ ],
+ "auto_ink": true,
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     16.2,
+     76.3
+    ],
+    [
+     31.6,
+     148.7
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -16.2,
+     76.3
+    ],
+    [
+     -31.6,
+     148.7
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     0,
+     -146
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -14,
+     -122
+    ],
+    [
+     -52,
+     -70
+    ],
+    [
+     -72,
+     -24
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -72,
+     -24
+    ],
+    [
+     -92,
+     -120
+    ]
+   ],
+   "width": 7,
+   "color": "#8b5a2b",
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": -96,
+   "y": -138,
+   "rx": 12,
+   "ry": 20,
+   "fill": "#a0703a",
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -22,
+     -112
+    ],
+    [
+     22,
+     -112
+    ],
+    [
+     24,
+     -62
+    ],
+    [
+     46,
+     70
+    ],
+    [
+     -46,
+     70
+    ],
+    [
+     -24,
+     -62
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -20,
+     -112
+    ],
+    [
+     0,
+     -146
+    ],
+    [
+     20,
+     -112
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -25,
+     -58
+    ],
+    [
+     -40,
+     -50
+    ],
+    [
+     -46,
+     -38
+    ]
+   ],
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -18,
+   "y": -20,
+   "w": 36,
+   "h": 26,
+   "fill": null,
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     10,
+     -124
+    ],
+    [
+     62,
+     -138
+    ],
+    [
+     110,
+     -140
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -218,
+   "r": 72,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -12.5,
+     -147.1
+    ],
+    [
+     -24.6,
+     -150.3
+    ],
+    [
+     -36.0,
+     -155.6
+    ],
+    [
+     -46.3,
+     -162.8
+    ],
+    [
+     -55.2,
+     -171.7
+    ],
+    [
+     -62.4,
+     -182.0
+    ],
+    [
+     -67.7,
+     -193.4
+    ],
+    [
+     -70.9,
+     -205.5
+    ],
+    [
+     -72.0,
+     -218.0
+    ],
+    [
+     -70.9,
+     -230.5
+    ],
+    [
+     -67.7,
+     -242.6
+    ],
+    [
+     -62.4,
+     -254.0
+    ],
+    [
+     -55.2,
+     -264.3
+    ],
+    [
+     -46.3,
+     -273.2
+    ],
+    [
+     -36.0,
+     -280.4
+    ],
+    [
+     -24.6,
+     -285.7
+    ],
+    [
+     -12.5,
+     -288.9
+    ],
+    [
+     -8.6,
+     -280.0
+    ],
+    [
+     -19.0,
+     -275.2
+    ],
+    [
+     -28.4,
+     -268.6
+    ],
+    [
+     -36.6,
+     -260.4
+    ],
+    [
+     -43.2,
+     -251.0
+    ],
+    [
+     -48.0,
+     -240.6
+    ],
+    [
+     -51.0,
+     -229.5
+    ],
+    [
+     -52.0,
+     -218.0
+    ],
+    [
+     -51.0,
+     -206.5
+    ],
+    [
+     -48.0,
+     -195.4
+    ],
+    [
+     -43.2,
+     -185.0
+    ],
+    [
+     -36.6,
+     -175.6
+    ],
+    [
+     -28.4,
+     -167.4
+    ],
+    [
+     -19.0,
+     -160.8
+    ],
+    [
+     -8.6,
+     -156.0
+    ]
+   ],
+   "fill": "#d6d6d6",
+   "width": 0,
+   "outline": false,
+   "boil": 0.5
+  },
+  {
+   "type": "circle",
+   "x": 0,
+   "y": -218,
+   "r": 72,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 6,
+   "y": -220,
+   "rx": 10,
+   "ry": 15,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000",
+   "boil": 0.3,
+   "keep_ink": true
+  },
+  {
+   "type": "circle",
+   "x": 9,
+   "y": -220,
+   "r": 5,
+   "fill": "#000000",
+   "width": 1,
+   "color": "#000000",
+   "boil": 0.2,
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": 38,
+   "y": -220,
+   "rx": 10,
+   "ry": 15,
+   "fill": "#ffffff",
+   "width": 3,
+   "color": "#000000",
+   "boil": 0.3,
+   "keep_ink": true
+  },
+  {
+   "type": "circle",
+   "x": 41,
+   "y": -220,
+   "r": 5,
+   "fill": "#000000",
+   "width": 1,
+   "color": "#000000",
+   "boil": 0.2,
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     -180
+    ],
+    [
+     36,
+     -180
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "rect",
+   "x": -50,
+   "y": -326,
+   "w": 100,
+   "h": 40,
+   "fill": "#ffffff",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -48,
+     -324
+    ],
+    [
+     -70,
+     -354
+    ],
+    [
+     -62,
+     -396
+    ],
+    [
+     -30,
+     -414
+    ],
+    [
+     0,
+     -424
+    ],
+    [
+     34,
+     -416
+    ],
+    [
+     64,
+     -396
+    ],
+    [
+     72,
+     -356
+    ],
+    [
+     50,
+     -324
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -24,
+     -330
+    ],
+    [
+     -20,
+     -380
+    ]
+   ],
+   "width": 3,
+   "color": "#bdbdbd",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     22,
+     -330
+    ],
+    [
+     24,
+     -384
+    ]
+   ],
+   "width": 3,
+   "color": "#bdbdbd",
+   "keep_ink": true
+  }
+ ]
+}

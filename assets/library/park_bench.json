@@ -1,0 +1,526 @@
+{
+ "name": "park_bench",
+ "description": "Wooden park bench (060): brown #a0522d slats (two back, three seat) on black cast-iron curled legs and armrests, with a glossy wet sheen (white highlight strokes). No sign: WET PAINT is a shotlist label. Anchor bottom-centre (feet on y=0); x -354..+354, y -258..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "bench",
+  "park",
+  "060"
+ ],
+ "elements": [
+  {
+   "type": "curve",
+   "points": [
+    [
+     -300,
+     -250
+    ],
+    [
+     -304,
+     -180
+    ],
+    [
+     -294,
+     -120
+    ],
+    [
+     -314,
+     -60
+    ],
+    [
+     -322,
+     0
+    ]
+   ],
+   "width": 14,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -290,
+     -110
+    ],
+    [
+     -276,
+     -60
+    ],
+    [
+     -260,
+     0
+    ]
+   ],
+   "width": 14,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -304,
+     -150
+    ],
+    [
+     -340,
+     -160
+    ],
+    [
+     -354,
+     -140
+    ],
+    [
+     -340,
+     -124
+    ]
+   ],
+   "width": 12,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -322,
+     0
+    ],
+    [
+     -336,
+     0
+    ]
+   ],
+   "width": 10,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -260,
+     0
+    ],
+    [
+     -246,
+     0
+    ]
+   ],
+   "width": 10,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     300,
+     -250
+    ],
+    [
+     304,
+     -180
+    ],
+    [
+     294,
+     -120
+    ],
+    [
+     314,
+     -60
+    ],
+    [
+     322,
+     0
+    ]
+   ],
+   "width": 14,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     290,
+     -110
+    ],
+    [
+     276,
+     -60
+    ],
+    [
+     260,
+     0
+    ]
+   ],
+   "width": 14,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     304,
+     -150
+    ],
+    [
+     340,
+     -160
+    ],
+    [
+     354,
+     -140
+    ],
+    [
+     340,
+     -124
+    ]
+   ],
+   "width": 12,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     322,
+     0
+    ],
+    [
+     336,
+     0
+    ]
+   ],
+   "width": 10,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     260,
+     0
+    ],
+    [
+     246,
+     0
+    ]
+   ],
+   "width": 10,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "rect",
+   "x": -330,
+   "y": -252,
+   "w": 660,
+   "h": 30,
+   "fill": "#a0522d",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -326,
+   "y": -248,
+   "w": 652,
+   "h": 6,
+   "fill": "#c0703f",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -330,
+   "y": -208,
+   "w": 660,
+   "h": 30,
+   "fill": "#a0522d",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -326,
+   "y": -204,
+   "w": 652,
+   "h": 6,
+   "fill": "#c0703f",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -340,
+   "y": -128,
+   "w": 680,
+   "h": 20,
+   "fill": "#a0522d",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -340,
+   "y": -104,
+   "w": 680,
+   "h": 20,
+   "fill": "#a0522d",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -340,
+   "y": -80,
+   "w": 680,
+   "h": 20,
+   "fill": "#a0522d",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -300,
+     -238
+    ],
+    [
+     -100,
+     -238
+    ]
+   ],
+   "width": 2,
+   "color": "#6a3418"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     -194
+    ],
+    [
+     280,
+     -194
+    ]
+   ],
+   "width": 2,
+   "color": "#6a3418"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -260,
+     -118
+    ],
+    [
+     -40,
+     -118
+    ]
+   ],
+   "width": 2,
+   "color": "#6a3418"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     100,
+     -94
+    ],
+    [
+     300,
+     -94
+    ]
+   ],
+   "width": 2,
+   "color": "#6a3418"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -70
+    ],
+    [
+     80,
+     -70
+    ]
+   ],
+   "width": 2,
+   "color": "#6a3418"
+  },
+  {
+   "type": "rect",
+   "x": -330,
+   "y": -252,
+   "w": 660,
+   "h": 30,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -330,
+   "y": -208,
+   "w": 660,
+   "h": 30,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -260,
+     -244
+    ],
+    [
+     -140,
+     -244
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -244
+    ],
+    [
+     120,
+     -244
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -80,
+     -200
+    ],
+    [
+     60,
+     -200
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     200,
+     -200
+    ],
+    [
+     260,
+     -200
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -300,
+     -124
+    ],
+    [
+     -200,
+     -124
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     140,
+     -100
+    ],
+    [
+     260,
+     -100
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     -76
+    ],
+    [
+     40,
+     -76
+    ]
+   ],
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "circle",
+   "x": -120,
+   "y": -236,
+   "r": 3,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 240,
+   "y": -194,
+   "r": 3,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": -180,
+   "y": -120,
+   "r": 3,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "circle",
+   "x": 40,
+   "y": -96,
+   "r": 3,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  }
+ ]
+}

@@ -1,0 +1,379 @@
+{
+ "name": "rope_puller",
+ "description": "Crude-tier stick man (no cap) facing LEFT, leaning back ~25 degrees, pulling on a rope that runs off to the left (the rope is drawn in the shotlist): both hands together at about (-90,-250), front heel dug in, knees bent, gritted effort face. Lines 8 so it reads at scale 0.26 (~110 px). Anchor = feet (0,0); x -90..+164, y -372..0. auto_ink.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "character",
+  "human",
+  "stick man",
+  "060"
+ ],
+ "auto_ink": true,
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     8,
+     -128
+    ],
+    [
+     -34,
+     -78
+    ],
+    [
+     -66,
+     -2
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     8,
+     -128
+    ],
+    [
+     40,
+     -64
+    ],
+    [
+     14,
+     -2
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -66,
+     -2
+    ],
+    [
+     -82,
+     -6
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     14,
+     -2
+    ],
+    [
+     -2,
+     -4
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -238
+    ],
+    [
+     8,
+     -128
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     54,
+     -226
+    ],
+    [
+     -20,
+     -244
+    ],
+    [
+     -90,
+     -250
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     52,
+     -214
+    ],
+    [
+     -16,
+     -236
+    ],
+    [
+     -86,
+     -244
+    ]
+   ],
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "circle",
+   "x": 92,
+   "y": -300,
+   "r": 72,
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     104.5,
+     -229.1
+    ],
+    [
+     116.6,
+     -232.3
+    ],
+    [
+     128.0,
+     -237.6
+    ],
+    [
+     138.3,
+     -244.8
+    ],
+    [
+     147.2,
+     -253.7
+    ],
+    [
+     154.4,
+     -264.0
+    ],
+    [
+     159.7,
+     -275.4
+    ],
+    [
+     162.9,
+     -287.5
+    ],
+    [
+     164.0,
+     -300.0
+    ],
+    [
+     162.9,
+     -312.5
+    ],
+    [
+     159.7,
+     -324.6
+    ],
+    [
+     154.4,
+     -336.0
+    ],
+    [
+     147.2,
+     -346.3
+    ],
+    [
+     138.3,
+     -355.2
+    ],
+    [
+     128.0,
+     -362.4
+    ],
+    [
+     116.6,
+     -367.7
+    ],
+    [
+     104.5,
+     -370.9
+    ],
+    [
+     100.6,
+     -362.0
+    ],
+    [
+     111.0,
+     -357.2
+    ],
+    [
+     120.4,
+     -350.6
+    ],
+    [
+     128.6,
+     -342.4
+    ],
+    [
+     135.2,
+     -333.0
+    ],
+    [
+     140.0,
+     -322.6
+    ],
+    [
+     143.0,
+     -311.5
+    ],
+    [
+     144.0,
+     -300.0
+    ],
+    [
+     143.0,
+     -288.5
+    ],
+    [
+     140.0,
+     -277.4
+    ],
+    [
+     135.2,
+     -267.0
+    ],
+    [
+     128.6,
+     -257.6
+    ],
+    [
+     120.4,
+     -249.4
+    ],
+    [
+     111.0,
+     -242.8
+    ],
+    [
+     100.6,
+     -238.0
+    ]
+   ],
+   "fill": "#d6d6d6",
+   "width": 0,
+   "outline": false,
+   "boil": 0.5
+  },
+  {
+   "type": "circle",
+   "x": 92,
+   "y": -300,
+   "r": 72,
+   "fill": null,
+   "width": 8,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 86,
+   "y": -304,
+   "rx": 10,
+   "ry": 14,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "circle",
+   "x": 83,
+   "y": -304,
+   "r": 5,
+   "fill": "#000000",
+   "width": 1,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": 54,
+   "y": -304,
+   "rx": 10,
+   "ry": 14,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "circle",
+   "x": 51,
+   "y": -304,
+   "r": 5,
+   "fill": "#000000",
+   "width": 1,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "rect",
+   "x": 46,
+   "y": -274,
+   "w": 36,
+   "h": 14,
+   "fill": "#ffffff",
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     58,
+     -274
+    ],
+    [
+     58,
+     -260
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     70,
+     -274
+    ],
+    [
+     70,
+     -260
+    ]
+   ],
+   "width": 3,
+   "color": "#000000",
+   "keep_ink": true
+  }
+ ]
+}

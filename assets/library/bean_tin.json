@@ -1,0 +1,270 @@
+{
+ "name": "bean_tin",
+ "description": "Sealed tin of baked beans (060): grey metal can with top lid ellipse, rims and ridges, an orange label with a cartoon bean pile in sauce. No brand, no text. Anchor centre; x -50..+50, y -72..+72.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "prop",
+  "food",
+  "tin",
+  "060"
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -46,
+   "y": -58,
+   "w": 92,
+   "h": 120,
+   "fill": "#b8bcc2",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -46,
+   "y": -40,
+   "w": 92,
+   "h": 82,
+   "fill": "#f08a2a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -34,
+     30
+    ],
+    [
+     -30,
+     6
+    ],
+    [
+     -14,
+     -6
+    ],
+    [
+     8,
+     -8
+    ],
+    [
+     26,
+     2
+    ],
+    [
+     34,
+     30
+    ]
+   ],
+   "fill": "#d9452b",
+   "width": 3,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 6.4,
+   "y": 20.3,
+   "rx": 5.5,
+   "ry": 3.8,
+   "fill": "#e8a050",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 15.4,
+   "y": 24.7,
+   "rx": 5.5,
+   "ry": 3.8,
+   "fill": "#e8a050",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 12.5,
+   "y": 24.3,
+   "rx": 5.5,
+   "ry": 3.8,
+   "fill": "#e8a050",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 23.1,
+   "y": 18.3,
+   "rx": 5.5,
+   "ry": 3.8,
+   "fill": "#e8a050",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -1.6,
+   "y": 9.4,
+   "rx": 5.5,
+   "ry": 3.8,
+   "fill": "#e8a050",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 2.3,
+   "y": 16.6,
+   "rx": 5.5,
+   "ry": 3.8,
+   "fill": "#e8a050",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -11.5,
+   "y": 24.2,
+   "rx": 5.5,
+   "ry": 3.8,
+   "fill": "#e8a050",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -25.9,
+   "y": 23.2,
+   "rx": 5.5,
+   "ry": 3.8,
+   "fill": "#e8a050",
+   "width": 2,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     -30
+    ],
+    [
+     46,
+     -30
+    ]
+   ],
+   "width": 2,
+   "color": "#c86a1a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     34
+    ],
+    [
+     46,
+     34
+    ]
+   ],
+   "width": 2,
+   "color": "#c86a1a"
+  },
+  {
+   "type": "spray",
+   "x": 30,
+   "y": 0,
+   "r": 18,
+   "color": "#c86a1a",
+   "density": 0.2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     -50
+    ],
+    [
+     46,
+     -50
+    ]
+   ],
+   "width": 2,
+   "color": "#80868e"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -46,
+     50
+    ],
+    [
+     46,
+     50
+    ]
+   ],
+   "width": 2,
+   "color": "#80868e"
+  },
+  {
+   "type": "rect",
+   "x": -36,
+   "y": -56,
+   "w": 8,
+   "h": 114,
+   "fill": "#e4e8ec",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "rect",
+   "x": -46,
+   "y": -58,
+   "w": 92,
+   "h": 120,
+   "fill": null,
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -60,
+   "rx": 48,
+   "ry": 11,
+   "fill": "#e4e8ec",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -60,
+   "rx": 38,
+   "ry": 7,
+   "fill": null,
+   "width": 2,
+   "color": "#80868e"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 62,
+   "rx": 48,
+   "ry": 10,
+   "start": 0,
+   "end": 180,
+   "width": 5,
+   "color": "#000000",
+   "fill": null
+  }
+ ]
+}
