@@ -65,3 +65,20 @@ it is nearly the same picture as A (vertical fish, Doug holding the piece like a
 kid-appeal, gore), and send them back to me with its report.
 
 PACKAGE: CHANGES REQUESTED
+
+## 2026-11-27: package gate re-review (thumbnails A/B/C, Round 4): APPROVED
+Visual screener Round 4 is a PASS (visual_review.md). I re-checked the three full-size thumbnails against their paired titles.
+- **A "IT LET GO" / "Why an 8 Meter Oarfish Can Drop Its Own Tail and Not Die"**: the scale is fixed. Tiny Doug against an upright fish
+  now sells "8 meter". The fish ends in a grey rounded stump inside the frame, and the dropped piece's broad end faces it, so the
+  story reads as "the fish let go". The mouth is flat and nothing is red at the cut. This matches the brief's hero image and the s001 opening.
+- **B "NO TEETH" / "Doug Died 5 Times Near an Oarfish That Did Nothing"**: the nursery read is gone. The water is navy, there's no blush,
+  the eye is blank with a small pupil, and the mouth is flat. Doug grimaces with no smile. The tally reads clearly as five, and the text
+  sits in open water clear of the fins. It is now a real alternative close-up concept.
+- **C "NEVER GROWS BACK" / "Why the Oarfish Can Cut Off Its Own Body and Not Die"**: it is now distinct from A. The head is out of frame,
+  the stump is the focal point, and Doug sinks below with bubbles, cradling the piece. The text sits on two balanced lines. The floating
+  cap is waived (engine limit).
+- Optional polish for the graphic designer, not blocking: scale A's Doug about 1.2-1.3x if it stays clear of the text, and remove the
+  stray dash above A's eye. Crop B's two pelvic-fin lines at the bottom edge. Thicken the cut end of C's dropped piece toward the stump width.
+- Labels: verified. metadata.json now lists A as "hero + Doug for scale" and B as "hero close-up" (item 10 of the previous review).
+
+PACKAGE: APPROVED
