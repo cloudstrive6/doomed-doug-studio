@@ -17,3 +17,51 @@
 - Series bible: the episode-log row and the counter update (425 to 430) happen at final approval.
 
 SCRIPT: APPROVED
+
+## 2026-11-27: package gate (thumbnails A/B/C with ranked titles): CHANGES REQUESTED
+Checked the full-size files and the 168x94 feed versions against the titles in metadata.json. `package check --dry-run` passes, and the
+title/thumb-text pairs are fine: no word is repeated, no banned word appears, and the 8 m and 5-deaths claims are delivered by the
+approved script. There is no visual-screener report for the thumbnails yet (visual_review.md covers keyframes only), so this gate
+could not pass in any case. The pictures also need work.
+
+**A: "Why an 8 Meter Oarfish Can Drop Its Own Tail and Not Die" + IT LET GO**: the concept is right, but the execution undersells it.
+1. Scale. Doug is about half the fish's height, so an "8 meter" fish reads as two Dougs tall. Shrink Doug to about 1/5 of the fish's
+   length (about 140 px tall at 1280x720) and put him at mid-height, as the brief asks, holding the piece and looking at the camera.
+2. Make the stump visible. The fish's rounded end is cut by the bottom edge, and at feed size the dropped piece reads as a stick or a
+   bat, not as part of this fish. End the fish at about 70-75% of frame height with a clean rounded stump in open water, and float the
+   piece just below or beside it. Its broad end should face the stump and match its width, so the eye can join them. Keep the stump
+   grey (no red).
+3. Flatten the mouth line. At full size, the diagonal from the mouth toward the eye reads as a smirk. Make it short and flat (blank
+   fish, never smiling).
+4. Fill the empty middle. Once Doug is smaller, move the fish toward the centre-left so fish, piece and Doug form one readable group
+   under the text.
+
+**B: "Doug Died 5 Times Near an Oarfish That Did Nothing" + NO TEETH**: a close-up is fine here. The joke is that the fish does
+nothing, so peril isn't needed. In its current form, though, it reads like a children's show.
+5. Background. Replace the bright cyan with the episode's deep blue (A's colour or darker). This is our biggest made-for-kids signal.
+6. Doug's expression. He is smiling and waving. Make him deadpan or nervous, with the "hi friend?" energy and no grin. Keep the small
+   wave if you like, but take the smile off.
+7. The fish face. Remove the pale round patch on the cheek, which reads as blush. Make the eye flatter (a smaller pupil, or a
+   half-lidded top line) so it is blank, not cute. Keep the mouth as a flat short line.
+8. The count. At feed size the four strokes plus a slash read as a hashtag or a fence. Make the five red marks clearly a death tally:
+   four uprights plus a clean diagonal across them, slightly larger, with more space between the strokes. Or use five tiny red X'd
+   Doug heads. No number text, because "5" is already in the title.
+9. Text placement. NO TEETH sits on the belly and the red fins (the same fault the screener flagged for s084). Move it into open water
+   (lower left under Doug, or top centre), clear of the fins.
+10. Label. metadata.json lists B as "Doug in peril" and A as "hero close-up". That is backwards. Relabel A as "hero + Doug for scale"
+    and B as "hero close-up", so the Test & compare readout records what was actually tested.
+
+**C: "Why the Oarfish Can Cut Off Its Own Body and Not Die" + NEVER GROWS BACK**: its stump reads better than A's, but at feed size
+it is nearly the same picture as A (vertical fish, Doug holding the piece like a bat). That spends a test slot to learn nothing.
+11. Build the concept as written. The fish swims up and out of frame, with its head cropped by the top edge so the healed rounded stump
+    is the focal point at about 40% height. Doug sinks below it, smaller, holding about two metres of tail in his arms (cradled, not
+    pointed like a lance), and his cap floats up and off his head. The camera should be on the stump and on Doug losing his grip, not
+    on the fish's face.
+12. Text. Set NEVER GROWS BACK at one size on two lines (NEVER / GROWS BACK at equal height, or GROWS BACK slightly bigger). The current
+    big/small split makes "NEVER" the only word read at 168 px.
+13. Flatten the mouth line, as in item 3.
+
+**Process:** after fixes, re-render all three plus the _small versions, run the visual screener on the thumbnails (feed readability,
+kid-appeal, gore), and send them back to me with its report.
+
+PACKAGE: CHANGES REQUESTED
