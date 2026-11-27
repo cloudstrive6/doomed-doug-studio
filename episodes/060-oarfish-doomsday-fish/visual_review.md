@@ -100,3 +100,17 @@ VERDICT: PASS
 
 **C, "NEVER GROWS BACK"**: PASS. The floating cap is waived (engine limit; cap stays on head). Doug is now tilted and sprawled with bubbles rising, so he reads as sinking. "GROWS BACK" now has about 45 px of left margin. The bottom right is clear.
  Advisory (graphic designer, optional): The dropped piece is much thinner at its cut end (about 25 px) than the fish's stump (about 90 px). Thicken the cut end toward the stump width so it reads as the same body.
+
+## Round 5: post-render (final.mp4 samples, thumbnails, Shorts)
+
+VERDICT (main): PASS
+VERDICT (shorts): PASS
+
+**Main video**: build/qc.json shows a duration of 661.4 s and no problems. All 22 samples (f_001 to f_022) are clean: no blank or garbled frames, no frozen shots. Chapter tabs, the DOUG DEATHS counter (425 to 430) and the distance tracker are legible and move forward correctly. f_016 (black frame with only the red cap) is the intended death beat of THE MISSING HALF, not a render fault. The gut interior (f_017) is pink and cartoonish, with no gore. The end screen (DOUG'S NEXT DEATH arrow, video slot and subscribe circle) is clean. No kid-show tone.
+**Thumbnail A** ("IT LET GO") is unchanged from its Round 4 PASS. It complements the title "Why an 8 Meter Oarfish Can Drop Its Own Tail and Not Die" without repeating it, and it still reads at 168x94. B and C are unchanged.
+
+**Shorts** (all three are 9:16 at 44-47 s): the red titles are readable on cream, navy and pink. Subtitles are chunked, outlined and legible throughout. I checked short02 at 4 fps and found no mid-word cuts. Each short ends on the light-blue "FULL VIDEO: TAP BELOW" card with Doug pointing and a red arrow pointing straight down. There is no "???" teaser, and each clip pays off its title: autotomy, no teeth and gill rakers, 63 larvae.
+ Advisory (director, optional):
+ 1. short01 hook (s120, 0-2.5 s): Doug isn't in the frame, and the healed stump is small, so the opening second is weak. In a future hook, use a shot with Doug and a larger stump.
+ 2. short03 (s162-s173 crop, about 30 s and the preview): Doug stands about 15 px from the left edge of the vertical crop. He isn't clipped, but it's tight. Move him about 100 px right in the source shot if it's re-cut.
+ 3. short02_preview.png caught the caption mid-type ("Australian Museum c"). This only affects the preview image; the video's captions are fine.

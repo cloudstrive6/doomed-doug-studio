@@ -83,3 +83,25 @@ Visual screener Round 4 is a PASS (visual_review.md). I re-checked the three ful
 
 PACKAGE: APPROVED
 - 2026-11-27: script 4 rounds (hook fixes), art 2 rounds, thumbnails 2 rounds. Risks: C thumbnail lacks floating cap (engine); item 8 must label OCEANSIDE; titles B 'did nothing' mildly leans on joke.
+
+## 2026-11-27: final package approval (post-render)
+Inputs: visual screener Round 5 PASS (main and Shorts), build/qc.json shows 661.4 s and no problems, build/thumbnail.png, metadata.json,
+build/chapters.txt, samples f_001-f_003 and the opening of script.md.
+- **Title kept: "Why an 8 Meter Oarfish Can Drop Its Own Tail and Not Die"** (56 chars). None of the alt_titles is clearly stronger. This one
+  has the only concrete number, a clear "how is that possible" gap, and the subject in the first five words. The claim is delivered at
+  THE MISSING HALF (7:00). The FishBase source behind it ("8 m (all autotomized)", lost part never regenerated) is in facts.md and
+  linked in the description. "Doug Died 5 Times..." stays as the B test title.
+- **Thumbnail A ("IT LET GO")**: it adds the twist instead of repeating the title. The upright fish, the healed grey stump, the gap and the
+  dropped piece with a panicked Doug tell the story at feed size. There is no red at either cut, the fish looks blank rather than cute, and
+  the water is navy. It matches the s001 opening frame.
+- **Description**: it opens with the hook fact (the longest bony fish, and nearly every large one is missing its back half), then gives the
+  episode's distance arc. Six key sources are linked. The disclaimer explicitly debunks the earthquake link, so the "doomsday" framing is
+  not misleading. AI-use disclosure is present. Chapters: 10 entries from 0:00, each well over 10 s, in script order.
+- **First 60 s**: the thumbnail image holds, then we cut to Doug at 9,000 KM. The legend is the first line. The payoff promise ("it cuts
+  off its own body with Doug attached, and Doug is inside one, not alone") comes by about 0:10. Item 1 "The Doomsday Fish" is named
+  within the first 35 words, and the twist (one plausible match in 80+ years, Orihara 2019) lands well inside 45 s. Frames f_001-f_003 are
+  clean: legible counter and distance tracker, no kid-show tone.
+- Non-blocking, for the next episode: the tape-measure icon beside DISTANCE TO FISH is tiny at 360p and can be dropped or enlarged. The
+  Shorts advisories in visual_review.md Round 5 go to the director.
+
+FINAL: APPROVED
