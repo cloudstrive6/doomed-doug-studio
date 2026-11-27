@@ -238,6 +238,11 @@ hood. It is the harp-seal suit; 051's grey speckled `seal_costume` stays the gen
 two stacked size-28 labels under the counter: the subject's fixed weight on top (`BADGER: ~9 kg`), the current attacker under it. A
 small red needle line on the dial steps up each item and hits the end stop at the climax, where only the attacker label turns red-on-pink
 `#ffd2cc` / `#e0201b`. HUD labels use lower-case `kg` on every shot; the big on-screen callouts may use `KG`.
+**DISTANCE TO FISH (060; reuse for any "how close are we" episode).** Library `tape_measure` at 0.16 left of the size-28
+`DISTANCE TO FISH: <value>` label at (1590,238); same icon-gap and one-icon rules as SHARK AGE. Values count down in spoken bands
+(9,000 KM → 0 M), `0 M (HOLDING)` is the widest (ends ~x 1830), hide label + icon together on a death beat, red-on-pink once the value goes negative.
+Crowd stick men (`stick_man_plain`, `stick_man_arms_up`, `rope_puller`, `ship_cook`) are drawn at Doug's proportions so the same
+scale means the same size as Doug; never bake a size-up into a library figure.
 **HEAD COUNT board (from 054; reuse for any "how many of them" episode).** Under the counter: a cream `#e8dcc0` board, rect x 1370-1810
 (w 440), y 212-266, brown `#5a3a1e` 5 px frame, bold `#2b2b2b` size-25 text centred at (1590,239) ("BUFFALO VS DOUG: <n>"; the longest
 value, HUNDREDS, is 397 px, so keep text under ~410 px). The episode icon (`buffalo_head_icon` at 0.3) sits at (1330,239) on a cream

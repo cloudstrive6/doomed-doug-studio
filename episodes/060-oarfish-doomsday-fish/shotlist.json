@@ -8488,20 +8488,6 @@
       "rotate": -90
      },
      {
-      "type": "asset",
-      "name": "ship_cook",
-      "x": 250,
-      "y": 860,
-      "scale": 0.55
-     },
-     {
-      "type": "asset",
-      "name": "spyglass",
-      "x": 330,
-      "y": 700,
-      "scale": 0.5
-     },
-     {
       "type": "doug",
       "x": 720,
       "y": 796.4,
@@ -8659,6 +8645,20 @@
       ],
       "color": "#5a2e14",
       "width": 10
+     },
+     {
+      "type": "asset",
+      "name": "ship_cook",
+      "x": 250,
+      "y": 860,
+      "scale": 0.55
+     },
+     {
+      "type": "asset",
+      "name": "spyglass",
+      "x": 310,
+      "y": 783,
+      "scale": 0.5
      },
      {
       "type": "wordart",
@@ -8846,9 +8846,9 @@
      {
       "type": "text",
       "text": "SEA SERPENT",
-      "x": 1036,
+      "x": 955,
       "y": 620,
-      "size": 36,
+      "size": 34,
       "color": "#e0201b",
       "bold": true,
       "boil": 0.3
@@ -8863,8 +8863,8 @@
      {
       "type": "asset",
       "name": "spyglass",
-      "x": 1620,
-      "y": 740,
+      "x": 1616,
+      "y": 816,
       "scale": 0.45,
       "appear": 0.5
      },
@@ -11646,7 +11646,7 @@
       "type": "asset",
       "name": "giant_oarfish_beached",
       "x": 1000,
-      "y": 600,
+      "y": 648,
       "scale": 0.95
      },
      {
@@ -13929,7 +13929,7 @@
      {
       "type": "asset",
       "name": "narrator_hand",
-      "x": 1010,
+      "x": 1230,
       "y": 600,
       "scale": 1.0,
       "rotate": 40
@@ -28445,11 +28445,10 @@
      },
      {
       "type": "asset",
-      "name": "giant_oarfish",
+      "name": "tapeworm_larva",
       "x": 560,
-      "y": 600,
-      "scale": 0.55,
-      "rotate": -90
+      "y": 660,
+      "scale": 1.0
      },
      {
       "type": "asset",
@@ -28461,12 +28460,12 @@
      {
       "type": "arrow",
       "from": [
-       900,
-       520
+       800,
+       600
       ],
       "to": [
-       1100,
-       520
+       1080,
+       540
       ],
       "color": "#e0201b",
       "width": 9,
@@ -28564,11 +28563,10 @@
      },
      {
       "type": "asset",
-      "name": "giant_oarfish",
+      "name": "tapeworm_larva",
       "x": 560,
-      "y": 600,
-      "scale": 0.55,
-      "rotate": -90
+      "y": 660,
+      "scale": 1.0
      },
      {
       "type": "asset",
@@ -28580,12 +28578,12 @@
      {
       "type": "arrow",
       "from": [
-       900,
-       520
+       800,
+       600
       ],
       "to": [
-       1100,
-       520
+       1080,
+       540
       ],
       "color": "#e0201b",
       "width": 9,
@@ -28610,13 +28608,6 @@
       "bold": true,
       "boil": 0.3,
       "fill": "#ffffff"
-     },
-     {
-      "type": "asset",
-      "name": "tapeworm_larva",
-      "x": 560,
-      "y": 860,
-      "scale": 0.3
      },
      {
       "type": "wordart",
@@ -28689,11 +28680,10 @@
      },
      {
       "type": "asset",
-      "name": "giant_oarfish",
+      "name": "tapeworm_larva",
       "x": 560,
-      "y": 600,
-      "scale": 0.55,
-      "rotate": -90
+      "y": 660,
+      "scale": 1.0
      },
      {
       "type": "asset",
@@ -28705,12 +28695,12 @@
      {
       "type": "arrow",
       "from": [
-       900,
-       520
+       800,
+       600
       ],
       "to": [
-       1100,
-       520
+       1080,
+       540
       ],
       "color": "#e0201b",
       "width": 9,
@@ -29754,8 +29744,8 @@
      {
       "type": "asset",
       "name": "doug_cap",
-      "x": 950,
-      "y": 420,
+      "x": 930,
+      "y": 490,
       "scale": 0.25,
       "appear": 0.1
      },
@@ -29811,7 +29801,10 @@
       "scale": 0.4,
       "pose": "float",
       "expression": "flat",
-      "ghost": true
+      "ghost": true,
+      "gear": [
+       "cap_taken"
+      ]
      }
     ]
    }
@@ -29898,7 +29891,7 @@
       "type": "asset",
       "name": "oarfish_stump",
       "x": 900,
-      "y": 460,
+      "y": 620,
       "scale": 0.5
      },
      {
@@ -29954,7 +29947,10 @@
       "scale": 0.4,
       "pose": "float",
       "expression": "flat",
-      "ghost": true
+      "ghost": true,
+      "gear": [
+       "cap_taken"
+      ]
      }
     ]
    }
@@ -30035,7 +30031,10 @@
       "scale": 0.4,
       "pose": "float",
       "expression": "flat",
-      "ghost": true
+      "ghost": true,
+      "gear": [
+       "cap_taken"
+      ]
      }
     ]
    }

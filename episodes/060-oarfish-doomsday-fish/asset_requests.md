@@ -165,7 +165,7 @@ separately) can sit there. Anchor = hips (0,0) like `scientist`: feet at +150, h
 `auto_ink` with `keep_ink` on the face. Used at 0.55-0.6 on a wooden deck and on cream.
 
 ### `stick_man_arms_up`: s056
-**DONE** (illustrator, 2026-11-27): `assets/library/stick_man_arms_up.json`. Preview: `assets/previews/060-oarfish-doomsday-fish-assets.png`. **Drawn at 1.45× `stick_man_plain`** so that normal-length straight arms reach (±60,-700). At normal proportions the arms would need to be about 3× leg length. Head top -651, elbows ±140. At the same scale these men are 1.45× Doug's size, so lower their scale if they must match him.
+**DONE, REDRAWN** (illustrator, 2026-11-27, art review fix 1): `assets/library/stick_man_arms_up.json` is now at exactly `stick_man_plain` proportions (line width 5, head top -450, feet at 0), so at the same scale the men are Doug's size. Shoulders (0,-288), elbows (±90,-440), **hands at (±55,-600)**, about 150 above the head top. Bbox x -95..+95, y -614..0. Preview: `assets/previews/060-arms-up-fix.png`. Director: rest the fish on the hand line in s056 (fix 2).
 
 A generic crude-tier stick man (as `stick_man_plain`: no cap, neutral face) with **both arms straight up, hands at about
 (-60,-700) and (+60,-700)**, as if holding something overhead. Anchor = feet (0,0); x -100..+100, y -700..0. `auto_ink`. Six of
