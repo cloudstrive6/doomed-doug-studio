@@ -59,3 +59,25 @@ B. **s130** (illustrator, `record_book_open`): The grey bar on the left page doe
 C. **s027** (Round 1 item 8) was not in this recheck set. Confirm the stray rectangle has been removed.
 
 Note: build/contact/ only holds sheet_01 (s160 and s172). The other shots were checked from the individual keyframes and a montage of s144-s174 made for this review.
+
+## Round 3: thumbnails A/B/C (build/thumbnail*.png, *_small.png at 168x94) and s001 recheck
+
+VERDICT: FAIL (variant B only; A and C pass)
+
+**s001**: Confirmed after a re-render. The keyframe on disk was stale: it was rendered at 18:02, before the thumbnails were made at 18:13, and still showed "(thumbnail pending)". I re-ran `python -m studio keyframes 060-oarfish-doomsday-fish --shots s001`, and s001 now shows thumbnail A ("IT LET GO"), matching build/thumbnail.png. The editor must render after the thumbnails exist (they do now).
+
+**A, "IT LET GO"** (title: "Why an 8 Meter Oarfish Can Drop Its Own Tail and Not Die"): PASS. The text is readable at 168x94. There is one focal pair: the upright fish and the dropped piece. Doug is on-model, panicked and readable against the dark blue. The stump is clean and rounded, with no red. There is no gore and nothing kid-coded. The text doesn't repeat the title and pays off "drop its own tail".
+ Advisory (graphic designer): (a) The thin tip of the dropped tail ends between Doug's raised hand and his chin, so at feed size it can look like it's poking his mouth. Put the tip clearly in one fist. (b) The fish's rounded stump touches the bottom edge, and a small black spike pokes out below it at x of about 350 (1280 scale). Raise the fish about 30 px so the whole healed stump is inside the frame and the spike is gone.
+
+**B, "NO TEETH"** (title: "Doug Died 5 Times Near an Oarfish That Did Nothing"): FAIL. Fixes, all for the graphic designer:
+1. **Kid-show tone.** A smiling, waving Doug, a big round-eyed fish with a pale blush circle on its cheek, and bright sky-blue water add up to the most nursery-looking frame of the three, and nothing in it says "died". Change these:
+   - Remove the cheek blush circle at about (590,480).
+   - Make the eye blank and dead-looking: no white ring around a centred pupil. Use a flat pale disc with a small off-centre pupil, the same as A and C.
+   - Switch the water to the episode's dark blue (#1B4F86 as in A, or darker).
+   - Give Doug a nervous or fake grin with a sweat drop instead of the happy smile.
+2. **Duration badge.** The "H" of TEETH sits at x 1130-1210, y 590-700, inside YouTube's timestamp-badge zone at the bottom right. Move the text left or up so it ends before x of about 1120 or above y of about 620.
+3. **Text on top of the drawing.** "NO TEETH" sits over the fish's lower body, and red fin lines stick out under the "O T", which looks like a glitch at feed size. Put the text in open water at the top centre, or bottom left under the tally, and crop the fins so nothing shows below the text.
+4. **Brief match** (optional but recommended). The brief says "Doug waving at arm's length", but he is about 250 px away from the mouth. Move him in to just in front of the mouth so "near an oarfish that did nothing" reads at a glance.
+
+**C, "NEVER GROWS BACK"** (title: "Why the Oarfish Can Cut Off Its Own Body and Not Die"): PASS. The text is readable at feed size, and the healed rounded stump and the dropped piece in Doug's hand are both clear. Bubbles sell the sinking. There is no gore and nothing kid-coded, and the bottom right is clear apart from bubbles.
+ Advisory (graphic designer): The brief's "cap floating off" is missing, and Doug looks like he's standing rather than sinking. Tilt him about 15 degrees, or float the cap just above his head. "GROWS BACK" starts about 15 px from the left edge, so give it 30 px or more of margin.
