@@ -163,3 +163,32 @@ R2-3. **s117 and s124: a half-sliced soldier sits on the right frame edge.** In 
 
 Re-screen after fixes: s117, s124, s127, s160-s162. Then post-render: samples, qc.json, s001 and the three thumbnails,
 Shorts.
+
+## Round 3: pre-render keyframes re-screen (2026-11-28)
+
+Screened: freshly re-keyed s117, s120, s124, s127, s160, s161, s162, s164, s166, s170, s171 (contact sheet plus
+full size for each; s161 paws/tail cropped at 2x).
+
+**VERDICT: PASS** (pre-render keyframes. The post-render round is still to come.)
+
+### Round 2 items: status
+R2-1. s160, s161, s162: **fixed.** The redrawn `tsavo_lion_looking_up` now reads as a maneless lion in 1 second. It
+   has a rounded ear, an eye, a cat muzzle with a dark nose, the head tilted up about 45°, and a haunch. The tail runs
+   from the rump along the ground to a dark tuft by the front paws, so the tuft is attached and no longer floats. In
+   s160 the lion at the base of the tree looks up at Doug, and the beat lands.
+R2-2. s127: **fixed.** The lion is tan, not a silhouette. Its ear, eye and muzzle read at the left edge and match
+   s121. All three rifles still rest across the men's laps with the muzzles up-right, away from the lion.
+R2-3. s117 and s124: **fixed.** The right-hand soldier sits fully in frame at about x=1700-1830, with his rifle
+   across his lap. Nothing is sliced at x=1920.
+
+### Minor items
+- s162: **fixed.** No twig crosses the DOUG DEATHS or DAYS WITHOUT boxes, and the floating "V" twig is gone.
+- s166, s170, s171: **fixed.** The two mounted lions face each other with clear space between them. The cap sits on
+  the floor of the case between them.
+- s164: the rug is now a fringed rectangular rug, so it reads as "rug", but it does not say "lion". The flying
+  calendar pages carry "25+ YEARS". Not blocking, and acceptable as is.
+- s120: clean. The tan lion lunges against the bars on the left, the men sit on the right with their rifles across
+  their laps, and Doug is outside, horrified.
+
+Next: post-render screening of samples, qc.json, the s001 cold open with thumbnails A/B/C and their `_small`
+versions, and the Shorts.

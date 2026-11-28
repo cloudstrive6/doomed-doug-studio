@@ -247,3 +247,29 @@ is the creative director's call, because the CD condition at the top of `asset_r
 **Next:** the director applies fix 1 and re-runs `python -m studio keyframes 061-tsavo-lions-bridge --shots s120,s127`. If s120
 and s127 show the tan lion, this is an art PASS and no further review round is needed. The visual-screener then runs before
 `art_approved`.
+
+## Round 5: final keyframe check (art director, 2026-11-28): PASS
+
+What I checked: s117, s120, s124, s127, s160, s161, s162, s164, s166, s170 and s171 at full res, against art Round 4 and visual
+review Round 2. I also checked every `rifle_held` instance in `shotlist.json`.
+
+| Item | Result |
+|---|---|
+| Art R4 fix 1: s120/s127 lion | **PASS.** Both show the tan lion, the same as s121, s122 and s125. There is no silhouette and no rim. In s120 the white motion strokes sit on the shoulder and leave the head clear. In s127 the edge crop reads as a lion's head (ear, muzzle, eye). |
+| Art R4 nit + VR R2-3: s117/s124 soldier | **PASS.** The soldier and his rifle are fully in frame at about x=1690-1830 and are no longer cut by the frame edge. |
+| VR R2-2: s127 | **PASS** (as fix 1). |
+| VR R2-1: s160-s162 `tsavo_lion_looking_up` | **PASS.** It now has rounded ears, a pale muzzle and chin, two forelegs, and a tail from the rump to a tuft by the front paws. The head tilts up at about 45 degrees and the lion reads clearly at both s160 size and the s161 close-up. It matches `tsavo_lion_sitting`. No floating tuft. |
+| VR R2 minor: s162 twigs | **PASS.** No branch crosses the HUD and the loose "V" twig is gone. |
+| VR R2 minor: s166/s170/s171 lions | **PASS.** The two lions face each other with clear space between them and the cap in that gap. They no longer merge into one shape. |
+| VR R2 minor: s164 rug | Open, not blocking. It is a patterned rectangular rug, not lion-shaped. That is fine for the "floor rugs" line. |
+
+**Rifles (style, plus the owner rule relayed by the CD proxy: resting in laps only, never aimed at a lion):** **ACCEPTABLE.**
+There are 11 shots with rifles (s116, s117, s119-s122, s124-s128), each with two rifles. Every rifle is unflipped and rotated -25 or -35 degrees,
+lying across a seated soldier's lap. The stock is low-left and the muzzle points up-right, toward the men's-room wall or roof. The lion is
+always to the left, in the lion room or outside (s125). So no muzzle ever points toward a lion, and there is no flash, smoke or firing pose.
+The style matches the lamp and lunchbox prop tier. Keep this orientation in any re-render.
+
+Nits (not blocking): s171's dropped dental mirror reads a little like a lollipop at a glance. The narration ("checking their teeth")
+carries it.
+
+**Verdict: PASS.** Staged `art_approved`.

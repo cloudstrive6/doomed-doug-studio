@@ -19,7 +19,12 @@
       "stage": "shotlisted",
       "at": "2026-11-28T17:53:46+00:00",
       "note": "174 shots, Doug 84%, 29 asset requests, 3 Shorts (trap, broken tooth, last lion)"
+    },
+    {
+      "stage": "art_approved",
+      "at": "2026-11-28T18:50:23+00:00",
+      "note": "art + keyframes approved"
     }
   ],
-  "stage": "shotlisted"
+  "stage": "art_approved"
 }
