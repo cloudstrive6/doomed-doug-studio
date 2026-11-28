@@ -1,0 +1,1176 @@
+{
+ "background": "#000000",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#0f1a36",
+   "color": "#0f1a36",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 931,
+   "y": 242,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 622,
+   "y": 144,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 1011,
+   "y": 59,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 811,
+   "y": 55,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 174,
+   "y": 118,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 615,
+   "y": 52,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 648,
+   "y": 45,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 475,
+   "y": 80,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 692,
+   "y": 135,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 580,
+   "y": 30,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 88,
+   "y": 98,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 486,
+   "y": 299,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 1130,
+   "y": 140,
+   "r": 60,
+   "fill": "#fff3b0",
+   "color": "#e8d890",
+   "width": 3,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 660,
+   "w": 1300,
+   "h": 80,
+   "fill": "#2a241c",
+   "color": "#2a241c",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "thin_thorn_tree",
+   "x": 860,
+   "y": 720,
+   "scale": 0.72,
+   "boil": 0
+  },
+  {
+   "type": "doug",
+   "x": 855,
+   "y": 189.20000000000005,
+   "scale": 0.46,
+   "pose": [
+    "panic1"
+   ],
+   "expression": "shock",
+   "facing": "left",
+   "boil": 0,
+   "gear": [
+    "sweat"
+   ]
+  },
+  {
+   "type": "asset",
+   "name": "tsavo_lion_looking_up",
+   "x": 400,
+   "y": 700,
+   "scale": 1.0,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 501,
+   "y": 256,
+   "r": 34,
+   "color": "#ffcf4a",
+   "density": 0.1,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     724
+    ],
+    [
+     -5,
+     665
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     12,
+     724
+    ],
+    [
+     2,
+     677
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     34,
+     724
+    ],
+    [
+     30,
+     694
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     56,
+     724
+    ],
+    [
+     44,
+     656
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     724
+    ],
+    [
+     83,
+     659
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     100,
+     724
+    ],
+    [
+     91,
+     670
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     122,
+     724
+    ],
+    [
+     113,
+     667
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     144,
+     724
+    ],
+    [
+     131,
+     679
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     166,
+     724
+    ],
+    [
+     168,
+     686
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     188,
+     724
+    ],
+    [
+     199,
+     670
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     210,
+     724
+    ],
+    [
+     202,
+     676
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     232,
+     724
+    ],
+    [
+     246,
+     668
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     254,
+     724
+    ],
+    [
+     246,
+     677
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     276,
+     724
+    ],
+    [
+     272,
+     677
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     298,
+     724
+    ],
+    [
+     306,
+     682
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     320,
+     724
+    ],
+    [
+     307,
+     668
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     342,
+     724
+    ],
+    [
+     332,
+     663
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     364,
+     724
+    ],
+    [
+     363,
+     679
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     386,
+     724
+    ],
+    [
+     372,
+     656
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     408,
+     724
+    ],
+    [
+     400,
+     657
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     430,
+     724
+    ],
+    [
+     416,
+     673
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     452,
+     724
+    ],
+    [
+     455,
+     686
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     474,
+     724
+    ],
+    [
+     462,
+     662
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     496,
+     724
+    ],
+    [
+     488,
+     660
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     518,
+     724
+    ],
+    [
+     516,
+     690
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     540,
+     724
+    ],
+    [
+     550,
+     654
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     562,
+     724
+    ],
+    [
+     552,
+     657
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     584,
+     724
+    ],
+    [
+     593,
+     656
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     606,
+     724
+    ],
+    [
+     600,
+     691
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     628,
+     724
+    ],
+    [
+     637,
+     677
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     650,
+     724
+    ],
+    [
+     663,
+     687
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     672,
+     724
+    ],
+    [
+     663,
+     679
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     694,
+     724
+    ],
+    [
+     707,
+     671
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     716,
+     724
+    ],
+    [
+     705,
+     672
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     738,
+     724
+    ],
+    [
+     730,
+     666
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     760,
+     724
+    ],
+    [
+     764,
+     682
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     782,
+     724
+    ],
+    [
+     793,
+     670
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     804,
+     724
+    ],
+    [
+     803,
+     694
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     826,
+     724
+    ],
+    [
+     819,
+     681
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     848,
+     724
+    ],
+    [
+     844,
+     677
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     870,
+     724
+    ],
+    [
+     876,
+     675
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     892,
+     724
+    ],
+    [
+     894,
+     688
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     914,
+     724
+    ],
+    [
+     912,
+     693
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     936,
+     724
+    ],
+    [
+     933,
+     663
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     958,
+     724
+    ],
+    [
+     967,
+     658
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     980,
+     724
+    ],
+    [
+     986,
+     667
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1002,
+     724
+    ],
+    [
+     1012,
+     688
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1024,
+     724
+    ],
+    [
+     1021,
+     662
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1046,
+     724
+    ],
+    [
+     1053,
+     686
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1068,
+     724
+    ],
+    [
+     1076,
+     684
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1090,
+     724
+    ],
+    [
+     1077,
+     693
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1112,
+     724
+    ],
+    [
+     1103,
+     678
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1134,
+     724
+    ],
+    [
+     1124,
+     656
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1156,
+     724
+    ],
+    [
+     1143,
+     691
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1178,
+     724
+    ],
+    [
+     1189,
+     681
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1200,
+     724
+    ],
+    [
+     1205,
+     676
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1222,
+     724
+    ],
+    [
+     1217,
+     672
+    ]
+   ],
+   "color": "#a8955a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1244,
+     724
+    ],
+    [
+     1247,
+     664
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1266,
+     724
+    ],
+    [
+     1254,
+     686
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     1288,
+     724
+    ],
+    [
+     1276,
+     687
+    ]
+   ],
+   "color": "#8a7a4a",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "UP A TREE",
+   "x": 380,
+   "y": 95,
+   "size": 120,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 16,
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}

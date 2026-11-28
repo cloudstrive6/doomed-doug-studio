@@ -14,7 +14,7 @@ House style: detailed tier for animals, props and places (thick 5-6 outlines, fl
   only as one or two faint shading strokes. Tawny `#c9964a` with a paler belly and muzzle, dark tail tuft. Mid-tone so
   they read on the night navies (`#3b3550` down to `#080c1c`). Every lion drawing must survive `"silhouette": true`
   (clean outline, legs, tail and ears separated).
-- **No blood, no wounds, no claws in anything, no teeth bared at a person.** No rifles anywhere (Patterson's hat only).
+- **No blood, no wounds, no claws in anything, no teeth bared at a person.** No rifles aimed at animals; rifles only resting in soldiers laps (owner rule) (Patterson's hat only).
 - **Real victims are never drawn.** The humans below are generic plain stick men with no caricature of any ethnicity.
 - **No trophy imagery**: no lion skins, rugs with heads, or a hunter posing over a lion.
 
@@ -289,7 +289,7 @@ fore-end; bbox x -184..+182, y -48..+28. Key points: rear hand (-90,-6), front h
 Across the lap of `stick_man_sitting` at scale S: place it at about seat + (50,-80) x S, scale 0.8 x S, `rotate: -25` (muzzle up and
 forward). **Flipped men: keep `rotate: -25` with `flip: true` and the muzzle points DOWN** (flip is applied before rotation); use
 `rotate: 25` with `flip: true` for the mirrored "muzzle up" look. Point the muzzles up or at the divider bars, never at the lion.
-Note: the CD condition at the top of this file says "No rifles anywhere"; this prop was requested in visual review item 11 for the
+Note: the CD condition at the top of this file says "No rifles aimed at animals; rifles only resting in soldiers laps (owner rule)"; this prop was requested in visual review item 11 for the
 "two soldiers with rifles" line. CD sign-off is needed before it goes in.
 
 ### `tsavo_lion_lying` (new): s143 s157

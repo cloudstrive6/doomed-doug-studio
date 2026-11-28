@@ -1,0 +1,313 @@
+{
+ "background": "#000000",
+ "size": [
+  1280,
+  720
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": -10,
+   "w": 1300,
+   "h": 740,
+   "fill": "#2c2a5a",
+   "color": "#2c2a5a",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 1032,
+   "y": 108,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 1160,
+   "y": 125,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 676,
+   "y": 165,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 677,
+   "y": 29,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 1015,
+   "y": 198,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 755,
+   "y": 48,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 850,
+   "y": 251,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 695,
+   "y": 100,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 705,
+   "y": 18,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 1049,
+   "y": 61,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 376,
+   "y": 187,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 74,
+   "y": 236,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 315,
+   "y": 80,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "circle",
+   "x": 845,
+   "y": 166,
+   "r": 3,
+   "fill": "#e8e8f0",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 640,
+   "w": 1300,
+   "h": 100,
+   "fill": "#3a3428",
+   "color": "#3a3428",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "canvas_tent_open",
+   "x": 640,
+   "y": 700,
+   "scale": 3.3,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 640,
+   "y": 520,
+   "r": 190,
+   "color": "#c8862e",
+   "density": 0.1,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 640,
+   "y": 500,
+   "r": 110,
+   "color": "#ffcf6a",
+   "density": 0.12,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "hurricane_lantern",
+   "x": 640,
+   "y": 370,
+   "scale": 0.75,
+   "boil": 0
+  },
+  {
+   "type": "doug",
+   "x": 640,
+   "y": 645,
+   "scale": 0.55,
+   "pose": "stand",
+   "expression": "shock",
+   "facing": "right",
+   "boil": 0,
+   "gear": [
+    "sweat"
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 538,
+   "y": 580,
+   "w": 204,
+   "h": 92,
+   "fill": "#3a6fc4",
+   "color": "#000000",
+   "width": 5,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": 538,
+   "y": 580,
+   "w": 204,
+   "h": 22,
+   "fill": "#f2efe4",
+   "color": "#000000",
+   "width": 4,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": 538,
+   "y": 672,
+   "w": 204,
+   "h": 60,
+   "fill": "#1a1410",
+   "color": "#1a1410",
+   "width": 0,
+   "outline": false,
+   "boil": 0
+  },
+  {
+   "type": "rect",
+   "x": 530,
+   "y": 664,
+   "w": 220,
+   "h": 14,
+   "fill": "#7a4a2a",
+   "color": "#000000",
+   "width": 4,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "tsavo_lion_head",
+   "x": 300,
+   "y": 430,
+   "scale": 1.45,
+   "boil": 0
+  },
+  {
+   "type": "asset",
+   "name": "tsavo_lion_head",
+   "x": 980,
+   "y": 410,
+   "scale": 1.45,
+   "flip": true,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 344.95,
+   "y": 389.4,
+   "r": 38,
+   "color": "#ffcf4a",
+   "density": 0.1,
+   "boil": 0
+  },
+  {
+   "type": "spray",
+   "x": 935.05,
+   "y": 369.4,
+   "r": 38,
+   "color": "#ffcf4a",
+   "density": 0.1,
+   "boil": 0
+  },
+  {
+   "type": "text",
+   "text": "NO MANES",
+   "x": 640,
+   "y": 90,
+   "size": 140,
+   "color": "#ffe23a",
+   "outline": "#000000",
+   "outline_width": 16,
+   "bold": true,
+   "boil": 0,
+   "wobble": 0
+  }
+ ]
+}
