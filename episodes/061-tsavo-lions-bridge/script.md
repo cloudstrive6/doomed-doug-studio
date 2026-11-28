@@ -153,13 +153,13 @@ One of the Tsavo lions had a badly broken canine tooth, with an infection at its
 
 When researchers described the damage in two thousand, they suggested that an injury like that could make big, struggling prey very hard to kill.
 
+Call it the toothache theory.
+
 [A clipboard titled "WHY?". Lines appear one by one: "BAD TOOTH", "NO BUFFALO", "THE OLD ROUTE".]
 
 It is only one theory of several, though. A cattle disease called rinderpest had swept through the region in the early eighteen nineties, killing huge numbers of buffalo, a favourite prey of lions in Tsavo.
 
 The railway also followed an old caravan route, where sick and dying porters were sometimes left behind. Some researchers think the local lions may have learned there that people were food.
-
-Call it the toothache theory.
 
 But that's not the disturbing part. In twenty seventeen, scientists studied the tiny scratches on the lions' teeth, because starving lions crunch bones to get every last scrap of food, and these two hadn't been crunching anything.
 
@@ -295,8 +295,8 @@ For more than twenty-five years, the two lions were Patterson's floor rugs. In t
 
 In twenty twenty-four, scientists pulled old hair out of the lions' broken teeth and read its DNA: giraffe, human, oryx, waterbuck, wildebeest and zebra. They found just one buffalo hair, and no buffalo DNA at all.
 
-The lions are finally behind glass, and so is the cap, and nobody is checking its teeth.
+The lions are finally behind glass, and so is the cap, and nobody is checking their teeth.
 
-Doug deaths: four hundred and thirty-five. Somewhere, a new red cap is already on order. Subscribe, and help us keep count.
+Doug deaths: four hundred and thirty-five. Somewhere, a new red cap is already on order. Subscribe before it hits four thirty-six.
 
 <!-- words: 2047 (spoken, excluding stage directions, headings and comments); ~10.5 min at 195 wpm. Draft 2. "The Man-Eaters of Tsavo." starts at word 35; Yeakel twist marker at word 99; longest sentence 33 words; average 14.5 words per sentence; Flesch 74.6 (textstat). Items: Man-Eaters 255, Tent 226, Thorn Fence 213, No Manes 200, Broken Tooth 223, Walkout 212, Trap 220, Platform 201, Last Lion 263 (closing and outro included). Outro 20 words. -->

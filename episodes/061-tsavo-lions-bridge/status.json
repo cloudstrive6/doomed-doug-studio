@@ -9,7 +9,12 @@
       "stage": "scripted",
       "at": "2026-11-28T17:19:39+00:00",
       "note": "draft"
+    },
+    {
+      "stage": "script_approved",
+      "at": "2026-11-28T17:31:19+00:00",
+      "note": "CD approved draft 2: screener PASS, E1/E2 applied, 'their teeth' fix; axis monotonic, victim handling per brief"
     }
   ],
-  "stage": "scripted"
+  "stage": "script_approved"
 }
