@@ -1,0 +1,33 @@
+{
+  "shorts": [
+    {
+      "id": "short01",
+      "from": "s115",
+      "to": "s128",
+      "title": "",
+      "outro": "Doug's five deaths are in the full video below.",
+      "end_card": "FULL VIDEO: TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short02",
+      "from": "s085",
+      "to": "s092",
+      "title": "",
+      "hook": "The Tsavo man-eaters didn't eat people because they were desperate.",
+      "hook_scene_from": "s089",
+      "outro": "Doug's other four deaths are in the full video below.",
+      "end_card": "FULL VIDEO: TAP BELOW",
+      "description": ""
+    },
+    {
+      "id": "short03",
+      "from": "s150",
+      "to": "s163",
+      "title": "",
+      "outro": "The first lion and Doug's other four deaths are in the full video below.",
+      "end_card": "FULL VIDEO: TAP BELOW",
+      "description": ""
+    }
+  ]
+}
