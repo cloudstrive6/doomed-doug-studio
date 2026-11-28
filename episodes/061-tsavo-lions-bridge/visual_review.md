@@ -192,3 +192,51 @@ R2-3. s117 and s124: **fixed.** The right-hand soldier sits fully in frame at ab
 
 Next: post-render screening of samples, qc.json, the s001 cold open with thumbnails A/B/C and their `_small`
 versions, and the Shorts.
+
+## Round 4: thumbnails A/B/C and the s001 opening frame (2026-11-28)
+
+Screened: `build/thumbnail.png`, `thumbnail_b.png`, `thumbnail_c.png` at 1280x720, their `_small.png` versions at
+168x94 (side by side at 1x and 3x nearest-neighbour), and `build/keyframes/s001.png`. Pairings come from
+`metadata.json` packaging candidates 1-3.
+
+**VERDICT: FAIL** (A PASS, B FAIL, C PASS). One fix on B, then re-screen B only.
+
+### Per variant
+- **A "NO MANES"**, title "Why the Tsavo Lions Kept Killing Rail Workers for 9 Months": **PASS.** The text is
+  legible at 168 px, spelled right and not cropped, and it does not touch the drawings. Two tan heads with round
+  ears, whiskers and pale muzzles flank the tent, and they read as big cats, without manes, which is the hook. Doug
+  is in the lit doorway, and the red cap and white head pop against the dark interior even at feed size. He is
+  on-model and clearly scared. The heads are cropped at the frame edges, which is intentional framing. No gore,
+  no victim shown, not cutesy. Minor (graphic designer, not blocking): the heavy half-closed lids make the lions
+  look bored rather than predatory. Opening the lids slightly and adding a brighter catch-light would sell the threat.
+- **B "LAST ONE HERE"**, title "How Two Lions Killed Enough Men to Stop a Railway in 1898": **FAIL.** The text,
+  Doug, the shovel and the departing train all read. The threat does not read: the two "lion eye" pairs are plain
+  orange ovals with no pupils, and at 168 px they read as orange dots, like fireflies, flowers or lamps. With no
+  lion shape anywhere, the picture shows Doug waving at a train, and the "two lions" in the title have nothing to
+  land on. The right-hand pair (about x=670-760, y=520-550) also butts against the wagon's left end at x≈760.
+- **C "UP A TREE"**, title "How Doug Would Die Guarding the Tsavo Railway Camp in 1898": **PASS.** The text is
+  legible and clear of the tree. The sitting maneless lion reads in 1 second, with its head tilted up at Doug. Doug
+  is in the fork at the top of the tree with his cap on. The moon balances the frame, there is one clear focal
+  relationship, and the picture fits the title. Minor (graphic designer, not blocking): at 168 px Doug's head is
+  about 5 px, readable only by the red cap. Scaling Doug and the tree crown up about 1.3x, with the moon kept clear,
+  would help. The lion's near foreleg is a straight tube with a rounded top that ends at the chin. It is
+  acceptable, but tapering it into the chest would look less like a post.
+
+### s001
+The keyframe on disk was a stale white "(thumbnail pending)" placeholder dated 18:41, before the 18:53 thumbnail.
+I re-keyed it (`python -m studio keyframes 061-tsavo-lions-bridge --shots s001`) and it now matches thumbnail A
+exactly at 1920x1080, with nothing cropped by the upscale. Editor: confirm that the final render's s001 is the
+thumbnail art and not the placeholder (check the 0 s frame in the samples).
+
+### Sensitivity, policy
+No blood, bodies, remains or attack depicted in any variant. No real victim or real person (Patterson, the workers)
+is drawn, and the men on B's train are alive and leaving, which matches the historical exodus. None of the variants
+has a nursery tone. None of the variants is misleading against its title.
+
+### Fixes
+1. **B** (graphic designer): make the lurking lions unmistakable. Turn each eye into an almond shape with a dark
+   vertical slit pupil, about 1.5x the current size. Add a faint darker-tan or dark silhouette of a maneless lion
+   head (ears and brow) around each pair, half-hidden in the grass. Move the right-hand pair left and up, to about
+   x=560-640, y=470, so it sits clear of the wagon. Check that it still reads as "lion eyes" at 168x94.
+
+Re-screen after the fix: B and B_small. Then the post-render round: samples, qc.json, the s001 0 s frame, Shorts.
