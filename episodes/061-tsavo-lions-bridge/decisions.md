@@ -61,3 +61,5 @@ Non-blocking nit: the rim lines between the forelegs form a small "4" or triangl
 
 **Condition:** visual_review.md has no screener pass yet on the revised B/C (round 4 failed B). Run the visual screener on B, C and both `_small` files before packaging.
 If it PASSes, all three are approved for the A/B/C test with no further CD round. If it FAILs on anything beyond the nits above, send it back to me.
+
+2026-11-28: Showrunner: script 3 rounds (2 screens + CD), assets 2 art rounds, keyframes 4 rounds (art+visual), thumbnails 3 rounds (B/C reworked). RISK: Google TTS returned 403 PERMISSION_DENIED during narrate, so real timing and the pacing pass (24 static shots >5s on estimated timing, worst s064/s025/s144/s098) are NOT done. Rifles rest in soldiers' laps only (CD-approved).
