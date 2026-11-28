@@ -290,7 +290,7 @@ def _silhouette(el, cv):
         return None
     if el.get("silhouette_keep"):  # water ripples/drips: keep their own colour, never rimmed (029 s099: red "blood" drips)
         return None if isinstance(cv.silhouette, str) else el
-    sc = cv.silhouette if isinstance(cv.silhouette, str) else "#000000"
+    sc = cv.silhouette if isinstance(cv.silhouette, str) else (getattr(cv, "silhouette_fill", None) or "#000000")
     el = dict(el)
     el["color"] = sc
     if el.get("fill") not in (None, "none"):
@@ -444,10 +444,12 @@ def draw_element(cv: Canvas, el, tf: Transform, seed):
                 finally:
                     cv.silhouette = False
             cv.silhouette = True
+            cv.silhouette_fill = el.get("silhouette_fill")  # e.g. very dark tan so a big cat is not a panther
             try:
                 draw_elements(cv, a["elements"], inner, seed + ":" + el["name"])
             finally:
                 cv.silhouette = False
+                cv.silhouette_fill = None
         else:
             draw_elements(cv, a["elements"], inner, seed + ":" + el["name"])
     elif t == "tile":  # thumbnail/intro grid tile: rounded black frame, content, comic label underneath

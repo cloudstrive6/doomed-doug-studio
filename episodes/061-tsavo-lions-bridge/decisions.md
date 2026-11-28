@@ -45,3 +45,19 @@ only in s116, s117, s119-s122 and s124-s128 (two per shot, `rotate` -25/-35, nev
 men inside the trap who were too frightened to shoot straight. There are no rifles in thumbnails A/B/C or in gen_thumbs.py. Standing conditions:
 never `flip: true` without `rotate: +25`; never aim at or overlap a lion; BANG text never over a lion; no rifle in any thumbnail, Short cover
 or the s001 cold open; Doug never holds one. A rifle in any other shot needs CD sign-off.
+
+## 2026-11-28: thumbnails B/C re-review, B and C APPROVED (creative), pending visual re-screen (creative director)
+Checked revised `build/thumbnail_b.png`, `thumbnail_c.png` and both `_small` files (rendered 18:57, commit 2f78a127) against the fix list above.
+
+**B "LAST ONE HERE": APPROVED.** I'd click it. Fix 1 is done: almond `#ffd23a` eyes with slit pupils, a sprayed glow and dark head patches behind them. At 168 px
+both pairs now read as eyes in the grass, not fireflies. Fix 2 is done differently: the right pair moved to about x 600-700, clear of the wagon (it starts at about x 760). It sits
+between Doug and the train instead of behind him, but two lions flanking a stranded Doug reads just as well, so I accept it. Fix 3 passes. Non-blocking nit: the faint head shapes,
+with round ears on a round dome, lean bear or teddy at full size. If there's a respin, flatten the crown and narrow the ears so they match A's lion heads.
+
+**C "UP A TREE": APPROVED.** I'd click it, and it's the strongest of the three. Fix 1 is done: a lit slit eye on the upturned face. Fix 2 is done: a black silhouette (not navy, which is fine) with a cream rim, and
+at 168 px it reads as a big cat staring up at Doug. The tail tuft sells "lion" over "panther". Fix 3: Doug is much larger and the moon backlights his head. The rig
+has no hugging pose, so "panicking at the treetop" with his arms up is accepted. It reads. The gap between him and the lion is short and tense. Fix 4 holds: no rifle, no blood, no platform shooter.
+Non-blocking nit: the rim lines between the forelegs form a small "4" or triangle shape that shows at `_small`. Drop that inner rim segment on a respin.
+
+**Condition:** visual_review.md has no screener pass yet on the revised B/C (round 4 failed B). Run the visual screener on B, C and both `_small` files before packaging.
+If it PASSes, all three are approved for the A/B/C test with no further CD round. If it FAILs on anything beyond the nits above, send it back to me.

@@ -240,3 +240,43 @@ has a nursery tone. None of the variants is misleading against its title.
    x=560-640, y=470, so it sits clear of the wagon. Check that it still reads as "lion eyes" at 168x94.
 
 Re-screen after the fix: B and B_small. Then the post-render round: samples, qc.json, the s001 0 s frame, Shorts.
+
+## Round 5: thumbnails B/C re-screen and s001 (2026-11-28)
+VERDICT: FAIL (B PASS, C FAIL, A unchanged PASS, s001 PASS)
+
+### B "LAST ONE HERE": PASS
+The fix landed. Both pairs are now yellow almond eyes with black slit pupils inside dark half-hidden heads with ears and
+a muzzle line, sitting in the grass. They read as "big cats watching Doug" in under a second, and they still read as
+glowing cat eyes at 168x94. The right pair (x≈580-700) is clear of the wagon. The text, Doug (on-model, scared, cap
+and head pop), the shovel and the departing train all read. One focal story: the train leaves and Doug is left with
+the lions. Not misleading against either title. Minor, not blocking (graphic designer): the round heads with round
+ears lean slightly "bear", so a flatter brow and a longer muzzle would make them more leonine. The gold speckle halo is
+a little noisy at full size.
+
+### C "UP A TREE": FAIL (regression vs Round 4)
+Doug is bigger now, has his cap on, and sits in the fork with the moon behind him, so he reads at feed size. That is an
+improvement. The text is clear: the branch near the "E" tucks behind the text outline and does not overlap the
+letters. The lion is the problem:
+- The silhouette is filled pure black (#000000), not the dark navy the CD asked for. With a single cat eye and a long
+  tail, a black sitting cat reads as a **black panther or a house cat**, not a lion, at both 1280 and 168 px. Neither
+  the paired title nor the thumbnail text says "lion", so nothing in the package tells the viewer it is a Tsavo lion.
+- A cream rim triangle between the forelegs (about x=400-480, y=575-650) and a free-standing vertical rim line
+  (x≈528, y=525-650) float inside the black. At 168 px they form a "4l" glyph at the lion's feet, which looks like a
+  broken drawing.
+- The gold speckle around the eye is noisy (minor).
+
+### s001
+s001 is `scene_ref: thumbnail` and renders `thumbnail.json` natively at 1920x1080. thumbnail.json is unchanged since
+08f84772. I re-keyed s001 and it matches A: same composition, lion heads, tent, lantern and Doug placement. The
+remaining pixel difference is native-resolution line rendering only, not a content change. PASS.
+
+### Fixes
+1. **C** (graphic designer): change the lion silhouette fill from black to a very dark warm tan (about `#2a2014`) or
+   the CD's dark navy lifted with a tan rim, so it no longer reads as a panther. Add one lion cue that survives
+   168 px: a pale muzzle/chin patch or the tail's dark tuft against the moonlit grass. Make the ear more prominent so
+   the head is a lioness profile.
+2. **C** (graphic designer): remove the floating inner rim strokes (the foreleg triangle and the lone vertical line).
+   Separate the forelegs with a single dark-tan line, or not at all, so there is no "4l" glyph at 168 px.
+3. **C** (graphic designer, optional): reduce the eye's speckle density by about half.
+
+Re-screen after the fix: C and C_small only. Then the post-render round: samples, qc.json, the s001 0 s frame, Shorts.
