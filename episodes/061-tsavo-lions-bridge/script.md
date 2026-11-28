@@ -1,25 +1,25 @@
-<!-- axis: time in 1898 at the Tsavo bridge camp, monotonic from Patterson's arrival (1 March 1898, first attacks within days) to the morning the second lion is shot (29 December 1898). Spoken bands: none before item 1, "Week one." (item 2), "Months in." (3-6), "December." (7-9). Most extreme last: Doug up a tree in the dark with the second lion. Never jumps back. -->
-<!-- Episode 061: Why the Tsavo Lions Hunted Railway Workers for Nine Months. Draft 1 (2026-11-28, script writer). -->
-<!-- Episode-only device: DAYS WITHOUT AN INCIDENT, a crude construction-site safety board beside the death counter, chalk number (staging only, never read aloud; art director approves). Values: 1 (item 1), 0 (2), 1 (3), 0 (4), 0 (5), 1 (6), 0 (7, wiped by a paw), 1 (8), wiped then the whole board falls over (9). -->
-<!-- Counter 430 to 435: deaths at items 2 (431), 4 (432), 5 (433), 7 (434), 9 (435), all cut-aways, played flat. Survivals at 1 ("Doug is fine." variant), 3 ("Doug is fine." variant, 022 bandage), 6 (bait; "Doug did not agree to this."; narrator quietly disappointed, the only time), 8. "hi friend?" once (item 5). Costume gag: none, said once flat at item 2. Cap: tent pole (2), top of the thorn fence (3), departing train (7), museum case (closing). Field guide TSAVO LIONS (x2) page optional: NO after item 2, MAYBE at item 6, second red NO at item 9. -->
+<!-- axis: time in 1898 at the Tsavo bridge camp, monotonic from Patterson's arrival (1 March 1898, first attacks within days) to the morning the second lion is shot (29 December 1898). Spoken bands: none before item 1, "Week three." (item 2, Ungan Singh about three weeks after arrival), "Months in." (3-5), "December." (6 Walkout 1 Dec, 7 Trap 3 Dec, 8 Platform 9 Dec, 9 Last Lion 27-29 Dec). Most extreme last: Doug up a tree in the dark with the second lion. Never jumps back. -->
+<!-- Episode 061: Why the Tsavo Lions Hunted Railway Workers for Nine Months. Draft 2 (2026-11-28, script writer; screener fixes F1-F5, P1-P3, S1-S2 applied). -->
+<!-- Episode-only device: DAYS WITHOUT AN INCIDENT, a crude construction-site safety board beside the death counter, chalk number (staging only, never read aloud; art director approves). Values: 1 (item 1), 0 (2), 1 (3), 0 (4), 0 (5), 0 (6, wiped by a paw), 1 (7), 2 (8), wiped then the whole board falls over (9). -->
+<!-- Counter 430 to 435: deaths at items 2 (431), 4 (432), 5 (433), 6 (434), 9 (435), all cut-aways, played flat. Survivals at 1 ("Doug is fine." variant), 3 ("Doug is fine." variant, 022 bandage), 7 (bait; pre-drawn 435 sticker goes back in the drawer; "Doug did not agree to this."; narrator quietly disappointed, the only time), 8. "hi friend?" once (item 5). Costume gag: none, said once flat at item 2. Cap: tent pole (2), top of the thorn fence (3), departing train (6), museum case (closing). Field guide TSAVO LIONS (x2) page optional: NO after item 2, MAYBE at item 7, second red NO at item 9. -->
 <!-- Notes for the screener / CD:
-1. Victim count. The first sentence attributes the 135 to Patterson ("said"); it comes from his 1925 Field Museum leaflet. His own 1907 book said 28 Indian workers plus "scores" of Africans with no official record. Yeakel et al. 2009 measured people EATEN, not killed (Dominy, UCSC release), so the script always says "eaten", never "killed", for the 35.
+1. Victim count. The first sentence attributes the 135 to Patterson ("said"); it comes from his 1925 Field Museum leaflet. Patterson's 135 is a KILLED claim, and the opening says "killed". His own 1907 book said 28 Indian workers plus "scores" of Africans with no official record. Yeakel et al. 2009 measured people EATEN, not killed (Dominy, UCSC release); item 1 says so out loud and compares the two only as "about a quarter of his number".
 2. "Kenyan railway": the place is in modern Kenya (then the British East Africa Protectorate). The railway is named a British colonial railway once, in item 1.
 3. Sale year: the Field Museum blog says 1925, other sources say 1924. The script says "in the nineteen-twenties" and "more than twenty-five years" (1898 to 1924/25), which both fit. Price $5,000 is from secondary sources (Wikipedia, The Standard, CBS); flagged.
-4. Lord Salisbury: secondary only (The Spectator, 3 March 1900, as reported in search results; Wikipedia). The script says "the Prime Minister told the House of Lords" that the lions stopped the works, nothing more. Cut it if the screener cannot confirm.
+4. Lord Salisbury: confirmed from the primary source, Patterson ch. 9 quotes his House of Lords statement (facts.md, item 6).
 5. Which lion had the broken canine vs. which ate 24 is not stated (sources conflict on the linkage), so item 5 says "one of the lions".
 6. Bruce Patterson (Field Museum zoologist, item 4 and 5 sources) is a different person from John Henry Patterson. The script names only Roland Kays and Bruce Patterson once in item 4, with "two zoologists", and never implies a relation.
 7. The cave of bones is left out (disputed, brief). Ungan Singh is named once, plainly, attributed to Patterson, never drawn, never joked about.
 8. Bridge completion date not stated (no primary date found); the script uses Patterson's own "the first train cross the finished work". -->
 <!-- Pronunciation for the editor: Tsavo = "SAH-vo"; Mombasa = "mom-BAH-sah"; Ungan Singh = "OON-gun SING"; jemadar = "JEM-uh-dar"; Yeakel = "YAY-kul"; rinderpest = "RIN-der-pest"; DeSantis = "dee-SAN-tis"; machan = "muh-CHAHN"; de Flamingh = "duh FLAH-ming"; oryx = "OR-ix"; Salisbury = "SAWLZ-bree"; Farquhar = "FAR-kwar". -->
 
-# Why the Tsavo Lions Hunted Railway Workers for Nine Months (draft 1)
+# Why the Tsavo Lions Hunted Railway Workers for Nine Months (draft 2)
 
 [Opening frame: the thumbnail. Night, a lantern-lit canvas tent seen from outside. Two big maneless lion heads push through the tent flap, eyes lit. Tiny Doug in a camp bed inside, blanket to his chin, looking at the camera. Text: NO MANES. Hold 1.5 to 4 seconds.]
 
 [Cut to a dusty railway line at sunset. Two lean, maneless lion silhouettes on the embankment. DOUG DEATHS: 430. Beside it, a crude safety board: DAYS WITHOUT AN INCIDENT: 0.]
 
-Two lions stopped a Kenyan railway in eighteen ninety-eight. The man who shot them said they ate a hundred and thirty-five people.
+Two lions stopped a Kenyan railway in eighteen ninety-eight. The man who shot them said they killed a hundred and thirty-five people.
 
 By the end, Doug is up a tree with the second lion.
 
@@ -39,7 +39,7 @@ Here's the twist, because in two thousand nine, scientists measured the chemistr
 
 [Two lion icons. Label "ABOUT 11" under one, "ABOUT 24" under the other.]
 
-One lion ate about eleven people, and the other ate about twenty-four. That is about thirty-five, so the man who shot them overstated it roughly four times over.
+One lion ate about eleven people, and the other ate about twenty-four. That makes about thirty-five. The study could only count the people the lions ate, not everyone they killed, but it is still about a quarter of his number.
 
 It was still about thirty-five real people, and the railway kept going anyway.
 
@@ -47,7 +47,7 @@ It was still about thirty-five real people, and the railway kept going anyway.
 
 The line was the Uganda Railway, a British colonial project from the port of Mombasa to Lake Victoria. Patterson wrote that some thousands of workers were camped at Tsavo, many of them brought over from British India.
 
-The whole line ran about nine hundred and thirty kilometers, which is nearly as long as Great Britain is tall.
+The whole line ran more than nine hundred kilometers, about the distance from Land's End to John o' Groats.
 
 [Doug arrives with a lunchbox and a clipboard, and pitches a small tent at the very edge of camp, facing the bush. DAYS WITHOUT AN INCIDENT: 1.]
 
@@ -55,7 +55,7 @@ Doug starts work on day one with a lunchbox, a clipboard, and a tent pitched at 
 
 The lions, unfortunately, already know exactly where the edge of camp is.
 
-Week one.
+Week three.
 
 ## The Tent
 
@@ -63,7 +63,7 @@ The Tent.
 
 [Night. Rows of canvas tents, small campfires between them. Doug's tent in the foreground, lantern glowing inside.]
 
-Patterson wrote that the first man taken was a foreman named Ungan Singh, who shared his tent with half a dozen other workers. One night, a lion put its head in at the open door and seized him.
+Patterson wrote that the first attack he could not explain away was on a foreman named Ungan Singh, about three weeks after he arrived. The foreman shared his tent with half a dozen other workers, and one night, a lion put its head in at the open door and seized him.
 
 [A big lean lion silhouette walking between the tents, past a fire. Label "190 KG".]
 
@@ -75,7 +75,7 @@ Here's the problem: a tent is really just a wall made of cloth. Patterson later 
 
 [A lion silhouette trots away with a striped mattress. A stick figure sits on the bare ground where it was, blinking. Red "?" stamp.]
 
-The man survived that one, but the mattress never came back, and by Tsavo standards that counted as one of the better nights.
+The man survived that one, but the mattress never came back.
 
 [The narrator's hand holds up an empty costume hanger. Puts it away.]
 
@@ -159,7 +159,7 @@ It is only one theory of several, though. A cattle disease called rinderpest had
 
 The railway also followed an old caravan route, where sick and dying porters were sometimes left behind. Some researchers think the local lions may have learned there that people were food.
 
-Call it the toothache theory, where if chewing hurts, you order the softest thing on the menu.
+Call it the toothache theory.
 
 But that's not the disturbing part. In twenty seventeen, scientists studied the tiny scratches on the lions' teeth, because starving lions crunch bones to get every last scrap of food, and these two hadn't been crunching anything.
 
@@ -171,37 +171,7 @@ Their wear looked strikingly like the teeth of zoo lions, which are fed soft mea
 
 Doug opens a free dental clinic in the middle of the camp and asks his first patient to open wide. Doug has died.
 
-The lions were not desperate, just choosy, so the next plan was to build them a room of their own.
-
-## The Trap
-
-The Trap.
-
-[A heavy cage of railway sleepers and iron rails, split into two compartments by a wall of bars. A lamp burns in the small side.]
-
-Patterson built a lion trap with two rooms, one for the men and one for the lion. A wall of iron rails divided them, only three inches apart, which is about seven and a half centimeters.
-
-[Label "BAIT" over the small compartment. Two plain stick figures sit inside with a lamp.]
-
-The bait was people, because two soldiers sat in the men's room with rifles and a burning lamp, under orders to shoot the moment a lion stepped through the door.
-
-It is like waiting in a bus shelter, at night, after someone has promised you that it is lion-proof.
-
-One night, at around nine o'clock, the door clattered down, and a lion was inside, throwing itself against the bars.
-
-Here's the catch: Patterson wrote that at first the two men were too frightened to fire, which, locked in a box with a lion, seems fair.
-
-[Off-screen: cartoon "BANG" text, many times, scattered across the frame. Nothing is aimed at anything on screen.]
-
-Once an officer nearby shouted at them to shoot, they fired more than twenty shots in every direction. Mostly, they hit one bar of the door, and the lion walked out through the gap.
-
-[Doug sits in the men's room behind the bars, lunchbox on his knees, eyes shut. When he opens them, the lion is gone. The lunchbox has one neat hole in it. DAYS WITHOUT AN INCIDENT: 1. The field guide page TSAVO LIONS (x2), FRIEND?: "MAYBE".]
-
-The narrator volunteered Doug as the third man in the cage. Doug did not agree to this. The only casualty of the night was his lunchbox.
-
-[The narrator's hand slowly lowers a pre-drawn DOUG DEATHS: 434 sticker back into a drawer.]
-
-Doug survived the whole thing, and the narrator is quietly disappointed, and so, by now, are the workers.
+The lions were not desperate, just choosy, and the workers had run out of patience.
 
 December.
 
@@ -231,7 +201,37 @@ Patterson could not leave, because the bridge was his job, and a bridge does not
 
 Doug is the last worker in camp, waving goodbye to the train with his shovel. Doug has died. Again.
 
-The cap left on the train, but Patterson stayed, and he decided the only way to win was to go up.
+The cap left on the train, but Patterson stayed, and he still had one trick left: a room built for lions.
+
+## The Trap
+
+The Trap.
+
+[A heavy cage of railway sleepers and iron rails, split into two compartments by a wall of bars. A lamp burns in the small side.]
+
+Patterson built a lion trap with two rooms, one for the men and one for the lion. A wall of iron rails divided them, only three inches apart, which is about seven and a half centimeters.
+
+[Label "BAIT" over the small compartment. Two plain stick figures sit inside with a lamp.]
+
+The bait was people, because two soldiers sat in the men's room with rifles and a burning lamp, under orders to shoot the moment a lion stepped through the door.
+
+It is like waiting in a bus shelter, at night, after someone has promised you that it is lion-proof.
+
+On the third of December, at around nine o'clock at night, the door clattered down, and a lion was inside, throwing itself against the bars.
+
+Here's the catch: Patterson wrote that at first the two men were too frightened to fire, which, locked in a box with a lion, seems fair.
+
+[Off-screen: cartoon "BANG" text, many times, scattered across the frame. Nothing is aimed at anything on screen.]
+
+Once an officer nearby shouted at them to shoot, they fired more than twenty shots in every direction. Mostly, they hit one bar of the door, and the lion walked out through the gap.
+
+[Doug sits in the men's room behind the bars, lunchbox on his knees, eyes shut. When he opens them, the lion is gone. The lunchbox has one neat hole in it. DAYS WITHOUT AN INCIDENT: 1. The field guide page TSAVO LIONS (x2), FRIEND?: "MAYBE".]
+
+The narrator volunteered Doug as the third man in the cage. Doug did not agree to this. The only casualty of the night was his lunchbox.
+
+[The narrator's hand slowly lowers a pre-drawn DOUG DEATHS: 435 sticker back into a drawer.]
+
+Doug survived the whole thing, and the narrator is quietly disappointed. Patterson decided the only way to win was to go up.
 
 ## The Platform
 
@@ -257,7 +257,7 @@ For about two hours, Patterson wrote, it crept slowly round and round the platfo
 
 He shot it later that night, and by his own measurement, it was nearly three meters long from nose to tail, and well over a meter tall at the shoulder.
 
-[Doug on the platform, gripping the edge, holding very still. The platform creaks. Small "CREAK" text. Nothing happens. DAYS WITHOUT AN INCIDENT: 1.]
+[Doug on the platform, gripping the edge, holding very still. The platform creaks. Small "CREAK" text. Nothing happens. DAYS WITHOUT AN INCIDENT: 2.]
 
 Doug spends the same two hours on the platform, holding perfectly still. For once in his life, it works, and Doug survives.
 
@@ -297,6 +297,6 @@ In twenty twenty-four, scientists pulled old hair out of the lions' broken teeth
 
 The lions are finally behind glass, and so is the cap, and nobody is checking its teeth.
 
-Doug deaths: four hundred and thirty-five. Patterson's number only went up on paper, but this one goes up for real. Subscribe, and keep an honest count with us.
+Doug deaths: four hundred and thirty-five. Somewhere, a new red cap is already on order. Subscribe, and help us keep count.
 
-<!-- words: 2050 (spoken, excluding stage directions, headings and comments); ~10.5 min at 195 wpm. "The Man-Eaters of Tsavo." starts at word 35; Yeakel twist marker at word 101; longest sentence 33 words; average 14.7 words per sentence; Flesch about 75 (approximate syllable count; textstat not installed). Items: Man-Eaters 244, Tent 225, Thorn Fence 213, No Manes 200, Broken Tooth 239, Trap 212, Walkout 212, Platform 201, Last Lion 270 (closing and outro included). -->
+<!-- words: 2047 (spoken, excluding stage directions, headings and comments); ~10.5 min at 195 wpm. Draft 2. "The Man-Eaters of Tsavo." starts at word 35; Yeakel twist marker at word 99; longest sentence 33 words; average 14.5 words per sentence; Flesch 74.6 (textstat). Items: Man-Eaters 255, Tent 226, Thorn Fence 213, No Manes 200, Broken Tooth 223, Walkout 212, Trap 220, Platform 201, Last Lion 263 (closing and outro included). Outro 20 words. -->
