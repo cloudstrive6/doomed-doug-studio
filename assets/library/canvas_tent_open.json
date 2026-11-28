@@ -1,0 +1,311 @@
+{
+ "name": "canvas_tent_open",
+ "description": "canvas_tent (1890s canvas ridge tent, same footprint x -140..150, y -186..0) with the front door flaps rolled and tied back, showing an empty dark doorway #1a1410 (x -45..45, y -150..0). Anchor bottom-centre.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "tent",
+  "camp",
+  "1898",
+  "prop",
+  "061"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -80,
+     -150
+    ],
+    [
+     -140,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     96,
+     -146
+    ],
+    [
+     146,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -140,
+     -10
+    ],
+    [
+     -140,
+     4
+    ]
+   ],
+   "width": 4,
+   "color": "#5a4030"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     146,
+     -10
+    ],
+    [
+     146,
+     4
+    ]
+   ],
+   "width": 4,
+   "color": "#5a4030"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     -170
+    ],
+    [
+     112,
+     -152
+    ],
+    [
+     132,
+     0
+    ],
+    [
+     70,
+     0
+    ]
+   ],
+   "fill": "#d4c8ab",
+   "width": 4,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     20,
+     -148
+    ],
+    [
+     70,
+     -132
+    ],
+    [
+     124,
+     -140
+    ]
+   ],
+   "width": 2,
+   "color": "#b8aa88"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     50,
+     -90
+    ],
+    [
+     90,
+     -78
+    ],
+    [
+     128,
+     -86
+    ]
+   ],
+   "width": 2,
+   "color": "#b8aa88"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -10,
+     -172
+    ],
+    [
+     -120,
+     0
+    ],
+    [
+     70,
+     0
+    ]
+   ],
+   "fill": "#ece3cf",
+   "width": 4,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -8,
+     -150
+    ],
+    [
+     -45,
+     0
+    ],
+    [
+     45,
+     0
+    ]
+   ],
+   "fill": "#1a1410",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -12,
+     -146
+    ],
+    [
+     -56,
+     -60
+    ],
+    [
+     -78,
+     0
+    ],
+    [
+     -50,
+     0
+    ],
+    [
+     -30,
+     -66
+    ]
+   ],
+   "fill": "#b8aa88",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -4,
+     -146
+    ],
+    [
+     52,
+     0
+    ],
+    [
+     72,
+     0
+    ],
+    [
+     30,
+     -70
+    ]
+   ],
+   "fill": "#b8aa88",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -58,
+     -66
+    ],
+    [
+     -34,
+     -60
+    ]
+   ],
+   "width": 3,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     32,
+     -70
+    ],
+    [
+     52,
+     -64
+    ]
+   ],
+   "width": 3,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -10,
+     -172
+    ],
+    [
+     -12,
+     -186
+    ]
+   ],
+   "width": 4,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     112,
+     -152
+    ],
+    [
+     114,
+     -166
+    ]
+   ],
+   "width": 4,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -140,
+     0
+    ],
+    [
+     150,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#9aa0a6"
+  }
+ ]
+}

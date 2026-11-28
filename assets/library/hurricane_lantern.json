@@ -1,0 +1,262 @@
+{
+ "name": "hurricane_lantern",
+ "description": "1890s hurricane lantern: wire handle loop, tin cap, glass globe with a warm lit flame glow #ffe9a0, wire guards, round tin base. Centre anchor; bbox x -45..45, y -80..70 (handle top y -80). Globe stays light on near-black.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "lantern",
+  "light",
+  "camp",
+  "1898",
+  "prop",
+  "061"
+ ],
+ "elements": [
+  {
+   "type": "spray",
+   "x": 0,
+   "y": 6,
+   "r": 46,
+   "color": "#fff7a0",
+   "density": 0.25
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -30,
+     -44
+    ],
+    [
+     -34,
+     -76
+    ],
+    [
+     0,
+     -80
+    ],
+    [
+     34,
+     -76
+    ],
+    [
+     30,
+     -44
+    ]
+   ],
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": 6,
+   "rx": 32,
+   "ry": 40,
+   "fill": "#ffe9a0",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     -14
+    ],
+    [
+     9,
+     8
+    ],
+    [
+     8,
+     24
+    ],
+    [
+     0,
+     30
+    ],
+    [
+     -8,
+     24
+    ],
+    [
+     -9,
+     8
+    ]
+   ],
+   "fill": "#ffb000",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     0,
+     4
+    ],
+    [
+     4,
+     16
+    ],
+    [
+     0,
+     26
+    ],
+    [
+     -4,
+     16
+    ]
+   ],
+   "fill": "#fff7c8",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -16,
+     -32
+    ],
+    [
+     -16,
+     44
+    ]
+   ],
+   "width": 3,
+   "color": "#5a5a60"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     16,
+     -32
+    ],
+    [
+     16,
+     44
+    ]
+   ],
+   "width": 3,
+   "color": "#5a5a60"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -31,
+     8
+    ],
+    [
+     0,
+     14
+    ],
+    [
+     31,
+     8
+    ]
+   ],
+   "width": 3,
+   "color": "#5a5a60"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -38,
+     -36
+    ],
+    [
+     -22,
+     -56
+    ],
+    [
+     22,
+     -56
+    ],
+    [
+     38,
+     -36
+    ]
+   ],
+   "fill": "#8a8a90",
+   "width": 4,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "rect",
+   "x": -8,
+   "y": -62,
+   "w": 16,
+   "h": 8,
+   "fill": "#8a8a90",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -42,
+     42
+    ],
+    [
+     42,
+     42
+    ],
+    [
+     44,
+     68
+    ],
+    [
+     -44,
+     68
+    ]
+   ],
+   "fill": "#8a8a90",
+   "width": 4,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -40,
+     52
+    ],
+    [
+     40,
+     52
+    ]
+   ],
+   "width": 2,
+   "color": "#5a5a60"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -22,
+     -6
+    ],
+    [
+     -24,
+     14
+    ]
+   ],
+   "width": 3,
+   "color": "#ffffff"
+  }
+ ]
+}

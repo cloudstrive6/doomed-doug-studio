@@ -1,0 +1,443 @@
+{
+ "name": "rail_truck_open",
+ "description": "Open goods wagon to couple behind steam_locomotive_1898: low plank sides #7a5a3a with iron stanchions, dark iron frame, two axles, buffers. Anchor bottom-centre on the rail top; bbox x -242..242, y -158..0; top rim y -150 (heads just above it; doug_cap on the rim at x +120).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "railway",
+  "wagon",
+  "truck",
+  "1898",
+  "vehicle",
+  "061"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -220,
+     -150
+    ],
+    [
+     220,
+     -150
+    ],
+    [
+     220,
+     -56
+    ],
+    [
+     -220,
+     -56
+    ]
+   ],
+   "fill": "#7a5a3a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -216,
+     -126
+    ],
+    [
+     216,
+     -126
+    ]
+   ],
+   "width": 3,
+   "color": "#5a3e26"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -216,
+     -102
+    ],
+    [
+     216,
+     -102
+    ]
+   ],
+   "width": 3,
+   "color": "#5a3e26"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -216,
+     -78
+    ],
+    [
+     216,
+     -78
+    ]
+   ],
+   "width": 3,
+   "color": "#5a3e26"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -150
+    ],
+    [
+     -150,
+     -56
+    ]
+   ],
+   "width": 6,
+   "color": "#3a3a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     -150
+    ],
+    [
+     -50,
+     -56
+    ]
+   ],
+   "width": 6,
+   "color": "#3a3a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     -150
+    ],
+    [
+     50,
+     -56
+    ]
+   ],
+   "width": 6,
+   "color": "#3a3a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     150,
+     -150
+    ],
+    [
+     150,
+     -56
+    ]
+   ],
+   "width": 6,
+   "color": "#3a3a40"
+  },
+  {
+   "type": "rect",
+   "x": -226,
+   "y": -158,
+   "w": 452,
+   "h": 10,
+   "fill": "#4a4a52",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -224,
+   "y": -56,
+   "w": 448,
+   "h": 16,
+   "fill": "#2a2a2e",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -242,
+   "y": -70,
+   "w": 18,
+   "h": 14,
+   "fill": "#4a4a52",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": 224,
+   "y": -70,
+   "w": 18,
+   "h": 14,
+   "fill": "#4a4a52",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -130,
+   "y": -32,
+   "rx": 32,
+   "ry": 32,
+   "fill": "#2a2a2e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": -130,
+   "y": -32,
+   "rx": 24,
+   "ry": 24,
+   "fill": null,
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -130,
+     -32
+    ],
+    [
+     -106.0,
+     -32.0
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -130,
+     -32
+    ],
+    [
+     -118.0,
+     -11.215390309173472
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -130,
+     -32
+    ],
+    [
+     -142.0,
+     -11.215390309173472
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -130,
+     -32
+    ],
+    [
+     -154.0,
+     -31.999999999999996
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -130,
+     -32
+    ],
+    [
+     -142.0,
+     -52.78460969082652
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -130,
+     -32
+    ],
+    [
+     -118.0,
+     -52.78460969082653
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "ellipse",
+   "x": -130,
+   "y": -32,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#8a8a92",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 130,
+   "y": -32,
+   "rx": 32,
+   "ry": 32,
+   "fill": "#2a2a2e",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 130,
+   "y": -32,
+   "rx": 24,
+   "ry": 24,
+   "fill": null,
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     130,
+     -32
+    ],
+    [
+     154.0,
+     -32.0
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     130,
+     -32
+    ],
+    [
+     142.0,
+     -11.215390309173472
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     130,
+     -32
+    ],
+    [
+     118.0,
+     -11.215390309173472
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     130,
+     -32
+    ],
+    [
+     106.0,
+     -31.999999999999996
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     130,
+     -32
+    ],
+    [
+     117.99999999999999,
+     -52.78460969082652
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     130,
+     -32
+    ],
+    [
+     142.0,
+     -52.78460969082653
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a72"
+  },
+  {
+   "type": "ellipse",
+   "x": 130,
+   "y": -32,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#8a8a92",
+   "width": 3,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -240,
+     0
+    ],
+    [
+     240,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#6a6a72"
+  }
+ ]
+}

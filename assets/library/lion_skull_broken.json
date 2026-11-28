@@ -1,0 +1,646 @@
+{
+ "name": "lion_skull_broken",
+ "description": "Clean diagram lion skull, side view facing right: cream bone #efe2c0, brown outline, sagittal crest, big upper canine, and the lower canine visibly broken off short at (+150,+36) with a small dark spot at its root (infection; not red). Lower jaw slightly open. No gums, no flesh. Centre anchor; bbox x -260..260, y -170..170.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "skull",
+  "lion",
+  "bone",
+  "diagram",
+  "tsavo",
+  "061"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     44
+    ],
+    [
+     -150,
+     30
+    ],
+    [
+     -110,
+     -24
+    ],
+    [
+     -84,
+     -20
+    ],
+    [
+     -90,
+     36
+    ],
+    [
+     0,
+     44
+    ],
+    [
+     140,
+     42
+    ],
+    [
+     200,
+     44
+    ],
+    [
+     216,
+     70
+    ],
+    [
+     196,
+     100
+    ],
+    [
+     100,
+     110
+    ],
+    [
+     -40,
+     108
+    ],
+    [
+     -150,
+     96
+    ],
+    [
+     -196,
+     76
+    ]
+   ],
+   "fill": "#efe2c0",
+   "width": 5,
+   "color": "#6b4a2a",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -160,
+     90
+    ],
+    [
+     -40,
+     100
+    ],
+    [
+     100,
+     102
+    ],
+    [
+     190,
+     90
+    ],
+    [
+     196,
+     100
+    ],
+    [
+     100,
+     110
+    ],
+    [
+     -40,
+     108
+    ],
+    [
+     -150,
+     96
+    ]
+   ],
+   "fill": "#d8c69a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -200,
+     44
+    ],
+    [
+     -150,
+     30
+    ],
+    [
+     -110,
+     -24
+    ],
+    [
+     -84,
+     -20
+    ],
+    [
+     -90,
+     36
+    ],
+    [
+     0,
+     44
+    ],
+    [
+     140,
+     42
+    ],
+    [
+     200,
+     44
+    ],
+    [
+     216,
+     70
+    ],
+    [
+     196,
+     100
+    ],
+    [
+     100,
+     110
+    ],
+    [
+     -40,
+     108
+    ],
+    [
+     -150,
+     96
+    ],
+    [
+     -196,
+     76
+    ]
+   ],
+   "fill": null,
+   "width": 5,
+   "color": "#6b4a2a",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -250,
+     -10
+    ],
+    [
+     -240,
+     -70
+    ],
+    [
+     -200,
+     -120
+    ],
+    [
+     -120,
+     -158
+    ],
+    [
+     -20,
+     -164
+    ],
+    [
+     60,
+     -140
+    ],
+    [
+     120,
+     -100
+    ],
+    [
+     190,
+     -70
+    ],
+    [
+     240,
+     -40
+    ],
+    [
+     256,
+     -10
+    ],
+    [
+     250,
+     16
+    ],
+    [
+     210,
+     22
+    ],
+    [
+     100,
+     22
+    ],
+    [
+     -40,
+     22
+    ],
+    [
+     -150,
+     26
+    ],
+    [
+     -220,
+     30
+    ]
+   ],
+   "fill": "#efe2c0",
+   "width": 5,
+   "color": "#6b4a2a",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -230,
+     -60
+    ],
+    [
+     -190,
+     -110
+    ],
+    [
+     -120,
+     -146
+    ],
+    [
+     -20,
+     -152
+    ],
+    [
+     -20,
+     -132
+    ],
+    [
+     -120,
+     -126
+    ],
+    [
+     -190,
+     -90
+    ]
+   ],
+   "fill": "#d8c69a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": -50,
+   "y": -60,
+   "rx": 80,
+   "ry": 44,
+   "fill": "#d8c69a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -230,
+     -40
+    ],
+    [
+     -160,
+     -140
+    ],
+    [
+     -40,
+     -162
+    ]
+   ],
+   "width": 4,
+   "color": "#6b4a2a"
+  },
+  {
+   "type": "ellipse",
+   "x": 70,
+   "y": -60,
+   "rx": 38,
+   "ry": 34,
+   "fill": "#5a4630",
+   "width": 4,
+   "color": "#6b4a2a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     226,
+     -40
+    ],
+    [
+     252,
+     -30
+    ],
+    [
+     250,
+     0
+    ],
+    [
+     226,
+     0
+    ]
+   ],
+   "fill": "#5a4630",
+   "width": 3,
+   "color": "#6b4a2a",
+   "smooth": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -120,
+     0
+    ],
+    [
+     -40,
+     -20
+    ],
+    [
+     40,
+     -16
+    ],
+    [
+     100,
+     0
+    ]
+   ],
+   "width": 4,
+   "color": "#6b4a2a"
+  },
+  {
+   "type": "ellipse",
+   "x": -150,
+   "y": 6,
+   "rx": 12,
+   "ry": 8,
+   "fill": "#5a4630",
+   "width": 3,
+   "color": "#6b4a2a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -80,
+     22
+    ],
+    [
+     -40,
+     40
+    ],
+    [
+     20,
+     30
+    ]
+   ],
+   "width": 0.1,
+   "color": "#efe2c0"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -28,
+     20
+    ],
+    [
+     -10,
+     44
+    ],
+    [
+     6,
+     20
+    ]
+   ],
+   "fill": "#fff8e4",
+   "width": 3,
+   "color": "#6b4a2a",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     12,
+     20
+    ],
+    [
+     30,
+     44
+    ],
+    [
+     46,
+     20
+    ]
+   ],
+   "fill": "#fff8e4",
+   "width": 3,
+   "color": "#6b4a2a",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     52,
+     20
+    ],
+    [
+     70,
+     44
+    ],
+    [
+     86,
+     20
+    ]
+   ],
+   "fill": "#fff8e4",
+   "width": 3,
+   "color": "#6b4a2a",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -16,
+     44
+    ],
+    [
+     0,
+     24
+    ],
+    [
+     14,
+     44
+    ]
+   ],
+   "fill": "#fff8e4",
+   "width": 3,
+   "color": "#6b4a2a",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     24,
+     44
+    ],
+    [
+     40,
+     24
+    ],
+    [
+     54,
+     44
+    ]
+   ],
+   "fill": "#fff8e4",
+   "width": 3,
+   "color": "#6b4a2a",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     64,
+     44
+    ],
+    [
+     80,
+     24
+    ],
+    [
+     94,
+     44
+    ]
+   ],
+   "fill": "#fff8e4",
+   "width": 3,
+   "color": "#6b4a2a",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     164,
+     18
+    ],
+    [
+     204,
+     18
+    ],
+    [
+     196,
+     70
+    ],
+    [
+     184,
+     96
+    ],
+    [
+     176,
+     70
+    ]
+   ],
+   "fill": "#fff8e4",
+   "width": 4,
+   "color": "#6b4a2a",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     136,
+     46
+    ],
+    [
+     136,
+     22
+    ],
+    [
+     144,
+     28
+    ],
+    [
+     150,
+     16
+    ],
+    [
+     156,
+     26
+    ],
+    [
+     164,
+     20
+    ],
+    [
+     166,
+     46
+    ]
+   ],
+   "fill": "#fff8e4",
+   "width": 5,
+   "color": "#6b4a2a",
+   "smooth": false
+  },
+  {
+   "type": "ellipse",
+   "x": 151,
+   "y": 54,
+   "rx": 9,
+   "ry": 6,
+   "fill": "#3a2a1a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     214,
+     22
+    ],
+    [
+     234,
+     20
+    ],
+    [
+     230,
+     40
+    ],
+    [
+     214,
+     40
+    ]
+   ],
+   "fill": "#fff8e4",
+   "width": 3,
+   "color": "#6b4a2a",
+   "smooth": false
+  }
+ ]
+}

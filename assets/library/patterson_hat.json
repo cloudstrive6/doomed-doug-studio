@@ -1,0 +1,175 @@
+{
+ "name": "patterson_hat",
+ "description": "Plain 1890s felt slouch hat, khaki #a08a5a with a dark #5a3a1e band, dented crown, brim wider at the front (right). Worn prop that turns a plain stick man into Patterson. Anchor = wearer's head centre: brim at y about -55 (x -108..124), crown top -130. Heads: stick_man_plain at feet -368 x scale, stick_man_sitting at seat -218 x scale. No rifle, no badge.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "hat",
+  "prop",
+  "worn",
+  "1898",
+  "patterson",
+  "061"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -62,
+     -58
+    ],
+    [
+     -58,
+     -110
+    ],
+    [
+     -30,
+     -130
+    ],
+    [
+     0,
+     -118
+    ],
+    [
+     30,
+     -130
+    ],
+    [
+     58,
+     -112
+    ],
+    [
+     64,
+     -58
+    ]
+   ],
+   "fill": "#a08a5a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -20,
+     -118
+    ],
+    [
+     0,
+     -104
+    ],
+    [
+     20,
+     -118
+    ]
+   ],
+   "width": 3,
+   "color": "#7a6640"
+  },
+  {
+   "type": "spray",
+   "x": -30,
+   "y": -96,
+   "r": 18,
+   "color": "#8a7448",
+   "density": 0.2
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -60,
+     -78
+    ],
+    [
+     62,
+     -78
+    ],
+    [
+     64,
+     -60
+    ],
+    [
+     -62,
+     -60
+    ]
+   ],
+   "fill": "#5a3a1e",
+   "width": 3,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -104,
+     -50
+    ],
+    [
+     -80,
+     -62
+    ],
+    [
+     0,
+     -64
+    ],
+    [
+     80,
+     -62
+    ],
+    [
+     116,
+     -56
+    ],
+    [
+     124,
+     -48
+    ],
+    [
+     84,
+     -44
+    ],
+    [
+     0,
+     -46
+    ],
+    [
+     -80,
+     -44
+    ],
+    [
+     -108,
+     -44
+    ]
+   ],
+   "fill": "#a08a5a",
+   "width": 5,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -80,
+     -50
+    ],
+    [
+     0,
+     -52
+    ],
+    [
+     100,
+     -50
+    ]
+   ],
+   "width": 2,
+   "color": "#7a6640"
+  }
+ ]
+}

@@ -1,0 +1,409 @@
+{
+ "name": "lion_paw_reach",
+ "description": "A big tawny maneless-lion forepaw and forearm entering from the LEFT frame edge (no end outline on the arm), paw flat and wiping, seen from above with four round toes and NO claws (retracted). Anchor = paw centre (0,0); paw x -60..+138, y -70..+70; forearm runs left to x -700.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "animal",
+  "mammal",
+  "lion",
+  "africa",
+  "tsavo",
+  "maneless",
+  "paw",
+  "061"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -700,
+     -50
+    ],
+    [
+     -460,
+     -48
+    ],
+    [
+     -220,
+     -44
+    ],
+    [
+     -70,
+     -36
+    ],
+    [
+     -70,
+     36
+    ],
+    [
+     -220,
+     46
+    ],
+    [
+     -460,
+     52
+    ],
+    [
+     -700,
+     54
+    ]
+   ],
+   "fill": "#c9964a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -700,
+     -54
+    ],
+    [
+     -460,
+     -52
+    ],
+    [
+     -220,
+     -48
+    ],
+    [
+     -80,
+     -42
+    ],
+    [
+     -220,
+     -24
+    ],
+    [
+     -460,
+     -26
+    ],
+    [
+     -700,
+     -26
+    ]
+   ],
+   "fill": "#a8763a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -700,
+     40
+    ],
+    [
+     -460,
+     42
+    ],
+    [
+     -220,
+     38
+    ],
+    [
+     -80,
+     36
+    ],
+    [
+     -60,
+     46
+    ],
+    [
+     -220,
+     54
+    ],
+    [
+     -460,
+     60
+    ],
+    [
+     -700,
+     62
+    ]
+   ],
+   "fill": "#ecd3a0",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": -350,
+   "y": -10,
+   "r": 50,
+   "color": "#96682e",
+   "density": 0.14
+  },
+  {
+   "type": "spray",
+   "x": -150,
+   "y": 10,
+   "r": 40,
+   "color": "#96682e",
+   "density": 0.12
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -700,
+     -50
+    ],
+    [
+     -460,
+     -48
+    ],
+    [
+     -220,
+     -44
+    ],
+    [
+     -70,
+     -36
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -70,
+     36
+    ],
+    [
+     -220,
+     46
+    ],
+    [
+     -460,
+     52
+    ],
+    [
+     -700,
+     54
+    ]
+   ],
+   "width": 6,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 84,
+   "y": -48,
+   "rx": 30,
+   "ry": 24,
+   "fill": "#c9964a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 108,
+   "y": -16,
+   "rx": 30,
+   "ry": 22,
+   "fill": "#c9964a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 108,
+   "y": 18,
+   "rx": 30,
+   "ry": 22,
+   "fill": "#c9964a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "ellipse",
+   "x": 84,
+   "y": 50,
+   "rx": 30,
+   "ry": 24,
+   "fill": "#c9964a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -70,
+     -36
+    ],
+    [
+     -30,
+     -64
+    ],
+    [
+     40,
+     -72
+    ],
+    [
+     86,
+     -58
+    ],
+    [
+     104,
+     0
+    ],
+    [
+     86,
+     58
+    ],
+    [
+     40,
+     72
+    ],
+    [
+     -30,
+     64
+    ],
+    [
+     -70,
+     36
+    ]
+   ],
+   "fill": "#c9964a",
+   "width": 6,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "ellipse",
+   "x": 80,
+   "y": -48,
+   "rx": 25,
+   "ry": 19,
+   "fill": "#c9964a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 104,
+   "y": -16,
+   "rx": 25,
+   "ry": 17,
+   "fill": "#c9964a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 104,
+   "y": 18,
+   "rx": 25,
+   "ry": 17,
+   "fill": "#c9964a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 80,
+   "y": 50,
+   "rx": 25,
+   "ry": 19,
+   "fill": "#c9964a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -50,
+     -48
+    ],
+    [
+     -14,
+     -60
+    ],
+    [
+     46,
+     -60
+    ],
+    [
+     80,
+     -48
+    ],
+    [
+     40,
+     -36
+    ],
+    [
+     -20,
+     -34
+    ]
+   ],
+   "fill": "#a8763a",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "spray",
+   "x": 20,
+   "y": 14,
+   "r": 34,
+   "color": "#f2dfb4",
+   "density": 0.25
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -200,
+     -40
+    ],
+    [
+     -120,
+     -46
+    ],
+    [
+     -62,
+     -40
+    ]
+   ],
+   "width": 3,
+   "color": "#a8763a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -300,
+     30
+    ],
+    [
+     -200,
+     36
+    ]
+   ],
+   "width": 3,
+   "color": "#a8763a"
+  }
+ ]
+}

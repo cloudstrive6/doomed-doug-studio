@@ -1,0 +1,441 @@
+{
+ "name": "narrator_hand_side",
+ "description": "The narrator's crude-tier arm and right hand entering horizontally from the RIGHT edge (narrator_hand look: white hand, thick black keep_ink outline, grey sleeve, darker cuff), thumb and forefinger pinching. Anchor (0,0) = the pinch point; fist x 0..+156, y -54..+60; cuff +150..+200, sleeve to +900 (y -45..+45) with no end outline. auto_ink.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "human",
+  "hand",
+  "arm",
+  "narrator",
+  "crude",
+  "061"
+ ],
+ "auto_ink": true,
+ "elements": [
+  {
+   "type": "rect",
+   "x": 190,
+   "y": -45,
+   "w": 710,
+   "h": 90,
+   "fill": "#a4a4a8",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     190,
+     -45
+    ],
+    [
+     900,
+     -45
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     190,
+     45
+    ],
+    [
+     900,
+     45
+    ]
+   ],
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     260,
+     15
+    ],
+    [
+     900,
+     15
+    ]
+   ],
+   "width": 3,
+   "color": "#86868c"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     150,
+     -52
+    ],
+    [
+     200,
+     -52
+    ],
+    [
+     200,
+     52
+    ],
+    [
+     150,
+     52
+    ]
+   ],
+   "fill": "#7e7e84",
+   "width": 5,
+   "color": "#000000",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     175,
+     -50
+    ],
+    [
+     175,
+     50
+    ]
+   ],
+   "width": 2,
+   "color": "#5e5e64"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     52,
+     -40
+    ],
+    [
+     86,
+     -54
+    ],
+    [
+     134,
+     -50
+    ],
+    [
+     158,
+     -30
+    ],
+    [
+     158,
+     40
+    ],
+    [
+     134,
+     58
+    ],
+    [
+     86,
+     60
+    ],
+    [
+     52,
+     44
+    ],
+    [
+     44,
+     10
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 10,
+   "color": "#000000",
+   "smooth": true,
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     70,
+     -46
+    ],
+    [
+     30,
+     -42
+    ],
+    [
+     2,
+     -20
+    ],
+    [
+     0,
+     -4
+    ],
+    [
+     14,
+     -2
+    ],
+    [
+     40,
+     -18
+    ],
+    [
+     72,
+     -22
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 10,
+   "color": "#000000",
+   "smooth": true,
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     70,
+     42
+    ],
+    [
+     30,
+     34
+    ],
+    [
+     4,
+     14
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     16,
+     2
+    ],
+    [
+     40,
+     16
+    ],
+    [
+     74,
+     20
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 10,
+   "color": "#000000",
+   "smooth": true,
+   "keep_ink": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     52,
+     -40
+    ],
+    [
+     86,
+     -54
+    ],
+    [
+     134,
+     -50
+    ],
+    [
+     158,
+     -30
+    ],
+    [
+     158,
+     40
+    ],
+    [
+     134,
+     58
+    ],
+    [
+     86,
+     60
+    ],
+    [
+     52,
+     44
+    ],
+    [
+     44,
+     10
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "keep_ink": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     70,
+     -46
+    ],
+    [
+     30,
+     -42
+    ],
+    [
+     2,
+     -20
+    ],
+    [
+     0,
+     -4
+    ],
+    [
+     14,
+     -2
+    ],
+    [
+     40,
+     -18
+    ],
+    [
+     72,
+     -22
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "keep_ink": true,
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     70,
+     42
+    ],
+    [
+     30,
+     34
+    ],
+    [
+     4,
+     14
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     16,
+     2
+    ],
+    [
+     40,
+     16
+    ],
+    [
+     74,
+     20
+    ]
+   ],
+   "fill": "#ffffff",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "keep_ink": true,
+   "outline": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     96,
+     -10
+    ],
+    [
+     134,
+     -12
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     100,
+     14
+    ],
+    [
+     136,
+     14
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     100,
+     36
+    ],
+    [
+     134,
+     36
+    ]
+   ],
+   "width": 4,
+   "color": "#000000",
+   "keep_ink": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     60,
+     -24
+    ],
+    [
+     72,
+     -4
+    ],
+    [
+     62,
+     12
+    ]
+   ],
+   "width": 3,
+   "color": "#d6d6d6",
+   "keep_ink": true
+  },
+  {
+   "type": "ellipse",
+   "x": -4,
+   "y": 0,
+   "rx": 7,
+   "ry": 7,
+   "fill": "#e8e2c8",
+   "width": 2,
+   "color": "#8a8a8a",
+   "keep_ink": true
+  }
+ ]
+}

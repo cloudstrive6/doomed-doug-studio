@@ -1,0 +1,393 @@
+{
+ "name": "donkey_carcass_outline",
+ "description": "Gore-free kill shape in the carcass_outline style: a donkey lying on its side as one pale flat shape #d9cfb8 with a #6b6358 width-4 outline only: long head resting on the ground at the right, long ears lying flat back along the neck, front legs folded under the chest, hind leg stretched back to about (-226,-16) for the s135 wire, short tufted tail. No eye, no wound, nothing red. Anchor bottom-centre, bbox x -230..230, y -130..0.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "carcass",
+  "donkey",
+  "outline",
+  "gore-free",
+  "061"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     -40
+    ],
+    [
+     -196,
+     -30
+    ],
+    [
+     -228,
+     -22
+    ],
+    [
+     -226,
+     -8
+    ],
+    [
+     -190,
+     -6
+    ],
+    [
+     -130,
+     -18
+    ]
+   ],
+   "fill": "#d9cfb8",
+   "width": 4,
+   "color": "#6b6358",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -80,
+     -30
+    ],
+    [
+     -30,
+     -34
+    ],
+    [
+     0,
+     -14
+    ],
+    [
+     -14,
+     -2
+    ],
+    [
+     -50,
+     -4
+    ],
+    [
+     -70,
+     -16
+    ]
+   ],
+   "fill": "#d9cfb8",
+   "width": 4,
+   "color": "#6b6358",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     30,
+     -34
+    ],
+    [
+     80,
+     -30
+    ],
+    [
+     120,
+     -10
+    ],
+    [
+     110,
+     -2
+    ],
+    [
+     60,
+     -4
+    ],
+    [
+     30,
+     -20
+    ]
+   ],
+   "fill": "#d9cfb8",
+   "width": 4,
+   "color": "#6b6358",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     60,
+     -36
+    ],
+    [
+     110,
+     -40
+    ],
+    [
+     146,
+     -22
+    ],
+    [
+     130,
+     -12
+    ],
+    [
+     90,
+     -20
+    ]
+   ],
+   "fill": "#d9cfb8",
+   "width": 4,
+   "color": "#6b6358",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -160,
+     -26
+    ],
+    [
+     -196,
+     -62
+    ],
+    [
+     -170,
+     -104
+    ],
+    [
+     -90,
+     -122
+    ],
+    [
+     10,
+     -118
+    ],
+    [
+     70,
+     -104
+    ],
+    [
+     108,
+     -90
+    ],
+    [
+     138,
+     -82
+    ],
+    [
+     166,
+     -82
+    ],
+    [
+     204,
+     -70
+    ],
+    [
+     226,
+     -52
+    ],
+    [
+     232,
+     -28
+    ],
+    [
+     220,
+     -10
+    ],
+    [
+     186,
+     -8
+    ],
+    [
+     160,
+     -18
+    ],
+    [
+     134,
+     -36
+    ],
+    [
+     104,
+     -40
+    ],
+    [
+     40,
+     -30
+    ],
+    [
+     -60,
+     -26
+    ]
+   ],
+   "fill": "#d9cfb8",
+   "width": 4,
+   "color": "#6b6358",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     176,
+     -72
+    ],
+    [
+     130,
+     -96
+    ],
+    [
+     84,
+     -108
+    ],
+    [
+     80,
+     -98
+    ],
+    [
+     124,
+     -84
+    ],
+    [
+     168,
+     -64
+    ]
+   ],
+   "fill": "#d9cfb8",
+   "width": 4,
+   "color": "#6b6358",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     180,
+     -66
+    ],
+    [
+     136,
+     -84
+    ],
+    [
+     100,
+     -90
+    ],
+    [
+     98,
+     -82
+    ],
+    [
+     132,
+     -74
+    ],
+    [
+     172,
+     -58
+    ]
+   ],
+   "fill": "#d9cfb8",
+   "width": 4,
+   "color": "#6b6358",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     214,
+     -44
+    ],
+    [
+     222,
+     -30
+    ]
+   ],
+   "width": 3,
+   "color": "#b8ae98"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -190,
+     -56
+    ],
+    [
+     -214,
+     -62
+    ],
+    [
+     -224,
+     -74
+    ]
+   ],
+   "width": 4,
+   "color": "#6b6358"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -226,
+     -80
+    ],
+    [
+     -218,
+     -72
+    ],
+    [
+     -232,
+     -66
+    ]
+   ],
+   "fill": "#d9cfb8",
+   "width": 3,
+   "color": "#6b6358",
+   "smooth": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -110,
+     -40
+    ],
+    [
+     -60,
+     -56
+    ],
+    [
+     0,
+     -50
+    ],
+    [
+     40,
+     -30
+    ]
+   ],
+   "width": 3,
+   "color": "#b8ae98"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     150,
+     -80
+    ],
+    [
+     160,
+     -50
+    ],
+    [
+     150,
+     -22
+    ]
+   ],
+   "width": 3,
+   "color": "#b8ae98"
+  }
+ ]
+}

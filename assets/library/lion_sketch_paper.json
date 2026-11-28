@@ -1,0 +1,395 @@
+{
+ "name": "lion_sketch_paper",
+ "description": "Doug's 'wanted' sketch: cream sheet (240x180, centre anchor) pinned at the top, with a crude grey pencil drawing of a big fluffy-maned cartoon lion (flat mouth, not cute) and LION printed under it. Pencil grey only.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "paper",
+  "sketch",
+  "lion",
+  "prop",
+  "doug",
+  "061"
+ ],
+ "elements": [
+  {
+   "type": "poly",
+   "points": [
+    [
+     -120,
+     -90
+    ],
+    [
+     120,
+     -88
+    ],
+    [
+     118,
+     90
+    ],
+    [
+     -118,
+     88
+    ]
+   ],
+   "fill": "#f4ecd0",
+   "width": 3,
+   "color": "#8a7a5a",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     96,
+     70
+    ],
+    [
+     112,
+     86
+    ]
+   ],
+   "width": 2,
+   "color": "#c8bc98"
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -80,
+   "rx": 8,
+   "ry": 8,
+   "fill": "#8a8a90",
+   "width": 3,
+   "color": "#3a3a3a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     48.0,
+     -20.0
+    ],
+    [
+     30.650699430496616,
+     -4.845736078342444
+    ],
+    [
+     31.01219330881976,
+     16.91097397793778
+    ],
+    [
+     6.838071024063954,
+     16.58562948744696
+    ],
+    [
+     -9.999999999999996,
+     32.2
+    ],
+    [
+     -26.838071024063947,
+     16.58562948744696
+    ],
+    [
+     -51.012193308819754,
+     16.910973977937786
+    ],
+    [
+     -50.650699430496616,
+     -4.845736078342441
+    ],
+    [
+     -68.0,
+     -19.999999999999993
+    ],
+    [
+     -50.65069943049662,
+     -35.15426392165755
+    ],
+    [
+     -51.01219330881977,
+     -56.91097397793778
+    ],
+    [
+     -26.838071024063975,
+     -56.58562948744695
+    ],
+    [
+     -10.00000000000001,
+     -72.2
+    ],
+    [
+     6.838071024063961,
+     -56.58562948744695
+    ],
+    [
+     31.012193308819747,
+     -56.91097397793779
+    ],
+    [
+     30.65069943049661,
+     -35.15426392165758
+    ]
+   ],
+   "fill": null,
+   "width": 3,
+   "color": "#6a6a6a",
+   "smooth": true
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     14
+    ],
+    [
+     70,
+     16
+    ],
+    [
+     90,
+     10
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     26,
+     30
+    ],
+    [
+     40,
+     40
+    ],
+    [
+     86,
+     32
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     34,
+     30
+    ],
+    [
+     32,
+     52
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     36
+    ],
+    [
+     50,
+     52
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     74,
+     34
+    ],
+    [
+     74,
+     52
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     86,
+     30
+    ],
+    [
+     88,
+     52
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     90,
+     12
+    ],
+    [
+     110,
+     0
+    ],
+    [
+     108,
+     -20
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "ellipse",
+   "x": 108,
+   "y": -24,
+   "rx": 5,
+   "ry": 6,
+   "fill": null,
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "ellipse",
+   "x": -10,
+   "y": -20,
+   "rx": 30,
+   "ry": 28,
+   "fill": null,
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "ellipse",
+   "x": -34,
+   "y": -46,
+   "rx": 8,
+   "ry": 8,
+   "fill": null,
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "ellipse",
+   "x": 14,
+   "y": -46,
+   "rx": 8,
+   "ry": 8,
+   "fill": null,
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "ellipse",
+   "x": -20,
+   "y": -26,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#6a6a6a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "ellipse",
+   "x": 0,
+   "y": -26,
+   "rx": 3,
+   "ry": 3,
+   "fill": "#6a6a6a",
+   "width": 0,
+   "color": "#000000",
+   "outline": false
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -16,
+     -14
+    ],
+    [
+     -4,
+     -14
+    ],
+    [
+     -10,
+     -8
+    ]
+   ],
+   "fill": "#6a6a6a",
+   "width": 2,
+   "color": "#6a6a6a",
+   "smooth": false
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -18,
+     -2
+    ],
+    [
+     -2,
+     -2
+    ]
+   ],
+   "width": 3,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -50,
+     20
+    ],
+    [
+     -40,
+     26
+    ]
+   ],
+   "width": 2,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20,
+     -64
+    ],
+    [
+     30,
+     -72
+    ]
+   ],
+   "width": 2,
+   "color": "#6a6a6a"
+  },
+  {
+   "type": "text",
+   "text": "LION",
+   "x": 0,
+   "y": 66,
+   "size": 30,
+   "color": "#6a6a6a",
+   "bold": true
+  }
+ ]
+}

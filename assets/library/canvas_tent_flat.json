@@ -1,0 +1,313 @@
+{
+ "name": "canvas_tent_flat",
+ "description": "The canvas tent collapsed after a lion jumped on it: a low canvas heap with sagging creases, guy rope loose, and one snapped ridge pole sticking up at an angle. Nothing under it. Anchor bottom-centre, x -150..150, y -80..0 (pole tip to about -136).",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "tent",
+  "camp",
+  "1898",
+  "prop",
+  "collapsed",
+  "061"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     60,
+     -76
+    ],
+    [
+     92,
+     -136
+    ]
+   ],
+   "width": 7,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     86,
+     -136
+    ],
+    [
+     96,
+     -128
+    ]
+   ],
+   "width": 4,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     0
+    ],
+    [
+     -140,
+     -30
+    ],
+    [
+     -100,
+     -52
+    ],
+    [
+     -60,
+     -44
+    ],
+    [
+     -20,
+     -70
+    ],
+    [
+     30,
+     -62
+    ],
+    [
+     70,
+     -80
+    ],
+    [
+     110,
+     -56
+    ],
+    [
+     140,
+     -34
+    ],
+    [
+     150,
+     0
+    ]
+   ],
+   "fill": "#d4c8ab",
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -130,
+     -24
+    ],
+    [
+     -96,
+     -46
+    ],
+    [
+     -60,
+     -38
+    ],
+    [
+     -24,
+     -62
+    ],
+    [
+     20,
+     -50
+    ],
+    [
+     -10,
+     -20
+    ],
+    [
+     -80,
+     -12
+    ]
+   ],
+   "fill": "#ece3cf",
+   "width": 0,
+   "color": "#000000",
+   "smooth": true,
+   "outline": false
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -100,
+     -50
+    ],
+    [
+     -80,
+     -20
+    ],
+    [
+     -90,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#9a8c6a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -20,
+     -68
+    ],
+    [
+     -10,
+     -30
+    ],
+    [
+     -30,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#9a8c6a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     30,
+     -60
+    ],
+    [
+     50,
+     -30
+    ],
+    [
+     40,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#9a8c6a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     110,
+     -56
+    ],
+    [
+     100,
+     -24
+    ],
+    [
+     116,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#9a8c6a"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -60,
+     -44
+    ],
+    [
+     -40,
+     -30
+    ],
+    [
+     -50,
+     -8
+    ]
+   ],
+   "width": 2,
+   "color": "#9a8c6a"
+  },
+  {
+   "type": "poly",
+   "points": [
+    [
+     -150,
+     0
+    ],
+    [
+     -140,
+     -30
+    ],
+    [
+     -100,
+     -52
+    ],
+    [
+     -60,
+     -44
+    ],
+    [
+     -20,
+     -70
+    ],
+    [
+     30,
+     -62
+    ],
+    [
+     70,
+     -80
+    ],
+    [
+     110,
+     -56
+    ],
+    [
+     140,
+     -34
+    ],
+    [
+     150,
+     0
+    ]
+   ],
+   "fill": null,
+   "width": 4,
+   "color": "#000000",
+   "smooth": true
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     140,
+     -30
+    ],
+    [
+     170,
+     -12
+    ],
+    [
+     150,
+     0
+    ]
+   ],
+   "width": 2,
+   "color": "#6b5a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -152,
+     0
+    ],
+    [
+     152,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#9aa0a6"
+  }
+ ]
+}
