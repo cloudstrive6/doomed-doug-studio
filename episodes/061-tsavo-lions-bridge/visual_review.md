@@ -280,3 +280,28 @@ remaining pixel difference is native-resolution line rendering only, not a conte
 3. **C** (graphic designer, optional): reduce the eye's speckle density by about half.
 
 Re-screen after the fix: C and C_small only. Then the post-render round: samples, qc.json, the s001 0 s frame, Shorts.
+
+## Round 6: thumbnail C re-screen and paint.py silhouette_fill regression check (2026-11-28)
+VERDICT: PASS (C PASS; A and B unchanged PASS; engine change has no side effects)
+
+### C "UP A TREE": PASS
+- The fill is now a very dark warm brown, not black, so it no longer reads as a panther or house cat. The lion cues
+  hold at 168 px: the long tail with a dark tuft against the navy sky, the yellow slit cat eye, the pale muzzle patch
+  and a prominent ear. It reads as a big cat watching Doug up the tree.
+- The floating inner rim strokes (the foreleg triangle and the lone vertical line) are gone. There is no "4l" glyph at
+  the feet at either size. A couple of tiny cream specks remain along the base line in the grass (about x=250, y=665
+  and x=470-525, y=655). They are invisible at feed size and do not block.
+- The text is clear and does not touch the branches. Doug is on-model (red cap, white head, scared mouth, sweat drop)
+  and has the moon behind him, so he pops at 168 px. There is one focal story, and it is not misleading for the paired title.
+- Minor, not blocking (graphic designer): at 168 px the brown body plus the round ear lean slightly "bear". The tail
+  tuft and the slit eye settle it. If it is touched again, a flatter brow or a longer muzzle would help. The eye speckle is
+  still a little dense (optional fix 3 from Round 5 was not applied).
+
+### paint.py `silhouette_fill` (935d6fad)
+- The change is gated: `silhouette_fill` is unset, so it falls back to `#000000`. The only file that sets it is thumbnail_test_c.json.
+- I re-rendered s120 and s152, plus the silhouette shots s002 and s139, and diffed them against the 18:42 pre-change
+  keyframes. All four are **pixel-identical** (diff bbox None).
+- Note for the editor: running `keyframes --shots` rebuilt `build/contact/` with only the re-keyed shots, so it now
+  holds just sheet_01. Re-run a full `keyframes 061-tsavo-lions-bridge` if anyone needs the full contact sheets again.
+
+Next: the post-render round (samples, qc.json, the s001 frame at 0 s, Shorts).
