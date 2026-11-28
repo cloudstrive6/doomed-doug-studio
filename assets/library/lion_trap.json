@@ -1,6 +1,6 @@
 {
  "name": "lion_trap",
- "description": "Patterson's lion trap: a heavy box of wooden railway sleepers with barred iron fronts so the inside is visible; crude and practical. Anchor bottom-centre, bbox x -352..344, y -340..0. Lion room x -310..+90, divider of iron rails at x +90..+110, men's room x +110..+318, floor/seat level y -20, drop door (down, closed) at x -340..-312 between guide posts, lamp hook at (+260,-220), roof top y -330.",
+ "description": "Patterson's lion trap: a heavy box of wooden railway sleepers with barred iron fronts so the inside is visible; crude and practical. Anchor bottom-centre, bbox x -352..344, y -340..0. Lion room x -310..+90, divider of iron rails at x +90..+110, men's room x +110..+318, floor/seat level y -20, drop door (down, closed) at x -340..-312 between guide posts, lamp hook at (+260,-220), roof top y -330. LAYERING: draw this, then the occupants (lion, soldiers, Doug, lamp), then lion_trap_front at the same x/y/scale/flip so everyone sits behind the front bars.",
  "anchor": [
   0,
   0
@@ -224,6 +224,55 @@
    ],
    "width": 3,
    "color": "#4a3220"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     260,
+     -304
+    ],
+    [
+     260,
+     -226
+    ]
+   ],
+   "width": 4,
+   "color": "#3a3a40"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     260,
+     -226
+    ],
+    [
+     268,
+     -216
+    ],
+    [
+     256,
+     -212
+    ]
+   ],
+   "width": 4,
+   "color": "#3a3a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -360,
+     0
+    ],
+    [
+     360,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#5a4a3a"
   },
   {
    "type": "line",
@@ -541,40 +590,6 @@
    "color": "#000000"
   },
   {
-   "type": "line",
-   "points": [
-    [
-     260,
-     -304
-    ],
-    [
-     260,
-     -226
-    ]
-   ],
-   "width": 4,
-   "color": "#3a3a40"
-  },
-  {
-   "type": "curve",
-   "points": [
-    [
-     260,
-     -226
-    ],
-    [
-     268,
-     -216
-    ],
-    [
-     256,
-     -212
-    ]
-   ],
-   "width": 4,
-   "color": "#3a3a40"
-  },
-  {
    "type": "rect",
    "x": -352,
    "y": -340,
@@ -673,21 +688,6 @@
    "fill": "#4a4a52",
    "width": 3,
    "color": "#000000"
-  },
-  {
-   "type": "line",
-   "points": [
-    [
-     -360,
-     0
-    ],
-    [
-     360,
-     0
-    ]
-   ],
-   "width": 3,
-   "color": "#5a4a3a"
   }
  ]
 }

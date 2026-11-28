@@ -1,0 +1,457 @@
+{
+ "name": "lion_trap_bent_bar_front",
+ "description": "FRONT OVERLAY for lion_trap_bent_bar: only the front iron bars, cross rail, frame/guide posts, divider rails and the drop door with its bent rail; transparent between the bars. Same anchor and bbox. Draw it AFTER the occupants.",
+ "anchor": [
+  0,
+  0
+ ],
+ "tags": [
+  "trap",
+  "cage",
+  "1898",
+  "tsavo",
+  "prop",
+  "overlay",
+  "escaped",
+  "061"
+ ],
+ "elements": [
+  {
+   "type": "line",
+   "points": [
+    [
+     -270,
+     -304
+    ],
+    [
+     -270,
+     -20
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -270,
+     -304
+    ],
+    [
+     -270,
+     -20
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7a84"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -210,
+     -304
+    ],
+    [
+     -210,
+     -20
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -210,
+     -304
+    ],
+    [
+     -210,
+     -20
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7a84"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -304
+    ],
+    [
+     -150,
+     -20
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -150,
+     -304
+    ],
+    [
+     -150,
+     -20
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7a84"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -90,
+     -304
+    ],
+    [
+     -90,
+     -20
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -90,
+     -304
+    ],
+    [
+     -90,
+     -20
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7a84"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -304
+    ],
+    [
+     -30,
+     -20
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -30,
+     -304
+    ],
+    [
+     -30,
+     -20
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7a84"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -304
+    ],
+    [
+     30,
+     -20
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     30,
+     -304
+    ],
+    [
+     30,
+     -20
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7a84"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     160,
+     -304
+    ],
+    [
+     160,
+     -20
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     160,
+     -304
+    ],
+    [
+     160,
+     -20
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7a84"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     216,
+     -304
+    ],
+    [
+     216,
+     -20
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     216,
+     -304
+    ],
+    [
+     216,
+     -20
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7a84"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     272,
+     -304
+    ],
+    [
+     272,
+     -20
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     272,
+     -304
+    ],
+    [
+     272,
+     -20
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7a84"
+  },
+  {
+   "type": "rect",
+   "x": 90,
+   "y": -304,
+   "w": 20,
+   "h": 284,
+   "fill": "#4a4a52",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     100,
+     -300
+    ],
+    [
+     100,
+     -24
+    ]
+   ],
+   "width": 2,
+   "color": "#8a8a92"
+  },
+  {
+   "type": "rect",
+   "x": 318,
+   "y": -330,
+   "w": 24,
+   "h": 330,
+   "fill": "#6b4a2a",
+   "width": 5,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -310,
+   "y": -170,
+   "w": 620,
+   "h": 12,
+   "fill": "#6b4a2a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -352,
+   "y": -340,
+   "w": 14,
+   "h": 340,
+   "fill": "#6b4a2a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "rect",
+   "x": -312,
+   "y": -340,
+   "w": 14,
+   "h": 340,
+   "fill": "#6b4a2a",
+   "width": 4,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -334,
+     -300
+    ],
+    [
+     -334,
+     -200
+    ]
+   ],
+   "width": 7,
+   "color": "#000000"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -334,
+     -300
+    ],
+    [
+     -334,
+     -200
+    ]
+   ],
+   "width": 4,
+   "color": "#7a7a84"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -326,
+     -300
+    ],
+    [
+     -324,
+     -214
+    ],
+    [
+     -296,
+     -170
+    ],
+    [
+     -262,
+     -110
+    ],
+    [
+     -256,
+     -60
+    ],
+    [
+     -270,
+     -20
+    ]
+   ],
+   "width": 10,
+   "color": "#000000"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     -326,
+     -300
+    ],
+    [
+     -324,
+     -214
+    ],
+    [
+     -296,
+     -170
+    ],
+    [
+     -262,
+     -110
+    ],
+    [
+     -256,
+     -60
+    ],
+    [
+     -270,
+     -20
+    ]
+   ],
+   "width": 6,
+   "color": "#a8a8b2"
+  },
+  {
+   "type": "rect",
+   "x": -340,
+   "y": -300,
+   "w": 34,
+   "h": 10,
+   "fill": "#4a4a52",
+   "width": 3,
+   "color": "#000000"
+  }
+ ]
+}

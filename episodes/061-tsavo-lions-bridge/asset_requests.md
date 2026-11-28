@@ -54,6 +54,7 @@ about 2.7-3 m nose to tail and about 1.1-1.2 m at the shoulder).
 
 ### `tsavo_lion`: s002 s009-s013 s022 s060 s062 s063 s065 s067 s089 s120-s123 s127 s144 s166 s170 s171
 **Done (illustrator, 2026-11-28)**: `assets/library/tsavo_lion.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`. Real key points: nose tip (+387,-279), shoulder top (+150,-324) (the hump sits a little higher/further forward than requested), tail tuft bottom (-372,-110).
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: new lion-profile head (long boxy muzzle, flat bridge, wedge nose pad, square jaw, small ears set back), sprays kept inside the body. Nose tip now (+395,-281) (was +387,-279). Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 Adult **maneless** male Tsavo lion, standing, side view, calm, head level. Anchor **bottom-centre (feet on y=0)**,
 bbox x -380..380, y -400..0. Key points: nose tip about (+380,-270), shoulder top about (+120,-300), tail tip near
 (-380,-120). Used from scale 0.26 (inside the trap, small figure) to 0.95 (s144 measurement diagram: dotted lines run
@@ -62,28 +63,33 @@ sober card (s089) and stiffly in a museum case (s166, s170, s171).
 
 ### `tsavo_lion_walking`: s002 s006 s022 s028-s030 s050 s054 s063 s066 s070 s071 s125 s139 s140 s166 s170 s171
 **Done (illustrator, 2026-11-28)**: `assets/library/tsavo_lion_walking.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`. Nose about (+387,-262).
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: new lion-profile head (long boxy muzzle, flat bridge, wedge nose pad, square jaw, small ears set back), sprays kept inside the body. Nose now (+395,-259). Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 Same lion mid-stride, relaxed, head level (the "silent pads" walk). Anchor bottom-centre, bbox x -380..380, y -400..0.
 Often a silhouette with red glow (s028, s054, s139) and small (0.22-0.3) on maps and in the bush.
 
 ### `tsavo_lion_charging`: s033 s050 s152 s154 s155
 **Done (illustrator, 2026-11-28)**: `assets/library/tsavo_lion_charging.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`. Nose about (+400,-226); paws in the air on the forelegs, far hind paw on y=0.
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: new lion-profile head (long boxy muzzle, flat bridge, wedge nose pad, square jaw, small ears set back), sprays kept inside the body. Nose now (+411,-233) (was +400,-226). Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 Same lion in a full charge / bound: forelegs reaching forward, hind legs pushing, body low and long, mouth **closed**
 (no teeth). Anchor bottom-centre, bbox x -400..400, y -360..0. Used rotated -12 deg as a leap over the thorn fence
 (s050) and as a silhouette leaping onto a tent (s033).
 
 ### `tsavo_lion_sitting`: s091 s093
 **Done (illustrator, 2026-11-28)**: `assets/library/tsavo_lion_sitting.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`. Nose about (+221,-399), eye about (+156,-412); head top -474 (4 over the bbox top).
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: new lion-profile head (long boxy muzzle, flat bridge, wedge nose pad, square jaw, small ears set back), sprays kept inside the body. Nose (+217,-400); **eye moved to (+142,-414)** (was +156,-412); head top now about -460 (inside the bbox). Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 Same lion sitting upright on its haunches, head level, calm hard stare (Doug's dental "patient"). Anchor bottom-centre,
 bbox x -200..220, y -470..0. Flipped in s091 to face Doug.
 
 ### `tsavo_lion_looking_up`: s003 s160 s161 s162
 **Done (illustrator, 2026-11-28)**: `assets/library/tsavo_lion_looking_up.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`. Eye about (+89,-442) (not +120,-450), nose tip about (+121,-500).
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: new lion-profile head (long boxy muzzle, flat bridge, wedge nose pad, square jaw, small ears set back), sprays kept inside the body. Brow moved up onto the forehead, clear of the eye. Nose tip (+119,-497); **eye moved to (+82,-430)** (was +89,-442). Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 The finale image: the second lion sitting at the foot of a thin tree, **head tipped back looking straight up**, patient,
 mouth closed. Anchor bottom-centre, bbox x -200..220, y -500..0; eyes about (+120,-450). Used at 0.42-0.5 under
 `thin_thorn_tree` on `#080c1c`, and as a red-glow silhouette in s003. Must read as waiting, not as roaring.
 
 ### `tsavo_lion_head`: s027 s038
 **Done (illustrator, 2026-11-28)**: `assets/library/tsavo_lion_head.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`. Head is drawn at 1.72x the body head; nose about (+148,0), ears to y -131, chin about +98.
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: new lion-profile head (long boxy muzzle, flat bridge, wedge nose pad, square jaw, small ears set back), sprays kept inside the body. Throat fringe is now 4 tapered strokes. **Nose now (+160,-4)** (was +148,0); ears top about -100 (was -131); chin +98; neck top line lowered to y -40 at the left edge (x -260, still no end outline). Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 Head and neck only, side view, pushing forward (as if into a doorway / against canvas). Anchor **centre** of the head,
 bbox x -260..200, y -150..150. The **neck runs off to the left edge (x -260) with no end outline**, so it always
 continues behind a tent edge or off-frame (never a cut end). Only ever used as a black silhouette (s027 at the open tent
@@ -91,6 +97,7 @@ door with a red glow; s038 flipped, pressing against Doug's lit tent wall from o
 
 ### `tsavo_lion_mattress`: s034 s035
 **Done (illustrator, 2026-11-28)**: `assets/library/tsavo_lion_mattress.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`. Lion spans x -388..+387; mattress hangs from the mouth (x +296..+470) and its far end lies on the ground to x +520.
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: new lion-profile head (long boxy muzzle, flat bridge, wedge nose pad, square jaw, small ears set back), sprays kept inside the body. Mattress corner moved down into the new mouth line (y about -224); extents unchanged. Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 Same lion trotting away to the **right**, carrying a striped mattress (blue-and-white ticking `#5a7ab0` / `#ffffff`,
 plain, no person on it) in its mouth, the mattress hanging down beside its shoulder. Anchor bottom-centre, bbox x
 -420..520, y -380..0. Slightly absurd, not violent.
@@ -141,11 +148,13 @@ Must read on `#080c1c` (lighter bark edge) and stay below the top bar at scale 1
 
 ### `tree_with_beds`: s101 s102 s107
 **Done (illustrator, 2026-11-28)**: `assets/library/tree_with_beds.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`.
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: each bed now has a white pillow, a grey blanket with a hump and a fold, and short outlined legs. Sizes unchanged. Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 A broad camp tree with **three plain camp beds lashed into its branches** with rope (wooden frames, grey blankets, empty;
 nobody in them). Anchor bottom-centre, bbox x -360..360, y -820..0.
 
 ### `water_tank_beds`: s102
 **Done (illustrator, 2026-11-28)**: `assets/library/water_tank_beds.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`. Tank top ellipse centre y -514 (front rim -500, back rim -528); beds at x -170..-70 and +70..+170, top about -572.
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: same bed redesign (pillow, humped blanket, legs). Bed tops about -578 at the hump; tank top and clear centre x -60..60 unchanged. Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 A cylindrical riveted iron water tank `#7a8088` on a short timber stand, with two camp beds on top at the left and right
 ends. **Top surface y -520, x -170..170, centre x -60..60 left clear**: Doug sits there (seat at y -520). Anchor
 bottom-centre, bbox x -200..200, y -560..0.
@@ -175,6 +184,7 @@ Same anchor and bbox.
 
 ### `lion_trap`: s111-s117 s119-s123 s126 s127
 **Done (illustrator, 2026-11-28)**: `assets/library/lion_trap.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`. Guide posts of the drop door x -352..-298; ground line to x +-360. Note: anything placed inside is drawn over the front bars.
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: **new overlay `lion_trap_front`** (`assets/library/lion_trap_front.json`): front bars, cross rail, frame and guide posts, divider rails and the closed drop door, same anchor/bbox, transparent between the bars. **Director:** layer `lion_trap`, then the occupants, then `lion_trap_front` at the same x/y/scale/flip. `lion_trap` itself is unchanged visually. Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 Patterson's trap: a heavy box cage of wooden railway sleepers and iron rails, seen from the side with **barred front
 faces so the inside is visible**. Anchor bottom-centre, bbox x -340..340, y -330..0. Key points:
 - **Lion room** x -330..+90 (the bigger left part), **divider** of vertical iron rails at x +90..+110, **men's room**
@@ -185,6 +195,7 @@ faces so the inside is visible**. Anchor bottom-centre, bbox x -340..340, y -330
 
 ### `lion_trap_bent_bar`: s124 s125 s128
 **Done (illustrator, 2026-11-28)**: `assets/library/lion_trap_bent_bar.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`. Bent rail curves inward to about x -256 at y -60; dark gap x -338..-300, y -200..-20.
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: **new overlay `lion_trap_bent_bar_front`** (`assets/library/lion_trap_bent_bar_front.json`), including the bent rail; same layering as `lion_trap_front`. Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 The same trap after the shooting: the drop door is still down but **one of its rails is bent aside**, leaving a
 lion-sized gap at the left end (about x -340..-300, y -200..-20). Same anchor and bbox.
 
@@ -197,6 +208,7 @@ a red arrow at a pole).
 
 ### `donkey_carcass_outline`: s134 s135 s139 s140
 **Done (illustrator, 2026-11-28)**: `assets/library/donkey_carcass_outline.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`.
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: redrawn as a donkey: long head with a squared muzzle, two long ears laid back as separate shapes, short upright mane, thin folded legs with small hooves, thin tufted tail. Same fill/outline, no eye, nothing red. **Wire point (near hind hoof) now about (-226,-14)** (was -226,-16). Tail tuft reaches y -122 (inside the bbox). Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 Gore-free kill shape in the library `carcass_outline` style: a donkey lying on its side as one pale flat shape `#d9cfb8`
 with a `#6b6358` width-4 outline only, long ears flat, legs tucked, no eye detail, no wound, nothing red. Anchor
 bottom-centre, bbox x -230..230, y -130..0. A grey wire line runs from its hind leg to a stump on the left (s135).
@@ -223,6 +235,7 @@ on a tiny `stick_man_arms_up` in a tree (s153). No rifle, no badge.
 
 ### `narrator_hand_side`: s036 s037 s129
 **Done (illustrator, 2026-11-28)**: `assets/library/narrator_hand_side.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`. Pinch point (0,0) with a small pale sticker dot; fist x +44..+158.
+**Round 2 (illustrator, 2026-11-28, art review fixes)**: dark triangle removed: forefinger curled down over the front, thumb tip meeting it at the pinch (0,0), knuckle lines on top, white-glove keep_ink style, sticker dot kept. Fist x -6..+158, y -58..+60. Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
 The narrator's crude-tier arm and right hand (same look as `narrator_hand`: white hand, thick black outline with
 `keep_ink`, grey sleeve with darker cuff) entering **horizontally from the right edge**, thumb and forefinger pinching
 something. **Anchor (0,0) = the pinch point**; fist about x 0..+150, y -50..+60; sleeve from +150 to +900, y -45..+45,

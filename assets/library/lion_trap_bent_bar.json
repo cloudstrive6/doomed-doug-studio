@@ -1,6 +1,6 @@
 {
  "name": "lion_trap_bent_bar",
- "description": "lion_trap after the shooting: drop door still down but one of its rails is bent aside, leaving a lion-sized dark gap at the left end (about x -340..-300, y -200..-20). Same anchor and bbox.",
+ "description": "lion_trap after the shooting: drop door still down but one of its rails is bent aside, leaving a lion-sized dark gap at the left end (about x -340..-300, y -200..-20). Same anchor and bbox. LAYERING: draw this, then the occupants (lion, soldiers, Doug, lamp), then lion_trap_bent_bar_front at the same x/y/scale/flip so everyone sits behind the front bars.",
  "anchor": [
   0,
   0
@@ -251,6 +251,55 @@
    ],
    "width": 3,
    "color": "#4a3220"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     260,
+     -304
+    ],
+    [
+     260,
+     -226
+    ]
+   ],
+   "width": 4,
+   "color": "#3a3a40"
+  },
+  {
+   "type": "curve",
+   "points": [
+    [
+     260,
+     -226
+    ],
+    [
+     268,
+     -216
+    ],
+    [
+     256,
+     -212
+    ]
+   ],
+   "width": 4,
+   "color": "#3a3a40"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     -360,
+     0
+    ],
+    [
+     360,
+     0
+    ]
+   ],
+   "width": 3,
+   "color": "#5a4a3a"
   },
   {
    "type": "line",
@@ -568,40 +617,6 @@
    "color": "#000000"
   },
   {
-   "type": "line",
-   "points": [
-    [
-     260,
-     -304
-    ],
-    [
-     260,
-     -226
-    ]
-   ],
-   "width": 4,
-   "color": "#3a3a40"
-  },
-  {
-   "type": "curve",
-   "points": [
-    [
-     260,
-     -226
-    ],
-    [
-     268,
-     -216
-    ],
-    [
-     256,
-     -212
-    ]
-   ],
-   "width": 4,
-   "color": "#3a3a40"
-  },
-  {
    "type": "rect",
    "x": -352,
    "y": -340,
@@ -722,21 +737,6 @@
    "fill": "#4a4a52",
    "width": 3,
    "color": "#000000"
-  },
-  {
-   "type": "line",
-   "points": [
-    [
-     -360,
-     0
-    ],
-    [
-     360,
-     0
-    ]
-   ],
-   "width": 3,
-   "color": "#5a4a3a"
   }
  ]
 }
