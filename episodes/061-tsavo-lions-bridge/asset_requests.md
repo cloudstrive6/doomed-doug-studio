@@ -77,6 +77,7 @@ Same lion in a full charge / bound: forelegs reaching forward, hind legs pushing
 ### `tsavo_lion_sitting`: s091 s093
 **Done (illustrator, 2026-11-28)**: `assets/library/tsavo_lion_sitting.json`, preview `assets/previews/061-tsavo-lions-bridge-assets.png`. Nose about (+221,-399), eye about (+156,-412); head top -474 (4 over the bbox top).
 **Round 2 (illustrator, 2026-11-28, art review fixes)**: new lion-profile head (long boxy muzzle, flat bridge, wedge nose pad, square jaw, small ears set back), sprays kept inside the body. Nose (+217,-400); **eye moved to (+142,-414)** (was +156,-412); head top now about -460 (inside the bbox). Preview `assets/previews/061-tsavo-lions-bridge-fixes.png` (full set re-rendered in `061-tsavo-lions-bridge-assets.png`).
+**Round 3 (illustrator, 2026-11-28, visual review item 13)**: body redrawn so it reads as a cat, not a bear/seal: slimmer sloped back and round haunch, long straight front legs (chest up), bigger rounded ears with dark backs, clearer pale muzzle and chin, thin throat fringe, and the tail wrapped forward along the ground with the dark tuft curled up in front of the front paws. **Key points unchanged**: head group untouched in position, nose (+217,-400), eye (+142,-414), anchor bottom-centre, bbox x -200..222, y -470..0. New: tail tuft about (+208,-40). Preview `assets/previews/061-tsavo-lions-bridge-fixes3.png` (ground-line + navy version `061-tsavo-lions-bridge-fixes3-ground.png`). Director: s160-s162 can swap `tsavo_lion_looking_up` for this (flipped toward Doug) if you want the head turned to Doug, same anchor and bbox.
 Same lion sitting upright on its haunches, head level, calm hard stare (Doug's dental "patient"). Anchor bottom-centre,
 bbox x -200..220, y -470..0. Flipped in s091 to face Doug.
 
@@ -266,3 +267,34 @@ Clean diagram lion skull, side view facing right: cream bone `#efe2c0` with a br
 canine visibly broken off short** with a small dark spot at its root (the infection; not red). Centre anchor, bbox
 x -260..260, y -170..170; **the broken lower canine at about (+150,+40)** (a red ellipse circles it in s075) and a hair
 tuft is placed at about (+150,+60) in s167. No gums, no flesh.
+
+---
+
+## Round 3 (visual review items 4, 9, 11, 13; illustrator, 2026-11-28)
+
+Preview: `assets/previews/061-tsavo-lions-bridge-fixes3.png` (standard sheet), `assets/previews/061-tsavo-lions-bridge-fixes3-ground.png`
+(on a ground line, white and navy, plus thumbnail-size row), `assets/previews/061-tsavo-lions-bridge-rifle-lap.png` (rifles on two seated men).
+
+### `stick_man_arms_up` (fix): s046 s082 s097 s147 s148 s153 (also used in 060 s056)
+**Done.** A library asset, not a Doug pose (`studio/doug.py` untouched). The arms now start on the neck **below** the head at the
+shoulder point (0,-276) (stick_man_plain uses -278), go out sideways clear of the head to the elbows (+-135,-350) and then up to the
+hands (+-110,-560). **Changed key points:** hands were (+-55,-600), now (+-110,-560); bbox now x -140..+140, y -574..0. Unchanged: feet
+anchor (0,0), head centre (0,-368), so `patterson_hat` at feet -368 x scale still fits.
+
+### `rifle_held` (new): s116 s117 s119 s121 s122 s124 s127 (soldiers only)
+**Done.** `assets/library/rifle_held.json`. Plain 1890s bolt-action rifle, side view, horizontal, muzzle right: wood stock/fore-end
+`#8a5a2e`, steel barrel `#4a4f55`, bolt knob, trigger guard, dark butt plate. No flash, smoke or scope. Anchor (0,0) = centre of the
+fore-end; bbox x -184..+182, y -48..+28. Key points: rear hand (-90,-6), front hand (+50,-10), muzzle (+180,-14), butt (-182,+2).
+Across the lap of `stick_man_sitting` at scale S: place it at about seat + (50,-80) x S, scale 0.8 x S, `rotate: -25` (muzzle up and
+forward). **Flipped men: keep `rotate: -25` with `flip: true` and the muzzle points DOWN** (flip is applied before rotation); use
+`rotate: 25` with `flip: true` for the mirrored "muzzle up" look. Point the muzzles up or at the divider bars, never at the lion.
+Note: the CD condition at the top of this file says "No rifles anywhere"; this prop was requested in visual review item 11 for the
+"two soldiers with rifles" line. CD sign-off is needed before it goes in.
+
+### `tsavo_lion_lying` (new): s143 s157
+**Done.** `assets/library/tsavo_lion_lying.json`. Same lion (same head, colours, rounded ears) lying stretched out on its side, facing
+right, head resting low, **eyes closed as a soft downward curve** (peaceful, no X-eyes), mouth closed. No wounds, blood, tongue or claws.
+Anchor bottom-centre (ground y=0); bbox x -400..+425, y -185..0. Key points: nose about (+424,-62), closed eye about (+333,-92), back
+top about (-150,-180), tail tuft (-384,-24), front paw (+270,-13), hind paw (-326,-14). s157: at x~620, y~960 the anchor is the
+bottom-centre, so the lion's head points along the dashed line if not flipped. It survives `silhouette: true` (grey rim checked), but
+do **not** give it the red reveal glow: under a lying lion the red spray reads as a blood pool.

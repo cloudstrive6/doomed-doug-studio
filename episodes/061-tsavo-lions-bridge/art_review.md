@@ -148,3 +148,65 @@ crops most tiles (looking_up shows no head, the beds and trap tops are cut off),
 
 **Next:** the director applies items 1-3. I then check the final keyframes in context (s027, s111-s128, plus every hat shot)
 before `art_approved`.
+
+## Round 3: keyframe review (art director, 2026-11-28): FAIL (director fixes only, no asset changes)
+
+What I checked: all 15 contact sheets (s001-s174 + endslate) for style, plus full-res crops of s027, s064, s100, s111, s116, s120,
+s127, s131 and s153, and `shotlist.json` for the overlay order and the hat offsets.
+
+### Round 2 open items
+
+| Item | Result |
+|---|---|
+| 1 Trap layering, s111-s128 | **PASS.** All 14 trap shots draw `lion_trap` / `_bent_bar`, then the occupants, then `_front` at the same x, y and scale. In s116 the soldiers sit behind the front bars, and the lamp, lion and Doug-with-lunchbox (s126-s128) are inside too. |
+| 2 s027 lion head | **PASS.** The head is now scaled to the doorway, the muzzle comes out of the dark opening, the neck end is hidden in the black, the grey rim reads, and the red spray is gone (only an amber eye dot). Reads as "lion at the door", not a slab. |
+| 3 Patterson hat | **PASS.** Every standing/arms-up shot is at -368 x scale (s005 s006 s100 s106 s110 s111 s130 s151-s153 s157 s158). The sitting shots (s131-s135, s139-s143) use -218 x scale on `stick_man_sitting`, and the s131 zoom shows the hat sitting correctly on the head. |
+| s120 / s127 red glow | **FAIL.** See fix 1. |
+
+### Style across the sheets: mostly PASS
+
+Doug is on-model in every shot (cap, auto-white ink on the navies, black on cream). The HUD counter and DAYS board are consistent
+and inside the safe area. The zone ramp holds: sunset open, cream diagram cards, purple "Tent" night, navy thorn/trap/platform
+nights, near-black last lion and the death blacks. Lion silhouettes keep the approved head. Nothing gory: the donkey is pale and
+eyeless, the skull is clean bone, and the deaths are a cap, a lunchbox, a plank and eyes.
+
+### Fixes (all to the **director**)
+
+1. **s120, s127: remove the red `#e0201b` spray behind the trapped lion.** Inside the cage it fills the boards between the bars as
+   red speckle, right beside the soldiers (and Doug in s127). It reads as blood spatter in a box, which is the same blood-mist
+   problem we removed from s027. Replace it with the purple `#5e4670` glow (art bible "red glow" rule) or drop it. Add
+   `rim: {color: "#8a8a8a", px: 3}` to the `tsavo_lion` silhouette so it separates from the dark boards, as in s027. For the
+   "throwing itself against the bars" beat in s120, put 2-3 white motion strokes by the lion's shoulder. The `shake` camera is fine.
+   The red glow on the open-ground silhouettes (s002, s022, s028, s054, s139, s140, s152) is standing/walking animals on open
+   ground. That is the normal reveal glow, so keep it.
+2. **s112-s128: the same wide trap shot repeats too often.** s112-s117 is 6 identical framings in a row, s119-s122 is 4, and
+   s124-s128 is 5 (s114's 1.1 zoom doesn't change the read). This breaks the "not the same composition 5 times in a row" rule
+   for the most tense stretch of the video. Re-frame these as close inserts by scaling/offsetting the trap and its overlay together
+   (same values for both). No new drawings are needed.
+   - **s114:** close on the iron divider (trap ~2.5x, the divider rail near frame centre) with the `3 IN (7.5 CM)` marker between
+     two rails. Doug is optional.
+   - **s116:** close on the men's room: the two soldiers and the lamp fill the frame behind the front bars. Crop out the lion room.
+   - **s117:** close on the door end (the left posts and the door), with the warning triangle and Doug peeking in from the left.
+   - **s121:** close on the two frightened soldiers, with the edge of the lion silhouette visible through the divider. Keep
+     `TOO FRIGHTENED`.
+   - **s124:** close on the door's bent bar (`lion_trap_bent_bar` + `_front` ~2.5x). Keep the `ONE BAR` arrow.
+   - **s127:** close two-shot: Doug (gritted, lunchbox) and the soldier in the foreground, the lion silhouette through the divider.
+   After this the longest run of the wide framing is 2 (s112-s113, s119-s120, s125-s126). At close scale, keep the top rail
+   and bars out of the HUD zone (x 1300-1860, y 110-275) and below the chapter tab. Put the counter board back on top if you can't.
+3. **s064, s065: replace `lion_head_icon`.** The library icon is the old round egg head with small round ears and cheek puff. At
+   pride-row size it reads as hamsters, which is exactly the problem round 2 fixed on the episode lions. Use a row of small
+   `tsavo_lion_sitting` (~0.14 scale, feet on one baseline at y ~600, 110-120 px apart) under SMALL PRIDE / BIG PRIDE / TSAVO PRIDE.
+   They read as a pride and match the episode lion.
+4. **s111: off-palette and floating.** The flat `#2a4a6a` full-frame with no ground leaves the trap and Patterson hanging in space,
+   and that blue appears nowhere else in the episode. Use the Walkout night (navy `#0f1a36` sky, `#1e1b16` ground, ground line)
+   with the trap and Patterson on the ground line. If it is meant as an idea card, use the cream `#f4f1dc` diagram card and dark ink.
+5. **s143 (nit): s142 and s143 have the same frame** (platform, two sitters, dark ground). The only change is that the eyes are
+   removed. For "He shot it later that night", add the yellow `BANG` sound text (s123 style, no rifle drawn, per the CD
+   conditions) and have the lion eyes gone. Or cut to a tighter platform framing so the beat changes visibly.
+
+**Not an issue:** s001 is the thumbnail placeholder (graphic designer). The s129 counter text is cut by the hand on purpose. s100
+and s106 repeat the bridge on purpose, 6 shots apart.
+
+**Next:** the director applies fixes 1-4 (5 optional) and re-runs `python -m studio keyframes 061-tsavo-lions-bridge --shots
+s064,s065,s111,s114,s116,s117,s120,s121,s124,s127,s143`. I then re-check those shots only. When those pass, this is a PASS for art,
+and the visual-screener runs before `art_approved`.

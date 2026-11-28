@@ -1,6 +1,6 @@
 {
  "name": "stick_man_arms_up",
- "description": "Generic crude-tier stick man at exactly stick_man_plain proportions (Doug's line weight 5, big round white head with grey crescent, short hair, NO cap, neutral face) with both arms raised above the head as if holding something overhead: shoulders at (0,-288), elbows out at (+-90,-440), hands at (-55,-600) and (+55,-600), about 150 above the head top (-450). Anchor = feet (0,0); x -95..+95, y -614..0. Same size as Doug / stick_man_plain at the same scale. auto_ink.",
+ "description": "Generic crude-tier stick man at exactly stick_man_plain proportions (Doug's line weight 5, big round white head with grey crescent, short hair, NO cap, neutral face) with both arms raised as if cheering or holding something overhead. The arms start at the shoulders on the neck BELOW the head (0,-276), go out sideways clear of the head to the elbows (+-135,-350), then up to the hands (+-110,-560), about 110 above the head top (-450). Head centre (0,-368) as stick_man_plain. Anchor = feet (0,0); x -140..+140, y -574..0. auto_ink.",
  "anchor": [
   0,
   0
@@ -72,15 +72,15 @@
    "points": [
     [
      0,
-     -288
+     -276
     ],
     [
-     90,
-     -440
+     135,
+     -350
     ],
     [
-     55,
-     -600
+     110,
+     -560
     ]
    ],
    "width": 5,
@@ -91,15 +91,15 @@
    "points": [
     [
      0,
-     -288
+     -276
     ],
     [
-     -90,
-     -440
+     -135,
+     -350
     ],
     [
-     -55,
-     -600
+     -110,
+     -560
     ]
    ],
    "width": 5,
@@ -489,12 +489,12 @@
    "type": "line",
    "points": [
     [
-     55,
-     -600
+     110,
+     -560
     ],
     [
-     44,
-     -611
+     99,
+     -571
     ]
    ],
    "width": 5,
@@ -504,12 +504,12 @@
    "type": "line",
    "points": [
     [
-     55,
-     -600
+     110,
+     -560
     ],
     [
-     60,
-     -614
+     115,
+     -574
     ]
    ],
    "width": 5,
@@ -519,12 +519,12 @@
    "type": "line",
    "points": [
     [
-     -55,
-     -600
+     -110,
+     -560
     ],
     [
-     -44,
-     -611
+     -99,
+     -571
     ]
    ],
    "width": 5,
@@ -534,12 +534,12 @@
    "type": "line",
    "points": [
     [
-     -55,
-     -600
+     -110,
+     -560
     ],
     [
-     -60,
-     -614
+     -115,
+     -574
     ]
    ],
    "width": 5,
