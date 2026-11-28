@@ -101,3 +101,65 @@ For s109 and s163 I also rendered the mid-shot state (t=0.3), because the keyfra
 
 Re-screen after fixes: s003, s046, s047, s055-s057, s069-s071, s082, s091, s098, s109, s112-s128, s139-s143,
 s152, s153, s157, s159-s163, plus the s001 thumbnail.
+
+## Round 2: pre-render keyframes re-screen (2026-11-28)
+
+Screened: regenerated contact sheets sheet_01 to sheet_15 (all 174 shots + endslate). Full-size checks: s116, s117,
+s121, s124, s127, s161, s162, s163, s113, s055-s057, s046, s082, s147. I rendered mid-shot states (t=0.2-0.9) for
+s003, s109, s153 and s163 because their keyframes show only the end state.
+
+**VERDICT: FAIL** (3 required fixes, all small. Everything else from Round 1 is resolved.)
+
+### Round 1 items: status
+1. s109: **fixed.** At t=0.3 the paw grabs Doug (stand, shovel, gritted) at the sign. After the blackout the cap is
+   on the ground, the sign reads 0, and the ghost floats up. The locomotive now fits inside the frame.
+2. s163: **fixed.** Doug lies dead (X-eyes) at the base of the silhouetted tree with his cap beside him, plus THUD and
+   the eyes. It reads clearly as "fell out of the tree", with no gore.
+3. s098: **fixed.** The worker row is on the rails right of the engine, with a STOP arrow and a HUNDREDS label.
+4. s143 and s157: **fixed.** Both have a lying tan lion, closed eyes and no wounds. In s143 the BANG plus the lying
+   lion lands the payoff. In s157 the lion sits at the end of the 5 YARDS line.
+5. s152: **fixed.** A large tan charging lion with motion lines, in front of the grass. It reads instantly.
+6. s003: **fixed.** A tan prowling lion side-on, with ears and tail tuft. Doug at the top of the tree is readable.
+7. s091: **fixed.** The "open wide" tail points at Doug and "hi friend?" has been removed.
+8. s055-s057 and s069-s071: **fixed.** Doug's body and legs read against the ground strip and in the gate gap.
+9. `stick_man_arms_up`: **fixed.** The arms now attach at the shoulders (s046, s147, s148, s153). s082 uses small
+   figures on the caravan route, and the tone is fine.
+10. s046, s047, s153: **fixed.** The canopy clears the topbar. The s153 climbers are readable, with Patterson's hat
+    showing.
+11. Rifles: **fixed, and policy compliant.** `rifle_held` rests across each soldier's lap in every trap shot (s116,
+    s117, s119-s122, s124-s128). The stock is low-left and the muzzle points up-right, toward the men's-room wall or
+    roof. **The rifle never points at the lion, which is always on the left (lion room / outside).** This holds in
+    the close-ups s116, s121 and s127 at full size. Keep this orientation in any re-render.
+12. s114: **fixed.** The push-in shows a red double-arrow, "3 IN (7.5 CM)", and LION / MEN labels. Legible.
+13. The sitting lion in s091/s093 (redrawn `tsavo_lion_sitting`) is **fixed** and now reads as a lion. **s160-s162
+    are NOT fixed.** They use `tsavo_lion_looking_up`, which was not redrawn (see fix R2-1).
+14. Variety: **fixed.** New close-ups s113 (zoom), s116, s117, s121, s124, s127, s142, s161 and s162 break every run.
+    s012 is now an "11 + 24 = ABOUT 35" sum card. No run of 4 or more near-identical frames remains.
+15. s001 thumbnail: still "(thumbnail pending)". This is expected at this stage (scene_ref thumbnail, delivered at
+    packaging). I will screen it in the post-render round. It does not block this round.
+
+### Required fixes
+R2-1. **s161 (and s160, s162): the lion in the new close-up does not read as a lion.** `tsavo_lion_looking_up` at
+   scale 2.0 is a tan blob with a dog/bear head pointing straight up. It has no visible ears and no tail, and the
+   tail tuft floats as a loose brown ball on the ground at about (820, 875). The right foreleg is a flat outlined slab.
+   s161 is the shot where the lion is the only subject. **Illustrator:** redraw `tsavo_lion_looking_up` using the
+   Round-3 `tsavo_lion_sitting` construction (rounded ears, lion muzzle and chin, tail running from the rump to a
+   dark tuft by the front paws, two proper forelegs), with the head tilted up about 45° rather than vertical.
+   Re-key s160, s161 and s162.
+R2-2. **s127: the lion is a black silhouette blob at the left edge that reads as a bear's head.** This is the
+   "tight on Doug and the lion" beat, and s121/s122 just showed the lion in tan. **Director:** drop
+   `silhouette`/`rim` on the `tsavo_lion` in s127 (keep `appear: 0.3`) so it matches s121. The rifles stay as they are.
+R2-3. **s117 and s124: a half-sliced soldier sits on the right frame edge.** In s124 a head, rifle stub and body are
+   cut at x=1920. In s117 there is a sliver of head at about x=1910. **Director:** shift the group x by about -60
+   (s124) and about -40 (s117) so that soldier is fully in frame, or by about +120 so he is fully out. A clean
+   inclusion is preferred, since it shows the men are in there.
+
+### Minor (not blocking)
+- s162: a tree twig crosses the top of the DOUG DEATHS box at about (1400, 110), a branch runs
+  behind the DAYS WITHOUT box, and a detached "V" twig floats at the bottom-left (about 410, 1065). Trim the branch
+  ends or shift the group x by +80.
+- Carried over from Round 1, still open: the s164 rug is a plain oval (a lion-shaped rug would land the fact), and
+  the two lions in the s166/s170/s171 case still overlap into one shape.
+
+Re-screen after fixes: s117, s124, s127, s160-s162. Then post-render: samples, qc.json, s001 and the three thumbnails,
+Shorts.

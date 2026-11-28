@@ -210,3 +210,40 @@ and s106 repeat the bridge on purpose, 6 shots apart.
 **Next:** the director applies fixes 1-4 (5 optional) and re-runs `python -m studio keyframes 061-tsavo-lions-bridge --shots
 s064,s065,s111,s114,s116,s117,s120,s121,s124,s127,s143`. I then re-check those shots only. When those pass, this is a PASS for art,
 and the visual-screener runs before `art_approved`.
+
+## Round 4: keyframe re-review (art director, 2026-11-28): FAIL (one small director fix)
+
+What I checked: the round 3 shots at full res (s064, s065, s111, s114, s116, s117, s120, s121, s124, s127, s143), sheets 10-11 for the
+whole trap run in sequence (s111-s132), the new asset previews (`061-tsavo-lions-bridge-fixes3.png`, `-fixes3-ground.png`,
+`-rifle-lap.png`), and the lion layers in `shotlist.json` for s120-s127. I judged the rifles on style only. Whether rifles go in at all
+is the creative director's call, because the CD condition at the top of `asset_requests.md` says "No rifles anywhere".
+
+### New assets: PASS
+- **`stick_man_arms_up`:** the arms now start at the neck below the head and clear it. No more antennae. The head centre is unchanged, so the hat offset still fits.
+- **`tsavo_lion_sitting`:** reads as a cat now: ears, pale muzzle, long front legs and a tail tuft at the paws. It matches the episode lion and reads at 0.14 in the pride rows. Nit: the front legs are very straight, like planks. That is fine for this episode.
+- **`tsavo_lion_lying`:** peaceful, with a closed-eye curve and no wounds. It is the detailed tier and on palette. Not gory.
+- **`rifle_held`:** plain period rifle in flat wood and steel, with no flash or smoke. It is the same detail tier as the lamp and the lunchbox. On the laps the muzzles point up and away from the lion room.
+
+### Round 3 fixes
+| Fix | Result |
+|---|---|
+| 1 s120/s127 red spray | **PASS.** The red is gone, the glow is off and the grey rim is on. s120 has white motion strokes and no blood read. |
+| 2 Trap framing variety | **PASS.** s114 is close on the divider, s116 the men's room, s117 the door end, s121 the frightened soldiers, s124 the bent bar and s127 the two-shot. The wide framing now never runs more than 2 shots. The HUD and chapter tab stay legible over the close shots. |
+| 3 s064/s065 pride rows | **PASS.** The rows of small `tsavo_lion_sitting` sit on one baseline and read as a pride. No more hamsters. |
+| 4 s111 | **PASS.** Walkout navy, dark ground and ground line. Patterson and the trap stand on the ground. |
+| 5 s143 | **PASS.** The yellow BANG is s123 style, no rifle is drawn, and the lying lion is under the platform. The shot is now clearly different from s142. |
+
+### Fix (director)
+1. **s120, s127: the lion switches between a black silhouette and the tan lion inside the trap.** It is tan in s121, s122, s123 and
+   s125, but a black silhouette in s120 and s127. The trap interior is lamp-lit boards, so the tan lion is the consistent read.
+   In the s127 close crop, the silhouette's edge at the left frame edge is just a black blob with an ear, not a lion. Fix: on the
+   `tsavo_lion` layer in s120 and s127, remove `silhouette: true`, `glow_r` and `rim`, which makes it identical to s121.
+   Keep the `appear` timing. In s120, move the motion strokes about 60 px up and left so they sit on the shoulder and leave the head clear.
+
+### Nits (fix if cheap, not blocking)
+- **s117, s124:** a sliver of soldier head and rifle is cut by the right frame edge (x ~1840-1920). Either nudge the trap so the
+  soldier is fully out of frame, or drop that soldier's layers (man and rifle) from these two shots.
+
+**Next:** the director applies fix 1 and re-runs `python -m studio keyframes 061-tsavo-lions-bridge --shots s120,s127`. If s120
+and s127 show the tan lion, this is an art PASS and no further review round is needed. The visual-screener then runs before
+`art_approved`.
