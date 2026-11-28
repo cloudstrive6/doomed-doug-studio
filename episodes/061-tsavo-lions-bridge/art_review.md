@@ -110,3 +110,41 @@ Add to the art bible as a reusable HUD board once the episode ships.
 **Next:** illustrator applies fixes 1-8 and re-previews the lions, donkey, beds, hand and trap overlays. Director applies the
 layering in fix 5, the s027 neck placement and the hat -368 offset. Then I re-check the changed assets in context (s027, s091,
 s116, s121, s160 at minimum).
+
+## Round 2: re-check of fixes 1-8 (art director, 2026-11-28): PASS (assets) / director items OPEN
+
+What I checked: the 15 changed or new assets through `build/check_assets.py` (white, `#0f1a36` and silhouette + grey rim on
+`#080c1c`, against the requested bbox), plus zooms at 2.4-4x on the lion head, standing lion, looking_up, both bed sets,
+the hand and the donkey. I also re-rendered s027, s091, s102, s116 and s160 in context. Note: `assets/previews/061-tsavo-lions-bridge-fixes.png`
+crops most tiles (looking_up shows no head, the beds and trap tops are cut off), so it can't be used for approval. I judged from the re-renders.
+
+| Fix | Result |
+|---|---|
+| 1 Lion head | **PASS.** Long boxy muzzle, flat bridge, broad dark nose pad, squared jaw, closed flat mouth, small ears set back. All 7 lion drawings now read as a lean maneless lion. The head silhouette says "big cat". In context, s091 (sitting) now reads as a lioness, not a bear, and s160 (looking_up) reads as a lion staring up the tree. The CD conditions still hold: amber dot eye, flat brow, no smile, no teeth or claws. Every key-point move is within 15 units and is logged in `asset_requests.md`. The director should re-check the eye and nose anchors in sitting/looking_up/head shots. |
+| 2 Stray spray | **PASS.** No speckle outside the outlines on any lion, on navy or as silhouette. |
+| 3 looking_up brow | **PASS.** The brow sits on the forehead and the eye is a clean amber dot. |
+| 4 Throat fringe | **PASS.** 4 tapered strokes, no letter-like glyphs. |
+| 5 Trap overlays | **PASS (asset).** `lion_trap_front` and `lion_trap_bent_bar_front` contain bars, rails, posts, the door and the bent bar. Same anchor and bbox, transparent between the bars. |
+| 6 Donkey | **PASS.** Long squared head, two laid-back ears, upright mane, folded thin legs with hooves, tufted tail. Still pale, gore-free, no eye, nothing red. Reads as a donkey. |
+| 7 Beds | **PASS.** White pillow, grey humped blanket and short legs on both `tree_with_beds` and `water_tank_beds`. In s102 they read as beds. |
+| 8 narrator_hand_side | **PASS.** Dark triangle gone. Reads as a white-glove pinch (curled forefinger, thumb at 0,0, knuckle lines, sticker dot), and it matches `narrator_hand`. |
+
+**Asset verdict: APPROVED.** All 29 episode assets plus the 2 new overlays are approved for keyframes.
+
+### Still open (director): `shotlist.json` has not changed since round 1
+
+1. **Trap layering (fix 5), s111-s128:** no shot uses the overlays yet (0 references). In s116 the soldiers still sit over the
+   front bars. After each `lion_trap` / `lion_trap_bent_bar`, add the occupants (lion, soldiers, Doug, lamp), then
+   `lion_trap_front` / `lion_trap_bent_bar_front` at the same x, y, scale and flip.
+2. **s027 lion head:** the black `tsavo_lion_head` silhouette is still a huge slab beside the tent wall, not coming out of the
+   doorway. It also has no rim, so on `#3a3050` it reads as a black box, not a lion. Fixes:
+   - Place the head so the muzzle comes out of the dark doorway with the cut neck end (x -260) hidden inside it.
+   - Scale it down so it is no wider than the tent.
+   - Add `rim: {color: "#8a8a8a", px: 3}` so the muzzle and ear outline reads.
+   - Remove the red spray glow behind it: on the purple night it reads as a blood mist, which is gore-adjacent. If you want a
+     danger cue, use a pale amber eye glint or a plain dark vignette.
+3. **Patterson hat offset:** still -376 (s005: man y 810, hat y 689.7, scale 0.32, so 120.3/0.32 = 376). Use head-centre
+   **-368 x scale** in all 22 hat shots: s005 s006 s100 s106 s110 s111 s130-s135 s139-s143 s151-s153 s157 s158.
+
+**Next:** the director applies items 1-3. I then check the final keyframes in context (s027, s111-s128, plus every hat shot)
+before `art_approved`.

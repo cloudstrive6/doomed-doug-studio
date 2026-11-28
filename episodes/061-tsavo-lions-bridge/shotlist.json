@@ -836,8 +836,8 @@
      {
       "type": "wordart",
       "text": "UP A TREE",
-      "x": 960,
-      "y": 290,
+      "x": 520,
+      "y": 430,
       "size": 90,
       "appear": 0.15
      },
@@ -1604,7 +1604,7 @@
       "type": "asset",
       "name": "stick_man_plain",
       "x": 1240,
-      "y": 810,
+      "y": 832,
       "scale": 0.32,
       "appear": 0.55
      },
@@ -1612,7 +1612,7 @@
       "type": "asset",
       "name": "patterson_hat",
       "x": 1240,
-      "y": 689.7,
+      "y": 714.2,
       "scale": 0.32,
       "appear": 0.55
      },
@@ -1833,14 +1833,14 @@
       "type": "asset",
       "name": "stick_man_plain",
       "x": 1240,
-      "y": 810,
+      "y": 832,
       "scale": 0.32
      },
      {
       "type": "asset",
       "name": "patterson_hat",
       "x": 1240,
-      "y": 689.7,
+      "y": 714.2,
       "scale": 0.32
      },
      {
@@ -6621,35 +6621,41 @@
       "scale": 1.66
      },
      {
-      "type": "spray",
-      "x": 1300,
-      "y": 760.0,
-      "r": 260,
-      "color": "#e0201b",
-      "density": 0.32,
-      "appear": 0.35
-     },
-     {
       "type": "asset",
       "name": "tsavo_lion_head",
-      "x": 1300,
-      "y": 760,
-      "scale": 0.95,
+      "x": 1030,
+      "y": 790,
+      "scale": 0.45,
       "silhouette": true,
       "glow_r": 0,
-      "appear": 0.35
+      "appear": 0.35,
+      "rim": {
+       "color": "#8a8a8a",
+       "px": 3
+      }
      },
      {
       "type": "rect",
-      "x": 1470,
-      "y": 600,
-      "w": 460,
-      "h": 300,
-      "fill": "#3b3550",
-      "color": "#3b3550",
+      "x": 907,
+      "y": 768,
+      "w": 13,
+      "h": 70,
+      "fill": "#1a1410",
+      "color": "#1a1410",
       "width": 0,
       "boil": 0,
       "outline": false,
+      "appear": 0.35
+     },
+     {
+      "type": "circle",
+      "x": 1044,
+      "y": 778,
+      "r": 4,
+      "fill": "#e0a030",
+      "width": 0,
+      "outline": false,
+      "boil": 0,
       "appear": 0.35
      },
      {
@@ -8468,14 +8474,58 @@
      {
       "type": "rect",
       "x": 300,
-      "y": 400,
+      "y": 225,
       "w": 1060,
-      "h": 460,
+      "h": 635,
       "fill": "#3b3550",
       "color": "#3b3550",
       "width": 0,
       "boil": 0,
       "outline": false,
+      "appear": 0.6
+     },
+     {
+      "type": "circle",
+      "x": 1100,
+      "y": 420,
+      "r": 3,
+      "fill": "#e8e8f0",
+      "width": 0,
+      "outline": false,
+      "boil": 0.2,
+      "appear": 0.6
+     },
+     {
+      "type": "circle",
+      "x": 300,
+      "y": 380,
+      "r": 3,
+      "fill": "#e8e8f0",
+      "width": 0,
+      "outline": false,
+      "boil": 0.2,
+      "appear": 0.6
+     },
+     {
+      "type": "circle",
+      "x": 860,
+      "y": 330,
+      "r": 3,
+      "fill": "#e8e8f0",
+      "width": 0,
+      "outline": false,
+      "boil": 0.2,
+      "appear": 0.6
+     },
+     {
+      "type": "circle",
+      "x": 560,
+      "y": 300,
+      "r": 3,
+      "fill": "#e8e8f0",
+      "width": 0,
+      "outline": false,
+      "boil": 0.2,
       "appear": 0.6
      },
      {
@@ -12017,8 +12067,8 @@
      {
       "type": "wordart",
       "text": "ALARM SYSTEM",
-      "x": 600,
-      "y": 300,
+      "x": 470,
+      "y": 430,
       "size": 90,
       "appear": 0.3
      },
@@ -14219,17 +14269,6 @@
       "boil": 0.3
      },
      {
-      "type": "doug",
-      "x": 1100,
-      "y": 816.4,
-      "scale": 0.55,
-      "pose": [
-       "panic1",
-       "panic2"
-      ],
-      "expression": "shock"
-     },
-     {
       "type": "asset",
       "name": "thorn_fence",
       "x": 700,
@@ -14242,6 +14281,17 @@
       "x": 1500,
       "y": 880,
       "scale": 1.25
+     },
+     {
+      "type": "doug",
+      "x": 1100,
+      "y": 816.4,
+      "scale": 0.55,
+      "pose": [
+       "panic1",
+       "panic2"
+      ],
+      "expression": "shock"
      },
      {
       "type": "asset",
@@ -14748,8 +14798,8 @@
      {
       "type": "asset",
       "name": "question_mark",
-      "x": 1250,
-      "y": 420,
+      "x": 1210,
+      "y": 600,
       "scale": 0.6,
       "appear": 0.65
      },
@@ -15307,12 +15357,12 @@
      {
       "type": "arrow",
       "from": [
-       1000,
-       300
+       1080,
+       430
       ],
       "to": [
-       880,
-       470
+       915,
+       535
       ],
       "color": "#e0201b",
       "width": 9,
@@ -15488,8 +15538,8 @@
      {
       "type": "asset",
       "name": "exclamation_mark",
-      "x": 1700,
-      "y": 400,
+      "x": 1250,
+      "y": 600,
       "scale": 0.45,
       "appear": 0.7
      },
@@ -23714,7 +23764,7 @@
       "type": "asset",
       "name": "patterson_hat",
       "x": 560,
-      "y": 699.7,
+      "y": 702.2,
       "scale": 0.32,
       "appear": 0.0
      },
@@ -23993,9 +24043,9 @@
      {
       "type": "wordart",
       "text": "OUT OF REACH",
-      "x": 1300,
-      "y": 350,
-      "size": 90,
+      "x": 1400,
+      "y": 380,
+      "size": 80,
       "appear": 0.3
      },
      {
@@ -24228,7 +24278,7 @@
       "type": "label",
       "text": "TREES",
       "x": 500,
-      "y": 310,
+      "y": 175,
       "size": 40,
       "bold": true,
       "boil": 0.3,
@@ -24949,7 +24999,7 @@
       "type": "asset",
       "name": "patterson_hat",
       "x": 700,
-      "y": 669.6,
+      "y": 672.8,
       "scale": 0.4
      },
      {
@@ -27605,7 +27655,7 @@
       "type": "asset",
       "name": "patterson_hat",
       "x": 700,
-      "y": 770.8,
+      "y": 774.4,
       "scale": 0.45,
       "appear": 0.5
      },
@@ -27698,6 +27748,14 @@
       "appear": 0.15
      },
      {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 760,
+      "scale": 1.0,
+      "appear": 0.15
+     },
+     {
       "type": "wordart",
       "text": "ONE TRICK",
       "x": 960,
@@ -27724,7 +27782,7 @@
       "type": "asset",
       "name": "patterson_hat",
       "x": 400,
-      "y": 742.1,
+      "y": 745.4,
       "scale": 0.42
      },
      {
@@ -27940,6 +27998,13 @@
       "x": 1376.0,
       "y": 548.0,
       "scale": 0.35
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "text",
@@ -28176,6 +28241,13 @@
       "x": 1376.0,
       "y": 548.0,
       "scale": 0.35
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "label",
@@ -28419,6 +28491,13 @@
       "x": 1376.0,
       "y": 548.0,
       "scale": 0.35
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "line",
@@ -28683,16 +28762,23 @@
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1200.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34
      },
      {
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1424.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34,
       "flip": true
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "label",
@@ -28916,14 +29002,14 @@
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1200.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34
      },
      {
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1424.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34,
       "flip": true
      },
@@ -28943,6 +29029,13 @@
       "y": 548.0,
       "scale": 0.35,
       "appear": 0.4
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "label",
@@ -29180,16 +29273,23 @@
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1200.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34
      },
      {
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1424.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34,
       "flip": true
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "arrow",
@@ -29834,16 +29934,23 @@
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1200.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34
      },
      {
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1424.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34,
       "flip": true
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "label",
@@ -30097,14 +30204,14 @@
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1200.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34
      },
      {
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1424.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34,
       "flip": true
      },
@@ -30126,6 +30233,13 @@
       "silhouette": true,
       "glow_r": 0,
       "appear": 0.1
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "doug",
@@ -30358,14 +30472,14 @@
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1200.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34
      },
      {
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1424.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34,
       "flip": true
      },
@@ -30375,6 +30489,13 @@
       "x": 768.0,
       "y": 868.0,
       "scale": 0.42
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "wordart",
@@ -30617,14 +30738,14 @@
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1200.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34
      },
      {
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1424.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34,
       "flip": true
      },
@@ -30634,6 +30755,13 @@
       "x": 768.0,
       "y": 868.0,
       "scale": 0.42
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "doug",
@@ -30856,6 +30984,13 @@
       "x": 400,
       "y": 880,
       "scale": 0.26
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 520,
+      "y": 900,
+      "scale": 1.0
      },
      {
       "type": "text",
@@ -31187,16 +31322,23 @@
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1200.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34
      },
      {
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1424.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34,
       "flip": true
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_bent_bar_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "arrow",
@@ -31450,16 +31592,23 @@
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1200.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34
      },
      {
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1424.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.34,
       "flip": true
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_bent_bar_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "asset",
@@ -31704,14 +31853,14 @@
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1168.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.32
      },
      {
       "type": "asset",
       "name": "stick_man_sitting",
-      "x": 1472.0,
-      "y": 868.0,
+      "x": 1432.0,
+      "y": 861.0,
       "scale": 0.32,
       "flip": true
      },
@@ -31729,6 +31878,13 @@
       "x": 1340.8,
       "y": 857.2,
       "scale": 0.24
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "asset",
@@ -31966,14 +32122,14 @@
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1168.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.32
      },
      {
       "type": "asset",
       "name": "stick_man_sitting",
-      "x": 1472.0,
-      "y": 868.0,
+      "x": 1432.0,
+      "y": 861.0,
       "scale": 0.32,
       "flip": true
      },
@@ -32010,6 +32166,13 @@
       "silhouette": true,
       "glow_r": 0,
       "appear": 0.3
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "label",
@@ -32229,14 +32392,14 @@
       "type": "asset",
       "name": "stick_man_sitting",
       "x": 1168.0,
-      "y": 868.0,
+      "y": 861.0,
       "scale": 0.32
      },
      {
       "type": "asset",
       "name": "stick_man_sitting",
-      "x": 1472.0,
-      "y": 868.0,
+      "x": 1432.0,
+      "y": 861.0,
       "scale": 0.32,
       "flip": true
      },
@@ -32263,6 +32426,13 @@
       "fill": "#1a1a1a",
       "color": "#000000",
       "width": 2
+     },
+     {
+      "type": "asset",
+      "name": "lion_trap_bent_bar_front",
+      "x": 960,
+      "y": 900,
+      "scale": 1.6
      },
      {
       "type": "arrow",
@@ -32719,7 +32889,7 @@
       "type": "asset",
       "name": "patterson_hat",
       "x": 560,
-      "y": 744.6,
+      "y": 747.5,
       "scale": 0.36
      },
      {
@@ -32933,9 +33103,9 @@
      {
       "type": "text",
       "text": "THE PLATFORM",
-      "x": 960,
-      "y": 420,
-      "size": 130,
+      "x": 860,
+      "y": 250,
+      "size": 110,
       "color": "#e0201b",
       "bold": true,
       "boil": 0.3,
@@ -34157,9 +34327,9 @@
      {
       "type": "wordart",
       "text": "CRAZY STRUCTURE",
-      "x": 1450,
-      "y": 600,
-      "size": 80,
+      "x": 1440,
+      "y": 820,
+      "size": 60,
       "appear": 0.3
      },
      {
@@ -36133,7 +36303,7 @@
       "type": "label",
       "text": "LATER THAT NIGHT",
       "x": 960,
-      "y": 330,
+      "y": 250,
       "size": 44,
       "bold": true,
       "boil": 0.3,
@@ -40404,8 +40574,8 @@
      {
       "type": "label",
       "text": "27 DEC",
-      "x": 960,
-      "y": 330,
+      "x": 560,
+      "y": 390,
       "size": 44,
       "bold": true,
       "boil": 0.3,
@@ -41893,7 +42063,7 @@
       "type": "asset",
       "name": "patterson_hat",
       "x": 1700,
-      "y": 932.2,
+      "y": 934.9,
       "scale": 0.34,
       "appear": 0.15
      },
@@ -44566,7 +44736,7 @@
       "type": "asset",
       "name": "patterson_hat",
       "x": 1500,
-      "y": 947.2,
+      "y": 949.6,
       "scale": 0.3
      },
      {
@@ -44792,7 +44962,7 @@
       "type": "asset",
       "name": "patterson_hat",
       "x": 910,
-      "y": 292.3,
+      "y": 293.8,
       "scale": 0.18,
       "appear": 0.2
      },
@@ -51711,7 +51881,7 @@
       "type": "asset",
       "name": "patterson_hat",
       "x": 1100,
-      "y": 832.2,
+      "y": 834.9,
       "scale": 0.34
      },
      {
@@ -52273,14 +52443,14 @@
       "type": "asset",
       "name": "stick_man_plain",
       "x": 1500,
-      "y": 940,
+      "y": 850,
       "scale": 0.36
      },
      {
       "type": "asset",
       "name": "patterson_hat",
       "x": 1500,
-      "y": 804.6,
+      "y": 717.5,
       "scale": 0.36
      },
      {
@@ -52294,7 +52464,7 @@
      {
       "type": "doug",
       "x": 1700,
-      "y": 888.3,
+      "y": 798.3,
       "scale": 0.34,
       "pose": "stand",
       "expression": "hopeful",
@@ -60176,8 +60346,8 @@
      {
       "type": "wordart",
       "text": "BEHIND GLASS",
-      "x": 960,
-      "y": 220,
+      "x": 1400,
+      "y": 950,
       "size": 80,
       "appear": 0.15
      },
